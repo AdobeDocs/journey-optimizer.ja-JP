@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3cbda018a1380e13ba3670563240238367517353
+source-git-commit: c6553c3012b1be39d8ade96444e3c1b9ded63fa5
 workflow-type: tm+mt
-source-wordcount: '2364'
+source-wordcount: '2360'
 ht-degree: 88%
 
 ---
@@ -335,44 +335,20 @@ ht-degree: 88%
       + [Journey Optimizerでの LINE チャネルの設定](using/line/line-configuration.md)
       + [LINE メッセージの作成](using/line/create-line.md)
       + [LINE メッセージの確認と送信](using/line/send-line.md)
-+ ランディングページ {#landing-pages}
-   + [ランディングページの基本を学ぶ](using/landing-pages/get-started-lp.md)
-   + [ランディングページの作成](using/landing-pages/create-lp.md)
-   + コンテンツのデザイン {#landing-pages-design}
-      + [ランディングページの設計について](using/landing-pages/design-lp.md)
-      + [ランディングページのコンテンツの作成](using/landing-pages/lp-content.md)
-      + [テンプレートの作成](using/landing-pages/lp-templates.md)
-      + [カスタム JavaScript の追加](using/landing-pages/lp-custom-js.md)
-   + [サブスクリプションリストの作成](using/landing-pages/subscription-list.md)
-   + [ユースケースを通じて学ぶ](using/landing-pages/lp-use-cases.md)
-   + ランディングページの設定 {#lp-configuration}
++ コンテンツ管理 {#content-management}
+   + ランディングページ {#landing-pages}
+      + [ランディングページの基本を学ぶ](using/landing-pages/get-started-lp.md)
+      + [ランディングページの作成](using/landing-pages/create-lp.md)
+      + コンテンツのデザイン {#landing-pages-design}
+         + [ランディングページの設計について](using/landing-pages/design-lp.md)
+         + [ランディングページのコンテンツの作成](using/landing-pages/lp-content.md)
+         + [テンプレートの作成](using/landing-pages/lp-templates.md)
+         + [カスタム JavaScript の追加](using/landing-pages/lp-custom-js.md)
+      + [サブスクリプションリストの作成](using/landing-pages/subscription-list.md)
+      + [ユースケースを通じて学ぶ](using/landing-pages/lp-use-cases.md)
+      + ランディングページの設定 {#lp-configuration}
       + [ランディングページのサブドメインの設定](using/landing-pages/lp-subdomains.md)
       + [ランディングページプリセットの定義](using/landing-pages/lp-presets.md)
-+ コンテンツ管理 {#content-management}
-   + コンテンツ生成用 AI アシスタント{#ai-assistant}
-      + [AI アシスタントの基本を学ぶ](using/content-management/gs-generative.md)
-      + [AI によるメール生成](using/content-management/generative-email.md)
-      + [AI によるプッシュ生成](using/content-management/generative-push.md)
-      + [AI による SMS 生成](using/content-management/generative-sms.md)
-      + [AI による web 生成](using/content-management/generative-web.md)
-      + [AI によるコンテンツ実験](using/content-management/generative-experimentation.md)
-      + [AI によるランディングページ](using/content-management/generative-lp.md)
-      + [AI アシスタントのユースケース](using/content-management/generative-uc.md)
-      + ブランド（ベータ版）{#brands}
-         + [ブランドの作成と管理](using/content-management/brands.md)
-         + [ブランドの整合性スコアの評価](using/content-management/brands-score.md)
-   + 多言語コンテンツの操作{#content-multilingual}
-      + [多言語コンテンツの基本を学ぶ](using/content-management/multilingual-gs.md)
-      + [ロケールの作成](using/content-management/multilingual-locale.md)
-      + [言語プロバイダーの作成](using/content-management/multilingual-provider.md)
-      + [手動翻訳を使用した多言語コンテンツの作成](using/content-management/multilingual-manual.md)
-      + [自動翻訳を使用した多言語コンテンツの作成](using/content-management/multilingual-automated.md)
-   + コンテンツ実験の操作 {#content-experiment}
-      + [コンテンツ実験の基本を学ぶ](using/content-management/get-started-experiment.md)
-      + [コンテンツ実験を作成](using/content-management/content-experiment.md)
-      + テクニカルノート {#technotes}
-         + [統計計算について](using/content-management/experiment-calculations.md)
-         + [実験レポートの統計計算について](using/content-management/experiment-report-calculations.md)
    + パーソナライゼーション {#personalization}
       + [パーソナライゼーションの概要](using/personalization/personalize.md)
       + [パーソナライゼーションの追加](using/personalization/personalization-build-expressions.md)
@@ -412,6 +388,30 @@ ht-degree: 88%
       + [動的コンテンツの基本を学ぶ](using/personalization/get-started-dynamic-content.md)
       + [条件付きルールの作成](using/personalization/create-conditions.md)
       + [動的コンテンツの作成](using/personalization/dynamic-content.md)
+   + コンテンツ生成用 AI アシスタント{#ai-assistant}
+      + [AI アシスタントの基本を学ぶ](using/content-management/gs-generative.md)
+      + [AI によるメール生成](using/content-management/generative-email.md)
+      + [AI によるプッシュ生成](using/content-management/generative-push.md)
+      + [AI による SMS 生成](using/content-management/generative-sms.md)
+      + [AI による web 生成](using/content-management/generative-web.md)
+      + [AI によるコンテンツ実験](using/content-management/generative-experimentation.md)
+      + [AI によるランディングページ](using/content-management/generative-lp.md)
+      + [AI アシスタントのユースケース](using/content-management/generative-uc.md)
+      + ブランド（ベータ版）{#brands}
+         + [ブランドの作成と管理](using/content-management/brands.md)
+         + [ブランドの整合性スコアの評価](using/content-management/brands-score.md)
+   + 多言語コンテンツ{#content-multilingual}
+      + [多言語コンテンツの基本を学ぶ](using/content-management/multilingual-gs.md)
+      + [ロケールの作成](using/content-management/multilingual-locale.md)
+      + [言語プロバイダーの作成](using/content-management/multilingual-provider.md)
+      + [手動翻訳を使用した多言語コンテンツの作成](using/content-management/multilingual-manual.md)
+      + [自動翻訳を使用した多言語コンテンツの作成](using/content-management/multilingual-automated.md)
+   + コンテンツ実験 {#content-experiment}
+      + [コンテンツ実験の基本を学ぶ](using/content-management/get-started-experiment.md)
+      + [コンテンツ実験を作成](using/content-management/content-experiment.md)
+      + テクニカルノート {#technotes}
+         + [統計計算について](using/content-management/experiment-calculations.md)
+         + [実験レポートの統計計算について](using/content-management/experiment-report-calculations.md)
 + オーディエンス、プロファイル、ID{#audiences-profiles-identities}
    + オーディエンス {#audiences}
       + [オーディエンスの基本を学ぶ](using/audience/about-audiences.md)
