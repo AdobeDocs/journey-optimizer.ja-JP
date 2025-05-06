@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6b7ec8d97a9b8156c615adf19774dab70d2b7451
+source-git-commit: 192542cf938c583093638c71a3d8728bbaf238b2
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 49%
+source-wordcount: '958'
+ht-degree: 48%
 
 ---
 
@@ -22,6 +22,15 @@ ht-degree: 49%
 
 [!DNL Adobe Journey Optimizer] は、新機能、既存機能の強化、およびバグ修正を継続的に提供します。これらのリリースノートでは、すべての変更が各月の最終週にまとめられます。[!DNL Adobe Journey Optimizer] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}を参照してください。
 
+## 2025 年 5 月更新 {#25-5-rn}
+
+* **パーソナライゼーションのための錠剤のアクティベーション** – 公開日：2025 年 5 月 5 日（PT）
+
+  パーソナライゼーションエディターに新しい「ピル」ボタンが追加されました。有効にすると、プロファイルとコンテキストの属性が錠剤として表示され、コードの読みやすさが向上します。 [詳細情報](../personalization/personalization-build-expressions.md#options)
+
+  >[!AVAILABILITY]
+  >
+  >この機能は、今後 30 日間にわたってすべての環境に徐々に展開される予定です。
 
 ## 2025 年 4 月リリースノート {#25-4-rn}
 
@@ -260,10 +269,6 @@ ht-degree: 49%
   パッケージのエクスポート機能とインポート機能を使用して、複数のサンドボックス間でキャンペーンをコピーできるようになりました。キャンペーンは、プロファイル、オーディエンス、スキーマ、インラインメッセージおよび依存オブジェクトに関連するすべての項目と共にコピーされます。決定項目、データ使用ラベル、言語設定など、一部の項目はコピーされません。[詳細情報](../configuration/copy-objects-to-sandbox.md#custom-actions)
 
 **パーソナライゼーション**
-
-<!--- **Pills activation**  
-
-  A new "Pills" button has been to the personalization editor. When enabled, profile and contextual attributes display as pills, enhancing the readability of your code.-->
 
 * **新しいコンテキスト属性**
 
