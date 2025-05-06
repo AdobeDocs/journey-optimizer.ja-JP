@@ -45,12 +45,12 @@ Enterprise ライセンスを使用すると、Adobe Express エディターに�
 
 +++Adobe Expressの Enterprise ライセンスを使用するユーザーが利用できるユースケース
 
-* [ 背景の削除 ](https://helpx.adobe.com/express/create-and-edit-images/edit-images/remove-background.html)
-* [ オブジェクトを削除 ](https://helpx.adobe.com/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)
-* [ 消去 ](https://helpx.adobe.com/express/create-and-edit-images/edit-images/eraser.html)
-* [ オブジェクトの挿入 ](https://helpx.adobe.com/express/adobe-express-on-mobile/create-and-edit-designs/generative-fill-mobile.html)
-* [ トリミング ](https://helpx.adobe.com/express/create-and-edit-images/edit-images/crop-and-shape-images.html)
-* [ エフェクト ](https://helpx.adobe.com/express/add-effects-to-your-designs/add-images-and-visuals/apply-image-filters.html)
+* [ 背景の削除 ](https://helpx.adobe.com/jp/express/create-and-edit-images/edit-images/remove-background.html)
+* [ オブジェクトを削除 ](https://helpx.adobe.com/jp/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)
+* [ 消去 ](https://helpx.adobe.com/jp/express/create-and-edit-images/edit-images/eraser.html)
+* [ オブジェクトの挿入 ](https://helpx.adobe.com/jp/express/adobe-express-on-mobile/create-and-edit-designs/generative-fill-mobile.html)
+* [ トリミング ](https://helpx.adobe.com/jp/express/create-and-edit-images/edit-images/crop-and-shape-images.html)
+* [ エフェクト ](https://helpx.adobe.com/jp/express/add-effects-to-your-designs/add-images-and-visuals/apply-image-filters.html)
 
 +++
 
