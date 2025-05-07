@@ -162,4 +162,4 @@ API 資格情報を作成したら、JWT 認証に必要な次のフィールド
 
 ## チュートリアルビデオ {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3431625)
+>[!VIDEO](https://video.tv.adobe.com/v/3443607?captions=jpn)
