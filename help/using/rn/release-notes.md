@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5873d3dfde3ff7e7e2ac94c7d9b62aa1245c707b
+source-git-commit: 72553cb3570b375b5bdf9cdebbfbf17e52c805da
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '926'
 ht-degree: 48%
 
 ---
@@ -171,7 +171,7 @@ ht-degree: 48%
 <tr>
 <td>
 <p>Adobe Journey OptimizerはAdobe Expressと統合され、クリエイティブアセットを journey orchestration とシームレスに接続できるようになりました。 この統合により、キャンペーン全体でパーソナライズされたコンテンツを設計およびデプロイするプロセスが簡素化されます。 </p>
-<p>この統合は、一連の組織でのみ使用できます（使用制限あり）。 アクセス権を取得するには、Adobe担当者にお問い合わせください</p>
+<p>この統合は、現在、Healthcare Shield またはプライバシーとセキュリティシールドでは使用できません。</p>
 <img src="assets/do-not-localize/express_resize.gif">
 <p>詳しくは、<a href="../integrations/express.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
