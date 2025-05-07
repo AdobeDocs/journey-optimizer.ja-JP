@@ -8,7 +8,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
 source-wordcount: '335'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -16,19 +16,19 @@ ht-degree: 85%
 
 ## 最新情報
 
-Journey Optimizer 製品とドキュメントの最新の機能強化の概要について説明します。機能、改善点、修正の包括的なリストについては、詳細な[リリースノート](using/rn/release-notes.md)を参照してください。製品ドキュメントの最新の変更点については、[ ドキュメントの更新ページ ](using/rn/documentation-updates.md) を参照してください。
+Journey Optimizer 製品とドキュメントの最新の機能強化の概要について説明します。機能、改善点、修正の包括的なリストについては、詳細な[リリースノート](using/rn/release-notes.md)を参照してください。製品ドキュメントの最新の変更について詳しくは、[ドキュメントの更新ページ](using/rn/documentation-updates.md)を参照してください。
 
 >[!BEGINTABS]
 
->[!TAB 2025 年 4 月リリース ]
+>[!TAB 2025年4月リリース]
 
-4 月リリースが公開されました。 リリースノートを参照して、新機能、変更点および機能強化を確認してください。
+4月リリースが公開されました。リリースノートを参照して、新機能、変更点および機能強化を確認してください。
 
 [![詳細情報](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
->[!TAB Adobe Expressの統合 ]
+>[!TAB Adobe Express の統合]
 
-dobe Journey OptimizerがAdobe Expressと統合され、クリエイティブアセットを journey orchestration とシームレスに接続できるようになりました。
+Adobe Journey Optimizer は、Adobe Express と統合され、クリエイティブアセットを Journey Orchestration とシームレスに接続できるようになりました。
 
 [![詳細情報](using/assets/do-not-localize/learn-more-button.svg)](using/integrations/express.md)
 
@@ -36,7 +36,7 @@ dobe Journey OptimizerがAdobe Expressと統合され、クリエイティブア
 
 ✨ [AI アシスタント](../help/using/content-management/gs-generative.md)ライブ機能プレビューで実際のエクスペリエンスに浸りましょう。このプレビューは、その機能を直接探索し、その機能を完全に理解できるように設計されています。
 
-[![ 詳細情報 ](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/ja/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![詳細情報](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/ja/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
 >[!TAB CJA でのレポート]
 

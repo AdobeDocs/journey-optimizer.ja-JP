@@ -11,7 +11,7 @@ exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
 source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
 workflow-type: tm+mt
 source-wordcount: '1237'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -188,7 +188,7 @@ Journey Optimizer パーソナライゼーションエディターが更新さ�
 
 **ビジネスルール**
 
-バッチセグメント化を使用したジャーニーとキャンペーンで、毎日のフリークエンシーキャップを使用できるようになりました。毎日のフリークエンシーキャップルールの正確性を確保するには、キャンペーンまたはジャーニーを作成する際に、最も優先度の高い名前空間を選択します。名前空間の優先度について詳しくは、[Platform ID サービスガイド ](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"} を参照してください
+バッチセグメント化を使用したジャーニーとキャンペーンで、毎日のフリークエンシーキャップを使用できるようになりました。毎日のフリークエンシーキャップルールの正確性を確保するには、キャンペーンまたはジャーニーを作成する際に、最も優先度の高い名前空間を選択します。名前空間の優先度について詳しくは、[Platform ID サービスガイド](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}を参照してください
 
 ルールセットでの毎日のフリークエンシーキャップは、一連の組織のみが使用できます（限定提供）。アクセスするには、アドビ担当者にお問い合わせください。
 
@@ -196,7 +196,7 @@ Journey Optimizer パーソナライゼーションエディターが更新さ�
 
 **コンテンツテンプレート**
 
-HTML タイプのコンテンツテンプレートは非推奨（廃止予定）になりました。 なお、[!DNL Journey Optimizer] で以前に作成した既存のHTML コンテンツテンプレートは、引き続き使用できます。 [ 詳しくは、コンテンツテンプレートを参照してください ](../content-management/content-templates.md)
+HTML タイプのコンテンツテンプレートは非推奨（廃止予定）になりました。[!DNL Journey Optimizer] で以前作成した既存の HTML コンテンツテンプレートは、引き続き使用できます。[詳しくは、コンテンツテンプレートを参照してください](../content-management/content-templates.md)
 
 
 <!--**Deliverability**
@@ -237,13 +237,13 @@ You can now choose to have your emails relayed to your SMTP servers instead of b
 <table>
 <thead>
 <tr>
-<th><strong>AI アシスタントでランディングページを生成</strong><br/></th>
+<th><strong>AI アシスタントを使用したランディングページの生成</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>AI アシスタントを使用して、完全なページデザイン、パーソナライズされたテキスト、カスタマイズされたビジュアルなど、ランディングページに魅力的なコンテンツを作成できるようになりました。</p>
+<p>AI アシスタントを使用して、完全なページデザイン、パーソナライズされたテキスト、カスタマイズされたビジュアルなど、ランディングページ用の魅力的なコンテンツを作成できるようになりました。</p>
 <img src="assets/do-not-localize/ai-lp.gif">
 <p>詳しくは、<a href="../content-management/generative-lp.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
@@ -255,7 +255,7 @@ You can now choose to have your emails relayed to your SMTP servers instead of b
 <table>
 <thead>
 <tr>
-<th><strong>AI アシスタントを使用したブランド（Beta）</strong><br/></th>
+<th><strong>AI アシスタントを使用したブランド（ベータ版）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
