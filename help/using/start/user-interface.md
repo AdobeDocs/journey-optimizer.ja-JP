@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: d3bae15a3b9ae53c4f520a3867026c47938bcd62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1440'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->* お使いの環境で使用できるコンポーネントと機能は、[ 権限 ](../administration/permissions.md) および [ ライセンスパッケージ ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} によって異なります。 ご不明な点について詳しくは、アドビカスタマーサクセスマネージャーまたはアドビ担当者までお問い合わせください。
+>* 環境で使用できるコンポーネントと機能は、[権限](../administration/permissions.md)と[ライセンスパッケージ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}によって異なります。ご不明な点について詳しくは、アドビカスタマーサクセスマネージャーまたはアドビ担当者までお問い合わせください。
 >
 >* このドキュメントは、製品のユーザーインターフェイスの最新の変更を反映して、頻繁に更新されます。ただし、一部のスクリーンショットは、ユーザーインターフェイスと少し異なる場合があります。
 >
@@ -90,7 +90,7 @@ ht-degree: 95%
 
 * **[!UICONTROL クエリ]**：Adobe Experience Platform クエリサービスを使用すると、クエリの作成と実行、実行済みのクエリの表示、組織内のユーザーが保存したクエリへのアクセスなどを行えます。[詳細情報](../data/get-started-queries.md)
 
-* **[!UICONTROL 監視]**：このメニューを使用すると、Adobe Experience Platform ユーザーインターフェイス内でデータの取得を監視できます。詳しくは、[Adobe Experience Platform ドキュメントを参照してください ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=ja){target="_blank"}
+* **[!UICONTROL 監視]**：このメニューを使用すると、Adobe Experience Platform ユーザーインターフェイス内でデータの取得を監視できます。詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/quality/monitor-data-ingestion.html?lang=ja){target="_blank"}を参照してください
 
 ### [!UICONTROL 接続] {#left-nav-connections}
 
@@ -134,7 +134,7 @@ ht-degree: 95%
 
 * **[!UICONTROL アラート]** - ユーザーインターフェイスを使用すると、Adobe Experience Platform の Observability Insights で明らかになった指標に基づいて、受信したアラートの履歴を表示できます。また、UI を使用すると、使用可能なアラートルールの表示、有効化および無効化を行うこともできます。[詳細情報](../reports/alerts.md)
 
-* **[!UICONTROL サンドボックス]** - Adobe Experience Platform が提供するサンドボックスを使用すると、単一のインスタンスを別々の仮想環境に分割して、デジタルエクスペリエンスアプリケーションの開発と展開に役立てることができます。さらに、パッケージの書 [!DNL Journey Optimizer] 出し機能と読み込み機能を使用して、複数のサンドボックス間でジャーニー、コンテンツテンプレート、フラグメントなどのオブジェクトをコピーできます。 [詳細情報](../administration/sandboxes.md)
+* **[!UICONTROL サンドボックス]** - Adobe Experience Platform が提供するサンドボックスを使用すると、単一のインスタンスを別々の仮想環境に分割して、デジタルエクスペリエンスアプリケーションの開発と展開に役立てることができます。さらに、[!DNL Journey Optimizer] では、パッケージのエクスポート機能とインポート機能を使用して、ジャーニー、コンテンツテンプレート、フラグメントなどのオブジェクトを複数のサンドボックス間でコピーできます。[詳細情報](../administration/sandboxes.md)
 
 * **[!UICONTROL チャネル]**：このセクションを使用すると、サブドメイン、設定、配信品質の設定などのチャネルを設定できます。[詳細情報](../configuration/get-started-configuration.md)
 

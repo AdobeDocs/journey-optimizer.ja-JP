@@ -9,9 +9,9 @@ level: Experienced
 keywords: プラットフォーム, データレイク, 作成, レイク, データセット, プロファイル
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
 source-git-commit: b27ddcc88ca4b4209c9d29974a0b0d0dbe98cc94
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '847'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Adobe Experience Platform に取り込まれたすべてのデータは、デー
 
 >[!NOTE]
 >
->2024 年 11 月 1 日（PT）以降、ストリーミングセグメント化では、Journey Optimizerのトラッキングデータセットおよびフィードバックデータセットからの送信イベントと開始イベントの使用をサポートしなくなりました。 さらに、2025 年 2 月の時点で、Time-to-Live （TTL）ガードレールが、Journey Optimizer システム生成データセットにロールアウトされています。 [詳細情報](datasets-ttl.md)
+>2024年11月1日（PT）以降、ストリーミングセグメント化では、Journey Optimizer のトラッキングデータセットとフィードバックデータセットからの送信イベントと開封イベントの使用がサポートされなくなります。さらに、2025年2月以降、Journey Optimizer システム生成データセットに対して、有効期間（TTL）ガードレールがロールアウトされます。[詳細情報](datasets-ttl.md)
 
 データセットの名前を選択して、そのデータセットのアクティビティ画面にアクセスし、選択したデータセットの詳細を確認します。「アクティビティ」タブには、消費されるメッセージの割合を視覚化したグラフと、成功および失敗したバッチのリストが含まれます。
 
@@ -64,7 +64,7 @@ Adobe Journey Optimizer のシステムデータセットを以下に示しま�
 
 * _送信時間の最適化スコア／エンゲージメントスコア_：ジャーニー AI の出力スコア。
 
-各スキーマのフィールドと属性の完全なリストを表示するには、[Journey Optimizer schema dictionary](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja){target="_blank"} を参照してください。
+各スキーマのフィールドと属性の完全なリストを表示するには、[Journey Optimizer スキーマ辞書](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja){target="_blank"}を参照してください。
 
 ## データセットをプレビュー{#preview-datasets}
 
@@ -78,12 +78,12 @@ Adobe Journey Optimizer のシステムデータセットを以下に示しま�
 
 実行できる操作は、次のとおりです。
 
-* スキーマからのデータセットの作成。[詳しくは、このドキュメントを参照してください](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ja#schema){target="_blank"}。
-* CSV ファイルからのデータセットを作成します。[詳しくは、このドキュメントを参照してください](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=ja){target="_blank"}。
+* スキーマからのデータセットの作成。[詳しくは、このドキュメントを参照してください](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ja#schema){target="_blank"}
+* CSV ファイルからのデータセットを作成します。[詳しくは、このドキュメントを参照してください](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/map-a-csv-file.html?lang=ja){target="_blank"}
 
 データセットの作成、スキーマへのマッピング、データの追加、データの取り込み確認の方法についてこのビデオで説明しています。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416782?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/334293?quality=12)
 
 ## データガバナンス
 
@@ -93,19 +93,19 @@ Adobe Journey Optimizer のシステムデータセットを以下に示しま�
 
  [!DNL Adobe Experience Platform Data Governance] を使用すると、顧客データを管理し、データの使用に適用される規制、制限、ポリシーへのコンプライアンスを確保できます。Experience Platform 内の様々なレベルで重要な役割を果たします（例えば、カタログ化、データ系列、データ使用ポリシー、マーケティングアクションのデータに関するアクセス制御など）。
 
-データガバナンスとデータ使用ラベルについて詳しくは、[ データガバナンスドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/user-guide.html?lang=ja){target="_blank"} を参照してください
+データガバナンスとデータ使用ラベルについて詳しくは、[データガバナンスドキュメント](https://experienceleague.adobe.com/docs/experience-platform/data-governance/labels/user-guide.html?lang=ja){target="_blank"}を参照してください
 
 ## サンプルとユースケース{#uc-datasets}
 
 スキーマとデータセットを作成し、データを取り込んで、Adobe Journey Optimizer にテストプロファイルを追加する方法について、[このエンドツーエンドのサンプル](../audience/creating-test-profiles.md)で説明します。
 
-データセットの作成について詳しくは、[Adobe Experience Platform ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=ja){target="_blank"} を参照してください。
+データセットの作成について詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=ja){target="_blank"}を参照してください。
 
-データセット UI の使用方法については、[ データ取り込みの概要ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ja){target="_blank"} を参照してください。
+データセット UI の使用方法については、[データ取り込みの概要ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ja){target="_blank"}を参照してください。
 
 クエリの例を含むユースケースのリストは、[こちら](../data/datasets-query-examples.md)から入手できます。
 
 >[!MORELIKETHIS]
 >
->* [ ストリーミング取得の概要 ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=ja){target="_blank"}
->* [Adobe Experience Platformへのデータの取得 ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=ja){target="_blank"}
+>* [ストリーミング取り込みの概要](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=ja){target="_blank"}
+>* [Adobe Experience Platform へのデータの取り込み](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=ja){target="_blank"}

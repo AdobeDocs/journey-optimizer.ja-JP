@@ -10,9 +10,9 @@ level: Beginner
 keywords: メール, 開始, 作成, プレビュー
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
 source-git-commit: f670eddab41c2317d2dbe76ad7aea5a77bb87f2a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '190'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ ht-degree: 88%
 <a href="../content-management/generative-email.md">
 <img alt="AI アシスタント" src="../assets/do-not-localize/email-generate.jpg">
 </a>
-<div><a href="../content-management/generative-email.md"><strong> コンテンツ生成用 AI アシスタント </strong>
+<div><a href="../content-management/generative-email.md"><strong>コンテンツ生成用 AI アシスタント</strong>
 </div>
 <p>
 </td>
@@ -87,7 +87,7 @@ ht-degree: 88%
 <img alt="コンテンツフラグメント" src="../assets/do-not-localize/patterns.jpg">
 </a>
 <div>
-<a href="../content-management/fragments.md"><strong> メールコンテンツフラグメントの使用 </strong></a>
+<a href="../content-management/fragments.md"><strong>メールコンテンツフラグメントの使用</strong></a>
 </div>
 <p></td>
 <td>
@@ -95,7 +95,7 @@ ht-degree: 88%
 <img alt="コンテンツのパーソナライズ" src="../assets/do-not-localize/personalize.jpg">
 </a>
 <div>
-<a href="../personalization/personalize.md"><strong> メールコンテンツのパーソナライズ </strong></a>
+<a href="../personalization/personalize.md"><strong>メールコンテンツのパーソナライズ</strong></a>
 </div>
 <p>
 </td>
@@ -104,7 +104,7 @@ ht-degree: 88%
 <img alt="ソリューションの組み合わせ" src="../assets/do-not-localize/colors.jpeg">
 </a>
 <div>
-<a href="../integrations/assets.md"><strong>Adobe アプリとソリューションの組み合わせ </strong></a>
+<a href="../integrations/assets.md"><strong>アドビアプリとソリューションの組み合わせ</strong></a>
 </div>
 <p>
 </td>

@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
 source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6783'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -441,7 +441,7 @@ ht-degree: 98%
 <tbody>
 <tr>
 <td>
-<p>メッセージを作成してパーソナライズしたら、Journey Optimizerの AI アシスタントでコンテンツを次のレベルに引き上げます。 AI アシスタントを使用して、様々なメインタイトルや画像で実験することで、メッセージの影響を最適化できるようになりました。 各バリアントは独自の処理として管理され、より効果的にクリックを生成するタイトルを測定および比較します。</p>
+<p>メッセージを作成してパーソナライズしたら、Journey Optimizer の AI アシスタントを使用して、コンテンツを次のレベルに引き上げます。AI アシスタントを使用して、様々なメインタイトルや画像を試すことで、メッセージの影響を最適化できるようになりました。各バリアントは独自の処理として管理され、より効果的にクリックを生成するタイトルを測定および比較します。</p>
 <p><a href="https://experienceleague.adobe.com/ja/apps/journey-optimizer/ai-assistant-content-accelerator">ライブ機能プレビュー</a>で実際のエクスペリエンスに浸ってください。このプレビューは、その機能を直接探索し、その機能を完全に理解できるように設計されています。</a></p>
 <p>詳しくは、<a href="../content-management/gs-generative.md">詳細なドキュメント</a>を参照してください。</p>
 <img src="assets/do-not-localize/ai-content.gif"/>
@@ -504,10 +504,10 @@ ht-degree: 98%
 
 * **Campaign Simulation API** - この API を使用して、キャンペーンの配達確認ジョブをトリガーします。キャンペーンの配達確認の送信は非同期プロセスで、API は配達確認のステータスを確認するために使用できる配達確認ジョブ ID を返します。[詳細情報](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}
 
-* （公開日：9 月 10 日（PT）） [Adobe Journey Optimizer API ドキュメント ](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"} がインタラクティブになりました。 ドキュメントページから直接 API エンドポイントを調べて、即時のフィードバックを取得し、技術的な実装を高速化します。
+* （公開日：9月10日（PT））[Adobe Journey Optimizer API ドキュメント](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target="_blank"}がインタラクティブになりました。ドキュメントページから直接 API エンドポイントを調べて、即時のフィードバックを取得し、技術的な実装を高速化します。
 
 
-  すべての API リファレンスページに&#x200B;**試す**&#x200B;機能が追加され、ドキュメントの web サイトページで直接 API 呼び出しをテストできるようになりました。[ 必要な認証資格情報を取得 ](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} し、機能の使用を開始して API エンドポイントを探索します。
+  すべての API リファレンスページに&#x200B;**試す**&#x200B;機能が追加され、ドキュメントの web サイトページで直接 API 呼び出しをテストできるようになりました。[必要な認証資格情報を取得](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}し、API エンドポイントを探索する機能の使用を開始します。
 
   この新しい機能を使用して、API エンドポイントへのリクエストと API エンドポイントからの応答を調べ、即時のフィードバックを取得し、技術的な実装を高速化します。
 
@@ -870,7 +870,7 @@ ht-degree: 98%
 
 <!--* **Expression fragment** - Expression fragments are now available for the **In-app channel**. [Read more](../personalization/use-expression-fragments.md)-->
 
-* これで、Edge Delivery プラグインを使用して、インバウンド実装を理解し、トラブルシューティングに必要な情報を取得できます。[Edge Delivery ビューの詳細情報 ](https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}。
+* これで、Edge Delivery プラグインを使用して、インバウンド実装を理解し、トラブルシューティングに必要な情報を取得できます。[詳しくは、Edge Delivery ビューを参照してください](https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}。
 
 
 #### ダイレクトメールチャネル
