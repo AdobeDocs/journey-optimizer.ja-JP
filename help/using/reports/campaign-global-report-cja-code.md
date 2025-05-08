@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
-source-git-commit: 24cb77484172117f2308d2949588ee98fa8421dd
+source-git-commit: 4839c3c70dcc524da5f3cc394d5573ce5755ea64
 workflow-type: tm+mt
-source-wordcount: '852'
-ht-degree: 97%
+source-wordcount: '873'
+ht-degree: 95%
 
 ---
 
@@ -81,7 +81,9 @@ ht-degree: 97%
 
 +++
 
-## 決定 KPI {#decisioning-kpis}
+## 決定レポート {#decisioning-reporting}
+
+### 決定 KPI {#decisioning-kpis}
 
 ![](assets/cja-decisioning-kpis.png)
 
@@ -95,7 +97,7 @@ ht-degree: 97%
 
 * **[!UICONTROL フォールバック率]**：選択戦略が適合せず、結果として一般的なオプションまたはあまり具体的ではないオプションが表示されたインスタンスの割合。
 
-## エンゲージメントファネル {#engagement-funnel}
+### エンゲージメントファネル {#engagement-funnel}
 
 ![](assets/cja-engagement-funnel.png)
 
@@ -105,7 +107,7 @@ ht-degree: 97%
 
 * **[!UICONTROL クリック数]**：ユーザーがパーソナライズされたエクスペリエンスをクリックし、そのエクスペリエンスが表示された合計回数。
 
-## クリックスルー率別の上位の決定項目 {#top-decision}
+### クリックスルー率別の上位の決定項目 {#top-decision}
 
 ![](assets/cja-top-decisions-ctr.png)
 
@@ -113,7 +115,7 @@ ht-degree: 97%
 
 * **[!UICONTROL クリックスルー率（CTR）]**：リンク、広告、レコメンデーションをクリックしたユーザーの割合と、それが表示された回数との比較。
 
-## 選択戦略別のエンゲージメントファネル {#engagement-funnel-selection}
+### 選択戦略別のエンゲージメントファネル {#engagement-funnel-selection}
 
 ![](assets/cja-engagement-funnel-selection.png)
 
@@ -123,7 +125,7 @@ ht-degree: 97%
 
 * **[!UICONTROL クリック数]**：ユーザーがパーソナライズされたエクスペリエンスをクリックし、そのエクスペリエンスが表示された合計回数。
 
-## 決定項目パフォーマンス {#decision-items-performance}
+### 決定項目パフォーマンス {#decision-items-performance}
 
 ![](assets/cja-decisioning-item-performance.png)
 
@@ -133,7 +135,7 @@ ht-degree: 97%
 
 * **[!UICONTROL クリック数]**：ユーザーがパーソナライズされたエクスペリエンスをクリックし、そのエクスペリエンスが表示された合計回数。
 
-## ランキング戦略 {#ranking-strategy}
+### ランキング戦略 {#ranking-strategy}
 
 >[!NOTE]
 >
@@ -155,7 +157,7 @@ ht-degree: 97%
 
 * **[!UICONTROL コンバージョン率]**：ユーザーのアクション（クリックなど）につながった表示の割合。ユーザーのエンゲージメントに関するモデルの成功を示します。
 
-## ホールドアウトトラフィックとモデル駆動型トラフィックのコンバージョン率 {#conversion-rate}
+### ホールドアウトトラフィックとモデル駆動型トラフィックのコンバージョン率 {#conversion-rate}
 
 >[!NOTE]
 >
@@ -168,3 +170,7 @@ ht-degree: 97%
 * **モデル駆動型**：ユーザーは、AI モデルによってランク付けされたコンテンツを受け取り、関連性とエンゲージメントに合わせて最適化されます。
 
 * **除外**：ユーザーは、モデルの探索段階でランダムに提供されるコンテンツを受け取ります。
+
+>[!CAUTION]
+>
+>[ ランキング式 ](../experience-decisioning/exd-ranking-formulas.md#create-ranking-formula) に組み込まれた AI モデルを使用する場合、データはコンバージョン率レポートに反映されません。

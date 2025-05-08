@@ -5,17 +5,17 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c6553c3012b1be39d8ade96444e3c1b9ded63fa5
+source-git-commit: 4839c3c70dcc524da5f3cc394d5573ce5755ea64
 workflow-type: tm+mt
-source-wordcount: '2360'
-ht-degree: 88%
+source-wordcount: '2365'
+ht-degree: 99%
 
 ---
 
 # Adobe Journey Optimizer ヘルプ {#using}
 
 + [Journey Optimizer ドキュメント](ajo-home.md)
-+ 新着情報 {#whats-new}
++ 新機能 {#whats-new}
    + [早期リリースノート](using/rn/e-release-notes.md)
    + [最新のリリースノート](using/rn/release-notes.md)
    + 以前のリリースノート {#previous-rn-new}
@@ -163,11 +163,11 @@ ht-degree: 88%
             + [upper](using/building-journeys/functions/functionupper.md)
             + [uuid](using/building-journeys/functions/functionuuid.md)
    + ユースケース {#journey-use-cases}
-      + ビジネスユースケース {#business-use-cases}
+      + ビジネスでのユースケース {#business-use-cases}
          + [マルチチャネルメッセージの送信](using/building-journeys/journeys-uc.md)
          + [Campaign v7／v8 を使用したメッセージの送信](using/building-journeys/ajo-ac.md)
          + [サブスクライバーへのメッセージの送信](using/building-journeys/message-to-subscribers-uc.md)
-      + テクニカルユースケース {#technical-use-cases}
+      + 技術的なユースケース {#technical-use-cases}
          + [カスタムアクションを使用したコレクションの動的な受け渡し](using/building-journeys/collections.md)
          + [配信を増やす](using/building-journeys/ramp-up-deliveries-uc.md)
          + [外部データソースとカスタムアクションを使用したスループットの制限](using/building-journeys/limit-throughput.md)
@@ -177,14 +177,14 @@ ht-degree: 88%
    + 設定 {#ms-config}
       + [設定の手順](using/ms/gs-campaign-config.md)
       + [リレーショナルスキーマの作成](using/ms/ms-schemas.md)
-   + 最初のオーケストレーション済みキャンペーンを作成 {#create-ms-campaign}
+   + 最初の調整されたキャンペーンの作成 {#create-ms-campaign}
       + [主な原則](using/ms/gs-campaign-creation.md)
       + [調整されたキャンペーンの作成](using/ms/create-ms-campaign.md)
       + [アクティビティの調整](using/ms/orchestrate-activities.md)
       + [キャンペーン設定の指定](using/ms/ms-campaign-settings.md)
-      + [ クエリの作成 ](using/ms/ms-query-modeler.md)
+      + [クエリの作成](using/ms/ms-query-modeler.md)
       + [メッセージのテストと検証](using/ms/ms-proofs.md)
-      + [キャンペーンのスケジュール設定と開始](using/ms/start-monitor-campaigns.md)
+      + [キャンペーンのスケジュールと開始](using/ms/start-monitor-campaigns.md)
       + [調整されたキャンペーンレポート](using/ms/reporting-campaigns.md)
       + [パーソナライゼーションの管理](using/ms/ms-personalization.md)
    + 調整されたキャンペーンアクティビティ {#design-campaigns}
@@ -212,7 +212,7 @@ ht-degree: 88%
    + [潜在的な競合の特定](using/conflict-prioritization/conflicts.md)
    + [優先度スコアの割り当て](using/conflict-prioritization/priority-scores.md)
    + [ジャーニーのキャッピングと判別](using/conflict-prioritization/journey-capping.md)
-+ テストして承認 {#test}
++ テストと承認 {#test}
    + コンテンツのプレビューとテスト {#preview-test}
       + [プレビューとテストの基本を学ぶ](using/content-management/preview-test.md)
       + [テストプロファイルを選択](using/content-management/test-profiles.md)
@@ -221,13 +221,13 @@ ht-degree: 88%
       + [メールのレンダリングをテスト](using/content-management/rendering.md)
       + [サンプル入力データを使用したコンテンツのテスト（ベータ版）](using/test-approve/simulate-sample-input.md)
       + [メールスパムレポート](using/content-management/spam-report.md)
-   + ジャーニーとキャンペーンを承認 {#approve}
+   + ジャーニーとキャンペーンの承認 {#approve}
       + [承認の基本を学ぶ](using/test-approve/gs-approval.md)
       + [承認ポリシーの作成と管理](using/test-approve/approval-policies.md)
       + [承認をリクエスト](using/test-approve/request-approval.md)
       + [リクエストの承認](using/test-approve/review-approve-request.md)
 + 通信チャネル {#channels}
-   + [コミュニケーションチャネルの概要](using/channels/gs-channels.md)
+   + [通信チャネルの概要](using/channels/gs-channels.md)
    + メールチャネル {#email}
       + [メールの基本を学ぶ](using/email/get-started-email.md)
       + [メールの作成](using/email/create-email.md)
@@ -238,14 +238,14 @@ ht-degree: 88%
             + [コンテンツの読み込み](using/email/existing-content.md)
             + [コンテンツを独自にコーディング](using/email/code-content.md)
             + [メールテンプレートを使用](using/email/use-email-templates.md)
-         + コンテンツをデザイン {#add-content}
+         + コンテンツのデザイン {#add-content}
             + [コンテンツコンポーネントの使用](using/email/content-components.md)
             + [ビジュアルフラグメントを活用](using/email/use-visual-fragments.md)
             + [リンクの追加とメッセージのトラッキング](using/email/message-tracking.md)
             + [パーソナライズされたオファーの挿入](using/email/add-offers-email.md)
             + [テキストバージョンの生成](using/email/text-version-email.md)
             + [メタデータの追加](using/email/email-metadata.md)
-         + スタイルを編集 {#edit-style}
+         + スタイルの編集 {#edit-style}
             + [メールスタイルの基本を学ぶ](using/email/get-started-email-style.md)
             + [背景設定の編集](using/email/backgrounds.md)
             + [垂直方向の整列とパディングの調整](using/email/alignment-and-padding.md)
@@ -274,13 +274,13 @@ ht-degree: 88%
          + [プッシュ通知フロー](using/push/push-gs.md)
          + [プッシュ通知チャネルの設定](using/push/push-configuration.md)
          + [モバイルオンボーディングのクイックスタートワークフロー](using/push/mobile-onboarding-wf.md)
-   + SMS/MMS チャネル{#sms}
+   + SMS／MMS チャネル{#sms}
       + [テキストメッセージの基本を学ぶ](using/sms/get-started-sms.md)
       + [テキストメッセージ (SMS/MMS) の作成](using/sms/create-sms.md)
       + [テキストメッセージの確認および送信](using/sms/send-sms.md)
       + [テキストメッセージのオプトアウトの管理](using/sms/sms-opt-out.md)
       + [SMS サブドメインの設定](using/sms/sms-subdomains.md)
-      + SMS/MMS チャネルの設定{#configure-sms}
+      + SMS／MMS チャネルの設定{#configure-sms}
          + [SMS 設定の基本を学ぶ](using/sms/sms-configuration.md)
          + [Sinch プロバイダーの設定](using/sms/sms-configuration-sinch.md)
          + [Infobip プロバイダーの設定](using/sms/sms-configuration-infobip.md)
@@ -312,7 +312,7 @@ ht-degree: 88%
          + [コードベースのエクスペリエンスサーフェス](using/code-based/code-based-surface.md)
          + [実装方法のサンプル](using/code-based/code-based-implementation-samples.md)
          + [コードベースのエクスペリエンス設定の作成](using/code-based/code-based-configuration.md)
-      + コードベースエクスペリエンスを作成 {#create-code-based-experiences}
+      + コードベースエクスペリエンスの作成 {#create-code-based-experiences}
          + [コードベースのエクスペリエンスの作成と構成](using/code-based/create-code-based.md)
          + [コードベースのエクスペリエンスのテスト](using/code-based/test-code-based.md)
          + [コードベースのエクスペリエンスの管理](using/code-based/publish-code-based.md)
@@ -332,9 +332,9 @@ ht-degree: 88%
       + [WhatsApp メッセージの確認および送信](using/whatsapp/send-whatsapp.md)
    + LINE {#line}
       + [LINE チャネルの基本を学ぶ](using/line/get-started-line.md)
-      + [Journey Optimizerでの LINE チャネルの設定](using/line/line-configuration.md)
+      + [Journey Optimizer での LINE チャネルの設定](using/line/line-configuration.md)
       + [LINE メッセージの作成](using/line/create-line.md)
-      + [LINE メッセージの確認と送信](using/line/send-line.md)
+      + [LINE メッセージの確認および送信](using/line/send-line.md)
 + コンテンツ管理 {#content-management}
    + ランディングページ {#landing-pages}
       + [ランディングページの基本を学ぶ](using/landing-pages/get-started-lp.md)
@@ -355,7 +355,7 @@ ht-degree: 88%
       + [パーソナライゼーション構文](using/personalization/personalization-syntax.md)
       + [式フラグメントの再利用](using/personalization/use-expression-fragments.md)
       + [パーソナライゼーションへの Adobe Experience Platform データの使用（ベータ版）](using/personalization/lookup-aep-data.md)
-      + ヘルパー関数のリスト {#functions}
+      + ヘルパー関数リスト {#functions}
          + [ヘルパー関数の基本を学ぶ](using/personalization/functions/functions.md)
          + [集計関数](using/personalization/functions/aggregation.md)
          + [演算関数](using/personalization/functions/arithmetic-functions.md)
@@ -367,7 +367,7 @@ ht-degree: 88%
          + [数学関数](using/personalization/functions/math.md)
          + [オブジェクト関数](using/personalization/functions/objects.md)
          + [文字列関数](using/personalization/functions/string.md)
-      + Personalizationのユースケース{#personalization-use-cases}
+      + パーソナライゼーションのユースケース{#personalization-use-cases}
          + [注文ステータスの通知](using/personalization/personalization-use-case.md)
          + [買い物かご放棄に関するメール](using/personalization/personalization-use-case-helper-functions.md)
          + [医療保険処方箋のメール](using/personalization/perso-uc-plan-prescriptions.md)
@@ -399,7 +399,7 @@ ht-degree: 88%
       + [AI アシスタントのユースケース](using/content-management/generative-uc.md)
       + ブランド（ベータ版）{#brands}
          + [ブランドの作成と管理](using/content-management/brands.md)
-         + [ブランドの整合性スコアの評価](using/content-management/brands-score.md)
+         + [ブランド一致スコアの評価](using/content-management/brands-score.md)
    + 多言語コンテンツ{#content-multilingual}
       + [多言語コンテンツの基本を学ぶ](using/content-management/multilingual-gs.md)
       + [ロケールの作成](using/content-management/multilingual-locale.md)
@@ -415,7 +415,7 @@ ht-degree: 88%
 + オーディエンス、プロファイル、ID{#audiences-profiles-identities}
    + オーディエンス {#audiences}
       + [オーディエンスの基本を学ぶ](using/audience/about-audiences.md)
-      + オーディエンスを作成 {#create}
+      + オーディエンスの作成 {#create}
          + [セグメント定義](using/audience/creating-a-segment-definition.md)
          + [オーディエンス構成](using/audience/get-started-audience-orchestration.md)
          + [カスタムアップロード](using/audience/custom-upload.md)
@@ -445,7 +445,7 @@ ht-degree: 88%
       + [キャンペーンのライブレポート](using/reports/campaign-live-report.md)
       + [ランディングページライブレポート](using/reports/lp-report-live.md)
       + [購読リストのライブレポート](using/reports/subscription-report-live.md)
-   + 全期間レポート{#channel-report}
+   + 全期間のレポート{#channel-report}
       + [全期間のレポートの基本を学ぶ](using/reports/report-gs-cja.md)
       + [指標のリスト](using/reports/global-report-components-cja.md)
       + [Customer Journey Analytics の手動設定](using/reports/cja-ajo.md)
@@ -530,20 +530,21 @@ ht-degree: 88%
                + [実施要件ルールのリスト](using/experience-decisioning/api-reference/eligibility-rules/eligibility-rules-list.md)
                + [実施要件ルールの更新](using/experience-decisioning/api-reference/eligibility-rules/update.md)
          + [コードベースのエクスペリエンスチャネルを使用したオファーの配信](using/experience-decisioning/api-reference/deliver.md)
-      + 決定項目を管理 {#decision-items}
+      + 決定項目の管理 {#decision-items}
          + [項目カタログの設定](using/experience-decisioning/catalogs.md)
          + [決定項目の作成](using/experience-decisioning/items.md)
          + [項目コレクションの管理](using/experience-decisioning/collections.md)
-      + 項目選択の設定 {#selection}
+      + 項目の選択の設定 {#selection}
          + [決定ルールの作成](using/experience-decisioning/rules.md)
          + [ランキング方法の作成](using/experience-decisioning/ranking.md)
+         + [AI 式ビルダーの使用](using/experience-decisioning/exd-ranking-formulas.md)
          + [コンテキストデータの活用](using/experience-decisioning/context-data.md)
       + [選択戦略の作成](using/experience-decisioning/selection-strategies.md)
       + [決定ポリシーを作成](using/experience-decisioning/create-decision.md)
       + [決定に関するレポート](using/experience-decisioning/cja-reporting.md)
       + [決定のユースケース](using/experience-decisioning/experience-decisioning-uc.md)
    + 意思決定管理 {#offer-decisioning}
-      + 意思決定管理の概要 {#get-started-decision}
+      + 意思決定管理の基本を学ぶ {#get-started-decision}
          + [意思決定管理について](using/offers/get-started/starting-offer-decisioning.md)
          + [意思決定管理ガードレールと制限](using/offers/decision-management-guardrails.md)
          + [ユーザーインターフェイス](using/offers/get-started/user-interface.md)
@@ -739,7 +740,7 @@ ht-degree: 88%
       + [データソースの設定](using/datasource/configure-data-sources.md)
       + [Adobe Experience Platform のデータソース](using/datasource/adobe-experience-platform-data-source.md)
       + [外部データソース](using/datasource/external-data-sources.md)
-   + アクションの設定 {#action-journeys}
+   + アクション設定 {#action-journeys}
       + [カスタムアクションの基本を学ぶ](using/action/action.md)
       + [カスタムアクションの設定](using/action/about-custom-action-configuration.md)
       + [カスタムアクションのトラブルシューティング](using/action/troubleshoot-custom-action.md)
@@ -747,13 +748,13 @@ ht-degree: 88%
 + システムと環境の接続 {#connect-systems}
    + [Journey Optimizer API の操作](using/configuration/ajo-apis.md)
    + ジャーニーと外部システムの統合 {#external-systems}
-      + [外部システムとのジャーニーの統合](using/configuration/external-systems.md)
+      + [ジャーニーと外部システムとの統合](using/configuration/external-systems.md)
       + [Capping API](using/configuration/capping.md)
       + [Throttling API](using/configuration/throttling.md)
-   + Adobe ソリューションを使用して送信 {#adobe-solutions}
-      + [Campaign Standardとのジャーニーの統合](using/action/acs-action.md)
-      + [Campaign v7/v8 とのジャーニーの統合](using/action/acc-action.md)
-      + [Marketo Engageとのジャーニーの統合](using/action/marketo-engage.md)
+   + アドビソリューションでの送信 {#adobe-solutions}
+      + [ジャーニーと Campaign Standard の統合](using/action/acs-action.md)
+      + [ジャーニーと Campaign v7／v8 の統合](using/action/acc-action.md)
+      + [ジャーニーと Marketo Engage の統合](using/action/marketo-engage.md)
    + サンドボックス管理 {#sandbox}
       + [サンドボックスの使用と割り当て](using/administration/sandboxes.md)
       + [別のサンドボックスへのオブジェクトの書き出し](using/configuration/copy-objects-to-sandbox.md)

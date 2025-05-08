@@ -6,19 +6,14 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '639'
-ht-degree: 100%
+source-git-commit: 4839c3c70dcc524da5f3cc394d5573ce5755ea64
+workflow-type: tm+mt
+source-wordcount: '604'
+ht-degree: 93%
 
 ---
 
 # ランキング方法 {#rankings}
-
->[!CONTEXTUALHELP]
->id="ajo_exd_config_formulas"
->title="ランキング式の作成"
->abstract="式を使用すると、項目の優先度スコアを考慮するのではなく、最初に提示する項目を決定するルールを定義できます。ランキング方法を作成したら、その方法を選択戦略に割り当てて、最初に選択する項目を定義できます。"
 
 ランキング方法を使用すると、特定のプロファイルに対して表示する項目をランク付けできます。ランキング方法を作成したら、その方法を選択戦略に割り当てて、最初に選択する項目を定義できます。
 
@@ -42,7 +37,7 @@ ht-degree: 100%
 
    ランキング式と AI モデルを作成する方法について詳しくは、意思決定管理ドキュメントを参照してください。
 
-   * [ランキング式](../offers/ranking/create-ranking-formulas.md)
+   * [ランキング式](exd-ranking-formulas.md)
    * [AI モデル](../offers/ranking/ai-models.md)
 
    >[!NOTE]
@@ -63,7 +58,7 @@ ht-degree: 100%
 
 デフォルトでは、パーソナライズされた最適化モデルは、最適化指標として&#x200B;**オファーのクリック数**&#x200B;を使用します。[!DNL Customer Journey Analytics] を操作している場合、[!DNL Decisioning] を使用すると、独自のカスタム指標を活用して、モデルを最適化できます。
 
-これを行うには、パーソナライズされた AI モデル作成画面にアクセスし、**[!UICONTROL コンバージョンイベント]**&#x200B;ドロップダウンを展開します。デフォルトの [!DNL Customer Journey Analytics] [データビュー](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"}のすべての指標がリストに表示されます。モデルを最適化する指標を選択し、通常どおり AI モデルの作成を完了します。
+これを行うには、パーソナライズされた AI モデル作成画面にアクセスし、**[!UICONTROL コンバージョンイベント]**&#x200B;ドロップダウンを展開します。デフォルトの [!DNL Customer Journey Analytics] データビュー [ のすべての指標 ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} リストに表示されます。 モデルを最適化する指標を選択し、通常どおり AI モデルの作成を完了します。
 
 ![](assets/ai-ranking-custom-metrics.png)
 
@@ -73,13 +68,17 @@ ht-degree: 100%
 >
 >アトリビューションモデルを変更することは可能ですが、すべてのアトリビューションモデルが AI モデルの最適化に最適であるわけではありません。モデルの精度とパフォーマンスを確保するために、最適化目標に合ったアトリビューションモデルを慎重に選択することをお勧めします。
 >
->使用可能なアトリビューションモデルとその使用に関するガイダンスについて詳しくは、[[!DNL Customer Journey Analytics]  ドキュメント](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-dataviews/component-settings/attribution){target="_blank"}を参照してください。
+>使用可能なアトリビューションモデルとその使用に関するガイダンスについて詳しくは、[[!DNL Customer Journey Analytics]  ドキュメント ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-dataviews/component-settings/attribution){target="_blank"} を参照してください。
 
 +++
 
 ## 数式での決定項目属性の活用 {#items}
 
 ランキング式は **PQL 構文**&#x200B;で表され、プロファイル属性、[コンテキストデータ](context-data.md)、決定項目に関連する属性などの様々な属性を利用できます。
+
+>[!NOTE]
+>
+>PQL構文の使用方法について詳しくは、[ 専用ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=ja) を参照してください。
 
 数式で決定項目に関連する属性を活用するには、ランキング式のコードで以下の構文に従っていることを確認してください。詳しくは、各節を展開してください。
 

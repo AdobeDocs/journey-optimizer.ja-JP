@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 72553cb3570b375b5bdf9cdebbfbf17e52c805da
+source-git-commit: 4839c3c70dcc524da5f3cc394d5573ce5755ea64
 workflow-type: tm+mt
-source-wordcount: '926'
-ht-degree: 48%
+source-wordcount: '985'
+ht-degree: 76%
 
 ---
 
@@ -17,12 +17,21 @@ ht-degree: 48%
 
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card1"
->title="新着情報"
+>title="新機能"
 >abstract="**Adobe Journey Optimizer** は、新機能、既存機能の強化およびバグ修正を継続的に提供します。これらのリリースノートでは、すべての変更が各月の最終週にまとめられます。"
 
 [!DNL Adobe Journey Optimizer] は、新機能、既存機能の強化、およびバグ修正を継続的に提供します。これらのリリースノートでは、すべての変更が各月の最終週にまとめられます。[!DNL Adobe Journey Optimizer] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}を参照してください。
 
 ## 2025 年 5 月更新 {#25-5-rn}
+
+* **決定 – 新しい AI 式ビルダー** – 公開日：2025 年 5 月 7 日（PT）
+
+  新しく改善されたインターフェイスから条件を定義および組み合わせることで、特定の決定ランキング式を作成できるようになりました。ランキング式を使用すると、優先度スコアを考慮するのではなく、最初に提示する決定項目を決定するルールを定義できます。
+
+  詳しくは、[ 詳細ドキュメント ](../experience-decisioning/exd-ranking-formulas.md) を参照してください。
+
+  ![](assets/do-not-localize/formula-builder.gif)
+
 
 * **パーソナライゼーションのための錠剤のアクティベーション** – 公開日：2025 年 5 月 5 日（PT）
 
@@ -32,9 +41,9 @@ ht-degree: 48%
   >
   >この機能は、今後 30 日間にわたってすべての環境に徐々に展開される予定です。
 
-## 2025 年 4 月リリースノート {#25-4-rn}
+## 2025年4月リリースノート {#25-4-rn}
 
-**リリース日**:2025 年 4 月 29～30 日
+**リリース日**：2025年4月29～30日（PT）
 
 ### 新機能 {#25-04-features}
 
@@ -43,13 +52,13 @@ ht-degree: 48%
 <table>
 <thead>
 <tr>
-<th><strong>Personalization エディター – 実践で学ぶ</strong><br/></th>
+<th><strong>パーソナライゼーションエディター - 実践で学ぶ</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>パーソナライゼーション式を試すことができる、パーソナライゼーションプレイグラウンドが使用できるようになりました。 これを使用すると、開始して独自のパーソナライゼーション式を試すのに役立つサンプルテンプレートとペイロードを調べることができます。</p>
+<p>パーソナライゼーション式を実験できるパーソナライゼーションプレイグラウンドが使用可能になりました。これを使用すると、サンプルテンプレートとペイロードを探索して、開始し、独自のパーソナライゼーション式を試すことができます。</p>
 <p>詳しくは、<a href="../personalization/personalize.md#playground">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2025年4月24日（PT）</p>
 <img src="assets/do-not-localize/templating-playground.gif"/>
@@ -164,13 +173,13 @@ ht-degree: 48%
 <table>
 <thead>
 <tr>
-<th><strong>Adobe Expressの統合（限定提供）</strong><br/></th>
+<th><strong>Adobe Express の統合（限定提供）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey OptimizerはAdobe Expressと統合され、クリエイティブアセットを journey orchestration とシームレスに接続できるようになりました。 この統合により、キャンペーン全体でパーソナライズされたコンテンツを設計およびデプロイするプロセスが簡素化されます。 </p>
+<p>Adobe Journey Optimizer は、Adobe Express と統合され、クリエイティブアセットを Journey Orchestration とシームレスに接続できるようになりました。この統合により、キャンペーン全体でパーソナライズされたコンテンツを設計およびデプロイするプロセスが簡素化されます。 </p>
 <p>この統合は、現在、Healthcare Shield またはプライバシーとセキュリティシールドでは使用できません。</p>
 <img src="assets/do-not-localize/express_resize.gif">
 <p>詳しくは、<a href="../integrations/express.md">詳細なドキュメント</a>を参照してください。</p>
@@ -182,13 +191,13 @@ ht-degree: 48%
 <table>
 <thead>
 <tr>
-<th><strong>トリガーの毎日のジャーニーがバッチセグメント化の完了後に実行される（使用制限あり）</strong><br/></th>
+<th><strong>バッチセグメント化の完了後の毎日のジャーニー実行のトリガー（限定提供）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>毎日スケジュールされたジャーニーの場合、新しいオプションを使用すると、バッチセグメント化ジョブからのオーディエンスデータを待機する最大 6 時間の時間枠を定義でき、ジャーニーが最新のデータで実行されるか、準備ができていない場合はスキップされるようになります。 「バッチオーディエンス評価後にトリガー」オプションは、一連の組織でのみ使用できます（使用制限あり）。 アクセスするには、アドビ担当者にお問い合わせください。</p>
+<p>毎日スケジュールしたジャーニーでは、新しいオプションを使用すると、バッチセグメント化ジョブからのオーディエンスデータを待機する最大 6 時間の時間枠を定義できるので、ジャーニーが最新のデータで実行されるか、準備が整っていない場合はスキップされます。「バッチオーディエンス評価後にトリガー」オプションは、一連の組織に対してのみ使用できます（限定提供）。アクセスするには、アドビ担当者にお問い合わせください。</p>
 <p>詳しくは、<a href="../building-journeys/read-audience.md#schedule">詳細なドキュメント</a>を参照してください。</p>
 <img src="assets/do-not-localize/trigger-journeys.gif">
 </td>
@@ -218,7 +227,7 @@ ht-degree: 48%
 <table>
 <thead>
 <tr>
-<th><strong>ブランドの整合性スコア（Beta）</strong><br/></th>
+<th><strong>ブランド一致スコア（ベータ版）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -266,9 +275,9 @@ ht-degree: 48%
 
 * **カスタムアクション用のサンドボックスツール**
 
-  カスタムアクションが、サンドボックスツール機能を使用してコピーできるAdobe Journey Optimizer オブジェクトのリストに含まれるようになりました。これにより、テストとデプロイメントを合理化できます。 [詳細情報](../configuration/copy-objects-to-sandbox.md)
+  サンドボックスツール機能を使用してコピーできる Adobe Journey Optimizer オブジェクトのリストにカスタムアクションが含まれるようになり、テストとデプロイメントが効率化されます。[詳細情報](../configuration/copy-objects-to-sandbox.md)
 
-* **キャンペーン用サンドボックスツール** – 公開日：2025 年 4 月 3 日（PT）
+* **キャンペーン用のサンドボックスツール** - 公開日：2025年4月3日（PT）
 
   パッケージのエクスポート機能とインポート機能を使用して、複数のサンドボックス間でキャンペーンをコピーできるようになりました。キャンペーンは、プロファイル、オーディエンス、スキーマ、インラインメッセージおよび依存オブジェクトに関連するすべての項目と共にコピーされます。決定項目、データ使用ラベル、言語設定など、一部の項目はコピーされません。[詳細情報](../configuration/copy-objects-to-sandbox.md#custom-actions)
 
@@ -276,9 +285,9 @@ ht-degree: 48%
 
 * **新しいコンテキスト属性**
 
-  新しいコンテキスト属性 **メッセージプロファイル ID** が、パーソナライゼーションエディターから選択できるようになりました。 これは、配信内の各ターゲットプロファイルに送信される各メッセージを一意に識別するメッセージ指向属性です。 この一意の識別子は、例えば、受信者が開いた、またはクリックした各リンクを区別するための URL トラッキングパラメーターとして使用できます。
+  新しいコンテキスト属性の&#x200B;**メッセージプロファイル ID** が、パーソナライゼーションエディターから選択できるようになりました。これは、配信内の各ターゲットプロファイルに送信された各メッセージを一意に識別するメッセージ指向の属性です。この一意の ID は、例えば、受信者が開いたりクリックした各リンクを区別するための URL トラッキングパラメーターとして使用できます。
 
-* **属性ペインに表示される属性** – 公開日：2025 年 4 月 2 日（PT）
+* **属性パネルに入力した属性** - 公開日：2025年4月2日（PT）
 
   パーソナライゼーションエディターの属性パネルには、デフォルトで入力した属性のみが表示されるようになりました。すべての属性を表示するには、設定ボタンを使用して「**[!UICONTROL 入力した属性のみを表示]**」オプションをオフに切り替えます。[詳細情報](../personalization/personalization-build-expressions.md)
 

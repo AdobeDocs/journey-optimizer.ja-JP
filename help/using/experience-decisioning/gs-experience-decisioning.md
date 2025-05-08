@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '501'
-ht-degree: 100%
+source-git-commit: 4839c3c70dcc524da5f3cc394d5573ce5755ea64
+workflow-type: tm+mt
+source-wordcount: '546'
+ht-degree: 78%
 
 ---
 
@@ -64,25 +64,27 @@ ht-degree: 100%
 
 1. ターゲットオーディエンスに表示する&#x200B;**決定項目を作成**&#x200B;します。
 
-   ➡️ [詳しくは、決定項目の作成方法を参照してください](items.md)（[API ドキュメント](api-reference/decisions-items/create.md)）
+   ➡️ [ ユーザーインターフェイス ](items.md) および [API ドキュメント）で判定項目を作成する方法を説明します ](api-reference/decisions-items/create.md)
 
 1. **コレクションで整理**：コレクションを使用し、属性ベースのルールに基づいて決定項目を分類します。コレクションを選択戦略に組み込んで、考慮する必要がある決定項目のコレクションを特定します。
 
-   ➡️ [詳しくは、項目コレクションの管理方法を参照してください](collections.md)（[API ドキュメント](api-reference/items-collections/create.md)）
+   ➡️ [ 項目コレクションの管理方法については ](collections.md) ユーザーインターフェイス（および [API ドキュメント ](api-reference/items-collections/create.md)）を参照してください。
 
 1. **決定ルールの作成**：決定ルールは、どのユーザーに決定項目を表示できるかを決定するために、決定項目や選択戦略で使用されます。
 
    ➡️ [詳しくは、決定ルールの作成方法を参照してください](rules.md)
 
-1. **ランキングメソッドの実装**：ランキングメソッドを作成し、決定戦略内で適用して、決定項目を選択する際の優先順位を決定します。
+1. **ランキングメソッドの実装**：ランキングメソッドを作成して選択戦略内に適用し、決定項目を選択する優先順位を決定します。
 
    ➡️ [詳しくは、ランキングメソッドの作成方法を参照してください](ranking.md)
 
 1. **選択戦略の作成**：コレクション、決定ルール、ランキングメソッドを活用して、プロファイルに表示するのに適した決定項目を特定する選択戦略を作成します。
 
-   ➡️ [詳しくは、選択戦略の作成方法を参照してください](selection-strategies.md)（[API ドキュメント](api-reference/selection-strategies/create.md)）
+   ➡️ [ ユーザーインターフェイス ](selection-strategies.md) ユーザーインターフェイス（および [API ドキュメント ](api-reference/selection-strategies/create.md)）で選択戦略を作成する方法を説明します
 
 1. **決定ポリシーを作成し、コードベースのキャンペーンに埋め込む**：決定ポリシーは、複数の選択戦略を組み合わせて、対象のオーディエンスに表示する適格な決定項目を決定します。
 
-   ➡️ [詳しくは、決定ポリシーの操作方法を参照してください](create-decision.md)
-➡️ コードベースのチャネルを通じてオファーを正常に配信するには、[この節](../code-based/code-based-implementation-samples.md)の実装手順に従ってください
+   ➡️ [ 決定ポリシーの操作方法を説明します ](create-decision.md)
+➡️コードベースのエクスペリエンスチャネルを介してオファーを正常に配信するには、[ この節 ](../code-based/code-based-implementation-samples.md) の実装手順に従います。
+
+コードベースのエクスペリエンスで決定を使用する方法を示す完全なエンドツーエンドのユースケースについては、[ この節 ](experience-decisioning-uc.md) を参照してください。
