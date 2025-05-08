@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4839c3c70dcc524da5f3cc394d5573ce5755ea64
+source-git-commit: ce76c1b7c60ad3a3ffba7350fd61cf80eb6dad49
 workflow-type: tm+mt
-source-wordcount: '2365'
+source-wordcount: '2369'
 ht-degree: 99%
 
 ---
@@ -339,6 +339,7 @@ ht-degree: 99%
    + ランディングページ {#landing-pages}
       + [ランディングページの基本を学ぶ](using/landing-pages/get-started-lp.md)
       + [ランディングページの作成](using/landing-pages/create-lp.md)
+      + [ランディングページの管理](using/landing-pages/manage-lp.md)
       + コンテンツのデザイン {#landing-pages-design}
          + [ランディングページの設計について](using/landing-pages/design-lp.md)
          + [ランディングページのコンテンツの作成](using/landing-pages/lp-content.md)
@@ -347,8 +348,8 @@ ht-degree: 99%
       + [サブスクリプションリストの作成](using/landing-pages/subscription-list.md)
       + [ユースケースを通じて学ぶ](using/landing-pages/lp-use-cases.md)
       + ランディングページの設定 {#lp-configuration}
-      + [ランディングページのサブドメインの設定](using/landing-pages/lp-subdomains.md)
-      + [ランディングページプリセットの定義](using/landing-pages/lp-presets.md)
+         + [ランディングページのサブドメインの設定](using/landing-pages/lp-subdomains.md)
+         + [ランディングページプリセットの定義](using/landing-pages/lp-presets.md)
    + パーソナライゼーション {#personalization}
       + [パーソナライゼーションの概要](using/personalization/personalize.md)
       + [パーソナライゼーションの追加](using/personalization/personalization-build-expressions.md)

@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: ランディング, ランディングページ, 作成, 公開
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '1682'
+source-git-commit: 877a4d148966bf7d872f762ac78e5c725676a54f
+workflow-type: tm+mt
+source-wordcount: '1524'
 ht-degree: 100%
 
 ---
@@ -23,35 +23,6 @@ ht-degree: 100%
 ランディングページを作成するための主な手順は次のとおりです。
 
 ![](assets/lp-creation-process.png)
-
-## ランディングページへのアクセス {#access-landing-pages}
-
-ランディングページのリストにアクセスするには、左側のメニューから&#x200B;**[!UICONTROL コンテンツ管理]**／**[!UICONTROL ランディングページ]**&#x200B;を選択します。
-
-![](assets/lp_access-list.png)
-
-**[!UICONTROL ランディングページ]**&#x200B;のリストには、既存のすべてのランディングページが表示されます。ステータス、変更日、タグに基づいてフィルタリングできます。
-
-![](assets/lp_access-list-filter.png)
-
-このリストから、ランディングページの複製、削除、非公開や、ランディングページレポートへのアクセスも可能です。これを行うには、ランディングページの横にある「...」をクリックして、目的のアクションを選択します。
-
-![](assets/lp_access-list-actions.png)
-
-
-実行できる操作は、次のとおりです。
-
-* 公開済みのランディングページについては、[ランディングページのレポート](../reports/lp-report-global-cja.md)と[過去 24 時間のライブレポート](../reports/lp-report-live.md)の&#x200B;**レポート**&#x200B;にアクセスする。
-
-* ランディングページを&#x200B;**削除**&#x200B;または&#x200B;**複製**&#x200B;する。[公開済み](#publish-landing-page)のランディングページは削除できません。削除するには、まず&#x200B;**非公開**&#x200B;にする必要があります。
-
-* ランディングページを&#x200B;**非公開**&#x200B;にする。
-
-  >[!CAUTION]
-  >
-  >メッセージで参照されているランディングページを非公開にした場合、そのランディングページへのリンクが壊れ、アクセスしようとした場合、エラーページが表示されます。
-
-* ランディングページに関連付けられた[タグ](../start/search-filter-categorize.md#tags)を編集する。
 
 ## ランディングページの作成 {#create-landing-page}
 
