@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '1756'
-ht-degree: 100%
+source-git-commit: 00ddfe985258eed766c6626a95c3ca1ae0e3cc96
+workflow-type: tm+mt
+source-wordcount: '1777'
+ht-degree: 98%
 
 ---
 
@@ -246,6 +246,10 @@ Web サイトやモバイルアプリで訪問者に最適な動的なオファ�
        }
    }
    ```
+
+   >[!CAUTION]
+   >
+   >リクエストに `dryRun` フラグを追加すると、レポート用および頻度カウンター用のフィードバックをキャプチャしてに追加できなくなります。
 
 1. 決定のパフォーマンスを確認するために、カスタムの [Customer Journey Analytics レポートダッシュボード](cja-reporting.md)を作成できるようになりました。
 
