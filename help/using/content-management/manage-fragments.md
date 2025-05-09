@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 5e82bd6cfcb186fef324627e353b9e54d2332c3e
 workflow-type: tm+mt
 source-wordcount: '1469'
 ht-degree: 100%
@@ -94,7 +94,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL その他のアクション]**」ボタンを使用すると、フラグメントを別の既存のフォルダーに移動することもできます。
 
-   ![](assets/fragment-folder-moved.png)
+   <!--![](assets/fragment-folder-moved.png)-->
 
 1. これで、作成したフォルダーに移動できます。ここから[作成](create-fragments.md)した新しいフラグメントはそれぞれ現在のフォルダーに保存されます。
 
