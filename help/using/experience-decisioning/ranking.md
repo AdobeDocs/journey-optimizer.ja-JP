@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
-source-git-commit: 4839c3c70dcc524da5f3cc394d5573ce5755ea64
+source-git-commit: 4995bf642231248ece0211a7ecf2f38ccd846d36
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 93%
@@ -37,7 +37,8 @@ ht-degree: 93%
 
    ランキング式と AI モデルを作成する方法について詳しくは、意思決定管理ドキュメントを参照してください。
 
-   * [ランキング式](exd-ranking-formulas.md)
+   <!--* [Ranking formulas](exd-ranking-formulas.md)-->
+   * [ランキング式](../offers/ranking/create-ranking-formulas.md)
    * [AI モデル](../offers/ranking/ai-models.md)
 
    >[!NOTE]

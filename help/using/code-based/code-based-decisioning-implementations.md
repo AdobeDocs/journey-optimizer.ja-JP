@@ -8,7 +8,7 @@ level: Experienced
 hide: true
 hidefromtoc: true
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
-source-git-commit: 3e4d030fb655c32f340d1fa54726b1dc2ce7a1e8
+source-git-commit: 4995bf642231248ece0211a7ecf2f38ccd846d36
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 10%
@@ -19,23 +19,23 @@ ht-degree: 10%
 
 コードベースのエクスペリエンスで意思決定を使用する場合、以下に説明する場合に、クライアント実装に次のフラグを追加することを検討してください。
 
-## 決定を使用したコードベースのエクスペリエンスのテスト
+## 決定を使用したコードベースのエクスペリエンスのテスト {#code-based-test-decisions}
 
 現在、決定を使用して、[コードベースのエクスペリエンス](create-code-based.md)キャンペーンまたはジャーニーのユーザーインターフェイスのコンテンツをシミュレートすることはできません。
 
 回避策として、クライアント実装の XDM イベント `data` ブロックに `dryRun` フラグを追加することで、キャンペーンを公開した後に決定をテストできます。
 
-    &grave;&grave;&#39;
-    &lbrace;
-    &quot;data&quot;: &lbrace;
-    &quot;__adobe&quot;: &lbrace;
-    &quot;ajo&quot;: &lbrace;
+    ``&#39;
+    {
+    &quot;data&quot;: {
+    &quot;__adobe&quot;: {
+    &quot;ajo&quot;: {
     &quot;dryRun&quot;: true
-    &rbrace;
-    &rbrace;
-    &rbrace;
-    &rbrace;
-    &grave;&grave;
+    }
+    }
+    }
+    }
+    ``
 
 >[!CAUTION]
 >
