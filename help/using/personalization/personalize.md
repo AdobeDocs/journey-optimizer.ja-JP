@@ -9,10 +9,10 @@ role: Data Engineer
 level: Beginner
 keywords: 式, エディター, 開始, パーソナライゼーション
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: e19a85d05fcb7727c3086f16e2e4f066a5ecd55c
+source-git-commit: 85fc6bdc6386f52374172d50667edeea5344011f
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 84%
+source-wordcount: '506'
+ht-degree: 81%
 
 ---
 
@@ -51,7 +51,7 @@ Journey Optimizer は、メッセージを処理する際に、式を Experience
 
 ![ パーソナライゼーションプレイグラウンド ](assets/playground.png)
 
-➡️ [ パーソナライゼーションプレイグラウンドへのアクセス ](https://experienceleague.adobe.com/ja/apps/journey-optimizer/ajo-personalization){target="_blank"}
+➡️ [ パーソナライゼーションプレイグラウンドへのアクセス ](https://experienceleague.adobe.com/en/apps/journey-optimizer/ajo-personalization){target="_blank"}
 
 ## さらに深く掘り下げましょう
 
@@ -97,9 +97,12 @@ Journey Optimizer は、メッセージを処理する際に、式を Experience
 
 ジャーニーのコンテキストイベント情報を使用してメッセージをパーソナライズする方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3448127?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
 プロファイルベースのパーソナライゼーションをメッセージに追加する方法と、オーディエンスメンバーシップをパーソナライゼーションブロックの前提条件として使用する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416419?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)
 
+パーソナライゼーションエディターのプレイグラウンドを活用し、サンプルデータを使用してパーソナライゼーションコードを記述およびテストする方法について説明します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3457868?quality=12)
