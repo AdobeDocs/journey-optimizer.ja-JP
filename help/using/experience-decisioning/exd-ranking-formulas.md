@@ -8,7 +8,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
-source-git-commit: d7b1809fa2d04e5477fe375699153315365a6f3b
+source-git-commit: ec5baea16b5dcd0f3ab9713020c918aa414ea46b
 workflow-type: tm+mt
 source-wordcount: '1165'
 ht-degree: 18%
@@ -227,3 +227,4 @@ if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.p
 ```
 
 +++
+
