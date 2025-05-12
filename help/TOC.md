@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: fe909a37c67030e59c665a80292feb8d289ddd35
+source-git-commit: 3e4d030fb655c32f340d1fa54726b1dc2ce7a1e8
 workflow-type: tm+mt
 source-wordcount: '2374'
 ht-degree: 99%
@@ -311,7 +311,7 @@ ht-degree: 99%
          + [ガードレールと前提条件](using/code-based/code-based-prerequisites.md)
          + [コードベースのエクスペリエンスサーフェス](using/code-based/code-based-surface.md)
          + [実装方法のサンプル](using/code-based/code-based-implementation-samples.md)
-         + [コードベース実装での重複排除の決定](using/code-based/code-based-decisioning-deduplication.md)
+         + [コードベースのエクスペリエンス実装での意思決定](using/code-based/code-based-decisioning-deduplication.md)
          + [コードベースのエクスペリエンス設定の作成](using/code-based/code-based-configuration.md)
       + コードベースエクスペリエンスの作成 {#create-code-based-experiences}
          + [コードベースのエクスペリエンスの作成と構成](using/code-based/create-code-based.md)

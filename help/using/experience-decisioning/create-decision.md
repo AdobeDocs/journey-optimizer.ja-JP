@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 00ddfe985258eed766c6626a95c3ca1ae0e3cc96
+source-git-commit: 3e4d030fb655c32f340d1fa54726b1dc2ce7a1e8
 workflow-type: tm+mt
-source-wordcount: '1777'
+source-wordcount: '1718'
 ht-degree: 98%
 
 ---
@@ -223,34 +223,14 @@ Web サイトやモバイルアプリで訪問者に最適な動的なオファ�
 
 1. 「**[!UICONTROL 保存して閉じる]**」をクリックして変更を確定します。
 
-## コードベースのエクスペリエンスのテストと公開 {#test-and-publish}
-
-次の手順に従って、コードベースのエクスペリエンスを完成させ、変更をライブにします。
-
 1. コードベースのエクスペリエンスキャンペーンまたはジャーニーをレビューして公開します。[方法についてはこちらを参照](../code-based/publish-code-based.md)
 
    開発者が API または SDK 呼び出しを実行して、チャネル設定で定義されたサーフェスのコンテンツを取得すると、変更が web ページまたはアプリに適用されます。
 
-1. 現在、決定を使用して、[コードベースのエクスペリエンス](../code-based/create-code-based.md)キャンペーンまたはジャーニーのユーザーインターフェイスのコンテンツをシミュレートすることはできません。
-
-   回避策として、クライアント実装の XDM イベント `data` ブロックに `dryRun` フラグを追加することで、キャンペーンを公開した後に決定をテストできます。
-
-   ```
-   {
-       "data": {
-           "__adobe": {
-               "ajo": {
-                   "dryRun": true
-               }
-           }
-       }
-   }
-   ```
-
-   >[!CAUTION]
+   >[!NOTE]
    >
-   >リクエストに `dryRun` フラグを追加すると、レポート用および頻度カウンター用のフィードバックをキャプチャしてに追加できなくなります。
+   >現在、ユーザーインターフェイスから、決定を使用して [ コードベースのエクスペリエンス ](../code-based/create-code-based.md) キャンペーンまたはジャーニーでコンテンツをシミュレートすることはできません。 回避策について詳しくは、[この節](../code-based/code-based-decisioning-implementations.md)を参照してください。
 
-1. 決定のパフォーマンスを確認するために、カスタムの [Customer Journey Analytics レポートダッシュボード](cja-reporting.md)を作成できるようになりました。
+1. 決定のパフォーマンスを確認するには、カスタムの [Customer Journey Analytics レポートダッシュボード ](cja-reporting.md) を作成します。
 
 
