@@ -25,17 +25,17 @@ ht-degree: 10%
 
 回避策として、クライアント実装の XDM イベント `data` ブロックに `dryRun` フラグを追加することで、キャンペーンを公開した後に決定をテストできます。
 
-    ``&#39;
-    {
-    &quot;data&quot;: {
-    &quot;__adobe&quot;: {
-    &quot;ajo&quot;: {
+    &grave;&grave;&#39;
+    &lbrace;
+    &quot;data&quot;: &lbrace;
+    &quot;__adobe&quot;: &lbrace;
+    &quot;ajo&quot;: &lbrace;
     &quot;dryRun&quot;: true
-    }
-    }
-    }
-    }
-    ``
+    &rbrace;
+    &rbrace;
+    &rbrace;
+    &rbrace;
+    &grave;&grave;
 
 >[!CAUTION]
 >
