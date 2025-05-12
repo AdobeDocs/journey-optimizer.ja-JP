@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 942fa8e40768f7252702fbf9bc5fc23bdaff40ac
+source-git-commit: d7b1809fa2d04e5477fe375699153315365a6f3b
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 72%
+source-wordcount: '955'
+ht-degree: 75%
 
 ---
 
@@ -27,14 +27,14 @@ ht-degree: 72%
 * **ランディングページのフォルダー** - 公開日：2025年5月9日（PT）
 
   ランディングページを簡単に管理するために、フォルダーを使用して、より効果的に整理し、より効率的な階層にすることができるようになりました。  [詳細情報](../landing-pages/manage-lp.md)
+<!--
+* **Decisioning - New AI formula builder**  - Availability date: May 7, 2025
 
-* **決定 – 新しい AI 式ビルダー** – 公開日：2025 年 5 月 7 日（PT）
+  You can now create specific Decisioning ranking formulas by defining and combining criteria from a new improved interface. Instead of relying only on a static offer priority, you can define custom ranking formulas that combine AI model scores, offer priorities, profile attributes, offer attributes, and contextual signals through a guided interface.
+  
+  For more information, refer to the [detailed documentation](../experience-decisioning/exd-ranking-formulas.md)
 
-  新しく改善されたインターフェイスから条件を定義および組み合わせることで、特定の決定ランキング式を作成できるようになりました。静的なオファーの優先度のみに依存するのではなく、ガイド付きインターフェイスを介して AI モデルスコア、オファーの優先度、プロファイル属性、オファー属性、コンテキストシグナルを組み合わせるカスタムランキング式を定義できます。
-
-  詳しくは、[ 詳細ドキュメント ](../experience-decisioning/exd-ranking-formulas.md) を参照してください。
-
-  ![](assets/do-not-localize/formula-builder.gif)
+  ![](assets/do-not-localize/formula-builder.gif)-->
 
 * **パーソナライゼーションのための錠剤のアクティベーション** – 公開日：2025 年 5 月 5 日（PT）
 
