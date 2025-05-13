@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: イベント, 単一, 作成, ジャーニー
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: f9f2cd339680d0dbff1812e64c5082ca97a34771
+source-git-commit: c403769a872ac6b4720ec6aaae9eda5d68da96c5
 workflow-type: tm+mt
-source-wordcount: '1638'
-ht-degree: 100%
+source-wordcount: '1679'
+ht-degree: 94%
 
 ---
 
@@ -22,6 +22,11 @@ ht-degree: 100%
 >id="ajo_journey_event_unitary"
 >title="単一イベント"
 >abstract="イベントの設定を使用すると、Journey Optimizer が受け取る情報を定義できます。複数のイベントを（ジャーニーの様々なステップで）使用できます。また、同じイベントを複数のジャーニーで使用することもできます。単一イベントは、特定のプロファイルにリンクされます。ルールベースによるものと、システムで生成されるものがあります。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_parameters_supplemental_identifier"
+>title="追加の識別子を使用"
+>abstract="補足識別子は、ジャーニーの実行に関する追加のコンテキストを提供するセカンダリ識別子です。 定義するには、追加識別子として使用するフィールドを選択し、それに関連付ける名前空間を選択します。"
 
 単一イベントは、特定のプロファイルにリンクされます。ルールベースによるものと、システムで生成されるものがあります。単一イベントの詳細については、[この節](../event/about-events.md)を参照してください。
 
@@ -86,7 +91,7 @@ ht-degree: 100%
 
 ## ペイロードフィールドの定義 {#define-the-payload-fields}
 
-ペイロード定義を使用すると、ジャーニーのイベントからシステムが受け取ると想定される情報と、イベントに関連付けられている人を識別するためのキーを選択できます。ペイロードは Experience Cloud XDM フィールド定義に基づいています。XDM について詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target="_blank"}を参照してください。
+ペイロード定義を使用すると、ジャーニーのイベントからシステムが受け取ると想定される情報と、イベントに関連付けられている人を識別するためのキーを選択できます。ペイロードは Experience Cloud XDM フィールド定義に基づいています。XDM について詳しくは、[Adobe Experience Platform ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target="_blank"} を参照してください。
 
 1. リストから XDM スキーマを選択し、**[!UICONTROL フィールド]**&#x200B;フィールドまたは「**[!UICONTROL 編集]**」アイコンをクリックします。
 
@@ -119,9 +124,9 @@ ht-degree: 100%
 >title="ID タイプ"
 >abstract="イベントに関連付けられた顧客プロファイルを識別するためのキーを選択します。"
 
-ID タイプ（旧称「名前空間」）を使用すると、イベントに関連付けられた人物の識別に使用するキーのタイプを定義できます。設定は必須ではありません。ジャーニーで、[リアルタイム顧客プロファイル](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target="_blank"}から得られる追加情報を取得する場合には必須です。カスタムデータソースを介したサードパーティシステムのデータのみを使用する場合は、ID タイプは必要ありません。
+ID タイプ（旧称「名前空間」）を使用すると、イベントに関連付けられた人物の識別に使用するキーのタイプを定義できます。設定は必須ではありません。[リアルタイム顧客プロファイル](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target="_blank"}からの追加情報をジャーニーで取得する場合に必要です。カスタムデータソースを介したサードパーティシステムのデータのみを使用する場合は、ID タイプは必要ありません。
 
-既存の ID タイプを使用することも、Adobe Experience Platform ID サービスを使用して新しい ID タイプを作成することもできます。詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=ja){target="_blank"}を参照してください。
+既存の ID タイプを使用することも、Adobe Experience Platform ID サービスを使用して新しい ID タイプを作成することもできます。詳しくは、[Adobe Experience Platform ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=ja){target="_blank"} を参照してください。
 
 プライマリ ID を持つスキーマを選択した場合は、「**[!UICONTROL プロファイル識別子]**」および「**[!UICONTROL ID タイプ]**」フィールドに事前入力します。ID を定義していない場合は、_identityMap > id_ がプライマリキーとして選択されます。次に、ID タイプを選択する必要があります。キーは、_identityMap／ID_ を使用して（**[!UICONTROL ID タイプ]**&#x200B;フィールドの下に）事前入力されます。
 
@@ -143,7 +148,7 @@ ID タイプ（旧称「名前空間」）を使用すると、イベントに�
 
 キーは、イベントのペイロードデータの一部とするフィールドまたはフィールドの組み合わせです。システムはキーを使用することでイベントに関連付けられた人を識別できます。キーには、Experience Cloud ID、CRM ID、メールアドレスなどを使用できます。
 
-アドビのリアルタイム顧客プロファイルデータベースに保存されたデータを使用するには、イベントキーが、[リアルタイム顧客プロファイルサービス](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target="_blank"}でプロファイル ID として定義した情報である必要があります。
+Adobe リアルタイム顧客プロファイルデータベースに保存されたデータを使用するには、イベントキーは、[ リアルタイム顧客プロファイルサービス ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target="_blank"} でプロファイル ID として定義した情報である必要があります。
 
 これにより、プロファイル識別子はイベントと個人プロファイルの間の紐付けを実行できます。プライマリ ID を持つスキーマを選択した場合は、「**[!UICONTROL プロファイル識別子]**」および「**[!UICONTROL ID タイプ]**」フィールドに事前入力します。ID を定義していない場合は、_identityMap／ID_ がプライマリキーとして選択されます。次に、ID タイプを選択する必要があります。キーは、_identityMap／ID_ を使用して自動的に事前入力されます。
 
