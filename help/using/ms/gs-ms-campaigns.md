@@ -7,38 +7,59 @@ badge: label="アルファ版"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 7cd52f1954e50be521a6fc9ae26fb63586c53faa
+source-git-commit: 03af80bbaa347237059abe74f26274df5ab39caa
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 16%
+source-wordcount: '529'
+ht-degree: 22%
 
 ---
 
 # 調整されたキャンペーンの基本を学ぶ {#ms-camp}
 
->[!BEGINSHADEBOX]
 
-**目次**
++++目次
 
-* 設定：[ オーケストレーションされたキャンペーンを設定 ](gs-campaign-config.md)
-* 設定：[ リレーショナルスキーマの作成 ](ms-schemas.md)
-* 最初のオーケストレーション済みキャンペーンを作成：[ 主要な原則 ](gs-campaign-creation.md)
+ようこそ
+
+* 調整されたキャンペーンの基本を学ぶ
+* [主要な原則](gs-campaign-creation.md)
+* [ オーケストレートキャンペーンの作成手順 ](gs-campaign-steps.md)
+
+
+設定の手順
+
+* [リレーショナルスキーマの作成](ms-schemas.md)
+
+作成ステップ
+
 * [調整されたキャンペーンの作成](create-ms-campaign.md)
 * [キャンペーン設定の指定](ms-campaign-settings.md)
-* [メッセージのパーソナライズ](ms-personalization.md)
-* [クエリの作成](ms-query-modeler.md)
-* [メッセージのテストと検証](ms-proofs.md)
 * [キャンペーンのスケジュール設定と開始](start-monitor-campaigns.md)
-* アクティビティ：[ アクティビティの概要 ](activities/about-activities.md)
+* [クエリの作成](ms-query-modeler.md)
+
+アクティビティ
+
+* [アクティビティの概要](activities/about-activities.md)
 * [アクティビティの調整](orchestrate-activities.md)
-* [And 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションを変更 ](activities/change-dimension.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ チャネルアクション ](activities/channels.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) - [ 分割 ](activities/split.md) - &lt;!—[Test](activities/test.md) —> [Wait](activities/wait.md)
-* 監視：[ レポート ](reporting-campaigns.md)
+* [And 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションを変更 ](activities/change-dimension.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) - [ 分割 ](activities/split.md) - <!--[Test](activities/test.md) --> [待機](activities/wait.md)
 
->[!ENDSHADEBOX]
 
-キャンペーンのオーケストレーションは、ブランド主導の堅牢なバッチキャンペーン機能を導入することでAdobe Journey Optimizerを強化し、高度なセグメント化戦略を使用してクロスチャネルキャンペーンの計画と調整を行えるようにします。
+メッセージ
+
+* [チャネルアクション](activities/channels.md)
+* [メッセージのパーソナライズ](ms-personalization.md)
+* [メッセージのテストと検証](ms-proofs.md)
+
+レポートと監視
+
+* [レポート](reporting-campaigns.md)
+
++++
+
 
 ## オーケストレートキャンペーンとは
+
+キャンペーンのオーケストレーションは、ブランド主導の堅牢なバッチキャンペーン機能を導入することでAdobe Journey Optimizerを強化し、高度なセグメント化戦略を使用してクロスチャネルキャンペーンの計画と調整を行えるようにします。
 
 クロスチャネルマーケティングは、顧客に効果的にリーチすることを目指すあらゆるビジネスにとって不可欠です。Adobe Journey Optimizerは、マーケティングキャンペーンを簡単に管理するのに役立つ複雑なプロセスを設定できる包括的なグラフィカル環境を提供します。 調整されたキャンペーンを使用すると、あらゆるプロセスとタスクを調整し、セグメントの作成やメッセージの準備から配信に至るまでの、マーケティングキャンペーンのあらゆる側面でスピードと規模を改善できます。 さらに、キャンペーンオーケストレーション用の使いやすい単一のインターフェイスでチャネルを同期させることができます。
 

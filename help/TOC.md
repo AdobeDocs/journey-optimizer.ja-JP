@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7d70ffcb1fb3469084dda302a4b29d22df7fe9ea
+source-git-commit: 03af80bbaa347237059abe74f26274df5ab39caa
 workflow-type: tm+mt
 source-wordcount: '2374'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -174,33 +174,35 @@ ht-degree: 99%
          + [カスタムアクションを使用した Experience Platform のジャーニーイベントの書き込み](using/building-journeys/custom-action-aep.md)
 + 調整されたキャンペーン {#orchestrated-campaigns}
    + [調整されたキャンペーンの基本を学ぶ](using/ms/gs-ms-campaigns.md)
-   + 設定 {#ms-config}
-      + [設定の手順](using/ms/gs-campaign-config.md)
+   + [主な原則](using/ms/gs-campaign-creation.md)
+   + [ オーケストレートキャンペーンの作成手順 ](using/ms/gs-campaign-steps.md)
+   + 設定の手順 {#ms-config}
       + [リレーショナルスキーマの作成](using/ms/ms-schemas.md)
-   + 最初の調整されたキャンペーンの作成 {#create-ms-campaign}
-      + [主な原則](using/ms/gs-campaign-creation.md)
+   + 作成ステップ{#create-ms-campaign}
       + [調整されたキャンペーンの作成](using/ms/create-ms-campaign.md)
-      + [アクティビティの調整](using/ms/orchestrate-activities.md)
       + [キャンペーン設定の指定](using/ms/ms-campaign-settings.md)
+      + [キャンペーンのスケジュール設定と開始](using/ms/start-monitor-campaigns.md)
       + [クエリの作成](using/ms/ms-query-modeler.md)
-      + [メッセージのテストと検証](using/ms/ms-proofs.md)
-      + [キャンペーンのスケジュールと開始](using/ms/start-monitor-campaigns.md)
-      + [調整されたキャンペーンレポート](using/ms/reporting-campaigns.md)
-      + [パーソナライゼーションの管理](using/ms/ms-personalization.md)
-   + 調整されたキャンペーンアクティビティ {#design-campaigns}
-      + [調整されたキャンペーンアクティビティについて](using/ms/activities/about-activities.md)
+   + アクティビティ {#design-campaigns}
+      + [アクティビティの概要](using/ms/activities/about-activities.md)
+      + [アクティビティの調整](using/ms/orchestrate-activities.md)
       + [AND 結合](using/ms/activities/and-join.md)
       + [オーディエンスを作成](using/ms/activities/build-audience.md)
       + [ディメンションを変更](using/ms/activities/change-dimension.md)
       + [結合](using/ms/activities/combine.md)
       + [重複の除外](using/ms/activities/deduplication.md)
-      + [チャネルアクション](using/ms/activities/channels.md)
       + [エンリッチメント](using/ms/activities/enrichment.md)
       + [分岐](using/ms/activities/fork.md)
       + [紐付け](using/ms/activities/reconciliation.md)
       + [分割](using/ms/activities/split.md)
       + [テスト](using/ms/activities/test.md)
       + [待機](using/ms/activities/wait.md)
+   + メッセージ {#messages}
+      + [チャネルアクション](using/ms/activities/channels.md)
+      + [ コンテンツのパーソナライズ ](using/ms/ms-personalization.md)
+      + [メッセージのテストと検証](using/ms/ms-proofs.md)
+   + レポートと監視 {#report}
+      + [レポート](using/ms/reporting-campaigns.md)
 + キャンペーン {#campaigns}
    + [キャンペーンの基本を学ぶ](using/campaigns/get-started-with-campaigns.md)
    + [キャンペーンの作成](using/campaigns/create-campaign.md)
