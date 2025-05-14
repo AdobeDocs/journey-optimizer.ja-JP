@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
+source-git-commit: e758e4f3532d9f1abb7a564431993c11032804ba
 workflow-type: tm+mt
 source-wordcount: '776'
 ht-degree: 86%
@@ -67,15 +67,13 @@ You can also create audience-based campaigns to send messages.-->
 
 下の図で、[!DNL Adobe Journey Optimizer] の基本的なアーキテクチャ、統合のポイントおよび [!DNL Journey Optimizer] と [!DNL Experience Platform] との関係について説明します。
 
-Adobe Experience Platformは、強力で柔軟、オープンで一元化されたデータ基盤であり、データを収集、標準化、管理、AI インサイトの適用、統合して、思慮深く関連性の高いデジタルカスタマーを提供します
-エクスペリエンス。
+Adobe Experience Platformは、強力で柔軟、オープンで一元化されたデータ基盤であり、データを収集、標準化、管理、AI インサイトの適用、統合して、思慮深く関連性の高いデジタルカスタマーエクスペリエンスを提供します。
 
 ![](assets/ajo-aep-architecture-diagram.png){width="70%" zoomable="yes"}
 
 Experience Platformには、Adobe Real-Time Customer Data Platform、Journey Optimizer、Customer Journey Analytics、Adobe Mix Modelerの 4 つのアプリケーションがネイティブに構築されています。
 
-Journey Optimizerのコア機能とサービスは、リアルタイム顧客プロファイルを含むAdobe Experience Platformの基本コンポーネントによって動作します。 Journey Optimizerはシームレスに動作し、Real-Time CDP およびCustomer Journey Analyticsと相互運用できますが、次のことが可能です
-独立したスタンドアロンアプリケーションとしても機能します。
+Journey Optimizerのコア機能とサービスは、リアルタイム顧客プロファイルを含むAdobe Experience Platformの基本コンポーネントによって動作します。 Journey Optimizerは、シームレスに動作し、Real-Time CDP およびCustomer Journey Analyticsと相互運用できますが、スタンドアロンアプリケーションとして独立して機能することもできます。
 
 ![](assets/ajo-architecture-diagram.png){width="70%" zoomable="yes"}
 
