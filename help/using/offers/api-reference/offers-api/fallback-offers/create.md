@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 156d6c71-d8fd-4631-ae0c-44452d664dde
-source-git-commit: d629367413f106a00d0e940c90bd6d77e6f33a5c
+source-git-commit: 72ae1e269c9f0e8f3c978553b0119ffa027f73a1
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 100%
@@ -28,7 +28,7 @@ ht-degree: 100%
 **API 形式**
 
 ```http
-POST /{ENDPOINT_PATH}/offers/offers?offer-type=fallback
+POST /{ENDPOINT_PATH}/offers?offer-type=fallback
 ```
 
 | パラメーター | 説明 | 例 |
