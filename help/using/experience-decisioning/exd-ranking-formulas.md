@@ -5,10 +5,8 @@ feature: Ranking, Decisioning
 topic: Integrations
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
-source-git-commit: ec5baea16b5dcd0f3ab9713020c918aa414ea46b
+source-git-commit: 07704f99aff7d92e8db76755f6617345bac56590
 workflow-type: tm+mt
 source-wordcount: '1165'
 ht-degree: 18%
@@ -18,8 +16,6 @@ ht-degree: 18%
 # AI 式ビルダーの使用 {#create-ranking-formulas}
 
 **ランキング式** を使用すると、優先度スコアを考慮するのではなく、最初に提示するオファーを決定するルールを定義できます。
-
-<!--In today's world, relevance demands more than static priorities.The new formula builder in **[!UICONTROL Adobe Journey Optimizer]** empowers marketers to dynamically rank offers by blending AI-driven model scores with business priorities, offer attributes, and contextual signals — no coding required.-->
 
 これらのルールを作成するために、**[!UICONTROL Adobe Journey Optimizer]** の AI 式ビルダーを使用すると、オファーのランク付け方法をより柔軟に制御できます。 静的なオファーの優先度のみに依存するのではなく、ガイド付きインターフェイスを通じて、AI モデルスコア、オファーの優先度、プロファイル属性、オファー属性、コンテキストシグナルを組み合わせるカスタムランキング式を定義できるようになりました。
 
@@ -84,8 +80,6 @@ To leverage data from an AEP dataset, you can select it in the **[!UICONTROL ELS
 
    ![](assets/ranking-formula-criterion-1.png){width="70%"}
 
-   <!--You can refer to [offer attributes](items.md#attributes), profile attributes, or [context data](context-data.md).-->
-
 1. オプションで、追加の要素を指定して、条件が true になるように一致条件を絞り込むことができます。
 
    ![](assets/ranking-formula-addtional-conditions.png){width="80%"}
@@ -118,7 +112,7 @@ To leverage data from an AEP dataset, you can select it in the **[!UICONTROL ELS
 
 ### ランキング式の例
 
-次の例をご覧ください。<!--To be checked by PM-->
+次の例をご覧ください。
 
 ![](assets/ranking-formula-example.png){width="80%"}
 

@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: d7b1809fa2d04e5477fe375699153315365a6f3b
+source-git-commit: 07704f99aff7d92e8db76755f6617345bac56590
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 95%
+source-wordcount: '733'
+ht-degree: 100%
 
 ---
 
@@ -108,7 +108,7 @@ ht-degree: 95%
 
 Journey Optimizer では、オファーの優先度に加えて、**ランキング式**&#x200B;を作成できます。これらは、特定のプレースメントに対して最初に表示するオファーを決定する数式であり、オファーの優先度スコアを考慮するものではありません。
 
-例えば、終了日が今から 24 時間以内のすべてのオファーの優先度を上げることもできますし、プロファイルの目標地点が「実行中」の場合は「実行中」カテゴリのオファーの優先度を上げることもできます。<!--Learn how to create a ranking formula in [this section](exd-ranking-formulas.md).-->
+例えば、終了日が今から 24 時間以内のすべてのオファーの優先度を上げることもできますし、プロファイルの目標地点が「実行中」の場合は「実行中」カテゴリのオファーの優先度を上げることもできます。ランキング式を作成する方法については、[この節](exd-ranking-formulas.md)を参照してください。
 
 作成したら、この数式を選択戦略で使用できます。この選択戦略の使用時に実施要件を満たすオファーが複数ある場合、決定は選択した式を使用して、最初に配信するオファーを計算します。
 
