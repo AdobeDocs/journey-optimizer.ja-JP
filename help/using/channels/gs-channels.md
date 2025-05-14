@@ -6,23 +6,22 @@ description: ' [!DNL Adobe Journey Optimizer]  通信チャネルの操作方法
 role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
-source-git-commit: bebc2ac362603f56b3c386ec972f274f87fa662f
-workflow-type: ht
-source-wordcount: '406'
-ht-degree: 100%
+source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
+workflow-type: tm+mt
+source-wordcount: '412'
+ht-degree: 81%
 
 ---
 
-# [!DNL Adobe Journey Optimizer] 通信チャネルの基本を学ぶ {#get-started-email}
+# [!DNL Adobe Journey Optimizer] チャネルの基本を学ぶ {#get-started-email}
 
 今日の動的なマーケティング環境では、様々なプラットフォーム間で効果的にオーディエンスにリーチすることは、永続的な関係を作成し、エンゲージメントを推進するために不可欠です。この節では、[!DNL Adobe Journey Optimizer] 内で使用可能な通信チャネルの包括的な概要について説明します。これは、マーケティング戦略で各チャネルを効果的に利用する方法を理解するのに役立ちます。
 
+Adobe Journey Optimizerは、オーディエンスと効果的にやり取りするための様々なネイティブチャネルを提供しています。 アウトバウンドメッセージ配信とインバウンドエクスペリエンスを組み合わせることができます。
 
-Adobe Journey Optimizer には、オーディエンスと効果的にエンゲージするための様々な通信チャネルが用意されています。アウトバウンドチャネルとインバウンドチャネルを組み合わせることができます。
+## メッセージ配信用のアウトバウンドチャネル {#outbound-channels}
 
-## アウトバウンドチャネル {#outbound-channels}
-
-これらには、事前のインタラクションなしに顧客にメッセージを送信することが含まれます。例えば、オーディエンスに積極的にリーチするメールキャンペーンやプッシュ通知があります。[!DNL Adobe Journey Optimizer] でサポートされているアウトバウンドチャネルは次のとおりです。
+アウトバウンドメッセージ配信チャネルでは、事前のインタラクションなしで顧客にメッセージを送信します。 例えば、オーディエンスに積極的にリーチするメールキャンペーンやプッシュ通知があります。[!DNL Adobe Journey Optimizer] でサポートされているアウトバウンドチャネルは次のとおりです。
 
 * **メール**：パーソナライズされたメッセージを顧客のインボックスに直接配信します。
 * **SMS／MMS**：テキストメッセージを送信して、モバイルデバイスのユーザーにリーチします。
@@ -42,9 +41,9 @@ Adobe Journey Optimizer には、オーディエンスと効果的にエンゲ�
 <div align="center"><a href="../direct-mail/get-started-direct-mail.md"><strong>ダイレクトメール</strong></a></div></td>
 </tr></table>
 
-## インバウンドチャネル {#inbound-channels}
+## インバウンドエクスペリエンス {#inbound-channels}
 
-これらのチャネルを使用すると、顧客はインタラクションを開始できます。例えば、ユーザーが自分の条件でコンテンツをエンゲージできるアプリ内メッセージングや web ベースのインタラクションがあります。[!DNL Adobe Journey Optimizer] でサポートされているインバウンドチャネルは次のとおりです。
+インバウンドエクスペリエンスを使用すると、顧客はインタラクションを開始できます。 例えば、ユーザーが自分の条件でコンテンツにエンゲージできる、アプリ内メッセージや web ベースのエクスペリエンスなどがあります。 [!DNL Adobe Journey Optimizer] でサポートされているインバウンドチャネルは次のとおりです。
 
 * **アプリ内**：モバイルアプリケーションや web アプリケーション内でユーザーと通信して、ユーザーエクスペリエンスを向上させます。
 * **Web**：web ベースのメッセージを使用して、サイトを閲覧しているユーザーとやり取りします。
@@ -65,7 +64,7 @@ Adobe Journey Optimizer には、オーディエンスと効果的にエンゲ�
 </tr></table>
 
 
-## ジャーニーとキャンペーンでのチャネルの活用 {#leverage}
+## ジャーニーとキャンペーンのチャネル {#leverage}
 
 Adobe Journey Optimizer では、次の 2 つのプライマリコンテキストで通信チャネルを活用できます。
 

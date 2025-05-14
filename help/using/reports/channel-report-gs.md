@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 247b966d-4f84-453b-8178-9c9ebcd494ef
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: ht
-source-wordcount: '640'
-ht-degree: 100%
+source-git-commit: 64e225cdc8615e51655ef550866b67ca249a7572
+workflow-type: tm+mt
+source-wordcount: '639'
+ht-degree: 97%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 開始する前に、**[!UICONTROL レポート]** メニューにアクセス権があるかを確認します。
 
-**[!UICONTROL レポート]**&#x200B;メニューが表示されていない場合、アクセス権を拡張して&#x200B;**[!UICONTROL チャネルレポートを表示]**&#x200B;する権限が必要となります。組織の Adobe Experience Platform [権限](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=ja){target="_blank"}にアクセスできる場合は、自身の権限を延長できます。そうでない場合は、Adobe Journey Optimizer 管理者にお問い合わせください。
+**[!UICONTROL レポート]**&#x200B;メニューが表示されていない場合、アクセス権を拡張して&#x200B;**[!UICONTROL チャネルレポートを表示]**&#x200B;する権限が必要となります。組織のAdobe Experience Platform[ 権限 ](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=ja){target="_blank"} にアクセスできる場合は、独自の権限を拡張できます。 そうでない場合は、Adobe Journey Optimizer 管理者にお問い合わせください。
 
 +++ レポート権限の割り当て方法を学ぶ
 

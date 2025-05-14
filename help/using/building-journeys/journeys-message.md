@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: ジャーニー, メッセージ, プッシュ, sms, メール, アプリ内, web, コンテンツカード, コードベースのエクスペリエンス
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 40c067d85b278380abd874fc6edc69f32c0c56ef
-workflow-type: ht
-source-wordcount: '494'
-ht-degree: 100%
+source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
+workflow-type: tm+mt
+source-wordcount: '496'
+ht-degree: 91%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_message_activity"
 >title="組み込みのチャネルアクション"
->abstract="Journey Optimizer には、チャネルアクション機能が組み込まれています。アウトバウンド（メール、SMS や MMS テキストメッセージ、プッシュ）またはインバウンド（アプリ内、web、コードベースのエクスペリエンス、コンテンツカード）アクティビティをジャーニーに追加し、設定とコンテンツを定義するだけです。その後、メッセージアクティビティがジャーニーのコンテキストで実行および送信されます。"
+>abstract="Journey Optimizer には、チャネルアクション機能が組み込まれています。メッセージ（メール、テキストメッセージ（SMS/MMS）、プッシュ）またはインバウンドエクスペリエンス（アプリ内、web、コードベースのエクスペリエンス、コンテンツカード）アクティビティをジャーニーに追加し、設定とコンテンツを定義するだけです。 その後、メッセージアクティビティがジャーニーのコンテキストで実行および送信されます。"
 
 [!DNL Journey Optimizer] には、メッセージの送信に使用される組み込みのチャネルアクション機能が備わっています。プロファイルがこのアクティビティにエントリすると、メッセージが送信されます。
 
@@ -121,7 +121,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->* 各インバウンドメッセージアクティビティには、3 日間の&#x200B;**待機**&#x200B;アクティビティが付属しています。[詳細情報](wait-activity.md#auto-wait-node)
+>* 各インバウンドエクスペリエンスアクティビティには、3 日間の **待機** アクティビティが付属しています。 [詳細情報](wait-activity.md#auto-wait-node)
 >
 >* メールおよびプッシュ通知の場合、送信時間の最適化を有効にできます。[詳細情報](send-time-optimization.md)
 
