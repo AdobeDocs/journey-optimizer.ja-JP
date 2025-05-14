@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a205539b-b7ea-4832-92b0-49637c4dac47
-source-git-commit: a487355df0229a1e94375025eae0babc9405f087
+source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 93%
+source-wordcount: '661'
+ht-degree: 90%
 
 ---
 
@@ -80,6 +80,10 @@ ht-degree: 93%
    ![](assets/content-template-back.png)
 
 このテンプレートを、[!DNL Journey Optimizer] 内でコンテンツを作成する際に使用できるようになりました。[方法についてはこちらを参照](#use-content-templates)
+
+>[!NOTE]
+>
+>メールコンテンツテンプレートを作成する際に、ブランドやデザインに合った特定のスタイルをすばやく適用するには、コンテンツにテーマを適用します。 [詳細情報](../email/apply-email-themes.md)
 
 ## コンテンツをコンテンツテンプレートとして保存 {#save-as-template}
 

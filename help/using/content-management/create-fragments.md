@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '641'
-ht-degree: 100%
+source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
+workflow-type: tm+mt
+source-wordcount: '700'
+ht-degree: 91%
 
 ---
 
@@ -66,6 +66,14 @@ ht-degree: 100%
 * ビジュアルフラグメントの場合は、ジャーニーやキャンペーン内のメールと同じ方法で、必要に応じてコンテンツを編集します。[詳細情報](../email/get-started-email-design.md)
 
   ![](assets/fragment-designer.png)
+
+  ブランドやデザインに合った特定のスタイルをすばやく適用するには、フラグメントに [ テーマ ](../email/apply-email-themes.md) を適用します。
+
+  ![](assets/fragment-themes.png)
+
+  >[!CAUTION]
+  >
+  >フラグメントは、テーマモードとクラシックモードの間で相互互換性がありません。 テーマを適用するコンテンツでフラグメントを使用できるようにするには、このフラグメントをテーマモードで作成する必要があります。 [ テーマの詳細情報 ](../email/apply-email-themes.md)
 
 * 式フラグメントの場合は、[!DNL Journey Optimizer] パーソナライゼーションエディターのすべてのパーソナライズ機能およびオーサリング機能を活用して、フラグメントコンテンツを構築します。[詳細情報](../personalization/personalization-build-expressions.md)
 

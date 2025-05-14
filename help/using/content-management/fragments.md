@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
-source-git-commit: c30b7f4d75222db0553fbf576b90791af58cda57
-workflow-type: ht
-source-wordcount: '316'
-ht-degree: 100%
+source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
+workflow-type: tm+mt
+source-wordcount: '315'
+ht-degree: 96%
 
 ---
 
@@ -27,11 +27,11 @@ ht-degree: 100%
 
 ![](../rn/assets/do-not-localize/fragments.gif)
 
-➡️ [フラグメントの管理、作成、使用方法については、これらのビデオをご覧ください](#video-fragments)
+➡️ [ フラグメントの管理、作成、使用の方法については、次のビデオを参照してください ](#video-fragments)
 
 フラグメントを最大限に活用するには：
 
-* **独自のフラグメントを作成**：ビジュアルフラグメントまたは式フラグメントを、ゼロから作成するか、コンテンツをフラグメントとして保存して作成します。[フラグメントの作成方法を学ぶ](#create-fragments)また、Journey Optimizer の **Content REST API** を活用すると、コンテンツフラグメントを管理できます。詳しくは、[Journey Optimizer API ドキュメント](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}を参照してください。
+* **独自のフラグメントを作成**：ビジュアルフラグメントまたは式フラグメントを、ゼロから作成するか、コンテンツをフラグメントとして保存して作成します。[フラグメントの作成方法を学ぶ](create-fragments.md)また、Journey Optimizer の **Content REST API** を活用すると、コンテンツフラグメントを管理できます。詳しくは、[Journey Optimizer API ドキュメント](https://developer.adobe.com/journey-optimizer-apis/references/content/){target="_blank"}を参照してください。
 * **フラグメントの再利用**：作成したフラグメントを、必要な回数だけコンテンツで使用します。[ビジュアルフラグメントの追加](../email/use-visual-fragments.md)および[式フラグメントの活用](../personalization/use-expression-fragments.md)を参照してください
 
 ## 開始する前に {#fragment-prerequisites}
@@ -62,4 +62,4 @@ ht-degree: 100%
 
 [!DNL Journey Optimizer] で&#x200B;**式フラグメント**&#x200B;を管理、作成および使用する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3438918/?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3424587/?quality=12)
