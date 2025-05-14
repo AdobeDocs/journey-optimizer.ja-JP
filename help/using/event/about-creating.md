@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: イベント, 単一, 作成, ジャーニー
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: c403769a872ac6b4720ec6aaae9eda5d68da96c5
+source-git-commit: 6d219d9caea28947877e38893dea20a4f77456f6
 workflow-type: tm+mt
-source-wordcount: '1679'
-ht-degree: 94%
+source-wordcount: '1733'
+ht-degree: 91%
 
 ---
 
@@ -22,6 +22,11 @@ ht-degree: 94%
 >id="ajo_journey_event_unitary"
 >title="単一イベント"
 >abstract="イベントの設定を使用すると、Journey Optimizer が受け取る情報を定義できます。複数のイベントを（ジャーニーの様々なステップで）使用できます。また、同じイベントを複数のジャーニーで使用することもできます。単一イベントは、特定のプロファイルにリンクされます。ルールベースによるものと、システムで生成されるものがあります。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_parameters"
+>title="パラメーター"
+>abstract="イベントのパラメーター（スキーマやペイロードのフィールドなど）を定義します。 ルールベースのイベントの場合は、「**[!UICONTROL イベント ID 条件]**」フィールドを使用して、ジャーニーをトリガーにするイベントを特定するためにシステムで使用される条件を定義します。 イベントに使用する ID タイプとプロファイル識別子を追加します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_parameters_supplemental_identifier"
