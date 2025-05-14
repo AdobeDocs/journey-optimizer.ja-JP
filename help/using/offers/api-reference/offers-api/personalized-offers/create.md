@@ -6,7 +6,7 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 97dc9af3-ca31-4512-aad2-f959dfc9ad0b
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: d629367413f106a00d0e940c90bd6d77e6f33a5c
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 100%
@@ -30,7 +30,7 @@ ht-degree: 100%
 **API 形式**
 
 ```http
-POST /{ENDPOINT_PATH}/offers/{ID}?offer-type=personalized
+POST /{ENDPOINT_PATH}/offers/offers?offer-type=personalized
 ```
 
 | パラメーター | 説明 | 例 |

@@ -6,9 +6,9 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
-source-git-commit: d2451bbaf9830ce3d928e71a609627c23a7566fa
+source-git-commit: d629367413f106a00d0e940c90bd6d77e6f33a5c
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '729'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 * データセットをメッセージ配信ベンダー API にエクスポートします。
 
-<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=ja) to learn more about exporting audiences.) -->
+<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html) to learn more about exporting audiences.) -->
 
 >[!NOTE]
 >
@@ -104,7 +104,6 @@ curl -X POST 'https://platform.adobe.io/data/core/dwm/workloads/decisions' \
 | -------- | ----------- | ------- |
 | `xdm:activityId` | 決定の一意の ID。 |
 | `xdm:dataSetId` | 決定イベントを書き込むことができる出力データセット。 | `6196b4a1a63bd118dafe093c` |
-| `xdm:enrichedAudience` | CSV オーディエンスをターゲットにする場合は、このパラメーターを追加して「true」に設定します | `true` |
 | `xdm:includeContent` | これはオプションのフィールドで、デフォルトでは `false` です。`true` の場合、オファーのコンテンツは、データセットの決定イベントに含まれます。 | `false` |
 | `xdm:itemCount` | 決定範囲に対してリクエストされたオプションなどの項目数を示すオプションのフィールドです。デフォルトでは、API は範囲ごとに 1 つのオプションを返しますが、このフィールドを指定することで、より多くのオプションを明示的に求めることができます。1 つの範囲につき、最低 1 個、最大 30 個のオプションをリクエストできます。 | `1` | `xcore:offer-activity:1410cdcda196707b` |
 | `xdm:placementId` | 一意のプレースメント ID。 | `xcore:offer-placement:1410c4117306488a` |
