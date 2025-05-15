@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: bfe0ce29a30cff7ba876b43d9ed7858ffaab6bb5
+source-git-commit: b4c1cb69fd67e8c74982103c68050ab56a71113a
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1135'
 ht-degree: 67%
 
 ---
@@ -318,9 +318,7 @@ ht-degree: 67%
 
 **ユースケースプレイブック**
 
-* **プレイブックのオーサリングと共有（プライベートベータ版）** – 独自のユースケースプレイブックを作成、管理、共有できるようになりました。 この機能は、現在、一連の組織に対してのみプライベートベータ版として使用できます。 アクセスするには、アドビ担当者にお問い合わせください。
-
-パブリックベータ版としてのすべての顧客。 [詳細情報](../start/playbooks.md)
+* **プレイブックのオーサリングと共有（プライベートベータ版）** – 独自のユースケースプレイブックを作成、管理、共有できるようになりました。 この機能は、現在、一連の組織に対してのみプライベートベータ版として使用できます。 アクセス権を取得するには、Adobe担当者にお問い合わせください。 [詳細情報](../start/playbooks.md)
 
 **ナビゲーション**
 
