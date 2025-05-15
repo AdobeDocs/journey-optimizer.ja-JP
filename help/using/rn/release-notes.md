@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 07704f99aff7d92e8db76755f6617345bac56590
+source-git-commit: 23cd384354a7b3f6a4c6c35030fbd9275952c0b1
 workflow-type: tm+mt
-source-wordcount: '1085'
-ht-degree: 70%
+source-wordcount: '1011'
+ht-degree: 72%
 
 ---
 
@@ -24,25 +24,17 @@ ht-degree: 70%
 
 ## 2025 年 5 月更新 {#25-5-rn}
 
-* **メールDesigner（Beta）のテーマ** – 公開日：2025 年 5 月 14 日（PT）
-
-  事前承認済みのスタイルテーマをメールコンテンツにすばやく適用して、すべてのメールでブランドの一貫性を確保し、キャンペーンの作成プロセスを高速化し、独立して高品質のメールを生成すると同時にデザインチームへの依存を軽減できるようになりました。 [詳細情報](../email/apply-email-themes.md)
-
-  >[!AVAILABILITY]
-  >
-  >この機能は現在ベータ版で、ベータ版のお客様のみご利用いただけます。ベータ版プログラムに参加するには、アドビ担当者にお問い合わせください。
-
-  ![](assets/do-not-localize/themes.gif)
-
-* **決定 – 新しい AI 式ビルダー** – 公開日：2025 年 5 月 14 日（PT）
-
-  新しく改善されたインターフェイスから条件を定義および組み合わせることで、特定の決定ランキング式を作成できるようになりました。静的なオファーの優先度のみに依存するのではなく、ガイド付きインターフェイスを介して AI モデルスコア、オファーの優先度、プロファイル属性、オファー属性、コンテキストシグナルを組み合わせるカスタムランキング式を定義できます。 [詳細情報](../experience-decisioning/exd-ranking-formulas.md)
-
-  ![](assets/do-not-localize/formula-builder.gif)
-
 * **ランディングページのフォルダー** - 公開日：2025年5月9日（PT）
 
   ランディングページを簡単に管理するために、フォルダーを使用して、より効果的に整理し、より効率的な階層にすることができるようになりました。  [詳細情報](../landing-pages/manage-lp.md)
+<!--
+* **Decisioning - New AI formula builder**  - Availability date: May 7, 2025
+
+  You can now create specific Decisioning ranking formulas by defining and combining criteria from a new improved interface. Instead of relying only on a static offer priority, you can define custom ranking formulas that combine AI model scores, offer priorities, profile attributes, offer attributes, and contextual signals through a guided interface.
+  
+  For more information, refer to the [detailed documentation](../experience-decisioning/exd-ranking-formulas.md)
+
+  ![](assets/do-not-localize/formula-builder.gif)-->
 
 * **パーソナライゼーションのための錠剤のアクティベーション** – 公開日：2025 年 5 月 5 日（PT）
 
@@ -51,6 +43,10 @@ ht-degree: 70%
   >[!AVAILABILITY]
   >
   >この機能は、今後 30 日間にわたってすべての環境に徐々に展開される予定です。
+
+* **サンドボックスコピー用の新しいキャンペーンオブジェクトのサポート** <!-- - Availability date: -->
+
+  パッケージのエクスポートおよびインポート機能を使用して、複数のサンドボックス間でキャンペーンをコピーする場合、チャネル設定、実験のバリアントと設定、決定ポリシーと項目の依存関係もコピーされるようになりました。 [詳細情報](../configuration/copy-objects-to-sandbox.md)
 
 ## 2025年4月リリースノート {#25-4-rn}
 
@@ -314,7 +310,9 @@ ht-degree: 70%
 
 **ユースケースプレイブック**
 
-* **プレイブックのオーサリングと共有（Beta）** – 独自のユースケースプレイブックを作成、管理、共有できるようになりました。 この機能は、現在、パブリックベータ版としてすべてのお客様が利用できます。 [詳細情報](../start/playbooks.md)
+* **プレイブックのオーサリングと共有（プライベートベータ版）** – 独自のユースケースプレイブックを作成、管理、共有できるようになりました。 この機能は、現在、一連の組織に対してのみプライベートベータ版として使用できます。 アクセスするには、アドビ担当者にお問い合わせください。
+
+パブリックベータ版としてのすべての顧客。 [詳細情報](../start/playbooks.md)
 
 **ナビゲーション**
 
