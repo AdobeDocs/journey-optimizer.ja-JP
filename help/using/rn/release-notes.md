@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 23cd384354a7b3f6a4c6c35030fbd9275952c0b1
+source-git-commit: bfe0ce29a30cff7ba876b43d9ed7858ffaab6bb5
 workflow-type: tm+mt
-source-wordcount: '1011'
-ht-degree: 72%
+source-wordcount: '1141'
+ht-degree: 67%
 
 ---
 
@@ -24,17 +24,25 @@ ht-degree: 72%
 
 ## 2025 年 5 月更新 {#25-5-rn}
 
+* **メールDesigner（Beta）のテーマ** – 公開日：2025 年 5 月 14 日（PT）
+
+  事前承認済みのスタイルテーマをメールコンテンツにすばやく適用して、すべてのメールでブランドの一貫性を確保し、キャンペーンの作成プロセスを高速化し、独立して高品質のメールを生成すると同時にデザインチームへの依存を軽減できるようになりました。 [詳細情報](../email/apply-email-themes.md)
+
+  >[!AVAILABILITY]
+  >
+  >この機能は現在ベータ版で、ベータ版のお客様のみご利用いただけます。ベータ版プログラムに参加するには、アドビ担当者にお問い合わせください。
+
+  ![](assets/do-not-localize/themes.gif)
+
+* **決定 – 新しい AI 式ビルダー** – 公開日：2025 年 5 月 14 日（PT）
+
+  新しく改善されたインターフェイスから条件を定義および組み合わせることで、特定の決定ランキング式を作成できるようになりました。静的なオファーの優先度のみに依存するのではなく、ガイド付きインターフェイスを介して AI モデルスコア、オファーの優先度、プロファイル属性、オファー属性、コンテキストシグナルを組み合わせるカスタムランキング式を定義できます。 [詳細情報](../experience-decisioning/exd-ranking-formulas.md)
+
+  ![](assets/do-not-localize/formula-builder.gif)
+
 * **ランディングページのフォルダー** - 公開日：2025年5月9日（PT）
 
   ランディングページを簡単に管理するために、フォルダーを使用して、より効果的に整理し、より効率的な階層にすることができるようになりました。  [詳細情報](../landing-pages/manage-lp.md)
-<!--
-* **Decisioning - New AI formula builder**  - Availability date: May 7, 2025
-
-  You can now create specific Decisioning ranking formulas by defining and combining criteria from a new improved interface. Instead of relying only on a static offer priority, you can define custom ranking formulas that combine AI model scores, offer priorities, profile attributes, offer attributes, and contextual signals through a guided interface.
-  
-  For more information, refer to the [detailed documentation](../experience-decisioning/exd-ranking-formulas.md)
-
-  ![](assets/do-not-localize/formula-builder.gif)-->
 
 * **パーソナライゼーションのための錠剤のアクティベーション** – 公開日：2025 年 5 月 5 日（PT）
 
