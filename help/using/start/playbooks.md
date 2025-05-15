@@ -61,4 +61,4 @@ ht-degree: 69%
 
 メタデータは、AI アシスタンスまたは手動入力を使用して定義し、スキーマやセグメントなどの技術アセットを関連付け、様々な IMS 組織でプレイブックを共有できます。
 
-プレイブックの作成および共有方法について詳しくは、ユースケースプレイブックのドキュメント [AI アシスタントを使用した独自のプレイブックの作成および共有 ](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/author.html?lang=en#sharing-playbooks-sandboxes){target="_blank"} を参照してください。
+プレイブックの作成および共有方法について詳しくは、ユースケースプレイブックのドキュメント [AI アシスタントを使用した独自のプレイブックの作成および共有 ](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/author.html?lang=ja#sharing-playbooks-sandboxes){target="_blank"} を参照してください。
