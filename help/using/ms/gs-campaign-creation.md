@@ -10,7 +10,7 @@ exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
 source-git-commit: 03af80bbaa347237059abe74f26274df5ab39caa
 workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 27%
+ht-degree: 33%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="ajo_targeting_workflow_list"
 >title="調整されたキャンペーン"
->abstract="この画面では、オーケストレーションされたキャンペーンの完全なリストにアクセスし、現在のステータス、最後/次回の実行日を確認して、新しいオーケストレーションされたキャンペーンを作成できます。"
+>abstract="この画面では、調整されたキャンペーンの完全なリストにアクセスし、現在のステータス、前回／次回の実行日を確認して、新しい調整されたキャンペーンを作成できます。"
 
 調整されたキャンペーンを視覚的なキャンバスに作成して、セグメント化、キャンペーン実行、ファイル処理などのクロスチャネルプロセスを設計できます。
 

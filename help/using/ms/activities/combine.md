@@ -40,12 +40,12 @@ The **Combine** activity can be placed after any other activity, but not at the 
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_exclusion_merging_options"
->title="「除外結合」オプション"
+>title="「除外」結合オプション"
 >abstract="除外では、特定の条件に従って、ある母集団から要素を除外することができます。「結合の設定」セクションで、結合する前のアクティビティをすべてオンにします。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_combine_options"
->title="セグメント化タイプを選択"
+>title="セグメント化タイプの選択"
 >abstract="オーディエンスを結合する方法を選択します。**和集合**&#x200B;では、複数のアクティビティの結果を 1 つのターゲットに再グループ化できます。**積集合**&#x200B;では、アクティビティ内の異なるインバウンド母集団に共通の要素のみを保持できます。**除外**&#x200B;では、特定の条件に従って、ある母集団から要素を除外することができます。 "
 
 **結合**&#x200B;アクティビティの設定を開始するには、次の一般的な手順に従います。

@@ -9,16 +9,16 @@ exl-id: 01e74670-7431-4791-b98c-12278e6d3332
 source-git-commit: d5dd842d4fc906b454e1601ae850a12f457bcd7b
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 14%
+ht-degree: 24%
 
 ---
 
-# ブランドの整合性（Beta）{#brands-score}
+# ブランド整合性（Beta）{#brands-score}
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_score"
->title="ブランドの整合性スコア"
->abstract="ブランドの整合性スコアは、コンテンツがブランドのガイドラインにどれだけ準拠しているかを測定し、色、フォント、ロゴ、画像、書き方の一貫性を確保します。"
+>title="ブランド整合性スコア"
+>abstract="ブランド整合性スコアは、コンテンツがブランドのガイドラインにどのくらい良く準拠しているかを測定し、色、フォント、ロゴ、画像、文体の一貫性を確保します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_colors"

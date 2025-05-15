@@ -18,7 +18,7 @@ ht-degree: 49%
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_dimension_complement"
->title="補集合を生成"
+>title="補集合の生成"
 >abstract="重複として除外された残りの母集団を使用して、追加のアウトバウンドトランジションを生成できます。 これを行うには、「**補集合を生成**」オプションの切替スイッチをオンにします。"
 
 >[!CONTEXTUALHELP]

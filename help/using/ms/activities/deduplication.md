@@ -23,12 +23,12 @@ ht-degree: 98%
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_deduplication"
->title="重複排除 - 重複アクティビティ"
+>title="重複排除アクティビティ"
 >abstract="**重複排除 - 重複**&#x200B;アクティビティでは、インバウンドアクティビティの結果から重複を削除できます。 主に、ターゲティングアクティビティの後と、ターゲティングデータを使用できるアクティビティの前に使用されます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_deduplication_complement"
->title="補集合を生成"
+>title="補集合の生成"
 >abstract="重複として除外された残りの母集団を使用して、追加のアウトバウンドトランジションを生成できます。 これを行うには、「**補集合を生成**」オプションの切替スイッチをオンにします。"
 
 >[!CONTEXTUALHELP]
