@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d7ac73800a793fa5fec5d402e15e4f84db084f89
+source-git-commit: 0ad4c6a9024ea91d502ca2a733117f58c63ca50b
 workflow-type: tm+mt
-source-wordcount: '1140'
-ht-degree: 67%
+source-wordcount: '1157'
+ht-degree: 69%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 67%
 
 [!DNL Adobe Journey Optimizer] は、新機能、既存機能の強化、およびバグ修正を継続的に提供します。これらのリリースノートでは、すべての変更が各月の最終週にまとめられます。[!DNL Adobe Journey Optimizer] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}を参照してください。
 
-## 2025 年 5 月更新 {#25-5-rn}
+## 2025年5月の更新 {#25-5-rn}
 
 * **メールDesigner（Beta）のテーマ** – 公開日：2025 年 5 月 14 日（PT）
 
@@ -52,9 +52,15 @@ ht-degree: 67%
   >
   >この機能は、今後 30 日間にわたってすべての環境に徐々に展開される予定です。
 
-* **サンドボックスコピーの新しいキャンペーンオブジェクトのサポート** – 公開日：2025 年 5 月 15 日（PT）
+* **サンドボックスコピーの新規オブジェクトのサポート**
 
-  パッケージのエクスポートおよびインポート機能を使用して、複数のサンドボックス間でキャンペーンをコピーする場合、チャネル設定、実験のバリアントと設定、決定ポリシーと項目の依存関係もコピーされるようになりました。 [詳細情報](../configuration/copy-objects-to-sandbox.md)
+   * **キャンペーン** – 公開日：2025 年 5 月 15 日（PT）
+
+     パッケージのエクスポートおよびインポート機能を使用して、複数のサンドボックス間でキャンペーンをコピーする場合、チャネル設定、実験のバリアントと設定、決定ポリシーと項目の依存関係もコピーされるようになりました。 [詳細情報](../configuration/copy-objects-to-sandbox.md)
+
+   * **決定** – 公開日：2025 年 5 月 16 日（PT）
+
+     サンドボックス間で決定オブジェクトをコピーできるようになり、テストおよびデプロイメントワークフローを合理化します。 [詳細情報](../configuration/copy-objects-to-sandbox.md#decisioning)
 
 ## 2025年4月リリースノート {#25-4-rn}
 
@@ -248,7 +254,7 @@ ht-degree: 67%
 <tbody>
 <tr>
 <td>
-<p>ブランドのアラインメントスコア機能は、電子メールデザイナーで直接フィードバックを明確に提供し、コンテンツがブランドのトーン、スタイル、ガイドラインに従っているかどうかを確認するのに役立ちます。 この機能は、Betaで使用できます。</p>
+<p>ブランド整合性スコア機能は、E メールデザイナーで直接、明確なフィードバックを提供し、コンテンツがブランドのトーン、スタイル、ガイドラインと合っているかどうかを確認するのに役立ちます。この機能はベータ版で使用できます。</p>
 <p>詳しくは、 <a href="../content-management/brands-score.md">詳細なドキュメント</a>を参照してください。</p>
 <img src="assets/do-not-localize/brand-score.gif">
 </td>
@@ -283,10 +289,6 @@ ht-degree: 67%
 キャンペーンのプレビュー用の新しい API が、既存のプルーフ送信機能に加えて追加されました。 [詳細情報](https://developer.adobe.com/journey-optimizer-apis/references/simulations/#operation/createCampaignPreview){target="_blank"}。
 
 **サンドボックスツール**
-
-<!--- **Decisioning sandbox copy**
-
-  Decisioning objects can now be copied between sandboxes, streamlining testing and deployment workflows.-->
 
 * **カスタムアクション用のサンドボックスツール**
 
