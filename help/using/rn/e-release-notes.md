@@ -8,10 +8,10 @@ topic: Content Management
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 264927ba06ccb8cb1c7e7709e8fef053c1b37608
+source-git-commit: 4deb0b34266816e45c77c9b4d7328431995197fa
 workflow-type: tm+mt
-source-wordcount: '1554'
-ht-degree: 22%
+source-wordcount: '1513'
+ht-degree: 23%
 
 ---
 
@@ -292,9 +292,6 @@ ht-degree: 22%
 
 * **サブドメイン – 「デリゲーションなし」の方法**\
   完全なデリゲーションと CNAME 方式に加えて、新しいサブドメイン設定方法として、デリゲーションなし方式が利用できるようになりました。この方法では、メッセージの配信、レンダリング、トラッキングに必要な DNS のあらゆる側面を完全に制御および管理できます。
-
-* **Personalizationでのカスタムデータソースのサポート**\
-  クエリを作成し、外部ソース（Adobe Experience Platformに保存されていない）からデータを取得して、パーソナライゼーションや journey orchestration 用のJourney Optimizerのインバウンドサーフェスおよびアウトバウンドサーフェスで使用できるようになりました。
 
 * **ダイレクトメール - SSH のサポート**\
   パスワード認証タイプの既存の SFTP に加えて、SSH キー認証を使用してダイレクトメールファイルを SFTP サーバーに書き出すことができるようになりました。
