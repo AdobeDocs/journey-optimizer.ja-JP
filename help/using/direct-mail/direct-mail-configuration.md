@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 65b7b8323e37a0143a3941af1b9c2fb8b595a376
+source-git-commit: 2f7c620a712cfc104418bc985bd74e81da12147c
 workflow-type: tm+mt
-source-wordcount: '1343'
-ht-degree: 98%
+source-wordcount: '1365'
+ht-degree: 95%
 
 ---
 
@@ -103,13 +103,15 @@ ht-degree: 98%
 
 **[!UICONTROL サーバータイプ]**&#x200B;として「**[!UICONTROL SFTP]**」を選択した場合は、サーバーの詳細と資格情報を入力します。
 
-* **アカウント**：SFTP サーバーへの接続に使用するアカウント名。
+* **[!UICONTROL 認証タイプ]**: サーバーへの接続に使用する認証のタイプ（パスワードまたは SSH キー）を選択します。
 
-* **サーバーアドレス**：SFTP サーバーの URL。
+* **[!UICONTROL アカウント]**：SFTP サーバーへの接続に使用するアカウント名。
 
-* **ポート**：FTP 接続のポート番号。
+* **[!UICONTROL サーバーアドレス]**：SFTP サーバーの URL。
 
-* **パスワード**：SFTP サーバーへの接続に使用するパスワード。
+* **[!UICONTROL ポート]**:SFTP 接続のポート番号。
+
+* **[!UICONTROL パスワード]** / **[!UICONTROL SSH キー]**::&#x200B;SFTP サーバーへの接続に使用するパスワードまたは SSH キー。
 
 ![](assets/file-routing-config-sftp-detail.png)
 

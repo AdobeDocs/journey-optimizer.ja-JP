@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0ad4c6a9024ea91d502ca2a733117f58c63ca50b
+source-git-commit: 2f7c620a712cfc104418bc985bd74e81da12147c
 workflow-type: tm+mt
-source-wordcount: '1157'
-ht-degree: 69%
+source-wordcount: '1184'
+ht-degree: 67%
 
 ---
 
@@ -61,6 +61,11 @@ ht-degree: 69%
    * **決定** – 公開日：2025 年 5 月 16 日（PT）
 
      サンドボックス間で決定オブジェクトをコピーできるようになり、テストおよびデプロイメントワークフローを合理化します。 [詳細情報](../configuration/copy-objects-to-sandbox.md#decisioning)
+
+* **ダイレクトメール：SFTP 接続用の SSH キーのサポート** – 公開日：2025 年 5 月 5 日（PT）
+
+  ダイレクトメールファイルのルーティング設定で、SFTP サーバー接続で SSH キー認証がサポートされるようになりました。
+
 
 ## 2025年4月リリースノート {#25-4-rn}
 
