@@ -125,7 +125,7 @@ ht-degree: 71%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience"
 >title="バッチオーディエンス評価後のトリガー"
->abstract="バッチオーディエンスを新たに評価した後にジャーニーをトリガーするには、このオプションをオンに切り替えます。"
+>abstract="バッチオーディエンスを新たに評価した後にジャーニー実行をトリガーするには、このオプションをオンに切り替えます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_read_segment_scheduler_synchronize_audience_wait_time"
@@ -286,4 +286,4 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 「オーディエンスを読み取り」アクティビティによってトリガーされるジャーニーに適用可能なユースケースを理解します。バッチベースのジャーニーを構築する方法と適用するベストプラクティスについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430369?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)
