@@ -12,16 +12,16 @@ exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
 source-git-commit: bfe0ce29a30cff7ba876b43d9ed7858ffaab6bb5
 workflow-type: tm+mt
 source-wordcount: '821'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
-# メールコンテンツへのテーマの適用 {#apply-email-themes}
+# メールコンテンツへのテーマの追加 {#apply-email-themes}
 
 >[!CONTEXTUALHELP]
 >id="ajo_use_theme"
->title="テーマをメールに適用"
->abstract="メールのテーマを選択すると、ブランドやデザインに合った特定のスタイルをすばやく適用できます。"
+>title="メールへのテーマの適用"
+>abstract="メールのテーマを選択して、ブランドやデザインに合った特定のスタイル設定をすばやく適用します。"
 
 <!--This documentation provides a comprehensive guide to using themes to streamline your email creation process. With the ability to define reusable themes and leverage pre-designed modules, marketers can create professional, brand-aligned emails faster and with less effort.-->
 

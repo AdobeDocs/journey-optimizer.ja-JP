@@ -8,10 +8,11 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: ランディング，ランディングページ
-source-git-commit: 38ed45222aad458bb581e714a9a2a0e5ed088c3f
+exl-id: cc4cfd17-4d85-4dcd-8dd9-23cc2cd898be
+source-git-commit: 27e5d1565522f5daa006a16438671ce9d559465b
 workflow-type: tm+mt
 source-wordcount: '442'
-ht-degree: 40%
+ht-degree: 46%
 
 ---
 
@@ -57,8 +58,8 @@ ht-degree: 40%
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_folders"
->title="ランディングページをフォルダーに整理します"
->abstract="フォルダーを使用すると、組織のニーズに応じてランディングページを分類および管理できます。"
+>title="ランディングページをフォルダーに整理"
+>abstract="フォルダーを使用して、組織のニーズに応じてランディングページを分類および管理します。"
 
 ランディングページを簡単に移動するために、フォルダーを使用して、より効果的に構造化された階層に整理できます。 これにより、組織のニーズに応じて項目を分類および管理できます。
 

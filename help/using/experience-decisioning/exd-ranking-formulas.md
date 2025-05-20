@@ -9,7 +9,7 @@ exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 source-git-commit: 07704f99aff7d92e8db76755f6617345bac56590
 workflow-type: tm+mt
 source-wordcount: '1165'
-ht-degree: 18%
+ht-degree: 21%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_formulas"
 >title="ランキング式の作成"
->abstract="数式を使用すると、項目の優先度スコアを考慮するのではなく、最初に提示する決定項目を決定するルールを定義できます。 ランキング式を作成したら、選択戦略に割り当てることができます。"
+>abstract="式を使用すると、項目の優先度スコアを考慮するのではなく、最初に提示する決定項目を決定するルールを定義できます。ランキング式を作成したら、選択戦略に割り当てることができます。"
 
 ランキング式を作成するには、次の手順に従います。
 

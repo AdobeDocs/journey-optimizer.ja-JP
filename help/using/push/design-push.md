@@ -11,7 +11,7 @@ exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
 source-git-commit: 03af80bbaa347237059abe74f26274df5ab39caa
 workflow-type: tm+mt
 source-wordcount: '1361'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-compose"
 >title="プッシュ通知をパーソナライズします。"
->abstract="メッセージを作成するには、「**タイトル**」フィールドと **本文** フィールドにコンテンツを入力します。 パーソナライゼーショントークンを含めるには、パーソナライゼーションダイアログを開きます。"
+>abstract="メッセージを作成するには、「**タイトル**」フィールドと「**本文**」フィールドにコンテンツを入力します。パーソナライゼーショントークンを含めるには、パーソナライゼーションダイアログを開きます。"
 
 メッセージを作成するには、「**[!UICONTROL タイトル]**」フィールドと「**[!UICONTROL 本文]**」フィールドをクリックします。パーソナライゼーションエディターを使用して、コンテンツの定義、データのパーソナライズ、動的コンテンツの追加を行います。パーソナライゼーションエディターでの[パーソナライズ機能](../personalization/personalize.md)および[動的コンテンツ](../personalization/get-started-dynamic-content.md)の詳細情報。
 
@@ -71,7 +71,7 @@ Android バージョンで追加できるのは、画像アイコンと、拡張
 >[!CONTEXTUALHELP]
 >id="ajo-message-push-buttons"
 >title="ユーザーがプッシュ通知を操作するためのボタンを追加します。"
->abstract="このセクションから、メッセージにcall-to-action ボタンを追加します。 Apple iOSの場合は、通知カテゴリ ID を指定します。 Google Androidの場合、各ボタンにカスタムテキストとターゲットを含めることができます。"
+>abstract="このセクションから、メッセージにコールトゥアクションボタンを追加します。Apple iOS の場合は、通知カテゴリ識別子を指定します。Google Android の場合は、各ボタンにカスタムテキストとターゲットを含めることができます。"
 
 プッシュコンテンツにボタンを追加することで、アクションにつながる通知を作成できます。
 
