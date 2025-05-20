@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 75005ffc9fbef9d1dfd1219c2eee7d11f8bc63b5
+source-git-commit: 4363928c54b42cff259df63b24636b48c3bd1433
 workflow-type: tm+mt
 source-wordcount: '1268'
 ht-degree: 26%
@@ -246,7 +246,7 @@ ht-degree: 26%
 このリリースに含まれる機能強化を以下に示します。
 
 
-* **サンドボックスコピーの新規オブジェクトのサポート**
+* **サンドボックスコピーで新規オブジェクトがサポートされるようになりました**
 
    * **キャンペーン** – 公開日：2025 年 5 月 15 日（PT）
 
