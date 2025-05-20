@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: ht
-source-wordcount: '2471'
-ht-degree: 100%
+source-git-commit: a2e4a6c15ea9e6a96544eaa8f58dc0cd55854bbe
+workflow-type: tm+mt
+source-wordcount: '2478'
+ht-degree: 97%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 100%
 
 [!DNL Adobe Journey Optimizer] を使用する際には、さらに以下のガードレールと制限事項があります。
 
-使用権限、製品の制限事項、パフォーマンスガードレールの一覧について詳しくは、[Adobe Journey Optimizer 製品説明ページ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}を参照してください。
+使用権限、製品の制限事項、パフォーマンスガードレールの一覧については、[Adobe Journey Optimizer製品説明ページ ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} を参照してください。
 
-また、開始する前に、[リアルタイム顧客プロファイルデータのガードレール](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja){target="_blank"}も認識しておく必要があります。
+また、開始する前に、[ リアルタイム顧客プロファイルデータのガードレール ](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja){target="_blank"} を認識しておく必要があります。
 
 ## サポートされているブラウザー {#browsers}
 
@@ -62,7 +62,7 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 
 [!DNL Journey Optimizer] [web キャンペーン](../web/get-started-web.md)は、以前の他のチャネルで関与したことのない新しいプロファイルをターゲットにします。これにより、エンゲージメント可能なプロファイルの総数が増え、ユーザーが購入した、エンゲージメント可能なプロファイルの契約上の数を超えると、コストに影響する可能性があります。
 
-各パッケージのライセンス指標は、[Journey Optimizer の製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html)ページにリストされています。{target="_blank"}
+各パッケージのライセンス指標は、[Journey Optimizer の製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}ページにリストされています。
 
 ### コードベースチャネルガードレール {#code-based-guardrails}
 
@@ -124,7 +124,7 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 * エラーが発生した場合は、手順に従って 3 回再試行されます。受け取ったエラーメッセージに応じて、再試行回数を調整することはできません。再試行は、HTTP 401、403 および 404 を除くすべての HTTP エラーに対して実行されます。
 * 組み込みの&#x200B;**反応**&#x200B;イベントを使用すると、標準のアクションに反応できます。詳しくは、[このページ](../building-journeys/reaction-events.md)を参照してください。カスタムアクションを介して送信されたメッセージに反応する場合は、専用のイベントを設定する必要があります。
 * 2 つのアクションを並行して配置することはできません。1 つずつ順番に追加する必要があります。
-* プロファイルは同じジャーニー内に同時に複数回存在することはできません。再エントリが有効な場合、プロファイルはジャーニーに再エントリできますが、再エントリできるのは以前のジャーニーインスタンスから完全に離脱した後のみになります。[詳細情報](../building-journeys/end-journey.md)
+* プロファイルは、すべてのアクティブな [ ジャーニーのバージョン ](../building-journeys/publishing-the-journey.md#create-a-new-version-of-a-journey-journey-create-new-version) に対して、同じジャーニー内に同時に複数回存在することはできません。 再エントリが有効な場合、プロファイルはジャーニーに再エントリできますが、再エントリできるのは以前のジャーニーインスタンスから完全に離脱した後のみになります。[詳細情報](../building-journeys/end-journey.md)
 
 ### ジャーニーのバージョン {#journey-versions-g}
 
