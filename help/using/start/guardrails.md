@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: a2e4a6c15ea9e6a96544eaa8f58dc0cd55854bbe
+source-git-commit: a7468879b36dfe9184471824b387f1638fae3d50
 workflow-type: tm+mt
-source-wordcount: '2478'
-ht-degree: 97%
+source-wordcount: '2504'
+ht-degree: 96%
 
 ---
 
@@ -212,9 +212,11 @@ Adobe Experience Platform では、API ベースのプロファイルの作成�
 
 ### 式エディター {#expression-editor}
 
-次のガードレールが[ジャーニーの式エディター](../building-journeys/expression/expressionadvanced.md)に適用されます。
+次のガードレールは [ ジャーニー式エディター ](../building-journeys/expression/expressionadvanced.md) に適用されます。
 
 * エクスペリエンスイベントフィールドグループは、「オーディエンスを読み取り」アクティビティや、オーディエンスの選定またはビジネスイベントアクティビティで始まるジャーニーでは使用できません。新しいオーディエンスを作成し、ジャーニーで inaudience 条件を使用する必要があります。
+* `timeSeriesEvents` 属性は式エディターで使用できません。 プロファイルレベルでエクスペリエンスイベントにアクセスするには、`XDM ExperienceEvent` スキーマに基づいて新しいフィールドグループを作成してください。
+
 
 ### 「アプリ内」アクティビティ {#in-app-activity-limitations}
 

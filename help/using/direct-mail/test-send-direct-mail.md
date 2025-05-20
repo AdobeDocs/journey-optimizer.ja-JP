@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
-source-git-commit: 02571632e5f49ebf4fcc97d27c4025e9938795c0
-workflow-type: ht
-source-wordcount: '445'
-ht-degree: 100%
+source-git-commit: c314d2e7a48f8eab1f32950e0e4e9056d11fd58b
+workflow-type: tm+mt
+source-wordcount: '460'
+ht-degree: 89%
 
 ---
 
@@ -42,13 +42,18 @@ ht-degree: 100%
 
 ![](assets/direct-mail-review.png){width="800" align="center"}
 
-ダイレクトメールキャンペーンの準備が整ったら、「**[!UICONTROL アクティブ化]**」ボタンをクリックします。キャンペーンが開始すると、抽出ファイルが自動的に生成され、[ファイルのルーティング設定](../direct-mail/direct-mail-configuration.md)で指定されているサーバーに書き出されます。
+ダイレクトメールキャンペーンの準備が整ったら、「**[!UICONTROL アクティブ化]**」ボタンをクリックします。キャンペーンが開始すると、抽出ファイルが自動的に生成され、[ ファイルのルーティング設定 ](../direct-mail/direct-mail-configuration.md) で指定したサーバーに書き出されます。
+
+>[!NOTE]
+>
+>書き出されたファイルは、デフォルトでは改行で終わります。 これにより、標準のデータ処理ツールとの互換性が確保されます。
+
 
 送信後は、キャンペーンレポート内でダイレクトメールキャンペーンの影響を測定できます。ダイレクトメールレポートについて詳しくは、[この節](../reports/campaign-global-report-cja-direct.md)を参照してください。
 
 ## ダイレクトメールの同意の管理 {#dm-consent-management}
 
-[!DNL Journey Optimizer] では、同意は Experience Platform [同意スキーマ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=ja){target="_blank"}で処理されます。デフォルトでは同意フィールドの値は空で、通信内容の受信に対する同意として扱われます。
+ま [!DNL Journey Optimizer]、同意はExperience Platform [ 同意スキーマ ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=ja){target="_blank"} で処理されます。 デフォルトでは同意フィールドの値は空で、通信内容の受信に対する同意として扱われます。
 
 プロファイルがダイレクトメールの受信をオプトアウトした場合、対応する Experience Platform プロファイル属性で、`consents.marketing.postalMail.val` は `n` となり、対応するプロファイルは後続の配信から除外されます。
 

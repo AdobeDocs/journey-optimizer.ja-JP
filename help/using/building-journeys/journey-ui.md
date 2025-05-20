@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: ジャーニー, 最初, 開始, クイックスタート, オーディエンス, イベント, アクション
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
-source-git-commit: a2e4a6c15ea9e6a96544eaa8f58dc0cd55854bbe
+source-git-commit: a7468879b36dfe9184471824b387f1638fae3d50
 workflow-type: tm+mt
-source-wordcount: '922'
-ht-degree: 97%
+source-wordcount: '935'
+ht-degree: 96%
 
 ---
 
@@ -52,9 +52,9 @@ ht-degree: 97%
 
 ジャーニーのリストでは、様々なフィルターを使用して、ジャーニーのリストを絞り込むことができます。
 
-![](assets/filter-journeys.png)
+![2 種類のジャーニーが選択された、ジャーニーフィルタリングのサンプルを示す画面 ](assets/filter-journeys.png)
 
-**[!UICONTROL ステータスフィルターとバージョンフィルター]**&#x200B;では、[ステータス](#journey-statuses)、[タイプ](#journey-types)、[バージョン](#journey-versions)および割り当てられている[タグ](../start/search-filter-categorize.md#tags)に従ってジャーニーをフィルタリングできます。
+**[!UICONTROL ステータスフィルターとバージョンフィルター]**&#x200B;では、[ステータス](#journey-statuses)、[タイプ](#journey-types)、[バージョン](publishing-the-journey.md#journey-versions-journey-versions)および割り当てられている[タグ](../start/search-filter-categorize.md#tags)に従ってジャーニーをフィルタリングできます。
 
 **[!UICONTROL 作成フィルター]**&#x200B;を使用すると、作成日またはジャーニーを作成したユーザーに従ってジャーニーをフィルタリングできます。
 
