@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ef93f92e717815a89e03e4ba85331aac6a041ee8
+source-git-commit: 75005ffc9fbef9d1dfd1219c2eee7d11f8bc63b5
 workflow-type: tm+mt
-source-wordcount: '1314'
-ht-degree: 25%
+source-wordcount: '1268'
+ht-degree: 26%
 
 ---
 
@@ -189,20 +189,20 @@ ht-degree: 25%
 </tbody>
 </table>
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>実験の勝者を拡大・縮小</strong><br/></th>
+<th><strong>Scale your Experimentation winner</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>勝者のスケールを使用すると、実験の勝者バリエーションを自動または手動でオーディエンス全体にロールアウトできます。 この機能により、パフォーマンスの高い人物を特定した後も、手動で常に監視することなく、その人物のリーチと有効性を最大限に高めることができます。</p>
+<p>Scale the Winner enables you to automatically or manually roll out the winning variation of an experiment to your full audience. This feature ensures that, once a top performer is identified, you can maximize its reach and effectiveness without constant manual oversight.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <table>
 <thead>
