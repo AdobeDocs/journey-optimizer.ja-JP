@@ -9,22 +9,24 @@ role: User
 level: Intermediate
 keywords: 公開, ジャーニー, ライブ, 有効性, 確認
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
-source-git-commit: a2e4a6c15ea9e6a96544eaa8f58dc0cd55854bbe
+source-git-commit: 5bdacef2196592776c6b37708b0df0986460ca1f
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 96%
+source-wordcount: '613'
+ht-degree: 82%
 
 ---
 
 # ジャーニーの公開 {#publishing-the-journey}
 
-ジャーニーをアクティブ化し、新しいプロファイルが入力できるようにするには、ジャーニーを公開する必要があります。ジャーニーを公開する前に、そのジャーニーが有効であること、エラーがないことを確認します。エラーのあるジャーニーは公開できません。
+ジャーニーをアクティブ化し、新しいプロファイルがエントリできるようにするには、ジャーニーを公開する必要があります。 公開すると、ジャーニーがライブになり、機能するようになります。 エラーが含まれているジャーニーは公開できないので、公開する前に、ジャーニーが完了し、有効であることを確認し、エラーがあれば修正する必要があります。
 
 ➡️ [ビデオでこの機能を確認する](#video)
 
+## 公開プロセス {#journey-publication}
+
 ジャーニーを公開する手順を以下に示します。
 
-1. ジャーニーを公開する前に、そのジャーニーが有効であること、エラーがないことを確認します。エラーのあるジャーニーは公開できません。
+1. ジャーニーを公開する前に、ジャーニーが有効でエラーがないことを確認します。 エラーがある場合、ジャーニーを公開することはできません。
 
    * ジャーニーをテストする方法について詳しくは、[このページ](testing-the-journey.md)を参照してください。
    * ジャーニーのエラーをトラブルシューティングする方法について詳しくは、[この節](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)を参照してください。
@@ -33,7 +35,7 @@ ht-degree: 96%
 
    >[!NOTE]
    >
-   > ジャーニーが承認ポリシーの対象となっている場合、ジャーニーを公開できるようにするには、承認をリクエストする必要があります。[詳細情報](../test-approve/gs-approval.md)
+   > ジャーニーに承認ポリシーが適用される場合は、公開する前に承認をリクエストする必要があります。 [詳細情報](../test-approve/gs-approval.md)
 
 
    ![](assets/journeyuc1_18.png)
@@ -88,4 +90,4 @@ ht-degree: 96%
 
 ジャーニーの公開方法について詳しくは、次のビデオを参照してください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3427936?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
