@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ef06334d0977af4b325b994bb480162b45ceaecf
+source-git-commit: 08b8fe41c09ee2d2580bebd5d21472576a7c62a6
 workflow-type: tm+mt
 source-wordcount: '1385'
 ht-degree: 26%
@@ -83,11 +83,12 @@ ht-degree: 26%
 <td>
 <p>バッチセグメント化の完了後に毎日のジャーニー実行をトリガーできるようになりました。 すべてのお客様が、毎日スケジュールされるジャーニーでこのオプションを利用できるようになりました。 これにより、最大 6 時間の時間枠を定義して、バッチセグメント化ジョブからのオーディエンスデータを待機し、ジャーニーが最新のデータで実行されるか、準備ができていない場合はスキップされるようにします。</p>
 <p>以前は限定提供でリリースされていましたが、現在はすべての環境でこの機能を利用できます（一般提供）。</p>
+<img src="assets/do-not-localize/trigger-journeys.gif">
+<!--<p>For more information, refer to the <a href="../building-journeys/read-audience.md#schedule">detailed documentation</a>.</p>-->
 </td>
 </tr>
 </tbody>
 </table>
-
 
 <table>
 <thead>
@@ -120,6 +121,8 @@ ht-degree: 26%
 <td>
 <p>ジャーニーリストとキャンペーンリストでカレンダー表示を使用できるようになりました。 これにより、すべてのジャーニーとキャンペーンのアクティベーションをそれぞれのリストで視覚化できます。</p>
 <p>この変更は、一連の組織のみが使用できます（限定提供）。アクセスするには、アドビ担当者にお問い合わせください。</p>
+<img src="assets/do-not-localize/calendar.gif">
+<!--<p>For more information, refer to these sections: <a href="../building-journeys/journey-ui.md">Browse & filter your journeys</a>, <a href="../campaigns/modify-stop-campaign.md">Access campaigns</a>.</p>-->
 </td>
 </tr>
 </tbody>
@@ -146,8 +149,6 @@ ht-degree: 26%
 </tbody>
 </table>
 
-
-
 <table>
 <thead>
 <tr>
@@ -162,8 +163,9 @@ ht-degree: 26%
 <ul>
 <li>サポートの拡張：競合管理ツールは、オーディエンスの読み取りジャーニーに加えて、単一ジャーニーとオーディエンスの選定ジャーニーの両方をサポートするようになりました。</li>
 <li>トラブルシューティングの改善：クエリサービスで 2 つの新しいステップイベントフィールドが使用できるようになりました。これにより、プロファイルがジャーニーまたはキャンペーンから却下された理由を分析できます。</li>
-<li>強化されたレポート：レポートに、ジャーニーまたはキャンペーンからプロファイルを除外した特定のルールが示され、透明性が高く、アクションにつながるインサイトが得られるようになりました。</li>
-</ul>
+<li>強化されたレポート：レポートに、ジャーニーまたはキャンペーンからプロファイルを除外した特定のルールが示され、透明性が高く、アクションにつながるインサイトが得られるようになりました。</li></ul>
+<img src="assets/do-not-localize/gif-conflict.gif">
+<!--<p>For more information, refer to the <a href="../conflict-prioritization/gs-conflict-prioritization.md">detailed documentation</a>.</p>-->
 </td>
 </tr>
 </tbody>
@@ -181,6 +183,7 @@ ht-degree: 26%
 <p>以前はベータ版で提供されていましたが、コンテンツバリエーションのシミュレーションが一般提供（GA）されるようになりました。これを使用すると、CSV ファイルまたは JSON ファイルからアップロードした、または手動で追加したサンプル入力データを使用して、コンテンツの様々なバリエーションをプレビューできます。パーソナライゼーションのコンテンツで使用されるすべての属性は、システムによって自動的に検出され、複数のバリアントを作成するテストに使用できます。</p>
 <p>以前は限定提供でリリースされていましたが、現在はすべての環境でこの機能を使用できます。 この一般提供リリースで、この機能に多言語コンテンツとコンテンツ実験のサポートが含まれるようになり、様々な言語や処理でのバリエーションをテストできます。 さらに、（プロファイル属性に加えて）コンテキスト属性もサポートされるようになり、より動的で状況に応じたコンテンツテストが可能になりました。</p>
 <img src="assets/do-not-localize/variants.gif">
+<!--<p>For more information, refer to the <a href="../test-approve/simulate-sample-input.md">detailed documentation</a>.</p>-->
 </td>
 </tr>
 </tbody>
