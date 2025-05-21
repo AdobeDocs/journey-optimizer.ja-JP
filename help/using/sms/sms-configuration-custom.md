@@ -99,8 +99,8 @@ API 認証情報を作成して設定した後、SMS メッセージの [Webhook
 
 API 認証情報が作成されたら、API キー認証に必要な次のフィールドに入力します。
 
-* **[!UICONTROL  名前 ]**&#x200B;:API キー設定の名前を入力します。
-* **[!UICONTROL API トークン ]**&#x200B;:SMS プロバイダーから提供された API トークンを入力します。
+* **[!UICONTROL &#x200B; 名前 &#x200B;]**&#x200B;:API キー設定の名前を入力します。
+* **[!UICONTROL API トークン &#x200B;]**&#x200B;:SMS プロバイダーから提供された API トークンを入力します。
 
 ![](assets/sms-byop-api-key.png)
 
@@ -108,8 +108,8 @@ API 認証情報が作成されたら、API キー認証に必要な次のフィ
 
 API 認証情報を作成したら、MAC認証に必要な次のフィールドに入力します。
 
-* **[!UICONTROL  名前 ]**&#x200B;:MAC認証設定の名前を入力します。
-* **[!UICONTROL API トークン ]**&#x200B;:SMS プロバイダーから提供された API トークンを入力します。
+* **[!UICONTROL &#x200B; 名前 &#x200B;]**&#x200B;:MAC認証設定の名前を入力します。
+* **[!UICONTROL API トークン &#x200B;]**&#x200B;:SMS プロバイダーから提供された API トークンを入力します。
 * **[!UICONTROL API 秘密鍵]**:SMS プロバイダーから提供された API 秘密鍵を入力します。 このキーは、安全な通信のためのMAC（Message Authentication Code）を生成するために使用されます。
 * **[!UICONTROL Mac Authorization Hash Format]**: MAC認証のハッシュ形式を選択します。
 
@@ -119,9 +119,9 @@ API 認証情報を作成したら、MAC認証に必要な次のフィールド�
 
 API 認証情報が作成されたら、OAuth 認証に必要な次のフィールドに入力します。
 
-* **[!UICONTROL  名前 ]**&#x200B;:OAuth 認証設定の名前を入力します。
+* **[!UICONTROL &#x200B; 名前 &#x200B;]**&#x200B;:OAuth 認証設定の名前を入力します。
 
-* **[!UICONTROL API トークン ]**&#x200B;:SMS プロバイダーから提供された API トークンを入力します。
+* **[!UICONTROL API トークン &#x200B;]**&#x200B;:SMS プロバイダーから提供された API トークンを入力します。
 
 * **[!UICONTROL OAuth URL]**&#x200B;:OAuth トークンを取得する URL を入力します。
 
@@ -133,11 +133,11 @@ API 認証情報が作成されたら、OAuth 認証に必要な次のフィー�
 
 API 資格情報を作成したら、JWT 認証に必要な次のフィールドに入力します。
 
-* **[!UICONTROL  名前 ]**&#x200B;:JWT 認証設定の名前を入力します。
+* **[!UICONTROL &#x200B; 名前 &#x200B;]**&#x200B;:JWT 認証設定の名前を入力します。
 
-* **[!UICONTROL API トークン ]**&#x200B;:SMS プロバイダーから提供された API トークンを入力します。
+* **[!UICONTROL API トークン &#x200B;]**&#x200B;:SMS プロバイダーから提供された API トークンを入力します。
 
-* **[!UICONTROL JWT ペイロード ]**&#x200B;：発行者、件名、オーディエンス、有効期限など、JWT に必要なクレームを含む JSON ペイロードを入力します。
+* **[!UICONTROL JWT ペイロード &#x200B;]**&#x200B;：発行者、件名、オーディエンス、有効期限など、JWT に必要なクレームを含む JSON ペイロードを入力します。
 
 ![](assets/sms-byop-jwt.png)
 
