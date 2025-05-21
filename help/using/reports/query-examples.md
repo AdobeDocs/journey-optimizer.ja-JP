@@ -8,10 +8,10 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 2e1168f321d6f2c83733c6112e11d834d5e7eb95
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '1486'
-ht-degree: 100%
+source-wordcount: '1499'
+ht-degree: 72%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 クエリで使用するフィールドに、対応するスキーマに関連する値があることを確認します。
 
-**ID、instanceID、profileID の違いは何ですか。**
++++ID、instanceid、profileid の違いは何ですか？
 
 * ID：すべてのステップイベントエントリに対して一意です。2 つの異なるステップイベントに同じ ID を割り当てることはできません。
 * instanceID：instanceID は、ジャーニー実行内のプロファイルに関連付けられるすべてのステップイベントで同一です。プロファイルがジャーニーに再度入ると、別の instanceID が使用されます。この新しい instanceID は、再入力されたインスタンスのすべてのステップイベント（開始から終了まで）で同じになります。
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 ## 基本的なユースケース／一般的なクエリ {#common-queries}
 
-**特定の時間枠にジャーニーにエントリしたプロファイルの数**
++++特定の時間枠にジャーニーにエントリしたプロファイルの数
 
 このクエリでは、指定された時間枠に指定されたジャーニーにエントリした個別のプロファイル数が表示されます。
 
@@ -47,7 +47,32 @@ AND _experience.journeyOrchestration.stepEvents.instanceType = 'unitary'
 AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 ```
 
-**特定のジャーニーの各ノードで一定時間に発生したエラー数**
++++
+
++++プロファイルが特定のジャーニーにエントリしなかった原因となったルール
+
+_例_
+
+```sql
+SELECT 
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventType,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.ID AS RULESET_ID,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.name AS RULESET_NAME,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.rejectedRules.ID AS RULE_ID,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.rejectedRules.name AS RULE_NAME
+FROM
+    journey_step_events
+WHERE
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard'
+AND
+    _experience.journeyOrchestration.stepEvents.journeyVersionID='3855072d-79c3-438a-a5c3-c77fd6843812'
+AND
+    timestamp >= to_date('2025-05-16')
+```
+
++++
+
++++特定のジャーニーの各ノードで一定時間に発生したエラー数
 
 _データレイクのクエリ_
 
@@ -69,7 +94,9 @@ AND
 GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
 ```
 
-**特定の時間枠に特定のジャーニーから破棄されたイベントの数**
++++
+
++++特定の時間枠に特定のジャーニーから破棄されたイベントの数
 
 _データレイクのクエリ_
 
@@ -81,7 +108,9 @@ WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVers
 AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 ```
 
-**特定の時間枠での特定ジャーニーの特定プロファイルへの影響**
++++
+
++++特定の時間枠での特定ジャーニーの特定プロファイルへの影響
 
 _データレイクのクエリ_
 
@@ -108,7 +137,9 @@ AND
 ORDER BY timestamp;
 ```
 
-**2 つのノード間の経過時間**
++++
+
++++2 つのノード間の経過時間
 
 これらのクエリは、例えば、待機アクティビティに費やされる時間の見積もりに使用できます。これにより、待機アクティビティを確実に正しく設定できます。
 
@@ -235,7 +266,9 @@ WHERE
     T1.INSTANCE_ID = T2.INSTANCE_ID
 ```
 
-**serviceEvent の詳細を確認する方法**
++++
+
++++serviceEvent の詳細の確認方法
 
 ジャーニーステップイベントデータセットには、すべての stepEvents と serviceEvents が含まれています。stepEvents は、ジャーニー内のプロファイルのアクティビティ（イベントやアクションなど）に関連するので、レポーティングに使用されます。serviceEvents は同じデータセットに保存され、デバッグ目的（エクスペリエンスイベント破棄の理由など）での追加情報を示します。
 
@@ -257,7 +290,7 @@ WHERE _experience.journeyOrchestration.serviceType is not null;
 
 ## メッセージ／アクションエラー {#message-action-errors}
 
-**ジャーニーで発生した各エラーのリスト**
++++ジャーニーで発生した各エラーのリスト
 
 このクエリを使用すると、メッセージ／アクションの実行中にジャーニーで発生した各エラーをリストできます。
 
@@ -283,9 +316,11 @@ GROUP BY _experience.journeyOrchestration.stepEvents.actionExecutionError
 
 このクエリは、ジャーニーでのアクションの実行中に発生した様々なエラーとその発生回数を返します。
 
++++
+
 ## プロファイルベースのクエリ {#profile-based-queries}
 
-**プロファイルが特定のジャーニーにエントリしたかどうかの確認**
++++プロファイルが特定のジャーニーに入ったかどうかの確認
 
 _データレイクのクエリ_
 
@@ -307,7 +342,9 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 結果は 0 より大きい値になります。このクエリは、プロファイルがジャーニーにエントリした正確な回数を返します。
 
-**プロファイルが特定のメッセージを送信されたかどうかの確認**
++++
+
++++プロファイルが特定のメッセージを送信されたかどうかの確認
 
 方法 1：メッセージの名前がジャーニー内で一意でない場合（複数の場所で使用される場合）。
 
@@ -357,7 +394,9 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 このクエリは、すべてのメッセージのリストと、選択したプロファイルに対してそれらのメッセージが呼び出された回数を返します。
 
-**過去 30 日間にプロファイルが受け取ったすべてのメッセージの検索**
++++
+
++++過去 30 日間にプロファイルが受け取ったすべてのメッセージの検索
 
 _データレイクのクエリ_
 
@@ -383,7 +422,9 @@ GROUP BY _experience.journeyOrchestration.stepEvents.nodeName
 
 このクエリは、すべてのメッセージのリストと、選択したプロファイルに対してそれらのメッセージが呼び出された回数を返します。
 
-**過去 30 日間にプロファイルがエントリしたすべてのジャーニーの検索**
++++
+
++++過去 30 日間にプロファイルがエントリしたすべてのジャーニーの検索
 
 _データレイクのクエリ_
 
@@ -407,7 +448,9 @@ GROUP BY _experience.journeyOrchestration.stepEvents.journeyVersionName
 
 このクエリは、すべてのジャーニー名のリストと、クエリされたプロファイルがジャーニーにエントリした回数を返します。
 
-**1 日あたりのジャーニーの対象となったプロファイルの数**
++++
+
++++1 日あたりのジャーニーの対象となったプロファイルの数
 
 _データレイクのクエリ_
 
@@ -431,9 +474,11 @@ ORDER BY DATE(timestamp) desc
 
 このクエリは、指定した期間に 1 日ごとにジャーニーにエントリしたプロファイルの数を返します。プロファイルが別の ID を使用してエントリした場合は、2 回カウントされます。再エントリを有効にすると、別の日にジャーニーに再エントリした場合、プロファイル数が複数日にわたって重複する場合があります。
 
++++
+
 ## 「オーディエンスを読み取り」に関連するクエリ {#read-segment-queries}
 
-**オーディエンス書き出しジョブの終了に要した時間**
++++オーディエンスエクスポートジョブの終了に要した時間
 
 _データレイクのクエリ_
 
@@ -465,7 +510,9 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'finish
 
 クエリは、オーディエンス書き出しジョブがキューに追加された時刻と最終的に終了した時刻との時間差を分単位で返します。
 
-**重複が原因でジャーニーによって破棄されたプロファイルの数**
++++
+
++++重複が原因でジャーニーによって破棄されたプロファイルの数
 
 _データレイクのクエリ_
 
@@ -487,7 +534,9 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 クエリは、重複していたことが原因でジャーニーによって破棄された、すべてのプロファイル ID を返します。
 
-**無効な名前空間が原因でジャーニーによって破棄されたプロファイルの数**
++++
+
++++無効な名前空間が原因でジャーニーによって破棄されたプロファイルの数
 
 _データレイクのクエリ_
 
@@ -509,7 +558,9 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 クエリは、プロファイル ID に無効な名前空間が存在する、もしくはその名前空間の ID がないという理由でジャーニーによって破棄された、すべてのプロファイル ID を返します。
 
-**ID マップがないという理由でジャーニーによって破棄されたプロファイルの数**
++++
+
++++ID マップがないという理由でジャーニーによって破棄されたプロファイルの数
 
 _データレイクのクエリ_
 
@@ -531,7 +582,9 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 クエリは、ID マップが見つからないという理由でジャーニーによって破棄された、すべてのプロファイル ID を返します。
 
-**ジャーニーがテストノードにあり、プロファイルがテストプロファイルでなかったという理由で、ジャーニーによって破棄されたプロファイルの数**
++++
+
++++ジャーニーがテストノードにあり、プロファイルがテストプロファイルでなかったという理由で、ジャーニーによって破棄されたプロファイルの数
 
 _データレイクのクエリ_
 
@@ -553,7 +606,9 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 クエリは、テストモードでエクスポートジョブが実行されたが、プロファイルの testProfile 属性が true に設定されていなかったという理由により、ジャーニーによって破棄されたすべてのプロファイル ID を返します。
 
-**内部エラーが理由でジャーニーによって破棄されたプロファイルの数**
++++
+
++++内部エラーが理由でジャーニーによって破棄されたプロファイルの数
 
 _データレイクのクエリ_
 
@@ -575,7 +630,9 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 クエリは、一部の内部エラーが理由でジャーニーによって破棄されたすべてのプロファイル ID を返します。
 
-**特定のジャーニーバージョンでの「オーディエンスを読み取り」の概要**
++++
+
++++特定のジャーニーバージョンに関するオーディエンスを読み取りの概要
 
 _データレイクのクエリ_
 
@@ -613,7 +670,10 @@ WHERE
 * ジャーニーのバージョンがスケジュールに到達していない
 * ジャーニーバージョンでオーケストレーターを呼び出してエクスポートジョブをトリガーすると想定されている場合、アップストリームフローで次のような問題が発生：ジャーニーのデプロイメント、ビジネスイベント、スケジューラーに関する問題。
 
-**特定のジャーニーバージョンでの「オーディエンスを読み取り」エラーの取得**
++++
+
+
++++特定のジャーニーバージョンのオーディエンス読み取りエラーの取得
 
 _データレイクのクエリ_
 
@@ -639,7 +699,9 @@ WHERE
     )
 ```
 
-**エクスポートジョブの処理ステータスを取得**
++++
+
++++エクスポートジョブの処理ステータスを取得
 
 _データレイクのクエリ_
 
@@ -668,7 +730,9 @@ WHERE
 * トピックまたはエクスポートジョブの作成中にエラーが発生しました
 * エクスポートジョブがまだ実行中です
 
-**エクスポートされたプロファイルに関する指標の取得（各エクスポートジョブの破棄およびエクスポートジョブ指標を含む）**
++++
+
++++エクスポートされたプロファイルに関する指標の取得（各エクスポートジョブの破棄およびエクスポートジョブ指標を含む）
 
 _データレイクのクエリ_
 
@@ -728,7 +792,9 @@ FROM
 WHERE T1.EXPORTJOB_ID = T2.EXPORTJOB_ID
 ```
 
-**すべての書き出しジョブに関する集計指標の取得（オーディエンスの書き出しジョブと破棄）**
++++
+
++++すべてのエクスポートジョブの集計指標の取得（オーディエンスエクスポートジョブと破棄）
 
 _データレイクのクエリ_
 
@@ -791,9 +857,11 @@ WHERE T1.JOURNEYVERSION_ID = T2.JOURNEYVERSION_ID
 
 実行可能なジョブに関係なく（繰り返しジャーニーの場合、トピックの再利用をトリガーしたビジネスイベントなど）、特定のジャーニーバージョンの全体的な指標を返します。
 
++++
+
 ## オーディエンスの選定に関連するクエリ {#segment-qualification-queries}
 
-**設定されたオーディエンスとは異なるオーディエンス適合が原因で破棄されたプロファイル**
++++設定されたオーディエンスとは異なるオーディエンス適合が理由で破棄されたプロファイル
 
 _データレイクのクエリ_
 
@@ -817,7 +885,9 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SEG
 
 このクエリは、間違ったオーディエンス適合が原因でジャーニーバージョンによって破棄されたすべてのプロファイル ID を返します。
 
-**特定のプロファイルについて他の理由で破棄されたオーディエンスの選定イベント**
++++
+
++++特定のプロファイルに対して他の理由で破棄された「オーディエンスの選定」イベント
 
 _データレイクのクエリ_
 
@@ -843,9 +913,11 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SER
 
 このクエリは、あるプロファイルについてその他の理由で破棄されたすべてのイベント（外部イベント／オーディエンスの選定イベント）を返します。
 
++++
+
 ## イベントベースのクエリ {#event-based-queries}
 
-**ジャーニーがビジネスイベントを受け取ったかどうかを確認する**
++++ジャーニーがビジネスイベントを受け取ったかどうかを確認する
 
 _データレイクのクエリ_
 
@@ -871,7 +943,9 @@ _experience.journeyOrchestration.stepEvents.nodeType = 'start' AND
 WHERE DATE(timestamp) > (now() - interval '6' hour)
 ```
 
-**関連するジャーニーが見つからなかったことが理由でプロファイルの外部イベントが破棄されたかどうかを確認する**
++++
+
++++関連するジャーニーが見つからなかったことが理由でプロファイルの外部イベントが破棄されたかどうかを確認する
 
 _データレイクのクエリ_
 
@@ -895,7 +969,9 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
 ```
 
-**その他の理由でプロファイルの外部イベントが破棄されたかどうかを確認する**
++++
+
++++その他の理由でプロファイルの外部イベントが破棄されたかどうかを確認する
 
 _データレイクのクエリ_
 
@@ -921,7 +997,9 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
 ```
 
-**errorCode で stateMachine によって破棄されたすべてのイベントの数を確認する**
++++
+
++++errorCode で stateMachine によって破棄されたすべてのイベントの数を確認する
 
 _データレイクのクエリ_
 
@@ -939,7 +1017,9 @@ where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' GROUP BY _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode
 ```
 
-**再エントリが許可されなかったことが理由で破棄されたすべてのイベントを確認する**
++++
+
++++再エントリが許可されなかったことが理由で破棄されたすべてのイベントを確認する
 
 _データレイクのクエリ_
 
@@ -962,10 +1042,12 @@ FROM journey_step_events
 where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' AND _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode='reentranceNotAllowed'
 ```
+
++++
 
 ## 一般的なジャーニーベースのクエリ {#journey-based-queries}
 
-**日別のアクティブなジャーニーの数**
++++毎日アクティブなジャーニーの数
 
 _データレイクのクエリ_
 
@@ -987,9 +1069,11 @@ ORDER BY DATE(timestamp) desc
 
 このクエリは、指定した期間に 1 日にトリガーされた一意のジャーニーの数を返します。1 つのジャーニーが複数日でトリガーされる場合は、1 日につき 1 回とカウントされます。
 
++++
+
 ## ジャーニーインスタンスに対するクエリ {#journey-instances-queries}
 
-**特定の時間に特定の状態となっているプロファイルの数**
++++特定の時間に特定の状態となっているプロファイルの数
 
 _データレイクのクエリ_
 
@@ -1137,7 +1221,9 @@ ORDER BY
     DATETIME DESC
 ```
 
-**特定の期間にジャーニーから離脱したプロファイルの数**
++++
+
++++特定の期間にジャーニーから離脱したプロファイルの数
 
 _データレイクのクエリ_
 
@@ -1175,7 +1261,9 @@ ORDER BY
     DATETIME DESC
 ```
 
-**特定の期間にジャーニーから離脱したプロファイルの数（ノード／ステータスも指定）**
++++
+
++++特定の期間にジャーニーから離脱したプロファイルの数（ノード/ステータスも指定）
 
 _データレイクのクエリ_
 
@@ -1216,3 +1304,5 @@ GROUP BY
 ORDER BY
     DATETIME DESC
 ```
+
++++

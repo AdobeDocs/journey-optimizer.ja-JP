@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b4c1cb69fd67e8c74982103c68050ab56a71113a
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '2378'
-ht-degree: 98%
+source-wordcount: '2390'
+ht-degree: 97%
 
 ---
 
@@ -212,8 +212,11 @@ ht-degree: 98%
 + 競合管理と優先順位付け {#conflict-prioritization}
    + [競合管理と優先順位付けの基本を学ぶ](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [潜在的な競合の特定](using/conflict-prioritization/conflicts.md)
-   + [優先度スコアの割り当て](using/conflict-prioritization/priority-scores.md)
-   + [ジャーニーのキャッピングと判別](using/conflict-prioritization/journey-capping.md)
+   + [ 優先度スコアの割り当て ](using/conflict-prioritization/priority-scores.md)
+メッセージとジャーニーのキャッピングルール  {#capping-rules} 設定
+      + [ルールセットの操作](using/conflict-prioritization/rule-sets.md)
+      + [ジャーニーのキャッピングと判別](using/conflict-prioritization/journey-capping.md)
+      + [チャネルと通信タイプによるフリークエンシーキャップ](using/conflict-prioritization/channel-capping.md)
 + テストと承認 {#test}
    + コンテンツのプレビューとテスト {#preview-test}
       + [プレビューとテストの基本を学ぶ](using/content-management/preview-test.md)
@@ -730,7 +733,6 @@ ht-degree: 98%
    + [アーカイブのサポート](using/configuration/archiving-support.md)
    + [実行アドレスの変更](using/configuration/primary-email-addresses.md)
    + [ビジネスルールの設定](using/configuration/frequency-rules.md)
-   + [ルールセットの操作](using/configuration/rule-sets.md)
 + ジャーニー設定 {#configure-journeys}
    + [データソース、イベントおよびアクションの設定](using/configuration/about-data-sources-events-actions.md)
    + イベント設定 {#events-journeys}

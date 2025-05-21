@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: 5e82bd6cfcb186fef324627e353b9e54d2332c3e
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '1469'
+source-wordcount: '1427'
 ht-degree: 100%
 
 ---
@@ -24,10 +24,6 @@ ht-degree: 100%
 現在のサンドボックスで作成されたすべてのフラグメント（[**[!UICONTROL フラグメント]**&#x200B;メニューから](#create-fragments)か、「[フラグメントとして保存](#save-as-fragment)」オプションを使用して）が表示されます。
 
 左側のパネルでは、フラグメントをフォルダーに整理できます。デフォルトでは、すべてのフラグメントが表示されます。フォルダーを選択すると、選択したフォルダーに含まれるフラグメントとフォルダーのみが表示されます。[詳細情報](#folders)
-
->[!NOTE]
->
->フラグメントフォルダーは、一部の組織でのみ使用できます（限定提供）。段階的により多くのユーザーにロールアウトする予定です。
 
 ![](assets/fragment-list-folders.png)
 
@@ -63,10 +59,6 @@ ht-degree: 100%
 >id="ajo_fragments_folders"
 >title="フラグメントをフォルダーに整理します。"
 >abstract="フォルダーを使用すると、組織のニーズに応じてフラグメントを分類および管理できます。"
-
->[!AVAILABILITY]
->
->フラグメントフォルダーは、一部の組織でのみ使用できます（限定提供）。段階的により多くのユーザーにロールアウトする予定です。
 
 フラグメントを簡単に移動するには、フォルダーを使用してフラグメントをより効果的に構造化された階層に整理します。これにより、組織のニーズに応じて項目を分類および管理できます。
 

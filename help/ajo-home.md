@@ -5,10 +5,10 @@ description: Adobe Journey Optimizer の使用方法について説明します�
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 03af80bbaa347237059abe74f26274df5ab39caa
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 86%
+ht-degree: 82%
 
 ---
 
@@ -20,9 +20,9 @@ Journey Optimizer 製品とドキュメントの最新の機能強化の概要�
 
 >[!BEGINTABS]
 
->[!TAB 2025年4月リリース]
+>[!TAB 2025 年 5 月リリース ]
 
-4月リリースが公開されました。リリースノートを参照して、新機能、変更点および機能強化を確認してください。
+5 月リリースが公開されました。 リリースノートを参照して、新機能、変更点および機能強化を確認してください。
 
 [![詳細情報](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
@@ -47,7 +47,7 @@ Journey Optimizer レポートでは、Customer Journey Analytics 機能との�
 
 >[!ENDTABS]
 
-## 基本について学ぶ
+## 基本から始める
 
 <table style="table-layout:fixed">
   <tr style="border: 0;">

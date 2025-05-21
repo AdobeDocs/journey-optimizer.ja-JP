@@ -7,14 +7,26 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
-source-git-commit: c9a35c2950c061318f673cdd53d0a5fd08063c27
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 100%
+source-wordcount: '528'
+ht-degree: 90%
 
 ---
 
 # Infobip プロバイダーの設定 {#sms-configuration-infobip}
+
+>[!BEGINSHADEBOX]
+
+オプトインまたはオプトアウトのキーワードが指定されない場合、ユーザーのプライバシーを尊重するために、標準の同意メッセージが使用されます。 カスタムキーワードを追加すると、デフォルトが自動的に上書きされます。
+
+**デフォルトのキーワード：**
+
+* **オプトイン**：購読、はい、停止解除、開始、続行、再開、開始
+* **オプトアウト**：停止、終了、キャンセル、終了、登録解除、いいえ
+* **ヘルプ**: ヘルプ
+
+>[!ENDSHADEBOX]
 
 Journey Optimizer に Infobip を設定するには、次の手順に従います。
 
@@ -26,7 +38,7 @@ Journey Optimizer に Infobip を設定するには、次の手順に従いま�
 
    * **[!UICONTROL 名前]**：API 資格情報の名前を選択します。
 
-   * **[!UICONTROL API ベース URL]** および **[!UICONTROL API キー]**：web インターフェイスのホームページまたは API キー管理ページにアクセスして、資格情報を検索します。詳しくは、[Infobip のドキュメント](https://www.infobip.com/docs/api){target="_blank"}を参照してください。
+   * **[!UICONTROL API ベース URL]** および **[!UICONTROL API キー]**：web インターフェイスのホームページまたは API キー管理ページにアクセスして、資格情報を検索します。詳しくは、[Infobip のドキュメント ](https://www.infobip.com/docs/api){target="_blank"} を参照してください。
 
    * **[!UICONTROL オプトインキーワード]**：**[!UICONTROL オプトインメッセージ]**&#x200B;を自動的にトリガーするデフォルトまたはカスタムのキーワードを入力します。複数のキーワードの場合は、コンマ区切り値を使用します。
 

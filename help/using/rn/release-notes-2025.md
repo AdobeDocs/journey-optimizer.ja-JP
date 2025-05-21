@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 7946af7c1d0908fb6a9dad18e7685fa4993ee4c4
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
 source-wordcount: '2031'
 ht-degree: 93%
@@ -362,7 +362,7 @@ ht-degree: 93%
 <td>
 <p>A calendar view is now available in Journey Optimizer to visualize all journeys activations. From this view, you can browse your journeys and check details and properties.<p>
 <p>This change is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
-<p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../conflict-prioritization/rule-sets.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -439,7 +439,7 @@ ht-degree: 93%
 <td>
 <p>Adobe Journey Optimizer has expanded its cross-channel capabilities to include support for the LINE channel. This enhancement allows you to create, edit, and preview LINE experiences enabling more personalized and engaging interactions. With LINE, you can connect with more customers, send relevant content, and improve your engagement.<p>
 <p>This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
-<p>For more information, refer to the <a href="../configuration/rule-sets.md">detailed documentation</a>.</p>
+<p>For more information, refer to the <a href="../conflict-prioritization/rule-sets.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -481,7 +481,7 @@ Journey Optimizer パーソナライゼーションエディターが更新さ�
 
 ルールセットでの毎日のフリークエンシーキャップは、一連の組織のみが使用できます（限定提供）。アクセスするには、アドビ担当者にお問い合わせください。
 
-ビジネスルールについて詳しくは、[詳細なドキュメント](../configuration/rule-sets.md)を参照してください。
+ビジネスルールについて詳しくは、[詳細なドキュメント](../conflict-prioritization/rule-sets.md)を参照してください。
 
 **コンテンツテンプレート**
 
@@ -517,7 +517,7 @@ You can now choose to have your emails relayed to your SMTP servers instead of b
 <p><ul><li>チャネルルールセットを作成して、1 つまたは複数のチャネルをまたいで送信されるメッセージの数を制限します。これらをキャンペーンまたはジャーニーアクションに適用して、ルールセットで定義されたルールを適用します。チャネルルールセットを使用すると、通信タイプに基づいてキャッピングルールを適用できます。例えば、「プロモーションメッセージ」を制限するルールセットと、「ニュースレター」を制限するルールセットを設定します。送信する通信のタイプに応じて、キャンペーンまたはジャーニーアクションに適切なルールセットを適用します。</li>
 <li> ジャーニールールセットを作成して、ジャーニーへのプロファイルエントリを制御します。プロファイルが特定の期間内にジャーニーにエントリできる頻度や、プロファイルが同時に登録できるジャーニーの数を制限します。これらをジャーニーレベルで適用して、適切なエントリ管理を確保します。</li></ul></p>
 <p>以前は一連の組織（LA）に対して提供されていましたが、ビジネスルールはすべてのユーザー（GA）に対して提供されるようになりました。ジャーニードメインのビジネスルールは、引き続き一部の組織（LA）でのみ使用できます。</p>
-<p>詳しくは、<a href="../configuration/rule-sets.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../conflict-prioritization/rule-sets.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>

@@ -8,10 +8,10 @@ level: Experienced
 hide: true
 hidefromtoc: true
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
-source-git-commit: 4995bf642231248ece0211a7ecf2f38ccd846d36
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 10%
+source-wordcount: '379'
+ht-degree: 0%
 
 ---
 
@@ -21,25 +21,28 @@ ht-degree: 10%
 
 ## 決定を使用したコードベースのエクスペリエンスのテスト {#code-based-test-decisions}
 
-現在、決定を使用して、[コードベースのエクスペリエンス](create-code-based.md)キャンペーンまたはジャーニーのユーザーインターフェイスのコンテンツをシミュレートすることはできません。
+<!--Currently you cannot simulate content from the user interface in a [code-based experience](create-code-based.md) campaign or journey using decisions.-->
 
-回避策として、クライアント実装の XDM イベント `data` ブロックに `dryRun` フラグを追加することで、キャンペーンを公開した後に決定をテストできます。
+意思決定で [ コードベースのエクスペリエンス ](create-code-based.md) をテストする場合は、`dryRun` フラグを使用して、レポートとキャッピングカウンターの両方でフィードバックイベントを抑制できます。
 
-    &grave;&grave;&#39;
-    &lbrace;
-    &quot;data&quot;: &lbrace;
-    &quot;__adobe&quot;: &lbrace;
-    &quot;ajo&quot;: &lbrace;
+キャンペーンを公開した後、`dryRun` フラグをクライアント実装の XDM イベント `data` ブロックに追加します。
+
+    ``&#39;
+    {
+    &quot;data&quot;: {
+    &quot;__adobe&quot;: {
+    &quot;ajo&quot;: {
     &quot;dryRun&quot;: true
-    &rbrace;
-    &rbrace;
-    &rbrace;
-    &rbrace;
-    &grave;&grave;
+    }
+    }
+    }
+    }
+    ``
 
+<!--
 >[!CAUTION]
 >
->リクエストに `dryRun` フラグを追加すると、レポート用および頻度カウンター用のフィードバックをキャプチャしてに追加できなくなります。
+>Adding the `dryRun` flag to your request will prevent feedback to be captured for reporting and frequency counters from being added to.-->
 
 ## コードベース実装での決定項目の重複排除 {#code-based-decisioning-deduplication}
 
@@ -61,7 +64,7 @@ ht-degree: 10%
 
 ### リクエストでの重複排除の適用 {#deduplication-in-request}
 
-デフォルトでは、重複排除フラグは `true` に設定されています（渡されません）。
+デフォルトでは、重複排除フラグは `true` に設定されています。
 
 Konductor リクエストで、応答内の一意の要素が必要な場合は、重複排除フラグを渡すことができます。 その場合は、`false` に設定します。
 

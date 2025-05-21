@@ -9,8 +9,8 @@ role: User
 level: Intermediate
 keywords: シードリスト, シードリスト, シード, 設定
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+workflow-type: tm+mt
 source-wordcount: '959'
 ht-degree: 100%
 
@@ -96,7 +96,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL シードリストを作成]**」ボタンを選択します。
 
-   ![](assets/seed-list-create-button.png)
+   <!--![](assets/seed-list-create-button.png)-->
 
 1. 詳細を入力します。最初に、名前を追加します。
 
@@ -120,7 +120,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >両方のオプションを組み合わせることができますが、シードリスト内のアドレスの総数は 50 を超えることはできません。
+   >両方のオプションを組み合わせることができますが、シードリスト内のアドレスの総数は 300 を超えることはできません。
 
 1. 「**[!UICONTROL 作成]**」をクリックして確定します。新しく作成されたシードリストが[シードリスト画面](#access-seed-lists)に表示されます。
 
