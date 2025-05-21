@@ -9,7 +9,7 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: 設定,メッセージ,チャネル,サンドボックス,Optimizer
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 64%
@@ -60,6 +60,6 @@ ht-degree: 64%
 
    * **メールの BCC オプション**&#x200B;を有効にして、個人に送信されたメッセージのコピーを保持します。[詳細情報](archiving-support.md#enable-bcc)
 
-   * **ビジネスルール**&#x200B;を設定して、受信者を過度に勧誘しないようにします。[詳細情報](../conflict-prioritization/rule-sets.md)
+   * **ビジネスルール**&#x200B;を設定して、受信者を過度に勧誘しないようにします。[詳細情報](../configuration/rule-sets.md)
 
    * Adobe Experience Platform で使用可能なメールアドレス／電話番号が複数ある場合、受信者に優先して使用するメールアドレス／電話番号を決定します。[詳細情報](primary-email-addresses.md)

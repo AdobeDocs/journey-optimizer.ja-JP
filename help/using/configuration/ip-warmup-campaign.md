@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: IP, プール, 配信品質
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
+source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 96%
@@ -65,7 +65,7 @@ IP ウォームアップキャンペーンを作成するには、次の手順�
 
    >[!NOTE]
    >
-   >IP ウォームアッププランでは[ビジネスルール](../conflict-prioritization/rule-sets.md#apply-frequency-rule)を使用しないでください。これらのルールを適用すると、キャンペーンのターゲットプロファイルの希望数に到達できなくなる可能性があります。
+   >IP ウォームアッププランでは[ビジネスルール](../configuration/rule-sets.md#apply-frequency-rule)を使用しないでください。これらのルールを適用すると、キャンペーンのターゲットプロファイルの希望数に到達できなくなる可能性があります。
 
    IP ウォームアッププランが有効化されたライブキャンペーンの場合、**[!UICONTROL 削除]**&#x200B;ボタンは、IP ウォームアッププランに関連付けられるまで使用できます。プランで使用すると、キャンペーンは削除できなくなります。
 
