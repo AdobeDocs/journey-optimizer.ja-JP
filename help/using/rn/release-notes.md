@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e6cbe48b102d1ac0259bb7fac96c3c8331e5a643
+source-git-commit: 8a4ae82271a2bcac14e7c6ac8c3b0265b4fe760b
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 29%
+source-wordcount: '667'
+ht-degree: 31%
 
 ---
 
@@ -146,27 +146,27 @@ ht-degree: 29%
 </tbody>
 </table-->
 
-<table>
+<!--<table>
 <thead>
 <tr>
-<th><strong>競合と優先順位付け</strong><br/></th>
+<th><strong>Conflict & prioritization</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer では、過剰な数のインタラクションで顧客が圧倒されるのを避けるために、キャンペーンとジャーニーの量とタイミングを管理することが不可欠です。Journey Optimizerでは、以前は制限付きアクセス（LA）組織のみが使用できた競合の管理と優先順位付けのツールがいくつか提供され、現在は一般公開（GA）されています。</p>
-<p>以前は限定提供でリリースされていましたが、現在はすべての環境でこの機能を使用できます。 この一般提供リリースでは、次の機能強化が導入されました。</p>
+<p>In Journey Optimizer, managing the volume and timing of campaigns and journeys is essential to avoid overwhelming customers with too many interactions. Journey Optimizer now offers several tools for conflict management and prioritization - previously available only to limited-access (LA) organizations - that are now generally available (GA).</p>
+<p>Previously released in Limited Availability, this capability is now available to all environments. With this General Availability release, the following enhancements have been introduced:</p>
 <ul>
-<li>サポートの拡張：競合管理ツールは、オーディエンスの読み取りジャーニーに加えて、単一ジャーニーとオーディエンスの選定ジャーニーの両方をサポートするようになりました。</li>
-<li>トラブルシューティングの改善：クエリサービスで 2 つの新しいステップイベントフィールドが使用できるようになりました。これにより、プロファイルがジャーニーまたはキャンペーンから却下された理由を分析できます。</li>
-<li>強化されたレポート：レポートに、ジャーニーまたはキャンペーンからプロファイルを除外した特定のルールが示され、透明性が高く、アクションにつながるインサイトが得られるようになりました。</li></ul>
+<li>Expanded Support: Conflict management tools now support both Unitary Journeys and Audience Qualification Journeys, in addition to Read audience journeys.</li>
+<li>Improved Troubleshooting: Two new step event fields are now available in the Query Service, enabling you to analyze why a profile was rejected from a journey or campaign.</li>
+<li>Enhanced Reporting: Reports now indicate which specific rule excluded a profile from a journey or campaign, providing greater transparency and actionable insights.</li></ul>
 <img src="assets/do-not-localize/gif-conflict.gif">
-<p>詳しくは、<a href="../conflict-prioritization/gs-conflict-prioritization.md">詳細なドキュメント</a>を参照してください。</p>
+<p>For more information, refer to the <a href="../conflict-prioritization/gs-conflict-prioritization.md">detailed documentation</a>.</p>
 </td>
 </tr>
 </tbody>
-</table>
+</table>-->
 
 <!--<table>
 <thead>
