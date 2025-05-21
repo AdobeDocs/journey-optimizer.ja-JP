@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: アクティビティ, ジャーニー, 読み取り, オーディエンス, プラットフォーム
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
-source-git-commit: 3da510cffe6fddc644c867fe8d89da9d9c5861d1
+source-git-commit: c52049383bf6a8b60fcb0ab1c2331724c8cdb771
 workflow-type: tm+mt
-source-wordcount: '2194'
+source-wordcount: '2168'
 ht-degree: 71%
 
 ---
@@ -172,11 +172,7 @@ ht-degree: 71%
 
 +++
 
-+++**[!UICONTROL バッチオーディエンス評価後のトリガー]** （使用制限あり）
-
->[!AVAILABILITY]
->
->バッチオーディエンス評価後の **[!UICONTROL トリガー]** オプションは、一連の組織でのみ使用できます（使用制限あり）。 アクセスするには、アドビ担当者にお問い合わせください。
++++**[!UICONTROL バッチオーディエンス評価後のトリガー]**
 
 毎日スケジュールされたジャーニーとバッチオーディエンスをターゲティングの場合、バッチセグメント化ジョブからの新しいオーディエンスデータをジャーニーが待機する、最大 6 時間の時間枠を定義できます。 セグメント化ジョブが時間枠内に完了すると、ジャーニーはトリガーします。 それ以外の場合は、次に発生するまでジャーニーをスキップします。 このオプションを使用すると、ジャーニーが正確かつ最新のオーディエンスデータで実行されるようにします。
 
@@ -286,4 +282,4 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 「オーディエンスを読み取り」アクティビティによってトリガーされるジャーニーに適用可能なユースケースを理解します。バッチベースのジャーニーを構築する方法と適用するベストプラクティスについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430369?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)
