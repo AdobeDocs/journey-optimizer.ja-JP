@@ -7,18 +7,18 @@ feature: Accessibility
 role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+source-git-commit: 7558d323f73382b8cb40b45eb9d79ca037eb574d
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Journey Optimizer のアクセシビリティ{#accessibility}
 
-アクセシビリティとは、視覚、聴覚、認知、運動など、様々な障害のあるユーザーが、可能な限り少ない労力でソフトウェア製品を使用できるようにするための一連の機能を指します。アドビは、アクセシビリティにおいて業界をリードする企業です。すべてのユーザーにとって利用しやすいリッチで魅力的なコンテンツを作成するよう開発者を促すことで、卓越した web エクスペリエンスの作成をサポートします。アドビのアクセシビリティへの取り組みについて詳しくは、[Adobe Accessibility のページ](https://www.adobe.com/accessibility.html){target="_blank"}を参照してください。
+アクセシビリティとは、視覚、聴覚、認知、運動など、様々な障害のあるユーザーが、可能な限り少ない労力でソフトウェア製品を使用できるようにするための一連の機能を指します。アドビは、アクセシビリティにおいて業界をリードする企業です。すべてのユーザーにとって利用しやすいリッチで魅力的なコンテンツを作成するよう開発者を促すことで、卓越した web エクスペリエンスの作成をサポートします。Adobeのアクセシビリティへの取り組みについて詳しくは、[Adobeのアクセシビリティページ ](https://www.adobe.com/accessibility.html){target="_blank"} を参照してください。
 
-アクセシビリティ準拠の目標を達成するために、[!DNL Journey Optimizer] では、Web Content Accessibility Guidelines（WCAG）2.1 Level A および Level AA で国際的に認められたベストプラクティスに従っています。詳しくは、最新の [Adobe Journey Optimizer のアクセシビリティ適合性レポート](https://www.adobe.com/accessibility/compliance/adobe-journey-optimizer-2022.html){target="_blank"}を参照してください。
+アクセシビリティ準拠の目標を達成するために、[!DNL Journey Optimizer] では、Web Content Accessibility Guidelines（WCAG）2.1 Level A および Level AA で国際的に認められたベストプラクティスに従っています。詳しくは、最新の [Adobe Journey Optimizerのアクセシビリティ適合性レポート ](https://www.adobe.com/accessibility/compliance/adobe-journey-optimizer.html){target="_blank"} を参照してください。
 
 
 [!DNL Adobe Journey Optimizer] のアクセシビリティ機能は、Adobe Experience Platform から継承したものです。
@@ -27,7 +27,7 @@ ht-degree: 100%
 * カラーコントラスト
 * 必須フィールドの検証
 
-Adobe Experience Platform のアクセシビリティ機能について詳しくは、[このドキュメント](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=ja){target="_blank"}を参照してください。
+Adobe Experience Platformのアクセシビリティ機能について詳しくは [ このドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/accessibility/features.html?lang=ja){target="_blank"} を参照してください。
 
 [!DNL Journey Optimizer] では、次の一般的なキーボードショートカットが使用できます。
 
