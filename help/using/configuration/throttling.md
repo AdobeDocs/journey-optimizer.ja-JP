@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: 外部, API, Optimizer, キャッピング
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
-source-git-commit: 847fb5dda4e8747ea61a2ffafb9adcddda1ddada
+source-git-commit: 9f801b1fdcab38bffff851675eca5e2fb61dfbf9
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 82%
+source-wordcount: '1025'
+ht-degree: 81%
 
 ---
 
@@ -79,6 +79,10 @@ Throttling API を使用すると、スロットル設定を作成、設定お�
   "maxThroughput": 4000
 }
 ```
+
+>[!IMPORTANT]
+>
+>設定は、**deploy** エンドポイントを呼び出した後にのみアクティブになります。
 
 ## エラー
 
