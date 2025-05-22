@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 選定, イベント, オーディエンス, ジャーニー, プラットフォーム
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: ce05723342af3e0016965df7fb7a2e0b79856f6f
-workflow-type: ht
-source-wordcount: '1212'
-ht-degree: 100%
+source-git-commit: 948637433e1a90421ff8bab87f78f92b02354a89
+workflow-type: tm+mt
+source-wordcount: '1210'
+ht-degree: 97%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 このタイプのイベントは、ジャーニーの最初または後半に配置できます。
 
-➡️ [この機能をビデオで確認](#video)
+➡️ [ビデオでこの機能を確認する](#video)
 
 ### 重要な注意事項 {#important-notes-segment-qualification}
 
@@ -127,7 +127,7 @@ ht-degree: 100%
 
 ストリーミングセグメント化で開くイベントや送信イベントを使用しないでください。代わりに、クリック数、購入数、ビーコンデータなどの実際のユーザーアクティビティのシグナルを使用します。頻度または抑制ロジックについては、イベントを送信するのではなくビジネスルールを使用します。[詳細情報](../audience/about-audiences.md#open-and-send-event-guardrails)
 
-ストリーミングセグメント化について詳しくは、[Adobe Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/streaming-segmentation.html?lang=ja#api)を参照してください。
+ストリーミングセグメント化について詳しくは、[Adobe Experience Platform のドキュメント](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}を参照してください。
 
 ### オーバーロードの回避方法  {#overloads-speed-segment-qualification}
 
@@ -137,9 +137,9 @@ ht-degree: 100%
 
 ![](assets/segment-error.png)
 
-ジャーニーで使用するデータソースとアクションのキャッピングルールを設定して、データソースの過負荷を避けます。詳しくは、[Journey Orchestration のドキュメント](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=ja){target="_blank"}を参照してください。キャッピングルールには再試行がないことに注意してください。再試行が必要な場合は、条件やアクションで「**[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**」ボックスをオンにし、ジャーニーで代替パスを使用する必要があります。
+ジャーニーで使用するデータソースとアクションのキャッピングルールを設定して、データソースの過負荷を避けます。[Journey Optimizer Capping API](../configuration/capping.md) の詳細情報。 キャッピングルールには再試行がないことに注意してください。再試行が必要な場合は、条件やアクションで「**[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**」ボックスをオンにし、ジャーニーで代替パスを使用する必要があります。
 
-実稼動ジャーニーでオーディエンスを使用する前に、必ず、このオーディエンスに選定された個人の数を評価してください。それには、**[!UICONTROL オーディエンス]**&#x200B;メニューをチェックし、オーディエンスを開いてから&#x200B;**[!UICONTROL プロファイルの推移]**&#x200B;グラフで確認します。
+ジャーニーでオーディエンスを使用する前には、必ず、このオーディエンスに選定された個人の数を評価してください。 それには、**[!UICONTROL オーディエンス]**&#x200B;メニューをチェックし、オーディエンスを開いてから&#x200B;**[!UICONTROL プロファイルの推移]**&#x200B;グラフで確認します。
 
 ![](assets/segment-overload.png)
 
@@ -147,4 +147,4 @@ ht-degree: 100%
 
 オーディエンスの選定ジャーニーに当てはまるユースケースについて、このビデオで説明します。オーディエンスの選定を使用してジャーニーを構築する方法と、適用するベストプラクティスについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3446205?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
