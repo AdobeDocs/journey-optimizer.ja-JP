@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
+source-git-commit: 7f09e78c153955fb481b94701e55a0f9e77e7dd6
 workflow-type: tm+mt
-source-wordcount: '2378'
+source-wordcount: '2377'
 ht-degree: 98%
 
 ---
@@ -288,7 +288,7 @@ ht-degree: 98%
          + [Sinch プロバイダーの設定](using/sms/sms-configuration-sinch.md)
          + [Infobip プロバイダーの設定](using/sms/sms-configuration-infobip.md)
          + [Twilio プロバイダーの設定](using/sms/sms-configuration-twilio.md)
-         + [カスタムプロバイダーの設定（ベータ版）](using/sms/sms-configuration-custom.md)
+         + [カスタムプロバイダーの設定](using/sms/sms-configuration-custom.md)
          + [SMS 設定の作成](using/sms/sms-configuration-surface.md)
    + ダイレクトメール {#direct-mail}
       + [ダイレクトメールの基本を学ぶ](using/direct-mail/get-started-direct-mail.md)
