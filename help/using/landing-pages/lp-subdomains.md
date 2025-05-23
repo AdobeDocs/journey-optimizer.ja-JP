@@ -10,8 +10,8 @@ keywords: ランディング, ランディングページ, サブドメイン, �
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
 source-git-commit: 1aa2ac109cdbf0ba6af58204926f1cd5add334b0
 workflow-type: tm+mt
-source-wordcount: '972'
-ht-degree: 70%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -36,19 +36,19 @@ ht-degree: 70%
 
 ## ランディングページのサブドメインの基本を学ぶ {#gs-lp-subdomains}
 
-[ ランディングページプリセットの作成 ](lp-presets.md) を可能にするには、ランディングページに使用するサブドメインをセットアップする必要があります。
+[ランディングページプリセットの作成](lp-presets.md)を可能にするには、ランディングページに使用するサブドメインを設定する必要があります。
 
 既にアドビにデリゲートされているサブドメインを使用するか、別のサブドメインを設定できます。サブドメインのアドビへのデリゲートについて詳しくは、[この節](../configuration/delegate-subdomain.md)を参照してください。
 
-ランディングページのサブドメイン設定は **すべての環境に共通** です。 したがって、
+ランディングページのサブドメイン設定は、**すべての環境に共通**&#x200B;です。したがって、
 
 * ランディングページのサブドメインにアクセスして編集するには、実稼動サンドボックスにおける&#x200B;**[!UICONTROL ランディングページサブドメインの管理]**&#x200B;権限が必要です。
 
 * ランディングページのサブドメインを変更すると、実稼動サンドボックスにも影響します。
 
-## 既存のサブドメインを使用 {#lp-use-existing-subdomain}
+## 既存のサブドメインの使用 {#lp-use-existing-subdomain}
 
-既にAdobeにデリゲートされているサブドメインを使用するには、次の手順に従います。
+既にアドビにデリゲートされているサブドメインを使用するには、次の手順に従います。
 
 1. **[!UICONTROL 管理]**／**[!UICONTROL チャネル]**&#x200B;メニューにアクセスして、**[!UICONTROL ランディングページ設定]**／**[!UICONTROL ランディングページのサブドメイン]**&#x200B;を選択します。
 
@@ -60,7 +60,7 @@ ht-degree: 70%
 
    ![](assets/lp_use-delegated-subdomain.png)
 
-1. ランディングページの URL に表示するプレフィックスを入力します。
+1. ランディングページの URL に表示する接頭辞を入力します。
 
    英数字とハイフンのみが使用できます。
 
@@ -84,7 +84,7 @@ ht-degree: 70%
 
    ![](assets/lp_subdomain-processing.png)
 
-   そのサブドメインを使用してメッセージを送信できるようになるには、必要なチェックがAdobeで実行されるまで待つ必要があります **最大 4 時間**。<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
+   そのサブドメインを使用してメッセージを送信できるようになるには、必要なチェックがアドビで実行されるまで待つ必要があります（**最大で 4 時間**&#x200B;かかることがあります）。<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
 
 1. チェックが正常に完了すると、サブドメインのステータスが「**[!UICONTROL 成功]**」になります。ランディングページプリセットの作成に使用する準備が整いました。
 
@@ -123,11 +123,11 @@ ht-degree: 70%
 
    ![](assets/lp_add-your-own-subdomain-confirm.png)
 
-   新しいランディングページのサブドメインを設定すると、常に CNAME レコードを指すようになります。
+   新しいランディングページサブドメインを設定すると、常に CNAME レコードを指すようになります。
 
 1. サブドメインのデリゲーションが送信されると、そのサブドメインは「**[!UICONTROL 処理中]**」ステータスでリストに表示されます。サブドメインのステータスについて詳しくは、[この節](../configuration/about-subdomain-delegation.md#access-delegated-subdomains)を参照してください。<!--Same statuses?-->
 
-   そのサブドメインをランディングページに使用できるようになるには、必要なチェックがAdobeで実行されるまで待つ必要があります **最大 4 時間**。<!--Learn more in [this section](#subdomain-validation).-->
+   そのサブドメインをランディングページに使用できるようになるには、必要なチェックがアドビで実行されるまで待つ必要があります（**最大で 4 時間**&#x200B;かかることがあります）。<!--Learn more in [this section](#subdomain-validation).-->
 
 1. チェックが正常に完了すると、サブドメインのステータスが「**[!UICONTROL 成功]**」になります。ランディングページプリセットの作成に使用する準備が整いました。
 
@@ -135,19 +135,19 @@ ht-degree: 70%
 
 ## サブドメインのデリゲート解除 {#undelegate-subdomain}
 
-ランディングページのサブドメインのデリゲートを解除する場合は、Adobe担当者にお問い合わせください。
+ランディングページサブドメインをデリゲート解除する場合は、アドビ担当者にお問い合わせください。
 
-ただし、Adobeにアクセスする前に、ユーザーインターフェイスでいくつかの手順を実行する必要があります。
+ただし、アドビにお問い合わせいただく前に、ユーザーインターフェイスでいくつかの手順を実行する必要があります。
 
 >[!NOTE]
 >
->**[!UICONTROL 成功]** ステータスのサブドメインのみをデリゲート解除できます。 **[!UICONTROL ドラフト]** および **[!UICONTROL 失敗]** ステータスのサブドメインは、ユーザーインターフェイスから削除できます。
+>デリゲート解除できるのは、**[!UICONTROL 成功]**&#x200B;ステータスのサブドメインのみです。**[!UICONTROL ドラフト]**&#x200B;ステータスと&#x200B;**[!UICONTROL 失敗]**&#x200B;ステータスのサブドメインは、ユーザーインターフェイスから簡単に削除できます。
 
 まず、[!DNL Journey Optimizer] で次の手順を実行します。
 
-1. サブドメインに関連付けられているすべてのランディングページを非公開にします。 [方法についてはこちらを参照](create-lp.md#access-landing-pages)
+1. サブドメインに関連付けられているすべてのランディングページを非公開にします。[方法についてはこちらを参照](create-lp.md#access-landing-pages)
 
-1. サブドメインに関連付けられているすべてのチャネル設定をディアクティベートします。 [方法についてはこちらを参照](../configuration/channel-surfaces.md#deactivate-a-surface)
+1. サブドメインに関連付けられているすべてのチャネル設定を非アクティブ化します。[方法についてはこちらを参照](../configuration/channel-surfaces.md#deactivate-a-surface)
 
 <!--
 1. If the landing page subdomain is using an email subdomain that was [already delegated](#lp-use-existing-subdomain) to Adobe, undelegate the email subdomain. [Learn how](../configuration/delegate-subdomain.md#undelegate-subdomain)
@@ -157,14 +157,14 @@ ht-degree: 70%
 1. Stop the active journeys associated with the subdomains. [Learn how](../building-journeys/end-journey.md#stop-journey)
 -->
 
-完了したら、デリゲート解除するサブドメインをAdobe担当者に連絡します。
+完了したら、デリゲート解除するサブドメインについて、アドビ担当者にお問い合わせください。
 
-リクエストがAdobeによって処理されると、デリゲートされていないドメインはサブドメインインベントリページに表示されなくなります。
+アドビがリクエストを処理すると、デリゲート解除したドメインはサブドメイン在庫ページに表示されなくなります。
 
 >[!CAUTION]
 >
->サブドメインがデリゲート解除された後：
+>サブドメインをデリゲート解除した後：
 >
 >   * そのサブドメインを使用していたチャネル設定を再アクティブ化することはできません。
 >
->   * ユーザーインターフェイスを使用して正確なサブドメインを再度デリゲートすることはできません。 その場合は、Adobeの担当者にお問い合わせください。
+>   * ユーザーインターフェイスを通じて正確なサブドメインを再度デリゲートすることはできません。ご希望の場合は、アドビ担当者にお問い合わせください。

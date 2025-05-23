@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: チャネル設定  [!DNL Journey Optimizer]  基本を学ぶ
-description: チャネル設定  [!DNL Journey Optimizer]  詳細情報
+title: ' [!DNL Journey Optimizer]  チャネル設定の基本を学ぶ'
+description: ' [!DNL Journey Optimizer]  チャネル設定について説明します'
 role: Admin, Developer
 level: Intermediate, Experienced
 exl-id: 0964a484-f957-4aae-a571-61b2a1615026
@@ -11,20 +11,20 @@ topic: Administration
 keywords: 設定,メッセージ,チャネル,サンドボックス,Optimizer
 source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 64%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # チャネル設定の基本を学ぶ {#start-optimizer-configuration}
 
-[!DNL Journey Optimizer] に初めてアクセスするときは、実稼動用サンドボックスがプロビジョニングされ、契約に応じて一定数の IP が割り当てられます。
+[!DNL Journey Optimizer] に初めてアクセスすると、実稼動サンドボックスがプロビジョニングされ、契約に応じて一定数の IP が割り当てられます。
 
 
 メッセージを送信するには、次の設定手順を実行する必要があります。
 
-1. [Adobe Journey Optimizer システム管理者 ](../start/path/administrator.md) として、チャネル設定を定義します。 これらの設定を行う方法については、次のページを参照してください。
+1. [Adobe Journey Optimizer システム管理者](../start/path/administrator.md)として、チャネル設定を定義します。これらの設定を行う方法について詳しくは、次のページを参照してください。
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><a href="../email/get-started-email-config.md"><img alt="メール" src="../channels/assets/do-not-localize/email.png"></a>
@@ -50,9 +50,9 @@ ht-degree: 64%
 
 >[!NOTE]
 >
->モバイルチャネルの場合、[ ガイド付きチャネルの設定 ](set-mobile-config.md) を使用すると、マーケティングチャネルを迅速に設定でき、必要なすべてのリソースをExperience Platform、Journey Optimizerおよび Data Collection 内ですぐに使用できるようになります。 これにより、マーケティングチームはキャンペーンとジャーニーの作成を開始できます。
+>モバイルチャネルの場合、[ガイド付きチャネル設定](set-mobile-config.md)によってマーケティングチャネルを迅速に設定できるようになり、Experience Platform、Journey Optimizer およびデータ収集内で必要なすべてのリソースがすぐに使用できるようになります。これにより、マーケティングチームはキャンペーンとジャーニーの作成を開始できます。
 
-1. 完了したら、**チャネル設定**&#x200B;を作成して、メッセージの配信に必要なすべての技術的パラメーターを設定する必要があります。[ チャネル設定の詳細情報 ](channel-surfaces.md)
+1. 完了したら、**チャネル設定**&#x200B;を作成して、メッセージの配信に必要なすべての技術パラメーターを設定する必要があります。[詳しくは、チャネル設定を参照してください](channel-surfaces.md)
 
 1. 以下を行うこともできます。
 

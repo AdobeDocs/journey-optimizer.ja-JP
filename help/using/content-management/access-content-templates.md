@@ -9,8 +9,8 @@ level: Beginner
 exl-id: ef6110c4-1aa6-4835-b0b0-b3c4fe0e7024
 source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 95%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->2025 年 3 月以降、HTML タイプのコンテンツテンプレートは非推奨（廃止予定）になりました。 [!DNL Journey Optimizer] で以前に作成した既存のHTML コンテンツテンプレートに引き続きアクセスできます。
+>2025年3月以降、HTML タイプのコンテンツテンプレートは非推奨（廃止予定）になりました。[!DNL Journey Optimizer] で以前に作成した既存の HTML コンテンツテンプレートには引き続きアクセスできます。
 
 ## フォルダーを使用したコンテンツテンプレートの管理 {#folders}
 
@@ -92,7 +92,7 @@ ht-degree: 95%
 >
 >テンプレートを編集または削除しても、このテンプレートを使用して作成されたコンテンツを含むキャンペーンやジャーニーは影響を受けません。
 
-## [!BADGE &#x200B; 限定提供 &#x200B;]{type=Informative} 表示テンプレートをサムネール {#template-thumbnails}
+## [!BADGE 限定提供]{type=Informative} テンプレートをサムネイルとして表示 {#template-thumbnails}
 
 各テンプレートをサムネールとして表示するには、**[!UICONTROL グリッド表示]**&#x200B;モードを選択します。
 

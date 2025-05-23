@@ -9,8 +9,8 @@ keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: 2f7c620a712cfc104418bc985bd74e81da12147c
 workflow-type: tm+mt
-source-wordcount: '1365'
-ht-degree: 95%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 95%
 
 1. [ファイルのルーティング設定](#file-routing-configuration)：ファイルの書き出し先となるサーバーを指定し、必要に応じてファイルを暗号化します。
 
-1. [ ダイレクトメール設定 ](#direct-mail-configuration)：ファイルのルーティング設定を参照します。 ファイルのルーティングオプションを設定していない場合、ダイレクトメール設定を作成できません。
+1. [ダイレクトメール設定](#direct-mail-configuration)：ファイルのルーティング設定を参照します。ファイルのルーティングオプションを設定していない場合、ダイレクトメール設定を作成できません。
 
 
 >[!CAUTION]
@@ -145,7 +145,7 @@ ht-degree: 95%
 
 ![](assets/file-routing-config-dlz-detail.png)
 
-[!DNL Adobe Experience Platform] のすべてのお客様には、サンドボックスごとに 1 つの Data Landing Zone コンテナがプロビジョニングされます。データランディングゾーンについて詳しくは、[Adobe Experience Platform ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"} を参照してください。
+[!DNL Adobe Experience Platform] のすべてのお客様には、サンドボックスごとに 1 つの Data Landing Zone コンテナがプロビジョニングされます。Data Landing Zone について詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}を参照してください。
 
 >[!ENDTABS]
 
@@ -194,7 +194,7 @@ ht-degree: 95%
 
    ![](assets/direct-mail-config-2.png)
 
-1. この設定を使用してメッセージに同意ポリシーを関連付けるには、**[!UICONTROL マーケティングアクション]**&#x200B;を選択します。顧客の環境設定に従うために、そのマーケティングアクションに関連付けられているすべての同意ポリシーが活用されます。[詳細情報](../action/consent.md#surface-marketing-actions)
+1. この設定を使用してメッセージに同意ポリシーを関連付けるには、**[!UICONTROL マーケティングアクション]**&#x200B;を選択します。顧客の意向に従うために、そのマーケティングアクションに関連付けられているすべての同意ポリシーが活用されます。[詳細情報](../action/consent.md#surface-marketing-actions)
 
 1. チャネル設定の専用セクションでダイレクトメール設定を定義します。
 

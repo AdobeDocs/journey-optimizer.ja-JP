@@ -10,8 +10,8 @@ level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
 source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
 workflow-type: tm+mt
-source-wordcount: '2031'
-ht-degree: 93%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 93%
 
 ## 2025年4月リリースノート {#25-4-rn}
 
-**リリース日**：2025年4月29～30日（PT）
+**リリース日**：2025年4月29日～30日（PT）
 
 ### 新機能 {#25-04-features}
 
@@ -37,7 +37,7 @@ ht-degree: 93%
 <tbody>
 <tr>
 <td>
-<p>パーソナライゼーション式を実験できるパーソナライゼーションプレイグラウンドが使用可能になりました。これを使用すると、サンプルテンプレートとペイロードを探索して、開始し、独自のパーソナライゼーション式を試すことができます。</p>
+<p>パーソナライゼーション式を実験できる、パーソナライゼーションプレイグラウンドが使用できるようになりました。これを使用すると、サンプルテンプレートやペイロードを探索しながら、独自のパーソナライゼーション式を開始して試すことができます。</p>
 <p>詳しくは、<a href="../personalization/personalize.md#playground">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2025年4月24日（PT）</p>
 <img src="assets/do-not-localize/templating-playground.gif"/>
@@ -89,7 +89,7 @@ ht-degree: 93%
 <tr>
 <td>
 <p>Adobe Journey Optimizer では、クロスチャネル機能を拡張し、LINE チャネルのサポートを含めました。この機能強化により、LINE エクスペリエンスを作成、編集、プレビューできます。これにより、よりパーソナライズされた魅力的なインタラクションが可能になります。LINE を使用すると、より多くのお客様とつながり、関連性の高いコンテンツを送信し、エンゲージメントを向上させることができます。</p>
-<p>リクエストに応じて、Adobe Journey Optimizerのお客様は LINE チャネルを有効にすることができます。 組織でこの機能を有効にするには、アドビカスタマーケアまたはアドビ担当者にお問い合わせください。</p>
+<p>LINE チャネルは、リクエストに応じて、Adobe Journey Optimizer のお客様に対して有効になります。組織でこの機能を有効にするには、アドビカスタマーケアまたはアドビ担当者にお問い合わせください。</p>
 <p>詳しくは、<a href="../line/get-started-line.md">詳細なドキュメント</a>を参照してください。</p></td>
 </tr>
 </tbody>
@@ -158,7 +158,7 @@ ht-degree: 93%
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer は、Adobe Express と統合され、クリエイティブアセットを Journey Orchestration とシームレスに接続できるようになりました。この統合により、キャンペーン全体でパーソナライズされたコンテンツを設計およびデプロイするプロセスが簡素化されます。 </p>
+<p>Adobe Journey Optimizer は Adobe Express と統合され、アセットをジャーニーオーケストレーションとシームレスに接続できるようになりました。この統合により、キャンペーン全体でパーソナライズされたコンテンツをデザインおよびデプロイするプロセスが簡素化されます。 </p>
 <p>この統合は、現在、Healthcare Shield またはプライバシーとセキュリティシールドでは使用できません。</p>
 <img src="assets/do-not-localize/express_resize.gif">
 <p>詳しくは、<a href="../integrations/express.md">詳細なドキュメント</a>を参照してください。</p>
@@ -170,13 +170,13 @@ ht-degree: 93%
 <table>
 <thead>
 <tr>
-<th><strong>バッチセグメント化の完了後の毎日のジャーニー実行のトリガー（限定提供）</strong><br/></th>
+<th><strong>バッチセグメント化の完了後に毎日のジャーニー実行をトリガー（限定提供）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>毎日スケジュールしたジャーニーでは、新しいオプションを使用すると、バッチセグメント化ジョブからのオーディエンスデータを待機する最大 6 時間の時間枠を定義できるので、ジャーニーが最新のデータで実行されるか、準備が整っていない場合はスキップされます。「バッチオーディエンス評価後にトリガー」オプションは、一連の組織に対してのみ使用できます（限定提供）。アクセスするには、アドビ担当者にお問い合わせください。</p>
+<p>毎日スケジュールされているジャーニーの場合、新しいオプションを使用すると、バッチセグメント化ジョブからのオーディエンスデータを待機する時間枠を最大 6 時間まで定義できます。これにより、ジャーニーは最新のデータで実行されるか、準備が整っていない場合はスキップされます。「バッチオーディエンス評価の後にトリガー」オプションは、一連の組織でのみ使用できます（限定提供）。アクセスするには、アドビ担当者にお問い合わせください。</p>
 <p>詳しくは、<a href="../building-journeys/read-audience.md#schedule">詳細なドキュメント</a>を参照してください。</p>
 <img src="assets/do-not-localize/trigger-journeys.gif">
 </td>
@@ -206,13 +206,13 @@ ht-degree: 93%
 <table>
 <thead>
 <tr>
-<th><strong>ブランド一致スコア（ベータ版）</strong><br/></th>
+<th><strong>ブランド一致スコア (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>ブランド整合性スコア機能は、E メールデザイナーで直接、明確なフィードバックを提供し、コンテンツがブランドのトーン、スタイル、ガイドラインと合っているかどうかを確認するのに役立ちます。この機能はベータ版で使用できます。</p>
+<p>ブランド一致スコア機能は、E メールデザイナーで明確なフィードバックを直接提供し、コンテンツがブランドのトーン、スタイル、ガイドラインと一致しているかどうかを確認するのに役立ちます。この機能はベータ版で使用可能です。</p>
 <p>詳しくは、 <a href="../content-management/brands-score.md">詳細なドキュメント</a>を参照してください。</p>
 <img src="assets/do-not-localize/brand-score.gif">
 </td>
@@ -242,9 +242,9 @@ ht-degree: 93%
 
 ### 機能強化 {#25-04-improv}
 
-**キャンペーンのプレビュー API**
+**キャンペーンプレビュー API**
 
-キャンペーンのプレビュー用の新しい API が、既存のプルーフ送信機能に加えて追加されました。 [詳細情報](https://developer.adobe.com/journey-optimizer-apis/references/simulations/#operation/createCampaignPreview){target="_blank"}。
+既存の配達確認の送信機能に加えて、キャンペーンをプレビューするための新しい API を使用できるようになりました。[詳細情報](https://developer.adobe.com/journey-optimizer-apis/references/simulations/#operation/createCampaignPreview){target="_blank"}。
 
 **サンドボックスツール**
 
@@ -260,23 +260,23 @@ ht-degree: 93%
 
 * **新しいコンテキスト属性**
 
-  新しいコンテキスト属性の&#x200B;**メッセージプロファイル ID** が、パーソナライゼーションエディターから選択できるようになりました。これは、配信内の各ターゲットプロファイルに送信された各メッセージを一意に識別するメッセージ指向の属性です。この一意の ID は、例えば、受信者が開いたりクリックした各リンクを区別するための URL トラッキングパラメーターとして使用できます。
+  新しいコンテキスト属性の **Message Profile Id** が、パーソナライゼーションエディターから選択できるようになりました。これは、配信内で各ターゲットプロファイルに送信された各メッセージを一意に識別する、メッセージ指向の属性です。この一意の ID は、例えば、受信者が開いたリンクやクリックしたリンクを区別するための URL トラッキングパラメーターとして使用できます。
 
-* **属性パネルに入力した属性** - 公開日：2025年4月2日（PT）
+* **属性パネルに表示される属性** - 公開日：2025年4月2日（PT）
 
   パーソナライゼーションエディターの属性パネルには、デフォルトで入力した属性のみが表示されるようになりました。すべての属性を表示するには、設定ボタンを使用して「**[!UICONTROL 入力した属性のみを表示]**」オプションをオフに切り替えます。[詳細情報](../personalization/personalization-build-expressions.md)
 
 **メールチャネル**
 
-* **パーソナライズされた URL のトラッキング** – 公開日：2025 年 4 月 30 日（PT）
+* **パーソナライズされた URL トラッキング** - 公開日：2025年4月30日（PT）
 
-  メール設定の柔軟性と制御を高めるために、コンテンツ内のリンクごとに電子メールデザイナーで実行する代わりに、電子メールチャネルの設定レベルで、すべての URL トラッキングパラメーターを一度にパーソナライズできるようになりました。 [詳細情報](../email/surface-personalization.md#personalize-url-tracking)
+  メール設定の柔軟性と制御性を高めるために、コンテンツ内のリンクごとに E メールデザイナーでパーソナライズする代わりに、メールチャネル設定レベルですべての URL トラッキングパラメーターを一度にパーソナライズできるようになりました。[詳細情報](../email/surface-personalization.md#personalize-url-tracking)
 
 * **E メールデザイナー** - 公開日：2025年4月1日（PT）
 
   Journey Optimizer のアクセシビリティを強化するために、E メールデザイナーで 2 つの新しいフィールドが使用できるようになりました。これらは、メールコンテンツの `<html>` 要素の `<title>` 要素と `lang` 属性に対応しています。これらの設定は、メールの「**[!UICONTROL 本文]**」セクションの「**[!UICONTROL プリヘッダー]**」フィールドに加えて定義できます。[詳細情報](../email/email-metadata.md)
 
-**ユースケースプレイブック**
+**ユースケースのプレイブック**
 
 * **プレイブックのオーサリングと共有（プライベートベータ版）** – 独自のユースケースプレイブックを作成、管理、共有できるようになりました。 この機能は、現在、一連の組織に対してのみプライベートベータ版として使用できます。 アクセス権を取得するには、Adobe担当者にお問い合わせください。 [詳細情報](../start/playbooks.md)
 
@@ -477,7 +477,7 @@ Journey Optimizer パーソナライゼーションエディターが更新さ�
 
 **ビジネスルール**
 
-バッチセグメント化を使用したジャーニーとキャンペーンで、毎日のフリークエンシーキャップを使用できるようになりました。毎日のフリークエンシーキャップルールの正確性を確保するには、キャンペーンまたはジャーニーを作成する際に、最も優先度の高い名前空間を選択します。名前空間の優先度について詳しくは、[Platform ID サービスガイド](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}を参照してください
+バッチセグメント化を使用したジャーニーとキャンペーンで、毎日のフリークエンシーキャップを使用できるようになりました。毎日のフリークエンシーキャップルールの正確性を確保するには、キャンペーンまたはジャーニーを作成する際に、最も優先度の高い名前空間を選択します。名前空間の優先度について詳しくは、[ID サービスガイド](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/features/identity-graph-linking-rules/namespace-priority){target="_blank"}を参照してください。
 
 ルールセットでの毎日のフリークエンシーキャップは、一連の組織のみが使用できます（限定提供）。アクセスするには、アドビ担当者にお問い合わせください。
 
@@ -485,7 +485,7 @@ Journey Optimizer パーソナライゼーションエディターが更新さ�
 
 **コンテンツテンプレート**
 
-HTML タイプのコンテンツテンプレートは非推奨（廃止予定）になりました。[!DNL Journey Optimizer] で以前作成した既存の HTML コンテンツテンプレートは、引き続き使用できます。[詳しくは、コンテンツテンプレートを参照してください](../content-management/content-templates.md)
+HTML タイプのコンテンツテンプレートは非推奨（廃止予定）になりました。[!DNL Journey Optimizer] で以前に作成した既存の HTML コンテンツテンプレートは引き続き使用できます。[詳しくは、コンテンツテンプレートを参照してください](../content-management/content-templates.md)
 
 
 <!--**Deliverability**
@@ -544,7 +544,7 @@ You can now choose to have your emails relayed to your SMTP servers instead of b
 <table>
 <thead>
 <tr>
-<th><strong>AI アシスタントを使用したブランド（ベータ版）</strong><br/></th>
+<th><strong>AI アシスタントを使用したブランド (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>

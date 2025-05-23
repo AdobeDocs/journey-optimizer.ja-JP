@@ -7,8 +7,8 @@ product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 82%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 82%
 
 ## 最新情報
 
-Journey Optimizer 製品とドキュメントの最新の機能強化の概要について説明します。機能、改善点、修正の包括的なリストについては、詳細な[リリースノート](using/rn/release-notes.md)を参照してください。製品ドキュメントの最新の変更について詳しくは、[ドキュメントの更新ページ](using/rn/documentation-updates.md)を参照してください。
+Journey Optimizer 製品とドキュメントの最新の機能強化の概要について説明します。機能、改善点、修正の包括的なリストについては、詳細な[リリースノート](using/rn/release-notes.md)を参照してください。製品ドキュメントの最新の変更点について詳しくは、[ドキュメントの更新ページ](using/rn/documentation-updates.md)を参照してください。
 
 >[!BEGINTABS]
 

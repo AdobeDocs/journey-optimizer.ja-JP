@@ -11,8 +11,8 @@ keywords: 式, エディター, 開始, パーソナライゼーション
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
 source-git-commit: 85fc6bdc6386f52374172d50667edeea5344011f
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 81%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -37,21 +37,21 @@ Journey Optimizer は、メッセージを処理する際に、式を Experience
 
 ## パーソナライゼーションに使用するデータ
 
-パーソナライゼーションは、**XDM 個人プロファイル**&#x200B;スキーマ（Adobe Experience Platform で定義）で管理されるプロファイルデータに基づいています。**XDM 個人版プロファイル**&#x200B;スキーマは、[!DNL Journey Optimizer] でコンテンツをパーソナライズするのに使用できる唯一のスキーマです。詳しくは、[Adobe Experience Platform データモデル（XDM）ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target="_blank"} を参照してください。
+パーソナライゼーションは、**XDM 個人プロファイル**&#x200B;スキーマ（Adobe Experience Platform で定義）で管理されるプロファイルデータに基づいています。**XDM 個人版プロファイル**&#x200B;スキーマは、[!DNL Journey Optimizer] でコンテンツをパーソナライズするのに使用できる唯一のスキーマです。詳しくは、[Adobe Experience Platform データモデル（XDM）ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target="_blank"}を参照してください。
 
 また、**計算属性**&#x200B;を利用して、コンテンツをパーソナライズすることもできます。計算属性を使用すると、個々の行動イベントを、Adobe Experience Platform で使用可能な計算プロファイル属性に要約できます。[詳しくは、計算属性の操作方法を参照してください。](../audience/computed-attributes.md)
 
 さらに、[!DNL Journey Optimizer] を使用すると、パーソナライゼーションエディターで Adobe Experience Platform のデータを利用して、コンテンツをパーソナライズすることができます。これを行うには、まず、API 呼び出しを通じて参照パーソナライゼーションに必要なデータセットを有効にする必要があります。完了したら、そのデータを使用して、コンテンツを Journey Optimizer にパーソナライズできます。この機能は現在ベータ版で使用可能です。[詳細情報](../personalization/lookup-aep-data.md)
 
-## パーソナライゼーションの学習と実験 {#playground}
+## パーソナライズ機能の学習と実験 {#playground}
 
-**[!DNL Adobe Journey Optimizer]** には、パーソナライゼーション機能を学習して実験するのに役立つインタラクティブなツールが含まれています。
+**[!DNL Adobe Journey Optimizer]** には、パーソナライズ機能の学習と実験に役立つように設計されたインタラクティブなツールが含まれています。
 
-このプレイグラウンドは、ライブデータセットを必要とせずに、サンプルデータを使用してパーソナライゼーションコードを記述およびテストするシミュレート環境を提供します。 事前定義済みのコードサンプルを活用したり、ダミーのプロファイルペイロードを編集したり、パーソナライゼーションコードの出力をリアルタイムでプレビューしたりできます。
+このプレイグラウンドは、ライブデータセットを必要とせずに、サンプルデータを使用してパーソナライゼーションコードを記述およびテストするためのシミュレーション環境を提供します。定義済みコードサンプルの活用、ダミーのプロファイルペイロードの編集、パーソナライゼーションコードの出力のリアルタイムプレビューを行うことができます。
 
-![ パーソナライゼーションプレイグラウンド ](assets/playground.png)
+![パーソナライゼーションプレイグラウンド](assets/playground.png)
 
-➡️ [ パーソナライゼーションプレイグラウンドへのアクセス ](https://experienceleague.adobe.com/ja/apps/journey-optimizer/ajo-personalization){target="_blank"}
+➡️[ パーソナライゼーションプレイグラウンドへのアクセス ](https://experienceleague.adobe.com/ja/apps/journey-optimizer/ajo-personalization){target="_blank"}
 
 ## さらに深く掘り下げましょう
 
@@ -97,11 +97,11 @@ Journey Optimizer は、メッセージを処理する際に、式を Experience
 
 ジャーニーのコンテキストイベント情報を使用してメッセージをパーソナライズする方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3448127?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
 プロファイルベースのパーソナライゼーションをメッセージに追加する方法と、オーディエンスメンバーシップをパーソナライゼーションブロックの前提条件として使用する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416419?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)
 
 パーソナライゼーションエディターのプレイグラウンドを活用し、サンプルデータを使用してパーソナライゼーションコードを記述およびテストする方法について説明します。
 
