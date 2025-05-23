@@ -68,4 +68,4 @@ Journey Optimizerには、コンテンツをテストするための 2 つのエ
 
 テストプロファイルを使用して、複数のインボックスにわたってメールのレンダリングをテストする方法、パーソナライズされたメールをテストプロファイルに対してプレビューする方法、配達確認を送信する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3425026?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430339?quality=12&captions=jpn)
