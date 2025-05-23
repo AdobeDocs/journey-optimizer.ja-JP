@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3ca20bf61a4bd6dc8fa066323291cc804cb09571
+source-git-commit: 6628f1a9700f126e23c8e6c21b24973f239805c0
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1061'
 ht-degree: 36%
 
 ---
@@ -45,11 +45,10 @@ ht-degree: 36%
 <!--li>Create offers by directly selecting an AEM Content Fragment.</li-->
 <li>エディターモードを使用して、プレースホルダーを定義し、フラグメント署名内のパーソナライゼーション値をマッピングします。</li>
 </ul>
-
-<p>詳しくは、<a href="../integrations/aem-fragments.md">詳細なドキュメント</a>を参照してください。</p>
-<p>公開日：2025年5月23日（PT）</p>
 </br>
 <img src="assets/do-not-localize/content-fragment.gif">
+<p>詳しくは、<a href="../integrations/aem-fragments.md">詳細なドキュメント</a>を参照してください。</p>
+<p>公開日：2025年5月23日（PT）</p>
 </td>
 </tr>
 </tbody>
@@ -70,11 +69,11 @@ ht-degree: 36%
 <li>幅や高さなどのアセット設定を即座に変更します。</li>
 <li>コンテンツを更新し、パーソナライゼーションフィールドを追加して、Dynamic Media テンプレートをカスタマイズします。</li>
 </ul>
+</br>
+<img src="assets/do-not-localize/dynamic_media_template_html.gif">
 <p>以前は限定提供でリリースされていましたが、現在はすべての環境でこの機能を利用できます（一般提供）。</p>
 <p>詳しくは、<a href="../integrations/aem-dynamic.md">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2025年5月23日（PT）</p>
-</br>
-<img src="assets/do-not-localize/dynamic_media_template_html.gif">
 </td>
 </tr>
 </tbody>
@@ -90,8 +89,8 @@ ht-degree: 36%
 <tr>
 <td>
 <p>事前承認済みのテーマをすばやく適用して、すべてのメールでブランドの一貫性を確保し、キャンペーンの作成プロセスを迅速化し、高品質のメールを独自に作成できると同時に、デザインチームへの依存を軽減することができます。</p>
-<img src="assets/do-not-localize/themes.gif">
 <p>この機能は現在ベータ版で、ベータ版のお客様のみご利用いただけます。ベータ版プログラムに参加するには、アドビ担当者にお問い合わせください。</p>
+<img src="assets/do-not-localize/themes.gif">
 <p>詳しくは、<a href="../email/apply-email-themes.md">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2025年5月14日（PT）</p>
 </td>
@@ -188,6 +187,7 @@ ht-degree: 36%
 <p>以前は限定提供でリリースされていましたが、現在はすべての環境でこの機能を使用できます。 この一般提供リリースで、この機能に多言語コンテンツとコンテンツ実験のサポートが含まれるようになり、様々な言語や処理でのバリエーションをテストできます。 さらに、（プロファイル属性に加えて）コンテキスト属性もサポートされるようになり、より動的で状況に応じたコンテンツテストが可能になりました。</p>
 <img src="assets/do-not-localize/variants.gif">
 <p>詳しくは、<a href="../test-approve/simulate-sample-input.md">詳細なドキュメント</a>を参照してください。</p>
+<p>公開日：2025年5月23日（PT）</p>
 </td>
 </tr>
 </tbody>
