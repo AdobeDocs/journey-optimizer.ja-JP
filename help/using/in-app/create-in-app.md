@@ -236,7 +236,7 @@ ht-degree: 100%
 
   +++こちらのビデオをご覧ください
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3451883?quality=12&learn=on&captions=jpn)
 
 +++
 
@@ -244,7 +244,7 @@ ht-degree: 100%
 
   +++こちらのビデオをご覧ください
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
+  >[!VIDEO](https://video.tv.adobe.com/v/3445289/?learn=on&autoplay=true&captions=jpn)
 
 +++
 
@@ -252,7 +252,7 @@ ht-degree: 100%
 
   +++こちらのビデオをご覧ください
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3423077/?learn=on&autoplay=true)
+  >[!VIDEO](https://video.tv.adobe.com/v/3451830/?learn=on&autoplay=true&captions=jpn)
 
 +++
 
