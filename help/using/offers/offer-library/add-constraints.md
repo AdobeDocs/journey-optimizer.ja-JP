@@ -75,7 +75,7 @@ ht-degree: 99%
 >title="オファー実施要件について"
 >abstract="このセクションでは、決定ルールを使用して、オファーの対象となるユーザーを決定できます。"
 
-<!--additional-url="https://video.tv.adobe.com/v/341373?captions=jpn" text="Watch demo video"-->
+<!--additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
@@ -144,7 +144,7 @@ ht-degree: 99%
 >title="キャッピングの使用"
 >abstract="顧客に過度の勧誘をしないようにするには、キャッピングを使用して、オファーを提示できる回数の上限を定義します。特定のオファーに対して最大 10 個のキャッピングルールを作成できます。"
 
-<!--additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html?lang=ja#capping-change-date" text="Changing dates can impact capping"-->
+<!--additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints.html#capping-change-date" text="Changing dates can impact capping"-->
 
 キャッピングは、オファーを提示できる最大回数を定義する制約として使用されます。ユーザーが特定のオファーを受け取る回数を制限することで、顧客への過度の勧誘を防ぎ、最適なオファーを用いて各タッチポイントを最適化できます。
 
