@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c52049383bf6a8b60fcb0ab1c2331724c8cdb771
+source-git-commit: eb3879db92d765a71626b6b68299286818d9569b
 workflow-type: tm+mt
-source-wordcount: '757'
-ht-degree: 28%
+source-wordcount: '926'
+ht-degree: 31%
 
 ---
 
@@ -29,6 +29,56 @@ ht-degree: 28%
 ### 新機能 {#25-05-features}
 
 このリリースに含まれる新機能を以下に示します。
+
+<table>
+<thead>
+<tr>
+<th><strong>Adobe Experience Manager コンテンツフラグメントの統合</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Experience ManagerとJourney Optimizerの統合により、Adobe Journey Optimizer コンテンツ内でAdobe Experience Manager コンテンツフラグメントを簡単に使用できるようになりました。 このシームレスな接続により、Journey Optimizer内のAEM コンテンツに直接アクセスして使用しやすくなります。</p>
+<p>以前は一部の組織（LA）で利用できましたが、この機能は現在は GA であり、次の機能強化が行われています。</p>
+<ul>
+<!--li>Create offers by directly selecting an AEM Content Fragment.</li-->
+<li>エディターモードを使用して、プレースホルダーを定義し、フラグメント署名内のパーソナライゼーション値をマッピングします。</li>
+</ul>
+
+<p>詳しくは、<a href="../integrations/aem-fragments.md">詳細なドキュメント</a>を参照してください。</p>
+<p>公開日：2025年5月23日（PT）</p>
+</br>
+<img src="assets/do-not-localize/content-fragment.gif">
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Adobe Experience Manager Dynamic Media との統合</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Dynamic Media アセットが Journey Optimizer で直接使用可能になり、アクセスできるようになりました。この統合により、次のことを実行できます。</p>
+<ul>
+<li>リアルタイムのアップデートでアセットを一元管理します。</li>
+<li>幅や高さなどのアセット設定を即座に変更します。</li>
+<li>コンテンツを更新し、パーソナライゼーションフィールドを追加して、Dynamic Media テンプレートをカスタマイズします。</li>
+</ul>
+<p>以前は限定提供でリリースされていましたが、現在はすべての環境でこの機能を利用できます（一般提供）。</p>
+<p>詳しくは、<a href="../integrations/aem-dynamic.md">詳細なドキュメント</a>を参照してください。</p>
+<p>公開日：2025年5月23日（PT）</p>
+</br>
+<img src="assets/do-not-localize/dynamic_media_template_html.gif">
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -85,27 +135,6 @@ ht-degree: 28%
 </tbody>
 </table>
 
-<!--table>
-<thead>
-<tr>
-<th><strong>Adobe Experience Manager Content fragment integration</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>With the integration of Adobe Experience Manager and Adobe Journey Optimizer, you can now effortlessly use Adobe Experience Manager Content Fragments within your Journey Optimizer content. This seamless connection makes it easier to access and use your AEM content directly in Journey Optimizer.</p>
-<p>Previously available for a limited set of organizations (LA), this capability is now GA with the following enhancements:</p>
-<ul>
-<li>Create offers by directly selecting an AEM Content Fragment.</li>
-<li>Define placeholders and map personalization values within the fragment signature using the Editor mode.</li>
-</ul>
-<img src="assets/do-not-localize/content-fragment.gif">
-</td>
-</tr>
-</tbody>
-</table-->
-
 <!--<table>
 <thead>
 <tr>
@@ -123,28 +152,6 @@ ht-degree: 28%
 </tr>
 </tbody>
 </table>-->
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Adobe Experience Manager Dynamic media integration</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Dynamic media assets are now directly available and accessible in Journey Optimizer. This integration enables you to:</p>
-<ul>
-<li>Centrally manage assets with real-time updates.</li>
-<li>Modify your assets settings such as width and height instantly.</li>
-<li>Customize Dynamic Media templates by updating your content and adding personalization fields.</li>
-</ul>
-<p>Previously released in Limited Availability, this capability is now available to all environments (General Availability).</p>
-<img src="assets/do-not-localize/dynamic_media_template_html.gif">
-</td>
-</tr>
-</tbody>
-</table-->
 
 <!--<table>
 <thead>
@@ -261,11 +268,11 @@ ht-degree: 28%
 
 * **パーソナライゼーションのための錠剤のアクティベーション** – 公開日：2025 年 5 月 5 日（PT）
 
-  パーソナライゼーションエディターに新しい「錠剤」ボタンが追加されました。 有効にすると、プロファイルとコンテキストの属性が錠剤として表示され、コードの読みやすさが向上します。 [詳細情報](../personalization/personalization-build-expressions.md#options)
+  パーソナライゼーションエディターに新しい「ピル」ボタンが追加されました。有効にすると、プロファイルとコンテキスト属性がピルとして表示され、コードの読みやすさが向上します。[詳細情報](../personalization/personalization-build-expressions.md#options)
 
   >[!AVAILABILITY]
   >
-  >この機能は、今後 30 日間にわたってすべての環境に徐々に展開される予定です。
+  >この機能は、今後 30 日間にわたってすべての環境に段階的にロールアウトされます。
 
 * Web チャネルでの **URL にリダイレクト」のサポート**
 

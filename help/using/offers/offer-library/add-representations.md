@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
-source-git-commit: 64e225cdc8615e51655ef550866b67ca249a7572
+source-git-commit: eb3879db92d765a71626b6b68299286818d9569b
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 86%
+source-wordcount: '793'
+ht-degree: 83%
 
 ---
 
@@ -101,6 +101,8 @@ ht-degree: 86%
 外部の公開場所からコンテンツを追加するには、「**[!UICONTROL URL]**」を選択してから、追加するコンテンツの URL アドレスを入力します。
 
 パーソナライゼーションエディターを使用して、URL をパーソナライズできます。詳しくは、[パーソナライゼーション](../../personalization/personalize.md#use-expression-editor)を参照してください。
+
+また、「**[!UICONTROL コンテンツフラグメント]**」をクリックして、Adobe Experience Manager コンテンツフラグメントをオファーに直接挿入することもできます。詳細は、[Journey Optimizerとのコンテンツフラグメント統合 ](../../integrations/aem-fragments.md) を参照してください。
 
 ![](../assets/offer-content-url.png)
 
