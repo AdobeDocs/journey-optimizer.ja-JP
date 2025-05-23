@@ -11,10 +11,10 @@ hide: true
 hidefromtoc: true
 badge: label="ベータ版" type="Informative"
 exl-id: 31acb095-de90-495f-8e8c-43a78dedfa06
-source-git-commit: bf82aed7417b7c66a21b9e459f768659273666d3
-workflow-type: ht
-source-wordcount: '276'
-ht-degree: 100%
+source-git-commit: 22a8742bf9000ed1cc8437d7ac89747276284dbf
+workflow-type: tm+mt
+source-wordcount: '266'
+ht-degree: 93%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 ## WhatsApp メッセージのプレビュー {#preview-whatsapp}
 
-メッセージコンテンツを定義したら、CSV／JSON ファイルからアップロードした、または手動で追加したテストプロファイルやサンプル入力データを使用して、そのコンテンツをプレビューできます。パーソナライズされたコンテンツを挿入した場合は、そのコンテンツがメッセージ内でどのように表示されるかを確認できます。[詳しくは、サンプル入力データを使用してコンテンツをテストする方法を参照してください](../test-approve/simulate-sample-input.md)
+メッセージコンテンツを定義したら、CSV／JSON ファイルからアップロードした、または手動で追加したテストプロファイルやサンプル入力データを使用して、そのコンテンツをプレビューできます。パーソナライズされたコンテンツを挿入した場合は、そのコンテンツがメッセージにどのように表示されるかを確認できます。
 
 これを行うには、「**[!UICONTROL コンテンツをシミュレート]**」をクリックし、テストプロファイルデータを使用してメッセージを確認します。
 

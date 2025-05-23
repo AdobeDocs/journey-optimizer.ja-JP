@@ -5,26 +5,18 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 6477270c-0309-411a-8254-c7ffc4419492
-source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
+source-git-commit: aa28d13b2ad874e4dc61510bfdc250415e8e8be1
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 100%
+source-wordcount: '258'
+ht-degree: 83%
 
 ---
 
 # テストプロファイルを使用したコンテンツのプレビュー {#preview}
 
-<!--## Preview your content {#preview-content}-->
+[ テストプロファイル ](test-profiles.md) を選択すると、そのデータを使用してコンテンツをプレビューできます。 次の手順に従います。
 
-[テストプロファイル](test-profiles.md)を定義すると、コンテンツをプレビューできます。
-
->[!NOTE]
->
->また、[!DNL Journey optimizer] を使用すると、CSV／JSON ファイルからアップロードした、または手動で追加したサンプル入力データを使用してコンテンツをプレビューし、配達確認を送信することで、コンテンツの様々なバリアントをテストできます。[詳しくは、サンプル入力データを使用してコンテンツをテストする方法を参照してください](../test-approve/simulate-sample-input.md)
-
-テストプロファイルを使用してコンテンツをプレビューするには、次の手順に従います。
-
-1. メッセージのコンテンツを編集画面または E メールデザイナーで、「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックします。
+1. メッセージのコンテンツを編集画面またはメールDesignerで、「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックし、「**[!UICONTROL コンテンツをシミュレート]**」を選択します。
 
 1. テストプロファイルを選択します。列内で利用可能な値を確認できます。右向きや左向きの矢印を使用して、データを参照します。
 
@@ -46,9 +38,12 @@ ht-degree: 100%
 
 1. メッセージの各バリエーションに対してメールをプレビューするには、他のテストプロファイルを選択します。
 
->[!NOTE]
->
->設定の詳細にエラーがある場合は、「**[!UICONTROL 設定の詳細を表示]**」ボタンをクリックします。[詳細情報](../email/surface-personalization.md#check-configuration)
+   >[!NOTE]
+   >
+   >設定の詳細にエラーがある場合は、「**[!UICONTROL 設定の詳細を表示]**」ボタンをクリックします。[詳細情報](../email/surface-personalization.md#check-configuration)
 
 コードベースのエクスペリエンスを作成する場合、ブラウザーまたはモバイルデバイスでパーソナライズされたコンテンツをプレビューして、実際のシミュレーションを行うことができます。[詳細情報](../code-based/test-code-based.md#preview-on-device)
 
+>[!NOTE]
+>
+>また、[!DNL Journey optimizer] を使用すると、CSV／JSON ファイルからアップロードした、または手動で追加したサンプル入力データを使用してコンテンツをプレビューし、配達確認を送信することで、コンテンツの様々なバリアントをテストできます。[ コンテンツのバリエーションをシミュレートする方法を学ぶ ](../test-approve/simulate-sample-input.md)

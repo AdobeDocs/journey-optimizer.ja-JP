@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
-workflow-type: ht
-source-wordcount: '1362'
-ht-degree: 100%
+source-git-commit: 22a8742bf9000ed1cc8437d7ac89747276284dbf
+workflow-type: tm+mt
+source-wordcount: '1357'
+ht-degree: 98%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->また、[!DNL Journey optimizer] を使用すると、CSV／JSON ファイルからアップロードした、または手動で追加したサンプル入力データを使用してコンテンツをプレビューし、配達確認を送信することで、コンテンツの様々なバリアントをテストできます。[詳しくは、サンプル入力データを使用してコンテンツをテストする方法を参照してください](../test-approve/simulate-sample-input.md)
+>また、[!DNL Journey optimizer] を使用すると、CSV／JSON ファイルからアップロードした、または手動で追加したサンプル入力データを使用してコンテンツをプレビューし、配達確認を送信することで、コンテンツの様々なバリアントをテストできます。[ コンテンツのバリエーションをシミュレートする方法を学ぶ ](../test-approve/simulate-sample-input.md)
 
 テストプロファイルを作成する方法はいくつかあります。このページの詳細は次のとおりです。
 
@@ -34,9 +34,9 @@ ht-degree: 100%
 
 既存のデータセットで json ファイルをアップロードすることもできます。詳しくは、[データ取得ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=ja#add-data-to-dataset){target="_blank"}を参照してください。
 
-テストプロファイルの作成は、Adobe Experience Platform で通常のプロファイルを作成する場合と似ていることに注意してください。詳しくは、[リアルタイム顧客プロファイルドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target="_blank"}を参照してください。
+テストプロファイルの作成は、Adobe Experience Platform で通常のプロファイルを作成する場合と似ていることに注意してください。詳しくは、[リアルタイム顧客プロファイルのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target="_blank"}を参照してください。
 
-➡️ [テストプロファイルの作成方法は、このビデオを参照してください](#video)
+➡️ [ テストプロファイルの作成方法については、このビデオを参照してください ](#video)
 
 ## 前提条件 {#test-profile-prerequisites}
 
@@ -70,7 +70,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->スキーマの作成について詳しくは、[XDM ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=ja#prerequisites){target="_blank"}を参照してください。
+>スキーマ作成の詳細については、[XDM のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=ja#prerequisites){target="_blank"}を参照してください。
 
 次に、プロファイルのインポート先となる&#x200B;**データセットを作成**&#x200B;する必要があります。次の手順に従います。
 
@@ -87,7 +87,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> データセットの作成について詳しくは、[カタログサービスドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ja#getting-started){target="_blank"}を参照してください。
+> データセットの作成について詳しくは、[カタログサービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ja#getting-started){target="_blank"}を参照してください。
 
 ## 製品内のユースケース{#use-case-1}
 
@@ -244,4 +244,4 @@ curl -X POST \
 
 テストプロファイルを作成する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416426?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/334236?quality=12)

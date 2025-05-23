@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 01726ab6-f581-4d19-aedd-2541bc0f27c6
-source-git-commit: 03cb3298c905766bc059e82c58969a2111379345
+source-git-commit: 22a8742bf9000ed1cc8437d7ac89747276284dbf
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 100%
+source-wordcount: '252'
+ht-degree: 85%
 
 ---
 
@@ -26,6 +26,10 @@ ht-degree: 100%
 1. 「**[!UICONTROL コンテンツをシミュレート]**」をクリックし、テストプロファイルを選択して、レンダリングを確認します。[詳細情報](../content-management/preview-test.md)
 
    ![](assets/content-template-stimulate.png)
+
+   >[!NOTE]
+   >
+   >[!DNL Journey optimizer] た、CSV/JSON ファイルからアップロードされた、または手動で追加されたサンプル入力データを使用して、プレビューおよび配達確認を送信することで、様々なバリエーションのコンテンツテンプレートをテストすることもできます。 [ コンテンツのバリエーションをシミュレートする方法を学ぶ ](../test-approve/simulate-sample-input.md)
 
 1. ジャーニーやキャンペーンで使用する前に、コンテンツをテストするための配達確認を送信し、一部の内部ユーザーから承認を得ることができます。
 

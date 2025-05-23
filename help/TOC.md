@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7f09e78c153955fb481b94701e55a0f9e77e7dd6
+source-git-commit: 81de8502ce061ee2d0bb97e4a35c3f76c4425a08
 workflow-type: tm+mt
 source-wordcount: '2377'
 ht-degree: 98%
@@ -44,9 +44,9 @@ ht-degree: 98%
 + ジャーニー {#orchestrate-journeys}
    + [ジャーニーの基本を学ぶ](using/building-journeys/journey.md)
    + ジャーニーの作成{#create-journey}
-      + [初めてのジャーニーの作成](using/building-journeys/journey-gs.md)
+      + [最初のジャーニーを作成](using/building-journeys/journey-gs.md)
       + [ジャーニーのプロパティの設定](using/building-journeys/journey-properties.md)
-      + [ジャーニー指標の設定とトラック](using/building-journeys/success-metrics.md)
+      + [ジャーニー指標の設定とトラッキング](using/building-journeys/success-metrics.md)
       + [ジャーニーのデザイン](using/building-journeys/using-the-journey-designer.md)
       + [ジャーニーのテスト](using/building-journeys/testing-the-journey.md)
       + [ジャーニーのシミュレート](using/building-journeys/journey-simulation.md)
@@ -100,7 +100,7 @@ ht-degree: 98%
             + [max](using/building-journeys/functions/functionmax.md)
             + [min](using/building-journeys/functions/functionmin.md)
             + [sum](using/building-journeys/functions/functionsum.md)
-         + 変換 {#conversion}
+         + コンバージョン {#conversion}
             + [toBool](using/building-journeys/functions/functiontobool.md)
             + [toDateOnly](using/building-journeys/functions/functiontodateonly.md)
             + [toDateTime](using/building-journeys/functions/functiontodatetime.md)
@@ -163,11 +163,11 @@ ht-degree: 98%
             + [upper](using/building-journeys/functions/functionupper.md)
             + [uuid](using/building-journeys/functions/functionuuid.md)
    + ユースケース {#journey-use-cases}
-      + ビジネスでのユースケース {#business-use-cases}
+      + ビジネスユースケース {#business-use-cases}
          + [マルチチャネルメッセージの送信](using/building-journeys/journeys-uc.md)
          + [Campaign v7／v8 を使用したメッセージの送信](using/building-journeys/ajo-ac.md)
          + [サブスクライバーへのメッセージの送信](using/building-journeys/message-to-subscribers-uc.md)
-      + 技術的なユースケース {#technical-use-cases}
+      + テクニカルユースケース {#technical-use-cases}
          + [カスタムアクションを使用したコレクションの動的な受け渡し](using/building-journeys/collections.md)
          + [配信を増やす](using/building-journeys/ramp-up-deliveries-uc.md)
          + [外部データソースとカスタムアクションを使用したスループットの制限](using/building-journeys/limit-throughput.md)
@@ -218,10 +218,10 @@ ht-degree: 98%
    + コンテンツのプレビューとテスト {#preview-test}
       + [プレビューとテストの基本を学ぶ](using/content-management/preview-test.md)
       + [テストプロファイルを選択](using/content-management/test-profiles.md)
-      + [コンテンツのプレビュー](using/content-management/preview.md)
-      + [メール配達確認を送信](using/content-management/proofs.md)
+      + [テストプロファイルを使用したプレビュー](using/content-management/preview.md)
+      + [テストプロファイルデータを使用した配達確認の送信](using/content-management/proofs.md)
       + [メールのレンダリングをテスト](using/content-management/rendering.md)
-      + [サンプル入力データを使用したコンテンツのテスト（ベータ版）](using/test-approve/simulate-sample-input.md)
+      + [コンテンツのバリエーションをシミュレート](using/test-approve/simulate-sample-input.md)
       + [メールスパムレポート](using/content-management/spam-report.md)
    + ジャーニーとキャンペーンの承認 {#approve}
       + [承認の基本を学ぶ](using/test-approve/gs-approval.md)
@@ -309,14 +309,14 @@ ht-degree: 98%
          + [Web エクスペリエンスの監視](using/web/monitor-web-experiences.md)
          + [シングルページアプリケーションの作成](using/web/web-spa.md)
    + コードベースのエクスペリエンス {#code-based-experience}
-      + [コードベースチャネルの基本を学ぶ](using/code-based/get-started-code-based.md)
-      + コードベースチャネルの設定 {#configure-code-based-channel}
+      + [コードベースのチャネルの基本を学ぶ](using/code-based/get-started-code-based.md)
+      + コードベースのチャネルの設定 {#configure-code-based-channel}
          + [ガードレールと前提条件](using/code-based/code-based-prerequisites.md)
          + [コードベースのエクスペリエンスサーフェス](using/code-based/code-based-surface.md)
          + [実装方法のサンプル](using/code-based/code-based-implementation-samples.md)
          + [コードベースのエクスペリエンス実装での意思決定](using/code-based/code-based-decisioning-implementations.md)
          + [コードベースのエクスペリエンス設定の作成](using/code-based/code-based-configuration.md)
-      + コードベースエクスペリエンスの作成 {#create-code-based-experiences}
+      + コードベースのエクスペリエンスの作成 {#create-code-based-experiences}
          + [コードベースのエクスペリエンスの作成と構成](using/code-based/create-code-based.md)
          + [コードベースのエクスペリエンスのテスト](using/code-based/test-code-based.md)
          + [コードベースのエクスペリエンスの管理](using/code-based/publish-code-based.md)
@@ -402,7 +402,7 @@ ht-degree: 98%
       + [AI によるコンテンツ実験](using/content-management/generative-experimentation.md)
       + [AI によるランディングページ](using/content-management/generative-lp.md)
       + [AI アシスタントのユースケース](using/content-management/generative-uc.md)
-      + ブランド（ベータ版）{#brands}
+      + ブランド (Beta){#brands}
          + [ブランドの作成と管理](using/content-management/brands.md)
          + [ブランド一致スコアの評価](using/content-management/brands-score.md)
    + 多言語コンテンツ{#content-multilingual}
@@ -420,7 +420,7 @@ ht-degree: 98%
 + オーディエンス、プロファイル、ID{#audiences-profiles-identities}
    + オーディエンス {#audiences}
       + [オーディエンスの基本を学ぶ](using/audience/about-audiences.md)
-      + オーディエンスの作成 {#create}
+      + オーディエンスを作成 {#create}
          + [セグメント定義](using/audience/creating-a-segment-definition.md)
          + [オーディエンス構成](using/audience/get-started-audience-orchestration.md)
          + [カスタムアップロード](using/audience/custom-upload.md)
@@ -539,7 +539,7 @@ ht-degree: 98%
          + [項目カタログの設定](using/experience-decisioning/catalogs.md)
          + [決定項目の作成](using/experience-decisioning/items.md)
          + [項目コレクションの管理](using/experience-decisioning/collections.md)
-      + 項目の選択の設定 {#selection}
+      + 項目選択の設定 {#selection}
          + [決定ルールの作成](using/experience-decisioning/rules.md)
          + [ランキング方法の作成](using/experience-decisioning/ranking.md)
          + [AI 式ビルダーの使用](using/experience-decisioning/exd-ranking-formulas.md)
@@ -734,7 +734,7 @@ ht-degree: 98%
 + ジャーニー設定 {#configure-journeys}
    + [データソース、イベントおよびアクションの設定](using/configuration/about-data-sources-events-actions.md)
    + イベント設定 {#events-journeys}
-      + [ジャーニーイベントの活用](using/event/about-events.md)
+      + [ジャーニーイベントの操作](using/event/about-events.md)
       + [単一イベントの設定](using/event/about-creating.md)
       + [ExperienceEvent スキーマについて](using/event/experience-event-schema.md)
       + [Adobe Analytics データの操作](using/event/about-analytics.md)
@@ -745,7 +745,7 @@ ht-degree: 98%
       + [データソースの設定](using/datasource/configure-data-sources.md)
       + [Adobe Experience Platform のデータソース](using/datasource/adobe-experience-platform-data-source.md)
       + [外部データソース](using/datasource/external-data-sources.md)
-   + アクション設定 {#action-journeys}
+   + アクションの設定 {#action-journeys}
       + [カスタムアクションの基本を学ぶ](using/action/action.md)
       + [カスタムアクションの設定](using/action/about-custom-action-configuration.md)
       + [カスタムアクションのトラブルシューティング](using/action/troubleshoot-custom-action.md)
@@ -753,16 +753,16 @@ ht-degree: 98%
 + システムと環境の接続 {#connect-systems}
    + [Journey Optimizer API の操作](using/configuration/ajo-apis.md)
    + ジャーニーと外部システムの統合 {#external-systems}
-      + [ジャーニーと外部システムとの統合](using/configuration/external-systems.md)
+      + [ジャーニーと外部システムの統合](using/configuration/external-systems.md)
       + [Capping API](using/configuration/capping.md)
       + [Throttling API](using/configuration/throttling.md)
-   + アドビソリューションでの送信 {#adobe-solutions}
+   + アドビソリューションを使用した送信 {#adobe-solutions}
       + [ジャーニーと Campaign Standard の統合](using/action/acs-action.md)
       + [ジャーニーと Campaign v7／v8 の統合](using/action/acc-action.md)
       + [ジャーニーと Marketo Engage の統合](using/action/marketo-engage.md)
    + サンドボックス管理 {#sandbox}
       + [サンドボックスの使用と割り当て](using/administration/sandboxes.md)
-      + [別のサンドボックスへのオブジェクトの書き出し](using/configuration/copy-objects-to-sandbox.md)
+      + [別のサンドボックスへのオブジェクトのエクスポート](using/configuration/copy-objects-to-sandbox.md)
    + [ソースコネクタの設定](using/start/get-started-sources.md)
 + アクセス制御 {#access-control}
    + アクセス制御の概要 {#privacy}
@@ -778,7 +778,7 @@ ht-degree: 98%
    + [プライバシーリクエスト](using/privacy/requests.md)
    + [ リソースに対する監査アクション](using/privacy/audit-logs.md)
    + [データライフサイクル操作の実行](using/privacy/data-hygiene.md)
-   + 同意の管理 {#consent}
+   + 同意を管理 {#consent}
       + [オプトアウトの管理](using/privacy/opt-out.md)
       + [同意ポリシーの使用](using/action/consent.md)
    + [データガバナンス](using/action/action-privacy.md)
