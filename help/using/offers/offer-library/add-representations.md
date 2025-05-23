@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
-source-git-commit: eb3879db92d765a71626b6b68299286818d9569b
+source-git-commit: 3d332c6584b0625c83631bd6e5125dfcd244e68d
 workflow-type: tm+mt
-source-wordcount: '793'
-ht-degree: 83%
+source-wordcount: '766'
+ht-degree: 86%
 
 ---
 
@@ -102,9 +102,10 @@ ht-degree: 83%
 
 パーソナライゼーションエディターを使用して、URL をパーソナライズできます。詳しくは、[パーソナライゼーション](../../personalization/personalize.md#use-expression-editor)を参照してください。
 
-また、「**[!UICONTROL コンテンツフラグメント]**」をクリックして、Adobe Experience Manager コンテンツフラグメントをオファーに直接挿入することもできます。詳細は、[Journey Optimizerとのコンテンツフラグメント統合 ](../../integrations/aem-fragments.md) を参照してください。
+<!--
+You can also insert an Adobe Experience Manager Content Fragment directly into your offer by clicking **[!UICONTROL Content Fragment]** Learn more about [Content fragment integration with Journey Optimizer](../../integrations/aem-fragments.md).
 
-![](../assets/offer-content-url.png)
+![](../assets/offer-content-url.png)-->
 
 例えば、オファーとして表示される画像をパーソナライズする場合、都会での休暇を好むユーザーにはニューヨークのスカイラインを、ビーチでの休暇を好むユーザーにはハワイのノースショアを表示しようとします。
 
