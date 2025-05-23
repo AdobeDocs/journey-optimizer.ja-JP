@@ -7,7 +7,7 @@ feature: Ranking, Decision Management
 role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
-source-git-commit: 7f035141092d12af8eac96cf43c9021939a55883
+source-git-commit: 7ce241ca8ae6d2be6152a1c393a8301ce2f397a3
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 100%
@@ -33,7 +33,7 @@ ht-degree: 100%
 >title="モデルタイプの選択"
 >abstract="作成する AI モデルのタイプを選択します。**自動最適化**&#x200B;では、過去のオファーのパフォーマンスに基づいてオファーが最適化され、**パーソナライズされた最適化**&#x200B;では、オーディエンスとオファーのパフォーマンスに基づいてオファーが最適化およびパーソナライズされます。"
 
-<!--additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/decisioning/offer-decisioning/rankings/ai-models/create-ranking-strategies#create-ranking-strategy" text="Create an AI model"-->
+<!--additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/rankings/ai-models/create-ranking-strategies#create-ranking-strategy" text="Create an AI model"-->
 
 [!DNL Journey Optimizer] では、2 種類の AI モデルを使用できます。
 
