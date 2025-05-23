@@ -2,18 +2,19 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: LINE チャネルの設定
-description: Journey Optimizerで LINE メッセージを送信するための設定方法を学ぶ
+description: Journey Optimizer で LINE メッセージを送信するように環境を設定する方法について説明します
 feature: Line, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: 8714ac6b2fd76ec859c358535fa322f0ac333a82
-workflow-type: tm+mt
+exl-id: 8ad0e57b-6bdc-43b0-9511-31e2ac1be1f9
+source-git-commit: d11d389259057b20c3803643ca40266b9cb4302c
+workflow-type: ht
 source-wordcount: '269'
-ht-degree: 42%
+ht-degree: 100%
 
 ---
 
-# Journey Optimizerでの LINE チャネルの設定 {#line-configuration}
+# Journey Optimizer での LINE チャネルの設定 {#line-configuration}
 
 1. **[!UICONTROL チャネル]**／**[!UICONTROL 一般設定]**／**[!UICONTROL チャネル設定]**&#x200B;メニューにアクセスし、「**[!UICONTROL チャネル設定を作成]**」をクリックします。
 
@@ -31,23 +32,23 @@ ht-degree: 42%
 
    ![](assets/line-config-2.png)
 
-1. この設定を使用してメッセージに同意ポリシーを関連付けるには、**[!UICONTROL マーケティングアクション]**&#x200B;を選択します。顧客の環境設定に従うために、そのマーケティングアクションに関連付けられているすべての同意ポリシーが活用されます。[詳細情報](../action/consent.md#surface-marketing-actions)
+1. この設定を使用してメッセージに同意ポリシーを関連付けるには、**[!UICONTROL マーケティングアクション]**&#x200B;を選択します。顧客の意向に従うために、そのマーケティングアクションに関連付けられているすべての同意ポリシーが活用されます。[詳細情報](../action/consent.md#surface-marketing-actions)
 
-1. 設定するメッセージのタイプを選択します。
+1. 設定のメッセージのタイプを選択します。
 
-   * **マーケティング**：小売店の毎週のプロモーションなど、プロモーションメッセージの場合。 これらのメッセージは、ユーザーの同意が必要であり、ユーザーのオプトインに関する LINE のポリシーに従う必要があります。
-   * **トランザクション**：注文確認、パスワードリセット通知、配信の更新など、非商用メッセージの場合。 これらのメッセージは、アドビからのお知らせを登録解除したユーザーにも送信できますが、厳密には特定のトランザクションコンテキストに制限されています。
+   * **マーケティング**：小売店の毎週のプロモーションなど、プロモーションメッセージの場合。これらのメッセージには、ユーザーの同意が必要であり、ユーザーのオプトインに関する LINE のポリシーに準拠する必要があります。
+   * **トランザクション**：注文確認、パスワードリセット通知、配信の更新など、非商用メッセージの場合。これらのメッセージは、アドビからのお知らせを登録解除したユーザーにも送信できますが、厳密には特定のトランザクションコンテキストに制限されています。
 
-1. **[!UICONTROL チャネル設定]** を選択します。
+1. 「**[!UICONTROL チャネル設定]**」を選択します。
 
-   **[!UICONTROL チャンネル設定]** を設定するには、Adobeの担当者にお問い合わせください。
+   **[!UICONTROL チャネル設定]**&#x200B;を行うには、アドビ担当者にお問い合わせください。
 
    ![](assets/line-config-2.png)
 
-1. マッピングする **[!UICONTROL LINE ユーザー ID]** を選択します。 これは、LINE チャネル内の個々のユーザーにメッセージをリンクするために使用される識別子です。
+1. マッピングする **[!UICONTROL LINE ユーザー ID]** を選択します。これは、LINE チャネル内の個々のユーザーにメッセージをリンクするために使用される識別子です。
 
-1. 自分のブランド名など、自分の **[!UICONTROL 送信者名]** を入力します。
+1. ブランド名など、**[!UICONTROL 送信者名]**&#x200B;を入力します。
 
 1. 変更を送信します。
 
-LINE メッセージ作成時に設定を選択できるようになりました。
+LINE メッセージを作成する際に、設定を選択できるようになりました。

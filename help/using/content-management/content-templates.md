@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
 source-git-commit: a487355df0229a1e94375025eae0babc9405f087
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '236'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->2025 年 3 月以降、HTML タイプのコンテンツテンプレートは非推奨（廃止予定）になりました。 [!DNL Journey Optimizer] で以前に作成した既存のHTML コンテンツテンプレートを引き続き使用できます。
+>2025年3月以降、HTML タイプのコンテンツテンプレートは非推奨（廃止予定）になりました。[!DNL Journey Optimizer] で以前に作成した既存の HTML コンテンツテンプレートは引き続き使用できます。
 
 高速で改善された設計プロセスを実現するために、スタンドアロンテンプレートを作成して、[!DNL Journey Optimizer] キャンペーンやジャーニー全体でカスタムコンテンツを簡単に再利用できます。
 
@@ -48,4 +48,4 @@ ht-degree: 90%
 
 [!DNL Journey Optimizer] でコンテンツテンプレートを作成、編集、使用する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3418587/?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3413743/?quality=12)

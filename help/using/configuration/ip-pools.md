@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP, プール, グループ, サブドメイン, 配信品質
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
 source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '721'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -68,7 +68,7 @@ IP を選択すると、IP に関連付けられた PTR レコードがリスト
 
 >[!NOTE]
 >
->IP に対して PTR レコードが設定されていない場合は、その IP を選択できません。 その IP の PTR レコードを設定するには、Adobe担当者にお問い合わせください。<!--Now this only happens when first subdomain delegated to Adobe is with CNAME method.-->
+>IP に対して PTR レコードが設定されていない場合は、その IP を選択できません。その IP の PTR レコードを設定するには、アドビ担当者にお問い合わせください。<!--Now this only happens when first subdomain delegated to Adobe is with CNAME method.-->
 
 IP プールが作成された後、IP プールのドロップダウンリストの下に表示される IP アドレスにカーソルを合わせると、PTR 情報が表示されます。
 

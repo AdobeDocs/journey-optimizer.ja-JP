@@ -9,9 +9,9 @@ level: Beginner
 keywords: 外部, API, Optimizer, キャッピング
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
 source-git-commit: e3ed3d2d662d76c022a7820f3771289b14c8b8b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1374'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Journey Optimizer が外部 API を呼び出すと、次のようなテクニカ
 
 >[!TIP]
 >
->有効期限の不一致と 401 エラーを避けるために、外部 API のトークンの有効期限とJourney Optimizer [`cacheDuration` 設定の間 ](../datasource/external-data-sources.md#custom-authentication-access-token) 特にワークロードが多い場合）に少なくとも 1 分のバッファーを残すことをお勧めします。
+>有効期限の不一致と 401 エラーを回避するために、特にワークロードが大きい場合は、外部 API のトークンの有効期限と Journey Optimizer の [`cacheDuration` 設定](../datasource/external-data-sources.md#custom-authentication-access-token)の間に 1 分以上のバッファーを残すことをお勧めします。
 
 ## Capping API と Throttling API {#capping}
 

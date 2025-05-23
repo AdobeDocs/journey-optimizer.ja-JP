@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Adobe Analytics の統合
-description: Journey OptimizerでAdobe Analytics データを活用する方法を説明します
+description: Journey Optimizer での Adobe Analytics データの活用方法について説明します
 feature: Journeys, Events, Reporting, Integrations
 topic: Administration
 role: Data Engineer, Data Architect, Admin
@@ -10,15 +10,15 @@ level: Intermediate, Experienced
 keywords: 分析, 統合, web sdk, Platform
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
 source-git-commit: 0be35e14dba32523a7f28aaaa28d41ee693d44ba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '755'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 # Adobe Analytics データの操作 {#analytics-data}
 
-ジャーニーをトリガー化し顧客向けのエクスペリエンスを自動化するために、Adobe Analytics、Web SDK、Adobe Experience Platformへのストリーミングを通じて既に取得しているあらゆる web 行動イベントデータを活用できます。
+ジャーニーをトリガーして顧客向けのエクスペリエンスを自動化するために、Adobe Analytics や Web SDK を通じてすでに取得し、Adobe Experience Platform にストリーミングしているすべての web 行動イベントデータを活用できます。
 
 これを Adobe Analytics で操作するには、次の手順に従う必要があります。
 
@@ -65,7 +65,7 @@ Adobe Analytics ソースコネクタについて詳しくは、[Adobe Experienc
 
 ## この設定のアクティベート {#activate-analytics-data}
 
-この設定が完了したら、アドビにお問い合わせし、Journey Optimizer 環境でこのデータソースを使用できるようにしてください。この手順は、Adobe Analytics データソースにのみ必要です。次の手順を実行します。
+この設定が完了したら、アドビにお問い合わせし、Journey Optimizer 環境でこのデータソースを使用できるようにしてください。この手順は、Adobe Analytics データソースにのみ必要です。これを実行するには、次の手順を実行します。
 
 1. データソース ID を取得します。 この情報は、ユーザーインターフェイスで利用できます。**ソース**&#x200B;メニューの「**データフロー**」タブから、作成したデータソースを参照します。これを検索する最も簡単な方法は、Adobe Analytics ソースでフィルタリングすることです。
 1. アドビカスタマーケアにお問い合わせして、次の詳細を伝えます。
@@ -95,8 +95,7 @@ Adobe Analytics ソースコネクタについて詳しくは、[Adobe Experienc
 
    ![](assets/ajo-aa_5.png)
 
-1. **[!UICONTROL イベントを作成]** をクリックします。 画面の右側にイベント設定ペインが開きます。
-
+1. 「**[!UICONTROL イベントを作成]**」をクリックします。画面の右側にイベント設定パネルが開きます。
 
 1. 次の&#x200B;**[!UICONTROL イベント]**&#x200B;パラメーターを入力します。
 

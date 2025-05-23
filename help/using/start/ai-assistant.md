@@ -1,32 +1,32 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: AI アシスタントを使用する
-description: AI アシスタントの活用方法を学ぶ
+title: AI アシスタントの操作
+description: AI アシスタントの活用方法について学ぶ
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
 source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '343'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
-# AI アシスタントを使用する {#ai-assistant}
+# AI アシスタントの操作 {#ai-assistant}
 
 AI アシスタントは、アドビのコンセプトをナビゲートして理解し、特定の環境の運用上のインサイトを得るために使用できるユーザーインターフェイス機能です。Adobe Journey Optimizer を含む Adobe Experience Cloud 全体の複数の製品で使用できます。
 
-AI アシスタントにアクセスするには、上部バーのアイコンをクリックします。 画面の右側のセクションに AI アシスタントが表示されます。
+AI アシスタントにアクセスするには、上部バーのアイコンをクリックします。画面の右側のセクションに AI アシスタントが表示されます。
 
 ![](assets/do-not-localize/ai-assistant-open.png)
 
 
 >[!CAUTION]
 >
->AI アシスタントを使用するには、Adobe Experience Cloud ジェネレーティブ AI ユーザーガイドラインに同意する必要があります。 契約について詳しくは、[ このページ ](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/home){target="_blank"} を参照してください。
+>AI アシスタントを使用するには、Adobe Experience Cloud 生成 AI ユーザーガイドラインに同意する必要があります。契約について詳しくは、[このページ](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/home){target="_blank"}を参照してください。
 
 Adobe Journey Optimizer では、次のユースケースにアクセスできます。
 
@@ -49,7 +49,7 @@ Adobe Journey Optimizer では、次のユースケースにアクセスでき�
 
   >[!NOTE]
   >
-  >AI アシスタントの操作インサイトに関する質問にアクセスできるAdobe Journey Optimizer オブジェクトは **0&rbrace;ジャーニー&rbrace; のみです。**&#x200B;現在使用しているサンドボックスのデータのみが表示されます。
+  >AI アシスタントに運用上のインサイトに関する質問をするためにアクセスできる唯一の Adobe Journey Optimizer オブジェクトは、**ジャーニー**&#x200B;です。現在使用しているサンドボックスのデータのみが表示されます。
 
 
 質問するには、画面の下部にあるフィールドに質問を入力し、Enter キーを押します。
@@ -62,4 +62,4 @@ Adobe Journey Optimizer では、次のユースケースにアクセスでき�
 
 サムアップまたはサムダウンを使用して回答を評価します。
 
-AI アシスタントの使用方法については、AI アシスタントを使用して達成できる目標の例や、AI アシスタントの仕組みを参照してください。[Adobe Experience Platformのドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/home){target="_blank"}。
+AI アシスタントの使用方法、AI アシスタントを使用して達成できる目標の例、AI アシスタントの仕組みについて詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/home){target="_blank"}を参照してください。

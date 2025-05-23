@@ -2,19 +2,20 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: テキストメッセージの確認およびテスト
-description: Journey Optimizerで LINE メッセージを確認して送信する方法を学ぶ
+description: Journey Optimizer で LINE メッセージを確認および送信する方法について説明します
 feature: Line
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 8714ac6b2fd76ec859c358535fa322f0ac333a82
-workflow-type: tm+mt
+exl-id: fd8437c6-0052-4116-af60-5624569bda65
+source-git-commit: d11d389259057b20c3803643ca40266b9cb4302c
+workflow-type: ht
 source-wordcount: '252'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
-# LINE メッセージの確認と送信 {#send-line}
+# LINE メッセージの確認および送信 {#send-line}
 
 ## テキストメッセージのプレビュー {#preview-line}
 
@@ -30,7 +31,7 @@ ht-degree: 79%
 
 * **警告**&#x200B;は、レコメンデーションとベストプラクティスを指します。例えば、テキストメッセージが空の場合は警告メッセージが表示されます。
 
-* **エラー**&#x200B;の場合は、それが解決されない限り、ジャーニーのテストやアクティブ化またはキャンペーンの公開はできません。例えば、件名が見つからない場合に警告するエラーメッセージが表示されます。
+* **エラー**&#x200B;の場合は、それが解決されない限り、ジャーニーのテストやアクティブ化またはキャンペーンの公開はできません。例えば、件名がない場合は、それを警告するエラーメッセージが表示されます。
 
 ## LINE メッセージの送信 {#line-send}
 
@@ -38,5 +39,4 @@ ht-degree: 79%
 >
 > キャンペーンが承認ポリシーの対象となっている場合、テキストメッセージを送信できるようにするには、承認をリクエストする必要があります。[詳細情報](../test-approve/gs-approval.md)
 
-LINE メッセージの準備が整ったら、[ ジャーニー ](../building-journeys/journey-gs.md) または [ キャンペーン ](../campaigns/create-campaign.md) の設定を完了して送信します。
-
+LINE メッセージの準備が整ったら、[ジャーニー](../building-journeys/journey-gs.md)または[キャンペーン](../campaigns/create-campaign.md)の設定を完了して送信します。

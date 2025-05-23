@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: WhatsApp チャネルの設定
-description: Journey Optimizerで WhatsApp メッセージを送信するように環境を設定する方法を説明します
+description: Journey Optimizer で WhatsApp メッセージを送信するように環境を設定する方法について説明します
 feature: Whatsapp, Channel Configuration
 role: Admin
 level: Intermediate
@@ -11,9 +11,9 @@ hidefromtoc: true
 badge: label="ベータ版" type="Informative"
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '461'
-ht-degree: 45%
+ht-degree: 100%
 
 ---
 
@@ -24,52 +24,52 @@ ht-degree: 45%
 **目次**
 
 * [WhatsApp メッセージの基本を学ぶ](get-started-whatsapp.md)
-* **[WhatsApp 設定の概要](whatsapp-configuration.md)**
+* **[WhatsApp 設定の基本を学ぶ](whatsapp-configuration.md)**
 * [WhatsApp メッセージの作成](create-whatsapp.md)
-* [WhatsApp メッセージをチェックして送信する](send-whatsapp.md)
+* [WhatsApp メッセージの確認および送信](send-whatsapp.md)
 
 >[!ENDSHADEBOX]
 
-WhatsApp のメッセージを送る前に、WhatsApp のアカウントに関連付ける必要があります。Adobe Journey Optimizerを設定する必要があります。 次の手順を実行します。
+WhatsApp メッセージを送信する前に、Adobe Journey Optimizer 環境を設定し、WhatsApp アカウントに関連付ける必要があります。これを実行するには、次の手順を実行します。
 
-1. [WhatsApp API 認証情報の作成](#WhatsApp-credentials)
-1. [WhatsApp 設定の作成](#WhatsApp-configuration)
+1. [WhatsApp API 資格情報を作成します](#WhatsApp-credentials)
+1. [WhatsApp 設定を作成します](#WhatsApp-configuration)
 
 これらの手順は、Adobe Journey Optimizer [システム管理者](../start/path/administrator.md)が実行する必要があります。
 
-## WhatsApp API 認証情報の作成 {#whatsapp-credentials}
+## WhatsApp API 資格情報の作成 {#whatsapp-credentials}
 
 1. 左側のパネルで、**[!UICONTROL 管理]** `>` **[!UICONTROL チャネル]**&#x200B;を参照し、**[!UICONTROL API 資格情報]**&#x200B;メニューを選択します。「**[!UICONTROL 新しい API 資格情報を作成]**」ボタンをクリックします。
 
-1. 以下に説明するように、API 資格情報を設定します。
+1. 以下で説明するように、API 資格情報を設定します。
 
-   * **API トークン**:API トークンを入力します。 詳しくは、[Meta ドキュメント ](https://developers.facebook.com/docs/facebook-login/guides/access-tokens/) を参照してください。
-   * **ビジネスアカウント ID**：ビジネスポートフォリオに関連する一意の番号を入力します。 詳しくは、[Meta ドキュメント ](https://www.facebook.com/business/help/1181250022022158?id=180505742745347) を参照してください。
+   * **API トークン**：API トークンを入力します。詳しくは、[Meta ドキュメント](https://developers.facebook.com/docs/facebook-login/guides/access-tokens/)を参照してください。
+   * **ビジネスアカウント ID**：ビジネスポートフォリオに関連する一意の番号を入力します。詳しくは、[Meta ドキュメント](https://www.facebook.com/business/help/1181250022022158?id=180505742745347)を参照してください。
 
    ![](assets/whatsapp-api.png)
 
 1. 「**[!UICONTROL 続行]**」をクリックします。
 
-1. WhatsApp API 認証情報に接続する **ビジネスアカウント** を選択します。
+1. WhatsApp API 資格情報に接続する&#x200B;**ビジネスアカウント**&#x200B;を選択します。
 
    ![](assets/whatsapp-api-2.png)
 
-1. Whatsapp メッセージの送信に使用する **電話番号** を選択します。
+1. WhatsApp メッセージの送信に使用する&#x200B;**電話番号**&#x200B;を選択します。
 
-1. 電話番号の設定は自動的に入力されます：
+1. 電話番号の設定は自動的に入力されます。
 
-   * **品質評価**：過去 24 時間以内に送信されたメッセージに対する顧客のフィードバックを反映します。
-      * 緑：高品質
-      * 黄：Mediumの画質
-      * 赤：低画質
+   * **品質評価**：過去 24 時間に送信されたメッセージに関する顧客のフィードバックを反映します。
+      * 緑色：高品質
+      * 黄色：中品質
+      * 赤色：低品質
 
-     詳細情報 [ 品質評価 ](https://www.facebook.com/business/help/766346674749731#)
+     詳しくは、[品質評価](https://www.facebook.com/business/help/766346674749731#)を参照してください。
 
-   * **スループット**：電話番号がメッセージを送信できる割合を示します。
+   * **スループット**：電話番号がメッセージを送信できる速度を示します。
 
 1. API 資格情報の設定が完了したら、「**[!UICONTROL 送信]**」をクリックします。
 
-API 認証情報を作成して設定した後、WhatsApp メッセージ用のチャネル設定を作成する必要があります。 [詳細情報](#whatsapp-configuration)
+API 資格情報を作成および設定したら、WhatsApp メッセージ用のチャネル設定を作成する必要があります。[詳細情報](#whatsapp-configuration)
 
 ## WhatsApp 設定の作成 {#whatsapp-configuration}
 
@@ -87,9 +87,9 @@ API 認証情報を作成して設定した後、WhatsApp メッセージ用の�
 
    ![](assets/whatsapp-config-2.png)
 
-1. 「**[!UICONTROL マーケティングアクション]**」を選択し、この設定を使用してメッセージに同意ポリシーを関連付けます。 顧客の環境設定に従うために、そのマーケティングアクションに関連付けられているすべての同意ポリシーが活用されます。詳細情報
+1. この設定を使用してメッセージに同意ポリシーを関連付けるには、**[!UICONTROL マーケティングアクション]**&#x200B;を選択します。顧客の意向に従うために、そのマーケティングアクションに関連付けられているすべての同意ポリシーが活用されます。詳細情報
 
-1. 作成済みの **[!UICONTROL WhatsApp API 設定]** を選択します。
+1. 以前に作成した **[!UICONTROL WhatsApp API 設定]**&#x200B;を選択します。
 
    ![](assets/whatsapp-config-3.png)
 
@@ -105,4 +105,4 @@ API 認証情報を作成して設定した後、WhatsApp メッセージ用の�
 
 1. チェックが正常に完了すると、チャネル設定のステータスが「**[!UICONTROL アクティブ]**」になります。メッセージの配信に使用する準備が整いました。
 
-これで、Journey Optimizerで WhatsApp メッセージを送信する準備が整いました。
+これで、Journey Optimizer で WhatsApp メッセージを送信する準備が整いました。

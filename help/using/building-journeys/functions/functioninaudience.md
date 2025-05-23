@@ -8,9 +8,9 @@ level: Experienced
 keywords: inAudience, 関数, 式, ジャーニー
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 source-git-commit: 385e27fd4ea34f6a10b8da6b99a2c888edf9d57e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '229'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 93%
 
 >[!IMPORTANT]
 >
->既存のオーディエンスの名前を変更しても、ジャーニー式内のそのオーディエンスへの参照は自動的に更新されません。条件ノードで `inAudience('oldAudienceName')` を使用する場合は、新しい名前を使用するように式を手動で編集する必要があります。 適切に編集しない場合、ジャーニーの条件が機能しなくなります。
+>既存のオーディエンスの名前を変更しても、ジャーニー式内のそのオーディエンスへの参照は自動的に更新されません。条件ノードで `inAudience('oldAudienceName')` が使用されている場合は、新しい名前を使用するように式を手動で編集する必要があります。適切に編集しない場合、ジャーニーの条件が機能しなくなります。
 
 ## カテゴリ
 

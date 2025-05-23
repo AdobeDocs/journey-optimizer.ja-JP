@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
 source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '423'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 82%
 
 Adobe Experience Manager を Adobe Journey Optimizer と統合することで、AEM コンテンツフラグメントを Journey Optimizer のメールコンテンツにシームレスに組み込めるようになりました。この合理化された接続により、AEM コンテンツへのアクセスと活用のプロセスが簡略化され、パーソナライズされた動的なキャンペーンやジャーニーの作成が可能になります。
 
-AEM コンテンツフラグメントについて詳しくは、[Experience Manager ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/sites/authoring/fragments/content-fragments) を参照してください。
+AEM コンテンツフラグメントについて詳しくは、[Experience Manager ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/sites/authoring/fragments/content-fragments)を参照してください。
 
 ## 制限事項 {#limitations}
 
@@ -69,7 +69,7 @@ AEM コンテンツフラグメントについて詳しくは、[Experience Mana
 
 1. 「**[!UICONTROL フィルターを表示]**」をクリックして、コンテンツフラグメントリストを微調整します。
 
-   デフォルトでは、コンテンツフラグメントフィルターは、承認済みのコンテンツのみを表示するようにプリセットされています。
+   デフォルトでは、コンテンツフラグメントフィルターは承認済みコンテンツのみを表示するようにプリセットされています。
 
    ![](assets/aem_campaign_4.png)
 
@@ -77,9 +77,9 @@ AEM コンテンツフラグメントについて詳しくは、[Experience Mana
 
    ![](assets/aem_campaign_5.png)
 
-1. **[!UICONTROL コンテンツフラグメント]** から目的のフィールドを選択して、コンテンツに追加します。 コンテンツを追加するか、その値をコピーできます。
+1. **[!UICONTROL コンテンツフラグメント]**&#x200B;から目的のフィールドを選択して、コンテンツに追加します。コンテンツを追加するか、その値をコピーすることができます。
 
-   値のコピーを選択した場合、**[!UICONTROL コンテンツフラグメント]** に対するそれ以降の更新は、キャンペーンやジャーニーには反映されません。
+   値のコピーを選択した場合、**[!UICONTROL コンテンツフラグメント]**&#x200B;に対する今後の更新は、キャンペーンやジャーニーに反映されません。
 
    ![](assets/aem_campaign_6.png)
 

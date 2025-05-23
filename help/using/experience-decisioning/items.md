@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 source-git-commit: ab70ce5b686a54dc1be7336411c5b0959fc3c584
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1752'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 97%
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_items"
->title="決定項目を管理"
+>title="決定項目の管理"
 >abstract="Journey Optimizer では、決定項目と呼ばれるマーケティングオファーを作成し、一元化されたカタログとコレクションを作成して整理できます。現在、作成されたすべての決定項目は、単一の「オファー」カタログ内に統合されます。この画面から、「**スキーマを編集**」ボタンを使用してカタログのスキーマにアクセスし、決定項目のカスタム属性を作成することもできます。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-items/catalogs.html?lang=ja" text="項目カタログの設定"
 
@@ -148,7 +148,7 @@ Journey Optimizer では、決定項目と呼ばれるマーケティングオ�
 <!--* Identifying how many times a given customer has been shown a decision item. 
 If a marketer wants to determine how many times a specific customer has been shown an offer, they can do that. Go to Profiles menu, Attributes tab. You'll see all counter values. The alphanumeric string is associated to the offer. To make the map, go to an item, in the URL check the last alphanumeric strings. D stands for day, w stands for week, m for month. "Ce" custom event-->
 
-## 決定項目を管理 {#manage}
+## 決定項目の管理 {#manage}
 
 決定項目リストから、決定項目を編集、そのステータスの変更（**ドラフト**、**承認済み**、**アーカイブ済み**）、複製または削除を行うことができます。
 
@@ -165,7 +165,7 @@ If a marketer wants to determine how many times a specific customer has been sho
   >
   >削除すると、決定項目とそのコンテンツにアクセスできなくなります。このアクションは取り消せません。
 
-  承認されたオファー項目は、コレクションまたは決定で使用されている場合、削除できません。 これらを削除するには、ステータスを「ドラフト」に変更します。 これを行うには、「。..」ボタンをクリックし、「**[!UICONTROL 承認を取り消し]**」を選択します。
+  承認済みオファー項目は、コレクションまたは決定で使用されている場合、削除できません。これらを削除するには、ステータスを「ドラフト」に変更します。これを行うには、省略記号ボタンをクリックし、「**[!UICONTROL 承認を取り消す]**」を選択します。
 
   ![](assets/item-undo.png)
 

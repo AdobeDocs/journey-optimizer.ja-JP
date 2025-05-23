@@ -10,7 +10,7 @@ level: Beginner
 keywords: Stock, 画像, 統合, 写真
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
 source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '569'
 ht-degree: 100%
 
@@ -87,7 +87,7 @@ ht-degree: 100%
 
    価格は、Adobe Stock のプランまたはサブスクリプションによって異なります。複数の Adobe Stock アカウントがある場合は、最後に使用した Stock ID にリダイレクトされます。 この場合、アセットのライセンスを取得する前に、正しいアカウントにサインインしていることを確認してください。
 
-   Adobe Stock のプランと価格について詳しくは、[Adobe Stock のドキュメント](https://stock.adobe.com/jp/plans){target="_blank"}を参照してください。
+   Adobe Stock のプランと価格について詳しくは、[Adobe Stock ドキュメント](https://stock.adobe.com/jp/plans){target="_blank"}を参照してください。
 
    >[!WARNING]
    > 未ライセンスの画像を含むメールが送信された場合、画像は透かしのある未ライセンスのフォームを保持します。

@@ -6,9 +6,9 @@ role: User
 level: Intermediate
 exl-id: 73548973-ff8d-4d6c-b383-dd3679fa159a
 source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '209'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -22,8 +22,8 @@ ht-degree: 89%
 
 | ガードレール | 上限 |
 | ------- | ------- |
-| Edgeのセグメント化を使用した、意思決定ポリシーを含むコードベースのエクスペリエンス API リクエスト | 1500 |
-| Edgeのセグメント化を使用しない決定ポリシーを使用したコードベースのエクスペリエンス API リクエスト | 5000 |
+| エッジセグメント化を利用する決定ポリシーを使用したコードベースのエクスペリエンス API リクエスト | 1500 |
+| エッジセグメント化を利用しない決定ポリシーを使用したコードベースのエクスペリエンス API リクエスト | 5000 |
 
 ## 項目コレクション
 

@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: LINE メッセージの作成
-description: Journey Optimizerで LINE メッセージを作成する方法を学ぶ
+description: Journey Optimizer で LINE メッセージを作成する方法について説明します
 feature: Line
 topic: Content Management
 role: User
 level: Beginner
 exl-id: a93d4dc9-f0e9-400c-b9a4-6cdac84390fd
 source-git-commit: 81cd7c2c8be26d760f369ecacc5859cf090234fc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '563'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 71%
 
 >[!BEGINTABS]
 
->[!TAB ジャーニーへの LINE メッセージの追加 ]
+>[!TAB ジャーニーへの LINE メッセージの追加]
 
-1. ジャーニーを開いて、パレットの「**アクション**」セクションから **LINE** アクティビティをドラッグ&amp;ドロップします。
+1. ジャーニーを開き、パレットの「**アクション**」セクションから **LINE** アクティビティをドラッグ＆ドロップします。
 
    ![](assets/jo-line-1.png)
 
@@ -37,7 +37,7 @@ ht-degree: 71%
 
 これで、以下に説明するように、「**[!UICONTROL コンテンツを編集]**」ボタンから SMS メッセージのコンテンツのデザインを開始できます。
 
->[!TAB  キャンペーンへの LINE メッセージの追加 ]
+>[!TAB キャンペーンへの LINE メッセージの追加]
 
 1. **[!UICONTROL キャンペーン]**&#x200B;メニューにアクセスし、「**[!UICONTROL キャンペーンを作成]**」をクリックします。
 
@@ -55,7 +55,7 @@ ht-degree: 71%
 
 1. 「**[!UICONTROL アクション]**」セクションで、「**[!UICONTROL LINE]**」を選択し、新しい設定を選択または作成します。
 
-   LINE 設定について詳しくは、[ このページ ](line-configuration.md) を参照してください。
+   LINE 設定について詳しくは、[このページ](line-configuration.md)を参照してください。
 
    ![](assets/campaign-line-1.png)
 
@@ -88,8 +88,8 @@ LINE コンテンツを設定するには、次の手順に従います。
 
 1. 「**[!UICONTROL 保存]**」をクリックして、プレビューでメッセージを確認します。
 
-1. 「**[!UICONTROL コンテンツをシミュレート]**」ボタンを使用して、LINE メッセージコンテンツやパーソナライズされたコンテンツをプレビューします。
+1. 「**[!UICONTROL コンテンツをシミュレート]**」ボタンを使用して、LINE メッセージコンテンツとパーソナライズされたコンテンツをプレビューします。
 
-テストを実行してコンテンツを検証したら、LINE メッセージをオーディエンスに送信できます。 これらの手順について詳しくは、[このページ](send-line.md)を参照してください。
+テストを実行してコンテンツを検証したら、LINE メッセージをオーディエンスに送信できます。これらの手順について詳しくは、[このページ](send-line.md)を参照してください。
 
-送信したら、キャンペーンまたはジャーニーレポート内で LINE の影響を測定できます。 レポートについて詳しくは、[この節](../reports/campaign-global-report-cja.md)を参照してください。
+送信したら、キャンペーンまたはジャーニーレポート内で LINE の影響を測定できます。レポートについて詳しくは、[この節](../reports/campaign-global-report-cja.md)を参照してください。

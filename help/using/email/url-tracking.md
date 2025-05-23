@@ -10,9 +10,9 @@ level: Experienced
 keywords: 設定, メール, 設定
 exl-id: 5a12280c-b937-4cd9-a1ef-563bab48e42e
 source-git-commit: 87d60ddafb8b3793ef774528a96f60501bb5a1b5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '380'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -74,4 +74,4 @@ URL トラッキングパラメーターを設定するには、目的の値を&
 
 >[!NOTE]
 >
->また、メールコンテンツ内に存在するリンクに、動的にパーソナライズされたトラッキングパラメーターを追加することもできます。 [詳細情報](surface-personalization.md#personalize-url-tracking)
+>また、メールコンテンツ内のリンクに動的にパーソナライズされたトラッキングパラメーターを追加することもできます。[詳細情報](surface-personalization.md#personalize-url-tracking)

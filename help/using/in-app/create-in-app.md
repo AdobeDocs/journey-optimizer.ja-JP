@@ -8,9 +8,9 @@ level: Beginner
 keywords: アプリ内, メッセージ, 作成, 開始
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
 source-git-commit: da7d895fcc724e6b1c0d6480f6a8693037a03752
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2056'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 97%
       | Places | POI にエントリ | 設定した目標地点（POI）に顧客がエントリすると、Places SDK によってトリガーされます。 |
       | Places | POI を終了 | 設定した目標地点（POI）を顧客が終了すると、Places SDK によってトリガーされます。 |
 
-      +++
++++
 
    1. トリガーで複数のイベントまたは条件を考慮する場合は、「**[!UICONTROL 条件を追加]**」をクリックします。
 
@@ -99,7 +99,7 @@ ht-degree: 97%
       | Places | 最後にエントリした POI | 顧客が最後にエントリした目標地点（POI）に応じて、Places SDK によってトリガーされます。 |
       | Places | 前回離脱した POI | 顧客が前回離脱した目標地点（POI）に応じて、Places SDK によってトリガーされます。 |
 
-      +++
++++
 
       ![](assets/in_app_create_8.png)
 
@@ -121,7 +121,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->プッシュ通知を送信した直後にアプリ内メッセージを表示する場合は、**待機** アクティビティを使用して、アプリ内メッセージのペイロード時間を反映させます。 通常は 5～15 分の待機をお勧めしますが、正確な時間はペイロードの複雑さやパーソナライゼーションのニーズに応じて異なる場合があります。
+>プッシュ通知を送信した直後にアプリ内メッセージを表示する場合は、**待機**&#x200B;アクティビティを使用すると、アプリ内メッセージのペイロードが配信される時間を確保できます。通常は 5 ～ 15 分の待機をお勧めしますが、正確な時間はペイロードの複雑さやパーソナライゼーションのニーズに応じて異なる場合があります。
 
 >[!TAB キャンペーンへのアプリ内メッセージの追加]
 
@@ -173,7 +173,7 @@ ht-degree: 97%
       | Places | POI にエントリ | 設定した目標地点（POI）に顧客がエントリすると、Places SDK によってトリガーされます。 |
       | Places | POI を終了 | 設定した目標地点（POI）を顧客が終了すると、Places SDK によってトリガーされます。 |
 
-      +++
++++
 
    1. トリガーで複数のイベントまたは条件を考慮する場合は、「**[!UICONTROL 条件を追加]**」をクリックします。
 
@@ -205,7 +205,7 @@ ht-degree: 97%
       | Places | 最後にエントリした POI | 顧客が最後にエントリした目標地点（POI）に応じて、Places SDK によってトリガーされます。 |
       | Places | 前回離脱した POI | 顧客が前回離脱した目標地点（POI）に応じて、Places SDK によってトリガーされます。 |
 
-      +++
++++
 
       ![](assets/in_app_create_8.png)
 
@@ -236,25 +236,25 @@ ht-degree: 97%
 
   +++こちらのビデオをご覧ください
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3451883?quality=12&learn=on&captions=jpn)
+  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
-  +++
++++
 
 * 以下のビデオでは、アプリ内メッセージの A/B テストを行うためのコンテンツ実験を設定および分析する方法を示しています。
 
   +++こちらのビデオをご覧ください
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3445289/?learn=on&autoplay=true&captions=jpn)
+  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
 
-  +++
++++
 
 * 以下のビデオでは、ジャーニーでアプリ内メッセージを作成する方法と、ジャーニーをテストして公開する方法を示しています。
 
   +++こちらのビデオをご覧ください
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3451830/?learn=on&autoplay=true&captions=jpn)
+  >[!VIDEO](https://video.tv.adobe.com/v/3423077/?learn=on&autoplay=true)
 
-  +++
++++
 
 **関連トピック：**
 

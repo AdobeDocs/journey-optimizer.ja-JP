@@ -9,9 +9,9 @@ level: Experienced
 keywords: クエリ, コレクション, 関数, ペイロード, ジャーニー
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
 source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '739'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ ht-degree: 94%
 
 >[!CAUTION]
 >
->ジャーニー式/条件でのエクスペリエンスイベントの使用はサポートされていますが、お勧めしません。 ユースケースでエクスペリエンスイベントの使用が必要な場合は、[ 計算属性 ](../../audience/computed-attributes.md) などの代替方法を検討するか、イベントを使用してセグメントを作成し、そのセグメントを [`inAudience` 式に組み込みま ](../../building-journeys/functions/functioninaudience.md)。
+>ジャーニー式／条件でのエクスペリエンスイベントの使用はサポートされていますが、お勧めしません。ユースケースでエクスペリエンスイベントを使用する必要がある場合は、[計算属性](../../audience/computed-attributes.md)などの代替方法や、イベントを使用してセグメントを作成し、そのセグメントを [`inAudience` 式](../../building-journeys/functions/functioninaudience.md)に組み込むことを検討してください。
 
 **例 1：**
 

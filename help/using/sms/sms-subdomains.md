@@ -9,9 +9,9 @@ level: Intermediate
 keywords: SMS, サブドメイン, 設定
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
 source-git-commit: 19f127c2abc81239abda8ebd38bdcacee796a1b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '928'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -36,15 +36,15 @@ ht-degree: 70%
 
 ## SMS サブドメインの基本を学ぶ {#gs-sms-mms-subdomains}
 
-SMS/MMS メッセージに追加された URL を短縮できるようにするには、[SMS 設定の作成 ](sms-configuration.md#message-preset-sms) 時に選択するサブドメインを設定する必要があります。
+SMS／MMS メッセージに追加された URL を短縮できるようにするには、[SMS 設定を作成](sms-configuration.md#message-preset-sms)する際に選択するサブドメインを設定する必要があります。
 
-既にAdobeにデリゲートされているサブドメインを使用するか、別のサブドメインを設定できます。 サブドメインのアドビへのデリゲートについて詳しくは、[この節](../configuration/delegate-subdomain.md)を参照してください。
+既にアドビにデリゲートされているサブドメインを使用するか、別のサブドメインを設定できます。サブドメインのアドビへのデリゲートについて詳しくは、[この節](../configuration/delegate-subdomain.md)を参照してください。
 
-SMS サブドメインの設定は **すべての環境間で共有** されます。 したがって、SMS サブドメインを変更すると、他の実稼動サンドボックスにも影響します。
+SMS サブドメインの設定は、**すべての環境間で共有**&#x200B;されます。したがって、SMS サブドメインを変更すると、他の実稼動サンドボックスにも影響します。
 
 SMS サブドメインにアクセスして編集するには、実稼動サンドボックスにおける **[!UICONTROL SMS サブドメインの管理]**&#x200B;権限が必要です。権限について詳しくは、[この節](../administration/high-low-permissions.md)を参照してください。
 
-## 既存のサブドメインを使用 {#sms-use-existing-subdomain}
+## 既存のサブドメインの使用 {#sms-use-existing-subdomain}
 
 既にアドビにデリゲートされているサブドメインを使用するには、次の手順に従います。
 
@@ -80,7 +80,7 @@ SMS サブドメインにアクセスして編集するには、実稼動サン�
 
 1. 送信されると、サブドメインは&#x200B;**[!UICONTROL 処理中]**&#x200B;ステータスでリストに表示されます。サブドメインのステータスについて詳しくは、[この節](../configuration/about-subdomain-delegation.md#access-delegated-subdomains)を参照してください。<!--Same statuses?-->
 
-   そのサブドメインを使用してメッセージを送信できるようになるには、必要なチェックがAdobeで実行されるまで待つ必要があります **最大 4 時間**。<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
+   そのサブドメインを使用してメッセージを送信できるようになるには、必要なチェックがアドビで実行されるまで待つ必要があります（**最大で 4 時間**&#x200B;かかることがあります）。<!--Learn more in [this section](delegate-subdomain.md#subdomain-validation).-->
 
 1. チェックが正常に完了すると、サブドメインのステータスが「**[!UICONTROL 成功]**」になります。SMS チャネル設定を作成する準備が整いました。
 
@@ -131,34 +131,34 @@ SMS サブドメインにアクセスして編集するには、実稼動サン�
 
 ## サブドメインのデリゲート解除 {#undelegate-subdomain}
 
-SMS サブドメインのデリゲートを解除する場合は、Adobe担当者にお問い合わせください。
+SMS サブドメインをデリゲート解除する場合は、アドビ担当者にお問い合わせください。
 
-ただし、Adobeにアクセスする前に、ユーザーインターフェイスでいくつかの手順を実行する必要があります。
+ただし、アドビにお問い合わせいただく前に、ユーザーインターフェイスでいくつかの手順を実行する必要があります。
 
 >[!NOTE]
 >
->**[!UICONTROL 成功]** ステータスのサブドメインのみをデリゲート解除できます。 **[!UICONTROL ドラフト]** および **[!UICONTROL 失敗]** ステータスのサブドメインは、ユーザーインターフェイスから削除できます。
+>デリゲート解除できるのは、**[!UICONTROL 成功]**&#x200B;ステータスのサブドメインのみです。**[!UICONTROL ドラフト]**&#x200B;ステータスと&#x200B;**[!UICONTROL 失敗]**&#x200B;ステータスのサブドメインは、ユーザーインターフェイスから簡単に削除できます。
 
 まず、[!DNL Journey Optimizer] で次の手順を実行します。
 
-1. サブドメインに関連付けられているすべてのチャネル設定をディアクティベートします。 [方法についてはこちらを参照](../configuration/channel-surfaces.md#deactivate-a-surface)
+1. サブドメインに関連付けられているすべてのチャネル設定を非アクティブ化します。[方法についてはこちらを参照](../configuration/channel-surfaces.md#deactivate-a-surface)
 
 <!--
 1. If the SMS subdomain is using an email subdomain that was [already delegated](#lp-use-existing-subdomain) to Adobe, undelegate the email subdomain. [Learn how](../configuration/delegate-subdomain.md#undelegate-subdomain)-->
 
-1. サブドメインに関連付けられているアクティブなキャンペーンを停止します。 [方法についてはこちらを参照](../campaigns/modify-stop-campaign.md#stop)
+1. サブドメインに関連付けられているアクティブなキャンペーンを停止します。[方法についてはこちらを参照](../campaigns/modify-stop-campaign.md#stop)
 
-1. サブドメインに関連付けられたアクティブなジャーニーを停止します。 [方法についてはこちらを参照](../building-journeys/end-journey.md#stop-journey)
+1. サブドメインに関連付けられているアクティブなジャーニーを停止します。[方法についてはこちらを参照](../building-journeys/end-journey.md#stop-journey)
 
-1. SMS サブドメインが [ 新しいデリゲートサブドメイン ](#sms-configure-new-subdomain) だった場合は、そのサブドメインに関連付けられている DNS エントリを削除します。
+1. SMS サブドメインが[新しいデリゲートされたサブドメイン](#sms-configure-new-subdomain)であった場合は、そのサブドメインに関連付けられている DNS エントリを削除します。
 
-完了したら、デリゲート解除するサブドメインをAdobe担当者に連絡します。
+完了したら、デリゲート解除するサブドメインについて、アドビ担当者にお問い合わせください。
 
-リクエストがAdobeによって処理されると、デリゲートされていないドメインはサブドメインインベントリページに表示されなくなります。
+アドビがリクエストを処理すると、デリゲート解除したドメインはサブドメイン在庫ページに表示されなくなります。
 
 >[!CAUTION]
 >
->サブドメインがデリゲート解除された後：
+>サブドメインをデリゲート解除した後：
 >
 >   * そのサブドメインを使用していたチャネル設定を再アクティブ化することはできません。
->   * ユーザーインターフェイスを使用して正確なサブドメインを再度デリゲートすることはできません。 その場合は、Adobeの担当者にお問い合わせください。
+>   * ユーザーインターフェイスを通じて正確なサブドメインを再度デリゲートすることはできません。ご希望の場合は、アドビ担当者にお問い合わせください。

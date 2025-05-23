@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: WhatsApp メッセージのチェックとテスト
-description: Journey Optimizerで WhatsApp メッセージを確認して送信する方法を学ぶ
+title: WhatsApp メッセージの確認およびテスト
+description: Journey Optimizer で WhatsApp メッセージを確認および送信する方法について説明します
 feature: Whatsapp
 topic: Content Management
 role: User
@@ -10,14 +10,15 @@ level: Beginner
 hide: true
 hidefromtoc: true
 badge: label="ベータ版" type="Informative"
-source-git-commit: 22664437fb1f548f4c1524ea5fa7ac9e7fdc7f59
-workflow-type: tm+mt
+exl-id: 31acb095-de90-495f-8e8c-43a78dedfa06
+source-git-commit: bf82aed7417b7c66a21b9e459f768659273666d3
+workflow-type: ht
 source-wordcount: '276'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
-# WhatsApp メッセージをチェックして送信する {#send-whatsapp}
+# WhatsApp メッセージの確認および送信 {#send-whatsapp}
 
 >[!BEGINSHADEBOX]
 
@@ -26,7 +27,7 @@ ht-degree: 75%
 * [WhatsApp メッセージの基本を学ぶ](get-started-whatsapp.md)
 * [WhatsApp 設定の基本を学ぶ](whatsapp-configuration.md)
 * [WhatsApp メッセージの作成](create-whatsapp.md)
-* **[WhatsApp メッセージの確認と送信](send-whatsapp.md)**
+* **[WhatsApp メッセージの確認および送信](send-whatsapp.md)**
 
 >[!ENDSHADEBOX]
 
@@ -52,4 +53,4 @@ ht-degree: 75%
 >
 > キャンペーンが承認ポリシーの対象となっている場合、テキストメッセージを送信できるようにするには、承認をリクエストする必要があります。[詳細情報](../test-approve/gs-approval.md)
 
-WhatsApp メッセージの準備が整ったら、[ ジャーニー ](../building-journeys/publishing-the-journey.md) または [ キャンペーン ](../campaigns/review-activate-campaign.md) の設定を完了して送信します。
+WhatsApp メッセージの準備が整ったら、[ジャーニー](../building-journeys/publishing-the-journey.md)または[キャンペーン](../campaigns/review-activate-campaign.md)の設定を完了して送信します。

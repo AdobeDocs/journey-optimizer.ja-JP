@@ -1,34 +1,34 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: AI アシスタントによる SMS 生成
-description: Journey Optimizerで AI アシスタントによる SMS コンテンツの生成を開始
+title: AI アシスタントを使用した SMS の生成
+description: Journey Optimizer で AI アシスタントを使用して SMS コンテンツの生成を開始します
 feature: Content Assistant
 topic: Content Management
 role: User
 level: Beginner
 exl-id: 5fd1cc3a-c023-4e8e-bfac-9a86bd33bbb3
 source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '989'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
-# Journey Optimizerの AI アシスタントによる SMS 生成 {#generative-sms}
+# Journey Optimizer の AI アシスタントを使用した SMS の生成 {#generative-sms}
 
 >[!IMPORTANT]
 >
 >この機能の使用を開始する前に、関連する[ガードレールと制限](gs-generative.md#generative-guardrails)のトピックに目を通してください。
 ></br>
 >
->Journey Optimizerで AI アシスタントを使用するには、[ ユーザー使用許諾契約 ](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) に同意する必要があります。 詳しくは、アドビ担当者にお問い合わせください。
+>Journey Optimizer で AI アシスタントを使用する前に、[ユーザー契約](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)に同意する必要があります。詳しくは、アドビ担当者にお問い合わせください。
 
-オーディエンスの好みに合わせて SMS メッセージを作成しカスタマイズしたら、Journey Optimizerの AI アシスタントとのコミュニケーションを強化します。
+オーディエンスの好みに合わせて SMS メッセージを作成して調整したら、Journey Optimizer の AI アシスタントを使用してコミュニケーションを強化します。
 
 このリソースは、コンテンツを微調整するためのインサイトに満ちたレコメンデーションを提供し、共感を呼ぶメッセージの作成やエンゲージメントの最大化に役立ちます。
 
-Journey Optimizerで AI アシスタントを使用する方法については、以下のタブを参照してください。
+Journey Optimizer で AI アシスタントを使用する方法については、以下のタブを参照してください。
 
 >[!BEGINTABS]
 
@@ -65,7 +65,7 @@ Journey Optimizerで AI アシスタントを使用する方法については�
 
    ![](assets/sms-genai-3.png){zoomable="yes"}
 
-1. **[!UICONTROL ブランドアセット]** メニューで「**[!UICONTROL ブランドアセットをアップロード]**」をクリックし、追加のコンテキスト AI アシスタントを提供できるコンテンツを含むブランドアセットを追加するか、以前にアップロードしたものを選択します。
+1. **[!UICONTROL ブランドアセット]**&#x200B;メニューから「**[!UICONTROL ブランドアセットをアップロード]**」をクリックすると、AI アシスタントに追加のコンテキストを提供できるコンテンツを含むブランドアセットを追加するか、以前にアップロードしたアセットを選択できます。
 
    以前にアップロードしたファイルは、**[!UICONTROL アップロードされたブランドアセット]**&#x200B;ドロップダウンで使用できます。生成に含めるアセットを切り替えるだけです。
 
@@ -79,7 +79,7 @@ Journey Optimizerで AI アシスタントを使用する方法については�
 
    * **[!UICONTROL 言い換え]**：AI アシスタントは、メッセージを様々な方法で言い換えることができ、ユーザーが作成した文章を多様なオーディエンスにとって新鮮で魅力的なメッセージにします。
 
-   * **[!UICONTROL よりシンプルな言語の使用]**:AI アシスタントを活用して言語を簡素化し、より広いオーディエンスに対して明確さとアクセシビリティを確保します。
+   * **[!UICONTROL よりシンプルな言葉を使用]**：AI アシスタントを活用して言葉を簡素化し、より幅広いオーディエンスに対して明確さとアクセシビリティを確保します。
 
    または、テキストの&#x200B;**[!UICONTROL トーン]**&#x200B;や&#x200B;**[!UICONTROL コミュニケーション戦略]**&#x200B;を変更することもできます。
 
@@ -109,7 +109,7 @@ Journey Optimizerで AI アシスタントを使用する方法については�
 
    ![](assets/sms-text-genai-1.png){zoomable="yes"}
 
-1. AI アシスタントの「**[!UICONTROL 参照コンテンツを使用]**」オプションを有効にして、選択したコンテンツに基づいて新しいコンテンツをパーソナライズします。
+1. AI アシスタントに対して「**[!UICONTROL 参照コンテンツを使用]**」オプションを有効にして、選択したコンテンツに基づいて、新しいコンテンツをパーソナライズします。
 
 1. **[!UICONTROL ブランド]**&#x200B;を選択して、AI で生成されたコンテンツがブランドの仕様と一致していることを確認します。ブランドについて詳しくは、[こちら](brands.md)を参照してください。
 
@@ -130,7 +130,7 @@ Journey Optimizerで AI アシスタントを使用する方法については�
 
    ![](assets/sms-text-genai-3.png){zoomable="yes"}
 
-1. **[!UICONTROL ブランドアセット]** メニューで「**[!UICONTROL ブランドアセットをアップロード]**」をクリックし、追加のコンテキスト AI アシスタントを提供できるコンテンツを含むブランドアセットを追加するか、以前にアップロードしたものを選択します。
+1. **[!UICONTROL ブランドアセット]**&#x200B;メニューから「**[!UICONTROL ブランドアセットをアップロード]**」をクリックすると、AI アシスタントに追加のコンテキストを提供できるコンテンツを含むブランドアセットを追加するか、以前にアップロードしたアセットを選択できます。
 
    以前にアップロードしたファイルは、**[!UICONTROL アップロードされたブランドアセット]**&#x200B;ドロップダウンで使用できます。生成に含めるアセットを切り替えるだけです。
 
@@ -144,7 +144,7 @@ Journey Optimizerで AI アシスタントを使用する方法については�
 
    * **[!UICONTROL 言い換え]**：AI アシスタントは、メッセージを様々な方法で言い換えることができ、ユーザーが作成した文章を多様なオーディエンスにとって新鮮で魅力的なメッセージにします。
 
-   * **[!UICONTROL よりシンプルな言語の使用]**:AI アシスタントを活用して言語を簡素化し、より広いオーディエンスに対して明確さとアクセシビリティを確保します。
+   * **[!UICONTROL よりシンプルな言語を使用]**：AI アシスタントを活用して言語を簡素化し、より幅広いオーディエンスに対して明確さとアクセシビリティを確保します。
 
    ![](assets/sms-text-genai-4.png){zoomable="yes"}
 

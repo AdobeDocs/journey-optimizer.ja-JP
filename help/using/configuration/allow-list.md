@@ -10,9 +10,9 @@ level: Experienced
 keywords: 許可リスト, リスト, 安全, 設定
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 source-git-commit: 2af0e9237bbcc79456a31042ed8e42233bbccac3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1179'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 89%
 
    >[!NOTE]
    >
-   >許可リストをアクティブ化した後、ジャーニーとキャンペーンで有効になるまでに 10 分の遅延があります。 同様に、許可リストリストと抑制リストの両方を更新すると、反映されるまで最大 10 分かかる場合があります。
+   >許可リストをアクティブ化した後、ジャーニーとキャンペーンで有効になるまでに 10 分の遅延が発生します。同様に、許可リストと抑制リストの両方の更新が反映されるまでに最大 10 分かかる場合があります。
 
 許可リストのロジックは、この機能がアクティブな場合に適用されます。詳しくは、[この節](#logic)を参照してください。
 
@@ -90,7 +90,7 @@ ht-degree: 89%
 
    >[!NOTE]
    >
-   >許可リストを非アクティブ化した後、ジャーニーとキャンペーンで有効になるまでに 10 分の遅延があります。 同様に、許可リストリストと抑制リストの両方を更新すると、反映されるまで最大 10 分かかる場合があります。
+   >許可リストを非アクティブ化した後、ジャーニーとキャンペーンで有効になるまでに 10 分の遅延が発生します。同様に、許可リストと抑制リストの両方の更新が反映されるまでに最大 10 分かかる場合があります。
 
 許可リストロジックは、機能が非アクティブ化された場合は適用されません。詳しくは、[この節](#logic)を参照してください。
 
@@ -140,7 +140,7 @@ ht-degree: 89%
 
    >[!NOTE]
    >
-   >ASCII 文字はすべて 32 ～ 126 文字から成り、「**[!UICONTROL 理由]**」フィールドに入力できます。完全なリストは、例えば [ このページ ](https://en.wikipedia.org/wiki/ASCII#Printable_characters){target="_blank"} で確認することができます。
+   >ASCII 文字はすべて 32 ～ 126 文字から成り、「**[!UICONTROL 理由]**」フィールドに入力できます。完全なリストは、例えば[このページ](https://en.wikipedia.org/wiki/ASCII#Printable_characters){target="_blank"}で確認することができます。
 
 1. 「**[!UICONTROL 送信]**」をクリックします。
 
@@ -207,7 +207,7 @@ API 呼び出しについて詳しくは、[Adobe Experience Platform API](https
 
 ## 除外レポート {#reporting}
 
-許可リストがアクティブな場合は、許可リスト上になかったので、送信から除外されたメールアドレスまたはドメインを取得できます。それには、[Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ja){target="_blank"} を使用して、以下の API 呼び出しを行います。
+許可リストがアクティブな場合は、許可リスト上になかったので、送信から除外されたメールアドレスまたはドメインを取得できます。それには、[Adobe Experience Platform クエリサービス](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ja){target="_blank"}を使用して、以下の API 呼び出しを行います。
 
 受信者が許可リストに登録されていなかったので送信されなかった&#x200B;**メールの数**&#x200B;を取得するには、次のクエリを使用します。
 

@@ -11,9 +11,9 @@ mini-toc-levels: 1
 keywords: 式, エディター, 説明, 開始
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
 source-git-commit: 192542cf938c583093638c71a3d8728bbaf238b2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1510'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -81,7 +81,7 @@ Journey Optimizer では、メッセージ内の **URL** をパーソナライ�
 
 +++メール設定
 
-メールチャネル設定を作成する際に、サブドメイン、ヘッダー、URL トラッキングパラメーターのパーソナライズされた値を定義できます。 [詳細情報](../email/surface-personalization.md)
+メールチャネル設定を作成する際に、サブドメイン、ヘッダーおよび URL トラッキングパラメーターに、パーソナライズされた値を定義できます。[詳細情報](../email/surface-personalization.md)
 
 +++
 
@@ -89,8 +89,8 @@ Journey Optimizer では、メッセージ内の **URL** をパーソナライ�
 
 ナビゲーションパネルでは、パーソナライゼーションのソースを選択できます。利用可能なソースは次のとおりです。
 
-* **[!UICONTROL プロファイル属性]** :[Adobe Experience Platform データモデル（XDM）ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target="_blank"} に記載のプロファイルスキーマに関連付けられているすべての参照をリストします。
-* **[!UICONTROL オーディエンス]**：Adobe Experience Platform セグメント化サービスで作成されたすべてのオーディエンスをリストします。セグメント化の詳細については、[ここ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja){target="_blank"}を参照してください。
+* **[!UICONTROL プロファイル属性]**：[Adobe Experience Platform データモデル（XDM）ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target="_blank"}に記載のプロファイルスキーマに関連付けられているすべての参照をリストします。
+* **[!UICONTROL オーディエンス]**：Adobe Experience Platform セグメント化サービスで作成されたすべてのオーディエンスをリストします。セグメント化の詳細については、[こちら](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja){target="_blank"}を参照してください。
 * **[!UICONTROL オファー決定]**：特定のプレースメントに関連付けられているすべてのオファーを一覧表示します。配置を選択し、コンテンツにオファーを挿入します。オファーの管理方法に関する詳細なドキュメントについては、[この節](../offers/get-started/starting-offer-decisioning.md)を参照してください。
 * **[!UICONTROL コンテキスト属性]**：チャネルアクションアクティビティ（メール、プッシュ、SMS）をジャーニーまたはキャンペーンで使用する場合、イベントやプロパティに関連するコンテキスト属性をパーソナライズに使用できます。コンテキスト属性を活用したパーソナライゼーションの例については、[この節](personalization-use-case.md)を参照してください。
 
@@ -123,7 +123,7 @@ Journey Optimizer では、メッセージ内の **URL** をパーソナライ�
 
 ![](assets/perso_ee2.png)
 
-## 式編集のオプション {#options}
+## 式の編集オプション {#options}
 
 中央のワークスペースには、パーソナライゼーション式を記述するのに役立つ様々なツールが用意されています。
 
@@ -146,13 +146,13 @@ Journey Optimizer では、メッセージ内の **URL** をパーソナライ�
    * **オン** - エディターの幅で行を折り返します。
    * **単語の折り返し列** - 1 行の文字数が 80 文字に達すると行を折り返します。
    * **境界付き** - エディターの幅または 80 文字のいずれか小さい方で行を折り返します。
-1. **[!UICONTROL ピル]**：属性をコンパクトな「ピル」として表示し、長い属性パスを非表示にして読みやすさを向上させます。 属性をクリックすると、その完全なパスが表示されます。
+1. **[!UICONTROL ピル]**：長い属性パスを非表示にして読みやすさを向上させるために、属性をコンパクトな「ピル」として表示します。属性をクリックすると、その完全なパスが表示されます。
 
    >[!NOTE]
    >
-   >錠剤の表示は、今後 30 日間で徐々にすべての環境に展開されます。
+   >ピルの表示は、今後 30 日間にわたってすべての環境に段階的にロールアウトされます。
    >
-   >このオプションは、プロファイル属性、コンテキスト属性および Dynamic Media でのみ使用できます。
+   >このオプションは、プロファイル属性、コンテキスト属性およびダイナミックメディアでのみ使用できます。
 
 ナビゲーションペインでは、パーソナライゼーション式を作成するのに役立つ追加機能を利用できます。
 

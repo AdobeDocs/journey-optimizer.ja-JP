@@ -9,9 +9,9 @@ level: Experienced
 keywords: 式エディター, データ, ジャーニー
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
 source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '734'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 94%
 
   >[!CAUTION]
   >
-  >ジャーニー式/条件でのエクスペリエンスイベントの使用はサポートされていますが、お勧めしません。 ユースケースでエクスペリエンスイベントの使用が必要な場合は、[ 計算属性 ](../../audience/computed-attributes.md) などの代替方法を検討するか、イベントを使用してセグメントを作成し、そのセグメントを [`inAudience` 式に組み込みま ](../../building-journeys/functions/functioninaudience.md)。
+  >ジャーニー式／条件でのエクスペリエンスイベントの使用はサポートされていますが、お勧めしません。ユースケースでエクスペリエンスイベントを使用する必要がある場合は、代わりに[計算属性](../../audience/computed-attributes.md)を使用するか、イベントを使用してセグメントを作成し、そのセグメントを [`inAudience` 式](../../building-journeys/functions/functioninaudience.md)に組み込むなどの方法を検討してください。
 
 * **[!UICONTROL オーディエンス]**：**[!UICONTROL オーディエンスの選定]**&#x200B;イベントをドロップした場合は、式で使用するオーディエンスを選択します。[詳細情報](../condition-activity.md#using-a-segment)
 * **[!UICONTROL データソース]**：データソースのフィールドグループにあるフィールドリストから選択します。[詳細情報](../../datasource/about-data-sources.md)

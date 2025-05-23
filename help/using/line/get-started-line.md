@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: LINE の基本を学ぶ
-description: Journey Optimizer で LINE メッセージを作成して送信する方法を学ぶ
+description: Journey Optimizer で LINE メッセージを作成および送信する方法について説明します
 feature: Line
 topic: Content Management
 role: User
 level: Beginner
 exl-id: dc1bddaf-968f-405d-b8cc-b9443a838fa6
 source-git-commit: 8f0b53a4a07feffda4d28bb9e321596503293b03
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '182'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -21,15 +21,15 @@ ht-degree: 87%
 
 >[!AVAILABILITY]
 >
->リクエストに応じて、Adobe Journey Optimizerのお客様は LINE チャネルを有効にすることができます。 組織用に機能を有効化する場合は、Adobe担当者にお問い合わせください。
+>LINE チャネルは、リクエストに応じて、Adobe Journey Optimizer のお客様に対して有効になります。組織でこの機能を有効にするには、アドビ担当者にお問い合わせください。
 
 LINE メッセージは、ジャーニーまたはキャンペーンで作成して送信できます。
 
-* **ジャーニー**&#x200B;の場合：ジャーニーを作成し、LINE アクティビティを追加し、基本設定を定義してから、右側の&#x200B;**[!UICONTROL アクション：LINE]** パネルを参照して LINE メッセージのコンテンツを作成します。ジャーニーを作成する方法については、[このページ](../building-journeys/journey-gs.md)を参照してください。
+* **ジャーニー**&#x200B;の場合：ジャーニーを作成し、LINE アクティビティを追加し、基本設定を定義してから、右側の&#x200B;**[!UICONTROL アクション：LINE]**&#x200B;パネルを参照して LINE メッセージのコンテンツを作成します。ジャーニーを作成する方法については、[このページ](../building-journeys/journey-gs.md)を参照してください。
 
-* **キャンペーン**&#x200B;の場合：キャンペーンを作成し、アクションとして「LINE」を選択し、基本設定を定義してから、メッセージのコンテンツを編集して送信する LINE メッセージを定義します。キャンペーンを作成する方法については、[このページ](../campaigns/create-campaign.md#configure)を参照してください。
+* **キャンペーン**&#x200B;の場合：キャンペーンを作成し、アクションとして LINE を選択し、基本設定を定義してから、メッセージコンテンツを編集して送信する LINE メッセージを定義します。キャンペーンを作成する方法については、[このページ](../campaigns/create-campaign.md#configure)を参照してください。
 
-LINE メッセージを作成する前に、Journey Optimizer で LINE チャネルを設定します。[詳細情報](line-configuration.md)。
+LINE メッセージを作成する前に、Journey Optimizer を使用して LINE チャネルを設定します。[詳細情報](line-configuration.md)。
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
