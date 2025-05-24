@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6628f1a9700f126e23c8e6c21b24973f239805c0
+source-git-commit: b086b442be958108d66f7fff37a676f3a1c15ab3
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '1151'
 ht-degree: 36%
 
 ---
@@ -225,23 +225,23 @@ ht-degree: 36%
 </tbody>
 </table>
 
-<!--
 <table>
 <thead>
 <tr>
-<th><strong>Supplemental ID for event-triggered journeys</strong><br/></th>
+<th><strong>イベントトリガージャーニーの追加 ID</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>You can now trigger journeys using a profile ID along with another identifier, such as an order ID, subscription ID, or prescription ID, allowing the same profile to be in the same journey multiple times at once. This enables scenarios like managing multiple orders or subscriptions in parallel, with each instance following its own path through the journey.</p>
-<p>This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.</p>
+<p>プロファイル ID と別のトリガー（注文 ID、購読 ID、処方箋 ID など）を使用してジャーニーを識別できるようになり、同じプロファイルを同じジャーニーに同時に複数回含めることができます。 これにより、複数の注文や購読を並行して管理し、各インスタンスがジャーニーを通じて独自のパスに従うなどのシナリオが可能になります。</p>
+<p>詳しくは、<a href="../building-journeys/supplemental-identifier.md">詳細なドキュメント</a>を参照してください。</p>
+<p>この機能は、一連の組織でのみ使用できます（限定提供）。アクセスするには、アドビ担当者にお問い合わせください。</p>
 </td>
 </tr>
 </tbody>
 </table>
--->
+
 
 ### 機能強化 {#25-05-improv}
 
