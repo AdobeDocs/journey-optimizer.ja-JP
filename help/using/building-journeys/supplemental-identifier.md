@@ -2,9 +2,9 @@
 title: イベントトリガージャーニーの追加の識別子
 description: イベントトリガージャーニーで補足的な識別子を使用する方法を説明します。
 badge: label="限定提供" type="Informative"
-source-git-commit: bfff5bfe0a87d65c453018c4f1af01e9b1456052
+source-git-commit: c4b9ee59fe22bad97975cce01a84002541d8c9df
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '803'
 ht-degree: 3%
 
 ---
@@ -104,7 +104,7 @@ ht-degree: 3%
 
 +++ 例を参照
 
-   追加の ID が「bookingNum」で、同じレベルの属性が「bookingCountry」であるオブジェクト配列で、ジャーニーは bookingNum に基づいて配列オブジェクトを反復処理し、オブジェクトごとにジャーニーインスタンスを作成します。
+   追加の ID を `bookingNum`、同じレベルで属性を `bookingCountry` と呼ぶ、オブジェクト配列で、ジャーニーは bookingNum に基づいて配列オブジェクトを反復処理し、各オブジェクトのジャーニーインスタンスを作成します。
 
    * 条件アクティビティの次の式は、オブジェクト配列を反復処理し、`bookingCountry` の値が「FR」に等しいかどうかを確認します。
 
@@ -112,7 +112,7 @@ ht-degree: 3%
      @event{<event_name>.<object_path>.<object_array_name>.all(currentEventField.<attribute_path>.bookingNum==${supplementalId}).at(0).<attribute_path>.bookingCountry}=="FR"
      ```
 
-   * メールパーソナライゼーションエディターの次の式は、オブジェクト配列を反復処理し、現在のジャーニーインスタンスに適用される「bookingCountry」を取り出して、コンテンツに表示します。
+   * メールパーソナライゼーションエディターの次の式は、オブジェクト配列を反復処理し、現在のジャーニーインスタンスに適用される `bookingCountry` を取り出して、コンテンツに表示します。
 
      ```
      {{#each context.journey.events.<event_ID>.<object_path>.<object_array_name> as |l|}} 
