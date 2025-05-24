@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b086b442be958108d66f7fff37a676f3a1c15ab3
+source-git-commit: 261f93625def59b787894f38877ee1cf5c543748
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: '1154'
 ht-degree: 36%
 
 ---
@@ -237,6 +237,7 @@ ht-degree: 36%
 <p>プロファイル ID と別のトリガー（注文 ID、購読 ID、処方箋 ID など）を使用してジャーニーを識別できるようになり、同じプロファイルを同じジャーニーに同時に複数回含めることができます。 これにより、複数の注文や購読を並行して管理し、各インスタンスがジャーニーを通じて独自のパスに従うなどのシナリオが可能になります。</p>
 <p>詳しくは、<a href="../building-journeys/supplemental-identifier.md">詳細なドキュメント</a>を参照してください。</p>
 <p>この機能は、一連の組織でのみ使用できます（限定提供）。アクセスするには、アドビ担当者にお問い合わせください。</p>
+<p>公開日：2025年5月23日（PT）</p>
 </td>
 </tr>
 </tbody>
