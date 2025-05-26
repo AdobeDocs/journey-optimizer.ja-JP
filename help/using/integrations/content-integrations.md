@@ -8,10 +8,10 @@ topic: Content Management, Integrations
 role: User
 level: Beginner
 keywords: アセット, 統合
-source-git-commit: 11c6dd43d6b20864f9823130c5aed790a3091938
+source-git-commit: 3ac201f33bb90a9f49b5e01d2668fc740929c9f3
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 60%
+source-wordcount: '693'
+ht-degree: 57%
 
 ---
 
@@ -36,11 +36,12 @@ Assets Essentials は、Adobe Creative CloudのAdobe ExpressとAdobe Photoshop E
 
 詳しくは、[Journey Optimizer + Adobe Experience Manager Assets](../integrations/assets.md) を参照してください。
 
-### テンプレート
+<!--
+### Templates
 
-Adobe Journey Optimizer を使用すると、Adobe Experience Manager サイトを介してカスタマイズしたメッセージを作成できます。まず、Adobe Experience Manager のコンテンツソースを使用してテンプレートをデザインし、それらを Adobe Journey Optimizer に送信します。 共有した後は、これらのテンプレートは Adobe Journey Optimizer の E メールデザイナーでアクセスできるようになり、目的のオーディエンスにメッセージを簡単に作成して送信できます。
+With Adobe Journey Optimizer, you can create custom-tailored messages through Adobe Experience Manager sites. Start by designing your templates using Adobe Experience Manager's content sources, then send them to Adobe Journey Optimizer. Once shared, these templates can be accessed in Adobe Journey Optimizer's email designer, simplifying the process of crafting and sending messages to your desired audience.
 
-詳しくは、[Journey Optimizer + Adobe Experience Manager テンプレート ](../integrations/aem-templates.md) を参照してください。
+Learn more about [Journey Optimizer + Adobe Experience Manager templates](../integrations/aem-templates.md).-->
 
 ### フラグメント
 

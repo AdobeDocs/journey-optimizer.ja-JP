@@ -7,10 +7,10 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 11c6dd43d6b20864f9823130c5aed790a3091938
+source-git-commit: 3ac201f33bb90a9f49b5e01d2668fc740929c9f3
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 86%
+source-wordcount: '960'
+ht-degree: 85%
 
 ---
 
@@ -52,11 +52,14 @@ Adobe Experience Manager ユーザーは、ワークフローをAdobe Journey Op
 
 [![詳細情報](../assets/do-not-localize/learn-more-button.svg)](../integrations/assets.md)
 
->[!TAB AEM テンプレート ]
+<!--
+>[!TAB AEM Templates]
 
-Adobe Journey Optimizer を使用すると、Adobe Experience Manager サイトを介してカスタマイズしたメッセージを作成できます。まず、Adobe Experience Manager のコンテンツソースを使用してテンプレートをデザインし、それらを Adobe Journey Optimizer に送信します。 共有した後は、これらのテンプレートは Adobe Journey Optimizer の E メールデザイナーでアクセスできるようになり、目的のオーディエンスにメッセージを簡単に作成して送信できます。
+With Adobe Journey Optimizer, you can create custom-tailored messages through Adobe Experience Manager sites. Start by designing your templates using Adobe Experience Manager's content sources, then send them to Adobe Journey Optimizer. Once shared, these templates can be accessed in Adobe Journey Optimizer's email designer, simplifying the process of crafting and sending messages to your desired audience.
 
-[![詳細情報](../assets/do-not-localize/learn-more-button.svg)](../integrations/aem-templates.md)
+[![learn more](../assets/do-not-localize/learn-more-button.svg)](../integrations/aem-templates.md)
+
+-->
 
 >[!TAB AEM フラグメント ]
 
@@ -118,7 +121,7 @@ Adobe GenStudio for Performance Marketingは、生成 AI ファーストのア�
 
 Adobe Workfront の Adobe Journey Optimizer モジュールを使用すると、レコードの作成、読み取り、更新、削除を行ったり、Adobe Journey Optimizer API に対するカスタム API 呼び出しを実行したりできます。
 
-この統合の主な手順の概要については、[このブログ投稿](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685?profile.language=ja){target="_blank"}を参照してください。
+この統合の主な手順の概要については、[このブログ投稿](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}を参照してください。
 
 Journey Optimizer と Adobe Workfront について詳しくは、[Adobe Workfront ドキュメント](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=ja){target="_blank"}を参照してください。
 
