@@ -2,15 +2,20 @@
 title: イベントトリガージャーニーの追加の識別子
 description: イベントトリガージャーニーで補足的な識別子を使用する方法を説明します。
 badge: label="限定提供" type="Informative"
-source-git-commit: c4b9ee59fe22bad97975cce01a84002541d8c9df
+exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
+source-git-commit: dad3dc0022d04c9f9c82477d75a6fb8de7e85a6a
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 3%
+source-wordcount: '844'
+ht-degree: 7%
 
 ---
 
-
 # イベントトリガージャーニーの追加の識別子
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_parameters_supplemental_identifier"
+>title="補足識別子の使用"
+>abstract="補足識別子は、ジャーニーの実行に関する追加のコンテキストを指定するセカンダリ識別子です。定義するには、補足識別子として使用するフィールドを選択し、関連付ける名前空間を選択します。"
 
 >[!AVAILABILITY]
 >

@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: イベント, 単一, 作成, ジャーニー
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: 6d219d9caea28947877e38893dea20a4f77456f6
+source-git-commit: dad3dc0022d04c9f9c82477d75a6fb8de7e85a6a
 workflow-type: tm+mt
-source-wordcount: '1733'
+source-wordcount: '1692'
 ht-degree: 97%
 
 ---
@@ -27,11 +27,6 @@ ht-degree: 97%
 >id="ajo_journey_event_parameters"
 >title="パラメーター"
 >abstract="スキーマやペイロードのフィールドなどのイベントのパラメーターを定義します。ルールベースのイベントの場合は、「**[!UICONTROL イベント ID 条件]**」フィールドを使用して、ジャーニーをトリガーするイベントを識別するためにシステムが使用する条件を定義します。イベントに使用する ID タイプとプロファイル識別子を追加します。"
-
->[!CONTEXTUALHELP]
->id="ajo_journey_parameters_supplemental_identifier"
->title="補足識別子の使用"
->abstract="補足識別子は、ジャーニーの実行に関する追加のコンテキストを指定するセカンダリ識別子です。定義するには、補足識別子として使用するフィールドを選択し、関連付ける名前空間を選択します。"
 
 単一イベントは、特定のプロファイルにリンクされます。ルールベースによるものと、システムで生成されるものがあります。単一イベントの詳細については、[この節](../event/about-events.md)を参照してください。
 
