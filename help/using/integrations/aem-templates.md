@@ -11,23 +11,26 @@ role: User
 level: Beginner
 badge: label="ベータ版" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '734'
-ht-degree: 100%
+source-git-commit: 11c6dd43d6b20864f9823130c5aed790a3091938
+workflow-type: tm+mt
+source-wordcount: '741'
+ht-degree: 99%
 
 ---
 
 # Adobe Experience Manager テンプレートの操作 {#aem-templates}
 
->[!AVAILABILITY]
->
->現在、Adobe Experience Manager との統合は、一部のユーザーのみがベータ版として利用できます。
-> ベータ版のユーザーは、[このフォーム](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"}を使用してフィードバックを共有します。
+## Adobe Experience Manager テンプレートの基本を学ぶ {#gs-aem-templates}
 
 Adobe Journey Optimizer を使用すると、Adobe Experience Manager サイトを介してカスタマイズしたメッセージを作成できます。まず、Adobe Experience Manager のコンテンツソースを使用してテンプレートをデザインし、それらを Adobe Journey Optimizer に送信します。 共有した後は、これらのテンプレートは Adobe Journey Optimizer の E メールデザイナーでアクセスできるようになり、目的のオーディエンスにメッセージを簡単に作成して送信できます。
 
-## 前提条件 {#prerequisites}
+>[!AVAILABILITY]
+>
+>現在、Adobe Experience Manager との統合は、一部のユーザーのみがベータ版として利用できます。
+>ベータ版のユーザーは、[このフォーム](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"}を使用してフィードバックを共有します。
+
+
+### 前提条件 {#prerequisites}
 
 この機能の使用を開始する前に、次の要件に従っていることを確認してください。
 
@@ -41,7 +44,7 @@ Adobe Journey Optimizer を使用すると、Adobe Experience Manager サイト�
 
   コンテンツテンプレートを Adobe Journey Optimizerで 作成、編集および削除するには、**[!DNL Content Library Manager]** 製品プロファイルに含まれる **[!DNL Manage Library Items]** 権限を付与されている必要があります。[詳細情報](../administration/ootb-product-profiles.md#content-library-manager)
 
-## ガードレールと制限{#aem-templates-limitations}
+### ガードレールと制限{#aem-templates-limitations}
 
 Adobe Journey Optimizer で Adobe Experience Manager の使用をさらに最適化するには、次の追加のガードレールおよび制限事項に注意する必要があります。
 

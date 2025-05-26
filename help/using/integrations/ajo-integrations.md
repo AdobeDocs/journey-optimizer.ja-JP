@@ -7,10 +7,10 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 64e225cdc8615e51655ef550866b67ca249a7572
+source-git-commit: 11c6dd43d6b20864f9823130c5aed790a3091938
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1021'
+ht-degree: 86%
 
 ---
 
@@ -39,23 +39,59 @@ Journey Optimizer でジャーニーを作成した後、Customer Journey Analyt
 
 詳しくは、[Journey Optimizer + Analytics](../event/about-analytics.md) を参照してください。
 
+## Adobe Experience Manager {#integration-aem}
 
-## Adobe Experience Manager Assets {#integration-assets}
+Adobe Experience Manager ユーザーは、ワークフローをAdobe Journey Optimizerと組み合わせることができます。 使用可能なユースケースを以下に示します。
 
-[!DNL Adobe Experience Manager Assets] を使用してマーケティングワークフローとクリエイティブワークフローを統合します。[!DNL Adobe Journey Optimizer] とネイティブに統合され、[!DNL Adobe Experience Manager Assets] へアクセスして、デジタルアセットの保存、管理、検出、配布を行います。メッセージの入力に使用できる、アセットの一元的なリポジトリを提供します。
 
-[!DNL Adobe Experience Manager Assets] には、左メニューの「**[!UICONTROL アセット]**」セクションを使用して [!DNL Adobe Journey Optimizer] から直接アクセスできます。
+>[!BEGINTABS]
 
-詳しくは、[Journey Optimizer + Adobe Experience Manager Assets](../integrations/assets.md) を参照してください。
+>[!TAB AEM Assets]
+
+**[!DNL Adobe Experience Manager Assets]** を使用してマーケティングワークフローとクリエイティブワークフローを統合します。**[!DNL Adobe Journey Optimizer]** とネイティブに統合され、**[!DNL Assets Essentials]** または **[!DNL Assets as a Cloud Service]** へアクセスして、デジタルアセットの保存、管理、検出、配布を行います。メッセージの入力に使用できる、アセットの一元的なリポジトリを提供します。
+
+[![詳細情報](../assets/do-not-localize/learn-more-button.svg)](../integrations/assets.md)
+
+>[!TAB AEM テンプレート ]
+
+Adobe Journey Optimizer を使用すると、Adobe Experience Manager サイトを介してカスタマイズしたメッセージを作成できます。まず、Adobe Experience Manager のコンテンツソースを使用してテンプレートをデザインし、それらを Adobe Journey Optimizer に送信します。 共有した後は、これらのテンプレートは Adobe Journey Optimizer の E メールデザイナーでアクセスできるようになり、目的のオーディエンスにメッセージを簡単に作成して送信できます。
+
+[![詳細情報](../assets/do-not-localize/learn-more-button.svg)](../integrations/aem-templates.md)
+
+>[!TAB AEM フラグメント ]
+
+Adobe Experience Manager を Adobe Journey Optimizer と統合することで、AEM コンテンツフラグメントを Journey Optimizer のメールコンテンツにシームレスに組み込めるようになりました。この合理化された接続により、AEM コンテンツへのアクセスと活用のプロセスが簡略化され、パーソナライズされた動的なキャンペーンやジャーニーの作成が可能になります。
+
+[![詳細情報](../assets/do-not-localize/try-it-button.svg)](../integrations/aem-fragments.md)
+
+>[!TAB Dynamic Media]
+
+Journey Optimizer アセットセレクターを使用して、Journey Optimizer内で承認済みの Dynamic Media レンディションを選択して使用します。 Adobe Experience Manager のアセットに行った変更は Journey Optimizer コンテンツに即座に反映されるので、手動での更新が必要なく、常に最新バージョンが使用されます。
+
+[![詳細情報](../assets/do-not-localize/learn-more-button.svg)](../integrations/aem-dynamic.md)
+
+
+>[!ENDTABS]
+
 
 
 ## Adobe Stock {#integration-stock}
 
 [!DNL Adobe Stock] と [!DNL Adobe Journey Optimizer] E メールデザイナーの統合プラグインを使用すると、メッセージオーサリングで使用する画像のナビゲーション、ライセンス取得および保存を簡単に行うことができます。
 
-[!DNL Adobe Journey Optimizer] を使用すると、[!DNL Adobe Stock] からメールに画像を直接アップロードし、「**[!UICONTROL Adobe Stock フォトを検索]**」オプションを使用して&#x200B;**[!UICONTROL アセット]**&#x200B;フォルダーに追加できます。「**[!UICONTROL 類似のストックフォトを検索]**」オプションを使用すると、配信で使用されるアセットのコンテンツ、カラー、構成に一致する画像を検索することができます。
-
 詳しくは、[Journey Optimizer + Stock](../integrations/stock.md) を参照してください。
+
+## Adobe Express {#express}
+
+Adobe Journey Optimizer の Adobe Express 統合により、コンテンツの作成中に Adobe Express の強力な編集ツールに簡単にアクセスできます。この統合により、ソリューションを切り替えることなく、画像のサイズ変更、背景の削除、ビジュアルの切り抜き、アセットの JPEG または PNG への変換が可能になります。
+
+詳細情報：[Journey Optimizer + Adobe Express](../integrations/express.md)。
+
+## パフォーマンスマーケティング用の GenStudio
+
+Adobe GenStudio for Performance Marketingは、生成 AI ファーストのアプリケーションで、マーケティングチームが独自の広告やメールを作成し、ブランド標準を遵守し、企業ポリシーに準拠した、インパクトのあるパーソナライズされたマーケティングキャンペーンを推進できるようにします。 アドビの AI テクノロジーを活用することで、コンテンツの作成と管理の複雑さを軽減し、クリエイターが革新性に焦点を当てることができるようにする包括的なツールスイートを提供します。
+
+詳細情報：[Journey Optimizer + GenStudio for Performance Marketing](../integrations/genstudio.md)。
 
 
 ## Adobe インテリジェントサービス {#integration-intelligent-service}
@@ -64,7 +100,7 @@ Journey Optimizer でジャーニーを作成した後、Customer Journey Analyt
 
 顧客 AI を使用すると、ブランドは、Adobe Experience Platform でプロファイル属性として使用でき、ジャーニーをパーソナライズするために使用できるチャーンまたはコンバージョンの機械学習ベースのスコアを作成できます。
 
-[詳細情報](../building-journeys/ai-services-overview.md)。
+詳しくは、[Journey Optimizer + Adobe インテリジェントサービス ](../building-journeys/ai-services-overview.md) を参照してください。
 
 
 ## Adobe Campaign {#integration-ac}
@@ -82,7 +118,7 @@ Journey Optimizer でジャーニーを作成した後、Customer Journey Analyt
 
 Adobe Workfront の Adobe Journey Optimizer モジュールを使用すると、レコードの作成、読み取り、更新、削除を行ったり、Adobe Journey Optimizer API に対するカスタム API 呼び出しを実行したりできます。
 
-この統合の主な手順の概要については、[このブログ投稿](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685?profile.language=ja){target="_blank"}を参照してください。
+この統合の主な手順の概要については、[このブログ投稿](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}を参照してください。
 
 Journey Optimizer と Adobe Workfront について詳しくは、[Adobe Workfront ドキュメント](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=ja){target="_blank"}を参照してください。
 

@@ -9,8 +9,8 @@ role: User
 level: Beginner
 keywords: アセット, Experience Manager, 統合
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
-workflow-type: ht
+source-git-commit: 8538018f5c30b0c3c9c1df5726276c2e87e64149
+workflow-type: tm+mt
 source-wordcount: '787'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 * **[!DNL Assets as a Cloud Service]**：Adobe Experience Manager Assets as a Cloud Service は、効率的なデジタルアセット管理と Dynamic Media 操作のための使いやすいクラウドソリューションを提供します。人工知能や機械学習などの高度な機能がシームレスに組み込まれています。
 
-  詳しくは、[Adobe Experience Manager Assets as a Cloud Service ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/overview.html?lang=ja)を参照してください。
+  詳しくは、[Adobe Experience Manager Assets as a Cloud Service ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/overview.html?lang=ja){target="_blank"}を参照してください。
 
 * **[!DNL Assets Essentials]**：Experience Manager Assets Essentials は、統合されたアセット管理と共同作業のための Assets as a Cloud Service の軽量ソリューションです。最新の簡素化されたインターフェイスにより、クリエイティブチームやマーケティングチームがデジタルアセットを簡単に保存、検出および配布できます。
 

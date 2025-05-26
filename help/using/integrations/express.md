@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: アセット, 統合
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
-source-git-commit: f2c072cd410afac79604cfad532fbd75591b34fa
-workflow-type: ht
-source-wordcount: '517'
+source-git-commit: 11c6dd43d6b20864f9823130c5aed790a3091938
+workflow-type: tm+mt
+source-wordcount: '538'
 ht-degree: 100%
 
 ---
@@ -34,6 +34,8 @@ Adobe Express について詳しくは、[このドキュメント](https://help
 **[!DNL Adobe Express]** メニューにアクセスするには、E メールデザイナーから&#x200B;**画像設定**&#x200B;にアクセスし、「**[!UICONTROL Adobe Express で編集]**」をクリックします。
 
 ![](assets/express_1.png)
+
+➡️ [ビデオでこの機能を確認する](#video)
 
 ## Adobe Express エンタープライズ版ライセンス {#licence}
 
@@ -137,3 +139,13 @@ Adobe Express について詳しくは、[このドキュメント](https://help
    次に、「**[!UICONTROL インポート]**」をクリックします。
 
 これで、画像をコンテンツで使用する準備が整いました。
+
+
+## チュートリアルビデオ {#video}
+
+Adobe Express ツールを使用して Adobe Journey Optimizer でアセットを編集する方法について説明します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3455523/?quality=12)
+
+
+

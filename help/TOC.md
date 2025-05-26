@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 33ebde5ef42519137c3ef057e6c95a71f1c45a6c
+source-git-commit: 11c6dd43d6b20864f9823130c5aed790a3091938
 workflow-type: tm+mt
-source-wordcount: '2382'
-ht-degree: 97%
+source-wordcount: '2393'
+ht-degree: 96%
 
 ---
 
@@ -394,6 +394,15 @@ ht-degree: 97%
       + [動的コンテンツの基本を学ぶ](using/personalization/get-started-dynamic-content.md)
       + [条件付きルールの作成](using/personalization/create-conditions.md)
       + [動的コンテンツの作成](using/personalization/dynamic-content.md)
+   + クロスソリューションの使用例 {#combine}
+      + [ソリューションを組み合わせてコンテンツを管理](using/integrations/content-integrations.md)
+      + [Experience Manager Assets の操作](using/integrations/assets.md)
+      + [Adobe Stock との連携](using/integrations/stock.md)
+      + [Adobe Express の操作](using/integrations/express.md)
+      + [Experience Manager テンプレートの操作](using/integrations/aem-templates.md)
+      + [Experience Manager コンテンツフラグメントの操作](using/integrations/aem-fragments.md)
+      + [Dynamic Media の操作](using/integrations/aem-dynamic.md)
+      + [GenStudio for Performance Marketingの操作](using/integrations/genstudio.md)
    + コンテンツ生成用 AI アシスタント{#ai-assistant}
       + [AI アシスタントの基本を学ぶ](using/content-management/gs-generative.md)
       + [AI によるメール生成](using/content-management/generative-email.md)
@@ -434,15 +443,6 @@ ht-degree: 97%
       + [計算属性の操作](using/audience/computed-attributes.md)
    + [ID](using/audience/get-started-identity.md)
    + [ライセンス使用状況](using/audience/license-usage.md)
-+ 統合{#integrations}
-   + [他のソリューションとの統合](using/integrations/ajo-integrations.md)
-   + [Experience Manager Assets の操作](using/integrations/assets.md)
-   + [Adobe Stock との連携](using/integrations/stock.md)
-   + [Adobe Express の操作](using/integrations/express.md)
-   + [Experience Manager テンプレートの操作](using/integrations/aem-templates.md)
-   + [Experience Manager コンテンツフラグメントの操作](using/integrations/aem-fragments.md)
-   + [Dynamic Media の操作](using/integrations/aem-dynamic.md)
-   + [GenStudio の操作](using/integrations/genstudio.md)
 + 追跡と監視 {#reporting}
    + ライブレポート {#live-report}
       + [ライブレポートの基本を学ぶ](using/reports/live-report.md)
@@ -752,6 +752,7 @@ ht-degree: 97%
       + [カスタムアクションのトラブルシューティング](using/action/troubleshoot-custom-action.md)
       + [カスタムアクションでの API 呼び出し応答の使用](using/action/action-response.md)
 + システムと環境の接続 {#connect-systems}
+   + [他のソリューションとの統合](using/integrations/ajo-integrations.md)
    + [Journey Optimizer API の操作](using/configuration/ajo-apis.md)
    + ジャーニーと外部システムの統合 {#external-systems}
       + [ジャーニーと外部システムの統合](using/configuration/external-systems.md)
