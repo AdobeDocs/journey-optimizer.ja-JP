@@ -9,10 +9,10 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: サンドボックス, ジャーニー, コピー, 環境
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: 0ad4c6a9024ea91d502ca2a733117f58c63ca50b
+source-git-commit: 25d48a675f49bca6818841bb45ccf31671225e0e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1260'
+ht-degree: 93%
 
 ---
 
@@ -72,7 +72,7 @@ Journey Optimizer では、ジャーニー、カスタムアクション、コ�
 
 * **チャネル設定**：チャネル設定は、キャンペーンと共にコピーされます。 キャンペーンをコピーした後、ターゲットサンドボックスでチャネル設定を手動で選択する必要があります。
 * **実験のバリアントと設定**：実験のバリアントと設定は、キャンペーンコピープロセスに含まれています。 読み込み後、ターゲットサンドボックスでこれらの設定を検証します。
-* **Unified Decisioning**：決定ポリシーと決定項目は、書き出しと読み込みでサポートされています。 決定関連の依存関係がターゲットサンドボックスに正しくマッピングされていることを確認します。
+  <!--* **Unified decisioning**: Decision policies and decision items are supported for export and import. Ensure that decision-related dependencies are correctly mapped in the target sandbox.-->
 
 ### コンテンツテンプレート {#content-templates}
 
@@ -82,17 +82,17 @@ Journey Optimizer では、ジャーニー、カスタムアクション、コ�
 
 * 重複をさらに回避するには、コンテンツテンプレートを 1 つのパッケージで書き出すことをお勧めします。こうすることで、システムでは重複排除を効率的に管理できます。
 
-### 決定 {#decisioning}
+<!--### Decisioning {#decisioning}
 
-* 決定オブジェクトをコピーする前に、以下のオブジェクトが宛先サンドボックスに存在する必要があります。
+* The objects below must be present in the destination sandbox before copying Decisioning objects:
 
-   * 決定オブジェクト全体で使用されるプロファイル属性。
-   * カスタムオファー属性フィールドグループ。
-   * ルール、ランキング、キャッピングをまたいだコンテキスト属性に使用されるデータストリームのスキーマです。
+   * Profile Attributes used across Decisioning objects,
+   * The field group of custom Offer Attributes,
+   * The schemas of Datastreams used for Context Attributes across Rules, Ranking or Capping.
 
-* AI モデルを使用したランキング式のサンドボックスコピーは、現在サポートされていません。
+* Sandbox copy for ranking formulas with AI Models is currently not supported.
 
-* 決定エンティティをコピーする場合は、決定項目を他のすべてのオブジェクト **前** にコピーします。 例えば、最初にコレクションをコピーし、新しいサンドボックスにオファーがない場合、その新しいコレクションは空のままです。
+* When copying Decisioning entities, make sure you copy decision items **before** any other object. For example, if you copy a collection first, and there are no offers in the new sandbox, then that new collection will remain empty. -->
 
 ### フラグメント {#fragments}
 
