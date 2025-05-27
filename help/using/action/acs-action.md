@@ -9,8 +9,8 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: キャンペーン, Standard, 統合, キャッピング, アクション
 exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
-source-git-commit: 79bea396ba1ff482aaa4edcab1a31ca3847b3f52
-workflow-type: ht
+source-git-commit: ffce95a074c5827b637d081ad23f4cd3754515fe
+workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 100%
 
@@ -18,15 +18,15 @@ ht-degree: 100%
 
 # Adobe Campaign Standard との統合 {#using_adobe_campaign_standard}
 
-Adobe Campaign Standard のトランザクションメッセージ機能を使用して、メール、プッシュ通知、SMS を送信できます。
-
 Adobe Campaign Standard がある場合は、組み込みのアクションを使用して、Adobe Campaign Standard に接続できます。
+
+Adobe Campaign Standard のトランザクションメッセージ機能を使用して、メール、プッシュ通知、SMS を送信できます。
 
 Journey Optimizer で使用するには、Campaign Standard トランザクションメッセージとそれに関連するイベントを公開する必要があります。イベントが公開されてもメッセージが表示されない場合、Journey Optimizer インターフェイスには表示されません。メッセージが公開されても、関連するイベントが公開されなかった場合、Journey Optimizer インターフェイスには表示されますが、使用はできません。
 
 ## 重要な注意事項 {#important-notes}
 
-* Adobe Campaign Standard のアクションに対して、5 分あたり 4,000 回の呼び出しのキャッピングルールが自動的に定義されます。これは、Adobe Campaign Standard トランザクションメッセージの公式な規模に対応しています。トランザクションメッセージ SLA について詳しくは、[Adobe Campaign Standard 製品の説明](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html){target="_blank"}を参照してください。
+* Adobe Campaign Standard のアクションに対して、5 分あたり 4,000 回の呼び出しのキャッピングルールが自動的に定義されます。これは、Adobe Campaign Standard トランザクションメッセージの公式な規模に対応しています。トランザクションメッセージ SLA の詳細については、[Adobe Campaign Standard 製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html){target="_blank"}を参照してください。
 
 * Adobe Campaign Standard 統合は、アクションリストの専用組み込みアクションを使用して設定されます。これは、サンドボックスごとに設定する必要があります。
 
