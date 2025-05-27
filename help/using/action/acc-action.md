@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: キャンペーン, acc, 統合
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: d92c280e40419d2e3ec62a7ba85cd492a0867fde
+source-git-commit: 14a10c742ab40c5e3bdb545f595d28e25b535fdc
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 58%
+source-wordcount: '545'
+ht-degree: 57%
 
 ---
 
@@ -36,16 +36,13 @@ Adobe Campaign Classic v7 または Campaign v8 がある場合、Adobe Journey 
 >[!TAB Adobe Journey Optimizerの場合 ]
 
 * 組織 ID（Adobe OrgID）
-
 * サンドボックス名
 
 >[!TAB Adobe Campaignの場合 ]
 
 * Campaign サーバー URL
-
 * リアルタイムサーバー URL
-
-* キャンペーンのバージョン
+* Adobe Campaignのバージョン
 
 >[!ENDTABS]
 
