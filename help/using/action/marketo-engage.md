@@ -9,23 +9,23 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: Marketo、Marketo Engage 統合
 exl-id: 70d1ef5a-743b-4362-bb65-93a8c996209f
-source-git-commit: ffce95a074c5827b637d081ad23f4cd3754515fe
+source-git-commit: a5ee7c668b51a761266b50216047caf48496f678
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 93%
+source-wordcount: '325'
+ht-degree: 36%
 
 ---
 
 # Marketo Engage との統合 {#integrating-with-marketo-engage}
 
-Adobe Journey OptimizerとMarketo Engageを統合するための特定のカスタムアクションをジャーニーで使用できます。
+Marketo Engage とのシームレスなデータ統合のジャーニーを開始しましょう。Adobe Journey OptimizerとMarketo Engageを統合するための特定のカスタムアクションをジャーニーで使用できます。 このカスタムアクションは、次の 2 つの主要なデータタイプの取り込みをサポートします。
 
-Marketo Engage とのシームレスなデータ統合のジャーニーを開始しましょう。Journey Optimizer のこの特定のカスタムアクションは、次の 2 つの主要なデータタイプの取り込みをサポートしています。
-
-* 人物（プロファイル）：Marketo では、プロファイルを実用的なインサイトに変換します。
-* カスタムオブジェクト：製品などのカスタムオブジェクトを使用してデータをカスタマイズし、パーソナライズされたマーケティングアプローチを実現します。
+* **人物** （プロファイル）:Marketoは、プロファイルを実用的なインサイトに変換します。
+* **カスタムオブジェクト**：製品などのカスタムオブジェクトを使用してデータをカスタマイズし、パーソナライズされたマーケティングアプローチを実現します。
 
 ## 前提条件 {#prerequisites}
+
+この統合には、次の前提条件が適用されます。
 
 * Marketo Engage の顧客インスタンスは、IMS 対応である必要があります。
 * Marketo Engage インスタンスと Adobe Experience Platform／Journey Optimizer インスタンスは、同じ組織内に存在する必要があります。
@@ -33,26 +33,28 @@ Marketo Engage とのシームレスなデータ統合のジャーニーを開�
 
 ## アクションの設定 {#configure-marketo-action}
 
-* 管理／設定／アクションに移動し、「管理」をクリックします。
-* アクションリストから、「アクションを作成」をクリックします。詳しくは、[カスタムアクション](../building-journeys/using-custom-actions.md){target="_blank"}を参照してください。
-* 「名前」、「説明」を入力し、アクションタイプとして「Adobe Marketo Engage」を選択します。
+
+Journey Optimizerでは、Marketo Engageのカスタムアクションを設定する必要があります。 次の手順に従います。
+
+1. 管理メニューセクションで **[!UICONTROL 設定]** を選択します。
+1. 「**[!UICONTROL アクション]**」セクションで、「**[!UICONTROL アクションを作成]**」をクリックします。 画面右側にアクション設定ペインが開きます。
+1. 名前と説明を入力し、{ アクションタイプ **として** 0}Adobe Marketo Engage **を選択します**
 
 ![](assets/engage-customaction-creation.png){width="40%" align="left"}
 
-* **リクエスト**&#x200B;および&#x200B;**応答**&#x200B;ペイロードの「ペイロードを編集」をクリックします。
-* どちらの場合も、ペイロードを作成し、専用のポップアップに貼り付けます。
+1. **リクエスト** ペイロードおよび **応答** ペイロードの **ペイロードを編集** アイコンをクリックします。
+1. 両方に対して、ペイロードを作成し、専用のポップアップに貼り付けます。
 
 ![](assets/engage-customaction-payload.png){width="70%" align="left"}
 
-* ペイロード値の検査と設定
-メモ：値を動的に渡すには、フィールドごとに&#x200B;**定数**&#x200B;を&#x200B;**変数**&#x200B;に変更します。
+1. ペイロード値の検査と設定
+メモ：値を動的に渡すには、フィールドごとに**定数**&#x200B;を&#x200B;**変数**&#x200B;に変更します。
 
 ![](assets/engage-customaction-payload-fields.png){width="70%" align="left"}
 
-* フィールド設定ウィンドウで「**保存**」をクリックし、カスタムアクションで「**保存**」をクリックします。
+1. フィールド設定画面で「**保存**」をクリックし、カスタムアクションを **保存** します。
 
-これで、専用のキャンバスでカスタムアクションを使用できるようになりました。
-
+ジャーニーキャンバスでカスタムアクションを使用できるようになりました。
 
 ## ペイロード構文 {#payload-syntax}
 
@@ -111,7 +113,14 @@ Marketo Engage とのシームレスなデータ統合のジャーニーを開�
 
 ## アクションの使用 {#engage-using}
 
-* カスタムアクションをジャーニーキャンバスにドラッグします。
-* 「**リクエストパラメーター**」セクションで、ペイロードに設定した動的な値を持つ各パラメーターに対して「編集」をクリックします。
+設定したアクションごとに、Marketo Engage アクションアクティビティをジャーニーデザイナーパレットで使用できます。
+
+これを使用するには、次の手順に従います。
+
+1. カスタムアクションをジャーニーキャンバスにドラッグします。
+
+1. このアクションのラベルと説明を入力します。
+
+1. 「**リクエストパラメーター**」セクションで、各パラメーターの **編集** アイコンをクリックし、ペイロードに設定した動的な値を選択します。
 
 ![](assets/engage-use-canvas.png){width="70%" align="left"}

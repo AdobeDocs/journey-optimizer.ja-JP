@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ffce95a074c5827b637d081ad23f4cd3754515fe
+source-git-commit: a5ee7c668b51a761266b50216047caf48496f678
 workflow-type: tm+mt
-source-wordcount: '2390'
+source-wordcount: '2393'
 ht-degree: 96%
 
 ---
@@ -759,9 +759,9 @@ ht-degree: 96%
       + [Capping API](using/configuration/capping.md)
       + [Throttling API](using/configuration/throttling.md)
    + アドビソリューションを使用した送信 {#adobe-solutions}
-      + [ジャーニーでのCampaign Standard](using/action/acs-action.md)
-      + [ジャーニーの Campaign v7/v8](using/action/acc-action.md)
-      + [ジャーニーでのMarketo Engage](using/action/marketo-engage.md)
+      + [ジャーニーでのCampaign Standardのアクション](using/action/acs-action.md)
+      + [ジャーニーでの Campaign v7/v8 アクション](using/action/acc-action.md)
+      + [ジャーニーでのMarketo Engageのアクション](using/action/marketo-engage.md)
    + サンドボックス管理 {#sandbox}
       + [サンドボックスの使用と割り当て](using/administration/sandboxes.md)
       + [別のサンドボックスへのオブジェクトのエクスポート](using/configuration/copy-objects-to-sandbox.md)

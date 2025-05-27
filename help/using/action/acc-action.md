@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: キャンペーン, acc, 統合
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: ffce95a074c5827b637d081ad23f4cd3754515fe
+source-git-commit: a5ee7c668b51a761266b50216047caf48496f678
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 96%
+source-wordcount: '553'
+ht-degree: 67%
 
 ---
 
@@ -23,28 +23,29 @@ ht-degree: 96%
 >title="Adobe Campaign v7／v8 のアクション"
 >abstract="この統合は、Adobe Campaign v7 および v8 で利用できます。Adobe Campaign のトランザクションメッセージ機能を使用して、メール、プッシュ通知、SMS などを送信できるようになります。Journey Optimizer と Campaign インスタンスとの接続は、プロビジョニング時にアドビによって設定されます。"
 
-Adobe Journey OptimizerとAdobe Campaign v7/v8 を統合するために、ジャーニーで特定のカスタムアクションを使用できます。
+Adobe Campaign Classic v7 または Campaign v8 がある場合、Adobe Journey OptimizerとAdobe Campaignを統合するために、特定のカスタムアクションをジャーニーで使用できます。 この統合により、Adobe Campaignのトランザクションメッセージ機能を使用して、メール、プッシュ通知、SMS を送信できるようになります。 詳しくは、この [ エンドツーエンドのユースケース ](../building-journeys/ajo-ac.md) を参照してください。
 
-この統合は、Adobe Campaign v7/v8 リリース 7.1 以降および Adobe Campaign v8 で利用できます。Adobe Campaign のトランザクションメッセージ機能を使用して、メール、プッシュ通知、SMS などを送信できるようになります。
+設定したアクションごとに、[Campaign アクションアクティビティ ](../building-journeys/using-adobe-campaign-v7-v8.md) をジャーニーデザイナーパレットで使用できます。
 
-エンドツーエンドの使用例については、[この節](../building-journeys/ajo-ac.md)を参照してください。
+## アクティブ化 {#access}
 
-設定したアクションごとに、1 つのアクションアクティビティをジャーニーデザイナーパレットで使用できます。[この節](../building-journeys/using-adobe-campaign-v7-v8.md)を参照してください。
+リクエストされた場合、Journey Optimizer環境とAdobe Campaign環境間の接続は、プロビジョニング時にAdobeによって設定されます。 プロビジョニング時に接続をリクエストしていない場合は、Adobe Journey Optimizer サポートに連絡してアクティベーションをリクエストしてください。 次の詳細を入力する必要があります。
 
-## アクセス {#access}
+>[!BEGINTABS]
 
-Journey Optimizer と Campaign インスタンスとの接続は、必要に応じてプロビジョニング時にアドビによって設定されます。プロビジョニング時に接続をリクエストしていない場合は、Adobe Journey Optimizer サポートに連絡し、次の詳細を提供して有効化をリクエストしてください。
-
-Adobe Journey Optimizer から：
+>[!TAB Adobe Journey Optimizerの場合 ]
 
 * 組織 ID（Adobe OrgID）
-* サンドボックス
+* サンドボックス名
 
-Adobe Campaign から：
+>[!TAB Adobe Campaignの場合 ]
 
-* キャンペーン URL
-* RT URL
+* Campaign サーバー URL
+* リアルタイムサーバー URL
 * キャンペーンのバージョン
+
+>[!ENDTABS]
+
 
 ## 重要な注意事項 {#important-notes}
 
@@ -60,13 +61,13 @@ Adobe Campaign から：
 
 ## 前提条件 {#prerequisites}
 
-Campaign では、トランザクションメッセージとそれに関連するイベントを作成して公開する必要があります。[Adobe Campaign ドキュメント](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html?lang=ja#transactional-messaging){target="_blank"}を参照してください。
+Adobe Campaignでは、トランザクションメッセージとそれに関連するイベントを作成して公開する必要があります。 [Adobe Campaign ドキュメント](https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"}を参照してください。
 
-以下のパターンに従って、各メッセージに対応する JSON ペイロードを作成できます。Journey Optimizer でアクションを設定する際に、このペイロードを貼り付けます（以下を参照）。
+以下のパターンに従って、各メッセージに対応する JSON ペイロードを作成できます。Journey Optimizerでアクションを設定する際に、このペイロードを貼り付けてください（以下を参照）。
 
 次に例を示します。
 
-```
+```JSON
 {
     "channel": "email",
     "eventType": "welcome",
@@ -79,13 +80,13 @@ Campaign では、トランザクションメッセージとそれに関連す�
 
 * **channel**：Campaign トランザクションテンプレート用に定義したチャネル
 * **eventType**：Campaign イベントの内部名
-* **ctx**：メッセージに含めるパーソナライズ機能に基づく変数。
+* **ctx**：メッセージに含めるパーソナライゼーションに基づく変数
 
 ## アクションの設定 {#configure-action}
 
-Journey Optimizer では、トランザクションメッセージごとに 1 つのアクションを設定する必要があります。次の手順に従います。
+Journey Optimizerでは、トランザクションメッセージごとに 1 つのアクションを設定する必要があります。 次の手順に従います。
 
-1. 新しいアクションの作成[この節](../action/action.md)を参照してください。
+1. 新しいアクションの作成[カスタムアクションの詳細はこちらを参照してください](../action/action.md)。
 1. 名前と説明を入力
 1. 「**アクションタイプ**」フィールドで、**Adobe Campaign Classic** を選択します。
 1. 「**ペイロード**」フィールドをクリックし、 Campaign メッセージに対応する JSON ペイロードの例を貼り付けます。アドビに問い合わせて、このペイロードを取得してください。 
