@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: Marketo、Marketo Engage 統合
 exl-id: 70d1ef5a-743b-4362-bb65-93a8c996209f
-source-git-commit: a5ee7c668b51a761266b50216047caf48496f678
+source-git-commit: d92c280e40419d2e3ec62a7ba85cd492a0867fde
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 36%
+ht-degree: 29%
 
 ---
 
@@ -27,8 +27,8 @@ Marketo Engage とのシームレスなデータ統合のジャーニーを開�
 
 この統合には、次の前提条件が適用されます。
 
-* Marketo Engage の顧客インスタンスは、IMS 対応である必要があります。
-* Marketo Engage インスタンスと Adobe Experience Platform／Journey Optimizer インスタンスは、同じ組織内に存在する必要があります。
+* Marketo Engageのカスタマーインスタンスは、IMS を有効にする必要があります
+* Marketo Engage インスタンスとAdobe Experience Platform/Journey Optimizer インスタンスは同じ組織にある必要があります
 * 顧客は **MktoSync：取り込みサービスへのアクセス**&#x200B;をプロビジョニングする必要があります
 
 ## アクションの設定 {#configure-marketo-action}
@@ -48,7 +48,7 @@ Journey Optimizerでは、Marketo Engageのカスタムアクションを設定�
 ![](assets/engage-customaction-payload.png){width="70%" align="left"}
 
 1. ペイロード値の検査と設定
-メモ：値を動的に渡すには、フィールドごとに&#x200B;**定数**&#x200B;を&#x200B;**変数**&#x200B;に変更します。
+メモ：値を動的に渡すには、フィールドごとに**定数**&#x200B;を&#x200B;**変数**&#x200B;に変更します。
 
 ![](assets/engage-customaction-payload-fields.png){width="70%" align="left"}
 

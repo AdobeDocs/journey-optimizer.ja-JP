@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: キャンペーン, acc, 統合
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
-source-git-commit: bf4044bc23b0e7c0ef74e5b612d93cb45ec20242
+source-git-commit: d92c280e40419d2e3ec62a7ba85cd492a0867fde
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 67%
+source-wordcount: '543'
+ht-degree: 58%
 
 ---
 
@@ -50,13 +50,13 @@ Adobe Campaign Classic v7 または Campaign v8 がある場合、Adobe Journey 
 >[!ENDTABS]
 
 
-## 重要な注意事項 {#important-notes}
+## ガードレールと制限 {#important-notes}
 
 * メッセージのスロットルはありません。システムは現在の Campaign SLA に基づいて、送信できるメッセージ数を 5 分ごとに 4,000 件までに制限します。この理由から、Journey Optimizer は単一ユースケース（オーディエンスではなく個々のイベント）でのみ使用してください。
 
-* 使用するテンプレートごとに、1 つのアクションをキャンバス上に設定する必要があります。Adobe Campaign から使用する各テンプレートに対して、Journey Optimizer でアクションを 1 つずつ設定する必要があります。
+* 使用するテンプレートごとに、キャンバス上で 1 つのアクションを設定する必要があります。 Adobe Campaign から使用する各テンプレートに対して、Journey Optimizer でアクションを 1 つずつ設定する必要があります。
 
-* この統合にホストしている専用の Message Center インスタンスを使用して、実行中の 他の Campaign 操作に影響を与えないようにすることをお勧めします。マーケティングサーバーはホスト型でもオンプレミス型でも構いません。必要なビルドは、リリース候補 21.1 以降です。
+* この統合には、専用の Message Center でホストされるまたはManaged Services インスタンスを使用して、実行中の他の Campaign 操作に影響を与えないようにすることをお勧めします。 マーケティングサーバーはホスト型でもオンプレミス型でも構いません。<!--The build required is 21.1 Release Candidate or greater. -->
 
 * ペイロード、または Campaign メッセージが正しいかどうかは検証されません。
 
@@ -70,7 +70,7 @@ Adobe Campaignでは、トランザクションメッセージとそれに関連
 
 次に例を示します。
 
-```JSON
+```json
 {
     "channel": "email",
     "eventType": "welcome",
