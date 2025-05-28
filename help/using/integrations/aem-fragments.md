@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
-source-git-commit: 8538018f5c30b0c3c9c1df5726276c2e87e64149
+source-git-commit: 7098a643c8026ed00f83a66fd45f957c2403a569
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 23%
+source-wordcount: '623'
+ht-degree: 22%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 23%
 
 Adobe Experience Manager as a Cloud ServiceをAdobe Journey Optimizerと統合することで、AEM コンテンツフラグメントをJourney Optimizer コンテンツにシームレスに組み込めるようになりました。 この合理化された接続により、AEM コンテンツへのアクセスと活用のプロセスが簡略化され、パーソナライズされた動的なキャンペーンやジャーニーの作成が可能になります。
 
-AEM コンテンツフラグメントについて詳しくは、Experience Manager ドキュメントの [ コンテンツフラグメントの操作 ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/overview){target="_blank"} を参照してください。
+AEM コンテンツフラグメントについて詳しくは、Experience Manager ドキュメントの [ コンテンツフラグメントの操作 ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer){target="_blank"} を参照してください。
 
 >[!AVAILABILITY]
 >
@@ -31,6 +31,8 @@ AEM コンテンツフラグメントについて詳しくは、Experience Manag
 * 多言語コンテンツの場合、手動フローのみがサポートされます。
 
 * バリエーションは、現在サポートされていません。
+
+* 公開済みキャンペーンおよびジャーニーのプルーフに、最新のExperience Manager コンテンツフラグメント公開からのデータが反映される。
 
 ## Experience Managerでのタグの作成と割り当て
 
@@ -48,9 +50,9 @@ Journey Optimizerでコンテンツフラグメントを使用する前に、Jou
 
 1. 「**作成**」をクリックします。
 
-1. [Experience Manager ドキュメントの詳細に従ってコンテンツフラグメントモデルを定義し ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragment-models){target="_blank"} 新しく作成したJourney Optimizer タグを割り当てます。
+1. [Experience Manager ドキュメントの詳細に従ってコンテンツフラグメントモデルを定義し ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragment-models){target="_blank"} 新しく作成したJourney Optimizer タグを割り当てます。
 
-これで、後でJourney Optimizerで使用できるように、コンテンツフラグメントの作成と設定を開始できます。 詳しくは、[Experience Manager ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing){target="_blank"} を参照してください。
+これで、後でJourney Optimizerで使用できるように、コンテンツフラグメントの作成と設定を開始できます。 詳しくは、[Experience Manager ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing){target="_blank"} を参照してください。
 
 ## Experience Manager コンテンツフラグメントの追加 {#aem-add}
 
@@ -120,4 +122,4 @@ AEM コンテンツフラグメントを作成およびパーソナライズし�
 
 テストを実行してコンテンツを検証したら、オーディエンスに [ キャンペーンを送信 ](../campaigns/review-activate-campaign.md) または [ ジャーニーを公開 ](../building-journeys/publishing-the-journey.md) できます。
 
-Adobe Experience Managerを使用すると、コンテンツフラグメントが使用されているJourney Optimizer キャンペーンまたはジャーニーを特定できます。
+Adobe Experience Managerを使用すると、コンテンツフラグメントが使用されているJourney Optimizer キャンペーンまたはジャーニーを特定できます。 詳しくは、[Adobe Experience Manager ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/extension-content-fragment-ajo-external-references) を参照してください。
