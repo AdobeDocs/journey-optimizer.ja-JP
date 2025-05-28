@@ -3,9 +3,9 @@ title: イベントトリガージャーニーの追加の識別子
 description: イベントトリガージャーニーで補足的な識別子を使用する方法を説明します。
 badge: label="限定提供" type="Informative"
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
-source-git-commit: 3ed75f1193b1a580183d8ee148792ec136d281cd
+source-git-commit: e7f4959ceaa238e39858196b08d739053b21835c
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '861'
 ht-degree: 7%
 
 ---
@@ -164,11 +164,11 @@ ht-degree: 7%
 
 ### **購読の管理**
 
-* **シナリオ**：購読サービスは、顧客プロファイルに関連付けられた各購読に対してカスタマイズされたメッセージを送信します。
+* **シナリオ**：購読サービスは、イベントがトリガーされると、各購読に合わせたメッセージを送信します。
 * **実行**:
    * プロファイル：「Jane」。
-   * 追加の ID: `"Luma Yoga Program ", "Luma Fitness PlPrograman"`。
-   * ジャーニーは、パーソナライズされた更新オファーを使用して、サブスクリプションごとに個別に実行されます。
+   * 追加の ID: `"Luma Yoga Program ", "Luma Fitness Program"`。
+   * 各イベントには、サブスクリプション ID と、そのサブスクリプションに関する詳細が含まれます。 ジャーニーはイベントやサブスクリプションごとに個別に実行され、サブスクリプションごとにパーソナライズされた更新オファーを許可します。
 
 ### **製品レコメンデーション**
 
