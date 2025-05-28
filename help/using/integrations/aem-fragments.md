@@ -50,9 +50,9 @@ Journey Optimizerでコンテンツフラグメントを使用する前に、Jou
 
 1. 「**作成**」をクリックします。
 
-1. [Experience Manager ドキュメントの詳細に従ってコンテンツフラグメントモデルを定義し ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragment-models){target="_blank"} 新しく作成したJourney Optimizer タグを割り当てます。
+1. [Experience Manager ドキュメントの詳細に従ってコンテンツフラグメントモデルを定義し ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragment-models){target="_blank"} 新しく作成したJourney Optimizer タグを割り当てます。
 
-これで、後でJourney Optimizerで使用できるように、コンテンツフラグメントの作成と設定を開始できます。 詳しくは、[Experience Manager ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing){target="_blank"} を参照してください。
+これで、後でJourney Optimizerで使用できるように、コンテンツフラグメントの作成と設定を開始できます。 詳しくは、[Experience Manager ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing){target="_blank"} を参照してください。
 
 ## Experience Manager コンテンツフラグメントの追加 {#aem-add}
 
