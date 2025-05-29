@@ -5,8 +5,8 @@ feature: Decisioning
 role: User
 level: Intermediate
 exl-id: d2872bd3-42f8-4744-bb5b-41c49340098a
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+source-git-commit: 60cb5e1ba2b5c8cfd0a306a589c85761be1cf657
+workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 100%
 
@@ -25,8 +25,8 @@ ht-degree: 100%
 | ガードレール | 上限 |
 | ------- | ------- |
 | 1 秒あたりの Decisioning API リクエスト | 500 |
-| エッジセグメント化を使用した 1 秒あたりの Edge Decisioning API リクエスト | 1500 |
-| エッジセグメント化を使用しない 1 秒あたりの Edge Decisioning API リクエスト | 5000 |
+| エッジセグメント化を使用した 1 秒あたりの Edge Decisioning API リクエスト | 1,500 |
+| エッジセグメント化を使用しない 1 秒あたりの Edge Decisioning API リクエスト | 5,000 |
 | 応答ごとに返されるオファー | 決定範囲ごとに最大 30 個、合計で 100 個 |
 | リクエストごとに関与するオファールールの最大数 | 100 |
 
@@ -51,7 +51,7 @@ ht-degree: 100%
 | ガードレール | 上限 |
 | ------- | ------- |
 | オファーまたはコレクションごとのコレクション修飾子 | 20 |
-| コレクション修飾子の合計 | 1000 |
+| コレクション修飾子の合計 | 1,000 |
 
 ## オファー
 

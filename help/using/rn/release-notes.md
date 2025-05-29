@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 29d12b6190f49e7f3f6fd2760e522a5a62c0de87
+source-git-commit: 120a496baf8acc8af6831a5b63b855f609497d03
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1235'
 ht-degree: 35%
 
 ---
@@ -24,11 +24,30 @@ ht-degree: 35%
 
 ## 2025 年 5 月のリリースノート {#25-5-rn}
 
-**リリース日**:2025 年 5 月 20～21 日（PT）
+<!--**Release date**: May 20-21, 2025-->
 
 ### 新機能 {#25-05-features}
 
 このリリースに含まれる新機能を以下に示します。
+
+<table>
+<thead>
+<tr>
+<th><strong>キャンペーンおよびジャーニーインベントリのカレンダー表示</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>ジャーニーリストとキャンペーンリストでカレンダー表示を使用できるようになりました。 これにより、すべてのジャーニーとキャンペーンのアクティベーションをそれぞれのリストで視覚化できます。</p>
+<p>この変更は現在、一連の組織でのみ使用できます（使用制限あり）。 アクセスをリクエストするには、<a href="https://forms.cloud.microsoft/r/FC49afuJVi" target="_blank"> このフォーム </a> を使用します。</p>
+<img src="assets/do-not-localize/calendar.gif">
+<p>詳しくは、次の節を参照してください。<a href="../building-journeys/journey-ui.md"> ジャーニーの参照とフィルタリング </a>、<a href="../campaigns/modify-stop-campaign.md"> キャンペーンへのアクセス </a>。</p>
+<p>公開日：2025年5月28日（PT）</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -82,6 +101,80 @@ ht-degree: 35%
 <table>
 <thead>
 <tr>
+<th><strong>イベントトリガージャーニーの追加 ID</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>プロファイル ID と別のトリガー（注文 ID、購読 ID、処方箋 ID など）を使用してジャーニーを識別できるようになり、同じプロファイルを同じジャーニーに同時に複数回含めることができます。 これにより、複数の注文や購読を並行して管理し、各インスタンスがジャーニーを通じて独自のパスに従うなどのシナリオが可能になります。</p>
+<p>詳しくは、<a href="../building-journeys/supplemental-identifier.md">詳細なドキュメント</a>を参照してください。</p>
+<p>この機能は、一連の組織でのみ使用できます（限定提供）。アクセスするには、アドビ担当者にお問い合わせください。</p>
+<p>公開日：2025年5月23日（PT）</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>コンテンツのバリエーションをシミュレート</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>以前はベータ版で提供されていましたが、コンテンツバリエーションのシミュレーションが一般提供（GA）されるようになりました。これを使用すると、CSV ファイルまたは JSON ファイルからアップロードした、または手動で追加したサンプル入力データを使用して、コンテンツの様々なバリエーションをプレビューできます。パーソナライゼーションのコンテンツで使用されるすべての属性は、システムによって自動的に検出され、複数のバリアントを作成するテストに使用できます。</p>
+<p>以前は限定提供でリリースされていましたが、現在はすべての環境でこの機能を使用できます。 この一般提供リリースで、この機能に多言語コンテンツとコンテンツ実験のサポートが含まれるようになり、様々な言語や処理でのバリエーションをテストできます。 さらに、（プロファイル属性に加えて）コンテキスト属性もサポートされるようになり、より動的で状況に応じたコンテンツテストが可能になりました。</p>
+<img src="assets/do-not-localize/variants.gif">
+<p>詳しくは、<a href="../test-approve/simulate-sample-input.md">詳細なドキュメント</a>を参照してください。</p>
+<p>公開日：2025年5月23日（PT）</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>オーディエンスを読み取りスケジュールをバッチセグメント化ジョブと同期</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>バッチセグメント化の完了後に毎日のジャーニー実行をトリガーできるようになりました。 すべてのお客様が、毎日スケジュールされるジャーニーでこのオプションを利用できるようになりました。 これにより、最大 6 時間の時間枠を定義して、バッチセグメント化ジョブからのオーディエンスデータを待機し、ジャーニーが最新のデータで実行されるか、準備ができていない場合はスキップされるようにします。</p>
+<p>以前は限定提供でリリースされていましたが、現在はすべての環境でこの機能を利用できます（一般提供）。</p>
+<img src="assets/do-not-localize/trigger-journeys.gif">
+<p>詳しくは、<a href="../building-journeys/read-audience.md#schedule">詳細なドキュメント</a>を参照してください。</p>
+<p>公開日：2025年5月20日（PT）</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>カスタム SMS プロバイダー</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizerでは、デフォルトのオプション（Sinch、Infobip および Twilio）以外にも、追加の SMS プロバイダーを設定できるようになりました。 カスタムの SMS プロバイダー設定を使用すると、サードパーティプロバイダーを直接統合し、動的メッセージ用の高度なペイロードカスタマイズを活用し、同意設定（オプトイン/オプトアウト）を管理してコンプライアンスを確保できます。</p>
+<p>詳しくは、<a href="../sms/sms-configuration-custom.md">詳細なドキュメント</a>を参照してください。</p>
+<p>以前は限定提供でリリースされていましたが、現在はすべての環境でこの機能を利用できます（一般提供）。</p></td>
+<p>公開日：2025年5月20日（PT）</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>E メールDesignerのテーマ</strong><br/></th>
 </tr>
 </thead>
@@ -116,44 +209,6 @@ ht-degree: 35%
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>オーディエンスを読み取りスケジュールをバッチセグメント化ジョブと同期</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>バッチセグメント化の完了後に毎日のジャーニー実行をトリガーできるようになりました。 すべてのお客様が、毎日スケジュールされるジャーニーでこのオプションを利用できるようになりました。 これにより、最大 6 時間の時間枠を定義して、バッチセグメント化ジョブからのオーディエンスデータを待機し、ジャーニーが最新のデータで実行されるか、準備ができていない場合はスキップされるようにします。</p>
-<p>以前は限定提供でリリースされていましたが、現在はすべての環境でこの機能を利用できます（一般提供）。</p>
-<img src="assets/do-not-localize/trigger-journeys.gif">
-<p>詳しくは、<a href="../building-journeys/read-audience.md#schedule">詳細なドキュメント</a>を参照してください。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>キャンペーンおよびジャーニーインベントリのカレンダー表示</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>ジャーニーリストとキャンペーンリストでカレンダー表示を使用できるようになりました。 これにより、すべてのジャーニーとキャンペーンのアクティベーションをそれぞれのリストで視覚化できます。</p>
-<p>この変更は現在、一連の組織でのみ使用できます（使用制限あり）。 アクセスをリクエストするには、<a href="https://forms.cloud.microsoft/r/FC49afuJVi" target="_blank"> このフォーム </a> を使用します。</p>
-
-
-<img src="assets/do-not-localize/calendar.gif">
-<p>詳しくは、次の節を参照してください。<a href="../building-journeys/journey-ui.md"> ジャーニーの参照とフィルタリング </a>、<a href="../campaigns/modify-stop-campaign.md"> キャンペーンへのアクセス </a>。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
 <!--<table>
 <thead>
 <tr>
@@ -176,24 +231,6 @@ ht-degree: 35%
 </tbody>
 </table>-->
 
-<table>
-<thead>
-<tr>
-<th><strong>コンテンツのバリエーションをシミュレート</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>以前はベータ版で提供されていましたが、コンテンツバリエーションのシミュレーションが一般提供（GA）されるようになりました。これを使用すると、CSV ファイルまたは JSON ファイルからアップロードした、または手動で追加したサンプル入力データを使用して、コンテンツの様々なバリエーションをプレビューできます。パーソナライゼーションのコンテンツで使用されるすべての属性は、システムによって自動的に検出され、複数のバリアントを作成するテストに使用できます。</p>
-<p>以前は限定提供でリリースされていましたが、現在はすべての環境でこの機能を使用できます。 この一般提供リリースで、この機能に多言語コンテンツとコンテンツ実験のサポートが含まれるようになり、様々な言語や処理でのバリエーションをテストできます。 さらに、（プロファイル属性に加えて）コンテキスト属性もサポートされるようになり、より動的で状況に応じたコンテンツテストが可能になりました。</p>
-<img src="assets/do-not-localize/variants.gif">
-<p>詳しくは、<a href="../test-approve/simulate-sample-input.md">詳細なドキュメント</a>を参照してください。</p>
-<p>公開日：2025年5月23日（PT）</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <!--table>
 <thead>
@@ -209,41 +246,6 @@ ht-degree: 35%
 </tr>
 </tbody>
 </table-->
-
-<table>
-<thead>
-<tr>
-<th><strong>カスタム SMS プロバイダー</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizerでは、デフォルトのオプション（Sinch、Infobip および Twilio）以外にも、追加の SMS プロバイダーを設定できるようになりました。 カスタムの SMS プロバイダー設定を使用すると、サードパーティプロバイダーを直接統合し、動的メッセージ用の高度なペイロードカスタマイズを活用し、同意設定（オプトイン/オプトアウト）を管理してコンプライアンスを確保できます。</p>
-<p>詳しくは、<a href="../sms/sms-configuration-custom.md">詳細なドキュメント</a>を参照してください。</p>
-<p>以前は限定提供でリリースされていましたが、現在はすべての環境でこの機能を利用できます（一般提供）。</p></td>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>イベントトリガージャーニーの追加 ID</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>プロファイル ID と別のトリガー（注文 ID、購読 ID、処方箋 ID など）を使用してジャーニーを識別できるようになり、同じプロファイルを同じジャーニーに同時に複数回含めることができます。 これにより、複数の注文や購読を並行して管理し、各インスタンスがジャーニーを通じて独自のパスに従うなどのシナリオが可能になります。</p>
-<p>詳しくは、<a href="../building-journeys/supplemental-identifier.md">詳細なドキュメント</a>を参照してください。</p>
-<p>この機能は、一連の組織でのみ使用できます（限定提供）。アクセスするには、アドビ担当者にお問い合わせください。</p>
-<p>公開日：2025年5月23日（PT）</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 
 ### 機能強化 {#25-05-improv}
@@ -275,15 +277,15 @@ ht-degree: 35%
   >
   >この機能は、今後 30 日間にわたってすべての環境に段階的にロールアウトされます。
 
-* Web チャネルでの **URL にリダイレクト」のサポート**
+* Web チャネルでの **「URL にリダイレクト」のサポート** – 公開日：2025 年 5 月 20 日（PT）
 
   Journey Optimizer web チャネルで、ビジュアルエディターで新しいバリエーションを作成するのではなく、別の既存の URL に訪問者をリダイレクトできるようになりました。 この機能を使用すると、ページ内のいくつかの要素を変更するだけで済むわけではなく、2 つの完全に異なるページを比較する実験を実行できます。 [詳細情報](../web/create-web.md#web-redirect-to-url)
 
-* **テンプレートとフラグメントのフォルダー**
+* **テンプレートおよびフラグメントのフォルダー** – 公開日：2025 年 5 月 20 日（PT）
 
   フォルダーを使用すると、オブジェクトをより簡単かつ効果的に構造化された階層に整理できます。 以前は一連の組織（LA）に対して提供されていましたが、すべてのユーザー（GA）に対してコンテンツテンプレートとフラグメントを管理できるようになりました。詳しくは、[ コンテンツテンプレート ](../content-management/access-content-templates.md#folders) および [ フラグメント ](../content-management/manage-fragments.md#folders) の節を参照してください。
 
-* **E メールテンプレートでのクリックトラッキング**
+* **メールテンプレートでのクリックトラッキング** – 公開日：2025 年 5 月 20 日（PT）
 
   メールコンテンツ `<area>` 画像マップ内の要素のクリックトラッキングが、[!DNL Journey Optimizer] でネイティブにサポートされるようになりました。 これは、画像マップ領域が、標準のハイパーリンクと同じトラッキングラッピング、トラッキングデータおよび追加されたパラメーターを確実に受け取るためです。 [ メッセージトラッキングの詳細情報 ](../email/message-tracking.md#manage-tracking)
 
@@ -292,7 +294,7 @@ ht-degree: 35%
   
   Journey Optimizer now allows you to leverage Adobe Experience Platform datasets in the following Decisioning objects: eligibility rules, ranking formulas, and capping rules.-->
 
-* **キャンペーンリストの右側のパネル**
+* **キャンペーンリストの右側のパネル** – 公開日：2025 年 5 月 20 日（PT）
 
   キャンペーンリストでキャンペーンを選択すると、詳細を表示するパネルが開くようになりました。
 

@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: 外部, API, Optimizer, キャッピング
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
-source-git-commit: 9f801b1fdcab38bffff851675eca5e2fb61dfbf9
+source-git-commit: 60cb5e1ba2b5c8cfd0a306a589c85761be1cf657
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1025'
+ht-degree: 98%
 
 ---
 
@@ -101,7 +101,7 @@ Throttling API を使用すると、スロットル設定を作成、設定お�
 スロットル設定を作成、削除またはデプロイする際に、次のエラーが発生する場合があります。
 
 * **ERR_THROTTLING_CONFIG_100**：スロットル設定 : `<mandatory attribute>` は必須です
-* **ERR_THROTTLING_CONFIG_101**：スロットル設定 : maxThroughput は必須で、200 以上 5000 以下にする必要があります
+* **ERR_THROTTLING_CONFIG_101**：スロットル設定 : maxThroughput は必須で、200 以上 5,000 以下にする必要があります
 * **ERR_THROTTLING_CONFIG_104**：スロットル設定 : 不正な URL パターンです
 * **ERR_THROTTLING_CONFIG_105**：スロットル設定 : URL パターンのホスト部分ではワイルドカードは使用できません
 * **ERR_THROTTLING_CONFIG_106**：スロットル設定 : 無効なペイロードです

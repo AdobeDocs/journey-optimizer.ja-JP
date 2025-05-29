@@ -8,7 +8,7 @@ role: Developer, Data Engineer
 level: Experienced
 keywords: ジャーニー, データソース, 制限, スループット, カスタム, アクション
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
+source-git-commit: 60cb5e1ba2b5c8cfd0a306a589c85761be1cf657
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 100%
