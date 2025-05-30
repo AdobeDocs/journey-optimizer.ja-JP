@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3e777cc5-a935-4e68-9de7-60b241e78f63
-source-git-commit: c48763c2b0ef6b6eaeb39948b01877ac874f6893
+source-git-commit: 7505a8b074b15e30cf1d1967726da905d974c696
 workflow-type: tm+mt
-source-wordcount: '970'
-ht-degree: 85%
+source-wordcount: '1075'
+ht-degree: 74%
 
 ---
 
@@ -26,18 +26,29 @@ Adobe Experience Manager as a Cloud Service の Dynamic Media について詳し
 
 >[!AVAILABILITY]
 >
-> ヘルスケアのお客様の場合、統合は、Journey Optimizer Healthcare Shield およびAdobe Experience Manager Enhanced Security アドオン製品のライセンスを取得した場合にのみ有効になります。
+>ヘルスケアのお客様の場合、統合は、Journey Optimizer Healthcare Shield およびAdobe Experience Manager Enhanced Security アドオン製品のライセンスを取得した場合にのみ有効になります。
+
 
 ## Dynamic Media の追加と管理 {#dynamic-media}
 
 >[!IMPORTANT]
 >
->OpenAPI を使用した Dynamic Media がAdobe Experience Manager as a Cloud Serviceで有効になっていることを確認します。 [詳細情報](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview#enable-dynamic-media-open-apis)
-
+>OpenAPI を使用した Dynamic Media がAdobe Experience Manager as a Cloud Serviceで有効になっていることを確認します。 [詳細情報](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview#enable-dynamic-media-open-apis)
 
 Adobe Experience Manager as a Cloud Service の Dynamic Media を Journey Optimizer コンテンツに直接挿入すると、任意の画面やブラウザー向けにコンテンツを強化および最適化できます。その後、必要に応じてサイズ変更、切り抜き、拡大などの調整を行うことができます。
 
-Dynamic Media は、Dynamic Media [Scene7 モード ](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"} と [OpenAPI を使用 ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} の両方で使用できます。
+Dynamic Media は、Dynamic Media [Scene7 モード ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"} と [OpenAPI を使用 ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"} の両方で使用できます。
+
+>[!AVAILABILITY]
+>
+>古いバージョンの Outlook （2016 を含む）では、Dynamic Media を使用したコンテンツのレンダリングはサポートされていません。  アドビでは、互換性を向上させるために恒久的な修正に積極的に取り組んでいます。 それまでの間、次のガイドラインを適用します。
+>
+>* Dynamic Media Scene7 の URL の場合：画像 URL に `?bfc=on` を追加します。 これにより、フォーマットの自動ネゴシエーションが可能になり、クライアントの機能に応じて最も互換性の高いイメージ形式が確実に配信されます。
+>
+>* Open API を使用する Dynamic Media の場合：`.avif` 形式を使用します。 この形式には、必要に応じて互換性のある形式を配信する組み込みのフォールバックメカニズムが含まれています。
+>
+
+HTML コンテンツにAdobe Experience Manager アセットを追加するには、次の手順に従います。
 
 1. **[!UICONTROL HTML コンポーネント]**&#x200B;をコンテンツにドラッグ＆ドロップします。
 
@@ -63,7 +74,7 @@ Dynamic Media は、Dynamic Media [Scene7 モード ](https://experienceleague.a
 
 これで、コンテンツに Dynamic Media が含まれるようになりました。Experience Manager で行った更新は、Journey Optimizer に自動的に表示されます。
 
-## テキストオーバーレイのパーソナライズ {#text-overlay}
+## テキストオーバーレイをパーソナライズ {#text-overlay}
 
 既存のテキストオーバーレイを選択した新しいテキストに置き換えることで、Dynamic Media を簡単にカスタマイズし、シームレスな更新とパーソナライゼーションが可能になります。
 
@@ -71,7 +82,9 @@ Dynamic Media は、Dynamic Media [Scene7 モード ](https://experienceleague.a
 
 ![](assets/dynamic-media-layout-1.png)
 
-**テキストオーバーレイのパーソナライゼーション** は、Dynamic Media [Scene7 モード ](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"} でのみ使用できます。 ヘルスケアのお客様は Scene7 モードにアクセスできないので、コンテンツは画像のJourney Optimizer バイナリコピーを使用してレンダリングされます。 例外については、Experience Manager サポートにお問い合わせください。
+**テキストオーバーレイのパーソナライゼーション** は、Dynamic Media [Scene7 モード ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"} でのみ使用できます。 ヘルスケアのお客様は Scene7 モードにアクセスできないので、コンテンツは画像のJourney Optimizer バイナリコピーを使用してレンダリングされます。 例外については、Adobeの担当者にお問い合わせください。
+
+テキストオーバーレイをパーソナライズするには、次の手順に従います。
 
 1. **[!UICONTROL HTML コンポーネント]**&#x200B;をコンテンツにドラッグ＆ドロップします。
 
@@ -110,7 +123,7 @@ Dynamic Media は、Dynamic Media [Scene7 モード ](https://experienceleague.a
 
 Journey Optimizer で Dynamic Media テンプレートを簡単に追加し、必要に応じてメディアコンテンツを更新できます。これで、メディアにパーソナライゼーションフィールドを組み込むことができるようになり、Journey Optimizer 内でよりカスタマイズされた魅力的なコンテンツを作成できるようになりました。
 
-**Dynamic Media テンプレート** は、Dynamic Media [Scene7 モード ](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/assets/dynamic/config-dms7) でのみ使用できます。 ヘルスケアのお客様は Scene7 モードにアクセスできないので、コンテンツはレンダリングされません。 例外については、Experience Manager サポートにお問い合わせください。
+**Dynamic Media テンプレート** は、Dynamic Media [Scene7 モード ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/config-dms7) でのみ使用できます。 ヘルスケアのお客様は Scene7 モードにアクセスできないので、コンテンツはレンダリングされません。 例外については、Experience Manager サポートにお問い合わせください。
 
 詳しくは、[Dynamic Media テンプレート](https://experienceleague.adobe.com/ja/docs/dynamic-media-classic/using/template-basics/quick-start-template-basics){target="_blank"}を参照してください。
 
@@ -231,7 +244,7 @@ Enable conditional content in your dynamic media to better target your audience 
 
 ## チュートリアルビデオ {#video}
 
-Adobe Experience Manager Dynamic Media を Adobe Journey Optimizer と統合して、コンテンツのリアルタイムの更新とパーソナライゼーションを可能にする方法について説明します。
+Adobe Experience Manager Dynamic Media をAdobe Journey Optimizerと統合して、コンテンツのリアルタイム更新とパーソナライゼーションを有効にする方法を説明します。
 
 このチュートリアルでは、AJO 内で画像を直接変更する方法、HTML モードを使用してテキストオーバーレイを追加する方法、AEM で高度なパーソナライゼーション用の Dynamic Media テンプレートを作成する方法、様々なオーディエンスセグメントに合わせてコンテンツを調整してキャンペーンをパーソナライズする方法について説明します。この統合により、マーケターは、アプリケーションを切り替えずに、パーソナライズされた魅力的なキャンペーンを効率的に作成できます。
 
