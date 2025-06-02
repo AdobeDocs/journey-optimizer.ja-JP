@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 07ec74fb-7fbc-48c6-a8fc-f58f24a60723
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '728'
-ht-degree: 100%
+source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
+workflow-type: tm+mt
+source-wordcount: '766'
+ht-degree: 90%
 
 ---
 
@@ -32,6 +32,10 @@ ht-degree: 100%
 * また、非表示または抽象された表示を目的として、コンテンツ コンテナの特定の部分に拡張することもできます（サービスに配信される JSON BLOB など）。
 
 * また、様々なクライアントサーフェス定義に一致するワイルドカードサーフェスにすることもできます（例えば、web サイトの各ページのヒーロー画像の場所を web://mydomain.com/*#hero_image のようなサーフェス URI に変換できます）。
+
+>[!NOTE]
+>
+>同じサーフェスで実行されているコードベースのエクスペリエンスアクションが複数ある場合、キャンペーンまたはジャーニーの **[!UICONTROL 優先度スコア]** によって、複数のアクションの対象となるエンドユーザーに配信される内容が決定されます。 [ 優先度スコアの詳細情報 ](../conflict-prioritization/priority-scores.md)
 
 ## サーフェス識別子 {#surface-uri}
 
@@ -72,8 +76,8 @@ ht-degree: 100%
 
 [!DNL Journey Optimizer] では、コードベースのエクスペリエンスチャネルが次の 2 つのタイプの顧客実装をサポートしています。
 
-* Web サイト用の [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja){target="_blank"} またはモバイルアプリ用の [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} に基づくタイプ。
-* [AEP Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=ja){target="_blank"} を使用するサーバーサイドまたはハイブリッドに基づくタイプ。
+* Web サイトの [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja){target="_blank"} またはモバイルアプリの [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} に基づきます。
+* [AEP Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=ja){target="_blank"} を使用したサーバーサイドまたはハイブリッド。
 
 >[!NOTE]
 >

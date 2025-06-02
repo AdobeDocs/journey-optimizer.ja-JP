@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 0b7f76ca43ef8dda3861abf2c3b058cef725e967
+source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
 workflow-type: tm+mt
-source-wordcount: '1715'
-ht-degree: 98%
+source-wordcount: '1735'
+ht-degree: 96%
 
 ---
 
@@ -215,6 +215,10 @@ Web サイトやモバイルアプリで訪問者に最適な動的なオファ�
 1. 各フォルダーをクリックして展開します。目的の場所にマウスのカーソルを置き、追加する属性の横にある「+」アイコンをクリックします。必要な数の属性をコードに追加できます。
 
    ![](assets/decision-code-based-add-decision-attributes.png)
+
+1. 必ず `#each` ループを 1 組の角かっこ `[ ]` で囲み、終了 `/each` の直前にコンマを追加します。
+
+   ![](assets/decision-code-based-wrap-code.png)
 
 1. また、パーソナライゼーションエディターで使用できる他の属性（プロファイル属性など）を追加することもできます。
 

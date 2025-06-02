@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
+source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 95%
+source-wordcount: '698'
+ht-degree: 83%
 
 ---
 
@@ -41,9 +41,13 @@ ht-degree: 95%
 
 1. メッセージの「**[!UICONTROL ラベル]**」と「**[!UICONTROL 説明]**」を入力します。
 
-1. 使用する[コードベースのエクスペリエンス設定](code-based-configuration.md)を選択または作成します。
+1. 使用するコードベースのエクスペリエンス設定を選択または作成します。 [詳細情報](code-based-configuration.md)
 
    ![](assets/code-based-activity-config.png)
+
+   >[!NOTE]
+   >
+   >同じチャネル設定を使用してコードベースのエクスペリエンスアクションが複数ある場合、ジャーニーの **[!UICONTROL 優先度スコア]** によって、複数のアクションの対象となる場合にエンドユーザーに配信される内容が決定されます。 [ 優先度スコアの詳細情報 ](../conflict-prioritization/priority-scores.md)
 
 1. 「**[!UICONTROL コンテンツを編集]**」ボタンを選択し、パーソナライゼーションエディターを使用して必要に応じてコンテンツを編集します。[詳細情報](#edit-code)
 
@@ -67,9 +71,13 @@ ht-degree: 95%
 
 1. **[!UICONTROL コードベースのエクスペリエンス]**&#x200B;アクションを選択します。
 
-1. コードベースのエクスペリエンス設定を選択または作成します。[詳細情報](code-based-configuration.md)
+1. 使用するコードベースのエクスペリエンス設定を選択または作成します。 [詳細情報](code-based-configuration.md)
 
    ![](assets/code-based-campaign-surface.png)
+
+   >[!NOTE]
+   >
+   >同じチャネル設定を使用するコードベースのエクスペリエンスアクションが複数ある場合、キャンペーンの **[!UICONTROL 優先度スコア]** によって、複数のアクションに該当する場合にエンドユーザーに配信される内容が決定されます。 [ 優先度スコアの詳細情報 ](../conflict-prioritization/priority-scores.md)
 
 1. パーソナライゼーションエディターを使用して、必要に応じてコンテンツを編集します。[詳細情報](#edit-code)
 
@@ -123,4 +131,4 @@ ht-degree: 95%
 
 以下のビデオでは、コードベースのエクスペリエンスキャンペーンの作成、プロパティの設定、テスト、公開の方法を確認できます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3449454/?quality=12&learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3428868/?quality=12&learn=on)
