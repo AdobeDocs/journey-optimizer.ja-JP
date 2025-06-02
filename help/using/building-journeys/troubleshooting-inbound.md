@@ -91,11 +91,11 @@ ht-degree: 1%
 
 >[!TAB Web チャネル]
 
-ページにアクセスして「ネットワーク」タブを調べるか、[Assurance} セッションの **[!UICONTROL Edge Delivery]** セクションのEdge応答ペイロードを確認し ](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} す。
+ページにアクセスして「ネットワーク」タブを調べるか、[Assurance&rbrace; セッションの **[!UICONTROL Edge Delivery]** セクションのEdge応答ペイロードを確認し ](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} す。
 
 >[!TAB  コードベースのエクスペリエンスチャネル ]
 
-[Adobe API を使用して curl リクエストを実行し ](https://developer.adobe.com/data-collection-apis/docs/api/)[Assurance} セッションの **[!UICONTROL Edge Delivery]** セクションでEdge応答ペイロードを確認し ](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} す。
+[Adobe API を使用して curl リクエストを実行し ](https://developer.adobe.com/data-collection-apis/docs/api/) [Assurance&rbrace; セッションの **[!UICONTROL Edge Delivery]** セクションでEdge応答ペイロードを確認し ](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} す。
 
 >[!ENDTABS]
 
@@ -113,7 +113,7 @@ Edge Networkの動作をデバッグするには、次の手順に従います�
 
    <!--![](assets/troubleshoot-inbound-scenario-1-edge-delivery.png)-->
 
-1. インバウンドアクションに対応するEdge アクティビティが、「適格なアクティビティ **[!UICONTROL または**[!UICONTROL  未適格なアクティビティ ]**のセクションに表示されているかどうかを確認し]** す。
+1. インバウンドアクションに対応するEdge アクティビティが、「適格なアクティビティ **[!UICONTROL または**&#x200B;[!UICONTROL &#x200B; 未適格なアクティビティ &#x200B;]&#x200B;**のセクションに表示されているかどうかを確認し]** す。
 
    * **選定されたアクティビティ** セクションの場合、インバウンドジャーニーアクションに選定されたプロファイルとコンテンツを返す必要があります。
    * 「**未選定のアクティビティ**」セクションの場合、プロファイルはインバウンドジャーニーアクションに選定されませんでした。 詳しくは、除外理由を参照してください。
