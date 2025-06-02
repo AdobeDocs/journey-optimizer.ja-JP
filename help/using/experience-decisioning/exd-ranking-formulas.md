@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
-source-git-commit: 07704f99aff7d92e8db76755f6617345bac56590
+source-git-commit: 86b83f8b368a77ef96581c422f19f35d939e51f4
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1182'
 ht-degree: 21%
 
 ---
@@ -42,11 +42,17 @@ ht-degree: 21%
 
    ![](assets/create-formula.png){width="80%"}
 
-1. 必要に応じて、「**[!UICONTROL AI モデルを選択]**」をクリックして、ランキング式を作成するための参照として使用するモデルを設定します。 以下で式を定義する際にモデルスコアを参照するたびに、選択した AI モデルが使用されます。
+1. 必要に応じて、「**[!UICONTROL AI モデルを選択]**」をクリックして、ランキング式を作成するための参照として使用するモデルを設定します。
 
-   >[!CAUTION]
+   >[!NOTE]
    >
-   >ランキング式に組み込まれた AI モデルを使用する場合、データは「除外とモデル駆動トラフィックのコンバージョン率 [ レポートに反映されません ](../reports/campaign-global-report-cja-code.md#conversion-rate)。
+   >[ パーソナライズされた最適化モデル ](../offers/ranking/personalized-optimization-model.md) 連続指標の使用は、AI 式ビルダーではサポートされていません。
+
+以下で式を定義する際にモデルスコアを参照するたびに、選択した AI モデルが使用されます。
+
+    >[！注意 ]
+    >
+    > ランキング式に組み込まれた AI モデルを使用する場合、[ 除外およびモデル駆動トラフィックのコンバージョン率 ] （../reports/campaign-global-report-cja-code.md#conversion-rate） レポートにデータが反映されません。
 
 1. 一致する決定項目のランキングスコアを決定する条件を定義します。 次のいずれかを実行できます
 
