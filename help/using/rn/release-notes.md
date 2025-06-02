@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3343f4f525db4b8bc5b5f6e12f9c6f5f0290b034
+source-git-commit: 348a1c0bfaca1abe7fd5705b36879af30da18e54
 workflow-type: tm+mt
-source-wordcount: '1176'
-ht-degree: 32%
+source-wordcount: '1239'
+ht-degree: 31%
 
 ---
 
@@ -21,6 +21,26 @@ ht-degree: 32%
 >abstract="**Adobe Journey Optimizer** は、新機能、既存機能の強化およびバグ修正を継続的に提供します。これらのリリースノートでは、すべての変更が各月の最終週にまとめられます。"
 
 [!DNL Adobe Journey Optimizer] は、新機能、既存機能の強化、およびバグ修正を継続的に提供します。これらのリリースノートでは、すべての変更が各月の最終週にまとめられます。[!DNL Adobe Journey Optimizer] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}を参照してください。
+
+## 2025 年 6 月の更新 {#25-6-rn}
+
+
+<table>
+<thead>
+<tr>
+<th><strong>実験の勝者を拡大・縮小</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>実験の勝者をスケーリングすると、実験の勝者バリエーションを自動または手動でオーディエンス全体にロールアウトできます。 この機能により、パフォーマンスの高い人物を特定した後も、手動で常に監視することなく、その人物のリーチと有効性を最大限に高めることができます。</p>
+<p>詳しくは、<a href="../content-management/content-experiment.md">詳細なドキュメント</a>を参照してください。</p>
+<p>公開日：2025 年 6 月 2 日（PT）</p></td>
+</tr>
+</tbody>
+</table>
+
 
 ## 2025 年 5 月のリリースノート {#25-5-rn}
 
@@ -232,21 +252,6 @@ ht-degree: 32%
 </tbody>
 </table>-->
 
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Scale your Experimentation winner</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Scale the Winner enables you to automatically or manually roll out the winning variation of an experiment to your full audience. This feature ensures that, once a top performer is identified, you can maximize its reach and effectiveness without constant manual oversight.</p>
-</td>
-</tr>
-</tbody>
-</table-->
 
 
 ### 機能強化 {#25-05-improv}
