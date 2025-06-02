@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: インバウンドアクション，トラブルシューティング，ジャーニー，デバッグ，セルフヘルプ，チェック，エラー
-source-git-commit: 86b83f8b368a77ef96581c422f19f35d939e51f4
+source-git-commit: 344cfd108b44a1b34408423418f45f125474bbe5
 workflow-type: tm+mt
 source-wordcount: '1662'
 ht-degree: 1%
@@ -38,7 +38,7 @@ ht-degree: 1%
 
 トラブルシューティングを開始する前に、以下を確認します。
 
-1. **Assurance** セッションを設定します。 方法については、[Adobe Experience Platform Assurance ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} を参照してください。
+1. **Assurance** セッションを設定します。 方法については、[Adobe Experience Platform Assurance ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} を参照してください。
 
 1. インバウンドアクションを含むジャーニーに移動して、ジャーニー名とバージョン ID を取得します。
 
@@ -67,7 +67,7 @@ ht-degree: 1%
 
 2. platform id **定義された「joai」 id**
 
-   インバウンドアクションは、プロファイル `segmentMembership` で **&#39;joai&#39;** 名前空間を使用して、インバウンドステップ用のプロファイルをアクティブ化します。 サンドボックスの Platform ID で定義されていることを確認します。 [Experience Platform ID サービス ](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/home){target="_blank"} の詳細情報
+   インバウンドアクションは、プロファイル `segmentMembership` で **&#39;joai&#39;** 名前空間を使用して、インバウンドステップ用のプロファイルをアクティブ化します。 サンドボックスの Platform ID で定義されていることを確認します。 [Experience Platform ID サービス ](https://experienceleague.adobe.com/en/docs/experience-platform/identity/home){target="_blank"} の詳細情報
 
 ### デバッグ手順 {#debugging-steps}
 
@@ -83,7 +83,7 @@ ht-degree: 1%
 
 >[!TAB アプリ内チャネル]
 
-1. [Assurance](https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} セッションに移動し、左パネルから **[!UICONTROL アプリ内メッセージ]** セクションを選択します。
+1. [Assurance](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} セッションに移動し、左パネルから **[!UICONTROL アプリ内メッセージ]** セクションを選択します。
 
 1. **[!UICONTROL デバイス上のメッセージ]** タブで **[!UICONTROL メッセージ]** ドロップダウンリストをクリックし、ジャーニー名の後に「– アプリ内メッセージ」が続くメッセージを確認します。 存在する場合は、アプリ内メッセージがデバイス/クライアントに存在し、問題がアプリ内トリガーに関連している可能性があります。
 
@@ -91,11 +91,11 @@ ht-degree: 1%
 
 >[!TAB Web チャネル]
 
-ページにアクセスして「ネットワーク」タブを調べるか、[Assurance&rbrace; セッションの **[!UICONTROL Edge Delivery]** セクションのEdge応答ペイロードを確認し ](https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} す。
+ページにアクセスして「ネットワーク」タブを調べるか、[Assurance} セッションの **[!UICONTROL Edge Delivery]** セクションのEdge応答ペイロードを確認し ](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} す。
 
 >[!TAB  コードベースのエクスペリエンスチャネル ]
 
-[Adobe API を使用して curl リクエストを実行し ](https://developer.adobe.com/data-collection-apis/docs/api/) [Assurance&rbrace; セッションの **[!UICONTROL Edge Delivery]** セクションでEdge応答ペイロードを確認し ](https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} す。
+[Adobe API を使用して curl リクエストを実行し ](https://developer.adobe.com/data-collection-apis/docs/api/)[Assurance} セッションの **[!UICONTROL Edge Delivery]** セクションでEdge応答ペイロードを確認し ](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} す。
 
 >[!ENDTABS]
 
@@ -113,7 +113,7 @@ Edge Networkの動作をデバッグするには、次の手順に従います�
 
    <!--![](assets/troubleshoot-inbound-scenario-1-edge-delivery.png)-->
 
-1. インバウンドアクションに対応するEdge アクティビティが、「適格なアクティビティ **[!UICONTROL または**&#x200B;[!UICONTROL &#x200B; 未適格なアクティビティ &#x200B;]&#x200B;**のセクションに表示されているかどうかを確認し]** す。
+1. インバウンドアクションに対応するEdge アクティビティが、「適格なアクティビティ **[!UICONTROL または**[!UICONTROL  未適格なアクティビティ ]**のセクションに表示されているかどうかを確認し]** す。
 
    * **選定されたアクティビティ** セクションの場合、インバウンドジャーニーアクションに選定されたプロファイルとコンテンツを返す必要があります。
    * 「**未選定のアクティビティ**」セクションの場合、プロファイルはインバウンドジャーニーアクションに選定されませんでした。 詳しくは、除外理由を参照してください。
@@ -127,7 +127,7 @@ Edge Networkの動作をデバッグするには、次の手順に従います�
 
    プロファイルセクションの **segmentsMap** 要素を開いて、**joai** セグメント ID が存在するかどうかを探すことで、Edge Network配信サーバーのプロファイルのビューに **joai** セグメントが存在するかどうかを再確認できます。
 
-1. Edge Network配信サーバーがプロファイルを関連する **joai** セグメントに含まれていると表示しない場合は、次の手順に進みます。<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
+1. Edge Network配信サーバーがプロファイルを関連する **joai** セグメントに含まれていると表示しない場合は、次の手順に進みます。<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
 
 #### 手順 3:joai オーディエンスメンバーシップがEdge Networkに反映されているかどうかを確認する {#step-3}
 
@@ -148,11 +148,11 @@ Edge プロファイルの `segmentMembership` 属性に **joai** が含まれ�
 
 1. **[!UICONTROL JSON を表示]** をクリックして、プロファイルの JSON 表示を開きます。
 
-   ![](assets/troubleshoot-inbound-profile-view-json.png)
+   ![](assets/troubleshoot-inbound-profile-view-json.png){width="80%"}
 
 1. **[!UICONTROL segmentMembership]** 属性に移動し、セグメント ID `<JourneyVersionID>_<ActionID>` が **joai** 名前空間に存在するかどうか、および **[!UICONTROL realized]** <!--or existing?-->status に存在するかどうかを確認します。
 
-   ![](assets/troubleshoot-inbound-profile-json-realized.png)
+   ![](assets/troubleshoot-inbound-profile-json-realized.png){width="90%"}
 
    * 存在する場合は、インバウンドジャーニーアクションに対応する **joai** セグメントがEdge プロファイルに正しく伝播されたことを意味します。
 
@@ -222,9 +222,9 @@ Edge プロファイルの `segmentMembership` 属性に **joai** が含まれ�
 
 ## Reference Section {#reference-section}
 
-- [Assurance Setup Guide](https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/tutorials/using-assurance)
+- [Assurance Setup Guide](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance)
 - [Adobe Experience Platform Documentation](https://experienceleague.adobe.com/docs/experience-platform/home.html)
-- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=ja)
+- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html)
 
 ## Warnings and Notes {#warnings-and-notes}
 
