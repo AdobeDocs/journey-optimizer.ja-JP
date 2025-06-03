@@ -1,16 +1,16 @@
 ---
-title: イベントトリガージャーニーの追加の識別子
+title: イベントトリガージャーニーの補足識別子
 description: イベントトリガージャーニーで補足的な識別子を使用する方法を説明します。
 badge: label="限定提供" type="Informative"
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 source-git-commit: e7f4959ceaa238e39858196b08d739053b21835c
 workflow-type: tm+mt
 source-wordcount: '861'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
-# イベントトリガージャーニーの追加の識別子 {#supplemental-id}
+# イベントトリガージャーニーの補足識別子 {#supplemental-id}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_parameters_supplemental_identifier"

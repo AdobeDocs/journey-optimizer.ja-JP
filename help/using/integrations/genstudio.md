@@ -16,7 +16,7 @@ ht-degree: 92%
 
 ---
 
-# GenStudio for Performance Marketingの操作 {#ajo-genstudio}
+# GenStudio for Performance Marketing の操作 {#ajo-genstudio}
 
 >[!CONTEXTUALHELP]
 >id="ajo_genstudio_button"
@@ -140,4 +140,4 @@ The following limitations apply to GenStudio integration in [!DNL Adobe Journey 
 
 Journey Optimizer から GenStudio for Performance Marketing にメールテンプレートを書き出し、GenStudio のテンプレートを使用してブランドに準拠したメールを作成し、Journey Optimizer にシームレスに読み込むプロセスについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3456050/?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3456038/?quality=12)

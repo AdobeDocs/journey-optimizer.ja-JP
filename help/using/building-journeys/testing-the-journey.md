@@ -10,7 +10,7 @@ level: Intermediate
 keywords: テスト, ジャーニー, チェック, エラー, トラブルシューティング
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
 source-git-commit: 0f783c57ba946866cb74c2b16e1807ff963cfbaf
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1768'
 ht-degree: 100%
 

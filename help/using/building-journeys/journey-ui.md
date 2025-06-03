@@ -12,7 +12,7 @@ exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 source-git-commit: 29d12b6190f49e7f3f6fd2760e522a5a62c0de87
 workflow-type: tm+mt
 source-wordcount: '1179'
-ht-degree: 75%
+ht-degree: 78%
 
 ---
 
@@ -20,8 +20,8 @@ ht-degree: 75%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_view"
->title="ジャーニーリストおよびカレンダービュー"
->abstract="[!DNL Journey Optimizer] では、ジャーニーリストに加えて、ジャーニーのカレンダービューが提供され、ジャーニーのスケジュールが明確に視覚的に表現されます。 これらのボタンを使用すると、リスト表示とカレンダー表示をいつでも切り替えることができます。"
+>title="ジャーニーリストとカレンダー表示"
+>abstract="[!DNL Journey Optimizer]では、ジャーニーリストに加えて、ジャーニーのカレンダー表示が提供され、ジャーニーのスケジュールが明確に視覚的に表現されます。これらのボタンを使用すると、リスト表示とカレンダー表示をいつでも切り替えることができます。"
 
 ## ジャーニーダッシュボード {#dashboard-jo}
 
