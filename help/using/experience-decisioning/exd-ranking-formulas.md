@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
-source-git-commit: 86b83f8b368a77ef96581c422f19f35d939e51f4
+source-git-commit: 2f2caf8615af8e3526124e0d7ed91873ccb6edc3
 workflow-type: tm+mt
-source-wordcount: '1182'
-ht-degree: 21%
+source-wordcount: '1179'
+ht-degree: 22%
 
 ---
 
@@ -48,11 +48,11 @@ ht-degree: 21%
    >
    >[ パーソナライズされた最適化モデル ](../offers/ranking/personalized-optimization-model.md) 連続指標の使用は、AI 式ビルダーではサポートされていません。
 
-以下で式を定義する際にモデルスコアを参照するたびに、選択した AI モデルが使用されます。
+   以下で式を定義する際にモデルスコアを参照するたびに、選択した AI モデルが使用されます。
 
-    >[！注意 ]
-    >
-    > ランキング式に組み込まれた AI モデルを使用する場合、[ 除外およびモデル駆動トラフィックのコンバージョン率 ] （../reports/campaign-global-report-cja-code.md#conversion-rate） レポートにデータが反映されません。
+   >[!CAUTION]
+   >
+   >ランキング式に組み込まれた AI モデルを使用する場合、データは「除外とモデル駆動トラフィックのコンバージョン率 [ レポートに反映されません ](../reports/campaign-global-report-cja-code.md#conversion-rate)。
 
 1. 一致する決定項目のランキングスコアを決定する条件を定義します。 次のいずれかを実行できます
 
