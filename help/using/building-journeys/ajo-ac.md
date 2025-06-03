@@ -9,22 +9,22 @@ role: Admin, Data Engineer, User
 level: Intermediate, Experienced
 keywords: ジャーニー, メッセージ, キャンペーン, 統合
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
-source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
-workflow-type: ht
-source-wordcount: '413'
-ht-degree: 100%
+source-git-commit: 84beb9ba9646cb1b40bcfd8a180fc98963a8ff0b
+workflow-type: tm+mt
+source-wordcount: '389'
+ht-degree: 56%
 
 ---
 
 # ユースケース：Campaign v7／v8 を使用したメッセージの送信 {#campaign-v7-v8-use-case}
 
-このユースケースでは、Adobe Campaign v7 および Adobe Campaign v8 との統合を使用してメールを送信するために必要なすべての手順を示します。
+このユースケースでは、Adobe Campaign v7 およびAdobe Campaign v8 との統合を使用してメールを送信するために必要なすべての手順を説明します。
 
 >[!NOTE]
 >
 >この統合を使用するには、Campaign v7/v8 ビルド 9125 以降が必要です。
 
-まず、Campaign でトランザクションメールテンプレートを作成します。次に、Journey Optimizer で、イベント、アクションを作成し、ジャーニーをデザインします。
+まず、Campaign でトランザクションメールテンプレートを作成します。 次に、Journey Optimizerで、イベントとアクションを作成し、ジャーニーをデザインします。
 
 Campaign の統合について詳しくは、次のページを参照してください。
 
@@ -33,11 +33,11 @@ Campaign の統合について詳しくは、次のページを参照してく�
 
 **Adobe Campaign**
 
-Campaign インスタンスをこの統合用にプロビジョニングする必要があります。トランザクションメッセージ機能を設定する必要があります。
+Campaign インスタンスをこの統合用にプロビジョニングする必要があります。 トランザクションメッセージ機能を設定する必要があります。
 
 1. Campaign コントロールインスタンスにログインします。
 
-1. **管理**／**プラットフォーム**／**列挙**&#x200B;で、**イベントタイプ**（eventType）列挙を選択します。新しいイベントタイプ（この例では「journey-event」）を作成します。後で JSON ファイルを書き込む際には、イベントタイプの内部名を使用する必要があります。
+1. **管理**／**プラットフォーム**／**列挙**&#x200B;で、**イベントタイプ**（eventType）列挙を選択します。新しいイベントタイプ（この例では「journey-event」）を作成します。イベントタイプの内部名は、後で JSON ファイルを書き込む際に使用します。
 
    ![](assets/accintegration-uc-1.png)
 
@@ -47,7 +47,7 @@ Campaign インスタンスをこの統合用にプロビジョニングする�
 
    ![](assets/accintegration-uc-2.png)
 
-1. テンプレートをデザインします。この例では、プロファイルの名と注文番号にパーソナライゼーションを使用します。名は Adobe Experience Platform データソースにあり、注文番号は Journey Optimizer イベントのフィールドです。Campaign で正しいフィールド名を使用していることを確認します。
+1. テンプレートをデザインします。この例では、パーソナライゼーションがプロファイルの名と注文番号に適用されます。 名前はAdobe Experience Platform データソースにあり、注文番号はJourney Optimizer イベントのフィールドにあります。 Campaign で正しいフィールド名を使用していることを確認してください。
 
    ![](assets/accintegration-uc-3.png)
 
@@ -55,7 +55,7 @@ Campaign インスタンスをこの統合用にプロビジョニングする�
 
    ![](assets/accintegration-uc-4.png)
 
-1. 次に、テンプレートに対応する JSON ペイロードを記述する必要があります。
+1. テンプレートに対応する JSON ペイロードを記述します。
 
 ```
 {
@@ -75,15 +75,15 @@ Campaign インスタンスをこの統合用にプロビジョニングする�
 
 **Journey Optimizer**
 
-1. まず、イベントを作成する必要があります。「purchaseOrderNumber」フィールドを必ず含めてください。
+1. イベントを作成します。 「purchaseOrderNumber」フィールドを含めます。
 
    ![](assets/accintegration-uc-5.png)
 
-1. 次に、Journey Optimizer で、Campaign テンプレートに対応するアクションを作成する必要があります。「**アクションタイプ**」ドロップダウンで、**Adobe Campaign Classic** を選択します。
+1. キャンペーンテンプレートに対応するアクションをJourney Optimizerで作成します。 「**アクションタイプ**」ドロップダウンで、**Adobe Campaign Classic** を選択します。
 
    ![](assets/accintegration-uc-6.png)
 
-1. 「**ペイロードフィールド**」をクリックし、以前に作成した JSON を貼り付けます。
+1. 「**ペイロードフィールド** をクリックし、前に作成した JSON を貼り付けます。
 
    ![](assets/accintegration-uc-7.png)
 
