@@ -33,7 +33,7 @@ ht-degree: 55%
 
 スキーマエディターを使用してスキーマを作成する手順については、[Adobe Experience Platform ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja){target="_blank"} を参照してください。
 
-各スキーマのフィールドと属性の完全なリストを表示するには ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja){target="_blank"}[Journey Optimizer スキーマ辞書 } を参照してください。
+各スキーマのフィールドと属性の完全なリストを表示するには [&#128279;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja){target="_blank"}Journey Optimizer スキーマ辞書 &rbrace; を参照してください。
 
 
 ## チュートリアルビデオ{#video-schema}
