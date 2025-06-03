@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: a7468879b36dfe9184471824b387f1638fae3d50
-workflow-type: ht
-source-wordcount: '2504'
-ht-degree: 100%
+source-git-commit: 9618c46a8559631036d308bcc8defab77b88c052
+workflow-type: tm+mt
+source-wordcount: '2503'
+ht-degree: 99%
 
 ---
 
@@ -21,7 +21,11 @@ ht-degree: 100%
 
 使用権限、製品の制限事項、パフォーマンスガードレールの一覧については、[Adobe Journey Optimizer 製品説明ページ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}を参照してください。
 
-また、開始する前に、[リアルタイム顧客プロファイルデータのガードレール](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja){target="_blank"}も認識しておく必要があります。
+
+>[!CAUTION]
+>
+>[ リアルタイム顧客プロファイルデータとセグメント化のガードレール ](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja){target="_blank"} はAdobe Journey Optimizerにも当てはまります。
+
 
 ## サポートされているブラウザー {#browsers}
 

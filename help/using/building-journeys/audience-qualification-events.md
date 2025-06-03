@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 選定, イベント, オーディエンス, ジャーニー, プラットフォーム
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
-source-git-commit: 948637433e1a90421ff8bab87f78f92b02354a89
+source-git-commit: 9618c46a8559631036d308bcc8defab77b88c052
 workflow-type: tm+mt
-source-wordcount: '1210'
-ht-degree: 97%
+source-wordcount: '1236'
+ht-degree: 95%
 
 ---
 
@@ -33,7 +33,10 @@ ht-degree: 97%
 
 ➡️ [ビデオでこの機能を確認する](#video)
 
-### 重要な注意事項 {#important-notes-segment-qualification}
+### ガードレールとレコメンデーション {#important-notes-segment-qualification}
+
+以下のガードレールと推奨事項に従って、オーディエンスの選定ジャーニーを作成します。 [ オーディエンスの選定のベストプラクティス ](#best-practices-segments) も参照してください。
+
 
 * オーディエンスの選定ジャーニーは、主にストリーミングオーディエンスを操作するのに設計されています。この組み合わせにより、より優れたリアルタイムエクスペリエンスが保証されます。**ストリーミングオーディエンス**&#x200B;は、オーディエンスの選定アクティビティでのみ使用することを強くお勧めします。
 
@@ -50,12 +53,16 @@ ht-degree: 97%
   >
   >構成ワークフローとカスタムアップロードを使用して作成されたオーディエンスのバッチ特性により、「オーディエンスの選定」アクティビティでこれらのオーディエンスをターゲットにすることはできません。このアクティビティでは、セグメント定義を使用して作成されたオーディエンスのみを利用できます。
 
-* エクスペリエンスのイベントフィールドグループは、**オーディエンスを読み取り**&#x200B;アクティビティ、**オーディエンスの選定**&#x200B;アクティビティ、または&#x200B;**ビジネスイベント**&#x200B;アクティビティで始まるジャーニーでは使用できません。
+* エクスペリエンスイベントのフィールドグループは、**オーディエンスを読み取り**&#x200B;アクティビティ、**オーディエンスの選定**&#x200B;アクティビティ、または&#x200B;**ビジネスイベント**&#x200B;アクティビティで始まるジャーニーでは使用できません。
 
 * ジャーニーで&#x200B;**オーディエンスの選定**&#x200B;アクティビティを使用すると、そのアクティビティがアクティブになってオーディエンスにエントリまたは離脱するプロファイルをリッスンするのに、最大 10 分かかる場合があります。
 
 
-詳しくは、以下の[オーディエンスの選定のベストプラクティス](#best-practices-segments)も参照してください。
+>[!CAUTION]
+>
+>[ リアルタイム顧客プロファイルデータとセグメント化のガードレール ](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja){target="_blank"} はAdobe Journey Optimizerにも当てはまります。
+
+
 
 ### アクティビティの設定 {#configure-segment-qualification}
 
@@ -127,7 +134,7 @@ ht-degree: 97%
 
 ストリーミングセグメント化で開くイベントや送信イベントを使用しないでください。代わりに、クリック数、購入数、ビーコンデータなどの実際のユーザーアクティビティのシグナルを使用します。頻度または抑制ロジックについては、イベントを送信するのではなくビジネスルールを使用します。[詳細情報](../audience/about-audiences.md#open-and-send-event-guardrails)
 
-ストリーミングセグメント化について詳しくは、[Adobe Experience Platform のドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}を参照してください。
+ストリーミングセグメント化について詳しくは、[Adobe Experience Platform のドキュメント](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}を参照してください。
 
 ### オーバーロードの回避方法  {#overloads-speed-segment-qualification}
 
@@ -147,4 +154,4 @@ ht-degree: 97%
 
 オーディエンスの選定ジャーニーに当てはまるユースケースについて、このビデオで説明します。オーディエンスの選定を使用してジャーニーを構築する方法と、適用するベストプラクティスについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3446205?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
