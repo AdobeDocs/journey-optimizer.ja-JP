@@ -136,4 +136,4 @@ Adobe Experience Platform Audience ポータルを使用すると、選択した
 
 Journey Optimizerがルールを使用してオーディエンスを生成する方法を理解し、属性、イベントおよび既存のオーディエンスを使用してオーディエンスを作成する方法を学びます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3425020?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430329?quality=12&captions=jpn)
