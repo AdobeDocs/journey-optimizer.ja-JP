@@ -6,9 +6,9 @@ solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '334'
+ht-degree: 100%
 
 ---
 
@@ -20,21 +20,21 @@ Journey Optimizer 製品とドキュメントの最新の機能強化の概要�
 
 >[!BEGINTABS]
 
->[!TAB 2025 年 5 月リリース ]
+>[!TAB 2025年5月リリース]
 
-5 月リリースが公開されました。 リリースノートを参照して、新機能、変更点および機能強化を確認してください。
+5月リリースが公開されました。リリースノートを参照して、新機能、変更点および機能強化を確認してください。
 
 [![詳細情報](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
 >[!TAB Adobe Express の統合]
 
-Adobe Journey OptimizerはAdobe Expressと統合され、クリエイティブアセットを journey orchestration とシームレスに接続できるようになりました。
+Adobe Journey Optimizer は Adobe Express と統合され、アセットをジャーニーオーケストレーションとシームレスに接続できるようになりました。
 
 [![詳細情報](using/assets/do-not-localize/learn-more-button.svg)](using/integrations/express.md)
 
 >[!TAB AI アシスタント]
 
-✨ 機能を直接調べて機能を完全に理解できるように設計された [AI アシスタント ](../help/using/content-management/gs-generative.md) のライブ機能プレビューで、実践的な体験に没頭してください。
+✨[AI アシスタント](../help/using/content-management/gs-generative.md)ライブ機能プレビューで実際のエクスペリエンスに浸りましょう。このプレビューは、その機能を直接探索し、その機能を完全に理解できるように設計されています。
 
 [![詳細情報](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/ja/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
@@ -47,7 +47,7 @@ Journey Optimizer レポートでは、Customer Journey Analytics 機能との�
 
 >[!ENDTABS]
 
-## 基本から始める
+## 基本について学ぶ
 
 <table style="table-layout:fixed">
   <tr style="border: 0;">

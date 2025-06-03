@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
 source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '2031'
+ht-degree: 100%
 
 ---
 
@@ -159,7 +159,7 @@ ht-degree: 0%
 <tr>
 <td>
 <p>Adobe Journey Optimizer は Adobe Express と統合され、アセットをジャーニーオーケストレーションとシームレスに接続できるようになりました。この統合により、キャンペーン全体でパーソナライズされたコンテンツをデザインおよびデプロイするプロセスが簡素化されます。 </p>
-<p>この統合は、現在、Healthcare Shield またはプライバシーとセキュリティシールドでは使用できません。</p>
+<p>この統合は、現在、Healthcare Shield または Privacy and Security Shield では使用できません。</p>
 <img src="assets/do-not-localize/express_resize.gif">
 <p>詳しくは、<a href="../integrations/express.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
@@ -278,7 +278,7 @@ ht-degree: 0%
 
 **ユースケースのプレイブック**
 
-* **プレイブックのオーサリングと共有（プライベートベータ版）** – 独自のユースケースプレイブックを作成、管理、共有できるようになりました。 この機能は、現在、一連の組織に対してのみプライベートベータ版として使用できます。 アクセス権を取得するには、Adobe担当者にお問い合わせください。 [詳細情報](../start/playbooks.md)
+* **プレイブックのオーサリングと共有（Private Beta）** - 独自のユースケースプレイブックを作成、管理、共有できるようになりました。この機能は、現在、一連の組織に対してのみ Private Beta として使用できます。アクセスするには、アドビ担当者にお問い合わせください。[詳細情報](../start/playbooks.md)
 
 **ナビゲーション**
 

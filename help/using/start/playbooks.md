@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 2214ec90-580e-469e-9b14-d8cb2d4bb050
 source-git-commit: b4c1cb69fd67e8c74982103c68050ab56a71113a
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '499'
+ht-degree: 100%
 
 ---
 
@@ -51,11 +51,11 @@ ht-degree: 0%
 
 さらに、プレイブックアセットを他のサンドボックスに読み込むこともできます。これにより、独自のスキーマ、フィールドおよびフィールドグループを既に設定している場合、生成されたアセットを既存のアセットに合わせ、データとの互換性を確保できます。これらの手順について詳しくは、ユースケースプレイブックドキュメントの[プレイブックで生成されたアセットの他のサンドボックスへの公開](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/data-awareness.html?lang=ja){target="_blank"}を参照してください。
 
-## 独自のプレイブックを作成（プライベートベータ版） {#create}
+## 独自のプレイブックの作成（Private Beta） {#create}
 
 >[!AVAILABILITY]
 >
->ユースケースプレイブックの作成は、現在、プライベートベータ版として一連の組織でのみ使用できます。 アクセスするには、アドビ担当者にお問い合わせください。
+>ユースケースプレイブックの作成は、現在、一連の組織に対してのみ Private Beta として使用できます。アクセスするには、アドビ担当者にお問い合わせください。
 
 事前定義済みのプレイブックの活用に加えて、Adobe Experience Platform 内で独自のプレイブックを作成および共有できます。
 

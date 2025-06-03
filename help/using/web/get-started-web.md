@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
 source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '163'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 64%
 
 [!DNL Journey Optimizer] では、パーソナライズされた web エクスペリエンスを視覚的に作成し、顧客に提供できます。
 
-直感的なビジュアルインターフェイスを通じて、web チャネルを使用して web プロパティを簡単に変更し、エンドユーザーキャンペーンを実験、最適化、パーソナライズします。
+直感的なビジュアルインターフェイスを通じて、web チャネルを使用して web プロパティを簡単に変更し、エンドユーザーキャンペーンを実験、最適化、パーソナライズできます。
 
 ![](../rn/assets/do-not-localize/web-authoring.gif)
 

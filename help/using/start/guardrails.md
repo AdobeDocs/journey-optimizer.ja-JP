@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: a7468879b36dfe9184471824b387f1638fae3d50
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2504'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 96%
 
 [!DNL Adobe Journey Optimizer] を使用する際には、さらに以下のガードレールと制限事項があります。
 
-使用権限、製品の制限事項、パフォーマンスガードレールの一覧については、[Adobe Journey Optimizer製品説明ページ ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} を参照してください。
+使用権限、製品の制限事項、パフォーマンスガードレールの一覧については、[Adobe Journey Optimizer 製品説明ページ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}を参照してください。
 
-また、開始する前に、[ リアルタイム顧客プロファイルデータのガードレール ](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja){target="_blank"} を認識しておく必要があります。
+また、開始する前に、[リアルタイム顧客プロファイルデータのガードレール](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja){target="_blank"}も認識しておく必要があります。
 
 ## サポートされているブラウザー {#browsers}
 
@@ -64,7 +64,7 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 
 各パッケージのライセンス指標は、[Journey Optimizer の製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}ページにリストされています。
 
-### コードベースチャネルガードレール {#code-based-guardrails}
+### コードベースチャネルのガードレール {#code-based-guardrails}
 
 [!DNL Journey Optimizer] でコードベースのエクスペリエンスアクションを使用して、アプリケーションで使用できるコードコンテンツペイロードを配信するには、[このページ](../code-based/code-based-prerequisites.md)で説明されている前提条件に従います。
 
@@ -124,7 +124,7 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 * エラーが発生した場合は、手順に従って 3 回再試行されます。受け取ったエラーメッセージに応じて、再試行回数を調整することはできません。再試行は、HTTP 401、403 および 404 を除くすべての HTTP エラーに対して実行されます。
 * 組み込みの&#x200B;**反応**&#x200B;イベントを使用すると、標準のアクションに反応できます。詳しくは、[このページ](../building-journeys/reaction-events.md)を参照してください。カスタムアクションを介して送信されたメッセージに反応する場合は、専用のイベントを設定する必要があります。
 * 2 つのアクションを並行して配置することはできません。1 つずつ順番に追加する必要があります。
-* プロファイルは、すべてのアクティブな [ ジャーニーのバージョン ](../building-journeys/publishing-the-journey.md#create-a-new-version-of-a-journey-journey-create-new-version) に対して、同じジャーニー内に同時に複数回存在することはできません。 再エントリが有効な場合、プロファイルはジャーニーに再エントリできますが、再エントリできるのは以前のジャーニーインスタンスから完全に離脱した後のみになります。[詳細情報](../building-journeys/end-journey.md)
+* プロファイルは、[ジャーニーのすべてのアクティブなバージョン](../building-journeys/publishing-the-journey.md#create-a-new-version-of-a-journey-journey-create-new-version)に対して、同じジャーニー内に同時に複数回存在することはできません。再エントリが有効な場合、プロファイルはジャーニーに再エントリできますが、再エントリできるのは以前のジャーニーインスタンスから完全に離脱した後のみになります。[詳細情報](../building-journeys/end-journey.md)
 
 ### ジャーニーのバージョン {#journey-versions-g}
 
@@ -212,13 +212,13 @@ Adobe Experience Platform では、API ベースのプロファイルの作成�
 
 ### 式エディター {#expression-editor}
 
-次のガードレールは [ ジャーニー式エディター ](../building-journeys/expression/expressionadvanced.md) に適用されます。
+次のガードレールが[ジャーニーの式エディター](../building-journeys/expression/expressionadvanced.md)に適用されます。
 
 * エクスペリエンスイベントフィールドグループは、「オーディエンスを読み取り」アクティビティや、オーディエンスの選定またはビジネスイベントアクティビティで始まるジャーニーでは使用できません。新しいオーディエンスを作成し、ジャーニーで inaudience 条件を使用する必要があります。
-* `timeSeriesEvents` 属性は式エディターで使用できません。 プロファイルレベルでエクスペリエンスイベントにアクセスするには、`XDM ExperienceEvent` スキーマに基づいて新しいフィールドグループを作成してください。
+* `timeSeriesEvents` 属性は式エディターで使用できません。プロファイルレベルでエクスペリエンスイベントにアクセスするには、`XDM ExperienceEvent` スキーマに基づいて新しいフィールドグループを作成してください。
 
 
-### 「アプリ内」アクティビティ {#in-app-activity-limitations}
+### アプリ内アクティビティ {#in-app-activity-limitations}
 
 次のガードレールが&#x200B;**[!UICONTROL アプリ内メッセージ]**&#x200B;アクションに適用されます。アプリ内メッセージについて詳しくは、[このページ](../in-app/create-in-app.md)を参照してください。
 
