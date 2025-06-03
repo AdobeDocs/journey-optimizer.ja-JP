@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: キャンペーンの管理, ステータス, スケジュール, アクセス, Optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 29d12b6190f49e7f3f6fd2760e522a5a62c0de87
+source-git-commit: 1ad534b7877f0ac6c1f50e29f41af708e83b34c9
 workflow-type: tm+mt
 source-wordcount: '868'
-ht-degree: 69%
+ht-degree: 66%
 
 ---
 
@@ -114,7 +114,7 @@ ht-degree: 69%
 
 >[!IMPORTANT]
 >
->キャンペーンを停止しても、その時点で進行中の送信は停止しませんが、スケジュール済みの送信や次回の送信（進行中の送信がある場合）が停止します。
+>キャンペーンを停止しても、その時点で進行中の送信は停止しませんが、スケジュール済みの送信（進行中の送信がある場合は次回の送信）が停止します。
 
 <!-- inbound campaign (inapp): can stop and resume -->
 
