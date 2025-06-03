@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
+source-git-commit: 8b0310e91e5b5c1418e8e26f4505bda45146ceba
 workflow-type: tm+mt
-source-wordcount: '2398'
-ht-degree: 96%
+source-wordcount: '2394'
+ht-degree: 98%
 
 ---
 
@@ -54,8 +54,8 @@ ht-degree: 96%
       + [ジャーニーのライブレポート](using/building-journeys/report-journey.md)
    + ジャーニーの管理{#manage-journey}
       + [ジャーニーの参照とフィルタリング](using/building-journeys/journey-ui.md)
-      + [ジャーニーへのプロファイルのエントリ](using/building-journeys/entry-management.md)
-      + [イベントトリガージャーニーの追加の識別子](using/building-journeys/supplemental-identifier.md)
+      + [ジャーニーのプロファイルエントリ](using/building-journeys/entry-management.md)
+      + [イベントトリガージャーニーの補足識別子](using/building-journeys/supplemental-identifier.md)
       + [タイムゾーン管理](using/building-journeys/timezone-management.md)
       + [送信時間の最適化](using/building-journeys/send-time-optimization.md)
       + [ジャーニーの終了](using/building-journeys/end-journey.md)
@@ -177,7 +177,7 @@ ht-degree: 96%
 + 調整されたキャンペーン {#orchestrated-campaigns}
    + [調整されたキャンペーンの基本を学ぶ](using/ms/gs-ms-campaigns.md)
    + [主な原則](using/ms/gs-campaign-creation.md)
-   + [ オーケストレートキャンペーンの作成手順 ](using/ms/gs-campaign-steps.md)
+   + [調整されたキャンペーンの作成手順](using/ms/gs-campaign-steps.md)
    + 設定の手順 {#ms-config}
       + [リレーショナルスキーマの作成](using/ms/ms-schemas.md)
    + 作成ステップ{#create-ms-campaign}
@@ -201,7 +201,7 @@ ht-degree: 96%
       + [待機](using/ms/activities/wait.md)
    + メッセージ {#messages}
       + [チャネルアクション](using/ms/activities/channels.md)
-      + [ コンテンツのパーソナライズ ](using/ms/ms-personalization.md)
+      + [コンテンツのパーソナライズ](using/ms/ms-personalization.md)
       + [メッセージのテストと検証](using/ms/ms-proofs.md)
    + レポートと監視 {#report}
       + [レポート](using/ms/reporting-campaigns.md)
@@ -219,10 +219,10 @@ ht-degree: 96%
 + テストと承認 {#test}
    + コンテンツのプレビューとテスト {#preview-test}
       + [プレビューとテストの基本を学ぶ](using/content-management/preview-test.md)
-      + [テストプロファイルを選択](using/content-management/test-profiles.md)
+      + [テストプロファイルの選択](using/content-management/test-profiles.md)
       + [テストプロファイルを使用したプレビュー](using/content-management/preview.md)
-      + [テストプロファイルデータを使用した配達確認の送信](using/content-management/proofs.md)
-      + [メールのレンダリングをテスト](using/content-management/rendering.md)
+      + [テストプロファイルデータを使用した本配信前確認の送信](using/content-management/proofs.md)
+      + [メールレンダリングのテスト](using/content-management/rendering.md)
       + [コンテンツのバリエーションをシミュレート](using/test-approve/simulate-sample-input.md)
       + [メールスパムレポート](using/content-management/spam-report.md)
    + ジャーニーとキャンペーンの承認 {#approve}
@@ -316,7 +316,7 @@ ht-degree: 96%
          + [ガードレールと前提条件](using/code-based/code-based-prerequisites.md)
          + [コードベースのエクスペリエンスサーフェス](using/code-based/code-based-surface.md)
          + [実装方法のサンプル](using/code-based/code-based-implementation-samples.md)
-         + [コードベースのエクスペリエンス実装での意思決定](using/code-based/code-based-decisioning-implementations.md)
+         + [コードベースのエクスペリエンス実装での決定](using/code-based/code-based-decisioning-implementations.md)
          + [コードベースのエクスペリエンス設定の作成](using/code-based/code-based-configuration.md)
       + コードベースのエクスペリエンスの作成 {#create-code-based-experiences}
          + [コードベースのエクスペリエンスの作成と構成](using/code-based/create-code-based.md)
@@ -395,15 +395,15 @@ ht-degree: 96%
       + [動的コンテンツの基本を学ぶ](using/personalization/get-started-dynamic-content.md)
       + [条件付きルールの作成](using/personalization/create-conditions.md)
       + [動的コンテンツの作成](using/personalization/dynamic-content.md)
-   + クロスソリューションの使用例 {#combine}
-      + [ソリューションを組み合わせてコンテンツを管理](using/integrations/content-integrations.md)
+   + クロスソリューションユースケース {#combine}
+      + [コンテンツを管理するソリューションの組み合わせ](using/integrations/content-integrations.md)
       + [Experience Manager Assets の操作](using/integrations/assets.md)
       + [Adobe Stock との連携](using/integrations/stock.md)
       + [Adobe Express の操作](using/integrations/express.md)
       + [Experience Manager テンプレートの操作](using/integrations/aem-templates.md)
       + [Experience Manager コンテンツフラグメントの操作](using/integrations/aem-fragments.md)
       + [Dynamic Media の操作](using/integrations/aem-dynamic.md)
-      + [GenStudio for Performance Marketingの操作](using/integrations/genstudio.md)
+      + [GenStudio for Performance Marketing の操作](using/integrations/genstudio.md)
    + コンテンツ生成用 AI アシスタント{#ai-assistant}
       + [AI アシスタントの基本を学ぶ](using/content-management/gs-generative.md)
       + [AI によるメール生成](using/content-management/generative-email.md)
@@ -768,12 +768,11 @@ ht-degree: 96%
       + [別のサンドボックスへのオブジェクトのエクスポート](using/configuration/copy-objects-to-sandbox.md)
    + [ソースコネクタの設定](using/start/get-started-sources.md)
 + アクセス制御 {#access-control}
-   + アクセス制御の概要 {#privacy}
-      + [ユーザー管理の基本を学ぶ](using/administration/permissions-overview.md)
-      + [組み込みの役割](using/administration/ootb-product-profiles.md)
-      + [組み込みの権限](using/administration/ootb-permissions.md)
-      + [権限レベル](using/administration/high-low-permissions.md)
+   + [アクセス制御の基本を学ぶ](using/administration/permissions-overview.md)
    + [ユーザーと役割の管理](using/administration/permissions.md)
+   + [組み込みの役割](using/administration/ootb-product-profiles.md)
+   + [組み込みの権限](using/administration/ootb-permissions.md)
+   + [権限レベル](using/administration/high-low-permissions.md)
    + [属性ベースのアクセス制御](using/administration/attribute-based-access.md)
    + [オブジェクトレベルのアクセス制御](using/administration/object-based-access.md)
 + プライバシー {#privacy}
