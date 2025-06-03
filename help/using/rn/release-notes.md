@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+source-git-commit: 4945e2fb37b54683f56ca3b832553345486d0a80
 workflow-type: tm+mt
-source-wordcount: '1394'
+source-wordcount: '1416'
 ht-degree: 89%
 
 ---
@@ -23,7 +23,6 @@ ht-degree: 89%
 [!DNL Adobe Journey Optimizer] は、新機能、既存機能の強化、およびバグ修正を継続的に提供します。これらのリリースノートでは、すべての変更が各月の最終週にまとめられます。[!DNL Adobe Journey Optimizer] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}を参照してください。
 
 ## 2025 年 6 月の更新 {#25-6-rn}
-
 
 <table>
 <thead>
@@ -41,7 +40,7 @@ ht-degree: 89%
 </tbody>
 </table>
 
-&lt;<table>
+<table>
 <thead>
 <tr>
 <th><strong>競合と優先順位付け</strong><br/></th>
@@ -63,6 +62,13 @@ ht-degree: 89%
 </tr>
 </tbody>
 </table>
+
+### 機能強化
+
+* **決定** – 公開日：2025 年 6 月 3 日（PT）
+
+  決定オブジェクトをサンドボックス間でコピーできるようになり、テストとデプロイメントのワークフローを効率化できるようになりました。[詳細情報](../configuration/copy-objects-to-sandbox.md#decisioning)
+
 
 ## 2025年5月リリースノート {#25-5-rn}
 
@@ -260,10 +266,6 @@ ht-degree: 89%
 * **サンドボックスコピーをサポートする新しいキャンペーンオブジェクト** – 公開日：2025 年 5 月 15 日（PT）
 
   パッケージの書き出しと読み込み機能を使用して、複数のサンドボックス間でキャンペーンをコピーすると、チャネル設定、実験のバリアントと設定、決定ポリシーと項目などの依存関係もコピーされるようになりました。[詳細情報](../configuration/copy-objects-to-sandbox.md)
-
-  <!--* **Decisioning** - Availability date: May 16, 2025
-
-    Decisioning objects can now be copied between sandboxes, streamlining testing and deployment workflows. [Read more](../configuration/copy-objects-to-sandbox.md#decisioning)-->
 
 * **ランディングページのフォルダー** - 公開日：2025年5月9日（PT）
 
