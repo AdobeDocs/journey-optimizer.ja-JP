@@ -25,17 +25,17 @@ ht-degree: 1%
 
 キャンペーンを公開した後、`dryRun` フラグをクライアント実装の XDM イベント `data` ブロックに追加します。
 
-    ``&#39;
-    {
-    &quot;data&quot;: {
-    &quot;__adobe&quot;: {
-    &quot;ajo&quot;: {
+    &grave;&grave;&#39;
+    &lbrace;
+    &quot;data&quot;: &lbrace;
+    &quot;__adobe&quot;: &lbrace;
+    &quot;ajo&quot;: &lbrace;
     &quot;dryRun&quot;: true
-    }
-    }
-    }
-    }
-    ``
+    &rbrace;
+    &rbrace;
+    &rbrace;
+    &rbrace;
+    &grave;&grave;
 
 <!--
 >[!CAUTION]
