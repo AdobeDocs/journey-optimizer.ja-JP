@@ -32,7 +32,7 @@ ht-degree: 67%
 
    ![](assets/create-segment.png)
 
-   セグメント定義画面では、必須フィールドをすべて設定してオーディエンスを定義できます。オーディエンスの設定方法については、[ セグメント化サービスのドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/methods/overview){target="_blank"} を参照してください。
+   セグメント定義画面では、必須フィールドをすべて設定してオーディエンスを定義できます。オーディエンスの設定方法については、[ セグメント化サービスのドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/methods/overview){target="_blank"} を参照してください。
 
    ![](assets/segment-builder.png)
 
