@@ -9,10 +9,10 @@ role: Admin, Architect
 level: Intermediate
 keywords: 権限, 制限, アクセス, サンドボックス
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: 8093af8c3e7484f9ebed8dbc50065bcff0459581
+source-git-commit: fbcddcf10974f16eb6885ebb38b7be41f2e53639
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 38%
+source-wordcount: '437'
+ht-degree: 33%
 
 ---
 
@@ -36,13 +36,14 @@ Journey Optimizerのアクセス制御を設定するには、組織のシステ
 
 [!DNL Journey Optimizer] のユーザー管理は、次の主要な概念に基づいています。
 
-* **[!UICONTROL 役割]**：役割とは、同じ権限とサンドボックスを共有するユーザーの集まりを指します。 これらの役割を使用すると、組織内の様々なユーザーグループに対するアクセスと権限を簡単に管理できます。 役割には、インターフェイス内の特定の機能やオブジェクトにユーザーがアクセスできる単一権限のセットが付属しています。 [!DNL Journey Optimizer] を使用すると、様々なレベルの権限を持つ様々な既存の **[!UICONTROL 役割]** から選択して、ユーザーに割り当てることができます。 使用可能な **組み込みの役割** について詳しくは、[ このページ ](ootb-product-profiles.md) を参照してください。
+* **[!UICONTROL 役割]**：役割とは、同じ権限とサンドボックスを共有するユーザーの集まりを指します。 これらの役割を使用すると、組織内の様々なユーザーグループに対するアクセスと権限を簡単に管理できます。 役割には、インターフェイス内の特定の機能やオブジェクトにユーザーがアクセスできる単一権限のセットが付属しています。
+[!DNL Journey Optimizer] を使用すると、様々なレベルの権限を持つ様々な既存の **[!UICONTROL 役割]** から選択して、ユーザーに割り当てることができます。 使用可能な **組み込みの役割** について詳しくは、[ このページ ](ootb-product-profiles.md) を参照してください。
 
-* **[!UICONTROL 権限]**：**[!UICONTROL 役割]**&#x200B;に割り当てる許可を定義できるようにするための単一の権利。各権限は、リソース（[!DNL Journey Optimizer] の様々な機能やオブジェクトに相当するジャーニーやオファーなど）の下に集約されています。詳しくは、[権限レベル](high-low-permissions.md)の節を参照してください。
+* **[!UICONTROL 権限]**：権限は、（役割 **[!UICONTROL に割り当てる許可を定義できる単一の権限]** す。 各権限は、リソース（[!DNL Journey Optimizer] の様々な機能やオブジェクトに相当するジャーニーやオファーなど）の下に集約されています。詳しくは、[権限レベル](high-low-permissions.md)の節を参照してください。
 
   ![](assets/do-not-localize/permissions_2.png)
 
-* **[!UICONTROL サンドボックス]**：インスタンスを個別の独立した仮想環境に分割する仮想サンドボックス。サンドボックスは、権限の役割を通じて割り当てられます。詳しくは、[ サンドボックスの使用 ](sandboxes.md) を参照してください。
+* **[!UICONTROL サンドボックス]**：仮想サンドボックスは、インスタンスを個別の独立した仮想環境に分割します。 サンドボックスは、権限の役割を通じて割り当てられます。詳しくは、[ サンドボックスの使用 ](sandboxes.md) を参照してください。
 
 * **オブジェクトベースのアクセス制御**: オブジェクトへのアクセスを制限するラベル。 このアプローチは、機密性の高いデジタルアセットを権限のないユーザーから保護し、個人データの保護を強化します。 詳細情報 [ オブジェクトベースのアクセス管理 ](object-based-access.md)。
 
@@ -52,6 +53,7 @@ Journey Optimizerのアクセス制御を設定するには、組織のシステ
 ## さらに深く掘り下げましょう
 
 これで、**[!DNL Journey Optimizer]** のアクセス制御の概念を理解できたので、ドキュメントの節で詳しく説明し、権限の設定を開始します。
+
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -79,9 +81,7 @@ Journey Optimizerのアクセス制御を設定するには、組織のシステ
 <div>
 <a href="sandboxes.md"><strong> サンドボックスの管理 </strong></a>
 </div>
-<p>
-</td>
-<td>
+<p></td>
 <td>
 <a href="attribute-based-access.md">
 <img alt="属性ベースのアクセス制御" src="assets/do-not-localize/data-access.jpeg">
@@ -91,5 +91,4 @@ Journey Optimizerのアクセス制御を設定するには、組織のシステ
 </div>
 <p>
 </td>
-<td>
 </tr></table>
