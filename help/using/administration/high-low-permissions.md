@@ -9,7 +9,7 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: 権限，上位，下位，プロファイル，Admin Console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 8b0310e91e5b5c1418e8e26f4505bda45146ceba
+source-git-commit: 49a607e8e4b4cce7bcf41d92abe6b9fa54dfb411
 workflow-type: tm+mt
 source-wordcount: '1077'
 ht-degree: 81%
@@ -36,7 +36,7 @@ ht-degree: 81%
 
 * 「**[!DNL Manage journeys]**」という高レベルの権限を持つユーザーは、新しいジャーニーの作成や、既存のジャーニーの編集／削除を行い、ジャーニーキャンバスでジャーニーフローの構築に使用されるオブジェクトへアクセスできます。
 
-+++ この役割には、次の低レベル権限が含まれます。
++++ この権限には、次の低レベル権限が含まれます。
 
    * Journey Optimizer 固有：
 
@@ -56,7 +56,7 @@ ht-degree: 81%
 
 * 「**[!DNL Publish journeys]**」という高レベルの権限を持つユーザーは、ジャーニーを公開できます。
 
-+++ この役割には、次の低レベル権限が含まれます。
++++ この権限には、次の低レベル権限が含まれます。
    * Journey Optimizer 固有：
       * journeys.publish
       * journeys.read
@@ -65,7 +65,7 @@ ht-degree: 81%
 
 * 「**[!DNL View journeys]**」という高レベルの権限を持つユーザーは、ジャーニーを参照および表示できます。
 
-+++ この役割には、次の低レベル権限が含まれます。
++++ この権限には、次の低レベル権限が含まれます。
 
    * Journey Optimizer 固有：
       * journeys.read
@@ -78,7 +78,7 @@ ht-degree: 81%
 
 * 「**[!DNL Manage journeys events, data sources and actions]**」という高レベルの権限を持つユーザーは、イベントとデータの設定を行うことができます。
 
-+++ この役割には、次の低レベル権限が含まれます。
++++ この権限には、次の低レベル権限が含まれます。
 
    * Journey Optimizer 固有：
       * journeys_events.read
@@ -100,7 +100,7 @@ ht-degree: 81%
 
 * 「**[!DNL View journeys events, data sources and actions]**」という高レベルの権限を持つユーザーは、ジャーニーフローでイベントとデータを使用できます。
 
-+++ この役割には、次の低レベル権限が含まれます。
++++ この権限には、次の低レベル権限が含まれます。
 
    * Journey Optimizer 固有：
       * journeys_events.read
@@ -116,7 +116,7 @@ ht-degree: 81%
 
 * 「**[!DNL View journeys report]**」という高レベルの権限を持つユーザーは、ジャーニーレポートに対する読み取り専用のアクセス権を持ちます。
 
-+++ この役割には、次の低レベル権限が含まれます。
++++ この権限には、次の低レベル権限が含まれます。
 
    * Journey Optimizer 固有：
       * journeys_report.read
@@ -134,7 +134,7 @@ ht-degree: 81%
 
 * 「**[!DNL Manage frequency rules]**」という高レベルの権限を持つユーザーは、頻度ルールの読み取り、作成、編集、削除およびアクティブ化／非アクティブ化を行うことができます。
 
-+++ この役割には、次の低レベル権限が含まれます。
++++ この権限には、次の低レベル権限が含まれます。
 
    * Journey Optimizer 固有：
       * frequency_rules.read
@@ -145,7 +145,7 @@ ht-degree: 81%
 
 * 「**[!DNL View frequency rules]**」という高レベルの権限を持つユーザーは、頻度ルールを表示できます。
 
-+++ この役割には、次の低レベル権限が含まれます。
++++ この権限には、次の低レベル権限が含まれます。
 
    * Journey Optimizer 固有：
       * frequency_rules.read
@@ -169,7 +169,7 @@ ht-degree: 81%
 
 * 「**[!DNL Manage campaigns]**」という高レベルの権限を持つユーザーは、キャンペーンを新規作成および編集／削除できます。
 
-+++ この役割には、次の低レベル権限が含まれます。
++++ この権限には、次の低レベル権限が含まれます。
 
    * Journey Optimizer 固有：
 
@@ -196,7 +196,7 @@ ht-degree: 81%
 
 * 「**[!DNL View campaigns report]**」という高レベルの権限を持つユーザーは、キャンペーンレポートを読み取り、編集できます。
 
-+++ この役割には、次の低レベル権限が含まれます。
++++ この権限には、次の低レベル権限が含まれます。
 
    * Journey Optimizer 固有：
       * campaign.read
@@ -210,7 +210,7 @@ ht-degree: 81%
 
 * 「**[!DNL Manage decisions]**」という高レベルの権限を持つユーザーは、既存の **[!DNL Activity entities]** の編集／削除、新規作成を行なえるほか、これらのアクティビティで使用されるオブジェクトを管理し、決定することができます。
 
-+++ この役割には、次の低レベル権限が含まれます。
++++ この権限には、次の低レベル権限が含まれます。
 
    * 意思決定管理固有：
 
@@ -237,7 +237,7 @@ ht-degree: 81%
 
 * 「**[!DNL View decisions]**」という高レベルの権限を持つユーザーは、既存のアクティビティと関連するビジネスオブジェクトを使用して意思決定を行うことができます。
 
-+++ この役割には、次の低レベル権限が含まれます。
++++ この権限には、次の低レベル権限が含まれます。
 
    * 意思決定管理固有：
 
@@ -255,7 +255,7 @@ ht-degree: 81%
 
 * 「**[!DNL Manage offers]**」という高レベルの権限を持つユーザーは、すべてのオファー、コンポーネントを作成、編集および削除し、決定およびコレクションを読み取ることができます。
 
-+++ この役割には、次の低レベル権限が含まれます。
++++ この権限には、次の低レベル権限が含まれます。
 
    * 意思決定管理固有：
 
@@ -278,7 +278,7 @@ ht-degree: 81%
 
 * 「**[!DNL Manage ranking strategies]**」という高レベルの権限を持つユーザーは、ランキング戦略の読み取り、作成、編集、削除を行うことができます。
 
-+++ この役割には、次の低レベル権限が含まれます。
++++ この権限には、次の低レベル権限が含まれます。
 
    * 意思決定管理固有：
 
@@ -296,7 +296,7 @@ ht-degree: 81%
 <!--
 * **[!DNL Manage Experience decisions]** high-level permission allows users to read, create, edit, and delete Decisioning entities.
 
-  +++ This role includes the following low-level permissions:  
+  +++ This permission includes the following low-level permissions:  
 
   * Experience decisions specific:
     * ranking_strategy.read
@@ -317,7 +317,7 @@ ht-degree: 81%
 
 * 「**[!DNL Manage file routing]**」という高レベルの権限を持つユーザーは、ファイルルーティング設定の作成、編集および削除を行うことができます。
 
-+++ この役割には、次の低レベル権限が含まれます。
++++ この権限には、次の低レベル権限が含まれます。
    * Journey Optimizer 固有：
 
       * file_routing.read
@@ -328,7 +328,7 @@ ht-degree: 81%
 
 * 「**[!DNL Manage IP pools]**」という高レベルの権限を持つユーザーは、アフィニティ定義の作成、編集および削除を行うことができます。
 
-+++ この役割には、次の低レベル権限が含まれます。
++++ この権限には、次の低レベル権限が含まれます。
    * Journey Optimizer 固有：
       * IP_pools.read
       * IP_pools.write
@@ -353,7 +353,7 @@ ht-degree: 81%
 
 * 「**[!DNL Manage messages general settings]**」という高レベルの権限を持つユーザーは、サンドボックスレベルでグローバル設定の作成、編集および削除を行うことができます。
 
-+++ この役割には、次の低レベル権限が含まれます。
++++ この権限には、次の低レベル権限が含まれます。
 
    * Journey Optimizer 固有：
       * messages_general_settings.read
@@ -416,7 +416,7 @@ ht-degree: 81%
 
 * 「**[!DNL Manage subdomains delegations]**」という高レベルの権限を持つユーザーは、サブドメインのデリゲーション（IP プールを含む）の作成、編集および削除を行うことができます。
 
-+++ この役割には、次の低レベル権限が含まれます。
++++ この権限には、次の低レベル権限が含まれます。
    * Journey Optimizer 固有：
 
       * subdomains_delegation.read
@@ -427,7 +427,7 @@ ht-degree: 81%
 
 * 「**[!DNL Manage suppression]**」という高レベルの権限を持つユーザーは、メールアドレスが抑制リストに追加されるまでのバウンス数を定義できるほか、抑制リストに対するエントリの追加や削除も行うことができます。
 
-+++ この役割には、次の低レベル権限が含まれます。
++++ この権限には、次の低レベル権限が含まれます。
    * Journey Optimizer 固有：
       * suppression_rules.read
       * suppression_rules.write
@@ -439,7 +439,7 @@ ht-degree: 81%
 
 * 「**[!DNL View file routing]**」という高レベルの権限を持つユーザーは、ファイルルーティング設定を表示できます。
 
-+++ この役割には、次の低レベル権限が含まれます。
++++ この権限には、次の低レベル権限が含まれます。
    * Journey Optimizer 固有：
 
       * file_routing.read
@@ -486,7 +486,7 @@ ht-degree: 81%
 ### [!DNL View channel configuration] permission {#view-channel-surface}
 
 The **[!DNL View channel configuration]** high-level permission allows users to view channel configurations in order to know which channel configurations to use. 
-  +++ This role includes the following low-level permissions:  
+  +++ This permission includes the following low-level permissions:  
 
 * messages_presets.read
 * subdomains_delegation.read
@@ -497,7 +497,7 @@ The **[!DNL View channel configuration]** high-level permission allows users to 
 
 * 「**[!DNL View suppression list]**」という高レベルの権限を持つユーザーは、抑制リストの内容と設定を表示できます。
 
-+++ この役割には、次の低レベル権限が含まれます。
++++ この権限には、次の低レベル権限が含まれます。
 
    * Journey Optimizer 固有：
       * suppression_list.view
