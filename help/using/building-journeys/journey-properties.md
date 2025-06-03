@@ -9,8 +9,8 @@ role: User
 level: Intermediate
 keywords: ジャーニー、設定、プロパティ
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
-workflow-type: ht
+source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+workflow-type: tm+mt
 source-wordcount: '2395'
 ht-degree: 100%
 
@@ -311,7 +311,7 @@ Adobe Journey Optimizer は、ジャーニー全体を通じて使用される�
 
 ジャーニーのプロパティの「**[!UICONTROL 競合管理]**」セクションを使用すると、競合を監視し、ジャーニーに優先順位を付けることができます。実行できる操作は、次のとおりです。
 
-* **ルールセット**&#x200B;を適用し、キャッピングルールに基づいて、オーディエンスの一部に対してこのジャーニーを除外します。[ルールセットの使用方法を学ぶ](../configuration/rule-sets.md)
+* **ルールセット**&#x200B;を適用し、キャッピングルールに基づいて、オーディエンスの一部に対してこのジャーニーを除外します。[ルールセットの使用方法を学ぶ](../conflict-prioritization/rule-sets.md)
 
 * 0～100 の範囲で、ジャーニーに&#x200B;**優先度スコア**&#x200B;を割り当てます。数値が大きいほど、優先度が高くなります。ここで挿入した優先度の値は、このジャーニーに含まれるすべてのインバウンドアクション（アプリ内など）に継承されます。[優先度スコアの使用方法を学ぶ](../conflict-prioritization/priority-scores.md)
 

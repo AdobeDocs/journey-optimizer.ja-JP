@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
-workflow-type: ht
+source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+workflow-type: tm+mt
 source-wordcount: '1440'
 ht-degree: 100%
 
@@ -130,7 +130,7 @@ ht-degree: 100%
 
   また、「**レポート**」セクションにアクセスして、キャンペーン実験および web／モバイル用にレポートを設定することもできます。[詳細情報](../reports/reporting-configuration.md)
 
-* **[!UICONTROL ビジネスルール]** - このセクションを使用すると、ユーザーがメッセージを受信する頻度やジャーニーにエントリする頻度を制御するクロスチャネルビジネスルールを作成できます。[詳細情報](../configuration/rule-sets.md)
+* **[!UICONTROL ビジネスルール]** - このセクションを使用すると、ユーザーがメッセージを受信する頻度やジャーニーにエントリする頻度を制御するクロスチャネルビジネスルールを作成できます。[詳細情報](../conflict-prioritization/rule-sets.md)
 
 * **[!UICONTROL アラート]** - ユーザーインターフェイスを使用すると、Adobe Experience Platform の Observability Insights で明らかになった指標に基づいて、受信したアラートの履歴を表示できます。また、UI を使用すると、使用可能なアラートルールの表示、有効化および無効化を行うこともできます。[詳細情報](../reports/alerts.md)
 

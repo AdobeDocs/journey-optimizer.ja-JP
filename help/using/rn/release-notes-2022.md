@@ -9,8 +9,8 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
-workflow-type: ht
+source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+workflow-type: tm+mt
 source-wordcount: '3598'
 ht-degree: 100%
 
@@ -261,7 +261,7 @@ ht-degree: 100%
 <td>
 <p>Journey Optimizer キャンペーンを使用すると、様々なチャネルを使用して、特定のオーディエンスに 1 回限りのコンテンツを配信できます。ジャーニーを使用する場合、アクションはシーケンスで順番に実行されるように設計されています。 キャンペーンでは、アクションは指定したスケジュールに基づいて同時にまたは即時に実行されます。 </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
-<p>キャンペーンを作成する方法を<a href="../campaigns/get-started-with-campaigns.md">詳細なドキュメント</a>および<a href="https://video.tv.adobe.com/v/3412405?captions=jpn">機能に関するビデオ</a>で説明します。
+<p>キャンペーンを作成する方法を<a href="../campaigns/get-started-with-campaigns.md">詳細なドキュメント</a>および<a href="https://video.tv.adobe.com/v/346680">機能に関するビデオ</a>で説明します。
 </td>
 </tr>
 </tbody>
@@ -545,7 +545,7 @@ ht-degree: 100%
 <tr>
 <td>
 <p>過度に配信を受けているプロファイルをメッセージやアクションから自動的に除外するクロスチャネルのビジネスルールを設定できるようになりました。</p>
-<p>詳しくは、<a href="../configuration/rule-sets.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../conflict-prioritization/rule-sets.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>

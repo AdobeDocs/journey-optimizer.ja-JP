@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: b2446c6a243d6d95b6f695b9c7007e62c51d8fa3
-workflow-type: ht
+source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+workflow-type: tm+mt
 source-wordcount: '6783'
 ht-degree: 100%
 
@@ -1266,7 +1266,7 @@ ht-degree: 100%
 
 **頻度ルール**
 
-* メールとプッシュに加えて、SMS チャネルとダイレクトメールチャネルの頻度ルールを作成できるようになりました。頻度ルールでは、フリークエンシーキャップに達すると、過度に要求されたプロファイルをメッセージとアクションから自動的に除外します。[詳細情報](../configuration/rule-sets.md)
+* メールとプッシュに加えて、SMS チャネルとダイレクトメールチャネルの頻度ルールを作成できるようになりました。頻度ルールでは、フリークエンシーキャップに達すると、過度に要求されたプロファイルをメッセージとアクションから自動的に除外します。[詳細情報](../conflict-prioritization/rule-sets.md)
 
 <!--**Decision management**
 
@@ -1342,7 +1342,7 @@ ht-degree: 100%
 
 **頻度ルール**
 
-* **週別のフリークエンシーキャップ** - 顧客プロファイルに送信するメッセージの最大数を、月に加えて、1 週間あたりに指定できるようになりました。フリークエンシーキャップは、選択したカレンダー期間に基づき、対応する時間枠の開始時にリセットされます。[詳細情報](../configuration/rule-sets.md)
+* **週別のフリークエンシーキャップ** - 顧客プロファイルに送信するメッセージの最大数を、月に加えて、1 週間あたりに指定できるようになりました。フリークエンシーキャップは、選択したカレンダー期間に基づき、対応する時間枠の開始時にリセットされます。[詳細情報](../conflict-prioritization/rule-sets.md)
 
   >[!NOTE]
   >
