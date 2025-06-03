@@ -2,17 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 権限レベル
-description: ユーザーが様々な機能にアクセスできるようになる高レベルおよび低レベルの権限について説明します。
+description: ユーザーが様々な機能にアクセスできるようにする高レベルおよび低レベルの権限について説明します。
 topic: Administration
 feature: Access Management
 role: Admin, Architect, Developer
 level: Experienced
-keywords: 権限, 上位, 下位, プロファイル, Admin Console
+keywords: 権限，上位，下位，プロファイル，Admin Console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
-workflow-type: ht
-source-wordcount: '1063'
-ht-degree: 100%
+source-git-commit: 1a2c6e97fcd30245cff1bf08fd5771ce8bc84ddc
+workflow-type: tm+mt
+source-wordcount: '1056'
+ht-degree: 95%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 100%
 各役割は、ユーザーが様々な機能にアクセスできる権限で構成されています。
 権限は次の 2 つのタイプに分けることができます。
 
-* **上位の権限**：**[!DNL Publish journeys]** や **[!DNL Manage subdomains delegation]** など、**[!UICONTROL 役割]**&#x200B;に割り当てることができる様々な権限を表します。上位の権限は、下位のレベル権限を含みます。上位の権限について詳しくは、[このページ](ootb-permissions.md)を参照してください。
+* **上位の権限**：**[!DNL Publish journeys]** や **[!DNL Manage subdomains delegation]** など、**[!UICONTROL 役割]**&#x200B;に割り当てることができる様々な権限を表します。高レベル権限は、低レベル権限を含みます。 高レベルの権限の詳細については、[ このページ ](ootb-permissions.md) を参照してください。
 
-* **下位の権限**：上位の権限から取得される様々な権限を表します。
+* **低レベル権限**：高レベル権限から取得される様々な権限を表します。
 
 例えば、**[!DNL Journey administrator]** の役割には、**[!DNL Manage journeys]** 権限が割り当てられます。この権限により、ジャーニー管理者に対してジャーニーの書き込み、読み取りおよび削除を許可する低レベルの権限が生じます。
 

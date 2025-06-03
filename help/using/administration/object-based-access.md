@@ -9,9 +9,9 @@ role: Admin, Developer, Architect
 level: Experienced
 keywords: オブジェクト, レベル, アクセス, 制御, ラベル, olac, 権限
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: 5f0fbd71d5dd49bb192774db653db35763507df9
+source-git-commit: 1a2c6e97fcd30245cff1bf08fd5771ce8bc84ddc
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '480'
 ht-degree: 52%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 52%
 
 ## 前提条件 {#prereq-labels}
 
-[ ラベルを作成 ](#create-labels) できるようにするには、**[!UICONTROL 使用ラベルの管理]** 権限を持つ役割に属している必要があります。
+[ ラベルを作成 ](#create-labels) するには、**[!UICONTROL 使用ラベルの管理]** 権限を持つ役割に属している必要があります。
 
 [ ラベルの割り当て ](#assign-labels) を実行するには、[!DNL Manage journeys]、[!DNL Manage Campaigns]、[!DNL Manage decisions] など、**管理** 権限を持つ役割に属している必要があります。 この権限がない場合は、「**[!UICONTROL アクセスを管理]**」ボタンが灰色表示になります。
 

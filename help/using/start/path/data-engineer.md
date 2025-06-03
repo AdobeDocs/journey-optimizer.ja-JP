@@ -7,10 +7,10 @@ feature: Get Started
 role: Data Engineer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
-workflow-type: ht
-source-wordcount: '573'
-ht-degree: 100%
+source-git-commit: 1a2c6e97fcd30245cff1bf08fd5771ce8bc84ddc
+workflow-type: tm+mt
+source-wordcount: '572'
+ht-degree: 91%
 
 ---
 
@@ -23,13 +23,13 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->**データ取り込み**&#x200B;の詳細：[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ja){target="_blank"}.
+>**データ取得** について詳しくは、[Adobe Experience Platform ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ja){target="_blank"} を参照してください。
 
 ID 名前空間、プロファイルに対して有効化されたデータセット、テストプロファイルなどを作成する手順について詳しくは、以下の節を参照してください。
 
 1. **ID 名前空間を作成**&#x200B;します。Adobe [!DNL Journey Optimizer] では、**ID** であらゆるデバイスやチャネルにわたって消費者がリンクされ、その結果が ID グラフになります。リンクされた ID グラフを使用すると、あらゆるビジネスタッチポイントでのインタラクションに基づいてエクスペリエンスをパーソナライズすることができます。ID と ID 名前空間について詳しくは、[このページ](../../audience/get-started-identity.md)を参照してください。
 
-1. **スキーマを作成**&#x200B;してプロファイルに対して有効にします。スキーマは、データの構造と形式を表現し検証する一連のルールです。スキーマは、概要レベルで実世界のオブジェクト（人など）の抽象的な定義を提供し、そのオブジェクトの各インスタンスに含めるデータ（名、姓、生年月日など）の概要を示します。スキーマについて詳しくは、[このページ](../../data/get-started-schemas.md)を参照してください。
+1. **スキーマを作成**&#x200B;してプロファイルに対して有効にします。スキーマは、データの構造と形式を表現し検証する一連のルールです。スキーマは、概要レベルで実世界のオブジェクト（人など）の抽象的な定義を提供し、そのオブジェクトの各インスタンスに含めるデータ（名、姓、生年月日など）の概要を示します。  スキーマについて詳しくは、[このページ](../../data/get-started-schemas.md)を参照してください。
 
 1. **データセットを作成**&#x200B;してプロファイルに対して有効にします。データセットは、スキーマ（列）とフィールド（行）で構成されるデータコレクション（通常はテーブル）を格納し管理するための構造です。データセットには、保存するデータの様々な側面を記述したメタデータも含まれます。データセットを作成したら、既存のスキーマにマッピングし、データを追加できます。データセットについて詳しくは、[このページ](../../data/get-started-datasets.md)を参照してください。
 
