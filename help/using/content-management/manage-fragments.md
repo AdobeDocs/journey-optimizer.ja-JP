@@ -97,8 +97,8 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="ajo_fragment_statuses"
 >title="新しいフラグメントのステータス"
->abstract="**ドラフト**&#x200B;および&#x200B;**ライブ**&#x200B;ステータスは、Journey Optimizer の 6 月リリースで導入されたので、このリリースより前に作成されたすべてのフラグメントは、ジャーニーやキャンペーンで使用された場合でも、**ドラフト**&#x200B;ステータスになります。これらのフラグメントに変更を加えた場合は、それらを公開して&#x200B;**ライブ**&#x200B;にし、関連するキャンペーンとジャーニーにその変更を反映する必要があります。また、新しいジャーニー／キャンペーンのバージョンを作成し、公開する必要もあります。<br/>公開には、<a href="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/ootb-product-profiles#content-library-manage">フラグメントを公開</a>するユーザー権限が必要です。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/access-control/ootb-product-profiles#content-library-manager" text="詳しくは、コンテンツフラグメント権限を参照してください"
+>abstract="**ドラフト**&#x200B;および&#x200B;**ライブ**&#x200B;ステータスは、Journey Optimizer の 6 月リリースで導入されたので、このリリースより前に作成されたすべてのフラグメントは、ジャーニーやキャンペーンで使用された場合でも、**ドラフト**&#x200B;ステータスになります。これらのフラグメントに変更を加えた場合は、それらを公開して&#x200B;**ライブ**&#x200B;にし、関連するキャンペーンとジャーニーにその変更を反映する必要があります。また、新しいジャーニー／キャンペーンのバージョンを作成し、公開する必要もあります。<br/>公開には、<a href="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/access-control/ootb-product-profiles#content-library-manage">フラグメントを公開</a>するユーザー権限が必要です。"
+>additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/access-control/ootb-product-profiles#content-library-manager" text="詳しくは、コンテンツフラグメント権限を参照してください"
 
 フラグメントには複数のステータスがあります。
 
