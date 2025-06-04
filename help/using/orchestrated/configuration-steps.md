@@ -7,19 +7,20 @@ badge: label="アルファ版"
 hide: true
 hidefromtoc: true
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: 93ccb3a2a35edc0e7d6e36d3622663e87b453793
+source-git-commit: b1a584528fc6ecf035bfd308dca0da1b37cee6d8
 workflow-type: tm+mt
 source-wordcount: '94'
-ht-degree: 5%
+ht-degree: 8%
 
 ---
 
 # 設定の手順 {#configuration-steps}
 
 +++ 目次
-|調整されたキャンペーンへようこそ |最初に調整されたキャンペーンの開始 | データベースをクエリします |予算に基づいたキャンペーン活動|
-|—|—|—|—|
-|[ オーケストレーションされたキャンペーンの開始 ](gs-orchestrated-campaigns.md)<br/><br/>[ 設定手順 ](configuration-steps.md)<br/><br/>[ オーケストレーションされたキャンペーンを作成するための主な手順 ](gs-campaign-creation.md)|[ オーケストレーションされたキャンペーンの作成 ](create-orchestrated-campaign.md)<br/><br/>[ アクティビティ ](orchestrate-activities.md)<br/><br/>[ オーケストレーションされたキャンペーンでのメッセージの送信 ](send-messages.md)<br/><br/>[ キャンペーンの開始 ](start-monitor-campaigns.md)<br/><br/>[ レポート ](reporting-campaigns.md)|[Modelerのクエリ ](orchestrated-query-modeler.md)<br/><br/>[ 最初のクエリの作成 ](build-query.md)<br/><br/>[ 式の編集 ](edit-expressions.md)|[ アクティビティの開始 ](activities/about-activities.md)<br/><br/> アクティビティ：<br/>[ および結合 ](activities/and-join.md) - [ オーディエンスの作成 ](activities/build-audience.md) [&#128279;](activities/change-dimension.md) [&#128279;](activities/combine.md) [&#128279;](activities/deduplication.md) [&#128279;](activities/enrichment.md) [&#128279;](activities/fork.md) [&#128279;](activities/reconciliation.md) [&#128279;](activities/split.md) [&#128279;](activities/wait.md) – 重複排除 – 
+
+| 調整されたキャンペーンへようこそ | 最初の調整されたキャンペーンの開始 | データベースのクエリ | キャンペーンアクティビティをキャンセル |
+|---|---|---|---|
+| [ オーケストレーションされたキャンペーンの概要 ](gs-orchestrated-campaigns.md)<br/><br/>[ 設定手順 ](configuration-steps.md)<br/><br/>[ オーケストレーションされたキャンペーンを作成するための主な手順 ](gs-campaign-creation.md) | [ オーケストレーションされたキャンペーンの作成 ](create-orchestrated-campaign.md)<br/><br/>[ アクティビティのオーケストレーション ](orchestrate-activities.md)<br/><br/>[ オーケストレーションされたキャンペーンでのメッセージの送信 ](send-messages.md)<br/><br/>[ キャンペーンの開始および監視 ](start-monitor-campaigns.md)<br/><br/>[ レポート ](reporting-campaigns.md) | [ クエリの操作Modeler](orchestrated-query-modeler.md)<br/><br/>[ 最初のクエリ ](build-query.md)<br/><br/>[ 編集式を作成 ](edit-expressions.md) | [ アクティビティの基本を学ぶ ](activities/about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションを変更 ](activities/change-dimension.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) - [ 分割 ](activities/split.md) [ ](activities/wait.md) - |
 
 {style="table-layout:fixed"}
 
@@ -137,7 +138,7 @@ To create links between tables of your datamodel from the Canvas view tab, follo
 
 1. Click **Save** once done.
 
-Doc AEP: https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/tutorials/create-schema-ui
+Doc AEP: https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/create-schema-ui
 
 ## Add data
 
@@ -160,7 +161,7 @@ Adobe Experience Platform allows data to be ingested from external sources while
 
 ![](assets/admin_sources_1.png)
 
-https://experienceleague.adobe.com/ja/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload
+https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload
 
 
 ## Create datasets
