@@ -7,10 +7,10 @@ badge: label="アルファ版"
 hide: true
 hidefromtoc: true
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
-source-git-commit: 9606ca5710e6f91159474d76f68cdcbc2128b000
+source-git-commit: 457445e1c5f3e5819b484a26e9944f1295726d1e
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 41%
+source-wordcount: '397'
+ht-degree: 28%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 41%
 
 | 調整されたキャンペーンへようこそ | 最初の調整されたキャンペーンの開始 | データベースのクエリ | キャンペーンアクティビティをキャンセル |
 |---|---|---|---|
-| [ オーケストレーションされたキャンペーンの概要 ](../gs-orchestrated-campaigns.md)<br/><br/>[ 設定手順 ](../configuration-steps.md)<br/><br/>[ オーケストレーションされたキャンペーンを作成するための主な手順 ](../gs-campaign-creation.md) | [ オーケストレーションされたキャンペーンの作成 ](../create-orchestrated-campaign.md)<br/><br/>[ アクティビティのオーケストレーション ](../orchestrate-activities.md)<br/><br/>[ オーケストレーションされたキャンペーンでのメッセージの送信 ](../send-messages.md)<br/><br/>[ キャンペーンの開始および監視 ](../start-monitor-campaigns.md)<br/><br/>[ レポート ](../reporting-campaigns.md) | [ クエリの操作Modeler](../orchestrated-query-modeler.md)<br/><br/>[ 最初のクエリ ](../build-query.md)<br/><br/>[ 編集式を作成 ](../edit-expressions.md) | [ アクティビティの基本を学ぶ ](about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](and-join.md) - [ オーディエンスを作成 ](build-audience.md) - [ ディメンションを変更 ](change-dimension.md) - [ 結合 ](combine.md) - [ 重複排除 ](deduplication.md) - [ エンリッチメント ](enrichment.md) - [ 分岐 ](fork.md) - [ 紐付け ](reconciliation.md) - [ 分割 ](split.md) [&#128279;](wait.md) - |
+| [ オーケストレーションされたキャンペーンの概要 ](../gs-orchestrated-campaigns.md)<br/><br/>[ 設定手順 ](../configuration-steps.md)<br/><br/>[ オーケストレーションされたキャンペーンを作成するための主な手順 ](../gs-campaign-creation.md) | [ オーケストレーションされたキャンペーンの作成 ](../create-orchestrated-campaign.md)<br/><br/>[ アクティビティのオーケストレーション ](../orchestrate-activities.md)<br/><br/>[ オーケストレーションされたキャンペーンでのメッセージの送信 ](../send-messages.md)<br/><br/>[ キャンペーンの開始および監視 ](../start-monitor-campaigns.md)<br/><br/>[ レポート ](../reporting-campaigns.md) | [ クエリの操作Modeler](../orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリ ](../build-query.md)<br/><br/>[ 編集式を作成 ](../edit-expressions.md) | [ アクティビティの基本を学ぶ ](about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](and-join.md) - [ オーディエンスを作成 ](build-audience.md) - [ ディメンションを変更 ](change-dimension.md) - [ 結合 ](combine.md) - [ 重複排除 ](deduplication.md) - [ エンリッチメント ](enrichment.md) - [ 分岐 ](fork.md) - [ 紐付け ](reconciliation.md) - [ 分割 ](split.md) [ ](wait.md) - |
 
 {style="table-layout:fixed"}
 
@@ -38,11 +38,11 @@ ht-degree: 41%
 
 <br/>
 
-マーケターは、調整されたキャンペーン内で、あるエンティティから別のリンクされたエンティティにターゲティングディメンションを切り替え、様々なデータセットに基づいてオーディエンスのターゲティングを調整できます（ユーザーのプロファイリングから、特定のアクションや予約のターゲティングに移行するなど）。
+マーケターは、調整されたキャンペーン内で、あるデータエンティティから別のリンクエンティティに切り替えることで、オーディエンスターゲティングを絞り込むことができます。 これにより、ユーザープロファイルのターゲティングから、購入、予約、その他のインタラクションなどの特定のアクションに焦点を当てることへと移行できます。
 
-これを実行するには、「**ディメンションを変更**」ターゲティングアクティビティを使用します。 このアクティビティを使用すると、オーケストレーションされたキャンペーンを作成する際に、ターゲティングディメンションを変更できます。 データテンプレートと入力ディメンションに応じて軸を移動します。
+それには、「**[!UICONTROL ディメンションを変更]** アクティビティを使用します。 これにより、データモデルの構造と入力ディメンションに基づいて、調整されたキャンペーン中にターゲティングディメンションを変更できます。
 
-例えば、オーケストレーションされたキャンペーンのターゲティングディメンションを「プロファイル」から「契約」に切り替えて、ターゲットの契約所有者にメッセージを送信できます。
+例えば、ターゲティングディメンションを **プロファイル** から **契約** にシフトすると、選択したオーディエンスに関連付けられた契約所有者に直接メッセージを送信できます。
 
 <!--
 >[!IMPORTANT]
@@ -63,8 +63,10 @@ ht-degree: 41%
 
 ## 例 {#example}
 
-この例では、購入を行ったすべてのプロファイルに SMS 配信を送信します。これを行うには、まず、カスタムの「購入」ターゲティングディメンションにリンクされた&#x200B;**[!UICONTROL オーディエンスを作成]**&#x200B;アクティビティを使用して、発生したすべての購入をターゲットにします。
+このユースケースでは、過去 1 か月にウィッシュリストを作成したプロファイルに SMS を送信します。
 
-次に、「**[!UICONTROL ディメンションを変更]** アクティビティを使用して、オーケストレーションされたキャンペーンのターゲティングディメンションを「受信者」に切り替えます。 これにより、クエリに一致する受信者をターゲットにすることができます。
+**ウィッシュリスト]** ターゲティングディメンションを使用して **[!UICONTROL オーディエンスを作成** アクティビティを開始し、関連するすべてのウィッシュリストを選択します。
+
+次に、「**[!UICONTROL ディメンションを変更]**」アクティビティを挿入して、ターゲティングディメンションを **ウィッシュリスト** から **受信者** に切り替えます。 これにより、オーケストレーションされたキャンペーンは、これらのウィッシュリストに関連付けられたプロファイルに SMS を送信できます。
 
 ![](../assets/change-dimension-example.png)
