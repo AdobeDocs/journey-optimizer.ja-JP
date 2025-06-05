@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: アクション, ジャーニー, メッセージ, 送信, 接続
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: ht
-source-wordcount: '273'
+source-git-commit: bb2272e6959d896fb6b3286cec2c16a545a9f671
+workflow-type: tm+mt
+source-wordcount: '274'
 ht-degree: 100%
 
 ---
@@ -21,15 +21,14 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_list"
 >title="カスタムアクション"
->abstract="アクションとは、プッシュ通知、メール、またはビジネスで使用するその他のデジタルエンゲージメントの手段など、パーソナライズされたリアルタイムのエクスペリエンスを顧客に提供する接続です。"
+>abstract="アクションとは、プッシュ通知、メール、SMS、またはビジネスで使用するその他のデジタルエンゲージメントの手段など、パーソナライズされたリアルタイムのエクスペリエンスを顧客に提供するための接続です。"
 
-アクションとは、プッシュ通知、メール、またはビジネスで使用するその他のデジタルエンゲージメントの手段など、パーソナライズされたリアルタイムのエクスペリエンスを顧客に提供する接続です。
+アクションとは、プッシュ通知、メール、SMS、またはビジネスで使用するその他のデジタルエンゲージメントの手段など、パーソナライズされたリアルタイムのエクスペリエンスを顧客に提供するための接続です。
 
 
-➡️ [この機能をビデオで確認](#video)
+➡️ [ビデオでこの機能を確認する](#video)
 
-[!DNL Journey Optimizer] には、メッセージ機能がビルトインされています。
-カスタムアクションを使用すると、メッセージや API 呼び出しを送信するサードパーティシステムの接続を設定できます。アクションは、JSON 形式のペイロードを使用した REST API を介して呼び出すことができる、任意のプロバイダーの任意のサービスで設定できます。
+[!DNL Journey Optimizer] には、メッセージ機能がビルトインされています。カスタムアクションを使用すると、メッセージや API 呼び出しを送信するサードパーティシステムの接続を設定できます。アクションは、JSON 形式のペイロードを使用した REST API を介して呼び出すことができる、任意のプロバイダーの任意のサービスで設定できます。
 
 * Adobe Campaign v7 または v8 を使用している場合は、リクエストに応じて統合を利用できます。詳しくは、[このページ](../action/acc-action.md)を参照してください。
 
@@ -49,4 +48,4 @@ ht-degree: 100%
 
 カスタムアクションの設定方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430280?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)

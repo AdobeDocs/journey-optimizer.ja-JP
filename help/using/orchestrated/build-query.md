@@ -7,7 +7,7 @@ badge: label="アルファ版"
 hide: true
 hidefromtoc: true
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
-source-git-commit: 5872e192c849b7a7909f0b50caa1331b15490d79
+source-git-commit: f6f83405f59f444c5d9d2ec2e603ff5425c3d745
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 12%
@@ -20,7 +20,7 @@ ht-degree: 12%
 
 | 調整されたキャンペーンへようこそ | 最初の調整されたキャンペーンの開始 | データベースのクエリ | キャンペーンアクティビティをキャンセル |
 |---|---|---|---|
-| [ オーケストレーションされたキャンペーンの概要 ](gs-orchestrated-campaigns.md)<br/><br/>[ 設定手順 ](configuration-steps.md)<br/><br/>[ オーケストレーションされたキャンペーンを作成するための主な手順 ](gs-campaign-creation.md) | [ オーケストレーションされたキャンペーンの作成 ](create-orchestrated-campaign.md)<br/><br/>[ アクティビティのオーケストレーション ](orchestrate-activities.md)<br/><br/>[ オーケストレーションされたキャンペーンでのメッセージの送信 ](send-messages.md)<br/><br/>[ キャンペーンの開始および監視 ](start-monitor-campaigns.md)<br/><br/>[ レポート ](reporting-campaigns.md) | [ ルールビルダーの操作 ](orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリの作成 ](build-query.md)<br/><br/>[ 式の編集 ](edit-expressions.md) | [ アクティビティの基本を学ぶ ](activities/about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションを変更 ](activities/change-dimension.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) - [ 分割 ](activities/split.md) [&#128279;](activities/wait.md) - |
+| [ オーケストレーションされたキャンペーンの概要 ](gs-orchestrated-campaigns.md)<br/><br/>[ 設定手順 ](configuration-steps.md)<br/><br/>[ オーケストレーションされたキャンペーンを作成するための主な手順 ](gs-campaign-creation.md) | [ オーケストレーションされたキャンペーンの作成 ](create-orchestrated-campaign.md)<br/><br/>[ アクティビティのオーケストレーション ](orchestrate-activities.md)<br/><br/>[ オーケストレーションされたキャンペーンでのメッセージの送信 ](send-messages.md)<br/><br/>[ キャンペーンの開始および監視 ](start-monitor-campaigns.md)<br/><br/>[ レポート ](reporting-campaigns.md) | [ ルールビルダーの操作 ](orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリの作成 ](build-query.md)<br/><br/>[ 式の編集 ](edit-expressions.md) | [ アクティビティの基本を学ぶ ](activities/about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションを変更 ](activities/change-dimension.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) - [ 分割 ](activities/split.md) [ ](activities/wait.md) - |
 
 {style="table-layout:fixed"}
 
@@ -35,69 +35,61 @@ ht-degree: 12%
 >[!ENDSHADEBOX]
 
 <!--
-To start building a query, access the rule builder from a **[!UICONTROL Build audience]** activity. Rules are built by combining conditions in the canvas using groups and operators.
+The main steps to build rules for your orchestrated campaigns are as follows:
 
-To create your first query, follow these steps:
+1. **Add conditions** - Create custom conditions to filter your query by building your own condition with attributes from the database and advanced expressions.
+1. **Combine conditions** - Arrange the conditions in the canvas using groups and logical operators.
+1. **Check and validate the rule** - Check the resulting data of your rule before saving it.
+
+## Add a condition {#conditions}
+
+To add conditions in your query, follow these steps:
+
+1. Access the rule builder from a **[!UICONTROL Build audience]** activity.
 
 1. Click the **Add condition** button to create a first condition for your query.
 
-    You can also start your query by using a predefined filter. To do so, click the **[!UICONTROL Select or save filter]** and choose **[!UICONTROL Select predefined filter]**. 
+    You can also start your query using a predefined filter. To do so, click the **[!UICONTROL Select or save filter]** button and choose **[!UICONTROL Select predefined filter]**. 
 
-1. Choose the attribute to use as criteria for your condition thebn confirm.
+1. Identify the attribute from the dabatase to use as criteria for your condition. The "i" icon next to an attribute provides information on the table where it is store and its data type.
 
     ![image showing the selection of an attribute](assets/rule-builder-select-attribute.png)
 
-    The "i" icon next to an attribute provides information on the table hwere it is located and its data type.
+    >[!NOTE]
+    >
+    >The **Edit expression** button allows you to use the expression editor to manually define an expression using fields from the database and helper functions. [Learn how to edit expressions](expression-editor.md)
 
-    Click the ellipsis button to access these options:
+1. Click the ![image showing the More actions button](assets/do-not-localize/rule-builder-icon-more.svg) button next to an attribute to access these addititional options:
 
     +++ Distribution of values
 
-    The distribution of values shows the percentage of each value of a field within a table, based on the current query parameters. Knowing the distribution of values within a query helps refine segmentation.
+    Analyze the distribution of values for a given attribute within the table. This feature is helpful for understanding the available values, their counts, and percentages. It also helps avoid issues such as inconsistent capitalization or spelling when building queries or creating expressions.
 
-    >[!NOTE]
-    >
-    >* For fields with many values, only the first twenty values are displayed. In such cases, a notification **[!UICONTROL Partial load]** warns you.
-    >* The **[!UICONTROL Distribution of values]** option is accessible in every attribute picker. [Learn how to select attributes](../get-started/attributes.md)
-    >* You can add conditions on the results by using the **[!Advanced filters]**. [Learn more here](../get-started/work-with-folders.md#filter-the-values).
+    For attributes with a large number of values, the tool displays only the first twenty. In such cases, a **[!UICONTROL Partial load]** notification appears to indicate this limitation. You can apply advanced filters to refine the displayed results and focus on specific values or subsets of data.
+
+    ![image showing the Distribution of values interface](assets/rule-builder-distribution-values.png)
 
     +++
 
-    * Add to favorites
+    +++ Add to favorites
     
+    Adding attributes to your favorites menu provides quick access to your most frequency used attributes. You can add up to 20 attributes to favorites. Favorite and recent attributes are associated with each user within an organization, ensuring accessibility across different machines and providing a seamless experience across devices.
+    
+    To access attributes you have favorited, use the **[!UICONTROL Favorites and recents]** menu. Favorite attributes appear first, followed by recently used ones, making it easy to locate the required attributes. To remove an attribute from favorites, select the star icon again.
 
-Use **Group operators** (AND, OR, EXCEPT) allow you to group filtering components in the diagram. They are added on existing transitions before a filtering component. [Learn how to work with operators](#filtering)
+    ![image showing the favorites interface](assets/rule-builder-favorites.png)
 
-    Example: *Recipients who are Super VIP **AND** VIP to reward **OR** VIP Demo, **EXCEPT** recipients under 21 years old and above 45.
+    +++
 
+1. Click **[!UICONTROL Confirm]** to add the selected attribute to your condition.
 
+1. A properties pane displays, where you can configure the desired values for the attribute.
 
+    ![image showing the rule builder with a condition added](assets/rule-builder-condition.png)
 
-
-
-
-
-
-### Configure a custom condition {#custom-condition}
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_querymodeler_customcondition"
->title="Custom condition"
->abstract="Custom conditions are filtering components that allow you to filter your query by building your own condition with attributes from the database and advanced expressions."
-
-To filter your query using a custom condition, follow these steps:
-
-1. Click the **+** button on the desired node and select **[!UICONTROL Custom condition]**. The custom condition properties pane opens on the right-hand side.
-
-1. In the **Attribute** field, select the attribute from the database that you want to use to create your condition. The attributes list includes all the attributes from your campaign database, including attributes from linked tables. [Learn how to select attributes and add them to favorites](../get-started/attributes.md)
-
-    ![Selecting attributes for a custom condition in a query.](assets/query-custom-condition-fields.png){zoomable="yes"}
-
-    >[!NOTE]
-    >
-    >The **Edit expression** button allows you to use the Campaign Web expression editor to manually define an expression using fields from the database and helper functions. [Learn how to edit expressions](expression-editor.md)
-
-1. Select the operator to apply from the drop-down list. Various operators are available for use. Note that operators available in the drop-down list depend on the attribute's data type.
+1. Select the **[!UICONTROL Operator]** to apply from the drop-down list. 
+    
+    Various operators are available for use. Operators available in the drop-down list depend on the attribute's data type.
 
    +++List of available operators
 
@@ -122,37 +114,17 @@ To filter your query using a custom condition, follow these steps:
 
     +++
 
-1. In the **Value** field, define the expected value. You can also use the Campaign Web expression editor to manually define an expression using fields from the database and helper functions. To do this, click the **Edit expression** button. [Learn how to edit expressions](expression-editor.md)
+1. In the **Value** field, define the expected value. You can also use the expression editor to manually define an expression using fields from the database and helper functions. To do this, click the ![image showing the expression editor icon](assets/do-not-localize/rule-builder-icon-editor.svg) icon. [Learn how to edit expressions](expression-editor.md)
 
-    *Query example returning all profiles aged 21 or more:*
+    For date-type attributes, predefined values are available using the **[!UICONTROL Presets]** option.
 
->[!BEGINTABS]
+    +++See example
+    
+    ![image showing the preset option](assets/rule-builder-attribute-preset.png) 
 
->[!TAB Classic rule builder]
+    +++
 
-![Example of a query targeting profiles aged 21 or more.](assets/query-custom-condition.png){zoomable="yes"}
-
->[!TAB New rule builder]
-
-![Example of a query targeting profiles aged 21 or more.](assets/ruleb-3.png){zoomable="yes"}
-
->[!ENDTABS]
-
-For date-type attributes, predefined values are available using the **[!UICONTROL Presets]** option.
-
->[!BEGINTABS]
-
->[!TAB Classic rule builder]
-
-![Example of using date presets in a query.](assets/date-presets.png){zoomable="yes"}
-
->[!TAB New rule builder]
-
-![Example of using date presets in a query.](assets/ruleb-4.png){zoomable="yes"}
-
->[!ENDTABS]
-
-#### Custom conditions on linked tables (1-1 and 1-N links){#links}
+### Custom conditions on linked tables (1-1 and 1-N links){#links}
 
 Custom conditions allows you to query tables linked to the table currently used by your rule. This includes tables with a 1-1 cardinality link, or collection tables (1-N link).
 
@@ -202,7 +174,7 @@ Here, the query is targeting recipients who made purchases related to the BrewMa
 
 +++ 
 
-#### Work with aggregate data {#aggregate}
+### Custom conditions with aggregate data {#aggregate}
 
 Custom conditions allow you to perform aggregate operations. To do this, you need to directly select an attribute from a collection table:
 
@@ -212,83 +184,26 @@ Custom conditions allow you to perform aggregate operations. To do this, you nee
 
 1. In the properties pane, toggle on the **Aggregate data** option and select the desired aggregate function.
 
->[!BEGINTABS]
 
->[!TAB Classic rule builder]
 
-![Screenshot of the Aggregate data option](assets/aggregate.png){zoomable="yes"}{width="85%" align="center"}
 
->[!TAB New rule builder]
 
-![Screenshot of the Aggregate data option](assets/ruleb-5.png){zoomable="yes"}{width="85%" align="center"}
 
->[!ENDTABS]
 
-### Select an audience {#audiences}
+## Combine conditions with groups and operators
 
->[!CONTEXTUALHELP]
->id="acw_orchestration_querymodeler_selectaudience"
->title="Select audience"
->abstract="By using the **Select audience** option, you can choose the audience that you want to use to filter your query."
+Use **Group operators** (AND, OR, EXCEPT) allow you to group filtering components in the diagram. They are added on existing transitions before a filtering component. [Learn how to work with operators](#filtering)
 
-To filter your query using an existing audience, follow these steps:
+    Example: *Recipients who are Super VIP **AND** VIP to reward **OR** VIP Demo, **EXCEPT** recipients under 21 years old and above 45.
 
->[!BEGINTABS]
 
->[!TAB Classic rule builder]
 
-1. Click the **+** button on the desired node and choose **[!UICONTROL Select audience]**.
 
-1. The **Select audience** properties pane opens on the right hand side. Choose the audience that you want to use to filter your query.
 
-    *Query example returning all profiles belonging to the "Festival Goers" audience":*
 
-    ![Screenshof of a query example](assets/query-audience.png){zoomable="yes"}
 
->[!TAB New rule builder]
 
-1. Click the **Expand** button next to the **[!UICONTROL Add condition]** button and choose **[!UICONTROL Select audience]**.
 
-1. The **Select audience** properties pane opens on the right hand side. Choose the audience that you want to use to filter your query.
-
-    *Query example returning all profiles belonging to the "Coffee Works" audience":*
-
-    ![Screenshof of a query example](assets/ruleb-7.png){zoomable="yes"}
-
->[!ENDTABS]
-
-### Use a predefined filter {#predefined-filters}
-
->[!CONTEXTUALHELP]
->id="acw_orchestration_querymodeler_predefinedfilter"
->title="Predefined filter"
->abstract="By using the **Predefined filter** option, you can select a predefined filter from the list of custom filters or from favorites."
-
-To filter your query using a predefined filter, follow these steps:
-
->[!BEGINTABS]
-
->[!TAB Classic rule builder]
-
-1. Click the **+** button on the desired node and select **[!UICONTROL Predefined filter]**.
-
-1. The **Predefined filter** properties pane opens on the right hand side. Select a predefined filter from the list of custom filters or from favorites.
-
-    *Query example returning all profiles corresponding to the "Inactive customers" predefined filter:*
-
-    ![Screenshot of a query example](assets/query-predefined-filter.png){zoomable="yes"}
-
->[!TAB New rule builder]
-
-1. Click the **Expand** button next to the **[!UICONTROL Add condition]** button and select **[!UICONTROL Predefined filter]**.
-
-1. The **Predefined filter** properties pane opens on the right hand side. Select a predefined filter from the list of custom filters or from favorites.
-
-    *Query example returning all profiles corresponding to the "Inactive customers" predefined filter:*
-
-    ![Screenshot of a query example](assets/ruleb-8.png){zoomable="yes"}
-
->[!ENDTABS]
 
 ### Copy-paste components {#copy}
 
