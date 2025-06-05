@@ -7,10 +7,10 @@ badge: label="アルファ版"
 hide: true
 hidefromtoc: true
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
-source-git-commit: b240d815826cd87b40cf0ed7dde9c9a28822dcba
+source-git-commit: 42c57cc8e6bd6a84495738fb987b271743c0dea7
 workflow-type: tm+mt
-source-wordcount: '1289'
-ht-degree: 59%
+source-wordcount: '732'
+ht-degree: 56%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 59%
 
 | 調整されたキャンペーンへようこそ | 最初の調整されたキャンペーンの開始 | データベースのクエリ | キャンペーンアクティビティをキャンセル |
 |---|---|---|---|
-| [ オーケストレーションされたキャンペーンの概要 ](gs-orchestrated-campaigns.md)<br/><br/>[ 設定手順 ](configuration-steps.md)<br/><br/>[ オーケストレーションされたキャンペーンを作成するための主な手順 ](gs-campaign-creation.md) | [ オーケストレーションされたキャンペーンの作成 ](create-orchestrated-campaign.md)<br/><br/>[ アクティビティのオーケストレーション ](orchestrate-activities.md)<br/><br/>[ オーケストレーションされたキャンペーンでのメッセージの送信 ](send-messages.md)<br/><br/>[ キャンペーンの開始および監視 ](start-monitor-campaigns.md)<br/><br/>[ レポート ](reporting-campaigns.md) | [ クエリの操作Modeler](orchestrated-query-modeler.md)<br/><br/>[ 最初のクエリ ](build-query.md)<br/><br/>[ 編集式を作成 ](edit-expressions.md) | [ アクティビティの基本を学ぶ ](activities/about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションを変更 ](activities/change-dimension.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) - [ 分割 ](activities/split.md) [&#128279;](activities/wait.md) - |
+| [ オーケストレーションされたキャンペーンの概要 ](gs-orchestrated-campaigns.md)<br/><br/>[ 設定手順 ](configuration-steps.md)<br/><br/>[ オーケストレーションされたキャンペーンを作成するための主な手順 ](gs-campaign-creation.md) | [ オーケストレーションされたキャンペーンの作成 ](create-orchestrated-campaign.md)<br/><br/>[ アクティビティのオーケストレーション ](orchestrate-activities.md)<br/><br/>[ オーケストレーションされたキャンペーンでのメッセージの送信 ](send-messages.md)<br/><br/>[ キャンペーンの開始および監視 ](start-monitor-campaigns.md)<br/><br/>[ レポート ](reporting-campaigns.md) | [ クエリの操作Modeler](orchestrated-query-modeler.md)<br/><br/>[ 最初のクエリ ](build-query.md)<br/><br/>[ 編集式を作成 ](edit-expressions.md) | [ アクティビティの基本を学ぶ ](activities/about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションを変更 ](activities/change-dimension.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) - [ 分割 ](activities/split.md) [ ](activities/wait.md) - |
 
 {style="table-layout:fixed"}
 
@@ -36,11 +36,11 @@ ht-degree: 59%
 
 ダイアグラムに追加できるアクティビティのリストが表示されます。使用可能なアクティビティは、調整されたキャンペーン図内の位置によって異なります。 例えば、最初のアクティビティを追加する際に、オーディエンスをターゲティング、オーケストレーションされたキャンペーンパスを分割、またはオーケストレーションされたキャンペーンの実行を遅らせる **待機** アクティビティを設定することで、オーケストレーションされたキャンペーンを開始できます。 一方、**オーディエンスを作成** アクティビティの後に、ターゲティングアクティビティでターゲットを絞り込んだり、チャネルアクティビティでオーディエンスに配信を送信したり、フロー制御アクティビティで調整されたキャンペーンプロセスを整理したりできます。
 
-![](assets/workflow-start.png){zoomable="yes"}
+![](assets/orchestrated-start.png){zoomable="yes"}
 
 アクティビティがダイアグラムに追加されると、右側のパネルが表示され、新しく追加されたアクティビティを特定の設定で設定できます。各アクティビティの設定方法について詳しくは、[この節](activities/about-activities.md)を参照してください。
 
-![](assets/workflow-configure-activities.png){zoomable="yes"}
+![](assets/orchestrated-configure-activities.png){zoomable="yes"}
 
 このプロセスを繰り返し、オーケストレーションキャンペーンで実行するタスクに応じて、必要な数のアクティビティを追加します。 また、2 つのアクティビティの間に新しいアクティビティを挿入することもできます。これを行うには、アクティビティ間のトランジションで「**+**」ボタンをクリックし、目的のアクティビティを選択して、右側のパネルで設定します。
 
@@ -60,7 +60,7 @@ ht-degree: 59%
 * **ズームアウト**／**ズームイン**：キャンバスをズームアウトまたはズームインします。
 * **マップを表示**：現在の位置を示すキャンバスのスナップショットを開きます。
 
-![](assets/workflow-toolbar.png){zoomable="yes"}{width="50%"}
+![](assets/orchestrated-toolbar.png){zoomable="yes"}{width="50%"}
 
 ## アクティビティの管理 {#manage}
 
@@ -74,8 +74,6 @@ ht-degree: 59%
 * アクティビティを「**無効／有効**」にします。オーケストレーションされたキャンペーンを実行すると、同じパス上の無効なアクティビティと後続のアクティビティは実行されず、オーケストレーションされたキャンペーンは停止します。
 * アクティビティを「**一時停止／再開**」します。調整したキャンペーンを実行すると、一時停止したアクティビティで一時停止します。 対応するタスクと、同じパス内でそのタスクに続くすべてのタスクが実行されません。
 * アクティビティを「**コピー**」します。詳しくは、[この節](#copy)を参照してください。
-* アクティビティとそのすべての子ノードを別のトランジションに&#x200B;**移動**&#x200B;します。[この節](#move)を参照してください
-* アクティビティの&#x200B;**実行オプション**&#x200B;にアクセスします。
 * アクティビティの「**ログとタスク**」にアクセスします。
 
 「**結合**」や「**重複排除**」などの&#x200B;**ターゲティング**&#x200B;アクティビティを使用すると、残りの母集団を処理し、追加のアウトバウンドトランジションに含めることができます。例えば、**分割**&#x200B;アクティビティを使用している場合、補集合は、以前に定義されたサブセットのいずれにも一致しなかった母集団で構成されます。この機能を使用するには、「**補集合を生成**」オプションを有効化します。
@@ -90,75 +88,79 @@ ht-degree: 59%
 
 * アクションボタンを使用して 1 個のアクティビティをする。
 
-  ![](assets/workflow-copy.png){zoomable="yes"}{width="70%"}
+  ![](assets/orchestrated-copy-1.png){zoomable="yes"}{width="70%"}
 
 * ツールバーボタンを使用して複数のアクティビティをコピーする。
 
-  ![](assets/workflow-copy-2.png){zoomable="yes"}{width="70%"}
+  ![](assets/orchestrated-copy-2.png){zoomable="yes"}{width="70%"}
 
 コピーしたアクティビティを貼り付けるには、トランジションの「**+**」ボタンをクリックし、「X 個のアクティビティをペースト」を選択します。
 
-![](assets/workflow-copy-3.png){zoomable="yes"}{width="50%"}
+![](assets/orchestrated-copy-3.png){zoomable="yes"}{width="50%"}
 
-### アクティビティとその子ノードの移動 {#move}
+<!--
+### Move activities and their child nodes {#move}
 
-Journey Optimizerを使用すると、アクティビティと、その子ノードのコンテンツ全体（その中のすべてのトランジションとアクティビティを含む）を、同じオーケストレーションされたキャンペーン内の別のトランジションの最後に移動できます。
+Journey Optimizer allows you to move an activity, along with the entire content of its child nodes (including all transitions and activities within it) to the end of another transition within the same orchestrated campaign.
 
-このプロセスは、アクティビティとそのアウトバウンドトランジション内のすべてのものを最初の場所から切断し、新しいターゲットトランジションに移動します。
+This process disconnects the activity and everything in its outbound transition from the initial location, moving it to the new target transition.
 
-アクティビティを移動するには：
+To move an activity:
 
-1. 移動するアクティビティを選択します。
-1. アクティビティのプロパティパネルで、「**移動**」ボタンをクリックします。
-1. アクティビティを配置するトランジションと、そのアウトバウンドトランジションを選択し、確認します。
+1. Select the activity you wish to move.
+1. In the activity's properties pane, click the **Move** button.
+1. Select the transition where you want to place the activity and its outbound transition, then confirm.
 
 ![](assets/activity-move.png)
 
-## 実行オプション {#execution}
 
-すべてのアクティビティで、実行オプションを管理できます。アクティビティを選択し、「**実行オプション**」ボタンをクリックします。これにより、アクティビティの実行モードとエラー時の動作を定義できます。
+## Execution options {#execution}
+
+All activities allow you to manage their execution options. Select an activity and click on the **Execution options** button. This lets you define the activity's execution mode and behavior in case of errors.
 
 ![](assets/workflow-execution-options.png){zoomable="yes"}{width="70%"}
 
-### プロパティ
 
-「**実行**」フィールドでは、タスクの開始時に実行されるアクションを定義できます。
+### Properties
 
-「**最大実行時間**」フィールドでは、「30 秒」や「1 時間」などの期間を指定できます。指定した期間が経過してもアクティビティが完了しない場合は、アラートがトリガーされます。これは、調整されたキャンペーンの機能には影響しません。
+The **Execution** field allows you to define the action to be carried out when the task is started.
 
-「**タイムゾーン**」フィールドでは、アクティビティのタイムゾーンを選択できます。Adobe Journey Optimizerでは、同じインスタンス上の複数の国の時間差を管理できます。 適用される設定は、インスタンスの作成時に設定されます。
+The **Maximum execution duration** field allows you to specify a duration such as "30s" or "1h". If the activity is not finished after the duration specified has been elapsed, an alert is triggered. This has no impact on how the orchestrated campaign functions.
 
-**アフィニティ** フィールドを使用すると、オーケストレーションされたキャンペーンまたはオーケストレーションされたキャンペーンアクティビティを、特定のマシンで強制的に実行できます。 これを行うには、該当する調整されたキャンペーンまたはアクティビティに 1 つまたは複数のアフィニティを指定する必要があります。
+The **Time zone** field allows you to select the time zone of the activity. Adobe Journey Optimizer allows you to manage the time differences between multiple countries on the same instance. The setting applied is configured when the instance is created.
 
-「**動作**」フィールドでは、非同期タスクが使用される場合に従う手順を定義できます。
+**The Affinity** field allows you to force an orchestrated campaign or an orchestrated campaign activity to execute on a particular machine. To do this, you must specify one or several affinities for the orchestrated campaign or activity in question.
 
-### エラー管理
+The **Behavior** field allows you to define the procedure to follow if asynchronous tasks are used.
 
-「**エラーの場合**」フィールドでは、アクティビティでエラーが発生した場合に実行するアクションを指定できます。
+### Error management
 
-### 初期化スクリプト
+The **In case of error** field allows you to specify the action to be carried out should the activity encounter an error.
 
-**初期化スクリプト**&#x200B;では、変数を初期化したり、アクティビティのプロパティを変更したりできます。「**コードを編集**」ボタンをクリックし、実行するコードのスニペットを入力します。スクリプトは、アクティビティの実行時に呼び出されます。
+### Initialization script
 
-## 例 {#example}
+The **Initialization script** lets you initialize variables or modify activity properties. Click the **Edit code** button and type the snippet of code to execute. The script is called when the activity executes. 
 
-次に、コーヒーマシンに関心のあるすべての顧客（VIPのお客様を除く）にメールを送信するように設計された、調整されたキャンペーンの例を示します。
+## Example {#example}
+
+Here is an orchestrated campaign example designed to send an email to all customers (other than VIP customers) with an email who are interested in coffee machines.
 
 ![](assets/workflow-example.png){zoomable="yes"}{zoomable="yes"}
 
-これを実現するために、以下のアクティビティが追加されました。
+To achieve this, activities below have been added:
 
-* 調整したキャンペーンを 3 つのパス（顧客の組ごとに 1 つ）に分割する **[!UICONTROL 分岐]** アクティビティ。
-* **[!UICONTROL オーディエンスを作成]**&#x200B;アクティビティを使用して、3 組の顧客をターゲットに設定します。
+* A **[!UICONTROL Fork]** activity that divides the orchestrated campaign into three paths (one for each set of customer),
+* **[!UICONTROL Build audience]** activities to target the three sets of customers:
 
-   * メールを送信した顧客。
-   * 「コーヒーマシンに関心のある」既存のオーディエンスに属する顧客。
-   * 既存の「VIP」オーディエンスまたは「報酬」オーディエンスに属する顧客。
+    * Customers with an email,
+    * Customers belonging to the pre-existing "Interrested in Coffee Machine(s)" audience,
+    * Customers belonging to the pre-existing "VIP ro reward" audience.
 
-* メールを送信した顧客とコーヒーマシンに関心のある顧客をグループ化する&#x200B;**[!UICONTROL 結合]**&#x200B;アクティビティ。
-* VIP 顧客を除外する&#x200B;**[!UICONTROL 結合]**&#x200B;アクティビティ。
-* 結果の顧客にメールを送信する&#x200B;**[!UICONTROL メール配信]**&#x200B;アクティビティ。
+* A **[!UICONTROL Combine]** activity that groups together customers with an email and those interested in coffee machines,
+* A **[!UICONTROL Combine]** activity that excludes VIP customers,
+* An **[!UICONTROL Email delivery]** activity that sends an email to the resulting customers. 
 
-調整したキャンペーンを完了したら、図の最後に **[!UICONTROL 終了]** アクティビティを追加します。 このアクティビティを使用すると、ワークフローの終了を視覚的に示すことができ、機能には影響はありません。
+Once you have completed the orchestrated campaign, add en **[!UICONTROL End]** activity at the end of the diagram. This activity allow you to visually mark the end of a workflow and has no functional impact.
 
-オーケストレーションされたキャンペーンの図を正常に設計したら、オーケストレーションされたキャンペーンを実行し、様々なタスクの進捗をトラッキングできます。 [ オーケストレートキャンペーンを開始し、その実行を監視する方法については、こちらを参照してください ](start-monitor-campaigns.md)
+After successfully designing the orchestrated campaign diagram, you can execute the orchestrated campaign and track the progress of its various tasks. [Learn how to start an orchestrated campaign and monitor its execution](start-monitor-campaigns.md)
+-->
