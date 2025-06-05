@@ -9,9 +9,9 @@ role: Admin, Architect
 level: Intermediate
 keywords: 権限, 制限, アクセス, サンドボックス
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: fbcddcf10974f16eb6885ebb38b7be41f2e53639
+source-git-commit: 404fffa8d1f2ed40b18246002b67e2b533d8c19e
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '438'
 ht-degree: 33%
 
 ---
@@ -36,7 +36,7 @@ Journey Optimizerのアクセス制御を設定するには、組織のシステ
 
 [!DNL Journey Optimizer] のユーザー管理は、次の主要な概念に基づいています。
 
-* **[!UICONTROL 役割]**：役割とは、同じ権限とサンドボックスを共有するユーザーの集まりを指します。 これらの役割を使用すると、組織内の様々なユーザーグループに対するアクセスと権限を簡単に管理できます。 役割には、インターフェイス内の特定の機能やオブジェクトにユーザーがアクセスできる単一権限のセットが付属しています。
+* **[!UICONTROL 役割]**：役割とは、同じ権限とサンドボックスを共有するユーザーの集まりを指します。 これらの役割を使用すると、組織内の様々なユーザーグループに対するアクセスと権限を簡単に管理できます。 役割には、インターフェイス内の特定の機能やオブジェクトにユーザーがアクセスできる単一権限（権限）のセットが付属しています。
 [!DNL Journey Optimizer] を使用すると、様々なレベルの権限を持つ様々な既存の **[!UICONTROL 役割]** から選択して、ユーザーに割り当てることができます。 使用可能な **組み込みの役割** について詳しくは、[ このページ ](ootb-product-profiles.md) を参照してください。
 
 * **[!UICONTROL 権限]**：権限は、（役割 **[!UICONTROL に割り当てる許可を定義できる単一の権限]** す。 各権限は、リソース（[!DNL Journey Optimizer] の様々な機能やオブジェクトに相当するジャーニーやオファーなど）の下に集約されています。詳しくは、[権限レベル](high-low-permissions.md)の節を参照してください。

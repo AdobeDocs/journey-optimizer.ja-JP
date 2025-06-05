@@ -9,18 +9,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 keywords: 製品, プロファイル, サンドボックス
-source-git-commit: 8093af8c3e7484f9ebed8dbc50065bcff0459581
+source-git-commit: 404fffa8d1f2ed40b18246002b67e2b533d8c19e
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 65%
+source-wordcount: '710'
+ht-degree: 51%
 
 ---
 
 # ユーザーと役割の管理 {#manage-permissions}
-
->[!IMPORTANT]
->
-> 次に説明する各手順は、**[!UICONTROL 製品]**&#x200B;または&#x200B;**[!UICONTROL システム]**&#x200B;の管理者のみが実行できます。
 
 **[!UICONTROL 役割]**&#x200B;は、同じ権限とサンドボックスを共有するユーザーのコレクションを指します。これらの役割を使用すると、組織内の様々なユーザーグループのアクセスと権限を簡単に管理できます。
 
@@ -29,6 +25,12 @@ ht-degree: 65%
 ユーザーは **[!UICONTROL 役割]** に属すると、製品に含まれるAdobeのアプリやサービスにアクセスできます。
 
 既存の役割が組織の固有のニーズを満たさない場合は、カスタムの&#x200B;**[!UICONTROL 役割]**&#x200B;を作成して、インターフェイス内の特定の機能やオブジェクトへのアクセスを微調整することもできます。これにより、各ユーザーが効率的にタスクを実行するために必要なリソースとツールにのみアクセスできるようになります。
+
+
+>[!IMPORTANT]
+>
+>以下に説明する手順は、**[!UICONTROL Product]** または **[!UICONTROL System]** の管理者のみが実行できます。
+
 
 ## 役割の割り当て {#assigning-role}
 
@@ -62,13 +64,15 @@ ht-degree: 65%
 
 ## 既存の役割の編集 {#edit-product-profile}
 
-標準またはカスタムの&#x200B;**[!UICONTROL 役割]**&#x200B;については、いつでも権限を追加または削除できます。
+ビルトインまたはカスタムの **[!UICONTROL 役割]** の場合は、いつでも権限を追加または削除できます。
 
-この例では、ジャーニー閲覧者の&#x200B;**[!UICONTROL 役割]**&#x200B;を割り当てられたユーザーに対して、**[!UICONTROL ジャーニー]**&#x200B;リソースに関連する&#x200B;**[!UICONTROL 権限]**&#x200B;を追加します。その後、ユーザーはジャーニーを公開できます。
+以下の例では、ジャーニー閲覧者 **[!UICONTROL Role]** に割り当てられたユーザーの **[!UICONTROL Permissions]** リソースに関連する **[!UICONTROL ジャーニー]** を追加します。 その後、ユーザーはジャーニーを公開できます。
 
-なお、標準またはカスタムの&#x200B;**[!UICONTROL 役割]**&#x200B;を変更すると、この&#x200B;**[!UICONTROL 役割]**&#x200B;を割り当てられたすべてのユーザーが影響を受けます。
+>[!IMPORTANT]
+>
+>組み込みまたはカスタムの役割に加えた変更は、その役割に割り当てられたすべてのユーザーに影響を与えます。
 
-1. [!DNL Permissions] 製品でユーザーに役割を割り当てるには、「**[!UICONTROL 役割]**」タブに移動し、目的の役割を選択します。ここではジャーニー閲覧者の&#x200B;**[!UICONTROL 役割]**&#x200B;を選択します。
+1. [!DNL Permissions] 製品でロールを編集するには、「**[!UICONTROL ロール]**」タブに移動し、目的のロール、ここではジャーニービューア **[!UICONTROL ロール]** を選択します。
    ![](assets/do-not-localize/access_control_5.png)
 
 1. **[!UICONTROL 役割]**&#x200B;ダッシュボードで、「**[!UICONTROL 編集]**」をクリックします。
@@ -85,7 +89,7 @@ ht-degree: 65%
 
 1. 終了したら、「**[!UICONTROL 保存]**」をクリックします。
 
-必要に応じて、特定の権限を持つ新しい役割を作成することもできます。 詳しくは、[新しい役割の作成](#create-product-profile)を参照してください。
+必要に応じて、特定の権限を持つ新しい役割を作成することもできます。
 
 ## 新しい役割の作成 {#create-product-profile}
 
@@ -95,7 +99,7 @@ ht-degree: 65%
 
 この例では、**ジャーニー読み取り専用** という名前のロールを作成し、ジャーニー機能に読み取り専用の権限を付与します。 ユーザーはジャーニーにアクセスして表示できますが、[!DNL Journey Optimizer] の **[!DNL Decision management]** など、他の機能にはアクセスできません。
 
-**ジャーニー読み取り専用**&#x200B;**[!UICONTROL 役割]**&#x200B;を作成するには：
+**ジャーニー読み取り専用****[!UICONTROL 役割]**&#x200B;を作成するには：
 
 1. [!DNL Permissions] 製品でユーザーに役割を割り当てるには、「**[!UICONTROL 役割]**」タブに移動し、「**[!UICONTROL 役割を作成]**」をクリックします。
 
