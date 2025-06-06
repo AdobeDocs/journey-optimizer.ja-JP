@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1ca6ea08e177989a0aea8646ca28b1216644fd3e
+source-git-commit: 0abf2743f7b43b54df5305f47e3bd20d37df6f39
 workflow-type: tm+mt
-source-wordcount: '1441'
-ht-degree: 87%
+source-wordcount: '1470'
+ht-degree: 86%
 
 ---
 
@@ -72,6 +72,10 @@ ht-degree: 87%
 * **決定ルールの決定項目属性のサポート** – 公開日：2025 年 6 月 4 日（PT）
 
   決定項目属性を利用して決定ルールを作成できるようになりました。 [詳細情報](../experience-decisioning/rules.md#create)
+
+* **インタラクティブメッセージ実行 API の更新** – 公開日：2025 年 6 月 6 日（PT）
+
+  インタラクティブメッセージ実行 API で、今後のキャンペーン実行のスケジュールを削除できるようになりました。 [詳細情報](https://developer.adobe.com/journey-optimizer-apis/references/messaging/){target="_blank"}
 
 ## 2025年5月リリースノート {#25-5-rn}
 
