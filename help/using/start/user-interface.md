@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+source-git-commit: 2169ab0e42ab2e8890c87e698e937f0341515b1f
 workflow-type: tm+mt
-source-wordcount: '1440'
+source-wordcount: '1402'
 ht-degree: 100%
 
 ---
@@ -249,12 +249,7 @@ Adobe Journey Optimizer の主要なヘルプページには、ホームペー�
 >title="プレースメント"
 >abstract="プレースメントにより、決定エンジンから返された項目がメッセージ内に表示される場所が決まります。レポートでは、様々なプレースメントにわたるパフォーマンスを追跡できます。"
 
-<!-- Journey Dry Run - DOCAC-12459-->
 
->[!CONTEXTUALHELP]
->id="ajo_journey_dry_run"
->title="ジャーニーのドライラン"
->abstract="ジャーニーを設計したら、ドライランを実行して、ジャーニーが機能し、手順が正しいことを確認します。この公開モードを使用すると、通信をプロファイルに送信せずに、ジャーニーをスモークテストできます。"
 
 
 
