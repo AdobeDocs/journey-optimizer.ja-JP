@@ -12,9 +12,9 @@ hidefromtoc: true
 badge: label="限定提供" type="Informative"
 keywords: 公開, ジャーニー, ライブ, 有効性, 確認
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 7845b9823ca86014e74ce2a48483b645f672850a
+source-git-commit: 9ac387f073d8f0384e20cb2d8fe327efe4b8ecde
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '730'
 ht-degree: 14%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 14%
 * **チャネルアクション** メール、SMS またはプッシュ通知を含むノードが実行されない。
 * **カスタムアクション** は、ドライラン中は無効になり、応答は null に設定されます。
 * **待機ノード** は、ドライラン中はバイパスされます。
-待機ブロックのタイムアウトを上書きできます。その場合、待機ブロックの時間が許可されているドライランのジャーニーの時間より長いと、そのブランチは完全には実行されません。
+  <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
 * **外部データソース** はデフォルトで実行されます。
 
 >[!NOTE]
@@ -90,7 +90,7 @@ ht-degree: 14%
 
 * **[!UICONTROL エントリ済み]**：このアクティビティにエントリ済みの個人の合計数。
 * **[!UICONTROL 退出済み（終了基準を満たす）]**：終了基準に従って、そのアクティビティからジャーニーを退出した個人の合計数。
-* **[!UICONTROL 退出（強制退出）]**：退出した個人の合計数。
+* **[!UICONTROL 退出（強制退出）]**：ジャーニーが一時停止されたときに退出した個人の合計数。
 * **[!UICONTROL エラー]**：そのアクティビティでエラーが発生した個人の合計数。
 
 

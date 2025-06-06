@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1f68ad1357ec7bb658e664ea3b06b3db476fdbf4
+source-git-commit: 9ac387f073d8f0384e20cb2d8fe327efe4b8ecde
 workflow-type: tm+mt
-source-wordcount: '2414'
+source-wordcount: '2417'
 ht-degree: 96%
 
 ---
@@ -53,6 +53,7 @@ ht-degree: 96%
       + [ジャーニードライラン](using/building-journeys/journey-dry-run.md)
       + [ジャーニーの公開](using/building-journeys/publishing-the-journey.md)
       + [ジャーニーのライブレポート](using/building-journeys/report-journey.md)
+      + [ジャーニーの一時停止](using/building-journeys/journey-pause.md)
    + ジャーニーの管理{#manage-journey}
       + [ジャーニーの参照とフィルタリング](using/building-journeys/journey-ui.md)
       + [ジャーニーのプロファイルエントリ](using/building-journeys/entry-management.md)
@@ -187,7 +188,7 @@ ht-degree: 96%
       + [レポート](using/orchestrated/reporting-campaigns.md)
    + データベースのクエリ {#query-database}
       + [ ルールビルダーの操作 ](using/orchestrated/orchestrated-rule-builder.md)
-      + [ 最初のクエリを作成する ](using/orchestrated/build-query.md)
+      + [ 最初のルールを作成する ](using/orchestrated/build-query.md)
       + [ 式を編集 ](using/orchestrated/edit-expressions.md)
    + キャンペーンアクティビティをキャンセル {#design-campaigns}
       + [アクティビティの概要](using/orchestrated/activities/about-activities.md)
