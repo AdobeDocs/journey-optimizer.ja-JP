@@ -7,9 +7,9 @@ badge: label="アルファ版"
 hide: true
 hidefromtoc: true
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
-source-git-commit: 450f83eb53068df10a63d39d1a43483ad3c7e803
+source-git-commit: 04a21534d91e4fcfa550af50450ea241c9b1235c
 workflow-type: tm+mt
-source-wordcount: '1792'
+source-wordcount: '1798'
 ht-degree: 52%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 52%
 
 | 調整されたキャンペーンへようこそ | 最初の調整されたキャンペーンの開始 | データベースのクエリ | キャンペーンアクティビティをキャンセル |
 |---|---|---|---|
-| [ オーケストレーションされたキャンペーンの概要 ](gs-orchestrated-campaigns.md)<br/><br/>[ 設定手順 ](configuration-steps.md)<br/><br/>[ オーケストレーションされたキャンペーンを作成するための主な手順 ](gs-campaign-creation.md) | [ オーケストレーションされたキャンペーンの作成 ](create-orchestrated-campaign.md)<br/><br/>[ オーケストレーションされたキャンペーンの設定 ](orchestrated-campaign-settings.md)<br/><br/>[ アクティビティのオーケストレーション ](orchestrate-activities.md)<br/><br/>[ オーケストレーションされたキャンペーンを使用したメッセージの送信 ](send-messages.md)<br/><br/>[ キャンペーンの開始と監視 ](start-monitor-campaigns.md)<br/><br/>[ レポート ](reporting-campaigns.md) | [ ルールビルダーの操作 ](orchestrated-rule-builder.md)<br/><br/><b>[ 最初のクエリの作成 ](build-query.md)</b><br/><br/>[ 式の編集 ](edit-expressions.md) | [ アクティビティの基本を学ぶ ](activities/about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションを変更 ](activities/change-dimension.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) - [ 分割 ](activities/split.md) [&#128279;](activities/wait.md) - |
+| [ オーケストレーションされたキャンペーンの概要 ](gs-orchestrated-campaigns.md)<br/><br/>[ 設定手順 ](configuration-steps.md)<br/><br/>[ オーケストレーションされたキャンペーンを作成するための主な手順 ](gs-campaign-creation.md) | [ オーケストレーションされたキャンペーンの作成 ](create-orchestrated-campaign.md)<br/><br/>[ オーケストレーションされたキャンペーンの設定 ](orchestrated-campaign-settings.md)<br/><br/>[ アクティビティのオーケストレーション ](orchestrate-activities.md)<br/><br/>[ オーケストレーションされたキャンペーンを使用したメッセージの送信 ](send-messages.md)<br/><br/>[ キャンペーンの開始と監視 ](start-monitor-campaigns.md)<br/><br/>[ レポート ](reporting-campaigns.md) | [ ルールビルダーの操作 ](orchestrated-rule-builder.md)<br/><br/><b>[ 最初のクエリの作成 ](build-query.md)</b><br/><br/>[ 式の編集 ](edit-expressions.md) | [ アクティビティの基本を学ぶ ](activities/about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションを変更 ](activities/change-dimension.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) - [ 分割 ](activities/split.md) [ ](activities/wait.md) - |
 
 {style="table-layout:fixed"}
 
@@ -43,6 +43,8 @@ ht-degree: 52%
 1. 「**条件を追加**」ボタンをクリックして、クエリの最初の条件を作成します。
 
    定義済みフィルターを使用してクエリを開始することもできます。 これを行うには、「**[!UICONTROL フィルターを選択または保存]**」ボタンをクリックし、「**[!UICONTROL 定義済みフィルターを選択]** を選択します。
+
+   ![ ルールビルダーを示す画像 ](assets/rule-builder-add.png)
 
 1. 条件の条件として使用する属性をデータベースから特定します。 属性の横にある「i」アイコンは、属性が格納されているテーブルとそのデータタイプに関する情報を提供します。
 
@@ -80,9 +82,7 @@ ht-degree: 52%
 
    ![ 条件が追加されたルールビルダーを示す画像 ](assets/rule-builder-condition.png)
 
-1. 適用する **[!UICONTROL オペレーター]** をドロップダウンリストから選択します。
-
-   様々な演算子が使用可能です。ドロップダウンリストで使用できる演算子は、属性のデータタイプによって異なります。
+1. 適用する **[!UICONTROL オペレーター]** をドロップダウンリストから選択します。 様々な演算子が使用可能です。ドロップダウンリストで使用できる演算子は、属性のデータタイプによって異なります。
 
    +++使用可能な演算子のリスト
 
@@ -105,7 +105,7 @@ ht-degree: 52%
    | 次に類似 | 「次を含む」演算子と同様に、値に % ワイルドカード文字を挿入できます。 | 姓（@lastName）が「Jon%s」に類似しています。ワイルドカード文字は、「佐藤」のような名前を見つけるために「ジョーカー」として機能します。 |
    | 次に類似しない | 「次を含む」演算子と同様に、値に % ワイルドカード文字を挿入できます。 | 姓（@lastName）が「Smi%h」に類似していません。姓が「田中」の受信者は返されません。 |
 
-   +++
++++
 
 1. 「**値**」フィールドで、期待値を定義します。また、式エディターを使用して、データベース関数とヘルパー関数のフィールドを使用して、手動で式を定義することもできます。 それには、「![ 式エディターのアイコンを示す画像 ](assets/do-not-localize/rule-builder-icon-editor.svg) アイコンをクリックします。 [式の編集方法を学ぶ](../orchestrated/edit-expressions.md)
 
@@ -115,7 +115,7 @@ ht-degree: 52%
 
    ![ 「プリセット」オプションを示す画像 ](assets/rule-builder-attribute-preset.png)
 
-   +++
++++
 
 ### リンクされたテーブルのカスタム条件（1 対 1 および 1 対多リンク）{#links}
 
@@ -220,8 +220,10 @@ ht-degree: 52%
 * **計算**：ルールのターゲットとなるレコード数を更新および表示します。
 * **フィルターを選択または保存**：キャンバスで使用する既存の定義済みフィルターを選択するか、後で再利用できるように、クエリを定義済みフィルターとして保存します。
 
-  >[!IMPORTANT]
-  >
-  >「ルールのプロパティ」ペインから定義済みフィルターを選択すると、キャンバスで作成されたルールが選択したフィルターに置き換わります。
+<br/>
+
+    >[！重要 ]
+    >
+    >[ ルールのプロパティ ] ウィンドウから定義済みフィルターを選択すると、キャンバスで作成されたルールが選択したフィルターに置き換わります。
 
 ルールの準備が整ったら、の **[!UICONTROL 確認]** ボタンをクリックしてルールを保存します。

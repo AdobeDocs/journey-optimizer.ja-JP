@@ -7,9 +7,9 @@ badge: label="アルファ版"
 hide: true
 hidefromtoc: true
 exl-id: bf0a905f-00af-4ed7-9e4f-bf8cb0af9ea9
-source-git-commit: 70cef55d438894a8279bb4f8f3e1d3e460c1c82e
+source-git-commit: 04a21534d91e4fcfa550af50450ea241c9b1235c
 workflow-type: tm+mt
-source-wordcount: '2142'
+source-wordcount: '2114'
 ht-degree: 95%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 95%
 
 | 調整されたキャンペーンへようこそ | 最初の調整されたキャンペーンの開始 | データベースのクエリ | キャンペーンアクティビティをキャンセル |
 |---|---|---|---|
-| [ オーケストレーションされたキャンペーンの概要 ](gs-orchestrated-campaigns.md)<br/><br/>[ 設定手順 ](configuration-steps.md)<br/><br/>[ オーケストレーションされたキャンペーンを作成するための主な手順 ](gs-campaign-creation.md) | [ オーケストレーションされたキャンペーンの作成 ](create-orchestrated-campaign.md)<br/><br/>[ オーケストレーションされたキャンペーンの設定 ](orchestrated-campaign-settings.md)<br/><br/>[ アクティビティのオーケストレーション ](orchestrate-activities.md)<br/><br/>[ オーケストレーションされたキャンペーンを使用したメッセージの送信 ](send-messages.md)<br/><br/>[ キャンペーンの開始と監視 ](start-monitor-campaigns.md)<br/><br/>[ レポート ](reporting-campaigns.md) | [ ルールビルダーの操作 ](orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリの作成 ](build-query.md)<br/><br/><b>[ 式の編集 ](edit-expressions.md)</b> | [ アクティビティの基本を学ぶ ](activities/about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションを変更 ](activities/change-dimension.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) - [ 分割 ](activities/split.md) [&#128279;](activities/wait.md) - |
+| [ オーケストレーションされたキャンペーンの概要 ](gs-orchestrated-campaigns.md)<br/><br/>[ 設定手順 ](configuration-steps.md)<br/><br/>[ オーケストレーションされたキャンペーンを作成するための主な手順 ](gs-campaign-creation.md) | [ オーケストレーションされたキャンペーンの作成 ](create-orchestrated-campaign.md)<br/><br/>[ オーケストレーションされたキャンペーンの設定 ](orchestrated-campaign-settings.md)<br/><br/>[ アクティビティのオーケストレーション ](orchestrate-activities.md)<br/><br/>[ オーケストレーションされたキャンペーンを使用したメッセージの送信 ](send-messages.md)<br/><br/>[ キャンペーンの開始と監視 ](start-monitor-campaigns.md)<br/><br/>[ レポート ](reporting-campaigns.md) | [ ルールビルダーの操作 ](orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリの作成 ](build-query.md)<br/><br/><b>[ 式の編集 ](edit-expressions.md)</b> | [ アクティビティの基本を学ぶ ](activities/about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションを変更 ](activities/change-dimension.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) - [ 分割 ](activities/split.md) [ ](activities/wait.md) - |
 
 {style="table-layout:fixed"}
 
@@ -29,13 +29,13 @@ ht-degree: 95%
 
 <br/>
 
-式を編集する場合は、条件を手動で入力してルールを作成します。このモードでは、日付、文字列、数値の各フィールドの操作や並べ替えなど、具体的なクエリの実行に使用する値を操作する高度な関数を使用できます。
-
 >[!NOTE]
 >
 >以下の節では、式エディターを操作してルールを作成する方法について説明します。ルールの作成に使用する構文は、パーソナライゼーションの追加に使用する構文とは異なることに注意してください。
 
 ## 式エディターの操作 {#edit}
+
+式を編集する場合は、条件を手動で入力してルールを作成します。このモードでは、日付、文字列、数値の各フィールドの操作や並べ替えなど、具体的なクエリの実行に使用する値を操作する高度な関数を使用できます。
 
 式エディターは、ルールビルダーの「**[!UICONTROL 式を編集]**」ボタンから使用できます。このボタンは、カスタム条件を設定する際に **[!UICONTROL 属性]** および **[!UICONTROL 値]** フィールドで使用できます。
 
@@ -52,8 +52,6 @@ ht-degree: 95%
 式を編集するには、入力フィールドに式を直接入力します。フィールドまたはヘルパー関数を追加するには、式内の追加する場所にカーソルを置き、「+」ボタンをクリックします。
 
 ![式エディターのインターフェイス](assets/rule-builder-expression-editor.png){zoomable="yes"}
-
-式の準備が整ったら、「**[!UICONTROL 確認]**」ボタンをクリックします。式は、選択したフィールドに表示されます。編集するには、式エディターを開き、目的の変更を行います。
 
 ## ヘルパー関数
 
