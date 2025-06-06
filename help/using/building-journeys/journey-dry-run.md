@@ -12,9 +12,9 @@ hidefromtoc: true
 badge: label="限定提供" type="Informative"
 keywords: 公開, ジャーニー, ライブ, 有効性, 確認
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 9ac387f073d8f0384e20cb2d8fe327efe4b8ecde
+source-git-commit: c34aa14f34759e9094df2eead1c784c0c23da356
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '743'
 ht-degree: 14%
 
 ---
@@ -90,7 +90,7 @@ ht-degree: 14%
 
 * **[!UICONTROL エントリ済み]**：このアクティビティにエントリ済みの個人の合計数。
 * **[!UICONTROL 退出済み（終了基準を満たす）]**：終了基準に従って、そのアクティビティからジャーニーを退出した個人の合計数。
-* **[!UICONTROL 退出（強制退出）]**：ジャーニーが一時停止されたときに退出した個人の合計数。
+* **[!UICONTROL 退出（強制退出）]**：ジャーニーが一時停止されたときに退出した個人の合計数。 ドライランモードのジャーニーの場合、この指標は常に 0 になります。
 * **[!UICONTROL エラー]**：そのアクティビティでエラーが発生した個人の合計数。
 
 
