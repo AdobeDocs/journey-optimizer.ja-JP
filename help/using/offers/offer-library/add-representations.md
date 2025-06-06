@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
-source-git-commit: 3d332c6584b0625c83631bd6e5125dfcd244e68d
+source-git-commit: 7e9174f8a21c71b8b8e7633d664d5de7d877c240
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 86%
+source-wordcount: '809'
+ht-degree: 82%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 86%
 
 >[!NOTE]
 >
-> [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=ja){target="_blank"} と連携するには、[!DNL Assets Essentials] を組織にデプロイするとともに、ユーザーが **Assets Essentials コンシューマーユーザー** または **Assets Essentials ユーザー** の製品プロファイルに登録されていることを確認する必要があります。 詳しくは、[ このページ ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=ja){target="_blank"} を参照してください。
+> [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=ja){target="_blank"} と連携するには、[!DNL Assets Essentials] を組織にデプロイするとともに、ユーザーが **Assets Essentials コンシューマーユーザー** または **Assets Essentials ユーザー** の製品プロファイルに登録されていることを確認する必要があります。 詳しくは、[このページ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=ja){target="_blank"}を参照してください。
 
 1. 「**[!UICONTROL アセットライブラリ]**」オプションを選択します。
 
@@ -102,10 +102,11 @@ ht-degree: 86%
 
 パーソナライゼーションエディターを使用して、URL をパーソナライズできます。詳しくは、[パーソナライゼーション](../../personalization/personalize.md#use-expression-editor)を参照してください。
 
-<!--
-You can also insert an Adobe Experience Manager Content Fragment directly into your offer by clicking **[!UICONTROL Content Fragment]** Learn more about [Content fragment integration with Journey Optimizer](../../integrations/aem-fragments.md).
 
-![](../assets/offer-content-url.png)-->
+また、「**[!UICONTROL コンテンツフラグメント]**」をクリックして、Adobe Experience Manager コンテンツフラグメントをオファーに直接挿入することもできます。 オファーのコンテンツフラグメントにアクセスするには、選択したプレースメントのタイプは JSON である必要があります。
+詳しくは、[Journey Optimizerとのコンテンツフラグメント統合 ](../../integrations/aem-fragments.md) を参照してください。
+
+![](../assets/offer-content-url.png)
 
 例えば、オファーとして表示される画像をパーソナライズする場合、都会での休暇を好むユーザーにはニューヨークのスカイラインを、ビーチでの休暇を好むユーザーにはハワイのノースショアを表示しようとします。
 
