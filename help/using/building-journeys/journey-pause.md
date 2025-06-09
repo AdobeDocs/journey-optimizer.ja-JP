@@ -10,16 +10,16 @@ hide: true
 hidefromtoc: true
 badge: label="限定提供" type="Informative"
 keywords: 公開, ジャーニー, ライブ, 有効性, 確認
-source-git-commit: 341f818d84264e3cb57563466866fdf43ebc401c
+source-git-commit: 3f00e7efd58fec09187be7d31199139b753dfcc2
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '704'
 ht-degree: 6%
 
 ---
 
 # ジャーニーの一時停止 {#journey-pause}
 
-ライブジャーニーは一時停止し、必要なすべての変更を実行して、いつでも再開できます。 ジャーニーは最大 14 日間一時停止できます。 <!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> 一時停止期間が終了すると、ジャーニーが自動的に再開されます。 また、[ 手動で再開する ](#journey-resume-steps) こともできます。
+ライブジャーニーは一時停止し、必要なすべての変更を実行して、いつでも再開できます。 <!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> 一時停止期間が終了すると、ジャーニーが自動的に再開されます。 また、[ 手動で再開する ](#journey-resume-steps) こともできます。
 
 
 >[!AVAILABILITY]
@@ -74,13 +74,11 @@ ht-degree: 6%
 
 1. **一時停止** ボタンをクリックして確定します。
 
-ジャーニーは最大 14 日間一時停止できます。
-
 ## 一時停止したジャーニーの再開方法 {#journey-resume-steps}
 
-一時停止されたジャーニーは、いつでも手動で再開できます。
+一時停止されたジャーニーは、14 日間の最大一時停止期間の最後に、自動的に再開されます。 いつでも手動で再開できます。
 
-ジャーニーの一時停止を終了し、ジャーニーイベントのリッスンを再開するには、次の手順に従います。
+一時停止したジャーニーを再開し、ジャーニーイベントのリッスンを再開するには、次の手順に従います。
 
 1. 再開するジャーニーを開きます。
 1. ジャーニーキャンバスの右上のセクションにある「**...その他**」ボタンをクリックし、「**再開**」を選択します。
