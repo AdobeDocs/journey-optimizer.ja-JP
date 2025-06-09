@@ -11,7 +11,7 @@ hidefromtoc: true
 badge: label="限定提供" type="Informative"
 keywords: 公開, ジャーニー, ライブ, 有効性, 確認
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: cd85b58350b4f8829aa1bc925c151be9b061b170
+source-git-commit: 318733edf55c7a9b067f4456bda657aecdb613cf
 workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 14%
@@ -113,4 +113,4 @@ ht-degree: 14%
 
 ドライランのジャーニーは手動で停止する必要があります。 **閉じる** ボタンをクリックしてテストを終了し、確定します。
 
-14 日後、ドライラン ジャーニーは自動的にドラフト ステータスに移行します。
+14 日後、ドライランジャーニーは自動的に **ドラフト** ステータスに移行します。
