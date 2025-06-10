@@ -9,9 +9,9 @@ level: Intermediate
 keywords: 再エントリ, ジャーニー, 終了, ライブ, 停止
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 source-git-commit: a7468879b36dfe9184471824b387f1638fae3d50
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '756'
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ## ライブジャーニーの終了方法
 
-ジャーニーは、グローバルジャーニーのタイムアウトに達したとき、または繰り返しオーディエンスベースのジャーニーが最後に発生した後に閉じられます。 [詳しくは、ジャーニーをクローズする方法を参照してください](#close-journey)。
+ジャーニーは、グローバルジャーニーのタイムアウトに到達した際や、オーディエンスベースの繰り返しジャーニーが最後に実行された後にクローズされます。[詳しくは、ジャーニーをクローズする方法を参照してください](#close-journey)。
 
 ライブジャーニーを終了する場合は、手動で[クローズ](#close-to-new-entrances)することをお勧めします。そうすると、ジャーニーでの新規顧客のエントリはブロックされます。既にジャーニーにエントリしているプロファイルは、最後までジャーニーを進めることができます。
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->* [クローズ](#close-journey)したジャーニーや[停止](#stop-journey)したジャーニーは再開または削除できません。[ 新しいバージョンを作成 ](publishing-the-journey.md#journey-versions-journey-versions) するか、[ 複製 ](journey-ui.md#duplicate-a-journey-duplicate-a-journey) できます。
+>* [クローズ](#close-journey)したジャーニーや[停止](#stop-journey)したジャーニーは再開または削除できません。クローズしたジャーニーから[新しいバージョンを作成](publishing-the-journey.md#journey-versions-journey-versions)したり、[複製を作成](journey-ui.md#duplicate-a-journey-duplicate-a-journey)したりできます。
 >
 >* 削除できるのは完了したジャーニーのみです。
 

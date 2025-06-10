@@ -1,38 +1,39 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: ソリューションとアプリを組み合わせてコンテンツを管理
-description: ソリューションとアプリを組み合わせてコンテンツを管理する方法を説明します
+title: ソリューションとアプリを組み合わせたコンテンツの管理
+description: ソリューションとアプリを組み合わせてコンテンツを管理する方法について説明します
 feature: Assets, Integrations
 topic: Content Management, Integrations
 role: User
 level: Beginner
 keywords: アセット, 統合
-source-git-commit: 3ac201f33bb90a9f49b5e01d2668fc740929c9f3
-workflow-type: tm+mt
+exl-id: 3e72df85-ba80-4cec-848b-7441cb3e7fef
+source-git-commit: d82e564833b15440bdf9b02bc646e3e46768dad8
+workflow-type: ht
 source-wordcount: '693'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
-# ソリューションとアプリを組み合わせてコンテンツを管理 {#combine-solutions}
+# ソリューションとアプリを組み合わせたコンテンツの管理 {#combine-solutions}
 
-オムニチャネルのカスタマージャーニーおよびキャンペーンでアクティブ化するメッセージとコンテンツを作成するには、マーケターやカスタマーエクスペリエンスの専門家は、ワークフロー内の生成 AI、編集機能、アセット、テンプレート、フラグメント管理などの、使いやすいオーサリングオプションを必要としています。  Adobe Journey Optimizerを使用すると、Adobeのソリューションとアプリを簡単に組み合わせて、Adobe ツールを最大限に活用できます。 これらのネイティブ統合は、具体的なユースケースへの対応や、Adobe Journey Optimizerの機能範囲の拡張に役立ちます。
+オムニチャネルのカスタマージャーニーおよびキャンペーンでアクティブ化するメッセージやコンテンツを作成するために、マーケターや顧客体験の専門家は、ワークフロー内の生成 AI、編集機能、アセット、テンプレート、フラグメント管理などの使いやすいオーサリングオプションを必要としています。Adobe Journey Optimizer を使用すると、アドビソリューションとアプリを簡単に組み合わせて、アドビツールを最大限に活用できます。これらのネイティブ統合は、特定のユースケースに対処し、Adobe Journey Optimizer の機能範囲を拡張するのに役立ちます。
 
 ## Adobe Experience Manager {#integration-aem}
 
-Adobe Experience Manager ユーザーは、ワークフローをAdobe Journey Optimizerと組み合わせることができます。 使用可能なユースケースを以下に示します。
+Adobe Experience Manager ユーザーは、ワークフローを Adobe Journey Optimizer と組み合わせることができます。使用可能なユースケースは以下のとおりです。
 
 ### アセット
 
 **[!DNL Adobe Experience Manager Assets]** を使用してマーケティングワークフローとクリエイティブワークフローを統合します。**[!DNL Adobe Journey Optimizer]** とネイティブに統合され、**[!DNL Assets Essentials]** または **[!DNL Assets as a Cloud Service]** へアクセスして、デジタルアセットの保存、管理、検出、配布を行います。メッセージの入力に使用できる、アセットの一元的なリポジトリを提供します。
 
-Assets Essentials は、Adobe Creative CloudのAdobe ExpressとAdobe Photoshop Expressに接続して、マーケティングワークフローとクリエイティブワークフローを統合します。 マーケターはクリエイティブと協力して、画像のサイズ変更、背景の削除、ファイルタイプの変換などを行うための組み込みの編集ツールを使用して既存のコンテンツをカスタマイズできます。
+Assets Essentials は、Adobe Creative Cloud の Adobe Express と Adobe Photoshop Express に接続し、マーケティングワークフローとクリエイティブワークフローを統合します。マーケターはクリエイターと連携し、ビルトインの編集ツールで画像のサイズ変更、背景の削除、ファイルタイプの変換などを行い、既存のコンテンツを調整できます。
 
-**[!DNL Adobe Experience Manager Assets]** は、クリエイティブシステムを拡張し、デジタルアセットをエクスペリエンス配信に統合するために共同作業できる、一元化された 2 つのアセットワークスペースを提供します。
+**[!DNL Adobe Experience Manager Assets]** は、クリエイティブシステムを拡張し、エクスペリエンス配信に必要なデジタルアセットを統合する、共同作業が可能で一元的な 2 つのアセットワークスペースを提供します。
 
-* **[!DNL Assets as a Cloud Service]** は、デジタルアセット管理と Dynamic Media 操作を効率的に行うための使いやすいクラウドソリューションを提供します。
-* **[!DNL Assets Essentials]** は、統合されたアセット管理と共同作業を実現するAssets as a Cloud Serviceの軽量ソリューションです。
+* **[!DNL Assets as a Cloud Service]** は、効率的なデジタルアセット管理と Dynamic Media 操作のための使いやすいクラウドソリューションを提供します。
+* **[!DNL Assets Essentials]** は、統合されたアセット管理と共同作業のための Assets as a Cloud Service の軽量ソリューションです。
 
 詳しくは、[Journey Optimizer + Adobe Experience Manager Assets](../integrations/assets.md) を参照してください。
 
@@ -47,7 +48,7 @@ Learn more about [Journey Optimizer + Adobe Experience Manager templates](../int
 
 Adobe Experience Manager を Adobe Journey Optimizer と統合することで、AEM コンテンツフラグメントを Journey Optimizer のメールコンテンツにシームレスに組み込めるようになりました。この合理化された接続により、AEM コンテンツへのアクセスと活用のプロセスが簡略化され、パーソナライズされた動的なキャンペーンやジャーニーの作成が可能になります。
 
-詳しくは、[Journey Optimizer + Adobe Experience Manager フラグメント ](../integrations/aem-fragments.md) を参照してください。
+詳しくは、[Journey Optimizer + Adobe Experience Manager フラグメント](../integrations/aem-fragments.md)を参照してください。
 
 ### Dynamic Media
 
@@ -55,7 +56,7 @@ Adobe Experience Manager を Adobe Journey Optimizer と統合することで、
 
 この統合は、Dynamic Media Manager as a Cloud Service を使用している顧客のみが使用できます。
 
-[Journey Optimizer + Adobe Experience Manager Dynamic Media](../integrations/aem-dynamic.md) の詳細情報。
+詳しくは、[Journey Optimizer + Adobe Experience Manager Dynamic Media](../integrations/aem-dynamic.md) を参照してください。
 
 
 ## Adobe Stock {#integration-stock}
@@ -72,14 +73,14 @@ Adobe Journey Optimizer の Adobe Express 統合により、コンテンツの�
 
 **[!DNL Adobe Express]** メニューにアクセスするには、E メールデザイナーから&#x200B;**画像設定**&#x200B;にアクセスし、「**[!UICONTROL Adobe Express で編集]**」をクリックします。
 
-Enterprise ライセンスを使用すると、Adobe Express エディターにフルアクセスでき、色、明るさ、シャープネス、コントラスト、寸法などを調整して画像を編集できます。
+エンタープライズ版ライセンスを使用すると、ユーザーは Adobe Express エディターのすべての機能にアクセスでき、カラー、明るさ、シャープネス、コントラスト、寸法、その他の設定を調整して画像を変更できます。
 
-詳細情報：[Journey Optimizer + Adobe Express](../integrations/express.md)。
+詳しくは、[Journey Optimizer + Adobe Express](../integrations/express.md) を参照してください。
 
-## パフォーマンスマーケティング用の GenStudio
+## GenStudio for Performance Marketing
 
-Adobe GenStudio for Performance Marketingは、生成 AI ファーストのアプリケーションで、マーケティングチームが独自の広告やメールを作成し、ブランド標準を遵守し、企業ポリシーに準拠した、インパクトのあるパーソナライズされたマーケティングキャンペーンを推進できるようにします。 アドビの AI テクノロジーを活用することで、コンテンツの作成と管理の複雑さを軽減し、クリエイターが革新性に焦点を当てることができるようにする包括的なツールスイートを提供します。
+Adobe GenStudio for Performance Marketing は、マーケティングチームが独自の広告やメールを作成し、ブランド標準および企業ポリシーに準拠した、効果的でパーソナライズされたマーケティングキャンペーンを推進できるようにする生成 AI 中心のアプリケーションです。アドビの AI テクノロジーを活用することで、コンテンツの作成と管理の複雑さを軽減し、クリエイターが革新性に焦点を当てることができるようにする包括的なツールスイートを提供します。
 
 マーケティング効率を高め、ブランドの一貫性を維持するために、[!DNL **GenStudio for Performance Marketing**] エクスペリエンスを [!DNL **Adobe Journey Optimizer**] とシームレスに統合できます。これにより、[!DNL GenStudio] の AI を活用したコンテンツ作成と [!DNL Journey Optimizer] の高度なオーケストレーション機能を活用できるようになります。
 
-詳細情報：[Journey Optimizer + GenStudio for Performance Marketing](../integrations/genstudio.md)。
+詳しくは、[Journey Optimizer + GenStudio for Performance Marketing](../integrations/genstudio.md) を参照してください。

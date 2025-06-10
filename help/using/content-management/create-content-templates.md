@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: a205539b-b7ea-4832-92b0-49637c4dac47
 source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '661'
+ht-degree: 100%
 
 ---
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->メールコンテンツテンプレートを作成する際に、ブランドやデザインに合った特定のスタイルをすばやく適用するには、コンテンツにテーマを適用します。 [詳細情報](../email/apply-email-themes.md)
+>メールコンテンツテンプレートを作成する際に、ブランドやデザインに合った特定のスタイル設定をすばやく適用するには、コンテンツにテーマを適用します。[詳細情報](../email/apply-email-themes.md)
 
 ## コンテンツをコンテンツテンプレートとして保存 {#save-as-template}
 

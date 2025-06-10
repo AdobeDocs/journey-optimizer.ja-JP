@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
 source-git-commit: d629367413f106a00d0e940c90bd6d77e6f33a5c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1027'
 ht-degree: 100%
 
@@ -217,7 +217,7 @@ The following video is intended to support your understanding of the components 
 >
 >This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/342831/?quality=12&captions=jpn) -->
+>[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12) -->
 
 ## 次の手順 {#next-steps}
 

@@ -10,9 +10,9 @@ level: Experienced
 keywords: 設定, メール, 設定, サブドメイン
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
 source-git-commit: a5bd1e92b3696a7de2c44522099d54bc6e1e00ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1169'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -166,7 +166,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->テストプロファイルに加えて、[!DNL Journey optimizer] を使用すると、CSV／JSON ファイルからアップロードした、または手動で追加したサンプル入力データを使用してコンテンツをプレビューし、配達確認を送信することで、コンテンツの様々なバリアントをテストできます。[ コンテンツのバリエーションをシミュレートする方法を学ぶ ](../test-approve/simulate-sample-input.md)
+>テストプロファイルに加えて、[!DNL Journey optimizer] を使用すると、CSV／JSON ファイルからアップロードした、または手動で追加したサンプル入力データを使用してコンテンツをプレビューし、配達確認を送信することで、コンテンツの様々なバリアントをテストできます。[コンテンツバリエーションのシミュレート方法を学ぶ](../test-approve/simulate-sample-input.md)
 
 テストプロファイルを使用してコンテンツをプレビューするには、次の手順に従います。
 

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
 source-git-commit: 07704f99aff7d92e8db76755f6617345bac56590
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '873'
+ht-degree: 100%
 
 ---
 
@@ -173,4 +173,4 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->[ ランキング式 ](../experience-decisioning/exd-ranking-formulas.md#create-ranking-formula) に組み込まれた AI モデルを使用する場合、データはコンバージョン率レポートに反映されません。
+>[ランキング式](../experience-decisioning/exd-ranking-formulas.md#create-ranking-formula)に組み込まれた AI モデルを使用する際、コンバージョン率レポートにデータが反映されません。

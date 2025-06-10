@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: イベント, 単一, 作成, ジャーニー
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
 source-git-commit: dad3dc0022d04c9f9c82477d75a6fb8de7e85a6a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1692'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -91,7 +91,7 @@ ht-degree: 97%
 
 ## ペイロードフィールドの定義 {#define-the-payload-fields}
 
-ペイロード定義を使用すると、ジャーニーのイベントからシステムが受け取ると想定される情報と、イベントに関連付けられている人を識別するためのキーを選択できます。ペイロードは Experience Cloud XDM フィールド定義に基づいています。XDM について詳しくは、[Adobe Experience Platform ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target="_blank"} を参照してください。
+ペイロード定義を使用すると、ジャーニーのイベントからシステムが受け取ると想定される情報と、イベントに関連付けられている人を識別するためのキーを選択できます。ペイロードは Experience Cloud XDM フィールド定義に基づいています。XDM について詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target="_blank"}を参照してください。
 
 1. リストから XDM スキーマを選択し、**[!UICONTROL フィールド]**&#x200B;フィールドまたは「**[!UICONTROL 編集]**」アイコンをクリックします。
 
@@ -126,7 +126,7 @@ ht-degree: 97%
 
 ID タイプ（旧称「名前空間」）を使用すると、イベントに関連付けられた人物の識別に使用するキーのタイプを定義できます。設定は必須ではありません。[リアルタイム顧客プロファイル](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target="_blank"}からの追加情報をジャーニーで取得する場合に必要です。カスタムデータソースを介したサードパーティシステムのデータのみを使用する場合は、ID タイプは必要ありません。
 
-既存の ID タイプを使用することも、Adobe Experience Platform ID サービスを使用して新しい ID タイプを作成することもできます。詳しくは、[Adobe Experience Platform ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=ja){target="_blank"} を参照してください。
+既存の ID タイプを使用することも、Adobe Experience Platform ID サービスを使用して新しい ID タイプを作成することもできます。詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=ja){target="_blank"}を参照してください。
 
 プライマリ ID を持つスキーマを選択した場合は、「**[!UICONTROL プロファイル識別子]**」および「**[!UICONTROL ID タイプ]**」フィールドに事前入力します。ID を定義していない場合は、_identityMap > id_ がプライマリキーとして選択されます。次に、ID タイプを選択する必要があります。キーは、_identityMap／ID_ を使用して（**[!UICONTROL ID タイプ]**&#x200B;フィールドの下に）事前入力されます。
 
@@ -148,7 +148,7 @@ ID タイプ（旧称「名前空間」）を使用すると、イベントに�
 
 キーは、イベントのペイロードデータの一部とするフィールドまたはフィールドの組み合わせです。システムはキーを使用することでイベントに関連付けられた人を識別できます。キーには、Experience Cloud ID、CRM ID、メールアドレスなどを使用できます。
 
-Adobe リアルタイム顧客プロファイルデータベースに保存されたデータを使用するには、イベントキーは、[ リアルタイム顧客プロファイルサービス ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target="_blank"} でプロファイル ID として定義した情報である必要があります。
+アドビのリアルタイム顧客プロファイルデータベースに保存されたデータを使用するには、イベントキーが、[リアルタイム顧客プロファイルサービス](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target="_blank"}でプロファイル ID として定義した情報である必要があります。
 
 これにより、プロファイル識別子はイベントと個人プロファイルの間の紐付けを実行できます。プライマリ ID を持つスキーマを選択した場合は、「**[!UICONTROL プロファイル識別子]**」および「**[!UICONTROL ID タイプ]**」フィールドに事前入力します。ID を定義していない場合は、_identityMap／ID_ がプライマリキーとして選択されます。次に、ID タイプを選択する必要があります。キーは、_identityMap／ID_ を使用して自動的に事前入力されます。
 

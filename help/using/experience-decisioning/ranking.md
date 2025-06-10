@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
 source-git-commit: 07704f99aff7d92e8db76755f6617345bac56590
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '604'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 93%
 
 デフォルトでは、パーソナライズされた最適化モデルは、最適化指標として&#x200B;**オファーのクリック数**&#x200B;を使用します。[!DNL Customer Journey Analytics] を操作している場合、[!DNL Decisioning] を使用すると、独自のカスタム指標を活用して、モデルを最適化できます。
 
-これを行うには、パーソナライズされた AI モデル作成画面にアクセスし、**[!UICONTROL コンバージョンイベント]**&#x200B;ドロップダウンを展開します。デフォルトの [!DNL Customer Journey Analytics] データビュー [ のすべての指標 ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} リストに表示されます。 モデルを最適化する指標を選択し、通常どおり AI モデルの作成を完了します。
+これを行うには、パーソナライズされた AI モデル作成画面にアクセスし、**[!UICONTROL コンバージョンイベント]**&#x200B;ドロップダウンを展開します。デフォルトの [!DNL Customer Journey Analytics] [データビュー](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"}のすべての指標がリストに表示されます。モデルを最適化する指標を選択し、通常どおり AI モデルの作成を完了します。
 
 ![](assets/ai-ranking-custom-metrics.png)
 
@@ -68,7 +68,7 @@ ht-degree: 93%
 >
 >アトリビューションモデルを変更することは可能ですが、すべてのアトリビューションモデルが AI モデルの最適化に最適であるわけではありません。モデルの精度とパフォーマンスを確保するために、最適化目標に合ったアトリビューションモデルを慎重に選択することをお勧めします。
 >
->使用可能なアトリビューションモデルとその使用に関するガイダンスについて詳しくは、[[!DNL Customer Journey Analytics]  ドキュメント ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-dataviews/component-settings/attribution){target="_blank"} を参照してください。
+>使用可能なアトリビューションモデルとその使用に関するガイダンスについて詳しくは、[[!DNL Customer Journey Analytics]  ドキュメント](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-dataviews/component-settings/attribution){target="_blank"}を参照してください。
 
 +++
 
@@ -78,7 +78,7 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->PQL構文の使用方法について詳しくは、[ 専用ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=ja) を参照してください。
+>PQL 構文の使用方法について詳しくは、[専用ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=ja)を参照してください
 
 数式で決定項目に関連する属性を活用するには、ランキング式のコードで以下の構文に従っていることを確認してください。詳しくは、各節を展開してください。
 

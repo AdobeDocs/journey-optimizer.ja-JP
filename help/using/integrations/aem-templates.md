@@ -12,9 +12,9 @@ level: Beginner
 badge: label="ベータ版" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
 source-git-commit: 11c6dd43d6b20864f9823130c5aed790a3091938
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '741'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Journey Optimizer を使用すると、Adobe Experience Manager サイト�
 >[!AVAILABILITY]
 >
 >現在、Adobe Experience Manager との統合は、一部のユーザーのみがベータ版として利用できます。
->ベータ版のユーザーは、[このフォーム](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"}を使用してフィードバックを共有します。
+>>ベータ版のユーザーは、[このフォーム](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"}を使用してフィードバックを共有します。
 
 
 ### 前提条件 {#prerequisites}

@@ -10,9 +10,9 @@ level: Intermediate
 keywords: メール, 読み込み, コンテンツ, html, zip, css
 exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
 source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '228'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -49,10 +49,10 @@ HTML コンテンツを含んだファイルをインポートするには、次
    >
    > `<table>` タグを HTML ファイルの最初のレイヤーとして使用すると、上部レイヤータグの背景や幅の設定などのスタイルが失われる可能性があります。
 
-1. 必要に応じて、メールDesignerの機能を使用して、読み込んだファイルをパーソナライズできるようになりました。 [詳細情報](content-from-scratch.md)
+1. これで、E メールデザイナーの機能を使用して、読み込んだファイルを必要に応じてパーソナライズできるようになりました。[詳細情報](content-from-scratch.md)
 
 ## チュートリアルビデオ {#video}
 
 既存の HTML コンテンツの読み込み、デザインの調整、ミラーページと購読解除リンクの追加およびコンテンツのコーディング方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3421912?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/334102?quality=12)

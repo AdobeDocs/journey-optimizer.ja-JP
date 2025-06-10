@@ -10,9 +10,9 @@ level: Beginner
 keywords: 作成, メール, 開始, ジャーニー, キャンペーン
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 source-git-commit: 22a8742bf9000ed1cc8437d7ac89747276284dbf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '965'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -156,7 +156,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
 >[!NOTE]
 >
->テストプロファイルに加えて、[!DNL Journey optimizer] を使用すると、CSV／JSON ファイルからアップロードされた、または手動で追加されたサンプル入力データを使用して、プレビューし配達確認を送信することで、コンテンツの様々なバリアントをテストできます。[ コンテンツのバリエーションをシミュレートする方法を学ぶ ](../test-approve/simulate-sample-input.md)
+>テストプロファイルに加えて、[!DNL Journey optimizer] を使用すると、CSV／JSON ファイルからアップロードされた、または手動で追加されたサンプル入力データを使用して、プレビューし配達確認を送信することで、コンテンツの様々なバリアントをテストできます。[コンテンツバリエーションのシミュレート方法を学ぶ](../test-approve/simulate-sample-input.md)
 
 これを行うには、「**[!UICONTROL コンテンツをシミュレート]**」をクリックし、テストプロファイルを追加し、テストプロファイルデータを使用してメッセージを確認します。
 

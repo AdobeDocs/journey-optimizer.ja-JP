@@ -9,9 +9,9 @@ level: Beginner
 keywords: 外部, API, Optimizer, キャッピング
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
 source-git-commit: 9f801b1fdcab38bffff851675eca5e2fb61dfbf9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '736'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -98,7 +98,7 @@ Capping API を使用すると、キャッピング設定を作成、設定お�
 
 >[!IMPORTANT]
 >
->設定は、**deploy** エンドポイントを呼び出した後にのみアクティブになります。
+>設定は、**デプロイ**&#x200B;エンドポイントを呼び出した後にのみアクティブになります。
 
 ## 警告とエラー
 

@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
 source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '700'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -67,13 +67,13 @@ ht-degree: 91%
 
   ![](assets/fragment-designer.png)
 
-  ブランドやデザインに合った特定のスタイルをすばやく適用するには、フラグメントに [ テーマ ](../email/apply-email-themes.md) を適用します。
+  ブランドやデザインに合った特定のスタイル設定をすばやく適用するには、フラグメントに[テーマ](../email/apply-email-themes.md)を適用します。
 
   ![](assets/fragment-themes.png)
 
   >[!CAUTION]
   >
-  >フラグメントは、テーマモードとクラシックモードの間で相互互換性がありません。 テーマを適用するコンテンツでフラグメントを使用できるようにするには、このフラグメントをテーマモードで作成する必要があります。 [ テーマの詳細情報 ](../email/apply-email-themes.md)
+  >フラグメントには、テーマモードとクラシックモード間で相互互換性がありません。テーマを適用するコンテンツでフラグメントを使用できるようにするには、このフラグメントをテーマモードで作成する必要があります。[テーマの詳細情報](../email/apply-email-themes.md)
 
 * 式フラグメントの場合は、[!DNL Journey Optimizer] パーソナライゼーションエディターのすべてのパーソナライズ機能およびオーサリング機能を活用して、フラグメントコンテンツを構築します。[詳細情報](../personalization/personalization-build-expressions.md)
 

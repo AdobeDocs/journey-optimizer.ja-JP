@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journey OptimizerへのGenStudio for Performance Marketingの取り込み
-description: Journey OptimizerでGenStudio for Performance Marketingを使用する方法を学ぶ
+title: Journey Optimizer での GenStudio for Performance Marketing の操作
+description: Journey Optimizer で GenStudio for Performance Marketing を操作する方法について説明します
 feature: Content Assistant, Integrations
 topic: Content Management, Artificial Intelligence
 badge: label="限定提供" type="Informative"
@@ -10,9 +10,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: c22a44a8-e4e2-453a-9ca2-b80f7c0edc19
 source-git-commit: 11c6dd43d6b20864f9823130c5aed790a3091938
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '669'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -23,25 +23,25 @@ ht-degree: 92%
 >title="GenStudio で作成したテンプレートの使用"
 >abstract="GenStudio for Performance Marketing とのシームレスな統合により、Adobe AI テクノロジーで強化された GenStudio テンプレートを簡単に読み込むことができます。"
 
-## GenStudioの概要 {#gs-genstudio}
+## GenStudio の基本を学ぶ {#gs-genstudio}
 
 [Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/home){target="_blank"} は、マーケティングチームが独自の広告やメールを作成し、ブランド標準および企業ポリシーに準拠した、効果的でパーソナライズされたマーケティングキャンペーンを推進できるようにする生成 AI 中心のアプリケーションです。アドビの AI テクノロジーを活用することで、コンテンツの作成と管理の複雑さを軽減し、クリエイターが革新性に焦点を当てることができるようにする包括的なツールスイートを提供します。
 
 >[!AVAILABILITY]
 >
->* [!DNL Adobe Journey Optimizer] での GenStudio 統合は、現在、**Healthcare Shield** または&#x200B;**プライバシーとセキュリティシールド**&#x200B;アドオン製品では使用できません。
+>* [!DNL Adobe Journey Optimizer] での GenStudio 統合は、現在、**Healthcare Shield** または **Privacy and Security Shield** アドオン製品では使用できません。
 >
 >* この機能は、メールチャネルでのみ使用できます。
 
 マーケティング効率を高め、ブランドの一貫性を維持するために、[!DNL **GenStudio for Performance Marketing**] エクスペリエンスを [!DNL **Adobe Journey Optimizer**] とシームレスに統合できます。これにより、[!DNL GenStudio] の AI を活用したコンテンツ作成と [!DNL Journey Optimizer] の高度なオーケストレーション機能を活用できるようになります。
 
-![GenStudio コンテンツのAdobe Journey Optimizerへの読み込み ](../rn/assets/do-not-localize/genstudio.gif)
+![Adobe Journey Optimizer への GenStudio コンテンツのインポート](../rn/assets/do-not-localize/genstudio.gif)
 
 >[!INFO]
 >
 >詳しくは、この[概要](https://business.adobe.com/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"}と [!DNL Adobe GenStudio for Performance Marketing] の[デモ](https://business.adobe.com/products/genstudio-for-performance-marketing.html#demo){target="_blank"}を参照してください。
 
-➡️ [ビデオでこの機能を確認する](#video)
+➡️ [この機能をビデオで確認](#video)
 
 
 <!--To access the GenStudio integration in [!DNL Adobe Journey Optimizer] feature, users need to be granted the **xxx** permission. [Learn more](../administration/permissions.md)
@@ -60,7 +60,7 @@ See if guidelines/limitations such as the ones listed [here](gs-generative.md#ge
 
 The following limitations apply to GenStudio integration in [!DNL Adobe Journey Optimizer]:-->
 
-## Journey OptimizerでのGenStudio機能の使用 {#use-genstudio}
+## Journey Optimizer での GenStudio 機能の使用 {#use-genstudio}
 
 [!DNL GenStudio for Performance Marketing] と [!DNL Journey Optimizer] の統合により、会社のマーケターが共同作業を効率化してプロセスを合理化できます。
 
@@ -138,6 +138,6 @@ The following limitations apply to GenStudio integration in [!DNL Adobe Journey 
 
 ## チュートリアルビデオ {#video}
 
-Journey Optimizer から GenStudio for Performance Marketing にメールテンプレートを書き出し、GenStudio のテンプレートを使用してブランドに準拠したメールを作成し、Journey Optimizer にシームレスに読み込むプロセスについて説明します。
+Journey Optimizer から GenStudio for Performance Marketing にメールテンプレートをエクスポートし、GenStudio のテンプレートを使用してブランドに準拠したメールを作成し、Journey Optimizer にシームレスにインポートするプロセスについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3456050/?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3456038/?quality=12)

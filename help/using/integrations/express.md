@@ -11,7 +11,7 @@ level: Beginner
 keywords: アセット, 統合
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
 source-git-commit: b9ec22318baf888ba5d1ed3b1b7c64b658785cc1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '540'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ Adobe Express について詳しくは、[このドキュメント](https://help
 
 ![](assets/express_1.png)
 
-➡️ [ビデオでこの機能を確認する](#video)
+➡️ [この機能をビデオで確認](#video)
 
 ## Adobe Express エンタープライズ版ライセンス {#licence}
 
@@ -149,7 +149,7 @@ Adobe Express について詳しくは、[このドキュメント](https://help
 
 Adobe Express ツールを使用して Adobe Journey Optimizer でアセットを編集する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3455524/?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3455523/?quality=12)
 
 
 

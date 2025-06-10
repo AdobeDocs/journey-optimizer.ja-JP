@@ -7,9 +7,9 @@ role: User
 level: Experienced
 exl-id: 7c45cd8a-8e86-4646-ba0a-db393e92d9da
 source-git-commit: 4839c3c70dcc524da5f3cc394d5573ce5755ea64
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '223'
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## コードベースのキャンペーンレポート {#campaigns}
 
-コードベースのエクスペリエンスが実稼働すると、専用のレポートにアクセスして、意思決定主要業績評価指標（KPI）を監視できます。
+コードベースのエクスペリエンスが公開されると、専用レポートにアクセスして、決定の主要業績評価指標（KPI）を監視できます。
 
 <!--Once code-based experiences are live, you can access dedicated reports to monitor Key Performance Indicators (KPIs) as an all-encompassing dashboard, delivering an analysis of essential metrics associated with your campaign.
 
@@ -26,11 +26,11 @@ This encompasses details related to the decision items performances and how user
 
 ![](../reports/assets/cja-decisioning-kpis.png)
 
-また、決定項目のパフォーマンスに関する詳細やユーザーのアクションにアクセスして、キャンペーンに関連する重要な指標の分析を提供することもできます。
+また、決定項目のパフォーマンスに関する詳細やユーザーの何らかのアクションにアクセスして、キャンペーンに関連する重要な指標の分析を提供することもできます。
 
 ![](../reports/assets/cja-decisioning-item-performance.png)
 
-意思決定に関するコードベースのエクスペリエンスレポートの操作方法については、[ この節 ](../reports/campaign-global-report-cja-code.md#decisioning-reporting) を参照してください。
+決定に関するコードベースのエクスペリエンスレポートの操作方法について詳しくは、[この節](../reports/campaign-global-report-cja-code.md#decisioning-reporting)を参照してください。
 
 ## Customer Journey Analytics でのレポート {#cja}
 

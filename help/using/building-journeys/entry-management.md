@@ -9,9 +9,9 @@ level: Intermediate
 keywords: 再エントリ, ジャーニー, プロファイル, 繰り返し
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 source-git-commit: a2e4a6c15ea9e6a96544eaa8f58dc0cd55854bbe
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '573'
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Adobe Journey Optimizer では、次のタイプのジャーニーを作成で�
 
 * **オーディエンスの選定**&#x200B;ジャーニー：オーディエンスの選定イベントから開始するジャーニーです。これらのジャーニーは、オーディエンス内のプロファイルのエントリと離脱をリッスンします。これが発生すると、関連付けられたプロファイルがジャーニーにエントリします。[詳細情報](#entry-unitary)
 
-すべてのジャーニータイプにおいて、プロファイルは、アクティブなすべての [ ジャーニーのバージョン ](publishing-the-journey.md#journey-versions-journey-versions) に対して、同じジャーニーに同時に複数回存在することはできません。 ユーザーがジャーニー内に存在することを確認するには、プロファイル ID をキーとして使用します。同じキー（キー `CRMID=3224` など）を同じジャーニー内の異なる場所に配置することはできません。
+すべてのジャーニータイプで、プロファイルは、すべてのアクティブな[ジャーニーバージョン](publishing-the-journey.md#journey-versions-journey-versions)に対して、同じジャーニー内に同時に複数回存在することはできません。ユーザーがジャーニー内に存在することを確認するには、プロファイル ID をキーとして使用します。同じキー（キー `CRMID=3224` など）を同じジャーニー内の異なる場所に配置することはできません。
 
 ## 単一イベントおよびオーディエンスの選定ジャーニー{#entry-unitary}
 

@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
 source-git-commit: 64e225cdc8615e51655ef550866b67ca249a7572
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '889'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ SDK は、これらのライブラリを組み合わせることができず、�
 
    <!-- For more detailed instructions, refer to the documentation on using the [Adobe Experience Platform Web SDK](). -->
 
-1. Adobe Experience Cloudのアカウントにある「データ収集」タブで [ データストリームを設定 ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=ja) します。
+1. Adobe Experience Cloud のアカウントにある「データ収集」タブで[データストリームを設定](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=ja)します。
 
 1. SDK をインストールします。[SDK ページのインストール](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=ja)に記載されているように、複数の方法があります。このページでは、様々な実装方法を使用して説明を続けます。
 
@@ -161,7 +161,7 @@ javascript
 >
 >ログの Edge への接続が表示されない場合は、広告ブロッカーを無効にする必要がある可能性があります。
 
-オファーの作成方法および使用している書式に戻ります。決定で満たされた条件に基づいて、オファーが、Adobe Experience Platform内で作成する際に指定した情報を含むユーザーに返されます。
+オファーの作成方法および使用している書式に戻ります。決定で満たされた条件に基づいて、オファーが、Adobe Experience Platform 内で作成する際に指定した情報を含むユーザーに返されます。
 
 この例では、返される JSON は次のようになります。
 

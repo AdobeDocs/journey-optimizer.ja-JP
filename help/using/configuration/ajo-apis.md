@@ -8,9 +8,9 @@ role: Developer
 level: Intermediate
 exl-id: 4c897c52-6eb2-4d6e-aaa9-9bd83608b2b6
 source-git-commit: 64e225cdc8615e51655ef550866b67ca249a7572
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '239'
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Adobe Journey Optimizer API を使用すると、任意のアプリ、デバイス、チャネルをまたいで、パーソナライズおよび接続されたタイムリーな顧客体験を提供し、エンドツーエンドのカスタマージャーニーを効果的に管理できます。カスタマージャーニーは、顧客がブランドに最初に接触してから離れるまでの、やり取りのプロセス全体を表します。このジャーニーは、認知フェーズから開始します。このフェーズでは、顧客はブランドを知り、エンゲージメントを開始します。その後、顧客はブランドとやり取りし、オンラインショップや実店舗の訪問、購入、メッセージの送信、レビューの投稿を行います。
 
-Adobe Journey Optimizerは、Adobe Experience Platform上でネイティブに構築され、統合されたリアルタイム顧客プロファイル、API ファーストのオープンフレームワーク、一元化された Offer Decisioning、人工知能（AI）と機械学習（ML）を組み合わせて、パーソナライゼーションと最適化を実現します。 Journey Optimizer API と統合することで、ブランドは、カスタマージャーニーをまたいで、スケール、速度、柔軟性を備えた次善のインタラクションをインテリジェントに判断できます。
+Adobe Journey Optimizer は、Adobe Experience Platform にネイティブに構築されており、統合されたリアルタイム顧客プロファイル、API ファーストのオープンなフレームワーク、一元化されたオファー決定支援、人工知能（AI）と機械学習（ML）を組み合わせて、パーソナライゼーションと最適化を実現します。Journey Optimizer API と統合することで、ブランドは、カスタマージャーニーをまたいで、スケール、速度、柔軟性を備えた次善のインタラクションをインテリジェントに判断できます。
 
 [このチュートリアル](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}に従って、すべての Journey Optimizer API に必要な認証資格情報を収集します。
 

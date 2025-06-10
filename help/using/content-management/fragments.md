@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
 source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '315'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 96%
 
 ![](../rn/assets/do-not-localize/fragments.gif)
 
-➡️ [ フラグメントの管理、作成、使用の方法については、次のビデオを参照してください ](#video-fragments)
+➡️ [フラグメントの管理、作成、使用方法については、これらのビデオをご覧ください](#video-fragments)
 
 フラグメントを最大限に活用するには：
 
@@ -62,4 +62,4 @@ ht-degree: 96%
 
 [!DNL Journey Optimizer] で&#x200B;**式フラグメント**&#x200B;を管理、作成および使用する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3438918/?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3424587/?quality=12)
