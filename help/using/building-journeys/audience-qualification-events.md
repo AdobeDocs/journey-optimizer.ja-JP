@@ -31,7 +31,7 @@ ht-degree: 52%
 
 このタイプのイベントは、ジャーニーの最初または後半に配置できます。
 
-➡️ [ビデオでこの機能を確認する](#video)
+➡️ [この機能をビデオで確認](#video)
 
 ### ガードレールとレコメンデーション {#important-notes-segment-qualification}
 
@@ -155,4 +155,4 @@ ht-degree: 52%
 
 オーディエンスの選定ジャーニーに当てはまるユースケースについて、このビデオで説明します。オーディエンスの選定を使用してジャーニーを構築する方法と、適用するベストプラクティスについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3446205?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)

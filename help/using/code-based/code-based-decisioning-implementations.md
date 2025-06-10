@@ -1,6 +1,6 @@
 ---
-title: コードベース実装での決定項目の重複排除
-description: このページでは、Journey Optimizer コードベースの実装で決定リクエストに重複排除を適用する方法を説明します。
+title: コードベースの実装での決定項目の重複排除
+description: このページでは、Journey Optimizer のコードベースの実装で、決定リクエストに重複排除を適用する方法について説明します。
 feature: Code-based Experiences
 topic: Content Management
 role: Developer
@@ -9,62 +9,62 @@ exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
 source-git-commit: 57686b9684f9233c81bd46b67d12ec5f1e3544c5
 workflow-type: tm+mt
 source-wordcount: '378'
-ht-degree: 1%
+ht-degree: 94%
 
 ---
 
 # コードベースのエクスペリエンス実装での決定
 
-コードベースのエクスペリエンスで意思決定を使用する場合、以下に説明する場合に、クライアント実装に次のフラグを追加することを検討してください。
+コードベースのエクスペリエンスで決定を使用する際は、以下に説明するケースで、クライアント実装に次のフラグを追加することを検討してください。
 
 ## 決定を使用したコードベースのエクスペリエンスのテスト {#code-based-test-decisions}
 
 <!--Currently you cannot simulate content from the user interface in a [code-based experience](create-code-based.md) campaign or journey using decisions.-->
 
-意思決定で [ コードベースのエクスペリエンス ](create-code-based.md) をテストする場合は、`dryRun` フラグを使用して、レポートとキャッピングカウンターの両方でフィードバックイベントを抑制できます。
+決定を使用して[コードベースのエクスペリエンス](create-code-based.md)をテストする際、`dryRun` フラグを使用して、レポートカウンターとキャップカウンターの両方のフィードバックイベントを抑制できます。
 
-キャンペーンを公開した後、`dryRun` フラグをクライアント実装の XDM イベント `data` ブロックに追加します。
+キャンペーンを公開したら、クライアント実装の XDM イベント `data` ブロックに `dryRun` フラグを追加します。
 
-    &grave;&grave;&#39;
-    &lbrace;
-    &quot;data&quot;: &lbrace;
-    &quot;__adobe&quot;: &lbrace;
-    &quot;ajo&quot;: &lbrace;
+    ```
+    {
+    &quot;data&quot;: {
+    &quot;__adobe&quot;: {
+    &quot;ajo&quot;: {
     &quot;dryRun&quot;: true
-    &rbrace;
-    &rbrace;
-    &rbrace;
-    &rbrace;
-    &grave;&grave;
+    }
+    }
+    }
+    }
+    ```
 
 <!--
 >[!CAUTION]
 >
 >Adding the `dryRun` flag to your request will prevent feedback to be captured for reporting and frequency counters from being added to.-->
 
-## コードベース実装での決定項目の重複排除 {#code-based-decisioning-deduplication}
+## コードベースの実装での決定項目の重複排除 {#code-based-decisioning-deduplication}
 
 コードベースのエクスペリエンスで [ 決定ポリシー ](../experience-decisioning/create-decision.md) を使用する場合、クライアント実装の決定リクエストに重複排除を適用できます。
 
-（Konductor を介した）決定リクエストは、重複排除フラグを受け入れます。このフラグは、複数の決定ポリシーまたはプレースメントで構成される 1 つのリクエストで決定項目の一意性を処理します。
+決定リクエスト（Konductor 経由）は、重複排除フラグを受け入れます。このフラグは、複数の決定ポリシーまたはプレースメントで構成される単一のリクエストで決定項目の一意性を処理します。
 
 ### 重複排除ロジック {#deduplication-logic}
 
-任意の決定リクエストに対して、設定に基づいて 1 つ以上の決定ポリシー/プレースメントを設定できます。
+任意の決定リクエストに対して、設定に基づいて 1 つ以上の決定ポリシー／プレースメントを設定できます。
 
-* リクエスト内の **単一** 決定ポリシーおよびプレースメントの場合、応答内のすべての項目は一意になります（デフォルト）。 1 回のリクエストで 2 つの決定項目を同じにすることはできません。
+* リクエスト内の&#x200B;**単一**&#x200B;の決定ポリシーとプレースメントの場合、応答内のすべての項目は一意になります（デフォルト）。単一のリクエスト内で 2 つの決定項目を同じにすることはできません。
 
-* リクエスト内 **複数** の決定ポリシー/プレースメントの場合：
+* リクエスト内の&#x200B;**複数**&#x200B;の決定ポリシー／プレースメントの場合：
 
-   * `allowDuplicateDecisionItems` が `false` に設定されている場合：応答内のすべての項目は、（項目の対象となるメッセージ/決定ポリシー/プレースメントに関係なく）一意です。
+   * `allowDuplicateDecisionItems` が `false` に設定されている場合：応答内のすべての項目は（項目の対象となるメッセージ／決定ポリシー／プレースメントに関係なく）一意です。
 
-   * `allowDuplicateDecisionItems` が `true` （デフォルト）に設定されている場合：応答内の項目は重複する可能性があります（そのリクエストで複数のメッセージ/決定ポリシー/配置が同じ決定項目に適合する場合）。
+   * `allowDuplicateDecisionItems` が `true` に設定されている場合（デフォルト）：応答内の項目が重複することがあります（複数のメッセージ／決定ポリシー／プレースメントが、そのリクエストに対して同じ決定項目に適合する場合）。
 
 ### リクエストでの重複排除の適用 {#deduplication-in-request}
 
 デフォルトでは、重複排除フラグは `true` に設定されています。
 
-Konductor リクエストで、応答内の一意の要素が必要な場合は、重複排除フラグを渡すことができます。 その場合は、`false` に設定します。
+Konductor リクエストでは、応答に一意の要素が必要な場合、重複排除フラグを渡すことができます。その場合は、`false` に設定します。
 
 ```
 {
@@ -123,19 +123,19 @@ curl --location 'https://edge-int.adobedc.net/ee/v1/interact?configId=2f21d344-b
 
 ### 重複排除応答 {#deduplication-response}
 
-1 つのリクエストにヘッダーとフッターの配置を含む同じ決定ポリシーがあるとします。
+例えば、単一のリクエストでヘッダーとフッターのプレースメントに関する同じ決定ポリシーがあるとします。
 
-* 決定は、2 つの提案を返します。
+* 決定により、2 つの提案が返されます。
 
-* 決定ポリシーとプレースメントの組み合わせの両方に該当する単一の決定項目が `itemId-X` の場合：
+* `itemId-X` が、決定ポリシーとプレースメントの組み合わせの両方に適合する単一の決定項目である場合：
 
-   * `allowDuplicateDecisionItems` が `true` （デフォルト）の場合：1 回の応答で両方の提案に対して `itemId-X` が返されます。
+   * `allowDuplicateDecisionItems` が `true` の場合（デフォルト）：両方の提案に対して単一の応答で `itemId-X` が返されます。
 
    * `allowDuplicateDecisionItems` が `false` の場合：
 
-      * `itemId-X` が最初の提案に対して返されます。
+      * 最初の提案に対して、`itemId-X` が返されます。
 
-      * 2 番目の提案に対して、フォールバック決定項目（一意でもある）または空の決定項目が渡されます。
+      * 2 番目の提案に対して、フォールバック決定項目（これも一意）または空の決定項目が渡されます。
 
 +++決定サンプル応答（`allowDuplicateDecisionItems` = `true`）
 

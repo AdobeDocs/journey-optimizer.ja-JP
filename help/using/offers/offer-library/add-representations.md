@@ -9,7 +9,7 @@ exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
 source-git-commit: 7e9174f8a21c71b8b8e7633d664d5de7d877c240
 workflow-type: tm+mt
 source-wordcount: '809'
-ht-degree: 82%
+ht-degree: 94%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 82%
 
 >[!NOTE]
 >
-> [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=ja){target="_blank"} と連携するには、[!DNL Assets Essentials] を組織にデプロイするとともに、ユーザーが **Assets Essentials コンシューマーユーザー** または **Assets Essentials ユーザー** の製品プロファイルに登録されていることを確認する必要があります。 詳しくは、[このページ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=ja){target="_blank"}を参照してください。
+> [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=ja){target="_blank"} と連携するには、組織に [!DNL Assets Essentials] をデプロイし、ユーザーが **Assets Essentials コンシューマーユーザー**&#x200B;または **Assets Essentials ユーザー**&#x200B;の製品プロファイルに登録されていることを確認する必要があります。詳しくは、[このページ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=ja){target="_blank"}を参照してください。
 
 1. 「**[!UICONTROL アセットライブラリ]**」オプションを選択します。
 
@@ -88,9 +88,9 @@ ht-degree: 82%
 
 ### HTML または JSON ファイルの追加 {#html-json}
 
-選択したプレースメントがHTML タイプの場合、[Adobe Experience Cloud Asset library](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=ja){target="_blank"}）からHTMLまたは JSON コンテンツを取得して追加することもできます。
+選択したプレースメントが HTML タイプの場合、[Adobe Experience Cloud アセットライブラリ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=ja){target="_blank"}）から HTML または JSON コンテンツを取得して追加することもできます。
 
-例えば、[Adobe Experience ManagerでHTML メールテンプレートを作成し ](https://experienceleague.adobe.com/docs/experience-manager.html?lang=ja){target="_blank"} オファーコンテンツにそのファイルを使用したいとします。 新しいファイルを作成する代わりに、テンプレートを&#x200B;**アセットライブラリ**&#x200B;にアップロードするだけで、オファーの表示域でテンプレートを再利用できます。
+例えば、[Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html?lang=ja){target="_blank"} で HTML メールテンプレートを作成し、オファーコンテンツにそのファイルを使用したいとします。新しいファイルを作成する代わりに、テンプレートを&#x200B;**アセットライブラリ**&#x200B;にアップロードするだけで、オファーの表示域でテンプレートを再利用できます。
 
 表示域でコンテンツを再利用するには、[この節](#images)の説明に従って&#x200B;**アセットライブラリ**&#x200B;を参照し、選択した HTML または JSON ファイルを選択します。
 
@@ -110,7 +110,7 @@ ht-degree: 82%
 
 例えば、オファーとして表示される画像をパーソナライズする場合、都会での休暇を好むユーザーにはニューヨークのスカイラインを、ビーチでの休暇を好むユーザーにはハワイのノースショアを表示しようとします。
 
-パーソナライゼーションエディターを使用して、結合スキーマを使用してAdobe Experience Platformに保存されているプロファイル属性を取得します。 [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html?lang=ja){target="_blank"}
+パーソナライゼーションエディターを使用して、結合スキーマで Adobe Experience Platform に保存されているプロファイル属性を取得します。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html?lang=ja){target="_blank"}
 
 ![](../assets/offer-content-url-personalization.png)
 

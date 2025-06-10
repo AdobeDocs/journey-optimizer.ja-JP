@@ -9,7 +9,7 @@ exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
 workflow-type: tm+mt
 source-wordcount: '1735'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -232,8 +232,8 @@ Web サイトやモバイルアプリで訪問者に最適な動的なオファ�
 
    >[!NOTE]
    >
-   >現在、ユーザーインターフェイスから、決定を使用して [ コードベースのエクスペリエンス ](../code-based/create-code-based.md) キャンペーンまたはジャーニーでコンテンツをシミュレートすることはできません。 回避策について詳しくは、[この節](../code-based/code-based-decisioning-implementations.md)を参照してください。
+   >現在、決定を使用して、[コードベースのエクスペリエンス](../code-based/create-code-based.md)キャンペーンまたはジャーニーのユーザーインターフェイスのコンテンツをシミュレートすることはできません。回避策について詳しくは、[この節](../code-based/code-based-decisioning-implementations.md)を参照してください。
 
-1. 決定のパフォーマンスを確認するには、カスタムの [Customer Journey Analytics レポートダッシュボード ](cja-reporting.md) を作成します。
+1. 決定のパフォーマンスを確認するために、カスタムの [Customer Journey Analytics レポートダッシュボード](cja-reporting.md)を作成できます。
 
 

@@ -11,7 +11,7 @@ exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
 source-git-commit: 5fcbde9344e919b817ef8d360d2318a6d9a1513f
 workflow-type: tm+mt
 source-wordcount: '1352'
-ht-degree: 92%
+ht-degree: 93%
 
 ---
 
@@ -36,7 +36,7 @@ JSON ファイルを既存のデータセットにアップロードできます
 
 テストプロファイルの作成は、Adobe Experience Platform で通常のプロファイルを作成する場合と似ていることに注意してください。詳しくは、[リアルタイム顧客プロファイルのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target="_blank"}を参照してください。
 
-➡️ [ テストプロファイルの作成方法については、このビデオを参照してください ](#video)
+➡️ [テストプロファイルの作成方法については、このビデオをご覧ください](#video)テスト
 
 ## 前提条件 {#test-profile-prerequisites}
 
@@ -168,7 +168,7 @@ Adobe Experience Platform では、様々なプロファイルフィールドを
 1. プロファイルごとに 1 行追加し、各フィールドの値を入力します。
    ![](assets/test-profiles-12.png)
 1. スプレッドシートを CSV ファイルとして保存します。カンマが区切り文字として使用されていることを確認します。
-1. Adobe Experience Platform **ワークフロー**&#x200B;を参照します。
+1. Adobe Experience Platform **ワークフロー**を参照します。
    ![](assets/test-profiles-14.png)
 1. 「**CSV を XDM スキーマにマッピング**」を選択し、「**開始**」をクリックします。
    ![](assets/test-profiles-16.png)
@@ -248,4 +248,4 @@ curl -X POST \
 
 テストプロファイルを作成する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416426?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/334236?quality=12)

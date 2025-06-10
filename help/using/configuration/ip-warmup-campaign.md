@@ -12,7 +12,7 @@ exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
 source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
 workflow-type: tm+mt
 source-wordcount: '427'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ IP ウォームアップキャンペーンを作成するには、次の手順�
 
    >[!IMPORTANT]
    >
-   >IP ウォームアップキャンペーンで許可されるオーディエンスは、[ セグメントベース ](../audience/creating-a-segment-definition.md) で、[ デフォルトの結合ポリシー ](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"} を使用して作成する必要があります。
+   >IP ウォームアップキャンペーンで許可されるオーディエンスは、[セグメントベース](../audience/creating-a-segment-definition.md)であり、[デフォルトの結合ポリシー](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}を使用して作成する必要があります。
 
    キャンペーンの設定方法について詳しくは、[このページ](../campaigns/get-started-with-campaigns.md)を参照してください。
 

@@ -31,7 +31,7 @@ ht-degree: 100%
 
 例えば、顧客に送信する&#x200B;**プロモーション情報**&#x200B;の数を制限するルールセットを作成したり、顧客に送信する&#x200B;**ニュースレター**&#x200B;の数を制限する別のルールセットを作成したりできます。作成するキャンペーンの種類に応じて、プロモーション情報またはニュースレターのルールセットのいずれかを適用することを選択できます。
 
-➡️ [ビデオでこの機能を確認する](#video)
+➡️ [この機能をビデオで確認](#video)
 
 ### 権限 {#permissions-frequency-rules}
 
@@ -312,4 +312,4 @@ In this scenario, an individual profile:
 
 ## チュートリアルビデオ {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444727?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
