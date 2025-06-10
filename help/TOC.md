@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9eda5416ba72fae390fc7eca6d9a3c699cedde50
+source-git-commit: c8bf119cac7e5870cfe57ec2fc2a0e534f633f78
 workflow-type: tm+mt
-source-wordcount: '2425'
+source-wordcount: '2432'
 ht-degree: 95%
 
 ---
@@ -447,7 +447,8 @@ ht-degree: 95%
       + [計算属性の操作](using/audience/computed-attributes.md)
    + [ID](using/audience/get-started-identity.md)
    + [ライセンス使用状況](using/audience/license-usage.md)
-+ 追跡と監視 {#reporting}
++ レポートと監視 {#reporting}
+   + [レポートと監視の基本を学ぶ](using/reports/gs-reports.md)
    + ライブレポート {#live-report}
       + [ライブレポートの基本を学ぶ](using/reports/live-report.md)
       + [指標のリスト](using/reports/live-report-components.md)
@@ -485,7 +486,7 @@ ht-degree: 95%
       + [概要レポート](using/reports/channel-report-cja.md)
       + [ランディングページのレポート](using/reports/lp-report-global-cja.md)
       + [購読リストのレポート](using/reports/subscription-report-global-cja.md)
-   + ジャーニーレポート {#reports}
+   + カスタムジャーニーレポート {#reports}
       + [ジャーニーレポートの作成](using/reports/sharing-overview.md)
       + [ステップイベントフィールドの一覧](using/reports/sharing-field-list.md)
       + 従来のステップイベントフィールド {#legacy-step-event-fields}

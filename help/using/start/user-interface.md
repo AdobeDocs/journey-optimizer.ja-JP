@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 2169ab0e42ab2e8890c87e698e937f0341515b1f
+source-git-commit: c8bf119cac7e5870cfe57ec2fc2a0e534f633f78
 workflow-type: tm+mt
 source-wordcount: '1402'
 ht-degree: 100%
@@ -59,8 +59,6 @@ ht-degree: 100%
 
 * **[!UICONTROL ジャーニー]** - カスタマージャーニーを作成、設定および調整します。イベント、オーケストレーション、アクションアクティビティを組み合わせて、複数の手順からなるクロスチャネルシナリオを作成します。[詳細情報](../building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL ランディングページ]** - ランディングページを作成、設計、テストおよび公開します。オンラインフォームへのリンクをユーザーに送信することで、ユーザーは、通信の受信をオプトインまたはオプトアウトしたり、特定のサービスを購読したりできます。[詳細情報](../landing-pages/get-started-lp.md)
-
 
 ### [!UICONTROL 意思決定管理] {#left-nav-decision}
 
@@ -79,6 +77,9 @@ ht-degree: 100%
 * **[!UICONTROL コンテンツテンプレート]** - 改善されて高速化した設計プロセスを実現するために、スタンドアロンテンプレートを作成して、Journey Optimizer キャンペーンやジャーニー全体でカスタムコンテンツを簡単に再利用できます。[詳細情報](../content-management/content-templates.md)
 
 * **[!UICONTROL フラグメント]** - フラグメントを作成および管理してメールの設計プロセスをスムーズにします。メールのコンテンツをすばやく組み立てるために使用できるカスタムコンテンツブロックを事前に作成します。[詳細情報](../content-management/fragments.md)
+
+* **[!UICONTROL ランディングページ]** - ランディングページを作成、設計、テストおよび公開します。オンラインフォームへのリンクをユーザーに送信することで、ユーザーは、通信の受信をオプトインまたはオプトアウトしたり、特定のサービスを購読したりできます。[詳細情報](../landing-pages/get-started-lp.md)
+
 
 ### [!UICONTROL データ管理] {#left-nav-data}
 
