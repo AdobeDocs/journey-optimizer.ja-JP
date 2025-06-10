@@ -5,14 +5,14 @@ title: ' [!DNL Adobe Journey Optimizer] のレポート機能と監視機能の�
 description: レポート機能と監視機能を使用する方法  [!DNL Adobe Journey Optimizer]  ついて説明します。
 role: User
 level: Beginner
-source-git-commit: c8bf119cac7e5870cfe57ec2fc2a0e534f633f78
+source-git-commit: 8c391d7437798df4f40baa65003e16a8c56228ab
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 12%
+source-wordcount: '393'
+ht-degree: 13%
 
 ---
 
-# レポート機能と監視機能の概要 {#get-started-report}
+# レポート機能の基本を学ぶ {#get-started-report}
 
 Adobe Journey Optimizerは、堅牢なレポート機能を通じて、実用的なインサイトを提供します。 レポートは、キャンペーン、ジャーニー、ランディングページ、購読リストなどに使用できます。 使用可能なレポートを以下に示します。
 
@@ -102,6 +102,7 @@ Adobe Journey Optimizerは、堅牢なレポート機能を通じて、実用的
 
 ## チャネルごとの全時間レポート
 
+### アウトバウンドチャネル
 
 関連するグローバルレポートを検出するためのアウトバウンドチャネルを選択します。
 
@@ -116,6 +117,7 @@ Adobe Journey Optimizerは、堅牢なレポート機能を通じて、実用的
 <div align="center"><a href="campaign-global-report-cja-direct.md"><strong>ダイレクトメール</strong></a></div></td>
 </tr></table>
 
+### インバウンドエクスペリエンス
 
 関連するグローバルレポートを検出するインバウンドエクスペリエンスを選択します。
 
