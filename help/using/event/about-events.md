@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: イベント, ジャーニー, 定義, 開始
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 1c2537d576b9ccb4fc3731d558a5447e89eb824a
-workflow-type: ht
-source-wordcount: '1088'
-ht-degree: 100%
+source-git-commit: 9eda5416ba72fae390fc7eca6d9a3c699cedde50
+workflow-type: tm+mt
+source-wordcount: '1087'
+ht-degree: 98%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 >title="ジャーニーイベント"
 >abstract="イベントは、人物に関連付けられます。これは、人物の行動（例えば、人物が製品を購入した、ショップを訪問した、web サイトを離脱したなど）または人物と結び付いて起こったこと（例えば、人物が 10,000 ロイヤルティポイントに到達したなど）に関連しています。Journey Optimizer は、ジャーニーで単一イベントをリッスンして、次の最適なアクションを編成します。"
 
-イベントを使用すると、ジャーニーを個別にトリガーし、ユーザーがジャーニーにエントリする際に各ユーザーにリアルタイムのメッセージを配信できます。
+イベントを使用してジャーニーを個別にトリガー付け、ジャーニーにエントリする各ユーザーにリアルタイムメッセージを配信します。
 
 イベントの設定では、ジャーニーで想定されるイベントを設定します。受信イベントのデータは、Adobe エクスペリエンスデータモデル（XDM）に従って正規化されます。イベントは、認証済みイベントと未認証イベント（Adobe Mobile SDK イベントなど）のストリーミング取得 API から取り込みます。複数のイベントを（ジャーニーの様々なステップで）使用できます。また、同じイベントを複数のジャーニーで使用することもできます。
 
@@ -83,8 +83,8 @@ ht-degree: 100%
 
 イベントの設定方法と、ストリーミングエンドポイントとイベントのペイロードの指定方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3431517?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 ビジネスイベントに適用できる使用例を理解します。ビジネスイベントを使用したジャーニーの構築方法と、適用するベストプラクティスについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416427?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)

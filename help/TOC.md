@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 6109c9176c160c2c0b1eafa06b855ebaf285e3ee
+source-git-commit: 9eda5416ba72fae390fc7eca6d9a3c699cedde50
 workflow-type: tm+mt
 source-wordcount: '2425'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -736,7 +736,7 @@ ht-degree: 96%
    + [実行アドレスの変更](using/configuration/primary-email-addresses.md)
    + [ビジネスルールの設定](using/configuration/frequency-rules.md)
 + ジャーニー設定 {#configure-journeys}
-   + [データソース、イベントおよびアクションの設定](using/configuration/about-data-sources-events-actions.md)
+   + [ジャーニー設定の基本を学ぶ](using/configuration/about-data-sources-events-actions.md)
    + イベント設定 {#events-journeys}
       + [ジャーニーイベントの操作](using/event/about-events.md)
       + [単一イベントの設定](using/event/about-creating.md)
