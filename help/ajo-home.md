@@ -5,10 +5,10 @@ description: Adobe Journey Optimizer の使用方法について説明します�
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 69952a74e20be756488dc29a411c8eb2fd6b68e1
+source-git-commit: 660ac9c0f55158d89c7c1f83c0f9d2efd65ee663
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 88%
+source-wordcount: '385'
+ht-degree: 91%
 
 ---
 
@@ -28,21 +28,22 @@ Journey Optimizer 製品とドキュメントの最新の機能強化の概要�
 
 >[!TAB  競合と優先順位付け ]
 
-Journey Optimizerには、競合の管理と優先順位付けのためのいくつかのツールが用意されるようになりました。 これらのツールは、キャンペーンと単一、オーディエンスの選定、オーディエンスを読み取りジャーニーで使用できます。
+Journey Optimizerには、競合の管理と優先順位付けのためのいくつかのツールが用意されるようになりました。 これらのツールは、キャンペーンとオーディエンスの選定、オーディエンスを読み取り、単一ジャーニーで使用できます。
 
 [![詳細情報](using/assets/do-not-localize/learn-more-button.svg)](using/conflict-prioritization/gs-conflict-prioritization.md)
 
 >[!TAB Adobe Express の統合]
 
-Adobe Journey Optimizer は Adobe Express と統合され、アセットをジャーニーオーケストレーションとシームレスに接続できるようになりました。
+Adobe Journey Optimizer の Adobe Express 統合により、コンテンツの作成中に Adobe Express の強力な編集ツールに簡単にアクセスできます。この統合により、ソリューションを切り替えることなく、画像のサイズ変更、背景の削除、ビジュアルの切り抜き、アセットの JPEG または PNG への変換が可能になります。
 
 [![詳細情報](using/assets/do-not-localize/learn-more-button.svg)](using/integrations/express.md)
 
->[!TAB AI アシスタント]
+<!--
+>[!TAB AI Assistant]
 
-機能を直接調べて機能を完全に理解できるように設計された [AI アシスタント ](../help/using/content-management/gs-generative.md) のライブ機能プレビューで、実践的な体験に身を浸してください。
+Immerse yourself in a hands-on experience with our [AI Assistant](../help/using/content-management/gs-generative.md) live feature preview, designed to let you explore its features firsthand and fully understand its capabilities.
 
-[![詳細情報](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/ja/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![learn more](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
 
 >[!TAB AEM コンテンツフラグメントの統合 ]
 
