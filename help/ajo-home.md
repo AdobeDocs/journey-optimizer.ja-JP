@@ -5,10 +5,10 @@ description: Adobe Journey Optimizer の使用方法について説明します�
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
-workflow-type: ht
-source-wordcount: '334'
-ht-degree: 100%
+source-git-commit: 69952a74e20be756488dc29a411c8eb2fd6b68e1
+workflow-type: tm+mt
+source-wordcount: '389'
+ht-degree: 88%
 
 ---
 
@@ -26,6 +26,12 @@ Journey Optimizer 製品とドキュメントの最新の機能強化の概要�
 
 [![詳細情報](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
+>[!TAB  競合と優先順位付け ]
+
+Journey Optimizerには、競合の管理と優先順位付けのためのいくつかのツールが用意されるようになりました。 これらのツールは、キャンペーンと単一、オーディエンスの選定、オーディエンスを読み取りジャーニーで使用できます。
+
+[![詳細情報](using/assets/do-not-localize/learn-more-button.svg)](using/conflict-prioritization/gs-conflict-prioritization.md)
+
 >[!TAB Adobe Express の統合]
 
 Adobe Journey Optimizer は Adobe Express と統合され、アセットをジャーニーオーケストレーションとシームレスに接続できるようになりました。
@@ -34,15 +40,15 @@ Adobe Journey Optimizer は Adobe Express と統合され、アセットをジ�
 
 >[!TAB AI アシスタント]
 
-✨[AI アシスタント](../help/using/content-management/gs-generative.md)ライブ機能プレビューで実際のエクスペリエンスに浸りましょう。このプレビューは、その機能を直接探索し、その機能を完全に理解できるように設計されています。
+機能を直接調べて機能を完全に理解できるように設計された [AI アシスタント ](../help/using/content-management/gs-generative.md) のライブ機能プレビューで、実践的な体験に身を浸してください。
 
 [![詳細情報](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/ja/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 
->[!TAB CJA でのレポート]
+>[!TAB AEM コンテンツフラグメントの統合 ]
 
-Journey Optimizer レポートでは、Customer Journey Analytics 機能との相互運用性が改善され、両方のプラットフォーム間でレポートが標準化され、データの一貫性と信頼性が向上します。
+Adobe Experience Manager as a Cloud Service を Adobe Journey Optimizer と統合することで、AEM コンテンツフラグメントを Journey Optimizer のコンテンツにシームレスに組み込めるようになりました。この合理化された接続により、AEM コンテンツへのアクセスと活用のプロセスが簡略化され、パーソナライズされた動的なキャンペーンやジャーニーの作成が可能になります。
 
-[![詳細情報](using/assets/do-not-localize/learn-more-button.svg)](using/reports/report-gs-cja.md)
+[![詳細情報](using/assets/do-not-localize/learn-more-button.svg)](using/integrations/aem-fragments.md)
 
 
 >[!ENDTABS]
