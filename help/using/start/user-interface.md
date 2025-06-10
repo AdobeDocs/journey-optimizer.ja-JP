@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: c8bf119cac7e5870cfe57ec2fc2a0e534f633f78
+source-git-commit: a06872dd267b6fa63ea5be7fcc111015ff5e9d77
 workflow-type: tm+mt
-source-wordcount: '1402'
-ht-degree: 100%
+source-wordcount: '1451'
+ht-degree: 96%
 
 ---
 
@@ -58,6 +58,8 @@ ht-degree: 100%
 * **[!UICONTROL キャンペーン]** - キャンペーンを作成、設定および調整し、様々なチャネルを使用して特定のオーディエンスに 1 回限りのコンテンツを配信します。[詳細情報](../campaigns/get-started-with-campaigns.md)
 
 * **[!UICONTROL ジャーニー]** - カスタマージャーニーを作成、設定および調整します。イベント、オーケストレーション、アクションアクティビティを組み合わせて、複数の手順からなるクロスチャネルシナリオを作成します。[詳細情報](../building-journeys/journey-gs.md#jo-build)
+
+* **[!UICONTROL レポート]** - Journey Optimizerのレポート機能は、Customer Journey Analyticsの機能と完全に統合されており、両方のプラットフォームでレポート機能を標準化し、データの一貫性と信頼性を向上させます。 Journey OptimizerとCustomer Journey Analyticsのシームレスな統合により、パフォーマンス指標をより明確に把握でき、十分な情報に基づいた意思決定を行うことができます。 [詳細情報](../reports/report-gs-cja.md)
 
 
 ### [!UICONTROL 意思決定管理] {#left-nav-decision}
