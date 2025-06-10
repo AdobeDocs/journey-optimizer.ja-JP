@@ -11,7 +11,7 @@ hidefromtoc: true
 badge: label="限定提供" type="Informative"
 keywords: 公開, ジャーニー, ライブ, 有効性, 確認
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: c9f9ee8734184a734cdf6e5af88fa5a05b49a8de
+source-git-commit: 140720d72b57ec32250dee01b8c282b8ce871fc5
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 14%
@@ -81,7 +81,7 @@ ht-degree: 14%
 
    ![ ジャーニーのドライランを開始 ](assets/dry-run-button.png)
 
-1. 公開を確認します
+1. 公開を確認します。
 
    トランジションの進行中に「**ドライランをアクティベート** というステータスメッセージが表示されます。
 
