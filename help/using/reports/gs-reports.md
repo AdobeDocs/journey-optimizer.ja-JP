@@ -5,7 +5,7 @@ title: ' [!DNL Adobe Journey Optimizer] のレポート機能と監視機能の�
 description: レポート機能と監視機能を使用する方法  [!DNL Adobe Journey Optimizer]  ついて説明します。
 role: User
 level: Beginner
-source-git-commit: 95b47370f85f43b3fdc78dd661f0a0789169e544
+source-git-commit: 760579d13eb9f1e264dafb3f7b1e06cebd9aaaa2
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 17%
@@ -126,7 +126,7 @@ Adobe Journey Optimizerは、堅牢なレポート機能を通じて、実用的
 <div align="center"><p><strong>アプリ内チャネル</strong></p><p><a href="campaign-global-report-cja-inapp.md"><strong>キャンペーンレポート</strong></a></p><p><a href="journey-global-report-cja-inapp.md"><strong>ジャーニーレポート</strong></a></p></div></td>
 <td><p><img alt="Web" src="../channels/assets/do-not-localize/web.jpg"></p>
 <div align="center"><p><strong>Web チャネル</strong></p><p><a href="campaign-global-report-cja-web.md"><strong>キャンペーンレポート</strong></a></p><p><a href="journey-global-report-cja-web.md"><strong>ジャーニーレポート</strong></a></p></div></td>
-<td>&lt;<img alt="コードベースのエクスペリエンス" src="../channels/assets/do-not-localize/code.png">
+<td><img alt="コードベースのエクスペリエンス" src="../channels/assets/do-not-localize/code.png">
 <div align="center"><p><strong>コードベースのエクスペリエンス</strong></p><p><a href="campaign-global-report-cja-code.md"><strong>キャンペーンレポート</strong></a></p><p><a href="campaign-global-report-cja-code.md"><strong>ジャーニーレポート</strong></a></p></div></td>
 <td><img alt="コンテンツカード" src="../channels/assets/do-not-localize/cards.png">
 <div align="center"><p><strong>コンテンツカード</strong></p><p><a href="campaign-global-report-cja-content.md"><strong>キャンペーンレポート</strong></a></p><p><a href="journey-global-report-cja-content.md"><strong>ジャーニーレポート</strong></a></p></div></td>
