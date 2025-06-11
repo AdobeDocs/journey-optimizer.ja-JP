@@ -11,10 +11,10 @@ role: User
 level: Beginner
 badge: label="ベータ版" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+workflow-type: tm+mt
 source-wordcount: '734'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 100%
 >[!AVAILABILITY]
 >
 >現在、Adobe Experience Manager との統合は、一部のユーザーのみがベータ版として利用できます。
-> ベータ版のユーザーは、[このフォーム](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"} を使用してフィードバックを共有します。
+>> ベータ版のユーザーは、[このフォーム](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"}を使用してフィードバックを共有します。
 
-Adobe Journey Optimizer を使用すると、Adobe Experience Manager サイトを介してカスタマイズしたメッセージを作成できます。まず、Adobe Experience Manager のコンテンツソースを使用してテンプレートをデザインし、それらを Adobe Journey Optimizer に送信します。 共有した後は、これらのテンプレートは Adobe Journey Optimizer の E メールデザイナーでアクセスできるようになり、目的のオーディエンスにメッセージを簡単に作成して送信できます。
+Adobe Journey Optimizer を使用すると、Adobe Experience Manager サイトを介してカスタマイズしたメッセージを作成できます。まず、Adobe Experience Manager のコンテンツソースを使用してテンプレートをデザインし、それらを Adobe Journey Optimizer に送信します。 共有した後は、これらのテンプレートはAdobe Journey OptimizerのメールDesignerでアクセスできるようになり、目的のオーディエンスにメッセージを簡単に作成して送信できます。
 
 ## 前提条件 {#prerequisites}
 
@@ -33,7 +33,7 @@ Adobe Journey Optimizer を使用すると、Adobe Experience Manager サイト�
 
 * **Experience Manager 設定**
 
-  この機能は、[Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/overview/introduction.html?lang=ja) で使用できます{target="_blank"}。
+  この機能は、[Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/overview/introduction.html?lang=ja){target="_blank"} で使用できます。
 
   ベータ版プログラムの一環として、クラウドサービス設定は、Adobe Experience Manager でアドビが Adobe Journey Optimizer に接続するために実行します。
 

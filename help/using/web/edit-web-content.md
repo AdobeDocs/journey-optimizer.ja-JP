@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+workflow-type: tm+mt
 source-wordcount: '1068'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -61,7 +61,7 @@ Web エクスペリエンスのオーサリングを開始するには、次の�
 
    >[!CAUTION]
    >
-   >Web ページには、[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja){target="_blank"} を含める必要があります。[詳細情報](web-prerequisites.md#implementation-prerequisites)
+   >Web ページには、[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja){target="_blank"} を含める必要があります。 [詳細情報](web-prerequisites.md#implementation-prerequisites)
 
 1. 「**[!UICONTROL Web ページを編集]**」をクリックしてオーサリングを開始します。Web デザイナーが表示されます。
 
@@ -89,7 +89,7 @@ Web エクスペリエンスのオーサリングを開始するには、次の�
 
 >[!NOTE]
 >
->Web のコンテンツデザイナーは、E メールデザイナーと非常に似ています。詳しくは、[ [!DNL Journey Optimizer]](../email/get-started-email-design.md) でのコンテンツのデザインを参照してください。
+>Web コンテンツデザイナーは、メールDesignerに非常に似ています。 詳しくは、[ [!DNL Journey Optimizer]](../email/get-started-email-design.md) でのコンテンツのデザインを参照してください。
 
 ## コンポーネントの使用 {#content-components}
 
@@ -103,8 +103,8 @@ Web エクスペリエンスのオーサリングを開始するには、次の�
    * [ディバイダー](../email/content-components.md#divider)
    * [HTML](../email/content-components.md#HTML)
    * [画像](../email/content-components.md#image)
-   * 見出し - このコンポーネントを使用することは、E メールデザイナーで&#x200B;**[!UICONTROL テキスト]**&#x200B;コンポーネントを使用することに似ています。[詳細情報](../email/content-components.md#text)
-   * 段落 - このコンポーネントを使用することは、E メールデザイナーで&#x200B;**[!UICONTROL テキスト]**&#x200B;コンポーネントを使用することに似ています。[詳細情報](../email/content-components.md#text)
+   * 見出し – このコンポーネントを使用することは、電子メールDesignerで **[!UICONTROL テキスト]** コンポーネントを使用することに似ています。 [詳細情報](../email/content-components.md#text)
+   * 段落 – このコンポーネントを使用することは、電子メールDesignerで **[!UICONTROL テキスト]** コンポーネントを使用することに似ています。 [詳細情報](../email/content-components.md#text)
    * リンク
 
    ![](assets/web-designer-components.png)
@@ -184,4 +184,4 @@ Web デザイナーのディスプレイのデバイスサイズは、**[!UICONT
 
 次のビデオでは、[!DNL Journey Optimizer] キャンペーンで Web デザイナーを使用して web エクスペリエンスを作成する方法を確認できます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452636/?quality=12&learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3418803/?quality=12&learn=on)

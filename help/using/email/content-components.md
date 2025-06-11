@@ -1,18 +1,18 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: E メールデザイナーのコンテンツコンポーネントの使用
+title: 電子メールDesignerのコンテンツコンポーネントの使用
 description: メールでのコンテンツコンポーネントの使用を学ぶ
 feature: Email Design
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-keywords: コンポーネント, E メールデザイナー, エディター, メール
+keywords: コンポーネント，メールDesigner, エディター，メール
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
-workflow-type: ht
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+workflow-type: tm+mt
 source-wordcount: '1401'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -169,7 +169,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL 設定]**」タブで「**[!UICONTROL 参照]**」をクリックしてアセットから画像ファイルを選択するか、「**[!UICONTROL メディアを読み込み]**」をクリックしてアセットを Adobe Experience Manager Assets にアップロードします。
 
-   [!DNL Adobe Experience Manager Assets] について詳しくは、[Adobe Experience Manager Assets ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=ja){target="_blank"}を参照してください。
+   [!DNL Adobe Experience Manager Assets] について詳しくは、[Adobe Experience Manager Assets ドキュメント ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=ja){target="_blank"} を参照してください。
 
    >[!NOTE]
    >

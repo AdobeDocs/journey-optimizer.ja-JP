@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 01e74670-7431-4791-b98c-12278e6d3332
-source-git-commit: d5dd842d4fc906b454e1601ae850a12f457bcd7b
-workflow-type: ht
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 >[!AVAILABILITY]
 >
 >この機能は、Private Beta としてリリースされています。今後のリリースでは、すべてのお客様が段階的に利用できるようになる予定です。
->Adobe Journey Optimizer で AI アシスタントを使用する前に、[ユーザー契約](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}に同意する必要があります。詳しくは、アドビ担当者にお問い合わせください。
+>>Adobe Journey Optimizer で AI アシスタントを使用する前に、[ユーザー契約](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}に同意する必要があります。詳しくは、アドビ担当者にお問い合わせください。
 
 ブランド一致機能は、ブランドガイドラインに準拠したコンテンツの作成、レビュー、管理を支援するために作成されています。この機能を使用すると、メールキャンペーン全体のトーン、メッセージ、ビジュアルアイデンティティの一貫性を確保するだけでなく、コンテンツ公開前に品質チェックを行うことができます。
 
@@ -48,7 +48,7 @@ ht-degree: 100%
 
 1. [メールキャンペーン](../campaigns/create-campaign.md)を作成します。
 
-1. E メールデザイナーで&#x200B;**[!UICONTROL ブランド一致]**&#x200B;メニューを開きます。
+1. メールDesignerで **[!UICONTROL ブランドの関連付け]** メニューを開きます。
 
    コンテンツは、デフォルトのブランドに対して自動的に評価されます。[詳しくは、デフォルトのブランドの割り当て方法を参照してください](brands.md)。
 

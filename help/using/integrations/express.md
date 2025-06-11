@@ -10,10 +10,10 @@ role: User
 level: Beginner
 keywords: アセット, 統合
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
-source-git-commit: b9ec22318baf888ba5d1ed3b1b7c64b658785cc1
-workflow-type: ht
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+workflow-type: tm+mt
 source-wordcount: '540'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -35,7 +35,7 @@ Adobe Journey Optimizer の Adobe Express 統合により、コンテンツの�
 
 Adobe Express について詳しくは、[このドキュメント](https://helpx.adobe.com/jp/express/user-guide.html)を参照してください。
 
-**[!DNL Adobe Express]** メニューにアクセスするには、E メールデザイナーから&#x200B;**画像設定**&#x200B;にアクセスし、「**[!UICONTROL Adobe Express で編集]**」をクリックします。
+**[!DNL Adobe Express]** メニューにアクセスするには、メールDesignerから **画像設定** にアクセスし、**[!UICONTROL Adobe Expressで編集]** をクリックします。
 
 ![](assets/express_1.png)
 
@@ -149,7 +149,7 @@ Adobe Express について詳しくは、[このドキュメント](https://help
 
 Adobe Express ツールを使用して Adobe Journey Optimizer でアセットを編集する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3455524/?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3455523/?quality=12)
 
 
 

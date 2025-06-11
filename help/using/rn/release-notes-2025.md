@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
-workflow-type: ht
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+workflow-type: tm+mt
 source-wordcount: '2031'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -212,7 +212,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>ブランド一致スコア機能は、E メールデザイナーで明確なフィードバックを直接提供し、コンテンツがブランドのトーン、スタイル、ガイドラインと一致しているかどうかを確認するのに役立ちます。この機能はベータ版で使用可能です。</p>
+<p>ブランドのアラインメントスコア機能は、メールDesignerに直接、明確なフィードバックを提供し、コンテンツがブランドのトーン、スタイル、ガイドラインに従っているかどうかを確認するのに役立ちます。 この機能はベータ版で使用可能です。</p>
 <p>詳しくは、 <a href="../content-management/brands-score.md">詳細なドキュメント</a>を参照してください。</p>
 <img src="assets/do-not-localize/brand-score.gif">
 </td>
@@ -270,7 +270,7 @@ ht-degree: 100%
 
 * **パーソナライズされた URL トラッキング** - 公開日：2025年4月30日（PT）
 
-  メール設定の柔軟性と制御性を高めるために、コンテンツ内のリンクごとに E メールデザイナーでパーソナライズする代わりに、メールチャネル設定レベルですべての URL トラッキングパラメーターを一度にパーソナライズできるようになりました。[詳細情報](../email/surface-personalization.md#personalize-url-tracking)
+  メール設定の柔軟性と制御を高めるために、コンテンツ内のリンクごとにメールDesignerでトラッキングパラメーターを実行する代わりに、メールチャネル設定レベルで一度にすべての URL トラッキングパラメーターをパーソナライズできるようになりました。 [詳細情報](../email/surface-personalization.md#personalize-url-tracking)
 
 * **E メールデザイナー** - 公開日：2025年4月1日（PT）
 

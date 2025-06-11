@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: アセット, 統合
 exl-id: 3e72df85-ba80-4cec-848b-7441cb3e7fef
-source-git-commit: d82e564833b15440bdf9b02bc646e3e46768dad8
-workflow-type: ht
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+workflow-type: tm+mt
 source-wordcount: '693'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -40,7 +40,7 @@ Assets Essentials は、Adobe Creative Cloud の Adobe Express と Adobe Photosh
 <!--
 ### Templates
 
-With Adobe Journey Optimizer, you can create custom-tailored messages through Adobe Experience Manager sites. Start by designing your templates using Adobe Experience Manager's content sources, then send them to Adobe Journey Optimizer. Once shared, these templates can be accessed in Adobe Journey Optimizer's email designer, simplifying the process of crafting and sending messages to your desired audience.
+With Adobe Journey Optimizer, you can create custom-tailored messages through Adobe Experience Manager sites. Start by designing your templates using Adobe Experience Manager's content sources, then send them to Adobe Journey Optimizer. Once shared, these templates can be accessed in Adobe Journey Optimizer's Email Designer, simplifying the process of crafting and sending messages to your desired audience.
 
 Learn more about [Journey Optimizer + Adobe Experience Manager templates](../integrations/aem-templates.md).-->
 
@@ -71,7 +71,7 @@ Adobe Experience Manager を Adobe Journey Optimizer と統合することで、
 
 Adobe Journey Optimizer の Adobe Express 統合により、コンテンツの作成中に Adobe Express の強力な編集ツールに簡単にアクセスできます。この統合により、ソリューションを切り替えることなく、画像のサイズ変更、背景の削除、ビジュアルの切り抜き、アセットの JPEG または PNG への変換が可能になります。
 
-**[!DNL Adobe Express]** メニューにアクセスするには、E メールデザイナーから&#x200B;**画像設定**&#x200B;にアクセスし、「**[!UICONTROL Adobe Express で編集]**」をクリックします。
+**[!DNL Adobe Express]** メニューにアクセスするには、メールDesignerから **画像設定** にアクセスし、**[!UICONTROL Adobe Expressで編集]** をクリックします。
 
 エンタープライズ版ライセンスを使用すると、ユーザーは Adobe Express エディターのすべての機能にアクセスでき、カラー、明るさ、シャープネス、コントラスト、寸法、その他の設定を調整して画像を変更できます。
 

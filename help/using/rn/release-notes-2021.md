@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 hidefromtoc: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+workflow-type: tm+mt
 source-wordcount: '2035'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 100%
 </table>
 
 
-その他の変更点については、[Adobe Experience Platform 10月のリリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html?lang=ja){target="_blank"}も参照してください。
+その他の変更点については、[Adobe Experience Platform 10 月のリリースノート ](https://experienceleague.adobe.com/docs/experience-platform/release-notes/2021/october-2021.html?lang=ja){target="_blank"} も参照してください。
 
 ### 機能強化
 
@@ -111,8 +111,8 @@ ht-degree: 100%
 
 ### 修正点
 
-* ブラウザー言語が英語以外の場合に、ジャーニーリスト、メッセージリストおよび E メールデザイナーが表示されない問題を修正しました。
-* E メールデザイナーで式を使用してパーソナライゼーションを追加する際に発生する構文エラーを修正しました。文字が誤ってエスケープされていました。
+* ブラウザー言語が英語以外の場合に、ジャーニーリスト、メッセージリストおよびメールDesignerが表示されない問題を修正しました。
+* メールDesignerで式を使用してパーソナライゼーションを追加する際に発生する構文エラーを修正しました。文字が誤ってエスケープされていました。
 * **管理**&#x200B;メニュー内を移動すると 404 エラーになる問題を修正しました。
 * ビジネスイベントを使用してジャーニーをテストする際に他のライブジャーニーがトリガーされる問題を修正しました。
 
@@ -294,7 +294,7 @@ ht-degree: 100%
 ### 修正点
 
 * メッセージタブのナビゲーションにおけるアクセシビリティの問題を修正しました。
-* E メールデザイナーのラベルに関するローカライゼーションの問題を修正しました。
+* 電子メールDesignerのラベルに関するローカライゼーションの問題を修正しました。
 * 1 つのジャーニーで複数のノードを選択してプロパティパネルの「削除」をクリックする際の問題を修正しました。
 * ジャーニーで使用するアクションに新しいヘッダーを追加できなかった問題を修正しました。
 * ユーザーインターフェイスの警告がより明確になったので、メッセージプリセットの作成が失敗した理由を特定できるようになりました。
@@ -352,7 +352,7 @@ ht-degree: 100%
 
 * ID と名前空間が&#x200B;**[!UICONTROL プレビュー]**&#x200B;画面に表示されるようになりました。[詳細情報](../content-management/preview-test.md#preview-your-messages)
 * 配達確認のテストメールの数が 10 個に制限されるようになりました。
-* 配達確認の&#x200B;**件名行のプレフィックス**&#x200B;に使用できる文字が制限されるようになりました。[詳細情報](../content-management/preview-test.md#send-proofs)
+* 配達確認の&#x200B;**件名行の接頭辞**&#x200B;に使用できる文字が制限されるようになりました。[詳細情報](../content-management/preview-test.md#send-proofs)
 
 **パーソナライゼーション式エディター**
 
@@ -365,4 +365,4 @@ ht-degree: 100%
 * PTR レコード画面に IP 情報が表示されない問題を修正しました。
 * 式エディター内のオファーパネルのローカライゼーションが実装されました。
 * 情報ポップアップの間隔の誤りを修正しました。
-* `background-image` プロパティを持つ内部スタイルシートがサポートされていない HTML ファイルをアップロードする際の E メールデザイナーの問題を修正しました。
+* `background-image` プロパティを持つ内部スタイルシートがサポートされていないHTML ファイルをアップロードする際の電子メールDesignerの問題を修正しました。

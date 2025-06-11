@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: メール, デザイン, Stock, アセット
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 100%
+source-wordcount: '607'
+ht-degree: 95%
 
 ---
 
@@ -52,9 +52,9 @@ ht-degree: 100%
 
 1. E メールデザイナーのホームページで、次のオプションからメールのデザイン方法を選択します。
 
-   * メールデザイナーのインターフェイスで&#x200B;**メールをゼロから設計**&#x200B;し、 [Adobe Experience Manager Assets](../integrations/assets.md) の画像を活用します。メールコンテンツのデザイン方法については、[この節](content-from-scratch.md)を参照してください。
+   * E メールDesignerのインターフェイスで **メールをゼロからデザイン** し、[Adobe Experience Manager Assets](../integrations/assets.md) の画像を活用します。 メールコンテンツのデザイン方法については、[この節](content-from-scratch.md)を参照してください。
 
-   * E メールデザイナーで直接 **Raw HTML をコーディングまたは貼り付け**&#x200B;ます。独自のコンテンツのコーディング方法については、[この節](code-content.md)を参照してください。
+   * メールDesignerで直接 **Raw HTMLをコーディングまたは貼り付け** す。 独自のコンテンツのコーディング方法については、[この節](code-content.md)を参照してください。
 
      >[!NOTE]
      >
@@ -74,8 +74,8 @@ ht-degree: 100%
 
 メッセージエディターでメールコンテンツを作成する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416418?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 
 A/B テストを行うようにコンテンツ実験を設定し、ビジネス目標を最大限に推進するメールコンテンツを探索する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447332?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)
