@@ -125,7 +125,7 @@ To create links between tables of your datamodel from the Canvas view tab, follo
 
 1. Click **Save** once done.
 
-Doc AEP: https://experienceleague.adobe.com/en/docs/experience-platform/xdm/tutorials/create-schema-ui
+Doc AEP: https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/tutorials/create-schema-ui
 
 ## Add data
 
@@ -148,7 +148,7 @@ Adobe Experience Platform allows data to be ingested from external sources while
 
 ![](assets/admin_sources_1.png)
 
-https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload
+https://experienceleague.adobe.com/ja/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload
 
 
 ## Create datasets
