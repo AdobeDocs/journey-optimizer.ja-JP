@@ -5,10 +5,10 @@ title: ' [!DNL Adobe Journey Optimizer] のレポート機能と監視機能の�
 description: レポート機能と監視機能を使用する方法  [!DNL Adobe Journey Optimizer]  ついて説明します。
 role: User
 level: Beginner
-source-git-commit: a9349cedc4da2a8e76e53f9e2b5185270cda2558
+source-git-commit: 15a73ba3f2d91a38d61e6518d704fc218ad0eea3
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 2%
+source-wordcount: '435'
+ht-degree: 15%
 
 ---
 
@@ -98,4 +98,37 @@ Adobe Journey Optimizerは、堅牢なレポート機能を通じて、実用的
 <p>
 <p>
 </td>
+</tr></table>
+
+
+すべての時間グローバルレポートは、すべてのチャネルで使用できます。 詳細を取得する必要があるチャネルのレポートを選択します。
+
+### アウトバウンドチャネルのレポート
+
+関連する **グローバル全期間レポート** を検出するためのアウトバウンドチャネルを選択します。
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td><img alt="メール" src="../channels/assets/do-not-localize/email.png">
+<div align="center"><p><strong>メールチャネル</strong></p><p><a href="campaign-global-report-cja-email.md"><strong>キャンペーンレポート</strong></a></p><p><a href="journey-global-report-cja-email.md"><strong>ジャーニーレポート</strong></a></p></div></td>
+<td><a href="campaign-global-report-cja-sms.md"><img alt="SMS" src="../channels/assets/do-not-localize/sms.png"></a>
+<div align="center"><p><strong>SMS チャネル</strong></p><p><a href="campaign-global-report-cja-sms.md"><strong>キャンペーンレポート</strong></a></p><p><a href="journey-global-report-cja-sms.md"><strong>ジャーニーレポート</strong></a></p></div></td>
+<td><a href="campaign-global-report-cja-push.md"><img alt="プッシュ" src="../channels/assets/do-not-localize/push.png"></a>
+<div align="center"><p><strong>プッシュチャネル</strong></p><p><a href="campaign-global-report-cja-push.md"><strong>キャンペーンレポート</strong></a></p><p><a href="journey-global-report-cja-push.md"><strong>ジャーニーレポート</strong></a></p></div></td>
+<td><a href="campaign-global-report-cja-direct.md"><img alt="ダイレクトメール" src="../channels/assets/do-not-localize/direct-mail.jpg"></a>
+<div align="center"><p><strong>ダイレクトメールチャネル</strong></p><p><a href="campaign-global-report-cja-direct.md"><strong>キャンペーンレポート</strong></a></p><p><a href="journey-global-report-cja-direct.md"><strong>ジャーニーレポート</strong></a></p></div></td>
+</tr></table>
+
+### インバウンドエクスペリエンスのレポート
+
+関連する **グローバルな全期間レポート** を検出するインバウンドエクスペリエンスを選択します。
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td><img alt="アプリ内" src="../channels/assets/do-not-localize/inapp.jpg">
+<div align="center"><p><strong>アプリ内チャネル</strong></p><p><a href="campaign-global-report-cja-inapp.md"><strong>キャンペーンレポート</strong></a></p><p><a href="journey-global-report-cja-inapp.md"><strong>ジャーニーレポート</strong></a></p></div></td>
+<td><p><img alt="Web" src="../channels/assets/do-not-localize/web.jpg"></p>
+<div align="center"><p><strong>Web チャネル</strong></p><p><a href="campaign-global-report-cja-web.md"><strong>キャンペーンレポート</strong></a></p><p><a href="journey-global-report-cja-web.md"><strong>ジャーニーレポート</strong></a></p></div></td>
+<td><img alt="コードベースのエクスペリエンス" src="../channels/assets/do-not-localize/code.png">
+<div align="center"><p><strong>コードベースのエクスペリエンス</strong></p><p><a href="campaign-global-report-cja-code.md"><strong>キャンペーンレポート</strong></a></p><p><a href="campaign-global-report-cja-code.md"><strong>ジャーニーレポート</strong></a></p></div></td>
+<td><img alt="コンテンツカード" src="../channels/assets/do-not-localize/cards.png">
+<div align="center"><p><strong>コンテンツカード</strong></p><p><a href="campaign-global-report-cja-content.md"><strong>キャンペーンレポート</strong></a></p><p><a href="journey-global-report-cja-content.md"><strong>ジャーニーレポート</strong></a></p></div></td>
 </tr></table>
