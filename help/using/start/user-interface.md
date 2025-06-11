@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: a06872dd267b6fa63ea5be7fcc111015ff5e9d77
+source-git-commit: 476aaeb0d9d208eed3729b38c71a572daf0ec941
 workflow-type: tm+mt
-source-wordcount: '1451'
-ht-degree: 96%
+source-wordcount: '1643'
+ht-degree: 90%
 
 ---
 
@@ -174,6 +174,14 @@ Adobe Journey Optimizer の主要なヘルプページには、ホームペー�
 
 ![](assets/do-not-localize/Context-help.gif)
 
+## AI アシスタント {#ai-assistant}
+
+AI アシスタントは、アドビのコンセプトをナビゲートして理解し、特定の環境の運用上のインサイトを得るために使用できるユーザーインターフェイス機能です。Adobe Journey Optimizer を含む Adobe Experience Cloud 全体の複数の製品で使用できます。
+
+AI アシスタントにアクセスするには、上部バーのアイコンをクリックします。画面の右側のセクションに AI アシスタントが表示されます。
+
+AI アシスタントにアクセスして使用する方法を学ぶ [ このページ ](ai-assistant.md)。
+
 ## 言語の環境設定 {#language-pref}
 
 ユーザーインターフェイスは、次の言語で使用できます。
@@ -199,13 +207,60 @@ Adobe Journey Optimizer の主要なヘルプページには、ホームペー�
 * 希望する言語を選択し、「**保存**」をクリックします。使用しているコンポーネントが第一希望の言語にローカライズされていない場合に備えて、第二の言語を選択できます。
   ![](assets/select-language.png)
 
+
+## 詳細情報 {#more}
+
+[!DNL Journey Optimizer] を使い始めたばかりでも、具体的な質問を抱えた経験豊富なユーザーでも、会社のインスタンスの管理者でも、[ 目標をより早く達成するには、自分に合ったパスを選んでください ](quick-start.md)
+
+
 <!--CONTEXTUAL HELP TO DISPATCH IN DOCS ONCE FEATURE LIVE-->
 
 
 
-<!--CONTENT LOCKING-->
+<!--ORCHESTRATED CAMPAIGNS - Overview page-->
+
+<!--ORCHESTRATED CAMPAIGNS SKU only-->
 
 
+>[!CONTEXTUALHELP]
+>id="ajo_oc_campaign_ovv_1"
+>title="Campaign オーケストレーション"
+>abstract="リレーショナルデータセットを分割、組み合わせ、強化、操作して、オーディエンスを定義します"
+
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_campaign_ovv_2"
+>title=Leverage multi-entity data"
+>abstract="調整されたキャンペーンでリレーショナルデータセットを活用して、セグメント化とパーソナライゼーションのためのデータを強化する方法を説明します"
+
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_campaign_ovv_3"
+>title="アドホックセグメント化と正確なカウント"
+>abstract="正確なカウント数を使用してセグメントを段階的に作成"
+
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_campaign_ovv_4"
+>title="使用可能なチャネル"
+>abstract="メール，SMS, プッシュ通知，ダイレクトメール"
+
+<!--ORCHESTRATED CAMPAIGNS + JOURNEYS SKU -->
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_jo_camppaign_ovv_1"
+>title="キャンペーンを作成して送信するためのガイド付き UI"
+>abstract="チャネルでの 1 つまたは複数のアクションの設定、オーディエンスの選択、コンテンツの設定、スケジュールの定義を行うと、送信の準備が整います"
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_jo_camppaign_ovv_2"
+>title="使用可能なチャネル"
+>abstract="メール，SMS, プッシュ通知，アプリ内，Web, コードベースのエクスペリエンス"
 
 <!--APPROVAL POLICIES-->
 
