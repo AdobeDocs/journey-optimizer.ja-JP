@@ -10,14 +10,19 @@ hide: true
 hidefromtoc: true
 badge: label="限定提供" type="Informative"
 keywords: 公開, ジャーニー, ライブ, 有効性, 確認
-source-git-commit: c9f9ee8734184a734cdf6e5af88fa5a05b49a8de
+source-git-commit: 2d7067782d6adc7fe5c458a575729d2293af2aaf
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1196'
 ht-degree: 3%
 
 ---
 
 # ジャーニーの一時停止 {#journey-pause}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_pause"
+>title="ジャーニーを一時停止"
+>abstract="ライブジャーニーを一時停止して、新しいプロファイルがエントリしないようにします。 ジャーニー内の現在のプロファイルを破棄するか、そのまま残すかを選択します。 保持すると、ジャーニーが再開された次のアクションアクティビティで実行が再開されます。 アップデートや緊急停止に最適で、進捗を失うことはありません。"
 
 ライブジャーニーは一時停止し、必要なすべての変更を実行して、いつでも再開できます。<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> 一時停止中に [ グローバルフィルターを適用 ](#journey-global-filters) して、属性に基づいてプロファイルを除外できます。 ジャーニーは、一時停止期間が終了すると自動的に再開されます。 また、[ 手動で再開する ](#journey-resume-steps) こともできます。
 
@@ -80,7 +85,12 @@ ht-degree: 3%
 
 ## 一時停止したジャーニーの再開方法 {#journey-resume-steps}
 
-一時停止されたジャーニーは、14 日間の最大一時停止期間の最後に、自動的に再開されます。 いつでも手動で再開できます。
+>[!CONTEXTUALHELP]
+>id="ajo_journey_pause"
+>title="ジャーニーの再開"
+>abstract="一時停止したジャーニーを再開して、新しいプロファイルが再びエントリできるようにします。 プロファイルが一時停止中に待機していた場合、ジャーニーは続行されます。 更新や一時停止の後にジャーニーを安全に再開する場合に最適です。"
+
+一時停止されたジャーニーは、14 日間の最大一時停止期間の最後に、自動的に再開されます。 いつでも手動で再開できます。 一時停止したジャーニーを再開すると、新しいプロファイルを再び入力できます。 プロファイルが一時停止中に待機していた場合、ジャーニーは続行されます。 更新や一時停止の後にジャーニーを安全に再開する場合に最適です。
 
 一時停止したジャーニーを再開し、ジャーニーイベントのリッスンを再開するには、次の手順に従います。
 
