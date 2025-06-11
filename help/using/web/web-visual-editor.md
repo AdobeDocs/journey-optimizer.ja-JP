@@ -41,7 +41,7 @@ ht-degree: 94%
 
 >[!CAUTION]
 >
->Web ページに ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja){target="_blank"}0}Adobe Experience Platform Web SDK} を組み込む必要があります。 [[詳細情報](web-prerequisites.md#implementation-prerequisites)
+>Web ページに [&#128279;](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja){target="_blank"}0&rbrace;Adobe Experience Platform Web SDK&rbrace; を組み込む必要があります。 [詳細情報](web-prerequisites.md#implementation-prerequisites)
 
 1. **[!UICONTROL コンテンツを編集]**&#x200B;画面から、「**[!UICONTROL Web ページを編集]**」をクリックして web デザイナーを開きます。
 
