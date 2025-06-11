@@ -26,7 +26,7 @@ ht-degree: 99%
 >
 >* [ リアルタイム顧客プロファイルデータとセグメント化のガードレール ](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/guardrails){target="_blank"} はAdobe Journey Optimizerにも当てはまります。
 >
->* [ リアルタイム顧客プロファイルでのデータ取り込みのガードレール ](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails){target="_blank"} も参照してください
+>* [ リアルタイム顧客プロファイルでのデータ取り込みのガードレール ](https://experienceleague.adobe.com/ja/docs/experience-platform/ingestion/guardrails){target="_blank"} も参照してください
 
 
 ## サポートされているブラウザー {#browsers}
