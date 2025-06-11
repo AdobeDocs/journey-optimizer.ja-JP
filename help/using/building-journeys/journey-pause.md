@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="限定提供" type="Informative"
 keywords: 公開, ジャーニー, ライブ, 有効性, 確認
-source-git-commit: 2d7067782d6adc7fe5c458a575729d2293af2aaf
+source-git-commit: 25f5f30bd91b281310727069b4543c9815b485c2
 workflow-type: tm+mt
 source-wordcount: '1196'
 ht-degree: 3%
@@ -86,7 +86,7 @@ ht-degree: 3%
 ## 一時停止したジャーニーの再開方法 {#journey-resume-steps}
 
 >[!CONTEXTUALHELP]
->id="ajo_journey_pause"
+>id="ajo_journey_resume"
 >title="ジャーニーの再開"
 >abstract="一時停止したジャーニーを再開して、新しいプロファイルが再びエントリできるようにします。 プロファイルが一時停止中に待機していた場合、ジャーニーは続行されます。 更新や一時停止の後にジャーニーを安全に再開する場合に最適です。"
 
