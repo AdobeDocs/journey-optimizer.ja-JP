@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 source-git-commit: 4839c3c70dcc524da5f3cc394d5573ce5755ea64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '537'
 ht-degree: 100%
 
@@ -68,7 +68,7 @@ ht-degree: 100%
 
 1. **コレクションで整理**：コレクションを使用し、属性ベースのルールに基づいて決定項目を分類します。コレクションを選択戦略に組み込んで、考慮する必要がある決定項目のコレクションを特定します。
 
-   ➡️ [ユーザーインターフェース（および [API ドキュメント](api-reference/items-collections/create.md)）での項目コレクションの管理方法の詳細情報](collections.md)
+   ➡️ ユーザーインターフェース（および [API ドキュメント](api-reference/items-collections/create.md)）[での項目コレクションの管理方法の詳細情報](collections.md)
 
 1. **決定ルールの作成**：決定ルールは、どのユーザーに決定項目を表示できるかを決定するために、決定項目や選択戦略で使用されます。
 
