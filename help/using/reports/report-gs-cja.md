@@ -39,7 +39,7 @@ Journey Optimizer レポートでは、Customer Journey Analytics 機能との�
 
   ![](assets/gs-cja-report-2.png)
 
-* **グローバル** – 環境内のすべてのキャンペーンおよびジャーニーの指標をターゲットにする場合は、{6 **「ジャーニー管理**」セクション内の **[!UICONTROL レポート]** メニューに移動して ]**概要レポートにアクセスします。**[!UICONTROL [詳しくは、概要レポートを参照してください](channel-report-cja.md)
+* **グローバル** – 環境内のすべてのキャンペーンおよびジャーニーの指標をターゲットにする場合は、&lbrace;6 **「ジャーニー管理**」セクション内の **[!UICONTROL レポート]** メニューに移動して **概要レポートにアクセスします。**&#x200B;[詳しくは、概要レポートを参照してください](channel-report-cja.md)
 
   ![](assets/gs-cja-report-1.png)
 
