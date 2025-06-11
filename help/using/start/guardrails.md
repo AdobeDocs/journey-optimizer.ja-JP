@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: a9349cedc4da2a8e76e53f9e2b5185270cda2558
+source-git-commit: 284c4896b923eac1d360b61d97cbe560d747ea4f
 workflow-type: tm+mt
-source-wordcount: '2514'
-ht-degree: 99%
+source-wordcount: '2513'
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 99%
 >
 >* [ リアルタイム顧客プロファイルデータとセグメント化のガードレール ](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/guardrails){target="_blank"} はAdobe Journey Optimizerにも当てはまります。
 >
->* [ リアルタイム顧客プロファイルでのデータ取り込みのガードレール ](https://experienceleague.adobe.com/ja/docs/experience-platform/ingestion/guardrails){target="_blank"} も参照してください
+>* [ リアルタイム顧客プロファイルでのデータ取り込みのガードレール ](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails){target="_blank"} も参照してください
 
 
 ## サポートされているブラウザー {#browsers}
@@ -220,7 +220,7 @@ Adobe Experience Platform では、API ベースのプロファイルの作成�
 
 次のガードレールが[ジャーニーの式エディター](../building-journeys/expression/expressionadvanced.md)に適用されます。
 
-* エクスペリエンスイベントフィールドグループは、「オーディエンスを読み取り」アクティビティや、オーディエンスの選定またはビジネスイベントアクティビティで始まるジャーニーでは使用できません。新しいオーディエンスを作成し、ジャーニーで inaudience 条件を使用する必要があります。
+* エクスペリエンスイベントフィールドグループは、「オーディエンスを読み取り」アクティビティや、オーディエンスの選定またはビジネスイベントアクティビティで始まるジャーニーでは使用できません。新しいオーディエンスを作成し、ジャーニーで `inaudience` 条件を使用する必要があります。
 * `timeSeriesEvents` 属性は式エディターで使用できません。プロファイルレベルでエクスペリエンスイベントにアクセスするには、`XDM ExperienceEvent` スキーマに基づいて新しいフィールドグループを作成してください。
 
 

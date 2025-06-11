@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 6eb552466cbd25b9ddf0e02bad75c8c750b1f738
+source-git-commit: 284c4896b923eac1d360b61d97cbe560d747ea4f
 workflow-type: tm+mt
-source-wordcount: '1657'
-ht-degree: 89%
+source-wordcount: '1694'
+ht-degree: 87%
 
 ---
 
@@ -226,7 +226,8 @@ AI アシスタントにアクセスして使用する方法を学ぶ [ この�
 
 <!--ORCHESTRATED CAMPAIGNS - Overview page-->
 
-<!--ORCHESTRATED CAMPAIGNS SKU only-->
+
+<!--OVERVIEW TAB ORCHESTRATED CAMPAIGNS SKU only-->
 
 
 >[!CONTEXTUALHELP]
@@ -255,7 +256,7 @@ AI アシスタントにアクセスして使用する方法を学ぶ [ この�
 >title="使用可能なチャネル"
 >abstract="メール，SMS, プッシュ通知，ダイレクトメール"
 
-<!--ORCHESTRATED CAMPAIGNS + JOURNEYS SKU -->
+<!--OVERVIEW TAB ORCHESTRATED CAMPAIGNS + JOURNEYS SKU -->
 
 
 >[!CONTEXTUALHELP]
@@ -268,6 +269,30 @@ AI アシスタントにアクセスして使用する方法を学ぶ [ この�
 >id="ajo_oc_jo_camppaign_ovv_2"
 >title="使用可能なチャネル"
 >abstract="メール，SMS, プッシュ通知，アプリ内，Web, コードベースのエクスペリエンス"
+
+
+<!--OVERVIEW TAB ORCHESTRATED CAMPAIGNS - API triggered tab -->
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_api_camppaign_ovv_1"
+>title="トランザクション API トリガーキャンペーン"
+>abstract="API 呼び出しを使用したリアルタイムメッセージのトリガー化"
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_api_camppaign_ovv_2"
+>title="マーケティングメッセージ"
+>abstract="プロモーションコンテンツ （オプトインが必要。ビジネスルールに従う必要があります）"
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_api_camppaign_ovv_3"
+>title="トランザクションメッセージ"
+>abstract="サービス関連コンテンツ（確認、アラート、マーケティングの同意の対象外）"
+
+>[!CONTEXTUALHELP]
+>id="ajo_oc_api_camppaign_ovv_4"
+>title="使用可能なチャネル"
+>abstract="メール、SMS、プッシュ通知"
 
 <!--APPROVAL POLICIES-->
 
