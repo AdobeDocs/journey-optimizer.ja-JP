@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 2ea588d81b685c762ffe795a569f2099bdd86e31
+source-git-commit: 38d4cc896414fce2e8453940fb4674ce7e60fd2b
 workflow-type: tm+mt
-source-wordcount: '2430'
-ht-degree: 95%
+source-wordcount: '2351'
+ht-degree: 97%
 
 ---
 
@@ -176,35 +176,6 @@ ht-degree: 95%
          + [配信を増やす](using/building-journeys/ramp-up-deliveries-uc.md)
          + [外部データソースとカスタムアクションを使用したスループットの制限](using/building-journeys/limit-throughput.md)
          + [カスタムアクションを使用した Experience Platform のジャーニーイベントの書き込み](using/building-journeys/custom-action-aep.md)
-+ 調整されたキャンペーン {#orchestrated-campaigns}
-   + [調整されたキャンペーンの基本を学ぶ](using/orchestrated/gs-orchestrated-campaigns.md)
-   + [設定の手順](using/orchestrated/configuration-steps.md)
-   + [調整されたキャンペーンへのアクセスと管理](using/orchestrated/access-manage-orchestrated-campaigns.md)
-   + 最初の調整されたキャンペーンの開始{#launch}
-      + [調整されたキャンペーン作成の主な手順](using/orchestrated/gs-campaign-creation.md)
-      + [キャンペーンの作成とスケジュール](using/orchestrated/create-orchestrated-campaign.md)
-      + [アクティビティの調整](using/orchestrated/orchestrate-activities.md)
-      + [調整されたキャンペーンでのメッセージの送信](using/orchestrated/send-messages.md)
-      + [キャンペーンの開始と監視](using/orchestrated/start-monitor-campaigns.md)
-      + [レポート](using/orchestrated/reporting-campaigns.md)
-   + データベースのクエリ {#query-database}
-      + [ ルールビルダーの操作 ](using/orchestrated/orchestrated-rule-builder.md)
-      + [ 最初のルールを作成する ](using/orchestrated/build-query.md)
-      + [ 式を編集 ](using/orchestrated/edit-expressions.md)
-   + キャンペーンアクティビティをキャンセル {#design-campaigns}
-      + [アクティビティの概要](using/orchestrated/activities/about-activities.md)
-      + [AND 結合](using/orchestrated/activities/and-join.md)
-      + [オーディエンスを作成](using/orchestrated/activities/build-audience.md)
-      + [ディメンションを変更](using/orchestrated/activities/change-dimension.md)
-      + [結合](using/orchestrated/activities/combine.md)
-      + [重複の除外](using/orchestrated/activities/deduplication.md)
-      + [エンリッチメント](using/orchestrated/activities/enrichment.md)
-      + [分岐](using/orchestrated/activities/fork.md)
-      + [紐付け](using/orchestrated/activities/reconciliation.md)
-      + [分割](using/orchestrated/activities/split.md)
-      + [テスト](using/orchestrated/activities/test.md)
-      + [待機](using/orchestrated/activities/wait.md)
-      + [チャネルアクティビティ](using/orchestrated/activities/channels.md)
 + キャンペーン {#campaigns}
    + [キャンペーンの基本を学ぶ](using/campaigns/get-started-with-campaigns.md)
    + [キャンペーンの作成](using/campaigns/create-campaign.md)

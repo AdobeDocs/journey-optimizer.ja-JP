@@ -5,12 +5,11 @@ title: Journey Optimizerを使用したオーケストレートキャンペー�
 description: Adobe Journey Optimizerでオーケストレーションされたキャンペーンを作成する方法を学ぶ
 badge: label="アルファ版"
 hide: true
-hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: fcd1ac3b8b34fe4976695775590cad8974b5281f
+source-git-commit: 38d4cc896414fce2e8453940fb4674ce7e60fd2b
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 16%
+source-wordcount: '257'
+ht-degree: 20%
 
 ---
 
@@ -21,24 +20,6 @@ ht-degree: 16%
 >id="ajo_campaign_creation_workflow"
 >title="調整されたキャンペーンのリスト"
 >abstract="**オーケストレーション** タブには、オーケストレーションされたすべてのキャンペーンがリストされます。 調整されたキャンペーンの名前をクリックして編集します。「**調整されたキャンペーンを作成**」ボタンを使用して、新しい調整されたキャンペーンを追加します。"
-
-+++ 目次
-
-| 調整されたキャンペーンへようこそ | 最初の調整されたキャンペーンの開始 | データベースのクエリ | キャンペーンアクティビティをキャンセル |
-|---|---|---|---|
-| [ オーケストレーションされたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)<br/><br/>[ 設定手順 ](configuration-steps.md)<br/><br/>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md) | [ オーケストレーションされたキャンペーンの作成 ](gs-campaign-creation.md)<br/><br/><b>[ キャンペーンの作成とスケジュール設定 ](create-orchestrated-campaign.md)</b><br/><br/>[ アクティビティのオーケストレーション ](orchestrate-activities.md)<br/><br/>[ オーケストレーションされたキャンペーンでのメッセージの送信 ](send-messages.md)<br/><br/>[ キャンペーンの開始と監視 ](start-monitor-campaigns.md)<br/><br/>[ レポート ](reporting-campaigns.md) | [ ルールビルダーの操作 ](orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリの作成 ](build-query.md)<br/><br/>[ 式の編集 ](edit-expressions.md) | [ アクティビティの基本を学ぶ ](activities/about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションを変更 ](activities/change-dimension.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) - [ 分割 ](activities/split.md) [&#128279;](activities/wait.md) - |
-
-{style="table-layout:fixed"}
-
-+++
-
-<br/>
-
->[!BEGINSHADEBOX]
-
-ドキュメントを処理中
-
->[!ENDSHADEBOX]
 
 ## キャンペーンの作成 {#create}
 

@@ -5,28 +5,15 @@ title: Adobe Journey Optimizerで調整されたキャンペーンのレポー�
 description: Adobe Journey Optimizerを使用してオーケストレートキャンペーンに関するレポートにアクセスする方法を説明します
 badge: label="アルファ版"
 hide: true
-hidefromtoc: true
 exl-id: 8cb569a2-a4a0-45a5-b7f9-f5a591e44335
-source-git-commit: dd1a9b6e14617014756e5b4449578a1f7bf805b4
+source-git-commit: 38d4cc896414fce2e8453940fb4674ce7e60fd2b
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 6%
+source-wordcount: '27'
+ht-degree: 14%
 
 ---
 
 # 調整されたキャンペーンレポート {#report-campaigns}
-
-+++ 目次
-
-| 調整されたキャンペーンへようこそ | 最初の調整されたキャンペーンの開始 | データベースのクエリ | キャンペーンアクティビティをキャンセル |
-|---|---|---|---|
-| [ オーケストレーションされたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)<br/><br/>[ 設定手順 ](configuration-steps.md)<br/><br/>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md) | [ オーケストレーションされたキャンペーンの作成 ](gs-campaign-creation.md)<br/><br/>[ キャンペーンの作成とスケジュール設定 ](create-orchestrated-campaign.md)<br/><br/>[ アクティビティのオーケストレーション ](orchestrate-activities.md)<br/><br/>[ オーケストレーションされたキャンペーンでのメッセージの送信 ](send-messages.md)<br/><br/>[ キャンペーンの開始と監視 ](start-monitor-campaigns.md)<br/><br/><b>[ レポート ](reporting-campaigns.md)</b> | [ ルールビルダーの操作 ](orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリの作成 ](build-query.md)<br/><br/>[ 式の編集 ](edit-expressions.md) | [ アクティビティの基本を学ぶ ](activities/about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションを変更 ](activities/change-dimension.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) - [ 分割 ](activities/split.md) [&#128279;](activities/wait.md) - |
-
-{style="table-layout:fixed"}
-
-+++
-
-<br/>
 
 >[!BEGINSHADEBOX]
 
