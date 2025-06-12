@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: da2fb137a8af82a8487638dc3d762377dd5dc506
 workflow-type: tm+mt
-source-wordcount: '2433'
+source-wordcount: '2434'
 ht-degree: 95%
 
 ---
@@ -233,6 +233,7 @@ ht-degree: 95%
       + [承認ポリシーの作成と管理](using/test-approve/approval-policies.md)
       + [承認をリクエスト](using/test-approve/request-approval.md)
       + [リクエストの承認](using/test-approve/review-approve-request.md)
+   + [システムアラート](using/reports/alerts.md)
 + 通信チャネル {#channels}
    + [通信チャネルの概要](using/channels/gs-channels.md)
    + メールチャネル {#email}
@@ -267,6 +268,10 @@ ht-degree: 95%
          + [ヘッダーパラメーター](using/email/header-parameters.md)
          + [URL トラッキング](using/email/url-tracking.md)
          + [メール設定のパーソナライズ](using/email/surface-personalization.md)
+      + メール配信品質 {#deliverability}
+      + [配信品質の基本を学ぶ](using/reports/deliverability.md)
+      + [抑制リストについて](using/reports/suppression-list.md)
+      + [新しい DMARC 要件](using/configuration/dmarc-record-update.md)
    + アプリ内チャネル{#in-app}
       + [アプリ内チャネルの基本を学ぶ](using/in-app/get-started-in-app.md)
       + [アプリ内チャネルの前提条件](using/in-app/inapp-configuration.md)
@@ -448,7 +453,7 @@ ht-degree: 95%
       + [計算属性の操作](using/audience/computed-attributes.md)
    + [ID](using/audience/get-started-identity.md)
    + [ライセンス使用状況](using/audience/license-usage.md)
-+ レポートと監視 {#reporting}
++ レポート {#reporting}
    + [レポートの基本を学ぶ](using/reports/gs-reports.md)
    + ライブレポート {#live-report}
       + [ライブレポートの基本を学ぶ](using/reports/live-report.md)
@@ -487,6 +492,7 @@ ht-degree: 95%
       + [概要レポート](using/reports/channel-report-cja.md)
       + [ランディングページのレポート](using/reports/lp-report-global-cja.md)
       + [購読リストのレポート](using/reports/subscription-report-global-cja.md)
+      + [除外の理由](using/reports/exclusion-list.md)
    + カスタムジャーニーレポート {#reports}
       + [ジャーニーレポートの作成](using/reports/sharing-overview.md)
       + [ステップイベントフィールドの一覧](using/reports/sharing-field-list.md)
@@ -498,12 +504,6 @@ ht-degree: 95%
          + [データ取得フィールド](using/reports/sharing-fetch-fields.md)
          + [ID フィールド](using/reports/sharing-identity-fields.md)
       + [クエリの例](using/reports/query-examples.md)
-   + 配信品質 {#deliverability}
-      + [配信品質の基本を学ぶ](using/reports/deliverability.md)
-      + [抑制リストについて](using/reports/suppression-list.md)
-      + [新しい DMARC 要件](using/configuration/dmarc-record-update.md)
-   + [アラート](using/reports/alerts.md)
-   + [除外の理由](using/reports/exclusion-list.md)
 + 決定機能 {#decisioning}
    + [決定機能の基本を学ぶ](using/experience-decisioning/gs-decision.md)
    + 決定 {#experience-decisioning}

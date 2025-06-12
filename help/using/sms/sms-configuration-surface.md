@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 0d541520-016e-468f-b011-808712847556
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
-workflow-type: ht
-source-wordcount: '421'
-ht-degree: 100%
+source-git-commit: da2fb137a8af82a8487638dc3d762377dd5dc506
+workflow-type: tm+mt
+source-wordcount: '422'
+ht-degree: 94%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 >abstract="この設定を使用するテキストメッセージのタイプを選択します（ユーザーの同意が必要なプロモーションメッセージの場合は「マーケティング」、パスワードリセットなどの非商用メッセージの場合は「トランザクション」）。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=ja#sms-opt-out-management" text="マーケティングテキストメッセージのオプトアウト"
 
-SMS／MMS チャネルを設定したら、**[!DNL Journey Optimizer]** から SMS および MMS メッセージを送信できるように、チャネル設定を作成する必要があります。
+SMS/MMS チャネルを設定したら、**[!DNL Journey Optimizer]** から SMS や MMS メッセージを送信できるように、チャネル設定を作成する必要があります。
 
 チャネル設定を作成するには、次の手順に従います。
 

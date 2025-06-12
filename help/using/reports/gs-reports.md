@@ -1,13 +1,13 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: ' [!DNL Adobe Journey Optimizer] のレポート機能と監視機能の使用を開始しました。'
-description: レポート機能と監視機能を使用する方法  [!DNL Adobe Journey Optimizer]  ついて説明します。
+title: ' [!DNL Adobe Journey Optimizer] のレポート機能の概要'
+description: レポートにアクセスして操作する方法  [!DNL Adobe Journey Optimizer]  説明します。
 role: User
 level: Beginner
-source-git-commit: 15a73ba3f2d91a38d61e6518d704fc218ad0eea3
+source-git-commit: da2fb137a8af82a8487638dc3d762377dd5dc506
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '432'
 ht-degree: 15%
 
 ---
