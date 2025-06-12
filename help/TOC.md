@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: da2fb137a8af82a8487638dc3d762377dd5dc506
+source-git-commit: 7e9d707d6413509aef207a6183f6c9953ccdf229
 workflow-type: tm+mt
 source-wordcount: '2434'
 ht-degree: 95%
@@ -269,9 +269,9 @@ ht-degree: 95%
          + [URL トラッキング](using/email/url-tracking.md)
          + [メール設定のパーソナライズ](using/email/surface-personalization.md)
       + メール配信品質 {#deliverability}
-      + [配信品質の基本を学ぶ](using/reports/deliverability.md)
-      + [抑制リストについて](using/reports/suppression-list.md)
-      + [新しい DMARC 要件](using/configuration/dmarc-record-update.md)
+         + [配信品質の基本を学ぶ](using/reports/deliverability.md)
+         + [抑制リストについて](using/reports/suppression-list.md)
+         + [新しい DMARC 要件](using/configuration/dmarc-record-update.md)
    + アプリ内チャネル{#in-app}
       + [アプリ内チャネルの基本を学ぶ](using/in-app/get-started-in-app.md)
       + [アプリ内チャネルの前提条件](using/in-app/inapp-configuration.md)
@@ -468,6 +468,7 @@ ht-degree: 95%
       + [Customer Journey Analytics の手動設定](using/reports/cja-ajo.md)
       + [レポートの管理](using/reports/report-cja-manage.md)
       + [レポートと実験の前提条件](using/reports/reporting-configuration.md)
+      + [除外の理由](using/reports/exclusion-list.md)
       + キャンペーンレポート{#reporting}
          + [キャンペーンレポート](using/reports/campaign-global-report-cja.md)
          + [コードベースのキャンペーンレポート](using/reports/campaign-global-report-cja-code.md)
@@ -492,7 +493,6 @@ ht-degree: 95%
       + [概要レポート](using/reports/channel-report-cja.md)
       + [ランディングページのレポート](using/reports/lp-report-global-cja.md)
       + [購読リストのレポート](using/reports/subscription-report-global-cja.md)
-      + [除外の理由](using/reports/exclusion-list.md)
    + カスタムジャーニーレポート {#reports}
       + [ジャーニーレポートの作成](using/reports/sharing-overview.md)
       + [ステップイベントフィールドの一覧](using/reports/sharing-field-list.md)
