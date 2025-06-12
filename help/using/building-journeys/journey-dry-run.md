@@ -11,10 +11,10 @@ hidefromtoc: true
 badge: label="限定提供" type="Informative"
 keywords: 公開, ジャーニー, ライブ, 有効性, 確認
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 2d7067782d6adc7fe5c458a575729d2293af2aaf
+source-git-commit: 8dae895f33d8e95424bc96c8050b8f52d7c02b50
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 12%
+source-wordcount: '917'
+ht-degree: 10%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 12%
 
 >[!AVAILABILITY]
 >
->この機能は、一連の組織でのみ使用できます（限定提供）。アクセスするには、アドビ担当者にお問い合わせください。
+>この機能は一連の組織（限定提供）でのみ使用でき、今後のリリースでグローバルに展開されます。
 
 
 ## 主なメリット {#journey-dry-run-benefits}
