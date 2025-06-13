@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 101796a9221beeb1fa4950d806a91997ee6c9ae4
+source-git-commit: c00d5a97e7bedf6f1a22a59cc3bd7588eb9ad32e
 workflow-type: tm+mt
-source-wordcount: '2138'
-ht-degree: 62%
+source-wordcount: '2164'
+ht-degree: 61%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 62%
 
 **リリース日**:2025 年 6 月 17～18 日
 
-[Adobe Experience Platformのプレリリースノート ](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"} も参照してください。
+[Adobe Experience Platformのプレリリースノート ](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"} も参照してください。
 
 ### 新機能 {#25-06-features}
 
@@ -201,6 +201,7 @@ ht-degree: 62%
    * **カスタム CSS のサポート** - Journey Optimizerで、メールデザイナー内でメールコンテンツに直接カスタム CSS を追加できるようになりました。
    * **ダークモードのサポート** - Journey Optimizer E メールデザイナーが、特定の設定を定義できるダークモードに切り替えられるようになりました。
 
+* **キャンペーン** - アクションキャンペーン用の新しいタブ付きナビゲーション。 この新しいナビゲーションパターンにより、コンテンツオーサリングにすばやくアクセスでき、キャンペーン全体でさらに設定を拡張できます。
 
 * **決定** – 公開日：2025 年 6 月 3 日（PT）
 
