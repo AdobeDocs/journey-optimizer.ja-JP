@@ -41,7 +41,7 @@ ht-degree: 1%
 >
 >* ジャーニーを一時停止および再開する権限は、**[!DNL Publish journeys]** の高レベル権限を持つユーザーに制限されます。 [!DNL Journey Optimizer] ユーザーのアクセス権の管理について詳しくは、[この節](../administration/permissions-overview.md)を参照してください。
 >
->* 一時停止/再開機能の使用を開始する前に、[ ガードレールと制限事項を参照 ](journey-pause-guardrails) してください。
+>* 一時停止/再開機能の使用を開始する前に、[ ガードレールと制限事項を参照 ] (journey-pause-guardrails) してください。
 
 
 ## ジャーニーの一時停止方法 {#journey-pause-steps}
