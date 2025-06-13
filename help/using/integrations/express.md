@@ -10,10 +10,10 @@ role: User
 level: Beginner
 keywords: アセット, 統合
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: bba2fd3b481c582f33ffad79d1f1c1327143f108
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 96%
+source-wordcount: '549'
+ht-degree: 84%
 
 ---
 
@@ -41,26 +41,19 @@ Adobe Express について詳しくは、[このドキュメント](https://help
 
 ➡️ [この機能をビデオで確認](#video)
 
-## Adobe Express エンタープライズ版ライセンス {#licence}
+## Enterprise ライセンスでのAdobe Expressの使用 {#licence}
 
 以下の節で説明する機能には、Adobe Express エンタープライズ版ライセンスを持たないユーザーもアクセスできます。
 
-エンタープライズ版ライセンスを使用すると、ユーザーは Adobe Express エディターのすべての機能にアクセスでき、カラー、明るさ、シャープネス、コントラスト、寸法、その他の設定を調整して画像を変更できます。
+Enterprise ライセンスを使用すると、Adobe Expressの web エディターに完全にアクセスでき、アセット設定の調整、Fireflyを使用したコンテンツの生成、テキストの追加、カスタマイズの追加をおこなうことができます。
 
 ![](assets/express-licence.png)
 
-+++Adobe Express エンタープライズ版ライセンスを持つユーザーが使用できるユースケース
+Adobe Expressの Enterprise ライセンスを持つユーザーが使用できるユースケースについて詳しくは、[Adobe Express web ドキュメント ](https://helpx.adobe.com/express/web.html) を参照してください。
 
-* [背景を削除](https://helpx.adobe.com/jp/express/create-and-edit-images/edit-images/remove-background.html)
-* [オブジェクトを削除](https://helpx.adobe.com/jp/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html)
-* [消しゴム](https://helpx.adobe.com/jp/express/create-and-edit-images/edit-images/eraser.html)
-* [オブジェクトを挿入](https://helpx.adobe.com/jp/express/adobe-express-on-mobile/create-and-edit-designs/generative-fill-mobile.html)
-* [切り抜き](https://helpx.adobe.com/express/create-and-edit-images/edit-images/crop-and-shape-images.html)
-* [エフェクト](https://helpx.adobe.com/jp/express/add-effects-to-your-designs/add-images-and-visuals/apply-image-filters.html-filters.html)
+## Enterprise ライセンスなしのAdobe Expressの使用  {#edit}
 
-+++
-
-## 画像のサイズ変更 {#resize}
+### 画像のサイズ変更 {#resize}
 
 1. Adobe Express メニューから、「**[!UICONTROL 画像をサイズ変更]**」を選択します。
 
@@ -84,7 +77,7 @@ Adobe Express について詳しくは、[このドキュメント](https://help
 
 これで、画像をコンテンツで使用する準備が整いました。
 
-## 背景の削除 {#background}
+### 背景の削除 {#background}
 
 1. Adobe Express メニューから、「**[!UICONTROL 背景を削除]**」を選択します。
 
@@ -104,7 +97,7 @@ Adobe Express について詳しくは、[このドキュメント](https://help
 
 これで、画像をコンテンツで使用する準備が整いました。
 
-## 画像の切り抜き {#crop-image}
+### 画像の切り抜き {#crop-image}
 
 1. Adobe Express メニューから、「**[!UICONTROL 画像を切り抜き]**」を選択します。
 
@@ -122,7 +115,7 @@ Adobe Express について詳しくは、[このドキュメント](https://help
 
 これで、画像をコンテンツで使用する準備が整いました。
 
-## JPEG または PNG への変換 {#convert}
+### JPEG または PNG への変換 {#convert}
 
 1. Adobe Express メニューから、画像の元の形式に応じて「**[!UICONTROL JPEG に変換]**」または「**[!UICONTROL PNG に変換]**」を選択します。
 
@@ -144,12 +137,11 @@ Adobe Express について詳しくは、[このドキュメント](https://help
 
 これで、画像をコンテンツで使用する準備が整いました。
 
-
 ## チュートリアルビデオ {#video}
 
 Adobe Express ツールを使用して Adobe Journey Optimizer でアセットを編集する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3455524/?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3455523/?quality=12)
 
 
 
