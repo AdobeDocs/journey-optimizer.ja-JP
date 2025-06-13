@@ -8,10 +8,11 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: メッセージ, 頻度, ルール, プレッシャー
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
+exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
+source-git-commit: d17cff4cbe661cb8f41ef09ef9850f6010fc21e5
 workflow-type: tm+mt
 source-wordcount: '1047'
-ht-degree: 79%
+ht-degree: 80%
 
 ---
 
@@ -21,7 +22,7 @@ ht-degree: 79%
 
 チャネルルールセットを活用すると、通信タイプごとにフリークエンシーキャップを設定して、類似のメッセージを持つ顧客の過負荷を防ぐことができます。 例えば、顧客に送信する&#x200B;**プロモーション情報**&#x200B;の数を制限するルールセットを作成したり、顧客に送信する&#x200B;**ニュースレター**&#x200B;の数を制限する別のルールセットを作成したりできます。作成するキャンペーンの種類に応じて、プロモーション情報またはニュースレターのルールセットのいずれかを適用することを選択できます。
 
-## チャネルキャッピングルールの作成
+## チャネルのキャッピングルールの作成
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_channel"
@@ -151,4 +152,4 @@ In this scenario, an individual profile:
 
 ## チュートリアルビデオ {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444727?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
