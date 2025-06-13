@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="限定提供" type="Informative"
 keywords: 公開, ジャーニー, ライブ, 有効性, 確認
-source-git-commit: 3cc5abdbec27ac9a8009b3b0d125a3b49dc9ed04
+source-git-commit: 68a115d3075f7953501b10f2057b5aa87e0fcf92
 workflow-type: tm+mt
 source-wordcount: '2004'
 ht-degree: 1%
@@ -167,7 +167,7 @@ ht-degree: 1%
 
 次のジャーニーの例を見てみましょう。
 
-![ ジャーニーの例 ](assets/pause-journey-sample.png){width="50%" align="left"}
+![ ジャーニーの例 ](assets/pause-journey-sample.png)
 
 このジャーニーを一時停止する際は、プロファイルを **破棄** するか **保持** するかを選択します。次に、プロファイル管理を次に示します。
 
