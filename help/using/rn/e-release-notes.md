@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: eff3f2fb4d1c369e77a22013ae1576b57449a8b7
+source-git-commit: 8188749c47be0a3d91b9857d170bceb4747a3400
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 35%
+source-wordcount: '1017'
+ht-degree: 33%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 35%
 <tbody>
 <tr>
 <td>
-<p>RCS （Rich Communication Services）メッセージングがJourney Optimizerでサポートされるようになり、プロバイダーと通信事業者のサポートに応じて、次の強化されたメッセージング機能が有効になりました。</p>
+<p>Journey Optimizerで Rich Communication Services （RCS）メッセージングがサポートされるようになり、プロバイダーと通信事業者のサポートに応じて、次の強化されたメッセージング機能が可能になりました。</p>
 <ul>
 <li>ブランドおよび検証済みの送信者のサポート：ブランディング要素（ロゴ、送信者名など）を含む検証済みのビジネスプロファイルを使用してメッセージを送信します。</li>
 <li>メッセージ配信インサイト：メッセージステータスの更新（送信済み、配信済み、読み取りなど）を含む詳細な配信レポートを受信します。</li>
@@ -83,8 +83,7 @@ ht-degree: 35%
 <tbody>
 <tr>
 <td>
-<p>技術者以外のユーザーがコードを操作しなくてもコードベースのエクスペリエンスのコンテンツを簡単に編集できる JSON またはHTML コンテンツテンプレートの特定の編集可能フィールドを定義できるようになりました。</p>
-<p>この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できます（一般提供）。</p>
+<p>技術者以外のユーザーがコードを操作しなくても、コードベースのエクスペリエンスチャネルオーサリング内でフォームビューのコンテンツを簡単に編集できる、JSON またはHTML コンテンツテンプレートの特定の編集可能フィールドを定義できるようになりました。 さらに、コードベースのエクスペリエンスコンテンツテンプレートを定義する際に、テンプレートに決定ポリシーを挿入できるようになり、再利用性と使いやすさが向上しました。</p>
 </td>
 </tr>
 </tbody>
@@ -144,7 +143,7 @@ ht-degree: 35%
 <table>
 <thead>
 <tr>
-<th><strong>ジャーニードライラン</strong><br/></th>
+<th><strong>ジャーニーのドライラン</strong><br/></th>
 </tr>
 </thead>
 <tbody>
