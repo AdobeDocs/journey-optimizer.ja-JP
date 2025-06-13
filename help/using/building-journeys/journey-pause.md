@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="限定提供" type="Informative"
 keywords: 公開, ジャーニー, ライブ, 有効性, 確認
-source-git-commit: 68a115d3075f7953501b10f2057b5aa87e0fcf92
+source-git-commit: adff7581d72947273675ab9b7bc36702d76d3792
 workflow-type: tm+mt
 source-wordcount: '2004'
 ht-degree: 1%
@@ -123,13 +123,13 @@ ht-degree: 1%
 
 1. **条件とグローバルフィルターを終了** アイコンをクリックします。
 
-   ![ 一時停止したジャーニーへのグローバルフィルターの追加 ](assets/add-global-filter.png){width="50%" align="left"}
+   ![ 一時停止したジャーニーへのグローバルフィルターの追加 ](assets/add-global-filter.png)
 
 1. **終了条件とグローバルフィルター** 設定で「**グローバルフィルターを追加**」をクリックし、プロファイル属性に基づいてフィルターを定義します。
 
 1. 式を設定して、国属性がフランスに等しいプロファイルを除外します。
 
-   ![ 一時停止したジャーニーへのグローバルフィルターの追加 ](assets/add-country-filter.png){width="50%" align="left"}
+   ![ 一時停止したジャーニーへのグローバルフィルターの追加 ](assets/add-country-filter.png)
 
 1. フィルターを保存し、「**ジャーニーを更新**」ボタンをクリックして変更を適用します。
 
