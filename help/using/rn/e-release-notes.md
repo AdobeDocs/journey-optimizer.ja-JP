@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 8dae895f33d8e95424bc96c8050b8f52d7c02b50
+source-git-commit: eff3f2fb4d1c369e77a22013ae1576b57449a8b7
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '1000'
 ht-degree: 35%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 35%
 <tbody>
 <tr>
 <td>
-<p>RCS （Rich Communication Services）メッセージングがJourney Optimizerでサポートされるようになり、通信事業者のサポートに従って次の強化されたメッセージング機能が可能になりました。</p>
+<p>RCS （Rich Communication Services）メッセージングがJourney Optimizerでサポートされるようになり、プロバイダーと通信事業者のサポートに応じて、次の強化されたメッセージング機能が有効になりました。</p>
 <ul>
 <li>ブランドおよび検証済みの送信者のサポート：ブランディング要素（ロゴ、送信者名など）を含む検証済みのビジネスプロファイルを使用してメッセージを送信します。</li>
 <li>メッセージ配信インサイト：メッセージステータスの更新（送信済み、配信済み、読み取りなど）を含む詳細な配信レポートを受信します。</li>
