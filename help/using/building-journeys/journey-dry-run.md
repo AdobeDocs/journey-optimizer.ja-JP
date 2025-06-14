@@ -11,9 +11,9 @@ hidefromtoc: true
 badge: label="限定提供" type="Informative"
 keywords: 公開, ジャーニー, ライブ, 有効性, 確認
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 8dae895f33d8e95424bc96c8050b8f52d7c02b50
+source-git-commit: f308668ba1b7b20f6144e9200328e54986f66103
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '930'
 ht-degree: 11%
 
 ---
@@ -56,25 +56,10 @@ ht-degree: 11%
 
 >[!CAUTION]
 >
->ドライランを開始する権限は、**[!DNL Publish journeys]** の高レベル権限を持つユーザーに制限されます。 ドライランを停止する権限は、**[!DNL Manage journeys]** の高レベル権限を持つユーザーに制限されます。 [!DNL Journey Optimizer] ユーザーのアクセス権の管理について詳しくは、[この節](../administration/permissions-overview.md)を参照してください。
+>* ドライランを開始する権限は、**[!DNL Publish journeys]** の高レベル権限を持つユーザーに制限されます。 ドライランを停止する権限は、**[!DNL Manage journeys]** の高レベル権限を持つユーザーに制限されます。 [!DNL Journey Optimizer] ユーザーのアクセス権の管理について詳しくは、[この節](../administration/permissions-overview.md)を参照してください。
+>
+>* ドライラン機能の使用を開始する前に、[ ガードレールと制限事項 ](#journey-dry-run-limitations) を参照してください。
 
-
-## ガードレールと制限 {#journey-dry-run-limitations}
-
-* 反応イベントを含んだジャーニーには、ドライラン モードは使用できません。
-* ドライランモードのプロファイルは、エンゲージメント可能なプロファイルにカウントされます。
-* ドライランのジャーニーは、ビジネスルールには影響しません。
-* 新しいジャーニーバージョンを作成する際に、以前のジャーニーバージョンが **ライブ** の場合、新しいバージョンではドライランのアクティベーションは許可されません。
-* ジャーニードライランが stepEvents を生成します。 これらの stepEvents には、特定のフラグとドライラン ID があります。
-   * `_experience.journeyOrchestration.stepEvents.inDryRun` は、ドライランがアクティブな場合は `true` を返し、それ以外の場合は `false` を返します
-   * `_experience.journeyOrchestration.stepEvents.dryRunID` ドライランインスタンスの ID を返します
-* ドライラン中、ジャーニーは次のような特性で実行されます。
-
-   * **チャネルアクション** メール、SMS、プッシュ通知などのノードが実行されない。
-   * **カスタムアクション** は、ドライラン中は無効になり、応答は null に設定されます。
-   * **待機ノード** は、ドライラン中はバイパスされます。
-     <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
-   * 外部データソースを含む **データソース** は、デフォルトで実行されます。
 
 ## ドライランを開始する {#journey-dry-run-start}
 
@@ -132,3 +117,20 @@ ht-degree: 11%
 **閉じる** ボタンをクリックしてテストを終了し、「**ドラフトに戻る** をクリックして確定します。
 
 <!-- After 14 days, Dry run journeys automatically transition to the **Draft** status.-->
+
+## ガードレールと制限 {#journey-dry-run-limitations}
+
+* 反応イベントを含んだジャーニーには、ドライラン モードは使用できません。
+* ドライランモードのプロファイルは、エンゲージメント可能なプロファイルにカウントされます。
+* ドライランのジャーニーは、ビジネスルールには影響しません。
+* 新しいジャーニーバージョンを作成する際に、以前のジャーニーバージョンが **ライブ** の場合、新しいバージョンではドライランのアクティベーションは許可されません。
+* ジャーニードライランが stepEvents を生成します。 これらの stepEvents には、特定のフラグとドライラン ID があります。
+   * `_experience.journeyOrchestration.stepEvents.inDryRun` は、ドライランがアクティブな場合は `true` を返し、それ以外の場合は `false` を返します
+   * `_experience.journeyOrchestration.stepEvents.dryRunID` ドライランインスタンスの ID を返します
+* ドライラン中、ジャーニーは次のような特性で実行されます。
+
+   * **チャネルアクション** メール、SMS、プッシュ通知などのノードが実行されない。
+   * **カスタムアクション** は、ドライラン中は無効になり、応答は null に設定されます。
+   * **待機ノード** は、ドライラン中はバイパスされます。
+     <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
+   * 外部データソースを含む **データソース** は、デフォルトで実行されます。
