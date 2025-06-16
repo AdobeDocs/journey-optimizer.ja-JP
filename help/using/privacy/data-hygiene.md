@@ -7,10 +7,10 @@ feature: Privacy, Monitoring
 role: User
 level: Intermediate
 exl-id: 8045b559-bf5e-4b5f-9da4-accd44641a68
-source-git-commit: da46230b9a086743fea1052b57b48bf18b920abd
+source-git-commit: a5b292e6eb4145fa29774fbeb4ce823bc71b849c
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 100%
+source-wordcount: '221'
+ht-degree: 57%
 
 ---
 
@@ -25,6 +25,15 @@ Adobe Experience Platform にデータが継続的に取り込まれるので、
 これらのタスクは、**[!UICONTROL データライフサイクル]**&#x200B;メニューを使用して実行できます。ここでは、データライフサイクルの設定とスケジュールを行い、レコードが適切に維持されるようにします。
 
 ![](assets/data-hygiene.png)
+
+
+## レコメンデーション {#data-hygiene-recommendations}
+
+データハイジーン操作（ID やデータセットの削除など）を実行する場合、削除された ID に関連付けられた過去の配信イベントは、標準のレポートやデータレイククエリには表示されなくなることに注意してください。 その結果、特に古いジャーニーの場合、受信者のインボックスで **配信済み** としてレポートされるメールの数と **受信済み** メールの数に不一致が生じる可能性があります。
+
+大規模な削除を実行する前に、必要な配信またはレポートデータを検証して書き出します。 データハイジーン後に紐付けが必要な場合は、Adobe サポートと調整してアーカイブされたログにアクセスするか、メッセージフィードバックイベントデータセットのクエリを使用して最近のデータを確認します。
+
+## 詳細情報 {#data-hygiene-learn-more}
 
 Privacy Service とデータライフサイクル操作の実行方法について詳しくは、Adobe Experience Platform のドキュメントを参照してください。
 
