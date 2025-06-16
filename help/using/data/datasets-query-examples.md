@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: データセット, Optimizer, ユースケース
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 1728d43bf278f9caf127d8ed44ef8b15969485f7
+source-git-commit: 3df87ee9028217d353d657167e541e7d113c6065
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 94%
@@ -146,6 +146,11 @@ select hardBounceCount, case when sentCount > 0 then(hardBounceCount/sentCount)*
 SELECT _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.reason AS failurereason, COUNT(*) AS hardbouncecount FROM ajo_message_feedback_event_dataset WHERE _experience.customerjourneymanagement.messagedeliveryfeedback.feedbackstatus = 'bounce' AND _experience.customerjourneymanagement.messagedeliveryfeedback.messagefailure.type = 'Hard' AND _experience.customerjourneymanagement.messageprofile.channel._id = 'https://ns.adobe.com/xdm/channels/email' GROUP BY failurereason
 ```
 
+>[!NOTE]
+>
+>ジャーニーによっては、個々の配信 `messageID` 固有でない場合があります。 ジャーニーが同じプロファイルに同じアクションを再送信すると、同じ `messageID` ールが再利用されます。 したがって、個々の送信レベルでイベントを正確に追跡したり属性を設定したりするには、`journeyVersionID`、`journeyActionID`、`batchInstanceID` （バッチジャーニーの場合）または `identityMap` フィールドを組み合わせて、より正確な一意性を実現します。
+
+
 ### ISP のサービス停止後に強制隔離されたアドレスの識別{#isp-outage-query}
 
 インターネットサービスプロバイダー（ISP）のサービス停止が発生した場合は、特定のドメインに対してバウンス（強制隔離）と誤ってマークされたメールアドレスを、一定期間識別する必要があります。これらのアドレスを取得するには、次のクエリを使用します。
@@ -169,9 +174,6 @@ ORDER BY timestamp DESC;
 識別したら、これらのアドレスを Journey Optimizer 抑制リストから削除します。[詳細情報](../configuration/manage-suppression-list.md#remove-from-suppression-list)
 
 
->[!NOTE]
->
->ジャーニーによっては、個々の配信 `messageID` 固有でない場合があります。 ジャーニーが同じプロファイルに同じアクションを再送信すると、同じ `messageID` ールが再利用されます。 したがって、個々の送信レベルでイベントを正確に追跡したり属性を設定したりするには、`journeyVersionID`、`journeyActionID`、`batchInstanceID` （バッチジャーニーの場合）または `identityMap` フィールドを組み合わせて、より正確な一意性を実現します。
 
 
 ## プッシュトラッキングエクスペリエンスイベントデータセット {#push-tracking-experience-event-dataset}
