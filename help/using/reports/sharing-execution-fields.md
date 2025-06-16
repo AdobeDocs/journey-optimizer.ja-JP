@@ -8,7 +8,7 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 273cda84-0261-4c5b-b5f4-0202e8874d05
-source-git-commit: 190f757853f65b7434319047760c2efb43d2d702
+source-git-commit: 91835d5b8b1f129c83c79613df30d9413db98ffe
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 77%
@@ -51,13 +51,11 @@ ht-degree: 77%
 
 型：long
 
->[!NOTE]
->
-> `actionExecutionTime` フィールドは、アクションを実行するのに要した合計時間（ミリ秒単位）を表します。これには、要求がキューでの待機に費やした時間（スロットルが設定され、レート制限に達した場合）、および実際の実行時間（外部エンドポイントへのネットワーク待ち時間を含む）の両方が含まれます。
->
-> `Timestamp` フィールドは、アクション実行の終了時刻を示します。 プロファイルがいつカスタムアクションノードに入ったかを判断するには、`Timestamp` から `actionExecutionTime` を減算します。
->
->例えば、`Timestamp` が「2025-02-04 09:39:03 UTC」で、`actionExecutionTime` が 1,813,227 ミリ秒（～31 分）の場合、プロファイルは約「2025-02-04 09:08:32 UTC」のノードに入りました。
+`actionExecutionTime` フィールドは、アクションを実行するのに要した合計時間（ミリ秒単位）を表します。これには、要求がキューでの待機に費やした時間（スロットルが設定され、レート制限に達した場合）、および実際の実行時間（外部エンドポイントへのネットワーク待ち時間を含む）の両方が含まれます。
+
+`Timestamp` フィールドは、アクション実行の終了時刻を示します。 プロファイルがいつカスタムアクションノードに入ったかを判断するには、`Timestamp` から `actionExecutionTime` を減算します。
+
+例えば、`Timestamp` が「2025-02-04 09:39:03 UTC」で、`actionExecutionTime` が 1,813,227 ミリ秒（～31 分）の場合、プロファイルは約「2025-02-04 09:08:32 UTC」のノードに入りました。
 
 
 
