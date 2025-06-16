@@ -10,10 +10,10 @@ role: User
 level: Beginner
 keywords: アセット, 統合
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
-source-git-commit: bba2fd3b481c582f33ffad79d1f1c1327143f108
+source-git-commit: 070debe5c4fb5e39316b12a0788ec55abbf3c005
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 84%
+source-wordcount: '576'
+ht-degree: 82%
 
 ---
 
@@ -52,6 +52,13 @@ Enterprise ライセンスを使用すると、Adobe Expressの web エディタ
 Adobe Expressの Enterprise ライセンスを持つユーザーが使用できるユースケースについて詳しくは、[Adobe Express web ドキュメント ](https://helpx.adobe.com/express/web.html) を参照してください。
 
 ## Enterprise ライセンスなしのAdobe Expressの使用  {#edit}
+
+Enterprise ライセンスがない場合、ユーザーはAdobe Expressで使用可能な次のユースケースにアクセスできます。
+
+* [画像のサイズ変更](#resize)
+* [背景の削除](#background)
+* [画像の切り抜き](#crop-image)
+* [JPEG または PNG への変換](#convert)
 
 ### 画像のサイズ変更 {#resize}
 
@@ -141,7 +148,7 @@ Adobe Expressの Enterprise ライセンスを持つユーザーが使用でき�
 
 Adobe Express ツールを使用して Adobe Journey Optimizer でアセットを編集する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3455524/?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3455523/?quality=12)
 
 
 
