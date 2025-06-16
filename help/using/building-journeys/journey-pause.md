@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 badge: label="限定提供" type="Informative"
 keywords: 公開, ジャーニー, ライブ, 有効性, 確認
-source-git-commit: 8e5213cf51183c68e87c2cec9cb12984acf8151a
+source-git-commit: 437868d49f4bc4123e370b60d09ba0bf644e43d9
 workflow-type: tm+mt
 source-wordcount: '2021'
 ht-degree: 1%
@@ -185,5 +185,5 @@ ht-degree: 1%
 
 このジャーニーを再開した場合：
 
-1. 1 分以内に新しいジャーニーのエントリが開始されます
+1. 1 分以内に新しいジャーニーのエントリが開始されます。
 1. **アクション** アクティビティのジャーニーで現在待機しているプロファイルは、5,000 件の TPS 率で再開されます。 その後、待機していた **アクション** に入り、ジャーニーを続行できます。
