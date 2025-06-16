@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 式, エディター, 動的, コンテンツ
 exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: ht
-source-wordcount: '608'
-ht-degree: 100%
+source-git-commit: 0ce842816e8a63fabd21483323c664238c32848a
+workflow-type: tm+mt
+source-wordcount: '653'
+ht-degree: 93%
 
 ---
 
@@ -45,6 +45,11 @@ Adobe Journey Optimizer では、ライブラリで作成した条件付きル�
 1. コンテンツの準備が整ったら、「**[!UICONTROL コンテンツをシミュレート]**」ボタンを使用して、異なるバリアントをプレビューできます。[メッセージのテストとプレビューの方法についてはこちらから](../content-management/preview-test.md)
 
    ![](assets/conditions-preview.png)
+
+>[!CAUTION]
+>
+>条件ブロックを追加した後、メールDesignerを適切にレンダリングできない場合は、新しい各条件の構文が正しいこと、重複する文や競合する文が存在しないことを確認します。 問題が解決しない場合は、問題のあるセクションを新しいテンプレートで再構築し、各条件ブロックを増分的にテストすることを検討してください。
+
 
 ## メールへの動的コンテンツの追加 {#emails}
 

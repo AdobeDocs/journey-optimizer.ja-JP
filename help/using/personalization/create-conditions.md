@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 式, エディター, 条件, ルール
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
-source-git-commit: 6f9bdb179f2bfff30494495b68a15aaac77d6b9e
+source-git-commit: 0ce842816e8a63fabd21483323c664238c32848a
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 100%
+source-wordcount: '605'
+ht-degree: 94%
 
 ---
 
@@ -63,10 +63,10 @@ ht-degree: 100%
    属性は次の 3 つのタブに整理されます。
 
    * **[!UICONTROL プロファイル]**：
-      * **[!UICONTROL オーディエンス]**&#x200B;には、[Adobe Experience Platform セグメント化サービス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja)のすべてのオーディエンス属性（ステータス、バージョンなど）が一覧表示されます。
-      * **[!UICONTROL XDM 個別プロファイル]**&#x200B;には、Adobe Experience Platform で定義される[エクスペリエンスデータモデル（XDM）スキーマ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja)に関連するすべてのプロファイル属性が一覧表示されます。
+      * **[!UICONTROL オーディエンス]**&#x200B;には、[Adobe Experience Platform セグメント化サービス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja){target="_blank"}のすべてのオーディエンス属性（ステータス、バージョンなど）が一覧表示されます。
+      * **[!UICONTROL XDM 個別プロファイル]**&#x200B;には、Adobe Experience Platform で定義される[エクスペリエンスデータモデル（XDM）スキーマ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target="_blank"}に関連するすべてのプロファイル属性が一覧表示されます。
    * **[!UICONTROL コンテキスト]**：ジャーニーでメッセージを使用している場合、コンテキストジャーニーフィールドをこのタブから使用できます。
-   * **[!UICONTROL オーディエンス]**：[Adobe Experience Platform セグメント化サービス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja)で作成されたセグメント定義から生成されたすべてのオーディエンスを一覧表示します。
+   * **[!UICONTROL オーディエンス]**：[Adobe Experience Platform セグメント化サービス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja){target="_blank"}で作成されたセグメント定義から生成されたすべてのオーディエンスを一覧表示します。
 
 1. 条件付きルールの準備が整ったら、メッセージに追加して、動的コンテンツを作成できます。[動的コンテンツの追加方法を学ぶ](dynamic-content.md)
 
@@ -87,6 +87,11 @@ ht-degree: 100%
    ![](assets/conditions-name-description.png)
 
 1. 条件付きルールがライブラリに保存され、メッセージに動的コンテンツを作成するために使用できるようになります。[動的コンテンツの追加方法を学ぶ](dynamic-content.md)
+
+
+>[!CAUTION]
+>
+>条件付きコンテンツのバリアントに名前を付ける場合は、英数字（A～Z、a～z、0～9）のみを使用します。 バリアント名に特殊文字（`<`、`>`、`=`、`{`、`}` など）を使用すると、テンプレートエディターでコンポーネントが表示または非表示になる場合があります。
 
 ## 保存済み条件付きルールの編集と削除 {#edit-delete}
 
