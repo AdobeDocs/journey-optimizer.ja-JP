@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: データセット, Optimizer, ユースケース
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 46c4d3081603115db71b01a05f12187cd7e0d34c
+source-git-commit: 1728d43bf278f9caf127d8ed44ef8b15969485f7
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 100%
+source-wordcount: '894'
+ht-degree: 94%
 
 ---
 
@@ -167,6 +167,12 @@ ORDER BY timestamp DESC;
 日付の形式は、`YYYY-MM-DD HH:MM:SS` です。
 
 識別したら、これらのアドレスを Journey Optimizer 抑制リストから削除します。[詳細情報](../configuration/manage-suppression-list.md#remove-from-suppression-list)
+
+
+>[!NOTE]
+>
+>ジャーニーによっては、個々の配信 `messageID` 固有でない場合があります。 ジャーニーが同じプロファイルに同じアクションを再送信すると、同じ `messageID` ールが再利用されます。 したがって、個々の送信レベルでイベントを正確に追跡したり属性を設定したりするには、`journeyVersionID`、`journeyActionID`、`batchInstanceID` （バッチジャーニーの場合）または `identityMap` フィールドを組み合わせて、より正確な一意性を実現します。
+
 
 ## プッシュトラッキングエクスペリエンスイベントデータセット {#push-tracking-experience-event-dataset}
 
