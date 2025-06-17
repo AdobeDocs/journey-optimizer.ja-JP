@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 7e9d707d6413509aef207a6183f6c9953ccdf229
 workflow-type: tm+mt
 source-wordcount: '2434'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 95%
       + [ジャーニーのデザイン](using/building-journeys/using-the-journey-designer.md)
       + [ジャーニーのテスト](using/building-journeys/testing-the-journey.md)
       + [ジャーニーのシミュレート](using/building-journeys/journey-simulation.md)
-      + [ジャーニードライラン](using/building-journeys/journey-dry-run.md)
+      + [ジャーニーのドライラン](using/building-journeys/journey-dry-run.md)
       + [ジャーニーの公開](using/building-journeys/publishing-the-journey.md)
       + [ジャーニーのライブレポート](using/building-journeys/report-journey.md)
       + [ジャーニーの一時停止](using/building-journeys/journey-pause.md)
@@ -188,10 +188,10 @@ ht-degree: 95%
       + [キャンペーンの開始と監視](using/orchestrated/start-monitor-campaigns.md)
       + [レポート](using/orchestrated/reporting-campaigns.md)
    + データベースのクエリ {#query-database}
-      + [ ルールビルダーの操作 ](using/orchestrated/orchestrated-rule-builder.md)
-      + [ 最初のルールを作成する ](using/orchestrated/build-query.md)
-      + [ 式を編集 ](using/orchestrated/edit-expressions.md)
-   + キャンペーンアクティビティをキャンセル {#design-campaigns}
+      + [ルールビルダーの操作](using/orchestrated/orchestrated-rule-builder.md)
+      + [最初のルールの作成](using/orchestrated/build-query.md)
+      + [式の編集](using/orchestrated/edit-expressions.md)
+   + 調整されたキャンペーンアクティビティ {#design-campaigns}
       + [アクティビティの概要](using/orchestrated/activities/about-activities.md)
       + [AND 結合](using/orchestrated/activities/and-join.md)
       + [オーディエンスを作成](using/orchestrated/activities/build-audience.md)
@@ -214,10 +214,10 @@ ht-degree: 95%
 + 競合管理と優先順位付け {#conflict-prioritization}
    + [競合管理と優先順位付けの基本を学ぶ](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [潜在的な競合の特定](using/conflict-prioritization/conflicts.md)
-   + [ 優先度スコアの割り当て ](using/conflict-prioritization/priority-scores.md)
-メッセージとジャーニーのキャッピングルール  {#capping-rules} 設定
+   + [優先度スコアの割り当て](using/conflict-prioritization/priority-scores.md)
+メッセージとジャーニーのキャッピングルール設定 {#capping-rules}
       + [ルールセットの操作](using/conflict-prioritization/rule-sets.md)
-      + [ジャーニーのキャッピングと判別](using/conflict-prioritization/journey-capping.md)
+      + [ジャーニーのキャップと判別](using/conflict-prioritization/journey-capping.md)
       + [チャネルと通信タイプによるフリークエンシーキャップ](using/conflict-prioritization/channel-capping.md)
 + テストと承認 {#test}
    + コンテンツのプレビューとテスト {#preview-test}
@@ -226,7 +226,7 @@ ht-degree: 95%
       + [テストプロファイルを使用したプレビュー](using/content-management/preview.md)
       + [テストプロファイルデータを使用した本配信前確認の送信](using/content-management/proofs.md)
       + [メールレンダリングのテスト](using/content-management/rendering.md)
-      + [コンテンツのバリエーションをシミュレート](using/test-approve/simulate-sample-input.md)
+      + [コンテンツバリエーションのシミュレート](using/test-approve/simulate-sample-input.md)
       + [メールスパムレポート](using/content-management/spam-report.md)
    + ジャーニーとキャンペーンの承認 {#approve}
       + [承認の基本を学ぶ](using/test-approve/gs-approval.md)
@@ -764,9 +764,9 @@ ht-degree: 95%
       + [Capping API](using/configuration/capping.md)
       + [Throttling API](using/configuration/throttling.md)
    + アドビソリューションを使用した送信 {#adobe-solutions}
-      + [ジャーニーでのCampaign Standardのアクション](using/action/acs-action.md)
+      + [ジャーニーでの Campaign Standard アクション](using/action/acs-action.md)
       + [ジャーニーでの Campaign v7/v8 アクション](using/action/acc-action.md)
-      + [ジャーニーでのMarketo Engageのアクション](using/action/marketo-engage.md)
+      + [ジャーニーでの Marketo Engage アクション](using/action/marketo-engage.md)
    + サンドボックス管理 {#sandbox}
       + [サンドボックスの使用と割り当て](using/administration/sandboxes.md)
       + [別のサンドボックスへのオブジェクトのエクスポート](using/configuration/copy-objects-to-sandbox.md)

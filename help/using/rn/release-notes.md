@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: c00d5a97e7bedf6f1a22a59cc3bd7588eb9ad32e
 workflow-type: tm+mt
 source-wordcount: '2164'
-ht-degree: 61%
+ht-degree: 70%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 61%
 
 **リリース日**:2025 年 6 月 17～18 日
 
-[Adobe Experience Platformのプレリリースノート ](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"} も参照してください。
+[Adobe Experience Platformのプレリリースノート ](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"} も参照してください。
 
 ### 新機能 {#25-06-features}
 
@@ -151,9 +151,9 @@ ht-degree: 61%
 <tbody>
 <tr>
 <td>
-<p>実験の勝者をスケーリングすると、実験の勝者バリエーションを自動または手動でオーディエンス全体にロールアウトできます。 この機能により、最もパフォーマンスの高い処理が特定されると、手動で常に監視することなく、そのリーチと効果を最大化できます。</p>
+<p>「実験の勝者を拡大」を使用すると、実験の勝利バリエーションをすべてのオーディエンスに自動または手動でロールアウトできます。この機能により、最もパフォーマンスの高い処理が特定されると、手動で常に監視することなく、そのリーチと効果を最大化できます。</p>
 <p>詳しくは、<a href="../content-management/content-experiment.md">詳細なドキュメント</a>を参照してください。</p>
-<p>公開日：2025 年 6 月 2 日（PT）</p></td>
+<p>リリース日：2025年6月2日（PT）</p></td>
 </tr>
 </tbody>
 </table>
@@ -175,7 +175,7 @@ ht-degree: 61%
 <li>レポートの強化：レポートには、ジャーニーまたはキャンペーンからプロファイルを除外した特定のルールが示されるようになり、透明性が向上し、実用的なインサイトが提供されます。</li></ul>
 <img src="assets/do-not-localize/gif-conflict.gif">
 <p>詳しくは、<a href="../conflict-prioritization/gs-conflict-prioritization.md">詳細なドキュメント</a>を参照してください。</p>
-<p>公開日：2025 年 6 月 3 日（PT）</p>
+<p>リリース日：2025年6月3日（PT）</p>
 </td>
 </tr>
 </tbody>
@@ -203,17 +203,17 @@ ht-degree: 61%
 
 * **キャンペーン** - アクションキャンペーン用の新しいタブ付きナビゲーション。 この新しいナビゲーションパターンにより、コンテンツオーサリングにすばやくアクセスでき、キャンペーン全体でさらに設定を拡張できます。
 
-* **決定** – 公開日：2025 年 6 月 3 日（PT）
+* **決定** - リリース日：2025年6月3日（PT）
 
   決定オブジェクトをサンドボックス間でコピーできるようになり、テストとデプロイメントのワークフローを効率化できるようになりました。[詳細情報](../configuration/copy-objects-to-sandbox.md#decisioning)
 
-* **決定ルールの決定項目属性のサポート** – 公開日：2025 年 6 月 4 日（PT）
+* **決定ルールの決定項目属性のサポート** – リリース日：2025年6月4日（PT）
 
-  決定項目属性を利用して決定ルールを作成できるようになりました。 [詳細情報](../experience-decisioning/rules.md#create)
+  決定項目属性を活用して、決定ルールを作成できるようになりました。[詳細情報](../experience-decisioning/rules.md#create)
 
-* **インタラクティブメッセージ実行 API の更新** – 公開日：2025 年 6 月 6 日（PT）
+* **インタラクティブメッセージ実行 API の更新** – リリース日：2025年6月6日（PT）
 
-  インタラクティブメッセージ実行 API で、今後のキャンペーン実行のスケジュールを削除できるようになりました。 [詳細情報](https://developer.adobe.com/journey-optimizer-apis/references/messaging/){target="_blank"}
+  インタラクティブメッセージ実行 API で、今後のキャンペーン実行のスケジュールを削除できるようになりました。[詳細情報](https://developer.adobe.com/journey-optimizer-apis/references/messaging/){target="_blank"}
 
 ## 2025年5月リリースノート {#25-5-rn}
 
@@ -233,10 +233,10 @@ ht-degree: 61%
 <tr>
 <td>
 <p>ジャーニーとキャンペーンのリストでカレンダー表示を使用できるようになりました。これにより、すべてのジャーニーとキャンペーンのアクティベーションをそれぞれのリストで視覚化できます。</p>
-<p>この変更は現在、一連の組織でのみ使用できます（使用制限あり）。 アクセスをリクエストするには、<a href="https://forms.cloud.microsoft/r/FC49afuJVi" target="_blank"> このフォーム </a> を使用します。</p>
+<p>この変更は現在、一連の組織のみが使用できます（限定提供）。利用申請するには、<a href="https://forms.cloud.microsoft/r/FC49afuJVi" target="_blank">このフォーム</a>を使用します。</p>
 <img src="assets/do-not-localize/calendar.gif">
-<p>詳しくは、次の節を参照してください。<a href="../building-journeys/journey-ui.md"> ジャーニーの参照とフィルタリング </a>、<a href="../campaigns/modify-stop-campaign.md"> キャンペーンへのアクセス </a>。</p>
-<p>公開日：2025年5月28日（PT）</p>
+<p>詳しくは、<a href="../building-journeys/journey-ui.md">ジャーニーの参照とフィルタリング</a>、<a href="../campaigns/modify-stop-campaign.md">キャンペーンへのアクセス</a>の節を参照してください。</p>
+<p>リリース日：2025年5月28日（PT）</p>
 </td>
 </tr>
 </tbody>
@@ -252,7 +252,7 @@ ht-degree: 61%
 <tr>
 <td>
 <p>Adobe Experience Manager と Adobe Journey Optimizer の統合により、Journey Optimizer コンテンツ内で Adobe Experience Manager コンテンツフラグメントを簡単に使用できるようになりました。このシームレスな接続により、Journey Optimizer で AEM コンテンツに直接アクセスして使用することが簡単になります。</p>
-<p>以前は限られた組織のセット（LA）で使用できましたが、この機能は次の機能強化を伴って GA になりました。エディターモードを使用して、プレースホルダーを定義し、フラグメント署名内でパーソナライゼーション値をマッピングできるようになりました。</p>
+<p>以前は限られた組織（LA）でのみ利用可能だったこの機能は、次の機能強化を伴って GA になりました。エディターモードを使用して、フラグメント署名内でプレースホルダーを定義し、パーソナライゼーション値をマッピングできるようになりました。</p>
 <ul>
 <!--li>Create offers by directly selecting an AEM Content Fragment.</li>
 <li>Define placeholders and map personalization values within the fragment signature using the Editor mode.</li-->
@@ -341,7 +341,7 @@ ht-degree: 61%
 <p>この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できます（一般提供）。</p>
 <img src="assets/do-not-localize/trigger-journeys.gif">
 <p>詳しくは、<a href="../building-journeys/read-audience.md#schedule">詳細なドキュメント</a>を参照してください。</p>
-<p>公開日：2025年5月20日（PT）</p>
+<p>リリース日：2025年5月20日（PT）</p>
 </td>
 </tr>
 </tbody>
@@ -359,7 +359,7 @@ ht-degree: 61%
 <p>Journey Optimizer では、デフォルトのオプションに加えて、Sinch、Infobip、Twilio などの追加の SMS プロバイダーを設定できるようになりました。カスタム SMS プロバイダー設定を使用すると、サードパーティプロバイダーを直接統合し、動的メッセージ用の高度なペイロードカスタマイズを活用し、同意設定（オプトイン／オプトアウト）を管理してコンプライアンスを確保できます。</p>
 <p>詳しくは、<a href="../sms/sms-configuration-custom.md">詳細なドキュメント</a>を参照してください。</p>
 <p>この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できます（一般提供）。</p>
-<p>公開日：2025年5月20日（PT）</p>
+<p>リリース日：2025年5月20日（PT）</p>
 </td>
 </td>
 </tr>
@@ -408,7 +408,7 @@ ht-degree: 61%
 このリリースに含まれる機能強化を以下に示します。
 
 
-* **サンドボックスコピーをサポートする新しいキャンペーンオブジェクト** – 公開日：2025 年 5 月 15 日（PT）
+* **サンドボックスコピーをサポートする新しいキャンペーンオブジェクト** – リリース日：2025年5月15日（PT）
 
   パッケージの書き出しと読み込み機能を使用して、複数のサンドボックス間でキャンペーンをコピーすると、チャネル設定、実験のバリアントと設定、決定ポリシーと項目などの依存関係もコピーされるようになりました。[詳細情報](../configuration/copy-objects-to-sandbox.md)
 
@@ -428,15 +428,15 @@ ht-degree: 61%
   >
   >この機能は、今後 30 日間にわたってすべての環境に段階的にロールアウトされます。
 
-* Web チャネルでの **「URL にリダイレクト」のサポート** – 公開日：2025 年 5 月 20 日（PT）
+* **Web チャネルでの「URL にリダイレクト」のサポート** – リリース日：2025年5月20日（PT）
 
   Journey Optimizer web チャネルでは、ビジュアルエディターで新しいバリエーションを作成するのではなく、訪問者を別の既存の URL にリダイレクトできるようになりました。この機能を使用すると、ページ内のいくつかの要素を変更するだけでなく、完全に異なる 2 つのページを比較する実験を実行できます。[詳細情報](../web/create-web.md#web-redirect-to-url)
 
-* **テンプレートおよびフラグメントのフォルダー** – 公開日：2025 年 5 月 20 日（PT）
+* **テンプレートとフラグメントのフォルダー** - リリース日：2025年5月20日（PT）
 
   フォルダーを使用すると、オブジェクトを構造化された階層に簡単かつ効果的に整理できます。以前は一連の組織（LA）に対して提供されていましたが、すべてのユーザー（GA）に対してコンテンツテンプレートとフラグメントを管理できるようになりました。詳しくは、[コンテンツテンプレート](../content-management/access-content-templates.md#folders)および[フラグメント](../content-management/manage-fragments.md#folders)の節を参照してください。
 
-* **メールテンプレートでのクリックトラッキング** – 公開日：2025 年 5 月 20 日（PT）
+* **メールテンプレートでのクリックの追跡** – リリース日：2025年5月20日（PT）
 
   メールコンテンツの画像マップ内の `<area>` 要素のクリックの追跡が [!DNL Journey Optimizer] でネイティブにサポートされるようになりました。これは、画像マップ領域が標準のハイパーリンクと同じトラッキングラッピング、トラッキングデータおよび追加されたパラメーターを確実に受け取るようにするためです。[メッセージトラッキングの詳細情報](../email/message-tracking.md#manage-tracking)
 
@@ -445,7 +445,7 @@ ht-degree: 61%
   
   Journey Optimizer now allows you to leverage Adobe Experience Platform datasets in the following Decisioning objects: eligibility rules, ranking formulas, and capping rules.-->
 
-* **キャンペーンリストの右側のパネル** – 公開日：2025 年 5 月 20 日（PT）
+* **キャンペーンリストの右側のパネル** – リリース日：2025年5月20日（PT）
 
   キャンペーンリストでキャンペーンを選択すると、詳細を表示するパネルが開くようになりました。
 

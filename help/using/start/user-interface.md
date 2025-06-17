@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 284c4896b923eac1d360b61d97cbe560d747ea4f
 workflow-type: tm+mt
 source-wordcount: '1694'
-ht-degree: 87%
+ht-degree: 98%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 87%
 
 * **[!UICONTROL ジャーニー]** - カスタマージャーニーを作成、設定および調整します。イベント、オーケストレーション、アクションアクティビティを組み合わせて、複数の手順からなるクロスチャネルシナリオを作成します。[詳細情報](../building-journeys/journey-gs.md#jo-build)
 
-* **[!UICONTROL レポート]** - Journey Optimizerのレポート機能は、Customer Journey Analyticsの機能と完全に統合されており、両方のプラットフォームでレポート機能を標準化し、データの一貫性と信頼性を向上させます。 Journey OptimizerとCustomer Journey Analyticsのシームレスな統合により、パフォーマンス指標をより明確に把握でき、十分な情報に基づいた意思決定を行うことができます。 [詳細情報](../reports/report-gs-cja.md)
+* **[!UICONTROL レポート]** - Journey Optimizer レポートは Customer Journey Analytics 機能と完全に統合されています。これにより、両方のプラットフォームをまたいでレポートが標準化され、データの一貫性と信頼性が向上します。Journey Optimizer と Customer Journey Analytics のシームレスな統合により、パフォーマンス指標がより明確に表示され、ユーザーはより多くの情報に基づいて意思決定を行うことができます。[詳細情報](../reports/report-gs-cja.md)
 
 
 ### [!UICONTROL 意思決定管理] {#left-nav-decision}
@@ -149,7 +149,7 @@ ht-degree: 87%
 
 ![](assets/use-cases-home.png)
 
-+++ **使用可能なユースケース**
++++ **利用可能なユースケース**
 
 利用可能なユースケースは次のとおりです。
 
@@ -184,7 +184,7 @@ AI アシスタントは、アドビのコンセプトをナビゲートして�
 
 AI アシスタントにアクセスするには、上部バーのアイコンをクリックします。画面の右側のセクションに AI アシスタントが表示されます。
 
-AI アシスタントにアクセスして使用する方法を学ぶ [ このページ ](ai-assistant.md)。
+AI アシスタントにアクセスして使用する方法については、[このページ](ai-assistant.md)を参照してください。
 
 ## 言語の環境設定 {#language-pref}
 
@@ -217,7 +217,7 @@ AI アシスタントにアクセスして使用する方法を学ぶ [ この�
 
 ## 詳細情報 {#more}
 
-[!DNL Journey Optimizer] を使い始めたばかりでも、具体的な質問を抱えた経験豊富なユーザーでも、会社のインスタンスの管理者でも、[ 目標をより早く達成するには、自分に合ったパスを選んでください ](quick-start.md)
+[!DNL Journey Optimizer] を使い始めたばかりでも、具体的な質問を抱えた経験豊富なユーザーでも、会社のインスタンスの管理者でも、[目標をより早く達成するには、自分に合ったパスを選んでください](quick-start.md)
 
 
 <!--CONTEXTUAL HELP TO DISPATCH IN DOCS ONCE FEATURE LIVE-->
@@ -232,29 +232,29 @@ AI アシスタントにアクセスして使用する方法を学ぶ [ この�
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_1"
->title="Campaign オーケストレーション"
->abstract="リレーショナルデータセットを分割、組み合わせ、強化、操作して、オーディエンスを定義します"
+>title="キャンペーンオーケストレーション"
+>abstract="リレーショナルデータセットを分割、組み合わせ、強化、操作して、オーディエンスを定義する"
 
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_2"
->title="複数エンティティのデータの活用"
->abstract="調整されたキャンペーンでリレーショナルデータセットを活用して、セグメント化とパーソナライゼーションのためのデータを強化する方法を説明します"
+>title="マルチエンティティデータの活用"
+>abstract="調整されたキャンペーンでリレーショナルデータセットを活用して、セグメント化とパーソナライゼーションのためのデータを強化する方法を学ぶ"
 
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_3"
 >title="アドホックセグメント化と正確なカウント"
->abstract="正確なカウント数を使用してセグメントを段階的に作成"
+>abstract="正確なカウント数を使用してセグメントを段階的に作成する"
 
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_4"
 >title="使用可能なチャネル"
->abstract="メール，SMS, プッシュ通知，ダイレクトメール"
+>abstract="メール, SMS, プッシュ通知, ダイレクトメール"
 
 <!--OVERVIEW TAB ORCHESTRATED CAMPAIGNS + JOURNEYS SKU -->
 
@@ -262,13 +262,13 @@ AI アシスタントにアクセスして使用する方法を学ぶ [ この�
 >[!CONTEXTUALHELP]
 >id="ajo_oc_jo_camppaign_ovv_1"
 >title="キャンペーンを作成して送信するためのガイド付き UI"
->abstract="チャネルでの 1 つまたは複数のアクションの設定、オーディエンスの選択、コンテンツの設定、スケジュールの定義を行うと、送信の準備が整います"
+>abstract="チャネルでの 1 つ以上のアクションの設定、オーディエンスの選択、コンテンツの設定、スケジュールの定義を行うと、送信の準備が整います"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_jo_camppaign_ovv_2"
 >title="使用可能なチャネル"
->abstract="メール，SMS, プッシュ通知，アプリ内，Web, コードベースのエクスペリエンス"
+>abstract="メール，SMS, プッシュ通知，アプリ内，web, コードベースのエクスペリエンス"
 
 
 <!--OVERVIEW TAB ORCHESTRATED CAMPAIGNS - API triggered tab -->
