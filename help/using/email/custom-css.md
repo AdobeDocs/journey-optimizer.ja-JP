@@ -10,9 +10,9 @@ level: Intermediate
 keywords: css, エディター，概要，メール
 hide: true
 hidefromtoc: true
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: bf9f1dbacba54e8b2c499d888ba1f4d66c78b7ee
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '690'
 ht-degree: 1%
 
 ---
@@ -199,6 +199,12 @@ body {
 
 カスタム CSS は、メールDesignerの **[!UICONTROL 設定]** パネルで解釈または検証されません。 これは完全に独立しており、「**[!UICONTROL カスタム CSS を追加]** オプションを使用してのみ変更できます。
 
+`global-custom` スタイルタグの属性 `data-disabled` が `true` に設定されている場合、カスタム CSS は適用されません。 例：
+
+```html
+<style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
+```
+
 ### 読み込まれたコンテンツ
 
 メールDesignerに読み込んだコンテンツでカスタム CSS を使用する場合は、次の点を考慮してください。
@@ -216,7 +222,7 @@ body {
 
 * CSS が有効で、構文エラー（中括弧の欠落、プロパティ名の誤りなど）がないことを確認します。 [方法についてはこちらを参照](#use-valid-css)
 
-* CSS が、`data-name="global-custom"` 属性を持つ `<style>` タグに追加されていることを確認します。 [詳細情報](#implementation)
+* CSS が `data-name="global-custom"` 属性で `<style>` タグに追加されていること、および `data-disabled` が `global-custom` に適用されていないことを確認します。 [詳細情報](#implementation)
 
 * コンテンツに適用された [ テーマ ](apply-email-themes.md) を含む他の CSS ルールによって CSS が上書きされないようにしてください。
 
@@ -229,16 +235,3 @@ body {
        background: red !important;
      }
      ```
-
-<!--
-### Guardrails
--->
-
-
-
-
-
-
-
-
-
