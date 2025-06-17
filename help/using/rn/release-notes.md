@@ -30,7 +30,7 @@ ht-degree: 70%
 
 **リリース日**:2025 年 6 月 17～18 日
 
-[Adobe Experience Platformのプレリリースノート ](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"} も参照してください。
+[Adobe Experience Platformのプレリリースノート ](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"} も参照してください。
 
 ### 新機能 {#25-06-features}
 
