@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 badge: label="限定提供" type="Informative"
 keywords: 公開, ジャーニー, ライブ, 有効性, 確認
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 024356ca30728611d1d32ba72172711e4714b64c
 workflow-type: tm+mt
 source-wordcount: '2021'
 ht-degree: 1%
@@ -83,7 +83,7 @@ ht-degree: 1%
 | [ 反応 ](reaction-events.md) | ライブジャーニーの場合と同じ動作ですが、反応が <strong> アクション </strong> アクティビティの後にあり、そのアクションでユーザーを一時停止した場合、反応イベントは破棄されます。 |
 | [待機](wait-activity.md) | ライブジャーニーと同じ動作 |
 | [条件](condition-activity.md) | ライブジャーニーと同じ動作 |
-| コンテンツの決定 | ジャーニーが一時停止された際にユーザーが選択した内容に基づいて、プロファイルがパークまたは破棄されます |
+| [ コンテンツの決定 ](content-decision.md) | ジャーニーが一時停止された際にユーザーが選択した内容に基づいて、プロファイルがパークまたは破棄されます |
 | [ チャネルアクション ](journeys-message.md) | ジャーニーが一時停止された際にユーザーが選択した内容に基づいて、プロファイルがパークまたは破棄されます |
 | [ カスタムアクション ](../action/action.md) | ジャーニーが一時停止された際にユーザーが選択した内容に基づいて、プロファイルがパークまたは破棄されます |
 | [ プロファイルを更新 ](update-profiles.md) &amp; [ ジャンプ ](jump.md) | ライブジャーニーと同じ動作 |
