@@ -109,7 +109,7 @@ HTMLまたは JSON コードペイロードの一部を編集可能にするに�
 
    ![](assets/cbe-template-insert-policy.png)
 
-1. `{{#each}}` タグの後に、追加する編集可能なフォームフィールドに対応するコードを、前述の **インライン** 構文を使用して挿入し ](#add-editable-fields) す [。 `"name"` を一意の ID に置き換えて、編集可能なフィールドを識別します。 この例では、「title」を使用します。
+1. `{{#each}}` タグの後に、追加する編集可能なフォームフィールドに対応するコードを、前述の **インライン** 構文を使用して挿入し [&#128279;](#add-editable-fields) す 。 `"name"` を一意の ID に置き換えて、編集可能なフィールドを識別します。 この例では、「title」を使用します。
 
    ![](assets/cbe-template-policy-inline.png){width="90%"}
 
