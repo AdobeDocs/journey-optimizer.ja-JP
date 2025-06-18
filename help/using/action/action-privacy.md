@@ -8,10 +8,11 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: データ, ガバナンス, DULE, ラベル, ラベル付け, Platform, ポリシー
-source-git-commit: 7f54200facc8845d5c39bb5d16751ed49579ea8a
+exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1292'
-ht-degree: 97%
+source-wordcount: '1291'
+ht-degree: 96%
 
 ---
 
@@ -24,9 +25,9 @@ ht-degree: 97%
 
 ## データガバナンスポリシーの基本を学ぶ {#gs}
 
-Adobe Experience Platformは、[Data Usage Labeling and Enforcement （DULE）ガバナンス ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=ja){target="_blank"} フレームワークを使用して、フィールドにラベルを付け **チャネルごとに** マーケティングアクション **を作成することで、チャネル全体でデータガバナンスポリシーを管理および適用** きます。
+Adobe Experience Platformは [Data Usage Labeling and Enforcement （DULE）ガバナンス ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=ja){target="_blank"} フレームワークを使用してフィールドにラベルを付け **** チャネルごとに **マーケティングアクション** を作成することで、チャネル全体でデータガバナンスポリシーを管理および適用できます。
 
-ラベルとマーケティングアクションを定義したら、これら 2 つの要素をリンクする&#x200B;**データガバナンスポリシー**&#x200B;を作成できます。例えば、「ePHI」ラベルを「メールターゲティング」マーケティングアクションに関連付けるポリシーを設定して、「ePHI」というラベルの付いたフィールドをメールメッセージのパーソナライズに使用しないようにすることができます。[データガバナンスポリシーの作成方法を学ぶ](#governance-policies)
+ラベルとマーケティングアクションを定義したら、これら 2 つの要素をリンクする&#x200B;**データガバナンスポリシー**&#x200B;を作成できます。例えば、「ePHI」ラベルを「メールターゲティング」マーケティングアクションに関連付けるポリシーを設定して、「ePHI」というラベルの付いたフィールドをメールメッセージのパーソナライズに使用しないようにすることができます。[データガバナンスポリシーの作成方法を学ぶ](#policy)
 
 ガバナンスポリシーを作成したら、ジャーニー／キャンペーンおよびジャーニーのカスタムアクションにマーケティングアクションを適用できます。
 [Journey Optimizer でマーケティングアクションを適用する方法を学ぶ](#apply-marketing-actions)
@@ -133,4 +134,4 @@ Journey Optimizer でデータガバナンスポリシーを適用するには�
 
 このダイアログは、現在のジャーニー/キャンペーンの設定が既存のデータガバナンスポリシーに違反していることを示します。データ系列図を使用して、ジャーニーまたはキャンペーンをアクティブ化する前に必要となる、他の設定変更を理解します。
 
-詳しくは、[データ使用ポリシー違反のドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/enforcement/auto-enforcement#data-usage-violation){_blank} を参照してください。
+詳しくは、[ データ使用ポリシー違反に関するドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/enforcement/auto-enforcement#data-usage-violation){_blank} を参照してください。

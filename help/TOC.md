@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7e9d707d6413509aef207a6183f6c9953ccdf229
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '2434'
-ht-degree: 99%
+source-wordcount: '2448'
+ht-degree: 98%
 
 ---
 
@@ -75,6 +75,7 @@ ht-degree: 99%
       + [オーディエンスを読み取り](using/building-journeys/read-audience.md)
       + [組み込みのチャネルアクション](using/building-journeys/journeys-message.md)
       + [カスタムアクション](using/building-journeys/using-custom-actions.md)
+      + [コンテンツの決定](using/building-journeys/content-decision.md)
       + [Adobe Campaign Standard のアクション](using/building-journeys/using-adobe-campaign-standard.md)
       + [Adobe Campaign v7／v8 のアクション](using/building-journeys/using-adobe-campaign-v7-v8.md)
       + [ジャンプ](using/building-journeys/jump.md)
@@ -288,19 +289,19 @@ ht-degree: 99%
          + [プッシュ通知フロー](using/push/push-gs.md)
          + [プッシュ通知チャネルの設定](using/push/push-configuration.md)
          + [モバイルオンボーディングのクイックスタートワークフロー](using/push/mobile-onboarding-wf.md)
-   + SMS／MMS チャネル{#sms}
+   + SMS/MMS/RCS チャネル{#sms}
       + [テキストメッセージの基本を学ぶ](using/sms/get-started-sms.md)
-      + [テキストメッセージ (SMS/MMS) の作成](using/sms/create-sms.md)
+      + [SMS/MMS/RCS メッセージの作成](using/sms/create-sms.md)
       + [テキストメッセージの確認および送信](using/sms/send-sms.md)
       + [テキストメッセージのオプトアウトの管理](using/sms/sms-opt-out.md)
       + [SMS サブドメインの設定](using/sms/sms-subdomains.md)
-      + SMS／MMS チャネルの設定{#configure-sms}
-         + [SMS 設定の基本を学ぶ](using/sms/sms-configuration.md)
+      + SMS/MMS/RCS チャネルの設定{#configure-sms}
+         + [SMS/MMS/RCS 設定の基本を学ぶ](using/sms/sms-configuration.md)
          + [Sinch プロバイダーの設定](using/sms/sms-configuration-sinch.md)
          + [Infobip プロバイダーの設定](using/sms/sms-configuration-infobip.md)
          + [Twilio プロバイダーの設定](using/sms/sms-configuration-twilio.md)
          + [カスタムプロバイダーの設定](using/sms/sms-configuration-custom.md)
-         + [SMS 設定の作成](using/sms/sms-configuration-surface.md)
+         + [SMS/MMS/RCS 設定の作成](using/sms/sms-configuration-surface.md)
    + ダイレクトメール {#direct-mail}
       + [ダイレクトメールの基本を学ぶ](using/direct-mail/get-started-direct-mail.md)
       + [ダイレクトメールの作成](using/direct-mail/create-direct-mail.md)
@@ -329,6 +330,7 @@ ht-degree: 99%
          + [コードベースのエクスペリエンス設定の作成](using/code-based/code-based-configuration.md)
       + コードベースのエクスペリエンスの作成 {#create-code-based-experiences}
          + [コードベースのエクスペリエンスの作成と構成](using/code-based/create-code-based.md)
+         + [コードベースのエクスペリエンスでの編集可能なフィールドの使用](using/code-based/code-based-form-fields.md)
          + [コードベースのエクスペリエンスのテスト](using/code-based/test-code-based.md)
          + [コードベースのエクスペリエンスの管理](using/code-based/publish-code-based.md)
    + コンテンツカード{#content-card}

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 284c4896b923eac1d360b61d97cbe560d747ea4f
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1694'
+source-wordcount: '1670'
 ht-degree: 98%
 
 ---
@@ -340,12 +340,3 @@ AI アシスタントにアクセスして使用する方法については、[�
 >abstract="プレースメントにより、決定エンジンから返された項目がメッセージ内に表示される場所が決まります。レポートでは、様々なプレースメントにわたるパフォーマンスを追跡できます。"
 
 
-
-
-
-
-
->[!CONTEXTUALHELP]
->id="ajo_journey_decision_policy"
->title="決定ポリシーの定義"
->abstract="決定ポリシーを使用すると、決定エンジンから最適な項目を選択し、適切なオーディエンスに配信できます。"

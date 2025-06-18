@@ -8,10 +8,10 @@ role: Admin
 level: Experienced
 keywords: ランディング, ランディングページ, サブドメイン, 設定
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 1aa2ac109cdbf0ba6af58204926f1cd5add334b0
-workflow-type: ht
-source-wordcount: '972'
-ht-degree: 100%
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+workflow-type: tm+mt
+source-wordcount: '971'
+ht-degree: 86%
 
 ---
 
@@ -63,6 +63,10 @@ ht-degree: 100%
 1. ランディングページの URL に表示する接頭辞を入力します。
 
    英数字とハイフンのみが使用できます。
+
+   >[!CAUTION]
+   >
+   >`cdn` または `data` のプレフィックスは内部使用のために予約されているので、使用しないでください。 `dmarc` や `spf` など、制限または予約済みの他のプレフィックスも避ける必要があります。
 
 1. リストからデリゲートされたサブドメインを選択します。
 
@@ -135,36 +139,16 @@ ht-degree: 100%
 
 ## サブドメインのデリゲート解除 {#undelegate-subdomain}
 
-ランディングページサブドメインをデリゲート解除する場合は、アドビ担当者にお問い合わせください。
+ランディングページのサブドメインのデリゲートを解除するには、次の手順に従います。
 
-ただし、アドビにお問い合わせいただく前に、ユーザーインターフェイスでいくつかの手順を実行する必要があります。
+1. [!DNL Journey Optimizer] では、サブドメインに関連付けられているすべてのランディングページを非公開にします。 [方法についてはこちらを参照](create-lp.md#access-landing-pages)
 
->[!NOTE]
->
->デリゲート解除できるのは、**[!UICONTROL 成功]**&#x200B;ステータスのサブドメインのみです。**[!UICONTROL ドラフト]**&#x200B;ステータスと&#x200B;**[!UICONTROL 失敗]**&#x200B;ステータスのサブドメインは、ユーザーインターフェイスから簡単に削除できます。
+1. ランディングページサブドメインが CNAME レコードを指している場合、ランディングページサブドメイン用に作成した CNAME DNS レコードをホスティングソリューションから削除できます（ただし、元のメールサブドメインがある場合は削除しないでください）。
 
-まず、[!DNL Journey Optimizer] で次の手順を実行します。
+   >[!NOTE]
+   >
+   >ランディングページのサブドメインは、CNAME レコードを指すことができます。これは、[ 既存のサブドメイン ](#lp-use-existing-subdomain) が [CNAME メソッド ](../configuration/delegate-subdomain.md#cname-subdomain-delegation) を使用してAdobeにデリゲートされたもの、または設定した [ 新しいランディングページサブドメイン ](#lp-configure-new-subdomain) のいずれかであったためです。
 
-1. サブドメインに関連付けられているすべてのランディングページを非公開にします。[方法についてはこちらを参照](create-lp.md#access-landing-pages)
-
-1. サブドメインに関連付けられているすべてのチャネル設定を非アクティブ化します。[方法についてはこちらを参照](../configuration/channel-surfaces.md#deactivate-a-surface)
-
-<!--
-1. If the landing page subdomain is using an email subdomain that was [already delegated](#lp-use-existing-subdomain) to Adobe, undelegate the email subdomain. [Learn how](../configuration/delegate-subdomain.md#undelegate-subdomain)
-
-1. Stop the active campaigns associated with the subdomains. [Learn how](../campaigns/modify-stop-campaign.md#stop)
-
-1. Stop the active journeys associated with the subdomains. [Learn how](../building-journeys/end-journey.md#stop-journey)
--->
-
-完了したら、デリゲート解除するサブドメインについて、アドビ担当者にお問い合わせください。
+1. デリゲート解除するサブドメインをAdobeの担当者に問い合わせます。
 
 アドビがリクエストを処理すると、デリゲート解除したドメインはサブドメイン在庫ページに表示されなくなります。
-
->[!CAUTION]
->
->サブドメインをデリゲート解除した後：
->
->   * そのサブドメインを使用していたチャネル設定を再アクティブ化することはできません。
->
->   * ユーザーインターフェイスを通じて正確なサブドメインを再度デリゲートすることはできません。ご希望の場合は、アドビ担当者にお問い合わせください。

@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 keywords: 製品, プロファイル, サンドボックス
-source-git-commit: 404fffa8d1f2ed40b18246002b67e2b533d8c19e
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 51%
@@ -60,7 +60,7 @@ ht-degree: 51%
 
 インスタンスにアクセスすると、**[!UICONTROL 役割]** で割り当てられた権限に応じて、特定のビューが表示されます。 ユーザーが機能にアクセスする権限を持っていない場合は、次のメッセージが表示されます。
 
-`You don't have permission to access this feature. Permission needed: XX.`
+`You do not have permission to access this feature. Permission needed: XX.`
 
 ## 既存の役割の編集 {#edit-product-profile}
 
@@ -99,7 +99,7 @@ ht-degree: 51%
 
 この例では、**ジャーニー読み取り専用** という名前のロールを作成し、ジャーニー機能に読み取り専用の権限を付与します。 ユーザーはジャーニーにアクセスして表示できますが、[!DNL Journey Optimizer] の **[!DNL Decision management]** など、他の機能にはアクセスできません。
 
-**ジャーニー読み取り専用**&#x200B;**[!UICONTROL 役割]**&#x200B;を作成するには：
+**ジャーニー読み取り専用****[!UICONTROL 役割]**&#x200B;を作成するには：
 
 1. [!DNL Permissions] 製品でユーザーに役割を割り当てるには、「**[!UICONTROL 役割]**」タブに移動し、「**[!UICONTROL 役割を作成]**」をクリックします。
 

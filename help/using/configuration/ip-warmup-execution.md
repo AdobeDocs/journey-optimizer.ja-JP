@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: IP、グループ、サブドメイン、配信品質
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '2634'
-ht-degree: 100%
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+workflow-type: tm+mt
+source-wordcount: '2635'
+ht-degree: 96%
 
 ---
 
@@ -162,7 +162,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    ![](assets/ip-warmup-plan-send-time.png)
 
-1. オプションで、[オーディエンスの評価](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja#how-segmentation-works){target="_blank"}に遅延が生じた場合に、IP ウォームアップキャンペーンを実行できる時間枠を定義できます。これを行うには、左上のプラン名の横にある「プロパティ」アイコンをクリックし、**[!UICONTROL 再試行の実行時間]**&#x200B;ドロップダウンリストを使用して、最大 240 分（4 時間）の期間を選択します。
+1. オプションとして、[ オーディエンス評価 ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja#how-segmentation-works){target="_blank"} で遅延が発生した場合に IP ウォームアップキャンペーンを実行できる期間を定義できます。 これを行うには、左上のプラン名の横にある「プロパティ」アイコンをクリックし、**[!UICONTROL 再試行の実行時間]**&#x200B;ドロップダウンリストを使用して、最大 240 分（4 時間）の期間を選択します。
 
    >[!NOTE]
    >
@@ -186,7 +186,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
    >[!NOTE]
    >
-   >実行にエンゲージメント期間を適用しない場合は、「**[!UICONTROL 前回のエンゲージメント]**」フィールドに 0 を入力します。
+   >実行にエンゲージメント期間を適用しない場合は、「最後のエンゲージメント **[!UICONTROL フィールドに「0]** を入力します。
 
 1. オーディエンスの実行を評価した後で、適格なプロファイルがターゲットプロファイルよりも小さい場合に実行をキャンセルするには、「**[!UICONTROL エラーが発生した場合にアクティブ化された実行をキャンセル]**」オプションを選択します。
 
@@ -220,7 +220,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 複数の IP ウォームアッププランを同時に実行し、すべてが同じ IP プールとドメインをターゲティングする場合、潜在的な結果を予測することが重要です。例えば、ISP が 1 日あたりのメール数の制限を 100 に適用している場合、同じドメインをターゲティングする複数のプランを実行すると、このしきい値を超える可能性があります。
 
-[オーディエンスの評価](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja#how-segmentation-works){target="_blank"}を実行するのに十分な時間をスケジュールしていることを確認してください。
+[ オーディエンス評価 ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja#how-segmentation-works){target="_blank"} を実行するのに十分な時間をスケジュールしていることを確認します。
 
 ![](assets/ip-warmup-plan-activate.png)
 
@@ -232,7 +232,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 * フェーズの最初の実行をアクティブ化する場合：
 
-   * [オーディエンス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja){target="_blank"}は、除外されたキャンペーンオーディエンス（存在する場合）に対して、`<warmupName>-Phase<phaseNo>-Audience Exclusion ` という命名規則で作成されます。
+   * [ オーディエンス ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja){target="_blank"} は、除外されたキャンペーンオーディエンス（存在する場合）に対して、命名規則 `<warmupName>-Phase<phaseNo>-Audience Exclusion ` に従って作成されます。
 
    * 除外されたドメイングループ（存在する場合）に対してオーディエンスが、`<warmupName>-Phase<phaseNo>-Domain Exclusion` という命名規則で作成されます。
 
@@ -254,7 +254,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
      >
      >後のフェーズで最後のエンゲージメントフィルターに変更がない場合、システムは新しいオーディエンスを作成しません。
 
-   * [オーディエンスの構成](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=ja){target="_blank"}は、`<warmupName>-Phase<phaseNo>-Run<runNo>` という命名規則に従って、キャンペーンの送信先となるオーディエンスに対応して作成されます。
+   * [ オーディエンスコンポジション ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=ja){target="_blank"} が、キャンペーンの送信先オーディエンスに対応して作成され、命名規則 `<warmupName>-Phase<phaseNo>-Run<runNo>` が付きます。
 
      >[!NOTE]
      >
@@ -328,7 +328,7 @@ IP ウォームアッププランが期待どおりに実行されない場合�
 * 前のキャンペーンやパパフォーマンスの低いドメインを除外することもできます。[この節](#define-phases)でその方法を説明します。
 
 <!--
-You don't have to decide the campaign upfront. You can do a split later. It's a work in progress plan: you activate one run at a time with a campaign and you always have the flexibility to modify it while working on it.
+You do not have to decide the campaign upfront. You can do a split later. It's a work in progress plan: you activate one run at a time with a campaign and you always have the flexibility to modify it while working on it.
 
 But need to explain in which case you want to modify campaigns, provide examples
 -->

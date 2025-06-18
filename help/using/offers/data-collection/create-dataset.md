@@ -7,10 +7,10 @@ feature: Ranking, Decision Management, Datasets
 role: Data Engineer, Developer
 level: Experienced
 exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '254'
-ht-degree: 100%
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+workflow-type: tm+mt
+source-wordcount: '255'
+ht-degree: 86%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >XDM スキーマとフィールドグループについて詳しくは、[XDM システムの概要ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target="_blank"}を参照してください。
+   >XDM スキーマとフィールドグループについて詳しくは、[XDM システムの概要ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target="_blank"} を参照してください。
 
 1. スキーマの名前と説明を入力して、「**終了**」をクリックします。
    ![](../assets/ai-ranking-xdm-event-2.png)
@@ -51,9 +51,9 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->スキーマの作成について詳しくは、[スキーマ構成の基本](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ja#understanding-schemas){target="_blank"}を参照してください。
+>スキーマの構築について詳しくは、[ スキーマ構成の基本 ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ja#understanding-schemas){target="_blank"} を参照してください。
 
-これで、このスキーマを使用してデータセットを作成する準備が整いました。これを行うには、以下の手順に従います。
+これで、このスキーマを使用してデータセットを作成する準備が整いました。 これを行うには、以下の手順に従います。
 
 1. **[!UICONTROL データ管理]**&#x200B;メニューで「**[!UICONTROL データセット]**」を選択し、「**[!UICONTROL 参照]**」タブに移動します。
 

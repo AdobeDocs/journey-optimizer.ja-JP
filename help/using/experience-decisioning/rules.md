@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: 1ca6ea08e177989a0aea8646ca28b1216644fd3e
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 89%
@@ -45,7 +45,7 @@ ht-degree: 89%
 1. Adobe Experience Platform セグメントビルダーを使用して、ニーズに合った決定ルールを作成します。それには、次のような様々なデータソースを利用できます。
    * プロファイルと決定項目の属性
    * オーディエンス、
-   * Adobe Experience Platformからのコンテキストデータ。 [コンテキストデータの活用方法について説明します](#context-data)
+   * Adobe Experience Platformからのコンテキストデータ。 [コンテキストデータの活用方法について説明します](context-data.md)
 
    ![](assets/decision-rules-build.png)
 

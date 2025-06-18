@@ -7,14 +7,14 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 37313ca8a9527c934d8aeaf265e9674219726636
-workflow-type: ht
-source-wordcount: '1014'
-ht-degree: 100%
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+workflow-type: tm+mt
+source-wordcount: '1032'
+ht-degree: 88%
 
 ---
 
-# カスタム SMS プロバイダーの設定 {#sms-configuration-custom}
+# カスタムプロバイダーの設定 {#sms-configuration-custom}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_provider_url"
@@ -31,11 +31,11 @@ ht-degree: 100%
 >title="プロバイダーペイロード"
 >abstract="処理と応答の生成用に正しいデータの送信を確保するために、リクエストペイロードを指定します。"
 
-この機能により、独自の SMS プロバイダーを統合および設定できるようになり、デフォルトのプロバイダー（Sinch、Twilio、Infobip）を超える柔軟性が得られます。これにより、シームレスな SMS のオーサリング、配信、レポート、同意管理が可能になります。
+この機能を使用すると、独自のメッセージングプロバイダーを統合および設定して、デフォルトのオプション（Sinch、Twilio、Infobip）を超える柔軟性を提供できます。 これにより、SMS メッセージと RCS メッセージの両方で、シームレスなオーサリング、配信、レポートおよび同意管理が可能になります。
 
-SMS のカスタムプロバイダー設定を使用すると、Journey Optimizer 内で直接カスタム SMS プロバイダーを設定し、動的メッセージ用の高度なペイロードカスタマイズを使用し、同意設定（オプトイン／オプトアウト）を管理してコンプライアンスを確保できます。
+カスタムプロバイダーの設定を使用すると、サードパーティのメッセージサービスをJourney Optimizer内に直接接続し、動的コンテンツのメッセージペイロードをカスタマイズし、オプトイン/オプトアウトの環境設定を管理して、SMS チャネルと RCS チャネルの両方でコンプライアンスを確保できます。
 
-カスタム SMS プロバイダーを設定するには、次の手順に従います。
+カスタムプロバイダーを設定するには、次の手順に従います。
 
 1. [API 資格情報の作成](#api-credential)
 1. [Webhook の作成](#webhook)
@@ -44,7 +44,7 @@ SMS のカスタムプロバイダー設定を使用すると、Journey Optimize
 
 ## API 資格情報の作成 {#api-credential}
 
-アドビ標準で使用できないカスタムプロバイダー（Sinch、Infobip、Twilio など）を使用して Journey Optimizer でメッセージを送信するには、次の手順に従います。
+Adobeが標準で利用できないカスタムプロバイダー（Sinch、Infobip、Twilio など）を使用してJourney Optimizerで SMS および RCS メッセージを送信するには、次の手順に従います。
 
 1. 左側のパネルで、**[!UICONTROL 管理]** `>` **[!UICONTROL チャネル]**&#x200B;に移動し、**[!UICONTROL SMS 設定]**&#x200B;の下にある **[!UICONTROL API 資格情報]**&#x200B;メニューを選択して、「**[!UICONTROL 新しい API 資格情報を作成]**」ボタンをクリックします。
 
@@ -73,6 +73,8 @@ SMS のカスタムプロバイダー設定を使用すると、Journey Optimize
    ![](assets/sms_byo_2.png)
 
 1. **[!UICONTROL プロバイダーペイロード]**&#x200B;を追加して、リクエストペイロードを検証およびカスタマイズします。
+
+   RCS メッセージの場合、このペイロードは後で [ コンテンツの設計 ](create-sms.md#sms-content) 中に使用されます。
 
 1. API 資格情報の設定が完了したら、「**[!UICONTROL 送信]**」をクリックします。
 

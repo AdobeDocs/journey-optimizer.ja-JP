@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 外部, ソース, データ, 設定, 接続, サードパーティ
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 71d1a7c305c33ab7bef91b82329ecb692445fb27
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1674'
-ht-degree: 97%
+source-wordcount: '1677'
+ht-degree: 92%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_custom"
 >title="外部データソース"
->abstract="外部データソースを使用すると、サードパーティシステムへの接続を定義できます。例えば、ホテルの予約システムを使用して、部屋が登録されたかどうかを確認する場合などです。組み込みの Adobe Experience Platform データソースとは異なり、外部データソースは必要な分だけ作成できます。"
+>abstract="外部データソースを使用すると、サードパーティシステムへの接続を定義できます。例えば、ホテルの予約システムを使用して、部屋が登録されたかどうかを確認する場合などです。 組み込みの Adobe Experience Platform データソースとは異なり、外部データソースは必要な分だけ作成できます。"
 
 ## 外部データソースの操作 {#gs-ext-data-sources}
 
-外部データソースを使用すると、サードパーティシステムへの接続を定義できます。例えば、ホテルの予約システムを使用して、部屋が登録されたかどうかを確認する場合などです。組み込みの Adobe Experience Platform データソースとは異なり、外部データソースは必要な分だけ作成できます。
+外部データソースを使用すると、サードパーティシステムへの接続を定義できます。例えば、ホテルの予約システムを使用して、部屋が登録されたかどうかを確認する場合などです。 組み込みの Adobe Experience Platform データソースとは異なり、外部データソースは必要な分だけ作成できます。
 
 >[!NOTE]
 >
@@ -70,7 +70,7 @@ POST または GET を使用して JSON を返す REST API がサポートされ
 
    >[!CAUTION]
    >
-   >セキュリティ上の理由から、HTTPS の使用を強くお勧めします。また、アドビの非公開アドレスや IP アドレスの使用は許可されていません。
+   >セキュリティ上の理由から、HTTPS の使用を強くお勧めします。また、公開されていないAdobe アドレスの使用や IP アドレスの使用は許可されていません。
 
    ![](assets/journey27.png)
 

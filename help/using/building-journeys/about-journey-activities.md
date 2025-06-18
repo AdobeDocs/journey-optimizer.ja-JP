@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: ジャーニー, アクティビティ, 開始, イベント, アクション
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 84beb9ba9646cb1b40bcfd8a180fc98963a8ff0b
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '600'
 ht-degree: 63%
 
 ---
@@ -72,6 +72,7 @@ ht-degree: 63%
 
    * [[!DNL Journey Optimizer] と Campaign v7/v8](../action/acc-action.md)
    * [[!DNL Journey Optimizer] と Campaign Standard](../action/acs-action.md)
+   * [[!DNL Journey Optimizer] とMarketo Engage](../action/marketo-engage.md)
 
 ## ベストプラクティス {#best-practices}
 

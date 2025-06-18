@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1735'
-ht-degree: 98%
+source-wordcount: '1796'
+ht-degree: 95%
 
 ---
 
@@ -19,6 +19,12 @@ ht-degree: 98%
 >id="ajo_code_based_decision"
 >title="決定とは"
 >abstract="決定ポリシーには、決定エンジンが最適なコンテンツを選択するためのすべての選択ロジックが含まれています。決定ポリシーはキャンペーンに固有です。目標は、各プロファイルに最適なオファーを選択することです。一方、キャンペーンのオーサリングでは、メッセージに含める項目属性など、選択した決定項目の表示方法を指定できます。"
+>additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="決定について"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_decision_policy"
+>title="決定ポリシーの定義"
+>abstract="決定ポリシーを使用すると、決定エンジンから最適な項目を選択し、適切なオーディエンスに配信できます。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="決定について"
 
 決定ポリシーは、配信する最適なコンテンツをオーディエンスに応じて選択することを目的に、決定エンジンを活用するオファーのコンテナです。
@@ -62,6 +68,10 @@ Web サイトやモバイルアプリで訪問者に最適な動的なオファ�
 1. [コードエディター](../code-based/create-code-based.md#edit-code)から「**[!UICONTROL 決定ポリシー]**」を選択し、「**[!UICONTROL 決定ポリシーを追加]**」をクリックします。
 
    ![](assets/decision-code-based-create.png)
+
+   ジャーニーまたはキャンペーンの編集画面から、パーソナライゼーションエディターを開かずに、決定ポリシーを直接追加することもできます。 右側のパネルの専用アイコンを使用して、「**[!UICONTROL Decisioning]**」セクションを表示します。
+
+   ![](../code-based/assets/code-based-campaign-show-decisioning.png)
 
 1. デフォルトでは、新しいポリシーを作成します。
 

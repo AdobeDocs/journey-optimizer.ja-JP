@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 87%
+source-wordcount: '785'
+ht-degree: 77%
 
 ---
 
@@ -99,9 +99,15 @@ ht-degree: 87%
 >abstract="このコードベースのエクスペリエンスアクションの一部として配信するコードを挿入および編集します。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/personalization/personalization-build-expressions" text="パーソナライゼーションエディターの操作"
 
+コードベースのエクスペリエンスのコンテンツを編集するには、次の手順に従います。
+
 1. ジャーニーアクティビティまたはキャンペーン編集画面から、「**[!UICONTROL コードを編集]**」を選択します。
 
    ![](assets/code-based-campaign-edit-code.png)
+
+   >[!NOTE]
+   >
+   >事前に定義された編集可能なフォームフィールドを含むコードベースのエクスペリエンスコンテンツテンプレートを使用している場合は、パーソナライゼーションエディターを開かずにこれらのフィールドのコンテンツを管理できます。 [詳細情報](code-based-form-fields.md)
 
 1. [パーソナライゼーションエディター](../personalization/personalization-build-expressions.md)が開きます。これは、コードを作成できる非視覚的なエクスペリエンス作成インターフェイスです。
 
@@ -119,9 +125,17 @@ ht-degree: 87%
 
    また、コードコンテンツの一部をフラグメントとして保存することもできます。[方法についてはこちらを参照](../content-management/fragments.md#save-as-expression-fragment)
 
-1. コードベースのエクスペリエンスでは、決定機能を使用できます。左側のバーから&#x200B;**[!UICONTROL 決定ポリシー]**&#x200B;アイコンを選択し、「**[!UICONTROL 決定ポリシーを追加]**」をクリックします。[詳細情報](../experience-decisioning/create-decision.md)
+1. コードベースのエクスペリエンスでは、決定機能を使用できます。左側のバーから&#x200B;**[!UICONTROL 決定ポリシー]**&#x200B;アイコンを選択し、「**[!UICONTROL 決定ポリシーを追加]**」をクリックします。[詳細情報](../experience-decisioning/create-decision.md#add-decision)
 
    ![](assets/code-based-campaign-create-decision.png)
+
+   <!--![](../experience-decisioning/assets/decision-code-based-create.png)-->
+
+   ジャーニーまたはキャンペーンの編集画面から、パーソナライゼーションエディターを開かずに、決定ポリシーを直接追加することもできます。 右側のパネルの専用アイコンを使用して、「**[!UICONTROL Decisioning]**」セクションを表示します。
+
+   <!--![](assets/code-based-campaign-show-decisioning.png)-->
+
+   決定ポリシーを作成する手順について詳しくは、[ この節 ](../experience-decisioning/create-decision.md#add-decision) を参照してください。
 
 1. 「**[!UICONTROL 保存して閉じる]**」をクリックして変更を確定します。
 
@@ -131,4 +145,4 @@ ht-degree: 87%
 
 以下のビデオでは、コードベースのエクスペリエンスキャンペーンの作成、プロパティの設定、テスト、公開の方法を確認できます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3449454/?quality=12&learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3428868/?quality=12&learn=on)

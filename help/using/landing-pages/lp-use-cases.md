@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: ランディング, ランディングページ, ユースケース
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '979'
-ht-degree: 100%
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+workflow-type: tm+mt
+source-wordcount: '980'
+ht-degree: 93%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 ![](assets/lp_subscription-uc.png)
 
-例えば、来月イベントを開催し、<!--to keep your customers that are interested updated on that event-->イベント登録キャンペーンを開始するとします。これを行うには、受信者がこのイベントに登録できるようにするランディングページへのリンクを含むメールを送信します。登録したユーザーは、この目的で作成した購読リストに追加されます。
+例えば、来月イベントを開催し、<!--to keep your customers that are interested updated on that event-->イベント登録キャンペーンを開始するとします。これを行うには、受信者がこのイベントに登録できるようにするランディングページへのリンクを含むメールを送信します。 登録したユーザーは、この目的で作成した購読リストに追加されます。
 
 ### ランディングページの設定 {#set-up-lp}
 
@@ -98,7 +98,7 @@ ht-degree: 100%
 
 ### オプトアウト管理 {#opt-out-management}
 
-ブランドからの連絡を登録解除する機能を受信者に提供することは、法的要件です。適用される法律について詳しくは、[Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=ja#regulations){target="_blank"}を参照してください。
+ブランドからの連絡を登録解除する機能を受信者に提供することは、法的要件です。該当する法律について詳しくは、[Experience Platformドキュメント](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=ja#regulations){target="_blank"}を参照してください。
 
 したがって、受信者に送信されるすべての メールに、**登録解除リンク**&#x200B;を必ず含める必要があります。
 
@@ -163,7 +163,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->デフォルトの [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target="_blank"} **[!UICONTROL プロファイル]**&#x200B;結合ポリシーの結合方法が&#x200B;**[!UICONTROL データセットの優先順位]**&#x200B;である場合は、必ず **[!UICONTROL AJO 同意サービスデータセット]**&#x200B;を有効にし、結合ポリシーで優先順位を付けてください。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ja#dataset-precedence-profile){target="_blank"}
+>デフォルトの [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target="_blank"} **[!UICONTROL プロファイル]** 結合ポリシーの結合方法が **[!UICONTROL データセットの優先順位]** である場合は、**[!UICONTROL AJO同意サービスデータセットを有効にし]** 結合ポリシーで優先順位を付けます。 [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ja#dataset-precedence-profile){target="_blank"}
 >
 >このデータセットにバッチが追加されていない場合でも、オプトイン／オプトアウト情報は含まれます。
 

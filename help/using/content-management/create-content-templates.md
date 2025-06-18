@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a205539b-b7ea-4832-92b0-49637c4dac47
-source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
-workflow-type: ht
-source-wordcount: '661'
-ht-degree: 100%
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+workflow-type: tm+mt
+source-wordcount: '680'
+ht-degree: 97%
 
 ---
 
@@ -70,6 +70,12 @@ ht-degree: 100%
    * [SMS コンテンツの定義](../sms/create-sms.md#sms-content)
    * [ダイレクトメールコンテンツの定義](../direct-mail/create-direct-mail.md)
    * [アプリ内コンテンツの定義](../in-app/design-in-app.md)
+   * [Web コンテンツの定義 ](../web/create-web.md#edit-web-content)
+   * [コードベースのエクスペリエンスコンテンツの定義](../code-based/create-code-based.md)
+
+     >[!NOTE]
+     >
+     >決定ポリシーをコードベースのエクスペリエンスコンテンツテンプレートに追加できます。 [詳細情報](../experience-decisioning/create-decision.md#add-decision)
 
 1. コンテンツをテストできます。[方法についてはこちらを参照](#test-template)
 

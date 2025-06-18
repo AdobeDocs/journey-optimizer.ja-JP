@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
-source-git-commit: 19b75282b6f6fbc847805a263126534c9035ad5d
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1183'
-ht-degree: 100%
+source-wordcount: '1185'
+ht-degree: 95%
 
 ---
 
@@ -99,7 +99,7 @@ HTML コンポーネントの場合、特定の要素のみを編集可能なフ
 
    | アクション | パラメーター | 例 |
    | ------- | ------- | ------- |
-   | 編集可能フィールドを&#x200B;**デフォルト値**&#x200B;と共に宣言します。カスタマイズしない場合、フラグメントをコンテンツに追加する際には、このデフォルト値が使用されます。 | インラインタグの間にデフォルト値を追加します。 | `{{#inline "editableFieldID"}}default_value{{/inline}}` |
+   | 編集可能フィールドを&#x200B;**デフォルト値**&#x200B;と共に宣言します。フラグメントをコンテンツに追加する際に、カスタマイズしない場合は、このデフォルト値が使用されます。 | インラインタグの間にデフォルト値を追加します。 | `{{#inline "editableFieldID"}}default_value{{/inline}}` |
    | 編集可能フィールドの&#x200B;**ラベル**&#x200B;を定義します。このラベルは、フラグメントのフィールドを編集する際に、E メールデザイナーに表示されます。 | `name="title"` | `{{#inline "editableFieldID" name="title"}}default_value{{/inline}}` |
    | 公開する必要がある&#x200B;**画像ソース**&#x200B;を含んだ編集可能フィールドを宣言します。 | `assetType="image"` | `{{#inline "editableFieldID" assetType="image"}}default_value{{/inline}}` |
    | 追跡する必要がある **URL** を含んだ編集可能フィールドを宣言します。<br/>標準の「ミラーページの URL」と「登録解除リンク」定義済みブロックは、編集可能フィールドにすることはできません。 | `assetType="url"` | `{{#inline "editableFieldID" assetType="url"}}default_value{{/inline}}` |
@@ -126,7 +126,7 @@ HTML コンポーネントの場合、特定の要素のみを編集可能なフ
 
 1. ID が「sport」の「sport」変数を宣言します。
 
-   デフォルトでは、ユーザーがコンテンツにフラグメントを追加した後で変数の値を変更しない場合、`{{#inline}}` タグと `{{/inline}}` タグの間で定義された値（つまり「スポーツ」）が表示されます。
+   デフォルトでは、ユーザーがコンテンツにフラグメントを追加した後に変数の値を変更しない場合、`{{#inline}}` タグと `{{/inline}}` タグの間に定義された値（「sports」など）が表示されます。
 
 1. フラグメントコンテンツ内で変数値（デフォルト値「スポーツ」か、ユーザーが選んだ値）を表示する箇所に ``{{{sport}}}`` 構文を追加します。
 

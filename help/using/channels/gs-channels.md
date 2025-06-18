@@ -6,10 +6,10 @@ description: ' [!DNL Adobe Journey Optimizer]  通信チャネルの操作方法
 role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
-source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
-workflow-type: ht
-source-wordcount: '412'
-ht-degree: 100%
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+workflow-type: tm+mt
+source-wordcount: '413'
+ht-degree: 96%
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Journey Optimizer には、オーディエンスと効果的にエンゲ�
 アウトバウンドメッセージ配信チャネルには、事前のインタラクションなしに顧客にメッセージを送信することが含まれます。例えば、オーディエンスに積極的にリーチするメールキャンペーンやプッシュ通知があります。[!DNL Adobe Journey Optimizer] でサポートされているアウトバウンドチャネルは次のとおりです。
 
 * **メール**：パーソナライズされたメッセージを顧客のインボックスに直接配信します。
-* **SMS／MMS**：テキストメッセージを送信して、モバイルデバイスのユーザーにリーチします。
+* **SMS/MMS/RCS**：モバイルデバイスのユーザーに届くようにテキストメッセージを送信します。
 * **プッシュ通知**：デバイス上のインスタント通知でユーザーをエンゲージし、即時のアクションを推進します。
 * **ダイレクトメール**：物理的なメールを利用して、オーディエンスとの具体的な接続を作成します。
 

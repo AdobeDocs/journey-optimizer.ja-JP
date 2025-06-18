@@ -8,10 +8,10 @@ feature: Web Channel, Subdomains
 level: Experienced
 keywords: Web、サブドメイン、設定
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
-source-git-commit: 8e5a904f9310385f5a8186159dedde9942624268
-workflow-type: ht
-source-wordcount: '1089'
-ht-degree: 100%
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+workflow-type: tm+mt
+source-wordcount: '987'
+ht-degree: 94%
 
 ---
 
@@ -80,7 +80,7 @@ Web エクスペリエンスのサブドメインにアクセスするには、�
    >
    >既に web サブドメインとして使用されているサブドメインは選択できません。
 
-1. Web URL に表示されるプレフィックスは自動的に追加されます。変更することはできません。
+1. Web URL に表示される接頭辞は自動的に追加されます。変更することはできません。
 
 1. このサブドメインをデフォルトとして設定するには、対応するオプションを選択します。
 
@@ -152,35 +152,15 @@ You cannot delete a subdomain with the **[!UICONTROL Processing]** status.
 
 ## サブドメインのデリゲート解除 {#undelegate-subdomain}
 
-Web サブドメインをデリゲート解除する場合は、アドビ担当者にお問い合わせください。
-
-ただし、アドビにお問い合わせいただく前に、ユーザーインターフェイスでいくつかの手順を実行する必要があります。
-
->[!NOTE]
->
->デリゲート解除できるのは、**[!UICONTROL 成功]**&#x200B;ステータスのサブドメインのみです。**[!UICONTROL ドラフト]**&#x200B;ステータスと&#x200B;**[!UICONTROL 失敗]**&#x200B;ステータスのサブドメインは、ユーザーインターフェイスから簡単に削除できます。
-
-まず、[!DNL Journey Optimizer] で次の手順を実行します。
-
-1. サブドメインに関連付けられているすべてのチャネル設定を非アクティブ化します。[方法についてはこちらを参照](../configuration/channel-surfaces.md#deactivate-a-surface)
+Web サブドメインのデリゲートを解除する場合は、デリゲートを解除するサブドメインを持つAdobe担当者にお問い合わせください。
 
 <!--
-1. If the web subdomain is using an email subdomain that was [already delegated](#lp-use-existing-subdomain) to Adobe, undelegate the email subdomain. [Learn how](../configuration/delegate-subdomain.md#undelegate-subdomain)-->
+1. Deactivate all the channel configurations associated with the subdomain. [Learn how](../configuration/channel-surfaces.md#deactivate-a-surface)
 
-1. サブドメインに関連付けられているアクティブなキャンペーンを停止します。[方法についてはこちらを参照](../campaigns/modify-stop-campaign.md#stop)
+1. Stop the active campaigns associated with the subdomains. [Learn how](../campaigns/modify-stop-campaign.md#stop)
 
-1. サブドメインに関連付けられているアクティブなジャーニーを停止します。[方法についてはこちらを参照](../building-journeys/end-journey.md#stop-journey)
+1. Stop the active journeys associated with the subdomains. [Learn how](../building-journeys/end-journey.md#stop-journey)-->
 
-1. Web サブドメインが[新しいデリゲートされたサブドメイン](#web-configure-new-subdomain)であった場合は、そのサブドメインに関連付けられている DNS エントリを削除します。
-
-完了したら、デリゲート解除するサブドメインについて、アドビ担当者にお問い合わせください。
+Web サブドメインが [ 新しいデリゲートサブドメイン ](#web-configure-new-subdomain) だった場合、ホスティングソリューションから web サブドメイン用に作成した CNAME DNS レコードを削除できます（ただし、元のメールサブドメインがある場合は削除しないでください）。
 
 アドビがリクエストを処理すると、デリゲート解除したドメインはサブドメイン在庫ページに表示されなくなります。
-
->[!CAUTION]
->
->サブドメインをデリゲート解除した後：
->
->   * そのサブドメインを使用していたチャネル設定を再アクティブ化することはできません。
->
->   * ユーザーインターフェイスを通じて正確なサブドメインを再度デリゲートすることはできません。ご希望の場合は、アドビ担当者にお問い合わせください。

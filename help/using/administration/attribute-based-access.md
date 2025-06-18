@@ -9,7 +9,7 @@ role: Admin,Leader
 level: Intermediate
 keywords: abac, 属性, 認証, データ, アクセス, 機密, アセット
 exl-id: 162b0848-313a-447e-9237-5a6dbc8102c6
-source-git-commit: 1a2c6e97fcd30245cff1bf08fd5771ce8bc84ddc
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '1006'
 ht-degree: 43%
@@ -38,7 +38,7 @@ Adobe Journey Optimizer の属性ベースのアクセス制御を使用して�
 
 >[!IMPORTANT]
 >
->&#x200B;>役割の権限を管理する前に、ポリシーを作成します。 詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=ja){target="_blank"}を参照してください。
+>>役割の権限を管理する前に、ポリシーを作成します。 詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=ja){target="_blank"}を参照してください。
 
 **[!UICONTROL 役割]** は、組織内で同じ権限、ラベル、サンドボックスを共有するユーザーの集まりです。 **[!UICONTROL 役割]** に属する各ユーザーには、製品に含まれるAdobe アプリとサービスに対する権限が付与されます。 独自の **[!UICONTROL 役割]** を作成して、インターフェイス内の特定の機能やオブジェクトに対するユーザーのアクセスを微調整することもできます。
 
@@ -155,7 +155,7 @@ Adobe Journey Optimizer の属性ベースのアクセス制御を使用して�
 ラベル C2 オブジェクトへのアクセス権を持たないユーザー Y が、制限付きフィールドを使用してこのジャーニーにアクセスする必要がある場合：
 
 * ユーザー Y にはこのフィールドは表示されないので、制限されたフィールド名を使用できません。
-* ユーザー Y は、フィールド名が制限された式を詳細設定モードで編集できません。 「`The expression is invalid. Field is no longer available or you don't have enough permission to see it`」というエラーが表示されます。
+* ユーザー Y は、フィールド名が制限された式を詳細設定モードで編集できません。 「`The expression is invalid. Field is no longer available or you do not have enough permission to see it`」というエラーが表示されます。
 * ユーザー Y は式を削除できます。
 * ユーザー Y はジャーニーをテストできません。
 * ユーザー Y はジャーニーを公開できません。

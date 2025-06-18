@@ -6,12 +6,10 @@ description: ドライランモードでジャーニーを公開する方法を�
 feature: Journeys
 role: User
 level: Intermediate
-hide: true
-hidefromtoc: true
 badge: label="限定提供" type="Informative"
 keywords: 公開, ジャーニー, ライブ, 有効性, 確認
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: f308668ba1b7b20f6144e9200328e54986f66103
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
 source-wordcount: '930'
 ht-degree: 11%

@@ -7,22 +7,24 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
-workflow-type: ht
-source-wordcount: '793'
-ht-degree: 100%
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+workflow-type: tm+mt
+source-wordcount: '981'
+ht-degree: 78%
 
 ---
 
 # Sinch プロバイダーの設定 {#sms-configuration-sinch}
 
-Journey Optimizer で Sinch プロバイダーを使用する場合は、次の 2 つの異なる選択肢があります。
+Journey Optimizerで Sinch プロバイダーを使用する場合は、次の 3 つの異なるオプションがあります。
 
 * **SMS 設定**：SMS メッセージをシームレスに送信するための Sinch API 資格情報を設定します。
 
 * **MMS 設定**：マルチメディアメッセージ（MMS）用に Sinch MMS API 資格情報を設定します。なお、インバウンドメッセージのトラッキングと応答は、SMS 設定で処理されます。MMS セットアップは、MMS メッセージのアウトバウンド配信にのみ使用されます。
 
-## Sinch API 資格情報{#create-api}
+* **RCS 設定**:RCS メッセージをシームレスに送信するための Sinch API 資格情報を設定します。
+
+## SMS の API 資格情報の設定{#create-api}
 
 >[!BEGINSHADEBOX]
 
@@ -55,7 +57,7 @@ Journey Optimizer で SMS メッセージと MMS を送信するように Sinch 
    | オプトアウトメッセージ | オプトアウトメッセージとして自動的に送信されるカスタム応答を入力します。 |
    | ヘルプキーワード | **ヘルプメッセージ**&#x200B;を自動的にトリガーするデフォルトまたはカスタムのキーワードを入力します。複数のキーワードの場合は、コンマ区切り値を使用します。 |
    | ヘルプメッセージ | **ヘルプメッセージ**&#x200B;として自動的に送信されるカスタム応答を入力します。 |
-   | ダブルオプトインキーワード | ダブルオプトイン処理をトリガーするキーワードを入力します。ユーザープロファイルが存在しない場合は、確認が成功すると作成されます。複数のキーワードの場合は、コンマ区切り値を使用します。[詳しくは、SMS ダブルオプトインを参照してください](https://video.tv.adobe.com/v/3440273/?learn=on&captions=jpn)。 |
+   | ダブルオプトインキーワード | ダブルオプトイン処理をトリガーするキーワードを入力します。ユーザープロファイルが存在しない場合は、確認が成功すると作成されます。複数のキーワードの場合は、コンマ区切り値を使用します。[詳しくは、SMS ダブルオプトインを参照してください](https://video.tv.adobe.com/v/3427129/?learn=on)。 |
    | ダブルオプトインメッセージ | ダブルオプトインの確認に応じて自動的に送信されるカスタム応答を入力します。 |
    | インバウンド番号 | ユニークなインバウンド番号またはショートコードを追加します。これにより、それぞれに独自のインバウンド番号またはショートコードを持つ異なるサンドボックス間で同じ API 資格情報を使用できます。 |
    | カスタム受信キーワード | 特定のアクションに対して一意のキーワードを定義します（割引、オファー、登録など）。これらのキーワードはプロファイル内の属性として取得され、保存されるので、ユーザーはジャーニー内でストリーミングセグメントの選定をトリガーし、カスタマイズされた応答やアクションを提供できます。 |
@@ -72,7 +74,7 @@ Journey Optimizer で SMS メッセージと MMS を送信するように Sinch 
 
 API 資格情報を作成し設定したら、SMS メッセージ用のチャネル設定を作成する必要があります。[詳細情報](sms-configuration-surface.md)
 
-## Sinch MMS API 資格情報 {#sinch-mms}
+## MMS の API 資格情報の設定{#sinch-mms}
 
 >[!IMPORTANT]
 >
@@ -100,3 +102,26 @@ Journey Optimizer で MMS を送信するように Sinch MMS を設定するに�
 1. 既存の資格情報を変更するには、目的の API 資格情報を見つけて、「**[!UICONTROL 編集]**」オプションをクリックして必要な変更を行います。
 
 API 資格情報を作成し設定したら、MMS メッセージ用のチャネル設定を作成する必要があります。[詳細情報](sms-configuration-surface.md)
+
+## RCS の API 認証情報の設定
+
+<!--![](assets/do-not-localize/rcs-sms.png)-->
+
+RCS （Rich Communication Services）メッセージは、Sinch を通じてJourney Optimizerでサポートされ、ロゴや送信者名などのブランディング要素を含む検証済みのビジネスプロファイルを使用して、基本的なメッセージを送信できます。
+
+プロファイルのデバイスが RCS をサポートしていない場合や、RCS 経由で一時的に到達できない場合は、メッセージは自動的に SMS にフォールバックします。
+
+Sinch を使用して RCS を設定するには：
+
+1. **ブランドの RCS エージェントのセットアップ**
+
+   ブランドの RCS エージェントをセットアップするには、Adobe担当者にお問い合わせください。 [ ブランド RCS エージェントの詳細 ](https://community.sinch.com/t5/RCS/Getting-Started-with-RCS-using-Conversation-API/ta-p/17844)
+
+1. **[Sinch API 資格情報の設定](#create-api)**
+
+   RCS エージェントが承認されたら、アクセスキー、シークレット、サービスプラン ID を含む Sinch API 資格情報を設定する必要があります。 これらの資格情報は、Journey Optimizerが Sinch のプラットフォームを通じてメッセージを認証および送信するために使用します。
+
+1. **RCS メッセージ用の [ チャネル設定 ](sms-configuration-surface.md) の作成**
+
+   Sinch 資格情報をリンクし、メッセージパラメーターを定義して、Journey Optimizerでチャネルサーフェスを設定します。 この設定により、Journey Optimizerから RCS メッセージを作成して送信できます。
+

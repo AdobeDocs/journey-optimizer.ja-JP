@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 20f5dc6eab5695b485f4569ad098922a130d4b56
+source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '2143'
-ht-degree: 70%
+source-wordcount: '2050'
+ht-degree: 74%
 
 ---
 
@@ -23,14 +23,14 @@ ht-degree: 70%
 [!DNL Adobe Journey Optimizer] は、新機能、既存機能の強化、およびバグ修正を継続的に提供します。これらのリリースノートでは、すべての変更が各月の最終週にまとめられます。[!DNL Adobe Journey Optimizer] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}を参照してください。
 
 
-## 2025 年 6 月先行リリースノート {#25-6-rn}
+## 2025 年 6 月のリリースノート {#25-6-rn}
 
+<!--
+**Early release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published at the release date.-->
 
-**以下の早期リリースノートは、リリースの公開日まで予告なく変更される場合があります**。リンク、画面、更新済みのドキュメントは、リリース日に公開されます。
+**リリース日**：2025年6月18日（PT）
 
-**リリース日**:2025 年 6 月 17～18 日
-
-[Adobe Experience Platformのプレリリースノート ](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"} も参照してください。
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新機能 {#25-06-features}
 
@@ -70,26 +70,29 @@ ht-degree: 70%
 <tr>
 <td>
 <p>技術者以外のユーザーがコードを操作しなくても、コードベースのエクスペリエンスチャネルオーサリング内でフォームビューのコンテンツを簡単に編集できる、JSON またはHTML コンテンツテンプレートの特定の編集可能フィールドを定義できるようになりました。<br /> さらに、コードベースのエクスペリエンスコンテンツテンプレートを定義する際に、テンプレートに決定ポリシーを挿入できるようになり、再利用性と使いやすさが向上しました。</p>
+<img src="assets/do-not-localize/form-fields.gif">
+<p>詳しくは、<a href="../code-based/code-based-form-fields.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
 </table>
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>サブドメインのカスタムのデリゲーション方法</strong><br/></th>
+<th><strong>Custom delegation method for subdomains</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>完全なデリゲーションと CNAME 方法に加えて、新しいサブドメイン設定方法として、カスタムデリゲーション方法が利用できるようになりました。この方法では、メッセージの配信、レンダリング、トラッキングに必要な DNS のあらゆる側面を完全に制御および管理できます。</p>
+<p>In addition to the full delegation and the CNAME method, a new subdomain configuration method is now available: the Custom delegation method, which enables you to fully own controlling and maintaining all aspects of DNS that are required for delivering, rendering and tracking messages.</p>
 </td>
 </tr>
 </tbody>
 </table>
-
+-->
 
 <table>
 <thead>
@@ -101,7 +104,9 @@ ht-degree: 70%
 <tr>
 <td>
 <p>ジャーニーキャンバスの専用のコンテンツ決定アクティビティを通じてパーソナライズされたオファーをジャーニーに含め、条件やカスタムアクションなどのジャーニーアクティビティで使用できるようになりました。</p>
+<img src="assets/do-not-localize/content-decision.gif">
 <p>この機能は一連の組織（限定提供）でのみ使用でき、今後のリリースでグローバルに展開されます。</p>
+<p>詳しくは、<a href="../building-journeys/content-decision.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -117,7 +122,10 @@ ht-degree: 70%
 <tr>
 <td>
 <p>ジャーニードライランは、Adobe Journey Optimizerの特別なジャーニー公開モードであり、ジャーニー実務担当者が実際の顧客に連絡したりプロファイル情報を更新したりせずに、実際の実稼動データを使用してジャーニーをテストできます。 この機能により、ジャーニー実務担当者は、ジャーニーをライブで公開する前に、ジャーニーのデザインとオーディエンスのターゲティングに自信を持つことができます。</p>
+<img src="assets/do-not-localize/DryRun.gif">
 <p>この機能は一連の組織（限定提供）でのみ使用でき、今後のリリースでグローバルに展開されます。</p>
+<p>詳しくは、<a href="../building-journeys/journey-dry-run.md">詳細なドキュメント</a>を参照してください。</p>
+
 </td>
 </tr>
 </tbody>
@@ -135,7 +143,9 @@ ht-degree: 70%
 <p>これで、ジャーニーを一時停止して再開できます。 この機能を使用すると、顧客体験を中断することなくライブジャーニーを一時的に停止できるので、ジャーニー担当者は制御と柔軟性を強化できます。 一時停止すると、通信は送信されず、プロファイルはジャーニーが再開されるまで休止状態のままになります。</p>
 <p>1 つのジャーニーのみを一時停止および再開することも、ジャーニーのグループに対して一括一時停止操作および再開操作を実行することもできます。</p>
 <p>また、一時停止したジャーニーにグローバルフィルターを適用し、属性に基づいてプロファイルを除外できます。</p>
+<img src="assets/do-not-localize/PauseResume.gif">
 <p>この機能は一連の組織（限定提供）でのみ使用でき、今後のリリースでグローバルに展開されます。</p>
+<p>詳しくは、<a href="../building-journeys/journey-pause.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -185,25 +195,25 @@ ht-degree: 70%
 
 このリリースに含まれる機能強化を以下に示します。
 
-* **チャネルルールセット**
+<!--* **Channel rule sets**
 
-   * キャッピングの **カスタム期間ウィンドウ** – 新しい **繰り返しカウント** フィールドがチャネルルールセット設定画面で使用できるようになりました。指定された期間に応じて、複数の日、週、月にわたってフリークエンシーキャッピングルールを適用できます。
+  * **Custom duration window** for capping -  A new **Repeat Count** field is now available in the channel rule sets configuration screen, allowing you to apply frequency capping rules over multiple days, weeks, or months, depending on the specified duration.
 
-   * **時間単位** - チャネルルールセットに対して、キャッピングを 1 時間ごとに適用できるようになりました。
+  * **Hourly duration** - You can now apply capping on an hourly basis for channel rule sets.    -->
 
 * **コードベースのエクスペリエンス**
 
-   * 決定ポリシーの追加が、コードベースのエクスペリエンスコンテンツテンプレートで使用できるようになりました。
+   * 決定ポリシーをコードベースのエクスペリエンスコンテンツテンプレートで追加できるようになりました。このテンプレートを使用して、編集可能なフォームフィールドでオファーを活用できます。 [詳細情報](../code-based/code-based-form-fields.md)
 
-   * コードベースのエクスペリエンスジャーニーまたはキャンペーン編集画面から、パーソナライゼーションエディターを開くことなく、決定ポリシーを直接追加できるようになりました。
+   * コードベースのエクスペリエンスジャーニーまたはキャンペーン編集画面から、パーソナライゼーションエディターを開くことなく、決定ポリシーを直接追加できるようになりました。 [詳細情報](../code-based/create-code-based.md#edit-code)
 
 * **メールDesignerでのカスタム CSS のサポート**
 
-  Journey Optimizerで、メールDesigner内でメールコンテンツに直接カスタム CSS を追加できるようになりました。
+  Journey Optimizerで、メールDesigner内でメールコンテンツに直接カスタム CSS を追加できるようになりました。 [詳細情報](../email/custom-css.md)
 
 * **キャンペーン用の新しいタブ付きナビゲーション**
 
-  新しいナビゲーションパターンにより、コンテンツオーサリングにすばやくアクセスでき、キャンペーン全体でさらに設定を拡張できます。
+  新しいナビゲーションパターンにより、コンテンツオーサリングにすばやくアクセスでき、キャンペーン全体でさらに設定を拡張できます。 [詳細情報](../campaigns/create-campaign.md)
 
 * **決定** - リリース日：2025年6月3日（PT）
 
