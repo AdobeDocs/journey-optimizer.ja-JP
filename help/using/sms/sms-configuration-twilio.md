@@ -58,7 +58,7 @@ Twilio で RCS メッセージを有効にするには、カスタム SMS プロ
 
 1. **カスタムを SMS ベンダーとして使用した API 認証情報の作成**
 
-   Journey Optimizerで、特に SMS ベンダーとして「カスタム」を使用している RCS 用に ](sms-configuration-custom.md#api-credential) 新しい API 資格情報を定義 [ します。 適切な RCS エンドポイント認証方法、ベース URL およびヘッダーを使用します。
+   Journey Optimizerで、特に SMS ベンダーとして「カスタム」を使用している RCS 用に [&#128279;](sms-configuration-custom.md#api-credential) 新しい API 資格情報を定義  します。 適切な RCS エンドポイント認証方法、ベース URL およびヘッダーを使用します。
 
 API 認証情報を作成して設定した後、RCS メッセージ用のチャネル設定を作成する必要があります。 [詳細情報](sms-configuration-surface.md)
 

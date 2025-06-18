@@ -33,7 +33,7 @@ ht-degree: 84%
 
 * **トンプソンサンプリング**：トンプソンサンプリングは、オンラインでの決定問題に対するアルゴリズムであり、既知の要素を活用して即座にパフォーマンスを最大化することと、今後のパフォーマンス向上につながる可能性のある新しい情報の蓄積に投資することの間でバランスを取りながらアクションが順次実行されます。[詳細情報](#thompson-sampling)
 
-* [**Beta分布**](https://ja.wikipedia.org/wiki/ベータ分布){target="_blank"}:2 つの正の [ 形状母数 ](https://ja.wikipedia.org/wiki/確率分布){target="_blank"} によってパラメーター化された ] 区間 [0, 1[ で定義された連続 [ 確率分布 ](https://en.wikipedia.org/wiki/Shape_parameter){target="_blank"} のセット ](https://en.wikipedia.org/wiki/Statistical_parameter){target="_blank"}。
+* [**Beta分布**](https://ja.wikipedia.org/wiki/ベータ分布){target="_blank"}:2 つの正の [ 形状母数 ](https://ja.wikipedia.org/wiki/確率分布){target="_blank"} によってパラメーター化された &rbrack; 区間 &lbrack;0, 1[&#128279;](https://en.wikipedia.org/wiki/Statistical_parameter) で定義された連続 [ 確率分布 ](https://en.wikipedia.org/wiki/Shape_parameter){target="_blank"} のセット {target="_blank"}。
 
 ## トンプソンサンプリング {#thompson-sampling}
 
