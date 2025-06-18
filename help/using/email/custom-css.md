@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: css, エディター，概要，メール
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: a4055d1c4b6d75a04b71067df0c8f5499bae24d6
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '730'
 ht-degree: 1%
 
 ---
@@ -38,6 +38,8 @@ ht-degree: 1%
    >
    >「**[!UICONTROL CSS スタイル]**」セクションは、コンテンツが既にエディターに存在する場合にのみ使用できます。
 
+1. 「**[!UICONTROL カスタム CSS を追加]**」ボタンをクリックします。
+
 1. ポップアップ表示される専用のテキスト領域に CSS コードを入力します。 カスタム CSS が有効で、適切な構文に従っていることを確認します。 [詳細情報](#use-valid-css)
 
    ![ 専用のテキスト領域にカスタム CSS を入力します ](assets/email-body-custom-css.png){width="65%"}
@@ -45,6 +47,8 @@ ht-degree: 1%
    >[!NOTE]
    >
    >「**[!UICONTROL カスタム CSS を追加]**」ボタンは、「**[!UICONTROL 本文]**」が選択されている場合にのみ使用できます。 ただし、コンテンツ内のすべてのコンポーネントにカスタム CSS スタイルを適用できます。
+   >
+   >コンテンツがロックされた [ テンプレート ](../content-management/content-locking.md#use) を使用する場合、カスタム CSS をコンテンツに追加することはできません。 ボタンのラベルが **[!UICONTROL カスタム CSS を表示]** に変わり、コンテンツに既に存在するカスタム CSS は読み取り専用です。
 
 1. カスタム CSS を保存し、カスタム CSS がコンテンツに正しく適用されていることを確認します。 これに該当しない場合は、「[ トラブルシューティング ](#troubleshooting)」セクションを確認してください。
 
