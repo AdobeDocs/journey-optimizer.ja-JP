@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
+source-git-commit: 5e7aad25fa08994f6cbce9adfce4a3dc94fe3e47
 workflow-type: tm+mt
-source-wordcount: '1070'
-ht-degree: 43%
+source-wordcount: '1078'
+ht-degree: 44%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 43%
 
 **リリース日**：2025年6月18日（PT）
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新機能 {#25-06-features}
 
@@ -202,6 +202,8 @@ ht-degree: 43%
    * **1 時間ごとのリセットキャッピングの頻度** - チャネルルールセットに対して 1 時間ごとにキャッピングを適用できるようになりました。 この機能は、一連の組織でのみ使用できます（限定提供）。有効にするには、カスタマーケアにお問い合わせください。
 
    * **毎日の期間** – 以前は限定提供で利用できましたが、チャネルルールセットの「毎日」のフリークエンシーキャップは、すべてのお客様が利用できるようになりました。
+
+  詳しくは、[詳細なドキュメント](../conflict-prioritization/channel-capping.md)を参照してください。
 
 * **コードベースのエクスペリエンス**
 
