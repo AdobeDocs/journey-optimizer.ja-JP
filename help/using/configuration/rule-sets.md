@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: メッセージ, 頻度, ルール, プレッシャー
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 37eed59b64a8bfad0b216c279b15612b6ac57897
+source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
 workflow-type: tm+mt
-source-wordcount: '1956'
+source-wordcount: '1957'
 ht-degree: 99%
 
 ---
@@ -72,7 +72,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->チャネルドメインとジャーニードメインに対して最大 10 個のアクティブなローカルルールセットを作成できます。
+>各チャネルドメインおよびジャーニードメインに対して最大 10 個のアクティブなローカルルールセットを作成できます。
 
 1. **[!UICONTROL ルールセット]**&#x200B;のリストにアクセスし、「**[!UICONTROL ルールセットを作成]**」をクリックします。
 
@@ -197,7 +197,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->ルールまたはルールセットが完全にアクティブ化されるまでに、最大 20 分かかる場合があります。ルールを有効にするために、メッセージを変更したり、ジャーニーを再公開したりする必要はありません。
+>ルールまたはルールセットが完全にアクティブ化されるまでに、最大 10 分かかる場合があります。ルールを有効にするために、メッセージを変更したり、ジャーニーを再公開したりする必要はありません。
 
 <!--Currently, once a rule set is activated, no more rules can be added to that rule set.-->
 
@@ -253,7 +253,7 @@ ht-degree: 99%
 
    <!--Messages where the category selected is **[!UICONTROL Transactional]** will not be evaluated against business rules.-->
 
-1. キャンペーンをアクティブ化する前に、実行は少なくとも 20 分後にスケジュールしてください。
+1. キャンペーンをアクティブ化する前に、実行は少なくとも 10 分後にスケジュールしてください。
 
    これにより、選択したビジネスルールのプロファイルのカウンター値を入力する十分な時間を確保できます。キャンペーンをすぐにアクティブ化すると、ルールセットカウンターの値が受信者のプロファイルに入力されず、メッセージがカスタムルール セットのフリークエンシーキャップルールにカウントされません。
 
@@ -306,10 +306,10 @@ In this scenario, an individual profile:
 
 >[!IMPORTANT]
 >
->ジャーニーがすぐにアクティベートされた場合、システムが顧客の抑制を開始するまで最大 20 分かかることがあります。これを防ぐには、少なくとも 20 分後にジャーニーを開始するようにスケジュールを設定できます。
+>ジャーニーがすぐにアクティベートされた場合、システムが顧客の抑制を開始するまで最大 10 分かかることがあります。これを防ぐには、少なくとも 10 分後にジャーニーを開始するようにスケジュールを設定できます。
 
 +++
 
 ## チュートリアルビデオ {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444727?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

@@ -4,7 +4,7 @@ description: Journey Optimizer の競合と優先順位付けツールを活用�
 role: User
 level: Beginner
 exl-id: 9dc0cd89-d29a-42d2-a73f-d95f9c39c86e
-source-git-commit: 9d84a319497e833aa77416479dd019bab59aab55
+source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
 workflow-type: tm+mt
 source-wordcount: '622'
 ht-degree: 97%
@@ -57,7 +57,7 @@ Journey Optimizer では、過剰な数のインタラクションで顧客が�
 
 * **プロファイルカウンターの更新待ち時間**
 
-  顧客がジャーニーにエントリして、プロファイルカウンターの値が更新されるまで、最大 20 分かかる場合があります。
+  顧客がジャーニーにエントリして、プロファイルカウンターの値が更新されるまで、最大 10 分かかる場合があります。
 
   プロファイルが短い時間枠で 2 つのジャーニーにエントリすると、2 番目のジャーニーはフリークエンシーキャップに既に達していることを正しく認識できず、プロファイルが両方のジャーニーにエントリできる可能性があります。
 

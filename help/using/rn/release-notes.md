@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 024356ca30728611d1d32ba72172711e4714b64c
+source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
 workflow-type: tm+mt
-source-wordcount: '972'
-ht-degree: 46%
+source-wordcount: '1070'
+ht-degree: 43%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 46%
 
 **リリース日**：2025年6月18日（PT）
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新機能 {#25-06-features}
 
@@ -195,11 +195,13 @@ ht-degree: 46%
 
 このリリースに含まれる機能強化を以下に示します。
 
-<!--* **Channel rule sets**
+* **チャネルルールセット**
 
-  * **Custom duration window** for capping -  A new **Repeat Count** field is now available in the channel rule sets configuration screen, allowing you to apply frequency capping rules over multiple days, weeks, or months, depending on the specified duration.
+   * キャッピングの **カスタム期間ウィンドウ** – 新しい **ごと** フィールドがチャネルルールセット設定画面で使用できるようになり、指定された期間に応じて複数の日、週、月にわたってフリークエンシーキャッピングルールを適用できます。
 
-  * **Hourly duration** - You can now apply capping on an hourly basis for channel rule sets.    -->
+   * **1 時間ごとのリセットキャッピングの頻度** - チャネルルールセットに対して 1 時間ごとにキャッピングを適用できるようになりました。 この機能は、一連の組織でのみ使用できます（限定提供）。有効にするには、カスタマーケアにお問い合わせください。
+
+   * **毎日の期間** – 以前は限定提供で利用できましたが、チャネルルールセットの「毎日」のフリークエンシーキャップは、すべてのお客様が利用できるようになりました。
 
 * **コードベースのエクスペリエンス**
 
