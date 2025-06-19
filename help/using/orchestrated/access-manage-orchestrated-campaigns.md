@@ -6,13 +6,13 @@ description: Adobe Journey Optimizerを使用したオーケストレートキ�
 badge: label="アルファ版"
 hide: true
 hidefromtoc: true
-source-git-commit: 435b4a7eee9428c7f0efeb62c72b39c0e2aaabba
+exl-id: 7b42d317-cd01-4c6a-b61e-5b03e5a8ff3c
+source-git-commit: 979b46eccf77db6e90cd47ceb7a40298bb481cc5
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 28%
+source-wordcount: '567'
+ht-degree: 23%
 
 ---
-
 
 # 調整されたキャンペーンへのアクセスと管理 {#orchestrated-campaign-creation}
 
@@ -23,9 +23,9 @@ ht-degree: 28%
 
 +++ 目次
 
-| 調整されたキャンペーンへようこそ | 最初の調整されたキャンペーンの開始 | データベースのクエリ | キャンペーンアクティビティをキャンセル |
+| 調整されたキャンペーンへようこそ | 最初の調整されたキャンペーンの開始 | データベースのクエリ | 調整されたキャンペーンアクティビティ |
 |---|---|---|---|
-| [ オーケストレーションされたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)<br/><br/>[ 設定手順 ](configuration-steps.md)<br/><br/><b>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md)</b> | [ オーケストレーションされたキャンペーンの作成 ](gs-campaign-creation.md)<br/><br/>[ キャンペーンの作成とスケジュール設定 ](create-orchestrated-campaign.md)<br/><br/>[ アクティビティのオーケストレーション ](orchestrate-activities.md)<br/><br/>[ オーケストレーションされたキャンペーンでのメッセージの送信 ](send-messages.md)<br/><br/>[ キャンペーンの開始と監視 ](start-monitor-campaigns.md)<br/><br/>[ レポート ](reporting-campaigns.md) | [ ルールビルダーの操作 ](orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリの作成 ](build-query.md)<br/><br/>[ 式の編集 ](edit-expressions.md) | [ アクティビティの基本を学ぶ ](activities/about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションを変更 ](activities/change-dimension.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) - [ 分割 ](activities/split.md) [&#128279;](activities/wait.md) - |
+| [ オーケストレーションされたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)<br/><br/>[ 設定手順 ](configuration-steps.md)<br/><br/><b>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md)</b> | [ オーケストレーションされたキャンペーンの作成 ](gs-campaign-creation.md)<br/><br/>[ キャンペーンの作成とスケジュール設定 ](create-orchestrated-campaign.md)<br/><br/>[ アクティビティのオーケストレーション ](orchestrate-activities.md)<br/><br/>[ オーケストレーションされたキャンペーンでのメッセージの送信 ](send-messages.md)<br/><br/>[ キャンペーンの開始と監視 ](start-monitor-campaigns.md)<br/><br/>[ レポート ](reporting-campaigns.md) | [ ルールビルダーの操作 ](orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリの作成 ](build-query.md)<br/><br/>[ 式の編集 ](edit-expressions.md) | [ アクティビティの基本を学ぶ ](activities/about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションを変更 ](activities/change-dimension.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) - [ 分割 ](activities/split.md) [ ](activities/wait.md) - |
 
 {style="table-layout:fixed"}
 
@@ -33,29 +33,21 @@ ht-degree: 28%
 
 <br/>
 
-調整されたキャンペーンを視覚的なキャンバスに作成して、セグメント化、キャンペーン実行、ファイル処理などのクロスチャネルプロセスを設計できます。
-
 ## 調整されたキャンペーンへのアクセス
 
-**[!UICONTROL キャンペーン]** メニューで、複数手順タブを参照し、オーケストレーションされたキャンペーンの完全なリストにアクセスします。
+**[!UICONTROL キャンペーン]** メニューに移動し、「**[!UICONTROL オーケストレーション]** タブを選択して、オーケストレーションされたキャンペーンの完全なリストにアクセスします。
 
-リスト内のオーケストレーションされた各キャンペーンには、現在の [ ステータス ](#status)、前回の実行または変更日時、および次にスケジュールされた実行日時に関する情報が表示されます。
+![ オーケストレーションされたキャンペーンのインベントリを示す画像 ](assets/inventory.png){zoomable="yes"}{zoomable="yes"}
 
-リストの右上隅にある「**[!UICONTROL カスタムレイアウトの列を設定]**」アイコンをクリックすると、表示される列をカスタマイズできます。これにより、オーケストレーションされた各キャンペーンでエラーになった最後のアクティビティや、適用されたターゲティングディメンションなどの情報をリストに追加できます。
+リスト内でオーケストレーションされた各キャンペーンには、キャンペーンの現在の [ ステータス ](#status)、関連付けられたチャネルとタグ、前回の変更日時などの情報が表示されます。 「![ レイアウトの設定 ](assets/do-not-localize/inventory-configure-layout.svg) ボタンをクリックすると、表示される列をカスタマイズできます。
 
-また、検索バーとフィルターを使用して、リスト内での検索を簡単にすることができます。例えば、オーケストレーションされたキャンペーンをフィルタリングして、キャンペーンに属するキャンペーンや、特定の日付範囲内に処理されたキャンペーンのみを表示できます。
-
-オーケストレーションされたキャンペーンを複製または削除するには、省略記号ボタンをクリックし、**[!UICONTROL 複製]** または **[!UICONTROL 削除]** を選択します。
-
->[!NOTE]
->
->オーケストレーションされたキャンペーンが進行中の場合、そのキャンペーンは複製できますが、削除することはできません。
+また、検索バーとフィルターを使用して、リスト内での検索を簡単にすることができます。例えば、オーケストレーションされたキャンペーンをフィルタリングして、特定のチャネルやタグに関連付けられているキャンペーンや、特定の日付範囲内に作成されたキャンペーンのみを表示できます。
 
 ## オーケストレーションされたキャンペーンの内部とは {#gs-ms-campaign-inside}
 
 調整されたキャンペーンキャンバスは、実行される処理を表現したものです。 これは、実行される様々なタスクと、タスク同士の関係を示すものです。
 
-![](assets/workflow-example.png){zoomable="yes"} {zoomable="yes"}
+![ 調整されたキャンペーンキャンバスを示す画像 ](assets/canvas-example.png){zoomable="yes"}{zoomable="yes"}
 
 調整された各キャンペーンには、次が含まれます。
 
@@ -67,12 +59,25 @@ ht-degree: 28%
 
 * **作業用テーブル**：作業用テーブルには、トランジションによって実行されるすべての情報が含まれます。調整されたキャンペーンごとに、複数のワークテーブルが使用されます。 これらのテーブルで伝達されたデータは、調整されたキャンペーンのライフサイクルを通じて使用できます。
 
-## ステータスとライフサイクル {#status}
+## キャンペーンのステータス {#status}
 
-キャンペーンには複数のステータスがあります。
+調整されたキャンペーンには、次の複数のステータスがあります。
 
-* **[!UICONTROL ドラフト]**：オーケストレーションされたキャンペーンが作成され、保存されました。
-* **[!UICONTROL 処理中]**：オーケストレーションされたキャンペーンは現在実行中です。
-* **[!UICONTROL 完了]**：調整されたキャンペーンの実行が完了しました。
-* **[!UICONTROL 一時停止]**：オーケストレーションされたキャンペーンが一時停止されました。
-* **[!UICONTROL エラー]**：オーケストレーションされたキャンペーンでエラーが発生しました。 調整したキャンペーンを開き、ログとタスクにアクセスしてエラーを特定し解決します。
+* **[!UICONTROL ドラフト]**：オーケストレーションされたキャンペーンが作成されました。 まだ公開されていません。
+* **[!UICONTROL 公開中]**：オーケストレーションされたキャンペーンを公開しています。
+* **[!UICONTROL ライブ]**：オーケストレーションされたキャンペーンが公開され、実行中です。
+* **[!UICONTROL スケジュール済み]**：オーケストレーションされたキャンペーンの実行がスケジュールされています。
+* **[!UICONTROL 完了]**：オーケストレーションされたキャンペーンの実行が完了しました。
+  <!--* **[!UICONTROL Closed]**: The orchestrated campaign xxxx-->
+* **[!UICONTROL アーカイブ済み]**：オーケストレーションされたキャンペーンはアーカイブされています。 アーカイブされたすべてのキャンペーンは、最終変更日から 30 日後にローリング再スケジュールで削除されます。 必要に応じて、アーカイブしたキャンペーンを複製して、作業を続行できます。
+* **[!UICONTROL 停止]**：オーケストレーションされたキャンペーンの実行が停止しました。 キャンペーンを開始するには、複製する必要があります。
+
+## 調整されたキャンペーンの複製と削除 {#duplicate-delete}
+
+停止されたキャンペーンを実行したり、スケジュールされたキャンペーンの実行頻度を変更したりするために、オーケストレーションされたキャンペーンを複製する必要が生じる場合があります。 これを行うには、キャンペーンインベントリの「![ その他のアクション」ボタンを示す画像 ](assets/do-not-localize/rule-builder-icon-more.svg) ボタンをクリックし、「複製 **[!UICONTROL を選択します]**
+
+キャンペーンを削除するには、「![ その他のアクション」ボタンを示す画像 ](assets/do-not-localize/rule-builder-icon-more.svg) ボタンをクリックし、「**[!UICONTROL 削除]**」を選択します。
+
+>[!NOTE]
+>
+>削除できるキャンペーンは **[!UICONTROL ドラフト]** のみです。
