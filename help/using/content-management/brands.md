@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
-workflow-type: ht
-source-wordcount: '1463'
-ht-degree: 100%
+source-git-commit: f9266d01610b92d8a55be8263da6bb808b3cc8ff
+workflow-type: tm+mt
+source-wordcount: '1471'
+ht-degree: 98%
 
 ---
 
@@ -34,7 +34,8 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->この機能は、Private Beta としてリリースされています。今後のリリースでは、すべてのお客様が段階的に利用できるようになる予定です。
+>この機能は、プライベートベータ版として使用できます。 今後のリリースでは、すべてのお客様が段階的に利用できるようになる予定です。
+>
 >Adobe Journey Optimizer で AI アシスタントを使用する前に、[ユーザー契約](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}に同意する必要があります。詳しくは、アドビ担当者にお問い合わせください。
 
 ブランドガイドラインは、ブランドの視覚的および言語的 ID を確立する詳細なルールと標準のセットです。すべてのマーケティングおよびコミュニケーションプラットフォーム全体で一貫したブランド表現を維持することを目的とした参照として機能します。
@@ -46,6 +47,8 @@ ht-degree: 100%
 [!DNL Adobe Journey Optimizer] の&#x200B;**[!UICONTROL ブランド]**&#x200B;メニューにアクセスするには、ユーザーに&#x200B;**[!UICONTROL ブランドキットの管理]**&#x200B;権限または **[!UICONTROL AI アシスタントを有効にする]**&#x200B;権限を付与する必要があります。[詳細情報](../administration/permissions.md)
 
 +++  ブランド関連の権限を割り当てる方法について説明します。
+
+ブランドに権限を割り当てるには、次の手順に従います。
 
 1. **権限**&#x200B;付きの製品で、「**役割**」タブに移動し、目的の「**役割**」を選択します。
 
