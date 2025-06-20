@@ -7,10 +7,10 @@ badge: label="アルファ版"
 hide: true
 hidefromtoc: true
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
-source-git-commit: 5872e192c849b7a7909f0b50caa1331b15490d79
+source-git-commit: b5cdffa0794b3862094d8830b13bb618d94fe97f
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 61%
+source-wordcount: '622'
+ht-degree: 62%
 
 ---
 
@@ -38,9 +38,9 @@ ht-degree: 61%
 
 +++ 目次
 
-| 調整されたキャンペーンへようこそ | 最初の調整されたキャンペーンの開始 | データベースのクエリ | キャンペーンアクティビティをキャンセル |
+| 調整されたキャンペーンへようこそ | 最初の調整されたキャンペーンの開始 | データベースのクエリ | 調整されたキャンペーンアクティビティ |
 |---|---|---|---|
-| [ オーケストレーションされたキャンペーンの概要 ](../gs-orchestrated-campaigns.md)<br/><br/>[ 設定手順 ](../configuration-steps.md)<br/><br/>[ オーケストレーションされたキャンペーンを作成するための主な手順 ](../gs-campaign-creation.md) | [ オーケストレーションされたキャンペーンの作成 ](../create-orchestrated-campaign.md)<br/><br/>[ アクティビティのオーケストレーション ](../orchestrate-activities.md)<br/><br/>[ オーケストレーションされたキャンペーンでのメッセージの送信 ](../send-messages.md)<br/><br/>[ キャンペーンの開始および監視 ](../start-monitor-campaigns.md)<br/><br/>[ レポート ](../reporting-campaigns.md) | [ クエリの操作Modeler](../orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリ ](../build-query.md)<br/><br/>[ 編集式を作成 ](../edit-expressions.md) | [ アクティビティの基本を学ぶ ](about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](and-join.md) - [ オーディエンスを作成 ](build-audience.md) - [ ディメンションを変更 ](change-dimension.md) - [ 結合 ](combine.md) - [ 重複排除 ](deduplication.md) - [ エンリッチメント ](enrichment.md) - [ 分岐 ](fork.md) - [ 紐付け ](reconciliation.md) - [ 分割 ](split.md) [&#128279;](wait.md) - |
+| [ オーケストレーションされたキャンペーンの概要 ](../gs-orchestrated-campaigns.md)<br/><br/>[ 設定手順 ](../configuration-steps.md)<br/><br/>[ オーケストレーションされたキャンペーンを作成するための主な手順 ](../gs-campaign-creation.md) | [ オーケストレーションされたキャンペーンの作成 ](../create-orchestrated-campaign.md)<br/><br/>[ アクティビティのオーケストレーション ](../orchestrate-activities.md)<br/><br/>[ オーケストレーションされたキャンペーンでのメッセージの送信 ](../send-messages.md)<br/><br/>[ キャンペーンの開始および監視 ](../start-monitor-campaigns.md)<br/><br/>[ レポート ](../reporting-campaigns.md) | [ クエリの操作Modeler](../orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリ ](../build-query.md)<br/><br/>[ 編集式を作成 ](../edit-expressions.md) | [ アクティビティの基本を学ぶ ](about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](and-join.md) - [ オーディエンスを作成 ](build-audience.md) - [ ディメンションを変更 ](change-dimension.md) - [ 結合 ](combine.md) - [ 重複排除 ](deduplication.md) - [ エンリッチメント ](enrichment.md) - [ 分岐 ](fork.md) - [ 紐付け ](reconciliation.md) - [ 分割 ](split.md) [ ](wait.md) - |
 
 {style="table-layout:fixed"}
 
@@ -50,9 +50,9 @@ ht-degree: 61%
 
 **紐付け** アクティビティは、Adobe Journey Optimizer内のデータと作業表内のデータとのリンクを定義できる **ターゲティング** アクティビティです。このリンクには、外部ファイルから読み込まれるデータなどが含まれます。
 
-エンリッチメント アクティビティを使用すると、複数のソースのデータを組み合わせたり、一時的なリソースにリンクしたりして、オーケストレートキャンペーンに追加データを追加できます。 これに対し、「紐付け」アクティビティは、未識別のデータまたは外部データを、データベース内の既存のリソースと照合するために使用します。
+**エンリッチメント** アクティビティを使用すると、複数のソースのデータを組み合わせたり、一時的なリソースにリンクしたりして、オーケストレートキャンペーンに追加データを追加できます。 これに対し、「**紐付け**」アクティビティは、未識別のデータまたは外部データを、データベース内の既存のリソースと照合するために使用します。
 
-紐付けを行うには、関連するレコードがシステムに既に存在している必要があります。 例えば、製品、タイムスタンプおよび顧客情報をリストした購入ファイルを読み込む場合、リンクを確立するには、製品と顧客の両方がデータベースに存在する必要があります。
+**紐付け** 関連するレコードが既にシステムに存在する必要があります。 例えば、製品、タイムスタンプおよび顧客情報をリストした購入ファイルを読み込む場合、リンクを確立するには、製品と顧客の両方がデータベースに存在する必要があります。
 
 ## 紐付けアクティビティの設定 {#reconciliation-configuration}
 
