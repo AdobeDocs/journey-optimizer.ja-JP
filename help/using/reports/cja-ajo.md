@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5349b0cf-da4e-458c-89be-c75a38e4721a
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: 5b8d26b4fbc323308b5a49672f9d30298756ccf9
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 100%
+source-wordcount: '381'
+ht-degree: 98%
 
 ---
 
@@ -25,13 +25,12 @@ ht-degree: 100%
 
 [!DNL Journey Optimizer] でジャーニーを作成した後、[!DNL Customer Journey Analytics] に顧客データを読み込んでレポートを開始し、ジャーニーにおける顧客のインタラクションが与える影響を把握できます。
 
-➡️ [Customer Journey Analytics の概要を確認する](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/integrations/ajo#manually-configure-a-data-view-to-be-used-with-journey-optimizer){target="_blank"}
+➡️ [Discover Customer Journey Analytics](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/integrations/ajo#manually-configure-a-data-view-to-be-used-with-journey-optimizer){target="_blank"}
 
 >[!NOTE]
 >
 >この統合に加えて、Adobe Journey Optimizer データセットのコンテンツをクラウドストレージの場所に書き出し、この情報をレポートや分析の目的で使用することもできます。[詳しくは、クラウドストレージの場所にデータセットを書き出す方法を参照してください](../data/export-datasets.md)
 >
->データセットの書き出し機能は、現在ベータ版です。すべての Adobe Journey Optimizer ユーザーがご利用いただけます。アクセス権がない場合は、アドビ担当者に相談して、宛先へのアクセス権を取得してください。
 
 ジャーニーで [!DNL Customer Journey Analytics] を使用する前に、まずこの統合を設定する必要があります。
 
