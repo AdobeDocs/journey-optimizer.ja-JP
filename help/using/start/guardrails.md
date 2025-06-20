@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 284c4896b923eac1d360b61d97cbe560d747ea4f
+source-git-commit: 8f3d619adfb7b2f3dd876da7a3a6eba1fda6dd6b
 workflow-type: tm+mt
-source-wordcount: '2513'
-ht-degree: 99%
+source-wordcount: '2539'
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 99%
 >
 >* [リアルタイム顧客プロファイルデータとセグメント化のガードレール](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/guardrails){target="_blank"}は、Adobe Journey Optimizer にも適用されます。
 >
->* [ リアルタイム顧客プロファイルでのデータ取り込みのガードレール ](https://experienceleague.adobe.com/ja/docs/experience-platform/ingestion/guardrails){target="_blank"} も参照してください
+>* [ リアルタイム顧客プロファイルでのデータ取り込みのガードレール ](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/guardrails){target="_blank"} も参照してください
 
 
 ## サポートされているブラウザー {#browsers}
@@ -117,8 +117,8 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 ### 一般的なジャーニーのガードレール {#journeys-guardrails-journeys}
 
 * ジャーニー 1 つあたりのアクティビティ数は 50 に制限されます。アクティビティの数は、ジャーニーキャンバスの左上に表示されます。これは、読みやすさ、QA およびトラブルシューティングに役立ちます。
+* 一度に実行できるライブ/一時停止/ドライランのジャーニーの数は 100 に制限されます。  現在のジャーニー数は、ジャーニーキャンバスの上に表示されます。
 * ジャーニーを公開すると、最大のスループットと安定性を確保するために自動的にスケールと調整が行われます。一度に 100 のライブジャーニーというマイルストーンに近づくと、この達成に関する通知が UI に表示されるのがわかります。この通知が表示され、一度に 100 のライブジャーニーを超えてジャーニーを拡張する必要がある場合は、カスタマーケアのチケットを作成してください。アドビが目標の達成をお手伝いします。
-  <!-- DOCAC-10977 * As you publish journeys, we automatically scale and adjust to ensure maximum throughput and stability. As you near the milestone of 500 live journeys at one time, you will see a notification appear in the UI on this achievement. If you see this notification and have a need to extend your journeys beyond 500 live journeys at a time, please create a ticket for customer care and we will help you reach your goals.-->
 * ジャーニーでオーディエンスの選定を使用すると、そのオーディエンスの選定アクティビティがアクティブになってオーディエンスにエントリまたは離脱するプロファイルをリッスンするのに、最大 10 分かかる場合があります。
 * プロファイルのジャーニーインスタンスの最大サイズは 1 MB です。ジャーニーの実行の一部として収集されたすべてのデータは、そのジャーニーインスタンスに保存されます。したがって、受信イベントからのデータ、Adobe Experience Platform から取得したプロファイル情報、カスタムアクション応答などは、ジャーニーインスタンスに保存され、ジャーニーのサイズに影響を与えます。あるイベントでジャーニーが開始する場合、ジャーニーの実行において数件のアクティビティ後にその制限に到達するのを防ぐため、そのイベントペイロードの最大サイズ（例：800 KB 未満）を制限することをお勧めします。この制限に達すると、プロファイルはエラーステータスになり、ジャーニーから除外されます。
 * ジャーニーアクティビティで使用されるタイムアウトのほかに、グローバルジャーニータイムアウトも存在します。こちらはインターフェイスに表示されず、変更もできません。ジャーニー内にいる個人の進捗は、エントリしてから 91 日経過すると、このグローバルタイムアウトにより停止されます。[詳細情報](../building-journeys/journey-properties.md#global_timeout)

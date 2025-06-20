@@ -9,10 +9,10 @@ level: Intermediate
 badge: label="限定提供" type="Informative"
 keywords: 公開, ジャーニー, ライブ, 有効性, 確認
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 8f3d619adfb7b2f3dd876da7a3a6eba1fda6dd6b
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 11%
+source-wordcount: '941'
+ht-degree: 10%
 
 ---
 
@@ -118,17 +118,19 @@ ht-degree: 11%
 
 ## ガードレールと制限 {#journey-dry-run-limitations}
 
-* 反応イベントを含んだジャーニーには、ドライラン モードは使用できません。
-* ドライランモードのプロファイルは、エンゲージメント可能なプロファイルにカウントされます。
-* ドライランのジャーニーは、ビジネスルールには影響しません。
+* 反応イベントを含んだジャーニーには、ドライラン モードは使用できません
+* ドライランモードのプロファイルは、エンゲージメント可能なプロファイルにカウントされます
+* ドライランモードのジャーニーは、ライブジャーニーの割り当てにカウントされます
+* ドライランのジャーニーはビジネスルールに影響しません
 * 新しいジャーニーバージョンを作成する際に、以前のジャーニーバージョンが **ライブ** の場合、新しいバージョンではドライランのアクティベーションは許可されません。
 * ジャーニードライランが stepEvents を生成します。 これらの stepEvents には、特定のフラグとドライラン ID があります。
    * `_experience.journeyOrchestration.stepEvents.inDryRun` は、ドライランがアクティブな場合は `true` を返し、それ以外の場合は `false` を返します
    * `_experience.journeyOrchestration.stepEvents.dryRunID` ドライランインスタンスの ID を返します
+
 * ドライラン中、ジャーニーは次のような特性で実行されます。
 
-   * **チャネルアクション** メール、SMS、プッシュ通知などのノードが実行されない。
-   * **カスタムアクション** は、ドライラン中は無効になり、応答は null に設定されます。
+   * **チャネルアクション** メール、SMS、プッシュ通知などのノードが実行されない
+   * **カスタムアクション** は、ドライラン中は無効になり、応答は null に設定されます
    * **待機ノード** は、ドライラン中はバイパスされます。
      <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
-   * 外部データソースを含む **データソース** は、デフォルトで実行されます。
+   * 外部データソースを含む **データソース** は、デフォルトで実行されます
