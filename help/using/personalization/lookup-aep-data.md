@@ -10,10 +10,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 式, エディター
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: 47ff62f7dee5974afbffdd38dfe4a3f967781e93
+source-git-commit: 97a791329f35ba64a1dca9aef7802e0f4103dbe5
 workflow-type: tm+mt
-source-wordcount: '1044'
-ht-degree: 100%
+source-wordcount: '1114'
+ht-degree: 91%
 
 ---
 
@@ -44,6 +44,21 @@ Journey Optimizer を使用すると、パーソナライゼーションエデ�
 * **サポートされているチャネル**：現時点では、この機能は、メール、SMS およびダイレクトメールチャネル内でのみ使用できます。
 * **データ使用のラベル付けと適用**&#x200B;は、現時点では、参照が有効なデータセットには適用されていません。
 * **フラグメント**：現時点では、データセット参照のパーソナライゼーションを式フラグメントやビジュアルフラグメント内に配置できません。
+
+### 決定 {#decisioning}
+
+Experience Decisioning ランキング式とルールでデータセット [!DNL Adobe Experience Platform] 活用できる機能は、近日中に提供されます。
+
+それまでの間、以下に概説する現在のガードレールを確認してください。
+
+* 決定ポリシーは、3 つのデータセットに制限されています。
+* 決定ルールには、3 つのデータセットを使用できます。
+* ランキング式には、3 つのデータセットを使用できます。
+* 決定ポリシーは、1,000 件のレコードクエリに制限されています。
+
+>[!NOTE]
+>
+>この機能へのアクセスを希望する場合は、アカウント担当者にお問い合わせください
 
 ## データ参照用データセットの有効化 {#enable}
 
@@ -117,7 +132,7 @@ API 呼び出しを使用してデータセットの参照パーソナライゼ�
 
    +++データセット ID はどこで取得できますか？
 
-   データセット ID は、Adobe Experience Platform ユーザーインターフェイスで取得できます。データセットの操作方法については、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}を参照してください。
+   データセット ID は、Adobe Experience Platform ユーザーインターフェイスで取得できます。データセットの使用方法については、[Adobe Experience Platform ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"} を参照してください。
 
    ![](assets/aep-data-dataset.png)
 
@@ -148,7 +163,7 @@ API 呼び出しを使用してデータセットの参照パーソナライゼ�
 
      +++フィールド ID はどこで取得できますか？
 
-     フィールド ID は、Adobe Experience Platform ユーザーインターフェイスでデータセットをプレビューするときに取得できます。データセットをプレビューする方法については、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}を参照してください。
+     フィールド ID は、Adobe Experience Platform ユーザーインターフェイスでデータセットをプレビューするときに取得できます。データセットのプレビュー方法については、[Adobe Experience Platform ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"} を参照してください。
 
      ![](assets/aep-data-field.png)
 
