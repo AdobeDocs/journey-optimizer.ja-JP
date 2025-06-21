@@ -49,7 +49,7 @@ Enterprise ライセンスを使用すると、Adobe Expressの web エディタ
 
 ![](assets/express-licence.png)
 
-Adobe Expressの Enterprise ライセンスを持つユーザーが使用できるユースケースについて詳しくは、[Adobe Express web ドキュメント ](https://helpx.adobe.com/express/web.html) を参照してください。
+Adobe Expressの Enterprise ライセンスを持つユーザーが使用できるユースケースについて詳しくは、[Adobe Express web ドキュメント ](https://helpx.adobe.com/jp/express/web.html) を参照してください。
 
 ## Enterprise ライセンスなしのAdobe Expressの使用  {#edit}
 
