@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
 source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4377'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -364,13 +364,13 @@ A new option is available in the email surface settings to include email address
 <table>
 <thead>
 <tr>
-<th><strong>HTML コンテンツをメールDesigner用に変換</strong><br/></th>
+<th><strong>E メールデザイナー用の HTML コンテンツの変換</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer のメールエディターで、HTML コンテンツを読み込んで変換できるようになりました。コンテンツブロックは自動的に識別され、電子メールDesignerで使用できます。強力なデザイン機能を使用して、更新やパーソナライズを行います。</p>
+<p>Journey Optimizer のメールエディターで、HTML コンテンツを読み込んで変換できるようになりました。コンテンツブロックは自動的に識別され、E メールデザイナーで使用できます。その強力なデザイン機能を使用して、更新やパーソナライズを行いましょう。</p>
 <img src="assets/html-convert.png">
 <p>詳しくは、<a href="../email/existing-content.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
