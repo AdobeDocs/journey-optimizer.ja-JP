@@ -7,10 +7,10 @@ badge: label="アルファ版"
 hide: true
 hidefromtoc: true
 exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
-source-git-commit: 5872e192c849b7a7909f0b50caa1331b15490d79
+source-git-commit: 38b65200435e0b997e79aefbb66549b9168188fd
 workflow-type: tm+mt
 source-wordcount: '878'
-ht-degree: 53%
+ht-degree: 54%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 53%
 
 +++ 目次
 
-| 調整されたキャンペーンへようこそ | 最初の調整されたキャンペーンの開始 | データベースのクエリ | キャンペーンアクティビティをキャンセル |
+| 調整されたキャンペーンへようこそ | 最初の調整されたキャンペーンの開始 | データベースのクエリ | 調整されたキャンペーンアクティビティ |
 |---|---|---|---|
-| [ オーケストレーションされたキャンペーンの概要 ](../gs-orchestrated-campaigns.md)<br/><br/>[ 設定手順 ](../configuration-steps.md)<br/><br/>[ オーケストレーションされたキャンペーンを作成するための主な手順 ](../gs-campaign-creation.md) | [ オーケストレーションされたキャンペーンの作成 ](../create-orchestrated-campaign.md)<br/><br/>[ アクティビティのオーケストレーション ](../orchestrate-activities.md)<br/><br/>[ オーケストレーションされたキャンペーンでのメッセージの送信 ](../send-messages.md)<br/><br/>[ キャンペーンの開始および監視 ](../start-monitor-campaigns.md)<br/><br/>[ レポート ](../reporting-campaigns.md) | [ クエリの操作Modeler](../orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリ ](../build-query.md)<br/><br/>[ 編集式を作成 ](../edit-expressions.md) | [ アクティビティの基本を学ぶ ](about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](and-join.md) - [ オーディエンスを作成 ](build-audience.md) - [ ディメンションを変更 ](change-dimension.md) - [ 結合 ](combine.md) - [ 重複排除 ](deduplication.md) - [ エンリッチメント ](enrichment.md) - [ 分岐 ](fork.md) - [ 紐付け ](reconciliation.md) - [ 分割 ](split.md) [&#128279;](wait.md) - |
+| [ オーケストレーションされたキャンペーンの概要 ](../gs-orchestrated-campaigns.md)<br/><br/>[ 設定手順 ](../configuration-steps.md)<br/><br/>[ オーケストレーションされたキャンペーンを作成するための主な手順 ](../gs-campaign-creation.md) | [ オーケストレーションされたキャンペーンの作成 ](../create-orchestrated-campaign.md)<br/><br/>[ アクティビティのオーケストレーション ](../orchestrate-activities.md)<br/><br/>[ オーケストレーションされたキャンペーンでのメッセージの送信 ](../send-messages.md)<br/><br/>[ キャンペーンの開始および監視 ](../start-monitor-campaigns.md)<br/><br/>[ レポート ](../reporting-campaigns.md) | [ クエリの操作Modeler](../orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリ ](../build-query.md)<br/><br/>[ 編集式を作成 ](../edit-expressions.md) | [ アクティビティの基本を学ぶ ](about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](and-join.md) - [ オーディエンスを作成 ](build-audience.md) - [ ディメンションを変更 ](change-dimension.md) - [ 結合 ](combine.md) - [ 重複排除 ](deduplication.md) - [ エンリッチメント ](enrichment.md) - [ 分岐 ](fork.md) - [ 紐付け ](reconciliation.md) - [ 分割 ](split.md) [ ](wait.md) - |
 
 {style="table-layout:fixed"}
 
@@ -33,7 +33,7 @@ ht-degree: 53%
 
 <br/>
 
-**分割** アクティビティは、フィルタリングルールや母集団のサイズなどの定義済みの選択条件に基づいて、取り込む母集団を複数のサブセットにセグメント化する **ターゲティング** アクティビティです。
+**[!UICONTROL 分割]** アクティビティは、フィルタリングルールや母集団のサイズなどの定義済みの選択条件に基づいて、取り込む母集団を複数のサブセットにセグメント化する **[!UICONTROL ターゲティング]** アクティビティです。
 
 ## 分割アクティビティの設定 {#split-configuration}
 
@@ -77,11 +77,11 @@ ht-degree: 53%
 >title="出力母集団の重複を有効にする"
 >abstract=" 「**[!UICONTROL 出力母集団の重複を有効にする]**」オプションにより、複数のサブセットに属している母集団を管理できます。このオプションを選択していない場合、サブセットの条件を複数満たす場合でも、複数の出力トランジションに受信者が表示されません。受信者は、一致した基準の 1 番目のタブのターゲットになります。チェックボックスをオンにすると、受信者がフィルター条件を満たす場合、複数のサブセットで受信者を検索できます。"
 
-**分割**&#x200B;アクティビティを設定するには、次の手順に従います。
+**[!UICONTROL 分割]**&#x200B;アクティビティを設定するには、次の手順に従います。
 
-1. オーケストレーションされたキャンペーンに **分割** アクティビティを追加します。
+1. オーケストレーションされたキャンペーンに **[!UICONTROL 分割]** アクティビティを追加します。
 
-1. アクティビティ設定パネルが開き、デフォルトのサブセットが表示されます。「**セグメントを追加**」ボタンをクリックして、入力母集団をセグメント化する必要な数のサブセットを追加します。
+1. アクティビティ設定パネルが開き、デフォルトのサブセットが表示されます。「**[!UICONTROL セグメントを追加]**」ボタンをクリックして、入力母集団をセグメント化する必要な数のサブセットを追加します。
 
    ![](../assets/orchestrated-split-1.png)
 
@@ -103,7 +103,7 @@ ht-degree: 53%
 
    1. 選択するプロファイルの数を制限するには、「**[!UICONTROL 制限を有効にする]** を有効にして、数または割合を指定します。
 
-   1. サブセットが空の場合にトランジションをスキップするには、「**[!UICONTROL 空のトランジションをスキップ &#x200B;].** を有効にします。
+   1. サブセットが空の場合にトランジションをスキップするには、「**[!UICONTROL 空のトランジションをスキップ ].** を有効にします。
 
 1. どのサブセットにも一致しないプロファイルを含めるには、「**[!UICONTROL 補集合を生成]**」を有効にします。 これにより、残りの母集団に追加のアウトバウンドトランジションが作成されます。
 
