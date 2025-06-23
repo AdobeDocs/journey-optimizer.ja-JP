@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 598cffda92b27f89a752d6fb0ebc032f9017c43e
 workflow-type: tm+mt
-source-wordcount: '2541'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 97%
 >
 >* [リアルタイム顧客プロファイルデータとセグメント化のガードレール](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/guardrails){target="_blank"}は、Adobe Journey Optimizer にも適用されます。
 >
->* [ リアルタイム顧客プロファイルでのデータ取り込みのガードレール ](https://experienceleague.adobe.com/ja/docs/experience-platform/ingestion/guardrails){target="_blank"} も参照してください
+>* [リアルタイム顧客プロファイルのデータ取り込みのガードレール](https://experienceleague.adobe.com/ja/docs/experience-platform/ingestion/guardrails){target="_blank"}も参照してください
 
 
 ## サポートされているブラウザー {#browsers}

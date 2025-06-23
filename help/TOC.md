@@ -7,8 +7,8 @@ type: Documentation
 solution: Journey Optimizer
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '2448'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -269,7 +269,7 @@ ht-degree: 98%
          + [ヘッダーパラメーター](using/email/header-parameters.md)
          + [URL トラッキング](using/email/url-tracking.md)
          + [メール設定のパーソナライズ](using/email/surface-personalization.md)
-      + メール配信品質 {#deliverability}
+      + メールの配信品質 {#deliverability}
          + [配信品質の基本を学ぶ](using/reports/deliverability.md)
          + [抑制リストについて](using/reports/suppression-list.md)
          + [新しい DMARC 要件](using/configuration/dmarc-record-update.md)
