@@ -38,7 +38,7 @@ Adobe Journey Optimizer の属性ベースのアクセス制御を使用して�
 
 >[!IMPORTANT]
 >
->>役割の権限を管理する前に、ポリシーを作成します。詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=ja){target="_blank"}を参照してください。
+>&#x200B;>役割の権限を管理する前に、ポリシーを作成します。詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=ja){target="_blank"}を参照してください。
 
 **[!UICONTROL 役割]**&#x200B;は、組織内で同じ権限、ラベル、サンドボックスを共有するユーザーの集まりです。**[!UICONTROL 役割]**&#x200B;に属する各ユーザーには、製品に含まれるアドビのアプリとサービスに対する権限が付与されます。自身の&#x200B;**[!UICONTROL 役割]**&#x200B;を作成して、インターフェイス内の特定の機能やオブジェクトに対するユーザーのアクセスを微調整することもできます。
 
