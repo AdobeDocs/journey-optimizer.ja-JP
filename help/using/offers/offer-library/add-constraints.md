@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '2717'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -75,7 +75,7 @@ ht-degree: 98%
 >title="オファー実施要件について"
 >abstract="このセクションでは、決定ルールを使用して、オファーの対象となるユーザーを決定できます。"
 
-<!--additional-url="https://video.tv.adobe.com/v/341373?captions=jpn" text="Watch demo video"-->
+<!--additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
@@ -192,7 +192,7 @@ ht-degree: 98%
   >
   >インプレッションをキャッピングイベントとして使用できるのは、**インバウンドチャネル**&#x200B;のみです。
 
-* **[!UICONTROL カスタムイベント]**：送信されるオファーの数の制限に使用するカスタムイベントを定義できます。 例えば、引き換え回数が 10,000 になるまで、または特定のプロファイルが 1 回引き換えられるまでに引き換え回数を制限できます。これを行うには、[Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target="_blank"} スキーマを使用してカスタムイベントルールを作成します。
+* **[!UICONTROL カスタムイベント]**：送信されるオファーの数の制限に使用するカスタムイベントを定義できます。例えば、引き換え回数が 10,000 になるまで、または特定のプロファイルが 1 回引き換えられるまでに引き換え回数を制限できます。これを行うには、[Adobe Experience Platform XDM](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target="_blank"} スキーマを使用してカスタムイベントルールを作成します。
 
   <!--For example, you can cap on the number of redemptions so that the offer can be shown until redemptions equal 10,000. You can only select XDM ExperienceEvents. -->
 

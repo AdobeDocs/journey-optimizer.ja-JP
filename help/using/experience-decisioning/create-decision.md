@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1796'
-ht-degree: 95%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -226,7 +226,7 @@ Web サイトやモバイルアプリで訪問者に最適な動的なオファ�
 
    ![](assets/decision-code-based-add-decision-attributes.png)
 
-1. 必ず `#each` ループを 1 組の角かっこ `[ ]` で囲み、終了 `/each` の直前にコンマを追加します。
+1. `#each` ループを角括弧 `[ ]` で囲み、閉じ括弧 `/each` の直前にコンマを追加します。
 
    ![](assets/decision-code-based-wrap-code.png)
 

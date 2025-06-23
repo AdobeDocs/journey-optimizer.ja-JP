@@ -5,37 +5,38 @@ title: ' [!DNL Adobe Journey Optimizer] のレポート機能の概要'
 description: レポートにアクセスして操作する方法  [!DNL Adobe Journey Optimizer]  説明します。
 role: User
 level: Beginner
-source-git-commit: da2fb137a8af82a8487638dc3d762377dd5dc506
+exl-id: 7961dc5c-7918-4ae3-8361-0ed4bc4f145b
+source-git-commit: 158ae930fa87dc0476273bfbb14c96e780281491
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 15%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # レポート機能の基本を学ぶ {#get-started-report}
 
-Adobe Journey Optimizerは、堅牢なレポート機能を通じて、実用的なインサイトを提供します。 レポートは、キャンペーン、ジャーニー、ランディングページ、購読リストなどに使用できます。 使用可能なレポートを以下に示します。
+Adobe Journey Optimizer では、堅牢なレポート機能を通じて実用的なインサイトを提供します。レポートは、キャンペーン、ジャーニー、ランディングページ、サブスクリプションリストなどに使用できます。使用可能なレポートは次のとおりです。
 
-また、[!DNL Journey Optimizer] エクスペリエンスの配信品質を最適化するために、（この節 [ に示すベストプラクティスを使用することをお勧めし ](deliverability.md) す。
+さらに、[!DNL Journey Optimizer] エクスペリエンスの配信品質を最適化するには、[この節](deliverability.md)に示すベストプラクティスを使用することをお勧めします。
 
 
 ## レポートのタイプ {#reporting-types}
 
-* **過去 24 時間のライブレポート** - **[!UICONTROL ライブレポート]** を使用すると、ビルトインダッシュボードで、ジャーニーとメッセージの影響とパフォーマンスをリアルタイムで測定および視覚化できます。 配信が送信されるか、「**[!UICONTROL 過去 24 時間]**」タブからジャーニーが実行されるとすぐに、**[!UICONTROL ライブレポート]** でデータを入手できます。 ライブレポートについて詳しくは [ この節 ](live-report.md) を参照してください。
+* **過去 24 時間のライブレポート** - **[!UICONTROL ライブレポート]**&#x200B;を使用し、ビルトインダッシュボードで、ジャーニーとメッセージの影響とパフォーマンスをリアルタイムで測定および視覚化します。配信が送信されるか、「**[!UICONTROL 過去 24 時間]**」タブからジャーニーが実行されるとすぐに、**[!UICONTROL ライブレポート]**&#x200B;でデータを入手できます。ライブレポートについて詳しくは、[この節](live-report.md)を参照してください。
 
   ![](assets/report_journey.png)
 
 
-* **Customer Journey Analyticsを使用した常時レポート** - Journey Optimizerのレポート機能はCustomer Journey Analyticsの機能と完全に統合されており、両方のプラットフォームでレポート機能を標準化し、データの一貫性と信頼性を向上させます。 Journey OptimizerとCustomer Journey Analyticsのシームレスな統合により、パフォーマンス指標をより明確に把握でき、十分な情報に基づいた意思決定を行うことができます。 すべての時間レポートについて詳しくは [ この節 ](report-gs-cja.md) を参照してください。
+* **Customer Journey Analytics を使用した全期間レポート** - Journey Optimizer レポートが Customer Journey Analytics 機能と完全に統合され、両方のプラットフォームでレポートが標準化され、データの一貫性と信頼性が向上します。Journey Optimizer と Customer Journey Analytics のシームレスな統合により、パフォーマンス指標がより明確に表示され、ユーザーはより多くの情報に基づいて意思決定を行うことができます。全期間レポートについて詳しくは、[この節](report-gs-cja.md)を参照してください。
 
   ![](assets/gs-cja-report-1.png)
 
-  Adobe Customer Journey Analytics ライセンスを所有している場合は、Journey Optimizer レポートをCustomer Journey Analyticsに分析できます。 この強力なオプションにより、Customer Journey Analytics環境にシームレスにリダイレクトされ、レポートを幅広くパーソナライズできるようになります。 専用のCustomer Journey Analytics指標を使用してウィジェットを強化し、インサイトをまったく新しいレベルに引き上げることができます。 [詳細情報](report-cja-manage.md)
+  Adobe Customer Journey Analytics ライセンスを所有している場合は、Journey Optimizer レポートを Customer Journey Analytics で分析できます。この強力なオプションにより、Customer Journey Analytics 環境にシームレスにリダイレクトされ、レポートを幅広くカスタマイズできるようになります。専用の Customer Journey Analytics 指標を使用してウィジェットを強化し、まったく新しいレベルのインサイトを得ることができます。[詳細情報](report-cja-manage.md)
 
 
 ## さらに深く掘り下げましょう
 
-これで、**[!DNL Journey Optimizer]** のレポートのタイプを理解できたので、ドキュメントの節で詳しく説明し、レポート機能にアクセスして理解する方法を確認します。
+これで、**[!DNL Journey Optimizer]** のレポートのタイプについて理解できたので、これらのドキュメントの節で詳しく説明し、レポート機能にアクセスして理解する方法を学びます。
 
 
 <table style="table-layout:fixed"><tr style="border: 0;">
@@ -45,13 +46,13 @@ Adobe Journey Optimizerは、堅牢なレポート機能を通じて、実用的
 <p><strong>ジャーニーレポート</strong></p>
 </div>
 <div>
-<a href="journey-live-report.md"><strong> ライブレポート </strong></a>
+<a href="journey-live-report.md"><strong>ライブレポート</strong></a>
 </div>
 <div>
-<a href="journey-global-report-cja.md"><strong> 全期間レポート </strong></a>
+<a href="journey-global-report-cja.md"><strong>全期間レポート</strong></a>
 </div>
 <div>
-<a href="sharing-overview.md"><strong> ジャーニーレポートの作成 </strong></a>
+<a href="sharing-overview.md"><strong>ジャーニーレポートの作成</strong></a>
 </div>
 <p>
 <p>
@@ -62,10 +63,10 @@ Adobe Journey Optimizerは、堅牢なレポート機能を通じて、実用的
 <p><strong>キャンペーンレポート</strong></p>
 </div>
 <div>
-<a href="campaign-live-report.md"><strong> ライブレポート </strong></a>
+<a href="campaign-live-report.md"><strong>ライブレポート</strong></a>
 </div>
 <div>
-<a href="campaign-global-report-cja.md"><strong> 全期間レポート </strong></a>
+<a href="campaign-global-report-cja.md"><strong>全期間レポート</strong></a>
 </div>
 <p>
 <p>
@@ -76,24 +77,24 @@ Adobe Journey Optimizerは、堅牢なレポート機能を通じて、実用的
 <p><strong>ランディングページレポート</strong></p>
 </div>
 <div>
-<a href="lp-report-live.md"><strong> ライブレポート </strong></a>
+<a href="lp-report-live.md"><strong>ライブレポート</strong></a>
 </div>
 <div>
-<a href="lp-report-global-cja.md"><strong> 全期間レポート </strong></a>
+<a href="lp-report-global-cja.md"><strong>全期間レポート</strong></a>
 </div>
 <p>
 <p>
 </td>
 <td>
-<img alt="購読リストレポート" src="../assets/do-not-localize/role.jpg">
+<img alt="サブスクリプションリストのレポート" src="../assets/do-not-localize/role.jpg">
 <div>
-<p><strong>購読リストレポート</strong></p>
+<p><strong>サブスクリプションリストのレポート</strong></p>
 </div>
 <div>
-<a href="subscription-report-live.md"><strong> ライブレポート </strong></a>
+<a href="subscription-report-live.md"><strong>ライブレポート</strong></a>
 </div>
 <div>
-<a href="subscription-report-global-cja.md"><strong> 全期間レポート </strong></a>
+<a href="subscription-report-global-cja.md"><strong>全期間レポート</strong></a>
 </div>
 <p>
 <p>
@@ -105,7 +106,7 @@ Adobe Journey Optimizerは、堅牢なレポート機能を通じて、実用的
 
 ### アウトバウンドチャネルのレポート
 
-関連する **グローバル全期間レポート** を検出するためのアウトバウンドチャネルを選択します。
+関連する&#x200B;**グローバル全期間レポート**&#x200B;を検出するアウトバウンドチャネルを選択します。
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><img alt="メール" src="../channels/assets/do-not-localize/email.png">
@@ -120,7 +121,7 @@ Adobe Journey Optimizerは、堅牢なレポート機能を通じて、実用的
 
 ### インバウンドエクスペリエンスのレポート
 
-関連する **グローバルな全期間レポート** を検出するインバウンドエクスペリエンスを選択します。
+関連する&#x200B;**グローバル全期間レポート**&#x200B;を検出するインバウンドエクスペリエンスを選択します。
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><img alt="アプリ内" src="../channels/assets/do-not-localize/inapp.jpg">

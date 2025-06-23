@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 89%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -42,16 +42,16 @@ ht-degree: 89%
 
 1. 決定ルール作成画面が開きます。ルールに名前を付け、説明を入力します。
 
-1. Adobe Experience Platform セグメントビルダーを使用して、ニーズに合った決定ルールを作成します。それには、次のような様々なデータソースを利用できます。
-   * プロファイルと決定項目の属性
-   * オーディエンス、
-   * Adobe Experience Platformからのコンテキストデータ。 [コンテキストデータの活用方法について説明します](context-data.md)
+1. Adobe Experience Platform セグメントビルダーを使用して、ニーズに合った決定ルールを作成します。それには、次のような様々なデータソースを活用できます。
+   * プロファイルと決定項目の属性。
+   * オーディエンス。
+   * Adobe Experience Platform から取得されるコンテキストデータ。[コンテキストデータの活用方法について説明します](context-data.md)
 
    ![](assets/decision-rules-build.png)
 
    >[!NOTE]
    >
-   >決定ルールを作成するために用意されているセグメントビルダーは、Adobe Experience Platform Segmentation サービスで使用されるものと比較して、特異性がいくつかあります。 ただし、本ドキュメントで説明されているグローバルプロセスは、決定ルールを作成する場合にも有効です。[詳しくは、セグメント定義の作成方法を参照してください](../audience/creating-a-segment-definition.md)
+   >決定ルールを作成するために用意されているセグメントビルダーは、Adobe Experience Platform セグメント化サービスで使用されるものと比べて、特性がいくつかあります。ただし、本ドキュメントで説明されているグローバルプロセスは、決定ルールを作成する場合にも有効です。[詳しくは、セグメント定義の作成方法を参照してください](../audience/creating-a-segment-definition.md)
 
 1. ワークスペースに新しいフィールドを追加および設定すると、**[!UICONTROL オーディエンスのプロパティ]**&#x200B;パネルに、オーディエンスに属する推定プロファイルに関する情報が表示されます。「**[!UICONTROL 予測を更新]**」をクリックして、データを更新します。
 

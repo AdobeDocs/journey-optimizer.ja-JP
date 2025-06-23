@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
 workflow-type: tm+mt
-source-wordcount: '1179'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -42,11 +42,11 @@ ht-degree: 97%
 
    ![](assets/create-formula.png){width="80%"}
 
-1. 必要に応じて、「**[!UICONTROL AI モデルを選択]**」をクリックして、ランキング式を作成するための参照として使用するモデルを設定します。
+1. オプションで、「**[!UICONTROL AI モデルを選択]**」をクリックして、ランキング式を作成するための参照として使用するモデルを設定します。
 
    >[!NOTE]
    >
-   >[ パーソナライズされた最適化モデル ](../offers/ranking/personalized-optimization-model.md) 連続指標の使用は、AI 式ビルダーではサポートされていません。
+   >連続的な指標を使用した、[パーソナライズされた最適化モデル](../offers/ranking/personalized-optimization-model.md)は、AI 式ビルダーではサポートされていません。
 
    以下の式を定義する際にモデルスコアを参照するたびに、選択した AI モデルが使用されます。
 
