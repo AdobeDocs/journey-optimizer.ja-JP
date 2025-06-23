@@ -9,10 +9,10 @@ level: Intermediate
 badge: label="限定提供" type="Informative"
 keywords: 公開, ジャーニー, ライブ, 有効性, 確認
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: f2e13aa4bbc27e8197b5e6db44763ffbabdc0ebc
+source-git-commit: bb3379fa71aaeb00d0833c67547de70f4e9c3fb1
 workflow-type: tm+mt
-source-wordcount: '984'
-ht-degree: 81%
+source-wordcount: '996'
+ht-degree: 79%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 81%
 
 * **チャネルアクション** メール、SMS、プッシュ通知などのノードが実行されない
 * **カスタムアクション** は、ドライラン中は無効になり、応答は null に設定されます
-* **待機ノード**&#x200B;は、ドライラン中はバイパスされます。
+* **待機ノード**は、ドライラン中はバイパスされます。
   <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
 * 外部データソースを含む **データソース** は、デフォルトで実行されます
 
@@ -91,7 +91,7 @@ ht-degree: 81%
 
 ![ジャーニーのドライランの実行の監視](assets/dry-run-metrics.png)
 
-アクティビティごとに、次の項目を確認できます。
+各アクティビティのアクティビティボックスで、次の項目を確認できます。
 
 * **[!UICONTROL 入力済み]**：このアクティビティにエントリした個人の合計数。 **アクション** アクティビティの場合、ドライランモードでは実行されないので、この指標は、プロファイルがを通過することを示します。
 * **[!UICONTROL 退出済み（終了基準を満たす）]**：終了基準に従って、そのアクティビティからジャーニーを退出した個人の合計数。
@@ -99,7 +99,7 @@ ht-degree: 81%
 * **[!UICONTROL エラー]**：そのアクティビティでエラーが発生した個人の合計数。
 
 
-ジャーニーレベルでは、次の項目を確認できます。
+ジャーニーレベルで、キャンバスの左上のセクションで、次の項目を確認できます。
 
 * **エントリ済みのプロファイル**&#x200B;の合計数
 * **離脱済みのプロファイル**&#x200B;の合計数
