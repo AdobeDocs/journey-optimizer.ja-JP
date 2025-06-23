@@ -7,13 +7,13 @@ role: User
 level: Experienced
 exl-id: 008d42c7-a523-4857-b34e-0e8dd1dfa507
 source-git-commit: a9dc2998097c45bd6235af3f5c08bc7077dc3f2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '287'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# [!DNL Journey Optimizer] の意思決定機能の概要 {#gs-decision}
+# [!DNL Journey Optimizer] の決定機能の基本を学ぶ {#gs-decision}
 
 [!DNL Journey Optimizer] の決定機能を使用すると、すべてのタッチポイントにわたって最適なタイミングで最高のオファーとパーソナライズされたエクスペリエンスを顧客に提供できます。これらの機能により、マーケティングオファーの一元化されたカタログと、ルールとランキング条件を使用して各個人に最も関連性の高いコンテンツを提供する高度な決定エンジンを通じて、パーソナライゼーションが簡素化されます。
 
@@ -38,7 +38,7 @@ ht-degree: 94%
 
 現時点では、エクスペリエンス決定は、コードベースのエクスペリエンスチャネルでサポートされています。
 
-➡️[ 意思決定の概要 ](../experience-decisioning/gs-experience-decisioning.md)
+➡️ [決定の基本を学ぶ](../experience-decisioning/gs-experience-decisioning.md)
 
 ## 意思決定管理 {#decision-management}
 
@@ -48,4 +48,4 @@ Journey Optimizer の確立された機能である意思決定管理では、�
 
 意思決定管理は現在、メール、アプリ内メッセージ、プッシュ通知、SMS の 4 つのチャネルをサポートしています。
 
-➡️[ 意思決定管理の概要 ](../offers/get-started/starting-offer-decisioning.md)
+➡️ [意思決定管理の基本を学ぶ](../offers/get-started/starting-offer-decisioning.md)

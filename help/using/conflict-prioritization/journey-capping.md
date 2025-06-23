@@ -1,17 +1,17 @@
 ---
-title: ジャーニーのキャッピングと判別
+title: ジャーニーのキャップと判別
 description: ジャーニーのキャッピングルールを作成する方法と、ジャーニーエントリを判別する方法について説明します
 role: User
 level: Beginner
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
 source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '910'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
-# ジャーニーのキャッピングと判別 {#journey-capping}
+# ジャーニーのキャップと判別 {#journey-capping}
 
 ジャーニーのキャッピングは、プロファイルが登録できるジャーニーの数を制限し、過剰なコミュニケーションを防ぐのに役立ちます。Journey Optimizer では、次の 2 つのタイプのキャッピングルールを設定できます。
 
@@ -48,7 +48,7 @@ ht-degree: 82%
 
      ![](assets/journey-capping-rule-set.png)
 
-1. ルールセット画面で「**[!UICONTROL ルールを追加]**」ボタンをクリックし、ルールに一意の名前を指定します。
+1. ルールセット画面で、「**[!UICONTROL ルールを追加]**」ボタンをクリックし、ルールに一意の名前を指定します。
 
 1. **[!UICONTROL ルールタイプ]**&#x200B;ドロップダウンリストで、ルールのキャッピングのタイプを指定します。
 
@@ -74,7 +74,7 @@ ht-degree: 82%
    >
    >この例では、マーケターが既に 4 つのジャーニーにエントリし、今月中に優先度の高い別のスケジュール済みジャーニーが予定されている場合、顧客は優先度の低いジャーニーにエントリできなくなります。
 
-   +++
++++
 
    +++ジャーニーの同時実行キャッピングルールの設定
 
@@ -86,11 +86,11 @@ ht-degree: 82%
 
    ![](assets/journey-capping-concurrency-example.png){width="50%" zommable="yes"}
 
-   +++
++++
 
 1. 上記の手順を繰り返して、必要な数のルールをルールセットに追加します。
 
-1. キャッピングルールをジャーニーに適用する準備ができたら、ルールと、ルールが追加されたルールセットをアクティブにします。 [ ルールセットをアクティブ化する方法については、こちらを参照してください ](../conflict-prioritization/rule-sets.md#create)
+1. キャッピングルールをジャーニーに適用する準備が整ったら、ルールと、追加したルールセットをアクティブ化します。[ルールセットのアクティブ化方法の詳細情報](../conflict-prioritization/rule-sets.md#create)
 
 ## ジャーニーへのキャッピングルールの適用 {#apply-capping}
 
@@ -109,12 +109,12 @@ ht-degree: 82%
 
 ## ルールセットの除外の監視 {#monitor}
 
-ジャーニーがライブになったら、ジャーニーレポートをチェックインして、ルールセットがジャーニーからの除外（**[!UICONTROL ジャーニーの除外]** テーブル）につながっているかどうかを確認できます。 ジャーニーの除外テーブルには、除外の詳細な分類がルールセット別およびルール名別に含まれており、プロファイルが破棄された理由に関するインサイトが提供されます。 [詳しくは、ジャーニーレポートの操作方法を参照してください](../reports/journey-global-report-cja.md)
+ジャーニーがライブになったら、ルールセットでジャーニーから除外されたものがあったかどうかをジャーニーレポートの&#x200B;**[!UICONTROL ジャーニーの除外]**&#x200B;テーブルで確認できます。ジャーニーの除外テーブルには、ルールセット別およびルール名別の除外の詳細な分類が含まれ、プロファイルが破棄された理由に関するインサイトが提供されます。[詳しくは、ジャーニーレポートの操作方法を参照してください](../reports/journey-global-report-cja.md)
 
 ![](assets/journey-report.png)
 
-さらに、Adobe Experience Platform **クエリサービス** を利用して、特定のジャーニーにプロファイルがエントリしなかった原因となったルールを特定するクエリを作成することもできます。 クエリの例については、[ この節 ](../reports/query-examples.md#common-queries) を参照してください。
+さらに、Adobe Experience Platform **クエリサービス**&#x200B;を活用してクエリを作成し、プロファイルが特定のジャーニーにエントリしない原因となったルールを特定することもできます。クエリの例について詳しくは、[この節](../reports/query-examples.md#common-queries)を参照してください。
 
 ## チュートリアルビデオ {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3447613?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)

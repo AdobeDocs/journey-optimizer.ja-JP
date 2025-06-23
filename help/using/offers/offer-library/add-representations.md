@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
 source-git-commit: 7e9174f8a21c71b8b8e7633d664d5de7d877c240
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '809'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -103,8 +103,8 @@ ht-degree: 94%
 パーソナライゼーションエディターを使用して、URL をパーソナライズできます。詳しくは、[パーソナライゼーション](../../personalization/personalize.md#use-expression-editor)を参照してください。
 
 
-また、「**[!UICONTROL コンテンツフラグメント]**」をクリックして、Adobe Experience Manager コンテンツフラグメントをオファーに直接挿入することもできます。 オファーのコンテンツフラグメントにアクセスするには、選択したプレースメントのタイプは JSON である必要があります。
-詳しくは、[Journey Optimizerとのコンテンツフラグメント統合 ](../../integrations/aem-fragments.md) を参照してください。
+また、「**[!UICONTROL コンテンツフラグメント]**」をクリックして、Adobe Experience Manager コンテンツフラグメントをオファーに直接挿入することもできます。オファーのコンテンツフラグメントにアクセスするには、選択したプレースメントのタイプが JSON である必要があります。
+詳しくは、[Journey Optimizer とのコンテンツフラグメントの統合](../../integrations/aem-fragments.md)を参照してください。
 
 ![](../assets/offer-content-url.png)
 

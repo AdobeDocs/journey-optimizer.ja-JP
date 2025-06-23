@@ -10,15 +10,15 @@ level: Intermediate
 keywords: キャンペーン, Standard, 統合, キャッピング, アクション
 exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
 source-git-commit: d92c280e40419d2e3ec62a7ba85cd492a0867fde
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '437'
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
 # Adobe Campaign Standard との統合 {#using_adobe_campaign_standard}
 
-Adobe Campaign Standardがある場合は、組み込みのアクションを使用して、Adobe Campaign Standardに接続できます。 Adobe Campaign Standard のトランザクションメッセージ機能を使用して、メール、プッシュ通知、SMS を送信できます。
+Adobe Campaign Standard がある場合は、組み込みのアクションを使用して、Adobe Campaign Standard に接続できます。Adobe Campaign Standard のトランザクションメッセージ機能を使用して、メール、プッシュ通知、SMS を送信できます。
 
 Journey Optimizer で使用するには、Campaign Standard トランザクションメッセージとそれに関連するイベントを公開する必要があります。イベントが公開されてもメッセージが表示されない場合、Journey Optimizer インターフェイスには表示されません。メッセージが公開されても、関連するイベントが公開されなかった場合、Journey Optimizer インターフェイスには表示されますが、使用はできません。
 
@@ -30,19 +30,19 @@ Journey Optimizer で使用するには、Campaign Standard トランザクシ�
 
 * 「オーディエンスの選定」または「オーディエンスを読み取り」アクティビティでは、Campaign Standard アクションを使用できません。
 
-* ジャーニーは、[ 組み込みのチャネルアクション ](../building-journeys/journeys-message.md) と [Campaign Standardのアクション ](../building-journeys/using-adobe-campaign-standard.md) の両方を使用することはできません。
+* 1 つのジャーニーで、[組み込みのチャネルアクション](../building-journeys/journeys-message.md)と [Campaign Standard アクション](../building-journeys/using-adobe-campaign-standard.md)の両方を使用することはできません。
 
 ## アクションの設定 {#configure-action}
 
-Journey Optimizerでは、トランザクションメッセージごとに 1 つのアクションを設定する必要があります。
+Journey Optimizer では、トランザクションメッセージごとに 1 つのアクションを設定する必要があります。
 
 Campaign Standard アクションを設定するには、次の手順に従います。
 
-1. 管理メニューセクションで **[!UICONTROL 設定]** を選択します。
+1. 「管理」メニューセクションで「**[!UICONTROL 設定]**」を選択します。
 
 1. 「**[!UICONTROL アクション]**」セクションで、「**[!UICONTROL 管理]**」をクリックします。アクションのリストが表示されます。
 
-1. 組み込み **[!UICONTROL AdobeCampaignStandard]** アクションを選択します。画面右側にアクション設定ペインが開きます。
+1. 組み込み **[!UICONTROL AdobeCampaignStandard]** アクションを選択します。画面の右側にアクション設定パネルが開きます。
 
    ![](assets/actioncampaign.png)
 
@@ -54,22 +54,22 @@ Campaign Standard アクションを設定するには、次の手順に従い�
    >
    >このテストでは、次のことを検証します。
    >
-   >* ホストは、「.campaign.adobe.com」、「.campaign-sandbox.adobe.com」、「.campaign-demo.adobe.com」、「.ats.adobe.com」または「.adls.adobe.com」です
+   >* ホストは「.campaign.adobe.com」、「.campaign-sandbox.adobe.com」、「.campaign-demo.adobe.com」、「.ats.adobe.com」または「.adls.adobe.com」です。
    >
    >* https で始まる URL
    >
-   >* このAdobe Campaign Standardのインスタンスに関連付けられている組織が、Journey Optimizerの OoRg と同じです
+   >* この Adobe Campaign Standard のインスタンスに関連付けられている組織は、Journey Optimizer の組織と同じです
 
-この設定が完了すると、ジャーニーを設計する際に、**[!UICONTROL アクション]** カテゴリで **[!UICONTROL メール]**、**[!UICONTROL プッシュ]**、**[!UICONTROL SMS]** の 3 つのアクションが使用できるようになります。 [ 使用方法を説明します ](../building-journeys/using-adobe-campaign-standard.md)。
+この設定が完了すると、ジャーニーを設計する際に、**[!UICONTROL アクション]**&#x200B;カテゴリで&#x200B;**[!UICONTROL メール]**、**[!UICONTROL プッシュ]**、**[!UICONTROL SMS]** の 3 つのアクションが使用できます。[使用方法の詳細情報](../building-journeys/using-adobe-campaign-standard.md)
 
 ![](assets/journey58.png)
 
-**反応** イベントを使用して、同じジャーニー内で送信されるCampaign Standard メッセージに関連するトラッキングデータに反応します。
+**反応**&#x200B;イベントを使用して、同じジャーニー内で送信される Campaign Standard メッセージに関連するトラッキングデータに反応します。
 
-* プッシュ通知の場合、ジャーニーは、メッセージのクリック、送信、失敗に反応できます。
+* プッシュ通知では、ジャーニーはメッセージのクリック、送信、失敗に反応できます。
 
-* SMS メッセージの場合、ジャーニーは、送信されたメッセージや失敗したメッセージに反応できます。
+* SMS メッセージでは、ジャーニーはメッセージの送信と失敗に反応できます。
 
-* メールの場合、ジャーニーは、メッセージのクリック、送信、開封、失敗に反応できます。 [ 反応イベントの詳細はこちらを参照 ](../building-journeys/reaction-events.md)。
+* メールでは、ジャーニーはメッセージのクリック、送信、開封、失敗に反応できます。[反応イベントの詳細情報](../building-journeys/reaction-events.md)
 
-サードパーティシステムを使用してメッセージを送信する場合は、カスタムアクションを追加して設定する必要があります。 [ カスタムアクション設定の詳細情報 ](../action/about-custom-action-configuration.md)。
+サードパーティのシステムを使用してメッセージを送信する場合は、カスタムアクションを追加および設定する必要があります。[カスタムアクション設定の詳細情報](../action/about-custom-action-configuration.md)

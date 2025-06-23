@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: チャネル設定  [!DNL Journey Optimizer]  基本を学ぶ
+title: ' [!DNL Journey Optimizer]  チャネル設定の基本を学ぶ'
 description: ' [!DNL Journey Optimizer]  チャネル設定について説明します'
 role: Admin, Developer
 level: Intermediate, Experienced
@@ -10,9 +10,9 @@ feature: Application Settings
 topic: Administration
 keywords: 設定,メッセージ,チャネル,サンドボックス,Optimizer
 source-git-commit: 6109c9176c160c2c0b1eafa06b855ebaf285e3ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '295'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 71%
 
 メッセージを送信するには、次の設定手順を実行する必要があります。
 
-1. [Adobe Journey Optimizer システム管理者 ](../start/path/administrator.md) として、チャネル固有の設定を定義します。 これらの設定を行う方法について詳しくは、次のページを参照してください。
+1. [Adobe Journey Optimizer システム管理者](../start/path/administrator.md)として、チャネル固有の設定を定義します。これらの設定を行う方法について詳しくは、次のページを参照してください。
 
    <table style="table-layout:fixed"><tr style="border: 0;">
     <td><a href="../email/get-started-email-config.md"><img alt="メール" src="../channels/assets/do-not-localize/email.png"></a>
@@ -52,15 +52,15 @@ ht-degree: 71%
    >
    >モバイルチャネルの場合、[ガイド付きチャネル設定](set-mobile-config.md)によってマーケティングチャネルを迅速に設定できるようになり、Experience Platform、Journey Optimizer およびデータ収集内で必要なすべてのリソースがすぐに使用できるようになります。これにより、マーケティングチームはキャンペーンとジャーニーの作成を開始できます。
 
-1. 完了したら、**チャネル設定** を作成して、メッセージの配信に必要なすべての技術的パラメーターを設定する必要があります。 [詳しくは、チャネル設定を参照してください](channel-surfaces.md)
+1. 完了したら、**チャネル設定**&#x200B;を作成して、メッセージの配信に必要なすべての技術パラメーターを設定する必要があります。[詳しくは、チャネル設定を参照してください](channel-surfaces.md)
 
-1. 使用しているチャネル、環境およびニーズに応じて、次の手順も実行する必要があります。
+1. 使用しているチャネル、環境、ニーズに応じて、次の手順も実行する必要があります。
 
-   * チャネル（[ メール ](about-subdomain-delegation.md)、[SMS](../sms/sms-subdomains.md)、[ ランディングページ ](../landing-pages/lp-subdomains.md)、[web エクスペリエンス ](../web/web-delegated-subdomains.md) など）のサブドメイン設定とデリゲーション。
+   * [メール](about-subdomain-delegation.md)、[SMS](../sms/sms-subdomains.md)、[ランディングページ](../landing-pages/lp-subdomains.md)、[web エクスペリエンス](../web/web-delegated-subdomains.md)などのチャネルのサブドメイン設定とデリゲーション。
 
-   * 最適な配信品質を得るために、IP ウォームアッププランを設定します。 [詳細情報](ip-warmup-gs.md)
+   * 最適な配信品質を実現するために、IP ウォームアッププランを設定します。[詳細情報](ip-warmup-gs.md)
 
-   * メール送信用の許可リストを定義します。 [詳細](allow-list.md)
+   * メール送信用の許可リストを定義します。[詳細](allow-list.md)
 
    * 抑制リストにメールアドレスを送信する前に再試行が実行される日数を管理します。[詳細](manage-suppression-list.md)
 

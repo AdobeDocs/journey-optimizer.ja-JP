@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 1aff2f6f-914c-4088-afd8-58bd9edfe07d
 source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1118'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->同じチャネル設定を使用するコードベースのエクスペリエンスアクションが複数ある（したがって、同じサーフェスで実行されている）場合、キャンペーンまたはジャーニーの **[!UICONTROL 優先度スコア]** によって、複数のアクションの対象となる場合にエンドユーザーに配信される内容が決定されます。 [ 優先度スコアの詳細情報 ](../conflict-prioritization/priority-scores.md)
+>同じチャネル設定を使用する（つまり同じサーフェスで実行される）コードベースのエクスペリエンスアクションが複数あり、エンドユーザーが複数のアクションの対象となった場合、キャンペーンまたはジャーニーの&#x200B;**[!UICONTROL 優先度スコア]**&#x200B;によって、それらのエンドユーザーに配信される内容が決定します。[優先度スコアの詳細情報](../conflict-prioritization/priority-scores.md)
 
 ## コードベースのエクスペリエンス設定を作成 {#create-code-based-configuration}
 

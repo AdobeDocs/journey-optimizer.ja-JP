@@ -7,9 +7,9 @@ role: Admin
 level: Experienced
 exl-id: 07ec74fb-7fbc-48c6-a8fc-f58f24a60723
 source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '766'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->同じサーフェスで実行されているコードベースのエクスペリエンスアクションが複数ある場合、キャンペーンまたはジャーニーの **[!UICONTROL 優先度スコア]** によって、複数のアクションの対象となるエンドユーザーに配信される内容が決定されます。 [ 優先度スコアの詳細情報 ](../conflict-prioritization/priority-scores.md)
+>同じサーフェスで実行するコードベースのエクスペリエンスアクションが複数あるとき、エンドユーザーが複数のアクションの対象となる場合に配信される内容は、キャンペーンまたはジャーニーの&#x200B;**[!UICONTROL 優先度スコア]**&#x200B;によって決まります。[優先度スコアの詳細情報](../conflict-prioritization/priority-scores.md)
 
 ## サーフェス識別子 {#surface-uri}
 
@@ -76,8 +76,8 @@ ht-degree: 90%
 
 [!DNL Journey Optimizer] では、コードベースのエクスペリエンスチャネルが次の 2 つのタイプの顧客実装をサポートしています。
 
-* Web サイトの [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja){target="_blank"} またはモバイルアプリの [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} に基づきます。
-* [AEP Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=ja){target="_blank"} を使用したサーバーサイドまたはハイブリッド。
+* Web サイト用の [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja){target="_blank"} またはモバイルアプリ用の [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} に基づくタイプ。
+* [AEP Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=ja){target="_blank"} を使用するサーバーサイドまたはハイブリッドに基づくタイプ。
 
 >[!NOTE]
 >

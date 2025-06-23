@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
 source-git-commit: 5fcbde9344e919b817ef8d360d2318a6d9a1513f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1352'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -22,17 +22,17 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->[!DNL Journey optimizer] では、CSV または JSON ファイルからアップロードされた、または手動で追加されたサンプル入力データを使用して、プレビューおよび配達確認を送信することで、コンテンツの様々なバリアントをテストできます。 [詳しくは、サンプル入力データを使用してコンテンツをテストする方法を参照してください](../test-approve/simulate-sample-input.md)
+>[!DNL Journey optimizer] を使用すると、CSV／JSON ファイルからアップロードした、または手動で追加したサンプル入力データを使用してコンテンツをプレビューし、配達確認を送信することで、コンテンツの様々なバリアントをテストできます。[詳しくは、サンプル入力データを使用してコンテンツをテストする方法を参照してください](../test-approve/simulate-sample-input.md)
 
 テストプロファイルを作成する方法はいくつかあります。このページの詳細は次のとおりです。
 
 * [既存のプロファイル](#turning-profile-into-test)をテストプロファイルに変換する
 
-* [CSV ファイル ](#create-test-profiles-csv) または [API 呼び出し ](#create-test-profiles-api) を使用して、テストプロファイルを作成する
+* [CSV ファイル](#create-test-profiles-csv)をアップロードするか、[API 呼び出し](#create-test-profiles-api)を使用して、テストプロファイルを作成する
 
-  Adobe Journey Optimizerは、テストプロファイルを容易に容易できる特定の [ 製品内ユースケース ](#use-case-1) も提供しています。
+  また、Adobe Journey Optimizer には、テストプロファイルの作成を容易にする特定の[製品内ユースケース](#use-case-1)も用意されています。
 
-JSON ファイルを既存のデータセットにアップロードできます。 詳しくは、[ データ取り込みドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=ja#add-data-to-dataset){target="_blank"} を参照してください。
+既存のデータセットに JSON ファイルをアップロードできます。詳しくは、[データ取り込みのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=ja#add-data-to-dataset){target="_blank"}を参照してください。
 
 テストプロファイルの作成は、Adobe Experience Platform で通常のプロファイルを作成する場合と似ていることに注意してください。詳しくは、[リアルタイム顧客プロファイルのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target="_blank"}を参照してください。
 
@@ -40,7 +40,7 @@ JSON ファイルを既存のデータセットにアップロードできます
 
 ## 前提条件 {#test-profile-prerequisites}
 
-プロファイルを作成するには、まずAdobe [!DNL Journey Optimizer] でスキーマとデータセットを作成する必要があります。
+プロファイルを作成するには、まず Adobe [!DNL Journey Optimizer] でスキーマとデータセットを作成する必要があります。
 
 ### スキーマの作成
 
@@ -168,7 +168,7 @@ Adobe Experience Platform では、様々なプロファイルフィールドを
 1. プロファイルごとに 1 行追加し、各フィールドの値を入力します。
    ![](assets/test-profiles-12.png)
 1. スプレッドシートを CSV ファイルとして保存します。カンマが区切り文字として使用されていることを確認します。
-1. Adobe Experience Platform **ワークフロー**&#x200B;を参照します。
+1. Adobe Experience Platform **ワークフロー**を参照します。
    ![](assets/test-profiles-14.png)
 1. 「**CSV を XDM スキーマにマッピング**」を選択し、「**開始**」をクリックします。
    ![](assets/test-profiles-16.png)
@@ -248,4 +248,4 @@ curl -X POST \
 
 テストプロファイルを作成する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416426?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/334236?quality=12)

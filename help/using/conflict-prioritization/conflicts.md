@@ -5,9 +5,9 @@ role: User
 level: Beginner
 exl-id: efbb5ac4-4c07-4c62-9460-39eb4fed129a
 source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '755'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -65,7 +65,7 @@ Journey Optimizer では、ジャーニーやキャンペーンをオーサリ�
 
    >[!NOTE]
    >
-   >新しく公開されたジャーニーとキャンペーンは、キャッシュが実装されているので、競合ビューアに表示されるまでに最大 3～7 分かかる場合があります。
+   >キャッシュが実装されているので、新しく公開されたジャーニーとキャンペーンが競合ビューアーに表示されるまでに最大 3～7 分かかる場合があります。
 
 潜在的な重複の検索をさらに絞り込むには、関連性の高いフィールドに基づいてキャンペーンとジャーニーのリストをフィルタリングします。それには、インベントリビューのフィルターアイコンを選択します。[詳しくは、フィルターの操作方法を参照してください。](../start/search-filter-categorize.md#filter-lists)
 

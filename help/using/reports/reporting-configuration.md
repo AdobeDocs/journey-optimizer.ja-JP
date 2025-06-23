@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 設定, 実験, レポート, Optimizer
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
 source-git-commit: d772ef2d98775446618bd6614a26b9f352e073bd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '585'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -40,13 +40,13 @@ Web チャネル、コードベースチャネル、アプリ内チャネルの�
 
 ## 前提条件
 
-レポート設定にデータセットを追加する前に、そのデータセットを作成する必要があります。方法については、[Adobe Experience Platform ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ja#create){target="_blank"} を参照してください。
+レポート設定にデータセットを追加する前に、そのデータセットを作成する必要があります。方法について詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ja#create){target="_blank"}を参照してください。
 
 * イベントタイプのデータセットのみを追加できます。
 
-* これらのデータセットには、`Experience Event - Proposition Interactions` [ フィールドグループ ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja#field-group){target="_blank"} を含める必要があります。
+* これらのデータセットには、`Experience Event - Proposition Interactions` [フィールドグループ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja#field-group){target="_blank"}を含める必要があります。
 
-* これらのデータセットには、`Application Details`、`Commerce Details`、`Web Details` のいずれかの [ フィールドグループ ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja#field-group){target="_blank"} が含まれる場合もあります。
+* また、これらのデータセットには、`Application Details`、`Commerce Details`、`Web Details` の[フィールドグループ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja#field-group){target="_blank"}のいずれか 1 つが含まれている場合があります。
 
   >[!NOTE]
   >
@@ -62,7 +62,7 @@ Web チャネル、コードベースチャネル、アプリ内チャネルの�
 
 >[!NOTE]
 >
->XDM スキーマとフィールドグループについて詳しくは、[XDM システムの概要ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target="_blank"} を参照してください。
+>XDM スキーマとフィールドグループについて詳しくは、[XDM システムの概要ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target="_blank"}を参照してください。
 
 <!--
 ## Objectives corresponding to each field group {#objective-list}
@@ -100,11 +100,11 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
 
    >[!CAUTION]
    >
-   >選択できるのは、次のサポートされている [ フィールドグループ ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja#field-group){target="_blank"} のうち少なくとも 1 つを含むイベントタイプのデータセットのみです：**アプリケーションの詳細**、**Commerceの詳細**、**web の詳細**。 これらの条件に一致しないデータセットを選択した場合、変更を保存できません。
+   >サポートされている[フィールドグループ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja#field-group){target="_blank"}（**アプリケーションの詳細**、**コマースの詳細**、**web の詳細**）のう 1 つ以上を含むイベントタイプのデータセットのみを選択できます。これらの条件に一致しないデータセットを選択した場合、変更を保存できません。
 
    ![](assets/reporting-config-datasets.png)
 
-   データセットについて詳しくは、[Adobe Experience Platform ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=ja){target="_blank"} を参照してください。
+   データセットについて詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=ja){target="_blank"}を参照してください。
 
 1. **[!UICONTROL プロファイル ID]**&#x200B;ドロップダウンリストで、レポート内の各プロファイルを識別するために使用するデータセットフィールド属性を選択します。
 
@@ -118,7 +118,7 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
 
    ![](assets/reporting-config-namespace.png)
 
-   名前空間について詳しくは、[Adobe Experience Platform ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=ja){target="_blank"} を参照してください。
+   名前空間について詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=ja){target="_blank"}を参照してください。
 
 1. 変更を保存し、選択したデータセットをレポート設定リストに追加します。
 

@@ -9,9 +9,9 @@ level: Beginner
 keywords: プラットフォーム, データレイク, 作成, レイク, データセット, プロファイル
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
 source-git-commit: 98ddcbe1d4700341087538da3fb32db4ca9eb7c9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '883'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Journey Optimizer では、データセットの内容を書き出すために�
 * [Azure Data Lake Gen 2](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/adls-gen2.html?lang=ja){target="_blank"}
 * [Data Landing Zone](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/data-landing-zone.html?lang=ja){target="_blank"}
 * [Google Cloud Storage](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/google-cloud-storage.html?lang=ja){target="_blank"}
-* [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html?lang=ja){target="_blank"}。
+* [SFTP](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/cloud-storage/sftp.html?lang=ja){target="_blank"}
 
 
 ## 前提条件 {#prerequisites}
@@ -53,9 +53,9 @@ Journey Optimizer では、データセットの内容を書き出すために�
 
 ![](assets/dataset-export-process.png)
 
-各手順について詳しくは、[Adobe Experience Platform ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=ja){target="_blank"} を参照してください。
+各手順について詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=ja){target="_blank"}を参照してください。
 
-1. **クラウドストレージの宛先を設定します**。まだ行っていない場合は、宛先カタログからクラウドストレージの宛先に接続します。新しい宛先接続を作成する方法については、[Adobe Experience Platform ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=ja#setup){target="_blank"} を参照してください。
+1. **クラウドストレージの宛先を設定します**。まだ行っていない場合は、宛先カタログからクラウドストレージの宛先に接続します。新規宛先接続を作成する方法について詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/connect-destination.html?lang=ja#setup){target="_blank"}を参照してください。
 
    <!--![](assets/dataset-export-setup.png)-->
 
@@ -79,7 +79,7 @@ Journey Optimizer では、データセットの内容を書き出すために�
 
    <!--![](assets/dataset-export-review.png)-->
 
-書き出しが完了すると、設定したスケジュールに従って、データセットの内容がクラウドストレージの場所に保存されます。[ データセットの正常な書き出しを確認する方法を説明します ](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=ja#verify){target="_blank"}。
+書き出しが完了すると、設定したスケジュールに従って、データセットの内容がクラウドストレージの場所に保存されます。[データセットの書き出しが成功したことを確認する方法の詳細情報](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=ja#verify){target="_blank"}
 
 ## 書き出しに使用できるデータセット {#datasets}
 
@@ -94,7 +94,7 @@ Journey Optimizer では、データセットの内容を書き出すために�
 | AJO エンティティデータセット | エンドユーザーに送信されるメッセージのエンティティメタデータを保存するデータセット。  |
 | AJO 受信アクティビティイベントデータセット | 配信およびインタラクションイベント用の Journey Optimizer web およびアプリ内チャネルのデータセット。 |
 | AJO インタラクティブメッセージプロファイルデータセット | API トリガーキャンペーンをサポートするために作成されたプロファイルを保存します |
-| AJO メッセージフィードバックイベントデータセット | メッセージ配信ログ。レポートやオーディエンス作成を目的とした Journey Optimizer からのすべてのメッセージ配信に関する情報です。バウンスに関するメール ISP からのフィードバックも、このデータセットに記録されます。このデータセットには、すべてのチャネル（メール、SMS/MMS、ダイレクトメールなど）のイベントが含まれます。 |
+| AJO メッセージフィードバックイベントデータセット | メッセージ配信ログ。レポートやオーディエンス作成を目的とした Journey Optimizer からのすべてのメッセージ配信に関する情報です。バウンスに関するメール ISP からのフィードバックも、このデータセットに記録されます。このデータセットには、メール、SMS／MMS、ダイレクトメールなど、すべてのチャネルのイベントが含まれます。 |
 | AJO プロファイルカウンター拡張機能 | counter_id でキー指定された counter_value と expiryDate を含むオブジェクトのマップを保持します |
 | AJO プッシュプロファイルデータセット | プロファイルのプッシュトークンを保存します。 |
 | AJO プッシュトラッキングエクスペリエンスイベントデータセット | レポートやオーディエンス作成のために使用されるプッシュチャネルのインタラクションログ。  |

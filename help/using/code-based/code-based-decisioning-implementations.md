@@ -7,9 +7,9 @@ role: Developer
 level: Experienced
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
 source-git-commit: 57686b9684f9233c81bd46b67d12ec5f1e3544c5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '378'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 94%
 
 ## コードベースの実装での決定項目の重複排除 {#code-based-decisioning-deduplication}
 
-コードベースのエクスペリエンスで [ 決定ポリシー ](../experience-decisioning/create-decision.md) を使用する場合、クライアント実装の決定リクエストに重複排除を適用できます。
+コードベースのエクスペリエンスで[決定ポリシー](../experience-decisioning/create-decision.md)を使用する際、クライアント実装で決定リクエストに重複排除を適用できます。
 
 決定リクエスト（Konductor 経由）は、重複排除フラグを受け入れます。このフラグは、複数の決定ポリシーまたはプレースメントで構成される単一のリクエストで決定項目の一意性を処理します。
 

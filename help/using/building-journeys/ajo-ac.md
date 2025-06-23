@@ -10,21 +10,21 @@ level: Intermediate, Experienced
 keywords: ジャーニー, メッセージ, キャンペーン, 統合
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
 source-git-commit: 84beb9ba9646cb1b40bcfd8a180fc98963a8ff0b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '389'
-ht-degree: 56%
+ht-degree: 100%
 
 ---
 
 # ユースケース：Campaign v7／v8 を使用したメッセージの送信 {#campaign-v7-v8-use-case}
 
-このユースケースでは、Adobe Campaign v7 およびAdobe Campaign v8 との統合を使用してメールを送信するために必要なすべての手順を説明します。
+このユースケースでは、Adobe Campaign v7 および Adobe Campaign v8 との統合を使用してメールを送信するために必要なすべての手順について説明します。
 
 >[!NOTE]
 >
 >この統合を使用するには、Campaign v7/v8 ビルド 9125 以降が必要です。
 
-まず、Campaign でトランザクションメールテンプレートを作成します。 次に、Journey Optimizerで、イベントとアクションを作成し、ジャーニーをデザインします。
+まず、Campaign でトランザクションメールテンプレートを作成します。次に、Journey Optimizer で、イベント、アクションを作成し、ジャーニーをデザインします。
 
 Campaign の統合について詳しくは、次のページを参照してください。
 
@@ -33,7 +33,7 @@ Campaign の統合について詳しくは、次のページを参照してく�
 
 **Adobe Campaign**
 
-Campaign インスタンスをこの統合用にプロビジョニングする必要があります。 トランザクションメッセージ機能を設定する必要があります。
+Campaign インスタンスをこの統合用にプロビジョニングする必要があります。トランザクションメッセージ機能を設定する必要があります。
 
 1. Campaign コントロールインスタンスにログインします。
 
@@ -47,7 +47,7 @@ Campaign インスタンスをこの統合用にプロビジョニングする�
 
    ![](assets/accintegration-uc-2.png)
 
-1. テンプレートをデザインします。この例では、パーソナライゼーションがプロファイルの名と注文番号に適用されます。 名前はAdobe Experience Platform データソースにあり、注文番号はJourney Optimizer イベントのフィールドにあります。 Campaign で正しいフィールド名を使用していることを確認してください。
+1. テンプレートをデザインします。この例では、プロファイルの名と注文番号にパーソナライゼーションを適用します。名は Adobe Experience Platform データソースにあり、注文番号は Journey Optimizer イベントのフィールドです。Campaign で正しいフィールド名を使用していることを確認します。
 
    ![](assets/accintegration-uc-3.png)
 
@@ -75,15 +75,15 @@ Campaign インスタンスをこの統合用にプロビジョニングする�
 
 **Journey Optimizer**
 
-1. イベントを作成します。 「purchaseOrderNumber」フィールドを含めます。
+1. イベントを作成します。「purchaseOrderNumber」フィールドを含めます。
 
    ![](assets/accintegration-uc-5.png)
 
-1. キャンペーンテンプレートに対応するアクションをJourney Optimizerで作成します。 「**アクションタイプ**」ドロップダウンで、**Adobe Campaign Classic** を選択します。
+1. Journey Optimizer で、Campaign テンプレートに対応するアクションを作成します。「**アクションタイプ**」ドロップダウンで、**Adobe Campaign Classic** を選択します。
 
    ![](assets/accintegration-uc-6.png)
 
-1. 「**ペイロードフィールド** をクリックし、前に作成した JSON を貼り付けます。
+1. 「**ペイロードフィールド**」をクリックし、以前に作成した JSON を貼り付けます。
 
    ![](assets/accintegration-uc-7.png)
 

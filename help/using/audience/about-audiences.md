@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
 source-git-commit: d87f33c80cc85b1d1a87150687f6d7c9a268a016
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '541'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -28,19 +28,19 @@ ht-degree: 78%
 >title="キャンペーンオーディエンスを選択"
 >abstract="このリストには、使用可能なすべての Adobe Experience Platformオーディエンスが表示されます。キャンペーンのターゲットにするオーディエンスを選択します。キャンペーンで設定したメッセージは、選択したオーディエンスに属するすべての個人に送信されます。[詳しくは、オーディエンスを参照してください](../audience/about-audiences.md)"
 
-オーディエンスは、類似の行動や特性を共有する人々の集まりです。 Adobe Experience Platform セグメント化サービスを使用すると、Adobe Experience Platform 上で一元的に設定および管理され、Journey Optimizer 内で簡単にアクセスして、ジャーニーやキャンペーンでアクティブ化できます。
+オーディエンスとは、類似した行動や特性を共有するユーザーのコレクションです。Adobe Experience Platform セグメント化サービスを使用すると、Adobe Experience Platform 上で一元的に設定および管理され、Journey Optimizer 内で簡単にアクセスして、ジャーニーやキャンペーンでアクティブ化できます。
 
 Adobe Journey Optimizer には、マーケティング活動を強化する目的で、オーディエンスの作成、管理、強化を行う堅牢なツールが用意されています。Journey Optimizer を Adobe Real-Time Customer Data Platform と組み合わせると、オーディエンスをレイヤー化してより複雑なセグメント化を実現し、他の Adobe Experience Cloud ソリューションとオーディエンスを双方向に共有できます。
 
-リアルタイムデータストリームやバッチアップロードが発生すると、データセットが更新され、Journey Optimizerによってオーディエンスやジャーニーの個人がリアルタイムで動的に出入りします。
+リアルタイムのデータストリームやバッチアップロードが発生すると、データセットが更新され、Journey Optimizer はリアルタイムで個人をオーディエンスとジャーニーに動的に移動させます。
 
 >[!BEGINSHADEBOX]
 
 このドキュメントでは、[!DNL Adobe Journey Optimizer] 内でオーディエンスを操作する方法について説明します。オーディエンスポータルについて詳しくは、Adobe Experience Platform のセグメント化サービスのドキュメントを参照してください。詳しくは、次の節を参照してください。
 
-* [ セグメント化サービス UI ガイド ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/overview){target="_blank"}
+* [セグメント化サービス UI ガイド](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/overview){target="_blank"}
 
-* [ セグメント化サービス – よくある質問 ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/faq){target="_blank"}
+* [セグメント化サービス - よくある質問](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/faq){target="_blank"}
 
 >[!ENDSHADEBOX]
 
@@ -48,13 +48,13 @@ Adobe Journey Optimizer には、マーケティング活動を強化する目�
 
 オーディエンスは、**[!UICONTROL 顧客]**／**[!UICONTROL オーディエンス]**&#x200B;メニューから使用できます。
 
-ダッシュボードは、重要なオーディエンス間の重複を視覚的に表示し、重要なオーディエンスのトレンドの探索をサポートします。 例えば、特定の期間にわたるオーディエンスサイズの変更やオーディエンスの突然のスパイクにより、オファーの成功など、オーディエンスの縮小または増加を引き起こしたイベントやアクションをハイライト表示できます。
+ダッシュボードでは、重要なオーディエンス間の重複を視覚的に表示し、貴重なオーディエンスのトレンドを探索することをサポートします。例えば、特定の期間にわたるオーディエンスサイズの変化やオーディエンスの急増により、成功したオファーなど、オーディエンスの縮小や増加の原因となったイベントやアクションをハイライト表示できます。
 
 ![](assets/audiences-overview.png)
 
 オーディエンスポータルから、標準化されたラベル付け、ガバナンスコントロール、検索可能なフォルダー、タグを使用して、オーディエンスを簡単に管理、検索、探索できます。
 
-オーディエンスポータルでオーディエンスを操作する方法について詳しくは、[Adobe Experience Platform セグメント化サービスのドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja){target="_blank"} を参照してください。
+オーディエンスポータルでオーディエンスを操作する方法について詳しくは、[Adobe Experience Platform セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja){target="_blank"}を参照してください。
 
 ## オーディエンスタイプ {#types}
 
