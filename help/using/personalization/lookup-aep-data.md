@@ -10,14 +10,24 @@ role: Data Engineer
 level: Intermediate
 keywords: 式, エディター
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: 97a791329f35ba64a1dca9aef7802e0f4103dbe5
+source-git-commit: baca603427ebba9ecb843b3c8d219c40354dde0f
 workflow-type: tm+mt
-source-wordcount: '1114'
-ht-degree: 91%
+source-wordcount: '1246'
+ht-degree: 82%
 
 ---
 
 # Adobe Experience Platform データをパーソナライゼーションに使用する{#aep-data}
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_rules_dataset_lookup"
+>title="データセットルックアップ"
+>abstract="決定ルールでAdobe Experience Platform データを使用すると、動的な外部属性に基づいて実施要件条件を定義し、関連する場合にのみ決定項目が表示されるようにすることができます。 マッピングを作成し、Adobe Experience Platform データセットを [!DNL Journey Optimizer] のデータと結合する方法を定義します。 必要な属性を持つデータセットを選択し、決定項目属性とデータセットの両方に存在する結合キーを選択します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_formula_dataset_lookup"
+>title="データセットルックアップ"
+>abstract="ランキング式は、決定項目の優先度を定義します。 データセット属性 [!DNL Adobe Experience Platform] 使用すると、実際の条件を反映するようにランキングロジックを動的に調整できます。 マッピングを作成し、Adobe Experience Platform データセットを [!DNL Journey Optimizer] のデータと結合する方法を定義します。 必要な属性を持つデータセットを選択し、決定項目属性とデータセットの両方に存在する結合キーを選択します"
 
 >[!AVAILABILITY]
 >
@@ -136,7 +146,7 @@ API 呼び出しを使用してデータセットの参照パーソナライゼ�
 
    ![](assets/aep-data-dataset.png)
 
-   +++
++++
 
 1. ニーズに合わせて構文を調整します。この例では、乗客のフライトに関連するデータを取得します。構文は以下の通りです。
 
@@ -167,7 +177,7 @@ API 呼び出しを使用してデータセットの参照パーソナライゼ�
 
      ![](assets/aep-data-field.png)
 
-     +++
++++
 
    この例では、乗客の搭乗時間と搭乗口に関する情報を使用します。したがって、次の 2 行を追加します。
 
