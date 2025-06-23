@@ -9,10 +9,10 @@ level: Intermediate
 badge: label="限定提供" type="Informative"
 keywords: 公開, ジャーニー, ライブ, 有効性, 確認
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 8f3d619adfb7b2f3dd876da7a3a6eba1fda6dd6b
+source-git-commit: f2e13aa4bbc27e8197b5e6db44763ffbabdc0ebc
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 86%
+source-wordcount: '984'
+ht-degree: 81%
 
 ---
 
@@ -51,6 +51,13 @@ ht-degree: 86%
 1. **オーディエンスインサイト**：ジャーニー実務担当者は、オプトアウト、除外、その他の条件を含む様々なジャーニーノードでオーディエンスの到達可能性を予測できます。
 1. **リアルタイムフィードバック**：指標は、ライブレポートと同様に、ジャーニーキャンバスに直接表示され、ジャーニー実務担当者はジャーニーのデザインを調整できます。
 
+ドライラン中、ジャーニーは次の特性で実行されます。
+
+* **チャネルアクション** メール、SMS、プッシュ通知などのノードが実行されない
+* **カスタムアクション** は、ドライラン中は無効になり、応答は null に設定されます
+* **待機ノード**は、ドライラン中はバイパスされます。
+  <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
+* 外部データソースを含む **データソース** は、デフォルトで実行されます
 
 >[!CAUTION]
 >
@@ -86,7 +93,7 @@ ht-degree: 86%
 
 アクティビティごとに、次の項目を確認できます。
 
-* **[!UICONTROL エントリ済み]**：このアクティビティにエントリ済みの個人の合計数。
+* **[!UICONTROL 入力済み]**：このアクティビティにエントリした個人の合計数。 **アクション** アクティビティの場合、ドライランモードでは実行されないので、この指標は、プロファイルがを通過することを示します。
 * **[!UICONTROL 退出済み（終了基準を満たす）]**：終了基準に従って、そのアクティビティからジャーニーを退出した個人の合計数。
 * **[!UICONTROL 離脱済み（強制離脱）]**：ジャーニー実務担当者の設定により、一時停止中にジャーニーを離脱した個人の合計数。ドライランモードのジャーニーでは、この指標は常にゼロになります。
 * **[!UICONTROL エラー]**：そのアクティビティでエラーが発生した個人の合計数。
@@ -127,10 +134,4 @@ ht-degree: 86%
    * `_experience.journeyOrchestration.stepEvents.inDryRun` は、ドライランがアクティブ化されている場合は `true` を返し、それ以外の場合は `false` を返します
    * `_experience.journeyOrchestration.stepEvents.dryRunID` は、ドライランインスタンスの ID を返します
 
-* ドライラン中、ジャーニーは次の特性で実行されます。
-
-   * **チャネルアクション** メール、SMS、プッシュ通知などのノードが実行されない
-   * **カスタムアクション** は、ドライラン中は無効になり、応答は null に設定されます
-   * **待機ノード**&#x200B;は、ドライラン中はバイパスされます。
-     <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
-   * 外部データソースを含む **データソース** は、デフォルトで実行されます
+* Adobe Experience Platform クエリサービスを使用してジャーニーレポート指標を分析する場合は、ドライランで生成されたステップイベントを除外する必要があります。 これを実行するには、`inDryRun` フラグを `false` に設定します。
