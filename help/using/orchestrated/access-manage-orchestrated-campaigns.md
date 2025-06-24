@@ -7,10 +7,10 @@ badge: label="アルファ版"
 hide: true
 hidefromtoc: true
 exl-id: 7b42d317-cd01-4c6a-b61e-5b03e5a8ff3c
-source-git-commit: e1cb8bc75a5d7d7e43c641ffe7e164bbc1ac1086
+source-git-commit: f8fa52c89659918ef3837f88ddb03c219239f4ee
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 19%
+source-wordcount: '717'
+ht-degree: 18%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 19%
 
 | 調整されたキャンペーンへようこそ | 最初の調整されたキャンペーンの開始 | データベースのクエリ | 調整されたキャンペーンアクティビティ |
 |---|---|---|---|
-| [ オーケストレーションされたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)<br/><br/>[ 設定手順 ](configuration-steps.md)<br/><br/><b>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md)</b> | [ オーケストレーションされたキャンペーンの作成 ](gs-campaign-creation.md)<br/><br/>[ キャンペーンの作成とスケジュール設定 ](create-orchestrated-campaign.md)<br/><br/>[ アクティビティのオーケストレーション ](orchestrate-activities.md)<br/><br/>[ オーケストレーションされたキャンペーンでのメッセージの送信 ](send-messages.md)<br/><br/>[ キャンペーンの開始と監視 ](start-monitor-campaigns.md)<br/><br/>[ レポート ](reporting-campaigns.md) | [ ルールビルダーの操作 ](orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリの作成 ](build-query.md)<br/><br/>[ 式の編集 ](edit-expressions.md) | [ アクティビティの基本を学ぶ ](activities/about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションを変更 ](activities/change-dimension.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) - [ 分割 ](activities/split.md) [&#128279;](activities/wait.md) - |
+| [ オーケストレーションされたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)<br/><br/>[ 設定手順 ](configuration-steps.md)<br/><br/><b>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md)</b> | [ オーケストレーションされたキャンペーンの作成 ](gs-campaign-creation.md)<br/><br/>[ キャンペーンの作成とスケジュール設定 ](create-orchestrated-campaign.md)<br/><br/>[ アクティビティのオーケストレーション ](orchestrate-activities.md)<br/><br/>[ オーケストレーションされたキャンペーンでのメッセージの送信 ](send-messages.md)<br/><br/>[ キャンペーンの開始と監視 ](start-monitor-campaigns.md)<br/><br/>[ レポート ](reporting-campaigns.md) | [ ルールビルダーの操作 ](orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリの作成 ](build-query.md)<br/><br/>[ 式の編集 ](edit-expressions.md) | [ アクティビティの基本を学ぶ ](activities/about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションを変更 ](activities/change-dimension.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) - [ 分割 ](activities/split.md) [ ](activities/wait.md) - |
 
 {style="table-layout:fixed"}
 
@@ -48,13 +48,11 @@ ht-degree: 19%
 
 また、検索バーとフィルターを使用して、リスト内での検索を簡単にすることができます。例えば、オーケストレーションされたキャンペーンをフィルタリングして、特定のチャネルやタグに関連付けられているキャンペーンや、特定の日付範囲内に作成されたキャンペーンのみを表示できます。
 
-
 キャンペーンインベントリの ![ 「その他のアクション」ボタンを示す画像 ](assets/do-not-localize/rule-builder-icon-more.svg) ボタンを使用すると、以下に説明する様々な操作を実行できます。
 
 ![ キャンペーンインベントリの画像 ](assets/inventory-actions.png)
 
-* **[!UICONTROL すべての時間レポートを表示]** -
-* **[!UICONTROL 過去 24 時間のレポートを表示]** -
+* **[!UICONTROL すべての時間レポートを表示]** / **[!UICONTROL 過去 24 時間のレポートを表示]** - レポートにアクセスして、オーケストレーションされたキャンペーンの影響とパフォーマンスを測定および視覚化します。 [ オーケストレートキャンペーンレポートについて詳しくはこちらを参照 ](../orchestrated/reporting-campaigns.md)
 * **[!UICONTROL タグを編集]** - キャンペーンに関連付けられたタグを編集します。
 * **[!UICONTROL 複製]** – 停止されたキャンペーンを実行したり、スケジュールされたキャンペーンの実行頻度を変更したりするために、オーケストレーションされたキャンペーンを複製する必要がある場合があります。
 * **[!UICONTROL 削除]** - キャンペーンを削除します。 このアクションは、**[!UICONTROL ドラフト]** キャンペーンでのみ使用できます。
