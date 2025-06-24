@@ -7,10 +7,10 @@ badge: label="アルファ版"
 hide: true
 hidefromtoc: true
 exl-id: 7b42d317-cd01-4c6a-b61e-5b03e5a8ff3c
-source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
+source-git-commit: e1cb8bc75a5d7d7e43c641ffe7e164bbc1ac1086
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 21%
+source-wordcount: '697'
+ht-degree: 19%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 21%
 
 | 調整されたキャンペーンへようこそ | 最初の調整されたキャンペーンの開始 | データベースのクエリ | 調整されたキャンペーンアクティビティ |
 |---|---|---|---|
-| [ オーケストレーションされたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)<br/><br/>[ 設定手順 ](configuration-steps.md)<br/><br/><b>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md)</b> | [ オーケストレーションされたキャンペーンの作成 ](gs-campaign-creation.md)<br/><br/>[ キャンペーンの作成とスケジュール設定 ](create-orchestrated-campaign.md)<br/><br/>[ アクティビティのオーケストレーション ](orchestrate-activities.md)<br/><br/>[ オーケストレーションされたキャンペーンでのメッセージの送信 ](send-messages.md)<br/><br/>[ キャンペーンの開始と監視 ](start-monitor-campaigns.md)<br/><br/>[ レポート ](reporting-campaigns.md) | [ ルールビルダーの操作 ](orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリの作成 ](build-query.md)<br/><br/>[ 式の編集 ](edit-expressions.md) | [ アクティビティの基本を学ぶ ](activities/about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションを変更 ](activities/change-dimension.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) - [ 分割 ](activities/split.md) [&#128279;](activities/wait.md) - |
+| [ オーケストレーションされたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)<br/><br/>[ 設定手順 ](configuration-steps.md)<br/><br/><b>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md)</b> | [ オーケストレーションされたキャンペーンの作成 ](gs-campaign-creation.md)<br/><br/>[ キャンペーンの作成とスケジュール設定 ](create-orchestrated-campaign.md)<br/><br/>[ アクティビティのオーケストレーション ](orchestrate-activities.md)<br/><br/>[ オーケストレーションされたキャンペーンでのメッセージの送信 ](send-messages.md)<br/><br/>[ キャンペーンの開始と監視 ](start-monitor-campaigns.md)<br/><br/>[ レポート ](reporting-campaigns.md) | [ ルールビルダーの操作 ](orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリの作成 ](build-query.md)<br/><br/>[ 式の編集 ](edit-expressions.md) | [ アクティビティの基本を学ぶ ](activities/about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションを変更 ](activities/change-dimension.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) - [ 分割 ](activities/split.md) [ ](activities/wait.md) - |
 
 {style="table-layout:fixed"}
 
@@ -48,11 +48,23 @@ ht-degree: 21%
 
 また、検索バーとフィルターを使用して、リスト内での検索を簡単にすることができます。例えば、オーケストレーションされたキャンペーンをフィルタリングして、特定のチャネルやタグに関連付けられているキャンペーンや、特定の日付範囲内に作成されたキャンペーンのみを表示できます。
 
+
+キャンペーンインベントリの ![ 「その他のアクション」ボタンを示す画像 ](assets/do-not-localize/rule-builder-icon-more.svg) ボタンを使用すると、以下に説明する様々な操作を実行できます。
+
+![ キャンペーンインベントリの画像 ](assets/inventory-actions.png)
+
+* **[!UICONTROL すべての時間レポートを表示]** -
+* **[!UICONTROL 過去 24 時間のレポートを表示]** -
+* **[!UICONTROL タグを編集]** - キャンペーンに関連付けられたタグを編集します。
+* **[!UICONTROL 複製]** – 停止されたキャンペーンを実行したり、スケジュールされたキャンペーンの実行頻度を変更したりするために、オーケストレーションされたキャンペーンを複製する必要がある場合があります。
+* **[!UICONTROL 削除]** - キャンペーンを削除します。 このアクションは、**[!UICONTROL ドラフト]** キャンペーンでのみ使用できます。
+* **[!UICONTROL アーカイブ]** - キャンペーンをアーカイブします。 アーカイブされたすべてのキャンペーンは、最終変更日から 30 日後にローリング再スケジュールで削除されます。 このアクションは、「ドラフト **[!UICONTROL キャンペーンを除くすべてのキャンペーンで使用]** きます。
+
 ## オーケストレーションされたキャンペーンの内部とは {#gs-ms-campaign-inside}
 
 調整されたキャンペーンキャンバスは、実行される処理を表現したものです。 これは、実行される様々なタスクと、タスク同士の関係を示すものです。
 
-![ 調整されたキャンペーンキャンバスを示す画像 ](assets/canvas-example.png){zoomable="yes"}{zoomable="yes"}
+![ 調整されたキャンペーンキャンバスを示す画像 ](assets/canvas-example.png)
 
 調整された各キャンペーンには、次が含まれます。
 
@@ -76,26 +88,6 @@ recurring started à s&#39;executer , fait une query .click close: va continuer 
 * **[!UICONTROL ライブ]**：オーケストレーションされたキャンペーンが公開され、実行中です。
 * **[!UICONTROL スケジュール済み]**：オーケストレーションされたキャンペーンの実行がスケジュールされています。
 * **[!UICONTROL 完了]**：オーケストレーションされたキャンペーンの実行が完了しました。 キャンペーンがエラーなしでメッセージの送信を完了してから最大 3 日後に、完了ステータスが自動的に割り当てられます。
-* **[!UICONTROL 終了]**：このステータスは、繰り返しキャンペーンが停止されたときに表示されます。
-<!--Comment une campaign devient Closed?
-[CPR] : A vérifier avec Fred si cette fonctionalité est toujours d'actualité. Normalement c'est sur action de l'utilisateur sur une campaine récurrente only
-= pas trouvé--> cexui qsui sont déjà entrés ocnitnuent. on ferme les portes d'entrée.
-
+* **[!UICONTROL クローズ]**：このステータスは、繰り返しキャンペーンがクローズされたときに表示されます。 キャンペーンは、すべてのアクティビティが完了するまで実行を続けますが、それ以上プロファイルをキャンペーンにエントリさせることはできません。
 * **[!UICONTROL アーカイブ済み]**：オーケストレーションされたキャンペーンはアーカイブされています。 アーカイブされたすべてのキャンペーンは、最終変更日から 30 日後にローリング再スケジュールで削除されます。 必要に応じて、アーカイブしたキャンペーンを複製して、作業を続行できます。
-<!--Comment une campaign devient Archived?
-[CPR] : Soit par action manuel sur une campagne en statut "final" (Completed, Closed, Stopped, etc. ...) bouton bientôt visible. possible pour tout sauf les draft.
-= pas trouvé -->
 * **[!UICONTROL 停止]**：オーケストレーションされたキャンペーンの実行が停止しました。 キャンペーンを再度開始するには、複製する必要があります。 si erur ,restera avec triangle
-
-## 調整されたキャンペーンの複製と削除 {#duplicate-delete}
-
-停止されたキャンペーンを実行したり、スケジュールされたキャンペーンの実行頻度を変更したりするために、オーケストレーションされたキャンペーンを複製する必要が生じる場合があります。 これを行うには、キャンペーンインベントリの「![ その他のアクション」ボタンを示す画像 ](assets/do-not-localize/rule-builder-icon-more.svg) ボタンをクリックし、「複製 **[!UICONTROL を選択します]**
-
-<!--Une fois une campaign Scheduled, on ne peut plus changer l'execution frequency = la solution est de dupliquer la campaign ?
-[CPR] : Actuellement oui, mais on est en discussion pour pouvoir revenir en mode "draft" et quelles seraient les actions à nouveau disponibles. A vérifier avec Fred-->
-
-キャンペーンを削除するには、「![ その他のアクション」ボタンを示す画像 ](assets/do-not-localize/rule-builder-icon-more.svg) ボタンをクリックし、「**[!UICONTROL 削除]**」を選択します。
-
->[!NOTE]
->
->削除できるキャンペーンは **[!UICONTROL ドラフト]** のみです。
