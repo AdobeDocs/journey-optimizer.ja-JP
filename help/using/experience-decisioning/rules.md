@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: ebefeb59a19e831ec7f86cee690a35fe71e14554
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '515'
+ht-degree: 89%
 
 ---
 
@@ -39,6 +39,10 @@ ht-degree: 0%
 決定ルールを作成するには、次の手順に従います。
 
 1. **[!UICONTROL 戦略設定]**／**[!UICONTROL 決定ルール]**&#x200B;に移動し、「**[!UICONTROL ルールを作成]**」ボタンをクリックします。
+
+   >[!NOTE]
+   >
+   >また、Adobe Experience Platformのデータを使用して、外部データで意思決定ロジックを強化することもできます。 これは、製品の可用性やリアルタイムの価格など、頻繁に変更される属性に特に便利です。 この機能は現在、パブリックベータ版としてすべてのお客様にご使用いただけます。アクセスをご希望の場合は、アカウント担当者にお問い合わせください。 [ 決定にAdobe Experience Platform データを使用する方法を説明します ](../experience-decisioning/aep-data-exd.md)
 
 1. 決定ルール作成画面が開きます。ルールに名前を付け、説明を入力します。
 

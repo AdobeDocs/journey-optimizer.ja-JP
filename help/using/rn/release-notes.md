@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
+source-git-commit: ebefeb59a19e831ec7f86cee690a35fe71e14554
 workflow-type: tm+mt
-source-wordcount: '1179'
+source-wordcount: '1176'
 ht-degree: 72%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 72%
 
 **リリース日**：2025年6月18日（PT）
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新機能 {#25-06-features}
 
@@ -201,7 +201,7 @@ ht-degree: 72%
 <tr>
 <td>
 <p>以前はパーソナライズ機能で使用できましたが、Adobe Experience Platform データセットを意思決定に活用できるようになりました。 これにより、決定属性の定義をデータセット内の追加データに拡張して、定期的に変更される一括更新を行うことができます。属性を 1 つずつ手動で更新する必要はありません。 例えば、可用性、待機時間など。</p>
-<p>この機能は現在、パブリックベータ版としてすべてのお客様にご使用いただけます。この機能へのアクセスを希望する場合は、アカウント担当者にお問い合わせください</p>
+<p>この機能は現在、パブリックベータ版としてすべてのお客様にご使用いただけます。アクセスをご希望の場合は、アカウント担当者にお問い合わせください。</p>
 <p>詳しくは、<a href="../experience-decisioning/aep-data-exd.md">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2025 年 6 月 20 日（PT）</p>
 </td>

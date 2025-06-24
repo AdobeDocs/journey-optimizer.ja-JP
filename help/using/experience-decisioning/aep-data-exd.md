@@ -9,14 +9,15 @@ topic: Personalization
 role: Data Engineer
 level: Intermediate
 keywords: 式, エディター
-source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
+exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
+source-git-commit: ebefeb59a19e831ec7f86cee690a35fe71e14554
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 2%
+source-wordcount: '840'
+ht-degree: 4%
 
 ---
 
-# Adobe Experience Platform データを意思決定に使用する{#aep-data}
+# Adobe Experience Platform データを意思決定に使用する {#aep-data}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_rules_dataset_lookup"
@@ -30,7 +31,7 @@ ht-degree: 2%
 
 >[!AVAILABILITY]
 >
->この機能は、現在、パブリックベータ版としてすべてのお客様が利用できます。 この機能へのアクセスを希望する場合は、アカウント担当者にお問い合わせください
+>この機能は現在、パブリックベータ版としてすべてのお客様にご使用いただけます。アクセスをご希望の場合は、アカウント担当者にお問い合わせください。
 
 [!DNL Journey Optimizer] を使用すると、[!DNL Adobe Experience Platform] のデータを意思決定に活用できます。 これにより、決定属性の定義をデータセット内の追加データに拡張して、定期的に変更される一括更新を行うことができます。属性を 1 つずつ手動で更新する必要はありません。 例えば、可用性、待機時間など。
 

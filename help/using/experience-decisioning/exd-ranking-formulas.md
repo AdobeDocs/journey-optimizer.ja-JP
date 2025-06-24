@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
-source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
+source-git-commit: ebefeb59a19e831ec7f86cee690a35fe71e14554
 workflow-type: tm+mt
-source-wordcount: '1179'
-ht-degree: 100%
+source-wordcount: '1246'
+ht-degree: 95%
 
 ---
 
@@ -58,6 +58,10 @@ ht-degree: 100%
 
    * [ユーザーインターフェイス](#ranking-select-criteria)から「**[!UICONTROL 条件]**」セクションに入力する。
    * [コードエディター](#ranking-code-editor)に切り替える。
+
+   >[!NOTE]
+   >
+   >また、Adobe Experience Platformのデータを使用して、実際の状況に合わせてランキングロジックを動的に調整することもできます。 これは、製品の可用性やリアルタイムの価格など、頻繁に変更される属性に特に便利です。 この機能は現在、パブリックベータ版としてすべてのお客様にご使用いただけます。アクセスをご希望の場合は、アカウント担当者にお問い合わせください。 [ 決定にAdobe Experience Platform データを使用する方法を説明します ](../experience-decisioning/aep-data-exd.md)
 
 <!--## Select an ELS dataset {#els-dataset}
 
