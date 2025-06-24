@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8f3d619adfb7b2f3dd876da7a3a6eba1fda6dd6b
+source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1179'
+ht-degree: 72%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 **リリース日**：2025年6月18日（PT）
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新機能 {#25-06-features}
 
@@ -191,6 +191,24 @@ ht-degree: 0%
 </table>
 
 
+<table>
+<thead>
+<tr>
+<th><strong>意思決定のAdobe Experience Platform データセット（ベータ版）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>以前はパーソナライズ機能で使用できましたが、Adobe Experience Platform データセットを意思決定に活用できるようになりました。 これにより、決定属性の定義をデータセット内の追加データに拡張して、定期的に変更される一括更新を行うことができます。属性を 1 つずつ手動で更新する必要はありません。 例えば、可用性、待機時間など。</p>
+<p>この機能は現在、パブリックベータ版としてすべてのお客様にご使用いただけます。この機能へのアクセスを希望する場合は、アカウント担当者にお問い合わせください</p>
+<p>詳しくは、<a href="../experience-decisioning/aep-data-exd.md">詳細なドキュメント</a>を参照してください。</p>
+<p>公開日：2025 年 6 月 20 日（PT）</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ### 機能強化 {#25-06-improv}
 
 このリリースに含まれる機能強化を以下に示します。
@@ -219,13 +237,11 @@ ht-degree: 0%
 
   新しいナビゲーションパターンにより、コンテンツオーサリングにすばやくアクセスでき、キャンペーン全体でさらに設定を拡張できます。 [詳細情報](../campaigns/create-campaign.md)
 
-* **決定** - リリース日：2025年6月3日（PT）
+* **決定**
 
-  決定オブジェクトをサンドボックス間でコピーできるようになり、テストとデプロイメントのワークフローを効率化できるようになりました。[詳細情報](../configuration/copy-objects-to-sandbox.md#decisioning)
+   * **サンドボックスのコピーと決定** （公開日：2025 年 6 月 3 日（PT）） – 決定オブジェクトをサンドボックス間でコピーできるようになり、テストおよびデプロイメントワークフローを合理化します。 [詳細情報](../configuration/copy-objects-to-sandbox.md#decisioning)
 
-* **決定ルールの決定項目属性のサポート** – リリース日：2025年6月4日（PT）
-
-  決定項目属性を活用して、決定ルールを作成できるようになりました。[詳細情報](../experience-decisioning/rules.md#create)
+   * **決定ルール用の決定項目属性のサポート** （公開日：2025 年 6 月 4 日（PT）） – 決定項目属性を活用して決定ルールを作成できるようになりました。 [詳細情報](../experience-decisioning/rules.md#create)
 
 * **インタラクティブメッセージ実行 API の更新** – リリース日：2025年6月6日（PT）
 

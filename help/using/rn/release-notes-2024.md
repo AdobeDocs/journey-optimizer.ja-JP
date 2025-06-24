@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
-workflow-type: ht
+source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
+workflow-type: tm+mt
 source-wordcount: '6783'
 ht-degree: 100%
 
@@ -265,7 +265,7 @@ ht-degree: 100%
 <td>
 <p>パーソナライゼーションエディターで Adobe Experience Platform のデータを利用して、コンテンツをパーソナライズします。これを行うには、まず、API 呼び出しを通じて参照パーソナライゼーションに必要なデータセットを有効にする必要があります。完了したら、そのデータを使用して、コンテンツを [!DNL Journey Optimizer] にパーソナライズできます。</p>
 <p>この機能は現在、パブリックベータ版としてすべてのお客様に対して使用可能です。</p>
-<p>詳しくは、 <a href="../personalization/lookup-aep-data.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、 <a href="../personalization/aep-data-perso.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>

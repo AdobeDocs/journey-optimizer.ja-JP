@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2462'
+ht-degree: 97%
 
 ---
 
@@ -372,7 +372,7 @@ ht-degree: 0%
       + [パーソナライゼーションの追加](using/personalization/personalization-build-expressions.md)
       + [パーソナライゼーション構文](using/personalization/personalization-syntax.md)
       + [式フラグメントの再利用](using/personalization/use-expression-fragments.md)
-      + [パーソナライゼーションへの Adobe Experience Platform データの使用（ベータ版）](using/personalization/lookup-aep-data.md)
+      + [Adobe Experience Platform データをパーソナライズ機能に活用（ベータ版）](using/personalization/aep-data-perso.md)
       + ヘルパー関数リスト {#functions}
          + [ヘルパー関数の基本を学ぶ](using/personalization/functions/functions.md)
          + [集計関数](using/personalization/functions/aggregation.md)
@@ -553,6 +553,7 @@ ht-degree: 0%
          + [ランキング方法の作成](using/experience-decisioning/ranking.md)
          + [AI 式ビルダーの使用](using/experience-decisioning/exd-ranking-formulas.md)
          + [コンテキストデータの活用](using/experience-decisioning/context-data.md)
+         + [Adobe Experience Platformを決定に使用](using/experience-decisioning/aep-data-exd.md)
       + [選択戦略の作成](using/experience-decisioning/selection-strategies.md)
       + [決定ポリシーを作成](using/experience-decisioning/create-decision.md)
       + [決定に関するレポート](using/experience-decisioning/cja-reporting.md)
@@ -705,6 +706,7 @@ ht-degree: 0%
 + データ管理 {#data-management}
    + [データ管理の基本を学ぶ](using/data/gs-data.md)
    + [スキーマの操作](using/data/get-started-schemas.md)
+   + [Journey OptimizerでのAdobe Experience Platform データの使用](using/data/lookup-aep-data.md)
    + Journey Optimizer データセット {#datasets}
       + [データセットの基本を学ぶ](using/data/get-started-datasets.md)
       + [データセットの有効期間（TTL）ガードレール](using/data/datasets-ttl.md)
