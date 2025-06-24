@@ -7,10 +7,10 @@ badge: label="アルファ版"
 hide: true
 hidefromtoc: true
 exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
-source-git-commit: f8fa52c89659918ef3837f88ddb03c219239f4ee
+source-git-commit: 19e3e261f076a158a513a84e993db5851d9cf577
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 22%
+source-wordcount: '388'
+ht-degree: 16%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 22%
 
 | 調整されたキャンペーンへようこそ | 最初の調整されたキャンペーンの開始 | データベースのクエリ | 調整されたキャンペーンアクティビティ |
 |---|---|---|---|
-| [ オーケストレーションされたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)<br/><br/>[ 設定手順 ](configuration-steps.md)<br/><br/>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md) | [ オーケストレーションされたキャンペーンの作成 ](gs-campaign-creation.md)<br/><br/>[ キャンペーンの作成とスケジュール設定 ](create-orchestrated-campaign.md)<br/><br/>[ アクティビティのオーケストレーション ](orchestrate-activities.md)<br/><br/>[ オーケストレーションされたキャンペーンでのメッセージの送信 ](send-messages.md)<br/><br/>[ キャンペーンの開始と監視 ](start-monitor-campaigns.md)<br/><br/>[ レポート ](reporting-campaigns.md) | <b>[ ルールビルダーの操作 ](orchestrated-rule-builder.md)</b><br/><br/>[ 最初のクエリの作成 ](build-query.md)<br/><br/>[ 式の編集 ](edit-expressions.md) | [ アクティビティの基本を学ぶ ](activities/about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションを変更 ](activities/change-dimension.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) - [ 分割 ](activities/split.md) [&#128279;](activities/wait.md) - |
+| [ オーケストレーションされたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)<br/><br/>[ 設定手順 ](configuration-steps.md)<br/><br/>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md) | [ オーケストレーションされたキャンペーンの作成 ](gs-campaign-creation.md)<br/><br/>[ キャンペーンの作成とスケジュール設定 ](create-orchestrated-campaign.md)<br/><br/>[ アクティビティのオーケストレーション ](orchestrate-activities.md)<br/><br/>[ オーケストレーションされたキャンペーンでのメッセージの送信 ](send-messages.md)<br/><br/>[ キャンペーンの開始と監視 ](start-monitor-campaigns.md)<br/><br/>[ レポート ](reporting-campaigns.md) | <b>[ ルールビルダーの操作 ](orchestrated-rule-builder.md)</b><br/><br/>[ 最初のクエリの作成 ](build-query.md)<br/><br/>[ 式の編集 ](edit-expressions.md) | [ アクティビティの基本を学ぶ ](activities/about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションを変更 ](activities/change-dimension.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) - [ 分割 ](activities/split.md) [ ](activities/wait.md) - |
 
 {style="table-layout:fixed"}
 
@@ -31,13 +31,17 @@ ht-degree: 22%
 
 オーケストレートキャンペーンには、様々な条件に基づいてデータベースをフィルタリングするプロセスを簡素化するルールビルダーが付属しています。 ルールビルダーは、非常に複雑で長いクエリを効率的に管理し、柔軟性と精度を向上させます。
 
-また、条件内で定義済みフィルターをサポートしているので、ユーザーは包括的なオーディエンスのターゲティングとセグメント化戦略に高度な式と演算子を利用しながら、クエリを簡単に絞り込むことができます。
+また、条件内で定義済みフィルターもサポートされているので、高度な式や演算子を利用して包括的なオーディエンスのターゲティングやセグメント化戦略を行いながら、簡単にクエリを絞り込むことができます。
 
 ## ルールビルダーへのアクセス
 
-ルールビルダーは、**[!UICONTROL オーディエンスを作成]** アクティビティでクエリを作成してオーディエンスをターゲットにする際に使用できます。 ターゲットにする母集団を指定し、ニーズに合わせて新しいオーディエンスを簡単に作成できます。
+クエリモデラーは、データをフィルタリングするルールを定義する必要があるすべてのコンテキストで使用できます。
 
-![ オーディエンスを作成アクティビティを示す画像 ](assets/rule-builder-query.png)
+| 用途 | 例 |
+|  ---  |  ---  |
+| **オーディエンスの作成**:**[!UICONTROL オーディエンスの作成]** アクティビティを使用して、オーケストレーションされたキャンペーンでターゲットにする母集団を指定し、ニーズに合わせて新しいオーディエンスを簡単に作成します。 [詳しくは、オーディエンスの作成方法を参照してください。](../orchestrated/activities/build-audience.md) | ![ オーディエンス作成インターフェイスへのアクセス方法を示す画像 ](assets/query-access-audience.png){width="200" align="center" zoomable="yes"} |
+| **キャンペーンキャンバスでの条件の作成**:**[!UICONTROL 分割]** アクティビティを使用して、キャンペーンキャンバス内でルールを適用し、特定の要件に合わせます。 [ 分割アクティビティの使用方法を学ぶ ](../orchestrated/activities/split.md) | ![ ワークフローのカスタマイズオプションへのアクセス方法を示す画像 ](assets/query-access-split.png){width="200" align="center" zoomable="yes"} |
+| **詳細フィルターの作成**：ワークフローログやターゲティングディメンションなどのリストに表示されるデータをフィルタリングするルールを作成します。 | ![ リストフィルターのカスタマイズ方法を示す画像 ](assets/query-access-advanced-filters.png){width="200" align="center" zoomable="yes"} |
 
 ## ルールビルダーインターフェイス {#interface}
 
