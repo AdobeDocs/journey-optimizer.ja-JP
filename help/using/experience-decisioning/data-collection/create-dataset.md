@@ -7,10 +7,10 @@ feature: Ranking, Decision Management, Datasets
 role: Data Engineer, Developer
 level: Experienced
 exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
-source-git-commit: 42b7b7fe7ab6380ca54e05ab0905f2517f489782
+source-git-commit: 9f77bb0bfae48e879335f72f07f106a2f0472f45
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '255'
+ht-degree: 85%
 
 ---
 
@@ -69,4 +69,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->これで、[AI モデルの作成] ()時に、イベントデータを収集するデータセットを選択できる状態になりました。
+>これで、AI モデルの作成時に、イベントデータを収集するデータセットを選択できる <!--add link to Creat AI models section--> うになりました。
