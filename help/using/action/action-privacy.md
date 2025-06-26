@@ -25,7 +25,7 @@ ht-degree: 95%
 
 ## データガバナンスポリシーの基本を学ぶ {#gs}
 
-Adobe Experience Platformは [Data Usage Labeling and Enforcement （DULE）ガバナンス ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=ja){target="_blank"} フレームワークを使用してフィールドにラベルを付け **** チャネルごとに **マーケティングアクション** を作成することで、チャネル全体でデータガバナンスポリシーを管理および適用できます。
+Adobe Experience Platformは [Data Usage Labeling and Enforcement （DULE）ガバナンス ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=ja){target="_blank"} フレームワークを使用してフィールドにラベルを付け **&#x200B;**&#x200B;チャネルごとに **マーケティングアクション** を作成することで、チャネル全体でデータガバナンスポリシーを管理および適用できます。
 
 ラベルとマーケティングアクションを定義したら、これら 2 つの要素をリンクする&#x200B;**データガバナンスポリシー**&#x200B;を作成できます。例えば、「ePHI」ラベルを「メールターゲティング」マーケティングアクションに関連付けるポリシーを設定して、「ePHI」というラベルの付いたフィールドをメールメッセージのパーソナライズに使用しないようにすることができます。[データガバナンスポリシーの作成方法を学ぶ](#policy)
 

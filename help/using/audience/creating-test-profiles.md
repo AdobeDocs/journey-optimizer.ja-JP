@@ -168,7 +168,7 @@ Adobe Experience Platform では、様々なプロファイルフィールドを
 1. プロファイルごとに 1 行追加し、各フィールドの値を入力します。
    ![](assets/test-profiles-12.png)
 1. スプレッドシートを CSV ファイルとして保存します。カンマが区切り記号として使用されていることを確認します。
-1. Adobe Experience Platform **ワークフロー**を参照します。
+1. Adobe Experience Platform **ワークフロー**&#x200B;を参照します。
    ![](assets/test-profiles-14.png)
 1. 「**CSV を XDM スキーマにマッピング**」を選択し、「**開始**」をクリックします。
    ![](assets/test-profiles-16.png)
