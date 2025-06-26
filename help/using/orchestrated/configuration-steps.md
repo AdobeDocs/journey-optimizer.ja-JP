@@ -7,10 +7,10 @@ badge: label="アルファ版"
 hide: true
 hidefromtoc: true
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: f8fa52c89659918ef3837f88ddb03c219239f4ee
+source-git-commit: 10333b4dab32abe87b1e8b4f3e4d7b1e72eafb50
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 16%
+source-wordcount: '1008'
+ht-degree: 24%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 16%
 
 | 調整されたキャンペーンへようこそ | 最初の調整されたキャンペーンの開始 | データベースのクエリ | 調整されたキャンペーンアクティビティ |
 |---|---|---|---|
-| [ オーケストレーションされたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)<br/><br/><b>[ 設定手順 ](configuration-steps.md)</b><br/><br/>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md) | [ オーケストレーションされたキャンペーンの作成 ](gs-campaign-creation.md)<br/><br/>[ キャンペーンの作成とスケジュール設定 ](create-orchestrated-campaign.md)<br/><br/>[ アクティビティのオーケストレーション ](orchestrate-activities.md)<br/><br/>[ オーケストレーションされたキャンペーンでのメッセージの送信 ](send-messages.md)<br/><br/>[ キャンペーンの開始と監視 ](start-monitor-campaigns.md)<br/><br/>[ レポート ](reporting-campaigns.md) | [ ルールビルダーの操作 ](orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリの作成 ](build-query.md)<br/><br/>[ 式の編集 ](edit-expressions.md) | [ アクティビティの基本を学ぶ ](activities/about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションを変更 ](activities/change-dimension.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) - [ 分割 ](activities/split.md) [&#128279;](activities/wait.md) - |
+| [ オーケストレーションされたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)<br/><br/><b>[ 設定手順 ](configuration-steps.md)</b><br/><br/>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md) | [ オーケストレーションされたキャンペーンの作成 ](gs-campaign-creation.md)<br/><br/>[ キャンペーンの作成とスケジュール設定 ](create-orchestrated-campaign.md)<br/><br/>[ アクティビティのオーケストレーション ](orchestrate-activities.md)<br/><br/>[ オーケストレーションされたキャンペーンでのメッセージの送信 ](send-messages.md)<br/><br/>[ キャンペーンの開始と監視 ](start-monitor-campaigns.md)<br/><br/>[ レポート ](reporting-campaigns.md) | [ ルールビルダーの操作 ](orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリの作成 ](build-query.md)<br/><br/>[ 式の編集 ](edit-expressions.md) | [ アクティビティの基本を学ぶ ](activities/about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションを変更 ](activities/change-dimension.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) - [ 分割 ](activities/split.md) [ ](activities/wait.md) - |
 
 {style="table-layout:fixed"}
 
@@ -34,123 +34,164 @@ ht-degree: 16%
 
 >[!ENDSHADEBOX]
 
-<!--
+このガイドでは、リレーショナルスキーマの作成、オーケストレートキャンペーン用のデータセットの設定、S3 ソースを介したデータの取り込み、AP プラットフォームで取り込んだデータのクエリのプロセスについて説明します。
 
-This guide walks you through the process of creating a relational schema, configuring a dataset for orchestrated campaigns, ingesting data via an S3 source, and querying the ingested data in the AP platform. Each step is explained in detail with emphasis on why it is important.
+この例では、設定に 2 つの主要なエンティティ **ロイヤルティトランザクション** と **ロイヤルティ報酬** の統合が含まれており、それらを既存のコアエンティティ **受信者** と **ブランド** にリンクしています。
 
+1. [DDL ファイルのアップロード](#upload-ddl)
 
-You have now:
+   **ロイヤルティトランザクション** および **ロイヤルティ報酬** エンティティを、必要なキーとバージョン属性を含め、調整されたキャンペーンのリレーショナルデータモデルを定義します。
 
-- Created a relational schema
-- Configured a CDC-enabled dataset
-- Ingested data via S3
-- Scheduled and monitored a data flow
-- Queried the ingested data
+1. [エンティティを選択](#entities)
 
-This setup is essential for running orchestrated AGO campaigns effectively and ensuring timely, accurate data synchronization.
+   スキーマ内のテーブル間に意味のある関係を確立し、凝集した相互接続されたデータモデルを作成します。
 
-## Create a relational schema / (-) Upload DDL file 
+1. [スキーマをリンク](#link-schema)
 
-1. Log in to the AP Platform.
+   **ロイヤルティトランザクション** エンティティを **受信者** に、**ロイヤルティ報酬** を **ブランド** にリンクして、パーソナライズされたカスタマージャーニーをサポートする接続されたデータモデルを作成します。
 
-1. Navigate to the **Data Management** > **Schema**.
+1. [データの取り込み](#ingest)
 
-1. Click on **Create Schema**.
+   SFTP、クラウドストレージ、データベースなど、サポートされているソースからAdobe Experience Platformにデータを取り込みます。
 
-1. You will be prompted to select between two schema types:
+## DDL ファイルをアップロード {#upload-ddl}
 
-    * **Standard**
-    * **Relational**, used specifically for orchestrated campaigns
+この節では、DDL （Data Definition Language）ファイルをアップロードしてAdobe Experience Platform内にリレーショナルスキーマを作成する手順を説明します。 DDL ファイルを使用すると、テーブル、属性、キー、関係など、データモデルの構造を事前に定義できます。
 
-    ![](assets/admin_schema_1.png)
+1. AP プラットフォームにログインします。
 
-1. Select **Upload DDL file** to define an entity relationship diagram and create schemas.
+1. **データ管理**/**スキーマ** に移動します。
 
-    The table structure must contain:
-    * At least one primary key
-    * A version identifier, such as a `lastmodified` field of type `datetime` or `number`.
+1. **スキーマを作成** をクリックします。
 
-1. Drag and drop your DDL file and click **[!UICONTROL Next]**.
+1. 次の 2 つのスキーマタイプから選択するように求められます。
 
-1. Set up each schema and its columns, ensuring that a primary key is specified. 
+   * **標準**
+   * **リレーショナル**、オーケストレートキャンペーン専用
 
-    One attribute, such as `lastmodified`, must be designated as a version descriptor. This attribute, typically of type `datetime`, `long`, or `int`, is essential for ingestion processes to ensure that the dataset is updated with the latest data version.
+   ![](assets/admin_schema_1.png)
 
-1. Type-in your **[!UICONTROL Schema name]** and click **[!UICONTROL Done]**.
+1. **DDL ファイルをアップロード** を選択して、エンティティ関係図を定義し、スキーマを作成します。
 
-    ![](assets/admin_schema_2.png)
+   テーブル構造には、次の内容を含める必要があります。
+   * 1 つ以上のプライマリキー
+   * バージョン識別子（`datetime` タイプまたは `number` タイプの `lastmodified` フィールドなど）。
 
-Verify the table and field definitions within the canvas. [Learn more in the section below](#entities)
+1. DDL ファイルをドラッグ&amp;ドロップし、「**[!UICONTROL 次へ]**」をクリックします。
 
-## Select entities {#entities}
+1. **[!UICONTROL スキーマ名]** を入力します。
 
-To create links between tables of your schema, follow these steps:
+1. 各スキーマとその列を設定し、プライマリキーが指定されていることを確認します。
 
-1. Access the canvas view of your data model and choose the two tables you want to link
+   `lastmodified` などの 1 つの属性をバージョン記述子として指定する必要があります。 この属性は、通常 `datetime`、`long` または `int` のタイプで、データセットが最新のデータバージョンで更新されていることを確認するための取り込みプロセスに不可欠です。
 
-1. Click the ![](assets/do-not-localize/Smock_AddCircle_18_N.svg) button next to the Source Join, then drag and guide the arrow towards the Target Join to establish the connection.
+   ![](assets/admin_schema_2.png)
 
-1. Fill in the given form to define the link and click **Apply** once configured.
+1. 完了したら **[!UICONTROL 完了]** をクリックします。
 
-    ![](assets/admin_schema_3.png)
+キャンバス内のテーブルとフィールドの定義を確認できるようになりました。 [ 詳しくは、以下の節を参照してください ](#entities)
 
-    **Cardinality**:
+## エンティティを選択 {#entities}
 
-     * **1-N**: one occurrence of the source table can have several corresponding occurrences of the target table, but one occurrence of the target table can have at most one corresponding occurrence of the source table.
+スキーマ内のテーブル間の論理接続を定義するには、次の手順に従います。
 
-    * **N-1**: one occurrence of the target table can have several corresponding occurrences of the source table, but one occurrence of the source table can have at most one corresponding occurrence of the target table.
+1. データモデルのキャンバスビューにアクセスし、リンクする 2 つのテーブルを選択します
 
-    * **1-1**: one occurrence of the source table can have at most one corresponding occurrence of the target table.
+1. ソース結合の横にある「![](assets/do-not-localize/Smock_AddCircle_18_N.svg)」ボタンをクリックし、矢印をドラッグしてターゲット結合の方向に誘導し、接続を確立します。
 
-1. All links defined in your data model are represented as arrows in the canvas view. Click on an arrow between two tables to view details, make edits, or remove the link as needed.
+   ![](assets/admin_schema_5.png)
 
-1. Use the toolbar to customize and adjust your canvas.
+1. 指定されたフォームに入力してリンクを定義し、設定が完了したら「**適用**」をクリックします。
 
-    ![](assets/toolbar.png)
+   ![](assets/toolbar.png)
 
-    * **Zoom in**: Magnify the canvas to see details of your data model more clearly.
+   **カーディナリティ**:
 
-    * **Zoom out**: Reduce the canvas size for a broader view of your data model.
+   * **一対多**：ソーステーブルの 1 つのオカレンスは、ターゲットテーブルの複数のオカレンスに対応させることができますが、ターゲットテーブルの 1 つのオカレンスは、ソーステーブルの最大 1 つのオカレンスにのみ対応させることができます。
 
-    * **Fit view**: Adjust the zoom to fit all schemas within the visible area.
+   * **多対一**：ターゲットテーブルの 1 つのオカレンスは、ソーステーブルの複数のオカレンスに対応させることができますが、ソーステーブルの 1 つのオカレンスは、ターゲットテーブルの最大 1 つのオカレンスにのみ対応させることができます。
 
-    * **Filter**: Choose which schema to display within the canvas.
+   * **一対一**：ソーステーブルの 1 つのオカレンスは、最大でターゲットテーブルの 1 つのオカレンスに対応させることができます。
 
-    * **Force auto layout**: Automatically arrange schemas for better organization.
+1. データモデルで定義されたすべてのリンクは、キャンバス表示では矢印として表されます。必要に応じて、詳細を表示したり、編集したり、リンクを削除したりするには、2 つのテーブル間の矢印をクリックします。
 
-    * **Display map**: Toggle a minimap overlay to help navigate large or complex schema layouts more easily.
+   ![](assets/admin_schema_6.png)
 
-1. Click **Save** once done. This action creates the schemas and associated data sets, and enables the data set for use in Orchestrated Campaigns.
+1. ツールバーを使用して、キャンバスをカスタマイズおよび調整します。
 
-1. Click **[!UICONTROL Open Jobs]** to monitor the progress of the creation job. This process may take couple minutes, depending on the number of tables defined in the DDL file. 
+   ![](assets/toolbar.png)
 
-    ![](assets/admin_schema_4.png)
+   * **ズームイン**：データモデルの詳細がより明確に表示するには、キャンバスを拡大します。
 
-Doc AEP: https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/tutorials/create-schema-ui
+   * **ズームアウト**：データモデルをより広く表示するには、キャンバスサイズを縮小します。
 
-## Add data
+   * **ビューに合わせる**：表示領域内のすべてのスキーマに合わせてズームを調整します。
 
-1. Set up
+   * **フィルター**：キャンバス内に表示するスキーマを選択します。
 
-1. Connect existing or new account
+   * **自動レイアウトを強制**：スキーマを自動的に配置して、整理を強化します。
 
-1. Select dataset fields
+   * **マップを表示**：ミニマップオーバーレイを切り替えて、大きなスキーマレイアウトや複雑なスキーマレイアウトをより簡単に移動できるようにします。
 
-1. Map desired source fields to target dataset fields
+1. 完了したら **保存** をクリックします。 このアクションにより、スキーマおよび関連するデータセットが作成され、オーケストレートキャンペーンでデータセットを使用できるようになります。
 
-1. 
+1. **[!UICONTROL ジョブを開く]** をクリックして、作成ジョブの進行状況を監視します。 このプロセスには、DDL ファイルで定義されたテーブルの数に応じて、数分かかる場合があります。
 
-## Set up sources
+   ![](assets/admin_schema_4.png)
 
-Adobe Experience Platform allows data to be ingested from external sources while providing you with the ability to structure, label, and enhance incoming data using Experience Platform services. You can ingest data from a variety of sources such as Adobe applications, cloud-based storages, databases, and many others.
+## スキーマをリンク {#link-schema}
 
-6 sources compatible avec data relationel, tout ce qui est fichier (data storage), SFTP, azure blob, amazon S3, database cloud snowflake, 
+**ロイヤルティトランザクション** スキーマと **受信者** スキーマの関係を確立して、各トランザクションを正しい顧客レコードに関連付けます。
 
+1. **[!UICONTROL スキーマ]** に移動し、以前に作成した **ロイヤルティトランザクション** を開きます。
 
-![](assets/admin_sources_1.png)
+1. 顧客 **[!UICONTROL フィールドプロパティ]** から「**[!UICONTROL 関係を追加]**」をクリックします。
 
-https://experienceleague.adobe.com/ja/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload
+   ![](assets/schema_1.png)
 
+1. 関係 **[!UICONTROL タイプ]** として「**[!UICONTROL 多対 1]**」を選択します。
+
+1. 既存の **受信者** スキーマにリンクします。
+
+   ![](assets/schema_2.png)
+
+1. **[!UICONTROL 現在のスキーマからの関係名]** および **[!UICONTROL 参照スキーマからの関係名]** を入力します。
+
+1. 「**[!UICONTROL 適用]**」をクリックして変更を保存します。
+
+**ロイヤルティ報酬** スキーマと **ブランド** スキーマの間の関係を作成し、各報酬エントリを適切なブランドに関連付けて続行します。
+
+![](assets/schema_3.png)
+
+## データの取得 {#ingest}
+
+Adobe Experience Platformを使用すると、データを外部ソースから取得しながら、Experience Platform サービスを使用して、受信データの構造化、ラベル付け、拡張を行うことができます。 アドビのアプリケーション、クラウドベースのストレージ、データベースなど、様々なソースからデータを取り込むことができます。
+
+1. **[!UICONTROL 接続]** メニューから **[!UICONTROL ソース]** メニューにアクセスします。
+
+1. 「**[!UICONTROL クラウドストレージ]**」カテゴリを選択し、「Amazon S3」を選択して、「**[!UICONTROL データを追加]**」をクリックします。
+
+   ![](assets/admin_sources_1.png)
+
+1. S3 アカウントの接続：
+
+   * 既存のアカウントで
+
+   * 新しいアカウントで
+
+   [詳しくは、Adobe Experience Platform ドキュメントを参照してください](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
+
+   ![](assets/admin_sources_2.png)
+
+1. 接続された S3 ソースをナビゲートして、以前に作成した 2 つのフォルダー（**ロイヤルティ報酬** と **ロイヤルティトランザクション** を見つけます。
+
+1. フォルダーをクリックします。
+
+   フォルダーを選択すると、同じ構造を持つ現在および将来のすべてのファイルが自動処理されますが、ファイルを選択すると、新しいデータ増分ごとに手動で更新する必要があります。
+
+   ![](assets/s3_config_1.png)
+
+1. データ形式を選択し、「次へ」をクリックします。
 
 <!--manual
 ## Create a relational schema manual
