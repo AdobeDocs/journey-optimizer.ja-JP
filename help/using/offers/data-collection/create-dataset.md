@@ -6,7 +6,8 @@ description: イベントを収集するデータセットの作成方法を説�
 feature: Ranking, Decision Management, Datasets
 role: Data Engineer, Developer
 level: Experienced
-source-git-commit: bd94edd5be8651fdde5c353a59442ab3f255cfbc
+exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
+source-git-commit: 3b0931a532cc85b316718d590c2e5e78471be890
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 91%

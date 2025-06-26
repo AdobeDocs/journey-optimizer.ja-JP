@@ -5,11 +5,10 @@ feature: Decision Management, Datasets
 topic: Integrations
 role: User, Data Engineer, Developer
 level: Experienced
-exl-id: 278cb255-439c-4ce8-ab59-07df79774b98
-source-git-commit: fdf10ed61a4ea4c542c002e74276613be12cc331
+source-git-commit: dd108b67ec252d391418d8af53de696bf9cd167d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '378'
+ht-degree: 83%
 
 ---
 
@@ -21,7 +20,7 @@ Adobe Experience Platform では、表示されるオファーやユーザーの
 
 * [ 決定レポート ](../cja-reporting.md) の作成
 * キャッピング [ ルール ](../items.md#capping) 使用
-* ランキングメソッドとして使用できる [AI モデル](../ranking/create-ranking-strategies.md)の構築。
+* ランキングメソッドとして使用できる AI モデルの構築 <!--add link-->
 
 ## イベントのタイプ
 
