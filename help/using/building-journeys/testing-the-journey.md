@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: テスト, ジャーニー, チェック, エラー, トラブルシューティング
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: 0f783c57ba946866cb74c2b16e1807ff963cfbaf
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '1768'
-ht-degree: 100%
+source-wordcount: '1767'
+ht-degree: 98%
 
 ---
 
@@ -111,7 +111,7 @@ ID 名前空間は、テストプロファイルを一意に識別するため�
 
 ![](assets/journeytest4.png)
 
-このインターフェイスを使用すると、単純なイベントパラメーターを渡すことができます。イベント内のコレクションや他の高度なオブジェクトを渡す場合は、「**[!UICONTROL コードビュー]**」をクリックして、ペイロードのコード全体を表示し、変更することができます。例えば、技術ユーザーが作成したイベント情報をコピーして貼り付けることができます。
+このインターフェイスを使用すると、単純なイベントパラメーターを渡すことができます。イベント内のコレクションや他の高度なオブジェクトを渡す場合は、「**[!UICONTROL コードビュー]**」を選択して、ペイロードのコード全体を表示し、変更することができます。 例えば、技術ユーザーが作成したイベント情報をコピーして貼り付けることができます。
 
 ![](assets/journeytest5.png)
 

@@ -9,10 +9,10 @@ level: Intermediate
 badge: label="限定提供" type="Informative"
 keywords: 公開, ジャーニー, ライブ, 有効性, 確認
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: bb3379fa71aaeb00d0833c67547de70f4e9c3fb1
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '996'
-ht-degree: 79%
+source-wordcount: '995'
+ht-degree: 78%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 79%
 
 * **チャネルアクション** メール、SMS、プッシュ通知などのノードが実行されない
 * **カスタムアクション** は、ドライラン中は無効になり、応答は null に設定されます
-* **待機ノード**&#x200B;は、ドライラン中はバイパスされます。
+* **待機ノード**は、ドライラン中はバイパスされます。
   <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
 * 外部データソースを含む **データソース** は、デフォルトで実行されます
 
@@ -73,7 +73,7 @@ ht-degree: 79%
 ドライランをアクティブ化するには、次の手順に従います。
 
 1. テストするジャーニーを開きます。
-1. 「**ドライラン**」ボタンをクリックします。
+1. 「**ドライラン** ボタンを選択します。
 
    ![ジャーニーのドライランの開始](assets/dry-run-button.png)
 

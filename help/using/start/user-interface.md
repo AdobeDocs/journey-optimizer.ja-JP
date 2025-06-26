@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '1670'
+source-wordcount: '1716'
 ht-degree: 100%
 
 ---
@@ -340,3 +340,7 @@ AI アシスタントにアクセスして使用する方法については、[�
 >abstract="プレースメントにより、決定エンジンから返された項目がメッセージ内に表示される場所が決まります。レポートでは、様々なプレースメントにわたるパフォーマンスを追跡できます。"
 
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_simulation"
+>title="ジャーニーのシミュレート"
+>abstract="ジャーニーシミュレーションを使用すると、ジャーニーを検証し、アクティブ化する前にジャーニーのパフォーマンスを確認できます。トレーニング済みモデルのデータを使用して、ジャーニー全体にわたる数値を提供し、実際のシナリオでのジャーニーの動作を確認します。"

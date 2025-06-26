@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: トラブルシューティング, ジャーニー, チェック, エラー
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '1059'
-ht-degree: 93%
+source-wordcount: '1058'
+ht-degree: 91%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 93%
 
 ### アクティビティでのエラー {#activity-errors}
 
-エラーは、キャンバス上のアクティビティ自体に警告記号と共に表示されます。感嘆符にマウスポインターを合わせると、エラーメッセージが表示されます。アクティビティをクリックすると、エラーのある行と警告が表示されます。例：
+エラーは、キャンバス上のアクティビティ自体に警告記号と共に表示されます。感嘆符にマウスポインターを合わせると、エラーメッセージが表示されます。アクティビティを選択すると、エラーが発生した行に警告が表示されます。 例：
 
 * 必須フィールドが空の場合は、エラーが表示されます。
 

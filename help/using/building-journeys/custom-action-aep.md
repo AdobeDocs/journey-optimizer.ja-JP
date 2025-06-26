@@ -8,10 +8,10 @@ topic: Content Management
 role: Developer, Data Engineer
 level: Experienced
 exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: ht
-source-wordcount: '369'
-ht-degree: 100%
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+workflow-type: tm+mt
+source-wordcount: '366'
+ht-degree: 93%
 
 ---
 
@@ -39,7 +39,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 >[!CAUTION]
 >
->Adobe Developer Console でプロジェクトを作成したら、開発者と API に対し、適切な権限のアクセス制御を付与してください。詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}を参照してください
+>Adobe Developer Console でプロジェクトを作成したら、開発者と API に対し、適切な権限のアクセス制御を付与してください。詳しくは、[Adobe Experience Platformのドキュメントを参照してください ](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}
 
 ## HTTP API インレットを使用したソースの設定
 
@@ -49,11 +49,11 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
    ![](assets/custom-action-aep-3.png)
 
-1. 「**新規アカウント**」を選択し、認証を有効にします。「**ソースに接続**」をクリックします。
+1. 「**新規アカウント**」を選択し、認証を有効にします。**Sourceに接続** を選択します。
 
    ![](assets/custom-action-aep-4.png)
 
-1. 「**次へ**」をクリックし、データを書き込むデータセットを選択します。「**次へ**」、「**終了**」の順にクリックします。
+1. 「**次へ**」を選択し、データを書き込むデータセットを選択します。 「**次へ**」、「**終了**」の順にクリックします。
 
    ![](assets/custom-action-aep-5.png)
 

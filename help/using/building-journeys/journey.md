@@ -8,10 +8,10 @@ role: User
 level: Beginner, Intermediate
 keywords: ジャーニー, Discover, 開始
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 93%
+source-wordcount: '418'
+ht-degree: 90%
 
 ---
 
@@ -56,4 +56,4 @@ Journey Optimizer ジャーニーデザイナーには、マーケターやジ�
 
 ジャーニーのコンポーネントを把握し、キャンバスでのジャーニー構築の基本を理解します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430350?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)

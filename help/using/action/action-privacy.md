@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: データ, ガバナンス, DULE, ラベル, ラベル付け, Platform, ポリシー
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
 workflow-type: tm+mt
-source-wordcount: '1291'
-ht-degree: 96%
+source-wordcount: '1290'
+ht-degree: 95%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 96%
 
 ## データガバナンスポリシーの基本を学ぶ {#gs}
 
-Adobe Experience Platformは [Data Usage Labeling and Enforcement （DULE）ガバナンス ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=ja){target="_blank"} フレームワークを使用してフィールドにラベルを付け **&#x200B;**&#x200B;チャネルごとに **マーケティングアクション** を作成することで、チャネル全体でデータガバナンスポリシーを管理および適用できます。
+Adobe Experience Platformは [Data Usage Labeling and Enforcement （DULE）ガバナンス ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/home.html?lang=ja){target="_blank"} フレームワークを使用してフィールドにラベルを付け **** チャネルごとに **マーケティングアクション** を作成することで、チャネル全体でデータガバナンスポリシーを管理および適用できます。
 
 ラベルとマーケティングアクションを定義したら、これら 2 つの要素をリンクする&#x200B;**データガバナンスポリシー**&#x200B;を作成できます。例えば、「ePHI」ラベルを「メールターゲティング」マーケティングアクションに関連付けるポリシーを設定して、「ePHI」というラベルの付いたフィールドをメールメッセージのパーソナライズに使用しないようにすることができます。[データガバナンスポリシーの作成方法を学ぶ](#policy)
 
@@ -128,7 +128,7 @@ Journey Optimizer でデータガバナンスポリシーを適用するには�
 
 システムによってジャーニー／キャンペーンやカスタムアクションで制限付きフィールドが特定された場合、エラーが表示され、ユーザーはそのフィールドを公開できなくなります。
 
-エラーは、「**[!UICONTROL アラート]**」ボタンから表示できます。エラーをクリックすると、発生したデータガバナンスポリシー違反に関する詳細情報が表示されます。
+エラーは、「**[!UICONTROL アラート]**」ボタンから表示できます。エラーを選択すると、発生したデータガバナンスポリシー違反に関する詳細情報が表示されます。
 
 ![](assets/action-privacy8.png)
 
