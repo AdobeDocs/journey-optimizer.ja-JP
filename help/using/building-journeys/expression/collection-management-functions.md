@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: クエリ, コレクション, 関数, ペイロード, ジャーニー
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
-source-git-commit: ca2e30ddb5e80783b57b9f3e0d07ff8d0bc0bbdb
+source-git-commit: 8e020f79e0f44e6fc804fcceb149146f9644c777
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 75%
+source-wordcount: '481'
+ht-degree: 74%
 
 ---
 
@@ -148,15 +148,6 @@ _`<listExpression>.last(<condition>)`_
 ```
 
 結果は `token_2` です。
-
->[!NOTE]
->
->エクスペリエンスイベントは、Adobe Experience Platform からコレクションとして新しい順に取得されます。したがって、次のようになります。
->
->* **[!UICONTROL first]** 関数は、最新のイベントを返します。
->* **[!UICONTROL last]** 関数は、最も古いイベントを返します。
-
-
 
 ## at （`<index>`）関数
 
