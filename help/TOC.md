@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3078d9d95327e58e98366d9d8f0d0dfd1c571bec
+source-git-commit: e1cbaaf30f376c1bb32a16dcc8a09686e0b9e231
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2474'
+ht-degree: 97%
 
 ---
 
@@ -167,15 +167,15 @@ ht-degree: 0%
             + [upper](using/building-journeys/functions/functionupper.md)
             + [uuid](using/building-journeys/functions/functionuuid.md)
    + ユースケース {#journey-use-cases}
-      + ビジネスユースケース {#business-use-cases}
-         + [マルチチャネルメッセージの送信](using/building-journeys/journeys-uc.md)
-         + [Campaign v7／v8 を使用したメッセージの送信](using/building-journeys/ajo-ac.md)
-         + [サブスクライバーへのメッセージの送信](using/building-journeys/message-to-subscribers-uc.md)
-      + テクニカルユースケース {#technical-use-cases}
-         + [カスタムアクションを使用したコレクションの動的な受け渡し](using/building-journeys/collections.md)
-         + [配信を増やす](using/building-journeys/ramp-up-deliveries-uc.md)
-         + [外部データソースとカスタムアクションを使用したスループットの制限](using/building-journeys/limit-throughput.md)
-         + [カスタムアクションを使用した Experience Platform のジャーニーイベントの書き込み](using/building-journeys/custom-action-aep.md)
+      + [ユースケースを通じて学ぶ](using/building-journeys/jo-use-cases.md)
+      + [エクスペリエンスイベント参照](using/building-journeys/exp-event-lookup.md)
+      + [マルチチャネルメッセージの送信](using/building-journeys/journeys-uc.md)
+      + [Campaign v7／v8 を使用したメッセージの送信](using/building-journeys/ajo-ac.md)
+      + [サブスクライバーへのメッセージの送信](using/building-journeys/message-to-subscribers-uc.md)
+      + [カスタムアクションを使用したコレクションの動的な受け渡し](using/building-journeys/collections.md)
+      + [配信を増やす](using/building-journeys/ramp-up-deliveries-uc.md)
+      + [外部データソースとカスタムアクションを使用したスループットの制限](using/building-journeys/limit-throughput.md)
+      + [カスタムアクションを使用した Experience Platform のジャーニーイベントの書き込み](using/building-journeys/custom-action-aep.md)
 + 調整されたキャンペーン {#orchestrated-campaigns}
    + [調整されたキャンペーンの基本を学ぶ](using/orchestrated/gs-orchestrated-campaigns.md)
    + [設定の手順](using/orchestrated/configuration-steps.md)

@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3282f2f5b6fa4eacafc4b017ea0ca713b90cab82
+source-git-commit: ec2cccb651360ec796610781affcedca96d66af4
 workflow-type: tm+mt
-source-wordcount: '1176'
-ht-degree: 72%
+source-wordcount: '1278'
+ht-degree: 66%
 
 ---
 
@@ -23,6 +23,17 @@ ht-degree: 72%
 [!DNL Adobe Journey Optimizer] は、新機能、既存機能の強化、およびバグ修正を継続的に提供します。これらのリリースノートでは、すべての変更が各月の最終週にまとめられます。[!DNL Adobe Journey Optimizer] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}を参照してください。
 
 
+## 最新の更新内容 {#latest-updates}
+
+### ジャーニー条件の変更 {#ee-change@}
+
+7 月 8 日（PT）以降、新しい顧客組織では、エクスペリエンスイベントを使用した式の作成が、ジャーニー条件で使用される式エディターでサポートされなくなります。 その結果、[Experience Platform データソース ](../datasource/adobe-experience-platform-data-source.md) のエクスペリエンスイベントは式の作成に使用できません。 エクスペリエンスイベントを使用して式やロジックを作成するための代替アプローチやベストプラクティスについては、[ こちら ](../building-journeys/exp-event-lookup.md) を参照してください。
+
+単一のジャーニーでジャーニーコンテキストイベントデータにアクセスする方法に変更はありません。 式およびパーソナライゼーションエディターでは、ユーザーは、最初のジャーニーイベントで渡されたデータに引き続きアクセスできます。
+
+詳しくは [ こちらの FAQ を参照してください ](../building-journeys/exp-event-lookup.md#faq-ee)。
+
+
 ## 2025 年 6 月のリリースノート {#25-6-rn}
 
 <!--
@@ -30,7 +41,7 @@ ht-degree: 72%
 
 **リリース日**：2025年6月18日（PT）
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新機能 {#25-06-features}
 

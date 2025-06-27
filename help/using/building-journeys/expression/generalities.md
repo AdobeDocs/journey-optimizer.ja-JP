@@ -8,16 +8,16 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 構文, エディター, ジャーニー
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: ht
-source-wordcount: '262'
-ht-degree: 100%
+source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
+workflow-type: tm+mt
+source-wordcount: '249'
+ht-degree: 95%
 
 ---
 
 # 高度な式エディターの構文 {#syntax}
 
-[高度な式エディター](expressionadvanced.md)を使用する際の構文の基本事項を以下に示します。高度な式エディターの使用例について詳しくは、[このページ](advanced-editor-use-cases.md)を参照してください。
+[ 高度な式エディター ](expressionadvanced.md) を使用する際の構文の基本事項を以下に示します。<!-- Samples of use of the advanced expression editor are available on [this page](advanced-editor-use-cases.md).-->
 
 ## 括弧と式の優先度 {#parentheses-and-expression-priority}
 

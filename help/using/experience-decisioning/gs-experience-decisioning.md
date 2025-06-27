@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 4839c3c70dcc524da5f3cc394d5573ce5755ea64
+source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 100%
+source-wordcount: '516'
+ht-degree: 95%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 決定は、「決定項目」と呼ばれるマーケティングオファーの一元カタログと、高度な決定エンジンを提供することで、パーソナライゼーションを簡素化します。このエンジンは、ルールとランキング条件を活用して、各個人に最も関連性の高い決定項目を選択し、提示します。
 
-これらの決定項目は、Journey Optimizer キャンペーン内でアクセス可能になった[新しいコードベースのエクスペリエンスチャネル](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/code-based-experience/get-started-code-based)を通じて、幅広いインバウンドサーフェスにシームレスに統合されます。
+これらの決定項目は、Journey Optimizer キャンペーン内でアクセスできる [ 新しいコードベースのエクスペリエンスチャネル ](../code-based/get-started-code-based.md) を通じて、幅広いインバウンドサーフェスにシームレスに統合されます。
 
 >[!IMPORTANT]
 >
@@ -87,4 +87,3 @@ ht-degree: 100%
    ➡️ [決定ポリシーの操作方法の詳細情報](create-decision.md)
 ➡️ コードベースのエクスペリエンスチャネルを通じてオファーを正常に配信するには、[この節](../code-based/code-based-implementation-samples.md)の実装手順に従ってください。
 
-コードベースのエクスペリエンスで決定を使用する方法を示す完全なエンドツーエンドのユースケースについて詳しくは、[この節](experience-decisioning-uc.md)を参照してください。

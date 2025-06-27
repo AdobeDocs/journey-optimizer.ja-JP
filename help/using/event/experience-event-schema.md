@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: スキーマ, XDM, プラットフォーム, ストリーミング, 取り込み, ジャーニー
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '831'
-ht-degree: 100%
+source-git-commit: d79e42cd42fa8342526e02116f65a8e53449fad5
+workflow-type: tm+mt
+source-wordcount: '391'
+ht-degree: 77%
 
 ---
 
@@ -20,7 +20,14 @@ ht-degree: 100%
 
 [!DNL Journey Optimizer] イベントは、ストリーミング取得を介して Adobe Experience Platform に送信される XDM エクスペリエンスイベントです。
 
-そのため、[!DNL Journey Optimizer] のイベントを設定するための重要な前提条件は、Adobe Experience Platform の Experience Data Model（または XDM）と XDM Experience Data スキーマの作成方法、および XDM 形式のデータを Adobe Experience Platform にストリーミングする方法に精通していることです。
+そのため、[!DNL Journey Optimizer] のイベントを設定するための重要な前提条件は、Adobe Experience Platform のエクスペリエンスデータモデル（または XDM）と XDM エクスペリエンスイベントスキーマの作成方法、および XDM 形式のデータを Adobe Experience Platform にストリーミングする方法に精通していることです。
+
+
+>[!CAUTION]
+>
+>ジャーニー条件でのエクスペリエンスイベントの検索はサポートされなくなりました。 他のベストプラクティスについては、こちらを参照してください。 イベントトリガージャーニーのユースケースで、引き続きエクスペリエンスイベントの参照が必要であり、リストされている代替手段ではサポートできない場合は、Adobe担当者にお問い合わせください。アドビが目標の達成をお手伝いします。
+>
+>ジャーニーの開始イベントからコンテキストにアクセスする影響はありません。
 
 ## [!DNL Journey Optimizer] イベントのスキーマ要件  {#schema-requirements}
 
@@ -42,7 +49,7 @@ ht-degree: 100%
 
   ![](assets/schema4.png)
 
-* このデータを後からジャーニーで参照できるようにする場合は、プロファイルのスキーマとデータセットをマークします。
+* このデータをプロファイルで使用できるようにする場合は、プロファイルのスキーマとデータセットをマークします。 [詳細情報](../data/lookup-aep-data.md)
 
   ![](assets/schema5.png)
 
@@ -54,81 +61,83 @@ ht-degree: 100%
 
   ![](assets/schema8.png)
 
-## スキーマ間の関係の活用{#leverage_schema_relationships}
+<!--
+## Leverage schema relationships{#leverage_schema_relationships}
 
-Adobe Experience Platform では、あるデータセットを別のデータセットの参照テーブルとして使用するために、スキーマ間の関係を定義できます。
+Adobe Experience Platform allows you to define relationships between schemas in order to use one dataset as a lookup table for another. 
 
-ブランドデータモデルに、購入をキャプチャするスキーマがあるとします。また、製品カタログのスキーマもあります。購入スキーマで製品 ID をキャプチャし、関係を使用して、製品カタログからより完全な製品詳細を検索できます。これにより、例えばノートパソコンを購入したすべての顧客を対象としたオーディエンスを作成することができます。その際、すべてのノートパソコン ID を明示的にリストアップしたり、トランザクションシステムで個々の製品の詳細をすべてキャプチャしたりする必要はありません。
+Let's say your brand data model has a schema capturing purchases. You also have a schema for the product catalog. You can capture the product ID in the purchase schema and use a relationship to look up more complete product details from the product catalog. This allows you to create an audience for all customers who bought a laptop, for example, without having to explicitly list out all laptop IDs or capture every single product details in transactional systems.
 
-関係を定義するには、ソーススキーマに専用のフィールド（この場合は購入スキーマの製品 ID フィールド）が必要です。このフィールドは、宛先スキーマの製品 ID フィールドを参照している必要があります。プロファイルのソーステーブルと宛先テーブルを有効にし、宛先スキーマには、プライマリ ID として定義されたその共通フィールドが必要です。
+To define a relationship, you need to have a dedicated field in the source schema, in this case the product ID field in the purchase schema. This field needs to reference the product ID field in the destination schema. The source and destination tables must be enabled for profiles and the destination schema must have that common field defined as its primary identity. 
 
-ここでは、製品 ID をプライマリ ID として定義したプロファイルに有効な製品カタログスキーマを示します。
+Here is the product catalog schema enabled for profile with the product ID defined as the primary identity. 
 
 ![](assets/schema9.png)
 
-ここでは、製品 ID フィールドで定義された関係を持つ購入スキーマを示します。
+Here is the purchase schema with the relationship defined on the product ID field.
 
 ![](assets/schema10.png)
 
 >[!NOTE]
 >
->スキーマ間の関係について詳しくは、[Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=ja)を参照してください。
+>Learn more about schema relationships in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html).
 
-Journey Optimizer では、リンクされたテーブルのすべてのフィールドを次の場合に活用できます。
+In Journey Optimizer, you can then leverage all the fields from the linked tables:
 
-* ビジネスイベントや単一イベントを設定する場合：[詳細情報](../event/experience-event-schema.md#unitary_event_configuration)
-* ジャーニーで条件を使用する場合：[詳細情報](../event/experience-event-schema.md#journey_conditions_using_event_context)
-* メッセージをパーソナライズする場合：[詳細情報](../event/experience-event-schema.md#message_personalization)
-* カスタムアクションをパーソナライズする場合：[詳細情報](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context)
+* when configuring a business or unitary event, [Read more](../event/experience-event-schema.md#unitary_event_configuration) 
+* when using conditions in a journey, [Read more](../event/experience-event-schema.md#journey_conditions_using_event_context) 
+* in message personalization, [Read more](../event/experience-event-schema.md#message_personalization) 
+* in custom action personalization, [Read more](../event/experience-event-schema.md#custom_action_personalization_with_journey_event_context) 
 
-### 配列{#relationships_limitations}
+### Arrays{#relationships_limitations}
 
-文字列の配列（製品 ID のリストなど）に対してスキーマ関係を定義できます。
+You can define a schema relationship on an array of strings, for example, a list of product IDs.
 
 ![](assets/schema15.png)
 
-ただし、購入情報（製品 ID、製品名、価格、ディスカウント）のリストなど、オブジェクトの配列内の属性とのスキーマ関係を定義することはできません。ルックアップ値はジャーニー（条件、カスタムアクションなど）とメッセージのパーソナライゼーションで利用できるようになります。
+You can also define a schema relationship with an attribute inside of an array of objects, for example a list of purchase information (product ID, product name, price, discount). The lookup values will be available in journeys (conditions, custom actions, etc.) and message personalization. 
 
 ![](assets/schema16.png)
 
-### イベント設定{#unitary_event_configuration}
+### Event configuration{#unitary_event_configuration}
 
-リンクされたスキーマフィールドは、次の場合に単一イベントおよびビジネスイベントの設定で使用できます。
+The linked schema fields are available in unitary and business event configuration:
 
-* イベント設定画面でイベントスキーマフィールドを参照する場合
-* システム生成イベントの条件を定義する場合
+* when browsing through the event schema fields in the event configuration screen.
+* when defining a condition for system-generated events.
 
 ![](assets/schema11.png)
 
-リンクされたフィールドは次の場所では使用できません。
+The linked fields are not available:
 
-* イベントキー式
-* イベント ID 条件（ルールベースのイベント）
+* in the event key formula
+* in event id condition (rule-based events)
 
-単一イベントの設定方法については、この[ページ](../event/about-creating.md)を参照してください。
+To learn how to configure a unitary event, refer to this [page](../event/about-creating.md).
 
-### イベントコンテキストを使用したジャーニー条件{#journey_conditions_using_event_context}
+### Journey conditions using event context{#journey_conditions_using_event_context}
 
-条件作成のジャーニー（式エディター）で使用するイベントにリンクした参照テーブルのデータを使用できます。
+You can use data from a lookup table linked to an event used in a journey for condition building (expression editor).
 
-式エディターでジャーニーに条件を追加し、式を編集し、イベントノードを展開します。
+Add a condition in a journey, edit the expression and unfold the event node in the expression editor. 
 
 ![](assets/schema12.png)
 
-ジャーニー条件の定義方法については、この[ページ](../building-journeys/condition-activity.md)を参照してください。
+To learn how to define journey conditions, refer to this [page](../building-journeys/condition-activity.md).
 
-### メッセージのパーソナライズ{#message_personalization}
+### Message personalization{#message_personalization}
 
-リンクされたフィールドは、メッセージをパーソナライズする際に使用できます。関連するフィールドは、ジャーニーからメッセージに渡されるコンテキストで表示されます。
+The linked fields are available when personalizing a message. The related fields are displayed in the context passed from the journey to the message.
 
 ![](assets/schema14.png)
 
-コンテキストジャーニー情報を使用してメッセージをパーソナライズする方法については、この[ページ](../personalization/personalization-use-case.md)を参照してください。
+To learn how to personalize a message with contextual journey information, refer to this [page](../personalization/personalization-use-case.md).
 
-### ジャーニーイベントコンテキストを使用したカスタムアクションのパーソナライゼーション{#custom_action_personalization_with_journey_event_context}
+### Custom action personalization with journey event context{#custom_action_personalization_with_journey_event_context}
 
-リンクされたフィールドは、ジャーニーのカスタムアクションアクティビティのアクションパラメーターを設定する際に使用できます。
+The linked fields are available when configuring the action parameters of a journey custom action activity. 
 
 ![](assets/schema13.png)
 
-カスタムアクションの使用方法については、この[ページ](../building-journeys/using-custom-actions.md)を参照してください。
+To learn how to use custom actions, refer to this [page](../building-journeys/using-custom-actions.md).
+-->

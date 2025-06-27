@@ -8,10 +8,10 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 式エディター, データ, ジャーニー
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
-source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
-workflow-type: ht
-source-wordcount: '734'
-ht-degree: 100%
+source-git-commit: b69023669b6ca59ea5980b1a671a90c41eb665fb
+workflow-type: tm+mt
+source-wordcount: '711'
+ht-degree: 93%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 ![](../assets/journey65.png)
 
 
-高度な式エディターには、値を操作し、特にニーズに合った式を定義できる一連の組み込み関数と演算子が用意されています。また、高度な式エディターを使用すると、外部データソースパラメーターの値を定義したり、エクスペリエンスイベントなどのマップフィールドやコレクションを操作したりできます。
+高度な式エディターには、値を操作し、特にニーズに合った式を定義できる一連の組み込み関数と演算子が用意されています。また、高度な式エディターを使用すると、外部データソースパラメーターの値を定義し、マップフィールドとコレクションを操作できます。
 
 >[!NOTE]
 >
@@ -72,7 +72,7 @@ ht-degree: 100%
 
   >[!CAUTION]
   >
-  >ジャーニー式／条件でのエクスペリエンスイベントの使用はサポートされていますが、お勧めしません。ユースケースでエクスペリエンスイベントを使用する必要がある場合は、代わりに[計算属性](../../audience/computed-attributes.md)を使用するか、イベントを使用してセグメントを作成し、そのセグメントを [`inAudience` 式](../../building-journeys/functions/functioninaudience.md)に組み込むなどの方法を検討してください。
+  >エクスペリエンスイベントを使用した式の作成はサポートされていません。 エクスペリエンスイベントを使用して式やロジックを作成するための代替アプローチやベストプラクティスについては、[ こちら ](../../building-journeys/exp-event-lookup.md) を参照してください。
 
 * **[!UICONTROL オーディエンス]**：**[!UICONTROL オーディエンスの選定]**&#x200B;イベントをドロップした場合は、式で使用するオーディエンスを選択します。[詳細情報](../condition-activity.md#using-a-segment)
 * **[!UICONTROL データソース]**：データソースのフィールドグループにあるフィールドリストから選択します。[詳細情報](../../datasource/about-data-sources.md)

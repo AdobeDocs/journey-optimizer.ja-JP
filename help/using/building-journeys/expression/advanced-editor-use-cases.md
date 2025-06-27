@@ -6,25 +6,36 @@ description: 高度な式の作成方法について説明します
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
+hide: true
+hidefromtoc: true
 keywords: 式, 条件, ユースケース, イベント
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
-source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
-workflow-type: ht
-source-wordcount: '535'
-ht-degree: 100%
+source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
+workflow-type: tm+mt
+source-wordcount: '545'
+ht-degree: 85%
 
 ---
 
+
 # 高度な式の例{#advanced-expression-examples}
 
-高度な式エディターを使用すると、ジャーニーでユーザーをフィルタリングできる条件を作成できます。これらの条件を使用すると、時刻、日付、場所、期間またはアクション（買い物かごの購入や放棄など）に基づいてユーザーをターゲットに設定して、ジャーニーでユーザーを再ターゲット化できるようになります。
+高度な式エディターを使用すると、ジャーニーでユーザーをフィルタリングできる条件を作成できます。これらの条件を使用すると、時刻、日付、場所、期間に基づいてユーザーをターゲットに設定して、ジャーニーでユーザーを再ターゲット化できるようになります。
 
 >[!CAUTION]
 >
->ジャーニー式／条件でのエクスペリエンスイベントの使用はサポートされていますが、お勧めしません。ユースケースでエクスペリエンスイベントを使用する必要がある場合は、代わりに[計算属性](../../audience/computed-attributes.md)を使用するか、イベントを使用してセグメントを作成し、そのセグメントを [`inAudience` 式](../../building-journeys/functions/functioninaudience.md)に組み込むなどの方法を検討してください。
+>ジャーニー式/条件でのエクスペリエンスイベントの使用はサポートされていません。 ユースケースでエクスペリエンスイベントの使用が必要な場合は、別の方法を検討してください。 [詳細情報](../exp-event-lookup.md)
 
 
 ## エクスペリエンスイベントに関する条件の作成
+
+
+>[!CAUTION]
+>
+>ジャーニー式/条件でのエクスペリエンスイベントの使用はサポートされていません。 ユースケースでエクスペリエンスイベントの使用が必要な場合は、別の方法を検討してください。 [詳細情報](../exp-event-lookup.md)
+>
+
+
 
 高度な式エディターは、購入のリストやメッセージに対する過去のクリックなどの時系列に対してクエリを実行する場合に必須です。このようなクエリは、単純なエディターでは実行できません。
 
@@ -43,9 +54,9 @@ ht-degree: 100%
 
 まず、過去 7 日間にオンラインストアを閲覧したものの、最終的に注文をしていない顧客をターゲットにします。
 
-<!--**This expression looks for a specified value in a string value:**
+**この式は、文字列値で指定された値を検索します。**
 
-`In ("addToCart", #{field reference from experience event})`-->
+`In ("addToCart", #{field reference from experience event})`
 
 **この式は、過去 7 日間に指定された、このユーザーのすべてのイベントを検索します。**
 
@@ -151,5 +162,6 @@ substr(
 ```
 
 説明：この例では、`substr` および `lastIndexOf` 関数を使用して、モバイルアプリ起動イベントで渡される CRM ID を囲む中括弧を削除しています。
+
 
 高度な式エディターの使用方法について詳しくは、 [このビデオ](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/introduction-to-building-a-journey.html?lang=ja)をご覧ください。
