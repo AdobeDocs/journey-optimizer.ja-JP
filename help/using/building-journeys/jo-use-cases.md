@@ -8,7 +8,7 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: ユースケース，マルチチャネル，ジャーニー，イベント
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
-source-git-commit: 4a14c76aeceba624cd252890e37ccf3e42049597
+source-git-commit: 0a96368f2aefa1ffa6e12d08d679b2d360701127
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 15%
@@ -47,7 +47,7 @@ ht-degree: 15%
   <td>
     <div>
     <a href="../data/datasets-query-examples.md">
-    <img alt="クエリのサンプル" src="../assets/do-not-localize/icon-data.svg" width="35px" /></a> 
+    <img alt="クエリのサンプル" src="../assets/do-not-localize/icon-data.svg"/></a> 
     <br> ユースケースを作成するには、トラッキングエクスペリエンスイベントを取り込むシステムデータセット、ジャーニーでステップイベントを取り込むデータセット、ユーザーにオファーの提案を取り込むデータセットなど、Adobe Journey Optimizer データセットをクエリする必要があります。
     </div>
       <div>
