@@ -10,10 +10,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 式, エディター
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 4c78163cfc34937888cd323b461246f5955232bb
+source-git-commit: 416f82a932f0b484d8463ff24090a7061461822f
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 79%
+source-wordcount: '435'
+ht-degree: 78%
 
 ---
 
@@ -36,7 +36,6 @@ Journey Optimizerでは、Adobe Experience Platformのデータを [!DNL Journey
 * **レコードの数**&#x200B;は、実稼動データセットでは 5,000 万件、開発サンドボックスデータセットでは 1,000 万件に制限されています。
 * **データ使用のラベル付けと適用**&#x200B;は、現時点では、参照が有効なデータセットには適用されていません。
 * **参照が有効になっているデータセットやパーソナライゼーションで使用されているデータセットは、削除から保護されません**。パーソナライゼーションに使用されているデータセットを追跡し、データセット削除の有無を確認するのは、お客様の責任です。
-* **データ使用のラベル付けと適用**&#x200B;は、現時点では、参照が有効なデータセットには適用されていません。
 
 ## データ参照用データセットの有効化 {#enable}
 
