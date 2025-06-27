@@ -8,7 +8,7 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: ユースケース，マルチチャネル，ジャーニー，イベント
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
-source-git-commit: f1d96aa3fb74c9aedefa026fc65a4dcc8a2b4109
+source-git-commit: a94d579086f8ab78e611b15d993bb8f12673ea36
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 15%
@@ -29,7 +29,7 @@ ht-degree: 15%
   <td>
     <div>
     <a href="exp-event-lookup.md">
-    <img alt="エクスペリエンスイベントの参照のベストプラクティス" src="../assets/do-not-localize/icon_profile-audience.svg" /></a> 
+    <img alt="エクスペリエンスイベントの参照のベストプラクティス" src="../assets/do-not-localize/icon-configure.svg" /></a> 
     <br>Adobe Journey Optimizerでエクスペリエンスイベントを最大限に活用するための一般的なパターンとスケーラブルなアプローチについて説明します。 これらのユースケースは、オプトアウトの管理、メッセージ頻度の制御、ユーザー行動に基づくコンテンツのパーソナライズ、リアルタイムシグナルへの反応など、頻繁に発生する課題を解決するのに役立つように設計されています。
     </div>
       <div>
