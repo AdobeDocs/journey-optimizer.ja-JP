@@ -8,18 +8,18 @@ topic: Content Management
 role: Developer, Data Engineer
 level: Experienced
 exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 824cbf12502f0a52e27636dddee38cb7dee94bf4
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 93%
+source-wordcount: '364'
+ht-degree: 88%
 
 ---
 
-# ユースケース：カスタムアクションを使用して Experience Platform にジャーニーイベントを書き込む {#custom-action-aep}
+# カスタムアクションを使用した Experience Platform のジャーニーイベントの書き込み {#custom-action-aep}
 
 このユースケースでは、カスタムアクションと認証済みの呼び出しを使用して、ジャーニーから Adobe Experience Platform にカスタムイベントを書き込む方法について説明します。
 
-## IO プロジェクトの設定 {#custom-action-aep-IO}
+## 開発者プロジェクトの設定 {#custom-action-aep-IO}
 
 1. Adobe Developer Console で、「**プロジェクト**」をクリックし、IO プロジェクトを開きます。
 

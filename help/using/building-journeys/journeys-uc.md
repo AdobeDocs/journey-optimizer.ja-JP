@@ -9,14 +9,14 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: ユースケース, マルチチャネル, メッセージ, ジャーニー, チャネル, イベント, プッシュ
 exl-id: a1bbfcee-2235-4820-a391-d5d35f499cb0
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 824cbf12502f0a52e27636dddee38cb7dee94bf4
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '723'
 ht-degree: 44%
 
 ---
 
-# ユースケース：マルチチャネルメッセージの送信{#send-multi-channel-messages}
+# マルチチャネルメッセージの送信 {#send-multi-channel-messages}
 
 この節では、「オーディエンスを読み取り」、イベント、反応イベントおよびメール／プッシュメッセージを組み合わせたユースケースを示します。
 

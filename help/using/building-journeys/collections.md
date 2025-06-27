@@ -8,17 +8,17 @@ topic: Content Management
 role: Developer, Data Engineer
 level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 824cbf12502f0a52e27636dddee38cb7dee94bf4
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '428'
 ht-degree: 100%
 
 ---
 
 
-# ユースケース：カスタムアクションを使用してコレクションを動的に渡す{#passing-collection}
+# カスタムアクションを使用したコレクションの動的な受け渡し{#passing-collection}
 
-実行時に値が動的に設定されるカスタムアクションパラメーターにコレクションを渡すことができます。次の 2 種類のコレクションがサポートされています。
+実行時に値が動的に設定されるカスタムアクションパラメーターにコレクションを渡すことができます。 次の 2 種類のコレクションがサポートされています。
 
 * 単純なコレクション：単純なデータタイプを要素とする配列。以下に listString の例を示します。
 

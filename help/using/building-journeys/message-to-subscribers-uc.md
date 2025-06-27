@@ -9,14 +9,14 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: ジャーニー, ユースケース, メッセージ, 購読者, リスト, 読み取り
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 824cbf12502f0a52e27636dddee38cb7dee94bf4
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '329'
 ht-degree: 94%
 
 ---
 
-# ユースケース：リストの登録者に対するメッセージの送信{#send-a-message-to-the-subscribers-of-a-list}
+# リスト上の購読者に対するメッセージの送信 {#send-a-message-to-the-subscribers-of-a-list}
 
 このユースケースの目的は、ジャーニーを作成してリスト上の購読者にメッセージを送信することです。
 
