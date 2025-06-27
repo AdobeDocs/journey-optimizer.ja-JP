@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Journey Optimizerを使用したオーケストレートキャンペーンの作成とスケジュール設定
-description: Adobe Journey Optimizerでオーケストレーションされたキャンペーンを作成する方法を学ぶ
+description: Adobe Journey Optimizerを使用して調整されたキャンペーンを作成し、スケジュールする方法を説明します
 badge: label="アルファ版"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: f8fa52c89659918ef3837f88ddb03c219239f4ee
+source-git-commit: f64fa51fa753fe62eecb6199946615f4d5c4f767
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 18%
+source-wordcount: '910'
+ht-degree: 10%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 18%
 
 | 調整されたキャンペーンへようこそ | 最初の調整されたキャンペーンの開始 | データベースのクエリ | 調整されたキャンペーンアクティビティ |
 |---|---|---|---|
-| [ オーケストレーションされたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)<br/><br/>[ 設定手順 ](configuration-steps.md)<br/><br/>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md) | [ オーケストレーションされたキャンペーンの作成 ](gs-campaign-creation.md)<br/><br/><b>[ キャンペーンの作成とスケジュール設定 ](create-orchestrated-campaign.md)</b><br/><br/>[ アクティビティのオーケストレーション ](orchestrate-activities.md)<br/><br/>[ オーケストレーションされたキャンペーンでのメッセージの送信 ](send-messages.md)<br/><br/>[ キャンペーンの開始と監視 ](start-monitor-campaigns.md)<br/><br/>[ レポート ](reporting-campaigns.md) | [ ルールビルダーの操作 ](orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリの作成 ](build-query.md)<br/><br/>[ 式の編集 ](edit-expressions.md) | [ アクティビティの基本を学ぶ ](activities/about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションを変更 ](activities/change-dimension.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) - [ 分割 ](activities/split.md) [&#128279;](activities/wait.md) - |
+| [ オーケストレーションされたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)<br/><br/>[ 設定手順 ](configuration-steps.md)<br/><br/>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md) | [ オーケストレーションされたキャンペーンの作成 ](gs-campaign-creation.md)<br/><br/><b>[ キャンペーンの作成とスケジュール設定 ](create-orchestrated-campaign.md)</b><br/><br/>[ アクティビティのオーケストレーション ](orchestrate-activities.md)<br/><br/>[ オーケストレーションされたキャンペーンでのメッセージの送信 ](send-messages.md)<br/><br/>[ キャンペーンの開始と監視 ](start-monitor-campaigns.md)<br/><br/>[ レポート ](reporting-campaigns.md) | [ ルールビルダーの操作 ](orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリの作成 ](build-query.md)<br/><br/>[ 式の編集 ](edit-expressions.md) | [ アクティビティの基本を学ぶ ](activities/about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションを変更 ](activities/change-dimension.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) - [ 分割 ](activities/split.md) [ ](activities/wait.md) - |
 
 {style="table-layout:fixed"}
 
@@ -34,115 +34,105 @@ ht-degree: 18%
 
 <br/>
 
->[!BEGINSHADEBOX]
+[!DNLAadobe Journey Optimizer] でオーケストレーションされたキャンペーンを作成し、その実行スケジュールを、いつ開始し、どのくらいの頻度で実行するかを制御するように設定します。 キャンペーンを直ちに開始するか、特定の日時に開始するか、毎日、毎週、毎月の頻度などの柔軟なスケジュールオプションを使用して繰り返し開始するかを選択します。
 
-ドキュメントを処理中
-
->[!ENDSHADEBOX]
-
-## キャンペーンの作成 {#create}
+## キャンペーンの作成とスケジュール {#create}
 
 オーケストレーションされたキャンペーンを作成するには、次の手順に従います。
 
-1. **[!UICONTROL キャンペーン]** メニューを参照し、「**[!UICONTROL オーケストレーション]**」タブを選択して、「**[!UICONTROL キャンペーンを作成]**」を選択します。
+1. **[!UICONTROL キャンペーン]** メニューに移動し、「**[!UICONTROL オーケストレーション]**」タブを選択し、「**[!UICONTROL キャンペーンを作成]**」をクリックします。
 
    ![](assets/inventory-create.png)
 
-1. オーケストレーションされたキャンペーンの名前を入力します。 また、専用のフィールドに説明を追加することを強くお勧めします。
+1. キャンペーンの名前と説明を入力します。
 
-1. （オプション）「**タグ**」フィールドを使用して、Adobe Experience Platform統合タグをオーケストレーションされたキャンペーンに割り当てます。 これにより、キャンペーンを簡単に分類し、キャンペーンリストからの検索を改善できます。[詳しくは、タグの操作方法を参照してください](../start/search-filter-categorize.md#tags)。
+1. *（オプション）* 「**[!UICONTROL タグ]**」フィールドを使用して、Adobe Experience Platform統合タグをキャンペーンに割り当てます。 これにより、キャンペーンを簡単に分類し、調整されたキャンペーンリストからの検索を改善できます。 [詳しくは、タグの操作方法を参照してください](../start/search-filter-categorize.md#tags)。
 
-1. 「**[!UICONTROL 作成]**」ボタンをクリックして確定します。
+1. 「**[!UICONTROL 作成]**」をクリックします。
 
-
-これで、調整されたキャンペーンが作成され、キャンペーンのリストで使用できるようになります。 これらのプロパティは、キャンペーンキャンバスで ![ キャンペーン設定アイコン ](assets/do-not-localize/campaign-settings.svg) アイコンをクリックすることで、いつでも変更できます。
-
+これで、オーケストレートキャンペーンが作成され、オーケストレートキャンペーンリストに表示されます。 キャンペーンキャンバスで「![ キャンペーン設定 ](assets/do-not-localize/campaign-settings.svg) アイコンをクリックすると、これらのプロパティをいつでも変更できます。
 
 ## キャンペーンのスケジュール {#schedule}
 
-デフォルトでは、調整されたキャンペーンは手動でアクティブ化すると開始され、アクティビティが実行されるとすぐに終了します。
+デフォルトでは、調整されたキャンペーンは手動でアクティブ化すると開始し、関連するアクティビティが実行されると終了します。
 
-アクティブ化直後にオーケストレーションされたキャンペーンを実行しない場合は、実行する日時を指定できます。 また、様々な条件に基づいて、一定の頻度でキャンペーンを実行することもできます。
+実行を遅らせる、またはキャンペーンを繰り返し実行する場合は、キャンペーンのスケジュールを定義できます。
 
-キャンペーンのスケジュールを設定するには、調整したキャンペーンを開いて「**[!UICONTROL できるだけ早く]**」ボタンをクリックします。
+キャンペーンスケジュールを設定するには、次の手順に従います。
 
-![](assets/create-schedule.png)
+1. キャンペーンを開いて「**[!UICONTROL できるだけ早く]**」ボタンをクリックします。
 
-<!--In the Execution frequency field, select 
+   ![](assets/create-schedule.png)
 
-time zone
+1. キャンペーンの実行頻度を選択し、使用可能なオプションを設定します。 設定は、選択した頻度によって異なります。
 
-daily, weekly, monthly
-several times a day based on specific hours or periodically
+   +++1 回
 
-recurring frequencies (all except as soon and once)
-preview launch times
-validity period
+   指定した日時に 1 回だけキャンペーンを実行します。
+
+   * **[!UICONTROL 日付]**：キャンペーンを実行する日付を選択します。
+   * **[!UICONTROL 時間]**：キャンペーンを実行する特定の時間を選択します。
+
++++
+
+   +++毎日
+
+   キャンペーンを毎日または選択した日に実行します。
+
+   * **[!UICONTROL 毎日の繰り返し]**：キャンペーンの実行頻度を選択します。
+      * **[!UICONTROL 毎日]**：週末を含む曜日にキャンペーンを実行します。
+      * **[!UICONTROL 平日]**：キャンペーンを月曜日から金曜日にのみ実行します。
+      * **[!UICONTROL 特定の期間を通して]**：定義された日付範囲（7 月 1 日から 7 月 15 日など）内で、毎日キャンペーンを実行します。 キャンペーンはこの範囲外では実行されません。
+      * **[!UICONTROL 選択した曜日]**：指定した曜日（月曜日、水曜日、金曜日など）にのみキャンペーンを実行します。
+
+   * **[!UICONTROL 開始時刻]**：キャンペーンを毎日実行する時間を定義します。
+
++++
+
+   +++1 日に数回
+
+   同じ日中にキャンペーンを複数回実行します。 特定の時間を選択することも、周期的頻度を設定することもできます。
+
+   * **[!UICONTROL 選択した時間]**：キャンペーンを実行する具体的な回数を選択し、毎日の繰り返しを設定します（毎日または特定の日に実行します）。
+   * **[!UICONTROL 定期的]**：キャンペーンを n 分または n 時間ごとに実行するように選択します。 また、実行が許可される日の時間範囲を定義することもできます。
+
++++
+
+   +++毎週
+
+   特定の日のオプションを使用して、キャンペーンを毎週実行します。
+
+   * **[!UICONTROL 頻度]**：キャンペーンの実行頻度を選択します（例：毎週、2 週間ごと）。
+   * **[!UICONTROL 開始日]**：繰り返しが開始する日付を選択します。
+   * **[!UICONTROL 毎日の繰り返し]**：実行する特定の曜日を選択します（毎週月曜日と木曜日など）。
+   * **[!UICONTROL 開始時刻]**：選択した日にキャンペーンを実行する時間を設定します。
+
++++
+
+   +++毎月
+
+   毎月、特定の日のオプションでキャンペーンを実行します。
+
+   * **[!UICONTROL 毎月の繰り返し]**：キャンペーンを毎月実行するか、特定の月にのみ実行するかを選択します。
+   * **[!UICONTROL 毎日の繰り返し]**:
+      * **[!UICONTROL 毎日]**：キャンペーンを、週末を含む毎月のカレンダー日に実行します。
+      * **[!UICONTROL 月の最終日]**：キャンペーンを各月の最終カレンダー日にのみ実行します（1 月 31 日、2 月 28/29 日など）。
+      * **[!UICONTROL 特定の日（例：15 日）]**：指定された日（例：毎月 15 日）にキャンペーンを実行します。
+      * **[!UICONTROL 週の最初/最後または n 番目の日]** （例：最初の月曜日）:      キャンペーンを指定した平日（各週 15 日など）に実行します。
+      * **[!UICONTROL 選択した曜日]**：キャンペーンを指定した日に実行します。
+
+   * **[!UICONTROL 開始時刻]**：キャンペーンを実行する時間を設定します。
+
++++
+
+1. **[!UICONTROL 有効期間]** 設定を使用して特定の開始日と終了日を定義し、キャンペーンの実行を限られた時間枠に制限します。
+
+1. 繰り返しスケジュールの場合、「**[!UICONTROL ローンチ時間をプレビュー]**」ボタンをクリックすると、現在の設定に基づいて今後の正確な実行日と時間をプレビューできます。 これは、アクティブ化の前にスケジュールを検証し、キャンペーンが期待どおりに実行されることを確認するのに役立ちます。
 
 >[!NOTE]
 >
->When scheduling campaigns in [!DNL Adobe Journey Optimizer], ensure your start date/time aligns with the desired first delivery. For recurring campaigns, if the initial scheduled time has already passed, the campaigns will roll over to the next available time slot according to their recurrence rules.
+>[!DNL Adobe Journey Optimizer] でキャンペーンをスケジュールする場合は、開始日時が目的の最初の配信に合っていることを確認します。繰り返しキャンペーンで、最初にスケジュールした時間が既に過ぎている場合、キャンペーンは繰り返しルールに従って、次に使用可能な時間スロットに繰り越されます。
 
-## Work with orchestrated campaign templates {#campaign-templates}
+## 次の手順 {#next}
 
->[!CONTEXTUALHELP]
->id="ajo_workflow_template_for_campaign"
->title="Orchestrated campaign templates"
->abstract="Orchestrated campaign templates contain pre-configured settings and activities which can be reused for creating new orchestrated campaign."
-
->[!CONTEXTUALHELP]
->id="ajo_workflow_template_creation_properties"
->title="Orchestrated campaign properties"
->abstract="Orchestrated campaign templates contain pre-configured settings and activities which can be reused for creating new orchestrated campaigns. In this screen, enter the label of the orchestrated campaign template and configure its settings such as its internal name, folder and execution folders, timezone, and supervisor group."
-
-Orchestrated campaign templates contain pre-configured settings and activities which can be reused for creating new orchestrated campaigns. You can select the template of your orchestrated campaign from the orchestrated campaign properties, when creating an orchestrated campaign. An empty template is provided by default.
-
-You can create a template from an existing orchestrated campaign, or create a new template from scratch. Both methods are detailed below.
-
->[!BEGINTABS]
-
->[!TAB Create a template from an existing orchestrated campaign]
-
-To create an orchestrated campaign template from an existing orchestrated campaign, follow these steps:
-
-1. Open to the **Campaign** menu and browse to the orchestrated campaign to save as a template.
-1. Click the three dots on the right of the name of the orchestrated campaign, and choose **Copy as template**.
-1. In the popup window, confirm the template creation.
-1. In the orchestrated campaign template canvas, check, add, and configure the activities as needed.
-1. Browse to the settings, from the **Settings** button, to change the name of the orchestrated campaign template, and enter a description.
-1. Select the **folder** and **execution folder** of the template. The folder is the location where the orchestrated campaign template is saved. The execution folder is the folder where orchestrated campaigns created based on this template are saved.
-1. Save your changes. 
-
-The orchestrated campaign template is now available in the template list. You can create an orchestrated campaign based on this template. This orchestrated campaign will be pre-configured with the settings and activities defined in the template.
-
-
->[!TAB Create a template from scratch]
-
-
-To create an orchestrated campaign template from scratch, follow these steps:
-
-1. Open to the **Campaign** menu and browse to the **Templates** tab. You can see the list of available orchestrated campaign templates.
-1. Click the **[!UICONTROL Create template]** button in the upper-right corner of the screen.
-1. Enter the label and open the additional options to enter a description of your orchestrated campaign template.
-1. Select the folder and execution folder of the template. The folder is the location where the orchestrated campaign template is saved. The execution folder is the folder where orchestrated campaigns created based on this template are saved.
-1. Click the **Create** button to confirm your settings.
-1. In the orchestrated campaign template canvas, add and configure the activities as needed.
-
-     ![](assets/wf-template-activities.png){zoomable="yes"}
-
-1. Save your changes. 
-
-The orchestrated campaign template is now available in the template list. You can create an orchestrated campaign based on this template. This orchestrated campaign will be pre-configured with the settings and activities defined in the template.
-
->[!ENDTABS]
-
-
-
-
-
-
-## Next steps {#next}
-
-Once your campaign configuration and content are ready, you can review and activate it. [Learn more](review-activate-campaign.md)
-
--->
+キャンペーンの設定とスケジュールを設定したら、実行される様々なタスクの調整を開始する準備が整います。 [ キャンペーンアクティビティの調整方法については、こちらを参照してください ](../orchestrated/orchestrate-activities.md)
