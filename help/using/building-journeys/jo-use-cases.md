@@ -7,9 +7,10 @@ feature: Journeys, Use Cases
 role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: ユースケース，マルチチャネル，ジャーニー，イベント
-source-git-commit: 85b036ad8e06b10fc8c46b3ec03b7792491bd9b9
+exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
+source-git-commit: 4a14c76aeceba624cd252890e37ccf3e42049597
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '266'
 ht-degree: 15%
 
 ---
@@ -72,7 +73,7 @@ ht-degree: 15%
 <a href="ajo-ac.md">
 <img alt="Campaign を使用したメッセージの送信" src="../assets/do-not-localize/start-interface.jpeg">
 </a>
-<div><a href="ajo-ac.md"><strong>Campaign v7/v8 を使用したメッセージの送信 </strong>
+<div><a href="ajo-ac.md"><strong>Campaign v7/v8 で送信 </strong>
 </div>
 <p>
 </td>
@@ -81,7 +82,7 @@ ht-degree: 15%
 <img alt="サブスクライバーへのメッセージの送信" src="../assets/do-not-localize/start-quick.png">
 </a>
 <div>
-<a href="message-to-subscribers-uc.md"><strong> 購読者へのメッセージの送信 </strong></a>
+<a href="message-to-subscribers-uc.md"><strong> 購読者への送信 </strong></a>
 </div>
 <p></td>
 </tr></table>
@@ -107,6 +108,3 @@ ht-degree: 15%
 <p>
 </td>
 </tr></table>
-
-
-
