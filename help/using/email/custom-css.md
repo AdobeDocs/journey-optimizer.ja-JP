@@ -8,10 +8,11 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: css, エディター，概要，メール
-source-git-commit: a4055d1c4b6d75a04b71067df0c8f5499bae24d6
+exl-id: e4645bc7-fb99-4fcc-8d0e-bf8b9efc828e
+source-git-commit: 158ae930fa87dc0476273bfbb14c96e780281491
 workflow-type: tm+mt
 source-wordcount: '730'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
@@ -20,7 +21,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ac_edition_css"
 >title="独自の CSS を入力"
->abstract="コンテンツの外観をより柔軟に、また制御するために、カスタム CSS をメールDesigner内に直接追加して、高度な特定のスタイル設定を適用できます。"
+>abstract="コンテンツの外観に対する柔軟性と制御を高めるために、E メールデザイナー内で直接カスタム CSS を追加して、高度で特定のスタイルを適用できます。"
 
 メールをデザインする際に、独自のカスタム CSS を [!DNL Journey Optimizer] [ メールDesigner](get-started-email-design.md) 内に直接追加できます。 この機能を使用すると、高度な特定のスタイル設定を適用して、コンテンツの外観をより柔軟に制御できます。
 
