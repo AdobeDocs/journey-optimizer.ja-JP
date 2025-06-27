@@ -7,10 +7,10 @@ badge: label="アルファ版"
 hide: true
 hidefromtoc: true
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: f64fa51fa753fe62eecb6199946615f4d5c4f767
+source-git-commit: 4cc571b306058dc58454e488ba53bb69117a8b27
 workflow-type: tm+mt
-source-wordcount: '1008'
-ht-degree: 24%
+source-wordcount: '1142'
+ht-degree: 21%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 24%
 
 | 調整されたキャンペーンへようこそ | 最初の調整されたキャンペーンの開始 | データベースのクエリ | 調整されたキャンペーンアクティビティ |
 |---|---|---|---|
-| [ オーケストレーションされたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)<br/><br/><b>[ 設定手順 ](configuration-steps.md)</b><br/><br/>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md) | [ オーケストレーションされたキャンペーンの作成 ](gs-campaign-creation.md)<br/><br/>[ キャンペーンの作成とスケジュール設定 ](create-orchestrated-campaign.md)<br/><br/>[ アクティビティのオーケストレーション ](orchestrate-activities.md)<br/><br/>[ オーケストレーションされたキャンペーンでのメッセージの送信 ](send-messages.md)<br/><br/>[ キャンペーンの開始と監視 ](start-monitor-campaigns.md)<br/><br/>[ レポート ](reporting-campaigns.md) | [ ルールビルダーの操作 ](orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリの作成 ](build-query.md)<br/><br/>[ 式の編集 ](edit-expressions.md) | [ アクティビティの基本を学ぶ ](activities/about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションを変更 ](activities/change-dimension.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) - [ 分割 ](activities/split.md) [&#128279;](activities/wait.md) - |
+| [ オーケストレーションされたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)<br/><br/><b>[ 設定手順 ](configuration-steps.md)</b><br/><br/>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md) | [ オーケストレーションされたキャンペーンの作成 ](gs-campaign-creation.md)<br/><br/>[ キャンペーンの作成とスケジュール設定 ](create-orchestrated-campaign.md)<br/><br/>[ アクティビティのオーケストレーション ](orchestrate-activities.md)<br/><br/>[ オーケストレーションされたキャンペーンでのメッセージの送信 ](send-messages.md)<br/><br/>[ キャンペーンの開始と監視 ](start-monitor-campaigns.md)<br/><br/>[ レポート ](reporting-campaigns.md) | [ ルールビルダーの操作 ](orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリの作成 ](build-query.md)<br/><br/>[ 式の編集 ](edit-expressions.md) | [ アクティビティの基本を学ぶ ](activities/about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションを変更 ](activities/change-dimension.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) - [ 分割 ](activities/split.md) [ ](activities/wait.md) - |
 
 {style="table-layout:fixed"}
 
@@ -103,7 +103,7 @@ ht-degree: 24%
 
 1. 指定されたフォームに入力してリンクを定義し、設定が完了したら「**適用**」をクリックします。
 
-   ![](assets/toolbar.png)
+   ![](assets/admin_schema_3.png)
 
    **カーディナリティ**:
 
@@ -133,7 +133,7 @@ ht-degree: 24%
 
    * **マップを表示**：ミニマップオーバーレイを切り替えて、大きなスキーマレイアウトや複雑なスキーマレイアウトをより簡単に移動できるようにします。
 
-1. 完了したら **保存** をクリックします。 このアクションにより、スキーマおよび関連するデータセットが作成され、オーケストレートキャンペーンでデータセットを使用できるようになります。
+1. 完了したら **保存** をクリックします。 このアクションにより、スキーマおよび関連するデータセットが作成され、オーケストレートキャンペーンで使用するためのデータセットが有効になります。
 
 1. **[!UICONTROL ジョブを開く]** をクリックして、作成ジョブの進行状況を監視します。 このプロセスには、DDL ファイルで定義されたテーブルの数に応じて、数分かかる場合があります。
 
@@ -179,21 +179,43 @@ Adobe Experience Platformを使用すると、データを外部ソースから�
 
    * 新しいアカウントで
 
-   [詳しくは、Adobe Experience Platform ドキュメントを参照してください](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
+   [詳しくは、Adobe Experience Platform ドキュメントを参照してください](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
 
    ![](assets/admin_sources_2.png)
 
+1. フォルダー **[!UICONTROL データフォーマット]**、**[!UICONTROL 区切り文字]** および **[!UICONTROL 圧縮タイプ]** を選択します。
+
 1. 接続された S3 ソースをナビゲートして、以前に作成した 2 つのフォルダー（**ロイヤルティ報酬** と **ロイヤルティトランザクション** を見つけます。
 
-1. フォルダーをクリックします。
+1. データを含むフォルダーを選択します。
 
-   フォルダーを選択すると、同じ構造を持つ現在および将来のすべてのファイルが自動処理されますが、ファイルを選択すると、新しいデータ増分ごとに手動で更新する必要があります。
+   フォルダーを選択すると、同じ構造を持つ現在のファイルと今後のファイルがすべて自動的に処理されます。 ただし、1 つのファイルを選択する場合は、新しいデータ増分ごとに手動でアップロードする必要があります。
+
+   ![](assets/S3_config_2.png)
+
+1. フォルダー **[!UICONTROL データフォーマット]**、**[!UICONTROL 区切り文字]** および **[!UICONTROL 圧縮タイプ]** を選択します。 サンプルデータの精度を確認し、「**[!UICONTROL 次へ]**」をクリックします。
 
    ![](assets/S3_config_1.png)
 
-1. データ形式を選択し、「次へ」をクリックします。
+1. 「**[!UICONTROL チェンジ・データ・キャプチャを使用可能]**」にチェックを入れると、リレーショナル・スキーマにマッピングされ、プライマリ・キーとバージョン記述子の両方が定義されているデータセットから選択できます。
 
+1. [ 以前に作成したデータセット ](#entities) を選択し、「**[!UICONTROL 次へ]**」をクリックします。
 
+   ![](assets/S3_config_3.png)
+
+1. **[!UICONTROL マッピング]** ウィンドウで、各ソースファイル属性がターゲットスキーマの対応するフィールドに正しくマッピングされていることを確認します。
+
+   完了したら、「**[!UICONTROL 次へ]**」をクリックします。
+
+   ![](assets/S3_config_4.png)
+
+1. 目的の頻度に基づいてデータフロー **[!UICONTROL スケジュール]** を設定します。
+
+1. **[!UICONTROL 終了]** をクリックして、データフローを作成します。 定義されたスケジュールに従って自動的に実行されます。
+
+1. **[!UICONTROL 接続]** メニューから **[!UICONTROL ソース]** を選択し、「**[!UICONTROL データフロー]**」タブにアクセスしてフローの実行を追跡、取り込んだレコードを確認し、エラーのトラブルシューティングを行います。
+
+   ![](assets/S3_config_5.png)
 
 <!--manual
 ## Create a relational schema manual
