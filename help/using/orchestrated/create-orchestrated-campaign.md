@@ -21,7 +21,7 @@ ht-degree: 14%
 
 | 調整されたキャンペーンへようこそ | 最初の調整されたキャンペーンの開始 | データベースのクエリ | 調整されたキャンペーンアクティビティ |
 |---|---|---|---|
-| [ オーケストレーションされたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)<br/><br/>[ 設定手順 ](configuration-steps.md)<br/><br/>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md) | [ オーケストレーションされたキャンペーンの作成 ](gs-campaign-creation.md)<br/><br/><b>[ キャンペーンの作成とスケジュール設定 ](create-orchestrated-campaign.md)</b><br/><br/>[ アクティビティのオーケストレーション ](orchestrate-activities.md)<br/><br/>[ オーケストレーションされたキャンペーンでのメッセージの送信 ](send-messages.md)<br/><br/>[ キャンペーンの開始と監視 ](start-monitor-campaigns.md)<br/><br/>[ レポート ](reporting-campaigns.md) | [ ルールビルダーの操作 ](orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリの作成 ](build-query.md)<br/><br/>[ 式の編集 ](edit-expressions.md) | [ アクティビティの基本を学ぶ ](activities/about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションを変更 ](activities/change-dimension.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) - [ 分割 ](activities/split.md) [&#128279;](activities/wait.md) - |
+| [ オーケストレーションされたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)<br/><br/>[ 設定手順 ](configuration-steps.md)<br/><br/>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md) | [ オーケストレーションされたキャンペーンの作成 ](gs-campaign-creation.md)<br/><br/><b>[ キャンペーンの作成とスケジュール設定 ](create-orchestrated-campaign.md)</b><br/><br/>[ アクティビティのオーケストレーション ](orchestrate-activities.md)<br/><br/>[ オーケストレーションされたキャンペーンでのメッセージの送信 ](send-messages.md)<br/><br/>[ キャンペーンの開始と監視 ](start-monitor-campaigns.md)<br/><br/>[ レポート ](reporting-campaigns.md) | [ ルールビルダーの操作 ](orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリの作成 ](build-query.md)<br/><br/>[ 式の編集 ](edit-expressions.md) | [ アクティビティの基本を学ぶ ](activities/about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションを変更 ](activities/change-dimension.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) - [ 分割 ](activities/split.md) [ ](activities/wait.md) - |
 
 {style="table-layout:fixed"}
 
@@ -92,7 +92,7 @@ ht-degree: 14%
    * **[!UICONTROL 日付]**：キャンペーンを実行する日付を選択します。
    * **[!UICONTROL 時間]**：キャンペーンを実行する特定の時間を選択します。
 
-   +++
++++
 
    +++毎日
 
@@ -106,7 +106,7 @@ ht-degree: 14%
 
    * **[!UICONTROL 開始時刻]**：キャンペーンを毎日実行する時間を定義します。
 
-   +++
++++
 
    +++1 日に数回
 
@@ -115,7 +115,7 @@ ht-degree: 14%
    * **[!UICONTROL 選択した時間]**：キャンペーンを実行する具体的な回数を選択し、毎日の繰り返しを設定します（毎日または特定の日に実行します）。
    * **[!UICONTROL 定期的]**：キャンペーンを n 分または n 時間ごとに実行するように選択します。 また、実行が許可される日の時間範囲を定義することもできます。
 
-   +++
++++
 
    +++毎週
 
@@ -126,7 +126,7 @@ ht-degree: 14%
    * **[!UICONTROL 毎日の繰り返し]**：実行する特定の曜日を選択します（毎週月曜日と木曜日など）。
    * **[!UICONTROL 開始時刻]**：選択した日にキャンペーンを実行する時間を設定します。
 
-   +++
++++
 
    +++毎月
 
@@ -142,7 +142,7 @@ ht-degree: 14%
 
    * **[!UICONTROL 開始時刻]**：キャンペーンを実行する時間を設定します。
 
-   +++
++++
 
 1. **[!UICONTROL 有効期間]** 設定を使用して特定の開始日と終了日を定義し、キャンペーンの実行を限られた時間枠に制限します。
 
