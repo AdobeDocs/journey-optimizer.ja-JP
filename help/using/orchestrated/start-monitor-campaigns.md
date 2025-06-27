@@ -6,10 +6,10 @@ description: Adobe Journey Optimizerでオーケストレーションされた�
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 445194fcc08efacdbf5f97a425d01229f82d11ea
+source-git-commit: f8afef4729e50b7c9899bf7f2fe282347220dfac
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 44%
+source-wordcount: '780'
+ht-degree: 35%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 44%
 
 | 調整されたキャンペーンへようこそ | 最初の調整されたキャンペーンの開始 | データベースのクエリ | 調整されたキャンペーンアクティビティ |
 |---|---|---|---|
-| [ オーケストレーションされたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)<br/><br/>[ 設定手順 ](configuration-steps.md)<br/>&lt;br/[ オーケストレーションされたキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md) | [ オーケストレーションされたキャンペーンの作成 ](gs-campaign-creation.md)<br/><br/>[ キャンペーンの作成とスケジュール設定 ](create-orchestrated-campaign.md)<br/><br/>[ アクティビティのオーケストレーション ](orchestrate-activities.md)<br/><br/>[ オーケストレーションされたキャンペーンでのメッセージの送信 ](send-messages.md)<br/><br/><b>[ キャンペーンの開始と監視 ](start-monitor-campaigns.md)</b><br/><br/>[ レポート ](reporting-campaigns.md) | [ ルールビルダーの操作 ](orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリの作成 ](build-query.md)<br/><br/>[ 式の編集 ](edit-expressions.md) | [ アクティビティの基本を学ぶ ](activities/about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションを変更 ](activities/change-dimension.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) - [ 分割 ](activities/split.md) [&#128279;](activities/wait.md) - |
+| [ オーケストレーションされたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)<br/><br/>[ 設定手順 ](configuration-steps.md)<br/><br/>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md) | [ オーケストレーションされたキャンペーンの作成 ](gs-campaign-creation.md)<br/><br/>[ キャンペーンの作成とスケジュール設定 ](create-orchestrated-campaign.md)<br/><br/>[ アクティビティのオーケストレーション ](orchestrate-activities.md)<br/><br/>[ オーケストレーションされたキャンペーンでのメッセージの送信 ](send-messages.md)<br/><br/><b>[ キャンペーンの開始と監視 ](start-monitor-campaigns.md)</b><br/><br/>[ レポート ](reporting-campaigns.md) | [ ルールビルダーの操作 ](orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリの作成 ](build-query.md)<br/><br/>[ 式の編集 ](edit-expressions.md) | [ アクティビティの基本を学ぶ ](activities/about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションを変更 ](activities/change-dimension.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) - [ 分割 ](activities/split.md) [ ](activities/wait.md) - |
 
 {style="table-layout:fixed"}
 
@@ -34,17 +34,27 @@ ht-degree: 44%
 
 キャンバスで実行するタスクを調整および設計して作成したら、そのタスクを公開し、実行方法を監視できます。
 
-## 調整されたキャンペーンの開始 {#start}
+また、キャンペーンをテストモードで実行して、その実行と様々なアクティビティの結果を確認することもできます。
 
-オーケストレーションされたキャンペーンを開始するには、**[!UICONTROL キャンペーン]** メニューの **[!UICONTROL オーケストレーション]** タブに移動し、開始するキャンペーンを選択して、キャンバスの右上隅にある **[!UICONTROL 再生]** ボタンをクリックします。
+## 調整したキャンペーンのテストと公開 {#test}
+
+Journey Optimizerを使用すると、調整されたキャンペーンを公開する前にテストできます。 これにより、キャンペーンを構成する様々なタスクの実行と結果を確認できます。機能的な影響はありません。キャンバス内のすべてのアクティビティが実行されます（**[!UICONTROL オーディエンスを保存]** やチャネルアクティビティなどの影響を受けるアクティビティを除く）。
+
+オーケストレーションされたキャンペーンをテストモードで開始するには、オーケストレーションされたキャンペーンを開き、「**[!UICONTROL 開始]**」ボタンをクリックします。
+
+![](assets/campaign-start.png){zoomable="yes"}
 
 オーケストレーションされたキャンペーンが実行されると、オーケストレーションされたキャンペーンの終了に達するまで、キャンバス内の各アクティビティが順番に実行されます。
 
-視覚的なフローを使用すると、ターゲットプロファイルの進行状況をリアルタイムで追跡できます。これにより、各アクティビティのステータスと、アクティビティ間で移行中のプロファイルの数をすばやく識別できます。
+キャンペーンの運用を開始する準備が整ったら、「**[!UICONTROL 公開]** ボタンをクリックします。 キャンバスの視覚的なフローが再起動し、ダイアグラム内のプロファイルの進行状況を確認できます。
+
+## 調整されたキャンペーンのビジュアルフロー
+
+調整したキャンペーンをテストモードまたは実稼動環境で実行する際に、視覚的なフローを使用して、様々なタスクを通じてターゲットプロファイルの進行状況をリアルタイムで追跡できます。 これにより、各アクティビティのステータスと、アクティビティ間で移行中のプロファイルの数をすばやく識別できます。
 
 ![](assets/workflow-execution.png){zoomable="yes"}
 
-調整されたキャンペーンでは、トランジションを通じてあるアクティビティから別のアクティビティに移されたデータは、一時的なワークテーブルに保存されます。 このデータは、トランジションごとに表示できます。これを行うには、トランジションを選択して、画面の右側でそのプロパティを開きます。
+トランジションによって 1 つのアクティビティから別のアクティビティに移されたデータは、一時的なワークテーブルに保存されます。 このデータは、トランジションごとに表示できます。これを行うには、トランジションを選択して、画面の右側でそのプロパティを開きます。
 
 * 「**[!UICONTROL スキーマをプレビュー]**」をクリックして、作業用テーブルのスキーマを表示します。
 * 「**[!UICONTROL 結果をプレビュー]**」をクリックして、選択したトランジションで転送されたデータを視覚化します。
@@ -55,7 +65,7 @@ ht-degree: 44%
 
 ### アクティビティ実行を監視 {#activities}
 
-各アクティビティボックスの右上隅にある視覚的な指標を使用すると、アクティビティの実行を確認できます。
+各アクティビティボックスの視覚的な指標を使用すると、アクティビティの実行を確認できます。
 
 | 視覚的な指標 | 説明 |
 |-----|------------|
