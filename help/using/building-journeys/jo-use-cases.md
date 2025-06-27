@@ -8,7 +8,7 @@ role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: ユースケース，マルチチャネル，ジャーニー，イベント
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
-source-git-commit: 0a96368f2aefa1ffa6e12d08d679b2d360701127
+source-git-commit: 938f0b0247cc4b9d3e05a234082db534acbbbac5
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 15%
@@ -29,7 +29,7 @@ ht-degree: 15%
   <td>
     <div>
     <a href="exp-event-lookup.md">
-    <img alt="エクスペリエンスイベントの参照のベストプラクティス" src="../assets/do-not-localize/icon-configure.svg" /></a> 
+    <img alt="エクスペリエンスイベントの参照のベストプラクティス" src="../assets/do-not-localize/icon-content.svg" /></a> 
     <br>Adobe Journey Optimizerでエクスペリエンスイベントを最大限に活用するための一般的なパターンとスケーラブルなアプローチについて説明します。 これらのユースケースは、オプトアウトの管理、メッセージ頻度の制御、ユーザー行動に基づくコンテンツのパーソナライズ、リアルタイムシグナルへの反応など、頻繁に発生する課題を解決するのに役立つように設計されています。
     </div>
       <div>
@@ -47,7 +47,7 @@ ht-degree: 15%
   <td>
     <div>
     <a href="../data/datasets-query-examples.md">
-    <img alt="クエリのサンプル" src="../assets/do-not-localize/icon-data.svg"/></a> 
+    <img alt="クエリのサンプル" src="../assets/do-not-localize/icon-configure.svg"/></a> 
     <br> ユースケースを作成するには、トラッキングエクスペリエンスイベントを取り込むシステムデータセット、ジャーニーでステップイベントを取り込むデータセット、ユーザーにオファーの提案を取り込むデータセットなど、Adobe Journey Optimizer データセットをクエリする必要があります。
     </div>
       <div>
