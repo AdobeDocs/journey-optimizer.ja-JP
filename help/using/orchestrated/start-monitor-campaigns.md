@@ -1,19 +1,19 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Adobe Journey Optimizerで調整されたキャンペーンをスケジュールして開始
-description: Adobe Journey Optimizerで調整されたキャンペーンをスケジュールおよび開始する方法について説明します
+title: Adobe Journey Optimizerを使用した調整されたキャンペーンの開始と監視
+description: Adobe Journey Optimizerでオーケストレーションされたキャンペーンを開始および監視する方法について説明します。
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: f64fa51fa753fe62eecb6199946615f4d5c4f767
+source-git-commit: 445194fcc08efacdbf5f97a425d01229f82d11ea
 workflow-type: tm+mt
-source-wordcount: '1197'
-ht-degree: 36%
+source-wordcount: '677'
+ht-degree: 44%
 
 ---
 
-# 調整されたキャンペーンのスケジュール作成と開始 {#start-monitor}
+# 調整されたキャンペーンの開始と監視 {#start-monitor}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_publication"
@@ -24,7 +24,7 @@ ht-degree: 36%
 
 | 調整されたキャンペーンへようこそ | 最初の調整されたキャンペーンの開始 | データベースのクエリ | 調整されたキャンペーンアクティビティ |
 |---|---|---|---|
-| [ オーケストレーションされたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)<br/><br/>[ 設定手順 ](configuration-steps.md)<br/>&lt;br/[ オーケストレーションされたキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md) | [ オーケストレーションされたキャンペーンの作成 ](gs-campaign-creation.md)<br/><br/>[ キャンペーンの作成とスケジュール設定 ](create-orchestrated-campaign.md)<br/><br/>[ アクティビティのオーケストレーション ](orchestrate-activities.md)<br/><br/>[ オーケストレーションされたキャンペーンでのメッセージの送信 ](send-messages.md)<br/><br/><b>[ キャンペーンの開始と監視 ](start-monitor-campaigns.md)</b><br/><br/>[ レポート ](reporting-campaigns.md) | [ ルールビルダーの操作 ](orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリの作成 ](build-query.md)<br/><br/>[ 式の編集 ](edit-expressions.md) | [ アクティビティの基本を学ぶ ](activities/about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションを変更 ](activities/change-dimension.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) - [ 分割 ](activities/split.md) [&#128279;](activities/wait.md) - |
+| [ オーケストレーションされたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)<br/><br/>[ 設定手順 ](configuration-steps.md)<br/>&lt;br/[ オーケストレーションされたキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md) | [ オーケストレーションされたキャンペーンの作成 ](gs-campaign-creation.md)<br/><br/>[ キャンペーンの作成とスケジュール設定 ](create-orchestrated-campaign.md)<br/><br/>[ アクティビティのオーケストレーション ](orchestrate-activities.md)<br/><br/>[ オーケストレーションされたキャンペーンでのメッセージの送信 ](send-messages.md)<br/><br/><b>[ キャンペーンの開始と監視 ](start-monitor-campaigns.md)</b><br/><br/>[ レポート ](reporting-campaigns.md) | [ ルールビルダーの操作 ](orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリの作成 ](build-query.md)<br/><br/>[ 式の編集 ](edit-expressions.md) | [ アクティビティの基本を学ぶ ](activities/about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションを変更 ](activities/change-dimension.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) - [ 分割 ](activities/split.md) [ ](activities/wait.md) - |
 
 {style="table-layout:fixed"}
 
@@ -33,76 +33,6 @@ ht-degree: 36%
 <br/>
 
 キャンバスで実行するタスクを調整および設計して作成したら、そのタスクを公開し、実行方法を監視できます。
-
-## 調整されたキャンペーンのスケジュール {#schedule}
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_scheduler"
->title="スケジューラー"
->abstract="キャンペーンマネージャーは、キャンペーンを特定の時間に自動的に開始するようにスケジュールして、マーケティングコミュニケーション用の正確なタイミングと正確なターゲティングデータを可能にします。"
-
-キャンペーンマネージャーは、キャンペーンを特定の時間に自動的に開始するようにスケジュールして、マーケティングコミュニケーション用の正確なタイミングと正確なターゲティングデータを可能にします。
-
-### ベストプラクティス {#scheduler-best-practices}
-
-* システム全体のパフォーマンスが落ちたり、データベースにブロックが作成されたりする可能性があるので、調整されたキャンペーンの実行スケジュールは 15 分以上の間隔を空けてください。
-* オーケストレートキャンペーンでワンショットメッセージを送信する場合は、**1 回** を実行するように設定できます。
-* オーケストレーションされたキャンペーンで繰り返しメッセージを送信する場合は、**スケジュール** オプションを使用し、実行頻度を設定する必要があります。 繰り返し配信アクティビティでは、スケジュールを定義できません。
-
-### キャンペーンスケジュールの設定 {#scheduler-configuration}
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_schedule_validity"
->title="スケジューラーの有効性"
->abstract="スケジューラーの有効期間を定義できます。永続的（デフォルト）にすることも、特定の日付まで有効にすることもできます。"
-
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_schedule_options"
->title="スケジューラーオプション"
->abstract="スケジューラーの頻度を定義します。特定の時点で、1 日、1 週間、1 か月に 1 回または数回実行できます。"
-
-![ 月ごとのオプションを含むスケジューラー画面 ](assets/scheduler-screen.png)
-
-**調整されたキャンペーンスケジュール** を設定するには、次の手順に従います。
-
-1. 調整したキャンペーンキャンバスの上部にある「**できるだけ早く**」ボタンを選択します。
-
-1. **実行頻度**&#x200B;を設定します。
-
-   * **1 回**：オーケストレーションされたキャンペーンは 1 回実行されます。
-
-   * **毎日**：オーケストレーションされたキャンペーンは、1 日に 1 回、特定の時間に実行されます。
-
-   * **1 日に数回：** 調整されたキャンペーンは、1 日に数回、定期的に実行されます。 特定の時間を指定するか、定期的に実行されるように設定できます。
-
-   * **毎週**：オーケストレーションされたキャンペーンは、週に 1 回または数回、指定した時点で実行されます。
-
-   * **毎月**：調整されたキャンペーンは、指定した時点、月に 1 回または数回だけ実行されます。 オーケストレーションされたキャンペーンを実行する必要がある場合は、月を選択できます。 月の第 2 火曜日など、月の特定の曜日に実行を設定することもできます。
-
-     ![ 毎日の実行サンプルを含んだスケジューラー画面 ](assets/scheduler-daily-sample.png){width="50%" align="left"}
-
-1. 選択した頻度に従って実行の詳細を定義します。詳細フィールドは、使用される頻度（時間、繰り返し頻度、指定された日数など）によって異なります。
-
-1. 「**ローンチ時間をプレビュー**」をクリックして、オーケストレーションされたキャンペーンの次の 10 回の実行のスケジュールを確認します。
-
-1. スケジューラーの有効期間を定義します。
-
-   * **永続的（有効期限なし）**：指定された頻度に従って、オーケストレーションされたキャンペーンが、時間枠や繰り返し回数に制限なく実行されます。
-
-   * **有効期限**：指定された頻度に従って、特定の日付までオーケストレーションされたキャンペーンが実行されます。 開始日と終了日を指定する必要があります。
-
-1. 「**確認**」を選択して設定を保存します。 実行頻度は、調整されたキャンペーンキャンバスの上に表示されます。
-
->[!TIP]
->
->調整したキャンペーンをすぐに開始する場合は、**できるだけ早く** デフォルト値をそのまま使用します。
-
-### 例 {#scheduler-example}
-
-次の例では、調整されたキャンペーンが 1 日 2 回、2025 年 10 月 1 日～2026 年 1 月 1 日、毎日午前 9 時と午前 12 時に実行されるようにアクティビティを設定します。
-
-![ キャンペーンを 1 日 2 回午前 9 時と 12 時に実行するようにスケジューラーが設定されている ](assets/scheduler-sample.png){width="50%" align="left"}
 
 ## 調整されたキャンペーンの開始 {#start}
 

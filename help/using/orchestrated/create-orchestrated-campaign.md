@@ -7,26 +7,21 @@ badge: label="アルファ版"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: f64fa51fa753fe62eecb6199946615f4d5c4f767
+source-git-commit: 445194fcc08efacdbf5f97a425d01229f82d11ea
 workflow-type: tm+mt
-source-wordcount: '910'
-ht-degree: 10%
+source-wordcount: '1125'
+ht-degree: 14%
 
 ---
 
 
 # 調整されたキャンペーンの作成とスケジュール {#create-first-campaign}
 
->[!CONTEXTUALHELP]
->id="ajo_campaign_creation_workflow"
->title="調整されたキャンペーンのリスト"
->abstract="**オーケストレーション** タブには、オーケストレーションされたすべてのキャンペーンがリストされます。 調整されたキャンペーンの名前をクリックして編集します。「**調整されたキャンペーンを作成**」ボタンを使用して、新しい調整されたキャンペーンを追加します。"
-
 +++ 目次
 
 | 調整されたキャンペーンへようこそ | 最初の調整されたキャンペーンの開始 | データベースのクエリ | 調整されたキャンペーンアクティビティ |
 |---|---|---|---|
-| [ オーケストレーションされたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)<br/><br/>[ 設定手順 ](configuration-steps.md)<br/><br/>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md) | [ オーケストレーションされたキャンペーンの作成 ](gs-campaign-creation.md)<br/><br/><b>[ キャンペーンの作成とスケジュール設定 ](create-orchestrated-campaign.md)</b><br/><br/>[ アクティビティのオーケストレーション ](orchestrate-activities.md)<br/><br/>[ オーケストレーションされたキャンペーンでのメッセージの送信 ](send-messages.md)<br/><br/>[ キャンペーンの開始と監視 ](start-monitor-campaigns.md)<br/><br/>[ レポート ](reporting-campaigns.md) | [ ルールビルダーの操作 ](orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリの作成 ](build-query.md)<br/><br/>[ 式の編集 ](edit-expressions.md) | [ アクティビティの基本を学ぶ ](activities/about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションを変更 ](activities/change-dimension.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) - [ 分割 ](activities/split.md) [&#128279;](activities/wait.md) - |
+| [ オーケストレーションされたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)<br/><br/>[ 設定手順 ](configuration-steps.md)<br/><br/>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md) | [ オーケストレーションされたキャンペーンの作成 ](gs-campaign-creation.md)<br/><br/><b>[ キャンペーンの作成とスケジュール設定 ](create-orchestrated-campaign.md)</b><br/><br/>[ アクティビティのオーケストレーション ](orchestrate-activities.md)<br/><br/>[ オーケストレーションされたキャンペーンでのメッセージの送信 ](send-messages.md)<br/><br/>[ キャンペーンの開始と監視 ](start-monitor-campaigns.md)<br/><br/>[ レポート ](reporting-campaigns.md) | [ ルールビルダーの操作 ](orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリの作成 ](build-query.md)<br/><br/>[ 式の編集 ](edit-expressions.md) | [ アクティビティの基本を学ぶ ](activities/about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションを変更 ](activities/change-dimension.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) - [ 分割 ](activities/split.md) [ ](activities/wait.md) - |
 
 {style="table-layout:fixed"}
 
@@ -34,9 +29,14 @@ ht-degree: 10%
 
 <br/>
 
-[!DNL Aadobe Journey Optimizer] でオーケストレーションされたキャンペーンを作成し、その実行スケジュールを、いつ開始し、どのくらいの頻度で実行するかを制御するように設定します。 キャンペーンを直ちに開始するか、特定の日時に開始するか、毎日、毎週、毎月の頻度などの柔軟なスケジュールオプションを使用して繰り返し開始するかを選択します。
+[!DNL Adobe Journey Optimizer] でオーケストレーションされたキャンペーンを作成し、その実行スケジュールを、いつ開始し、どのくらいの頻度で実行するかを制御するように設定します。 キャンペーンを直ちに開始するか、特定の日時に開始するか、毎日、毎週、毎月の頻度などの柔軟なスケジュールオプションを使用して繰り返し開始するかを選択します。
 
-## キャンペーンの作成とスケジュール {#create}
+## キャンペーンの作成 {#create}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaign_creation_workflow"
+>title="調整されたキャンペーンのリスト"
+>abstract="**オーケストレーション** タブには、オーケストレーションされたすべてのキャンペーンがリストされます。 調整されたキャンペーンの名前をクリックして編集します。「**調整されたキャンペーンを作成**」ボタンを使用して、新しい調整されたキャンペーンを追加します。"
 
 オーケストレーションされたキャンペーンを作成するには、次の手順に従います。
 
@@ -54,9 +54,28 @@ ht-degree: 10%
 
 ## キャンペーンのスケジュール {#schedule}
 
-デフォルトでは、調整されたキャンペーンは手動でアクティブ化すると開始し、関連するアクティビティが実行されると終了します。
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_scheduler"
+>title="スケジューラー"
+>abstract="キャンペーンマネージャーは、キャンペーンを特定の時間に自動的に開始するようにスケジュールして、マーケティングコミュニケーション用の正確なタイミングと正確なターゲティングデータを可能にします。"
 
-実行を遅らせる、またはキャンペーンを繰り返し実行する場合は、キャンペーンのスケジュールを定義できます。
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_schedule_validity"
+>title="スケジューラーの有効性"
+>abstract="スケジューラーの有効期間を定義できます。永続的（デフォルト）にすることも、特定の日付まで有効にすることもできます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_schedule_options"
+>title="スケジューラーオプション"
+>abstract="スケジューラーの頻度を定義します。特定の時点で、1 日、1 週間、1 か月に 1 回または数回実行できます。"
+
+デフォルトでは、調整されたキャンペーンは手動でアクティブ化すると開始し、関連するアクティビティが実行されると終了します。 実行を遅らせる、またはキャンペーンを繰り返し実行する場合は、キャンペーンのスケジュールを定義できます。
+
+最適なパフォーマンスと期待される動作を確保するために調整されたキャンペーンをスケジュールする際には、次のベストプラクティスを考慮してください。
+
+* システム全体のパフォーマンスが落ちたり、データベースにブロックが作成されたりする可能性があるので、調整されたキャンペーンの実行スケジュールは 15 分以上の間隔を空けてください。
+* オーケストレートキャンペーンでワンショットメッセージを送信する場合は、**1 回** を実行するように設定できます。
+* オーケストレーションされたキャンペーンで繰り返しメッセージを送信する場合は、**スケジュール** オプションを使用し、実行頻度を設定する必要があります。 繰り返し配信アクティビティでは、スケジュールを定義できません。
 
 キャンペーンスケジュールを設定するには、次の手順に従います。
 
@@ -73,7 +92,7 @@ ht-degree: 10%
    * **[!UICONTROL 日付]**：キャンペーンを実行する日付を選択します。
    * **[!UICONTROL 時間]**：キャンペーンを実行する特定の時間を選択します。
 
-   +++
++++
 
    +++毎日
 
@@ -87,7 +106,7 @@ ht-degree: 10%
 
    * **[!UICONTROL 開始時刻]**：キャンペーンを毎日実行する時間を定義します。
 
-   +++
++++
 
    +++1 日に数回
 
@@ -96,7 +115,7 @@ ht-degree: 10%
    * **[!UICONTROL 選択した時間]**：キャンペーンを実行する具体的な回数を選択し、毎日の繰り返しを設定します（毎日または特定の日に実行します）。
    * **[!UICONTROL 定期的]**：キャンペーンを n 分または n 時間ごとに実行するように選択します。 また、実行が許可される日の時間範囲を定義することもできます。
 
-   +++
++++
 
    +++毎週
 
@@ -107,7 +126,7 @@ ht-degree: 10%
    * **[!UICONTROL 毎日の繰り返し]**：実行する特定の曜日を選択します（毎週月曜日と木曜日など）。
    * **[!UICONTROL 開始時刻]**：選択した日にキャンペーンを実行する時間を設定します。
 
-   +++
++++
 
    +++毎月
 
@@ -123,7 +142,7 @@ ht-degree: 10%
 
    * **[!UICONTROL 開始時刻]**：キャンペーンを実行する時間を設定します。
 
-   +++
++++
 
 1. **[!UICONTROL 有効期間]** 設定を使用して特定の開始日と終了日を定義し、キャンペーンの実行を限られた時間枠に制限します。
 
@@ -132,6 +151,10 @@ ht-degree: 10%
 >[!NOTE]
 >
 >[!DNL Adobe Journey Optimizer] でキャンペーンをスケジュールする場合は、開始日時が目的の最初の配信に合っていることを確認します。繰り返しキャンペーンで、最初にスケジュールした時間が既に過ぎている場合、キャンペーンは繰り返しルールに従って、次に使用可能な時間スロットに繰り越されます。
+
+次の例では、調整されたキャンペーンが 1 日 2 回、2025 年 10 月 1 日～2026 年 1 月 1 日、毎日午前 9 時と午前 12 時に実行されるようにアクティビティを設定します。
+
+![ キャンペーンを 1 日 2 回午前 9 時と 12 時に実行するようにスケジューラーが設定されている ](assets/scheduler-sample.png){width="50%" align="left"}
 
 ## 次の手順 {#next}
 
