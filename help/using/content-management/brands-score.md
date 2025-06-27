@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 01e74670-7431-4791-b98c-12278e6d3332
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 96%
+source-wordcount: '286'
+ht-degree: 81%
 
 ---
 
@@ -38,9 +38,9 @@ ht-degree: 96%
 >[!AVAILABILITY]
 >
 >この機能は、Private Beta としてリリースされています。今後のリリースでは、すべてのお客様が段階的に利用できるようになる予定です。
->&#x200B;>Adobe Journey Optimizer で AI アシスタントを使用する前に、[ユーザー契約](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}に同意する必要があります。詳しくは、アドビ担当者にお問い合わせください。
+>>Adobe Journey Optimizer で AI アシスタントを使用する前に、[ユーザー契約](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}に同意する必要があります。詳しくは、アドビ担当者にお問い合わせください。
 
-ブランド一致機能は、ブランドガイドラインに準拠したコンテンツの作成、レビュー、管理を支援するために作成されています。この機能を使用すると、メールキャンペーン全体のトーン、メッセージ、ビジュアルアイデンティティの一貫性を確保するだけでなく、コンテンツ公開前に品質チェックを行うことができます。
+ブランドの整合機能は、ブランドガイドラインに準拠したコンテンツの作成、レビューおよび管理に役立ちます。 この機能を使用すると、メールキャンペーン全体のトーン、メッセージ、ビジュアルアイデンティティの一貫性を確保するだけでなく、コンテンツ公開前に品質チェックを行うことができます。
 
 ## ブランド一致を使用したコンテンツの検証 {#validate-content}
 
@@ -50,7 +50,7 @@ ht-degree: 96%
 
 1. メールDesignerで **[!UICONTROL ブランドの関連付け]** メニューを開きます。
 
-   コンテンツは、デフォルトのブランドに対して自動的に評価されます。[詳しくは、デフォルトのブランドの割り当て方法を参照してください](brands.md)。
+   コンテンツは、デフォルトブランドに照らして自動的に評価されます。 [詳しくは、デフォルトのブランドの割り当て方法を参照してください](brands.md)。
 
    ![](assets/brand-score-1.png)
 
@@ -60,7 +60,7 @@ ht-degree: 96%
 
 1. **ブランド一致スコア**（高、中、低）を参照し、詳細なフィードバックを確認します。
 
-1. ![Dive image alt text](assets/do-not-localize/Smock_FullScreen_18_N.svg "全画面") アイコンをクリックして、スコアに関する詳細なインサイトを確認します。
+1. ![ 全画面表示アイコンをクリックすると、詳細なインサイト ](assets/do-not-localize/Smock_FullScreen_18_N.svg " 全画面 ") アイコンが表示され、スコアに関するより多くのインサイトを確認できます。
 
    ![](assets/brand-score-3.png)
 
