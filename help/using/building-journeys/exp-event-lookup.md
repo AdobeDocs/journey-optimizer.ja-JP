@@ -3,19 +3,19 @@ solution: Journey Optimizer
 product: journey optimizer
 title: ジャーニーでのエクスペリエンスイベントの参照
 description: ジャーニーでエクスペリエンスイベント参照を使用する方法を説明します
-source-git-commit: 190d7d5fd5cb93a6ddf3757e00f42a9714a1f722
+exl-id: 35e2e347-0669-44a3-92ba-aee52e54c219
+source-git-commit: cee47accd4f5427f7e10015eba8b952d4e86daab
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '933'
 ht-degree: 6%
 
 ---
-
 
 # ジャーニーでのエクスペリエンスイベント参照 {#ee-journeys}
 
 >[!CAUTION]
 >
->7 月 8 日（PT）以降、新しい顧客組織では、エクスペリエンスイベントを使用した式の作成が、ジャーニー条件で使用される式エディターでサポートされなくなります。 その結果、[Experience Platform データソース ](../datasource/adobe-experience-platform-data-source.md) のエクスペリエンスイベントは式の作成に使用できません。 エクスペリエンスイベントを使用して式やロジックを作成するための代替アプローチやベストプラクティスについては、以下を参照してください。
+>2025 年 7 月 8 日（PT）以降、新しい顧客組織では、エクスペリエンスイベントを使用した式の作成がジャーニー条件で使用される式エディターでサポートされなくなります。 その結果、[Experience Platform データソース ](../datasource/adobe-experience-platform-data-source.md) のエクスペリエンスイベントは式の作成に使用できません。 エクスペリエンスイベントを使用して式やロジックを作成するための代替アプローチやベストプラクティスについては、以下を参照してください。
 >
 >詳細が必要な場合 [FAQ を読む ](#faq-ee)。
 
@@ -51,9 +51,9 @@ ht-degree: 6%
 
 詳細情報：
 
-* Adobe Experience Platform[ セグメントビルダー – イベント ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* Adobe Experience Platform[ セグメントビルダー – イベント ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* Adobe Experience Platform[ セグメントビルダー – 時間制約 ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* Adobe Experience Platform[ セグメントビルダー – 時間制約 ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [条件でのオーディエンスの使用](../building-journeys/condition-activity.md#using-audiences-in-conditions)
 
@@ -70,9 +70,9 @@ ht-degree: 6%
 
 オーディエンスの使用について詳しくは、以下を参照してください。
 
-* Adobe Experience Platform[ セグメントビルダー – イベント ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* Adobe Experience Platform[ セグメントビルダー – イベント ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* Adobe Experience Platform[ セグメントビルダー – 時間制約 ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* Adobe Experience Platform[ セグメントビルダー – 時間制約 ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [条件でのオーディエンスの使用](../building-journeys/condition-activity.md#using-audiences-in-conditions)
 
@@ -92,9 +92,9 @@ ht-degree: 6%
 
 詳細情報：
 
-* Adobe Experience Platform[ セグメントビルダー – イベント ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* Adobe Experience Platform[ セグメントビルダー – イベント ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* Adobe Experience Platform[ セグメントビルダー – 時間制約 ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* Adobe Experience Platform[ セグメントビルダー – 時間制約 ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [条件でのオーディエンスの使用](../building-journeys/condition-activity.md#using-audiences-in-conditions)
 
@@ -104,8 +104,8 @@ ht-degree: 6%
 
 最新の買い物かごに基づいて通信をパーソナライズしたり、複数の買い物かごタイプまたは製品表示をまたいでイベントを参照したりするには：
 
-* [Adobe Experience Platform Data Distiller](https://experienceleague.adobe.com/ja/docs/experience-platform/query/data-distiller/overview){target="_blank"} にアクセスできる場合は、自動クエリを設定してイベントから必要なデータを抽出し、ユースケースに合わせて操作してから、アクティブ化のためにプロファイル対応データセットに書き戻します。
-* 放棄データをスカラー属性を持つプロファイルをモデル化できる場合は、計算済み属性を使用して最新の情報を取得してから、ジャーニーでこれらの属性を参照して通信を構築することを検討してください。 [詳しくは、Adobe Experience Platform ドキュメントを参照してください](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
+* [Adobe Experience Platform Data Distiller](https://experienceleague.adobe.com/en/docs/experience-platform/query/data-distiller/overview){target="_blank"} にアクセスできる場合は、自動クエリを設定してイベントから必要なデータを抽出し、ユースケースに合わせて操作してから、アクティブ化のためにプロファイル対応データセットに書き戻します。
+* 放棄データをスカラー属性を持つプロファイルをモデル化できる場合は、計算済み属性を使用して最新の情報を取得してから、ジャーニーでこれらの属性を参照して通信を構築することを検討してください。 [詳しくは、Adobe Experience Platform ドキュメントを参照してください](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
 
 
 ## 行動ベースのジャーニー終了
@@ -122,7 +122,7 @@ ht-degree: 6%
 
 詳細情報：
 
-* Adobe Experience Platform[ 計算済み属性の概要 ](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
+* Adobe Experience Platform[ 計算済み属性の概要 ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
 
 
 
