@@ -7,10 +7,10 @@ badge: label="アルファ版"
 hide: true
 hidefromtoc: true
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
-source-git-commit: 185e4121a939f2b46b85865278a591c43ad01f27
+source-git-commit: 4d41920b9a0a1acadd97858718a2f80ee9ece8aa
 workflow-type: tm+mt
-source-wordcount: '733'
-ht-degree: 27%
+source-wordcount: '896'
+ht-degree: 24%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 27%
 
 | 調整されたキャンペーンへようこそ | 最初の調整されたキャンペーンの開始 | データベースのクエリ | 調整されたキャンペーンアクティビティ |
 |---|---|---|---|
-| [ オーケストレーションされたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)<br/><br/>[ 設定手順 ](configuration-steps.md)<br/><br/>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md) | [ オーケストレーションされたキャンペーンの作成 ](gs-campaign-creation.md)<br/><br/>[ キャンペーンの作成とスケジュール設定 ](create-orchestrated-campaign.md)<br/><br/><b>[ アクティビティのオーケストレーション ](orchestrate-activities.md)</b><br/><br/>[ オーケストレーションされたキャンペーンでのメッセージの送信 ](send-messages.md)<br/><br/>[ キャンペーンの開始と監視 ](start-monitor-campaigns.md)<br/><br/>[ レポート ](reporting-campaigns.md) | [ ルールビルダーの操作 ](orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリの作成 ](build-query.md)<br/><br/>[ 式の編集 ](edit-expressions.md) | [ アクティビティの基本を学ぶ ](activities/about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションを変更 ](activities/change-dimension.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) - [ 分割 ](activities/split.md) [&#128279;](activities/wait.md) - |
+| [ オーケストレーションされたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)<br/><br/>[ 設定手順 ](configuration-steps.md)<br/><br/>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md) | [ オーケストレーションされたキャンペーンの作成 ](gs-campaign-creation.md)<br/><br/>[ キャンペーンの作成とスケジュール設定 ](create-orchestrated-campaign.md)<br/><br/><b>[ アクティビティのオーケストレーション ](orchestrate-activities.md)</b><br/><br/>[ オーケストレーションされたキャンペーンでのメッセージの送信 ](send-messages.md)<br/><br/>[ キャンペーンの開始と監視 ](start-monitor-campaigns.md)<br/><br/>[ レポート ](reporting-campaigns.md) | [ ルールビルダーの操作 ](orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリの作成 ](build-query.md)<br/><br/>[ 式の編集 ](edit-expressions.md) | [ アクティビティの基本を学ぶ ](activities/about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションを変更 ](activities/change-dimension.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) - [ 分割 ](activities/split.md) [ ](activities/wait.md) - |
 
 {style="table-layout:fixed"}
 
@@ -48,7 +48,7 @@ ht-degree: 27%
 
 ![](assets/canvas-transition.png)
 
-## キャンバスツールバー {#toolbar}
+### キャンバスツールバー {#toolbar}
 
 キャンバスツールバーには、アクティビティを簡単に操作し、キャンバス内を移動するためのオプションが用意されています。
 
@@ -64,7 +64,7 @@ ht-degree: 27%
 
 ![Campaign 設定アイコン ](assets/do-not-localize/canvas-map.svg) キャンバスのスナップショットを開いて、位置を示します。
 
-## アクティビティの管理 {#manage}
+### アクティビティの管理 {#manage}
 
 アクティビティを追加する場合、プロパティパネルでアクションボタンを使用して複数の操作を実行できます。
 
@@ -82,7 +82,7 @@ ht-degree: 27%
 
 「**結合**」や「**重複排除**」などの&#x200B;**ターゲティング**&#x200B;アクティビティを使用すると、残りの母集団を処理し、追加のアウトバウンドトランジションに含めることができます。例えば、「**分割**」アクティビティを使用している場合、補集合は、以前に定義されたどのサブセットにも一致しない母集団で構成されます。 この機能を使用するには、「**[!UICONTROL 補集合を生成]**」オプションを有効化します。
 
-## アクティビティのコピーとペースト {#copy}
+### アクティビティのコピーとペースト {#copy}
 
 アクティビティをコピーして、調整した任意のキャンペーンキャンバスに貼り付けることができます。 宛先キャンペーンは、別のブラウザータブに配置できます。
 
@@ -97,25 +97,25 @@ ht-degree: 27%
 
 ![](assets/orchestrated-copy-3.png){zoomable="yes"}{width="50%"}
 
-<!--## Example {#example}
+## 図の例 {#example}
 
-Here is an orchestrated campaign example designed to send an email to all customers (other than VIP customers) with an email who are interested in coffee machines.
+以下は、100 ドル以上の購入を行ったすべての顧客にメールを送信し、ロイヤルティポイントが 50 個未満のすべての顧客を除外するように設計された、オーケストレーションされたキャンペーンの例です。
 
-![](assets/workflow-example.png){zoomable="yes"}{zoomable="yes"}
+![](assets/canvas-example-diagram.png){zoomable="yes"}
 
-To achieve this, activities below have been added:
+これを実現するために、以下のアクティビティが追加されました。
 
-* A **[!UICONTROL Fork]** activity that divides the orchestrated campaign into three paths (one for each set of customer),
-* **[!UICONTROL Build audience]** activities to target the three sets of customers:
+* **[!UICONTROL 分岐]** アクティビティは、調整されたキャンペーンを 3 つのパスに分割します。
+* **[!UICONTROL オーディエンスを作成]** アクティビティは、次の 3 組の顧客をターゲットにします。
 
-    * Customers with an email,
-    * Customers belonging to the pre-existing "Interrested in Coffee Machine(s)" audience,
-    * Customers belonging to the pre-existing "VIP ro reward" audience.
+   * メールを送信した顧客。
+   * 100 ドル以上のお客様
+   * 50 未満のロイヤルポイントを持つお客様。
 
-* A **[!UICONTROL Combine]** activity that groups together customers with an email and those interested in coffee machines,
-* A **[!UICONTROL Combine]** activity that excludes VIP customers,
-* An **[!UICONTROL Email delivery]** activity that sends an email to the resulting customers. 
+* **[!UICONTROL 結合]** アクティビティが、メールを送信した顧客と、100 ドル以上を購入した顧客をグループ化します。
+* **[!UICONTROL 結合]** アクティビティでは、ロイヤルティポイントが 50 個未満の顧客は除外されます。
+* **[!UICONTROL メール配信]** アクティビティは、結果の顧客にメールを送信します。
 
-Once you have completed the orchestrated campaign, add en **[!UICONTROL End]** activity at the end of the diagram. This activity allow you to visually mark the end of a workflow and has no functional impact.
+## 次の手順 {#next}
 
-After successfully designing the orchestrated campaign diagram, you can execute the orchestrated campaign and track the progress of its various tasks. [Learn how to start an orchestrated campaign and monitor its execution](start-monitor-campaigns.md)-->
+オーケストレーションされたキャンペーンの図を正常に設計したら、オーケストレーションされたキャンペーンを実行し、様々なタスクの進捗をトラッキングできます。 [ オーケストレートキャンペーンを開始し、その実行を監視する方法については、こちらを参照してください ](start-monitor-campaigns.md)
