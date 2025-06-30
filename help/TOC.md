@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e1cbaaf30f376c1bb32a16dcc8a09686e0b9e231
+source-git-commit: d0ac966780349ab10c47dd9ea915ca4f5964e938
 workflow-type: tm+mt
-source-wordcount: '2474'
+source-wordcount: '2476'
 ht-degree: 97%
 
 ---
@@ -200,6 +200,7 @@ ht-degree: 97%
       + [重複の除外](using/orchestrated/activities/deduplication.md)
       + [エンリッチメント](using/orchestrated/activities/enrichment.md)
       + [分岐](using/orchestrated/activities/fork.md)
+      + [オーディエンスを読み取り](using/orchestrated/activities/read-audience.md)
       + [紐付け](using/orchestrated/activities/reconciliation.md)
       + [分割](using/orchestrated/activities/split.md)
       + [テスト](using/orchestrated/activities/test.md)
