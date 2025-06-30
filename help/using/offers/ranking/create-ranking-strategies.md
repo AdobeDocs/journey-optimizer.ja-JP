@@ -87,7 +87,7 @@ AI モデルを作成するには、次の手順を行います。
 * defined which type of event you want to capture - offer displayed (impression) and/or offer clicked (conversion),
 * and in which dataset you want to collect the event data.-->
 
-これで、オファーが表示およびクリックされるたびに、対応するイベントが、[Adobe Experience Platform Web SDK **[!UICONTROL またはモバイル SDKを使用し、{Experience Event - Proposition Interactions]** フィールドグループによって自動的にキャプチャされるように ](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html?lang=ja#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} りました。
+これで、オファーが表示およびクリックされるたびに、対応するイベントが、[Adobe Experience Platform Web SDK **[!UICONTROL またはモバイル SDKを使用し、&lbrace;Experience Event - Proposition Interactions]** フィールドグループによって自動的にキャプチャされるように ](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html?lang=ja#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} りました。
 
 イベントタイプ（表示されたオファーまたはクリックされたオファー）で送信できるようにするには、Adobe Experience Platform に送信されるエクスペリエンスイベントで、各イベントタイプに正しい値を設定する必要があります。[方法についてはこちらを参照](../data-collection/schema-requirement.md)
 

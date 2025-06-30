@@ -146,7 +146,7 @@ Decisioning API を使用して自由な形式でコンテキストを渡すの�
 
   ![](assets/context-edge-copy-scope.png)
 
-+++
+  +++
 
 ```
 {

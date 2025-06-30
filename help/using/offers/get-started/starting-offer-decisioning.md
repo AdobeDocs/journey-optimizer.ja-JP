@@ -42,7 +42,7 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->**Offer Decisioning](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ja){target="_blank"} アプリケーションを利用する [Adobe Experience Platform** ユーザーの場合は、この節で説明する意思決定管理機能もすべて適用されます。
+>**Offer Decisioning[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ja){target="_blank"} アプリケーションを利用する Adobe Experience Platform** ユーザーの場合は、この節で説明する意思決定管理機能もすべて適用されます。
 
 ## オファーと決定について {#about-offers-and-decisions}
 
