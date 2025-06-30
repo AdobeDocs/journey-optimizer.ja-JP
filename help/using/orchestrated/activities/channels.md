@@ -7,10 +7,10 @@ badge: label="アルファ版"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 38b65200435e0b997e79aefbb66549b9168188fd
+source-git-commit: 6059de3366743ac6f5971a6113f3bec0f1e6fb32
 workflow-type: tm+mt
-source-wordcount: '968'
-ht-degree: 63%
+source-wordcount: '899'
+ht-degree: 38%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 63%
 
 | 調整されたキャンペーンへようこそ | 最初の調整されたキャンペーンの開始 | データベースのクエリ | 調整されたキャンペーンアクティビティ |
 |---|---|---|---|
-| [ オーケストレーションされたキャンペーンの概要 ](../gs-orchestrated-campaigns.md)<br/><br/>[ 設定手順 ](../configuration-steps.md)<br/><br/>[ オーケストレーションされたキャンペーンを作成するための主な手順 ](../gs-campaign-creation.md) | [ オーケストレーションされたキャンペーンの作成 ](../create-orchestrated-campaign.md)<br/><br/>[ アクティビティのオーケストレーション ](../orchestrate-activities.md)<br/><br/>[ オーケストレーションされたキャンペーンでのメッセージの送信 ](../send-messages.md)<br/><br/>[ キャンペーンの開始および監視 ](../start-monitor-campaigns.md)<br/><br/>[ レポート ](../reporting-campaigns.md) | [ クエリの操作Modeler](../orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリ ](../build-query.md)<br/><br/>[ 編集式を作成 ](../edit-expressions.md) | [ アクティビティの基本を学ぶ ](about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](and-join.md) - [ オーディエンスを作成 ](build-audience.md) - [ ディメンションを変更 ](change-dimension.md) - [ 結合 ](combine.md) - [ 重複排除 ](deduplication.md) - [ エンリッチメント ](enrichment.md) - [ 分岐 ](fork.md) - [ 紐付け ](reconciliation.md) - [ 分割 ](split.md) [&#128279;](wait.md) - |
+| [ オーケストレーションされたキャンペーンの概要 ](../gs-orchestrated-campaigns.md)<br/><br/>[ 設定手順 ](../configuration-steps.md)<br/><br/>[ オーケストレーションされたキャンペーンを作成するための主な手順 ](../gs-campaign-creation.md) | [ オーケストレーションされたキャンペーンの作成 ](../create-orchestrated-campaign.md)<br/><br/>[ アクティビティのオーケストレーション ](../orchestrate-activities.md)<br/><br/>[ オーケストレーションされたキャンペーンでのメッセージの送信 ](../send-messages.md)<br/><br/>[ キャンペーンの開始および監視 ](../start-monitor-campaigns.md)<br/><br/>[ レポート ](../reporting-campaigns.md) | [ クエリの操作Modeler](../orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリ ](../build-query.md)<br/><br/>[ 編集式を作成 ](../edit-expressions.md) | [ アクティビティの基本を学ぶ ](about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](and-join.md) - [ オーディエンスを作成 ](build-audience.md) - [ ディメンションを変更 ](change-dimension.md) - [ 結合 ](combine.md) - [ 重複排除 ](deduplication.md) - [ エンリッチメント ](enrichment.md) - [ 分岐 ](fork.md) - [ 紐付け ](reconciliation.md) - [ 分割 ](split.md) [ ](wait.md) - |
 
 {style="table-layout:fixed"}
 
@@ -47,27 +47,39 @@ Adobe Journey Optimizerを使用すると、インバウンドチャネルとア
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_email"
 >title="メールアクティビティ"
->abstract="メールアクティビティを使用すると、複数の手順のキャンペーン内で、1 回限りのメッセージと繰り返しメッセージの両方でメールを送信できます。これは、同じ複数の手順のキャンペーン内で計算されたターゲットにメールを送信するプロセスを自動化するのに役立ちます。チャネルアクティビティを複数の手順のキャンペーンキャンバスに組み合わせて、顧客の行動とデータに基づいてアクションをトリガーできるクロスチャネルキャンペーンを作成できます。"
+>abstract="メール アクティビティを使用すると、1 回限りのメッセージと繰り返しメッセージの両方について、オーケストレーションされたキャンペーン内でメールを送信できます。 同じ調整されたキャンペーン内で計算されたターゲットにメールを送信するプロセスを自動化する役割を果たします。 チャネルアクティビティを複数の手順のキャンペーンキャンバスに組み合わせて、顧客の行動とデータに基づいてアクションをトリガーできるクロスチャネルキャンペーンを作成できます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_sms"
 >title="SMS アクティビティ"
->abstract="SMS アクティビティを使用すると、複数の手順のキャンペーン内で、1 回限りのメッセージと繰り返しメッセージで SMS を送信できます。これは、同じ複数の手順のキャンペーン内で計算されたターゲットに SMS を送信するプロセスを自動化するのに役立ちます。チャネルアクティビティを複数の手順のキャンペーンキャンバスに組み合わせて、顧客の行動とデータに基づいてアクションをトリガーできるクロスチャネルキャンペーンを作成できます。"
+>abstract="SMS アクティビティを使用すると、1 回限りのメッセージと繰り返しメッセージの両方について、オーケストレーションされたキャンペーン内で SMS を送信できます。 同じオーケストレーションされたキャンペーン内で計算されたターゲットに SMS を送信するプロセスを自動化する役割を果たします。 チャネルアクティビティを複数の手順のキャンペーンキャンバスに組み合わせて、顧客の行動とデータに基づいてアクションをトリガーできるクロスチャネルキャンペーンを作成できます。"
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_push"
+>title="プッシュアクティビティ"
+>abstract="プッシュ アクティビティを使用すると、調整されたキャンペーンの一部としてプッシュ通知を送信できます。 1 回限りのキャンペーンと繰り返しのオーケストレートキャンペーンの両方を配信でき、同じオーケストレートキャンペーン内の事前定義済みターゲットにプッシュ通知を自動的に送信できます。 チャネルアクティビティをキャンペーンキャンバスに組み合わせて、顧客の行動とデータに基づいてアクションをトリガーにできるクロスチャネルキャンペーンを作成できます。"
+
+
+<!--
+UNUSED IDs in BJ
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push_ios"
->title="iOS をプッシュアクティビティ"
->abstract="iOS をプッシュアクティビティを使用すると、複数の手順のキャンペーンの一部として iOS プッシュ通知を送信できます。これにより、1 回限りのキャンペーンと繰り返しの複数の手順のキャンペーンの両方の配信が可能になり、同じワークフロー内の定義済みターゲットへの iOS プッシュ通知の送信が自動化されます。チャネルアクティビティをワークフローキャンバスに組み合わせて、顧客の行動とデータに基づいてアクションをトリガーできるクロスチャネルワークフローを作成できます。"
+>title="Push iOS activity"
+>abstract="The Push iOS activity let you send iOS Push notifications as part of your orchestrated campaign. It enables the delivery of both one-time and recurring orchestrated campaigns, automating the sending iOS Push notifications to a predefined target within the same workflow. You can combine channel activities into the campaign canvas to create cross-channel campaigns that can trigger actions based on customer behavior and data."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push_android"
->title="Android をプッシュアクティビティ"
->abstract="Android をプッシュアクティビティを使用すると、複数の手順のキャンペーンの一部として Android プッシュ通知を送信できます。これにより、1 回限りのメッセージと繰り返しメッセージの両方の配信が可能になり、同じ複数の手順のキャンペーン内の定義済みターゲットへの Android プッシュ通知の送信が自動化されます。チャネルアクティビティを複数の手順のキャンペーンキャンバスに組み合わせて、顧客の行動とデータに基づいてアクションをトリガーできるクロスチャネルキャンペーンを作成できます。"
+>title="Push Android activity"
+>abstract="The Push Android activity ket you send Android Push notifications as part of your orchestrated campaign. It enables the delivery of both one-time and recurring messages, automating the sending Android Push notifications to a predefined target within the same orchestrated campaign. You can combine channel activities into the orchestrated campaign canvas to create cross-channel campaigns that can trigger actions based on customer behavior and data."
+
+-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_directmail"
 >title="ダイレクトメールアクティビティ"
->abstract="ダイレクトメールアクティビティでは、複数の手順のキャンペーン内でダイレクトメール送信を促進し、1 回限りのメッセージと繰り返しメッセージの両方を送信できます。これは、ダイレクトメールプロバイダーが必要とする抽出ファイルを生成するプロセスを自動化するのに役立ちます。チャネルアクティビティを複数の手順のキャンペーンキャンバスに組み合わせて、顧客の行動とデータに基づいてアクションをトリガーできるクロスチャネルキャンペーンを作成できます。"
+>abstract="ダイレクトメールアクティビティは、1 回限りのメッセージと繰り返しメッセージの両方について、オーケストレーションされたキャンペーン内でのダイレクトメール送信を容易にします。 これは、ダイレクトメールプロバイダーが必要とする抽出ファイルを生成するプロセスを自動化するのに役立ちます。チャネルアクティビティを調整されたキャンペーンキャンバスに組み合わせて、顧客の行動とデータに基づいてアクションをトリガーにできるクロスチャネルキャンペーンを作成できます。"
 
 オーケストレーションされたキャンペーンのコンテキストで配信を設定するには、次の手順に従います。
 
@@ -86,7 +98,7 @@ Adobe Journey Optimizerを使用すると、インバウンドチャネルとア
 
 1. 「**[!UICONTROL 配信を作成]**」をクリックします。スタンドアロン配信の作成時と同様に、メッセージの設定とコンテンツを定義できます。また、コンテンツをテストし、シミュレートすることもできます。
 
-1. ワークフローに戻ります。ワークフローを続行する場合は、「**[!UICONTROL アウトバウンドトランジションを生成]**」オプションの切替スイッチをオンにし、チャネルアクティビティの後にトランジションを追加します。
+1. オーケストレーションされたキャンペーンに戻ります。 オーケストレーションされたキャンペーンを続行する場合は、「**[!UICONTROL アウトバウンドトランジションを生成]**」オプションを切り替えて、チャネルアクティビティの後にトランジションを追加します。
 
 1. 「**[!UICONTROL 開始]**」をクリックして、調整したキャンペーンを開始します。
 
