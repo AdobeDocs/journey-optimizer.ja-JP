@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 7c806d138b97d57afa583e98a1356bd3811f2eb8
+source-git-commit: 66e5d12e6d262014db5c7eb7603f678296591301
 workflow-type: tm+mt
-source-wordcount: '1752'
-ht-degree: 97%
+source-wordcount: '1753'
+ht-degree: 98%
 
 ---
 
@@ -64,9 +64,8 @@ Journey Optimizer では、決定項目と呼ばれるマーケティングオ�
 >id="ajo_exd_item_constraints"
 >title="オーディエンスまたは決定ルールを追加"
 >abstract="デフォルトでは、すべてのプロファイルが決定項目を受け取る資格を持ちますが、オーディエンスまたはルールを使用すると、項目を特定のプロファイルのみに制限できます。"
-
-<!-->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html?lang=ja" text="Use audiences"
->additional-url=&quot;https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules.html&quot; text=&quot;決定ルールを使用&quot;—>
+>additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="オーディエンスを使用"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="決定ルールの使用"
 
 デフォルトでは、すべてのプロファイルが決定項目を受け取る資格を持ちますが、オーディエンスまたはルールを使用すると、項目を特定のプロファイルに制限できます。どちらのソリューションも様々な用途に対応します。詳しくは、以下の節を展開してください。
 
