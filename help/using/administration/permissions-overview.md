@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 権限, 制限, アクセス, サンドボックス
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
 source-git-commit: 404fffa8d1f2ed40b18246002b67e2b533d8c19e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 100%
 
