@@ -65,7 +65,7 @@ Journey Optimizer では、決定項目と呼ばれるマーケティングオ�
 >title="オーディエンスまたは決定ルールを追加"
 >abstract="デフォルトでは、すべてのプロファイルが決定項目を受け取る資格を持ちますが、オーディエンスまたはルールを使用すると、項目を特定のプロファイルのみに制限できます。"
 
-<!-->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html" text="Use audiences"
+<!-->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences.html?lang=ja" text="Use audiences"
 >additional-url=&quot;https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/selection/rules.html&quot; text=&quot;決定ルールを使用&quot;—>
 
 デフォルトでは、すべてのプロファイルが決定項目を受け取る資格を持ちますが、オーディエンスまたはルールを使用すると、項目を特定のプロファイルに制限できます。どちらのソリューションも様々な用途に対応します。詳しくは、以下の節を展開してください。
