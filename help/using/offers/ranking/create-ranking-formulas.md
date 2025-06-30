@@ -1,16 +1,17 @@
 ---
 title: ランキング式
 description: オファーをランク付けする数式を作成する方法を学ぶ
+badge: label="レガシー" type="Informative"
 feature: Ranking, Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
-source-git-commit: 9b66f4871d8b539bf0201b2974590672205a3243
-workflow-type: ht
-source-wordcount: '595'
-ht-degree: 100%
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+workflow-type: tm+mt
+source-wordcount: '596'
+ht-degree: 99%
 
 ---
 

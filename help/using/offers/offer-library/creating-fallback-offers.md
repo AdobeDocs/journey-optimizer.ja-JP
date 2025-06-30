@@ -1,15 +1,16 @@
 ---
 title: フォールバックオファーを作成
 description: オファーを受ける資格を持たない顧客に表示するフォールバックオファーを作成する方法を説明します
+badge: label="レガシー" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+workflow-type: tm+mt
 source-wordcount: '300'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -58,5 +59,5 @@ ht-degree: 100%
 
 ## チュートリアルビデオ {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341357?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/329383?quality=12)
 

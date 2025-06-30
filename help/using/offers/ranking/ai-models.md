@@ -3,14 +3,15 @@ product: experience platform
 solution: Experience Platform
 title: AI モデルの基本を学ぶ
 description: オファーをランク付けできる AI モデルについて説明します
+badge: label="レガシー" type="Informative"
 feature: Ranking, Decision Management
 role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
-source-git-commit: 9d84c3d85440fba42918ab98d836f9124b397dad
-workflow-type: ht
-source-wordcount: '371'
-ht-degree: 100%
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+workflow-type: tm+mt
+source-wordcount: '372'
+ht-degree: 99%
 
 ---
 

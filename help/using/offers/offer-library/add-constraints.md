@@ -1,15 +1,16 @@
 ---
 title: オファーへの制約の追加
 description: 表示されるオファーの条件を定義する方法を説明します
+badge: label="レガシー" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2718'
+ht-degree: 98%
 
 ---
 
@@ -75,7 +76,7 @@ ht-degree: 0%
 >title="オファー実施要件について"
 >abstract="このセクションでは、決定ルールを使用して、オファーの対象となるユーザーを決定できます。"
 
-<!--additional-url="https://video.tv.adobe.com/v/341373?captions=jpn" text="Watch demo video"-->
+<!--additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"

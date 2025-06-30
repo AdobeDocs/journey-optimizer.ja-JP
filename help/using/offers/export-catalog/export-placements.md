@@ -1,15 +1,16 @@
 ---
 title: プレースメントデータセット
 description: この節では、プレースメント用に書き出したデータセットで使用するすべてのフィールドをリストします。
+badge: label="レガシー" type="Informative"
 feature: Decision Management, Datasets
 topic: Integrations
 role: User, Data Engineer
 level: Intermediate
 exl-id: 3e45f3cf-e17e-43a6-8424-98afef07aaa3
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 100%
+source-wordcount: '366'
+ht-degree: 99%
 
 ---
 

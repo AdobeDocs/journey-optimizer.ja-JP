@@ -3,13 +3,14 @@ product: experience platform
 solution: Experience Platform
 title: イベントを収集するデータセットの作成
 description: イベントを収集するデータセットの作成方法を説明します
+badge: label="レガシー" type="Informative"
 feature: Ranking, Decision Management, Datasets
 role: Data Engineer, Developer
 level: Experienced
 exl-id: 99963ef4-0b19-475e-96f4-2eac3f680c6f
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '256'
 ht-degree: 91%
 
 ---

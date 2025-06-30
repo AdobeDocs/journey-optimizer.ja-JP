@@ -1,14 +1,15 @@
 ---
 title: 決定にカスタムアップロードオーディエンスを活用
 description: カスタムアップロードオーディエンスを決定に活用する方法について説明します。
+badge: label="レガシー" type="Informative"
 feature: Decision Management
 role: User
 level: Intermediate
 exl-id: bd950410-691b-49d8-8851-8c6c448c00fd
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 100%
+source-wordcount: '533'
+ht-degree: 98%
 
 ---
 
@@ -23,7 +24,7 @@ Journey Optimizer を使用すると、カスタムアップロード（CSV フ�
 
 カスタムアップロードオーディエンスについて詳しくは、次の節を参照してください。
 * [オーディエンスと Journey Optimizer の概要](../audience/about-audiences.md)
-* [Adobe Experience Platform でのオーディエンスの読み込み](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
+* [Adobe Experience Platformでのオーディエンスの読み込み ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
 
 ## 必読 {#must-read}
 

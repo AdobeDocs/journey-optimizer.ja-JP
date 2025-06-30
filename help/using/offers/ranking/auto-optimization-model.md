@@ -3,13 +3,14 @@ product: experience platform
 solution: Experience Platform
 title: 自動最適化モデル
 description: 自動最適化モデルの詳細を学ぶ
+badge: label="レガシー" type="Informative"
 feature: Ranking, Decision Management
 role: User
 level: Experienced
 exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '1358'
+source-wordcount: '1359'
 ht-degree: 84%
 
 ---
@@ -33,7 +34,7 @@ ht-degree: 84%
 
 * **トンプソンサンプリング**：トンプソンサンプリングは、オンラインでの決定問題に対するアルゴリズムであり、既知の要素を活用して即座にパフォーマンスを最大化することと、今後のパフォーマンス向上につながる可能性のある新しい情報の蓄積に投資することの間でバランスを取りながらアクションが順次実行されます。[詳細情報](#thompson-sampling)
 
-* [**Beta分布**](https://ja.wikipedia.org/wiki/ベータ分布){target="_blank"}:2 つの正の [ 形状母数 ](https://ja.wikipedia.org/wiki/確率分布){target="_blank"} によってパラメーター化された &rbrack; 区間 &lbrack;0, 1[&#128279;](https://en.wikipedia.org/wiki/Statistical_parameter) で定義された連続 [ 確率分布 ](https://en.wikipedia.org/wiki/Shape_parameter){target="_blank"} のセット {target="_blank"}。
+* [**Beta分布**](https://ja.wikipedia.org/wiki/ベータ分布){target="_blank"}:2 つの正の [ 形状母数 ](https://ja.wikipedia.org/wiki/確率分布){target="_blank"} によってパラメーター化された ] 区間 [0, 1[ で定義された連続 [ 確率分布 ](https://en.wikipedia.org/wiki/Shape_parameter){target="_blank"} のセット ](https://en.wikipedia.org/wiki/Statistical_parameter){target="_blank"}。
 
 ## トンプソンサンプリング {#thompson-sampling}
 

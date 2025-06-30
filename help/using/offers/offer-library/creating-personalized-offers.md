@@ -1,15 +1,16 @@
 ---
 title: パーソナライズされたオファーの作成
 description: オファーの作成、設定、管理する方法について学ぶ
+badge: label="レガシー" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+workflow-type: tm+mt
 source-wordcount: '830'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -76,7 +77,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL オファー属性]**」セクションでは、レポートや分析のためにキーと値のペアをオファーに関連付けることができます。
 
-1. オファーにカスタムデータ使用ラベルまたはコアデータ使用ラベルを割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。 [オブジェクトレベルのアクセス制御（OLAC）の詳細情報](../../administration/object-based-access.md)
+1. オファーにカスタムデータ使用ラベルまたはコアデータ使用ラベルを割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。[オブジェクトレベルのアクセス制御（OLAC）の詳細情報](../../administration/object-based-access.md)
 
    ![](../assets/offer_manage-access.png)
 
@@ -171,4 +172,4 @@ ht-degree: 100%
 
 ## チュートリアルビデオ {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341356?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)

@@ -1,15 +1,16 @@
 ---
 title: 決定の作成
 description: 決定の作成方法を説明します
+badge: label="レガシー" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+workflow-type: tm+mt
 source-wordcount: '2511'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -17,7 +18,7 @@ ht-degree: 100%
 
 決定とは、配信ターゲットに応じて提供すべき最適なオファーを選択するために、オファー決定エンジンを利用するオファーのコンテナです。
 
-➡️ [オファーアクティビティを作成する方法については、このビデオをご覧ください](#video)
+➡️ [ オファーアクティビティの作成方法については、このビデオを参照してください ](#video)
 
 **[!UICONTROL オファー]**&#x200B;メニューの「**[!UICONTROL 決定]**」タブに決定が一覧表示されます。フィルターは、ステータスや開始日、終了日に応じて決定を取得するのに役立ちます。
 
@@ -400,6 +401,6 @@ ht-degree: 100%
 
 意思決定管理でオファーアクティビティを作成する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/346695?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 
 

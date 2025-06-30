@@ -1,15 +1,16 @@
 ---
 title: シミュレーションを作成
 description: 決定ロジックを検証するために、特定の場所に配信されるオファーをシミュレートする方法を説明します
+badge: label="レガシー" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '885'
-ht-degree: 100%
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+workflow-type: tm+mt
+source-wordcount: '884'
+ht-degree: 96%
 
 ---
 
@@ -214,5 +215,5 @@ For instance, let's say the customer has an offer for a discount on ice cream. I
 
    >[!NOTE]
    >
-   >リクエストペイロードまたは応答ペイロードを独自のコードにコピーする場合は、{USER_TOKEN} と {API_KEY} を有効な値に置き換えます。これらの値を取得する方法について詳しくは、[Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=ja){target="_blank"} ドキュメントを参照してください。
+   >リクエストペイロードまたは応答ペイロードを独自のコードにコピーする場合は、{USER_TOKEN} と {API_KEY} を有効な値に置き換えます。 これらの値を取得する方法について詳しくは、[Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=ja){target="_blank"} ドキュメントを参照してください。
 

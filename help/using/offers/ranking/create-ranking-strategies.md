@@ -3,14 +3,15 @@ product: experience platform
 solution: Experience Platform
 title: AI モデルの作成
 description: AI モデルを作成してオファーをランク付けする方法を説明します
+badge: label="レガシー" type="Informative"
 feature: Ranking, Decision Management
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+workflow-type: tm+mt
 source-wordcount: '480'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -86,7 +87,7 @@ AI モデルを作成するには、次の手順を行います。
 * defined which type of event you want to capture - offer displayed (impression) and/or offer clicked (conversion),
 * and in which dataset you want to collect the event data.-->
 
-これで、オファーが表示およびクリックされるたびに、対応するイベントが [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html?lang=ja#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} または Mobile SDK を使用し、**[!UICONTROL エクスペリエンスイベント - 提案インタラクション]**&#x200B;フィールドグループによって自動的にキャプチャされるようにします。
+これで、オファーが表示およびクリックされるたびに、対応するイベントが、[Adobe Experience Platform Web SDK **[!UICONTROL またはモバイル SDKを使用し、{Experience Event - Proposition Interactions]** フィールドグループによって自動的にキャプチャされるように ](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html?lang=ja#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} りました。
 
 イベントタイプ（表示されたオファーまたはクリックされたオファー）で送信できるようにするには、Adobe Experience Platform に送信されるエクスペリエンスイベントで、各イベントタイプに正しい値を設定する必要があります。[方法についてはこちらを参照](../data-collection/schema-requirement.md)
 
@@ -94,4 +95,4 @@ AI モデルを作成するには、次の手順を行います。
 
 パーソナライズされた最適化モデルを作成する方法と、そのモデルを決定に適用する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3445952?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3419954?quality=12)

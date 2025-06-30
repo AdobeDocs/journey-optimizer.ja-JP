@@ -1,14 +1,15 @@
 ---
 title: 決定でのオファー選択の設定
 description: 決定へのオファー選択を管理する方法を学ぶ
+badge: label="レガシー" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '448'
 ht-degree: 96%
 
 ---
@@ -60,7 +61,7 @@ Journey Optimizer では、オファーの優先度に加えて、**ランキン
 
 ## AI ランキング {#use-ranking-strategy}
 
-<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ja){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
+<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
 
 AI モデルを選択して、特定のプロファイルに表示するオファーを自動的にランク付けする、トレーニング済みモデルシステムを使用することもできます。AI モデルの作成方法については、[この節](../ranking/create-ranking-strategies.md)を参照してください。
 

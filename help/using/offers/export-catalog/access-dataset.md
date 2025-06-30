@@ -1,15 +1,16 @@
 ---
 title: 書き出したオファーカタログへのアクセス
 description: Adobe Experience Platform に書き出したオファーカタログにアクセスする方法を学ぶ
+badge: label="レガシー" type="Informative"
 feature: Decision Management, Datasets
 topic: Integrations
 role: User, Data Engineer
 level: Intermediate
 exl-id: d822c541-c043-41f5-916c-6a8e39fb148a
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 100%
+source-wordcount: '87'
+ht-degree: 98%
 
 ---
 

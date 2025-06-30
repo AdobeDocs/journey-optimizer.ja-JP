@@ -1,15 +1,16 @@
 ---
 title: オファーを作成するための主な手順
 description: オファーの作成に必要な主な手順を見つける
+badge: label="レガシー" type="Informative"
 feature: Decision Management
 topic: Integrations
 role: User
 level: Intermediate
 exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
-source-git-commit: 4847415fa33ebf1c21622ebf4faecafd4decc8d3
-workflow-type: ht
-source-wordcount: '325'
-ht-degree: 100%
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+workflow-type: tm+mt
+source-wordcount: '326'
+ht-degree: 99%
 
 ---
 

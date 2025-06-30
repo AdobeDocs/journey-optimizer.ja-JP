@@ -3,14 +3,15 @@ product: experience platform
 solution: Experience Platform
 title: イベントキャプチャの設定
 description: イベントをキャプチャするためのオファースキーマの設定方法を学ぶ
+badge: label="レガシー" type="Informative"
 feature: Ranking, Datasets, Decision Management
 role: Developer, Data Engineer
 level: Experienced
 exl-id: f70ba749-f517-4e09-a381-243b21713b48
-source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 92%
+source-wordcount: '273'
+ht-degree: 91%
 
 ---
 

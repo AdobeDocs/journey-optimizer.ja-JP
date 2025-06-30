@@ -1,15 +1,16 @@
 ---
 title: 意思決定管理イベントの操作
 description: Adobe Experience Platform で意思決定管理レポートを作成する方法を説明します。
+badge: label="レガシー" type="Informative"
 feature: Decision Management, Datasets
 topic: Integrations
 role: User, Data Engineer
 level: Intermediate
 exl-id: 51830c63-fa88-47e7-8605-192297fcf6b8
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 100%
+source-wordcount: '295'
+ht-degree: 99%
 
 ---
 

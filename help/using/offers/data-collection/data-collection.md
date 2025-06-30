@@ -1,14 +1,15 @@
 ---
 title: データ収集
 description: 意思決定管理のフィードバックデータ収集の詳細情報
+badge: label="レガシー" type="Informative"
 feature: Decision Management, Datasets
 topic: Integrations
 role: User, Data Engineer, Developer
 level: Experienced
 exl-id: 278cb255-439c-4ce8-ab59-07df79774b98
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '387'
 ht-degree: 93%
 
 ---

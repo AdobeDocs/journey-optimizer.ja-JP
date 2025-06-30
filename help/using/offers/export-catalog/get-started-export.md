@@ -1,15 +1,16 @@
 ---
 title: オファーカタログの書き出しの概要
 description: オファーカタログをデータセットとして書き出す方法を説明します
+badge: label="レガシー" type="Informative"
 feature: Decision Management, Datasets
 topic: Integrations
 role: User, Data Engineer
 level: Intermediate
 exl-id: f30abea1-b204-4470-9836-75fae916bbb1
-source-git-commit: 91584f394d956df4b69a885feacc40435360dae3
+source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 100%
+source-wordcount: '115'
+ht-degree: 99%
 
 ---
 
