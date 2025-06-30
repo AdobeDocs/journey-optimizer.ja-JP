@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
-source-git-commit: e63a21b5dcc8f227d56c696c8fd0825c75684189
-workflow-type: ht
-source-wordcount: '733'
-ht-degree: 100%
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+workflow-type: tm+mt
+source-wordcount: '729'
+ht-degree: 96%
 
 ---
 
@@ -98,9 +98,9 @@ ht-degree: 100%
 
 ### オファーの優先度 {#offer-priority}
 
-決定ポリシーにおいて、特定のプレースメントに対して実施要件を満たすオファーが複数ある場合、デフォルトでは、**優先度**&#x200B;が最も高い項目が最初に顧客に配信されます。
+決定ポリシーで実施要件を満たすオファーが複数ある場合、デフォルトでは、**優先度** が最も高い項目が最初に顧客に配信されます。
 
-![](assets/item-priority.png)
+![](assets/item-priority.png){width=85%}
 
 オファーの優先度スコアは、[決定項目](items.md)の作成時に割り当てられます。
 
@@ -108,17 +108,17 @@ ht-degree: 100%
 
 Journey Optimizer では、オファーの優先度に加えて、**ランキング式**&#x200B;を作成できます。これらは、特定のプレースメントに対して最初に表示するオファーを決定する数式であり、オファーの優先度スコアを考慮するものではありません。
 
-例えば、終了日が今から 24 時間以内のすべてのオファーの優先度を上げることもできますし、プロファイルの目標地点が「実行中」の場合は「実行中」カテゴリのオファーの優先度を上げることもできます。ランキング式を作成する方法については、[この節](exd-ranking-formulas.md)を参照してください。
+例えば、終了日が今から 24 時間以内のすべてのオファーの優先度を上げることもできますし、プロファイルの目標地点が「実行中」の場合は「実行中」カテゴリのオファーの優先度を上げることもできます。ランキング式を作成する方法については、[この節](ranking/ranking-formulas.md)を参照してください。
 
 作成したら、この数式を選択戦略で使用できます。この選択戦略の使用時に実施要件を満たすオファーが複数ある場合、決定は選択した式を使用して、最初に配信するオファーを計算します。
 
 ### AI ランキング {#ai-ranking}
 
-AI モデルを選択して、特定のプロファイルに表示するオファーを自動的にランク付けする、トレーニング済みモデルシステムを使用することもできます。AI モデルの作成方法については、[この節](../offers/ranking/ai-models.md)を参照してください。
+AI モデルを選択して、特定のプロファイルに表示するオファーを自動的にランク付けする、トレーニング済みモデルシステムを使用することもできます。AI モデルの作成方法については、[この節](ranking/create-ai-models.md)を参照してください。
 
 AI モデルが作成されたら、そのモデルを選択戦略で使用できます。複数のオファーが実施要件を満たす場合、トレーニング済みモデルシステムは、この選択戦略に対して最初に提示するオファーを決定します。
 
 >[!NOTE]
 >
->現在、[上昇率測定](../offers/ranking/auto-optimization-model.md#lift)レポートは、[パーソナライズされた最適化](../offers/ranking/personalized-optimization-model.md) AI モデルでのみ使用できます。
+>現在、[上昇率測定](ranking/auto-optimization-model.md#lift)レポートは、[パーソナライズされた最適化](ranking/personalized-optimization-model.md) AI モデルでのみ使用できます。
 

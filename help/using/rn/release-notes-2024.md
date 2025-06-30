@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
 source-wordcount: '6783'
 ht-degree: 100%
@@ -342,7 +342,7 @@ ht-degree: 100%
 
 **決定**
 
-* [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ja) ユーザーは、決定（旧称エクスペリエンス決定）で AI モデルを設定する際に、最適化するカスタムモデルを選択できるようになりました。これにより、例えば、クリックスルー率などの定義済みの制約ではなく、カスタムの「購入数」テーブルを最適化できます。[詳細情報](../experience-decisioning/ranking.md)
+* [Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ja) ユーザーは、決定（旧称エクスペリエンス決定）で AI モデルを設定する際に、最適化するカスタムモデルを選択できるようになりました。これにより、例えば、クリックスルー率などの定義済みの制約ではなく、カスタムの「購入数」テーブルを最適化できます。[詳細情報](../experience-decisioning/ranking/ranking.md)
 
 * 決定を使用してコードベースのキャンペーンに決定ポリシーを追加する際に、選択戦略に加えて、単一の決定項目を手動で選択できるようになりました。さらに、複数のフォールバックオファーを選択できるようになりました。これにより、一定数の決定項目が返されることが保証されます。[詳細情報](../experience-decisioning/create-decision.md)
 

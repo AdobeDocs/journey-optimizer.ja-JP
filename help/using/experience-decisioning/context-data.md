@@ -6,16 +6,18 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: ddc4b681-020b-4433-b4b3-3791c41907c9
-source-git-commit: 616e1dd9fbfd029f7209356d5c19cfff9d4b4f06
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
 source-wordcount: '282'
-ht-degree: 100%
+ht-degree: 87%
 
 ---
 
 # 決定でのコンテキストデータの活用 {#context}
 
-決定を使用すると、Adobe Experience Platform で利用可能な情報を活用して、[決定ルール](rules.md)や[ランキング式](ranking.md)の作成などの様々なアクションを実行できます。例えば、決定リクエストが行われた時点で現在の天気が 80 度以上であることを要求する決定ルールを設計できます。
+Decisioning を使用すると、Adobe Experience Platformで提供されている任意の情報を活用して、[ 決定ルール ](rules.md) または [ ランキング式 ](ranking/ranking.md) の作成などの様々なアクションを実行できます。
+
+例えば、決定リクエストが行われた時点で現在の天気が 80 度以上であることを要求する決定ルールを設計できます。
 
 >[!NOTE]
 >
@@ -27,7 +29,7 @@ ht-degree: 100%
 
 決定に Adobe Experience Platform データをフィードする手順は、次のとおりです。
 
-1. Adobe Experience Platform で&#x200B;**エクスペリエンスイベントスキーマ**&#x200B;およびそれに関連する&#x200B;**データセット**&#x200B;を作成します。[スキーマの作成方法については、こちらを参照してください](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/ui/resources/schemas){target="_blank"}
+1. Adobe Experience Platform で&#x200B;**エクスペリエンスイベントスキーマ**&#x200B;およびそれに関連する&#x200B;**データセット**&#x200B;を作成します。 [ 詳しくは、スキーマの作成方法を参照してください ](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/ui/resources/schemas){target="_blank"}
 
 1. 新しい Adobe Experience Platform データストリームを次の手順で作成します。
 
@@ -45,6 +47,6 @@ ht-degree: 100%
 
 Adobe Experience Platform の操作方法に関する詳細なガイダンスについては、次のリソースを参照してください。
 
-* [エクスペリエンスデータモデル（XDM）スキーマ](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/schema/composition){target="_blank"}
+* [ エクスペリエンスデータモデル（XDM）スキーマ ](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/schema/composition){target="_blank"}
 * [データセット](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/overview){target="_blank"}
 * [データストリーム](https://experienceleague.adobe.com/ja/docs/experience-platform/datastreams/overview){target="_blank"}

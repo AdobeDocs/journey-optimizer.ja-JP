@@ -10,14 +10,14 @@ role: Data Engineer
 level: Intermediate
 keywords: 式, エディター
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
-source-git-commit: ebefeb59a19e831ec7f86cee690a35fe71e14554
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '838'
 ht-degree: 4%
 
 ---
 
-# Adobe Experience Platform データを意思決定に使用する {#aep-data}
+# Adobe Experience Platform データを意思決定に使用 {#aep-data}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_rules_dataset_lookup"
@@ -48,7 +48,7 @@ ht-degree: 4%
 
 [!DNL Adobe Experience Platform] データセットのデータを意思決定に使用するには、まず API 呼び出しを介したルックアップを有効にする必要があります。 手順について詳しくは、[Journey OptimizerでのAdobe Experience Platform データセットの活用 ](../data/lookup-aep-data.md) の節を参照してください。
 
-## Adobe Experience Platform データを意思決定に使用する
+## Adobe Experience Platform データの活用 {#leverage-aep-data}
 
 データセットでルックアップを有効にしたら、その属性を使用して、外部データを使用して決定ロジックを強化できます。 これは、製品の可用性やリアルタイムの価格など、頻繁に変更される属性に特に便利です。
 
@@ -86,7 +86,7 @@ Adobe Experience Platform データを決定ルールに使用するには、次
 
    ![](assets/exd-lookup-menu.png)
 
-### ランキング式
+### ランキング式 {#ranking-formulas}
 
 ランキング式は、決定項目の優先度を定義します。 データセット属性 [!DNL Adobe Experience Platform] 使用すると、実際の条件を反映するようにランキングロジックを動的に調整できます。
 
@@ -107,6 +107,6 @@ Adobe Experience Platform データをランキング式に使用するには、
    >
    >ランキング式ごとに最大 3 つのマッピングを作成できます。
 
-1. データセットフィールドを使用して、通常どおりランキング式を作成します。 [ ランキング式の作成方法を学ぶ ](../experience-decisioning/exd-ranking-formulas.md#create-ranking-formula)
+1. データセットフィールドを使用して、通常どおりランキング式を作成します。 [ ランキング式の作成方法を学ぶ ](ranking/ranking-formulas.md#create-ranking-formula)
 
    ![](assets/exd-lookup-formula-criteria.png)

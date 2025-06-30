@@ -7,10 +7,11 @@ role: User, Data Engineer, Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: e5c457494d5d79d1a7951b9172c39c91007e2651
+exl-id: 32e3a5b9-0633-48df-95b5-c03536be23a1
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
 source-wordcount: '378'
-ht-degree: 83%
+ht-degree: 86%
 
 ---
 
@@ -22,7 +23,7 @@ Adobe Experience Platform では、表示されるオファーやユーザーの
 
 * [ 決定レポート ](../cja-reporting.md) の作成
 * キャッピング [ ルール ](../items.md#capping) 使用
-* ランキングメソッドとして使用できる AI モデルの構築 <!--add link-->
+* ランキングメソッドとして使用できる [AI モデル](../ranking/ai-models.md)の構築。
 
 ## イベントのタイプ
 

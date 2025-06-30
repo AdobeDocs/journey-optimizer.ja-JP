@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 008d42c7-a523-4857-b34e-0e8dd1dfa507
-source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 79%
@@ -36,7 +36,7 @@ ht-degree: 79%
 * 決定ポリシーと選択戦略の設定を更新し、決定コンポーネントの再利用性を実現しました。
 * 実験機能：他のコンテンツコンポーネントに対して決定ロジックをテストし、パフォーマンスを測定します
 
-コードベースのエクスペリエンスチャネルでは、エクスペリエンス決定がサポートされています。
+現在、意思決定は、コードベースのエクスペリエンスチャネルでサポートされています。
 
 ➡️ [決定の基本を学ぶ](../experience-decisioning/gs-experience-decisioning.md)
 

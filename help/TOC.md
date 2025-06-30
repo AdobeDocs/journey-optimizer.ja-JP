@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d0ac966780349ab10c47dd9ea915ca4f5964e938
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
-source-wordcount: '2476'
+source-wordcount: '2490'
 ht-degree: 97%
 
 ---
@@ -548,12 +548,18 @@ ht-degree: 97%
          + [項目カタログの設定](using/experience-decisioning/catalogs.md)
          + [決定項目の作成](using/experience-decisioning/items.md)
          + [項目コレクションの管理](using/experience-decisioning/collections.md)
-      + 項目選択の設定 {#selection}
-         + [決定ルールの作成](using/experience-decisioning/rules.md)
-         + [ランキング方法の作成](using/experience-decisioning/ranking.md)
-         + [AI 式ビルダーの使用](using/experience-decisioning/exd-ranking-formulas.md)
+      + [決定ルールの作成](using/experience-decisioning/rules.md)
+      + ランキングの作成 {#rankings}
+         + [ランキング方法の作成](using/experience-decisioning/ranking/ranking.md)
+         + [AI 式ビルダーの使用](using/experience-decisioning/ranking/ranking-formulas.md)
+         + AI モデル {#ai-models}
+            + [AI モデルについて](using/experience-decisioning/ranking/ai-models.md)
+            + [自動最適化モデル](using/experience-decisioning/ranking/auto-optimization-model.md)
+            + [パーソナライズされた最適化モデル](using/experience-decisioning/ranking/personalized-optimization-model.md)
+            + [AI モデルの作成](using/experience-decisioning/ranking/create-ai-models.md)
+      + Adobe Experience Platform データの使用 {#aep-data}
          + [コンテキストデータの活用](using/experience-decisioning/context-data.md)
-         + [Adobe Experience Platformを決定に使用](using/experience-decisioning/aep-data-exd.md)
+         + [Adobe Experience Platformを意思決定に使用する](using/experience-decisioning/aep-data-exd.md)
       + [選択戦略の作成](using/experience-decisioning/selection-strategies.md)
       + [決定ポリシーを作成](using/experience-decisioning/create-decision.md)
       + [決定に関するレポート](using/experience-decisioning/cja-reporting.md)
@@ -579,7 +585,6 @@ ht-degree: 97%
          + [ランキング式](using/offers/ranking/create-ranking-formulas.md)
          + AI モデル {#ai-models}
             + [AI モデルについて](using/offers/ranking/ai-models.md)
-            + AI モデルタイプ {#ai-model-types}
             + [自動最適化モデル](using/offers/ranking/auto-optimization-model.md)
             + [パーソナライズされた最適化モデル](using/offers/ranking/personalized-optimization-model.md)
             + [AI モデルの作成](using/offers/ranking/create-ranking-strategies.md)

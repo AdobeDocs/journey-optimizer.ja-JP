@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 024356ca30728611d1d32ba72172711e4714b64c
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '3117'
+ht-degree: 100%
 
 ---
 
@@ -201,7 +201,7 @@ ht-degree: 0%
 <td>
 <p>新しく改善されたインターフェイスから条件を定義および組み合わせることで、特定の決定ランキング式を作成できるようになりました。静的なオファーの優先度のみに依存するのではなく、ガイド付きインターフェイスを通じて、AI モデルスコア、オファーの優先度、プロファイル属性、オファー属性、コンテキストシグナルを組み合わせたカスタムランキング式を定義できます。</p>
 <img src="assets/do-not-localize/formula-builder.gif">
-<p>詳しくは、<a href="../experience-decisioning/exd-ranking-formulas.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../experience-decisioning/ranking/ranking-formulas.md">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2025年5月14日（PT）</p>
 </td>
 </tr>

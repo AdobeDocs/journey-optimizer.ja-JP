@@ -8,7 +8,8 @@ role: Data Engineer, Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: e5c457494d5d79d1a7951b9172c39c91007e2651
+exl-id: 96c1326f-be40-4738-8997-a67dc14872bb
+source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 85%
@@ -70,4 +71,4 @@ ht-degree: 85%
 
 >[!NOTE]
 >
->これで、AI モデルの作成時に、イベントデータを収集するデータセットを選択できる <!--add link to Creat AI models section--> うになりました。
+>これで、[AI モデル ](../ranking/create-ai-models.md) の作成時に、イベントデータを収集するデータセットを選択できる状態になりました。
