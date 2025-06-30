@@ -8,7 +8,7 @@ level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: 2f7c620a712cfc104418bc985bd74e81da12147c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1365'
 ht-degree: 100%
 
@@ -54,7 +54,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_type"
 >title="ファイルのサーバータイプを選択"
->abstract="ダイレクトメールファイルの書き出しに使用するサーバーのタイプ（Amazon S3、SFTP、Azure または Data Landing Zone）を選択します。"
+>abstract="ダイレクトメールファイルの書き出しに使用するサーバーのタイプ (Amazon S3、SFTP、Azure またはデータランディングゾーン) を選択します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_aws_region"
