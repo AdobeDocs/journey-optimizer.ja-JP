@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
-source-git-commit: f93d422dfeb5e0d658d40286882ee59b80ae9184
+source-git-commit: 5bc467f7fd25dd4218470c0e73bc0dc87938e218
 workflow-type: tm+mt
 source-wordcount: '1510'
 ht-degree: 67%
@@ -159,35 +159,6 @@ HTML コンポーネントを使用して、改行、太字、斜体などのリ
 1. `render_content` を、必要なデフォルトのリッチコンテンツに対応するHTML コードに置き換えます。 太字、斜体、改行、箇条書きなどを追加できます。
 
    ![](assets/fragment-rich-editable-content.png)
-<!--
-    +++For example:
-
-    ```html
-
-    <h1>Main title</h1>
-
-    <h2>Subtitle One</h2>
-    <p>This is a paragraph with a line break.<br>Here is the new line.</p>
-
-    <p class="bold">This text is bold.</p>
-    <p class="italic">This text is italic.</p>
-    <p class="bold-italic">This text is bold and italic.</p>
-
-    <ul>
-        <li>First bullet point</li>
-        <li>Second bullet point with more text</li>
-        <li>Third bullet point</li>
-    </ul>
-
-    <hr>
-
-    <h2>Subtitle Two</h2>
-    <blockquote>This is a blockquote or note with styled background and border.</blockquote>
-
-    ```
-
-    +++
--->
 
 1. 同じHTML コンポーネント内に、スタイル設定要素用に別の **インライン** ヘルパー関数を追加します。
 
@@ -223,4 +194,4 @@ HTML コンポーネントを使用して、改行、太字、斜体などのリ
 
 このビデオでは、フラグメント内のHTML コンポーネントを編集可能にして、コンテンツとスタイルの両方を動的に更新できるようにする方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464369/?learn=on&#x26;enablevpops&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
