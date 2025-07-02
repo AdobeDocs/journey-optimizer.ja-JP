@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+source-git-commit: 7a2c5c414dcb63d362f7decebb281d00b72e9ae7
 workflow-type: tm+mt
-source-wordcount: '2490'
+source-wordcount: '2485'
 ht-degree: 97%
 
 ---
@@ -184,7 +184,6 @@ ht-degree: 97%
       + [調整されたキャンペーン作成の主な手順](using/orchestrated/gs-campaign-creation.md)
       + [キャンペーンの作成とスケジュール](using/orchestrated/create-orchestrated-campaign.md)
       + [アクティビティの調整](using/orchestrated/orchestrate-activities.md)
-      + [調整されたキャンペーンでのメッセージの送信](using/orchestrated/send-messages.md)
       + [キャンペーンの開始と監視](using/orchestrated/start-monitor-campaigns.md)
       + [レポート](using/orchestrated/reporting-campaigns.md)
    + データベースのクエリ {#query-database}
@@ -196,6 +195,7 @@ ht-degree: 97%
       + [AND 結合](using/orchestrated/activities/and-join.md)
       + [オーディエンスを作成](using/orchestrated/activities/build-audience.md)
       + [ディメンションを変更](using/orchestrated/activities/change-dimension.md)
+      + [チャネルアクティビティ](using/orchestrated/activities/channels.md)
       + [結合](using/orchestrated/activities/combine.md)
       + [重複の除外](using/orchestrated/activities/deduplication.md)
       + [エンリッチメント](using/orchestrated/activities/enrichment.md)
@@ -205,7 +205,6 @@ ht-degree: 97%
       + [分割](using/orchestrated/activities/split.md)
       + [テスト](using/orchestrated/activities/test.md)
       + [待機](using/orchestrated/activities/wait.md)
-      + [チャネルアクティビティ](using/orchestrated/activities/channels.md)
 + キャンペーン {#campaigns}
    + [キャンペーンの基本を学ぶ](using/campaigns/get-started-with-campaigns.md)
    + [キャンペーンの作成](using/campaigns/create-campaign.md)
