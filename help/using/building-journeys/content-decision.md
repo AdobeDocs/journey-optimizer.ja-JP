@@ -7,11 +7,13 @@ feature: Journeys, Activities
 topic: Content Management
 role: User
 level: Intermediate
+badge: label="限定提供" type="Informative"
 keywords: アクティビティ，決定，コンテンツの決定，決定ポリシー，キャンバス，ジャーニー
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
+source-git-commit: 701b2caeac704149c820ce3bf6338107ab4bc9f8
 workflow-type: tm+mt
-source-wordcount: '1028'
-ht-degree: 5%
+source-wordcount: '1030'
+ht-degree: 7%
 
 ---
 
@@ -19,7 +21,7 @@ ht-degree: 5%
 
 >[!AVAILABILITY]
 >
->この機能は一連の組織（限定提供）でのみ使用でき、今後のリリースでグローバルに展開されます。
+>この機能は、一連の組織でのみ使用でき（限定提供）、今後のリリースでグローバルにロールアウトされる予定です。
 
 [!DNL Journey Optimizer] を使用すると、ジャーニーキャンバスの専用の **コンテンツ決定** アクティビティを通じて、ジャーニーにオファーを含めることができます。 その後、ジャーニーに他のアクティビティ（[ カスタムアクション ](../action/about-custom-action-configuration.md) など）を追加し、パーソナライズされたオファーでオーディエンスをターゲットに設定できます。
 
@@ -139,7 +141,7 @@ ht-degree: 5%
    >
    >コンテンツ決定ノードの出力は、**[!UICONTROL 詳細設定モード]** でのみ使用できます。
 
-1. `items` 配列を使用して [ オファーカタログスキーマ ](../experience-decisioning/catalogs.md#access-catalog-schema) を参照します。 例えば、取得した最初のオファーの `itemName` と取得した 2 番目のオファーの `itemName` を使用します。
+1. [ 配列を使用して ](../experience-decisioning/catalogs.md#access-catalog-schema) オファーカタログスキーマ `items` を参照します。 例えば、取得した最初のオファーの `itemName` と取得した 2 番目のオファーの `itemName` を使用します。
 
    ![ 決定ポリシーを含むカスタムアクションのリクエストパラメーター ](assets/journey-content-decision-custom-action-param-ex.png)
 
