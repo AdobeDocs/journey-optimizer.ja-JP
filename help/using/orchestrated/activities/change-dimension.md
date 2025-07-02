@@ -7,10 +7,10 @@ badge: label="アルファ版"
 hide: true
 hidefromtoc: true
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
-source-git-commit: 8a6fc9fca96bfab90a72be329e2ab99c6942a4a7
+source-git-commit: cfd94e714c0e99200ac9816315bdbb6c410f2a12
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 32%
+source-wordcount: '334'
+ht-degree: 35%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 32%
 
 | 調整されたキャンペーンへようこそ | 最初の調整されたキャンペーンの開始 | データベースのクエリ | 調整されたキャンペーンアクティビティ |
 |---|---|---|---|
-| [ オーケストレーションされたキャンペーンの概要 ](../gs-orchestrated-campaigns.md)<br/><br/>[ 設定手順 ](../configuration-steps.md)<br/><br/>[ オーケストレーションされたキャンペーンを作成するための主な手順 ](../gs-campaign-creation.md) | [ オーケストレーションされたキャンペーンの作成 ](../create-orchestrated-campaign.md)<br/><br/>[ アクティビティのオーケストレーション ](../orchestrate-activities.md)<br/><br/><br/>[ キャンペーンの開始および監視 ](../start-monitor-campaigns.md)<br/><br/>[ レポート ](../reporting-campaigns.md) | [ クエリの操作Modeler](../orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリ ](../build-query.md)<br/><br/>[ 編集式を作成 ](../edit-expressions.md) | [ アクティビティの基本を学ぶ ](about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](and-join.md) - [ オーディエンスを作成 ](build-audience.md) - **[ディメンションの変更](change-dimension.md)** - [ チャネルアクティビティ ](channels.md) - [ 結合 ](combine.md) - [ 重複排除 ](deduplication.md) - [ エンリッチメント ](enrichment.md) - [ 分岐 ](fork.md) - [ 紐付け ](reconciliation.md) [&#128279;](split.md) [&#128279;](wait.md) - |
+| [ オーケストレーションされたキャンペーンの概要 ](../gs-orchestrated-campaigns.md)<br/><br/>[ 設定手順 ](../configuration-steps.md)<br/><br/>[ オーケストレーションされたキャンペーンを作成するための主な手順 ](../gs-campaign-creation.md) | [ オーケストレーションされたキャンペーンの作成 ](../create-orchestrated-campaign.md)<br/><br/>[ アクティビティのオーケストレーション ](../orchestrate-activities.md)<br/><br/><br/>[ キャンペーンの開始および監視 ](../start-monitor-campaigns.md)<br/><br/>[ レポート ](../reporting-campaigns.md) | [ クエリの操作Modeler](../orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリ ](../build-query.md)<br/><br/>[ 編集式を作成 ](../edit-expressions.md) | [ アクティビティの基本を学ぶ ](about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](and-join.md) - [ オーディエンスを作成 ](build-audience.md) - **[ディメンションの変更](change-dimension.md)** - [ チャネルアクティビティ ](channels.md) - [ 結合 ](combine.md) - [ 重複排除 ](deduplication.md) - [ エンリッチメント ](enrichment.md) - [ 分岐 ](fork.md) - [ 紐付け ](reconciliation.md) [ ](split.md) [ ](wait.md) - |
 
 {style="table-layout:fixed"}
 
@@ -38,9 +38,9 @@ ht-degree: 32%
 
 <br/>
 
-マーケターは、調整されたキャンペーン内で、あるデータエンティティから別のリンクエンティティに切り替えることで、オーディエンスターゲティングを絞り込むことができます。 これにより、ユーザープロファイルのターゲティングから、購入、予約、その他のインタラクションなどの特定のアクションに焦点を当てることへと移行できます。
+マーケターは、調整されたキャンペーン内で、あるデータエンティティから関連するデータエンティティに移行することで、オーディエンスのターゲティングを強化できます。 これにより、ユーザープロファイルを超えて、購入、予約、その他のインタラクションなどの特定の行動に焦点を当てることができます。
 
-それには、「**[!UICONTROL ディメンションを変更]** アクティビティを使用します。 これにより、データモデルの構造と入力ディメンションに基づいて、調整されたキャンペーン中にターゲティングディメンションを変更できます。
+それには、「**[!UICONTROL ディメンションを変更]** アクティビティを使用します。 これにより、オーケストレーションされたキャンペーン中にターゲティングディメンションを調整できます。
 
 <!--
 >[!IMPORTANT]
@@ -53,18 +53,17 @@ ht-degree: 32%
 
 1. **[!UICONTROL ディメンションを変更]** アクティビティをオーケストレーションされたキャンペーンに追加します。
 
-   ![](../assets/change-dimension.png)
+   ![](../assets/orchestrated-change-dimension.png)
 
 1. **[!UICONTROL 新しいターゲットディメンション]**&#x200B;を定義します。ディメンションの変更時には、すべてのレコードが保持されます。
 
-1. 調整したキャンペーンを実行して、結果を表示します。 ディメンションの変更アクティビティの前後でテーブル内のデータを比較し、調整されたキャンペーンテーブルの構造を比較します。
 
 ## 例 {#example}
 
-このユースケースでは、過去 1 か月にウィッシュリストを作成したプロファイルに SMS を送信します。
+このユースケースは、過去 1 か月以内にウィッシュリストを作成したプロファイルへの SMS の送信に焦点を当てています。
 
-**[!UICONTROL ウィッシュリスト]** ターゲティングディメンションを使用して **[!UICONTROL オーディエンスを作成]** アクティビティを開始し、関連するすべてのウィッシュリストを選択します。
+**[!UICONTROL ウィッシュリスト]** ターゲティングディメンションを使用して **[!UICONTROL オーディエンスを作成]** アクティビティを開始し、関連するすべてのウィッシュリストを特定します。
 
-次に、「**[!UICONTROL ディメンションを変更]**」アクティビティを挿入して、ターゲティングディメンションを **[!UICONTROL ウィッシュリスト]** から **[!UICONTROL 受信者]** に切り替えます。 これにより、オーケストレーションされたキャンペーンは、これらのウィッシュリストに関連付けられたプロファイルに SMS を送信できます。
+次に、「**[!UICONTROL ディメンションを変更]**」アクティビティを追加して、ターゲティングディメンションを **[!UICONTROL ウィッシュリスト]** から **[!UICONTROL 受信者 ] に切り替えます。この手順**、オーケストレーションされたキャンペーンが、これらのウィッシュリストにリンクされた正しいプロファイルをターゲットにし、SMS を目的のプロファイルに送信できるようにします。
 
 ![](../assets/orchestrated-change-dimension-example.png)
