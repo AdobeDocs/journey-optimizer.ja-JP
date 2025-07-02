@@ -7,10 +7,10 @@ badge: label="アルファ版"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: cfb09467809a69516c34d52be3f41e7a1abdb7c3
+source-git-commit: 6a2b49d952408d6c9b0e147505f5112ada3f4967
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 30%
+source-wordcount: '1016'
+ht-degree: 29%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 30%
 
 | 調整されたキャンペーンへようこそ | 最初の調整されたキャンペーンの開始 | データベースのクエリ | 調整されたキャンペーンアクティビティ |
 |---|---|---|---|
-| [ オーケストレーションされたキャンペーンの概要 ](../gs-orchestrated-campaigns.md)<br/><br/>[ 設定手順 ](../configuration-steps.md)<br/><br/>[ オーケストレーションされたキャンペーンを作成するための主な手順 ](../gs-campaign-creation.md) | [ オーケストレーションされたキャンペーンの作成 ](../create-orchestrated-campaign.md)<br/><br/>[ アクティビティのオーケストレーション ](../orchestrate-activities.md)<br/><br/><br/>[ キャンペーンの開始および監視 ](../start-monitor-campaigns.md)<br/><br/>[ レポート ](../reporting-campaigns.md) | [ クエリの操作Modeler](../orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリ ](../build-query.md)<br/><br/>[ 編集式を作成 ](../edit-expressions.md) | [ アクティビティの基本を学ぶ ](about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](and-join.md) - [ オーディエンスを作成 ](build-audience.md) - [ ディメンションの変更 ](change-dimension.md) - **[チャネルアクティビティ](channels.md)** - [ 結合 ](combine.md) - [ 重複排除 ](deduplication.md) - [ エンリッチメント ](enrichment.md) - [ 分岐 ](fork.md) - [ 紐付け ](reconciliation.md) [&#128279;](split.md) [&#128279;](wait.md) - |
+| [ オーケストレーションされたキャンペーンの概要 ](../gs-orchestrated-campaigns.md)<br/><br/>[ 設定手順 ](../configuration-steps.md)<br/><br/>[ オーケストレーションされたキャンペーンを作成するための主な手順 ](../gs-campaign-creation.md) | [ オーケストレーションされたキャンペーンの作成 ](../create-orchestrated-campaign.md)<br/><br/>[ アクティビティのオーケストレーション ](../orchestrate-activities.md)<br/><br/><br/>[ キャンペーンの開始および監視 ](../start-monitor-campaigns.md)<br/><br/>[ レポート ](../reporting-campaigns.md) | [ クエリの操作Modeler](../orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリ ](../build-query.md)<br/><br/>[ 編集式を作成 ](../edit-expressions.md) | [ アクティビティの基本を学ぶ ](about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](and-join.md) - [ オーディエンスを作成 ](build-audience.md) - [ ディメンションの変更 ](change-dimension.md) - **[チャネルアクティビティ](channels.md)** - [ 結合 ](combine.md) - [ 重複排除 ](deduplication.md) - [ エンリッチメント ](enrichment.md) - [ 分岐 ](fork.md) - [ 紐付け ](reconciliation.md) [ ](split.md) [ ](wait.md) - |
 
 {style="table-layout:fixed"}
 
@@ -95,39 +95,32 @@ UNUSED IDs in BJ
 
 ### チャネル設定と設定の指定 {#configuration}
 
-1. **[!UICONTROL アクション]** タブを選択し、メッセージに使用するチャネル設定を選択します。
+「**[!UICONTROL アクション]**」タブを使用すると、メッセージのチャネル設定を選択し、トラッキング、コンテンツ実験、多言語コンテンツなどの追加設定を指定できます。
+
+1. メッセージに使用するチャネル設定を選択します。
 
    設定は、[システム管理者](../../start/path/administrator.md)によって定義されます。ヘッダーパラメーター、サブドメイン、モバイルアプリなど、メッセージを送信するためのすべての技術的なパラメーターが含まれています。 [ チャネル設定の設定方法を学ぶ ](../../configuration/channel-surfaces.md)。
 
-1. メールおよび SMS の場合、トラッキングオプションを使用すると、メールまたは SMS 配信に対する受信者の反応を監視できます。
+   ![ 「アクション」セクションを示す画像 ](../assets/channel-actions.png)
 
-   キャンペーンが実行されると、キャンペーンレポートからトラッキング結果にアクセスできるようになります。[詳しくは、キャンペーンレポートを参照してください](../../reports/campaign-global-report-cja.md)
+1. メールおよび SMS の場合、「**[!UICONTROL アクショントラッキング]**」セクションのオプションを使用して、メールまたは SMS 配信に対する受信者の反応をトラッキングします。 キャンペーンが実行されると、キャンペーンレポートからトラッキング結果にアクセスできるようになります。[詳しくは、キャンペーンレポートを参照してください](../../reports/campaign-global-report-cja.md)
 
-1. プッシュ通知の場合、「**[!UICONTROL 迅速配信モード]**」オプションを使用すると、プッシュチャネルで 3,000 万未満のオーディエンスサイズに高速メッセージ送信を実行できます。
+1. プッシュ通知の場合、「**[!UICONTROL 迅速配信モード]**」オプションを使用すると、プッシュチャネルで 3,000 万未満のオーディエンスサイズに高速メッセージ送信を実行できます。 迅速配信モードは、大量のプッシュメッセージを非常に高速に送信できるようにする **[!DNL Journey Optimizer]** アドオンです。 [詳細情報](../../push/create-push.md#rapid-delivery)
 
-   迅速配信モードは、大量のプッシュメッセージを非常に高速に送信できるようにする **[!DNL Journey Optimizer]** アドオンです。 [詳細情報](../../push/create-push.md#rapid-delivery)
+1. 「**[!UICONTROL コンテンツ実験]**」セクションを使用して、複数の配信処理を定義し、ターゲットオーディエンスに最適なパフォーマンスを発揮する配信処理を測定します。 「**[!UICONTROL 実験を作成]**」ボタンをクリックし、[ コンテンツ実験の機能を作成 ](../../content-management/content-experiment.md) の節で説明されている手順に従います。
 
-1. 「**[!UICONTROL コンテンツ実験]**」セクションでは、複数の配信処理を定義して、ターゲットオーディエンスに最適なパフォーマンスを発揮する配信処理を測定できます。
+   ![ 「コンテンツ実験」セクションを示す画像 ](../assets/channel-experiment.png)
 
-   これを行うには、「**[!UICONTROL 実験を作成]**」ボタンをクリックし、[ コンテンツ実験の機能を作成 ](../../content-management/content-experiment.md) の節で説明されている手順に従います。
-
-1. 「**[!UICONTROL 言語]**」セクションでは、キャンペーン内で複数の言語のコンテンツを作成できます。
-
-   それには、「**[!UICONTROL 言語を追加]**」ボタンをクリックし、目的の **[!UICONTROL 言語設定]** を選択します。 多言語機能のセットアップおよび使用方法について詳しくは、この節を参照してください。[ 多言語コンテンツの基本を学ぶ ](../../content-management/multilingual-gs.md)
+1. 「**[!UICONTROL 言語]**」セクションを使用すると、キャンペーン内の複数の言語でコンテンツを作成できます。 それには、「**[!UICONTROL 言語を追加]**」ボタンをクリックし、目的の **[!UICONTROL 言語設定]** を選択します。 多言語機能のセットアップおよび使用方法について詳しくは、この節を参照してください。[ 多言語コンテンツの基本を学ぶ ](../../content-management/multilingual-gs.md)
 
 ### コンテンツの定義 {#content}
 
-「**[!UICONTROL コンテンツ]**」タブを選択して、メッセージのコンテンツを定義します。 コンテンツの作成プロセスは、選択したチャネルによって異なります。
+「**[!UICONTROL コンテンツ]**」タブを使用して、メッセージのコンテンツを定義します。 コンテンツの作成プロセスは、選択したチャネルによって異なります。 メッセージコンテンツを作成する詳細な手順については、次のページを参照してください。
 
-メッセージコンテンツを作成する詳細な手順については、次のページを参照してください。
-
-<table style="table-layout:fixed"><tr style="border: 0;">
-<td><a href="../../email/create-email.md"><img alt="メール" src="../../channels/assets/do-not-localize/email.png"></a>
-<div align="center"><a href="../../email/create-email.md"><strong>メール</strong></a></div></td>
-<td><a href="../../sms/create-sms.md"><img alt="SMS" src="../../channels/assets/do-not-localize/sms.png"></a>
-<div align="center"><a href="../../sms/create-sms.md"><strong>SMS</strong></a></div></td>
-<td><a href="../../push/create-push.md"><img alt="プッシュ" src="../../channels/assets/do-not-localize/push.png"></a>
-<div align="center"><a href="../../push/create-push.md"><strong>プッシュ通知</strong></a></div></td>
+<table style="table-layout:fixed"><tr style="border: 0; text-align: center;" >
+<td><a href="../../email/create-email.md"><img alt="メール" src="../../channels/assets/do-not-localize/email.png"></a><br/><a href="../../email/create-email.md"><strong>メール</strong></a></td>
+<td><a href="../../sms/create-sms.md"><img alt="SMS" src="../../channels/assets/do-not-localize/sms.png"></a><br/><a href="../../sms/create-sms.md"><strong>SMS</strong></a></td>
+<td><a href="../../push/create-push.md"><img alt="プッシュ" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>プッシュ通知</strong></a></td>
 </tr></table>
 
 コンテンツを定義したら、「**[!UICONTROL コンテンツをシミュレート]**」ボタンを使用して、CSV／JSON ファイルからアップロードした、または手動で追加したテストプロファイルやサンプル入力データを使用して、そのコンテンツをプレビューおよびテストします。[詳細情報](../../content-management/preview-test.md)
@@ -136,9 +129,9 @@ UNUSED IDs in BJ
 
 **[!UICONTROL 戻る]** 矢印を使用して、オーケストレーションされたキャンペーンに戻ります。
 
-![ 「戻る」ボタンを示す画像 ](../assets/channel-back.png)
-
 これで、キャンバスでアクティビティオーケストレーションを完了し、キャンペーンを公開してメッセージの送信を開始できます。 [ オーケストレートキャンペーンを開始および監視する方法について説明します ](../start-monitor-campaigns.md)
+
+![ 「戻る」ボタンを示す画像 ](../assets/channel-back.png)
 
 <!--
 ## Examples {#cross-channel-workflow-sample}
