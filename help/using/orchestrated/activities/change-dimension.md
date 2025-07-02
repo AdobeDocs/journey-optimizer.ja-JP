@@ -30,7 +30,7 @@ ht-degree: 35%
 
 | 調整されたキャンペーンへようこそ | 最初の調整されたキャンペーンの開始 | データベースのクエリ | 調整されたキャンペーンアクティビティ |
 |---|---|---|---|
-| [ オーケストレーションされたキャンペーンの概要 ](../gs-orchestrated-campaigns.md)<br/><br/>[ 設定手順 ](../configuration-steps.md)<br/><br/>[ オーケストレーションされたキャンペーンを作成するための主な手順 ](../gs-campaign-creation.md) | [ オーケストレーションされたキャンペーンの作成 ](../create-orchestrated-campaign.md)<br/><br/>[ アクティビティのオーケストレーション ](../orchestrate-activities.md)<br/><br/><br/>[ キャンペーンの開始および監視 ](../start-monitor-campaigns.md)<br/><br/>[ レポート ](../reporting-campaigns.md) | [ クエリの操作Modeler](../orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリ ](../build-query.md)<br/><br/>[ 編集式を作成 ](../edit-expressions.md) | [ アクティビティの基本を学ぶ ](about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](and-join.md) - [ オーディエンスを作成 ](build-audience.md) - **[ディメンションの変更](change-dimension.md)** - [ チャネルアクティビティ ](channels.md) - [ 結合 ](combine.md) - [ 重複排除 ](deduplication.md) - [ エンリッチメント ](enrichment.md) - [ 分岐 ](fork.md) - [ 紐付け ](reconciliation.md) [ ](split.md) [ ](wait.md) - |
+| [ オーケストレーションされたキャンペーンの概要 ](../gs-orchestrated-campaigns.md)<br/><br/>[ 設定手順 ](../configuration-steps.md)<br/><br/>[ オーケストレーションされたキャンペーンを作成するための主な手順 ](../gs-campaign-creation.md) | [ オーケストレーションされたキャンペーンの作成 ](../create-orchestrated-campaign.md)<br/><br/>[ アクティビティのオーケストレーション ](../orchestrate-activities.md)<br/><br/><br/>[ キャンペーンの開始および監視 ](../start-monitor-campaigns.md)<br/><br/>[ レポート ](../reporting-campaigns.md) | [ クエリの操作Modeler](../orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリ ](../build-query.md)<br/><br/>[ 編集式を作成 ](../edit-expressions.md) | [ アクティビティの基本を学ぶ ](about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](and-join.md) - [ オーディエンスを作成 ](build-audience.md) - **[ディメンションの変更](change-dimension.md)** - [ チャネルアクティビティ ](channels.md) - [ 結合 ](combine.md) - [ 重複排除 ](deduplication.md) - [ エンリッチメント ](enrichment.md) - [ 分岐 ](fork.md) - [ 紐付け ](reconciliation.md) [&#128279;](split.md) [&#128279;](wait.md) - |
 
 {style="table-layout:fixed"}
 
@@ -64,6 +64,6 @@ ht-degree: 35%
 
 **[!UICONTROL ウィッシュリスト]** ターゲティングディメンションを使用して **[!UICONTROL オーディエンスを作成]** アクティビティを開始し、関連するすべてのウィッシュリストを特定します。
 
-次に、「**[!UICONTROL ディメンションを変更]**」アクティビティを追加して、ターゲティングディメンションを **[!UICONTROL ウィッシュリスト]** から **[!UICONTROL 受信者 ] に切り替えます。この手順**、オーケストレーションされたキャンペーンが、これらのウィッシュリストにリンクされた正しいプロファイルをターゲットにし、SMS を目的のプロファイルに送信できるようにします。
+次に、「**[!UICONTROL ディメンションを変更]**」アクティビティを追加して、ターゲティングディメンションを **[!UICONTROL ウィッシュリスト]** から **[!UICONTROL 受信者 &#x200B;] に切り替えます。この手順**、オーケストレーションされたキャンペーンが、これらのウィッシュリストにリンクされた正しいプロファイルをターゲットにし、SMS を目的のプロファイルに送信できるようにします。
 
 ![](../assets/orchestrated-change-dimension-example.png)
