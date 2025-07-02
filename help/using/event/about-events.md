@@ -12,7 +12,7 @@ exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
 source-git-commit: e4ea791dbc4362bff1d822f0b36add829e7a259d
 workflow-type: tm+mt
 source-wordcount: '1079'
-ht-degree: 91%
+ht-degree: 94%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_list"
 >title="ジャーニーイベント"
->abstract="イベントは人物と結び付いています。イベントは、人物の行動（製品の購入、ショップへの訪問、web サイトからの離脱など）、または人物にリンクして発生した事象（10,000 ロイヤルティポイントに到達など）に関連しています。 Journey Optimizer は、ジャーニーで単一イベントをリッスンして、次の最適なアクションを編成します。"
+>abstract="イベントは人物と結び付いています。これは、人物の行動（例えば、人物が製品を購入した、ショップを訪問した、web サイトを離脱したなど）または人物と結び付いて起こったこと（例えば、人物が 10,000 ロイヤルティポイントに到達したなど）に関連しています。Journey Optimizer は、ジャーニーで単一イベントをリッスンして、次の最適なアクションを編成します。"
 
 イベントを使用すると、ジャーニーを個別にトリガーし、ユーザーがジャーニーにエントリする際に各ユーザーにリアルタイムのメッセージを配信できます。
 
@@ -83,8 +83,8 @@ ht-degree: 91%
 
 イベントの設定方法と、ストリーミングエンドポイントとイベントのペイロードの指定方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3431517?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 ビジネスイベントに適用できる使用例を理解します。ビジネスイベントを使用したジャーニーの構築方法と、適用するベストプラクティスについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416427?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)

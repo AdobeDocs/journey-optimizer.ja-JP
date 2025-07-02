@@ -13,7 +13,7 @@ exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
 source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
 workflow-type: tm+mt
 source-wordcount: '838'
-ht-degree: 4%
+ht-degree: 21%
 
 ---
 
@@ -22,12 +22,12 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_rules_dataset_lookup"
 >title="データセットルックアップ"
->abstract="決定ルールでAdobe Experience Platform データを使用すると、動的な外部属性に基づいて実施要件条件を定義し、関連する場合にのみ決定項目が表示されるようにすることができます。 マッピングを作成し、Adobe Experience Platform データセットを [!DNL Journey Optimizer] のデータと結合する方法を定義します。 必要な属性を持つデータセットを選択し、決定項目属性とデータセットの両方に存在する結合キーを選択します。"
+>abstract="決定ルールで Adobe Experience Platform データを使用すると、動的な外部属性に基づいて実施要件の条件を定義し、関連する場合にのみ決定項目を表示できます。Adobe Experience Platform データセットを [!DNL Journey Optimizer] のデータと結合する方法を定義するマッピングを作成します。必要な属性を持つデータセットを選択し、決定項目の属性とデータセットの両方に存在する結合キーを選択します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_formula_dataset_lookup"
 >title="データセットルックアップ"
->abstract="ランキング式は、決定項目の優先度を定義します。 データセット属性 [!DNL Adobe Experience Platform] 使用すると、実際の条件を反映するようにランキングロジックを動的に調整できます。 マッピングを作成し、Adobe Experience Platform データセットを [!DNL Journey Optimizer] のデータと結合する方法を定義します。 必要な属性を持つデータセットを選択し、決定項目属性とデータセットの両方に存在する結合キーを選択します"
+>abstract="ランキング式は、決定項目の優先度を定義します。[!DNL Adobe Experience Platform] データセット属性を使用すると、実際の条件を反映するようにランキングロジックを動的に調整できます。Adobe Experience Platform データセットを [!DNL Journey Optimizer] のデータと結合する方法を定義するマッピングを作成します。必要な属性を持つデータセットを選択し、決定項目の属性とデータセットの両方に存在する結合キーを選択します"
 
 >[!AVAILABILITY]
 >
@@ -88,7 +88,7 @@ Adobe Experience Platform データを決定ルールに使用するには、次
 
 ### ランキング式 {#ranking-formulas}
 
-ランキング式は、決定項目の優先度を定義します。 データセット属性 [!DNL Adobe Experience Platform] 使用すると、実際の条件を反映するようにランキングロジックを動的に調整できます。
+ランキング式は、決定項目の優先度を定義します。データセット属性 [!DNL Adobe Experience Platform] 使用すると、実際の条件を反映するようにランキングロジックを動的に調整できます。
 
 例えば、航空会社がランキング式を使用してアップグレードオファーの優先順位を付けるとします。 顧客のロイヤルティ層が高く、現在の空席数が少ない場合（時間単位で更新されたデータセットに基づく）、その顧客には高い優先度が与えられます。 データセットには、`flight_number`、`available_seats`、`loyalty_score` などのフィールドが含まれます。
 
