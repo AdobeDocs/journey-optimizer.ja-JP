@@ -10,9 +10,9 @@ level: Experienced
 keywords: 再試行, バウンス, ソフト, Optimizer, エラー
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
 source-git-commit: 0db7f514a2604ad09fbd9863a51d3c86d69eac41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '567'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -34,11 +34,11 @@ ht-degree: 84%
 
 例：
 
-* 月曜日に、再試行期間を 24 時間に設定してメールを送信するとします。`emma.jones@mail.com` アドレスが配信されません。 メールは最大 3 回再試行され、24 時間の再試行期間に到達すると再試行が停止します。
+* 月曜日に、再試行期間を 24 時間に設定してメールを送信するとします。`emma.jones@mail.com` アドレスは配信に失敗します。メールは最大 3 回再試行され、24 時間の再試行期間に到達すると再試行が停止します。
 
-* 水曜日に別のメールを送信するとします。既に 3 つのエラー数が発生している `emma.jones@mail.com` もターゲットであり、再び配信に失敗します（2 回）。 さらに 2 件のエラーが計上されます。
+* 水曜日に別のメールを送信するとします。既にエラー数が 3 件カウントされている `emma.jones@mail.com` もターゲットにされ、再び 2 回配信に失敗します。さらに 2 件のエラーが計上されます。
 
-これら 2 つのメールの間で他の配信が試行されず成功した場合、3 + 2 件のエラーの累積影響を考慮して、`emma.jones@mail.com` アドレスが抑制リストに追加されます。
+これら 2 つのメール間に他の配信が試行されて成功しなかった場合、3 + 2 エラーの累積的な影響を考慮して、`emma.jones@mail.com` アドレスが抑制リストに追加されます。
 
 ## 再試行しきい値の編集 {#edit-retry-threshold}
 
@@ -47,7 +47,7 @@ ht-degree: 84%
 >title="再試行しきい値を更新"
 >abstract="デフォルト値がニーズに合わない場合は、連続ソフトバウンスの許容回数を変更できます。再試行カウンターが特定のメールアドレスのエラーしきい値に達すると、このアドレスは抑制リストに追加されます。"
 <!--
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html?lang=ja" text="Understand the suppresion list"-->
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html" text="Understand the suppresion list"-->
 
 デフォルト値の 5 がニーズに合わない場合は、次の手順に従ってエラーのしきい値を変更できます。
 
@@ -73,7 +73,7 @@ ht-degree: 84%
 
 デフォルトでは、メッセージがメールキューに追加されてから **3.5 日**（**84 時間**）の間、再試行が実行されます。
 
-ただし、不要になったときに再試行がそれ以上実行されないようにするために、メールチャネルに [ チャネル設定 ](channel-surfaces.md) を作成または編集する際に、必要に応じてこの設定を変更できます。
+ただし、再試行が不要になったときにそれ以上実行されないようにするため、メールチャネルに適用する[チャネル設定](channel-surfaces.md)を作成または編集する際に、必要に応じてこの設定を変更できます。
 
 例えば、1 日のみ有効なリンクを含むパスワードリセットに関するトランザクションメールの場合は、再試行期間を 24 時間に設定できます。同様に、真夜中のセールの場合は、再試行期間を 6 時間に設定するとよいでしょう。
 

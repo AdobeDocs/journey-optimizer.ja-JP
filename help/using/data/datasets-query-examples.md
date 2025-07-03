@@ -10,9 +10,9 @@ level: Experienced
 keywords: データセット, Optimizer, ユースケース
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 source-git-commit: 3df87ee9028217d353d657167e541e7d113c6065
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '894'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -148,7 +148,7 @@ SELECT _experience.customerjourneymanagement.messagedeliveryfeedback.messagefail
 
 >[!NOTE]
 >
->ジャーニーによっては、個々の配信 `messageID` 固有でない場合があります。 ジャーニーが同じプロファイルに同じアクションを再送信すると、同じ `messageID` ールが再利用されます。 したがって、個々の送信レベルでイベントを正確に追跡したり属性を設定したりするには、`journeyVersionID`、`journeyActionID`、`batchInstanceID` （バッチジャーニーの場合）または `identityMap` フィールドを組み合わせて、より正確な一意性を実現します。
+>一部のジャーニーでは、`messageID` は個々の配信ごとに一意ではない場合があります。ジャーニーで同じアクションを同じプロファイルに再送信する場合は、同じ `messageID` を再利用できます。したがって、個々の送信レベルでイベントを正確に追跡したり属性を設定したりするには、`journeyVersionID`、`journeyActionID`、`batchInstanceID`（バッチジャーニーの場合）または `identityMap` フィールドを組み合わせて、より正確な一意性を実現します。
 
 
 ### ISP のサービス停止後に強制隔離されたアドレスの識別{#isp-outage-query}

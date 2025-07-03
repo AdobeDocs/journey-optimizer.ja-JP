@@ -10,9 +10,9 @@ level: Intermediate
 keywords: アクティビティ, ジャーニー, 読み取り, オーディエンス, プラットフォーム
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: f308668ba1b7b20f6144e9200328e54986f66103
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '2195'
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->* オーディエンスを読み取りアクティビティの使用を開始する前に、[ ガードレールと制限を読み取ります ](#must-read)。
+>* オーディエンスを読み取りアクティビティの使用を開始する前に、[ガードレールと制限のトピックに目を通してください](#must-read)。
 
 ## アクティビティの設定 {#configuring-segment-trigger-activity}
 
@@ -92,7 +92,7 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->また、[リアルタイム顧客プロファイルデータおよびセグメント化用のガードレール](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja){target="_blank"}は、Adobe Journey Optimizer にも適用されます。
+>[リアルタイム顧客プロファイルデータとセグメント化のガードレール](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja){target="_blank"}は、Adobe Journey Optimizer にも適用されます。
 
 
 ### ジャーニーでのプロファイルエントリの管理
@@ -292,4 +292,4 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 「オーディエンスを読み取り」アクティビティによってトリガーされるジャーニーに適用可能なユースケースを理解します。バッチベースのジャーニーを構築する方法と適用するベストプラクティスについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430369?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)

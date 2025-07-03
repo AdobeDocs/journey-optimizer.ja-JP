@@ -10,9 +10,9 @@ level: Beginner
 keywords: アセット, Experience Manager, 統合
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
 source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '787'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -89,7 +89,7 @@ ht-degree: 95%
 
    ![](assets/media_library_12.png)
 
-1. [!DNL Adobe Journey Optimizer] から、メールDesignerの左側のパネルにある **[!UICONTROL アセットピッカー]** メニューを選択します。
+1. [!DNL Adobe Journey Optimizer] で、E メールデザイナーの左パネルにある「**[!UICONTROL アセットピッカー]**」を選択します。
 
    ![](assets/media_library_5.png)
 
@@ -122,7 +122,7 @@ ht-degree: 95%
 
 +++ アセットを管理するにはどうすればよいですか？Assets as a Cloud Service の変更は Journey Optimizer に反映されますか？
 
-**[!DNL Adobe Experience Manager Assets as a Cloud Service]** は、**[!DNL Adobe Experience Manager Assets Essentials]** と同様に Journey Optimizer と統合されます。アセットを変更すると、バイナリコピーが生成されます。**[!DNL Assets as a Cloud Service]** の更新は、ライブメールキャンペーンに自動的には反映されません。変更内容をメールDesignerで手動で再選択して、アセットと進行中のメールキャンペーンを確実に同期させる必要があります。
+**[!DNL Adobe Experience Manager Assets as a Cloud Service]** は、**[!DNL Adobe Experience Manager Assets Essentials]** と同様に Journey Optimizer と統合されます。アセットを変更すると、バイナリコピーが生成されます。**[!DNL Assets as a Cloud Service]** の更新は、ライブメールキャンペーンに自動的には反映されません。アセットと継続中のメールキャンペーン間の同期を確保するには、変更を E メールデザイナーで手動で再選択する必要があります。
 
 +++
 

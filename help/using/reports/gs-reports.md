@@ -1,21 +1,20 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: ' [!DNL Adobe Journey Optimizer] のレポート機能の概要'
-description: レポートにアクセスして操作する方法  [!DNL Adobe Journey Optimizer]  説明します。
+title: ' [!DNL Adobe Journey Optimizer] のレポート機能の基本を学ぶ'
+description: ' [!DNL Adobe Journey Optimizer]  レポートへのアクセス方法と操作方法について説明します。'
 role: User
 level: Beginner
-exl-id: 7961dc5c-7918-4ae3-8361-0ed4bc4f145b
-source-git-commit: 158ae930fa87dc0476273bfbb14c96e780281491
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-git-commit: da2fb137a8af82a8487638dc3d762377dd5dc506
+workflow-type: ht
+source-wordcount: '432'
+ht-degree: 100%
 
 ---
 
 # レポート機能の基本を学ぶ {#get-started-report}
 
-Adobe Journey Optimizer では、堅牢なレポート機能を通じて実用的なインサイトを提供します。レポートは、キャンペーン、ジャーニー、ランディングページ、サブスクリプションリストなどに使用できます。使用可能なレポートは次のとおりです。
+Adobe Journey Optimizer では、堅牢なレポート機能を通じて実用的なインサイトを提供します。レポートは、キャンペーン、ジャーニー、ランディングページ、購読リストなどに使用できます。使用可能なレポートは次のとおりです。
 
 さらに、[!DNL Journey Optimizer] エクスペリエンスの配信品質を最適化するには、[この節](deliverability.md)に示すベストプラクティスを使用することをお勧めします。
 
@@ -86,9 +85,9 @@ Adobe Journey Optimizer では、堅牢なレポート機能を通じて実用�
 <p>
 </td>
 <td>
-<img alt="サブスクリプションリストのレポート" src="../assets/do-not-localize/role.jpg">
+<img alt="購読リストのレポート" src="../assets/do-not-localize/role.jpg">
 <div>
-<p><strong>サブスクリプションリストのレポート</strong></p>
+<p><strong>購読リストのレポート</strong></p>
 </div>
 <div>
 <a href="subscription-report-live.md"><strong>ライブレポート</strong></a>
@@ -102,7 +101,7 @@ Adobe Journey Optimizer では、堅牢なレポート機能を通じて実用�
 </tr></table>
 
 
-すべての時間グローバルレポートは、すべてのチャネルで使用できます。 詳細を取得する必要があるチャネルのレポートを選択します。
+全期間グローバルレポートは、すべてのチャネルで使用できます。詳細を取得する必要があるチャネルのレポートを選択します。
 
 ### アウトバウンドチャネルのレポート
 

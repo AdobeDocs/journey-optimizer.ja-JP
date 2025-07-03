@@ -10,9 +10,9 @@ level: Beginner
 keywords: アセット, 統合
 exl-id: 3e72df85-ba80-4cec-848b-7441cb3e7fef
 source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '693'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -71,7 +71,7 @@ Adobe Experience Manager を Adobe Journey Optimizer と統合することで、
 
 Adobe Journey Optimizer の Adobe Express 統合により、コンテンツの作成中に Adobe Express の強力な編集ツールに簡単にアクセスできます。この統合により、ソリューションを切り替えることなく、画像のサイズ変更、背景の削除、ビジュアルの切り抜き、アセットの JPEG または PNG への変換が可能になります。
 
-**[!DNL Adobe Express]** メニューにアクセスするには、メールDesignerから **画像設定** にアクセスし、**[!UICONTROL Adobe Expressで編集]** をクリックします。
+**[!DNL Adobe Express]** メニューにアクセスするには、E メールデザイナーから&#x200B;**画像設定**&#x200B;にアクセスし、「**[!UICONTROL Adobe Express で編集]**」をクリックします。
 
 エンタープライズ版ライセンスを使用すると、ユーザーは Adobe Express エディターのすべての機能にアクセスでき、カラー、明るさ、シャープネス、コントラスト、寸法、その他の設定を調整して画像を変更できます。
 

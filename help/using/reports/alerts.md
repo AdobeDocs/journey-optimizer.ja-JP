@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: システムアラートへのアクセスと購読
-description: システムアラートにアクセスして購読する方法を学ぶ
+description: システムアラートへのアクセスと購読方法を学ぶ
 feature: Journeys, Alerts
 topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
 source-git-commit: da2fb137a8af82a8487638dc3d762377dd5dc506
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '654'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 91%
 
 <!--These messages can repeat over a pre-defined time interval until the alert has been resolved.-->
 
-Adobe Experience Platformのアラートについて詳しくは、[Adobe Experience Platform ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=ja){target="_blank"} を参照してください。
+Adobe Experience Platform のアラートについて詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=ja){target="_blank"}を参照してください。
 
 左側のメニューの&#x200B;**管理**&#x200B;で、「**アラート**」をクリックします。Journey Optimizer では、[ジャーニーカスタムアクションエラー](#alert-custom-actions)アラートと[オーディエンスを読み取りのトリガー失敗](#alert-read-audiences)アラートの、2 つの事前設定アラートが使用可能です。次に、これらのアラートについて詳しく説明します。
 
@@ -37,9 +37,9 @@ Adobe Experience Platformのアラートについて詳しくは、[Adobe Experi
 
 ![](assets/alert-subscribe.png)
 
-また、[I/O イベント通知 ](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=ja){target="_blank"} を通じてアラートを購読することもできます。 アラートルールは、様々な購読パッケージに整理されます。特定の Journey Optimizer アラートに対応するイベント購読については、以下で詳しく説明します。
+また、[I/O イベント通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=ja){target="_blank"}を通じてアラートを購読することもできます。アラートルールは、様々な購読パッケージに整理されます。特定の Journey Optimizer アラートに対応するイベント購読については、以下で詳しく説明します。
 
-予期しない動作が発生した場合は、購読者にアラート通知が送信されます。ユーザーの環境設定に基づいて、アラートはメールで送信されるか、ユーザーインターフェイスの右上隅にある Journey Optimizer 通知センター内で直接送信されます。デフォルトでは、アプリ内アラートのみが有効になっています。メールアラートを有効にするには、[Adobe Experience Platform ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=ja#enable-email-alerts){target="_blank"} を参照してください。
+予期しない動作が発生した場合は、購読者にアラート通知が送信されます。ユーザーの環境設定に基づいて、アラートはメールで送信されるか、ユーザーインターフェイスの右上隅にある Journey Optimizer 通知センター内で直接送信されます。デフォルトでは、アプリ内アラートのみが有効になっています。メールアラートを有効にするには、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=ja#enable-email-alerts){target="_blank"}を参照してください。
 
 アラートが解決されると、購読者に「解決済み」通知が届きます。
 

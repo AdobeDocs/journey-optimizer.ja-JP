@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: リンク, トラッキング, 監視, メール
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1200'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -174,7 +174,7 @@ Adobe Journey Optimizer で生成されるミラーページには、すべて�
 
 [URL トラッキング](email-settings.md#url-tracking)は設定レベルで管理され、メッセージコンテンツに含まれるすべての URL に適用されます。
 
-また、メールDesignerで [ 個々の URL をパーソナライズ ](../personalization/personalization-syntax.md#perso-urls) することもできます。 コンテンツ内の単一のリンクにパーソナライズした URL トラッキングパラメーターを追加するには、次の手順に従います。
+また、E メールデザイナーで[個々の URL をカスタマイズ](../personalization/personalization-syntax.md#perso-urls)することもできます。コンテンツ内の単一のリンクにパーソナライズした URL トラッキングパラメーターを追加するには、次の手順に従います。
 
 1. リンクを選択し、コンテキストツールバーの「**[!UICONTROL リンクを挿入]**」をクリックします。
 
