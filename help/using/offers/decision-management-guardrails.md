@@ -9,7 +9,7 @@ exl-id: d2872bd3-42f8-4744-bb5b-41c49340098a
 source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
 workflow-type: tm+mt
 source-wordcount: '296'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 96%
 
 | ガードレール | 上限 |
 | ------- | ------- |
-| 1 秒あたりの Decisioning API リクエスト | 組織ごとに 500 |
-| エッジセグメント化を使用した 1 秒あたりの Edge Decisioning API リクエスト | 1 組織あたり 1,500 |
-| エッジセグメント化を使用しない 1 秒あたりの Edge Decisioning API リクエスト | 組織あたり 5,000 |
+| 1 秒あたりの Decisioning API リクエスト | 1 組織あたり 500 個 |
+| エッジセグメント化を使用した 1 秒あたりの Edge Decisioning API リクエスト | 1 組織あたり 1,500 個 |
+| エッジセグメント化を使用しない 1 秒あたりの Edge Decisioning API リクエスト | 1 組織あたり 5,000 個 |
 | 応答ごとに返されるオファー | 決定範囲ごとに最大 30 個、合計で 100 個 |
 | リクエストごとに関与するオファールールの最大数 | 100 |
 

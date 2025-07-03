@@ -9,7 +9,7 @@ exl-id: 01e74670-7431-4791-b98c-12278e6d3332
 source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
 workflow-type: tm+mt
 source-wordcount: '286'
-ht-degree: 81%
+ht-degree: 84%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 81%
 >[!AVAILABILITY]
 >
 >この機能は、Private Beta としてリリースされています。今後のリリースでは、すべてのお客様が段階的に利用できるようになる予定です。
->&#x200B;>Adobe Journey Optimizer で AI アシスタントを使用する前に、[ユーザー契約](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}に同意する必要があります。詳しくは、アドビ担当者にお問い合わせください。
+>>Adobe Journey Optimizer で AI アシスタントを使用する前に、[ユーザー契約](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}に同意する必要があります。詳しくは、アドビ担当者にお問い合わせください。
 
 ブランドの整合機能は、ブランドガイドラインに準拠したコンテンツの作成、レビューおよび管理に役立ちます。 この機能を使用すると、メールキャンペーン全体のトーン、メッセージ、ビジュアルアイデンティティの一貫性を確保するだけでなく、コンテンツ公開前に品質チェックを行うことができます。
 
@@ -48,7 +48,7 @@ ht-degree: 81%
 
 1. [メールキャンペーン](../campaigns/create-campaign.md)を作成します。
 
-1. メールDesignerで **[!UICONTROL ブランドの関連付け]** メニューを開きます。
+1. E メールデザイナーで&#x200B;**[!UICONTROL ブランド一致]**&#x200B;メニューを開きます。
 
    コンテンツは、デフォルトブランドに照らして自動的に評価されます。 [詳しくは、デフォルトのブランドの割り当て方法を参照してください](brands.md)。
 
