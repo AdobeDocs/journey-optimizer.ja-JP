@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: CSS, エディター, 概要, メール
 exl-id: e4645bc7-fb99-4fcc-8d0e-bf8b9efc828e
-source-git-commit: 158ae930fa87dc0476273bfbb14c96e780281491
+source-git-commit: 707815ddfdca656cdf341f103bee3440e9700270
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '727'
 ht-degree: 88%
 
 ---
@@ -41,13 +41,15 @@ ht-degree: 88%
 
 1. 「**[!UICONTROL カスタム CSS を追加]**」ボタンをクリックします。
 
+   >[!NOTE]
+   >
+   >「**[!UICONTROL カスタム CSS を追加]**」ボタンは、「**[!UICONTROL 本文]**」が選択されている場合にのみ使用できます。 ただし、コンテンツ内のすべてのコンポーネントにカスタム CSS スタイルを適用できます。
+
 1. ポップアップ表示される専用のテキスト領域に CSS コードを入力します。カスタム CSS が有効で、適切な構文に従っていることを確認します。[詳細情報](#use-valid-css)
 
    ![専用のテキスト領域にカスタム CSS を入力](assets/email-body-custom-css.png){width="65%"}
 
    >[!NOTE]
-   >
-   >「**[!UICONTROL カスタム CSS を追加]**」ボタンは、「**[!UICONTROL 本文]**」が選択されている場合にのみ使用できます。 ただし、コンテンツ内のすべてのコンポーネントにカスタム CSS スタイルを適用できます。
    >
    >コンテンツがロックされた [ テンプレート ](../content-management/content-locking.md#use) を使用する場合、カスタム CSS をコンテンツに追加することはできません。 ボタンのラベルが **[!UICONTROL カスタム CSS を表示]** に変わり、コンテンツに既に存在するカスタム CSS は読み取り専用です。
 
@@ -202,12 +204,6 @@ body {
 
 カスタム CSS は、E メールデザイナーの&#x200B;**[!UICONTROL 設定]**&#x200B;パネルでは解釈または検証されません。これは完全に独立しており、「**[!UICONTROL カスタム CSS を追加]**」オプションを通じてのみ変更できます。
 
-`global-custom` スタイルタグの属性 `data-disabled` が `true` に設定されている場合、カスタム CSS は適用されません。 例：
-
-```html
-<style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
-```
-
 ### 読み込んだコンテンツ
 
 E メールデザイナーに読み込んだコンテンツでカスタム CSS を使用する場合は、次の点を考慮します。
@@ -225,7 +221,13 @@ E メールデザイナーに読み込んだコンテンツでカスタム CSS �
 
 * CSS が有効で、構文エラー（中括弧の欠落、プロパティ名の誤りなど）がないことを確認します。[方法についてはこちらを参照](#use-valid-css)
 
-* CSS が `<style>` 属性で `data-name="global-custom"` タグに追加されていること、および `data-disabled` が `global-custom` に適用されていないことを確認します。 [詳細情報](#implementation)
+* CSS が、`<style>` 属性を持つ `data-name="global-custom"` タグに追加されていることを確認します。
+
+* `global-custom` スタイルタグの属性 `data-disabled` が `true` に設定されているかどうかを確認します。 その場合、カスタム CSS は適用されません。 例：
+
+  ```html
+  <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
+  ```
 
 * コンテンツに適用された[テーマ](apply-email-themes.md)を含む、他の CSS ルールによって CSS が上書きされないようにします。
 
