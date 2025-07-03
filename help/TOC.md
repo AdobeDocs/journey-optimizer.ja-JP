@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7a2c5c414dcb63d362f7decebb281d00b72e9ae7
+source-git-commit: 6439be00315dfde7ab385d7f848b7031d95060f4
 workflow-type: tm+mt
-source-wordcount: '2485'
-ht-degree: 97%
+source-wordcount: '2488'
+ht-degree: 98%
 
 ---
 
@@ -190,6 +190,7 @@ ht-degree: 97%
       + [ルールビルダーの操作](using/orchestrated/orchestrated-rule-builder.md)
       + [最初のルールの作成](using/orchestrated/build-query.md)
       + [式の編集](using/orchestrated/edit-expressions.md)
+      + [ リターゲティング ](using/orchestrated/retarget)
    + 調整されたキャンペーンアクティビティ {#design-campaigns}
       + [アクティビティの概要](using/orchestrated/activities/about-activities.md)
       + [AND 結合](using/orchestrated/activities/and-join.md)
@@ -202,6 +203,7 @@ ht-degree: 97%
       + [分岐](using/orchestrated/activities/fork.md)
       + [オーディエンスを読み取り](using/orchestrated/activities/read-audience.md)
       + [紐付け](using/orchestrated/activities/reconciliation.md)
+      + [オーディエンスの保存](using/orchestrated/activities/save-audience.md)
       + [分割](using/orchestrated/activities/split.md)
       + [テスト](using/orchestrated/activities/test.md)
       + [待機](using/orchestrated/activities/wait.md)
@@ -295,7 +297,7 @@ ht-degree: 97%
       + [テキストメッセージのオプトアウトの管理](using/sms/sms-opt-out.md)
       + [SMS サブドメインの設定](using/sms/sms-subdomains.md)
       + SMS/MMS/RCS チャネルの設定{#configure-sms}
-         + [SMS/MMS/RCS 設定の基本を学ぶ](using/sms/sms-configuration.md)
+         + [SMS／MMS／RCS 設定の基本を学ぶ](using/sms/sms-configuration.md)
          + [Sinch プロバイダーの設定](using/sms/sms-configuration-sinch.md)
          + [Infobip プロバイダーの設定](using/sms/sms-configuration-infobip.md)
          + [Twilio プロバイダーの設定](using/sms/sms-configuration-twilio.md)
