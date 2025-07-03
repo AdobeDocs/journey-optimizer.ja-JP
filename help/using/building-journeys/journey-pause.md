@@ -167,7 +167,7 @@ ht-degree: 93%
 * 破棄されたプロファイルの一部は、ジャーニーステップイベントには表示されますが、レポートには表示されません。例：
    * **オーディエンスを読み取り**&#x200B;のビジネスイベントが破棄される
    * 一時停止したジャーニーにより、**オーディエンスを読み取り**&#x200B;ジョブがドロップされる
-   * プロファイルが待機していたアクションの後にイベントアクティビティがあった場合、**イベント**は破棄される
+   * プロファイルが待機していたアクションの後にイベントアクティビティがあった場合、**イベント**&#x200B;は破棄される
      <!--* There is a guardrail (at an org level) on the max number of profiles that can be held in paused journeys. This guardrail is per org, and is visible in the journey inventory on a new bar (only visible when there are paused journeys).-->
 
 ## エンドツーエンドのサンプル {#journey-pause-sample}
