@@ -190,7 +190,7 @@ ht-degree: 98%
       + [ルールビルダーの操作](using/orchestrated/orchestrated-rule-builder.md)
       + [最初のルールの作成](using/orchestrated/build-query.md)
       + [式の編集](using/orchestrated/edit-expressions.md)
-      + [ リターゲティング ](using/orchestrated/retarget)
+      + [ リターゲティング ] (using/orchestrated/retarget)
    + 調整されたキャンペーンアクティビティ {#design-campaigns}
       + [アクティビティの概要](using/orchestrated/activities/about-activities.md)
       + [AND 結合](using/orchestrated/activities/and-join.md)
