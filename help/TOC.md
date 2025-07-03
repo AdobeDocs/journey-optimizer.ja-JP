@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 6439be00315dfde7ab385d7f848b7031d95060f4
+source-git-commit: 9bbaad0c7d6bbbb7b35b8d3b72d8a5adc29f28db
 workflow-type: tm+mt
 source-wordcount: '2488'
 ht-degree: 98%
@@ -190,7 +190,7 @@ ht-degree: 98%
       + [ルールビルダーの操作](using/orchestrated/orchestrated-rule-builder.md)
       + [最初のルールの作成](using/orchestrated/build-query.md)
       + [式の編集](using/orchestrated/edit-expressions.md)
-      + [ リターゲティング ] (using/orchestrated/retarget)
+      + [ リターゲティング ](using/orchestrated/retarget.md)
    + 調整されたキャンペーンアクティビティ {#design-campaigns}
       + [アクティビティの概要](using/orchestrated/activities/about-activities.md)
       + [AND 結合](using/orchestrated/activities/and-join.md)
