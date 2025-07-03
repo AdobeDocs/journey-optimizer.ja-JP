@@ -25,7 +25,7 @@ ht-degree: 52%
 
 | 調整されたキャンペーンへようこそ | 最初の調整されたキャンペーンの開始 | データベースのクエリ | 調整されたキャンペーンアクティビティ |
 |---|---|---|---|
-| [ オーケストレーションされたキャンペーンの基本を学ぶ ](../gs-orchestrated-campaigns.md)<br/><br/>[ 設定手順 ](../configuration-steps.md)<br/><br/>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](../access-manage-orchestrated-campaigns.md) | [ キャンペーンの作成を調整するための主な手順 ](../gs-campaign-creation.md)<br/><br/>[ キャンペーンの作成およびスケジュール設定 ](../create-orchestrated-campaign.md)<br/><br/>[ アクティビティの調整 ](../orchestrate-activities.md)<br/><br/>[ キャンペーンの開始および監視 ](../start-monitor-campaigns.md)<br/><br/>[ レポート ](../reporting-campaigns.md) | [ ルールビルダーの操作 ](../orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリの作成 ](../build-query.md)<br/><br/>[ 式の編集 ](../edit-expressions.md)<br/><br/>[ リターゲティング ](../retarget.md) | [ アクティビティの基本を学ぶ ](about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](and-join.md) - [ オーディエンスを作成 ](build-audience.md) - [ ディメンションの変更 ](change-dimension.md) - [ チャネルアクティビティ ](channels.md) - <b>[ 結合 ](combine.md)</b> - [ 重複排除 ](deduplication.md) - [ エンリッチメント ](enrichment.md) - [ 分岐 ](fork.md) - [ 紐付け ](reconciliation.md) [ ](save-audience.md) [ ](split.md) [ ](wait.md) - |
+| [ オーケストレーションされたキャンペーンの基本を学ぶ ](../gs-orchestrated-campaigns.md)<br/><br/>[ 設定手順 ](../configuration-steps.md)<br/><br/>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](../access-manage-orchestrated-campaigns.md) | [ キャンペーンの作成を調整するための主な手順 ](../gs-campaign-creation.md)<br/><br/>[ キャンペーンの作成およびスケジュール設定 ](../create-orchestrated-campaign.md)<br/><br/>[ アクティビティの調整 ](../orchestrate-activities.md)<br/><br/>[ キャンペーンの開始および監視 ](../start-monitor-campaigns.md)<br/><br/>[ レポート ](../reporting-campaigns.md) | [ ルールビルダーの操作 ](../orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリの作成 ](../build-query.md)<br/><br/>[ 式の編集 ](../edit-expressions.md)<br/><br/>[ リターゲティング ](../retarget.md) | [ アクティビティの基本を学ぶ ](about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](and-join.md) - [ オーディエンスを作成 ](build-audience.md) - [ ディメンションの変更 ](change-dimension.md) - [ チャネルアクティビティ ](channels.md) - <b>[ 結合 ](combine.md)</b> - [ 重複排除 ](deduplication.md) - [ エンリッチメント ](enrichment.md) - [ 分岐 ](fork.md) - [ 紐付け ](reconciliation.md) [&#128279;](save-audience.md) [&#128279;](split.md) [&#128279;](wait.md) - |
 
 {style="table-layout:fixed"}
 
@@ -134,7 +134,7 @@ ht-degree: 52%
 
 **[!UICONTROL 結合]**&#x200B;アクティビティでは、「**[!UICONTROL 除外]**」を設定できます。このためには、以下の追加の手順に従う必要があります。
 
-1. 「**[!UICONTROL 結合の設定]**」セクションで、メイン母集団を表す **[!UICONTROL 2}プライマリセット } を選択します。]**&#x200B;他のセットで見つかったレコードは、このプライマリセットから除外されます。
+1. 「**[!UICONTROL 結合の設定]**」セクションで、メイン母集団を表す **[!UICONTROL 2&rbrace;プライマリセット &rbrace; を選択します。]**&#x200B;他のセットで見つかったレコードは、このプライマリセットから除外されます。
 
 1. 必要に応じて、インバウンドテーブルを調整して、様々なディメンションのターゲットを揃えることができます。 別のディメンションからターゲットを除外するには、まず、メイン母集団と同じターゲティングディメンションにターゲットを取り込む必要があります。 それには、「**[!UICONTROL ルールを追加]**」をクリックし、ディメンションを変更する条件を定義します。 その後、属性または結合を使用して紐付けが行われます。
 

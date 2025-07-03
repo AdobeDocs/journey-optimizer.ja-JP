@@ -26,7 +26,7 @@ ht-degree: 43%
 
 | 調整されたキャンペーンへようこそ | 最初の調整されたキャンペーンの開始 | データベースのクエリ | 調整されたキャンペーンアクティビティ |
 |---|---|---|---|
-| [ オーケストレーションされたキャンペーンの基本を学ぶ ](../gs-orchestrated-campaigns.md)<br/><br/>[ 設定手順 ](../configuration-steps.md)<br/><br/>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](../access-manage-orchestrated-campaigns.md) | [ キャンペーンの作成を調整するための主な手順 ](../gs-campaign-creation.md)<br/><br/>[ キャンペーンの作成およびスケジュール設定 ](../create-orchestrated-campaign.md)<br/><br/>[ アクティビティの調整 ](../orchestrate-activities.md)<br/><br/>[ キャンペーンの開始および監視 ](../start-monitor-campaigns.md)<br/><br/>[ レポート ](../reporting-campaigns.md) | [ ルールビルダーの操作 ](../orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリの作成 ](../build-query.md)<br/><br/>[ 式の編集 ](../edit-expressions.md)<br/><br/>[ リターゲティング ](../retarget.md) | [ アクティビティの基本を学ぶ ](about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](and-join.md) - [ オーディエンスを作成 ](build-audience.md) - [ ディメンションの変更 ](change-dimension.md) - [ チャネルアクティビティ ](channels.md) - [ 結合 ](combine.md) - [ 重複排除 ](deduplication.md) - <b>[ エンリッチメント ](enrichment.md)</b> - [ 分岐 ](fork.md) - [ 紐付け ](reconciliation.md) [ ](save-audience.md) [ ](split.md) [ ](wait.md) - |
+| [ オーケストレーションされたキャンペーンの基本を学ぶ ](../gs-orchestrated-campaigns.md)<br/><br/>[ 設定手順 ](../configuration-steps.md)<br/><br/>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](../access-manage-orchestrated-campaigns.md) | [ キャンペーンの作成を調整するための主な手順 ](../gs-campaign-creation.md)<br/><br/>[ キャンペーンの作成およびスケジュール設定 ](../create-orchestrated-campaign.md)<br/><br/>[ アクティビティの調整 ](../orchestrate-activities.md)<br/><br/>[ キャンペーンの開始および監視 ](../start-monitor-campaigns.md)<br/><br/>[ レポート ](../reporting-campaigns.md) | [ ルールビルダーの操作 ](../orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリの作成 ](../build-query.md)<br/><br/>[ 式の編集 ](../edit-expressions.md)<br/><br/>[ リターゲティング ](../retarget.md) | [ アクティビティの基本を学ぶ ](about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](and-join.md) - [ オーディエンスを作成 ](build-audience.md) - [ ディメンションの変更 ](change-dimension.md) - [ チャネルアクティビティ ](channels.md) - [ 結合 ](combine.md) - [ 重複排除 ](deduplication.md) - <b>[ エンリッチメント ](enrichment.md)</b> - [ 分岐 ](fork.md) - [ 紐付け ](reconciliation.md) [&#128279;](save-audience.md) [&#128279;](split.md) [&#128279;](wait.md) - |
 
 {style="table-layout:fixed"}
 
@@ -111,7 +111,7 @@ ht-degree: 43%
 
 1. 「**[!UICONTROL 取得する行（作成する列）]**」フィールドに「`3`」と入力します。
 
-1. 平均購入額などの集計を実行するには、「集計データ **[!UICONTROL 」を選択し、「集計関数]** ドロップダウンから「**** **[!UICONTROL 平均]**」を選択します。
+1. 平均購入額などの集計を実行するには、「集計データ **[!UICONTROL 」を選択し、「集計関数]** ドロップダウンから「**&#x200B;** **[!UICONTROL 平均]**」を選択します。
 
    ![](../assets/enrichment-5.png)
 
