@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: CSS, エディター, 概要, メール
 exl-id: e4645bc7-fb99-4fcc-8d0e-bf8b9efc828e
-source-git-commit: c72e6c1ff9d1ce1510f8571d82e56ae21c63194d
+source-git-commit: edf82b966588a792c660430ced2cfe72c6b88216
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 85%
