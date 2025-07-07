@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: データセット, Optimizer, ユースケース
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 3df87ee9028217d353d657167e541e7d113c6065
-workflow-type: ht
-source-wordcount: '894'
-ht-degree: 100%
+source-git-commit: 967e5ed75a7a3d37b37749f464a3b96e10b1f35a
+workflow-type: tm+mt
+source-wordcount: '916'
+ht-degree: 97%
 
 ---
 
@@ -29,6 +29,9 @@ ht-degree: 100%
 * [エンティティデータセット](#entity-dataset)
 
 各スキーマのフィールドと属性の完全なリストを表示するには、[Journey Optimizer スキーマ辞書](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja){target="_blank"}を参照してください。
+
+また、よく使用されるいくつかの [ジャーニーステップイベントをクエリする例 ](../reports/query-examples.md) も参照してください。
+
 
 ## メールトラッキングエクスペリエンスイベントのデータセット{#email-tracking-experience-event-dataset}
 
@@ -234,6 +237,11 @@ group by
     _experience.journeyOrchestration.stepEvents.nodeID,
     _experience.journeyOrchestration.stepEvents.nodeName; 
 ```
+
+
+また、よく使用されるいくつかの [ジャーニーステップイベントをクエリする例 ](../reports/query-examples.md) も参照してください。
+
+
 
 ## 意思決定イベントデータセット{#ode-decisionevents}
 
