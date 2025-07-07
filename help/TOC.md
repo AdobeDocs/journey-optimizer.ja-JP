@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 61498b61f7f05e0553fe575c980fd1bee08500a3
+source-git-commit: a214afd830b9a0f37268b7e298e742470004e2a0
 workflow-type: tm+mt
-source-wordcount: '2491'
+source-wordcount: '2492'
 ht-degree: 97%
 
 ---
@@ -62,10 +62,6 @@ ht-degree: 97%
       + [ジャーニーの終了](using/building-journeys/end-journey.md)
       + [別のサンドボックスへのジャーニーのコピー](using/building-journeys/copy-to-sandbox.md)
       + [インテリジェントサービスとの統合](using/building-journeys/ai-services-overview.md)
-   + トラブルシューティング {#troubleshoot-journey}
-      + [ジャーニーエラーのトラブルシューティング](using/building-journeys/troubleshooting.md)
-      + [ジャーニーの実行のトラブルシューティング](using/building-journeys/troubleshooting-execution.md)
-      + [受信アクションのトラブルシューティング](using/building-journeys/troubleshooting-inbound.md)
    + アクティビティ {#about-journey-building}
       + [ジャーニーのアクティビティの基本を学ぶ](using/building-journeys/about-journey-activities.md)
       + [一般イベント](using/building-journeys/general-events.md)
@@ -178,12 +174,16 @@ ht-degree: 97%
       + [配信を増やす](using/building-journeys/ramp-up-deliveries-uc.md)
       + [外部データソースとカスタムアクションを使用したスループットの制限](using/building-journeys/limit-throughput.md)
       + [カスタムアクションを使用した Experience Platform のジャーニーイベントの書き込み](using/building-journeys/custom-action-aep.md)
+   + トラブルシューティング {#troubleshoot-journey}
+      + [ジャーニーエラーのトラブルシューティング](using/building-journeys/troubleshooting.md)
+      + [ジャーニーの実行のトラブルシューティング](using/building-journeys/troubleshooting-execution.md)
+      + [受信アクションのトラブルシューティング](using/building-journeys/troubleshooting-inbound.md)
 + 調整されたキャンペーン {#orchestrated-campaigns}
    + [調整されたキャンペーンの基本を学ぶ](using/orchestrated/gs-orchestrated-campaigns.md)
    + [設定の手順](using/orchestrated/configuration-steps.md)
    + [調整されたキャンペーンへのアクセスと管理](using/orchestrated/access-manage-orchestrated-campaigns.md)
    + 最初の調整されたキャンペーンの開始{#launch}
-      + [調整されたキャンペーン作成の主な手順](using/orchestrated/gs-campaign-creation.md)
+      + [調整されたキャンペーンを作成するための主な手順](using/orchestrated/gs-campaign-creation.md)
       + [キャンペーンの作成とスケジュール](using/orchestrated/create-orchestrated-campaign.md)
       + [アクティビティの調整](using/orchestrated/orchestrate-activities.md)
       + [キャンペーンの開始と監視](using/orchestrated/start-monitor-campaigns.md)
