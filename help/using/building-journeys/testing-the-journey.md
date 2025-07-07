@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: テスト, ジャーニー, チェック, エラー, トラブルシューティング
 exl-id: 9937d9b5-df5e-4686-83ac-573c4eba983a
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 392bf9871ee39aa8a5279661814daff9482be0fd
 workflow-type: tm+mt
 source-wordcount: '1767'
 ht-degree: 98%
@@ -29,7 +29,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->ジャーニーをテストする前に、エラーが発生した場合はすべて解決する必要があります。テストする前にエラーを確認する方法については、[この節](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)を参照してください。
+>ジャーニーをテストする前に、エラーが発生した場合はすべて解決する必要があります。テストする前にエラーを確認する方法については、[この節](../building-journeys/troubleshooting.md)を参照してください。
 
 テストモードを使用するには、次の手順に従います。
 
