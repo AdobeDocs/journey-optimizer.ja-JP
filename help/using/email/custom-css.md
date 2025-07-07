@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: CSS, エディター, 概要, メール
 exl-id: e4645bc7-fb99-4fcc-8d0e-bf8b9efc828e
-source-git-commit: 707815ddfdca656cdf341f103bee3440e9700270
+source-git-commit: c72e6c1ff9d1ce1510f8571d82e56ae21c63194d
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 88%
+source-wordcount: '733'
+ht-degree: 85%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 88%
 >
 >意図せずコンテンツのレイアウトや機能を損なう可能性がある CSS の使用は回避します。
 
-### 有効な CSS
++++ CSS のサンプル
 
 有効な CSS の例を以下に示します。
 
@@ -139,8 +139,9 @@ ht-degree: 88%
   }
 }
 ```
++++
 
-### 無効な CSS
++++ 無効な CSS のサンプル
 
 無効な CSS を入力すると、CSS を保存できないことを示すエラーメッセージが表示されます。無効な CSS の例を以下に示します。
 
@@ -164,10 +165,13 @@ ht-degree: 88%
 body {
   background: red;
 ```
++++
 
 ## 技術的な実装 {#implementation}
 
 次の例に示すように、カスタム CSS は、`data-name="global-custom"` 属性を持つ `<style>` タグの一部として `<head>` セクションの末尾に追加されます。これにより、カスタムスタイルがコンテンツにグローバルに適用されます。
+
++++ サンプルを参照
 
 ```html
 <!DOCTYPE html>
@@ -201,10 +205,11 @@ body {
   </body>
 </html>
 ```
++++
 
 カスタム CSS は、E メールデザイナーの&#x200B;**[!UICONTROL 設定]**&#x200B;パネルでは解釈または検証されません。これは完全に独立しており、「**[!UICONTROL カスタム CSS を追加]**」オプションを通じてのみ変更できます。
 
-### 読み込んだコンテンツ
+### ガードレール – 読み込まれたコンテンツ
 
 E メールデザイナーに読み込んだコンテンツでカスタム CSS を使用する場合は、次の点を考慮します。
 
@@ -223,20 +228,28 @@ E メールデザイナーに読み込んだコンテンツでカスタム CSS �
 
 * CSS が、`<style>` 属性を持つ `data-name="global-custom"` タグに追加されていることを確認します。
 
-* `global-custom` スタイルタグの属性 `data-disabled` が `true` に設定されているかどうかを確認します。 その場合、カスタム CSS は適用されません。 例：
+* `global-custom` スタイルタグの属性 `data-disabled` が `true` に設定されているかどうかを確認します。 その場合、カスタム CSS は適用されません。
+
++++ 例：
 
   ```html
   <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
   ```
 
++++
+
 * コンテンツに適用された[テーマ](apply-email-themes.md)を含む、他の CSS ルールによって CSS が上書きされないようにします。
 
    * ブラウザーの開発者ツールを使用してコンテンツを検査し、CSS が正しいセレクターをターゲットにしていることを確認します。
 
-   * 宣言が優先されるようにするには、宣言に `!important` を追加することを考慮します。例：
+   * 必ず優先されるように、宣言に `!important` を追加することを検討してください。
+
++++ 例：
 
      ```css
      .acr-Form {
        background: red !important;
      }
      ```
+
++++
