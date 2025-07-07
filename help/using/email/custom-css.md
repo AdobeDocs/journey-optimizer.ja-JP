@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: CSS, エディター, 概要, メール
 exl-id: e4645bc7-fb99-4fcc-8d0e-bf8b9efc828e
-source-git-commit: edf82b966588a792c660430ced2cfe72c6b88216
+source-git-commit: 5593758448216efcc82971b1072b7fc8c9303572
 workflow-type: tm+mt
 source-wordcount: '733'
 ht-degree: 85%
@@ -142,6 +142,7 @@ ht-degree: 85%
 
 +++
 
+
 +++ 無効な CSS のサンプル
 
 無効な CSS を入力すると、CSS を保存できないことを示すエラーメッセージが表示されます。無効な CSS の例を以下に示します。
@@ -209,6 +210,7 @@ body {
 ```
 
 +++
+
 
 カスタム CSS は、E メールデザイナーの&#x200B;**[!UICONTROL 設定]**&#x200B;パネルでは解釈または検証されません。これは完全に独立しており、「**[!UICONTROL カスタム CSS を追加]**」オプションを通じてのみ変更できます。
 
