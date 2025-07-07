@@ -6,8 +6,9 @@ description: パーソナライズされた最適化モデルの詳細情報
 feature: Ranking, Decision Management
 role: User
 level: Experienced
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
-workflow-type: tm+mt
+exl-id: 1c7bcffe-5a25-444f-8a95-057b7a07f252
+source-git-commit: 18a1020971dc6a1101e4e35c1523d004f3fd4188
+workflow-type: ht
 source-wordcount: '806'
 ht-degree: 100%
 
