@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9bbaad0c7d6bbbb7b35b8d3b72d8a5adc29f28db
+source-git-commit: 61498b61f7f05e0553fe575c980fd1bee08500a3
 workflow-type: tm+mt
-source-wordcount: '2488'
-ht-degree: 98%
+source-wordcount: '2491'
+ht-degree: 97%
 
 ---
 
@@ -61,9 +61,11 @@ ht-degree: 98%
       + [送信時間の最適化](using/building-journeys/send-time-optimization.md)
       + [ジャーニーの終了](using/building-journeys/end-journey.md)
       + [別のサンドボックスへのジャーニーのコピー](using/building-journeys/copy-to-sandbox.md)
-      + [ジャーニーのトラブルシューティング](using/building-journeys/troubleshooting.md)
-      + [ジャーニーでのインバウンドアクションのトラブルシューティング](using/building-journeys/troubleshooting-inbound.md)
       + [インテリジェントサービスとの統合](using/building-journeys/ai-services-overview.md)
+   + トラブルシューティング {#troubleshoot-journey}
+      + [ジャーニーエラーのトラブルシューティング](using/building-journeys/troubleshooting.md)
+      + [ジャーニーの実行のトラブルシューティング](using/building-journeys/troubleshooting-execution.md)
+      + [受信アクションのトラブルシューティング](using/building-journeys/troubleshooting-inbound.md)
    + アクティビティ {#about-journey-building}
       + [ジャーニーのアクティビティの基本を学ぶ](using/building-journeys/about-journey-activities.md)
       + [一般イベント](using/building-journeys/general-events.md)
