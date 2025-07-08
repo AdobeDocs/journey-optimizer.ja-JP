@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 62525caa9b065538c090b98d38c15dbd960dafe7
+source-git-commit: 84c65ee3f890685a12653c07ef06a179515f602d
 workflow-type: tm+mt
 source-wordcount: '2491'
 ht-degree: 97%
@@ -356,20 +356,6 @@ ht-degree: 97%
       + [LINE メッセージの作成](using/line/create-line.md)
       + [LINE メッセージの確認および送信](using/line/send-line.md)
 + コンテンツ管理 {#content-management}
-   + ランディングページ {#landing-pages}
-      + [ランディングページの基本を学ぶ](using/landing-pages/get-started-lp.md)
-      + [ランディングページの作成](using/landing-pages/create-lp.md)
-      + [ランディングページの管理](using/landing-pages/manage-lp.md)
-      + コンテンツのデザイン {#landing-pages-design}
-         + [ランディングページの設計について](using/landing-pages/design-lp.md)
-         + [ランディングページのコンテンツの作成](using/landing-pages/lp-content.md)
-         + [テンプレートの作成](using/landing-pages/lp-templates.md)
-         + [カスタム JavaScript の追加](using/landing-pages/lp-custom-js.md)
-      + [サブスクリプションリストの作成](using/landing-pages/subscription-list.md)
-      + [ユースケースを通じて学ぶ](using/landing-pages/lp-use-cases.md)
-      + ランディングページの設定 {#lp-configuration}
-         + [ランディングページのサブドメインの設定](using/landing-pages/lp-subdomains.md)
-         + [ランディングページプリセットの定義](using/landing-pages/lp-presets.md)
    + パーソナライゼーション {#personalization}
       + [パーソナライゼーションの概要](using/personalization/personalize.md)
       + [パーソナライゼーションの追加](using/personalization/personalization-build-expressions.md)
@@ -392,6 +378,20 @@ ht-degree: 97%
          + [注文ステータスの通知](using/personalization/personalization-use-case.md)
          + [買い物かご放棄に関するメール](using/personalization/personalization-use-case-helper-functions.md)
          + [医療保険処方箋のメール](using/personalization/perso-uc-plan-prescriptions.md)
+   + ランディングページ {#landing-pages}
+      + [ランディングページの基本を学ぶ](using/landing-pages/get-started-lp.md)
+      + [ランディングページの作成](using/landing-pages/create-lp.md)
+      + [ランディングページの管理](using/landing-pages/manage-lp.md)
+      + コンテンツのデザイン {#landing-pages-design}
+         + [ランディングページの設計について](using/landing-pages/design-lp.md)
+         + [ランディングページのコンテンツの作成](using/landing-pages/lp-content.md)
+         + [テンプレートの作成](using/landing-pages/lp-templates.md)
+         + [カスタム JavaScript の追加](using/landing-pages/lp-custom-js.md)
+      + [サブスクリプションリストの作成](using/landing-pages/subscription-list.md)
+      + [ユースケースを通じて学ぶ](using/landing-pages/lp-use-cases.md)
+      + ランディングページの設定 {#lp-configuration}
+         + [ランディングページのサブドメインの設定](using/landing-pages/lp-subdomains.md)
+         + [ランディングページプリセットの定義](using/landing-pages/lp-presets.md)
    + コンテンツテンプレート {#content-templates}
       + [コンテンツテンプレートの基本を学ぶ](using/content-management/content-templates.md)
       + [テンプレートへのアクセスと管理](using/content-management/access-content-templates.md)
