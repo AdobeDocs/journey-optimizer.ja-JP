@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: トラブルシューティング, ジャーニー, チェック, エラー
-source-git-commit: d2364bcf395707c5a6acdfea0609a5ddf89c1b02
+source-git-commit: fa53fbe84a0d9c20a47e3d9f312b1673ab0611ca
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '230'
 ht-degree: 11%
 
 ---
@@ -21,22 +21,54 @@ ht-degree: 11%
 
 次のページで、特定のトラブルシューティングトピックを詳しく説明します。
 
+
+
+<table style="table-layout:fixed">
+  <tr style="border: 0;">
+    <td>
+    <a href="../building-journeys/troubleshooting.md"><img src="../assets/do-not-localize/troubleshooting.jpeg"></a>
+    <div><strong> ジャーニーエラーのトラブルシューティング </strong><br/> テストまたは公開の前にアクティビティまたはジャーニーエラーを特定して解決する方法、およびジャーニーアクティビティにエラーが発生した場合に代替アクションを定義する方法について説明します。</div>
+    </td>
+    <td>
+    <a href="../building-journeys/troubleshooting-execution.md"><img src="../assets/do-not-localize/ao-audiences.jpeg"></a>
+    <div><strong> ジャーニー実行のトラブルシューティング </strong><br/> ジャーニーイベントのトラブルシューティング、プロファイルがジャーニーにエントリしたかどうか、ジャーニー内を移動する方法、メッセージが送信されたかどうかを確認する方法について説明します。</div>
+    </td>
+    <td>
+    <a href="./building-journeys/troubleshooting-inbound.md" "><img src="../assets/do-not-localize/in-app.jpg"></a>
+    <div><strong> インバウンドアクションのトラブルシューティング </strong><br/> インバウンドアクションに関する問題をジャーニーでデバッグする方法を説明し、インバウンドアクションを自分で特定して解決できるようにします。</div>
+    </td>
+    <td>
+    <a href="../action/troubleshoot-custom-action.md"><img src="../assets/do-not-localize/lp-list.jpg"></a>
+    <div><strong> カスタムアクションのトラブルシューティング </strong><br/>Journey Optimizer ユーザーインターフェイスの「管理」セクションから API 呼び出しを送信して、カスタムアクションをテストする方法を説明します。 この機能は、ジャーニーでカスタムアクションを使用する前または使用した後に、カスタムアクションのトラブルシューティングを行うのに役立ちます。</div>
+    </td>
+  </tr>
+  <tr style="border: 0;">
+    <td align="center"><a href="../building-journeys/troubleshooting.md"><img src="../assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="../building-journeys/troubleshooting-execution.md"><img src="../assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="./building-journeys/troubleshooting-inbound.md"><img src="../assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="../action/troubleshoot-custom-action.md"><img src="../assets/do-not-localize/learn-more-button.svg"></a></td>
+    </tr>
+</table>
+
+<!--
+
 <table style="table-layout:fixed">
 <tr style="border: 0;">
   <td>
-    <div><img alt="ジャーニーエラーのトラブルシューティング" src="../assets/do-not-localize/troubleshooting.jpeg" /> 
-    <br><ul><li><a href="../building-journeys/troubleshooting.md"> ジャーニーエラーのトラブルシューティング </a> - テストまたは公開前にアクティビティまたはジャーニーエラーを特定して解決する方法、およびジャーニーアクティビティにエラーが発生した場合に代替アクションを定義する方法について説明します。</li>
-    <li><a href="../building-journeys/troubleshooting-execution.md"> ジャーニー実行のトラブルシューティング </a> - ジャーニーイベントのトラブルシューティング、プロファイルがジャーニーにエントリしたかどうか、ジャーニー内を移動する方法、メッセージが送信されたかどうかを確認する方法について説明します。</li>
-     <li><a href="../building-journeys/troubleshooting-inbound.md"> インバウンドアクションのトラブルシューティング </a> - インバウンドアクションに関する問題をジャーニーでデバッグする方法を説明し、インバウンドアクションを自分で特定して解決できるようにします。</li>
-     <li><a href="../action/troubleshoot-custom-action.md"> カスタムアクションのトラブルシューティング </a> - Journey Optimizer ユーザーインターフェイスの「管理」セクションから API 呼び出しを送信して、カスタムアクションをテストする方法について説明します。 この機能は、ジャーニーでカスタムアクションを使用する前または使用した後に、カスタムアクションのトラブルシューティングを行うのに役立ちます。</li>
+    <div><img alt="Troubleshoot journey errors" src="../assets/do-not-localize/troubleshooting.jpeg" /> 
+    <br><ul><li><a href="../building-journeys/troubleshooting.md">Troubleshoot journey errors</a> - Learn how to identify and resolve activity or journey errors before test or publication, and how to define a fallback action in case of an error in journey activities.</li>
+    <li><a href="../building-journeys/troubleshooting-execution.md">Troubleshoot journey execution</a> - Understand how to troubleshoot journey events, check if profiles entered your journey, how they navigate through it, and if messsages are sent.</li>
+     <li><a href="../building-journeys/troubleshooting-inbound.md">Troubleshoot inbound actions</a> - Learn how to debug issues related to inbound actions in a journey, in order to help you identify and resolve them on your own.</li>
+     <li><a href="../action/troubleshoot-custom-action.md">Troubleshoot a custom action</a> - Learn how to test your custom actions by sending API calls from the administration section of Journey Optimizer user interface. This capability helps you troubleshoot your custom actions before or after using them in a journey.</li>
     <ul>
     <div>
-     <a href="../integrations/ajo-integrations.md">詳細情報</a></div>
+     <a href="../integrations/ajo-integrations.md">Learn more</a></div>
     </div>
     <br>
   </td>
 </tr>
 </table>
+-->
 
 <!--
 * **[Troubleshoot journey errors](../building-journeys/troubleshooting.md)**
@@ -53,6 +85,21 @@ ht-degree: 11%
 
 -->
 
-さらに、[Adobe コミュニティのブログ投稿 ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=ja){target="_blank"} 一般的なエラーコード **の詳細と、その効果的な解決方法を参照して** ださい。
 
-これらのリソースは、問題をすばやく特定し、設定を検証し、ジャーニーを再びスムーズに実行するのに役立ちます。
+
+<table style="table-layout:fixed">
+<tr style="border: 0;">
+  <td>
+    <div>
+    <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884">
+    <img alt="一般的なエラーコードについて" src="../assets/do-not-localize/icon-quick-start.svg" /></a> 
+    <br> さらに、<strong> 一般的なエラーコード </strong> とその効果的な解決方法について詳しく説明した、このAdobe Community のブログ投稿も参照してください。
+    </div>
+      <div>
+     <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884" target="_blank">詳細情報</a></div>
+    </div>
+  </td>
+</tr>
+</table>
+
+
