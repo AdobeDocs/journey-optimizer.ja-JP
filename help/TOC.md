@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: fa53fbe84a0d9c20a47e3d9f312b1673ab0611ca
+source-git-commit: 54d5b3386da4eed53fca79a2135ab54548855150
 workflow-type: tm+mt
-source-wordcount: '2493'
+source-wordcount: '2496'
 ht-degree: 97%
 
 ---
@@ -184,6 +184,7 @@ ht-degree: 97%
    + [調整されたキャンペーンの基本を学ぶ](using/orchestrated/gs-orchestrated-campaigns.md)
    + [設定の手順](using/orchestrated/configuration-steps.md)
    + [調整されたキャンペーンへのアクセスと管理](using/orchestrated/access-manage-orchestrated-campaigns.md)
+   + [ガードレールと制限](using/orchestrated/guardrails.md)
    + 最初の調整されたキャンペーンの開始{#launch}
       + [調整されたキャンペーンを作成するための主な手順](using/orchestrated/gs-campaign-creation.md)
       + [キャンペーンの作成とスケジュール](using/orchestrated/create-orchestrated-campaign.md)
