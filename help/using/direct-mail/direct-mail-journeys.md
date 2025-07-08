@@ -10,7 +10,7 @@ hide: true
 robots: noindex
 googlebot: noindex
 keywords: ダイレクトメール, メッセージ, キャンペーン
-source-git-commit: 114f712984b946bba30841a1d79be8870f9e3f07
+source-git-commit: 6f239f9bb9dbce871fbbdd89c460d9ac39706e1e
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 39%
