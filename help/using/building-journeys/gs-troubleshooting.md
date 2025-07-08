@@ -33,6 +33,6 @@ ht-degree: 5%
 * **[カスタムアクションのトラブルシューティング](../action/troubleshoot-custom-action.md)**
 データ処理、応答エラー、統合エラーなどのカスタムアクションをデバッグし検証する方法について説明します。
 
-さらに、[Adobe コミュニティのブログ投稿 ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884){target="_blank"} 一般的なエラーコード **の詳細と、その効果的な解決方法を参照して** ださい。
+さらに、[Adobe コミュニティのブログ投稿 ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=ja){target="_blank"} 一般的なエラーコード **の詳細と、その効果的な解決方法を参照して** ださい。
 
 これらのリソースは、問題をすばやく特定し、設定を検証し、ジャーニーを再びスムーズに実行するのに役立ちます。
