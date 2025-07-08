@@ -17,7 +17,7 @@ ht-degree: 21%
 
 ---
 
-# Adobe Experience Platform データを意思決定に使用 {#aep-data}
+# Adobe Experience Platform データを決定に使用 {#aep-data}
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_rules_dataset_lookup"

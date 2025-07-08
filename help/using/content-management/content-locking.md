@@ -10,7 +10,7 @@ exl-id: f64fe1c4-3e30-4b74-80f8-b801a5f1d4c4
 source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
 workflow-type: tm+mt
 source-wordcount: '1276'
-ht-degree: 81%
+ht-degree: 82%
 
 ---
 
@@ -34,12 +34,12 @@ ht-degree: 81%
 >[!CONTEXTUALHELP]
 >id="ajo_email_locking_activated"
 >title="ガバナンスが有効になりました"
->abstract="コンテンツのロックが有効になり、変更が防止されます。"
+>abstract="コンテンツのロックがアクティブ化され、変更が防止されます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_locking_read_only"
 >title="読み取り専用"
->abstract="このコンテンツは読み取り専用モードで、変更できません。"
+>abstract="このコンテンツは読み取り専用であるため、変更できません。"
 
 Journey Optimizerを使用すると、テンプレート全体または特定の構造やコンポーネントをロックすることで、メールテンプレートのコンテンツをロックできます。 これにより、意図しない編集や削除を防ぎ、テンプレートのカスタマイズをより詳細に制御して、メールキャンペーンの効率と信頼性を向上させることができます。
 
@@ -196,4 +196,4 @@ Journey Optimizerを使用すると、テンプレート全体または特定の
 
 メールテンプレートのコンテンツをロックする方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3451608?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)
