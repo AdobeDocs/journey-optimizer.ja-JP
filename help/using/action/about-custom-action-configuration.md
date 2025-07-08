@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: アクション, サードパーティ, カスタム, ジャーニー, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: f5baa901c4f9d1061837528007b2c3f048ecbf2a
 workflow-type: tm+mt
-source-wordcount: '1692'
+source-wordcount: '1704'
 ht-degree: 98%
 
 ---
@@ -186,3 +186,8 @@ Mutual Transport Layer Security（mTLS）は、Adobe Journey Optimizer カスタ
 >
 >Null 値を許可しながらオプションパラメーターを設定すると、ジャーニー担当者によって入力されなかったパラメーターは Null として送信されます。
 >
+
+
+## トラブルシューティング
+
+カスタムアクションのトラブルシューティング方法を学ぶ [ この専用ページ ](../action/troubleshoot-custom-action.md)。

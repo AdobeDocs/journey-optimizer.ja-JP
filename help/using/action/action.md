@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: アクション, ジャーニー, メッセージ, 送信, 接続
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
-source-git-commit: bb2272e6959d896fb6b3286cec2c16a545a9f671
-workflow-type: ht
-source-wordcount: '274'
-ht-degree: 100%
+source-git-commit: f5baa901c4f9d1061837528007b2c3f048ecbf2a
+workflow-type: tm+mt
+source-wordcount: '285'
+ht-degree: 96%
 
 ---
 
@@ -44,8 +44,10 @@ ht-degree: 100%
 
 ![](assets/custom1.png)
 
+カスタムアクションのトラブルシューティング方法を学ぶ [ この専用ページ ](../action/troubleshoot-custom-action.md)。
+
 ## チュートリアルビデオ {#video}
 
 カスタムアクションの設定方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430280?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)

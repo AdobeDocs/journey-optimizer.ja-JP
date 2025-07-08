@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 84c65ee3f890685a12653c07ef06a179515f602d
+source-git-commit: f5baa901c4f9d1061837528007b2c3f048ecbf2a
 workflow-type: tm+mt
-source-wordcount: '2491'
+source-wordcount: '2494'
 ht-degree: 97%
 
 ---
@@ -175,9 +175,11 @@ ht-degree: 97%
       + [外部データソースとカスタムアクションを使用したスループットの制限](using/building-journeys/limit-throughput.md)
       + [カスタムアクションを使用した Experience Platform のジャーニーイベントの書き込み](using/building-journeys/custom-action-aep.md)
    + トラブルシューティング {#troubleshoot-journey}
+      + [ジャーニーのトラブルシューティング](using/building-journeys/gs-troubleshooting.md)
       + [ジャーニーエラーのトラブルシューティング](using/building-journeys/troubleshooting.md)
       + [ジャーニー実行のトラブルシューティング](using/building-journeys/troubleshooting-execution.md)
       + [受信アクションのトラブルシューティング](using/building-journeys/troubleshooting-inbound.md)
+      + [カスタムアクションのトラブルシューティング](using/action/troubleshoot-custom-action.md)
 + 調整されたキャンペーン {#orchestrated-campaigns}
    + [調整されたキャンペーンの基本を学ぶ](using/orchestrated/gs-orchestrated-campaigns.md)
    + [設定の手順](using/orchestrated/configuration-steps.md)
@@ -770,7 +772,6 @@ ht-degree: 97%
    + アクションの設定 {#action-journeys}
       + [カスタムアクションの基本を学ぶ](using/action/action.md)
       + [カスタムアクションの設定](using/action/about-custom-action-configuration.md)
-      + [カスタムアクションのトラブルシューティング](using/action/troubleshoot-custom-action.md)
       + [カスタムアクションでの API 呼び出し応答の使用](using/action/action-response.md)
 + システムと環境の接続 {#connect-systems}
    + [他のソリューションとの統合](using/integrations/ajo-integrations.md)
