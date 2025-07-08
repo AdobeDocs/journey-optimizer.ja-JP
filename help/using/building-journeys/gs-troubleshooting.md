@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: トラブルシューティング, ジャーニー, チェック, エラー
-source-git-commit: fa53fbe84a0d9c20a47e3d9f312b1673ab0611ca
+source-git-commit: 6ede06256038f781cfb8307bacc4e731b0323a8c
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 11%
@@ -34,7 +34,7 @@ ht-degree: 11%
     <div><strong> ジャーニー実行のトラブルシューティング </strong><br/> ジャーニーイベントのトラブルシューティング、プロファイルがジャーニーにエントリしたかどうか、ジャーニー内を移動する方法、メッセージが送信されたかどうかを確認する方法について説明します。</div>
     </td>
     <td>
-    <a href="./building-journeys/troubleshooting-inbound.md" "><img src="../assets/do-not-localize/in-app.jpg"></a>
+    <a href="..building-journeys/troubleshooting-inbound.md" "><img src="../assets/do-not-localize/in-app.jpg"></a>
     <div><strong> インバウンドアクションのトラブルシューティング </strong><br/> インバウンドアクションに関する問題をジャーニーでデバッグする方法を説明し、インバウンドアクションを自分で特定して解決できるようにします。</div>
     </td>
     <td>
@@ -45,7 +45,7 @@ ht-degree: 11%
   <tr style="border: 0;">
     <td align="center"><a href="../building-journeys/troubleshooting.md"><img src="../assets/do-not-localize/learn-more-button.svg"></a></td>
     <td align="center"><a href="../building-journeys/troubleshooting-execution.md"><img src="../assets/do-not-localize/learn-more-button.svg"></a></td>
-    <td align="center"><a href="./building-journeys/troubleshooting-inbound.md"><img src="../assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="../building-journeys/troubleshooting-inbound.md"><img src="../assets/do-not-localize/learn-more-button.svg"></a></td>
     <td align="center"><a href="../action/troubleshoot-custom-action.md"><img src="../assets/do-not-localize/learn-more-button.svg"></a></td>
     </tr>
 </table>
@@ -91,12 +91,12 @@ ht-degree: 11%
 <tr style="border: 0;">
   <td>
     <div>
-    <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=ja">
+    <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884">
     <img alt="一般的なエラーコードについて" src="../assets/do-not-localize/icon-quick-start.svg" /></a> 
     <br> さらに、<strong> 一般的なエラーコード </strong> とその効果的な解決方法について詳しく説明した、このAdobe Community のブログ投稿も参照してください。
     </div>
       <div>
-     <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=ja" target="_blank">詳細情報</a></div>
+     <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884" target="_blank">詳細情報</a></div>
     </div>
   </td>
 </tr>
