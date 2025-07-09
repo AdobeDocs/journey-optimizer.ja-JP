@@ -9,8 +9,8 @@ role: Admin, User
 level: Intermediate
 keywords: 権限, オーサリング, メッセージ
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: 1a2c6e97fcd30245cff1bf08fd5771ce8bc84ddc
-workflow-type: ht
+source-git-commit: e20db7c39e751bf720cd0ae75b4e8f031de18eef
+workflow-type: tm+mt
 source-wordcount: '932'
 ht-degree: 100%
 
@@ -49,3 +49,5 @@ ht-degree: 100%
 
 {style="table-layout:fixed"}
 
+<!--
+|Orchestrated campaigns|**[!DNL Manage orchestrated campaigns]**: read, create, edit, and delete orchestrated campaigns.</br>**[!DNL Publish orchestrated campaigns]**: publish orchestrated campaigns. </br>**[!DNL View orchestrated campaigns admin]**: XX. </br>**[!DNL Manage orchestrated campaigns admin]**: XX. </br>**[!DNL View orchestrated campaigns]**: read and edit orchestrated campaigns.</br>**[!DNL View orchestrated campaigns report]**: read and edit orchestrated campaigns report.|-->
