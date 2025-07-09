@@ -5,11 +5,13 @@ title: リリースノート 2023
 description: Journey Optimizer 2023 リリースノート
 feature: Release Notes
 topic: Content Management
+hide: true
+hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
-workflow-type: ht
+source-git-commit: 8ff4f970796218451996bd5ed1938d33fa818495
+workflow-type: tm+mt
 source-wordcount: '4377'
 ht-degree: 100%
 
