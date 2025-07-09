@@ -10,13 +10,13 @@ hide: true
 robots: noindex
 googlebot: noindex
 keywords: ダイレクトメール, メッセージ, キャンペーン
-source-git-commit: 088e89013235883d0a8b433fa348ee33a34e7a8c
+exl-id: 44886355-ee3a-4323-899a-35d967487924
+source-git-commit: ca6e2834f92585094d3316e9259e3370cfad22fc
 workflow-type: tm+mt
 source-wordcount: '760'
 ht-degree: 30%
 
 ---
-
 
 # ジャーニーでのダイレクトメールメッセージの送信 {#direct-mail-journeys}
 
@@ -72,7 +72,7 @@ ht-degree: 30%
 
    ![](assets/direct-mail-add-journey.png)
 
-1. ファイル名や表示する列など、抽出ファイルのプロパティを調整します。 抽出ファイルのプロパティを設定する方法について詳しくは、次の節を参照してください。[ ダイレクトメールメッセージの作成 ](../direct-mail/create-direct-mail.md#extraction-file)
+1. ファイル名や表示する列など、抽出ファイルのプロパティを調整します。 抽出ファイルのプロパティを設定する方法について詳しくは、次の節を参照してください。[ ダイレクトメールメッセージの作成 ](../direct-mail/create-direct-mail.md#extraction-file)。
 
    ![](assets/direct-mail-journey-content.png)
 
