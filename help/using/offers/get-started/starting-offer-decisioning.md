@@ -1,5 +1,5 @@
 ---
-title: 意思決定管理の概要
+title: 意思決定管理の基本を学ぶ
 description: Adobe Journey Optimizer が、的確なオファーを適切なタイミングで顧客に送信する方法を説明します
 badge: label="レガシー" type="Informative"
 feature: Decision Management
@@ -8,17 +8,17 @@ role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '911'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-# 意思決定管理の概要 {#about-decision-management}
+# 意思決定管理の基本を学ぶ {#about-decision-management}
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] の新しい判定機能である判定は、コードベースのエクスペリエンスチャネルから利用できるようになりました。 [詳細情報](../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルを通じて使用できるようになりました。[詳細情報](../../experience-decisioning/gs-experience-decisioning.md)
 
 [!DNL Journey Optimizer] を使用すると、すべてのタッチポイントをまたいで、適切なタイミングで最高のオファーとエクスペリエンスを顧客に提供できます。デザインが完了すると、パーソナライズされたオファーを使用してオーディエンスをターゲットに設定できます。
 
@@ -38,11 +38,11 @@ ht-degree: 93%
 * ワークフローの向上：マーケティングチームは、複数の配信やキャンペーンを作成するのではなく、配信を 1 件だけ作成し、テンプレートの様々な部分のオファーを変えることで、ワークフローを改善することができる。
 * キャンペーンや顧客にオファーを表示する回数を制御できる。
 
-➡️ [ 意思決定管理の詳細については、次のビデオを参照してください ](#video)
+➡️ [意思決定管理について詳しくは、これらのビデオをご覧ください](#video)
 
 >[!NOTE]
 >
->**Offer Decisioning[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ja){target="_blank"} アプリケーションを利用する Adobe Experience Platform** ユーザーの場合は、この節で説明する意思決定管理機能もすべて適用されます。
+>**Offer Decisioning** アプリケーションを活用している [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ja){target="_blank"} ユーザーの場合は、この節で説明するすべての意思決定管理機能も適用されます。
 
 ## オファーと決定について {#about-offers-and-decisions}
 
@@ -121,13 +121,13 @@ ht-degree: 93%
 以下のビデオでは、 意思決定管理の主な機能、アーキテクチャおよび使用例を紹介しています。
 
 
->[!VIDEO](https://video.tv.adobe.com/v/340416?quality=12&learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/326961?quality=12&learn=on)
 
 ### オファーの定義と管理 {#use-offer-decisioning}
 
 次のビデオでは、意思決定管理を使用してオファーを定義および管理し、リアルタイムの顧客データを活用する方法を示します。
 
 
->[!VIDEO](https://video.tv.adobe.com/v/340470?quality=12&learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/326841?quality=12&learn=on)
 
 

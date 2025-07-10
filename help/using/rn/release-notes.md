@@ -7,9 +7,9 @@ topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: ec2cccb651360ec796610781affcedca96d66af4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1278'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -27,21 +27,21 @@ ht-degree: 66%
 
 ### ジャーニー条件の変更 {#ee-change@}
 
-7 月 8 日（PT）以降、新しい顧客組織では、エクスペリエンスイベントを使用した式の作成が、ジャーニー条件で使用される式エディターでサポートされなくなります。 その結果、[Experience Platform データソース ](../datasource/adobe-experience-platform-data-source.md) のエクスペリエンスイベントは式の作成に使用できません。 エクスペリエンスイベントを使用して式やロジックを作成するための代替アプローチやベストプラクティスについては、[ こちら ](../building-journeys/exp-event-lookup.md) を参照してください。
+7月8日（PT）以降、新しい顧客組織では、ジャーニー条件で使用される式エディターで、エクスペリエンスイベントを使用した式の作成はサポートされなくなります。その結果、[Experience Platform データソース](../datasource/adobe-experience-platform-data-source.md)のエクスペリエンスイベントは式の作成に使用できません。エクスペリエンスイベントを使用して式／ロジックを作成する際の代替アプローチとベストプラクティスについて詳しくは、[こちら](../building-journeys/exp-event-lookup.md)を参照してください。
 
-単一のジャーニーでジャーニーコンテキストイベントデータにアクセスする方法に変更はありません。 式およびパーソナライゼーションエディターでは、ユーザーは、最初のジャーニーイベントで渡されたデータに引き続きアクセスできます。
+単一ジャーニーでジャーニーコンテキストイベントデータにアクセスする方法に変更はありません。式エディターとパーソナライゼーションエディターでは、ユーザーは最初のジャーニーイベントで渡されたデータに引き続きアクセスできます。
 
-詳しくは [ こちらの FAQ を参照してください ](../building-journeys/exp-event-lookup.md#faq-ee)。
+詳しくは、[この FAQ](../building-journeys/exp-event-lookup.md#faq-ee) を参照してください。
 
 
-## 2025 年 6 月のリリースノート {#25-6-rn}
+## 2025年6月リリースノート {#25-6-rn}
 
 <!--
 **Early release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published at the release date.-->
 
 **リリース日**：2025年6月18日（PT）
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新機能 {#25-06-features}
 
@@ -50,16 +50,16 @@ ht-degree: 66%
 <table>
 <thead>
 <tr>
-<th><strong>意思決定のAdobe Experience Platform データセット（ベータ版）</strong><br/></th>
+<th><strong>決定の Adobe Experience Platform データセット（ベータ版）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>以前はパーソナライゼーションで使用できましたが、現在は、Adobe Experience Platform データセットを意思決定に活用できます。 これにより、決定属性の定義をデータセット内の追加データに拡張して、定期的に変更される一括更新を行うことができます。属性を 1 つずつ手動で更新する必要はありません。 例えば、可用性、待機時間など。</p>
-<p>この機能は現在、パブリックベータ版としてすべてのお客様にご使用いただけます。アクセスをご希望の場合は、アカウント担当者にお問い合わせください。</p>
+<p>以前はパーソナライゼーションに使用できた Adobe Experience Platform データセットを、決定に活用できるようになりました。これにより、決定属性の定義をデータセットの追加データに拡張し、属性を 1 つずつ手動で更新する必要がなく、定期的に変更される一括更新を行うことができます。例えば、可用性、待機時間などです。</p>
+<p>この機能は現在、パブリックベータ版としてすべてのお客様にご使用いただけます。アクセス権をご希望の場合は、アカウント担当者にお問い合わせください。</p>
 <p>詳しくは、<a href="../experience-decisioning/aep-data-exd.md">詳細なドキュメント</a>を参照してください。</p>
-<p>公開日：2025 年 6 月 20 日（PT）</p>
+<p>公開日：2025年6月20日（PT）</p>
 </td>
 </tr>
 </tbody>
@@ -125,7 +125,7 @@ ht-degree: 66%
 <table>
 <thead>
 <tr>
-<th><strong>ジャーニー内のコンテンツ決定アクティビティ</strong><br/></th>
+<th><strong>ジャーニーのコンテンツ決定アクティビティ</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -224,33 +224,33 @@ ht-degree: 66%
 
 * **チャネルルールセット**
 
-   * キャッピングの **カスタム期間ウィンドウ** – 新しい **ごと** フィールドがチャネルルールセット設定画面で使用できるようになり、指定された期間に応じて複数の日、週、月にわたってフリークエンシーキャッピングルールを適用できます。
+   * キャッピングの&#x200B;**カスタム期間ウィンドウ** - チャネルルールセットの設定画面で新しい「**すべて**」フィールドが使用できるようになりました。これにより、指定した期間に応じて、複数の日、週、月にわたってフリークエンシーキャップルールを適用できます。
 
-   * **1 時間ごとのリセットキャッピングの頻度** - チャネルルールセットに対して 1 時間ごとにキャッピングを適用できるようになりました。 この機能は、一連の組織でのみ使用できます（限定提供）。有効にするには、カスタマーケアにお問い合わせください。
+   * **時間単位での頻度キャップのリセット** - チャネルルールセットに対して時間単位でキャップを適用できるようになりました。この機能は、一連の組織でのみ使用できます（限定提供）。有効にするには、カスタマーケアにお問い合わせください。
 
-   * **毎日の期間** – 以前は限定提供で利用できましたが、チャネルルールセットの「毎日」のフリークエンシーキャップは、すべてのお客様が利用できるようになりました。
+   * **毎日の期間** - 以前は限定提供で使用できたチャネルルールセットの「毎日」のフリークエンシーキャップは、すべてのお客様が使用できるようになりました。
 
   詳しくは、[詳細なドキュメント](../conflict-prioritization/channel-capping.md)を参照してください。
 
 * **コードベースのエクスペリエンス**
 
-   * 決定ポリシーをコードベースのエクスペリエンスコンテンツテンプレートで追加できるようになりました。このテンプレートを使用して、編集可能なフォームフィールドでオファーを活用できます。 [詳細情報](../code-based/code-based-form-fields.md)
+   * コードベースのエクスペリエンスコンテンツテンプレートで決定ポリシーを追加できるようになりました。これにより、編集可能なフォームフィールドでオファーを活用できます。[詳細情報](../code-based/code-based-form-fields.md)
 
-   * コードベースのエクスペリエンスジャーニーまたはキャンペーン編集画面から、パーソナライゼーションエディターを開くことなく、決定ポリシーを直接追加できるようになりました。 [詳細情報](../code-based/create-code-based.md#edit-code)
+   * コードベースのエクスペリエンスジャーニーまたはキャンペーン編集画面から、パーソナライゼーションエディターを開くことなく、決定ポリシーを直接追加できるようになりました。[詳細情報](../code-based/create-code-based.md#edit-code)
 
 * **E メールデザイナーのカスタム CSS のサポート**
 
-  Journey Optimizerで、メールDesigner内でメールコンテンツに直接カスタム CSS を追加できるようになりました。 [詳細情報](../email/custom-css.md)
+  Journey Optimizer では、E メールデザイナー内で直接、メールコンテンツにカスタム CSS を追加できるようになりました。[詳細情報](../email/custom-css.md)
 
 * **キャンペーン用の新しいタブ付きナビゲーション**
 
-  新しいナビゲーションパターンにより、コンテンツオーサリングにすばやくアクセスでき、キャンペーン全体でさらに設定を拡張できます。 [詳細情報](../campaigns/create-campaign.md)
+  新しいナビゲーションパターンにより、コンテンツのオーサリングにすばやくアクセスでき、キャンペーンをまたいだ設定のさらなる拡張がサポートされます。[詳細情報](../campaigns/create-campaign.md)
 
 * **決定**
 
-   * **サンドボックスのコピーと決定** （公開日：2025 年 6 月 3 日（PT）） – 決定オブジェクトをサンドボックス間でコピーできるようになり、テストおよびデプロイメントワークフローを合理化します。 [詳細情報](../configuration/copy-objects-to-sandbox.md#decisioning)
+   * **サンドボックスのコピーと決定**（公開日：2025年6月3日（PT））- 決定オブジェクトをサンドボックス間でコピーできるようになり、テストとデプロイメントのワークフローが効率化されます。[詳細情報](../configuration/copy-objects-to-sandbox.md#decisioning)
 
-   * **決定ルール用の決定項目属性のサポート** （公開日：2025 年 6 月 4 日（PT）） – 決定項目属性を活用して決定ルールを作成できるようになりました。 [詳細情報](../experience-decisioning/rules.md#create)
+   * **決定ルールの決定項目属性のサポート**（公開日：2025年6月4日（PT））- 決定項目属性を活用して決定ルールを作成できるようになりました。[詳細情報](../experience-decisioning/rules.md#create)
 
 * **インタラクティブメッセージ実行 API の更新** – リリース日：2025年6月6日（PT）
 
