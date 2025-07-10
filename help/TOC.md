@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 9324de79b7a1e787c3a23338c4292cd4ff2bb6df
 workflow-type: tm+mt
 source-wordcount: '2502'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -178,7 +178,7 @@ ht-degree: 96%
       + [ジャーニーのトラブルシューティング](using/building-journeys/gs-troubleshooting.md)
       + [ジャーニーエラーのトラブルシューティング](using/building-journeys/troubleshooting.md)
       + [ジャーニー実行のトラブルシューティング](using/building-journeys/troubleshooting-execution.md)
-      + [受信アクションのトラブルシューティング](using/building-journeys/troubleshooting-inbound.md)
+      + [インバウンドアクションのトラブルシューティング](using/building-journeys/troubleshooting-inbound.md)
       + [カスタムアクションのトラブルシューティング](using/action/troubleshoot-custom-action.md)
 + 調整されたキャンペーン {#orchestrated-campaigns}
    + [調整されたキャンペーンの基本を学ぶ](using/orchestrated/gs-orchestrated-campaigns.md)
@@ -195,7 +195,7 @@ ht-degree: 96%
       + [ルールビルダーの操作](using/orchestrated/orchestrated-rule-builder.md)
       + [最初のルールの作成](using/orchestrated/build-query.md)
       + [式の編集](using/orchestrated/edit-expressions.md)
-      + [ リターゲティング ](using/orchestrated/retarget.md)
+      + [リターゲティング](using/orchestrated/retarget.md)
    + 調整されたキャンペーンアクティビティ {#design-campaigns}
       + [アクティビティの概要](using/orchestrated/activities/about-activities.md)
       + [AND 結合](using/orchestrated/activities/and-join.md)
@@ -295,19 +295,19 @@ ht-degree: 96%
          + [プッシュ通知フロー](using/push/push-gs.md)
          + [プッシュ通知チャネルの設定](using/push/push-configuration.md)
          + [モバイルオンボーディングのクイックスタートワークフロー](using/push/mobile-onboarding-wf.md)
-   + SMS/MMS/RCS チャネル{#sms}
+   + SMS／MMS／RCS チャネル{#sms}
       + [テキストメッセージの基本を学ぶ](using/sms/get-started-sms.md)
-      + [SMS/MMS/RCS メッセージの作成](using/sms/create-sms.md)
+      + [SMS／MMS／RCS メッセージの作成](using/sms/create-sms.md)
       + [テキストメッセージの確認および送信](using/sms/send-sms.md)
       + [テキストメッセージのオプトアウトの管理](using/sms/sms-opt-out.md)
       + [SMS サブドメインの設定](using/sms/sms-subdomains.md)
-      + SMS/MMS/RCS チャネルの設定{#configure-sms}
+      + SMS／MMS／RCS チャネルの設定{#configure-sms}
          + [SMS／MMS／RCS 設定の基本を学ぶ](using/sms/sms-configuration.md)
          + [Sinch プロバイダーの設定](using/sms/sms-configuration-sinch.md)
          + [Infobip プロバイダーの設定](using/sms/sms-configuration-infobip.md)
          + [Twilio プロバイダーの設定](using/sms/sms-configuration-twilio.md)
          + [カスタムプロバイダーの設定](using/sms/sms-configuration-custom.md)
-         + [SMS/MMS/RCS 設定の作成](using/sms/sms-configuration-surface.md)
+         + [SMS／MMS／RCS 設定の作成](using/sms/sms-configuration-surface.md)
    + ダイレクトメール {#direct-mail}
       + [ダイレクトメールの基本を学ぶ](using/direct-mail/get-started-direct-mail.md)
       + [ダイレクトメールの作成](using/direct-mail/create-direct-mail.md)
@@ -566,7 +566,7 @@ ht-degree: 96%
             + [AI モデルの作成](using/experience-decisioning/ranking/create-ai-models.md)
       + Adobe Experience Platform データの使用 {#aep-data}
          + [コンテキストデータの活用](using/experience-decisioning/context-data.md)
-         + [Adobe Experience Platformを意思決定に使用する](using/experience-decisioning/aep-data-exd.md)
+         + [決定の Adobe Experience Platform の使用](using/experience-decisioning/aep-data-exd.md)
       + [選択戦略の作成](using/experience-decisioning/selection-strategies.md)
       + [決定ポリシーを作成](using/experience-decisioning/create-decision.md)
       + [決定に関するレポート](using/experience-decisioning/cja-reporting.md)
