@@ -7,9 +7,9 @@ badge: label="アルファ版"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 3bbbc09e05958579782e8e70974a241f1154d319
+source-git-commit: 8f32edf905ed80ca4a23d4b9afe2805c000dacef
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '498'
 ht-degree: 6%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 6%
 
 | 調整されたキャンペーンへようこそ | 最初の調整されたキャンペーンの開始 | データベースのクエリ | 調整されたキャンペーンアクティビティ |
 |---|---|---|---|
-| <b>[ オーケストレーションされたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)</b><br/><br/>[ 設定手順 ](configuration-steps.md)<br/><br/>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md)<br/><br/>[ オーケストレーションされたキャンペーンを作成するための主な手順 ](gs-campaign-creation.md) | [ キャンペーンの作成とスケジュール設定 ](create-orchestrated-campaign.md)<br/><br/>[ アクティビティのオーケストレーション ](orchestrate-activities.md)<br/><br/>[ キャンペーンの開始と監視 ](start-monitor-campaigns.md)<br/><br/>[ レポート ](reporting-campaigns.md) | [ ルールビルダーの操作 ](orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリの作成 ](build-query.md)<br/><br/>[ 式の編集 ](edit-expressions.md)<br/><br/>[ リターゲティング ](retarget.md) | [ アクティビティの基本を学ぶ ](activities/about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションの変更 ](activities/change-dimension.md) - [ チャネルアクティビティ ](activities/channels.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) [&#128279;](activities/save-audience.md) [&#128279;](activities/split.md) [&#128279;](activities/wait.md) - |
+| <b>[ オーケストレーションされたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)</b><br/><br/>[ 設定手順 ](configuration-steps.md)<br/><br/>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md)<br/><br/>[ オーケストレーションされたキャンペーンを作成するための主な手順 ](gs-campaign-creation.md) | [ キャンペーンの作成とスケジュール設定 ](create-orchestrated-campaign.md)<br/><br/>[ アクティビティのオーケストレーション ](orchestrate-activities.md)<br/><br/>[ キャンペーンの開始と監視 ](start-monitor-campaigns.md)<br/><br/>[ レポート ](reporting-campaigns.md) | [ ルールビルダーの操作 ](orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリの作成 ](build-query.md)<br/><br/>[ 式の編集 ](edit-expressions.md)<br/><br/>[ リターゲティング ](retarget.md) | [ アクティビティの基本を学ぶ ](activities/about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションの変更 ](activities/change-dimension.md) - [ チャネルアクティビティ ](activities/channels.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) [ ](activities/save-audience.md) [ ](activities/split.md) [ ](activities/wait.md) - |
 
 {style="table-layout:fixed"}
 
@@ -43,21 +43,16 @@ ht-degree: 6%
 
 キャンペーンオーケストレーションは、次の 4 つの主要な柱に基づいて構築されます。
 
-1. **オンデマンドオーディエンス**
-
-   データセットをまたいで即座にクエリを実行し、データタイプとディメンションの任意の組み合わせを使用してオーディエンスセグメントを作成します。
-
-1. **マルチエンティティのセグメント化と送信**
-
-   ユーザーベースのキャンペーンに留まらず、製品カタログ、店舗の場所、サービスデータなどのエンティティを使用して、正確にターゲットを設定します。
-
-1. **送信前の可視性と精度**
-
-   ローンチ前に、正確なセグメント化数と完全なキャンペーン範囲を把握し、精度と信頼性を確保します。
-
-1. **複数ステップのキャンペーンワークフロー**
-
-   毎日のメッセージから、季節的なプロモーションや主要な製品の発売などの複雑なキャンペーンまで、複数手順のキャンペーンを設計します。
+<table>
+<tr style="border: 0;">
+<td><img alt="オンデマンドオーディエンス" src="assets/do-not-localize/icon-audience.svg"></a></td><td><b> オンデマンドオーディエンス </b><br/> データセット間で即座にクエリを実行し、データタイプとディメンションの任意の組み合わせを使用してオーディエンスセグメントを作成します。</td></tr>
+<tr style="border: 0;">
+<td><img alt="マルチエンティティのセグメント化と送信" src="assets/do-not-localize/icon-audience.svg"></a></td><td><b> マルチエンティティのセグメント化と送信 </b><br/> ユーザーベースのキャンペーンを超えて、製品カタログ、店舗の場所、サービスデータなどのエンティティを使用して、正確にターゲットを設定します。</td></tr>
+<tr style="border: 0;">
+<td><img alt="送信前の可視性と精度" src="assets/do-not-localize/icon-audience.svg"></a></td><td><b> 事前送信の可視性と精度 </b><br/> ローンチ前に正確なセグメント化数と完全なキャンペーン範囲を取得し、精度と信頼性を確保します。</td></tr>
+<tr style="border: 0;">
+<td><img alt="複数ステップのキャンペーンワークフロー" src="assets/do-not-localize/icon-audience.svg"></a></td><td><b> 複数手順のキャンペーンワークフロー </b><br/> 毎日のメッセージから、季節的なプロモーションや主要な製品の発売などの複雑なキャンペーンまで、複数手順のキャンペーンを設計します。</td></tr>
+</table>
 
 ## 調整されたキャンペーンとジャーニー
 
