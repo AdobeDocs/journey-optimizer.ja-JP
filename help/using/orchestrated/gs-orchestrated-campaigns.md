@@ -7,10 +7,10 @@ badge: label="アルファ版"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 8f32edf905ed80ca4a23d4b9afe2805c000dacef
+source-git-commit: e6944928e40b471a86085c126ff678002357e66c
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 6%
+source-wordcount: '453'
+ht-degree: 7%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 6%
 
 | 調整されたキャンペーンへようこそ | 最初の調整されたキャンペーンの開始 | データベースのクエリ | 調整されたキャンペーンアクティビティ |
 |---|---|---|---|
-| <b>[ オーケストレーションされたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)</b><br/><br/>[ 設定手順 ](configuration-steps.md)<br/><br/>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md)<br/><br/>[ オーケストレーションされたキャンペーンを作成するための主な手順 ](gs-campaign-creation.md) | [ キャンペーンの作成とスケジュール設定 ](create-orchestrated-campaign.md)<br/><br/>[ アクティビティのオーケストレーション ](orchestrate-activities.md)<br/><br/>[ キャンペーンの開始と監視 ](start-monitor-campaigns.md)<br/><br/>[ レポート ](reporting-campaigns.md) | [ ルールビルダーの操作 ](orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリの作成 ](build-query.md)<br/><br/>[ 式の編集 ](edit-expressions.md)<br/><br/>[ リターゲティング ](retarget.md) | [ アクティビティの基本を学ぶ ](activities/about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションの変更 ](activities/change-dimension.md) - [ チャネルアクティビティ ](activities/channels.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) [&#128279;](activities/save-audience.md) [&#128279;](activities/split.md) [&#128279;](activities/wait.md) - |
+| <b>[ オーケストレーションされたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)</b><br/><br/>[ 設定手順 ](configuration-steps.md)<br/><br/>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md)<br/><br/>[ オーケストレーションされたキャンペーンを作成するための主な手順 ](gs-campaign-creation.md) | [ キャンペーンの作成とスケジュール設定 ](create-orchestrated-campaign.md)<br/><br/>[ アクティビティのオーケストレーション ](orchestrate-activities.md)<br/><br/>[ キャンペーンの開始と監視 ](start-monitor-campaigns.md)<br/><br/>[ レポート ](reporting-campaigns.md) | [ ルールビルダーの操作 ](orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリの作成 ](build-query.md)<br/><br/>[ 式の編集 ](edit-expressions.md)<br/><br/>[ リターゲティング ](retarget.md) | [ アクティビティの基本を学ぶ ](activities/about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションの変更 ](activities/change-dimension.md) - [ チャネルアクティビティ ](activities/channels.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) [ ](activities/save-audience.md) [ ](activities/split.md) [ ](activities/wait.md) - |
 
 {style="table-layout:fixed"}
 
@@ -32,26 +32,19 @@ ht-degree: 6%
 
 クロスチャネルマーケティングは必須ですが、調整されたキャンペーンにより、シームレスに行うことができます。 視覚的なドラッグ&amp;ドロップインターフェイスを使用すると、複数のチャネルをまたいで、セグメント化からメッセージ配信に至る複雑なマーケティングワークフローをデザインして自動化できます。 すべてが、速度、制御、効率のために構築された、1 つの直感的な環境で行われます。
 
-このモジュールでは **バッチキャンペーンオーケストレーション** が [!DNL Journey Optimizer] 能し、次のことが可能になります。
-
-* **複数手順のキャンペーン** （季節的なプロモーション、新製品の発売など）を作成して実行する場合
-* あらゆるチャネルにわたって **パーソナライズされた一貫性のあるメッセージ** を配信します。
-* **セグメント化、ファイル処理、タスク管理** を 1 か所で調整
-* 承認とタスク割り当てを通じて共同作業を強化
-
 ## コア機能
 
 キャンペーンオーケストレーションは、次の 4 つの主要な柱に基づいて構築されます。
 
-<table>
+<table style="table-layout:fixed">
 <tr style="border: 0;">
-<td><img alt="オンデマンドオーディエンス" src="assets/do-not-localize/icon-audience.svg"></a></td><td><b> オンデマンドオーディエンス </b><br/> データセット間で即座にクエリを実行し、データタイプとディメンションの任意の組み合わせを使用してオーディエンスセグメントを作成します。</td></tr>
+<td><img alt="オンデマンドオーディエンス" src="assets/do-not-localize/icon-audience.svg" width="50px"></a></td><td><b> オンデマンドオーディエンス </b><br/> データセット間で即座にクエリを実行し、データタイプとディメンションの任意の組み合わせを使用してオーディエンスセグメントを作成します。</td></tr>
 <tr style="border: 0;">
-<td><img alt="マルチエンティティのセグメント化と送信" src="assets/do-not-localize/icon-audience.svg"></a></td><td><b> マルチエンティティのセグメント化と送信 </b><br/> ユーザーベースのキャンペーンを超えて、製品カタログ、店舗の場所、サービスデータなどのエンティティを使用して、正確にターゲットを設定します。</td></tr>
+<td><img alt="マルチエンティティのセグメント化と送信" src="assets/do-not-localize/icon-entity.svg" width="50px"></a></td><td><b> マルチエンティティのセグメント化と送信 </b><br/> ユーザーベースのキャンペーンを超えて、製品カタログ、店舗の場所、サービスデータなどのエンティティを使用して、正確にターゲットを設定します。</td></tr>
 <tr style="border: 0;">
-<td><img alt="送信前の可視性と精度" src="assets/do-not-localize/icon-audience.svg"></a></td><td><b> 事前送信の可視性と精度 </b><br/> ローンチ前に正確なセグメント化数と完全なキャンペーン範囲を取得し、精度と信頼性を確保します。</td></tr>
+<td><img alt="送信前の可視性と精度" src="assets/do-not-localize/icon-visibility.svg" width="50px"></a></td><td><b> 事前送信の可視性と精度 </b><br/> ローンチ前に正確なセグメント化数と完全なキャンペーン範囲を取得し、精度と信頼性を確保します。</td></tr>
 <tr style="border: 0;">
-<td><img alt="複数ステップのキャンペーンワークフロー" src="assets/do-not-localize/icon-audience.svg"></a></td><td><b> 複数手順のキャンペーンワークフロー </b><br/> 毎日のメッセージから、季節的なプロモーションや主要な製品の発売などの複雑なキャンペーンまで、複数手順のキャンペーンを設計します。</td></tr>
+<td><img alt="複数ステップのキャンペーンワークフロー" src="assets/do-not-localize/icon-multistep.svg" width="50px"></a></td><td><b> 複数手順のキャンペーンワークフロー </b><br/> 毎日のメッセージから、季節的なプロモーションや主要な製品の発売などの複雑なキャンペーンまで、複数手順のキャンペーンを設計します。</td></tr>
 </table>
 
 ## 調整されたキャンペーンとジャーニー
