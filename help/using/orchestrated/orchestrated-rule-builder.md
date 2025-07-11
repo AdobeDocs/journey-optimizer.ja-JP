@@ -7,10 +7,10 @@ badge: label="アルファ版"
 hide: true
 hidefromtoc: true
 exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
-source-git-commit: a19fe429d34a88c6159ab3b2b4dfa3768bcd24ad
+source-git-commit: 779c90f0be57749a63da103d18cc642106c5f837
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 16%
+source-wordcount: '392'
+ht-degree: 22%
 
 ---
 
@@ -21,13 +21,19 @@ ht-degree: 16%
 
 | 調整されたキャンペーンへようこそ | 最初の調整されたキャンペーンの開始 | データベースのクエリ | 調整されたキャンペーンアクティビティ |
 |---|---|---|---|
-| [ オーケストレーションされたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)<br/><br/>[ 設定手順 ](configuration-steps.md)<br/><br/>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md)<br/><br/>[ オーケストレーションされたキャンペーンを作成するための主な手順 ](gs-campaign-creation.md) | [ キャンペーンの作成とスケジュール設定 ](create-orchestrated-campaign.md)<br/><br/>[ アクティビティのオーケストレーション ](orchestrate-activities.md)<br/><br/>[ キャンペーンの開始と監視 ](start-monitor-campaigns.md)<br/><br/>[ レポート ](reporting-campaigns.md) | <b>[ ルールビルダーの操作 ](orchestrated-rule-builder.md)</b><br/><br/>[ 最初のクエリの作成 ](build-query.md)<br/><br/>[ 式の編集 ](edit-expressions.md)<br/><br/>[ リターゲティング ](retarget.md) | [ アクティビティの基本を学ぶ ](activities/about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションの変更 ](activities/change-dimension.md) - [ チャネルアクティビティ ](activities/channels.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) [&#128279;](activities/save-audience.md) [&#128279;](activities/split.md) [&#128279;](activities/wait.md) - |
+| [ オーケストレーションされたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)<br/><br/>[ 設定手順 ](configuration-steps.md)<br/><br/>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md)<br/><br/>[ オーケストレーションされたキャンペーンを作成するための主な手順 ](gs-campaign-creation.md) | [ キャンペーンの作成とスケジュール設定 ](create-orchestrated-campaign.md)<br/><br/>[ アクティビティのオーケストレーション ](orchestrate-activities.md)<br/><br/>[ キャンペーンの開始と監視 ](start-monitor-campaigns.md)<br/><br/>[ レポート ](reporting-campaigns.md) | <b>[ ルールビルダーの操作 ](orchestrated-rule-builder.md)</b><br/><br/>[ 最初のクエリの作成 ](build-query.md)<br/><br/>[ 式の編集 ](edit-expressions.md)<br/><br/>[ リターゲティング ](retarget.md) | [ アクティビティの基本を学ぶ ](activities/about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションの変更 ](activities/change-dimension.md) - [ チャネルアクティビティ ](activities/channels.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) [ ](activities/save-audience.md) [ ](activities/split.md) [ ](activities/wait.md) - |
 
 {style="table-layout:fixed"}
 
 +++
 
 <br/>
+
+>[!BEGINSHADEBOX]
+
+ドキュメントを処理中
+
+>[!ENDSHADEBOX]
 
 オーケストレートキャンペーンには、様々な条件に基づいてデータベースをフィルタリングするプロセスを簡素化するルールビルダーが付属しています。 ルールビルダーは、非常に複雑で長いクエリを効率的に管理し、柔軟性と精度を向上させます。
 
@@ -39,9 +45,9 @@ ht-degree: 16%
 
 | 用途 | 例 |
 |  ---  |  ---  |
-| **オーディエンスの作成**:**[!UICONTROL オーディエンスの作成]** アクティビティを使用して、オーケストレーションされたキャンペーンでターゲットにする母集団を指定し、ニーズに合わせて新しいオーディエンスを簡単に作成します。 [詳しくは、オーディエンスの作成方法を参照してください。](../orchestrated/activities/build-audience.md) | ![ オーディエンス作成インターフェイスへのアクセス方法を示す画像 ](assets/query-access-audience.png){width="200" align="center" zoomable="yes"} |
-| **キャンペーンキャンバスでの条件の作成**:**[!UICONTROL 分割]** アクティビティを使用して、キャンペーンキャンバス内でルールを適用し、特定の要件に合わせます。 [ 分割アクティビティの使用方法を学ぶ ](../orchestrated/activities/split.md) | ![ ワークフローのカスタマイズオプションへのアクセス方法を示す画像 ](assets/query-access-split.png){width="200" align="center" zoomable="yes"} |
-| **詳細フィルターの作成**：ワークフローログやターゲティングディメンションなどのリストに表示されるデータをフィルタリングするルールを作成します。 | ![ リストフィルターのカスタマイズ方法を示す画像 ](assets/query-access-advanced-filters.png){width="200" align="center" zoomable="yes"} |
+| **オーディエンスの作成**:**[!UICONTROL オーディエンスの作成]** アクティビティを使用して、オーケストレーションされたキャンペーンでターゲットにする母集団を指定し、ニーズに合わせて新しいオーディエンスを簡単に作成します。 [詳しくは、オーディエンスの作成方法を参照してください。](../orchestrated/activities/build-audience.md) | ![オーディエンス作成インターフェイスへのアクセス方法を示す画像](assets/query-access-audience.png){width="200" align="center" zoomable="yes"} |
+| **キャンペーンキャンバスでの条件の作成**:**[!UICONTROL 分割]** アクティビティを使用して、キャンペーンキャンバス内でルールを適用し、特定の要件に合わせます。 [ 分割アクティビティの使用方法を学ぶ ](../orchestrated/activities/split.md) | ![ワークフローのカスタマイズオプションへのアクセス方法を示す画像](assets/query-access-split.png){width="200" align="center" zoomable="yes"} |
+| **詳細フィルターの作成**：ワークフローログやターゲティングディメンションなどのリストに表示されるデータをフィルタリングするルールを作成します。 | ![リストフィルターのカスタマイズ方法を示す画像](assets/query-access-advanced-filters.png){width="200" align="center" zoomable="yes"} |
 
 ## ルールビルダーインターフェイス {#interface}
 
