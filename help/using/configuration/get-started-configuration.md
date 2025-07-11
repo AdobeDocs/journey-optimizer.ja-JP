@@ -9,18 +9,22 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: 設定,メッセージ,チャネル,サンドボックス,Optimizer
-source-git-commit: 6109c9176c160c2c0b1eafa06b855ebaf285e3ee
-workflow-type: ht
-source-wordcount: '295'
-ht-degree: 100%
+source-git-commit: 21e2ea3e6a72d2a0eb0338df5665282d814501ac
+workflow-type: tm+mt
+source-wordcount: '303'
+ht-degree: 97%
 
 ---
 
 
 # チャネル設定の基本を学ぶ {#start-optimizer-configuration}
 
-[!DNL Journey Optimizer] に初めてアクセスすると、実稼動サンドボックスがプロビジョニングされ、契約に応じて一定数の IP が割り当てられます。
+>[!CONTEXTUALHELP]
+>id="ajo_channels_rate_controls"
+>title="チャネルのレートコントロール"
+>abstract="チャネルのレートコントロール"
 
+[!DNL Journey Optimizer] に初めてアクセスすると、実稼動サンドボックスがプロビジョニングされ、契約に応じて一定数の IP が割り当てられます。
 
 メッセージを送信するには、次の設定手順を実行する必要があります。
 

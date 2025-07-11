@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 作成, Optimizer, キャンペーン, サーフェス, メッセージ
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: ht
-source-wordcount: '1277'
-ht-degree: 100%
+source-git-commit: 21e2ea3e6a72d2a0eb0338df5665282d814501ac
+workflow-type: tm+mt
+source-wordcount: '1283'
+ht-degree: 99%
 
 ---
 
@@ -158,6 +158,11 @@ ht-degree: 100%
 >id="ajo_campaigns_schedule_triggers"
 >title="キャンペーンのアクショントリガー"
 >abstract="キャンペーンのメッセージを送信する頻度を定義します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_throttling"
+>title="スロットルレート制御"
+>abstract="スロットルレート制御"
 
 デフォルトでは、スケジュール済みキャンペーンは手動でアクティブ化した後に開始され、メッセージが 1 回送信された直後に終了します。
 
