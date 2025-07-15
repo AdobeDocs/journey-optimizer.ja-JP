@@ -72,7 +72,7 @@ Adobe Journey Optimizer では、SMS サービスプロバイダー（または 
 
   >[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
-+++
+  +++
 
 * 次のビデオは、Adobe Journey Optimizer がマーケターに提供するモバイル機能をより詳細に理解するのに役立ちます。
 
@@ -81,7 +81,7 @@ Adobe Journey Optimizer では、SMS サービスプロバイダー（または 
 
   >[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
-+++
+  +++
 
 * 次のビデオは、カスタム SMS プロバイダーを使用して、Adobe Journey Optimizerでブランド化されたインタラクティブな RCS メッセージを設定し、送信するのに役立ちます。
 
@@ -90,4 +90,4 @@ Adobe Journey Optimizer では、SMS サービスプロバイダー（または 
 
   >[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
-+++
+  +++
