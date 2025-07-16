@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '371'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 89%
 >title="SMS ベンダー設定の選択"
 >abstract="SMS ベンダーに設定する API 資格情報を選択します。"
 
-SMS、MMS、RCS を送信する前に、Adobe Journey Optimizer環境を設定する必要があります。 これを実行するには、次の手順を実行します。
+SMS、MMS または RCS を送信する前に、Adobe Journey Optimizer 環境を設定する必要があります。これを実行するには、次の手順を実行します。
 
 1. Journey Optimizer とプロバイダー設定を統合します。
 手順は、SMS プロバイダーによって異なります。詳細なドキュメントにアクセスするには、以下のリンクを参照してください。
@@ -51,7 +51,7 @@ SMS、MMS、RCS を送信する前に、Adobe Journey Optimizer環境を設定�
 
 ## 前提条件{#sms-prerequisites}
 
-Adobe Journey Optimizer は現在、Adobe Journey Optimizer とは独立してテキストメッセージングサービスを提供する、サードパーティプロバイダーと統合されています。テキストメッセージおよび MMS でサポートされるプロバイダーは、**Sinch**、**Twilio** および **Infobip** です。 [ カスタムプロバイダー設定 ](sms-configuration-custom.md) を使用して、追加のメッセージプロバイダーを設定できます。
+Adobe Journey Optimizer は現在、Adobe Journey Optimizer とは独立してテキストメッセージングサービスを提供する、サードパーティプロバイダーと統合されています。テキストメッセージと MMS でサポートされているプロバイダーは、**Sinch**、**Twilio** および **Infobip** です。[カスタムプロバイダー設定](sms-configuration-custom.md)を使用して、追加のメッセージプロバイダーを設定できます。
 
 SMS チャネルを設定する前に、こうしたいずれかのプロバイダーのアカウントを作成して、Adobe Journey Optimizer と該当するプロバイダー間の接続を設定するために必要な **API トークン**&#x200B;と&#x200B;**サービス ID** を取得する必要があります。
 

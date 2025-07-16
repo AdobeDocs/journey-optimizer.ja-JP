@@ -10,9 +10,9 @@ hide: true
 hidefromtoc: true
 exl-id: 96c1326f-be40-4738-8997-a67dc14872bb
 source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '255'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -53,9 +53,9 @@ ht-degree: 85%
 
 >[!NOTE]
 >
->スキーマの構築について詳しくは、[ スキーマ構成の基本 ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ja#understanding-schemas){target="_blank"} を参照してください。
+>スキーマの作成について詳しくは、[スキーマ構成の基本](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ja#understanding-schemas){target="_blank"}を参照してください。
 
-これで、このスキーマを使用してデータセットを作成する準備が整いました。 これを行うには、以下の手順に従います。
+これで、このスキーマを使用してデータセットを作成する準備が整いました。これを行うには、以下の手順に従います。
 
 1. **[!UICONTROL データ管理]**&#x200B;メニューで「**[!UICONTROL データセット]**」を選択し、「**[!UICONTROL 参照]**」タブに移動します。
 
@@ -71,4 +71,4 @@ ht-degree: 85%
 
 >[!NOTE]
 >
->これで、[AI モデル ](../ranking/create-ai-models.md) の作成時に、イベントデータを収集するデータセットを選択できる状態になりました。
+>このデータセットは、[AI モデル](../ranking/create-ai-models.md)の作成時にイベントデータを収集するのに選択できるようになりました。

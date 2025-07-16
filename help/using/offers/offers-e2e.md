@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
 source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1101'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 99%
 
 オファーの作成を開始する前に、オファーで使用する複数のコンポーネントを定義する必要があります。
 
-これらは、**[!UICONTROL 意思決定管理]**／**[!UICONTROL コンポーネントメニュー]**&#x200B;の下に表示されます。
+これらは、**[!UICONTROL 意思決定管理]**／**[!UICONTROL コンポーネントメニュー]**の下に表示されます。
 
 
 1. 最初に、オファーの&#x200B;**プレースメント**&#x200B;を作成します。

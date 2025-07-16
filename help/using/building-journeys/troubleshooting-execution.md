@@ -1,27 +1,27 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: ライブジャーニーの実行のトラブルシューティング
-description: ライブジャーニーの実行でのエラーのトラブルシューティング方法を説明します
+title: ライブジャーニー実行のトラブルシューティング
+description: ライブジャーニー実行でのエラーのトラブルシューティング方法について説明します
 feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
 keywords: トラブルシューティング, ジャーニー, チェック, エラー
 source-git-commit: 61498b61f7f05e0553fe575c980fd1bee08500a3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '702'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
-# ライブジャーニーの実行のトラブルシューティング {#troubleshooting-execution}
+# ライブジャーニー実行のトラブルシューティング {#troubleshooting-execution}
 
-この節では、ジャーニーイベントのトラブルシューティング方法、プロファイルがジャーニーにエントリしたかどうか、ジャーニー内を移動する方法、メッセージが送信されたかどうかを確認する方法について説明します。
+この節では、ジャーニーイベントのトラブルシューティングを行う方法と、プロファイルがジャーニーにエントリしたかどうか、プロファイルがジャーニーをどのように移動したか、メッセージが送信されたかどうかを確認する方法について説明します。
 
-ジャーニーをテストまたは公開する前にエラーのトラブルシューティングを行うこともできます。 方法については [ このページを参照 ](troubleshooting.md)。
+また、ジャーニーをテストまたは公開する前に、エラーのトラブルシューティングを行うこともできます。方法について詳しくは、[このページ](troubleshooting.md)を参照してください。
 
-インバウンドアクションを使用している場合は、そのトラブルシューティング方法を [ このページ ](troubleshooting-inbound.md) で確認してください。
+インバウンドアクションを使用している場合、トラブルシューティングを行う方法について詳しくは、[このページ](troubleshooting-inbound.md)を参照してください。
 
 ## イベントが適切に送信されているかを確認 {#checking-that-events-are-properly-sent}
 
@@ -29,7 +29,7 @@ ht-degree: 78%
 
 これらのツールを介して送信する API 呼び出しが正しく送信されているかどうかを確認できます。エラーが返された場合は、呼び出しに問題があるということです。ペイロード、ヘッダー（特に組織 ID）、宛先の URL を再度確認します。ヒットするのに適した URL を管理者に問い合わせることができます。
 
-イベントは、ソースからジャーニーに直接プッシュされるわけではありません。ジャーニーは、Adobe Experience Platform のストリーミング取得 API に依存しています。結果として、イベントに関する問題が発生した場合は、[Adobe Experience Platformのドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=ja){target="_blank"} でストリーミング取得 API のトラブルシューティングを参照してください。
+イベントは、ソースからジャーニーに直接プッシュされるわけではありません。ジャーニーは、Adobe Experience Platform のストリーミング取得 API に依存しています。結果として、イベントに関する問題が発生した場合は、[Adobe Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=ja){target="_blank"}で Streaming ingestion API のトラブルシューティングを参照してください。
 
 ジャーニーでエラー `ERR_MODEL_RULES_16` が発生してテストモードを有効にできない場合は、チャネルアクションを使用する際に、使用するイベントに [ID 名前空間](../audience/get-started-identity.md)が含まれていることを確認してください。
 
@@ -37,9 +37,9 @@ ID 名前空間は、テストプロファイルを一意に識別するため�
 
 ## ジャーニーへのエントリを確認 {#checking-if-people-enter-the-journey}
 
-ジャーニー レポートでは、ジャーニーへのエントリをリアルタイムで測定します。
+ジャーニーレポートでは、ジャーニーへのエントリをリアルタイムで測定します。
 
-イベントが正常に送信されたにもかかわらず、ジャーニーへのエントリが確認できない場合は、ジャーニーのイベント送信とイベント受信の間に何か問題があることになります。
+イベントが正常に送信されたにもかかわらず、ジャーニーへのエントリが確認できない場合、ジャーニーのイベント送信とイベント受信の間に何か問題があるということです。
 
 次の質問に従って、トラブルシューティングを開始できます。
 

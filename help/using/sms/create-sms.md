@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1069'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 93%
 >title="テキストメッセージの作成"
 >abstract="テキストメッセージ（SMS／MMS／RCS）を作成するには、ジャーニーまたはキャンペーンに SMS アクションを追加し、パーソナライゼーションエディターでパーソナライゼーションを開始します。"
 
-Adobe Journey Optimizerを使用して、テキスト（SMS）、リッチコミュニケーション（RCS）、マルチメディア（MMS）メッセージをデザインして送信できます。 まず、ジャーニーまたはキャンペーンに SMS アクションを追加し、次に、以下に説明するように、テキストメッセージのコンテンツを定義する必要があります。また、Adobe Journey Optimizer には、送信前にテキストメッセージをテストする機能も用意されているので、レンダリング、パーソナライゼーション属性、その他すべての設定を確認できます。
+Adobe Journey Optimizer を使用して、テキスト（SMS）、リッチ通信（RCS）およびマルチメディア（MMS）メッセージををデザインして送信できます。まず、ジャーニーまたはキャンペーンに SMS アクションを追加し、次に、以下に説明するように、テキストメッセージのコンテンツを定義する必要があります。また、Adobe Journey Optimizer には、送信前にテキストメッセージをテストする機能も用意されているので、レンダリング、パーソナライゼーション属性、その他すべての設定を確認できます。
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ Adobe Journey Optimizerを使用して、テキスト（SMS）、リッチコミ
 
 ## テキストメッセージの追加 {#create-sms-journey-campaign}
 
-キャンペーンまたはジャーニーにテキストメッセージ（SMS/MMS/RCS）を追加する方法については、以下のタブを参照してください。
+キャンペーンまたはジャーニーにテキストメッセージ（SMS／MMS／RCS）を追加する方法について詳しくは、以下のタブを参照してください。
 
 >[!BEGINTABS]
 
@@ -97,13 +97,13 @@ Adobe Journey Optimizerを使用して、テキスト（SMS）、リッチコミ
 >title="SMS コンテンツの定義"
 >abstract="パーソナライゼーションエディターを使用してコンテンツを定義し、動的要素を組み込むことで、テキストメッセージ（SMS／MMS／RCS）をカスタマイズおよびパーソナライズします。"
 
-メッセージコンテンツを設定するには、次の手順に従います。 MMS の設定について詳しくは、[この節](#mms-content)を参照してください。
+メッセージコンテンツを設定するには、次の手順に従います。MMS の設定について詳しくは、[この節](#mms-content)を参照してください。
 
 1. ジャーニーまたはキャンペーンの設定画面で、「**[!UICONTROL コンテンツを編集]**」ボタンをクリックして、テキストメッセージのコンテンツを設定します。
 
 1. 「**[!UICONTROL メッセージ]**」フィールドをクリックして、パーソナライゼーションエディターを開きます。
 
-   Infobip、Twilio、またはその他のサードパーティプロバイダーを使用した RCS メッセージの場合は、必要な JSON ペイロードをカスタム SMS 設定 [ に貼り付け ](sms-configuration-custom.md#api-credential) す。
+   Infobip、Twilio またはその他のサードパーティプロバイダーを使用した RCS メッセージの場合は、必要な JSON ペイロードを[カスタム SMS 設定](sms-configuration-custom.md#api-credential)にペーストします。
 
    ![](assets/sms-content.png)
 

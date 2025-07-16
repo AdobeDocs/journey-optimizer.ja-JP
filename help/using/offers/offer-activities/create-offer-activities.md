@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2511'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 99%
 
 決定とは、配信ターゲットに応じて提供すべき最適なオファーを選択するために、オファー決定エンジンを利用するオファーのコンテナです。
 
-➡️ [ オファーアクティビティの作成方法については、このビデオを参照してください ](#video)
+➡️ [オファーアクティビティを作成する方法について詳しくは、このビデオを参照してください。](#video)
 
 **[!UICONTROL オファー]**&#x200B;メニューの「**[!UICONTROL 決定]**」タブに決定が一覧表示されます。フィルターは、ステータスや開始日、終了日に応じて決定を取得するのに役立ちます。
 
@@ -401,6 +401,6 @@ ht-degree: 99%
 
 意思決定管理でオファーアクティビティを作成する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/346695?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 
 

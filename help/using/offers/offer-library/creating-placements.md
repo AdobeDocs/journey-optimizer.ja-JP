@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
 source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '630'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 98%
 
 プレースメントを使用すると、メッセージ内の適切な場所に適切なオファーコンテンツが表示されます。オファーにコンテンツを追加すると、そのコンテンツを表示できるプレースメントを選択するように求められます。
 
-➡️[ プレースメントの作成方法については、このビデオを参照してください ](#video)
+➡️ [プレースメントの作成方法について詳しくは、このビデオを参照してください。](#video)
 
 下の例では、異なるタイプのコンテンツ（画像、テキスト、HTML）に対応する 3 つのプレースメントがあります。
 
@@ -86,5 +86,5 @@ ht-degree: 98%
 
 意思決定管理でプレースメントを作成する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/341388?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/329372?quality=12)
 

@@ -10,9 +10,9 @@ level: Intermediate
 keywords: プロファイル, 更新, ジャーニー, アクティビティ
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
 source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '629'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 95%
 * 他のアクションのように、エラーやタイムアウトの場合の代替パスを定義できます。また、2 つのアクションを並行して配置することはできません。
 * Adobe Experience Platform に送信される更新リクエストは、即時もしくは 1 秒以内です。通常は数秒かかりますが、もっと時間がかかる場合もあり、保証はありません。そのため、例えば、アクションが、その直前に配置された「**プロファイルを更新**」アクションによって更新された「フィールド 1」を使用している場合、「フィールド 1」がアクションで更新されるとは限りません。
 * **プロファイルを更新**&#x200B;アクティビティは、列挙または推奨値として定義された XDM フィールドをサポートしていません。
-* **[!UICONTROL プロファイルを更新]** アクティビティは、[ プロファイルストア ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja#profile-data-store){target="_blank"} のみを更新し、データレイクは更新しません。
+* **[!UICONTROL プロファイルを更新]**&#x200B;アクティビティでは、[プロファイルストア](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja#profile-data-store){target="_blank"}のみが更新され、データレイクは更新されません。
 
 ## データセットの選択 {#dataset-selection}
 
@@ -67,7 +67,7 @@ ht-degree: 95%
 
      ![](assets/profileupdate4.png)
 
-   * 特定の値を定義する場合や高度な機能を利用する場合は、「**詳細設定モード**」を選択します。
+   * 特定の値を定義する場合や高度な機能を活用する場合は、「**詳細設定モード**」を選択します。
 
      ![](assets/profileupdate3.png)
 

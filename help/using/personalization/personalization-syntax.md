@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 式, エディター, 構文, パーソナライゼーション
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '572'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 95%
 
 * **プロファイル**
 
-  この名前空間を使用すると、プロファイルスキーマで定義されているすべての属性を参照できます。このスキーマについては、[Adobe Experience Platform データモデル（XDM）のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target="_blank"}で説明されています。
+  この名前空間を使用すると、プロファイルスキーマで定義されているすべての属性を参照できます。このスキーマについて詳しくは、[Adobe Experience Platform データモデル（XDM）のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target="_blank"}を参照してください。
 
   属性は、[!DNL Journey Optimizer] のパーソナライゼーションブロックで参照する前に、スキーマで定義しておく必要があります。
 
@@ -69,11 +69,11 @@ ht-degree: 95%
    * `{{profile.homeAddress.city}}`
    * `{{profile.faxPhone.number}}`
 
-  +++
++++
 
 * **オーディエンス**
 
-  セグメント化サービスについて詳しくは、[ このドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja){target="_blank"} を参照してください。
+  セグメント化サービスについて詳しくは、[このドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja){target="_blank"}を参照してください。
 
 * **オファー**
 
@@ -112,7 +112,7 @@ ht-degree: 95%
 
      `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
-  +++
++++
 
 ## ヘルパー{#helpers-all}
 

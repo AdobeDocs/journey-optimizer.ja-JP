@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
 source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '869'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -139,7 +139,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->**[!UICONTROL ランキング戦略]** テーブルは、[AI モデル ](../experience-decisioning/ranking/ai-models.md) がキャンペーンに組み込まれた場合にのみ使用できるようになります。<!--[Learn more](../experience-decisioning/ranking/ranking-formulas.md)-->
+>**[!UICONTROL ランキング戦略]**&#x200B;の表は、[AI モデル](../experience-decisioning/ranking/ai-models.md)がキャンペーンに組み込まれた場合にのみ使用できるようになります。<!--[Learn more](../experience-decisioning/ranking/ranking-formulas.md)-->
 
 ![](assets/cja-decision-ranking-strategy.png)
 
@@ -161,7 +161,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->**[!UICONTROL 除外とモデル主導トラフィックのコンバージョン率]** グラフは、[AI モデル ](../experience-decisioning/ranking/ai-models.md) がキャンペーンに組み込まれた場合にのみ使用できます。<!--[Learn more](../experience-decisioning/ranking/ranking-formulas.md)-->
+>**[!UICONTROL ホールドアウトとモデル駆動型トラフィックのコンバージョン率]**&#x200B;のグラフは、[AI モデル](../experience-decisioning/ranking/ai-models.md)がキャンペーンに組み込まれた場合にのみ使用できるようになります。<!--[Learn more](../experience-decisioning/ranking/ranking-formulas.md)-->
 
 ![](assets/cja-decisioning-conversion.png)
 

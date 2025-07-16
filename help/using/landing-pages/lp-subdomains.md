@@ -9,9 +9,9 @@ level: Experienced
 keywords: ランディング, ランディングページ, サブドメイン, 設定
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '971'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 86%
 
    >[!CAUTION]
    >
-   >`cdn` または `data` のプレフィックスは内部使用のために予約されているので、使用しないでください。 `dmarc` や `spf` など、制限または予約済みの他のプレフィックスも避ける必要があります。
+   >`cdn` プレフィックスまたは `data` プレフィックスは内部使用に予約されているので、使用しないでください。`dmarc` や `spf` など、他の制限または予約済みのプレフィックスも回避する必要があります。
 
 1. リストからデリゲートされたサブドメインを選択します。
 
@@ -139,16 +139,16 @@ ht-degree: 86%
 
 ## サブドメインのデリゲート解除 {#undelegate-subdomain}
 
-ランディングページのサブドメインのデリゲートを解除するには、次の手順に従います。
+ランディングページサブドメインをデリゲート解除する場合は、次の手順に従います。
 
-1. [!DNL Journey Optimizer] では、サブドメインに関連付けられているすべてのランディングページを非公開にします。 [方法についてはこちらを参照](create-lp.md#access-landing-pages)
+1. [!DNL Journey Optimizer] で、サブドメインに関連付けられているすべてのランディングページを非公開にします。[詳細情報](create-lp.md#access-landing-pages)
 
-1. ランディングページサブドメインが CNAME レコードを指している場合、ランディングページサブドメイン用に作成した CNAME DNS レコードをホスティングソリューションから削除できます（ただし、元のメールサブドメインがある場合は削除しないでください）。
+1. ランディングページサブドメインが CNAME レコードを指している場合は、ランディングページサブドメイン用に作成した CNAME DNS レコードをホスティングソリューションから削除できます（ただし、元のメールサブドメインがある場合は削除しないでください）。
 
    >[!NOTE]
    >
-   >ランディングページのサブドメインは、CNAME レコードを指すことができます。これは、[ 既存のサブドメイン ](#lp-use-existing-subdomain) が [CNAME メソッド ](../configuration/delegate-subdomain.md#cname-subdomain-delegation) を使用してAdobeにデリゲートされたもの、または設定した [ 新しいランディングページサブドメイン ](#lp-configure-new-subdomain) のいずれかであったためです。
+   >ランディングページサブドメインは、[CNAME メソッド](../configuration/delegate-subdomain.md#cname-subdomain-delegation)を使用してアドビにデリゲートされた[既存のサブドメイン](#lp-use-existing-subdomain)であるか、ユーザーが設定した[新しいランディングページサブドメイン](#lp-configure-new-subdomain)のいずれかであるので、CNAME レコードを指すことができます。
 
-1. デリゲート解除するサブドメインをAdobeの担当者に問い合わせます。
+1. デリゲート解除するサブドメインについて詳しくは、アドビ担当者にお問い合わせください。
 
 アドビがリクエストを処理すると、デリゲート解除したドメインはサブドメイン在庫ページに表示されなくなります。

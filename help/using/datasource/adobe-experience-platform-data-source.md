@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: 組み込み, ソース, データ, Platform, 統合
 exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
 source-git-commit: 8e020f79e0f44e6fc804fcceb149146f9644c777
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '398'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Adobe Experience Platform のデータソースは、Adobe リアルタイム顧
 
 >[!CAUTION]
 >
->ジャーニー式/条件でのエクスペリエンスイベントの使用はサポートされていません。 ユースケースでエクスペリエンスイベントの使用が必要な場合は、別の方法を検討してください。 [詳細情報](../building-journeys/exp-event-lookup.md)
+>ジャーニーの式／条件でのエクスペリエンスイベントの使用はサポートされていません。ユースケースでエクスペリエンスイベントを使用する必要がある場合は、別の方法を考慮します。[詳細情報](../building-journeys/exp-event-lookup.md)
 
 
 組み込みデータソースにフィールドグループを追加する主な手順は次のとおりです。

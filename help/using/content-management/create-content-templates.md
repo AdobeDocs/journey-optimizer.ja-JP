@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: a205539b-b7ea-4832-92b0-49637c4dac47
 source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '626'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 66%
 >title="独自のコンテンツテンプレートを定義"
 >abstract="スタンドアロンのカスタムテンプレートをゼロから作成して、複数のジャーニーやキャンペーンでコンテンツを再利用できるようにします。"
 
-コンテンツテンプレートを作成する方法は 2 つあります。
+コンテンツテンプレートを作成するには、次の 2 つの方法があります。
 
 * 左側のパネルの&#x200B;**[!UICONTROL コンテンツテンプレート]**&#x200B;メニューを使用して、コンテンツテンプレートをゼロから作成します。[方法についてはこちらを参照](#create-template-from-scratch)
 
 * キャンペーンまたはジャーニー内でコンテンツをデザインする際に、テンプレートとして保存する。[方法についてはこちらを参照](#save-as-template)
 
-保存すると、コンテンツテンプレートをキャンペーンやジャーニーで使用できるようになります。 ゼロから作成した場合でも、以前のコンテンツから作成した場合でも、[!DNL Journey Optimizer] 内でコンテンツを作成する際にこのテンプレートを使用できます。 [方法についてはこちらを参照](#use-content-templates)
+保存すると、コンテンツテンプレートをキャンペーンやジャーニーで使用できるようになります。 ゼロから作成した場合でも、以前のコンテンツから作成した場合でも、[!DNL Journey Optimizer] 内でコンテンツを作成する際にこのテンプレートを使用できます。[方法についてはこちらを参照](#use-content-templates)
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ ht-degree: 66%
 
 >[!NOTE]
 >
->2025 年 3 月以降、HTML タイプのコンテンツテンプレートは非推奨（廃止予定）となります。 [!DNL Journey Optimizer] で以前作成した既存のHTML コンテンツテンプレートは、引き続き使用できます。
+>2025年3月以降、HTML タイプのコンテンツテンプレートは非推奨（廃止予定）です。[!DNL Journey Optimizer] で以前作成した既存の HTML コンテンツテンプレートは、引き続き使用できます。
 
 コンテンツテンプレートをゼロから作成するには、次の手順に従います。
 
@@ -60,7 +60,7 @@ ht-degree: 66%
 
 1. テンプレートにカスタムまたはコアのデータ使用ラベルを割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。[詳しくは、オブジェクトレベルのアクセス制御（OLAC）を参照してください](../administration/object-based-access.md)。
 
-1. 「**[!UICONTROL 作成]**」をクリックし、選択したチャネルに応じて、ジャーニーやキャンペーン内のコンテンツと同じ方法で、必要に応じてコンテンツをデザインします。
+1. 「**[!UICONTROL 作成]**」をクリックし、選択したチャネルに従って、ジャーニーやキャンペーン内のコンテンツと同じ方法で、必要に応じてコンテンツをデザインします。
 
    ![](assets/content-template-edition.png)
 
@@ -70,18 +70,18 @@ ht-degree: 66%
    * [SMS コンテンツの定義](../sms/create-sms.md#sms-content)
    * [ダイレクトメールコンテンツの定義](../direct-mail/create-direct-mail.md)
    * [アプリ内コンテンツの定義](../in-app/design-in-app.md)
-   * [Web コンテンツの定義 ](../web/create-web.md#edit-web-content)
+   * [Web コンテンツの定義](../web/create-web.md#edit-web-content)
    * [コードベースのエクスペリエンスコンテンツの定義](../code-based/create-code-based.md)
 
      >[!NOTE]
      >
-     >決定ポリシーをコードベースのエクスペリエンスコンテンツテンプレートに追加できます。 [詳細情報](../experience-decisioning/create-decision.md#add-decision)
+     >決定ポリシーをコードベースのエクスペリエンスコンテンツテンプレートに追加できます。[詳細情報](../experience-decisioning/create-decision.md#add-decision)
 
 1. コンテンツをテストできます。[方法についてはこちらを参照](#test-template)
 
 1. テンプレートの準備が整ったら、「**[!UICONTROL 保存]**」をクリックします。
 
-1. テンプレート名の横にある矢印をクリックして **[!UICONTROL 詳細]** 画面に戻ります。
+1. テンプレート名の横にある矢印をクリックして&#x200B;**[!UICONTROL 詳細]**&#x200B;画面に戻ります。
 
    ![](assets/content-template-back.png)
 
@@ -89,7 +89,7 @@ ht-degree: 66%
 
 >[!NOTE]
 >
->メールコンテンツテンプレートを作成する際は、コンテンツにテーマを適用することで、ブランドやデザインに合った特定のスタイルをすばやく適用できます。 [詳細情報](../email/apply-email-themes.md)
+>メールコンテンツテンプレートを作成する際に、コンテンツにテーマを適用することで、ブランドやデザインに合った特定のスタイルをすばやく適用できます。[詳細情報](../email/apply-email-themes.md)
 
 ## コンテンツをコンテンツテンプレートとして保存 {#save-as-template}
 
@@ -101,7 +101,7 @@ ht-degree: 66%
 
    ![](assets/content-template-button-save.png)
 
-   [ メールDesigner](../email/get-started-email-design.md) を開いている場合は、画面の右上隅にある **[!UICONTROL 詳細]** ドロップダウンリストからこのオプションを選択することもできます。
+   [E メールデザイナー](../email/get-started-email-design.md)を使用している場合は、画面の右上隅にある&#x200B;**[!UICONTROL その他]**&#x200B;ドロップダウンリストからこのオプションを選択することもできます。
 
    ![](assets/content-template-more-button-save.png)
 
@@ -125,5 +125,5 @@ ht-degree: 66%
 
 >[!NOTE]
 >
->新しいテンプレートへの変更は、元のコンテンツには反映されません。 同様に、元のコンテンツを編集しても、新しいテンプレートは変更されません。
+>新しいテンプレートに対する変更は、元のコンテンツには生成されません。同様に、元のコンテンツを編集しても、新しいテンプレートは変更されません。
 

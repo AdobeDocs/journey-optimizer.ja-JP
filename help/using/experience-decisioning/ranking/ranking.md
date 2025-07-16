@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: c1d69bc9-4486-4037-b218-f4f704b2ba9c
 source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '204'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 64%
 
 ランキング方法を作成するには、次の手順に従います。
 
-1. **[!UICONTROL 戦略の設定]** メニューに移動し、使用するランキングのタイプに応じて **[!UICONTROL 式]** または **[!UICONTROL AI モデル]** メニューを選択します。
+1. **[!UICONTROL 戦略の設定]**&#x200B;メニューに移動し、使用するランキングのタイプに応じて&#x200B;**[!UICONTROL 数式]**&#x200B;または **[!UICONTROL AI モデル]**&#x200B;メニューを選択します。
 
    ![](../assets/ranking-create.png)
 
@@ -40,6 +40,6 @@ ht-degree: 64%
 
 1. ニーズに合わせて数式または AI モデルを設定して、保存します。
 
-これで、ランキングメソッドを [ 選択戦略 ](../selection-strategies.md) で使用して、適格な決定項目をランク付けできるようになりました。
+これで、ランキング方法を[選択戦略](../selection-strategies.md)で使用して、実施要件を満たす決定項目をランク付けする準備が整いました。
 
 

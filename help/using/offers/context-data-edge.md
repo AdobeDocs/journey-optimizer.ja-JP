@@ -9,9 +9,9 @@ role: Developer, Data Engineer
 level: Experienced
 exl-id: c9e14d4d-f2e2-43f9-b1c5-4b005ce858ad
 source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '813'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -51,11 +51,11 @@ Decisioning API を使用して自由な形式でコンテキストを渡すの�
 
    ![](assets/context-edge-xdm.png){width="60%" align="center" zoomable="yes"}
 
-   Adobe Experience Platform [Experience Data Model （XDM）ガイド）でスキーマの操作方法を説明し ](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/home){target="_blank"} す。
+   スキーマの操作方法について詳しくは、Adobe Experience Platform [エクスペリエンスデータモデル（XDM）ガイド](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/home){target="_blank"}を参照してください
 
 1. データセット（ここでは「オファーコンテキスト」）を作成し、プロファイルに対して有効になっていることを確認します。
 
-1. **[!UICONTROL データ収集]**／**[!UICONTROL データストリーム]**&#x200B;メニューから新しいデータストリームを作成します。Adobe Experience Platformでデータストリームを作成および設定する方法を学ぶ [ データストリームガイド ](https://experienceleague.adobe.com/ja/docs/experience-platform/datastreams/configure){target="_blank"}
+1. **[!UICONTROL データ収集]**／**[!UICONTROL データストリーム]**&#x200B;メニューから新しいデータストリームを作成します。データストリームを作成および設定する方法について詳しくは、Adobe Experience Platform [データストリームガイド](https://experienceleague.adobe.com/ja/docs/experience-platform/datastreams/configure){target="_blank"}を参照してください
 
    ここでは、「オファーコンテンツ」イベントスキーマを選択して、「オファーコンテキスト」データストリームを作成しました。
 
@@ -146,7 +146,7 @@ Decisioning API を使用して自由な形式でコンテキストを渡すの�
 
   ![](assets/context-edge-copy-scope.png)
 
-  +++
++++
 
 ```
 {

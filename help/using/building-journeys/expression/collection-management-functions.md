@@ -9,9 +9,9 @@ level: Experienced
 keywords: クエリ, コレクション, 関数, ペイロード, ジャーニー
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
 source-git-commit: 8e020f79e0f44e6fc804fcceb149146f9644c777
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '481'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 74%
 
 ## クエリコレクション関数について
 
-また、式言語にも、コレクションをクエリするための一連の関数が導入されています。 これらの関数について以下で説明します。
+式言語には、クエリコレクションに対する一連の関数も導入されています。これらの関数について以下で説明します。
 
 次の例では、コレクションを含むイベントペイロードを使用します。
 
@@ -64,9 +64,9 @@ ht-degree: 74%
 }
 ```
 
-## all （`<condition>`）関数
+## all(`<condition>`) 関数
 
-この **[!UICONTROL all]** 関数では、ブール式を使用して指定のコレクションに対するフィルターを定義することができます。
+この **[!UICONTROL all]** 関数では、ブール式を使用して指定のコレクションに対するフィルターを定義できます。
 
 ```json
 <listExpression>.all(<condition>)
@@ -79,7 +79,7 @@ ht-degree: 74%
 
 >[!CAUTION]
 >
->ジャーニー式/条件でのエクスペリエンスイベントの使用はサポートされていません。 ユースケースでエクスペリエンスイベントの使用が必要な場合は、別の方法を検討してください。 [詳細情報](../exp-event-lookup.md)
+>ジャーニーの式／条件でのエクスペリエンスイベントの使用はサポートされていません。ユースケースでエクスペリエンスイベントを使用する必要がある場合は、別の方法を考慮します。[詳細情報](../exp-event-lookup.md)
 
 ### 例 1
 
@@ -93,7 +93,7 @@ count(@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTo
 
 ### 例 2
 
-ここでは、 **[!UICONTROL count]** 関数を使用して、コレクションにプッシュ通知トークンがあるかどうかを確認します。
+ここでは、**[!UICONTROL count]** 関数を使用して、コレクションにプッシュ通知トークンがあるかどうかを確認します。
 
 ```json
 count(@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all().token}) > 0
@@ -112,14 +112,14 @@ count(@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTo
 
 >[!NOTE]
 >
->* **all()** 関数のフィルター条件に何も指定していない場合、フィルターはリスト内のすべての要素を返します。**ただし、コレクションの要素数をカウントするためには、all 関数は不要です。
+>* **all()** 関数のフィルター条件に何も指定していない場合、フィルターはリスト内のすべての要素を返します。**ただし、コレクションの要素数をカウントするのに、all 関数は不要です。
 >
->* `currentEventField` は、イベントコレクションの操作時、`currentDataPackField` しくはデータソースのコレクションの操作時、およびカスタムアクションの応答のコレクションの操作時にの `currentActionField` 使用できます。
+>* `currentEventField` はイベントコレクションを操作する場合、`currentDataPackField` はデータソースコレクションを操作する場合、`currentActionField` はカスタムアクションの応答コレクションを操作する場合にのみ使用できます。
 >
->  `all`、`first`、`last` を使用してコレクションを処理する場合は、コレクションの各要素を 1 つずつループ処理します。 `currentEventField`、`currentDataPackField` および `currentActionField` は、ループ処理される要素に対応します。
+>  `all`、`first`、`last` でコレクションを処理する場合、コレクションの各要素を 1 つずつループします。`currentEventField`、`currentDataPackField`、`currentActionField` は、ループする要素に対応します。
 
 
-## first （`<condition>`）および last （`<condition>`）関数
+## first(`<condition>`) 関数と last(`<condition>`) 関数
 
 **[!UICONTROL first]** 関数と **[!UICONTROL last]** 関数では、コレクションのフィルターを定義できる一方、フィルター条件を満たすリストの最初または最後の要素を返すこともできます。
 
@@ -149,7 +149,7 @@ _`<listExpression>.last(<condition>)`_
 
 結果は `token_2` です。
 
-## at （`<index>`）関数
+## at(`<index>`) 関数
 
 **[!UICONTROL at]** 関数を使用すると、インデックスに従ってコレクション内の特定の要素を参照できます。
 インデックス 0 はコレクションの最初のインデックスです。

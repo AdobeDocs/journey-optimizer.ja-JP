@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: ジャーニー, アクティビティ, 開始, イベント, アクション
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 source-git-commit: 527a539272460aa6aa22de5bb3da2223521ee2a3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '688'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 90%
 
    * [[!DNL Journey Optimizer] と Campaign v7/v8](../action/acc-action.md)
    * [[!DNL Journey Optimizer] と Campaign Standard](../action/acs-action.md)
-   * [[!DNL Journey Optimizer] とMarketo Engage](../action/marketo-engage.md)
+   * [[!DNL Journey Optimizer] と Marketo Engage](../action/marketo-engage.md)
 
 ## ベストプラクティス {#best-practices}
 
@@ -78,7 +78,7 @@ ht-degree: 90%
 
 ほとんどのアクティビティでは、**[!UICONTROL ラベル]**&#x200B;を定義できます。これにより、キャンバスのアクティビティの下に表示される名前にサフィックスが追加されます。これは、ジャーニーで同じアクティビティを複数回使用し、より簡単に識別したい場合に便利です。また、エラーが発生した場合のデバッグも容易になり、レポートも読みやすくなります。また、オプションで&#x200B;**[!UICONTROL 説明]**&#x200B;を追加することもできます。
 
-![ ジャーニーアクティビティプロパティの「ラベル」および「説明」フィールド ](assets/journey-action-label.png)
+![ジャーニーアクティビティプロパティの「ラベル」および「説明」フィールド](assets/journey-action-label.png)
 
 >[!NOTE]
 >
@@ -88,24 +88,24 @@ ht-degree: 90%
 
 ほとんどのアクティビティには、変更できない多数の詳細なパラメーターや技術的なパラメーターが表示されます。
 
-![ ジャーニーアクティビティプロパティの詳細設定パラメーターフィールド ](assets/journey-advanced-parameters.png)
+![ジャーニーアクティビティプロパティの詳細パラメーターフィールド](assets/journey-advanced-parameters.png)
 
 読みやすくするには、「**[!UICONTROL 読み取り専用フィールドを非表示]**」ボタンを使用して、これらのパラメーターを非表示にします。
 
-![ ジャーニーアクティビティプロパティの「読み取り専用フィールドを非表示」アイコン ](assets/journey-hide-read-only-fields.png)
+![ジャーニーアクティビティプロパティの読み取り専用フィールドを非表示アイコン](assets/journey-hide-read-only-fields.png)
 
 一部のコンテキストでは、特定の用途でこれらのパラメーターの値を上書きできます。値を強制的に指定するには、フィールドの右側にある「**[!UICONTROL パラメーターの上書きを有効にする]**」アイコンをクリックします。[詳細情報](../configuration/primary-email-addresses.md#journey-parameters)
 
-![ メールアクティビティプロパティの「パラメーターの上書きを有効にする」オプション ](assets/journey-enable-parameter-override.png)
+![メールアクティビティプロパティの「パラメーターの上書きを有効にする」オプション](assets/journey-enable-parameter-override.png)
 
 ### 代替パスの追加
 
 アクションまたは条件でエラーが発生すると、個人のジャーニーは停止します。続行するには、「**[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**」チェックボックスをオンにするだけです。[この節](../building-journeys/using-the-journey-designer.md#paths)を参照してください。
 
-![ 条件アクティビティのプロパティに「代替パスを追加」オプションを追加 ](assets/journey42.png)
+![条件アクティビティプロパティの「代替パスを追加」オプション](assets/journey42.png)
 
 ## トラブルシューティング {#troubleshooting}
 
 ジャーニーをテストおよび公開する前に、すべてのアクティビティが正しく設定されていることを確認します。システムでエラーが検出される場合は、テストまたは公開を実行できません。
 
-アクティビティとジャーニーのエラーのトラブルシューティング方法を学びます [ このページを参照 ](troubleshooting.md)。
+アクティビティとジャーニーでのエラーのトラブルシューティング方法について詳しくは、[このページ](troubleshooting.md)を参照してください。

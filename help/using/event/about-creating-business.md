@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: イベント, ジャーニー, ビジネス, 設定
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1127'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -93,7 +93,7 @@ ht-degree: 98%
 
    ![](assets/test-profiles-4.png)
 
-1. 「**[!UICONTROL イベント ID 条件]**」フィールド内をクリックします。簡単な式エディターを使用して、ジャーニーをトリガーするイベントを識別するためにシステムが使用する条件を定義します。
+1.  「**[!UICONTROL イベント ID 条件]**」フィールド内をクリックします。簡単な式エディターを使用して、ジャーニーをトリガーするイベントを識別するためにシステムが使用する条件を定義します。
 
    ![](assets/jo-event6-business.png)
 
@@ -127,7 +127,7 @@ ht-degree: 98%
 
 1. イベントから受け取るフィールドを選択します。これらは、ビジネスユーザーがジャーニーで活用するフィールドです。
 
-1. 必要なフィールドの選択が完了したら、「**[!UICONTROL 保存]** をクリックするか、**[!UICONTROL Enter]** キーを押します。
+1. 必要なフィールドの選択が完了したら、「**[!UICONTROL 保存]**」をクリックするか、**[!UICONTROL Enter]** キーを押します。
 
    選択したフィールドの数が「**[!UICONTROL フィールド]**」フィールドに表示されます。
 

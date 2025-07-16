@@ -6,10 +6,11 @@ description: オファーをランク付けできる AI モデルについて説
 feature: Ranking, Decision Management
 role: User
 level: Intermediate
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
-workflow-type: tm+mt
+exl-id: 07679823-2288-4528-b09a-12fd76a69482
+source-git-commit: 18a1020971dc6a1101e4e35c1523d004f3fd4188
+workflow-type: ht
 source-wordcount: '303'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -51,6 +52,6 @@ AI モデルを作成して使用する主な手順は次のとおりです。
 
    >[!IMPORTANT]
    >
-   >ランキングモデルを収集するには、フィードバックイベントをエクスペリエンスイベントとして送信する必要があります。[ 決定データ収集の詳細情報 ](../data-collection/data-collection.md)
+   >ランキングモデルを収集するには、フィードバックイベントをエクスペリエンスイベントとして送信する必要があります。[詳しくは、決定データ収集を参照してください](../data-collection/data-collection.md)
 
-1. 実施要件を満たすオファーをランク付けする選択戦略に AI モデルを割り当てます。 [詳細情報](../selection-strategies.md#select-ranking-method)
+1. 実施要件を満たすオファーをランク付けする選択戦略に AI モデルを割り当てます。[詳細情報](../selection-strategies.md#select-ranking-method)

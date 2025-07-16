@@ -11,13 +11,13 @@ level: Intermediate
 keywords: 式, エディター
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
 source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '849'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
-# Adobe Experience Platform データをパーソナライゼーションに使用する{#aep-data}
+# Adobe Experience Platform データをパーソナライゼーションに使用{#aep-data}
 
 >[!AVAILABILITY]
 >
@@ -36,22 +36,22 @@ Journey Optimizer を使用すると、パーソナライゼーションエデ�
 
 ### 決定 {#decisioning}
 
-Experience Decisioning ランキング式とルールでデータセット [!DNL Adobe Experience Platform] 活用できる機能は、近日中に提供されます。
+エクスペリエンス決定のランキング式とルールで [!DNL Adobe Experience Platform] データセットを活用する機能は、近日リリース予定です。
 
-それまでの間、以下に概説する現在のガードレールを確認してください。
+それまでの間、以下に説明する現在のガードレールを確認してください。
 
 * 決定ポリシーは、3 つのデータセットに制限されています。
-* 決定ルールには、3 つのデータセットを使用できます。
-* ランキング式には、3 つのデータセットを使用できます。
-* 決定ポリシーは、1,000 件のレコードクエリに制限されています。
+* 決定ルールでは、3 つのデータセットを使用できます。
+* ランキング式では、3 つのデータセットを使用できます。
+* 決定ポリシーは、1000 個のレコードクエリに制限されています。
 
 >[!NOTE]
 >
->この機能へのアクセスを希望する場合は、アカウント担当者にお問い合わせください
+>この機能へのアクセス権をご希望の場合は、アカウント担当者にお問い合わせください
 
 ## データ参照用データセットの有効化 {#enable}
 
-データセットのデータをパーソナライゼーションに活用するには、API 呼び出しを使用してそのステータスを取得し、ルックアップサービスを有効にする必要があります。 詳しくは、次の節を参照してください。[ のAdobe Experience Platform データセットの活用  [!DNL Journey Optimizer]](../data/lookup-aep-data.md)
+データセットのデータをパーソナライゼーションに活用するには、API 呼び出しを使用してそのステータスを取得し、参照サービスを有効にする必要があります。詳しくは、[ [!DNL Journey Optimizer]](../data/lookup-aep-data.md) の Adobe Experience Platform データセットの活用の節を参照してください。
 
 ## パーソナライゼーションへのデータセットの活用 {#leverage}
 
@@ -84,11 +84,11 @@ API 呼び出しを使用してデータセットの参照パーソナライゼ�
 
    +++データセット ID はどこで取得できますか？
 
-   データセット ID は、Adobe Experience Platform ユーザーインターフェイスで取得できます。データセットの使用方法については、[Adobe Experience Platform ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"} を参照してください。
+   データセット ID は、Adobe Experience Platform ユーザーインターフェイスで取得できます。データセットの操作方法について詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}を参照してください。
 
    ![](assets/aep-data-dataset.png)
 
-   +++
++++
 
 1. ニーズに合わせて構文を調整します。この例では、乗客のフライトに関連するデータを取得します。構文は以下の通りです。
 
@@ -115,11 +115,11 @@ API 呼び出しを使用してデータセットの参照パーソナライゼ�
 
      +++フィールド ID はどこで取得できますか？
 
-     フィールド ID は、Adobe Experience Platform ユーザーインターフェイスでデータセットをプレビューするときに取得できます。データセットのプレビュー方法については、[Adobe Experience Platform ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"} を参照してください。
+     フィールド ID は、Adobe Experience Platform ユーザーインターフェイスでデータセットをプレビューするときに取得できます。データセットのプレビュー方法について詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/user-guide#preview){target="_blank"}を参照してください。
 
      ![](assets/aep-data-field.png)
 
-     +++
++++
 
    この例では、乗客の搭乗時間と搭乗口に関する情報を使用します。したがって、次の 2 行を追加します。
 

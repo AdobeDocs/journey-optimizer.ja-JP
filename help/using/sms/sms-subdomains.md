@@ -9,9 +9,9 @@ level: Intermediate
 keywords: SMS, サブドメイン, 設定
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '881'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ SMS サブドメインにアクセスして編集するには、実稼動サン�
 
    >[!CAUTION]
    >
-   >`cdn` または `data` のプレフィックスは内部使用のために予約されているので、使用しないでください。 `dmarc` や `spf` など、制限または予約済みの他のプレフィックスも避ける必要があります。
+   >`cdn` または `data` プレフィックスは内部使用のために予約されているので、使用しないでください。`dmarc` や `spf` など、他の制限または予約済みのプレフィックスも使用を避ける必要があります。
 
 1. リストからデリゲートされたサブドメインを選択します。
 
@@ -135,17 +135,17 @@ SMS サブドメインにアクセスして編集するには、実稼動サン�
 
 ## サブドメインのデリゲート解除 {#undelegate-subdomain}
 
-SMS サブドメインのデリゲートを解除する場合は、デリゲートを解除するサブドメインを持つAdobe担当者にお問い合わせください。
+SMS サブドメインをデリゲートを解除する場合、デリゲート解除するサブドメインについて詳しくは、アドビ担当者にお問い合わせください。
 
 <!--
 1. Stop the active campaigns associated with the subdomains. [Learn how](../campaigns/modify-stop-campaign.md#stop)
 
 1. Stop the active journeys associated with the subdomains. [Learn how](../building-journeys/end-journey.md#stop-journey)-->
 
-SMS サブドメインが CNAME レコードを指している場合、SMS サブドメイン用に作成した CNAME DNS レコードをホスティングソリューションから削除できます（ただし、元のメールサブドメインがある場合は削除しないでください）。
+SMS サブドメインが CNAME レコードを指している場合は、SMS サブドメイン用に作成した CNAME DNS レコードをホスティングソリューションから削除できます（ただし、元のメールサブドメインがある場合は削除しないでください）。
 
 >[!NOTE]
 >
->SMS サブドメインが CNAME レコードを指す可能性があるのは、それが [CNAME メソッド ](#sms-use-existing-subdomain) を使用してAdobeにデリゲートされた [ 既存のサブドメイン ](../configuration/delegate-subdomain.md#cname-subdomain-delegation) か、設定した [ 新しい SMS サブドメイン ](#sms-configure-new-subdomain) のいずれかであったためです。
+>SMS サブドメインは、[CNAME メソッド](../configuration/delegate-subdomain.md#cname-subdomain-delegation)を使用してアドビにデリゲートされた[既存のサブドメイン](#sms-use-existing-subdomain)であるか、ユーザーが設定した[新しい SMS サブドメイン](#sms-configure-new-subdomain)のいずれかであるので、CNAME レコードを指すことができます。
 
 アドビがリクエストを処理すると、デリゲート解除したドメインはサブドメイン在庫ページに表示されなくなります。

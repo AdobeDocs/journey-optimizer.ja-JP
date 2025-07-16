@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
 source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '186'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 99%
 
 コレクション修飾子（旧称：「タグ」）をオファーに関連付けると、オファーを整理しやすくなります。 例えば、ブラックフライデーのオファーに「ブラックフライデー」コレクション修飾子のラベルを付けることができます。オファーライブラリの検索機能を使用すると、そのコレクション修飾子を持つすべてのオファーを簡単に見つけることができます。
 
-また、コレクション修飾子を使用して、オファーをオファーコレクションにグループ化することもできます。[コレクションの作成](../offer-library/creating-collections.md)を参照してください。
+また、コレクション修飾子を使用して、オファーをオファーコレクションにグループ化することもできます。詳しくは、[コレクションの作成](../offer-library/creating-collections.md)を参照してください。
 
 ➡️ [ビデオでこの機能を確認する](#video)
 
@@ -45,4 +45,4 @@ ht-degree: 99%
 
 ## チュートリアルビデオ {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341372?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/329374?quality=12)

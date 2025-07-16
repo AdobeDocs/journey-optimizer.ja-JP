@@ -10,9 +10,9 @@ level: Intermediate
 keywords: ジャーニー、設定、プロパティ
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 source-git-commit: 7d5d27d9509dd80fece2e360d58437d26df7c4de
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2392'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 97%
 
 ## ジャーニーのプロパティへのアクセス {#access-properties}
 
-ジャーニーのプロパティは、右側のパネルで一元化されます。このセクションは、新しいジャーニーを作成する際にデフォルトで表示されます。既存のジャーニーの場合は、ジャーニー名の横にある鉛筆アイコンをクリックして開きます。
+ジャーニーのプロパティは、右側のパネルで一元化されます。このセクションは、新しいジャーニーを作成する際にデフォルトで表示されます。既存のジャーニーの場合は、ジャーニーの名前の横にある鉛筆アイコンをクリックして開きます。
 
 このセクションでは、ジャーニーの名前を定義し、説明を追加して、ジャーニーのグローバルプロパティを設定します。
 
@@ -46,7 +46,7 @@ ht-degree: 97%
 >
 >ライブジャーニーの場合、この画面には、ジャーニーを公開した日付とユーザーの名前のみが表示されます。
 
-「**技術的な詳細をコピー**」オプションを使用すると、ジャーニーに関する技術情報をコピーでき、サポートチームはこの情報をトラブルシューティングに使用できます。 `JourneyVersion UID`、`OrgID`、`orgName`、`sandboxName`、`lastDeployedBy`、`lastDeployedAt` の情報がコピーされます。
+「**技術的な詳細をコピー**」オプションを使用すると、ジャーニーに関する技術情報をコピーでき、サポートチームはこの情報をトラブルシューティングに使用できます。`JourneyVersion UID`、`OrgID`、`orgName`、`sandboxName`、`lastDeployedBy`、`lastDeployedAt` の情報がコピーされます。
 
 特定のプロファイルのジャーニーに関連する技術的なフィールドとその使用方法について詳しくは、[このページ](expression/journey-properties.md)を参照してください。
 
@@ -86,7 +86,7 @@ ht-degree: 97%
 
 ## ジャーニーとプロファイルのタイムゾーン {#timezone}
 
-タイムゾーンはジャーニーレベルで定義されます。 固定タイムゾーンを入力するか、Adobe Experience Platform プロファイルを使用してジャーニーのタイムゾーンを定義できます。Adobe Experience Platform プロファイルでタイムゾーンが定義されている場合は、ジャーニーでそのタイムゾーンを取得できます。
+タイムゾーンはジャーニーレベルで定義されます。固定タイムゾーンを入力するか、Adobe Experience Platform プロファイルを使用してジャーニーのタイムゾーンを定義できます。Adobe Experience Platform プロファイルでタイムゾーンが定義されている場合は、ジャーニーでそのタイムゾーンを取得できます。
 
 [タイムゾーン管理の詳細情報](../building-journeys/timezone-management.md)
 
@@ -135,7 +135,7 @@ ht-degree: 97%
 
 #### 有効期間（TTL）とデータ保持に関する FAQ {#timeout-faq}
 
-Adobe Journey Optimizer 2024年6月リリース以降、ジャーニーのグローバルタイムアウトが 30 日から 91 日に変更されました。影響については、以下の FAQ を参照してください。
+Adobe Journey Optimizer 2024年6月リリース以降、ジャーニーのグローバルタイムアウトが 30 日から 91 日に変更されました。影響について詳しくは、以下の FAQ を参照してください。
 
 **単一ジャーニーの場合**
 <table style="table-layout:auto">

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 購読者へのメッセージの送信
+title: サブスクライバーへのメッセージの送信
 description: ジャーニーを作成してリスト上の購読者にメッセージを送信する方法を説明します
 feature: Journeys, Use Cases, Subscriptions
 topic: Content Management
@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: ジャーニー, ユースケース, メッセージ, 購読者, リスト, 読み取り
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
 source-git-commit: 824cbf12502f0a52e27636dddee38cb7dee94bf4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '329'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 

@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 exl-id: 32e3a5b9-0633-48df-95b5-c03536be23a1
 source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '378'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 86%
 
 Adobe Experience Platform では、表示されるオファーやユーザーの操作方法など、オファー決定支援のフィードバックを収集できます。 このデータは、次の目的で使用できます。
 
-* [ 決定レポート ](../cja-reporting.md) の作成
-* キャッピング [ ルール ](../items.md#capping) 使用
+* [決定レポート](../cja-reporting.md)の作成
+* [キャップ](../items.md#capping)ルールの使用
 * ランキングメソッドとして使用できる [AI モデル](../ranking/ai-models.md)の構築。
 
 ## イベントのタイプ
@@ -31,7 +31,7 @@ Adobe Experience Platform では、表示されるオファーやユーザーの
 
 ### 決定イベント
 
-Decisioning で特定のプロファイルが決定されるたびに、その意思決定イベントに関連する情報が **自動** Adobe Experience Platformに送信されます。<!--TBC + link-->
+決定が行われるたびに、その決定イベントに関連する情報が&#x200B;**自動的**&#x200B;に Adobe Experience Platform に送信されます。<!--TBC + link-->
 
 ### インプレッションとクリックイベント
 
@@ -47,9 +47,9 @@ Decisioning で特定のプロファイルが決定されるたびに、その�
 
 ただし、**ほとんどのチャネル**&#x200B;では、インプレッション数およびクリック数のデータを&#x200B;**エクスペリエンスイベント**&#x200B;として Adobe Experience Platform に送信する必要があります。これには以下が含まれます。
 
-* [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja){target="_blank"} を使用してオファーをレンダリングする Web ページ
+* [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja){target="_blank"} を使用してオファーをレンダリングする web ページ
 
-* [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=ja){target="_blank"} を使用したモバイルアプリでオファーをレンダリング - [ 詳細情報 ](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer-decisioning/#ab-sj-tracking-servers){target="_blank"}
+* [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=ja){target="_blank"} を使用してオファーをレンダリングするモバイルアプリ - [詳細情報](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer-decisioning/#ab-sj-tracking-servers){target="_blank"}
 * キオスク
 * サードパーティのアプリケーションを通じて送信されるメッセージ
   <!--Mobile push notifications authored by [!DNL Journey Optimizer] - [Learn more](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/api-reference/#handlenotificationresponse){target="_blank"}-->

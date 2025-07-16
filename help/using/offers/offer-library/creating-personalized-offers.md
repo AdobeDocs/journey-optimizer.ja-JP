@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '830'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 99%
 * 実施要件を追加する場合は、オファーの提示条件を定義する&#x200B;**決定ルール**。[決定ルールの作成](../offer-library/creating-decision-rules.md)を参照してください。
 * オファーに関連付ける 1 つまたは複数の&#x200B;**コレクション修飾子**（旧称「タグ」）。 詳しくは、[コレクション修飾子の作成](../offer-library/creating-tags.md)を参照してください。
 
-➡️ [ビデオでこの機能を確認する](#video)
+➡️ [この機能について詳しくは、ビデオを参照してください](#video)
 
 パーソナライズされたオファーのリストは、**[!UICONTROL オファー]**&#x200B;メニューからアクセスできます。
 
@@ -172,4 +172,4 @@ ht-degree: 99%
 
 ## チュートリアルビデオ {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341356?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)

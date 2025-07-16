@@ -9,9 +9,9 @@ level: Experienced
 keywords: Web、サブドメイン、設定
 exl-id: 6e00466d-4ce5-4d80-89ff-c7331a5ab158
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '987'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -152,7 +152,7 @@ You cannot delete a subdomain with the **[!UICONTROL Processing]** status.
 
 ## サブドメインのデリゲート解除 {#undelegate-subdomain}
 
-Web サブドメインのデリゲートを解除する場合は、デリゲートを解除するサブドメインを持つAdobe担当者にお問い合わせください。
+Web サブドメインをデリゲート解除する場合、デリゲート解除するサブドメインについて詳しくは、アドビ担当者にお問い合わせください。
 
 <!--
 1. Deactivate all the channel configurations associated with the subdomain. [Learn how](../configuration/channel-surfaces.md#deactivate-a-surface)
@@ -161,6 +161,6 @@ Web サブドメインのデリゲートを解除する場合は、デリゲー�
 
 1. Stop the active journeys associated with the subdomains. [Learn how](../building-journeys/end-journey.md#stop-journey)-->
 
-Web サブドメインが [ 新しいデリゲートサブドメイン ](#web-configure-new-subdomain) だった場合、ホスティングソリューションから web サブドメイン用に作成した CNAME DNS レコードを削除できます（ただし、元のメールサブドメインがある場合は削除しないでください）。
+Web サブドメインが[新しいデリゲートされたサブドメイン](#web-configure-new-subdomain)である場合は、web サブドメイン用に作成した CNAME DNS レコードをホスティングソリューションから削除できます（ただし、元のメールサブドメインがある場合は削除しないでください）。
 
 アドビがリクエストを処理すると、デリゲート解除したドメインはサブドメイン在庫ページに表示されなくなります。

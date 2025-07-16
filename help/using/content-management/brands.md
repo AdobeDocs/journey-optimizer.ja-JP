@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
 source-git-commit: f9266d01610b92d8a55be8263da6bb808b3cc8ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1471'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 98%
 
 >[!AVAILABILITY]
 >
->この機能は、プライベートベータ版として使用できます。 今後のリリースでは、すべてのお客様が段階的に利用できるようになる予定です。
+>この機能は、Private Beta として使用可能です。今後のリリースで、すべてのお客様が段階的に利用できるようになる予定です。
 >
 >Adobe Journey Optimizer で AI アシスタントを使用する前に、[ユーザー契約](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}に同意する必要があります。詳しくは、アドビ担当者にお問い合わせください。
 

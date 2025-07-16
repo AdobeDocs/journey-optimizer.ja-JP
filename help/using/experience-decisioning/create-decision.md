@@ -7,9 +7,9 @@ role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1796'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ Web サイトやモバイルアプリで訪問者に最適な動的なオファ�
 
    ![](assets/decision-code-based-create.png)
 
-   ジャーニーまたはキャンペーンの編集画面から、パーソナライゼーションエディターを開かずに、決定ポリシーを直接追加することもできます。 右側のパネルの専用アイコンを使用して、「**[!UICONTROL Decisioning]**」セクションを表示します。
+   ジャーニーまたはキャンペーン編集画面から、パーソナライゼーションエディターを開くことなく、決定ポリシーを直接追加することもできます。右側のパネルの専用アイコンを使用して、「**[!UICONTROL 決定]**」セクションを表示します。
 
    ![](../code-based/assets/code-based-campaign-show-decisioning.png)
 

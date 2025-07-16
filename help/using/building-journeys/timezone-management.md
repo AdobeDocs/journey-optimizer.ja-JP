@@ -10,9 +10,9 @@ level: Intermediate
 keywords: タイムゾーン, プロパティ, ジャーニー, 条件, 時間, 日付, カスタム
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
 source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '360'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 96%
 
 タイムゾーンは、ジャーニーの[プロパティ](../building-journeys/journey-properties.md#timezone)で定義できます。
 
-ジャーニーのプロパティにアクセスするには、画面の右上にある鉛筆アイコンを選択します
+ジャーニーのプロパティにアクセスするには、画面の右上にある鉛筆アイコンを選択します。
 
 このタイムゾーンは、次のような時間要素を含むジャーニーのすべてのアクティビティで使用されます。
 

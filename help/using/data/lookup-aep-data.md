@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Adobe Experience Platform データの使用（Beta）
-description: Adobe Experience Platform データセットを Decisioning 機能およびパーソナライゼーション機能で使用する方法  [!DNL Journey Optimizer]  説明します。
+title: Adobe Experience Platform データの使用（ベータ版）
+description: ' [!DNL Journey Optimizer]  の決定およびパーソナライゼーション機能での Adobe Experience Platform データセットの使用方法について説明します。'
 badge: label="ベータ版" type="Informative"
 feature: Personalization, Rules
 topic: Personalization
@@ -11,9 +11,9 @@ level: Intermediate
 keywords: 式, エディター
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
 source-git-commit: 416f82a932f0b484d8463ff24090a7061461822f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '435'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 78%
 >
 >この機能は現在、パブリックベータ版としてすべてのお客様に対して提供されています。
 >
->この機能を使用するには、まず組織のベータ版の条項に同意する必要があります。
+>この機能を使用するには、まず組織のベータ版の条件に同意する必要があります。
 
-Journey Optimizerでは、Adobe Experience Platformのデータを [!DNL Journey Optimizer] で活用できます。 これを行うには、まず、以下で説明するように、API 呼び出しを通じて参照パーソナライゼーションに必要なデータセットを有効にする必要があります。完了したら、パーソナライゼーションと意思決定の機能 [!DNL Journey Optimizer] 使用してそのデータを利用できます。
+Journey Optimizer を使用すると、[!DNL Journey Optimizer] で Adobe Experience Platform のデータを活用できます。これを行うには、まず、以下で説明するように、API 呼び出しを通じて参照パーソナライゼーションに必要なデータセットを有効にする必要があります。完了したら、そのデータを [!DNL Journey Optimizer] のパーソナライゼーションと決定機能で使用できます。
 
 ## ベータ版の制限事項とガイドライン {#guidelines}
 
@@ -78,7 +78,7 @@ curl -s -XPATCH "https://platform.adobe.io/data/core/entity/lookup/dataSets/${DA
 >
 >```
 
-API 呼び出しを使用した検索に対してデータセットが有効になると、そのデータをパーソナライゼーション機能と意思決定機能 [!DNL Journey Optimizer] 使用できます。
+API 呼び出しを使用してデータセットの参照を有効にすると、そのデータを [!DNL Journey Optimizer] のパーソナライゼーションと決定機能で使用できます。
 
-* [Adobe Experience Platform データをパーソナライゼーションに使用する](../personalization/aep-data-perso.md)
-* [Adobe Experience Platform データを意思決定に使用する](../experience-decisioning/aep-data-exd.md)
+* [Adobe Experience Platform データをパーソナライゼーションに使用](../personalization/aep-data-perso.md)
+* [Adobe Experience Platform データを決定に使用](../experience-decisioning/aep-data-exd.md)

@@ -9,9 +9,9 @@ level: Intermediate
 keywords: 再エントリ, ジャーニー, 終了, ライブ, 停止
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '753'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 97%
 
 以下を行うこともできます。
 
-1. **[!UICONTROL ジャーニー]** リストで、クローズするジャーニーをクリックします。
+1. **[!UICONTROL ジャーニー]**&#x200B;リストで、クローズするジャーニーをクリックします。
 1. 右上の下向き矢印をクリックします。
 
    ![](assets/finish_drop_down_list.png){width="50%" align="left" zoomable="yes"}
@@ -93,7 +93,7 @@ ht-degree: 97%
 
 以下を行うこともできます。
 
-1. **[!UICONTROL ジャーニー]** リストで、停止するジャーニーをクリックします。
+1. **[!UICONTROL ジャーニー]**&#x200B;リストで、停止するジャーニーをクリックします。
 1. 右上の下向き矢印をクリックします。
 
    ![](assets/finish_drop_down_list2.png){width="50%" align="left" zoomable="yes"}

@@ -10,9 +10,9 @@ level: Beginner
 keywords: 式, エディター, 開始, パーソナライゼーション
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
 source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '505'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Journey Optimizer は、メッセージを処理する際に、式を Experience
 
 また、**計算属性**&#x200B;を利用して、コンテンツをパーソナライズすることもできます。計算属性を使用すると、個々の行動イベントを、Adobe Experience Platform で使用可能な計算プロファイル属性に要約できます。[詳しくは、計算属性の操作方法を参照してください。](../audience/computed-attributes.md)
 
-さらに、[!DNL Journey Optimizer] を使用すると、パーソナライゼーションエディターで Adobe Experience Platform のデータを利用して、コンテンツをパーソナライズすることができます。これを行うには、まず、API 呼び出しを通じて参照パーソナライゼーションに必要なデータセットを有効にする必要があります。完了したら、そのデータを使用して、コンテンツを Journey Optimizer にパーソナライズできます。この機能は現在ベータ版です。 [詳細情報](../personalization/aep-data-perso.md)
+さらに、[!DNL Journey Optimizer] を使用すると、パーソナライゼーションエディターで Adobe Experience Platform のデータを利用して、コンテンツをパーソナライズすることができます。これを行うには、まず、API 呼び出しを通じて参照パーソナライゼーションに必要なデータセットを有効にする必要があります。完了したら、そのデータを使用して、コンテンツを Journey Optimizer にパーソナライズできます。この機能は現在ベータ版で使用可能です。[詳細情報](../personalization/aep-data-perso.md)
 
 ## パーソナライズ機能の学習と実験 {#playground}
 
@@ -97,11 +97,11 @@ Journey Optimizer は、メッセージを処理する際に、式を Experience
 
 ジャーニーのコンテキストイベント情報を使用してメッセージをパーソナライズする方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3448127?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
 プロファイルベースのパーソナライゼーションをメッセージに追加する方法と、オーディエンスメンバーシップをパーソナライゼーションブロックの前提条件として使用する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416419?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)
 
 パーソナライゼーションエディタープレイグラウンドを活用し、サンプルデータを使用してパーソナライゼーションコードを記述およびテストする方法について説明します。
 

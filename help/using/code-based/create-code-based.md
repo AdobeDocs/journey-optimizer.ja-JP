@@ -7,9 +7,9 @@ role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '785'
+ht-degree: 100%
 
 ---
 
@@ -107,7 +107,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >事前に定義された編集可能なフォームフィールドを含むコードベースのエクスペリエンスコンテンツテンプレートを使用している場合は、パーソナライゼーションエディターを開かずにこれらのフィールドのコンテンツを管理できます。 [詳細情報](code-based-form-fields.md)
+   >事前定義済みの編集可能なフォームフィールドを含むコードベースのエクスペリエンスコンテンツテンプレートを使用している場合は、パーソナライゼーションエディターを開くことなく、これらのフィールドのコンテンツを管理できます。[詳細情報](code-based-form-fields.md)
 
 1. [パーソナライゼーションエディター](../personalization/personalization-build-expressions.md)が開きます。これは、コードを作成できる非視覚的なエクスペリエンス作成インターフェイスです。
 
@@ -131,11 +131,11 @@ ht-degree: 0%
 
    <!--![](../experience-decisioning/assets/decision-code-based-create.png)-->
 
-   ジャーニーまたはキャンペーンの編集画面から、パーソナライゼーションエディターを開かずに、決定ポリシーを直接追加することもできます。 右側のパネルの専用アイコンを使用して、「**[!UICONTROL Decisioning]**」セクションを表示します。
+   ジャーニーまたはキャンペーン編集画面から、パーソナライゼーションエディターを開くことなく、決定ポリシーを直接追加することもできます。右側のパネルの専用アイコンを使用して、「**[!UICONTROL 決定]**」セクションを表示します。
 
    <!--![](assets/code-based-campaign-show-decisioning.png)-->
 
-   決定ポリシーを作成する手順について詳しくは、[ この節 ](../experience-decisioning/create-decision.md#add-decision) を参照してください。
+   決定ポリシーを作成する手順について詳しくは、[この節](../experience-decisioning/create-decision.md#add-decision)を参照してください。
 
 1. 「**[!UICONTROL 保存して閉じる]**」をクリックして変更を確定します。
 
@@ -145,4 +145,4 @@ ht-degree: 0%
 
 以下のビデオでは、コードベースのエクスペリエンスキャンペーンの作成、プロパティの設定、テスト、公開の方法を確認できます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3449454/?quality=12&learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3428868/?quality=12&learn=on)

@@ -8,10 +8,11 @@ role: Developer, Data Engineer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: e5c457494d5d79d1a7951b9172c39c91007e2651
-workflow-type: tm+mt
+exl-id: ce3a2c33-c15b-436f-90b1-7373d7b2b1ca
+source-git-commit: 0bba63855360d0dcd7daa98a2083f23995b88b94
+workflow-type: ht
 source-wordcount: '271'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -103,7 +104,7 @@ JavaScript コードに実装する必要があるスキーマ要件は、以下
 
 >[!NOTE]
 >
->[ キャッピング ](../items.md#capping) でカスタムイベントを考慮するには、次の 2 つのEdge data collection エンドポイントのいずれかにエクスペリエンスイベントを送って、エクスペリエンスイベントをAdobe Experience Platform エンドポイントに接続する必要があります。
+>[キャップ](../items.md#capping)でカスタムイベントを考慮するには、次の 2 つの Edge データ収集エンドポイントのいずれかにエクスペリエンスイベントを送信して、エクスペリエンスイベントを Adobe Experience Platform エンドポイントに接続する必要があります。
 >
 >* POST /ee/v2/interact
 >* POST /ee/v2/collect

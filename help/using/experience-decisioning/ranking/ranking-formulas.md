@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1342'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -63,9 +63,9 @@ ht-degree: 90%
    >
    >ランキング式のネスト深度は 30 レベルに制限されています。これは、PQL 文字列内の `)` の閉じ丸括弧をカウントすることによって測定されます。UTF-8 でエンコードされた文字の場合、ルール文字列のサイズは最大 8 KB になります。これは、8,000 個の ASCII 文字（各 1 バイト）、または 2,000～4,000 個の非 ASCII 文字（各 2～4 バイト）に相当します。[詳しくは、決定ガードレールと制限を参照してください](../decisioning-guardrails.md#ranking-formulas)
 
-1. また、Adobe Experience Platformのデータを使用して、実際の状況に合わせてランキングロジックを動的に調整することもできます。 これは、製品の可用性やリアルタイムの価格など、頻繁に変更される属性に特に便利です。
+1. また、Adobe Experience Platform のデータを使用して、実際の条件を反映するようにランキングロジックを動的に調整することもできます。これは、製品の在庫状況やリアルタイムの価格設定など、頻繁に変更される属性の場合に特に役立ちます。
 
-   この機能は現在、パブリックベータ版としてすべてのお客様にご使用いただけます。アクセスをご希望の場合は、アカウント担当者にお問い合わせください。 [ 決定にAdobe Experience Platform データを使用する方法を説明します ](../aep-data-exd.md)
+   この機能は現在、パブリックベータ版としてすべてのお客様にご使用いただけます。アクセス権をご希望の場合は、アカウント担当者にお問い合わせください。[詳しくは、決定の Adobe Experience Platform データの使用方法を参照してください。](../aep-data-exd.md)
 
 <!--## Select an ELS dataset {#els-dataset}
 
@@ -154,7 +154,7 @@ To leverage data from an AEP dataset, follow the steps below.
 >
 >ランキング式を作成する際、過去 1 か月以内に発生したエクスペリエンスイベントを式のコンポーネントとして追加するなど、以前の期間を振り返ることはサポートされていません。数式の作成中にルックバック期間を含めようとすると、保存時にエラーが発生します。
 
-数式で決定項目に関連する属性を活用するには、ランキング式のコードで正しい構文に従っていることを確認してください。 詳しくは、各節を展開してください。
+数式で決定項目に関連する属性を活用するには、ランキング式のコードで正しい構文に従っていることを確認してください。詳しくは、各節を展開してください。
 
 +++決定項目の標準属性の活用
 
@@ -226,13 +226,13 @@ if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.p
 
 +++コンテキストデータに基づいてオファーの優先度を上げる{#context-data}
 
-[!DNL Journey Optimizer] を使用すると、呼び出しで渡されるコンテキストデータに基づいて、特定のオファーの優先度を上げることができます。例えば、`contextData.weather=hot` を渡す場合は、`attribute=hot` を含んだすべてのオファーの優先度を上げる必要があります。
+[!DNL Journey Optimizer] を使用すると、呼び出しで渡されるコンテキストデータに基づいて、特定のオファーの優先度を上げることができます。例えば、`contextData.weather=hot` が渡される場合は、`attribute=hot` を含んだすべてのオファーの優先度を上げる必要があります。
 
 >[!NOTE]
 >
->コンテキストデータの渡し方について詳しくは <!-- using the **Edge Decisioning** and **Decisioning** APIs--> この節 [ を参照してください ](../context-data.md)。
+>コンテキストデータを渡す方法について詳しくは<!-- using the **Edge Decisioning** and **Decisioning** APIs-->、[この節](../context-data.md)を参照してください。
 
-**Decisioning** API を使用する場合、次の例のように、コンテキストデータをリクエスト本文のプロファイル要素に追加します。
+**Decisioning** API を使用する場合は、次の例のように、コンテキストデータをリクエスト本文のプロファイル要素に追加します。
 
 ```
 "xdm:profiles": [

@@ -10,13 +10,13 @@ level: Intermediate, Experienced
 keywords: ジャーニー, メッセージ, キャンペーン, 統合
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
 source-git-commit: 824cbf12502f0a52e27636dddee38cb7dee94bf4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '387'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Campaign v7/v8 でのメッセージの送信 {#campaign-v7-v8-use-case}
+# Campaign v7／v8 を使用したメッセージの送信 {#campaign-v7-v8-use-case}
 
 このユースケースでは、Adobe Campaign v7 および Adobe Campaign v8 との統合を使用してメールを送信するために必要なすべての手順について説明します。
 

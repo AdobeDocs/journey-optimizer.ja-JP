@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: スキーマ, XDM, プラットフォーム, ストリーミング, 取り込み, ジャーニー
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
 source-git-commit: d79e42cd42fa8342526e02116f65a8e53449fad5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '391'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 77%
 
 >[!CAUTION]
 >
->ジャーニー条件でのエクスペリエンスイベントの検索はサポートされなくなりました。 他のベストプラクティスについては、こちらを参照してください。 イベントトリガージャーニーのユースケースで、引き続きエクスペリエンスイベントの参照が必要であり、リストされている代替手段ではサポートできない場合は、Adobe担当者にお問い合わせください。アドビが目標の達成をお手伝いします。
+>ジャーニー条件でのエクスペリエンスイベント参照はサポートされなくなりました。詳しくは、別のベストプラクティスを参照してください。イベントトリガージャーニーのユースケースがあり、エクスペリエンスイベント参照が必要で、リストされている別の手段のいずれでもサポートできない場合は、アドビ担当者にお問い合わせください。アドビが目標の達成をお手伝いします。
 >
->ジャーニーの開始イベントからコンテキストにアクセスする影響はありません。
+>ジャーニーの開始イベントからコンテキストにアクセスしても影響を受けません。
 
 ## [!DNL Journey Optimizer] イベントのスキーマ要件  {#schema-requirements}
 
@@ -49,13 +49,13 @@ ht-degree: 77%
 
   ![](assets/schema4.png)
 
-* このデータをプロファイルで使用できるようにする場合は、プロファイルのスキーマとデータセットをマークします。 [詳細情報](../data/lookup-aep-data.md)
+* このデータをプロファイルで使用できるようにする場合は、プロファイルのスキーマとデータセットをマークします。[詳細情報](../data/lookup-aep-data.md)
 
   ![](assets/schema5.png)
 
   ![](assets/schema6.png)
 
-* ユーザーに関する情報、イベントの生成元のデバイス、場所、イベントに関連するその他の有意義な状況など、イベントに含めたいその他のコンテキストデータを取り込むためのデータフィールドを自由に含めることができます。
+* ユーザーに関する情報、イベントの生成元のデバイス、場所、イベントに関連するその他の有意義な状況など、イベントに含めるその他のコンテキストデータを取り込むデータフィールドを自由に含めることができます。
 
   ![](assets/schema7.png)
 
@@ -80,7 +80,7 @@ Here is the purchase schema with the relationship defined on the product ID fiel
 
 >[!NOTE]
 >
->Learn more about schema relationships in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=ja).
+>Learn more about schema relationships in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html).
 
 In Journey Optimizer, you can then leverage all the fields from the linked tables:
 
