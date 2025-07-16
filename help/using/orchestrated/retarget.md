@@ -6,7 +6,7 @@ description: Adobe Journey Optimizerでオーケストレーションされた�
 hide: true
 hidefromtoc: true
 exl-id: 3c1cad30-3ed7-4df1-a46a-60394a834e79
-source-git-commit: 175762a1d843f55dd9dcbb1cb0ac107a27a370b0
+source-git-commit: 5c23b4e41dcf426ca458f75057b3653175b2ade8
 workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 1%
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 | 調整されたキャンペーンへようこそ | 最初の調整されたキャンペーンの開始 | データベースのクエリ | 調整されたキャンペーンアクティビティ |
 |---|---|---|---|
-| [ オーケストレーションされたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)<br/><br/>[ 設定手順 ](configuration-steps.md)<br/><br/>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md)<br/><br/>[ オーケストレーションされたキャンペーンを作成するための主な手順 ](gs-campaign-creation.md) | [ キャンペーンの作成とスケジュール設定 ](create-orchestrated-campaign.md)<br/><br/>[ アクティビティのオーケストレーション ](orchestrate-activities.md)<br/><br/>[ キャンペーンの開始と監視 ](start-monitor-campaigns.md)<br/><br/>[ レポート ](reporting-campaigns.md) | [ ルールビルダーの操作 ](orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリの作成 ](build-query.md)<br/><br/>[ 式の編集 ](edit-expressions.md)<br/><br/><b>[ リターゲティング ](retarget.md)</b> | [ アクティビティの基本を学ぶ ](activities/about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションの変更 ](activities/change-dimension.md) - [ チャネルアクティビティ ](activities/channels.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) [&#128279;](activities/save-audience.md) [&#128279;](activities/split.md) [&#128279;](activities/wait.md) - |
+| [ オーケストレーションされたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)<br/><br/>[ 設定手順 ](configuration-steps.md)<br/><br/>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md)<br/><br/>[ オーケストレーションされたキャンペーンを作成するための主な手順 ](gs-campaign-creation.md) | [ キャンペーンの作成とスケジュール設定 ](create-orchestrated-campaign.md)<br/><br/>[ アクティビティのオーケストレーション ](orchestrate-activities.md)<br/><br/>[ キャンペーンの開始と監視 ](start-monitor-campaigns.md)<br/><br/>[ レポート ](reporting-campaigns.md) | [ ルールビルダーの操作 ](orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリの作成 ](build-query.md)<br/><br/>[ 式の編集 ](edit-expressions.md)<br/><br/><b>[ リターゲティング ](retarget.md)</b> | [ アクティビティの基本を学ぶ ](activities/about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションの変更 ](activities/change-dimension.md) - [ チャネルアクティビティ ](activities/channels.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) [ ](activities/save-audience.md) [ ](activities/split.md) [ ](activities/wait.md) - |
 
 {style="table-layout:fixed"}
 
@@ -40,7 +40,8 @@ ht-degree: 1%
 * **[!UICONTROL メッセージフィードバック]**：送信済みメッセージ、開封済みメッセージ、バウンスなど、配信に関連するイベントをキャプチャします。
 * **[!UICONTROL メールトラッキング]**：ユーザーのアクション（クリック数や開封数など）をキャプチャします。
 
-![](assets/do-not-localize/retarget-schema.png)
+![](assets/do-not-localize/retarget-schema.png){zoomable="yes"}
+
 
 ## フィードバックベースのリターゲティングルールの作成 {#feedback-retarget}
 
@@ -54,7 +55,7 @@ ht-degree: 1%
 
 1. **[!UICONTROL ルールビルダー]** で **[!UICONTROL 条件を追加]** をクリックし、**[!UICONTROL 属性ピッカー]** から **[!UICONTROL メッセージフィードバック]** を選択します。 「**[!UICONTROL 確認]**」をクリックして、**メッセージフィードバックが存在する** 条件を作成します。
 
-   ![](assets/retarget_1.png)
+   ![](assets/retarget_1.png){zoomable="yes"}
 
 1. **[!UICONTROL フィードバックステータス]** 属性を選択して、メッセージ配信イベントをターゲットにします。
 
@@ -64,11 +65,11 @@ ht-degree: 1%
 
    1. **[!UICONTROL フィードバックステータス]** 属性を検索して、「**[!UICONTROL 確認]**」をクリックします。
 
-      ![](assets/retarget_3.png)
+      ![](assets/retarget_3.png){zoomable="yes"}
 
    1. **[!UICONTROL カスタム条件]** メニューの **[!UICONTROL 値]** ドロップダウンで、追跡する配信ステータスを選択します。
 
-      ![](assets/retarget_4.png)
+      ![](assets/retarget_4.png){zoomable="yes"}
 
 +++
 
@@ -82,7 +83,7 @@ ht-degree: 1%
 
    1. **[!UICONTROL オーケストレーションされたキャンペーン名]** を選択します。
 
-      ![](assets/retarget_5.png)
+      ![](assets/retarget_5.png){zoomable="yes"}
 
    1. **[!UICONTROL カスタム条件]** メニューの **[!UICONTROL 値]** フィールドでキャンペーン名を指定します。
 
@@ -98,7 +99,7 @@ ht-degree: 1%
 
    1. **[!UICONTROL オーケストレーションされたキャンペーンアクション名]** を選択します。
 
-      ![](assets/retarget_6.png)
+      ![](assets/retarget_6.png){zoomable="yes"}
 
    1. **[!UICONTROL カスタム条件]** メニューの **[!UICONTROL 値]** フィールドでキャンペーンアクション名を指定します。
 
@@ -110,7 +111,7 @@ ht-degree: 1%
 
 フィードバックベースのリターゲティングルールを設定して、送信済み、開封、バウンス、スパムとしてマークなど、以前のメッセージの配信ステータスに基づいて受信者を識別できるようになりました。 このオーディエンスを定義すると、フォローアップメールを追加したり、ユーザーインタラクションデータを使用する [ トラッキングベースのリターゲティングルールを設定 ](#tracking-based) してターゲティングをさらに絞り込んだりできます。
 
-![](assets/retarget_9.png)
+![](assets/retarget_9.png){zoomable="yes"}
 
 
 ## トラッキングベースのリターゲティングルールを作成 {#tracking-based}
@@ -127,17 +128,17 @@ ht-degree: 1%
 
    「**[!UICONTROL 確認]**」をクリックして、**メールトラッキングが存在する** 条件を作成します。
 
-   ![](assets/retarget_2.png)
+   ![](assets/retarget_2.png){zoomable="yes"}
 
 1. 受信者のメッセージとのインタラクションをターゲットするには、**[!UICONTROL メールトラッキング]** 属性にリンクされた別の条件を追加し、**[!UICONTROL インタラクションタイプ]** 属性を検索します。
 
-   ![](assets/retarget_7.png)
+   ![](assets/retarget_7.png){zoomable="yes"}
 
 1. カスタム条件オプションから、「**[!UICONTROL 次に含む]**」を演算子として使用し、ユースケースに応じて 1 つ以上の値を選択します（例：**[!UICONTROL メッセージが開封されました]** または **[!UICONTROL メッセージリンクがクリックされました]**。
 
-   ![](assets/retarget_8.png)
+   ![](assets/retarget_8.png){zoomable="yes"}
 
 **[!UICONTROL メールトラッキング]** 属性からのデータを使用して、メールの開封数やリンククリック数など、以前のメッセージとのインタラクションに基づいて受信者をターゲットにする、トラッキングベースのリターゲティングルールを設定しました。 このオーディエンスを定義すると、フォローアップアクションを追加したり、[ フィードバックベースのリターゲティングルール ](#feedback-retarget) と組み合わせてターゲティングをさらに絞り込んだり、送信済み、バウンス、スパムとマークされたメッセージ結果を含めたりできます。
 
 
-![](assets/retarget_10.png)
+![](assets/retarget_10.png){zoomable="yes"}
