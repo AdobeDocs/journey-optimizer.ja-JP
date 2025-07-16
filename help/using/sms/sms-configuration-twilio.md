@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d6f74566-c913-4727-83b9-473a798a0158
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 604af3a0ac9febb62f2e2b1705e2751b2c476e04
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 50%
+source-wordcount: '422'
+ht-degree: 49%
 
 ---
 
@@ -46,7 +46,11 @@ API 資格情報を作成して設定したら、SMS および MMS メッセー�
 
 Adobe Journey Optimizerでは、[ カスタム SMS プロバイダー ](sms-configuration-custom.md) 機能を使用して、Twilio を通じて RCS メッセージングがサポートされています。 これにより、カルーセル、ボタン、マルチメディアコンテンツなどの要素を組み込んだ、検証済みのビジネスプロファイルを介して、リッチでインタラクティブなメッセージを配信できます。
 
+➡️ [Twilio が RCS をどのようにサポートしているかについては、Twilio のドキュメントを参照してください ](https://www.twilio.com/docs/rcs)
+
 Twilio で RCS メッセージを有効にするには、カスタム SMS プロバイダーを介して新しい API 資格情報を設定する必要があります。 RCS には個別のペイロード形式が必要なので、既存の Twilio SMS 資格情報には互換性がありません。
+
+Twilio を使用して RCS を構成するには、次の手順に従います。
 
 1. **Twilio での RCS Messaging への登録**
 
@@ -58,7 +62,7 @@ Twilio で RCS メッセージを有効にするには、カスタム SMS プロ
 
 1. **カスタムを SMS ベンダーとして使用した API 認証情報の作成**
 
-   Journey Optimizerで、特に SMS ベンダーとして「カスタム」を使用している RCS 用に [&#128279;](sms-configuration-custom.md#api-credential) 新しい API 資格情報を定義  します。 適切な RCS エンドポイント認証方法、ベース URL およびヘッダーを使用します。
+   Journey Optimizerで、特に SMS ベンダーとして「カスタム」を使用している RCS 用に [ 新しい API 資格情報を定義 ](sms-configuration-custom.md#api-credential) します。 適切な RCS エンドポイント認証方法、ベース URL およびヘッダーを使用します。
 
 API 認証情報を作成して設定した後、RCS メッセージ用のチャネル設定を作成する必要があります。 [詳細情報](sms-configuration-surface.md)
 
