@@ -55,7 +55,7 @@ ht-degree: 97%
 
 * メール、SMS、プッシュ通知を含む&#x200B;**チャネルアクション**&#x200B;ノードは実行されません。
 * **カスタムアクション**&#x200B;は、ドライラン中は無効になり、その応答は null に設定されます。
-* **待機ノード**は、ドライラン中はバイパスされます。
+* **待機ノード**&#x200B;は、ドライラン中はバイパスされます。
   <!--You can override the wait block timeouts, then if you have wait blocks duration longer than allowed dry run journey duration, then that branch will not execute completely.-->
 * 外部データソースを含む&#x200B;**データソース**&#x200B;は、デフォルトで実行されます。
 
