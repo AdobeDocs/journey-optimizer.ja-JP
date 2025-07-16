@@ -12,7 +12,7 @@ exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
 source-git-commit: f5baa901c4f9d1061837528007b2c3f048ecbf2a
 workflow-type: tm+mt
 source-wordcount: '1704'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -107,7 +107,7 @@ Journey Optimizer では、カスタムアクションにデータガバナン�
 
    >[!NOTE]
    >
-   >セキュリティ上の理由から、URL には HTTPS スキームを使用することを強くお勧めします。また、一般公開されていないAdobe アドレスの使用および IP アドレスの使用は許可されていません。
+   >セキュリティ上の理由から、URL には HTTPS スキームを使用することを強くお勧めします。また、アドビの非公開アドレスや IP アドレスの使用は許可されていません。
    >
    >カスタムアクションを定義する場合は、デフォルトのポートのみ使用できます。http の場合は 80、https の場合は 443 です。
 

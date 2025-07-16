@@ -10,13 +10,13 @@ exl-id: d6f74566-c913-4727-83b9-473a798a0158
 source-git-commit: 604af3a0ac9febb62f2e2b1705e2751b2c476e04
 workflow-type: tm+mt
 source-wordcount: '422'
-ht-degree: 49%
+ht-degree: 96%
 
 ---
 
 # Twilio プロバイダーの設定 {#sms-configuration-twilio}
 
-## SMS/MMS 用の API 資格情報の設定
+## SMS／MMS 用の API 資格情報の設定
 
 Journey Optimizer に Twilio を設定するには、Twilio に使用する新しい API 資格情報を作成する必要があります。
 
@@ -30,7 +30,7 @@ Journey Optimizer に Twilio を設定するには、Twilio に使用する新�
 
    * **[!UICONTROL アカウント SID]** および&#x200B;**[!UICONTROL 認証トークン]**：Twilio コンソールダッシュボードページの&#x200B;**アカウント情報**&#x200B;パネルにアクセスして、資格情報を検索します。
 
-   * **[!UICONTROL メッセージ SID]**：Twilio の API で作成されたすべてのメッセージに割り当てられる一意の ID を入力します。詳しくは、[Twilio ドキュメント ](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-){target="_blank"} を参照してください。
+   * **[!UICONTROL メッセージ SID]**：Twilio の API で作成されたすべてのメッセージに割り当てられる一意の ID を入力します。詳しくは、[Twilio のドキュメント](https://support.twilio.com/hc/en-us/articles/223134387-What-is-a-Message-SID-){target="_blank"}を参照してください。
 
    * **[!UICONTROL インバウンド番号]**：ユニークなインバウンド番号を追加します。これにより、それぞれに独自のインバウンド番号を持つ異なるサンドボックス間で同じ API 資格情報を使用できます。
 
@@ -42,29 +42,29 @@ Journey Optimizer に Twilio を設定するには、Twilio に使用する新�
 
 API 資格情報を作成して設定したら、SMS および MMS メッセージ用のチャネル設定を作成する必要があります。[詳細情報](sms-configuration-surface.md)
 
-## RCS の API 認証情報の設定
+## RCS 用の API 資格情報の設定
 
-Adobe Journey Optimizerでは、[ カスタム SMS プロバイダー ](sms-configuration-custom.md) 機能を使用して、Twilio を通じて RCS メッセージングがサポートされています。 これにより、カルーセル、ボタン、マルチメディアコンテンツなどの要素を組み込んだ、検証済みのビジネスプロファイルを介して、リッチでインタラクティブなメッセージを配信できます。
+RCS メッセージは、[カスタム SMS プロバイダー](sms-configuration-custom.md)機能を使用する Twilio を通じて Adobe Journey Optimizer でサポートされます。これにより、カルーセル、ボタン、マルチメディアコンテンツなどの要素を組み込んだ、検証済みのビジネスプロファイルを通じてリッチでインタラクティブなメッセージを配信できます。
 
 ➡️ [Twilio が RCS をどのようにサポートしているかについては、Twilio のドキュメントを参照してください ](https://www.twilio.com/docs/rcs)
 
-Twilio で RCS メッセージを有効にするには、カスタム SMS プロバイダーを介して新しい API 資格情報を設定する必要があります。 RCS には個別のペイロード形式が必要なので、既存の Twilio SMS 資格情報には互換性がありません。
+Twilio で RCS メッセージを有効にするには、カスタム SMS プロバイダー経由で新しい API 資格情報を設定する必要があります。RCS では異なるペイロード形式が必要なので、既存の Twilio SMS 資格情報とは互換性がありません。
 
 Twilio を使用して RCS を構成するには、次の手順に従います。
 
-1. **Twilio での RCS Messaging への登録**
+1. **Twilio での RCS メッセージの登録**
 
-   まず、Twilio プラットフォームで RCS 登録プロセスを完了します。 これには、ビジネスプロファイルの設定や、アカウントの RCS 機能の有効化が含まれます。
+   まず、Twilio プラットフォームで RCS 登録プロセスを完了します。これには、ビジネスプロファイルの設定と、アカウントの RCS 機能の有効化が含まれます。
 
 1. **SMS Webhook の作成**
 
-   受信する RCS メッセージ応答または配信更新を受信できる [SMS Webhook を設定 ](sms-configuration-custom.md#webhook) します。 この Webhook は、双方向通信のために Twilio 設定に正しくリンクされている必要があります。
+   受信 RCS メッセージ応答または配信更新を受信できる [SMS Webhook を設定](sms-configuration-custom.md#webhook)します。双方向通信を行うには、この webhook を Twilio 設定に適切にリンクする必要があります。
 
-1. **カスタムを SMS ベンダーとして使用した API 認証情報の作成**
+1. **SMS ベンダーとしてカスタムを使用した API 資格情報の作成**
 
-   Journey Optimizerで、特に SMS ベンダーとして「カスタム」を使用している RCS 用に [ 新しい API 資格情報を定義 ](sms-configuration-custom.md#api-credential) します。 適切な RCS エンドポイント認証方法、ベース URL およびヘッダーを使用します。
+   Journey Optimizer で、SMS ベンダーとして「カスタム」を使用して、RCS 専用の[新しい API 資格情報](sms-configuration-custom.md#api-credential)を定義します。適切な RCS エンドポイント認証方法、ベース URL およびヘッダーを使用します。
 
-API 認証情報を作成して設定した後、RCS メッセージ用のチャネル設定を作成する必要があります。 [詳細情報](sms-configuration-surface.md)
+API 資格情報を作成および設定したら、RCS メッセージ用のチャネル設定を作成する必要があります。[詳細情報](sms-configuration-surface.md)
 
 
 
