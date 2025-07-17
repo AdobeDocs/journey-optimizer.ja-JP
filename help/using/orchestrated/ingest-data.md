@@ -60,7 +60,7 @@ You can configure a data flow to ingest data from an Amazon S3 source into Adobe
 
     * With a new account
 
-    [Learn more in Adobe Experience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
+    [Learn more in Adobe Experience Platform documentation](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
 
     ![](assets/admin_sources_2.png)
 
