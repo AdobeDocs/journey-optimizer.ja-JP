@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 2950856622ea9ee6c761f4555d5322bb788bb2cb
+source-git-commit: 069df6fb67960bc7bdad4a8e0c3fdfa2b82fb8b5
 workflow-type: tm+mt
-source-wordcount: '2507'
+source-wordcount: '2526'
 ht-degree: 98%
 
 ---
@@ -182,7 +182,11 @@ ht-degree: 98%
       + [カスタムアクションのトラブルシューティング](using/action/troubleshoot-custom-action.md)
 + 調整されたキャンペーン {#orchestrated-campaigns}
    + [調整されたキャンペーンの基本を学ぶ](using/orchestrated/gs-orchestrated-campaigns.md)
-   + [設定の手順](using/orchestrated/configuration-steps.md)
+   + リレーショナルスキーマとデータセットの管理 {#schemas-datasets}
+      + [スキーマとデータセットの基本を学ぶ](using/orchestrated/gs-schemas.md)
+      + [手動スキーマ](using/orchestrated/manual-schema.md)
+      + [ファイルアップロードスキーマ](using/orchestrated/file-upload-schema.md)
+      + [データの取得](using/orchestrated/ingest-data.md)
    + [調整されたキャンペーンへのアクセスと管理](using/orchestrated/access-manage-orchestrated-campaigns.md)
    + [ガードレールと制限](using/orchestrated/guardrails.md)
    + 最初の調整されたキャンペーンの開始{#launch}
@@ -259,7 +263,7 @@ ht-degree: 98%
             + [ビジュアルフラグメントを活用](using/email/use-visual-fragments.md)
             + [リンクの追加とメッセージのトラッキング](using/email/message-tracking.md)
             + [パーソナライズされたオファーの挿入](using/email/add-offers-email.md)
-            + [テキストバージョンの生成](using/email/text-version-email.md)
+            + [テキストバージョンを生成](using/email/text-version-email.md)
             + [メタデータの追加](using/email/email-metadata.md)
             + [カスタム CSS を追加](using/email/custom-css.md)
          + スタイルの編集 {#edit-style}
@@ -267,6 +271,7 @@ ht-degree: 98%
             + [背景設定の編集](using/email/backgrounds.md)
             + [垂直方向の整列とパディングの調整](using/email/alignment-and-padding.md)
             + [インラインのスタイル属性の追加](using/email/inline-styling.md)
+            + [ダークモードコンテンツの定義](using/email/dark-mode.md)
       + [メールオプトアウトの管理](using/email/email-opt-out.md)
       + メールチャネルの設定 {#configure-email}
          + [メール設定の基本を学ぶ](using/email/get-started-email-config.md)
@@ -313,7 +318,7 @@ ht-degree: 98%
       + [ダイレクトメールの作成](using/direct-mail/create-direct-mail.md)
       + [ダイレクトメールメッセージの確認および送信](using/direct-mail/test-send-direct-mail.md)
       + [ダイレクトメールの設定](using/direct-mail/direct-mail-configuration.md)
-      + [ジャーニーでのダイレクトメールメッセージの送信](using/direct-mail/direct-mail-journeys.md)
+      + [ジャーニーでダイレクトメールメッセージを送信](using/direct-mail/direct-mail-journeys.md)
    + Web チャネル {#web}
       + [Web チャネルの基本を学ぶ](using/web/get-started-web.md)
       + Web チャネルの設定 {#configure-web-channel}
