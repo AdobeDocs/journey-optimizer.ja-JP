@@ -6,10 +6,10 @@ description: サポートされているソース（SFTP、クラウドストレ
 badge: label="アルファ版"
 hide: true
 hidefromtoc: true
-source-git-commit: ea5ef4005be90973046d3f94ea4c2b92eb89ffb4
+source-git-commit: 3f92dc721648f822687b8efc302c40989b72b145
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 9%
+source-wordcount: '186'
+ht-degree: 18%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 9%
 
 | 調整されたキャンペーンへようこそ | 最初の調整されたキャンペーンの開始 | データベースのクエリ | 調整されたキャンペーンアクティビティ |
 |---|---|---|---|
-| [ 調整されたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)<br/><br/> リレーショナルスキーマとデータセットの作成および管理 </br> <ul><li>[ スキーマとデータセットの概要 ](gs-schemas.md)</li><li>[ 手動スキーマ ](manual-schema.md)</li><li>[ ファイルアップロードスキーマ ](file-upload-schema.md)</li><li>[ データの取り込み ](ingest-data.md)</li></ul>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md)<br/><br/>[ オーケストレーションされたキャンペーンを作成するための主な手順 ](gs-campaign-creation.md) | [ キャンペーンの作成とスケジュール設定 ](create-orchestrated-campaign.md)<br/><br/>[ アクティビティのオーケストレーション ](orchestrate-activities.md)<br/><br/>[ キャンペーンの開始と監視 ](start-monitor-campaigns.md)<br/><br/>[ レポート ](reporting-campaigns.md) | [ ルールビルダーの操作 ](orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリの作成 ](build-query.md)<br/><br/>[ 式の編集 ](edit-expressions.md)<br/><br/>[ リターゲティング ](retarget.md) | [ アクティビティの基本を学ぶ ](activities/about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションの変更 ](activities/change-dimension.md) - [ チャネルアクティビティ ](activities/channels.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) [&#128279;](activities/save-audience.md) [&#128279;](activities/split.md) [&#128279;](activities/wait.md) - |
+| [ 調整されたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)<br/><br/> リレーショナルスキーマとデータセットの作成および管理 </br> <ul><li>[ スキーマとデータセットの概要 ](gs-schemas.md)</li><li>[ 手動スキーマ ](manual-schema.md)</li><li>[ ファイルアップロードスキーマ ](file-upload-schema.md)</li><li>[ データの取り込み ](ingest-data.md)</li></ul>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md)<br/><br/>[ オーケストレーションされたキャンペーンを作成するための主な手順 ](gs-campaign-creation.md) | [ キャンペーンの作成とスケジュール設定 ](create-orchestrated-campaign.md)<br/><br/>[ アクティビティのオーケストレーション ](orchestrate-activities.md)<br/><br/>[ キャンペーンの開始と監視 ](start-monitor-campaigns.md)<br/><br/>[ レポート ](reporting-campaigns.md) | [ ルールビルダーの操作 ](orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリの作成 ](build-query.md)<br/><br/>[ 式の編集 ](edit-expressions.md)<br/><br/>[ リターゲティング ](retarget.md) | [ アクティビティの基本を学ぶ ](activities/about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションの変更 ](activities/change-dimension.md) - [ チャネルアクティビティ ](activities/channels.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) [ ](activities/save-audience.md) [ ](activities/split.md) [ ](activities/wait.md) - |
 
 {style="table-layout:fixed"}
 
@@ -31,73 +31,74 @@ ht-degree: 9%
 
 </br>
 
-コンテンツ
-
 このページのコンテンツは最終的なものではなく、変更される場合があります。
 
 >[!ENDSHADEBOX]
 
 Adobe Experience Platformを使用すると、データを外部ソースから取得しながら、Experience Platform サービスを使用して、受信データの構造化、ラベル付け、拡張を行うことができます。 アドビのアプリケーション、クラウドベースのストレージ、データベースなど、様々なソースからデータを取り込むことができます。
 
-## クラウドストレージを使用 {#ingest}
-
 <!--
+## With Cloud storage {#ingest}
+
+
 >[!IMPORTANT]
 >
 >Each dataset in Adobe Experience Platform supports only one active dataflow at a time. For detailed setup guidance on how to switch data sources, refer to this [section](#cdc-ingestion).
+
+
+You can configure a data flow to ingest data from an Amazon S3 source into Adobe Experience Platform. Once configured, the data flow enables automated, scheduled ingestion of structured data and supports real-time updates.
+
+1. From the **[!UICONTROL Connections]** menu, access the **[!UICONTROL Sources]** menu.
+
+1. Select the **[!UICONTROL Cloud storage]** category then Amazon S3 and click **[!UICONTROL Add Data]**.
+
+    ![](assets/admin_sources_1.png)
+
+1. Connect your S3 Account:
+
+    * With an existing account
+
+    * With a new account
+
+    [Learn more in Adobe Experience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
+
+    ![](assets/admin_sources_2.png)
+
+1. Choose your folder **[!UICONTROL Data format]**, **[!UICONTROL Delimiter]** and **[!UICONTROL Compression type]**.
+
+1. Navigate through the connected S3 source until you locate the two folders created earlier i.e. **loyalty rewards** and **loyalty transactions**.
+
+1. Select the folder that contains your data.
+    
+    Selecting a folder ensures that all current and future files with the same structure are automatically processed. Selecting a single file, however, requires manually uploading each new data increment.
+
+    ![](assets/S3_config_2.png)
+
+1. Choose your folder **[!UICONTROL Data format]**, **[!UICONTROL Delimiter]** and **[!UICONTROL Compression type]**. Review your sample data for accuracy, then click **[!UICONTROL Next]**.
+
+    ![](assets/S3_config_1.png)
+
+1. Check **[!UICONTROL Enable Change data capture]** to select from datasets that are mapped to relational schemas and have both a primary key and a version descriptor defined.
+
+1. Select your [previously created Dataset](#entities) and click **[!UICONTROL Next]**.
+
+    ![](assets/S3_config_3.png)
+
+1. In the **[!UICONTROL Mapping]** window, verify that each source file attribute is correctly mapped with the corresponding fields in the target schema.
+
+    Click **[!UICONTROL Next]** once done.
+
+    ![](assets/S3_config_4.png)
+
+1. Configure the data flow **[!UICONTROL Schedule]** based on your desired frequency.
+
+1. Click **[!UICONTROL Finish]** to create the data flow. It will execute automatically according to the defined schedule.
+
+1. From the **[!UICONTROL Connections]** menu, select **[!UICONTROL Sources]** and access the **[!UICONTROL Data Flows]** tab to track flow execution, review ingested records, and troubleshoot any errors.
+
+    ![](assets/S3_config_5.png)
+
 -->
-
-データフローを設定して、Amazon S3 ソースからAdobe Experience Platformにデータを取り込むことができます。 設定が完了すると、データフローにより、構造化データの自動スケジュール取り込みが可能になり、リアルタイムの更新がサポートされます。
-
-1. **[!UICONTROL 接続]** メニューから **[!UICONTROL ソース]** メニューにアクセスします。
-
-1. 「**[!UICONTROL クラウドストレージ]**」カテゴリを選択し、「Amazon S3」を選択して、「**[!UICONTROL データを追加]**」をクリックします。
-
-   ![](assets/admin_sources_1.png)
-
-1. S3 アカウントの接続：
-
-   * 既存のアカウントで
-
-   * 新しいアカウントで
-
-   [詳しくは、Adobe Experience Platform ドキュメントを参照してください](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
-
-   ![](assets/admin_sources_2.png)
-
-1. フォルダー **[!UICONTROL データフォーマット]**、**[!UICONTROL 区切り文字]** および **[!UICONTROL 圧縮タイプ]** を選択します。
-
-1. 接続された S3 ソースをナビゲートして、以前に作成した 2 つのフォルダー（**ロイヤルティ報酬** と **ロイヤルティトランザクション** を見つけます。
-
-1. データを含むフォルダーを選択します。
-
-   フォルダーを選択すると、同じ構造を持つ現在のファイルと今後のファイルがすべて自動的に処理されます。 ただし、1 つのファイルを選択する場合は、新しいデータ増分ごとに手動でアップロードする必要があります。
-
-   ![](assets/S3_config_2.png)
-
-1. フォルダー **[!UICONTROL データフォーマット]**、**[!UICONTROL 区切り文字]** および **[!UICONTROL 圧縮タイプ]** を選択します。 サンプルデータの精度を確認し、「**[!UICONTROL 次へ]**」をクリックします。
-
-   ![](assets/S3_config_1.png)
-
-1. 「**[!UICONTROL チェンジ・データ・キャプチャを使用可能]**」にチェックを入れると、リレーショナル・スキーマにマッピングされ、プライマリ・キーとバージョン記述子の両方が定義されているデータセットから選択できます。
-
-1. [ 以前に作成したデータセット ](#entities) を選択し、「**[!UICONTROL 次へ]**」をクリックします。
-
-   ![](assets/S3_config_3.png)
-
-1. **[!UICONTROL マッピング]** ウィンドウで、各ソースファイル属性がターゲットスキーマの対応するフィールドに正しくマッピングされていることを確認します。
-
-   完了したら、「**[!UICONTROL 次へ]**」をクリックします。
-
-   ![](assets/S3_config_4.png)
-
-1. 目的の頻度に基づいてデータフロー **[!UICONTROL スケジュール]** を設定します。
-
-1. **[!UICONTROL 終了]** をクリックして、データフローを作成します。 定義されたスケジュールに従って自動的に実行されます。
-
-1. **[!UICONTROL 接続]** メニューから **[!UICONTROL ソース]** を選択し、「**[!UICONTROL データフロー]**」タブにアクセスしてフローの実行を追跡、取り込んだレコードを確認し、エラーのトラブルシューティングを行います。
-
-   ![](assets/S3_config_5.png)
 
 <!--### Setting Up Change data capture ingestion {#cdc-ingestion}
 

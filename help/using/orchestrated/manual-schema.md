@@ -7,10 +7,10 @@ badge: label="アルファ版"
 hide: true
 hidefromtoc: true
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: ea5ef4005be90973046d3f94ea4c2b92eb89ffb4
+source-git-commit: 3f92dc721648f822687b8efc302c40989b72b145
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 7%
+source-wordcount: '152'
+ht-degree: 9%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 7%
 
 | 調整されたキャンペーンへようこそ | 最初の調整されたキャンペーンの開始 | データベースのクエリ | 調整されたキャンペーンアクティビティ |
 |---|---|---|---|
-| [ 調整されたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)<br/><br/> リレーショナルスキーマとデータセットの作成および管理：</br><ul><li>[ スキーマとデータセットの概要 ](gs-schemas.md)</li><li>[ 手動スキーマ ](manual-schema.md)</li><li>[ ファイルアップロードスキーマ ](file-upload-schema.md)</li><li>[ データの取り込み ](ingest-data.md)</li></ul>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md)<br/><br/>[ オーケストレーションされたキャンペーンを作成するための主な手順 ](gs-campaign-creation.md) | [ キャンペーンの作成とスケジュール設定 ](create-orchestrated-campaign.md)<br/><br/>[ アクティビティのオーケストレーション ](orchestrate-activities.md)<br/><br/>[ キャンペーンの開始と監視 ](start-monitor-campaigns.md)<br/><br/>[ レポート ](reporting-campaigns.md) | [ ルールビルダーの操作 ](orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリの作成 ](build-query.md)<br/><br/>[ 式の編集 ](edit-expressions.md)<br/><br/>[ リターゲティング ](retarget.md) | [ アクティビティの基本を学ぶ ](activities/about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションの変更 ](activities/change-dimension.md) - [ チャネルアクティビティ ](activities/channels.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) [&#128279;](activities/save-audience.md) [&#128279;](activities/split.md) [&#128279;](activities/wait.md) - |
+| [ 調整されたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)<br/><br/> リレーショナルスキーマとデータセットの作成および管理：</br><ul><li>[ スキーマとデータセットの概要 ](gs-schemas.md)</li><li>[ 手動スキーマ ](manual-schema.md)</li><li>[ ファイルアップロードスキーマ ](file-upload-schema.md)</li><li>[ データの取り込み ](ingest-data.md)</li></ul>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md)<br/><br/>[ オーケストレーションされたキャンペーンを作成するための主な手順 ](gs-campaign-creation.md) | [ キャンペーンの作成とスケジュール設定 ](create-orchestrated-campaign.md)<br/><br/>[ アクティビティのオーケストレーション ](orchestrate-activities.md)<br/><br/>[ キャンペーンの開始と監視 ](start-monitor-campaigns.md)<br/><br/>[ レポート ](reporting-campaigns.md) | [ ルールビルダーの操作 ](orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリの作成 ](build-query.md)<br/><br/>[ 式の編集 ](edit-expressions.md)<br/><br/>[ リターゲティング ](retarget.md) | [ アクティビティの基本を学ぶ ](activities/about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションの変更 ](activities/change-dimension.md) - [ チャネルアクティビティ ](activities/channels.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) [ ](activities/save-audience.md) [ ](activities/split.md) [ ](activities/wait.md) - |
 
 {style="table-layout:fixed"}
 
@@ -38,40 +38,41 @@ ht-degree: 7%
 
 リレーショナルスキーマは、ユーザーインターフェイスを通じて直接作成でき、属性、プライマリキー、バージョンフィールド、関係の詳細な設定を可能にします。
 
-次の例では、ロイヤルティメンバーシップ スキーマを手動で定義して、調整されたキャンペーンに必要な構造を示します。
+<!--
+The following example manually defines the Loyalty Memberships schema to illustrate the required structure for orchestrated campaigns.
 
-1. Adobe Experience Platformにログインします。
+1. Log in to Adobe Experience Platform.
 
-1. **データ管理**/**スキーマ** に移動します。
+1. Navigate to the **Data Management** > **Schema**.
 
-1. **スキーマを作成** をクリックします。
+1. Click on **Create Schema**.
 
-1. 次の 2 つのスキーマタイプから選択するように求められます。
+1. You will be prompted to select between two schema types:
 
-   * **標準**
-   * **リレーショナル**、オーケストレートキャンペーン専用
+    * **Standard**
+    * **Relational**, used specifically for orchestrated campaigns
 
-   ![](assets/admin_schema_1.png)
+    ![](assets/admin_schema_1.png)
 
-1. **スキーマ名** （例：`test_demo_ck001`）を指定します。
-1. **スキーマタイプ** を選択：
-   **レコードタイプ** （AGO キャンペーンで必須）
-   **時系列** （ここでは適用されません）
-1. **終了** をクリックして、スキーマデザインキャンバスに進みます。
+1. Provide a **Schema Name** (e.g., `test_demo_ck001`).
+1. Choose **Schema Type**:
+    **Record Type** (required for AGO campaigns)
+    **Time Series** (not applicable here)
+1. Click **Finish** to proceed to the schema design canvas.
 
-## 読み込むエンティティとフィールドを選択
+## Select entities and fields to import
 
-1. キャンバスで、スキーマに属性（フィールド）を追加します。
-1. **プライマリキー** （必須）を追加します。
-1. **バージョン記述子** 属性を追加します（CDC サポート用）。
-**DateTime** 型または **Numeric** 型（Integer、Long、Short、Byte）である必要があります。
-一般的な例：`last_modified`
+1. In the canvas, add attributes (fields) to your schema.
+1. Add a **Primary Key** (mandatory).
+1. Add a **Version Descriptor** attribute (for CDC support):
+     This must be of type **DateTime** or **Numeric** (Integer, Long, Short, Byte).
+     Common example: `last_modified`
 
-> **なぜですか？** **プライマリキー** は各レコードを一意に識別し、**バージョン記述子** は変更を追跡し、CDC （Change Data Capture）とデータミラーリングをサポートします。
+> **Why?** The **Primary Key** uniquely identifies each record, and the **Version Descriptor** tracks changes, supporting CDC (Change Data Capture) and data mirroring.
 
-1. 適切なフィールドを **プライマリキー** および **バージョン記述子** としてマークします。
-1. 「**保存**」をクリックします。
-
+1. Mark the appropriate fields as **Primary Key** and **Version Descriptor**.
+1. Click **Save**.
+-->
 
 <!--
 
