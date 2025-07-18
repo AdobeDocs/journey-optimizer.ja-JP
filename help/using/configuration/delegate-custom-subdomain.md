@@ -11,7 +11,7 @@ keywords: サブドメイン, デリゲーション, ドメイン, DNS
 hide: true
 hidefromtoc: true
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: 6d2342b262ea10942f94c82f7d1539a2f6c7c82e
+source-git-commit: 64ff860167439e1b098918cd913f2361f7365a50
 workflow-type: tm+mt
 source-wordcount: '742'
 ht-degree: 14%
@@ -127,6 +127,7 @@ ht-degree: 14%
    アドビは SSL CDN URL 検証レコードを生成します。この検証レコードをホスティングプラットフォームにコピーします。ホスティングソリューションでこのレコードを適切に作成している場合は、「確認しました」チェックボックスをオンにします。
 
 1. 「**[!UICONTROL 送信]**」をクリックして、Adobeで必要なチェックを実行します。 [詳細情報](#submit-subdomain)
+
 
 ## トラブルシューティングチェックリスト {#check-list}
 
