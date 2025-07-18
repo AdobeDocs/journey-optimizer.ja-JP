@@ -7,20 +7,20 @@ badge: label="アルファ版"
 hide: true
 hidefromtoc: true
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: 3f92dc721648f822687b8efc302c40989b72b145
+source-git-commit: 3dc0bf4acc4976ca1c46de46cf6ce4f2097f3721
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 9%
+source-wordcount: '735'
+ht-degree: 4%
 
 ---
 
-# 手動スキーマ {#manual-schema}
+# 手動のリレーショナルスキーマの設定 {#manual-schema}
 
 +++ 目次
 
 | 調整されたキャンペーンへようこそ | 最初の調整されたキャンペーンの開始 | データベースのクエリ | 調整されたキャンペーンアクティビティ |
 |---|---|---|---|
-| [ 調整されたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)<br/><br/> リレーショナルスキーマとデータセットの作成および管理：</br><ul><li>[ スキーマとデータセットの概要 ](gs-schemas.md)</li><li>[ 手動スキーマ ](manual-schema.md)</li><li>[ ファイルアップロードスキーマ ](file-upload-schema.md)</li><li>[ データの取り込み ](ingest-data.md)</li></ul>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md)<br/><br/>[ オーケストレーションされたキャンペーンを作成するための主な手順 ](gs-campaign-creation.md) | [ キャンペーンの作成とスケジュール設定 ](create-orchestrated-campaign.md)<br/><br/>[ アクティビティのオーケストレーション ](orchestrate-activities.md)<br/><br/>[ キャンペーンの開始と監視 ](start-monitor-campaigns.md)<br/><br/>[ レポート ](reporting-campaigns.md) | [ ルールビルダーの操作 ](orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリの作成 ](build-query.md)<br/><br/>[ 式の編集 ](edit-expressions.md)<br/><br/>[ リターゲティング ](retarget.md) | [ アクティビティの基本を学ぶ ](activities/about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションの変更 ](activities/change-dimension.md) - [ チャネルアクティビティ ](activities/channels.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) [&#128279;](activities/save-audience.md) [&#128279;](activities/split.md) [&#128279;](activities/wait.md) - |
+| [ 調整されたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)<br/><br/> リレーショナルスキーマとデータセットの作成および管理：</br><ul><li>[ スキーマとデータセットの概要 ](gs-schemas.md)</li><li>[ 手動スキーマ ](manual-schema.md)</li><li>[ ファイルアップロードスキーマ ](file-upload-schema.md)</li><li>[ データの取り込み ](ingest-data.md)</li></ul>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md)<br/><br/>[ オーケストレーションされたキャンペーンを作成するための主な手順 ](gs-campaign-creation.md) | [ キャンペーンの作成とスケジュール設定 ](create-orchestrated-campaign.md)<br/><br/>[ アクティビティのオーケストレーション ](orchestrate-activities.md)<br/><br/>[ キャンペーンの開始と監視 ](start-monitor-campaigns.md)<br/><br/>[ レポート ](reporting-campaigns.md) | [ ルールビルダーの操作 ](orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリの作成 ](build-query.md)<br/><br/>[ 式の編集 ](edit-expressions.md)<br/><br/>[ リターゲティング ](retarget.md) | [ アクティビティの基本を学ぶ ](activities/about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションの変更 ](activities/change-dimension.md) - [ チャネルアクティビティ ](activities/channels.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) [ ](activities/save-audience.md) [ ](activities/split.md) [ ](activities/wait.md) - |
 
 {style="table-layout:fixed"}
 
@@ -38,146 +38,123 @@ ht-degree: 9%
 
 リレーショナルスキーマは、ユーザーインターフェイスを通じて直接作成でき、属性、プライマリキー、バージョンフィールド、関係の詳細な設定を可能にします。
 
-<!--
-The following example manually defines the Loyalty Memberships schema to illustrate the required structure for orchestrated campaigns.
+次の例では、**ロイヤルティメンバーシップ** スキーマを手動で定義して、調整されたキャンペーンに必要な構造を示します。
 
-1. Log in to Adobe Experience Platform.
+1. Adobe Experience Platform インターフェイスを使用して [ リレーショナルスキーマを手動で作成 ](#schema) ます。
 
-1. Navigate to the **Data Management** > **Schema**.
+1. [ 属性を追加 ](#schema-attributes) ます（顧客 ID、メンバーシップレベル、ステータスフィールドなど）。
 
-1. Click on **Create Schema**.
+1. キャンペーンターゲティング用の受信者などのビルトインスキーマへの [ スキーマのリンク ](#link-schema)。
 
-1. You will be prompted to select between two schema types:
+1. スキーマに基づいて [ データセットを作成 ](#dataset) し、オーケストレーションされたキャンペーンで使用できるようにします。
 
-    * **Standard**
-    * **Relational**, used specifically for orchestrated campaigns
+1. サポートされているソースからデータセットへの [ データの取り込み ](ingest-data.md)。
 
-    ![](assets/admin_schema_1.png)
+## スキーマの作成 {#schema}
 
-1. Provide a **Schema Name** (e.g., `test_demo_ck001`).
-1. Choose **Schema Type**:
-    **Record Type** (required for AGO campaigns)
-    **Time Series** (not applicable here)
-1. Click **Finish** to proceed to the schema design canvas.
+まず、Adobe Experience Platformで新しいリレーショナルスキーマを手動で作成します。 このプロセスを使用すると、名前や動作などのスキーマ構造を最初から定義できます。
 
-## Select entities and fields to import
+1. Adobe Experience Platformにログインします。
 
-1. In the canvas, add attributes (fields) to your schema.
-1. Add a **Primary Key** (mandatory).
-1. Add a **Version Descriptor** attribute (for CDC support):
-     This must be of type **DateTime** or **Numeric** (Integer, Long, Short, Byte).
-     Common example: `last_modified`
+1. **[!UICONTROL データ管理]**/**[!UICONTROL スキーマ]** メニューに移動します。
 
-> **Why?** The **Primary Key** uniquely identifies each record, and the **Version Descriptor** tracks changes, supporting CDC (Change Data Capture) and data mirroring.
+1. **[!UICONTROL スキーマを作成]** をクリックします。
 
-1. Mark the appropriate fields as **Primary Key** and **Version Descriptor**.
-1. Click **Save**.
--->
+1. **[!UICONTROL スキーマタイプ]** として **リレーショナル** を選択します。
 
-<!--
+   ![](assets/admin_schema_1.png){zoomable="yes"}
 
-## 5. Creating a Dataset
+1. フィールドを手動で追加してスキーマを構築する場合は、「**[!UICONTROL 手動で作成]**」を選択します。
 
-1. Navigate to **Datasets**.
-1. Click on **Create Dataset**.
-1. Select the schema you just created.
-1. Assign a **Dataset Name** (same as schema is fine).
-1. Optionally, add tags (e.g., `AGO_campaigns`).
-6. Ensure the checkbox **"Relational Schema"** is checked.
-7. Click **Finish**.
+1. **[!UICONTROL スキーマ表示名]** を入力します。
 
-> **Note:** Only one dataset can be created per relational schema.
+1. **[!UICONTROL スキーマ動作]** として **[!UICONTROL レコード]** を選択します。
 
+   ![](assets/schema_manual_8.png){zoomable="yes"}
 
-## 6. Enabling the Dataset
+1. 「**終了**」をクリックして、スキーマの作成に進みます。
 
-1. Click **Enable** for the dataset.
-1. Wait a few moments for the status to show **Enabled**.
+これで、スキーマに属性を追加して、構造を定義できるようになりました。
 
-> **Why?** Without enabling, the dataset cannot be used in orchestrated campaigns or ingest data.
+## スキーマへの属性の追加 {#schema-attributes}
 
-## 7. Creating a Data Source (S3)
+次に、属性を追加してスキーマの構造を定義します。 これらのフィールドは、顧客識別子、メンバーシップの詳細、アクティビティの日付など、オーケストレーションされたキャンペーンで使用される主要なデータポイントを表します。 これらを正確に定義すると、信頼性の高いパーソナライゼーション、セグメント化およびトラッキングが保証されます。
 
-1. Navigate to **Sources**.
-1. Click **Create Source**.
-1. Choose the source type (e.g., **S3 Bucket**).
-1. Provide connection details:
-    - Bucket Path (optionally include subfolder path)
-1. Save the source.
+1. キャンバスで ![](assets/do-not-localize/Smock_AddCircle_18_N.svg) スキーマ名 **の横にある** をクリックして、属性の追加を開始します。
 
-## 8. Preparing and Uploading Data
+   ![](assets/schema_manual_1.png){zoomable="yes"}
 
-1. Prepare your CSV file with:
-    - Column headers matching your schema attributes
-    - `last_modified` column
-    - `change_type` column (`U`/`DU` for upsert, `D` for delete)
+1. 属性 **[!UICONTROL フィールド名]**、**[!UICONTROL 表示名]**、**[!UICONTROL タイプ]** を入力します。
 
-> **Important:** `change_type` is required but does not need to be defined in the schema.
+   この例では、以下の表で詳しく説明している属性を **ロイヤルティメンバーシップ** スキーマに追加しました。
 
-1. Save the file as `.csv`.
++++ 属性の例
 
-1. Upload the file to the specified folder in your S3 bucket.
+   | 属性名 | データタイプ | 追加の属性 |
+   |-|-|-|
+   | 顧客 | STRING | プライマリキー |
+   | membership_level | STRING | 必須 |
+   | points_balance | 整数 | 必須 |
+   | enrollment_date | 日付 | 必須 |
+   | last_status_change | 日付 | 必須 |
+   | expiration_date | 日付 | - |
+   | is_active | BOOLEAN | 必須 |
+   | lastmodified | 日時 | 必須 |
 
++++
 
-## 9. Ingesting Data from S3
+1. 適切なフィールドを **[!UICONTROL プライマリキー]** および **[!UICONTROL バージョン記述子]** として割り当てます。
 
-1. Go to **Sources** and find your S3 source.
-1. Click **Add Data**.
-1. Select the uploaded file.
-1. Specify the file format as **CSV** and any compression type if applicable.
-1. Review the data preview (ensure `change_type`, `last_modified`, and primary key are visible).
-1. Click **Next**.
+   **[!UICONTROL プライマリキー]** により、各レコードが必ず一意に識別されます。また、**[!UICONTROL バージョン記述子]** により、アップデートが時間の経過と共にキャプチャされるので、チェンジ・データ・キャプチャとサポート・データ・ミラーリングが可能になります。
 
-### Enable Change Data Capture (CDC)
+   ![](assets/schema_manual_2.png){zoomable="yes"}
 
-- Check **Enable Change Data Capture**.
-- Select the dataset enabled for AGO campaigns.
+1. 「**[!UICONTROL 保存]**」をクリックします。
 
-### Field Mapping
+属性を作成したら、新しく作成したスキーマをビルトインスキーマにリンクする必要があります。
 
-- Fields are auto-mapped (note that `change_type` is not mapped and that's expected).
-- Click **Next**.
+## リンクスキーマ {#link-schema}
 
-### Scheduling
+2 つのスキーマ間に関係を作成すると、プライマリプロファイルスキーマの外部に保存されたデータを使用して、調整されたキャンペーンを強化できます。
 
-- Schedule ingestion frequency (minute, hour, day, week).
-- Set start time (immediate or future).
-- Click **Finish** to create the data flow.
+1. 新しく作成したスキーマから、リンクとして使用する属性を選択し、「**[!UICONTROL 関係を追加]**」をクリックします。
 
-## 10. Monitoring Data Flow
+   ![](assets/schema_manual_3.png){zoomable="yes"}
 
-1. Navigate back to **Sources > Data Flows**.
-1. Wait 4–5 minutes for the first run (initial overhead).
-1. Monitor:
-    - Status (Started, Completed)
-    - Number of records ingested
-    - Errors (if any)
+1. **[!UICONTROL 参照スキーマ]** と **[!UICONTROL 参照フィールド]** を選択して、との関係を確立します。
 
-> **Tip:** Ingested data first lands in the **Data Lake**.
+   この例では、`customer` 属性が `recipients` スキーマにリンクされています。
 
-## 11. Data Replication to Data Store
+   ![](assets/schema_manual_4.png){zoomable="yes"}
 
-The **Data Store** is updated:
+1. 現在のスキーマと参照スキーマの関係名を入力します。
 
-- Every **15 minutes**, or
+1. 設定が完了したら、「**[!UICONTROL 適用]**」をクリックします。
 
-- If **Data Lake size exceeds 5MB**
+関係が確立されたら、スキーマに基づいてデータセットを作成する必要があります。
 
-This is a background replication process.
+## スキーマのデータセットの作成 {#dataset}
 
+スキーマを定義したら、次の手順はそれに基づいてデータセットを作成します。 このデータセットには、取り込んだデータが格納されており、Adobe Journey Optimizerでアクセスできるようにするには、オーケストレートキャンペーンを有効にする必要があります。 このオプションを有効にすると、データセットが認識され、リアルタイムオーケストレーションおよびパーソナライゼーションワークフローで使用できるようになります。
 
-## 12. Querying the Dataset
+1. **[!UICONTROL データ管理]**/**[!UICONTROL データセット]** メニューに移動し、「**[!UICONTROL データセットを作成]**」をクリックします。
 
-1. Navigate to **Query Services**.
-1. Click **Create Query**.
-1. Example query:
+   ![](assets/schema_manual_5.png){zoomable="yes"}
 
-   ```sql
-   SELECT * FROM test_demo_ck001;
-   ```
+1. 「**[!UICONTROL スキーマからデータセットを作成]**」をクリックします。
 
-1. Run the query.
+1. 以前に作成したスキーマを選択し、ここで **ロイヤルティメンバーシップ** を選択して、「次へ **[!UICONTROL をクリックし]** す。
 
-> **Note:** If ingestion is incomplete, query will return an error. Check data flow status.
+   ![](assets/schema_manual_6.png){zoomable="yes"}
 
--->
+1. **[!UICONTROL データセット]** の **[!UICONTROL 名前]** を入力し、「**[!UICONTROL 終了]**」をクリックします。
+
+1. **オーケストレートキャンペーン** オプションを有効にして、AJO キャンペーンでデータセットを使用できるようにします。
+
+   イネーブルメントには数分かかることがあります。 データ取り込みは、オプションが完全にアクティブ化された後にのみ可能です。
+
+   ![](assets/schema_manual_7.png){zoomable="yes"}
+
+これで、選択したソースを使用してスキーマへのデータの取り込みを開始できます。
+
+➡️[ データの取り込み方法を学ぶ ](ingest-data.md)
