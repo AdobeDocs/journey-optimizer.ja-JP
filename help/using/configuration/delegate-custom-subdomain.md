@@ -11,7 +11,7 @@ keywords: サブドメイン, デリゲーション, ドメイン, DNS
 hide: true
 hidefromtoc: true
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: a1172d331aff538e867428b36ab913b4ae9c8f7e
+source-git-commit: 387e9bce455519a3e4c055e264ce7e47276ec378
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 9%
@@ -118,7 +118,7 @@ ht-degree: 9%
 
    ![](assets/subdomain-custom-feedback-loop.png){width="85%"}
 
-1. 「**[!UICONTROL 送信]**」をクリックして、Adobeで必要なチェックを実行します。
+1. 「**[!UICONTROL 続行]**」をクリックして、Adobeで必要なチェックを実行します。
 
 ## トラブルシューティングチェックリスト {#check-list}
 
