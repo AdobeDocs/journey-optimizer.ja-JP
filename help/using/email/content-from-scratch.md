@@ -11,8 +11,8 @@ keywords: コンテンツ, エディター, メール, 開始
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
 source-git-commit: 50491d039f2baf8c30a6af0c1b59fe9041244ac7
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 100%
+source-wordcount: '673'
+ht-degree: 97%
 
 ---
 
@@ -47,24 +47,24 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_landing_page"
 >title="ランディングページ列の定義"
->abstract="メールデザイナーでは、列構造を選択することで、ランディングページのレイアウトを簡単に定義できます。"
+>abstract="Designer では、列構造を選択することで、ランディングページのレイアウトを簡単に定義できます。"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_fragment"
 >title="フラグメント列の定義"
->abstract="メールデザイナーでは、列構造を選択義することで、フラグメントのレイアウトを簡単に定義できます。"
+>abstract="Designer では、列構造を選択義することで、フラグメントのレイアウトを簡単に定義できます。"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns_template"
 >title="テンプレート列の定義"
->abstract="メールデザイナーでは、列構造を選択することで、テンプレートのレイアウトを簡単に定義できます。"
+>abstract="Designer では、列構造を選択することで、テンプレートのレイアウトを簡単に定義できます。"
 
 
 Adobe Journey Optimizer Designer を使用して、コンテンツの構造を簡単に定義できます。単純なドラッグ＆ドロップ操作で構造要素を追加したり移動したりして、コンテンツの形を数秒でデザインすることができます。
 
 コンテンツの作成を開始するには、次の手順に従います。
 
-1. デザイナーのホームページで、「**[!UICONTROL ゼロからデザイン]**」オプションを選択します。
+1. Designer のホームページで、「**[!UICONTROL ゼロからデザイン]**」オプションを選択します。
 
    ![](assets/email_designer.png)
 
@@ -80,7 +80,7 @@ Adobe Journey Optimizer Designer を使用して、コンテンツの構造を�
 
    ![](assets/email_designer_structure_components.png)
 
-   「**[!UICONTROL n:n 列]**」コンポーネントを選択して、列数（3～10）を任意に定義します。各列の下部にある矢印を動かして、各列の幅を定義することもできます。
+   **[!UICONTROL n:n 列]** コンポーネントを選択して、列数（3～10）を任意に定義します。 各列の下部にある矢印を動かして、各列の幅を定義することもできます。
 
    >[!NOTE]
    >
@@ -114,7 +114,7 @@ Adobe Journey Optimizer Designer を使用して、コンテンツの構造を�
 
    >[!CAUTION]
    >
-   >コードエディターに切り替えた後で、このメールのビジュアルデザイナーに戻すことはできません。
+   >コードエディターに切り替えた後で、このメールのビジュアル designer に戻すことはできません。
 
 1. コンテンツの準備が整ったら、「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックしてレンダリングを確認します。デスクトップまたはモバイル表示を選択できます。テストプロファイルの選択およびコンテンツのプレビュー方法について詳しくは、[コンテンツ管理](../content-management/preview-test.md)の節を参照してください。
 

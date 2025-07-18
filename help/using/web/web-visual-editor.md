@@ -1,5 +1,5 @@
 ---
-title: Web デザイナーを使用したコンテンツの編集
+title: Web designer を使用したコンテンツの編集
 description: Journey Optimizer の web エディターを使用して、web ページを作成し、そのコンテンツを編集する方法について説明します。
 feature: Web Channel
 topic: Content Management
@@ -7,26 +7,26 @@ role: User
 level: Beginner
 exl-id: 98e99978-8538-40b4-92ac-7184864017eb
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '934'
 ht-degree: 100%
 
 ---
 
-# Web デザイナーの操作 {#work-with-web-designer}
+# Web designer の操作 {#work-with-web-designer}
 
 <!--
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_surface"
 >title="Confirm the URL to edit"
 >abstract="Confirm the URL of the specific web page to use for editing the content that will be applied on the web configuration defined above. The web page must be implemented using the Adobe Experience Platform Web SDK."
->additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja" text="Learn more"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Learn more"
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_rule"
 >title="Enter the URL to edit"
 >abstract="Enter the URL of a specific web page to use for editing the content that will be applied to all pages matching the rule. The web page must be implemented using Adobe Experience Platform Web SDK."
->additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja" text="Learn more"
+>additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html" text="Learn more"
 -->
 
 [!DNL Journey Optimizer] のビジュアル web オーサリングには、**Adobe Experience Cloud Visual Helper** の Chrome ブラウザー拡張機能が利用されています。[詳細情報](web-prerequisites.md#visual-authoring-prerequisites)
@@ -37,13 +37,13 @@ ht-degree: 100%
 
 ## Web エクスペリエンスの作成の開始
 
-ビジュアル web デザイナーを使用して web エクスペリエンスの作成を開始するには、次の手順に従います。
+ビジュアル web designer を使用して web エクスペリエンスの作成を開始するには、次の手順に従います。
 
 >[!CAUTION]
 >
 >[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja){target="_blank"} を web ページに含める必要があります。[詳細情報](web-prerequisites.md#implementation-prerequisites)
 
-1. **[!UICONTROL コンテンツを編集]**&#x200B;画面から、「**[!UICONTROL Web ページを編集]**」をクリックして web デザイナーを開きます。
+1. **[!UICONTROL コンテンツを編集]**&#x200B;画面から、「**[!UICONTROL Web ページを編集]**」をクリックして web designer を開きます。
 
    ![](assets/web-campaign-edit-web-page.png)
 
@@ -55,7 +55,7 @@ ht-degree: 100%
    >
    >また、ビジュアルエディターを読み込まずに、web コンテンツを編集することもできます。これを行うには、「**[!UICONTROL ビジュアルエディター]**」オプションの選択を解除して、代わりに非ビジュアル編集モードを使用します。[詳細情報](web-non-visual-editor.md)
 
-1. Web デザイナーに入ったら、キャンバスから要素（画像、ボタン、段落、テキスト、コンテナ、見出し、リンクなど）を選択します。[詳細情報](#content-components)
+1. Web designer に入ったら、キャンバスから要素（画像、ボタン、段落、テキスト、コンテナ、見出し、リンクなど）を選択します。[詳細情報](#content-components)
 
 1. 要素を編集するには、以下を使用します。
 
@@ -117,9 +117,9 @@ Web コンテンツを編集したら、変更を管理できます。[詳細情
 
 ![](assets/web-designer-personalization.png)
 
-## Web デザイナー内での移動 {#navigate-web-designer}
+## Web designer 内での移動 {#navigate-web-designer}
 
-この節では、web デザイナーでの様々なナビゲーション方法について説明します。Web エクスペリエンスに追加された変更の表示および管理について詳しくは、[こちらの節](manage-web-modifications.md)を参照してください。
+この節では、web designer での様々なナビゲーション方法について説明します。Web エクスペリエンスに追加された変更の表示および管理について詳しくは、[こちらの節](manage-web-modifications.md)を参照してください。
 
 ### パンくずリストの使用 {#breadcrumbs}
 
@@ -152,7 +152,7 @@ Web コンテンツを編集したら、変更を管理できます。[詳細情
 
 ### デバイスサイズの変更 {#change-device-size}
 
-Web デザイナーのディスプレイのデバイスサイズは、**[!UICONTROL タブレット]**&#x200B;または&#x200B;**[!UICONTROL モバイル横置き]**&#x200B;などの事前定義済みのサイズに変更したり、必要なピクセル数を入力してカスタムのサイズを定義したりできます。
+Web designer のディスプレイのデバイスサイズは、**[!UICONTROL タブレット]**&#x200B;または&#x200B;**[!UICONTROL モバイル横置き]**&#x200B;などの事前定義済みのサイズに変更したり、必要なピクセル数を入力してカスタムのサイズを定義したりできます。
 
 また、ズームフォーカスを 25％から 400％に変更することもできます。
 
@@ -168,6 +168,6 @@ Web デザイナーのディスプレイのデバイスサイズは、**[!UICONT
 
 ## チュートリアルビデオ{#video}
 
-次のビデオでは、[!DNL Journey Optimizer] キャンペーンで Web デザイナーを使用して web エクスペリエンスを作成する方法を確認できます。
+次のビデオでは、[!DNL Journey Optimizer] キャンペーンで web designer を使用して web エクスペリエンスを作成する方法を確認できます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452636/?quality=12&learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3418803/?quality=12&learn=on)
