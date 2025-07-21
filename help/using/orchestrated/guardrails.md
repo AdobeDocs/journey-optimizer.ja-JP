@@ -6,10 +6,10 @@ description: オーケストレートキャンペーンのガードレールと�
 hide: true
 hidefromtoc: true
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: 2ad659b391515c193418325c34a9dd56133b90d6
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 5%
+source-wordcount: '575'
+ht-degree: 3%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 5%
 
 | 調整されたキャンペーンへようこそ | 最初の調整されたキャンペーンの開始 | データベースのクエリ | 調整されたキャンペーンアクティビティ |
 |---|---|---|---|
-| [ 調整されたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)<br/><br/> リレーショナルスキーマとデータセットの作成および管理：</br> <ul><li>[ スキーマとデータセットの概要 ](gs-schemas.md)</li><li>[ 手動スキーマ ](manual-schema.md)</li><li>[ ファイルアップロードスキーマ ](file-upload-schema.md)</li><li>[ データの取り込み ](ingest-data.md)</li></ul>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md)<br/><br/>[ オーケストレーションされたキャンペーンを作成するための主な手順 ](gs-campaign-creation.md) | [ キャンペーンの作成とスケジュール設定 ](create-orchestrated-campaign.md)<br/><br/>[ アクティビティのオーケストレーション ](orchestrate-activities.md)<br/><br/>[ キャンペーンの開始と監視 ](start-monitor-campaigns.md)<br/><br/>[ レポート ](reporting-campaigns.md) | [ ルールビルダーの操作 ](orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリの作成 ](build-query.md)<br/><br/>[ 式の編集 ](edit-expressions.md)<br/><br/>[ リターゲティング ](retarget.md) | [ アクティビティの基本を学ぶ ](activities/about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションの変更 ](activities/change-dimension.md) - [ チャネルアクティビティ ](activities/channels.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) [&#128279;](activities/save-audience.md) [&#128279;](activities/split.md) [&#128279;](activities/wait.md) - |
+| [ 調整されたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)<br/><br/> リレーショナルスキーマとデータセットの作成および管理：</br> <ul><li>[ スキーマとデータセットの概要 ](gs-schemas.md)</li><li>[ 手動スキーマ ](manual-schema.md)</li><li>[ ファイルアップロードスキーマ ](file-upload-schema.md)</li><li>[ データの取り込み ](ingest-data.md)</li></ul>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md)<br/><br/>[ オーケストレーションされたキャンペーンを作成するための主な手順 ](gs-campaign-creation.md) | [ キャンペーンの作成とスケジュール設定 ](create-orchestrated-campaign.md)<br/><br/>[ アクティビティのオーケストレーション ](orchestrate-activities.md)<br/><br/>[ キャンペーンの開始と監視 ](start-monitor-campaigns.md)<br/><br/>[ レポート ](reporting-campaigns.md) | [ ルールビルダーの操作 ](orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリの作成 ](build-query.md)<br/><br/>[ 式の編集 ](edit-expressions.md)<br/><br/>[ リターゲティング ](retarget.md) | [ アクティビティの基本を学ぶ ](activities/about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションの変更 ](activities/change-dimension.md) - [ チャネルアクティビティ ](activities/channels.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) [ ](activities/save-audience.md) [ ](activities/split.md) [ ](activities/wait.md) - |
 
 {style="table-layout:fixed"}
 
@@ -27,7 +27,7 @@ ht-degree: 5%
 
 ## データフローからデータセットへの制限
 
-Adobe Experience Platformの各データセットは、一度に 1 つのアクティブなデータフローにのみ関連付けることができます。 この 1:1 のカーディナリティは、プラットフォームによって厳密に適用されます。
+Adobe Experience Platformの各データセットは、一度に 1 つのアクティブなデータフローにのみ関連付けることができます。 この 1:1 カーディナリティは、プラットフォームによって厳密に適用されます。
 
 データソースを切り替える必要がある場合（例：Amazon S3 からSalesforce）:
 
@@ -40,7 +40,60 @@ Adobe Experience Platformの各データセットは、一度に 1 つのアク�
 
 ## リレーショナルスキーマ/データ取り込みの制限
 
-* スキーマ数 – リレーショナルスキーマ（リレーショナルデータストア内のテーブル）の最大数は 200 です
-* リレーショナルスキーマのサイズ – キャンペーンオーケストレーションの最大リレーショナルスキーマのサイズは 100 GB です。
-* データ取り込み頻度 – Campaign オーケストレーションのバッチデータ取り込み頻度は、15 分ごとに 1 つを超えないようにします。
-* 変更/更新 – 毎日の更新/変更は、特定のリレーショナルスキーマの合計レコードの 20% 未満にする必要があります
+* リレーショナルデータストアでは、最大 200 個のリレーショナルスキーマ（テーブル）がサポートされます。
+
+* Campaign オーケストレーションに使用されるリレーショナルスキーマの合計サイズは 100 GB を超えないようにしてください。
+
+* キャンペーンオーケストレーションのバッチ取り込みは、15 分に 1 回よりも頻繁に行う必要があります。
+
+* リレーショナルスキーマへの毎日の変更は、合計レコード数の 20% 未満のままにする必要があります。
+
+## データモデリング
+
+* ファクトテーブルを含むすべてのスキーマで、バージョン記述子は必須です。
+
+* すべてのテーブルにプライマリキーが必要です。
+
+* データセットの作成時に割り当てられた table_name は、セグメント化 UI とパーソナライゼーション機能で使用されます。
+
+  この名前は永続的で、作成後に変更することはできません。
+
+* フィールドグループは現在サポートされていません。
+
+## データ取り込み
+
+* プロファイル + リレーショナルデータ取り込みが必要です。
+
+* ファイルベースの取り込みには変更タイプ フィールドが必要ですが、Cloud DB の取り込みにはテーブルログを有効にする必要があります。 これは、Change Data Capture （CDC）に必要です。
+
+* Snowflakeでのデータの取り込みから可用性までの待ち時間は、データ量、同時実行性、操作の種類に応じて、15 分から 2 時間の範囲です（挿入は更新よりも高速です）。
+
+* Snowflakeのデータモニタリングは開発中です。現在、取り込みが成功したことを示すネイティブの確認はありません。
+
+* Snowflakeまたはデータセットの直接更新はサポートされていません。 すべての変更は、CDC ソースを経由する必要があります。
+
+  クエリサービスは読み取り専用です。
+
+* ETL がサポートされていない – 顧客は、必要な形式でデータを提供する必要があります。
+
+* 部分更新は許可されていません。 各行は、完全なレコードとして指定する必要があります。
+
+* 取り込みはクエリサービスとデータDistillerに依存します。
+
+## セグメント化
+
+* LOV （値のリスト）および列挙は現在使用可能です。
+
+* 保存されたオーディエンスは静的なリストで、そのコンテンツはキャンペーンの実行時に使用可能なデータを反映しています。
+
+* 保存したオーディエンスへのの追加はサポートされていません。 更新には完全な上書きが必要です。
+
+* オーディエンスは、スカラー属性のみで構成する必要があります。マップと配列はサポートされていません。
+
+* セグメント化は主にリレーショナルデータをサポートします。 プロファイルデータとの混在は許可されていますが、大きなプロファイルデータセットを取り込むとパフォーマンスに影響を与える可能性があります。 これを防ぐには：
+
+* バッチまたはストリーミングオーディエンスで選択されたプロファイル属性の数を制限するなど、ガードレールが設定されていること。
+
+* 読み取りオーディエンスはキャッシュされません。各キャンペーン実行は、完全な読み取りをトリガーにします。
+
+  大きなオーディエンスや複雑なオーディエンスの場合は、最適化が必要です。
