@@ -10,7 +10,7 @@ level: Experienced
 keywords: サブドメイン, デリゲーション, ドメイン, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
 source-git-commit: 3cc5abdbec27ac9a8009b3b0d125a3b49dc9ed04
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2011'
 ht-degree: 100%
 
@@ -252,4 +252,4 @@ CNAME を使用してサブドメインを設定するには、次の手順に�
 
 CNAME を使用してサブドメインを作成しアドビ固有のレコードを指すようにする方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/342236?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)

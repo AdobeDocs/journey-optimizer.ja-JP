@@ -14,7 +14,7 @@ exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
 source-git-commit: 64ff860167439e1b098918cd913f2361f7365a50
 workflow-type: tm+mt
 source-wordcount: '742'
-ht-degree: 14%
+ht-degree: 32%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_custom_dns"
 >title="一致する DNS レコードを生成"
->abstract="カスタムサブドメインをAdobeにデリゲートするには、Journey Optimizer インターフェイスに表示されるネームサーバー情報を、ドメインホストソリューションにコピー&amp;ペーストし、一致する DNS レコードを生成する必要があります。"
+>abstract="カスタムサブドメインをアドビにデリゲートするには、Journey Optimizer インターフェイスに表示されるネームサーバー情報を、ドメインホストソリューションにコピー＆ペーストし、一致する DNS レコードを生成する必要があります。"
 
 1. DNS サーバーに配置するレコードのリストが表示されます。これらのレコードを 1 つずつコピーするか、CSV ファイルをダウンロードします。
 
@@ -61,8 +61,8 @@ ht-degree: 14%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_custom-ssl"
->title="証明書署名要求の生成"
->abstract="新しいカスタムサブドメインを設定する場合、証明書署名リクエスト（CSR）を生成し、入力して認証局に送信し、Journey Optimizerにアップロードする必要がある SSL 証明書を取得する必要があります。"
+>title="証明書署名リクエストの生成"
+>abstract="新しいカスタムサブドメインを設定する場合、証明書署名リクエスト（CSR）を生成し、入力して認証局に送信し、Journey Optimizer にアップロードする必要がある SSL 証明書を取得する必要があります。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_key_length"
@@ -94,7 +94,7 @@ ht-degree: 14%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_feedback-loop"
 >title="フィードバックループの手順の完了"
->abstract="ヤフーに行け！ Sender Hub に移動し、フォームに入力してドメインの所有権を確認します。 以下に示す FBL レポートのメールアドレスを入力し、受信する OTP を使用して Yahoo！の所有権を確認します。 送信者ハブ。"
+>abstract="Yahoo! Sender Hub に移動し、フォームに入力してドメインの所有権を確認します。 以下に示す FBL レポートのメールアドレスを入力し、受信する OTP を使用して Yahoo! Sender Hub の所有権を確認します。"
 
 1. [Yahoo! Sender Hub](https://senders.yahooinc.com/) web サイトを開き、ドメインの所有権を確認するために必要なフォームに入力します。
 
@@ -110,7 +110,7 @@ ht-degree: 14%
    >
    >OTP リクエストは平日にのみ実行できます。 週末のサポートはありません。<!--Add times + timezone-->
 
-1. Yahoo！で OTP を入力 送信者ハブ。
+1. Yahoo！で OTP を入力 Sender Hub の所有権を確認します。
 
 1. フィードバックループのすべての手順が完了していることを確認します。
 
