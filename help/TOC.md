@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 069df6fb67960bc7bdad4a8e0c3fdfa2b82fb8b5
+source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
 workflow-type: tm+mt
-source-wordcount: '2526'
-ht-degree: 98%
+source-wordcount: '2581'
+ht-degree: 96%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 98%
       + [条件](using/building-journeys/condition-activity.md)
       + [待機](using/building-journeys/wait-activity.md)
       + [オーディエンスを読み取り](using/building-journeys/read-audience.md)
-      + [組み込みのチャネルアクション](using/building-journeys/journeys-message.md)
+      + [ビルトインのチャネルアクション](using/building-journeys/journeys-message.md)
       + [カスタムアクション](using/building-journeys/using-custom-actions.md)
       + [コンテンツの決定](using/building-journeys/content-decision.md)
       + [Adobe Campaign Standard のアクション](using/building-journeys/using-adobe-campaign-standard.md)
@@ -218,10 +218,24 @@ ht-degree: 98%
       + [待機](using/orchestrated/activities/wait.md)
 + キャンペーン {#campaigns}
    + [キャンペーンの基本を学ぶ](using/campaigns/get-started-with-campaigns.md)
-   + [キャンペーンの作成](using/campaigns/create-campaign.md)
-   + [キャンペーンのレビューとアクティブ化](using/campaigns/review-activate-campaign.md)
-   + [キャンペーンの管理](using/campaigns/modify-stop-campaign.md)
-   + [API を使用したキャンペーンのトリガー](using/campaigns/api-triggered-campaigns.md)
+   + [キャンペーンへのアクセスと管理](using/campaigns/modify-stop-campaign.md)
+   + アクションキャンペーン {#action-campaigns}
+      + [アクションキャンペーンの操作](using/campaigns/create-campaign.md)
+      + [キャンペーンのプロパティの定義](using/campaigns/campaign-properties.md)
+      + [キャンペーンアクションの設定](using/campaigns/campaign-action.md)
+      + [キャンペーンコンテンツの編集](using/campaigns/campaign-content.md)
+      + [キャンペーンオーディエンスの定義](using/campaigns/campaign-audience.md)
+      + [キャンペーンのスケジュール](using/campaigns/campaign-schedule.md)
+      + [アクションキャンペーンのレビューとアクティブ化](using/campaigns/review-activate-campaign.md)
+   + API トリガーキャンペーン {#api-triggered-campaigns}
+      + [API トリガーキャンペーンの操作](using/campaigns/api-triggered-campaigns.md)
+      + [キャンペーンのプロパティの定義](using/campaigns/api-triggered-campaign-properties.md)
+      + [キャンペーンアクションの設定](using/campaigns/api-triggered-campaign-action.md)
+      + [キャンペーンコンテンツの編集](using/campaigns/api-triggered-campaign-content.md)
+      + [キャンペーンオーディエンスの定義](using/campaigns/api-triggered-campaign-audience.md)
+      + [キャンペーンのスケジュール](using/campaigns/api-triggered-campaign-schedule.md)
+      + [キャンペーンのレビューとアクティブ化](using/campaigns/review-activate-api-triggered-campaign.md)
+      + [キャンペーン実行のトリガー](using/campaigns/trigger-campaigns.md)
 + 競合管理と優先順位付け {#conflict-prioritization}
    + [競合管理と優先順位付けの基本を学ぶ](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [潜在的な競合の特定](using/conflict-prioritization/conflicts.md)
@@ -327,7 +341,7 @@ ht-degree: 98%
          + [Web チャネル設定の作成](using/web/web-configuration.md)
       + [Web エクスペリエンスの作成](using/web/create-web.md)
       + Web ページの作成 {#author-web-pages}
-         + [Web デザイナーの操作](using/web/web-visual-editor.md)
+         + [Web designer の操作](using/web/web-visual-editor.md)
          + [非ビジュアルエディターの使用](using/web/web-non-visual-editor.md)
          + [変更の管理](using/web/manage-web-modifications.md)
          + [Web エクスペリエンスの監視](using/web/monitor-web-experiences.md)
@@ -799,8 +813,8 @@ ht-degree: 98%
 + アクセス制御 {#access-control}
    + [アクセス制御の基本を学ぶ](using/administration/permissions-overview.md)
    + [ユーザーと役割の管理](using/administration/permissions.md)
-   + [組み込みの役割](using/administration/ootb-product-profiles.md)
-   + [組み込みの権限](using/administration/ootb-permissions.md)
+   + [ビルトインの役割](using/administration/ootb-product-profiles.md)
+   + [ビルトインの権限](using/administration/ootb-permissions.md)
    + [権限レベル](using/administration/high-low-permissions.md)
    + [属性ベースのアクセス制御](using/administration/attribute-based-access.md)
    + [オブジェクトレベルのアクセス制御](using/administration/object-based-access.md)
