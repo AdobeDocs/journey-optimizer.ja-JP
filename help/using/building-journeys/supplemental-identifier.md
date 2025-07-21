@@ -3,10 +3,10 @@ title: イベントトリガージャーニーの補足識別子
 description: イベントトリガージャーニーの補足識別子の使用方法について説明します。
 badge: label="限定提供" type="Informative"
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
-source-git-commit: 5e7aad25fa08994f6cbce9adfce4a3dc94fe3e47
-workflow-type: ht
-source-wordcount: '928'
-ht-degree: 100%
+source-git-commit: 14a0054c605edd8ff0b63e71fb5c30104ff513ed
+workflow-type: tm+mt
+source-wordcount: '945'
+ht-degree: 98%
 
 ---
 
@@ -29,6 +29,8 @@ ht-degree: 100%
 これにより、イベントによってトリガーされたジャーニーは、補足識別子（ここでは予約 ID）に関連付けられたプロファイル ID のコンテキストで実行されます。補助識別子の反復ごとに、ジャーニーのインスタンスが 1 つ実行されます。これにより、異なる予約を行った場合、ジャーニーで同じプロファイル ID の複数のエントリが可能になります。
 
 さらに、Journey Optimizer を使用すると、補足識別子の属性（予約番号、処方箋の更新日、製品タイプなど）を活用してメッセージをカスタマイズできるので、関連性の高いコミュニケーションを確保できます。<!--Example: A healthcare provider can send renewal reminders for each prescription in a patient's profile.-->
+
+➡️ [この機能について詳しくは、ビデオを参照してください](#video)
 
 ## ガードレールと制限 {#guardrails}
 
@@ -188,3 +190,9 @@ ht-degree: 100%
    * プロファイル：「Alex」。
    * 補足 ID：`"productID1234", "productID5678"`。
    * ジャーニーは、パーソナライズされたアップセルの商談と共に、各製品に対して個別に実行されます。
+
+## チュートリアルビデオ {#video}
+
+[!DNL Adobe Journey Optimizer] で追加識別子を有効にして適用する方法を説明します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
