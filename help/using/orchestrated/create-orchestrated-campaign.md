@@ -7,9 +7,9 @@ badge: label="アルファ版"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: ea541231b16947908197748202e62227c5752966
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1152'
 ht-degree: 16%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 16%
 
 | 調整されたキャンペーンへようこそ | 最初の調整されたキャンペーンの開始 | データベースのクエリ | 調整されたキャンペーンアクティビティ |
 |---|---|---|---|
-| [ 調整されたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)<br/><br/> リレーショナルスキーマとデータセットの作成および管理：</br> <ul><li>[ スキーマとデータセットの概要 ](gs-schemas.md)</li><li>[ 手動スキーマ ](manual-schema.md)</li><li>[ ファイルアップロードスキーマ ](file-upload-schema.md)</li><li>[ データの取り込み ](ingest-data.md)</li></ul>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md)<br/><br/>[ オーケストレーションされたキャンペーンを作成するための主な手順 ](gs-campaign-creation.md) | <b>[ キャンペーンの作成とスケジュール設定 ](create-orchestrated-campaign.md)</b><br/><br/>[ アクティビティのオーケストレーション ](orchestrate-activities.md)<br/><br/>[ キャンペーンの開始と監視 ](start-monitor-campaigns.md)<br/><br/>[ レポート ](reporting-campaigns.md) | [ ルールビルダーの操作 ](orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリの作成 ](build-query.md)<br/><br/>[ 式の編集 ](edit-expressions.md)<br/><br/>[ リターゲティング ](retarget.md) | [ アクティビティの基本を学ぶ ](activities/about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションの変更 ](activities/change-dimension.md) - [ チャネルアクティビティ ](activities/channels.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) [&#128279;](activities/save-audience.md) [&#128279;](activities/split.md) [&#128279;](activities/wait.md) - |
+| [ 調整されたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)<br/><br/> リレーショナルスキーマとデータセットの作成および管理：</br> <ul><li>[ スキーマとデータセットの概要 ](gs-schemas.md)</li><li>[ 手動スキーマ ](manual-schema.md)</li><li>[ ファイルアップロードスキーマ ](file-upload-schema.md)</li><li>[ データの取り込み ](ingest-data.md)</li></ul>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md)<br/><br/>[ オーケストレーションされたキャンペーンを作成するための主な手順 ](gs-campaign-creation.md) | <b>[ キャンペーンの作成とスケジュール設定 ](create-orchestrated-campaign.md)</b><br/><br/>[ アクティビティのオーケストレーション ](orchestrate-activities.md)<br/><br/>[ キャンペーンの開始と監視 ](start-monitor-campaigns.md)<br/><br/>[ レポート ](reporting-campaigns.md) | [ ルールビルダーの操作 ](orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリの作成 ](build-query.md)<br/><br/>[ 式の編集 ](edit-expressions.md)<br/><br/>[ リターゲティング ](retarget.md) | [ アクティビティの基本を学ぶ ](activities/about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションの変更 ](activities/change-dimension.md) - [ チャネルアクティビティ ](activities/channels.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) [ ](activities/save-audience.md) [ ](activities/split.md) [ ](activities/wait.md) - |
 
 {style="table-layout:fixed"}
 
@@ -47,17 +47,23 @@ ht-degree: 16%
 
 オーケストレーションされたキャンペーンを作成するには、次の手順に従います。
 
-1. **[!UICONTROL キャンペーン]** メニューに移動し、「**[!UICONTROL オーケストレーション]**」タブを選択し、「**[!UICONTROL キャンペーンを作成]**」をクリックします。
+1. **[!UICONTROL キャンペーン]** メニューを参照し、「**[!UICONTROL オーケストレーション]**」タブを選択します。
+
+1. 「**[!UICONTROL キャンペーンを作成]**」ボタンをクリックし、「**[!UICONTROL オーケストレーション – マーケティング]** キャンペーンタイプを選択します。
+
+   ![](assets/create-modal.png)
+
+1. キャンペーンプロパティを定義します。 これを行うには、キャンペーン名の横にある ![ キャンペーン設定アイコン ](assets/do-not-localize/campaign-settings.svg) ボタンをクリックします。
 
    ![](assets/inventory-create.png)
 
 1. キャンペーンの名前と説明を入力します。
 
-1. *（オプション）* 「**[!UICONTROL タグ]**」フィールドを使用して、Adobe Experience Platform統合タグをキャンペーンに割り当てます。 これにより、キャンペーンを簡単に分類し、調整されたキャンペーンリストからの検索を改善できます。 [詳しくは、タグの操作方法を参照してください](../start/search-filter-categorize.md#tags)。
+<!--1. Merge policy-->
 
-1. 「**[!UICONTROL 作成]**」をクリックします。
+1. 「**[!UICONTROL タグ]**」フィールドを使用すると、Adobe Experience Platform統合タグをキャンペーンに割り当てることができます。 これにより、キャンペーンを簡単に分類し、調整されたキャンペーンリストからの検索を改善できます。 [詳しくは、タグの操作方法を参照してください](../start/search-filter-categorize.md#tags)。
 
-これで、オーケストレートキャンペーンが作成され、オーケストレートキャンペーンリストに表示されます。 これらのプロパティは、キャンペーンキャンバスの ![ キャンペーン設定アイコン ](assets/do-not-localize/campaign-settings.svg) アイコンをクリックして、いつでも更新できます。
+1. 「**[!UICONTROL 保存]**」をクリックします。
 
 ## キャンペーンのスケジュール {#schedule}
 
@@ -99,7 +105,7 @@ ht-degree: 16%
    * **[!UICONTROL 日付]**：キャンペーンを実行する日付を選択します。
    * **[!UICONTROL 時間]**：キャンペーンを実行する特定の時間を選択します。
 
-   +++
++++
 
    +++毎日
 
@@ -113,7 +119,7 @@ ht-degree: 16%
 
    * **[!UICONTROL 開始時刻]**：キャンペーンを毎日実行する時間を定義します。
 
-   +++
++++
 
    +++1 日に数回
 
@@ -122,7 +128,7 @@ ht-degree: 16%
    * **[!UICONTROL 選択した時間]**：キャンペーンを実行する具体的な回数を選択し、毎日の繰り返しを設定します（毎日または特定の日に実行します）。
    * **[!UICONTROL 定期的]**：キャンペーンを n 分または n 時間ごとに実行するように選択します。 また、実行が許可される日の時間範囲を定義することもできます。
 
-   +++
++++
 
    +++毎週
 
@@ -133,7 +139,7 @@ ht-degree: 16%
    * **[!UICONTROL 毎日の繰り返し]**：実行する特定の曜日を選択します（毎週月曜日と木曜日など）。
    * **[!UICONTROL 開始時刻]**：選択した日にキャンペーンを実行する時間を設定します。
 
-   +++
++++
 
    +++毎月
 
@@ -149,7 +155,7 @@ ht-degree: 16%
 
    * **[!UICONTROL 開始時刻]**：キャンペーンを実行する時間を設定します。
 
-   +++
++++
 
 1. **[!UICONTROL 有効期間]** 設定を使用して特定の開始日と終了日を定義し、キャンペーンの実行を限られた時間枠に制限します。
 
