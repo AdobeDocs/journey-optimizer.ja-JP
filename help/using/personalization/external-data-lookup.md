@@ -8,9 +8,9 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="限定提供" type="Informative"
-source-git-commit: f5d1bc27afadbf875fe4dd3149ce090a8773e0f9
+source-git-commit: cf29013bd7578f6b04543d04e85c714ce7728f36
 workflow-type: tm+mt
-source-wordcount: '1188'
+source-wordcount: '1185'
 ht-degree: 1%
 
 ---
@@ -95,10 +95,10 @@ ht-degree: 1%
 
 パラメーター名：
 
-* ヘッダーパラメーター：ヘッダー。&lt;parameter-name>
-* クエリパラメーター：クエリ。&lt;parameter-name>
-* ペイロードパラメーター：payload。&lt;parameter-name>
-* パスパラメーター：dynamic_path。&lt;parameter-name>
+* ヘッダーパラメーター：「header」。<parameter-name>
+* クエリパラメーター：`query.<parameter-name>`
+* ペイロードのパラメーター：`payload.<parameter-name>`
+* パスパラメーター：`dynamic_path.<parameter-name>`
 
 例：
 
