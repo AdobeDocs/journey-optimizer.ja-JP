@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b731dfbf00557b96585dc4133f246bfb101bee98
+source-git-commit: f5d1bc27afadbf875fe4dd3149ce090a8773e0f9
 workflow-type: tm+mt
-source-wordcount: '2581'
+source-wordcount: '2591'
 ht-degree: 96%
 
 ---
@@ -387,6 +387,7 @@ ht-degree: 96%
       + [Adobe Experience Platform データをパーソナライズ機能に活用（ベータ版）](using/personalization/aep-data-perso.md)
       + ヘルパー関数リスト {#functions}
          + [ヘルパー関数の基本を学ぶ](using/personalization/functions/functions.md)
+         + [外部データ参照ヘルパー](using/personalization/external-data-lookup.md)
          + [集計関数](using/personalization/functions/aggregation.md)
          + [演算関数](using/personalization/functions/arithmetic-functions.md)
          + [配列およびリスト関数](using/personalization/functions/arrays-list.md)
@@ -748,6 +749,7 @@ ht-degree: 96%
       + [クエリの例](using/data/datasets-query-examples.md)
       + [ビルトインスキーマ／](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja)
    + [Adobe Experience Platform データの使用](using/data/lookup-aep-data.md)
+   + [外部エンドポイントを使用したコンテンツのパーソナライズ](using/data/external-endpoint-data.md)
    + [クエリ](using/data/get-started-queries.md)
 + チャネル設定 {#configuration}
    + [チャネル設定の基本を学ぶ](using/configuration/get-started-configuration.md)
