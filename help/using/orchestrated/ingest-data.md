@@ -7,9 +7,9 @@ badge: label="アルファ版"
 hide: true
 hidefromtoc: true
 exl-id: 7f1e7985-b68e-43d6-9c8f-fea2469f8af9
-source-git-commit: 2ad659b391515c193418325c34a9dd56133b90d6
+source-git-commit: a4337df949d25740f75204fe4530837dda1af3dd
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '508'
 ht-degree: 8%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 8%
 
 | 調整されたキャンペーンへようこそ | 最初の調整されたキャンペーンの開始 | データベースのクエリ | 調整されたキャンペーンアクティビティ |
 |---|---|---|---|
-| [ 調整されたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)<br/><br/> リレーショナルスキーマとデータセットの作成および管理 </br> <ul><li>[ スキーマとデータセットの概要 ](gs-schemas.md)</li><li>[ 手動スキーマ ](manual-schema.md)</li><li>[ ファイルアップロードスキーマ ](file-upload-schema.md)</li><li>[ データの取り込み ](ingest-data.md)</li></ul>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md)<br/><br/>[ オーケストレーションされたキャンペーンを作成するための主な手順 ](gs-campaign-creation.md) | [ キャンペーンの作成とスケジュール設定 ](create-orchestrated-campaign.md)<br/><br/>[ アクティビティのオーケストレーション ](orchestrate-activities.md)<br/><br/>[ キャンペーンの開始と監視 ](start-monitor-campaigns.md)<br/><br/>[ レポート ](reporting-campaigns.md) | [ ルールビルダーの操作 ](orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリの作成 ](build-query.md)<br/><br/>[ 式の編集 ](edit-expressions.md)<br/><br/>[ リターゲティング ](retarget.md) | [ アクティビティの基本を学ぶ ](activities/about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションの変更 ](activities/change-dimension.md) - [ チャネルアクティビティ ](activities/channels.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) [&#128279;](activities/save-audience.md) [&#128279;](activities/split.md) [&#128279;](activities/wait.md) - |
+| [ 調整されたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)<br/><br/> リレーショナルスキーマとデータセットの作成および管理 </br> <ul><li>[ スキーマとデータセットの概要 ](gs-schemas.md)</li><li>[ 手動スキーマ ](manual-schema.md)</li><li>[ ファイルアップロードスキーマ ](file-upload-schema.md)</li><li>[ データの取り込み ](ingest-data.md)</li></ul>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md)<br/><br/>[ オーケストレーションされたキャンペーンを作成するための主な手順 ](gs-campaign-creation.md) | [ キャンペーンの作成とスケジュール設定 ](create-orchestrated-campaign.md)<br/><br/>[ アクティビティのオーケストレーション ](orchestrate-activities.md)<br/><br/>[ キャンペーンの開始と監視 ](start-monitor-campaigns.md)<br/><br/>[ レポート ](reporting-campaigns.md) | [ ルールビルダーの操作 ](orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリの作成 ](build-query.md)<br/><br/>[ 式の編集 ](edit-expressions.md)<br/><br/>[ リターゲティング ](retarget.md) | [ アクティビティの基本を学ぶ ](activities/about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションの変更 ](activities/change-dimension.md) - [ チャネルアクティビティ ](activities/channels.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) [ ](activities/save-audience.md) [ ](activities/split.md) [ ](activities/wait.md) - |
 
 {style="table-layout:fixed"}
 
@@ -43,7 +43,9 @@ Adobe Experience Platformを使用すると、データを外部ソースから�
 
 >[!IMPORTANT]
 >
->Adobe Experience Platformの各データセットでは、一度に 1 つのアクティブなデータフローのみをサポートします。 データソースの切り替え方法に関する設定ガイダンスについて詳しくは、この [ 節 ](#cdc-ingestion) を参照してください。
+>データセットのデータソースを変更するには、まず既存のデータフローを削除してから、同じデータセットと新しいソースを参照する新しいデータフローを作成する必要があります。
+>
+>Adobe Experience Platformでは、データフローとデータセットの間に厳密な 1 対 1 の関係を適用します。 これにより、ソースとデータセットの間の同期を維持して、正確な増分取り込みを行うことができます。
 
 
 データフローを設定して、Amazon S3 ソースからAdobe Experience Platformにデータを取り込むことができます。 設定が完了すると、データフローにより、構造化データの自動スケジュール取り込みが可能になり、リアルタイムの更新がサポートされます。
@@ -60,7 +62,7 @@ Adobe Experience Platformを使用すると、データを外部ソースから�
 
    * 新しいアカウントで
 
-   [詳しくは、Adobe Experience Platform ドキュメントを参照してください](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
+   [詳しくは、Adobe Experience Platform ドキュメントを参照してください](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/cloud-storage/amazon-s3#connect)
 
    ![](assets/admin_sources_2.png)
 
@@ -78,9 +80,11 @@ Adobe Experience Platformを使用すると、データを外部ソースから�
 
    ![](assets/S3_config_1.png)
 
-1. 「**[!UICONTROL チェンジ・データ・キャプチャを使用可能]**」にチェックを入れると、リレーショナル・スキーマにマッピングされ、プライマリ・キーとバージョン記述子の両方が定義されているデータセットから選択できます。
+1. 「**[!UICONTROL チェンジ・データ・キャプチャを使用可能]**」にチェックを入れると、リレーショナル・スキーマにマッピングされ、プライマリ・キーとバージョン記述子の両方を含むデータセットのみが表示されます。
 
-1. [ 以前に作成したデータセット ](file-upload-schema.md) を選択し、「**[!UICONTROL 次へ]**」をクリックします。
+   ![](assets/S3_config_6.png)
+
+1. 以前に作成したデータセットを選択し、「**[!UICONTROL 次へ]**」をクリックします。
 
    ![](assets/S3_config_3.png)
 
@@ -98,26 +102,3 @@ Adobe Experience Platformを使用すると、データを外部ソースから�
 
    ![](assets/S3_config_5.png)
 
-<!--### Setting Up Change data capture ingestion {#cdc-ingestion}
-
-If you need to change the data source, you must delete the existing dataflow and create a new one pointing to the same dataset with the new source.
-
-When using Change Data Capture (CDC), it is essential that the source and dataset remain in sync to ensure accurate incremental updates. Follow the steps below:
-
-1. **Schema Requirements**
-   - Your schema must include:
-     - A **primary key** (e.g., `transaction_id`)
-     - A **versioning field** (e.g., `lastmodified` or an incrementing `version_id`)
-   - Enable the dataset for **Orchestrated Campaigns** if needed.
-
-2. **CDC Dataflow Setup**
-   - During dataflow creation, after choosing your source and files:
-     - **Enable the CDC option**
-     - Select your CDC-ready dataset
-     - Confirm field mappings (especially version field)
-
-3. **Keep Source and Target in Sync**
-   - The source system must consistently update the version field so the platform can detect changes accurately.
-
-Once set up, the platform will automatically ingest **only changed or new records** each time the flow runs.
--->
