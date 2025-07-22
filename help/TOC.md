@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
+source-git-commit: b731dfbf00557b96585dc4133f246bfb101bee98
 workflow-type: tm+mt
 source-wordcount: '2581'
 ht-degree: 96%
@@ -180,42 +180,6 @@ ht-degree: 96%
       + [ジャーニー実行のトラブルシューティング](using/building-journeys/troubleshooting-execution.md)
       + [インバウンドアクションのトラブルシューティング](using/building-journeys/troubleshooting-inbound.md)
       + [カスタムアクションのトラブルシューティング](using/action/troubleshoot-custom-action.md)
-+ 調整されたキャンペーン {#orchestrated-campaigns}
-   + [調整されたキャンペーンの基本を学ぶ](using/orchestrated/gs-orchestrated-campaigns.md)
-   + リレーショナルスキーマとデータセットの管理 {#schemas-datasets}
-      + [スキーマとデータセットの基本を学ぶ](using/orchestrated/gs-schemas.md)
-      + [手動スキーマ](using/orchestrated/manual-schema.md)
-      + [ファイルアップロードスキーマ](using/orchestrated/file-upload-schema.md)
-      + [データの取得](using/orchestrated/ingest-data.md)
-   + [調整されたキャンペーンへのアクセスと管理](using/orchestrated/access-manage-orchestrated-campaigns.md)
-   + [ガードレールと制限](using/orchestrated/guardrails.md)
-   + 最初の調整されたキャンペーンの開始{#launch}
-      + [調整されたキャンペーンを作成するための主な手順](using/orchestrated/gs-campaign-creation.md)
-      + [キャンペーンの作成とスケジュール](using/orchestrated/create-orchestrated-campaign.md)
-      + [アクティビティの調整](using/orchestrated/orchestrate-activities.md)
-      + [キャンペーンの開始と監視](using/orchestrated/start-monitor-campaigns.md)
-      + [レポート](using/orchestrated/reporting-campaigns.md)
-   + データベースのクエリ {#query-database}
-      + [ルールビルダーの操作](using/orchestrated/orchestrated-rule-builder.md)
-      + [最初のルールの作成](using/orchestrated/build-query.md)
-      + [式の編集](using/orchestrated/edit-expressions.md)
-      + [リターゲティング](using/orchestrated/retarget.md)
-   + 調整されたキャンペーンアクティビティ {#design-campaigns}
-      + [アクティビティの概要](using/orchestrated/activities/about-activities.md)
-      + [AND 結合](using/orchestrated/activities/and-join.md)
-      + [オーディエンスを作成](using/orchestrated/activities/build-audience.md)
-      + [ディメンションを変更](using/orchestrated/activities/change-dimension.md)
-      + [チャネルアクティビティ](using/orchestrated/activities/channels.md)
-      + [結合](using/orchestrated/activities/combine.md)
-      + [重複の除外](using/orchestrated/activities/deduplication.md)
-      + [エンリッチメント](using/orchestrated/activities/enrichment.md)
-      + [分岐](using/orchestrated/activities/fork.md)
-      + [オーディエンスを読み取り](using/orchestrated/activities/read-audience.md)
-      + [紐付け](using/orchestrated/activities/reconciliation.md)
-      + [オーディエンスの保存](using/orchestrated/activities/save-audience.md)
-      + [分割](using/orchestrated/activities/split.md)
-      + [テスト](using/orchestrated/activities/test.md)
-      + [待機](using/orchestrated/activities/wait.md)
 + キャンペーン {#campaigns}
    + [キャンペーンの基本を学ぶ](using/campaigns/get-started-with-campaigns.md)
    + [キャンペーンへのアクセスと管理](using/campaigns/modify-stop-campaign.md)
@@ -236,6 +200,42 @@ ht-degree: 96%
       + [キャンペーンのスケジュール](using/campaigns/api-triggered-campaign-schedule.md)
       + [キャンペーンのレビューとアクティブ化](using/campaigns/review-activate-api-triggered-campaign.md)
       + [キャンペーン実行のトリガー](using/campaigns/trigger-campaigns.md)
+   + 調整されたキャンペーン {#orchestrated-campaigns}
+      + [調整されたキャンペーンの基本を学ぶ](using/orchestrated/gs-orchestrated-campaigns.md)
+      + リレーショナルスキーマとデータセットの管理 {#schemas-datasets}
+         + [スキーマとデータセットの基本を学ぶ](using/orchestrated/gs-schemas.md)
+         + [手動スキーマ](using/orchestrated/manual-schema.md)
+         + [ファイルアップロードスキーマ](using/orchestrated/file-upload-schema.md)
+         + [データの取得](using/orchestrated/ingest-data.md)
+      + [調整されたキャンペーンへのアクセスと管理](using/orchestrated/access-manage-orchestrated-campaigns.md)
+      + [ガードレールと制限](using/orchestrated/guardrails.md)
+      + 最初の調整されたキャンペーンの開始{#launch}
+         + [調整されたキャンペーンを作成するための主な手順](using/orchestrated/gs-campaign-creation.md)
+         + [キャンペーンの作成とスケジュール](using/orchestrated/create-orchestrated-campaign.md)
+         + [アクティビティの調整](using/orchestrated/orchestrate-activities.md)
+         + [キャンペーンの開始と監視](using/orchestrated/start-monitor-campaigns.md)
+         + [レポート](using/orchestrated/reporting-campaigns.md)
+      + データベースのクエリ {#query-database}
+         + [ルールビルダーの操作](using/orchestrated/orchestrated-rule-builder.md)
+         + [最初のルールの作成](using/orchestrated/build-query.md)
+         + [式の編集](using/orchestrated/edit-expressions.md)
+         + [リターゲティング](using/orchestrated/retarget.md)
+      + 調整されたキャンペーンアクティビティ {#design-campaigns}
+         + [アクティビティの概要](using/orchestrated/activities/about-activities.md)
+         + [AND 結合](using/orchestrated/activities/and-join.md)
+         + [オーディエンスを作成](using/orchestrated/activities/build-audience.md)
+         + [ディメンションを変更](using/orchestrated/activities/change-dimension.md)
+         + [チャネルアクティビティ](using/orchestrated/activities/channels.md)
+         + [結合](using/orchestrated/activities/combine.md)
+         + [重複の除外](using/orchestrated/activities/deduplication.md)
+         + [エンリッチメント](using/orchestrated/activities/enrichment.md)
+         + [分岐](using/orchestrated/activities/fork.md)
+         + [オーディエンスを読み取り](using/orchestrated/activities/read-audience.md)
+         + [紐付け](using/orchestrated/activities/reconciliation.md)
+         + [オーディエンスの保存](using/orchestrated/activities/save-audience.md)
+         + [分割](using/orchestrated/activities/split.md)
+         + [テスト](using/orchestrated/activities/test.md)
+         + [待機](using/orchestrated/activities/wait.md)
 + 競合管理と優先順位付け {#conflict-prioritization}
    + [競合管理と優先順位付けの基本を学ぶ](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [潜在的な競合の特定](using/conflict-prioritization/conflicts.md)
