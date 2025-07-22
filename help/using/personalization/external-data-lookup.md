@@ -95,7 +95,7 @@ ht-degree: 1%
 
 パラメーター名：
 
-* ヘッダーパラメーター：「header」。<parameter-name>
+* ヘッダーパラメーター：「header」。&lt;parameter-name>
 * クエリパラメーター：`query.<parameter-name>`
 * ペイロードのパラメーター：`payload.<parameter-name>`
 * パスパラメーター：`dynamic_path.<parameter-name>`
