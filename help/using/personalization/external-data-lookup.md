@@ -95,10 +95,10 @@ ht-degree: 1%
 
 パラメーター名：
 
-* ヘッダーパラメーター：ヘッダー。<parameter-name>
-* クエリパラメーター：クエリ。<parameter-name>
-* ペイロードパラメーター：payload。<parameter-name>
-* パスパラメーター：dynamic_path。<parameter-name>
+* ヘッダーパラメーター：ヘッダー。&lt;parameter-name>
+* クエリパラメーター：クエリ。&lt;parameter-name>
+* ペイロードパラメーター：payload。&lt;parameter-name>
+* パスパラメーター：dynamic_path。&lt;parameter-name>
 
 例：
 

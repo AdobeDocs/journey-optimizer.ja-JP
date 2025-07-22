@@ -197,10 +197,10 @@ AJOでは、AEP Edge Networkの低遅延および高スループットのパフ�
 
 パラメーター名：
 
-ヘッダーパラメーター：ヘッダー。<parameter-name>
-クエリパラメーター：クエリ。<parameter-name>
-ペイロードパラメーター：payload。<parameter-name>
-パスパラメーター：dynamic_path。<parameter-name>
+ヘッダーパラメーター：ヘッダー。&lt;parameter-name>
+クエリパラメーター：クエリ。&lt;parameter-name>
+ペイロードパラメーター：payload。&lt;parameter-name>
+パスパラメーター：dynamic_path。&lt;parameter-name>
 例：
 
 {{externalDataLookup actionId="..." result="result" header.myHeaderParameter="value1" query.myQueryParameter="value2" payload.myPayloadParameter="value3"}}
