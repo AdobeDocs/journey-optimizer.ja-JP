@@ -9,7 +9,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: 7f507dc0113e85191429c2c48b873112b590e3ce
+source-git-commit: acb87d0c7c3b8b1bde033f9483ecdeca5cee3325
 workflow-type: tm+mt
 source-wordcount: '636'
 ht-degree: 76%
@@ -116,9 +116,7 @@ WhatsApp API 認証情報が正常に作成されたら、次の手順は Webhoo
 
 1. 左側のレールで、**[!UICONTROL 管理]**`>`**[!UICONTROL チャネル]** に移動し、**[!UICONTROL WhatsApp 設定]** の下にある **[!UICONTROL WhatsApp Webhook]** メニューを選択して、**[!UICONTROL Webhook を作成]** ボタンをクリックします。
 
-   ![](assets/sms_byo_5.png)
-
-1. Webhook の [!UICONTROL &#x200B; 名前 &#x200B;] を入力します。
+1. Webhook の [!UICONTROL  名前 ] を入力します。
 
 1. ドロップダウンから、以前に作成した [ 設定 ](#whatsapp-configuration) を選択します。
 
