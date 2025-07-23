@@ -9,10 +9,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: 50a16d70fbf0c64fed64b037a5bcd14c21442c89
+source-git-commit: 2e1f77da8354d793a2d3465790f5e4574eb27a14
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 74%
+source-wordcount: '667'
+ht-degree: 73%
 
 ---
 
@@ -32,9 +32,8 @@ ht-degree: 74%
 WhatsApp メッセージを送信する前に、Adobe Journey Optimizer 環境を設定し、WhatsApp アカウントに関連付ける必要があります。これを実行するには、次の手順を実行します。
 
 1. [WhatsApp API 資格情報を作成します](#WhatsApp-credentials)
-1. [WhatsApp 設定を作成します](#WhatsApp-configuration)
 1. [WhatsApp Webhook の作成](#WhatsApp-webhook)
-
+1. [WhatsApp 設定を作成します](#WhatsApp-configuration)
 
 これらの手順は、Adobe Journey Optimizer [システム管理者](../start/path/administrator.md)が実行する必要があります。
 
@@ -72,6 +71,48 @@ WhatsApp メッセージを送信する前に、Adobe Journey Optimizer 環境�
 
 API 資格情報を作成および設定したら、WhatsApp メッセージ用のチャネル設定を作成する必要があります。[詳細情報](#whatsapp-configuration)
 
+## Webhook の作成 {#WhatsApp-webhook}
+
+>[!NOTE]
+>
+>オプトインまたはオプトアウトのキーワードが指定されていない場合、標準の同意メッセージは有効になりません。
+
+WhatsApp API 認証情報と [Meta Webhook](https://developers.facebook.com/docs/whatsapp/webhooks/) が正常に作成されたら、次の手順は Webhook を作成してインバウンド設定を設定することです。
+
+1. 左側のレールで、**[!UICONTROL 管理]**`>`**[!UICONTROL チャネル]** に移動し、**[!UICONTROL WhatsApp 設定]** の下にある **[!UICONTROL WhatsApp Webhook]** メニューを選択して、**[!UICONTROL Webhook を作成]** ボタンをクリックします。
+
+1. Webhook の [!UICONTROL  名前 ] を入力します。
+
+1. ドロップダウンから、以前に作成した [API 資格情報 ](#whatsapp-credentials) を選択します。
+
+1. 「![ 追加 ](assets/do-not-localize/Smock_AddCircle_18_N.svg)」をクリックして、次のような **[!UICONTROL 受信キーワードカテゴリ]** の設定を開始します。
+
+   * **[!UICONTROL オプトインキーワード]**
+   * **[!UICONTROL オプトアウトキーワード]**
+   * **[!UICONTROL ヘルプキーワード]**
+
+1. **[!UICONTROL キーワード]** を入力します。
+
+   複数のキーワードを追加するには、「![ 追加 ](assets/do-not-localize/Smock_AddCircle_18_N.svg)」をクリックします。
+
+1. 設定したキーワードを受信したときに送信される **[!UICONTROL 返信メッセージ]** を指定します。
+
+<!--
+1. Click **[!UICONTROL View payload editor]** to validate and customize your request payloads. 
+    
+    You can dynamically personalize your payload using profile attributes, and ensure accurate data is sent for processing and response generation with the help of built-in helper functions.
+-->
+
+1. WhatsApp Webhook の設定が完了したら、**[!UICONTROL 送信]** をクリックします。
+
+1. **[!UICONTROL Webhook]** メニューで ![bin アイコン ](assets/do-not-localize/Smock_Delete_18_N.svg) をクリックして WhatsApp Webhook を削除します。
+
+1. 既存の設定を変更するには、目的の Webhook を見つけて、「**[!UICONTROL 編集]**」オプションをクリックして必要な変更を行います。
+
+1. 以前に送信した **[!UICONTROL WhatsApp Webhook]** から新しい **[!UICONTROL Webhook URL]** にアクセスしてコピーします。
+
+Webhook が設定されたので、WhatsApp 設定を作成できます。
+
 ## WhatsApp 設定の作成 {#whatsapp-configuration}
 
 1. 左側のパネルで、**[!UICONTROL 管理]**／**[!UICONTROL チャネル]**&#x200B;を参照し、**[!UICONTROL 一般設定]**／**[!UICONTROL チャネル設定]**&#x200B;を選択します。「**[!UICONTROL チャネル設定を作成]**」ボタンをクリックします。
@@ -105,46 +146,6 @@ API 資格情報を作成および設定したら、WhatsApp メッセージ用�
    >チェックが成功しなかった場合、考えられる失敗理由について詳しくは[この節](../configuration/channel-surfaces.md)を参照してください。
 
 1. チェックが正常に完了すると、チャネル設定のステータスが「**[!UICONTROL アクティブ]**」になります。メッセージの配信に使用する準備が整いました。
-
-## Webhook の作成 {#WhatsApp-webhook}
-
->[!NOTE]
->
->オプトインまたはオプトアウトのキーワードが指定されていない場合、標準の同意メッセージは有効になりません。
-
-WhatsApp API 認証情報と [Meta Webhook](https://developers.facebook.com/docs/whatsapp/webhooks/) が正常に作成されたら、次の手順は Webhook を作成してインバウンド設定を設定することです。
-
-1. 左側のレールで、**[!UICONTROL 管理]**`>`**[!UICONTROL チャネル]** に移動し、**[!UICONTROL WhatsApp 設定]** の下にある **[!UICONTROL WhatsApp Webhook]** メニューを選択して、**[!UICONTROL Webhook を作成]** ボタンをクリックします。
-
-1. Webhook の [!UICONTROL &#x200B; 名前 &#x200B;] を入力します。
-
-1. ドロップダウンから、以前に作成した [ 設定 ](#whatsapp-configuration) を選択します。
-
-1. 「![ 追加 ](assets/do-not-localize/Smock_AddCircle_18_N.svg)」をクリックして、次のような **[!UICONTROL 受信キーワードカテゴリ]** の設定を開始します。
-
-   * **[!UICONTROL オプトインキーワード]**
-   * **[!UICONTROL オプトアウトキーワード]**
-   * **[!UICONTROL ヘルプキーワード]**
-
-1. **[!UICONTROL キーワード]** を入力します。
-
-   複数のキーワードを追加するには、「![ 追加 ](assets/do-not-localize/Smock_AddCircle_18_N.svg)」をクリックします。
-
-1. 設定したキーワードを受信したときに送信される **[!UICONTROL 返信メッセージ]** を指定します。
-
-<!--
-1. Click **[!UICONTROL View payload editor]** to validate and customize your request payloads. 
-    
-    You can dynamically personalize your payload using profile attributes, and ensure accurate data is sent for processing and response generation with the help of built-in helper functions.
--->
-
-1. WhatsApp Webhook の設定が完了したら、**[!UICONTROL 送信]** をクリックします。
-
-1. **[!UICONTROL Webhook]** メニューで ![bin アイコン ](assets/do-not-localize/Smock_Delete_18_N.svg) をクリックして WhatsApp Webhook を削除します。
-
-1. 既存の設定を変更するには、目的の Webhook を見つけて、「**[!UICONTROL 編集]**」オプションをクリックして必要な変更を行います。
-
-1. 以前に送信した **[!UICONTROL WhatsApp Webhook]** から新しい **[!UICONTROL Webhook URL]** にアクセスしてコピーします。
 
 設定が完了すると、メッセージオーサリング、パーソナライゼーション、リンクトラッキング、レポートなど、すべての標準のチャネル機能を活用できます。
 
