@@ -7,10 +7,10 @@ badge: label="アルファ版"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 3f92dc721648f822687b8efc302c40989b72b145
+source-git-commit: 30e22bc1a2ab95dbbef1fb35a01cd2f5d5b02423
 workflow-type: tm+mt
-source-wordcount: '998'
-ht-degree: 36%
+source-wordcount: '1166'
+ht-degree: 31%
 
 ---
 
@@ -56,7 +56,7 @@ UNUSED IDs in BJ
 
 | 調整されたキャンペーンへようこそ | 最初の調整されたキャンペーンの開始 | データベースのクエリ | 調整されたキャンペーンアクティビティ |
 |---|---|---|---|
-| [ 調整されたキャンペーンの基本を学ぶ ](../gs-orchestrated-campaigns.md)<br/><br/> リレーショナルスキーマとデータセットの作成および管理：</br> <ul><li>[ スキーマとデータセットの概要 ](../gs-schemas.md)</li><li>[ 手動スキーマ ](../manual-schema.md)</li><li>[ ファイルアップロードスキーマ ](../file-upload-schema.md)</li><li>[ データの取り込み ](../ingest-data.md)</li></ul>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](../access-manage-orchestrated-campaigns.md) | [ オーケストレーションされたキャンペーンを作成 ](../gs-campaign-creation.md)<br/><br/>[ キャンペーンを作成およびスケジュール ](../create-orchestrated-campaign.md)<br/><br/>[ アクティビティをオーケストレーション ](../orchestrate-activities.md)<br/><br/>[ キャンペーンを開始および監視 ](../start-monitor-campaigns.md)<br/><br/>[ レポート ](../reporting-campaigns.md) 主な手順 | [ ルールビルダーの操作 ](../orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリの作成 ](../build-query.md)<br/><br/>[ 式の編集 ](../edit-expressions.md)<br/><br/>[ リターゲティング ](../retarget.md) | [ アクティビティの基本を学ぶ ](about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](and-join.md) - [ オーディエンスを作成 ](build-audience.md) - [ ディメンションの変更 ](change-dimension.md) - <b>[ チャネルアクティビティ ](channels.md)</b> - [ 結合 ](combine.md) - [ 重複排除 ](deduplication.md) - [ エンリッチメント ](enrichment.md) - [ 分岐 ](fork.md) - [ 紐付け ](reconciliation.md) [&#128279;](save-audience.md) [&#128279;](split.md) [&#128279;](wait.md) - |
+| [ 調整されたキャンペーンの基本を学ぶ ](../gs-orchestrated-campaigns.md)<br/><br/> リレーショナルスキーマとデータセットの作成および管理：</br> <ul><li>[ スキーマとデータセットの概要 ](../gs-schemas.md)</li><li>[ 手動スキーマ ](../manual-schema.md)</li><li>[ ファイルアップロードスキーマ ](../file-upload-schema.md)</li><li>[ データの取り込み ](../ingest-data.md)</li></ul>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](../access-manage-orchestrated-campaigns.md) | [ オーケストレーションされたキャンペーンを作成 ](../gs-campaign-creation.md)<br/><br/>[ キャンペーンを作成およびスケジュール ](../create-orchestrated-campaign.md)<br/><br/>[ アクティビティをオーケストレーション ](../orchestrate-activities.md)<br/><br/>[ キャンペーンを開始および監視 ](../start-monitor-campaigns.md)<br/><br/>[ レポート ](../reporting-campaigns.md) 主な手順 | [ ルールビルダーの操作 ](../orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリの作成 ](../build-query.md)<br/><br/>[ 式の編集 ](../edit-expressions.md)<br/><br/>[ リターゲティング ](../retarget.md) | [ アクティビティの基本を学ぶ ](about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](and-join.md) - [ オーディエンスを作成 ](build-audience.md) - [ ディメンションの変更 ](change-dimension.md) - <b>[ チャネルアクティビティ ](channels.md)</b> - [ 結合 ](combine.md) - [ 重複排除 ](deduplication.md) - [ エンリッチメント ](enrichment.md) - [ 分岐 ](fork.md) - [ 紐付け ](reconciliation.md) [ ](save-audience.md) [ ](split.md) [ ](wait.md) - |
 
 {style="table-layout:fixed"}
 
@@ -136,6 +136,28 @@ UNUSED IDs in BJ
 <td><a href="../../sms/create-sms.md"><img alt="SMS" src="../../channels/assets/do-not-localize/sms.png"></a><br/><a href="../../sms/create-sms.md"><strong>SMS の作成</strong></a></td>
 <td><a href="../../push/create-push.md"><img alt="プッシュ" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>プッシュ通知の作成</strong></a></td>
 </tr></table>
+
+## パーソナライゼーションの追加
+
+オーケストレートキャンペーンのPersonalizationは、他の **[!UICONTROL Journey Optimizer]** キャンペーンやジャーニーと同様に機能しますが、オーケストレーションされたキャンバスに固有の重要な違いがいくつかあります。
+
+調整されたキャンペーンからパーソナライゼーションエディターにアクセスする場合、2 つの主なフォルダーには、以下に詳しく説明するように、パーソナライゼーションに使用できる属性が含まれています。
+
+* **[!UICONTROL プロファイル属性]**
+
+  このフォルダーには、[!DNL Adobe Experience Platform] のすべてのプロファイル関連データが含まれます。 これらは、名前、メールアドレス、場所、ユーザープロファイルで取得されるその他の特性などの標準的な属性です。
+
+* **[!UICONTROL ターゲット属性]** （オーケストレーションされたキャンペーンに固有）
+
+  このフォルダーは、オーケストレーションされたキャンペーンに固有です。 キャンペーンキャンバス内で直接計算された属性が含まれます。 次の 2 つのサブフォルダーが含まれます。
+
+   * **`<Targeting dimension>`** （「受信者」、「購入」など）：キャンペーンのターゲットとなるディメンションに関連するすべての属性が含まれます。
+
+   * **`Enrichment`**: **[!UICONTROL エンリッチメント]** アクティビティを通じて追加されたデータをキャンバスに含めます。 これにより、外部データセットや、オーケストレーション中に組み込まれた追加のロジックに基づいて、メッセージをパーソナライズできます。 [ エンリッチメントアクティビティの使用方法を学ぶ ](../activities/enrichment.md)
+
+パーソナライゼーションエディターの使用方法について詳しくは、[ パーソナライゼーションの概要 ](../../personalization/personalize.md) を参照してください
+
+## コンテンツのチェックとテスト
 
 コンテンツを作成したら、「**[!UICONTROL コンテンツをシミュレート]**」ボタンを使用して、テストプロファイルや CSV/JSON ファイルからアップロードしたサンプル入力データまたは手動で追加したサンプル入力データで、コンテンツをプレビューおよびテストします。 [詳細情報](../../content-management/preview-test.md)
 
