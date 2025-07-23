@@ -118,7 +118,7 @@ WhatsApp API 認証情報が正常に作成されたら、次の手順は Webhoo
 
    ![](assets/sms_byo_5.png)
 
-1. Webhook の [!UICONTROL  名前 ] を入力します。
+1. Webhook の [!UICONTROL &#x200B; 名前 &#x200B;] を入力します。
 
 1. ドロップダウンから、以前に作成した [ 設定 ](#whatsapp-configuration) を選択します。
 
