@@ -11,10 +11,10 @@ keywords: サブドメイン, デリゲーション, ドメイン, DNS
 hide: true
 hidefromtoc: true
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: 64ff860167439e1b098918cd913f2361f7365a50
+source-git-commit: c1b016af0d44e0dceb4cc292ddf1820abf2734e1
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 32%
+source-wordcount: '736'
+ht-degree: 30%
 
 ---
 
@@ -122,7 +122,7 @@ ht-degree: 32%
 
    >[!NOTE]
    >
-   >見つからないレコード（ホスティングソリューションでまだ作成されていないレコード）が表示されます。
+   >続行する前に、すべてのレコードが正しく作成されていることを確認します。
 
    アドビは SSL CDN URL 検証レコードを生成します。この検証レコードをホスティングプラットフォームにコピーします。ホスティングソリューションでこのレコードを適切に作成している場合は、「確認しました」チェックボックスをオンにします。
 
