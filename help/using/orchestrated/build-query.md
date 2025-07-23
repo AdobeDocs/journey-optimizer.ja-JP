@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 最初のルールを作成
-description: オーケストレートキャンペーン用のルールを作成する方法を説明します
+title: 最初のルールの作成
+description: 調整されたキャンペーンのルールの作成方法について説明します
 badge: label="アルファ版"
 hide: true
 hidefromtoc: true
@@ -10,17 +10,17 @@ exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
 source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
 workflow-type: tm+mt
 source-wordcount: '1834'
-ht-degree: 51%
+ht-degree: 97%
 
 ---
 
-# 最初のルールを作成 {#build-query}
+# 最初のルールの作成 {#build-query}
 
 +++ 目次
 
 | 調整されたキャンペーンへようこそ | 最初の調整されたキャンペーンの開始 | データベースのクエリ | 調整されたキャンペーンアクティビティ |
 |---|---|---|---|
-| [ 調整されたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)<br/><br/> リレーショナルスキーマとデータセットの作成および管理：</br> <ul><li>[ スキーマとデータセットの概要 ](gs-schemas.md)</li><li>[ 手動スキーマ ](manual-schema.md)</li><li>[ ファイルアップロードスキーマ ](file-upload-schema.md)</li><li>[ データの取り込み ](ingest-data.md)</li></ul>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md)<br/><br/>[ オーケストレーションされたキャンペーンを作成するための主な手順 ](gs-campaign-creation.md) | [ キャンペーンの作成とスケジュール設定 ](create-orchestrated-campaign.md)<br/><br/>[ アクティビティのオーケストレーション ](orchestrate-activities.md)<br/><br/>[ キャンペーンの開始と監視 ](start-monitor-campaigns.md)<br/><br/>[ レポート ](reporting-campaigns.md) | [ ルールビルダーの操作 ](orchestrated-rule-builder.md)<br/><br/><b>[ 最初のクエリの作成 ](build-query.md)</b><br/><br/>[ 式の編集 ](edit-expressions.md)<br/><br/>[ リターゲティング ](retarget.md) | [ アクティビティの基本を学ぶ ](activities/about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションの変更 ](activities/change-dimension.md) - [ チャネルアクティビティ ](activities/channels.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) [&#128279;](activities/save-audience.md) [&#128279;](activities/split.md) [&#128279;](activities/wait.md) - |
+| [ 調整されたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)<br/><br/> リレーショナルスキーマとデータセットの作成および管理：</br> <ul><li>[ スキーマとデータセットの概要 ](gs-schemas.md)</li><li>[ 手動スキーマ ](manual-schema.md)</li><li>[ ファイルアップロードスキーマ ](file-upload-schema.md)</li><li>[ データの取り込み ](ingest-data.md)</li></ul>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md)<br/><br/>[ オーケストレーションされたキャンペーンを作成するための主な手順 ](gs-campaign-creation.md) | [キャンペーンの作成とスケジュール](create-orchestrated-campaign.md)<br/><br/>[アクティビティの調整](orchestrate-activities.md)<br/><br/>[キャンペーンの開始と監視](start-monitor-campaigns.md)<br/><br/>[レポート](reporting-campaigns.md) | [ルールビルダーの操作](orchestrated-rule-builder.md)<br/><br/><b>[最初のクエリの作成](build-query.md)</b><br/><br/>[式の編集](edit-expressions.md)<br/><br/>[リターゲティング](retarget.md) | [アクティビティの基本を学ぶ](activities/about-activities.md)<br/><br/>アクティビティ：<br/>[AND 結合](activities/and-join.md) - [オーディエンスを作成](activities/build-audience.md) - [ディメンションを変更](activities/change-dimension.md) - [チャネルアクティビティ](activities/channels.md) - [結合](activities/combine.md) - [重複排除](activities/deduplication.md) - [エンリッチメント](activities/enrichment.md) - [分岐](activities/fork.md) - [紐付け](activities/reconciliation.md) - [オーディエンスを保存](activities/save-audience.md) - [分割](activities/split.md) - [待機](activities/wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -36,61 +36,61 @@ ht-degree: 51%
 
 >[!ENDSHADEBOX]
 
-調整されたキャンペーンのルールを作成する主な手順は次のとおりです。
+調整されたキャンペーンのルールの作成の主な手順を次に示します。
 
-1. **条件の追加** - データベースの属性と高度な式を使用して独自の条件を作成することで、クエリをフィルタリングするカスタム条件を作成します。
-1. **条件の組み合わせ** - グループと論理演算子を使用して、キャンバスで条件を配置します。
-1. **ルールをチェックして検証する** - ルールを保存する前に、ルールの結果データを確認します。
+1. **条件を追加** - データベースの属性と高度な式を使用して独自の条件を作成し、クエリをフィルタリングするカスタム条件を作成します。
+1. **条件を組み合わせ** - グループと論理演算子を使用して、キャンバスに条件を配置します。
+1. **ルールの確認と検証** - ルールを保存する前に、ルールの結果データを確認します。
 
 ## 条件の追加 {#conditions}
 
 クエリに条件を追加するには、次の手順に従います。
 
-1. **[!UICONTROL オーディエンスを作成]** アクティビティからルールビルダーにアクセスします。
+1. **[!UICONTROL オーディエンスを作成]**&#x200B;アクティビティからルールビルダーにアクセスします。
 
 1. 「**条件を追加**」ボタンをクリックして、クエリの最初の条件を作成します。
 
-   定義済みフィルターを使用してクエリを開始することもできます。 これを行うには、「**[!UICONTROL フィルターを選択または保存]**」ボタンをクリックし、「**[!UICONTROL 定義済みフィルターを選択]** を選択します。
+   また、定義済みフィルターを使用してクエリを開始することもできます。これを行うには、「**[!UICONTROL フィルターを選択または保存]**」ボタンをクリックし、「**[!UICONTROL 定義済みフィルターを選択]**」を選択します。
 
-   ![ ルールビルダーを示す画像 ](assets/rule-builder-add.png)
+   ![ルールビルダーを示す画像](assets/rule-builder-add.png)
 
-1. 条件の条件として使用する属性をデータベースから特定します。 属性の横にある「i」アイコンは、属性が格納されているテーブルとそのデータタイプに関する情報を提供します。
+1. 条件の基準として使用する属性をデータベースから識別します。属性の横にある「i」アイコンは、属性が格納されているテーブルとそのデータタイプに関する情報を提供します。
 
-   ![ 属性の選択を示す画像 ](assets/rule-builder-select-attribute.png)
+   ![属性の選択を示す画像](assets/rule-builder-select-attribute.png)
 
    >[!NOTE]
    >
-   >「**式を編集**」ボタンを使用すると、式エディターを使用して、データベース関数とヘルパー関数のフィールドを使用して式を手動で定義できます。 [式の編集方法を学ぶ](../orchestrated/edit-expressions.md)
+   >「**式を編集**」ボタンを使用すると、式エディターを使用し、データベースのフィールドとヘルパー関数を使用して式を手動で定義できます。[詳しくは、式の編集方法を参照してください。](../orchestrated/edit-expressions.md)
 
-1. 属性の横にある ![ 「その他のアクション」ボタンを示す画像 ](assets/do-not-localize/rule-builder-icon-more.svg) ボタンをクリックして、次の追加オプションにアクセスします。
+1. 属性の横にある ![「その他のアクション」ボタンを示す画像](assets/do-not-localize/rule-builder-icon-more.svg) ボタンをクリックして、次の追加オプションにアクセスします。
 
 +++ 値の配分
 
-   テーブル内の特定の属性に対する値の分布を分析します。 この機能は、使用可能な値、その数および割合を理解するのに特に役立ちます。また、クエリや式の作成時に、大文字と小文字の区別やスペルの不一致などの問題を回避する上でも役立ちます。
+   テーブル内の特定の属性に対する値の配分を分析します。この機能は、使用可能な値、その数および割合を理解するのに特に役立ちます。また、クエリや式の作成時に、大文字と小文字の区別やスペルの不一致などの問題を回避する上でも役立ちます。
 
-   多数の値を持つ属性の場合、ツールには最初の 20 個のみが表示されます。このような場合、この制限を示す&#x200B;**[!UICONTROL 部分読み込み]**&#x200B;通知が表示されます。詳細フィルターを適用して表示される結果を絞り込み、特定の値やデータのサブセットにフォーカスできます。
+   多数の値を持つ属性の場合、ツールには最初の 20 個のみが表示されます。このような場合、この制限を示す&#x200B;**[!UICONTROL 部分読み込み]**&#x200B;通知が表示されます。詳細フィルターを適用して、表示される結果を絞り込み、特定の値やデータのサブセットに焦点を当てることができます。
 
-   ![ 値の配分インターフェイスを示す画像 ](assets/rule-builder-distribution-values.png)
+   ![値の配分インターフェイスを示す画像](assets/rule-builder-distribution-values.png)
 
 +++
 
 +++ お気に入りに追加
 
-   お気に入りメニューに属性を追加すると、最も頻繁に使用する属性にすばやくアクセスできます。 最大 20 個の属性をお気に入りに追加できます。 お気に入りと最近使用した属性は、組織内の各ユーザーに関連付けられ、様々なマシンからアクセスできるので、デバイス間でシームレスなエクスペリエンスを実現できます。
+   お気に入りメニューに属性を追加すると、最も頻繁に使用する属性にすばやくアクセスできます。最大 20 個の属性をお気に入りに追加できます。お気に入りと最近使用した属性は、組織内の各ユーザーに関連付けられ、様々なマシンからアクセスできるので、デバイス間でシームレスなエクスペリエンスを実現できます。
 
-   お気に入りの属性にアクセスするには、**[!UICONTROL お気に入りと最近使用したもの]** メニューを使用します。 お気に入りの属性が最初に表示され、その後に最近使用した属性が表示されるので、必要な属性を簡単に見つけることができます。 属性をお気に入りから削除するには、もう一度スターアイコンを選択します。
+   お気に入りの属性にアクセスするには、**[!UICONTROL お気に入りと最近使用したもの]**&#x200B;メニューを使用します。お気に入りの属性が最初に表示され、その後に最近使用した属性が表示されるので、必要な属性を簡単に見つけることができます。属性をお気に入りから削除するには、もう一度スターアイコンを選択します。
 
-   ![ お気に入りインターフェイスを示す画像 ](assets/rule-builder-favorites.png)
+   ![お気に入りインターフェイスを示す画像](assets/rule-builder-favorites.png)
 
 +++
 
 1. 「**[!UICONTROL 確認]**」をクリックして、選択した属性を条件に追加します。
 
-1. プロパティペインが表示され、属性に必要な値を設定できます。
+1. プロパティパネルが表示され、属性の目的の値を設定できます。
 
-   ![ 条件が追加されたルールビルダーを示す画像 ](assets/rule-builder-condition.png)
+   ![条件が追加されたルールビルダーを示す画像](assets/rule-builder-condition.png)
 
-1. 適用する **[!UICONTROL オペレーター]** をドロップダウンリストから選択します。 様々な演算子が使用可能です。ドロップダウンリストで使用できる演算子は、属性のデータタイプによって異なります。
+1. 適用する&#x200B;**[!UICONTROL 演算子]**&#x200B;をドロップダウンリストから選択します。様々な演算子が使用可能です。ドロップダウンリストで使用できる演算子は、属性のデータタイプによって異なります。
 
    +++使用可能な演算子のリスト
 
@@ -113,17 +113,17 @@ ht-degree: 51%
    | 次に類似 | 「次を含む」演算子と同様に、値に % ワイルドカード文字を挿入できます。 | 姓（@lastName）が「Jon%s」に類似しています。ワイルドカード文字は、「佐藤」のような名前を見つけるために「ジョーカー」として機能します。 |
    | 次に類似しない | 「次を含む」演算子と同様に、値に % ワイルドカード文字を挿入できます。 | 姓（@lastName）が「Smi%h」に類似していません。姓が「田中」の受信者は返されません。 |
 
-   +++
++++
 
-1. 「**値**」フィールドで、期待値を定義します。また、式エディターを使用して、データベース関数とヘルパー関数のフィールドを使用して、手動で式を定義することもできます。 それには、「![ 式エディターのアイコンを示す画像 ](assets/do-not-localize/rule-builder-icon-editor.svg) アイコンをクリックします。 [式の編集方法を学ぶ](../orchestrated/edit-expressions.md)
+1. 「**値**」フィールドで、期待値を定義します。また、式エディターを使用し、データベースのフィールドとヘルパー関数を使用して式を手動で定義することもできます。これを行うには、![式エディターのアイコンを示す画像](assets/do-not-localize/rule-builder-icon-editor.svg) アイコンをクリックします。[詳しくは、式の編集方法を参照してください。](../orchestrated/edit-expressions.md)
 
    日付タイプの属性の場合、「**[!UICONTROL プリセット]**」オプションを使用して定義済みの値を使用できます。
 
    +++例を参照
 
-   ![ 「プリセット」オプションを示す画像 ](assets/rule-builder-attribute-preset.png)
+   ![「プリセット」オプションを示す画像](assets/rule-builder-attribute-preset.png)
 
-   +++
++++
 
 ### リンクされたテーブルのカスタム条件（1 対 1 および 1 対多リンク）{#links}
 
@@ -155,7 +155,7 @@ ht-degree: 51%
 
 +++クエリの例
 
-ここでは、クエリは、Brewmsaster 製品に関連する購入を行った受信者を 100 ドル以上ターゲティングしています。
+ここでは、クエリは、Brewmsaster 製品に関連して 100 ドル以上購入した受信者をターゲットにしています。
 
 1. **購入**&#x200B;テーブルを選択し、確定します。
 
@@ -179,11 +179,11 @@ ht-degree: 51%
 
    ![「データを集計」オプションのスクリーンショット](assets/rule-builder-aggregate.png)
 
-## 演算子を使用して条件を組み合わせる {#operators}
+## 演算子を使用した条件の結合 {#operators}
 
-ルールに新しい条件を追加するたびに、**AND** 演算子によって既存の条件に自動的にリンクされます。 つまり、2 つの条件の結果が結合されます。
+新しい条件をルールに追加するたびに、**AND** 演算子によって既存の条件に自動的にリンクされます。つまり、2 つの条件の結果が結合されます。
 
-条件間で演算子を変更するには、条件間で演算子をクリックし、目的の演算子を選択します。
+条件間で演算子を変更するには、クリックして、目的の演算子を選択します。
 
 ![クエリの例](assets/rule-builder-change-operator.png)
 
@@ -191,47 +191,47 @@ ht-degree: 51%
 
 * **AND（積集合）**：アウトバウンドトランジション内のすべてのフィルタリングコンポーネントと一致する結果を結合します。
 * **OR（和集合）**：アウトバウンドトランジション内のフィルタリングコンポーネントの 1 つ以上と一致する結果が含まれます。
-* **EXCEPT （除外）**：アウトバウンドトランジションですべてのフィルタリングコンポーネントに一致する結果を除外します。
+* **EXCEPT（除外）**：アウトバウンドトランジションのすべてのフィルタリングコンポーネントと一致する結果を除外します。
 
 ## 条件の操作 {#manipulate}
 
-ルールビルダーのキャンバスツールバーには、ルール内の条件を簡単に操作できるオプションが用意されています。
+ルールビルダーのキャンバスツールバーには、ルール内の条件を簡単に操作するオプションが用意されています。
 
 | ツールバーアイコン | 説明 |
 |--- |--- |
-| ![ 選択アイコンを上に移動 ](assets/do-not-localize/rule-builder-icon-up.svg) | コンポーネントを 1 行上に移動します。 |
-| ![ 選択アイコンを下に移動 ](assets/do-not-localize/rule-builder-icon-down.svg) | コンポーネントを行下に移動します。 |
-| ![ グループ選択アイコン ](assets/do-not-localize/rule-builder-icon-group.svg) | 2 つのコンポーネントを 1 つのグループに配置します。 |
-| ![ 選択アイコンのグループ解除 ](assets/do-not-localize/rule-builder-icon-ungroup.svg) | 単一グループのコンポーネントを分離します。 |
-| ![ すべて展開アイコン ](assets/do-not-localize/rule-builder-icon-expand.svg) | すべてのグループを展開します。 |
-| ![ すべて折りたたむアイコン ](assets/do-not-localize/rule-builder-icon-collapse.svg) | すべてのグループを折りたたみます。 |
-| ![ すべて削除アイコン ](assets/do-not-localize/rule-builder-icon-delete.svg) | すべてのグループとコンポーネントを削除します。 |
+| ![「選択項目を上に移動」アイコン](assets/do-not-localize/rule-builder-icon-up.svg) | コンポーネントを 1 行上に移動します。 |
+| ![「選択項目を下に移動」アイコン](assets/do-not-localize/rule-builder-icon-down.svg) | コンポーネントを 1 行下に移動します。 |
+| ![「選択項目をグループ化」アイコン](assets/do-not-localize/rule-builder-icon-group.svg) | 2 つのコンポーネントを 1 つのグループに配置します。 |
+| ![「選択項目をグループ化解除」アイコン](assets/do-not-localize/rule-builder-icon-ungroup.svg) | 単一グループのコンポーネントを分離します。 |
+| ![「すべて展開」アイコン](assets/do-not-localize/rule-builder-icon-expand.svg) | すべてのグループを展開します。 |
+| ![「すべて折りたたむ」アイコン](assets/do-not-localize/rule-builder-icon-collapse.svg) | すべてのグループを折りたたみます。 |
+| ![「すべて削除」アイコン](assets/do-not-localize/rule-builder-icon-delete.svg) | すべてのグループとコンポーネントを削除します。 |
 
-必要に応じて、コンポーネントを同じグループにグループ化し、それらをリンクすることで、コンポーネントの中間グループを作成する必要が生じる場合があります。
+ニーズに応じて、コンポーネントを同じグループにグループ化し、リンクして、コンポーネントの中間グループを作成する必要がある場合があります。
 
-* 既存の 2 つの条件をグループ化するには、2 つの条件の 1 つを選択し、![ 上へ移動の選択アイコン ](assets/do-not-localize/rule-builder-icon-up.svg) または ![ 下へ移動の選択アイコン ](assets/do-not-localize/rule-builder-icon-down.svg) ボタンをクリックして、上または下にある条件でグループ化します。
+* 既存の 2 つの条件をグループ化するには、2 つの条件のうち 1 つを選択し、![「選択項目を上に移動」アイコン](assets/do-not-localize/rule-builder-icon-up.svg) ボタンまたは ![「選択項目を下に移動」アイコン](assets/do-not-localize/rule-builder-icon-down.svg) ボタンをクリックして、上または下にある条件とグループ化します。
 
-* 既存の条件を新しい条件でグループ化するには、条件を選択し、「その他のアクション ![ ボタンを表示する画像 ](assets/do-not-localize/rule-builder-icon-more.svg) ボタンをクリックして、「**[!UICONTROL グループを追加]**」を選択します。 グループに追加する新しい属性を選択して、確認します。
+* 既存の条件を新しい条件とグループ化するには、条件を選択し、![「その他のアクション」ボタンを示す画像](assets/do-not-localize/rule-builder-icon-more.svg) ボタンをクリックして、「**[!UICONTROL グループを追加]**」を選択します。グループに追加する新しい属性を選択し、確認します。
 
   ![](assets/rule-builder-edit-groups.png)
 
-次の例では、BrewMaster 製品または VanillaVelvet 製品を購入したお客様をターゲットとする中間グループを作成しました。
+次の例では、BrewMaster 製品または VanillaVelvet 製品のいずれかを購入した顧客をターゲットにする中間グループを作成しました。
 
 ![](assets/rule-builder-groups.png)
 
 ## クエリを確認および検証
 
-キャンバスにクエリを作成したら、**ルールのプロパティ** ペインを使用して確認できます。 使用可能な操作を以下に示します。
+キャンバスでクエリを作成したら、**ルールのプロパティ**&#x200B;パネルを使用してクエリを確認できます。使用可能な操作を以下に示します。
 
 * **結果を表示：**&#x200B;クエリから生成されたデータを表示します。
 * **コードビュー**：クエリのコードベースバージョンを SQL で表示します。
-* **計算**：ルールのターゲットとなるレコード数を更新および表示します。
+* **計算**：ルールのターゲットとなるレコードの数を更新および表示します。
 * **フィルターを選択または保存**：キャンバスで使用する既存の定義済みフィルターを選択するか、後で再利用できるように、クエリを定義済みフィルターとして保存します。
 
 <br/>
 
-    >[！重要 ]
+    >[!重要]
     >
-    >[ ルールのプロパティ ] ウィンドウから定義済みフィルターを選択すると、キャンバスで作成されたルールが選択したフィルターに置き換わります。
+    >ルールのプロパティパネルから定義済みフィルターを選択すると、キャンバスに作成されたルールが選択したフィルターで置き換えられます。
 
-ルールの準備が整ったら、の **[!UICONTROL 確認]** ボタンをクリックしてルールを保存します。
+ルールの準備が整ったら、「**[!UICONTROL 確認]**」ボタンをクリックして保存します。

@@ -10,7 +10,7 @@ exl-id: 8a0aeae8-f4f2-4f1d-9b89-28ce573fadfd
 source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
 workflow-type: tm+mt
 source-wordcount: '603'
-ht-degree: 41%
+ht-degree: 92%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 41%
 
 | 調整されたキャンペーンへようこそ | 最初の調整されたキャンペーンの開始 | データベースのクエリ | 調整されたキャンペーンアクティビティ |
 |---|---|---|---|
-| [ 調整されたキャンペーンの基本を学ぶ ](../gs-orchestrated-campaigns.md)<br/><br/> リレーショナルスキーマとデータセットの作成および管理：</br> <ul><li>[ スキーマとデータセットの概要 ](../gs-schemas.md)</li><li>[ 手動スキーマ ](../manual-schema.md)</li><li>[ ファイルアップロードスキーマ ](../file-upload-schema.md)</li><li>[ データの取り込み ](../ingest-data.md)</li></ul>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](../access-manage-orchestrated-campaigns.md) | [ オーケストレーションされたキャンペーンを作成 ](../gs-campaign-creation.md)<br/><br/>[ キャンペーンを作成およびスケジュール ](../create-orchestrated-campaign.md)<br/><br/>[ アクティビティをオーケストレーション ](../orchestrate-activities.md)<br/><br/>[ キャンペーンを開始および監視 ](../start-monitor-campaigns.md)<br/><br/>[ レポート ](../reporting-campaigns.md) 主な手順 | [ ルールビルダーの操作 ](../orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリの作成 ](../build-query.md)<br/><br/>[ 式の編集 ](../edit-expressions.md)<br/><br/>[ リターゲティング ](../retarget.md) | [ アクティビティの基本を学ぶ ](about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](and-join.md) - [ オーディエンスを作成 ](build-audience.md) - [ ディメンションの変更 ](change-dimension.md) - [ チャネルアクティビティ ](channels.md) - [ 結合 ](combine.md) - [ 重複排除 ](deduplication.md) - <b>[ エンリッチメント ](enrichment.md)</b> - [ 分岐 ](fork.md) - [ 紐付け ](reconciliation.md) [&#128279;](save-audience.md) [&#128279;](split.md) [&#128279;](wait.md) - |
+| [ 調整されたキャンペーンの基本を学ぶ ](../gs-orchestrated-campaigns.md)<br/><br/> リレーショナルスキーマとデータセットの作成および管理：</br> <ul><li>[ スキーマとデータセットの概要 ](../gs-schemas.md)</li><li>[ 手動スキーマ ](../manual-schema.md)</li><li>[ ファイルアップロードスキーマ ](../file-upload-schema.md)</li><li>[ データの取り込み ](../ingest-data.md)</li></ul>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](../access-manage-orchestrated-campaigns.md) | [調整されたキャンペーンを作成する主な手順](../gs-campaign-creation.md)<br/><br/>[キャンペーンの作成とスケジュール](../create-orchestrated-campaign.md)<br/><br/>[アクティビティの調整](../orchestrate-activities.md)<br/><br/>[キャンペーンの開始と監視](../start-monitor-campaigns.md)<br/><br/>[レポート](../reporting-campaigns.md) | [ルールビルダーの操作](../orchestrated-rule-builder.md)<br/><br/>[最初のクエリの作成](../build-query.md)<br/><br/>[式の編集](../edit-expressions.md)<br/><br/>[リターゲティング](../retarget.md) | [アクティビティの基本を学ぶ](about-activities.md)<br/><br/>アクティビティ：<br/>[AND 結合](and-join.md) - [オーディエンスを作成](build-audience.md) - [ディメンションを変更](change-dimension.md) - [チャネルアクティビティ](channels.md) - [結合](combine.md) - [重複排除](deduplication.md) - <b>[エンリッチメント](enrichment.md)</b> - [分岐](fork.md) - [紐付け](reconciliation.md) - [オーディエンスを保存](save-audience.md) - [分割](split.md) - [待機](wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -42,7 +42,7 @@ ht-degree: 41%
 
 >[!ENDSHADEBOX]
 
-**[!UICONTROL エンリッチメント]** アクティビティは、追加の属性でオーディエンスデータを強化できる **[!UICONTROL ターゲティング]** アクティビティです。
+**[!UICONTROL エンリッチメント]**&#x200B;アクティビティは、追加の属性を使用してオーディエンスデータを強化できる&#x200B;**[!UICONTROL ターゲティング]**&#x200B;アクティビティです。
 
 この情報を活用して、行動、好み、ニーズに基づいてオーディエンスをより正確にセグメント化し、各プロファイルとのつながりを深めるパーソナライズされたメッセージを作成できます。
 
@@ -75,13 +75,13 @@ ht-degree: 41%
 
 ### 単一エンリッチメント属性 {#single-attribute}
 
-この例では、現在のターゲティングディメンションから、生年月日などの 1 つの属性を持つオーディエンスをエンリッチメントします。
+この例では、現在のターゲティングディメンションから、生年月日などの単一の属性を使用してオーディエンスを強化します。
 
 その手順は次のとおりです。
 
 1. 「**[!UICONTROL エンリッチメントデータを追加]**」をクリックします。
 
-1. 現在のディメンションから単純なフィールド（**[!UICONTROL 生年月日]** など）を選択します。
+1. 現在のディメンションから、**[!UICONTROL 生年月日]**&#x200B;などのシンプルなフィールドを選択します。
 
    ![](../assets/enrichment-2.png)
 
@@ -89,23 +89,23 @@ ht-degree: 41%
 
 ### コレクションリンク {#collection-link}
 
-このユースケースでは、リンクされたテーブルのデータでオーディエンスを強化します。 例えば、$100 未満で最新の 3 つの購入を取得するとします。
+このユースケースでは、リンクされたテーブルからのデータを使用してオーディエンスを強化します。例えば、100 ドル未満で最新の 3 つの購入を取得するとします。
 
-これを行うには、次のようにエンリッチメントを設定します。
+これを実現するには、次のようにエンリッチメントを設定します。
 
-* **エンリッチメント属性**: **[!UICONTROL Price]**
+* **エンリッチメント属性**：**[!UICONTROL 価格]**
 
-* **取得するレコードの数**:3
+* **取得するレコードの数**：3
 
-* **フィルター**:**[!UICONTROL 価格]** が 100 ドル未満の購入のみを含める
+* **フィルター**：**[!UICONTROL 価格]**&#x200B;が 100 ドル未満の購入のみ含めます
 
 #### 属性を追加 {#add-attribute}
 
-まず、エンリッチメントするデータを含んだコレクションリンクを選択します。
+まず、エンリッチメントを行うデータが含まれているコレクションリンクを選択します。
 
 1. 「**[!UICONTROL エンリッチメントデータを追加]**」をクリックします。
 
-1. **[!UICONTROL 購入]** テーブルから「**[!UICONTROL 価格]**」フィールドを選択します。
+1. **[!UICONTROL 購入]**&#x200B;テーブルから、「**[!UICONTROL 価格]**」フィールドを選択します。
 
    ![](../assets/enrichment-2.png)
 
@@ -113,29 +113,29 @@ ht-degree: 41%
 
 次に、データの収集方法と含めるエントリの数を設定します。
 
-1. **[!UICONTROL データの収集方法を選択]** ドロップダウンで **[!UICONTROL データを収集]** を選択します。
+1. **[!UICONTROL データの収集方法を選択]**&#x200B;ドロップダウンで、「**[!UICONTROL データを収集]**」を選択します。
 
    ![](../assets/enrichment-4.png)
 
 1. 「**[!UICONTROL 取得する行（作成する列）]**」フィールドに「`3`」と入力します。
 
-1. 平均購入額などの集計を実行するには、「集計データ **[!UICONTROL 」を選択し、「集計関数]** ドロップダウンから「**&#x200B;** **[!UICONTROL 平均]**」を選択します。
+1. 集計（例：平均購入金額）を実行するには、「**[!UICONTROL 集計データ]**」を選択し、**[!UICONTROL 集計関数]**&#x200B;ドロップダウンから「**[!UICONTROL 平均]**」を選択します。
 
    ![](../assets/enrichment-5.png)
 
-1. **[!UICONTROL ラベル]** および **[!UICONTROL エイリアス]** フィールドを使用して、エンリッチメントされた属性を後続のアクティビティで識別しやすくします。
+1. 「**[!UICONTROL ラベル]**」フィールドと「**[!UICONTROL エイリアス]**」フィールドを使用すると、強化された属性を後続のアクティビティで識別しやすくなります。
 
 #### フィルターの定義{#collection-filters}
 
-最後に、フィルターを適用して、関連するレコードのみが含まれるようにします。
+最後に、関連するレコードのみが含まれるようにフィルターを適用します。
 
 1. 「**[!UICONTROL フィルターを作成]**」をクリックします。
 
 1. 次の 2 つの条件を追加します。
 
-   * **[!UICONTROL 価格]** が存在する（NULL を除外するため）
+   * **[!UICONTROL 価格]**&#x200B;が存在する（NULL を除外するため）
 
-   * **[!UICONTROL 価格]** 100 未満
+   * **[!UICONTROL 価格]**&#x200B;が 100 未満である
 
    ![](../assets/enrichment-6.png)
 

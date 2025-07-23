@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: オーディエンスを作成アクティビティの使用
-description: オーケストレーションされたキャンペーンでオーディエンスを作成アクティビティを使用する方法を学ぶ
+description: 調整されたキャンペーンでのオーディエンスを作成アクティビティの使用方法について説明します。
 badge: label="アルファ版"
 hide: true
 hidefromtoc: true
@@ -10,7 +10,7 @@ exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
 source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
 workflow-type: tm+mt
 source-wordcount: '409'
-ht-degree: 35%
+ht-degree: 89%
 
 ---
 
@@ -18,14 +18,14 @@ ht-degree: 35%
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_build_audience"
->title="「オーディエンスを作成」アクティビティ"
+>title="オーディエンスを作成アクティビティ"
 >abstract="**オーディエンスを作成**&#x200B;アクティビティを使用すると、調整されたキャンペーンにエントリするオーディエンスを定義できます。調整されたキャンペーンのコンテキストでメッセージを送信する際、メッセージオーディエンスはチャネルアクティビティではなく、「**オーディエンスを作成**」アクティビティで定義されます。"
 
 +++ 目次
 
 | 調整されたキャンペーンへようこそ | 最初の調整されたキャンペーンの開始 | データベースのクエリ | 調整されたキャンペーンアクティビティ |
 |---|---|---|---|
-| [ 調整されたキャンペーンの基本を学ぶ ](../gs-orchestrated-campaigns.md)<br/><br/> リレーショナルスキーマとデータセットの作成および管理：</br> <ul><li>[ スキーマとデータセットの概要 ](../gs-schemas.md)</li><li>[ 手動スキーマ ](../manual-schema.md)</li><li>[ ファイルアップロードスキーマ ](../file-upload-schema.md)</li><li>[ データの取り込み ](../ingest-data.md)</li></ul>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](../access-manage-orchestrated-campaigns.md) | [ オーケストレーションされたキャンペーンを作成 ](../gs-campaign-creation.md)<br/><br/>[ キャンペーンを作成およびスケジュール ](../create-orchestrated-campaign.md)<br/><br/>[ アクティビティをオーケストレーション ](../orchestrate-activities.md)<br/><br/>[ キャンペーンを開始および監視 ](../start-monitor-campaigns.md)<br/><br/>[ レポート ](../reporting-campaigns.md) 主な手順 | [ ルールビルダーの操作 ](../orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリの作成 ](../build-query.md)<br/><br/>[ 式の編集 ](../edit-expressions.md)<br/><br/>[ リターゲティング ](../retarget.md) | [ アクティビティの基本を学ぶ ](about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](and-join.md) - <b>[ オーディエンスを作成 ](build-audience.md)</b> - [ ディメンションの変更 ](change-dimension.md) - [ チャネルアクティビティ ](channels.md) - [ 結合 ](combine.md) - [ 重複排除 ](deduplication.md) - [ エンリッチメント ](enrichment.md) - [ 分岐 ](fork.md) - [ 紐付け ](reconciliation.md) [&#128279;](save-audience.md) [&#128279;](split.md) [&#128279;](wait.md) - |
+| [ 調整されたキャンペーンの基本を学ぶ ](../gs-orchestrated-campaigns.md)<br/><br/> リレーショナルスキーマとデータセットの作成および管理：</br> <ul><li>[ スキーマとデータセットの概要 ](../gs-schemas.md)</li><li>[ 手動スキーマ ](../manual-schema.md)</li><li>[ ファイルアップロードスキーマ ](../file-upload-schema.md)</li><li>[ データの取り込み ](../ingest-data.md)</li></ul>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](../access-manage-orchestrated-campaigns.md) | [調整されたキャンペーンを作成する主な手順](../gs-campaign-creation.md)<br/><br/>[キャンペーンの作成とスケジュール](../create-orchestrated-campaign.md)<br/><br/>[アクティビティの調整](../orchestrate-activities.md)<br/><br/>[キャンペーンの開始と監視](../start-monitor-campaigns.md)<br/><br/>[レポート](../reporting-campaigns.md) | [ルールビルダーの操作](../orchestrated-rule-builder.md)<br/><br/>[最初のクエリの作成](../build-query.md)<br/><br/>[式の編集](../edit-expressions.md)<br/><br/>[リターゲティング](../retarget.md) | [アクティビティの基本を学ぶ](about-activities.md)<br/><br/>アクティビティ：<br/>[AND 結合](and-join.md) - <b>[オーディエンスを作成](build-audience.md)</b> - [ディメンションを変更](change-dimension.md) - [チャネルアクティビティ](channels.md) - [結合](combine.md) - [重複排除](deduplication.md) - [エンリッチメント](enrichment.md) - [分岐](fork.md) - [紐付け](reconciliation.md) - [オーディエンスを保存](save-audience.md) - [分割](split.md) - [待機](wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -42,9 +42,9 @@ ht-degree: 35%
 
 >[!ENDSHADEBOX]
 
-マーケターの場合、直感的なインターフェイスを使用して複雑なオーディエンスセグメントを作成でき、様々な条件や行動に基づいてユーザーをターゲット設定し、キャンペーンを効果的に調整できます。
+マーケターは、直感的なインターフェイスを通じて複雑なオーディエンスセグメントを作成し、様々な条件と行動に基づいてユーザーをターゲットにして、キャンペーンをより効果的にカスタマイズできます。
 
-それには、**[!UICONTROL オーディエンスを作成]** ターゲティングアクティビティを使用します。 このアクティビティは、オーケストレーションされたキャンペーンに参加するオーディエンスを定義します。 オーケストレーションされたキャンペーンの一部としてメッセージを送信する場合、オーディエンスは、オーケストレーションされたキャンペーン内ではなく、**[!UICONTROL オーディエンスを作成]** アクティビティで定義されます。
+これを行うには、**[!UICONTROL オーディエンスを作成]**&#x200B;ターゲティングアクティビティを使用します。このアクティビティは、調整されたキャンペーンにエントリするオーディエンスを定義します。調整されたキャンペーンの一部としてメッセージを送信する際、オーディエンスは調整されたキャンペーン内ではなく、**[!UICONTROL オーディエンスを作成]**&#x200B;アクティビティで定義されます。
 
 ## オーディエンスを作成アクティビティの設定 {#build-audience-configuration}
 
@@ -59,7 +59,7 @@ ht-degree: 35%
 
    ![](../assets/build-audience.png)
 
-1. **[!UICONTROL ラベル]** を定義します。
+1. **[!UICONTROL ラベル]**&#x200B;を定義します。
 
 1. 以下のタブに示す手順に従って、オーディエンスを設定します。
 
@@ -67,12 +67,12 @@ ht-degree: 35%
 
 1. 「**[!UICONTROL 続行]**」をクリックします。
 
-1. クエリモデラーを使用してクエリを定義します。 [ クエリモデラーの詳細については、この節を参照してください ](../orchestrated-rule-builder.md)
+1. クエリモデラーを使用してクエリを定義します。[クエリモデラーについて詳しくは、この節を参照してください。](../orchestrated-rule-builder.md)
 
-1. オーディエンスが空の場合にアウトバウンドトランジションを生成するかどうかを指定します。
+1. オーディエンスが空の場合に、アウトバウンドトランジションを生成するかどうかを指定します。
 
 ## 例{#build-audience-examples}
 
-次に、2 つの **[!UICONTROL オーディエンスを作成]** アクティビティを使用して調整されたキャンペーンの例を示します。 最初は、買い物かごに項目が含まれるプロファイルをターゲットにし、次にメール配信が続きます。 2 番目は、ウィッシュリストを使用したプロファイルをターゲットにし、次に SMS 配信をターゲットにします。
+2 つの&#x200B;**[!UICONTROL オーディエンスを作成]**&#x200B;アクティビティを使用して調整されたキャンペーンの例を次に示します。最初は、買い物かごに商品があるプロファイルをターゲットにし、次にメール配信が続きます。2 番目は、ウィッシュリストがあるプロファイルをターゲットにし、次に SMS 配信が続きます。
 
 ![](../assets/build-audience-2.png)

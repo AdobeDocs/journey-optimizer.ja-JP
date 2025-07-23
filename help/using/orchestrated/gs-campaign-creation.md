@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 調整されたキャンペーンを作成するための主な手順
-description: Adobe Journey Optimizerを使用したオーケストレートキャンペーン作成の主な原則について説明します
+title: 調整されたキャンペーンを作成する主な手順
+description: Adobe Journey Optimizer を使用して調整されたキャンペーンの作成の主な原則について説明します。
 badge: label="アルファ版"
 hide: true
 hidefromtoc: true
@@ -10,18 +10,18 @@ exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
 source-git-commit: 3f92dc721648f822687b8efc302c40989b72b145
 workflow-type: tm+mt
 source-wordcount: '399'
-ht-degree: 3%
+ht-degree: 78%
 
 ---
 
 
-# 調整されたキャンペーンを作成するための主な手順 {#orchestrated-campaign-creation}
+# 調整されたキャンペーンを作成する主な手順 {#orchestrated-campaign-creation}
 
 +++ 目次
 
 | 調整されたキャンペーンへようこそ | 最初の調整されたキャンペーンの開始 | データベースのクエリ | 調整されたキャンペーンアクティビティ |
 |---|---|---|---|
-| [ 調整されたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)<br/><br/> リレーショナルスキーマとデータセットの作成および管理：</br> <ul><li>[ スキーマとデータセットの概要 ](gs-schemas.md)</li><li>[ 手動スキーマ ](manual-schema.md)</li><li>[ ファイルアップロードスキーマ ](file-upload-schema.md)</li><li>[ データの取り込み ](ingest-data.md)</li></ul>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md)<br/><br/><b>[ オーケストレーションされたキャンペーンを作成するための主な手順 ](gs-campaign-creation.md)</b> | [ キャンペーンの作成とスケジュール設定 ](create-orchestrated-campaign.md)<br/><br/>[ アクティビティのオーケストレーション ](orchestrate-activities.md)<br/><br/>[ キャンペーンの開始と監視 ](start-monitor-campaigns.md)<br/><br/>[ レポート ](reporting-campaigns.md) | [ ルールビルダーの操作 ](orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリの作成 ](build-query.md)<br/><br/>[ 式の編集 ](edit-expressions.md)<br/><br/>[ リターゲティング ](retarget.md) | [ アクティビティの基本を学ぶ ](activities/about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](activities/and-join.md) - [ オーディエンスを作成 ](activities/build-audience.md) - [ ディメンションの変更 ](activities/change-dimension.md) - [ チャネルアクティビティ ](activities/channels.md) - [ 結合 ](activities/combine.md) - [ 重複排除 ](activities/deduplication.md) - [ エンリッチメント ](activities/enrichment.md) - [ 分岐 ](activities/fork.md) - [ 紐付け ](activities/reconciliation.md) [&#128279;](activities/save-audience.md) [&#128279;](activities/split.md) [&#128279;](activities/wait.md) - |
+| [ 調整されたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)<br/><br/> リレーショナルスキーマとデータセットの作成および管理：</br> <ul><li>[ スキーマとデータセットの概要 ](gs-schemas.md)</li><li>[ 手動スキーマ ](manual-schema.md)</li><li>[ ファイルアップロードスキーマ ](file-upload-schema.md)</li><li>[ データの取り込み ](ingest-data.md)</li></ul>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md)<br/><br/><b>[ オーケストレーションされたキャンペーンを作成するための主な手順 ](gs-campaign-creation.md)</b> | [キャンペーンの作成とスケジュール](create-orchestrated-campaign.md)<br/><br/>[アクティビティの調整](orchestrate-activities.md)<br/><br/>[キャンペーンの開始と監視](start-monitor-campaigns.md)<br/><br/>[レポート](reporting-campaigns.md) | [ルールビルダーの操作](orchestrated-rule-builder.md)<br/><br/>[最初のクエリの作成](build-query.md)<br/><br/>[式の編集](edit-expressions.md)<br/><br/>[リターゲティング](retarget.md) | [アクティビティの基本を学ぶ](activities/about-activities.md)<br/><br/>アクティビティ：<br/>[AND 結合](activities/and-join.md) - [オーディエンスを作成](activities/build-audience.md) - [ディメンションを変更](activities/change-dimension.md) - [チャネルアクティビティ](activities/channels.md) - [結合](activities/combine.md) - [重複排除](activities/deduplication.md) - [エンリッチメント](activities/enrichment.md) - [分岐](activities/fork.md) - [紐付け](activities/reconciliation.md) - [オーディエンスを保存](activities/save-audience.md) - [分割](activities/split.md) - [待機](activities/wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -37,7 +37,7 @@ ht-degree: 3%
 
 >[!ENDSHADEBOX]
 
-このページでは、設定と設計から監視とレポートまで、調整されたキャンペーンを作成して開始するための基本的な手順について説明します。
+このページでは、設定とデザインから監視とレポートまで、調整されたキャンペーンを作成して開始する基本的な手順について説明します。
 
 <!--
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;" >
@@ -51,30 +51,30 @@ ht-degree: 3%
 
 ## 手順 1：キャンペーンの作成とスケジュール {#create}
 
-何よりも先に、オーケストレーションされたキャンペーンを作成し、キャンペーンを実行する *タイミング* を定義する必要があります。 1 回限りのプッシュか、繰り返しのマルチチャネルキャンペーンかに関わらず、タイミングと頻度を完全に制御できます。
+まず、調整されたキャンペーンを作成し、実行する&#x200B;*タイミング*&#x200B;を定義する必要があります。1 回限りのプッシュか、繰り返しのマルチチャネルキャンペーンかに関わらず、タイミングと頻度を完全に制御できます。
 
-➡️[ キャンペーンの作成およびスケジュール方法を学ぶ ](../orchestrated/create-orchestrated-campaign.md)
+➡️ [キャンペーンの作成とスケジュール方法の詳細情報](../orchestrated/create-orchestrated-campaign.md)
 
-## 手順 2：キャンペーンアクティビティの調整 {#orchestrate}
+## 手順 2：キャンペーンアクティビティの調整{#orchestrate}
 
 キャンペーンを作成したら、背後にあるロジックをデザインします。 視覚的なキャンバスを使用すると、ターゲティング、配信、フロー制御の各アクティビティを組み合わせて、顧客体験を形成できます。
 
-➡️[ アクティビティの調整方法については、こちらを参照してください ](../orchestrated/orchestrate-activities.md)
+➡️ [詳しくは、アクティビティの調整方法を参照してください。](../orchestrated/orchestrate-activities.md)
 
 ## 手順 3：キャンペーンの開始と監視 {#start}
 
-もう少しで着くよ。 最初にテストモードでキャンペーンを実行して、問題を見つけます。 その後、公開してリアルタイムでライブ実行を監視し、進行状況の追跡、エラーのチェック、各ステップでのプロファイルのフローの確認を行います。
+もう少しで着くよ。 最初にテストモードでキャンペーンを実行し、問題がないか確認します。次に、キャンペーンを公開し、ライブ実行をリアルタイムで監視します。進行状況を追跡し、エラーを確認し、各手順でプロファイルのフローの確認を行います。
 
-➡️[ キャンペーンの開始および監視方法を学ぶ ](../orchestrated/start-monitor-campaigns.md)
+➡️ [詳しくは、キャンペーンの開始と監視方法を参照してください。](../orchestrated/start-monitor-campaigns.md)
 
 ## 手順 4：結果の分析とレポート {#report}
 
-ローンチ後、ビルトインレポートを使用して、何がうまくいったか、何を改善できるかを把握します。 リアルタイムダッシュボードと詳細な分析は、今後のキャンペーンを最適化し、戦略を絞り込むのに役立ちます。
+ローンチ後は、ビルトインレポートを使用して、何がうまくいったか、何を改善できるかを把握します。リアルタイムのダッシュボードと詳細な分析により、今後のキャンペーンを最適化し、戦略を改善できます。
 
-➡️ [ レポートの詳細 ](../orchestrated/reporting-campaigns.md)
+➡️ [詳しくは、レポートを参照してください。](../orchestrated/reporting-campaigns.md)
 
-## 手順：エンゲージメントに基づく再ターゲット {#retarget}
+## さらなる改善を行うには：エンゲージメントに基づくリターゲティング {#retarget}
 
-キャンペーンが実行されたら、キャンペーンを開いたかどうかやリンクをクリックしたかどうかなど、メッセージとのやり取りに基づいてプロファイルをリターゲティングすることで、キャンペーンをさらに一歩進めることができます。 これにより、カスタマイズされたメッセージをフォローアップしたり、非アクティブなユーザーを再エンゲージしたり、興味のあるユーザーをダブルクリックしたりできます。
+キャンペーンを実行したら、メッセージを開いたか、リンクをクリックしたかなど、メッセージとのやり取りに基づいてプロファイルをリターゲティングすることで、キャンペーンをさらに向上させることができます。これにより、カスタマイズされたメッセージをフォローアップしたり、非アクティブなユーザーに再度惹きつけたり、興味を倍増させたりすることができます。
 
-➡️ [ フィードバックイベントに基づいて再ターゲットする方法を学ぶ ](../orchestrated/retarget.md)
+➡️ [詳しくは、フィードバックイベントに基づいてリターゲティングする方法を参照してください。](../orchestrated/retarget.md)

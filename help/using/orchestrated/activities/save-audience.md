@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: オーディエンスを保存アクティビティの使用
-description: オーケストレーションされたキャンペーンでオーディエンスを保存アクティビティを使用する方法を学ぶ
+description: 調整されたキャンペーンでのオーディエンスを保存アクティビティの使用方法について説明します
 badge: label="アルファ版"
 hide: true
 hidefromtoc: true
@@ -10,23 +10,23 @@ exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
 source-git-commit: 81f0338935ee36b152963f2b1c0e7989b86f5f8a
 workflow-type: tm+mt
 source-wordcount: '427'
-ht-degree: 7%
+ht-degree: 67%
 
 ---
 
-# オーディエンスの保存 {#save-audience}
+# オーディエンスを保存 {#save-audience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_save_audience"
 >title="オーディエンスを保存アクティビティ"
->abstract="**オーディエンスを保存** アクティビティは、既存のオーディエンスを更新したり、オーケストレーションされたキャンペーンで以前に生成された母集団から新しいオーディエンスを作成したりできる **ターゲティング** アクティビティです。 作成すると、これらのオーディエンスはアプリケーションオーディエンスのリストに追加され、**オーディエンス** メニューからアクセスできます。"
+>abstract="**オーディエンスを保存**&#x200B;アクティビティは、既存のオーディエンスを更新したり、調整されたキャンペーンで以前に生成された母集団から新しいオーディエンスを作成したりできる&#x200B;**ターゲティング**&#x200B;アクティビティです。作成したら、これらのオーディエンスは、アプリケーションオーディエンスのリストに追加され、**オーディエンス**&#x200B;メニューからアクセスできます。"
 
 
 +++ 目次
 
 | 調整されたキャンペーンへようこそ | 最初の調整されたキャンペーンの開始 | データベースのクエリ | 調整されたキャンペーンアクティビティ |
 |---|---|---|---|
-| [ 調整されたキャンペーンの基本を学ぶ ](../gs-orchestrated-campaigns.md)<br/><br/> リレーショナルスキーマとデータセットの作成および管理：</br> <ul><li>[ スキーマとデータセットの概要 ](../gs-schemas.md)</li><li>[ 手動スキーマ ](../manual-schema.md)</li><li>[ ファイルアップロードスキーマ ](../file-upload-schema.md)</li><li>[ データの取り込み ](../ingest-data.md)</li></ul>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](../access-manage-orchestrated-campaigns.md) | [ オーケストレーションされたキャンペーンを作成 ](../gs-campaign-creation.md)<br/><br/>[ キャンペーンを作成およびスケジュール ](../create-orchestrated-campaign.md)<br/><br/>[ アクティビティをオーケストレーション ](../orchestrate-activities.md)<br/><br/>[ キャンペーンを開始および監視 ](../start-monitor-campaigns.md)<br/><br/>[ レポート ](../reporting-campaigns.md) 主な手順 | [ ルールビルダーの操作 ](../orchestrated-rule-builder.md)<br/><br/>[ 最初のクエリの作成 ](../build-query.md)<br/><br/>[ 式の編集 ](../edit-expressions.md)<br/><br/>[ リターゲティング ](../retarget.md) | [ アクティビティの基本を学ぶ ](about-activities.md)<br/><br/> アクティビティ：<br/>[AND 結合 ](and-join.md) - [ オーディエンスを作成 ](build-audience.md) - [ ディメンションの変更 ](change-dimension.md) - [ チャネルアクティビティ ](channels.md) - [ 結合 ](combine.md) - [ 重複排除 ](deduplication.md) - [ エンリッチメント ](enrichment.md) - [ 分岐 ](fork.md) - [ 紐付け ](reconciliation.md) <b>[&#128279;](save-audience.md)</b> [&#128279;](split.md) [&#128279;](wait.md) - |
+| [ 調整されたキャンペーンの基本を学ぶ ](../gs-orchestrated-campaigns.md)<br/><br/> リレーショナルスキーマとデータセットの作成および管理：</br> <ul><li>[ スキーマとデータセットの概要 ](../gs-schemas.md)</li><li>[ 手動スキーマ ](../manual-schema.md)</li><li>[ ファイルアップロードスキーマ ](../file-upload-schema.md)</li><li>[ データの取り込み ](../ingest-data.md)</li></ul>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](../access-manage-orchestrated-campaigns.md) | [調整されたキャンペーンを作成する主な手順](../gs-campaign-creation.md)<br/><br/>[キャンペーンの作成とスケジュール](../create-orchestrated-campaign.md)<br/><br/>[アクティビティの調整](../orchestrate-activities.md)<br/><br/>[キャンペーンの開始と監視](../start-monitor-campaigns.md)<br/><br/>[レポート](../reporting-campaigns.md) | [ルールビルダーの操作](../orchestrated-rule-builder.md)<br/><br/>[最初のクエリの作成](../build-query.md)<br/><br/>[式の編集](../edit-expressions.md)<br/><br/>[リターゲティング](../retarget.md) | [アクティビティの基本を学ぶ](about-activities.md)<br/><br/>アクティビティ：<br/>[AND 結合](and-join.md) - [オーディエンスを作成](build-audience.md) - [ディメンションを変更](change-dimension.md) - [チャネルアクティビティ](channels.md) - [結合](combine.md) - [重複排除](deduplication.md) - [エンリッチメント](enrichment.md) - [分岐](fork.md) - [紐付け](reconciliation.md) - <b>[オーディエンスを保存](save-audience.md)</b> - [分割](split.md) - [待機](wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -50,26 +50,26 @@ ht-degree: 7%
 
 **[!UICONTROL オーディエンスを保存]**&#x200B;アクティビティを設定するには、次の手順に従います。
 
-1. **[!UICONTROL オーディエンスを保存]** アクティビティを、オーケストレーションされたキャンペーンに追加します。
+1. **[!UICONTROL オーディエンスを保存]**&#x200B;アクティビティを調整されたキャンペーンに追加します。
 
-1. 保存したオーディエンスを識別する **[!UICONTROL オーディエンスラベル]** を入力します。
+1. 保存したオーディエンスを識別する&#x200B;**[!UICONTROL オーディエンスラベル]**&#x200B;を入力します。
 
-1. **[!UICONTROL オーディエンス属性を追加]** をクリックして、オーディエンスデータの構造および保存方法を定義し、後で再利用できるようにします。
+1. 「**[!UICONTROL オーディエンス属性を追加]**」をクリックして、オーディエンスデータの構造と保存方法を定義し、今後再利用できるようにします。
 
    ![](../assets/save-audience-1.png)
 
-1. 次に、適切な **[!UICONTROL プライマリ ID フィールド]** および&#x200B;ID 名前空間 **[!UICONTROL を選択して、正確なプロファイル解決を確実に行]** ます。
+1. 次に、適切な&#x200B;**[!UICONTROL プライマリ ID フィールド]**&#x200B;と **[!UICONTROL ID 名前空間]**&#x200B;を選択して、正確なプロファイル解決を確保します。
 
    ![](../assets/save-audience-2.png)
 
-1. 調整したキャンペーンを保存して公開し、設定を完了します。 これにより、オーディエンスが生成および保存されます。
+1. 調整されたキャンペーンを保存および公開して、設定を確定します。これにより、オーディエンスが生成および保存されます。
 
-保存したオーディエンスのコンテンツは、オーディエンスの詳細ビューで利用できます。このビューには、**[!UICONTROL オーディエンス]** メニューからアクセスできます。
+保存したオーディエンスの内容は、そのオーディエンスの詳細表示で利用できます。詳細表示は&#x200B;**[!UICONTROL オーディエンス]**&#x200B;メニューからアクセスできます。
 
 ![](../assets/save-audience-3.png)
 
 ## 例 {#save-audience-example}
 
-次の例は、ターゲティングを使用したシンプルなオーディエンスの作成方法を示しています。 クエリは、過去 30 日以内に購入を行ったすべてのプロファイルを識別します。 次に **[!UICONTROL オーディエンスを保存]** アクティビティは、これらのプロファイルをキャプチャして、最近の購入者の再利用可能なオーディエンスを作成します。
+次の例では、ターゲティングを使用してシンプルなオーディエンスの作成方法を示しています。クエリは、過去 30 日以内に購入を行ったすべてのプロファイルを識別します。次に、**[!UICONTROL オーディエンスを保存]**&#x200B;アクティビティでこれらのプロファイルを取得し、最近の購入者の再利用可能なオーディエンスを作成します。
 
 ![](../assets/save-audience-4.png)
