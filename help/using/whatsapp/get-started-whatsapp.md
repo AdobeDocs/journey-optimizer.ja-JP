@@ -9,12 +9,11 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-badge: label="ベータ版" type="Informative"
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: ht
-source-wordcount: '293'
-ht-degree: 100%
+source-git-commit: 7f507dc0113e85191429c2c48b873112b590e3ce
+workflow-type: tm+mt
+source-wordcount: '332'
+ht-degree: 55%
 
 ---
 
@@ -31,11 +30,7 @@ ht-degree: 100%
 
 >[!ENDSHADEBOX]
 
->[!AVAILABILITY]
->
->この機能は、Private Beta としてリリースされています。今後のリリースでは、すべてのお客様が段階的に利用できるようになる予定です。
-
-Journey Optimizer を通じて WhatsApp メッセージを直接送信できるようになりました。この機能を使用すると、ジャーニーとキャンペーンへの WhatsApp のシームレスな統合を実現し、受信者との通信とエンゲージメントを強化できます。
+Meta の [Cloud API](https://developers.facebook.com/docs/whatsapp/cloud-api/) を使用して、Journey Optimizerから直接 WhatsApp メッセージを送信できるようになりました。 この機能により、WhatsApp をジャーニーやキャンペーンにシームレスに統合し、受信者とのコミュニケーションとエンゲージメントを強化できます。
 
 * **ジャーニー**&#x200B;の場合：ジャーニーを作成し、**WhatsApp** アクティビティを追加し、基本設定を定義してから、右側の&#x200B;**[!UICONTROL アクション：WhatsApp]** パネルを参照して WhatsApp メッセージのコンテンツを作成します。ジャーニーを作成する方法について詳しくは、[このページ](../building-journeys/journey-gs.md)を参照してください。
 
@@ -50,23 +45,28 @@ WhatsApp を Journey Optimizer と統合するには、次が必要です。
 * Meta Business Manager アカウント
 * WhatsApp Business アカウント
 * WhatsApp 電話番号
+* [ 適切な権限を持つユーザー認証トークン ](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)
+* [承認済み Meta テンプレート](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/)
+* [ メタ Webhook の設定 ](https://developers.facebook.com/docs/whatsapp/webhooks/)
+
 
 統合を進める前に、次も確認する必要があります。
 
 * [WhatsApp コンテンツルール](https://www.whatsapp.com/legal/messaging-guidelines)
 * [Meta ポリシーへの準拠](https://www.whatsapp.com/legal)
 * [24 時間の会話の制限](https://developers.facebook.com/docs/whatsapp/messaging-limits/)
-* [承認済み Meta テンプレート](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/)
 
-## ベータ版の制限 {#limitations}
+## 制限事項 {#limitations}
 
-このベータ版には、次の機能は含まれません。
+WhatsApp チャネルには次の制限が適用されます。
 
-* **レポート**：このリリースでは、レポートを生成および表示する機能は使用できません。
+* Adobe Journey Optimizerの WhatsApp チャネルは HIPAA に対応していますが、サードパーティベンダーはAdobeの BAA の対象ではありません。 顧客は、独自のコンプライアンスとベンダー検証に責任を負います。
 
-* **オプトイン／オプトアウトキーワード**：このステージでは、ユーザーは特定のキーワードを使用して購読または購読解除するオプションはありません。
+* 自動または事前定義済みの応答メッセージはサポートされていません。
 
-* **応答メッセージ**：このバージョンでは、自動応答メッセージまたは定義済み応答メッセージはサポートされません。
+* 2025 年 4 月以降、米国の電話番号（+1 のダイヤル コードと米国の市外局番で構成される番号）を持つ WhatsApp ユーザーに対するすべてのマーケティングテンプレートメッセージの配信が一時的に停止されました。 [ 詳しくは、Meta ドキュメントを参照してください ](https://developers.facebook.com/docs/whatsapp/cloud-api/guides/send-message-templates#per-user-marketing-template-message-limits)
+
+* ネイティブの統合機能では、サードパーティのビジネスサービスプロバイダー（BSP）との統合は許可されていません。
 
 ## チュートリアルビデオ {#video}
 

@@ -9,11 +9,10 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-badge: label="ベータ版" type="Informative"
 exl-id: 31acb095-de90-495f-8e8c-43a78dedfa06
-source-git-commit: 22a8742bf9000ed1cc8437d7ac89747276284dbf
-workflow-type: ht
-source-wordcount: '266'
+source-git-commit: 7f507dc0113e85191429c2c48b873112b590e3ce
+workflow-type: tm+mt
+source-wordcount: '265'
 ht-degree: 100%
 
 ---

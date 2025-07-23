@@ -9,14 +9,14 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-badge: label="ベータ版" type="Informative"
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
-source-git-commit: f57a89e249c41e76f9ebf1a77dfe383129ae9250
-workflow-type: ht
-source-wordcount: '768'
-ht-degree: 100%
+source-git-commit: 7f507dc0113e85191429c2c48b873112b590e3ce
+workflow-type: tm+mt
+source-wordcount: '766'
+ht-degree: 96%
 
 ---
+
 
 # WhatsApp メッセージの作成 {#create-whatsapp}
 
@@ -154,8 +154,7 @@ WhatsApp テンプレートは、Journey Optimizer で使用する前に、ま�
 
 1. 「**[!UICONTROL コンテンツをシミュレート]**」ボタンを使用して、WhatsApp メッセージコンテンツ、短縮 URL、パーソナライズされたコンテンツをプレビューします。[詳細情報](send-whatsapp.md)
 
-テストを実行してコンテンツを検証したら、WhatsApp メッセージをオーディエンスに送信できます。これらの手順について詳しくは、[このページ](send-whatsapp.md)を参照してください。
-
+テストを実行してコンテンツを検証したら、[ レポート ](send-whatsapp.md) を使用して、オーディエンスに [WhatsApp メッセージを送信 ](../reports/campaign-global-report-cja.md) し、パフォーマンスを監視できます。
 
 <!--
 * **[!UICONTROL Template message]**: Predefined message imported from Meta into Journey Optimizer. These are intended for sending notifications, alerts, or updates to your customers.
