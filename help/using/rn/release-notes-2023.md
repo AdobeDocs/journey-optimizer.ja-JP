@@ -11,7 +11,7 @@ role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
 source-git-commit: 8ff4f970796218451996bd5ed1938d33fa818495
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4377'
 ht-degree: 100%
 
@@ -196,7 +196,7 @@ ht-degree: 100%
 
 * Web ビジュアルエディターで単一アプリケーション（SPA）を作成できるようになりました。これにより、web ページの変更を適用する特定のビューを選択できます。ビューは、サイト全体またはサイト上のビジュアル要素のグループ（ホームページ、製品サイト全体、すべてのチェックアウトページの配信設定フレームなど）として定義できます。Adobe Experience Platform Web SDK 実装でビューを定義するには、開発者による 1 回限りの設定が必要です。これにより、マーケターは SPA で Adobe Journey Optimizer web キャンペーンを作成して実行できるようになります。[詳細情報](../web/web-spa.md)
 
-* Web デザイナーを使用してページを編集する際、コンポーネントを選択してデザイナーインターフェイスから編集しなくても、変更パネルから直接コンテンツに新しい変更を追加できるようになりました。[詳細情報](../web/manage-web-modifications.md#add-modifications)
+* Web designer を使用してページを編集する際、コンポーネントを選択して designer インターフェイスから編集しなくても、変更パネルから直接コンテンツに新しい変更を追加できるようになりました。[詳細情報](../web/manage-web-modifications.md#add-modifications)
 
 * Web サブドメインを設定する際に、Adobe に既にデリゲートされているサブドメインを使用することに加えて、独自のサブドメインを追加するオプションが追加されました。[詳細情報](../web/web-delegated-subdomains.md#web-configure-new-subdomain)
 
@@ -725,9 +725,9 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 * Journey Optimizer レポートを PDF として書き出せるようになりました。[詳細情報](../reports/report-gs-cja.md)
 
-**コンテンツデザイナー**
+**コンテンツ designer**
 
-* Adobe Journey Optimizer コンテンツデザイナーが更新され、デザインスタイルとコンポーネントにアクセスしやすくなりました。この新しいバージョンは、ユーザーエクスペリエンスの向上を実現し、パフォーマンスの向上、ダークモードの部分互換性、新しいアクセシビリティ標準のサポートを備えています。
+* Adobe Journey Optimizer コンテンツ designer が更新され、デザインスタイルとコンポーネントにアクセスしやすくなりました。この新しいバージョンは、ユーザーエクスペリエンスの向上を実現し、パフォーマンスの向上、ダークモードの部分互換性、新しいアクセシビリティ標準のサポートを備えています。
 
 
 

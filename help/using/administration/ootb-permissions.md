@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 組み込みの役割
-description: 組み込みの権限について学ぶ
+title: ビルトインの役割
+description: ビルトインの権限について学ぶ
 feature: Access Management
 topic: Administration
 role: Admin, User
@@ -10,15 +10,15 @@ level: Intermediate
 keywords: 権限, オーサリング, メッセージ
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
 source-git-commit: e20db7c39e751bf720cd0ae75b4e8f031de18eef
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '932'
 ht-degree: 100%
 
 ---
 
-# 組み込みの権限 {#ootb-permissions}
+# ビルトインの権限 {#ootb-permissions}
 
-組み込みの権限は、「**[!UICONTROL 役割]**」に割り当てることができる様々な権限を表します。これにより、Journey Optimizer へのユーザーアクセスを微調整します。高レベルの権限には、[このページ](high-low-permissions.md)で詳しく説明されている低レベルの権限が含まれます。
+ビルトインの権限は、「**[!UICONTROL 役割]**」に割り当てることができる様々な権限を表します。これにより、Journey Optimizer へのユーザーアクセスを微調整します。高レベルの権限には、[このページ](high-low-permissions.md)で詳しく説明されている低レベルの権限が含まれます。
 
 | 機能 | 権限 |
 |-|-|

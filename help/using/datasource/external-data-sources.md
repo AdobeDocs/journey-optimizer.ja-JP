@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: 外部, ソース, データ, 設定, 接続, サードパーティ
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 source-git-commit: 92247adabc56f369c9b11cdc519cdc7bf30c99f1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1677'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -70,7 +70,7 @@ POST または GET を使用して JSON を返す REST API がサポートされ
 
    >[!CAUTION]
    >
-   >セキュリティ上の理由から、HTTPS の使用を強くお勧めします。また、公開されていないAdobe アドレスの使用や IP アドレスの使用は許可されていません。
+   >セキュリティ上の理由から、HTTPS の使用を強くお勧めします。また、アドビの非公開アドレスや IP アドレスの使用は許可されていません。
 
    ![](assets/journey27.png)
 
