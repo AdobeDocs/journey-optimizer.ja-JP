@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Journey Optimizerのプレリリースノート
-description: Journey Optimizerのプレリリースノート
+description: Adobe Journey Optimizerのプレリリースノート
 feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: f74ef3dfe8ceb504ace425cf4e701c9733373c2f
+source-git-commit: 08d32e9323d5841cdac5ed08b3e1764aeb6368be
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 20%
+source-wordcount: '933'
+ht-degree: 17%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 20%
 **以下のプレリリースノートは、リリースの公開日まで予告なく変更される場合があります**。 リンク、画面、更新されたドキュメントは、リリース日に[リリースノート](release-notes.md)で公開されます。
 
 
-## 2025 年 7 月先行リリースノート {#25-7-rn}
+## 2025 年 7 月のプレリリースノート {#25-7-rn}
 
 
 **以下のプレリリースノートは、リリースの公開日まで予告なく変更される場合があります**。 リンク、画面、更新済みのドキュメントは、リリース日に公開されます。
@@ -118,6 +118,12 @@ ht-degree: 20%
 <tr>
 <td>
 <p>Journey Optimizerでは、ツールを使用して、キャンペーンのオーディエンスにパーソナライズされ最適化されたコンテンツを提供できるようになりました。これにより、コンテンツ実験の実行、ルールベースのターゲティングの作成、および両方の高度な組み合わせの使用が、キャンペーンの効果を最大限に高めることができます。</p>
+<p>最適化を使用すると、次のことができます。</p>
+<ul>
+<li>コンテンツ実験の実行</li>
+<li>ターゲティングルールの活用</li>
+<li>1 つのキャンペーン内で、実験とターゲティングの両方の高度な組み合わせを使用します</li></ul>
+<P>キャンペーンがライブになると、プロファイルは定義された条件に照らして評価され、一致条件に基づいて、キャンペーンの適切なエクスペリエンスまたはコンテンツで配信されます。</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
@@ -158,7 +164,6 @@ ht-degree: 20%
 <li>開始日と終了日を設定した場合に、ドラフトキャンペーンを表示する機能</li>
 <li>実行されているカレンダー項目の表示/非表示を長時間切り替える新しい設定</li>
 </ul>
-<p>この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できます（一般提供）。</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
