@@ -19,7 +19,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation"
 >title="紐付けアクティビティ"
->abstract="**紐付け**&#x200B;アクティビティは、Adobe Journey Optimizer と作業用テーブル内のデータ間のリンクを定義できる&#x200B;**ターゲティング**&#x200B;アクティビティです。"
+>abstract="**紐付け**&#x200B;アクティビティは、Adobe Journey Optimizer とワークテーブル内のデータ間のリンクを定義できる&#x200B;**ターゲティング**&#x200B;アクティビティです。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_field"
@@ -85,7 +85,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_keep_unreconciled_data"
 >title="紐付けられていないデータの保持"
->abstract="デフォルトでは、紐付けされていないデータは、アウトバウンドトランジションに保持され、後で使用するために作業用テーブルで使用できます。 紐付けされていないデータを削除するには、「**紐付けされていないデータを保持**」オプションを非アクティブ化します。"
+>abstract="デフォルトでは、紐付けされていないデータは、アウトバウンドトランジションに保持され、後で使用するためにワークテーブルで使用できます。 紐付けされていないデータを削除するには、「**紐付けされていないデータを保持**」オプションを非アクティブ化します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_attribute"
