@@ -7,10 +7,10 @@ badge: label="アルファ版"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 516eb24a1f089d2fba1585e6b03e1d912b110d3c
+source-git-commit: c1013cd39dc1d85448e78e5406706a06fbc00de9
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 19%
+source-wordcount: '539'
+ht-degree: 18%
 
 ---
 
@@ -18,10 +18,8 @@ ht-degree: 19%
 
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_orchestrated"
->title="調整されたキャンペーン"
->abstract="<b>Campaign オーケストレーション </b><br/> リレーショナルデータセットを分割、結合、強化、操作して、オーディエンスを定義 <br/><br/>"
-
-<b> マルチエンティティデータの活用 </b><br/> 調整されたキャンペーンがリレーショナルデータセットを活用して、セグメント化とパーソナライゼーションのためのデータを強化する方法を学びます。<br/><br/><b> アドホックセグメント化と正確なカウント </b><br/> 正確なカウントを使用してセグメントを段階的に構築します。<br/><br/><b> 利用可能なチャネル </b><br/> メール、SMS、プッシュ通知、ダイレクトメール」
+>title="campaigns_overview_orchestrated"
+>abstract="<b>Campaign オーケストレーション </b><br/> リレーショナルデータセットを分割、結合、強化、操作して、オーディエンスを定義 <br/><br/> <b> マルチエンティティデータの活用 </b><br/> 調整されたキャンペーンがリレーショナルデータセットを活用して、セグメント化とパーソナライゼーションのためのデータを強化する方法を学びます。<br/><br/><b> アドホックセグメント化と正確な数 </b><br/> 正確な数を使用してセグメントを段階的に構築します。<br/><br/><b> 利用可能なチャネル </b><br/> メール、SMS、プッシュ通知、ダイレクトメール"
 
 +++ 目次
 
