@@ -8,17 +8,17 @@ level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="限定提供" type="Informative"
-source-git-commit: a600af73bd85d525bc1320d0aa6193660331e452
+exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
+source-git-commit: 5df643d2b0623d40779d155e406467d622d3d753
 workflow-type: tm+mt
-source-wordcount: '1184'
+source-wordcount: '1198'
 ht-degree: 1%
 
 ---
 
-
 # 外部データ参照ヘルパー
 
-`externalDataLookup` パーソナライゼーションエディターの [!DNL Journey Optmizer] ヘルパーを使用して、外部エンドポイントから動的にデータを取得し、コードベースのエクスペリエンス、web、アプリ内メッセージチャネルなどのインバウンドチャネルのコンテンツを生成するために使用できます。
+`externalDataLookup` パーソナライゼーションエディターの [!DNL Journey Optimizer] ヘルパーを使用して、外部エンドポイントから動的にデータを取得し、コードベースのエクスペリエンス、web、アプリ内メッセージチャネルなどのインバウンドチャネルのコンテンツを生成するために使用できます。
 
 >[!AVAILABILITY]
 >
@@ -35,14 +35,14 @@ ht-degree: 1%
 
 インバウンドチャネルキャンペーンとジャーニー[!DNL Journey Optimizer] カスタムアクションも参照#GuardrailsandGuidelines てください。
 
-* デフォルトでは、[!DNL Journey Optimizer] は外部エンドポイントの呼び出し時に 300 ミリ秒のタイムアウトを使用します。 エンドポイントのタイムアウトを増やすには、[!DNL Journey Optimizer] Engineering にお問い合わせください。
-* Personalization エディターでは、式を挿入 [!DNL Journey Optimizer] る際にエンドポイント応答のスキーマを参照したり、式で使用される応答から JSON 属性への参照を検証したりすることはできません。
-* externalDataLookup ヘルパーを使用して置き換えるペイロード変数パラメーターでサポートされているデータタイプは、String、Integer、Decimal、Boolean、listString、listInt、listInteger、listDecimal です。
-* アクション設定に対する変更は、ライブキャンペーンおよびジャーニーの対応する externalDataLookup 呼び出しには反映されません。 変更を反映するには、externalDataLookup ヘルパーのアクションを使用しているライブキャンペーンまたはジャーニーをコピーまたは変更する必要があります。
-* 変数の使用は、まだ外部データ参照ヘルパーパラメーター内ではサポートされていません。
-* 動的 URL パスは現在サポートされていません。  - インバウンドカスタムアクションの機能強化#DynamicPathSegments.
-* マルチパスレンダリングがサポートされています。
-* アクション設定の認証オプションは、現在、externalDataLookup ヘルパーではサポートされていません。 それまでの間、API キーベースの認証またはその他のプレーンテキストの認証キーの場合は、アクション設定のヘッダーフィールドとして指定できます。
+* **デフォルトのタイムアウト** - デフォルトでは、[!DNL Journey Optimizer] は外部エンドポイントの呼び出し時に 300 ミリ秒のタイムアウトを使用します。 エンドポイントのタイムアウトを増やすには、Adobe担当者にお問い合わせください。
+* **応答スキーマの参照と式の検証** - パーソナライゼーションエディターでは、式の挿入時にエンドポイント応答のスキーマを参照できません。 [!DNL Journey Optimizer] は、式で使用される応答からの JSON 属性への参照を検証しません。
+* **パラメーターでサポートされているデータタイプ** - externalDataLookup ヘルパーを使用して置き換えるペイロード変数パラメーターでサポートされているデータタイプは、`String`、`Integer`、`Decimal`、`Boolean`、`listString`、`listInt`、`listInteger`、`listDecimal` です。
+* **更新されたアクションの自動更新** - アクション設定に対する変更は、ライブキャンペーンおよびジャーニーの対応する externalDataLookup 呼び出しには反映されません。 変更を反映するには、externalDataLookup ヘルパーのアクションを使用しているライブキャンペーンまたはジャーニーをコピーまたは変更する必要があります。
+* **変数の置換** – 現時点では、externalDataLookup ヘルパーパラメーター内での変数の使用はサポートされていません。
+* **動的パス** – 現時点では、動的 URL パスはサポートされていません。
+* **マルチパスレンダリング** - マルチパスレンダリングがサポートされています。
+* **認証** – 現時点では、アクション設定の認証オプションは、externalDataLookup ヘルパーではサポートされていません。 それまでの間、API キーベースの認証またはその他のプレーンテキストの認証キーの場合は、アクション設定のヘッダーフィールドとして指定できます。
 
 ## アクションの設定とヘルパーの使用
 
@@ -102,15 +102,21 @@ ht-degree: 1%
 
 例：
 
-`{{externalDataLookup actionId="..." result="result" header.myHeaderParameter="value1" query.myQueryParameter="value2" payload.myPayloadParameter="value3"}}`
+```
+{{externalDataLookup actionId="..." result="result" header.myHeaderParameter="value1" query.myQueryParameter="value2" payload.myPayloadParameter="value3"}}`
+```
 
 パラメーター値は、固定値にすることも、プロファイルフィールドやその他のコンテキスト属性を参照してパーソナライズすることもできます。次に例を示します。
 
-`{{externalDataLookup actionId="..." result="result" query.myQueryParameter=profile.myProfileValue}}`
+```
+{{externalDataLookup actionId="..." result="result" query.myQueryParameter=profile.myProfileValue}}
+```
 
 ペイロードパラメーターは、ネストされた JSON 属性を参照するドット表記を使用して指定できます。例：
 
-`{{externalDataLookup actionId="..." result="result" payload.context.channel="web"}}`
+```
+{{externalDataLookup actionId="..." result="result" payload.context.channel="web"}}
+```
 
 ### 結果へのアクセス
 
@@ -174,7 +180,9 @@ AEP Edge Networkの低遅延、高スループットのパフォーマンス特�
 
 例えば、次のように、単一の属性に対するフォールバック値を表示できます。
 
-`First video description: {%=result.videos[0].description ?: "none found" %}`
+```
+First video description: {%=result.videos[0].description ?: "none found" %}
+```
 
 または、次のように、コンテンツブロック全体を条件付きでレンダリングできます。
 
@@ -196,7 +204,7 @@ AEP Edge Networkの低遅延、高スループットのパフォーマンス特�
 
 実行詳細の一部としての Assurance Trace のEdge Delivery セクションに、以下に類似したリクエストと応答の詳細を含む新しい customActions ブロックが追加されました。 「エラー」セクションは、カスタムアクションの実行中に問題が発生した場合のデバッグに役立ちます
 
-![](assets/external-data-troubleshoot.png)
+![](assets/external-data-troubleshoot.png " 幅=50%")
 
 ## FAQ
 
@@ -204,7 +212,9 @@ AEP Edge Networkの低遅延、高スループットのパフォーマンス特�
 
   コンテキスト属性/ データストリーム / イベント メニューを使用して、使用しているエクスペリエンスイベントスキーマを参照し、関連する属性をパラメーター値として次のように挿入します。
 
-  `{{externalDataLookup actionId="..." result="result" query.myQueryParameter=context.datastream.event.<schemaId>.my.xdm.attribute}}`
+  ```
+  {{externalDataLookup actionId="..." result="result" query.myQueryParameter=context.datastream.event.<schemaId>.my.xdm.attribute}}
+  ```
 
 * 外部エンドポイン [!DNL Journey Optimizer] 応答のキャッシュはありますか？
 
