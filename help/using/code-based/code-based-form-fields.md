@@ -246,4 +246,4 @@ JSON テンプレートと HTML テンプレートの例を以下に示します
 
 コードベースのエクスペリエンスチャネルコンテンツテンプレートに編集可能なフィールドを追加する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3463990/?learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3463992/?learn=on&#x26;enablevpops&captions=jpn)
