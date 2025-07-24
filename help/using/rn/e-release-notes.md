@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 08d32e9323d5841cdac5ed08b3e1764aeb6368be
+source-git-commit: 085a86b0869a10536300329acc27914f12be6d7b
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '924'
 ht-degree: 17%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 17%
 <tr>
 <td>
 <p>メールジャーニーとキャンペーンに決定ポリシーを追加できるようになりました。 決定ポリシーは、決定エンジンを活用してオーディエンスメンバーごとに配信する最適なコンテンツを動的に返す、オファーのコンテナです。</p>
-<p>この機能は、一連の組織でのみ使用できます。 現在、Healthcare Shield およびプライバシーとセキュリティシールド（限定提供）では使用できません。</p>
+<p>この機能は、現在、Healthcare Shield およびプライバシーとセキュリティシールド（限定提供）では使用できません。</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
