@@ -9,15 +9,20 @@ role: Developer
 level: Experienced
 keywords: キャンペーン, API トリガー, REST, Optimizer, メッセージ
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
+source-git-commit: 15f5fdfde0e9f7c93739a624918838dbd6787833
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 30%
+source-wordcount: '233'
+ht-degree: 25%
 
 ---
 
 
 # API トリガーキャンペーンの操作 {#trigger-campaigns}
+
+>[!CONTEXTUALHELP]
+>id="campaigns_overview_api_triggered"
+>title="API トリガーキャンペーン"
+>abstract="**トランザクション API トリガーキャンペーン**<br/> API 呼び出しを使用したリアルタイムメッセージのトリガー&#x200B;<br/><br/>**マーケティングメッセージ**<br/> プロモーションコンテンツ（オプトインが必要、ビジネスルールの対象となる） <br/><br/>**トランザクションメッセージ**<br/> サービス関連コンテンツ（確認、アラート、マーケティングの同意の対象とならない） <br/><br/>**使用可能なチャネル**<br/> メール、SMS、プッシュ通知"
 
 ## API トリガーキャンペーンについて {#about}
 
@@ -43,4 +48,4 @@ API トリガー型キャンペーンで使用できるチャネルは、メー�
 
 インタラクティブメッセージ実行 REST API を使用して、キャンペーンを作成し、ユーザーインタラクションに基づいて外部システムからキャンペーンをトリガーする方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452726?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)

@@ -7,14 +7,21 @@ badge: label="アルファ版"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: bd5239b177954d6e5d83f4b08e7d79819c102485
+source-git-commit: 15f5fdfde0e9f7c93739a624918838dbd6787833
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 20%
+source-wordcount: '540'
+ht-degree: 19%
 
 ---
 
 # 調整されたキャンペーンの基本を学ぶ {#orchestrated-camp}
+
+>[!CONTEXTUALHELP]
+>id="campaigns_overview_orchestrated"
+>title="調整されたキャンペーン"
+>abstract="**Campaign オーケストレーション**<br/> リレーショナルデータセットを分割、結合、強化、操作して、オーディエンスを定義 <br/><br/>
+
+**マルチエンティティデータの活用**<br/> 調整されたキャンペーンがリレーショナルデータセットを活用して、セグメント化とパーソナライゼーションのためのデータを強化する方法を学びます。<br/><br/>**アドホックセグメント化と正確なカウント**<br/> 正確なカウントを使用してセグメントを段階的に構築します。<br/><br/>**利用可能なチャネル**<br/> メール、SMS、プッシュ通知、ダイレクトメール」
 
 +++ 目次
 

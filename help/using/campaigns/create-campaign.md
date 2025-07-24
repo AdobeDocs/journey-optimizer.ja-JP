@@ -10,15 +10,20 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 作成, Optimizer, キャンペーン, サーフェス, メッセージ
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: c1b016af0d44e0dceb4cc292ddf1820abf2734e1
+source-git-commit: 15f5fdfde0e9f7c93739a624918838dbd6787833
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 12%
+source-wordcount: '139'
+ht-degree: 8%
 
 ---
 
 
 # アクションキャンペーンの操作 {#gs-action-campaigns}
+
+>[!CONTEXTUALHELP]
+>id="campaigns_overview_action"
+>title="アクションキャンペーン"
+>abstract="**キャンペーンを作成して送信するためのガイド付き UI**<br/> チャネルを使用した 1 つ以上のアクションの設定、オーディエンスの選択、コンテンツの設定、スケジュールの定義、送信の準備の整った <br/><br/>**使用可能なチャネル**<br/> メール、SMS、プッシュ通知、アプリ内、web、コードベースのエクスペリエンス"
 
 ## アクションキャンペーンについて {#about}
 
@@ -39,4 +44,4 @@ ht-degree: 12%
 
 アクションキャンペーンの作成方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3412405?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)
