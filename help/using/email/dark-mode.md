@@ -11,10 +11,10 @@ keywords: ダークモード，メール，カラー，エディター
 hide: true
 hidefromtoc: true
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
-source-git-commit: b5d9b9c26824517414982fa539e0b360500cafc6
+source-git-commit: 12b41a253693184e4e3d866f00e7d8b0a1e30ce3
 workflow-type: tm+mt
-source-wordcount: '1701'
-ht-degree: 8%
+source-wordcount: '1674'
+ht-degree: 9%
 
 ---
 
@@ -209,13 +209,13 @@ Inline CSS helps maintain more control over styling, as some clients strip exter
 
 ## ダークモードをサポートするメールクライアント {#supporting-email-clients}
 
-ダークモードをサポートする主なメールクライアントのリストを以下に示します。 ただし、リストに表示されているメールクライアントの一部のバージョンはダークモードをサポートしていないので、明確さと精度を高めるために、この表にも示されています。
+ダークモードをサポートする主なメールクライアントのリストを以下に示します。
 
->[!WARNING]
+>[!NOTE]
 >
->ダークモードの最終レンダリングはメールクライアントごとに異なるので、結果はクライアントによって異なる場合があります。 各メールクライアントの最終結果にできるだけ近いシミュレーションを確認するには、「[ メールのレンダリング ](../content-management/rendering.md)」オプションを使用します。
+>これらのメールクライアントの一部のバージョンはダークモードをサポートしていないので、明確にするためにも、この表に示しています。
 
-| ダークモードをサポートするメールクライアント | 互換性のあるバージョン | サポートされていないバージョン |
+| ダークモードをサポートするメールクライアント | 互換性のあるバージョン | *サポートされていないバージョン* |
 |---------|----------|---------|
 | Apple メールmacOS | 12.4、16.0 | *103* |
 | Apple メールiOS | 13.0、16.1 | *1220* |
@@ -236,6 +236,10 @@ Inline CSS helps maintain more control over styling, as some clients strip exter
 | 1&amp;1 （デスクトップ Web メールとAndroid） | 2022-06 | 該当なし |
 | WEB.DE （iOs およびAndroid） | 2022-06 | 該当なし |
 | Free.fr | 2022-12 | 該当なし |
+
+>[!WARNING]
+>
+>ダークモードの最終レンダリングはメールクライアントごとに異なるので、結果はクライアントによって異なる場合があります。
 
 <!--
 * Check out the list of [email clients supporting dark mode](https://www.caniemail.com/search/?s=dark){target="_blank"}
