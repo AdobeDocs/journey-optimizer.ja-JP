@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 公開, ジャーニー, ライブ, 有効性, 確認
 exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
-source-git-commit: d772ef2d98775446618bd6614a26b9f352e073bd
-workflow-type: ht
-source-wordcount: '522'
-ht-degree: 100%
+source-git-commit: f8f07c27dc7e2ef223972e9044042c60e6dca4c8
+workflow-type: tm+mt
+source-wordcount: '530'
+ht-degree: 98%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 ジャーニー指標を使用する前に、Adobe Experience Platform の設定／レポートで、`Commerce Details`、`Web` および `Mobile` の[フィールドグループ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja#field-group){target="_blank"}を含むデータセットを追加する必要があります。
 
-これらのフィールドグループは、カスタムグループではなく、組み込みオプションから選択する必要があります。[データセットを追加](../reports/reporting-configuration.md#add-datasets)の節を参照してください。
+これらのフィールドグループは、カスタムグループではなく、ビルトインのオプションから選択する必要があります。[データセットを追加](../reports/reporting-configuration.md#add-datasets)の節を参照してください。
 
 ## 使用可能な指標 {#metrics}
 
@@ -67,11 +67,15 @@ Customer Journey Analytics ライセンスを使用すると、カスタム成�
 
 * **Customer Journey Analytics ライセンスを使用した指標アトリビューション**：
 
-  Journey Optimizer ライセンスと Customer Journey Analytics ライセンスの両方を使用すると、特定のアトリビューション設定を使用してカスタム指標を作成したり、組み込み指標のアトリビューションを変更したりできます。
+  Journey Optimizer ライセンスと Customer Journey Analytics ライセンスの両方を使用すると、特定のアトリビューション設定を使用してカスタム指標を作成したり、ビルトインの指標のアトリビューションを変更したりできます。
 
   詳しくは、[アトリビューションモデル](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-dataviews/component-settings/attribution#attribution-models)を参照してください。
 
 ## ジャーニー指標の割り当て {#assign}
+
+>[!IMPORTANT]
+>
+>1 つのジャーニーで使用できるジャーニー指標は 1 つだけです。
 
 ジャーニー指標のトラッキングを開始するには、次の手順に従います。
 
