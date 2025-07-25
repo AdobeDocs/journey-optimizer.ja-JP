@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 23684c906d11c7f54eb28cac7c2697964e723a2e
+source-git-commit: 1e9aaceb48335beb0c9a8ef037f758818c700dfa
 workflow-type: tm+mt
-source-wordcount: '2316'
-ht-degree: 63%
+source-wordcount: '2342'
+ht-degree: 62%
 
 ---
 
@@ -103,9 +103,12 @@ ht-degree: 63%
 <p>Journey Optimizerでは、ツールを使用して、キャンペーンのオーディエンスにパーソナライズされ最適化されたコンテンツを提供できるようになりました。これにより、コンテンツ実験の実行、ルールベースのターゲティングの作成、および両方の高度な組み合わせの使用が、キャンペーンの効果を最大限に高めることができます。</p>
 <p>最適化を使用すると、次のことができます。</p>
 <ul>
-<li>コンテンツ実験の実行</li>
-<li>ターゲティングルールの活用</li>
-<li>1 つのキャンペーン内で、実験とターゲティングの両方の高度な組み合わせを使用します</li></ul>
+<li>複数のコンテンツのバリエーションをテストして、最も効果的なメッセージを特定します。</li>
+<li>ユーザー属性とコンテキストデータに基づいてパーソナライズされたコンテンツを配信します。</li>
+<li>高度なキャンペーン戦略のために、ターゲティングと実験を組み合わせます。</li>
+<li>バリアント条件に一致しないユーザーをフィルターで除外します。</li>
+<li>ユーザーエンゲージメントを維持するためのフォールバックメカニズムを確認します。</li>
+</ul>
 <P>キャンペーンがライブになると、プロファイルは定義された条件に照らして評価され、一致条件に基づいて、キャンペーンの適切なエクスペリエンスまたはコンテンツで配信されます。</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
@@ -248,7 +251,7 @@ ht-degree: 63%
 
 **リリース日**：2025年6月18日（PT）
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新機能 {#25-06-features}
 
