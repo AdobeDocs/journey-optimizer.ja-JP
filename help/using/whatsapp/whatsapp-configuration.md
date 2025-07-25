@@ -9,7 +9,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: d71dfb4f791c48997e448147b414fede49023b91
+source-git-commit: 78da5e017b5e3f39be1b613713f131d35260992b
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 65%
@@ -76,7 +76,7 @@ API 資格情報を作成および設定したら、WhatsApp メッセージ用�
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_inbound_keyword_category"
 >title="受信キーワードカテゴリ"
->abstract="<br/><b> オプトイン </b>：ユーザーが購読すると、定義した自動応答を送信します。 <br/><b> オプトアウト </b>：ユーザーが登録解除すると、定義した自動応答を送信します。 <br/><b> ヘルプ </b>：ユーザーがヘルプまたはサポートをリクエストしたときに、定義済みの自動応答を送信します。 <br/><b> デフォルト </b>：一致するキーワードがない場合にフォールバック自動応答を送信します。"
+>abstract="<b> オプトイン </b>：ユーザーが購読すると、定義した自動応答を送信します。 <br/><b> オプトアウト </b>：ユーザーが登録解除すると、定義した自動応答を送信します。 <br/><b> ヘルプ </b>：ユーザーがヘルプまたはサポートをリクエストしたときに、定義済みの自動応答を送信します。 <br/><b> デフォルト </b>：一致するキーワードがない場合にフォールバック自動応答を送信します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_inbound_keyword"
@@ -101,7 +101,7 @@ WhatsApp API 認証情報と [Meta Webhook](https://developers.facebook.com/docs
 
 1. 左側のレールで、**[!UICONTROL 管理]**`>`**[!UICONTROL チャネル]** に移動し、**[!UICONTROL WhatsApp 設定]** の下にある **[!UICONTROL WhatsApp Webhook]** メニューを選択して、**[!UICONTROL Webhook を作成]** ボタンをクリックします。
 
-1. Webhook の [!UICONTROL &#x200B; 名前 &#x200B;] を入力します。
+1. Webhook の [!UICONTROL  名前 ] を入力します。
 
 1. ドロップダウンから、以前に作成した [API 資格情報 ](#whatsapp-credentials) を選択します。
 
