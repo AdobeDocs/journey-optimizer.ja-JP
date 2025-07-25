@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: ht
-source-wordcount: '1796'
+source-git-commit: 12040f4c94f01d116051da360cad4ca34a26f8e2
+workflow-type: tm+mt
+source-wordcount: '1841'
 ht-degree: 100%
 
 ---
@@ -26,6 +26,16 @@ ht-degree: 100%
 >title="決定ポリシーの定義"
 >abstract="決定ポリシーを使用すると、決定エンジンから最適な項目を選択し、正しいオーディエンスに配信できます。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/decisioning/offer-decisioning/get-started-decision/starting-offer-decisioning" text="決定について"
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_decision_policy"
+>title="決定ポリシー"
+>abstract="決定ポリシーを使用すると、決定エンジンから最適な項目を選択し、各オーディエンスに配信できます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_placements"
+>title="プレースメント"
+>abstract="プレースメントにより、決定エンジンから返された項目がメッセージ内に表示される場所が決まります。レポートでは、様々なプレースメントにわたるパフォーマンスを追跡できます。"
 
 決定ポリシーは、配信する最適なコンテンツをオーディエンスに応じて選択することを目的に、決定エンジンを活用するオファーのコンテナです。
 
