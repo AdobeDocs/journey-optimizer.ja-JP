@@ -6,7 +6,7 @@ description: リレーショナルスキーマを顧客プロファイルにマ�
 badge: label="アルファ版"
 hide: true
 hidefromtoc: true
-source-git-commit: 70d397614dc0e5b5ce94cc4221a28d47dc9b476d
+source-git-commit: 0ae9ed8ba93bd4f64f27380f956e1c97af75dd90
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 11%
@@ -58,7 +58,7 @@ ht-degree: 11%
 
    この例では、顧客プロファイルは複数のサブスクリプションにリンクされ、それぞれが `crmID` スキーマ内の一意の `Recipient` で表されます。 **[!UICONTROL スキーマとその]** ID を使用するように `Recipient`Target Dimension`crmID` を設定することで、メイン顧客プロファイルではなく購読レベルでメッセージを送信でき、各契約または明細が独自にパーソナライズされたメッセージを受信するようになります。
 
-   [詳しくは、Adobe Experience Platform ドキュメントを参照してください。](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/schema/composition#identity)
+   [詳しくは、Adobe Experience Platform ドキュメントを参照してください。](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity)
 
    ![](assets/target-dimension-2.png)
 
@@ -92,7 +92,7 @@ ht-degree: 11%
 
    ![](assets/target-dimension-4.png)
 
-1. 「**[!UICONTROL 実行アドレス]**」セクションで、配信アドレスの取得に使用する **[!UICONTROL 2&rbrace;Source&rbrace; を選択します（メールアドレスや電話番号など）。]**
+1. 「**[!UICONTROL 実行アドレス]**」セクションで、配信アドレスの取得に使用する **[!UICONTROL 2}Source} を選択します（メールアドレスや電話番号など）。]**
 
    * **[!UICONTROL プロファイル]**：配信アドレス（メールなど）がメイン顧客プロファイルに直接保存されている場合は、このオプションを選択します。
 
@@ -108,4 +108,4 @@ ht-degree: 11%
 
 1. 設定が完了したら、「**[!UICONTROL 送信]**」をクリックします。
 
-これで、チャネルをオーケストレートキャンペーンで使用する準備が整い、選択したターゲットディメンションに従ってメッセージが配信されます。
+これで、チャネルを **オーケストレーションされたキャンペーン** で使用する準備が整い、選択したターゲットディメンションに従ってメッセージが配信されます。
