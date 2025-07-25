@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: サブドメイン, デリゲーション, ドメイン, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+source-git-commit: 7854de133ebcd3b29ca59b747aa89fae242f2ea5
 workflow-type: tm+mt
-source-wordcount: '2000'
-ht-degree: 75%
+source-wordcount: '1897'
+ht-degree: 79%
 
 ---
 
@@ -37,15 +37,12 @@ ht-degree: 75%
 
 * サブドメインの完全なデリゲート - [ 詳細 ](#set-up-subdomain)
 * CNAME を使用してサブドメインを作成し、Adobe固有のレコードを指すようにします [ 方法については、こちらを参照 ](#set-up-subdomain)。
-* カスタムドメインの設定 – [ 詳細情報 ](#setup-custom-subdomain)
 
 **完全なサブドメインデリゲーション** は、推奨される方法です。 様々なサブドメイン設定方法の違いについて詳しくは、[ この節 ](about-subdomain-delegation.md#subdomain-delegation-methods) を参照してください。
 
 >[!CAUTION]
 >
 >サブドメインの並列送信は、[!DNL Journey Optimizer] ではサポートされていません。別のサブドメインのステータスが&#x200B;**[!UICONTROL 処理中]**&#x200B;となっているときに、サブドメインをデリゲーション用に送信しようとすると、エラーメッセージが表示されます。
-
-➡️ [CNAME を使用してサブドメインを作成しアドビ固有のレコードを指すようにする方法については、このビデオをご覧ください](#video)
 
 ## デリゲートされたサブドメインへのアクセス {#access-delegated-subdomains}
 
@@ -103,10 +100,6 @@ ht-degree: 75%
 
      CNAME を使用してサブドメインを設定する方法については、この [ 専用の節 ](#cname-subdomain-setup) を参照してください
 
-   * カスタムの委任 – [ 詳細情報 ](about-subdomain-delegation.md#custom-subdomain-delegation)
-
-     カスタム委任の設定方法については、この [ 専用の節 ](delegate-custom-subdomain.md) を参照してください。
-
    <!--![](assets/subdomain-method-full.png)-->
 
 1. デリゲートするサブドメインの名前を指定します。
@@ -121,7 +114,7 @@ ht-degree: 75%
 
    <!--Capital letters are not allowed in subdomains. TBC by PM-->
 
-1. 専用セクションで **[!UICONTROL 0&rbrace;DMARC レコード &rbrace; を設定します。]**&#x200B;サブドメインに既存の [DMARC レコード ](dmarc-record.md) があり、[!DNL Journey Optimizer] によって取得される場合は、同じ値を使用するか、必要に応じて変更できます。 値を追加しない場合は、デフォルトの値が使用されます。[DMARC レコードの管理方法について説明します ](dmarc-record.md#set-up-dmarc)
+1. 専用セクションで **[!UICONTROL 0}DMARC レコード } を設定します。]**&#x200B;サブドメインに既存の [DMARC レコード ](dmarc-record.md) があり、[!DNL Journey Optimizer] によって取得される場合は、同じ値を使用するか、必要に応じて変更できます。 値を追加しない場合は、デフォルトの値が使用されます。[DMARC レコードの管理方法について説明します ](dmarc-record.md#set-up-dmarc)
 
    ![](assets/dmarc-record-found.png)
 
@@ -170,117 +163,6 @@ CNAME を使用してサブドメインを設定するには、次の手順に�
 1. 「**[!UICONTROL 送信]**」をクリックして、Adobeで必要なチェックを実行します。 [詳細情報](#submit-subdomain)
 
 ➡️ [CNAME を使用してサブドメインを作成しアドビ固有のレコードを指すようにする方法については、このビデオをご覧ください](#video)
-
-## カスタムサブドメインの設定 {#setup-custom-subdomain}
-
-[ 完全にデリゲート ](#set-up-subdomain) および [CNAME 設定 ](#cname-subdomain-setup) 方法の代わりに、**カスタムデリゲーション** 方法を使用すると、Journey Optimizer内のサブドメインの所有権を取得し、生成された証明書を完全に制御できます。
-
-<!--As part of this process, Adobe needs to make sure that your DNS is accordingly configured for delivering, rendering and tracking messages. This is why you will be required to [upload the SSL certificate](#upload-ssl-certificate) obtained from the Certificate Authority and complete the [Feedback Loop steps](#feedback-loop-steps) by verifying domain ownership and reporting email address.-->
-
-* カスタムの委任について詳しくは、[ このページ ](about-subdomain-delegation.md#custom-subdomain-delegation) を参照してください。
-* カスタムサブドメインを設定するには、[ このページ ](delegate-custom-subdomain.md) に記載されている手順に従います。
-<!--
-1. Access the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email settings]** > **[!UICONTROL Subdomains]** menu.
-
-1. Click **[!UICONTROL Set up subdomain]**.
-
-1. From the **[!UICONTROL Set up method]** section, select **[!UICONTROL Custom delegation]**.
-
-    ![](assets/subdomain-method-custom.png){width=90%}
-
-1. Specify the name of the subdomain to delegate.
-
-    >[!CAUTION]
-    >
-    >You cannot use the same sending domain to send out messages from [!DNL Adobe Journey Optimizer] and from another product, such as [!DNL Adobe Campaign] or [!DNL Adobe Marketo Engage].
-
-### Create the DNS records {#create-dns-records}
-
->[!CONTEXTUALHELP]
->id="ajo_admin_subdomain_custom_dns"
->title="Generate the matching DNS records"
->abstract="To delegate a custom subdomain to Adobe, you need to copy-paste the nameserver information displayed in the Journey Optimizer interface into your domain-hosting solution to generate the matching DNS records."
-
-1. The list of records to be placed in your DNS servers displays. Copy these records, either one by one, or by downloading a CSV file.
-
-1. Navigate to your domain hosting solution to generate the matching DNS records.
-
-1. Make sure that all the DNS records have been generated into your domain hosting solution.
-
-1. If everything is configured properly, check the box "I confirm...".
-
-    ![](assets/subdomain-custom-submit.png){width="75%"}
-
-### Upload the SSL Certificate {#upload-ssl-certificate}
-
->[!CONTEXTUALHELP]
->id="ajo_admin_subdomain_custom-ssl"
->title="Generate the Certificate Signing Request"
->abstract="When setting up a new custom subdomain, you need to generate the Certificate Signing Request (CSR), fill it and send it to the Certificate Authority to get the SSL certificate that you need to upload to Journey Optimizer."
-
->[!CONTEXTUALHELP]
->id="ajo_admin_subdomain_key_length"
->title="xxx"
->abstract=""
-
-1. In the **[!UICONTROL SSL Certificate]** section, click **[!UICONTROL Generate CSR]**.
-
-    ![](assets/subdomain-custom-ssl-certificate.png){width="85%"}
-
-    >[!NOTE]
-    >
-    >Your SSL certificate expiration date is displayed. Once the date is reached, you need to upload a new certificate.
-    
-1. Fill the form that displays and generate the Certificate Signing Request (CSR).
-
-    ![](assets/subdomain-custom-generate-csr.png){width="70%"}
-
-    >[!NOTE]
-    >
-    >The key length can be 2048 or 4096-bit only. It cannot be changed after the subdomain is submitted.
-
-1. Click **[!UICONTROL Download CSR]** and save the form to your local computer. Send it to the Certificate Authority to get your SSL certificate.
-
-1. Once retrieved, click **[!UICONTROL Upload SSL certificate]** and upload the certificate to [!DNL Journey Optimizer] in .pem format.
-
-### Complete the Feedback Loop steps {#feedback-loop-steps}
-
->[!CONTEXTUALHELP]
->id="ajo_admin_subdomain_feedback-loop"
->title="Complete the Feedback Loop steps"
->abstract="Go to the Yahoo! Sender Hub and fill in the form to verify domain ownership. Enter the FBL reporting email address listed below, and use the OTP that will be received to verify ownership on the Yahoo! Sender Hub."
-
-1. Go to the [Yahoo! Sender Hub](https://senders.yahooinc.com/) website and fill in the required form to verify your domain ownership.
-
-1. To verify the domain ownership, Yahoo! Sender Hub will require that you provide an email address. Enter the FBL reporting email address listed under **[!UICONTROL Value]**. This is an Adobe-owned email address.
-
-1. When Yahoo! Sender Hub generates a One-Time Password (OTP), it will be sent to this Adobe address.
-
-1. Reach out to the Adobe Deliverability team who will provide you with this OTP. ///Specify how to reach out + any information that customer should share in the request to deliverability team to get access to the right OTP///
-
-    >[!CAUTION]
-    >
-    >The OTP is valid only for 24 hours, so make sure you reach out to Adobe as soon as the OTP is generated. ///TBC?
-    >
-    >OTP request can only be made on weekdays. There is no support on weekends. ///Add times + timzone
-
-1. Enter the OTP on Yahoo! Sender Hub.
-
-1. Make sure you have completed all the Feedback Loop steps.
-
-1. If everything is configured properly, check the box "I have completed...".
-
-    ![](assets/subdomain-custom-feedback-loop.png){width="85%"}
-
-1. Click **[!UICONTROL Continue]** and wait until Adobe verifies that the records are generated without errors on your hosting solution. This process can take up to 2 minutes.
-
-    >[!NOTE]
-    >
-    >Any missing records, meaning the records not yet created on your hosting solution, will be listed out.
-
-    Adobe generates an SSL CDN URL validation record. Copy this validation record into your hosting platform. If you have properly created this record on your hosting solution, check the box "I confirm...".
-
-1. Click **[!UICONTROL Submit]** to have Adobe perform the required checks. [Learn more](#submit-subdomain)-->
 
 ## サブドメインの設定を送信 {#submit-subdomain}
 
@@ -384,4 +266,4 @@ CNAME を使用してサブドメインを設定するには、次の手順に�
 
 CNAME を使用してサブドメインを作成しアドビ固有のレコードを指すようにする方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/342236?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)

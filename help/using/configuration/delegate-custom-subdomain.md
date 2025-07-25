@@ -11,16 +11,16 @@ keywords: サブドメイン, デリゲーション, ドメイン, DNS
 hide: true
 hidefromtoc: true
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+source-git-commit: 7854de133ebcd3b29ca59b747aa89fae242f2ea5
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '736'
 ht-degree: 30%
 
 ---
 
 # カスタムサブドメインの設定 {#delegate-custom-subdomain}
 
-[ 完全デリゲート ](about-subdomain-delegation.md#full-subdomain-delegation) および [CNAME 設定 ](about-subdomain-delegation.md#cname-subdomain-delegation) 手法の代わりに、**カスタムデリゲーション** 手法を使用して、Journey Optimizer A 内のサブドメインの所有権を取得し、生成された証明書を完全に制御できます。 [詳細情報](about-subdomain-delegation.md#custom-subdomain-delegation)
+[ 完全デリゲート ](about-subdomain-delegation.md#full-subdomain-delegation) および [CNAME 設定 ](about-subdomain-delegation.md#cname-subdomain-delegation) 手法の代わりに、**カスタムデリゲーション** 手法を使用して、Journey Optimizer A 内のサブドメインの所有権を取得し、生成された証明書を完全に制御できます。
 
 このプロセスの一環として、Adobeでは、メッセージの配信、レンダリング、トラッキングに合わせて DNS が適切に設定されていることを確認する必要があります。 このため、認証局から取得した [SSL 証明書をアップロード ](#upload-ssl-certificate) し、ドメインの所有権を確認してメールアドレスをレポートすることで [ フィードバックループの手順 ](#feedback-loop-steps) を完了する必要があります。
 
