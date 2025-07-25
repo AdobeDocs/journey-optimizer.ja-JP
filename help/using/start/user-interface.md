@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
-workflow-type: ht
-source-wordcount: '1716'
+source-git-commit: 1b402e8c8a5dbff84dbd362181d6168fe85de6b5
+workflow-type: tm+mt
+source-wordcount: '1671'
 ht-degree: 100%
 
 ---
@@ -328,17 +328,6 @@ AI アシスタントにアクセスして使用する方法については、[�
 >id="ajo_exd_decision_attribute"
 >title="カタログから決定属性を選択する"
 >abstract="決定属性はカタログのスキーマに保存されます。選択したカタログから、ここで使用する属性を選択します。"
-
->[!CONTEXTUALHELP]
->id="ajo_exd_decision_policy"
->title="決定ポリシー"
->abstract="決定ポリシーを使用すると、決定エンジンから最適な項目を選択し、各オーディエンスに配信できます。"
-
->[!CONTEXTUALHELP]
->id="ajo_exd_placements"
->title="プレースメント"
->abstract="プレースメントにより、決定エンジンから返された項目がメッセージ内に表示される場所が決まります。レポートでは、様々なプレースメントにわたるパフォーマンスを追跡できます。"
-
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_simulation"
