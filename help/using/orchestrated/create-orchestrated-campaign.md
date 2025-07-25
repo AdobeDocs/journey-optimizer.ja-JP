@@ -7,10 +7,10 @@ badge: label="アルファ版"
 hide: true
 hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: c0f5ba3a8d5a361cdae3dd432ddbe54c5b79fe36
+source-git-commit: 68d47250c3239c0da1609367e5ab14f992a8898b
 workflow-type: tm+mt
-source-wordcount: '1152'
-ht-degree: 90%
+source-wordcount: '1232'
+ht-degree: 84%
 
 ---
 
@@ -57,9 +57,11 @@ ht-degree: 90%
 
    ![](assets/inventory-create.png)
 
-   1. キャンペーンの名前と説明を入力します。
+   1. キャンペーンの **[!UICONTROL 名前]** と **[!UICONTROL 説明]** を入力します。
 
-      <!--1. Merge policy-->
+   1. キャンペーンの **[!UICONTROL 結合ポリシー]** を選択します。
+
+      [!DNL Adobe Experience Platform] では、各オーディエンスは特定の結合ポリシーに関連付けられています。このポリシーは、プロファイル情報を組み合わせて結合プロファイルを形成する方法を定義します。 オーディエンスを読み取りアクティビティで結合ポリシーを選択した場合、同じ結合ポリシーに基づくオーディエンスのみを使用できます。 デフォルトでは、デフォルトの結合ポリシーが使用されますが、必要に応じて変更できます。 結合ポリシーについて詳しくは、[Adobe Experience Platform ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/merge-policies/overview){target="_blank"} を参照してください。
 
    1. 「**[!UICONTROL タグ]**」フィールドを使用すると、Adobe Experience Platform統合タグをキャンペーンに割り当てることができます。 これにより、キャンペーンを簡単に分類し、調整されたキャンペーンリストからの検索を改善できます。[詳しくは、タグの操作方法を参照してください](../start/search-filter-categorize.md#tags)。
 
@@ -105,7 +107,7 @@ ht-degree: 90%
    * **[!UICONTROL 日付]**：キャンペーンを実行する日付を選択します。
    * **[!UICONTROL 時間]**：キャンペーンを実行する特定の時間を選択します。
 
-   +++
++++
 
    +++毎日
 
@@ -119,7 +121,7 @@ ht-degree: 90%
 
    * **[!UICONTROL 開始時間]**：毎日キャンペーンを実行する時間を定義します。
 
-   +++
++++
 
    +++1 日に数回
 
@@ -128,7 +130,7 @@ ht-degree: 90%
    * **[!UICONTROL 選択した時間]**：キャンペーンを実行する特定の時間を選択し、毎日の繰り返しを設定します（すべての曜日または特定の日に実行）。
    * **[!UICONTROL 定期的]**：n 分または n 時間ごとにキャンペーンを実行するように選択します。また、実行が許可される日内の時間範囲を定義することもできます。
 
-   +++
++++
 
    +++毎週
 
@@ -139,7 +141,7 @@ ht-degree: 90%
    * **[!UICONTROL 毎日の繰り返し]**：実行する特定の曜日を選択します（例：毎週月曜日と木曜日）。
    * **[!UICONTROL 開始時間]**：選択した曜日にキャンペーンを実行する時間を設定します。
 
-   +++
++++
 
    +++毎月
 
@@ -155,7 +157,7 @@ ht-degree: 90%
 
    * **[!UICONTROL 開始時間]**：キャンペーンを実行する時間を設定します。
 
-   +++
++++
 
 1. **[!UICONTROL 有効期間]**&#x200B;設定を使用して特定の開始日と終了日を定義し、キャンペーンの実行を限られた時間枠に制限します。
 
