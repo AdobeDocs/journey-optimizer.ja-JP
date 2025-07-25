@@ -9,8 +9,8 @@ role: Admin
 level: Experienced
 keywords: サブドメイン, PTR, レコード, DNS, ドメイン, メール
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 100%
 
@@ -82,13 +82,13 @@ PTR レコードを使用すると、受信メールサーバーは、送信メ�
 
 ### CNAME メソッドを使用したデリゲートされたサブドメイン {#edit-ptr-subdomains-cname}
 
-[CNAME メソッド](delegate-subdomain.md#cname-subdomain-delegation)を使用してアドビにデリゲートされたサブドメインを持つ PTR レコードを編集するには、次の手順に従います。
+[CNAME メソッド](delegate-subdomain.md#cname-subdomain-setup)を使用してアドビにデリゲートされたサブドメインを持つ PTR レコードを編集するには、次の手順に従います。
 
 1. リストで PTR レコード名をクリックして開きます。
 
    ![](assets/ptr-record-select.png)
 
-1. リストの [CNAME メソッド](delegate-subdomain.md#cname-subdomain-delegation)を使用して、アドビにデリゲートされたサブドメインを選択します。
+1. リストの [CNAME メソッド](delegate-subdomain.md#cname-subdomain-setup)を使用して、アドビにデリゲートされたサブドメインを選択します。
 
    ![](assets/ptr-record-subdomain-cname.png)
 

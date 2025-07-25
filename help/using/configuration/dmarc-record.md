@@ -9,8 +9,8 @@ role: Admin
 level: Experienced
 keywords: サブドメイン、ドメイン、メール、DMARC、レコード
 exl-id: f9e217f8-5aa8-4d3a-96fc-65defcb5d340
-source-git-commit: e539d694e8fb91b6a8c7ba7ff5a2bb0905651f81
-workflow-type: ht
+source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+workflow-type: tm+mt
 source-wordcount: '1482'
 ht-degree: 100%
 
@@ -104,7 +104,7 @@ Google と Yahoo! は、業界のベストプラクティス実施の一環と�
 
    * アドビに[完全にデリゲート](delegate-subdomain.md#full-subdomain-delegation)されているので、それ以上のアクションは必要ありません。
 
-   * [CNAME](delegate-subdomain.md#cname-subdomain-delegation) を使用して設定する場合、一致する DNS レコードを生成するには、DMARC の DNS レコードをホストするソリューションにコピーする必要があります。
+   * [CNAME](delegate-subdomain.md#cname-subdomain-setup) を使用して設定する場合、一致する DNS レコードを生成するには、DMARC の DNS レコードをホストするソリューションにコピーする必要があります。
 
      ![](assets/dmarc-record-edit-cname.png)
 

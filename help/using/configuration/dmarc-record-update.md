@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: サブドメイン、ドメイン、メール、DMARC、レコード
 exl-id: 15b10a61-6ecd-4ffa-b1c2-21e862263f6d
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 96%
@@ -35,13 +35,13 @@ Google と Yahoo! は、業界のベストプラクティス実施の一環と�
 
 * 送信サブドメインをアドビに[完全にデリゲート](delegate-subdomain.md#full-subdomain-delegation)している場合は、以下のオプションのいずれかに従います。
 
-   * **ホスティングソリューション**&#x200B;のデリゲートされたサブドメインの親ドメインに DMARC を設定します。
+   * **ホスティングソリューション**のデリゲートされたサブドメインの親ドメインに DMARC を設定します。
 または
    * **[!DNL Journey Optimizer]** 設定ユーザーインターフェイスで、デリゲートされたサブドメインに DMARC を設定します。ホスティングソリューションで追加の作業を行う必要はありません。[方法についてはこちらを参照](dmarc-record.md#implement-dmarc)
 
-* [CNAME](delegate-subdomain.md#cname-subdomain-delegation) を使用して送信サブドメインを設定している場合は、以下のいずれかのオプションに従います。
+* [CNAME](delegate-subdomain.md#cname-subdomain-setup) を使用して送信サブドメインを設定している場合は、以下のいずれかのオプションに従います。
 
-   * **ホスティングソリューション**&#x200B;のサブドメインまたはサブドメインの親ドメインに DMARC を設定します。
+   * **ホスティングソリューション**のサブドメインまたはサブドメインの親ドメインに DMARC を設定します。
 または
    * **[!DNL Journey Optimizer]** 設定ユーザーインターフェイスで、デリゲートされたサブドメインに DMARC を設定します。[方法についてはこちらを参照](dmarc-record.md#implement-dmarc)
 

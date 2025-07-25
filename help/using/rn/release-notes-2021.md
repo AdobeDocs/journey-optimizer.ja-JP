@@ -10,8 +10,8 @@ level: Beginner, Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 8ff4f970796218451996bd5ed1938d33fa818495
-workflow-type: ht
+source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+workflow-type: tm+mt
 source-wordcount: '2035'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 <td>
 <p>Adobe Journey Optimizer で CNAME がサポートされるようになりました。CNAME（正規名レコード）とは、IP アドレスではなく別のドメインアドレスを指すレコードです。CNAME サブドメインデリゲーションを使用すると、サブドメインを作成し、CNAME を使用してアドビ固有のレコードを指定できます。この設定を使用すると、 メールの送信、レンダリング、トラッキングの環境を設定するために、DNS の管理に対する責任を、お客様とアドビで共有します。</p>
 <p>組織のポリシーで完全なサブドメインデリゲーションの方法が制限されている場合は、この方法をお勧めします。</p>
-<p>CNAME サブドメインデリゲーションについて詳しくは、<a href="../configuration/delegate-subdomain.md#cname-subdomain-delegation">詳細ドキュメント</a>を参照してください。</p>
+<p>CNAME サブドメインデリゲーションについて詳しくは、<a href="../configuration/delegate-subdomain.md#cname-subdomain-setup">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>

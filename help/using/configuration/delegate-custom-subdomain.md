@@ -11,16 +11,16 @@ keywords: サブドメイン, デリゲーション, ドメイン, DNS
 hide: true
 hidefromtoc: true
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: c1b016af0d44e0dceb4cc292ddf1820abf2734e1
+source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '738'
 ht-degree: 30%
 
 ---
 
 # カスタムサブドメインの設定 {#delegate-custom-subdomain}
 
-[ 完全デリゲート ](about-subdomain-delegation.md#full-subdomain-delegation) および [CNAME 設定 ](about-subdomain-delegation.md#cname-subdomain-delegation) 手法の代わりに、**カスタムデリゲーション** 手法を使用して、Journey Optimizer A 内のサブドメインの所有権を取得し、生成された証明書を完全に制御できます。
+[ 完全デリゲート ](about-subdomain-delegation.md#full-subdomain-delegation) および [CNAME 設定 ](about-subdomain-delegation.md#cname-subdomain-delegation) 手法の代わりに、**カスタムデリゲーション** 手法を使用して、Journey Optimizer A 内のサブドメインの所有権を取得し、生成された証明書を完全に制御できます。 [詳細情報](about-subdomain-delegation.md#custom-subdomain-delegation)
 
 このプロセスの一環として、Adobeでは、メッセージの配信、レンダリング、トラッキングに合わせて DNS が適切に設定されていることを確認する必要があります。 このため、認証局から取得した [SSL 証明書をアップロード ](#upload-ssl-certificate) し、ドメインの所有権を確認してメールアドレスをレポートすることで [ フィードバックループの手順 ](#feedback-loop-steps) を完了する必要があります。
 
@@ -124,10 +124,9 @@ ht-degree: 30%
    >
    >続行する前に、すべてのレコードが正しく作成されていることを確認します。
 
-   アドビは SSL CDN URL 検証レコードを生成します。この検証レコードをホスティングプラットフォームにコピーします。ホスティングソリューションでこのレコードを適切に作成している場合は、「確認しました」チェックボックスをオンにします。
+1. アドビは SSL CDN URL 検証レコードを生成します。この検証レコードをホスティングプラットフォームにコピーします。ホスティングソリューションでこのレコードを適切に作成している場合は、「確認しました」チェックボックスをオンにします。
 
-1. 「**[!UICONTROL 送信]**」をクリックして、Adobeで必要なチェックを実行します。 [詳細情報](#submit-subdomain)
-
+1. 「**[!UICONTROL 送信]**」をクリックして、Adobeで必要なチェックを実行します。 [詳細情報](delegate-subdomain.md#submit-subdomain)
 
 ## トラブルシューティングチェックリスト {#check-list}
 
@@ -138,4 +137,3 @@ ht-degree: 30%
 * 証明書がアップロード前のすべての技術要件を満たしていることを確認します。
 
 * 証明書が正しい形式でアップロードされていることを確認します。
-

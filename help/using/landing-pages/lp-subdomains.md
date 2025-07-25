@@ -8,8 +8,8 @@ role: Admin
 level: Experienced
 keywords: ランディング, ランディングページ, サブドメイン, 設定
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: ht
+source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+workflow-type: tm+mt
 source-wordcount: '971'
 ht-degree: 100%
 
@@ -66,7 +66,7 @@ ht-degree: 100%
 
    >[!CAUTION]
    >
-   >`cdn` プレフィックスまたは `data` プレフィックスは内部使用に予約されているので、使用しないでください。`dmarc` や `spf` など、他の制限または予約済みのプレフィックスも回避する必要があります。
+   >`cdn` または `data` プレフィックスは内部使用のために予約されているので、使用しないでください。`dmarc` や `spf` など、他の制限または予約済みのプレフィックスも使用を避ける必要があります。
 
 1. リストからデリゲートされたサブドメインを選択します。
 
@@ -80,11 +80,11 @@ ht-degree: 100%
 
    >[!CAUTION]
    >
-   >[CNAME メソッド](../configuration/delegate-subdomain.md#cname-subdomain-delegation)を使用してアドビにデリゲートされたドメインを選択する場合、ホスティングプラットフォーム上に DNS レコードを作成する必要があります。DNS レコードを生成する手順は、新しいランディングページサブドメインを設定する際の手順と同じです。[この節](#lp-configure-new-subdomain)でその方法を説明します。
+   >[CNAME メソッド](../configuration/delegate-subdomain.md#cname-subdomain-setup)を使用してアドビにデリゲートされたドメインを選択する場合、ホスティングプラットフォーム上に DNS レコードを作成する必要があります。DNS レコードを生成する手順は、新しいランディングページサブドメインを設定する際の手順と同じです。[この節](#lp-configure-new-subdomain)でその方法を説明します。
 
 1. 「**[!UICONTROL 送信]**」をクリックします。
 
-1. 送信されると、サブドメインは&#x200B;**[!UICONTROL 処理中]**&#x200B;ステータスでリストに表示されます。サブドメインのステータスについて詳しくは、[この節](../configuration/about-subdomain-delegation.md#access-delegated-subdomains)を参照してください。<!--Same statuses?-->
+1. 送信されると、サブドメインは&#x200B;**[!UICONTROL 処理中]**&#x200B;ステータスでリストに表示されます。サブドメインのステータスについて詳しくは、[この節](../configuration/delegate-subdomain.md#access-delegated-subdomains)を参照してください。<!--Same statuses?-->
 
    ![](assets/lp_subdomain-processing.png)
 
@@ -129,7 +129,7 @@ ht-degree: 100%
 
    新しいランディングページサブドメインを設定すると、常に CNAME レコードを指すようになります。
 
-1. サブドメインのデリゲーションが送信されると、そのサブドメインは「**[!UICONTROL 処理中]**」ステータスでリストに表示されます。サブドメインのステータスについて詳しくは、[この節](../configuration/about-subdomain-delegation.md#access-delegated-subdomains)を参照してください。<!--Same statuses?-->
+1. サブドメインのデリゲーションが送信されると、そのサブドメインは「**[!UICONTROL 処理中]**」ステータスでリストに表示されます。サブドメインのステータスについて詳しくは、[この節](../configuration/delegate-subdomain.md#access-delegated-subdomains)を参照してください。<!--Same statuses?-->
 
    そのサブドメインをランディングページに使用できるようになるには、必要なチェックがアドビで実行されるまで待つ必要があります（**最大で 4 時間**&#x200B;かかることがあります）。<!--Learn more in [this section](#subdomain-validation).-->
 
@@ -147,7 +147,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >ランディングページサブドメインは、[CNAME メソッド](../configuration/delegate-subdomain.md#cname-subdomain-delegation)を使用してアドビにデリゲートされた[既存のサブドメイン](#lp-use-existing-subdomain)であるか、ユーザーが設定した[新しいランディングページサブドメイン](#lp-configure-new-subdomain)のいずれかであるので、CNAME レコードを指すことができます。
+   >ランディングページサブドメインは、[CNAME メソッド](../configuration/delegate-subdomain.md#cname-subdomain-setup)を使用してアドビにデリゲートされた[既存のサブドメイン](#lp-use-existing-subdomain)であるか、ユーザーが設定した[新しいランディングページサブドメイン](#lp-configure-new-subdomain)のいずれかであるので、CNAME レコードを指すことができます。
 
 1. デリゲート解除するサブドメインについて詳しくは、アドビ担当者にお問い合わせください。
 
