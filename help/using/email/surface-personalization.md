@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 設定, メール, 設定, サブドメイン
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: ht
-source-wordcount: '1169'
-ht-degree: 100%
+source-git-commit: c3513c087a05f2258e00fd4d80fdb23bedfd9188
+workflow-type: tm+mt
+source-wordcount: '1171'
+ht-degree: 98%
 
 ---
 
@@ -128,7 +128,7 @@ ht-degree: 100%
 
 パーソナライズした URL トラッキングパラメーターを使用するには、次の手順に従います。
 
-1. メールチャネル設定の「**[!UICONTROL URL トラッキングパラメーター]**」セクションに移動します。
+1. メールチャネル設定の **[!UICONTROL URL トラッキングパラメーター]** セクションに移動します。 [詳細情報](url-tracking.md)
 
 1. 各フィールドの横にある編集アイコンをクリックします。コンテキスト属性に加えて、プロファイル属性を選択できます。
 

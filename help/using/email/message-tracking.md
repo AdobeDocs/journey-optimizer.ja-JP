@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: リンク, トラッキング, 監視, メール
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
-workflow-type: ht
-source-wordcount: '1200'
-ht-degree: 100%
+source-git-commit: c3513c087a05f2258e00fd4d80fdb23bedfd9188
+workflow-type: tm+mt
+source-wordcount: '1214'
+ht-degree: 98%
 
 ---
 
@@ -48,6 +48,10 @@ ht-degree: 100%
 ## リンクの挿入 {#insert-links}
 
 [トラッキングが有効](#enable-tracking)になっている場合、メッセージコンテンツに含まれるすべてのリンクがトラッキングされます。
+
+>[!NOTE]
+>
+>メールで使用されるフラグメントからのリンクもトラッキングされます。 [ フラグメントの詳細情報 ](../content-management/fragments.md)
 
 メールコンテンツにリンクを挿入するには、次の手順に従います。
 

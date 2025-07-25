@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
-workflow-type: ht
-source-wordcount: '700'
-ht-degree: 100%
+source-git-commit: c3513c087a05f2258e00fd4d80fdb23bedfd9188
+workflow-type: tm+mt
+source-wordcount: '710'
+ht-degree: 97%
 
 ---
 
@@ -79,7 +79,13 @@ ht-degree: 100%
 
   ![](assets/fragment-expression-editor.png)
 
-コンテンツの準備が整ったら、「**[!UICONTROL 保存]**」ボタンをクリックします。フラグメントが作成され、**[!UICONTROL ドラフト]**&#x200B;ステータスでフラグメントリストに追加されます。追加されたフラグメントをプレビューして公開し、ジャーニーとキャンペーンで使用できます。
+コンテンツの準備が整ったら、「**[!UICONTROL 保存]** ボタンをクリックします。
+
+>[!NOTE]
+>
+>ビジュアルフラグメントは、100 KB を超えることはできません。 式のフラグメントは 200 KB を超えることはできません。
+
+フラグメントが作成され、**[!UICONTROL ドラフト]**&#x200B;ステータスでフラグメントリストに追加されます。追加されたフラグメントをプレビューして公開し、ジャーニーとキャンペーンで使用できます。
 
 ## フラグメントのプレビューと公開 {#publish}
 

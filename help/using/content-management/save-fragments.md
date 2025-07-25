@@ -8,16 +8,20 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 70e88ea0-f2b0-4c13-8693-619741762429
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '460'
-ht-degree: 100%
+source-git-commit: c3513c087a05f2258e00fd4d80fdb23bedfd9188
+workflow-type: tm+mt
+source-wordcount: '510'
+ht-degree: 90%
 
 ---
 
 # コンテンツをフラグメントとして保存 {#save-as-fragment}
 
 [!DNL Journey Optimizer] でコンテンツを編集する際、後で再利用するために、コンテンツのすべてまたは一部をフラグメントとして保存できます。コンテンツは、[E メールデザイナーから](#save-as-visual-fragment)、または[式エディターから](#save-as-expression-fragment)フラグメントとして保存できます。
+
+>[!NOTE]
+>
+>ジャーニーまたはキャンペーンでトラッキングが有効になっている場合、フラグメントにリンクを追加し、このフラグメントがメールで使用されると、メッセージに含まれる他のすべてのリンクなど、これらのリンクがトラッキングされます。 [ リンクとトラッキングの詳細 ](../email/message-tracking.md)
 
 ## ビジュアルフラグメントとして保存 {#save-as-visual-fragment}
 
@@ -28,6 +32,10 @@ E メールデザイナーからコンテンツをフラグメントとして保
 1. ドロップダウンメニューから「**[!UICONTROL フラグメントとして保存]**」を選択します。
 
    ![](assets/fragment-save-as.png)
+
+   >[!NOTE]
+   >
+   >ビジュアルフラグメントは、100 KB を超えることはできません。
 
 1. **[!UICONTROL フラグメントとして保存]**&#x200B;画面が表示されます。パーソナライゼーションフィールドや動的コンテンツなど、フラグメントに含める要素を選択します。コンテキスト属性は、フラグメントではサポートされていません。
 
