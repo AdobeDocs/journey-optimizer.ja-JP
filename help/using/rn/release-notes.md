@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4ad1d76d81bf328c9229786ca0ea7594d5580710
+source-git-commit: 6efd3dc193f48421483909d6cd054723f7fa1753
 workflow-type: tm+mt
 source-wordcount: '2246'
 ht-degree: 66%
@@ -193,7 +193,6 @@ ht-degree: 66%
 </tbody>
 </table>
 
-
 ### ジャーニー条件の変更 {#ee-change@}
 
 7 月 8 日以降、新しい顧客組織では、エクスペリエンスイベントを使用した式の作成が、ジャーニー条件で使用される式エディターでサポートされなくなりました。 その結果、[Experience Platform データソース](../datasource/adobe-experience-platform-data-source.md)のエクスペリエンスイベントは式の作成に使用できません。エクスペリエンスイベントを使用して式／ロジックを作成する際の代替アプローチとベストプラクティスについて詳しくは、[こちら](../building-journeys/exp-event-lookup.md)を参照してください。
@@ -246,7 +245,7 @@ ht-degree: 66%
 
 **リリース日**：2025年6月18日（PT）
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新機能 {#25-06-features}
 
