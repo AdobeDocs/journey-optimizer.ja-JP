@@ -7,10 +7,10 @@ badge: label="アルファ版"
 hide: true
 hidefromtoc: true
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
-source-git-commit: 0ae9ed8ba93bd4f64f27380f956e1c97af75dd90
+source-git-commit: c040ad5433d041f0f4f83fce46bc02662b77648f
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 52%
+source-wordcount: '480'
+ht-degree: 45%
 
 ---
 
@@ -66,7 +66,10 @@ ht-degree: 52%
 
 1. 調整されたキャンペーンを保存および公開して、設定を確定します。これにより、オーディエンスが生成および保存されます。
 
-保存したオーディエンスの内容は、そのオーディエンスの詳細表示で利用できます。詳細表示は&#x200B;**[!UICONTROL オーディエンス]**&#x200B;メニューからアクセスできます。
+保存したオーディエンスのコンテンツは、オーディエンスの詳細ビューに表示されます。このビューには、**[!UICONTROL オーディエンス]** メニューからアクセスしたり、**[!UICONTROL オーディエンスを読み取り]** アクティビティなどでオーディエンスのターゲティング時に選択したりできます。
+
+![](../assets/save-audience-4.png)
+
 
 ## 例 {#save-audience-example}
 

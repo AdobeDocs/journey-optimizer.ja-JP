@@ -7,10 +7,10 @@ badge: label="アルファ版"
 hide: true
 hidefromtoc: true
 exl-id: ef8eba57-cd33-4746-8eb4-5214ef9cbe2f
-source-git-commit: 2ad659b391515c193418325c34a9dd56133b90d6
+source-git-commit: c040ad5433d041f0f4f83fce46bc02662b77648f
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 38%
+source-wordcount: '426'
+ht-degree: 37%
 
 ---
 
@@ -61,11 +61,13 @@ ht-degree: 38%
 
    ![](../assets/read-audience-2.png)
 
-1. オーディエンス内のプロファイルを一意に識別するために使用する **[!UICONTROL エンティティ]** を選択します。
+1. キャンペーンターゲティングディメンションから **[!UICONTROL エンティティ&#x200B;]** を選択します。
+
+   ➡️[ このページで説明している手順に従って、Campaign ターゲティングディメンションを作成します ](../target-dimension.md)
 
    ![](../assets/read-audience-3.png)
 
-1. 「**[!UICONTROL プロファイル属性を追加]**」を選択して、選択したオーディエンスに追加のデータを追加します。 結果のオーディエンスには、受信者のリストが含まれ、各受信者は選択したプロファイル属性でエンリッチメントされます。
+1. 「**[!UICONTROL 属性を追加]**」を選択して、選択したオーディエンスに追加のデータを追加します。 結果のオーディエンスには、受信者のリストが含まれ、各受信者は選択したプロファイル属性でエンリッチメントされます。
 
 1. オーディエンスに追加する **[!UICONTROL 属性]** を選択します。
 
