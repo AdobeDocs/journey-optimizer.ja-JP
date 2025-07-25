@@ -9,7 +9,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: 78da5e017b5e3f39be1b613713f131d35260992b
+source-git-commit: 2d80f72d672f0a8ecb345dbd12ee8864785dca14
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 65%
@@ -81,7 +81,7 @@ API 資格情報を作成および設定したら、WhatsApp メッセージ用�
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_inbound_keyword"
 >title="キーワードを入力"
->abstract= "You can define keywords to trigger specific auto-responses, such as for Opt-In, Opt-Out, Help, or Default, based on what users text. Keywords are not case-sensitive, e.g., "stop" and "STOP" are treated the same."
+>abstract= "You can define keywords to trigger specific auto-responses, such as for Opt-In, Opt-Out, Help, or Default, based on what users text. Keywords are not case-sensitive, e.g., stop and STOP are treated the same."
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_webhook_url"
@@ -101,7 +101,7 @@ WhatsApp API 認証情報と [Meta Webhook](https://developers.facebook.com/docs
 
 1. 左側のレールで、**[!UICONTROL 管理]**`>`**[!UICONTROL チャネル]** に移動し、**[!UICONTROL WhatsApp 設定]** の下にある **[!UICONTROL WhatsApp Webhook]** メニューを選択して、**[!UICONTROL Webhook を作成]** ボタンをクリックします。
 
-1. Webhook の [!UICONTROL &#x200B; 名前 &#x200B;] を入力します。
+1. Webhook の [!UICONTROL  名前 ] を入力します。
 
 1. ドロップダウンから、以前に作成した [API 資格情報 ](#whatsapp-credentials) を選択します。
 
