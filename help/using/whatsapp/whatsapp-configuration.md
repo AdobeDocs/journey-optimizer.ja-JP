@@ -9,10 +9,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: 2e1f77da8354d793a2d3465790f5e4574eb27a14
+source-git-commit: d71dfb4f791c48997e448147b414fede49023b91
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 73%
+source-wordcount: '748'
+ht-degree: 65%
 
 ---
 
@@ -73,6 +73,26 @@ API 資格情報を作成および設定したら、WhatsApp メッセージ用�
 
 ## Webhook の作成 {#WhatsApp-webhook}
 
+>[!CONTEXTUALHELP]
+>id="ajo_admin_whatsapp_webhook_inbound_keyword_category"
+>title="受信キーワードカテゴリ"
+>abstract="<br/><b> オプトイン </b>：ユーザーが購読すると、定義した自動応答を送信します。 <br/><b> オプトアウト </b>：ユーザーが登録解除すると、定義した自動応答を送信します。 <br/><b> ヘルプ </b>：ユーザーがヘルプまたはサポートをリクエストしたときに、定義済みの自動応答を送信します。 <br/><b> デフォルト </b>：一致するキーワードがない場合にフォールバック自動応答を送信します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_whatsapp_webhook_inbound_keyword"
+>title="キーワードを入力"
+>abstract= "You can define keywords to trigger specific auto-responses, such as for Opt-In, Opt-Out, Help, or Default, based on what users text. Keywords are not case-sensitive, e.g., "stop" and "STOP" are treated the same."
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_whatsapp_webhook_webhook_url"
+>title=" コールバック URL"
+>abstract="このオブジェクトの検証リクエストと Webhook 通知は、指定した URL に送信されます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_whatsapp_webhook_verify_token"
+>title="トークンの検証"
+>abstract="Meta がエコーバックするトークンは、検証プロセス中にコールバック URL を確認して検証するために使用されます。"
+
 >[!NOTE]
 >
 >オプトインまたはオプトアウトのキーワードが指定されていない場合、標準の同意メッセージは有効になりません。
@@ -81,7 +101,7 @@ WhatsApp API 認証情報と [Meta Webhook](https://developers.facebook.com/docs
 
 1. 左側のレールで、**[!UICONTROL 管理]**`>`**[!UICONTROL チャネル]** に移動し、**[!UICONTROL WhatsApp 設定]** の下にある **[!UICONTROL WhatsApp Webhook]** メニューを選択して、**[!UICONTROL Webhook を作成]** ボタンをクリックします。
 
-1. Webhook の [!UICONTROL &#x200B; 名前 &#x200B;] を入力します。
+1. Webhook の [!UICONTROL  名前 ] を入力します。
 
 1. ドロップダウンから、以前に作成した [API 資格情報 ](#whatsapp-credentials) を選択します。
 
