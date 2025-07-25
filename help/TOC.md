@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b317400b083f70cce05a7d4823f52a8cd35a3b96
+source-git-commit: 19f843590796e84b050b32d0c379577234c1efbc
 workflow-type: tm+mt
-source-wordcount: '2585'
+source-wordcount: '2589'
 ht-degree: 96%
 
 ---
@@ -206,11 +206,12 @@ ht-degree: 96%
          + [スキーマとデータセットの基本を学ぶ](using/orchestrated/gs-schemas.md)
          + [手動スキーマ](using/orchestrated/manual-schema.md)
          + [ファイルアップロードスキーマ](using/orchestrated/file-upload-schema.md)
-         + [データの取得](using/orchestrated/ingest-data.md)
+         + [データを取得](using/orchestrated/ingest-data.md)
       + [調整されたキャンペーンへのアクセスと管理](using/orchestrated/access-manage-orchestrated-campaigns.md)
+      + [ターゲティングディメンションの作成](using/orchestrated/target-dimension.md)
       + [ガードレールと制限](using/orchestrated/guardrails.md)
       + 最初の調整されたキャンペーンの開始{#launch}
-         + [調整されたキャンペーンを作成するための主な手順](using/orchestrated/gs-campaign-creation.md)
+         + [調整されたキャンペーンを作成する主な手順](using/orchestrated/gs-campaign-creation.md)
          + [キャンペーンの作成とスケジュール](using/orchestrated/create-orchestrated-campaign.md)
          + [アクティビティの調整](using/orchestrated/orchestrate-activities.md)
          + [キャンペーンの開始と監視](using/orchestrated/start-monitor-campaigns.md)
