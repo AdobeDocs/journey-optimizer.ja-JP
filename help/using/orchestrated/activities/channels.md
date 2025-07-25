@@ -7,7 +7,7 @@ badge: label="アルファ版"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 3c3ef1555c587b3e50e3b70596fbac98e87d414e
+source-git-commit: 00e7ede1d8576aeef411caffd9c4251a6957f0ad
 workflow-type: tm+mt
 source-wordcount: '1213'
 ht-degree: 79%
@@ -109,7 +109,7 @@ UNUSED IDs in BJ
 
 1. **キャッピングルールの適用**
 
-   **[!UICONTROL ルールセット]** ドロップダウンリストで、キャッピングルールをキャンペーンに適用するチャネルルールセットを選択します。 チャネルルールセットを活用すると、通信タイプ別のフリークエンシーキャップを設定し、類似したメッセージで顧客に過剰な負荷がかかるのを防ぐことができます。[ルールセットの使用方法を学ぶ](../conflict-prioritization/rule-sets.md)
+   **[!UICONTROL ルールセット]** ドロップダウンリストで、キャッピングルールをキャンペーンに適用するチャネルルールセットを選択します。 チャネルルールセットを活用すると、通信タイプ別のフリークエンシーキャップを設定し、類似したメッセージで顧客に過剰な負荷がかかるのを防ぐことができます。[ルールセットの使用方法を学ぶ](../../conflict-prioritization/rule-sets.md)
 
 1. **エンゲージメントの追跡** （メールと SMS）
 
