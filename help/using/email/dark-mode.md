@@ -3,6 +3,7 @@ solution: Journey Optimizer
 product: journey optimizer
 title: ダークモードに切り替え
 description: メールDesignerでダークモードを使用する方法を説明します
+badge: label="ベータ版" type="Informative"
 feature: Email Design
 topic: Content Management
 role: User
@@ -11,10 +12,10 @@ keywords: ダークモード，メール，カラー，エディター
 hide: true
 hidefromtoc: true
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
-source-git-commit: 12b41a253693184e4e3d866f00e7d8b0a1e30ce3
+source-git-commit: 23684c906d11c7f54eb28cac7c2697964e723a2e
 workflow-type: tm+mt
-source-wordcount: '1674'
-ht-degree: 9%
+source-wordcount: '1677'
+ht-degree: 10%
 
 ---
 
@@ -34,6 +35,10 @@ ht-degree: 9%
 >id="ac_edition_darkmode_preview"
 >title="ダークモードに切り替え"
 >abstract="ダークモードに切り替えると、サポートされているメールクライアントでどのようにレンダリングされるかをプレビューできます。 <br>注意：最終的なレンダリングは、受信者のメールクライアントに応じて異なります。 すべてのメールクライアントがカスタムダークモードをサポートしているわけではありません。"
+
+>[!AVAILABILITY]
+>
+>この機能は現在ベータ版で、ベータ版のお客様のみご利用いただけます。ベータ版プログラムに参加するには、アドビ担当者にお問い合わせください。
 
 メールをデザインする際、[!DNL Journey Optimizer][ メールDesigner](get-started-email-design.md) を使用すると、**[!UICONTROL ダークモード]** に切り替えて、特定のカスタム設定を定義できます。 ダークモードがオンの場合、サポートするメールクライアントには、このモード用に定義した設定が表示されます。
 
@@ -91,9 +96,10 @@ ht-degree: 9%
 
 1. メールDesignerのホームページで、「**[!UICONTROL ゼロからデザイン]**」オプションを選択します。 [詳細情報](content-from-scratch.md)
 
-   >[!NOTE]
-   >
-   >現在、[ メールテンプレート ](use-email-templates.md) または [ テーマ ](apply-email-themes.md) を適用した場合は、ダークモードに切り替えることができない場合があります。
+<!--Should work with templates and themes, NOT for LP and fragments - but TBC with eng.
+    >[!NOTE]
+    >
+    >Currently you may not be able to switch to dark mode if you select an [email template](use-email-templates.md) or if you apply a [theme](apply-email-themes.md).-->
 
 1. [ 構造 ](content-from-scratch.md) および [ コンテンツコンポーネント ](content-components.md) をコンテンツに追加します。
 
@@ -104,12 +110,8 @@ ht-degree: 9%
 1. デフォルトのダークモードプレビューが表示されます。
 
    ![](assets/dark-mode-default.png)
-<!--
-    >[!NOTE]
-    >
-    >Dark mode applies to all elements, except images and icons.-->
 
-デフォルトでは、メールDesignerのダークモードプレビューは、画像とアイコンを除くすべての要素に「フルカラー反転」カラースキームを適用します。<!--It fully inverts all colors for all the elements (texts, buttons, etc.)-->
+デフォルトでは、メールDesignerのダークモードプレビューは、画像とアイコンを除くすべての要素に「フルカラー反転」カラースキームを適用します。
 
 つまり、明るい要素と暗い要素の領域を検出してそれらを反転することで、明るい背景は暗くなり、暗いテキストは明るくなり、暗い背景は明るくなり、明るいテキストは暗くなります。
 
@@ -135,7 +137,7 @@ Journey Optimizerでは、メールDesignerのカスタムダークモードの�
 
 ダークモードのカスタム設定を定義するには、次の手順に従います。
 
-1. メールDesignerで **[!UICONTROL ダークモード]** が有効になっていることを確認します。 [詳細情報](#preview-dark-mode)
+1. メールDesignerのプレビューを **[!UICONTROL ダークモード]** に切り替えてください。 [詳細情報](#preview-dark-mode)
 
 1. テキスト、背景、ボタンなどのスタイル設定色属性を編集します。
 

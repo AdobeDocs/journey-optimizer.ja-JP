@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: a750a64105cc3939d8d6e2c96e109d6a39e21a9e
+source-git-commit: 23684c906d11c7f54eb28cac7c2697964e723a2e
 workflow-type: tm+mt
-source-wordcount: '2246'
-ht-degree: 66%
+source-wordcount: '2316'
+ht-degree: 63%
 
 ---
 
@@ -94,25 +94,6 @@ ht-degree: 66%
 <table>
 <thead>
 <tr>
-<th><strong>ジャーニーのコンテンツ決定アクティビティ</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>ジャーニーキャンバスの専用のコンテンツ決定アクティビティを通じてパーソナライズされたオファーをジャーニーに含め、条件やカスタムアクションなどのジャーニーアクティビティで使用できるようになりました。</p>
-<img src="assets/do-not-localize/content-decision.gif">
-<p>この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できます（一般提供）。</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>キャンペーンの最適化</strong><br/></th>
 </tr>
 </thead>
@@ -126,6 +107,29 @@ ht-degree: 66%
 <li>ターゲティングルールの活用</li>
 <li>1 つのキャンペーン内で、実験とターゲティングの両方の高度な組み合わせを使用します</li></ul>
 <P>キャンペーンがライブになると、プロファイルは定義された条件に照らして評価され、一致条件に基づいて、キャンペーンの適切なエクスペリエンスまたはコンテンツで配信されます。</p>
+<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>メールDesignerのダークモード</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey OptimizerのメールDesignerで、ダークモード表示に切り替える機能が追加されました。この機能を使用すると、ダークモードでメールを読む受信者にのみ表示される特定のカスタム設定を定義できます。</p>
+<p>次のことに注意してください。</p>
+<ul>
+<li>ダークモードの最終レンダリングは、受信者のメールクライアントによって異なる場合があります。</li>
+<li>すべてのメールクライアントがカスタムダークモードをサポートしているわけではありません。 さらに、一部のメールクライアントは、受信したすべてのメールに対して独自のデフォルトのダークモードのみを適用します。 どちらの場合も、メールDesignerで定義したカスタム設定はレンダリングできません。</li>
+</ul>
+<P>この機能は現在ベータ版で、ベータ版のお客様のみご利用いただけます。ベータ版プログラムに参加するには、アドビ担当者にお問い合わせください。</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
@@ -205,10 +209,6 @@ ht-degree: 66%
 
 このリリースに含まれる機能強化を以下に示します。
 
-- **E メールデザイナー**
-   - Journey OptimizerのメールDesignerで、ダークモード表示に切り替える機能が提供されるようになりました。このビューでは、特定のカスタム設定を追加で定義できます。 最終的なレンダリングは、受信者のメールクライアントに依存することに注意してください。 さらに、すべてのメールクライアントがダークモードをサポートしているわけではありません。
-  <!-- [Read more](../FILE.md) -->
-
 - **キャンペーン**
    - **ルールベースのキャンペーンの不適格** - コンテンツカードで追加の配信ルールを編集する際、メッセージのタイミングと表示をより適切に制御するために、以前の「配信ルール」オプションが 3 つの異なるルールタイプに置き換えられました。
       - 次の場合にメッセージを表示：コンテンツカードを表示するタイミングを決定する条件。
@@ -237,6 +237,9 @@ ht-degree: 66%
    - **アプリ内キーと値のペア** - アプリ内メッセージを使用すると、キーと値のペアを定義して、メッセージペイロードにカスタム変数を含めることができます。 これらのキーと値のペアを使用すると、特定の設定およびユースケースに基づいて追加のデータを渡すことができます。
   <!-- [Read more](../FILE.md) -->
 
+- **決定**
+   - **移行ツール API** - Journey Optimizer チームは現在、意思決定管理エンティティを Decisioning に移行するための移行ツール API に取り組んでいます。 このツールを使用すると、依存関係の解決とロールバック機能により、サンドボックス間でシームレスな移行を実行できます。 興味がある場合は、Adobe担当者にお問い合わせください。
+
 
 ## 2025年6月リリースノート {#25-6-rn}
 
@@ -245,7 +248,7 @@ ht-degree: 66%
 
 **リリース日**：2025年6月18日（PT）
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新機能 {#25-06-features}
 
