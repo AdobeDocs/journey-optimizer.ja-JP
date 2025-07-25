@@ -101,7 +101,7 @@ WhatsApp API 認証情報と [Meta Webhook](https://developers.facebook.com/docs
 
 1. 左側のレールで、**[!UICONTROL 管理]**`>`**[!UICONTROL チャネル]** に移動し、**[!UICONTROL WhatsApp 設定]** の下にある **[!UICONTROL WhatsApp Webhook]** メニューを選択して、**[!UICONTROL Webhook を作成]** ボタンをクリックします。
 
-1. Webhook の [!UICONTROL &#x200B; 名前 &#x200B;] を入力します。
+1. Webhook の [!UICONTROL  名前 ] を入力します。
 
 1. ドロップダウンから、以前に作成した [API 資格情報 ](#whatsapp-credentials) を選択します。
 
