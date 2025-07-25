@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1e9aaceb48335beb0c9a8ef037f758818c700dfa
+source-git-commit: e74b600a12413883ee6796a9df2583c1adbdf94c
 workflow-type: tm+mt
 source-wordcount: '2342'
 ht-degree: 62%
@@ -110,7 +110,7 @@ ht-degree: 62%
 <li>ユーザーエンゲージメントを維持するためのフォールバックメカニズムを確認します。</li>
 </ul>
 <P>キャンペーンがライブになると、プロファイルは定義された条件に照らして評価され、一致条件に基づいて、キャンペーンの適切なエクスペリエンスまたはコンテンツで配信されます。</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><img src="assets/do-not-localize/campaign-optimization.gif"/>&gt;</p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
 </tr>
@@ -251,7 +251,7 @@ ht-degree: 62%
 
 **リリース日**：2025年6月18日（PT）
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新機能 {#25-06-features}
 
