@@ -7,10 +7,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: ht
-source-wordcount: '2718'
-ht-degree: 100%
+source-git-commit: 923d9dfc4e281ea06ac1f5cd9c08d99a80617301
+workflow-type: tm+mt
+source-wordcount: '2752'
+ht-degree: 98%
 
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 100%
 >title="オファー実施要件について"
 >abstract="このセクションでは、決定ルールを使用して、オファーの対象となるユーザーを決定できます。"
 
-<!--additional-url="https://video.tv.adobe.com/v/341373?captions=jpn" text="Watch demo video"-->
+<!--additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
@@ -254,11 +254,11 @@ ht-degree: 100%
 
 ![](../assets/offer-capping-frequency.png)
 
->[!NOTE]
->
->フリークエンシーキャップカウンターのリセットは、定義した日（**UTC で午前 12 時**）、または該当する場合は週や月の最初の日に発生します。週の開始日は&#x200B;**日曜日**&#x200B;です。選択する期間は、**2 年**（つまり、それに相当する月数、週数、日数）を超えることはできません。
->
->オファーを公開した後は、頻度に選択した期間（毎月、毎週、毎日）を変更できなくなります。オファーのステータスが&#x200B;**[!UICONTROL ドラフト]**&#x200B;で、これまでにフリークエンシーキャップを有効にして公開したことがない場合であれば、フリークエンシーキャップを編集できます。
+* フリークエンシーキャップカウンターのリセットは、定義した日（**UTC で午前 12 時**）、または該当する場合は週や月の最初の日に発生します。週の開始日は&#x200B;**日曜日**&#x200B;です。選択する期間は、**2 年**（つまり、それに相当する月数、週数、日数）を超えることはできません。
+
+* オファーを公開した後は、頻度に選択した期間（毎月、毎週、毎日）を変更できなくなります。オファーのステータスが&#x200B;**[!UICONTROL ドラフト]**&#x200B;で、これまでにフリークエンシーキャップを有効にして公開したことがない場合であれば、フリークエンシーキャップを編集できます。
+
+* オファーが承認されたとき、またはキャッピングが作成されたときに、最後に発生する場合、イベントがフリークエンシーキャップ制約にカウントされるまで、最大 15 分のバッファー時間が存在する可能性があります。
 
 +++ **必読：Frequency capping API と Decision management API**
 
