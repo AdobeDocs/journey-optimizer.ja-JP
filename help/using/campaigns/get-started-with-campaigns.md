@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: キャンペーン, 方法, 開始, Optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
+source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '620'
-ht-degree: 68%
+ht-degree: 69%
 
 ---
 
@@ -76,7 +76,7 @@ Journey Optimizerでは、様々なタイプのキャンペーンを作成でき
 
     Campaign Orchestration in Adobe Journey Optimizer powers sophisticated, brand-initiated marketing campaigns across channels, helping you drive engagement, revenue, and customer loyalty at scale.
 
-    While cross-channel marketing is essential, orchestrated campaigns make it seamless. With a visual, drag-and-drop interface, you can design and automate complex marketing workflows, from segmentation to message delivery, across multiple channels. Everything happens in one intuitive environment, built for speed, control, and efficiency.-->
+    While cross-channel marketing is essential, Orchestrated campaigns make it seamless. With a visual, drag-and-drop interface, you can design and automate complex marketing workflows, from segmentation to message delivery, across multiple channels. Everything happens in one intuitive environment, built for speed, control, and efficiency.-->
 
 ## 開始する前に {#campaign-prerequisites}
 
@@ -96,11 +96,11 @@ Journey Optimizerでは、様々なタイプのキャンペーンを作成でき
 
    これにより、ユーザーをインスタンスへリダイレクトするメールがユーザーに送られます。
 
-   +++
++++
 
 1. **オーディエンスが必要です**。キャンペーンを作成するには、まずオーディエンスを使用可能にする必要があります。[ オーディエンスの基本を学ぶ ](../audience/about-audiences.md)。
 
-1. **チャネル設定が必要です**。チャンネルを選択できるようにするには、対応するチャネル設定（例：プリセット）を作成し、使用可能にする必要があります。[ チャネル設定の設定方法を学ぶ ](../configuration/channel-surfaces.md)。
+1. **チャネル設定が必要です**。チャンネルを選択できるようにするには、対応するチャネル設定（例：プリセット）を作成し、使用可能にする必要があります。[詳しくは、チャネル設定の指定方法を参照してください](../configuration/channel-surfaces.md)。
 
 ## さらに深く掘り下げましょう
 

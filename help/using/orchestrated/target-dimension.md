@@ -6,21 +6,21 @@ description: リレーショナルスキーマを顧客プロファイルにマ�
 badge: label="アルファ版"
 hide: true
 hidefromtoc: true
-source-git-commit: 0abe441a413b748b46379871f3b70842715921a3
+exl-id: 2479c109-cd6f-407e-8a53-77e4477dc36f
+source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '642'
-ht-degree: 11%
+ht-degree: 9%
 
 ---
-
 
 # ターゲティングディメンションの設定 {#configuration}
 
 +++ 目次
 
-| 調整されたキャンペーンへようこそ | 最初の調整されたキャンペーンの開始 | データベースのクエリ | 調整されたキャンペーンアクティビティ |
+| オーケストレートキャンペーンへようこそ | 初めてのオーケストレートキャンペーンの開始 | データベースのクエリ | 調整されたキャンペーンアクティビティ |
 |---|---|---|---|
-| [ 調整されたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)<br/><br/> リレーショナルスキーマとデータセットの作成および管理：</br> <ul><li>[ スキーマとデータセットの概要 ](gs-schemas.md)</li><li>[ 手動スキーマ ](manual-schema.md)</li><li>[ ファイルアップロードスキーマ ](file-upload-schema.md)</li><li>[ データの取り込み ](ingest-data.md)</li></ul>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md)<br/><br/>[ オーケストレーションされたキャンペーンを作成するための主な手順 ](gs-campaign-creation.md)<br/><br/>[ ターゲットディメンションの設定 ](target-dimension.md) | <b>[キャンペーンの作成とスケジュール](create-orchestrated-campaign.md)</b><br/><br/>[アクティビティの調整](orchestrate-activities.md)<br/><br/>[キャンペーンの開始と監視](start-monitor-campaigns.md)<br/><br/>[レポート](reporting-campaigns.md) | [ルールビルダーの操作](orchestrated-rule-builder.md)<br/><br/>[最初のクエリの作成](build-query.md)<br/><br/>[式の編集](edit-expressions.md)<br/><br/>[リターゲティング](retarget.md) | [アクティビティの基本を学ぶ](activities/about-activities.md)<br/><br/>アクティビティ：<br/>[AND 結合](activities/and-join.md) - [オーディエンスを作成](activities/build-audience.md) - [ディメンションを変更](activities/change-dimension.md) - [チャネルアクティビティ](activities/channels.md) - [結合](activities/combine.md) - [重複排除](activities/deduplication.md) - [エンリッチメント](activities/enrichment.md) - [分岐](activities/fork.md) - [紐付け](activities/reconciliation.md) - [オーディエンスを保存](activities/save-audience.md) - [分割](activities/split.md) - [待機](activities/wait.md) |
+| [ 調整されたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)<br/><br/> リレーショナルスキーマとデータセットの作成および管理：</br> <ul><li>[ スキーマとデータセットの概要 ](gs-schemas.md)</li><li>[ 手動スキーマ ](manual-schema.md)</li><li>[ ファイルアップロードスキーマ ](file-upload-schema.md)</li><li>[ データの取り込み ](ingest-data.md)</li></ul>[ オーケストレートキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md)<br/><br/>[ オーケストレートキャンペーンを作成するための主な手順 ](gs-campaign-creation.md)<br/><br/>[ ターゲットディメンションの設定 ](target-dimension.md) | <b>[キャンペーンの作成とスケジュール](create-orchestrated-campaign.md)</b><br/><br/>[アクティビティの調整](orchestrate-activities.md)<br/><br/>[キャンペーンの開始と監視](start-monitor-campaigns.md)<br/><br/>[レポート](reporting-campaigns.md) | [ルールビルダーの操作](orchestrated-rule-builder.md)<br/><br/>[最初のクエリの作成](build-query.md)<br/><br/>[式の編集](edit-expressions.md)<br/><br/>[リターゲティング](retarget.md) | [アクティビティの基本を学ぶ](activities/about-activities.md)<br/><br/>アクティビティ：<br/>[AND 結合](activities/and-join.md) - [オーディエンスを作成](activities/build-audience.md) - [ディメンションを変更](activities/change-dimension.md) - [チャネルアクティビティ](activities/channels.md) - [結合](activities/combine.md) - [重複排除](activities/deduplication.md) - [エンリッチメント](activities/enrichment.md) - [分岐](activities/fork.md) - [紐付け](activities/reconciliation.md) - [オーディエンスを保存](activities/save-audience.md) - [分割](activities/split.md) - [待機](activities/wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -59,7 +59,7 @@ ht-degree: 11%
 
    この例では、顧客プロファイルは複数のサブスクリプションにリンクされ、それぞれが `crmID` スキーマ内の一意の `Recipient` で表されます。 **[!UICONTROL スキーマとその]** ID を使用するように `Recipient`Target Dimension`crmID` を設定することで、メイン顧客プロファイルではなく購読レベルでメッセージを送信でき、各契約または明細が独自にパーソナライズされたメッセージを受信するようになります。
 
-   [詳しくは、Adobe Experience Platform ドキュメントを参照してください。](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/schema/composition#identity)
+   [詳しくは、Adobe Experience Platform ドキュメントを参照してください。](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity)
 
    ![](assets/target-dimension-2.png)
 
@@ -93,7 +93,7 @@ ht-degree: 11%
 
    ![](assets/target-dimension-4.png)
 
-1. 「**[!UICONTROL 実行アドレス]**」セクションで、配信アドレスの取得に使用する **[!UICONTROL 2&rbrace;Source&rbrace; を選択します（メールアドレスや電話番号など）。]**
+1. 「**[!UICONTROL 実行アドレス]**」セクションで、配信アドレスの取得に使用する **[!UICONTROL 2}Source} を選択します（メールアドレスや電話番号など）。]**
 
    * **[!UICONTROL プロファイル]**：配信アドレス（メールなど）がメイン顧客プロファイルに直接保存されている場合は、このオプションを選択します。
 

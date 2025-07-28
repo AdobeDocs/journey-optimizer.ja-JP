@@ -1,15 +1,15 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Adobe Journey Optimizer を使用して調整されたキャンペーンの開始と監視
-description: Adobe Journey Optimizer を使用して調整されたキャンペーンの開始と監視方法について説明します。
+title: Adobe Journey Optimizerを使用したオーケストレートキャンペーンの開始と監視
+description: Adobe Journey Optimizerでオーケストレートキャンペーンを開始および監視する方法について説明します。
 hide: true
 hidefromtoc: true
 exl-id: 3c1cad30-3ed7-4df1-a46a-60394a834e79
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '772'
-ht-degree: 11%
+ht-degree: 7%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 11%
 
 +++ 目次
 
-| 調整されたキャンペーンへようこそ | 最初の調整されたキャンペーンの開始 | データベースのクエリ | 調整されたキャンペーンアクティビティ |
+| オーケストレートキャンペーンへようこそ | 初めてのオーケストレートキャンペーンの開始 | データベースのクエリ | 調整されたキャンペーンアクティビティ |
 |---|---|---|---|
-| [ 調整されたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)<br/><br/> リレーショナルスキーマとデータセットの作成および管理：</br> <ul><li>[ スキーマとデータセットの概要 ](gs-schemas.md)</li><li>[ 手動スキーマ ](manual-schema.md)</li><li>[ ファイルアップロードスキーマ ](file-upload-schema.md)</li><li>[ データの取り込み ](ingest-data.md)</li></ul>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md)<br/><br/>[ オーケストレーションされたキャンペーンを作成するための主な手順 ](gs-campaign-creation.md) | [キャンペーンの作成とスケジュール](create-orchestrated-campaign.md)<br/><br/>[アクティビティの調整](orchestrate-activities.md)<br/><br/>[キャンペーンの開始と監視](start-monitor-campaigns.md)<br/><br/>[レポート](reporting-campaigns.md) | [ルールビルダーの操作](orchestrated-rule-builder.md)<br/><br/>[最初のクエリの作成](build-query.md)<br/><br/>[式の編集](edit-expressions.md)<br/><br/><b>[リターゲティング](retarget.md)</b> | [アクティビティの基本を学ぶ](activities/about-activities.md)<br/><br/>アクティビティ：<br/>[AND 結合](activities/and-join.md) - [オーディエンスを作成](activities/build-audience.md) - [ディメンションを変更](activities/change-dimension.md) - [チャネルアクティビティ](activities/channels.md) - [結合](activities/combine.md) - [重複排除](activities/deduplication.md) - [エンリッチメント](activities/enrichment.md) - [分岐](activities/fork.md) - [紐付け](activities/reconciliation.md) - [オーディエンスを保存](activities/save-audience.md) - [分割](activities/split.md) - [待機](activities/wait.md) |
+| [ 調整されたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)<br/><br/> リレーショナルスキーマとデータセットの作成および管理：</br> <ul><li>[ スキーマとデータセットの概要 ](gs-schemas.md)</li><li>[ 手動スキーマ ](manual-schema.md)</li><li>[ ファイルアップロードスキーマ ](file-upload-schema.md)</li><li>[ データの取り込み ](ingest-data.md)</li></ul>[ オーケストレートキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md)<br/><br/>[ オーケストレートキャンペーンを作成するための主な手順 ](gs-campaign-creation.md) | [キャンペーンの作成とスケジュール](create-orchestrated-campaign.md)<br/><br/>[アクティビティの調整](orchestrate-activities.md)<br/><br/>[キャンペーンの開始と監視](start-monitor-campaigns.md)<br/><br/>[レポート](reporting-campaigns.md) | [ルールビルダーの操作](orchestrated-rule-builder.md)<br/><br/>[最初のクエリの作成](build-query.md)<br/><br/>[式の編集](edit-expressions.md)<br/><br/><b>[リターゲティング](retarget.md)</b> | [アクティビティの基本を学ぶ](activities/about-activities.md)<br/><br/>アクティビティ：<br/>[AND 結合](activities/and-join.md) - [オーディエンスを作成](activities/build-audience.md) - [ディメンションを変更](activities/change-dimension.md) - [チャネルアクティビティ](activities/channels.md) - [結合](activities/combine.md) - [重複排除](activities/deduplication.md) - [エンリッチメント](activities/enrichment.md) - [分岐](activities/fork.md) - [紐付け](activities/reconciliation.md) - [オーディエンスを保存](activities/save-audience.md) - [分割](activities/split.md) - [待機](activities/wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -35,7 +35,7 @@ ht-degree: 11%
 
 >[!ENDSHADEBOX]
 
-リターゲティングを使用すると、以前にオーケストレーションされたキャンペーンに対する受信者の応答方法に基づいて、受信者をフォローアップできます。 例えば、最初のメールを受信したがクリックしなかった受信者に、2 番目のメールを送信できます。
+リターゲティングを使用すると、以前のオーケストレーションされたキャンペーンに対する受信者の応答方法に基づいて、受信者をフォローアップできます。 例えば、最初のメールを受信したがクリックしなかった受信者に、2 番目のメールを送信できます。
 
 **[!UICONTROL Orchestrated Campaign]** には、次の 2 つの主な属性があります。
 
@@ -75,7 +75,7 @@ ht-degree: 11%
 
 +++
 
-1. **[!UICONTROL オーケストレーションされたキャンペーン名]** 属性を選択して、特定のオーケストレーションされたキャンペーンをターゲットにします。
+1. **[!UICONTROL オーケストレートキャンペーン名]** 属性を選択して、特定のオーケストレートキャンペーンをターゲットにします。
 
 +++ 詳細な手順
 
@@ -91,7 +91,7 @@ ht-degree: 11%
 
 +++
 
-1. **[!UICONTROL オーケストレーションされたキャンペーンアクション名]** 属性を選択して、オーケストレーションされたキャンペーン内の特定のメッセージまたはアクティビティをターゲットにします。
+1. **[!UICONTROL オーケストレートキャンペーンアクション名]** 属性を選択して、オーケストレートキャンペーン内の特定のメッセージまたはアクティビティをターゲットにします。
 
 +++ 詳細な手順
 
@@ -124,7 +124,7 @@ ht-degree: 11%
 
 1. 新しい **[!UICONTROL オーケストレートキャンペーン]** を作成します。
 
-1. **[!UICONTROL オーディエンスを作成]** アクティビティを追加し、ターゲティングディメンションを **[!UICONTROL 受信者（caa）]** に設定して、以前に調整されたキャンペーン受信者に焦点を当てます。
+1. **[!UICONTROL オーディエンスを作成]** アクティビティを追加し、ターゲティングディメンションを **[!UICONTROL 受信者（caa）]** に設定して、以前のオーケストレーションされたキャンペーン受信者に焦点を当てます。
 
 1. **[!UICONTROL ルールビルダー]** で「**[!UICONTROL 条件を追加]**」をクリックし、**[!UICONTROL 属性ピッカー]** から **[!UICONTROL メールトラッキング]** を選択します。
 

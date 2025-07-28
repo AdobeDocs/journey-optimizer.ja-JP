@@ -7,10 +7,10 @@ badge: label="アルファ版"
 hide: true
 hidefromtoc: true
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: 6447f5d1a060037c0ceaa374db20966097585f9c
+source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '954'
-ht-degree: 11%
+ht-degree: 10%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 11%
 
 +++ 目次
 
-| 調整されたキャンペーンへようこそ | 最初の調整されたキャンペーンの開始 | データベースのクエリ | 調整されたキャンペーンアクティビティ |
+| オーケストレートキャンペーンへようこそ | 初めてのオーケストレートキャンペーンの開始 | データベースのクエリ | 調整されたキャンペーンアクティビティ |
 |---|---|---|---|
-| [ 調整されたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)<br/><br/> リレーショナルスキーマとデータセットの作成および管理：</br><ul><li>[ スキーマとデータセットの概要 ](gs-schemas.md)</li><li>[ 手動スキーマ ](manual-schema.md)</li><li>[ ファイルアップロードスキーマ ](file-upload-schema.md)</li><li>[ データの取り込み ](ingest-data.md)</li></ul>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md)<br/><br/>[ オーケストレーションされたキャンペーンを作成するための主な手順 ](gs-campaign-creation.md) | [キャンペーンの作成とスケジュール](create-orchestrated-campaign.md)<br/><br/>[アクティビティの調整](orchestrate-activities.md)<br/><br/>[キャンペーンの開始と監視](start-monitor-campaigns.md)<br/><br/>[レポート](reporting-campaigns.md) | [ルールビルダーの操作](orchestrated-rule-builder.md)<br/><br/>[最初のクエリの作成](build-query.md)<br/><br/>[式の編集](edit-expressions.md)<br/><br/>[リターゲティング](retarget.md) | [アクティビティの基本を学ぶ](activities/about-activities.md)<br/><br/>アクティビティ：<br/>[AND 結合](activities/and-join.md) - [オーディエンスを作成](activities/build-audience.md) - [ディメンションを変更](activities/change-dimension.md) - [チャネルアクティビティ](activities/channels.md) - [結合](activities/combine.md) - [重複排除](activities/deduplication.md) - [エンリッチメント](activities/enrichment.md) - [分岐](activities/fork.md) - [紐付け](activities/reconciliation.md) - [オーディエンスを保存](activities/save-audience.md) - [分割](activities/split.md) - [待機](activities/wait.md) |
+| [ 調整されたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)<br/><br/> リレーショナルスキーマとデータセットの作成および管理：</br><ul><li>[ スキーマとデータセットの概要 ](gs-schemas.md)</li><li>[ 手動スキーマ ](manual-schema.md)</li><li>[ ファイルアップロードスキーマ ](file-upload-schema.md)</li><li>[ データの取り込み ](ingest-data.md)</li></ul>[ オーケストレートキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md)<br/><br/>[ オーケストレートキャンペーンを作成するための主な手順 ](gs-campaign-creation.md) | [キャンペーンの作成とスケジュール](create-orchestrated-campaign.md)<br/><br/>[アクティビティの調整](orchestrate-activities.md)<br/><br/>[キャンペーンの開始と監視](start-monitor-campaigns.md)<br/><br/>[レポート](reporting-campaigns.md) | [ルールビルダーの操作](orchestrated-rule-builder.md)<br/><br/>[最初のクエリの作成](build-query.md)<br/><br/>[式の編集](edit-expressions.md)<br/><br/>[リターゲティング](retarget.md) | [アクティビティの基本を学ぶ](activities/about-activities.md)<br/><br/>アクティビティ：<br/>[AND 結合](activities/and-join.md) - [オーディエンスを作成](activities/build-audience.md) - [ディメンションを変更](activities/change-dimension.md) - [チャネルアクティビティ](activities/channels.md) - [結合](activities/combine.md) - [重複排除](activities/deduplication.md) - [エンリッチメント](activities/enrichment.md) - [分岐](activities/fork.md) - [紐付け](activities/reconciliation.md) - [オーディエンスを保存](activities/save-audience.md) - [分割](activities/split.md) - [待機](activities/wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -38,7 +38,7 @@ ht-degree: 11%
 
 リレーショナルスキーマは、ユーザーインターフェイスを通じて直接作成でき、属性、プライマリキー、バージョンフィールド、関係の詳細な設定を可能にします。
 
-次の例では、**ロイヤルティメンバーシップ** スキーマを手動で定義して、調整されたキャンペーンに必要な構造を示します。
+次の例では、**ロイヤルティメンバーシップ** スキーマを手動で定義して、オーケストレートキャンペーンに必要な構造を示します。
 
 1. Adobe Experience Platform インターフェイスを使用して [ リレーショナルスキーマを手動で作成 ](#schema) ます。
 
@@ -46,7 +46,7 @@ ht-degree: 11%
 
 1. キャンペーンターゲティング用の受信者などのビルトインスキーマへの [ スキーマのリンク ](#link-schema)。
 
-1. スキーマに基づいて [ データセットを作成 ](#dataset) し、オーケストレーションされたキャンペーンで使用できるようにします。
+1. スキーマに基づいて [ データセットを作成 ](#dataset) し、オーケストレートキャンペーンで使用できるようにします。
 
 1. サポートされているソースからデータセットへの [ データの取り込み ](ingest-data.md)。
 
@@ -78,7 +78,7 @@ ht-degree: 11%
 
 ## スキーマへの属性の追加 {#schema-attributes}
 
-次に、属性を追加してスキーマの構造を定義します。 これらのフィールドは、顧客識別子、メンバーシップの詳細、アクティビティの日付など、オーケストレーションされたキャンペーンで使用される主要なデータポイントを表します。 これらを正確に定義すると、信頼性の高いパーソナライゼーション、セグメント化およびトラッキングが保証されます。
+次に、属性を追加してスキーマの構造を定義します。 これらのフィールドは、顧客識別子、メンバーシップの詳細、アクティビティの日付など、オーケストレートキャンペーンで使用される主要なデータポイントを表します。 これらを正確に定義すると、信頼性の高いパーソナライゼーション、セグメント化およびトラッキングが保証されます。
 
 ターゲティングに使用されるスキーマには、関連する ID 名前空間を持つ `String` タイプの ID フィールドが少なくとも 1 つ含まれている必要があります。 これにより、Adobe Journey Optimizerのターゲティング機能および ID 解決機能との互換性が確保されます。
 
@@ -134,7 +134,7 @@ ht-degree: 11%
 
 ## リンクスキーマ {#link-schema}
 
-2 つのスキーマ間に関係を作成すると、プライマリプロファイルスキーマの外部に保存されたデータを使用して、調整されたキャンペーンを強化できます。
+2 つのスキーマ間に関係を作成すると、プライマリプロファイルスキーマの外部に保存されたデータでオーケストレートキャンペーンを強化できます。
 
 1. 新しく作成したスキーマから、リンクとして使用する属性を選択し、「**[!UICONTROL 関係を追加]**」をクリックします。
 
