@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 24c34fd35c03acf8e83bfb8a913ad7e57afd7b7b
+source-git-commit: 3896015ea63a1d25a16744940ffc622b977ff4ce
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '941'
 ht-degree: 17%
 
 ---
@@ -216,9 +216,8 @@ ht-degree: 17%
 
 - **ジャーニー**
    - **ジャーニーサンドボックスツールの機能強化** - パッケージの書き出しと読み込み機能を使用して、複数のサンドボックス間でジャーニーをコピーする際に、次の機能も使用できるようになりました。
-      - 宛先で既存のイベントを選択
       - ジャーニーとは別にイベント上でコピーする
-      - フィールドグループ/データソースの関係を検出し、存在する場合は宛先でリンクし、存在しない場合は作成する。
+      - イベント、フィールドグループ、データソースを検出し、存在する場合は宛先でリンクし、存在しない場合は作成します。
   <!-- [Read more](../FILE.md) -->
 
 - **チャネル – アプリ内**
