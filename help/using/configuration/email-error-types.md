@@ -10,7 +10,7 @@ level: Experienced
 keywords: 再試行，バウンス，ソフト，無視，ハード，Optimizer, エラー
 hide: true
 hidefromtoc: true
-source-git-commit: 1e36871c2c975c81d018fabb3cff51d11c98962e
+source-git-commit: 817f7c88bfc2b40a7ce39575b4ad02fb372d429d
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 19%
@@ -18,11 +18,11 @@ ht-degree: 19%
 ---
 
 
-# メールのエラータイプ
+# メールのエラータイプ {#email-error-types}
 
 配信エラーの理由は複数あります。 次の表は、[!DNL Journey Optimizer] を使用してメール配信を送信する際に発生する可能性のあるすべてのエラーと、その説明およびエラータイプの詳細を示しています。
 
-これらのエラーは、[AJO メッセージフィードバックイベントデータセットに見つかります。このデータセットには ](../data/datasets-query-examples.md#message-feedback-event-dataset) [!DNL Journey Optimizer] からのすべてのメッセージ配信に関する情報などのメッセージ配信ログや、バウンス時に E メール ISP からのフィードバックレコードが含まれています。
+これらのエラーは、[AJO メッセージフィードバックイベントデータセットに見つかります。このデータセットには ](../data/datasets-query-examples.md#message-feedback-event-dataset)[!DNL Journey Optimizer] からのすべてのメッセージ配信に関する情報などのメッセージ配信ログや、バウンス時に E メール ISP からのフィードバックレコードが含まれています。
 
 | エラーラベル | エラータイプ | 技術的価値 | 説明 |
 | --- | --- | --- | --- |
