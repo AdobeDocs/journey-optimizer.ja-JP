@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 分割アクティビティの使用
-description: 調整されたキャンペーンでの分割アクティビティの使用方法について説明します
+description: オーケストレーションされたキャンペーンで分割アクティビティを使用する方法を学ぶ
 badge: label="アルファ版"
 hide: true
 hidefromtoc: true
 exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '917'
-ht-degree: 95%
+ht-degree: 81%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 95%
 
 +++ 目次
 
-| 調整されたキャンペーンへようこそ | 最初の調整されたキャンペーンの開始 | データベースのクエリ | 調整されたキャンペーンアクティビティ |
+| オーケストレートキャンペーンへようこそ | 初めてのオーケストレートキャンペーンの開始 | データベースのクエリ | 調整されたキャンペーンアクティビティ |
 |---|---|---|---|
-| [ 調整されたキャンペーンの基本を学ぶ ](../gs-orchestrated-campaigns.md)<br/><br/> リレーショナルスキーマとデータセットの作成および管理：</br> <ul><li>[ スキーマとデータセットの概要 ](../gs-schemas.md)</li><li>[ 手動スキーマ ](../manual-schema.md)</li><li>[ ファイルアップロードスキーマ ](../file-upload-schema.md)</li><li>[ データの取り込み ](../ingest-data.md)</li></ul>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](../access-manage-orchestrated-campaigns.md) | [調整されたキャンペーンを作成する主な手順](../gs-campaign-creation.md)<br/><br/>[キャンペーンの作成とスケジュール](../create-orchestrated-campaign.md)<br/><br/>[アクティビティの調整](../orchestrate-activities.md)<br/><br/>[キャンペーンの開始と監視](../start-monitor-campaigns.md)<br/><br/>[レポート](../reporting-campaigns.md) | [ルールビルダーの操作](../orchestrated-rule-builder.md)<br/><br/>[最初のクエリの作成](../build-query.md)<br/><br/>[式の編集](../edit-expressions.md)<br/><br/>[リターゲティング](../retarget.md) | [アクティビティの基本を学ぶ](about-activities.md)<br/><br/>アクティビティ：<br/>[AND 結合](and-join.md) - [オーディエンスを作成](build-audience.md) - [ディメンションを変更](change-dimension.md) - [チャネルアクティビティ](channels.md) - [結合](combine.md) - [重複排除](deduplication.md) - [エンリッチメント](enrichment.md) - [分岐](fork.md) - [紐付け](reconciliation.md) - [オーディエンスを保存](save-audience.md) - <b>[分割](split.md)</b> - [待機](wait.md) |
+| [ 調整されたキャンペーンの基本を学ぶ ](../gs-orchestrated-campaigns.md)<br/><br/> リレーショナルスキーマとデータセットの作成および管理：</br> <ul><li>[ スキーマとデータセットの概要 ](../gs-schemas.md)</li><li>[ 手動スキーマ ](../manual-schema.md)</li><li>[ ファイルアップロードスキーマ ](../file-upload-schema.md)</li><li>[ データの取り込み ](../ingest-data.md)</li></ul>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](../access-manage-orchestrated-campaigns.md) | [ オーケストレーションされたキャンペーンを作成 ](../gs-campaign-creation.md)<br/><br/>[ キャンペーンを作成およびスケジュール ](../create-orchestrated-campaign.md)<br/><br/>[ アクティビティをオーケストレーション ](../orchestrate-activities.md)<br/><br/>[ キャンペーンを開始および監視 ](../start-monitor-campaigns.md)<br/><br/>[ レポート ](../reporting-campaigns.md) 主な手順 | [ルールビルダーの操作](../orchestrated-rule-builder.md)<br/><br/>[最初のクエリの作成](../build-query.md)<br/><br/>[式の編集](../edit-expressions.md)<br/><br/>[リターゲティング](../retarget.md) | [アクティビティの基本を学ぶ](about-activities.md)<br/><br/>アクティビティ：<br/>[AND 結合](and-join.md) - [オーディエンスを作成](build-audience.md) - [ディメンションを変更](change-dimension.md) - [チャネルアクティビティ](channels.md) - [結合](combine.md) - [重複排除](deduplication.md) - [エンリッチメント](enrichment.md) - [分岐](fork.md) - [紐付け](reconciliation.md) - [オーディエンスを保存](save-audience.md) - <b>[分割](split.md)</b> - [待機](wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -50,7 +50,7 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_segments"
 >title="分割アクティビティのセグメント"
->abstract="入力母集団をセグメント化するのに必要な数のサブセットを追加します。<br/></br>「**分割**」アクティビティを実行すると、母集団はアクティビティに追加された順序で様々なサブセットに分割されます。 調整されたキャンペーンを開始する前に、矢印ボタンを使用して、サブセットをニーズに合う順番に並べ替えておきます。"
+>abstract="入力母集団をセグメント化するのに必要な数のサブセットを追加します。<br/></br>「**分割**」アクティビティを実行すると、母集団はアクティビティに追加された順序で様々なサブセットに分割されます。 オーケストレートキャンペーンを開始する前に、矢印ボタンを使用して、ニーズに合った順序でサブセットを注文していることを確認してください。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_filter"
@@ -89,7 +89,7 @@ ht-degree: 95%
 
 **[!UICONTROL 分割]**&#x200B;アクティビティを設定するには、次の手順に従います。
 
-1. **[!UICONTROL 分割]**&#x200B;アクティビティを調整されたキャンペーンに追加します。
+1. オーケストレーションされたキャンペーンに **[!UICONTROL 分割]** アクティビティを追加します。
 
 1. アクティビティ設定パネルが開き、デフォルトのサブセットが表示されます。「**[!UICONTROL セグメントを追加]**」ボタンをクリックして、入力母集団をセグメント化する必要な数のサブセットを追加します。
 
@@ -99,9 +99,9 @@ ht-degree: 95%
    >
    >**分割**&#x200B;アクティビティは、サブセットを追加された順序で処理します。例えば、最初のサブセットが母集団の 70％を取得した場合、次のサブセットではその条件を残りの 30％に適用します。
    >
-   >調整されたキャンペーンを実行する前に、サブセットが意図したとおりに順序付けられていることを確認します。矢印ボタンを使用して、位置を調整します。
+   >オーケストレートキャンペーンを実行する前に、サブセットが意図したとおりに並べ替えられていることを確認します。 矢印ボタンを使用して、位置を調整します。
 
-1. サブセットを追加したら、アクティビティにはサブセットと同数の出力トランジションが表示されます。調整されたキャンペーンキャンバスで簡単に識別できるように、各サブセットのラベルを変更することを強くお勧めします。
+1. サブセットを追加したら、アクティビティにはサブセットと同数の出力トランジションが表示されます。オーケストレートキャンペーンキャンバスで各サブセットを簡単に識別できるように、各サブセットのラベルを変更することを強くお勧めします。
 
 1. 各サブセットのフィルターを設定します。
 
@@ -127,7 +127,7 @@ ht-degree: 95%
 
    * **オンにした場合**、プロファイルがそれぞれの条件を満たしていれば、複数のサブセットに含めることができます。
 
-これでアクティビティが設定されました。調整されたキャンペーンの実行時に、母集団はアクティビティに追加された順序で、様々なサブセットにセグメント化されます。
+これでアクティビティが設定されました。キャンペーンの実施時に、母集団は、アクティビティに追加された順序で、様々なサブセットにセグメント化されます。
 
 ## 例{#split-example}
 

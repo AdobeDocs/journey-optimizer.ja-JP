@@ -1,31 +1,31 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 調整されたキャンペーンの基本を学ぶ
-description: 調整されたキャンペーンの開始方法について説明します
+title: オーケストレートキャンペーンの基本を学ぶ
+description: オーケストレートキャンペーンを開始する方法を学ぶ
 badge: label="アルファ版"
 hide: true
 hidefromtoc: true
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
-source-git-commit: 0d6e3c082032b11b38f7d4b67da1e38756b5f101
+source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '628'
-ht-degree: 16%
+ht-degree: 11%
 
 ---
 
-# 調整されたキャンペーンの基本を学ぶ {#orchestrated-camp}
+# オーケストレートキャンペーンの基本を学ぶ {#orchestrated-camp}
 
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_orchestrated"
 >title="campaigns_overview_orchestrated"
->abstract="<b>Campaign オーケストレーション </b><br/> リレーショナルデータセットを分割、結合、強化、操作して、オーディエンスを定義 <br/><br/> <b> マルチエンティティデータの活用 </b><br/> 調整されたキャンペーンがリレーショナルデータセットを活用して、セグメント化とパーソナライゼーションのためのデータを強化する方法を学びます。<br/><br/><b> アドホックセグメント化と正確な数 </b><br/> 正確な数を使用してセグメントを段階的に構築します。<br/><br/><b> 利用可能なチャネル </b><br/> メール、SMS、プッシュ通知、ダイレクトメール"
+>abstract="<b>Campaign オーケストレーション </b><br/> リレーショナルデータセットを分割、結合、強化、操作して、オーディエンスを定義 <br/><br/> <b> マルチエンティティデータの活用 </b><br/>Orchestrated キャンペーンでリレーショナルデータセットを活用して、セグメント化とパーソナライゼーションのためのデータを強化する方法を学びます。<br/><br/><b> アドホックセグメント化と正確なカウント </b><br/> 正確なカウントを使用してセグメントを段階的に構築します。<br/><br/><b> 利用可能なチャネル </b><br/> メール、SMS、プッシュ通知、ダイレクトメール"
 
 +++ 目次
 
-| 調整されたキャンペーンへようこそ | 最初の調整されたキャンペーンの開始 | データベースのクエリ | 調整されたキャンペーンアクティビティ |
+| オーケストレートキャンペーンへようこそ | 初めてのオーケストレートキャンペーンの開始 | データベースのクエリ | 調整されたキャンペーンアクティビティ |
 |---|---|---|---|
-| <b>[ 調整されたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)</b><br/><br/> リレーショナルスキーマとデータセットの作成および管理：</br> <ul><li>[ スキーマとデータセットの概要 ](gs-schemas.md)</li><li>[ 手動スキーマ ](manual-schema.md)</li><li>[ ファイルアップロードスキーマ ](file-upload-schema.md)</li><li>[ データの取り込み ](ingest-data.md)</li></ul>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md)<br/><br/>[ オーケストレーションされたキャンペーンを作成するための主な手順 ](gs-campaign-creation.md) | [キャンペーンの作成とスケジュール](create-orchestrated-campaign.md)<br/><br/>[アクティビティの調整](orchestrate-activities.md)<br/><br/>[キャンペーンの開始と監視](start-monitor-campaigns.md)<br/><br/>[レポート](reporting-campaigns.md) | [ルールビルダーの操作](orchestrated-rule-builder.md)<br/><br/>[最初のクエリの作成](build-query.md)<br/><br/>[式の編集](edit-expressions.md)<br/><br/>[リターゲティング](retarget.md) | [アクティビティの基本を学ぶ](activities/about-activities.md)<br/><br/>アクティビティ：<br/>[AND 結合](activities/and-join.md) - [オーディエンスを作成](activities/build-audience.md) - [ディメンションを変更](activities/change-dimension.md) - [チャネルアクティビティ](activities/channels.md) - [結合](activities/combine.md) - [重複排除](activities/deduplication.md) - [エンリッチメント](activities/enrichment.md) - [分岐](activities/fork.md) - [紐付け](activities/reconciliation.md) - [オーディエンスを保存](activities/save-audience.md) - [分割](activities/split.md) - [待機](activities/wait.md) |
+| <b>[ 調整されたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)</b><br/><br/> リレーショナルスキーマとデータセットの作成および管理：</br> <ul><li>[ スキーマとデータセットの概要 ](gs-schemas.md)</li><li>[ 手動スキーマ ](manual-schema.md)</li><li>[ ファイルアップロードスキーマ ](file-upload-schema.md)</li><li>[ データの取り込み ](ingest-data.md)</li></ul>[ オーケストレートキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md)<br/><br/>[ オーケストレートキャンペーンを作成するための主な手順 ](gs-campaign-creation.md) | [キャンペーンの作成とスケジュール](create-orchestrated-campaign.md)<br/><br/>[アクティビティの調整](orchestrate-activities.md)<br/><br/>[キャンペーンの開始と監視](start-monitor-campaigns.md)<br/><br/>[レポート](reporting-campaigns.md) | [ルールビルダーの操作](orchestrated-rule-builder.md)<br/><br/>[最初のクエリの作成](build-query.md)<br/><br/>[式の編集](edit-expressions.md)<br/><br/>[リターゲティング](retarget.md) | [アクティビティの基本を学ぶ](activities/about-activities.md)<br/><br/>アクティビティ：<br/>[AND 結合](activities/and-join.md) - [オーディエンスを作成](activities/build-audience.md) - [ディメンションを変更](activities/change-dimension.md) - [チャネルアクティビティ](activities/channels.md) - [結合](activities/combine.md) - [重複排除](activities/deduplication.md) - [エンリッチメント](activities/enrichment.md) - [分岐](activities/fork.md) - [紐付け](activities/reconciliation.md) - [オーディエンスを保存](activities/save-audience.md) - [分割](activities/split.md) - [待機](activities/wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -43,7 +43,7 @@ ht-degree: 16%
 
 [!DNL Adobe Journey Optimizer] のキャンペーンオーケストレーションは、あらゆるチャネルにわたって高度な、ブランド主導のマーケティングキャンペーンを強化し、エンゲージメント、収益、顧客ロイヤルティを大規模に推進するのに役立ちます。
 
-クロスチャネルマーケティングは必須ですが、調整されたキャンペーンにより、シームレスに行うことができます。 視覚的なドラッグ&amp;ドロップインターフェイスを使用すると、複数のチャネルをまたいで、セグメント化からメッセージ配信に至る複雑なマーケティングワークフローをデザインして自動化できます。 すべてが、速度、制御、効率のために構築された、1 つの直感的な環境で行われます。
+クロスチャネルマーケティングは不可欠ですが、オーケストレートキャンペーンはシームレスに行います。 視覚的なドラッグ&amp;ドロップインターフェイスを使用すると、複数のチャネルをまたいで、セグメント化からメッセージ配信に至る複雑なマーケティングワークフローをデザインして自動化できます。 すべてが、速度、制御、効率のために構築された、1 つの直感的な環境で行われます。
 
 ![](assets/canvas-example-diagram.png){zoomable="yes"}
 
@@ -65,7 +65,7 @@ ht-degree: 16%
 
 ## 調整されたキャンペーンとジャーニー
 
-調整されたキャンペーンのビジュアライゼーションはジャーニーに類似していますが、様々な目的やユースケースが解決されます。
+オーケストレーションされたキャンペーンのビジュアライゼーションはジャーニーに類似していますが、様々な目的やユースケースが解決されます。
 
 * **ジャーニー** – 各プロファイルが自分のペースで異なるステップを進む 1～1 つのキャンバス。 リアルタイムのアクションをトリガーするために、各顧客のステータスはコンテキスト内に維持されます。
 
@@ -99,7 +99,7 @@ ht-degree: 16%
 <a href="create-orchestrated-campaign.md">
 <img alt="リード" src="assets/do-not-localize/workflow-create.jpeg">
 </a>
-<div><a href="create-orchestrated-campaign.md"><strong>調整されたキャンペーンの作成</strong>
+<div><a href="create-orchestrated-campaign.md"><strong> オーケストレーションされたキャンペーンの作成 </strong>
 </div>
 <p>
 </td>
