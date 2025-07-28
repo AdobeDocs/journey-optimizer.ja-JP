@@ -6,10 +6,10 @@ description: Adobe Journey Optimizer を使用して調整されたキャンペ�
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 1a9ea09fcbf304b1649a5ae88da34bd209e9ac8b
+source-git-commit: 855c45b5baec50865ac645eae707d5f1a5052b9b
 workflow-type: tm+mt
-source-wordcount: '806'
-ht-degree: 73%
+source-wordcount: '810'
+ht-degree: 68%
 
 ---
 
@@ -48,7 +48,9 @@ ht-degree: 73%
 
 [!DNL Journey Optimizer] を使用すると、オーケストレーションされたキャンペーンを運用開始前にテストできます。 キャンペーンを作成すると、デフォルトで **ドラフト** 状態になります。 この状態で、キャンペーンを手動で実行して、フローをテストできます。
 
-キャンバス内のすべてのアクティビティは、**[!UICONTROL オーディエンスを保存]** アクティビティとチャネルアクティビティを除いて実行されます。 データやオーディエンスに機能上の影響はありません。
+>[!IMPORTANT]
+>
+>キャンバス内のすべてのアクティビティは、**[!UICONTROL オーディエンスを保存]** アクティビティとチャネルアクティビティを除いて実行されます。 データやオーディエンスへの機能上の影響はありません。**
 
 キャンペーンをテストするには：
 
@@ -63,13 +65,19 @@ ht-degree: 73%
 
 * **停止**：いつでも実行を停止できます。
 * **開始**：実行を再度開始します。
-* **再開**：問題により、実行が以前に一時停止されていた場合は、実行を再開します。
+* **再開** 実行が以前に一時停止されていた場合は、その実行を再開します。
 
-実行中にエラーや警告が発生した場合は、キャンバスツールバーの&#x200B;**[!UICONTROL アラート]**／**[!UICONTROL 警告]**&#x200B;アイコンで通知されます。
+キャンバスツールバーにある **[!UICONTROL アラート]**/**[!UICONTROL 警告]** アイコンは、実行前に先行して表示される可能性のある警告や、実行中または実行後に発生するエラーなど、問題を通知します。
 
 ![](assets/campaign-warning.png){zoomable="yes"}
 
 また、各アクティビティに直接表示される[視覚的なステータス指標](#activities)を使用して、失敗したアクティビティをすばやく識別することもできます。トラブルシューティングについて詳しくは、[キャンペーンのログ](#logs-tasks)を開き、エラーとそのコンテキストに関する詳細な情報を参照してください。
+
+<!--WAITING FOR PM's TEST TO UNHIDE
+
+If you have added channel activities in the canvas, you can preview and test the content of your messages using the **[!UICONTROL Simulate Content]** button. [Learn how to work with channel activities](activities/channels.md)
+
+-->
 
 検証が完了したら、キャンペーンを公開できます。
 

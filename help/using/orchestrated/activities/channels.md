@@ -7,9 +7,9 @@ badge: label="アルファ版"
 hide: true
 hidefromtoc: true
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: 00e7ede1d8576aeef411caffd9c4251a6957f0ad
+source-git-commit: 855c45b5baec50865ac645eae707d5f1a5052b9b
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1168'
 ht-degree: 79%
 
 ---
@@ -161,11 +161,15 @@ UNUSED IDs in BJ
 
 パーソナライゼーションエディターの使用方法について詳しくは、[ パーソナライゼーションの概要 ](../../personalization/personalize.md) を参照してください
 
-## コンテンツのチェックとテスト
+<!--WAITING FOR PM's TEST TO UNHIDE
 
-コンテンツを作成したら、「**[!UICONTROL コンテンツをシミュレート]**」ボタンを使用して、CSV／JSON ファイルからアップロードした、または手動で追加したテストプロファイルやサンプル入力データを使用して、そのコンテンツをプレビューおよびテストします。[詳細情報](../../content-management/preview-test.md)
+## Check and test your content
 
-![「コンテンツをシミュレート」ボタンを示す画像](../assets/channel-simulate.png)
+Once the content is created, use the **[!UICONTROL Simulate Content]** button to preview and test your content with test profiles or sample input data uploaded from a CSV / JSON file, or added manually. [Learn more](../../content-management/preview-test.md)
+
+![image showing the Simulate Content button](../assets/channel-simulate.png)
+
+-->
 
 ## 次の手順 {#next}
 
