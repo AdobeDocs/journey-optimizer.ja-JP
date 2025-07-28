@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 抑制, リスト, バウンス, メール, Optimizer, 強制隔離
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
-source-git-commit: 1adf4db1e76645b2c369b39d54ef97aff5be963d
-workflow-type: ht
-source-wordcount: '1599'
-ht-degree: 100%
+source-git-commit: 1e36871c2c975c81d018fabb3cff51d11c98962e
+workflow-type: tm+mt
+source-wordcount: '1600'
+ht-degree: 99%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 100%
 
 | 理由 | 説明 | カテゴリ |
 | --- | --- | --- |
-| **[!UICONTROL 無効な受信者]** | 受信者が無効、または存在しません。 | ハード |
+| **[!UICONTROL 無効な受信者]** | 受信者のアドレスが無効か、存在しません。 | ハード |
 | **[!UICONTROL ソフトバウンス]** | メッセージソフトは、この表に示すソフトエラー以外の理由（ISP が推奨する許可率を超えた場合など）でバウンスしました。 | ソフト |
 | **[!UICONTROL DNS エラー]** | DNS エラーが原因でメッセージがバウンスされました。 | ソフト |
 | **[!UICONTROL メールボックス容量超過]** | 受信者のメールボックスがいっぱいになり、追加のメッセージを受け入れられなかったため、メッセージがバウンスされました。 | ソフト |
