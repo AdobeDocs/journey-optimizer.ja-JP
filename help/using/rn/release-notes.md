@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: e74b600a12413883ee6796a9df2583c1adbdf94c
+source-git-commit: c0b72e046720a667841b83752fe8bba63e572e95
 workflow-type: tm+mt
 source-wordcount: '2342'
 ht-degree: 62%
@@ -133,7 +133,7 @@ ht-degree: 62%
 <li>すべてのメールクライアントがカスタムダークモードをサポートしているわけではありません。 さらに、一部のメールクライアントは、受信したすべてのメールに対して独自のデフォルトのダークモードのみを適用します。 どちらの場合も、メールDesignerで定義したカスタム設定はレンダリングできません。</li>
 </ul>
 <P>この機能は現在ベータ版で、ベータ版のお客様のみご利用いただけます。ベータ版プログラムに参加するには、アドビ担当者にお問い合わせください。</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><img src="assets/do-not-localize/dark-mode.gif"/></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
 </tr>
@@ -251,7 +251,7 @@ ht-degree: 62%
 
 **リリース日**：2025年6月18日（PT）
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新機能 {#25-06-features}
 
