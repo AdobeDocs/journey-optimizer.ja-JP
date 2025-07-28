@@ -22,7 +22,7 @@ ht-degree: 19%
 
 配信エラーの理由は複数あります。 次の表は、[!DNL Journey Optimizer] を使用してメール配信を送信する際に発生する可能性のあるすべてのエラーと、その説明およびエラータイプの詳細を示しています。
 
-これらのエラーは、[AJO メッセージフィードバックイベントデータセットに見つかります。このデータセットには ](../data/datasets-query-examples.md#message-feedback-event-dataset)[!DNL Journey Optimizer] からのすべてのメッセージ配信に関する情報などのメッセージ配信ログや、バウンス時に E メール ISP からのフィードバックレコードが含まれています。
+これらのエラーは、[AJO メッセージフィードバックイベントデータセットに見つかります。このデータセットには ](../data/datasets-query-examples.md#message-feedback-event-dataset) [!DNL Journey Optimizer] からのすべてのメッセージ配信に関する情報などのメッセージ配信ログや、バウンス時に E メール ISP からのフィードバックレコードが含まれています。
 
 | エラーラベル | エラータイプ | 技術的価値 | 説明 |
 | --- | --- | --- | --- |
