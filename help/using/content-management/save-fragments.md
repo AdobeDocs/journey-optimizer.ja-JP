@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 70e88ea0-f2b0-4c13-8693-619741762429
-source-git-commit: 82b1dd99e13b63a1b19b96211f4410a16dd82a9e
+source-git-commit: f8ee42f42849bec199bfa5203dc59112f98de99c
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 90%
@@ -21,7 +21,7 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->ジャーニーまたはキャンペーンでトラッキングを有効にすると、保存されたフラグメントにリンクが存在し、このフラグメントがメールで使用される場合、メッセージに含まれる他のすべてのリンクなど、これらのリンクがトラッキングされます。 [ リンクとトラッキングの詳細 ](../email/message-tracking.md)
+>ジャーニーまたはキャンペーンでトラッキングを有効にすると、保存されたフラグメントにリンクが存在し、このフラグメントがメッセージで使用される場合、メッセージに含まれる他のすべてのリンクと同様に、これらのリンクがトラッキングされます。 [ リンクとトラッキングの詳細 ](../email/message-tracking.md)
 
 ## ビジュアルフラグメントとして保存 {#save-as-visual-fragment}
 

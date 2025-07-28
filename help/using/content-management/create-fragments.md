@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: 82b1dd99e13b63a1b19b96211f4410a16dd82a9e
+source-git-commit: f8ee42f42849bec199bfa5203dc59112f98de99c
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 91%
@@ -81,7 +81,7 @@ ht-degree: 91%
 
 >[!NOTE]
 >
->ジャーニーまたはキャンペーンでトラッキングが有効になっている場合、フラグメントにリンクを追加し、このフラグメントがメールで使用されると、メッセージに含まれる他のすべてのリンクなど、これらのリンクがトラッキングされます。 [ リンクとトラッキングの詳細 ](../email/message-tracking.md)
+>ジャーニーまたはキャンペーンでトラッキングを有効にし、フラグメントにリンクを追加し、このフラグメントがメッセージで使用される場合、メッセージに含まれる他のすべてのリンクと同様に、これらのリンクがトラッキングされます。 [ リンクとトラッキングの詳細 ](../email/message-tracking.md)
 
 コンテンツの準備が整ったら、「**[!UICONTROL 保存]** ボタンをクリックします。
 
