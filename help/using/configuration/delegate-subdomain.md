@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: サブドメイン, デリゲーション, ドメイン, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 7854de133ebcd3b29ca59b747aa89fae242f2ea5
+source-git-commit: 142e56ce36389da5c2e28bbafa1a1bf59be50d74
 workflow-type: tm+mt
-source-wordcount: '1897'
-ht-degree: 79%
+source-wordcount: '1906'
+ht-degree: 76%
 
 ---
 
@@ -29,9 +29,11 @@ ht-degree: 79%
 >title="サブドメインデリゲーション"
 >abstract="メールの送信を開始するには、サブドメインをアドビにデリゲートします。完了すると、DNS レコード、受信ボックス、送信者、返信先、バウンスアドレスが設定されます。"
 
-ドメイン名のデリゲートという方法を使うと、ドメイン名（技術的には DNS ゾーン）の所有者は、その一部（技術的にはその配下の DNS ゾーンであり、サブゾーンとも呼ばれます）を別のエンティティにデリゲートできます。基本的に、お客様が「example.com」ゾーンを扱う場合、サブゾーン「marketing.example.com」をアドビにデリゲートできます。詳しくは、[サブドメインデリゲーション](about-subdomain-delegation.md)を参照してください
+ドメイン名のデリゲートという方法を使うと、ドメイン名（技術的には DNS ゾーン）の所有者は、その一部（技術的にはその配下の DNS ゾーンであり、サブゾーンとも呼ばれます）を別のエンティティにデリゲートできます。基本的に、お客様が「example.com」ゾーンを扱う場合、サブゾーン「marketing.example.com」をAdobeにデリゲートできます。
 
-デフォルトでは、[!DNL Journey Optimizer] では&#x200B;**最大 10 個のサブドメイン**&#x200B;をデリゲートできます。ただし、ライセンス契約によっては、最大 100 個のサブドメインをデリゲートできる場合があります。自身が使用資格を持つサブドメインの数について詳しくは、アドビの連絡先にお問い合わせください。
+>[!NOTE]
+>
+>サブドメインのデリゲーションと、[!DNL Journey Optimizer] で使用できる様々な方法について詳しくは、[ この節 ](about-subdomain-delegation.md) を参照してください。
 
 以下のいずれかを実行できます。
 
@@ -40,9 +42,19 @@ ht-degree: 79%
 
 **完全なサブドメインデリゲーション** は、推奨される方法です。 様々なサブドメイン設定方法の違いについて詳しくは、[ この節 ](about-subdomain-delegation.md#subdomain-delegation-methods) を参照してください。
 
->[!CAUTION]
->
->サブドメインの並列送信は、[!DNL Journey Optimizer] ではサポートされていません。別のサブドメインのステータスが&#x200B;**[!UICONTROL 処理中]**&#x200B;となっているときに、サブドメインをデリゲーション用に送信しようとすると、エラーメッセージが表示されます。
+## ガードレール {#guardrails}
+
+[!DNL Journey Optimizer] でサブドメインを設定する場合は、以下に示すガードレールと推奨事項に従ってください。
+
+* デフォルトで [!DNL Journey Optimizer]、を使用すると **最大 10 個のサブドメイン** をデリゲートできます。 ただし、ライセンス契約によっては、最大 100 個のサブドメインをデリゲートできる場合があります。自身が使用資格を持つサブドメインの数について詳しくは、アドビの連絡先にお問い合わせください。
+
+* サブドメインの並列送信は、[!DNL Journey Optimizer] ではサポートされていません。別のサブドメインのステータスが&#x200B;**[!UICONTROL 処理中]**&#x200B;となっているときに、サブドメインをデリゲーション用に送信しようとすると、エラーメッセージが表示されます。
+
+* 無効なサブドメインをアドビにデリゲートすることはできません。組織が所有する有効なサブドメイン（marketing.yourcompany.com など）を入力してください。
+
+* [!DNL Adobe Journey Optimizer] と別の製品（[!DNL Adobe Campaign] または [!DNL Adobe Marketo Engage] など）から同じ送信ドメインを使用してメッセージを送信することはできません。
+
+* 親ドメインとサブドメインの両方のデリゲートはサポートされていません。 例えば、subdomain.domain.comをデリゲートした場合、email.subdomain.domain.comをデリゲートできません。 同様に、email.subdomain.domain.comをデリゲートした場合、subdomain.domain.comをデリゲートできません。
 
 ## デリゲートされたサブドメインへのアクセス {#access-delegated-subdomains}
 
@@ -69,7 +81,7 @@ ht-degree: 79%
 
 >[!CAUTION]
 >
->サブドメインの設定は、すべての環境で共通です。したがって、サブドメインを変更すると、実稼働用サンドボックスにも影響します。
+>サブドメイン設定は、**すべての環境で共通**&#x200B;です。したがって、サブドメインを変更すると、実稼働用サンドボックスにも影響します。
 
 ## Journey Optimizerでのサブドメインの設定 {#set-up-subdomain}
 
@@ -79,19 +91,14 @@ ht-degree: 79%
 >abstract="新しいサブドメインをアドビに完全にデリゲートするには、Journey Optimizer インターフェイスに表示されるアドビのネームサーバー情報を、ドメインホストソリューションにコピー＆ペーストし、一致する DNS レコードを生成する必要があります。CNAME を使用してサブドメインをデリゲートするには、SSL CDN URL 検証レコードもコピー＆ペーストする必要があります。チェックが正常に完了すると、サブドメインをメッセージの配信に使用する準備が整います。"
 
 [!DNL Journey Optimizer] で新しいサブドメインを設定するには、次の手順に従います。
-
+<!--
 >[!NOTE]
 >
->この節では、完全デリゲーションまたは CNAME 方法を使用してサブドメインを設定する方法について説明します。 カスタムの委任方法について詳しくは、[ この節 ](#setup-custom-subdomain) を参照してください。
-
+>This section describes how to set up a subdomain using the full delegation. The custom delegation method is detailed in [this section](#setup-custom-subdomain).-->
 
 1. **[!UICONTROL 管理]**／**[!UICONTROL チャネル]**／**[!UICONTROL メール設定]**／**[!UICONTROL サブドメイン]**&#x200B;メニューにアクセスし、「**[!UICONTROL サブドメインを設定]**」をクリックします。
 
    <!--![](assets/subdomain-delegate.png)-->
-
-   >[!CAUTION]
-   >
-   >サブドメイン設定は、**すべての環境で共通**&#x200B;です。したがって、サブドメインを変更すると、実稼働サンドボックスにも影響します。
 
 1. **[!UICONTROL メソッドの設定]** セクションで、次のいずれかを選択します。
 
@@ -105,16 +112,16 @@ ht-degree: 79%
 1. デリゲートするサブドメインの名前を指定します。
 
    ![](assets/subdomain-name.png)
+<!--
+    >[!CAUTION]
+    >
+    >Delegating an invalid subdomain to Adobe is not allowed. Make sure you enter a valid subdomain which is owned by your organization, such as marketing.yourcompany.com.
+    >
+    >You cannot use the same sending domain to send out messages from [!DNL Adobe Journey Optimizer] and from another product, such as [!DNL Adobe Campaign] or [!DNL Adobe Marketo Engage].
 
-   >[!CAUTION]
-   >
-   >無効なサブドメインをアドビにデリゲートすることはできません。組織が所有する有効なサブドメイン（marketing.yourcompany.com など）を入力してください。
-   >
-   >[!DNL Adobe Journey Optimizer] と別の製品（[!DNL Adobe Campaign] または [!DNL Adobe Marketo Engage] など）から同じ送信ドメインを使用してメッセージを送信することはできません。
+    Capital letters are not allowed in subdomains. TBC by PM-->
 
-   <!--Capital letters are not allowed in subdomains. TBC by PM-->
-
-1. 専用セクションで **[!UICONTROL 0&rbrace;DMARC レコード &rbrace; を設定します。]**&#x200B;サブドメインに既存の [DMARC レコード ](dmarc-record.md) があり、[!DNL Journey Optimizer] によって取得される場合は、同じ値を使用するか、必要に応じて変更できます。 値を追加しない場合は、デフォルトの値が使用されます。[DMARC レコードの管理方法について説明します ](dmarc-record.md#set-up-dmarc)
+1. 専用セクションで **[!UICONTROL 0}DMARC レコード } を設定します。]**&#x200B;サブドメインに既存の [DMARC レコード ](dmarc-record.md) があり、[!DNL Journey Optimizer] によって取得される場合は、同じ値を使用するか、必要に応じて変更できます。 値を追加しない場合は、デフォルトの値が使用されます。[DMARC レコードの管理方法について説明します ](dmarc-record.md#set-up-dmarc)
 
    ![](assets/dmarc-record-found.png)
 
@@ -266,4 +273,4 @@ CNAME を使用してサブドメインを設定するには、次の手順に�
 
 CNAME を使用してサブドメインを作成しアドビ固有のレコードを指すようにする方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/342236?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)
