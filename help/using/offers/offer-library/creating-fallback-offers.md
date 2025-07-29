@@ -7,10 +7,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: ht
-source-wordcount: '300'
-ht-degree: 100%
+source-git-commit: fb036e910431a4ce9709b394c93484e6b76bf8f8
+workflow-type: tm+mt
+source-wordcount: '337'
+ht-degree: 89%
 
 ---
 
@@ -45,6 +45,10 @@ ht-degree: 100%
 
    ![](../assets/fallback_content.png)
 
+   >[!CAUTION]
+   >
+   >フォールバックオファーには、[ 決定 ](../offer-activities/create-offer-activities.md) 内で使用されるすべての表示域を含める必要があります。 例えば、決定に 5 つのオファーがあり、それぞれに異なる表示域がある場合、フォールバックオファーには 5 つの表示域を含める必要があります。
+
 1. フォールバックオファーの表示域が追加されると、概要が表示されます。すべてが適切に設定され、フォールバックオファーが顧客に提示できる状態になったら、「**[!UICONTROL 終了]**」をクリックしたあと、「**[!UICONTROL 保存して承認]**」を選択します。
 
    フォールバックオファーは、ドラフトとして保存し、後で編集して承認することもできます。
@@ -59,5 +63,5 @@ ht-degree: 100%
 
 ## チュートリアルビデオ {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341357?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/329383?quality=12)
 
