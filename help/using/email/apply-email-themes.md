@@ -127,7 +127,7 @@ If you apply a theme to a content using a [fragment](../content-management/fragm
 
    * ビルトインの[メールテンプレート](use-email-templates.md)を選択して、E メールデザイナーを開きます。各テンプレートに固有のデフォルトのテーマが自動的に適用されます。
 
-   * [ 新規コンテンツをゼロから ](content-from-scratch.md) デザインし、「**[!UICONTROL テーマを使用 ] を選択し**、事前定義済みのスタイルテーマから始めます。
+   * [ 新規コンテンツをゼロから ](content-from-scratch.md) デザインし、「**[!UICONTROL テーマを使用 &#x200B;] を選択し**、事前定義済みのスタイルテーマから始めます。
 
      ![](assets/theme-from-scratch.png)
 
