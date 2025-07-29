@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: f8ee42f42849bec199bfa5203dc59112f98de99c
+source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 91%
+source-wordcount: '765'
+ht-degree: 85%
 
 ---
 
@@ -63,6 +63,12 @@ ht-degree: 91%
 
 フラグメントのプロパティを設定すると、作成するフラグメントのタイプに応じて、E メールデザイナーまたはパーソナライゼーションエディターが開きます。
 
+>[!NOTE]
+>
+>[ コンテキスト属性 ](../personalization/personalization-build-expressions.md) は、フラグメント内ではサポートされていません。
+>
+>ジャーニーまたはキャンペーンでトラッキングを有効にし、フラグメントにリンクを追加し、このフラグメントがメッセージで使用される場合、メッセージに含まれる他のすべてのリンクと同様に、これらのリンクがトラッキングされます。 [ リンクとトラッキングの詳細 ](../email/message-tracking.md)
+
 * ビジュアルフラグメントの場合は、ジャーニーやキャンペーン内のメールと同じ方法で、必要に応じてコンテンツを編集します。[詳細情報](../email/get-started-email-design.md)
 
   ![](assets/fragment-designer.png)
@@ -73,15 +79,11 @@ ht-degree: 91%
 
   >[!CAUTION]
   >
-  >フラグメントには、テーマモードとクラシックモード間で相互互換性がありません。テーマを適用するコンテンツでフラグメントを使用できるようにするには、このフラグメントをテーマモードで作成する必要があります。[テーマの詳細情報](../email/apply-email-themes.md)
+  >フラグメントは、テーマを使用モードと手動スタイルモードの間で相互互換性がありません。 テーマを適用するコンテンツでフラグメントを使用できるようにするには、このフラグメントをテーマモードで作成する必要があります。 [テーマの詳細情報](../email/apply-email-themes.md)
 
 * 式フラグメントの場合は、[!DNL Journey Optimizer] パーソナライゼーションエディターのすべてのパーソナライズ機能およびオーサリング機能を活用して、フラグメントコンテンツを構築します。[詳細情報](../personalization/personalization-build-expressions.md)
 
   ![](assets/fragment-expression-editor.png)
-
->[!NOTE]
->
->ジャーニーまたはキャンペーンでトラッキングを有効にし、フラグメントにリンクを追加し、このフラグメントがメッセージで使用される場合、メッセージに含まれる他のすべてのリンクと同様に、これらのリンクがトラッキングされます。 [ リンクとトラッキングの詳細 ](../email/message-tracking.md)
 
 コンテンツの準備が整ったら、「**[!UICONTROL 保存]** ボタンをクリックします。
 

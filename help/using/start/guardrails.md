@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 142e56ce36389da5c2e28bbafa1a1bf59be50d74
+source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
 workflow-type: tm+mt
-source-wordcount: '2497'
-ht-degree: 97%
+source-wordcount: '2639'
+ht-degree: 93%
 
 ---
 
@@ -91,8 +91,14 @@ Journey Optimizerのサブドメインデリゲーションに適用されるガ
 
 次のガードレールが[フラグメント](../content-management/fragments.md)に適用されます。
 
+* フラグメントを作成、編集、アーカイブおよび公開するには、**[!DNL Content Library Manager]** 製品プロファイルに含まれている **[!DNL Manage library items]** および&#x200B;**[フラグメントを公開]**&#x200B;する権限が必要です。[詳細情報](../administration/ootb-product-profiles.md#content-library-manager)
 * ビジュアルフラグメントは、メールチャネルでのみ使用できます。
 * 式フラグメントは、アプリ内チャネルでは使用できません。
+* ビジュアルフラグメントは、100 KB を超えることはできません。 式のフラグメントは 200 KB を超えることはできません。
+* ジャーニーまたはキャンペーンでフラグメントを使用するには、フラグメントが **ライブ** ステータスになっている必要があります。
+* [ コンテキスト属性 ](../personalization/personalization-build-expressions.md) は、フラグメント内ではサポートされていません。
+* ビジュアルフラグメントは、テーマを使用モードと手動スタイル設定モード間で相互互換性がありません。 テーマを適用するコンテンツでフラグメントを使用できるようにするには、このフラグメントをテーマモードで作成する必要があります。 [テーマの詳細情報](../email/apply-email-themes.md)
+* ジャーニーまたはキャンペーンでトラッキングを有効にし、フラグメントにリンクを追加し、このフラグメントがメッセージで使用される場合、メッセージに含まれる他のすべてのリンクと同様に、これらのリンクがトラッキングされます。 [ リンクとトラッキングの詳細 ](../email/message-tracking.md)
 
 ## オーディエンスガードレール {#audience}
 

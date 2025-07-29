@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: ht
+source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
+workflow-type: tm+mt
 source-wordcount: '1069'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -103,7 +103,7 @@ Adobe Journey Optimizer を使用して、テキスト（SMS）、リッチ通�
 
 1. 「**[!UICONTROL メッセージ]**」フィールドをクリックして、パーソナライゼーションエディターを開きます。
 
-   Infobip、Twilio またはその他のサードパーティプロバイダーを使用した RCS メッセージの場合は、必要な JSON ペイロードを[カスタム SMS 設定](sms-configuration-custom.md#api-credential)にペーストします。
+   Infobip、Twilio、またはその他のサードパーティプロバイダーを使用した RCS メッセージの場合は、必要な JSON ペイロードを [ カスタム SMS 設定 ](sms-configuration-custom.md#api-credential) に貼り付けます。
 
    ![](assets/sms-content.png)
 
@@ -122,6 +122,8 @@ Adobe Journey Optimizer を使用して、テキスト（SMS）、リッチ通�
 1. **[!UICONTROL ヘルパー関数]**&#x200B;メニュー内で、「**[!UICONTROL URL 関数]**」をクリックし、「**[!UICONTROL URL を追加]**」を選択します。
 
    ![](assets/sms_tracking_2.png)
+
+   <!--The URL shortening function cannot be used within a fragment. TBC-->
 
 1. `originalUrl` フィールドに、短縮する URL をペーストし、「**[!UICONTROL 保存]**」をクリックします。
 

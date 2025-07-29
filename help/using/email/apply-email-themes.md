@@ -10,10 +10,10 @@ role: User
 level: Beginner, Intermediate
 keywords: メールテーマ, モジュール, 再利用性, ブランドの一貫性, メールデザイン, カスタム CSS, モバイルの最適化
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
-source-git-commit: 23684c906d11c7f54eb28cac7c2697964e723a2e
+source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
 workflow-type: tm+mt
-source-wordcount: '822'
-ht-degree: 100%
+source-wordcount: '832'
+ht-degree: 82%
 
 ---
 
@@ -53,19 +53,19 @@ Key Benefits:
 
 * メールをゼロから作成する際に、ブランドやデザインに合った特定のスタイルをすばやく適用するには、テーマを使用してコンテンツの作成の開始を選択します。
 
-  クラシックモードを選択した場合は、メールをリセットしない限り、テーマを適用できません。
+  手動スタイル設定モードを選択した場合、メールをリセットしない限りテーマを適用することはできません。
 
-* [フラグメント](../content-management/fragments.md)には、テーマモードとクラシックモード間で相互互換性がありません。
+* [ フラグメント ](../content-management/fragments.md) は、テーマを使用モードと手動スタイルモードの間で相互互換性がありません。
 
-  テーマが適用されるコンテンツでフラグメントを使用できるようにするには、このフラグメントをテーマモードで作成する必要があります。
+  テーマが適用されているコンテンツでフラグメントを使用できるようにするには、このフラグメントをテーマを使用モードで作成する必要があります。
 
 * HTML で作成されたコンテンツを使用する場合は、[互換性モード](existing-content.md)になり、このコンテンツにテーマを適用できません。
 
-  テーマを含む E メールデザイナーのすべての機能を最大限に活用するには、テーマモードで新しいコンテンツを作成するか、読み込んだ HTML コンテンツを変換する必要があります。[詳細情報](existing-content.md)
+  テーマを含むメールDesignerのすべての機能を最大限に活用するには、テーマを使用モードで新しいコンテンツを作成するか、読み込んだHTML コンテンツを変換する必要があります。 [詳細情報](existing-content.md)
 
-<!--If using a content created in Classic mode or HTML, you cannot apply themes to this content. You must create a new content in Theme mode.
+<!--If using a content created in Manual Styling mode or HTML, you cannot apply themes to this content. You must create a new content in Use Themes mode.
 
-If you apply a theme to a content using a [fragment](../content-management/fragments.md) created in Classic mode, the rendering may not be optimal.-->
+If you apply a theme to a content using a [fragment](../content-management/fragments.md) created in Manual Styling mode, the rendering may not be optimal.-->
 
 ## テーマの作成 {#create-and-edit-themes}
 
@@ -127,15 +127,15 @@ If you apply a theme to a content using a [fragment](../content-management/fragm
 
    * ビルトインの[メールテンプレート](use-email-templates.md)を選択して、E メールデザイナーを開きます。各テンプレートに固有のデフォルトのテーマが自動的に適用されます。
 
-   * [新しいコンテンツをゼロから](content-from-scratch.md)デザインし、「**[!UICONTROL テーマ]**」を選択して、定義済みのスタイルテーマから開始します。
+   * [ 新規コンテンツをゼロから ](content-from-scratch.md) デザインし、「**[!UICONTROL テーマを使用 ] を選択し**、事前定義済みのスタイルテーマから始めます。
 
      ![](assets/theme-from-scratch.png)
 
      >[!CAUTION]
      >
-     >クラシックモードを選択した場合は、メールをリセットしない限り、テーマを適用できません。
+     >手動スタイル設定モードを選択した場合、メールをリセットしない限りテーマを適用することはできません。
      >
-     >テーマモードで[フラグメント](../content-management/fragments.md)を使用するには、このフラグメント自体がテーマモードを使用して作成されている必要があります。
+     >テーマを使用モードで [ フラグメント ](../content-management/fragments.md) を使用するには、このフラグメント自体がテーマを使用モードを使用して作成されている必要があります。
 
 1. E メールデザイナーに移動したら、右側のパネルにある「**[!UICONTROL テーマ]**」ボタンをクリックします。デフォルトのテーマまたはテンプレートのテーマが表示されます。このテーマでは、2 つのカラーバリアントを切り替えることができます。
 
