@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: ht
-source-wordcount: '2388'
-ht-degree: 100%
+source-git-commit: e255751e411d8b623a12780a52a54551b5d65182
+workflow-type: tm+mt
+source-wordcount: '2399'
+ht-degree: 99%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 [!DNL Journey Optimizer] テンプレート言語を使用して、計算、データの書式設定や変換、条件、パーソナライゼーションのコンテキストでの操作など、データの操作を実行します。パーソナライゼーション構文のガイドラインについて詳しくは、[このページ](../personalization-syntax.md)を参照してください。
 
-➡️ [ヘルパー関数の使用方法については、このビデオをご覧ください](#video)
+➡️ [ ヘルパー関数の使用方法については、このビデオを参照してください ](#video)
 
 テンプレート言語は、次に示すように、パーソナライゼーションエディターのパーソナライゼーションドロップダウンリストで選択できるヘルパー関数で利用されます。
 
@@ -378,6 +378,9 @@ ht-degree: 100%
         <td><a href="string.md#rightTrim">右トリミング</a></td><td>文字列の末尾から空白を削除します。 </td>
     </tr>
     <tr>
+        <td><a href="string.md#sha256">SHA256</a></td><td>この関数は、文字列の sha256 ハッシュを計算して返します。</td>
+    </tr>
+    <tr>
         <td><a href="string.md#split">分割</a></td><td>文字列を指定された文字で分割するために使用します。</td>
     </tr>
     <tr>
@@ -513,4 +516,4 @@ ht-degree: 100%
 
 パーソナライズ機能のヘルパー関数を使用してパーソナライゼーション値を変換する方法と、ヘルパー関数の様々なユースケースを説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416781?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

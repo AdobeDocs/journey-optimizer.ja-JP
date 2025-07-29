@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: e255751e411d8b623a12780a52a54551b5d65182
 workflow-type: tm+mt
-source-wordcount: '1846'
-ht-degree: 100%
+source-wordcount: '1859'
+ht-degree: 98%
 
 ---
 
@@ -660,18 +660,39 @@ doesNotEndWith(person.emailAddress,".com")
 >
 > 2 番目の引数として使用される式が特殊な正規表現文字である場合は、2 つのバックスラッシュ（`//`）を使用します。特殊な正規表現文字は次のとおりです：[.、+、*、?、^、$、(、)、[、]、{、}、|、\]
 > 
-> 詳しくは、[Oracleのドキュメント](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}を参照してください。
+> 詳しくは、[Oracle ドキュメント ](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank} を参照してください。
 >
 
 ## 右トリミング {#rightTrim}
 
-`rightTrim` 関数は、文字列の末尾から空白を削除するために使用します。
+`rightTrim` 関数は、文字列の末尾から空白を削除します。
 
 **構文**
 
 ```sql
 {%= rightTrim(string) %}
 ```
+
+## SHA256 {#sha256}
+
+`SHA256` 関数は、文字列の sha256 ハッシュを計算して返します。
+
+**構文**
+
+```sql
+{{
+
+{%= sha256(string) %}
+: string}}
+```
+
+**例**
+
+```sql
+{%= sha256("Eliechxh")%}
+```
+
+戻り値：`0b0b207880b999adaad6231026abf87caa30760b6f326b21727b61139332257d`
 
 ## 分割 {#split}
 

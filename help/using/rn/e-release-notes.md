@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 3896015ea63a1d25a16744940ffc622b977ff4ce
+source-git-commit: e255751e411d8b623a12780a52a54551b5d65182
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '968'
 ht-degree: 17%
 
 ---
@@ -222,4 +222,8 @@ ht-degree: 17%
 
 - **チャネル – アプリ内**
    - **アプリ内キーと値のペア** - アプリ内メッセージを使用すると、キーと値のペアを定義して、メッセージペイロードにカスタム変数を含めることができます。 これらのキーと値のペアを使用すると、特定の設定およびユースケースに基づいて追加のデータを渡すことができます。
+  <!-- [Read more](../FILE.md) -->
+
+- **パーソナライゼーション**
+   - 新しいヘルパー関数「SHA256」がパーソナライゼーションエディターに追加されました。 この関数は、文字列の sha256 ハッシュを計算して返すために使用されます。
   <!-- [Read more](../FILE.md) -->
