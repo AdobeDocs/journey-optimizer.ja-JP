@@ -1,19 +1,18 @@
 ---
 title: ブランド一致
 description: ブランドスコアを使用して、ブランドに即したコンテンツを作成、検証および管理する方法について説明します。
-badge: label="ベータ版" type="Informative"
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 01e74670-7431-4791-b98c-12278e6d3332
-source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
-workflow-type: ht
-source-wordcount: '286'
+source-git-commit: 0a3e8a0eba6eaac125f508b8b81e2fab992eb978
+workflow-type: tm+mt
+source-wordcount: '265'
 ht-degree: 100%
 
 ---
 
-# ブランド一致 (Beta){#brands-score}
+# ブランド一致 {#brands-score}
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_score"
@@ -37,8 +36,7 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->この機能は、Private Beta としてリリースされています。今後のリリースで、すべてのお客様が段階的に利用できるようになる予定です。
->>Adobe Journey Optimizer で AI アシスタントを使用する前に、[ユーザー契約](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}に同意する必要があります。詳しくは、アドビ担当者にお問い合わせください。
+>Adobe Journey Optimizer で AI アシスタントを使用する前に、[ユーザー契約](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}に同意する必要があります。詳しくは、アドビ担当者にお問い合わせください。
 
 ブランド一致機能は、ブランドガイドラインに準拠したコンテンツの作成、レビュー、管理に役立ちます。この機能を使用すると、メールキャンペーン全体のトーン、メッセージ、ビジュアルアイデンティティの一貫性を確保するだけでなく、コンテンツ公開前に品質チェックを行うことができます。
 

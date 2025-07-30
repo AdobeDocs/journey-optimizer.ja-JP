@@ -3,7 +3,7 @@ title: イベントトリガージャーニーの補足識別子
 description: イベントトリガージャーニーの補足識別子の使用方法について説明します。
 badge: label="限定提供" type="Informative"
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
-source-git-commit: 664f38b4ff56ce871599400f898e23a8d04f7816
+source-git-commit: 5e4297fb0e2d0b910c9fe102299162e8bb46a311
 workflow-type: tm+mt
 source-wordcount: '971'
 ht-degree: 96%
@@ -21,7 +21,7 @@ ht-degree: 96%
 >
 >この機能は、一連の組織でのみ使用できます（限定提供）。アクセスするには、アドビ担当者にお問い合わせください。
 
-デフォルトでは、イベントトリガージャーニーは&#x200B;**プロファイル ID** のコンテキストで実行されます。つまり、特定のジャーニーでプロファイルがアクティブである限り、別のジャーニーに再エントリできません。これを防ぐために、Journey Optimizer では、プロファイル ID に加えて、注文 ID、サブスクリプション ID、処方箋 ID などの&#x200B;**補足識別子**&#x200B;をイベントで取得できます。
+デフォルトでは、イベントトリガージャーニーは&#x200B;**プロファイル ID** のコンテキストで実行されます。つまり、特定のジャーニーでプロファイルがアクティブである限り、別のジャーニーに再エントリできません。これを防ぐために、Journey Optimizer では、プロファイル ID に加えて、注文 ID、サブスクリプション ID、処方箋 ID などの&#x200B;**補足識別子**をイベントで取得できます。
 この例では、予約 ID を補足識別子として追加しています。
 
 ![](assets/event-supplemental-id.png){width=40% zoomable}
@@ -30,7 +30,7 @@ ht-degree: 96%
 
 さらに、Journey Optimizer を使用すると、補足識別子の属性（予約番号、処方箋の更新日、製品タイプなど）を活用してメッセージをカスタマイズできるので、関連性の高いコミュニケーションを確保できます。<!--Example: A healthcare provider can send renewal reminders for each prescription in a patient's profile.-->
 
-➡️ [この機能について詳しくは、ビデオを参照してください](#video)
+➡️ [この機能について詳しくは、ビデオを参照してください](#video)。
 
 ## ガードレールと制限 {#guardrails}
 
@@ -199,4 +199,4 @@ ht-degree: 96%
 
 [!DNL Adobe Journey Optimizer] で追加識別子を有効にして適用する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464793?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)

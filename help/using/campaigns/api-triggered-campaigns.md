@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: API トリガーキャンペーンの操作
-description: Journey Optimizer API を使用してキャンペーンのトリガーを設定する方法を説明します。
+description: Journey Optimizer API を使用してキャンペーンをトリガーする方法について説明します。
 feature: Campaigns, API
 topic: Content Management
 role: Developer
@@ -12,7 +12,7 @@ exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
 source-git-commit: 15f5fdfde0e9f7c93739a624918838dbd6787833
 workflow-type: tm+mt
 source-wordcount: '233'
-ht-degree: 25%
+ht-degree: 100%
 
 ---
 
@@ -22,19 +22,19 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_api_triggered"
 >title="API トリガーキャンペーン"
->abstract="**トランザクション API トリガーキャンペーン**<br/> API 呼び出しを使用したリアルタイムメッセージのトリガー&#x200B;<br/><br/>**マーケティングメッセージ**<br/> プロモーションコンテンツ（オプトインが必要、ビジネスルールの対象となる） <br/><br/>**トランザクションメッセージ**<br/> サービス関連コンテンツ（確認、アラート、マーケティングの同意の対象とならない） <br/><br/>**使用可能なチャネル**<br/> メール、SMS、プッシュ通知"
+>abstract="**Transactional API トリガーキャンペーン**<br/> API 呼び出しを使用したリアルタイムメッセージのトリガー&#x200B;<br/><br/>**マーケティングメッセージ**<br/>&#x200B;プロモーションコンテンツ（オプトインが必要、ビジネスルールの対象となる）<br/><br/>**トランザクションメッセージ**<br/>&#x200B;サービス関連コンテンツ（確認、アラート、マーケティングの同意の対象とならない）<br/><br/>**使用できるチャネル**<br/>&#x200B;メール、SMS、プッシュ通知"
 
 ## API トリガーキャンペーンについて {#about}
 
-API トリガーキャンペーンを使用すると、マーケティングコミュニケーションが適切なタイミングでオーディエンスに到達したり、トランザクションメッセージ/操作メッセージがパスワードリセットなどの個人に到達したりできます。この場合、プロファイル属性だけでなく、REST API ペイロードであるトリガー内のリアルタイムコンテキストデータを使用したパーソナライゼーションが必要になる可能性があります。
+API トリガーキャンペーンを使用すると、適切なタイミングでオーディエンスにリーチするマーケティング通信や、パスワードのリセットなどの個人に対するトランザクション／運用メッセージが可能になります。これらの場合、プロファイル属性だけでなく、REST API ペイロードであるトリガー内のリアルタイムコンテキストデータも使用したパーソナライゼーションが必要になる可能性があります。
 
-これを行うには、まずJourney Optimizerで API トリガーキャンペーンを作成し、次に [ インタラクティブメッセージ実行 REST API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution) を使用して、API 呼び出しを通じてその実行を開始する必要があります。
+それには、まず Journey Optimizer で API トリガーキャンペーンを作成し、次に [Interactive Message Execution REST API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution) を使用して、API 呼び出しを通じてその実行を開始する必要があります。
 
 API トリガー型キャンペーンで使用できるチャネルは、メール、SMS およびプッシュメッセージです。
 
-➡️ [この機能について詳しくは、ビデオを参照してください](#video)
+➡️ [この機能について詳しくは、ビデオを参照してください](#video)。
 
-## API トリガーキャンペーンを作成するための主な手順 {#steps}
+## API トリガーキャンペーン作成の主な手順 {#steps}
 
 1. [キャンペーンのプロパティの定義](api-triggered-campaign-properties.md)
 1. [キャンペーンアクションの設定](api-triggered-campaign-action.md)
@@ -46,6 +46,6 @@ API トリガー型キャンペーンで使用できるチャネルは、メー�
 
 ## チュートリアルビデオ {#video}
 
-インタラクティブメッセージ実行 REST API を使用して、キャンペーンを作成し、ユーザーインタラクションに基づいて外部システムからキャンペーンをトリガーする方法について説明します。
+Interactive Message Execution REST API を使用して、キャンペーンを作成し、ユーザーインタラクションに基づいて外部システムからキャンペーンをトリガーする方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452726?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)
