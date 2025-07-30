@@ -199,4 +199,4 @@ ht-degree: 96%
 
 [!DNL Adobe Journey Optimizer] で追加識別子を有効にして適用する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3464793?quality=12&captions=jpn)
