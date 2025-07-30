@@ -11,7 +11,7 @@ mini-toc-levels: 1
 keywords: 作成, Optimizer, キャンペーン, サーフェス, メッセージ
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: 15f5fdfde0e9f7c93739a624918838dbd6787833
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '139'
 ht-degree: 100%
 
@@ -44,4 +44,4 @@ ht-degree: 100%
 
 アクションキャンペーンの作成方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3412405?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)

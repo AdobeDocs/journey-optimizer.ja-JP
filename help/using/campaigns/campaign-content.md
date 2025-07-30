@@ -2,20 +2,20 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: アクションキャンペーンコンテンツの編集
-description: アクションキャンペーンのコンテンツを編集する方法を説明します。
+description: アクションキャンペーンコンテンツの編集方法について説明します。
 feature: Campaigns
 topic: Content Management
 role: User
 level: Beginner
 mini-toc-levels: 1
 keywords: 作成, Optimizer, キャンペーン, サーフェス, メッセージ
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
-workflow-type: tm+mt
+exl-id: bcb7a5e4-440d-4548-b305-c320bafe6ee7
+source-git-commit: 45c95d5682b35c8afb161b75c88942c010b36d1c
+workflow-type: ht
 source-wordcount: '162'
-ht-degree: 58%
+ht-degree: 100%
 
 ---
-
 
 # アクションキャンペーンコンテンツの編集 {#action-campaign-content}
 
@@ -25,7 +25,7 @@ ht-degree: 58%
 
 ## コンテンツのデザイン
 
-コンテンツの作成プロセスは、選択したチャネルによって異なります。 メッセージコンテンツを作成する詳細な手順については、次のページを参照してください。
+コンテンツの作成プロセスは、選択したチャネルによって異なります。メッセージコンテンツを作成する詳細な手順については、次のページを参照してください。
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><a href="../email/create-email.md"><img alt="メール" src="../channels/assets/do-not-localize/email.png"></a>
@@ -51,7 +51,7 @@ ht-degree: 58%
 
 ## コンテンツのテストとチェック
 
-コンテンツを定義したら、「**[!UICONTROL コンテンツをシミュレート]**」ボタンを使用して、CSV／JSON ファイルからアップロードした、または手動で追加したテストプロファイルやサンプル入力データを使用して、そのコンテンツをプレビューおよびテストします。[コンテンツのプレビューとテストの方法について学ぶ](../content-management/preview-test.md)
+コンテンツを定義したら、「**[!UICONTROL コンテンツをシミュレート]**」ボタンを使用して、CSV／JSON ファイルからアップロードした、または手動で追加したテストプロファイルやサンプル入力データを使用して、そのコンテンツをプレビューおよびテストします。[詳しくは、コンテンツのプレビューとテストの方法を参照してください](../content-management/preview-test.md)。
 
 キャンペーン作成画面に戻るには、左向き矢印をクリックします。
 
@@ -59,4 +59,4 @@ ht-degree: 58%
 
 ## 次の手順 {#next}
 
-アクションキャンペーンのコンテンツの準備が整ったら、キャンペーンオーディエンスを定義できます。 [詳細情報](campaign-audience.md)
+アクションキャンペーンのコンテンツの準備が整ったら、キャンペーンオーディエンスを定義できます。[詳細情報](campaign-audience.md)

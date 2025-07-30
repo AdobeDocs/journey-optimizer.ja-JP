@@ -2,19 +2,19 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: API トリガーキャンペーンコンテンツの編集
-description: API トリガーキャンペーンコンテンツの編集方法を説明します。
+description: API トリガーキャンペーンコンテンツの編集方法について説明します。
 feature: Campaigns, API
 topic: Content Management
 role: Developer
 level: Experienced
 keywords: キャンペーン, API トリガー, REST, Optimizer, メッセージ
-source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
-workflow-type: tm+mt
+exl-id: b7f12c65-c1af-4c49-b126-c13a51940a43
+source-git-commit: 45c95d5682b35c8afb161b75c88942c010b36d1c
+workflow-type: ht
 source-wordcount: '385'
-ht-degree: 62%
+ht-degree: 100%
 
 ---
-
 
 # API トリガーキャンペーンコンテンツの編集 {#api-content}
 
@@ -24,7 +24,7 @@ ht-degree: 62%
 
 ## コンテンツのデザイン {#design}
 
-コンテンツの作成プロセスは、選択したチャネルによって異なります。 メッセージコンテンツを作成する詳細な手順については、次のページを参照してください。
+コンテンツの作成プロセスは、選択したチャネルによって異なります。メッセージコンテンツを作成する詳細な手順については、次のページを参照してください。
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><a href="../email/create-email.md"><img alt="メール" src="../channels/assets/do-not-localize/email.png"></a>
@@ -37,29 +37,29 @@ ht-degree: 62%
 
 ## コンテキストデータを使用したコンテンツのパーソナライズ {#contextual}
 
-追加のデータを API ペイロードに渡して、メッセージのパーソナライズに利用できます。
+メッセージをパーソナライズするのに活用できる追加データを API ペイロードに渡すことができます。
 
 この例では、パスワードのリセットを希望する顧客に、サードパーティツールで生成されるパスワードリセット URL を送信するとします。API トリガー型キャンペーンを使用すると、生成されたこの URL を API ペイロードに渡し、キャンペーンに活用してメッセージに追加できます。
 
-これを行うには、それらを API ペイロードに渡し、パーソナライゼーションエディターを使用してメッセージに追加する必要があります。 `{{context.<contextualAttribute>}}` の構文を使用します。ここで、`<contextualAttribute>` は、渡すデータを含んだ API ペイロード内の変数の名前と一致する必要があります。
+それには、これらのデータを API ペイロードに渡し、パーソナライゼーションエディターを使用してメッセージに追加する必要があります。`{{context.<contextualAttribute>}}` 構文を使用します。ここで、`<contextualAttribute>` は、渡すデータを含んだ API ペイロード内の変数の名前と一致する必要があります。
 
 なお、現時点では、左側のパネルメニューで使用できるコンテキスト属性はありません。 属性はパーソナライゼーション式に直接入力する必要がありますが、[!DNL Journey Optimizer] によるチェックは行われません。
 
 ![](assets/api-triggered-context.png)
 
-**読む必要があります**
+**必読**
 
 * リクエストに渡すコンテキスト属性は 200 KB を超えることはできず、常に文字列タイプと見なされます。
-* `context.system` 構文はアドビ内部での使用のみに制限されているので、コンテキスト属性を渡すために使用しないでください。
+* `context.system` 構文はアドビ内部での使用のみに制限されているので、コンテキスト属性を渡すには使用しないでください。
 * プロファイル対応のイベントとは異なり、REST API で渡されるコンテキストデータは、1 回限りの通信に使用され、プロファイルに対しては保存されません。プロファイルが見つからなかった場合、名前空間の詳細を最大限に使用してプロファイルが作成されます。
 * コンテンツで多数または大量のコンテキストデータを使用すると、パフォーマンスに影響を与える可能性があります。
 
 ## コンテンツのテストとチェック
 
-コンテンツを定義したら、「**[!UICONTROL コンテンツをシミュレート]**」ボタンを使用して、CSV／JSON ファイルからアップロードした、または手動で追加したテストプロファイルやサンプル入力データを使用して、そのコンテンツをプレビューおよびテストします。[ コンテンツのプレビューとテストの方法を説明します ](../content-management/preview-test.md)。 キャンペーン作成画面に戻るには、左向き矢印をクリックします。
+コンテンツを定義したら、「**[!UICONTROL コンテンツをシミュレート]**」ボタンを使用して、CSV／JSON ファイルからアップロードした、または手動で追加したテストプロファイルやサンプル入力データを使用して、そのコンテンツをプレビューおよびテストします。[詳しくは、コンテンツのプレビューとテストの方法を参照してください](../content-management/preview-test.md)。キャンペーン作成画面に戻るには、左向き矢印をクリックします。
 
 ![](assets/create-campaign-design.png)
 
 ## 次の手順 {#next}
 
-キャンペーンの設定とコンテンツの準備が整ったら、キャンペーンオーディエンスを定義できます。 [詳細情報](api-triggered-campaign-audience.md)
+キャンペーンの設定とコンテンツの準備が整ったら、キャンペーンオーディエンスを定義できます。[詳細情報](api-triggered-campaign-audience.md)

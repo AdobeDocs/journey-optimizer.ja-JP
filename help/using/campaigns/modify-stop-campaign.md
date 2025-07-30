@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: キャンペーンへのアクセスと管理
-description: Journey Optimizerでキャンペーンにアクセスして管理する方法を説明します。
+description: Journey Optimizer でキャンペーンにアクセスして管理する方法について説明します。
 feature: Campaigns
 topic: Content Management
 role: User
@@ -10,9 +10,9 @@ level: Beginner
 keywords: キャンペーンの管理, ステータス, スケジュール, アクセス, Optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 source-git-commit: 1bdba8c5c1a9238d351b159551f6d3924935b339
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '879'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -29,17 +29,17 @@ ht-degree: 81%
 
 >[!BEGINTABS]
 
->[!TAB  アクションキャンペーン ]
+>[!TAB アクションキャンペーン]
 
-**[!UICONTROL アクション]** タブを選択して、アクションキャンペーンのリストにアクセスします。
+「**[!UICONTROL アクション]**」タブを選択して、アクションキャンペーンのリストにアクセスします。
 
 デフォルトでは、リストには&#x200B;**[!UICONTROL ドラフト]**、**[!UICONTROL スケジュール済み]**、**[!UICONTROL ライブ]**&#x200B;ステータスのすべてのキャンペーンが表示されます。停止、完了およびアーカイブされたキャンペーンを表示するには、フィルターをクリアする必要があります。
 
 ![](assets/create-campaign-list.png)
 
->[!TAB API トリガーキャンペーン ]
+>[!TAB API トリガーキャンペーン]
 
-**[!UICONTROL API トリガー]** タブを選択して、API トリガーキャンペーンのリストにアクセスします。
+「**[!UICONTROL API トリガー]**」タブを選択して、API トリガーキャンペーンのリストにアクセスします。
 
 デフォルトでは、リストには&#x200B;**[!UICONTROL ドラフト]**、**[!UICONTROL スケジュール済み]**、**[!UICONTROL ライブ]**&#x200B;ステータスのすべてのキャンペーンが表示されます。停止、完了およびアーカイブされたキャンペーンを表示するには、フィルターをクリアする必要があります。
 
@@ -84,10 +84,10 @@ ht-degree: 81%
 * **[!UICONTROL ドラフト]**：キャンペーンは編集中で、アクティブ化されていません。
 * **[!UICONTROL スケジュール済み]**：キャンペーンは、特定の開始日にアクティブ化されるように設定されています。
 * **[!UICONTROL ライブ]**：キャンペーンはアクティブ化されています。
-* **[!UICONTROL レビュー中]**：キャンペーンは公開用に送信されています。 [ 承認の操作方法については、こちらを参照してください ](../test-approve/gs-approval.md)
+* **[!UICONTROL レビュー中]**：キャンペーンは、公開するために承認用に送信されています。[詳しくは、承認の操作方法を参照してください](../test-approve/gs-approval.md)。
 * **[!UICONTROL 停止]**：キャンペーンは手動で停止されました。この設定になっている場合は、それ以上アクティブ化したり再利用したりすることはできません。[キャンペーンの停止方法を学ぶ](modify-stop-campaign.md#stop)
 * **[!UICONTROL 完了]**：キャンペーンは完了しています。このステータスは、キャンペーンがアクティブ化されてから 3 日後に、またはキャンペーンが繰り返し実行される設定になっている場合はキャンペーンの終了日に、自動的に割り当てられます。
-* **[!UICONTROL 失敗]**：キャンペーンの実行に失敗しました。 ログを確認して問題を特定します。
+* **[!UICONTROL 失敗]**：キャンペーンの実行に失敗しました。ログを確認して、問題を特定します。
 * **[!UICONTROL アーカイブ済み]**：キャンペーンはアーカイブされています。[キャンペーンのアーカイブ方法を学ぶ](modify-stop-campaign.md#archive)
 
 >[!NOTE]
@@ -132,7 +132,7 @@ ht-degree: 81%
 
 ## キャンペーンの複製 {#duplicate}
 
-キャンペーンを複製して、新しいキャンペーンを作成できます。 これを行うには、キャンペーンを開き、「**[!UICONTROL 複製]**」をクリックします。
+キャンペーンを複製して、新しいキャンペーンを作成できます。これを行うには、キャンペーンを開き、「**[!UICONTROL 複製]**」をクリックします。
 
 ![](assets/create-campaign-duplicate.png)
 
