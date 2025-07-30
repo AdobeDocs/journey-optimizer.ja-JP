@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c6896c02778ec637570f286a9487220995000bf9
+source-git-commit: 45870255078af7b374cf4a63f72bc94d53581bcb
 workflow-type: tm+mt
 source-wordcount: '1888'
 ht-degree: 72%
@@ -28,7 +28,7 @@ ht-degree: 72%
 <!--
 **Pre release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 **リリース日**：2025年7月29日（PT）
 
@@ -200,7 +200,7 @@ For more information, refer to the <a href="../FILE.md">detailed documentation</
 <td>
 <p>You can now trigger journeys using a profile ID along with another identifier, such as an order ID, subscription ID, or prescription ID, allowing the same profile to be in the same journey multiple times at once. This enables scenarios like managing multiple orders or subscriptions in parallel, with each instance following its own path through the journey.</p>
 <p>Previously released in Limited Availability, the use of supplemental IDs in journeys is now available to all environments. With this General Availability release, the feature now includes support for Read audience journeys.</p>
-<p><img src="assets/do-not-localize/FILE.gif"/></p>
+<p><img src="assets/do-not-localize/gif-supplemental.gif"/></p>
 <p>For more information, refer to the <a href="../building-journeys/supplemental-identifier.md">detailed documentation</a></p>
 </td>
 </tr>
@@ -268,7 +268,7 @@ For more information, refer to the <a href="../FILE.md">detailed documentation</
 
 **リリース日**：2025年6月18日（PT）
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新機能 {#25-06-features}
 
