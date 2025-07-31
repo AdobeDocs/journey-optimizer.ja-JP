@@ -11,10 +11,10 @@ keywords: サブドメイン, デリゲーション, ドメイン, DNS
 hide: true
 hidefromtoc: true
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: 7854de133ebcd3b29ca59b747aa89fae242f2ea5
+source-git-commit: 0490045a763876d3518e3db92e8427691044f6aa
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 30%
+source-wordcount: '748'
+ht-degree: 29%
 
 ---
 
@@ -88,6 +88,10 @@ ht-degree: 30%
 1. 「**[!UICONTROL CSR をダウンロード]**」をクリックして、フォームをローカルコンピューターに保存します。 これを認証局に送信して、SSL 証明書を取得します。
 
 1. 取得したら、「**[!UICONTROL SSL 証明書をアップロード]**」をクリックし、証明書を.pem 形式でアップロード [!DNL Journey Optimizer] ます。
+
+   >[!CAUTION]
+   >
+   >データと CDN サブドメインの両方が同じ証明書に含まれている必要があります。
 
 ## フィードバックループの手順の完了 {#feedback-loop-steps}
 
