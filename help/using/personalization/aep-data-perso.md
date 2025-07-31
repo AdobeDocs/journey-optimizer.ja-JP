@@ -10,9 +10,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 式, エディター
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
-workflow-type: ht
-source-wordcount: '849'
+source-git-commit: 07e855b1a334a226c34223e5dd034f88733d6e2e
+workflow-type: tm+mt
+source-wordcount: '779'
 ht-degree: 100%
 
 ---
@@ -33,21 +33,6 @@ Journey Optimizer を使用すると、パーソナライゼーションエデ�
 
 * **サポートされているチャネル**：現時点では、この機能は、メール、SMS およびダイレクトメールチャネル内でのみ使用できます。
 * **フラグメント**：現時点では、データセット参照のパーソナライゼーションを式フラグメントやビジュアルフラグメント内に配置できません。
-
-### 決定 {#decisioning}
-
-エクスペリエンス決定のランキング式とルールで [!DNL Adobe Experience Platform] データセットを活用する機能は、近日リリース予定です。
-
-それまでの間、以下に説明する現在のガードレールを確認してください。
-
-* 決定ポリシーは、3 つのデータセットに制限されています。
-* 決定ルールでは、3 つのデータセットを使用できます。
-* ランキング式では、3 つのデータセットを使用できます。
-* 決定ポリシーは、1000 個のレコードクエリに制限されています。
-
->[!NOTE]
->
->この機能へのアクセス権をご希望の場合は、アカウント担当者にお問い合わせください
 
 ## データ参照用データセットの有効化 {#enable}
 
