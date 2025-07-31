@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a9f9d8af-c762-4038-8bbc-bbd519e0ef3a
-source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
-workflow-type: ht
-source-wordcount: '1608'
-ht-degree: 100%
+source-git-commit: 1f7fd3468d85852931c6a753c2363ebe5a293b33
+workflow-type: tm+mt
+source-wordcount: '1759'
+ht-degree: 89%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 >[!IMPORTANT]
 >
 >この機能の使用を開始する前に、関連する[ガードレールと制限](gs-generative.md#generative-guardrails)のトピックに目を通してください。
-></br>
+>></br>
 >
 >Journey Optimizer で AI アシスタントを使用する前に、[ユーザー契約](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)に同意する必要があります。詳しくは、アドビ担当者にお問い合わせください。
 
@@ -86,7 +86,15 @@ Journey Optimizer で AI アシスタントを使用する方法については�
 
 1. プロンプトの準備が整ったら、「**[!UICONTROL 生成]**」をクリックします。
 
-1. 生成された&#x200B;**[!UICONTROL バリエーション]**&#x200B;を参照し、「**[!UICONTROL プレビュー]**」をクリックして、選択したバリエーションのフルスクリーンバージョンを表示します。
+1. 生成された&#x200B;**[!UICONTROL バリエーション]**&#x200B;を参照します。
+
+   **[!UICONTROL プレビュー]** をクリックして選択したバリエーションの全画面表示バージョンを表示するか、**[!UICONTROL 適用]** をクリックして現在のコンテンツを置き換えます。
+
+1. パーセンテージアイコンをクリックして **[!UICONTROL ブランドの整合性スコア]** を表示し、ブランドとの不一致を識別します。
+
+   詳しくは、[ ブランドの整合性スコア ](brands-score.md) を参照してください。
+
+   ![](assets/push-genai-full-4.png){zoomable="yes"}
 
 1. **[!UICONTROL プレビュー]**&#x200B;ウィンドウ内の「**[!UICONTROL 絞り込み]**」オプションに移動して、追加のカスタマイズ機能にアクセスします。
 
@@ -98,7 +106,9 @@ Journey Optimizer で AI アシスタントを使用する方法については�
 
    または、テキストの&#x200B;**[!UICONTROL トーン]**&#x200B;や&#x200B;**[!UICONTROL コミュニケーション戦略]**&#x200B;を変更することもできます。
 
-   ![](assets/push-genai-full-4.png){zoomable="yes"}
+   ![](assets/push-genai-full-6.png){zoomable="yes"}
+
+1. 「**[!UICONTROL ブランドの関連付け]**」タブを開き、コンテンツが [ ブランドのガイドライン ](brands.md) にどのように関連付けられているかを確認します。
 
 1. 適切なコンテンツが見つかったら、「**[!UICONTROL 選択]**」をクリックします。
 
@@ -151,6 +161,14 @@ Journey Optimizer で AI アシスタントを使用する方法については�
 
 1. プロンプトの準備が整ったら、「**[!UICONTROL 生成]**」をクリックします。
 
+1. 生成された&#x200B;**[!UICONTROL バリエーション]**&#x200B;を参照します。
+
+1. パーセンテージアイコンをクリックして **[!UICONTROL ブランドの整合性スコア]** を表示し、ブランドとの不一致を識別します。
+
+   詳しくは、[ ブランドの整合性スコア ](brands-score.md) を参照してください。
+
+   ![](assets/push-genai-5.png){zoomable="yes"}
+
 1. **[!UICONTROL プレビュー]**&#x200B;ウィンドウ内の「**[!UICONTROL 絞り込み]**」オプションに移動して、追加のカスタマイズ機能にアクセスします。
 
    * **[!UICONTROL 参照コンテンツとして使用]**：選択したバリアントは、他の結果を生成するための参照コンテンツとして機能します。
@@ -159,13 +177,15 @@ Journey Optimizer で AI アシスタントを使用する方法については�
 
    * **[!UICONTROL 要約]**：情報が長すぎると、受信者が過負荷になる可能性があります。AI アシスタントを使用して、重要なポイントを明確かつ簡潔な概要に要約し、注意を引いてさらに読むよう促します。
 
-   * **[!UICONTROL 言い換え]**：AI アシスタントは、メッセージを様々な方法で言い換えることができ、ユーザーが作成した文章を多様なオーディエンスにとって新鮮で魅力的なメッセージにします。
+   * **[!UICONTROL フレーズ変更 ]**:TheAI アシスタントは、さまざまな方法でメッセージをフレーズ変更できるので、多様なオーディエンスにとって魅力的で斬新な文章を維持できます。
 
    * **[!UICONTROL よりシンプルな言葉を使用]**：AI アシスタントを活用して言葉を簡素化し、より幅広いオーディエンスに対して明確さとアクセシビリティを確保します。
 
    または、テキストの&#x200B;**[!UICONTROL トーン]**&#x200B;や&#x200B;**[!UICONTROL コミュニケーション戦略]**&#x200B;を変更することもできます。
 
-   ![](assets/push-genai-5.png){zoomable="yes"}
+   ![](assets/push-genai-6.png){zoomable="yes"}
+
+1. 「**[!UICONTROL ブランドの関連付け]**」タブを開き、コンテンツが [ ブランドのガイドライン ](brands.md) にどのように関連付けられているかを確認します。
 
 1. 適切なコンテンツが見つかったら、「**[!UICONTROL 選択]**」をクリックします。
 
@@ -187,7 +207,7 @@ Journey Optimizer で AI アシスタントを使用する方法については�
 
 1. **[!UICONTROL メディアを追加]**&#x200B;メニューにアクセスします。
 
-   ![](assets/push-gen-img.png){zoomable="yes"}
+   ![](assets/push-gen-img-1.png){zoomable="yes"}
 
 1. AI アシスタントの「**[!UICONTROL 参照スタイル]**」オプションを有効にして、参照コンテンツに基づいて新しいコンテンツをパーソナライズします。また、画像をアップロードして、バリエーションにコンテキストを追加することもできます。
 
@@ -199,7 +219,7 @@ Journey Optimizer で AI アシスタントを使用する方法については�
 
    プロンプトの作成に関するサポートが必要な場合は、キャンペーンを改善するための様々なプロンプトのアイデアを提供する&#x200B;**[!UICONTROL プロンプトライブラリ]**&#x200B;にアクセスしてください。
 
-   ![](assets/push-gen-img-1.png){zoomable="yes"}
+   ![](assets/push-gen-img.png){zoomable="yes"}
 
 1. 「**[!UICONTROL 画像設定]**」を選択します。
 
@@ -217,9 +237,22 @@ Journey Optimizer で AI アシスタントを使用する方法については�
 
 1. 生成された&#x200B;**[!UICONTROL バリエーション]**&#x200B;を参照します。
 
+1. パーセンテージアイコンをクリックして **[!UICONTROL ブランドの整合性スコア]** を表示し、ブランドとの不一致を識別します。
+
+   詳しくは、[ ブランドの整合性スコア ](brands-score.md) を参照してください。
+
+1. **[!UICONTROL プレビュー]**&#x200B;ウィンドウ内の「**[!UICONTROL 絞り込み]**」オプションに移動して、追加のカスタマイズ機能にアクセスします。
+
+   * このバリアントに関連する画像を表示するには、「**[!UICONTROL 類似を生成]**」をクリックします。
+   * **[!UICONTROL Adobe Expressで編集]** して、アセットをさらにカスタマイズします。
+
+[Adobe Expressの統合について詳しくはこちらを参照](../integrations/express.md)
+
+   * 後でアクセスできるようにアセットを保存するには、「**[!UICONTROL 保存]**」をクリックします。
+
    ![](assets/push-gen-img-2.png){zoomable="yes"}
 
-1. 「**[!UICONTROL 類似を生成]**」を選択すると、現在のオプションによく一致する画像のバリエーションを表示し、一貫性のあるテーマを持つ代替デザインを提供します。
+1. 「**[!UICONTROL ブランドの関連付け]**」タブを開き、コンテンツが [ ブランドのガイドライン ](brands.md) にどのように関連付けられているかを確認します。
 
 1. 適切なコンテンツが見つかったら、「**[!UICONTROL 選択]**」をクリックします。
 

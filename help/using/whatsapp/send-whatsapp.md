@@ -7,28 +7,15 @@ feature: Whatsapp
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 exl-id: 31acb095-de90-495f-8e8c-43a78dedfa06
-source-git-commit: 7f507dc0113e85191429c2c48b873112b590e3ce
-workflow-type: ht
-source-wordcount: '265'
+source-git-commit: 623d9b15d1f7f4e7f73f26cf3e19516bed4c0f56
+workflow-type: tm+mt
+source-wordcount: '242'
 ht-degree: 100%
 
 ---
 
 # WhatsApp メッセージの確認および送信 {#send-whatsapp}
-
->[!BEGINSHADEBOX]
-
-**目次**
-
-* [WhatsApp メッセージの基本を学ぶ](get-started-whatsapp.md)
-* [WhatsApp 設定の基本を学ぶ](whatsapp-configuration.md)
-* [WhatsApp メッセージの作成](create-whatsapp.md)
-* **[WhatsApp メッセージの確認および送信](send-whatsapp.md)**
-
->[!ENDSHADEBOX]
 
 ## WhatsApp メッセージのプレビュー {#preview-whatsapp}
 

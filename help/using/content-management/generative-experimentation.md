@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c47af613-0529-4922-bd0d-5ef4cc619305
-source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
-workflow-type: ht
-source-wordcount: '249'
-ht-degree: 100%
+source-git-commit: 1f7fd3468d85852931c6a753c2363ebe5a293b33
+workflow-type: tm+mt
+source-wordcount: '247'
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 >[!IMPORTANT]
 >
 >この機能の使用を開始する前に、関連する[ガードレールと制限](gs-generative.md#generative-guardrails)のトピックに目を通してください。
-></br>
+>></br>
 >
 >Journey Optimizer で AI アシスタントを使用する前に、[ユーザー契約](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)に同意する必要があります。詳しくは、アドビ担当者にお問い合わせください。
 
@@ -44,9 +44,7 @@ ht-degree: 100%
 
    ![](assets/experiment-genai-3.png)
 
-1. コンテンツ実験ウィンドウから「**[!UICONTROL 実験の設定]**」ボタンにアクセスして、実験を設定します。[コンテンツ実験についての詳細情報](../content-management/content-experiment.md)
-
-   ![](assets/experiment-genai-4.png)
+1. これで、コンテンツ実験から、コンテンツ実験の設定を開始できます。 [コンテンツ実験についての詳細情報](../content-management/content-experiment.md)
 
 1. コンテンツ実験の準備が整ったら、キャンペーンの概要ページで「**[!UICONTROL アクティブ化するレビュー]**」をクリックして、キャンペーンの概要を表示できます。パラメーターが正しくないか見つからない場合は、警告が表示されます。[詳細情報](../content-management/content-experiment.md#treatment-experiment)
 

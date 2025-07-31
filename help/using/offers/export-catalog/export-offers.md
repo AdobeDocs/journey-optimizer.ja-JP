@@ -7,10 +7,10 @@ topic: Integrations
 role: User, Data Engineer
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: ht
-source-wordcount: '1963'
-ht-degree: 100%
+source-git-commit: 2a5591617838e76e9cae99c0f97e8aff59311a69
+workflow-type: tm+mt
+source-wordcount: '1950'
+ht-degree: 95%
 
 ---
 
@@ -18,14 +18,14 @@ ht-degree: 100%
 
 オファーを変更するたびに、パーソナライズされたコンテンツオファーの自動生成データセットが更新されます。
 
-![](../assets/dataset-offers.png)
-
 正常に更新された、データセットの最新のバッチが右側に表示されます。データセットのスキーマの階層ビューが左側のペインに表示されます。
 
 
+![](../assets/dataset-offers.png)
+
 >[!NOTE]
 >
->[この節](../export-catalog/access-dataset.md)では、オファーライブラリの各オブジェクト用に書き出されたデータセットにアクセスする方法を説明します。
+>削除されたパーソナライズされたオファーは、データセットでアーカイブ済みとしてマークされます。
 
 次に、**[!UICONTROL 決定オブジェクトリポジトリ（パーソナライズされたオファー）]**&#x200B;データセットで使用できるすべてのフィールドのリストを示します。
 
@@ -97,7 +97,7 @@ ht-degree: 100%
 +++_experience > decisioning > contents > components
 
 **フィールド：**components
-**説明：**&#x200B;決定オプションを表すコンテンツの構成要素（すべての言語のバリアントも含む）。特定のコンポーネントを見つけるには、「dx:format」、「dc:subject」、「dc:language」、またはこれらの組み合わせを使用します。このメタデータは、オファーに関するコンテンツを見つける場合や表す場合に使用され、プレースメント契約に従って統合します。**型：**配列
+**説明：**&#x200B;決定オプションを表すコンテンツの構成要素（すべての言語のバリアントも含む）。特定のコンポーネントは、「dx:format」、「dc:subject」、「dc:language」またはその組み合わせで見つかります。 このメタデータは、オファーに関するコンテンツを見つける場合や表す場合に使用され、プレースメント契約に従って統合します。**型：**配列
 **必須：**&quot;_type&quot;, &quot;_dc&quot;<!--TBC?-->
 
 * **_experience > decisioning > contents > components > Content Component Type**
@@ -136,20 +136,20 @@ ht-degree: 100%
    * **id**
 
      **フィールド：** id
-     **説明：**コンテンツリポジトリー内のアセットを参照する一意の識別子（オプション）。Platform API を使用して表示域を取得する場合、クライアントは追加のプロパティ「repo:resolveUrl」を要求してアセットを取得できます。
+     **説明：**&#x200B;コンテンツリポジトリー内のアセットを参照する一意の識別子（オプション）。Platform API を使用して表示域を取得する場合、クライアントはアセットを取得する追加のプロパティ\&quot;repo:resolveUrl\&quot;を想定することがあります。
      **タイプ：**文字列
      **例：** &quot;urn:aaid:sc:US:6dc33479-13ca-4b19-b25d-c805eff8a69e&quot;
 
    * **名前**
 
      **フィールド：** name
-     **説明：**\&quot;repo:id\&quot; によって外部アセットを保存するリポジトリの場所に関するヒント。
+     **説明：**\&quot;repo:id\&quot;によって外部アセットを保存するリポジトリの場所に関するヒント。
      **タイプ：**&#x200B;文字列
 
    * **repositoryID**
 
      **フィールド：** repositoryID
-     **説明：** コンテンツリポジトリー内のアセットを参照する一意の識別子（オプション）。Platform API を使用して表示域を取得する場合、クライアントは追加のプロパティ「repo:resolveUrl」を要求してアセットを取得できます。
+     **説明：** コンテンツリポジトリー内のアセットを参照する一意の識別子（オプション）。Platform API を使用して表示域を取得する場合、クライアントはアセットを取得する追加のプロパティ\&quot;repo:resolveUrl\&quot;を想定することがあります。
      **タイプ：**文字列
      **例：**&quot;C87932A55B06F7070A49412D@AdobeOrg&quot;
 

@@ -3,14 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: ブランドの管理
 description: ブランドガイドラインを作成および管理する方法について説明します。
-badge: label="ベータ版" type="Informative"
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: b1b7abbe-8600-4a8d-b0b5-0dbd49abc275
-source-git-commit: f9266d01610b92d8a55be8263da6bb808b3cc8ff
-workflow-type: ht
-source-wordcount: '1471'
+source-git-commit: 0a3e8a0eba6eaac125f508b8b81e2fab992eb978
+workflow-type: tm+mt
+source-wordcount: '1451'
 ht-degree: 100%
 
 ---
@@ -33,8 +32,6 @@ ht-degree: 100%
 >abstract="ブランドを選択して、一貫性とブランドの整合性を維持しながら、コンテンツが特定のガイドライン、標準、アイデンティティに合わせて作成されるようにします。"
 
 >[!AVAILABILITY]
->
->この機能は、Private Beta として使用可能です。今後のリリースで、すべてのお客様が段階的に利用できるようになる予定です。
 >
 >Adobe Journey Optimizer で AI アシスタントを使用する前に、[ユーザー契約](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}に同意する必要があります。詳しくは、アドビ担当者にお問い合わせください。
 
