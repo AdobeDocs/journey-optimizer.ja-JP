@@ -10,9 +10,9 @@ role: Data Engineer
 level: Intermediate
 keywords: 式, エディター
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
-workflow-type: ht
-source-wordcount: '838'
+source-git-commit: cf700f4097883c875c74196317f6494f74f9bc7c
+workflow-type: tm+mt
+source-wordcount: '836'
 ht-degree: 100%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 [!DNL Journey Optimizer] を使用すると、決定に [!DNL Adobe Experience Platform] のデータを活用できます。これにより、決定属性の定義をデータセットの追加データに拡張し、属性を 1 つずつ手動で更新する必要がなく、定期的に変更される一括更新を行うことができます。例えば、可用性、待機時間などです。
 
-## ベータ版の制限事項とガイドライン {#guidelines}
+## ガードレールと制限 {#guidelines}
 
 開始する前に、次の制限事項とガイドラインに注意してください。
 
