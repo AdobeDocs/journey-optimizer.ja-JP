@@ -9,10 +9,10 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: サンドボックス, ジャーニー, コピー, 環境
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: c90189d4b064e00bd2f2bdde67230aeb84dd97f6
+source-git-commit: f8134fd1e030fb969747a37acd657f62fd398c75
 workflow-type: tm+mt
-source-wordcount: '1595'
-ht-degree: 80%
+source-wordcount: '1701'
+ht-degree: 75%
 
 ---
 
@@ -62,13 +62,8 @@ Journey Optimizerを使用すると、ジャーニー、カスタムアクショ
 
    * ジャーニーを別のサンドボックスにコピーする際に、インポートプロセス中にカスタムアクションに対して「既存を使用」を選択した場合、選択する既存のカスタムアクションはソースカスタムアクションと同じにする必要があります（例：同じ設定、パラメーターなど）。それ以外の場合は、新しいジャーニーのコピーにキャンバスで解決できないエラーが発生します。
 
-<!--* **Data sources, field groups and events** - When copying a journey that uses events, data sources, or field groups, the import process automatically checks whether components with the same name and type already exist in the target sandbox.
+* **データソース、フィールドグループ、イベント** - イベント、データソース、フィールドグループを使用するジャーニーをコピーする場合、インポートプロセスは、同じ名前とタイプを持つコンポーネントがターゲットサンドボックスに既に存在するかどうかを自動的に確認します。 例えば、単一イベントは、ターゲットサンドボックス内の同じ名前の単一イベントに置き換えられます。 同じことが、ビジネスイベント、カスタムデータソース、ジャーニーで使用される API ベースとスキーマベースの両方のフィールドグループに当てはまります。 ソースサンドボックスからの単一イベントの名前がビジネスイベントの宛先サンドボックスと同じ場合、コピーも作成もされません。これは、他のすべてのコンポーネントにも適用されます。
 
-   * If a match is found, the existing components in the target sandbox are reused by the imported journey.
-   * If no match is found, the system creates new components.
-
-   This ensures that journeys relying on these elements remain functional after import, with minimal manual adjustment.
--->
 +++
 
 +++ キャンペーン
