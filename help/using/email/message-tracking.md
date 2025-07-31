@@ -9,16 +9,20 @@ role: User
 level: Beginner, Intermediate
 keywords: リンク, トラッキング, 監視, メール
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: c3513c087a05f2258e00fd4d80fdb23bedfd9188
+source-git-commit: 65a6afddfbc53afb88c6e69449720ac67f8f8f39
 workflow-type: tm+mt
-source-wordcount: '1214'
-ht-degree: 98%
+source-wordcount: '1274'
+ht-degree: 92%
 
 ---
 
 # リンクの追加とメッセージのトラッキング {#tracking}
 
 [!DNL Journey Optimizer] を使用すると、受信者の行動を監視するために、コンテンツにリンクを追加し送信済みメッセージをトラッキングすることができます。
+
+>[!NOTE]
+>
+>リンクがコンテンツに含まれている場合、メッセージが送信されてから **25 か月** が期限切れになります。ただし、ミラーページへのリンクは **90 日** が経過すると期限切れになります。 その遅延が経過すると、リンクは使用できなくなります。
 
 ## トラッキングの有効化 {#enable-tracking}
 
@@ -79,7 +83,7 @@ ht-degree: 98%
    >
    >URL を解釈する場合、[!DNL Journey Optimizer] は URI 構文（[RFC 3986 標準](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"}）に準拠しており、URL 内の一部の特殊な国際文字が無効になります。配達確認またはメールを送信しようとした際に、コンテンツに追加された URL に関するエラーが返された場合は、回避策として文字列を URL エンコードできます。
 
-1. リンクをパーソナライズできます。[詳細情報](../personalization/personalization-syntax.md#perso-urls)
+1. リンクをパーソナライズできます。[詳細情報](../personalization/personalization-build-expressions.md)
 
 1. 変更を保存します。
 
@@ -91,6 +95,7 @@ ht-degree: 98%
 >
 >マーケティングタイプの電子メールメッセージには、[オプトアウトリンク](../privacy/opt-out.md#opt-out-management)を含める必要があります。これはトランザクションメッセージには必要ありません。メッセージカテゴリ（**[!UICONTROL マーケティング]**&#x200B;または&#x200B;**[!UICONTROL トランザクション]**）は、メッセージの作成時に[チャネル設定](../configuration/channel-surfaces.md#email-type)に定義されます。
 
+メッセージが送信されると、リンクの保持期間は **25 か月** になります。 その遅延の後は、リンクは使用できなくなります。
 
 ## ミラーページへのリンク {#mirror-page}
 
@@ -104,7 +109,7 @@ Adobe Journey Optimizer で生成されるミラーページには、すべて�
 
 ミラーページが自動的に作成されます。メールが送信され、受信者がミラーページのリンクをクリックすると、メールの内容がデフォルトの web ブラウザーに表示されます。
 
-ミラーページの保持期間は **60 日**&#x200B;です。その後は、ミラーページを使用できなくなります。
+ミラーページの保持期間は **90 日**&#x200B;です。その後は、ミラーページを使用できなくなります。
 
 >[!CAUTION]
 >
@@ -178,7 +183,7 @@ Adobe Journey Optimizer で生成されるミラーページには、すべて�
 
 [URL トラッキング](email-settings.md#url-tracking)は設定レベルで管理され、メッセージコンテンツに含まれるすべての URL に適用されます。
 
-また、E メールデザイナーで[個々の URL をカスタマイズ](../personalization/personalization-syntax.md#perso-urls)することもできます。コンテンツ内の単一のリンクにパーソナライズした URL トラッキングパラメーターを追加するには、次の手順に従います。
+メールDesignerで個々の URL をパーソナライズすることもできます。 コンテンツ内の単一のリンクにパーソナライズした URL トラッキングパラメーターを追加するには、次の手順に従います。
 
 1. リンクを選択し、コンテキストツールバーの「**[!UICONTROL リンクを挿入]**」をクリックします。
 
@@ -186,7 +191,7 @@ Adobe Journey Optimizer で生成されるミラーページには、すべて�
 
    ![](assets/message-tracking-insert-link-perso.png)
 
-1. URL トラッキングパラメーターを追加し、パーソナライゼーションエディターから目的のプロファイル属性を選択します。
+1. URL トラッキングパラメーターを追加し、[ パーソナライゼーションエディター ](../personalization/personalization-build-expressions.md) から目的のプロファイル属性を選択します。
 
    ![](assets/message-tracking-perso-parameter.png)
 
