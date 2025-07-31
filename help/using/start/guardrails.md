@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 1a7ffacba9b90e2c018dde91814c7e321ba21135
+source-git-commit: bb3b07dc5dbb5ef50470caf52da2e10fcaf21a5e
 workflow-type: tm+mt
-source-wordcount: '2621'
-ht-degree: 93%
+source-wordcount: '2624'
+ht-degree: 92%
 
 ---
 
@@ -166,7 +166,7 @@ Journey Optimizerのサブドメインデリゲーションに適用されるガ
 
 次のガードレールがジャーニーの[イベント](../event/about-events.md)に適用されます。
 
-* Journey Optimizer では、1 秒あたり 5,000 件のインバウンドジャーニーイベントのピーク量をサポートします。
+* Journey Optimizerでは、各組織に対して、1 秒あたり 5,000 件のインバウンドジャーニーイベントのピーク量をサポートしています。
 * イベントトリガージャーニーでは、ジャーニーの最初のアクションを処理するのに最大 5 分かかる場合があります。
 * システム生成イベントの場合、まず Journey Optimizer 内でカスタマージャーニーの開始に使用するストリーミングデータを設定して、一意のオーケストレーション ID を取得する必要があります。このオーケストレーション ID は、Adobe Experience Platform に到達するストリーミングのペイロードに追加する必要があります。この制限は、ルールベースのイベントには適用されません。
 * ビジネスイベントは、単一イベントやオーディエンスの選定アクティビティと組み合わせて使用することはできません。
