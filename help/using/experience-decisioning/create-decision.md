@@ -118,7 +118,7 @@ Web サイトまたはモバイルアプリでメールの受信者と訪問者�
 
       ![](assets/decision-code-based-create.png)
 
-   +++
++++
 
    +++メールDesigner **[!UICONTROL 決定]** メニュー
 
@@ -128,7 +128,7 @@ Web サイトまたはモバイルアプリでメールの受信者と訪問者�
 
       ![](assets/decision-policy-email-designer.png)
 
-   +++
++++
 
 1. 名前を指定し、カタログを選択します（現在、デフォルトの **[!UICONTROL オファー]** カタログに限定されています）。
 
@@ -236,7 +236,7 @@ Web サイトまたはモバイルアプリでメールの受信者と訪問者�
 
      ランク付けされたオファーは、次のようになります。オファー 5 、オファー 3、オファー 4、オファー 2、オファー 1、オファー 6。
 
-   +++
++++
 
 1. 「**[!UICONTROL 次へ]**」をクリックします。
 
@@ -291,13 +291,13 @@ Web サイトまたはモバイルアプリでメールの受信者と訪問者�
 
    ![](assets/decision-policy-placement.png)
 
-   +++
++++
 
    +++コードベースのエクスペリエンスに決定ポリシーコードを挿入する
 
    ![](assets/decision-code-based-add-decision.png)
 
-   +++
++++
 
    >[!NOTE]
    >
@@ -314,7 +314,7 @@ Web サイトまたはモバイルアプリでメールの受信者と訪問者�
 >[!NOTE]
 >
 >決定ポリシー項目のトラッキングの場合、決定ポリシーのコンテンツに対して次のように `trackingToken` 属性を追加する必要があります。
->&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 1. 各フォルダーをクリックして展開します。目的の場所にマウスのカーソルを置き、追加する属性の横にある「+」アイコンをクリックします。必要な数の属性をコードに追加できます。
 
