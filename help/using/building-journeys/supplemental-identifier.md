@@ -1,38 +1,35 @@
 ---
-title: イベントトリガージャーニーの補足識別子
-description: イベントトリガージャーニーの補足識別子の使用方法について説明します。
-badge: label="限定提供" type="Informative"
+title: ジャーニーでの補足的な識別子の使用
+description: ジャーニーで追加の識別子を使用する方法を説明します。
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
-source-git-commit: 5e4297fb0e2d0b910c9fe102299162e8bb46a311
+source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 96%
+source-wordcount: '1157'
+ht-degree: 69%
 
 ---
 
-# イベントトリガージャーニーの補足識別子 {#supplemental-id}
+# ジャーニーでの補足的な識別子の使用 {#supplemental-id}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_parameters_supplemental_identifier"
 >title="補足識別子の使用"
 >abstract="補足識別子は、ジャーニーの実行に関する追加のコンテキストを指定するセカンダリ識別子です。定義するには、補足識別子として使用するフィールドを選択し、関連付ける名前空間を選択します。"
 
->[!AVAILABILITY]
->
->この機能は、一連の組織でのみ使用できます（限定提供）。アクセスするには、アドビ担当者にお問い合わせください。
-
-デフォルトでは、イベントトリガージャーニーは&#x200B;**プロファイル ID** のコンテキストで実行されます。つまり、特定のジャーニーでプロファイルがアクティブである限り、別のジャーニーに再エントリできません。これを防ぐために、Journey Optimizer では、プロファイル ID に加えて、注文 ID、サブスクリプション ID、処方箋 ID などの&#x200B;**補足識別子**&#x200B;をイベントで取得できます。
+デフォルトでは、ジャーニーは **プロファイル ID** のコンテキストで実行されます。 つまり、特定のジャーニーでプロファイルがアクティブである限り、別のジャーニーに再エントリできません。これを防ぐ [!DNL Journey Optimizer] めに、プロファイル ID に加えて、注文 ID、サブスクリプション ID、処方箋 ID などの **追加の識別子** を取得できます。
 この例では、予約 ID を補足識別子として追加しています。
 
 ![](assets/event-supplemental-id.png){width=40% zoomable}
 
-これにより、イベントによってトリガーされたジャーニーは、補足識別子（ここでは予約 ID）に関連付けられたプロファイル ID のコンテキストで実行されます。補助識別子の反復ごとに、ジャーニーのインスタンスが 1 つ実行されます。これにより、異なる予約を行った場合、ジャーニーで同じプロファイル ID の複数のエントリが可能になります。
+これにより、ジャーニーは、追加の識別子（ここでは予約 ID）に関連付けられたプロファイル ID のコンテキストで実行されます。 補助識別子の反復ごとに、ジャーニーのインスタンスが 1 つ実行されます。これにより、異なる予約を行った場合、ジャーニーで同じプロファイル ID の複数のエントリが可能になります。
 
 さらに、Journey Optimizer を使用すると、補足識別子の属性（予約番号、処方箋の更新日、製品タイプなど）を活用してメッセージをカスタマイズできるので、関連性の高いコミュニケーションを確保できます。<!--Example: A healthcare provider can send renewal reminders for each prescription in a patient's profile.-->
 
 ➡️ [この機能について詳しくは、ビデオを参照してください](#video)。
 
 ## ガードレールと制限 {#guardrails}
+
+* **サポートされているジャーニー**：現時点では、**イベントトリガー** ジャーニーと **オーディエンスを読み取り** ジャーニーで追加の識別子を使用できます。 オーディエンスの選定ジャーニーでは使用できません。
 
 * **同時インスタンス制限**：プロファイルには、10 を超えるジャーニーインスタンスを同時に含めることはできません。
 
@@ -59,7 +56,7 @@ ht-degree: 96%
 -->
 * **終了条件**：終了条件がトリガーされると、その時点でジャーニーでライブになっているプロファイルのすべてのインスタンスが終了します。これは、プロファイル ID と補足識別子の組み合わせとは関係ありません。
 
-* **頻度ルール**：補足識別子の使用から作成した各ジャーニーインスタンスは、1 つのイベントによって複数のジャーニーインスタンスが生成された場合でも、フリークエンシーキャップにカウントされます。
+* **頻度ルール**：補足的な識別子の使用から作成された各ジャーニーインスタンスは、補足的な識別子の使用によって複数のジャーニーインスタンスが作成された場合でも、フリークエンシーキャップに対してカウントされます。
 
 * **データタイプとスキーマ構造**：補足識別子は、`string` タイプにする必要があります。独立した文字列属性や、オブジェクト配列内の文字列属性にすることができます。独立した文字列属性では、単一のジャーニーインスタンスが生成されますが、オブジェクト配列内の文字列属性では、オブジェクト配列の反復ごとに一意のジャーニーインスタンスが生成されます。文字列配列およびマップはサポートされていません。
 
@@ -74,9 +71,19 @@ ht-degree: 96%
 
   ジャーニーのダウンストリームで別のイベントを使用している場合は、同じ追加 ID を使用し、同じ ID 名前空間を持つ必要があります。
 
+* **オーディエンスジャーニーの読み取り**
+
+   * ビジネスイベントを使用する場合、追加の ID は無効になります。
+
+   * 追加の ID は、プロファイルのフィールド （イベント/コンテキストフィールドではない）にする必要があります。
+
 ## 補足識別子の追加とジャーニーでの活用 {#add}
 
-ジャーニーで補足識別子を使用するには、次の手順に従います。
+>[!BEGINTABS]
+
+>[!TAB  イベントトリガージャーニー ]
+
+イベントトリガージャーニーで追加の識別子を使用するには、次の手順に従います。
 
 1. **属性をイベントスキーマの識別子としてマーク**
 
@@ -114,60 +121,98 @@ ht-degree: 96%
 
    ![](assets/supplemental-ID-journey.png)
 
-1. **補足 ID 属性を活用**
+>[!TAB  オーディエンスジャーニーを読み取る ]
 
-   式エディターとパーソナライゼーションエディターを使用して、パーソナライゼーションまたは条件付きロジックの補足識別子の属性を参照します。属性は、**[!UICONTROL コンテキスト属性]**&#x200B;メニューからアクセスできます。
+オーディエンスを読み取りジャーニーで補足的な識別子を使用するには、次の手順に従います。
 
-   ![](assets/supplemental-ID-perso.png)
+1. **属性を和集合/プロファイルスキーマの識別子としてマークする**
 
-   >[!NOTE]
-   >
-   >配列（複数の処方箋やポリシーなど）を操作している場合は、数式を使用して特定の要素を抽出します。
+   1. 和集合/プロファイルスキーマにアクセスし、補助識別子として使用する属性（予約 ID、購読 ID など）を見つけて、ID としてマークします。 [スキーマの操作方法の詳細情報](../data/get-started-schemas.md)
+
+   1. 識別子を **[!UICONTROL ID]** としてマークします。
+
+      ![](assets/supplemental-ID-schema-profile.png)
+
+      >[!IMPORTANT]
+      >
+      >属性を&#x200B;**プライマリ ID** としてマークしないでください。
+
+   1. 補足 ID に関連付ける名前空間を選択します。これは、ユーザー以外の識別子の名前空間にする必要があります。
+
+<!--1. **Add the supplemental ID field to the data source**
+
+    1. Navigate to the **[!UICONTROL Configuration]** / **[!UICONTROL Data Sources]** menu, then locate the "ExperiencePlatformDataSource" data source.
+
+        ![](assets/supplemental-ID-data-source.png)
+
+    1. Open the field selector then select the attribute you want to use as a supplemental identifier (e.g., booking ID, subscription ID).-->
+
+1. **ジャーニーでのオーディエンスを読み取りアクティビティの追加と設定**
+
+   1. **[!UICONTROL オーディエンスを読み取り]** アクティビティをジャーニーにドラッグします。
+
+   1. アクティビティプロパティペインで、「**[!UICONTROL 追加の識別子を使用]** オプションをオンにします。
+
+      ![](assets/supplemental-ID-read-audience.png)
+
+   1. 「**[!UICONTROL 補足識別子]**」フィールドで、式エディターを使用して、追加 ID としてマークした属性を選択します。
+
+      >[!NOTE]
+      >
+      >式エディターを&#x200B;**[!UICONTROL 詳細設定モード]**&#x200B;で使用して、属性を選択していることを確認します。
+
+   1. 追加の ID を選択すると、関連する名前空間が「**[!UICONTROL 追加の名前空間]**」フィールドに読み取り専用で表示されます。
+
+>[!ENDTABS]
+
+## 追加の ID 属性の活用
+
+式エディターとパーソナライゼーションエディターを使用して、パーソナライゼーションまたは条件付きロジックの補足識別子の属性を参照します。属性は、**[!UICONTROL コンテキスト属性]**&#x200B;メニューからアクセスできます。
+
+![](assets/supplemental-ID-perso.png)
+
+配列（複数の処方箋やポリシーなど）を使用する場合、イベントトリガージャーニーでは、式を使用して特定の要素を抽出します。
 
 +++ 例を参照
 
-   補足 ID が `bookingNum` で、同じレベルの属性が `bookingCountry` であるオブジェクト配列では、ジャーニーは bookingNum に基づいて配列オブジェクトを反復し、各オブジェクトのジャーニーインスタンスを作成します。
+補足 ID が `bookingNum` で、同じレベルの属性が `bookingCountry` であるオブジェクト配列では、ジャーニーは bookingNum に基づいて配列オブジェクトを反復し、各オブジェクトのジャーニーインスタンスを作成します。
 
-   * 条件アクティビティの次の式は、オブジェクト配列を反復し、`bookingCountry` の値が「FR」と等しいかどうかを確認します。
+* 条件アクティビティの次の式は、オブジェクト配列を反復し、`bookingCountry` の値が「FR」と等しいかどうかを確認します。
 
-     ```
-     @event{<event_name>.<object_path>.<object_array_name>.all(currentEventField.<attribute_path>.bookingNum==${supplementalId}).at(0).<attribute_path>.bookingCountry}=="FR"
-     ```
+  ```
+  @event{<event_name>.<object_path>.<object_array_name>.all(currentEventField.<attribute_path>.bookingNum==${supplementalId}).at(0).<attribute_path>.bookingCountry}=="FR"
+  ```
 
-   * メールパーソナライゼーションエディターの次の式は、オブジェクト配列を反復し、現在のジャーニーインスタンスに適用可能な `bookingCountry` を取得して、コンテンツに表示します。
+* メールパーソナライゼーションエディターの次の式は、オブジェクト配列を反復し、現在のジャーニーインスタンスに適用可能な `bookingCountry` を取得して、コンテンツに表示します。
 
-     ```
-     {{#each context.journey.events.<event_ID>.<object_path>.<object_array_name> as |l|}} 
-     
-     {%#if l.<attribute_path>.bookingNum = context.journey.technicalProperties.supplementalId%} {{l.<attribute_path>.bookingCountry}}  {%/if%}
-     
-     {{/each}}
-     ```
+  ```
+  {{#each context.journey.events.<event_ID>.<object_path>.<object_array_name> as |l|}} 
+  
+  {%#if l.<attribute_path>.bookingNum = context.journey.technicalProperties.supplementalId%} {{l.<attribute_path>.bookingCountry}}  {%/if%}
+  
+  {{/each}}
+  ```
 
-   * ジャーニーをトリガーするために使用されるイベントの例：
+* ジャーニーをトリガーするために使用されるイベントの例：
 
-     ```
-     "bookingList": [
-           {
-               "bookingInfo": {
-                   "bookingNum": "x1",
-                         "bookingCountry": "US"
-               }
-           },
-           {
-               "bookingInfo": {
-                   "bookingNum": "x2",
-                   "bookingCountry": "FR"
-               }
-           }
-       ]
-     ```
+  ```
+  "bookingList": [
+        {
+            "bookingInfo": {
+                "bookingNum": "x1",
+                      "bookingCountry": "US"
+            }
+        },
+        {
+            "bookingInfo": {
+                "bookingNum": "x2",
+                "bookingCountry": "FR"
+            }
+        }
+    ]
+  ```
 
 +++
-
-1. **ジャーニーの公開**
-
-   設定したら、ジャーニーを公開して、補足識別子に基づいて複数の同時エントリの使用を開始します。
 
 ## ユースケースの例
 
@@ -199,4 +244,4 @@ ht-degree: 96%
 
 [!DNL Adobe Journey Optimizer] で追加識別子を有効にして適用する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464793?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
