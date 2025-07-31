@@ -4,10 +4,10 @@ description: Journey Optimizer の競合と優先順位付けツールを活用�
 role: User
 level: Beginner
 exl-id: 9dc0cd89-d29a-42d2-a73f-d95f9c39c86e
-source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
-workflow-type: ht
-source-wordcount: '622'
-ht-degree: 100%
+source-git-commit: 8146221975b7460bf1deaca9363d1624b719b480
+workflow-type: tm+mt
+source-wordcount: '629'
+ht-degree: 94%
 
 ---
 
@@ -35,7 +35,7 @@ Journey Optimizer では、過剰な数のインタラクションで顧客が�
 
 ### ルールセット
 
-ルールセットを使用すると、**複数のルールをルールセットにグループ化**&#x200B;し、選択したジャーニーとキャンペーンに適用できます。これにより、精度が向上し、特定の時間枠内に顧客が入力できるジャーニーの頻度と数を制限したり、通信の種類に応じてユーザーがメッセージを受信する頻度を制御したりできるようになります。
+ルールセットを使用すると、**複数のルールをルールセットにグループ化**&#x200B;し、選択したジャーニーとキャンペーンに適用できます。この結果、精度が向上し、特定の期間内に顧客がエントリできるジャーニーの頻度と数を制限したり、通信のタイプに応じてユーザーがメッセージを受信する頻度を制御したりできます。 [詳しくは、ルールセットの操作方法を参照してください](../conflict-prioritization/rule-sets.md)。
 
 * **ジャーニーのキャップと判別**
 
