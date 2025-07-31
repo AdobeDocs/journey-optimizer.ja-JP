@@ -7,10 +7,10 @@ badge: label="アルファ版"
 hide: true
 hidefromtoc: true
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 458e0b19725147e0a3ad34891ca55b61f1ac44a8
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 83%
+source-wordcount: '654'
+ht-degree: 75%
 
 ---
 
@@ -73,8 +73,7 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_rules"
 >title="紐付けルール"
->abstract="重複排除 - 重複に使用する紐付けルールを選択します。 属性を使用するには、「**単純な属性**」オプションを選択し、ソースフィールドと宛先フィールドを選択します。 クエリモデラーを使用して独自の紐付け条件を作成するには、「**高度な紐付け条件**」オプションを選択します。"
->additional-url="https://experienceleague.adobe.com/ja/docs/campaign-web/v8/query-database/query-modeler-overview" text="クエリモデラーの操作"
+>abstract="重複排除 - 重複に使用する紐付けルールを選択します。 属性を使用するには、「**単純な属性**」オプションを選択し、ソースフィールドと宛先フィールドを選択します。 ルールビルダーを使用して独自の紐付け条件を作成するには、「**詳細な紐付け条件**」オプションを選択します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_reconciliation_targeting_selection"
@@ -94,7 +93,7 @@ ht-degree: 83%
 
 **[!UICONTROL 紐付け]**&#x200B;アクティビティを設定するには、次の手順に従います。
 
-1. **[!UICONTROL 紐付け]**&#x200B;アクティビティをワークフローに追加します。
+1. **[!UICONTROL 紐付け]** アクティビティをキャンバスに追加します。
 
 1. 新しいターゲティングディメンションを選択し、受信者やサブスクライバーなど、ターゲティングするユーザーを定義します。
 
@@ -114,9 +113,9 @@ ht-degree: 83%
 
 1. 一致するルールをさらに追加するには、「**[!UICONTROL ルールを追加]**」をクリックします。一致が発生するには、すべての条件を満たす必要があります。
 
-1. より複雑な条件の場合は、「**[!UICONTROL 高度な紐付け条件]**」を選択します。[クエリモデラー](../orchestrated-rule-builder.md)を使用して、カスタムロジックを定義します。
+1. より複雑な条件の場合は、「**[!UICONTROL 高度な紐付け条件]**」を選択します。[ ルールビルダー ](../orchestrated-rule-builder.md) を使用してカスタムロジックを定義します。
 
-1. 紐付けるデータをフィルタリングするには、「**[!UICONTROL フィルターを作成]**」をクリックして、クエリモデラーで条件を定義します。
+1. 紐付けるデータをフィルタリングするには、「**[!UICONTROL フィルターを作成]** をクリックして、ルールビルダーで条件を定義します。
 
 1. デフォルトでは、一致しないレコードは、アウトバウンドトランジションに保持され、作業用テーブルに保存されます。これらを削除するには、「**[!UICONTROL 紐付けされていないデータを保持]**」オプションを有効にします。
 

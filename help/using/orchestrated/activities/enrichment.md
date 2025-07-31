@@ -7,10 +7,10 @@ badge: label="アルファ版"
 hide: true
 hidefromtoc: true
 exl-id: 8a0aeae8-f4f2-4f1d-9b89-28ce573fadfd
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 458e0b19725147e0a3ad34891ca55b61f1ac44a8
 workflow-type: tm+mt
 source-wordcount: '603'
-ht-degree: 77%
+ht-degree: 75%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 77%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_enrichment"
 >title="エンリッチメントアクティビティ"
->abstract="**エンリッチメント**&#x200B;アクティビティでは、データベースからの追加情報を使用してターゲットデータを強化できます。 一般的に、セグメント化アクティビティの後のワークフローで使用されます。"
+>abstract="**エンリッチメント**&#x200B;アクティビティでは、データベースからの追加情報を使用してターゲットデータを強化できます。 一般的に、セグメント化アクティビティ後のキャンペーンで使用されます。"
 
 
 +++ 目次
@@ -185,7 +185,7 @@ Follow the steps to configure an **Enrichment** activity with a reconciliation l
         >
         >You can use one or more **Simple join** criteria, in which case they must all be verified so that the data can be linked together.
 
-    * **Advanced join**: Use the query modeler to configure the reconciliation criteria. To do this, click the **Create condition** button then define your reconciliation criteria by building your own rule using AND and OR operations.
+    * **Advanced join**: Use the rule builder to configure the reconciliation criteria. To do this, click the **Create condition** button then define your reconciliation criteria by building your own rule using AND and OR operations.
 
 The example below shows an Orchestrated campaign configured to create a link between Journey Optimizer profiles table and a temporary table generated a **Load file** activity. In this example, the **Enrichment** activity reconciliates both tables using the email address as reconciliation criteria.
 
@@ -237,7 +237,7 @@ To create a link, follow these steps:
 1. Define the reconciliation criteria to match data from the primary set with the linked schema. There are two types of joins available:
 
     * **Simple join**: Select a specific attribute to match data from the two schemas. Click **Add join** and select the **Source** and **Destination** attributes to use as reconciliation criteria. 
-    * **Advanced join**: Create a join using advanced conditions. Click **Add join** and click the **Create condition** button to open the query modeler.
+    * **Advanced join**: Create a join using advanced conditions. Click **Add join** and click the **Create condition** button to open the rule builder.
 
 A workflow example using links is available in the [Examples](#link-example) section.
 
