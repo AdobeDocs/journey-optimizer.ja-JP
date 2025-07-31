@@ -21,8 +21,8 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="lookup-aep-data"
->title="検索のために有効にする"
->abstract="検索のために有効にする"
+>title="ルックアップで有効にする"
+>abstract="ルックアップで有効にする"
 
 >[!AVAILABILITY]
 >
