@@ -6,19 +6,19 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 7c45cd8a-8e86-4646-ba0a-db393e92d9da
-source-git-commit: 4839c3c70dcc524da5f3cc394d5573ce5755ea64
-workflow-type: ht
-source-wordcount: '223'
-ht-degree: 100%
+source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
+workflow-type: tm+mt
+source-wordcount: '227'
+ht-degree: 90%
 
 ---
 
 
 # 決定に関するレポート {#decisioning-report}
 
-## コードベースのキャンペーンレポート {#campaigns}
+## 決定レポート {#campaigns}
 
-コードベースのエクスペリエンスが公開されると、専用レポートにアクセスして、決定の主要業績評価指標（KPI）を監視できます。
+選択戦略を含むコードベースのエクスペリエンスまたはメールが公開されると、専用のレポートにアクセスして意思決定主要業績評価指標（KPI）を監視できます。
 
 <!--Once code-based experiences are live, you can access dedicated reports to monitor Key Performance Indicators (KPIs) as an all-encompassing dashboard, delivering an analysis of essential metrics associated with your campaign.
 

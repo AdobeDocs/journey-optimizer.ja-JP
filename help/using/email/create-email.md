@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 作成, メール, 開始, ジャーニー, キャンペーン
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 22a8742bf9000ed1cc8437d7ac89747276284dbf
-workflow-type: ht
-source-wordcount: '965'
-ht-degree: 100%
+source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
+workflow-type: tm+mt
+source-wordcount: '1033'
+ht-degree: 89%
 
 ---
 
@@ -84,7 +84,17 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
    ![](assets/email_campaign_edit_content.png)
 
-   **[!UICONTROL コンテンツを編集]**&#x200B;画面の「**[!UICONTROL ヘッダー]**」セクションで、「**[!UICONTROL 差出人名]**」、「**[!UICONTROL 差出人メールアドレス]**」、「**[!UICONTROL BCC]**」の各フィールドは、選択したメール設定で設定されます。[詳細情報](email-settings.md) <!--check if same for journey-->
+1. メールに決定ポリシーを追加する場合は、**[!UICONTROL 決定を有効にする]** を切り替えます。
+
+   決定ポリシーは、決定エンジンを活用してオーディエンスメンバーごとに配信する最適なコンテンツを動的に返す、オファーのコンテナです。 [ メールに決定ポリシーを追加する方法を学ぶ ](../experience-decisioning/create-decision.md#add)
+
+   ![](assets/../../experience-decisioning/assets/decision-policy-enable.png)
+
+   >[!AVAILABILITY]
+   >
+   >現時点では、Adobe Healthcare Shield またはプライバシーとセキュリティシールド アドオンサービスを購入した組織は、メールでの意思決定ポリシーの作成を利用できません。
+
+1. 「**[!UICONTROL ヘッダー]**」セクションで、「**[!UICONTROL 送信者名]**」、「**[!UICONTROL 送信元メール]**」および「**[!UICONTROL BCC]**」フィールドを確認します。 これらは、選択したメール設定で設定されます。 [詳細情報](email-settings.md) <!--check if same for journey-->
 
    ![](assets/email_designer_edit_content_header.png)
 
@@ -92,9 +102,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
    >[!NOTE]
    >
-   >* 件名は必須です。
-   >
-   >* 件名に改行を含めることはできません。
+   >件名は必須です。 改行を含めることはできません。
 
 1. 「**[!UICONTROL メール本文を編集]**」ボタンをクリックしてE メールデザイナーにアクセスし、コンテンツの作成を開始します。[詳細情報](get-started-email-design.md)
 
@@ -156,7 +164,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
 >[!NOTE]
 >
->テストプロファイルに加えて、[!DNL Journey optimizer] を使用すると、CSV／JSON ファイルからアップロードされた、または手動で追加されたサンプル入力データを使用して、プレビューし配達確認を送信することで、コンテンツの様々なバリアントをテストできます。[コンテンツバリエーションのシミュレート方法を学ぶ](../test-approve/simulate-sample-input.md)
+>テストプロファイルに加えて、[!DNL Journey optimizer] を使用すると、CSV／JSON ファイルからアップロードした、または手動で追加したサンプル入力データを使用してコンテンツをプレビューし、本配信前確認を送信することで、コンテンツの様々なバリアントをテストできます。[コンテンツバリエーションのシミュレート方法を学ぶ](../test-approve/simulate-sample-input.md)
 
 これを行うには、「**[!UICONTROL コンテンツをシミュレート]**」をクリックし、テストプロファイルを追加し、テストプロファイルデータを使用してメッセージを確認します。
 

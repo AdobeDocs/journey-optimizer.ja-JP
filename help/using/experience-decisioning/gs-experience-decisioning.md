@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
-workflow-type: ht
-source-wordcount: '516'
-ht-degree: 100%
+source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
+workflow-type: tm+mt
+source-wordcount: '519'
+ht-degree: 93%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 100%
 
    ➡️ [ユーザーインターフェイス（および [APIドキュメント](api-reference/selection-strategies/create.md)）での選択戦略の作成方法の詳細情報](selection-strategies.md)
 
-1. **決定ポリシーを作成し、コードベースのキャンペーンに埋め込む**：決定ポリシーは、複数の選択戦略を組み合わせて、対象のオーディエンスに表示する適格な決定項目を決定します。
+1. **決定ポリシーを作成して、コードベースまたはメールジャーニー/キャンペーンに埋め込みます**：決定ポリシーは、複数の選択戦略を組み合わせて、対象オーディエンスに表示する適格な決定項目を決定します。
 
    ➡️ [決定ポリシーの操作方法の詳細情報](create-decision.md)
 ➡️ コードベースのエクスペリエンスチャネルを通じてオファーを正常に配信するには、[この節](../code-based/code-based-implementation-samples.md)の実装手順に従ってください。

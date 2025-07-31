@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1e36871c2c975c81d018fabb3cff51d11c98962e
+source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
 workflow-type: tm+mt
-source-wordcount: '2592'
-ht-degree: 95%
+source-wordcount: '2594'
+ht-degree: 97%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 95%
    + [ベストプラクティス](using/start/best-practices.md)
 + ジャーニー {#orchestrate-journeys}
    + [ジャーニーの基本を学ぶ](using/building-journeys/journey.md)
-   + ジャーニーの作成{#create-journey}
+   + ジャーニーの作成 {#create-journey}
       + [最初のジャーニーを作成](using/building-journeys/journey-gs.md)
       + [ジャーニーのプロパティの設定](using/building-journeys/journey-properties.md)
       + [ジャーニー指標の設定とトラッキング](using/building-journeys/success-metrics.md)
@@ -53,7 +53,7 @@ ht-degree: 95%
       + [ジャーニーの公開](using/building-journeys/publishing-the-journey.md)
       + [ジャーニーの一時停止](using/building-journeys/journey-pause.md)
       + [ジャーニーのライブレポート](using/building-journeys/report-journey.md)
-   + ジャーニーの管理{#manage-journey}
+   + ジャーニーの管理 {#manage-journey}
       + [ジャーニーの参照とフィルタリング](using/building-journeys/journey-ui.md)
       + [ジャーニーのプロファイルエントリ](using/building-journeys/entry-management.md)
       + [イベントトリガージャーニーの補足識別子](using/building-journeys/supplemental-identifier.md)
@@ -452,7 +452,7 @@ ht-degree: 95%
       + [AI によるコンテンツ実験](using/content-management/generative-experimentation.md)
       + [AI によるランディングページ](using/content-management/generative-lp.md)
       + [AI アシスタントのユースケース](using/content-management/generative-uc.md)
-      + ブランド (Beta){#brands}
+      + ブランド {#brands}
          + [ブランドの作成と管理](using/content-management/brands.md)
          + [ブランド一致スコアの評価](using/content-management/brands-score.md)
    + 多言語コンテンツ{#content-multilingual}
@@ -585,6 +585,7 @@ ht-degree: 95%
             + [自動最適化モデル](using/experience-decisioning/ranking/auto-optimization-model.md)
             + [パーソナライズされた最適化モデル](using/experience-decisioning/ranking/personalized-optimization-model.md)
             + [AI モデルの作成](using/experience-decisioning/ranking/create-ai-models.md)
+      + [プレースメントの操作](using/experience-decisioning/placements.md)
       + Adobe Experience Platform データの使用 {#aep-data}
          + [コンテキストデータの活用](using/experience-decisioning/context-data.md)
          + [決定の Adobe Experience Platform の使用](using/experience-decisioning/aep-data-exd.md)
