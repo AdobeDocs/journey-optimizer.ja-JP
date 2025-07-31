@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: シードリスト, シードリスト, シード, 設定
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: 528e1a54dd64503e5de716e63013c4fc41fd98db
-workflow-type: ht
-source-wordcount: '959'
-ht-degree: 100%
+source-git-commit: 1cca05a4f7590f42c1ed5104cb530930e139b2b9
+workflow-type: tm+mt
+source-wordcount: '985'
+ht-degree: 97%
 
 ---
 
@@ -155,5 +155,7 @@ ht-degree: 100%
 これで、キャンペーンやジャーニーを通じてメールメッセージが顧客に送信されるたびに、選択したシードリストのメールアドレスも、同じ条件で同時に、ターゲット受信者と同じコンテンツで受信します。
 
 >[!NOTE]
+>
+>[ テストモード ](../building-journeys/testing-the-journey.md) ジャーニーは、シードリストにメールを送信しません。 メールコンテンツを確認するには、メッセージを送信する前に [ プレビューとテスト ](../content-management/preview-test.md) 機能を使用します。
 >
 >繰り返しのジャーニーの場合、少なくとも 1 つのプロファイルがメールノードに到達していれば、ジャーニーの実行ごとにシードアドレスにメール配信が送信されます。
