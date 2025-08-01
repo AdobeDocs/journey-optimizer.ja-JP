@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
+source-git-commit: 41563414b2118ae1fcde65874c56f38daf4fa9ab
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 93%
+source-wordcount: '521'
+ht-degree: 91%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 93%
 
 >[!IMPORTANT]
 >
->決定の決定ポリシーは、コードベースのエクスペリエンスキャンペーンでのみ使用できます。
+>意思決定決定ポリシーは、コードベースのエクスペリエンスおよびメールキャンペーンでのみ使用できます。
 
 ➡️ コードベースのエクスペリエンスチャネルを使用して決定を作成し、コンテンツ実験で使用する方法を示すエンドツーエンドのユースケースについて詳しくは、[この節](experience-decisioning-uc.md)を参照してください。
 
@@ -56,7 +56,7 @@ ht-degree: 93%
 
    これにより、ユーザーをインスタンスへリダイレクトするメールがユーザーに送られます。
 
-   +++
++++
 
 1. **カスタム属性の設定**：カスタム属性をカタログのスキーマに設定して、項目カタログを特定の要件に合わせます。
 
@@ -80,7 +80,7 @@ ht-degree: 93%
 
 1. **選択戦略の作成**：コレクション、決定ルール、ランキング方法を活用した選択戦略を作成して、プロファイルに表示するのに適した決定項目を特定します。
 
-   ➡️ [&#128279;](selection-strategies.md)ユーザーインターフェイス（および [APIドキュメント](api-reference/selection-strategies/create.md)）での選択戦略の作成方法の詳細情報
+   ➡️ [ユーザーインターフェイス（および [APIドキュメント](api-reference/selection-strategies/create.md)）での選択戦略の作成方法の詳細情報](selection-strategies.md)
 
 1. **決定ポリシーを作成して、コードベースまたはメールジャーニー/キャンペーンに埋め込みます**：決定ポリシーは、複数の選択戦略を組み合わせて、対象オーディエンスに表示する適格な決定項目を決定します。
 
