@@ -11,13 +11,13 @@ exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
 source-git-commit: 31e25c511d8873e54c7b92e65511108a77f84941
 workflow-type: tm+mt
 source-wordcount: '320'
-ht-degree: 44%
+ht-degree: 85%
 
 ---
 
 # WhatsApp メッセージの基本を学ぶ {#get-started-whatsapp}
 
-Meta の [Cloud API](https://developers.facebook.com/docs/whatsapp/cloud-api/) を使用して、Journey Optimizerから直接 WhatsApp メッセージを送信できるようになりました。 この機能により、WhatsApp をジャーニーやキャンペーンにシームレスに統合し、受信者とのコミュニケーションとエンゲージメントを強化できます。
+Meta の [Cloud API](https://developers.facebook.com/docs/whatsapp/cloud-api/) 経由で、Journey Optimizer を通じて WhatsApp メッセージを直接送信できるようになりました。この機能を使用すると、ジャーニーとキャンペーンへの WhatsApp のシームレスな統合を実現し、受信者との通信とエンゲージメントを強化できます。
 
 * **ジャーニー**&#x200B;の場合：ジャーニーを作成し、**WhatsApp** アクティビティを追加し、基本設定を定義してから、右側の&#x200B;**[!UICONTROL アクション：WhatsApp]** パネルを参照して WhatsApp メッセージのコンテンツを作成します。ジャーニーを作成する方法について詳しくは、[このページ](../building-journeys/journey-gs.md)を参照してください。
 
@@ -31,7 +31,7 @@ WhatsApp を Journey Optimizer と統合するには、次が必要です。
 
 * Meta Business Manager アカウント
 * [ 確認された送信者名と電話番号を持つ WhatsApp ビジネスアカウント ](https://developers.facebook.com/docs/whatsapp/overview/business-accounts/)
-* [ 適切な権限を持つユーザー認証トークン ](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)
+* [適切な権限を持つユーザー認証トークン](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)
 * [承認済み Meta テンプレート](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/)
 
 統合を進める前に、次も確認する必要があります。
@@ -42,15 +42,15 @@ WhatsApp を Journey Optimizer と統合するには、次が必要です。
 
 ## 制限事項 {#limitations}
 
-WhatsApp チャネルには次の制限が適用されます。
+次の制限が WhatsApp チャネルに適用されます。
 
-* Adobe Journey Optimizerの WhatsApp チャネルは HIPAA に対応していますが、サードパーティベンダーはAdobeの BAA の対象ではありません。 顧客は、独自のコンプライアンスとベンダー検証に責任を負います。
+* Adobe Journey Optimizer の WhatsApp チャネルは HIPAA に対応していますが、サードパーティベンダーはアドビの BAA の対象ではありません。顧客は、独自のコンプライアンスとベンダー検証に責任を負います。
 
 * 自動または事前定義済みの応答メッセージは、まだサポートされていません。
 
-* 2025 年 4 月以降、米国の電話番号（+1 のダイヤル コードと米国の市外局番で構成される番号）を持つ WhatsApp ユーザーに対するすべてのマーケティングテンプレートメッセージの配信が一時的に停止されました。 [ 詳しくは、Meta ドキュメントを参照してください ](https://developers.facebook.com/docs/whatsapp/cloud-api/guides/send-message-templates#per-user-marketing-template-message-limits)
+* 2025年4月以降、米国の電話番号（+1 ダイヤルコードと米国の市外局番で構成される番号）を持つ WhatsApp ユーザーに対するすべてのマーケティングテンプレートメッセージの配信が一時的に停止されました。[詳しくは、Meta ドキュメントを参照してください](https://developers.facebook.com/docs/whatsapp/cloud-api/guides/send-message-templates#per-user-marketing-template-message-limits)。
 
-* ネイティブの統合機能では、サードパーティのビジネスサービスプロバイダー（BSP）との統合は許可されていません。
+* ネイティブ統合機能では、サードパーティのビジネスサービスプロバイダー（BSP）との統合は許可されていません。
 
 ## チュートリアルビデオ {#video}
 
@@ -58,7 +58,7 @@ WhatsApp チャネルには次の制限が適用されます。
 
 +++ こちらのビデオをご覧ください
 
->[!VIDEO](https://video.tv.adobe.com/v/3470245?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3470244?learn=on)
 
 +++
 

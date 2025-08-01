@@ -12,7 +12,7 @@ exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
 source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
 workflow-type: tm+mt
 source-wordcount: '285'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -43,10 +43,10 @@ ht-degree: 96%
 
 ![](assets/custom1.png)
 
-カスタムアクションのトラブルシューティング方法を学ぶ [ この専用ページ ](../action/troubleshoot-custom-action.md)。
+カスタムアクションのトラブルシューティング方法について詳しくは、[この専用ページ](../action/troubleshoot-custom-action.md)を参照してください。
 
 ## チュートリアルビデオ {#video}
 
 カスタムアクションの設定方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430280?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)

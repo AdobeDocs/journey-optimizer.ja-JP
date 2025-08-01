@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
 workflow-type: tm+mt
 source-wordcount: '2594'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -277,9 +277,9 @@ ht-degree: 96%
             + [コンテンツコンポーネントの使用](using/email/content-components.md)
             + [ビジュアルフラグメントを活用](using/email/use-visual-fragments.md)
             + [リンクの追加とメッセージのトラッキング](using/email/message-tracking.md)
-            + [パーソナライズされたオファーの挿入](using/email/add-offers-email.md)
-            + [テキストバージョンを生成](using/email/text-version-email.md)
-            + [メタデータの追加](using/email/email-metadata.md)
+            + [パーソナライズされたオファーを挿入](using/email/add-offers-email.md)
+            + [テキストバージョンの生成](using/email/text-version-email.md)
+            + [メタデータを追加](using/email/email-metadata.md)
             + [カスタム CSS を追加](using/email/custom-css.md)
          + スタイルの編集 {#edit-style}
             + [メールスタイルの基本を学ぶ](using/email/get-started-email-style.md)

@@ -5,7 +5,7 @@ exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
 workflow-type: tm+mt
 source-wordcount: '1157'
-ht-degree: 69%
+ht-degree: 72%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 69%
 
 * **ダウンストリームイベントの設定**
 
-  ジャーニーのダウンストリームで別のイベントを使用している場合は、同じ追加 ID を使用し、同じ ID 名前空間を持つ必要があります。
+  ジャーニーのダウンストリームで別のイベントを使用している場合は、同じ補足 ID を使用し、同じ ID 名前空間を持つ必要があります。
 
 * **オーディエンスジャーニーの読み取り**
 
@@ -242,6 +242,6 @@ ht-degree: 69%
 
 ## チュートリアルビデオ {#video}
 
-[!DNL Adobe Journey Optimizer] で追加識別子を有効にして適用する方法を説明します。
+[!DNL Adobe Journey Optimizer] で補足識別子を有効にして適用する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464793?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)

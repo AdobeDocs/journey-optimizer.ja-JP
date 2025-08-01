@@ -11,7 +11,7 @@ exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
 source-git-commit: 31e25c511d8873e54c7b92e65511108a77f84941
 workflow-type: tm+mt
 source-wordcount: '842'
-ht-degree: 85%
+ht-degree: 88%
 
 ---
 
@@ -146,7 +146,7 @@ WhatsApp テンプレートは、Journey Optimizer で使用する前に、ま�
 
 1. 「**[!UICONTROL コンテンツをシミュレート]**」ボタンを使用して、WhatsApp メッセージコンテンツ、短縮 URL、パーソナライズされたコンテンツをプレビューします。[詳細情報](send-whatsapp.md)
 
-テストを実行してコンテンツを検証したら、[ レポート ](send-whatsapp.md) を使用して、オーディエンスに [WhatsApp メッセージを送信 ](../reports/campaign-global-report-cja.md) し、パフォーマンスを監視できます。
+テストを実行してコンテンツを検証したら、オーディエンスに [WhatsApp メッセージを送信](send-whatsapp.md)し、[レポート](../reports/campaign-global-report-cja.md)を通じてパフォーマンスを監視できます。
 
 <!--
 * **[!UICONTROL Template message]**: Predefined message imported from Meta into Journey Optimizer. These are intended for sending notifications, alerts, or updates to your customers.
@@ -195,6 +195,6 @@ Once you have performed your tests and validated the content, you can send your 
 
 +++ こちらのビデオをご覧ください
 
->[!VIDEO](https://video.tv.adobe.com/v/3470283/?learn=on&captions=jpn")
+>[!VIDEO](https://video.tv.adobe.com/v/3470282/?learn=on")
 
 +++

@@ -10,7 +10,7 @@ exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
 source-git-commit: 31e25c511d8873e54c7b92e65511108a77f84941
 workflow-type: tm+mt
 source-wordcount: '823'
-ht-degree: 49%
+ht-degree: 62%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 49%
 WhatsApp メッセージを送信する前に、Adobe Journey Optimizer 環境を設定し、WhatsApp アカウントに関連付ける必要があります。これを実行するには、次の手順を実行します。
 
 1. [WhatsApp API 資格情報を作成します](#WhatsApp-credentials)
-1. [WhatsApp Webhook の作成](#WhatsApp-webhook)
+1. [WhatsApp Webhook を作成します](#WhatsApp-webhook)
 1. [WhatsApp 設定を作成します](#WhatsApp-configuration)
 
 これらの手順は、Adobe Journey Optimizer [システム管理者](../start/path/administrator.md)が実行する必要があります。
@@ -41,7 +41,7 @@ WhatsApp メッセージを送信する前に、Adobe Journey Optimizer 環境�
 
    ![](assets/whatsapp-api-2.png)
 
-1. Whatsapp メッセージの送信に使用する **送信者名** を選択します。
+1. WhatsApp メッセージの送信に使用する&#x200B;**送信者名**&#x200B;を選択します。
 
 1. 電話番号の設定は自動的に入力されます。
 
@@ -86,11 +86,11 @@ API 認証情報を作成して設定した後、WhatsApp メッセージ用の 
 
 WhatsApp API 認証情報が正常に作成されたら、次の手順は Webhook を作成してインバウンド設定を構成することです。
 
-1. 左側のレールで、**[!UICONTROL 管理]**`>`**[!UICONTROL チャネル]** に移動し、**[!UICONTROL WhatsApp 設定]** の下にある **[!UICONTROL WhatsApp Webhook]** メニューを選択して、**[!UICONTROL Webhook を作成]** ボタンをクリックします。
+1. 左側のパネルで、**[!UICONTROL 管理]** `>` **[!UICONTROL チャネル]**&#x200B;に移動し、**[!UICONTROL WhatsApp 設定]**&#x200B;の下にある **[!UICONTROL WhatsApp Webhook]** メニューを選択して、「**[!UICONTROL Webhook を作成]**」ボタンをクリックします。
 
    ![](assets/webhook-1.png)
 
-1. Webhook の **[!UICONTROL 名前]** を入力します。
+1. Webhook の&#x200B;**[!UICONTROL 名前]**&#x200B;を入力します。
 
 1. **[!UICONTROL 設定を選択]** ドロップダウンから、以前に作成した [API 資格情報 ](#whatsapp-credentials) を選択します。
 
@@ -117,9 +117,9 @@ WhatsApp API 認証情報が正常に作成されたら、次の手順は Webhoo
 -->
 1. ![ 追加 ](assets/do-not-localize/Smock_AddCircle_18_N.svg) をクリックして、**[!UICONTROL 受信キーワード]** を追加します。
 
-1. WhatsApp Webhook の設定が完了したら、**[!UICONTROL 送信]** をクリックします。
+1. WhatsApp Webhook の設定が完了したら、「**[!UICONTROL 送信]**」をクリックします。
 
-1. **[!UICONTROL Webhook]** メニューで ![bin アイコン ](assets/do-not-localize/Smock_Delete_18_N.svg) をクリックして WhatsApp Webhook を削除します。
+1. **[!UICONTROL Webhook]** メニューで、![ごみ箱アイコン](assets/do-not-localize/Smock_Delete_18_N.svg) をクリックして、WhatsApp Webhook を削除します。
 
    ![](assets/webhook-5.png)
 
@@ -180,6 +180,6 @@ Webhook が設定されたので、WhatsApp 設定を作成できます。
 
 +++ こちらのビデオをご覧ください
 
->[!VIDEO](https://video.tv.adobe.com/v/3470269/?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++
