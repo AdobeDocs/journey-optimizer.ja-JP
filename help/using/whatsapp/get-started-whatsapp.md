@@ -58,7 +58,7 @@ WhatsApp チャネルには次の制限が適用されます。
 
 +++ こちらのビデオをご覧ください
 
->[!VIDEO](https://video.tv.adobe.com/v/3470244?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470245?learn=on&captions=jpn)
 
 +++
 
