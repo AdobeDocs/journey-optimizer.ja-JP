@@ -7,10 +7,10 @@ badge: label="アルファ版"
 hide: true
 hidefromtoc: true
 exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: e71cbc5b29a31e2f23b408ae8c8b73379a44275d
 workflow-type: tm+mt
 source-wordcount: '409'
-ht-degree: 57%
+ht-degree: 53%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 57%
 
 1. 「**[!UICONTROL 続行]**」をクリックします。
 
-1. クエリモデラーを使用してクエリを定義します。[クエリモデラーについて詳しくは、この節を参照してください。](../orchestrated-rule-builder.md)
+1. ルールビルダーを使用してクエリを定義します。 [ ルールビルダーの詳細については、この節を参照してください ](../orchestrated-rule-builder.md)
 
 1. オーディエンスが空の場合に、アウトバウンドトランジションを生成するかどうかを指定します。
 

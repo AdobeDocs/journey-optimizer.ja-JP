@@ -6,10 +6,10 @@ description: Adobe Journey Optimizerでオーケストレートキャンペー�
 hide: true
 hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 5e52573689ab06084441390299b01e112e699244
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 56%
+source-wordcount: '841'
+ht-degree: 54%
 
 ---
 
@@ -73,11 +73,7 @@ ht-degree: 56%
 
 また、各アクティビティに直接表示される[視覚的なステータス指標](#activities)を使用して、失敗したアクティビティをすばやく識別することもできます。トラブルシューティングについて詳しくは、[キャンペーンのログ](#logs-tasks)を開き、エラーとそのコンテキストに関する詳細な情報を参照してください。
 
-<!--WAITING FOR PM's TEST TO UNHIDE
-
-If you have added channel activities in the canvas, you can preview and test the content of your messages using the **[!UICONTROL Simulate Content]** button. [Learn how to work with channel activities](activities/channels.md)
-
--->
+キャンバスにチャネルアクティビティを追加した場合は、「**[!UICONTROL コンテンツをシミュレート]** ボタンを使用して、メッセージのコンテンツをプレビューおよびテストできます。 [ チャネルアクティビティの操作方法については、こちらを参照してください ](activities/channels.md)
 
 検証が完了したら、キャンペーンを公開できます。
 

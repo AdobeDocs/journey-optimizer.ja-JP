@@ -7,7 +7,7 @@ badge: label="アルファ版"
 hide: true
 hidefromtoc: true
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: e71cbc5b29a31e2f23b408ae8c8b73379a44275d
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 59%
@@ -53,7 +53,7 @@ ht-degree: 59%
 
 ![ターゲティングアクティビティのリスト](../assets/targeting-activities.png){width="40%" align="left"}
 
-* [オーディエンスを作成](build-audience.md)：ターゲット母集団を定義します。既存のオーディエンスを選択するか、クエリモデラーを使用して独自のクエリを定義できます。
+* [オーディエンスを作成](build-audience.md)：ターゲット母集団を定義します。既存のオーディエンスを選択するか、ルールビルダーを使用して独自のクエリを定義できます。
 * [ ディメンションの変更 ](change-dimension.md)：オーケストレーションされたキャンペーンを作成する際に、ターゲティングディメンションを変更します。
 * [結合](combine.md)：インバウンド母集団に対してセグメント化を実行します。和集合、積集合または除外を使用できます。
 * [重複排除 - 重複](deduplication.md)：インバウンドアクティビティの結果から重複を削除します。

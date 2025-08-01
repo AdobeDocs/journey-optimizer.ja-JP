@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: アプリ内, メッセージ, デザイン, 書式設定
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: ht
-source-wordcount: '1154'
-ht-degree: 100%
+source-git-commit: 61a30dcc93823dc5e8b647e683bfa2ebf5bfa01b
+workflow-type: tm+mt
+source-wordcount: '1222'
+ht-degree: 94%
 
 ---
 
@@ -238,6 +238,22 @@ ht-degree: 100%
 * **[!UICONTROL メッセージの角丸]**：**[!UICONTROL コーナーの半径]**&#x200B;を変更することで、アプリ内通知のコーナーに角丸を追加できます。
 
 +++
+
+## 「データ」タブ {#data-tab}
+
+「**データ**」タブから、**[!UICONTROL  キー ]**&#x200B;および **[!UICONTROL 値]** を定義して、ペイロードにカスタム変数を含めることができます。 これらのキーと値のペアを使用すると、特定の設定に応じて、追加のデータを渡すことができます。
+
+詳しくは、[ 開発者向けドキュメント ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/in-app-message/tutorials/messaging-metadata/) を参照してください。
+
+1. 「**[!UICONTROL データ]**」タブで、「**[!UICONTROL キーと値のペアを追加]**」を選択します。
+
+   ![](assets/in-app-data-menu.png)
+
+1. 「**[!UICONTROL  キー ]**&#x200B;」および「**[!UICONTROL 値]**」フィールドに入力します。
+
+   ![](assets/in-app-data-menu-1.png)
+
+1. ![](assets/do-not-localize/Smock_Delete_18_N.svg) をクリックして、必要なペアを削除します。
 
 **関連トピック：**
 
