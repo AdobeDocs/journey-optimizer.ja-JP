@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
 source-git-commit: b5ea41cec72fb80dd2fcc3aa467e80cd293fd239
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '266'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -70,24 +70,24 @@ Adobe Journey Optimizer では、SMS サービスプロバイダー（または 
 
   +++こちらのビデオをご覧ください
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3422696?learn=on&captions=jpn)
+  >[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
-  +++
++++
 
 * 次のビデオは、Adobe Journey Optimizer がマーケターに提供するモバイル機能をより詳細に理解するのに役立ちます。
 
 
   +++こちらのビデオをご覧ください
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3430376?quality=12&learn=on&captions=jpn)
+  >[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
-  +++
++++
 
-* 次のビデオは、カスタム SMS プロバイダーを使用して、Adobe Journey Optimizerでブランド化されたインタラクティブな RCS メッセージを設定し、送信するのに役立ちます。
+* 次のビデオは、カスタム SMS プロバイダーを使用して、ブランド化されたインタラクティブな RCS メッセージを Adobe Journey Optimizer で設定および送信するのに役立ちます。
 
 
   +++こちらのビデオをご覧ください
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3464756?captions=jpn)
+  >[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
-  +++
++++

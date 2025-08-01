@@ -5,9 +5,9 @@ title: ジャーニーのエクスペリエンスイベント参照
 description: ジャーニーのエクスペリエンスイベント参照の使用方法について説明します
 exl-id: 35e2e347-0669-44a3-92ba-aee52e54c219
 source-git-commit: a587b8754e94781b7735f3d7d5abb9b9767a74a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '929'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 92%
 
 >[!CAUTION]
 >
->2025 年 7 月 8 日以降、新規顧客組織では、エクスペリエンスイベントを使用した式の作成が、ジャーニー条件で使用される式エディターでサポートされなくなりました。 その結果、[Experience Platform データソース](../datasource/adobe-experience-platform-data-source.md)のエクスペリエンスイベントは式の作成に使用できません。エクスペリエンスイベントを使用して式／ロジックを作成する別のアプローチとベストプラクティスについて詳しくは、以下を参照してください。
+>2025年7月8日（PT）以降、新しい顧客組織では、ジャーニー条件で使用される式エディターで、エクスペリエンスイベントを使用した式の作成はサポートされなくなります。その結果、[Experience Platform データソース](../datasource/adobe-experience-platform-data-source.md)のエクスペリエンスイベントは式の作成に使用できません。エクスペリエンスイベントを使用して式／ロジックを作成する別のアプローチとベストプラクティスについて詳しくは、以下を参照してください。
 >
 >さらに詳細が必要ですか？[詳しくは、FAQ を参照してください](#faq-ee)。
 
@@ -150,9 +150,9 @@ ht-degree: 92%
 
 +++
 
-+++既存のAdobe組織は、この更新の影響を受けますか？
++++このアップデートにより、既存のアドビ組織は影響を受けますか？
 
-Adobe組織が影響を受けるのは、エクスペリエンスイベントのルックアップをまだ使用していない場合のみです。 [Experience Platform データソース ](../datasource/adobe-experience-platform-data-source.md) で既にエクスペリエンスイベントを使用している場合、Adobe組織では引き続き、エクスペリエンスイベントの検索がサポートされます。
+アドビ組織が影響を受けるのは、エクスペリエンスイベント参照をまだ使用していない場合のみです。[Experience Platform データソース](../datasource/adobe-experience-platform-data-source.md)で既にエクスペリエンスイベントを使用している場合、アドビ組織では引き続きエクスペリエンスイベント参照をサポートします。
 
 +++
 

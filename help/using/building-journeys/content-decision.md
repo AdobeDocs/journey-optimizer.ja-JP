@@ -11,9 +11,9 @@ badge: label="限定提供" type="Informative"
 keywords: アクティビティ, 決定, コンテンツ決定, 決定ポリシー, キャンバス, ジャーニー
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 source-git-commit: 30234392f9b643fa37be701d4d6878d798ea94fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1027'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -63,9 +63,9 @@ ht-degree: 91%
 
 1. 必要に応じて、評価順序を並べ替えます。
 
-   複数の決定項目や戦略を追加する場合、決定は順番に評価され、各オブジェクトまたはオブジェクトのグループの左側に数字が表示されます。 デフォルトのシーケンスを変更するには、オブジェクトやグループをドラッグ＆ドロップして、任意の順序に並べ替えることができます。[詳細情報](../experience-decisioning/create-decision.md#evaluation-order)
+   複数の決定項目や戦略を追加すると、順番に評価され、各オブジェクトまたはオブジェクトのグループの左側に数字で示されます。デフォルトのシーケンスを変更するには、オブジェクトやグループをドラッグ＆ドロップして、任意の順序に並べ替えることができます。[詳細情報](../experience-decisioning/create-decision.md#evaluation-order)
 
-1. （任意）フォールバックオファーを追加します。 [詳細情報](../experience-decisioning/create-decision.md#fallback)
+1. （オプション）フォールバックオファーを追加します。[詳細情報](../experience-decisioning/create-decision.md#fallback)
 
 1. 決定ポリシーをレビューして保存します。
 
@@ -85,7 +85,7 @@ ht-degree: 91%
 
 1. **[!UICONTROL オーケストレーション]**&#x200B;カテゴリから、**[!UICONTROL 条件]**&#x200B;アクティビティをキャンバスにドロップします。[詳細情報](condition-activity.md#add-condition-activity)
 
-1. （任意）最初に定義した式に対応する **[!UICONTROL Path1]** の名前を、より関連性の高いラベルに変更します。
+1. （オプション）定義する最初の式に対応する **[!UICONTROL Path1]** の名前を、より関連性の高いラベルに変更します。
 
 1. この最初のパスでは、「**[!UICONTROL 式]**」フィールド内をクリックするか、編集アイコンを使用して式を追加します。
 
@@ -103,7 +103,7 @@ ht-degree: 91%
 
    >[!NOTE]
    >
-   >決定ルールで使用されるジャーニーエクスペリエンスイベント（コンテキストデータとして）または [ オファースキーマ ](../experience-decisioning/catalogs.md#access-catalog-schema) のいずれかで属性に定義された制限ラベルは、DULE または同意のポリシー違反となります。 データガバナンスポリシーについて詳しくは、[この節](../action/action-privacy.md)を参照してください
+   >決定ルールで使用されるジャーニーエクスペリエンスイベント（コンテキストデータとして）または[オファースキーマ](../experience-decisioning/catalogs.md#access-catalog-schema)のいずれかで、属性に定義された制限ラベルは、DULE または同意のポリシー違反にはなりません。データガバナンスポリシーについて詳しくは、[この節](../action/action-privacy.md)を参照してください
 
 1. ジャーニーにエントリするプロファイルに対してオファーが返されたかどうかを確認するには、構文 `listSize(@decision{ContentdecisionName.items})>0` で [listSize](functions/functionlistsize.md) 関数を使用します
 

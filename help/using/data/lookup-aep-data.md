@@ -11,7 +11,7 @@ level: Intermediate
 keywords: 式, エディター
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
 source-git-commit: bd1274a5547f4ea835fc258f280c1efc667b6780
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '441'
 ht-degree: 100%
 
@@ -21,8 +21,8 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="lookup-aep-data"
->title="ルックアップで有効にする"
->abstract="ルックアップで有効にする"
+>title="参照のために有効にする"
+>abstract="参照のために有効にする"
 
 >[!AVAILABILITY]
 >
