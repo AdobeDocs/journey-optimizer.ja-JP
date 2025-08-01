@@ -241,7 +241,7 @@ ht-degree: 94%
 
 ## 「データ」タブ {#data-tab}
 
-「**データ**」タブから、**[!UICONTROL  キー ]**&#x200B;および **[!UICONTROL 値]** を定義して、ペイロードにカスタム変数を含めることができます。 これらのキーと値のペアを使用すると、特定の設定に応じて、追加のデータを渡すことができます。
+「**データ**」タブから、**[!UICONTROL &#x200B; キー &#x200B;]**&#x200B;および **[!UICONTROL 値]** を定義して、ペイロードにカスタム変数を含めることができます。 これらのキーと値のペアを使用すると、特定の設定に応じて、追加のデータを渡すことができます。
 
 詳しくは、[ 開発者向けドキュメント ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/in-app-message/tutorials/messaging-metadata/) を参照してください。
 
@@ -249,7 +249,7 @@ ht-degree: 94%
 
    ![](assets/in-app-data-menu.png)
 
-1. 「**[!UICONTROL  キー ]**&#x200B;」および「**[!UICONTROL 値]**」フィールドに入力します。
+1. 「**[!UICONTROL &#x200B; キー &#x200B;]**&#x200B;」および「**[!UICONTROL 値]**」フィールドに入力します。
 
    ![](assets/in-app-data-menu-1.png)
 
