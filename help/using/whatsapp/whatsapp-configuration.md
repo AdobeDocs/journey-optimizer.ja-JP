@@ -180,6 +180,6 @@ Webhook が設定されたので、WhatsApp 設定を作成できます。
 
 +++ こちらのビデオをご覧ください
 
->[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470269/?learn=on&captions=jpn)
 
 +++
