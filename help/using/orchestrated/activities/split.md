@@ -7,10 +7,10 @@ badge: label="アルファ版"
 hide: true
 hidefromtoc: true
 exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: e71cbc5b29a31e2f23b408ae8c8b73379a44275d
 workflow-type: tm+mt
 source-wordcount: '917'
-ht-degree: 81%
+ht-degree: 77%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 81%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_filter"
 >title="分割アクティビティのフィルター"
->abstract="サブセットにフィルタリング条件を適用するには、「**[!UICONTROL フィルターを作成]**」をクリックし、クエリモデラーを使用して目的のフィルタリングルールを設定します。例えば、データベースにメールアドレスが存在する入力母集団のプロファイルを含めます。"
+>abstract="サブセットにフィルター条件を適用するには、「**[!UICONTROL フィルターを作成]**」をクリックし、ルールビルダーを使用して目的のフィルタールールを設定します。 例えば、データベースにメールアドレスが存在する入力母集団のプロファイルを含めます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_limit"
@@ -107,7 +107,7 @@ ht-degree: 81%
 
    1. サブセットをクリックして、設定を開きます。
 
-   1. 「**[!UICONTROL フィルターを作成]**」をクリックし、クエリモデラーを使用してフィルタリングルールを定義します（例えば、有効なメールアドレスを持つプロファイルを選択します）。
+   1. 「**[!UICONTROL フィルターを作成]**」をクリックし、ルールビルダーを使用してフィルタールールを定義します（例：有効なメールアドレスを持つプロファイルを選択）。
 
       ![](../assets/orchestrated-split-1.png)
 
