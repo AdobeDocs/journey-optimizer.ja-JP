@@ -127,7 +127,7 @@ Edge Network の動作をデバッグするには、次の手順に従います�
 
    「プロファイル」セクションの **segmentsMap** 要素を開き、**joai** セグメント ID の存在を探すことで、Edge Network 配信サーバーのプロファイルのビューに **joai** セグメントが存在するかどうかを再確認できます。
 
-1. Edge Network 配信サーバーがプロファイルを関連する **joai** セグメント内にあると表示しない場合は、次の手順に進みます。<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
+1. Edge Network 配信サーバーがプロファイルを関連する **joai** セグメント内にあると表示しない場合は、次の手順に進みます。<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
 
 ### 手順 3：「joai」オーディエンスメンバーシップが Edge Network に生成されているかどうかを確認する {#step-3}
 
@@ -215,8 +215,8 @@ Edge プロファイルの `segmentMembership` 属性に **joai** セグメン�
 
 ## Reference Section {#reference-section}
 
-- [Assurance Setup Guide](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance)
+- [Assurance Setup Guide](https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/tutorials/using-assurance)
 - [Adobe Experience Platform Documentation](https://experienceleague.adobe.com/docs/experience-platform/home.html)
-- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html)
+- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=ja)
 
 -->
