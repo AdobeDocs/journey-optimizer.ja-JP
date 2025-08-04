@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
+source-git-commit: 638cf11c6967ce1d9e1f9c1d58421c75098e89b5
 workflow-type: tm+mt
-source-wordcount: '2053'
+source-wordcount: '2124'
 ht-degree: 71%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 71%
 <!--
 **Pre release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 **リリース日**：2025年7月29日（PT）
 
@@ -87,6 +87,22 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <p>この機能は、限定提供（LA）で利用できます。 アクセス権を取得するには、Adobe担当者にお問い合わせください。</p>
 詳しくは、<a href="../experience-decisioning/create-decision.md"> 詳細ドキュメント </a> を参照してください。</p>
 </td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>LINE チャネル</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizer では、クロスチャネル機能を拡張し、LINE チャネルのサポートを含めました。この機能強化により、LINE エクスペリエンスを作成、編集、プレビューできます。これにより、よりパーソナライズされた魅力的なインタラクションが可能になります。LINE を使用すると、より多くのお客様とつながり、関連性の高いコンテンツを送信し、エンゲージメントを向上させることができます。</p>
+<p>以前はリクエストのみ可能でしたが、すべてのユーザーが LINE チャネルを利用できるようになりました（一般公開）。</p>
+<p>詳しくは、<a href="../line/get-started-line.md">詳細なドキュメント</a>を参照してください。</p></td>
 </tr>
 </tbody>
 </table>
@@ -264,7 +280,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 **リリース日**：2025年6月18日（PT）
 
-<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+<!--See also [Adobe Experience Platform Pre Release Notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新機能 {#25-06-features}
 
