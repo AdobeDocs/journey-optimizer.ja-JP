@@ -3,14 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 式の編集
 description: 式の編集方法について説明します。
-badge: label="アルファ版"
+badge: label="Alpha"
 hide: true
 hidefromtoc: true
 exl-id: bf0a905f-00af-4ed7-9e4f-bf8cb0af9ea9
 source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
 workflow-type: tm+mt
 source-wordcount: '2150'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 97%
 
 | オーケストレートキャンペーンへようこそ | 初めてのオーケストレートキャンペーンの開始 | データベースのクエリ | 調整されたキャンペーンアクティビティ |
 |---|---|---|---|
-| [ 調整されたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)<br/><br/> リレーショナルスキーマとデータセットの作成および管理：</br> <ul><li>[ スキーマとデータセットの概要 ](gs-schemas.md)</li><li>[ 手動スキーマ ](manual-schema.md)</li><li>[ ファイルアップロードスキーマ ](file-upload-schema.md)</li><li>[ データの取り込み ](ingest-data.md)</li></ul>[ オーケストレートキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md)<br/><br/>[ オーケストレートキャンペーンを作成するための主な手順 ](gs-campaign-creation.md) | [キャンペーンの作成とスケジュール](create-orchestrated-campaign.md)<br/><br/>[アクティビティの調整](orchestrate-activities.md)<br/><br/>[キャンペーンの開始と監視](start-monitor-campaigns.md)<br/><br/>[レポート](reporting-campaigns.md) | [ルールビルダーの操作](orchestrated-rule-builder.md)<br/><br/>[最初のクエリの作成](build-query.md)<br/><br/><b>[式の編集](edit-expressions.md)</b><br/><br/>[リターゲティング](retarget.md) | [アクティビティの基本を学ぶ](activities/about-activities.md)<br/><br/>アクティビティ：<br/>[AND 結合](activities/and-join.md) - [オーディエンスを作成](activities/build-audience.md) - [ディメンションを変更](activities/change-dimension.md) - [チャネルアクティビティ](activities/channels.md) - [結合](activities/combine.md) - [重複排除](activities/deduplication.md) - [エンリッチメント](activities/enrichment.md) - [分岐](activities/fork.md) - [紐付け](activities/reconciliation.md) - [オーディエンスを保存](activities/save-audience.md) - [分割](activities/split.md) - [待機](activities/wait.md) |
+| [ 調整されたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)<br/><br/> リレーショナルスキーマとデータセットの作成および管理：</br> <ul><li>[スキーマとデータセットの基本を学ぶ](gs-schemas.md)</li><li>[手動スキーマ](manual-schema.md)</li><li>[ファイルアップロードスキーマ](file-upload-schema.md)</li><li>[データを取得](ingest-data.md)</li></ul>[ オーケストレートキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md)<br/><br/>[ オーケストレートキャンペーンを作成するための主な手順 ](gs-campaign-creation.md) | [キャンペーンの作成とスケジュール](create-orchestrated-campaign.md)<br/><br/>[アクティビティの調整](orchestrate-activities.md)<br/><br/>[キャンペーンの開始と監視](start-monitor-campaigns.md)<br/><br/>[レポート](reporting-campaigns.md) | [ルールビルダーの操作](orchestrated-rule-builder.md)<br/><br/>[最初のクエリの作成](build-query.md)<br/><br/><b>[式の編集](edit-expressions.md)</b><br/><br/>[リターゲティング](retarget.md) | [アクティビティの基本を学ぶ](activities/about-activities.md)<br/><br/>アクティビティ：<br/>[AND 結合](activities/and-join.md) - [オーディエンスを作成](activities/build-audience.md) - [ディメンションを変更](activities/change-dimension.md) - [チャネルアクティビティ](activities/channels.md) - [結合](activities/combine.md) - [重複排除](activities/deduplication.md) - [エンリッチメント](activities/enrichment.md) - [分岐](activities/fork.md) - [紐付け](activities/reconciliation.md) - [オーディエンスを保存](activities/save-audience.md) - [分割](activities/split.md) - [待機](activities/wait.md) |
 
 {style="table-layout:fixed"}
 
@@ -79,7 +79,7 @@ ht-degree: 97%
 <td>Avg(&lt;値&gt;)</td>
 </tr>
 <tr>
-<td><strong>カウント</strong></td>
+<td><strong>Count</strong></td>
 <td>列の null でない値をカウントします</td>
 <td>Count(&lt;値&gt;)</td>
 </tr>
@@ -114,7 +114,7 @@ ht-degree: 97%
 <td>StringAgg(&lt;値&gt;, &lt;文字列&gt;)</td>
 </tr>
 <tr>
-<td><strong>合計</strong></td>
+<td><strong>Sum</strong></td>
 <td>数値、文字列または日付タイプの列の値の合計を返します</td>
 <td>Sum(&lt;値&gt;)</td>
 </tr>
@@ -178,7 +178,7 @@ ht-degree: 97%
 <td>DateOnly(&lt;日付&gt;)</td>
 </tr>
 <tr>
-<td><strong>日</strong></td>
+<td><strong>Day</strong></td>
 <td>日付の日を表す数を返します</td>
 <td>Day(&lt;日付&gt;)</td>
 </tr>
@@ -213,7 +213,7 @@ ht-degree: 97%
 <td>GetDate()</td>
 </tr>
 <tr>
-<td><strong>時間</strong></td>
+<td><strong>Hour</strong></td>
 <td>日付の時間を返します</td>
 <td>Hour(&lt;日付&gt;)</td>
 </tr>
@@ -223,7 +223,7 @@ ht-degree: 97%
 <td>HoursDiff(&lt;終了日&gt;, &lt;開始日&gt;)</td>
 </tr>
 <tr>
-<td><strong>分</strong></td>
+<td><strong>Minute</strong></td>
 <td>日付の分を返します</td>
 <td>Minute(&lt;日付&gt;)</td>
 </tr>
@@ -233,7 +233,7 @@ ht-degree: 97%
 <td>MinutesDiff(&lt;終了日&gt;, &lt;開始日&gt;)</td>
 </tr>
 <tr>
-<td><strong>月</strong></td>
+<td><strong>Month</strong></td>
 <td>日付の月を表す数を返します</td>
 <td>Month(&lt;日付&gt;)</td>
 </tr>
@@ -353,7 +353,7 @@ ht-degree: 97%
 <td>WeekDay(&lt;日付&gt;)</td>
 </tr>
 <tr>
-<td><strong>年</strong></td>
+<td><strong>Year</strong></td>
 <td>日付の年を表す数を返します</td>
 <td>Year(&lt;日付&gt;)</td>
 </tr>
@@ -507,7 +507,7 @@ ht-degree: 97%
   <tr> 
    <td> <strong>Case</strong><br /> </td> 
    <td> 条件が true の場合は値 1 を返します。そうでない場合は値 2 を返します<br /> </td> 
-   <td> (When(&lt;条件&gt;, &lt;値 1&gt;), Else(&lt;値 2&gt;))<br /> </td> 
+   <td> Case(When(&lt;条件&gt;, &lt;値 1&gt;), Else(&lt;値 2&gt;))<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>ClearBit</strong><br /> </td> 
@@ -665,7 +665,7 @@ ht-degree: 97%
    <td> Length(&lt;文字列&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <strong>行</strong><br /> </td> 
+   <td> <strong>Line</strong><br /> </td> 
    <td> 文字列から n 行目を抽出<br /> </td> 
    <td> Line(&lt;文字列&gt;,&lt;数値&gt;)<br /></td> 
   </tr>
@@ -700,7 +700,7 @@ ht-degree: 97%
    <td> NodeValue (&lt;文字列&gt;, &lt;文字列&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <strong>置換</strong><br /> </td> 
+   <td> <strong>Replace</strong><br /> </td> 
    <td> 指定された文字列値のすべての発生を別の文字列値に置き換えます。<br /> </td> 
    <td> Replace(&lt;文字列&gt;,&lt;文字列&gt;,&lt;文字列&gt;)<br /></td> 
   </tr> 
@@ -772,7 +772,7 @@ ht-degree: 97%
    <td> <strong>構文</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>_Over__</strong><br /> </td> 
+   <td> <strong>_Over_</strong><br /> </td> 
    <td> 第 1 パラメーターとして入力された SQL 関数呼び出しを、第 2 パラメーターとして入力された「パーティション」または「並べ替え順」フィールドより優先して実行します<br /> </td> 
    <td> _Over_(&lt;値&gt;, &lt;値&gt;)<br /> </td>  
   </tr> 
