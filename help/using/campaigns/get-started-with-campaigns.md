@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: キャンペーン, 方法, 開始, Optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 100%
+source-wordcount: '708'
+ht-degree: 74%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule"
 >title="キャンペーンスケジュール"
->abstract="デフォルトでは、キャンペーンは手動でアクティブ化すると開始され、メッセージが 1 回送信されるとすぐに終了します。メッセージを送信する特定の日付を柔軟に設定できます。さらに、繰り返しアクションキャンペーンの終了日を指定できます。アクショントリガーでは、環境設定に応じてメッセージ送信頻度を設定することもできます。"
+>abstract="デフォルトでは、キャンペーンは手動でアクティブ化すると開始され、メッセージが 1 回送信されるとすぐに終了します。メッセージを送信する特定の日付を柔軟に設定できます。さらに、繰り返しアクションキャンペーンの終了日を指定できます。 アクショントリガーでは、環境設定に応じてメッセージ送信頻度を設定することもできます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule_start"
@@ -72,48 +72,75 @@ Journey Optimizer では、様々なタイプのキャンペーンを作成で�
 
   API トリガーキャンペーンを使用すると、適切なタイミングでオーディエンスにリーチするマーケティング通信や、パスワードのリセットなどの個人に対するトランザクション／運用メッセージが可能になります。これらの場合、プロファイル属性だけでなく、REST API ペイロードであるトリガー内のリアルタイムコンテキストデータも使用したパーソナライゼーションが必要になる可能性があります。
 
-<!--* **Orchestrated campaigns**
+* **調整されたキャンペーン**
 
-    Campaign Orchestration in Adobe Journey Optimizer powers sophisticated, brand-initiated marketing campaigns across channels, helping you drive engagement, revenue, and customer loyalty at scale.
+  Adobe Journey Optimizerの Campaign Orchestration は、あらゆるチャネルにわたる高度なブランド主導のマーケティングキャンペーンを強化し、エンゲージメント、売上高、顧客ロイヤルティを大規模に推進するのに役立ちます。
 
-    While cross-channel marketing is essential, Orchestrated campaigns make it seamless. With a visual, drag-and-drop interface, you can design and automate complex marketing workflows, from segmentation to message delivery, across multiple channels. Everything happens in one intuitive environment, built for speed, control, and efficiency.-->
+  クロスチャネルマーケティングは不可欠ですが、オーケストレートキャンペーンはシームレスに行います。 視覚的なドラッグ&amp;ドロップインターフェイスを使用すると、複数のチャネルをまたいで、セグメント化からメッセージ配信に至る複雑なマーケティングワークフローをデザインして自動化できます。 すべてが、速度、制御、効率のために構築された、1 つの直感的な環境で行われます。
 
-## 開始する前に {#campaign-prerequisites}
+## 前提条件 {#prerequisites}
 
-[!DNL Journey Optimizer] で最初のキャンペーンの作成を開始する前に、次の前提条件を確認してください。
+キャンペーンを作成する前に、以下の前提条件を確認してください。
 
-1. **適切な権限が必要です**。キャンペーンは、Campaign 管理者、Campaign 承認者、Campaign マネージャー、Campaign ビューアなど、キャンペーンに関係する&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;へのアクセス権を持つユーザーのみが使用できます。キャンペーンにアクセスできない場合は、権限を拡張する必要があります。
+### 権限
 
-   +++キャンペーン関連の役割の割り当て方法を説明します
+キャンペーンは、以下に示す適切な権限を持つユーザーのみが使用できます。 [Journey Optimizerの組み込みの役割の詳細情報 ](../administration/ootb-product-profiles.md)
 
-   1. [!DNL Permissions] 製品でユーザーに役割を割り当てるには、「**[!UICONTROL 役割]**」タブに移動し、ビルトインのキャンペーン関連の&#x200B;**[!UICONTROL 役割]**&#x200B;である Campaign 管理者、Campaign 承認者、Campaign マネージャー、Campaign 閲覧者のいずれかを選択します。
+>[!BEGINTABS]
 
-   1. 「**[!UICONTROL ユーザー]**」タブで「**[!UICONTROL ユーザーを追加]**」をクリックします。
+>[!TAB アクションキャンペーン]
 
-   1. ユーザーの名前またはメールアドレスを入力するか、リストからユーザーを選択して、「**[!UICONTROL 保存]**」をクリックします。
+Campaign 管理者
+Campaign 承認者
+キャンペーンマネージャー
+Campaign ビューア
 
-      まだユーザーを作成していない場合は、[ユーザーの追加についてのドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/ui/users)を参照してください。
+>[!TAB API トリガーキャンペーン]
 
-   これにより、ユーザーをインスタンスへリダイレクトするメールがユーザーに送られます。
+Campaign 管理者
+Campaign 承認者
+キャンペーンマネージャー
+Campaign ビューア
+
+>[!TAB  調整されたキャンペーン ]
+
+調整された Campaign 管理者
+調整された Campaign 承認者
+調整されたキャンペーンマネージャー
+調整された Campaign ビューア
+
+>[!ENDTABS]
+
+Campaign の機能にアクセスできない場合は、管理者に連絡して必要な権限をリクエストしてください。
+
++++キャンペーン関連の役割の割り当て方法を説明します
+
+1. [!DNL Permissions] 製品でユーザーに役割を割り当てるには、「**[!UICONTROL 役割]**」タブに移動し、上記の組み込みのキャンペーン関連 **[!UICONTROL 役割]** のいずれかを選択します。
+
+1. 「**[!UICONTROL ユーザー]**」タブで「**[!UICONTROL ユーザーを追加]**」をクリックします。
+
+1. ユーザーの名前またはメールアドレスを入力するか、リストからユーザーを選択して、「**[!UICONTROL 保存]**」をクリックします。
+
+   まだユーザーを作成していない場合は、[ユーザーの追加についてのドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/ui/users)を参照してください。
+
+これにより、ユーザーをインスタンスへリダイレクトするメールがユーザーに送られます。
 
 +++
 
-1. **オーディエンスが必要です**。キャンペーンを作成するには、まずオーディエンスを使用可能にする必要があります。[オーディエンスの基本を学ぶ](../audience/about-audiences.md)。
+### オーディエンス
 
-1. **チャネル設定が必要です**。チャンネルを選択できるようにするには、対応するチャネル設定（例：プリセット）を作成し、使用可能にする必要があります。[詳しくは、チャネル設定の指定方法を参照してください](../configuration/channel-surfaces.md)。
+キャンペーンを作成するには、まずオーディエンスを使用可能にする必要があります。[オーディエンスの基本を学ぶ](../audience/about-audiences.md)。
+
+### チャネル設定
+
+チャンネルを選択できるようにするには、対応するチャネル設定（例：プリセット）を作成し、使用可能にする必要があります。[詳しくは、チャネル設定の指定方法を参照してください](../configuration/channel-surfaces.md)。
 
 ## さらに深く掘り下げましょう
 
 これで、[!DNL Journey Optimizer] のキャンペーンについて理解できたので、これらのドキュメントの節をより深く掘り下げて、最初のキャンペーンの作成を開始します。
 
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;">
-<td><a href="create-campaign.md"><img alt="アクションキャンペーン" src="assets/do-not-localize/gs-action-campaign.png" width="50%"></a><br/><a href="create-campaign.md">アクションキャンペーン</a></td>
-<td><a href="api-triggered-campaigns.md"><img alt="SMS" src="assets/do-not-localize/gs-api-triggered-campaign.png" width="50%"></a><br/><a href="api-triggered-campaigns.md">API トリガーキャンペーン</a></td>
+<td><a href="create-campaign.md"><img width="70%" alt="アクションキャンペーン" src="assets/do-not-localize/gs-action-campaign.png"></a><br/><a href="create-campaign.md">アクションキャンペーン</a></td>
+<td><a href="api-triggered-campaigns.md"><img width="70%" alt="SMS" src="assets/do-not-localize/gs-api-triggered-campaign.png"></a><br/><a href="api-triggered-campaigns.md">API トリガーキャンペーン</a></td>
+<td><a href="../orchestrated/gs-orchestrated-campaigns.md"><img width="70%" alt="プッシュ" src="assets/do-not-localize/gs-orchestrated-campaign.png"></a><a href="../orchestrated/gs-orchestrated-campaigns.md">調整されたキャンペーン</a></td>
 </tr></table>
-
-<!--
-<table style="table-layout:fixed"><tr style="border: 0; text-align: center;">
-<td><a href="create-campaign.md"><img alt="action campaigns" src="assets/do-not-localize/gs-action-campaign.png"></a><br/><a href="create-campaign.md">Action campaigns</a></td>
-<td><a href="api-triggered-campaigns.md"><img alt="sms" src="assets/do-not-localize/gs-api-triggered-campaign.png"></a><br/><a href="api-triggered-campaigns.md">API triggered campaigns</a></td>
-<td><a href="../orchestrated/gs-orchestrated-campaigns.md"><img alt="push" src="assets/do-not-localize/gs-orchestrated-campaign.png"></a><a href="../orchestrated/gs-orchestrated-campaigns.md">Orchestrated campaigns</a></td>
-</tr></table>-->

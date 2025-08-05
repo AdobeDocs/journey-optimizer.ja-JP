@@ -9,10 +9,10 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: 権限, 高レベル, 低レベル, プロファイル, Admin Console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: e20db7c39e751bf720cd0ae75b4e8f031de18eef
-workflow-type: ht
-source-wordcount: '1087'
-ht-degree: 100%
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+workflow-type: tm+mt
+source-wordcount: '1301'
+ht-degree: 90%
 
 ---
 
@@ -527,32 +527,30 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
 +++
 
-<!--
-## Orchestrated campaign resource {#ai-orchestrated-campaign} 
+## 調整されたキャンペーンリソース {#ai-orchestrated-campaign}
 
-* **[!DNL Manage orchestrated campaigns]** high-level permission allows users to create new and edit/delete orchestrated campaigns.
+* 「」という高レベルの権限を持つユーザー **[!DNL Manage orchestrated campaigns]**、オーケストレーションされたキャンペーンを新規作成および編集/削除できます。
 
-  +++ This permission includes the following low-level permissions:  
++++ この権限には、次の低レベルの権限が含まれます。
 
-    * Journey Optimizer specific:
+   * Journey Optimizer 固有：
 
-      * orchestrated_campaigns.read  
-      * orchestrated_campaigns.write  
-      * orchestrated_campaigns.delete  
-      * cjm-web-subdomain.read  
-      * cjm-message.read  
-      * cjm-message.write  
-      * cjm-message.delete  
-      * cjm-library-item.read  
-      * cjm-message-general-setting.read  
-      * cjm-message-preset.read  
-      * cjm-message-preview-test.write  
-      * experiment.read  
-      * experiment.write  
-      * experiment.delete  
-      * experiment.activate
+      * orchestrated_campaigns.read
+      * orchestrated_campaigns.write
+      * orchestrated_campaigns.delete
+      * cjm-web-subdomain.read
+      * cjm-message.read
+      * cjm-message.write
+      * cjm-message.delete
+      * cjm-library-item.read
+      * cjm-message-general-setting.read
+      * cjm-message-preset.read
+      * cjm-message-preview-test.write
+      * experiment.read
+      * experiment.write
+      * experiment.delete
 
-    * Adobe Experience Platform specific:
+   * Adobe Experience Platform 固有：
 
       * identity-graph.read
       * segments.read
@@ -561,65 +559,91 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
       * schemas.read
       * sandboxes.view
 
-  +++
++++
 
-* **[!DNL Manage orchestrated campaigns admin]** high-level permission allows users to create new and edit/delete 
+* 「」という高レベルの権限を持つユーザー **[!DNL Manage orchestrated campaigns admin]**、Adobe Experience Platform プロファイルとリレーショナルストアエンティティ間のリンクおよび紐付けを新規作成したり、編集/削除したりできます。
 
-  +++ This permission includes the following low-level permissions:  
++++ この権限には、次の低レベルの権限が含まれます。
 
-    * Journey Optimizer specific:
+   * Journey Optimizer 固有：
 
+      * cjm-orchestrated-campaign-admin.read
+      * cjm-orchestrated-campaign-admin.write
+      * cjm-orchestrated-campaign-admin.delete
 
++++
 
-  +++
+* 「」という高レベル **[!DNL Publish orchestrated campaigns]** 権限を持つユーザーは、オーケストレーションされたキャンペーンを公開できます。
 
-* **[!DNL Publish orchestrated campaigns]** high-level permission allows users to publish orchestrated campaigns.
++++ この権限には、次の低レベルの権限が含まれます。
 
-  +++ This permission includes the following low-level permissions:
+   * Journey Optimizer 固有：
 
-    * Journey Optimizer specific:
+      * cjm-orchestrated-campaign.read
+      * cjm-orchestrated-campaign.publish
+      * cjm-web-subdomain.read
+      * cjm-message.read
+      * cjm-message.publish
+      * cjm-library-item.read
 
-      * orchestrated_campaigns.publish
-      * orchestrated_campaigns.read
+   * Adobe Experience Platform 固有：
 
+      * sandboxes.view
 
-  +++
++++
 
-* **[!DNL View orchestrated campaigns]** high-level permission allows users to 
+* 「」という高レベル **[!DNL View orchestrated campaigns]** 権限を持つユーザーは、オーケストレーションされたキャンペーンとそのコンテンツを表示できます。
 
-  +++ This permission includes the following low-level permissions:  
++++ この権限には、次の低レベルの権限が含まれます。
 
-    * Journey Optimizer specific:
+   * Journey Optimizer 固有：
 
-      * orchestrated_campaigns.read
+      * cjm-orchestrated-campaign.read
+      * cjm-message.read
+      * cjm-library-item.read
+      * cjm-message-general-setting.read
+      * cjm-message-preset.read
+      * experiment.read
 
-    * Adobe Experience Platform specific:
+   * Adobe Experience Platform 固有：
 
+      * sandboxes.view
       * segments.read
       * profiles.read
 
-  +++
++++
 
-* **[!DNL View orchestrated campaigns admin]** high-level permission allows users to 
+* 「」 **[!DNL View orchestrated campaigns admin]** いう高レベルの権限を持つユーザーは、管理設定を表示できますが、設定を編集することはできません。
 
-  +++ This permission includes the following low-level permissions:  
++++ この権限には、次の低レベルの権限が含まれます。
 
+   * Journey Optimizer 固有：
 
-  +++
+      * cjm-orchestrated-campaign-admin.read
 
-* **[!DNL View orchestrated campaigns report]** high-level permission allows users to read and edit orchestrated campaigns report.
++++
 
-  +++ This permission includes the following low-level permissions:  
+* 「」という高レベルの権限 **[!DNL View orchestrated campaigns report]** 持つユーザーは、調整されたキャンペーンのパフォーマンスをライブレポートとビジネスレポートの両方で表示できます。
 
-    * Journey Optimizer specific:
-      * orchestrated_campaigns_report.read
-      * messages_report.read
++++ この権限には、次の低レベルの権限が含まれます。
 
-    * Adobe Experience Platform specific:
+   * Journey Optimizer 固有：
 
+      * cjm-orchestrated-campaign-reports.read
+      * cjm-message-report.read
+      * cjm-channel-report.read
+      * cjm-orchestrated-campaign.read
+      * cjm-message.read
+      * cjm-library-item.read
+      * experiment.read
+      * experiment-report.read
+
+   * Adobe Experience Platform 固有：
+
+      * sandboxes.view
       * datasets.read
       * queries.read
       * queries.write
       * queries.delete
-  +++
--->
+
++++

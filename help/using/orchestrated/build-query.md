@@ -3,38 +3,16 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 最初のルールの作成
 description: オーケストレートキャンペーン用のルールを作成する方法を説明します
-badge: label="アルファ版"
-hide: true
-hidefromtoc: true
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '1834'
-ht-degree: 95%
+source-wordcount: '1717'
+ht-degree: 97%
 
 ---
 
+
 # 最初のルールの作成 {#build-query}
-
-+++ 目次
-
-| オーケストレートキャンペーンへようこそ | 初めてのオーケストレートキャンペーンの開始 | データベースのクエリ | 調整されたキャンペーンアクティビティ |
-|---|---|---|---|
-| [ 調整されたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)<br/><br/> リレーショナルスキーマとデータセットの作成および管理：</br> <ul><li>[ スキーマとデータセットの概要 ](gs-schemas.md)</li><li>[ 手動スキーマ ](manual-schema.md)</li><li>[ ファイルアップロードスキーマ ](file-upload-schema.md)</li><li>[ データの取り込み ](ingest-data.md)</li></ul>[ オーケストレートキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md)<br/><br/>[ オーケストレートキャンペーンを作成するための主な手順 ](gs-campaign-creation.md) | [キャンペーンの作成とスケジュール](create-orchestrated-campaign.md)<br/><br/>[アクティビティの調整](orchestrate-activities.md)<br/><br/>[キャンペーンの開始と監視](start-monitor-campaigns.md)<br/><br/>[レポート](reporting-campaigns.md) | [ルールビルダーの操作](orchestrated-rule-builder.md)<br/><br/><b>[最初のクエリの作成](build-query.md)</b><br/><br/>[式の編集](edit-expressions.md)<br/><br/>[リターゲティング](retarget.md) | [アクティビティの基本を学ぶ](activities/about-activities.md)<br/><br/>アクティビティ：<br/>[AND 結合](activities/and-join.md) - [オーディエンスを作成](activities/build-audience.md) - [ディメンションを変更](activities/change-dimension.md) - [チャネルアクティビティ](activities/channels.md) - [結合](activities/combine.md) - [重複排除](activities/deduplication.md) - [エンリッチメント](activities/enrichment.md) - [分岐](activities/fork.md) - [紐付け](activities/reconciliation.md) - [オーディエンスを保存](activities/save-audience.md) - [分割](activities/split.md) - [待機](activities/wait.md) |
-
-{style="table-layout:fixed"}
-
-+++
-
-<br/>
-
->[!BEGINSHADEBOX]
-
-</br>
-
-このページのコンテンツは最終的なものではなく、変更される場合があります。
-
->[!ENDSHADEBOX]
 
 オーケストレートキャンペーンのルールを作成する主な手順は次のとおりです。
 
@@ -113,7 +91,7 @@ ht-degree: 95%
    | 次に類似 | 「次を含む」演算子と同様に、値に % ワイルドカード文字を挿入できます。 | 姓（@lastName）が「Jon%s」に類似しています。ワイルドカード文字は、「佐藤」のような名前を見つけるために「ジョーカー」として機能します。 |
    | 次に類似しない | 「次を含む」演算子と同様に、値に % ワイルドカード文字を挿入できます。 | 姓（@lastName）が「Smi%h」に類似していません。姓が「田中」の受信者は返されません。 |
 
-   +++
++++
 
 1. 「**値**」フィールドで、期待値を定義します。また、式エディターを使用し、データベースのフィールドとヘルパー関数を使用して式を手動で定義することもできます。これを行うには、![式エディターのアイコンを示す画像](assets/do-not-localize/rule-builder-icon-editor.svg) アイコンをクリックします。[詳しくは、式の編集方法を参照してください。](../orchestrated/edit-expressions.md)
 
@@ -123,7 +101,7 @@ ht-degree: 95%
 
    ![「プリセット」オプションを示す画像](assets/rule-builder-attribute-preset.png)
 
-   +++
++++
 
 ### リンクされたテーブルのカスタム条件（1 対 1 および 1 対多リンク）{#links}
 
@@ -230,8 +208,9 @@ ht-degree: 95%
 
 <br/>
 
-    >[ !重要]
-    >
-    >ルールのプロパティパネルから定義済みフィルターを選択すると、キャンバスに作成されたルールが選択したフィルターで置き換えられます。
-
 ルールの準備が整ったら、「**[!UICONTROL 確認]**」ボタンをクリックして保存します。
+
+>[!IMPORTANT]
+>
+>「ルールのプロパティ」ペインから定義済みフィルターを選択すると、キャンバスで作成されたルールが選択したフィルターに置き換えられます。
+

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b74d3137-2dd9-4302-a56e-73503d318d18
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '490'
-ht-degree: 100%
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+workflow-type: tm+mt
+source-wordcount: '519'
+ht-degree: 94%
 
 ---
 
@@ -44,6 +44,9 @@ KPI は、キャンペーンで使用されるチャネルによって異なり�
 * **[!UICONTROL 表示数]**：メッセージが開封された回数。
 
 +++
+
+>[!AVAILABILITY]
+>調整されたキャンペーンは、SMS、メール、プッシュの各チャネルのみをサポートします。 その他のチャネル（アプリ内、web、ダイレクトメールなど）は、調整されたキャンペーンでは使用できず、レポートには表示されません。
 
 ### キャンペーンの概要 {#delivery-global}
 

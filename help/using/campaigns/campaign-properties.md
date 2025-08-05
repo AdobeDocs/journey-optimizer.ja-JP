@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 作成, Optimizer, キャンペーン, サーフェス, メッセージ
 exl-id: a7b03b71-0f2c-45ca-a2f7-38ddc64913c1
-source-git-commit: 45c95d5682b35c8afb161b75c88942c010b36d1c
-workflow-type: ht
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+workflow-type: tm+mt
 source-wordcount: '165'
-ht-degree: 100%
+ht-degree: 81%
 
 ---
 
@@ -37,4 +37,4 @@ ht-degree: 100%
 
 ## 次の手順 {#next}
 
-アクションキャンペーンを作成および設定したら、このアクションを設定できます。 [詳細情報](campaign-action.md)
+アクションキャンペーンを作成および設定したら、そのアクションを設定できます。 [詳細情報](campaign-action.md)

@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '2594'
+source-wordcount: '2591'
 ht-degree: 98%
 
 ---
@@ -202,14 +202,14 @@ ht-degree: 98%
       + [キャンペーン実行のトリガー](using/campaigns/trigger-campaigns.md)
    + 調整されたキャンペーン {#orchestrated-campaigns}
       + [オーケストレートキャンペーンの基本を学ぶ](using/orchestrated/gs-orchestrated-campaigns.md)
-      + リレーショナルスキーマとデータセットの管理 {#schemas-datasets}
-         + [スキーマとデータセットの基本を学ぶ](using/orchestrated/gs-schemas.md)
-         + [手動スキーマ](using/orchestrated/manual-schema.md)
-         + [ファイルアップロードスキーマ](using/orchestrated/file-upload-schema.md)
-         + [データを取得](using/orchestrated/ingest-data.md)
-      + [調整されたキャンペーンへのアクセスと管理](using/orchestrated/access-manage-orchestrated-campaigns.md)
-      + [ターゲティングディメンションの作成](using/orchestrated/target-dimension.md)
       + [ガードレールと制限](using/orchestrated/guardrails.md)
+      + データ設定 {#configuration}
+         + リレーショナルスキーマとデータセットの管理 {#schemas-datasets}
+            + [スキーマとデータセットの基本を学ぶ](using/orchestrated/gs-schemas.md)
+            + [手動スキーマ](using/orchestrated/manual-schema.md)
+            + [ファイルアップロードスキーマ](using/orchestrated/file-upload-schema.md)
+            + [データを取得](using/orchestrated/ingest-data.md)
+         + [ターゲティングディメンションの作成](using/orchestrated/target-dimension.md)
       + 初めてのオーケストレートキャンペーンの開始{#launch}
          + [オーケストレートキャンペーンを作成するための主な手順](using/orchestrated/gs-campaign-creation.md)
          + [キャンペーンの作成とスケジュール](using/orchestrated/create-orchestrated-campaign.md)

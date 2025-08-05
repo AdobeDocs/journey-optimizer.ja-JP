@@ -3,16 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 調整されたキャンペーンでのテスト アクティビティの使用
 description: テストアクティビティの使用方法について説明します
-badge: label="アルファ版"
-hide: true
-hidefromtoc: true
 exl-id: edd70849-0a21-45f2-91f3-4774a0cad9dd
-source-git-commit: 458e0b19725147e0a3ad34891ca55b61f1ac44a8
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 59%
+source-wordcount: '375'
+ht-degree: 66%
 
 ---
+
 
 # テスト {#test}
 
@@ -25,26 +23,6 @@ ht-degree: 59%
 >id="ajo_orchestration_test_conditions"
 >title="条件"
 >abstract="**テスト**&#x200B;アクティビティには、複数の出力トランジションを含めることができます。オーケストレーションされたキャンペーンの実行中、各条件のいずれかが満たされるまで、各条件が順番にテストされます。 どの条件も満たさない場合、オーケストレーションされたキャンペーンは **[!UICONTROL デフォルトの条件]** のパスに沿って続行されます。 デフォルトの条件が有効化されていない場合、オーケストレートキャンペーンはこの時点で停止します。"
-
-+++ 目次
-
-| オーケストレートキャンペーンへようこそ | 初めてのオーケストレートキャンペーンの開始 | データベースのクエリ | 調整されたキャンペーンアクティビティ |
-|---|---|---|---|
-| [ 調整されたキャンペーンの基本を学ぶ ](../gs-orchestrated-campaigns.md)<br/><br/> リレーショナルスキーマとデータセットの作成および管理：</br> <ul><li>[ スキーマとデータセットの概要 ](../gs-schemas.md)</li><li>[ 手動スキーマ ](../manual-schema.md)</li><li>[ ファイルアップロードスキーマ ](../file-upload-schema.md)</li><li>[ データの取り込み ](../ingest-data.md)</li></ul>[ オーケストレーションされたキャンペーンへのアクセスと管理 ](../access-manage-orchestrated-campaigns.md) | [ オーケストレーションされたキャンペーンを作成 ](../gs-campaign-creation.md)<br/><br/>[ キャンペーンを作成およびスケジュール ](../create-orchestrated-campaign.md)<br/><br/>[ アクティビティをオーケストレーション ](../orchestrate-activities.md)<br/><br/>[ キャンペーンを開始および監視 ](../start-monitor-campaigns.md)<br/><br/>[ レポート ](../reporting-campaigns.md) 主な手順 | [ルールビルダーの操作](../orchestrated-rule-builder.md)<br/><br/>[最初のクエリの作成](../build-query.md)<br/><br/>[式の編集](../edit-expressions.md)<br/><br/>[リターゲティング](../retarget.md) | [アクティビティの基本を学ぶ](about-activities.md)<br/><br/>アクティビティ：<br/>[AND 結合](and-join.md) - [オーディエンスを作成](build-audience.md) - [ディメンションを変更](change-dimension.md) - [チャネルアクティビティ](channels.md) - [結合](combine.md) - [重複排除](deduplication.md) - [エンリッチメント](enrichment.md) - [分岐](fork.md) - [紐付け](reconciliation.md) - [オーディエンスを保存](save-audience.md) - [分割](split.md) - [待機](wait.md) |
-
-{style="table-layout:fixed"}
-
-+++
-
-<br/>
-
->[!BEGINSHADEBOX]
-
-</br>
-
-このページのコンテンツは最終的なものではなく、変更される場合があります。
-
->[!ENDSHADEBOX]
 
 **[!UICONTROL テスト]**&#x200B;アクティビティは&#x200B;**[!UICONTROL フロー制御]**&#x200B;アクティビティです。指定した条件に基づいたトランジションを有効にできます。
 

@@ -3,38 +3,16 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Adobe Journey Optimizerでオーケストレートキャンペーンを作成
 description: Adobe Journey Optimizerでオーケストレートキャンペーンを作成する方法を学ぶ
-badge: label="アルファ版"
-hide: true
-hidefromtoc: true
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '998'
-ht-degree: 55%
+source-wordcount: '882'
+ht-degree: 56%
 
 ---
 
+
 # キャンペーンアクティビティの調整 {#orchestrate}
-
-+++ 目次
-
-| オーケストレートキャンペーンへようこそ | 初めてのオーケストレートキャンペーンの開始 | データベースのクエリ | 調整されたキャンペーンアクティビティ |
-|---|---|---|---|
-| [ 調整されたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)<br/><br/> リレーショナルスキーマとデータセットの作成および管理：</br> <ul><li>[ スキーマとデータセットの概要 ](gs-schemas.md)</li><li>[ 手動スキーマ ](manual-schema.md)</li><li>[ ファイルアップロードスキーマ ](file-upload-schema.md)</li><li>[ データの取り込み ](ingest-data.md)</li></ul>[ オーケストレートキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md)<br/><br/>[ オーケストレートキャンペーンを作成するための主な手順 ](gs-campaign-creation.md) | [キャンペーンの作成とスケジュール](create-orchestrated-campaign.md)<br/><br/><b>[アクティビティの調整](orchestrate-activities.md)</b><br/><br/>[キャンペーンの開始と監視](start-monitor-campaigns.md)<br/><br/>[レポート](reporting-campaigns.md) | [ルールビルダーの操作](orchestrated-rule-builder.md)<br/><br/>[最初のクエリの作成](build-query.md)<br/><br/>[式の編集](edit-expressions.md)<br/><br/>[リターゲティング](retarget.md) | [アクティビティの基本を学ぶ](activities/about-activities.md)<br/><br/>アクティビティ：<br/>[AND 結合](activities/and-join.md) - [オーディエンスを作成](activities/build-audience.md) - [ディメンションを変更](activities/change-dimension.md) - [チャネルアクティビティ](activities/channels.md) - [結合](activities/combine.md) - [重複排除](activities/deduplication.md) - [エンリッチメント](activities/enrichment.md) - [分岐](activities/fork.md) - [紐付け](activities/reconciliation.md) - [オーディエンスを保存](activities/save-audience.md) - [分割](activities/split.md) - [待機](activities/wait.md) |
-
-{style="table-layout:fixed"}
-
-+++
-
-<br/>
-
->[!BEGINSHADEBOX]
-
-</br>
-
-このページのコンテンツは最終的なものではなく、変更される場合があります。
-
->[!ENDSHADEBOX]
 
 [ オーケストレーションされたキャンペーンを作成 ](gs-campaign-creation.md) したら、実行される様々なタスクのオーケストレーションを開始できます。 これを行うために、視覚的なキャンバスが提供され、オーケストレーションされたキャンペーン図を作成できます。 このダイアグラムに様々なアクティビティを追加し、順番に接続できます。
 
@@ -84,7 +62,7 @@ ht-degree: 55%
 
 ![「一時停止」アイコン](assets/do-not-localize/activity-pause.svg) ![「再開」アイコン](assets/do-not-localize/activity-resume.svg)：アクティビティを一時停止／再開します。オーケストレートキャンペーンを実行すると、一時停止したアクティビティで一時停止します。 対応するタスクと、同じパス内でそのタスクに続くすべてのタスクが実行されません。
 
-キャンバス内の任意のアクティビティをブレークポイントとして使用して、キャンペーンの実行を一時停止できます。 つまり、キャンペーンはこのアクティビティまで実行され、その後で実行を一時停止します。 実行の一時停止中、セグメント化エンジンはプレビューできる一時データを保持します。 一時停止したアクティビティの直前のインバウンドトランジションを選択して、トランスポートされたデータを表示できます。 詳しくは、「視覚的なフロー監視 [ を参照し ](../orchestrated/start-monitor-campaigns.md#flow) ください。
+キャンバス内の任意のアクティビティをブレークポイントとして使用して、キャンペーンの実行を一時停止できます。 つまり、キャンペーンはこのアクティビティまで実行され、その後で実行を一時停止します。 実行の一時停止中、セグメント化エンジンはプレビューできる一時データを保持します。 一時停止したアクティビティの直前のインバウンドトランジションを選択して、トランスポートされたデータを表示できます。 詳しくは、次の節を参照してください。[ 視覚的なフロー監視 ](../orchestrated/start-monitor-campaigns.md#flow)
 
 ![「コピー」アイコン](assets/do-not-localize/activity-copy.svg)：アクティビティをコピーします。[アクティビティのコピー＆ペースト方法の詳細情報](#copy)
 

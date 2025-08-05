@@ -3,38 +3,16 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Journey Optimizerを使用したオーケストレートキャンペーンの作成とスケジュール設定
 description: Adobe Journey Optimizerを使用してオーケストレートキャンペーンを作成およびスケジュールする方法について説明します
-badge: label="アルファ版"
-hide: true
-hidefromtoc: true
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '1232'
-ht-degree: 62%
+source-wordcount: '1116'
+ht-degree: 65%
 
 ---
 
 
 # オーケストレーションされたキャンペーンの作成とスケジュール {#create-first-campaign}
-
-+++ 目次
-
-| オーケストレートキャンペーンへようこそ | 初めてのオーケストレートキャンペーンの開始 | データベースのクエリ | 調整されたキャンペーンアクティビティ |
-|---|---|---|---|
-| [ 調整されたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)<br/><br/> リレーショナルスキーマとデータセットの作成および管理：</br> <ul><li>[ スキーマとデータセットの概要 ](gs-schemas.md)</li><li>[ 手動スキーマ ](manual-schema.md)</li><li>[ ファイルアップロードスキーマ ](file-upload-schema.md)</li><li>[ データの取り込み ](ingest-data.md)</li></ul>[ オーケストレートキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md)<br/><br/>[ オーケストレートキャンペーンを作成するための主な手順 ](gs-campaign-creation.md) | <b>[キャンペーンの作成とスケジュール](create-orchestrated-campaign.md)</b><br/><br/>[アクティビティの調整](orchestrate-activities.md)<br/><br/>[キャンペーンの開始と監視](start-monitor-campaigns.md)<br/><br/>[レポート](reporting-campaigns.md) | [ルールビルダーの操作](orchestrated-rule-builder.md)<br/><br/>[最初のクエリの作成](build-query.md)<br/><br/>[式の編集](edit-expressions.md)<br/><br/>[リターゲティング](retarget.md) | [アクティビティの基本を学ぶ](activities/about-activities.md)<br/><br/>アクティビティ：<br/>[AND 結合](activities/and-join.md) - [オーディエンスを作成](activities/build-audience.md) - [ディメンションを変更](activities/change-dimension.md) - [チャネルアクティビティ](activities/channels.md) - [結合](activities/combine.md) - [重複排除](activities/deduplication.md) - [エンリッチメント](activities/enrichment.md) - [分岐](activities/fork.md) - [紐付け](activities/reconciliation.md) - [オーディエンスを保存](activities/save-audience.md) - [分割](activities/split.md) - [待機](activities/wait.md) |
-
-{style="table-layout:fixed"}
-
-+++
-<br/>
-
->[!BEGINSHADEBOX]
-
-</br>
-
-このページのコンテンツは最終的なものではなく、変更される場合があります。
-
->[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer] でオーケストレーション済みキャンペーンを作成し、その実行スケジュールを、いつ開始し、どのくらいの頻度で実行するかを制御するために設定します。 キャンペーンをすぐに開始するか、特定の日時に開始するか、毎日、毎週、毎月の頻度などの柔軟なスケジュールオプションを使用して繰り返し開始するかを選択します。
 
@@ -63,7 +41,7 @@ ht-degree: 62%
 
       [!DNL Adobe Experience Platform] では、各オーディエンスは特定の結合ポリシーに関連付けられています。このポリシーは、プロファイル情報を組み合わせて結合プロファイルを形成する方法を定義します。 オーディエンスを読み取りアクティビティで結合ポリシーを選択した場合、同じ結合ポリシーに基づくオーディエンスのみを使用できます。 デフォルトでは、デフォルトの結合ポリシーが使用されますが、必要に応じて変更できます。 結合ポリシーについて詳しくは、[Adobe Experience Platform ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/merge-policies/overview){target="_blank"} を参照してください。
 
-   1. 「**[!UICONTROL タグ]**」フィールドを使用すると、Adobe Experience Platform統合タグをキャンペーンに割り当てることができます。 これにより、キャンペーンを簡単に分類し、オーケストレートキャンペーンリストからの検索を改善できます。 [詳しくは、タグの操作方法を参照してください](../start/search-filter-categorize.md#tags)。
+   1. 「**[!UICONTROL タグ]**」フィールドを使用して、Adobe Experience Platform 統合タグをキャンペーンに割り当てます。これにより、キャンペーンを簡単に分類し、オーケストレートキャンペーンリストからの検索を改善できます。 [詳しくは、タグの操作方法を参照してください](../start/search-filter-categorize.md#tags)。
 
    1. 「**[!UICONTROL 保存]**」をクリックします。
 
@@ -107,7 +85,7 @@ ht-degree: 62%
    * **[!UICONTROL 日付]**：キャンペーンを実行する日付を選択します。
    * **[!UICONTROL 時間]**：キャンペーンを実行する特定の時間を選択します。
 
-   +++
++++
 
    +++毎日
 
@@ -121,7 +99,7 @@ ht-degree: 62%
 
    * **[!UICONTROL 開始時間]**：毎日キャンペーンを実行する時間を定義します。
 
-   +++
++++
 
    +++1 日に数回
 
@@ -130,7 +108,7 @@ ht-degree: 62%
    * **[!UICONTROL 選択した時間]**：キャンペーンを実行する特定の時間を選択し、毎日の繰り返しを設定します（すべての曜日または特定の日に実行）。
    * **[!UICONTROL 定期的]**：n 分または n 時間ごとにキャンペーンを実行するように選択します。また、実行が許可される日内の時間範囲を定義することもできます。
 
-   +++
++++
 
    +++毎週
 
@@ -141,7 +119,7 @@ ht-degree: 62%
    * **[!UICONTROL 毎日の繰り返し]**：実行する特定の曜日を選択します（例：毎週月曜日と木曜日）。
    * **[!UICONTROL 開始時間]**：選択した曜日にキャンペーンを実行する時間を設定します。
 
-   +++
++++
 
    +++毎月
 
@@ -157,7 +135,7 @@ ht-degree: 62%
 
    * **[!UICONTROL 開始時間]**：キャンペーンを実行する時間を設定します。
 
-   +++
++++
 
 1. **[!UICONTROL 有効期間]**&#x200B;設定を使用して特定の開始日と終了日を定義し、キャンペーンの実行を限られた時間枠に制限します。
 

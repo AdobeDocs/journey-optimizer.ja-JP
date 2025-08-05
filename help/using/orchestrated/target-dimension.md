@@ -3,47 +3,36 @@ solution: Journey Optimizer
 product: journey optimizer
 title: ターゲティングディメンションの作成
 description: リレーショナルスキーマを顧客プロファイルにマッピングする方法を説明します
-badge: label="アルファ版"
-hide: true
-hidefromtoc: true
 exl-id: 2479c109-cd6f-407e-8a53-77e4477dc36f
-source-git-commit: 3be1b238962fa5d0e2f47b64f6fa5ab4337272a5
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 9%
+source-wordcount: '713'
+ht-degree: 0%
 
 ---
 
+
 # ターゲティングディメンションの設定 {#configuration}
 
-+++ 目次
+**[!UICONTROL オーケストレートキャンペーン]** を使用すると、Adobe Experience Platformのリレーショナルスキーマ機能を活用して、ターゲットコミュニケーションを設計し、エンティティレベルで配信できます。
 
-| オーケストレートキャンペーンへようこそ | 初めてのオーケストレートキャンペーンの開始 | データベースのクエリ | 調整されたキャンペーンアクティビティ |
-|---|---|---|---|
-| [ 調整されたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)<br/><br/> リレーショナルスキーマとデータセットの作成および管理：</br> <ul><li>[ スキーマとデータセットの概要 ](gs-schemas.md)</li><li>[ 手動スキーマ ](manual-schema.md)</li><li>[ ファイルアップロードスキーマ ](file-upload-schema.md)</li><li>[ データの取り込み ](ingest-data.md)</li></ul>[ オーケストレートキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md)<br/><br/>[ オーケストレートキャンペーンを作成するための主な手順 ](gs-campaign-creation.md)<br/><br/>[ ターゲットディメンションの設定 ](target-dimension.md) | <b>[キャンペーンの作成とスケジュール](create-orchestrated-campaign.md)</b><br/><br/>[アクティビティの調整](orchestrate-activities.md)<br/><br/>[キャンペーンの開始と監視](start-monitor-campaigns.md)<br/><br/>[レポート](reporting-campaigns.md) | [ルールビルダーの操作](orchestrated-rule-builder.md)<br/><br/>[最初のクエリの作成](build-query.md)<br/><br/>[式の編集](edit-expressions.md)<br/><br/>[リターゲティング](retarget.md) | [アクティビティの基本を学ぶ](activities/about-activities.md)<br/><br/>アクティビティ：<br/>[AND 結合](activities/and-join.md) - [オーディエンスを作成](activities/build-audience.md) - [ディメンションを変更](activities/change-dimension.md) - [チャネルアクティビティ](activities/channels.md) - [結合](activities/combine.md) - [重複排除](activities/deduplication.md) - [エンリッチメント](activities/enrichment.md) - [分岐](activities/fork.md) - [紐付け](activities/reconciliation.md) - [オーディエンスを保存](activities/save-audience.md) - [分割](activities/split.md) - [待機](activities/wait.md) |
+**[!UICONTROL オーケストレートキャンペーン]** のセグメント化は主にリレーショナルスキーマに基づいて動作しますが、実際のメッセージ配信は常に **プロファイル** レベルで行われます。
 
-{style="table-layout:fixed"}
+ターゲティングを設定する際には、次の 2 つの重要な側面を定義します。
 
-+++
+* **ターゲット可能スキーマ**
 
+  ターゲット設定の対象となるリレーショナルスキーマを指定します。 デフォルトでは、`Recipient` という名前のスキーマが使用されますが、`Visitors`、`Customers` などの代替値を設定できます。
 
-<br/>
+  >[!IMPORTANT]
+  >
+  > ターゲットスキーマは、:1 スキーマと 1`Profile` の関係がある必要があります。 例えば、通常は 1 対多の関係を表すので、`Purchases` をターゲットスキーマとして使用することはできません。
 
->[!BEGINSHADEBOX]
+* **プロファイルのリンケージ**
 
-</br>
-
-このページのコンテンツは最終的なものではなく、変更される場合があります。
-
->[!ENDSHADEBOX]
-
-多くの場合、1 つの顧客プロファイルを複数の関連エンティティ（サブスクリプション、サービス契約、デバイスなど）にリンクでき、それぞれに独自の識別子と通信ニーズがあります。
-
-**調整されたキャンペーン** を使用すると、**Adobe Experience Platformのリレーショナルスキーマ機能** を使用して、ターゲットコミュニケーションを設計し、エンティティレベルで配信できるようになりました。 これにより、受信者ごとではなく、エンティティごとにセグメント化、パーソナライズ、レポートをおこなうことができます。
+  システムは、ターゲットスキーマが `Profile` にどのようにマッピングされるかを理解する必要があります。 これは、共有 ID フィールドを通じて実現されます。共有 ID フィールドは、ターゲットスキーマと `Profile` スキーマの両方に存在し、ID 名前空間として設定されています。
 
 ## ターゲティングディメンションの作成 {#targeting-dimension}
-
-1 つの顧客プロファイルを、契約、デバイス、サブスクリプションなど、それぞれに一意の ID を持つ複数の関連エンティティに関連付けることができます。 この設定を使用すると、各エンティティを個別にターゲット、セグメント化およびレポートできます。
 
 まず、リレーショナルスキーマを顧客プロファイルにマッピングして、キャンペーンオーケストレーションを設定します。
 
@@ -55,21 +44,29 @@ ht-degree: 9%
 
 1. ドロップダウンから [ 以前に設定したスキーマ ](gs-schemas.md)&#x200B;を選択します。
 
+   すべてのリレーショナルスキーマが表示されますが、選択できるのは **プロファイル** への直接 ID 関係を持つスキーマのみです。
+
 1. ターゲットにするエンティティを表す **[!UICONTROL ID 値]** を選択します。
 
    この例では、顧客プロファイルは複数のサブスクリプションにリンクされ、それぞれが `crmID` スキーマ内の一意の `Recipient` で表されます。 **[!UICONTROL スキーマとその]** ID を使用するように `Recipient`Target Dimension`crmID` を設定することで、メイン顧客プロファイルではなく購読レベルでメッセージを送信でき、各契約または明細が独自にパーソナライズされたメッセージを受信するようになります。
 
-   [詳しくは、Adobe Experience Platform ドキュメントを参照してください。](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/schema/composition#identity)
+   [詳しくは、Adobe Experience Platform ドキュメントを参照してください。](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity)
 
    ![](assets/target-dimension-2.png)
 
-1. **[!UICONTROL 保存]** をクリックして、設定を完了します。
+1. **[!UICONTROL 保存]** をクリックして、設定を完了します。 一度作成した **[!UICONTROL ターゲットディメンション]** は、削除または編集できません。
 
 **[!UICONTROL Target Dimension]** を設定したら、**[!UICONTROL チャネル設定]** の作成とセットアップに進み、対応する **[!UICONTROL 実行の詳細]** を定義します。
 
 ## チャネル設定の指定 {#channel-configuration}
 
-**[!UICONTROL Target Dimension]** を設定した後、メールまたは SMS **[!UICONTROL チャネルを設定し]** 適切な **[!UICONTROL 実行の詳細]** を定義する必要があります。 これにより、正しい ID とターゲティングロジックを使用して、メッセージが送信されるようになります。
+**[!UICONTROL Target Dimension]** を設定した後、メールまたは SMS **[!UICONTROL チャネルを設定し]** 適切な **[!UICONTROL 実行の詳細]** を定義する必要があります。 次の項目を定義できます。
+
+* **メッセージ配信のレベル**：例えば、個々の受信者に 1 件のメールを送信するなど、受信者ごとに 1 件のメッセージを送信します。
+
+* **実行アドレス**：メールアドレスや電話番号など、送信に使用される特定の連絡先フィールド。
+
+チャネル設定を指定するには：
 
 1. まず、**[!UICONTROL チャネル設定]** を作成および設定します。
 
@@ -93,15 +90,21 @@ ht-degree: 9%
 
    ![](assets/target-dimension-4.png)
 
-1. 「**[!UICONTROL 実行アドレス]**」セクションで、配信アドレスの取得に使用する **[!UICONTROL 2&rbrace;Source&rbrace; を選択します（メールアドレスや電話番号など）。]**
+1. 配信方法として **[!UICONTROL ターゲット +セカンダリDimension]** を選択した場合は、**[!UICONTROL セカンダリDimension]** を選択して、メッセージ配信のコンテキストを定義します。
+
+1. 「**[!UICONTROL 実行アドレス]**」セクションで、配信アドレスの取得に使用する **[!UICONTROL 2}Source} を選択します（メールアドレスや電話番号など）。]**
 
    * **[!UICONTROL プロファイル]**：配信アドレス（メールなど）がメイン顧客プロファイルに直接保存されている場合は、このオプションを選択します。
 
      特定の関連エンティティではなく、メイン顧客にメッセージを送信する場合に役立ちます。
 
-   * **[!UICONTROL Target Dimension]**：配信アドレスが関連するエンティティ（受信者や購読など）に保存されている場合に選択します。
+   * **[!UICONTROL Target Dimension]**：配信アドレスがプライマリエンティティ（受信者など）に保存されている場合に選択します。
 
      各受信者が独自の配信アドレス（別のメールや電話番号など）を持っている場合に役立ちます。
+
+   * **[!UICONTROL セカンダリDimension]**: **[!UICONTROL Target +セカンダリDimension]** を配信方法として使用する場合は、以前に設定した関連する **[!UICONTROL セカンダリDimension]** を選択します。
+
+     例えば、セカンダリディメンションが予約または購読を表す場合、実行アドレス（メールなど）をそのレベルから取得できます。 これは、プロファイルがサービスの予約や購読時に異なる連絡先の詳細を使用する場合に便利です。
 
 1. 「**[!UICONTROL 配信アドレス]**」フィールドで ![ 編集アイコン ](assets/do-not-localize/edit.svg) をクリックして、メッセージ配信に使用する特定のフィールドを選択します。
 

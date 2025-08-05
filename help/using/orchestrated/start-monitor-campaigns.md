@@ -3,15 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Adobe Journey Optimizerを使用したオーケストレートキャンペーンの開始と監視
 description: Adobe Journey Optimizerでオーケストレートキャンペーンを開始および監視する方法について説明します。
-hide: true
-hidefromtoc: true
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 5e52573689ab06084441390299b01e112e699244
+source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 54%
+source-wordcount: '761'
+ht-degree: 51%
 
 ---
+
 
 # オーケストレートキャンペーンの開始と監視 {#start-monitor}
 
@@ -19,26 +18,6 @@ ht-degree: 54%
 >id="ajo_campaign_publication"
 >title="オーケストレーションされたキャンペーンの公開"
 >abstract="キャンペーンを開始するには、公開する必要があります。公開前に、すべてのエラーがクリアされていることを確認します。"
-
-+++ 目次
-
-| オーケストレートキャンペーンへようこそ | 初めてのオーケストレートキャンペーンの開始 | データベースのクエリ | 調整されたキャンペーンアクティビティ |
-|---|---|---|---|
-| [ 調整されたキャンペーンの基本を学ぶ ](gs-orchestrated-campaigns.md)<br/><br/> リレーショナルスキーマとデータセットの作成および管理：</br> <ul><li>[ スキーマとデータセットの概要 ](gs-schemas.md)</li><li>[ 手動スキーマ ](manual-schema.md)</li><li>[ ファイルアップロードスキーマ ](file-upload-schema.md)</li><li>[ データの取り込み ](ingest-data.md)</li></ul>[ オーケストレートキャンペーンへのアクセスと管理 ](access-manage-orchestrated-campaigns.md)<br/><br/>[ オーケストレートキャンペーンを作成するための主な手順 ](gs-campaign-creation.md) | [キャンペーンの作成とスケジュール](create-orchestrated-campaign.md)<br/><br/>[アクティビティの調整](orchestrate-activities.md)<br/><br/><b>[キャンペーンの開始と監視](start-monitor-campaigns.md)</b><br/><br/>[レポート](reporting-campaigns.md) | [ルールビルダーの操作](orchestrated-rule-builder.md)<br/><br/>[最初のクエリの作成](build-query.md)<br/><br/>[式の編集](edit-expressions.md)<br/><br/>[リターゲティング](retarget.md) | [アクティビティの基本を学ぶ](activities/about-activities.md)<br/><br/>アクティビティ：<br/>[AND 結合](activities/and-join.md) - [オーディエンスを作成](activities/build-audience.md) - [ディメンションを変更](activities/change-dimension.md) - [チャネルアクティビティ](activities/channels.md) - [結合](activities/combine.md) - [重複排除](activities/deduplication.md) - [エンリッチメント](activities/enrichment.md) - [分岐](activities/fork.md) - [紐付け](activities/reconciliation.md) - [オーディエンスを保存](activities/save-audience.md) - [分割](activities/split.md) - [待機](activities/wait.md) |
-
-{style="table-layout:fixed"}
-
-+++
-
-<br/>
-
->[!BEGINSHADEBOX]
-
-</br>
-
-このページのコンテンツは最終的なものではなく、変更される場合があります。
-
->[!ENDSHADEBOX]
 
 調整されたキャンペーンを作成し、キャンバスで実行するタスクを設計したら、公開して実行状況を監視できます。
 
@@ -50,18 +29,13 @@ ht-degree: 54%
 
 >[!IMPORTANT]
 >
->キャンバス内のすべてのアクティビティは、**[!UICONTROL オーディエンスを保存]** アクティビティとチャネルアクティビティを除いて実行されます。 データやオーディエンスへの機能上の影響はありません。**
+>キャンバス内のすべてのアクティビティは、**[!UICONTROL オーディエンスを保存]** アクティビティとチャネルアクティビティを除いて実行されます。 データやオーディエンスに機能上の影響はありません。
 
-キャンペーンをテストするには：
-
-1. オーケストレーション済みキャンペーンを開きます。
-2. 「**[!UICONTROL 開始]**」をクリックします。
+オーケストレートキャンペーンをテストするには、キャンペーンを開いて「**[!UICONTROL 開始]**」を選択します。
 
 ![](assets/campaign-start.png){zoomable="yes"}
 
-キャンペーン内の各アクティビティは、図の最後に達するまで順番に実行されます。
-
-テスト中にキャンバスのアクションバーを使用して、キャンペーンの実行を制御できます。 ここから、次のことができます。
+キャンペーン内の各アクティビティは、ダイアグラムの最後に達するまで順番に実行されます。テスト中にキャンバスのアクションバーを使用して、キャンペーンの実行を制御できます。 ここから、次のことができます。
 
 * **停止**：いつでも実行を停止できます。
 * **開始**：実行を再度開始します。
@@ -104,7 +78,7 @@ ht-degree: 54%
 1. トランジションを選択します。
 1. プロパティパネルで、「**[!UICONTROL スキーマをプレビュー]**」をクリックして、作業用テーブルスキーマを表示します。「**[!UICONTROL 結果をプレビュー]**」を選択して、転送されたデータを表示します。
 
-![](assets/transition.png){zoomable="yes"}
+   ![](assets/transition.png){zoomable="yes"}
 
 ### アクティビティ実行指標 {#activities}
 
@@ -124,7 +98,9 @@ ht-degree: 54%
 >title="ログとタスク"
 >abstract="**ログとタスク** 画面には、オーケストレーションされたキャンペーンの実行履歴が表示され、すべてのユーザーのアクションと発生したエラーが記録されます。"
 
-ログとタスクの監視は、オーケストレートキャンペーンを分析し、正しく実行されていることを確認するための重要な手順です。 ログとタスクには、キャンバスツールバーまたは各アクティビティのプロパティパネルのテストモードとライブモードの両方で使用できる「**[!UICONTROL ログ]**」ボタンからアクセスできます。
+ログとタスクの監視は、オーケストレートキャンペーンを分析し、正しく実行されていることを確認するための重要な手順です。 ログとタスクには、「**[!UICONTROL ログ]**」ボタンからアクセスできます。このボタンは、キャンバスツールバーのテストモードとライブモードの両方で使用できます。
+
+![](assets/logs-button.png){zoomable="yes"}
 
 **[!UICONTROL ログとタスク]**&#x200B;画面には、キャンペーンの実行の完全な履歴が表示され、すべてのユーザーのアクションと発生したエラーが記録されます。
 
@@ -136,3 +112,7 @@ ht-degree: 54%
 * 「**[!UICONTROL タスク]**」タブには、アクティビティの段階的な実行シーケンスの詳細が表示されます。
 
 両方のタブで、表示される列とその順序を選択し、フィルターを適用し、検索フィールドを使用して目的の情報をすばやく見つけることができます。
+
+## 次の手順 {#next}
+
+オーケストレーションされたキャンペーン図を開始すると、Journey Optimizerのレポート機能を使用して、オーディエンスの行動の把握や、カスタマージャーニーの各ステップのパフォーマンスの測定などのインサイトを得ることができます。 [ オーケストレートキャンペーンレポートについて詳しくはこちらを参照 ](../orchestrated/reporting-campaigns.md)
