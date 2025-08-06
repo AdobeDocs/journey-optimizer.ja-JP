@@ -5,10 +5,10 @@ description: Adobe Journey Optimizer の使用方法について説明します�
 solution: Journey Optimizer
 product: journey optimizer
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 78742ecf7253cdf750e48505e964d1d2504ef874
+source-git-commit: 08408b987e5894912e357e78cacdb54bfb78a6a1
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 99%
+source-wordcount: '394'
+ht-degree: 88%
 
 ---
 
@@ -22,15 +22,15 @@ Journey Optimizer 製品とドキュメントの最新の機能強化の概要�
 
 >[!TAB 2025 年 7 月リリース ]
 
-6月リリースが公開されました。リリースノートを参照して、新機能、変更点および機能強化を確認してください。
+7 月リリースが公開されました。 リリースノートを参照して、新機能、変更点および機能強化を確認してください。
 
 [![詳細情報](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
->[!TAB 競合と優先順位付け]
+>[!TAB  キャンペーンオーケストレーション ]
 
-Journey Optimizer では、競合の管理と優先順位付けのためのツールがいくつか提供されるようになりました。これらのツールは、キャンペーンとオーディエンスの選定、オーディエンスを読み取り、単一ジャーニーで使用できます。
+Journey Optimizerには、ブランド主導のバッチキャンペーン専用の新しい機能である **キャンペーンオーケストレーション** が含まれるようになりました。 このリリースでは、キャンペーンオーケストレーションキャンバスと強化されたデータモデリングが導入され、マーケターが連携して、パーソナライズされたクロスチャネルキャンペーンを計画、ターゲット設定、配信できるようになります。
 
-[![詳細情報](using/assets/do-not-localize/learn-more-button.svg)](using/conflict-prioritization/gs-conflict-prioritization.md)
+[![詳細情報](using/assets/do-not-localize/learn-more-button.svg)](using/orchestrated/gs-orchestrated-campaigns.md)
 
 >[!TAB Adobe Express]
 
@@ -43,7 +43,7 @@ Adobe Journey Optimizer の Adobe Express 統合により、コンテンツの�
 
 Immerse yourself in a hands-on experience with our [AI Assistant](../help/using/content-management/gs-generative.md) live feature preview, designed to let you explore its features firsthand and fully understand its capabilities.
 
-[![learn more](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/ja/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
+[![learn more](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
 
 >[!TAB AEM コンテンツフラグメント]
 
