@@ -5,10 +5,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 01e74670-7431-4791-b98c-12278e6d3332
-source-git-commit: 0a3e8a0eba6eaac125f508b8b81e2fab992eb978
+source-git-commit: 03699215020770d0636c77e9d197990ab5da0975
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 100%
+source-wordcount: '292'
+ht-degree: 92%
 
 ---
 
@@ -69,3 +69,13 @@ ht-degree: 100%
 1. レコメンデーションに基づいてコンテンツを編集し、ブランド一致を向上させます。
 
 1. 変更した後にコンテンツを手動で再評価し、一致スコアを更新します。
+
+## チュートリアルビデオ {#video}
+
+次のビデオでは、独自のブランドを作成およびカスタマイズして、コミュニケーション全体で視覚的および言語的なアイデンティティを明確に定義する方法を示します。
+
++++ こちらのビデオをご覧ください
+
+>[!VIDEO](https://video.tv.adobe.com/v/3470544/?learn=on)
+
++++
