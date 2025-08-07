@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: a53e94f0199cda211d32be55c8e9a52303dc3d25
 workflow-type: tm+mt
 source-wordcount: '1361'
-ht-degree: 32%
+ht-degree: 36%
 
 ---
 
@@ -65,7 +65,7 @@ Journey Optimizerには、ブランド主導のバッチキャンペーン専用
 
 ### リレーショナルスキーマとデータセット {#oc-relational}
 
-Adobe Experience Platformは、人物ベースのプロファイルにリンクされたリレーショナルエンティティ（商品、店舗、予約、契約など）をサポートするようになりました。 これにより、多次元データ構造全体でセグメント化とパーソナライゼーションが可能になり、次のようなユースケースが可能になります。
+Adobe Journey Optimizerは、人物ベースのプロファイルにリンクされたリレーショナルエンティティ（商品、店舗、予約、契約など）をサポートするようになりました。 これにより、多次元データ構造全体でセグメント化とパーソナライゼーションが可能になり、次のようなユースケースが可能になります。
 
 * 予約、購読または契約ごとに 1 つのメッセージ
 
@@ -86,7 +86,7 @@ Adobe Experience Platformは、人物ベースのプロファイルにリンク�
 
 **Pre release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: August 19, 2025
 
@@ -138,7 +138,7 @@ Improvements coming with this release are listed below.
 <tbody>
 <tr>
 <td>
-<p>独自のブランドを作成およびカスタマイズして、コミュニケーション全体で視覚的および言語的なアイデンティティを明確に定義できるようになりました。 ブランドのアラインメントスコアを使用すると、コンテンツがブランドのトーン、スタイル、ガイドラインをどの程度反映しているかに関するリアルタイムのフィードバックを受け取ることができ、送信するすべてのメッセージでブランドに一貫性を持って滞在するのに役立ちます。</p>
+<p>独自のブランドを作成およびカスタマイズし、コミュニケーション全体で視覚的および言語的な ID を明確に定義できるようになりました。ブランド整合性スコアを使用すると、コンテンツがブランドのトーン、スタイル、ガイドラインをどの程度反映しているかに関するフィードバックをリアルタイムで受信でき、送信するすべてのメッセージでブランドに即して一貫性を保つことができます。</p>
 <p>以前にBetaでリリースされたこの機能は、すべての環境で利用できるようになりました（一般提供）。</p>
 <p><img src="assets/do-not-localize/brand-score.gif"/></p>
 <p>詳しくは、<a href="../content-management/brands.md">詳細なドキュメント</a>を参照してください。</p>
