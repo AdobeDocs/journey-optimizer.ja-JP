@@ -10,10 +10,10 @@ level: Intermediate
 badge: label="限定提供" type="Informative"
 keywords: アクティビティ, 決定, コンテンツ決定, 決定ポリシー, キャンバス, ジャーニー
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
-source-git-commit: 30234392f9b643fa37be701d4d6878d798ea94fe
-workflow-type: ht
-source-wordcount: '1027'
-ht-degree: 100%
+source-git-commit: 2ca37e17b788357f0b8f135c1a5889aa5145cb2f
+workflow-type: tm+mt
+source-wordcount: '1120'
+ht-degree: 91%
 
 ---
 
@@ -72,6 +72,16 @@ ht-degree: 100%
    ![決定ポリシーの概要](assets/journey-content-decision-policy.png){width=70%}<!--reshoot or change screen-->
 
 これで、このコンテンツ決定アクティビティの出力をジャーニーで活用する準備が整いました。
+
+## ガードレールと制限 {#guardrails}
+
+**同意ポリシー**
+
+同意ポリシーの更新が有効になるまでに最大 48 時間かかります。 決定ポリシーが最近更新された同意ポリシーに関連付けられた属性を参照した場合、変更は直ちに適用されません。
+
+同様に、同意ポリシーの対象となる新しいプロファイル属性が決定ポリシーに追加された場合、その属性は使用できますが、関連付けられた同意ポリシーは、遅延が経過するまで適用されません。
+
+同意ポリシーは、Adobe Healthcare Shield またはプライバシーとセキュリティシールド アドオンを持つ組織のみが使用できます。
 
 ## コンテンツ決定アクティビティの出力の使用 {#use-content-decision-output}
 
