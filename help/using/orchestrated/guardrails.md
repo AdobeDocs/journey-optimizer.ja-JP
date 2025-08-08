@@ -4,9 +4,9 @@ product: journey optimizer
 title: 調整されたキャンペーンのガードレールと制限
 description: オーケストレートキャンペーンのガードレールと制限について学ぶ
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: a4f3dce91af978bdff2de5beb8b1472f7704bdf2
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '445'
 ht-degree: 2%
 
 ---
@@ -83,3 +83,7 @@ ht-degree: 2%
 * **保存されたオーディエンスのアクティビティは静的です**。これらは、キャンペーンの実行時に使用できるデータを反映しています。
 
 * **保存されたオーディエンス アクティビティへの追加はサポートされていません**。 変更するには、オーディエンスを完全に上書きする必要があります。
+
+## チャネルの制限
+
+オーケストレートキャンペーンでは、SMS、プッシュ、メールチャネルのみがサポートされます。
