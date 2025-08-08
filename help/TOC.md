@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 879837d8dd1a36ab7d6ad180cb77a2b186c07eb5
 workflow-type: tm+mt
-source-wordcount: '2591'
+source-wordcount: '2592'
 ht-degree: 98%
 
 ---
@@ -203,6 +203,7 @@ ht-degree: 98%
    + 調整されたキャンペーン {#orchestrated-campaigns}
       + [オーケストレートキャンペーンの基本を学ぶ](using/orchestrated/gs-orchestrated-campaigns.md)
       + [ガードレールと制限](using/orchestrated/guardrails.md)
+      + [よくある質問](using/orchestrated/orchestrated-campaigns-faq.md)
       + データ設定 {#configuration}
          + リレーショナルスキーマとデータセットの管理 {#schemas-datasets}
             + [スキーマとデータセットの基本を学ぶ](using/orchestrated/gs-schemas.md)
@@ -241,7 +242,7 @@ ht-degree: 98%
    + [競合管理と優先順位付けの基本を学ぶ](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [潜在的な競合の特定](using/conflict-prioritization/conflicts.md)
    + [優先度スコアの割り当て](using/conflict-prioritization/priority-scores.md)
-メッセージとジャーニーのキャッピングルール設定 {#capping-rules}
+メッセージとジャーニーのキャップルール設定 {#capping-rules}
       + [ルールセットの操作](using/conflict-prioritization/rule-sets.md)
       + [ジャーニーのキャップと判別](using/conflict-prioritization/journey-capping.md)
       + [チャネルと通信タイプによるフリークエンシーキャップ](using/conflict-prioritization/channel-capping.md)
