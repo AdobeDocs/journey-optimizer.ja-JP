@@ -3,12 +3,10 @@ solution: Journey Optimizer
 product: journey optimizer
 title: メッセージの最適化
 description: メッセージの最適化を活用して、パーソナライズされ最適化されたマーケティングキャンペーンを作成します。
-feature: Message optimization
-topic: Experimentation
 role: User
 level: Intermediate
 keywords: キャンペーンの最適化，実験，ターゲティング，A/B テスト
-source-git-commit: 378ead41924496f52f22026b3f0e05a9c9c76f89
+source-git-commit: edbe25e0cb341c08e440eb0663fb9b253273f48a
 workflow-type: tm+mt
 source-wordcount: '918'
 ht-degree: 1%
