@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 879837d8dd1a36ab7d6ad180cb77a2b186c07eb5
+source-git-commit: 378ead41924496f52f22026b3f0e05a9c9c76f89
 workflow-type: tm+mt
-source-wordcount: '2592'
+source-wordcount: '2598'
 ht-degree: 98%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 98%
    + ジャーニーの管理 {#manage-journey}
       + [ジャーニーの参照とフィルタリング](using/building-journeys/journey-ui.md)
       + [ジャーニーのプロファイルエントリ](using/building-journeys/entry-management.md)
-      + [ジャーニーでの補足的な識別子の使用](using/building-journeys/supplemental-identifier.md)
+      + [ジャーニーでの補助識別子の使用](using/building-journeys/supplemental-identifier.md)
       + [タイムゾーン管理](using/building-journeys/timezone-management.md)
       + [送信時間の最適化](using/building-journeys/send-time-optimization.md)
       + [ジャーニーの終了](using/building-journeys/end-journey.md)
@@ -187,6 +187,7 @@ ht-degree: 98%
       + [アクションキャンペーンの操作](using/campaigns/create-campaign.md)
       + [キャンペーンのプロパティの定義](using/campaigns/campaign-properties.md)
       + [キャンペーンアクションの設定](using/campaigns/campaign-action.md)
+      + [キャンペーンでのメッセージ最適化の活用](using/campaigns/campaigns-message-optimization.md)
       + [キャンペーンコンテンツの編集](using/campaigns/campaign-content.md)
       + [キャンペーンオーディエンスの定義](using/campaigns/campaign-audience.md)
       + [キャンペーンのスケジュール](using/campaigns/campaign-schedule.md)
@@ -201,7 +202,7 @@ ht-degree: 98%
       + [キャンペーンのレビューとアクティブ化](using/campaigns/review-activate-api-triggered-campaign.md)
       + [キャンペーン実行のトリガー](using/campaigns/trigger-campaigns.md)
    + 調整されたキャンペーン {#orchestrated-campaigns}
-      + [オーケストレートキャンペーンの基本を学ぶ](using/orchestrated/gs-orchestrated-campaigns.md)
+      + [調整されたキャンペーンの基本を学ぶ](using/orchestrated/gs-orchestrated-campaigns.md)
       + [ガードレールと制限](using/orchestrated/guardrails.md)
       + [よくある質問](using/orchestrated/orchestrated-campaigns-faq.md)
       + データ設定 {#configuration}

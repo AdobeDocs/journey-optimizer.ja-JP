@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: キャンペーン, API トリガー, REST, Optimizer, メッセージ
 exl-id: 322e035c-7370-40c9-b1cb-3428bc26e874
-source-git-commit: 45c95d5682b35c8afb161b75c88942c010b36d1c
-workflow-type: ht
-source-wordcount: '425'
-ht-degree: 100%
+source-git-commit: 378ead41924496f52f22026b3f0e05a9c9c76f89
+workflow-type: tm+mt
+source-wordcount: '421'
+ht-degree: 90%
 
 ---
 
@@ -38,9 +38,13 @@ ht-degree: 100%
 
    ![](assets/create-campaign-action.png)
 
-1. **コンテンツ実験を作成**
+1. **最適化の活用**
 
-   「**[!UICONTROL コンテンツ実験]**」セクションを使用すると、複数の配信処理を定義して、ターゲットオーディエンスに最適なパフォーマンスを発揮する配信を測定できます。「**[!UICONTROL 実験を作成]**」ボタンをクリックし、[コンテンツ実験を作成](../content-management/content-experiment.md)の節で説明している手順に従います。
+   「**[!UICONTROL メッセージの最適化]**」セクションを使用して、コンテンツ実験を実行したり、ターゲティングルールを活用したり、実験とターゲティングの両方の詳細な組み合わせを使用したりします。 様々なオプションと手順について詳しくは、この節 [ キャンペーンでの最適化 ](campaigns-message-optimization.md) を参照してください。
+<!--
+1. **Create a content experiment**
+
+    Use the **[!UICONTROL Content experiment]** section to define multiple delivery treatments in order to measure which one performs best for your target audience. Click the **[!UICONTROL Create experiment]** button then follow the steps detailed in this section: [Create a content experiment](../content-management/content-experiment.md).-->
 
 1. **多言語コンテンツを追加**
 
