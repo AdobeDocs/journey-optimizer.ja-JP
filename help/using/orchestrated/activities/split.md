@@ -7,7 +7,7 @@ exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '801'
-ht-degree: 82%
+ht-degree: 85%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 82%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_segments"
 >title="分割アクティビティのセグメント"
->abstract="入力母集団をセグメント化するのに必要な数のサブセットを追加します。<br/></br>「**分割**」アクティビティを実行すると、母集団はアクティビティに追加された順序で様々なサブセットに分割されます。 オーケストレートキャンペーンを開始する前に、矢印ボタンを使用して、ニーズに合った順序でサブセットを注文していることを確認してください。"
+>abstract="入力母集団をセグメント化するのに必要な数のサブセットを追加します。<br/></br>「**分割**」アクティビティを実行すると、母集団はアクティビティに追加された順序で様々なサブセットに分割されます。 調整されたキャンペーンを開始する前に、矢印ボタンを使用して、サブセットをニーズに合う順番に並べ替えておきます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_filter"

@@ -1,15 +1,15 @@
 ---
-title: ジャーニーでの補足的な識別子の使用
+title: ジャーニーでの補助識別子の使用
 description: ジャーニーで追加の識別子を使用する方法を説明します。
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
 workflow-type: tm+mt
 source-wordcount: '1157'
-ht-degree: 72%
+ht-degree: 73%
 
 ---
 
-# ジャーニーでの補足的な識別子の使用 {#supplemental-id}
+# ジャーニーでの補助識別子の使用 {#supplemental-id}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_parameters_supplemental_identifier"
@@ -244,4 +244,4 @@ ht-degree: 72%
 
 [!DNL Adobe Journey Optimizer] で補足識別子を有効にして適用する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464793?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)

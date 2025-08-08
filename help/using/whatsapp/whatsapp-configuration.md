@@ -10,7 +10,7 @@ exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
 source-git-commit: 31e25c511d8873e54c7b92e65511108a77f84941
 workflow-type: tm+mt
 source-wordcount: '823'
-ht-degree: 62%
+ht-degree: 75%
 
 ---
 
@@ -62,13 +62,13 @@ API 認証情報を作成して設定した後、WhatsApp メッセージ用の 
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_inbound_keyword_category"
->title="受信キーワードカテゴリ"
->abstract="<b> オプトイン </b>：ユーザーが購読すると、定義した自動応答を送信します。 <br/><b> オプトアウト </b>：ユーザーが登録解除すると、定義した自動応答を送信します。 <br/><b> ヘルプ </b>：ユーザーがヘルプまたはサポートをリクエストしたときに、定義済みの自動応答を送信します。 <br/><b> デフォルト </b>：一致するキーワードがない場合にフォールバック自動応答を送信します。"
+>title="インバウンドキーワードカテゴリ"
+>abstract="<b>オプトイン</b>：ユーザーが登録すると、定義済みの自動応答が送信されます。<br/><b>オプトアウト</b>：ユーザーが登録解除すると、定義済みの自動応答が送信されます。<br/><b>ヘルプ</b>：ユーザーがヘルプまたはサポートをリクエストした際に、定義済みの自動応答が送信されます。<br/><b>デフォルト</b>：一致するキーワードがない場合に、フォールバック自動応答が送信されます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_inbound_keyword"
->title="キーワードを入力"
->abstract="キーワードを定義して、ユーザーのテキストに基づいて特定の自動応答をトリガーに設定できます。 キーワードでは大文字と小文字が区別されません。例えば、stop と STOP は同じように扱われます。"
+>title="キーワードの入力"
+>abstract="ユーザーがテキスト入力した内容に基づいて特定の自動応答をトリガーするキーワードを定義できます。キーワードでは、大文字と小文字は区別されません。例えば、stop と STOP は同じように処理されます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_webhook_url"
@@ -78,7 +78,7 @@ API 認証情報を作成して設定した後、WhatsApp メッセージ用の 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_verify_token"
 >title="トークンの検証"
->abstract="Meta がエコーバックするトークンは、検証プロセス中にコールバック URL を確認して検証するために使用されます。"
+>abstract="検証プロセス中にコールバック URL を確認および検証するのに Meta がエコーバックするトークン。"
 
 >[!NOTE]
 >
@@ -180,6 +180,6 @@ Webhook が設定されたので、WhatsApp 設定を作成できます。
 
 +++ こちらのビデオをご覧ください
 
->[!VIDEO](https://video.tv.adobe.com/v/3470269/?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++

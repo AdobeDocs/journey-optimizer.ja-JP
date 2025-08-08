@@ -13,7 +13,7 @@ exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '1475'
-ht-degree: 70%
+ht-degree: 73%
 
 ---
 
@@ -29,12 +29,12 @@ ht-degree: 70%
 >[!CONTEXTUALHELP]
 >id="ajo_targeting_workflow_list"
 >title="調整されたキャンペーンの在庫"
->abstract="この画面では、オーケストレートキャンペーンの完全なリストにアクセスし、現在のステータス、最後/次回の実行日を確認して、新しいオーケストレートキャンペーンを作成できます。"
+>abstract="この画面では、調整されたキャンペーンの完全なリストにアクセスし、現在のステータス、前回／次回の実行日を確認して、新しい調整されたキャンペーンを作成できます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_campaign_action"
 >title="アクション"
->abstract="この節では、オーケストレートキャンペーン内で使用されるすべてのアクションを示します。"
+>abstract="この節では、調整されたキャンペーン内で使用されるすべてのアクションを示します。"
 
 キャンペーンは、**[!UICONTROL キャンペーン]**&#x200B;メニューからアクセスできます。
 

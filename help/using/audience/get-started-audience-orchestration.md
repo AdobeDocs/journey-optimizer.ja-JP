@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
 source-git-commit: 060d65e8d3fb1442b04626170a35d463d1faa514
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1030'
 ht-degree: 100%
 
@@ -75,7 +75,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_ao_rank_profilelimit_text"
 >title="プロファイル制限を追加"
->abstract="このオプションをオンにして、構成に含めるプロファイルの最大数を指定します。"
+>abstract="このオプションをオンに切り替えて、構成に含めるプロファイルの最大数を指定します。"
 
 <!-- [!CONTEXTUALHELP]
 >id="ajo_ao_control_group_text"
@@ -99,7 +99,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-このドキュメントでは、Adobe Journey Optimizer 内でオーディエンス構成を使用する方法について詳しく説明します。リアルタイム顧客プロファイルのみの顧客で、Adobe Journey Optimizer を使用していない場合は、[こちらをクリック](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=ja)してください{target="_blank"}。
+このドキュメントでは、Adobe Journey Optimizer 内でオーディエンス構成を使用する方法について詳しく説明します。リアルタイム顧客プロファイルのみの顧客で、Adobe Journey Optimizer を使用していない場合は、[こちらをクリック](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=ja){target="_blank"}してください。
 
 >[!ENDSHADEBOX]
 

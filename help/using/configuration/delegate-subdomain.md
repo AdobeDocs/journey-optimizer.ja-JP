@@ -12,7 +12,7 @@ exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
 source-git-commit: 142e56ce36389da5c2e28bbafa1a1bf59be50d74
 workflow-type: tm+mt
 source-wordcount: '1906'
-ht-degree: 78%
+ht-degree: 80%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 78%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname"
 >title="サブドメインデリゲーション"
->abstract="Journey Optimizer を使用すると、サブドメインをアドビにデリゲートできます。サブドメインを完全にアドビにデリゲートできます。これは推奨される方法です。</br>CNAME を使用してAdobe固有のレコードを指すサブドメインを作成することもできますが、この方法では、DNS レコードを独自に維持管理する必要があります。"
+>abstract="Journey Optimizer を使用すると、サブドメインをアドビにデリゲートできます。サブドメインを完全にアドビにデリゲートできます。これは推奨される方法です。</br>また、CNAME を使用してアドビ固有のレコードを指すサブドメインを作成することもできますが、この方法では、DNS レコードを独自に保持および管理する必要があります。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation#subdomain-delegation-methods" text="サブドメインの設定方法"
 
 >[!CONTEXTUALHELP]
@@ -83,7 +83,7 @@ ht-degree: 78%
 >
 >サブドメイン設定は、**すべての環境で共通**&#x200B;です。したがって、サブドメインを変更すると、実稼働用サンドボックスにも影響します。
 
-## Journey Optimizerでのサブドメインの設定 {#set-up-subdomain}
+## Journey Optimizer でのサブドメインの設定 {#set-up-subdomain}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_dns"
@@ -121,7 +121,7 @@ ht-degree: 78%
 
     Capital letters are not allowed in subdomains. TBC by PM-->
 
-1. 専用セクションで **[!UICONTROL 0&rbrace;DMARC レコード &rbrace; を設定します。]**&#x200B;サブドメインに既存の [DMARC レコード ](dmarc-record.md) があり、[!DNL Journey Optimizer] によって取得される場合は、同じ値を使用するか、必要に応じて変更できます。 値を追加しない場合は、デフォルトの値が使用されます。[DMARC レコードの管理方法について説明します ](dmarc-record.md#set-up-dmarc)
+1. 専用セクションで **[!UICONTROL 0}DMARC レコード } を設定します。]**&#x200B;サブドメインに既存の [DMARC レコード ](dmarc-record.md) があり、[!DNL Journey Optimizer] によって取得される場合は、同じ値を使用するか、必要に応じて変更できます。 値を追加しない場合は、デフォルトの値が使用されます。[DMARC レコードの管理方法について説明します ](dmarc-record.md#set-up-dmarc)
 
    ![](assets/dmarc-record-found.png)
 
@@ -273,4 +273,4 @@ CNAME を使用してサブドメインを設定するには、次の手順に�
 
 CNAME を使用してサブドメインを作成しアドビ固有のレコードを指すようにする方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/342236?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)

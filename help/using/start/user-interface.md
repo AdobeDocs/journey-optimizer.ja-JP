@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 08408b987e5894912e357e78cacdb54bfb78a6a1
 workflow-type: tm+mt
 source-wordcount: '1681'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -253,7 +253,7 @@ AI アシスタントにアクセスして使用する方法については、[�
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_2"
 >title="マルチエンティティデータの活用"
->abstract="調整されたキャンペーンでリレーショナルデータセットを活用して、セグメント化とパーソナライゼーションのためのデータを強化する方法を説明します"
+>abstract="調整されたキャンペーンでリレーショナルデータセットを活用して、セグメント化とパーソナライゼーション用のデータを強化する方法について説明します"
 
 
 
