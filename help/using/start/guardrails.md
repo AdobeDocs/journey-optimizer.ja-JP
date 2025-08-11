@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: ht
+source-git-commit: 2da5443e6927d0696cefbedee4f56a397208bc1c
+workflow-type: tm+mt
 source-wordcount: '2648'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -69,7 +69,7 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 
 [!DNL Journey Optimizer] [web キャンペーン](../web/get-started-web.md)は、以前の他のチャネルで関与したことのない新しいプロファイルをターゲットにします。これにより、エンゲージメント可能なプロファイルの総数が増え、ユーザーが購入した、エンゲージメント可能なプロファイルの契約上の数を超えると、コストに影響する可能性があります。
 
-各パッケージのライセンス指標は、[Journey Optimizer の製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}ページにリストされています。
+各パッケージのライセンス指標は、[Journey Optimizerの製品説明 ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} ページにリストされています。
 
 ### コードベースチャネルのガードレール {#code-based-guardrails}
 
@@ -149,7 +149,7 @@ Journey Optimizer のサブドメインデリゲーションに適用される�
 
 次のガードレールがジャーニーの[カスタムアクション](../action/action.md)に適用されます。
 
-* すべてのカスタムアクションには、各ホストおよび各サンドボックスに、1 分間で 300,000 件の呼び出しというキャッピングが定義されています。[このページ](../action/about-custom-action-configuration.md)を参照してください。この制限は、カスタムアクションの対象となる外部エンドポイントを保護することを目的に、顧客の使用状況に基づいて設定されています。必要に応じて、キャッピング／スロットリング API で上限またはスロットル制限を大きく定義することで、この設定を上書きできます。[このページ](../configuration/external-systems.md)を参照してください。
+* すべてのカスタムアクションには、各ホストおよび各サンドボックスに、1 分間で 300,000 件の呼び出しというキャップが定義されています。[このページ](../action/about-custom-action-configuration.md)を参照してください。この制限は、カスタムアクションの対象となる外部エンドポイントを保護することを目的に、顧客の使用状況に基づいて設定されています。必要に応じて、キャップ／スロットリング API でキャップまたはスロットルキャップを大きく定義することで、この設定を上書きできます。[このページ](../configuration/external-systems.md)を参照してください。
 * カスタムアクションの URL は動的パラメーターをサポートしていません。
 * POST、PUT および GET 呼び出しメソッドがサポートされています
 * クエリパラメーターやヘッダーの名前は、「.」または「$」で始める必要があります。
@@ -159,7 +159,7 @@ Journey Optimizer のサブドメインデリゲーションに適用される�
 * カスタムアクションは、リクエストまたは応答ペイロードを使用する際にのみ JSON 形式をサポートします。[このページ](../action/about-custom-action-configuration.md#custom-actions-limitations)を参照してください。
 * ターゲットにするエンドポイントをカスタムアクションを使用して選択する場合は、次の点を確認します。
 
-   * このエンドポイントは、[Throttling API](../configuration/throttling.md) または [Capping API](../configuration/capping.md) の設定を使用してジャーニーのスループットを制限することでサポートできます。スロットル設定は、200 TPS を下回ることはできません。ターゲットにするエンドポイントは、200 TPS 以上をサポートする必要があります。
+   * このエンドポイントは、[Throttling API](../configuration/throttling.md) または [Capping API](../configuration/capping.md) の設定を使用してジャーニーのスループットをキャップすることでサポートできます。スロットル設定は、200 TPS を下回ることはできません。ターゲットにするエンドポイントは、200 TPS 以上をサポートする必要があります。
    * このエンドポイントの応答時間は、できるだけ短くする必要があります。予想されるスループットに応じて、応答時間が長いと、実際のスループットに影響を与える可能性があります。
 
 ### イベント {#events-g}

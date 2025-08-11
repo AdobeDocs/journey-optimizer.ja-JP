@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 公開, ジャーニー, ライブ, 有効性, 確認
 exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
-source-git-commit: f26083c222efa71176ce5c78f5f35f2c208240e6
+source-git-commit: 2da5443e6927d0696cefbedee4f56a397208bc1c
 workflow-type: tm+mt
 source-wordcount: '530'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 データセットが設定されていない場合は、**[!UICONTROL クリック]**、**[!UICONTROL ユニーククリック]**、**[!UICONTROL クリックスルー率]**&#x200B;および&#x200B;**[!UICONTROL 開封率]**&#x200B;の指標のみが使用可能になります。
 
-Customer Journey Analytics ライセンスを使用すると、カスタム成功指標を作成できます。[詳細情報](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/participation-metric)
+Customer Journey Analytics ライセンスを使用すると、カスタムの成功指標を作成できます。 [詳細情報](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/participation-metric)
 
 
 | 指標 | 関連フィールドグループ |
