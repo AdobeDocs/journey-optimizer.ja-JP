@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 378ead41924496f52f22026b3f0e05a9c9c76f89
 workflow-type: tm+mt
 source-wordcount: '2598'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 98%
    + ジャーニーの管理 {#manage-journey}
       + [ジャーニーの参照とフィルタリング](using/building-journeys/journey-ui.md)
       + [ジャーニーのプロファイルエントリ](using/building-journeys/entry-management.md)
-      + [ジャーニーでの補助識別子の使用](using/building-journeys/supplemental-identifier.md)
+      + [ジャーニーの補足識別子の使用](using/building-journeys/supplemental-identifier.md)
       + [タイムゾーン管理](using/building-journeys/timezone-management.md)
       + [送信時間の最適化](using/building-journeys/send-time-optimization.md)
       + [ジャーニーの終了](using/building-journeys/end-journey.md)
@@ -212,8 +212,8 @@ ht-degree: 98%
             + [ファイルアップロードスキーマ](using/orchestrated/file-upload-schema.md)
             + [データを取得](using/orchestrated/ingest-data.md)
          + [ターゲティングディメンションの作成](using/orchestrated/target-dimension.md)
-      + 初めてのオーケストレートキャンペーンの開始{#launch}
-         + [オーケストレートキャンペーンを作成するための主な手順](using/orchestrated/gs-campaign-creation.md)
+      + 最初の調整されたキャンペーンの開始{#launch}
+         + [調整されたキャンペーンを作成する主な手順](using/orchestrated/gs-campaign-creation.md)
          + [キャンペーンの作成とスケジュール](using/orchestrated/create-orchestrated-campaign.md)
          + [アクティビティの調整](using/orchestrated/orchestrate-activities.md)
          + [キャンペーンの開始と監視](using/orchestrated/start-monitor-campaigns.md)
