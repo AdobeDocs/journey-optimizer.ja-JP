@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 08408b987e5894912e357e78cacdb54bfb78a6a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1681'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -181,19 +181,19 @@ Adobe Journey Optimizer の主要なヘルプページには、ホームペー�
 
 ## 製品内アラート
 
-Journey Optimizer製品リリース向けの **メールおよび製品内アラート** を購読できます。
+Journey Optimizer 製品リリースに関する&#x200B;**メールや製品内アラート**&#x200B;を登録できます。
 
 登録するには：
 
-1. **Adobe Experience Cloud環境設定** に移動します
-1. **Notifications** で、**Journey Optimizerの新しいリリース** を見つけます
+1. **Adobe Experience Cloud 環境設定**&#x200B;に移動します
+1. **通知**&#x200B;の下にある **Journey Optimizer の新しいリリース**&#x200B;を見つけます
 1. アプリ内通知およびメール通知の有効化
 
 ![](../rn/assets/do-not-localize/pulse-notif.png){width="70%" align="left"}
 
 ## AI アシスタント {#ai-assistant}
 
-AI アシスタントは、Adobeの概念をナビゲートして理解し、特定の環境の運用に関するインサイトを得るために使用できるユーザーインターフェイス機能です。 Adobe Journey Optimizer を含む Adobe Experience Cloud 全体の複数の製品で使用できます。
+AI アシスタントは、アドビのコンセプトをナビゲートして理解し、特定の環境について運用上のインサイトを得ることができる、ユーザーインターフェイス機能です。Adobe Journey Optimizer を含め、Adobe Experience Cloud 全体の複数の製品で使用できます。
 
 AI アシスタントにアクセスするには、上部バーのアイコンをクリックします。画面の右側のセクションに AI アシスタントが表示されます。
 
@@ -253,7 +253,7 @@ AI アシスタントにアクセスして使用する方法については、[�
 >[!CONTEXTUALHELP]
 >id="ajo_oc_campaign_ovv_2"
 >title="マルチエンティティデータの活用"
->abstract="調整されたキャンペーンでリレーショナルデータセットを活用して、セグメント化とパーソナライゼーション用のデータを強化する方法について説明します"
+>abstract="調整されたキャンペーンでリレーショナルデータセットを活用して、セグメント化とパーソナライゼーションのためのデータを強化する方法を学ぶ"
 
 
 
