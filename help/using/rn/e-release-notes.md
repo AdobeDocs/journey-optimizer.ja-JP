@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1f53a578e91cd26e0e062c20b371a344ad709a8f
+source-git-commit: 1be17ef27ca3ed7ff98d9df47cfa9066a89625f3
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1046'
 ht-degree: 47%
 
 ---
@@ -140,14 +140,13 @@ ht-degree: 47%
 <table>
 <thead>
 <tr>
-<th><strong>ランディングページのカスタムフォーム</strong><br/></th>
+<th><strong>ジャーニーパスの最適化</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizerでカスタムフォームを作成し、ランディングページで活用して、フォームごとに定義されたデータセットにプロファイル属性を取り込むことができるようになりました。</p>
-<p>この機能は現在ベータ版で、ベータ版のお客様のみご利用いただけます。ベータ版プログラムに参加するには、アドビ担当者にお問い合わせください。</p>
+<p>Journey Optimizerに追加されたツールを使用すると、AI および実験フレームワークを活用してジャーニーを最適化しながら、条件と最適化機能のシームレスな操作性と差別化を実現できます。</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
@@ -158,13 +157,32 @@ ht-degree: 47%
 <table>
 <thead>
 <tr>
-<th><strong>ジャーニーの最適化</strong><br/></th>
+<th><strong>ジャーニーのアクションアクティビティ</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizerに追加されたツールを使用すると、AI および実験フレームワークを活用してジャーニーを最適化しながら、条件と最適化機能のシームレスな操作性と差別化を実現できます。</p>
+<p>Journey Optimizerで新しい汎用アクションアクティビティがサポートされ、単一アクションとマルチチャネルアウトバウンドアクションの両方を設定でき、ジャーニーキャンバス内でアクションの設定を合理化できます。 この新しいアクティビティを使用すると、組み込みのチャネルアクションにターゲティングの最適化、実験、多言語言語のバリアントを追加することもできます。</p>
+<p>この機能は、限定提供です。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
+<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>ランディングページのカスタムフォーム</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizerでカスタムフォームを作成し、ランディングページで活用して、フォームごとに定義されたデータセットにプロファイル属性を取り込むことができるようになりました。</p>
+<p>この機能は現在ベータ版で、ベータ版のお客様のみご利用いただけます。ベータ版プログラムに参加するには、アドビ担当者にお問い合わせください。</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
@@ -197,5 +215,4 @@ ht-degree: 47%
      ワンクリック購読解除リンクをさらにパーソナライズするために、同意イベントに追加するカスタム属性を定義できるようになりました。
 
 - **ジャーニー**
-   - **ジャーニーのアクションアクティビティ** - Journey Optimizerでは、単一チャネルとマルチチャネルの両方のアウトバウンドアクションを設定でき、ジャーニーキャンバス内でのアクション設定を合理化できる、新しい汎用のアクションアクティビティをサポートしています。 この新しいアクティビティを使用すると、組み込みのチャネルアクションにターゲティングの最適化、実験、多言語言語のバリアントを追加することもできます。
    - **ジャーニーの一括操作** - ジャーニーのリストから、複数の項目を選択できるようになりました。 選択すると、一度に 10 件までのジャーニーを一時停止または再開できます。
