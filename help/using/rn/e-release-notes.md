@@ -7,7 +7,7 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1be17ef27ca3ed7ff98d9df47cfa9066a89625f3
+source-git-commit: 7f9828c1781468155702d9f8fd475736a7656188
 workflow-type: tm+mt
 source-wordcount: '1046'
 ht-degree: 47%
@@ -216,3 +216,4 @@ ht-degree: 47%
 
 - **ジャーニー**
    - **ジャーニーの一括操作** - ジャーニーのリストから、複数の項目を選択できるようになりました。 選択すると、一度に 10 件までのジャーニーを一時停止または再開できます。
+
