@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 8e0dff6082f5fec6768d1bf284936468fd19208d
+source-git-commit: b62f0325b8d7aa1e213a5c6273d0634a0e005a6e
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '1010'
 ht-degree: 32%
 
 ---
@@ -147,6 +147,7 @@ ht-degree: 32%
 <tr>
 <td>
 <p>Journey Optimizerに追加されたツールを使用すると、AI および実験フレームワークを活用してジャーニーを最適化しながら、条件と最適化機能のシームレスな操作性と差別化を実現できます。</p>
+<p>この機能は、限定提供です。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
@@ -231,6 +232,10 @@ ht-degree: 32%
    * **ワンクリック登録解除 URL でのカスタム属性のサポート** - Journey Optimizerを使用すると、Adobe以外で同意を管理している場合、メール設定に独自のワンクリック登録解除リンクを定義することで、外部カスタムエンドポイントを設定できます。 受信者が購読解除リンクをクリックすると、Journey Optimizerによって、プロファイル固有のデフォルトのパラメーターが同意更新イベントに追加されます。
 
      ワンクリック購読解除リンクをさらにパーソナライズするために、同意イベントに追加するカスタム属性を定義できるようになりました。
+
+* **決定**
+
+   * **決定項目にフラグメントを添付** - Journey Optimizerでは、意思決定ポリシーを通じてコードベースのエクスペリエンスキャンペーンで活用できる決定項目にフラグメントを添付する機能を提供するようになりました。
 
 * **ジャーニー**
 
