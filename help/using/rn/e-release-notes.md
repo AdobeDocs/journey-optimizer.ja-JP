@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 7df443d5bf64f862f4adce43a34f14d13fd36733
+source-git-commit: dc4c512ba48ab7de45ad9719eeb87056ee757dd6
 workflow-type: tm+mt
-source-wordcount: '1038'
-ht-degree: 47%
+source-wordcount: '906'
+ht-degree: 35%
 
 ---
 
@@ -73,28 +73,28 @@ ht-degree: 47%
 </tbody>
 </table>
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>E メールデザイナーでのダークモード</strong><br/></th>
+<th><strong>Dark mode in the Email Designer</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer E メールデザイナーに、ダークモード表示に切り替える機能が追加されました。この機能を使用すると、ダークモードでメールを読む受信者にのみ表示される特定のカスタム設定を定義できます。</p>
-<p>次のことに注意してください。</p>
+<p>The Journey Optimizer Email Designer now offers the ability to switch to dark mode view, where you can additionally define specific custom settings that will display only for recipients reading their emails in dark mode.</p>
+<p>Note the following:</p>
 <ul>
-<li>ダークモードの最終的なレンダリングは、受信者のメールクライアントに応じて異なります。</li>
-<li>すべてのメールクライアントがカスタムダークモードをサポートしているわけではありません。さらに、一部のメールクライアントでは、受信したすべてのメールに対して、独自のデフォルトのダークモードのみが適用されます。どちらの場合も、E メールデザイナーで定義したカスタム設定はレンダリングできません。</li>
+<li>The dark mode final rendering may vary and depends on the recipient's email client.</li>
+<li>Not all email clients support custom dark mode. Moreover, some email clients only apply their own default dark mode for all emails that are received. In both cases, the custom settings that you defined in the Email Designer cannot be rendered.</li>
 </ul>
-<P>この機能は現在ベータ版で、ベータ版のお客様のみご利用いただけます。ベータ版プログラムに参加するには、アドビ担当者にお問い合わせください。</p>
-<p><!--img src="assets/do-not-localize/dark-mode.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../email/dark-mode.md">detailed documentation</a>--></p>
+<P>This capability is currently in beta version and only available to beta customers. To join the beta program, contact your Adobe representative.</p>
+<p><img src="assets/do-not-localize/dark-mode.gif"/></p>
+<p>For more information, refer to the <a href="../email/dark-mode.md">detailed documentation</a></p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <table>
 <thead>
@@ -119,23 +119,23 @@ ht-degree: 47%
 </tbody>
 </table>
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>メールチャネルでの決定の使用</strong><br/></th>
+<th><strong>Use Decisioning in email channel</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>メールジャーニーとキャンペーンに決定ポリシーを追加できるようになりました。決定ポリシーは、配信する最適なコンテンツを各オーディエンスメンバーに応じて動的に返すことを目的に、決定エンジンを活用するオファーのためのコンテナです。</p>
-<p>この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<p>You can now add Decision policies into email journeys and campaigns. Decision policies are containers for your offers that leverage the Decisioning engine to dynamically return the best content to deliver for each audience member.</p>
+<p>Previously released in Limited Availability, this capability is now available to all environments (General Availability).</p>
+<p><img src="assets/do-not-localize/FILE.gif"/></p>
+<p><For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <table>
 <thead>
@@ -196,24 +196,36 @@ ht-degree: 47%
 
 このリリースに含まれる機能強化を以下に示します。
 
-- **管理**
-   - **Channel Configuration Monitoring アラート** - チャネルコンフィギュレーションエラーが発生した場合や DNS レコードが見つからない場合に、システムアラートをメールまたはJourney Optimizer通知センターで受け取るよう登録できるようになりました。
+* **管理**
 
-- **キャンペーン**
-   - **アウトバウンドキャンペーンのレートコントロール** - アウトバウンドキャンペーン（メール、SMS、プッシュ通知）のスロットルレート制御を有効にして、ランディングページやカスタマーケアプラットフォームなどのダウンストリームシステムでの過負荷を防ぐことができるようになりました。
-   - **アクションキャンペーンのスケジュール設定** - キャンペーンの日別、週別および月別のスケジューラーが更新され、精度が向上しました。 例えば、スケジュール間の週数や月数を設定し、実行日を定義して、特定の回数の発生後または特定の日付に停止することを決定できるようになりました。
+   * **Channel Configuration Monitoring アラート** - チャネルコンフィギュレーションエラーが発生した場合や DNS レコードが見つからない場合に、システムアラートをメールまたはJourney Optimizer通知センターで受け取るよう登録できるようになりました。
 
-- **チャネル – プッシュ**
-   - **プッシュ通知の有効期限** – 各プッシュ通知に有効期限を指定できるようになりました。これにより、特定の日付を過ぎると時間依存のメッセージ（ブラックフライデーセールなど）が送信されなくなるので、顧客に悪いエクスペリエンスを提供するのを防ぐことができます。
+* **キャンペーン**
 
-- **チャネル – メール**
-   - **メールへのPDF添付ファイル** - Journey Optimizerで送信されるメールメッセージに静的PDF ファイルを添付できるようになりました。
+   * **アウトバウンドキャンペーンのレートコントロール** - アウトバウンドキャンペーン（メール、SMS、プッシュ通知）のスロットルレート制御を有効にして、ランディングページやカスタマーケアプラットフォームなどのダウンストリームシステムでの過負荷を防ぐことができるようになりました。
 
-- **設定**
-   - **動的ドメインのサポート** - Journey Optimizerでは、チャネル設定レベルでリストされる事前定義済みドメインのトラッキング URL でのパーソナライゼーションをサポートするようになりました。
-   - **ワンクリック登録解除 URL でのカスタム属性のサポート** - Journey Optimizerを使用すると、Adobe以外で同意を管理している場合、メール設定に独自のワンクリック登録解除リンクを定義することで、外部カスタムエンドポイントを設定できます。 受信者が購読解除リンクをクリックすると、Journey Optimizerによって、プロファイル固有のデフォルトのパラメーターが同意更新イベントに追加されます。
+   * **アクションキャンペーンのスケジュール設定** - キャンペーンの日別、週別および月別のスケジューラーが更新され、精度が向上しました。 例えば、スケジュール間の週数や月数を設定し、実行日を定義して、特定の回数の発生後または特定の日付に停止することを決定できるようになりました。
+
+* **チャネル – プッシュ**
+
+   * **プッシュ通知の有効期限** – 各プッシュ通知に有効期限を指定できるようになりました。これにより、特定の日付を過ぎると時間依存のメッセージ（ブラックフライデーセールなど）が送信されなくなるので、顧客に悪いエクスペリエンスを提供するのを防ぐことができます。
+
+* **チャネル – メール**
+
+   * **メールへのPDF添付ファイル** - Journey Optimizerで送信されるメールメッセージに静的PDF ファイルを添付できるようになりました。
+
+* **チャネル - SMS**
+
+   * **ファジーオプトアウト** – 有効にすると、「**ファジーオプトアウト**」オプションは、定義済みのオプトアウトキーワード（「CANCIL」など）に非常に似た受信メッセージを検出し、ユーザーの購読解除の意図を確認する確認返信を自動的に送信します。 定義済みのプロンプトで確認すると、購読は解除されます。
+
+* **設定**
+
+   * **動的ドメインのサポート** - Journey Optimizerでは、チャネル設定レベルでリストされる事前定義済みドメインのトラッキング URL でのパーソナライゼーションをサポートするようになりました。
+
+   * **ワンクリック登録解除 URL でのカスタム属性のサポート** - Journey Optimizerを使用すると、Adobe以外で同意を管理している場合、メール設定に独自のワンクリック登録解除リンクを定義することで、外部カスタムエンドポイントを設定できます。 受信者が購読解除リンクをクリックすると、Journey Optimizerによって、プロファイル固有のデフォルトのパラメーターが同意更新イベントに追加されます。
 
      ワンクリック購読解除リンクをさらにパーソナライズするために、同意イベントに追加するカスタム属性を定義できるようになりました。
 
-- **ジャーニー**
-   - **ジャーニーの一括操作** - ジャーニーのリストから、複数の項目を選択できるようになりました。 選択すると、一度に 10 件までのジャーニーを一時停止または再開できます。
+* **ジャーニー**
+
+   * **ジャーニーの一括操作** - ジャーニーのリストから、複数の項目を選択できるようになりました。 選択すると、一度に 10 件までのジャーニーを一時停止または再開できます。

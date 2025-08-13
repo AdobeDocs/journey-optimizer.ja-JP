@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: ht
-source-wordcount: '371'
-ht-degree: 100%
+source-git-commit: dc4c512ba48ab7de45ad9719eeb87056ee757dd6
+workflow-type: tm+mt
+source-wordcount: '411'
+ht-degree: 90%
 
 ---
 
@@ -36,6 +36,11 @@ ht-degree: 100%
 >id="ajo_admin_sms_configuration"
 >title="SMS ベンダー設定の選択"
 >abstract="SMS ベンダーに設定する API 資格情報を選択します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_fuzzy_opt_out"
+>title="あいまいオプトアウト"
+>abstract="「ファジーオプトアウトを有効にすると、定義済みのオプトアウトキーワード（「CANCIL」など）に非常に近い受信メッセージが検出され、ユーザーの購読解除の意図を確認する確認返信が自動的に送信されます。 定義済みのプロンプトで確認すると、購読は解除されます。"
 
 SMS、MMS または RCS を送信する前に、Adobe Journey Optimizer 環境を設定する必要があります。これを実行するには、次の手順を実行します。
 
