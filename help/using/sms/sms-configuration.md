@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: c9b8ee427b2a7366a01e34f6d83439e0ea2f7653
+source-git-commit: 37e86b2c9d7f1587fefa2927949a13cac24c34ad
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 90%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 90%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_fuzzy_opt_out"
 >title="あいまいオプトアウト"
->abstract="ファジーオプトアウトを有効にすると、定義済みのオプトアウトキーワード（「CANCIL」など）に類似した受信メッセージが検出され、ユーザーの購読解除の意図を確認する確認返信が自動的に送信されます。 定義済みのプロンプトで確認すると、購読は解除されます。"
+>abstract="ファジーオプトアウトを有効にすると、定義済みのオプトアウトキーワード（CANCIL など）に類似した受信メッセージが検出され、ユーザーの購読解除の意図を確認する確認返信が自動的に送信されます。 定義済みのプロンプトで確認すると、購読は解除されます。"
 
 SMS、MMS または RCS を送信する前に、Adobe Journey Optimizer 環境を設定する必要があります。これを実行するには、次の手順を実行します。
 
