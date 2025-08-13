@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: ef4488941837a7473d92633b600ea4574dc955bf
+source-git-commit: 8e0dff6082f5fec6768d1bf284936468fd19208d
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 33%
+source-wordcount: '967'
+ht-degree: 32%
 
 ---
 
@@ -219,6 +219,8 @@ ht-degree: 33%
 * **チャネル - SMS**
 
    * **ファジーオプトアウト** – 有効にすると、「**ファジーオプトアウト**」オプションは、定義済みのオプトアウトキーワード（「CANCIL」など）に非常に似た受信メッセージを検出し、ユーザーの購読解除の意図を確認する確認返信を自動的に送信します。 定義済みのプロンプトで確認すると、購読は解除されます。
+
+     **ファジーオプトアウト** は、Sinch および Infobip でのみ使用できます。
 
    * **SMS 接続の検証** - サンプルメッセージを指定されたデバイスに送信することで、Adobe Journey Optimizer内で SMS API 資格情報を簡単にテストおよび検証できるようになりました。
 
