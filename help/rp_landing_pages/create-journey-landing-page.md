@@ -20,7 +20,7 @@ Adobe Journey Optimizerでジャーニーを作成すると、個々の行動や
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 初めてのカスタマージャーニーの作成方法
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizerでジャーニーを作成すると、個々の行動や
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 ジャーニープロパティの定義と管理
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizerでジャーニーを作成すると、個々の行動や
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 ジャーニーのデザイン方法
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizerでジャーニーを作成すると、個々の行動や
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 ジャーニーのテスト方法
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizerでジャーニーを作成すると、個々の行動や
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=ja)
 
 ドライランモードでのジャーニーのテスト
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizerでジャーニーを作成すると、個々の行動や
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 ジャーニーの公開
 

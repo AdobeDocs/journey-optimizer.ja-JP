@@ -20,7 +20,7 @@ Adobe Journey OptimizerのメールDesignerには、視覚的に魅力的でレ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 メールスタイルのカスタマイズ
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizerを使用して、メール本文、構造、コンテン
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 メールの背景をパーソナライズ
 
@@ -40,7 +40,7 @@ Adobe Journey OptimizerのメールDesignerで、メール構造の様々なレ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 垂直方向の整列とパディングを調整
 
@@ -50,7 +50,7 @@ Adobe Journey OptimizerのメールDesignerで、メール構造の様々なレ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 インラインスタイル属性の追加
 

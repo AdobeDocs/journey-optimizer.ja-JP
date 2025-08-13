@@ -20,7 +20,7 @@ Adobe Journey Optimizerの API リファレンスの節では、カスタマイ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 オファーライブラリ API の概要
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizerの API リファレンスの節では、カスタマイ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 Adobe Journey Optimizer API を使用したオファーの配信
 

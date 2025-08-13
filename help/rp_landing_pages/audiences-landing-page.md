@@ -20,7 +20,7 @@ Adobe Journey Optimizerのオーディエンスは、行動、好み、特性に
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 オーディエンスの概要
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer内の Audience Management、セグメント化および�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 オーディエンスの作成と管理
 
@@ -40,7 +40,7 @@ CSV の読み込みやフェデレーテッドデータソースなど、オー�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 キャンペーンおよびジャーニーでのオーディエンスのアクティブ化
 
@@ -50,7 +50,7 @@ CSV の読み込みやフェデレーテッドデータソースなど、オー�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 エンリッチメント属性の活用
 

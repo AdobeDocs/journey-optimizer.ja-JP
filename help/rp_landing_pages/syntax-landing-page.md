@@ -20,7 +20,7 @@ Adobe Journey Optimizerの高度な式エディターで強力な構文機能を
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 高度な式エディターの構文
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizerの高度な式エディターで強力な構文機能を
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 条件命令（if、then、else）
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizerの高度な式エディターで強力な構文機能を
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
 
 データタイプについて
 
@@ -50,7 +50,7 @@ JSON 形式、シリアル化、例など、式で使用されるデータタイ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 フィールド参照の使用
 
@@ -60,7 +60,7 @@ JSON 形式、シリアル化、例など、式で使用されるデータタイ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 コレクション管理関数
 
@@ -70,7 +70,7 @@ JSON 形式、シリアル化、例など、式で使用されるデータタイ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=ja)
 
 高度な式で使用できる演算子
 

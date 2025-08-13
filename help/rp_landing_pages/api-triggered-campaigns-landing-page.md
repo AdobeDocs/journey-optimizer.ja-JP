@@ -20,7 +20,7 @@ Adobe Journey Optimizerの API トリガーキャンペーンを使用すると�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 API トリガーキャンペーンの作成と管理
 
@@ -30,7 +30,7 @@ API トリガーキャンペーンの作成と管理
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 API トリガー型キャンペーンのプロパティの定義
 
@@ -40,7 +40,7 @@ API トリガーキャンペーンの名前、タグ付け、アクセス制限�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 API トリガーキャンペーンアクションの設定
 
@@ -50,7 +50,7 @@ API トリガーキャンペーンアクションの設定
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 API トリガー型キャンペーンコンテンツの編集とパーソナライズ
 
@@ -60,7 +60,7 @@ API トリガー型キャンペーンコンテンツの編集とパーソナラ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=ja)
 
 API トリガーキャンペーンオーディエンスの定義
 
@@ -70,7 +70,7 @@ API トリガーキャンペーンオーディエンスの定義
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ja)
 
 API トリガー型キャンペーンのスケジュール設定
 

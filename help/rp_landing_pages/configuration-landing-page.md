@@ -20,7 +20,7 @@ Adobe Journey Optimizerのチャネル設定を使用すると、メール、SMS
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 チャネル設定の概要
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizerのチャネル設定を使用すると、メール、SMS
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 チャネル設定のセットアップと管理
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizerのチャネル設定を使用すると、メール、SMS
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 ガイド付きチャネル設定
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizerのチャネル設定を使用すると、メール、SMS
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=ja)
 
 メールサブドメインのデリゲートと管理
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizerのチャネル設定を使用すると、メール、SMS
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
 
 IP ウォームアッププランの実装
 
@@ -70,7 +70,7 @@ IP ウォームアッププランを作成および実行して、送信者の�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
 
 メールの配信品質と評判の監視
 

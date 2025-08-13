@@ -20,7 +20,7 @@ Adobe Experience Platformは、真にパーソナライズされたカスタマ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 inAudience 関数の使用
 

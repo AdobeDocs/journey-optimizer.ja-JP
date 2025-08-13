@@ -20,7 +20,7 @@ Adobe Journey Optimizerのデータ設定は、データを整理し接続して
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 リレーショナルスキーマとデータセットの管理
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizerのデータ設定は、データを整理し接続して
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 ターゲティングディメンションの設定方法
 

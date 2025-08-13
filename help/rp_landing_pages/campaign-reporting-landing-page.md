@@ -20,7 +20,7 @@ Adobe Journey Optimizerのキャンペーンレポートを使用すると、様
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
 
 キャンペーンレポートの概要
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizerのキャンペーンレポートを使用すると、様
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 コードベースのキャンペーンレポート
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizerのキャンペーンレポートを使用すると、様
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 コンテンツカードキャンペーンレポート
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizerのキャンペーンレポートを使用すると、様
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ja)
 
 ダイレクトメールキャンペーンレポート
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizerのキャンペーンレポートを使用すると、様
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open-text.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open-text.svg?lang=ja)
 
 メールキャンペーンレポート
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizerのキャンペーンレポートを使用すると、様
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/vial.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/vial.svg?lang=ja)
 
 実験キャンペーンレポート
 

@@ -20,7 +20,7 @@ Adobe Journey Optimizerでは、「ブランド」機能を使用すると、す
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 ブランドガイドラインの作成と管理
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizerを使用して一貫した視覚的および言語的 ID
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 ブランドの整合性スコアの評価
 

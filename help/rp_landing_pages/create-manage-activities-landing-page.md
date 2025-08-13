@@ -20,7 +20,7 @@ Adobe Journey Optimizerでは、意思決定管理を行うことで、最も関
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 Adobe Journey Optimizerでの決定の作成
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizerでの決定の作成
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 オファー選択方法の設定
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizerでの決定の作成
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 オファーの決定をシミュレート
 

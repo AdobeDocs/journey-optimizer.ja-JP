@@ -20,7 +20,7 @@ Adobe Journey Optimizerで意思決定管理レポートを作成すると、パ
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
 
 意思決定管理イベントの操作
 
@@ -30,7 +30,7 @@ Adobe Experience Platformを使用して意思決定管理イベントデータ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 DecisioningEvents XDM フィールドへのアクセスと探索
 

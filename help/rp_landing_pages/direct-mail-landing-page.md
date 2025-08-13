@@ -20,7 +20,7 @@ Adobe Journey Optimizerのダイレクトメールは、明確で影響力のあ
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
 
 ダイレクトメールキャンペーンの概要
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizerのダイレクトメールは、明確で影響力のあ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 ダイレクトメールキャンペーンの作成方法
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizerのダイレクトメールは、明確で影響力のあ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 ダイレクトメールキャンペーンの確認と送信方法
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizerのダイレクトメールは、明確で影響力のあ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 ダイレクトメールチャネルの設定
 

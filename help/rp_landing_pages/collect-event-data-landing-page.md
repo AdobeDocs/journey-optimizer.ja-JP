@@ -20,7 +20,7 @@ Adobe Journey Optimizerでイベントデータを収集すると、意思決定
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
 
 意思決定管理データ収集の概要
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizerでイベントデータを収集すると、意思決定
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 エクスペリエンスイベントを収集するデータセットの作成方法
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizerでエクスペリエンスイベントを収集するた
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 意思決定管理のためのイベントデータキャプチャの設定
 

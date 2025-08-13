@@ -20,7 +20,7 @@ Adobe Journey Optimizerのデータ管理を使用すると、柔軟性、セキ
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
 
 データ管理の基本を学ぶ
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizerが、高度なデータ保持、書き出し、削除、
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 Adobe Journey Optimizerのスキーマの操作
 
@@ -40,7 +40,7 @@ Journey Optimizerでの効果的なデータモデリングと検証のために
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ja)
 
 Journey Optimizer データセット
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizerでの TTL ルール、書き出し、SQL クエリなど
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 Adobe Experience Platform データの使用
 
@@ -60,7 +60,7 @@ Journey OptimizerでAdobe Experience Platform データセットを有効にし�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
 
 Journey Optimizerにおけるクエリの基本を学ぶ
 

@@ -20,7 +20,7 @@ Adobe Journey Optimizerで最初のオーケストレートキャンペーンを
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 オーケストレートキャンペーンを作成するためのステップバイステップガイド
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizerで最初のオーケストレートキャンペーンを
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 オーケストレーションされたキャンペーンの作成とスケジュール
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizerで最初のオーケストレートキャンペーンを
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 キャンペーンアクティビティの調整
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizerで最初のオーケストレートキャンペーンを
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 キャンペーンの開始と監視
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizerで最初のオーケストレートキャンペーンを
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
 
 調整されたキャンペーンのレポート
 

@@ -20,7 +20,7 @@ Adobe Journey Optimizerの「オファーの作成と管理」セクションで
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 Adobe Journey Optimizerでのオファーの設定
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizerでのオファーの設定
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 フォールバックオファーの作成方法
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizerでのオファーの設定
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 オファーコレクションの作成および管理方法
 

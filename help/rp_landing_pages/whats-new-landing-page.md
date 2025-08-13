@@ -35,7 +35,7 @@ Adobe Journey Optimizer の Adobe Express 統合により、コンテンツの�
 
 Immerse yourself in a hands-on experience with our [AI Assistant](../help/using/content-management/gs-generative.md) live feature preview, designed to let you explore its features firsthand and fully understand its capabilities.
 
-[![learn more](../using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
+[![learn more](../using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/ja/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
 
 >[!TAB AEM コンテンツフラグメント]
 
@@ -50,7 +50,7 @@ Adobe Experience Manager as a Cloud Service を Adobe Journey Optimizer と統�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 Adobe Journey Optimizerの最新リリースノート
 
@@ -60,7 +60,7 @@ Campaign オーケストレーション、最適化、チャネルサポート�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
 
 Adobe Journey Optimizerの以前のリリースノート
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer全体の機能、統合、改善点に関する詳細な
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
 
 Adobe Journey Optimizer ドキュメントの最新のアップデート
 

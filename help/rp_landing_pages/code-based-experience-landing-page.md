@@ -20,7 +20,7 @@ Adobe Journey Optimizerのコードベースのエクスペリエンスを使用
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
 
 コードベースのエクスペリエンスの概要
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizerのコードベースのエクスペリエンスを使用
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 コードベースチャネルの設定
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizerのコードベースのエクスペリエンスを使用
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 コードベースのエクスペリエンスの作成
 

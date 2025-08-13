@@ -20,7 +20,7 @@ Adobe Journey Optimizerは、Adobe Experience Platformの豊富なデータを�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 決定でのコンテキストデータの活用
 
@@ -30,7 +30,7 @@ Adobe Experience PlatformのコンテキストデータをAdobe Journey Optimize
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 Adobe Experience Platform データを意思決定に使用する
 

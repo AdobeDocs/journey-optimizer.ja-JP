@@ -20,7 +20,7 @@ Adobe Journey Optimizerでメールチャネルを設定することは、効果
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 メール設定の基本を学ぶ
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizerでメールチャネルを設定することは、効果
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 メール設定の定義
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizerでメールチャネルを設定することは、効果
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 リスト購読解除の有効化と設定
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizerでメールチャネルを設定することは、効果
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 メールヘッダーパラメーターの設定
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizerでメールチャネルを設定することは、効果
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
 
 電子メールチャネル用の URL トラッキングの設定
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizerでメールチャネルを設定することは、効果
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 パーソナライズされたメールの設定
 

@@ -20,7 +20,7 @@ Adobe Journey Optimizerでは、プレースメント、決定ルール、コレ
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 オファーのプレースメントの作成に関するガイド
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizerでは、プレースメント、決定ルール、コレ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 Adobe Journey Optimizerでの決定ルールの作成方法
 
@@ -40,7 +40,7 @@ Adobe Experience Platform データを使用して特定のオーディエンス
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/tags.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/tags.svg?lang=ja)
 
 Adobe Journey Optimizerでコレクション修飾子を作成および管理する方法
 

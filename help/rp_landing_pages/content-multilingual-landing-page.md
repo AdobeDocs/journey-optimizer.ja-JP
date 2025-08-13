@@ -20,7 +20,7 @@ Adobe Journey Optimizerの多言語コンテンツ機能を使用すると、複
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 多言語コンテンツの基本を学ぶ
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizerの多言語コンテンツ機能を設定および使用
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 多言語コンテンツのロケールの作成方法
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizerの多言語コンテンツ機能を設定および使用
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 言語プロバイダーの追加と設定
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizerの多言語コンテンツ機能を設定および使用
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 手動翻訳による多言語コンテンツの作成
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizerの多言語コンテンツ機能を設定および使用
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 自動翻訳による多言語コンテンツの作成
 

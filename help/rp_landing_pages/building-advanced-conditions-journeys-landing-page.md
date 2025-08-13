@@ -20,7 +20,7 @@ Adobe Journey Optimizerには **高度な式エディター** が含まれてお
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=ja)
 
 高度な式エディターの使用
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizerには **高度な式エディター** が含まれてお
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 式の高度な構文
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizerで高度な式を作成するために必要な構文ル
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 Adobe Journey Optimizerの関数
 

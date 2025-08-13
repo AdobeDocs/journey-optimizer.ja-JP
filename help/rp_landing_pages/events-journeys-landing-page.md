@@ -20,7 +20,7 @@ Adobe Journey Optimizerのイベント設定は、パーソナライズされた
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
 
 ジャーニーイベントの操作
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizerのイベント設定は、パーソナライズされた
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 単一イベントの設定
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizerのイベント設定は、パーソナライズされた
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 ExperienceEvent スキーマ
 
@@ -50,7 +50,7 @@ ExperienceEvent スキーマ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
 
 Adobe Analytics との統合
 
@@ -60,7 +60,7 @@ Adobe Analytics データを統合してジャーニーを自動化し、パー�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 ビジネスイベントの設定
 
@@ -70,7 +70,7 @@ Adobe Analytics データを統合してジャーニーを自動化し、パー�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 ストリーミング API を使用したイベントの送信
 

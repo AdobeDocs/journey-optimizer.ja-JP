@@ -20,7 +20,7 @@ Adobe Journey Optimizerの強力なデータベース照会ツールを使用し
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 調整されたキャンペーンでのルールビルダーの使用
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizerのルールビルダーを使用して、オーディエ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 Adobe Journey Optimizerで最初のルールを作成する方法
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizerで最初のルールを作成する方法
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 Adobe Journey Optimizerで式を編集する方法
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizerで式を編集する方法
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 Adobe Journey Optimizerでのリターゲティングクエリの作成
 

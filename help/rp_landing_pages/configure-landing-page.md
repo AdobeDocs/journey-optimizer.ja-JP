@@ -20,7 +20,7 @@ Adobe Journey Optimizerの「コンテンツカードチャネルの設定」セ
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 コンテンツカードチャネル設定の前提条件
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizerでコンテンツカードチャネルを有効にする
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 Journey Optimizerでのコンテンツカードチャネルの設定
 
@@ -40,7 +40,7 @@ Journey Optimizerでのコンテンツカードチャネルの設定
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 Mobile SDKでのコンテンツカードのサポートの設定
 
@@ -50,7 +50,7 @@ Adobe Experience Platform Mobile SDK を使用して、モバイルアプリケ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 Web SDKでのコンテンツカードのサポートの設定
 

@@ -20,7 +20,7 @@ Adobe Journey Optimizerのアクションキャンペーンを使用すると、
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 アクションキャンペーンの作成
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizerのアクションキャンペーンを使用すると、
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 アクションキャンペーンプロパティの定義
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizerのアクションキャンペーンを使用すると、
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 Campaign アクションの設定
 
@@ -50,7 +50,7 @@ Campaign アクションの設定
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 メッセージの最適化の活用
 
@@ -60,7 +60,7 @@ Campaign アクションの設定
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/pencil-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/pencil-alt.svg?lang=ja)
 
 キャンペーンコンテンツの編集
 
@@ -70,7 +70,7 @@ Campaign アクションの設定
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=ja)
 
 キャンペーンオーディエンスの定義
 

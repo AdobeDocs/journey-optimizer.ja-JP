@@ -20,7 +20,7 @@ Adobe Journey Optimizerを使用すると、企業は複数のチャネルをま
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
 
 Adobe Journey Optimizerの主な機能
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizerの主な機能
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 Adobe Journey Optimizer アーキテクチャの概要
 
@@ -40,7 +40,7 @@ Adobe Journey OptimizerとAdobe Experience Platformを統合して、データ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 中心概念：Adobe Journey Optimizerの機能領域
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizerの主要な機能領域と、それらが連携してカ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 Adobe Journey Optimizerにおけるロールと責任
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizerを効果的に実装および管理するために必要
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 Adobe Journey Optimizer ユーザーインターフェイスの概要
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer インターフェイスを操作し、ジャーニー�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 Adobe Journey Optimizerのコンテンツの検索、フィルタリング、整理
 

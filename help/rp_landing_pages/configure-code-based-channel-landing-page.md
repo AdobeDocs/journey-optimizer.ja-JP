@@ -20,7 +20,7 @@ Adobe Journey Optimizerの「コードベースのチャネルを設定」セク
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 コードベースのエクスペリエンスの前提条件
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizerの「コードベースのチャネルを設定」セク
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 コードベースのエクスペリエンスサーフェス
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizerの「コードベースのチャネルを設定」セク
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 実装方法のサンプル
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizerの「コードベースのチャネルを設定」セク
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 コードベースのエクスペリエンス実装での意思決定
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizerの「コードベースのチャネルを設定」セク
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 コードベースのエクスペリエンス設定の作成
 

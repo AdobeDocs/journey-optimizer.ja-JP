@@ -20,7 +20,7 @@ Adobe Journey Optimizerでのジャーニー管理の目的は、チャネルを
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 ジャーニーを参照およびフィルタリング
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizerでのジャーニー管理の目的は、チャネルを
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 ジャーニーへのプロファイルのエントリ
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizerでのジャーニー管理の目的は、チャネルを
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 ジャーニーでの補足識別子の使用
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizerでのジャーニー管理の目的は、チャネルを
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 タイムゾーンの管理
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizerでのジャーニー管理の目的は、チャネルを
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
 
 送信時間の最適化
 
@@ -70,7 +70,7 @@ AI 駆動モデルを使用して最適な送信時間を予測することで�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 ジャーニーの終了
 

@@ -20,7 +20,7 @@ Adobe Journey Optimizerの意思決定管理では、最適なオファーを最
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 意思決定管理の概要
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizerの意思決定管理では、最適なオファーを最
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 決定コンポーネントの作成と管理
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizerの意思決定管理では、最適なオファーを最
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 ランキングの作成と最適化
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizerの意思決定管理では、最適なオファーを最
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 オファーの作成と管理
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizerの意思決定管理では、最適なオファーを最
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 決定の作成と管理
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizerの意思決定管理では、最適なオファーを最
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=ja)
 
 Batch Decisioning の使用
 

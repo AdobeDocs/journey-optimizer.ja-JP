@@ -20,7 +20,7 @@ Adobe Journey Optimizerでランディングページを設定すると、カス
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 ランディングページのサブドメインの設定
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizerでランディングページをホストするための
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 ランディングページプリセットを定義
 

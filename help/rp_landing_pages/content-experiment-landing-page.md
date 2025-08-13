@@ -20,7 +20,7 @@ Adobe Journey Optimizerのコンテンツ実験を使用すると、コンテン
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 コンテンツ実験の基本を学ぶ
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizerのコンテンツ実験を使用すると、コンテン
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 コンテンツ実験の作成とスケール
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizerのコンテンツ実験を使用すると、コンテン
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
 
 実験に関する高度な統計手法
 

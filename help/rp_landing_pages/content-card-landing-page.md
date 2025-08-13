@@ -23,7 +23,7 @@ ht-degree: 50%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 コンテンツカードチャネルの設定
 
@@ -33,7 +33,7 @@ Web、モバイル、キオスクプラットフォームのコンテンツカ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 コンテンツカードの作成と設定
 
@@ -43,7 +43,7 @@ Web、モバイル、キオスクプラットフォームのコンテンツカ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 コンテンツカードのデザイン
 

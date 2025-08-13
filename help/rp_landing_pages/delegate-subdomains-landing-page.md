@@ -20,7 +20,7 @@ Adobe Journey Optimizerでメールサブドメインをデリゲートすると
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 サブドメインデリゲーションの概要
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizerでサブドメインをデリゲートするメリット
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 サブドメインのデリゲート
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizerでサブドメインをデリゲートするメリット
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
 
 DMARC レコードの設定
 
@@ -50,7 +50,7 @@ DMARC レコードを設定して、デリゲートされたサブドメイン�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 Google TXT レコードを追加
 
@@ -60,7 +60,7 @@ Adobe Journey OptimizerにGoogle TXT レコードを追加して、Gmail の配�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 PTR レコードへのアクセスと編集
 
@@ -70,7 +70,7 @@ PTR レコードへのアクセスと編集
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 IP プールの作成
 

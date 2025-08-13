@@ -20,7 +20,7 @@ Adobe Journey Optimizerの AI モデルは、ビジネス目標と顧客との�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
 
 AI モデルの基本を学ぶ
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizerでオファーをランキングするための AI モ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
 
 自動最適化モデル
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizerでオファーをランキングするための AI モ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 パーソナライズされた最適化モデル
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizerでオファーをランキングするための AI モ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 ステップバイステップガイド：AI モデルの作成
 

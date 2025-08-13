@@ -38,7 +38,7 @@ Adobe Journey Optimizerのプッシュ通知は、モバイルアプリを積極
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 プッシュ通知の作成と設定
 
@@ -48,7 +48,7 @@ Adobe Journey Optimizerのプッシュ通知は、モバイルアプリを積極
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 プッシュ通知のデザイン
 
@@ -58,7 +58,7 @@ Adobe Journey Optimizerのプッシュ通知は、モバイルアプリを積極
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 プッシュ通知のプレビュー、検証、送信
 
@@ -68,7 +68,7 @@ Adobe Journey Optimizerのプッシュ通知は、モバイルアプリを積極
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 プッシュ通知の設定
 

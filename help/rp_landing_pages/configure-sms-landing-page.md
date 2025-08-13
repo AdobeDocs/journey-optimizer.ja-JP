@@ -20,7 +20,7 @@ Adobe Journey Optimizerの SMS/MMS/RCS チャネルを使用すると、トラ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 SMS/MMS/RCS チャネル設定の概要
 
@@ -30,7 +30,7 @@ SMS/MMS/RCS チャネル設定の概要
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 SMS/MMS/RCS メッセージング用の Sinch プロバイダーの設定
 
@@ -40,7 +40,7 @@ Sinch API 資格情報を設定して SMS、MMS および RCS メッセージを
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 Infobip SMS、MMS、および RCS プロバイダーの設定
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizerで SMS、MMS、RCS メッセージングのプロバイ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 SMS/MMS/RCS メッセージング用の Twilio プロバイダーの設定
 
@@ -60,7 +60,7 @@ Twilio API 資格情報の設定と、Adobe Journey Optimizerでの SMS、MMS �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 カスタム SMS プロバイダーの設定
 
@@ -70,7 +70,7 @@ API 資格情報を作成し、Webhook を管理し、安全な通信チャネ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 SMS/MMS/RCS チャネル設定の作成
 

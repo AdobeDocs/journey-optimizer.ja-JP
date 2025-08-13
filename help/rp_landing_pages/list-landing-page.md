@@ -20,7 +20,7 @@ Adobe Journey Optimizerの「リスト」関数を使用すると、ワークフ
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 Adobe Journey Optimizerでの「distinct」関数の使用
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizerでの「distinct」関数の使用
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 distinctWithNull 関数 – Adobe Journey Optimizer
 
@@ -40,7 +40,7 @@ null エントリを含みながら、「distinctWithNull」を使用してリ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 Adobe Journey Optimizerでの「filter」関数の使用
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizerでの「filter」関数の使用
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 Adobe Journey Optimizerでの getListItem 関数の使用
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizerでの getListItem 関数の使用
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 Adobe Journey Optimizerでの「in」関数の使用
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizerでの「in」関数の使用
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 Adobe Journey Optimizerの Intersect 関数
 

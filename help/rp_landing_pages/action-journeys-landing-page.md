@@ -20,7 +20,7 @@ Adobe Journey Optimizerのアクション設定を使用すると、カスタマ
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 カスタムアクションの基本を学ぶ
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizerでカスタムアクションを設定および使用し
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 カスタムアクションの設定方法
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizerでカスタムアクションを設定および使用し
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 カスタムアクションでの API 呼び出し応答の使用
 

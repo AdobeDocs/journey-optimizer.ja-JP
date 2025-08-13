@@ -20,7 +20,7 @@ Adobe Journey OptimizerのPersonalizationを使用すると、個々のプロフ
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 Personalizationの基本を学ぶ
 
@@ -30,7 +30,7 @@ Personalizationの基本を学ぶ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 Personalizationの追加と検証
 
@@ -40,7 +40,7 @@ Personalizationの追加と検証
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 Personalization構文について
 
@@ -50,7 +50,7 @@ Personalization構文について
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 式フラグメントの再利用
 
@@ -60,7 +60,7 @@ Personalization構文について
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ja)
 
 Adobe Experience Platform Data for Personalizationの使用（Beta）
 
@@ -70,7 +70,7 @@ AEP データセットを「datasetLookup」ヘルパー関数と共に使用し
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=ja)
 
 ヘルパー関数リファレンスガイド
 

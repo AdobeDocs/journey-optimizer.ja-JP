@@ -20,7 +20,7 @@ Adobe Journey Optimizerの成功は、それぞれのスキルに合わせた明
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
 
 役割と責務の概要
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizerを正常に実装するために必要な主要な役割
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 マーケター向けの基本を学ぶ
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizerを正常に実装するために必要な主要な役割
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 データエンジニア向けの基本を学ぶ
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizerを正常に実装するために必要な主要な役割
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 システム管理者の基本を学ぶ
 

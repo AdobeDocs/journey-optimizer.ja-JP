@@ -20,7 +20,7 @@ Adobe Journey Optimizerの関数を使用すると、カスタマージャーニ
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 Adobe Journey Optimizerの主な関数
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizerの主な関数
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 inAudience 関数の使用
 
@@ -40,7 +40,7 @@ inAudience 関数の使用
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
 
 集計関数リファレンス
 
@@ -50,7 +50,7 @@ inAudience 関数の使用
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/exchange-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/exchange-alt.svg?lang=ja)
 
 コンバージョン関数
 
@@ -60,7 +60,7 @@ inAudience 関数の使用
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=ja)
 
 Adobe Journey Optimizerの日付関数
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizerの日付関数
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 Adobe Journey Optimizerのリスト関数
 

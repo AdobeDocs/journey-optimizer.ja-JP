@@ -20,7 +20,7 @@ Adobe Journey Optimizerでは、ランキングを作成することで、オフ
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 ランキングメソッドの作成および使用方法
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizerでは、ランキングを作成することで、オフ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 AI 式ビルダーの使用
 
@@ -40,7 +40,7 @@ AI 式ビルダーを使用して、AI モデル、属性、コンテキスト�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
 
 AI モデルの理解と実装
 

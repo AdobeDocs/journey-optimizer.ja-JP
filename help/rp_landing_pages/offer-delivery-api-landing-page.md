@@ -20,7 +20,7 @@ Adobe Journey Optimizerのオファー配信 API を使用すると、パーソ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
 
 オファー配信 API の概要
 
@@ -30,7 +30,7 @@ Decisioning API、Edge Decisioning API、Batch Decisioning API など、パー�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 Decisioning API を使用したオファーの配信
 
@@ -40,7 +40,7 @@ Decisioning API を使用したオファーの配信
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 Edge Decisioning API を使用したオファーの配信
 
@@ -50,7 +50,7 @@ Edge Decisioning API を介してAdobe Experience Platform web SDKを使用し�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 Batch Decisioning API を使用したオファーの配信
 

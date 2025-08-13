@@ -20,7 +20,7 @@ Adobe Journey Optimizerのアクセス制御を使用すると、管理者は、
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 アクセス制御の基本を学ぶ
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizerのユーザー権限、ロール、サンドボックス
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 ユーザーと役割の管理
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizerでユーザーのアクセスと権限を制御するた
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
 
 ビルトインの役割
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizerでユーザーのアクセスと権限を制御するた
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
 
 組み込みの権限
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizerで役割ベースのアクセス制御を設定するた
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 権限レベル
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizerで役割ベースのアクセス制御を設定するた
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 属性ベースのアクセス制御
 

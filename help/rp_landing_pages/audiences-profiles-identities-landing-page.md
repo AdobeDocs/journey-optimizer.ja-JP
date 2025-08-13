@@ -14,13 +14,13 @@ ht-degree: 6%
 
 # オーディエンス、プロファイル、ID{#section-overview}
 
-Adobe Journey Optimizerのオーディエンス、プロファイルおよび ID は、[Adobe リアルタイム顧客プロファイル ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/home) の機能に依存して、パーソナライズされたエクスペリエンスを強化します。 **オーディエンス** を使用すると、豊富なデータを使用して顧客をセグメント化したり、**プロファイル** 行動や属性で強化されたリアルタイムのインサイトを提供したり、**ID** ID グラフを使用してチャネル間でインタラクションを接続したりできます。 これらの要素は連携して、ターゲット設定されたメッセージングと一貫性のあるカスタマージャーニーを可能にします。 この節では、オーディエンスをアクティブ化し、プロファイルを管理し、ID をマッピングしてデータを統合し、関連性の高いタイムリーなエクスペリエンスを提供する方法について説明します。
+Adobe Journey Optimizerのオーディエンス、プロファイルおよび ID は、[Adobe リアルタイム顧客プロファイル ](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/home) の機能に依存して、パーソナライズされたエクスペリエンスを強化します。 **オーディエンス** を使用すると、豊富なデータを使用して顧客をセグメント化したり、**プロファイル** 行動や属性で強化されたリアルタイムのインサイトを提供したり、**ID** ID グラフを使用してチャネル間でインタラクションを接続したりできます。 これらの要素は連携して、ターゲット設定されたメッセージングと一貫性のあるカスタマージャーニーを可能にします。 この節では、オーディエンスをアクティブ化し、プロファイルを管理し、ID をマッピングしてデータを統合し、関連性の高いタイムリーなエクスペリエンスを提供する方法について説明します。
 
 ## オーディエンス、プロファイル、ID
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 Audience Management とPersonalization
 
@@ -30,7 +30,7 @@ Audience Management とPersonalization
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user-circle.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/user-circle.svg?lang=ja)
 
 プロファイル：顧客データの管理と最適化
 
@@ -40,7 +40,7 @@ Audience Management とPersonalization
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/fingerprint.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/fingerprint.svg?lang=ja)
 
 ID の基本を学ぶ
 
@@ -50,7 +50,7 @@ ID グラフとクロスチャネルインタラクションマッピング用�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
 
 ライセンス使用状況ダッシュボード
 

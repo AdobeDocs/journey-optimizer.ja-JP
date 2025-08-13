@@ -21,7 +21,7 @@ ht-degree: 30%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 ジャーニーをテストまたは公開する前のエラーのトラブルシューティング
 
@@ -31,7 +31,7 @@ ht-degree: 30%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 Adobe Journey Optimizerでのライブジャーニー実行のトラブルシューティング
 
@@ -41,7 +41,7 @@ Adobe Journey Optimizerでのライブジャーニー実行のトラブルシュ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 Adobe Journey Optimizer ジャーニーの受信アクションのトラブルシューティング
 
@@ -51,7 +51,7 @@ Adobe Journey Optimizer ジャーニーの受信アクションのトラブル�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 Adobe Journey Optimizerのカスタムアクションのトラブルシューティング
 
@@ -64,4 +64,4 @@ Adobe Journey Optimizerのカスタムアクションのトラブルシューテ
 
 ### その他のリソース
 
-また、一般的なエラーコードの詳細と効果的な解決方法については、[ このAdobe Community のブログ投稿 ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884) を参照してください。
+また、一般的なエラーコードの詳細と効果的な解決方法については、[ このAdobe Community のブログ投稿 ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=ja) を参照してください。

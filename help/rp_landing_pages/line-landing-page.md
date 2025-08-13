@@ -30,7 +30,7 @@ LINE メッセージを作成する前に、Journey Optimizer を使用して LI
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 LINE チャネルの設定
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizerの API を使用して、LINE チャンネルを手動�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 LINE メッセージの作成と設定
 
@@ -50,7 +50,7 @@ LINE メッセージの作成と設定
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 LINE メッセージの確認と送信
 

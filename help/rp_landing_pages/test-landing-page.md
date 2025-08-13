@@ -20,7 +20,7 @@ Adobe Journey Optimizerの「テストして承認」機能を使用すると、
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 コンテンツのプレビュー、テスト、検証
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizerの「テストして承認」機能を使用すると、
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 ジャーニーおよびキャンペーンの承認ワークフロー
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizerの「テストして承認」機能を使用すると、
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=ja)
 
 システムアラートへのアクセスと購読
 

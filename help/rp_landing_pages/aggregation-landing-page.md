@@ -20,7 +20,7 @@ Adobe Journey Optimizerの集計機能を使用すると、複雑なデータセ
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 Adobe Journey Optimizerの平均関数
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizerの平均関数
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 カウント関数ドキュメント
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizerの平均関数
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 countOnlyNull 関数 – リストの Null 値をカウントします
 
@@ -50,7 +50,7 @@ countOnlyNull 関数 – リストの Null 値をカウントします
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 countWithNull 関数の概要
 
@@ -60,7 +60,7 @@ countWithNull 関数の概要
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 Adobe Journey Optimizerの distinctCount 関数
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizerの distinctCount 関数
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 distinctCountWithNull 関数：一意の値（Null を含む）をカウントします
 
