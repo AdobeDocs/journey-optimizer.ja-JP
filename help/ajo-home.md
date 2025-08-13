@@ -1,121 +1,99 @@
 ---
-keywords: Journey Optimizer;ホーム;人気のトピック
-title: Journey Optimizer 製品ドキュメント
-description: Adobe Journey Optimizer の使用方法について説明します。
 solution: Journey Optimizer
-product: journey optimizer
-exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 08408b987e5894912e357e78cacdb54bfb78a6a1
-workflow-type: ht
-source-wordcount: '394'
-ht-degree: 100%
+product: Journey Optimizer
+title: Adobe Journey Optimizer ドキュメント
+description: Adobe Journey Optimizer ドキュメント
+redpen-status: CREATED_||_2025-08-11_21-21-01
+source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
+workflow-type: tm+mt
+source-wordcount: '425'
+ht-degree: 10%
 
 ---
 
-# Adobe [!DNL Journey Optimizer] のドキュメント {#cjm-documentation}
 
-## 最新情報
+# Adobe Journey Optimizer ドキュメント{#section-overview}
 
-Journey Optimizer 製品とドキュメントの最新の機能強化の概要について説明します。機能、改善点、修正の包括的なリストについては、詳細な[リリースノート](using/rn/release-notes.md)を参照してください。製品ドキュメントの最新の変更点について詳しくは、[ドキュメントの更新ページ](using/rn/documentation-updates.md)を参照してください。
+Adobe Journey Optimizerを使用すると、チームはメールや SMS などのチャネルをまたいで、シームレスにパーソナライズされたカスタマーエクスペリエンスを設計および提供できます。 キャンペーンオーケストレーション、データ管理、意思決定のための高度なツールを組み合わせることで、顧客のニーズにリアルタイムに適応するジャーニーを作成するのに役立ちます。 このドキュメントは、プラットフォームを習得するためのロードマップで、最新の機能と統合の調査から、オーディエンスの管理、ジャーニーの設定、パフォーマンスの分析の方法の学習に至るまで提供します。 マーケター、データアナリスト、キャンペーンマネージャーのどれに該当する場合でも、自信を持って目標を達成するのに役立つ、ステップバイステップのガイド、ベストプラクティス、リソースを確認できます。
 
->[!BEGINTABS]
+## 調査を開始
 
->[!TAB 2025年7月リリース]
+:::: landing-cards-container
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-7月リリースが公開されました。リリースノートを参照して、新機能、変更点および機能強化を確認してください。
+Adobe Journey Optimizerの新機能
 
-[![詳細情報](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
+Adobe Journey Optimizerの最新のリリースノート、新機能およびドキュメントの変更点について説明します。
 
->[!TAB キャンペーンオーケストレーション]
+[新機能を表示](./rp_landing_pages/whats-new-landing-page.md)
+:::
 
-Journey Optimizer に、ブランド主導のバッチキャンペーン専用の新しい機能である&#x200B;**キャンペーンオーケストレーション**&#x200B;が含まれるようになりました。このリリースでは、キャンペーンオーケストレーションキャンバスと強化されたデータモデリングが導入され、これらを連携することで、マーケターがパーソナライズされたクロスチャネルキャンペーンを計画、ターゲット、配信できます。
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-[![詳細情報](using/assets/do-not-localize/learn-more-button.svg)](using/orchestrated/gs-orchestrated-campaigns.md)
+Adobe Journey Optimizerの基本を学ぶ
 
->[!TAB Adobe Express]
+機能、アーキテクチャ、ユーザーインターフェイスなど、Adobe Journey Optimizerの基本について説明します。
 
-Adobe Journey Optimizer の Adobe Express 統合により、コンテンツの作成中に Adobe Express の強力な編集ツールに簡単にアクセスできます。この統合により、ソリューションを切り替えることなく、画像のサイズ変更、背景の削除、ビジュアルの切り抜き、アセットの JPEG または PNG への変換が可能になります。
+[はじめに](./rp_landing_pages/get-started-landing-page.md)
+:::
 
-[![詳細情報](using/assets/do-not-localize/learn-more-button.svg)](using/integrations/express.md)
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-<!--
->[!TAB AI Assistant]
+包括的なジャーニーガイド
 
-Immerse yourself in a hands-on experience with our [AI Assistant](../help/using/content-management/gs-generative.md) live feature preview, designed to let you explore its features firsthand and fully understand its capabilities.
+この詳細なガイドを使用して、パーソナライズされたカスタマージャーニーを設計、調整、管理および最適化します。
 
-[![learn more](using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/ja/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}-->
+[ジャーニーを探索](./rp_landing_pages/orchestrate-journeys-landing-page.md)
+:::
 
->[!TAB AEM コンテンツフラグメント]
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
-Adobe Experience Manager as a Cloud Service を Adobe Journey Optimizer と統合することで、AEM コンテンツフラグメントを Journey Optimizer のコンテンツにシームレスに組み込めるようになりました。この合理化された接続により、AEM コンテンツへのアクセスと活用のプロセスが簡略化され、パーソナライズされた動的なキャンペーンやジャーニーの作成が可能になります。
+キャンペーンの理解と管理
 
-[![詳細情報](using/assets/do-not-localize/learn-more-button.svg)](using/integrations/aem-fragments.md)
+効果的なターゲティングを実現するための、様々なキャンペーンタイプの作成、管理および最適化に関する詳細なガイダンス。
+
+[キャンペーンについて学ぶ](./rp_landing_pages/campaigns-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+
+通信チャネル
+
+パーソナライズされた顧客インタラクションのために、メール、SMS、プッシュ通知、その他のチャネルを設定および管理します。
+
+[チャネルの調査](./using/channels/gs-channels.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
+
+競合管理と優先順位付け
+
+キャンペーンおよびジャーニー全体でコミュニケーションの競合を効果的に優先順位付けおよび管理する方法を説明します。
+
+[競合の管理について学ぶ](./rp_landing_pages/conflict-prioritization-landing-page.md)
+:::
+
+::::
 
 
->[!ENDTABS]
+## その他のリソース
 
-## 基本について学ぶ
-
-<table style="table-layout:fixed">
-  <tr style="border: 0;">
-    <td>
-    <a href="using/start/quick-start.md"><img src="using/assets/do-not-localize/start-quick.png"></a>
-    <div><strong>クイックスタートガイド</strong><br/>Journey Optimizer で、自分の役割に応じてパーソナライズされたアプローチを使用して目標をより早く達成する方法について説明します。</div>
-    </td>
-    <td>
-    <a href="using/start/user-interface.md"><img src="using/assets/do-not-localize/start-interface.jpeg"></a>
-    <div><strong>ユーザーインターフェイス</strong><br/>Journey Optimizer で、エクスペリエンスを操作して最適化する方法について説明します。</div>
-    </td>
-    <td>
-    <a href="using/building-journeys/journey-gs.md"><img src="using/assets/do-not-localize/start-journey.jpeg"></a>
-    <div><strong>最初のジャーニーの作成</strong><br/>パーソナライズされたオムニチャネルジャーニーを設計および調整して、マーケティングアウトリーチと 1 対 1 の顧客エンゲージメントを調和させます。 
-    </div>
-    </td>
-    <td>
-    <a href="using/campaigns/create-campaign.md"><img src="using/assets/do-not-localize/start-campaign.jpeg"></a>
-    <div><strong>最初のキャンペーンの起動</strong><br/>Journey Optimizer で最初のキャンペーンを作成して開始し、特定のオーディエンスに対して 1 回限りのターゲットコンテンツを配信します。</div>
-    </td>
-  </tr>
-  <tr style="border: 0;">
-    <td align="center"><a href="using/start/quick-start.md"><img src="using/assets/do-not-localize/learn-more-button.svg"></a></td>
-    <td align="center"><a href="using/start/user-interface.md"><img src="using/assets/do-not-localize/learn-more-button.svg"></a></td>
-    <td align="center"><a href="using/building-journeys/journey-gs.md"><img src="using/assets/do-not-localize/learn-more-button.svg"></a></td>
-    <td align="center"><a href="using/campaigns/create-campaign.md"><img src="using/assets/do-not-localize/learn-more-button.svg"></a></td>
-    </tr>
-</table>
-
-## ドキュメントの参照
-
-<table style="table-layout:auto">
-  <tr style="border: 0;">
-    <td>
-      <img src="using/assets/do-not-localize/icon-quick-start.svg" width="35px"><br/>
-      <strong>顧客のエクスペリエンス</strong><br/><a href="using/building-journeys/journey.md">ジャーニー</a> - <a href="using/campaigns/get-started-with-campaigns.md">キャンペーン</a> - <a href="using/landing-pages/get-started-lp.md">ランディングページ</a> - <a href="using/reports/live-report.md">レポート</a> - <a href="using/offers/get-started/starting-offer-decisioning.md">意思決定管理</a>
-    </td>
-    <td>
-      <img src="using/assets/do-not-localize/icon-configure.svg" width="35px"><br/>
-      <strong>設定<br/>管理</strong><br/><a href="using/configuration/channel-surfaces.md">チャネルサーフェス</a> - <a href="using/configuration/about-data-sources-events-actions.md">ジャーニーの設定</a> - <a href="using/administration/permissions-overview.md">アクセス制御</a> - <a href="using/administration/sandboxes.md">サンドボックス管理</a>
-    </td>
-    <td>
-      <img src="using/assets/do-not-localize/icon-campaign.svg" width="35px"><br/>
-      <strong>通信チャネル</strong><br/><a href="using/email/get-started-email.md">メール</a> - <a href="using/sms/get-started-sms.md">SMS</a> - <a href="using/in-app/get-started-in-app.md">アプリ内</a> - <a href="using/push/get-started-push.md">プッシュ通知</a> - <a href="using/direct-mail/get-started-direct-mail.md">ダイレクトメール</a> - <a href="using/web/get-started-web.md">Web</a>
-    </td>
-  </tr>
-  <tr style="border: 0;">
-    <td>
-      <img src="using/assets/do-not-localize/icon-content.svg" width="35px"><br/>
-      <strong>コンテンツ管理</strong><br/><a href="using/integrations/assets.md">アセット／画像</a> - <a href="using/personalization/personalize.md">パーソナライゼーション</a> - <a href="using/content-management/content-templates.md">再利用可能</a>および<a href="using/personalization/dynamic-content.md">動的</a>コンテンツ - <a href="using/content-management/preview-test.md">コンテンツのテストとプレビュー</a>
-    </td>
-    <td>
-      <img src="using/assets/do-not-localize/icon_profile-audience.svg" width="35px"><br/>
-      <strong>プロファイルとオーディエンス</strong><br/><a href="using/audience/about-audiences.md">オーディエンス</a> - <a href="using/audience/get-started-profiles.md">プロファイル</a> - <a href="using/audience/get-started-identity.md">ID</a> - <a href="using/audience/license-usage.md">ライセンス使用状況</a> - <a href="using/privacy/get-started-privacy.md">プライバシー管理</a>
-    </td>
-    <td>
-      <img src="using/assets/do-not-localize/icon-data.svg" width="35px"><br/>
-      <strong>データ管理</strong><br/><a href="using/data/get-started-schemas.md">スキーマ</a> - <a href="using/data/get-started-datasets.md">データセット</a> - <a href="using/data/get-started-queries.md">クエリ</a>
-    </td>
-  </tr>
-</table>
+- **[テスト、検証、承認](./rp_landing_pages/test-landing-page.md)** - コンテンツ、ジャーニー、キャンペーンをテストおよび承認して、デプロイメント前に品質と精度を確保します。
+- **[オーディエンス、プロファイル、ID](./rp_landing_pages/audiences-profiles-identities-landing-page.md)** - オーディエンス、プロファイルおよび ID を管理して、効果的なターゲティングとパーソナライゼーションを可能にします。
+- **[包括的なレポート](./rp_landing_pages/reporting-landing-page.md)** – 高度なレポート機能を使用して、ジャーニー、キャンペーン、チャネルを分析し最適化します。
+- **[意思決定機能](./rp_landing_pages/decisioning-landing-page.md)** – 決定ツールを活用して、パーソナライズされたオファーを作成および管理し、マーケティングワークフローを最適化します。
+- **[包括的なデータ管理](./rp_landing_pages/data-management-landing-page.md)** - ガバナンス、スキーマ使用、クエリ機能のためのツールを使用して、データを効果的に管理します。
+- **[チャネル設定](./rp_landing_pages/configuration-landing-page.md)** - コンプライアンスとキャンペーンパフォーマンスの強化のために、通信チャネルをセットアップおよび最適化します。
+- **[ジャーニー設定](./rp_landing_pages/configure-journeys-landing-page.md)** - シームレスなカスタマージャーニーを構築するためのデータソース、イベント、アクションを設定します。
+- **[システムと環境の接続](./rp_landing_pages/connect-systems-landing-page.md)** - Adobe Journey Optimizerを外部システム、API およびAdobe ソリューションと統合します。
+- **[アクセス制御の管理](./rp_landing_pages/access-control-landing-page.md)** - データを保護し、ガバナンスを確保するために、ユーザーのアクセス、役割、権限を制御します。
+- **[プライバシー、同意、データガバナンス](./rp_landing_pages/privacy-landing-page.md)** - データのプライバシー、同意、ガバナンスを管理して、規制に準拠し、機密情報を保護します。
 
 ## その他のリソース
 

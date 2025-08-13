@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
-workflow-type: ht
+source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+workflow-type: tm+mt
 source-wordcount: '6783'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -296,7 +296,7 @@ ht-degree: 100%
 
 **Web チャネル**
 
-* **Web デザイナー向けの非ビジュアル編集モード** - Journey Optimizer の web デザイナーの代わりに、非ビジュアルエディターを使用して web サイトに変更を追加できるようになりました。これにより、ビジュアルエディターでページを開かなくても、手動で変更を入力できます。この非ビジュアル編集モードは、web デザイナーでページを読み込むのに必要な Adobe Experience Cloud Visual Helper などのブラウザー拡張機能をインストールできない場合に役立ちます。[詳細情報](../web/web-non-visual-editor.md)
+* **Web designer 向けの非ビジュアル編集モード** - Journey Optimizer の web designer の代わりに、非ビジュアルエディターを使用して web サイトに変更を追加できるようになりました。これにより、ビジュアルエディターでページを開かなくても、手動で変更を入力できます。この非ビジュアル編集モードは、web designer でページを読み込むために必要な Adobe Experience Cloud Visual Helper などのブラウザー拡張機能をインストールできない場合に役立ちます。[詳細情報](../web/web-non-visual-editor.md)
 
 
 **データセット**
@@ -374,7 +374,7 @@ ht-degree: 100%
 <td>
 <p>コンテンツカードは、Adobe Journey Optimizer の新しいデジタルメッセージ機能で、パーソナライズされた魅力的なコンテンツをモバイルアプリや web サイト内で直接配信します。従来のプッシュ通知とは異なり、コンテンツカードはユーザーインターフェイスにシームレスに統合され、ユーザーのインタラクションとエクスペリエンスを向上させる、永続的で非割り込み型の更新を提供します。</p>
 <p>この機能により、マーケターは、関連性の高いリッチメディアコンテンツをユーザーに提示し、エンゲージメントを向上させ、ユーザージャーニーを中断することなく重要なメッセージを確実に確認できるようにします。</p>
-<p>詳しくは、<a href="../content-card/get-started-content-card.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../../rp_landing_pages/content-card-landing-page.md">詳細なドキュメント</a>を参照してください。</p>
 <img src="assets/do-not-localize/content-card.gif"/>
 </td>
 </tr>
@@ -425,7 +425,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>次に、ジャーニーレベルでの終了条件を定義します。終了条件を追加して、イベント（例：購買）が発生した直後やオーディエンスに適合した直後に、プロファイルによってジャーニーを終了させます。これにより、ユーザーはジャーニーからそれ以降の通信を受信できなくなります。</p>
+<p>次に、ジャーニーレベルでの終了条件を定義します。終了条件を追加して、イベント（例：購入）が発生した直後やオーディエンスに適合した直後に、プロファイルによってジャーニーを終了させます。これにより、ユーザーはジャーニーからそれ以降の通信を受信できなくなります。</p>
 <p>詳しくは、<a href="../building-journeys/journey-properties.md#exit-criteria">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
@@ -630,7 +630,7 @@ ht-degree: 100%
 
 **ジャーニー**
 
-* 「**条件**」アクティビティでは、デフォルトで、**[!UICONTROL 時間条件]**&#x200B;が 00:00 から 12:00 までの時間単位で設定されるようになりました。[詳細情報](../building-journeys/condition-activity.md#time_condition)
+* **条件** アクティビティでは、デフォルトで **[!UICONTROL 時間条件]** が時間単位で 00:00 から 12:00 に設定されるようになりました。 [詳細情報](../building-journeys/condition-activity.md#time_condition)
 * ジャーニーを作成する際に、「**アラート**」ボタンからアラートが表示されるようになり、他のアラートに合わせて一貫したユーザー エクスペリエンスを実現します。[詳細情報](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
 * ジャーニーツールバーのズームオプションが改善されました。ズームの割合が表示され、ズーム値をより簡単にリセットできるようになりました。
 
@@ -817,7 +817,7 @@ ht-degree: 100%
 
 #### 意思決定管理
 
-* **意思決定管理でのマルチルールのサポート** - 意思決定管理で、特定のオファーに対して最大 10 個のキャッピングルールを追加できるようになりました。これにより、オファーの送信方法に対する制御レベルを強化できます。[詳細情報](../offers/offer-library/add-constraints.md#capping)
+* **意思決定管理でのマルチルールのサポート** - 意思決定管理で、特定のオファーに対して最大 10 個のキャップルールを追加できるようになりました。これにより、オファーの送信方法に対する制御レベルを強化できます。[詳細情報](../offers/offer-library/add-constraints.md#capping)
 
 <!--* **Audits** - The **Change log** tab allowing you to see all the changes that have been made to an offer or a decision has been removed. Changes related to offers and decisions can now be seen in the **Audits** menu. -->
 
@@ -984,7 +984,7 @@ ht-degree: 100%
 * **エクスペリエンス決定 + コードベースエクスペリエンス**：エクスペリエンス決定機能を活用して、コードベースのキャンペーンで決定項目を使用できるようになりました。メモ：Adobe Healthcare Shield および Privacy and Security Shield アドオン製品を購入した組織では、コードベースのエクスペリエンスチャネルと エクスペリエンス決定を使用できません。[詳細情報](../code-based/get-started-code-based.md)
 * **コンテキストデータ** - Adobe Experience Platform からのコンテキストデータを決定ルールやランキング式で活用できるようになりました。[詳細情報](../experience-decisioning/context-data.md)
 * **新しい権限** - 意思決定管理リソースで、新しい「エクスペリエンス決定を管理」権限を利用できるようになりました。エクスペリエンス決定に関連する権限を管理できます。[詳細情報](../experience-decisioning/gs-experience-decisioning.md)
-* **キャッピングルール** - エクスペリエンス決定で特定の決定項目に対して、複数のキャッピングルールを追加できるようになりました。これにより、オファーの送信方法に対する制御レベルを強化できます。[詳細情報](../experience-decisioning/items.md#capping)
+* **キャップルール** - エクスペリエンス決定で特定の決定項目に対して、複数のキャップルールを追加できるようになりました。これにより、オファーの送信方法に対する制御レベルを強化できます。[詳細情報](../experience-decisioning/items.md#capping)
 * **レポート** - [!DNL Customer Journey Analytics] を使用して、エクスペリエンス決定キャンペーンのカスタムレポートダッシュボードを作成できるようになりました。[詳細情報](../experience-decisioning/cja-reporting.md)
 
 
@@ -1055,7 +1055,7 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>ジャーニーデザイナーとライブレポートの改善</strong><br/></th>
+<th><strong>ジャーニー designer とライブレポートの改善</strong><br/></th>
 </tr>
 </thead>
 <tbody>

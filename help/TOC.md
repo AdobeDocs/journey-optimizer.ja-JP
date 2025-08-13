@@ -5,20 +5,23 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 378ead41924496f52f22026b3f0e05a9c9c76f89
+source-git-commit: 0d9d5324a8ca2c02fd18c01808e45be83952cc91
 workflow-type: tm+mt
-source-wordcount: '2598'
-ht-degree: 100%
+source-wordcount: '2875'
+ht-degree: 99%
 
 ---
+
 
 # Adobe Journey Optimizer ヘルプ {#using}
 
 + [Journey Optimizer ドキュメント](ajo-home.md)
 + 新機能 {#whats-new}
+   + [新機能](/help/rp_landing_pages/whats-new-landing-page.md)
    + [早期リリースノート](using/rn/e-release-notes.md)
    + [最新のリリースノート](using/rn/release-notes.md)
    + 以前のリリースノート {#previous-rn-new}
+      + [以前のリリースノート](/help/rp_landing_pages/previous-rn-new-landing-page.md)
       + [2025](using/rn/release-notes-2025.md)
       + [2024年](using/rn/release-notes-2024.md)
       + [2023年](using/rn/release-notes-2023.md)
@@ -26,9 +29,13 @@ ht-degree: 100%
       + [2021年](using/rn/release-notes-2021.md)
    + [ドキュメントの更新](using/rn/documentation-updates.md)
    + [ジャーニーキャンバスの改善](using/rn/new-canvas.md)
-+ 基本を学ぶ{#get-started}
-   + [Journey Optimizer について](using/start/get-started.md)
-   + クイックスタートガイド{#quick-start}
++ 基本を学ぶ {#get-started}
+   + [基本を学ぶ](/help/rp_landing_pages/get-started-landing-page.md)
+   + [主な機能](using/start/get-started.md)
+   + [アーキテクチャ](using/start/architecture-concepts-redpen.md)
+   + [中心概念](using/start/functional-areas-redpen.md)
+   + [主な用語](using/start/terminology-md-redpen.md)
+   + 役割と責務 {#quick-start}
       + [概要](using/start/quick-start.md)
       + [マーケター向けの基本を学ぶ](using/start/path/marketer.md)
       + [データエンジニア向けの基本を学ぶ](using/start/path/data-engineer.md)
@@ -36,14 +43,16 @@ ht-degree: 100%
       + [開発者向けの基本を学ぶ](using/start/path/developer.md)
    + [ユーザーインターフェイス](using/start/user-interface.md)
    + [検索、フィルター、分類](using/start/search-filter-categorize.md)
-   + [ガードレール](using/start/guardrails.md)
    + [アクセシビリティ](using/start/accessibility.md)
-   + [ユースケースプレイブック](using/start/playbooks.md)
    + [AI アシスタントの操作](using/start/ai-assistant.md)
+   + [ガードレール](using/start/guardrails.md)
    + [ベストプラクティス](using/start/best-practices.md)
+   + [プレイブック](using/start/playbooks.md)
 + ジャーニー {#orchestrate-journeys}
+   + [ジャーニー](/help/rp_landing_pages/orchestrate-journeys-landing-page.md)
    + [ジャーニーの基本を学ぶ](using/building-journeys/journey.md)
    + ジャーニーの作成 {#create-journey}
+      + [ジャーニーの作成](/help/rp_landing_pages/create-journey-landing-page.md)
       + [最初のジャーニーを作成](using/building-journeys/journey-gs.md)
       + [ジャーニーのプロパティの設定](using/building-journeys/journey-properties.md)
       + [ジャーニー指標の設定とトラッキング](using/building-journeys/success-metrics.md)
@@ -54,6 +63,7 @@ ht-degree: 100%
       + [ジャーニーの一時停止](using/building-journeys/journey-pause.md)
       + [ジャーニーのライブレポート](using/building-journeys/report-journey.md)
    + ジャーニーの管理 {#manage-journey}
+      + [ジャーニーの管理](/help/rp_landing_pages/manage-journey-landing-page.md)
       + [ジャーニーの参照とフィルタリング](using/building-journeys/journey-ui.md)
       + [ジャーニーのプロファイルエントリ](using/building-journeys/entry-management.md)
       + [ジャーニーの補足識別子の使用](using/building-journeys/supplemental-identifier.md)
@@ -63,6 +73,7 @@ ht-degree: 100%
       + [別のサンドボックスへのジャーニーのコピー](using/building-journeys/copy-to-sandbox.md)
       + [インテリジェントサービスとの統合](using/building-journeys/ai-services-overview.md)
    + アクティビティ {#about-journey-building}
+      + [アクティビティ](/help/rp_landing_pages/about-journey-building-landing-page.md)
       + [ジャーニーのアクティビティの基本を学ぶ](using/building-journeys/about-journey-activities.md)
       + [一般イベント](using/building-journeys/general-events.md)
       + [反応](using/building-journeys/reaction-events.md)
@@ -78,8 +89,10 @@ ht-degree: 100%
       + [ジャンプ](using/building-journeys/jump.md)
       + [プロファイルを更新](using/building-journeys/update-profiles.md)
    + 式の作成 {#building-advanced-conditions-journeys}
+      + [式の作成](/help/rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
       + [高度な式エディターの操作](using/building-journeys/expression/expressionadvanced.md)
       + 構文 {#syntax}
+         + [構文](/help/rp_landing_pages/syntax-landing-page.md)
          + [高度な式エディターの構文](using/building-journeys/expression/generalities.md)
          + [条件付き手順](using/building-journeys/expression/conditional-instruction.md)
          + [データタイプ](using/building-journeys/expression/data-types.md)
@@ -89,10 +102,12 @@ ht-degree: 100%
          + [ジャーニーのプロパティ](using/building-journeys/expression/journey-properties.md)
          + [例](using/building-journeys/expression/advanced-editor-use-cases.md)
       + 関数 {#main-functions-journey}
+         + [関数](/help/rp_landing_pages/main-functions-journey-landing-page.md)
          + [主な関数](using/building-journeys/expression/functions.md)
          + Adobe Experience Platform {#adobe-experience-platform}
             + [inAudience](using/building-journeys/functions/functioninaudience.md)
          + 集計 {#aggregation}
+            + [集計](/help/rp_landing_pages/aggregation-landing-page.md)
             + [avg](using/building-journeys/functions/functionavg.md)
             + [count](using/building-journeys/functions/functioncount.md)
             + [countOnlyNull](using/building-journeys/functions/functioncountonlynull.md)
@@ -103,6 +118,7 @@ ht-degree: 100%
             + [min](using/building-journeys/functions/functionmin.md)
             + [sum](using/building-journeys/functions/functionsum.md)
          + コンバージョン {#conversion}
+            + [コンバージョン](/help/rp_landing_pages/conversion-landing-page.md)
             + [toBool](using/building-journeys/functions/functiontobool.md)
             + [toDateOnly](using/building-journeys/functions/functiontodateonly.md)
             + [toDateTime](using/building-journeys/functions/functiontodatetime.md)
@@ -112,6 +128,7 @@ ht-degree: 100%
             + [toInteger](using/building-journeys/functions/functiontointeger.md)
             + [toString](using/building-journeys/functions/functiontostring.md)
          + 日付 {#date}
+            + [日付](/help/rp_landing_pages/date-landing-page.md)
             + [currentTime&#x200B;InMillis](using/building-journeys/functions/functioncurrenttimeinmillis.md)
             + [inLastDays](using/building-journeys/functions/functioninlastdays.md)
             + [inLastHours](using/building-journeys/functions/functioninlasthours.md)
@@ -127,6 +144,7 @@ ht-degree: 100%
             + [setDays](using/building-journeys/functions/functionsetdays.md)
             + [updateTimeZone](using/building-journeys/functions/functionupdatetimezone.md)
          + リスト {#list}
+            + [リスト](/help/rp_landing_pages/list-landing-page.md)
             + [distinct](using/building-journeys/functions/functiondistinct.md)
             + [distinctWithNull](using/building-journeys/functions/functiondistinctwithnull.md)
             + [filter](using/building-journeys/functions/functionfilter.md)
@@ -138,9 +156,11 @@ ht-degree: 100%
             + [serializeList](using/building-journeys/functions/functionserializelist.md)
             + [sort](using/building-journeys/functions/functionsort.md)
          + 数値計算 {#math}
+            + [数値計算](/help/rp_landing_pages/math-landing-page.md)
             + [random](using/building-journeys/functions/functionrandom.md)
             + [round](using/building-journeys/functions/functionround.md)
          + 文字列 {#string}
+            + [文字列](/help/rp_landing_pages/string-landing-page.md)
             + [concat](using/building-journeys/functions/functionconcat.md)
             + [contain](using/building-journeys/functions/functioncontain.md)
             + [containIgnoreCase](using/building-journeys/functions/functioncontainwithignorecase.md)
@@ -165,6 +185,7 @@ ht-degree: 100%
             + [upper](using/building-journeys/functions/functionupper.md)
             + [uuid](using/building-journeys/functions/functionuuid.md)
    + ユースケース {#journey-use-cases}
+      + [ユースケース](/help/rp_landing_pages/journey-use-cases-landing-page.md)
       + [ユースケースを通じて学ぶ](using/building-journeys/jo-use-cases.md)
       + [エクスペリエンスイベント参照](using/building-journeys/exp-event-lookup.md)
       + [マルチチャネルメッセージの送信](using/building-journeys/journeys-uc.md)
@@ -175,15 +196,17 @@ ht-degree: 100%
       + [外部データソースとカスタムアクションを使用したスループットの制限](using/building-journeys/limit-throughput.md)
       + [カスタムアクションを使用した Experience Platform のジャーニーイベントの書き込み](using/building-journeys/custom-action-aep.md)
    + トラブルシューティング {#troubleshoot-journey}
-      + [ジャーニーのトラブルシューティング](using/building-journeys/gs-troubleshooting.md)
+      + [トラブルシューティング](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
       + [ジャーニーエラーのトラブルシューティング](using/building-journeys/troubleshooting.md)
       + [ジャーニー実行のトラブルシューティング](using/building-journeys/troubleshooting-execution.md)
       + [インバウンドアクションのトラブルシューティング](using/building-journeys/troubleshooting-inbound.md)
       + [カスタムアクションのトラブルシューティング](using/action/troubleshoot-custom-action.md)
 + キャンペーン {#campaigns}
+   + [キャンペーン](/help/rp_landing_pages/campaigns-landing-page.md)
    + [キャンペーンの基本を学ぶ](using/campaigns/get-started-with-campaigns.md)
    + [キャンペーンへのアクセスと管理](using/campaigns/modify-stop-campaign.md)
    + アクションキャンペーン {#action-campaigns}
+      + [アクションキャンペーン](/help/rp_landing_pages/action-campaigns-landing-page.md)
       + [アクションキャンペーンの操作](using/campaigns/create-campaign.md)
       + [キャンペーンのプロパティの定義](using/campaigns/campaign-properties.md)
       + [キャンペーンアクションの設定](using/campaigns/campaign-action.md)
@@ -193,6 +216,7 @@ ht-degree: 100%
       + [キャンペーンのスケジュール](using/campaigns/campaign-schedule.md)
       + [アクションキャンペーンのレビューとアクティブ化](using/campaigns/review-activate-campaign.md)
    + API トリガーキャンペーン {#api-triggered-campaigns}
+      + [API トリガーキャンペーン](/help/rp_landing_pages/api-triggered-campaigns-landing-page.md)
       + [API トリガーキャンペーンの操作](using/campaigns/api-triggered-campaigns.md)
       + [キャンペーンのプロパティの定義](using/campaigns/api-triggered-campaign-properties.md)
       + [キャンペーンアクションの設定](using/campaigns/api-triggered-campaign-action.md)
@@ -202,28 +226,34 @@ ht-degree: 100%
       + [キャンペーンのレビューとアクティブ化](using/campaigns/review-activate-api-triggered-campaign.md)
       + [キャンペーン実行のトリガー](using/campaigns/trigger-campaigns.md)
    + 調整されたキャンペーン {#orchestrated-campaigns}
+      + [調整されたキャンペーン](/help/rp_landing_pages/orchestrated-campaigns-landing-page.md)
       + [調整されたキャンペーンの基本を学ぶ](using/orchestrated/gs-orchestrated-campaigns.md)
       + [ガードレールと制限](using/orchestrated/guardrails.md)
       + [よくある質問](using/orchestrated/orchestrated-campaigns-faq.md)
-      + データ設定 {#configuration}
+      + データ設定 {#data-configuration}
+         + [データ設定](/help/rp_landing_pages/data-configuration-landing-page.md)
          + リレーショナルスキーマとデータセットの管理 {#schemas-datasets}
+            + [リレーショナルスキーマとデータセットの管理](/help/rp_landing_pages/schemas-datasets-landing-page.md)
             + [スキーマとデータセットの基本を学ぶ](using/orchestrated/gs-schemas.md)
             + [手動スキーマ](using/orchestrated/manual-schema.md)
             + [ファイルアップロードスキーマ](using/orchestrated/file-upload-schema.md)
             + [データを取得](using/orchestrated/ingest-data.md)
          + [ターゲティングディメンションの作成](using/orchestrated/target-dimension.md)
-      + 最初の調整されたキャンペーンの開始{#launch}
+      + 最初の調整されたキャンペーンの開始 {#launch}
+         + [最初の調整されたキャンペーンの開始](/help/rp_landing_pages/launch-landing-page.md)
          + [調整されたキャンペーンを作成する主な手順](using/orchestrated/gs-campaign-creation.md)
          + [キャンペーンの作成とスケジュール](using/orchestrated/create-orchestrated-campaign.md)
          + [アクティビティの調整](using/orchestrated/orchestrate-activities.md)
          + [キャンペーンの開始と監視](using/orchestrated/start-monitor-campaigns.md)
          + [レポート](using/orchestrated/reporting-campaigns.md)
       + データベースのクエリ {#query-database}
+         + [データベースのクエリ](/help/rp_landing_pages/query-database-landing-page.md)
          + [ルールビルダーの操作](using/orchestrated/orchestrated-rule-builder.md)
          + [最初のルールの作成](using/orchestrated/build-query.md)
          + [式の編集](using/orchestrated/edit-expressions.md)
          + [リターゲティング](using/orchestrated/retarget.md)
       + 調整されたキャンペーンアクティビティ {#design-campaigns}
+         + [調整されたキャンペーンアクティビティ](/help/rp_landing_pages/design-campaigns-landing-page.md)
          + [アクティビティの概要](using/orchestrated/activities/about-activities.md)
          + [AND 結合](using/orchestrated/activities/and-join.md)
          + [オーディエンスを作成](using/orchestrated/activities/build-audience.md)
@@ -240,15 +270,19 @@ ht-degree: 100%
          + [テスト](using/orchestrated/activities/test.md)
          + [待機](using/orchestrated/activities/wait.md)
 + 競合管理と優先順位付け {#conflict-prioritization}
+   + [競合管理と優先順位付け](/help/rp_landing_pages/conflict-prioritization-landing-page.md)
    + [競合管理と優先順位付けの基本を学ぶ](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [潜在的な競合の特定](using/conflict-prioritization/conflicts.md)
    + [優先度スコアの割り当て](using/conflict-prioritization/priority-scores.md)
-メッセージとジャーニーのキャップルール設定 {#capping-rules}
+   + メッセージとジャーニーのキャッピングルールの設定 {#capping-rules}
+      + [メッセージとジャーニーのキャッピングルールの設定](/help/rp_landing_pages/capping-rules-landing-page.md)
       + [ルールセットの操作](using/conflict-prioritization/rule-sets.md)
       + [ジャーニーのキャップと判別](using/conflict-prioritization/journey-capping.md)
       + [チャネルと通信タイプによるフリークエンシーキャップ](using/conflict-prioritization/channel-capping.md)
 + テストと承認 {#test}
+   + [テストと承認](/help/rp_landing_pages/test-landing-page.md)
    + コンテンツのプレビューとテスト {#preview-test}
+      + [コンテンツのプレビューとテスト](/help/rp_landing_pages/preview-test-landing-page.md)
       + [プレビューとテストの基本を学ぶ](using/content-management/preview-test.md)
       + [テストプロファイルの選択](using/content-management/test-profiles.md)
       + [テストプロファイルを使用したプレビュー](using/content-management/preview.md)
@@ -257,6 +291,7 @@ ht-degree: 100%
       + [コンテンツバリエーションのシミュレート](using/test-approve/simulate-sample-input.md)
       + [メールスパムレポート](using/content-management/spam-report.md)
    + ジャーニーとキャンペーンの承認 {#approve}
+      + [ジャーニーとキャンペーンの承認](/help/rp_landing_pages/approve-landing-page.md)
       + [承認の基本を学ぶ](using/test-approve/gs-approval.md)
       + [承認ポリシーの作成と管理](using/test-approve/approval-policies.md)
       + [承認をリクエスト](using/test-approve/request-approval.md)
@@ -265,17 +300,20 @@ ht-degree: 100%
 + 通信チャネル {#channels}
    + [通信チャネルの概要](using/channels/gs-channels.md)
    + メールチャネル {#email}
-      + [メールの基本を学ぶ](using/email/get-started-email.md)
+      + [メールチャネル](/help/rp_landing_pages/email-landing-page.md)
       + [メールの作成](using/email/create-email.md)
       + メールコンテンツのデザイン {#design-email}
+         + [メールコンテンツのデザイン](/help/rp_landing_pages/design-email-landing-page.md)
          + [メールデザインの基本を学ぶ](using/email/get-started-email-design.md)
          + コンテンツ作成の開始 {#start-creating-content}
+            + [コンテンツ作成の開始](/help/rp_landing_pages/start-creating-content-landing-page.md)
             + [コンテンツのゼロからのデザイン](using/email/content-from-scratch.md)
             + [コンテンツの読み込み](using/email/existing-content.md)
             + [コンテンツを独自にコーディング](using/email/code-content.md)
             + [メールテンプレートを使用](using/email/use-email-templates.md)
             + [メールテーマの活用](using/email/apply-email-themes.md)
          + コンテンツのデザイン {#add-content}
+            + [コンテンツのデザイン](/help/rp_landing_pages/add-content-landing-page.md)
             + [コンテンツコンポーネントの使用](using/email/content-components.md)
             + [ビジュアルフラグメントを活用](using/email/use-visual-fragments.md)
             + [リンクの追加とメッセージのトラッキング](using/email/message-tracking.md)
@@ -284,6 +322,7 @@ ht-degree: 100%
             + [メタデータを追加](using/email/email-metadata.md)
             + [カスタム CSS を追加](using/email/custom-css.md)
          + スタイルの編集 {#edit-style}
+            + [スタイルの編集](/help/rp_landing_pages/edit-style-landing-page.md)
             + [メールスタイルの基本を学ぶ](using/email/get-started-email-style.md)
             + [背景設定の編集](using/email/backgrounds.md)
             + [垂直方向の整列とパディングの調整](using/email/alignment-and-padding.md)
@@ -291,6 +330,7 @@ ht-degree: 100%
             + [ダークモードコンテンツの定義](using/email/dark-mode.md)
       + [メールオプトアウトの管理](using/email/email-opt-out.md)
       + メールチャネルの設定 {#configure-email}
+         + [メールチャネルの設定](/help/rp_landing_pages/configure-email-landing-page.md)
          + [メール設定の基本を学ぶ](using/email/get-started-email-config.md)
          + [メール設定の定義](using/email/email-settings.md)
          + [リスト登録解除を有効にする](using/email/list-unsubscribe.md)
@@ -298,32 +338,36 @@ ht-degree: 100%
          + [URL トラッキング](using/email/url-tracking.md)
          + [メール設定のパーソナライズ](using/email/surface-personalization.md)
       + メールの配信品質 {#deliverability}
+         + [メールの配信品質](/help/rp_landing_pages/deliverability-landing-page.md)
          + [配信品質の基本を学ぶ](using/reports/deliverability.md)
          + [抑制リストについて](using/reports/suppression-list.md)
          + [新しい DMARC 要件](using/configuration/dmarc-record-update.md)
-   + アプリ内チャネル{#in-app}
-      + [アプリ内チャネルの基本を学ぶ](using/in-app/get-started-in-app.md)
+   + アプリ内チャネル {#in-app}
+      + [アプリ内チャネル](/help/rp_landing_pages/in-app-landing-page.md)
       + [アプリ内チャネルの前提条件](using/in-app/inapp-configuration.md)
       + [モバイルアプリ内メッセージの作成](using/in-app/create-in-app.md)
       + [Web アプリ内メッセージの作成](using/in-app/create-in-app-web.md)
       + [アプリ内コンテンツのデザイン](using/in-app/design-in-app.md)
       + [アプリ内通知の確認および送信](using/in-app/send-in-app.md)
-   + プッシュ通知チャネル{#push}
-      + [プッシュ通知の基本を学ぶ](using/push/get-started-push.md)
+   + プッシュ通知チャネル {#push}
+      + [プッシュ通知チャネル](/help/rp_landing_pages/push-landing-page.md)
       + [プッシュ通知の作成](using/push/create-push.md)
       + [プッシュ通知のデザイン](using/push/design-push.md)
       + [プッシュ通知の確認と送信](using/push/send-push.md)
-      + プッシュ通知の設定{#push-config}
+      + プッシュ通知の設定 {#push-config}
+         + [プッシュ通知の設定](/help/rp_landing_pages/push-config-landing-page.md)
          + [プッシュ通知フロー](using/push/push-gs.md)
          + [プッシュ通知チャネルの設定](using/push/push-configuration.md)
          + [モバイルオンボーディングのクイックスタートワークフロー](using/push/mobile-onboarding-wf.md)
-   + SMS／MMS／RCS チャネル{#sms}
+   + SMS／MMS／RCS チャネル {#sms}
+      + [SMS／MMS／RCS チャネル](/help/rp_landing_pages/sms-landing-page.md)
       + [テキストメッセージの基本を学ぶ](using/sms/get-started-sms.md)
       + [SMS／MMS／RCS メッセージの作成](using/sms/create-sms.md)
       + [テキストメッセージの確認および送信](using/sms/send-sms.md)
-      + [テキストメッセージのオプトアウトの管理](using/sms/sms-opt-out.md)
+      + [テキストメッセージオプトアウトの管理](using/sms/sms-opt-out.md)
       + [SMS サブドメインの設定](using/sms/sms-subdomains.md)
-      + SMS／MMS／RCS チャネルの設定{#configure-sms}
+      + SMS／MMS／RCS チャネルの設定 {#configure-sms}
+         + [SMS／MMS／RCS チャネルの設定](/help/rp_landing_pages/configure-sms-landing-page.md)
          + [SMS／MMS／RCS 設定の基本を学ぶ](using/sms/sms-configuration.md)
          + [Sinch プロバイダーの設定](using/sms/sms-configuration-sinch.md)
          + [Infobip プロバイダーの設定](using/sms/sms-configuration-infobip.md)
@@ -331,64 +375,76 @@ ht-degree: 100%
          + [カスタムプロバイダーの設定](using/sms/sms-configuration-custom.md)
          + [SMS／MMS／RCS 設定の作成](using/sms/sms-configuration-surface.md)
    + ダイレクトメール {#direct-mail}
+      + [ダイレクトメール](/help/rp_landing_pages/direct-mail-landing-page.md)
       + [ダイレクトメールの基本を学ぶ](using/direct-mail/get-started-direct-mail.md)
       + [ダイレクトメールの作成](using/direct-mail/create-direct-mail.md)
       + [ダイレクトメールメッセージの確認および送信](using/direct-mail/test-send-direct-mail.md)
       + [ダイレクトメールの設定](using/direct-mail/direct-mail-configuration.md)
       + [ジャーニーでダイレクトメールメッセージを送信](using/direct-mail/direct-mail-journeys.md)
    + Web チャネル {#web}
+      + [Web チャネル](/help/rp_landing_pages/web-landing-page.md)
       + [Web チャネルの基本を学ぶ](using/web/get-started-web.md)
       + Web チャネルの設定 {#configure-web-channel}
+         + [Web チャネルの設定](/help/rp_landing_pages/configure-web-channel-landing-page.md)
          + [Web チャネルの前提条件](using/web/web-prerequisites.md)
          + [Web サブドメインの設定](using/web/web-delegated-subdomains.md)
          + [Web チャネル設定の作成](using/web/web-configuration.md)
       + [Web エクスペリエンスの作成](using/web/create-web.md)
       + Web ページの作成 {#author-web-pages}
+         + [Web ページの作成](/help/rp_landing_pages/author-web-pages-landing-page.md)
          + [Web designer の操作](using/web/web-visual-editor.md)
          + [非ビジュアルエディターの使用](using/web/web-non-visual-editor.md)
          + [変更の管理](using/web/manage-web-modifications.md)
          + [Web エクスペリエンスの監視](using/web/monitor-web-experiences.md)
          + [シングルページアプリケーションの作成](using/web/web-spa.md)
    + コードベースのエクスペリエンス {#code-based-experience}
+      + [コードベースのエクスペリエンス](/help/rp_landing_pages/code-based-experience-landing-page.md)
       + [コードベースのチャネルの基本を学ぶ](using/code-based/get-started-code-based.md)
       + コードベースのチャネルの設定 {#configure-code-based-channel}
+         + [コードベースのチャネルの設定](/help/rp_landing_pages/configure-code-based-channel-landing-page.md)
          + [ガードレールと前提条件](using/code-based/code-based-prerequisites.md)
          + [コードベースのエクスペリエンスサーフェス](using/code-based/code-based-surface.md)
          + [実装方法のサンプル](using/code-based/code-based-implementation-samples.md)
          + [コードベースのエクスペリエンス実装での決定](using/code-based/code-based-decisioning-implementations.md)
          + [コードベースのエクスペリエンス設定の作成](using/code-based/code-based-configuration.md)
       + コードベースのエクスペリエンスの作成 {#create-code-based-experiences}
+         + [コードベースのエクスペリエンスの作成](/help/rp_landing_pages/create-code-based-experiences-landing-page.md)
          + [コードベースのエクスペリエンスの作成と構成](using/code-based/create-code-based.md)
          + [コードベースのエクスペリエンスでの編集可能なフィールドの使用](using/code-based/code-based-form-fields.md)
          + [コードベースのエクスペリエンスのテスト](using/code-based/test-code-based.md)
          + [コードベースのエクスペリエンスの管理](using/code-based/publish-code-based.md)
-   + コンテンツカード{#content-card}
-      + [コンテンツカードの基本を学ぶ](using/content-card/get-started-content-card.md)
+   + コンテンツカード {#content-card}
+      + [コンテンツカード](/help/rp_landing_pages/content-card-landing-page.md)
       + コンテンツカードチャネルの設定 {#configure}
+         + [コンテンツカードチャネルの設定](/help/rp_landing_pages/configure-landing-page.md)
          + [コンテンツカードの前提条件](using/content-card/content-card-configuration-prereq.md)
          + [Journey Optimizer でのコンテンツカードチャネルの設定](using/content-card/content-card-configuration.md)
          + [Mobile SDK でのコンテンツカードのサポートの設定](using/content-card/content-card-lp.md)
          + [Web SDK でのコンテンツカードのサポート設定](using/content-card/content-card-configuration-sdk.md)
       + [コンテンツカードの作成](using/content-card/create-content-card.md)
       + [コンテンツカードのデザイン](using/content-card/design-content-card.md)
-   + WhatsApp{#whatsapp}
+   + WhatsApp {#whatsapp}
+      + [WhatsApp](/help/rp_landing_pages/whatsapp-landing-page.md)
       + [WhatsApp メッセージの基本を学ぶ](using/whatsapp/get-started-whatsapp.md)
       + [Journey Optimizer での WhatsApp チャネルの設定](using/whatsapp/whatsapp-configuration.md)
       + [WhatsApp メッセージの作成](using/whatsapp/create-whatsapp.md)
       + [WhatsApp メッセージの確認および送信](using/whatsapp/send-whatsapp.md)
    + LINE {#line}
-      + [LINE チャネルの基本を学ぶ](using/line/get-started-line.md)
+      + [LINE](/help/rp_landing_pages/line-landing-page.md)
       + [Journey Optimizer での LINE チャネルの設定](using/line/line-configuration.md)
       + [LINE メッセージの作成](using/line/create-line.md)
       + [LINE メッセージの確認および送信](using/line/send-line.md)
 + コンテンツ管理 {#content-management}
+   + [コンテンツ管理](/help/rp_landing_pages/content-management-landing-page.md)
    + パーソナライゼーション {#personalization}
+      + [パーソナライゼーション](/help/rp_landing_pages/personalization-landing-page.md)
       + [パーソナライゼーションの概要](using/personalization/personalize.md)
       + [パーソナライゼーションの追加](using/personalization/personalization-build-expressions.md)
       + [パーソナライゼーション構文](using/personalization/personalization-syntax.md)
       + [式フラグメントの再利用](using/personalization/use-expression-fragments.md)
       + [Adobe Experience Platform データをパーソナライズ機能に活用（ベータ版）](using/personalization/aep-data-perso.md)
       + ヘルパー関数リスト {#functions}
+         + [ヘルパー関数リスト](/help/rp_landing_pages/functions-landing-page.md)
          + [ヘルパー関数の基本を学ぶ](using/personalization/functions/functions.md)
          + [外部データ参照ヘルパー](using/personalization/external-data-lookup.md)
          + [集計関数](using/personalization/functions/aggregation.md)
@@ -401,15 +457,18 @@ ht-degree: 100%
          + [数学関数](using/personalization/functions/math.md)
          + [オブジェクト関数](using/personalization/functions/objects.md)
          + [文字列関数](using/personalization/functions/string.md)
-      + パーソナライゼーションのユースケース{#personalization-use-cases}
+      + パーソナライゼーションのユースケース {#personalization-use-cases}
+         + [パーソナライゼーションのユースケース](/help/rp_landing_pages/personalization-use-cases-landing-page.md)
          + [注文ステータスの通知](using/personalization/personalization-use-case.md)
          + [買い物かご放棄に関するメール](using/personalization/personalization-use-case-helper-functions.md)
          + [医療保険処方箋のメール](using/personalization/perso-uc-plan-prescriptions.md)
    + ランディングページ {#landing-pages}
+      + [ランディングページ](/help/rp_landing_pages/landing-pages-landing-page.md)
       + [ランディングページの基本を学ぶ](using/landing-pages/get-started-lp.md)
       + [ランディングページの作成](using/landing-pages/create-lp.md)
       + [ランディングページの管理](using/landing-pages/manage-lp.md)
       + コンテンツのデザイン {#landing-pages-design}
+         + [コンテンツのデザイン](/help/rp_landing_pages/landing-pages-design-landing-page.md)
          + [ランディングページの設計について](using/landing-pages/design-lp.md)
          + [ランディングページのコンテンツの作成](using/landing-pages/lp-content.md)
          + [テンプレートの作成](using/landing-pages/lp-templates.md)
@@ -417,9 +476,11 @@ ht-degree: 100%
       + [サブスクリプションリストの作成](using/landing-pages/subscription-list.md)
       + [ユースケースを通じて学ぶ](using/landing-pages/lp-use-cases.md)
       + ランディングページの設定 {#lp-configuration}
+         + [ランディングページの設定](/help/rp_landing_pages/lp-configuration-landing-page.md)
          + [ランディングページのサブドメインの設定](using/landing-pages/lp-subdomains.md)
          + [ランディングページプリセットの定義](using/landing-pages/lp-presets.md)
    + コンテンツテンプレート {#content-templates}
+      + [コンテンツテンプレート](/help/rp_landing_pages/content-templates-landing-page.md)
       + [コンテンツテンプレートの基本を学ぶ](using/content-management/content-templates.md)
       + [テンプレートへのアクセスと管理](using/content-management/access-content-templates.md)
       + [コンテンツテンプレートの作成](using/content-management/create-content-templates.md)
@@ -427,16 +488,19 @@ ht-degree: 100%
       + [コンテンツテンプレートのテスト](using/content-management/test-content-templates.md)
       + [コンテンツテンプレートの使用](using/content-management/use-content-templates.md)
    + 再利用可能なコンテンツフラグメント {#fragments}
+      + [再利用可能なコンテンツフラグメント](/help/rp_landing_pages/fragments-landing-page.md)
       + [フラグメントの基本を学ぶ](using/content-management/fragments.md)
       + [フラグメントを作成](using/content-management/create-fragments.md)
       + [既存のコンテンツをフラグメントとして保存](using/content-management/save-fragments.md)
       + [カスタマイズ可能なフラグメント](using/content-management/customizable-fragments.md)
       + [フラグメントの管理](using/content-management/manage-fragments.md)
    + 動的コンテンツ {#dynamic}
+      + [動的コンテンツ](/help/rp_landing_pages/dynamic-landing-page.md)
       + [動的コンテンツの基本を学ぶ](using/personalization/get-started-dynamic-content.md)
       + [条件付きルールの作成](using/personalization/create-conditions.md)
       + [動的コンテンツの作成](using/personalization/dynamic-content.md)
    + クロスソリューションユースケース {#combine}
+      + [クロスソリューションユースケース](/help/rp_landing_pages/combine-landing-page.md)
       + [コンテンツを管理するソリューションの組み合わせ](using/integrations/content-integrations.md)
       + [Experience Manager Assets の操作](using/integrations/assets.md)
       + [Adobe Stock との連携](using/integrations/stock.md)
@@ -445,7 +509,8 @@ ht-degree: 100%
       + [Experience Manager コンテンツフラグメントの操作](using/integrations/aem-fragments.md)
       + [Dynamic Media の操作](using/integrations/aem-dynamic.md)
       + [GenStudio for Performance Marketing の操作](using/integrations/genstudio.md)
-   + コンテンツ生成用 AI アシスタント{#ai-assistant}
+   + コンテンツ生成用 AI アシスタント {#ai-assistant}
+      + [コンテンツ生成用 AI アシスタント](/help/rp_landing_pages/ai-assistant-landing-page.md)
       + [AI アシスタントの基本を学ぶ](using/content-management/gs-generative.md)
       + [AI によるメール生成](using/content-management/generative-email.md)
       + [AI によるプッシュ生成](using/content-management/generative-push.md)
@@ -455,53 +520,65 @@ ht-degree: 100%
       + [AI によるランディングページ](using/content-management/generative-lp.md)
       + [AI アシスタントのユースケース](using/content-management/generative-uc.md)
       + ブランド {#brands}
+         + [ブランド](/help/rp_landing_pages/brands-landing-page.md)
          + [ブランドの作成と管理](using/content-management/brands.md)
          + [ブランド一致スコアの評価](using/content-management/brands-score.md)
-   + 多言語コンテンツ{#content-multilingual}
+   + 多言語コンテンツ {#content-multilingual}
+      + [多言語コンテンツ](/help/rp_landing_pages/content-multilingual-landing-page.md)
       + [多言語コンテンツの基本を学ぶ](using/content-management/multilingual-gs.md)
       + [ロケールの作成](using/content-management/multilingual-locale.md)
       + [言語プロバイダーの作成](using/content-management/multilingual-provider.md)
       + [手動翻訳を使用した多言語コンテンツの作成](using/content-management/multilingual-manual.md)
       + [自動翻訳を使用した多言語コンテンツの作成](using/content-management/multilingual-automated.md)
    + コンテンツ実験 {#content-experiment}
+      + [コンテンツ実験](/help/rp_landing_pages/content-experiment-landing-page.md)
       + [コンテンツ実験の基本を学ぶ](using/content-management/get-started-experiment.md)
       + [コンテンツ実験を作成](using/content-management/content-experiment.md)
       + テクニカルノート {#technotes}
+         + [テクニカルノート](/help/rp_landing_pages/technotes-landing-page.md)
          + [統計計算について](using/content-management/experiment-calculations.md)
          + [実験レポートの統計計算について](using/content-management/experiment-report-calculations.md)
-+ オーディエンス、プロファイル、ID{#audiences-profiles-identities}
++ オーディエンス、プロファイル、ID {#audiences-profiles-identities}
+   + [オーディエンス、プロファイル、ID](/help/rp_landing_pages/audiences-profiles-identities-landing-page.md)
    + オーディエンス {#audiences}
+      + [オーディエンス](/help/rp_landing_pages/audiences-landing-page.md)
       + [オーディエンスの基本を学ぶ](using/audience/about-audiences.md)
       + オーディエンスを作成 {#create}
+         + [オーディエンスを作成](/help/rp_landing_pages/create-landing-page.md)
          + [セグメント定義](using/audience/creating-a-segment-definition.md)
          + [オーディエンス構成](using/audience/get-started-audience-orchestration.md)
          + [カスタムアップロード](using/audience/custom-upload.md)
          + [連合オーディエンス構成](using/audience/federated-audience-composition.md)
       + [キャンペーンとジャーニーのオーディエンスアクティベーション](using/audience/target-audiences.md)
       + [エンリッチメント属性の活用](using/audience/enrichment-attributes.md)
-   + プロファイル{#profiles}
+   + プロファイル {#profiles}
+      + [プロファイル](/help/rp_landing_pages/profiles-landing-page.md)
       + [プロファイルの基本を学ぶ](using/audience/get-started-profiles.md)
       + [テストプロファイルの作成](using/audience/creating-test-profiles.md)
       + [計算属性の操作](using/audience/computed-attributes.md)
    + [ID](using/audience/get-started-identity.md)
    + [ライセンス使用状況](using/audience/license-usage.md)
 + レポート {#reporting}
+   + [レポート](/help/rp_landing_pages/reporting-landing-page.md)
    + [レポートの基本を学ぶ](using/reports/gs-reports.md)
    + ライブレポート {#live-report}
+      + [ライブレポート](/help/rp_landing_pages/live-report-landing-page.md)
       + [ライブレポートの基本を学ぶ](using/reports/live-report.md)
       + [指標のリスト](using/reports/live-report-components.md)
       + [ジャーニーライブレポート](using/reports/journey-live-report.md)
       + [キャンペーンのライブレポート](using/reports/campaign-live-report.md)
       + [ランディングページライブレポート](using/reports/lp-report-live.md)
       + [購読リストのライブレポート](using/reports/subscription-report-live.md)
-   + 全期間のレポート{#channel-report}
+   + 全期間のレポート {#channel-report}
+      + [全期間のレポート](/help/rp_landing_pages/channel-report-landing-page.md)
       + [全期間のレポートの基本を学ぶ](using/reports/report-gs-cja.md)
       + [指標のリスト](using/reports/global-report-components-cja.md)
       + [Customer Journey Analytics の手動設定](using/reports/cja-ajo.md)
       + [レポートの管理](using/reports/report-cja-manage.md)
       + [レポートと実験の前提条件](using/reports/reporting-configuration.md)
       + [除外の理由](using/reports/exclusion-list.md)
-      + キャンペーンレポート{#reporting}
+      + キャンペーンレポート {#campaign-reporting}
+         + [キャンペーンレポート](/help/rp_landing_pages/campaign-reporting-landing-page.md)
          + [キャンペーンレポート](using/reports/campaign-global-report-cja.md)
          + [コードベースのキャンペーンレポート](using/reports/campaign-global-report-cja-code.md)
          + [コンテンツカードキャンペーンレポート](using/reports/campaign-global-report-cja-content.md)
@@ -512,7 +589,8 @@ ht-degree: 100%
          + [プッシュ通知キャンペーンレポート](using/reports/campaign-global-report-cja-push.md)
          + [SMS キャンペーンレポート](using/reports/campaign-global-report-cja-sms.md)
          + [Web キャンペーンレポート](using/reports/campaign-global-report-cja-web.md)
-      + ジャーニーレポート{#reporting}
+      + ジャーニーレポート {#journey-reporting}
+         + [ジャーニーレポート](/help/rp_landing_pages/journey-reporting-landing-page.md)
          + [ジャーニーレポート](using/reports/journey-global-report-cja.md)
          + [コードベースのジャーニーレポート](using/reports/journey-global-report-cja-code.md)
          + [コンテンツカードジャーニーレポート](using/reports/journey-global-report-cja-content.md)
@@ -526,9 +604,11 @@ ht-degree: 100%
       + [ランディングページのレポート](using/reports/lp-report-global-cja.md)
       + [購読リストのレポート](using/reports/subscription-report-global-cja.md)
    + カスタムジャーニーレポート {#reports}
+      + [カスタムジャーニーレポート](/help/rp_landing_pages/reports-landing-page.md)
       + [ジャーニーレポートの作成](using/reports/sharing-overview.md)
       + [ステップイベントフィールドの一覧](using/reports/sharing-field-list.md)
       + 従来のステップイベントフィールド {#legacy-step-event-fields}
+         + [従来のステップイベントフィールド](/help/rp_landing_pages/legacy-step-event-fields-landing-page.md)
          + [レガシーフィールドについて](using/reports/sharing-legacy-fields.md)
          + [ジャーニーのフィールド](using/reports/sharing-journey-fields.md)
          + [共通フィールド](using/reports/sharing-common-fields.md)
@@ -537,70 +617,79 @@ ht-degree: 100%
          + [ID フィールド](using/reports/sharing-identity-fields.md)
       + [クエリの例](using/reports/query-examples.md)
 + 決定機能 {#decisioning}
+   + [決定機能](/help/rp_landing_pages/decisioning-landing-page.md)
    + [決定機能の基本を学ぶ](using/experience-decisioning/gs-decision.md)
    + 決定 {#experience-decisioning}
+      + [決定](/help/rp_landing_pages/experience-decisioning-landing-page.md)
       + [決定の基本を学ぶ](using/experience-decisioning/gs-experience-decisioning.md)
       + [決定ガードレールと制限](using/experience-decisioning/decisioning-guardrails.md)
-      + API リファレンス{#api-reference}
+      + API リファレンス {#experience-decisioning-api-reference}
+         + [API リファレンス](/help/rp_landing_pages/experience-decisioning-api-reference-landing-page.md)
          + オファー項目の作成と管理 {#create-manage}
-            + 決定項目{#decision-items}
+            + 決定項目 {#decision-items}
                + [決定項目の作成](using/experience-decisioning/api-reference/decisions-items/create.md)
                + [決定項目リスト](using/experience-decisioning/api-reference/decisions-items/decision-items-list.md)
                + [決定項目の削除](using/experience-decisioning/api-reference/decisions-items/delete.md)
                + [決定項目の参照](using/experience-decisioning/api-reference/decisions-items/lookup.md)
                + [決定項目の更新](using/experience-decisioning/api-reference/decisions-items/update.md)
-            + 項目コレクション{#items-collections}
+            + 項目コレクション {#items-collections}
                + [項目コレクションの作成](using/experience-decisioning/api-reference/items-collections/create.md)
                + [項目コレクションの削除](using/experience-decisioning/api-reference/items-collections/delete.md)
                + [項目コレクションリスト](using/experience-decisioning/api-reference/items-collections/items-collections-list.md)
                + [項目コレクションの参照](using/experience-decisioning/api-reference/items-collections/lookup.md)
                + [項目コレクションの更新](using/experience-decisioning/api-reference/items-collections/update.md)
-            + 選択戦略{#selection-strategies}
+            + 選択戦略 {#selection-strategies}
                + [選択戦略の作成](using/experience-decisioning/api-reference/selection-strategies/create.md)
                + [選択戦略の削除](using/experience-decisioning/api-reference/selection-strategies/delete.md)
                + [選択戦略の参照](using/experience-decisioning/api-reference/selection-strategies/lookup.md)
                + [選択戦略リスト](using/experience-decisioning/api-reference/selection-strategies/selection-strategies-list.md)
                + [選択戦略の更新](using/experience-decisioning/api-reference/selection-strategies/update.md)
-            + ランキング式{#ranking-formulas}
+            + ランキング式 {#ranking-formulas}
                + [ランキング式の作成](using/experience-decisioning/api-reference/ranking-formulas/create.md)
                + [ランキング式の削除](using/experience-decisioning/api-reference/ranking-formulas/delete.md)
                + [ランキング式の参照](using/experience-decisioning/api-reference/ranking-formulas/lookup.md)
                + [選択ランキング式](using/experience-decisioning/api-reference/ranking-formulas/ranking-formulas-list.md)
                + [ランキング式の更新](using/experience-decisioning/api-reference/ranking-formulas/update.md)
-            + 実施要件ルール{#eligibility-rules}
+            + 実施要件ルール {#eligibility-rules}
                + [実施要件ルールの作成](using/experience-decisioning/api-reference/eligibility-rules/create.md)
                + [実施要件ルールの削除](using/experience-decisioning/api-reference/eligibility-rules/delete.md)
                + [実施要件ルールの参照](using/experience-decisioning/api-reference/eligibility-rules/lookup.md)
                + [実施要件ルールのリスト](using/experience-decisioning/api-reference/eligibility-rules/eligibility-rules-list.md)
                + [実施要件ルールの更新](using/experience-decisioning/api-reference/eligibility-rules/update.md)
          + [コードベースのエクスペリエンスチャネルを使用したオファーの配信](using/experience-decisioning/api-reference/deliver.md)
-      + 決定項目の管理 {#decision-items}
+      + 決定項目の管理 {#manage-decision-items}
+         + [決定項目の管理](/help/rp_landing_pages/manage-decision-items-landing-page.md)
          + [項目カタログの設定](using/experience-decisioning/catalogs.md)
          + [決定項目の作成](using/experience-decisioning/items.md)
          + [項目コレクションの管理](using/experience-decisioning/collections.md)
       + [決定ルールの作成](using/experience-decisioning/rules.md)
-      + ランキングの作成 {#rankings}
+      + ランキングの作成 {#experience-decisioning-rankings}
+         + [ランキングの作成](/help/rp_landing_pages/experience-decisioning-rankings-landing-page.md)
          + [ランキング方法の作成](using/experience-decisioning/ranking/ranking.md)
          + [AI 式ビルダーの使用](using/experience-decisioning/ranking/ranking-formulas.md)
-         + AI モデル {#ai-models}
+         + AI モデル {#experience-decisioning-ai-models}
+            + [AI モデル](/help/rp_landing_pages/experience-decisioning-ai-models-landing-page.md)
             + [AI モデルについて](using/experience-decisioning/ranking/ai-models.md)
             + [自動最適化モデル](using/experience-decisioning/ranking/auto-optimization-model.md)
             + [パーソナライズされた最適化モデル](using/experience-decisioning/ranking/personalized-optimization-model.md)
             + [AI モデルの作成](using/experience-decisioning/ranking/create-ai-models.md)
       + [プレースメントの操作](using/experience-decisioning/placements.md)
       + Adobe Experience Platform データの使用 {#aep-data}
+         + [Adobe Experience Platform データの使用](/help/rp_landing_pages/aep-data-landing-page.md)
          + [コンテキストデータの活用](using/experience-decisioning/context-data.md)
          + [決定の Adobe Experience Platform の使用](using/experience-decisioning/aep-data-exd.md)
       + [選択戦略の作成](using/experience-decisioning/selection-strategies.md)
       + [決定ポリシーを作成](using/experience-decisioning/create-decision.md)
       + [決定に関するレポート](using/experience-decisioning/cja-reporting.md)
       + [決定のユースケース](using/experience-decisioning/experience-decisioning-uc.md)
-      + イベントデータの収集 {#collect-event-data}
+      + イベントデータの収集 {#experience-decisioning-collect-event-data}
          + [データ収集の基本を学ぶ](using/experience-decisioning/data-collection/data-collection.md)
          + [イベントを収集するデータセットの作成](using/experience-decisioning/data-collection/create-dataset.md)
          + [イベントキャプチャの設定](using/experience-decisioning/data-collection/schema-requirement.md)
    + 意思決定管理 {#offer-decisioning}
+      + [意思決定管理](/help/rp_landing_pages/offer-decisioning-landing-page.md)
       + 意思決定管理の基本を学ぶ {#get-started-decision}
+         + [意思決定管理の基本を学ぶ](/help/rp_landing_pages/get-started-decision-landing-page.md)
          + [意思決定管理について](using/offers/get-started/starting-offer-decisioning.md)
          + [意思決定管理ガードレールと制限](using/offers/decision-management-guardrails.md)
          + [ユーザーインターフェイス](using/offers/get-started/user-interface.md)
@@ -608,41 +697,51 @@ ht-degree: 100%
          + [決定のカスタムアップロードオーディエンスの活用](using/offers/custom-upload-decisioning.md)
          + [ユースケース：メールへのオファーの挿入](using/offers/offers-e2e.md)
       + コンポーネントの作成 {#create-components}
+         + [コンポーネントの作成](/help/rp_landing_pages/create-components-landing-page.md)
          + [プレースメントの作成](using/offers/offer-library/creating-placements.md)
          + [決定ルールの作成](using/offers/offer-library/creating-decision-rules.md)
          + [コレクション修飾子の作成](using/offers/offer-library/creating-tags.md)
       + ランキングの作成 {#rankings}
+         + [ランキングの作成](/help/rp_landing_pages/rankings-landing-page.md)
          + [ランキングの基本を学ぶ](using/offers/ranking/get-started-rankings.md)
          + [ランキング式](using/offers/ranking/create-ranking-formulas.md)
          + AI モデル {#ai-models}
+            + [AI モデル](/help/rp_landing_pages/ai-models-landing-page.md)
             + [AI モデルについて](using/offers/ranking/ai-models.md)
             + [自動最適化モデル](using/offers/ranking/auto-optimization-model.md)
             + [パーソナライズされた最適化モデル](using/offers/ranking/personalized-optimization-model.md)
             + [AI モデルの作成](using/offers/ranking/create-ranking-strategies.md)
       + オファーの作成と管理 {#managing-offers-in-the-offer-library}
+         + [オファーの作成と管理](/help/rp_landing_pages/managing-offers-in-the-offer-library-landing-page.md)
          + オファーの設定 {#configure-offers}
+            + [オファーの設定](/help/rp_landing_pages/configure-offers-landing-page.md)
             + [パーソナライズされたオファーの作成](using/offers/offer-library/creating-personalized-offers.md)
             + [表示域を追加](using/offers/offer-library/add-representations.md)
             + [制約を追加](using/offers/offer-library/add-constraints.md)
          + [フォールバックオファーを作成](using/offers/offer-library/creating-fallback-offers.md)
          + [コレクションの作成](using/offers/offer-library/creating-collections.md)
       + 決定の作成と管理 {#create-manage-activities}
+         + [決定の作成と管理](/help/rp_landing_pages/create-manage-activities-landing-page.md)
          + [決定の作成](using/offers/offer-activities/create-offer-activities.md)
          + [決定でのオファー選択の設定](using/offers/offer-activities/configure-offer-selection.md)
          + [シミュレーションを作成](using/offers/offer-activities/simulation.md)
       + [Batch Decisioning の使用](using/offers/batch-delivery.md)
       + イベントデータの収集 {#collect-event-data}
+         + [イベントデータの収集](/help/rp_landing_pages/collect-event-data-landing-page.md)
          + [データ収集の基本を学ぶ](using/offers/data-collection/data-collection.md)
          + [イベントを収集するデータセットの作成](using/offers/data-collection/create-dataset.md)
          + [イベントキャプチャの設定](using/offers/data-collection/schema-requirement.md)
       + コンテキストデータの活用 {#context-data}
+         + [コンテキストデータの活用](/help/rp_landing_pages/context-data-landing-page.md)
          + [コンテキストデータの基本を学ぶ](using/offers/context-data.md)
          + [コンテキストデータと Edge 決定リクエスト](using/offers/context-data-edge.md)
          + [コンテキストデータと決定リクエスト](using/offers/context-data-decisioning.md)
       + 意思決定管理レポートの作成 {#create-reports}
+         + [意思決定管理レポートの作成](/help/rp_landing_pages/create-reports-landing-page.md)
          + [意思決定管理イベントの操作](using/offers/reports/get-started-events.md)
          + [イベントの XDM フィールドへのアクセス](using/offers/reports/xdm-fields.md)
       + オファーカタログのエクスポート {#export-catalog}
+         + [オファーカタログのエクスポート](/help/rp_landing_pages/export-catalog-landing-page.md)
          + [オファーカタログエクスポートの基本を学ぶ](using/offers/export-catalog/get-started-export.md)
          + [書き出したオファーカタログへのアクセス](using/offers/export-catalog/access-dataset.md)
          + [パーソナライズされたオファーデータセット](using/offers/export-catalog/export-offers.md)
@@ -650,6 +749,7 @@ ht-degree: 100%
          + [プレースメントデータセット](using/offers/export-catalog/export-placements.md)
          + [フォールバックデータセット](using/offers/export-catalog/export-fallback.md)
       + API リファレンス {#api-reference}
+         + [API リファレンス](/help/rp_landing_pages/api-reference-landing-page.md)
          + [はじめに](using/offers/api-reference/getting-started.md)
          + API を使用したオファーの作成と管理 {#offers-api}
             + プレースメント {#placements}
@@ -696,57 +796,60 @@ ht-degree: 100%
                + [決定の削除](using/offers/api-reference/activities-api/activities/delete.md)
             + レガシー API {#legacy-api}
                + [レガシー API について](using/offers/api-reference/offers-api/legacy-apis/about-legacy-apis.md)
-               + プレースメント {#placements}
+               + プレースメント {#legacy-api-placements}
                   + [プレースメントのリスト](using/offers/api-reference/offers-api/legacy-apis/placements/placements-list.md)
                   + [プレースメントの参照](using/offers/api-reference/offers-api/legacy-apis/placements/lookup.md)
                   + [プレースメントの作成](using/offers/api-reference/offers-api/legacy-apis/placements/create.md)
                   + [プレースメントの更新](using/offers/api-reference/offers-api/legacy-apis/placements/update.md)
                   + [プレースメントの削除](using/offers/api-reference/offers-api/legacy-apis/placements/delete.md)
-               + 決定ルール {#decision-rules}
+               + 決定ルール {#legacy-api-decision-rules}
                   + [決定ルールのリスト](using/offers/api-reference/offers-api/legacy-apis/decision-rules/rules-list.md)
                   + [決定ルールの参照](using/offers/api-reference/offers-api/legacy-apis/decision-rules/lookup.md)
                   + [決定ルールの作成](using/offers/api-reference/offers-api/legacy-apis/decision-rules/create.md)
                   + [決定ルールの更新](using/offers/api-reference/offers-api/legacy-apis/decision-rules/update.md)
                   + [決定ルールの削除](using/offers/api-reference/offers-api/legacy-apis/decision-rules/delete.md)
-               + コレクション修飾子 {#tags}
+               + コレクション修飾子 {#legacy-api-tags}
                   + [コレクション修飾子のリスト](using/offers/api-reference/offers-api/legacy-apis/tags/tags-list.md)
                   + [コレクション修飾子の参照](using/offers/api-reference/offers-api/legacy-apis/tags/lookup.md)
                   + [コレクション修飾子の作成](using/offers/api-reference/offers-api/legacy-apis/tags/create.md)
                   + [コレクション修飾子の更新](using/offers/api-reference/offers-api/legacy-apis/tags/update.md)
                   + [コレクション修飾子の削除](using/offers/api-reference/offers-api/legacy-apis/tags/delete.md)
-               + パーソナライズされたオファー {#personalized-offers}
+               + パーソナライズされたオファー {#legacy-api-personalized-offers}
                   + [パーソナライズされたオファーのリスト](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/offers-list.md)
                   + [パーソナライズされたオファーの参照](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/lookup.md)
                   + [パーソナライズされたオファーの作成](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/create.md)
                   + [パーソナライズされたオファーの更新](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/update.md)
                   + [パーソナライズされたオファーの削除](using/offers/api-reference/offers-api/legacy-apis/personalized-offers/delete.md)
-               + フォールバックオファー {#fallback-offers}
+               + フォールバックオファー {#legacy-api-fallback-offers}
                   + [フォールバックオファーのリスト](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/fallback-list.md)
                   + [フォールバックオファーの参照](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/lookup.md)
                   + [フォールバックオファーを作成](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/create.md)
                   + [フォールバックオファーの更新](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/update.md)
                   + [フォールバックオファーの削除](using/offers/api-reference/offers-api/legacy-apis/fallback-offers/delete.md)
-               + コレクション {#collections}
+               + コレクション {#legacy-api-collections}
                   + [コレクションのリスト](using/offers/api-reference/offers-api/legacy-apis/collections/collections-list.md)
                   + [コレクションの参照](using/offers/api-reference/offers-api/legacy-apis/collections/lookup.md)
                   + [コレクションの作成](using/offers/api-reference/offers-api/legacy-apis/collections/create.md)
                   + [コレクションの更新](using/offers/api-reference/offers-api/legacy-apis/collections/update.md)
                   + [コレクションの削除](using/offers/api-reference/offers-api/legacy-apis/collections/delete.md)
-               + 決定 {#decisions-api}
+               + 決定 {#legacy-api-decisions-api}
                   + [決定のリスト](using/offers/api-reference/offers-api/legacy-apis/activities-api/activities-list.md)
                   + [決定の参照](using/offers/api-reference/offers-api/legacy-apis/activities-api/lookup.md)
                   + [決定の作成](using/offers/api-reference/offers-api/legacy-apis/activities-api/create.md)
                   + [決定の更新](using/offers/api-reference/offers-api/legacy-apis/activities-api/update.md)
                   + [決定の削除](using/offers/api-reference/offers-api/legacy-apis/activities-api/delete.md)
          + API を使用したオファーの配信 {#offer-delivery-api}
+            + [API を使用したオファーの配信](/help/rp_landing_pages/offer-delivery-api-landing-page.md)
             + [オファー配信 API の基本を学ぶ](using/offers/api-reference/offer-delivery-api/start-offer-delivery-apis.md)
             + [Decisioning API](using/offers/api-reference/offer-delivery-api/decisioning-api.md)
             + [Edge Decisioning API](using/offers/api-reference/offer-delivery-api/edge-decisioning-api.md)
             + [Batch Decisioning API](using/offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 + データ管理 {#data-management}
+   + [データ管理](/help/rp_landing_pages/data-management-landing-page.md)
    + [データ管理の基本を学ぶ](using/data/gs-data.md)
    + [スキーマの操作](using/data/get-started-schemas.md)
    + Journey Optimizer データセット {#datasets}
+      + [Journey Optimizer データセット](/help/rp_landing_pages/datasets-landing-page.md)
       + [データセットの基本を学ぶ](using/data/get-started-datasets.md)
       + [データセットの有効期間（TTL）ガードレール](using/data/datasets-ttl.md)
       + [Journey Optimizer データセットの書き出し](using/data/export-datasets.md)
@@ -755,12 +858,15 @@ ht-degree: 100%
    + [Adobe Experience Platform データの使用](using/data/lookup-aep-data.md)
    + [クエリ](using/data/get-started-queries.md)
 + チャネル設定 {#configuration}
+   + [チャネル設定](/help/rp_landing_pages/configuration-landing-page.md)
    + [チャネル設定の基本を学ぶ](using/configuration/get-started-configuration.md)
    + [チャネル設定の指定](using/configuration/channel-surfaces.md)
    + ガイド付きチャネル設定 {#guided-setup}
+      + [ガイド付きチャネル設定](/help/rp_landing_pages/guided-setup-landing-page.md)
       + [ガイド付きチャネル設定の基本を学ぶ](using/configuration/set-mobile-config.md)
       + [チャネル設定の作成](using/configuration/create-channel-set-up.md)
    + メールサブドメインのデリゲート {#delegate-subdomains}
+      + [メールサブドメインのデリゲート](/help/rp_landing_pages/delegate-subdomains-landing-page.md)
       + [サブドメインデリゲーションの基本を学ぶ](using/configuration/about-subdomain-delegation.md)
       + [サブドメインのデリゲート](using/configuration/delegate-subdomain.md)
       + [カスタムサブドメインの設定](using/configuration/delegate-custom-subdomain.md)
@@ -769,12 +875,14 @@ ht-degree: 100%
       + [PTR レコードへのアクセスと編集](using/configuration/ptr-records.md)
       + [IP プールの作成](using/configuration/ip-pools.md)
    + IP ウォームアッププランの実装 {#implement-ip-warmup-plan}
+      + [IP ウォームアッププランの実装](/help/rp_landing_pages/implement-ip-warmup-plan-landing-page.md)
       + [IP ウォームアッププランの概要](using/configuration/ip-warmup-gs.md)
       + [IP ウォームアップキャンペーンを作成](using/configuration/ip-warmup-campaign.md)
       + [IP ウォームアッププランの作成](using/configuration/ip-warmup-plan.md)
       + [IP ウォームアッププランの実行](using/configuration/ip-warmup-execution.md)
       + [IP ウォームアッププランのファイル](using/configuration/ip-warmup-plan-files.md)
    + メールアドレスの監視 {#monitor-reputation}
+      + [メールアドレスの監視](/help/rp_landing_pages/monitor-reputation-landing-page.md)
       + [メールのエラータイプ](using/configuration/email-error-types.md)
       + [抑制リスト](using/configuration/manage-suppression-list.md)
       + [再試行](using/configuration/retries.md)
@@ -784,39 +892,48 @@ ht-degree: 100%
    + [実行アドレスの変更](using/configuration/primary-email-addresses.md)
    + [ビジネスルールの設定](using/configuration/frequency-rules.md)
 + ジャーニー設定 {#configure-journeys}
+   + [ジャーニー設定](/help/rp_landing_pages/configure-journeys-landing-page.md)
    + [ジャーニー設定の基本を学ぶ](using/configuration/about-data-sources-events-actions.md)
    + イベント設定 {#events-journeys}
+      + [イベント設定](/help/rp_landing_pages/events-journeys-landing-page.md)
       + [ジャーニーイベントの操作](using/event/about-events.md)
       + [単一イベントの設定](using/event/about-creating.md)
       + [ExperienceEvent スキーマについて](using/event/experience-event-schema.md)
       + [Adobe Analytics データの操作](using/event/about-analytics.md)
       + [ビジネスイベントの設定](using/event/about-creating-business.md)
       + [イベントを送信するための手順](using/event/additional-steps-to-send-events-to-journey.md)
-   + データソース設定{#data-source-journeys}
+   + データソース設定 {#data-source-journeys}
+      + [データソース設定](/help/rp_landing_pages/data-source-journeys-landing-page.md)
       + [データソースの基本を学ぶ](using/datasource/about-data-sources.md)
       + [データソースの設定](using/datasource/configure-data-sources.md)
       + [Adobe Experience Platform のデータソース](using/datasource/adobe-experience-platform-data-source.md)
       + [外部データソース](using/datasource/external-data-sources.md)
    + アクションの設定 {#action-journeys}
+      + [アクションの設定](/help/rp_landing_pages/action-journeys-landing-page.md)
       + [カスタムアクションの基本を学ぶ](using/action/action.md)
       + [カスタムアクションの設定](using/action/about-custom-action-configuration.md)
       + [カスタムアクションでの API 呼び出し応答の使用](using/action/action-response.md)
 + システムと環境の接続 {#connect-systems}
+   + [システムと環境の接続](/help/rp_landing_pages/connect-systems-landing-page.md)
    + [他のソリューションとの統合](using/integrations/ajo-integrations.md)
    + [Journey Optimizer API の操作](using/configuration/ajo-apis.md)
    + ジャーニーと外部システムの統合 {#external-systems}
+      + [ジャーニーと外部システムの統合](/help/rp_landing_pages/external-systems-landing-page.md)
       + [ジャーニーと外部システムの統合](using/configuration/external-systems.md)
       + [Capping API](using/configuration/capping.md)
       + [Throttling API](using/configuration/throttling.md)
    + アドビソリューションを使用した送信 {#adobe-solutions}
+      + [アドビソリューションを使用した送信](/help/rp_landing_pages/adobe-solutions-landing-page.md)
       + [ジャーニーでの Campaign Standard アクション](using/action/acs-action.md)
       + [ジャーニーでの Campaign v7/v8 アクション](using/action/acc-action.md)
       + [ジャーニーでの Marketo Engage アクション](using/action/marketo-engage.md)
    + サンドボックス管理 {#sandbox}
+      + [サンドボックス管理](/help/rp_landing_pages/sandbox-landing-page.md)
       + [サンドボックスの使用と割り当て](using/administration/sandboxes.md)
       + [別のサンドボックスへのオブジェクトのエクスポート](using/configuration/copy-objects-to-sandbox.md)
    + [ソースコネクタの設定](using/start/get-started-sources.md)
 + アクセス制御 {#access-control}
+   + [アクセス制御](/help/rp_landing_pages/access-control-landing-page.md)
    + [アクセス制御の基本を学ぶ](using/administration/permissions-overview.md)
    + [ユーザーと役割の管理](using/administration/permissions.md)
    + [ビルトインの役割](using/administration/ootb-product-profiles.md)
@@ -825,11 +942,13 @@ ht-degree: 100%
    + [属性ベースのアクセス制御](using/administration/attribute-based-access.md)
    + [オブジェクトレベルのアクセス制御](using/administration/object-based-access.md)
 + プライバシー {#privacy}
+   + [プライバシー](/help/rp_landing_pages/privacy-landing-page.md)
    + [プライバシーの基本を学ぶ](using/privacy/get-started-privacy.md)
    + [プライバシーリクエスト](using/privacy/requests.md)
    + [ リソースに対する監査アクション](using/privacy/audit-logs.md)
    + [データライフサイクル操作の実行](using/privacy/data-hygiene.md)
    + 同意を管理 {#consent}
+      + [同意を管理](/help/rp_landing_pages/consent-landing-page.md)
       + [オプトアウトの管理](using/privacy/opt-out.md)
       + [同意ポリシーの使用](using/action/consent.md)
    + [データガバナンス](using/action/action-privacy.md)

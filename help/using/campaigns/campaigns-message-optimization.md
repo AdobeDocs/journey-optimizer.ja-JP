@@ -6,10 +6,11 @@ description: メッセージの最適化を活用して、パーソナライズ�
 role: User
 level: Intermediate
 keywords: キャンペーンの最適化，実験，ターゲティング，A/B テスト
-source-git-commit: edbe25e0cb341c08e440eb0663fb9b253273f48a
+exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
+source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
 workflow-type: tm+mt
 source-wordcount: '918'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -17,13 +18,13 @@ ht-degree: 1%
 
 最適化を使用すると、キャンペーンのオーディエンスにパーソナライズされ最適化されたコンテンツを配信でき、<!--based on marketer-defined advanced decision configurations. This ensures that the right message reaches the right audience at the right time in order to maximize the effectiveness of your campaigns. (Removed for now as Decisioning is not yet supported)--> エンゲージメントと成功を最大限に高めて <!--customized and --> 効果的なキャンペーンを作成できます。
 
-最適化を使用すると、次のことができます。
+最適化では、次のことができます。
 
 * [ ターゲティング ](#targeting) ルールの活用
 * 実行 [ コンテンツ実験 ](#experimentation)
 * 1 つのキャンペーン内での実験とターゲティングの両方の [ 詳細な組み合わせ ](#combination) の使用
 
-キャンペーンがライブになると、プロファイルは定義された条件に照らして評価され、一致条件に基づいて、キャンペーンの適切なエクスペリエンスまたはコンテンツで配信されます。
+キャンペーンがライブになると、プロファイルは定義済みの条件に照らして評価され、一致条件に基づいて、キャンペーンからの適切なエクスペリエンスまたはコンテンツで配信されます。
 
 実験とターゲティングの違いの概要を次に示します。
 
@@ -98,7 +99,7 @@ ht-degree: 1%
 
 1. キャンペーンの作成. [詳細情報](../campaigns/create-campaign.md) <!--Add link to API triggered?-->
 
-1. 「**[!UICONTROL アクション]**」タブから、少なくとも 2 つのインバウンドアクション（例：[ コードベースのエクスペリエンス ](../code-based/get-started-code-based.md) および [ アプリ内 ](../in-app/get-started-in-app.md) を選択します。
+1. 「**[!UICONTROL アクション]**」タブから、少なくとも 2 つのインバウンドアクション（例：[ コードベースのエクスペリエンス ](../code-based/get-started-code-based.md) および [ アプリ内 ](../../rp_landing_pages/in-app-landing-page.md) を選択します。
 
 1. 「**[!UICONTROL メッセージの最適化]**」セクションで、「**[!UICONTROL 実験]**」を選択します。
 
@@ -161,4 +162,3 @@ ht-degree: 1%
 
 E.g. explaining how a marketer can look at the report to determine which treatment (e.g. which message content) is performing the best for the targeting audience
 -->
-

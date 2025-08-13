@@ -6,10 +6,10 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: ht
-source-wordcount: '789'
-ht-degree: 100%
+source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+workflow-type: tm+mt
+source-wordcount: '771'
+ht-degree: 92%
 
 ---
 
@@ -28,46 +28,9 @@ ht-degree: 100%
 
 <!--Discover the detailed steps to create a code-based campaign in this video.-->
 
-<table style="table-layout:fixed"><tr style="border: 0;">
-<td>
-<a href="#how-it-works">
-<img alt="リード" src="../assets/do-not-localize/privacy-audit.jpeg">
-</a>
-<div><a href="#how-it-works"><strong>仕組み</strong>
-</div>
-<p>
-</td>
-<td>
-<a href="code-based-prerequisites.md">
-<img alt="検証" src="../assets/do-not-localize/web-prerequisites.jpg">
-</a>
-<div>
-<a href="code-based-prerequisites.md"><strong>ガードレールと前提条件</strong></a>
-</div>
-<p>
-</td>
-<td>
-<a href="code-based-configuration.md">
-<img alt="検証" src="../assets/do-not-localize/web-design.jpg">
-</a>
-<div>
-<a href="code-based-implementation-samples.md"><strong>コードベースのチャネル設定</strong></a>
-</div>
-<p>
-</td>
-<td>
-<a href="create-code-based.md#create-code-based-campaign">
-<img alt="低頻度" src="../assets/do-not-localize/web-create.jpg">
-</a>
-<div>
-<a href="create-code-based.md#create-code-based-campaign"><strong>コードベースのエクスペリエンスを作成</strong></a>
-</div>
-<p></td>
-</tr></table>
-
 <!--[Learn how to create a code-based campaign in this video](#video)-->
 
-➡️ コンテンツ実験を使用してコードベースのエクスペリエンスチャネルと決定を比較する方法を示すエンドツーエンドのユースケースについて詳しくは、[この節](../experience-decisioning/experience-decisioning-uc.md)を参照してください。
+➡️ コンテンツ実験を使用して決定をコードベースのエクスペリエンスチャネルと比較する方法を示すエンドツーエンドのユースケースについては、[ この節 ](../experience-decisioning/experience-decisioning-uc.md) を参照してください。
 
 ## コードベースのチャネルと他のチャネルを使用する場合 {#code-based-vs-other-channels}
 
@@ -75,7 +38,7 @@ ht-degree: 100%
 
 他の [!DNL Journey Optimizer] チャネルではなく、コードベースのチャネルを使用するのはどのような場合ですか？
 
-* デジタルプロパティに web ブラウザーやモバイルアプリを通じてアクセスできない場合はいつでも、コードベースのエクスペリエンスの使用を検討してください。この場合は、[!DNL Journey Optimizer] [web チャネル](../web/get-started-web.md){target="_blank"}または [!DNL Journey Optimizer] [アプリ内メッセージング](../in-app/get-started-in-app.md){target="_blank"}チャネルを使用したほうがよいでしょう。
+* デジタルプロパティに web ブラウザーやモバイルアプリを通じてアクセスできない場合はいつでも、コードベースのエクスペリエンスの使用を検討してください。この場合は、[!DNL Journey Optimizer] [web チャネル](../web/get-started-web.md){target="_blank"}または [!DNL Journey Optimizer] [アプリ内メッセージング](../../rp_landing_pages/in-app-landing-page.md){target="_blank"}チャネルを使用したほうがよいでしょう。
 
 <!--* You can use the code-based channel as an alternative to the [!DNL Journey Optimizer] web channel if your website cannot be loaded into the [web designer](../web/web-visual-editor.md){target="_blank"} visual editor or if you cannot use the [browser extension](../web/web-prerequisites.md#visual-authoring-prerequisites){target="_blank"} that powers visual authoring for web channel.-->
 
@@ -89,8 +52,8 @@ Web の使用例を実行するには、web チャネルまたはコードベー
 
 **Web**
 
-* [Web デザイナー](../web/web-visual-editor.md){target="_blank"}のビジュアルエディターまたは web [非ビジュアルエディター](../web/web-non-visual-editor.md)を使用してコンテンツを編集します。
-* クライアントサイドの実装である [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja){target="_blank"} が必要です。
+* [Web designer](../web/web-visual-editor.md){target="_blank"} のビジュアルエディターまたは web [非ビジュアルエディター](../web/web-non-visual-editor.md)を使用してコンテンツを編集します。
+* [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja){target="_blank"} - クライアントサイドの実装が必要です。
   <!--* You need the [Adobe Experience Cloud Visual Editing Helper](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"} extension installed on your web browser. [Learn more](../web/web-prerequisites.md){target="_blank"}-->
 * Web チャネルを使用すると、ページ上のすべての項目を変更でき、変更に使用できるアクションの事前定義済みのリストが表示されます。[詳細情報](../web/web-visual-editor.md){target="_blank"}
 * 簡単に設定して、すぐに使い始めることができます。
@@ -99,7 +62,7 @@ Web の使用例を実行するには、web チャネルまたはコードベー
 **コードベースのエクスペリエンス**
 
 * [パーソナライゼーションエディター](create-code-based.md#edit-code)を使用して、コンテンツを編集します。
-* クライアントサイドの実装である [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja){target="_blank"} またはサーバーサイドの実装である [AEP Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=ja){target="_blank"} のいずれかが必要です。
+* [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja){target="_blank"} - クライアントサイド実装または [AEP Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=ja){target="_blank"} - サーバーサイド実装のいずれかが必要です。
 * コードベースのエクスペリエンスでは、アプリケーションがこれらの場所の [!DNL Journey Optimizer] によってエッジに公開されたコンテンツを解釈して配信できるように、実装に対する事前の開発作業が必要です。[詳細情報](code-based-surface.md)
 * より詳細な計画が必要で、開発者が指定した内容だけを変更できます。したがって、パーソナライゼーションやテストのために変更が必要なアプリケーション上のコンポーネント（ホームバナー、ヒーロー画像、メニューバーなど）を特定し、開発チームと協力してこれらの変更処理に必要な実装を構築することが重要です。
 * JSON コードコンテンツを使用できます。

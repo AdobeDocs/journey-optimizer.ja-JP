@@ -1,0 +1,82 @@
+---
+solution: Journey Optimizer
+product: Journey Optimizer
+title: コンテンツテンプレート
+description: コンテンツテンプレート
+redpen-status: CREATED_||_2025-08-12_00-38-47
+source-git-commit: fc85686dfa7d482416b439dfd1610cd0cd6b5555
+workflow-type: tm+mt
+source-wordcount: '244'
+ht-degree: 12%
+
+---
+
+
+# コンテンツテンプレート{#section-overview}
+
+Adobe Journey Optimizerのコンテンツテンプレートは、キャンペーンやジャーニーの再利用可能なコンテンツを作成する方法を簡素化および効率化するように設計された強力なツールです。 メール、SMS、プッシュ通知などを作成する場合でも、テンプレートを使用すると、事前に設計された構造を簡単にカスタマイズしてプロジェクト間で共有できるので、時間を節約できます。 この節では、テンプレートの作成、管理および適用を行い、ガバナンスのためのコンテンツのロックや精度のためのテンプレートのテストなどの機能を探索する方法について説明します。 また、これらのテンプレートをチャネルやワークフロー間で統合する方法についても説明し、一貫性のある効果的なメッセージを簡単に作成できるようにします。
+
+## コンテンツテンプレート
+
+:::: landing-cards-container
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+
+コンテンツテンプレートの基本を学ぶ
+
+キャンペーンやジャーニー全体でコンテンツの再利用を効率化するための、コンテンツテンプレートの作成および管理の基本について説明します。
+
+[ここから開始](../using/content-management/content-templates.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+
+テンプレートへのアクセスと管理
+
+フォルダーの作成、テンプレートの編集、書き出しを含む、コンテンツテンプレートへのアクセス、整理、管理方法について説明します。
+
+[管理オプションの調査](../using/content-management/access-content-templates.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+
+コンテンツテンプレートの作成
+
+再利用可能なコンテンツテンプレートをゼロから作成するか、既存のキャンペーンやジャーニーのコンテンツを保存するかの手順を説明します。
+
+[テンプレートの作成方法を学ぶ](../using/content-management/create-content-templates.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+
+メールテンプレートのコンテンツのロック
+
+セクションまたはテンプレート全体をロックして、意図しない編集や削除を防ぎ、ガバナンスを強化する方法を説明します。
+
+[テンプレートを保護](../using/content-management/content-locking.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+
+コンテンツテンプレートのテスト
+
+キャンペーンやジャーニーで使用する前に、レンダリング、バリエーション、配達確認をテストして、メールテンプレートを検証します。
+
+[テンプレートのテスト](../using/content-management/test-content-templates.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+
+コンテンツテンプレートの使用
+
+コンテンツテンプレートを適用して、Adobe Journey Optimizerでサポートされるチャネルのコンテンツ作成を効率化します。
+
+[テンプレートの適用](../using/content-management/use-content-templates.md)
+:::
+
+::::

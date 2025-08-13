@@ -7,8 +7,8 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 **目次**
 
-* [コンテンツカードの基本を学ぶ](get-started-content-card.md)
+* [コンテンツカードの基本を学ぶ](../../rp_landing_pages/content-card-landing-page.md)
 * [コンテンツカードの前提条件](content-card-configuration-prereq.md)
 * [Journey Optimizer でのコンテンツカードチャネルの設定](content-card-configuration.md)
 * [コンテンツカードの作成](create-content-card.md)

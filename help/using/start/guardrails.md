@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 2da5443e6927d0696cefbedee4f56a397208bc1c
+source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
 workflow-type: tm+mt
 source-wordcount: '2648'
 ht-degree: 99%
@@ -52,7 +52,7 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 
 ### メールガードレール {#message-guardrails}
 
-次のガードレールが[メールチャネル](../email/get-started-email.md)に適用されます。
+次のガードレールが[メールチャネル](../../rp_landing_pages/email-landing-page.md)に適用されます。
 
 * [!DNL Journey Optimizer] では、メールに添付ファイルを追加することはできません。
 * [!DNL Adobe Journey Optimizer] と他の製品（[!DNL Adobe Campaign] や [!DNL Adobe Marketo Engage] など）から、同じ送信ドメインを使用してメッセージを送信することはできません。
