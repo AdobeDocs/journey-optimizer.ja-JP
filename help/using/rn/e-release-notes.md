@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: b62f0325b8d7aa1e213a5c6273d0634a0e005a6e
+source-git-commit: da1562edb6ba8e98210c5c6add4fa16ca025d9f7
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1020'
 ht-degree: 32%
 
 ---
@@ -164,7 +164,12 @@ ht-degree: 32%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizerで新しい汎用アクションアクティビティがサポートされ、単一アクションとマルチチャネルアウトバウンドアクションの両方を設定でき、ジャーニーキャンバス内でアクションの設定を合理化できます。 この新しいアクティビティを使用すると、組み込みのチャネルアクションにターゲティングの最適化、実験、多言語言語のバリアントを追加することもできます。</p>
+<p>Journey Optimizerで新しい汎用アクションアクティビティがサポートされ、単一アクションとマルチチャネルアウトバウンドアクションの両方を設定でき、ジャーニーキャンバス内でアクションの設定を合理化できます。 特に、この新機能により、次のことが可能になります。</p>
+<ul>
+<li>ジャーニーキャンバス内のシンプルなネイティブアクション設定。</li>
+<li>複数アクションのインバウンドノードを作成する処理能力。</li>
+<li>組み込みのチャネルアクションに最適化を追加する機能。</li>
+</ul>
 <p>この機能は、限定提供です。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
