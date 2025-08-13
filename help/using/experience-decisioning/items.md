@@ -6,9 +6,9 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 37e86b2c9d7f1587fefa2927949a13cac24c34ad
+source-git-commit: b1de82a4fdba58880e21b114ec3d2b9c3c81df0c
 workflow-type: tm+mt
-source-wordcount: '1783'
+source-wordcount: '1778'
 ht-degree: 98%
 
 ---
@@ -19,7 +19,6 @@ ht-degree: 98%
 >id="ajo_exd_items"
 >title="決定項目の管理"
 >abstract="Journey Optimizer では、決定項目と呼ばれるマーケティングオファーを作成し、一元化されたカタログとコレクションを作成して整理できます。現在、作成されたすべての決定項目は、単一の「オファー」カタログ内に統合されます。この画面から、「**スキーマを編集**」ボタンを使用してカタログのスキーマにアクセスし、決定項目のカスタム属性を作成することもできます。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-items/catalogs.html?lang=ja" text="項目カタログの設定"
 
 Journey Optimizer では、決定項目と呼ばれるマーケティングオファーを作成し、一元化されたカタログとコレクションを作成して整理できます。これらは、ニーズに正確に合わせて設計された標準属性とカスタム属性で構成されています。さらに、決定項目を表示可能なユーザーを定義できる、プロファイル制約が組み込まれています。
 
