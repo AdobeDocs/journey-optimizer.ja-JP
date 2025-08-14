@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 32bc229e3d34e705d7f89530db9b3fbc3b136071
+source-git-commit: e8edafaff94ae9498f3d0eb3d696b38cd25e4c0a
 workflow-type: tm+mt
-source-wordcount: '1638'
+source-wordcount: '1662'
 ht-degree: 48%
 
 ---
@@ -281,6 +281,10 @@ ht-degree: 48%
    * **ジャーニーの一括操作** - ジャーニーのリストから、複数の項目を選択できるようになりました。 選択すると、一度に 10 件までのジャーニーを一時停止または再開できます。
 
    * **カスタムアクションでのリダイレクト（302）のサポート** - カスタムアクションでは、リクエストごとに HTTP 302 リダイレクトを処理できるようになりました。 これにより、ジャーニーは、ローカライズされた、または地域固有の URL にリクエストをリダイレクトする API と統合できます。 リダイレクトに自動的に従うため、追加の設定を行うことなく正しいコンテンツが配信されます。
+
+* **データセット**
+
+   * **Experience Decisioning オブジェクトリポジトリ – パーソナライズされたオファー項目** – 組み込みの書き出しデータセットは、すべてのオファー属性とライフサイクルステータスをキャプチャし、完全なパーソナライゼーションとレポートを可能にしました。
 
 ## キャンペーンオーケストレーション
 
