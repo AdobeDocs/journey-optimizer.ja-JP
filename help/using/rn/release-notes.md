@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: bc542a5ecd3e27a335fc60c0e060dc72c215757c
+source-git-commit: 74e91c6a491b95f8e3c804b74dcef0b1757c5edf
 workflow-type: tm+mt
-source-wordcount: '1781'
+source-wordcount: '1773'
 ht-degree: 44%
 
 ---
@@ -112,12 +112,13 @@ ht-degree: 44%
 <tr>
 <td>
 <p>パーソナライゼーションエディターの [!DNL Adobe Experience Platform] のデータを活用して、コンテンツと決定属性をパーソナライズします。 特に、これを使用すると、属性の定義をデータセット内の追加データに拡張して、定期的に変更される一括更新を行うことができます。属性を 1 つずつ手動で更新する必要はありません。</p>
-<p>この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できます。この一般提供リリースでは、次の機能強化が導入されました。</p>
+<p>このリリースでは、次の機能強化が導入されました。</p>
 <ul>
 <li>インバウンドチャネルのサポート、</li>
 <li>式およびビジュアルフラグメント内で「datasetLookup」ヘルパー関数を使用して、Adobe Experience Platform データセットのデータを使用してコンテンツをパーソナライズできるようになりました。</li>
 <li>データセット内のオプションを使用すると、API 呼び出しを実行しなくても、データセットで参照パーソナライゼーションを有効にできるようになりました。</li>
 </ul>
+<p>この機能は、限定提供です。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
@@ -262,7 +263,7 @@ ht-degree: 44%
 
 * **管理**
 
-   * **Channel Configuration Monitoring アラート** - チャネルコンフィギュレーションエラーが発生した場合や DNS レコードが見つからない場合に、システムアラートをメールまたはJourney Optimizer通知センターで受け取るよう登録できるようになりました。
+   * **チャネル設定の監視アラート** - <!--a channel configuration failure happens or if -->A DNS レコードがない場合に、メールまたはJourney Optimizer通知センターでシステムアラートを受け取るように登録できるようになりました。
 
 * **キャンペーン**
 
