@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c50553f5a591ae1f462f8162313999424bec533c
+source-git-commit: 1b4ab451ed9e2315ffe4850c6ab4b8ad20223ac3
 workflow-type: tm+mt
-source-wordcount: '1715'
-ht-degree: 46%
+source-wordcount: '1782'
+ht-degree: 44%
 
 ---
 
@@ -189,13 +189,37 @@ ht-degree: 46%
 <table>
 <thead>
 <tr>
+<th><strong>メールへのPDF添付ファイル</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizerで送信されるメールメッセージに静的PDF ファイルを添付できるようになりました。</p>
+<ul>
+<li>PDF添付ファイル付きのメッセージは、プロファイルごとに年間 6 件まで追加できます。</li>
+<li>各添付ファイルに許可される最大ファイルサイズは 5 MB です。</li>
+<li>サイズやボリュームを追加する場合は、添付ファイルパックアドオンを購入できます。 詳しくは、Adobe担当者にお問い合わせください。</li>
+</ul>
+<p>この機能は、限定提供です。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
+<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>ランディングページのカスタムフォーム</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizerでカスタムフォームを作成し、ランディングページで活用して、フォームごとに定義されたデータセットにプロファイル属性を取り込むことができるようになりました。</p>
+<p>[!DNL Journey Optimizer] を使用すると、ランディングページ全体でプロファイル属性を取り込めるようになりました。</p>
+<p>特定のデータセットに基づいて、ニーズに合わせてカスタマイズされたカスタムフォームを作成、デザイン、管理します。 その後、ランディングページでこれらのフォームを活用し、選択したプロファイル属性を各フォーム用に定義されたデータセットに追加できます。</p>
 <p>この機能は、限定提供です。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
 <p><!--This capability is currently in beta version and only available to beta customers. To join the beta program, contact your Adobe representative.--></p>
 <p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
@@ -258,10 +282,6 @@ ht-degree: 46%
 
    * **プッシュ通知の有効期限** – 各プッシュ通知に有効期限を指定できるようになりました。これにより、特定の日付を過ぎると時間依存のメッセージ（ブラックフライデーセールなど）が送信されなくなるので、顧客に悪いエクスペリエンスを提供するのを防ぐことができます。
 
-* **チャネル – メール**
-
-   * **メールへのPDF添付ファイル** - Journey Optimizerで送信されるメールメッセージに静的PDF ファイルを添付できるようになりました。 この機能は、限定提供です。アクセス権を取得するには、アドビ担当者にお問い合わせください。
-
 * **チャネル - SMS**
 
    * **ファジーオプトアウト** – 有効にすると、「**ファジーオプトアウト**」オプションは、定義済みのオプトアウトキーワード（「CANCIL」など）に非常に似た受信メッセージを検出し、ユーザーの購読解除の意図を確認する確認返信を自動的に送信します。 定義済みのプロンプトで確認すると、購読は解除されます。
@@ -276,7 +296,7 @@ ht-degree: 46%
 
    * **ワンクリック登録解除 URL でのカスタム属性のサポート** - Journey Optimizerを使用すると、Adobe以外で同意を管理している場合、メール設定に独自のワンクリック登録解除リンクを定義することで、外部カスタムエンドポイントを設定できます。 受信者が購読解除リンクをクリックすると、Journey Optimizerによって、プロファイル固有のデフォルトのパラメーターが同意更新イベントに追加されます。
 
-     ワンクリック購読解除リンクをさらにパーソナライズするために、同意イベントに追加するカスタム属性を定義できるようになりました。
+     ワンクリック購読解除リンクをさらにパーソナライズするために、同意イベントにも追加されるカスタム属性を定義できるようになりました。
 
 * **決定**
 

@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 設定, メール, 設定
 exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
-source-git-commit: 2bb24061d05bc4cabc8565d35cd49be5314c056a
+source-git-commit: 1b4ab451ed9e2315ffe4850c6ab4b8ad20223ac3
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 100%
+source-wordcount: '712'
+ht-degree: 97%
 
 ---
 
@@ -25,18 +25,18 @@ ht-degree: 100%
 >メール設定の制御を高めるには、ヘッダーパラメーターをパーソナライズできます。[詳細情報](../email/surface-personalization.md#personalize-header)
 
 * **[!UICONTROL 送信者名]**：送信者の名前（会社のブランド名など）。
-* **[!UICONTROL 送信者メールのプレフィックス]**：コミュニケーションに使用するメールアドレス。
+* **[!UICONTROL 送信者メールの接頭辞]**：コミュニケーションに使用するメールアドレス。
 * **[!UICONTROL 返信先名]**：受信者がメールクライアントソフトウェアの「**返信**」ボタンをクリックしたときに使用する名前。
 * **[!UICONTROL 返信先メール]**：受信者がメールクライアントソフトウェアの「**返信**」ボタンをクリックしたときに使用するメールアドレス。[詳細情報](#reply-to-email)
-* **[!UICONTROL エラーメールのプレフィックス]**：メールを配信してから数日後に ISP で発生したすべてのエラー（非同期バウンス）は、このアドレスで受信されます。また、このアドレスでは、不在通知とチャレンジ応答も受信されます。
+* **[!UICONTROL エラーメールの接頭辞]**：メールを配信してから数日後に ISP で発生したすべてのエラー（非同期バウンス）は、このアドレスで受信されます。また、このアドレスでは、不在通知とチャレンジ応答も受信されます。
 
   アドビにデリゲートされていない特定のメールアドレスで不在通知とチャレンジ応答を受信したい場合は、[転送プロセス](#forward-email)を設定する必要があります。その場合は、このインボックスにランディングするメールを処理するために、手動または自動のソリューションを用意してください。
 
 >[!NOTE]
 >
->**[!UICONTROL 送信者メールのプレフィックス]**&#x200B;および&#x200B;**[!UICONTROL エラーメールのプレフィックス]**&#x200B;アドレスは、現在選択されている[デリゲートされたサブドメイン](../configuration/about-subdomain-delegation.md)を使用してメールを送信します。例えば、デリゲートされたサブドメインが *marketing.luma.com* の場合：
->* **[!UICONTROL 送信者メールのプレフィックス]**&#x200B;として *contact* と入力します。送信者メールは、*contact@marketing.luma.com* です。
->* **[!UICONTROL エラーメールのプレフィックス]**&#x200B;として *error* と入力します。エラーアドレスは、*error@marketing.luma.com* です。
+>**[!UICONTROL 送信者メールの接頭辞]**&#x200B;および&#x200B;**[!UICONTROL エラーメールの接頭辞]**&#x200B;アドレスは、現在選択されている[デリゲートされたサブドメイン](../configuration/about-subdomain-delegation.md)を使用してメールを送信します。例えば、デリゲートされたサブドメインが *marketing.luma.com* の場合：
+>* **[!UICONTROL 送信者メールの接頭辞]**&#x200B;として *contact* と入力します。送信者メールは、*contact@marketing.luma.com* です。
+>* **[!UICONTROL エラーメールの接頭辞]**&#x200B;として *error* と入力します。エラーアドレスは、*error@marketing.luma.com* です。
 
 ![](assets/preset-header.png){width="80%"}
 
@@ -64,7 +64,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->入力したアドレスのサブドメインがアドビに[完全にデリゲート](../configuration/delegate-subdomain.md#full-subdomain-delegation)されたドメインである場合は、アドビアカウント担当者にお問い合わせください。
+>入力したアドレスのサブドメインがAdobeに [ 完全にデリゲート ](../configuration/delegate-subdomain.md#full-subdomain-delegation) されたドメインである場合は、Adobe担当者にお問い合わせください。
 
 ## メールの転送 {#forward-email}
 
