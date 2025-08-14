@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 74e91c6a491b95f8e3c804b74dcef0b1757c5edf
+source-git-commit: 2afc9c4eb2a0433a22f1b369824086db2f5618ec
 workflow-type: tm+mt
-source-wordcount: '1773'
+source-wordcount: '1776'
 ht-degree: 44%
 
 ---
@@ -180,7 +180,7 @@ ht-degree: 44%
 <li>任意のアクションに実験オプションと多言語オプションの両方を追加する機能。</li>
 </ul>
 <p>この機能は、限定提供です。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
+<p><!--img src="assets/do-not-localize/pdf-attachments.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
 </td>
 </tr>
@@ -196,9 +196,9 @@ ht-degree: 44%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizerで送信されるメールメッセージに静的PDF ファイルを添付できるようになりました。</p>
+<p>Journey Optimizerで送信されるメールメッセージに、静的PDF ファイルを添付できるようになりました。</p>
 <ul>
-<li>PDF添付ファイル付きのメッセージは、プロファイルごとに年間 6 件まで追加できます。</li>
+<li>プロファイルごとにPDF添付ファイルを含むメッセージを年間 6 件まで送信できます。</li>
 <li>各添付ファイルに許可される最大ファイルサイズは 5 MB です。</li>
 <li>サイズやボリュームを追加する場合は、添付ファイルパックアドオンを購入できます。 詳しくは、Adobe担当者にお問い合わせください。</li>
 </ul>

@@ -11,9 +11,10 @@ keywords: 書き出し，メッセージ，HIPAA, メール，SMS，設定
 badge: label="限定提供" type="Informative"
 hide: true
 hidefromtoc: true
-source-git-commit: 9e76bfb65865ec7814493ad6e08834d367a9417a
+exl-id: 7b50c933-9738-4b1b-acae-08f0a8d41dab
+source-git-commit: c62653af3c1eacaaf55dcf181d33f2253521e33d
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '509'
 ht-degree: 4%
 
 ---
@@ -29,11 +30,7 @@ ht-degree: 4%
 >
 >この機能は現在、一連の組織でのみ使用できます（使用制限あり）。 詳しくは、アドビ担当者にお問い合わせください。
 
-**メッセージの書き出し** 送信済みメールと SMS メッセージのコンテンツを、[!DNL Journey Optimizer] から宛先を介して独自のストレージ [!DNL Adobe Experience Platform] 転送できます。
-
->[!NOTE]
->
->宛先 [!DNL Experience Platform]、Experience Platformから外部エンドポイントにデータを配信できるフレームワークで構成されます。 [詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/home){target="_blank"}
+**メッセージの書き出し** を使用すると、送信されたメールと SMS メッセージのコンテンツを [!DNL Journey Optimizer] から [!DNL Adobe Experience Platform] の宛先を介して独自のストレージに転送できます。これにより、[!DNL Experience Platform] から外部エンドポイントにデータを配信できます。 [詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/home){target="_blank"}
 
 この機能により、書き出し用にマークされた [!DNL Journey Optimizer] を介して送信されたメールおよび SMS メッセージのコンテンツは、[!DNL Experience Platform] **AJO Message Export Dataset** に書き込まれます。
 
@@ -41,7 +38,7 @@ ht-degree: 4%
 <!--
 ## Terminology
 
-* **[!DNL Experience Platform] destinations** - Framework to deliver data out of Experience Platform into external endpoints. [Learn more](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/home){target="_blank"}
+* **[!DNL Experience Platform] destinations** - Framework to deliver data out of Experience Platform into external endpoints. [Learn more](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home){target="_blank"}
 * **AJO Message Export Dataset** - An [!DNL Experience Platform] dataset which stores the message content of email and SMS messages sent via [!DNL Journey Optimizer] which have been marked for export.
 * **Retention**: Records in the AJO Message Export Dataset are retained for 3 calendar days from ingestion.-->
 
@@ -70,9 +67,9 @@ ht-degree: 4%
 >
 >この設定は、サンドボックスごとに設定する必要があります。
 
-1. Experience Platform[ 宛先タイプ ](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/destination-types) を選択します。 データを受信する準備が整った、使用可能な宛先プラットフォームのリストは、[ このページ ](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/overview){target="_blank"} で入手できます。
+1. Experience Platform[ 宛先タイプ ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/destination-types){target="_blank"} を選択します。 データを受信する準備が整った、使用可能な宛先プラットフォームのリストは、[ このページ ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview){target="_blank"} で入手できます。
 
-1. [!DNL Experience Platform] では、資格情報、バケット/コンテナ、パスのプレフィックス、セキュリティオプションを定義して、宛先を設定します。 [詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
+1. [!DNL Experience Platform] では、資格情報、バケット/コンテナ、パスのプレフィックス、セキュリティオプションを定義して、宛先を設定します。 [詳細情報](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
 
 1. 次のデータを使用して、データセット書き出しフローを作成します。
 
@@ -95,5 +92,3 @@ ht-degree: 4%
 このチャネル設定を使用するキャンペーンやジャーニーを通じて送信されたメールおよび SMS メッセージは、**AJO メッセージエクスポートデータセット** に書き込まれます。 その後、定義した書き出しデータフローに基づいて、レコードが選択したストレージの宛先に書き出されます。
 
 **[!UICONTROL メッセージの書き出しを有効にする]** 切替スイッチを無効にすると、このチャネル設定の新しいレコードがデータセットに取り込まれなくなります。 既存のレコードは、リテンションが期限切れになるまで残ります。
-
-
