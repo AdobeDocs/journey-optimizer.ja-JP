@@ -49,4 +49,4 @@ ht-degree: 100%
 
 カスタムアクションの設定方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430280?quality=12&captions=jpn)
