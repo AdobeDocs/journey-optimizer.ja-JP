@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 source-git-commit: fb036e910431a4ce9709b394c93484e6b76bf8f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2549'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -312,7 +312,7 @@ ht-degree: 96%
 >title="フォールバックオファーの追加"
 >abstract="決定範囲を定義したら、オファーの実施要件ルールと制約に一致しない顧客への最後の手段として提示されるフォールバックオファーを定義します。"
 
-決定範囲を定義したら、オファーの実施要件ルールと制約に一致しない顧客への最後の手段として提示される [ フォールバックオファー ](../offer-library/creating-fallback-offers.md) を定義します。
+決定範囲を定義したら、オファーの実施要件ルールと制約に一致しない顧客への最後の手段として提示される[フォールバックオファー](../offer-library/creating-fallback-offers.md)を定義します。
 
 それには、決定で定義されたプレースメントに使用可能なフォールバックオファーのリストから選択します。
 
@@ -405,6 +405,6 @@ ht-degree: 96%
 
 意思決定管理でオファーアクティビティを作成する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/346695?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 
 

@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 70e88ea0-f2b0-4c13-8693-619741762429
 source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '509'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 88%
 
 >[!NOTE]
 >
->[ コンテキスト属性 ](../personalization/personalization-build-expressions.md) は、フラグメントではサポートされていません。
+>[コンテキスト属性](../personalization/personalization-build-expressions.md)は、フラグメントではサポートされていません。
 >
->ジャーニーまたはキャンペーンでトラッキングを有効にすると、保存されたフラグメントにリンクが存在し、このフラグメントがメッセージで使用される場合、メッセージに含まれる他のすべてのリンクと同様に、これらのリンクがトラッキングされます。 [ リンクとトラッキングの詳細 ](../email/message-tracking.md)
+>ジャーニーまたはキャンペーンでトラッキングが有効になっている場合、保存済みのフラグメントにリンクが存在し、このフラグメントがメッセージで使用されていると、メッセージに含まれる他のすべてのリンクと同様に、これらのリンクが追跡されます。[リンクとトラッキングの詳細情報](../email/message-tracking.md)
 
 ## ビジュアルフラグメントとして保存 {#save-as-visual-fragment}
 

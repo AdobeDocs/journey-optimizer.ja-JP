@@ -10,7 +10,7 @@ level: Experienced
 keywords: サブドメイン, google, txt, レコード, gmail, 配信品質
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
 source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '210'
 ht-degree: 100%
 

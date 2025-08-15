@@ -10,9 +10,9 @@ level: Intermediate
 keywords: シードリスト, シードリスト, シード, 設定
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
 source-git-commit: 1cca05a4f7590f42c1ed5104cb530930e139b2b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '985'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -156,6 +156,6 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->[ テストモード ](../building-journeys/testing-the-journey.md) ジャーニーは、シードリストにメールを送信しません。 メールコンテンツを確認するには、メッセージを送信する前に [ プレビューとテスト ](../content-management/preview-test.md) 機能を使用します。
+>[テストモード](../building-journeys/testing-the-journey.md)のジャーニーでは、シードリストにメールは送信されません。メールコンテンツを確認するには、メッセージを送信する前に[プレビューとテスト](../content-management/preview-test.md)の機能を使用します。
 >
->繰り返しのジャーニーの場合、少なくとも 1 つのプロファイルがメールノードに到達していれば、ジャーニーの実行ごとにシードアドレスにメール配信が送信されます。
+>繰り返しのジャーニーの場合、1 つ以上のプロファイルがメールノードに到達していれば、ジャーニーの実行ごとにシードアドレスにメール配信が送信されます。

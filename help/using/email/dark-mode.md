@@ -13,9 +13,9 @@ hide: true
 hidefromtoc: true
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
 source-git-commit: 23684c906d11c7f54eb28cac7c2697964e723a2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1677'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -111,7 +111,7 @@ E メールデザイナーでダークモードにアクセスし、デフォル
 
    ![](assets/dark-mode-default.png)
 
-デフォルトでは、メールDesignerのダークモードプレビューは、画像とアイコンを除くすべての要素に「フルカラー反転」カラースキームを適用します。
+デフォルトでは、E メールデザイナーのダークモードのプレビューには、画像とアイコンを除くすべての要素に「フルカラー反転」カラースキームが適用されます。
 
 つまり、明るい要素と暗い要素の領域を検出して反転させることで、明るい背景は暗く、暗いテキストは明るくなり、暗い背景は明るく、明るいテキストは暗くなります。
 
@@ -137,7 +137,7 @@ E メールデザイナーのカスタムダークモードのスタイル設定
 
 カスタムダークモードの設定を定義するには、次の手順に従います。
 
-1. メールDesignerのプレビューを **[!UICONTROL ダークモード]** に切り替えてください。 [詳細情報](#preview-dark-mode)
+1. E メールデザイナーで&#x200B;**[!UICONTROL ダークモード]**&#x200B;プレビューに切り替えます。[詳細情報](#preview-dark-mode)
 
 1. テキスト、背景、ボタンなどのスタイル設定の色属性を編集します。
 
@@ -211,11 +211,11 @@ Inline CSS helps maintain more control over styling, as some clients strip exter
 
 ## ダークモードをサポートしているメールクライアント {#supporting-email-clients}
 
-ダークモードをサポートする主なメールクライアントのリストを以下に示します。
+ダークモードをサポートしている主なメールクライアントのリストを以下に示します。
 
 >[!NOTE]
 >
->これらのメールクライアントの一部のバージョンはダークモードをサポートしていないので、明確にするためにも、この表に示しています。
+>これらのメールクライアントの一部のバージョンはダークモードをサポートしてませんが、分かりやすくするために、この表に含めています。
 
 | ダークモードをサポートしているメールクライアント | 互換性のあるバージョン | *サポートされていないバージョン* |
 |---------|----------|---------|
@@ -241,7 +241,7 @@ Inline CSS helps maintain more control over styling, as some clients strip exter
 
 >[!WARNING]
 >
->ダークモードの最終レンダリングはメールクライアントごとに異なるので、結果はクライアントによって異なる場合があります。
+>ダークモードの最終的なレンダリングは、各メールクライアントに応じて異なるので、結果はクライアントごとに異なる場合があります。
 
 <!--
 * Check out the list of [email clients supporting dark mode](https://www.caniemail.com/search/?s=dark){target="_blank"}

@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
 source-git-commit: 1f16b095b3b063f3fb881aee0b2a928644e19143
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1859'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -660,7 +660,7 @@ doesNotEndWith(person.emailAddress,".com")
 >
 > 2 番目の引数として使用される式が特殊な正規表現文字である場合は、2 つのバックスラッシュ（`//`）を使用します。特殊な正規表現文字は次のとおりです：[.、+、*、?、^、$、(、)、[、]、{、}、|、\]
 > 
-> 詳しくは、[Oracle ドキュメント ](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank} を参照してください。
+> 詳しくは、[Oracle ドキュメント](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}を参照してください。
 >
 
 ## 右トリミング {#rightTrim}

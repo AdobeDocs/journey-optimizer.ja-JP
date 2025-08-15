@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: 8ad0e57b-6bdc-43b0-9511-31e2ac1be1f9
 source-git-commit: bc734ed1249b1ec186eb5f479d605bafee8a1d06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '351'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -53,9 +53,9 @@ ht-degree: 78%
 
 LINE メッセージを作成する際に、設定を選択できるようになりました。
 
-## LINE チャネル設定 API の設定 {#line-api}
+## LINE Channel settings API の設定 {#line-api}
 
-この API は、LINE Messaging API への接続に必要な認証と設定の詳細を保存するチャネル設定を行います。 これらの設定により、Adobe Journey Optimizerは指定された資格情報を使用して LINE を通じてメッセージを認証および送信できます。
+この API は、LINE Messaging API への接続に必要な認証と設定の詳細を保存するチャネル設定を指定します。これらの設定により、Adobe Journey Optimizer は指定された資格情報を使用して LINE を通じてメッセージを認証および送信できます。
 
 **エンドポイント**
 
@@ -65,8 +65,8 @@ POST https://platform.adobe.io/journey/imp/config/channel-settings
 
 | ヘッダー名 | 説明 |
 |-|-|
-| 認証 | テクニカルアカウントのユーザートークン |
-| x-api-key | Adobe Developer Consoleからのクライアント ID |
+| 認証 | 技術アカウントからのユーザートークン |
+| x-api-key | Adobe Developer Console からのクライアント ID |
 | x-gw-ims-org-id | IMS 組織 ID |
 | x-sandbox-name | サンドボックス名（例：prod） |
 | Content-Type | application/json である必要があります |

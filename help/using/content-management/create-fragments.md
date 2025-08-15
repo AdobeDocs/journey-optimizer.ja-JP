@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
 source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '765'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -65,9 +65,9 @@ ht-degree: 85%
 
 >[!NOTE]
 >
->[ コンテキスト属性 ](../personalization/personalization-build-expressions.md) は、フラグメント内ではサポートされていません。
+>[コンテキスト属性](../personalization/personalization-build-expressions.md)は、フラグメント内ではサポートされていません。
 >
->ジャーニーまたはキャンペーンでトラッキングを有効にし、フラグメントにリンクを追加し、このフラグメントがメッセージで使用される場合、メッセージに含まれる他のすべてのリンクと同様に、これらのリンクがトラッキングされます。 [ リンクとトラッキングの詳細 ](../email/message-tracking.md)
+>ジャーニーまたはキャンペーンでトラッキングが有効になっている場合、フラグメントにリンクを追加し、このフラグメントがメッセージで使用されていると、メッセージに含まれる他のすべてのリンクと同様に、これらのリンクが追跡されます。[リンクとトラッキングの詳細情報](../email/message-tracking.md)
 
 * ビジュアルフラグメントの場合は、ジャーニーやキャンペーン内のメールと同じ方法で、必要に応じてコンテンツを編集します。[詳細情報](../email/get-started-email-design.md)
 
@@ -79,17 +79,17 @@ ht-degree: 85%
 
   >[!CAUTION]
   >
-  >フラグメントは、テーマを使用モードと手動スタイルモードの間で相互互換性がありません。 テーマを適用するコンテンツでフラグメントを使用できるようにするには、このフラグメントをテーマモードで作成する必要があります。 [テーマの詳細情報](../email/apply-email-themes.md)
+  >フラグメントには、テーマを使用モードと手動スタイルモード間で相互互換性がありません。テーマを適用するコンテンツでフラグメントを使用できるようにするには、このフラグメントをテーマを使用モードで作成する必要があります。[テーマの詳細情報](../email/apply-email-themes.md)
 
 * 式フラグメントの場合は、[!DNL Journey Optimizer] パーソナライゼーションエディターのすべてのパーソナライズ機能およびオーサリング機能を活用して、フラグメントコンテンツを構築します。[詳細情報](../personalization/personalization-build-expressions.md)
 
   ![](assets/fragment-expression-editor.png)
 
-コンテンツの準備が整ったら、「**[!UICONTROL 保存]** ボタンをクリックします。
+コンテンツの準備が整ったら、「**[!UICONTROL 保存]**」ボタンをクリックします。
 
 >[!NOTE]
 >
->ビジュアルフラグメントは、100 KB を超えることはできません。 式のフラグメントは 200 KB を超えることはできません。
+>ビジュアルフラグメントは、100 KB を超えることはできません。式フラグメントは、200 KB を超えることはできません。
 
 フラグメントが作成され、**[!UICONTROL ドラフト]**&#x200B;ステータスでフラグメントリストに追加されます。追加されたフラグメントをプレビューして公開し、ジャーニーとキャンペーンで使用できます。
 

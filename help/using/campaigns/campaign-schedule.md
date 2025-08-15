@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: アクションキャンペーンのスケジュール設定
-description: アクションキャンペーンのスケジュールを設定する方法を説明します。
+title: アクションキャンペーンのスケジュール
+description: アクションキャンペーンのスケジュール方法について説明します。
 feature: Campaigns
 topic: Content Management
 role: User
@@ -11,17 +11,17 @@ mini-toc-levels: 1
 keywords: 作成, Optimizer, キャンペーン, サーフェス, メッセージ
 exl-id: b183eeb8-606f-444d-9302-274f159c3847
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '272'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
-# アクションキャンペーンのスケジュール設定 {#action-campaign-schedule}
+# アクションキャンペーンのスケジュール {#action-campaign-schedule}
 
 「**[!UICONTROL スケジュール]**」タブを使用して、キャンペーンオーディエンスを定義します。
 
-デフォルトでは、アクションキャンペーンは手動でアクティブ化すると開始され、メッセージが 1 回送信されるとすぐに終了します。 アクティブ化直後にキャンペーンを実行しない場合は、「**[!UICONTROL キャンペーン開始]**」オプションを使用して、メッセージを送信する日時を指定できます。
+デフォルトでは、アクションキャンペーンは手動でアクティブ化した後に開始され、メッセージが 1 回送信された直後に終了します。アクティブ化直後にキャンペーンを実行しない場合は、「**[!UICONTROL キャンペーン開始]**」オプションを使用して、メッセージを送信する日時を指定できます。
 
 「**[!UICONTROL キャンペーン終了]**」オプションを使用すると、キャンペーンの実行を停止するタイミングを指定できます。指定した日付以外では、キャンペーンは実行されません。
 

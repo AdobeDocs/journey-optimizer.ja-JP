@@ -11,7 +11,7 @@ level: Intermediate
 keywords: 式, エディター
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
 source-git-commit: cf700f4097883c875c74196317f6494f74f9bc7c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '836'
 ht-degree: 100%
 

@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
 source-git-commit: 31e25c511d8873e54c7b92e65511108a77f84941
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '823'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ WhatsApp メッセージを送信する前に、Adobe Journey Optimizer 環境�
 
 1. 「**[!UICONTROL 続行]**」をクリックします。
 
-1. WhatsApp API 認証情報に接続する **WhatsApp Business Account** を選択します。
+1. WhatsApp API 資格情報に接続する **WhatsApp Business アカウント**&#x200B;を選択します。
 
    ![](assets/whatsapp-api-2.png)
 
@@ -56,19 +56,19 @@ WhatsApp メッセージを送信する前に、Adobe Journey Optimizer 環境�
 
 1. API 資格情報の設定が完了したら、「**[!UICONTROL 送信]**」をクリックします。
 
-API 認証情報を作成して設定した後、WhatsApp メッセージ用の Webhook を作成する必要があります。 [詳細情報](#whatsapp-webhook)
+API 資格情報を作成および設定したら、WhatsApp メッセージ用の Webhook を作成する必要があります。[詳細情報](#whatsapp-webhook)
 
 ## Webhook の作成 {#WhatsApp-webhook}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_inbound_keyword_category"
 >title="インバウンドキーワードカテゴリ"
->abstract="<b>オプトイン</b>：ユーザーが登録すると、定義済みの自動応答が送信されます。<br/><b>オプトアウト</b>：ユーザーが登録解除すると、定義済みの自動応答が送信されます。<br/><b>ヘルプ</b>：ユーザーがヘルプまたはサポートをリクエストした際に、定義済みの自動応答が送信されます。<br/><b>デフォルト</b>：一致するキーワードがない場合に、フォールバック自動応答が送信されます。"
+>abstract="<b>オプトイン</b>：ユーザーが登録すると、定義済みの自動応答が送信されます。<br/><b>オプトアウト</b>：ユーザーが登録解除すると、定義済みの自動応答が送信されます。 <br/><b>ヘルプ</b>：ユーザーがヘルプまたはサポートをリクエストすると、定義済みの自動応答が送信されます。<br/><b>デフォルト</b>：一致するキーワードがない場合に、フォールバック自動応答が送信されます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_inbound_keyword"
 >title="キーワードの入力"
->abstract="ユーザーがテキスト入力した内容に基づいて特定の自動応答をトリガーするキーワードを定義できます。キーワードでは、大文字と小文字は区別されません。例えば、stop と STOP は同じように処理されます。"
+>abstract="ユーザーのテキストに基づいて特定の自動応答をトリガーするキーワードを定義できます。キーワードでは大文字と小文字は区別されません。例えば、stop と STOP は同じものとして処理されます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_webhook_url"
@@ -78,13 +78,13 @@ API 認証情報を作成して設定した後、WhatsApp メッセージ用の 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_verify_token"
 >title="トークンの検証"
->abstract="検証プロセス中にコールバック URL を確認および検証するのに Meta がエコーバックするトークン。"
+>abstract="検証プロセス中にコールバック URL を確認および検証するために Meta がエコーバックするトークン。"
 
 >[!NOTE]
 >
 >オプトインまたはオプトアウトのキーワードが指定されていない場合、標準の同意メッセージは有効になりません。
 
-WhatsApp API 認証情報が正常に作成されたら、次の手順は Webhook を作成してインバウンド設定を構成することです。
+WhatsApp API 資格情報が正常に作成されたら、次の手順では Webhook を作成し、インバウンド設定を指定します。
 
 1. 左側のパネルで、**[!UICONTROL 管理]** `>` **[!UICONTROL チャネル]**&#x200B;に移動し、**[!UICONTROL WhatsApp 設定]**&#x200B;の下にある **[!UICONTROL WhatsApp Webhook]** メニューを選択して、「**[!UICONTROL Webhook を作成]**」ボタンをクリックします。
 
@@ -92,21 +92,21 @@ WhatsApp API 認証情報が正常に作成されたら、次の手順は Webhoo
 
 1. Webhook の&#x200B;**[!UICONTROL 名前]**&#x200B;を入力します。
 
-1. **[!UICONTROL 設定を選択]** ドロップダウンから、以前に作成した [API 資格情報 ](#whatsapp-credentials) を選択します。
+1. **[!UICONTROL 設定を選択]**&#x200B;ドロップダウンから、以前に作成した [API 資格情報](#whatsapp-credentials)を選択します。
 
    ![](assets/webhook-2.png)
 
-1. **[!UICONTROL インバウンドキーワードカテゴリ]** を次のように選択します。
+1. 次のような&#x200B;**[!UICONTROL インバウンドキーワードカテゴリ]**&#x200B;を選択します。
 
    * **[!UICONTROL オプトインキーワード]**
    * **[!UICONTROL オプトアウトキーワード]**
    * **[!UICONTROL ヘルプキーワード]**
 
-1. **[!UICONTROL キーワード]** を入力し、「![ 追加 ](assets/do-not-localize/Smock_AddCircle_18_N.svg)」をクリックします。
+1. **[!UICONTROL キーワード]**&#x200B;を入力し、「![追加](assets/do-not-localize/Smock_AddCircle_18_N.svg)」をクリックします。
 
    ![](assets/webhook-3.png)
 
-1. 「**[!UICONTROL 返信メッセージ]**」フィールドから、設定したキーワードを受信したときに送信されたメッセージを入力するか、ドロップダウンメニューから事前定義されたオプションを選択します。
+1. 「**[!UICONTROL 返信メッセージ]**」フィールドに、設定済みのキーワードを受信した際に送信されるメッセージを入力するか、ドロップダウンメニューから定義済みのオプションを選択します。
 
    ![](assets/webhook-4.png)
 
@@ -115,7 +115,7 @@ WhatsApp API 認証情報が正常に作成されたら、次の手順は Webhoo
     
     You can dynamically personalize your payload using profile attributes, and ensure accurate data is sent for processing and response generation with the help of built-in helper functions.
 -->
-1. ![ 追加 ](assets/do-not-localize/Smock_AddCircle_18_N.svg) をクリックして、**[!UICONTROL 受信キーワード]** を追加します。
+1. 「![追加](assets/do-not-localize/Smock_AddCircle_18_N.svg)」をクリックして、**[!UICONTROL インバウンドキーワード]**&#x200B;を追加します。
 
 1. WhatsApp Webhook の設定が完了したら、「**[!UICONTROL 送信]**」をクリックします。
 
@@ -123,11 +123,11 @@ WhatsApp API 認証情報が正常に作成されたら、次の手順は Webhoo
 
    ![](assets/webhook-5.png)
 
-1. 既存の設定を変更し、**[!UICONTROL Webhook URL]** または **[!UICONTROL Webhook Verify トークン]** にアクセスするには、目的の Webhook を見つけて「**[!UICONTROL 編集]**」オプションをクリックして必要な変更を行います。
+1. 既存の設定を変更し、**[!UICONTROL Webhook URL]** または **[!UICONTROL Webhook 検証トークン]**&#x200B;にアクセスするには、目的の Webhook を見つけて、「**[!UICONTROL 編集]**」オプションをクリックして必要な変更を行います。
 
-1. ここで生成した **[!UICONTROL Webhook Verify toker]** をコピーし、Webhook 設定の一部として Meta インターフェイスに貼り付けます。
+1. ここで生成された **[!UICONTROL Webhook 検証トークン]**&#x200B;をコピーし、Webhook 設定の一部として Meta インターフェイスに貼り付けます。
 
-   この検証トークンを追加する方法と場所について詳しくは、[ メタドキュメント ](https://developers.facebook.com/docs/graph-api/webhooks/getting-started#configure-webhooks-product) を参照してください。
+   この検証トークンを追加する方法と場所について詳しくは、[Meta ドキュメント](https://developers.facebook.com/docs/graph-api/webhooks/getting-started#configure-webhooks-product)を参照してください。
 
 1. 以前に送信した **[!UICONTROL WhatsApp Webhook]** から新しい **[!UICONTROL Webhook URL]** にアクセスしてコピーします。
 
@@ -157,7 +157,7 @@ Webhook が設定されたので、WhatsApp 設定を作成できます。
 
    ![](assets/whatsapp-config-3.png)
 
-1. コミュニケーションに使用する&#x200B;**[!UICONTROL 送信者名]** を入力します。
+1. コミュニケーションに使用する&#x200B;**[!UICONTROL 送信者番号]**&#x200B;を入力します。
 
 1. すべてのパラメーターを設定したら、「**[!UICONTROL 送信]**」をクリックして確定します。なお、チャネル設定をドラフトとして保存し、後で設定を再開することもできます。
 
@@ -176,10 +176,10 @@ Webhook が設定されたので、WhatsApp 設定を作成できます。
 
 ## チュートリアルビデオ {#video}
 
-次のビデオでは、Adobe Journey Optimizerで WhatsApp チャンネルを設定する方法を確認できます。
+次のビデオでは、Adobe Journey Optimizer で WhatsApp チャネルを設定する方法について説明します。
 
 +++ こちらのビデオをご覧ください
 
->[!VIDEO](https://video.tv.adobe.com/v/3470269/?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++

@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: アクションキャンペーンコンテンツの編集
-description: アクションキャンペーンのコンテンツの編集方法を説明します。
+description: アクションキャンペーンコンテンツの編集方法について説明します。
 feature: Campaigns
 topic: Content Management
 role: User
@@ -11,9 +11,9 @@ mini-toc-levels: 1
 keywords: 作成, Optimizer, キャンペーン, サーフェス, メッセージ
 exl-id: bcb7a5e4-440d-4548-b305-c320bafe6ee7
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '162'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -59,4 +59,4 @@ ht-degree: 79%
 
 ## 次の手順 {#next}
 
-アクションキャンペーンのコンテンツの準備が整ったら、キャンペーンオーディエンスを定義できます。 [詳細情報](campaign-audience.md)
+アクションキャンペーンのコンテンツの準備が整ったら、キャンペーンオーディエンスを定義できます。[詳細情報](campaign-audience.md)

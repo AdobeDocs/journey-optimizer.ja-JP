@@ -10,9 +10,9 @@ level: Beginner
 keywords: 作成, メール, 開始, ジャーニー, キャンペーン
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 source-git-commit: 29532b5ebd140f9609a29c1375ceedecf55d0dfb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1033'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -84,17 +84,17 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
    ![](assets/email_campaign_edit_content.png)
 
-1. メールに決定ポリシーを追加する場合は、**[!UICONTROL 決定を有効にする]** を切り替えます。
+1. メールに決定ポリシーを追加する場合は、**[!UICONTROL 決定を有効にする]**&#x200B;を切り替えます。
 
-   決定ポリシーは、決定エンジンを活用してオーディエンスメンバーごとに配信する最適なコンテンツを動的に返す、オファーのコンテナです。 [ メールに決定ポリシーを追加する方法を学ぶ ](../experience-decisioning/create-decision.md#add)
+   決定ポリシーは、各オーディエンスメンバーに配信する最適なコンテンツを動的に返すことを目的に、決定エンジンを活用するオファーのコンテナです。[メールでの決定ポリシーの作成方法の詳細情報](../experience-decisioning/create-decision.md#add)
 
    ![](assets/../../experience-decisioning/assets/decision-policy-enable.png)
 
    >[!AVAILABILITY]
    >
-   >現時点では、Adobe Healthcare Shield またはプライバシーとセキュリティシールド アドオンサービスを購入した組織は、メールでの意思決定ポリシーの作成を利用できません。
+   >現時点では、Adobe Healthcare Shield または Privacy and Security Shield アドオン機能を購入した組織では、メールでの決定ポリシーの作成は使用できません。
 
-1. 「**[!UICONTROL ヘッダー]**」セクションで、「**[!UICONTROL 送信者名]**」、「**[!UICONTROL 送信元メール]**」および「**[!UICONTROL BCC]**」フィールドを確認します。 これらは、選択したメール設定で設定されます。 [詳細情報](email-settings.md) <!--check if same for journey-->
+1. 「**[!UICONTROL ヘッダー]**」セクションで、「**[!UICONTROL 送信者名]**」、「**[!UICONTROL 送信元メール]**」および「**[!UICONTROL BCC]**」の各フィールドを確認します。これらは、選択したメール設定で指定されます。 [詳細情報](email-settings.md) <!--check if same for journey-->
 
    ![](assets/email_designer_edit_content_header.png)
 
@@ -102,7 +102,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
    >[!NOTE]
    >
-   >件名は必須です。 改行を含めることはできません。
+   >件名は必須です。改行を含めることはできません。
 
 1. 「**[!UICONTROL メール本文を編集]**」ボタンをクリックしてE メールデザイナーにアクセスし、コンテンツの作成を開始します。[詳細情報](get-started-email-design.md)
 

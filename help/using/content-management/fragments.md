@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
 source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '325'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 96%
 * **ビジュアルフラグメント**&#x200B;は、メールチャネルでのみ使用できます。
 * **式フラグメント**&#x200B;は、アプリ内チャネルでは使用できません。
 
-フラグメントに適用されるその他のガードレールについては、[ この節 ](../start/guardrails.md#fragments-guardrails) を参照してください。
+フラグメントに適用されるその他のガードレールについて詳しくは、[この節](../start/guardrails.md#fragments-guardrails)を参照してください。
 
 ## ビジュアルフラグメントと式フラグメント {#visual-expression}
 
@@ -64,4 +64,4 @@ ht-degree: 96%
 
 [!DNL Journey Optimizer] で&#x200B;**式フラグメント**&#x200B;を管理、作成および使用する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3438918/?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3424587/?quality=12)

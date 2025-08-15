@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
 source-git-commit: c79b860d4220b3125bbee2240e047552a04fe118
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '371'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 92%
 
 >[!IMPORTANT]
 >
->現在、AI モデルは、Journey Optimizerが作成したチャネルではサポートされていません。
+>現在、Journey Optimizer が作成したチャネルでは、AI モデルはサポートされていません。
 
 ## AI モデルタイプ {#ai-model-types}
 
@@ -53,6 +53,6 @@ AI モデルを作成して使用する主な手順は次のとおりです。
 
    >[!IMPORTANT]
    >
-   >AI モデルを収集するには、フィードバックイベントをエクスペリエンスイベントとして送信する必要があります。 [意思決定管理データ収集についての詳細情報](../data-collection/data-collection.md)
+   >AI モデルを収集するには、フィードバックイベントをエクスペリエンスイベントとして送信する必要があります。[意思決定管理データ収集についての詳細情報](../data-collection/data-collection.md)
 
 1. 実施要件を満たすオファーをランク付けする決定内のプレースメントに AI モデルを割り当てます。[詳細情報](../offer-activities/configure-offer-selection.md)

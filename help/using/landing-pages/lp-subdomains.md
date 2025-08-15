@@ -9,7 +9,7 @@ level: Experienced
 keywords: ランディング, ランディングページ, サブドメイン, 設定
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
 source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '971'
 ht-degree: 100%
 

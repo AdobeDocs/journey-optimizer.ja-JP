@@ -10,9 +10,9 @@ level: Experienced
 keywords: 権限, 高レベル, 低レベル, プロファイル, Admin Console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1301'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -529,7 +529,7 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
 ## 調整されたキャンペーンリソース {#ai-orchestrated-campaign}
 
-* 「」という高レベルの権限を持つユーザー **[!DNL Manage orchestrated campaigns]**、オーケストレーションされたキャンペーンを新規作成および編集/削除できます。
+* **[!DNL Manage orchestrated campaigns]** の上位権限を持つユーザーは、調整されたキャンペーンを新規作成および編集／削除できます。
 
 +++ この権限には、次の低レベルの権限が含まれます。
 
@@ -561,7 +561,7 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
 +++
 
-* 「」という高レベルの権限を持つユーザー **[!DNL Manage orchestrated campaigns admin]**、Adobe Experience Platform プロファイルとリレーショナルストアエンティティ間のリンクおよび紐付けを新規作成したり、編集/削除したりできます。
+* **[!DNL Manage orchestrated campaigns admin]** の上位権限を持つユーザーは、Adobe Experience Platform プロファイルとリレーショナルストアエンティティ間のリンクと紐付けを新規作成および編集／削除できます。
 
 +++ この権限には、次の低レベルの権限が含まれます。
 
@@ -573,7 +573,7 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
 +++
 
-* 「」という高レベル **[!DNL Publish orchestrated campaigns]** 権限を持つユーザーは、オーケストレーションされたキャンペーンを公開できます。
+* **[!DNL Publish orchestrated campaigns]** の上位権限を持つユーザーは、調整されたキャンペーンを公開できます。
 
 +++ この権限には、次の低レベルの権限が含まれます。
 
@@ -592,7 +592,7 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
 +++
 
-* 「」という高レベル **[!DNL View orchestrated campaigns]** 権限を持つユーザーは、オーケストレーションされたキャンペーンとそのコンテンツを表示できます。
+* **[!DNL View orchestrated campaigns]** の上位権限を持つユーザーは、調整されたキャンペーンとそのコンテンツを表示できます。
 
 +++ この権限には、次の低レベルの権限が含まれます。
 
@@ -613,7 +613,7 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
 +++
 
-* 「」 **[!DNL View orchestrated campaigns admin]** いう高レベルの権限を持つユーザーは、管理設定を表示できますが、設定を編集することはできません。
+* **[!DNL View orchestrated campaigns admin]** の上位権限を持つユーザーは、管理設定を表示できますが、設定を編集することはできません。
 
 +++ この権限には、次の低レベルの権限が含まれます。
 
@@ -623,7 +623,7 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
 
 +++
 
-* 「」という高レベルの権限 **[!DNL View orchestrated campaigns report]** 持つユーザーは、調整されたキャンペーンのパフォーマンスをライブレポートとビジネスレポートの両方で表示できます。
+* **[!DNL View orchestrated campaigns report]** の上位権限を持つユーザーは、調整されたキャンペーンのパフォーマンスをライブレポートとビジネスレポートの両方で表示できます。
 
 +++ この権限には、次の低レベルの権限が含まれます。
 

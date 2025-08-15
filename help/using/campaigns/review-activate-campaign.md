@@ -10,16 +10,16 @@ level: Intermediate
 keywords: キャンペーン, レビュー, 検証, アクティブ化, アクティブ化, Optimizer
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '283'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 
 # アクションキャンペーンのレビューとアクティブ化 {#action-campaign-review}
 
-アクションキャンペーンを設定したら、アクティブ化する前にそのパラメーターとコンテンツをレビューする必要があります。 それには、次の手順に従います。
+アクションキャンペーンを設定したら、アクティブ化する前にそのパラメーターとコンテンツをレビューする必要があります。それには、次の手順に従います。
 
 >[!IMPORTANT]
 >

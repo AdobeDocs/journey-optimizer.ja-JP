@@ -10,9 +10,9 @@ level: Experienced
 keywords: サブドメイン, デリゲーション, ドメイン, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
 source-git-commit: 142e56ce36389da5c2e28bbafa1a1bf59be50d74
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1906'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 80%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname"
 >title="サブドメインデリゲーション"
->abstract="Journey Optimizer を使用すると、サブドメインをアドビにデリゲートできます。サブドメインを完全にアドビにデリゲートできます。これは推奨される方法です。</br>また、CNAME を使用してアドビ固有のレコードを指すサブドメインを作成することもできますが、この方法では、DNS レコードを独自に保持および管理する必要があります。"
+>abstract="Journey Optimizer を使用すると、サブドメインをアドビにデリゲートできます。サブドメインを完全にアドビにデリゲートできます。これは推奨される方法です。</br>また、CNAME を使用してアドビ固有のレコードを指すサブドメインを作成することもできますが、このアプローチでは、DNS レコードを自社で維持および管理する必要があります。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/configuration/delegate-subdomains/about-subdomain-delegation#subdomain-delegation-methods" text="サブドメインの設定方法"
 
 >[!CONTEXTUALHELP]
@@ -29,24 +29,24 @@ ht-degree: 80%
 >title="サブドメインデリゲーション"
 >abstract="メールの送信を開始するには、サブドメインをアドビにデリゲートします。完了すると、DNS レコード、受信ボックス、送信者、返信先、バウンスアドレスが設定されます。"
 
-ドメイン名のデリゲートという方法を使うと、ドメイン名（技術的には DNS ゾーン）の所有者は、その一部（技術的にはその配下の DNS ゾーンであり、サブゾーンとも呼ばれます）を別のエンティティにデリゲートできます。基本的に、お客様が「example.com」ゾーンを扱う場合、サブゾーン「marketing.example.com」をAdobeにデリゲートできます。
+ドメイン名のデリゲートという方法を使うと、ドメイン名（技術的には DNS ゾーン）の所有者は、その一部（技術的にはその配下の DNS ゾーンであり、サブゾーンとも呼ばれます）を別のエンティティにデリゲートできます。基本的に、お客様が「example.com」ゾーンを扱う場合、サブゾーン「marketing.example.com」をアドビにデリゲートできます。
 
 >[!NOTE]
 >
->サブドメインのデリゲーションと、[!DNL Journey Optimizer] で使用できる様々な方法について詳しくは、[ この節 ](about-subdomain-delegation.md) を参照してください。
+>サブドメインのデリゲーションと、[!DNL Journey Optimizer] で使用できる様々な方法について詳しくは、[この節](about-subdomain-delegation.md)を参照してください。
 
 以下のいずれかを実行できます。
 
-* サブドメインの完全なデリゲート - [ 詳細 ](#set-up-subdomain)
-* CNAME を使用してサブドメインを作成し、Adobe固有のレコードを指すようにします [ 方法については、こちらを参照 ](#set-up-subdomain)。
+* サブドメインを完全にデリゲート - [詳細情報](#set-up-subdomain)
+* CNAME を使用してサブドメインを作成しアドビ固有のレコードを指す - [詳細情報](#set-up-subdomain)
 
-**完全なサブドメインデリゲーション** は、推奨される方法です。 様々なサブドメイン設定方法の違いについて詳しくは、[ この節 ](about-subdomain-delegation.md#subdomain-delegation-methods) を参照してください。
+**完全なサブドメインデリゲーション**&#x200B;は、推奨される方法です。様々なサブドメイン設定方法の違いについて詳しくは、[この節](about-subdomain-delegation.md#subdomain-delegation-methods)を参照してください。
 
 ## ガードレール {#guardrails}
 
-[!DNL Journey Optimizer] でサブドメインを設定する場合は、以下に示すガードレールと推奨事項に従ってください。
+[!DNL Journey Optimizer] でサブドメインを設定する際は、以下に示すガードレールとレコメンデーションに従ってください。
 
-* デフォルトで [!DNL Journey Optimizer]、を使用すると **最大 10 個のサブドメイン** をデリゲートできます。 ただし、ライセンス契約によっては、最大 100 個のサブドメインをデリゲートできる場合があります。自身が使用資格を持つサブドメインの数について詳しくは、アドビの連絡先にお問い合わせください。
+* デフォルトでは、[!DNL Journey Optimizer] では&#x200B;**最大 10 個のサブドメイン**&#x200B;をデリゲートできます。ただし、ライセンス契約によっては、最大 100 個のサブドメインをデリゲートできる場合があります。自身が使用資格を持つサブドメインの数について詳しくは、アドビの連絡先にお問い合わせください。
 
 * サブドメインの並列送信は、[!DNL Journey Optimizer] ではサポートされていません。別のサブドメインのステータスが&#x200B;**[!UICONTROL 処理中]**&#x200B;となっているときに、サブドメインをデリゲーション用に送信しようとすると、エラーメッセージが表示されます。
 
@@ -54,7 +54,7 @@ ht-degree: 80%
 
 * [!DNL Adobe Journey Optimizer] と別の製品（[!DNL Adobe Campaign] または [!DNL Adobe Marketo Engage] など）から同じ送信ドメインを使用してメッセージを送信できません。
 
-* 親ドメインとサブドメインの両方のデリゲートはサポートされていません。 例えば、subdomain.domain.comをデリゲートした場合、email.subdomain.domain.comをデリゲートできません。 同様に、email.subdomain.domain.comをデリゲートした場合、subdomain.domain.comをデリゲートできません。
+* 親とサブドメインの両方のデリゲートはサポートされていません。例えば、subdomain.domain.com をデリゲートした場合、email.subdomain.domain.com をデリゲートすることはできません。同様に、email.subdomain.domain.com をデリゲートした場合、subdomain.domain.com をデリゲートすることはできません。
 
 ## デリゲートされたサブドメインへのアクセス {#access-delegated-subdomains}
 
@@ -100,12 +100,12 @@ ht-degree: 80%
 
    <!--![](assets/subdomain-delegate.png)-->
 
-1. **[!UICONTROL メソッドの設定]** セクションで、次のいずれかを選択します。
+1. 「**[!UICONTROL メソッドを設定]**」セクションから、次のいずれかを選択します。
 
-   * 完全にデリゲート - [ 詳細情報 ](about-subdomain-delegation.md#full-subdomain-delegation)
-   * CNAME の設定 – [ 詳細情報 ](about-subdomain-delegation.md#cname-subdomain-setup)
+   * 完全にデリゲート - [詳細情報](about-subdomain-delegation.md#full-subdomain-delegation)
+   * CNAME の設定 - [詳細情報](about-subdomain-delegation.md#cname-subdomain-setup)
 
-     CNAME を使用してサブドメインを設定する方法については、この [ 専用の節 ](#cname-subdomain-setup) を参照してください
+     CNAME を使用してサブドメインを設定する方法について詳しくは、この[専用の節](#cname-subdomain-setup)を参照してください
 
    <!--![](assets/subdomain-method-full.png)-->
 
@@ -121,17 +121,17 @@ ht-degree: 80%
 
     Capital letters are not allowed in subdomains. TBC by PM-->
 
-1. 専用セクションで **[!UICONTROL 0&rbrace;DMARC レコード &rbrace; を設定します。]**&#x200B;サブドメインに既存の [DMARC レコード ](dmarc-record.md) があり、[!DNL Journey Optimizer] によって取得される場合は、同じ値を使用するか、必要に応じて変更できます。 値を追加しない場合は、デフォルトの値が使用されます。[DMARC レコードの管理方法について説明します ](dmarc-record.md#set-up-dmarc)
+1. 専用セクションで **[!UICONTROL DMARC レコード]**&#x200B;を設定します。サブドメインに [DMARC レコード](dmarc-record.md)が既に存在し [!DNL Journey Optimizer] で取得する場合は、同じ値を使用することも、必要に応じて変更することもできます。値を追加しない場合は、デフォルトの値が使用されます。[DMARC レコードの管理方法の詳細情報](dmarc-record.md#set-up-dmarc)
 
    ![](assets/dmarc-record-found.png)
 
-1. 「**[!UICONTROL DNS レコード]**」セクションには、DNS サーバーに配置するレコードのリストが表示されます。 これらのレコードを 1 つずつコピーするか、CSV ファイルをダウンロードしてから、ドメインのホスティングソリューションに移動して、一致する DNS レコードを生成します。
+1. 「**[!UICONTROL DNS レコード]**」セクションには、DNS サーバーに配置するレコードのリストが表示されます。これらのレコードを 1 つずつコピーするか、CSV ファイルをダウンロードしてから、ドメインのホスティングソリューションに移動して、一致する DNS レコードを生成します。
 
 1. ドメインをホストするソリューションに、すべての DNS レコードが生成されていることを確認します。すべてが正しく設定されている場合は、「確認しました」チェックボックスをオンにします。
 
    ![](assets/subdomain-submit.png)
 
-1. **CNAME** を使用してサブドメインを設定する場合は、[ この節 ](#cname-subdomain-setup) に移動します。
+1. **CNAME** を使用してサブドメインを設定する場合は、[この節](#cname-subdomain-setup)を参照してください。
 
 1. 「**[!UICONTROL 送信]**」をクリックすると、アドビが必要なチェックを実行します。[詳細情報](#submit-subdomain)
 
@@ -147,42 +147,42 @@ ht-degree: 80%
 >title="検証レコードのコピー"
 >abstract="アドビは、検証レコードを生成します。CDN URL 検証用に、ホスティングプラットフォーム上に対応するレコードを作成する必要があります。"
 
-サブドメインを設定する場合、CNAME を使用してAdobe固有のレコードを指定できます。 この設定を使用すると、お客様とAdobeの両方が DNS の管理に対する責任を共有します。
+サブドメインを設定する際、CNAME を使用してアドビ固有のレコードを指すことができます。この設定では、お客様とアドビの両方が DNS の維持に対する責任を共有します。
 
 >[!CAUTION]
 >
->組織のポリシーで完全なサブドメインデリゲーションの方法が制限されている場合は、CNAME の方法をお勧めします。このアプローチでは、DNS レコードを独自に維持および管理する必要があります。
+>組織のポリシーで完全なサブドメインデリゲーションの方法が制限されている場合は、CNAME の方法をお勧めします。このアプローチでは、DNS レコードを自社で維持および管理する必要があります。
 >
 >アドビは、CNAME メソッドを使用して設定されたサブドメインの DNS の変更、維持または管理をサポートできなくなります。
 
 CNAME を使用してサブドメインを設定するには、次の手順に従います。
 
-1. [ この節 ](#set-up-subdomain) に記載されているすべての手順を実行します。
+1. [この節](#set-up-subdomain)に記載されているすべての手順を実行します。
 
-1. サブドメイン設定を送信する前に、もう 1 つの手順を完了する必要があります。「**[!UICONTROL 続行]**」をクリックします。 ご利用のホスティングソリューションでレコードがエラーなく生成されたことを、アドビが確認するまで待ちます。この処理には最大 2 分かかる場合があります。
+1. サブドメイン設定を送信する前に、もう 1 つの手順を完了する必要があります。「**[!UICONTROL 続行]**」をクリックします。ご利用のホスティングソリューションでレコードがエラーなく生成されたことを、アドビが確認するまで待ちます。この処理には最大 2 分かかる場合があります。
 
    >[!NOTE]
    >
-   >進む前に、すべてのレコードが適切に作成されていることを確認します。
+   >次に進む前に、すべてのレコードが適切に作成されていることを確認します。
 
 1. アドビは SSL CDN URL 検証レコードを生成します。この検証レコードをホスティングプラットフォームにコピーします。ホスティングソリューションでこのレコードを適切に作成している場合は、「確認しました」チェックボックスをオンにします。
 
 1. 「**[!UICONTROL 送信]**」をクリックすると、アドビが必要なチェックを実行します。[詳細情報](#submit-subdomain)
 
-➡️ [CNAME を使用してサブドメインを作成しアドビ固有のレコードを指すようにする方法については、このビデオをご覧ください](#video)
+➡️ [CNAME を使用してサブドメインを作成しアドビ固有のレコードを指すようにする方法については、このビデオを参照してください。](#video)
 
-## サブドメインの設定を送信 {#submit-subdomain}
+## サブドメイン設定の送信 {#submit-subdomain}
 
-サブドメインのデリゲーションを完了するには、次の手順に従います。
+サブドメインのデリゲーションを完了するには、以下の手順に従います。
 
 1. 「**[!UICONTROL 送信]**」をクリックします。
 
    >[!NOTE]
    >
-   >カスタムサブドメインの送信中にエラーが発生した場合は、[ この節 ](#check-list) を参照してください。
+   >カスタムサブドメインの送信中にエラーが発生した場合は、[この節](#check-list)を参照してください。
 
 
-1. 後から **[!UICONTROL ドラフトとして保存]** ボタンを使用してレコードを作成し、サブドメイン設定を送信できます。
+1. 後から「**[!UICONTROL ドラフトとして保存]**」ボタンを使用してレコードを作成し、サブドメイン設定を送信できます。
 
    >[!NOTE]
    >
@@ -196,7 +196,7 @@ CNAME を使用してサブドメインを設定するには、次の手順に�
 
    >[!NOTE]
    >
-   >進む前に、すべてのレコードが適切に作成されていることを確認します。
+   >次に進む前に、すべてのレコードが適切に作成されていることを確認します。
 
 ### サブドメインの検証 {#subdomain-validation}
 
@@ -230,7 +230,7 @@ CNAME を使用してサブドメインを設定するには、次の手順に�
 
 ホスティングソリューションで検証レコードを作成できなかった場合、サブドメインは「**[!UICONTROL 失敗]**」とマークされます。
 
-レコードを検証すると、Adobeによってサブドメインの PTR レコードが自動的に作成されます。 [詳細情報](ptr-records.md)
+レコードを検証すると、アドビはサブドメインの PTR レコードを自動的に作成します。[詳細情報](ptr-records.md)
 
 ## サブドメインのデリゲート解除 {#undelegate-subdomain}
 
@@ -273,4 +273,4 @@ CNAME を使用してサブドメインを設定するには、次の手順に�
 
 CNAME を使用してサブドメインを作成しアドビ固有のレコードを指すようにする方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/342236?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)

@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 5fd1cc3a-c023-4e8e-bfac-9a86bd33bbb3
 source-git-commit: 1f7fd3468d85852931c6a753c2363ebe5a293b33
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '577'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 86%
 >[!IMPORTANT]
 >
 >この機能の使用を開始する前に、関連する[ガードレールと制限](gs-generative.md#generative-guardrails)のトピックに目を通してください。
->&#x200B;></br>
+>></br>
 >
 >Journey Optimizer で AI アシスタントを使用する前に、[ユーザー契約](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)に同意する必要があります。詳しくは、アドビ担当者にお問い合わせください。
 
@@ -67,11 +67,11 @@ ht-degree: 86%
 
 1. 生成された&#x200B;**[!UICONTROL バリエーション]**&#x200B;を参照します。
 
-   **[!UICONTROL プレビュー]** をクリックして選択したバリエーションの全画面表示バージョンを表示するか、**[!UICONTROL 適用]** をクリックして現在のコンテンツを置き換えます。
+   「**[!UICONTROL プレビュー]**」をクリックして、選択したバリエーションの全画面バージョンを表示するか、「**[!UICONTROL 適用]**」をクリックして、現在のコンテンツを置き換えます。
 
-1. パーセンテージアイコンをクリックして **[!UICONTROL ブランドの整合性スコア]** を表示し、ブランドとの不一致を識別します。
+1. 「割合」アイコンをクリックして、**[!UICONTROL ブランド一致スコア]**&#x200B;を表示し、ブランドとの不一致を特定します。
 
-   詳しくは、[ ブランドの整合性スコア ](brands-score.md) を参照してください。
+   詳しくは、[ブランド一致スコア](brands-score.md)を参照してください。
 
    ![](assets/sms-genai-5.png){zoomable="yes"}
 
@@ -79,7 +79,7 @@ ht-degree: 86%
 
    * **[!UICONTROL 参照コンテンツとして使用]**：選択したバリアントは、他の結果を生成する参照コンテンツとして機能します。
 
-   * **[!UICONTROL フレーズ変更 &#x200B;]**:TheAI アシスタントは、さまざまな方法でメッセージをフレーズ変更できるので、多様なオーディエンスにとって魅力的で斬新な文章を維持できます。
+   * **[!UICONTROL 言い換え]**:The：AI アシスタントは、メッセージを様々な方法で言い換えることができ、ユーザーが作成した文章を、多様なオーディエンスを惹きつける新鮮なメッセージにします。
 
    * **[!UICONTROL よりシンプルな言葉を使用]**：AI アシスタントを活用して言葉を簡素化し、より幅広いオーディエンスに対して明確さとアクセシビリティを確保します。
 
@@ -87,7 +87,7 @@ ht-degree: 86%
 
    ![](assets/sms-genai-4.png){zoomable="yes"}
 
-1. 「**[!UICONTROL ブランドの関連付け]**」タブを開き、コンテンツが [ ブランドのガイドライン ](brands.md) にどのように関連付けられているかを確認します。
+1. 「**[!UICONTROL ブランド一致]**」タブを開いて、コンテンツが[ブランドガイドライン](brands.md)とどのように一致しているかを確認します。
 
 1. 適切なコンテンツが見つかったら、「**[!UICONTROL 選択]**」をクリックします。
 

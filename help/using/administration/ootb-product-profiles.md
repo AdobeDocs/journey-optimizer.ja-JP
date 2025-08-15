@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 権限, オーサリング, メッセージ
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1992'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -104,7 +104,7 @@ ht-degree: 78%
 |-|-|
 | Adobe Experience Platform | <ul> <li>**[!DNL Manage merge policies]**：結合ポリシーの読み取り、作成、編集、削除。</li> <li>**[!DNL Manage profiles]**：プロファイルの読み取り、作成、編集、削除。</li> <li>**[!DNL Manage segments]**：セグメント定義の読み取り、作成、編集、削除。</li> <li>**[!DNL View datasets]**：データセットへの読み取り専用アクセス。</li> <li>**[!DNL Read Identity namespace]**：ID 名前空間への読み取り専用アクセス。</li> <li>**[!DNL View schemas]**：スキーマへの読み取り専用アクセス。</li> <li>**[!DNL Sandbox]**：サンドボックスへのアクセスの許可。</li> </ul> |
 | チャネル設定 | <ul> <li>**[!DNL Manage alerts]**：ジャーニーおよび使用権限に関するアラートの有効化／無効化。</li> <li>**[!DNL Manage IP pools]**：IP プールの読み取り、作成、編集、削除。</li> <li>**[!DNL Manage Landing page settings]**：ランディングページのサブドメインとランディングページのプリセットの作成、編集、削除。</li> <li>**[!DNL Manage messages general settings]**：メッセージの一般設定の読み取り、作成、編集、削除。</li> <li>**[!DNL Manage messages presets]**：コンテンツのブランディングの読み取り、作成、編集、削除。</li> <li>**[!DNL Manage PTR records]**：PTR レコードの読み取りと編集。</li> <li>**[!DNL Manage SMS settings]**：SMS チャネルを有効にする必要な API 資格情報と SMS チャネル設定の作成、編集、削除。</li> <li>**[!DNL Manage subdomains delegation]**：サブドメインデリゲーションの読み取り、作成、編集、削除。</li> <li>**[!DNL Manage suppression rules]**：抑制ルールの読み取り、作成、編集、削除へのアクセス。</li> <li>**[!DNL View PTR records]**：PTR レコードへの読み取り専用アクセス。</li> <li>**[!DNL View suppression list]**：ローカル抑制リストの読み取り、書き出し。</li> </ul> |
-| データガバナンス | <ul> <li>**[!DNL Manage data usage policies]**：データ使用ポリシーの読み取り、作成、編集、削除。</li> <li>**[!DNL Manage usage label]**：使用ラベルの読み取り、作成、削除</li> <li>**[!DNL View data usage policies]**：データ使用ポリシーへの読み取り専用アクセス。</li> <li>**[!DNL View user activity log]**:Experience Platformのアクティビティを記録した監査ログを表示する読み取り専用アクセス。</li> </ul> |
+| データガバナンス | <ul> <li>**[!DNL Manage data usage policies]**：データ使用ポリシーの読み取り、作成、編集、削除。</li> <li>**[!DNL Manage usage label]**：使用ラベルの読み取り、作成、削除</li> <li>**[!DNL View data usage policies]**：データ使用ポリシーへの読み取り専用アクセス。</li> <li>**[!DNL View user activity log]**：Experience Platform のアクティビティを記録した監査ログを表示する読み取り専用アクセス。</li> </ul> |
 | 意思決定管理 | <ul> <li>**[!DNL Manage decisions]**：決定の読み取り、作成、編集、削除。</li> <li>**[!DNL Manage ranking strategies]**：ランキング戦略を読み取り、作成、編集および削除します。</li> </ul> |
 | ジャーニー | <ul> <li>**[!DNL Manage journeys]**：ジャーニーの読み取り、作成、編集、削除。</li> <li>**[!DNL Manage journeys events, data sources and actions]**：イベント、ソース、アクションの読み取り、作成、編集、削除。</li> <li>**[!DNL Publish journeys]**：ジャーニーの公開。</li> <li>**[!DNL View journeys report]**：ジャーニーレポートの読み取り、編集。</li> </ul> |
 | Journey Optimizer ライブラリ | <ul> <li>**[!DNL Manage Library Items]**：[!DNL Journey Optimizer] ライブラリ内の保存済み式の追加、削除。</li> </ul> |
@@ -150,59 +150,59 @@ ht-degree: 78%
 
 ## [!DNL Orchestrated Campaign Administrators] {#orchestrated-campaign-administrator}
 
-**[!DNL Orchestrated Campaign Administrator]** の役割を使用すると、管理メニューでオーケストレーションされたキャンペーンを管理および公開できます。
+**[!DNL Orchestrated Campaign Administrator]** の役割を持つユーザーは、管理メニューで調整されたキャンペーンを管理および公開できます。
 
 この役割には、次の権限が含まれます。
 
 | リソース | 権限 |
 |-|-|
-| Adobe Experience Platform | <ul> <li>**[!DNL Enable AI Assistant]**:AI を活用したキャンペーンおよびオーディエンス機能を有効にする、または AI を利用したキャンペーンおよびオーディエンス機能にアクセスする。</li> <li>**[!DNL Manage merge policies]**：結合ポリシーの読み取り、作成、編集、削除。</li> <li>**[!DNL Manage profiles]**：プロファイルの読み取り、作成、編集、削除。</li> <li>**[!DNL Manage segments]**：セグメント定義の読み取り、作成、編集、削除。</li> <li>**[!DNL View datasets]**：データセットへの読み取り専用アクセス。</li> <li>**[!DNL Read Identity namespace]**：ID 名前空間への読み取り専用アクセス。</li> <li>**[!DNL View schemas]**：スキーマへの読み取り専用アクセス。</li> <li>**[!DNL Sandbox]**：サンドボックスへのアクセスの許可。</li> <li>**[!DNL View operational insights]**：システムレベルのインサイトおよび監視ダッシュボードへの読み取り専用アクセス。</li></ul> |
+| Adobe Experience Platform | <ul> <li>**[!DNL Enable AI Assistant]**：AI を活用したキャンペーンおよびオーディエンス機能の有効化またはアクセス。</li> <li>**[!DNL Manage merge policies]**：結合ポリシーの読み取り、作成、編集、削除。</li> <li>**[!DNL Manage profiles]**：プロファイルの読み取り、作成、編集、削除。</li> <li>**[!DNL Manage segments]**：セグメント定義の読み取り、作成、編集、削除。</li> <li>**[!DNL View datasets]**：データセットへの読み取り専用アクセス。</li> <li>**[!DNL Read Identity namespace]**：ID 名前空間への読み取り専用アクセス。</li> <li>**[!DNL View schemas]**：スキーマへの読み取り専用アクセス。</li> <li>**[!DNL Sandbox]**：サンドボックスへのアクセスの許可。</li> <li>**[!DNL View operational insights]**：システムレベルのインサイトおよび監視ダッシュボードへの読み取り専用アクセス。</li></ul> |
 | チャネル設定 | <ul><li>**[!DNL Export suppression list]**：抑制リストを CSV ファイルとして書き出すためのアクセス権。</li> <li>**[!DNL Manage alerts]**：キャンペーン、メッセージ、権限に関するアラートの有効化／無効化。</li> <li>**[!DNL Manage custom dashboards]**：カスタムダッシュボードの読み取り、作成、編集、削除。</li><li>**[!DNL Manage IP pools]**：IP プールの読み取り、作成、編集、削除。</li> <li>**[!DNL Manage landing page settings]**：ランディングページ設定の読み取り、作成、編集、削除。</li> <li>**[!DNL Manage messages general settings]**：メッセージの一般設定の読み取り、作成、編集、削除。</li> <li>**[!DNL Manage messages presets]**：コンテンツのブランディングの読み取り、作成、編集、削除。</li><li>**[!DNL Manage PTR records]**：PTR レコードの読み取りと編集。</li> <li>**[!DNL Manage SMS settings]**：SMS 設定の読み取り、作成、編集、削除。</li> <li>**[!DNL Manage subdomains delegation]**：サブドメインデリゲーションの読み取り、作成、編集、削除。</li> <li>**[!DNL Manage suppression rules]**：抑制ルールの読み取り、作成、編集、削除へのアクセス。</li> <li>**[!DNL View PTR records]**：PTR レコードへの読み取り専用アクセス。</li> <li>**[!DNL View suppression list]**：ローカル抑制リストの読み取り、書き出し。</li> </ul> |
 | ダッシュボード | <ul> <li>**[!DNL Manage standard dashboard]**：ウィジェットライブラリを使用したカスタムウィジェットおよびウィジェットスキーマの読み取り、作成、編集、削除。</li> </ul> |
-| データガバナンス | <ul> <li>**[!DNL View user activity log]**:Experience Platform アクティビティを記録した監査ログを表示する読み取り専用アクセス。 </li> </ul> |
+| データガバナンス | <ul> <li>**[!DNL View user activity log]**：Experience Platform のアクティビティを記録した監査ログを表示する読み取り専用アクセス。 </li> </ul> |
 | データ取り込み | <ul> <li>**[!DNL Manage sources]**：ソースの読み取り、作成、編集、無効化。</li> </ul> |
 | データ管理 | <ul> <li>**[!DNL Manage datasets]**：データセットの読み取り、作成、編集、削除。</li> </ul> |
-| データモデリング | <ul> <li>**[!DNL Manage schemas]**：スキーマおよび関連リソースの読み取り、作成、編集、削除。</li> </ul> |
+| データモデリング | <ul> <li>**[!DNL Manage schemas]**：スキーマと関連リソースの読み取り、作成、編集、削除。</li> </ul> |
 | 意思決定管理 | <ul><li>**[!DNL Manage decisions]**：決定の読み取り、作成、編集、削除。</li><li>**[!DNL Manage ranking strategies]**：ランキング戦略を読み取り、作成、編集および削除します。</li></ul> |
 | Journey Optimizer ルール | <ul> <li>**[!DNL View frequency rules]**：頻度ルールへの読み取り専用アクセス。</li><li>**[!DNL Manage frequency rules]**：頻度ルールの読み取り、作成、編集、削除。</li> </ul> |
-| メッセージ | <ul><li> **[!DNL Manage Messages]**：メッセージの読み取り、作成、編集、削除。 </li> **[!DNL Manage Messages Preview and Test]**：ポリシーが適用されると、メッセージを承認して公開します。</li><li>**[!DNL Publish Messages]**：メッセージの公開。 </li><li>**[!DNL View Messages Report]**：メッセージレポートの読み取り、編集。 <li></ul> |
-| 調整されたキャンペーン | <ul><li> **[!DNL Manage orchestrated campaigns]**：オーケストレートキャンペーンの読み取り、作成、編集、削除。</li> <li>**[!DNL Manage orchestrated campaigns admin]**:Adobe Experience Platform プロファイルとリレーショナルストアエンティティ間のリンクと紐付けを読み取り、作成、編集、削除する。</li><li>**[!DNL Publish orchestrated campaigns]**：調整されたキャンペーンを公開します。</li><li>**[!DNL View orchestrated campaigns report]**：オーケストレーションされたキャンペーンレポートの読み取りおよび編集。</li></ul> |
+| メッセージ | <ul><li> **[!DNL Manage Messages]**：メッセージの読み取り、作成、編集、削除。 </li> **[!DNL Manage Messages Preview and Test]**：ポリシーが適用された際のメッセージの承認、公開。</li><li>**[!DNL Publish Messages]**：メッセージの公開。 </li><li>**[!DNL View Messages Report]**：メッセージレポートの読み取り、編集。 <li></ul> |
+| 調整されたキャンペーン | <ul><li> **[!DNL Manage orchestrated campaigns]**：調整されたキャンペーンの読み取り、作成、編集、削除。</li> <li>**[!DNL Manage orchestrated campaigns admin]**：Adobe Experience Platform プロファイルとリレーショナルストアエンティティ間のリンクと紐付けの読み取り、作成、編集、削除。</li><li>**[!DNL Publish orchestrated campaigns]**：調整されたキャンペーンの公開。</li><li>**[!DNL View orchestrated campaigns report]**：調整されたキャンペーンレポートの読み取り、編集。</li></ul> |
 
 ## [!DNL Orchestrated Campaign Approver] {#orchestrated-campaign-approver}
 
-**[!DNL Orchestrated Campaign Approver]** の役割を持つユーザーは、オーケストレーションされたキャンペーンを公開できます。
+**[!DNL Orchestrated Campaign Approver]** の役割を持つユーザーは、調整されたキャンペーンを公開できます。
 
 | リソース | 権限 |
 |-|-|
-| Adobe Experience Platform | <ul> <li>**[!DNL Manage segments]**：セグメント定義の読み取り、作成、編集、削除。</li> <li>**[!DNL Manage profiles]**：プロファイルの読み取り、作成、編集、削除。</li> <li>**[!DNL View datasets]**：データセットへの読み取り専用アクセス。</li> <li>**[!DNL View schemas]**：スキーマへの読み取り専用アクセス</li> <li>**[!DNL Manage merge policies]**：結合ポリシーの読み取り、作成、編集、削除。</li> <li>**[!DNL Enable AI Assistant]**:AI を活用したキャンペーンおよびオーディエンス機能を有効にする、または AI を利用したキャンペーンおよびオーディエンス機能にアクセスする。</li>  <li>**[!DNL View operational insights]**：システムレベルのインサイトおよび監視ダッシュボードへの読み取り専用アクセス。</li></ul> |
+| Adobe Experience Platform | <ul> <li>**[!DNL Manage segments]**：セグメント定義の読み取り、作成、編集、削除。</li> <li>**[!DNL Manage profiles]**：プロファイルの読み取り、作成、編集、削除。</li> <li>**[!DNL View datasets]**：データセットへの読み取り専用アクセス。</li> <li>**[!DNL View schemas]**：スキーマへの読み取り専用アクセス</li> <li>**[!DNL Manage merge policies]**：結合ポリシーの読み取り、作成、編集、削除。</li> <li>**[!DNL Enable AI Assistant]**：AI を活用したキャンペーンおよびオーディエンス機能の有効化またはアクセス。</li>  <li>**[!DNL View operational insights]**：システムレベルのインサイトおよび監視ダッシュボードへの読み取り専用アクセス。</li></ul> |
 | チャネル設定 | <ul><li>**[!DNL View messages presets]**：メッセージプリセットへの読み取り専用アクセス。</li> <li>**[!DNL Manage custom dashboards]**：カスタムダッシュボードの作成、編集、削除。</li></ul> |
 | ダッシュボード | <ul> <li>**[!DNL Manage standard dashboard]**：ウィジェットライブラリを使用したカスタムウィジェットおよびウィジェットスキーマの読み取り、作成、編集、削除。</li> </ul> |
-| データガバナンス | <ul> <li>**[!DNL View user activity log]**:Experience Platform アクティビティを記録した監査ログを表示する読み取り専用アクセス。</li> </ul> |
+| データガバナンス | <ul> <li>**[!DNL View user activity log]**：Experience Platform のアクティビティを記録した監査ログを表示する読み取り専用アクセス。</li> </ul> |
 | 意思決定管理 | <ul><li>**[!DNL Manage decisions]**：決定エンティティの読み取り、作成、編集、削除を行う。</li><li>**[!DNL Manage ranking strategies]**：カスタムメッセージレポートの読み取り、作成、編集、削除を行い、アクション機能を使用する。</li></ul> |
 | Journey Optimizer ルール | <ul> <li>**[!DNL View frequency rules]**：頻度ルールへの読み取り専用アクセス。</li></ul> |
-| メッセージ | <ul><li> **[!DNL Manage Messages]**：メッセージの読み取り、作成、編集、削除。 </li> **[!DNL Manage Messages Preview and Test]**：ポリシーが適用されると、メッセージを承認して公開します。</li><li>**[!DNL Publish Messages]**：メッセージの公開。 </li><li>**[!DNL View Messages Report]**：メッセージレポートの読み取り、編集。 <li></ul> |
-| 調整されたキャンペーン | <ul><li>**[!DNL Manage orchestrated campaigns]**：オーケストレートキャンペーンの読み取り、作成、編集、削除。</li><li>**[!DNL Publish orchestrated campaigns]**：調整されたキャンペーンを公開します。</li><li>**[!DNL View orchestrated campaigns admin]**:Adobe Experience Platform プロファイルとリレーショナルストアエンティティ間のリンクおよび紐付けへの読み取り専用アクセス。</li><li>**[!DNL View orchestrated campaigns report]**：調整されたキャンペーンレポートの読み取り、編集。</li></ul> |
+| メッセージ | <ul><li> **[!DNL Manage Messages]**：メッセージの読み取り、作成、編集、削除。 </li> **[!DNL Manage Messages Preview and Test]**：ポリシーが適用された際のメッセージの承認、公開。</li><li>**[!DNL Publish Messages]**：メッセージの公開。 </li><li>**[!DNL View Messages Report]**：メッセージレポートの読み取り、編集。 <li></ul> |
+| 調整されたキャンペーン | <ul><li>**[!DNL Manage orchestrated campaigns]**：調整されたキャンペーンの読み取り、作成、編集、削除。</li><li>**[!DNL Publish orchestrated campaigns]**：調整されたキャンペーンの公開。</li><li>**[!DNL View orchestrated campaigns admin]**：Adobe Experience Platform プロファイルとリレーショナルストアエンティティ間のリンクと紐付けへの読み取り専用アクセス。</li><li>**[!DNL View orchestrated campaigns report]**：調整されたキャンペーンレポートの読み取り、編集。</li></ul> |
 
 ## [!DNL Orchestrated Campaign Manager] {#orchestrated-campaign-manager}
 
-**[!DNL Orchestrated Campaign Manager]** の役割を持つユーザーは、**[!UICONTROL オーケストレートキャンペーン]** と、**[!UICONTROL オーケストレートキャンペーン]** にリンクされたすべての機能を作成および編集できますが、公開はできません。
+**[!DNL Orchestrated Campaign Manager]** の役割を持つユーザーは、**[!UICONTROL 調整されたキャンペーン]**、および&#x200B;**[!UICONTROL 調整されたキャンペーン]**&#x200B;にリンクされたすべての機能を作成および編集できますが、公開はできません。
 
 この役割には、次の権限が含まれます。
 
 | リソース | 権限 |
 |-|-|
-| Adobe Experience Platform | <ul><li>**[!DNL Enable AI Assistant]**:AI を活用したキャンペーンおよびオーディエンス機能を有効にする、または AI を利用したキャンペーンおよびオーディエンス機能にアクセスする。</li> <li>**[!DNL Manage merge policies]**：結合ポリシーの読み取り、作成、編集、削除。</li><li>**[!DNL Manage profiles]**：プロファイルの読み取り、作成、編集、削除。</li><li> **[!DNL Manage segments]**：セグメント定義の読み取り、作成、編集、削除。</li><li>**[!DNL View datasets]**：データセットへの読み取り専用アクセス。</li>  <li>**[!DNL View operational insights]**：システムレベルのインサイトおよび監視ダッシュボードへの読み取り専用アクセス。</li><li>**[!DNL View schemas]**：スキーマへの読み取り専用アクセス。</li></ul> |
+| Adobe Experience Platform | <ul><li>**[!DNL Enable AI Assistant]**：AI を活用したキャンペーンおよびオーディエンス機能の有効化またはアクセス。</li> <li>**[!DNL Manage merge policies]**：結合ポリシーの読み取り、作成、編集、削除。</li><li>**[!DNL Manage profiles]**：プロファイルの読み取り、作成、編集、削除。</li><li> **[!DNL Manage segments]**：セグメント定義の読み取り、作成、編集、削除。</li><li>**[!DNL View datasets]**：データセットへの読み取り専用アクセス。</li>  <li>**[!DNL View operational insights]**：システムレベルのインサイトおよび監視ダッシュボードへの読み取り専用アクセス。</li><li>**[!DNL View schemas]**：スキーマへの読み取り専用アクセス。</li></ul> |
 | チャネル設定 | <ul><li>**[!DNL Manage custom dashboards]**：カスタムダッシュボードの作成、編集、削除。</li><li>**[!DNL View messages presets]**：メッセージプリセットへの読み取り専用アクセス。</li></ul> |
 | ダッシュボード | <ul> <li>**[!DNL Manage standard dashboard]**：ウィジェットライブラリを使用したカスタムウィジェットおよびウィジェットスキーマの読み取り、作成、編集、削除。</li> </ul> |
-| データガバナンス | <ul> <li>**[!DNL View user activity log]**:Experience Platform アクティビティを記録した監査ログを表示する読み取り専用アクセス。</li> </ul> |
+| データガバナンス | <ul> <li>**[!DNL View user activity log]**：Experience Platform のアクティビティを記録した監査ログを表示する読み取り専用アクセス。</li> </ul> |
 | 意思決定管理 | <ul><li>**[!DNL Manage decisions]**：決定エンティティの読み取り、作成、編集、削除を行う。</li><li>**[!DNL Manage ranking strategies]**：カスタムメッセージレポートの読み取り、作成、編集、削除を行い、アクション機能を使用する。</li></ul> |
 | Journey Optimizer ルール | <ul> <li>**[!DNL View frequency rules]**：頻度ルールへの読み取り専用アクセス。 </li></ul> |
-| メッセージ | <ul><li> **[!DNL Manage Messages]**：メッセージの読み取り、作成、編集、削除。 </li> **[!DNL Manage Messages Preview and Test]**：ポリシーが適用されると、メッセージを承認して公開します。</li><li>**[!DNL View Messages Report]**：メッセージレポートの読み取り、編集。 </li></ul> |
-| 調整されたキャンペーン | <ul><li>**[!DNL Manage orchestrated campaigns]**：オーケストレートキャンペーンの読み取り、作成、編集、削除。</li><li>**[!DNL View orchestrated campaigns report]**：オーケストレートキャンペーンの読み取り、編集。</li><li>**[!DNL View orchestrated campaigns admin]**:Adobe Experience Platform プロファイルとリレーショナルストアエンティティ間のリンクおよび紐付けへの読み取り専用アクセス。</li></ul> |
+| メッセージ | <ul><li> **[!DNL Manage Messages]**：メッセージの読み取り、作成、編集、削除。 </li> **[!DNL Manage Messages Preview and Test]**：ポリシーが適用された際のメッセージの承認、公開。</li><li>**[!DNL View Messages Report]**：メッセージレポートの読み取り、編集。 </li></ul> |
+| 調整されたキャンペーン | <ul><li>**[!DNL Manage orchestrated campaigns]**：調整されたキャンペーンの読み取り、作成、編集、削除。</li><li>**[!DNL View orchestrated campaigns report]**：調整されたキャンペーンの読み取り、編集。</li><li>**[!DNL View orchestrated campaigns admin]**：Adobe Experience Platform プロファイルとリレーショナルストアエンティティ間のリンクと紐付けへの読み取り専用アクセス。</li></ul> |
 
 ## [!DNL Orchestrated Campaign Viewer] {#orchestrated-campaign-viewer}
 
-**[!DNL Campaign Viewer]** の役割を持つユーザーは、（オーケストレーションされたキャンペーン **[!UICONTROL 機能に読み取り専用でアクセスでき]** す。
+**[!DNL Campaign Viewer]** の役割では、**[!UICONTROL 調整されたキャンペーン]**&#x200B;の機能に読み取り専用でアクセスできます。
 
 この役割に割り当てられたユーザーは、編集または公開はできません。
 
@@ -210,13 +210,13 @@ ht-degree: 78%
 
 | リソース | 権限 |
 |-|-|
-| Adobe Experience Platform | <ul><li>**[!DNL Enable AI Assistant]**:AI を活用したキャンペーンおよびオーディエンス機能を有効にする、または AI を利用したキャンペーンおよびオーディエンス機能にアクセスする。</li> <li>**[!DNL View operational insights]**：システムレベルのインサイトおよび監視ダッシュボードへの読み取り専用アクセス。</li></ul> |
+| Adobe Experience Platform | <ul><li>**[!DNL Enable AI Assistant]**：AI を活用したキャンペーンおよびオーディエンス機能の有効化またはアクセス。</li> <li>**[!DNL View operational insights]**：システムレベルのインサイトおよび監視ダッシュボードへの読み取り専用アクセス。</li></ul> |
 | チャネル設定 | <ul><li>**[!DNL Manage custom dashboards]**：カスタムダッシュボードの作成、編集、削除。</li></ul> |
 | ダッシュボード | <ul> <li>**[!DNL Manage standard dashboard]**：ウィジェットライブラリを使用したカスタムウィジェットおよびウィジェットスキーマの読み取り、作成、編集、削除。</li> </ul> |
-| データガバナンス | <ul> <li>**[!DNL View user activity log]**:Experience Platform アクティビティを記録した監査ログを表示する読み取り専用アクセス。</li> </ul> |
+| データガバナンス | <ul> <li>**[!DNL View user activity log]**：Experience Platform のアクティビティを記録した監査ログを表示する読み取り専用アクセス。</li> </ul> |
 | 意思決定管理 | <ul><li>**[!DNL View decisions]**：決定エンティティへの読み取り専用アクセス。</li></ul> |
 | Journey Optimizer ルール | <ul> <li>**[!DNL View frequency rules]**：頻度ルールへの読み取り専用アクセス。</li></ul> |
-| 調整されたキャンペーン | <ul><li>**[!DNL View orchestrated campaigns]**：オーケストレートキャンペーンへの読み取り専用アクセス。</li><li>**[!DNL View orchestrated campaigns report]**：オーケストレーションされたキャンペーンレポートへの読み取り専用アクセス。</li></ul> |
+| 調整されたキャンペーン | <ul><li>**[!DNL View orchestrated campaigns]**：調整されたキャンペーンへの読み取り専用アクセス。</li><li>**[!DNL View orchestrated campaigns report]**：調整されたキャンペーンレポートへの読み取り専用アクセス。</li></ul> |
 
 
 

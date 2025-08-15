@@ -8,9 +8,9 @@ level: Beginner
 keywords: アプリ内, メッセージ, デザイン, 書式設定
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
 source-git-commit: 61a30dcc93823dc5e8b647e683bfa2ebf5bfa01b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1222'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -241,19 +241,19 @@ ht-degree: 94%
 
 ## 「データ」タブ {#data-tab}
 
-「**データ**」タブから、**[!UICONTROL &#x200B; キー &#x200B;]**&#x200B;および **[!UICONTROL 値]** を定義して、ペイロードにカスタム変数を含めることができます。 これらのキーと値のペアを使用すると、特定の設定に応じて、追加のデータを渡すことができます。
+「**データ**」タブから、**[!UICONTROL キー]** と&#x200B;**[!UICONTROL 値]**&#x200B;を定義して、ペイロードにカスタム変数を含めることができます。これらのキーと値のペアを使用すると、特定の設定に応じて、追加のデータを渡すことができます。
 
-詳しくは、[ 開発者向けドキュメント ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/in-app-message/tutorials/messaging-metadata/) を参照してください。
+詳しくは、[開発者用ドキュメント](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/in-app-message/tutorials/messaging-metadata/)を参照してください。
 
-1. 「**[!UICONTROL データ]**」タブで、「**[!UICONTROL キーと値のペアを追加]**」を選択します。
+1. 「**[!UICONTROL データ]**」タブから、「**[!UICONTROL キーと値のペアを追加]**」を選択します。
 
    ![](assets/in-app-data-menu.png)
 
-1. 「**[!UICONTROL &#x200B; キー &#x200B;]**&#x200B;」および「**[!UICONTROL 値]**」フィールドに入力します。
+1. 「**[!UICONTROL キー]**」フィールドと「**[!UICONTROL 値]**」フィールドに入力します。
 
    ![](assets/in-app-data-menu-1.png)
 
-1. ![](assets/do-not-localize/Smock_Delete_18_N.svg) をクリックして、必要なペアを削除します。
+1. 「![](assets/do-not-localize/Smock_Delete_18_N.svg)」をクリックして、必要なペアを削除します。
 
 **関連トピック：**
 

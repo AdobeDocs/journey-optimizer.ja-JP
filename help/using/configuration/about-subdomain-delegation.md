@@ -10,9 +10,9 @@ level: Experienced
 keywords: サブドメイン, Optimizer, デリゲーション
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
 source-git-commit: 7854de133ebcd3b29ca59b747aa89fae242f2ea5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '859'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -54,11 +54,11 @@ ht-degree: 88%
 
 ## サブドメインの設定方法 {#subdomain-delegation-methods}
 
-サブドメイン設定を使用すると、Adobe Campaignで使用するためにドメインのサブセクション（技術的には「DNS ゾーン」）を設定できます。
+サブドメイン設定を使用すると、Adobe Campaign で使用するドメインのサブセクション（技術的には「DNS ゾーン」）を設定できます。
 
-使用可能な設定方法は次のとおりです。
+利用できる設定メソッドを次に示します。
 
-### サブドメインをAdobeに完全にデリゲートする（推奨） {#full-subdomain-delegation}
+### サブドメインのアドビへの完全なデリゲート（推奨） {#full-subdomain-delegation}
 
 [!DNL Journey Optimizer] では、サブドメインを製品インターフェイスから直接アドビに、完全にデリゲートできます。アドビは、メールキャンペーンの配信、レンダリング、トラッキングに必要な DNS のあらゆる側面を制御および管理することで、メッセージをマネージドサービスとして提供できます。
 
@@ -70,7 +70,7 @@ ht-degree: 88%
 >
 >推奨される方法は、完全なサブドメインのデリゲーションです。
 
-サブドメインをAdobeに完全にデリゲートする方法については、[ この節 ](delegate-subdomain.md#set-up-subdomain) を参照してください。
+サブドメインをアドビに完全にデリゲートする方法について詳しくは、[この節](delegate-subdomain.md#set-up-subdomain)を参照してください。
 
 ### CNAME を使用したサブドメインの設定 {#cname-subdomain-setup}
 
@@ -80,11 +80,11 @@ CNAME サブドメイン設定では、サブドメインを作成し、CNAME �
 
 >[!CAUTION]
 >
->組織のポリシーで完全なサブドメインデリゲーションの方法が制限されている場合は、CNAME の方法をお勧めします。このアプローチでは、DNS レコードを独自に維持および管理する必要があります。
+>組織のポリシーで完全なサブドメインデリゲーションの方法が制限されている場合は、CNAME の方法をお勧めします。このアプローチでは、DNS レコードを自社で維持および管理する必要があります。
 >
 >アドビは、CNAME メソッドを使用して設定されたサブドメインの DNS の変更、維持または管理をサポートできなくなります。
 
-CNAME を使用してサブドメインを作成しAdobe固有のレコードを指すようにする方法については、[ この節 ](delegate-subdomain.md#cname-subdomain-setup) を参照してください。
+CNAME を使用してサブドメインを作成しアドビ固有のレコードを指すようにする方法について詳しくは、[この節](delegate-subdomain.md#cname-subdomain-setup)を参照してください。
 
 ## 設定方法の比較
 
@@ -104,6 +104,6 @@ CNAME を使用してサブドメインを作成しAdobe固有のレコードを
 
 ドメイン設定に関するその他の詳細情報については、[このドキュメント](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html?lang=ja){target="_blank"}を参照してください。
 
-サブドメインの設定方法について質問がある場合は、Adobeにお問い合わせいただくか、カスタマーケアに連絡して配信品質のコンサルティングを依頼してください。
+サブドメインの設定方法について質問がある場合は、アドビにお問い合わせいただくか、カスタマーケアに連絡して配信品質のコンサルティングを依頼してください。
 
 

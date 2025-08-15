@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3521'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 99%
 * [ダイレクトメール](#direct-mail-tab)
 
 >[!AVAILABILITY]
->調整されたキャンペーンは、SMS、メール、プッシュの各チャネルのみをサポートします。 その他のチャネル（アプリ内、web、ダイレクトメールなど）は、調整されたキャンペーンでは使用できず、レポートには表示されません。
+>調整されたキャンペーンでは、SMS、メール、プッシュの各チャネルのみがサポートされます。の他のチャネル（アプリ内、web、ダイレクトメールなど）は、調整されたキャンペーンでは使用できず、レポートには表示されません。
 
 キャンペーンの&#x200B;**[!UICONTROL ライブレポート]**&#x200B;は、キャンペーンの成功とエラーの詳細を示す様々なウィジェットに分かれています。必要に応じて、各ウィジェットのサイズを変更したり削除したりできます。詳しくは、この[節](../reports/live-report.md#modify-dashboard)を参照してください。
 

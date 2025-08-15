@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1069'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -103,7 +103,7 @@ Adobe Journey Optimizer を使用して、テキスト（SMS）、リッチ通�
 
 1. 「**[!UICONTROL メッセージ]**」フィールドをクリックして、パーソナライゼーションエディターを開きます。
 
-   Infobip、Twilio、またはその他のサードパーティプロバイダーを使用した RCS メッセージの場合は、必要な JSON ペイロードを [ カスタム SMS 設定 ](sms-configuration-custom.md#api-credential) に貼り付けます。
+   Infobip、Twilio またはその他のサードパーティプロバイダーを使用した RCS メッセージの場合は、必要な JSON ペイロードを[カスタム SMS 設定](sms-configuration-custom.md#api-credential)に貼り付けます。
 
    ![](assets/sms-content.png)
 

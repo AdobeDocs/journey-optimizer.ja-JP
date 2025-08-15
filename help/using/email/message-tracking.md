@@ -10,19 +10,19 @@ level: Beginner, Intermediate
 keywords: リンク, トラッキング, 監視, メール
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 source-git-commit: 65a6afddfbc53afb88c6e69449720ac67f8f8f39
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1274'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 # リンクの追加とメッセージのトラッキング {#tracking}
 
-[!DNL Journey Optimizer] を使用すると、受信者の行動を監視するために、コンテンツにリンクを追加し送信済みメッセージをトラッキングすることができます。
+[!DNL Journey Optimizer] を使用すると、受信者の行動を監視するのに、コンテンツにリンクを追加し送信済みメッセージをトラッキングすることができます。
 
 >[!NOTE]
 >
->リンクがコンテンツに含まれている場合、メッセージが送信されてから **25 か月** が期限切れになります。ただし、ミラーページへのリンクは **90 日** が経過すると期限切れになります。 その遅延が経過すると、リンクは使用できなくなります。
+>コンテンツにリンクが含まれている場合、その有効期限はメッセージの送信後 **25 か月**&#x200B;です。ただし、ミラーページへのリンクは **90 日**&#x200B;後に期限切れになります。遅延が経過すると、リンクは使用できなくなります。
 
 ## トラッキングの有効化 {#enable-tracking}
 
@@ -55,7 +55,7 @@ ht-degree: 92%
 
 >[!NOTE]
 >
->メールで使用されるフラグメントからのリンクもトラッキングされます。 [ フラグメントの詳細情報 ](../content-management/fragments.md)
+>メールで使用されるフラグメントからのリンクも追跡されます。[詳しくは、フラグメントを参照してください。](../content-management/fragments.md)
 
 メールコンテンツにリンクを挿入するには、次の手順に従います。
 
@@ -95,7 +95,7 @@ ht-degree: 92%
 >
 >マーケティングタイプの電子メールメッセージには、[オプトアウトリンク](../privacy/opt-out.md#opt-out-management)を含める必要があります。これはトランザクションメッセージには必要ありません。メッセージカテゴリ（**[!UICONTROL マーケティング]**&#x200B;または&#x200B;**[!UICONTROL トランザクション]**）は、メッセージの作成時に[チャネル設定](../configuration/channel-surfaces.md#email-type)に定義されます。
 
-メッセージが送信されると、リンクの保持期間は **25 か月** になります。 その遅延の後は、リンクは使用できなくなります。
+メッセージが送信されると、リンクは **25 か月**&#x200B;間保持されます。遅延が経過した後は、そのリンクを使用できなくなります。
 
 ## ミラーページへのリンク {#mirror-page}
 
@@ -183,7 +183,7 @@ Adobe Journey Optimizer で生成されるミラーページには、すべて�
 
 [URL トラッキング](email-settings.md#url-tracking)は設定レベルで管理され、メッセージコンテンツに含まれるすべての URL に適用されます。
 
-メールDesignerで個々の URL をパーソナライズすることもできます。 コンテンツ内の単一のリンクにパーソナライズした URL トラッキングパラメーターを追加するには、次の手順に従います。
+また、E メールデザイナーで個々の URL をパーソナライズすることもできます。コンテンツ内の単一のリンクにパーソナライズした URL トラッキングパラメーターを追加するには、次の手順に従います。
 
 1. リンクを選択し、コンテキストツールバーの「**[!UICONTROL リンクを挿入]**」をクリックします。
 
@@ -191,7 +191,7 @@ Adobe Journey Optimizer で生成されるミラーページには、すべて�
 
    ![](assets/message-tracking-insert-link-perso.png)
 
-1. URL トラッキングパラメーターを追加し、[ パーソナライゼーションエディター ](../personalization/personalization-build-expressions.md) から目的のプロファイル属性を選択します。
+1. URL トラッキングパラメーターを追加し、[パーソナライゼーションエディター](../personalization/personalization-build-expressions.md)から目的のプロファイル属性を選択します。
 
    ![](assets/message-tracking-perso-parameter.png)
 

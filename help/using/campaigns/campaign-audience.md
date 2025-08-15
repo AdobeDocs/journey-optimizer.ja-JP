@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: アクションキャンペーンオーディエンスの定義
-description: アクションキャンペーンオーディエンスを定義する方法を説明します。
+description: アクションキャンペーンオーディエンスの定義方法について説明します。
 feature: Campaigns
 topic: Content Management
 role: User
@@ -11,9 +11,9 @@ mini-toc-levels: 1
 keywords: 作成, Optimizer, キャンペーン, サーフェス, メッセージ
 exl-id: 5635ef04-c69d-4397-9762-7a6f1265d453
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '196'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -39,4 +39,4 @@ ht-degree: 83%
 
 ## 次の手順 {#next}
 
-アクションキャンペーンのオーディエンスの準備が整ったら、キャンペーンをスケジュールできます。 [詳細情報](campaign-schedule.md)
+アクションキャンペーンのオーディエンスの準備が整ったら、キャンペーンをスケジュールできます。[詳細情報](campaign-schedule.md)

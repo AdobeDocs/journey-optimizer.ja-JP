@@ -10,9 +10,9 @@ hidefromtoc: true
 badge: label="限定提供" type="Informative"
 exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
 source-git-commit: 5df643d2b0623d40779d155e406467d622d3d753
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1198'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -35,14 +35,14 @@ ht-degree: 87%
 
 詳しくは、[!DNL Journey Optimizer] インバウンドチャネルのキャンペーンとジャーニー #GuardrailsandGuidelines のカスタムアクションも参照してください。
 
-* **デフォルトのタイムアウト** - デフォルトでは、[!DNL Journey Optimizer] は外部エンドポイントの呼び出し時に 300 ミリ秒のタイムアウトを使用します。 エンドポイントのタイムアウトを増やすには、Adobe担当者にお問い合わせください。
-* **応答スキーマの参照と式の検証** - パーソナライゼーションエディターでは、式の挿入時にエンドポイント応答のスキーマを参照できません。 [!DNL Journey Optimizer] は、式で使用される応答からの JSON 属性への参照を検証しません。
-* **パラメーターでサポートされているデータタイプ** - externalDataLookup ヘルパーを使用して置き換えるペイロード変数パラメーターでサポートされているデータタイプは、`String`、`Integer`、`Decimal`、`Boolean`、`listString`、`listInt`、`listInteger`、`listDecimal` です。
-* **更新されたアクションの自動更新** - アクション設定に対する変更は、ライブキャンペーンおよびジャーニーの対応する externalDataLookup 呼び出しには反映されません。 変更を反映するには、externalDataLookup ヘルパーでアクションを使用しているライブキャンペーンやジャーニーをコピーまたは変更する必要があります。
-* **変数の置換** – 現時点では、externalDataLookup ヘルパーパラメーター内での変数の使用はサポートされていません。
-* **動的パス** – 現時点では、動的 URL パスはサポートされていません。
+* **デフォルトのタイムアウト** - デフォルトでは、外部エンドポイントを呼び出す際に、[!DNL Journey Optimizer] は 300 ミリ秒のタイムアウトを使用します。エンドポイントのこのタイムアウトを増やすには、アドビ担当者にお問い合わせください。
+* **応答スキーマの参照と式の検証** - パーソナライゼーションエディターでは、式の挿入時にエンドポイント応答のスキーマを参照することはできません。[!DNL Journey Optimizer] は、式で使用される応答の JSON 属性への参照を検証しません。
+* **パラメーターでサポートされるデータタイプ** - externalDataLookup ヘルパーを使用して置き換えられるペイロード変数パラメーターでサポートされるデータタイプは、`String`、`Integer`、`Decimal`、`Boolean`、`listString`、`listInt`、`listInteger`、`listDecimal` です。
+* **更新されたアクションの自動更新** - アクション設定に対する変更は、ライブキャンペーンおよびジャーニーの対応する externalDataLookup 呼び出しには反映されません。変更を反映するには、externalDataLookup ヘルパーでアクションを使用しているライブキャンペーンやジャーニーをコピーまたは変更する必要があります。
+* **変数の置き換え** - 現時点では、externalDataLookup ヘルパーパラメーター内での変数の使用はサポートされていません。
+* **動的パス** - 現時点では、動的 URL パスはサポートされていません。
 * **マルチパスレンダリング** - マルチパスレンダリングがサポートされています。
-* **認証** – 現時点では、アクション設定の認証オプションは、externalDataLookup ヘルパーではサポートされていません。 それまでの間、API キーベースの認証キーやその他のプレーンテキスト認証キーの場合は、アクション設定のヘッダーフィールドとして指定できます。
+* **認証** - 現時点では、アクション設定の認証オプションは、externalDataLookup ヘルパーではサポートされていません。それまでの間、API キーベースの認証キーやその他のプレーンテキスト認証キーの場合は、アクション設定のヘッダーフィールドとして指定できます。
 
 ## アクションの設定とヘルパーの使用
 
@@ -204,7 +204,7 @@ First video description: {%=result.videos[0].description ?: "none found" %}
 
 実行の詳細の一部として、Assurance トレースの「Edge Delivery」セクションに、以下のようなリクエストと応答の詳細を含む新しい customActions ブロックが追加されました。カスタムアクションの実行中に問題が発生した場合、「エラー」セクションはデバッグに役立ちます。
 
-![](assets/external-data-troubleshoot.png " 幅=50%")
+![](assets/external-data-troubleshoot.png "width=50%")
 
 ## よくある質問
 

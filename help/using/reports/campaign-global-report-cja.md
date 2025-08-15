@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: b74d3137-2dd9-4302-a56e-73503d318d18
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '519'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ KPI は、キャンペーンで使用されるチャネルによって異なり�
 +++
 
 >[!AVAILABILITY]
->調整されたキャンペーンは、SMS、メール、プッシュの各チャネルのみをサポートします。 その他のチャネル（アプリ内、web、ダイレクトメールなど）は、調整されたキャンペーンでは使用できず、レポートには表示されません。
+>調整されたキャンペーンでは、SMS、メール、プッシュの各チャネルのみがサポートされます。の他のチャネル（アプリ内、web、ダイレクトメールなど）は、調整されたキャンペーンでは使用できず、レポートには表示されません。
 
 ### キャンペーンの概要 {#delivery-global}
 
