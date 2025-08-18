@@ -314,7 +314,7 @@ ht-degree: 99%
 >[!NOTE]
 >
 >決定ポリシー項目のトラッキングの場合、決定ポリシーのコンテンツに対して次のように `trackingToken` 属性を追加する必要があります。
->>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 1. 各フォルダーをクリックして展開します。目的の場所にマウスのカーソルを置き、追加する属性の横にある「+」アイコンをクリックします。必要な数の属性をコードに追加できます。
 
