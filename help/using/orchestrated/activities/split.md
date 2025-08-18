@@ -7,7 +7,7 @@ exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '801'
-ht-degree: 85%
+ht-degree: 88%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 85%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_filter"
 >title="分割アクティビティのフィルター"
->abstract="サブセットにフィルター条件を適用するには、「**[!UICONTROL フィルターを作成]**」をクリックし、ルールビルダーを使用して目的のフィルタールールを設定します。 例えば、データベースにメールアドレスが存在する入力母集団のプロファイルを含めます。"
+>abstract="サブセットにフィルタリング条件を適用するには、「**[!UICONTROL フィルターを作成]**」をクリックし、ルールビルダーを使用して目的のフィルタリングルールを設定します。例えば、データベースにメールアドレスが存在する入力母集団のプロファイルを含めます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_limit"
