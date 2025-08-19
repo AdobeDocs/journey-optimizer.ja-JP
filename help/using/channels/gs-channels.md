@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
 source-git-commit: d2cdafef6f2d69ea85d9d042c859a8b1e7654d7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '521'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
@@ -27,41 +27,41 @@ Adobe Journey Optimizer には、オーディエンスと効果的にエンゲ�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 メールチャネル
 
-パーソナライゼーション、配信品質、コンプライアンスのベストプラクティスなど、メールキャンペーンを作成、設定および最適化する方法を説明します。
+パーソナライゼーション、配信品質、コンプライアンスのベストプラクティスなど、メールキャンペーンを作成、設定、最適化する方法について説明します。
 
-[メールチャネルの詳細情報](../../rp_landing_pages/email-landing-page.md)
+[詳しくは、メールチャネルを参照してください。](../../rp_landing_pages/email-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 プッシュ通知チャネル
 
-サイレント通知や迅速配信モードなどの高度なオプションを含む、iOSおよびAndroidのプッシュ通知を作成、設定および送信する方法について説明します。
+サイレント通知や迅速配信モードなどの高度なオプションを含む、iOS および Android のプッシュ通知を作成、設定、送信する方法について説明します。
 
-[プッシュ通知の詳細](../../rp_landing_pages/push-landing-page.md)
+[プッシュ通知の詳細情報](../../rp_landing_pages/push-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
 
-SMS/MMS/RCS メッセージ
+SMS／MMS／RCS メッセージ
 
 コンプライアンスやパーソナライゼーションなど、マーケティングおよびトランザクションの目的で、SMS、MMS、RCS メッセージを作成、管理、設定する方法について説明します。
 
-[SMS/MMS/RCS メッセージの詳細](../../rp_landing_pages/sms-landing-page.md)
+[詳しくは、SMS／MMS／RCS メッセージを参照してください。](../../rp_landing_pages/sms-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
 
 ダイレクトメールキャンペーン
 
-サードパーティプロバイダーの抽出ファイルの書き出しやユーザーの同意への準拠の確保など、ダイレクトメールキャンペーンの作成および管理方法について説明します。
+サードパーティプロバイダーの抽出ファイルのエクスポートやユーザーの同意への準拠の確保など、ダイレクトメールキャンペーンの作成および管理方法について説明します。
 
 [ダイレクトメールキャンペーンの詳細情報](../../rp_landing_pages/direct-mail-landing-page.md)
 :::
@@ -75,43 +75,43 @@ SMS/MMS/RCS メッセージ
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 アプリ内メッセージ
 
-モバイルおよび web プラットフォームのアプリ内通知を設定、設計およびパーソナライズして、アプリケーション内でオーディエンスを引き付ける方法を調べます。
+モバイルおよび web プラットフォームのアプリ内通知を設定、設計、パーソナライズして、アプリケーション内でオーディエンスをエンゲージする方法について説明します。
 
-[アプリ内メッセージの詳細を学ぶ](../../rp_landing_pages/in-app-landing-page.md)
+[詳しくは、アプリ内メッセージを参照してください。](../../rp_landing_pages/in-app-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 Web
 
 Web エクスペリエンスを作成、設定、パーソナライズし、web チャネルをアウトバウンドマーケティング戦略と統合する方法について説明します。
 
-[Web チャネルの詳細情報](../../rp_landing_pages/web-landing-page.md)
+[詳しくは、web チャネルを参照してください。](../../rp_landing_pages/web-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 コードベースのエクスペリエンス
 
-SDK と API を使用して、デジタルプラットフォーム全体でパーソナライズされたコンテンツを配信するコードベースのエクスペリエンスを掘り下げます。
+SDK と API を使用して、デジタルプラットフォーム全体でパーソナライズされたコンテンツを配信するコードベースのエクスペリエンスについて詳しく説明します。
 
-[コードベースのエクスペリエンスの詳細を学ぶ](../../rp_landing_pages/code-based-experience-landing-page.md)
+[コードベースのエクスペリエンスの詳細情報](../../rp_landing_pages/code-based-experience-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg)
 
 コンテンツカード
 
-モバイルアプリや web サイトで魅力的でパーソナライズされたメッセージを表示するコンテンツカードを設定、作成およびデザインする方法について説明します。
+モバイルアプリや web サイトで魅力的でパーソナライズされたメッセージに対するコンテンツカードを設定、作成、デザインする方法について説明します。
 
-[コードベースのエクスペリエンスの詳細を学ぶ](../../rp_landing_pages/content-card-landing-page.md)
+[コードベースのエクスペリエンスの詳細情報](../../rp_landing_pages/content-card-landing-page.md)
 :::
 
 ::::
@@ -119,8 +119,8 @@ SDK と API を使用して、デジタルプラットフォーム全体でパ�
 
 ## その他のリソース
 
-- **[WhatsApp Messaging](../../rp_landing_pages/whatsapp-landing-page.md)** - Meta の Cloud API を介して WhatsApp Messaging を統合および使用して、パーソナライズされた準拠した通信キャンペーンを行う方法を説明します。
-- **[LINE メッセージ](../../rp_landing_pages/line-landing-page.md)** - LINE メッセージを設定、作成およびパーソナライズして、キャンペーンやジャーニーで効果的に通信する方法を説明します。
+- **[WhatsApp Messaging](../../rp_landing_pages/whatsapp-landing-page.md)** - パーソナライズされた準拠した通信キャンペーンに対して、Meta の Cloud API を通じて WhatsApp Messaging を統合および使用する方法について説明します。
+- **[LINE メッセージ](../../rp_landing_pages/line-landing-page.md)** - キャンペーンやジャーニーで効果的な通信を実現する、LINE メッセージの設定、作成、パーソナライズ方法について説明します。
 
 ## ジャーニーとキャンペーンのチャネル {#leverage}
 

@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
 source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6783'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -630,7 +630,7 @@ ht-degree: 99%
 
 **ジャーニー**
 
-* **条件** アクティビティでは、デフォルトで **[!UICONTROL 時間条件]** が時間単位で 00:00 から 12:00 に設定されるようになりました。 [詳細情報](../building-journeys/condition-activity.md#time_condition)
+* **条件**&#x200B;アクティビティでは、デフォルトで、**[!UICONTROL 時間条件]**&#x200B;が 00:00 から 12:00 までの時間単位で設定されるようになりました。[詳細情報](../building-journeys/condition-activity.md#time_condition)
 * ジャーニーを作成する際に、「**アラート**」ボタンからアラートが表示されるようになり、他のアラートに合わせて一貫したユーザー エクスペリエンスを実現します。[詳細情報](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
 * ジャーニーツールバーのズームオプションが改善されました。ズームの割合が表示され、ズーム値をより簡単にリセットできるようになりました。
 
