@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5414f5a4c7bec643151f556375e0c58367d1c3bd
+source-git-commit: 6aac4c8aac9d1a7dbb3056b2e274927203ab6553
 workflow-type: tm+mt
-source-wordcount: '1749'
-ht-degree: 98%
+source-wordcount: '1759'
+ht-degree: 97%
 
 ---
 
@@ -153,8 +153,8 @@ ht-degree: 98%
 <tbody>
 <tr>
 <td>
-<p><!--Journey Optimizer now empowers you with the tools to optimize your journeys by leveraging AI and experimentation frameworks while ensuring seamless usability and differentiation between condition and optimization functionalities.--></p>
-<p>新しい最適化アクティビティを使用して、AI をターゲット、実験、使用し、通信のシーケンス、それらの間の時間、チャネルの組み合わせ、ジャーニーキャンバスで夢見ることができるものを決定します。</p>
+<p>新しい最適化ノードを使用して特定のオーディエンスをターゲット設定するか、A/B テストを実行して、ビジネス中心の KPI を満たすための最適なパスを決定します。</p>
+<p>このツールを使用すると、テストおよび変更を行い、コミュニケーション、シーケンス、タイミングをカスタマイズして、顧客に最適なリーチを行うことができます。</p>
 <p>この機能は、限定提供です。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
 <p><!--img src="assets/do-not-localize/optimize.gif"/>--></p>
 <p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
