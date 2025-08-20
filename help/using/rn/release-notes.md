@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: eefc6cd7804a14e289d2f1aa3a136f3e6215852c
 workflow-type: tm+mt
 source-wordcount: '1462'
 ht-degree: 77%
@@ -68,7 +68,7 @@ ht-degree: 77%
 <li>長期間実行されているカレンダー項目の表示と非表示を切り替える新しい設定。</li>
 </ul>
 <p><img src="assets/do-not-localize/calendar.gif"/></p>
-<p>詳しくは、<a href="../building-journeys/journey-ui.md#journeys-calendar">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../building-journeys/journey-ui.md#calendar">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
