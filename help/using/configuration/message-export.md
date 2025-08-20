@@ -15,11 +15,11 @@ exl-id: 7b50c933-9738-4b1b-acae-08f0a8d41dab
 source-git-commit: c62653af3c1eacaaf55dcf181d33f2253521e33d
 workflow-type: tm+mt
 source-wordcount: '509'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
-# メッセージコンテンツの書き出し {#message-export}
+# メッセージコンテンツのエクスポート {#message-export}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_msg_export"
@@ -38,7 +38,7 @@ ht-degree: 4%
 <!--
 ## Terminology
 
-* **[!DNL Experience Platform] destinations** - Framework to deliver data out of Experience Platform into external endpoints. [Learn more](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/home){target="_blank"}
+* **[!DNL Experience Platform] destinations** - Framework to deliver data out of Experience Platform into external endpoints. [Learn more](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home){target="_blank"}
 * **AJO Message Export Dataset** - An [!DNL Experience Platform] dataset which stores the message content of email and SMS messages sent via [!DNL Journey Optimizer] which have been marked for export.
 * **Retention**: Records in the AJO Message Export Dataset are retained for 3 calendar days from ingestion.-->
 
@@ -67,9 +67,9 @@ ht-degree: 4%
 >
 >この設定は、サンドボックスごとに設定する必要があります。
 
-1. Experience Platform[ 宛先タイプ ](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/destination-types){target="_blank"} を選択します。 データを受信する準備が整った、使用可能な宛先プラットフォームのリストは、[ このページ ](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/overview){target="_blank"} で入手できます。
+1. Experience Platform[ 宛先タイプ ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/destination-types){target="_blank"} を選択します。 データを受信する準備が整った、使用可能な宛先プラットフォームのリストは、[ このページ ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/overview){target="_blank"} で入手できます。
 
-1. [!DNL Experience Platform] では、資格情報、バケット/コンテナ、パスのプレフィックス、セキュリティオプションを定義して、宛先を設定します。 [詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
+1. [!DNL Experience Platform] では、資格情報、バケット/コンテナ、パスのプレフィックス、セキュリティオプションを定義して、宛先を設定します。 [詳細情報](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
 
 1. 次のデータを使用して、データセット書き出しフローを作成します。
 
