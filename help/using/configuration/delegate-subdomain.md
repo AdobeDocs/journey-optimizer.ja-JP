@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: サブドメイン, デリゲーション, ドメイン, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 142e56ce36389da5c2e28bbafa1a1bf59be50d74
-workflow-type: ht
-source-wordcount: '1906'
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+workflow-type: tm+mt
+source-wordcount: '1891'
 ht-degree: 100%
 
 ---
@@ -176,11 +176,10 @@ CNAME を使用してサブドメインを設定するには、次の手順に�
 サブドメインのデリゲーションを完了するには、以下の手順に従います。
 
 1. 「**[!UICONTROL 送信]**」をクリックします。
-
-   >[!NOTE]
-   >
-   >カスタムサブドメインの送信中にエラーが発生した場合は、[この節](#check-list)を参照してください。
-
+<!--
+    >[!NOTE]
+    >
+    >If an error occurs while trying to submit a custom subdomain, refer to [this section](delegate-custom-subdomain.md#check-list).-->
 
 1. 後から「**[!UICONTROL ドラフトとして保存]**」ボタンを使用してレコードを作成し、サブドメイン設定を送信できます。
 
@@ -273,4 +272,4 @@ CNAME を使用してサブドメインを設定するには、次の手順に�
 
 CNAME を使用してサブドメインを作成しアドビ固有のレコードを指すようにする方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/342236?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)

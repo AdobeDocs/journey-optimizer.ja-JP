@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d6f74566-c913-4727-83b9-473a798a0158
-source-git-commit: 604af3a0ac9febb62f2e2b1705e2751b2c476e04
-workflow-type: ht
-source-wordcount: '422'
-ht-degree: 100%
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+workflow-type: tm+mt
+source-wordcount: '471'
+ht-degree: 89%
 
 ---
 
@@ -39,6 +39,16 @@ Journey Optimizer に Twilio を設定するには、Twilio に使用する新�
 1. **[!UICONTROL API 資格情報]**&#x200B;メニューで、ごみ箱アイコンをクリックして、API 資格情報を削除します。
 
 1. 既存の資格情報を変更するには、目的の API 資格情報を見つけて、「**[!UICONTROL 編集]**」オプションをクリックして必要な変更を行います。
+
+1. 既存の API 資格情報から「**[!UICONTROL SMS 接続を検証]**」をクリックし、サンプルメッセージを指定されたデバイスに送信して SMS API 資格情報をテストおよび検証します。
+
+1. **番号** および **メッセージ** フィールドに入力し、**[!UICONTROL 接続を確認]** をクリックします。
+
+   >[!IMPORTANT]
+   >
+   >メッセージは、プロバイダーのペイロード形式に合わせて構造化する必要があります。
+
+   ![](assets/verify-connection.png)
 
 API 資格情報を作成して設定したら、SMS および MMS メッセージ用のチャネル設定を作成する必要があります。[詳細情報](sms-configuration-surface.md)
 

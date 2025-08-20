@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: キャンペーン, 方法, 開始, Optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 99%
+source-wordcount: '735'
+ht-degree: 94%
 
 ---
 
@@ -40,8 +40,8 @@ ht-degree: 99%
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_throttling"
->title="スロットルレートコントロール"
->abstract="スロットルレートコントロール"
+>title="レート制御"
+>abstract="目的のレート制限を指定して、キャンペーンのレートコントロールを設定します。 この機能は、ランディングページやカスタマーケアプラットフォームなどのダウンストリームシステムで過負荷が発生するのを防ぐために特に役立ちます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card3"

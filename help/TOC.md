@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9e76bfb65865ec7814493ad6e08834d367a9417a
-workflow-type: ht
-source-wordcount: '2881'
-ht-degree: 100%
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+workflow-type: tm+mt
+source-wordcount: '2887'
+ht-degree: 99%
 
 ---
 
@@ -312,6 +312,7 @@ ht-degree: 100%
             + [コンテンツを独自にコーディング](using/email/code-content.md)
             + [メールテンプレートを使用](using/email/use-email-templates.md)
             + [メールテーマの活用](using/email/apply-email-themes.md)
+            + [メールへのPDF ファイルの添付](using/email/pdf-attachments.md)
          + コンテンツのデザイン {#add-content}
             + [コンテンツのデザイン](/help/rp_landing_pages/add-content-landing-page.md)
             + [コンテンツコンポーネントの使用](using/email/content-components.md)

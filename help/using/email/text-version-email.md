@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: テキスト, メール, バージョン, プレーン, エディター
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
-source-git-commit: cd8ce89dd6ed9c60d41e9f83ccfb080bdb4a19f9
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 100%
@@ -28,7 +28,7 @@ HTML コンテンツを表示できない場合に使用するため、メール
 
    ![](assets/text_version_3.png)
 
-1. 「**[!UICONTROL HTML と同期]**」トグルで同期を無効にします。
+1. 「**[!UICONTROL HTML と同期]**」切替スイッチで同期を無効にします。
 
    ![](assets/text_version_1.png)
 

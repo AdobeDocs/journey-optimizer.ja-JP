@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 229fb3d120727b51e011d8056f8d914c7968f2d0
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '2495'
-ht-degree: 99%
+source-wordcount: '2745'
+ht-degree: 89%
 
 ---
 
@@ -301,7 +301,7 @@ ht-degree: 99%
 
    >[!NOTE]
    >
-   >コード挿入ボタンが表示されない場合は、親コンポーネントに対して決定ポリシーが既に設定されていることがあります。
+   >コード挿入ボタンが表示されない場合は、親コンポーネントに対して決定ポリシーが既に設定されている可能性があります。
 
 1. 決定ポリシーのコードが追加されます。このシーケンスは、決定ポリシーを返して欲しい回数だけ繰り返します。例えば、[決定を作成する](#add-decision)際に、2 つの項目を返すように選択した場合、同じシーケンスが 2 回繰り返されます。
 
@@ -314,7 +314,7 @@ ht-degree: 99%
 >[!NOTE]
 >
 >決定ポリシー項目のトラッキングの場合、決定ポリシーのコンテンツに対して次のように `trackingToken` 属性を追加する必要があります。
->&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 1. 各フォルダーをクリックして展開します。目的の場所にマウスのカーソルを置き、追加する属性の横にある「+」アイコンをクリックします。必要な数の属性をコードに追加できます。
 
@@ -327,6 +327,57 @@ ht-degree: 99%
 1. また、パーソナライゼーションエディターで使用できる他の属性（プロファイル属性など）を追加することもできます。
 
    ![](assets/decision-code-based-decision-profile-attribute.png)
+
+### フラグメントの活用 {#fragments}
+
+決定ポリシーにフラグメントを含む決定項目が含まれている場合、これらのフラグメントを決定ポリシーコードで活用できます。 [詳しくは、フラグメントを参照してください。](../content-management/fragments.md)
+
+>[!AVAILABILITY]
+>
+>この機能は現在、一連の組織でのみ使用できます（使用制限あり）。 詳しくは、アドビ担当者にお問い合わせください。
+
+例えば、複数のモバイルデバイスモデルに対して異なるコンテンツを表示するとします。 決定ポリシーで使用する決定項目に、これらのデバイスに対応するフラグメントが追加されていることを確認します。 [方法についてはこちらを参照してください](items.md#attributes)。
+
+![](assets/item-fragments.png){width=70%}
+
+完了したら、次のいずれかの方法を使用できます。
+
+>[!BEGINTABS]
+
+>[!TAB  コードを直接挿入する ]
+
+以下のコードブロックを決定ポリシーコードにコピー&amp;ペーストするだけです。 `variable` をフラグメント ID に、`placement` をフラグメント参照キーに置き換えます。
+
+```
+{% let variable =  get(item._experience.decisioning.offeritem.contentReferencesMap, "placement").id %}
+{{fragment id = variable}}
+```
+
+>[!TAB  詳細な手順に従う ]
+
+1. **[!UICONTROL ヘルパー関数]** に移動し、**Let** 関数 `{% let variable = expression %} {{variable}}` をコードペインに追加して、フラグメントの変数を宣言できます。
+
+   ![](assets/decision-let-function.png)
+
+1. **Map** > **Get** 関数 `{%= get(map, string) %}` を使用して、式を作成します。 マップは決定項目で参照されるフラグメントです。文字列は、**[!UICONTROL フラグメント参照キー]** として決定項目で入力したデバイスモデルにすることができます。
+
+   ![](assets/decision-map-function.png)
+
+1. また、このデバイスモデル ID を含むコンテキスト属性を使用することもできます。
+
+   ![](assets/decision-contextual-attribute.png)
+
+1. フラグメント用に選択した変数をフラグメント ID として追加します。
+
+   ![](assets/decision-fragment-id.png)
+
+>[!ENDTABS]
+
+フラグメント ID と参照キーは、決定項目の「**[!UICONTROL フラグメント]**」セクションから選択されます。
+
+>[!WARNING]
+>
+>フラグメントキーが正しくない場合や、フラグメントコンテンツが有効でない場合、レンダリングが失敗し、Edge呼び出しでエラーが発生します。
 
 ## 最終手順 {#final-steps}
 

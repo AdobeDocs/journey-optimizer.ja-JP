@@ -10,10 +10,10 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: 式, エディター, 説明, 開始
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: ht
-source-wordcount: '1536'
-ht-degree: 100%
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+workflow-type: tm+mt
+source-wordcount: '1560'
+ht-degree: 98%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 ![](assets/perso_ee1.png)
 
-## パーソナライゼーションを追加できる場所
+## パーソナライゼーションを追加できる場所 {#where}
 
 ![パーソナライゼーションを追加アイコン](assets/do-not-localize/add-perso-icon.svg) アイコンを使用して、すべてのフィールドの **[!DNL Journey Optimizer]** にパーソナライゼーションを追加できます。詳しくは、以下の節を展開してください。
 
@@ -76,6 +76,18 @@ Journey Optimizer では、メッセージ内の **URL** をパーソナライ�
 >パーソナライゼーションエディターでは、パーソナライズされた URL を編集する際、セキュリティ上の理由から、ヘルパー関数とオーディエンスメンバーシップが無効になります。
 >
 >スペースは、URL 内で使用されるパーソナライゼーショントークンではサポートされていません。
+
+限定提供（LA）では、Journey Optimizerは完全な/ベース URL のパーソナライゼーションもサポートします。 例：
+
+```
+<a href="{{profile.social.link}}" />
+<a href="{{profile.social.baseUrl}}/profile" />
+<a href="https://{{profile.social.baseUrl}}/profile" />
+```
+
+>[!WARNING]
+>
+>許可されたドメインのリストは、Adobeに事前に提供する必要があります。
 
 +++
 

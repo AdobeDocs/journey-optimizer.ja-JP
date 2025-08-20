@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: ht
-source-wordcount: '1032'
-ht-degree: 100%
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+workflow-type: tm+mt
+source-wordcount: '1081'
+ht-degree: 95%
 
 ---
 
@@ -85,6 +85,16 @@ ht-degree: 100%
 1. 既存の資格情報を変更するには、目的の API 資格情報を見つけて、「**[!UICONTROL 編集]**」オプションをクリックして必要な変更を行います。
 
    ![](assets/sms_byo_4.png)
+
+1. 既存の API 資格情報から「**[!UICONTROL SMS 接続を検証]**」をクリックし、サンプルメッセージを指定されたデバイスに送信して SMS API 資格情報をテストおよび検証します。
+
+1. **番号** および **メッセージ** フィールドに入力し、**[!UICONTROL 接続を確認]** をクリックします。
+
+   >[!IMPORTANT]
+   >
+   >メッセージは、プロバイダーのペイロード形式に合わせて構造化する必要があります。
+
+   ![](assets/verify-connection.png)
 
 API 資格情報を作成して設定した後、SMS メッセージの [Webhook のインバウンド設定](#webhook)を指定する必要があります。
 
@@ -185,7 +195,7 @@ API 資格情報が正常に作成されたら、次の手順では Webhook を�
 
 1. 「**[!UICONTROL ペイロードエディターを表示]**」をクリックして、リクエストペイロードを検証およびカスタマイズします。
 
-   プロファイル属性を使用してペイロードを動的にパーソナライズし、組み込みのヘルパー関数を使用して、処理と応答の生成のために正確なデータを確実に送信できます。
+   プロファイル属性を使用してペイロードを動的にパーソナライズし、ビルトインのヘルパー関数を使用して、処理と応答の生成のために正確なデータを確実に送信できます。
 
 1. Webhook の設定が完了したら、「**[!UICONTROL 送信]**」をクリックします。
 

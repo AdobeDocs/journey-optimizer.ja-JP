@@ -8,10 +8,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: プラットフォーム, データレイク, 作成, レイク, データセット, プロファイル
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: b27ddcc88ca4b4209c9d29974a0b0d0dbe98cc94
-workflow-type: ht
-source-wordcount: '678'
-ht-degree: 100%
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+workflow-type: tm+mt
+source-wordcount: '689'
+ht-degree: 91%
 
 ---
 
@@ -45,13 +45,14 @@ ht-degree: 100%
 | 決定オブジェクトリポジトリ - フォールバックオファー | 13 か月 | 該当なし |
 | 決定オブジェクトリポジトリ - プレースメント | 13 か月 | 該当なし |
 | 決定オブジェクトリポジトリ - アクティビティ | 13 か月 | 該当なし |
+| Experience Decisioning オブジェクトリポジトリ – パーソナライズされたオファー項目 | 13 か月 | 該当なし |
 | ODE DecisionEvents - 製品決定 | 13 か月 | 該当なし |
 
 ## よくある質問 {#faq}
 
 次に、データセット TLL に関するよくある質問への回答のリストを示します。
 
-+++この変更は、実稼動サンドボックスにのみ適用されますか？それとも開発サンドボックスにも適用されますか？
++++この変更は、本番サンドボックスにのみ適用されますか？それとも開発サンドボックスにも適用されますか？
 
 この変更は、すべてのサンドボックスタイプに適用されます。
 
@@ -63,13 +64,13 @@ ht-degree: 100%
 
 +++
 
-+++システム生成データセットのデータが [!DNL Customer Journey Analytics]（CJA）にプッシュされると、CJA のデータも TTL の影響を受けますか？
++++システム生成データセットデータが [!DNL Customer Journey Analytics] （CJA）にプッシュされると、CJAのデータも TTL の影響を受けますか？
 
 [!DNL Customer Journey Analytics] のデータは、Experience Platform と同期されます。したがって、システム生成データセットのデータの TTL によるデータの削除は、[!DNL Customer Journey Analytics] のデータにも影響します。
 
 +++
 
-+++ お客様は、プロファイルストアの [!DNL Journey Optimizer] システムデータセットデータの TTL を増やすことができますか？
++++ お客様は、プロファイルストアの [!DNL Journey Optimizer] システムデータセットデータの TTL を増やすことができますか？ 
 
 TTL 拡張機能は、現在サポートされていません。ただし、2025 年後半から、これらの拡張リクエストに対応できるように TTL プロセスを最適化する作業が予定されています。
 
@@ -79,17 +80,17 @@ TTL 拡張機能は、現在サポートされていません。ただし、2025
 
 +++
 
-+++お客様は、データレイクの [!DNL Journey Optimizer] システムデータセットデータの TTL を増やすことができますか？
++++お客様は、データレイクのシステムデータセットデータ [!DNL Journey Optimizer]TTL を増やすことができますか？ 
 
 TTL 拡張機能は、現在サポートされていません。お客様は、宛先を通じてデータをエクスポートし、データを長期間保持できます。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=ja){target=&quot;_blank}。さらに、**[!DNL Data Distiller]** 使用権限を持つお客様は、派生データセットを作成して、TTL なしでデータレイクにデータを保存できます。[詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=&quot;_blank}
 
 +++
 
-+++TTL は次の機能に影響を与えますか？
++++TTL は次の機能に影響を与えますか？ 
 
 * **ストアを参照**：いいえ
-* **ジャーニーのキャッピング**：いいえ
-* **オファーのキャッピング**：いいえ
+* **ジャーニーのキャップ**：いいえ
+* **オファーのキャップ**：いいえ
 * **送信時間の最適化（STO）**：いいえ
 * **メッセージのフリークエンシーキャップ**（ビジネスルールなど）：いいえ
 * **レポート**：いいえ
@@ -105,7 +106,7 @@ TTL 拡張機能は、現在サポートされていません。お客様は、�
 
 +++
 
-+++TTL の適用（バックフィルのユースケースなど）に使用されるタイムスタンプは何ですか？
++++TTL の適用にどのタイムスタンプが使用されますか（例：バックフィルのユースケース）? 
 
 イベントのタイムスタンプが使用されます（つまり、取り込み日ではありません）。
 

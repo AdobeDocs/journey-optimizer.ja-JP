@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: b1de82a4fdba58880e21b114ec3d2b9c3c81df0c
+source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
-source-wordcount: '1778'
-ht-degree: 99%
+source-wordcount: '1907'
+ht-degree: 93%
 
 ---
 
@@ -51,6 +51,24 @@ Journey Optimizer では、決定項目と呼ばれるマーケティングオ�
    >優先度は、整数データタイプです。整数データタイプであるすべての属性には、整数値（小数は含まない）を含める必要があります。
 
 1. 「**タグ**」フィールドを使用すると、Adobe Experience Platform 統合タグを決定項目に割り当てることができます。これにより、簡単に分類し、検索を改善できます。[タグの操作方法について詳しくは、こちらを参照してください](../start/search-filter-categorize.md#tags)
+
+1. フラグメントを使用して、決定項目に複数のコンテンツを追加します。例えば、複数のモバイルデバイスモデルに対して異なるコンテンツを表示する場合などに使用します。 [詳しくは、フラグメントを参照してください。](../content-management/fragments.md)
+
+   >[!AVAILABILITY]
+   >
+   >決定項目内のフラグメントは現在、一連の組織でのみ使用できます（使用制限あり）。 詳しくは、アドビ担当者にお問い合わせください。
+
+   「**[!UICONTROL フラグメント]**」セクションで、使用する公開済みフラグメントを選択し、参照キーを割り当てます。 その後、これらのフラグメントを決定ポリシーで活用できます。 [詳細情報](create-decision.md#fragments)
+
+   ![](assets/item-fragments.png){width=70%}
+
+   公開済みのフラグメントのみを選択し、決定項目に追加できるフラグメントは最大 6 個です。
+
+   >[!WARNING]
+   >
+   >現在、[ 式フラグメント ](../personalization/use-expression-fragments.md) のみがサポートされています。
+   >
+   >ネストされたフラグメント（他のフラグメントを参照するフラグメント）は使用できません。 このようなフラグメントを追加すると、決定項目の [ 承認 ](#approve) が失敗します。
 
 1. カスタム属性を指定します（オプション）。カスタム属性は、ニーズに合わせて調整された特定の属性で、決定項目に割り当てることができます。これらは、決定項目のカタログスキーマで定義されます。[カタログの操作方法を学ぶ](catalogs.md)
 
@@ -137,14 +155,16 @@ Journey Optimizer では、決定項目と呼ばれるマーケティングオ�
 
    ![](assets/item-capping-rules.png)
 
+<!--* Identifying how many times a given customer has been shown a decision item. 
+If a marketer wants to determine how many times a specific customer has been shown an offer, they can do that. Go to Profiles menu, Attributes tab. You'll see all counter values. The alphanumeric string is associated to the offer. To make the map, go to an item, in the URL check the last alphanumeric strings. D stands for day, w stands for week, m for month. "Ce" custom event-->
+
+## 決定項目のレビューと承認 {#approve}
+
 1. 決定項目の実施要件とキャップルールを定義したら、「**[!UICONTROL 次へ]**」をクリックして、項目を確認し保存します。
 
 1. 決定項目が&#x200B;**[!UICONTROL ドラフト]**&#x200B;ステータスでリストに表示されます。プロファイルに表示する準備ができたら、省略記号ボタンをクリックし、「**[!UICONTROL 承認]**」を選択します。
 
    ![](assets/item-approve.png)
-
-<!--* Identifying how many times a given customer has been shown a decision item. 
-If a marketer wants to determine how many times a specific customer has been shown an offer, they can do that. Go to Profiles menu, Attributes tab. You'll see all counter values. The alphanumeric string is associated to the offer. To make the map, go to an item, in the URL check the last alphanumeric strings. D stands for day, w stands for week, m for month. "Ce" custom event-->
 
 ## 決定項目の管理 {#manage}
 
