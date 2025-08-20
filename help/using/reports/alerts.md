@@ -71,7 +71,7 @@ ht-degree: 43%
 >
 >デフォルトでは、アプリ内アラートのみが有効になっています。
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=ja#enable-email-alerts){target="_blank"}.-->
 
 アラートが解決されると、購読者に「解決済み」通知が届きます。
 
