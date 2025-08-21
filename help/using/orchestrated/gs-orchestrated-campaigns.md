@@ -2,13 +2,13 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 調整されたキャンペーンの基本を学ぶ
-description: オーケストレートキャンペーンを開始する方法を学ぶ
-short-description: 調整されたキャンペーンの主な機能とユースケースについて説明します。
+description: 調整されたキャンペーンを開始する方法を学ぶ
+short-description: 調整されたキャンペーンの主要な機能とユースケースについて説明します。
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 source-git-commit: 4510cfde1579fbabe7deb1289f70f13ee21a3d4a
 workflow-type: tm+mt
 source-wordcount: '619'
-ht-degree: 30%
+ht-degree: 38%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 30%
 
 >[!IMPORTANT]
 >
->Campaign オーケストレーションにアクセスするには、ライセンスに **Journey Optimizer - キャンペーンとジャーニー** または **Journey Optimizer - キャンペーン** パッケージが含まれている必要があります。 ライセンスを確認して必要に応じて更新するには、Adobeの担当者にお問い合わせください。
+>キャンペーンオーケストレーションにアクセスするには、ライセンスに **Journey Optimizer - キャンペーンとジャーニー**&#x200B;または **Journey Optimizer - キャンペーン**&#x200B;パッケージのいずれかが含まれている必要があります。ライセンスを確認し、必要に応じて更新するには、アドビ担当者にお問い合わせください。
 
 クロスチャネルマーケティングは不可欠ですが、調整されたキャンペーンはこれをシームレスにします。視覚的なドラッグ＆ドロップインターフェイスを使用すると、複数のチャネルをまたいで、セグメント化からメッセージ配信まで、複雑なマーケティングワークフローをデザインおよび自動化できます。すべてが、速度、コントロール、効率のために作成された、1 つの直感的な環境で実行されます。
 
