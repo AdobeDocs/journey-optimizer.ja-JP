@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: eefc6cd7804a14e289d2f1aa3a136f3e6215852c
+source-git-commit: 50317e37c536dc8f1a950172fda00590f8a9fa35
 workflow-type: tm+mt
-source-wordcount: '1462'
-ht-degree: 77%
+source-wordcount: '1475'
+ht-degree: 76%
 
 ---
 
@@ -296,7 +296,7 @@ ht-degree: 77%
 
 * **設定**
 
-   * **動的ドメインのサポート** - Journey Optimizerで、Adobeが受け入れる事前定義済みドメインの完全/ベース URL パーソナライゼーションがサポートされるようになりました。 この機能は、一連のお客様に対して限定提供で利用できます。 [詳細情報](../personalization/personalization-build-expressions.md#where)
+  &lt;!—* **動的ドメインのサポート** - Journey Optimizerでは、Adobeが受け入れる事前定義済みドメインの完全/ベース URL パーソナライゼーションをサポートするようになりました。 この機能は、一連のお客様に対して限定提供で利用できます。 [ 詳細を見る ](../personalization/personalization-build-expressions.md#where) - 8 月 21 日の更新：eng を待っています。 実稼動環境にデプロイされたときに確認します。—>
 
    * **ワンクリック登録解除 URL を使用したカスタム属性のサポート** - Journey Optimizer では、アドビ以外で同意を管理している場合、メール設定で独自のワンクリック登録解除リンクを定義して、外部カスタムエンドポイントを設定できます。受信者が登録解除リンクをクリックすると、Journey Optimizer では、同意更新イベントにいくつかのデフォルトのプロファイル固有のパラメーターが追加されます。
 

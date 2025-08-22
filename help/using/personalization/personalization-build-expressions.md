@@ -10,10 +10,10 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: 式, エディター, 説明, 開始
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 50317e37c536dc8f1a950172fda00590f8a9fa35
 workflow-type: tm+mt
-source-wordcount: '1560'
-ht-degree: 98%
+source-wordcount: '1536'
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,10 @@ Journey Optimizer では、メッセージ内の **URL** をパーソナライ�
 >
 >スペースは、URL 内で使用されるパーソナライゼーショントークンではサポートされていません。
 
-限定提供（LA）では、Journey Optimizerは完全な/ベース URL のパーソナライゼーションもサポートします。 例：
+<!--
+Update on August 21: Waiting for eng. to confirm when the capacity below will be deployed on prod.
+
+In Limited Availability, Journey Optimizer also supports complete/base URL personalization. For example:
 
 ```
 <a href="{{profile.social.link}}" />
@@ -87,7 +90,7 @@ Journey Optimizer では、メッセージ内の **URL** をパーソナライ�
 
 >[!WARNING]
 >
->許可されたドメインのリストは、Adobeに事前に提供する必要があります。
+>The list of accepted domains must be provided to Adobe upfront.-->
 
 +++
 
@@ -109,7 +112,7 @@ Journey Optimizer では、メッセージ内の **URL** をパーソナライ�
 
 >[!NOTE]
 >
->構成ワークフローを使用して生成されたエンリッチメント属性でオーディエンスをターゲットにしている場合は、これらのエンリッチメント属性を活用してメッセージをパーソナライズできます。[詳しくは、オーディエンスのエンリッチメント属性の使用方法を参照してください。](../audience/about-audiences.md#enrichment)
+>構成ワークフローを使用して生成されたエンリッチメント属性でオーディエンスをターゲティングしている場合は、これらのエンリッチメント属性を活用してメッセージをパーソナライズできます。[詳しくは、オーディエンスのエンリッチメント属性の使用方法を参照してください。](../audience/about-audiences.md#enrichment)
 
 ## パーソナライゼーションの追加 {#add}
 
