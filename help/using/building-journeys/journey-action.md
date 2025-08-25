@@ -1,18 +1,18 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: ジャーニーへのビルトインのチャネルアクションの追加
-description: ジャーニーにビルトインのチャネルアクションを追加する方法について説明します。
+title: アクションジャーニーアクティビティの使用
+description: 汎用のアクションアクティビティを追加して、ジャーニーキャンバス内で単一のアクションと複数のアクションのインバウンドアクショングループを設定する方法を説明します。
 feature: Journeys, Activities, Channels Activity
 topic: Content Management
 role: User
 level: Intermediate
 keywords: ジャーニー, メッセージ, プッシュ, sms, メール, アプリ内, web, コンテンツカード, コードベースのエクスペリエンス
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
-source-git-commit: e74074702c82ede09dc311a16e0f67a84b931fa2
+source-git-commit: 6ca732dc6f784897d76dabb605e398497b2ffdd6
 workflow-type: tm+mt
-source-wordcount: '984'
-ht-degree: 39%
+source-wordcount: '991'
+ht-degree: 37%
 
 ---
 
@@ -142,7 +142,7 @@ ht-degree: 39%
 
    ![](assets/journey-multi-action-configuration.png){width="70%"}
 
-1. 「**アクション**」セクションから、インバウンドアクション **&#x200B;**&#x200B;コードベースのエクスペリエンス **、** アプリ内メッセージ **、コンテンツカード** または **[!UICONTROL Web]**）を選択します。
+1. 「**アクション**」セクションから、インバウンドアクション **** コードベースのエクスペリエンス **、** アプリ内メッセージ **、コンテンツカード** または **[!UICONTROL Web]**）を選択します。
 
 1. チャネル設定を選択し、そのアクションに特定のコンテンツを定義します。
 
