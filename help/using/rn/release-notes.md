@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 50317e37c536dc8f1a950172fda00590f8a9fa35
+source-git-commit: f59ee0ce2ad53717672d06519ce38141b69d4d90
 workflow-type: tm+mt
-source-wordcount: '1475'
-ht-degree: 76%
+source-wordcount: '1492'
+ht-degree: 75%
 
 ---
 
@@ -315,6 +315,8 @@ ht-degree: 76%
 * **データセット**
 
    * **Experience Decisioning オブジェクトリポジトリ – パーソナライズされたオファー項目** – 組み込みの書き出しデータセットは、すべてのオファー属性とライフサイクルステータスをキャプチャし、完全なパーソナライゼーションとレポートを可能にしました。 [詳細情報](../data/export-datasets.md)
+
+   * 一貫性を向上させ、変更を追跡してアイテムをより確実にオファーするために、`etag` フィールドを介したバージョンチェックを導入しました。
 
 ## キャンペーンオーケストレーション
 
