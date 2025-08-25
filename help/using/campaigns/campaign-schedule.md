@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 作成, Optimizer, キャンペーン, サーフェス, メッセージ
 exl-id: b183eeb8-606f-444d-9302-274f159c3847
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 4417643cbf206b9ad112bae5c270cdfc746a9c5d
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 65%
+source-wordcount: '350'
+ht-degree: 64%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 65%
 
 この機能は、ランディングページやカスタマーケアプラットフォームなどのダウンストリームシステムで過負荷が発生するのを防ぐために特に役立ちます。 例えば、1 秒あたり 165 メッセージのレート制限を設定すると、ダウンストリームのシステムに圧倒されずに安定した配信を確保できます。
 
-レート制御を設定するには、「**&#x200B;** 配信設定 **[!UICONTROL セクションの「配信をスロットル]**」オプションを有効にし、目的の **[!UICONTROL 配信率]** を指定します。
+レート制御を設定するには、「**[!UICONTROL 配信設定]**」セクションの「**[!UICONTROL 配信をスロットル]**」オプションを有効にし、1 秒あたりの目的の **[!UICONTROL 配信率]** を指定します。
 
 ![](assets/throttling-rate-control.png)
 
