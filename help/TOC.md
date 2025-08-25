@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 17ca5d47fbf20ee25c3728d85877adaccf82aea8
 workflow-type: tm+mt
-source-wordcount: '2887'
+source-wordcount: '2886'
 ht-degree: 99%
 
 ---
@@ -81,6 +81,7 @@ ht-degree: 99%
       + [条件](using/building-journeys/condition-activity.md)
       + [待機](using/building-journeys/wait-activity.md)
       + [オーディエンスを読み取り](using/building-journeys/read-audience.md)
+      + [アクションアクティビティ](using/building-journeys/journey-action.md)
       + [ビルトインのチャネルアクション](using/building-journeys/journeys-message.md)
       + [カスタムアクション](using/building-journeys/using-custom-actions.md)
       + [コンテンツの決定](using/building-journeys/content-decision.md)
@@ -210,7 +211,6 @@ ht-degree: 99%
       + [アクションキャンペーンの操作](using/campaigns/create-campaign.md)
       + [キャンペーンのプロパティの定義](using/campaigns/campaign-properties.md)
       + [キャンペーンアクションの設定](using/campaigns/campaign-action.md)
-      + [キャンペーンでのメッセージ最適化の活用](using/campaigns/campaigns-message-optimization.md)
       + [キャンペーンコンテンツの編集](using/campaigns/campaign-content.md)
       + [キャンペーンオーディエンスの定義](using/campaigns/campaign-audience.md)
       + [キャンペーンのスケジュール](using/campaigns/campaign-schedule.md)
@@ -540,6 +540,7 @@ ht-degree: 99%
          + [テクニカルノート](/help/rp_landing_pages/technotes-landing-page.md)
          + [統計計算について](using/content-management/experiment-calculations.md)
          + [実験レポートの統計計算について](using/content-management/experiment-report-calculations.md)
+   + [メッセージの最適化の活用](using/campaigns/campaigns-message-optimization.md)
 + オーディエンス、プロファイル、ID {#audiences-profiles-identities}
    + [オーディエンス、プロファイル、ID](/help/rp_landing_pages/audiences-profiles-identities-landing-page.md)
    + オーディエンス {#audiences}

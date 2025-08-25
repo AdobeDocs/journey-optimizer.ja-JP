@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: ジャーニー, メッセージ, プッシュ, sms, メール, アプリ内, web, コンテンツカード, コードベースのエクスペリエンス
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: db3c87d10469550eb30224c932344ff1e3ae1767
+source-git-commit: 17ca5d47fbf20ee25c3728d85877adaccf82aea8
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 100%
+source-wordcount: '513'
+ht-degree: 97%
 
 ---
 
@@ -43,6 +43,7 @@ ht-degree: 100%
 
    ![](assets/journey-web-activity.png)
 
+1. また、「**[!UICONTROL アクション]**」アクティビティを選択して、複数のインバウンドアクションを選択できます。 [詳細情報](journey-action.md)
 
 1. アクティビティを設定します。設定ガイドラインについて詳しくは、以下のリンクを参照してください。
 
