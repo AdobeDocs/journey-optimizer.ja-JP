@@ -8,7 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: ジャーニー, メッセージ, プッシュ, sms, メール, アプリ内, web, コンテンツカード, コードベースのエクスペリエンス
-source-git-commit: 17ca5d47fbf20ee25c3728d85877adaccf82aea8
+exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
+source-git-commit: 0334d0b6d2fc9665ee1fe407502117679cf220f2
 workflow-type: tm+mt
 source-wordcount: '984'
 ht-degree: 39%
@@ -48,7 +49,7 @@ ht-degree: 39%
 
 1. ジャーニーで活用する組み込みのチャネルアクティビティを選択します。
 
-   ![](assets/journey-action-type-code-based.png)
+   ![](assets/journey-action-type-cbe.png)
 
 1. アクションにラベルを追加し、「**[!UICONTROL アクションを設定]**」を選択します。
 
@@ -141,7 +142,7 @@ ht-degree: 39%
 
    ![](assets/journey-multi-action-configuration.png)
 
-1. 「**アクション**」セクションから、インバウンドアクション **&#x200B;**&#x200B;コードベースのエクスペリエンス **、** アプリ内メッセージ **、コンテンツカード** または **[!UICONTROL Web]**）を選択します。
+1. 「**アクション**」セクションから、インバウンドアクション **** コードベースのエクスペリエンス **、** アプリ内メッセージ **、コンテンツカード** または **[!UICONTROL Web]**）を選択します。
 
 1. チャネル設定を選択し、そのアクションに特定のコンテンツを定義します。
 
