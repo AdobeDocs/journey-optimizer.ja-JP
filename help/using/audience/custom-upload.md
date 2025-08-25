@@ -31,4 +31,4 @@ Adobe Experience Platform オーディエンスポータルでは、CSV ファ�
 
 オーディエンスを CSV 形式でアップロードする方法について詳しくは、次のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3421714?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3423359?quality=12&captions=jpn)

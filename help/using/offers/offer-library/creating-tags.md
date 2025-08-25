@@ -45,4 +45,4 @@ ht-degree: 100%
 
 ## チュートリアルビデオ {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/329374?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/341372?quality=12&captions=jpn)
