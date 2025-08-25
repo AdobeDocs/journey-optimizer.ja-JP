@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 360e4e290bca53ef5e0416ee4aa91d7f985a269e
 workflow-type: tm+mt
-source-wordcount: '1750'
+source-wordcount: '1754'
 ht-degree: 94%
 
 ---
@@ -101,7 +101,7 @@ ht-degree: 94%
 
 * **[!UICONTROL ソース]**：このメニューを使用すると、アドビのアプリケーション、クラウドベースのストレージ、データベースなど、様々なソースからデータを取り込むことができます。受信データの構造化、ラベル付けおよび拡充を行えます。[詳細情報](get-started-sources.md)
 
-* **[!UICONTROL 宛先]** - このメニューを使用すると、データセットの内容を書き出すためにクラウドストレージの場所とのライブ接続を作成できます。[詳細情報](../data/export-datasets.md)
+* **[!UICONTROL 宛先]** - このメニューを使用すると、データセットの内容をエクスポートするためにクラウドストレージの場所とのライブ接続を作成できます。[詳細情報](../data/export-datasets.md)
 
 ### [!UICONTROL 顧客] {#left-nav-customers}
 
@@ -344,3 +344,9 @@ AI アシスタントにアクセスして使用する方法については、[�
 >title="ジャーニーのシミュレート"
 >abstract="ジャーニーシミュレーションを使用すると、ジャーニーを検証し、アクティブ化する前にジャーニーのパフォーマンスを確認できます。トレーニング済みモデルのデータを使用して、ジャーニー全体にわたる数値を提供し、実際のシナリオでのジャーニーの動作を確認します。"
 
+<!-- QUIET HOURS -->
+
+>[!CONTEXTUALHELP]
+>id="ajo_rule_type"
+>title="ルールタイプ"
+>abstract="ルールタイプ"
