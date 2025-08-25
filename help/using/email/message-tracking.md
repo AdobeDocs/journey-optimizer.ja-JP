@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 keywords: リンク, トラッキング, 監視, メール
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 source-git-commit: 65a6afddfbc53afb88c6e69449720ac67f8f8f39
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1274'
 ht-degree: 100%
 

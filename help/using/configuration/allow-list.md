@@ -10,7 +10,7 @@ level: Experienced
 keywords: 許可リスト, リスト, 安全, 設定
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
 source-git-commit: 2af0e9237bbcc79456a31042ed8e42233bbccac3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1179'
 ht-degree: 100%
 
@@ -56,7 +56,7 @@ ht-degree: 100%
 
 1. **[!UICONTROL チャネル]**／**[!UICONTROL メール設定]**／**[!UICONTROL 許可リスト]**&#x200B;メニューにアクセスします。
 
-1. 切り替えボタンを選択します。
+1. 切替スイッチボタンを選択します。
 
    ![](assets/allow-list-edit.png)
 
@@ -80,7 +80,7 @@ ht-degree: 100%
 
 1. **[!UICONTROL チャネル]**／**[!UICONTROL メール設定]**／**[!UICONTROL 許可リスト]**&#x200B;メニューにアクセスします。
 
-1. 切り替えボタンを選択します。
+1. 切替スイッチボタンを選択します。
 
    ![](assets/allow-list-edit-active.png)
 
@@ -189,7 +189,7 @@ API 呼び出しについて詳しくは、[Adobe Experience Platform API](https
 >title="許可リストの管理"
 >abstract="許可リストをアクティブ化すると、許可リストに含まれる受信者にのみ、このサンドボックスからメールメッセージが届きます。非アクティブ化すると、すべての受信者にメールが届きます。"
 
-許可リストが[有効](#enable-allow-list)の場合、次のロジックが適用されます。
+許可リストが[アクティブ](#enable-allow-list)の場合、次のロジックが適用されます。
 
 * 許可リストが&#x200B;**空**&#x200B;の場合、メールは送信されません。
 

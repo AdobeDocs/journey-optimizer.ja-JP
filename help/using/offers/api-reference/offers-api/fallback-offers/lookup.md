@@ -26,7 +26,7 @@ GET /{ENDPOINT_PATH}/offers/{ID}?offer-type=fallback
 | パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 永続性 API のエンドポイントパス。 | `https://platform.adobe.io/data/core/dps/` |
-| `{ID}` | 検索するエンティティの ID。 | `fallbackOffer1234` |
+| `{ID}` | 参照するエンティティの ID。 | `fallbackOffer1234` |
 
 **リクエスト**
 

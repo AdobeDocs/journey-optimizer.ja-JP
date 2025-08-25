@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 123ed057-e15f-4110-9fc6-df0e9cb5b038
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 100%
+source-wordcount: '180'
+ht-degree: 94%
 
 ---
 
@@ -43,7 +43,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offer-decisions?limit=2' \
 
 ## クエリパラメーターの使用 {#using-query-parameters}
 
-リソースのリストを表示する際に、クエリパラメーターを使用してページを作成し、結果をフィルターできます。
+リソースを一覧表示する際に、クエリパラメーターを使用して結果をページングおよびフィルタリングできます。
 
 ### ページング {#paging}
 

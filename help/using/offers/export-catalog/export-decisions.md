@@ -8,9 +8,9 @@ role: User, Data Engineer
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
 source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: ht
-source-wordcount: '1531'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1530'
+ht-degree: 97%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 100%
 
 +++
 
-+++_experience > decisioning > criteria > optionSelection
++++_experience > 決定 > 条件 > optionSelection
 
 **フィールド：**optionSelection
 **タイトル：**オプション選択
@@ -109,11 +109,11 @@ ht-degree: 100%
 
 +++
 
-+++_experience > decisioning > criteria > placements
++++_experience/決定/条件/プレースメント
 
 **フィールド：**placements
 **タイトル：**プレースメント制約
-**説明：**&#x200B;プレースメント制約は、リストに表示されているプレースメントにのみこの条件を適用できることを示します。`xdm:placements` リスト内にある対象の配置がオプション選択である場合にのみ選択されます。それ以外の場合は、決定条件全体がスキップされます。「xdm:placements」リストが省略または空の場合、ターゲットプレースメントの条件が考慮されます。ここに示すプレースメントは、オプション選択に対して暗黙の条件を適用します。考慮するオプションには、対象となるプレースメントの表現が必要です。
+**説明：**&#x200B;プレースメント制約は、リストに表示されているプレースメントにのみこの条件を適用できることを示します。`xdm:placements` リスト内にある対象の配置がオプション選択である場合にのみ選択されます。それ以外の場合は、決定条件全体がスキップされます。「xdm:placements」リストが省略または空の場合、ターゲットとする任意のプレースメントに対して条件が考慮されます。 ここに示すプレースメントは、オプション選択に対して暗黙の条件を適用します。考慮するオプションには、対象となるプレースメントの表現が必要です。
 **タイプ：**&#x200B;配列
 
 * プレースメント識別子
@@ -125,7 +125,7 @@ ht-degree: 100%
 
 +++
 
-+++_experience > decisioning > criteria > profileConstraints
++++_experience > 決定 > 条件 > profileConstraints
 
 **フィールド：**profileConstraints
 **タイトル：**プロファイル制約
@@ -134,7 +134,7 @@ ht-degree: 100%
 
 +++
 
-+++_experience > decisioning > criteria > profileConstraints > Description
++++_experience > 決定 > 条件 > profileConstraints > 説明
 
 **フィールド：**description
 **タイトル：**説明
@@ -203,15 +203,15 @@ ht-degree: 100%
 
 +++
 
-+++_experience > decisioning > criteria > ranking
++++_experience > 決定 > 条件 > ランキング
 
 **フィールド：**ranking
 **タイトル：**ランキングの詳細
 **説明：**&#x200B;ランク（優先度）。決定条件のコンテキストに基づいて「最良のオプション」を決定する方法を定義します。プロファイルの制約を満たす選択したすべてのオプションの中から、ランキングに基づいて最良の（または上位 N 個の）提案オプションを決定します。**型：**&#x200B;オブジェクト
 
-+++
++++ 
 
-+++_experience > decisioning > criteria > ranking > order
++++_experience > 決定 > 条件 > ランキング > 順序
 
 **フィールド：**order
 **タイトル：**順序評価
@@ -278,7 +278,7 @@ ht-degree: 100%
 
 +++
 
-+++_experience > decisioning > アクティビティ開始日時
++++_experience > 決定 > アクティビティの開始日時
 
 **フィールド：**startTime
 **タイトル：**アクティビティの開始日時

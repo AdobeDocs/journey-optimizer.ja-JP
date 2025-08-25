@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '353'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '352'
+ht-degree: 96%
 
 ---
 
@@ -27,20 +27,20 @@ ht-degree: 100%
 
 このデベロッパーガイドでは、[!DNL Offer Library] API を使い始めるのに役立つ手順を説明します。次に、このガイドでは、意思決定エンジンを使用して主要な操作を実行するための API 呼び出しのサンプルを提供します。
 
-➡️ [意思決定管理のコンポーネントについて詳しくは、このビデオをご覧ください](#video)
+➡️ [ 意思決定管理のコンポーネントについて詳しくは、このビデオを参照してください ](#video)
 
 ## 前提条件 {#prerequisites}
 
 このガイドは、Adobe Experience Platform の次のコンポーネントを実際に利用および理解しているユーザーを対象としています。
 
-* [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target="_blank"}：[!DNL Experience Platform] が、カスタマーエクスペリエンスデータを整理する際に使用する、標準化されたフレームワーク。
+* [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target="_blank"}：顧客体験データをまとめる際に [!DNL Experience Platform] に使用される標準化されたフレームワーク。
    * [スキーマ構成の基本](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ja){target="_blank"}：XDM スキーマの基本的な構成要素について説明します。
-* [意思決定管理](../../../using/offers/get-started/starting-offer-decisioning.md)：決定全般、特に意思決定管理に使用される概念とコンポーネントについて説明します。顧客のエクスペリエンスで提示する最適なオプションを選択するための戦略を示します。
+* [意思決定管理](../../../using/offers/get-started/starting-offer-decisioning.md)：決定全般、特に意思決定管理に使用される概念とコンポーネントについて説明します。顧客のエクスペリエンスで提示できる最適なオプションを選択するための戦略を示します。
 * [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=ja){target="_blank"}：PQL は XDM インスタンス上で式を書くための強力な言語です。PQL は、決定ルールを定義する際に使用されます。
 
 ## API 呼び出し例の読み取り {#reading-sample-api-calls}
 
-ここでは、リクエストの形式を説明するために API 呼び出しの例を示します。これには、パス、必須ヘッダー、適切な形式のリクエストペイロードが含まれます。また、API レスポンスで返されるサンプル JSON も示されています。ドキュメントで使用される API 呼び出し例の表記について詳しくは、[!DNL Experience Platform] トラブルシューテングガイドの [API 呼び出し例の読み方](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html?lang=ja#how-do-i-format-an-api-request){target="_blank"}に関する節を参照してください。
+ここでは、リクエストの形式を説明するために API 呼び出しの例を示します。これには、パス、必須ヘッダー、適切な形式のリクエストペイロードが含まれます。また、API レスポンスで返されるサンプル JSON も示されています。ドキュメントで使用される API 呼び出し例の表記について詳しくは、 トラブルシューテングガイドの[API 呼び出し例の読み方](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html?lang=ja#how-do-i-format-an-api-request){target="_blank"}に関する節を参照してください[!DNL Experience Platform]。
 
 ## 必須ヘッダーの値の収集 {#gather-values-for-required-headers}
 
@@ -68,5 +68,5 @@ ht-degree: 100%
 
 The following video is intended to support your understanding of the components of Decision Management.
 
->[!VIDEO](https://video.tv.adobe.com/v/342831?quality=12&captions=jpn) -->
+>[!VIDEO](https://video.tv.adobe.com/v/329919?quality=12) -->
 

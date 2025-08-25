@@ -10,9 +10,9 @@ level: Experienced
 keywords: アーカイブ, メッセージ, HIPAA, BCC, メール
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1337'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 HIPAA などの規制では、[!DNL Journey Optimizer] が個人に送信されたメッセージをアーカイブする方法を提供する必要があります。実際、顧客が申し立てを行った場合、確認のために送信されたメッセージのコピーを取得できる必要があります。
 
-* メールチャネルの場合、[!DNL Journey Optimizer] には、組み込みの BCC メール機能が用意されています。[詳細情報](#bcc-email)
+* メールチャネルの場合、[!DNL Journey Optimizer] には、ビルトインの BCC メール機能が用意されています。[詳細情報](#bcc-email)
 
 * さらに、すべてのチャネルの場合、パーソナライズされていないメッセージテンプレートの詳細を含む&#x200B;**エンティティデータセット**&#x200B;の「テンプレート」フィールドを使用できます。このフィールドを使用してデータセットを書き出すと、メッセージの送信者、送信先および送信時間などのメタデータを保存できます。パーソナライズされたデータは書き出されず、テンプレート （メッセージの形式と構造）のみが考慮されます。[詳細情報](../data/datasets-query-examples.md#entity-dataset)
 
@@ -113,7 +113,7 @@ GDPR などの規制では、データ主体はいつでも同意を変更でき
 
 >[!NOTE]
 >
->プライバシーの管理と適用される規制について詳しくは、[Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja){target="_blank"}を参照してください。
+>プライバシーの管理と適用される法規制について詳しくは、[Experience Platform ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja){target="_blank"} を参照してください。
 
 ### BCC レポートデータ {#bcc-reporting}
 
@@ -123,7 +123,7 @@ BCC に関するレポート自体は、ジャーニーレポートとメッセ�
 
 <!--![](assets/preset-bcc-dataset.png)-->
 
-このデータセットに対してクエリを実行するには、[Adobe Experience Platform クエリサービス](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ja){target="_blank"}で提供されるクエリエディターを使用することができます。これにアクセスするには、**[!UICONTROL データ管理]**／**[!UICONTROL クエリ]**&#x200B;を選択し、「**[!UICONTROL クエリを作成]**」をクリックします。[詳細情報](../data/get-started-queries.md)
+このデータセットに対してクエリを実行するには、[Adobe Experience Platform クエリサービス ](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ja){target="_blank"} で提供されるクエリエディターを使用することができます。 これにアクセスするには、**[!UICONTROL データ管理]**／**[!UICONTROL クエリ]**&#x200B;を選択し、「**[!UICONTROL クエリを作成]**」をクリックします。[詳細情報](../data/get-started-queries.md)
 
 ![](assets/preset-bcc-queries.png)
 
@@ -234,7 +234,7 @@ BCC に関するレポート自体は、ジャーニーレポートとメッセ�
 
 * ユーザーインターフェイスを通じてこれらのデータセットにアクセスするには、**[!UICONTROL データ管理]**／**[!UICONTROL データセット]**／**[!UICONTROL 参照]**&#x200B;を選択します。データセットにアクセスする方法について詳しくは、[この節](../data/get-started-datasets.md#access-datasets)を参照してください。
 
-* [Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ja){target="_blank"} で提供されるクエリエディターを使用します。これにアクセスするには、**[!UICONTROL データ管理]**／**[!UICONTROL クエリ]**&#x200B;を選択し、「**[!UICONTROL クエリを作成]**」をクリックします。[詳細情報](../data/get-started-queries.md)
+* [Adobe Experience Platform クエリサービス ](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ja){target="_blank"} で提供されるクエリエディターを使用します。 これにアクセスするには、**[!UICONTROL データ管理]**／**[!UICONTROL クエリ]**&#x200B;を選択し、「**[!UICONTROL クエリを作成]**」をクリックします。[詳細情報](../data/get-started-queries.md)
 
 以下に、BCC コピーに対応する情報の取得に実行できるサンプルクエリを示します。
 

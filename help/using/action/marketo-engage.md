@@ -10,7 +10,7 @@ level: Intermediate
 keywords: Marketo、Marketo Engage 統合
 exl-id: 70d1ef5a-743b-4362-bb65-93a8c996209f
 source-git-commit: d92c280e40419d2e3ec62a7ba85cd492a0867fde
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 100%
 
@@ -113,7 +113,7 @@ Journey Optimizer では、Marketo Engage のカスタムアクションを設�
 
 ## アクションの使用 {#engage-using}
 
-設定したアクションごとに、ジャーニーデザイナーパレットで Marketo Engage アクションアクティビティを使用できます。
+設定したアクションごとに、ジャーニー designer パレットで Marketo Engage アクションアクティビティを使用できます。
 
 使用するには、次の手順に従います。
 

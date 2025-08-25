@@ -9,7 +9,7 @@ level: Experienced
 keywords: ジャーニー, データソース, 制限, スループット, カスタム, アクション
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
 source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ Adobe Journey Optimizer を使用すると、実務担当者は、カスタム�
 
 カスタムアクションの場合、スロットル機能は製品レベルで使用できます。 この[ページ](../configuration/external-systems.md#capping)を参照してください。
 
-外部データソースの場合、Journey Optimizer の Capping API を使用して、これらの外部システムに圧倒されるのを回避できるようエンドポイントレベルでキャッピングの制限を定義できます。ただし、制限に到達後、残りのリクエストはすべて破棄されます。この節では、スループットを最適化するために使用できる回避策を見つけます。
+外部データソースの場合、Journey Optimizer の Capping API を使用して、これらの外部システムに圧倒されるのを回避できるようエンドポイントレベルでキャップのキャップを定義できます。ただし、制限に到達後、残りのリクエストはすべて破棄されます。この節では、スループットを最適化するために使用できる回避策を見つけます。
 
 外部システムとの統合方法について詳しくは、この[ページ](../configuration/external-systems.md)を参照してください。
 

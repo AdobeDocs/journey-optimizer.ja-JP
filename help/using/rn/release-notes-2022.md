@@ -11,7 +11,7 @@ hidefromtoc: true
 hide: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
 source-git-commit: 8ff4f970796218451996bd5ed1938d33fa818495
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3599'
 ht-degree: 100%
 
@@ -262,7 +262,7 @@ ht-degree: 100%
 <td>
 <p>Journey Optimizer キャンペーンを使用すると、様々なチャネルを使用して、特定のオーディエンスに 1 回限りのコンテンツを配信できます。ジャーニーを使用する場合、アクションはシーケンスで順番に実行されるように設計されています。 キャンペーンでは、アクションは指定したスケジュールに基づいて同時にまたは即時に実行されます。 </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
-<p>キャンペーンを作成する方法を<a href="../campaigns/get-started-with-campaigns.md">詳細なドキュメント</a>および<a href="https://video.tv.adobe.com/v/3412405?captions=jpn">機能に関するビデオ</a>で説明します。
+<p>キャンペーンを作成する方法を<a href="../campaigns/get-started-with-campaigns.md">詳細なドキュメント</a>および<a href="https://video.tv.adobe.com/v/346680">機能に関するビデオ</a>で説明します。
 </td>
 </tr>
 </tbody>
@@ -673,7 +673,7 @@ Adobe Campaign Standard をご利用のお客様は、Journey Optimizer を使�
 
 **意思決定管理**
 
-* すべてのユーザーまたは 1 つの特定のプロファイルに対して、およびすべてのプレースメントまたは各プレースメントに対して、オファーキャッピングを適用するかどうかを指定できるようになりました。[詳細情報](../offers/offer-library/add-constraints.md#capping)
+* すべてのユーザーまたは 1 つの特定のプロファイルに対して、およびすべてのプレースメントまたは各プレースメントに対して、オファーキャップを適用するかどうかを指定できるようになりました。[詳細情報](../offers/offer-library/add-constraints.md#capping)
 * Batch Decisioning API を使用すると、組織は、1 回の呼び出しで特定のオーディエンスのすべてのプロファイルに対して意思決定管理機能を使用できます。オーディエンス内の各プロファイルに対するオファーコンテンツは、AEP データセットに配置され、カスタムバッチワークフローで使用できます。[詳細情報](../offers/api-reference/offer-delivery-api/batch-decisioning-api.md)
 
 **管理**
@@ -762,7 +762,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 **ジャーニー**
 
 * パフォーマンスを最適化するために、1 週間トリガーされていないテストモードのすべてのジャーニーが、ドラフトステータスに戻るようになりました。[詳細情報](../building-journeys/testing-the-journey.md#important_notes)
-* Journey Optimizer と Adobe Campaign v7/v8 の統合が最適化され、パフォーマンスが向上しました。キャッピングのデフォルト設定は、5 分につき呼び出し 4,000 件に変更されました。[詳細情報](../action/acc-action.md#important-notes)
+* Journey Optimizer と Adobe Campaign v7/v8 の統合が最適化され、パフォーマンスが向上しました。キャップのデフォルト設定は、5 分につき呼び出し 4,000 件に変更されました。[詳細情報](../action/acc-action.md#important-notes)
 
 **レポーティング**
 

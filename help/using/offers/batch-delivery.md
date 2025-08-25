@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
 source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ Journey Optimizer を使用すると、特定の Adobe Experience Platform オ�
 
   >[!NOTE]
   >
-  >1 日に 1 回発生するプロファイルスナップショットからバッチジョブが実行されます。Batch Decisioning では頻度を制限し、常に最新のスナップショットからプロファイルを読み込みます。オーディエンスの作成後、最大 24 時間待ってから Batch Decisioning API を試すことをお勧めします。
+  >1 日に 1 回発生するプロファイルスナップショットからバッチジョブが実行されます。Batch Decisioning では頻度をキャップし、常に最新のスナップショットからプロファイルを読み込みます。オーディエンスの作成後、最大 24 時間待ってから Batch Decisioning API を試すことをお勧めします。
 
 * Adobe Journey Optimizer の&#x200B;**決定**。[決定の作成方法を学ぶ](offer-activities/create-offer-activities.md)
 
@@ -64,7 +64,7 @@ Journey Optimizer を使用すると、特定の Adobe Experience Platform オ�
    >
    >1 つの決定範囲につき最大 30 のオファーをリクエストできます。
 
-1. オファーコンテンツをデータセットに含める場合は、「**[!UICONTROL コンテンツを含める]**」オプションをオンにします。このオプションはデフォルトでは無効です。
+1. オファーコンテンツをデータセットに含める場合は、「**[!UICONTROL コンテンツを含める]**」オプションをオンに切り替えます。このオプションはデフォルトでは無効です。
 
 1. 「**[!UICONTROL 作成]**」をクリックして、ジョブリクエストを実行します。
 

@@ -10,7 +10,7 @@ level: Experienced
 keywords: サブドメイン, Optimizer, デリゲーション
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
 source-git-commit: 7854de133ebcd3b29ca59b747aa89fae242f2ea5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '859'
 ht-degree: 100%
 

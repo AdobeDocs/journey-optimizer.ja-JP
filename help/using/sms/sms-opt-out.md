@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
 source-git-commit: 7973f56c26c01d4845138f70cd00bce8ab7fc09c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 100%
 
@@ -69,8 +69,8 @@ Adobe Journey Optimizer 側でオプトアウトステータスに基づいて�
 
 * 次のビデオは、SMS のダブルオプトインを設定する方法を学ぶのに役立ちます。
 
-+++ こちらのビデオをご覧ください
+  +++ こちらのビデオをご覧ください
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3440273/?learn=on&captions=jpn)
+  >[!VIDEO](https://video.tv.adobe.com/v/3427129/?learn=on)
 
-+++
+  +++

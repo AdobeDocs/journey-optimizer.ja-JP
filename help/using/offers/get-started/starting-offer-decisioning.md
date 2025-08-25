@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '911'
 ht-degree: 100%
 
@@ -110,7 +110,7 @@ ht-degree: 100%
 
 * **プレースメント**：プレースメントとは、エンドユーザーに対してオファーが表示される場所またはコンテキストです。
 
-* **優先度**：優先度を使用して、実施要件、カレンダー、キャッピングなど、すべての制約を満たすオファーをランク付けします。
+* **優先度**：優先度を使用して、実施要件、カレンダー、キャップなど、すべての制約を満たすオファーをランク付けします。
 
 * **表現**：表現とは、オファーを表示する場所や言語など、1 つのチャネルが使用する情報です。
 
@@ -121,13 +121,13 @@ ht-degree: 100%
 以下のビデオでは、 意思決定管理の主な機能、アーキテクチャおよび使用例を紹介しています。
 
 
->[!VIDEO](https://video.tv.adobe.com/v/340416?quality=12&learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/326961?quality=12&learn=on)
 
 ### オファーの定義と管理 {#use-offer-decisioning}
 
 次のビデオでは、意思決定管理を使用してオファーを定義および管理し、リアルタイムの顧客データを活用する方法を示します。
 
 
->[!VIDEO](https://video.tv.adobe.com/v/340470?quality=12&learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/326841?quality=12&learn=on)
 
 

@@ -143,7 +143,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
    >
    >各プロファイルがカスタムアクションに入ると、呼び出しをトリガーします。応答が常に同じであっても、ジャーニーはプロファイルごとに 1 回の呼び出しを実行します。
 
-1. タイムアウトとエラーの分岐で、条件を追加し、組み込みの **jo_status_code** フィールドを活用します。この例では、
+1. タイムアウトとエラーの分岐で、条件を追加し、ビルトインの **jo_status_code** フィールドを活用します。この例では、
    **http_400** エラータイプを使用しています。[この節](#error-status)を参照してください。
 
    ```
@@ -170,7 +170,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
 * http ステータスコード：http_`<HTTP API call returned code>`、例えば、http_200 や http_400
 * タイムアウトエラー：**timedout**
-* キャッピングエラー：**capped**
+* キャップエラー：**capped**
 * 内部エラー：**internalError**
 
 返された http コードが 2xx より大きい場合やエラーが発生した場合、アクション呼び出しはエラーと見なされます。この場合、ジャーニーは専用のタイムアウトまたはエラー分岐に進みます。

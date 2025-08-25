@@ -10,7 +10,7 @@ level: Beginner
 keywords: ランディング, ランディングページ, デザイン, HTML
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
 source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 100%
 
@@ -18,15 +18,15 @@ ht-degree: 100%
 
 # ランディングページのコンテンツのデザイン {#design-lp}
 
-ランディング用の[プライマリページ](create-lp.md#configure-primary-page)または[サブページ](create-lp.md#configure-subpages)のコンテンツ作成を開始するには、ページコンテンツにマウスポインターを置いて、「**[!UICONTROL デザイナーを開く]**」をクリックします。右側のパレットで、対応するボタンをクリックすることもできます。
+ランディング用の[プライマリページ](create-lp.md#configure-primary-page)または[サブページ](create-lp.md#configure-subpages)のコンテンツ作成を開始するには、ページコンテンツにマウスポインターを置いて、「**[!UICONTROL Designer を開く]**」をクリックします。右側のパレットで、対応するボタンをクリックすることもできます。
 
 ![](assets/lp_open-designer.png)
 
 ここから、次のことができます。
 
-* コンテンツデザイナーのインターフェイスで&#x200B;**ランディングページをゼロから設計**&#x200B;し、[Adobe Experience Manager Assets](../integrations/assets.md) の画像を活用します。コンテンツ<!--or use built-in templates--> のデザイン方法については、 [この節](../email/content-from-scratch.md)を参照してください。
+* コンテンツ designer のインターフェイスで&#x200B;**ランディングページをゼロから設計**&#x200B;し、[Adobe Experience Manager Assets](../integrations/assets.md) の画像を活用します。コンテンツ<!--or use built-in templates--> のデザイン方法については、 [この節](../email/content-from-scratch.md)を参照してください。
 
-* コンテンツデザイナーに直接 **Raw HTML をコーディングまたは貼り付け**&#x200B;ます。独自のコンテンツの作成方法については、[この節](../email/code-content.md)を参照してください。
+* コンテンツ designer に直接 **Raw HTML をコーディングまたは貼り付け**&#x200B;ます。独自のコンテンツの作成方法については、[この節](../email/code-content.md)を参照してください。
 
 * ファイルまたは .zip フォルダーから&#x200B;**既存の HTML コンテンツを読み込み**&#x200B;ます。コンテンツの読み込み方法については、[この節](../email/existing-content.md)を参照してください。
 

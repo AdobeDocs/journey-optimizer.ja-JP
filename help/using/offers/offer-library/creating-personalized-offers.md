@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 100%
 
@@ -71,7 +71,7 @@ ht-degree: 100%
 
    >[!CAUTION]
    >
-   >開始日／終了日を更新すると、キャッピングに影響を与える可能性があります。[詳細情報](add-constraints.md#capping-change-date)
+   >開始日／終了日を更新すると、キャップに影響を与える可能性があります。[詳細情報](add-constraints.md#capping-change-date)
 
 1. また、1 つまたは複数の既存の&#x200B;**[!UICONTROL コレクション修飾子]**&#x200B;をオファーに関連付けることもできます。これにより、オファーライブラリの検索と整理がしやすくなります。[詳細情報](creating-tags.md)。
 
@@ -172,4 +172,4 @@ ht-degree: 100%
 
 ## チュートリアルビデオ {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341356?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)

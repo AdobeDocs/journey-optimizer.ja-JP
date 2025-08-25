@@ -11,7 +11,7 @@ exl-id: 6f32f068-429a-4039-bb76-d190069e7402
 source-git-commit: ceead77b1b0f03d853f69c763a09c9fbd0584723
 workflow-type: tm+mt
 source-wordcount: '101'
-ht-degree: 100%
+ht-degree: 83%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 100%
 
 ![](assets/queries-home.png)
 
-クエリエディターの使用方法については、[このドキュメント](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html?lang=ja){target="_blank"}を参照してください。
+クエリエディターの使用方法については、[ このドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html?lang=ja){target="_blank"} を参照してください。
 
 >[!MORELIKETHIS]
 >
->* [クエリサービスドキュメント](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ja){target="_blank"}
->* [クエリサービスの概要ビデオ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html?lang=ja){target="_blank"}
+>* [ クエリサービスドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ja){target="_blank"}
+>* [ クエリサービスの概要ビデオ ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html?lang=ja){target="_blank"}

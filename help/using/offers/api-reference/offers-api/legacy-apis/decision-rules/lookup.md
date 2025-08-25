@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 3099736d-7109-4c94-aea6-053a9b885278
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 100%
+source-wordcount: '164'
+ht-degree: 93%
 
 ---
 
@@ -29,7 +29,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ELIGIBILI
 | `{CONTAINER_ID}` | 決定ルールが配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_ELIGIBILITY_RULE}` | 決定ルールに関連付けられたスキーマを定義します。 | `https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3` |
 | `id` | エンティティの `@id` プロパティとマッチするために使用される文字列。文字列は完全にマッチされます。パラメーター `id` と `name` は一緒に使用できません。 | `xcore:eligibility-rule:124e0faf5b8ee89b` |
-| `name` | エンティティの xdm:name プロパティとマッチするために使用される文字列。文字列は大文字と小文字を区別して完全にマッチされますが、ワイルドカード文字を使用することもできます。パラメーター `id` と `name` は一緒に使用できません。 | `Sales rule` |
+| `name` | エンティティの xdm:name プロパティに一致させるために使用される文字列。 文字列は大文字と小文字を区別して完全にマッチされますが、ワイルドカード文字を使用することもできます。パラメーター `id` と `name` は一緒に使用できません。 | `Sales rule` |
 
 **リクエスト**
 

@@ -8,8 +8,8 @@ level: Experienced
 exl-id: b9149ad6-2be7-4bdf-82eb-7ab52780cb4e
 source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 100%
+source-wordcount: '242'
+ht-degree: 93%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 {%= formatNumber(number/double,string) %}: string
 ```
 
-[Oracle ドキュメント](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html)と[サポートされているロケール](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html)にまとめられている書式設定と有効なロケールを使用できます{_blank}
+[Oracle ドキュメントと ](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) サポートされているロケールにまとめられている書式設定と有効なロケールを使用でき [ す ](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank}
 
 **例**
 

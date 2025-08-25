@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 82558447-9d42-4fac-8fc1-fded9bf4bfcc
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1077'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 >[!INFO]
 >
 >Apple ではメールプライバシー保護を含むネイティブのメールアプリに新しいプライバシー保護機能を導入したので、送信者はトラッキングピクセルを使用して、Apple のメールプライバシー保護を有効にしているプロファイルに関するデータを収集できなくなりました。その結果、トラッキングピクセルを使用してメールの開封数を追跡する Adobe Journey Optimizer の機能に影響を与える場合があります。
-> [Apple iOS のプライバシー変更がメールマーケティングに与える影響について詳しくは、こちら](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780?profile.language=ja)を参照してください。
+>> [Apple iOS のプライバシー変更がメールマーケティングに与える影響について詳しくは、こちら](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780?profile.language=ja)を参照してください。
 > 
 > より正確なインサイトを得るには、開封率ではなくクリック数とコンバージョン指標に焦点を当てることをお勧めします。
 
@@ -94,7 +94,7 @@ ht-degree: 100%
 
 **[!UICONTROL メール - トラッキング統計]**&#x200B;のテーブルには、ジャーニーに含まれるメールに関連するプロファイルアクティビティの詳細な説明が表示されます。これには、開封数、クリック数、その他の関連するエンゲージメント指標など、プロファイルがメールコンテンツとどのようにやり取りしたかを包括的に示す指標が含まれます。
 
-+++ 詳しくは、トラッキング統計指標を参照してください
++++ トラッキング統計指標の詳細情報
 
 * **[!UICONTROL クリックスルー率（CTR）]**：メールに対して何らかのアクションを起こしたユーザーの割合。
 

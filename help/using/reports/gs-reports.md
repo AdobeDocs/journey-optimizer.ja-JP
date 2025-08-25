@@ -5,8 +5,9 @@ title: ' [!DNL Adobe Journey Optimizer] のレポート機能の基本を学ぶ'
 description: ' [!DNL Adobe Journey Optimizer]  レポートへのアクセス方法と操作方法について説明します。'
 role: User
 level: Beginner
-source-git-commit: da2fb137a8af82a8487638dc3d762377dd5dc506
-workflow-type: ht
+exl-id: 7961dc5c-7918-4ae3-8361-0ed4bc4f145b
+source-git-commit: 158ae930fa87dc0476273bfbb14c96e780281491
+workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 100%
 

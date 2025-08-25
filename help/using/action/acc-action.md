@@ -10,7 +10,7 @@ level: Intermediate
 keywords: キャンペーン, acc, 統合
 exl-id: 109ba212-f04b-425f-9447-708c8e0b3f51
 source-git-commit: 60cb5e1ba2b5c8cfd0a306a589c85761be1cf657
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 Adobe Campaign Classic v7 や Campaign v8 を使用している場合は、Adobe Journey Optimizer と Adobe Campaign を統合するための特定のカスタムアクションがジャーニーで使用できます。この統合により、Adobe Campaign のトランザクションメッセージ機能を使用して、メール、プッシュ通知、SMS などを送信できるようになります。詳しくは、この[エンドツーエンドのユースケース](../building-journeys/ajo-ac.md)を参照してください。
 
-設定したアクションごとに、ジャーニーデザイナーパレットで [Campaign アクションアクティビティ](../building-journeys/using-adobe-campaign-v7-v8.md)を使用できます。
+設定したアクションごとに、ジャーニー designer パレットで [Campaign アクションアクティビティ](../building-journeys/using-adobe-campaign-v7-v8.md)を使用できます。
 
 ## アクティブ化 {#access}
 
@@ -49,7 +49,7 @@ Adobe Campaign Classic v7 や Campaign v8 を使用している場合は、Adobe
 
 ## ガードレールと制限 {#important-notes}
 
-* メッセージのスロットルはありません。システムは現在の Campaign SLA に基づいて、送信できるメッセージ数を 5 分ごとに 4,000 件までに制限します。この理由から、Journey Optimizer は単一ユースケース（オーディエンスではなく個々のイベント）でのみ使用してください。
+* メッセージのスロットルはありません。システムは現在の Campaign SLA に基づいて、送信できるメッセージ数を 5 分ごとに 4,000 件までにキャップします。この理由から、Journey Optimizer は単一ユースケース（オーディエンスではなく個々のイベント）でのみ使用してください。
 
 * 使用するテンプレートごとに、1 つのアクションをキャンバス上に設定する必要があります。Adobe Campaign から使用する各テンプレートに対して、Journey Optimizer でアクションを 1 つずつ設定する必要があります。
 

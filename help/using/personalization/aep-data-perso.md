@@ -11,9 +11,9 @@ level: Intermediate
 keywords: 式, エディター
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
 source-git-commit: 07e855b1a334a226c34223e5dd034f88733d6e2e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '779'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -67,13 +67,13 @@ API 呼び出しを使用してデータセットの参照パーソナライゼ�
 
    * **required=false**：required が TRUE に設定されている場合、一致するキーが見つかった場合にのみメッセージが配信されます。false に設定した場合は、一致するキーは必要なく、メッセージを配信できます。false に設定した場合、メッセージコンテンツのフォールバックまたはデフォルト値を考慮することをお勧めします。
 
-   +++データセット ID はどこで取得できますか？
+   +++データセット ID を取得する場所
 
    データセット ID は、Adobe Experience Platform ユーザーインターフェイスで取得できます。データセットの操作方法について詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}を参照してください。
 
    ![](assets/aep-data-dataset.png)
 
-+++
+   +++
 
 1. ニーズに合わせて構文を調整します。この例では、乗客のフライトに関連するデータを取得します。構文は以下の通りです。
 
@@ -104,7 +104,7 @@ API 呼び出しを使用してデータセットの参照パーソナライゼ�
 
      ![](assets/aep-data-field.png)
 
-+++
+     +++
 
    この例では、乗客の搭乗時間と搭乗口に関する情報を使用します。したがって、次の 2 行を追加します。
 

@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 keywords: メール, デザイン, Stock, アセット
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 100%
 
@@ -62,7 +62,7 @@ ht-degree: 100%
 
    * ファイルまたは .zip フォルダーから&#x200B;**既存の HTML コンテンツを読み込み**&#x200B;ます。メールコンテンツの読み込み方法については、[この節](existing-content.md)を参照してください。
 
-   * 組み込みまたはカスタムテンプレートのリストから&#x200B;**既存のコンテンツを選択します**。メールテンプレートの操作方法については、[この節](../email/use-email-templates.md)を参照してください。
+   * ビルトインまたはカスタムテンプレートのリストから&#x200B;**既存のコンテンツを選択します**。メールテンプレートの操作方法については、[この節](../email/use-email-templates.md)を参照してください。
 
    ![](assets/email_designer_create_options.png)
 
@@ -74,8 +74,8 @@ ht-degree: 100%
 
 メッセージエディターでメールコンテンツを作成する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416418?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 
 A/B テストを行うようにコンテンツ実験を設定し、ビジネス目標を最大限に推進するメールコンテンツを探索する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447332?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)

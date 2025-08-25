@@ -36,7 +36,7 @@ Journey Optimizer のアクセス制御を設定するには、組織のシス�
 
 [!DNL Journey Optimizer] のユーザー管理は、次の主な概念に基づいています。
 
-* **[!UICONTROL 役割]**：役割は、同じ権限とサンドボックスを共有するユーザーのコレクションを指します。これらの役割を使用すると、組織内の様々なユーザーグループのアクセスと権限を簡単に管理できます。役割には、ユーザーがインターフェイス内の特定の機能やオブジェクトにアクセスできるようにするための、一連の単一の権利（権限）が付属しています。[!DNL Journey Optimizer] を使用すると、権限レベルの異なる既存の様々な&#x200B;**[!UICONTROL 役割]**&#x200B;から選択して、ユーザーに割り当てることができます。使用可能な&#x200B;**組み込みの役割**&#x200B;について詳しくは、[このページ](ootb-product-profiles.md)を参照してください。
+* **[!UICONTROL 役割]**：役割は、同じ権限とサンドボックスを共有するユーザーのコレクションを指します。これらの役割を使用すると、組織内の様々なユーザーグループのアクセスと権限を簡単に管理できます。役割には、ユーザーがインターフェイス内の特定の機能やオブジェクトにアクセスできるようにするための、一連の単一の権利（権限）が付属しています。[!DNL Journey Optimizer] を使用すると、権限レベルの異なる既存の様々な&#x200B;**[!UICONTROL 役割]**&#x200B;から選択して、ユーザーに割り当てることができます。使用可能な&#x200B;**ビルトインの役割**&#x200B;について詳しくは、[このページ](ootb-product-profiles.md)を参照してください。
 
 * **[!UICONTROL 権限]**：権限は、**[!UICONTROL 役割]**&#x200B;に割り当てられる許可を定義できる、単一の権利です。各権限は、リソース（[!DNL Journey Optimizer] の様々な機能やオブジェクトに相当するジャーニーやオファーなど）の下に集約されています。詳しくは、[権限レベル](high-low-permissions.md)の節を参照してください。
 
@@ -66,10 +66,10 @@ Journey Optimizer のアクセス制御を設定するには、組織のシス�
 </td>
 <td>
 <a href="ootb-permissions.md">
-<img alt="組み込みの権限" src="assets/do-not-localize/select.jpg">
+<img alt="ビルトインの権限" src="assets/do-not-localize/select.jpg">
 </a>
 <div>
-<a href="ootb-permissions.md"><strong>組み込みの権限</strong></a>
+<a href="ootb-permissions.md"><strong>ビルトインの権限</strong></a>
 </div>
 <p>
 </td>

@@ -10,7 +10,7 @@ level: Intermediate, Experienced
 keywords: ジャーニー, メッセージ, キャンペーン, 統合
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
 source-git-commit: 824cbf12502f0a52e27636dddee38cb7dee94bf4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 100%
 

@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 権限, オーサリング, メッセージ
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '987'
 ht-degree: 100%
 

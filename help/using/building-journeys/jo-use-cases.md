@@ -9,7 +9,7 @@ level: Intermediate, Experienced
 keywords: ユースケース, マルチチャネル, ジャーニー, イベント
 exl-id: 28f3f06b-3576-43a7-9c1b-8e616390907b
 source-git-commit: 27d1ada9f501cd30fdb57104377845de75eff1b0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 100%
 
@@ -120,27 +120,27 @@ ht-degree: 100%
 <td>
 <img alt="ブログ投稿" src="../assets/do-not-localize/community.jpeg">
 <div>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400?profile.language=ja" target="_blank">ユースケース：Adobe Journey Optimizer で平日にのみメールを送信する方法</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-approval-strategies-in-adobe-journey-optimizer/ba-p/761396?profile.language=ja" target="_blank">ユースケース：高度な承認戦略</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=ja" target="_blank">ユースケース：毎日のフリークエンシーキャップ</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445?profile.language=ja" target="_blank">ベストプラクティス：オーディエンスを読み取りジャーニー</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/from-plan-to-perfection-how-to-test-your-ajo-journeys-for-10/ba-p/761270?profile.language=ja" target="_blank">ユースケース：ジャーニーのテスト</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/deliver-with-confidence-approval-workflows-across-adobe-journey/ba-p/760900?profile.language=ja" target="_blank">ユースケース：承認ワークフロー</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958?profile.language=ja" target="_blank">ユースケース：ジャーニーのエントリ条件と終了条件</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400" target="_blank">ユースケース：Adobe Journey Optimizer で平日にのみメールを送信する方法</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-approval-strategies-in-adobe-journey-optimizer/ba-p/761396" target="_blank">ユースケース：高度な承認戦略</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510" target="_blank">ユースケース：毎日のフリークエンシーキャップ</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445" target="_blank">ベストプラクティス：オーディエンスを読み取りジャーニー</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/from-plan-to-perfection-how-to-test-your-ajo-journeys-for-10/ba-p/761270" target="_blank">ユースケース：ジャーニーのテスト</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/deliver-with-confidence-approval-workflows-across-adobe-journey/ba-p/760900" target="_blank">ユースケース：承認ワークフロー</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958" target="_blank">ユースケース：ジャーニーのエントリ条件と終了条件</a></p>
 </div>
 <p>
 </td>
 <td>
 <img alt="ジャーニーのステップイベント" src="../assets/do-not-localize/list.jpeg">
 <div>
-<a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-step-events-in-adobe-journey-optimizer-fundamentals/ba-p/762024?profile.language=ja" target="_blank">Adobe Journey Optimizer のステップイベントの習得：データ駆動型キャンペーンの基本、スキーマおよび基本的なクエリ
+<a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-step-events-in-adobe-journey-optimizer-fundamentals/ba-p/762024" target="_blank">Adobe Journey Optimizer のステップイベントの習得：データ駆動型キャンペーンの基本、スキーマおよび基本的なクエリ
 </a>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/fast-external-audience-activation-with-custom-upload/ba-p/761658?profile.language=ja" target="_blank">ユースケース：カスタムアップロードを使用した高速な外部 Audience Activation</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/fast-external-audience-activation-with-custom-upload/ba-p/761658" target="_blank">ユースケース：カスタムアップロードを使用した高速な外部 Audience Activation</a></p>
 </div>
 <p></td>
 <td>
 <img alt="カスタムアクション" src="../assets/do-not-localize/step-event.jpeg">
-<div><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-extend-adobe-journey-optimizer-with-custom-actions/ba-p/761323?profile.language=ja" target="_blank">カスタムアクションを使用した Adobe Journey Optimizer の拡張方法：統合ユースケース
+<div><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-extend-adobe-journey-optimizer-with-custom-actions/ba-p/761323" target="_blank">カスタムアクションを使用した Adobe Journey Optimizer の拡張方法：統合ユースケース
 </a>
 </div>
 <p></td>

@@ -13,7 +13,7 @@ googlebot: noindex
 keywords: ダイレクトメール, メッセージ, キャンペーン
 exl-id: 44886355-ee3a-4323-899a-35d967487924
 source-git-commit: 755ffdb0a9986ce8c2175a9bc61ed4a56714ff7d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '774'
 ht-degree: 100%
 

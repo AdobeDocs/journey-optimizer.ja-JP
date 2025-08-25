@@ -10,7 +10,7 @@ level: Intermediate
 keywords: カスタム, 一般, イベント, ジャーニー
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
 source-git-commit: 343e7bbebf35711259d2f3392f1ce5658865599a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '603'
 ht-degree: 100%
 

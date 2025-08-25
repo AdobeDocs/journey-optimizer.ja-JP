@@ -6,18 +6,18 @@ description: Capping API の使用方法を学ぶ
 feature: Journeys, API
 role: User
 level: Beginner
-keywords: 外部, API, Optimizer, キャッピング
+keywords: 外部, API, Optimizer, キャップ
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
 source-git-commit: 9f801b1fdcab38bffff851675eca5e2fb61dfbf9
-workflow-type: ht
-source-wordcount: '736'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '735'
+ht-degree: 93%
 
 ---
 
 # Capping API の使用 {#work}
 
-Capping API を使用すると、キャッピング設定を作成、設定および監視できます。
+Capping API を使用すると、キャップ設定を作成、設定および監視できます。
 
 この節では、API の使用方法に関する全体的な情報を示します。API について詳しくは、[Adobe Journey Optimizer API ドキュメント](https://developer.adobe.com/journey-optimizer-apis/)を参照してください。
 
@@ -27,14 +27,14 @@ Capping API を使用すると、キャッピング設定を作成、設定お�
 
 | メソッド | パス | 説明 |
 |---|---|---|
-| [!DNL POST] | list/endpointConfigs | エンドポイントキャッピング設定のリストの取得 |
-| [!DNL POST] | /endpointConfigs | エンドポイントキャッピング設定の作成 |
-| [!DNL POST] | /endpointConfigs/`{uid}`/deploy | エンドポイントキャッピング設定のデプロイ |
-| [!DNL POST] | /endpointConfigs/`{uid}`/undeploy | エンドポイントキャッピング設定のデプロイ解除 |
-| [!DNL POST] | /endpointConfigs/`{uid}`/canDeploy | エンドポイントキャッピング設定をデプロイできるかどうかの確認 |
-| [!DNL PUT] | /endpointConfigs/`{uid}` | エンドポイントキャッピング設定の更新 |
-| [!DNL GET] | /endpointConfigs/`{uid}` | エンドポイントキャッピング設定の取得 |
-| [!DNL DELETE] | /endpointConfigs/`{uid}` | エンポイントキャッピング設定の削除 |
+| [!DNL POST] | list/endpointConfigs | エンドポイントキャップ設定のリストの取得 |
+| [!DNL POST] | /endpointConfigs | エンドポイントキャップ設定の作成 |
+| [!DNL POST] | /endpointConfigs/`{uid}`/deploy | エンドポイントキャップ設定のデプロイ |
+| [!DNL POST] | /endpointConfigs/`{uid}`/undeploy | エンドポイントキャップ設定のデプロイ解除 |
+| [!DNL POST] | /endpointConfigs/`{uid}`/canDeploy | エンドポイントキャップ設定をデプロイできるかどうかの確認 |
+| [!DNL PUT] | /endpointConfigs/`{uid}` | エンドポイントキャップ設定の更新 |
+| [!DNL GET] | /endpointConfigs/`{uid}` | エンドポイントキャップ設定の取得 |
+| [!DNL DELETE] | /endpointConfigs/`{uid}` | エンポイントキャップ設定の削除 |
 
 設定を作成または更新すると、ペイロードの構文と整合性を保証するチェックが自動的に実行されます。
 問題が発生した場合は、設定を修正するのに役立つ警告またはエラーが返されます。
@@ -75,7 +75,7 @@ Capping API を使用すると、キャッピング設定を作成、設定お�
 >
 >設定できる最大値は 400 です。何も指定しない場合、システムは動的なスケーリングに応じて、最大で数千の接続を開く可能性があります。
 >
->キャッピング設定をデプロイする際に、「maxHttpConnection」値を指定しない場合、デプロイ済みの設定にデフォルトの「maxHttpConnection = -1」が追加されます。つまり、Journey Optimizer はデフォルトのシステム値を使用します。
+>キャップ設定をデプロイする際に、「maxHttpConnection」値を指定しない場合、デプロイ済みの設定にデフォルトの「maxHttpConnection = -1」が追加されます。つまり、Journey Optimizer はデフォルトのシステム値を使用します。
 
 例：
 
@@ -110,24 +110,24 @@ Capping API を使用すると、キャッピング設定を作成、設定お�
 
 潜在的なエラーは次のとおりです。
 
-* **ERR_ENDPOINTCONFIG_100**：キャッピング設定：URL が見つからないか、無効です
-* **ERR_ENDPOINTCONFIG_101**：キャッピング設定：不正な URL です
-* **ERR_ENDPOINTCONFIG_102**：キャッピングの設定：不正な URL です：host:port で許可されていない URL のワイルド文字
-* **ERR_ENDPOINTCONFIG_103**：キャッピング設定：HTTP メソッドがありません
-* **ERR_ENDPOINTCONFIG_104**：キャッピング設定：呼び出しの評価が定義されていません
-* **ERR_ENDPOINTCONFIG_107**：キャッピング設定：無効な最大呼び出し数（maxCallsCount）です
-* **ERR_ENDPOINTCONFIG_108**：キャッピング設定：無効な最大呼び出し数（periodInMs）です
-* **ERR_ENDPOINTCONFIG_111**：キャッピング設定：エンドポイント設定を作成できません：無効なペイロードです
-* **ERR_ENDPOINTCONFIG_112**：キャッピング設定：エンドポイント設定を作成できません：JSON ペイロードが予想されます
+* **ERR_ENDPOINTCONFIG_100**：キャップ設定：URL が見つからないか、無効です
+* **ERR_ENDPOINTCONFIG_101**：キャップ設定：不正な URL です
+* **ERR_ENDPOINTCONFIG_102**: キャッピングの構成：不正な URL です：ホストで許可されていない URL のワイルド文字 :port
+* **ERR_ENDPOINTCONFIG_103**：キャップ設定：HTTP メソッドがありません
+* **ERR_ENDPOINTCONFIG_104**：キャップ設定：呼び出しの評価が定義されていません
+* **ERR_ENDPOINTCONFIG_107**：キャップ設定：無効な最大呼び出し数（maxCallsCount）です
+* **ERR_ENDPOINTCONFIG_108**：キャップ設定：無効な最大呼び出し数（periodInMs）です
+* **ERR_ENDPOINTCONFIG_111**：キャップ設定：エンドポイント設定を作成できません：無効なペイロードです
+* **ERR_ENDPOINTCONFIG_112**：キャップ設定：エンドポイント設定を作成できません：JSON ペイロードが予想されます
 * **ERR_AUTHORING_ENDPOINTCONFIG_1**：無効なサービス名 `<!--<given value>-->`：「dataSource」または「action」である必要があります
 
 潜在的な警告は次のとおりです。
 
-**ERR_ENDPOINTCONFIG_106**：キャッピング設定：最大 HTTP 接続数が定義されていません：デフォルトでは制限なし
+**ERR_ENDPOINTCONFIG_106**：キャップ設定：最大 HTTP 接続数が定義されていません：デフォルトではキャップなし
 
 ## ユースケース
 
-この節では、[!DNL Journey Optimizer] でキャッピング設定を管理する主なユースケースと、そのユースケースを実装するために必要な関連 API コマンドについて説明します。
+この節では、[!DNL Journey Optimizer] でキャップ設定を管理する主なユースケースと、そのユースケースを実装するために必要な関連 API コマンドについて説明します。
 
 各 API コマンドについて詳しくは、[API の説明と Postman コレクション](#description)を参照してください。
 
@@ -164,9 +164,9 @@ Capping API を使用すると、キャッピング設定を作成、設定お�
 
 +++
 
-+++1 つの手順でのデプロイ済みのキャッピング設定の削除
++++デプロイ済みのキャッピング設定を 1 ステップで削除
 
-1 回の API 呼び出しでのみ、`forceDelete` パラメーターを使用して設定をデプロイ解除および削除できます。
+1 回の API 呼び出しのみで、`forceDelete` パラメーターを使用して設定をデプロイ解除および削除できます。
 
 使用する API 呼び出し：
 
@@ -175,7 +175,7 @@ Capping API を使用すると、キャッピング設定を作成、設定お�
 
 +++
 
-+++既にデプロイ済みのキャッピング設定の更新
++++既にデプロイされているキャッピング設定の更新
 
 >[!NOTE]
 >

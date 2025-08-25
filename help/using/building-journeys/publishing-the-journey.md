@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 公開, ジャーニー, ライブ, 有効性, 確認
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 100%
 
@@ -87,4 +87,4 @@ ht-degree: 100%
 
 ジャーニーの公開方法について詳しくは、次のビデオを参照してください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3427936?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)

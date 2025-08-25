@@ -9,7 +9,7 @@ level: Experienced
 keywords: スキーマ, Platform, データ, 構造
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
 source-git-commit: 1a2c6e97fcd30245cff1bf08fd5771ce8bc84ddc
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 
 スキーマの作成、フィールドグループの追加、カスタムフィールドグループの作成および設定の方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3417458?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/334461?quality=12)
 
 >[!MORELIKETHIS]
 >

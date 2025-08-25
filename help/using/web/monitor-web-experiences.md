@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 exl-id: d89795bb-c51d-4d1f-b7ed-2b2c5d278922
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Web エクスペリエンスの監視をさらに強化するには、web サイ
 
 ## クリックの追跡を使用 {#use-click-tracking}
 
-Web デザイナーを使用すると、web サイトの任意の要素を選択し、その要素に対するクリック数をトラックできます。
+Web designer を使用すると、web サイトの任意の要素を選択し、その要素に対するクリック数をトラックできます。
 
 この情報は、web サイトのユーザーエクスペリエンスを向上させるのに役立ちます。例えば、実際にはクリックできない要素を多くのユーザーがクリックしたことが [web レポート](../reports/campaign-global-report-cja-web.md)でわかる場合は、その要素にリンクを追加したほうが良い可能性があります。
 

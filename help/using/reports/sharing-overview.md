@@ -10,8 +10,8 @@ level: Experienced
 exl-id: 29d6b881-35a3-4c62-9e7d-d0aeb206ea77
 source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 100%
+source-wordcount: '520'
+ht-degree: 93%
 
 ---
 
@@ -63,12 +63,12 @@ Adobe Experience Platform に渡される XDM フィールドのリストにつ�
 
 ## Customer Journey Analytics との統合 {#integration-cja}
 
-[!DNL Journey Optimizer] のステップイベントは、[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ja) の他のデータセットにリンクできます{target="_blank"}。
+[!DNL Journey Optimizer] のステップイベントは、[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=ja){target="_blank"} の他のデータセットにリンクできます。
 
 一般的なワークフローは次のとおりです。
 
 * [!DNL Customer Journey Analytics] は、「ジャーニーステップイベント」データセットを取り込みます。
 * 関連する「Journey Orchestration のジャーニーステップイベントスキーマ」の **profileID** フィールドは、ID フィールドとして定義されています。[!DNL Customer Journey Analytics] では、このデータセットを、ユーザーベースの識別情報と同じ値を持つ他のデータセットにリンクできます。
-* クロスチャネルジャーニー分析のために、このデータセットを [!DNL Customer Journey Analytics] で使用するには、[Customer Journey Analytics のドキュメント](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=ja)を参照してください{target="_blank"}。
+* クロスチャネルジャーニー分析でこのデータセットを [!DNL Customer Journey Analytics] で使用するには、[Customer Journey Analytics ドキュメント ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/cross-channel.html?lang=ja){target="_blank"} を参照してください。
 
-➡️ [カスタマージャーニー分析の操作](cja-ajo.md){target="_blank"}
+➡️ [Customer Journey Analyticsの操作 ](cja-ajo.md){target="_blank"}

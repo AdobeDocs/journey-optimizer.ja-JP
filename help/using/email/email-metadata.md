@@ -10,7 +10,7 @@ level: Intermediate
 keywords: プリヘッダー, エディター, 概要, メール
 exl-id: 7ed52b2e-eabf-414f-b169-4b004733dea9
 source-git-commit: 0f3191a3d7c5c78e1d8fac2e587e26522f02f8f5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 100%
 

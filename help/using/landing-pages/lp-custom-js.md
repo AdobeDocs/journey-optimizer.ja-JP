@@ -30,7 +30,7 @@ ht-degree: 100%
 
   ![](assets/lp_designer-html-component.png)
 
-* JavaScript コードをコンテンツデザイナーに直接入力または貼り付けます。独自のコンテンツの作成方法については、[この節](../email/code-content.md)を参照してください。
+* JavaScript コードをコンテンツ designer に直接入力または貼り付けます。独自のコンテンツの作成方法については、[この節](../email/code-content.md)を参照してください。
 
 >[!NOTE]
 >

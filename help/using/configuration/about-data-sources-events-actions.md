@@ -11,8 +11,8 @@ keywords: 設定, ジャーニー, ダッシュボード, データソース, �
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
 source-git-commit: 9eda5416ba72fae390fc7eca6d9a3c699cedde50
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 100%
+source-wordcount: '522'
+ht-degree: 96%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_configuration_dashboard"
 >title="ジャーニー設定について"
->abstract="ジャーニーでメッセージを送信するには、データソース、イベント、アクションを設定する必要があります。データソースを使用すると、ジャーニーで利用する追加情報（例：条件）を取得するよう、システムへの接続を確立できます。イベントを使用すると、イベントを受信したときにジャーニーをトリガーすることができます。カスタムアクションを使用すると、サードパーティのシステムへの接続が容易になり、メッセージを送信できます。Journey Optimizer 組み込みのメッセージ機能を使用している場合は、アクションを設定する必要はありません。"
+>abstract="ジャーニーでメッセージを送信するには、データソース、イベント、アクションを設定する必要があります。データソースを使用すると、ジャーニーで利用する追加情報（例：条件）を取得するよう、システムへの接続を確立できます。イベントを使用すると、イベントを受信したときにジャーニーをトリガーすることができます。カスタムアクションを使用すると、サードパーティのシステムへの接続が容易になり、メッセージを送信できます。Journey Optimizer のビルトインのメッセージ機能を使用している場合は、アクションを設定する必要はありません。"
 
-ジャーニーでメッセージを送信するには、**[!UICONTROL データソース]**、**[!UICONTROL イベント]**、**[!UICONTROL アクション]**&#x200B;を設定する必要があります。データソースを使用すると、ジャーニーで利用する追加情報（例：条件）を取得するよう、システムへの接続を確立できます。イベントを使用すると、イベントを受信したときにジャーニーをトリガーすることができます。カスタムアクションを使用すると、サードパーティのシステムへの接続が容易になり、メッセージを送信できます。Journey Optimizer 組み込みのメッセージ機能を使用している場合は、アクションを設定する必要はありません。
+ジャーニーでメッセージを送信するには、**[!UICONTROL データソース]**、**[!UICONTROL イベント]**、**[!UICONTROL アクション]**&#x200B;を設定する必要があります。データソースを使用すると、ジャーニーで利用する追加情報（例：条件）を取得するよう、システムへの接続を確立できます。イベントを使用すると、イベントを受信したときにジャーニーをトリガーすることができます。カスタムアクションを使用すると、サードパーティのシステムへの接続が容易になり、メッセージを送信できます。Journey Optimizer のビルトインのメッセージ機能を使用している場合は、アクションを設定する必要はありません。
 
 
 ![](assets/admin-menu.png)
@@ -42,13 +42,13 @@ ht-degree: 100%
 
 ## アクション {#actions}
 
-Journey Optimizer にはメッセージ機能があらかじめ組み込まれているので、ジャーニーにチャネルアクションアクティビティを追加するだけで済みます。サードパーティのシステムを使用してメッセージを送信する場合は、カスタムアクションを作成できます。[詳細情報](../../using/action/action.md)
+Journey Optimizer にはビルトインのメッセージ機能があるので、ジャーニーにチャネルアクションアクティビティを追加するだけで済みます。サードパーティのシステムを使用してメッセージを送信する場合は、カスタムアクションを作成できます。[詳細情報](../../using/action/action.md)
 
 ## Adobe Experience Platform フィールドの参照 {#friendly-names-display}
 
 [イベントペイロード](../event/about-creating.md#define-the-payload-fields)と[フィールドグループペイロード](../datasource/configure-data-sources.md#define-field-groups)を定義して[式エディター](../building-journeys/expression/expressionadvanced.md)でフィールドを選択する際には、フィールド名に加えて表示名が表示されます。この情報は、エクスペリエンスデータモデルのスキーマ定義から取得されます。
 
-スキーマの設定中に「xdm:alternateDisplayInfo」などの記述子が指定された場合、表示名はユーザーにわかりやすい名前に置き換えられます。この変数は、「eVar」および汎用フィールドを操作する場合に特に便利です。API 呼び出しを使用して、わかりやすい名前記述子を設定できます。詳しくは、[スキーマレジストリデベロッパーガイド](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=ja){target="_blank"}を参照してください。
+スキーマの設定時に「xdm:alternateDisplayInfo」などの記述子が指定されると、表示名がわかりやすい名前に置き換えられます。 この変数は、「eVar」および汎用フィールドを操作する場合に特に便利です。API 呼び出しを使用して、わかりやすい名前記述子を設定できます。詳しくは、[スキーマレジストリデベロッパーガイド](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=ja){target="_blank"}を参照してください。
 
 ![](assets/xdm-from-descriptors.png)
 

@@ -10,7 +10,7 @@ level: Experienced
 keywords: チャネル, サーフェス, 技術, パラメーター, Optimizer
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
 source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 100%
 
@@ -58,7 +58,7 @@ ht-degree: 100%
 
   ガイド付きチャネル設定を実行するために必要な権限を以下に示します。
 
-+++ 必要な権限
+  +++ 必要な権限
 
   <table>
     <thead>
@@ -107,7 +107,7 @@ ht-degree: 100%
     </tbody>
   </table>
 
-+++
+  +++
 
 * 既存の設定オプションを使用している場合は、次の Adobe Experience Platform Mobile SDK 拡張機能バージョンを使用していることを確認してください。必要な依存関係や初期化コードを含む SDK 設定について詳しくは、[次のドキュメント](https://experienceleague.adobe.com/ja/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks)を参照してください。
 

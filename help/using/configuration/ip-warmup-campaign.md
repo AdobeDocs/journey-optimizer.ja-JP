@@ -10,7 +10,7 @@ level: Intermediate
 keywords: IP, プール, 配信品質
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
 source-git-commit: 6da1d9a3edb8a30b8f13fd0cb6a138f22459ad00
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 100%
 

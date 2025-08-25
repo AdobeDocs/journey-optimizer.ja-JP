@@ -10,15 +10,15 @@ level: Intermediate
 keywords: データ, 管理, プラットフォーム
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '655'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
 # データ管理の基本を学ぶ {#about-data}
 
-カスタマーエクスペリエンスソリューションの強みと成功は、エンドカスタマーデータの充実度とカバレッジによって定義されます。また、このデータは貴重であり、特定の顧客にとって最高の価値があります。データ管理機能の評価が厳しくなり、テクノロジーの選択が本質的に組み込まれるようになりました。
+カスタマーエクスペリエンスソリューションの強みと成功は、エンドカスタマーデータの充実度とカバレッジによって定義されます。また、このデータは貴重であり、特定の顧客にとって最高の価値があります。データ管理機能の評価が厳しくなり、テクノロジーの選択が本質的にビルトインされるようになりました。
 
 [!DNL Adobe Journey Optimizer] を使用すると、このデータを簡単に管理、保持し、テクノロジースタックの一部であるプラットフォームやシステムに書き出すことができます。
 
@@ -72,7 +72,7 @@ ht-degree: 100%
 <!--
 * **Profile Service Data Retention**: For Behavioral and Time series data appended to any Profile, you may choose to use Journey Optimizer's default setting of retaining this data for up to 91 days from the date of its addition to a Profile, or until an alternative time-period selected by the you. The time that Adobe keeps this data varies from contract to contract, and is outlined in an organization's data retention policy.
 
-  Learn more about Experience Event expirations in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/event-expirations.html?lang=ja){target="_blank"}.
+  Learn more about Experience Event expirations in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/event-expirations.html){target="_blank"}.
 -->
 
 * **パージとアーカイブのメカニズム**：データのパージとアーカイブは、[!DNL Adobe Journey Optimizer] で自由に定義および自動化して、データ保持ポリシーを自動化できます。異なるデータエンティティに対して様々なエージング戦略を定義できます。また、古いデータをパージまたはアーカイブする前に自動的にエクスポートするように、エクスポートメカニズムを定義することもできます。

@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 exl-id: 0c8808e3-9148-4a33-9fd5-9218e02c2dfd
 source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 100%
 
@@ -89,6 +89,6 @@ ht-degree: 100%
 
 ## チュートリアルビデオ {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/346689?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/329376?quality=12)
 
 

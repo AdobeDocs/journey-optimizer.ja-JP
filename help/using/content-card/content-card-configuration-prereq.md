@@ -7,7 +7,7 @@ role: Admin
 level: Experienced
 exl-id: df92e319-1e42-486f-b688-595964a762c9
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ Adobe Journey Optimizer でコンテンツカードを正しく表示するに�
 
 * **Adobe Experience Platform**
 
-  デフォルトの結合ポリシーで、**顧客]**／**[!UICONTROL プロファイル**／**[!UICONTROL 結合ポリシー]** Experience Platform メニューで「**[!UICONTROL Active-On-Edge 結合ポリシー]**」が有効になっていることを確認します。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ja#configure){target="_blank"}
+  デフォルトの結合ポリシーで、**顧客]**／**[!UICONTROL プロファイル**／**[!UICONTROL 結合ポリシー]** Experience Platform メニューで「**[!UICONTROL Active-On-Edge 結合ポリシー]**」がアクティブになっていることを確認します。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ja#configure){target="_blank"}
 
   >[!NOTE]
   >

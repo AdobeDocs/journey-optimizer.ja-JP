@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 式, エディター, ライブラリ, パーソナライゼーション
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
 source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '961'
 ht-degree: 100%
 

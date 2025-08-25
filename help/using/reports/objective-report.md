@@ -12,9 +12,9 @@ hidefromtoc: true
 exl-id: ec1af88c-7b0a-4eaf-97e1-0d9676268fed
 badge: label="ベータ版" type="Informative"
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '480'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -34,7 +34,7 @@ Adobe Journey Optimizerで使用可能なすべての指標の詳細なリスト
 
 **[!UICONTROL キャンペーンの統計]**&#x200B;ウィジェットには、キャンペーンに関連する主な情報の詳細が表示されます。
 
-* **[!UICONTROL エントリしたプロファイル]**：ジャーニーを開始したプロファイルの数。
+* **[!UICONTROL エントリ済みプロファイル]**：ジャーニーを開始したプロファイルの数。
 
 * **[!UICONTROL 配信されたアクション]**：ジャーニー内のアクションが配信されたユニーク回数の合計。
 
@@ -64,7 +64,7 @@ Adobe Journey Optimizerで使用可能なすべての指標の詳細なリスト
 
 最もパフォーマンスの高い処理の判定には時間がかかる場合があり、このアイコン ![](assets/experimentation_report_1.png) が表示されます。
 
-+++実験レポートで使用できる様々な指標およびウィジェットについて説明します。
++++実験レポートで使用できる様々な指標およびウィジェットについて詳しくは、こちらを参照してください。
 
 **[!UICONTROL 実験結果]**&#x200B;ウィジェットは、各バリアントのパフォーマンスの詳細を説明します。ベースラインを変更するには、**[!UICONTROL ベースライン]**&#x200B;ドロップダウンから処理の 1 つを選択します。最も優れた処理には、星のアイコンが表示されます。
 

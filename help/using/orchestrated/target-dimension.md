@@ -50,7 +50,7 @@ ht-degree: 0%
 
    この例では、顧客プロファイルは複数のサブスクリプションにリンクされ、それぞれが `crmID` スキーマ内の一意の `Recipient` で表されます。 **[!UICONTROL スキーマとその]** ID を使用するように `Recipient`Target Dimension`crmID` を設定することで、メイン顧客プロファイルではなく購読レベルでメッセージを送信でき、各契約または明細が独自にパーソナライズされたメッセージを受信するようになります。
 
-   [詳しくは、Adobe Experience Platform ドキュメントを参照してください。](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/schema/composition#identity)
+   [詳しくは、Adobe Experience Platform ドキュメントを参照してください。](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity)
 
    ![](assets/target-dimension-2.png)
 
@@ -92,7 +92,7 @@ ht-degree: 0%
 
 1. 配信方法として **[!UICONTROL ターゲット +セカンダリDimension]** を選択した場合は、**[!UICONTROL セカンダリDimension]** を選択して、メッセージ配信のコンテキストを定義します。
 
-1. 「**[!UICONTROL 実行アドレス]**」セクションで、配信アドレスの取得に使用する **[!UICONTROL 2&rbrace;Source&rbrace; を選択します（メールアドレスや電話番号など）。]**
+1. 「**[!UICONTROL 実行アドレス]**」セクションで、配信アドレスの取得に使用する **[!UICONTROL 2}Source} を選択します（メールアドレスや電話番号など）。]**
 
    * **[!UICONTROL プロファイル]**：配信アドレス（メールなど）がメイン顧客プロファイルに直接保存されている場合は、このオプションを選択します。
 

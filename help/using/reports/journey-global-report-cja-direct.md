@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 6fae8beb-ca40-40a1-8939-c309fbf46c4f
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 ![](assets/cja-direct-sending-stat.png)
 
-**[!UICONTROL 送信統計]**&#x200B;テーブルでは、ダイレクト メールジャーニーのパフォーマンスに関するインサイトを得ることができます。ターゲット受信者の数や、正常に配信されたメールの数などの主要指標を確認します。これらはメールのリーチと効果を測定するのに役立ちます。
+**[!UICONTROL 送信統計]**&#x200B;テーブルでは、ダイレクトメールジャーニーのパフォーマンスに関するインサイトを得ることができます。ターゲット受信者の数や、正常に配信されたメールの数などの主要指標を確認します。これらはメールのリーチと効果を測定するのに役立ちます。
 
 +++ 詳しくは、送信統計指標を参照してください
 

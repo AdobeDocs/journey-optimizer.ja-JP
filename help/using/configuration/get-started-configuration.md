@@ -10,7 +10,7 @@ feature: Application Settings
 topic: Administration
 keywords: 設定,メッセージ,チャネル,サンドボックス,Optimizer
 source-git-commit: 21e2ea3e6a72d2a0eb0338df5665282d814501ac
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 100%
 

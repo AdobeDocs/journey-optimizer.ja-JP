@@ -10,7 +10,7 @@ level: Beginner
 keywords: アセット, 統合
 exl-id: 3e72df85-ba80-4cec-848b-7441cb3e7fef
 source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '693'
 ht-degree: 100%
 

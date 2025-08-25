@@ -7,7 +7,7 @@ role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
 source-git-commit: d2cdafef6f2d69ea85d9d042c859a8b1e7654d7d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '521'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Adobe Journey Optimizer には、オーディエンスと効果的にエンゲ�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 メールチャネル
 
@@ -37,7 +37,7 @@ Adobe Journey Optimizer には、オーディエンスと効果的にエンゲ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 プッシュ通知チャネル
 
@@ -47,7 +47,7 @@ Adobe Journey Optimizer には、オーディエンスと効果的にエンゲ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
 
 SMS／MMS／RCS メッセージ
 
@@ -57,7 +57,7 @@ SMS／MMS／RCS メッセージ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
 
 ダイレクトメールキャンペーン
 
@@ -75,7 +75,7 @@ SMS／MMS／RCS メッセージ
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 アプリ内メッセージ
 
@@ -85,7 +85,7 @@ SMS／MMS／RCS メッセージ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 Web
 
@@ -95,7 +95,7 @@ Web エクスペリエンスを作成、設定、パーソナライズし、web 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 コードベースのエクスペリエンス
 
@@ -105,7 +105,7 @@ SDK と API を使用して、デジタルプラットフォーム全体でパ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg)
 
 コンテンツカード
 

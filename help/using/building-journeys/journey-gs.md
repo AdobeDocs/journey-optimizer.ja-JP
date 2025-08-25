@@ -10,7 +10,7 @@ level: Intermediate
 keywords: ジャーニー, 最初, 開始, クイックスタート, オーディエンス, イベント, アクション
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '768'
 ht-degree: 100%
 
@@ -54,7 +54,7 @@ Adobe Journey Optimizer には、マーケターがマーケティングアウ�
 
 <!--   ![](assets/jo-datasource.png)  -->
 
-* Journey Optimizer には、[組み込みのメッセージ](../building-journeys/journeys-message.md)機能が含まれています。サードパーティシステムを使用してメッセージを送信する場合は、**カスタムアクションを作成**&#x200B;できます。詳しくは、[この節](../action/action.md)を参照してください。
+* Journey Optimizer には、[ビルトインのメッセージ](../building-journeys/journeys-message.md)機能が含まれています。サードパーティシステムを使用してメッセージを送信する場合は、**カスタムアクションを作成**&#x200B;できます。詳しくは、[この節](../action/action.md)を参照してください。
 
 <!--    ![](assets/custom2.png)  -->
 
@@ -82,7 +82,7 @@ Adobe Journey Optimizer には、マーケターがマーケティングアウ�
 
 ## ジャーニーのデザイン {#jo-design}
 
-オムニチャネルジャーニーデザイナーは、直感的なドラッグ＆ドロップインターフェイスを用いて、ターゲットオーディエンス、リアルタイムの顧客やビジネスインタラクションに基づく最新情報、およびオムニチャネルメッセージを使用した、複数手順のジャーニーの作成を支援します。
+オムニチャネルジャーニー designer は、直感的なドラッグ&amp;ドロップインターフェイスを用いて、ターゲットオーディエンス、リアルタイムの顧客やビジネスインタラクションに基づく最新情報、およびオムニチャネルメッセージを使用した、複数手順のジャーニーを作成できるようユーザーを支援します。
 
 ![](assets/journey38.png)
 

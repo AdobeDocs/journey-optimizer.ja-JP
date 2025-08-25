@@ -10,7 +10,7 @@ level: Intermediate
 keywords: タイムゾーン, プロパティ, ジャーニー, 条件, 時間, 日付, カスタム
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
 source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 100%
 

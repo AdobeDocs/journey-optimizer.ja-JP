@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
 source-git-commit: a9f2eae6398f92a40accb62b1d4544bda031559c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 100%
 
@@ -48,4 +48,4 @@ ht-degree: 100%
 
 [!DNL Journey Optimizer] でコンテンツテンプレートを作成、編集、使用する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3418587/?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3413743/?quality=12)

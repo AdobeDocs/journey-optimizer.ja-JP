@@ -8,7 +8,8 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: メール，メッセージ，添付ファイル，pdf, エディター
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+exl-id: 71e218d0-5b3b-4db5-8b7b-d08df8f088c4
+source-git-commit: 2e394ea4ba6f3a46df997d48331cbe6ea09f0eb5
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 25%

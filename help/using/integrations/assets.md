@@ -10,7 +10,7 @@ level: Beginner
 keywords: アセット, Experience Manager, 統合
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
 source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '787'
 ht-degree: 100%
 
@@ -63,13 +63,13 @@ ht-degree: 100%
 
    ![](assets/media_library_4.png)
 
-+++ アセットリポジトリを切り替える方法を説明します。
+   +++ アセットリポジトリを切り替える方法を説明します。
 
    アセットリポジトリを変更するには、右上のアカウントアイコンを選択し、「**[!UICONTROL リポジトリを選択]**」をクリックします。
 
    ![](assets/media_library_3.png)
 
-+++
+   +++
 
 1. 中央のセクションまたはツリービューでフォルダーをダブルクリックして開きます。
 

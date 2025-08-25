@@ -10,7 +10,7 @@ role: User
 level: Beginner, Intermediate
 exl-id: c22a44a8-e4e2-453a-9ca2-b80f7c0edc19
 source-git-commit: 11c6dd43d6b20864f9823130c5aed790a3091938
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 100%
 
@@ -140,4 +140,4 @@ The following limitations apply to GenStudio integration in [!DNL Adobe Journey 
 
 Journey Optimizer から GenStudio for Performance Marketing にメールテンプレートをエクスポートし、GenStudio のテンプレートを使用してブランドに準拠したメールを作成し、Journey Optimizer にシームレスにインポートするプロセスについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3456050/?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3456038/?quality=12)

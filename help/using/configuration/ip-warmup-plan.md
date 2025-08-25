@@ -10,9 +10,9 @@ level: Experienced
 keywords: IP、グループ、サブドメイン、配信品質
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1760'
-ht-degree: 100%
+ht-degree: 84%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 IP ウォームアッププランへのアクセス、作成、編集および削除には、**[!UICONTROL 配信品質コンサルタント]**&#x200B;の役割または IP ウォームアッププラン関連の権限が必要です。
 
-+++配信品質コンサルタントの役割または IP ウォームアッププラン関連の権限を割り当てる方法を学ぶ
++++配信品質コンサルタントの役割または IP ウォームアッププランに関連する権限を割り当てる方法について説明します
 
 オブジェクトレベルのアクセス制御により、データを保護し、プランを表示および管理するための特定のアクセス権を付与できます。IP ウォームアッププランにラベルが割り当てられていない場合は、すべてのユーザーが表示および編集できるようになります。
 
@@ -46,13 +46,13 @@ IP ウォームアッププランへのアクセス、作成、編集および�
 
 該当する役割を&#x200B;**[!UICONTROL ユーザー]**&#x200B;に割り当てるには、次の手順に従います。
 
-1. [!DNL Permissions] 製品から、**[!UICONTROL 役割]**&#x200B;メニューに移動して、**[!UICONTROL 配信品質コンサルタント]**&#x200B;の組み込みの役割を選択します。
+1. [!DNL Permissions] 製品から、**[!UICONTROL 役割]**&#x200B;メニューに移動して、**[!UICONTROL 配信品質コンサルタント]**&#x200B;のビルトインの役割を選択します。
 
 1. **[!UICONTROL 役割]**&#x200B;ダッシュボードで、「**[!UICONTROL ユーザー]**」タブにアクセスします。
 
    ![](assets/ip_permissions_3.png)
 
-1. 「**[!UICONTROL ユーザーを追加]**」をクリックして、**[!UICONTROL 配信品質コンサルタント]**&#x200B;の組み込みの役割を割り当てます。
+1. 「**[!UICONTROL ユーザーを追加]**」をクリックして、**[!UICONTROL 配信品質コンサルタント]**&#x200B;のビルトインの役割を割り当てます。
 
    ![](assets/ip_permissions_4.png)
 
@@ -140,19 +140,19 @@ IP ウォームアッププランテンプレートの「**OOTB ドメイング�
 また、標準のメインドメイングループも以下に示します。
 
 +++ Gmail
-gmail.com、google.com、googlemail.com、googlemail.co.uk
+gmail.com;google.com;googlemail.com;googlemail.co.uk
 +++
 
 +++Microsoft
-hotmail.com.tr、live.de、live.ru、live.nl、windowslive.com、live.jp、mts.net、xbox.com、hotmail.fr、hotmail.cl、hotmail.jp、live.cl、live.at、live.com.au、hotmail.co.th、live.hk、hotmail.com.au、hotmail.com、live.com.my、hotmail.co.kr、live.ie、outlook.com.br、hotmail.co.il、hotmail.dk、live.co.kr、live.co.uk、live.com.mx、outlook.ie、live.cn、hotmail.co.uk、live.com.sg、hotmail.es、live.fr、live.no、live.dk、hotmail.it、msn.com、live.se、hotmail.co.jp、live.be、live.co.za、live.in、hotmail.se、live.com.pt、hotmail.ch、outlook.com、live.com、hotmail.gr、live.it、live.com.ar、hotmail.ca、hotmail.com.br、hotmail.com.ar、live.ca、hotmail.de
+hotmail.com.tr;live.de;live.ru;live.nl;windowslive.com;live.jp;mts.net;xbox.com;hotmail.fr;hotmail.cl;hotmail.jp;live.cl;live.at;live.com.au;hotmail.co.th;live.hk;hotmail.com.au;hotmail.com;live.com.my;hotmail.co.kr;live.ie;outlook.com.br hotmail.co.il;hotmail.dk;live.co.kr;live.co.uk live.com.mx hotmail.co.uk live.com.sg msn.com hotmail.co.jp live.co.za live.com.pt outlook.com live.com live.com.ar hotmail.com.br hotmail.com.ar;outlook.ie;live.cn;;hotmail.sdk;live.no;live.dk;hotmail.it;live.se;live.jp;hotmail.se;hotmail.ch;live.gr it；電話；hotmail.ca；電話；live.ca;hotmail.de
 +++
 
 +++Yahoo
-aol.fi、games.com、cs.com、yahoo.com.in、y7mail.com、yahoo.co.uk、yahoo.hu、yahoo.co.hu、yahoo.cn、yahoogroups.com.sg、yahoogroups.com.au、aol.es、yahoo.com.au、yahoo.com.vn、yahoo.ca、aol.hk、aol.co.nz、yahoo.com.br、aolpoland.pl、aolnorge.no、yahoo.ne.jp、yahoo.fi、ymail.com、netscape.com、yahoo.com.pe、yahoo.hr、aol.cz、yahoo.ee、aol.be、aolcom.tr、yahoo.si、yahoo.co.id、aol.it、citlink.net、wmconnect.com、yahoo.es、yahoo.dk、yahoogroups.ca、yahoo.com.jp、yahoo.com.hk、aol.kr、yahoo.ie、aol.jp、aol.com.br、yahoo.lt、yahoo.co.kr、aol.nl、yahoo.com.ar、yahoo.bg、ygm.com、yahoo.co.nz、aol.se、aol.com、yahoo.de、goowy.com、rocketmail.com、frontiernet.net、aim.com、yahoo.nl、yahoogroups.co.in、aol.dk、netscape.net、aol.cl、luckymail.com、yahoo.no、yahoo.co.jp、yahoo.com.kr、yahoo.cz、yahoo.co.za、yahoo.sk、verizon.net、yahoogroups.de、yahoo.gr、aol.com.ve、aol.com.ar、yahoo.ro、aol.com.co、wild4music.com、yahoo.at、yahoogroups.com.cn、yahoo.com.co、wow.com、aol.fr、yahoo.in、aol.in、yahoo.com、yahoo.rs、aol.de、yahooxtra.co.nz、yahoo.com.mx、yahoo.com.ph、sky.com、aol.com.mx、aol.com.au、yahoo.se、myaol.jp、aolchina.com、yahoo.pt、yahoo.com.net、yahoo.com.tw、yahoogrupper.dk、yahoo.fr、talk21.com、compuserve.com、aol.pl、yahoo.com.sg、yahoogroups.com.tw、aol.ch、yahoo.it、frontier.com、yahoo.co.in、aolpolcka.pl、yahoo.co.il、verizon.net.in、yahoogruppi.it、yahoo.com.tr、yahoo.cl、yahoogroups.com.hk、yahoogroups.co.uk、yahoo.com.biz、yahoo.com.hr、yahoo.be、aol.co.uk、ybb.ne.jp、aol.tw、yahoogroups.co.kr、yahoo.com.my、rogers.com、gte.net、yahoogroups.com、yahoo.co.th、yahoo.com.cn、love.com、bellatlantic.net、aol.ru、yahoo.com.ve、yahoo.com.ua、yahoo.lv、aolpolska.pl、aol.at、yahoo.pl
+aol.fi;games.com;cs.com;yahoo.com.in;y7mail.com;yahoo.co.uk;yahoo.hu;yahoo.co.hu;yahoo.cn;yahoogroups.com.sg;yahoogroups.com.au;aol.es;yahoo.com.au;yahoo.com.vn;yahoo.ca;aol.hk;aol.co.nz;yahoo.com.br;aolpoland.pl;aolnorge.no;yahoo.ne.jp;yahoo.fi;ymail.com netscape.com yahoo.com.pe yahoo.co.id citlink.net wmconnect.com yahoo.com.jp yahoo.com.hk aol.com.br yahoo.co.kr yahoo.com.ar ygm.com yahoo.co.nz aol.com goowy.com rocketmail.com frontiernet.net aim.com yahoogroups.co.in netscape.net luckymail.com yahoo.co.jp yahoo.com.kr yahoo.co.za verizon.net aol.com.ve aol.com.ar aol.com.co wild4music.com yahoogroups.com.cn yahoo.com.co wow.com yahoo.com yahooxtra.co.nz yahoo.com.mx yahoo.com.ph sky.com aol.com.mx aol.com.au aolchina.com yahoo.com.net yahoo.com.tw talk21.com compuserve.com yahoo.com.sg yahoogroups.com.tw frontier.com yahoo.co.in yahoo.co.il verizon.net.in yahoo.com.tr yahoogroups.com.hk yahoogroups.co.uk yahoo.com.biz yahoo.com.hr aol.co.uk ybb.ne.jp yahoogroups.co.kr yahoo.com.my rogers.com gte.net yahoogroups.com yahoo.co.th yahoo.com.cn love.com bellatlantic.net yahoo.com.ve yahoo.com.ua;;yahol.fi;aolcom.tr;yahoo.si;aol.it;yahoo.es;yahoo.dk;yahoo.ca;yahoo.jp;aol.jp AOL;yahoo.lt;AOL.nl;AOL.BG;ASL;AOL.SE;ASL;yahoo.de;AOL.CL;AOL.DK;AOL.CL;ASL;YAHOO.NO;YAHOO.DE;YAHOO.GR;ASL;YAHOO.CR;AOL.IN;AOL.DE;aol;AOL;DE;DE;DE;DE AOL;AOL;AOL.JP;YAHOO.PT;JAR;yahoo.fr;JAR;yahoo.fr;AOL.pl;AOL.CH;YAHOO.IT;AOL.PL;AOL.RUPPI.IT;YAHOL.CL;;AOL.TW;AOL.TW;AOL.TW;AOL;AOL;aolska;aolska;aolska ol.at;yahoo.pl
 +++
 
 +++Apple
-mac.com、icloud.com、apple.com、me.com
+mac.com;icloud.com;apple.com;me.com
 +++
 
 +++Comcast
@@ -160,7 +160,7 @@ comcast.net
 +++
 
 +++Orange
-voila.com、francetelecom.com、orange.com、orange.fr、wanadoo.fr、voila.fr
+voila.com;francetelecom.com;orange.com;orange.fr;wanadoo.fr;voila.fr
 +++
 
 +++La Poste
@@ -168,7 +168,7 @@ laposte.net
 +++
 
 +++Italia Online
-inwind.it、blu.it、virgilio.it、giallo.it、iol.it、libero.it
+inwind.it;blu.it;virgilio.it;giallo.it;iol.it;libero.it
 +++
 
 +++WP
@@ -176,11 +176,11 @@ wp.pl;o2.pl
 +++
 
 +++United Internet
-gmx.de、1and1.com、gmx.fr、mail.com、1und1.de、gmx.com、gmx.net、gmx.at、web.de、gmx.ch
+gmx.de;1and1.com;gmx.fr;mail.com;1und1.de;gmx.com;gmx.net;gmx.at;web.de;gmx.ch
 +++
 
 +++Bigpond
-bigpond.com、bigpond.com.au、bigpond.net、telstra.com、bigpond.net.au
+bigpond.com;bigpond.com.au;bigpond.net;telstra.com;bigpond.net.au
 +++
 
 +++Docomo
@@ -188,11 +188,11 @@ docomo.ne.jp
 +++
 
 +++Softbank
-c.vodafone.ne.jp、jp-h.ne.jp、k.vodafone.ne.jp、jp-d.ne.jp、jp-c.ne.jp、t.vodafone.ne.jp、h.vodafone.ne.jp、r.vodafone.ne.jp、q.vodafone.ne.jp、jp-t.ne.jp、jp-q.ne.jp、s.vodafone.ne.jp、jp-s.ne.jp、jp-r.ne.jp、jp-k.ne.jp、n.vodafone.ne.jp、d.vodafone.ne.jp、softbank.ne.jp、jp-n.ne.jp
+c.vodafone.ne.jp;jp-h.ne.jp;k.vodafone.ne.jp;jp-d.ne.jp;jp-c.ne.jp;t.vodafone.ne.jp;h.vodafone.ne.jp;r.vodafone.ne.jp;q.vodafone.ne.jp;jp-t.ne.jp;jp-q.ne.jp;s.vodafone.ne.jp;jp-s.ne.jp;jp-r.ne.jp;jp-k.ne.jp;;n.vodafone.ne.jp;d.vodafone.ne.jp;softbank.ne.jp;jp-n.ne.jp;;
 +++
 
 +++KDDI
-au.com、ezweb.ne.jp、uqmobile.jp
+au.com;ezweb.ne.jp;uqmobile.jp
 +++
 
 ### 例 {#example}

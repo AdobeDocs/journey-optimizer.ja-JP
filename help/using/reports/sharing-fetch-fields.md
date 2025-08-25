@@ -45,7 +45,7 @@ ht-degree: 100%
 
 値：
 * http
-* キャッピング
+* キャップ
 * timedout
 * error
 

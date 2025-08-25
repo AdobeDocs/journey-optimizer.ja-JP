@@ -8,8 +8,8 @@ level: Experienced
 exl-id: e9bd7602-8945-4768-8a56-dc13ade32a0b
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 100%
+source-wordcount: '225'
+ht-degree: 88%
 
 ---
 
@@ -48,7 +48,7 @@ curl -X GET \
 | --------- | ----------- | ------- |
 | `q` | 選択したフィールドで検索するオプションのクエリ文字列。クエリ文字列は小文字にする必要があり、二重引用符で囲むことで、トークン化を防ぎ、特殊文字をエスケープできます。次の文字 `+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` は特別な意味を持ち、クエリ文字列に出現する場合はバックスラッシュでエスケープする必要があります。 | `default` |
 | `qop` | 「q」クエリ文字列パラメーターの値に AND または OR 演算子を適用します。 | `AND` または `OR` |
-| `field` | 検索を制限するフィールドのリスト（オプション）。このパラメーターは、field=field1[,field=field2,...] のように繰り返すことができます（パス式は「_instance.xdm:name」などのドット区切りパスの形式です）。 | `_instance.xdm:name` |
+| `field` | 検索を制限するフィールドのリスト（オプション）。このパラメーターは、次のように繰り返すことができます。field=field1[,field=field2,...] and （パス式は、_instance.xdm:name などのドット区切りパスの形式です） | `_instance.xdm:name` |
 | `orderBy` | 特定のプロパティで結果を並べ替えます。タイトルの前に `-` を追加すると（`orderby=-title`）、アイテムがタイトルの降順（Z-A）に並べ替えられます。 | `-repo:createdDate` |
 | `limit` | 返す決定の数を制限します。 | `limit=5` |
 

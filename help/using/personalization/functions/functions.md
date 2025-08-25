@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
 source-git-commit: e255751e411d8b623a12780a52a54551b5d65182
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2399'
 ht-degree: 100%
 
@@ -516,4 +516,4 @@ ht-degree: 100%
 
 パーソナライズ機能のヘルパー関数を使用してパーソナライゼーション値を変換する方法と、ヘルパー関数の様々なユースケースを説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416781?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

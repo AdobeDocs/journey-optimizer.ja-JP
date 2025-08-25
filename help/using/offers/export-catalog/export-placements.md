@@ -8,9 +8,9 @@ role: User, Data Engineer
 level: Intermediate
 exl-id: 3e45f3cf-e17e-43a6-8424-98afef07aaa3
 source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '366'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -78,7 +78,7 @@ ht-degree: 100%
 
 +++
 
-+++_experience > decisioning > contentTypes > MIME Media Type
++++_experience/決定/contentTypes/MIME メディアタイプ
 
 **タイトル：**MIME メディアタイプ
 **説明：**そのプレースメントに必要なコンポーネントのメディアタイプに対する制約。異なる画像形式など、1 つのコンポーネントに対して複数のメディアタイプが存在する場合があります。

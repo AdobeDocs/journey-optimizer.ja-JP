@@ -8,9 +8,9 @@ level: Beginner
 keywords: アプリ内, メッセージ, 作成, 開始
 exl-id: 5a67177e-a7cf-41a8-9e7d-37f7fe3d34dc
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '634'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -58,14 +58,14 @@ Web アプリ内チャネルを設定するには、次の手順に従います�
 
    1. 必要に応じて、イベントのドロップダウンをクリックしてトリガーを変更します。
 
-      +++使用可能なトリガーについては、こちらを参照してください。
+      +++利用可能なトリガーを参照してください。
 
       | パッケージ | トリガー | 定義 |
       |---|---|---|
       | Platform | Platform にデータを送信済み | モバイルアプリがエッジエクスペリエンスイベントを発行してデータを Adobe Experience Platform に送信するとトリガーされます。通常、API は AEP Edge 拡張機能から [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) を呼び出します。 |
       | 手動 | 手動トリガー | 2 つの関連データ要素：キーは、データセットを定義する定数（例：性別、色、価格など）です。値は、そのセットに属する変数（例：男性／女性、緑、100 など）です。 |
 
-+++
+      +++
 
    1. トリガーで複数のイベントまたは条件を考慮する場合は、「**[!UICONTROL 条件を追加]**」をクリックします。
 
@@ -75,14 +75,14 @@ Web アプリ内チャネルを設定するには、次の手順に従います�
 
    1. カスタム&#x200B;**[!UICONTROL 特性]**&#x200B;を追加してルールを微調整する場合は、**[!UICONTROL And]** 条件を選択します。
 
-      +++使用可能な特性についてはこちらを参照。
+      +++使用可能な特性を参照してください。
 
       | パッケージ | 特性 | 定義 |
       |---|---|---|
       | Platform | XDM イベントタイプ | 指定されたイベントタイプに一致するとトリガーされます。 |
       | Platform | XDM 値 | 指定された XDM 値に一致するとトリガーされます。 |
 
-+++
+      +++
 
       ![](assets/in_app_web_surface_9.png)
 

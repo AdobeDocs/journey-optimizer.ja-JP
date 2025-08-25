@@ -36,29 +36,29 @@ Adobe Experience Platform を使用すると、データを外部ソースから
   <tbody>
     <tr>
       <td rowspan="3">クラウドストレージ</td>
-      <td><a href="https://experienceleague.adobe.com/ja/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3">Amazon S3</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3">Amazon S3</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/ja/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/google-cloud-storage">Google Cloud Storage</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/google-cloud-storage">Google Cloud Storage</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/ja/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/sftp">SFTP</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/sftp">SFTP</a></td>
     </tr>
       <td rowspan="4">クラウドデータウェアハウス</td>
-      <td><a href="https://experienceleague.adobe.com/ja/docs/experience-platform/sources/ui-tutorials/create/databases/snowflake">Snowflake</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/snowflake">Snowflake</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/ja/docs/experience-platform/sources/ui-tutorials/create/databases/bigquery">Google BigQuery</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/bigquery">Google BigQuery</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/ja/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/data-landing-zone">Data Landing Zone<a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/data-landing-zone">Data Landing Zone<a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/ja/docs/experience-platform/sources/ui-tutorials/create/databases/databricks">Azure Databricks</a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/databases/databricks">Azure Databricks</a></td>
     </tr>
     <tr>
       <td rowspan="3">ファイルベースのアップロード</td>
-      <td><a href="https://experienceleague.adobe.com/ja/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload">ローカルファイルのアップロード<a></td>
+      <td><a href="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/local-system/local-file-upload">ローカルファイルのアップロード<a></td>
     </tr>
 
 </tbody>

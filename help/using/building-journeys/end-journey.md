@@ -9,7 +9,7 @@ level: Intermediate
 keywords: 再エントリ, ジャーニー, 終了, ライブ, 停止
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->* [クローズ](#close-journey)したジャーニーや[停止](#stop-journey)したジャーニーは再開または削除できません。クローズしたジャーニーから[新しいバージョンを作成](publishing-the-journey.md#journey-versions-journey-versions)したり、[複製を作成](journey-ui.md#duplicate-a-journey-duplicate-a-journey)したりできます。
+>* [クローズ](#close-journey)したジャーニーや[停止](#stop-journey)したジャーニーは再起動または削除できません。クローズしたジャーニーから[新しいバージョンを作成](publishing-the-journey.md#journey-versions-journey-versions)したり、[複製を作成](journey-ui.md#duplicate-a-journey-duplicate-a-journey)したりできます。
 >
 >* 削除できるのは完了したジャーニーのみです。
 

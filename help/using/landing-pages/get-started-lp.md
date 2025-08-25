@@ -10,9 +10,9 @@ level: Beginner
 keywords: ランディング, ランディングページ, 開始, 開始
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '209'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '208'
+ht-degree: 94%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 [!DNL Journey Optimizer] を使用すると、ランディングページを作成およびデザインして、ユーザーはオンラインフォームにアクセスし、コミュニケーションのオプトインやオプトアウトを行ったり、ニュースレターなどの特定のサービスを購読したりできます。
 
-➡️ [購読の設定とランディングページの作成について詳しくは、このビデオをご覧ください](#video)
+➡️ [ サブスクリプションの設定とランディングページの作成について詳しくは、このビデオを参照してください ](#video)
 
 * [!DNL Journey Optimizer]のコンテンツデザイン機能を活用すると、**レスポンシブランディングページ**&#x200B;を簡単に作成できます。
 * **オプトインおよびオプトアウトフロー**&#x200B;を迅速かつシームレスに設定します。
@@ -71,4 +71,4 @@ ht-degree: 100%
 
 次のビデオでは、サブスクリプションリストの作成方法、サービスのサブスクリプションの登録や解除を行うためのランディングページの設定方法、メッセージへのサブスクリプションの登録や解除のオプションの統合方法、関連するジャーニーの設定方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/344400?quality=12&learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)

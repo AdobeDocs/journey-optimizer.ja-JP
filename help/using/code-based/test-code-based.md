@@ -7,9 +7,9 @@ role: User
 level: Experienced
 exl-id: 9a1c148c-a6c3-406b-8f2e-1cf8b8239e75
 source-git-commit: effc706cfa56eca21cde0f26fe7b6332d3728b74
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '732'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -95,7 +95,7 @@ Web ページやモバイルアプリのコードベースのエクスペリエ�
 
    * 「**[!UICONTROL リンクをコピー]**」ボタンを選択して、変更の実施前に任意のモバイルブラウザーで新しいエクスペリエンスをプレビューできるチームや関係者とリンクを共有します。
 
-   * モバイルデバイスで QR コードをスキャンし、モバイルアプリケーションでプレビューリンクを直接開きます。[Assurance](https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/tutorials/implement-assurance){target="_blank"} セッションを確立するには、デバイスに PIN を入力する必要があります。
+   * モバイルデバイスで QR コードをスキャンし、モバイルアプリケーションでプレビューリンクを直接開きます。[Assurance](https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/tutorials/implement-assurance){target="_blank"} セッションを確立するには、デバイスで PIN を入力する必要があります。
 
      >[!NOTE]
      >

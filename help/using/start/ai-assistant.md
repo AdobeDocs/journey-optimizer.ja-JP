@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 03136a25-b826-49e9-86c4-b3711913ee72
 source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 # AI アシスタントの操作 {#ai-assistant}
 
-AI アシスタントは、アドビのコンセプトをナビゲートして理解し、特定の環境の運用上のインサイトを得るために使用できるユーザーインターフェイス機能です。Adobe Journey Optimizer を含む Adobe Experience Cloud 全体の複数の製品で使用できます。
+AI アシスタントは、アドビのコンセプトをナビゲートして理解し、特定の環境の運用上のインサイトを得るために使用できるユーザーインターフェイス機能です。Adobe Journey Optimizer を含め、Adobe Experience Cloud 全体の複数の製品で使用できます。
 
 AI アシスタントにアクセスするには、上部バーのアイコンをクリックします。画面の右側のセクションに AI アシスタントが表示されます。
 

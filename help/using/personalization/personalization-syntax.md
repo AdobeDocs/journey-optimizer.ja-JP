@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 式, エディター, 構文, パーソナライゼーション
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '572'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 100%
 
   条件でプロファイル属性を活用する方法について詳しくは、[この節](functions/helpers.md#if-function)を参照してください。
 
-  +++参照の例
+  +++サンプルリファレンス
 
    * `{{profile.person.name.fullName}}`
    * `{{profile.person.name.firstName}}`
@@ -69,7 +69,7 @@ ht-degree: 100%
    * `{{profile.homeAddress.city}}`
    * `{{profile.faxPhone.number}}`
 
-+++
+  +++
 
 * **オーディエンス**
 
@@ -94,7 +94,7 @@ ht-degree: 100%
 
   すべての参照は、[このページ](../personalization/personalization-build-expressions.md)で説明されている検証メカニズムを使用して、オファースキーマに対して検証されます
 
-  +++参照の例
+  +++サンプルリファレンス
 
    * 画像がホストされる場所：
 
@@ -112,7 +112,7 @@ ht-degree: 100%
 
      `offers.html.[offers:xcore:offer-placement:126f767d74b0da80].[xcore:offer-activity:125e2c6889798fd9].content`
 
-+++
+  +++
 
 ## ヘルパー{#helpers-all}
 

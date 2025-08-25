@@ -10,7 +10,7 @@ level: Intermediate
 keywords: ジャーニー, 統合, 標準, キャンペーン, ACS
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 100%
 
@@ -23,13 +23,13 @@ ht-degree: 100%
 >title="カスタムアクション"
 >abstract="統合は、Adobe Campaign Standard のユーザーが使用できます。Adobe Campaign のトランザクションメッセージ機能を使用して、メール、プッシュ通知、SMS などを送信できるようになります。"
 
-Adobe Campaign Standard をお使いの場合、**[!UICONTROL メール]**、**[!UICONTROL プッシュ]**&#x200B;および **[!UICONTROL SMS]** の組み込みアクションアクティビティを使用できます。
+Adobe Campaign Standard をお使いの場合、**[!UICONTROL メール]**、**[!UICONTROL プッシュ]**&#x200B;および **[!UICONTROL SMS]** のビルトインのアクションアクティビティを使用できます。
 
 >[!NOTE]
 >
->その場合、組み込みのアクションを設定する必要があります。[このページ](../action/acs-action.md)を参照してください。
+>その場合、ビルトインのアクションを設定する必要があります。[このページ](../action/acs-action.md)を参照してください。
 
-これらのチャネルごとに、Adobe Campaign Standard トランザクションメッセージ&#x200B;**テンプレート**&#x200B;を選択します。組み込みのメール、SMS およびプッシュチャネルの場合、メッセージ送信の実行にはトランザクションメッセージを使用します。つまり、ジャーニーで特定のメッセージテンプレートを使用する場合は、Adobe Campaign Standard で公開する必要があります。この機能の使用方法を学ぶには、[このページ](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=ja)を参照してください。
+これらのチャネルごとに、Adobe Campaign Standard トランザクションメッセージ&#x200B;**テンプレート**&#x200B;を選択します。ビルトインのメール、SMS およびプッシュチャネルの場合、メッセージ送信の実行にはトランザクションメッセージを使用します。つまり、ジャーニーで特定のメッセージテンプレートを使用する場合は、Adobe Campaign Standard で公開する必要があります。この機能の使用方法を学ぶには、[このページ](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=ja)を参照してください。
 
 >[!NOTE]
 >

@@ -11,7 +11,7 @@ exl-id: 71c652ba-f38f-452c-9c1b-dcd728307baf
 source-git-commit: f99ba639b5d47fa334741b7e55e7bce83697626d
 workflow-type: tm+mt
 source-wordcount: '138'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -27,8 +27,8 @@ Adobe Experience Platform オーディエンスポータルでは、CSV ファ�
 
 ![](assets/import-audience.png)
 
-オーディエンスを読み込む方法について詳しくは、Adobe Experience Platform の[セグメント化サービスのドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}を参照してください。
+オーディエンスのインポート方法について詳しくは、Adobe Experience Platform[ セグメント化サービスのドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"} を参照してください。
 
 オーディエンスを CSV 形式でアップロードする方法について詳しくは、次のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3423359?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3421714?quality=12)

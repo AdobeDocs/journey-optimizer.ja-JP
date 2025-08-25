@@ -8,8 +8,8 @@ level: Experienced
 exl-id: dd95c040-d905-4f5a-8cc5-58e39082e57e
 source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 100%
+source-wordcount: '210'
+ht-degree: 95%
 
 ---
 
@@ -43,7 +43,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offers?offer-type=fallback&
 
 ## クエリパラメーターの使用 {#using-query-parameters}
 
-リソースのリストを表示する際に、クエリパラメーターを使用してページを作成し、結果をフィルターできます。
+リソースを一覧表示する際に、クエリパラメーターを使用して結果をページングおよびフィルタリングできます。
 
 ### ページング {#paging}
 

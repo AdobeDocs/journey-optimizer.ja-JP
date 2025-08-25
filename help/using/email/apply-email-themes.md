@@ -11,7 +11,7 @@ level: Beginner, Intermediate
 keywords: メールテーマ, モジュール, 再利用性, ブランドの一貫性, メールデザイン, カスタム CSS, モバイルの最適化
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
 source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '832'
 ht-degree: 100%
 

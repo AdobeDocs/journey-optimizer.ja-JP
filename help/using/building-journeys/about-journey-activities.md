@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 keywords: ジャーニー, アクティビティ, 開始, イベント, アクション
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 source-git-commit: 527a539272460aa6aa22de5bb3da2223521ee2a3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '688'
 ht-degree: 100%
 
@@ -30,11 +30,11 @@ ht-degree: 100%
 * [反応](../building-journeys/reaction-events.md)
 * [オーディエンスの選定](../building-journeys/audience-qualification-events.md)
 
-![ジャーニーデザイナーのイベントアクティビティパレット](assets/journey43.png)
+![ジャーニー designer のイベントアクティビティパレット](assets/journey43.png)
 
 ジャーニーを開始するには、イベントアクティビティをドラッグ＆ドロップします。ダブルクリックでも開始できます。
 
-![ジャーニーデザイナーのイベントアクティビティのドラッグ＆ドロップ](assets/journey44.png)
+![ジャーニー designer のイベントアクティビティのドラッグ＆ドロップ](assets/journey44.png)
 
 ## オーケストレーションアクティビティ {#orchestration-activities}
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 * [待機](../building-journeys/wait-activity.md)
 * [オーディエンスを読み取り](../building-journeys/read-audience.md)
 
-![ジャーニーデザイナーのオーケストレーションアクティビティパレット](assets/journey49.png)
+![ジャーニー designer のオーケストレーションアクティビティパレット](assets/journey49.png)
 
 ## アクションアクティビティ {#action-activities}
 
@@ -54,11 +54,11 @@ ht-degree: 100%
 
 画面左側にあるパレットの「**[!UICONTROL イベント]**」と「**[!UICONTROL オーケストレーション]**」の下には、**[!UICONTROL アクション]**&#x200B;カテゴリがあります。次のアクションアクティビティを使用できます。
 
-* [組み込みのチャネルアクション](../building-journeys/journeys-message.md)
+* [ビルトインのチャネルアクション](../building-journeys/journeys-message.md)
 * [カスタムアクション](../building-journeys/using-custom-actions.md)
 * [ジャンプ](../building-journeys/jump.md)
 
-![ジャーニーデザイナーのアクションアクティビティパレット](assets/journey58.png)
+![ジャーニー designer のアクションアクティビティパレット](assets/journey58.png)
 
 これらのアクティビティは、様々な通信チャネルを表します。これらを組み合わせて、クロスチャネルシナリオを作成できます。
 

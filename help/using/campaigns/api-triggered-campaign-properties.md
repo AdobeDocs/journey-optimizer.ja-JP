@@ -10,7 +10,7 @@ level: Experienced
 keywords: キャンペーン, API トリガー, REST, Optimizer, メッセージ
 exl-id: bda7e337-a246-4f01-b935-4a234d4c4baa
 source-git-commit: 45c95d5682b35c8afb161b75c88942c010b36d1c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 100%
 

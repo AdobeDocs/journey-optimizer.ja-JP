@@ -7,7 +7,7 @@ role: Admin
 level: Experienced
 exl-id: 2161baf0-38b7-4397-bffe-083929e8033a
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '935'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ Web チャネル設定を作成するには、次の手順に従います。
 
    ![](assets/web_config_2.png)
 
-1. この設定を使用してメッセージに同意ポリシーを関連付けるには、**[!UICONTROL マーケティングアクション]**&#x200B;を選択します。顧客の環境設定に従うために、そのマーケティングアクションに関連付けられているすべての同意ポリシーが活用されます。[詳細情報](../action/consent.md#surface-marketing-actions)
+1. この設定を使用してメッセージに同意ポリシーを関連付けるには、**[!UICONTROL マーケティングアクション]**&#x200B;を選択します。顧客の意向に従うために、そのマーケティングアクションに関連付けられているすべての同意ポリシーが活用されます。[詳細情報](../action/consent.md#surface-marketing-actions)
 
 1. 「**[!UICONTROL Web 設定]**」セクションで、次のいずれかのオプションを選択します。
 
@@ -134,7 +134,7 @@ Web または[コードベースのエクスペリエンス](../code-based/get-s
     </tr>
     <tr>
         <td>任意</td>
-        <td>すべてのパスに一致します。これは、1 つまたは複数のドメインのすべてのパスをターゲットにする場合に役立ちます。</td>
+        <td>すべてのパスに一致します。これは、1 つまたは複数のドメインのすべてのパスをターゲティングする場合に役立ちます。</td>
         <td></td>
     </tr>
     <tr>

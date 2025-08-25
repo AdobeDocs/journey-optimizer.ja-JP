@@ -10,9 +10,9 @@ level: Intermediate
 keywords: ジャーニー, 制限
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '512'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 100%
 * POST と PUT の呼び出しメソッドのみをサポートしています。 
 * クエリパラメーターまたはヘッダーの名前を、「.」または「$」で開始することはできません。 
 * IP アドレスは使用できません。 
-* 内部 Adobe アドレス（.adobe.）は使用できません。
+* 内部Adobe アドレス（.adobe.）は許可されていません。
 
 ## イベントの制限 {#events-limitations}
 

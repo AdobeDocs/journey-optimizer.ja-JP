@@ -7,9 +7,9 @@ role: Data Engineer
 level: Experienced
 exl-id: 45d51918-1106-4b6b-b383-8ab4d9a4f7af
 source-git-commit: b3fed5a48480647010f59fa471c505b4031b8701
-workflow-type: ht
-source-wordcount: '283'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '279'
+ht-degree: 96%
 
 ---
 

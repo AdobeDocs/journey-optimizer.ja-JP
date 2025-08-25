@@ -4,13 +4,13 @@ description: ジャーニーとキャンペーンを公開するリクエスト�
 role: User
 level: Beginner
 feature: Approval
-source-git-commit: 8fecd0d4812ba875dba1d47bc32ab08178a13f2c
-workflow-type: ht
+exl-id: 8f4260b5-98df-4350-bd9b-680c3986ffe6
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 100%
 
 ---
-
 
 # リクエストのレビューと承認 {#approve-requests}
 

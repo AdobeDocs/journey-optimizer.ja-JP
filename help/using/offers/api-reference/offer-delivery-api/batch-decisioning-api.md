@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
 source-git-commit: d629367413f106a00d0e940c90bd6d77e6f33a5c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 100%
 
@@ -30,14 +30,14 @@ ht-degree: 100%
 
 * データセットをメッセージ配信ベンダー API にエクスポートします。
 
-<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=ja) to learn more about exporting audiences.) -->
+<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html) to learn more about exporting audiences.) -->
 
 >[!NOTE]
 >
 >Batch Decisioning は、Journey Optimizer インターフェイスを使用して実行することもできます。詳しくは、[この節](../../batch-delivery.md)を参照してください。グローバルな前提条件と、Batch Decisioning を使用する際に考慮すべき制限事項に関する情報を示しています。
 
 * **データセットごとの実行中のバッチジョブの数**：データセットごとに一度に最大 5 つのバッチジョブを実行できます。同じ出力データセットを持つその他のバッチリクエストがキューに追加されます。前のジョブの実行が完了したら、キュー内のジョブがピックアップされ処理されます。
-* **フリークエンシーキャップ**：1 日に 1 回、プロファイルスナップショットからバッチが実行されます。[!DNL Batch Decisioning] API は頻度を制限し、常に最新のスナップショットからプロファイルを読み込みます。
+* **フリークエンシーキャップ**：1 日に 1 回、プロファイルスナップショットからバッチが実行されます。[!DNL Batch Decisioning] API は頻度をキャップし、常に最新のスナップショットからプロファイルを読み込みます。
 
 ## はじめに {#getting-started}
 

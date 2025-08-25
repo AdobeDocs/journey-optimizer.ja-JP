@@ -28,7 +28,7 @@ GET /{ENDPOINT_PATH}/offers/{ID}?offer-type=personalized
 | パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 永続性 API のエンドポイントパス。 | `https://platform.adobe.io/data/core/dps/` |
-| `{ID}` | 検索するエンティティの ID。 | `personalizedOffer1234` |
+| `{ID}` | 参照するエンティティの ID。 | `personalizedOffer1234` |
 
 **リクエスト**
 

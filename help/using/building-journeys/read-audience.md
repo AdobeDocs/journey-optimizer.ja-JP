@@ -10,7 +10,7 @@ level: Intermediate
 keywords: アクティビティ, ジャーニー, 読み取り, オーディエンス, プラットフォーム
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 source-git-commit: 4dfa87c56f088cee51fd8b95e4e75da0dac7c456
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2333'
 ht-degree: 100%
 
@@ -298,4 +298,4 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 「オーディエンスを読み取り」アクティビティによってトリガーされるジャーニーに適用可能なユースケースを理解します。バッチベースのジャーニーを構築する方法と適用するベストプラクティスについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430369?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)

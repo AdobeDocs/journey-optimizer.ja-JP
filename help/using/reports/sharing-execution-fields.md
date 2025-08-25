@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 273cda84-0261-4c5b-b5f4-0202e8874d05
 source-git-commit: 91835d5b8b1f129c83c79613df30d9413db98ffe
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 100%
 
@@ -68,7 +68,7 @@ ht-degree: 100%
 
 値：
 * http
-* capping
+* キャップ
 * timeout
 * error
 

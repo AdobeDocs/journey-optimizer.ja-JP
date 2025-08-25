@@ -7,7 +7,7 @@ role: Data Engineer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
 source-git-commit: d629367413f106a00d0e940c90bd6d77e6f33a5c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1027'
 ht-degree: 100%
 
@@ -115,7 +115,7 @@ curl -X POST 'https://platform.adobe.io/data/core/ods/decisions' \
 | `xdm:allowDuplicatePropositions` | このオブジェクトは、重複除外ルールの制御構造を表します。特定のディメンションに対して同じオプションを提案できるかどうかを示す一連のフラグで構成されます。フラグを true に設定した場合は、重複が許可され、フラグで示されるカテゴリ全体で削除されません。フラグを false に設定した場合、決定エンジンはディメンション全体で同じ提案を行わず、代わりにサブデシジョンの 1 つに対して次に最適なオプションを選択する必要があります。 |
 | `xdm:allowDuplicatePropositions.xdm:acrossActivities` | True に設定すると、複数の決定に同じオプションが割り当てられる場合があります。 | `"xdm:acrossActivities": true` |
 | `xdm:allowDuplicatePropositions.xdm:acrossPlacements` | True に設定すると、複数のプレースメントに同じオプションが割り当てられる場合があります。 | `"xdm:acrossPlacements": true` |
-| `xdm:enrichedAudience` | CSV オーディエンスをターゲットにする場合は、このパラメーターを追加して「true」に設定します | `"xdm:enrichedAudience": true` |
+| `xdm:enrichedAudience` | CSV オーディエンスをターゲティングする場合は、このパラメーターを追加して「true」に設定します | `"xdm:enrichedAudience": true` |
 | `xdm:mergePolicy.xdm:id` | プロファイルアクセスサービスが返すデータを制御する結合ポリシーを指定します。リクエストで指定されていない場合、意思決定管理はプロファイルアクセスサービスに何も渡さず、指定されている場合は呼び出し元が提供する ID を渡します。 | `"xdm:id": "5f3ed32f-eaf1-456c-b0f0-7b338c4cb18a"` |
 | `xdm:responseFormat` | 応答コンテンツをフォーマットする一連のフラグ。 |
 | `xdm:responseFormat.xdm:includeContent` | ブール値で、`true` に設定した場合、応答にコンテンツを含めます。 | `"xdm:includeContent": true` |
@@ -217,7 +217,7 @@ The following video is intended to support your understanding of the components 
 >
 >This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/342831/?quality=12&captions=jpn) -->
+>[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12) -->
 
 ## 次の手順 {#next-steps}
 

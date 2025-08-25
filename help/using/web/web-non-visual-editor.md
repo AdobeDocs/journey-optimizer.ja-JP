@@ -15,9 +15,9 @@ ht-degree: 100%
 
 # Web の非ビジュアルエディターの使用 {#web-non-visual-editor}
 
-[!DNL Journey Optimizer] のビジュアル [web デザイナー](web-visual-editor.md)に加えて、**非ビジュアルエディター**&#x200B;を使用して、web ページに変更を追加することもできます。
+[!DNL Journey Optimizer] のビジュアル [web designer](web-visual-editor.md) に加えて、**非ビジュアルエディター**&#x200B;を使用して、web ページに変更を追加することもできます。
 
-これは、web デザイナーでのページの読み込みに必要な [Adobe Experience Cloud Visual Helper](web-prerequisites.md#visual-authoring-prerequisites) などのブラウザー拡張機能をインストールできない（許可されていない）場合に役立ちます。
+これは、web designer でのページの読み込みに必要な [Adobe Experience Cloud Visual Helper](web-prerequisites.md#visual-authoring-prerequisites) などのブラウザー拡張機能をインストールできない（許可されていない）場合に役立ちます。
 
 また、場合によっては、web ページ上の他の要素を変更したり、ページ構造を変更したりすることなく、非ビジュアルエディターを使用して、特定の CSS セレクターに変更を適用する方が簡単な場合もあります。
 
@@ -56,7 +56,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >**[!UICONTROL 変更]**&#x200B;ペインは、[web デザイナー](web-visual-editor.md)を使用する場合と同じです。これを使用して実行できるすべてのアクションについて詳しくは、[この節](manage-web-modifications.md#use-modifications-pane)を参照してください。
+   >**[!UICONTROL 変更]**&#x200B;ペインは、[web designer](web-visual-editor.md) を使用する場合と同じです。これを使用して実行できるすべてのアクションについて詳しくは、[この節](manage-web-modifications.md#use-modifications-pane)を参照してください。
 
 1. **[!UICONTROL 変更]**&#x200B;ペインの上部にある「**[!UICONTROL 追加]**」ボタンをクリックして、別の変更を追加し、上記の手順を繰り返します。
 
@@ -72,4 +72,4 @@ ht-degree: 100%
 
    ![](assets/web-campaign-modifications.png)
 
-   必要に応じて、web デザイナーに切り替えることもできます。すべての変更が保持されます。
+   必要に応じて、web designer に切り替えることもできます。すべての変更が保持されます。

@@ -7,7 +7,7 @@ role: User
 level: Intermediate, Experienced
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
 source-git-commit: 5b377982f43902a4549f24c022fa8f4947d896a8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '828'
 ht-degree: 100%
 
@@ -48,7 +48,7 @@ ht-degree: 100%
 
    * オーディエンスまたはルールを定義して、項目を特定のプロファイルのみに制限します。[詳細情報](items.md#eligibility)
 
-   * キャッピングルールを設定し、オファーを提示できる最大回数を定義します。[詳細情報](items.md#capping)
+   * キャップルールを設定し、オファーを提示できる最大回数を定義します。[詳細情報](items.md#capping)
 
 1. 必要に応じて、上記の手順を繰り返して、追加の決定項目を作成します。
 
@@ -72,7 +72,7 @@ ht-degree: 100%
 
    * オーディエンスまたはルールを定義して、項目を特定のプロファイルのみに制限します。[詳細情報](items.md#eligibility)
 
-   * キャッピングルールを設定し、オファーを提示できる最大回数を定義します。[詳細情報](items.md#capping)
+   * キャップルールを設定し、オファーを提示できる最大回数を定義します。[詳細情報](items.md#capping)
 
 1. 必要に応じて、上記の手順を繰り返して、追加の決定項目を作成します。
 

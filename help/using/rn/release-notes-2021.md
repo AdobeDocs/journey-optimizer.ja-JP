@@ -11,7 +11,7 @@ hidefromtoc: true
 hide: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
 source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2035'
 ht-degree: 100%
 
@@ -344,7 +344,7 @@ ht-degree: 100%
 
 * 同じサンドボックスで同時に実行されるすべての「オーディエンスを読み取り」アクティビティの全体的なスロットルレートは、1 秒あたり 17,000 メッセージに制限されています。[詳細情報](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 * 「**キャッシュ時間**」フィールドがデータソース設定ペインから削除されました。[詳細情報](../datasource/about-data-sources.md)
-* 外部データソースの場合、1 秒あたり 15 回までの呼び出し回数制限（キャッピング）ルールが自動的に定義されるようになりました。[詳細を読む](../configuration/external-systems.md#capping)
+* 外部データソースの場合、1 秒あたり 15 回までの呼び出し回数キャップルールが自動的に定義されるようになりました。[詳細を読む](../configuration/external-systems.md#capping)
 * ライブジャーニーの場合、ジャーニーを公開した日付とユーザーの名前がジャーニープロパティ画面に表示されるようになりました。[詳細を読む](../building-journeys/journey-gs.md#change-properties)
 * ジャーニーリスト画面にジャーニータイプフィルターが追加されました。[詳細を読む](../start/user-interface.md#filter-lists)
 * **[!UICONTROL スロットルレート]**&#x200B;パラメーターが「オーディエンスを読み取り」アクティビティに追加されました。[詳細情報](../building-journeys/read-audience.md#configuring-segment-trigger-activity)

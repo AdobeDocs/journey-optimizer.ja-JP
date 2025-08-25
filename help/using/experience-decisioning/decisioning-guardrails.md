@@ -6,7 +6,7 @@ role: User
 level: Intermediate
 exl-id: 73548973-ff8d-4d6c-b383-dd3679fa159a
 source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 100%
 
@@ -66,4 +66,4 @@ ht-degree: 100%
 | オファー項目の合計 | 10K |
 | プレースメントの合計 | 1K |
 | AI ランキングモデル | 5 |
-| 頻度ルール - オファーごとのキャッピングルールの最大数 | 10 |
+| 頻度ルール - オファーごとのキャップルールの最大数 | 10 |

@@ -10,8 +10,8 @@ level: Intermediate
 keywords: オファー, 決定, メール, パーソナライゼーション, 決定
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
-source-wordcount: '622'
+workflow-type: tm+mt
+source-wordcount: '621'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 * [こちらの節](../offers/offers-e2e.md#insert-decision-in-email)では、オファーを設定して決定機能で使用し、その決定結果を電子メールで活用する方法を示した&#x200B;**完全なエンドツーエンドの例**&#x200B;を紹介しています。
 
-➡️ オファーをパーソナライゼーションとして追加する方法については、[このビデオ](#video-offers)をご覧ください
+➡️ [オファーをパーソナライゼーションとして追加する方法については、このビデオをご覧ください](#video-offers)
 
 ## メールへの決定の挿入 {#insert-offers}
 
@@ -104,4 +104,4 @@ ht-degree: 100%
 
 [!DNL Journey Optimizer] でメッセージに意思決定管理コンポーネントを追加する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416051?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/334088?quality=12)

@@ -10,9 +10,9 @@ level: Intermediate
 keywords: オプトアウト, メール, リンク, 登録解除
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '991'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -97,7 +97,7 @@ Adobe Journey Optimizer でランディングページを作成して購読解�
 
 +++ オプトアウト API 呼び出しの実装方法について説明します。
 
-受信者がランディングページから選択内容を送信する際にオプトアウトするには、[Adobe Developer](https://developer.adobe.com){target="_blank"} を使用して&#x200B;**Subscription API 呼び出し**&#x200B;を実装し、対応するプロファイルの環境設定を更新する必要があります。
+受信者がランディングページから選択内容を送信する際にオプトアウトするには、**Adobe Developer** を使用して [ 購読 API 呼び出し ](https://developer.adobe.com){target="_blank"} を実装し、対応するプロファイルの環境設定を更新する必要があります。
 
 この POST 呼び出しは次の通りです。
 
@@ -134,7 +134,7 @@ Adobe Journey Optimizer でランディングページを作成して購読解�
 }
 ```
 
-[!DNL Journey Optimizer] では、これらのパラメーターを使用して、[Adobe Developer](https://developer.adobe.com){target="_blank"} API 呼び出しを通じて対応するプロファイルの選択内容を更新します。
+[!DNL Journey Optimizer] はこれらのパラメーターを使用し、[Adobe Developer](https://developer.adobe.com){target="_blank"} API 呼び出しを通じて対応するプロファイルの選択内容を更新します。
 
 +++
 

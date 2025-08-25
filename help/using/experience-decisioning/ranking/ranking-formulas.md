@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1342'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -152,7 +152,7 @@ To leverage data from an AEP dataset, follow the steps below.
 
 >[!IMPORTANT]
 >
->ランキング式を作成する際、過去 1 か月以内に発生したエクスペリエンスイベントを式のコンポーネントとして追加するなど、以前の期間を振り返ることはサポートされていません。数式の作成中にルックバック期間を含めようとすると、保存時にエラーが発生します。
+>ランキング式を作成する際、過去 1 か月以内に発生したエクスペリエンスイベントを式のコンポーネントとして追加するなど、以前の期間を振り返ることはサポートされていません。数式の作成中にルックバック期間を含めようとすると、保存時にエラーがトリガーされます。
 
 数式で決定項目に関連する属性を活用するには、ランキング式のコードで正しい構文に従っていることを確認してください。詳しくは、各節を展開してください。
 
@@ -172,7 +172,7 @@ To leverage data from an AEP dataset, follow the steps below.
 
 必要に応じて、様々なランキング式を作成できます。以下に例を示します。
 
-+++プロファイル属性に基づいて特定のオファー属性を持つオファーの優先度を上げる
++++プロファイル属性に基づいた特定のオファー属性を持つオファーのブースト
 
 オファーに対応する市区町村にプロファイルが住んでいる場合は、その市区町村内のすべてのオファーの優先度を 2 倍にします。
 
@@ -184,7 +184,7 @@ if( offer.characteristics.get("city") = homeAddress.city, offer.rank.priority * 
 
 +++
 
-+++終了日が今から 24 時間以内のオファーの優先度を上げる
++++終了日が今から 24 時間以内のオファーのブースト
 
 **ランキング式：**
 
@@ -194,7 +194,7 @@ if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.p
 
 +++
 
-+++オファーされる製品を顧客が購入する傾向に基づいてオファーの優先度を上げる
++++オファーされる製品を顧客が購入する傾向に基づいたオファーのブースト
 
 顧客の傾向スコアに基づいて、オファーのスコアを上げることができます。
 
@@ -224,7 +224,7 @@ if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.p
 
 +++
 
-+++コンテキストデータに基づいてオファーの優先度を上げる{#context-data}
++++コンテキストデータ {#context-data} ースに基づくオファーのブースト
 
 [!DNL Journey Optimizer] を使用すると、呼び出しで渡されるコンテキストデータに基づいて、特定のオファーの優先度を上げることができます。例えば、`contextData.weather=hot` が渡される場合は、`attribute=hot` を含んだすべてのオファーの優先度を上げる必要があります。
 

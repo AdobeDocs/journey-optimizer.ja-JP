@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 42fb17a2-842e-4e20-9013-7227adba0105
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 100%
+source-wordcount: '146'
+ht-degree: 92%
 
 ---
 
@@ -29,7 +29,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PLACEMENT
 | `{CONTAINER_ID}` | プレースメントが配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `SCHEMA_PLACEMENT}` | プレースメントに関連付けられたスキーマを定義します。 | `https://ns.adobe.com/experience/offer-management/offer-placement;version=0.4` |
 | `id` | エンティティの `@id` プロパティとマッチするために使用される文字列。文字列は完全にマッチされます。パラメーター `id` と `name` は一緒に使用できません。 | `xcore:offer-placement:124541309805b7e8` |
-| `name` | エンティティの xdm:name プロパティとマッチするために使用される文字列。文字列は大文字と小文字を区別して完全にマッチされますが、ワイルドカード文字を使用することもできます。パラメーター `id` と `name` は一緒に使用できません。 | `Sales and Promotions Placement` |
+| `name` | エンティティの xdm:name プロパティに一致させるために使用される文字列。 文字列は大文字と小文字を区別して完全にマッチされますが、ワイルドカード文字を使用することもできます。パラメーター `id` と `name` は一緒に使用できません。 | `Sales and Promotions Placement` |
 
 ```shell
 curl -X GET \

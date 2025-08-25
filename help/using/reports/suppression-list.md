@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate, Experienced
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '830'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 100%
 >
 >「**[!UICONTROL 抑制]**」ステータスのプロファイルは、メッセージ送信プロセス中に除外されます。したがって、**ジャーニーレポート**&#x200B;では、これらのプロファイルがジャーニー（[オーディエンスを読み取り](../building-journeys/read-audience.md)アクティビティと[メッセージアクティビティ](../building-journeys/journeys-message.md)）内を移動したものとして表示されますが、これらはメール送信前に除外されるので、**メールレポート**&#x200B;では、**[!UICONTROL 送信済み]**&#x200B;指標に含まれません。
 >
->詳しくは、[ライブレポート](../reports/live-report.md)と [Customer Journey Analytics レポート](../reports/report-gs-cja.md)を参照してください。すべての除外ケースの理由を確認するには、[Adobe Experience Platform クエリサービス](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ja){target="_blank"}を使用します。
+>詳しくは、[ライブレポート](../reports/live-report.md)と [Customer Journey Analytics レポート](../reports/report-gs-cja.md)を参照してください。すべての除外ケースの理由を確認するには、[Adobe Experience Platform Query Service](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ja){target="_blank"} を使用します。
 
 ### 配信の失敗 {#delivery-failures}
 

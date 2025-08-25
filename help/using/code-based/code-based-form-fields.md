@@ -7,7 +7,7 @@ role: User
 level: Experienced
 exl-id: 5dd46ea8-acba-4c42-a65a-c18e45cba2cd
 source-git-commit: 92247adabc56f369c9b11cdc519cdc7bf30c99f1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1218'
 ht-degree: 100%
 
@@ -246,4 +246,4 @@ JSON テンプレートと HTML テンプレートの例を以下に示します
 
 コードベースのエクスペリエンスチャネルコンテンツテンプレートに編集可能なフィールドを追加する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3463992/?learn=on&#x26;enablevpops&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3463990/?learn=on&#x26;enablevpops)

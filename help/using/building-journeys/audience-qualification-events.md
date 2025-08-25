@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 選定, イベント, オーディエンス, ジャーニー, プラットフォーム
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1203'
 ht-degree: 100%
 
@@ -119,7 +119,7 @@ ht-degree: 100%
 
   ![](assets/segment-error.png)
 
-* ジャーニーで使用するデータソースとアクションのキャッピングルールを設定して、データソースの過負荷を避けます。詳しくは、[Journey Orchestration のドキュメント](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=ja){target="_blank"}を参照してください。キャッピングルールには再試行がないことに注意してください。再試行が必要な場合は、条件やアクションで「**[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**」ボックスをオンにし、ジャーニーで代替パスを使用します。
+* ジャーニーで使用するデータソースとアクションのキャップルールを設定して、データソースの過負荷を避けます。詳しくは、[Journey Orchestration のドキュメント](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=ja){target="_blank"}を参照してください。キャップルールには再試行がないことに注意してください。再試行が必要な場合は、条件やアクションで「**[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**」ボックスをオンにし、ジャーニーで代替パスを使用します。
 
 * 実稼動ジャーニーでオーディエンスを使用する前に、このオーディエンスに選定された個人の数を毎日評価します。それには、**[!UICONTROL オーディエンス]**&#x200B;メニューをチェックし、オーディエンスを開き、**[!UICONTROL プロファイルの推移]**&#x200B;グラフで確認します。
 
@@ -161,4 +161,4 @@ ht-degree: 100%
 
 オーディエンスの選定ジャーニーに当てはまるユースケースについて、このビデオで説明します。オーディエンスの選定を使用してジャーニーを構築する方法と、適用するベストプラクティスについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3446205?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)

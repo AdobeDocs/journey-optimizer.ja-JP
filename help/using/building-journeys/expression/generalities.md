@@ -9,7 +9,7 @@ level: Experienced
 keywords: 構文, エディター, ジャーニー
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
 source-git-commit: dbb1a4d649f29b763121c7856cecca16dcd2864f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 * すべての演算子（and、or など）は小文字で記述する必要があります。例： _`<expression1>`and`<expression2>`_ は有効な式であるのに対して、_`<expression1>`AND`<expression2>`_ は有効な式ではありません。
 * すべての関数名では大文字と小文字が区別されます。例：_inAudience()_ は有効なのに対して、_INAUDIENCE()_ 関数は有効ではありません。
-* フィールド参照と定数値は、大文字と小文字が区別されます。（演算子や関数とは異なり）これらは言語の組み込み要素ではなく、エンドユーザーが作成します。
+* フィールド参照と定数値は、大文字と小文字が区別されます。（演算子や関数とは異なり）これらは言語のビルトインの要素ではなく、エンドユーザーが作成します。
 
 ## 式の戻り値のタイプ {#returned-expression-type}
 

@@ -7,10 +7,10 @@ feature: Journeys, Actions, Custom Actions
 topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Intermediate
-keywords: キャンペーン, Standard, 統合, キャッピング, アクション
+keywords: キャンペーン, Standard, 統合, キャップ, アクション
 exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
 source-git-commit: d92c280e40419d2e3ec62a7ba85cd492a0867fde
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 100%
 
@@ -18,19 +18,19 @@ ht-degree: 100%
 
 # Adobe Campaign Standard との統合 {#using_adobe_campaign_standard}
 
-Adobe Campaign Standard がある場合は、組み込みのアクションを使用して、Adobe Campaign Standard に接続できます。Adobe Campaign Standard のトランザクションメッセージ機能を使用して、メール、プッシュ通知、SMS を送信できます。
+Adobe Campaign Standard がある場合は、ビルトインのアクションを使用して、Adobe Campaign Standard に接続できます。Adobe Campaign Standard のトランザクションメッセージ機能を使用して、メール、プッシュ通知、SMS を送信できます。
 
 Journey Optimizer で使用するには、Campaign Standard トランザクションメッセージとそれに関連するイベントを公開する必要があります。イベントが公開されてもメッセージが表示されない場合、Journey Optimizer インターフェイスには表示されません。メッセージが公開されても、関連するイベントが公開されなかった場合、Journey Optimizer インターフェイスには表示されますが、使用はできません。
 
 ## ガードレールと制限 {#important-notes}
 
-* Adobe Campaign Standard のアクションに対して、5 分あたり 4,000 回の呼び出しのキャッピングルールが自動的に定義されます。トランザクションメッセージ SLA の詳細については、[Adobe Campaign Standard 製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html){target="_blank"}を参照してください。
+* Adobe Campaign Standard のアクションに対して、5 分あたり 4,000 回の呼び出しのキャップルールが自動的に定義されます。トランザクションメッセージ SLA の詳細については、[Adobe Campaign Standard 製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html){target="_blank"}を参照してください。
 
-* Adobe Campaign Standard 統合は、アクションリストの専用組み込みアクションを使用して設定されます。これは、サンドボックスごとに設定する必要があります。
+* Adobe Campaign Standard 統合は、アクションリストの専用ビルトインのアクションを使用して設定されます。これは、サンドボックスごとに設定する必要があります。
 
 * 「オーディエンスの選定」または「オーディエンスを読み取り」アクティビティでは、Campaign Standard アクションを使用できません。
 
-* 1 つのジャーニーで、[組み込みのチャネルアクション](../building-journeys/journeys-message.md)と [Campaign Standard アクション](../building-journeys/using-adobe-campaign-standard.md)の両方を使用することはできません。
+* 1 つのジャーニーで、[ビルトインのチャネルアクション](../building-journeys/journeys-message.md)と [Campaign Standard アクション](../building-journeys/using-adobe-campaign-standard.md)の両方を使用することはできません。
 
 ## アクションの設定 {#configure-action}
 
@@ -42,7 +42,7 @@ Campaign Standard アクションを設定するには、次の手順に従い�
 
 1. 「**[!UICONTROL アクション]**」セクションで、「**[!UICONTROL 管理]**」をクリックします。アクションのリストが表示されます。
 
-1. 組み込み **[!UICONTROL AdobeCampaignStandard]** アクションを選択します。画面の右側にアクション設定パネルが開きます。
+1. ビルトインの **[!UICONTROL AdobeCampaignStandard]** アクションを選択します。画面の右側にアクション設定パネルが開きます。
 
    ![](assets/actioncampaign.png)
 

@@ -8,7 +8,7 @@ role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
 source-git-commit: 5b8d26b4fbc323308b5a49672f9d30298756ccf9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1839'
 ht-degree: 100%
 
@@ -191,7 +191,7 @@ To get the SDKs needed for push notification to work you will need the following
 * **[!UICONTROL Adobe Experience Platform Edge]**
 * **[!UICONTROL Adobe Experience Platform Assurance]**, optional but recommended to debug the mobile implementation.
 
-Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-mobile-android-apps-with-launch/configure-launch/launch-add-extensions.html?lang=ja).
+Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-mobile-android-apps-with-launch/configure-launch/launch-add-extensions.html).
 -->
 
 ## 手順 2：プッシュ用のチャネル設定の作成{#message-preset}
@@ -381,7 +381,7 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
 1. プッシュ通知を設定します。プッシュ通知の作成方法の詳細については、この[ページ](create-push.md)を参照してください。
 
-1. 「**[!UICONTROL テスト]**」トグルをクリックしてプッシュ通知のテストを開始し、「**[!UICONTROL イベントをトリガー]**」をクリックします。
+1. 「**[!UICONTROL テスト]**」切替スイッチをクリックしてプッシュ通知のテストを開始し、「**[!UICONTROL イベントをトリガー]**」をクリックします。
 
    ![](assets/test_push_12.png)
 

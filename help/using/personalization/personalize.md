@@ -10,7 +10,7 @@ level: Beginner
 keywords: 式, エディター, 開始, パーソナライゼーション
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
 source-git-commit: 7e378cbda6ee2379a8bd795588c328cb14107aa4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '505'
 ht-degree: 100%
 
@@ -97,11 +97,11 @@ Journey Optimizer は、メッセージを処理する際に、式を Experience
 
 ジャーニーのコンテキストイベント情報を使用してメッセージをパーソナライズする方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3448127?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
 プロファイルベースのパーソナライゼーションをメッセージに追加する方法と、オーディエンスメンバーシップをパーソナライゼーションブロックの前提条件として使用する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416419?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)
 
 パーソナライゼーションエディタープレイグラウンドを活用し、サンプルデータを使用してパーソナライゼーションコードを記述およびテストする方法について説明します。
 

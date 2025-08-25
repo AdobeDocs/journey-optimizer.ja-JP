@@ -4,13 +4,13 @@ description: ジャーニーとキャンペーンを公開する前に承認を�
 role: User
 level: Beginner
 feature: Approval
-source-git-commit: 509ebc377ac8c24db464728b7544eaa96e8e5da4
-workflow-type: ht
+exl-id: 75dafecd-805d-4aa2-86c6-99e6da4d378b
+source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 100%
 
 ---
-
 
 # 承認のリクエスト {#request-approval}
 
@@ -55,6 +55,3 @@ ht-degree: 100%
 ![](assets/changes-requested.png)
 
 変更リクエストを実行するには、メールまたはアラートからリクエストを開いてジャーニーまたはキャンペーンにアクセスし、リクエストに応じた変更を行います。ジャーニー／キャンペーンを再度レビューに送信する準備が整ったら、「**[!UICONTROL 承認をリクエスト]**」ボタンを使用して新しい承認リクエストを送信します。
-
-
-

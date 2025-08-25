@@ -10,7 +10,7 @@ level: Intermediate, Experienced
 keywords: スキーマ, XDM, プラットフォーム, ストリーミング, 取り込み, ジャーニー
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
 source-git-commit: d79e42cd42fa8342526e02116f65a8e53449fad5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 100%
 
@@ -80,7 +80,7 @@ Here is the purchase schema with the relationship defined on the product ID fiel
 
 >[!NOTE]
 >
->Learn more about schema relationships in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=ja).
+>Learn more about schema relationships in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html).
 
 In Journey Optimizer, you can then leverage all the fields from the linked tables:
 

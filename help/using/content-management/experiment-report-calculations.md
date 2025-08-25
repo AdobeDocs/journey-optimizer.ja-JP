@@ -6,9 +6,9 @@ role: User
 level: Experienced
 exl-id: 67ba8861-be6f-42ae-b9b8-96168d0dd15c
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: ht
-source-wordcount: '951'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '950'
+ht-degree: 96%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 100%
 
 アドビが使用する信頼性は、「常に有効な」信頼性であり、平均処理効果の信頼性シーケンスを反転することによって得られます。
 
-正確には、2 つのバリアント間の平均値の差に対する 2 つのサンプル *t* テストでは、このテストの *p* 値と平均値の差の信頼区間の間に 1:1 のマッピングがあります。同様に、常に有効な *p* 値は、平均処理効果推定量の（常に有効な）信頼シーケンスを反転することによって得られます。
+正確には、2 つのバリアント間の平均値の差に対する 2 つのサンプル *t* テストでは、このテストの :1p *値と平均値の差の信頼区間の間に 1* マッピングがあります。 同様に、常に有効な *p* 値は、平均処理効果推定量の（常に有効な）信頼シーケンスを反転することによって得られます。
 
 ![](assets/statistical_6.png){width="200" align="center"}
 

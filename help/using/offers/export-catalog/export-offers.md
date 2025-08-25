@@ -8,9 +8,9 @@ role: User, Data Engineer
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
 source-git-commit: 2a5591617838e76e9cae99c0f97e8aff59311a69
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1950'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 100%
 
 +++
 
-+++ _experience > decisioning > calendarConstraints
++++ _experience > decisioning > calendarConstraints 
 
 **フィールド：** calendarConstraints
 **タイトル：**カレンダー制約の詳細
@@ -94,7 +94,7 @@ ht-degree: 100%
 
 +++
 
-+++_experience > decisioning > contents > components
++++_experience/決定/コンテンツ/コンポーネント
 
 **フィールド：**components
 **説明：**&#x200B;決定オプションを表すコンテンツの構成要素（すべての言語のバリアントも含む）。特定のコンポーネントを見つけるには、「dx:format」、「dc:subject」、「dc:language」、またはこれらの組み合わせを使用します。このメタデータは、オファーに関するコンテンツを見つける場合や表す場合に使用され、プレースメント契約に従って統合します。**型：**配列
@@ -216,7 +216,7 @@ ht-degree: 100%
 
 +++
 
-+++_experience > decisioning > profileConstraints > Description
++++_experience > decisioning > profileConstraints > 説明
 
 **フィールド：**description
 **タイトル：**説明
@@ -224,7 +224,7 @@ ht-degree: 100%
 
 +++
 
-+++_experience > decisioning > profileConstraints > Eligibility Rule
++++_experience > 決定 > profileConstraints > 実施要件ルール
 
 **フィールド：**eligibilityRule
 **タイトル：**実施要件ルール
@@ -247,7 +247,7 @@ ht-degree: 100%
 
 +++
 
-+++_experience > decisioning > profileConstraints > Segment Identifiers
++++_experience > decisioning > profileConstraints > セグメント識別子
 
 **フィールド：**segmentIdentities
 **タイトル：**セグメント識別子
@@ -324,7 +324,7 @@ ht-degree: 100%
 
 +++
 
-+++_experience > decisioning > ranking > Priority
++++_experience/決定/ ランキング /優先度
 
 **フィールド：**優先度
 **タイトル：**優先度
@@ -351,7 +351,7 @@ ht-degree: 100%
 **フィールド：**_repo
 **タイプ：**&#x200B;オブジェクト
 
-+++
++++ 
 
 +++ _repo／決定オプション ETag
 

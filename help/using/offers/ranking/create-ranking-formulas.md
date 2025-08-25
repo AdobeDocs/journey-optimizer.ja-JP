@@ -9,9 +9,9 @@ level: Intermediate
 mini-toc-levels: 1
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
 source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '596'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 100%
 
    >[!IMPORTANT]
    >
-   >ランキング式を作成する場合、前の期間の参照はサポートされません。例えば、先月内に発生したエクスペリエンスイベントを数式のコンポーネントとして指定した場合です。数式の作成中にルックバック期間を含めようとすると、保存時にエラーが発生します。
+   >ランキング式を作成する場合、前の期間の参照はサポートされません。例えば、先月内に発生したエクスペリエンスイベントを数式のコンポーネントとして指定した場合です。数式の作成中にルックバック期間を含めようとすると、保存時にエラーがトリガーされます。
 
 1. 「**[!UICONTROL 保存]**」をクリックします。ランキング式が作成されたら、リストからその式を選択して詳細を取得し、式を編集または削除したりできます。
 
@@ -169,7 +169,7 @@ if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.p
 >
 >Edge Decision API の例では、`<OrgID>` を組織のテナント ID に置き換えます。
 
-+++コンテキストデータのチャネルが顧客の優先チャネルと一致する場合は、オファーの優先度を 10 上げる
++++コンテキストデータのチャネルが顧客の優先チャネルと一致する場合は、オファーの優先度を 10 上げます
 
 >[!BEGINTABS]
 
@@ -185,7 +185,7 @@ if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.p
 
 +++
 
-+++呼び出しで「contextData.weather=hot」が渡された場合、「attribute=hot」を含むすべてのオファーの優先度を上げる。
++++呼び出しで「contextData.weather=hot」が渡された場合、「attribute=hot」を含むすべてのオファーの優先度を上げます。
 
 >[!BEGINTABS]
 
@@ -201,7 +201,7 @@ if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.p
 
 +++
 
-+++コンテンツ接触チャネルの優先度を上げる
++++コンテンツ生成元ブースト
 
 >[!BEGINTABS]
 
@@ -217,7 +217,7 @@ if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.p
 
 +++
 
-+++天気の優先度を上げる
++++気象ブースト
 
 >[!BEGINTABS]
 

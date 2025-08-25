@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: アプリ内, メッセージ, 作成, 開始
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 100%
 
@@ -124,7 +124,7 @@ ht-degree: 100%
 
 1. 設定にカスタムまたはコアのデータ使用ラベルを割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。[詳しくは、オブジェクトレベルのアクセス制御（OLAC）を参照してください](../administration/object-based-access.md)。
 
-1. この設定を使用してメッセージに同意ポリシーを関連付けるには、**[!UICONTROL マーケティングアクション]**&#x200B;を選択します。顧客の環境設定に従うために、そのマーケティングアクションに関連付けられているすべての同意ポリシーが活用されます。[詳細情報](../action/consent.md#surface-marketing-actions)
+1. この設定を使用してメッセージに同意ポリシーを関連付けるには、**[!UICONTROL マーケティングアクション]**&#x200B;を選択します。顧客の意向に従うために、そのマーケティングアクションに関連付けられているすべての同意ポリシーが活用されます。[詳細情報](../action/consent.md#surface-marketing-actions)
 
 1. **アプリ内メッセージ**&#x200B;チャネルを選択します。
 
@@ -134,7 +134,7 @@ ht-degree: 100%
 
    * 同じパターンに従う複数の URL をターゲットにするルールを作成できます。
 
-+++ ページ一致ルールを作成する方法。
+     +++ ページ一致ルールを作成する方法。
 
       1. アプリ設定として「**[!UICONTROL ページ一致ルール]**」を選択し、**[!UICONTROL ページ URL]** を入力します。
 
@@ -151,7 +151,7 @@ ht-degree: 100%
 
       1. 変更を保存します。ルールは、**[!UICONTROL キャンペーンを作成]**&#x200B;画面に表示されます。
 
-+++
+     +++
 
 1. アプリ内 web 設定を送信します。
 

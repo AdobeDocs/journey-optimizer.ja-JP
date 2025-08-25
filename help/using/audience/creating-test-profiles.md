@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
 source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1351'
 ht-degree: 100%
 
@@ -127,7 +127,7 @@ ID 名前空間を選択し、上記の形式に基づいて CSV ファイルを
 
 簡単な方法として、ジャーニーで「**[!UICONTROL プロファイルを更新]**」アクションアクティビティを使用し、ブール値フィールド **testProfile** を「false」から「true」に変更します。
 
-ジャーニーは、**[!UICONTROL オーディエンスを読み取り]**&#x200B;アクティビティと&#x200B;**[!UICONTROL プロファイルを更新]**&#x200B;アクティビティで構成されます。まず、テストプロファイルに変換するプロファイルをターゲットにしたオーディエンスを作成する必要があります。
+ジャーニーは、**[!UICONTROL オーディエンスを読み取り]**&#x200B;アクティビティと&#x200B;**[!UICONTROL プロファイルを更新]**&#x200B;アクティビティで構成されます。まず、テストプロファイルに変換するプロファイルをターゲティングしたオーディエンスを作成する必要があります。
 
 >[!NOTE]
 >
@@ -248,4 +248,4 @@ curl -X POST \
 
 テストプロファイルを作成する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416426?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/334236?quality=12)

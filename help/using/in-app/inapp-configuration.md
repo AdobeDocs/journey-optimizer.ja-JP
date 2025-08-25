@@ -7,9 +7,9 @@ level: Intermediate
 keywords: アプリ内, メッセージ, 設定, プラットフォーム
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
 source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '921'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -30,13 +30,13 @@ ht-degree: 100%
 
 アプリ内メッセージが正常に配信されるようにするには、次の設定を定義する必要があります。
 
-* [Adobe Experience Platform データ収集](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=ja){target="_blank"}で、**[!UICONTROL Adobe Experience Platform]** サービスの下にある「**[!UICONTROL Adobe Journey Optimizer]**」オプションを有効にするなど、データストリームが定義されていることを確認します。
+* [Adobe Experience Platform Data Collection](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=ja){target="_blank"} で、**[!UICONTROL Adobe Journey Optimizer]** サービスの下で「Adobe Experience Platform Edge」オプションと「**[!UICONTROL Adobe Experience Platform]**」オプションを有効にするなど、データストリームが定義されていることを確認します。
 
   これにより、Journey Optimizer インバウンドイベントが Adobe Experience Platform Edge で正しく処理されます。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=ja){target="_blank"}
 
   ![](assets/inapp_config_6.png)
 
-* [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target="_blank"} で、デフォルトの結合ポリシーが設定され、「**[!UICONTROL Active-On-Edge 結合ポリシー]**」オプションが有効になっているとを確認します。それには、**[!UICONTROL 顧客r]**／**[!UICONTROL プロファイル]**／**[!UICONTROL 結合ポリシー]** Experience Platform メニューでポリシーを選択します。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ja#configure){target="_blank"}
+* [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target="_blank"} で、「**[!UICONTROL Active-On-Edge結合ポリシー]**」オプションが有効になっているデフォルトの結合ポリシーがあることを確認します。 それには、**[!UICONTROL 顧客r]**／**[!UICONTROL プロファイル]**／**[!UICONTROL 結合ポリシー]** Experience Platform メニューでポリシーを選択します。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ja#configure){target="_blank"}
 
   この結合ポリシーは、[!DNL Journey Optimizer] インバウンドチャネルで使用すると、エッジでインバウンドキャンペーンを正しくアクティブ化して公開できます。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ja){target="_blank"}
 
@@ -67,7 +67,7 @@ ht-degree: 100%
 
 1. 設定にカスタムまたはコアのデータ使用ラベルを割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。[詳しくは、オブジェクトレベルのアクセス制御（OLAC）を参照してください](../administration/object-based-access.md)。
 
-1. この設定を使用してメッセージに同意ポリシーを関連付けるには、**[!UICONTROL マーケティングアクション]**&#x200B;を選択します。顧客の環境設定に従うために、そのマーケティングアクションに関連付けられているすべての同意ポリシーが活用されます。[詳細情報](../action/consent.md#surface-marketing-actions)
+1. この設定を使用してメッセージに同意ポリシーを関連付けるには、**[!UICONTROL マーケティングアクション]**&#x200B;を選択します。顧客の意向に従うために、そのマーケティングアクションに関連付けられているすべての同意ポリシーが活用されます。[詳細情報](../action/consent.md#surface-marketing-actions)
 
 1. **アプリ内メッセージ**&#x200B;チャネルを選択します。
 
@@ -87,7 +87,7 @@ ht-degree: 100%
 
    * 同じパターンに従う複数の URL をターゲットにするルールを作成できます。
 
-+++ ページ一致ルールを作成する方法。
+     +++ ページ一致ルールを作成する方法。
 
       1. アプリ設定として「**[!UICONTROL ページ一致ルール]**」を選択し、**[!UICONTROL ページ URL]** を入力します。
 
@@ -104,7 +104,7 @@ ht-degree: 100%
 
       1. 変更を保存します。ルールは、**[!UICONTROL キャンペーンを作成]**&#x200B;画面に表示されます。
 
-+++
+     +++
 
 1. iOS および Android の場合：
 
@@ -120,13 +120,13 @@ ht-degree: 100%
 >
 >データセットは、[!DNL Journey Optimizer] レポートシステムによって読み取り専用で使用され、データ収集やデータの取り込みには影響しません。
 
-アプリ内チャネルのレポーティングを有効にするには、レポーティング設定に、アプリ内実装[データストリーム](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=ja){target="_blank"}で使用する[データセット](../data/get-started-datasets.md)も含まれていることを確認する必要があります。
+アプリ内チャネルのレポートを有効にするには、アプリ内実装 [ データストリーム ](../data/get-started-datasets.md) で使用される [ データセット ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=ja){target="_blank"} もレポート設定に含まれていることを確認する必要があります。
 
 つまり、レポーティングを設定する際に、アプリデータストリームに存在しないデータセットを追加すると、アプリデータはレポートに表示されません。
 
 レポーティング用にデータセットを追加する方法について詳しくは、[この節](../reports/reporting-configuration.md#add-datasets)を参照してください。
 
-データセットスキーマに `AEP Web SDK ExperienceEvent` および `Consumer Experience Event`（[このページ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html?lang=ja#add-field-groups){target="_blank"}で定義）の定義済み[フィールドグループ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja#field-group){target="_blank"}を使用して&#x200B;**いない**&#x200B;場合は、`Experience Event - Proposition Interactions`、`Application Details`、`Commerce Details` および `Web Details` のフィールドグループを追加する必要があります。これらは、各プロファイルが参加しているキャンペーンやジャーニーを追跡するため、[!DNL Journey Optimizer] レポートに必要です。
+データセットスキーマに事前定義済みの **フィールドグループ**[ および ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja#field-group){target="_blank"} （`AEP Web SDK ExperienceEvent` このページ `Consumer Experience Event` で定義したもの）を使用 [ ない ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html?lang=ja#add-field-groups){target="_blank"} 場合は、フィールドグループとして `Experience Event - Proposition Interactions`、`Application Details`、`Commerce Details`、`Web Details` を必ず追加してください。 これらは、各プロファイルが参加しているキャンペーンやジャーニーを追跡するため、[!DNL Journey Optimizer] レポートに必要です。
 
 [詳しくは、レポーティング設定を参照してください](../reports/reporting-configuration.md)
 

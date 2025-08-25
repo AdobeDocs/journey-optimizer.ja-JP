@@ -11,7 +11,7 @@ keywords: データ, ソース, ジャーニー, Plaform
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
 source-git-commit: d498f32a42b13bfdee20f32a589dd31c77d88fa8
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '343'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 100%
 * [カスタムの待機の定義](../building-journeys/wait-activity.md#custom)
 * [タイムゾーンの定義](../building-journeys/timezone-management.md)
 
-➡️ [この機能をビデオで確認](#video)
+➡️ [この機能について詳しくは、ビデオを参照してください](#video)。
 
 ジャーニーがイベントペイロードからのローカルデータのみを活用する場合、この設定は必要ありません。例えば、ジャーニーがイベントと、そのイベントのデータのみを使用する後続のチャネルアクションアクティビティで構成される場合、データソースを設定する必要はありません。
 
@@ -55,5 +55,5 @@ Adobe Experience Platform データソースと外部データソースの設定
 
 データソースとは何かを理解し、Experience Platform と外部データソースを設定する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416779?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/334256?quality=12)
 

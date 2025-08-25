@@ -28,7 +28,7 @@ GET /{ENDPOINT_PATH}/offer-collections/{ID}
 | パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 永続性 API のエンドポイントパス。 | `https://platform.adobe.io/data/core/dps/` |
-| `{ID}` | 検索するエンティティの ID。 | `offerCollection1234` |
+| `{ID}` | 参照するエンティティの ID。 | `offerCollection1234` |
 
 **リクエスト**
 

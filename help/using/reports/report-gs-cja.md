@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: bfd88d2a-e7b8-4e3b-85a1-4a14b0ba56dc
 source-git-commit: 15a73ba3f2d91a38d61e6518d704fc218ad0eea3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 100%
 
@@ -64,4 +64,4 @@ Journey Optimizer レポートでは、Customer Journey Analytics 機能との�
 
 次のビデオでは、強化された Journey Optimizer レポートを Customer Journey Analytics で使用する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3443152?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3430413)

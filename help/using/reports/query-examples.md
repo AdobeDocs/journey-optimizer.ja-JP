@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
 source-git-commit: 967e5ed75a7a3d37b37749f464a3b96e10b1f35a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1500'
-ht-degree: 100%
+ht-degree: 86%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 クエリで使用するフィールドに、対応するスキーマに関連する値があることを確認します。
 
-+++ID、instanceID、profileID の違いとは
++++ID、instanceID、profileID の違いは何ですか。
 
 * ID：すべてのステップイベントエントリに対して一意です。2 つの異なるステップイベントに同じ ID を割り当てることはできません。
 * instanceID：instanceID は、ジャーニー実行内のプロファイルに関連付けられるすべてのステップイベントで同一です。プロファイルがジャーニーに再度入ると、別の instanceID が使用されます。この新しい instanceID は、再入力されたインスタンスのすべてのステップイベント（開始から終了まで）で同じになります。
@@ -139,7 +139,7 @@ ORDER BY timestamp;
 
 +++
 
-+++2 つのノード間の経過時間
++++2 つのノード間の経過時間 
 
 これらのクエリは、例えば、待機アクティビティに費やされる時間の見積もりに使用できます。これにより、待機アクティビティを確実に正しく設定できます。
 
@@ -268,7 +268,7 @@ WHERE
 
 +++
 
-+++serviceEvent の詳細を確認する方法
++++serviceEvent の詳細の確認方法 
 
 ジャーニーステップイベントデータセットには、すべての stepEvents と serviceEvents が含まれています。stepEvents は、ジャーニー内のプロファイルのアクティビティ（イベントやアクションなど）に関連するので、レポーティングに使用されます。serviceEvents は同じデータセットに保存され、デバッグ目的（エクスペリエンスイベント破棄の理由など）での追加情報を示します。
 
@@ -344,7 +344,7 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 +++
 
-+++プロファイルに特定のメッセージが送信されたかどうかの確認
++++プロファイルが特定のメッセージを送信されたかどうかの確認
 
 方法 1：メッセージの名前がジャーニー内で一意でない場合（複数の場所で使用される場合）。
 
@@ -478,7 +478,7 @@ ORDER BY DATE(timestamp) desc
 
 ## 「オーディエンスを読み取り」に関連するクエリ {#read-segment-queries}
 
-+++オーディエンス書き出しジョブの終了に要した時間
++++オーディエンスエクスポートジョブの終了に要した時間
 
 _データレイクのクエリ_
 
@@ -632,7 +632,7 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 +++
 
-+++特定のジャーニーバージョンでの「オーディエンスを読み取り」の概要
++++特定のジャーニーバージョンに関するオーディエンスを読み取りの概要
 
 _データレイクのクエリ_
 
@@ -673,7 +673,7 @@ WHERE
 +++
 
 
-+++特定のジャーニーバージョンでの「オーディエンスを読み取り」エラーの取得
++++特定のジャーニーバージョンのオーディエンス読み取りエラーの取得
 
 _データレイクのクエリ_
 
@@ -701,7 +701,7 @@ WHERE
 
 +++
 
-+++書き出しジョブの処理ステータスの取得
++++エクスポートジョブの処理ステータスを取得
 
 _データレイクのクエリ_
 
@@ -732,7 +732,7 @@ WHERE
 
 +++
 
-+++書き出されたプロファイルに関する指標の取得（各書き出しジョブの破棄および書き出しジョブ指標を含む）
++++エクスポートされたプロファイルに関する指標の取得（各エクスポートジョブの破棄およびエクスポートしジョブ指標を含む）
 
 _データレイクのクエリ_
 
@@ -794,7 +794,7 @@ WHERE T1.EXPORTJOB_ID = T2.EXPORTJOB_ID
 
 +++
 
-+++すべての書き出しジョブに関する集計指標の取得（オーディエンスの書き出しジョブと破棄）
++++すべてのエクスポートジョブの集計指標の取得（オーディエンスのエクスポートジョブと破棄）
 
 _データレイクのクエリ_
 
@@ -861,7 +861,7 @@ WHERE T1.JOURNEYVERSION_ID = T2.JOURNEYVERSION_ID
 
 ## オーディエンスの選定に関連するクエリ {#segment-qualification-queries}
 
-+++設定されたオーディエンスとは異なるオーディエンス適合が原因で破棄されたプロファイル
++++設定されたオーディエンスとは異なるオーディエンス適合が理由で破棄されたプロファイル
 
 _データレイクのクエリ_
 
@@ -887,7 +887,7 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SEG
 
 +++
 
-+++特定のプロファイルについて他の理由で破棄されたオーディエンスの選定イベント
++++特定のプロファイルに対して他の理由で破棄された「オーディエンスの選定」イベント
 
 _データレイクのクエリ_
 
@@ -917,7 +917,7 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SER
 
 ## イベントベースのクエリ {#event-based-queries}
 
-+++ジャーニーがビジネスイベントを受け取ったかどうかの確認
++++ジャーニーがビジネスイベントを受け取ったかどうかを確認する
 
 _データレイクのクエリ_
 
@@ -945,7 +945,7 @@ WHERE DATE(timestamp) > (now() - interval '6' hour)
 
 +++
 
-+++関連するジャーニーが見つからなかったことが理由でプロファイルの外部イベントが破棄されたかどうかの確認
++++関連するジャーニーが見つからなかったことが理由でプロファイルの外部イベントが破棄されたかどうかを確認する
 
 _データレイクのクエリ_
 
@@ -971,7 +971,7 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WIT
 
 +++
 
-+++その他の理由でプロファイルの外部イベントが破棄されたかどうかの確認
++++その他の理由でプロファイルの外部イベントが破棄されたかどうかを確認する
 
 _データレイクのクエリ_
 
@@ -999,7 +999,7 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SER
 
 +++
 
-+++errorCode で stateMachine によって破棄されたすべてのイベント数の確認
++++errorCode で stateMachine によって破棄されたすべてのイベントの数を確認する
 
 _データレイクのクエリ_
 
@@ -1019,7 +1019,7 @@ _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard
 
 +++
 
-+++再エントリが許可されなかったことが理由で破棄されたすべてのイベントの確認
++++再エントリが許可されなかったことが理由で破棄されたすべてのイベントを確認する
 
 _データレイクのクエリ_
 

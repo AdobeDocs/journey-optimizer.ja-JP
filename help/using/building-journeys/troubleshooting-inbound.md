@@ -10,7 +10,7 @@ level: Intermediate
 keywords: インバウンドアクション, トラブルシューティング, ジャーニー, デバッグ, セルフヘルプ, チェック, エラー
 exl-id: 5c56786f-da22-4558-b2ae-01f762175a7f
 source-git-commit: d89eb9e569cb6de2edc5f20bdcf669972ccc8a8b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1654'
 ht-degree: 100%
 
@@ -103,7 +103,7 @@ ht-degree: 100%
 
 プロファイルがジャーニーのインバウンドアクションにエントリすると、インバウンドジャーニーアクションに対応する特別なオーディエンスセグメント（**joai** 名前空間内）に自動的に選定されます。
 
-クライアントが特定のプロファイルとサーフェスについて Edge Network にリクエストを行うと、そのプロファイルが現在対応する **joai** セグメントのメンバーである場合に限り、そのサーフェスをターゲットとするインバウンドジャーニーアクションのコンテンツを受信する資格がプロファイルに選定されます。
+クライアントが特定のプロファイルとサーフェスについて Edge Network にリクエストを行うと、そのプロファイルが現在対応する **joai** セグメントのメンバーである場合に限り、そのサーフェスをターゲティングするインバウンドジャーニーアクションのコンテンツを受信する資格がプロファイルに選定されます。
 
 Edge Network の動作をデバッグするには、次の手順に従います。
 
@@ -127,7 +127,7 @@ Edge Network の動作をデバッグするには、次の手順に従います�
 
    「プロファイル」セクションの **segmentsMap** 要素を開き、**joai** セグメント ID の存在を探すことで、Edge Network 配信サーバーのプロファイルのビューに **joai** セグメントが存在するかどうかを再確認できます。
 
-1. Edge Network 配信サーバーがプロファイルを関連する **joai** セグメント内にあると表示しない場合は、次の手順に進みます。<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
+1. Edge Network 配信サーバーがプロファイルを関連する **joai** セグメント内にあると表示しない場合は、次の手順に進みます。<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
 
 ### 手順 3：「joai」オーディエンスメンバーシップが Edge Network に生成されているかどうかを確認する {#step-3}
 
@@ -215,8 +215,8 @@ Edge プロファイルの `segmentMembership` 属性に **joai** セグメン�
 
 ## Reference Section {#reference-section}
 
-- [Assurance Setup Guide](https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/tutorials/using-assurance)
+- [Assurance Setup Guide](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance)
 - [Adobe Experience Platform Documentation](https://experienceleague.adobe.com/docs/experience-platform/home.html)
-- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=ja)
+- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html)
 
 -->

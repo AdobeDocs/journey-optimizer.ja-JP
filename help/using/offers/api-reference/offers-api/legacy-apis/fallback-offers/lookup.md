@@ -8,8 +8,8 @@ level: Experienced
 exl-id: e470d491-b30b-4d26-83a6-e5b34e49fe61
 source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 100%
+source-wordcount: '157'
+ht-degree: 92%
 
 ---
 
@@ -29,7 +29,7 @@ GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FALLBACK_
 | `{CONTAINER_ID}` | フォールバックオファーが配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_FALLBACK_OFFER}` | フォールバックオファーに関連付けられたスキーマを定義します。 | `https://ns.adobe.com/experience/offer-management/fallback-offer;version=0.1` |
 | `id` | エンティティの `@id` プロパティとマッチするために使用される文字列。文字列は完全にマッチされます。パラメーター `id` と `name` は一緒に使用できません。 | `xcore:fallback-offer:122206064e0d98df` |
-| `name` | エンティティの xdm:name プロパティとマッチするために使用される文字列。文字列は大文字と小文字を区別して完全にマッチされますが、ワイルドカード文字を使用することもできます。パラメーター `id` と `name` は一緒に使用できません。 | `F1: Web fallback` |
+| `name` | エンティティの xdm:name プロパティに一致させるために使用される文字列。 文字列は大文字と小文字を区別して完全にマッチされますが、ワイルドカード文字を使用することもできます。パラメーター `id` と `name` は一緒に使用できません。 | `F1: Web fallback` |
 
 **リクエスト**
 

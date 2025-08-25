@@ -10,7 +10,7 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: クエリ, コレクション, 関数, ペイロード, ジャーニー
 source-git-commit: ff05675fb132becf092dc6b79bbbaa249f01af96
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 100%
 
@@ -64,7 +64,7 @@ ht-degree: 100%
 
 **関数「all(`<condition>`)」**
 
-この **[!UICONTROL all]** 関数では、ブール式を使用して指定のコレクションに対するフィルターを定義することができます。
+この **[!UICONTROL all]** 関数では、ブール式を使用して指定のコレクションに対するフィルターを定義できます。
 
 ```json
 <listExpression>.all(<condition>)

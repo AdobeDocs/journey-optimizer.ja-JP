@@ -8,7 +8,7 @@ role: Admin
 level: Intermediate
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
 source-git-commit: 31e25c511d8873e54c7b92e65511108a77f84941
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '823'
 ht-degree: 100%
 
@@ -180,6 +180,6 @@ Webhook が設定されたので、WhatsApp 設定を作成できます。
 
 +++ こちらのビデオをご覧ください
 
->[!VIDEO](https://video.tv.adobe.com/v/3470269/?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++

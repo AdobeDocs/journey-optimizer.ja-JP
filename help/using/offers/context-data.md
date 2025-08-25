@@ -9,7 +9,7 @@ role: Developer, Data Engineer
 level: Experienced
 exl-id: 4e736f9d-0f05-4a79-8ebf-ea22517d78a9
 source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 開始する前に、次のガードレールと制限を確認します。
 
 * 決定の呼び出しと Edge 決定の呼び出しの間ではコンテキストの渡し方が異なります。そのため、決定の呼び出しと Edge 決定の呼び出し間で、コンテキストベースの実施要件ルールとランキング式を入れ替えることはできません。
-* `dryrun` パラメーターを使用したテストは、Decisioning API でのみ可能です。Edge Decisioning API ではできません。Decisioning API でこのパラメーターを `true` に設定しても、提案の上限と数には影響しません。
+* `dryrun` パラメーターを使用したテストは、Decisioning API でのみ可能です。Edge Decisioning API ではできません。Decisioning API でこのパラメーターを `true` に設定しても、提案のキャップと数には影響しません。
 
 各 API でのコンテキストデータの使用方法について詳しくは、次の節を参照してください。
 

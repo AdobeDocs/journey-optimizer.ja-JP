@@ -7,9 +7,9 @@ role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
 source-git-commit: bf0a6fa496a08348be16896a7f2313882eb97c06
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '799'
-ht-degree: 100%
+ht-degree: 85%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->[このリンク](https://github.com/adobe/alloy-samples/tree/main/ajo){target="_blank"}から、様々なパーソナライゼーションや実験のユースケースのサンプル実装を確認できます。必要な実装手順とエンドツーエンドのパーソナライゼーションフローの仕組みをより深く理解するために、これらを確認および実行してください。
+>[ このリンク ](https://github.com/adobe/alloy-samples/tree/main/ajo){target="_blank"} に従って、様々なパーソナライゼーションおよび実験のユースケース向けのサンプル実装を確認してください。 必要な実装手順とエンドツーエンドのパーソナライゼーションフローの仕組みをより深く理解するために、これらを確認および実行してください。
 
 ## クライアントサイドの実装 {#client-side-implementation}
 
@@ -31,15 +31,15 @@ ht-degree: 100%
 
 * [以下](#client-side-how)の手順では、サンプル **Web SDK** 実装のコードベースのエクスペリエンスジャーニーとキャンペーンによってエッジに公開されたコンテンツを取得し、パーソナライズされたコンテンツを表示するプロセスについて説明します。
 
-* **Mobile SDK** を使用してコードベースのチャネルを実装する手順について詳しくは、[このチュートリアル](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"}を参照してください。
+* **Mobile SDK** を使用してコードベースのチャネルを実装する手順については、[ このチュートリアル ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"} を参照してください。
 
   >[!NOTE]
   >
-  >モバイルユースケースのサンプル実装は、[iOS アプリ](https://github.com/adobe/aepsdk-messaging-ios/tree/main/TestApps/MessagingDemoAppSwiftUI){target="_blank"}と [Android アプリ](https://github.com/adobe/aepsdk-messaging-android/tree/main/code/testapp){target="_blank"}で利用できます。
+  >モバイルユースケースのサンプル実装は、[iOS アプリ ](https://github.com/adobe/aepsdk-messaging-ios/tree/main/TestApps/MessagingDemoAppSwiftUI){target="_blank"} および [Android アプリ ](https://github.com/adobe/aepsdk-messaging-android/tree/main/code/testapp){target="_blank"} で利用できます。
 
 ### 仕組み – Web SDK {#client-side-how}
 
-1. [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja){target="_blank"} がページに含まれています。
+1. [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja){target="_blank"} はページに含まれています。
 
 1. `sendEvent` コマンドを使用して[サーフェス URI](code-based-surface.md)<!--( or location/path)--> を指定し、パーソナライゼーションコンテンツを取得する必要があります。
 
@@ -52,7 +52,7 @@ ht-degree: 100%
    }).then(applyPersonalization("#sample-json-content"));
    ```
 
-1. コードベースのエクスペリエンス項目は、実装コード（[`applyPersonalization`](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/ajo/personalization-client-side/public/script.js){target="_blank"} メソッドを使用）により手動で適用され、決定に基づいて DOM を更新する必要があります。
+1. コードベースのエクスペリエンス項目は、実装コードが（[`applyPersonalization`](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/ajo/personalization-client-side/public/script.js){target="_blank"} メソッドを使用して）手動で適用し、決定に基づいて DOM を更新する必要があります。
 
 1. コードベースのエクスペリエンスジャーニーとキャンペーンの場合、コンテンツがいつ表示されたかを示すために、表示イベントを手動で送信する必要があります。これは、`sendEvent` コマンドを使用して行われます。
 
@@ -144,8 +144,8 @@ Cookie は、ユーザー ID とクラスター情報を保持するために使
 
 ### 仕組み
 
-1. Web ページがリクエストされ、ブラウザーによって以前に保存された `kndctr_` プレフィックス付きの Cookie が含まれます。
-1. アプリサーバーからページがリクエストされると、[インタラクティブデータ収集エンドポイント](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=ja)にイベントが送信され、パーソナライゼーションコンテンツが取得されます。このサンプルアプリでは、ヘルパーメソッドをいくつか使用して、API へのリクエストの作成と送信を簡素化します（[aepEdgeClient.js](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/common/aepEdgeClient.js){target="_blank"} を参照）。ただし、このリクエストはイベントとクエリを含むペイロード付きの単なる `POST` です。前の手順の Cookie（使用可能な場合）は、`meta>state>entries` 配列内のリクエストに含まれます。
+1. Web ページがリクエストされ、ブラウザーによって以前に保存された `kndctr_` 接頭辞付きの Cookie が含まれます。
+1. アプリサーバーからページがリクエストされると、[インタラクティブデータ収集エンドポイント](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=ja)にイベントが送信され、パーソナライゼーションコンテンツが取得されます。このサンプルアプリでは、いくつかのヘルパーメソッドを利用して、API へのリクエストの作成と送信を簡素化します（[aepEdgeClient.js](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/common/aepEdgeClient.js){target="_blank"} を参照）。 ただし、このリクエストはイベントとクエリを含むペイロード付きの単なる `POST` です。前の手順の Cookie（使用可能な場合）は、`meta>state>entries` 配列内のリクエストに含まれます。
 
    ```javascript
    fetch(
@@ -305,5 +305,5 @@ Cookie は、ユーザー ID とクラスター情報を保持するために使
 
 ハイブリッド実装を使用している場合は、以下のリンクを確認してください。
 
-* アドビのテクニカルブログ：[Adobe Experience Platform Web SDK のハイブリッドパーソナライゼーション](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
-* SDKドキュメント：[Web SDK と Edge Network Server API を使用したハイブリッドパーソナライゼーション](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html?lang=ja){target="_blank"}
+* Adobe テクニカルブログ：[Adobe Experience Platform Web SDKのハイブリッドPersonalization](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
+* SDK ドキュメント：[Web SDKとEdge Network Server API を使用したハイブリッドパーソナライゼーション ](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html?lang=ja){target="_blank"}

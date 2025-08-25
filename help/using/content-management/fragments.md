@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 exl-id: 7131a953-baca-4e7c-a8df-97c0bd6ac567
 source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 100%
 
@@ -64,4 +64,4 @@ ht-degree: 100%
 
 [!DNL Journey Optimizer] で&#x200B;**式フラグメント**&#x200B;を管理、作成および使用する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3438918/?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3424587/?quality=12)

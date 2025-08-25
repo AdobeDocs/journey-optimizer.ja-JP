@@ -8,7 +8,7 @@ role: User
 level: Beginner
 exl-id: be3936e4-8185-4031-9daf-95eea58077d0
 source-git-commit: 1ad534b7877f0ac6c1f50e29f41af708e83b34c9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 100%
 
@@ -54,4 +54,4 @@ ht-degree: 100%
 
 Adobe Experience Platform がリアルタイム顧客プロファイルをアセンブルおよび更新する方法、これらのプロファイルにアクセスして使用する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/31660?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/27251?quality=12)

@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 247b966d-4f84-453b-8178-9c9ebcd494ef
 source-git-commit: 64e225cdc8615e51655ef550866b67ca249a7572
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '639'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -33,9 +33,9 @@ ht-degree: 100%
 
 **[!UICONTROL レポート]**&#x200B;メニューが表示されていない場合、アクセス権を拡張して&#x200B;**[!UICONTROL チャネルレポートを表示]**&#x200B;する権限が必要となります。組織の Adobe Experience Platform [権限](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=ja){target="_blank"}にアクセスできる場合は、自身の権限を延長できます。そうでない場合は、Adobe Journey Optimizer 管理者にお問い合わせください。
 
-+++ レポート権限の割り当て方法を学ぶ
++++レポート権限の割り当て方法を学ぶ
 
-この権限は、キャンペーンマネージャー、キャンペーン承認者、キャンペーン閲覧者およびキャンペーン管理者の組み込みの&#x200B;**[!UICONTROL 役割]**&#x200B;に含まれていることに注意してください。
+この権限は、キャンペーンマネージャー、キャンペーン承認者、キャンペーン閲覧者およびキャンペーン管理者のビルトインの&#x200B;**[!UICONTROL 役割]**&#x200B;に含まれていることに注意してください。
 
 該当する権限を&#x200B;**[!UICONTROL 役割]**&#x200B;に割り当てるには、次の手順に従います。
 

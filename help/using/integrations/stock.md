@@ -10,7 +10,7 @@ level: Beginner
 keywords: Stock, 画像, 統合, 写真
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
 source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 100%
 
@@ -85,7 +85,7 @@ ht-degree: 100%
 
 1. [!DNL Adobe Stock] web サイトで、画像をダウンロードして透かしを削除するには、アセットを購入する必要があります。
 
-   価格は、Adobe Stock のプランまたはサブスクリプションによって異なります。複数の Adobe Stock アカウントがある場合は、最後に使用した Stock ID にリダイレクトされます。 この場合、アセットのライセンスを取得する前に、正しいアカウントにサインインしていることを確認してください。
+   購入価格は、Adobe Stock のプランまたはサブスクリプションによって異なります。複数の Adobe Stock アカウントがある場合は、最後に使用した Stock ID にリダイレクトされます。 この場合、アセットのライセンスを取得する前に、正しいアカウントにサインインしていることを確認してください。
 
    Adobe Stock のプランと価格について詳しくは、[Adobe Stock ドキュメント](https://stock.adobe.com/jp/plans){target="_blank"}を参照してください。
 

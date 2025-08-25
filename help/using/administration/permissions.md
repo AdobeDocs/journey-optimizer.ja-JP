@@ -10,7 +10,7 @@ role: Admin
 level: Intermediate
 keywords: 製品, プロファイル, サンドボックス
 source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 ユーザーには、標準またはカスタムの&#x200B;**[!UICONTROL 役割]**&#x200B;を割り当てることができます。
 
-権限が割り当てられている、標準の役割すべてのリストについては、[組み込みの役割](ootb-product-profiles.md)の節を参照してください。
+権限が割り当てられている、標準の役割すべてのリストについては、[ビルトインの役割](ootb-product-profiles.md)の節を参照してください。
 
 **[!UICONTROL 役割]**&#x200B;を割り当てるには：
 
@@ -64,13 +64,13 @@ ht-degree: 100%
 
 ## 既存の役割の編集 {#edit-product-profile}
 
-組み込みまたはカスタムの&#x200B;**[!UICONTROL 役割]**&#x200B;については、いつでも権限を追加または削除できます。
+ビルトインのまたはカスタムの&#x200B;**[!UICONTROL 役割]**&#x200B;については、いつでも権限を追加または削除できます。
 
 次の例では、ジャーニー閲覧者の&#x200B;**[!UICONTROL 役割]**&#x200B;を割り当てられたユーザーに対して、**[!UICONTROL ジャーニー]**&#x200B;リソースに関連する&#x200B;**[!UICONTROL 権限]**&#x200B;を追加します。すると、ユーザーはジャーニーを公開できるようになります。
 
 >[!IMPORTANT]
 >
->組み込みまたはカスタムの役割に加えた変更は、その役割に割り当てられたすべてのユーザーに影響します。
+>ビルトインのまたはカスタムの役割に加えた変更は、その役割に割り当てられたすべてのユーザーに影響します。
 
 1. [!DNL Permissions] 製品で役割を編集するには、「**[!UICONTROL 役割]**」タブに移動し、目的の役割を選択します。ここではジャーニー閲覧者の&#x200B;**[!UICONTROL 役割]**を選択します。
    ![](assets/do-not-localize/access_control_5.png)

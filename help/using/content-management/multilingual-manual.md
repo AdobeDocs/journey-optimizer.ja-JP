@@ -10,9 +10,9 @@ level: Beginner
 keywords: 概要, 開始, コンテンツ, 実験
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
 source-git-commit: a009743e176f81cc0ad843c1c056983d66c5cc48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '949'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 100%
 
    ![](assets/multilingual-settings-6.png)
 
-   +++条件でコンテキストイベントを使用する前提条件
+   +++条件でコンテキストイベントを使用するための前提条件
 
    ユーザーがコンテンツを表示すると、パーソナライゼーションリクエストがエクスペリエンスイベントと共に送信されます。条件でコンテキストデータを活用するには、パーソナライゼーションリクエストペイロードに追加データを添付する必要があります。これを行うには、Adobe Experience Platform のデータ収集でルールを作成して、パーソナライゼーションリクエストが送信された場合（IF）は、スキーマの言語フィールドと一致する属性を定義して、リクエストに追加データを添付する必要があります（THEN）。
 
@@ -85,7 +85,7 @@ ht-degree: 100%
    >
    >これらの前提条件は、アプリ内およびコンテンツカードチャネルにのみ必要です。
 
-   1. Adobe Experience Platform のデータ収集で、**[!UICONTROL ルール]**&#x200B;メニューにアクセスし、新しいルールを作成します。ルールの作成方法について詳しくは、[!DNL Adobe Experience Platform] [データ収集ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}を参照してください。
+   1. Adobe Experience Platform のデータ収集で、**[!UICONTROL ルール]**&#x200B;メニューにアクセスし、新しいルールを作成します。ルールの作成方法について詳しくは、[!DNL Adobe Experience Platform] データ収集ドキュメント [ 参照してください ](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
 
    2. ルールの「**[!UICONTROL IF]**」セクションで、次のように設定されたイベントを追加します。
 
@@ -118,7 +118,7 @@ ht-degree: 100%
 
       * 「**[!UICONTROL 変更を保持]**」ボタンをクリックして、ルールを確認して保存します。
 
-+++
+   +++
 
 1. ロケールをドラッグ＆ドロップして並べ替え、リスト内の優先度を管理します。
 

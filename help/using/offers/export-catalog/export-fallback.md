@@ -8,9 +8,9 @@ role: User, Data Engineer
 level: Intermediate
 exl-id: 73bfdc24-28cf-4cfd-bac9-a4ff1ea543e3
 source-git-commit: 2a5591617838e76e9cae99c0f97e8aff59311a69
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1004'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 100%
 
 +++
 
-+++_experience > decisioning > contents > components
++++_experience/決定/コンテンツ/コンポーネント
 
 **フィールド：**components
 **説明：**&#x200B;決定オプションを表すコンテンツの構成要素（すべての言語のバリアントも含む）。特定のコンポーネントを見つけるには、「dx:format」、「dc:subject」、「dc:language」、またはこれらの組み合わせを使用します。このメタデータは、オファーに関するコンテンツを見つける場合や表す場合に使用され、プレースメント契約に従って統合します。**型：**配列
@@ -167,7 +167,7 @@ ht-degree: 100%
 **説明：**準拠するプレースメント。この値は、参照するオファープレースメントの URI（@id）です。スキーマ https://ns.adobe.com/experience/decisioning/placement を参照してください。
 **型：**&#x200B;文字列
 
-+++
++++ 
 
 +++ _experience > decisioning > Lifecycle Status
 

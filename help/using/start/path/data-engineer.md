@@ -8,7 +8,7 @@ role: Data Engineer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
 source-git-commit: 1a2c6e97fcd30245cff1bf08fd5771ce8bc84ddc
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '572'
 ht-degree: 100%
 
@@ -46,4 +46,4 @@ ID 名前空間、プロファイルに対して有効化されたデータセ�
 
 * **イベント**&#x200B;を使用すると、ジャーニーをまとめてトリガーし、ジャーニーに流入してくる個人にリアルタイムでメッセージを送信できます。イベントの設定では、ジャーニーで想定されるイベントを設定します。受信イベントのデータは、Adobe Experience Data Model（XDM）に従って正規化されます。イベントは、認証済みイベントと未認証イベント（Adobe Mobile SDK イベントなど）のストリーミング取得 API から取り込みます。イベントについて詳しくは、[この節](../../event/about-events.md)を参照してください。
 
-* [!DNL Journey Optimizer] には、メッセージ機能が組み込まれており、ジャーニー内でメッセージを作成し、コンテンツをデザインできます。 Adobe Campaign などのサードパーティシステムを使用してメッセージを送信する場合は、**カスタムアクション**&#x200B;を作成します。アクションについて詳しくは、[この節](../../action/action.md)を参照してください。
+* [!DNL Journey Optimizer] にはビルトインのメッセージ機能があり、ジャーニー内でメッセージを作成し、コンテンツをデザインできます。 Adobe Campaign などのサードパーティシステムを使用してメッセージを送信する場合は、**カスタムアクション**&#x200B;を作成します。アクションについて詳しくは、[この節](../../action/action.md)を参照してください。

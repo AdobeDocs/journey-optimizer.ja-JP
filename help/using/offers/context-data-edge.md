@@ -9,9 +9,9 @@ role: Developer, Data Engineer
 level: Experienced
 exl-id: c9e14d4d-f2e2-43f9-b1c5-4b005ce858ad
 source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '813'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -146,7 +146,7 @@ Decisioning API を使用して自由な形式でコンテキストを渡すの�
 
   ![](assets/context-edge-copy-scope.png)
 
-+++
+  +++
 
 ```
 {

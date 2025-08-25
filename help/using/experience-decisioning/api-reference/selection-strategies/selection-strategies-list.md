@@ -8,8 +8,8 @@ level: Experienced
 exl-id: be0f683d-1d39-47f6-b565-1cc7ee06ee71
 source-git-commit: 7bfbb88c2817d18b7897a7fe1657ebf11be6eb58
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 100%
+source-wordcount: '207'
+ht-degree: 95%
 
 ---
 
@@ -32,7 +32,7 @@ GET /{ENDPOINT_PATH}/selection-strategies?{QUERY_PARAMS}
 
 ## クエリパラメーターの使用 {#using-query-parameters}
 
-リソースのリストを表示する際に、クエリパラメーターを使用してページを作成し、結果をフィルターできます。
+リソースを一覧表示する際に、クエリパラメーターを使用して結果をページングおよびフィルタリングできます。
 
 ### ページング {#paging}
 

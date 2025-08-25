@@ -12,7 +12,7 @@ level: Beginner
 badge: label="ベータ版" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
 source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '734'
 ht-degree: 100%
 

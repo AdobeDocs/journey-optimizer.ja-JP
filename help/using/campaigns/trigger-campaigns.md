@@ -10,7 +10,7 @@ level: Intermediate
 keywords: キャンペーン, レビュー, 検証, アクティブ化, アクティブ化, Optimizer
 exl-id: 86f35987-f0b7-406e-9ae6-0e4a2e651610
 source-git-commit: 45c95d5682b35c8afb161b75c88942c010b36d1c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 100%
 

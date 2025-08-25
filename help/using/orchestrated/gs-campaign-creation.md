@@ -1,18 +1,18 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: オーケストレートキャンペーンを作成するための主な手順
+title: 調整されたキャンペーンを作成する主な手順
 description: Adobe Journey Optimizerを使用したオーケストレートキャンペーン作成の主な原則について説明します
 exl-id: b04aa15a-71bf-4683-bcbf-f611c189ffe1
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
 workflow-type: tm+mt
 source-wordcount: '296'
-ht-degree: 62%
+ht-degree: 71%
 
 ---
 
 
-# オーケストレートキャンペーンを作成するための主な手順 {#orchestrated-campaign-creation}
+# 調整されたキャンペーンを作成する主な手順 {#orchestrated-campaign-creation}
 
 このページでは、設定と設計から監視とレポートに至るまで、オーケストレートキャンペーンを作成して開始するための基本的な手順について説明します。
 
@@ -26,7 +26,7 @@ ht-degree: 62%
 
 >[!IMPORTANT]
 >
->キャンペーンを作成する前に、一般的な [ キャンペーンの前提条件 ](../campaigns/get-started-with-campaigns.md#prerequisites) を確認してください。
+>キャンペーンを作成する前に、一般的な[キャンペーンの前提条件](../campaigns/get-started-with-campaigns.md#prerequisites)を確認します。
 
 ## 手順 1：キャンペーンの作成とスケジュール {#create}
 

@@ -8,8 +8,8 @@ level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
 source-git-commit: 3eab04f28b1daab556c4b4395d67f28d292fc52b
 workflow-type: tm+mt
-source-wordcount: '1034'
-ht-degree: 100%
+source-wordcount: '1032'
+ht-degree: 88%
 
 ---
 
@@ -151,7 +151,7 @@ The following operation gets the value of the identity map for the key `example@
 
 +++例
 
-currentDate = 2025-01-07T12:17:10.720122+05:30（アジア／コルカタ）
+currentDate = 2025-01-07T12:17:10.720122+05:30 （アジア/コルカタ）
 
 * 入力：`{%= ageInDays(stringToDate("2025-01-01T17:19:51Z"))%}`
 * 出力：`5`
@@ -170,7 +170,7 @@ currentDate = 2025-01-07T12:17:10.720122+05:30（アジア／コルカタ）
 
 +++例
 
-currentDate = 2025-01-07T12:22:46.993748+05:30（アジア／コルカタ）
+currentDate = 2025-01-07T12:22:46.993748+05:30 （アジア/コルカタ）
 
 * 入力：`{%=ageInMonths(stringToDate("2024-01-01T00:00:00Z"))%}`
 * 出力：`12`
@@ -410,7 +410,7 @@ The following operation gets all the values for the map `identityMap`.
 >
 > 日付パターンが無効な場合、日付は ISO 標準形式にフォールバックします。
 >
-> [Oracle ドキュメント](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}にまとめられている Java 日付書式設定関数を使用できます。
+> [Oracle ドキュメントにまとめられている Java 日付書式設定関数を使用できます ](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html){_blank}
 
 **例**
 
@@ -595,7 +595,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## 開始日に切り捨て {#truncate-day}
 
-`truncateToStartOfDay` 関数を使用すると、指定された日時を、その日の始まり（時刻：00:00）に設定して変更できます。
+`truncateToStartOfDay` 関数を使用すると、指定された日時を、時刻を 00:00 に設定した日の始めに設定して変更できます。
 
 **構文**
 
@@ -612,7 +612,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## truncateToStartOfQuarter {#truncate-quarter}
 
-`truncateToStartOfQuarter` 関数を使用すると、日時を四半期の最初の日（例：1月1日、4月1日、7月1日、10月1日）の 00:00 に切り捨てることができます。
+`truncateToStartOfQuarter` 関数は、日付と時刻を四半期の最初の日（1 月 1 日、4 月 1 日、7 月 1 日、10 月 1 日） :0000 に切り捨てるために使用されます。
 
 **構文**
 
@@ -629,7 +629,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## truncateToStartOfWeek {#truncate-week}
 
-`truncateToStartOfWeek` 関数は、指定された日時を、週の始まり（月曜日の 00:00）に設定して変更します。
+`truncateToStartOfWeek` 関数は、指定された日時を週の初め（月曜日の 00:00）に設定して変更します。
 
 **構文**
 
@@ -646,7 +646,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## truncateToStartOfYear {#truncate-year}
 
-`truncateToStartOfYear` 関数を使用すると、指定された日時を、年の最初の日（1月1日）の 00:00 に切り捨てて変更できます。
+`truncateToStartOfYear` 関数は、指定された日時を年の最初の日（1 月 1 日）の 00:00 に切り捨てて変更するために使用されます。
 
 **構文**
 

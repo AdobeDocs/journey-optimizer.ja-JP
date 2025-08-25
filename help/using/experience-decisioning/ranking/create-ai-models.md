@@ -8,7 +8,7 @@ role: User
 level: Intermediate
 exl-id: 532392d6-3637-4381-984d-f5b630f6d32d
 source-git-commit: 18a1020971dc6a1101e4e35c1523d004f3fd4188
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 100%
 
@@ -58,7 +58,7 @@ AI モデルを作成するには、次の手順を行います。
 
    これらのイベントは、提供されている Web SDK または Mobile SDK を使用して自動的にキャプチャされます。詳しくは、[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja) 概要を参照してください。
 
-+++ カスタム [!DNL Customer Journey Analytics] 指標でのモデルの最適化
+   +++ カスタム [!DNL Customer Journey Analytics] 指標でのモデルの最適化
 
    >[!NOTE]
    >
@@ -82,7 +82,7 @@ AI モデルを作成するには、次の手順を行います。
    >
    >使用可能なアトリビューションモデルとその使用に関するガイダンスについて詳しくは、[[!DNL Customer Journey Analytics]  ドキュメント](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-dataviews/component-settings/attribution){target="_blank"}を参照してください。
 
-+++
+   +++
 
 1. コンバージョンイベントとインプレッションイベントが収集されるデータセットを選択します。このようなデータセットを作成する方法について詳しくは、[この節](../data-collection/create-dataset.md)を参照してください。
 
@@ -117,4 +117,4 @@ AI モデルを作成するには、次の手順を行います。
 
 Learn how to create a personalized optimization model and how to apply it to a decision.
 
->[!VIDEO](https://video.tv.adobe.com/v/3445952?quality=12&captions=jpn)-->
+>[!VIDEO](https://video.tv.adobe.com/v/3419954?quality=12)-->

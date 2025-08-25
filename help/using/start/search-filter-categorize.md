@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
 source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 100%
 
@@ -109,4 +109,4 @@ Journey Optimizer でオーディエンスに意味のあるタグを追加す�
 
 >[!NOTE]
 >
-> Journey Optimizer の「**[!UICONTROL タグ]**」フィールドから直接作成されたタグは、組み込みの「未分類」カテゴリに自動的に追加されます。
+> Journey Optimizer の「**[!UICONTROL タグ]**」フィールドから直接作成されたタグは、ビルトインの「未分類」カテゴリに自動的に追加されます。
