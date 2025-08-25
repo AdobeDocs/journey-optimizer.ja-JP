@@ -4,9 +4,9 @@ product: journey optimizer
 title: 設定の手順
 description: ユーザーインターフェイスを介して直接リレーショナルスキーマを作成する方法を説明します。
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 4f262d4cbbe2241ec8356333d9a3191081f58a6a
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '853'
 ht-degree: 5%
 
 ---
@@ -79,7 +79,7 @@ ht-degree: 5%
 
    この例では、以下の表で詳しく説明している属性を **ロイヤルティメンバーシップ** スキーマに追加しました。
 
-+++ 属性の例
+   +++ 属性の例
 
    | 属性名 | データタイプ | 追加の属性 |
    |-|-|-|
@@ -92,7 +92,7 @@ ht-degree: 5%
    | is_active | BOOLEAN | 必須 |
    | lastmodified | 日時 | 必須 |
 
-+++
+   +++ 
 
 1. 適切なフィールドを **[!UICONTROL プライマリキー]** および **[!UICONTROL バージョン記述子]** として割り当てます。
 
@@ -100,7 +100,7 @@ ht-degree: 5%
 
    * 1 つ以上のプライマリキー
    * バージョン識別子（`datetime` タイプまたは `number` タイプの「`lastmodified`」フィールドなど）。
-   * チェンジ・データ・キャプチャ（CDC）の取り込みの場合、`_change_request_type` タイプの `String` という特別な列。データ変更のタイプ（挿入、更新、削除など）を示し、増分処理を使用可能にします。
+   * チェンジ・データ・キャプチャ（CDC）の取り込みの場合、`_change_request_type` タイプの `String` という特別な列。データ変更のタイプ（挿入、更新、削除など）を示し、増分処理を使用可能にします。 `_change_request_type` をテーブルスキーマの一部にすることはできません。取り込み時にのみデータファイルに追加してください。
 
    ![](assets/schema_manual_2.png){zoomable="yes"}
 

@@ -4,7 +4,7 @@ product: journey optimizer
 title: 調整されたキャンペーンのガードレールと制限
 description: オーケストレートキャンペーンのガードレールと制限について学ぶ
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
-source-git-commit: a4f3dce91af978bdff2de5beb8b1472f7704bdf2
+source-git-commit: 4f262d4cbbe2241ec8356333d9a3191081f58a6a
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 2%
@@ -36,7 +36,7 @@ ht-degree: 2%
 
 * すべての取り込みは、**Change Data Capture** ソースを介して行う必要があります。
 
-   * **ファイルベース** の場合：`change_type` フィールドは必須です。
+   * **ファイルベース** の場合：`_change_request_type` フィールドは必須です。
 
    * **クラウドベース** の場合：テーブルログを有効にする必要があります。
 
