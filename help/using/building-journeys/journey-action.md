@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: ジャーニー, メッセージ, プッシュ, sms, メール, アプリ内, web, コンテンツカード, コードベースのエクスペリエンス
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
-source-git-commit: 6ca732dc6f784897d76dabb605e398497b2ffdd6
+source-git-commit: f407c5d4c20aab50350588d89e9d7682f24f5c33
 workflow-type: tm+mt
 source-wordcount: '991'
-ht-degree: 37%
+ht-degree: 36%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 37%
 
 >[!NOTE]
 >
->また、[!DNL Journey Optimizer] でメッセージを送信するカスタムアクションを設定することもできます。[詳細情報](#recommendation)
+>また、カスタムアクションを設定して、メッセージを [!DNL Journey Optimizer] で送信することもできます。 [詳細情報](#recommendation)
 
 ## ジャーニーへのアクションの追加  {#add-action}
 
@@ -142,7 +142,7 @@ ht-degree: 37%
 
    ![](assets/journey-multi-action-configuration.png){width="70%"}
 
-1. 「**アクション**」セクションから、インバウンドアクション **&#x200B;**&#x200B;コードベースのエクスペリエンス **、** アプリ内メッセージ **、コンテンツカード** または **[!UICONTROL Web]**）を選択します。
+1. 「**アクション**」セクションから、インバウンドアクション **** コードベースのエクスペリエンス **、** アプリ内メッセージ **、コンテンツカード** または **[!UICONTROL Web]**）を選択します。
 
 1. チャネル設定を選択し、そのアクションに特定のコンテンツを定義します。
 

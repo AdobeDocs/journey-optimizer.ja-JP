@@ -7,10 +7,10 @@ feature: Ranking, Decision Management
 role: User
 level: Experienced
 exl-id: 8a8b66cb-dd96-4373-bbe0-a67e0dc0b2c0
-source-git-commit: 18a1020971dc6a1101e4e35c1523d004f3fd4188
-workflow-type: ht
-source-wordcount: '1348'
-ht-degree: 100%
+source-git-commit: f407c5d4c20aab50350588d89e9d7682f24f5c33
+workflow-type: tm+mt
+source-wordcount: '1367'
+ht-degree: 98%
 
 ---
 
@@ -98,3 +98,7 @@ ht-degree: 100%
 例えば、ランキングサービスで使用されるトンプソンサンプリング（TS）戦略のパフォーマンスを測定することに関心があり、KPI がコンバージョン率（CVR）である場合、ベースライン戦略に対する TS 戦略の「上昇率」は次のように定義されます。
 
 ![](../assets/ai-ranking-lift.png)
+
+>[!NOTE]
+>
+>現在、リフト測定レポートは、[ パーソナライズされた最適化 ](personalized-optimization-model.md)AI モデルでのみ使用できます。 [ 決定レポートの詳細情報 ](../../reports/campaign-global-report-cja-code.md#decisioning-reporting)
