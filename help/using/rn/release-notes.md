@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f59ee0ce2ad53717672d06519ce38141b69d4d90
+source-git-commit: c19c0df82ade193984710f6c2bdae6acd55a6fb5
 workflow-type: tm+mt
-source-wordcount: '1492'
-ht-degree: 75%
+source-wordcount: '1672'
+ht-degree: 73%
 
 ---
 
@@ -157,31 +157,29 @@ ht-degree: 75%
 </tbody>
 </table-->
 
-<!--
 <table>
 <thead>
 <tr>
-<th><strong>Action activity in journeys</strong><br/></th>
+<th><strong>ジャーニーのアクションアクティビティ</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer supports a new generic Action activity that enables you to configure both single actions and multi-action inbound action groups, allowing for streamlined action configuration within the journey canvas. In particular, this new feature allows for:</p>
+<p>Journey Optimizer は、単一アクションと複数アクションのインバウンドアクショングループの両方を設定できる新しい汎用アクションアクティビティをサポートしているので、ジャーニーキャンバス内でのアクション設定を効率化できます。特に、この新機能により、次のことが可能になります。</p>
 <ul>
-<li>A simplified native action configuration within the journey canvas.</li>
-<li>The capacity to create multi-action inbound nodes.</li>
-<li>The ability to add optimization to any built-in channel action.</li>
-<li>The ability to add both experimentation and multi-lingual options to any action.</li>
+<li>ジャーニーキャンバス内の簡素化されたネイティブアクション設定。</li>
+<li>複数アクションのインバウンドアクショングループを作成する能力。</li>
+<li>組み込みのチャネルアクションに最適化を追加する機能。</li>
+<li>任意のアクションに実験オプションと多言語オプションの両方を追加する機能。</li>
 </ul>
-<p>This capability is available in Limited Availability. Contact your Adobe representative to gain access.</p>
+<p>この機能は、限定提供です。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
 <p><img src="assets/do-not-localize/action-activity.gif"/></p>
-<p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
+<p>詳しくは、<a href="../building-journeys/journey-action.md">詳細なドキュメント</a>を参照してください</p>
 </td>
 </tr>
 </tbody>
 </table>
--->
 
 <table>
 <thead>
@@ -236,7 +234,7 @@ ht-degree: 75%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizerでは、パーソナライズされ最適化されたコンテンツをオーディエンスに提供するツールが強化され、コンテンツ実験の実行、ルールベースのターゲティングの作成、および両方の高度な組み合わせの使用により、キャンペーンの効果を最大限に高めることができ <!-- and journeys--> す。</p>
+<p>Journey Optimizerに、パーソナライズされ最適化されたコンテンツをオーディエンスに提供するツールが追加されました。これにより、コンテンツ実験を実行し、ルールベースのターゲティングを作成し、両方の高度な組み合わせを使用して、キャンペーンとジャーニーの効果を最大限に高めることができます。</p>
 <p>最適化では、次のことができます。</p>
 <ul>
 <li>コンテンツの複数のバリエーションをテストして、最も効果的なメッセージングを特定します。</li>
@@ -245,9 +243,9 @@ ht-degree: 75%
 <li>バリアント条件に一致しないユーザーをフィルターで除外します。</li>
 <li>ユーザーエンゲージメントを維持するためのフォールバックメカニズムを確保します。</li>
 </ul>
-<P>ジャーニー <!--/campaign is live--> に入ると、プロファイルは定義された条件に照らして評価され、一致条件に基づいて、適切なエクスペリエンスまたはコンテンツで配信されます。</p>
+<P>ジャーニーまたはキャンペーンがライブになると、プロファイルは定義された条件に照らして評価され、一致条件に基づいて、適切なエクスペリエンスまたはコンテンツで配信されます。</p>
 <p><img src="assets/do-not-localize/campaign-optimization.gif"/></p>
-<p><!--Previously released on August 8 in campaigns only, this capacity is now also available in journeys starting from August 19.-->リリース日：2025年8月8日（PT）</p>
+<p>以前は 8 月 8 日（PT）にキャンペーンでのみリリースされていましたが、この機能は、8 月 22 日（PT）以降のジャーニーでも利用できるようになりました。</p>
 <p>詳しくは、<a href="../campaigns/campaigns-message-optimization.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
@@ -302,6 +300,12 @@ ht-degree: 75%
 
      ワンクリック購読解除リンクをさらにパーソナライズするために、同意イベントにも追加されるカスタム属性を定義できるようになりました。 [詳細情報](../email/list-unsubscribe.md#custom-attributes)
 
+* **データセット**
+
+   * **Experience Decisioning オブジェクトリポジトリ – パーソナライズされたオファー項目** – 組み込みの書き出しデータセットは、すべてのオファー属性とライフサイクルステータスをキャプチャし、完全なパーソナライゼーションとレポートを可能にしました。 [詳細情報](../data/export-datasets.md)
+
+   * 一貫性を向上させ、変更を追跡してアイテムをより確実にオファーするために、`etag` フィールドを介したバージョンチェックを導入しました。
+
 * **決定**
 
    * **決定項目にフラグメントを添付** - Journey Optimizerでは、意思決定ポリシーを通じてコードベースのエクスペリエンスキャンペーンで活用できる決定項目にフラグメントを添付する機能を提供するようになりました。 この機能は、一連のお客様に対して限定提供で利用できます。 [詳細情報](../experience-decisioning/create-decision.md#fragments)
@@ -312,11 +316,7 @@ ht-degree: 75%
 
    * **カスタムアクションでのリダイレクト（302）サポート** - カスタムアクションでは、リクエストごとに HTTP 302 リダイレクトを処理できるようになりました。これにより、ローカライズされた URL または地域固有の URL にリクエストをリダイレクトする API とジャーニーを統合できます。リダイレクトは自動的に実行されるので、追加の設定なしで正しいコンテンツが配信されます。
 
-* **データセット**
-
-   * **Experience Decisioning オブジェクトリポジトリ – パーソナライズされたオファー項目** – 組み込みの書き出しデータセットは、すべてのオファー属性とライフサイクルステータスをキャプチャし、完全なパーソナライゼーションとレポートを可能にしました。 [詳細情報](../data/export-datasets.md)
-
-   * 一貫性を向上させ、変更を追跡してアイテムをより確実にオファーするために、`etag` フィールドを介したバージョンチェックを導入しました。
+   * **ジャーニーでの複数のインバウンドアクション** - ジャーニーオーケストレーションを簡素化するために、1 つのジャーニーで複数のインバウンドアクションを定義できるようになりました。 以前はキャンペーンで使用できましたが、この機能を使用すると、複数のコードベースのエクスペリエンス、アプリ内メッセージ、コンテンツカード、web アクションを異なる場所に同時に配信でき、各アクションに特定のコンテンツを含めることができます。 [詳細情報](../building-journeys/journey-action.md#multi-action)
 
 ## キャンペーンオーケストレーション
 
