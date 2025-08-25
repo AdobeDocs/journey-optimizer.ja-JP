@@ -2,14 +2,14 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: メッセージの最適化
-description: メッセージの最適化を活用して、パーソナライズされ最適化されたマーケティングキャンペーンを作成します。
+description: メッセージの最適化を活用して、パーソナライズされ、最適化されたマーケティングジャーニーとキャンペーンを作成します。
 role: User
 level: Intermediate
 keywords: キャンペーンの最適化，実験，ターゲティング，A/B テスト
 exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
-source-git-commit: 17ca5d47fbf20ee25c3728d85877adaccf82aea8
+source-git-commit: 270bc80cbd8cc1ebaba7449b344f32425759f66e
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1047'
 ht-degree: 6%
 
 ---
@@ -181,4 +181,4 @@ E.g. explaining how a marketer can look at the report to determine which treatme
 
 アクションまたは API トリガーキャンペーンでメッセージの最適化を活用する方法について説明します。 サブオーディエンスをターゲットにする方法、場所ごとにメッセージのバリエーションを作成する方法、フォールバックコンテンツを有効にする方法、単一のキャンペーン内で複数の実験を実行する方法について説明します。また、このチュートリアルでは、メッセージの一貫性を維持しながらマルチチャネルキャンペーンを管理する方法についても説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3470369?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)
