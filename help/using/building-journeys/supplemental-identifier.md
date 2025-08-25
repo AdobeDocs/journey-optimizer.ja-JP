@@ -2,10 +2,10 @@
 title: ジャーニーでの補助識別子の使用
 description: ジャーニーの補助識別子の使用方法について説明します。
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
-source-git-commit: dcb2be7fef47e0d62fdd5a423799823ba4ef586c
-workflow-type: ht
-source-wordcount: '1157'
-ht-degree: 100%
+source-git-commit: efd39577a4836144c4ba41018e5750278e82c079
+workflow-type: tm+mt
+source-wordcount: '1236'
+ht-degree: 93%
 
 ---
 
@@ -66,6 +66,8 @@ ht-degree: 100%
 
    * ジャーニーが再エントリ不可の場合、同じプロファイル ID + 補助 ID の組み合わせでジャーニーに再エントリすることはできません。
    * 時間枠でジャーニーが再エントリ可能な場合、定義した時間枠の後に同じプロファイル ID + 補助 ID の組み合わせで再エントリできます。
+
+* **データ使用のラベル付けと適用（DULE）** – 追加の ID に対して DULE 検証チェックは実行されません。 つまり、ジャーニーがデータガバナンスポリシー違反を探している場合、この属性は考慮されません。
 
 * **ダウンストリームイベントの設定**
 
@@ -138,6 +140,10 @@ ht-degree: 100%
       >属性を&#x200B;**プライマリ ID** としてマークしないでください。
 
    1. 補足 ID に関連付ける名前空間を選択します。これは、ユーザー以外の識別子の名前空間にする必要があります。
+
+      >[!NOTE]
+      >
+      >人物以外の ID 名前空間をスキーマに適用した後、追加の識別子を使用するには、新しいイベント （イベントトリガージャーニーの場合）または新しいフィールドグループ （オーディエンスを読み取りジャーニーの場合）を作成する必要があります。 既存のエンティティを更新して新しい識別子を認識することはできません。
 
 <!--1. **Add the supplemental ID field to the data source**
 
@@ -244,4 +250,4 @@ ht-degree: 100%
 
 [!DNL Adobe Journey Optimizer] で補足識別子を有効にして適用する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464793?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
