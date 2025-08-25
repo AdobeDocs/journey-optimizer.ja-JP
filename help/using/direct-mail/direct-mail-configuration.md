@@ -9,8 +9,8 @@ keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: 2f7c620a712cfc104418bc985bd74e81da12147c
 workflow-type: tm+mt
-source-wordcount: '1365'
-ht-degree: 100%
+source-wordcount: '1364'
+ht-degree: 98%
 
 ---
 
@@ -18,18 +18,18 @@ ht-degree: 100%
 
 [!DNL Journey Optimizer] では、ダイレクトメールプロバイダーが顧客にメールを送信するために必要なファイルをパーソナライズおよび生成できます。
 
-[ダイレクトメールメッセージの作成](../direct-mail/create-direct-mail.md)の場合は、選択した連絡先情報（住所など）を含む、ターゲットオーディエンスデータを定義します。このデータを含むファイルが自動的に生成され、サーバーに書き出されます。ダイレクトメールプロバイダーは、このファイルを取得して、実際の送信処理を行うことができます。
+[ダイレクトメールメッセージの作成](../direct-mail/create-direct-mail.md)の場合は、選択した連絡先情報（住所など）を含む、ターゲットオーディエンスデータを定義します。このデータを含むファイルが自動的に生成され、サーバーにエクスポートされます。ダイレクトメールプロバイダーは、このファイルを取得して、実際の送信処理を行うことができます。
 
 このファイルを生成する前に、以下を作成する必要があります。
 
-1. [ファイルのルーティング設定](#file-routing-configuration)：ファイルの書き出し先となるサーバーを指定し、必要に応じてファイルを暗号化します。
+1. [ファイルのルーティング設定](#file-routing-configuration)：ファイルのエクスポート先となるサーバーを指定し、必要に応じてファイルを暗号化します。
 
 1. [ダイレクトメール設定](#direct-mail-configuration)：ファイルのルーティング設定を参照します。ファイルのルーティングオプションを設定していない場合、ダイレクトメール設定を作成できません。
 
 
 >[!CAUTION]
 >
->* ファイルルーティング設定を作成するには、**[!DNL Manage file routing]** 組み込みの権限が必要です。[詳細情報](../administration/ootb-product-profiles.md#content-library-manager)
+>* ファイルルーティング設定を作成するには、**[!DNL Manage file routing]** ビルトインの権限が必要です。[詳細情報](../administration/ootb-product-profiles.md#content-library-manager)
 >
 >* ダイレクトメールファイルはエクスポート時にのみ生成され、古いエクスポートは無期限に保存されません。より長いバックアップまたは永続的なバックアップの場合は、ファイルのルーティングオプション（SFTP またはクラウドストレージ）を設定します。
 
@@ -38,34 +38,34 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details"
 >title="ファイルのルーティング設定を定義"
->abstract="ダイレクトメールメッセージを作成すると、ターゲットオーディエンスデータを含むファイルが生成され、サーバーに書き出されます。ダイレクトメールプロバイダーがそのファイルにアクセスして、ダイレクトメールの配信に使用できるように、サーバーの詳細を指定する必要があります。"
+>abstract="ダイレクトメールメッセージを作成すると、ターゲットオーディエンスデータを含むファイルが生成され、サーバーにエクスポートされます。ダイレクトメールプロバイダーがそのファイルにアクセスして、ダイレクトメールの配信に使用できるように、サーバーの詳細を指定する必要があります。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/direct-mail/create-direct-mail" text="ダイレクトメールメッセージの作成"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details_header"
 >title="ファイルのルーティング設定を定義"
->abstract="ダイレクトメールプロバイダーが使用するファイルの書き出し先を定義する必要があります。"
+>abstract="ダイレクトメールプロバイダーが使用するファイルのエクスポート先を定義する必要があります。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_select_file_routing"
 >title="ファイルのルーティング設定"
->abstract="任意のファイルのルーティング設定を選択します。この設定は、ダイレクトメールプロバイダーが使用するファイルの書き出し先を定義します。"
+>abstract="任意のファイルのルーティング設定を選択します。この設定は、ダイレクトメールプロバイダーが使用するファイルのエクスポート先を定義します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_type"
 >title="ファイルのサーバータイプを選択"
->abstract="ダイレクトメールファイルの書き出しに使用するサーバーのタイプ (Amazon S3、SFTP、Azure またはデータランディングゾーン) を選択します。"
+>abstract="ダイレクトメールファイルのエクスポートに使用するサーバーのタイプ (Amazon S3、SFTP、Azure またはデータランディングゾーン) を選択します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_aws_region"
 >title="AWS リージョンを選択"
->abstract="ダイレクトメールファイルの書き出し先となる AWS サーバーのリージョンを選択します。一般的には、ダイレクトメールプロバイダーの場所に最も近いリージョンを選択することをお勧めします。"
+>abstract="ダイレクトメールファイルのエクスポート先となる AWS サーバーのリージョンを選択します。一般的には、ダイレクトメールプロバイダーの場所に最も近いリージョンを選択することをお勧めします。"
 
 >[!NOTE]
 >
 >現在、[!DNL Journey Optimizer] では Amazon S3、SFTP、Azure、Data Landing Zone がサポートされています。
 
-ダイレクトメールメッセージを配信するために、[!DNL Journey Optimizer] はターゲットオーディエンスデータを含むファイルを生成し、サーバーに書き出します。
+ダイレクトメールメッセージを配信するために、[!DNL Journey Optimizer] はターゲットオーディエンスデータを含むファイルを生成し、サーバーにエクスポートします。
 
 ダイレクトメールプロバイダーがそのファイルにアクセスして、メールの配信に使用できるように、そのサーバーの詳細を指定する必要があります。
 
@@ -77,7 +77,7 @@ ht-degree: 100%
 
 1. 設定の名前を設定します。
 
-1. ダイレクトメールファイルの書き出しに使用するサーバーのタイプ（Amazon S3、SFTP、Azure または Data Landing Zone）を選択します。
+1. ダイレクトメールファイルのエクスポートに使用するサーバーのタイプ（Amazon S3、SFTP、Azure または Data Landing Zone）を選択します。
 
    ![](assets/file-routing-config-type.png){width="800" align="center"}
 
@@ -89,7 +89,7 @@ ht-degree: 100%
 
 **[!UICONTROL サーバータイプ]**&#x200B;として「**[!UICONTROL Amazon S3]**」を選択した場合は、サーバーの詳細と資格情報を入力します。
 
-* **AWS バケット名**：AWS アクセスキー ID を見つける場所については、[このページ](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html)を参照してください。
+* **AWS バケット名**:To AWS バケット名の見つけ方については、[ こちらのページ ](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html) を参照してください。
 
 * **AWS アクセスキー**：AWS アクセスキー ID を見つける場所については、[このページ](https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html#access-keys-and-secret-access-keys)を参照してください。
 
@@ -160,7 +160,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_settings"
 >title="ダイレクトメール設定を定義します。"
->abstract="ダイレクトメール設定には、ターゲットオーディエンスデータを含み、メールプロバイダーによって使用されるファイルの書式設定の設定が含まれています。また、ファイルのルーティング設定を選択して、ファイルの書き出し先を定義する必要があります。"
+>abstract="ダイレクトメール設定には、ターゲットオーディエンスデータを含み、メールプロバイダーによって使用されるファイルの書式設定の設定が含まれています。また、ファイルのルーティング設定を選択して、ファイルのエクスポート先を定義する必要があります。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/direct-mail/direct-mail-configuration#file-routing-configuration" text="ファイルのルーティングを設定"
 
 <!--
@@ -176,7 +176,7 @@ ht-degree: 100%
 
 [!DNL Journey Optimizer] でダイレクトメールを配信できるようにするには、チャネル設定を作成して、メールプロバイダーが使用するファイルの書式設定の設定を定義する必要があります。
 
-ダイレクトメール設定には、ダイレクトメールファイルの書き出し先となるサーバーを定義するファイルのルーティング設定も含める必要があります。
+ダイレクトメール設定には、ダイレクトメールファイルのエクスポート先となるサーバーを定義するファイルのルーティング設定も含める必要があります。
 
 1. 左側のパネルで、**[!UICONTROL 管理]**／**[!UICONTROL チャネル]**&#x200B;を参照し、**[!UICONTROL 一般設定]**／**[!UICONTROL チャネル設定]**&#x200B;を選択します。「**[!UICONTROL チャネル設定を作成]**」ボタンをクリックします。[詳細情報](../configuration/channel-surfaces.md)
 
@@ -208,7 +208,7 @@ ht-degree: 100%
 
    ![](assets/surface-direct-mail-column-separator.png)
 
-1. 作成したものの中から「**[!UICONTROL ファイルルーティング設定]**」を選択します。これにより、ダイレクトメールプロバイダーが使用するファイルの書き出し先が定義されます。
+1. 作成したものの中から「**[!UICONTROL ファイルルーティング設定]**」を選択します。これにより、ダイレクトメールプロバイダーが使用するファイルのエクスポート先が定義されます。
 
    >[!CAUTION]
    >
@@ -220,7 +220,7 @@ ht-degree: 100%
 
 1. ダイレクトメール設定を送信します。
 
-キャンペーン内で[ダイレクトメールメッセージの作成](../direct-mail/create-direct-mail.md)を行うことができるようになりました。キャンペーンが開始されると、ターゲットオーディエンスデータを含んだファイルが、定義したサーバーに自動的に書き出されます。その後、ダイレクトメールプロバイダーは、そのファイルを取得して、ダイレクトメール配信を続行できます。
+キャンペーン内で[ダイレクトメールメッセージの作成](../direct-mail/create-direct-mail.md)を行うことができるようになりました。キャンペーンが開始されると、ターゲットオーディエンスデータを含んだファイルが、定義したサーバーに自動的にエクスポートされます。その後、ダイレクトメールプロバイダーは、そのファイルを取得して、ダイレクトメール配信を続行できます。
 
 >[!NOTE]
 >
