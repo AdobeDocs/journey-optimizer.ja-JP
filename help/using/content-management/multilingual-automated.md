@@ -341,7 +341,7 @@ ht-degree: 98%
 
    ![](assets/translation_review_2.png)
 
-1.   更新した翻訳を入力し、終了したら「**[!UICONTROL 確認]**」をクリックします。
+1. 更新した翻訳を入力し、終了したら「**[!UICONTROL 確認]**」をクリックします。
 
    ![](assets/translation_review_4.png)
 

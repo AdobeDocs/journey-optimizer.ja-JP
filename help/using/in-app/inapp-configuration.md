@@ -126,7 +126,7 @@ ht-degree: 88%
 
 レポーティング用にデータセットを追加する方法について詳しくは、[この節](../reports/reporting-configuration.md#add-datasets)を参照してください。
 
-データセットスキーマに事前定義済みの **フィールドグループ**[ および ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja#field-group){target="_blank"} （`AEP Web SDK ExperienceEvent` このページ `Consumer Experience Event` で定義したもの）を使用 [ ない ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html?lang=ja#add-field-groups){target="_blank"} 場合は、フィールドグループとして `Experience Event - Proposition Interactions`、`Application Details`、`Commerce Details`、`Web Details` を必ず追加してください。 これらは、各プロファイルが参加しているキャンペーンやジャーニーを追跡するため、[!DNL Journey Optimizer] レポートに必要です。
+データセットスキーマに事前定義済みの **フィールドグループ**&#x200B;[ および ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja#field-group){target="_blank"} （`AEP Web SDK ExperienceEvent` このページ `Consumer Experience Event` で定義したもの）を使用 [ ない ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html?lang=ja#add-field-groups){target="_blank"} 場合は、フィールドグループとして `Experience Event - Proposition Interactions`、`Application Details`、`Commerce Details`、`Web Details` を必ず追加してください。 これらは、各プロファイルが参加しているキャンペーンやジャーニーを追跡するため、[!DNL Journey Optimizer] レポートに必要です。
 
 [詳しくは、レポーティング設定を参照してください](../reports/reporting-configuration.md)
 

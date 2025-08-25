@@ -43,7 +43,7 @@ ht-degree: 89%
 >
 >登録解除設定を管理する方法について詳しくは、以下の[この節](#enable-list-unsubscribe)を参照してください。
 
-どちらの場合も、受信者がオプトアウトリンクをクリックすると、登録解除リクエストがそれに応じて処理されます。対応するプロファイルはすぐにオプトアウトされ、この選択は [0}Experience Platform} で更新されます。](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ja#getting-started){target="_blank"}
+どちらの場合も、受信者がオプトアウトリンクをクリックすると、登録解除リクエストがそれに応じて処理されます。対応するプロファイルはすぐにオプトアウトされ、この選択は [0&rbrace;Experience Platform&rbrace; で更新されます。](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ja#getting-started){target="_blank"}
 
 >[!NOTE]
 >
@@ -129,7 +129,7 @@ ht-degree: 89%
 
 ### 復号化 API の設定 {#configure-decrypt-api}
 
-受信者がカスタム購読解除リンクをクリックすると、同意更新イベントに追加されたパラメーターが暗号化された方法でエンドポイントに送信されます。 したがって、外部同意システムでは、Adobeから送信されるパラメーターを復号化するために [0}Adobe Developer} を介して特定の API を実装する必要があります。](https://developer.adobe.com){target="_blank"}
+受信者がカスタム購読解除リンクをクリックすると、同意更新イベントに追加されたパラメーターが暗号化された方法でエンドポイントに送信されます。 したがって、外部同意システムでは、Adobeから送信されるパラメーターを復号化するために [0&rbrace;Adobe Developer&rbrace; を介して特定の API を実装する必要があります。](https://developer.adobe.com){target="_blank"}
 
 これらのパラメーターを取得する GET 呼び出しは、使用しているリスト登録解除オプション（**[!UICONTROL ワンクリック登録解除 URL]** または&#x200B;**[!UICONTROL 宛先（登録解除）]**）によって異なります。
 
