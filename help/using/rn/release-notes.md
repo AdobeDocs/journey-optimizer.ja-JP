@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c19c0df82ade193984710f6c2bdae6acd55a6fb5
+source-git-commit: 14df4a342a88a52dc003338e323b8108817ce1ce
 workflow-type: tm+mt
-source-wordcount: '1672'
-ht-degree: 73%
+source-wordcount: '1700'
+ht-degree: 72%
 
 ---
 
@@ -259,6 +259,13 @@ ht-degree: 73%
 * **管理**
 
    * **チャネル設定の監視アラート** - <!--a channel configuration failure happens or if -->A DNS レコードがない場合に、メールまたはJourney Optimizer通知センターでシステムアラートを受け取るように登録できるようになりました。 [詳細情報](../reports/alerts.md#alert-dns-record-missing)
+
+* **AI アシスタント**
+
+   * **複数の言語でのコンテンツ生成** - フランス語、スペイン語、ドイツ語、イタリア語、日本語、スウェーデン語、オランダ語、ノルウェー語でコンテンツを生成できるようになりました。 [詳細情報](../content-management/generative-uc.md#languages)
+
+     公開日：8 月 25 日（PT）
+
 
 * **キャンペーン**
 
