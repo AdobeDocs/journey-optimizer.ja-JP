@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: アクティビティ, 条件, キャンバス, ジャーニー
-source-git-commit: a873a36c216510b7598f24805ddfcd31c71eaa46
+source-git-commit: a7cfbd5c13ddf70f2a86fb0e19bd3b2fc43393e7
 workflow-type: tm+mt
 source-wordcount: '1542'
 ht-degree: 99%
