@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 17ca5d47fbf20ee25c3728d85877adaccf82aea8
+source-git-commit: a770cbc1736e7add7e25f2cc8210d81bd8b2e375
 workflow-type: tm+mt
-source-wordcount: '2886'
+source-wordcount: '2889'
 ht-degree: 99%
 
 ---
@@ -78,13 +78,15 @@ ht-degree: 99%
       + [一般イベント](using/building-journeys/general-events.md)
       + [反応](using/building-journeys/reaction-events.md)
       + [オーディエンスの選定](using/building-journeys/audience-qualification-events.md)
-      + [条件](using/building-journeys/condition-activity.md)
-      + [待機](using/building-journeys/wait-activity.md)
+      + [最適化](using/building-journeys/optimize.md)
+      + [条件](using/building-journeys/conditions.md)
+      + [条件アクティビティ](using/building-journeys/condition-activity.md)
       + [オーディエンスを読み取り](using/building-journeys/read-audience.md)
+      + [待機](using/building-journeys/wait-activity.md)
+      + [コンテンツの決定](using/building-journeys/content-decision.md)
       + [アクションアクティビティ](using/building-journeys/journey-action.md)
       + [ビルトインのチャネルアクション](using/building-journeys/journeys-message.md)
       + [カスタムアクション](using/building-journeys/using-custom-actions.md)
-      + [コンテンツの決定](using/building-journeys/content-decision.md)
       + [Adobe Campaign Standard のアクション](using/building-journeys/using-adobe-campaign-standard.md)
       + [Adobe Campaign v7／v8 のアクション](using/building-journeys/using-adobe-campaign-v7-v8.md)
       + [ジャンプ](using/building-journeys/jump.md)
@@ -746,7 +748,7 @@ ht-degree: 99%
       + オファーカタログのエクスポート {#export-catalog}
          + [オファーカタログのエクスポート](/help/rp_landing_pages/export-catalog-landing-page.md)
          + [オファーカタログエクスポートの基本を学ぶ](using/offers/export-catalog/get-started-export.md)
-         + [書き出したオファーカタログへのアクセス](using/offers/export-catalog/access-dataset.md)
+         + [エクスポートしたオファーカタログへのアクセス](using/offers/export-catalog/access-dataset.md)
          + [パーソナライズされたオファーデータセット](using/offers/export-catalog/export-offers.md)
          + [決定データセット](using/offers/export-catalog/export-decisions.md)
          + [プレースメントデータセット](using/offers/export-catalog/export-placements.md)
@@ -855,7 +857,7 @@ ht-degree: 99%
       + [Journey Optimizer データセット](/help/rp_landing_pages/datasets-landing-page.md)
       + [データセットの基本を学ぶ](using/data/get-started-datasets.md)
       + [データセットの有効期間（TTL）ガードレール](using/data/datasets-ttl.md)
-      + [Journey Optimizer データセットの書き出し](using/data/export-datasets.md)
+      + [Journey Optimizer データセットのエクスポート](using/data/export-datasets.md)
       + [クエリの例](using/data/datasets-query-examples.md)
       + [ビルトインスキーマ／](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja)
    + [Adobe Experience Platform データの使用](using/data/lookup-aep-data.md)

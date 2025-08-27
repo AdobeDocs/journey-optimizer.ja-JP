@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: ジャーニー, アクティビティ, 開始, イベント, アクション
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 527a539272460aa6aa22de5bb3da2223521ee2a3
+source-git-commit: a770cbc1736e7add7e25f2cc8210d81bd8b2e375
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '690'
 ht-degree: 100%
 
 ---
@@ -42,11 +42,12 @@ ht-degree: 100%
 
 画面左側にあるパレットで、次のオーケストレーションアクティビティを使用できます。
 
-* [条件](../building-journeys/condition-activity.md)
-* [待機](../building-journeys/wait-activity.md)
-* [オーディエンスを読み取り](../building-journeys/read-audience.md)
+* [最適化](optimize.md)
+* [オーディエンスを読み取り](read-audience.md)
+* [待機](wait-activity.md)
+* [コンテンツの決定](content-decision.md)
 
-![ジャーニー designer のオーケストレーションアクティビティパレット](assets/journey49.png)
+![ジャーニー designer のオーケストレーションアクティビティパレット](assets/journey-orchestration-activities.png)
 
 ## アクションアクティビティ {#action-activities}
 

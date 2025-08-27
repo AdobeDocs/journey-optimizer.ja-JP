@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 keywords: キャンペーンの最適化，実験，ターゲティング，A/B テスト
 exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
-source-git-commit: 270bc80cbd8cc1ebaba7449b344f32425759f66e
+source-git-commit: a770cbc1736e7add7e25f2cc8210d81bd8b2e375
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1045'
 ht-degree: 6%
 
 ---
@@ -113,7 +113,7 @@ ht-degree: 6%
    >
    >ジャーニーで作業している場合は、**[!UICONTROL アクション]** アクティビティを追加し、チャネルアクティビティを選択して、**[!UICONTROL アクションを設定]** を選択します。 [詳細情報](../building-journeys/journey-action.md#add-action)
 
-1. 「**[!UICONTROL アクション]**」タブから、少なくとも 2 つのインバウンドアクション（例：[ コードベースのエクスペリエンス ](../code-based/get-started-code-based.md) および [ アプリ内 ](../../rp_landing_pages/in-app-landing-page.md) を選択します。
+1. 「**[!UICONTROL アクション]**」タブから、2 つのインバウンドアクション（例：[ コードベースのエクスペリエンス ](../code-based/get-started-code-based.md) および [ アプリ内 ](../../rp_landing_pages/in-app-landing-page.md) を選択します。
 
 1. 「**[!UICONTROL 最適化]**」セクションで、「**[!UICONTROL 実験を作成]**」を選択します。
 
@@ -181,4 +181,4 @@ E.g. explaining how a marketer can look at the report to determine which treatme
 
 アクションまたは API トリガーキャンペーンでメッセージの最適化を活用する方法について説明します。 サブオーディエンスをターゲットにする方法、場所ごとにメッセージのバリエーションを作成する方法、フォールバックコンテンツを有効にする方法、単一のキャンペーン内で複数の実験を実行する方法について説明します。また、このチュートリアルでは、メッセージの一貫性を維持しながらマルチチャネルキャンペーンを管理する方法についても説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3470369?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)
