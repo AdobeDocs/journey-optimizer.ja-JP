@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5fd1cc3a-c023-4e8e-bfac-9a86bd33bbb3
-source-git-commit: 1f7fd3468d85852931c6a753c2363ebe5a293b33
+source-git-commit: 50933d991c6a337e6d1739652d680778759ef0d5
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 100%
+source-wordcount: '560'
+ht-degree: 98%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 100%
 1. 次の&#x200B;**[!UICONTROL テキスト設定]**&#x200B;オプションを使用してプロンプトを調整します。
 
    * **[!UICONTROL コミュニケーション戦略]**：生成テキストに適した通信方法を選択します。
-   * **[!UICONTROL 言語]**：スペイン語、イタリア語、スウェーデン語、ノルウェー語の言語オプションは Private Beta としてリリースされており、今後のリリースですべての顧客が段階的に利用できるようになります。
+   * **[!UICONTROL 言語]**：生成されたコンテンツの言語を選択します。
    * **[!UICONTROL トーン]**：テキストがオーディエンスと目的に適したものになります。
    * **[!UICONTROL 長さ]**：範囲スライダーを使用して、コンテンツの長さを選択します。
 

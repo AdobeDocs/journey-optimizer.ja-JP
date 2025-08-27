@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
-source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
+source-git-commit: 50933d991c6a337e6d1739652d680778759ef0d5
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 100%
+source-wordcount: '607'
+ht-degree: 90%
 
 ---
 
@@ -110,5 +110,23 @@ ht-degree: 100%
 1. 「**[!UICONTROL バリエーションの提案]**」を参照して、目的のアセットを見つけます。
 
 1. 「**[!UICONTROL プレビュー]**」を選択して、選択したバリエーションを全画面で表示します。
+
+1. 適切なコンテンツを見つけたら、「**[!UICONTROL 選択]**」をクリックします。
+
+## 複数の言語にまたがるコンテンツの生成 {#languages}
+
+![](assets/do-not-localize/gen-ai-language.gif)
+
+1. キャンペーンを設定したら、「**[!UICONTROL コンテンツを編集]**」をクリックします。
+
+1. **[!UICONTROL AI アシスタント]**&#x200B;メニューを開きます。
+
+1. フランス語、スペイン語、ドイツ語、イタリア語、日本語、スウェーデン語、オランダ語、ノルウェー語の **[!UICONTROL プロンプト]** ボックスに目的のリクエストを入力して、コンテンツを調整します。
+
+1. 「**[!UICONTROL テキスト設定]**」オプションでプロンプトをカスタマイズし、生成されたコンテンツに目的の **[!UICONTROL 言語]** を選択します。
+
+1. 必要に応じてプロンプトをさらにパーソナライズし、「**[!UICONTROL 生成]**」をクリックします。
+
+1. 選択した言語で **[!UICONTROL バリエーションの提案]** を確認します。
 
 1. 適切なコンテンツを見つけたら、「**[!UICONTROL 選択]**」をクリックします。

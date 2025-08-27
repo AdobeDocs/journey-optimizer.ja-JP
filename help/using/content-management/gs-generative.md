@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 9d87d133bb580ebed94a265beded5895f7fd0301
+source-git-commit: 50933d991c6a337e6d1739652d680778759ef0d5
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '807'
 ht-degree: 100%
 
 ---
@@ -91,7 +91,6 @@ Adobe Journey Optimizer の AI アシスタントにアクセスするには、�
 
 Adobe Journey Optimizer の AI アシスタントには、次の制限が適用されます。
 
-* サポート対象の言語は英語のみです。英語以外の入力では、一貫性のない結果や誤った結果が生成される可能性があります。英語以外の応答によって生じる問題については、現時点では対処または改善の予定はありません。
 * メール、プッシュ、web、SMS チャネルでのみ使用できます。
 * 生成 AI コンテンツは必ずしも正確ではない可能性があります。エンジニアがモデルを改良できるよう、フィードバックをお寄せください。
 * 複数のブランドアセットをアップロードできますが、特定の世代に活用できるのは 1 つだけです。
