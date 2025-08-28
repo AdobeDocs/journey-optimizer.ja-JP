@@ -10,9 +10,9 @@ level: Experienced
 keywords: キャンペーン, API トリガー, REST, Optimizer, メッセージ
 exl-id: 322e035c-7370-40c9-b1cb-3428bc26e874
 source-git-commit: 378ead41924496f52f22026b3f0e05a9c9c76f89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '421'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -38,9 +38,9 @@ ht-degree: 90%
 
    ![](assets/create-campaign-action.png)
 
-1. **最適化の活用**
+1. **最適化を活用**
 
-   「**[!UICONTROL メッセージの最適化]**」セクションを使用して、コンテンツ実験を実行したり、ターゲティングルールを活用したり、実験とターゲティングの両方の詳細な組み合わせを使用したりします。 様々なオプションと手順について詳しくは、この節 [ キャンペーンでの最適化 ](campaigns-message-optimization.md) を参照してください。
+   「**[!UICONTROL メッセージの最適化]**」セクションを使用すると、コンテンツ実験を実行したり、ターゲティングルールを活用したり、実験とターゲティングの両方の高度な組み合わせを使用したりすることができます。これらの様々なオプションと実行する手順について詳しくは、[キャンペーンの最適化](campaigns-message-optimization.md)の節を参照してください。
 <!--
 1. **Create a content experiment**
 

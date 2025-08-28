@@ -8,7 +8,7 @@ role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: 37e86b2c9d7f1587fefa2927949a13cac24c34ad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '411'
 ht-degree: 100%
 
@@ -39,8 +39,8 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_fuzzy_opt_out"
->title="あいまいオプトアウト"
->abstract="あいまいオプトアウトを有効にすると、定義済みのオプトアウトキーワード（CANCIL など）に類似した受信メッセージが検出され、ユーザーの登録解除の意図を確認する確認返信が自動的に送信されます。定義済みのプロンプトを通じてユーザーが確認すると、登録解除されます。"
+>title="ファジーオプトアウト"
+>abstract="有効にすると、ファジーオプトアウトは、定義済みのオプトアウトキーワード（CANCIL など）に非常に類似したインバウンドメッセージを検出し、ユーザーの登録解除の意図を検証する確認返信を自動的に送信します。定義済みのプロンプトを通じてユーザーが確認すると、登録解除されます。"
 
 SMS、MMS または RCS を送信する前に、Adobe Journey Optimizer 環境を設定する必要があります。これを実行するには、次の手順を実行します。
 

@@ -1,13 +1,13 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Adobe Journey Optimizerで調整されたキャンペーンのレポート
-description: Adobe Journey Optimizerを使用してオーケストレートキャンペーンに関するレポートにアクセスする方法を説明します
+title: Adobe Journey Optimizer を使用して調整されたキャンペーンに関するレポート
+description: Adobe Journey Optimizer を使用して調整されたキャンペーンに関するレポートへのアクセス方法について説明します。
 exl-id: 8cb569a2-a4a0-45a5-b7f9-f5a591e44335
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '182'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 64%
     <tr>
       <td><a href="../reports/live-report.md"><img alt="ライブレポート" src="assets/last-24hours.png"></a></td>
       <td>
-        <b> ライブレポート </b> を使用し、オーケストレーションされたキャンペーンの影響とパフォーマンスを組み込みダッシュボードでリアルタイムに測定および視覚化します。 オーケストレートキャンペーンが <b> 過去 24 時間のレポートを表示 </b> メニューから実行されるとすぐに、<b> ライブレポート </b> でデータを入手できます。 ライブレポートについて詳しくは、<a href="../reports/live-report.md">この節</a>を参照してください。
+        <b>ライブレポート</b>を使用し、ビルトインダッシュボードで、調整されたキャンペーンの影響とパフォーマンスをリアルタイムで測定および視覚化します。調整されたキャンペーンを<b>過去 24 時間のレポートを表示</b>メニューから実行するとすぐに、<b>ライブレポート</b>でデータを入手できます。ライブレポートについて詳しくは、<a href="../reports/live-report.md">この節</a>を参照してください。
       </td>
         </br>
     </tr>

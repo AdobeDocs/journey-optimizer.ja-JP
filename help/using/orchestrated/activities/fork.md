@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 分岐アクティビティの使用
-description: オーケストレートキャンペーンで分岐アクティビティを使用する方法を説明します
+description: 調整されたキャンペーンでの分岐アクティビティの使用方法について説明します。
 exl-id: 52e8057b-dac1-45f5-9dd0-1b28a59adde9
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '139'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 86%
 
 ![](../assets/workflow-fork.png)
 
-1. **[!UICONTROL 分岐]** アクティビティをオーケストレーションされたキャンペーンに追加します。
+1. **[!UICONTROL 分岐]**&#x200B;アクティビティを調整されたキャンペーンに追加します。
 
 1. **[!UICONTROL ラベル]**&#x200B;を定義します。
 

@@ -10,9 +10,9 @@ level: Experienced
 keywords: 設定, メール, 設定
 exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
 source-git-commit: 1b4ab451ed9e2315ffe4850c6ab4b8ad20223ac3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '712'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->入力したアドレスのサブドメインがAdobeに [ 完全にデリゲート ](../configuration/delegate-subdomain.md#full-subdomain-delegation) されたドメインである場合は、Adobe担当者にお問い合わせください。
+>入力したアドレスのサブドメインがアドビに[完全にデリゲート](../configuration/delegate-subdomain.md#full-subdomain-delegation)されたドメインである場合は、アドビ担当者にお問い合わせください。
 
 ## メールの転送 {#forward-email}
 

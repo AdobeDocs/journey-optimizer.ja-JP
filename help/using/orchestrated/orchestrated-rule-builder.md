@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: ルールビルダーの操作
-description: オーケストレートキャンペーン用のルールを作成する方法を説明します
+description: 調整されたキャンペーンのルールの作成方法について説明します。
 exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
 source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '305'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 76%
 
 ## ルールビルダーへのアクセス
 
-ルールビルダーは、データをフィルタリングするルールを定義する必要があるすべてのコンテキストで使用できます。
+ルールビルダーは、データをフィルターするルールを定義する必要があるすべてのコンテキストで使用できます。
 
 | 用途 | 例 |
 |  ---  |  ---  |
-| **オーディエンスの作成**:**[!UICONTROL オーディエンスの作成]** アクティビティを使用して、オーケストレートキャンペーンでターゲットにする母集団を指定し、ニーズに合わせて新しいオーディエンスを簡単に作成します。 [詳しくは、オーディエンスの作成方法を参照してください。](../orchestrated/activities/build-audience.md) | ![オーディエンス作成インターフェイスへのアクセス方法を示す画像](assets/query-access-audience.png){width="200" align="center" zoomable="yes"} |
+| **オーディエンスを作成**：**[!UICONTROL オーディエンスを作成]**&#x200B;アクティビティを使用して、調整されたキャンペーンのターゲットとして設定する母集団を指定し、ニーズに合わせて新しいオーディエンスを簡単に作成します。[詳しくは、オーディエンスの作成方法を参照してください。](../orchestrated/activities/build-audience.md) | ![オーディエンス作成インターフェイスへのアクセス方法を示す画像](assets/query-access-audience.png){width="200" align="center" zoomable="yes"} |
 | **キャンペーンキャンバスで条件を作成**：特定の要件に合わせて、**[!UICONTROL 分割]**&#x200B;アクティビティを使用してキャンペーンキャンバス内でルールを適用します。[分割アクティビティの使用方法の詳細情報](../orchestrated/activities/split.md) | ![ワークフローのカスタマイズオプションへのアクセス方法を示す画像](assets/query-access-split.png){width="200" align="center" zoomable="yes"} |
-| **詳細フィルターの作成**：キャンペーンログやターゲティングディメンションなどのリストに表示されるデータをフィルタリングするルールを作成します。 | ![リストフィルターのカスタマイズ方法を示す画像](assets/query-access-advanced-filters.png){width="200" align="center" zoomable="yes"} |
+| **詳細フィルターを作成**：キャンペーンログやターゲティングディメンションなどのリストに表示されるデータをフィルターするルールを作成します。 | ![リストフィルターのカスタマイズ方法を示す画像](assets/query-access-advanced-filters.png){width="200" align="center" zoomable="yes"} |
 
 ## ルールビルダーインターフェイス {#interface}
 

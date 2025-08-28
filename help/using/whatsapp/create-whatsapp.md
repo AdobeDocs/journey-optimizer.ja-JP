@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
 source-git-commit: 03699215020770d0636c77e9d197990ab5da0975
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '842'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -191,10 +191,10 @@ Once you have performed your tests and validated the content, you can send your 
 
 ## チュートリアルビデオ {#video}
 
-次のビデオでは、Adobe Journey Optimizerを使用して複数ステップの WhatsApp ジャーニーを作成する方法を確認できます。
+次のビデオでは、Adobe Journey Optimizer を使用して複数ステップの WhatsApp ジャーニーを作成する方法について説明します。
 
 +++ こちらのビデオをご覧ください
 
->[!VIDEO](https://video.tv.adobe.com/v/3470283/?learn=on&captions=jpn")
+>[!VIDEO](https://video.tv.adobe.com/v/3470282/?learn=on")
 
 +++

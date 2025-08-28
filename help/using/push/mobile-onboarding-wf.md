@@ -10,9 +10,9 @@ level: Intermediate
 badge: label="ベータ版" type="Informative"
 exl-id: 364ef926-3f92-4297-acbd-a283668106ac
 source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '357'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 90%
 一部の追加機能を以下に示します。
 
 * 4 つの簡単な手順のワークフローとユーザーインターフェイス。
-* [Adobe Experience Platform モバイル SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} を介してモバイルイベントデータの収集を数分で開始するための基本的な設定を提供します。
+* [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} を介してモバイルイベントデータの収集を数分で開始するための基本的な設定を提供します。
 * [Adobe Experience Platform Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html?lang=ja){target="_blank"} を活用して、基本的なモバイルプッシュイベントをテストおよび検証する機能。
 * 必要なすべてのデータ収集と Journey Optimizer アセットを自動で作成および設定します。
 * 製品ガイダンスとツールヒント。
