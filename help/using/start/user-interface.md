@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 360e4e290bca53ef5e0416ee4aa91d7f985a269e
+source-git-commit: 631018f2e58f52a4e953251abd2f60bda75c8303
 workflow-type: tm+mt
-source-wordcount: '1754'
+source-wordcount: '1758'
 ht-degree: 94%
 
 ---
@@ -350,3 +350,8 @@ AI アシスタントにアクセスして使用する方法については、[�
 >id="ajo_rule_type"
 >title="ルールタイプ"
 >abstract="ルールタイプ"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_business_rules"
+>title="ルールセット"
+>abstract="ルールセット"
