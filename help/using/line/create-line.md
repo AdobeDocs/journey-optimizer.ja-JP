@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a93d4dc9-f0e9-400c-b9a4-6cdac84390fd
-source-git-commit: 81cd7c2c8be26d760f369ecacc5859cf090234fc
+source-git-commit: 12dbe0031e9037d879e0d2309c7c26cc3c00cc4e
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 100%
+source-wordcount: '648'
+ht-degree: 86%
 
 ---
 
@@ -77,6 +77,18 @@ ht-degree: 100%
 >[!ENDTABS]
 
 ## LINE コンテンツの定義{#line-content}
+
+Adobe Journey Optimizerでは、LINE に対して次のメッセージタイプをサポートしています。
+
+* **テキスト**：プレーンテキストまたはフォーマットされたテキストメッセージを送信します。
+* **ステッカー**:LINE のネイティブステッカーを取り入れて、キャラクターや表現力を高めます。
+* **画像**：視覚効果を高めるために画像を添付します。
+* **ビデオ**：動的な通信のためのビデオコンテンツを共有します。
+* **場所**：場所情報をマップと共に送信します。
+* **テンプレート**：定義済みのテンプレートを利用して、一貫性のあるメッセージングを行います。
+* **Flex メッセージ**: JSON ベースのFlex メッセージを使用して、リッチコンテンツで複雑なレイアウトを作成します。
+
+これらのメッセージタイプは、JSON コンテンツを直接編集することで設定でき、動的でパーソナライズされたメッセージング戦略が可能になります。
 
 LINE コンテンツを設定するには、次の手順に従います。
 
