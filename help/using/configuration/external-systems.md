@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: 外部, API, Optimizer, キャップ
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: 967713938ab0e3eaaaad7a86054ed1270a9cc1ca
+source-git-commit: e7908a328a14b307f0ea6914d2d06c5325ceb211
 workflow-type: tm+mt
-source-wordcount: '1499'
-ht-degree: 90%
+source-wordcount: '1615'
+ht-degree: 83%
 
 ---
 
@@ -119,3 +119,14 @@ API について詳しくは、[Adobe Journey Optimizer API ドキュメント](
 **タイムアウトはどこで設定できますか？最大値はありますか？**
 
 各ジャーニーで、タイムアウト時間を定義できます。 タイムアウト時間は、ジャーニーのプロパティで設定します。 タイムアウト時間は、1 秒から 30 秒の間にする必要があります。 この [節](../configuration/external-systems.md#timeout)と[このページ](../building-journeys/journey-properties.md#timeout_and_error)を参照してください。
+
+**カスタムアクションが使用される際にJourney Optimizerで開かれる接続の最大数はいくつですか？**
+
+IP プロキシを有効にし、ターゲットエンドポイントにスロットル設定を定義した場合、接続数はレートに基づいて決まります（これらは保証された数ではなく、推定値です）。
+
+* 200～2000 c/s:50 接続
+* 2000～3000 の場合：75 接続
+* 3,000～4,000:100 接続
+* 4,000～5,000:125 接続
+
+エンドポイントでスロットル設定が定義されていない場合、Journey Optimizer Engine はスケールアップするように設計されており、多数（2,000 を超える）の接続を取得できます。 接続数を制限するには、スロットル設定を使用する必要があります。
