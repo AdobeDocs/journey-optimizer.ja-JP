@@ -4,10 +4,10 @@ product: journey optimizer
 title: Adobe Journey Optimizerを使用したオーケストレートキャンペーンの開始と監視
 description: Adobe Journey Optimizerでオーケストレートキャンペーンを開始および監視する方法について説明します。
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 24e767d6f146036c8c0a34193ed6d36e5d43e6b2
 workflow-type: tm+mt
 source-wordcount: '761'
-ht-degree: 55%
+ht-degree: 53%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 55%
 
 ![](assets/campaign-start.png){zoomable="yes"}
 
-キャンペーン内の各アクティビティは、ダイアグラムの最後に達するまで順番に実行されます。テスト中にキャンバスのアクションバーを使用して、キャンペーンの実行を制御できます。 ここから、次のことができます。
+キャンペーン内の各アクティビティは、キャンバスの最後に達するまで順番に実行されます。 テスト中にキャンバスのアクションバーを使用して、キャンペーンの実行を制御できます。 ここから、次のことができます。
 
 * **停止**：いつでも実行を停止できます。
 * **開始**：実行を再度開始します。
@@ -115,4 +115,4 @@ ht-degree: 55%
 
 ## 次の手順 {#next}
 
-オーケストレーションされたキャンペーン図を開始すると、Journey Optimizerのレポート機能を使用して、オーディエンスの行動の把握や、カスタマージャーニーの各ステップのパフォーマンスの測定などのインサイトを得ることができます。 [ オーケストレートキャンペーンレポートについて詳しくはこちらを参照 ](../orchestrated/reporting-campaigns.md)
+オーケストレーションされたキャンペーンキャンバスを開始すると、Journey Optimizer レポート機能を使用して、オーディエンスの行動の理解や、カスタマージャーニーの各ステップのパフォーマンスの測定などのインサイトを取得できます。 [ オーケストレートキャンペーンレポートについて詳しくはこちらを参照 ](../orchestrated/reporting-campaigns.md)
