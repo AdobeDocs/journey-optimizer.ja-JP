@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 設定の手順
-description: サポートされているソース（SFTP、クラウドストレージ、データベースなど）からAdobe Experience Platformにデータを取り込む方法を説明します。
+description: SFTP、クラウドストレージ、データベースなどのサポートされているソースからデータを Adobe Experience Platform に取り込む方法について説明します。
 exl-id: 7f1e7985-b68e-43d6-9c8f-fea2469f8af9
 source-git-commit: c1201025af216f8f3019e7696b6eb906962b681b
 workflow-type: tm+mt
 source-wordcount: '699'
-ht-degree: 22%
+ht-degree: 93%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 22%
 >
 >データセットのデータソースを変更するには、まず既存のデータフローを削除してから、同じデータセットと新しいソースを参照する新しいデータフローを作成する必要があります。
 >
->Adobe Experience Platformでは、データフローとデータセットの間に厳密な 1 対 1 の関係を適用します。 これにより、ソースとデータセットの間の同期を維持して、正確な増分取り込みを行うことができます。
+>Adobe Experience Platform では、データフローとデータセットの間に厳密な一対一の関係を適用します。これにより、ソースとデータセット間の同期を維持し、正確な増分取り込みを実現できます。
 
 Adobe Experience Platform を使用すると、データを外部ソースから取得しながら、Experience Platform サービスを使用して、受信データの構造化、ラベル付け、拡張を行うことができます。アドビのアプリケーション、クラウドベースのストレージ、データベースなど、様々なソースからデータを取り込むことができます。
 
@@ -26,7 +26,7 @@ Adobe Experience Platform を使用すると、データを外部ソースから
 
 ## 調整されたキャンペーンでサポートされるソース {#supported}
 
-オーケストレートキャンペーンでの使用では、次のソースがサポートされます。
+調整されたキャンペーンでは、次のソースの使用がサポートされています。
 
 <table>
   <thead>
@@ -53,7 +53,7 @@ Adobe Experience Platform を使用すると、データを外部ソースから
       <td><a href="https://experienceleague.adobe.com/ja/docs/experience-platform/sources/ui-tutorials/create/databases/bigquery">Google BigQuery</a></td>
     </tr>
     <tr>
-      <td><a href="https://experienceleague.adobe.com/ja/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/data-landing-zone">Data Landing Zone<a></td>
+      <td><a href="https://experienceleague.adobe.com/ja/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/data-landing-zone">データランディングゾーン<a></td>
     </tr>
     <tr>
       <td><a href="https://experienceleague.adobe.com/ja/docs/experience-platform/sources/ui-tutorials/create/databases/databricks">Azure Databricks</a></td>
@@ -68,35 +68,35 @@ Adobe Experience Platform を使用すると、データを外部ソースから
 
 ## リレーショナルスキーマデータハイジーンのガイドライン {#cdc}
 
-**[!UICONTROL Change data capture]** が有効になっているデータセットの場合、削除を含むすべてのデータ変更が、ソースシステムからAdobe Experience Platformに自動的にミラーリングされます。
+**[!UICONTROL データキャプチャを変更]**&#x200B;が有効になっているデータセットの場合、削除を含むすべてのデータ変更がソースシステムから Adobe Experience Platform に自動的にミラーリングされます。
 
-Adobe Journey Optimizer キャンペーンでは、すべてのオンボードされたデータセットで **[!UICONTROL Change data capture]** を有効にする必要があるので、ソースでの削除を管理するのは顧客の責任です。 ソースシステムから削除されたレコードは、Adobe Experience Platformの対応するデータセットから自動的に削除されます。
+Adobe Journey Optimizer キャンペーンでは、すべてのオンボードデータセットで&#x200B;**[!UICONTROL データキャプチャを変更]**&#x200B;を有効にする必要があるので、ソースでの削除の管理はお客様の責任となります。ソースシステムから削除したレコードは、Adobe Experience Platform の対応するデータセットから自動的に削除されます。
 
-ファイルベースの取り込みを使用してレコードを削除するには、顧客のデータファイルで、`D` フィールドの `Change Request Type` 値を使用してレコードをマークする必要があります。 これは、ソースシステムをミラーリングして、Adobe Experience Platformでレコードを削除する必要があることを示します。
+ファイルベースの取り込みを使用してレコードを削除するには、お客様のデータファイルで、「`Change Request Type`」フィールドの `D` 値を使用してレコードをマークする必要があります。これは、ソースシステムをミラーリングして、Adobe Experience Platform でレコードを削除する必要があることを示します。
 
-元のソースデータに影響を与えずに、Adobe Experience Platformからのみレコードを削除したい場合は、次のオプションを使用できます。
+元のソースデータに影響を与えずに Adobe Experience Platform からのみレコードを削除する場合は、次のオプションを使用できます。
 
-* **変更データ取得レプリケーションのプロキシまたはサニタイズされたテーブル**
+* **データキャプチャを変更レプリケーション用のプロキシまたはサニタイズされたテーブル**
 
-  お客様は、プロキシまたはサニタイズされたソーステーブルを作成して、どのレコードをAdobe Experience Platformにレプリケートするかを制御できます。 その後、この中間テーブルから削除を選択的に管理できます。
+  お客様は、プロキシまたはサニタイズされたソーステーブルを作成して、Adobe Experience Platform にレプリケートされるレコードを制御できます。その後、この中間テーブルから削除を選択的に管理できます。
 
-* **データDistillerによる削除**
+* **Data Distiller 経由での削除**
 
-  ライセンスを取得している場合は、**Data Distiller** を使用して、ソースシステムに依存せずに、Adobe Experience Platform内で直接削除操作をサポートできます。
+  ライセンスが付与されている場合、**Data Distiller** を使用して、ソースシステムに依存せずに、Adobe Experience Platform 内で直接削除操作をサポートできます。
 
-  [ 詳しくは、Data Distillerを参照してください ](https://experienceleague.adobe.com/ja/docs/experience-platform/query/data-distiller/overview)
+  [詳しくは、Data Distiller を参照してください。](https://experienceleague.adobe.com/ja/docs/experience-platform/query/data-distiller/overview)
 
 ## データフローの設定
 
-この例では、構造化データをAdobe Experience Platformに取り込むデータフローの設定方法を示します。 設定されたデータフローは、スケジュールに沿った自動インジェストをサポートし、リアルタイムの更新を可能にします。
+この例では、構造化データを Adobe Experience Platform に取り込むデータフローの設定方法を示します。設定したデータフローは、自動化されたスケジュール済みの取り込みをサポートし、リアルタイムの更新ができるようになります。
 
 1. **[!UICONTROL 接続]**&#x200B;メニューから、**[!UICONTROL ソース]**&#x200B;メニューにアクセスします。
 
-1. [ オーケストレートキャンペーンでサポートされているソース ](#supported) に応じてソースを選択します。
+1. [調整されたキャンペーンでサポートされているソース](#supported)に応じてソースを選択します。
 
    ![](assets/admin_sources_1.png)
 
-1. クラウドベースのソースを選択した場合は、クラウドストレージまたはGoogle クラウドストレージアカウントを接続します。
+1. クラウドベースのソースを選択した場合は、クラウドストレージまたは Google Cloud Storage アカウントを接続します。
 
    ![](assets/admin_sources_2.png)
 
@@ -104,13 +104,13 @@ Adobe Journey Optimizer キャンペーンでは、すべてのオンボード�
 
    ![](assets/S3_config_1.png)
 
-1. **[!UICONTROL データセットの詳細]** ページで、「**[!UICONTROL 変更データキャプチャを有効にする]**」をチェックして、リレーショナルスキーマにマッピングされ、プライマリキーとバージョン記述子の両方が含まれるデータセットのみを表示します。
+1. **[!UICONTROL データセットの詳細]**&#x200B;ページで、「**[!UICONTROL 変更データキャプチャを有効にする]**」をオンにすると、リレーショナルスキーマにマッピングされ、プライマリキーとバージョン記述子の両方が含まれるデータセットのみが表示されます。
 
-[リレーショナルスキーマのデータハイジーンに関するガイドラインについて詳しく説明します](#cdc)
+[リレーショナルスキーマのデータハイジーンに関するガイドラインの詳細情報](#cdc)
 
    >[!IMPORTANT]
    >
-   > **ファイルベースのソースのみ** の場合、データファイルの各行には、`_change_request_type` （upsert）または `U` （delete）の値を持つ `D` 列を含める必要があります。 この列がないと、システムはデータをサポートする変更トラッキングとして認識せず、オーケストレーションされたキャンペーンの切り替えは表示されず、データセットがターゲティング用に選択されません。
+   > **ファイルベースのソースのみ**&#x200B;の場合、データファイルの各行には、値が `U`（アップサート）または `D`（削除）の `_change_request_type` 列を含める必要があります。この列がないと、システムはデータが変更トラッキングをサポートしていると認識せず、調整されたキャンペーンの切替スイッチが表示されず、データセットがターゲティング用に選択されなくなります。
 
    ![](assets/S3_config_6.png)
 
@@ -118,7 +118,7 @@ Adobe Journey Optimizer キャンペーンでは、すべてのオンボード�
 
    ![](assets/S3_config_3.png)
 
-1. ファイルベースのソースのみを使用している場合は、**[!UICONTROL データを選択]** ウィンドウからローカルファイルをアップロードし、構造と内容をプレビューします。
+1. ファイルベースのソースのみを使用している場合は、**[!UICONTROL データを選択]**&#x200B;ウィンドウからローカルファイルをアップロードし、その構造とコンテンツをプレビューします。
 
    サポートされる最大サイズは 100 MB です。
 
