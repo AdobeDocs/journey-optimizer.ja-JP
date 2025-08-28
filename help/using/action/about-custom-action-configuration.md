@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: アクション, サードパーティ, カスタム, ジャーニー, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 967713938ab0e3eaaaad7a86054ed1270a9cc1ca
 workflow-type: tm+mt
-source-wordcount: '1720'
-ht-degree: 99%
+source-wordcount: '1749'
+ht-degree: 97%
 
 ---
 
@@ -36,6 +36,11 @@ ht-degree: 99%
 また、カスタムアクションパラメーターには想定される形式（例：文字列、10 進数など）があります。これらの想定される形式に従うように注意する必要があります。詳しくは、この[ユースケース](../building-journeys/collections.md)を参照してください。
 
 カスタムアクションは、[リクエスト](../action/about-custom-action-configuration.md#define-the-message-parameters)または[応答ペイロード](../action/action-response.md)を使用する際にのみ JSON 形式をサポートします。
+
+>[!NOTE]
+>
+>エンドポイントの応答時間が 0.75 秒を超える場合、カスタムアクション呼び出しは、デフォルトのサービスではなく、専用の低速 [ カスタムアクションサービス ](../configuration/external-systems.md#response-time) を介してルーティングされます。
+
 
 ## ベストプラクティス{#custom-action-enhancements-best-practices}
 
