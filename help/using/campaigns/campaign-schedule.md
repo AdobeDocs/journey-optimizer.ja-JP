@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 作成, Optimizer, キャンペーン, サーフェス, メッセージ
 exl-id: b183eeb8-606f-444d-9302-274f159c3847
-source-git-commit: 4417643cbf206b9ad112bae5c270cdfc746a9c5d
+source-git-commit: eeacfacf3068f831afb7b7ad78214941a9259c93
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 64%
+source-wordcount: '437'
+ht-degree: 51%
 
 ---
 
@@ -41,7 +41,14 @@ ht-degree: 64%
 
 レート制御を設定するには、「**[!UICONTROL 配信設定]**」セクションの「**[!UICONTROL 配信をスロットル]**」オプションを有効にし、1 秒あたりの目的の **[!UICONTROL 配信率]** を指定します。
 
+* サポートされている最小配信率：1 秒あたり
+* サポートされる最大配信率：「配信をスロットル」オプションが有効になっている場合の 1 秒あたりの 2000。
+
 ![](assets/throttling-rate-control.png)
+
+>[!IMPORTANT]
+>
+>配信率を設定する場合、キャンペーンオーディエンスが実行できる最大期間は 12 時間です。 配信率の値が、12 時間以内にメッセージを送信するすべてのオーディエンスを許可しない値に設定されている場合、残りのプロファイルはキャンペーンから除外されます。 これらの除外されたプロファイルの数は、キャンペーンレポートで確認できます。
 
 ## 実行頻度を設定
 
