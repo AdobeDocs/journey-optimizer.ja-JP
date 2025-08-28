@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 19130e9eb5a2144afccab9fa8e5632de67bc7157
+source-git-commit: ff3511e55eb56d8d5448df6d5de92dfd29ea8718
 workflow-type: tm+mt
-source-wordcount: '1700'
+source-wordcount: '1702'
 ht-degree: 72%
 
 ---
@@ -283,7 +283,7 @@ ht-degree: 72%
 
 * **チャネル – コンテンツカード**
 
-   * **コンテンツカードレイアウトテンプレート** - コンテンツカードチャネルで OOTB メッセージレイアウトが提供されるようになり、オーサリングエクスペリエンスが効率化されます。 このリリースには、「小さい画像」、「大きい画像」、「画像のみ」の各レイアウトテンプレートが含まれています。
+   * **コンテンツカードレイアウトテンプレート** - コンテンツカードチャネルで OOTB メッセージレイアウトが提供されるようになり、オーサリングエクスペリエンスが効率化されます。 このリリースには、「小さい画像」、「大きい画像」、「画像のみ」の各レイアウトテンプレートが含まれています。 [詳細情報](../content-card/design-content-card.md)
 
 * **チャネル - プッシュ**
 

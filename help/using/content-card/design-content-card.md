@@ -6,10 +6,10 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: b83bdade-7275-4eef-9c49-fc1d157cee0d
-source-git-commit: c2f32533027e374a1df26943e7c5acd4e1d13869
+source-git-commit: ff3511e55eb56d8d5448df6d5de92dfd29ea8718
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 100%
+source-wordcount: '510'
+ht-degree: 74%
 
 ---
 
@@ -19,9 +19,43 @@ ht-degree: 100%
 
 コンテンツを定義し、パーソナライズしたら、レビューしてアクティブ化できます。設定したスケジュールに従ってキャンペーンが送信されます。[詳しくは、このページを参照してください](../campaigns/review-activate-campaign.md)。
 
+## コンテンツカードのレイアウト
+
+![](assets/content-card-image.png)
+
+「**[!UICONTROL コンテンツカードレイアウト]**」セクションで、メッセージ要件に応じて、3 つの画像レイアウトオプションのいずれかを選択します。
+
+* **[!UICONTROL 小さい画像]**：テキストと共にコンパクトな画像を表示します。ビジュアルよりもコンテンツを優先するメッセージに最適です。
+
+* **[!UICONTROL 大きな画像]**：テキストの上または横に目立つ画像が表示され、メッセージの主な焦点がビジュアルになります。
+
+* **[!UICONTROL 画像のみ]**：テキストを伴わない画像を表示します。視覚的なメッセージやスタンドアロン画像に最適です。
+
 ## 「コンテンツ」タブ {#content-tab}
 
-「**[!UICONTROL コンテンツ]**」タブから、コンテンツカードのコンテンツと「**[!UICONTROL 閉じる]**」ボタンのデザインの両方を定義して、コンテンツカードをカスタマイズできます。さらに、このタブからメディアを使用してコンテンツを拡張したり、アクションボタンを直接追加したりできます。
+「**[!UICONTROL コンテンツ]**」タブでは、コンテンツを定義し、このタブから直接メディアとアクションボタンを追加して、コンテンツカードをカスタマイズできます。
+
+### テキストコンテンツ {#title-body}
+
+メッセージを作成するには、「**[!UICONTROL タイトル]**」フィールドと「**[!UICONTROL 本文]**」フィールドにテキストを入力します。
+
+![](assets/content-card-design-2.png)
+
+メッセージをさらにカスタマイズする場合は、**[!UICONTROL パーソナリゼーション]**&#x200B;アイコンを使用して、パーソナライズされた要素を追加します。パーソナリゼーション機能の使用方法について詳しくは、[この節](../personalization/personalize.md)を参照してください。
+
+### メディア {#add-media}
+
+「**[!UICONTROL メディア]**」フィールドを使用すると、メディアを追加してコンテンツカードを強化し、エンドユーザーにとってプレゼンテーションをより魅力的にすることができます。
+
+![](assets/content-card-design-3.png)
+
+メディアを含めるには、使用するメディアの URL を入力するか、**[!UICONTROL アセットを選択]**&#x200B;アイコンをクリックして、アセットライブラリに保存されているアセットから選択します。[アセット管理の詳細情報](../integrations/assets.md)。
+
++++詳細フォーマットを使用したその他のオプション
+
+**[!UICONTROL 詳細フォーマットモード]** がオンになっている場合は、画面読み取りアプリケーション用の **[!UICONTROL 代替テキスト]** と別のアセットを「**[!UICONTROL ダークモードメディア URL]**」フィールドに追加できます。
+
++++
 
 ### 「閉じる」ボタン {#close-button}
 
@@ -35,13 +69,7 @@ ht-degree: 100%
 * **[!UICONTROL シンプル]**
 * **[!UICONTROL 円]**
 
-### コンテンツ {#title-body}
 
-メッセージを作成するには、「**[!UICONTROL タイトル]**」フィールドと「**[!UICONTROL 本文]**」フィールドにテキストを入力します。
-
-![](assets/content-card-design-2.png)
-
-メッセージをさらにカスタマイズする場合は、**[!UICONTROL パーソナリゼーション]**&#x200B;アイコンを使用して、パーソナライズされた要素を追加します。パーソナリゼーション機能の使用方法について詳しくは、[この節](../personalization/personalize.md)を参照してください。
 
 <!--
 +++More options with advanced formatting
@@ -55,21 +83,7 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose 
 +++
 -->
 
-### メディア {#add-media}
 
-「**[!UICONTROL メディア]**」フィールドを使用すると、メディアを追加してコンテンツカードを強化し、エンドユーザーにとってプレゼンテーションをより魅力的にすることができます。
-
-![](assets/content-card-design-3.png)
-
-メディアを含めるには、使用するメディアの URL を入力するか、**[!UICONTROL アセットを選択]**&#x200B;アイコンをクリックして、アセットライブラリに保存されているアセットから選択します。[アセット管理の詳細情報](../integrations/assets.md)。
-
-<!--
-+++More options with advanced formatting
-
-If the **[!UICONTROL Advanced formatting mode]** is switched on, you can add an **[!UICONTROL Alternative text]** for screen reading applications and another asset in the **[!UICONTROL Dark Mode Media URL]** field.
-
-+++
--->
 
 ### ボタン {#add-buttons}
 
