@@ -4,10 +4,10 @@ product: journey optimizer
 title: 調整されたキャンペーンアクティビティの操作
 description: キャンペーンアクティビティを調整する方法を学ぶ
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: c1201025af216f8f3019e7696b6eb906962b681b
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 70%
+source-wordcount: '393'
+ht-degree: 68%
 
 ---
 
@@ -30,6 +30,8 @@ ht-degree: 70%
 
 ![ターゲティングアクティビティのリスト](../assets/targeting-activities.png){width="40%" align="left"}
 
+使用可能なターゲティングアクティビティは次のとおりです。
+
 * [オーディエンスを作成](build-audience.md)：ターゲット母集団を定義します。既存のオーディエンスを選択するか、ルールビルダーを使用して独自のクエリを定義できます。
 * [ ディメンションの変更 ](change-dimension.md)：オーケストレーションされたキャンペーンを作成する際に、ターゲティングディメンションを変更します。
 * [結合](combine.md)：インバウンド母集団に対してセグメント化を実行します。和集合、積集合または除外を使用できます。
@@ -49,9 +51,11 @@ Adobe Journey Optimizer を使用すると、複数のチャネル間でマー�
 >title="終了アクティビティ"
 >abstract="**終了**&#x200B;アクティビティを使用すると、調整されたキャンペーンの終了をグラフィカルに示すことができます。このアクティビティは、機能上の影響はないので、省略可能です。"
 
-![フロー制御アクティビティのリスト](../assets/flow-control-activities.png){width="30%" align="left"}
-
 次のアクティビティは、オーケストレートキャンペーンの編成と実行に固有です。 主なタスクは、他のアクティビティの調整です。
+
+![フロー制御アクティビティのリスト](../assets/flow-control-activities.png){width="20%" align="left"}
+
+使用可能なフロー制御アクティビティは次のとおりです。
 
 * [AND 結合 ](and-join.md)：オーケストレーションされたキャンペーンの複数の実行分岐を同期します。
 * [分岐](fork.md)：アウトバウンドトランジションを作成して、複数のアクティビティを同時に開始します。

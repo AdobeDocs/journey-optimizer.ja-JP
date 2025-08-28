@@ -4,17 +4,17 @@ product: journey optimizer
 title: ターゲティングディメンションの作成
 description: リレーショナルスキーマを顧客プロファイルにマッピングする方法を説明します
 exl-id: 2479c109-cd6f-407e-8a53-77e4477dc36f
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: c1201025af216f8f3019e7696b6eb906962b681b
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 0%
+source-wordcount: '745'
+ht-degree: 3%
 
 ---
 
 
 # ターゲティングディメンションの設定 {#configuration}
 
-**[!UICONTROL オーケストレートキャンペーン]** を使用すると、Adobe Experience Platformのリレーショナルスキーマ機能を活用して、ターゲットコミュニケーションを設計し、エンティティレベルで配信できます。
+**[!UICONTROL オーケストレートキャンペーン]** を使用すると、Adobe Experience Platformのリレーショナルスキーマ機能を活用して、ターゲットコミュニケーションを設計し、エンティティレベルで配信できます。 Experience Platform では、スキーマを使用して、一貫性のある再利用可能な方法でデータの構造を記述します。データがExperience Platformに取り込まれると、XDM スキーマに従って構造化されます。
 
 **[!UICONTROL オーケストレートキャンペーン]** のセグメント化は主にリレーショナルスキーマに基づいて動作しますが、実際のメッセージ配信は常に **プロファイル** レベルで行われます。
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 * **プロファイルのリンケージ**
 
-  システムは、ターゲットスキーマが `Profile` にどのようにマッピングされるかを理解する必要があります。 これは、共有 ID フィールドを通じて実現されます。共有 ID フィールドは、ターゲットスキーマと `Profile` スキーマの両方に存在し、ID 名前空間として設定されています。
+  システムは、ターゲットスキーマが `Profile` スキーマにどのようにマッピングされるかを理解する必要があります。 これは、共有 ID フィールドを通じて実現されます。共有 ID フィールドは、ターゲットスキーマと `Profile` スキーマの両方に存在し、ID 名前空間として設定されています。
 
 ## ターゲティングディメンションの作成 {#targeting-dimension}
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
    この例では、顧客プロファイルは複数のサブスクリプションにリンクされ、それぞれが `crmID` スキーマ内の一意の `Recipient` で表されます。 **[!UICONTROL スキーマとその]** ID を使用するように `Recipient`Target Dimension`crmID` を設定することで、メイン顧客プロファイルではなく購読レベルでメッセージを送信でき、各契約または明細が独自にパーソナライズされたメッセージを受信するようになります。
 
-   [詳しくは、Adobe Experience Platform ドキュメントを参照してください。](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/schema/composition#identity)
+   [詳しくは、Adobe Experience Platform ドキュメントを参照してください。](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/composition#identity)
 
    ![](assets/target-dimension-2.png)
 
@@ -92,7 +92,7 @@ ht-degree: 0%
 
 1. 配信方法として **[!UICONTROL ターゲット +セカンダリDimension]** を選択した場合は、**[!UICONTROL セカンダリDimension]** を選択して、メッセージ配信のコンテキストを定義します。
 
-1. 「**[!UICONTROL 実行アドレス]**」セクションで、配信アドレスの取得に使用する **[!UICONTROL 2&rbrace;Source&rbrace; を選択します（メールアドレスや電話番号など）。]**
+1. 「**[!UICONTROL 実行アドレス]**」セクションで、配信アドレスの取得に使用する **[!UICONTROL 2}Source} を選択します（メールアドレスや電話番号など）。]**
 
    * **[!UICONTROL プロファイル]**：配信アドレス（メールなど）がメイン顧客プロファイルに直接保存されている場合は、このオプションを選択します。
 
