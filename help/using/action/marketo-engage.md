@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: Marketo、Marketo Engage 統合
 exl-id: 70d1ef5a-743b-4362-bb65-93a8c996209f
-source-git-commit: 1592c3ae28f1f7a5465c8fb236790a460e9afb25
+source-git-commit: aafd172fe24a4ecb300f5f4cf5561f38dfeadfc7
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 94%
@@ -39,14 +39,10 @@ Journey Optimizer では、Marketo Engage のカスタムアクションを設�
 1. 「管理」メニューセクションで「**[!UICONTROL 設定]**」を選択します。
 1. 「**[!UICONTROL アクション]**」セクションで、「**[!UICONTROL アクションを作成]**」をクリックします。画面の右側にアクション設定パネルが開きます。
 1. 名前、説明を入力し、**アクションタイプ**&#x200B;として「**Adobe Marketo Engage**」を選択します。
-
-![](assets/engage-customaction-creation.png){width="40%" align="left"}
-
+   ![](assets/engage-customaction-creation.png){width="40%" align="left"}
 1. **リクエスト**&#x200B;および&#x200B;**応答**&#x200B;ペイロードの&#x200B;**ペイロードを編集**&#x200B;アイコンをクリックします。
 1. どちらの場合も、ペイロードを作成し、専用のポップアップに貼り付けます。
-
-![](assets/engage-customaction-payload.png){width="70%" align="left"}
-
+   ![](assets/engage-customaction-payload.png){width="70%" align="left"}
 1. ペイロード値の検査と設定
 
 メモ：値を動的に渡すには、フィールドごとに **定数** を **変数** に変更します。
