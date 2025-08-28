@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: 調整されたキャンペーンアクティビティ
 description: 調整されたキャンペーンアクティビティ
 redpen-status: CREATED_||_2025-08-11_20-27-08
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
+exl-id: d6635d58-b618-4d92-b60f-c6fc63e473a6
+source-git-commit: 4270fbfb191700704d161f472abf62f7af79c208
 workflow-type: tm+mt
 source-wordcount: '347'
-ht-degree: 8%
+ht-degree: 6%
 
 ---
-
 
 # 調整されたキャンペーンアクティビティ{#section-overview}
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizerでキャンペーンアクティビティを調整する
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 調整されたキャンペーンアクティビティの操作
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizerでキャンペーンアクティビティを調整する
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 AND 結合アクティビティの使用
 
@@ -40,7 +40,7 @@ AND 結合アクティビティの使用
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 オーディエンスを作成アクティビティ
 
@@ -50,7 +50,7 @@ AND 結合アクティビティの使用
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 ディメンション変更アクティビティ
 
@@ -60,7 +60,7 @@ AND 結合アクティビティの使用
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 チャネルアクティビティ
 
@@ -70,7 +70,7 @@ AND 結合アクティビティの使用
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 結合アクティビティ
 
