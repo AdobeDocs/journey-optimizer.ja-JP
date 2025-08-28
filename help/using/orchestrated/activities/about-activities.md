@@ -4,10 +4,10 @@ product: journey optimizer
 title: 調整されたキャンペーンアクティビティの操作
 description: キャンペーンアクティビティを調整する方法を学ぶ
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
-source-git-commit: c1201025af216f8f3019e7696b6eb906962b681b
+source-git-commit: 2e04d3022ff6e8427e80a5a22cae367c4995730a
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 68%
+source-wordcount: '407'
+ht-degree: 66%
 
 ---
 
@@ -23,6 +23,11 @@ ht-degree: 68%
 * [フロー制御アクティビティ](#flow-control)
 
 ![キャンバスで使用できるアクティビティのリスト](../assets/orchestrated-activities.png){width="80%" align="left"}
+
+
+>[!NOTE]
+>
+>使用できるアクティビティは、ライセンスモデル、権限および実装によって異なる場合があります。
 
 ## ターゲティングアクティビティ {#targeting}
 
