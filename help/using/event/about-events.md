@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: イベント, ジャーニー, 定義, 開始
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: e4ea791dbc4362bff1d822f0b36add829e7a259d
+source-git-commit: 3764d7eebbe304e0773fa329db2755342ce64c85
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1084'
 ht-degree: 100%
 
 ---
@@ -73,7 +73,11 @@ ht-degree: 100%
 
 システム生成イベントの場合、パイプラインがフィルタリングするイベントは、[!DNL Journey Optimizer] が提供する [!DNL Journey Optimizer] eventID（以下のイベント作成プロセスを参照）がペイロードに含まれているイベントです。ルールベースのイベントの場合は、eventID 条件を使用してイベントを識別します。これらのイベントは [!DNL Journey Optimizer] がリッスンし、対応するジャーニーがトリガーされます。
 
-## イベントの更新と削除
+## イベントの更新と削除 {#update-event}
+
+
+## イベントの更新と削除 {#update-event}
+
 
 既存のジャーニーの中断を避けるには、ドラフトジャーニー、ライブジャーニーまたはクローズドジャーニーで使用されるイベントを編集する場合、名前と説明の変更およびペイロードフィールドの追加のみが可能です。
 
@@ -83,8 +87,8 @@ ht-degree: 100%
 
 イベントの設定方法と、ストリーミングエンドポイントとイベントのペイロードの指定方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3431517?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 ビジネスイベントに適用できる使用例を理解します。ビジネスイベントを使用したジャーニーの構築方法と、適用するベストプラクティスについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416427?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)
