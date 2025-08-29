@@ -6,10 +6,10 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: b83bdade-7275-4eef-9c49-fc1d157cee0d
-source-git-commit: ff3511e55eb56d8d5448df6d5de92dfd29ea8718
+source-git-commit: dccaaa0588b504c1c00ce25fd6bbb4f34652ec91
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 74%
+source-wordcount: '555'
+ht-degree: 66%
 
 ---
 
@@ -27,9 +27,15 @@ ht-degree: 74%
 
 * **[!UICONTROL 小さい画像]**：テキストと共にコンパクトな画像を表示します。ビジュアルよりもコンテンツを優先するメッセージに最適です。
 
+  詳しくは、Adobe Developerのドキュメント [iOSの場合 ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/smallimage-template/) および [Androidの場合 ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/smallimagecarduistate/) を参照してください。
+
 * **[!UICONTROL 大きな画像]**：テキストの上または横に目立つ画像が表示され、メッセージの主な焦点がビジュアルになります。
 
+  詳しくは、Adobe Developerのドキュメント [iOSの場合 ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/largeimage-template/) および [Androidの場合 ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/largeimagecarduistate/) を参照してください。
+
 * **[!UICONTROL 画像のみ]**：テキストを伴わない画像を表示します。視覚的なメッセージやスタンドアロン画像に最適です。
+
+  詳しくは、Adobe Developerのドキュメント [iOSの場合 ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/imageonly-template/) および [Androidの場合 ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/imageonlycarduistate/) を参照してください。
 
 ## 「コンテンツ」タブ {#content-tab}
 
@@ -37,17 +43,17 @@ ht-degree: 74%
 
 ### テキストコンテンツ {#title-body}
 
-メッセージを作成するには、「**[!UICONTROL タイトル]**」フィールドと「**[!UICONTROL 本文]**」フィールドにテキストを入力します。
-
 ![](assets/content-card-design-2.png)
+
+メッセージを作成するには、「**[!UICONTROL タイトル]**」フィールドと「**[!UICONTROL 本文]**」フィールドにテキストを入力します。
 
 メッセージをさらにカスタマイズする場合は、**[!UICONTROL パーソナリゼーション]**&#x200B;アイコンを使用して、パーソナライズされた要素を追加します。パーソナリゼーション機能の使用方法について詳しくは、[この節](../personalization/personalize.md)を参照してください。
 
 ### メディア {#add-media}
 
-「**[!UICONTROL メディア]**」フィールドを使用すると、メディアを追加してコンテンツカードを強化し、エンドユーザーにとってプレゼンテーションをより魅力的にすることができます。
-
 ![](assets/content-card-design-3.png)
+
+「**[!UICONTROL メディア]**」フィールドを使用すると、メディアを追加してコンテンツカードを強化し、エンドユーザーにとってプレゼンテーションをより魅力的にすることができます。
 
 メディアを含めるには、使用するメディアの URL を入力するか、**[!UICONTROL アセットを選択]**&#x200B;アイコンをクリックして、アセットライブラリに保存されているアセットから選択します。[アセット管理の詳細情報](../integrations/assets.md)。
 
@@ -57,11 +63,38 @@ ht-degree: 74%
 
 +++
 
+### ボタン {#add-buttons}
+
+![](assets/content-card-design-4.png)
+
+ユーザーがコンテンツカードを操作するボタンを追加します。
+
+1. **[!UICONTROL 「追加」ボタン]**&#x200B;をクリックして、新しいアクションボタンを作成します。
+
+1. ボタンの「**[!UICONTROL タイトル]**」フィールドを編集して、ボタンに表示するラベルを指定します。
+
+1. 「**[!UICONTROL インタラクトイベント]**」を選択して、ユーザーがボタンをクリックまたは操作したときにトリガーされるアクションを定義します。
+
+1. 「**[!UICONTROL ターゲット]**」フィールドに、ユーザーがボタンを操作した後に遷移する web URL またはディープリンクを入力します。
+
+<!--
++++More options with advanced formatting
+
+If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose for your **[!UICONTROL Buttons]**:
+
+* the **[!UICONTROL Font]**
+* the **[!UICONTROL Pt size]**
+* the **[!UICONTROL Font Color]**
+* the **[!UICONTROL Alignment]**
+
++++
+-->
+
 ### 「閉じる」ボタン {#close-button}
 
 ![](assets/content-card-design-1.png)
 
-**[!UICONTROL 「閉じる」ボタン]**&#x200B;の&#x200B;**[!UICONTROL スタイル]**&#x200B;を選択して、表示方法をカスタマイズします。
+**[!UICONTROL 解除ボタン]** の **[!UICONTROL スタイル]** を選択して、その外観をカスタマイズします。
 
 選択できるスタイルは次のとおりです。
 
@@ -84,33 +117,6 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose 
 -->
 
 
-
-### ボタン {#add-buttons}
-
-ユーザーがコンテンツカードを操作するボタンを追加します。
-
-![](assets/content-card-design-4.png)
-
-1. **[!UICONTROL 「追加」ボタン]**&#x200B;をクリックして、新しいアクションボタンを作成します。
-
-1. ボタンの「**[!UICONTROL タイトル]**」フィールドを編集して、ボタンに表示するラベルを指定します。
-
-1. 「**[!UICONTROL インタラクトイベント]**」を選択して、ユーザーがボタンをクリックまたは操作したときにトリガーされるアクションを定義します。
-
-1. 「**[!UICONTROL ターゲット]**」フィールドに、ユーザーがボタンを操作した後に遷移する web URL またはディープリンクを入力します。
-
-<!--
-+++More options with advanced formatting
-
-If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose for your **[!UICONTROL Buttons]**:
-
-* the **[!UICONTROL Font]**
-* the **[!UICONTROL Pt size]**
-* the **[!UICONTROL Font Color]**
-* the **[!UICONTROL Alignment]**
-
-+++
--->
 
 ### クリック時の動作
 
