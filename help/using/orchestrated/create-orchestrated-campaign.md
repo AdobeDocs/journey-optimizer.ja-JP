@@ -4,10 +4,10 @@ product: journey optimizer
 title: Journey Optimizer を使用して調整されたキャンペーンの作成とスケジュール
 description: Adobe Journey Optimizer を使用して調整されたキャンペーンの作成とスケジュール方法について説明します。
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: ht
-source-wordcount: '1116'
-ht-degree: 100%
+source-git-commit: a58d71b3cdb5e83f80b064673f0a6d087b7c191d
+workflow-type: tm+mt
+source-wordcount: '1122'
+ht-degree: 97%
 
 ---
 
@@ -31,9 +31,7 @@ ht-degree: 100%
 
    ![](assets/create-modal.png)
 
-1. キャンペーンのプロパティを定義します。これを行うには、キャンペーン名の横にある ![キャンペーン設定アイコン](assets/do-not-localize/campaign-settings.svg) ボタンをクリックします。
-
-   ![](assets/inventory-create.png)
+1. キャンペーンプロパティを定義します。
 
    1. キャンペーンの&#x200B;**[!UICONTROL 名前]**&#x200B;と&#x200B;**[!UICONTROL 説明]**&#x200B;を入力します。
 
@@ -44,6 +42,11 @@ ht-degree: 100%
    1. 「**[!UICONTROL タグ]**」フィールドを使用して、Adobe Experience Platform 統合タグをキャンペーンに割り当てます。これにより、キャンペーンを簡単に分類し、調整されたキャンペーンリストからの検索を改善できます。[詳しくは、タグの操作方法を参照してください](../start/search-filter-categorize.md#tags)。
 
    1. 「**[!UICONTROL 保存]**」をクリックします。
+
+
+   キャンペーン名の横にある ![ キャンペーン設定アイコン ](assets/do-not-localize/campaign-settings.svg) ボタンを使用すると、いつでもキャンペーンのプロパティにアクセスできます。
+
+   ![](assets/inventory-create.png)
 
 ## キャンペーンのスケジュール {#schedule}
 
