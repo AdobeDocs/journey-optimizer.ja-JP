@@ -12,7 +12,7 @@ exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
 workflow-type: tm+mt
 source-wordcount: '2733'
-ht-degree: 86%
+ht-degree: 87%
 
 ---
 
@@ -263,7 +263,7 @@ Adobe Journey Optimizer は、ジャーニー全体を通じて使用される�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_exit_criterias"
 >title="終了条件"
->abstract="このセクションには、終了基準オプションが表示されます。ジャーニーに 1 つまたは複数の終了条件ルールおよびフィルターを作成できます。"
+>abstract="このセクションには、終了基準オプションが表示されます。ジャーニーに対して 1 つまたは複数の終了条件ルールとフィルターを作成できます。"
 
 ### ジャーニーの終了条件 {#exit-criteria-desc}
 

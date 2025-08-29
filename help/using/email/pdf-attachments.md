@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: メールへのPDF ファイルの添付
+title: メールへの PDF ファイルの添付
 description: メールに静的PDF ファイルを添付する方法を学ぶ
 feature: Email Design
 topic: Content Management
@@ -12,16 +12,16 @@ exl-id: 71e218d0-5b3b-4db5-8b7b-d08df8f088c4
 source-git-commit: 2e394ea4ba6f3a46df997d48331cbe6ea09f0eb5
 workflow-type: tm+mt
 source-wordcount: '353'
-ht-degree: 25%
+ht-degree: 41%
 
 ---
 
-# メールへのPDF ファイルの添付 {#pdf-attachments}
+# メールへの PDF ファイルの添付 {#pdf-attachments}
 
 >[!CONTEXTUALHELP]
 >id="ajo_pdf_attachments"
->title="PDF添付ファイルの追加"
->abstract="メールに添付するPDF ファイルを参照して選択します。</br>PDF添付ファイルを含むメッセージは、プロファイルごとに年間 6 件まで送信できます。 各添付ファイルの最大許容ファイルサイズは 5 MB です。</br> 任意のサイズまたはボリュームを追加する場合は、添付ファイルパックアドオンを購入できます。 詳しくは、アドビ担当者にお問い合わせください。"
+>title="PDF 添付ファイルの追加"
+>abstract="メールに添付する PDF ファイルを参照して選択します。</br>プロファイルごとに、年間最大 6 件の PDF 添付ファイル付きメッセージを送信できます。各添付ファイルの最大許容ファイルサイズは 5 MB です。</br>追加のサイズまたはボリュームは、添付ファイルパックアドオンを購入できます。詳しくは、アドビ担当者にお問い合わせください。"
 
 >[!AVAILABILITY]
 >
