@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: e038518296749b820c879f70a2272f936390a15f
+source-git-commit: d910b90bbc2bd4276ea197e7caf7854b7e3aa953
 workflow-type: tm+mt
-source-wordcount: '814'
-ht-degree: 93%
+source-wordcount: '824'
+ht-degree: 92%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 93%
 
 Microsoft Azure OpenAI と Adobe Firefly を利用した Adobe Journey Optimizer の AI アシスタントは、テキストと画像に対するプロアクティブなコンテンツバリエーションの提案を提供します。この新しい機能は、**プロンプトベースのテキストと画像の生成** を提供します。 画像の生成は、Adobe Firefly で管理されます。
 
-AI アシスタントは、世代 **複数の言語** をサポートし、多様なグローバル オーディエンスにリーチして関与できるようにします。
+AI アシスタントは、フランス語、スペイン語、ドイツ語、イタリア語、日本語、スウェーデン語、オランダ語、ノルウェー語などの世代 **複数の言語** をサポートし、多様なグローバルオーディエンスにリーチして関与することができます。
 
 Adobe Journey Optimizer の AI アシスタントを使用して、様々なメインタイトルや画像を試すことで、メッセージの影響を最適化します。複数のバリアントを生成し、それらを比較する実験を作成します。**Journey Optimizerのコンテンツ実験** を活用すると、複数のメッセージ処理を定義して、ターゲットオーディエンスに最適なパフォーマンスを発揮するメッセージを測定できます。 配信コンテンツまたは件名を変更できます。メッセージオーディエンスが各処理にランダムに割り当てられて、指定の指標に関して最も効果が高い処理が判断されます。コンテンツ実験について詳しくは、[この節](../content-management/content-experiment.md)を参照してください。
 
