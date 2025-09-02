@@ -325,7 +325,7 @@ HTMLのメールでは、テーブルはレイアウトによく使用されま�
 >
 >Always ensure link text is discernible (visible) and descriptive (clear about purpose). Avoid vague labels like 'here' or 'more'.-->
 
-## キーボードナビゲーションとフォーカスのサポート <!--for landing pages--> {#keyboard} 提供
+## キーボードナビゲーションとフォーカスのサポート 提供 {#keyboard}
 
 キーボードナビゲーションとフォーカスサポートを提供することで、マウスを使用できないユーザーがコンテンツに完全にアクセスして操作できるようになります。 また、すべてのユーザーに対して、情報の流れを明確かつ一貫した方法で示すことで、全体的な使いやすさを向上させます。
 
