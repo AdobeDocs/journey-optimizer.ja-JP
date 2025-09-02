@@ -3,29 +3,29 @@ solution: Journey Optimizer
 product: journey optimizer
 title: アクセシブルなコンテンツの設計
 description: Journey Optimizerでメールとランディングページ用のアクセシブルなコンテンツを設計する方法について説明します
-feature: Email Design
+feature: Email Design, Landing Pages
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: メール，デザイン，アクセシビリティ
-hide: true
-hidefromtoc: true
-source-git-commit: be87e47f7c3303575c2784af7ce76c138cb03154
+source-git-commit: fff37a5325eb99a5a484cad93c391cb92fef7526
 workflow-type: tm+mt
-source-wordcount: '1612'
+source-wordcount: '1642'
 ht-degree: 2%
 
 ---
 
 # アクセシブルなコンテンツの設計 {#accessible-content}
 
+>[!NOTE]
+>
+>このページは、すべての受信者がコンテンツにアクセスできるようにして、障害のあるユーザーが [!DNL Journey Optimizer] で設計されたメールやランディングページを読み、理解し、やり取りできるようにします。
+>
+>[!DNL Journey Optimizer] インターフェイス自体のアクセシビリティについては、[ この節 ](../start/accessibility.md) を参照してください。
+
 [ 欧州アクセシビリティ法 ](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} は、加盟国間の国のルールの違いによる障壁を取り除くことにより、アクセシブルな製品やサービスの内部市場を強化することを目的とした指令です。
 
 **で** メール **および** ランディングページ [!DNL Journey Optimizer] のコンテンツを作成する場合、このページにリストされているメールマーケターのアクセシビリティのベストプラクティスは、このディレクティブに準拠するのに役立ちます。 Web コンテンツアクセシビリティガイドライン（WCAG） 2.1、レベル AA に基づいています。
-
->[!NOTE]
->
->[!DNL Journey Optimizer] インターフェイス自体の使用時におけるアクセシビリティ機能について詳しくは、[ この節 ](../start/accessibility.md) を参照してください。
 
 欧州のアクセシビリティ法では、電子メール、ニュースレター、PDF、ダウンロード可能なコンテンツを含むすべてのデジタル通信にアクセスできると規定されています。 したがって、アクセシブルなフォントや読み取り可能な形式の使用、画像用の代替テキストの提供など、特定のガイドラインに従う必要があります。
 
@@ -33,7 +33,6 @@ ht-degree: 2%
 
 <!--You can adjust a number of styling parameters and attributes from the Email Designer **[!UICONTROL Styles]** pane.-->
  
-
 ## テキストを読みやすくする {#text-readability}
 
 **[!UICONTROL テキスト]** コンポーネントの「**[!UICONTROL スタイル]**」タブを活用して、適切なカラーコントラストやシンプルなフォントの使用など、テキストが読みやすいようにします。 [詳細情報](content-components.md#text)
