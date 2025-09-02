@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: ジャーニー, アクティビティ, 開始, イベント, アクション
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
-source-git-commit: 19130e9eb5a2144afccab9fa8e5632de67bc7157
+source-git-commit: c39a71da901b888ff440a1488658b577ff72cc32
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 100%
+source-wordcount: '716'
+ht-degree: 94%
 
 ---
 
@@ -91,13 +91,19 @@ ht-degree: 100%
 
 ![ジャーニーアクティビティプロパティの詳細パラメーターフィールド](assets/journey-advanced-parameters.png)
 
-読みやすくするには、「**[!UICONTROL 読み取り専用フィールドを非表示]**」ボタンを使用して、これらのパラメーターを非表示にします。
+読みやすくするために、右側のパネルの上部にある **[!UICONTROL 読み取り専用フィールドを非表示にする]** ボタンを使用して、これらのパラメーターを非表示にします。
 
 ![ジャーニーアクティビティプロパティの読み取り専用フィールドを非表示アイコン](assets/journey-hide-read-only-fields.png)
 
 一部のコンテキストでは、特定の用途でこれらのパラメーターの値を上書きできます。値を強制的に指定するには、フィールドの右側にある「**[!UICONTROL パラメーターの上書きを有効にする]**」アイコンをクリックします。[詳細情報](../configuration/primary-email-addresses.md#journey-parameters)
 
 ![メールアクティビティプロパティの「パラメーターの上書きを有効にする」オプション](assets/journey-enable-parameter-override.png)
+
+>[!NOTE]
+>
+>詳細設定パラメーターが非表示の場合は、「**[!UICONTROL 読み取り専用フィールドを表示]**」ボタンをクリックします
+>
+>![ ジャーニーアクティビティプロパティの「読み取り専用フィールドを表示」アイコン ](assets/journey-show-read-only-fields.png){width=60%}
 
 ### 代替パスの追加
 

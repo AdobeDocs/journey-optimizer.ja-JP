@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: プライマリ, 実行, メール, ターゲット, プロファイル, Optimizer
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: 5b6543fd98b0457652374a34712e91501ace898c
+source-git-commit: c39a71da901b888ff440a1488658b577ff72cc32
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 100%
+source-wordcount: '522'
+ht-degree: 84%
 
 ---
 
@@ -68,6 +68,12 @@ ht-degree: 100%
 
 ## デフォルトの実行フィールドの上書き {#override-default-execution-address}
 
+>[!CONTEXTUALHELP]
+>id="ajo_journey_execution_address"
+>title="カスタム値の定義"
+>abstract="場合によっては、デフォルトの実行アドレスを上書きできます。 フィールドの右側にある **パラメーターの上書きを有効にする** アイコンを使用して、カスタムのプライマリアドレスを定義します。"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/primary-email-addresses#journey-parameters" text="実行アドレスについて"
+
 特定のユースケースでは、グローバルに設定された実行フィールドを上書きし、メール設定レベルまたはジャーニーレベルで異なる値を定義できます。
 
 この値の上書きは、例えば次のような場合に便利です。
@@ -83,9 +89,9 @@ ht-degree: 100%
 
 ### ジャーニーパラメーター内 {#journey-parameters}
 
-**[!UICONTROL メール]**&#x200B;アクションを[ジャーニー](../email/create-email.md#create-email-journey-campaign)に追加すると、プライマリメールアドレスがジャーニーの詳細設定パラメーターの下に表示されます。
+**[!UICONTROL メール]** または **[!UICONTROL SMS]** アクションを [ ジャーニー ](../email/create-email.md#create-email-journey-campaign) に追加すると、プライマリメールアドレスがジャーニーの詳細設定パラメーターの下に表示されます。
 
-特定のコンテキストでは、**[!UICONTROL 住所]**&#x200B;フィールドの右側にある「**[!UICONTROL パラメーターの上書きを有効にする]**」アイコンを使って、この値を上書きすることができます。
+特定のコンテキストでは、フィールドの右側にある **[!UICONTROL パラメーターの上書きを有効にする]** アイコンを使用して、この値を上書きすることができます。
 
 ![](assets/journey-enable-parameter-override.png)
 

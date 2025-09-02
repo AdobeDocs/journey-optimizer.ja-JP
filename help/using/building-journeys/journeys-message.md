@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: ジャーニー, メッセージ, プッシュ, sms, メール, アプリ内, web, コンテンツカード, コードベースのエクスペリエンス
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: 17ca5d47fbf20ee25c3728d85877adaccf82aea8
+source-git-commit: c39a71da901b888ff440a1488658b577ff72cc32
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 97%
+source-wordcount: '557'
+ht-degree: 89%
 
 ---
 
@@ -120,13 +120,17 @@ ht-degree: 97%
       </tr>
       </table>
 
->[!NOTE]
->
->* 各インバウンドエクスペリエンスアクティビティには、3 日間の&#x200B;**待機**&#x200B;アクティビティが付属しています。[詳細情報](wait-activity.md#auto-wait-node)
->
->* メールおよびプッシュ通知の場合、送信時間の最適化を有効にできます。[詳細情報](send-time-optimization.md)
+   >[!NOTE]
+   >
+   >* 各インバウンドエクスペリエンスアクティビティには、3 日間の&#x200B;**待機**&#x200B;アクティビティが付属しています。[詳細情報](wait-activity.md#auto-wait-node)
+   >
+   >* メールおよびプッシュ通知の場合、送信時間の最適化を有効にできます。[詳細情報](send-time-optimization.md)
 
+1. アクティビティに応じて、選択したチャネルに固有の詳細パラメーターを表示したり、実行アドレスなどの一部のデフォルト値を上書きしたりできます。 [詳細情報](../about-journey-activities.md#advanced-parameters)
 
+   >[!NOTE]
+   >
+   >詳細設定パラメーターが非表示の場合は、右側のパネルの上部にある **[!UICONTROL 読み取り専用フィールドを表示]** ボタンをクリックします。
 
 ## ライブコンテンツの更新 {#update-live-content}
 
