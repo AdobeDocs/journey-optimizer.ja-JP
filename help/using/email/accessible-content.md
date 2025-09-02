@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 keywords: メール，デザイン，アクセシビリティ
 hide: true
 hidefromtoc: true
-source-git-commit: 95e50386d4190d0b967d133a327c25ab1681b5c1
+source-git-commit: be87e47f7c3303575c2784af7ce76c138cb03154
 workflow-type: tm+mt
 source-wordcount: '1612'
 ht-degree: 2%
@@ -33,7 +33,6 @@ ht-degree: 2%
 
 <!--You can adjust a number of styling parameters and attributes from the Email Designer **[!UICONTROL Styles]** pane.-->
  
-
 ## テキストを読みやすくする {#text-readability}
 
 **[!UICONTROL テキスト]** コンポーネントの「**[!UICONTROL スタイル]**」タブを活用して、適切なカラーコントラストやシンプルなフォントの使用など、テキストが読みやすいようにします。 [詳細情報](content-components.md#text)
@@ -325,7 +324,9 @@ HTMLのメールでは、テーブルはレイアウトによく使用されま�
 >
 >Always ensure link text is discernible (visible) and descriptive (clear about purpose). Avoid vague labels like 'here' or 'more'.-->
 
-## キーボードナビゲーションとフォーカスのサポート 提供 {#keyboard}
+## キーボードナビゲーションとフォーカスサポートの提供 {#keyboard}
+
+<!--for landing pages-->
 
 キーボードナビゲーションとフォーカスサポートを提供することで、マウスを使用できないユーザーがコンテンツに完全にアクセスして操作できるようになります。 また、すべてのユーザーに対して、情報の流れを明確かつ一貫した方法で示すことで、全体的な使いやすさを向上させます。
 
