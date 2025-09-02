@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: ジャーニー, メッセージ, プッシュ, sms, メール, アプリ内, web, コンテンツカード, コードベースのエクスペリエンス
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
-source-git-commit: c39a71da901b888ff440a1488658b577ff72cc32
+source-git-commit: 25847b9252b54e63c9ceb4641fb53a80d3bf89bd
 workflow-type: tm+mt
 source-wordcount: '557'
 ht-degree: 89%
@@ -126,7 +126,7 @@ ht-degree: 89%
    >
    >* メールおよびプッシュ通知の場合、送信時間の最適化を有効にできます。[詳細情報](send-time-optimization.md)
 
-1. アクティビティに応じて、選択したチャネルに固有の詳細パラメーターを表示したり、実行アドレスなどの一部のデフォルト値を上書きしたりできます。 [詳細情報](../about-journey-activities.md#advanced-parameters)
+1. アクティビティに応じて、選択したチャネルに固有の詳細パラメーターを表示したり、実行アドレスなどの一部のデフォルト値を上書きしたりできます。 [詳細情報](about-journey-activities.md#advanced-parameters)
 
    >[!NOTE]
    >
