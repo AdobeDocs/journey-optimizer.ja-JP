@@ -31,7 +31,7 @@ ht-degree: 2%
 >
 >一方、[!DNL Journey Optimizer] インターフェイス自体のアクセシビリティについては、[ この節 ](../start/accessibility.md) で詳しく説明します。
 > 
-## テキストを読みやすくする {#text-readability}
+>## テキストを読みやすくする {#text-readability}
 
 **[!UICONTROL テキスト]** コンポーネントの「**[!UICONTROL スタイル]**」タブを活用して、適切なカラーコントラストやシンプルなフォントの使用など、テキストが読みやすいようにします。 [詳細情報](content-components.md#text)
 
