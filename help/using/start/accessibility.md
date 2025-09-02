@@ -7,10 +7,10 @@ feature: Accessibility
 role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
-source-git-commit: 7558d323f73382b8cb40b45eb9d79ca037eb574d
+source-git-commit: 95e50386d4190d0b967d133a327c25ab1681b5c1
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 100%
+source-wordcount: '486'
+ht-degree: 96%
 
 ---
 
@@ -20,6 +20,9 @@ ht-degree: 100%
 
 アクセシビリティ準拠の目標を達成するために、[!DNL Journey Optimizer] では、Web Content Accessibility Guidelines（WCAG）2.1 Level A および Level AA で国際的に認められたベストプラクティスに従っています。詳しくは、最新の [Adobe Journey Optimizer のアクセシビリティ適合性レポート](https://www.adobe.com/accessibility/compliance/adobe-journey-optimizer.html){target="_blank"}を参照してください。
 
+>[!NOTE]
+>
+>詳しくは、メールおよびランディングページ用のアクセシブルなコンテンツの設計に関するガイドラインを参照してください [ この節 ](../email/accessible-content.md)。
 
 [!DNL Adobe Journey Optimizer] のアクセシビリティ機能は、Adobe Experience Platform から継承したものです。
 

@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4270fbfb191700704d161f472abf62f7af79c208
+source-git-commit: 95e50386d4190d0b967d133a327c25ab1681b5c1
 workflow-type: tm+mt
-source-wordcount: '2889'
+source-wordcount: '2892'
 ht-degree: 99%
 
 ---
@@ -331,6 +331,7 @@ ht-degree: 99%
             + [垂直方向の整列とパディングの調整](using/email/alignment-and-padding.md)
             + [インラインのスタイル属性の追加](using/email/inline-styling.md)
             + [ダークモードコンテンツの定義](using/email/dark-mode.md)
+         + [アクセシブルなコンテンツの作成](using/email/accessible-content.md)
       + [メールオプトアウトの管理](using/email/email-opt-out.md)
       + メールチャネルの設定 {#configure-email}
          + [メールチャネルの設定](/help/rp_landing_pages/configure-email-landing-page.md)
