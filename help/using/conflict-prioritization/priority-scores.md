@@ -72,4 +72,4 @@ Journey Optimizerでは、**[!UICONTROL アクション]** アクティビティ
 
 ## チュートリアルビデオ {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3445002?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)
