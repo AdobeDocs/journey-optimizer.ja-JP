@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: 2da5443e6927d0696cefbedee4f56a397208bc1c
-workflow-type: ht
-source-wordcount: '1183'
-ht-degree: 100%
+source-git-commit: 7bb8f1dfa6a1538017ac9632bf96a2f7e7b01085
+workflow-type: tm+mt
+source-wordcount: '1216'
+ht-degree: 97%
 
 ---
 
@@ -46,9 +46,14 @@ Web プロパティで web チャネルキャンペーンのオーサリング�
 >
 >サーバーサイドのみの実装は、現在、web チャネルではサポートされていません。Web ページのサーバーサイドのみの実装がある場合は、代わりに[コードベースのエクスペリエンスチャネル](../code-based/get-started-code-based.md)を使用できます。
 
-<!--If the Adobe Experience Platform Web SDK is not yet implemented on the website, a message displays in the web designer suggesting that you install the Visual Editing Helper browser extension and implement the [Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja){target="_blank"}.-->
+<!--If the Adobe Experience Platform Web SDK is not yet implemented on the website, a message displays in the web designer suggesting that you install the Visual Editing Helper browser extension and implement the [Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"}.-->
 
 ## ビジュアルオーサリングの前提条件 {#visual-authoring-prerequisites}
+
+>[!CONTEXTUALHELP]
+>id="ajo_web_browser_extension"
+>title="ルールに一致するページの作成"
+>abstract="[!DNL Journey Optimizer] の web デザイナーにアクセスするには、特定のブラウザー拡張機能がインストールされている必要があります。Adobe Experience Cloud Visual Editing Helper は、Google ChromeまたはMicrosoft Edgeでのみ使用できます。"
 
 <!--In order to rapidly author and preview your web experiences, the Adobe Experience Cloud Visual Editing Helper browser extension for Google Chrome lets you load websites reliably within the Adobe [!DNL Journey Optimizer] web designer.-->
 
