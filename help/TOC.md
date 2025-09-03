@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 95e50386d4190d0b967d133a327c25ab1681b5c1
+source-git-commit: 61a8d887b6dc81e21dfd3810684fd9c01db487a6
 workflow-type: tm+mt
-source-wordcount: '2892'
+source-wordcount: '2891'
 ht-degree: 99%
 
 ---
@@ -535,6 +535,7 @@ ht-degree: 99%
       + [言語プロバイダーの作成](using/content-management/multilingual-provider.md)
       + [手動翻訳を使用した多言語コンテンツの作成](using/content-management/multilingual-manual.md)
       + [自動翻訳を使用した多言語コンテンツの作成](using/content-management/multilingual-automated.md)
+   + [メッセージの最適化](using/campaigns/campaigns-message-optimization.md)
    + コンテンツ実験 {#content-experiment}
       + [コンテンツ実験](/help/rp_landing_pages/content-experiment-landing-page.md)
       + [コンテンツ実験の基本を学ぶ](using/content-management/get-started-experiment.md)
@@ -543,7 +544,6 @@ ht-degree: 99%
          + [テクニカルノート](/help/rp_landing_pages/technotes-landing-page.md)
          + [統計計算について](using/content-management/experiment-calculations.md)
          + [実験レポートの統計計算について](using/content-management/experiment-report-calculations.md)
-   + [メッセージの最適化の活用](using/campaigns/campaigns-message-optimization.md)
 + オーディエンス、プロファイル、ID {#audiences-profiles-identities}
    + [オーディエンス、プロファイル、ID](/help/rp_landing_pages/audiences-profiles-identities-landing-page.md)
    + オーディエンス {#audiences}
