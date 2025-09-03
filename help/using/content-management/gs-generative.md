@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: b038493451a859c3520abe6d4155535a8a89a951
+source-git-commit: f755275d183e8ebc7bfb7ad3d3bac38da762ee9f
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 93%
@@ -42,7 +42,7 @@ Microsoft Azure OpenAI と Adobe Firefly を利用した Adobe Journey Optimizer
 
 AI アシスタントは、世代 **複数の言語** をサポートし、多様なグローバルオーディエンスにリーチして関与できるようにします。 AI アシスタントは次の言語で使用できます。
 
-<table style="table-layout:auto;">
+<table style="table-layout:auto; margin-top: 0px; margin-bottom: 0px;">
   <tbody>
     <tr style="border: 0;background-color: #FFFFFF;">
       <td>
