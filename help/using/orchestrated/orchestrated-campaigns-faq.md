@@ -6,9 +6,9 @@ description: Journey Optimizer の調整されたキャンペーンに関する�
 hide: true
 hidefromtoc: true
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: b7851997ee9e3ffaa6455888924b4dcd1c7ff10d
+source-git-commit: f850cb5573c321d479fe956e8c9b9bf377e78dfc
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '1010'
 ht-degree: 3%
 
 ---
@@ -114,8 +114,10 @@ Adobe Journey Optimizerでの Campaign オーケストレーションは、リ�
 
 ## 他のAdobe ソリューションと統合されますか？ {#integrations}
 
+はい。Campaign オーケストレーションは、次のアプリケーションとネイティブに統合されています。
+
 * **Customer Journey Analytics**: Campaign オーケストレーションレポートを使用できます。
-* **Real-Time CDP**: キャンペーンで作成されたオーディエンスは、CDP で読み取ることができます。
+* **Real-Time CDP**: キャンペーンで作成されたオーディエンスは、Real-Time CDPで読み取ることができます。
 * **Federated Audience Composition （FAC）**：アドオンとして使用できます。
 
 ## 権限と同意はどうですか？ {#permissions}
@@ -175,3 +177,11 @@ Campaign Orchestration では、アドホックセグメント化を「ライブ
 * 各送信後の配信ログ、エラー率、オプトアウトを追跡するための **監視ルーチン** を確立します。
 * Customer Journey Analyticsで **キャンペーン後分析** を実行して、次のサイクルのターゲティングとオーケストレーションを絞り込みます。
 
+
+
+>[!MORELIKETHIS]
+>
+>* [ 調整されたキャンペーンのガードレールと制限 ](../orchestrated/guardrails.md)
+>* [ オーケストレートキャンペーンでのスキーマとデータセットの基本を学ぶ ](../orchestrated/gs-schemas.md)
+>* [ 最初のオーケストレートキャンペーンを作成 ](../orchestrated/gs-campaign-creation.md)
+>* [Journey Optimizerの製品説明 ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
