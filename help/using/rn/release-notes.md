@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: ff3511e55eb56d8d5448df6d5de92dfd29ea8718
+source-git-commit: d69b04be97951a5a57228ea839cb9b9c274a92c2
 workflow-type: tm+mt
-source-wordcount: '1702'
-ht-degree: 72%
+source-wordcount: '1817'
+ht-degree: 68%
 
 ---
 
@@ -22,6 +22,28 @@ ht-degree: 72%
 
 [!DNL Adobe Journey Optimizer] は、新機能、既存機能の強化、およびバグ修正を継続的に提供します。これらのリリースノートでは、すべての変更が各月の最終週にまとめられます。[!DNL Adobe Journey Optimizer] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}を参照してください。
 
+## 2025 年 9 月の更新 {#sep-updates}
+
+<table>
+<thead>
+<tr>
+<th><strong>パーソナライゼーションと意思決定へのAdobe Experience Platform データの使用 – 限定提供</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>以前パブリックベータ版でリリースされていましたが、この機能は、すべての環境で限定提供（LA）で利用できるようになりました。 このリリースでは、次の機能強化が導入されました。</p>
+<ul><li>インバウンドチャネルでのデータセットルックアップパーソナライゼーションのサポート。</li>
+<li>「datasetLookup」ヘルパー関数を式フラグメント内で使用できるようになりました。</li>
+<li>データセット管理インターフェイスのオプションを使用すると、API 呼び出しを実行しなくても、ルックアップパーソナライゼーション用のレコードベースのデータセットを有効にできるようになりました。</li>
+<li>データ取り込みステータスを追跡し、データセットの検索準備が整ったタイミングを把握するための監視機能を強化しました。</li>
+<li>最適なパフォーマンスと信頼性を確保するために、使用ガイドラインとガードレールを更新しました。</li></ul></p>
+<p>詳しくは、<a href="../data/lookup-aep-data.md">詳細なドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## 2025 年 8 月のリリースノート {#25-8-rn}
 
