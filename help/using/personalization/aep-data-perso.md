@@ -1,46 +1,31 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Adobe Experience Platform データをパーソナライズ機能に活用（ベータ版）
+title: Adobe Experience Platform データをパーソナライゼーションに使用
 description: Adobe Experience Platform データをパーソナライゼーションに使用する方法を説明します。
-badge: label="ベータ版" type="Informative"
+badge: label="限定提供" type="Informative"
 feature: Personalization, Rules
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 keywords: 式, エディター
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: 07e855b1a334a226c34223e5dd034f88733d6e2e
+source-git-commit: 42f231a9b0b34a63d1601dcae653462f6321caed
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 98%
+source-wordcount: '648'
+ht-degree: 86%
 
 ---
 
-# Adobe Experience Platform データをパーソナライゼーションに使用{#aep-data}
+# Adobe Experience Platform データをパーソナライゼーションに使用 {#aep-data}
 
 >[!AVAILABILITY]
 >
->この機能は現在、パブリックベータ版としてすべてのお客様に対して提供されています。
->
->この機能を使用するには、まず、パーソナライゼーションエディターで新しい「datasetLookup」ヘルパー関数を追加する際に表示される、組織のベータ版利用条件に同意する必要があります。
+>この機能は、現在、限定提供リリースとしてすべてのお客様が利用できます。
 
-Journey Optimizer を使用すると、パーソナライゼーションエディターで Adobe Experience Platform のデータを利用して、[コンテンツをパーソナライズする](../personalization/personalize.md)ことができます。これを行うには、まず、以下で説明するように、API 呼び出しを通じて参照パーソナライゼーションに必要なデータセットを有効にする必要があります。完了したら、そのデータを使用して、コンテンツを [!DNL Journey Optimizer] にパーソナライズできます。
+Journey Optimizerを使用すると、パーソナライゼーションエディターでAdobe Experience Platform レコードデータセットのデータを活用して [ コンテンツをパーソナライズ ](../personalization/personalize.md) できます。 開始する前に、参照のパーソナライゼーションに必要なデータセットを最初に参照に対して有効にする必要があります。 詳しくは、「Adobe Experience Platform データの使用 [ を参照してくだ ](../data/lookup-aep-data.md) い。
 
-## ベータ版の制限事項とガイドライン {#guidelines}
-
-開始する前に、次の制限事項とガイドラインを確認してください。
-
-* **サポートされているチャネル**：現時点では、この機能は、メール、SMS およびダイレクトメールチャネル内でのみ使用できます。
-* **フラグメント**：現時点では、データセット参照のパーソナライゼーションを式フラグメントやビジュアルフラグメント内に配置できません。
-
-## データ参照用データセットの有効化 {#enable}
-
-データセットのデータをパーソナライゼーションに活用するには、API 呼び出しを使用してそのステータスを取得し、参照サービスを有効にする必要があります。詳しくは、[ [!DNL Journey Optimizer]](../data/lookup-aep-data.md) の Adobe Experience Platform データセットの活用の節を参照してください。
-
-## パーソナライゼーションへのデータセットの活用 {#leverage}
-
-API 呼び出しを使用してデータセットの参照パーソナライゼーションが有効になると、そのデータを使用してコンテンツを [!DNL Journey Optimizer] にパーソナライズできます。
+データセットで参照パーソナライゼーションを有効にしたら、そのデータを使用してコンテンツを [!DNL Journey Optimizer] にパーソナライズできます。
 
 1. メッセージなどのパーソナライズ機能を定義でき、すべてのコンテキストで使用できるパーソナライゼーションエディターを開きます。[パーソナライゼーションエディターの操作方法を学ぶ](../personalization/personalization-build-expressions.md)
 

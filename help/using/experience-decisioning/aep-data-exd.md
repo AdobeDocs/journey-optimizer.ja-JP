@@ -1,19 +1,19 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 決定の Adobe Experience Platform データの使用（ベータ版）
+title: Adobe Experience Platform データを決定に使用
 description: 決定の Adobe Experience Platform データの使用方法について説明します。
-badge: label="ベータ版" type="Informative"
+badge: label="限定提供" type="Informative"
 feature: Personalization, Rules
 topic: Personalization
 role: Data Engineer
 level: Intermediate
 keywords: 式, エディター
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
-source-git-commit: cf700f4097883c875c74196317f6494f74f9bc7c
+source-git-commit: 42f231a9b0b34a63d1601dcae653462f6321caed
 workflow-type: tm+mt
-source-wordcount: '836'
-ht-degree: 100%
+source-wordcount: '812'
+ht-degree: 95%
 
 ---
 
@@ -31,9 +31,11 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->この機能は現在、パブリックベータ版としてすべてのお客様にご使用いただけます。アクセス権をご希望の場合は、アカウント担当者にお問い合わせください。
+>この機能は、現在、限定提供リリースとしてすべてのお客様が利用できます。
 
 [!DNL Journey Optimizer] を使用すると、決定に [!DNL Adobe Experience Platform] のデータを活用できます。これにより、決定属性の定義をデータセットの追加データに拡張し、属性を 1 つずつ手動で更新する必要がなく、定期的に変更される一括更新を行うことができます。例えば、可用性、待機時間などです。
+
+開始する前に、参照のパーソナライゼーションに必要なデータセットを最初に参照に対して有効にする必要があります。 詳しくは、「Adobe Experience Platform データの使用 [ を参照してくだ ](../data/lookup-aep-data.md) い。
 
 ## ガードレールと制限 {#guidelines}
 
@@ -43,10 +45,6 @@ ht-degree: 100%
 * 決定ルールでは、3 つのデータセットを使用できます。
 * ランキング式では、3 つのデータセットを使用できます。
 * 決定ポリシーを評価すると、合計で最大 1000 個のデータセットクエリ（参照）が実行されます。決定項目で使用する各データセットマッピングは、1 つのクエリとしてカウントされます。例：決定項目で 2 つのデータセットを使用する場合、そのオファーの評価は 1,000 クエリの制限に対して 2 つのクエリとしてカウントされます。
-
-## データ参照用データセットの有効化 {#enable}
-
-決定に [!DNL Adobe Experience Platform] データセットのデータを使用するには、まず API 呼び出し経由で参照を有効にする必要があります。手順について詳しくは、[Journey Optimizer の Adobe Experience Platform データセットの活用 ](../data/lookup-aep-data.md)の節を参照してください。
 
 ## Adobe Experience Platform データの活用 {#leverage-aep-data}
 
