@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: 0cc119d3e4c1ffa676f00fcedb93d8818f176689
+source-git-commit: 8fe62d872a06e09072f8cfdac80287057d640308
 workflow-type: tm+mt
-source-wordcount: '2665'
+source-wordcount: '2647'
 ht-degree: 1%
 
 ---
@@ -20,17 +20,15 @@ ht-degree: 1%
 
 以下は、Adobe Journey Optimizerのトラブルシューティング記事のリストです。 各トラブルシューティングセクションでは、よくある質問への回答と問題の解決策を示します。
 
-[Adobe Experience Platformの FAQ とトラブルシューティングドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/troubleshooting#service-troubleshooting-directory){target="_blank"} も参照してください。
+[Adobe Experience Platformの FAQ とトラブルシューティングドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/troubleshooting#service-troubleshooting-directory){target="_blank"} も参照してください。
 
 ## メールチャネル {#ajo-troubleshooting-email}
-
-### メールデザイン {#ajo-troubleshooting-design}
 
 +++ テーマを使用してAdobe Journey Optimizerでメールの形式の問題を防ぐ方法を教えてください。
 
 Adobe Journey Optimizer（AJO）では、メールヘッダーのデフォルトの CSS ブロックを変更すると、特にコンテンツフラグメントを削除した後で、予期しない形式の問題が発生する可能性があります。 これらの問題はモバイルデバイスでより顕著で、レイアウトが変更されたりスタイルに不整合が生じたりする場合があります。 これを防ぐには、テーマ機能を使用して、システム生成の CSS スタイルを変更せずに、カスタム CSS を安全に適用します。
 
-この問題の解決方法については、[ このトラブルシューティングの記事 ](https://experienceleague.adobe.com/ja/docs/experience-cloud-kcs/kbarticles/ka-27252){target="_blank"} を参照してください。
+この問題の解決方法については、[ このトラブルシューティングの記事 ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27252){target="_blank"} を参照してください。
 
 メールの形式について詳しくは [ このページ ](../email/get-started-email-design.md) を参照してください。
 
@@ -88,8 +86,6 @@ HTML フラグメントについて詳しくは [ このページを参照 ](../
 +++
 
 
-### 電子メールのトラッキングとレポート {#ajo-troubleshooting-tracking}
-
 +++ レポートでメールトラッキングリンクが見つからないようにする方法
 
 Adobe Journey Optimizerでのリンクトラッキングの欠落は、メール URL が動的変数を使用し、http で始まらない場合や、URL フィールドに論理ステートメントが配置された場合に発生します。 これを解決するには、すべての URL が http で始まることを確認し、「URL」フィールドでロジックを使用しないようにして、複雑なパーソナライゼーションロジックをHTML コンテンツまたは事前処理済み属性に移動します。
@@ -100,8 +96,6 @@ Adobe Journey Optimizerでのリンクトラッキングの欠落は、メール
 メールトラッキングについて詳しくは [ このページを参照 ](../email/message-tracking.md)。
 
 +++
-
-### メール送信 {#ajo-troubleshooting-sending}
 
 +++ API トリガーのトランザクションメールキャンペーンを設定する際に Mail Exchanger エラーを解決する方法を教えてください。 
 
@@ -149,8 +143,6 @@ SMS オプトアウト設定について詳しくは [ このページ ](../sms/
 
 +++
 
-
-
 ## アプリ内チャネル
 
 +++ Customer Journey Analyticsのアプリ内チャネルでレポートできないのはなぜですか？
@@ -159,13 +151,11 @@ Adobe Customer Journey Analyticsの **アプリ内チャネル** に関するレ
 
 この問題について詳しくは、[ このトラブルシューティングの記事 ](https://experienceleague.adobe.com/ja/docs/experience-cloud-kcs/kbarticles/ka-26206){target="_blank"} を参照してください。
 
-Customer Journey AnalyticsでJourney Optimizer Analytics データを統合する方法について詳しくは [ このページ ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/integrations/ajo?lang=en#automatically-configure-journey-optimizer-integration){target="_blank"} を参照してください。
+Customer Journey AnalyticsでJourney Optimizer Analytics データを統合する方法について詳しくは [ このページ ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/ajo?lang=en#automatically-configure-journey-optimizer-integration){target="_blank"} を参照してください。
 
 [Journey Optimizerの全期間レポートのドキュメントも参照してください ](../reports/report-gs-cja.md)
 
 +++
-
-
 
 
 ## データ管理 {#ajo-troubleshooting-data-management}
@@ -174,7 +164,7 @@ Customer Journey AnalyticsでJourney Optimizer Analytics データを統合す�
 
 Adobe Journey Optimizerで新しいサンドボックスをプロビジョニングする組織からは、Time-to-Live （TTL）設定がプロファイルおよびデータレイクデータセットにどのように適用されるかについて疑問が生じています。 この記事では、TTL 設定は既存のサンドボックスに影響を与えず、新しくプロビジョニングされたサンドボックスにのみ自動的に適用されることを明確にします。
 
-TTL の処理方法については、[ このトラブルシューティング記事 ](https://experienceleague.adobe.com/ja/docs/experience-cloud-kcs/kbarticles/ka-26135){target="_blank"} を参照してください。
+TTL の処理方法については、[ このトラブルシューティング記事 ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26135){target="_blank"} を参照してください。
 
 データセットの有効期間について詳しくは [ このページを参照してください ](../data/datasets-ttl.md)。
 
@@ -187,7 +177,7 @@ TTL の処理方法については、[ このトラブルシューティング�
 
 Adobe Journey Optimizerの **オーディエンスを読み取り** 機能の処理済みエントリ数は、期待されるオーディエンス数よりも少ない場合があります。 この問題は、多くの場合、名前空間の設定が正しくないことが原因で発生し、プロファイルがジャーニーから除外されます。 この解決策には、名前空間の設定の確認と修正、関連するドキュメントのレビュー、Adobe Journey Optimizerでの操作をよりスムーズにするための優先度の調整が含まれます。
 
-この問題の解決方法については、[ このトラブルシューティングの記事 ](https://experienceleague.adobe.com/ja/docs/experience-cloud-kcs/kbarticles/ka-26135){target="_blank"} を参照してください。
+この問題の解決方法については、[ このトラブルシューティングの記事 ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26135){target="_blank"} を参照してください。
 
 [ 古いオーディエンス数に関するこの記事 ](https://experienceleague.adobe.com/ja/docs/experience-cloud-kcs/kbarticles/ka-26166){target="_blank"} も参照してください。
 
@@ -203,7 +193,7 @@ Adobe Journey Optimizerでは、ジャーニーの **プロファイルを更新
 
 ジャーニーの **プロファイルを更新** アクティビティについて詳しくは [ このページ ](../building-journeys/update-profiles.md) を参照してください。
 
-データ取得に関する [Adobe Experience Platform ドキュメントも参照してください ](https://experienceleague.adobe.com/ja/docs/experience-platform/ingestion/tutorials/ingest-batch-data?lang=en#dataset-activity){target="_blank"}。
+データ取得に関する [Adobe Experience Platform ドキュメントも参照してください ](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/tutorials/ingest-batch-data?lang=en#dataset-activity){target="_blank"}。
 
 +++
 
@@ -213,9 +203,9 @@ Adobe Journey Optimizerでは、ジャーニーの **プロファイルを更新
 
 この問題を解決する手順については、[ このトラブルシューティング記事 ](https://experienceleague.adobe.com/ja/docs/experience-cloud-kcs/kbarticles/ka-26253){target="_blank"} を参照してください。
 
-詳しくは、[ このJourney Optimizer コミュニティの投稿 ](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998?profile.language=ja){target="_blank"} を参照してください。
+詳しくは、[ このJourney Optimizer コミュニティの投稿 ](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998){target="_blank"} を参照してください。
 
-毎日のジョブがスケジュールされるタイミングを確認するには [&#128279;](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/api/schedules?lang=en){target="_blank"}Adobe Experience Platform スケジュール API ドキュメントも参照してください。
+毎日のジョブがスケジュールされるタイミングを確認するには [](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/api/schedules?lang=en){target="_blank"}Adobe Experience Platform スケジュール API ドキュメントも参照してください。
 
 +++
 
@@ -228,7 +218,7 @@ Adobe Journey Optimizerでは、ジャーニーの **プロファイルを更新
 
 ジャーニーの **プロファイルを更新** アクティビティについて詳しくは [ このページ ](../building-journeys/update-profiles.md) を参照してください。
 
-[Adobe Real-Time CDP プロファイルのドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/ui/user-guide?lang=en#profile-detail){target="_blank"} も参照してください。
+[Adobe Real-Time CDP プロファイルのドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide?lang=en#profile-detail){target="_blank"} も参照してください。
 
 +++
 
@@ -240,7 +230,7 @@ Adobe Journey Optimizerでは、ジャーニーの **プロファイルを更新
 
 [ ライセンス使用状況ダッシュボード ](../audience/license-usage.md) を使用して、組織のライセンス使用状況と契約プロファイルを監視します
 
-[Adobe Experience Platform クエリサービスの概要 ](https://experienceleague.adobe.com/ja/docs/experience-platform/query/home?lang=en){target="_blank"} も参照してください。
+[Adobe Experience Platform クエリサービスの概要 ](https://experienceleague.adobe.com/en/docs/experience-platform/query/home?lang=en){target="_blank"} も参照してください。
 
 +++
 
@@ -264,8 +254,6 @@ Adobe Journey Optimizerでは、ジャーニーの **プロファイルを更新
 
 ## ジャーニー {#ajo-troubleshooting-journeys}
 
-### ジャーニーのバージョン {#ajo-troubleshooting-journey-versions}
-
 +++ 新しいジャーニーバージョンを作成すると式が失われるのはなぜですか？  
 
 新しいバージョンのジャーニーを作成すると、**特定のステップの式** が失われ、エラーが発生したり、手動で再入力する必要が生じたりする場合があります。 これを解決するには、**ジャーニーを複製**、再現性をテストし、**ブラウザーのリロードを回避**、古いジャーニーには **更新されたキャンバス** を使用します。
@@ -275,8 +263,6 @@ Adobe Journey Optimizerでは、ジャーニーの **プロファイルを更新
 ジャーニーを複製する方法については [ このページ ](../building-journeys/journey-ui.md#duplicate-a-journey) を参照してください。
 
 +++
-
-### 入口と出口 {#ajo-troubleshooting-journeys-exit}
 
 +++ プロファイルがジャーニーを途中で終了するのはなぜですか？ 
 
@@ -299,7 +285,6 @@ Adobe Journey Optimizerでは、ジャーニーの **プロファイルを更新
 
 +++
 
-### イベント {#ajo-troubleshooting-journey-events}
 
 +++ イベントが目的のジャーニーをトリガーしないのはなぜですか？  
 
@@ -323,8 +308,6 @@ Adobe Journey Optimizerでは、ジャーニーの **プロファイルを更新
 ジャーニーを複製する方法については [ このページ ](../building-journeys/journey-ui.md#duplicate-a-journey) を参照してください。
 
 +++
-
-### カスタムアクション {#ajo-troubleshooting-journeys-actions}
 
 +++ 外部のサードパーティエンドポイントを呼び出すカスタムアクションがタイムアウトするのはなぜですか？
 
@@ -389,8 +372,6 @@ Adobe Journey Optimizerでは、多言語機能にリンクされたメッセー
 
 ## 設定 {#ajo-troubleshooting-config}
 
-### セキュリティ {#ajo-troubleshooting-security}
-
 +++ カスタムアクションに対して TLS v1.3 を有効にするにはどうすればよいですか？  
 
 サードパーティシステムに接続する際に **データの整合性とセキュリティ** を維持するには、Transport Layer Security （**TLS**） v1.3 がカスタムアクションに対して有効になっていることを確認します。 これにより、通信を保護し、潜在的なセキュリティの脆弱性を防ぐことができます。
@@ -401,8 +382,6 @@ Adobe Journey Optimizerでは、多言語機能にリンクされたメッセー
 多言語コンテンツについて詳しくは [ このページ ](../action/about-custom-action-configuration.md) を参照してください。
 
 +++
-
-### ダッシュボード {#ajo-troubleshooting-dashboards}
 
 +++ Adobe Journey Optimizerのクエリから直接ダッシュボードを作成できないのはなぜですか？ 
 
@@ -420,7 +399,7 @@ Postmanや同様のツールを使用して **Query Service API** を使用す�
 
 詳しくは、[ このトラブルシューティング記事 ](https://experienceleague.adobe.com/ja/docs/experience-cloud-kcs/kbarticles/ka-26196){target="_blank"} を参照してください。
 
-[API 資格情報の管理ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/abac/permissions-ui/permissions?lang=en#manage-api-credentials-for-role){target="_blank"} も参照してください。
+[API 資格情報の管理ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions?lang=en#manage-api-credentials-for-role){target="_blank"} も参照してください。
 
 +++
 
