@@ -13,9 +13,9 @@ hidefromtoc: true
 hide: true
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: 7d57767fcfacbba3a4ec2d1279937ca63ffb8c48
+source-git-commit: 3cda7aad46e6961c7d19706bad060565b92d7b19
 workflow-type: tm+mt
-source-wordcount: '1226'
+source-wordcount: '1202'
 ht-degree: 7%
 
 ---
@@ -122,7 +122,7 @@ ht-degree: 7%
 
 ジャーニーがライブになると、ユーザーは異なるパスを進むようにランダムに割り当てられます。 [!DNL Journey Optimizer] は、どのパスが最もパフォーマンスが高いかを追跡し、アクションにつながるインサイトを提供します。
 
-ジャーニーパス実験レポートを使用して、ジャーニーが成功したかどうかを追跡します。<!--Reporting page on Journey Path Experimentation to be created - such as what we have for [Experimentation campaign report](../reports/campaign-global-report-cja-experimentation.md)-->
+<!--Follow the success of your journey with the Journey Path Experiment report.Reporting page on Journey Path Experimentation to be created - such as what we have for [Experimentation campaign report](../reports/campaign-global-report-cja-experimentation.md)-->
 
 ### 実験のユースケース {#uc-experiment}
 
@@ -204,7 +204,7 @@ ht-degree: 7%
 
 ジャーニーがライブになると、各セグメントに指定されたパスが処理され、ゴールドメンバーはメールオファーを使用してパスに入力し、他のメンバーは SMS リマインダーを使用してパスに入力します。
 
-ジャーニーパスのターゲティングレポートを使用して、ジャーニーが成功したかどうかを追跡します。<!--Reporting page on Journey Path Targeting to be created - such as what we have for [Experimentation campaign report](../reports/campaign-global-report-cja-experimentation.md)-->
+<!--Follow the success of your journey with the Journey Path Targeting report.Reporting page on Journey Path Targeting to be created - such as what we have for [Experimentation campaign report](../reports/campaign-global-report-cja-experimentation.md)-->
 
 ### ターゲティングルールの使用例 {#uc-targeting}
 
