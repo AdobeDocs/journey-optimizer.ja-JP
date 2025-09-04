@@ -11,7 +11,8 @@ keywords: アクティビティ, 条件, キャンバス, ジャーニー
 hidefromtoc: true
 hide: true
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
-source-git-commit: 19130e9eb5a2144afccab9fa8e5632de67bc7157
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '1601'
 ht-degree: 82%

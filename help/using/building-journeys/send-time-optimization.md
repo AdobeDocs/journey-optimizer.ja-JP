@@ -9,7 +9,8 @@ role: User
 level: Intermediate
 keywords: 送信時間, 送信, メッセージ, 最適化, ジャーニー, AI, インテリジェント
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
-source-git-commit: 78b8b4d6e8cf49ab39150b7bc412bef009bbad2b
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '1485'
 ht-degree: 94%

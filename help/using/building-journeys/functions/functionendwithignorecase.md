@@ -7,7 +7,8 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: endWithIgnoreCase，関数，式，ジャーニー
 exl-id: 278ef1a4-571c-4b5f-b4de-0cfc644ac7d7
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '52'
 ht-degree: 92%

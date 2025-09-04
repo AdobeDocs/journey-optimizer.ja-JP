@@ -9,7 +9,8 @@ role: User
 level: Intermediate
 keywords: ジャーニー, 制限
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 18296fe54dcef6620d4f74374848199368f01475
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 98%

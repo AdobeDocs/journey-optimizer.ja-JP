@@ -12,7 +12,8 @@ badge: label="限定提供" type="Informative"
 hidefromtoc: true
 hide: true
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
-source-git-commit: 27ae100873fee1a790c7e1e757248f9c3af8e24a
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '1197'
 ht-degree: 8%

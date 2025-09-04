@@ -7,7 +7,8 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: serializeList, 関数, 式, ジャーニー
 exl-id: 7ead9fa1-59b3-4960-818c-fe6321422952
-source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 100%

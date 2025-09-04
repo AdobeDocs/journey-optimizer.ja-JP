@@ -7,7 +7,8 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: listSize, 関数, 式, ジャーニー
 exl-id: dd378e4d-f65a-495c-ac10-b4209d6b6b88
-source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '78'
 ht-degree: 100%

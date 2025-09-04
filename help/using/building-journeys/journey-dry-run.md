@@ -8,7 +8,8 @@ role: User
 level: Intermediate
 keywords: 公開, ジャーニー, ライブ, 有効性, 確認
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
-source-git-commit: 8c8fb70baf66d2b48c81c6344717be18993141f8
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '1106'
 ht-degree: 100%
@@ -102,7 +103,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
-> レポートデータは、ドライランが&#x200B;**アクティブ**&#x200B;の場合にのみ使用できます。停止すると、レポートデータにアクセスできなくなります。必要に応じて、レポートの上にある「**書き出し**」ボタンを使用してダウンロードします。
+> レポートデータは、ドライランが&#x200B;**アクティブ**&#x200B;の場合にのみ使用できます。停止すると、レポートデータにアクセスできなくなります。必要に応じて、レポートの上にある「**エクスポート**」ボタンを使用してダウンロードします。
 
 
 ## ドライランの停止 {#journey-dry-run-stop}

@@ -8,7 +8,8 @@ topic: Content Management
 role: User, Data Engineer
 level: Intermediate, Experienced
 keywords: ジャーニー、ユースケース
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 94%

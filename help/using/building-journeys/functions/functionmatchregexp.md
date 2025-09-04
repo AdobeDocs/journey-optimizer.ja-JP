@@ -7,7 +7,8 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: matchRegExp, 関数, 式, ジャーニー
 exl-id: 24cf362c-f390-4bb1-be82-a079bc27fa1f
-source-git-commit: 9e6b3fc5c91e360a9bd7e727949ac5445cd79654
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 100%

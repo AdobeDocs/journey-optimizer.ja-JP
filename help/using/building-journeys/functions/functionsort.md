@@ -7,7 +7,8 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: sort, 関数, 式, ジャーニー
 exl-id: 607e1424-4165-48ae-b896-cce2d18f7dcc
-source-git-commit: 2f47209ad2a5e5b5d26f01949f5e9ade63c2581f
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 100%

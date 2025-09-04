@@ -7,7 +7,8 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: avg, 関数, 式, ジャーニー
 exl-id: cc70f90c-2d12-42a0-829f-5f28c3c29cad
-source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '55'
 ht-degree: 100%

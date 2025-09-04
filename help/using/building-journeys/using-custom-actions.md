@@ -9,7 +9,8 @@ role: User, Developer
 level: Intermediate
 keywords: アクション, カスタム, API, ジャーニー, 設定, サービス
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 100%

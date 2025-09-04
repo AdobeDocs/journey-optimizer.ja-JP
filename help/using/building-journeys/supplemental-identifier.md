@@ -2,7 +2,8 @@
 title: ジャーニーでの補助識別子の使用
 description: ジャーニーの補助識別子の使用方法について説明します。
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
-source-git-commit: c46ad0283eec025cbf6183bf1aac0e3808450e21
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '1257'
 ht-degree: 92%
@@ -16,7 +17,7 @@ ht-degree: 92%
 >title="補足識別子の使用"
 >abstract="補足識別子は、ジャーニーの実行に関する追加のコンテキストを指定するセカンダリ識別子です。定義するには、補足識別子として使用するフィールドを選択し、関連付ける名前空間を選択します。"
 
-デフォルトでは、ジャーニーは&#x200B;**プロファイル ID** のコンテキストで実行されます。つまり、特定のジャーニーでプロファイルがアクティブである限り、別のジャーニーに再エントリできません。これを防ぐために、[!DNL Journey Optimizer] では、プロファイル ID に加えて、注文 ID、サブスクリプション ID、処方箋 ID などの&#x200B;**補助識別子**&#x200B;を取得できます。
+デフォルトでは、ジャーニーは&#x200B;**プロファイル ID** のコンテキストで実行されます。つまり、特定のジャーニーでプロファイルがアクティブである限り、別のジャーニーに再エントリできません。これを防ぐために、[!DNL Journey Optimizer] では、プロファイル ID に加えて、注文 ID、サブスクリプション ID、処方箋 ID などの&#x200B;**補助識別子**を取得できます。
 この例では、予約 ID を補助識別子として追加しています。
 
 ![](assets/event-supplemental-id.png){width=40% zoomable}

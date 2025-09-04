@@ -8,7 +8,8 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: クエリ, コレクション, 関数, ペイロード, ジャーニー
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
-source-git-commit: 8e020f79e0f44e6fc804fcceb149146f9644c777
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 100%

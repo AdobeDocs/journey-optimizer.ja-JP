@@ -9,7 +9,8 @@ role: User
 level: Intermediate
 keywords: ジャーニー, 統合, キャンペーン, v7, v8
 exl-id: 3da712e7-0e08-4585-8ca4-b6ff79df0b68
-source-git-commit: f8d62a702824bcfca4221c857acf1d1294427543
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 100%

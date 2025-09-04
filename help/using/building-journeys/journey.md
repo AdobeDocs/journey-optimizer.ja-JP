@@ -7,9 +7,9 @@ feature: Journeys, Get Started, Overview
 role: User
 level: Beginner, Intermediate
 keywords: ジャーニー, Discover, 開始
-version: Journey Orchestration
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
-source-git-commit: 3eadf569fd98ac1b51a62e95f399c04f47fc5071
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 100%

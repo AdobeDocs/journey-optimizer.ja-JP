@@ -8,7 +8,8 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 式, データ, データタイプ, ジャーニー
 exl-id: fdfc3287-d733-45fb-ad11-b4238398820a
-source-git-commit: 4e7c4e7e6fcf488f572ccf3e9037e597dde06510
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 100%

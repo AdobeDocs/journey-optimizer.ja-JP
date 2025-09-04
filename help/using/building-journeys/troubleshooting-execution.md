@@ -9,7 +9,8 @@ role: User
 level: Intermediate
 keywords: トラブルシューティング, ジャーニー, チェック, エラー
 exl-id: fd670b00-4ebb-4a3b-892f-d4e6f158d29e
-source-git-commit: e3b0bf6594e15f2d80d1e6782ec513c93f18c649
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '702'
 ht-degree: 100%

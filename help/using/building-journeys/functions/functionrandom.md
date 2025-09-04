@@ -7,7 +7,8 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: ランダム，関数，式，ジャーニー
 exl-id: df006301-d309-4cb0-b505-317f623df494
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '30'
 ht-degree: 86%

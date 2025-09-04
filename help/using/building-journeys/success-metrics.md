@@ -9,8 +9,9 @@ role: User
 level: Intermediate
 keywords: 公開, ジャーニー, ライブ, 有効性, 確認
 exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
-source-git-commit: 2da5443e6927d0696cefbedee4f56a397208bc1c
-workflow-type: ht
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 100%
 

@@ -8,7 +8,8 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: 関数, 式, エディター, ジャーニー
 exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 100%

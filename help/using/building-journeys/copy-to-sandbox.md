@@ -9,7 +9,8 @@ role: User, Developer, Data Engineer
 level: Experienced
 keywords: サンドボックス, ジャーニー, コピー, 環境
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
-source-git-commit: 62b5cfd480414c898ab6f123de8c6b9f99667b7d
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 100%
@@ -44,4 +45,4 @@ Journey Optimizer では、1 つのサンドボックスから別のサンドボ
 
 Journey Optimizer では、ジャーニー自体に加えて、ジャーニーに必要なほとんどのオブジェクト（オーディエンス、スキーマ、イベントおよびアクション）もコピーします。
 
-コピープロセスは、ソースサンドボックスとターゲットサンドボックス間の&#x200B;**パッケージの書き出しおよび読み込み**&#x200B;を介して実行されます。オブジェクトを書き出してターゲットサンドボックスに読み込む方法について詳しくは、[別のサンドボックスへのオブジェクトのコピー](../configuration/copy-objects-to-sandbox.md)の節を参照してください。
+コピープロセスは、ソースサンドボックスとターゲットサンドボックス間の&#x200B;**パッケージのエクスポートおよびインポート**&#x200B;を介して実行されます。オブジェクトをエクスポートしてターゲットサンドボックスにインポートする方法について詳しくは、[別のサンドボックスへのオブジェクトのコピー](../configuration/copy-objects-to-sandbox.md)の節を参照してください。

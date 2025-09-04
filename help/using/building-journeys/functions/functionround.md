@@ -7,7 +7,8 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: round，関数，式，ジャーニー
 exl-id: b9d5fd2f-9c7f-4811-b34f-23ce1d2c833f
-source-git-commit: 1d30c6ae49fd0cac0559eb42a629b59708157f7d
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '48'
 ht-degree: 91%

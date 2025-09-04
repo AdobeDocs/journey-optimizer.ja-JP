@@ -9,7 +9,8 @@ role: User
 level: Intermediate
 keywords: デザイン, キャンバス, ジャーニー, インターフェイス, ドラッグ, ドロップ
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
-source-git-commit: 99099cb6b705cb5a7b97652154c42f0565fdfdb9
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '1644'
 ht-degree: 100%

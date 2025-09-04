@@ -7,7 +7,8 @@ role: Data Engineer, Architect
 level: Experienced
 keywords: getListItem, 関数, 式, ジャーニー
 exl-id: e995f479-bbaa-45f3-9531-e05680c5a723
-source-git-commit: cb1fed2460ddbf3b226fe191b9695008970937c1
+version: Journey Orchestration
+source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 100%
