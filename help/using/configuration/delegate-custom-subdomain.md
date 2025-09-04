@@ -8,17 +8,19 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: サブドメイン, デリゲーション, ドメイン, DNS
-hide: true
-hidefromtoc: true
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: 0490045a763876d3518e3db92e8427691044f6aa
+source-git-commit: 1746efa82611d232b5af07b271739417b4e36e8c
 workflow-type: tm+mt
-source-wordcount: '748'
-ht-degree: 100%
+source-wordcount: '925'
+ht-degree: 79%
 
 ---
 
 # カスタムサブドメインの設定 {#delegate-custom-subdomain}
+
+>[!AVAILABILITY]
+>
+>この機能は、限定提供です。アクセス権を取得するには、アドビ担当者にお問い合わせください。
 
 [完全にデリゲート](about-subdomain-delegation.md#full-subdomain-delegation)された方法と [CNAME 設定](about-subdomain-delegation.md#cname-subdomain-delegation)方法の代わりに、**カスタムデリゲーション**&#x200B;方法を使用すると、Journey Optimizer 内でサブドメインの所有権を取得し、生成された証明書を完全に制御できます。
 
@@ -66,8 +68,8 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_key_length"
->title="xxx"
->abstract=""
+>title="キーの長さを選択"
+>abstract="キーの長さは 2048 または 4096 ビットのみです。 サブドメインが送信された後は変更できません。"
 
 1. 「**[!UICONTROL SSL 証明書]**」セクションで、「**[!UICONTROL CSR を生成]**」をクリックします。
 
@@ -85,13 +87,35 @@ ht-degree: 100%
    >
    >キーの長さは 2048 または 4096 ビットのみです。 サブドメインが送信された後は変更できません。
 
-1. 「**[!UICONTROL CSR をダウンロード]**」をクリックして、フォームをローカルコンピュータに保存します。これを認証局に送信して、SSL 証明書を取得します。
+1. 「**[!UICONTROL CSR をダウンロード]**」をクリックして、フォームをローカルコンピューターに保存します。
 
-1. 取得したら、「**[!UICONTROL SSL 証明書をアップロード]**」をクリックし、証明書を .pem 形式で [!DNL Journey Optimizer] にアップロードします。
+1. これを認証局（CA）に送信して、SSL 証明書を取得します。 この CSR を署名のために CA に送信する前に、考慮すべき重要な点がいくつかあります。
 
-   >[!CAUTION]
-   >
-   >データサブドメインと CDN サブドメインの両方を同じ証明書に含める必要があります。
+   * 手順 3 でダウンロードした CSR は、data.subdomain.com専用です。
+
+   * ただし、証明書は、1 つの証明書内の Subject Alternative Name （SAN; サブジェクト代替名）エントリとして、data.subdomain.comとcdn.subdomain.comの両方に対応している必要があります。 例えば、example.adobe.comをデリゲートしている場合、data.subdomain.comはdata.example.adobe.comに、cdn.subdomain.comはcdn.example.adobe.comに対応します。
+
+   * データ （data.example.adobe.com）と CDN （cdn.example.adobe.com） サブドメインの両方を、同じ証明書内のピアエントリとして追加する必要があります。
+
+   * ほとんどの CA では、署名プロセス中に SAN （CDN サブドメインなど）を追加できます
+
+      * CA ポータルを使用（推奨される場合）、または
+      * ポータルオプションが利用できない場合は、サポートチームに手動でリクエストします。
+
+   * 署名が完了すると、CA は Data domain と CDN サブドメインの両方をカバーする 1 つの証明書を発行します。
+
+1. 取得したら、「**[!UICONTROL SSL 証明書をアップロード]**」をクリックし、完全な証明書チェーンを使用して.pem 形式で [!DNL Journey Optimizer] に証明書をアップロードします。 .pem ファイル形式の例を次に示します。
+
+   ```
+   -----BEGIN CERTIFICATE-----
+   MIIDXTCCAkWgAwIBAgIJALc3... (base64 encoded data)
+   -----END CERTIFICATE-----
+   ```
+
+   <!--
+    >[!CAUTION]
+    >
+    >Both Data and CDN subdomains must be included in the same certificate.-->
 
 ## フィードバックループの手順の完了 {#feedback-loop-steps}
 
