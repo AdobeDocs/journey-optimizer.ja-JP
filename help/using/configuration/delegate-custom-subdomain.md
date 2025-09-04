@@ -8,10 +8,11 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: サブドメイン, デリゲーション, ドメイン, DNS
+badge: label="限定提供" type="Informative"
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: 1746efa82611d232b5af07b271739417b4e36e8c
+source-git-commit: cd688d0c140404a846df09a53f37be8d0fe5633e
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '927'
 ht-degree: 79%
 
 ---
