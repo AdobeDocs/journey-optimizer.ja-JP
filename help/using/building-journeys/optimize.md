@@ -13,9 +13,9 @@ hidefromtoc: true
 hide: true
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: 3cda7aad46e6961c7d19706bad060565b92d7b19
+source-git-commit: cc657dced3e7069cb3700d75f67b3cfb4f6da1e0
 workflow-type: tm+mt
-source-wordcount: '1202'
+source-wordcount: '1219'
 ht-degree: 7%
 
 ---
@@ -50,6 +50,11 @@ ht-degree: 7%
 ジャーニーがライブになると、プロファイルは定義された条件に基づいて評価され、一致条件に基づいてジャーニーから適切なパスに送信されます。
 
 ## 実験を使用 {#experimentation}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_path_experiment_success_metric"
+>title="成功指標"
+>abstract="成功指標は、実験における最もパフォーマンスの高い処理の追跡と評価に使用されます。"
 
 実験では、ランダム分割に基づいて様々なパスをテストし、事前定義された成功指標に基づいて最もパフォーマンスが高いパスを決定できます。
 
