@@ -12,10 +12,10 @@ badge: label="限定提供" type="Informative"
 hidefromtoc: true
 hide: true
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
-source-git-commit: 19130e9eb5a2144afccab9fa8e5632de67bc7157
+source-git-commit: 27ae100873fee1a790c7e1e757248f9c3af8e24a
 workflow-type: tm+mt
-source-wordcount: '1024'
-ht-degree: 5%
+source-wordcount: '1197'
+ht-degree: 8%
 
 ---
 
@@ -57,129 +57,189 @@ ht-degree: 5%
 
 実験では、ランダム分割に基づいて様々なパスをテストし、事前定義された成功指標に基づいて最もパフォーマンスが高いパスを決定できます。
 
-ジャーニーで実験を設定するには、次の手順に従います。
+ジャーニーでパス実験を設定するには、次の手順に従います。
 
 次の 3 つのパスを比較するとします。
 
 * 1 つのパスと 1 つのメール
-* 2 つ目のパス（2 日間の待機ノードとメール）。
+* 2 日間の **[!UICONTROL 待機]** ノードとメールを含む 2 番目のパス。
 * メールと SMS メッセージの 3 番目のパス。
 
-1. **[!UICONTROL 最適化]** アクティビティをジャーニーキャンバスにドロップします。
+1. 「**[!UICONTROL オーケストレーション]**」セクションで、「**[!UICONTROL 最適化]**」アクティビティをジャーニーキャンバスにドラッグ&amp;ドロップします。
 
-1. レポートモードとテストモードのログでアクティビティを識別するオプションのラベルを追加します。
+1. オプションのラベルを追加します。このラベルは、レポートおよびテストモードのログでアクティビティを識別するのに役立ちます。
 
 1. **[!UICONTROL 方法]** ドロップダウンリストから **[!UICONTROL 実験]** を選択します。
 
-   ![](assets/journey-optimize-experiment.png){width=85%}
+   ![](assets/journey-optimize-experiment.png){width=75%}
 
-1. **[!UICONTROL 実験設定]** をクリックします。
+1. **[!UICONTROL 実験を作成]** をクリックします。
 
-1. 必要に応じて実験を設計および設定します。 [詳細情報](../content-management/content-experiment.md)
+1. 実験に設定する&#x200B;**[!UICONTROL 成功指標]**&#x200B;を選択します。
+
+   <!--Need to have the list of all default metrics + a description for each.
+    Explain why the metric selection is important.
+    Are there custom metrics? If so explain.
+    If possible, add best practices and examples for each metrics (could even be a dedicated section).
+    Consider adding an example in this step: For this example, select this metric to test xxx.
+    -->
+
+   ![](assets/journey-optimize-experiment-metrics.png){width=70%}
+
+<!--1. Change the **[!UICONTROL Title]** of your treatment to better differentiate them.-->
+
+1. 配信に **[!UICONTROL 除外]** グループを追加することを選択できます。 このグループは、この実験からコンテンツを受け取りません。
+
+   >[!NOTE]
+   >
+   >切り替えバーをオンにすると、母集団の 10% が自動的に取得されます。 必要に応じて、この割合を調整できます。
 
    <!--
-    ![](../campaigns/assets/msg-optimization-create-experiment.png){width=85%}
-    Replace with appropriate screenshot
-    The experiment applies to all the activities in the journey.TBC
-   -->
+    [!IMPORTANT]
+    >
+    >DOES THIS APPLY TO PATH EXPERIMENT? When a holdout group is used in an action for path experimentation, the holdout assignment only applies to that specific action. After the action is completed, profiles in the holdout group will continue down the journey path and can receive messages from other actions. Therefore, ensure that any subsequent messages do not rely on the receipt of a message by a profile that might be in a holdout group. If they do, you may need to remove the holdout assignment.-->
 
-ジャーニーがライブになると、ユーザーは異なるパスを進むようにランダムに割り当てられます。 [!DNL Journey Optimizer] は、どのパスがより多くの購入を促進するかを追跡し、実用的なインサイトを提供します。
+1. 各 **[!UICONTROL 処理]** に正確な割合を割り当てることも、**[!UICONTROL 等しく分布]** 切り替えバーをオンにすることもできます。
 
-<!--Follow the success of your journey with the [Experimentation journey report](../reports/campaign-global-report-cja-experimentation.md). Is there a report specific to experimentation in journey?-->
+   ![](assets/journey-optimize-experiment-treatments.png){width=80%}
 
-### 実験を使用した使用例 {#uc-experiment}
+1. 「**[!UICONTROL 作成]**」をクリックします。
+
+1. 実験から生成される各ブランチに必要な要素を定義します。次に例を示します。
+
+   * [ メール ](../email/create-email.md) アクティビティを最初のブランチ（**処理 A**）にドラッグ&amp;ドロップします。
+
+   * 2 日間の [ 待機 ](wait-activity.md) アクティビティを最初のブランチにドラッグ&amp;ドロップしたあと、[ メール ](../email/create-email.md) アクティビティ（**処理 B**）をドラッグ&amp;ドロップします。
+
+   * [ メール ](../email/create-email.md) アクティビティを 3 つ目のブランチにドラッグ&amp;ドロップしたあと、[SMS](../sms/create-sms.md) アクティビティ（**処理 C**）をドラッグ&amp;ドロップします。
+
+   ![](assets/journey-optimize-experiment-ex.png){width=100%}
+
+1. オプションで、「**[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**」を使用して、代替アクションを定義します。 [詳細情報](using-the-journey-designer.md#paths)
+
+1. チャネルアクションを選択し、「**[!UICONTROL コンテンツを編集]** ボタンを使用してデザインツールにアクセスします。
+
+   ![](assets/journey-optimize-experiment-edit-content.png){width=70%}
+
+1. そこから、左のパネルを使用して、実験の各アクションに対して異なるコンテンツ間を移動できます。 必要に応じて、すべてのコンテンツをデザインします。
+
+   ![](assets/journey-optimize-experiment-content.png){width=100%}
+
+1. ジャーニーを [ 公開 ](publishing-the-journey.md) します。
+
+ジャーニーがライブになると、ユーザーは異なるパスを進むようにランダムに割り当てられます。 [!DNL Journey Optimizer] は、どのパスが最もパフォーマンスが高いかを追跡し、アクションにつながるインサイトを提供します。
+
+最適化/実験 [ ジャーニーレポート ](../reports/journey-global-report-cja.md) を使用して、ジャーニーの成功を追 <!--Need a doc page on reporting specific to path experimentation in journey - [Path experimentation journey report](../xxx) such as what we have for [Experimentation campaign report](../reports/campaign-global-report-cja-experimentation.md)--> します。
+
+### 実験のユースケース {#uc-experiment}
 
 次の例は、**[!UICONTROL 最適化]** アクティビティを **[!UICONTROL 実験]** メソッドと共に使用して、全体的に最適なパスを決定する方法を示しています。
 
-**チャネルの有効性**
++++チャネルの有効性
 
 メールと SMS で最初のメッセージを送信することでコンバージョンが高くなるかどうかをテストします。
 
 * コンバージョン率を最適化指標として使用します（例：購入、サインアップ）。
 
-![](assets/journey-optimize-experiment-uc.png)
+<!--![](assets/journey-optimize-experiment-uc.png)-->
 
-**メッセージの頻度**
++++
+
++++メッセージ頻度
 
 実験を実行して、1 週間に 1 件のメールと 3 件のメールを送信した結果、購入が増えたかどうかを確認します。
 
 * 最適化指標として、購入または購読解除率を使用します。
 
-**通信間の待機時間**
++++
+
++++通信間の待機時間
 
 フォローアップの前に 24 時間待機と 72 時間待機を比較して、エンゲージメントを最大化するタイミングを判断します。
 
 * 最適化指標としてクリックスルー率または売上高を使用します。
 
-## ターゲティングの活用 {#targeting}
++++
+
+## ターゲティングを活用 {#targeting}
 
 ターゲティングを使用すると、特定のオーディエンスセグメント <!-- depending on profile attributes or contextual attributes--> に基づいて、ジャーニーパスの 1 つにエントリする資格を顧客が得るために満たす必要がある特定のルールまたは資格を決定できます。
 
 特定のパスのランダムな割り当てである実験とは異なり、ターゲティングは、適切なオーディエンスまたはプロファイルが指定されたパスに確実に入るという点で決定的です。
 
-ターゲティングを使用すると、次の条件に基づいて特定のルールを定義できます。
+<!--With targeting, specific rules can be defined based on:
 
-* **場所などのユーザープロファイル属性** ジオターゲティング）、年齢または環境設定。 例えば、米国のユーザーには「ゴールデンゲート」プロモーションが表示され、フランスのユーザーには「エッフェル塔」プロモーションが表示されます。
+* **User profile attributes** such as location (eg. geo-targeting), age, or preferences. For example, users in the US receive a "Golden Gate" promotion, while users in France receive an "Eiffel Tower" promotion.
 
-* **コンテキストデータ**：デバイスタイプ（例： デバイスターゲティング）、時間帯またはセッションの詳細。 例えば、デスクトップユーザーはデスクトップ用に最適化されたコンテンツを受信し、モバイルユーザーはモバイル用に最適化されたコンテンツを受信します。
+* **Contextual data** such as device type (eg. device-targeting), time of day, or session details. For example, desktop users receive desktop-optimized content, while mobile users receive mobile-optimized content.
 
-* **オーディエンス**：特定のオーディエンスメンバーシップを持つプロファイルを含めたり除外したりするために使用できます。
+* **Audiences** which can be used to include or exclude profiles that have a particular audience membership.-->
 
 ジャーニーでターゲティングを設定するには、次の手順に従います。
 
-1. **[!UICONTROL 最適化]** アクティビティをジャーニーキャンバスにドロップします。
+1. 「**[!UICONTROL オーケストレーション]**」セクションで、「**[!UICONTROL 最適化]**」アクティビティをジャーニーキャンバスにドラッグ&amp;ドロップします。
 
-1. レポートモードとテストモードのログでアクティビティを識別するオプションのラベルを追加します。
+1. オプションのラベルを追加します。このラベルは、レポートおよびテストモードのログでアクティビティを識別するのに役立ちます。
 
-1. **[!UICONTROL メソッド]** ドロップダウンリストから **[!UICONTROL ターゲティング]** を選択します。
+1. **[!UICONTROL メソッド]** ドロップダウンリストから「**[!UICONTROL ターゲティングルール]**」を選択します。
 
-   ![](assets/journey-optimize-targeting.png){width=85%}
+   ![](assets/journey-optimize-targeting.png){width=75%}
 
 1. **[!UICONTROL ターゲティングルールを作成]** をクリックします。
 
-1. ルールビルダーを使用して条件を定義します。 例えば、米国居住者のルール、フランス居住者のルール、インド居住者のルールを定義します。
+1. ルールビルダーを使用して条件を定義します。例えば、ロイヤルティプログラムのゴールドメンバー用のルール（`loyalty.status.equals("Gold", false)`）と、他のメンバー用のルール（`loyalty.status.notEqualTo("Gold", false)`）を定義します。
 
    ![](assets/journey-targeting-rule.png)
 
-1. 必要に応じて「**[!UICONTROL フォールバックコンテンツを有効にする]** を選択します。 フォールバックコンテンツを使用すると、ターゲティングルールが認定されていない場合に、オーディエンスがデフォルトコンテンツを受け取ることができます。 このオプションを選択しない場合、上記で定義されたターゲティングルールに該当しないオーディエンスは、フォールバックパスに入りません。
+1. 必要に応じて、「**[!UICONTROL フォールバックコンテンツを有効にする]**」を選択します。フォールバックコンテンツを使用すると、ターゲティングルールが認定されていない場合に、オーディエンスがデフォルトコンテンツを受け取ることができます。 このオプションを選択しない場合、上記で定義されたターゲティングルールに該当しないオーディエンスは、フォールバックパスに入りません。
 
 1. ターゲティングルールの設定を保存します。
 
-1. ジャーニーに戻り、特定のアクションをドロップして各パスをカスタマイズします。 例えば、米国居住者向けの特定のメールや、フランス居住者向けの別のメールなどを作成できます。
+1. ジャーニーに戻り、特定のアクションをドロップして各パスをカスタマイズします。 例えば、ゴールドロイヤルティメンバー向けにパーソナライズされたオファーを含むメールと、他のすべてのメンバー向けの SMS リマインダーを作成します。
 
    ![](assets/journey-targeting-paths.png)
 
-1. ターゲティングルールの設定で定義した各グループに適したコンテンツを設計します。 異なるパス間をシームレスに移動できます。
+1. オプションで、「**[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**」を使用して、代替アクションを定義します。 [詳細情報](using-the-journey-designer.md#paths)
+
+1. ターゲティングルール設定で定義したグループに対応して、各アクションに適切なコンテンツを設計します。 アクションごとに異なるコンテンツ間をシームレスに移動できます。
 
    ![](assets/journey-targeting-design.png)
 
-   この例では、米国居住者の特定のパス、フランス居住者の別のパス、およびインド居住者の別のパスを設計します。
+   この例では、ゴールドメンバー向けの特別オファーと、他のメンバー向けの SMS リマインダーを含むメールをデザインします。
 
-ジャーニーがライブになると、米国居住者が特定のパスに入れるように、フランス居住者が別のパスに入るように、セグメントごとに指定されたパスが処理されます。
+1. ジャーニーを [ 公開 ](publishing-the-journey.md) します。
+
+ジャーニーがライブになると、各セグメントに指定されたパスが処理され、ゴールドメンバーはメールオファーを使用してパスに入力し、他のメンバーは SMS リマインダーを使用してパスに入力します。
 
 ### ターゲティングのユースケース {#uc-targeting}
 
 次の例は、**[!UICONTROL 最適化]** アクティビティを **[!UICONTROL ターゲティング]** メソッドと共に使用して、様々なサブオーディエンスのパスをパーソナライズする方法を示しています。
 
-**セグメント固有のチャネル**
++++セグメント固有のチャネル
 
 ゴールドステータスロイヤルティメンバーは、パーソナライズされたオファーをメールで受け取ることができますが、他のすべてのメンバーは SMS リマインダーにリダイレクトされます。
 
 * プロファイルあたりの売上高またはコンバージョン率を最適化指標として使用します。
 
-![](assets/journey-optimize-targeting-uc.png)
+<!--![](assets/journey-optimize-targeting-uc.png)-->
 
-**行動ベースのターゲティング**
++++
+
++++行動ベースのターゲティング
 
 メールを開いたがクリックしなかった顧客にはプッシュ通知を送信し、まったく開かなかった顧客には SMS を受信します。
 
 * クリックスルー率またはダウンストリームコンバージョンを最適化指標として使用します。
 
-**購入履歴のターゲット設定**
++++
+
++++購入履歴のターゲティング
 
 最近購入したお客様は、「ありがとうございました+ クロスセル」という短いパスを選択でき、購入履歴のないお客様は育成ジャーニーを終了できます。
 
 * 最適化指標として、リピート購入率またはエンゲージメント率を使用します。
+
++++
 
 ## 条件の追加 {#conditions}
 
