@@ -176,7 +176,7 @@ Adobe Journey Optimizerでは、ジャーニーの **プロファイルを更新
 
 詳しくは、[ このJourney Optimizer コミュニティの投稿 ](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998){target="_blank"} を参照してください。
 
-毎日のジョブがスケジュールされるタイミングを確認するには [](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/api/schedules?lang=en){target="_blank"}Adobe Experience Platform スケジュール API ドキュメントも参照してください。
+毎日のジョブがスケジュールされるタイミングを確認するには [&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/api/schedules?lang=en){target="_blank"}Adobe Experience Platform スケジュール API ドキュメントも参照してください。
 
 +++
 
