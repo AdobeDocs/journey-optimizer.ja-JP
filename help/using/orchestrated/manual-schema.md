@@ -151,7 +151,7 @@ ht-degree: 92%
 
 データセットを作成したら、調整されたキャンペーン用に明示的に有効にする必要があります。 この手順により、データセットを Adobe Journey Optimizer 内でリアルタイムのオーケストレーションとパーソナライゼーションに使用できるようになります。
 
-データセットでオーケストレーションされたAdobe Developer拡張機能を検証または有効にするには [](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset/#tag/DatasetEnablement)Campaign のドキュメント } を参照してください。
+データセットでオーケストレーションされたAdobe Developer拡張機能を検証または有効にするには [&#128279;](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset/#tag/DatasetEnablement)Campaign のドキュメント &rbrace; を参照してください。
 
 1. **[!UICONTROL データセット]**&#x200B;リストでデータセットを見つけます。
 
