@@ -20,7 +20,7 @@ ht-degree: 1%
 
 以下は、Adobe Journey Optimizerのトラブルシューティング記事のリストです。 各トラブルシューティングセクションでは、よくある質問への回答と問題の解決策を示します。
 
-[Adobe Experience Platformの FAQ とトラブルシューティングドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/troubleshooting#service-troubleshooting-directory){target="_blank"} も参照してください。
+[Adobe Experience Platformの FAQ とトラブルシューティングドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/troubleshooting#service-troubleshooting-directory){target="_blank"} も参照してください。
 
 ## メールチャネル {#ajo-troubleshooting-email}
 
@@ -28,7 +28,7 @@ ht-degree: 1%
 
 Adobe Journey Optimizer（AJO）では、メールヘッダーのデフォルトの CSS ブロックを変更すると、特にコンテンツフラグメントを削除した後で、予期しない形式の問題が発生する可能性があります。 これらの問題はモバイルデバイスでより顕著で、レイアウトが変更されたりスタイルに不整合が生じたりする場合があります。 これを防ぐには、テーマ機能を使用して、システム生成の CSS スタイルを変更せずに、カスタム CSS を安全に適用します。
 
-この問題の解決方法については、[ このトラブルシューティングの記事 ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27252){target="_blank"} を参照してください。
+この問題の解決方法については、[ このトラブルシューティングの記事 ](https://experienceleague.adobe.com/ja/docs/experience-cloud-kcs/kbarticles/ka-27252){target="_blank"} を参照してください。
 
 メールの形式について詳しくは [ このページ ](../email/get-started-email-design.md) を参照してください。
 
@@ -151,7 +151,7 @@ Adobe Customer Journey Analyticsの **アプリ内チャネル** に関するレ
 
 この問題について詳しくは、[ このトラブルシューティングの記事 ](https://experienceleague.adobe.com/ja/docs/experience-cloud-kcs/kbarticles/ka-26206){target="_blank"} を参照してください。
 
-Customer Journey AnalyticsでJourney Optimizer Analytics データを統合する方法について詳しくは [ このページ ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/ajo?lang=en#automatically-configure-journey-optimizer-integration){target="_blank"} を参照してください。
+Customer Journey AnalyticsでJourney Optimizer Analytics データを統合する方法について詳しくは [ このページ ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/integrations/ajo?lang=en#automatically-configure-journey-optimizer-integration){target="_blank"} を参照してください。
 
 [Journey Optimizerの全期間レポートのドキュメントも参照してください ](../reports/report-gs-cja.md)
 
@@ -164,7 +164,7 @@ Customer Journey AnalyticsでJourney Optimizer Analytics データを統合す�
 
 Adobe Journey Optimizerで新しいサンドボックスをプロビジョニングする組織からは、Time-to-Live （TTL）設定がプロファイルおよびデータレイクデータセットにどのように適用されるかについて疑問が生じています。 この記事では、TTL 設定は既存のサンドボックスに影響を与えず、新しくプロビジョニングされたサンドボックスにのみ自動的に適用されることを明確にします。
 
-TTL の処理方法については、[ このトラブルシューティング記事 ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26135){target="_blank"} を参照してください。
+TTL の処理方法については、[ このトラブルシューティング記事 ](https://experienceleague.adobe.com/ja/docs/experience-cloud-kcs/kbarticles/ka-26135){target="_blank"} を参照してください。
 
 データセットの有効期間について詳しくは [ このページを参照してください ](../data/datasets-ttl.md)。
 
@@ -177,7 +177,7 @@ TTL の処理方法については、[ このトラブルシューティング�
 
 Adobe Journey Optimizerの **オーディエンスを読み取り** 機能の処理済みエントリ数は、期待されるオーディエンス数よりも少ない場合があります。 この問題は、多くの場合、名前空間の設定が正しくないことが原因で発生し、プロファイルがジャーニーから除外されます。 この解決策には、名前空間の設定の確認と修正、関連するドキュメントのレビュー、Adobe Journey Optimizerでの操作をよりスムーズにするための優先度の調整が含まれます。
 
-この問題の解決方法については、[ このトラブルシューティングの記事 ](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26135){target="_blank"} を参照してください。
+この問題の解決方法については、[ このトラブルシューティングの記事 ](https://experienceleague.adobe.com/ja/docs/experience-cloud-kcs/kbarticles/ka-26135){target="_blank"} を参照してください。
 
 [ 古いオーディエンス数に関するこの記事 ](https://experienceleague.adobe.com/ja/docs/experience-cloud-kcs/kbarticles/ka-26166){target="_blank"} も参照してください。
 
@@ -193,7 +193,7 @@ Adobe Journey Optimizerでは、ジャーニーの **プロファイルを更新
 
 ジャーニーの **プロファイルを更新** アクティビティについて詳しくは [ このページ ](../building-journeys/update-profiles.md) を参照してください。
 
-データ取得に関する [Adobe Experience Platform ドキュメントも参照してください ](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/tutorials/ingest-batch-data?lang=en#dataset-activity){target="_blank"}。
+データ取得に関する [Adobe Experience Platform ドキュメントも参照してください ](https://experienceleague.adobe.com/ja/docs/experience-platform/ingestion/tutorials/ingest-batch-data?lang=en#dataset-activity){target="_blank"}。
 
 +++
 
@@ -203,9 +203,9 @@ Adobe Journey Optimizerでは、ジャーニーの **プロファイルを更新
 
 この問題を解決する手順については、[ このトラブルシューティング記事 ](https://experienceleague.adobe.com/ja/docs/experience-cloud-kcs/kbarticles/ka-26253){target="_blank"} を参照してください。
 
-詳しくは、[ このJourney Optimizer コミュニティの投稿 ](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998){target="_blank"} を参照してください。
+詳しくは、[ このJourney Optimizer コミュニティの投稿 ](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998?profile.language=ja){target="_blank"} を参照してください。
 
-毎日のジョブがスケジュールされるタイミングを確認するには [&#128279;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/api/schedules?lang=en){target="_blank"}Adobe Experience Platform スケジュール API ドキュメントも参照してください。
+毎日のジョブがスケジュールされるタイミングを確認するには [&#128279;](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/api/schedules?lang=en){target="_blank"}Adobe Experience Platform スケジュール API ドキュメントも参照してください。
 
 +++
 
@@ -218,7 +218,7 @@ Adobe Journey Optimizerでは、ジャーニーの **プロファイルを更新
 
 ジャーニーの **プロファイルを更新** アクティビティについて詳しくは [ このページ ](../building-journeys/update-profiles.md) を参照してください。
 
-[Adobe Real-Time CDP プロファイルのドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide?lang=en#profile-detail){target="_blank"} も参照してください。
+[Adobe Real-Time CDP プロファイルのドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/ui/user-guide?lang=en#profile-detail){target="_blank"} も参照してください。
 
 +++
 
@@ -230,7 +230,7 @@ Adobe Journey Optimizerでは、ジャーニーの **プロファイルを更新
 
 [ ライセンス使用状況ダッシュボード ](../audience/license-usage.md) を使用して、組織のライセンス使用状況と契約プロファイルを監視します
 
-[Adobe Experience Platform クエリサービスの概要 ](https://experienceleague.adobe.com/en/docs/experience-platform/query/home?lang=en){target="_blank"} も参照してください。
+[Adobe Experience Platform クエリサービスの概要 ](https://experienceleague.adobe.com/ja/docs/experience-platform/query/home?lang=en){target="_blank"} も参照してください。
 
 +++
 
@@ -399,7 +399,7 @@ Postmanや同様のツールを使用して **Query Service API** を使用す�
 
 詳しくは、[ このトラブルシューティング記事 ](https://experienceleague.adobe.com/ja/docs/experience-cloud-kcs/kbarticles/ka-26196){target="_blank"} を参照してください。
 
-[API 資格情報の管理ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions?lang=en#manage-api-credentials-for-role){target="_blank"} も参照してください。
+[API 資格情報の管理ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/abac/permissions-ui/permissions?lang=en#manage-api-credentials-for-role){target="_blank"} も参照してください。
 
 +++
 
