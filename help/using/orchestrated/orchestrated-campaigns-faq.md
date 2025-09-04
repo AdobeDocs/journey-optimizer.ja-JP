@@ -5,8 +5,9 @@ title: 調整されたキャンペーンに関するよくある質問
 description: Journey Optimizer の調整されたキャンペーンに関するよくある質問
 hide: true
 hidefromtoc: true
+version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: a6a8521254005159b410790f88877d0591a16d15
+source-git-commit: a72ad0289df18df123832c5b83c301e539ebce60
 workflow-type: tm+mt
 source-wordcount: '1091'
 ht-degree: 7%

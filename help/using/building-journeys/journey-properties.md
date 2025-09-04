@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: ジャーニー、設定、プロパティ
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 3ab8957d0aec6f30853de5537e03f0e7bec2017c
 workflow-type: tm+mt
 source-wordcount: '2733'
 ht-degree: 87%
@@ -138,6 +138,7 @@ ht-degree: 87%
 Adobe Journey Optimizer 2024年6月リリース以降、ジャーニーのグローバルタイムアウトが 30 日から 91 日に変更されました。影響について詳しくは、以下の FAQ を参照してください。
 
 **単一ジャーニーの場合**
+
 <table style="table-layout:auto">
   <tr style="border: 1;">
     <td>
