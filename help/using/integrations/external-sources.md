@@ -11,10 +11,10 @@ keywords: 統合
 hide: true
 hidefromtoc: true
 exl-id: 104f283e-f6a5-431b-919a-d97b83d19632
-source-git-commit: ad5fdefed71d75470dc243310e74372e0b08ba2a
-workflow-type: ht
-source-wordcount: '569'
-ht-degree: 100%
+source-git-commit: 26f0bdd9f67648d0a382fd67c296bf44f0ea42df
+workflow-type: tm+mt
+source-wordcount: '629'
+ht-degree: 90%
 
 ---
 
@@ -30,6 +30,18 @@ ht-degree: 100%
 * 製品の&#x200B;**価格情報**。
 * レコメンデーションエンジンからの&#x200B;**製品レコメンデーション**。
 * 配送ステータスなどの&#x200B;**ロジスティックスの更新情報**。
+
+## ベータ版の制限 {#limitations}
+
+ベータ版リリースには次の制限事項があります。
+
+* アウトバウンドチャネルのみがサポートされます。
+
+* API 呼び出し応答では JSON 形式のみがサポートされます。 HTMLと raw バイナリ画像の出力は使用できません。
+
+* 特定のコンテンツをターゲットとする取得 API のみがサポートされており、リスト API は使用できません。
+
+* 統合機能は、ジャーニーとキャンペーンの両方で使用できますが、フラグメントではサポートされていません。
 
 ## 統合の設定 {#configure}
 
