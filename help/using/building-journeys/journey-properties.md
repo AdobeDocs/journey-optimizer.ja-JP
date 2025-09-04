@@ -8,8 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: ジャーニー、設定、プロパティ
+version: Journey Orchestration
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
-source-git-commit: 3ab8957d0aec6f30853de5537e03f0e7bec2017c
+source-git-commit: 3eadf569fd98ac1b51a62e95f399c04f47fc5071
 workflow-type: tm+mt
 source-wordcount: '2733'
 ht-degree: 87%

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: e758e4f3532d9f1abb7a564431993c11032804ba
+source-git-commit: ab23386f22e6b585df412ccab039576a51a3ce20
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 95%
+source-wordcount: '847'
+ht-degree: 87%
 
 ---
 
@@ -61,8 +61,6 @@ You can also create audience-based campaigns to send messages.-->
 >* Adobe Experience Cloud の一般的なプライバシーに関するガイドラインと手順は [!DNL Journey Optimizer] に適用されます。[Adobe Experience Cloud のプライバシーの詳細情報](https://www.adobe.com/jp/privacy/experience-cloud.html){target="_blank"}。
 
 
-
-
 ## アーキテクチャ {#architecture}
 
 下の図で、[!DNL Adobe Journey Optimizer] の基本的なアーキテクチャ、統合のポイントおよび [!DNL Journey Optimizer] と [!DNL Experience Platform] との関係について説明します。
@@ -78,6 +76,12 @@ Journey Optimizer のコア機能とサービスは、リアルタイム顧客�
 ![](assets/ajo-architecture-diagram.png){width="70%" zoomable="yes"}
 
 
+### Adobe Journey Optimizerブループリント
+
+デジタルエクスペリエンスブループリントは、Adobe Experience Platformとアプリケーションがどのように統合および実装されているかをより深く理解するのに役立つ、システム図とデータフローアーキテクチャ図を提供します。 ブループリントは、システム間およびコンポーネントのデータとコンテンツのフロー、操作のシーケンス、依存関係を視覚的に表現し、Adobe Experience Platformとアプリケーションのユースケースの設計とアーキテクチャに役立ちます。
+
+[Adobe Journey Optimizer ブループリント ](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"} を参照してください。
+
 
 >[!MORELIKETHIS]
 >
@@ -85,3 +89,4 @@ Journey Optimizer のコア機能とサービスは、リアルタイム顧客�
 >* [ジャーニーの設計とメッセージの送信](../building-journeys/journey-gs.md)
 >* [ライブレポート](../reports/live-report.md)
 >* [Journey Optimizer Security の概要](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf)（PDF）
+>* [Journey Optimizerの製品説明 ](https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer.htm){target="_blank"}
