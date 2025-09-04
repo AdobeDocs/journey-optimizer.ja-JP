@@ -4,7 +4,8 @@ product: journey optimizer
 title: 設定の手順
 description: ユーザーインターフェイスを通じてリレーショナルスキーマを直接作成する方法について説明します。
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
-source-git-commit: 9984863e2c3f7fb8f74cefacfc026b70d27bddd7
+version: Campaign Orchestration
+source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
 workflow-type: tm+mt
 source-wordcount: '868'
 ht-degree: 92%
@@ -150,7 +151,7 @@ ht-degree: 92%
 
 データセットを作成したら、調整されたキャンペーン用に明示的に有効にする必要があります。 この手順により、データセットを Adobe Journey Optimizer 内でリアルタイムのオーケストレーションとパーソナライゼーションに使用できるようになります。
 
-データセットでオーケストレーションされたAdobe Developer拡張機能を検証または有効にするには [&#128279;](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset/#tag/DatasetEnablement)Campaign のドキュメント &rbrace; を参照してください。
+データセットでオーケストレーションされたAdobe Developer拡張機能を検証または有効にするには [](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset/#tag/DatasetEnablement)Campaign のドキュメント } を参照してください。
 
 1. **[!UICONTROL データセット]**&#x200B;リストでデータセットを見つけます。
 

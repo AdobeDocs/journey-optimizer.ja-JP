@@ -4,7 +4,8 @@ product: journey optimizer
 title: 設定の手順
 description: SFTP、クラウドストレージ、データベースなどのサポートされているソースからデータを Adobe Experience Platform に取り込む方法について説明します。
 exl-id: 7f1e7985-b68e-43d6-9c8f-fea2469f8af9
-source-git-commit: c1201025af216f8f3019e7696b6eb906962b681b
+version: Campaign Orchestration
+source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 93%

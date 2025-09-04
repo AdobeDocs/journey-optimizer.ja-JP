@@ -4,10 +4,11 @@ product: journey optimizer
 title: 設定の手順
 description: DDL をアップロードして Adobe Experience Platform 内でリレーショナルスキーマを作成する方法について説明します。
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: ht
-source-wordcount: '985'
-ht-degree: 100%
+version: Campaign Orchestration
+source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

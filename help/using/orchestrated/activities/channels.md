@@ -4,10 +4,11 @@ product: journey optimizer
 title: 複数の手順のキャンペーンでのチャネルアクティビティの追加
 description: 複数の手順のキャンペーンでのチャネルアクティビティの追加方法について説明します。
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
-source-git-commit: a4f3dce91af978bdff2de5beb8b1472f7704bdf2
-workflow-type: ht
-source-wordcount: '1108'
-ht-degree: 100%
+version: Campaign Orchestration
+source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

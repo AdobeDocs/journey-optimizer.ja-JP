@@ -4,10 +4,11 @@ product: journey optimizer
 title: 分岐アクティビティの使用
 description: 調整されたキャンペーンでの分岐アクティビティの使用方法について説明します。
 exl-id: 52e8057b-dac1-45f5-9dd0-1b28a59adde9
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: ht
-source-wordcount: '139'
-ht-degree: 100%
+version: Campaign Orchestration
+source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

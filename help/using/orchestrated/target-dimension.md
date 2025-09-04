@@ -4,7 +4,8 @@ product: journey optimizer
 title: ターゲティングディメンションの作成
 description: リレーショナルスキーマを顧客プロファイルにマッピングする方法について説明します。
 exl-id: 2479c109-cd6f-407e-8a53-77e4477dc36f
-source-git-commit: c1201025af216f8f3019e7696b6eb906962b681b
+version: Campaign Orchestration
+source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
 workflow-type: tm+mt
 source-wordcount: '745'
 ht-degree: 93%

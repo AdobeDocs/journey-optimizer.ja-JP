@@ -4,10 +4,11 @@ product: journey optimizer
 title: ルールビルダーの操作
 description: 調整されたキャンペーンのルールの作成方法について説明します。
 exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: ht
-source-wordcount: '305'
-ht-degree: 100%
+version: Campaign Orchestration
+source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

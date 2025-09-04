@@ -4,10 +4,11 @@ product: journey optimizer
 title: AND 結合アクティビティの使用
 description: 調整されたキャンペーンでの AND 結合アクティビティの使用方法について説明します。
 exl-id: 1b99313e-f131-44f7-a129-f85e1977fb05
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
-workflow-type: ht
-source-wordcount: '257'
-ht-degree: 100%
+version: Campaign Orchestration
+source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -44,6 +45,6 @@ ht-degree: 100%
 
 ## 例{#and-join-example}
 
-この例では、調整された 2 つのキャンペーン分岐における、それぞれのメール配信（1 つはゴールドメンバーをターゲットにし、もう 1 つはシルバーメンバーをターゲットにしている）を示します。**[!UICONTROL AND 結合]**&#x200B;は、両方の受信トランジションがトリガーされるとアクティブ化され、7 日間の遅延の後、両方のメール配信が完了した後にのみ SMS が送信されます。
+この例では、調整された 2 つのキャンペーン分岐における、それぞれのメール配信（1 つはゴールドメンバーをターゲティングにし、もう 1 つはシルバーメンバーをターゲティングにしている）を示します。**[!UICONTROL AND 結合]**&#x200B;は、両方の受信トランジションがトリガーされるとアクティブ化され、7 日間の遅延の後、両方のメール配信が完了した後にのみ SMS が送信されます。
 
 ![](../assets/workflow-andjoin-example.png){zoomable="yes"}

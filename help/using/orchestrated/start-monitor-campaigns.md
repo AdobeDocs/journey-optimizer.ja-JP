@@ -4,7 +4,8 @@ product: journey optimizer
 title: Adobe Journey Optimizer を使用して、調整されたキャンペーンを開始および監視する
 description: Adobe Journey Optimizer を使用して調整されたキャンペーンの開始と監視方法について説明します。
 exl-id: 5fc2d1d6-75c3-4b45-bb2b-09982b9bd5ed
-source-git-commit: 24e767d6f146036c8c0a34193ed6d36e5d43e6b2
+version: Campaign Orchestration
+source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
 workflow-type: tm+mt
 source-wordcount: '761'
 ht-degree: 93%

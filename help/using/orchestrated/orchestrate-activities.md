@@ -4,7 +4,8 @@ product: journey optimizer
 title: Adobe Journey Optimizer を使用して調整されたキャンペーンの作成
 description: Adobe Journey Optimizer を使用して調整されたキャンペーンの作成方法について説明します。
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
-source-git-commit: 24e767d6f146036c8c0a34193ed6d36e5d43e6b2
+version: Campaign Orchestration
+source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
 workflow-type: tm+mt
 source-wordcount: '886'
 ht-degree: 86%
