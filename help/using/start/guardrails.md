@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 064d060dcb939a633b423bf4414506d8e4320c99
+source-git-commit: de338bcbd73b94ac004ee39106e50fe707afb19a
 workflow-type: tm+mt
 source-wordcount: '2648'
 ht-degree: 99%
@@ -211,7 +211,6 @@ Adobe Experience Platform では、API ベースのプロファイルの作成�
 * ジャーニーでは、「**オーディエンスを読み取り**」アクティビティを 1 つのみ使用できます。
 * また、**オーディエンスを読み取り**&#x200B;アクティビティの使用方法に関するレコメンデーションについて詳しくは、[このページ](../building-journeys/read-audience.md)を参照してください。
 * 再試行は、エクスポートジョブの取得中に、オーディエンストリガージャーニー（**オーディエンスを読み取り**&#x200B;または&#x200B;**ビジネスイベント**&#x200B;で始まる）にデフォルトで適用されます。エクスポートジョブの作成中にエラーが発生した場合、最大 1 時間、10 分ごとに再試行が行われます。それ以降は失敗と見なされます。したがって、これらのタイプのジャーニーは、スケジュールされた時間から最大 1 時間後に実行できます。
-
 
 [このページ](../building-journeys/read-audience.md#must-read)を参照してください。
 
