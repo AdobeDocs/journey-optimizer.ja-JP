@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f494b30608c7413e1b7fc8d6c38d46d60821ee1c
+source-git-commit: 831db9b83f1b7011cdd26f957195592b06160837
 workflow-type: tm+mt
-source-wordcount: '2051'
+source-wordcount: '2063'
 ht-degree: 67%
 
 ---
@@ -90,6 +90,10 @@ ht-degree: 67%
 ### 機能強化 {#Sep-25-improv}
 
 * **決定キャッピングルールの式** – 決定項目のキャッピングルールのしきい値を定義する独自の式を作成できるようになりました。 [詳細情報](../experience-decisioning/items.md#capping)
+
+  >[!NOTE]
+  >
+  >この機能は、現在、すべてのユーザーに対する限定提供として利用できます。
 
 * **管理**
 
