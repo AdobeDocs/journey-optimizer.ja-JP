@@ -7,10 +7,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 923d9dfc4e281ea06ac1f5cd9c08d99a80617301
+source-git-commit: ef042e3a93dccc29d66eb9ab7d837f7914a8959d
 workflow-type: tm+mt
-source-wordcount: '2752'
-ht-degree: 100%
+source-wordcount: '2753'
+ht-degree: 99%
 
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 100%
 >title="オファー実施要件について"
 >abstract="このセクションでは、決定ルールを使用して、オファーの対象となるユーザーを決定できます。"
 
-<!--additional-url="https://video.tv.adobe.com/v/341373?captions=jpn" text="Watch demo video"-->
+<!--additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
@@ -264,7 +264,7 @@ ht-degree: 100%
 
 フリークエンシーキャップカウンターは 3 秒以内に更新され、[Edge Decisioning API](../api-reference/offer-delivery-api/start-offer-delivery-apis.md#edge) の決定で使用できます。
 
-各ハブ地域は、1 つ以上のエッジリージョンに関連付けられています。フリークエンシーキャップルールが生成され、各ハブリージョンから関連するエッジリージョンに書き出されます。Edge Decisioning API を使用して決定が行われるたびに、システムは同じエッジリージョンで使用可能なルールを適用します。
+各ハブ地域は、1 つ以上のエッジリージョンに関連付けられています。フリークエンシーキャップルールが生成され、各ハブリージョンから関連するエッジリージョンにエクスポートされます。Edge Decisioning API を使用して決定が行われるたびに、システムは同じエッジリージョンで使用可能なルールを適用します。
 
 * 一致ルールがある場合、プロファイルのフリークエンシーキャップカウンターが増分されます。
 * そうしない場合、プロファイルにカウンターが作成されず、フリークエンシーキャップルールが適用されません。その結果、キャップしきい値を超えた場合でも、プロファイルは引き続きパーソナライズされたオファーを受け取ります。
@@ -273,7 +273,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->カウンターがエッジリージョンからハブリージョンに、またはハブリージョンからエッジリージョンに生成される場合、数分の遅延が発生することがあります。
+>カウンターがエッジからハブに、またはハブからエッジ領域に伝播される場合、最大 30 分の遅延が適用される場合があります。
 
 組織に関連付けられているハブとエッジのリージョンについて詳しくは、アドビ担当者にお問い合わせください。
 
