@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 7e91face-c8f4-4e70-9123-9e36bae7e67e
-source-git-commit: 1ad534b7877f0ac6c1f50e29f41af708e83b34c9
+source-git-commit: 140a3fe77cea73d1ab1ecb3a13ef81a29e73b08a
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 100%
+source-wordcount: '188'
+ht-degree: 79%
 
 ---
 
@@ -25,7 +25,10 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->ダッシュボードを表示するには、[ライセンス使用状況ダッシュボードを表示](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html?lang=ja#available-permissions){target="_blank"}権限を付与されている必要があります。
+>* ダッシュボードを表示するには、[ライセンス使用状況ダッシュボードを表示](https://experienceleague.adobe.com/docs/experience-platform/dashboards/permissions.html?lang=ja#available-permissions){target="_blank"}権限を付与されている必要があります。
+>
+>* 割り当て量列の `N/A` に示されているように、特定の指標（計算時間、メールなど）が開発用サンドボックスに表示されません。 ダッシュボードには、null 以外の値のみが表示されます。指標が 0 または 0 に近い場合、値は入力されません。
+
 
 [!DNL Adobe Journey Optimizer] では、ダッシュボードで&#x200B;**エンゲージメント可能なプロファイル**&#x200B;の数を確認できます。エンゲージメント可能なプロファイルは、個人を表す情報のレコードで、プロファイルサービスに保存されます。これらのレコードは、過去 12 か月間に、Journey Optimizer のオーサリング、意思決定、配信、実験またはオーケストレーション機能を使用してエンゲージしようとしたプロファイルです。
 
