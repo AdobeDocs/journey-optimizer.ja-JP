@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c6179566226331d2169c3abc50a069262db80d85
+source-git-commit: f494b30608c7413e1b7fc8d6c38d46d60821ee1c
 workflow-type: tm+mt
-source-wordcount: '2011'
-ht-degree: 68%
+source-wordcount: '2051'
+ht-degree: 67%
 
 ---
 
@@ -23,6 +23,8 @@ ht-degree: 68%
 [!DNL Adobe Journey Optimizer] は、新機能、既存機能の強化、およびバグ修正を継続的に提供します。これらのリリースノートでは、すべての変更が各月の最終週にまとめられます。[!DNL Adobe Journey Optimizer] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}を参照してください。
 
 ## 2025 年 9 月の更新 {#sep-updates}
+
+### 新機能 {#Sep-25-features}
 
 <table>
 <thead>
@@ -76,7 +78,8 @@ ht-degree: 68%
 <li>「datasetLookup」ヘルパー関数を式フラグメント内で使用できるようになりました。</li>
 <li>データセット管理インターフェイスのオプションを使用すると、API 呼び出しを実行しなくても、ルックアップパーソナライゼーション用のレコードベースのデータセットを有効にできるようになりました。</li>
 <li>データ取り込みステータスを追跡し、データセットの検索準備が整ったタイミングを把握するための監視機能を強化しました。</li>
-<li>最適なパフォーマンスと信頼性を確保するために、使用ガイドラインとガードレールを更新しました。</li></ul></p>
+<li>最適なパフォーマンスと信頼性を確保するために、使用ガイドラインとガードレールを更新しました。</li>
+<li>Adobe Experience Platform データセットを決定キャッピングルールで活用できるようになりました。</li></ul></p>
 <p>詳しくは、<a href="../data/lookup-aep-data.md">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2025 年 9 月 1 日（PT）</p>
 </td>
@@ -84,7 +87,9 @@ ht-degree: 68%
 </tbody>
 </table>
 
-### 機能強化 {#Sept-25-8-improv}
+### 機能強化 {#Sep-25-improv}
+
+* **決定キャッピングルールの式** – 決定項目のキャッピングルールのしきい値を定義する独自の式を作成できるようになりました。 [詳細情報](../experience-decisioning/items.md#capping)
 
 * **管理**
 
