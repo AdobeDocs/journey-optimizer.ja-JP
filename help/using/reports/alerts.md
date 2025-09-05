@@ -8,10 +8,10 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 13623d28ba7b852f7267b5f800f2c9a3afda4a62
 workflow-type: tm+mt
-source-wordcount: '977'
-ht-degree: 43%
+source-wordcount: '1216'
+ht-degree: 34%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 43%
 >
 >デフォルトでは、アプリ内アラートのみが有効になっています。
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=ja#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 アラートが解決されると、購読者に「解決済み」通知が届きます。
 
@@ -129,7 +129,7 @@ ht-degree: 43%
 
 ### オーディエンストリガーの読み取りが失敗しました {#alert-read-audiences}
 
-このアラートは、スケジュールされた実行時間から 10 分経過しても、「**オーディエンスを読み取り**」アクティビティでプロファイルを処理されなかった場合に警告します。このエラーは、技術的な問題やオーディエンスが空であることが原因で発生する可能性があります。このエラーが技術的な問題によって発生した場合、問題のタイプに応じて、再試行が引き続き行われる可能性があります（例：書き出しジョブの作成に失敗した場合、最大 1 時間、10 分ごとに再試行されます）。
+このアラートは、スケジュールされた実行時間から 10 分経過しても、「**オーディエンスを読み取り**」アクティビティでプロファイルを処理されなかった場合に警告します。このエラーは、技術的な問題やオーディエンスが空であることが原因で発生する可能性があります。このエラーが技術的な問題によって発生した場合、問題のタイプに応じて、再試行が引き続き行われる可能性があります（例：エクスポートジョブの作成に失敗した場合、最大 1 時間、10 分ごとに再試行されます）。
 
 ![](assets/alerts1.png)
 
@@ -173,50 +173,50 @@ ht-degree: 43%
 
 変更しても問題が解決しない場合は、同じアラートが翌日に再度トリガーされます。
 
-<!--The I/O event subscription name corresponding to this alert is xx. > Do we need to mention this?
+<!--The I/O event subscription name corresponding to this alert is xx. > Do we need to mention this?-->
 
-### AJO channel configuration failure {#alert-channel-config-failure}
+### AJO チャネルの設定エラー {#alert-channel-config-failure}
 
 >[!IMPORTANT]
 >
->This alert applies only to **email** channel configurations using the [custom subdomain](../configuration/delegate-custom-subdomain.md) delegation type. ///Other channel types (such as SMS, push, or in-app) are not covered by this alert.///
+>このアラートは、**カスタムサブドメイン** デリゲーションタイプを使用した [ メール ](../configuration/delegate-custom-subdomain.md) チャネル設定にのみ適用されます。<!--Other channel types (such as SMS, push, or in-app) are not covered by this alert.-->
 
-This alert is triggered in case the system audit detects email channel configuration issues. These issues may include misconfigured channel settings, invalid DNS configuration, suppression list issue, IP inconsistency, or any other errors that can impact email delivery.
+このアラートは、システム監査でメールチャネルの設定の問題が検出された場合にトリガーされます。 これらの問題には、チャネル設定の誤り、無効な DNS 設定、抑制リストの問題、IP の不整合、メール配信に影響を与えるその他のエラーが含まれる場合があります。
 
-If you receive such an alert, the resolution steps are listed below:
+このようなアラートを受け取った場合の解決手順は次のとおりです。
 
-1. Click the alert to be directed to the impacted [email channel configuration](../email/get-started-email-config.md) in the [!DNL Journey Optimizer] interface.
+1. アラートをクリックすると、[ インターフェイス内の影響を受ける ](../email/get-started-email-config.md) メールチャネル設定 [!DNL Journey Optimizer] にリダイレクトされます。
 
-   For guidance on editing channel configurations, see [this section](../configuration/channel-surfaces.md#edit-channel-surface).
+   チャネル設定の編集に関するガイダンスについては、[ この節 ](../configuration/channel-surfaces.md#edit-channel-surface) を参照してください。
 
-1. Review the configuration details and error messages provided. Common failure reasons include:
+1. 設定の詳細と表示されるエラーメッセージを確認します。 一般的なエラーの理由を次に示します。
 
-   * SPF validation failed
-   * DKIM validation failed
-   * MX record validation failed
-   * Invalid DNS records
-
-   >[!NOTE]
-   >
-   >The possible configuration failure reasons are listed in [this section](../configuration/channel-surfaces.md).
-
-1. Resolve the issue:
-
-   * Update the channel configuration as needed.
-   * You may need to fix specific DNS issues mentioned in the alert.
+   * SPF 検証に失敗しました
+   * DKIMの検証に失敗しました
+   * MX レコードの検証に失敗しました
+   * 無効な DNS レコード
 
    >[!NOTE]
    >
-   >As a single domain can be associated with multiple channel configurations, resolving DNS issues for one channel configuration may automatically fix related issues across several configurations.
+   >考えられる設定失敗の理由を [ この節 ](../configuration/channel-surfaces.md) に示します。
 
-If the change does not resolve the issue, the same alert will be triggered again the next day.
+1. 問題を解決します。
 
-When resolving email configuration issues, keep in mind the best practices listed below:
+   * 必要に応じて、チャネル設定を更新します。
+   * アラートに記載されている特定の DNS の問題を修正する必要がある場合があります。
 
-* Act promptly - Address configuration failures as soon as they are detected to avoid disruptions in email delivery.
-* Check all configurations - If the alert indicates multiple impacted email configurations, review and fix each of them.
+   >[!NOTE]
+   >
+   >単一のドメインを複数のチャネル設定に関連付けることができるので、1 つのチャネル設定の DNS の問題を解決すると、複数の設定に関連する問題が自動的に修正される場合があります。
 
-### AJO domain certificates renewal unsuccessful {#alert-certificates-renewal}
+変更しても問題が解決しない場合は、同じアラートが翌日に再度トリガーされます。
+
+メール設定の問題を解決する際は、次に示すベストプラクティスに注意してください。
+
+* 迅速な対応 – メール配信の中断を避けるために、設定の障害が検出されしだい対処します。
+* すべての設定の確認 – アラートに影響を受けた複数のメール設定が示されている場合は、それぞれを確認して修正します。
+
+<!--### AJO domain certificates renewal unsuccessful {#alert-certificates-renewal}
 
 This alert warns you if a domain certificate (CDN, tracking URL) renewal failed for a specific Journey Optimizer subdomain.-->
 
