@@ -5,10 +5,10 @@ title: 設定の手順
 description: DDL をアップロードして Adobe Experience Platform 内でリレーショナルスキーマを作成する方法について説明します。
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 35cd3aac01467b42d0cba22de507f11546f4feb9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1041'
+ht-degree: 89%
 
 ---
 
@@ -38,7 +38,20 @@ Excel ベースのスキーマファイルのアップロードがサポート�
 +++Adobe Experience Platform でリレーショナルスキーマを作成する場合、次の機能がサポートされます。
 
 * **ENUM**\
-  ENUM フィールドは、DDL ベースと手動スキーマ作成の両方でサポートされているので、許可される値の固定セットを使用して属性を定義できます。
+  ENUM フィールドは、DDL ベースのスキーマ作成と手動のスキーマ作成の両方でサポートされており、許可された値の固定セットを使用して属性を定義できます。
+次に例を示します。
+
+  ```
+  CREATE TABLE orders (
+  order_id     INT NOT NULL,
+  product_id   INT NOT NULL,
+  order_date   DATE NOT NULL,
+  customer_id  INT NOT NULL,
+  quantity     INT NOT NULL,
+  order_status enum ('PENDING', 'SHIPPED', 'DELIVERED', 'CANCELLED'),
+  PRIMARY KEY (order_id, product_id)
+  );
+  ```
 
 * **データガバナンスのスキーマラベル**\
   アクセス制御や使用制限などのデータガバナンスポリシーの適用に、スキーマフィールドレベルでラベル付けがサポートされています。詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja)を参照してください。
@@ -61,9 +74,10 @@ Excel ベースのスキーマファイルのアップロードがサポート�
 1. 「**[!UICONTROL DDL ファイルをアップロード]**」を選択し、エンティティ関係ダイアグラムを定義して、スキーマを作成します。
 
    テーブル構造には、次の項目を含める必要があります。
-   * 1 つ以上のプライマリキー
+   * 1 つ以上のプライマリキー。
    * バージョン識別子（`datetime` タイプまたは `number` タイプの「`lastmodified`」フィールドなど）。
-   * データキャプチャを変更（CDC）取り込みの場合、タイプ `String` の `_change_request_type` という特別な列。これは、データ変更のタイプ（挿入、更新、削除など）を示し、増分処理をできるようにします。
+   * 変更データキャプチャ（CDC）取り込みの場合、タイプ `String` の `_change_request_type` という特別な列。これは、データ変更のタイプ（挿入、更新、削除など）を示し、増分処理を可能にします。
+   * DDL ファイルで定義できるテーブルは 200 個までです。
 
 
    >[!IMPORTANT]
@@ -79,9 +93,13 @@ Excel ベースのスキーマファイルのアップロードがサポート�
 
 1. 各スキーマとその列を設定し、プライマリキーが指定されていることを確認します。
 
-   `lastmodified` などの 1 つの属性をバージョン記述子として指定する必要があります。この属性は通常、`datetime`、`long` または `int` のタイプで、データセットが最新のデータバージョンで更新されるようにする取得プロセスに不可欠です。
+   `lastmodified` などの 1 つの属性は、データセットが確実に最新のデータで更新されるように、バージョン記述子（タイプ `datetime`、`long` または `int`）として指定する必要があります。 ユーザーはバージョン記述子を変更できます。これは、一度設定すると必須になります。 1 つの属性を、プライマリ キー（PK）とバージョン記述子の両方にすることはできません。
 
    ![](assets/admin_schema_2.png)
+
+1. 属性を `identity` としてマークし、定義済みの ID 名前空間にマッピングします。
+
+1. 各テーブルの名前を変更、削除または説明を追加します。
 
 1. 完了したら、「**[!UICONTROL 完了]**」をクリックします。
 
@@ -94,6 +112,10 @@ Excel ベースのスキーマファイルのアップロードがサポート�
 1. データモデルのキャンバス表示にアクセスし、リンクする 2 つのテーブルを選択します
 
 1. ソース結合の横にある「![](assets/do-not-localize/Smock_AddCircle_18_N.svg)」ボタンをクリックし、矢印をドラッグしてターゲット結合の方向に誘導し、接続を確立します。
+
+   >[!NOTE]
+   >
+   >複合キーは、DDL ファイルで定義されている場合にサポートされます。
 
    ![](assets/admin_schema_5.png)
 
