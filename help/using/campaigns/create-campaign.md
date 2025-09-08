@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 作成, Optimizer, キャンペーン, サーフェス, メッセージ
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 8701afe345f0eeed1503e4765d4715398823b102
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 100%
+source-wordcount: '179'
+ht-degree: 90%
 
 ---
 
@@ -30,6 +30,13 @@ ht-degree: 100%
 アクションキャンペーン（またはスケジュール済みキャンペーン）を使用すると、プロモーションオファー、エンゲージメントキャンペーン、お知らせ、法律上の注意、ポリシーの更新など、マーケティングのユースケースに対するシンプルなアドホックバッチ通信が可能になります。
 
 ➡️ [この機能について詳しくは、ビデオを参照してください](#video)。
+
+
+>[!NOTE]
+>
+>サポートされるチャネルは、[ メール ](../email/get-started-email.md)、[SMS/MMS/RCS](../sms/get-started-sms.md)、[ プッシュ通知 ](../push/get-started-push.md)、[WhatsApp](../whatsapp/get-started-whatsapp.md)、[LINE](../line/get-started-line.md)、[ ダイレクトメール ](../direct-mail/get-started-direct-mail.md)、[ アプリ内 ](../in-app/get-started-in-app.md)、[Web](../web/get-started-web.md)、[ コードベースのエクスペリエンス ](../code-based/get-started-code-based.md) です。
+>
+>使用できるチャネルは、ライセンスモデルとアドオンによって異なります。
 
 ## アクションキャンペーン作成の主な手順 {#steps}
 
@@ -48,4 +55,4 @@ ht-degree: 100%
 
 アクションキャンペーンの作成方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3412405?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)
