@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: アクティビティを最適化
+title: 最適化アクティビティ
 description: 最適化アクティビティについて説明します
 feature: Journeys, Activities
 topic: Content Management
@@ -14,16 +14,16 @@ version: Journey Orchestration
 source-git-commit: cd688d0c140404a846df09a53f37be8d0fe5633e
 workflow-type: tm+mt
 source-wordcount: '1220'
-ht-degree: 7%
+ht-degree: 10%
 
 ---
 
-# アクティビティを最適化 {#journey-path-optimization}
+# 最適化アクティビティ {#journey-path-optimization}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_optimize"
->title="アクティビティを最適化"
->abstract="**最適化** アクティビティを使用すると、実験、ターゲティング、特定の条件など、特定の条件に基づいて複数のパスを作成することで、個人のジャーニーの進行状況を定義できます。"
+>title="最適化アクティビティ"
+>abstract="**最適化**&#x200B;アクティビティでは、実験、ターゲティング、特定の条件など、特定の基準に基づいて複数のパスを作成することで、個人がジャーニーをどのように進めるかを定義できます。"
 
 >[!AVAILABILITY]
 >
