@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d7a291fc8e203b2e5b77969b406591544882b26e
+source-git-commit: cbb96e60b5f3f18499380829c909ad5c4fb6bb37
 workflow-type: tm+mt
-source-wordcount: '2903'
+source-wordcount: '2913'
 ht-degree: 99%
 
 ---
@@ -357,6 +357,7 @@ ht-degree: 99%
       + [アプリ内通知の確認および送信](using/in-app/send-in-app.md)
    + プッシュ通知チャネル {#push}
       + [プッシュ通知チャネル](/help/rp_landing_pages/push-landing-page.md)
+      + [プッシュ通知の基本を学ぶ](using/push/get-started-push.md)
       + [プッシュ通知の作成](using/push/create-push.md)
       + [プッシュ通知のデザイン](using/push/design-push.md)
       + [プッシュ通知の確認と送信](using/push/send-push.md)
@@ -437,6 +438,7 @@ ht-degree: 99%
       + [WhatsApp メッセージの確認および送信](using/whatsapp/send-whatsapp.md)
    + LINE {#line}
       + [LINE](/help/rp_landing_pages/line-landing-page.md)
+      + [LINE チャネルの基本を学ぶ](using/line/get-started-line.md)
       + [Journey Optimizer での LINE チャネルの設定](using/line/line-configuration.md)
       + [LINE メッセージの作成](using/line/create-line.md)
       + [LINE メッセージの確認および送信](using/line/send-line.md)
