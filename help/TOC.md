@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: cbb96e60b5f3f18499380829c909ad5c4fb6bb37
+source-git-commit: b4ed25390e9f499a12649713eb963799de55caa5
 workflow-type: tm+mt
-source-wordcount: '2913'
+source-wordcount: '2917'
 ht-degree: 99%
 
 ---
@@ -350,6 +350,7 @@ ht-degree: 99%
          + [新しい DMARC 要件](using/configuration/dmarc-record-update.md)
    + アプリ内チャネル {#in-app}
       + [アプリ内チャネル](/help/rp_landing_pages/in-app-landing-page.md)
+      + [アプリ内の基本を学ぶ](using/in-app/get-started-in-app.md)
       + [アプリ内チャネルの前提条件](using/in-app/inapp-configuration.md)
       + [モバイルアプリ内メッセージの作成](using/in-app/create-in-app.md)
       + [Web アプリ内メッセージの作成](using/in-app/create-in-app-web.md)
