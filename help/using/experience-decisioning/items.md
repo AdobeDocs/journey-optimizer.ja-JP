@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
-source-git-commit: 825cffb38c366a7a93cd58da9d2439ff530c60e9
+source-git-commit: 58389860e5e0b07f32dd62b95a508e80579aaa73
 workflow-type: tm+mt
-source-wordcount: '2125'
-ht-degree: 82%
+source-wordcount: '2186'
+ht-degree: 80%
 
 ---
 
@@ -108,6 +108,11 @@ Journey Optimizer では、決定項目と呼ばれるマーケティングオ�
 >プロファイルの予測は、ルールパラメーターにコンテキストデータなど、プロファイルに含まれていないデータが含まれている場合は使用できません。例えば、現在の気温が 80 ℃以上であることを条件とする実施要件ルールがあります。
 
 ## キャップルールの設定 {#capping}
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_capping_expression"
+>title="式"
+>abstract="キャッピングしきい値に静的な値を使用する代わりに、独自の式を定義できます。 これにより、Adobe Experience Platform データセットの決定属性や外部属性を使用して、しきい値を動的に計算できます。<br/><br/> キャッピングルール **式** は現在、すべてのユーザーに対する使用制限として使用できます。 これらは、**[!UICONTROL 合計]** キャッピングタイプでのみサポートされます。"
 
 キャッピングは、オファー項目を提示できる最大回数を定義する制約として使用されます。 ユーザーが特定のオファーを受け取る回数を制限すると、顧客への過度の勧誘を防ぎ、各タッチポイントをそれに適したオファーで最適化できます。特定の決定項目に対して最大 10 個のキャップを作成できます。
 

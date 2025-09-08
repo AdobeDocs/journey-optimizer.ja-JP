@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
-source-git-commit: ebefeb59a19e831ec7f86cee690a35fe71e14554
+source-git-commit: 58389860e5e0b07f32dd62b95a508e80579aaa73
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 100%
+source-wordcount: '549'
+ht-degree: 93%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_rules"
 >title="決定ルールの作成"
->abstract="決定ルールを使用すると、決定項目レベルで直接、または特定の選択戦略内で制約を適用することで、決定項目のオーディエンスを定義できます。これにより、項目を提示する対象を正確に制御できます。"
+>abstract="決定ルールを使用すると、決定項目レベルで直接、または特定の選択戦略内で制約を適用することで、決定項目のオーディエンスを定義できます。これにより、項目を提示する対象を正確に制御できます。<br/><br/> データセットを使用してルールを作成 **[!UICONTROL を選択]** て、決定ルールでAdobe Experience Platform データを使用します。 これにより、動的な外部属性に基づいて実施要件条件を定義して、関連する場合にのみ決定項目が表示されるようにします。"
 
 ## 決定ルールについて {#about}
 
