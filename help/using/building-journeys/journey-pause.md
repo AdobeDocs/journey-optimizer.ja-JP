@@ -9,10 +9,10 @@ level: Intermediate
 keywords: 公開, ジャーニー, ライブ, 有効性, 確認
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 18611c721dfd1b189a9272f9c49a2c2e778584cc
 workflow-type: tm+mt
-source-wordcount: '2225'
-ht-degree: 89%
+source-wordcount: '2429'
+ht-degree: 82%
 
 ---
 
@@ -24,8 +24,6 @@ ht-degree: 89%
 >abstract="新しいプロファイルがエントリしないように、ライブジャーニーを一時停止します。ジャーニー内の現在のプロファイルを破棄するか、そのまま保持するかを選択します。保持した場合、ジャーニーを再開すると、次のアクションアクティビティでプロファイルの実行が再開されます。進行状況を失うことなく、更新や緊急停止するのに最適です。"
 
 いつでもライブジャーニーを一時停止し、必要なすべての変更を実行して、再開できます。<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> 一時停止中に、[ プロファイル属性の終了条件を適用 ](#journey-exit-criteria) して、属性に基づいてプロファイルを除外できます。 ジャーニーは、一時停止期間の終了時に自動的に再開されます。また、[手動で再開](#journey-resume-steps)することもできます。
-
-
 
 ## 主なメリット {#journey-pause-benefits}
 
@@ -92,6 +90,9 @@ ht-degree: 89%
 | [外部データソース](../datasource/external-data-sources.md) | ライブジャーニーと同じ動作です |
 | [終了条件](journey-properties.md#exit-criteria) | ライブジャーニーと同じ動作です |
 
+
+破棄のトラブルシューティング方法については、[ この節 ](#discards-troubleshoot) を参照してください。
+
 ## 一時停止したジャーニーを再開する方法 {#journey-resume-steps}
 
 >[!CONTEXTUALHELP]
@@ -150,7 +151,7 @@ ht-degree: 89%
 
 ## ガードレールと制限 {#journey-pause-guardrails}
 
-* ジャーニーバージョンは最大 **14 日間**&#x200B;一時停止できます。一時停止したジャーニーでは、組織全体で最大 **1,000 万のプロファイル**&#x200B;が許可されます。
+* ジャーニーバージョンは最大 **14 日間**&#x200B;一時停止できます。一時停止したジャーニーでは、組織全体で最大 **1,000 万のプロファイル**が許可されます。
 この制限は 30 分ごとに確認されます。つまり、一時的に 1,000 万のしきい値を超える可能性がありますが、システムが検出すると、追加のプロファイルは自動的に破棄されます。
 
   保留中のプロファイルの数を制限以下に戻すのにジャーニーを再開すると、ジャーニーはすぐに再開されますが、プロファイル数が更新されるまでに最大 30 分かかる場合があります。その間、システムは、引き続きこれらのプロファイルを一時停止中であると見なす場合があります。
@@ -195,3 +196,50 @@ ht-degree: 89%
 
 1. 1 分以内に新しいジャーニーのエントリが開始されます。
 1. **アクション**&#x200B;アクティビティのジャーニーで現在待機していたプロファイルは、5k tps の速度で再開されます。その後、待機していた&#x200B;**アクション**&#x200B;にエントリし、ジャーニーを続行できます。
+
+## 一時停止したジャーニーでのプロファイル破棄のトラブルシューティング  {#discards-troubleshoot}
+
+[Adobe Experience Platform クエリサービス ](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ja){target="_blank"} を使用して、ステップイベントをクエリできます。これにより、発生したタイミングに応じて、プロファイル破棄に関する詳細が提供されます。
+
+* プロファイルがジャーニーにエントリする前に発生する破棄の場合は、次のコードを使用します。
+
+  ```sql
+  SELECT
+  TIMESTAMP,
+  _experience.journeyOrchestration.profile.ID,
+  to_json(_experience.journeyOrchestration)
+  FROM
+  journey_step_events
+  WHERE
+  _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'PAUSED_JOURNEY_VERSION'
+  AND _experience.journeyOrchestration.journey.versionID=<jvId>  
+  ```
+
+  ジャーニーのエントリ時に発生した破棄が一覧表示されます。
+
+   1. オーディエンスジャーニーが実行中で、最初のノードがまだ処理中の場合、ジャーニーが一時停止すると、未処理のプロファイルはすべて破棄されます。
+
+   1. ジャーニーの一時停止中に、開始ノード（エントリをトリガーにする）に新しい単一イベントが到達すると、そのイベントは破棄されます。
+
+* プロファイルが既にジャーニーに含まれている場合に行われる破棄の場合は、次のコードを使用します。
+
+  ```sql
+  SELECT
+  TIMESTAMP,
+  _experience.journeyOrchestration.profile.ID,
+  to_json(_experience.journeyOrchestration)
+  FROM
+  journey_step_events
+  WHERE
+  _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'JOURNEY_IN_PAUSED_STATE'
+  AND _experience.journeyOrchestration.journey.versionID=<jvId> 
+  ```
+
+  このコマンドは、プロファイルがジャーニーに含まれる際に発生した破棄をリストします。
+
+   1. 破棄オプションを有効にしてジャーニーを一時停止し、一時停止の前にプロファイルが既にエントリしている場合、そのプロファイルは、次のアクションノードに到達すると破棄されます。
+
+   1. 「保持」オプションを選択してジャーニーが一時停止されたが、1,000 万のクォータを超えたことが原因でプロファイルが破棄された場合、それらのプロファイルは、次のアクションノードに到達したときにも破棄されます。
+
+
+
