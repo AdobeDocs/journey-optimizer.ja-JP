@@ -10,10 +10,10 @@ mini-toc-levels: 1
 level: Beginner
 keywords: キャンペーンの管理, ステータス, スケジュール, アクセス, Optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 21d3fd6a182fe8ecce13b4216e03f93348955c14
+source-git-commit: 1215c7c2de090db7bcdb7943cc96599d9809972d
 workflow-type: tm+mt
-source-wordcount: '1772'
-ht-degree: 77%
+source-wordcount: '1863'
+ht-degree: 69%
 
 ---
 
@@ -37,11 +37,6 @@ ht-degree: 77%
 
 
 ## キャンペーンへのアクセス {#access}
-
->[!CONTEXTUALHELP]
->id="ajo_campaigns_view"
->title="キャンペーンリストとカレンダー表示"
->abstract="[!DNL Journey Optimizer]では、キャンペーンリストに加えて、キャンペーンのカレンダー表示が提供され、キャンペーンのスケジュールが明確に視覚的に表現されます。これらのボタンを使用すると、リスト表示とカレンダー表示をいつでも切り替えることができます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_targeting_workflow_list"
@@ -89,15 +84,15 @@ ht-degree: 77%
 
 ![キャンペーンの在庫を示す画像](assets/inventory-actions.png)
 
-* **[!UICONTROL 全期間のレポートを表示]**／**[!UICONTROL 過去 24 時間のレポートを表示]** - レポートにアクセスして、キャンペーンの影響とパフォーマンスを測定および視覚化します。
-* **[!UICONTROL タグを編集]** - キャンペーンに関連付けられたタグを編集します。
-* **[!UICONTROL 複製]** - 場合によっては、停止済みの調整されたキャンペーンを実行するのに、キャンペーンを複製する必要があることがあります。
-* **[!UICONTROL 削除]** - キャンペーンを削除します。このアクションは、**[!UICONTROL ドラフト]**&#x200B;キャンペーンでのみ使用できます。
-* **[!UICONTROL アーカイブ]** - キャンペーンをアーカイブします。すべてのアーカイブ済みキャンペーンは、最終変更日から 30 日後にローリング再スケジュールで削除されます。このアクションは、**[!UICONTROL ドラフト]**&#x200B;キャンペーンを除くすべてのキャンペーンで使用できます。
+* **[!UICONTROL すべての時間レポートを表示]** / **[!UICONTROL 過去 24 時間のレポートを表示]** - レポートにアクセスして、キャンペーンの影響とパフォーマンスを測定および視覚化します。 [ キャンペーンレポート ](../reports/campaign-global-report-cja.md) の詳細情報。
+* **[!UICONTROL タグを編集]** - キャンペーンに関連付けられたタグを編集します。 詳細情報 [ キャンペーンでのタグの使用 ](../start/search-filter-categorize.md#add-tags-to-an-object)
+* **[!UICONTROL 複製]** – このオプションを使用して、キャンペーンを複製します（例：停止されたオーケストレーションされたキャンペーンを実行する場合）。 [詳細情報](#duplicate-a-campaign)
+* **[!UICONTROL 削除]** – このオプションを使用して、キャンペーンを削除します。 [詳細情報](#delete-a-campaign)
+* **[!UICONTROL アーカイブ]** - キャンペーンをアーカイブします。すべてのアーカイブ済みキャンペーンは、最終変更日から 30 日後にローリング再スケジュールで削除されます。このアクションは、「ドラフト **[!UICONTROL キャンペーンを除くすべてのキャンペーンで使用]** きます。 詳細情報：[ キャンペーンのアーカイブ ](#archive-a-campaign)。
 
 アクションおよび API トリガーキャンペーンの場合は、以下の追加アクションを使用できます。
 
-* **[!UICONTROL パッケージに追加]** - キャンペーンを別のサンドボックスに書き出すには、パッケージに追加します。[別のサンドボックスへのオブジェクトの書き出し](../configuration/copy-objects-to-sandbox.md)
+* **[!UICONTROL パッケージに追加]** - キャンペーンを別のサンドボックスに書き出すには、パッケージに追加します。詳細情報 [ 別のサンドボックスへのオブジェクトの書き出し ](../configuration/copy-objects-to-sandbox.md)
 * **[!UICONTROL ドラフトバージョンを開く]** - キャンペーンの新しいバージョンが作成され、まだアクティブ化されていない場合は、このアクションを使用して、そのドラフトバージョンにアクセスできます。
 
 ## Campaign のライフサイクル {#statuses}
@@ -154,6 +149,11 @@ Adobe Journey Optimizerでは、各キャンペーンは、インターフェイ
 ![](assets/campaign-alerts.png)
 
 ## キャンペーンカレンダー {#calendar}
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_view"
+>title="キャンペーンリストとカレンダー表示"
+>abstract="[!DNL Journey Optimizer]では、キャンペーンリストに加えて、キャンペーンのカレンダー表示が提供され、キャンペーンのスケジュールが明確に視覚的に表現されます。これらのボタンを使用すると、リスト表示とカレンダー表示をいつでも切り替えることができます。"
 
 [!DNL Journey Optimizer] では、キャンペーンリストに加えて、キャンペーンのカレンダー表示が提供され、キャンペーンのスケジュールが明確に視覚的に表現されます。
 
@@ -244,3 +244,23 @@ Adobe Journey Optimizerでは、各キャンペーンは、インターフェイ
 ![](assets/create-campaign-archive.png)
 
 アーカイブされたキャンペーンは、リスト内の専用フィルターを使用して取得できます。
+
+
+## キャンペーンの削除 {#delete}
+
+キャンペーンを削除するには、省略記号 ![ その他のアクション ボタンを示す画像 ](assets/do-not-localize/rule-builder-icon-more.svg) ボタンを使用し、「**[!UICONTROL 削除]** を選択します。
+
+![](assets/delete-a-campaign.png){width="70%" align="left"}
+
+>[!IMPORTANT]
+>
+>このオプションは、**[!UICONTROL ドラフト]** キャンペーンでのみ使用できます。
+
+
+## キャンペーンの複製 {#duplicate}
+
+例えば、キャンペーンを停止した場合にキャンペーンを複製するには、省略記号 ![ その他のアクションボタンを示す画像 ](assets/do-not-localize/rule-builder-icon-more.svg) ボタンを使用して、「複製 **[!UICONTROL を選択し]** す。
+
+キャンペーンの名前を入力して確認します。
+
+キャンペーンが作成され、キャンペーンリストに追加されます。
