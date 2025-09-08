@@ -6,10 +6,10 @@ description: 調整されたキャンペーンの開始方法について説明�
 short-description: 調整されたキャンペーンの主な機能とユースケースをご確認ください。
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: d4765f9084efac1fd241404dff365a66027ce5af
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 92%
+source-wordcount: '654'
+ht-degree: 91%
 
 ---
 
@@ -48,6 +48,13 @@ ht-degree: 92%
 <tr style="border: 0;">
 <td><img alt="マルチステップキャンペーンのワークフロー" src="assets/do-not-localize/icon-multistep.svg" width="150px"></a></td><td><b>マルチステップキャンペーンのワークフロー</b><br/>毎日のメッセージから、季節のプロモーションや主要な製品の発売などの複雑なキャンペーンにまで及ぶマルチステップキャンペーンを設計します。</td></tr>
 </table>
+
+
+>[!NOTE]
+>
+>サポートされるチャネルは、[ メール ](../email/get-started-email.md)、[SMS/MMS/RCS](../sms/get-started-sms.md)、[ プッシュ通知 ](../push/get-started-push.md) です。
+>
+>使用できるチャネルは、ライセンスモデルとアドオンによって異なります。
 
 ## 調整されたキャンペーンとジャーニー
 

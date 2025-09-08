@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: キャンペーン, API トリガー, REST, Optimizer, メッセージ
 exl-id: 322e035c-7370-40c9-b1cb-3428bc26e874
-source-git-commit: 378ead41924496f52f22026b3f0e05a9c9c76f89
-workflow-type: ht
-source-wordcount: '421'
-ht-degree: 100%
+source-git-commit: d4765f9084efac1fd241404dff365a66027ce5af
+workflow-type: tm+mt
+source-wordcount: '417'
+ht-degree: 97%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >使用できるチャネルは、ライセンスモデルとアドオンによって異なります。
+   >サポートされるチャネルは、[ メール ](../email/get-started-email.md)、[SMS/MMS/RCS](../sms/get-started-sms.md)、[ プッシュ通知 ](../push/get-started-push.md) です。
    >
-   >API トリガーキャンペーンの場合は、メール、SMS、プッシュ通知の各チャネルのみを使用できます。
+   >使用できるチャネルは、ライセンスモデルとアドオンによって異なります。
 
 1. **チャネル設定を選択**
 

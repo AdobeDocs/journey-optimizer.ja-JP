@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 作成, Optimizer, キャンペーン, サーフェス, メッセージ
 exl-id: fed96e48-2e54-4bd4-ae17-77434d1b90eb
-source-git-commit: 17ca5d47fbf20ee25c3728d85877adaccf82aea8
+source-git-commit: d4765f9084efac1fd241404dff365a66027ce5af
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 90%
+source-wordcount: '816'
+ht-degree: 88%
 
 ---
 
@@ -21,13 +21,18 @@ ht-degree: 90%
 
 「**[!UICONTROL アクション]**」タブを使用すると、メッセージのチャネル設定を選択し、トラッキング、コンテンツ実験、多言語コンテンツなどの追加設定を指定できます。
 
+
+
 1. **チャネルを選択**
 
    「**[!UICONTROL アクション]**」タブに移動し、「**[!UICONTROL アクションを追加]**」ボタンをクリックして、通信チャネルを選択します。
 
    ![](assets/create-campaign-add-action.png)
 
+
    >[!NOTE]
+   >
+   >サポートされるチャネルは、[ メール ](../email/get-started-email.md)、[SMS/MMS/RCS](../sms/get-started-sms.md)、[ プッシュ通知 ](../push/get-started-push.md)、[WhatsApp](../whatsapp/get-started-whatsapp.md)、[LINE](../line/get-started-line.md)、[ ダイレクトメール ](../direct-mail/get-started-direct-mail.md)、[ アプリ内 ](../in-app/get-started-in-app.md)、[Web](../web/get-started-web.md)、[ コードベースのエクスペリエンス ](../code-based/get-started-code-based.md) です。
    >
    >使用できるチャネルは、ライセンスモデルとアドオンによって異なります。
 
