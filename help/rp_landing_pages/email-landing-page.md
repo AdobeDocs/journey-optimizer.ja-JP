@@ -32,7 +32,7 @@ Adobe Journey Optimizerのメールチャネルを使用すると、効果的な
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 メールの作成方法
 
@@ -42,7 +42,7 @@ Adobe Journey Optimizerのメールチャネルを使用すると、効果的な
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 メールコンテンツのデザインと最適化
 
@@ -52,7 +52,7 @@ Adobe Journey Optimizerのメールチャネルを使用すると、効果的な
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
 
 メールオプトアウトの管理
 
@@ -62,7 +62,7 @@ Adobe Journey Optimizerのメールチャネルを使用すると、効果的な
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 メールチャネルの設定
 
@@ -72,7 +72,7 @@ Adobe Journey Optimizerのメールチャネルを使用すると、効果的な
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
 
 E メール配信品質の習得
 
