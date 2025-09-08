@@ -10,10 +10,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 式, エディター
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
-source-git-commit: 58389860e5e0b07f32dd62b95a508e80579aaa73
+source-git-commit: e411778cc873a24e4846e7acbe439222dd6e4c82
 workflow-type: tm+mt
-source-wordcount: '1132'
-ht-degree: 36%
+source-wordcount: '1161'
+ht-degree: 35%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 36%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_catalogs_dataset"
 >title="データセット参照"
->abstract=In order to use attributes from Adobe Experience Platform for decisioning, you need to create a mapping to define how the Adobe Experience Platform dataset joins with data in [!DNL Journey Optimizer].”
+>abstract="Adobe Experience Platformの属性を意思決定に使用するには、マッピングを作成して、Adobe Experience Platform データセットが [!DNL Journey Optimizer] のデータにどのように結合するかを定義する必要があります。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_catalogs_dataset_create"
@@ -41,8 +41,8 @@ ht-degree: 36%
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_capping_dataset"
->title="データセットを追加」"
->abstract="データセット属性 [!DNL Adobe Experience Platform] 使用して、動的な外部属性に基づいてキャッピング条件を定義します。 「**[!UICONTROL データセットを追加]**」をクリックして、必要な属性を持つAdobe Experience Platform データセットを選択します。 データセットがリストに表示されない場合は、検索に対してデータセットが有効になっていて、データセットルックアップマッピングが作成されていることを確認します。」"
+>title="データセットを追加"
+>abstract="データセット属性 [!DNL Adobe Experience Platform] 使用して、動的な外部属性に基づいてキャッピング条件を定義します。 「**[!UICONTROL データセットを追加]**」をクリックして、必要な属性を持つAdobe Experience Platform データセットを選択します。 データセットがリストに表示されない場合は、検索に対してデータセットが有効になっていて、データセットの検索マッピングが作成されていることを確認します。"
 
 >[!AVAILABILITY]
 >
