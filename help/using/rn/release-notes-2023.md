@@ -10,7 +10,7 @@ hidefromtoc: true
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
 workflow-type: tm+mt
 source-wordcount: '4377'
 ht-degree: 100%
@@ -37,7 +37,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>サンドボックスツールを使用すると、パッケージの書き出しと読み込みを活用して、複数のサンドボックス間でオブジェクトをコピーできます。パッケージは、1 つのオブジェクトまたは複数のオブジェクトで構成できます。パッケージに含まれるオブジェクトは、同じサンドボックスからのものである必要があります。</p>
+<p>サンドボックスツールを使用すると、パッケージのエクスポートとインポートを活用して、複数のサンドボックス間でオブジェクトをコピーできます。パッケージは、1 つのオブジェクトまたは複数のオブジェクトで構成できます。パッケージに含まれるオブジェクトは、同じサンドボックスからのものである必要があります。</p>
 <!--img src="../data/assets/dataset-export-setup.png"-->
 <p>詳しくは、<a href="../building-journeys/copy-to-sandbox.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
@@ -82,7 +82,7 @@ ht-degree: 100%
 **キャンペーン**
 
 <!--* You can now stop a live one-time campaign, make modifications and resume it again. This improvement is available in Beta.-->
-* キャンペーンのいずれかでエラーが発生した場合、キャンペーンのステータスと共に、キャンペーンリストに警告アイコンが表示されるようになりました。[詳細情報](../campaigns/modify-stop-campaign.md#statuses)
+* キャンペーンのいずれかでエラーが発生した場合、キャンペーンのステータスと共に、キャンペーンリストに警告アイコンが表示されるようになりました。[詳細情報](../campaigns/manage-campaigns.md#statuses)
 
 **ジャーニー**
 
@@ -147,13 +147,13 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>データセットの書き出し先（GA）</strong><br/></th>
+<th><strong>データセットのエクスポート先（GA）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer データセットのクラウドストレージの宛先への書き出しが一般提供されるようになりました。この機能を使用すると、データセットの内容を書き出すために、クラウドストレージの場所とのライブ接続を確立できます。</p>
+<p>Journey Optimizer データセットのクラウドストレージの宛先へのエクスポートが一般提供されるようになりました。この機能を使用すると、データセットの内容をエクスポートするために、クラウドストレージの場所とのライブ接続を確立できます。</p>
 <img src="../data/assets/dataset-export-setup.png">
 <p>詳しくは、<a href="../data/export-datasets.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
@@ -225,7 +225,7 @@ ht-degree: 100%
 
 **レポート**
 
-* Journey Optimizer レポートを CSV ファイルとして書き出せるようになりました。詳しくは、[詳細なドキュメント](../reports/report-gs-cja.md)を参照してください。
+* Journey Optimizer レポートを CSV ファイルとしてエクスポートできるようになりました。詳しくは、[詳細なドキュメント](../reports/report-gs-cja.md)を参照してください。
 
 **Assets**
 
@@ -441,7 +441,7 @@ Adobe Journey Optimizer API 認証用のアクセストークンを生成する 
 
 **その他の変更**
 
-クラウドストレージの宛先への Journey Optimizer データセットの書き出しは、パブリックベータ版としてすべてのお客様が利用できるようになりました。この機能を使用すると、データセットの内容を書き出すために、クラウドストレージの場所とのライブ接続を確立できます。[詳細情報](../data/export-datasets.md)
+クラウドストレージの宛先への Journey Optimizer データセットのエクスポートは、Public Beta 版としてすべてのお客様が利用できるようになりました。この機能を使用すると、データセットの内容をエクスポートするために、クラウドストレージの場所とのライブ接続を確立できます。[詳細情報](../data/export-datasets.md)
 
 
 
@@ -633,9 +633,9 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 **キャンペーン**
 
-* 省略記号アクションメニューを使用して、インベントリ画面からキャンペーンを複製できるようになりました。[詳細情報](../campaigns/modify-stop-campaign.md#duplicate)
+* 省略記号アクションメニューを使用して、インベントリ画面からキャンペーンを複製できるようになりました。[詳細情報](../campaigns/manage-campaigns.md#duplicate)
 * ライブキャンペーンに対するドラフトの変更を削除できるようになりました。
-* キャンペーンのアクティブ化の手順を合理化しました。[詳細情報](../campaigns/modify-stop-campaign.md)
+* キャンペーンのアクティブ化の手順を合理化しました。[詳細情報](../campaigns/manage-campaigns.md)
 
 **意思決定管理**
 
@@ -723,7 +723,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 **レポート**
 
-* Journey Optimizer レポートを PDF として書き出せるようになりました。[詳細情報](../reports/report-gs-cja.md)
+* Journey Optimizer レポートを PDF としてエクスポートできるようになりました。[詳細情報](../reports/report-gs-cja.md)
 
 **コンテンツ designer**
 
@@ -852,13 +852,13 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <table>
 <thead>
 <tr>
-<th><strong>Journey Optimizer データセットのクラウドストレージへの書き出し（ベータ版）</strong><br/></th>
+<th><strong>Journey Optimizer データセットのクラウドストレージへのエクスポート（Beta）</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>データセットの内容を書き出すために、クラウドストレージの場所とのライブ接続を確立できるようになりました。使用可能な宛先は次のとおりです。Amazon S3 Cloud Storage、Azure Blob、Azure Data Lake Gen 2、Data Landing Zone、Google Cloud Storage、SFTP。</p>
+<p>データセットの内容をエクスポートするために、クラウドストレージの場所とのライブ接続を確立できるようになりました。使用可能な宛先は次のとおりです。Amazon S3 Cloud Storage、Azure Blob、Azure Data Lake Gen 2、Data Landing Zone、Google Cloud Storage、SFTP。</p>
 <p><strong>注意</strong> - この機能は現在ベータ版です。すべての Adobe Journey Optimizer ユーザーがご利用いただけます。 アクセス権がない場合は、アドビ担当者に相談して、宛先へのアクセス権を取得してください。</p>
 <img src="assets/do-not-localize/gif-destinations.gif"/>
 <p>詳しくは、 <a href="../data/export-datasets.md">詳細なドキュメント</a>を参照してください。</p>
@@ -1005,7 +1005,7 @@ Note that each widget can be resized and deleted as needed.
 
 **E メールデザイナー**
 
-* **HTML を書き出し**&#x200B;メニューからメールの内容を書き出せるようになりました。書き出されたファイルは、アーカイブ（.ZIP）ファイルで使用できます。
+* **HTML をエクスポート**&#x200B;メニューからメールの内容をエクスポートできるようになりました。エクスポートされたファイルは、アーカイブ（.ZIP）ファイルで使用できます。
 
 **管理**
 

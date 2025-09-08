@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e46680497770a87da9ec4ce7d08e48d3a6a67acb
+source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
 workflow-type: tm+mt
 source-wordcount: '2889'
 ht-degree: 99%
@@ -208,7 +208,7 @@ ht-degree: 99%
 + キャンペーン {#campaigns}
    + [キャンペーン](/help/rp_landing_pages/campaigns-landing-page.md)
    + [キャンペーンの基本を学ぶ](using/campaigns/get-started-with-campaigns.md)
-   + [キャンペーンへのアクセスと管理](using/campaigns/modify-stop-campaign.md)
+   + [キャンペーンへのアクセスと管理](using/campaigns/manage-campaigns.md)
    + アクションキャンペーン {#action-campaigns}
       + [アクションキャンペーン](/help/rp_landing_pages/action-campaigns-landing-page.md)
       + [アクションキャンペーンの操作](using/campaigns/create-campaign.md)

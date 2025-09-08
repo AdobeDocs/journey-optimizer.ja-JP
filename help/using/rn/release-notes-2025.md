@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 75c3db704853b8d2d8920ddd0086681d1fb02a93
+source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
 workflow-type: tm+mt
 source-wordcount: '5119'
 ht-degree: 100%
@@ -149,7 +149,7 @@ Journey Optimizer 製品リリースに関する&#x200B;**メールおよび製�
 
    * **キャンペーンインベントリの再編成** - スケジュールキャンペーンと API トリガーキャンペーンが、キャンペーンインベントリの別々のタブに分割され、ナビゲーションと管理が容易になりました。
 
-[詳細情報](../campaigns/modify-stop-campaign.md)
+[詳細情報](../campaigns/manage-campaigns.md)
 
 * **データ管理**
    * **意思決定管理システムデータセットのアップデート** - 削除されたパーソナライズ済みのオファーとフォールバックオファーは、「decision_object_repository_personalized_offers」データセットと「decision_object_repository_fallback_offers」データセットでアーカイブ済みとしてマークされるようになりました。データセット内の既存のレコードは変更されません。
@@ -423,7 +423,7 @@ Journey Optimizer 製品リリースに関する&#x200B;**メールおよび製�
 <p>ジャーニーとキャンペーンのリストでカレンダー表示を使用できるようになりました。これにより、すべてのジャーニーとキャンペーンのアクティベーションをそれぞれのリストで視覚化できます。</p>
 <p>この変更は現在、一連の組織のみが使用できます（限定提供）。利用申請するには、<a href="https://forms.cloud.microsoft/r/FC49afuJVi" target="_blank">このフォーム</a>を使用します。</p>
 <img src="assets/do-not-localize/calendar.gif">
-<p>詳しくは、<a href="../building-journeys/journey-ui.md">ジャーニーの参照とフィルタリング</a>、<a href="../campaigns/modify-stop-campaign.md">キャンペーンへのアクセス</a>の節を参照してください。</p>
+<p>詳しくは、<a href="../building-journeys/journey-ui.md">ジャーニーの参照とフィルタリング</a>、<a href="../campaigns/manage-campaigns.md">キャンペーンへのアクセス</a>の節を参照してください。</p>
 <p>リリース日：2025年5月28日（PT）</p>
 </td>
 </tr>
@@ -598,7 +598,7 @@ Journey Optimizer 製品リリースに関する&#x200B;**メールおよび製�
 
 * **サンドボックスコピーをサポートする新しいキャンペーンオブジェクト** – リリース日：2025年5月15日（PT）
 
-  パッケージの書き出しと読み込み機能を使用して、複数のサンドボックス間でキャンペーンをコピーすると、チャネル設定、実験のバリアントと設定、決定ポリシーと項目などの依存関係もコピーされるようになりました。[詳細情報](../configuration/copy-objects-to-sandbox.md)
+  パッケージのエクスポートとインポート機能を使用して、複数のサンドボックス間でキャンペーンをコピーすると、チャネル設定、実験のバリアントと設定、決定ポリシーと項目などの依存関係もコピーされるようになりました。[詳細情報](../configuration/copy-objects-to-sandbox.md)
 
 * **ランディングページのフォルダー** - 公開日：2025年5月9日（PT）
 
@@ -606,7 +606,7 @@ Journey Optimizer 製品リリースに関する&#x200B;**メールおよび製�
 
 * **ダイレクトメール：SFTP 接続用の SSH キーのサポート** - 公開日：2025年5月5日（PT）
 
-  ダイレクトメールファイルのルーティング設定では、パスワード認証タイプの既存の SFTP に加えて、SSH キー認証を使用してダイレクトメールファイルを SFTP サーバーに書き出すことができるようになりました。[詳細情報](../direct-mail/direct-mail-configuration.md)
+  ダイレクトメールファイルのルーティング設定では、パスワード認証タイプの既存の SFTP に加えて、SSH キー認証を使用してダイレクトメールファイルを SFTP サーバーにエクスポートできるようになりました。[詳細情報](../direct-mail/direct-mail-configuration.md)
 
 * **パーソナライゼーション用のピルのアクティベーション** - 公開日：2025年5月5日（PT）
 

@@ -8,7 +8,7 @@ feature: SMS, Channel Configuration
 level: Intermediate
 keywords: SMS, サブドメイン, 設定
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
-source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 100%
@@ -138,7 +138,7 @@ SMS サブドメインにアクセスして編集するには、実稼動サン�
 SMS サブドメインをデリゲートを解除する場合、デリゲート解除するサブドメインについて詳しくは、アドビ担当者にお問い合わせください。
 
 <!--
-1. Stop the active campaigns associated with the subdomains. [Learn how](../campaigns/modify-stop-campaign.md#stop)
+1. Stop the active campaigns associated with the subdomains. [Learn how](../campaigns/manage-campaigns.md#stop)
 
 1. Stop the active journeys associated with the subdomains. [Learn how](../building-journeys/end-journey.md#stop-journey)-->
 

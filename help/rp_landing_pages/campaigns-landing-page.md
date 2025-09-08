@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: キャンペーン
 description: キャンペーン
 redpen-status: CREATED_||_2025-08-11_20-28-03
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
+exl-id: 6fc5b0f4-95a5-431d-a80a-3a1f71b4dd0d
+source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
 workflow-type: tm+mt
 source-wordcount: '210'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
-
 
 # キャンペーン{#section-overview}
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizerのキャンペーンを使用すると、様々なチャ
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 キャンペーンの基本を学ぶ
 
@@ -30,17 +30,17 @@ Adobe Journey Optimizerのキャンペーンを使用すると、様々なチャ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 キャンペーンへのアクセスと管理
 
 キャンペーンにアクセス、管理、変更、アーカイブする方法と、キャンペーンカレンダー表示を確認します。
 
-[キャンペーンの管理方法について学ぶ](../using/campaigns/modify-stop-campaign.md)
+[キャンペーンの管理方法について学ぶ](../using/campaigns/manage-campaigns.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 アクションキャンペーン
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizerのキャンペーンを使用すると、様々なチャ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 API トリガーキャンペーン
 
@@ -60,7 +60,7 @@ API トリガーキャンペーン
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 調整されたキャンペーン
 

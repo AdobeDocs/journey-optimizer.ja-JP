@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: サブドメイン, デリゲーション, ドメイン, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 1746efa82611d232b5af07b271739417b4e36e8c
+source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
 workflow-type: tm+mt
 source-wordcount: '1906'
 ht-degree: 99%
@@ -253,7 +253,7 @@ CNAME を使用してサブドメインを設定するには、次の手順に�
 
    [ランディングページ](../landing-pages/lp-subdomains.md#undelegate-subdomain)、[SMS](../sms/sms-subdomains.md#undelegate-subdomain) または [web サブドメイン](../web/web-delegated-subdomains.md#undelegate-subdomain)ごとに専用のリクエストを作成する必要があります。
 
-1. サブドメインに関連付けられているアクティブなキャンペーンを停止します。[方法についてはこちらを参照](../campaigns/modify-stop-campaign.md#stop)
+1. サブドメインに関連付けられているアクティブなキャンペーンを停止します。[方法についてはこちらを参照](../campaigns/manage-campaigns.md#stop)
 
 1. サブドメインに関連付けられているアクティブなジャーニーを停止します。[方法についてはこちらを参照](../building-journeys/end-journey.md#stop-journey)
 
@@ -276,4 +276,4 @@ CNAME を使用してサブドメインを設定するには、次の手順に�
 
 CNAME を使用してサブドメインを作成しアドビ固有のレコードを指すようにする方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/342236?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)
