@@ -10,10 +10,10 @@ mini-toc-levels: 1
 level: Beginner
 keywords: キャンペーンの管理, ステータス, スケジュール, アクセス, Optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
+source-git-commit: 21d3fd6a182fe8ecce13b4216e03f93348955c14
 workflow-type: tm+mt
-source-wordcount: '1742'
-ht-degree: 79%
+source-wordcount: '1772'
+ht-degree: 77%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 79%
 
 * **キャンペーンへのアクセス**。 キャンペーンには、[ キャンペーンリスト ](#access) または [ キャンペーンカレンダー ](#calendar) からアクセスできます。
 
-* **キャンペーンを作成**。 作成手順は、作成する [ キャンペーンのタイプ ](get-started-with-campaigns.md#get-started-with-campaigns) によって異なります。 [ アクションキャンペーン ](../campaigns/create-campaign.md)、[API トリガーキャンペーン ](../campaigns/api-triggered-campaigns.md) または [ オーケストレーションされたキャンペーン ](../orchestrated/create-orchestrated-campaign.md) を作成する方法を説明します。
+* **キャンペーンを作成**。 作成手順は [ キャンペーンのタイプ ](get-started-with-campaigns.md#get-started-with-campaigns) によって異なります。 [ アクションキャンペーン ](../campaigns/create-campaign.md)、[API トリガーキャンペーン ](../campaigns/api-triggered-campaigns.md) または [ オーケストレーションされたキャンペーン ](../orchestrated/create-orchestrated-campaign.md) を作成する方法を説明します。
 
 * **キャンペーンプロパティを定義**。 [ アクションキャンペーン ](../campaigns/campaign-properties.md)、[API トリガーキャンペーン ](../campaigns/api-triggered-campaign-properties.md)、または [ オーケストレーションされたキャンペーン ](../orchestrated/create-orchestrated-campaign.md) のプロパティを設定する方法を説明します。
 
@@ -53,7 +53,7 @@ ht-degree: 79%
 >title="アクション"
 >abstract="この節では、調整されたキャンペーン内で使用されるすべてのアクションを示します。"
 
-キャンペーンは、**[!UICONTROL キャンペーン]**&#x200B;メニューからアクセスできます。
+キャンペーンは、**[!UICONTROL キャンペーン]** メニューからアクセスできます。 タブを使用して、タイプ（**アクション** キャンペーン、**API トリガー** キャンペーン、および **オーケストレーション** キャンペーン別にキャンペーンを参照します。 [ キャンペーンのタイプ ](get-started-with-campaigns.md#get-started-with-campaigns) について詳しくは、こちらを参照してください。 使用できるタイプは、使用許諾契約と権限によって異なります。
 
 >[!BEGINTABS]
 
