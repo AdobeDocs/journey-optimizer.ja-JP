@@ -10,9 +10,9 @@ level: Beginner
 keywords: コンテンツ, 実験, 複数, オーディエンス, 処理
 hide: true
 hidefromtoc: true
-source-git-commit: b52a0206e336185a8c630b7a6eace1fed14b1b66
+source-git-commit: e4d5631701c5c270af7aec931f6b98a567b4ed29
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1048'
 ht-degree: 6%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 6%
 
 ## 実験の監視 {#monitor-page}
 
-実験にアクセスして監視するには、「実験 **&#x200B;**」タブから実験のリストから以前に設定した実験を選択するか、詳細メニューを使用して **[!UICONTROL 詳細を表示]** または **[!UICONTROL ソースで開く]** します。
+実験にアクセスして監視するには、「実験 ****」タブから実験のリストから以前に設定した実験を選択するか、詳細メニューを使用して **[!UICONTROL 詳細を表示]** または **[!UICONTROL ソースで開く]** します。
 
 ![](assets/experiment-accelerator-1.png)
 
@@ -63,6 +63,8 @@ ht-degree: 6%
 ### 実験結果 {#experiment-outcome}
 
 ![](assets/experiment-monitor-outcome.png)
+
+**[!UICONTROL 実験結果]** では、実験における勝者のバリエーションをすばやく確認できます。
 
 ### 設定 {#set-up}
 
@@ -112,7 +114,7 @@ ht-degree: 6%
 
 * **[!UICONTROL オーディエンス]**：実験のターゲットとなる定義済みのユーザーセグメント。
 
-## 商談 {#opportunities}
+### 商談 {#opportunities}
 
 >[!AVAILABILITY]
 >
@@ -175,7 +177,6 @@ ht-degree: 6%
 >実験インサイトの機能は、テキストベースの変更を含んだ実験に限定されます。
 
 ![](assets/experiment-monitor-insights.png)
-
 
 **[!UICONTROL 実験インサイト]** は、この実験から AI によって生成された学習事項です。 これらのインサイトは、実験が統計的有意性に達すると利用可能になり、成功に貢献した内容のコンテキスト理解を提供します。 勝者の処理に存在する主要な属性を強調しており、コントロールとは異なり、結果に影響を与える可能性が高くなります。
 

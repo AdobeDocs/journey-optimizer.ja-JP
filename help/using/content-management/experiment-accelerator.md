@@ -10,10 +10,10 @@ level: Beginner
 keywords: コンテンツ, 実験, 複数, オーディエンス, 処理
 hide: true
 hidefromtoc: true
-source-git-commit: b52a0206e336185a8c630b7a6eace1fed14b1b66
+source-git-commit: e4d5631701c5c270af7aec931f6b98a567b4ed29
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 2%
+source-wordcount: '960'
+ht-degree: 3%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 2%
 >
 > Experimentation Acceleratorは現在ベータ版で、機能を段階的に展開しています。
 
-**0&rbrace;Experimentation Accelerator&rbrace; は、実験プロセスを合理化および強化するために設計された強力なツールです。** Adobe TargetやAdobe Journey Optimizerと統合することにより、実験を管理、分析および最適化するための一元的なプラットフォームを提供します。 Experimentation Acceleratorでは、AI に基づくインサイトとアダプティブテストを活用して、データに基づく意思決定を行い、マーケティング戦略を改善し、測定可能な結果を導くことができます。
+**0}Experimentation Accelerator} は、実験プロセスを合理化および強化するために設計された強力なツールです。** Adobe TargetやAdobe Journey Optimizerと統合することにより、実験を管理、分析および最適化するための一元的なプラットフォームを提供します。 Experimentation Acceleratorでは、AI に基づくインサイトとアダプティブテストを活用して、データに基づく意思決定を行い、マーケティング戦略を改善し、測定可能な結果を導くことができます。
 
 主なメリットは次のとおりです。
 
@@ -50,9 +50,9 @@ ht-degree: 2%
 
 **[!UICONTROL Experimentation Accelerator]** にアクセスするには：
 
-* 左側のメニューから、「実験 **[!UICONTROL ドロップダウンの]** 0&rbrace;Experimentation Accelerator **[!UICONTROL を選択します。]**
+* 左側のメニューから、「実験 **[!UICONTROL ドロップダウンの]** 0}Experimentation Accelerator **[!UICONTROL を選択します。]**
 
-* または、アプリ切り替えボタンで **[!UICONTROL 0&rbrace;Experimentation Accelerator&rbrace; を選択します。]**
+* または、アプリ切り替えボタンで **[!UICONTROL 0}Experimentation Accelerator} を選択します。]**
 
 Target ライセンスを持つユーザーのみが、アプリ切り替えボタンからのみアクセスできます。
 
@@ -119,7 +119,7 @@ A/B テストは、複数のバージョンの対象を比較して、定義さ�
 
   テスト対象、理由、学習内容を明確に記録します。 これにより、組織的な知識が構築され、繰り返し発生するミスが防止されます。
 
-## 一般的な指標とその意味
+## 一般的な指標
 
 | 指標 | 測定する内容 | 用途 |
 |-|-|-|
@@ -136,11 +136,11 @@ A/B テストは、複数のバージョンの対象を比較して、定義さ�
 優れた実験は、単に勝利を生み出すだけでなく、明確で実用的な学習を生み出します。
 検索対象は次のとおりです。
 
-&check; **統計的信頼性**：バリアント間の違いが偶然によるものである可能性は低いです。
-&check; **目標との整合性**：メイン指標は、ビジネス目標に対する有意義な進捗を反映しています。
-&check; **セカンダリ上の影響**：関連する指標に大きな悪影響はありません。
-&check; **スケーラビリティ**：結果は、将来の決定を知らせたり、他の領域に一般化したりできます。
-&check; **Clarity**：結果の原因は、合理的に分離され、理解されています。
+&amp;check; **統計的信頼性**：バリアント間の違いが偶然によるものである可能性は低いです。
+&amp;check; **目標との整合性**：メイン指標は、ビジネス目標に対する有意義な進捗を反映しています。
+&amp;check; **セカンダリ上の影響**：関連する指標に大きな悪影響はありません。
+&amp;check; **スケーラビリティ**：結果は、将来の決定を知らせたり、他の領域に一般化したりできます。
+&amp;check; **Clarity**：結果の原因は、合理的に分離され、理解されています。
 
 実験は、「最良の」バージョンを見つけることだけでなく、テストとイテレーションを通じて知識を構築することです。 適切に行われると、実験でインサイトが明らかになり、よりスマートな決定、より良いユーザーエクスペリエンス、より良い結果が導かれます。
 
