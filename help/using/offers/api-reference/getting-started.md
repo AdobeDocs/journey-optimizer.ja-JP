@@ -6,10 +6,10 @@ topic: Integrations
 role: Data Engineer
 level: Experienced
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 30fed481bb02fd25f1833e76ae94330aa51d153b
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 96%
+source-wordcount: '382'
+ht-degree: 89%
 
 ---
 
@@ -55,6 +55,10 @@ ht-degree: 96%
 
 * `Content-Type: application/json`
 
+>[!NOTE]
+>
+>割り当てられた製品プロファイルに従って、権限チェックが適用されます。 API を使用してアクセスまたは管理できるリソースは、関連する製品プロファイルで付与された権限によってのみ決まります。
+
 ## 次の手順 {#next-steps}
 
 このドキュメントでは、[!DNL Offer Library] API を呼び出すために必要な前提条件に関する知識を説明しました。これで、この開発者ガイドに記載されているサンプル呼び出しに進んで、その手順に従うことができます。
@@ -68,5 +72,5 @@ ht-degree: 96%
 
 The following video is intended to support your understanding of the components of Decision Management.
 
->[!VIDEO](https://video.tv.adobe.com/v/342831?quality=12&captions=jpn) -->
+>[!VIDEO](https://video.tv.adobe.com/v/329919?quality=12) -->
 
