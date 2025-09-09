@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b83bdade-7275-4eef-9c49-fc1d157cee0d
 source-git-commit: dccaaa0588b504c1c00ce25fd6bbb4f34652ec91
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '555'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -23,23 +23,23 @@ ht-degree: 66%
 
 ![](assets/content-card-image.png)
 
-「**[!UICONTROL コンテンツカードレイアウト]**」セクションで、メッセージ要件に応じて、3 つの画像レイアウトオプションのいずれかを選択します。
+「**[!UICONTROL コンテンツカードのレイアウト]**」のセクションで、メッセージ要件に応じて、3 つの画像レイアウトオプションのいずれかを選択します。
 
 * **[!UICONTROL 小さい画像]**：テキストと共にコンパクトな画像を表示します。ビジュアルよりもコンテンツを優先するメッセージに最適です。
 
-  詳しくは、Adobe Developerのドキュメント [iOSの場合 ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/smallimage-template/) および [Androidの場合 ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/smallimagecarduistate/) を参照してください。
+  [iOS ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/smallimage-template/) および [Android](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/smallimagecarduistate/) でのレイアウトについて詳しくは、Adobe 開発者用ドキュメントを参照してください。
 
-* **[!UICONTROL 大きな画像]**：テキストの上または横に目立つ画像が表示され、メッセージの主な焦点がビジュアルになります。
+* **[!UICONTROL 大きい画像]**：テキストの上部または横に目立つ画像を配置し、メッセージでビジュアルに焦点を当てます。
 
-  詳しくは、Adobe Developerのドキュメント [iOSの場合 ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/largeimage-template/) および [Androidの場合 ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/largeimagecarduistate/) を参照してください。
+  [iOS](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/largeimage-template/) および [Android](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/largeimagecarduistate/) でのレイアウトについて詳しくは、Adobe 開発者用ドキュメントを参照してください。
 
-* **[!UICONTROL 画像のみ]**：テキストを伴わない画像を表示します。視覚的なメッセージやスタンドアロン画像に最適です。
+* **[!UICONTROL 画像のみ]**：テキストを伴わない画像を表示します。ビジュアル主導のメッセージやスタンドアロン画像に最適です。
 
-  詳しくは、Adobe Developerのドキュメント [iOSの場合 ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/imageonly-template/) および [Androidの場合 ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/imageonlycarduistate/) を参照してください。
+  [iOS](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/imageonly-template/) および [Android](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/imageonlycarduistate/) でのレイアウトについて詳しくは、Adobe 開発者用ドキュメントを参照してください。
 
 ## 「コンテンツ」タブ {#content-tab}
 
-「**[!UICONTROL コンテンツ]**」タブでは、コンテンツを定義し、このタブから直接メディアとアクションボタンを追加して、コンテンツカードをカスタマイズできます。
+「**[!UICONTROL コンテンツ]**」タブから直接、コンテンツを定義してメディアやアクションボタンを追加することで、コンテンツカードをカスタマイズできます。
 
 ### テキストコンテンツ {#title-body}
 
@@ -59,7 +59,7 @@ ht-degree: 66%
 
 +++詳細フォーマットを使用したその他のオプション
 
-**[!UICONTROL 詳細フォーマットモード]** がオンになっている場合は、画面読み取りアプリケーション用の **[!UICONTROL 代替テキスト]** と別のアセットを「**[!UICONTROL ダークモードメディア URL]**」フィールドに追加できます。
+「**[!UICONTROL 詳細フォーマットモード]**」がオンになっている場合は、画面読み取りアプリケーション用の&#x200B;**[!UICONTROL 代替テキスト]**&#x200B;と別のアセットを「**[!UICONTROL ダークモードメディア URL]**」フィールドに追加できます。
 
 +++
 
@@ -94,7 +94,7 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose 
 
 ![](assets/content-card-design-1.png)
 
-**[!UICONTROL 解除ボタン]** の **[!UICONTROL スタイル]** を選択して、その外観をカスタマイズします。
+**[!UICONTROL 「閉じる」ボタン]**&#x200B;の「**[!UICONTROL スタイル]**」を選択して、表示方法をカスタマイズします。
 
 選択できるスタイルは次のとおりです。
 

@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
 source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1081'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -86,9 +86,9 @@ ht-degree: 95%
 
    ![](assets/sms_byo_4.png)
 
-1. 既存の API 資格情報から「**[!UICONTROL SMS 接続を検証]**」をクリックし、サンプルメッセージを指定されたデバイスに送信して SMS API 資格情報をテストおよび検証します。
+1. 既存の API 資格情報から「**[!UICONTROL SMS 接続を検証]**」をクリックし、指定されたデバイスにサンプルメッセージを送信して、SMS API 資格情報をテストおよび検証します。
 
-1. **番号** および **メッセージ** フィールドに入力し、**[!UICONTROL 接続を確認]** をクリックします。
+1. 「**番号**」フィールドと「**メッセージ**」フィールドに入力し、「**[!UICONTROL 接続を確認]**」をクリックします。
 
    >[!IMPORTANT]
    >

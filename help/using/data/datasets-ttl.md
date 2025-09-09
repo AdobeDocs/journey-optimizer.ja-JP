@@ -9,9 +9,9 @@ level: Experienced
 keywords: プラットフォーム, データレイク, 作成, レイク, データセット, プロファイル
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
 source-git-commit: fbd0280d293cef3548b48c2992b4f9f2793a7e1f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '689'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 89%
 | 決定オブジェクトリポジトリ - フォールバックオファー | 13 か月 | 該当なし |
 | 決定オブジェクトリポジトリ - プレースメント | 13 か月 | 該当なし |
 | 決定オブジェクトリポジトリ - アクティビティ | 13 か月 | 該当なし |
-| Experience Decisioning オブジェクトリポジトリ – パーソナライズされたオファー項目 | 13 か月 | 該当なし |
+| エクスペリエンス決定オブジェクトリポジトリ - パーソナライズされたオファー項目 | 13 か月 | 該当なし |
 | ODE DecisionEvents - 製品決定 | 13 か月 | 該当なし |
 
 ## よくある質問 {#faq}
@@ -64,7 +64,7 @@ ht-degree: 89%
 
 +++
 
-+++システム生成データセットデータが [!DNL Customer Journey Analytics] （CJA）にプッシュされると、CJAのデータも TTL の影響を受けますか？
++++システム生成データセットのデータが [!DNL Customer Journey Analytics]（CJA）にプッシュされると、CJA のデータも TTL の影響を受けますか？
 
 [!DNL Customer Journey Analytics] のデータは、Experience Platform と同期されます。したがって、システム生成データセットのデータの TTL によるデータの削除は、[!DNL Customer Journey Analytics] のデータにも影響します。
 
@@ -76,13 +76,13 @@ TTL 拡張機能は、現在サポートされていません。ただし、2025
 
 >[!NOTE]
 >
->プロファイルに保存されたデータには、合計データボリュームの使用権限が適用されます。したがって、TTL 拡張機能の結果として増加したプロファイルのデータストレージは、合計データボリュームの使用権限に対してカウントされます。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html?lang=ja){target=_blank}
+>プロファイルに保存されたデータには、合計データボリュームの使用権限が適用されます。したがって、TTL 拡張機能の結果として増加したプロファイルのデータストレージは、合計データボリュームの使用権限に対してカウントされます。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html?lang=ja){target=&quot;_blank}
 
 +++
 
-+++お客様は、データレイクのシステムデータセットデータ [!DNL Journey Optimizer]TTL を増やすことができますか？ 
++++お客様は、データレイクの [!DNL Journey Optimizer] システムデータセットデータの TTL を増やすことができますか？ 
 
-TTL 拡張機能は、現在サポートされていません。お客様は、宛先を通じてデータをエクスポートし、データを長期間保持できます。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=ja){target=_blank}。さらに、**[!DNL Data Distiller]** 使用権限を持つお客様は、派生データセットを作成して、TTL なしでデータレイクにデータを保存できます。[詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=_blank}
+TTL 拡張機能は、現在サポートされていません。お客様は、宛先を通じてデータをエクスポートし、データを長期間保持できます。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=ja){target=&quot;_blank}。さらに、**[!DNL Data Distiller]** 使用権限を持つお客様は、派生データセットを作成して、TTL なしでデータレイクにデータを保存できます。[詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=&quot;_blank}
 
 +++
 
@@ -99,14 +99,14 @@ TTL 拡張機能は、現在サポートされていません。お客様は、�
   >
   >[!DNL Customer Journey Analytics]（CJA）接続には既に TTL が実装されているので、影響を受けるデータセットデータの有効な最大ルックバック期間は 13 か月に短縮されます。
 
-* **Experience Platform データソース**：該当なし – データソース経由でのエクスペリエンスイベントの取得はサポートされていません。
+* **Experience Platform データソース**：該当なし - データソース経由でのエクスペリエンスイベントの取得はサポートされていません。
 * **計算属性**：はい - 最初のバックフィル計算は、過去 90 日間のデータに制限されます。計算属性は、以降の更新の増分イベントに基づいて更新されます。以降の更新がルックバック期間（最大 6 か月）に達するとすぐに、TTL は基本的に、計算属性に影響を与えなくなります。詳細情報。
 * **セグメント化とリターゲティング**：はい - セグメント化はプロファイルストア内のデータに依存します。したがって、影響を受けるデータセットデータのルックバックは 90 日に制限されます。
 * **トラッキング**：はい - 影響を受けるデータセットデータの有効な最大ルックバック期間は 90 日に短縮されます。影響を受けるデータセットのデータは、データレイクに 13 か月間保存されます。
 
 +++
 
-+++TTL の適用にどのタイムスタンプが使用されますか（例：バックフィルのユースケース）? 
++++TTL の適用（バックフィルのユースケースなど）に使用されるタイムスタンプは何ですか？ 
 
 イベントのタイムスタンプが使用されます（つまり、取り込み日ではありません）。
 

@@ -10,9 +10,9 @@ level: Beginner
 keywords: 作成, メール, 開始, ジャーニー, キャンペーン
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1026'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -92,7 +92,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
    >[!AVAILABILITY]
    >
-   >現時点では、メールでの決定ポリシー作成は、限定提供（LA）で利用できます。 アクセス権を取得するには、アドビ担当者にお問い合わせください。
+   >現時点では、メールでの決定ポリシー作成は限定提供で使用できます。アクセス権を取得するには、アドビ担当者にお問い合わせください。
 
 1. 「**[!UICONTROL ヘッダー]**」セクションで、「**[!UICONTROL 送信者名]**」、「**[!UICONTROL 送信元メール]**」および「**[!UICONTROL BCC]**」の各フィールドを確認します。これらは、選択したメール設定で指定されます。 [詳細情報](email-settings.md) <!--check if same for journey-->
 

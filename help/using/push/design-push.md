@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
 source-git-commit: e7567a68425c8fba5fc0f0b84b494b20d9f4df89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1491'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -127,8 +127,8 @@ iOS バージョンでは、通知カテゴリ識別子が指定されます。�
 | **[!UICONTROL 通知チャネル]**（Android のみ） | プッシュ通知に通知チャネルを関連付けます。<br/>Android 8.0（API レベル 26）以降では、表示するすべての通知をチャネルに割り当てる必要があります。詳しくは、[Android 開発者向けドキュメント](https://developer.android.com/guide/topics/ui/notifiers/notifications#ManageChannels)を参照してください。 |
 | **[!UICONTROL コンテンツ可用性フラグの追加]**（iOS のみ） | プッシュ通知を受け取ると（アプリがペイロードデータにアクセスできるようになると）すぐにアプリを起動し、コンテンツ利用可能フラグをプッシュペイロードで送信します。<br/>この機能は、アプリがバックグラウンドで実行されていて、ユーザーからの操作（プッシュ通知のタップなど）がない場合でも動作しますが、アプリが実行されていない場合は動作しません。詳しくは、[Apple 開発者向けドキュメント](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html)を参照してください。 |
 | **[!UICONTROL 可変コンテンツフラグの追加]**（iOS のみ） | プッシュペイロードに可変コンテンツフラグを送信し、iOS SDK で提供される通知サービスアプリケーション拡張機能によって、プッシュ通知の内容を変更できるようにします。詳しくは、[Apple 開発者向けドキュメント](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html)を参照してください。<br/>その後、モバイルアプリの拡張機能を利用して、[!DNL Journey Optimizer] から送信される着信プッシュ通知の内容や表示をさらに変更できます。このオプションを使用すると、データの復号化、通知の本文やタイトルテキストの変更、通知へのスレッド ID の追加などをおこなうことができます。 |
-| **[!UICONTROL プッシュの有効期限を追加]** （iOSのみ） | プッシュの有効期限の **日時** を選択します。 iOSでは、通知の有効期限はハードストップとして適用されます。つまり、有効期限が配信されなかった後にApple プッシュ通知サービス（APNS）に到達するメッセージは、お客様が古くなった通知や無関係な通知を受け取ることがないようにします。 詳しくは、[Apple 開発者向けドキュメント](https://developer.apple.com/documentation/usernotifications/sending-notification-requests-to-apns)を参照してください。 |
+| **[!UICONTROL プッシュの有効期限の追加]**（iOS のみ） | プッシュの有効期限の&#x200B;**日時**&#x200B;を選択します。iOS では、通知の有効期限はハードストップとして適用されます。つまり、有効期限後に Apple プッシュ通知サービス（APNS）に到達したメッセージは配信されず、お客様が古い通知や無関係な通知を受信することはありません。詳しくは、[Apple 開発者向けドキュメント](https://developer.apple.com/documentation/usernotifications/sending-notification-requests-to-apns)を参照してください。 |
 | **[!UICONTROL 通知の表示]**（Android のみ） | プッシュ通知の表示を定義します。<br/><b>プライベート</b>に設定すると、すべてのロック画面に通知が表示されますが、保護されたロック画面では機密情報やプライベートな情報を非表示にします。<br/><b>パブリック</b>に設定すると、すべてのロック画面に通知全体を表示します。<br/><b>シークレット</b>に設定すると、保護されたロック画面に通知を一切表示しません。<br/>詳しくは、[Android 開発者向けドキュメント](https://developer.android.com/reference/android/app/Notification)を参照してください。 |
 | **[!UICONTROL 通知の優先度]**（Android のみ） | プッシュ通知の重要度を「低」から「最高」まで定義します。プッシュ通知が配信された際の、プッシュ通知の「割り込み」の度合いを決定します。詳しくは、[Android 開発者向けドキュメント](https://developer.android.com/guide/topics/ui/notifiers/notifications#importance)を参照してください。 |
 | **[!UICONTROL 配信の優先順位]**（Android のみ） | プッシュ通知の優先度を「高」または「通常」に設定します。メッセージの優先度の詳細については、[Google 開発者向けドキュメント](https://firebase.google.com/docs/cloud-messaging/concept-options#setting-the-priority-of-a-message)を参照してください。 |
-| **[!UICONTROL 有効期間]** （Androidのみ） | メッセージが期限切れになるまでの秒数を設定します。 Androidでは、有効期限は配信ウィンドウとして扱われます。Firebase Cloud Messaging （FCM）は、メッセージの受信時に有効期限を有効期間（TTL）値に変換します。つまり、未配信のキャンペーンが期待よりも遅く、または目的の期間外に送信される可能性があります。 詳しくは、[Android 開発者向けドキュメント](https://firebase.google.com/docs/cloud-messaging/concept-options#ttl)を参照してください。 |
+| **[!UICONTROL 有効期間]**（Android のみ） | メッセージが期限切れになるまでの秒数を設定します。Android では、有効期限は配信ウィンドウとして処理されます。Firebase Cloud Messaging（FCM）は、有効期限を、メッセージの受信時から始まる有効期間（TTL）値に変換します。つまり、未配信のキャンペーンは予想より遅れて送信されるか、目的の期間外に送信される場合があります。詳しくは、[Android 開発者向けドキュメント](https://firebase.google.com/docs/cloud-messaging/concept-options#ttl)を参照してください。 |

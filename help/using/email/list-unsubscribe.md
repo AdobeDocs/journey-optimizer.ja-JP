@@ -10,9 +10,9 @@ level: Experienced
 keywords: 設定, メール, 設定
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
 source-git-commit: 56fae76fe83871875464203c01ea070ff1dbc173
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1458'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 89%
 >
 >登録解除設定を管理する方法について詳しくは、以下の[この節](#enable-list-unsubscribe)を参照してください。
 
-どちらの場合も、受信者がオプトアウトリンクをクリックすると、登録解除リクエストがそれに応じて処理されます。対応するプロファイルはすぐにオプトアウトされ、この選択は [0&rbrace;Experience Platform&rbrace; で更新されます。](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ja#getting-started){target="_blank"}
+どちらの場合も、受信者がオプトアウトリンクをクリックすると、登録解除リクエストがそれに応じて処理されます。対応するプロファイルはすぐにオプトアウトされ、この選択は [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ja#getting-started){target="_blank"} で更新されます。
 
 >[!NOTE]
 >
@@ -93,7 +93,7 @@ ht-degree: 89%
   >
   >メッセージ内の登録解除機能の管理について詳しくは、[この節](../email/email-opt-out.md#unsubscribe-header)を参照してください。
 
-[!DNL Journey Optimizer] では、同意は Experience Platform [同意スキーマ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=ja){target="_blank"}で処理されます。デフォルトでは同意フィールドの値は空で、通信内容の受信に同意したものとして扱われます。このデフォルト値は、リストに記載されている値の 1 つにオンボーディングする際に [ ここ ](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=ja#choice-values){target="_blank"} して変更したり、[ 同意ポリシー ](../action/consent.md) を使用してデフォルトロジックを上書きしたりできます。
+[!DNL Journey Optimizer] では、同意は Experience Platform [同意スキーマ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=ja){target="_blank"}で処理されます。デフォルトでは同意フィールドの値は空で、通信内容の受信に同意したものとして扱われます。このデフォルト値を[ここ](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=ja#choice-values){target="_blank"}に一覧表示されている値の 1 つにオンボーディングする際に変更したり、[同意ポリシー](../action/consent.md)を使用してデフォルトのロジックを上書きしたりできます。
 
 現在、[!DNL Journey Optimizer] は、リスト登録解除機能によってトリガーされる登録解除イベントに特定のタグを追加しません。リスト登録解除クリックを他の登録解除アクションと区別する必要がある場合は、外部でカスタムタグ付けを実装するか、トラッキング用に外部ランディングページを活用する必要があります。
 
@@ -123,13 +123,13 @@ ht-degree: 89%
 
 「**[!UICONTROL 顧客管理]**」オプションを選択した場合、カスタムエンドポイントを入力してキャンペーンやジャーニーで使用すると、受信者が登録解除リンクをクリックした際に、[!DNL Journey Optimizer] によって、同意更新イベント<!--sent to the custom endpoint -->にいくつかのデフォルトのプロファイル固有のパラメーターが追加されます。
 
-カスタム **[!UICONTROL ワンクリック購読解除 URL]** をさらにパーソナライズするには、同意イベントにも追加されるカスタム属性を定義します。
+カスタム&#x200B;**[!UICONTROL ワンクリック登録解除 URL]** をさらにパーソナライズするのに、同意イベントにも追加されるカスタム属性を定義できます。
 
-これを行うには、「**[!UICONTROL URL トラッキングパラメーター]** セクションを使用します。 対応するセクションで定義したすべての URL トラッキングパラメーターが、デフォルトのパラメーターに加えて、カスタムワンクリック購読解除 URL の末尾に追加されます。 [ カスタム URL トラッキングの設定方法を学ぶ ](url-tracking.md)
+これを行うには、「**[!UICONTROL URL トラッキングパラメーター]**」セクションを使用します。対応するセクションで定義したすべての URL トラッキングパラメーターは、デフォルトのパラメーターに加えて、カスタムワンクリック登録解除 URL の末尾に追加されます。[カスタム URL トラッキングの設定方法の詳細情報](url-tracking.md)
 
 ### 復号化 API の設定 {#configure-decrypt-api}
 
-受信者がカスタム購読解除リンクをクリックすると、同意更新イベントに追加されたパラメーターが暗号化された方法でエンドポイントに送信されます。 したがって、外部同意システムでは、Adobeから送信されるパラメーターを復号化するために [0&rbrace;Adobe Developer&rbrace; を介して特定の API を実装する必要があります。](https://developer.adobe.com){target="_blank"}
+受信者がカスタム登録解除リンクをクリックすると、同意更新イベントに追加されたパラメーターが暗号化された状態でエンドポイントに送信されます。したがって、外部の同意システムは、アドビから送信されたパラメーターを復号化することを目的に、[Adobe Developer](https://developer.adobe.com){target="_blank"} を通じて特定の API を実装する必要があります。
 
 これらのパラメーターを取得する GET 呼び出しは、使用しているリスト登録解除オプション（**[!UICONTROL ワンクリック登録解除 URL]** または&#x200B;**[!UICONTROL 宛先（登録解除）]**）によって異なります。
 

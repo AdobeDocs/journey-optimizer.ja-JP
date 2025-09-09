@@ -8,9 +8,9 @@ role: User
 level: Experienced
 exl-id: 8a8b66cb-dd96-4373-bbe0-a67e0dc0b2c0
 source-git-commit: f407c5d4c20aab50350588d89e9d7682f24f5c33
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1367'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -101,4 +101,4 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->現在、リフト測定レポートは、[ パーソナライズされた最適化 ](personalized-optimization-model.md)AI モデルでのみ使用できます。 [ 決定レポートの詳細情報 ](../../reports/campaign-global-report-cja-code.md#decisioning-reporting)
+>現在、上昇率測定レポートは、[パーソナライズされた最適化](personalized-optimization-model.md) AI モデルでのみ使用できます。[決定レポートの詳細情報](../../reports/campaign-global-report-cja-code.md#decisioning-reporting)

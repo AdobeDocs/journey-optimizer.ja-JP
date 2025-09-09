@@ -2,17 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: メールへの PDF ファイルの添付
-description: メールに静的PDF ファイルを添付する方法を学ぶ
+description: 静的 PDF ファイルをメールに添付する方法について説明します
 feature: Email Design
 topic: Content Management
 role: User
 level: Beginner
-keywords: メール，メッセージ，添付ファイル，pdf, エディター
+keywords: メール, メッセージ, 添付ファイル, PDF, エディター
 exl-id: 71e218d0-5b3b-4db5-8b7b-d08df8f088c4
 source-git-commit: 2e394ea4ba6f3a46df997d48331cbe6ea09f0eb5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '353'
-ht-degree: 41%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 41%
 >
 >この機能は、限定提供です。アクセス権を取得するには、アドビ担当者にお問い合わせください。
 
-[!DNL Journey Optimizer] を使用して送信するメールメッセージに静的PDF ファイルを添付できます。
+[!DNL Journey Optimizer] を使用して送信するメールメッセージに静的 PDF ファイルを添付できます。
 
 >[!IMPORTANT]
 >
@@ -37,11 +37,11 @@ ht-degree: 41%
 >
 >追加のサイズまたはボリュームについては、添付ファイルパックアドオンを購入できます。詳しくは、アドビ担当者にお問い合わせください。
 
-メールメッセージにPDF ファイルを添付するには、次の手順に従います。
+PDF ファイルをメールメッセージに添付するには、次の手順に従います。
 
-1. ジャーニーまたはキャンペーンにメールを作成します。 [詳細情報](create-email.md)
+1. ジャーニーまたはキャンペーンでメールを作成します。[詳細情報](create-email.md)
 
-1. ジャーニーまたはキャンペーンの「**[!UICONTROL コンテンツ]**」タブで、「**[!UICONTROL 添付ファイル]**」セクションの「**[!UICONTROL アセットを追加]**」を選択します。
+1. ジャーニーまたはキャンペーンの「**[!UICONTROL コンテンツ]**」タブで、「**[!UICONTROL 添付ファイル]**」セクションから「**[!UICONTROL アセットを追加]**」を選択します。
 
    ![](assets/email-select-pdf.png)
 
@@ -49,22 +49,22 @@ ht-degree: 41%
 
    >[!NOTE]
    >
-   >メッセージを設計する際は、Journey Optimizer インターフェイス内から直接 Assets Essentials リポジトリにアクセスします。 組み込みの [!DNL Assets Essentials] ユーザーインターフェイスについて詳しくは、[Experience Manager Assets Essentials ドキュメント ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=ja){target="_blank"} を参照してください。
+   >メッセージをデザインする際は、Journey Optimizer インターフェイス内から Assets Essentials リポジトリに直接アクセスします。組み込みの [!DNL Assets Essentials] ユーザーインターフェイスについて詳しくは、[Experience Manager Assets Essentials ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=ja){target="_blank"}を参照してください。
 
-1. 「**[!UICONTROL MIME タイプ]**」セクションの **[!UICONTROL PDF]** フィルターを使用して、正しいファイル形式に限定します。
+1. 「**[!UICONTROL MIME タイプ]**」セクションの **[!UICONTROL PDF]** フィルターを使用して、正しいファイル形式への選択を制限します。
 
    ![](assets/email-assets-pdf.png)
 
    >[!NOTE]
    >
-   >添付ファイルに使用できるのはPDF形式のみです。
+   >添付ファイルは、PDF 形式のみ許可されます。
 
 1. 任意のファイルを選択します。
 
    * 一度に選択できるファイルは 1 つだけです。
    * 各添付ファイルの最大許容ファイルサイズは 5 MB です。
 
-1. 完了すると、選択したファイルの名前とサイズが「**[!UICONTROL 添付ファイル]**」セクションに表示されます。
+1. 完了したら、選択したファイルの名前とサイズが「**[!UICONTROL 添付ファイル]**」セクションに表示されます。
 
    ファイル名の横にある「その他のアクション」アイコンを使用して、選択したファイルを削除できます。
 
@@ -72,4 +72,4 @@ ht-degree: 41%
 
 >[!NOTE]
 >
->メッセージを [ コンテンツテンプレート ](../content-management/create-content-templates.md) として保存した場合、PDFの添付ファイルはテンプレートと共に保持されません。 保存したコンテンツテンプレートから新しいメールを作成する場合は、ファイルを再添付する必要があります。
+>メッセージを[コンテンツテンプレート](../content-management/create-content-templates.md)として保存した場合、PDF 添付ファイルはテンプレートに保持されません。保存したコンテンツテンプレートから新しいメールを作成する場合は、ファイルを再添付する必要があります。

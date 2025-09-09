@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
 source-git-commit: f407c5d4c20aab50350588d89e9d7682f24f5c33
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '895'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -159,7 +159,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->現在、[ リフト測定 ](../experience-decisioning/ranking/auto-optimization-model.md#lift) レポートは、[ パーソナライズされた最適化 ](../experience-decisioning/ranking/personalized-optimization-model.md)AI モデルでのみ使用できます。 リフト測定レポートが必要な場合は、代わりにパーソナライズされた最適化モデルを使用します。
+>現在、[上昇率測定](../experience-decisioning/ranking/auto-optimization-model.md#lift)レポートは、[パーソナライズされた最適化](../experience-decisioning/ranking/personalized-optimization-model.md) AI モデルでのみ使用できます。上昇率測定レポートが必要な場合は、代わりにパーソナライズされた最適化モデルを使用します。
 
 ### ホールドアウトトラフィックとモデル駆動型トラフィックのコンバージョン率 {#conversion-rate}
 

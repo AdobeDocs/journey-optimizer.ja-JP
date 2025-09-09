@@ -10,9 +10,9 @@ level: Experienced
 keywords: アクション, サードパーティ, カスタム, ジャーニー, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
 source-git-commit: 967713938ab0e3eaaaad7a86054ed1270a9cc1ca
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1749'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->エンドポイントの応答時間が 0.75 秒を超える場合、カスタムアクション呼び出しは、デフォルトのサービスではなく、専用の低速 [ カスタムアクションサービス ](../configuration/external-systems.md#response-time) を介してルーティングされます。
+>エンドポイントの応答時間が 0.75 秒を超える場合、そのカスタムアクションの呼び出しは、デフォルトのサービスではなく、専用の低速[カスタムアクションサービス](../configuration/external-systems.md#response-time)を通じてルーティングされます。
 
 
 ## ベストプラクティス{#custom-action-enhancements-best-practices}
@@ -122,7 +122,7 @@ Journey Optimizer では、カスタムアクションにデータガバナン�
    >
    > **DELETE** メソッドはサポートされていません。既存のリソースを更新する必要がある場合は、**PUT** メソッドを選択します。
 
-1. リダイレクトの可能性（302 応答）を処理します。 **カスタムアクション** は、リクエストごとに HTTP 302 リダイレクトに自動的に従います。
+1. 潜在的なリダイレクト（302 応答）を処理します。**カスタムアクション**&#x200B;は、リクエストごとに HTTP 302 リダイレクトに自動的に従います。
 
 1. ヘッダーとクエリパラメーターを定義：
 
