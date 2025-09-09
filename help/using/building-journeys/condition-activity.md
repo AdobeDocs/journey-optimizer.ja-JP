@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '1542'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -99,7 +99,7 @@ ht-degree: 99%
 >
 >* タイムゾーンは条件に固有のものではなく、ジャーニーのプロパティでジャーニーレベルで定義されます。詳しくは、[このページ](../building-journeys/timezone-management.md)を参照してください。
 >
->* デフォルトでは、**[!UICONTROL 時間条件]** は 00:00 から 12:00 の時間単位で設定されます。
+>* デフォルトでは、**[!UICONTROL 時間条件]**&#x200B;は 00:00 から 12:00 までの時間単位で設定されます。
 
 ![](assets/journey51.png)
 

@@ -11,7 +11,7 @@ exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 source-git-commit: 8701afe345f0eeed1503e4765d4715398823b102
 workflow-type: tm+mt
 source-wordcount: '1758'
-ht-degree: 93%
+ht-degree: 99%
 
 ---
 
@@ -181,16 +181,16 @@ Adobe Journey Optimizer の主要なヘルプページには、ホームペー�
 
 ## 製品内通知 {#in-product-notifications}
 
-**製品内アラートとメールアラート** を有効にすると、システムで検出された障害、承認リクエスト、製品リリースなど、関心がある可能性のあるいくつかのイベントに関する通知 [!DNL Journey Optimizer] 受け取ることができます。
+**製品内アラートとメールアラート**&#x200B;を有効にすると、システムで検出された障害、承認リクエスト、[!DNL Journey Optimizer] 製品リリースなど、関心がある可能性のあるいくつかのイベントに関する通知を受信できます。
 
 これらの通知を有効にするには、次の手順に従います。
 
-1. [!DNL Adobe Experience Cloud] 環境設定 **[!UICONTROL に移動]** ます。
-1. **[!UICONTROL Notifications]** で、**[!UICONTROL Journey Optimizer]** を見つけます。
-1. アプリ内通知やメール通知を必要に応じて有効にする：
+1. [!DNL Adobe Experience Cloud] **[!UICONTROL 環境設定]**&#x200B;に移動します。
+1. **[!UICONTROL 通知]**&#x200B;の下にある **[!UICONTROL Journey Optimizer]** を見つけます。
+1. 必要に応じて、次のアプリ内通知やメール通知を有効にします。
 
-   * **[!UICONTROL アラート]**：エラーが発生すると、購読しているアラートのシステム通知を受け取ることができます。 [詳細情報](../reports/alerts.md)
-   * **[!UICONTROL 承認]**：誰かがオブジェクトの承認やオブジェクトへのアクセスを要求すると通知されます。
+   * **[!UICONTROL アラート]**：障害が発生した場合、登録したアラートのシステム通知を受信できます。[詳細情報](../reports/alerts.md)
+   * **[!UICONTROL 承認]**：オブジェクトや、オブジェクトへのアクセスの承認をユーザーがリクエストすると、通知されます。
    * **[!UICONTROL 新しいリリース]**：新しい [!DNL Journey Optimizer] 製品リリースに関する情報が提供されます。
 
 ![](../rn/assets/do-not-localize/pulse-notif.png){width="70%" align="left"}

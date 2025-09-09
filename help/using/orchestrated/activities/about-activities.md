@@ -8,7 +8,7 @@ version: Campaign Orchestration
 source-git-commit: 8701afe345f0eeed1503e4765d4715398823b102
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -57,7 +57,7 @@ Adobe Journey Optimizer を使用すると、複数のチャネル間でマー�
 >title="終了アクティビティ"
 >abstract="**終了**&#x200B;アクティビティを使用すると、調整されたキャンペーンの終了をグラフィカルに示すことができます。このアクティビティは、機能上の影響はないので、省略可能です。"
 
-次のアクティビティは、調整されたキャンペーンの整理と実行に固有です。主なタスクは、他のアクティビティの調整です。
+次のアクティビティは、オーケストレーションキャンペーンの整理と実行に固有です。主なタスクは、他のアクティビティの調整です。
 
 ![フロー制御アクティビティのリスト](../assets/flow-control-activities.png){width="20%" align="left"}
 

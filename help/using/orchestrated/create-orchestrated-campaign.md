@@ -8,7 +8,7 @@ version: Campaign Orchestration
 source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
 workflow-type: tm+mt
 source-wordcount: '1122'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 97%
 
    ![](assets/create-modal.png)
 
-1. キャンペーンプロパティを定義します。
+1. キャンペーンのプロパティを定義します。
 
    1. キャンペーンの&#x200B;**[!UICONTROL 名前]**&#x200B;と&#x200B;**[!UICONTROL 説明]**&#x200B;を入力します。
 
@@ -45,7 +45,7 @@ ht-degree: 97%
    1. 「**[!UICONTROL 保存]**」をクリックします。
 
 
-   キャンペーン名の横にある ![ キャンペーン設定アイコン ](assets/do-not-localize/campaign-settings.svg) ボタンを使用すると、いつでもキャンペーンのプロパティにアクセスできます。
+   キャンペーンのプロパティは、キャンペーン名の横にある ![キャンペーン設定アイコン](assets/do-not-localize/campaign-settings.svg) ボタンを使用すると、いつでもアクセスできます。
 
    ![](assets/inventory-create.png)
 

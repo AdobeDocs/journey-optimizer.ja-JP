@@ -8,7 +8,7 @@ version: Campaign Orchestration
 source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
 workflow-type: tm+mt
 source-wordcount: '868'
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
@@ -101,7 +101,7 @@ ht-degree: 92%
 
    * 1 つ以上のプライマリキー
    * バージョン識別子（`datetime` タイプまたは `number` タイプの「`lastmodified`」フィールドなど）。
-   * チェンジ・データ・キャプチャ（CDC）の取り込みの場合、`_change_request_type` タイプの `String` という特別な列。データ変更のタイプ（挿入、更新、削除など）を示し、増分処理を使用可能にします。 `_change_request_type` をテーブルスキーマの一部にすることはできません。取り込み時にのみデータファイルに追加してください。
+   * 変更データキャプチャ（CDC）取り込みの場合、タイプ `String` の `_change_request_type` という特別な列。これは、データ変更のタイプ（挿入、更新、削除など）を示し、増分処理を可能にします。`_change_request_type` をテーブルスキーマの一部にすることはできません。取り込み時にデータファイルにのみ追加する必要があります。
 
    ![](assets/schema_manual_2.png){zoomable="yes"}
 
@@ -151,7 +151,7 @@ ht-degree: 92%
 
 データセットを作成したら、調整されたキャンペーン用に明示的に有効にする必要があります。 この手順により、データセットを Adobe Journey Optimizer 内でリアルタイムのオーケストレーションとパーソナライゼーションに使用できるようになります。
 
-データセットでオーケストレーションされたAdobe Developer拡張機能を検証または有効にするには [&#128279;](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset/#tag/DatasetEnablement)Campaign のドキュメント &rbrace; を参照してください。
+データセットでオーケストレーションされたAdobe Developer拡張機能を検証または有効にするには [](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset/#tag/DatasetEnablement)Campaign のドキュメント } を参照してください。
 
 1. **[!UICONTROL データセット]**&#x200B;リストでデータセットを見つけます。
 

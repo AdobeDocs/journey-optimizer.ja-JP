@@ -11,7 +11,7 @@ exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: cf9c6370af9541dc0e1361eb42c942d1744a1aae
 workflow-type: tm+mt
 source-wordcount: '830'
-ht-degree: 93%
+ht-degree: 97%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 93%
 >[ライブ機能プレビュー](https://experienceleague.adobe.com/ja/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}では、実際に体験して、その機能を直接探索し、その機能を完全に理解できるように設計されています。
 
 
-Microsoft Azure OpenAI と Adobe Firefly を利用した Adobe Journey Optimizer の AI アシスタントは、テキストと画像に対するプロアクティブなコンテンツバリエーションの提案を提供します。この新しい機能は、**プロンプトベースのテキストと画像の生成** を提供します。 画像の生成は、Adobe Firefly で管理されます。
+Microsoft Azure OpenAI と Adobe Firefly を活用した Adobe Journey Optimizer の AI アシスタントは、テキストと画像に対するプロアクティブなコンテンツバリエーションの提案を提供します。この新しい機能を使用して、**プロンプトベースのテキストおよび画像を生成**&#x200B;できます。画像の生成は、Adobe Firefly で管理されます。
 
 AI アシスタントは、世代 **複数の言語** をサポートし、多様なグローバルオーディエンスにリーチして関与できるようにします。 AI アシスタントは次の言語で使用できます。
 
@@ -67,7 +67,7 @@ AI アシスタントは、世代 **複数の言語** をサポートし、多�
   </tbody>
 </table>
 
-Adobe Journey Optimizer の AI アシスタントを使用して、様々なメインタイトルや画像を試すことで、メッセージの影響を最適化します。複数のバリアントを生成し、それらを比較する実験を作成します。**Journey Optimizerのコンテンツ実験** を活用すると、複数のメッセージ処理を定義して、ターゲットオーディエンスに最適なパフォーマンスを発揮するメッセージを測定できます。 配信コンテンツまたは件名を変更できます。メッセージオーディエンスが各処理にランダムに割り当てられて、指定の指標に関して最も効果が高い処理が判断されます。コンテンツ実験について詳しくは、[この節](../content-management/content-experiment.md)を参照してください。
+Adobe Journey Optimizer の AI アシスタントを使用して、様々なメインタイトルや画像を試すことで、メッセージの影響を最適化します。複数のバリアントを生成し、それらを比較する実験を作成します。**Journey Optimizer のコンテンツ実験**&#x200B;を活用して、どのメッセージがターゲットオーディエンスに対して最も効果的であるかを測定するために、複数のメッセージ処理を定義できます。配信コンテンツまたは件名を変更できます。メッセージオーディエンスが各処理にランダムに割り当てられて、指定の指標に関して最も効果が高い処理が判断されます。コンテンツ実験について詳しくは、[この節](../content-management/content-experiment.md)を参照してください。
 
 >[!IMPORTANT]
 >

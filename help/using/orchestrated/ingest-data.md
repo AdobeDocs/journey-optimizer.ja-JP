@@ -8,7 +8,7 @@ version: Campaign Orchestration
 source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
 workflow-type: tm+mt
 source-wordcount: '699'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 93%
 
 Adobe Experience Platform を使用すると、データを外部ソースから取得しながら、Experience Platform サービスを使用して、受信データの構造化、ラベル付け、拡張を行うことができます。アドビのアプリケーション、クラウドベースのストレージ、データベースなど、様々なソースからデータを取り込むことができます。
 
-データセットは、スキーマ（列）とフィールド（行）で構成されるデータコレクション（通常はテーブル）を格納し管理するための構造です。Experience Platformに正常に取り込まれたデータは、データセットとしてデータレイク内に保存されます。
+データセットは、スキーマ（列）とフィールド（行）で構成されるデータコレクション（通常はテーブル）を格納し管理するための構造です。Experience Platform に正常に取り込まれたデータは、データレイク内にデータセットとして保存されます。
 
 ## 調整されたキャンペーンでサポートされるソース {#supported}
 
@@ -101,7 +101,7 @@ Adobe Journey Optimizer キャンペーンでは、すべてのオンボード�
 
    ![](assets/admin_sources_2.png)
 
-1. Adobe Experience Platformに取り込むデータを選択します。
+1. Adobe Experience Platform に取り込むデータを選択します。
 
    ![](assets/S3_config_1.png)
 
@@ -123,7 +123,7 @@ Adobe Journey Optimizer キャンペーンでは、すべてのオンボード�
 
    サポートされる最大サイズは 100 MB です。
 
-1. **[!UICONTROL マッピング]** ウィンドウで、各ソースファイル属性がターゲットスキーマの対応するフィールドに正しくマッピングされていることを確認します。 [ターゲティングディメンションの詳細情報を参照してください](target-dimension.md)。
+1. **[!UICONTROL マッピング]**&#x200B;ウィンドウで、各ソースファイル属性がターゲットスキーマの対応するフィールドに正しくマッピングされていることを確認します。[ターゲティングディメンションの詳細情報を参照してください](target-dimension.md)。
 
    完了したら、「**[!UICONTROL 次へ]**」をクリックします。
 

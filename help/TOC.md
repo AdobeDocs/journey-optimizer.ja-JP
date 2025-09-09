@@ -255,9 +255,9 @@ ht-degree: 99%
          + [最初のルールの作成](using/orchestrated/build-query.md)
          + [式の編集](using/orchestrated/edit-expressions.md)
          + [リターゲティング](using/orchestrated/retarget.md)
-      + 調整されたキャンペーンアクティビティ {#design-campaigns}
-         + [調整されたキャンペーンアクティビティ](/help/rp_landing_pages/design-campaigns-landing-page.md)
-         + [アクティビティの概要](using/orchestrated/activities/about-activities.md)
+      + 調整されたキャンペーンのアクティビティ {#design-campaigns}
+         + [調整されたキャンペーンのアクティビティ](/help/rp_landing_pages/design-campaigns-landing-page.md)
+         + [アクティビティの基本を学ぶ](using/orchestrated/activities/about-activities.md)
          + [AND 結合](using/orchestrated/activities/and-join.md)
          + [オーディエンスを作成](using/orchestrated/activities/build-audience.md)
          + [ディメンションを変更](using/orchestrated/activities/change-dimension.md)
@@ -316,7 +316,7 @@ ht-degree: 99%
             + [コンテンツを独自にコーディング](using/email/code-content.md)
             + [メールテンプレートを使用](using/email/use-email-templates.md)
             + [メールテーマの活用](using/email/apply-email-themes.md)
-            + [メールへのPDF ファイルの添付](using/email/pdf-attachments.md)
+            + [メールへの PDF ファイルの添付](using/email/pdf-attachments.md)
          + コンテンツのデザイン {#add-content}
             + [コンテンツのデザイン](/help/rp_landing_pages/add-content-landing-page.md)
             + [コンテンツコンポーネントの使用](using/email/content-components.md)

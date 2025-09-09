@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '557'
-ht-degree: 89%
+ht-degree: 92%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 89%
 
    ![](assets/journey-web-activity.png)
 
-1. また、「**[!UICONTROL アクション]**」アクティビティを選択して、複数のインバウンドアクションを選択できます。 [詳細情報](journey-action.md)
+1. また、「**[!UICONTROL アクション]**」アクティビティを選択して、複数のインバウンドアクションを選択できます。[詳細情報](journey-action.md)
 
 1. アクティビティを設定します。設定ガイドラインについて詳しくは、以下のリンクを参照してください。
 

@@ -8,14 +8,14 @@ version: Campaign Orchestration
 source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
 workflow-type: tm+mt
 source-wordcount: '745'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
 # ターゲティングディメンションの設定 {#configuration}
 
-**[!UICONTROL オーケストレートキャンペーン]** を使用すると、Adobe Experience Platformのリレーショナルスキーマ機能を活用して、ターゲットコミュニケーションを設計し、エンティティレベルで配信できます。 Experience Platform では、スキーマを使用して、一貫性のある再利用可能な方法でデータの構造を記述します。データがExperience Platformに取り込まれると、XDM スキーマに従って構造化されます。
+**[!UICONTROL オーケストレーションキャンペーン]**&#x200B;を使用すると、Adobe Experience Platform のリレーショナルスキーマ機能を活用して、エンティティレベルでターゲットコミュニケーションを設計および配信できます。Experience Platform では、スキーマを使用して、一貫性のある再利用可能な方法でデータの構造を記述します。データが Experience Platform に取り込まれると、XDM スキーマに応じて構造化されます。
 
 **[!UICONTROL 調整されたキャンペーン]**&#x200B;のセグメント化は主にリレーショナルスキーマで動作しますが、実際のメッセージ配信は常に&#x200B;**プロファイル**&#x200B;レベルで行われます。
 
@@ -31,7 +31,7 @@ ht-degree: 93%
 
 * **プロファイルのリンケージ**
 
-  システムは、ターゲットスキーマが `Profile` スキーマにどのようにマッピングされるかを理解する必要があります。 これは、ターゲットスキーマと `Profile` スキーマの両方に存在し、ID 名前空間として設定される共有 ID フィールドを通じて実現されます。
+  システムは、ターゲットスキーマが `Profile` にどのようにマッピングされるかを理解する必要があります。これは、ターゲットスキーマと `Profile` スキーマの両方に存在し、ID 名前空間として設定される共有 ID フィールドを通じて実現されます。
 
 ## ターゲティングディメンションの作成 {#targeting-dimension}
 
