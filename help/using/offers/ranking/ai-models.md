@@ -8,10 +8,10 @@ feature: Ranking, Decision Management
 role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
-source-git-commit: c79b860d4220b3125bbee2240e047552a04fe118
+source-git-commit: 58a5737a1eb56ab88aa71ba0a740dd51258e5248
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 100%
+source-wordcount: '396'
+ht-degree: 95%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 100%
 >[!IMPORTANT]
 >
 >現在、Journey Optimizer が作成したチャネルでは、AI モデルはサポートされていません。
+
+➡️ [この機能について詳しくは、ビデオを参照してください](#video)。
 
 ## AI モデルタイプ {#ai-model-types}
 
@@ -56,3 +58,9 @@ AI モデルを作成して使用する主な手順は次のとおりです。
    >AI モデルを収集するには、フィードバックイベントをエクスペリエンスイベントとして送信する必要があります。[意思決定管理データ収集についての詳細情報](../data-collection/data-collection.md)
 
 1. 実施要件を満たすオファーをランク付けする決定内のプレースメントに AI モデルを割り当てます。[詳細情報](../offer-activities/configure-offer-selection.md)
+
+## チュートリアルビデオ {#video}
+
+Offer Decisioningの AI モデルを作成する方法と、モデルを意思決定に適用する方法について説明します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3419959?quality=12)
