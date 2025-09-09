@@ -10,10 +10,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 式, エディター
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: 42f231a9b0b34a63d1601dcae653462f6321caed
+source-git-commit: 6d603641a3565b1f1465fa881383f4d48611c786
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 86%
+source-wordcount: '673'
+ht-degree: 83%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 86%
 >[!AVAILABILITY]
 >
 >この機能は、現在、限定提供リリースとしてすべてのお客様が利用できます。
+>
+>現時点では、限られた顧客セットに対して、式フラグメント内で「datasetLookup」ヘルパー関数を使用できます。 アクセスするには、アドビ担当者にお問い合わせください。
 
 Journey Optimizerを使用すると、パーソナライゼーションエディターでAdobe Experience Platform レコードデータセットのデータを活用して [ コンテンツをパーソナライズ ](../personalization/personalize.md) できます。 開始する前に、参照のパーソナライゼーションに必要なデータセットを最初に参照に対して有効にする必要があります。 詳しくは、「Adobe Experience Platform データの使用 [ を参照してくだ ](../data/lookup-aep-data.md) い。
 
