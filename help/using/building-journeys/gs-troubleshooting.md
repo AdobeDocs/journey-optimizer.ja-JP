@@ -7,10 +7,12 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
+hide: true
+hidefromtoc: true
 keywords: トラブルシューティング, トラブルシューティング, ジャーニー, チェック, エラー
 exl-id: d255e9e4-301a-444a-86d3-97e0df4d3a49
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 96b8813ebad35f51986cc62d847d9d3d256b08be
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 100%
@@ -57,9 +59,9 @@ ht-degree: 100%
 <tr style="border: 0;">
   <td>
     <div>
-    <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=ja">
+    <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884">
     <img alt="一般的なエラーコードについて" src="../assets/do-not-localize/icon-quick-start.svg" /></a> 
-    <br>さらに、<strong>一般的なエラーコード</strong>とその効果的な解決方法を詳しく説明した<a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=ja" target="_blank">こちらのアドビコミュニティのブログ投稿</a>も参照してください。
+    <br>さらに、<strong>一般的なエラーコード</strong>とその効果的な解決方法を詳しく説明した<a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884" target="_blank">こちらのアドビコミュニティのブログ投稿</a>も参照してください。
     </div>
   </td>
 </tr>

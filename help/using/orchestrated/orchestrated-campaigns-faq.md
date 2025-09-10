@@ -7,7 +7,7 @@ hide: true
 hidefromtoc: true
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 9d1e9f22c7841f9d17e857f652d94dbd6a068c06
+source-git-commit: 96b8813ebad35f51986cc62d847d9d3d256b08be
 workflow-type: tm+mt
 source-wordcount: '1102'
 ht-degree: 23%
@@ -156,6 +156,7 @@ Campaign Orchestration では、アドホックセグメント化を「ライブ
 * アクティブ化の前にオーディエンス数を検証して、過少送信または過剰送信を防ぎます。
 
 >[!ENDSHADEBOX]
+
 
 
 ## 決定はサポートされていますか？ {#decisioning}

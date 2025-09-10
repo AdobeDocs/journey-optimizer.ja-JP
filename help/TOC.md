@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 158d9d9a1070e1d842183e5bd6cb5ce8e38834c5
+source-git-commit: 31d9fbe6a25bb090e6a0c6e22096739d32b7bd3f
 workflow-type: tm+mt
-source-wordcount: '2920'
+source-wordcount: '2923'
 ht-degree: 99%
 
 ---
@@ -201,6 +201,7 @@ ht-degree: 99%
       + [カスタムアクションを使用した Experience Platform のジャーニーイベントの書き込み](using/building-journeys/custom-action-aep.md)
    + トラブルシューティング {#troubleshoot-journey}
       + [トラブルシューティング](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
+      + [ジャーニーのトラブルシューティング](using/building-journeys/gs-troubleshooting.md)
       + [ジャーニーエラーのトラブルシューティング](using/building-journeys/troubleshooting.md)
       + [ジャーニー実行のトラブルシューティング](using/building-journeys/troubleshooting-execution.md)
       + [インバウンドアクションのトラブルシューティング](using/building-journeys/troubleshooting-inbound.md)
