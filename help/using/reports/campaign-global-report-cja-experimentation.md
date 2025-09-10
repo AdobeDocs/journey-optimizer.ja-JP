@@ -1,22 +1,21 @@
 ---
-source-git-commit: 158d9d9a1070e1d842183e5bd6cb5ce8e38834c5
+solution: Journey Optimizer
+product: journey optimizer
+title: キャンペーンレポート
+description: キャンペーンレポートから実験データを使用する方法について説明します
+feature: Reporting
+topic: Content Management
+role: User
+level: Intermediate
+exl-id: 69742163-7378-49ab-929e-86213d6e65e3
+source-git-commit: 08d444f499229f0942e4dae17d87030225f34d5f
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 57%
+source-wordcount: '336'
+ht-degree: 64%
 
 ---
-@ -0,0 +1,71 @@
----
-解決策：Journey Optimizer
-製品：journey optimizer
-タイトル：キャンペーンレポート
-説明：キャンペーンレポートから実験データを使用する方法を説明します
-機能：レポート
-トピック：コンテンツ管理
-役割：ユーザー
-レベル：中級
-exl-id: 69742163-7378-49ab-929e-86213d6e65e3
----
+
+
 # 実験キャンペーンレポート {#campaign-global-report-cja-experimentation}
 
 >[!CONTEXTUALHELP]
