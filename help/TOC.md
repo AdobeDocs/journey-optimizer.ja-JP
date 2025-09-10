@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b4ed25390e9f499a12649713eb963799de55caa5
+source-git-commit: 158d9d9a1070e1d842183e5bd6cb5ce8e38834c5
 workflow-type: tm+mt
-source-wordcount: '2917'
+source-wordcount: '2920'
 ht-degree: 99%
 
 ---
@@ -610,6 +610,7 @@ ht-degree: 99%
          + [コンテンツカードジャーニーレポート](using/reports/journey-global-report-cja-content.md)
          + [ダイレクトメールジャーニーレポート](using/reports/journey-global-report-cja-direct.md)
          + [メールジャーニーレポート](using/reports/journey-global-report-cja-email.md)
+         + [実験ジャーニーレポート](using/reports/journey-global-report-cja-experimentation.md)
          + [アプリ内ジャーニーレポート](using/reports/journey-global-report-cja-inapp.md)
          + [プッシュジャーニーレポート](using/reports/journey-global-report-cja-push.md)
          + [SMS ジャーニーレポート](using/reports/journey-global-report-cja-sms.md)

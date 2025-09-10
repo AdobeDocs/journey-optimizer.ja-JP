@@ -1,42 +1,41 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
+title: キャンペーンレポート
+description: ジャーニーレポートから実験データを使用する方法を説明します
+feature: Reporting
+topic: Content Management
+role: User
+level: Intermediate
 source-git-commit: 158d9d9a1070e1d842183e5bd6cb5ce8e38834c5
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 57%
+source-wordcount: '386'
+ht-degree: 37%
 
 ---
-@ -0,0 +1,71 @@
----
-解決策：Journey Optimizer
-製品：journey optimizer
-タイトル：キャンペーンレポート
-説明：キャンペーンレポートから実験データを使用する方法を説明します
-機能：レポート
-トピック：コンテンツ管理
-役割：ユーザー
-レベル：中級
-exl-id: 69742163-7378-49ab-929e-86213d6e65e3
----
-# 実験キャンペーンレポート {#campaign-global-report-cja-experimentation}
 
->[!CONTEXTUALHELP]
->id="ajo_campaigns_content_experiment_click"
->title="成功指標"
->abstract="実験の作成時に以前に選択した成功指標の合計値を、プロファイル数で割った値です。"
+# 実験ジャーニーレポート {#campaign-global-report-cja-experimentation}
 
-## 実験 {#experimentation}
+ジャーニーレポートを使用すると、実験のパフォーマンスの全体像と、その影響を理解するために必要な主要指標を確認できます。
 
-「**[!UICONTROL 実験]**」タブには、各バリアントのパフォーマンスに関する主要なインサイトが表示され、最も成功したものを特定します。
+Journey Optimizerのジャーニー実験は、次の 2 つのタイプに分けられます。
 
-最もパフォーマンスの高い処理の判定には時間がかかる場合があります。実験が成功しなかった場合は、**決定的でない**&#x200B;に設定されます。
+* [コンテンツ実験](../content-management/content-experiment.md)
+* [パス実験](../building-journeys/optimize.md)
 
-![](assets/cja-experimentation-1.png)
+## パス実験 {#experimentation}
+
+>[!NOTE]
+>
+> コンテンツ実験に関して詳細に示されたテーブルと KPI は、パス実験の場合と同じです。 コンテンツ実験を設定している場合は、以下のドキュメントを参照してください。
 
 ### 実験 KPI {#experimentation-kpis}
 
-![](assets/cja-experimentation-kpis.png)
+![](assets/journey-report-experiment-1.png)
 
-**[!UICONTROL 実験]**&#x200B;の主要業績評価指標（KPI）は包括的なダッシュボードとして機能し、実験に関連する重要な指標の分析を提供します。
+**実験の概要** は、実験のパフォーマンスに関する重要なインサイトを提供し、最も成功したものを特定します。 最もパフォーマンスの高い処理の判定には時間がかかる場合があります。実験が成功しなかった場合は、**決定的でない**&#x200B;に設定されます。
+
+**実験の主要業績評価指標（KPI）** は、包括的なダッシュボードとして機能し、実験に関連する重要な指標の分析を提供します。
 
 +++ 詳しくは、実験 KPI 指標を参照してください
 
@@ -46,7 +45,9 @@ exl-id: 69742163-7378-49ab-929e-86213d6e65e3
 
 +++
 
-### 成功別バリアント指標 {#variant-inbound}
+
+
+### 成功指標ごとのバリアント {#variant-inbound}
 
 ![](assets/cja-experimentation-variants.png)
 
@@ -74,6 +75,5 @@ exl-id: 69742163-7378-49ab-929e-86213d6e65e3
 ### 成功指標のコンバージョン率 {#conversion-rate}
 
 ![](assets/cja-experimentation-conversion.png)
-
 
 **[!UICONTROL 信頼区間]** グラフは、選択可能な改善範囲を示し、ベースラインを、選択した成功指標に対して最もパフォーマンスの高い処理と比較します。 [詳細情報](../content-management/experiment-calculations.md#confidence-intervals)

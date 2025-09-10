@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 30d4f967-e085-44f1-973d-11e79f693e6e
-source-git-commit: 1af75a0e6bfc2c3b9c565c3190f46d137a68d32e
+source-git-commit: 158d9d9a1070e1d842183e5bd6cb5ce8e38834c5
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 100%
+source-wordcount: '971'
+ht-degree: 94%
 
 ---
 
@@ -145,5 +145,23 @@ Customer Journey Analytics ワークスペースと、データのフィルタ�
 +++ 詳しくは、ジャーニーの統計指標を参照してください。
 
 * **[!UICONTROL 人物]**：イベントのターゲットプロファイルに適格な、ユーザープロファイルの数。
+
++++
+
+## ターゲティングの概要 {#targeting}
+
+![](assets/cja-journey-targeting-overview.png)
+
+コンテンツに対して **[!UICONTROL ターゲティングルール]** を設定した場合、**[!UICONTROL ターゲティングの概要]** 表には、主要なエンゲージメント指標の詳細ビューが表示され、各ルールのターゲットプロファイルがコンテンツとどのように相互作用したかが示されます。
+
+➡️[ ターゲティングルールの詳細情報 ](../campaigns/campaigns-message-optimization.md)
+
++++ ターゲティングの概要指標の詳細を学ぶ
+
+* **[!UICONTROL 人物]**：イベントのターゲットプロファイルに適格な、ユーザープロファイルの数。
+
+* **[!UICONTROL ユニーククリック数]**：メールでコンテンツをクリックしたプロファイルの数。
+
+* **[!UICONTROL ユニーククリック率]**：少なくとも 1 回クリックしたターゲットプロファイルの割合。
 
 +++

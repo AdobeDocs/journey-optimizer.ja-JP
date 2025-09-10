@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b74d3137-2dd9-4302-a56e-73503d318d18
-source-git-commit: 3a44111345c1627610a6b026d7b19b281c4538d3
+source-git-commit: 158d9d9a1070e1d842183e5bd6cb5ce8e38834c5
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 100%
+source-wordcount: '603'
+ht-degree: 90%
 
 ---
 
@@ -104,5 +104,23 @@ KPI は、キャンペーンで使用されるチャネルによって異なり�
 * **[!UICONTROL ユニーククリック数]**：メッセージのコンテンツをクリックしたプロファイルの数。
 
 * **[!UICONTROL クリック数]**：メッセージのコンテンツがクリックされた回数。
+
++++
+
+## ターゲティングの概要 {#targeting}
+
+![](assets/cja-journey-targeting-overview.png)
+
+コンテンツに対して **[!UICONTROL ターゲティングルール]** を設定した場合、**[!UICONTROL ターゲティングの概要]** 表には、主要なエンゲージメント指標の詳細ビューが表示され、各ルールのターゲットプロファイルがコンテンツとどのように相互作用したかが示されます。
+
+➡️[ ターゲティングルールの詳細情報 ](../campaigns/campaigns-message-optimization.md)
+
++++ ターゲティングの概要指標の詳細を学ぶ
+
+* **[!UICONTROL 人物]**：イベントのターゲットプロファイルに適格な、ユーザープロファイルの数。
+
+* **[!UICONTROL ユニーククリック数]**：メールでコンテンツをクリックしたプロファイルの数。
+
+* **[!UICONTROL ユニーククリック率]**：少なくとも 1 回クリックしたターゲットプロファイルの割合。
 
 +++
