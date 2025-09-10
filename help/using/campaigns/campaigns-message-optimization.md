@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 keywords: キャンペーンの最適化, 実験, ターゲティング, A/B テスト
 exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
-source-git-commit: a770cbc1736e7add7e25f2cc8210d81bd8b2e375
-workflow-type: ht
-source-wordcount: '1045'
-ht-degree: 100%
+source-git-commit: 1c47c89ae86844399240d48c4d19f834d90c7598
+workflow-type: tm+mt
+source-wordcount: '1088'
+ht-degree: 95%
 
 ---
 
@@ -36,6 +36,11 @@ ht-degree: 100%
 ➡️ [キャンペーンでの最適化について詳しくは、このビデオをご覧ください](#video)
 
 ## ターゲティングを活用 {#targeting}
+
+>[!CONTEXTUALHELP]
+>id="ajo_content_targeting_fallback"
+>title="フォールバックコンテンツとは"
+>abstract="フォールバックコンテンツを使用すると、ターゲティングルールが選定されていない場合、オーディエンスはデフォルトコンテンツを受け取ることができます。</br> このオプションを選択しない場合、上記で定義されたターゲティングルールに該当しないオーディエンスにはコンテンツが届きません。"
 
 ターゲティングでは、ユーザープロファイル属性またはコンテキスト属性に基づいて、特定のオーディエンスセグメントにパーソナライズされたコンテンツを配信します。
 
@@ -67,7 +72,7 @@ ht-degree: 100%
 
    ![](assets/msg-optimization-create-targeting.png){width=85%}
 
-1. 必要に応じて、「**[!UICONTROL フォールバックコンテンツを有効にする]**」を選択します。フォールバックコンテンツを使用すると、ターゲティングルールが選定されていない場合に、オーディエンスはデフォルトコンテンツを受信できます。
+1. 必要に応じて「**[!UICONTROL フォールバックコンテンツを有効にする]**」オプションを選択します。 フォールバックコンテンツを使用すると、ターゲティングルールが選定されていない場合に、オーディエンスはデフォルトコンテンツを受信できます。
 
    >[!NOTE]
    >
@@ -181,4 +186,4 @@ E.g. explaining how a marketer can look at the report to determine which treatme
 
 アクションまたは API トリガーキャンペーンでメッセージの最適化を活用する方法について説明します。 サブオーディエンスをターゲットにする方法、場所ごとにメッセージのバリエーションを作成する方法、フォールバックコンテンツを有効にする方法、単一のキャンペーン内で複数の実験を実行する方法について説明します。また、このチュートリアルでは、メッセージの一貫性を維持しながらマルチチャネルキャンペーンを管理する方法についても説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3470369?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)

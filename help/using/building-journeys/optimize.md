@@ -11,10 +11,10 @@ keywords: アクティビティ, 条件, キャンバス, ジャーニー, 最�
 badge: label="限定提供" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: cd688d0c140404a846df09a53f37be8d0fe5633e
+source-git-commit: 1c47c89ae86844399240d48c4d19f834d90c7598
 workflow-type: tm+mt
-source-wordcount: '1220'
-ht-degree: 43%
+source-wordcount: '1297'
+ht-degree: 37%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 43%
 ## 実験を使用 {#experimentation}
 
 >[!CONTEXTUALHELP]
->id="ajo_campaigns_path_experiment_success_metric"
+>id="ajo_path_experiment_success_metric"
 >title="成功指標"
 >abstract="成功指標は、実験における最もパフォーマンスの高い処理の追跡と評価に使用されます。"
 
@@ -70,7 +70,7 @@ ht-degree: 43%
 
 1. **[!UICONTROL メソッド]**&#x200B;ドロップダウンリストから「**[!UICONTROL 実験]**」を選択します。
 
-   ![](assets/journey-optimize-experiment.png){width=75%}
+   ![](assets/journey-optimize-experiment.png){width=65%}
 
 1. **[!UICONTROL 実験を作成]** をクリックします。
 
@@ -137,15 +137,17 @@ ht-degree: 43%
 
 ➡️ コンバージョン率を最適化指標として使用します（例：購入、サインアップ）。
 
-![](assets/journey-optimize-experiment-uc.png)
+![](assets/journey-optimize-experiment-uc-channel.png)
 
 +++
 
 +++メッセージ頻度
 
-➡️ 実験を実行して、1 週間に 1 件のメールと 3 件のメールを送信した結果、購入が増えたかどうかを確認します。
+実験を実行して、1 週間に 1 通のメールを送信した場合と 3 通のメールを送信した場合のどちらで購入が増えるかを確認します。
 
-購入数または登録解除率を最適化指標として使用します。
+➡️ 最適化指標として購入または購読解除率を使用します。
+
+![](assets/journey-optimize-experiment-uc-frequency.png)
 
 +++
 
@@ -155,9 +157,16 @@ ht-degree: 43%
 
 ➡️ クリックスルー率または売上高を最適化指標として使用します。
 
+![](assets/journey-optimize-experiment-uc-wait.png)
+
 +++
 
 ## ターゲティングを活用 {#targeting}
+
+>[!CONTEXTUALHELP]
+>id="ajo_path_targeting_fallback"
+>title="フォールバックパスとは"
+>abstract="フォールバックは、上記で定義されたどのターゲティングルールも満たさない新しいパスをオーディエンスに作成します。</br> このオプションを選択しない場合、ターゲティングルールに適合しないオーディエンスはフォールバックパスに入りません。"
 
 ターゲティングルールを使用すると、特定のオーディエンスセグメント <!-- depending on profile attributes or contextual attributes--> に基づいて、ジャーニーパスの 1 つにエントリする資格を顧客が得るために満たす必要がある特定のルールまたは資格を決定できます。
 
@@ -179,7 +188,7 @@ ht-degree: 43%
 
 1. **[!UICONTROL メソッド]** ドロップダウンリストから「**[!UICONTROL ターゲティングルール]**」を選択します。
 
-   ![](assets/journey-optimize-targeting.png){width=70%}
+   ![](assets/journey-optimize-targeting.png){width=60%}
 
 1. 「**[!UICONTROL ターゲティングルールを作成]**」をクリックします。
 
@@ -187,7 +196,11 @@ ht-degree: 43%
 
    ![](assets/journey-targeting-rule.png)
 
-1. 必要に応じて、「**[!UICONTROL フォールバックコンテンツを有効にする]**」を選択します。フォールバックコンテンツを使用すると、ターゲティングルールが選定されていない場合に、オーディエンスはデフォルトコンテンツを受信できます。このオプションを選択しない場合、上記で定義したターゲティングルールに選定されていないオーディエンスはフォールバックパスにエントリしません。
+1. 必要に応じて「**[!UICONTROL フォールバックコンテンツを有効にする]**」オプションを選択します。 このアクションにより、上記で定義したどのターゲティングルールも満たさないオーディエンスのフォールバックパスが作成されます。
+
+   >[!NOTE]
+   >
+   >このオプションを選択しない場合、ターゲティングルールに適合しないオーディエンスはフォールバックパスに入りません。
 
 1. **[!UICONTROL 作成]** をクリックして、ターゲティングルールの設定を保存します。
 
@@ -195,7 +208,11 @@ ht-degree: 43%
 
    ![](assets/journey-targeting-paths.png)
 
-1. オプションで、「**[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**」を使用して、代替アクションを定義します。 [詳細情報](using-the-journey-designer.md#paths)
+1. ルール設定を定義する際に **[!UICONTROL フォールバックコンテンツを有効にする]** オプションを選択した場合は、自動的に追加されたフォールバックパスに 1 つ以上のアクションを定義します。
+
+   ![](assets/journey-targeting-fallback.png){width=70%}
+
+1. オプションで、「**[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**」を使用して、問題が発生した場合に代替アクションを定義します。 [詳細情報](using-the-journey-designer.md#paths)
 
 1. ターゲティングルールの設定で定義した各グループに対応する各アクションに対して、適切なコンテンツを設計します。 アクションごとに異なるコンテンツ間をシームレスに移動できます。
 
@@ -219,7 +236,7 @@ ht-degree: 43%
 
 ➡️ プロファイルあたりの売上高またはコンバージョン率を最適化指標として使用します。
 
-![](assets/journey-optimize-targeting-uc.png)
+![](assets/journey-optimize-targeting-uc-segment.png)
 
 +++
 
@@ -229,6 +246,8 @@ ht-degree: 43%
 
 ➡️ クリックスルー率またはダウンストリームコンバージョンを最適化指標として使用します。
 
+![](assets/journey-optimize-targeting-uc-behavior.png)
+
 +++
 
 +++購入履歴のターゲティング
@@ -236,6 +255,8 @@ ht-degree: 43%
 最近購入した顧客は短い「お礼 + クロスセル」パスに進むことができますが、購入履歴のない顧客はより長い育成ジャーニーにエントリします。
 
 ➡️ 最適化指標として、リピート購入率またはエンゲージメント率を使用します。
+
+![](assets/journey-optimize-targeting-uc-purchase.png)
 
 +++
 
