@@ -1,16 +1,16 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: キャンペーンレポート
+title: ジャーニー実験レポート
 description: ジャーニーレポートから実験データを使用する方法を説明します
 feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 158d9d9a1070e1d842183e5bd6cb5ce8e38834c5
+source-git-commit: b63dea783a2f85d17aacc12c23a9f63d880aeeee
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 37%
+source-wordcount: '387'
+ht-degree: 36%
 
 ---
 
