@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 598be5d2c5aca0262063c61e80e6b36020983131
+source-git-commit: d5d6903966b0c62095bfb5a17d94c4c3f4b18379
 workflow-type: tm+mt
-source-wordcount: '2920'
+source-wordcount: '2926'
 ht-degree: 99%
 
 ---
@@ -41,14 +41,14 @@ ht-degree: 99%
       + [データエンジニア向けの基本を学ぶ](using/start/path/data-engineer.md)
       + [管理者向けの基本を学ぶ](using/start/path/administrator.md)
       + [開発者向けの基本を学ぶ](using/start/path/developer.md)
-   + [ユーザーインターフェイス](using/start/user-interface.md)
-   + [検索、フィルター、分類](using/start/search-filter-categorize.md)
-   + [アクセシビリティ](using/start/accessibility.md)
+   + ユーザーインターフェイス {#ui}
+      + [インターフェイスの基本を学ぶ](using/start/user-interface.md)
+      + [検索、フィルター、分類](using/start/search-filter-categorize.md)
+      + [アクセシビリティ](using/start/accessibility.md)
    + [AI アシスタントの操作](using/start/ai-assistant.md)
-   + [ガードレール](using/start/guardrails.md)
-   + [ベストプラクティス](using/start/best-practices.md)
+   + [ユースケースプレイブック](using/start/playbooks.md)
+   + [ガードレールと制限](using/start/guardrails.md)
    + [トラブルシューティング](using/start/troubleshooting.md)
-   + [プレイブック](using/start/playbooks.md)
 + ジャーニー {#orchestrate-journeys}
    + [ジャーニー](/help/rp_landing_pages/orchestrate-journeys-landing-page.md)
    + [ジャーニーの基本を学ぶ](using/building-journeys/journey.md)
