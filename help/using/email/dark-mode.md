@@ -12,10 +12,10 @@ keywords: ダークモード, メール, カラー, エディター
 hide: true
 hidefromtoc: true
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
-source-git-commit: 0501691c29d82dd1b8c94e0366e66cf5534cd1d2
+source-git-commit: 623f882f5d63a2ea4edc2ec8ef30a65364ed2207
 workflow-type: tm+mt
-source-wordcount: '1481'
-ht-degree: 73%
+source-wordcount: '1524'
+ht-degree: 70%
 
 ---
 
@@ -115,7 +115,9 @@ E メールDesignerでダークモードのカスタム設定を定義してい�
 >
 >メールDesignerを使用してダークモードのカスタム設定を定義する方法については、[ この節 ](#define-custom-dark-mode) を参照してください。
 
-ただし、いくつかの制限が適用される場合があります。 例えば、Apple Mail 16 （macOs 13）などの一部のメールクライアントでは、メールのコンテンツに画像が存在してもダークモードが生成されません。
+ただし、電子メールクライアントごとに適用される制限もあります。 例えば、Apple Mail 16 （macOs 13）などの一部のクライアントでは、メールのコンテンツに画像が存在してもダークモードが生成されません。
+
+最適な結果を得るには、ターゲット設定しているメールクライアントでコンテンツをテストします。 各クライアントの最終結果にできるだけ近いシミュレーションを確認するには、メールDesignerの「[ メールのレンダリング ](../content-management/rendering.md)」オプションを使用します。
 
 ## E メールデザイナーでのダークモード {#dark-mode-email-designer}
 
