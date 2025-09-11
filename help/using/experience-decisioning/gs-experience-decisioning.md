@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 41563414b2118ae1fcde65874c56f38daf4fa9ab
+source-git-commit: e6193d6204f722df7e6c02aaed80abc53b523755
 workflow-type: tm+mt
 source-wordcount: '521'
-ht-degree: 98%
+ht-degree: 95%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 98%
 
 1. ターゲットオーディエンスに表示する&#x200B;**決定項目を作成**&#x200B;します。
 
-   ➡️ ユーザーインターフェイス（および[ API ドキュメント](api-reference/decisions-items/create.md)）[での決定項目の作成方法の詳細情報](items.md)
+   ➡️ [ 決定項目の作成方法については ](items.md) ユーザーインターフェイス（および [API ドキュメント ](api-reference/decisions-items/create.md)）を参照してください
 
 1. **コレクションで整理**：コレクションを使用し、属性ベースのルールに基づいて決定項目を分類します。コレクションを選択戦略に組み込んで、考慮する必要がある決定項目のコレクションを特定します。
 
@@ -80,7 +80,7 @@ ht-degree: 98%
 
 1. **選択戦略の作成**：コレクション、決定ルール、ランキング方法を活用した選択戦略を作成して、プロファイルに表示するのに適した決定項目を特定します。
 
-   ➡️ [&#128279;](selection-strategies.md)ユーザーインターフェイス（および [APIドキュメント](api-reference/selection-strategies/create.md)）での選択戦略の作成方法の詳細情報
+   ➡️ [ユーザーインターフェイス（および [APIドキュメント](api-reference/selection-strategies/create.md)）での選択戦略の作成方法の詳細情報](selection-strategies.md)
 
 1. **決定ポリシーを作成し、コードベースまたはメールのジャーニー／キャンペーンに埋め込む**：決定ポリシーは、複数の選択戦略を組み合わせて、対象のオーディエンスに表示する適格な決定項目を決定します。
 
