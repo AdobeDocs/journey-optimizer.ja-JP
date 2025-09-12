@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6d603641a3565b1f1465fa881383f4d48611c786
+source-git-commit: 244d17a6c75eaee5b09fb82a9237db041a2650d1
 workflow-type: tm+mt
-source-wordcount: '2082'
-ht-degree: 89%
+source-wordcount: '2068'
+ht-degree: 88%
 
 ---
 
@@ -89,15 +89,19 @@ ht-degree: 89%
 
 ### 機能強化 {#Sep-25-improv}
 
+* **動的ドメインのサポート** - Journey Optimizerで、Adobeが受け入れる事前定義済みドメインの完全/ベース URL パーソナライゼーションがサポートされるようになりました。 [ 詳細を表示 ](../personalization/personalization-build-expressions.md#where)<!--Availability date: September 12-->
+
+  >[!NOTE]
+  >
+  >この機能は、一連のお客様に対して限定提供で利用できます。
+
 * **決定キャッピングルールの式** – 決定項目のキャッピングルールのしきい値を定義する独自の式を作成できるようになりました。 [詳細情報](../experience-decisioning/items.md#capping)
 
   >[!NOTE]
   >
   >この機能は、現在、すべてのユーザーに対する限定提供として利用できます。
 
-* **管理**
-
-  **チャネル設定の監視アラート** - カスタムサブドメインデリゲーションタイプを使用したメールチャネル設定エラーが発生した場合に、メールまたはJourney Optimizer通知センターでシステムアラートを受け取ることを登録できるようになりました。 [詳細情報](../reports/alerts.md#alert-dns-record-missing)
+* **チャネル設定の監視アラート** - カスタムサブドメインデリゲーションタイプを使用したメールチャネル設定エラーが発生した場合に、メールまたはJourney Optimizer通知センターでシステムアラートを受け取ることを登録できるようになりました。 [詳細情報](../reports/alerts.md#alert-dns-record-missing)
 
 ## 2025年8月リリースノート {#25-8-rn}
 
@@ -357,8 +361,6 @@ ht-degree: 89%
    * **SMS 接続を検証** - 指定されたデバイスにサンプルメッセージを送信して、Adobe Journey Optimizer 内で SMS API 資格情報を簡単にテストおよび検証できるようになりました。[詳細情報](../sms/sms-configuration-sinch.md)
 
 * **設定**
-
-  &lt;!--* **動的ドメインのサポート** - Journey Optimizer では、アドビが受け入れた定義済みドメインの完全／ベース URL パーソナライゼーションがサポートされるようになりました。この機能は、一連のお客様に対する限定提供で使用できます。[詳細情報](../personalization/personalization-build-expressions.md#where) - -8月21日（PT）の更新：実稼動環境にデプロイした際のエンジニアの確認を待っています。-->
 
    * **ワンクリック登録解除 URL を使用したカスタム属性のサポート** - Journey Optimizer では、アドビ以外で同意を管理している場合、メール設定で独自のワンクリック登録解除リンクを定義して、外部カスタムエンドポイントを設定できます。受信者が登録解除リンクをクリックすると、Journey Optimizer では、同意更新イベントにいくつかのデフォルトのプロファイル固有のパラメーターが追加されます。
 
