@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: キャンペーン, 方法, 開始, Optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 5821bc3f3c6e81ae1ae7389bbca1bdcec11cc805
+source-git-commit: 4bd3e202935cfc971990faa7d1dd2f3d0d7cdc6d
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '879'
 ht-degree: 70%
 
 ---
@@ -57,6 +57,31 @@ ht-degree: 70%
 >id="ajo_campaigns_campaign_type"
 >title="キャンペーンのタイプ"
 >abstract="キャンペーンのタイプを選択します。 使用可能なチャネルは、選択したタイプによって異なります。 <br>**スケジュール済みキャンペーン** （アクションキャンペーン） – 特定の時間に実行するようにスケジュールできる、シンプルな 1 回限りのバッチ通信に最適です。<br>**API トリガーキャンペーン** - API 呼び出しを通じてアクティブ化され、外部システムから直接、自動化されたイベントベースのメッセージングを有効にします。<br>**キャンペーンの調整**：視覚的なドラッグ&amp;ドロップキャンバスを提供し、チャネルをまたいでオーディエンスのセグメント化からパーソナライズされたメッセージ配信に至るまで、複雑な複数手順のマーケティングワークフローを設計および自動化します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_create_orchestration"
+>title="キャンペーン"
+>abstract="セグメント化フローを作成し、クロスチャネルメッセージを作成し、キャンペーンを計画します。 サポートされるチャネル：メール、SMS、プッシュ通知。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_create_scheduled_marketing"
+>title="キャンペーン"
+>abstract="単一または繰り返しのアウトバウンド配信アクションや、進行中のインバウンドアクションを配信します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_create_scheduled_transactional"
+>title="キャンペーン"
+>abstract="単一または繰り返しのアウトバウンドトランザクションアクションを配信します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_create_api_marketing"
+>title="キャンペーン"
+>abstract="ターゲットオーディエンスにパーソナライズされたマーケティングコミュニケーションを配信します。サポートされているチャネル : メール、SMS、プッシュ通知。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_campaigns_create_api_transactional"
+>title="キャンペーン"
+>abstract="個々のプロファイルまたはプロファイルのセットにトランザクションコミュニケーションを配信します。サポートされているチャネル : メール、SMS、プッシュ通知。"
 
 Journey Optimizer キャンペーンを使用すると、様々なチャネルを使用して、特定のオーディエンスに 1 回限りのコンテンツを配信できます。ジャーニーを使用する場合、アクションは順番に実行されます。キャンペーンでは、アクションは指定したスケジュールに基づいて同時にまたは即時に実行されます。
 
