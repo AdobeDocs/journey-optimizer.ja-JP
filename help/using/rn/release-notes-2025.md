@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 3ce799231e90828e8d061261e0ef69042e69daba
+source-git-commit: 14758fa4db49aed686c1554718337983d3812595
 workflow-type: tm+mt
-source-wordcount: '5027'
+source-wordcount: '5035'
 ht-degree: 99%
 
 ---
@@ -221,6 +221,7 @@ Journey Optimizer 製品リリースに関する&#x200B;**メールおよび製�
 <tr>
 <td>
 <p>カスタム SMS プロバイダーソリューションと統合することで、サードパーティのプロバイダーを通じて、リッチ通信サービス（RCS）メッセージを設定、カスタマイズ、配信できるようになりました。</p>
+<p>詳しくは、<a href="../sms/sms-configuration-custom.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>

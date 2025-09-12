@@ -7,9 +7,9 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: b63dea783a2f85d17aacc12c23a9f63d880aeeee
+source-git-commit: 14758fa4db49aed686c1554718337983d3812595
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '388'
 ht-degree: 36%
 
 ---
@@ -21,13 +21,12 @@ ht-degree: 36%
 Journey Optimizerのジャーニー実験は、次の 2 つのタイプに分けられます。
 
 * [コンテンツ実験](../content-management/content-experiment.md)
+
+  コンテンツ実験に関して詳細に示されたテーブルと KPI は、パス実験のテーブルと同じであることに注意してください。 コンテンツ実験を設定している場合は、以下の [ ドキュメント ](#experimentation) を参照してください。
+
 * [パス実験](../building-journeys/optimize.md)
 
 ## パス実験 {#experimentation}
-
->[!NOTE]
->
-> コンテンツ実験に関して詳細に示されたテーブルと KPI は、パス実験の場合と同じです。 コンテンツ実験を設定している場合は、以下のドキュメントを参照してください。
 
 ### 実験 KPI {#experimentation-kpis}
 
