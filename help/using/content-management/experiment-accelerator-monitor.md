@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 実験アクセラレータ
+title: Experimentation Accelerator モニター
 description: 効果的に実験を行い、インサイトを生み出す能力の向上
 feature: Experimentation
 topic: Content Management
@@ -10,19 +10,22 @@ level: Beginner
 keywords: コンテンツ, 実験, 複数, オーディエンス, 処理
 hide: true
 hidefromtoc: true
-source-git-commit: e4d5631701c5c270af7aec931f6b98a567b4ed29
+source-git-commit: 50dcdd30e21fe1b12d502a2b9c478f4ceb546c49
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 6%
+source-wordcount: '1069'
+ht-degree: 5%
 
 ---
 
-# 「実験」タブ {#monitor}
+# 実験の追跡 {#monitor}
 
 >[!BEGINSHADEBOX]
 
 * [Experimentation Acceleratorの概要](experiment-accelerator.md)
-* **[「実験」タブ](experiment-accelerator-monitor.md)**
+* [Experimentation Acceleratorを使用した AI でのデータ使用](experiment-accelerator-security.md)
+* [Experimentation Accelerator ベストプラクティス](experiment-accelerator-best-practices.md)
+* **[実験の監視](experiment-accelerator-monitor.md)**
+* [実験指標](experiment-accelerator-metrics.md)
 
 >[!ENDSHADEBOX]
 
@@ -47,7 +50,7 @@ ht-degree: 6%
 
 ## 実験の監視 {#monitor-page}
 
-実験にアクセスして監視するには、「実験 **&#x200B;**」タブから実験のリストから以前に設定した実験を選択するか、詳細メニューを使用して **[!UICONTROL 詳細を表示]** または **[!UICONTROL ソースで開く]** します。
+実験にアクセスして監視するには、「実験 ****」タブから実験のリストから以前に設定した実験を選択するか、詳細メニューを使用して **[!UICONTROL 詳細を表示]** または **[!UICONTROL ソースで開く]** します。
 
 ![](assets/experiment-accelerator-1.png)
 
@@ -180,6 +183,6 @@ ht-degree: 6%
 
 **[!UICONTROL 実験インサイト]** は、この実験から AI によって生成された学習事項です。 これらのインサイトは、実験が統計的有意性に達すると利用可能になり、成功に貢献した内容のコンテキスト理解を提供します。 勝者の処理に存在する主要な属性を強調しており、コントロールとは異なり、結果に影響を与える可能性が高くなります。
 
-実験のインサイトを生成するには、まず [ 仮説と処理の詳細の確認 ](#set-up) が必要です。
+実験インサイトを生成するには、まず、仮説と処理の詳細 [ を確認し ](#set-up) 統計的有意性に到達する必要があります。
 
 各インサイトの詳細を確認するには、「**[!UICONTROL 詳細を表示]**」をクリックします。

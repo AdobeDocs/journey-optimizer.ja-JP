@@ -10,10 +10,10 @@ level: Beginner
 keywords: コンテンツ, 実験, 複数, オーディエンス, 処理
 hide: true
 hidefromtoc: true
-source-git-commit: e4d5631701c5c270af7aec931f6b98a567b4ed29
+source-git-commit: 50dcdd30e21fe1b12d502a2b9c478f4ceb546c49
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 3%
+source-wordcount: '339'
+ht-degree: 2%
 
 ---
 
@@ -22,15 +22,18 @@ ht-degree: 3%
 >[!BEGINSHADEBOX]
 
 * **[Experimentation Acceleratorの概要](experiment-accelerator.md)**
-* [ 「実験」タブ ](experiment-accelerator-monitor.md)
+* [Experimentation Acceleratorを使用した AI でのデータ使用](experiment-accelerator-security.md)
+* [Experimentation Accelerator ベストプラクティス](experiment-accelerator-best-practices.md)
+* [実験の監視](experiment-accelerator-monitor.md)
+* [実験指標](experiment-accelerator-metrics.md)
 
 >[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
-> Experimentation Acceleratorは現在ベータ版で、機能を段階的に展開しています。
+>**Experimentation Accelerator** では、Adobe TargetまたはAdobe Journey Optimizerのライセンスが必要です。
 
-**0&rbrace;Experimentation Accelerator&rbrace; は、実験プロセスを合理化および強化するために設計された強力なツールです。** Adobe TargetやAdobe Journey Optimizerと統合することにより、実験を管理、分析および最適化するための一元的なプラットフォームを提供します。 Experimentation Acceleratorでは、AI に基づくインサイトとアダプティブテストを活用して、データに基づく意思決定を行い、マーケティング戦略を改善し、測定可能な結果を導くことができます。
+**0}Experimentation Accelerator} は、実験プロセスを合理化および強化するために設計された強力なツールです。** Adobe TargetやAdobe Journey Optimizerと統合することにより、実験を管理、分析および最適化するための一元的なプラットフォームを提供します。 Experimentation Acceleratorでは、AI に基づくインサイトとアダプティブテストを活用して、データに基づく意思決定を行い、マーケティング戦略を改善し、測定可能な結果を導くことができます。
 
 主なメリットは次のとおりです。
 
@@ -42,119 +45,31 @@ ht-degree: 3%
 
 * **よりスマートなターゲティング**：行動データとコンテンツデータを使用して効果の高い実験を優先順位付けします。
 
-* **KPI 監視**：実験全体の上昇率、売上高、信頼性などの指標を追跡します。
+* **KPI 監視**：実験全体にわたる上昇率や信頼性などの指標を追跡します。
 
 * **シームレスなCollaboration**：結果を簡単に共有し、リアルタイムのアラートでチームロールを管理します。
 
+## 実験アクセラレーターへのアクセス
+
 [ 実験を作成して設定 ](content-experiment.md) し、キャンペーンやジャーニーをプロファイルに送信した後、**[!UICONTROL Experimentation Accelerator]** にアクセスして、実験のパフォーマンスを詳しく調べることができます。
 
-**[!UICONTROL Experimentation Accelerator]** にアクセスするには：
+**[!UICONTROL 実験]** ドロップダウンの左側のメニューから、またはアプリ切り替えボタンを使用して [!UICONTROL 0}Experimentation Accelerator} にアクセスできます。 ]Target ライセンスを持つユーザーのみが、アプリ切り替えボタンからのみアクセスできます。
 
-* 左側のメニューから、「実験 **[!UICONTROL ドロップダウンの]** 0&rbrace;Experimentation Accelerator **[!UICONTROL を選択します。]**
+使用可能な実験は、設定によって異なります。
 
-* または、アプリ切り替えボタンで **[!UICONTROL 0&rbrace;Experimentation Accelerator&rbrace; を選択します。]**
+* **Adobe Journey Optimizer ユーザーの場合**：有効にした組織のサンドボックスで設定した実験は、自動的に含まれます。
 
-Target ライセンスを持つユーザーのみが、アプリ切り替えボタンからのみアクセスできます。
+* **Journey Optimizerを使用しているAdobe Target ユーザーの場合**:Target の A/B アクティビティは、Journey Optimizerの実稼動サンドボックスの **[!UICONTROL 2}Experimentation Accelerator} に表示されます。]**
 
-<!--
-<table style="table-layout:fixed"><tr style="border: 0;">
+* **Adobe Targetのみのユーザーの場合**:Target 組織内のすべての A/B アクティビティは、Journey Optimizerの実稼動サンドボックスに含まれます。
+
+**[!UICONTROL Experimentation Accelerator]** を使用するには、サンドボックスにアクセスし、関連する権限に従う必要があります。
+
+<!--table style="table-layout:fixed"><tr style="border: 0;">
 <td><img alt="Overview" href="experiment-accelerator-overview.md" src="assets/do-not-localize/experiments-2.jpeg">
 <div align="center"><p><strong><a href="experiment-accelerator-overview.md">Overview</a></strong></p></div></td>
 <td><img alt="Experiments" href="experiment-accelerator-monitor.md" src="assets/do-not-localize/experiment-overview.jpeg">
 <div align="center"><p><strong><a href="experiment-accelerator-monitor.md">Experiments</a></strong></p></div></td>
 <td><img alt="Metrics" href="experiment-accelerator-metrics.md" src="assets/do-not-localize/experiment-metrics.png">
 <div align="center"><p><strong><a href="experiment-accelerator-metrics.md">Metrics</a></strong></p></div></td>
-</tr></table>
--->
-
-## A/B テストとは
-
-A/B テストは、複数のバージョンの対象を比較して、定義された目標に対してパフォーマンスが高い対象を特定するプロセスです。
-
-参加者は、バリアントと呼ばれる 1 つのバージョンにランダムに割り当てられ、その行動がトラッキングされます。 結果は、あるバージョンが他のバージョンよりも統計的に優れているかどうかを示します。
-
-## 主な用語
-
-| 用語 | 定義 |
-|-|-|
-| コントロール | 比較のベースラインとして使用される元のバージョン。 |
-| バリアントまたは処理 | コントロールに対するテスト用に作成された新しいバージョン。 |
-| 仮説 | どのような変化がより良い結果をもたらすのか、そしてその理由についての予測。 |
-| サンプルサイズ | テストに含まれる個人またはセッションの数。 |
-| 統計的優位差 | 結果がランダムなチャンスに起因するものではないという信頼性の尺度。 |
-| 上昇率 | コントロールと比較した、バリアントの改善または減少の割合。 |
-| プライマリ指標 | テストの成功を判断するために使用される主な指標。 |
-| セカンダリ指標 | 追加のinsightを提供したり、意図しない影響を監視するのに役立つ、指標のサポート。 |
-| 信頼区間 | 真の効果が低下する可能性が高い推定範囲。 |
-| セグメント | 個別に分析されたオーディエンスの特定のサブセット（新規ユーザー、モバイル訪問者など）。 |
-
-## 実験を実行するためのベストプラクティス
-
-* **明確な仮説から始める**
-
-  強力な仮説には、変更している内容、予想される結果、その理由が含まれます。
-例：_X を変えると、Z によって Y が増えると考えられます。_
-
-* **意味のある成功指標を定義**
-
-  より広範な目標に合った指標を選択します。 見た目には優れていても実際の影響を反映していない「バニティ」指標は避けます。
-
-* **一度に 1 つの変更をテストする（可能な場合）**
-
-  変数を分離すると、結果を正確に解釈しやすくなります。 一度に複数の変更をテストすると、その効果の原因がわからないことがあります。
-
-* **テストを十分に長く実行しましょう**
-
-  時期尚早の結論は誤解を招く可能性があります。 統計的に有意なサンプルサイズになるまで待ってから、アクションを実行します。
-
-* **外部要因に注意**
-
-  季節性、休日、環境のその他の変化により、結果が偏る場合があります。 テスト中の動作に影響を与える可能性のあるすべての項目を文書化します。
-
-* **セグメント化は慎重に使用してください**
-
-  結果をオーディエンスセグメント別に分類すると、非表示のパターンが見つかりますが、小さなサンプルサイズを過度に解釈することは避けることができます。
-
-* **学習の文書化と共有**
-
-  テスト対象、理由、学習内容を明確に記録します。 これにより、組織的な知識が構築され、繰り返し発生するミスが防止されます。
-
-## 一般的な指標
-
-| 指標 | 測定する内容 | 用途 |
-|-|-|-|
-| コンバージョン率 | 目的のアクションを完了したユーザーの割合 | 目標主導のエクスペリエンスの成功をトラッキングする場合に役立ちます |
-| クリックスルー率（CTR） | 特定の要素をクリックしたユーザーの割合 | エクスペリエンスの説得力を示す |
-| エンゲージメント率 | ユーザーのエクスペリエンスに対するインタラクションのレベル | 関心または注意を測定するのに適している |
-| バウンス率 | アクションを実行せずにすぐに出発するユーザーの割合 | 不適合または混乱を招く可能性がある |
-| ページ滞在時間 | ユーザーがエクスペリエンスの特定の部分に費やした時間 | 関心の深さや複雑さを反映できる |
-| 訪問者あたりの売上高（RPV） | ユーザーあたりの平均獲得売上高 | コマースに焦点を当てた実験でよく使用されます |
-| リテンション率 | 時間の経過と共に復帰またはエンゲージメントを維持するユーザーの割合 | 長期的な価値アセスメントに役立つ |
-
-## 良い実験とは何ですか？
-
-優れた実験は、単に勝利を生み出すだけでなく、明確で実用的な学習を生み出します。
-検索対象は次のとおりです。
-
-&check; **統計的信頼性**：バリアント間の違いが偶然によるものである可能性は低いです。
-&check; **目標との整合性**：メイン指標は、ビジネス目標に対する有意義な進捗を反映しています。
-&check; **セカンダリ上の影響**：関連する指標に大きな悪影響はありません。
-&check; **スケーラビリティ**：結果は、将来の決定を知らせたり、他の領域に一般化したりできます。
-&check; **Clarity**：結果の原因は、合理的に分離され、理解されています。
-
-実験は、「最良の」バージョンを見つけることだけでなく、テストとイテレーションを通じて知識を構築することです。 適切に行われると、実験でインサイトが明らかになり、よりスマートな決定、より良いユーザーエクスペリエンス、より良い結果が導かれます。
-
->[!BEGINSHADEBOX]
-
-**例：**
-
-* **会社名**：ホテルチェーン
-* **仮説**：ホームページでより緊急の言語を使用すると、より多くの予約につながります。
-   * **コントロール**：元のバージョン
-   * **バリアント**：緊急度が追加された新しいバージョン
-   * **プライマリ指標**：予約率
-   * **セカンダリ指標**: バウンス率、サイトでの時間
-* **結果**：バリアントにより、予約率が 14% 上昇しましたが、他の指標ではマイナスの変化はありませんでした。
-* **アクション**：バリアントのロールアウトとフォローアップ実験の実行を検討して、他の領域で同様のアプローチをテストしてください。
-
->[!ENDSHADEBOX]
+</tr></table-->
