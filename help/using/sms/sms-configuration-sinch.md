@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
-workflow-type: ht
-source-wordcount: '1107'
-ht-degree: 100%
+source-git-commit: 85ae4e99e804e50451b3f108e1fddc041f269620
+workflow-type: tm+mt
+source-wordcount: '1146'
+ht-degree: 91%
 
 ---
 
@@ -57,7 +57,7 @@ Journey Optimizer で SMS メッセージと MMS を送信するように Sinch 
    | オプトアウトメッセージ | オプトアウトメッセージとして自動的に送信されるカスタム応答を入力します。 |
    | ヘルプキーワード | **ヘルプメッセージ**&#x200B;を自動的にトリガーするデフォルトまたはカスタムのキーワードを入力します。複数のキーワードの場合は、コンマ区切り値を使用します。 |
    | ヘルプメッセージ | **ヘルプメッセージ**&#x200B;として自動的に送信されるカスタム応答を入力します。 |
-   | ダブルオプトインキーワード | ダブルオプトイン処理をトリガーするキーワードを入力します。ユーザープロファイルが存在しない場合は、確認が成功すると作成されます。複数のキーワードの場合は、コンマ区切り値を使用します。[詳しくは、SMS ダブルオプトインを参照してください](https://video.tv.adobe.com/v/3440273/?learn=on&captions=jpn)。 |
+   | ダブルオプトインキーワード | ダブルオプトイン処理をトリガーするキーワードを入力します。ユーザープロファイルが存在しない場合は、確認が成功すると作成されます。複数のキーワードの場合は、コンマ区切り値を使用します。[詳しくは、SMS ダブルオプトインを参照してください](https://video.tv.adobe.com/v/3427129/?learn=on)。 |
    | ダブルオプトインメッセージ | ダブルオプトインの確認に応じて自動的に送信されるカスタム応答を入力します。 |
    | インバウンド番号 | ユニークなインバウンド番号またはショートコードを追加します。これにより、それぞれに独自のインバウンド番号またはショートコードを持つ異なるサンドボックス間で同じ API 資格情報を使用できます。 |
    | カスタム受信キーワード | 特定のアクションに対して一意のキーワードを定義します（割引、オファー、登録など）。これらのキーワードはプロファイル内の属性として取得され、保存されるので、ユーザーはジャーニー内でストリーミングセグメントの選定をトリガーし、カスタマイズされた応答やアクションを提供できます。 |
@@ -117,6 +117,7 @@ Journey Optimizer で MMS を送信するように Sinch MMS を設定するに�
 
 API 資格情報を作成し設定したら、MMS メッセージ用のチャネル設定を作成する必要があります。[詳細情報](sms-configuration-surface.md)
 
+
 ## RCS 用の API 資格情報の設定
 
 <!--![](assets/do-not-localize/rcs-sms.png)-->
@@ -125,19 +126,32 @@ RCS（リッチ通信サービス）メッセージは、Sinch を通じて Jour
 
 プロファイルのデバイスが RCS をサポートしていない場合や、一時的に RCS 経由で未到達の場合に、メッセージは SMS に自動的にフォールバックします。
 
-➡️ [Sinch ドキュメントで Sinch が RCS をサポートする方法を見る](https://sinch.com/blog/rcs-api-guide/)
+### 高度な RCS メッセージ
 
-Sinch を使用して RCS を設定するには：
+>[!AVAILABILITY]
+>
+> 高度な RCS メッセージは、Sinch によって管理される直接アカウントでのみ使用できます。
 
 1. **ブランドの RCS エージェントの設定**
 
-   ブランドの RCS エージェントを設定するには、アドビ担当者にお問い合わせください。[ブランドの RCS エージェントの詳細情報](https://community.sinch.com/t5/RCS/Getting-Started-with-RCS-using-Conversation-API/ta-p/17844)
+   Sinch ダッシュボードでブランド化された RCS エージェントを作成します。 [ブランドの RCS エージェントの詳細情報](https://community.sinch.com/t5/RCS/Getting-Started-with-RCS-using-Conversation-API/ta-p/17844)
 
-1. **[Sinch API 資格情報の設定](#create-api)**
+1. **カスタム API 資格情報 [ の設定](sms-configuration-custom.md)**
 
-   RCS エージェントが承認されたら、アクセスキー、秘密鍵、サービスプラン ID を含む Sinch API 資格情報を設定する必要があります。これらの資格情報は、Journey Optimizer が Sinch のプラットフォームを通じて認証し、メッセージを送信するのに使用されます。
+   RCS エージェントが承認されたら、カスタム API 認証情報（AppId、名前、URL、認証タイプを含む）を設定する必要があります。
+
+1. **プロバイダーペイロードを使用して RCS を設定します**。
+
+   [ カスタム API 資格情報 ](sms-configuration-custom.md) で、プロバイダーペイロードを追加して、RCS メッセージを検証およびカスタマイズします。
 
 1. **RCS メッセージ用の[チャネル設定](sms-configuration-surface.md)の作成**
 
    Sinch 資格情報をリンクし、メッセージパラメーターを定義して、Journey Optimizer でチャネルサーフェスを設定します。この設定により、Journey Optimizer から RCS メッセージを作成して送信できます。
+
+1. **[SMS メッセージの作成とパーソナライズ](../sms/create-sms.md)**
+
+   ペイロードを SMS コンテンツに直接貼り付けて、リッチ通信サービス（RCS）メッセージを埋め込んで配信します。
+
+   ➡️ [Sinch ドキュメントで Sinch が RCS をサポートする方法を見る](https://sinch.com/blog/rcs-api-guide/)
+
 
