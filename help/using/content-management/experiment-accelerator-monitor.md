@@ -10,9 +10,9 @@ level: Beginner
 keywords: コンテンツ, 実験, 複数, オーディエンス, 処理
 hide: true
 hidefromtoc: true
-source-git-commit: 50dcdd30e21fe1b12d502a2b9c478f4ceb546c49
+source-git-commit: c28a322ec13de2a23ab5cffb4785b14425e4e6e9
 workflow-type: tm+mt
-source-wordcount: '1069'
+source-wordcount: '1108'
 ht-degree: 5%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 5%
 
 ## 実験の監視 {#monitor-page}
 
-実験にアクセスして監視するには、「実験 **&#x200B;**」タブから実験のリストから以前に設定した実験を選択するか、詳細メニューを使用して **[!UICONTROL 詳細を表示]** または **[!UICONTROL ソースで開く]** します。
+実験にアクセスして監視するには、「実験 ****」タブから実験のリストから以前に設定した実験を選択するか、詳細メニューを使用して **[!UICONTROL 詳細を表示]** または **[!UICONTROL ソースで開く]** します。
 
 ![](assets/experiment-accelerator-1.png)
 
@@ -71,11 +71,13 @@ ht-degree: 5%
 
 ### 設定 {#set-up}
 
-![](assets/experiment-monitor-hypothesis.png)
-
 **[!UICONTROL 仮説]** では、テストする予定の変更を取り込み、プライマリ指標に対して予想される影響を文書化します。 明確な **[!UICONTROL 仮説]** を定義すると、各実験の目的が測定可能になり、結果の評価と、変更が有意義な改善につながるかどうかの判断が容易になります。
 
+[ 実験インサイト ](#insights) を生成するには、仮説と処理の詳細および到達する統計的有意性を確認する必要があります。
+
 1. 「**[!UICONTROL 追加]**」をクリックして、実験の **[!UICONTROL 仮説]** を作成します。
+
+   ![](assets/experiment-monitor-setup-1.png)
 
 1. 加えられた変更の詳細と、その変更がプライマリ指標に与える影響を説明して、**[!UICONTROL 仮説]** を入力します。
 
@@ -83,7 +85,9 @@ ht-degree: 5%
 
 1. **[!UICONTROL レビュー]** をクリックして、各処理の画像を追加または置換します。
 
-1. **[!UICONTROL 画像を追加]** または **[!UICONTROL 画像を置換]** を選択して、ローカルファイルから **[!UICONTROL 処理]** に最適なスクリーンショットを選択します。
+   ![](assets/experiment-monitor-setup-2.png)
+
+1. 処理画像は自動的に生成されますが、必要に応じて、**[!UICONTROL 画像を追加]** または **[!UICONTROL 画像を置換]** を選択して、**[!UICONTROL 処理]** 用にローカルファイルから優先スクリーンショットをアップロードできます。
 
    スクリーンショットはページ全体を取り込む必要があります。
 
@@ -123,17 +127,17 @@ ht-degree: 5%
 >
 >商談機能は、テキストベースの変更を含む実験に制限されています。
 
-![](assets/experiment-monitor-opportunities.png)
-
 **[!UICONTROL 機会]** パネルには、テストのパフォーマンスを向上させ、より広範なビジネス目標や KPI と連携するように設計された、AI によって生成されたレコメンデーションが表示されます。
 
-1. 目的のオポチュニティを選択し、「**[!UICONTROL オポチュニティを表示]**」をクリックします。
+実験の機会を生成するには、まず [ 仮説と処理の詳細を確認 ](#set-up) する必要があります。
+
+1. 提案された商談を参照し、「**[!UICONTROL 商談を表示]**」をクリックします。
+
+   ![](assets/experiment-monitor-opportunities.png)
 
 1. 商談を選択すると、**商談の詳細** ウィンドウが開きます。このウィンドウには、Experimentation Acceleratorによって提案された具体的な処理やバリエーションの概要が表示されます。 このビューには次が含まれます。
 
    * **[!UICONTROL 仮説]**：提案された処理の期待される結果を説明する、AI によって生成された仮説。
-
-   * **[!UICONTROL 新しいテキスト処理の例]**:AI が推奨するスタイルを示す単語またはフレーズの使用。
 
    * **[!UICONTROL 根拠]**:Experimentation Acceleratorがこの機会を提案した理由の説明。
 
@@ -142,12 +146,19 @@ ht-degree: 5%
       * **[!UICONTROL ラーニングの可能性]**：過去にテストされたものとの違いに基づき、オポチュニティが提供できる新しいinsightの推定量です。
 
       * **[!UICONTROL コンバージョンの可能性]**：過去にうまく機能した戦略との類似性に基づいて、現在の処理を上回る可能性の推定値。
+   <!--
+   * **[!UICONTROL New text treatment example]**: Words or phrases that demonstrate the style the AI recommends using.
+   -->
 
-1. その後、商談を **[!UICONTROL 共有]** するか、「実験を開く **[!UICONTROL を選択して直接有効化するこ]** ができます。
+   ![](assets/experiment-monitor-opportunities-2.png)
+
+1. その後、「実験を開く **[!UICONTROL を選択して、実験に直接追加でき]** す。
 
 1. 元の実験がAdobe Journey Optimizerで作成および管理された場合、このアクションにより、そのキャンペーン内に **[!UICONTROL コンテンツ実験パネル]** が開きます。
 
    **[!DNL Adobe Target]** から実行される実験の場合、提案された変更は、代わりに **[!DNL Adobe Target]** の実験ワークフローに読み込まれます。
+
+   ➡️ [ 詳しくは、Adobe Target ドキュメントを参照してください ](https://experienceleague.adobe.com/en/docs/target/using/activities/abtest/test-ab)
 
 1. 実験ビューでは、Experimentation Acceleratorで表示されるのと同じ AI **[!UICONTROL 実験の機会]** にアクセスできます。
 
@@ -163,9 +174,9 @@ ht-degree: 5%
 
 * **[!UICONTROL 場所]**：パフォーマンスに基づく処理のランキング位置で、他の処理との比較を示します。
 
-* **[!UICONTROL ユーザー]**：メッセージのターゲットプロファイルに適格な、ユーザープロファイルの数。
-
 * 実験の作成時に設定された内容に応じて、Journey Optimizerの **[!UICONTROL 成功指標]** またはAdobe Targetの **[!UICONTROL プライマリ指標]**。
+
+* **[!UICONTROL ユーザー]**：メッセージのターゲットプロファイルに適格な、ユーザープロファイルの数。
 
 * **[!UICONTROL 上昇率]**：ベースラインに対する特定の処理のコンバージョン率の向上率を測定します。
 
@@ -179,10 +190,12 @@ ht-degree: 5%
 >
 >実験インサイトの機能は、テキストベースの変更を含んだ実験に限定されます。
 
-![](assets/experiment-monitor-insights.png)
-
 **[!UICONTROL 実験インサイト]** は、この実験から AI によって生成された学習事項です。 これらのインサイトは、実験が統計的有意性に達すると利用可能になり、成功に貢献した内容のコンテキスト理解を提供します。 勝者の処理に存在する主要な属性を強調しており、コントロールとは異なり、結果に影響を与える可能性が高くなります。
 
 実験インサイトを生成するには、まず、仮説と処理の詳細 [ を確認し ](#set-up) 統計的有意性に到達する必要があります。
 
 各インサイトの詳細を確認するには、「**[!UICONTROL 詳細を表示]**」をクリックします。
+
+</br>
+
+![](assets/experiment-monitor-insights.png)
