@@ -158,7 +158,7 @@ ht-degree: 5%
 
    **[!DNL Adobe Target]** から実行される実験の場合、提案された変更は、代わりに **[!DNL Adobe Target]** の実験ワークフローに読み込まれます。
 
-   ➡️ [ 詳しくは、Adobe Target ドキュメントを参照してください ](https://experienceleague.adobe.com/en/docs/target/using/activities/abtest/test-ab)
+   ➡️ [ 詳しくは、Adobe Target ドキュメントを参照してください ](https://experienceleague.adobe.com/ja/docs/target/using/activities/abtest/test-ab)
 
 1. 実験ビューでは、Experimentation Acceleratorで表示されるのと同じ AI **[!UICONTROL 実験の機会]** にアクセスできます。
 
