@@ -11,10 +11,10 @@ keywords: アクティビティ, 条件, キャンバス, ジャーニー, 最�
 badge: label="限定提供" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: 1c47c89ae86844399240d48c4d19f834d90c7598
+source-git-commit: f1a44b91e8dfe28d0cf54c11a7912e568f3d176d
 workflow-type: tm+mt
-source-wordcount: '1297'
-ht-degree: 37%
+source-wordcount: '1257'
+ht-degree: 35%
 
 ---
 
@@ -135,7 +135,7 @@ ht-degree: 37%
 
 最初のメッセージをメールで送信した場合と SMS で送信した場合のどちらがコンバージョン率が高くなるかをテストします。
 
-➡️ コンバージョン率を最適化指標として使用します（例：購入、サインアップ）。
+➡️ コンバージョン率を成功指標として使用します（例：購入、サインアップ）。
 
 ![](assets/journey-optimize-experiment-uc-channel.png)
 
@@ -145,7 +145,7 @@ ht-degree: 37%
 
 実験を実行して、1 週間に 1 通のメールを送信した場合と 3 通のメールを送信した場合のどちらで購入が増えるかを確認します。
 
-➡️ 最適化指標として購入または購読解除率を使用します。
+➡️ 成功指標として購入または購読解除率を使用します。
 
 ![](assets/journey-optimize-experiment-uc-frequency.png)
 
@@ -155,7 +155,7 @@ ht-degree: 37%
 
 フォローアップ前の 24 時間待機と 72 時間待機を比較して、エンゲージメントを最大化するタイミングを判断します。
 
-➡️ クリックスルー率または売上高を最適化指標として使用します。
+➡️ クリックスルー率または売上高を成功指標として使用します。
 
 ![](assets/journey-optimize-experiment-uc-wait.png)
 
@@ -166,7 +166,7 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="ajo_path_targeting_fallback"
 >title="フォールバックパスとは"
->abstract="フォールバックは、上記で定義されたどのターゲティングルールも満たさない新しいパスをオーディエンスに作成します。</br> このオプションを選択しない場合、ターゲティングルールに適合しないオーディエンスはフォールバックパスに入りません。"
+>abstract="フォールバックパスを使用すると、ターゲティングルールが選定されていない場合に、オーディエンスが代替パスを入力できます。 </br> このオプションを選択しない場合、ターゲティングルールに適合しないオーディエンスは、フォールバックパスに入力せずにジャーニーを終了します。"
 
 ターゲティングルールを使用すると、特定のオーディエンスセグメント <!-- depending on profile attributes or contextual attributes--> に基づいて、ジャーニーパスの 1 つにエントリする資格を顧客が得るために満たす必要がある特定のルールまたは資格を決定できます。
 
@@ -196,11 +196,11 @@ ht-degree: 37%
 
    ![](assets/journey-targeting-rule.png)
 
-1. 必要に応じて「**[!UICONTROL フォールバックコンテンツを有効にする]**」オプションを選択します。 このアクションにより、上記で定義したどのターゲティングルールも満たさないオーディエンスのフォールバックパスが作成されます。
+1. 必要に応じて「**[!UICONTROL フォールバックパスを有効にする]** オプションを選択します。 このアクションにより、上記で定義したどのターゲティングルールも満たさないオーディエンスのフォールバックパスが作成されます。
 
    >[!NOTE]
    >
-   >このオプションを選択しない場合、ターゲティングルールに適合しないオーディエンスはフォールバックパスに入りません。
+   >このオプションを選択しない場合、ターゲティングルールに適合しないオーディエンスは、フォールバックパスに入力せずにジャーニーを終了します。
 
 1. **[!UICONTROL 作成]** をクリックして、ターゲティングルールの設定を保存します。
 
@@ -234,7 +234,7 @@ ht-degree: 37%
 
 ゴールドステータスのロイヤルティメンバーは、メールでパーソナライズされたオファーを受信でき、他のすべてのメンバーは SMS リマインダーに誘導されます。
 
-➡️ プロファイルあたりの売上高またはコンバージョン率を最適化指標として使用します。
+<!--➡️ Use the revenue per profile or conversion rate as the optimization metric.-->
 
 ![](assets/journey-optimize-targeting-uc-segment.png)
 
@@ -244,7 +244,7 @@ ht-degree: 37%
 
 メールを開いたがクリックしなかった顧客にはプッシュ通知、まったく開かなかった顧客には SMS が送信されます。
 
-➡️ クリックスルー率またはダウンストリームコンバージョンを最適化指標として使用します。
+<!--➡️ Use the click-through rate or downstream conversions as the optimization metric.-->
 
 ![](assets/journey-optimize-targeting-uc-behavior.png)
 
@@ -254,15 +254,15 @@ ht-degree: 37%
 
 最近購入した顧客は短い「お礼 + クロスセル」パスに進むことができますが、購入履歴のない顧客はより長い育成ジャーニーにエントリします。
 
-➡️ 最適化指標として、リピート購入率またはエンゲージメント率を使用します。
+<!--➡️ Use the repeat purchase rate or engagement rate as the optimization metric.-->
 
 ![](assets/journey-optimize-targeting-uc-purchase.png)
 
 +++
 
-## 条件の追加 {#conditions}
+### 条件の追加 {#conditions}
 
-特定の条件に基づいて複数のパスを作成することで、条件を追加して、個人がジャーニーをどのように進めるかを定義できます。また、タイムアウトやエラーを処理するための代替パスを設定して、シームレスなエクスペリエンスを確保することもできます。
+条件は、特定の条件に基づいて複数のパスを作成することで、個人がジャーニーをどのように進行させるかを定義できる、[ ターゲティング ](#targeting) ルールの一種です。
 
 ![](assets/journey-condition.png)
 

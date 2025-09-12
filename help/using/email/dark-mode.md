@@ -12,10 +12,10 @@ keywords: ダークモード, メール, カラー, エディター
 hide: true
 hidefromtoc: true
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
-source-git-commit: 623f882f5d63a2ea4edc2ec8ef30a65364ed2207
+source-git-commit: 6106c2cbd77a9962a0d496cdda3a7e6118e90bf0
 workflow-type: tm+mt
-source-wordcount: '1524'
-ht-degree: 70%
+source-wordcount: '1527'
+ht-degree: 64%
 
 ---
 
@@ -24,21 +24,16 @@ ht-degree: 70%
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode"
 >title="ダークモードに切り替え"
->abstract="ダークモードに切り替えると、レンダリング方法のプレビューや、特定のカスタム設定の定義ができます。 <br>注意：最終的なレンダリングは、受信者のメールクライアントに応じて異なります。 すべてのメールクライアントがカスタムダークモードをサポートしているわけではありません。"
-
->[!CONTEXTUALHELP]
->id="ac_edition_darkmode_image"
->title="特定の画像をダークモードで使用"
->abstract="ダークモードがオンの場合に表示される別の画像を選択できます。 <br>注意：ダークモードで使用する特定の画像を追加しても、すべてのメールクライアントで正しくレンダリングされるとは限りません。 すべてのメールクライアントがカスタムダークモードをサポートしているわけではありません。"
+>abstract="ダークモードに切り替えると、レンダリング方法をプレビューし、特定のカスタム設定を定義できます。 <br> 最終的なレンダリングは、受信者のメールクライアントによって異なります。 なお、すべてのメールクライアントでカスタムダークモードがサポートされているわけではありません。"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode_preview"
 >title="ダークモードに切り替え"
->abstract="ダークモードに切り替えると、サポートされているメールクライアントでどのようにレンダリングされるかをプレビューできます。 <br>注意：最終的なレンダリングは、受信者のメールクライアントに応じて異なります。 すべてのメールクライアントがカスタムダークモードをサポートしているわけではありません。"
+>abstract="ダークモードに切り替えると、サポートされているメールクライアントでどのようにレンダリングされるかをプレビューできます。 <br> 最終的なレンダリングは、受信者のメールクライアントによって異なります。 なお、すべてのメールクライアントがダークモードをサポートしているわけではありません。"
 
 >[!AVAILABILITY]
 >
->この機能は現在ベータ版で、ベータ版のお客様のみご利用いただけます。ベータ版プログラムに参加するには、アドビ担当者にお問い合わせください。
+>この機能は現在ベータ版で、ベータ版のお客様のみご利用いただけます。<!--To join the beta program, contact your Adobe representative.-->
 
 メールをデザインする際に、[!DNL Journey Optimizer][ メールDesigner](get-started-email-design.md) を使用して **[!UICONTROL ダークモード]** ビューに切り替えることができます。
 
@@ -73,6 +68,7 @@ ht-degree: 70%
 ### ダークモードをサポートしていないクライアント {#not-supporting}
 
 次のような一部のメールクライアントは、この機能をまったくサポートしていません。
+
 * Yahoo! メール
 * AOL
 
@@ -80,7 +76,9 @@ E メールDesignerでダークモードのカスタム設定を定義してい�
 
 ### 独自のダークモードを適用するクライアント {#default-support}
 
-一部のメールクライアントは、受信するすべてのメールに対して独自のデフォルトのダークモードを体系的に適用しています。 色、背景、画像など。 メールクライアントに固有のダークモード設定で自動的に調整されます。
+一部のメールクライアントは、受信するすべてのメールに対して独自のデフォルトのダークモードを体系的に適用しています。 色、背景、画像など。 はメールクライアントに固有のダークモード設定で自動的に調整されます。つまり、外部の変更はできません。
+
+<!--It is important to note that less than 25% of email clients offer customization options for dark mode. Clients such as Gmail implement their own dark mode rendering, which is not subject to external modification.-->
 
 次に例を示します。
 
@@ -173,6 +171,11 @@ E メールデザイナーでダークモードにアクセスし、デフォル
 Here you can see that we have applied a different background, defined another image and change the color of the text and button.-->
 
 ### カスタムダークモードの定義 {#define-custom-dark-mode}
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_darkmode_image"
+>title="特定の画像をダークモードで使用"
+>abstract="ダークモードがオンの場合に表示される別の画像を選択できます。 <br> ダークモード用に特定の画像を追加しても、すべてのメールクライアントで正しくレンダリングされるとは限りません。 なお、すべてのメールクライアントでカスタムダークモードがサポートされているわけではありません。"
 
 **[!UICONTROL ダークモード]**&#x200B;に切り替えたら、受信者のメールクライアントでダークモードが有効になっている場合にのみ表示されるコンテンツの特定のスタイル要素の編集を選択できます（その機能がサポートされている場合）。
 
