@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 50dcdd30e21fe1b12d502a2b9c478f4ceb546c49
+source-git-commit: 0e269babd228063d465e0790435d916e479701a7
 workflow-type: tm+mt
 source-wordcount: '2940'
 ht-degree: 98%
@@ -325,14 +325,14 @@ ht-degree: 98%
             + [パーソナライズされたオファーを挿入](using/email/add-offers-email.md)
             + [テキストバージョンの生成](using/email/text-version-email.md)
             + [メタデータを追加](using/email/email-metadata.md)
-            + [カスタム CSS を追加](using/email/custom-css.md)
          + スタイルの編集 {#edit-style}
             + [スタイルの編集](/help/rp_landing_pages/edit-style-landing-page.md)
             + [メールスタイルの基本を学ぶ](using/email/get-started-email-style.md)
             + [背景設定の編集](using/email/backgrounds.md)
             + [垂直方向の整列とパディングの調整](using/email/alignment-and-padding.md)
             + [インラインのスタイル属性の追加](using/email/inline-styling.md)
-            + [ダークモードコンテンツの定義](using/email/dark-mode.md)
+            + [カスタム CSS を追加](using/email/custom-css.md)
+            + [ダークモードコンテンツの管理](using/email/dark-mode.md)
          + [アクセシブルなコンテンツの作成](using/email/accessible-content.md)
       + [メールオプトアウトの管理](using/email/email-opt-out.md)
       + メールチャネルの設定 {#configure-email}
