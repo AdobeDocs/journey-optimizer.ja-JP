@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: メール，デザイン，アクセシビリティ
-source-git-commit: 09a6ec5bf04a1252fea8724d587b46f688842906
+source-git-commit: 57890eede1d5a0de6002f31b9ce8807a903b84f7
 workflow-type: tm+mt
 source-wordcount: '1610'
 ht-degree: 2%
@@ -31,7 +31,7 @@ ht-degree: 2%
 >
 >一方、[!DNL Journey Optimizer] インターフェイス自体のアクセシビリティについては、[ この節 ](../start/accessibility.md) で詳しく説明します。
 > 
->## テキストを読みやすくする {#text-readability}
+## テキストを読みやすくする {#text-readability}
 
 **[!UICONTROL テキスト]** コンポーネントの「**[!UICONTROL スタイル]**」タブを活用して、適切なカラーコントラストやシンプルなフォントの使用など、テキストが読みやすいようにします。 [詳細情報](content-components.md#text)
 
@@ -102,7 +102,7 @@ ht-degree: 2%
 
 メールDesigner関連の構造および [ コンテンツコンポーネント ](content-components.md)、および **[!UICONTROL スタイル]** パネルのオプションを使用して、すべてのユーザーがアクセスできる明確、論理的かつ簡潔な方法でコンテンツを整理します。
 
-![](assets/accessible-components.png){width="1000%"}
+![](assets/accessible-components.png){width="100%"}
 
 * 適切な見出し、段落、リストおよびテーブルを持つ、構造化されたセマンティック HTMLを使用します。
 * コンテンツが、左から右、上から下への論理的なフローに従っていることを確認します。
