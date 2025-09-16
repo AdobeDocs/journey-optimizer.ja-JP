@@ -12,7 +12,7 @@ exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 source-git-commit: c39a71da901b888ff440a1488658b577ff72cc32
 workflow-type: tm+mt
 source-wordcount: '522'
-ht-degree: 84%
+ht-degree: 91%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 84%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_execution_address"
 >title="カスタム値の定義"
->abstract="場合によっては、デフォルトの実行アドレスを上書きできます。 フィールドの右側にある **パラメーターの上書きを有効にする** アイコンを使用して、カスタムのプライマリアドレスを定義します。"
+>abstract="いくつかの特定のケースでは、デフォルトの実行アドレスを上書きできます。フィールドの右側にある **パラメーターの上書きを有効にする** アイコンを使用して、カスタムプライマリアドレスを定義します。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/configuration/primary-email-addresses#journey-parameters" text="実行アドレスについて"
 
 特定のユースケースでは、グローバルに設定された実行フィールドを上書きし、メール設定レベルまたはジャーニーレベルで異なる値を定義できます。

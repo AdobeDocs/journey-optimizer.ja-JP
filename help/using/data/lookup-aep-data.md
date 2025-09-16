@@ -14,7 +14,7 @@ exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
 source-git-commit: 248aae7b2841086ef5a0ea73936c245963e8eae2
 workflow-type: tm+mt
 source-wordcount: '804'
-ht-degree: 16%
+ht-degree: 19%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="lookup-aep-data"
 >title="参照のために有効にする"
->abstract="ルックアップ用にデータセットを有効にすると、Journey Optimizerのパーソナライゼーションおよび判定機能でそのデータを活用できます。"
+>abstract="ルックアップでデータセットを有効にすると、Journey Optimizer のパーソナライゼーションおよび決定の機能でデータを活用できます。"
 
 >[!AVAILABILITY]
 >

@@ -13,7 +13,7 @@ exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
 source-git-commit: e411778cc873a24e4846e7acbe439222dd6e4c82
 workflow-type: tm+mt
 source-wordcount: '1161'
-ht-degree: 35%
+ht-degree: 53%
 
 ---
 
@@ -21,28 +21,28 @@ ht-degree: 35%
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_catalogs_dataset"
->title="データセット参照"
->abstract="Adobe Experience Platformの属性を意思決定に使用するには、マッピングを作成して、Adobe Experience Platform データセットが [!DNL Journey Optimizer] のデータにどのように結合するかを定義する必要があります。"
+>title="データセットのルックアップ"
+>abstract="Adobe Experience Platform の属性を決定に使用するには、マッピングを作成して、Adobe Experience Platform データセットと [!DNL Journey Optimizer] のデータとの結合方法を定義する必要があります。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_catalogs_dataset_create"
->title="データセット参照"
->abstract="参照に対して有効になっているすべてのAdobe Experience Platform データセットの中から、必要な属性を持つデータセットを選択し、決定項目属性とデータセットの両方に存在するマッピングキー（便名、顧客 ID など）を選択します。"
+>title="データセットのルックアップ"
+>abstract="ルックアップに対して有効になっているすべての Adobe Experience Platform データセットの中から、必要な属性を持つデータセットを選択し、決定項目属性とデータセットの両方に存在するマッピングキー（便名、顧客 ID など）を選択します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_rules_dataset_lookup"
->title="データセットルックアップ"
->abstract="必要な属性を持つAdobe Experience Platform データセットを選択します。 データセットがリストに表示されない場合は、検索に対してデータセットが有効になっていて、データセットの検索マッピングが作成されていることを確認します。"
+>title="データセットのルックアップ"
+>abstract="必要な属性を持つ Adobe Experience Platform データセットを選択します。データセットがリストに表示されない場合は、ルックアップに対してデータセットが有効になっていて、データセットのルックアップマッピングが作成されていることを確認します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_formula_dataset_lookup"
->title="データセットルックアップ"
->abstract="データセット属性 [!DNL Adobe Experience Platform] 使用して、実際の条件を反映するようにランキングロジックを動的に調整します。 「**[!UICONTROL データセットを追加]**」をクリックして、必要な属性を持つAdobe Experience Platform データセットを選択します。 データセットがリストに表示されない場合は、検索に対してデータセットが有効になっていて、データセットの検索マッピングが作成されていることを確認します。"
+>title="データセットのルックアップ"
+>abstract="[!DNL Adobe Experience Platform] データセット属性を使用すると、実際の条件を反映するようにランキングロジックを動的に調整できます。「**[!UICONTROL データセットを追加]**」をクリックして、必要な属性を持つ Adobe Experience Platform データセットを選択します。データセットがリストに表示されない場合は、ルックアップに対してデータセットが有効になっていて、データセットのルックアップマッピングが作成されていることを確認します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_capping_dataset"
->title="データセットを追加"
->abstract="データセット属性 [!DNL Adobe Experience Platform] 使用して、動的な外部属性に基づいてキャッピング条件を定義します。 「**[!UICONTROL データセットを追加]**」をクリックして、必要な属性を持つAdobe Experience Platform データセットを選択します。 データセットがリストに表示されない場合は、検索に対してデータセットが有効になっていて、データセットの検索マッピングが作成されていることを確認します。"
+>title="データセットの追加"
+>abstract="[!DNL Adobe Experience Platform] データセットを使用して、動的な外部属性に基づいてキャップ条件を定義します。「**[!UICONTROL データセットを追加]**」をクリックして、必要な属性を持つ Adobe Experience Platform データセットを選択します。データセットがリストに表示されない場合は、ルックアップに対してデータセットが有効になっていて、データセットのルックアップマッピングが作成されていることを確認します。"
 
 >[!AVAILABILITY]
 >

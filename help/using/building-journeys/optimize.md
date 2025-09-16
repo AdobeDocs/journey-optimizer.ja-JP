@@ -14,7 +14,7 @@ version: Journey Orchestration
 source-git-commit: f1a44b91e8dfe28d0cf54c11a7912e568f3d176d
 workflow-type: tm+mt
 source-wordcount: '1257'
-ht-degree: 35%
+ht-degree: 37%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 35%
 >[!CONTEXTUALHELP]
 >id="ajo_path_experiment_success_metric"
 >title="成功指標"
->abstract="成功指標は、実験における最もパフォーマンスの高い処理の追跡と評価に使用されます。"
+>abstract="成功指標は、実験で最もパフォーマンスの高い処理を追跡および評価するために使用します。"
 
 実験を行うことで、ランダム分割に基づいて様々なパスをテストし、事前定義済みの成功指標に基づいて最もパフォーマンスが高いパスを判断できます。
 
