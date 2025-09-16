@@ -3,18 +3,15 @@ solution: Journey Optimizer
 product: journey optimizer
 title: ダークモードに切り替え
 description: E メールデザイナーでのダークモードの使用方法について説明します。
-badge: label="ベータ版" type="Informative"
 feature: Email Design
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 keywords: ダークモード, メール, カラー, エディター
-hide: true
-hidefromtoc: true
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
-source-git-commit: 6106c2cbd77a9962a0d496cdda3a7e6118e90bf0
+source-git-commit: b6f0174b31b4ef317c18644a93a4ae38a712fb36
 workflow-type: tm+mt
-source-wordcount: '1527'
+source-wordcount: '1513'
 ht-degree: 64%
 
 ---
@@ -30,10 +27,6 @@ ht-degree: 64%
 >id="ac_edition_darkmode_preview"
 >title="ダークモードに切り替え"
 >abstract="ダークモードに切り替えると、サポートされているメールクライアントでどのようにレンダリングされるかをプレビューできます。 <br> 最終的なレンダリングは、受信者のメールクライアントによって異なります。 なお、すべてのメールクライアントがダークモードをサポートしているわけではありません。"
-
->[!AVAILABILITY]
->
->この機能は現在ベータ版で、ベータ版のお客様のみご利用いただけます。<!--To join the beta program, contact your Adobe representative.-->
 
 メールをデザインする際に、[!DNL Journey Optimizer][ メールDesigner](get-started-email-design.md) を使用して **[!UICONTROL ダークモード]** ビューに切り替えることができます。
 
