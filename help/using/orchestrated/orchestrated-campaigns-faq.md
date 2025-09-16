@@ -5,10 +5,10 @@ title: 調整されたキャンペーンに関するよくある質問
 description: Journey Optimizer の調整されたキャンペーンに関するよくある質問
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 8205d248d986cdc1a2262705c58524c2434265f5
+source-git-commit: 028f5d506d5fdbd2ed19ad7ded8c1fcd0a391702
 workflow-type: tm+mt
-source-wordcount: '1124'
-ht-degree: 22%
+source-wordcount: '1043'
+ht-degree: 21%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 22%
 
 Adobe Journey Optimizer の調整されたキャンペーンに関するよくある質問を以下に示します。
 
-さらに詳細が必要ですか？このページの下部にあるフィードバックオプションを使用して質問を提起するか、[Adobe Journey Optimizer コミュニティ ](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"} とつながってください。
+さらに詳細が必要ですか？このページの下部にあるフィードバックオプションを使用して質問を提起するか、[Adobe Journey Optimizer コミュニティ ](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"} とつながってください。
 
 ## Campaign オーケストレーションとは {#what-are-oc}
 
@@ -105,7 +105,7 @@ Adobe Journey Optimizerでの Campaign オーケストレーションは、リ�
 
 >[!ENDSHADEBOX]
 
-## このデータを使用してメッセージをパーソナライズできますか？ {#personalization}
+## リレーショナルデータを使用してメッセージをパーソナライズできますか？ {#personalization}
 
 はい。Campaign オーケストレーションでは、「人物エンティティ」と呼ばれる受信者プロファイルを更新でき、そのデータをパーソナライゼーションに使用できます。 また、リレーショナルデータベース内のリンクエンティティのエンリッチメントされたデータをパーソナライゼーションに使用することもできます。 顧客プロファイルとリンクされたデータ（購入やサブスクリプションなど）を一緒に使用して、サポートされているすべてのチャネル全体でコンテンツをパーソナライズできます。
 
@@ -120,7 +120,7 @@ Adobe Journey Optimizerでの Campaign オーケストレーションは、リ�
 >[!ENDSHADEBOX]
 
 
-## 他のアドビソリューションと統合されていますか？ {#integrations}
+## オーケストレートキャンペーンは他のAdobe ソリューションと統合されますか？ {#integrations}
 
 はい。Campaign オーケストレーションは、次のアプリケーションとネイティブに統合されています。
 
@@ -142,7 +142,7 @@ Adobe Journey Optimizerでの Campaign オーケストレーションは、リ�
 
 >[!ENDSHADEBOX]
 
-## アドホックセグメント化を実行できますか？ {#ad-hoc}
+## オーケストレートキャンペーンでアドホックセグメント化を行うことができますか？ {#ad-hoc}
 
 Campaign Orchestration では、アドホックセグメント化を「ライブセグメント化」と呼びます。このセグメント化では、リレーショナルストアで利用可能なすべてのデータにリアルタイムでアクセスし、その上に複雑なクエリを作成して、アウトバウンドチャネル（例：メール + SMS）を通じて即時にアクティブ化の結果を取得できます。
 
@@ -158,7 +158,7 @@ Campaign Orchestration では、アドホックセグメント化を「ライブ
 
 
 
-## 決定はサポートされていますか？ {#decisioning}
+## 調整されたキャンペーンは意思決定をサポートしますか？ {#decisioning}
 
 はい。決定では、オーケストレートキャンペーンのリレーショナルデータを使用できます。 リレーショナルスキーマを XDM スキーマに接続すると、XDM データを意思決定で使用できます。
 
@@ -176,16 +176,17 @@ Campaign Orchestration では、アドホックセグメント化を「ライブ
 
 >[!ENDSHADEBOX]
 
-## キャンペーンを大規模に実行するための推奨プラクティスはありますか？ {#scale}
+<!--
+## Are there recommended practices for running campaigns at scale? {#scale}
 
-はい、次のベストプラクティスに従います。
+Yes, follow the best practices below:  
 
-* **ビジネスカレンダーに沿ったキャンペーンを計画** （製品の発売、季節的なピーク）して、ボリュームとリソースを調整します。
-* 送信する前に **オーディエンスの事前ビュー** を使用して、予想されるサイズを確認し、予期しない事態を回避します。
-* 可能な場合は、**送信時間を分散** して、ダウンストリームのシステム（コールセンター、web サイトなど）が過度に多くならないようにします。
-* 各送信後の配信ログ、エラー率、オプトアウトを追跡するための **監視ルーチン** を確立します。
-* Customer Journey Analyticsで **キャンペーン後分析** を実行して、次のサイクルのターゲティングとオーケストレーションを絞り込みます。
-
+* **Plan campaigns around business calendars** (product launches, seasonal peaks) to align volume and resources.  
+* Use **audience pre-views** before sending to confirm the expected size and avoid surprises.  
+* Where possible, **stagger send times** to avoid overwhelming downstream systems (e.g., call centers, websites).  
+* Establish a **monitoring routine**—track delivery logs, error rates, and opt-outs after each send.  
+* Run **post-campaign analysis** in Customer Journey Analytics to refine targeting and orchestration for the next cycle.  
+-->
 
 
 >[!MORELIKETHIS]
