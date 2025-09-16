@@ -8,39 +8,55 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: スキーマ, Platform, データ, 構造
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: 1a2c6e97fcd30245cff1bf08fd5771ce8bc84ddc
+source-git-commit: 70f647cf4e95c1152a5c16395b88b11a6b72865c
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # スキーマの基本を学ぶ {#schemas-gs}
 
-スキーマは Experience Platform での標準的なデータ記述方法で、スキーマに適合するすべてのデータを組織間で競合なく再利用可能にし、さらに複数の組織間で共有できるようになります。
+[!DNL Adobe Journey Optimizer] は、**Adobe Experience Platform スキーマを利用して** 一貫した再利用可能な方法でデータの構造を記述しています。 スキーマは、実際のオブジェクト（人など）の抽象的な定義を提供し、そのオブジェクトの各インスタンスに含めるデータ（名前、生年月日など）の概要を示します。 データがExperience Platformに取り込まれると、常に **XDM スキーマ** に従って構造化されます。
 
-➡️ [スキーマの作成と設定の方法については、このビデオ ](#video-schema)（ビデオ）をご覧ください。
+## 標準スキーマとリレーショナルスキーマ
 
-スキーマは、データの構造と形式を表し、検証する一連のルールです。スキーマは、概要レベルで、実世界のオブジェクト（人など）の抽象的な定義を提供し、そのオブジェクトの各インスタンスに含めるデータ（名、姓、誕生日など）の概要を示します。
+Adobe Experience Platformには次の 2 種類のスキーマがあります。
 
-スキーマの作成方法について詳しくは、[このドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ja){target="_blank"}を参照してください。
+* **標準スキーマ** は、クラスおよびフィールドグループを使用してレコードまたは時系列データをキャプチャする階層スキーマです。
 
-[!DNL Adobe Journey Optimizer] ユーザーインターフェイスの&#x200B;**スキーマ**&#x200B;ワークスペースを使用すると、スキーマ、クラス、スキーマフィールドグループ、データタイプなどの Experience Data Model（XDM）リソースを管理できます。アドビから提供されるコアリソースを表示および調査し、組織のカスタムリソースおよびスキーマを作成できます。
+  標準スキーマは、次の要素で構成されます。
 
-![](assets/schemas-home.png)
+   * **クラス** （データの動作を定義します：レコードまたは時系列）。
+   * 1 つ以上の **フィールドグループ** （スキーマに特定のフィールドを追加します）。
 
-スキーマユーザーインターフェイスの使用方法については、[このドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=ja){target="_blank"}を参照してください
+  Journey Optimizerでは、通常、標準スキーマを使用して **個人とその属性** を表し、クリック、購入、ログインなどの **時系列のインタラクション** をキャプチャし、セグメント化とパーソナライゼーションのための **リアルタイム顧客プロファイル** を強化します。
 
-スキーマエディターを使用してスキーマを作成する手順について詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja){target="_blank"}を参照してください。
+  ➡️[ このビデオで標準スキーマの作成および設定方法を説明します ](#video-schema) （ビデオ）
 
-各スキーマのフィールドと属性の完全なリストを表示するには、[Journey Optimizer スキーマ辞書](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja){target="_blank"}を参照してください。
+* **リレーショナルスキーマ** は、クラスやフィールドグループを使用しない、フラットな非階層スキーマです。 リレーショナルエンティティのレコードデータを取得するために使用され、主に [!DNL Journey Optimizer] オーケストレートキャンペーン **で使用され** す。
 
+  リレーショナルエンティティの例を次に示します。
+   * 予約、契約または購読
+   * 製品またはカタログ
+   * ストア、ロケーション、パートナー
+
+  リレーショナルスキーマを使用すると、エンティティ（予約、サブスクリプションなど）ごとに 1 つのメッセージを送信し、エンティティ属性（製品カテゴリ、ストアの場所など）に基づいてセグメントを作成し、エンティティにリンクされたすべての連絡先にアクセスすることでアドレス可能性を向上させることができます。
+
+  リレーショナルスキーマの機能：
+
+   1. **手動でスキーマを作成するか、DDL を使用してインポートする**
+   1. **スキーマをリンク**：エンティティと人物の関係を定義します（例：メンバーにリンクされたロイヤルティトランザクション、ブランドにリンクされた報酬）。
+   1. サポートされているソースからデータセットに&#x200B;**データを取得**&#x200B;します。
+
+  ➡️ [ リレーショナルスキーマとデータセットの管理方法を学ぶ ](../orchestrated/gs-schemas.md)
+➡️[ オーケストレートキャンペーンの概要 ](../orchestrated/gs-schemas.md)
 
 ## チュートリアルビデオ{#video-schema}
 
-スキーマの作成、フィールドグループの追加、カスタムフィールドグループの作成および設定の方法について説明します。
+標準スキーマの作成、フィールドグループの追加、カスタムフィールドグループの作成および設定の方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3417458?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/334461?quality=12)
 
 >[!MORELIKETHIS]
 >
