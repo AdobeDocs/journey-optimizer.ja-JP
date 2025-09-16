@@ -70,7 +70,7 @@ Adobe Journey Optimizer のジャーニーレポートは、メール、SMS、we
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=ja)
 
 アプリ内メッセージのインサイト
 

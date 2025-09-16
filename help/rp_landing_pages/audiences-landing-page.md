@@ -20,7 +20,7 @@ Adobe Journey Optimizer のオーディエンスは、顧客の行動、好み�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 オーディエンスの基本を学ぶ
 
@@ -40,7 +40,7 @@ CSV の読み込みや連合データソースなど、オーディエンスの�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 キャンペーンとジャーニーでのオーディエンスのアクティブ化
 

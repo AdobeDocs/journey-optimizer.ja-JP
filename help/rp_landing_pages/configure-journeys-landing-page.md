@@ -50,7 +50,7 @@ Adobe Journey Optimizer でのデータソースの設定
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=ja)
 
 カスタムアクションの設定と使用
 

@@ -20,7 +20,7 @@ Adobe Journey Optimizer の「コンバージョン」の節では、データ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 toBool 関数
 
@@ -30,7 +30,7 @@ toBool 関数を使用して、様々なデータタイプをブール値に変�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 toDateOnly 関数
 
@@ -40,7 +40,7 @@ toDateOnly 関数を使用して、日付表現を dateOnly 型に変換しま�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 toDateTime 関数
 
@@ -50,7 +50,7 @@ toDateTime 関数を使用して、様々な入力を日時の値に変換しま
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 toDateTimeOnly 関数
 
@@ -60,7 +60,7 @@ toDateTimeOnly 関数を使用して、タイムゾーンを含まない日時�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 toDecimal 関数
 
@@ -70,7 +70,7 @@ toDecimal 関数を使用して、様々なデータタイプを小数値に変�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 toDuration 関数
 

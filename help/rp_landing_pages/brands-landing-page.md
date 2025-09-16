@@ -20,7 +20,7 @@ Adobe Journey Optimizer の「ブランド」機能を使用すると、すべ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 ブランドガイドラインの作成と管理
 

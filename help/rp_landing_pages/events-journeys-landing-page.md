@@ -30,7 +30,7 @@ Adobe Journey Optimizer のイベント設定とは、パーソナライズさ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 単一イベントの設定
 

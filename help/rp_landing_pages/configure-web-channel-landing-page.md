@@ -20,7 +20,7 @@ Adobe Journey Optimizer で web チャネルを設定すると、パーソナラ
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
 
 Web チャネルの前提条件
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer でコンテンツを公開する web サブドメイン
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 Web チャネルの作成と設定
 

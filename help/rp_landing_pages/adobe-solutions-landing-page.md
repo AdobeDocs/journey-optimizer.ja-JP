@@ -20,7 +20,7 @@ Adobe Journey Optimizer は、**Adobe Campaign Standard**、**Campaign v7／v8**
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 Adobe Journey Optimizer と Adobe Campaign Standard の統合
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer を Adobe Campaign Standard と統合して、メール�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 Adobe Journey Optimizer と Adobe Campaign v7／v8 の統合
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer を Adobe Campaign v7／v8 に接続して、メール�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 Adobe Journey Optimizer と Marketo Engage の統合
 

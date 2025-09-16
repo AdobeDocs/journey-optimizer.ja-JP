@@ -20,7 +20,7 @@ Adobe Journey Optimizer のコンテンツ管理機能を使用すると、キ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 Adobe Journey Optimizer のパーソナライゼーション
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer のパーソナライゼーション
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 Adobe Journey Optimizer のランディングページ
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer のランディングページ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 Adobe Journey Optimizer のコンテンツテンプレート
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer のコンテンツテンプレート
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 再利用可能なコンテンツフラグメント
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer のコンテンツテンプレート
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 Adobe Journey Optimizer の動的コンテンツ
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer の動的コンテンツ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 クロスソリューションのユースケース
 

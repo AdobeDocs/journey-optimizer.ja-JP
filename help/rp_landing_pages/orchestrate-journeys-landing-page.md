@@ -20,7 +20,7 @@ Adobe Journey Optimizer のジャーニーを使用すると、オーディエ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 Adobe Journey Optimizer ジャーニーの基本を学ぶ
 

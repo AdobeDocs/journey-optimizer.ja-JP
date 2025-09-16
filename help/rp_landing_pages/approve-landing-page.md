@@ -30,7 +30,7 @@ Adobe Journey Optimizer でジャーニーとキャンペーンを承認する�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 承認ポリシーを作成および管理する方法
 

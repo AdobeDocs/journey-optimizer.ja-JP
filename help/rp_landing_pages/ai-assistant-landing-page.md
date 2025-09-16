@@ -30,7 +30,7 @@ AI アシスタントの基本を学ぶ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ja)
 
 AI を使用したメールコンテンツ生成
 
@@ -60,7 +60,7 @@ AI アシスタントを使用して、ブランドガイドラインを遵守�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=ja)
 
 Web ページのコンテンツとアセットの生成
 

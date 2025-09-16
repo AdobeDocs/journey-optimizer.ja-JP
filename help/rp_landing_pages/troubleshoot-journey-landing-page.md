@@ -64,4 +64,4 @@ Adobe Journey Optimizer でのカスタムアクションのトラブルシュ�
 
 ### その他のリソース
 
-さらに、一般的なエラーコードとその効果的な解決方法を詳しく説明した[こちらのアドビコミュニティのブログ投稿](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884)も参照してください。
+さらに、一般的なエラーコードとその効果的な解決方法を詳しく説明した[こちらのアドビコミュニティのブログ投稿](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=ja)も参照してください。

@@ -30,7 +30,7 @@ Adobe Journey Optimizer で SMS、MMS、RCS メッセージを設定、作成、
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 SMS、MMS、RCS メッセージの作成方法
 
@@ -40,7 +40,7 @@ SMS、MMS、RCS メッセージの作成方法
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 テキストメッセージの確認および送信
 
