@@ -5,10 +5,10 @@ title: 式の作成
 description: 式の作成
 redpen-status: CREATED_||_2025-08-11_20-19-10
 exl-id: 6ccd0bc7-fb40-48de-abcb-0cb1eb2c6303
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
-source-wordcount: '183'
-ht-degree: 100%
+source-git-commit: a5f0b47b9af31c1ae1fd6ae3dffd4c260444297a
+workflow-type: tm+mt
+source-wordcount: '246'
+ht-degree: 95%
 
 ---
 
@@ -48,5 +48,27 @@ Adobe Journey Optimizer の関数
 
 [使用可能な関数の確認](main-functions-journey-landing-page.md)
 :::
+
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+
+Journey Optimizer データセットに関するクエリの例と関連するユースケース
+
+実用的な SQL クエリの例にアクセスして、様々なユースケースの Journey Optimizer データセット間でデータを分析および管理します。
+
+[ユースケースの確認](../using/data/datasets-query-examples.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+
+データ分析用の SQL クエリの例
+
+トラブルシューティングからレポート、オーディエンスのセグメント化に至るまで、データレイク内の Journey Optimizer データを分析するためのサンプル SQL クエリにアクセスします。
+
+[ジャーニーの作成の探索](../using/reports/query-examples.md)
+:::
+
 
 ::::
