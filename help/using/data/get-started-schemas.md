@@ -56,7 +56,7 @@ Adobe Experience Platformには次の 2 種類のスキーマがあります。
 
 標準スキーマの作成、フィールドグループの追加、カスタムフィールドグループの作成および設定の方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/334461?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3417458?quality=12&captions=jpn)
 
 >[!MORELIKETHIS]
 >
