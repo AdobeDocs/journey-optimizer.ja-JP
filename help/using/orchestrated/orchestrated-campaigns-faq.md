@@ -5,10 +5,10 @@ title: 調整されたキャンペーンに関するよくある質問
 description: Journey Optimizer の調整されたキャンペーンに関するよくある質問
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: aea8e1bc6f34400070234195f576fa7df59dca7d
+source-git-commit: 9ae0d910f6246b87683b04db97bbdb7355beb349
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 20%
+source-wordcount: '1419'
+ht-degree: 14%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 20%
 
 Adobe Journey Optimizer の調整されたキャンペーンに関するよくある質問を以下に示します。
 
-さらに詳細が必要ですか？このページの下部にあるフィードバックオプションを使用して質問を提起するか、[Adobe Journey Optimizer コミュニティ ](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"} とつながってください。
+さらに詳細が必要ですか？このページの下部にあるフィードバックオプションを使用して質問を提起するか、[Adobe Journey Optimizer コミュニティ ](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"} とつながってください。
 
 ## Campaign オーケストレーションとは {#what-are-oc}
 
@@ -51,22 +51,6 @@ Journey Optimizerに新しいタイプのキャンペーン **オーケストレ
 キャンペーンオーケストレーションにアクセスするには、ライセンスに **Journey Optimizer - キャンペーンとジャーニー**&#x200B;または **Journey Optimizer - キャンペーン**&#x200B;パッケージのいずれかが含まれている必要があります。ライセンスを確認し、必要に応じて更新するには、アドビ担当者にお問い合わせください。
 
 Campaign オーケストレーションライセンスモデルについて詳しくは、[Adobe Journey Optimizerの製品説明 ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} を参照してください。
-
-## どのチャネルがサポートされていますか？ {#channels}
-
-オーケストレーションされたキャンペーンを作成して、**メール**、**SMS** および **プッシュ通知** を送信できます。
-
-
->[!BEGINSHADEBOX]
-
-**Recommendations**
-
-* チャネルを **メッセージの特性** に一致させます（例：緊急= SMS、パーソナライズされたオファー= メール、コンテキスト = プッシュ）。
-* チャネルをアクティブ化する前に、同意および購読の環境設定を常に検証します。
-* 複数のデバイスとクライアントにわたってメッセージレンダリングをテストし、一貫性のあるエクスペリエンスを確保します。
-
->[!ENDSHADEBOX]
-
 
 ## オーケストレートキャンペーンとジャーニーの違いは何ですか？ {#oc-vs-journeys}
 
@@ -128,6 +112,31 @@ Yes. Campaign orchestration is natively integrated with:
 * **Real-Time CDP**: Audiences built in Campaigns can be read in Real-Time CDP.  
 * **Federated Audience Composition (FAC)**: Available as an add-on.  -->
 
+## どのチャネルがサポートされていますか？ {#channels}
+
+オーケストレーションされたキャンペーンを作成して、**メール**、**SMS** および **プッシュ通知** を送信できます。
+
+## 同じオーケストレートキャンペーン内で複数の通信と異なるチャネルを開始することはできますか？
+
+はい、オーケストレートキャンペーンは、クロスチャネルオーケストレーションをサポートします。
+
+## オーケストレーションされたキャンペーンテンプレートは使用できますか？
+
+いいえ。キャンペーンテンプレートを定義したり使用したりすることはできませんが、コミュニケーションにコンテンツテンプレートを使用することはできます。
+
+## メッセージのコンテンツデザイナーはオーケストレートキャンペーンに特有のものですか？
+
+いいえ。メールDesignerを含むコンテンツデザイナーは、Journey Optimizerのすべての機能で共通です。
+
+## オーケストレートキャンペーンでは、様々なチャネルはどのように結び付けられますか。
+
+チャネルコンポーネントとランタイムはすべてのJourney Optimizer キャンペーンに共通ですが、サポートされるチャネルは異なります。
+
+## オーケストレートキャンペーンをアウトバウンドチャネル（web、アプリ内）に接続することはできますか？
+
+いいえ。アウトバウンドチャネルはオーケストレートキャンペーンではサポートされていません。
+
+
 ## 権限と同意について教えてください。 {#permissions}
 
 オーケストレーションされたキャンペーンとジャーニーの権限と同意は、Adobe Experience Platformで一元的に管理されます。 これらの設定は、送信する前に、各受信者に対して両方のソリューションに適用されます。
@@ -156,7 +165,9 @@ Campaign Orchestration では、アドホックセグメント化を「ライブ
 
 >[!ENDSHADEBOX]
 
+## Campaign オーケストレーションは、バッチを介して読み込まれたデータにのみアクセスしますか。それとも、リアルタイムに更新されたテーブル（Analytics データなど）に対してクエリを実行することもできます。
 
+Journey Optimizer Campaign オーケストレーションは、まずリレーショナルスキーマに基づいてアドホッククエリを作成できます。 リレーショナルスキーマは、現時点ではバッチソースのみをサポートします。 さらに、任意のタイプのAdobe Experience Platform Audience からのオーディエンスの読み取りをサポートしています。
 
 ## 調整されたキャンペーンは意思決定をサポートしますか？ {#decisioning}
 
@@ -187,6 +198,39 @@ Yes, follow the best practices below:
 * Establish a **monitoring routine**—track delivery logs, error rates, and opt-outs after each send.  
 * Run **post-campaign analysis** in Customer Journey Analytics to refine targeting and orchestration for the next cycle.  
 -->
+
+## 受信者とプロファイルエンティティの関係
+
+Adobe Experience Platform プロファイルに対して送信する際、受信者に対してセグメント化が実行されます。 受信者のターゲットディメンションは、オーケストレートキャンペーン内のセグメント化に使用される追加データで統合プロファイルを拡張します。一方、受信者は、メッセージを送信するために実行時にプロファイルと調整され、同意ポリシーおよびビジネスルールを確認します。 この紐付けは、プロファイルレベルでビジネスルールと同意適用を統合する場合に役立ちます
+
+![](assets/recipients-and-profiles.png)
+
+
+## 受信者エンティティとプロファイルエンティティのどちらを使用することをお勧めしますか？
+
+「はい」と答えると最適なデータストアが示唆されますが、常にユースケースとAdobe担当者との制約に基づいて最適なアプローチを確認してください。
+
+| リレーショナルストア | リアルタイム顧客プロファイル |
+|---------|----------|
+| ソースは既にリレーショナルなデータですか？ | はデータストリーミングのソースか |
+| マーケティングのユースケースに合わせて、データをそのまま取り込む予定はありますか？ | データの鮮度は主な要件ですか？ |
+| マーケティングアクティベーションのユースケースには大量の履歴データ（2 か月 `>`）が必要ですか？ | その時点のアクションまたは決定にデータが必要なシナリオはありますか？ |
+| オーディエンスの作成、評価およびアクティベーションに対してアドホックなニーズがあるか。 | 事前に設定された集計を使用して、行動データを `<` 90 日に制限することはできますか？ |
+|  | メッセージをリアルタイムでパーソナライズするには、データが必要ですか？ |
+
+
+## オーケストレートキャンペーンあたりのアクティビティの最大数はいくつですか？
+
+オーケストレーションされたキャンペーンのアクティビティの数は 500 に制限されます。
+
+## データを追加するためのエンリッチメントを実行できますか？
+
+はい。リレーショナルストアとAdobe Experience Platform オーディエンスのデータをエンリッチメントできます。
+
+## すべてのフィルターは、オーディエンス経由で定義する必要があります。それとも、何らかのタイプのフィルターを設定できますか。
+
+オーケストレートキャンペーンは定義済みフィルターをサポートしています。クエリを定義してフィルターとして保存し、お気に入りに追加して、さらにセグメント化タスクで再利用できます。
+
 
 
 >[!MORELIKETHIS]
