@@ -5,10 +5,10 @@ title: 設定の手順
 description: DDL をアップロードして Adobe Experience Platform 内でリレーショナルスキーマを作成する方法について説明します。
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 69644e85d9c453f34fe8c5d40e0c1e8dce2891a5
 workflow-type: tm+mt
 source-wordcount: '236'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
    テーブル、属性、関係を含むデータモデルの構造を定義します。ユーザーインターフェイスでスキーマを手動で作成するか、設定の高速化に DDL ファイルをアップロードするかを選択します。
 
-   また、スキーマを手動で作成する際は、データセットも手動で作成して有効にする必要があります。DDL ファイルを使用する際、データセットの作成とイネーブルメントは自動的に行われます。
+   また、スキーマを手動で作成する際は、データセットも手動で作成して有効にする必要があります。DDL ファイルを使用する場合、データセットの作成とイネーブルメントは自動的に行われます。
 
 1. [スキーマをリンク](file-upload-schema.md)
 
