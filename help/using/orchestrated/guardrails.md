@@ -5,17 +5,17 @@ title: 調整されたキャンペーンのガードレールと制限
 description: 調整されたキャンペーンのガードレールと制限について説明します
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
-source-git-commit: 35cd3aac01467b42d0cba22de507f11546f4feb9
+source-git-commit: 359a2e5b60ba035e300f452e1211245f8f689609
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 78%
+source-wordcount: '459'
+ht-degree: 75%
 
 ---
 
 
 # ガードレールと制限 {#guardrails}
 
-次に、調整されたキャンペーンを使用する際の追加のガードレールと制限を示します。
+オーケストレートキャンペーンを使用する際には、以下のガードレールと制限があります。
 
 ## データフローの制限
 
