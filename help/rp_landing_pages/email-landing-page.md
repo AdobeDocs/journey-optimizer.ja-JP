@@ -8,13 +8,13 @@ exl-id: f7c61cc3-943e-40a3-94be-f3f1bd46961d
 source-git-commit: 9cb3a60fb9a2266b4723dfc1b952f1bab11b97e3
 workflow-type: tm+mt
 source-wordcount: '333'
-ht-degree: 27%
+ht-degree: 83%
 
 ---
 
 # メールチャネル{#section-overview}
 
-Adobe Journey Optimizerのメールチャネルを使用すると、効果的なメールキャンペーンを正確かつクリエイティブに設計、設定および配信できます。 直感的な電子メールDesignerを使用してパーソナライズされたメッセージを作成する場合でも、高度な電子メールジャーニーやキャンペーンを設定する場合でも、コンプライアンスのためのオプトアウトを管理する場合でも、このチャネルは、電子メールマーケティングのあらゆる側面を 1 つの屋根の下に置きます。 最適な配信品質とパーソナライゼーションを実現するメールチャネルの設定から始めて、オーディエンスの共感を得られる動的コンテンツを作成するツールを検討します。 送信者のレピュテーションの管理やDMARCのコンプライアンスの達成など、高度なトピックを深く掘り下げて、メールが意図した場所に届くようにします。 シームレスな設定から効果的な設計と戦略的配信に至るまで、メールチャネルは、メールマーケティングを信頼性の高いデータ駆動型エンジンに変換して顧客エンゲージメントを高めることができます。
+Adobe Journey Optimizer のメールチャネルを使用すると、正確でクリエイティブに、影響力のあるメールキャンペーンをデザイン、設定、配信できます。直感的な電子メールDesignerを使用してパーソナライズされたメッセージを作成する場合でも、高度な電子メールジャーニーやキャンペーンを設定する場合でも、コンプライアンスのためのオプトアウトを管理する場合でも、このチャネルは、電子メールマーケティングのあらゆる側面を 1 つの屋根の下に置きます。 まず、最適な配信品質とパーソナライゼーションのためにメールチャネルを設定し、次に、オーディエンスの共感を得られる動的なコンテンツを作成するツールを探索します。送信者のレピュテーションの管理やDMARCのコンプライアンスの達成など、高度なトピックを深く掘り下げて、メールが意図した場所に届くようにします。 シームレスな構成から効果的なデザインと戦略的配信まで、メールチャネルは、メールマーケティングを顧客エンゲージメントの信頼性の高いデータ駆動型エンジンに変換するツールを提供します。
 
 メール配信を作成するには、次の手順を実行します。
 
@@ -32,51 +32,51 @@ Adobe Journey Optimizerのメールチャネルを使用すると、効果的な
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 メールの作成方法
 
-ジャーニーまたはキャンペーンでメールアクションを追加、設定およびテストする手順ガイド。
+ジャーニーまたはキャンペーンでメールアクションを追加、設定、テストする手順について説明します。
 
-[メールの作成方法を学ぶ](../using/email/create-email.md)
+[メールの作成方法の詳細情報](../using/email/create-email.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 メールコンテンツのデザインと最適化
 
-レスポンシブでパーソナライズされたメールコンテンツをAdobe Journey Optimizerでデザインするためのツールとベストプラクティスについて説明します。
+Adobe Journey Optimizer を使用して、レスポンシブでパーソナライズされたメールコンテンツをデザインするツールとベストプラクティスについて説明します。
 
 [魅力的なメールのデザイン](design-email-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 メールオプトアウトの管理
 
-ユーザーの環境設定を管理し、コンプライアンスを維持するために、1 クリックまたは 2 ステップのオプトアウトメカニズムを設定します。
+ユーザーの環境設定を管理し、コンプライアンスを維持するのに、ワンクリックまたは 2 ステップのオプトアウトメカニズムを設定します。
 
 [メールオプトアウトの設定](../using/email/email-opt-out.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 メールチャネルの設定
 
-サブドメインのデリゲーション、抑制リスト、高度な機能などのメール設定を設定および管理します。
+サブドメインのデリゲーション、抑制リスト、高度な機能などのメール設定を指定および管理します。
 
 [メール設定の指定](configure-email-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
-E メール配信品質の習得
+メールの配信品質の取得
 
-ツール、ベストプラクティス、実用的なインサイトを使用して、メールの配信品質を理解し最適化することで、送信者の評判を向上させます。
+ツール、ベストプラクティス、実用的なインサイトを使用して、メールの配信品質を理解および最適化し、送信者の評判を向上させます。
 
 [メールの配信品質の向上](deliverability-landing-page.md)
 :::

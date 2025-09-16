@@ -8,65 +8,65 @@ exl-id: 6fc5b0f4-95a5-431d-a80a-3a1f71b4dd0d
 source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
 workflow-type: tm+mt
 source-wordcount: '210'
-ht-degree: 8%
+ht-degree: 73%
 
 ---
 
 # キャンペーン{#section-overview}
 
-Adobe Journey Optimizerのキャンペーンを使用すると、様々なチャネルにわたってパーソナライズされた効果的なメッセージをタイムリーに配信でき、オーディエンスのエンゲージメントを向上させることができます。 1 回限りのプロモーションメールを計画する場合でも、リアルタイムのトランザクションメッセージを自動化する場合でも、複雑な複数の手順から成るジャーニーを調整する場合でも、ニーズに合わせてカスタマイズされたキャンペーンタイプがあります。 ここでは、アクションキャンペーン、API トリガーキャンペーン、オーケストレートキャンペーンの 3 つの主なキャンペーンタイプを紹介し、それぞれの独自の強みとユースケースについて重点的に説明します。 また、権限、オーディエンス設定、チャネル設定などの基本的な構成要素についても説明し、顧客の共感を得られるキャンペーンの作成と管理のためにすべてを整備します。
+Adobe Journey Optimizer のキャンペーンを使用すると、様々なチャネルをまたいでパーソナライズされたインパクトのあるメッセージをタイムリーに配信して、オーディエンスのエンゲージメントを効果的に向上させることができます。1 回限りのプロモーションメールを計画する場合でも、リアルタイムのトランザクションメッセージを自動化する場合でも、複雑な複数の手順から成るジャーニーを調整する場合でも、ニーズに合わせてカスタマイズされたキャンペーンタイプがあります。 この節では、主な 3 つのキャンペーンタイプ（アクションキャンペーン、API トリガーキャンペーン、調整されたキャンペーン）を紹介し、それぞれの独自の強みとユースケースに焦点を当てて説明します。また、権限、オーディエンス設定、チャネル設定などの基本的な構成要素についても説明し、顧客の共感を得られるキャンペーンの作成と管理のためにすべてを整備します。
 
 ## キャンペーンの概要
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-キャンペーンの基本を学ぶ
+キャンペーンを使い始める
 
-タイプ、権限、前提条件など、Adobe Journey Optimizerでのキャンペーンの基本について説明します。
+タイプ、権限、前提条件など、Adobe Journey Optimizer のキャンペーンの基本について説明します。
 
 [キャンペーンの基本を学ぶ](../using/campaigns/get-started-with-campaigns.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 キャンペーンへのアクセスと管理
 
-キャンペーンにアクセス、管理、変更、アーカイブする方法と、キャンペーンカレンダー表示を確認します。
+キャンペーンにアクセス、管理、変更、アーカイブする方法確認し、キャンペーンのカレンダー表示を探索します。
 
-[キャンペーンの管理方法について学ぶ](../using/campaigns/manage-campaigns.md)
+[キャンペーンの管理方法を学ぶ](../using/campaigns/manage-campaigns.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 アクションキャンペーン
 
-バッチ通信用のアクションキャンペーンを作成、カスタマイズおよびアクティブ化する手順のガイダンス。
+バッチ通信のアクションキャンペーンを作成、カスタマイズおよびアクティベートする詳細なガイダンス。
 
-[アクションキャンペーンの調査](action-campaigns-landing-page.md)
+[アクションキャンペーンの探索](action-campaigns-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 API トリガーキャンペーン
 
-リアルタイム API トリガーキャンペーンの作成と管理に関する、開発者向けの包括的なガイダンス。
+リアルタイムの API トリガーキャンペーンの作成と管理に関する開発者向けの包括的なガイダンス。
 
-[API トリガーキャンペーンについて学ぶ](api-triggered-campaigns-landing-page.md)
+[詳しくは、API トリガーキャンペーンを参照してください。](api-triggered-campaigns-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 調整されたキャンペーン
 
-高度な複数手順マーケティングキャンペーンの設計、開始および管理に関する詳細な手順。
+複数の手順から成る高度なマーケティングキャンペーンのデザイン、開始および管理に関する詳細な手順。
 
-[調整されたキャンペーンの詳細](orchestrated-campaigns-landing-page.md)
+[詳しくは、調整されたキャンペーンを参照してください。](orchestrated-campaigns-landing-page.md)
 :::
 
 ::::
