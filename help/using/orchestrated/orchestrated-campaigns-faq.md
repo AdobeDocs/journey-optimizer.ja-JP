@@ -16,7 +16,7 @@ ht-degree: 22%
 
 Adobe Journey Optimizer の調整されたキャンペーンに関するよくある質問を以下に示します。
 
-さらに詳細が必要ですか？このページの下部にあるフィードバックオプションを使用して質問を提起するか、[Adobe Journey Optimizer コミュニティ ](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"} とつながってください。
+さらに詳細が必要ですか？このページの下部にあるフィードバックオプションを使用して質問を提起するか、[Adobe Journey Optimizer コミュニティ ](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"} とつながってください。
 
 ## Campaign オーケストレーションとは {#what-are-oc}
 
