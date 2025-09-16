@@ -4,19 +4,19 @@ product: Journey Optimizer
 title: コンバージョン
 description: コンバージョン
 redpen-status: CREATED_||_2025-08-11_20-13-12
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: c3b49adc-40d9-40e2-8496-e3037621f522
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '262'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-
 # コンバージョン{#section-overview}
 
-Adobe Journey Optimizerの「コンバージョン」セクションを使用すると、ワークフローのニーズに合った形式にデータを変換でき、動的でパーソナライズされたジャーニーの構築が容易になります。 文字列をブール値に、日付を整数に、期間を読み取り可能な形式に変換するかどうかに関わらず、このカテゴリの各関数は、データ操作を簡素化するという一般的な目標を共有しながら、固有の目的を果たします。 「toBool」、「toDateOnly」、「toInteger」などの関数の仕組みを、わかりやすい例を使って見ていきましょう。 これらのツールを習得すると、ジャーニールールに合わせてデータをシームレスに適応させ、カスタマイズされたエクスペリエンスを正確に提供できます。
+Adobe Journey Optimizer の「コンバージョン」の節では、データをワークフローのニーズに合った形式に変換できるので、動的でパーソナライズされたジャーニーを簡単に作成できます。文字列をブール値に変換する場合や、日付を整数に変換する場合、期間を読み取り可能な形式に変換する場合のいずれであっても、このカテゴリの各関数は、データ操作を簡素化するという共通の目標を共有しながら、独自の目的を果たします。「toBool」、「toDateOnly」、「toInteger」などの関数の仕組みを、わかりやすい例を使用して説明します。これらのツールを習得することで、データをジャーニールールに合わせてシームレスに調整し、カスタマイズされたエクスペリエンスを正確に提供できます。
 
-## Adobe Journey Optimizerのコンバージョン関数
+## Adobe Journey Optimizer のコンバージョン関数
 
 :::: landing-cards-container
 :::
@@ -26,7 +26,7 @@ toBool 関数
 
 toBool 関数を使用して、様々なデータタイプをブール値に変換します。
 
-[toBool 関数の使用方法を説明します](../using/building-journeys/functions/functiontobool.md)
+[toBool 関数の使用方法の詳細情報](../using/building-journeys/functions/functiontobool.md)
 :::
 
 :::
@@ -36,7 +36,7 @@ toDateOnly 関数
 
 toDateOnly 関数を使用して、日付表現を dateOnly 型に変換します。
 
-[toDateOnly 関数の使用方法を説明します](../using/building-journeys/functions/functiontodateonly.md)
+[toDateOnly 関数の使用方法の詳細情報](../using/building-journeys/functions/functiontodateonly.md)
 :::
 
 :::
@@ -44,9 +44,9 @@ toDateOnly 関数を使用して、日付表現を dateOnly 型に変換しま�
 
 toDateTime 関数
 
-toDateTime 関数を使用して、様々な入力を日時値に変換します。
+toDateTime 関数を使用して、様々な入力を日時の値に変換します。
 
-[toDateTime 関数の使用方法を説明します](../using/building-journeys/functions/functiontodatetime.md)
+[toDateTime 関数の使用方法の詳細情報](../using/building-journeys/functions/functiontodatetime.md)
 :::
 
 :::
@@ -56,7 +56,7 @@ toDateTimeOnly 関数
 
 toDateTimeOnly 関数を使用して、タイムゾーンを含まない日時形式に値を変換します。
 
-[toDateTimeOnly 関数の使用方法を説明します](../using/building-journeys/functions/functiontodatetimeonly.md)
+[toDateTimeOnly 関数の使用方法の詳細情報](../using/building-journeys/functions/functiontodatetimeonly.md)
 :::
 
 :::
@@ -66,7 +66,7 @@ toDecimal 関数
 
 toDecimal 関数を使用して、様々なデータタイプを小数値に変換します。
 
-[toDecimal 関数の使用方法を説明します](../using/building-journeys/functions/functiontodecimal.md)
+[toDecimal 関数の使用方法の詳細情報](../using/building-journeys/functions/functiontodecimal.md)
 :::
 
 :::
@@ -74,9 +74,9 @@ toDecimal 関数を使用して、様々なデータタイプを小数値に変�
 
 toDuration 関数
 
-toDuration 関数で文字列またはミリ秒を使用して、引数を duration 値に変換します。
+toDuration 関数で文字列またはミリ秒を使用して、引数を期間の値に変換します。
 
-[toDuration 関数の使用方法を説明します](../using/building-journeys/functions/functiontoduration.md)
+[toDuration 関数の使用方法の詳細情報](../using/building-journeys/functions/functiontoduration.md)
 :::
 
 ::::

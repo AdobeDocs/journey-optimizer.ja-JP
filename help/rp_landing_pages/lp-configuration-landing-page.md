@@ -4,39 +4,39 @@ product: Journey Optimizer
 title: ランディングページの設定
 description: ランディングページの設定
 redpen-status: CREATED_||_2025-08-12_00-37-08
-source-git-commit: fc85686dfa7d482416b439dfd1610cd0cd6b5555
-workflow-type: tm+mt
+exl-id: 599d9f7b-3e41-4926-95b6-f5f58255d91d
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '158'
-ht-degree: 7%
+ht-degree: 100%
 
 ---
 
-
 # ランディングページの設定{#section-overview}
 
-Adobe Journey Optimizerでランディングページを設定すると、カスタマイズされたサブドメインとプリセットを使用してシームレスなカスタマーエクスペリエンスを作成できます。 ブランドを反映するだけでなく、エンゲージメントを効果的に追跡する、プロフェッショナルグレードのランディングページを作成することを想像してみてください。 この節では、サブドメインの設定と、ページをホストするためのドメイン設定のデリゲート、設定またはデリゲート解除の方法、および再利用可能な設定を定義してプロセスを合理化するためのプリセットの作成という 2 つの重要な側面について説明します。 既存のドメインを使用する場合でも、新しい設定を作成する場合でも、これらのツールを使用すると、デジタルキャンペーンを組織の目標に簡単に合致させることができます。
+Adobe Journey Optimizer でランディングページを設定すると、カスタマイズされたサブドメインとプリセットを使用してシームレスなカスタマーエクスペリエンスを作成できます。ブランドを反映させるだけでなく、エンゲージメントも効果的に追跡する、プロフェッショナルな品質のランディングページを作成することを想像します。この節では、2 つの重要な側面について説明します。サブドメインの設定では、ホスティングページのドメイン設定をデリゲート、設定、またはデリゲート解除する方法を学びます。プリセットの作成では、再利用可能な設定を定義することでプロセスを効率化する方法を学びます。既存のドメインを使用したり、新しい設定を作成したりする際に、これらのツールを使用すると、デジタルキャンペーンを組織の目標に簡単に合わせることができます。
 
 ## ランディングページの設定
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 ランディングページのサブドメインの設定
 
-Adobe Journey Optimizerでランディングページをホストするためのサブドメインを設定、管理、デリゲート解除する方法について説明します。
+Adobe Journey Optimizer でランディングページをホストするサブドメインの設定、管理、デリゲート解除の方法について説明します。
 
-[サブドメインを今すぐ設定](../using/landing-pages/lp-subdomains.md)
+[今すぐサブドメインを設定](../using/landing-pages/lp-subdomains.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-ランディングページプリセットを定義
+ランディングページプリセットの定義
 
-サブドメイン設定を含むランディングページプリセットを作成および管理して、ワークフローを効率化する方法を調べます。
+サブドメイン設定を含むランディングページプリセットを作成および管理して、ワークフローを効率化する方法について説明します。
 
-[プリセットの定義を開始](../using/landing-pages/lp-presets.md)
+[プリセットの定義の開始](../using/landing-pages/lp-presets.md)
 :::
 
 ::::

@@ -4,49 +4,49 @@ product: Journey Optimizer
 title: オファーの作成と管理
 description: オファーの作成と管理
 redpen-status: CREATED_||_2025-08-11_21-00-55
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: 4578e8fe-341e-4678-b21f-d344f0a9a63d
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '183'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
-
 # オファーの作成と管理{#section-overview}
 
-Adobe Journey Optimizerの「オファーの作成と管理」セクションでは、適切なオーディエンスに適切なタイミングで届く、カスタマイズされた効果的なオファーを作成できます。 パーソナライズされたオファーを作成する場合でも、より幅広いアピールのためのフォールバックオプションを作成する場合でも、シームレスに管理するためにオファーを動的または静的なコレクションに整理する場合でも、この節では、アクションにつながる明確なガイダンスを提供します。 プレースメント、制約、優先度などの戦略的設定を通じてオファーを最適化し、すべてのインタラクションが有意義であることを保証する方法を学びます。 これらのコンポーネントがどのように連携して、よりスマートで魅力的なエクスペリエンスを顧客に提供できるかを詳しく説明します。
+Adobe Journey Optimizer の「オファーの作成と管理」の節では、適切なタイミングで適切なオーディエンスに届く、カスタマイズされた影響力のあるオファーを作成できます。パーソナライズされたオファーを作成する場合でも、より幅広いアピールのフォールバックオプションを作成する場合でも、シームレスに管理するオファーを動的または静的なコレクションに整理する場合でも、この節では、明確で実用的なガイダンスが提供されます。プレースメント、制約、優先度などの戦略的設定を通じてオファーを最適化し、すべてのインタラクションが有意義であることを確保する方法について説明します。これらのコンポーネントが連携して、よりスマートで魅力的なエクスペリエンスを顧客に提供できる仕組みについて詳しく説明します。
 
 ## オファーの作成と管理
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Adobe Journey Optimizerでのオファーの設定
+Adobe Journey Optimizer のオファーの設定
 
-パーソナライズされたオファーを作成し、表示域を設定し、制約を定義して配信とターゲティングを最適化する方法について説明します。
+パーソナライズされたオファーを作成し、表示域を設定し、配信とターゲティングを最適化する制約を定義する方法について説明します。
 
-[オファーの設定を探索](configure-offers-landing-page.md)
+[オファーの設定の探索](configure-offers-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 フォールバックオファーの作成方法
 
-パーソナライズされたオファーを受ける資格のない顧客のフォールバックオファーを作成する方法を、順を追って説明します。
+パーソナライズされたオファーを受ける資格のない顧客のフォールバックオファーを作成する手順について順を追って説明します。
 
-[フォールバックオファーの作成方法を学ぶ](../using/offers/offer-library/creating-fallback-offers.md)
+[フォールバックオファーの作成方法の詳細情報](../using/offers/offer-library/creating-fallback-offers.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 オファーコレクションの作成および管理方法
 
-詳細な手順に従って、動的コレクションと静的コレクションを使用してAdobe Journey Optimizer内のオファーを整理します。
+動的コレクションと静的コレクションを使用して Adobe Journey Optimizer 内のオファーを整理する手順について説明します。
 
-[オファーコレクションについて学ぶ](../using/offers/offer-library/creating-collections.md)
+[オファーコレクションの詳細情報](../using/offers/offer-library/creating-collections.md)
 :::
 
 ::::

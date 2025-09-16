@@ -4,49 +4,49 @@ product: Journey Optimizer
 title: 式の作成
 description: 式の作成
 redpen-status: CREATED_||_2025-08-11_20-19-10
-source-git-commit: e8b71a7efe1ca05a33bc6f33253900a58fa6665c
-workflow-type: tm+mt
+exl-id: 6ccd0bc7-fb40-48de-abcb-0cb1eb2c6303
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '183'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
-
 # 式の作成{#section-overview}
 
-Adobe Journey Optimizerには **高度な式エディター** が含まれており、ジャーニー内で複雑なロジックを作成でき、正確なパーソナライゼーションとオーケストレーションが可能になります。 条件を定義し、アクションパラメーターをマッピングして、イベントや外部データをアクションにつながるロジックに変換できます。 この節では、演算子、データ型、条件付きワークフローおよびデータ集計、日付処理、文字列操作などのタスクの関数を含む、式の構文に関する詳細なガイダンスを提供します。 これらのツールは、高度なユースケースをサポートし、技術ユーザーが特定のビジネスニーズに合わせてジャーニーを柔軟にカスタマイズできるようにします。
+Adobe Journey Optimizer には、ジャーニー内に複雑なロジックを作成できる&#x200B;**高度な式エディター**&#x200B;が含まれており、正確なパーソナライゼーションとオーケストレーションが実現します。条件を定義し、アクションパラメーターをマッピングして、イベントや外部データをアクション可能なロジックに変換できます。この節では、演算子、データタイプ、条件付きワークフローなどの式構文と、データ集計、日付処理、文字列操作などのタスクの機能について説明します。これらのツールは、高度なユースケースをサポートし、技術ユーザーに特定のビジネスニーズに合わせてジャーニーをカスタマイズする柔軟性を提供します。
 
-## Adobe Journey Optimizerでの式構築の探索
+## Adobe Journey Optimizer での式の作成の探索
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 高度な式エディターの使用
 
-高度な式エディターを使用して、データ操作、条件作成、アクションパラメーター用にカスタマイズされた式を作成する方法を説明します。
+高度な式エディターを使用して、データ操作、条件作成、アクションパラメーター用にカスタマイズされた式を作成する方法について説明します。
 
-[高度な式エディターの詳細](../using/building-journeys/expression/expressionadvanced.md)
+[詳しくは、高度な式エディターを参照してください。](../using/building-journeys/expression/expressionadvanced.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 式の高度な構文
 
-Adobe Journey Optimizerで高度な式を作成するために必要な構文ルール、条件命令およびデータタイプをマスターします。
+Adobe Journey Optimizer で高度な式を作成するのに必要な構文ルール、条件付き命令、データタイプについて説明します。
 
-[式の構文を調べる](syntax-landing-page.md)
+[式の構文の探索](syntax-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
-Adobe Journey Optimizerの関数
+Adobe Journey Optimizer の関数
 
-ジャーニーでのデータ操作、条件評価および複雑なワークフローの構築機能に関する包括的なガイドにアクセスします。
+ジャーニーでのデータ操作、条件評価、複雑なワークフローの作成の関数に関する包括的なガイドにアクセスします。
 
-[使用可能な機能の確認](main-functions-journey-landing-page.md)
+[使用可能な関数の確認](main-functions-journey-landing-page.md)
 :::
 
 ::::

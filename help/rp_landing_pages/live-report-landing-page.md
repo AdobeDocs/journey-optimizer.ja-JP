@@ -4,79 +4,79 @@ product: Journey Optimizer
 title: ライブレポート
 description: ライブレポート
 redpen-status: CREATED_||_2025-08-11_20-47-56
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: 08fa046a-4610-4923-a84e-db54e5ad7402
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '243'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
-
 # ライブレポート{#section-overview}
 
-Adobe Journey Optimizerのライブレポート機能を使用すると、キャンペーン、ジャーニー、メッセージのリアルタイムのパフォーマンスを、カスタマイズ可能な動的なダッシュボード内でトラッキングおよび分析できます。 メールのエンゲージメント、SMS の配信率、ランディングページのコンバージョンのいずれを監視する場合でも、ライブレポートは明確なインサイトを提供し、結果を最適化するのに役立ちます。 ニーズに合わせてダッシュボードを調整する方法、より深い分析のためにデータを書き出す方法、様々なコミュニケーションチャネルをまたいだ詳細な指標を調べる方法を学びます。 ジャーニーやキャンペーンレポートなどの子トピックを掘り下げて、実用的なトレンドを明らかにし、問題を特定し、自信を持ってデータ駆動型の意思決定を行います。
+Adobe Journey Optimizer のライブレポート機能を使用すると、動的でカスタマイズ可能なダッシュボード内で、キャンペーン、ジャーニー、メッセージのリアルタイムのパフォーマンスを追跡および分析できます。メールエンゲージメント、SMS 配信率、ランディングページのコンバージョンなどを監視する場合でも、ライブレポートは結果を最適化するのに役立つ明確なインサイトを提供します。ダッシュボードをニーズに合わせてカスタマイズする方法、より深い分析のためにデータを書き出す方法、様々な通信チャネルをまたいで詳細な指標を探索する方法について説明します。ジャーニーやキャンペーンレポートなどの子トピックについて説明します。これにより、実用的なトレンドを明らかにし、問題を特定し、自信を持ってデータ駆動型の意思決定を行うことができます。
 
 ## ライブレポートの機能
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-ライブレポートの概要
+ライブレポートの基本を学ぶ
 
-ライブレポートにアクセス、カスタマイズ、書き出して、ジャーニーとメッセージをリアルタイムで監視する方法を説明します。
+ライブレポートにアクセス、カスタマイズ、書き出して、ジャーニーとメッセージをリアルタイムで監視する方法について説明します。
 
-[チュートリアルを参照](../using/reports/live-report.md)
+[チュートリアルの探索](../using/reports/live-report.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 指標のリスト
 
-ジャーニー、メール、SMS などのライブレポートで使用される指標の定義とカテゴリを理解します。
+ジャーニー、メール、SMS などのライブレポートで使用される指標の定義とカテゴリについて説明します。
 
 [指標リファレンスの表示](../using/reports/live-report-components.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 ジャーニーライブレポート
 
-ジャーニーおよび関連する通信チャネルのパフォーマンスを、過去 24 時間にわたってリアルタイムで分析します。
+過去 24 時間のジャーニーと関連する通信チャネルのパフォーマンスをリアルタイムで分析します。
 
 [ジャーニーレポートガイドへのアクセス](../using/reports/journey-live-report.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 キャンペーンのライブレポート
 
-メール、プッシュ、SMS、web、ダイレクトメールなど、複数のチャネルにわたるキャンペーンのパフォーマンスを視覚化します。
+メール、プッシュ、SMS、web、ダイレクトメールなど、複数のチャネルをまたいでキャンペーンのパフォーマンスを視覚化します。
 
-[Campaign レポートについて学ぶ](../using/reports/campaign-live-report.md)
+[詳しくは、キャンペーンレポートを参照してください。](../using/reports/campaign-live-report.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
-ランディングページのライブレポート
+ランディングページライブレポート
 
-訪問数、コンバージョン、バウンス数などのリアルタイム指標を使用して、ランディングページのパフォーマンスを評価します。
+訪問数、コンバージョン数、バウンス数などのリアルタイム指標を使用して、ランディングページのパフォーマンスを評価します。
 
-[ランディングページレポートの詳細](../using/reports/lp-report-live.md)
+[詳しくは、ランディングページレポートを参照してください。](../using/reports/lp-report-live.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 購読ライブレポート
 
 リアルタイムの購読と購読解除のトレンドを監視して、オーディエンスのエンゲージメントを最適化します。
 
-[購読レポートについて学ぶ](../using/reports/subscription-report-live.md)
+[詳しくは、購読レポートを参照してください。](../using/reports/subscription-report-live.md)
 :::
 
 ::::

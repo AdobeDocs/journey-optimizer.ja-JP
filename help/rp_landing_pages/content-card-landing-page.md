@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: コンテンツカード
 description: コンテンツカード
 redpen-status: CREATED_||_2025-08-11_20-43-30
-source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
-workflow-type: tm+mt
+exl-id: 4916bc53-a6d7-4d11-9a7f-3acf920c7a93
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '155'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
-
 
 # コンテンツカード{#section-overview}
 
@@ -27,7 +27,7 @@ ht-degree: 50%
 
 コンテンツカードチャネルの設定
 
-Web、モバイル、キオスクプラットフォームのコンテンツカードチャネルを設定し、動的なパーソナライゼーションと統合します。
+動的なパーソナライゼーションを使用して、web、モバイル、キオスクプラットフォーム用のコンテンツカードチャネルを設定および統合します。
 
 [チャネルの設定](configure-landing-page.md)
 :::
@@ -37,9 +37,9 @@ Web、モバイル、キオスクプラットフォームのコンテンツカ�
 
 コンテンツカードの作成と設定
 
-ジャーニーやキャンペーンでパーソナライズされたメッセージング用のコンテンツカードを作成、カスタマイズ、実装するステップバイステップのチュートリアル。
+ジャーニーやキャンペーンでパーソナライズされたメッセージング用のコンテンツカードを作成、カスタマイズ、実装する手順について説明します。
 
-[コンテンツカードの作成を開始](../using/content-card/create-content-card.md)
+[コンテンツカード作成の開始](../using/content-card/create-content-card.md)
 :::
 
 :::
@@ -49,7 +49,7 @@ Web、モバイル、キオスクプラットフォームのコンテンツカ�
 
 パーソナライズされたメッセージ、メディア、アクションボタン、カスタムデータを使用して、コンテンツカードをデザインおよびカスタマイズします。
 
-[コンテンツカードのデザインについて学ぶ](../using/content-card/design-content-card.md)
+[コンテンツカードのデザインの詳細情報](../using/content-card/design-content-card.md)
 :::
 
 ::::

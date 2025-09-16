@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: 新機能
 description: 新機能
 redpen-status: CREATED_||_2025-08-11_20-03-09
-source-git-commit: cadb4a66c23010cb663eb1e840d0568021690edf
-workflow-type: tm+mt
+exl-id: 24460cae-3944-4ac4-9076-aca521cfddbd
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '292'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
-
 
 # 新機能{#section-overview}
 
@@ -50,31 +50,31 @@ Adobe Experience Manager as a Cloud Service を Adobe Journey Optimizer と統�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Adobe Journey Optimizerの最新リリースノート
+Adobe Journey Optimizer の最新のリリースノート
 
-Campaign オーケストレーション、最適化、チャネルサポートの強化など、Adobe Journey Optimizerの最新機能、機能強化および更新をご確認ください。
+キャンペーンオーケストレーション、最適化、強化されたチャネルサポートなど、Adobe Journey Optimizer の最新の機能、機能強化、更新について説明します。
 
-[最新のリリースノートを表示](../using/rn/release-notes.md)
+[最新のリリースノートの表示](../using/rn/release-notes.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
-Adobe Journey Optimizerの以前のリリースノート
+Adobe Journey Optimizer の以前のリリースノート
 
-Adobe Journey Optimizer全体の機能、統合、改善点に関する詳細なアップデートと共に、前年の包括的なリリースノートを確認します。
+Adobe Journey Optimizer 全体の機能、統合、改善に関する詳細な更新を含む、過去数年間の包括的なリリースノートについて説明します。
 
-[以前のリリースノートを参照](previous-rn-new-landing-page.md)
+[以前のリリースノートの参照](previous-rn-new-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
-Adobe Journey Optimizer ドキュメントの最新のアップデート
+Adobe Journey Optimizer ドキュメントの最新の更新
 
-Adobe Journey Optimizer ドキュメントの最近の更新および変更点を、月別および年別に整理して最新情報を提供します。
+Adobe Journey Optimizer ドキュメントの最新の更新と変更について、月別および年別に最新情報を入手できます。
 
 [ドキュメントの更新を読む](../using/rn/documentation-updates.md)
 :::

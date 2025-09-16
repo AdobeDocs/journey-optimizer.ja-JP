@@ -4,49 +4,49 @@ product: Journey Optimizer
 title: テストと承認
 description: テストと承認
 redpen-status: CREATED_||_2025-08-11_20-30-59
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: tm+mt
+exl-id: a770412f-2f80-459d-8cce-32212154d154
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '190'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
-
 # テストと承認{#section-overview}
 
-Adobe Journey Optimizerの「テストして承認」機能を使用すると、ローンチ前にキャンペーンとジャーニーを自信を持って完成させることができます。 テストプロファイルを使用してパーソナライズされたコンテンツをプレビューしている場合でも、デバイスをまたいでメールが美しく表示されるようにしている場合でも、構造化された承認ワークフローを通じてジャーニーが組織標準を満たしていることを検証している場合でも、このセクションでは順を追って説明します。 実際のシナリオをシミュレートし、潜在的なエラーを早期に発見し、承認を効果的に管理する方法を調べて、キャンペーンが正確で洗練され、優れたカスタマーエクスペリエンスを提供する準備が整っていることを確認します。 明確な指示と実用的なツールを使用すると、テスト、調整、自信を持って運用を開始する準備が整います。
+Adobe Journey Optimizer の「テストと承認」機能を使用すると、キャンペーンやジャーニーをローンチ前に自信を持って完成させることができます。テストプロファイルを使用してパーソナライズされたコンテンツをプレビューする場合でも、デバイス間でメールが美しく表示されることを確認する場合でも、構造化された承認ワークフローを通じてジャーニーが組織の標準を満たしていることを検証する場合でも、この節では順を追って説明します。実際のシナリオをシミュレートし、潜在的なエラーを早期に発見し、承認を効果的に管理する方法について説明します。これにより、キャンペーンが正確で洗練され、優れたカスタマーエクスペリエンスを提供できます。明確な指示と実用的なツールにより、テスト、調整を行い、自信を持って運用を開始する準備が整います。
 
 ## コンテンツのテストと承認
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 コンテンツのプレビュー、テスト、検証
 
-テストプロファイル、メールレンダリングテスト、スパムスコア評価などを使用して、パーソナライズされたコンテンツをプレビュー、テスト、検証する方法を説明します。
+テストプロファイル、メールレンダリングテスト、スパムスコア評価などを使用して、パーソナライズされたコンテンツをプレビュー、テスト、検証する方法について説明します。
 
-[プレビューとテストのコンテンツを検索](preview-test-landing-page.md)
+[コンテンツのプレビューとテストの探索](preview-test-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 ジャーニーおよびキャンペーンの承認ワークフロー
 
-ジャーニーとキャンペーンの品質管理を確実に行うための承認プロセスの設定、管理、実行方法を説明します。
+ジャーニーとキャンペーンの品質管理を確保する承認プロセスを設定、管理、実行する方法について説明します。
 
-[承認ワークフローについて学ぶ](approve-landing-page.md)
+[承認ワークフローの詳細情報](approve-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
-システムアラートへのアクセスと購読
+システムアラートへのアクセスと登録
 
-ジャーニーとキャンペーンで、システムアラートの管理、通知の登録、問題のトラブルシューティングを行う方法について説明します。
+システムアラートを管理し、通知を登録し、ジャーニーとキャンペーンの問題をトラブルシューティングする方法について説明します。
 
-[システム アラート ガイドの表示](../using/reports/alerts.md)
+[システムアラートガイドの表示](../using/reports/alerts.md)
 :::
 
 ::::

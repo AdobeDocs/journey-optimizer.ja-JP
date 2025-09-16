@@ -4,49 +4,49 @@ product: Journey Optimizer
 title: プッシュ通知の設定
 description: プッシュ通知の設定
 redpen-status: CREATED_||_2025-08-11_20-36-35
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: tm+mt
+exl-id: 52a58dc4-20fa-467d-b790-d9c7eecbdaf6
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '183'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
-
 # プッシュ通知の設定{#section-overview}
 
-Adobe Journey Optimizerのプッシュ通知を使用すると、オーディエンスとリアルタイムにつながり、パーソナライズされたタイムリーなメッセージをモバイルデバイスに直接配信できます。 このセクションでは、データフローの把握や Firebase やApple Push Notification Service （APN）などのサービスとの統合から、モバイルアプリの設定や通知のテストまで、プッシュ通知を効果的に使用するために必要なすべての手順を説明します。 権限の設定を行う管理者、Mobile SDKを統合する開発者、またはキャンペーンを作成するマーケターのいずれの場合でも、これらのコンポーネントが連携してシームレスで効果的なカスタマーエクスペリエンスを作成する方法を学びます。
+Adobe Journey Optimizer のプッシュ通知を使用すると、オーディエンスとリアルタイムでつながり、タイムリーでパーソナライズされたメッセージをモバイルデバイスに直接配信できます。この節では、データフローの理解から、Firebase や Apple Push Notification Service（APNs）などのサービスとの統合、モバイルアプリの設定、通知のテストまで、プッシュ通知を効果的に設定および使用するのに必要なすべての手順について説明します。権限を設定する管理者、Mobile SDK を統合する開発者、キャンペーンを作成するマーケターなど、いずれの場合でも、これらのコンポーネントが連携してシームレスで影響力のあるカスタマーエクスペリエンスを作成する仕組みについて説明します。
 
 ## プッシュ通知の設定
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 プッシュ通知のデータフローと設定
 
-Adobe Journey Optimizerを使用してプッシュ通知を配信するために必要なコンポーネント、ワークフロー、データフローについて説明します。
+Adobe Journey Optimizer を使用してプッシュ通知を配信するのに必要なコンポーネント、ワークフロー、データフローについて説明します。
 
-[プッシュ通知フローについて学ぶ](../using/push/push-gs.md)
+[詳しくは、プッシュ通知フローを参照してください。](../using/push/push-gs.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 プッシュ通知チャネルの設定
 
-権限の設定、アプリの統合およびプッシュ通知チャネルの設定に関するステップバイステップのガイダンス。
+権限の設定、アプリの統合、プッシュ通知チャネルの設定に関する手順について説明します。
 
 [プッシュ通知チャネルの設定](../using/push/push-configuration.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 モバイルオンボーディングのクイックスタートワークフロー
 
-自動ワークフローにより、モバイルイベントのデータ収集をすばやく設定して、プッシュ通知を有効にします。
+モバイルイベントデータ収集をすばやく設定し、自動化されたワークフローでプッシュ通知を有効にします。
 
-[モバイルオンボーディングワークフローを開始](../using/push/mobile-onboarding-wf.md)
+[モバイルオンボーディングワークフローの開始](../using/push/mobile-onboarding-wf.md)
 :::
 
 ::::

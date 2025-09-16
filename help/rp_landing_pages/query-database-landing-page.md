@@ -4,59 +4,59 @@ product: Journey Optimizer
 title: データベースのクエリ
 description: データベースのクエリ
 redpen-status: CREATED_||_2025-08-11_20-25-18
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: 57ea921d-e881-44fb-b20a-a46028180e64
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '225'
-ht-degree: 8%
+ht-degree: 100%
 
 ---
 
-
 # データベースのクエリ{#section-overview}
 
-Adobe Journey Optimizerの強力なデータベース照会ツールを使用して、オーディエンスデータの可能性を最大限に引き出す方法を説明します。 正確なオーディエンスセグメントの定義、動的キャンペーンのルールのカスタマイズ、リアルタイムフィードバックに基づくリターゲティング戦略の作成など、あらゆる操作について説明します。 直感的なフィルタリングのためのルールビルダーの使用、高度なクエリのための式エディターの詳細、ユーザーインタラクションに基づいたリターゲティングルールの作成について学びます。 各ツールは、データを実用的なインサイトに変換し、マーケティングキャンペーンが適切な人物に適切なタイミングでリーチできるようにすることを目的として設計されています。 それでは、始めましょう。
+Adobe Journey Optimizer の強力なデータベースクエリツールを使用して、オーディエンスデータの潜在能力を最大限に引き出す方法について説明します。この節では、正確なオーディエンスセグメントを定義する場合、動的キャンペーンのルールをカスタマイズする場合、リアルタイムのフィードバックに基づいてリターゲティング戦略を作成する場合などのすべてについて説明します。ルールビルダーを使用して直感的なフィルタリングを行う方法、式エディターを使用して高度なクエリを詳細に分析する方法、ユーザーインタラクションに基づいてリターゲティングルールを作成する方法について説明します。各ツールは、データを実用的なインサイトに変換できるようにデザインされています。これにより、マーケティングキャンペーンが適切なタイミングで適切な人物にリーチすることを確保されます。さあ、始めましょう。
 
 ## データベースのクエリ
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 調整されたキャンペーンでのルールビルダーの使用
 
-Adobe Journey Optimizerのルールビルダーを使用して、オーディエンスのターゲティングとセグメント化ルールを作成および管理する方法について説明します。
+Adobe Journey Optimizer のルールビルダーを使用して、オーディエンスターゲティングとセグメント化ルールを作成および管理する方法について説明します。
 
 [ルールビルダーの操作](../using/orchestrated/orchestrated-rule-builder.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Adobe Journey Optimizerで最初のルールを作成する方法
+Adobe Journey Optimizer で最初のルールを作成する方法
 
-調整されたキャンペーンでオーディエンスをフィルタリングおよびターゲティングするためのルールの作成と検証に関するステップバイステップのチュートリアル。
+調整されたキャンペーンでオーディエンスをフィルタリングおよびターゲティングするルールの作成と検証に関する手順について説明します。
 
 [最初のルールの作成](../using/orchestrated/build-query.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Adobe Journey Optimizerで式を編集する方法
+Adobe Journey Optimizer で式を編集する方法
 
-式エディターをマスターしてクエリルールを手動で定義し、データ操作に高度な関数を活用します。
+式エディターを取得して、クエリルールを手動で定義し、データ操作に高度な関数を活用します。
 
 [式の編集](../using/orchestrated/edit-expressions.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-Adobe Journey Optimizerでのリターゲティングクエリの作成
+Adobe Journey Optimizer でのリターゲティングクエリの作成
 
-オーケストレートキャンペーン用に、配信のフィードバックとユーザーインタラクションデータに基づいたリターゲティングルールを作成します。
+調整されたキャンペーン用に、配信フィードバックとユーザーインタラクションデータに基づいて、リターゲティングルールを作成します。
 
-[リターゲティングについて学ぶ](../using/orchestrated/retarget.md)
+[リターゲティングの詳細情報](../using/orchestrated/retarget.md)
 :::
 
 ::::

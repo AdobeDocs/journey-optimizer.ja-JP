@@ -4,43 +4,43 @@ product: Journey Optimizer
 title: ジャーニーと外部システムの統合
 description: ジャーニーと外部システムの統合
 redpen-status: CREATED_||_2025-08-11_21-16-41
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: f61a2c42-f082-4eef-b890-8224357f215f
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '214'
-ht-degree: 8%
+ht-degree: 100%
 
 ---
 
-
 # ジャーニーと外部システムの統合{#section-overview}
 
-ジャーニーをAdobe Journey Optimizerの外部システムと統合すると、API およびデータソースとシームレスにつながり、スムーズな通信と最適化されたパフォーマンスを確保できます。 キャッピングやスロットルを使用した API 呼び出し率の制限、信頼性のためのタイムアウトと再試行の管理、カスタムアクションの処理能力の設定など、これらのツールは、効率を最大化しながらシステムの整合性を保護するのに役立ちます。 それぞれの概念は互いに基づいて構築され、データフローを制御し、外部とのやり取りを効果的に処理するための実践的な戦略を提供します。 ニーズに合わせてカスタマイズされた堅牢で拡張性の高い統合を作成できるようにする、主な手法とベストプラクティスを詳しく説明します。
+Adobe Journey Optimizer でジャーニーを外部システムと統合すると、API やデータソースにシームレスに接続でき、スムーズなコミュニケーションと最適化されたパフォーマンスが確保されます。 キャッピングやスロットルを使用して API 呼び出しの割合を制限する場合、信頼性を確保するためにタイムアウトや再試行を管理する場合、カスタムアクションの処理能力を設定する場合でも、これらのツールはシステムの整合性を保護しながら効率を最大化するのに役立ちます。各概念は、互いに基づいて作成され、データフローを制御し、外部とのインタラクションを効果的に処理するための実用的な戦略を提供します。ニーズに合わせて堅牢でスケーラブルな統合を作成できるようにする主な手法とベストプラクティスについて詳しく説明します。
 
 ## ジャーニーと外部システムの統合
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 外部システム統合のベストプラクティス
 
-パフォーマンスの最適化とシステム保護に重点を置いた、Adobe Journey Optimizerと外部システムの統合に関するベストプラクティスと技術的なガイドラインについて説明します。
+パフォーマンスの最適化とシステム保護に焦点を当てて、Adobe Journey Optimizer を外部システムと統合するためのベストプラクティスと技術ガイドラインについて説明します。
 
-[ベストプラクティスの調査](../using/configuration/external-systems.md)
+[ベストプラクティスの探索](../using/configuration/external-systems.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Capping API の概要および実装ガイド
 
 Capping API を使用した外部システム統合のキャッピング設定の作成、設定、管理方法について説明します。
 
-[Capping API について説明します](../using/configuration/capping.md)
+[Capping API の詳細情報](../using/configuration/capping.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Throttling API：設定および管理ガイド
 

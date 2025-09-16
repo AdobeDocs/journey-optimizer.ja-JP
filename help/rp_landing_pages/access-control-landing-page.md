@@ -4,19 +4,19 @@ product: Journey Optimizer
 title: アクセス制御
 description: アクセス制御
 redpen-status: CREATED_||_2025-08-11_21-19-16
-source-git-commit: e8b71a7efe1ca05a33bc6f33253900a58fa6665c
-workflow-type: tm+mt
+exl-id: 812d29b1-8ef3-4f41-8a32-bf2839f924a1
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '243'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
-
 # アクセス制御{#section-overview}
 
-Adobe Journey Optimizerのアクセス制御を使用すると、管理者は、組織のニーズとガバナンス標準に従ってユーザーアクセスを管理できます。 **roles**、**permissions**、**sandboxes** のほか、オブジェクトベースや属性ベースのコントロールなどの高度なモデルを使用すると、共同作業を可能にしながら、機密データを保護するようにアクセスをカスタマイズすることができます。 組み込みの役割は設定を簡素化し、カスタム権限とラベルはより正確な制御を提供します。 これらのツールは、セキュリティと柔軟性のバランスを取るのに役立ち、コンプライアンスを妥協することなく、チームに必要なアクセスを提供します。
+Adobe Journey Optimizer のアクセス制御により、管理者は、組織のニーズとガバナンス標準に従ってユーザーアクセスを管理できます。**役割**、**権限**、**サンドボックス**、オブジェクトベースおよび属性ベースのコントロールなどの高度なモデルを使用することで、共同作業を可能にしながら機密データを保護するよう、アクセスをカスタマイズできます。組み込みの役割によって設定が簡素化され、カスタム権限とラベルを使用することで、より正確な制御が可能になります。これらのツールは、セキュリティと柔軟性のバランスを取るのに役立ち、コンプライアンスを妥協することなく、チームに必要なアクセスを提供します。
 
-## アクセス制御機能
+## アクセス制御の機能
 
 :::: landing-cards-container
 :::
@@ -24,9 +24,9 @@ Adobe Journey Optimizerのアクセス制御を使用すると、管理者は、
 
 アクセス制御の基本を学ぶ
 
-Adobe Journey Optimizerのユーザー権限、ロール、サンドボックスおよびアクセス制御メカニズムを管理するための概念とプロセスについて説明します。
+Adobe Journey Optimizer でユーザー権限、役割、サンドボックス、アクセス制御メカニズムを管理するための概念とプロセスについて説明します。
 
-[概要を参照](../using/administration/permissions-overview.md)
+[概要の探索](../using/administration/permissions-overview.md)
 :::
 
 :::
@@ -34,9 +34,9 @@ Adobe Journey Optimizerのユーザー権限、ロール、サンドボックス
 
 ユーザーと役割の管理
 
-Adobe Journey Optimizerでユーザーのアクセスと権限を制御するための役割の割り当て、編集、作成に関するステップバイステップのガイダンス。
+Adobe Journey Optimizer でユーザーアクセスと権限を制御する役割の割り当て、編集、作成に関する手順について説明します。
 
-[役割の管理方法について説明します](../using/administration/permissions.md)
+[役割の管理方法の詳細情報](../using/administration/permissions.md)
 :::
 
 :::
@@ -44,9 +44,9 @@ Adobe Journey Optimizerでユーザーのアクセスと権限を制御するた
 
 ビルトインの役割
 
-定義済みの役割とそれに関連する権限を確認して、アクセス制御を効果的に管理します。
+アクセス制御を効果的に管理する、事前定義済みの役割と、関連付けられた権限について説明します。
 
-[組み込みの役割を表示](../using/administration/ootb-product-profiles.md)
+[組み込みの役割の表示](../using/administration/ootb-product-profiles.md)
 :::
 
 :::
@@ -54,9 +54,9 @@ Adobe Journey Optimizerでユーザーのアクセスと権限を制御するた
 
 組み込みの権限
 
-Adobe Journey Optimizerで役割ベースのアクセス制御を設定するために使用できる権限とその機能について説明します。
+Adobe Journey Optimizer でロールベースのアクセス制御を設定するために使用可能な権限とその機能について説明します。
 
-[権限の調査](../using/administration/ootb-permissions.md)
+[権限の探索](../using/administration/ootb-permissions.md)
 :::
 
 :::
@@ -64,7 +64,7 @@ Adobe Journey Optimizerで役割ベースのアクセス制御を設定するた
 
 権限レベル
 
-高レベルおよび低レベルの権限と、それらの権限によって機能やアクセスをきめ細かく制御する方法について説明します。
+高レベルおよび低レベルの権限と、機能とアクセスをきめ細かく制御できるようにする方法について説明します。
 
 [権限レベルについて](../using/administration/high-low-permissions.md)
 :::
@@ -74,9 +74,9 @@ Adobe Journey Optimizerで役割ベースのアクセス制御を設定するた
 
 属性ベースのアクセス制御
 
-ラベルを使用したデータアクセスの管理、機密アセットの保護、属性ベースのアクセス制御を使用したガバナンスポリシーの適用をおこないます。
+ラベルを使用してデータアクセスを管理し、機密アセットを保護し、属性ベースのアクセス制御を使用してガバナンスポリシーを適用します。
 
-[ABAC について学ぶ](../using/administration/attribute-based-access.md)
+[ABAC の詳細情報](../using/administration/attribute-based-access.md)
 :::
 
 ::::
@@ -84,4 +84,4 @@ Adobe Journey Optimizerで役割ベースのアクセス制御を設定するた
 
 ## その他のリソース
 
-- **[オブジェクトレベルのアクセス制御](../using/administration/object-based-access.md)** - ラベルを使用してオブジェクトレベルのデータアクセスを定義および管理し、ガバナンスを確保し、機密デジタルアセットを保護します。
+- **[オブジェクトレベルのアクセス制御](../using/administration/object-based-access.md)** - ラベルを使用してオブジェクトレベルのデータアクセスを定義および管理し、ガバナンスを確保して、機密性の高いデジタルアセットを保護します。

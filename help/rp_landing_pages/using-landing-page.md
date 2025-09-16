@@ -5,68 +5,68 @@ title: Adobe Journey Optimizer ヘルプ
 description: Adobe Journey Optimizer ヘルプ
 redpen-status: CREATED_||_2025-08-11_21-21-01
 source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '424'
-ht-degree: 11%
+ht-degree: 100%
 
 ---
 
 
 # Adobe Journey Optimizer ヘルプ{#section-overview}
 
-Adobe Journey Optimizerを使用すると、チームはメールや SMS などのチャネルをまたいで、シームレスにパーソナライズされたカスタマーエクスペリエンスを設計および提供できます。 キャンペーンオーケストレーション、データ管理、意思決定のための高度なツールを組み合わせることで、顧客のニーズにリアルタイムに適応するジャーニーを作成するのに役立ちます。 このドキュメントは、プラットフォームを習得するためのロードマップで、最新の機能と統合の調査から、オーディエンスの管理、ジャーニーの設定、パフォーマンスの分析の方法の学習に至るまで提供します。 マーケター、データアナリスト、キャンペーンマネージャーのどれに該当する場合でも、自信を持って目標を達成するのに役立つ、ステップバイステップのガイド、ベストプラクティス、リソースを確認できます。
+Adobe Journey Optimizer を使用すると、チームはメールや SMS などのチャネル全体で、シームレスでパーソナライズされたカスタマーエクスペリエンスをデザインし、提供できるようになります。キャンペーンオーケストレーション、データ管理、意思決定の高度なツールを組み合わせることで、顧客のニーズにリアルタイムに適応するジャーニーを作成できます。このドキュメントは、最新機能や統合の探索から、オーディエンスの管理、ジャーニーの設定、パフォーマンスの分析まで、プラットフォーム操作を習得するロードマップとして参照できます。マーケター、データアナリスト、キャンペーンマネージャーのどの役割であっても、自信を持って目標を達成するのに役立つステップバイステップのガイド、ベストプラクティスおよびリソースを確認できます。
 
 ## Adobe Journey Optimizer ヘルプ
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Adobe Journey Optimizerの新機能
+Adobe Journey Optimizer の新機能
 
-Adobe Journey Optimizerの最新のリリースノート、新機能およびドキュメントの変更点について説明します。
+Adobe Journey Optimizer の最新リリースノート、新機能およびドキュメントの変更点について説明します。
 
 [新機能を表示](whats-new-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Adobe Journey Optimizerの基本を学ぶ
+Adobe Journey Optimizer の基本を学ぶ
 
-機能、アーキテクチャ、ユーザーインターフェイスなど、Adobe Journey Optimizerの基本について説明します。
+機能、アーキテクチャ、ユーザーインターフェイスなど、Adobe Journey Optimizer の基本について説明します。
 
-[はじめに](get-started-landing-page.md)
+[基本を学ぶ](get-started-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 包括的なジャーニーガイド
 
-この詳細なガイドを使用して、パーソナライズされたカスタマージャーニーを設計、調整、管理および最適化します。
+この詳細なガイドを使用して、パーソナライズされたカスタマージャーニーをデザイン、調整、管理および最適化します。
 
 [ジャーニーを探索](orchestrate-journeys-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 キャンペーンの理解と管理
 
-効果的なターゲティングを実現するための、様々なキャンペーンタイプの作成、管理および最適化に関する詳細なガイダンス。
+効果的なターゲティングを実現する、様々なキャンペーンタイプの作成、管理および最適化に関する詳細なガイダンス。
 
-[キャンペーンについて学ぶ](campaigns-landing-page.md)
+[詳しくは、キャンペーンを参照してください。](campaigns-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 競合管理と優先順位付け
 
-キャンペーンおよびジャーニー全体でコミュニケーションの競合を効果的に優先順位付けおよび管理する方法を説明します。
+キャンペーンおよびジャーニー全体でコミュニケーションの競合を効果的に優先順位付けし、管理する方法について説明します。
 
-[競合の管理について学ぶ](conflict-prioritization-landing-page.md)
+[詳しくは、競合管理を参照してください。](conflict-prioritization-landing-page.md)
 :::
 
 ::::
@@ -74,16 +74,16 @@ Adobe Journey Optimizerの基本を学ぶ
 
 ## その他のリソース
 
-- **[テスト、検証、承認](test-landing-page.md)** - コンテンツ、ジャーニー、キャンペーンをテストおよび承認して、デプロイメント前に品質と精度を確保します。
-- **[通信チャネル](../using/channels/gs-channels.md)** - パーソナライズされた顧客インタラクション用に、メール、SMS、プッシュ通知、その他のチャネルを設定および管理します。
-- **[オーディエンス、プロファイル、ID](audiences-profiles-identities-landing-page.md)** - オーディエンス、プロファイルおよび ID を管理して、効果的なターゲティングとパーソナライゼーションを可能にします。
-- **[包括的なレポート](reporting-landing-page.md)** – 高度なレポート機能を使用して、ジャーニー、キャンペーン、チャネルを分析し最適化します。
-- **[意思決定機能](decisioning-landing-page.md)** – 決定ツールを活用して、パーソナライズされたオファーを作成および管理し、マーケティングワークフローを最適化します。
-- **[包括的なデータ管理](data-management-landing-page.md)** - ガバナンス、スキーマ使用、クエリ機能のためのツールを使用して、データを効果的に管理します。
-- **[チャネル設定](configuration-landing-page.md)** - コンプライアンスとキャンペーンパフォーマンスの強化のために、通信チャネルをセットアップおよび最適化します。
-- **[ジャーニー設定](configure-journeys-landing-page.md)** - シームレスなカスタマージャーニーを構築するためのデータソース、イベント、アクションを設定します。
-- **[システムと環境の接続](connect-systems-landing-page.md)** - Adobe Journey Optimizerを外部システム、API およびAdobe ソリューションと統合します。
-- **[アクセス制御の管理](access-control-landing-page.md)** - データを保護し、ガバナンスを確保するために、ユーザーのアクセス、役割、権限を制御します。
+- **[テスト、検証、承認](test-landing-page.md)** - コンテンツ、ジャーニー、キャンペーンをテストおよび承認して、デプロイメントの前に品質と精度を確保します。
+- **[通信チャネル](../using/channels/gs-channels.md)** - メール、SMS、プッシュ通知、その他のチャネルを設定および管理して、パーソナライズされた顧客インタラクションを実現します。
+- **[オーディエンス、プロファイル、ID](audiences-profiles-identities-landing-page.md)** - オーディエンス、プロファイルおよび ID を管理して、効果的なターゲティングとパーソナライゼーションを実現します。
+- **[包括的なレポート](reporting-landing-page.md)** - 高度なレポート機能を使用して、ジャーニー、キャンペーン、チャネルを分析および最適化します。
+- **[意思決定機能](decisioning-landing-page.md)** - 意思決定ツールを活用して、パーソナライズされたオファーを作成および管理し、マーケティングワークフローを最適化します。
+- **[包括的なデータ管理](data-management-landing-page.md)** - ガバナンス、スキーマの使用、クエリ機能のツールを使用して、データを効果的に管理します。
+- **[チャネル設定](configuration-landing-page.md)** - 通信チャネルを設定および最適化して、コンプライアンスとキャンペーンパフォーマンスを強化します。
+- **[ジャーニー設定](configure-journeys-landing-page.md)** - データソース、イベント、アクションを設定して、シームレスなカスタマージャーニーを構築します。
+- **[システムと環境を接続する](connect-systems-landing-page.md)** - Adobe Journey Optimizer を外部システム、API およびアドビソリューションに統合します。
+- **[アクセス制御の管理](access-control-landing-page.md)** - ユーザーアクセス、役割および権限を制御して、データを保護し、ガバナンスを確保します。
 - **[プライバシー、同意、データガバナンス](privacy-landing-page.md)** - データのプライバシー、同意、ガバナンスを管理して、規制に準拠し、機密情報を保護します。
 
 ## その他のリソース

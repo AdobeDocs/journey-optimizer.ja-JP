@@ -4,17 +4,17 @@ product: Journey Optimizer
 title: Web チャネルの設定
 description: Web チャネルの設定
 redpen-status: CREATED_||_2025-08-11_20-39-49
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: tm+mt
+exl-id: 07c6d86f-7077-4ba1-8da4-fc6752a4484d
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '189'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
-
 # Web チャネルの設定{#section-overview}
 
-Adobe Journey Optimizerで web チャネルを設定すると、パーソナライズされた動的コンテンツを web サイトの訪問者に直接提供できます。 必要な前提条件の設定、サブドメインの管理、ターゲットとなる web プロパティの定義を学ぶことで、カスタマイズされたシームレスな web エクスペリエンスを作成するためのツールを利用できます。 実装の準備ができている、サブドメインをデリゲートする、正確な URL マッチングルールを作成するといった各手順は、オーディエンスとオンラインでのやり取りを最適化する上で独自の役割を果たします。 この節では、効果的な web キャンペーンの設計、配信および調整を自信を持って簡単に行えるようにするためのプロセスを説明します。
+Adobe Journey Optimizer で web チャネルを設定すると、パーソナライズされた動的なコンテンツを web サイト訪問者に直接配信できます。必要な前提条件の設定、サブドメインの管理、ターゲットにする web プロパティの定義方法について説明します。これにより、シームレスでカスタマイズされた web エクスペリエンスを作成するツールを取得できます。実装の準備が整っていることを確認する、サブドメインをデリゲートする、正確な URL 一致ルールを作成するなど、各手順は、オーディエンスがオンラインでブランドとやりとりする方法を最適化する上で独自の役割を果たします。この節では、影響力のある web キャンペーンを自信を持って簡単にデザイン、配信、絞り込みできるようにするプロセスについて説明します。
 
 ## Web チャネルの設定
 
@@ -24,19 +24,19 @@ Adobe Journey Optimizerで web チャネルを設定すると、パーソナラ�
 
 Web チャネルの前提条件
 
-オーサリング、配信、レポートの設定要件など、web チャネル機能を設定および使用するために必要な前提条件について説明します。
+オーサリング、配信、レポートの設定要件など、web チャネル機能を設定および使用するのに必要な前提条件について説明します。
 
-[前提条件を確認](../using/web/web-prerequisites.md)
+[前提条件の探索](../using/web/web-prerequisites.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Web サブドメインの設定
 
-Adobe Journey Optimizerでコンテンツを公開するための web サブドメインを設定、管理、デリゲート解除する手順のガイダンスです。
+Adobe Journey Optimizer でコンテンツを公開する web サブドメインの設定、管理、デリゲート解除に関する手順について説明します。
 
-[詳しくは、サブドメインの設定方法を参照してください](../using/web/web-delegated-subdomains.md)
+[サブドメインの設定方法の詳細情報](../using/web/web-delegated-subdomains.md)
 :::
 
 :::
@@ -44,9 +44,9 @@ Adobe Journey Optimizerでコンテンツを公開するための web サブド�
 
 Web チャネルの作成と設定
 
-URL マッチングルール、web プロパティ、マーケティングアクションの割り当てなど、web チャネルの設定手順。
+URL 一致ルール、web プロパティ、マーケティングアクションの割り当てなど、web チャネルを設定する手順について説明します。
 
-[Web チャネルの設定を開始](../using/web/web-configuration.md)
+[Web チャネルの設定の開始](../using/web/web-configuration.md)
 :::
 
 ::::

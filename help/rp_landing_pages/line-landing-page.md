@@ -4,13 +4,13 @@ product: Journey Optimizer
 title: LINE
 description: LINE
 redpen-status: CREATED_||_2025-08-11_20-44-38
-source-git-commit: 588b0f805e9fcf1087e0eb368ebf31bbddaa30d4
-workflow-type: tm+mt
+exl-id: 5f51bbfe-37f8-4e8d-8e4e-6b9d018cd076
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '214'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
-
 
 # LINE{#section-overview}
 
@@ -25,36 +25,36 @@ LINE メッセージは、ジャーニーまたはキャンペーンで作成し
 
 LINE メッセージを作成する前に、Journey Optimizer を使用して LINE チャネルを設定します。[詳細情報](../using/line/line-configuration.md)
 
-## LINE チャネルドキュメント
+## LINE チャネルのドキュメント
 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 LINE チャネルの設定
 
-Adobe Journey Optimizerの API を使用して、LINE チャンネルを手動で設定したりチャンネルを設定したりするには、順を追って手順を説明します。
+LINE チャネルを手動で設定するか、Adobe Journey Optimizer の API を使用してチャネル設定を指定する手順について説明します。
 
-[設定方法を学ぶ](../using/line/line-configuration.md)
+[詳しくは、設定方法を参照してください。](../using/line/line-configuration.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-LINE メッセージの作成と設定
+LINE メッセージの作成および設定
 
-ジャーニーやキャンペーンに LINE メッセージを追加する方法、コンテンツをパーソナライズする方法、コンテンツテストを実行する方法について説明します。
+LINE メッセージをジャーニーやキャンペーンに追加し、コンテンツをパーソナライズし、コンテンツのテストを実行する方法について説明します。
 
-[メッセージの作成を開始](../using/line/create-line.md)
+[メッセージ作成の開始](../using/line/create-line.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-LINE メッセージの確認と送信
+LINE メッセージの確認および送信
 
-Adobe Journey Optimizer内で LINE メッセージをプレビュー、検証および送信し、ベストプラクティスに従って正常に配信されるようにします。
+Adobe Journey Optimizer 内で LINE メッセージをプレビュー、検証、送信し、ベストプラクティスに従って正常に配信されるようにします。
 
 [メッセージ送信のヒントを学ぶ](../using/line/send-line.md)
 :::

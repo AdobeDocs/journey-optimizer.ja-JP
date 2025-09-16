@@ -4,27 +4,27 @@ product: Journey Optimizer
 title: メールコンテンツのデザイン
 description: メールコンテンツのデザイン
 redpen-status: CREATED_||_2025-08-11_20-33-11
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: tm+mt
+exl-id: 21ba6677-f158-4d9d-8b01-304c4d3841ee
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '218'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
-
 # メールコンテンツのデザイン{#section-overview}
 
-Adobe Journey Optimizerでメールコンテンツをデザインすると、オーディエンスを魅了する、魅力的でパーソナライズされたレスポンシブなメールを作成できます。 ゼロから始める場合でも、HTMLのテンプレートを読み込む場合でも、スタイルをカスタマイズする場合でも、このガイドでは、カスタマイズされたエクスペリエンスのための動的コンテンツの使用から、メタデータと CSS を使用したアクセシビリティの最適化に至るまで、すべての手順を説明します。 実用的なヒント、再利用可能なデザインコンポーネント、Adobe StockやExperience Manager Assets Essentials などのツールを探索して、ワークフローを合理化します。 明確な指示とベストプラクティスを使用すると、プラットフォームやデバイスをまたいで共感を得られる、効果的なキャンペーンを作成する自信が得られます。
+Adobe Journey Optimizer でメールコンテンツをデザインすると、視覚的に魅力的で、パーソナライズされ、レスポンシブな、オーディエンスを魅了するメールを作成できます。このガイドでは、ゼロから始める場合でも、HTML テンプレートをインポートする場合でも、スタイルをカスタマイズする場合でも、カスタマイズされたエクスペリエンスを実現する動的コンテンツの使用から、メタデータと CSS を使用したアクセシビリティの最適化まで、すべての手順を順を追って説明します。実用的なヒント、再利用可能なデザインコンポーネント、Adobe Stock や Experience Manager Assets Essentials などのツールを探索して、ワークフローを効率化します。明確な指示とベストプラクティスにより、プラットフォームやデバイスをまたいで共感を得られる、効果的なキャンペーンを自信を持って作成できます。
 
 ## メールコンテンツのデザイン
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-メールデザインの概要
+メールデザインの基本を学ぶ
 
-レスポンシブなメールを作成するためのベストプラクティスやツールなど、Adobe Journey Optimizerでのメールデザインの基本について説明します。
+レスポンシブなメールを作成するベストプラクティスやツールなど、Adobe Journey Optimizer でのメールデザインの基本について説明します。
 
 [メールのデザインの開始](../using/email/get-started-email-design.md)
 :::
@@ -34,29 +34,29 @@ Adobe Journey Optimizerでメールコンテンツをデザインすると、オ
 
 メールコンテンツの作成と最適化
 
-メールコンテンツのデザイン、HTMLの読み込み、メールのコーディング、テンプレートの使用および再利用可能なテーマの適用の方法について説明します。
+メールコンテンツのデザイン、HTML のインポート、メールのコーディング、テンプレートの使用、再利用可能なテーマの適用の方法について説明します。
 
-[コンテンツの作成方法を学ぶ](start-creating-content-landing-page.md)
+[詳しくは、コンテンツの作成方法を参照してください。](start-creating-content-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
-Adobe Journey Optimizerでのコンテンツのデザイン
+Adobe Journey Optimizer でのコンテンツのデザイン
 
-コンポーネント、ビジュアルフラグメント、リンク、パーソナライズされたオファー、メタデータおよびカスタム CSS を使用するためのツールとベストプラクティスについて説明します。
+コンポーネント、ビジュアルフラグメント、リンク、パーソナライズされたオファー、メタデータ、カスタム CSS を使用するツールとベストプラクティスについて説明します。
 
 [デザインツールの探索](add-content-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-スタイルを編集：メールデザインのカスタマイズ
+スタイルの編集：メールデザインのカスタマイズ
 
-メールスタイルのパーソナライズ、配置とパディングの調整、背景の変更、インラインスタイル属性の適用について説明します。
+メールスタイルのカスタマイズ、配置とパディングの調整、背景の変更、インラインスタイル属性の適用について説明します。
 
-[スタイルのカスタマイズを開始](edit-style-landing-page.md)
+[スタイルのカスタマイズの開始](edit-style-landing-page.md)
 :::
 
 ::::

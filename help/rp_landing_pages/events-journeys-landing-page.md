@@ -4,27 +4,27 @@ product: Journey Optimizer
 title: イベント設定
 description: イベント設定
 redpen-status: CREATED_||_2025-08-11_21-10-50
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: tm+mt
+exl-id: 4f9f480d-8c71-4486-8074-d6fa9ed828bb
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '221'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
-
 # イベント設定{#section-overview}
 
-Adobe Journey Optimizerのイベント設定は、パーソナライズされたカスタマージャーニーを開始するトリガーの設定に関するものです。 個々のユーザーのアクション（単一イベント）に反応する場合でも、より広範なオーディエンス（ビジネスイベント）に更新をブロードキャストする場合でも、これらの設定は、データをアクションにつながる瞬間に変えます。 プロファイル固有のトリガー、オーディエンスベースのイベント、Adobe Analytics統合など、様々なイベントタイプが大規模なジャーニーフレームワークにどのように適合するかを調べます。 この節では、データスキーマやペイロードの定義から API ベースのリアルタイムストリーミングに至るまで、動的で正確かつ影響力のあるジャーニーを構築する方法について説明します。
+Adobe Journey Optimizer のイベント設定とは、パーソナライズされたカスタマージャーニーをローンチするトリガーを設定することです。個々のユーザーアクションに反応する場合（単一イベント）でも、より広範なオーディエンスに更新情報をブロードキャストする場合（ビジネスイベント）でも、これらの設定により、データが実用的なタイミングに変換されます。プロファイル固有のトリガー、オーディエンスベースのイベント、Adobe Analytics の統合など、様々なイベントタイプが大規模なジャーニーフレームワークに適合する仕組みについて説明します。この節では、データスキーマやペイロード定義から API ベースのリアルタイムストリーミングに至るまで、動的で正確かつ影響力のあるジャーニーを作成する方法について説明します。
 
 ## イベント設定
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 ジャーニーイベントの操作
 
-パーソナライズされたジャーニーを効果的にトリガーするためのジャーニーイベント、そのタイプ、ライフサイクル、設定について説明します。
+パーソナライズされたジャーニーを効果的にトリガーするジャーニーイベント、そのタイプ、ライフサイクル、設定について説明します。
 
 [詳細情報](../using/event/about-events.md)
 :::
@@ -34,13 +34,13 @@ Adobe Journey Optimizerのイベント設定は、パーソナライズされた
 
 単一イベントの設定
 
-ペイロードと ID タイプの定義を含む、単一イベントを設定する手順のガイドに従います。
+ペイロードと ID タイプの定義を含む、単一イベントを設定する手順について説明します。
 
 [基本を学ぶ](../using/event/about-creating.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 ExperienceEvent スキーマ
 
@@ -50,31 +50,31 @@ ExperienceEvent スキーマ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Adobe Analytics との統合
 
-Adobe Analytics データを統合してジャーニーを自動化し、パーソナライズされたエクスペリエンスを作成する方法を説明します。
+Adobe Analytics データを統合してジャーニーを自動化し、パーソナライズされたエクスペリエンスを作成する方法について説明します。
 
-[チュートリアルを表示](../using/event/about-analytics.md)
+[チュートリアルの表示](../using/event/about-analytics.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 ビジネスイベントの設定
 
-スキーマ定義やペイロード設定など、ビジネスイベントを設定するためのステップバイステップの手順。
+スキーマ定義やペイロード設定など、ビジネスイベントを設定する手順について説明します。
 
-[設定を開始](../using/event/about-creating-business.md)
+[設定の開始](../using/event/about-creating-business.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-ストリーミング API を使用したイベントの送信
+Streaming API を使用したイベントの送信
 
-ペイロードの準備や API 呼び出しなど、ストリーミング取り込み API を使用してイベントを送信する追加手順について説明します。
+ペイロードの準備や API 呼び出しなど、Streaming Ingestion API を使用してイベントを送信する追加手順について説明します。
 
 [ガイドに従う](../using/event/additional-steps-to-send-events-to-journey.md)
 :::

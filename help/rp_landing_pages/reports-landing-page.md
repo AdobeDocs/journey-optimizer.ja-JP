@@ -4,59 +4,59 @@ product: Journey Optimizer
 title: カスタムジャーニーレポート
 description: カスタムジャーニーレポート
 redpen-status: CREATED_||_2025-08-11_20-54-10
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: 1e685fcd-5bb1-4792-b851-e76b7273ddc7
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '253'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
-
 # カスタムジャーニーレポート{#section-overview}
 
-Adobe Journey Optimizerのカスタムジャーニーレポートを使用すると、ジャーニーステップイベントやスキーマからのデータに富んだインサイトを使用して、カスタマージャーニーのパフォーマンスを正確に追跡および分析できます。 ユーザーがジャーニーをどのように進めるかを理解したい場合でも、特定の手順をトラブルシューティングしたい場合でも、ジャーニーデータをAdobe Experience Platformと統合して詳細な分析を行いたい場合でも、この機能は必要なツールを提供します。 ステップイベントフィールドの構造の把握から高度な分析のための SQL クエリの例の調査に至るまで、各サブトピックは、複雑なデータを実用的な戦略に変換するのに役立つ焦点を絞ったガイドを提供します。 カスタマージャーニーのすべてのステップを最適化する方法を詳しく説明し、明らかにします。
+Adobe Journey Optimizer のカスタムジャーニーレポートを使用すると、ジャーニーステップイベントとスキーマからのリッチなデータインサイトを使用して、カスタマージャーニーのパフォーマンスを正確に追跡および分析できます。ユーザーがジャーニーをどのように進めるかを理解したい場合や、特定の手順をトラブルシューティングしたい場合、ジャーニーデータを Adobe Experience Platform と統合して詳細な分析を行いたい場合のいずれであっても、この機能は必要なツールを提供します。ステップイベントフィールドの構造の把握から、高度な分析を行うための SQL クエリ例の探索に至るまで、各サブトピックでは、複雑なデータを実用的な戦略に変換するのに役立つ、焦点を絞ったガイドを提供します。カスタマージャーニーのすべての手順を最適化する方法について詳しく説明します。
 
 ## カスタムジャーニーレポート
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 ジャーニーレポートの作成と分析
 
-ジャーニーレポートを作成する方法、スキーマとデータセットを理解する方法、Adobe Experience PlatformとCustomer Journey Analyticsを統合して詳細なパフォーマンス分析を行う方法について説明します。
+ジャーニーレポートを作成し、スキーマとデータセットを理解し、それらを Adobe Experience Platform および Customer Journey Analytics と統合して詳細なパフォーマンス分析を行う方法について説明します。
 
-[ジャーニーレポートの作成方法を学ぶ](../using/reports/sharing-overview.md)
+[ジャーニーレポートの作成方法の詳細情報](../using/reports/sharing-overview.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-ステップイベントフィールドリスト
+ステップイベントフィールドのリスト
 
-Adobe Journey Optimizerのレポートおよびデータ管理タスクをサポートするために分類および記述されたステップイベントフィールドの包括的なリストを確認します。
+Adobe Journey Optimizer でのレポートおよびデータ管理タスクをサポートするよう分類および説明された、ステップイベントフィールドの包括的なリストについて説明します。
 
-[ステップイベントフィールドの表示](../using/reports/sharing-field-list.md)
+[ステップイベントフィールドを見る](../using/reports/sharing-field-list.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
-レガシーステップイベントのフィールド
+従来のステップイベントフィールド
 
-ジャーニーフィールド、アクション実行フィールドなどに分類された、Adobe Journey Optimizerで使用される従来のステップイベントフィールドについて、詳細な定義とユースケースと共に説明します。
+詳細な定義とユースケースと共に、Adobe Journey Optimizer で使用される従来のステップイベントフィールドを、ジャーニーフィールド、アクション実行フィールドなどに分類する方法について説明します。
 
-[レガシーステップイベントフィールドについて説明します](legacy-step-event-fields-landing-page.md)
+[従来のステップイベントフィールドの詳細情報](legacy-step-event-fields-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 データ分析用の SQL クエリの例
 
-データレイク内のJourney Optimizer データを分析するための SQL クエリの例（トラブルシューティングからレポートおよびオーディエンスのセグメント化まで）にアクセスします。
+トラブルシューティングからレポート、オーディエンスのセグメント化に至るまで、データレイク内の Journey Optimizer データを分析するためのサンプル SQL クエリにアクセスします。
 
-[SQL クエリの例を表示](../using/reports/query-examples.md)
+[SQL クエリの例を見る](../using/reports/query-examples.md)
 :::
 
 ::::

@@ -4,39 +4,39 @@ product: Journey Optimizer
 title: 以前のリリースノート
 description: 以前のリリースノート
 redpen-status: CREATED_||_2025-08-11_20-02-38
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: tm+mt
+exl-id: 74d13927-18ca-4b7a-8e0e-fd69b38c0eff
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '166'
-ht-degree: 7%
+ht-degree: 100%
 
 ---
 
-
 # 以前のリリースノート{#section-overview}
 
-Adobe Journey Optimizerのリリースノートでは、カスタマージャーニーを向上させるために設計された最新の機能、更新、機能強化について月ごとにスナップショットを提供します。 意思決定ツールによるエクスペリエンスのパーソナライズ、多言語オプションによるメッセージの作成の効率化、ジャーニードライランによるキャンペーンのテストのいずれを目的とする場合でも、これらの更新は、顧客とより効果的に関わるのに役立つようにカスタマイズされています。 各セクションでは、RCS メッセージ、コンテンツ管理、AI 駆動型ツールなどの特定の進化に焦点を当てているので、目標に最も関連する項目を簡単に特定できます。 を掘り下げて、マーケティング戦略を最適化し革新する新しい方法を見つけます。
+Adobe Journey Optimizer のリリースノートでは、カスタマージャーニーを高めるよう設計された最新機能、更新、機能強化のスナップショットを毎月提供しています。決定ツールによるエクスペリエンスのパーソナライズ、多言語オプションによるメッセージ作成の効率化、ジャーニードライランによるキャンペーンのテストなどを行う際に、これらの更新によって、顧客とのエンゲージメントがより効果的に行われるようにカスタマイズされます。各節では、RCS メッセージ、コンテンツ管理、AI 駆動型ツールなどの特定の進化に焦点が当てられているため、目標に最も関連する項目を簡単に特定できます。マーケティング戦略を最適化し革新するための新しい方法を深く掘り下げ、確認します。
 
 ## 以前のリリースノート
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Adobe Journey Optimizer リリースノート 2025
 
-2025 年にAdobe Journey Optimizerで導入されたすべての機能、更新、改善点を、リリース月別に整理して確認します。
+2025年に Adobe Journey Optimizer に導入されたすべての機能、更新、改善点をリリース月別に確認できます。
 
-[2025 年リリースノートを表示](../using/rn/release-notes-2025.md)
+[2025年リリースノートを見る](../using/rn/release-notes-2025.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Adobe Journey Optimizer 2024 リリースノート
+Adobe Journey Optimizer 2024年リリースノート
 
-様々なチャネルや統合の改善など、2024 年を通じてAdobe Journey Optimizerに導入された機能、機能強化および更新をご確認ください。
+様々なチャネルおよび統合に関する改善など、2024年を通じて Adobe Journey Optimizer に導入された機能、機能強化および更新をご確認ください。
 
-[2024 年リリースノートを表示](../using/rn/release-notes-2024.md)
+[2024年リリースノートを見る](../using/rn/release-notes-2024.md)
 :::
 
 ::::
