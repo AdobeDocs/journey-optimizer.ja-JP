@@ -9,7 +9,7 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: イベント, ジャーニー, 定義, 開始
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 8701afe345f0eeed1503e4765d4715398823b102
+source-git-commit: 8205d248d986cdc1a2262705c58524c2434265f5
 workflow-type: tm+mt
 source-wordcount: '1079'
 ht-degree: 95%
@@ -54,7 +54,7 @@ ht-degree: 95%
 
   >[!CAUTION]
   >
-  >キャップルールは、ルールベースのイベントに対して定義します。ジャーニーが処理できる対象イベントの数を、特定の組織で 1 秒あたり 5,000 件に制限します。これは Journey Optimizer の SLA に対応しています。Journey Optimizer ライセンスおよび [Journey Optimizer Product Description](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html) を参照してください。
+  >キャップルールは、ルールベースのイベントに対して定義します。ジャーニーが処理できる対象イベントの数を、特定の組織で 1 秒あたり 5,000 件に制限します。これは Journey Optimizer の SLA に対応しています。Journey Optimizer ライセンスおよび [Journey Optimizer Product Description](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} を参照してください。
 
 * **システム生成**&#x200B;イベント：このイベントでは eventID が必要です。eventID フィールドは、イベントの作成時に自動的に生成されます。イベントをプッシュするシステムでは、ID を生成せずに、ペイロードプレビューにある ID を渡す必要があります。
 
@@ -83,8 +83,8 @@ ht-degree: 95%
 
 イベントの設定方法と、ストリーミングエンドポイントとイベントのペイロードの指定方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3431517?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 ビジネスイベントに適用できる使用例を理解します。ビジネスイベントを使用したジャーニーの構築方法と、適用するベストプラクティスについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416427?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)

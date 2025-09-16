@@ -3,14 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 調整されたキャンペーンに関するよくある質問
 description: Journey Optimizer の調整されたキャンペーンに関するよくある質問
-hide: true
-hidefromtoc: true
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 96b8813ebad35f51986cc62d847d9d3d256b08be
+source-git-commit: 8205d248d986cdc1a2262705c58524c2434265f5
 workflow-type: tm+mt
-source-wordcount: '1102'
-ht-degree: 23%
+source-wordcount: '1124'
+ht-degree: 22%
 
 ---
 
@@ -18,7 +16,7 @@ ht-degree: 23%
 
 Adobe Journey Optimizer の調整されたキャンペーンに関するよくある質問を以下に示します。
 
-さらに詳細が必要ですか？このページの下部にあるフィードバックオプションを使用して、質問を入力してください。
+さらに詳細が必要ですか？このページの下部にあるフィードバックオプションを使用して質問を提起するか、[Adobe Journey Optimizer コミュニティ ](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"} とつながってください。
 
 ## Campaign オーケストレーションとは {#what-are-oc}
 
@@ -52,6 +50,7 @@ Journey Optimizerに新しいタイプのキャンペーン **オーケストレ
 
 キャンペーンオーケストレーションにアクセスするには、ライセンスに **Journey Optimizer - キャンペーンとジャーニー**&#x200B;または **Journey Optimizer - キャンペーン**&#x200B;パッケージのいずれかが含まれている必要があります。ライセンスを確認し、必要に応じて更新するには、アドビ担当者にお問い合わせください。
 
+Campaign オーケストレーションライセンスモデルについて詳しくは、[Adobe Journey Optimizerの製品説明 ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} を参照してください。
 
 ## どのチャネルがサポートされていますか？ {#channels}
 
