@@ -4,69 +4,69 @@ product: Journey Optimizer
 title: データ管理
 description: データ管理
 redpen-status: CREATED_||_2025-08-11_21-06-39
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: tm+mt
+exl-id: d60bd99c-aa17-4ef0-85a9-384ef21b96da
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '244'
-ht-degree: 9%
+ht-degree: 100%
 
 ---
 
-
 # データ管理{#section-overview}
 
-Adobe Journey Optimizerのデータ管理を使用すると、柔軟性、セキュリティ、精度でカスタマーデータを管理できます。 コンプライアンスのためのデータ保持、期限切れレコードの削除、外部使用のための情報書き出しの必要性にかかわらず、これらのツールは、お客様のガバナンスポリシーと技術的ニーズをサポートするように設計されています。 データの構造を定義するスキーマから分析用のインタラクティブクエリまで、各機能はデータを効果的に整理、アクセス、活用するのに役立つ大きなエコシステムに適合します。 データセットの管理、Platform 統合の有効化、高度なクエリの調査などのトピックに進み、パーソナライゼーションや意思決定の目標に向けてデータをよりスマートに作業できるようにカスタマイズします。
+Adobe Journey Optimizer のデータ管理を使用すると、柔軟性、セキュリティおよび精度を確保しながらお客様データを管理できます。コンプライアンスを実現するデータ保持、有効期限が切れたレコードの削除、外部で使用する情報の書き出しなどが必要な場合など、これらのツールは、ガバナンスポリシーと技術的ニーズに対応するように設計されています。データ構造を定義するスキーマから分析用のインタラクティブクエリまで、各機能はデータを効果的に整理、アクセスおよび活用する、より大きなエコシステムの一部として機能します。データセットの管理、プラットフォームの統合の有効化、高度なクエリ探索などのトピックを深く掘り下げ、パーソナライゼーションや意思決定の目標に合わせてデータをよりスマートに活用できるようにカスタマイズします。
 
-## データ管理機能
+## データ管理の機能
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 データ管理の基本を学ぶ
 
-Adobe Journey Optimizerが、高度なデータ保持、書き出し、削除、ガバナンス機能をユーザーに提供する方法について説明します。
+Adobe Journey Optimizer の高度なデータ保持、書き出し、削除、ガバナンス機能を、どのようにユーザーが活用できるかについて説明します。
 
-[データ管理の調査](../using/data/gs-data.md)
+[データ管理の探索](../using/data/gs-data.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
-Adobe Journey Optimizerのスキーマの操作
+Adobe Journey Optimizer のスキーマの操作
 
-Journey Optimizerでの効果的なデータモデリングと検証のために、Adobe Experience Platform スキーマを理解し管理します。
+Adobe Experience Platform のスキーマを理解および管理して、Journey Optimizer での効果的なデータモデリングと検証を実現します。
 
 [スキーマについて](../using/data/get-started-schemas.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 Journey Optimizer データセット
 
-Adobe Journey Optimizerでの TTL ルール、書き出し、SQL クエリなど、データセットの管理に関する包括的なガイダンスを確認します。
+TTL ルール、書き出し、SQL クエリなど、Adobe Journey Optimizerでのデータセットの管理に関する包括的なガイダンスを確認します。
 
 [データセットの調査](datasets-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Adobe Experience Platform データの使用
 
-Journey OptimizerでAdobe Experience Platform データセットを有効にして利用し、パーソナライズ機能と意思決定機能を実現します。
+Journey Optimizer で Adobe Experience Platform のデータセットを有効にして、パーソナライゼーションと意思決定の機能に活用します。
 
 [データ使用について学ぶ](../using/data/lookup-aep-data.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
-Journey Optimizerにおけるクエリの基本を学ぶ
+Journey Optimizer のクエリの基本を学ぶ
 
-Adobe Journey Optimizerでクエリエディターを使用して、データ分析、調査およびデータセットへの入力を行う方法について説明します。
+Adobe Journey Optimizer でクエリエディターを使用して、データ分析、探索およびデータセットへの入力を行う方法について説明します。
 
-[データのクエリを開始](../using/data/get-started-queries.md)
+[データのクエリの開始](../using/data/get-started-queries.md)
 :::
 
 ::::

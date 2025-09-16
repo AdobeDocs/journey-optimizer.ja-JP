@@ -4,59 +4,59 @@ product: Journey Optimizer
 title: コードベースのエクスペリエンスの作成
 description: コードベースのエクスペリエンスの作成
 redpen-status: CREATED_||_2025-08-11_20-42-15
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: 571761d2-976c-4fe0-9631-23b62ba3b97c
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '219'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
-
 # コードベースのエクスペリエンスの作成{#section-overview}
 
-Adobe Journey Optimizerのコードベースのエクスペリエンスを使用すると、コードを使用してジャーニーやキャンペーン向けに高度にカスタマイズされた動的コンテンツを作成できます。 HTMLまたは JSON テンプレートのカスタマイズ、技術者以外のマーケター向けの編集可能なフィールドの追加、パーソナライズされたオファーを提供するための意思決定ロジックの適用など、この機能により、オーディエンスの共感を呼ぶ独自のエクスペリエンスを柔軟に作成できます。 コードベースのコンテンツを作成および編集する方法、複数のプラットフォームにわたってコンテンツをテストおよびプレビューする方法、公開とアクティベーションを通じてコンテンツを管理する方法について説明します。 各ステップは明確なガイダンスで説明されており、自信を持ってビジョンを実現するためのツールを確実に備えています。
+Adobe Journey Optimizer のコードベースのエクスペリエンスにより、ジャーニーやキャンペーン向けに高度にカスタマイズされた動的コンテンツをコードを使用して作成できます。HTML または JSON テンプレートをカスタマイズする場合でも、技術者以外のマーケター向けに編集可能なフィールドを追加する場合でも、決定ロジックを適用してパーソナライズされたオファーを配信する場合でも、この機能により、オーディエンスの共感を得られる独自のエクスペリエンスを柔軟に作成できます。コードベースのコンテンツを作成および編集し、プラットフォーム間でテストおよびプレビューし、公開とアクティブ化を通じて管理する方法について学びます。各手順は明確なガイダンスで説明されているので、自信を持ってビジョンを実現するためのツールを確保できます。
 
 ## コードベースのエクスペリエンスの作成
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-コードベースのエクスペリエンスの作成
+コードベースのエクスペリエンスの作成と構成
 
-パーソナライズ機能と判定機能を含め、Adobe Journey Optimizerでコードベースのエクスペリエンスを作成および設定する方法について説明します。
+パーソナライゼーション機能や意思決定機能など、Adobe Journey Optimizer でコードベースのエクスペリエンスを作成および設定する方法について説明します。
 
-[コードベースのエクスペリエンスの作成を開始](../using/code-based/create-code-based.md)
+[コードベースのエクスペリエンスの作成の開始](../using/code-based/create-code-based.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-コードベースのエクスペリエンスでの編集可能フィールドの使用
+コードベースのエクスペリエンスでの編集可能なフィールドの使用
 
-テンプレートに編集可能なフィールドを追加し、マーケターがコーディングせずにHTMLまたは JSON コンテンツを簡単にカスタマイズできるようにする方法を説明します。
+編集可能なフィールドをテンプレートに追加して、マーケターがコーディングなしで HTML または JSON コンテンツを簡単にカスタマイズできるようにする方法について説明します。
 
-[編集可能なフィールドについて学ぶ](../using/code-based/code-based-form-fields.md)
+[編集可能なフィールドの詳細情報](../using/code-based/code-based-form-fields.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 コードベースのエクスペリエンスのテスト
 
-検証のために、テストプロファイルとデバイス固有のプレビューを使用して、コードベースのエクスペリエンスをプレビューおよびシミュレートする方法を調べます。
+検証用のテストプロファイルとデバイス固有のプレビューを使用して、コードベースのエクスペリエンスをプレビューおよびシミュレートする方法について詳細を確認します。
 
-[コードベースのエクスペリエンスのテストを開始](../using/code-based/test-code-based.md)
+[コードベースのエクスペリエンスのテストの開始](../using/code-based/test-code-based.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 コードベースのエクスペリエンスの公開と管理
 
-コードベースのエクスペリエンスを公開、アクティブ化および停止するプロセスをマスターにして、キャンペーンとジャーニー内の表示を管理します。
+キャンペーンとジャーニー内の表示を管理できるよう、コードベースのエクスペリエンスを公開、アクティブ化、停止するプロセスを習得します。
 
-[エクスペリエンスの公開と管理について学ぶ](../using/code-based/publish-code-based.md)
+[エクスペリエンスの公開と管理の詳細情報](../using/code-based/publish-code-based.md)
 :::
 
 ::::

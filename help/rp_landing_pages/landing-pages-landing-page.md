@@ -4,79 +4,79 @@ product: Journey Optimizer
 title: ランディングページ
 description: ランディングページ
 redpen-status: CREATED_||_2025-08-12_00-37-59
-source-git-commit: fc85686dfa7d482416b439dfd1610cd0cd6b5555
-workflow-type: tm+mt
+exl-id: 94ad5ecb-b1f1-4fd7-8ef4-5fdbae25ae36
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '265'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
-
 # ランディングページ{#section-overview}
 
-Adobe Journey Optimizerのランディングページを使用すると、ニュースレターの購読、コミュニケーションのオプトアウト、メールの確認など、オーディエンスを引き付け、特定のアクションを推進するカスタマイズされたスタンドアロン web ページを作成できます。 購読リストの管理、インタラクティブコンテンツのデザイン、パフォーマンスのトラッキングなど、どの場合でも、ランディングページはカスタマージャーニーを強化するための多用途なツールです。 この節では、ページの設定とデザインからリアルタイムデータとレポートの使用まで、すべてを分類し、効果的で使いやすいエクスペリエンスを作成するツールを確保します。 各機能がどのように目標と結び付き、シームレスな顧客インタラクションを構築するかを説明します。
+Adobe Journey Optimizer のランディングページを使用すると、ニュースレターの購読、コミュニケーションのオプトアウト、メールの確認など、オーディエンスに関与し、特定のアクションを推進する、カスタマイズされたスタンドアロンの web ページを作成できます。購読リストの管理、インタラクティブコンテンツのデザイン、パフォーマンスのトラッキングなど、ランディングページはカスタマージャーニーを強化する汎用性の高いツールです。この節では、ページの設定とデザインからリアルタイムのデータとレポートの使用まですべてを分類し、影響力のある使いやすいエクスペリエンスを作成するツールについて説明します。各機能がどのように目標につながり、シームレスな顧客インタラクションを作成するかについて詳しく説明します。
 
-## Adobe Journey Optimizerのランディングページ
+## Adobe Journey Optimizer のランディングページ
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 ランディングページの概要
 
-ランディングページの基本、ページの機能、オプトイン/オプトアウトや購読などのワークフローとの統合について説明します。
+ランディングページの基本、その機能、オプトイン／オプトアウトや購読などのワークフローとの統合について説明します。
 
 [ランディングページの基本を学ぶ](../using/landing-pages/get-started-lp.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 ランディングページの作成と公開
 
-ランディングページを効果的に作成、設定、テストおよび公開するためのステップバイステップのガイダンス。
+ランディングページを効果的に作成、設定、テスト、公開する手順について説明します。
 
-[ランディングページの作成方法を学ぶ](../using/landing-pages/create-lp.md)
+[詳しくは、ランディングページの作成方法を参照してください。](../using/landing-pages/create-lp.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 ランディングページの管理
 
-ランディングページの公開、複製、タグ付けなどのアクションにアクセス、整理、実行します。
+ランディングページにアクセス、整理して、公開、複製、タグ付けなどのアクションを実行します。
 
-[ランディングページ管理の調査](../using/landing-pages/manage-lp.md)
+[ランディングページの管理の探索](../using/landing-pages/manage-lp.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 ランディングページのコンテンツのデザイン
 
-テンプレート、フォーム、高度なJavaScript機能を使用して、ランディングページを作成し、カスタマイズします。
+テンプレート、フォーム、高度な JavaScript 機能を使用して、ランディングページを作成およびカスタマイズします。
 
 [ランディングページのデザインの開始](landing-pages-design-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 購読リストの作成と管理
 
-購読リストを設定してオプトインのプロファイルを管理し、ターゲット通信を効率化します。
+購読リストを設定して、オプトインプロファイルを管理し、ターゲットにするコミュニケーションを効率化します。
 
-[購読リストについて学ぶ](../using/landing-pages/subscription-list.md)
+[詳しくは、購読リストを参照してください。](../using/landing-pages/subscription-list.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 ランディングページのユースケース
 
 購読、オプトアウト、イベントトリガー通信など、ランディングページの実用的なユースケースについて説明します。
 
-[ランディングページのユースケースの調査](../using/landing-pages/lp-use-cases.md)
+[ランディングページのユースケースの探索](../using/landing-pages/lp-use-cases.md)
 :::
 
 ::::
@@ -84,4 +84,4 @@ Adobe Journey Optimizerのランディングページを使用すると、ニュ
 
 ## その他のリソース
 
-- **[ランディングページの設定](lp-configuration-landing-page.md)** - ランディングページ管理を最適化するためのサブドメインとプリセットの設定に関する包括的なガイダンス。
+- **[ランディングページの設定](lp-configuration-landing-page.md)** - ランディングページ管理を最適化するサブドメインとプリセット設定の包括的なガイダンス。

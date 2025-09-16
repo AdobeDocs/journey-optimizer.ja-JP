@@ -4,77 +4,77 @@ product: Journey Optimizer
 title: ジャーニー
 description: ジャーニー
 redpen-status: CREATED_||_2025-08-11_20-21-13
-source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
-workflow-type: tm+mt
+exl-id: c148c9e8-8b1d-4c64-8bb6-dc86898cb672
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '276'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
-
 # ジャーニー{#section-overview}
 
-Adobe Journey Optimizerのジャーニーを使用すると、オーディエンスの行動とニーズにリアルタイムで適応する、パーソナライズされたマルチステップのカスタマージャーニーを作成できます。 直感的なドラッグ&amp;ドロップキャンバスを使用すると、コンテキストデータとオーディエンスターゲティングを活用して、複数のチャネルにわたってメッセージとアクションを調整し、最大の影響を得ることができます。 リアルタイムのトリガーを探索する場合でも、ジャーニープロパティを管理する場合でも、カスタムアクションや式などの高度なツールを使用する場合でも、このセクションでは明確なロードマップを示します。 有意義でタイムリーな顧客体験を提供するジャーニーを自信を持って設計および調整するためのハウツーガイド、ユースケース、トラブルシューティングのヒントを詳しく説明します。
+Adobe Journey Optimizer のジャーニーを使用すると、オーディエンスの行動やニーズにリアルタイムで適応する、パーソナライズされた複数手順のカスタマージャーニーを作成できます。直感的なドラッグ＆ドロップキャンバスを使用すると、コンテキストデータとオーディエンスターゲティングを活用して、複数のチャネルをまたいでメッセージとアクションを調整し、最大限の影響を得ることができます。リアルタイムのトリガーを探索する場合や、ジャーニープロパティを管理する場合、カスタムアクションや式などの高度なツールを使用する場合のいずれであっても、この節では、明確なロードマップを提供します。有意義でタイムリーなカスタマーエクスペリエンスを提供するジャーニーを自信を持ってデザインおよび調整するためのハウツーガイド、ユースケース、トラブルシューティングのヒントについて詳しく説明します。
 
 ## ジャーニーの概要
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Adobe Journey Optimizer ジャーニーの概要
+Adobe Journey Optimizer ジャーニーの基本を学ぶ
 
-Adobe Journey Optimizerの直感的なドラッグ&amp;ドロップツールとコンテキストデータを使用して、複数の手順からなるリアルタイムのカスタマージャーニーを作成する方法を説明します。
+Adobe Journey Optimizer の直感的なドラッグ＆ドロップツールとコンテキストデータを使用して、複数手順のリアルタイムのカスタマージャーニーを作成する方法について説明します。
 
 [ジャーニーの基本を学ぶ](../using/building-journeys/journey.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 ジャーニーの作成と管理に関する包括的ガイド
 
-パーソナライズされたオムニチャネルキャンペーンを構築するためのカスタマージャーニーを設計、テスト、公開および追跡する手順ごとのガイダンスです。
+パーソナライズされたオムニチャネルキャンペーンを構築するためのカスタマージャーニーをデザイン、テスト、公開および追跡する手順について説明します。
 
-[ジャーニーの作成について](create-journey-landing-page.md)
+[ジャーニーの作成の探索](create-journey-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-ジャーニー管理の包括的ガイド
+ジャーニーの管理に関する包括的ガイド
 
-フィルタリング、プロファイル管理、タイムゾーン、最適化手法のツールを使用して、カスタマージャーニーを効率的に管理します。
+フィルタリング、プロファイル管理、タイムゾーン、最適化手法のためのツールを使用して、カスタマージャーニーを効率的に管理します。
 
-[ジャーニー管理について学ぶ](manage-journey-landing-page.md)
+[ジャーニー管理の詳細情報](manage-journey-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
-Adobe Journey Optimizerのアクティビティ
+Adobe Journey Optimizer のアクティビティ
 
-ジャーニーでのトリガー、意思決定手順、Audience Management、パーソナライズされたメッセージングなどのアクティビティを設定および使用する方法について説明します。
+トリガー、決定手順、オーディエンス管理、パーソナライズされたメッセージなどのアクティビティをジャーニーで設定および使用する方法について説明します。
 
 [アクティビティの探索](about-journey-building-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-Adobe Journey Optimizerでの式の作成
+Adobe Journey Optimizer での式の作成
 
-強力なツールと構文を使用した、動的ワークフロー、データ操作、高度なジャーニーオーケストレーション用のマスター式の作成。
+強力なツールと構文を使用して、動的なワークフロー、データ操作、高度なジャーニーオーケストレーションのための式の作成を習得します。
 
-[式について説明します](building-advanced-conditions-journeys-landing-page.md)
+[式の詳細情報](building-advanced-conditions-journeys-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-Adobe Journey Optimizerの実用的なユースケース
+Adobe Journey Optimizer の実用的なユースケース
 
-マルチチャネルメッセージングや外部システムとの統合など、Adobe Journey Optimizerの実際のアプリケーションについて説明します。
+マルチチャネルメッセージや外部システムとの統合など、Adobe Journey Optimizer の実際の用途について説明します。
 
 [ユースケースの確認](journey-use-cases-landing-page.md)
 :::
@@ -84,4 +84,4 @@ Adobe Journey Optimizerの実用的なユースケース
 
 ## その他のリソース
 
-- **[お客様のジャーニーのトラブルシューティング](troubleshoot-journey-landing-page.md)** - デバッグおよび最適化のためのツール、エラーコード、ベストプラクティスを使用して、ジャーニーの実行に関する問題を診断および解決します。
+- **[カスタマージャーニーのトラブルシューティング](troubleshoot-journey-landing-page.md)** - ツール、エラーコード、デバッグと最適化のベストプラクティスを使用して、ジャーニー実行の問題を診断および解決します。

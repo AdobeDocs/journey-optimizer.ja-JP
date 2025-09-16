@@ -4,68 +4,68 @@ product: Journey Optimizer
 title: アプリ内チャネル
 description: アプリ内チャネル
 redpen-status: CREATED_||_2025-08-11_20-36-05
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: tm+mt
+exl-id: 79283c99-af70-4871-a72a-dec0b2e39c5a
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '226'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
-
 # アプリ内チャネル{#section-overview}
 
-Adobe Journey Optimizerのアプリ内チャネルを使用すると、モバイルまたは web アプリ内に直接表示されるパーソナライズされた通知を通じて、リアルタイムでアプリユーザーとつながることができます。 オンボーディング中のユーザーのガイド、新機能のプロモーション、特別オファーの共有のいずれを行う場合でも、アプリ内メッセージは、関連性の高いコンテンツを最も重要なタイミングで正確に配信する魅力的な方法を提供します。 このセクションでは、アプリ内メッセージを習得するための明確なロードマップを示します。 必要な設定のセットアップや視覚的に訴えるメッセージの設計から、ターゲット設定されたキャンペーンの作成やその影響の分析まで、 各トピックは最後のトピックに基づいて構築されており、有意義で使いやすいエクスペリエンスを自信を持って作成できます。
+Adobe Journey Optimizer のアプリ内チャネルを使用すると、モバイルアプリや web アプリ内に直接表示されるパーソナライズされた通知を通じて、アプリユーザーとリアルタイムでつながることができます。オンボーディング中にユーザーをガイドしたり、新機能を宣伝したり、特別なオファーを共有したりする場合でも、アプリ内メッセージは、最も重要なタイミングで関連コンテンツを正確に配信する魅力的な方法を提供します。この節では、アプリ内メッセージを取得する明確なロードマップについて説明します。必要な設定の指定や視覚的に魅力的なメッセージのデザインから、ターゲットキャンペーンの作成とその影響の分析まで、様々なことについて説明します。各トピックは前のトピックに基づいて作成されています。これにより、自信を持って有意義で使いやすいエクスペリエンスを作成できます。
 
 ## アプリ内チャネルの機能
 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 アプリ内チャネル設定
 
-権限、配信設定およびアプリ内メッセージを送信するための前提条件を設定するためのステップバイステップガイド
+アプリ内メッセージを送信する権限、配信設定、前提条件を指定する手順について説明します。
 
 [環境の設定](../using/in-app/inapp-configuration.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-モバイルのアプリ内メッセージを作成
+モバイルアプリ内メッセージの作成
 
-トリガー、キャンペーン、ジャーニーを使用してモバイルのアプリ内メッセージを作成、設定および公開する方法について説明します。
+トリガー、キャンペーン、ジャーニーを使用してモバイルアプリ内メッセージを作成、設定、公開する方法について説明します。
 
 [最初のメッセージの作成](../using/in-app/create-in-app.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Web アプリ内メッセージの作成
 
-トリガー、オーディエンスのターゲティングおよび配信頻度を設定して、web アプリ内メッセージキャンペーンを設定および作成します。
+トリガー、オーディエンスのターゲティング、配信頻度を使用して、web アプリ内メッセージキャンペーンを設定および作成します。
 
 [Web メッセージの設定](../using/in-app/create-in-app-web.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/paint-brush.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/paint-brush.svg)
 
 アプリ内コンテンツのデザインとカスタマイズ
 
 レイアウトオプションを探索し、コンテンツをパーソナライズし、詳細フォーマットを使用してアプリ内メッセージを強化します。
 
-[メッセージをデザイン](../using/in-app/design-in-app.md)
+[メッセージのデザイン](../using/in-app/design-in-app.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg)
 
 アプリ内通知の確認および送信
 
-Adobe Journey Optimizerを使用して、アプリ内通知をプレビュー、テスト、レビューおよびアクティブ化します。
+Adobe Journey Optimizer を使用して、アプリ内通知をプレビュー、テスト、確認、アクティブ化します。
 
 [通知の送信](../using/in-app/send-in-app.md)
 :::

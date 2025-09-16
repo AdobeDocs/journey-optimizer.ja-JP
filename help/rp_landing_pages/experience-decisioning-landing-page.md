@@ -4,53 +4,53 @@ product: Journey Optimizer
 title: 決定
 description: 決定
 redpen-status: CREATED_||_2025-08-11_20-57-38
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: cbfaffdc-79a5-4e61-b307-b670ed1e4835
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '333'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
-
 # 決定{#section-overview}
 
-Adobe Journey Optimizerの意思決定機能では、一元化された意思決定項目カタログと強力な意思決定エンジンを組み合わせることで、パーソナライズされたマーケティングオファーを提供できるようになります。 個々のオーディエンス向けにコンテンツをカスタマイズする場合でも、AI を活用したランキングで戦略を最適化する場合でも、Decisioning は、データ駆動型の意思決定を大規模に行うためのツールを提供します。 決定項目、ルール、ポリシーなどの主要な概念を掘り下げ、これらの要素がどのように連携してキャンペーンに最適なコンテンツを選択し、優先順位を付けるかを調べます。 コレクションやプレースメントの管理からAdobe Experience Platform データの活用に至るまで、この包括的なガイドを使用して、よりスマートなパーソナライゼーションを解き放ち、効果的なカスタマーエクスペリエンスを促進できます。
+Adobe Journey Optimizer の決定機能を使用すると、一元化された決定項目のカタログと強力な決定エンジンを組み合わせることで、パーソナライズされたマーケティングオファーを配信できます。個々のオーディエンス向けにコンテンツをカスタマイズする場合でも、AI を活用したランキングで戦略を最適化する場合でも、決定は大規模なデータ駆動型の決定を行うツールを提供します。決定項目、ルール、ポリシーなどの主な概念を掘り下げ、これらの要素が連携してキャンペーンに最適なコンテンツを選択し、優先順位を付ける仕組みについて説明します。コレクションとプレースメントの管理から Adobe Experience Platform データの活用まで、この包括的なガイドは、よりスマートなパーソナライゼーションを実現し、影響力のあるカスタマーエクスペリエンスを推進するのに役立ちます。
 
-## 意思決定機能
+## 決定機能
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 決定の概要
 
-パーソナライズされたコンテンツ配信や主要な設定手順など、Adobe Journey Optimizerの意思決定の基本について説明します。
+パーソナライズされたコンテンツの配信や主な設定手順など、Adobe Journey Optimizer での決定の基盤について説明します。
 
 [決定の基本を学ぶ](../using/experience-decisioning/gs-experience-decisioning.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
-決定ガードレールと制限
+決定のガードレールと制限
 
-Adobe Journey Optimizerで意思決定を効果的に使用するための制約とベストプラクティスを理解します。
+Adobe Journey Optimizer で決定を効果的に使用する制約とベストプラクティスについて説明します。
 
-[ガードレールについて学ぶ](../using/experience-decisioning/decisioning-guardrails.md)
+[ガードレールの詳細情報](../using/experience-decisioning/decisioning-guardrails.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 API リファレンス：オファーの配信
 
-様々な実装方法で、コードベースのエクスペリエンスチャネルを使用してオファーを配信する方法を調べます。
+様々な実装方法で、コードベースのエクスペリエンスチャネルを使用して、オファーを配信する方法について説明します。
 
-[API リファレンスを表示](experience-decisioning-api-reference-landing-page.md)
+[API リファレンスの表示](experience-decisioning-api-reference-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 決定項目とカタログの管理
 
@@ -60,7 +60,7 @@ API リファレンス：オファーの配信
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 決定ルールの作成
 
@@ -70,13 +70,13 @@ API リファレンス：オファーの配信
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-AI モデルによるランキングの作成
+AI モデルを使用したランキングの作成
 
-ランキングメソッドと AI モデルを使用して意思決定を最適化し、マーケティングオファーを効果的に優先順位を付けます。
+ランキング方法と AI モデルを使用して決定を最適化し、マーケティングオファーを効果的に優先順位付けします。
 
-[ランキングについて学ぶ](experience-decisioning-rankings-landing-page.md)
+[ランキングの詳細情報](experience-decisioning-rankings-landing-page.md)
 :::
 
 ::::
@@ -84,9 +84,9 @@ AI モデルによるランキングの作成
 
 ## その他のリソース
 
-- **[メールプレースメントの作成](../using/experience-decisioning/placements.md)** - メールキャンペーンのプレースメントを作成して、決定項目を効果的に紹介する方法を説明します。
+- **[メールプレースメントの作成](../using/experience-decisioning/placements.md)** - 決定項目を効果的に示すメールキャンペーンのプレースメントを作成する方法について説明します。
 - **[Adobe Experience Platform データの使用](aep-data-landing-page.md)** - Adobe Experience Platform データを統合して、決定ルールとランキング式を強化します。
-- **[選択戦略の作成](../using/experience-decisioning/selection-strategies.md)** - ランキング方法と制約を使用してオファー配信を決定する、再利用可能な選択戦略を構築します。
-- **[決定ポリシーの作成](../using/experience-decisioning/create-decision.md)** – 決定ポリシーを設定して、オーディエンスプロファイル用のコンテンツを動的にパーソナライズします。
-- **[決定に関するレポート](../using/experience-decisioning/cja-reporting.md)** - Customer Journey Analyticsで、決定 KPI を監視し、カスタムレポートダッシュボードを作成します。
-- **[意思決定のユースケース](../using/experience-decisioning/experience-decisioning-uc.md)** - コードベースのエクスペリエンスおよびコンテンツ実験の意思決定戦略を実装する方法を説明します。
+- **[選択戦略の作成](../using/experience-decisioning/selection-strategies.md)** - ランキング方法と制約を使用してオファーの配信を決定する再利用可能な選択戦略を作成します。
+- **[決定ポリシーの作成](../using/experience-decisioning/create-decision.md)** - 決定ポリシーを設定して、オーディエンスプロファイル用のコンテンツを動的にパーソナライズします。
+- **[決定に関するレポート](../using/experience-decisioning/cja-reporting.md)** - 決定 KPI を監視し、Customer Journey Analytics を使用してカスタムレポートダッシュボードを作成します。
+- **[決定ユースケース](../using/experience-decisioning/experience-decisioning-uc.md)** - コードベースのエクスペリエンスとコンテンツ実験の決定戦略を実装する方法について説明します。

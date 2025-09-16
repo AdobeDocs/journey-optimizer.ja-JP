@@ -4,37 +4,37 @@ product: Journey Optimizer
 title: テクニカルノート
 description: テクニカルノート
 redpen-status: CREATED_||_2025-08-12_00-43-53
-source-git-commit: fc85686dfa7d482416b439dfd1610cd0cd6b5555
-workflow-type: tm+mt
+exl-id: 853c6c96-2dab-495f-946a-1b03c50632a2
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '160'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
-
 # テクニカルノート{#section-overview}
 
-Adobe Journey Optimizerのテクニカルノートでは、実験とレポートを強化する高度な統計手法の背景を説明しています。 信頼性シーケンスを使用して実験を継続的に監視する方法を探索する場合でも、コンバージョン率や上昇率などの指標の計算方法を理解する場合でも、これらのガイドは、信頼性の高いデータ駆動型の意思決定を支援します。 各トピックは、エラー率や仮説テストなどの主要な概念に基づいて構築され、Adobeの独自のアプローチに関する基本的な知識と深い掘り下げの両方を提供します。 これらのツールを習得すると、インサイトを解き放ってキャンペーンを最適化し、オーディエンスに最適なパフォーマンスの戦略を自信を持って宣言できます。
+Adobe Journey Optimizer のテクニカルノートでは、実験とレポートを強化する高度な統計手法の背景について説明します。信頼性シーケンスを使用して実験を継続的に監視する方法を探索する場合でも、コンバージョン率や上昇率などの指標の計算方法を理解する場合でも、これらのガイドは、自信を持ってデータ駆動型の決定を行うのに役立ちます。各トピックでは、エラー率や仮説テストなどの主な概念に基づいて、基本的な知識とアドビ独自のアプローチの詳細な説明の両方について説明します。これらのツールを取得すると、キャンペーンを最適化するインサイトが得られ、オーディエンスにとって最も効果的な戦略を自信を持って宣言できます。
 
 ## テクニカルノート
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
-Adobe Journey Optimizer実験で使用される統計計算
+Adobe Journey Optimizer 実験で使用される統計計算
 
-信頼性シーケンスおよび常に有効な信頼性などの高度な統計手法を説明し、実験の安全で継続的な監視を可能にします。
+実験の安全かつ継続的な監視を可能にする、信頼性シーケンスや常に有効な有効な信頼性などの高度な統計手法について説明します。
 
-[統計計算の調査](../using/content-management/experiment-calculations.md)
+[統計計算の探索](../using/content-management/experiment-calculations.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 実験レポートの統計計算について
 
-コンバージョン率、上昇率、信頼区間、最もパフォーマンスの高いアームの条件など、実験レポートの統計的な方法と指標について詳しく説明します。
+コンバージョン率、上昇率、信頼区間、最もパフォーマンスの高いアームの条件など、実験レポートの統計手法と指標について詳しく説明します。
 
 [実験レポートの計算の表示](../using/content-management/experiment-report-calculations.md)
 :::

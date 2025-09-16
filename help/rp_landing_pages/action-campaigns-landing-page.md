@@ -4,53 +4,53 @@ product: Journey Optimizer
 title: アクションキャンペーン
 description: アクションキャンペーン
 redpen-status: CREATED_||_2025-08-11_20-22-10
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: 577ba2bf-0491-4e4a-bbf3-0cfb374086c1
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '250'
-ht-degree: 6%
+ht-degree: 100%
 
 ---
 
-
 # アクションキャンペーン{#section-overview}
 
-Adobe Journey Optimizerのアクションキャンペーンを使用すると、プロモーション、アップデート、法律上の注意など、バッチコミュニケーション用のターゲットメッセージをタイムリーに配信できます。 柔軟性を持つように設計されたこれらのキャンペーンでは、プロパティの定義、通信チャネルの選択、コンテンツの最適化、オーディエンスの設定、配信のスケジュール設定、キャンペーンのアクティブ化を簡単に行えます。 多言語コンテンツの作成、バリエーションのテスト、緊急の通知の優先順位付けのいずれであっても、各手順は、効果的でパーソナライズされたアウトリーチの作成に向けて構築されます。 この節では、プロセスを管理しやすい手順に分けて計画から実行までの手順を示すことで、オーディエンスの共感を得られ、結果を導くキャンペーンを自信を持って設計できます。
+Adobe Journey Optimizer のアクションキャンペーンを使用すると、プロモーション、更新、法律上の注意など、バッチコミュニケーション用のターゲットメッセージをタイムリーに配信できます。柔軟性を重視してデザインされたこれらのキャンペーンでは、プロパティの定義、通信チャネルの選択、コンテンツの最適化、オーディエンスの設定、配信のスケジュール設定、キャンペーンのアクティブ化を簡単に行うことができます。多言語コンテンツの作成、バリエーションのテスト、緊急の通知の優先順位付けのいずれであっても、各手順は、影響力のあるパーソナライズされたアウトリーチの作成に向けて作成されます。この節では、プロセスを管理しやすい手順に分類し、計画から実行までについて説明します。これにより、オーディエンスの共感を得られる、結果を推進するキャンペーンを自信を持ってデザインできます。
 
 ## アクションキャンペーンリソース
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 アクションキャンペーンの作成
 
-プロパティ、アクション、オーディエンス、スケジュール、アクティベーションなどの、アクションキャンペーンを作成および管理する方法について説明します。
+プロパティ、アクション、オーディエンス、スケジュール、アクティブ化などのアクションキャンペーンを作成および管理する方法について説明します。
 
-[チュートリアルを開始](../using/campaigns/create-campaign.md)
+[チュートリアルの開始](../using/campaigns/create-campaign.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-アクションキャンペーンプロパティの定義
+アクションキャンペーンのプロパティの定義
 
-名前、タグ、アクセスラベルなどのキャンペーンプロパティを定義する手順を説明します。
+名前、タグ、アクセスラベルなどのキャンペーンプロパティを定義する手順について説明します。
 
 [詳細情報](../using/campaigns/campaign-properties.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Campaign アクションの設定
+キャンペーンアクションの設定
 
-チャネルの選択、最適化、多言語コンテンツなど、キャンペーンアクションの設定に関するガイドです。
+チャネルの選択、最適化、多言語コンテンツなど、キャンペーンアクションの設定について説明します。
 
-[設定ガイドの参照](../using/campaigns/campaign-action.md)
+[設定ガイドの探索](../using/campaigns/campaign-action.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 メッセージの最適化の活用
 
@@ -60,23 +60,23 @@ Campaign アクションの設定
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/pencil-alt.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/pencil-alt.svg)
 
 キャンペーンコンテンツの編集
 
-複数のチャネルをまたいでアクションキャンペーンのコンテンツを設計、テストおよび設定します。
+複数のチャネルをまたいでアクションキャンペーンのコンテンツをデザイン、テストおよび設定します。
 
 [コンテンツの編集](../using/campaigns/campaign-content.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
 
 キャンペーンオーディエンスの定義
 
 キャンペーンのオーディエンスと ID タイプを選択して、効果的なターゲティングを確保します。
 
-[オーディエンスを設定](../using/campaigns/campaign-audience.md)
+[オーディエンスの設定](../using/campaigns/campaign-audience.md)
 :::
 
 ::::
@@ -84,5 +84,5 @@ Campaign アクションの設定
 
 ## その他のリソース
 
-- **[アクションキャンペーンのスケジュール設定](../using/campaigns/campaign-schedule.md)** - キャンペーンの開始日と終了日、頻度およびチャネル固有のスケジュールを設定します。
-- **[アクションキャンペーンのレビューとアクティブ化](../using/campaigns/review-activate-campaign.md)** – 段階的な手順に従って、アクションキャンペーンを検証、レビューおよびアクティブ化します。
+- **[アクションキャンペーンのスケジュール](../using/campaigns/campaign-schedule.md)** - キャンペーンの開始日と終了日、頻度、チャネル固有のスケジュールを設定します。
+- **[アクションキャンペーンのレビューとアクティブ化](../using/campaigns/review-activate-campaign.md)** - 手順に従ってアクションキャンペーンを検証、レビューおよびアクティブ化します。

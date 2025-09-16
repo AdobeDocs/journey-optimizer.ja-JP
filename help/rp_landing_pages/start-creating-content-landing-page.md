@@ -1,72 +1,72 @@
 ---
 solution: Journey Optimizer
 product: Journey Optimizer
-title: コンテンツ作成の開始
-description: コンテンツ作成の開始
+title: コンテンツ作成を開始する
+description: コンテンツ作成を開始する
 redpen-status: CREATED_||_2025-08-11_20-31-35
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: tm+mt
+exl-id: fe9456c9-50ae-442d-80d3-81b708d3494b
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '245'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
+# コンテンツ作成を開始する{#section-overview}
 
-# コンテンツ作成の開始{#section-overview}
+Adobe Journey Optimizer でのコンテンツの作成では、柔軟性と効率性により、オーディエンスとつながるパーソナライズされたメールをデザインすることが重要です。ゼロから始める場合や、既存の HTML を読み込む場合、独自のコンテンツをコーディングする場合、テンプレートを使用する場合、再利用可能なテーマを適用する場合のいずれであっても、ニーズとスキルに一致した適切なアプローチを見つけることができます。それぞれのメソッドでは、ドラッグ＆ドロップ編集、動的コンテンツ、モジュールデザインなどの独自のツールと機能が用意され、説得力のあるメッセージを作成するのに役立ちます。このガイドでは、これらのオプションが連携することで、自信を持ってメールキャンペーンを作成、カスタマイズ、効率化できる仕組みについて説明します。
 
-Adobe Journey Optimizerでコンテンツを作成することは、柔軟性と効率性に関係し、オーディエンスとつながるパーソナライズされたメールをデザインできるようにします。 ゼロから始める場合でも、既存のHTMLを読み込む場合でも、独自のコンテンツをコーディングする場合でも、テンプレートを使用する場合でも、再利用可能なテーマを適用する場合でも、ニーズとスキルに合った適切なアプローチを見つけることができます。 各方法には、ドラッグ&amp;ドロップ編集、動的コンテンツ、モジュール設計など、魅力的なメッセージを作成するのに役立つ独自のツールや機能が用意されています。 このガイドでは、これらのオプションがどのように連携し、メールキャンペーンを自信を持って作成、カスタマイズおよび効率化できるかを確認します。
-
-## コンテンツ作成の開始
+## コンテンツ作成を開始する
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 メールコンテンツのゼロからのデザイン
 
-パーソナライゼーション、動的コンテンツ、トラッキングリンクなど、Adobe Journey OptimizerのメールDesignerを使用してメールコンテンツを作成およびカスタマイズする方法について説明します。
+Adobe Journey Optimizer の E メールデザイナーを使用して、パーソナライゼーション、動的コンテンツ、トラッキングリンクなど、メールコンテンツを作成およびカスタマイズする方法について説明します。
 
-[メールコンテンツのデザインの開始](../using/email/content-from-scratch.md)
+[メールコンテンツのデザインを開始する](../using/email/content-from-scratch.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 既存のメールコンテンツを読み込む
 
-HTML コンテンツをAdobe Journey Optimizerに読み込み、デザイン要素を調整し、読み込んだコンテンツをキャンペーン用にパーソナライズします。
+HTML コンテンツを Adobe Journey Optimizer に読み込み、デザイン要素を調整して、読み込んだコンテンツをキャンペーン用にパーソナライズします。
 
-[コンテンツの読み込み方法を学ぶ](../using/email/existing-content.md)
+[コンテンツの読み込み方法の詳細情報](../using/email/existing-content.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-独自のメールコンテンツをコーディング
+独自のメールコンテンツのコーディング
 
-完全なカスタマイズを行うには、Adobe Journey Optimizerの「独自にコーディング」モードで、Raw HTMLを使用してメールコンテンツを手動でコーディングします。
+完全なカスタマイズを行うには、Adobe Journey Optimizer の「独自にコーディング」モードで、生の HTML を使用してメールコンテンツを手動でコーディングします。
 
-[コンテンツのコーディングを開始](../using/email/code-content.md)
+[コンテンツのコーディングの開始](../using/email/code-content.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 メールテンプレートの操作
 
-サンプルまたはカスタムのメールテンプレートを使用して設計プロセスを合理化し、コンテンツを効率的に再利用することで時間を節約できます。
+サンプルまたはカスタムのメールテンプレートを使用してデザインプロセスを効率化し、コンテンツを効率的に再利用することで時間を節約します。
 
-[メールテンプレートの確認](../using/email/use-email-templates.md)
+[メールテンプレートについてもっと知る](../using/email/use-email-templates.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 メールテーマの活用
 
-再利用可能なテーマをメールデザインに適用して、キャンペーン全体で一貫したブランドの連携、効率、適応性を実現します。
+再利用可能なテーマをメールデザインに適用して、キャンペーンをまたいで一貫性のあるブランドの一致、効率性、適応性を実現します。
 
-[メールテーマについて学ぶ](../using/email/apply-email-themes.md)
+[メールテーマの詳細情報](../using/email/apply-email-themes.md)
 :::
 
 ::::

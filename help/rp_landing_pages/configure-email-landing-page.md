@@ -4,77 +4,77 @@ product: Journey Optimizer
 title: メールチャネルの設定
 description: メールチャネルの設定
 redpen-status: CREATED_||_2025-08-11_20-34-10
-source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: tm+mt
+exl-id: c9377c3c-d716-4fae-adc8-458cbe7213dd
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '260'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
-
 # メールチャネルの設定{#section-overview}
 
-Adobe Journey Optimizerでメールチャネルを設定することは、効果的でパーソナライズされた効果的なメールエクスペリエンスを作成してオーディエンスを引き付けるための入り口になります。 この節では、配信品質のためのサブドメインのデリゲーション、レピュテーション管理のための IP プール、コンプライアンスを確保するための抑制リストの処理などの基本的な手順を説明します。 また、メールヘッダーの設定方法、複数のブランド向けの設定のパーソナライズ方法、分析用の URL トラッキングの有効化方法や、ユーザーの利便性を考慮したワンクリックの購読解除リンクの追加方法についても説明します。 各トピックは最後のトピックに基づいて構築され、制御と精度を維持しながらメール戦略を微調整するツールを提供します。
+Adobe Journey Optimizer でメールチャネルを設定することは、効果的にオーディエンスに関与する、影響力のあるパーソナライズされたメールエクスペリエンスを作成するゲートウェイです。この節では、配信品質のサブドメインのデリゲーション、評判管理の IP プールの作成、コンプライアンスを確保する抑制リストの処理などの基本的な手順について説明します。また、メールヘッダーの設定方法、複数のブランド向けの設定のパーソナライズ方法、分析用の URL トラッキングを有効にする方法、ユーザーの利便性を考慮したワンクリック登録解除リンクを追加する方法についても説明します。各トピックは前のトピックに基づいて作成されています。これにより、制御と精度を維持しながらメール戦略を微調整するツールが提供されます。
 
 ## メールチャネルの設定
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 メール設定の基本を学ぶ
 
-サブドメインのデリゲーション、IP プール、抑制リストの管理など、メール機能を設定するための基本的な手順について説明します。
+サブドメインのデリゲーション、IP プール、抑制リストの管理など、メール機能を設定する基本的な手順について説明します。
 
-[メールの設定を開始](../using/email/get-started-email-config.md)
+[メール設定の開始](../using/email/get-started-email-config.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 メール設定の定義
 
-配信品質、コンプライアンス、カスタマイズを考慮して、BCC、抑制の上書き、URL トラッキングなどの高度な機能によるメール設定をセットアップします。
+配信品質、コンプライアンス、カスタマイズを考慮して、BCC、抑制の上書き、URL トラッキングなどの高度な機能によるメール設定を指定します。
 
 [設定](../using/email/email-settings.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-リスト購読解除の有効化と設定
+リストの登録解除の有効化と設定
 
-「リストの購読解除」機能を有効にして、受信者のオプトアウト用のメールヘッダーにワンクリックの購読解除 URL を含める方法を説明します。
+「リストの登録解除」機能を有効にして、受信者のオプトアウト用のメールヘッダーにワンクリック登録解除 URL を含める方法について説明します。
 
-[リストの購読解除の設定](../using/email/list-unsubscribe.md)
+[リストの登録解除の設定](../using/email/list-unsubscribe.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 メールヘッダーパラメーターの設定
 
-送信者と返信メールアドレスをカスタマイズし、エラーを処理し、メールを転送して効果的な通信を行います。
+送信者と返信メールアドレスをカスタマイズし、エラーを処理し、メールを転送して、効果的なコミュニケーションを実現します。
 
 [ヘッダーパラメーターの設定](../using/email/header-parameters.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
-電子メールチャネル用の URL トラッキングの設定
+メールチャネル用の URL トラッキングの設定
 
-メールキャンペーンの効果を測定し、Analytics ツールと統合するための URL トラッキングパラメーターを設定します。
+URL トラッキングパラメーターを設定して、メールキャンペーンの効果を測定して、分析ツールと統合します。
 
 [URL トラッキングの設定](../using/email/url-tracking.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-パーソナライズされたメールの設定
+パーソナライズされたメール設定
 
-動的サブドメイン、パーソナライズされたヘッダーおよび URL トラッキングを設定して、カスタマイズされたメールエクスペリエンスを提供します。
+動的サブドメイン、パーソナライズされたヘッダー、URL トラッキングを設定して、カスタマイズされたメールエクスペリエンスを提供します。
 
 [パーソナライズされたメールの設定](../using/email/surface-personalization.md)
 :::

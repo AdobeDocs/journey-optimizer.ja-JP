@@ -4,59 +4,59 @@ product: Journey Optimizer
 title: コンテンツのデザイン
 description: コンテンツのデザイン
 redpen-status: CREATED_||_2025-08-12_00-36-39
-source-git-commit: fc85686dfa7d482416b439dfd1610cd0cd6b5555
-workflow-type: tm+mt
+exl-id: 19ce7788-af7e-4949-a51f-eddc4ece2898
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '210'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
-
 # コンテンツのデザイン{#section-overview}
 
-Adobe Journey Optimizerでコンテンツをデザインすると、キャンペーンの目標に合わせて効果的なランディングページを作成できます。 ゼロから始める場合でも、HTMLを読み込む場合でも、テンプレートを活用する場合でも、提供されるツールを使用すると、魅力的なエクスペリエンスを簡単に作成できます。 フォームをカスタマイズしたり、パーソナライゼーションのコンテキストデータを統合したり、カスタム JavaScriptで機能を強化したりできます。 コンテンツDesignerの使用からテンプレートの保存や詳細なコードの追加に至るまで、各サブトピックは、ランディングページの作成を習得するための明確なパスを構築します。 柔軟性と精度により、オーディエンスと有意義なやり方で接続するために必要なすべてを手に入れることができます。
+Adobe Journey Optimizer でコンテンツをデザインすると、キャンペーンの目標に合わせてカスタマイズされた、影響力のあるランディングページを作成できます。ゼロから始める場合でも、HTML を読み込む場合でも、テンプレートを活用する場合でも、提供されるツールを使用すると、魅力的なエクスペリエンスを簡単に作成できます。フォームをカスタマイズしたり、パーソナライゼーションを行うためにコンテキストデータを統合したり、カスタム JavaScript を使用して機能を強化したりできます。コンテンツデザイナーの使用からテンプレートの保存、高度なコードの追加に至るまで、各サブトピックでは、ランディングページの作成を習得するための明確なパスを作成します。柔軟性と正確性を備え、オーディエンスと有意義な方法でつながるために必要なすべてが揃っています。
 
 ## コンテンツのデザイン
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Adobe Journey Optimizerでのランディングページの設計
+Adobe Journey Optimizer のランディングページのデザイン
 
-ランディングページを一から作成する方法、生のHTMLを使用する方法、HTMLを読み込む方法または保存済みのテンプレートを活用する方法を説明します。
+ランディングページをゼロから作成する方法、生の HTML を使用する方法、HTML を読み込む方法、保存したテンプレートを活用する方法について説明します。
 
-[ランディングページのデザインの概要](../using/landing-pages/design-lp.md)
+[ランディングページのデザインの基本を学ぶ](../using/landing-pages/design-lp.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 ランディングページコンテンツの作成とカスタマイズ
 
-フォームなどのコンポーネントを追加し、スタイルをカスタマイズし、コンテキストデータを使用してランディングページを強化します。
+フォームなどのコンポーネントを追加し、そのスタイルをカスタマイズし、コンテキストデータを使用してランディングページを強化します。
 
-[コンテンツのカスタマイズ方法を学ぶ](../using/landing-pages/lp-content.md)
+[コンテンツのカスタマイズ方法の詳細情報](../using/landing-pages/lp-content.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 ランディングページテンプレートの操作
 
 ランディングページをテンプレートとして保存し、再利用してワークフローを効率化します。
 
-[テンプレートの使用方法の確認](../using/landing-pages/lp-templates.md)
+[タイポロジの使用方法についてもっと知る](../using/landing-pages/lp-templates.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-ランディングページでのカスタム JavaScriptの使用
+ランディングページでのカスタム JavaScript の使用
 
 カスタム JavaScriptを使用してランディングページを強化し、フォームの検証や分析などの高度な機能を実現します。
 
-[カスタム JavaScript オプションを検索](../using/landing-pages/lp-custom-js.md)
+[カスタム JavaScript オプションについて](../using/landing-pages/lp-custom-js.md)
 :::
 
 ::::

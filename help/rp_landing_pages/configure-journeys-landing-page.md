@@ -4,57 +4,57 @@ product: Journey Optimizer
 title: ジャーニー設定
 description: ジャーニー設定
 redpen-status: CREATED_||_2025-08-11_21-12-10
-source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
-workflow-type: tm+mt
+exl-id: 9184a695-be6a-44af-b04a-124243c5aa64
+source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+workflow-type: ht
 source-wordcount: '233'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
-
 # ジャーニー設定{#section-overview}
 
-Adobe Journey Optimizerのジャーニー設定を使用すると、データソース、イベント、アクションなどの主要なコンポーネントを統合して、シームレスにパーソナライズされたカスタマーエクスペリエンスを作成できます。 適切なデータに接続し、顧客の行動に基づいてトリガーを設定し、複数のチャネルまたはサードパーティのシステムを介してメッセージを配信するジャーニーのコントロールパネルと考えてください。 外部データへのリンク、イベントトリガーの定義、アクションのカスタマイズのいずれを行う場合でも、各設定ステップは影響の大きいインタラクションの調整に重要な役割を果たします。 このガイドでは、これらの構成要素を順を追って説明します。これにより、これらの構成要素がどのように組み合わさり、オーディエンスから真に共感を得られるジャーニーを作成するかを簡単に理解できます。
+Adobe Journey Optimizer のジャーニー設定を使用すると、データソース、イベント、アクションなどの主要なコンポーネントを統合して、シームレスにパーソナライズされたカスタマーエクスペリエンスを作成できます。これは、適切なデータに接続し、顧客の行動に基づいてトリガーを設定し、複数のチャネルまたはサードパーティのシステムを介してメッセージを配信するジャーニーのコントロールパネルのようなものです。外部データへのリンク、イベントトリガーの定義、アクションのカスタマイズなど、どの設定手順も効果的なインタラクションを調整する際に重要な役割を果たします。このガイドでは、これらの構成要素を組み合わせて、オーディエンスから真の共感を得るジャーニーを作成する方法を段階的にわかりやすく説明します。
 
 ## ジャーニー設定
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 ジャーニー設定の基本を学ぶ
 
-データソース、イベント、アクションを設定して、メッセージ配信を有効にし、Adobe Journey Optimizerの外部システムと統合する方法について説明します。
+データソース、イベント、アクションを設定して、メッセージ配信を有効にし、Adobe Journey Optimizer で外部システムと統合する方法について説明します。
 
-[ジャーニーの設定を開始](../using/configuration/about-data-sources-events-actions.md)
+[ジャーニー設定を開始](../using/configuration/about-data-sources-events-actions.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Adobe Journey Optimizerのイベント設定
+Adobe Journey Optimizer のイベント設定
 
-単一イベント、ビジネスイベント、XDM スキーマ、Adobe Analytics統合など、ジャーニーをトリガーにするイベントを設定および管理する方法について説明します。
+単一イベント、ビジネスイベント、XDM スキーマ、Adobe Analytics 統合など、ジャーニーをトリガーにするイベントを設定および管理する方法について説明します。
 
 [イベント設定について学ぶ](events-journeys-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Adobe Journey Optimizerでの Data Sourceの設定
+Adobe Journey Optimizer でのデータソースの設定
 
-カスタマージャーニーでシームレスなデータ統合を可能にするために、事前設定済みのタイプや外部タイプなどのデータソースを理解し、管理します。
+事前設定されたタイプや外部タイプなどのデータソースを理解および管理することで、カスタマージャーニーにおけるシームレスなデータ統合を実現します。
 
 [データソースの基本を学ぶ](data-source-journeys-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 カスタムアクションの設定と使用
 
-カスタムアクションを設定する方法、サードパーティシステムを統合する方法、安全で効率的な実装のベストプラクティスに従う方法について説明します。
+カスタムアクションの設定方法、サードパーティシステムの統合方法および安全で効率的な実装のベストプラクティスについて説明します。
 
 [カスタムアクションの設定](action-journeys-landing-page.md)
 :::
