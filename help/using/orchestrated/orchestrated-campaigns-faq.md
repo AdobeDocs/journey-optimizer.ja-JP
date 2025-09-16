@@ -5,10 +5,10 @@ title: 調整されたキャンペーンに関するよくある質問
 description: Journey Optimizer の調整されたキャンペーンに関するよくある質問
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 028f5d506d5fdbd2ed19ad7ded8c1fcd0a391702
+source-git-commit: aea8e1bc6f34400070234195f576fa7df59dca7d
 workflow-type: tm+mt
-source-wordcount: '1043'
-ht-degree: 21%
+source-wordcount: '1000'
+ht-degree: 20%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 21%
 
 Adobe Journey Optimizer の調整されたキャンペーンに関するよくある質問を以下に示します。
 
-さらに詳細が必要ですか？このページの下部にあるフィードバックオプションを使用して質問を提起するか、[Adobe Journey Optimizer コミュニティ ](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"} とつながってください。
+さらに詳細が必要ですか？このページの下部にあるフィードバックオプションを使用して質問を提起するか、[Adobe Journey Optimizer コミュニティ ](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"} とつながってください。
 
 ## Campaign オーケストレーションとは {#what-are-oc}
 
@@ -119,14 +119,14 @@ Adobe Journey Optimizerでの Campaign オーケストレーションは、リ�
 
 >[!ENDSHADEBOX]
 
+<!--
+## Do Orchestrated campaigns integrate with other Adobe solutions? {#integrations}
 
-## オーケストレートキャンペーンは他のAdobe ソリューションと統合されますか？ {#integrations}
+Yes. Campaign orchestration is natively integrated with:
 
-はい。Campaign オーケストレーションは、次のアプリケーションとネイティブに統合されています。
-
-* **Customer Journey Analytics**：キャンペーンオーケストレーションレポートが利用可能です。
-* **Real-Time CDP**: キャンペーンで作成されたオーディエンスは、Real-Time CDPで読み取ることができます。
-* **連合オーディエンス構成（FAC）**：アドオンとして使用できます。
+* **Customer Journey Analytics**: Campaign orchestration reports are available.  
+* **Real-Time CDP**: Audiences built in Campaigns can be read in Real-Time CDP.  
+* **Federated Audience Composition (FAC)**: Available as an add-on.  -->
 
 ## 権限と同意について教えてください。 {#permissions}
 
