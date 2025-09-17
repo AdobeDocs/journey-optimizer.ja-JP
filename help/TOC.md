@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 0e269babd228063d465e0790435d916e479701a7
+source-git-commit: dc47da081601fdb019ffd98aa47803672fdef198
 workflow-type: tm+mt
-source-wordcount: '2940'
+source-wordcount: '2946'
 ht-degree: 98%
 
 ---
@@ -309,8 +309,8 @@ ht-degree: 98%
       + メールコンテンツのデザイン {#design-email}
          + [メールコンテンツのデザイン](/help/rp_landing_pages/design-email-landing-page.md)
          + [メールデザインの基本を学ぶ](using/email/get-started-email-design.md)
-         + コンテンツ作成の開始 {#start-creating-content}
-            + [コンテンツ作成の開始](/help/rp_landing_pages/start-creating-content-landing-page.md)
+         + コンテンツ作成を開始する {#start-creating-content}
+            + [コンテンツ作成を開始する](/help/rp_landing_pages/start-creating-content-landing-page.md)
             + [コンテンツのゼロからのデザイン](using/email/content-from-scratch.md)
             + [コンテンツの読み込み](using/email/existing-content.md)
             + [コンテンツを独自にコーディング](using/email/code-content.md)
@@ -482,6 +482,7 @@ ht-degree: 98%
          + [ランディングページのコンテンツの作成](using/landing-pages/lp-content.md)
          + [テンプレートの作成](using/landing-pages/lp-templates.md)
          + [カスタム JavaScript の追加](using/landing-pages/lp-custom-js.md)
+      + [ランディングページでのフォームの活用](using/landing-pages/lp-forms.md)
       + [サブスクリプションリストの作成](using/landing-pages/subscription-list.md)
       + [ユースケースを通じて学ぶ](using/landing-pages/lp-use-cases.md)
       + ランディングページの設定 {#lp-configuration}
@@ -508,8 +509,8 @@ ht-degree: 98%
       + [動的コンテンツの基本を学ぶ](using/personalization/get-started-dynamic-content.md)
       + [条件付きルールの作成](using/personalization/create-conditions.md)
       + [動的コンテンツの作成](using/personalization/dynamic-content.md)
-   + クロスソリューションユースケース {#combine}
-      + [クロスソリューションユースケース](/help/rp_landing_pages/combine-landing-page.md)
+   + クロスソリューションのユースケース {#combine}
+      + [クロスソリューションのユースケース](/help/rp_landing_pages/combine-landing-page.md)
       + [コンテンツを管理するソリューションの組み合わせ](using/integrations/content-integrations.md)
       + [Experience Manager Assets の操作](using/integrations/assets.md)
       + [Adobe Stock との連携](using/integrations/stock.md)
@@ -635,7 +636,7 @@ ht-degree: 98%
          + [ID フィールド](using/reports/sharing-identity-fields.md)
       + [クエリの例](using/reports/query-examples.md)
 + 決定機能 {#decisioning}
-   + [決定機能](/help/rp_landing_pages/decisioning-landing-page.md)
+   + [意思決定機能](/help/rp_landing_pages/decisioning-landing-page.md)
    + [決定機能の基本を学ぶ](using/experience-decisioning/gs-decision.md)
    + 決定 {#experience-decisioning}
       + [決定](/help/rp_landing_pages/experience-decisioning-landing-page.md)
@@ -758,8 +759,8 @@ ht-degree: 98%
          + [意思決定管理レポートの作成](/help/rp_landing_pages/create-reports-landing-page.md)
          + [意思決定管理イベントの操作](using/offers/reports/get-started-events.md)
          + [イベントの XDM フィールドへのアクセス](using/offers/reports/xdm-fields.md)
-      + オファーカタログのエクスポート {#export-catalog}
-         + [オファーカタログのエクスポート](/help/rp_landing_pages/export-catalog-landing-page.md)
+      + オファーカタログの書き出し {#export-catalog}
+         + [オファーカタログの書き出し](/help/rp_landing_pages/export-catalog-landing-page.md)
          + [オファーカタログエクスポートの基本を学ぶ](using/offers/export-catalog/get-started-export.md)
          + [エクスポートしたオファーカタログへのアクセス](using/offers/export-catalog/access-dataset.md)
          + [パーソナライズされたオファーデータセット](using/offers/export-catalog/export-offers.md)
@@ -931,7 +932,7 @@ ht-degree: 98%
       + [カスタムアクションの基本を学ぶ](using/action/action.md)
       + [カスタムアクションの設定](using/action/about-custom-action-configuration.md)
       + [カスタムアクションでの API 呼び出し応答の使用](using/action/action-response.md)
-+ システムと環境の接続 {#connect-systems}
++ システムと環境を接続する {#connect-systems}
    + [システムと環境の接続](/help/rp_landing_pages/connect-systems-landing-page.md)
    + [他のソリューションとの統合](using/integrations/ajo-integrations.md)
    + [Journey Optimizer API の操作](using/configuration/ajo-apis.md)
