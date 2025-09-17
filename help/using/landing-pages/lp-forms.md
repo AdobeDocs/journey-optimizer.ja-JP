@@ -32,7 +32,7 @@ ht-degree: 4%
 >id="ajo_lp_form_connection"
 >title="使用するエンドポイントを選択"
 >abstract="フォーム送信時にデータが送信されるストリーミングエンドポイントを定義する。"
->additional-url="https://experienceleague.adobe.com/ja/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="HTTP API ストリーミング接続の作成"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="HTTP API ストリーミング接続の作成"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_dataset"
@@ -68,7 +68,7 @@ ht-degree: 4%
 
    >[!NOTE]
    >
-   >ストリーミングソース接続の作成について詳しくは、[Experience Platform ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"} を参照してください。
+   >ストリーミングソース接続の作成について詳しくは、[Experience Platform ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"} を参照してください。
 
 1. フォームにリンクする **[!UICONTROL データセット]** を選択します。 ここで、フォームの応答が保存され、反映されます。 入力して特定のデータセットを検索するか、リストから選択できます。
 
