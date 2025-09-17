@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Experimentation Accelerator モニター
+title: Journey Optimizer Experimentation Accelerator モニター
 description: 効果的に実験を行い、インサイトを生み出す能力の向上
 feature: Experimentation
 topic: Content Management
@@ -10,9 +10,9 @@ level: Beginner
 keywords: コンテンツ, 実験, 複数, オーディエンス, 処理
 hide: true
 hidefromtoc: true
-source-git-commit: c28a322ec13de2a23ab5cffb4785b14425e4e6e9
+source-git-commit: ddeb3512fbe1d1de86456fe2c3ccd2b3805b5684
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1122'
 ht-degree: 5%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 5%
 
 >[!BEGINSHADEBOX]
 
-* [Experimentation Acceleratorの概要](experiment-accelerator.md)
-* [Experimentation Acceleratorを使用した AI でのデータ使用](experiment-accelerator-security.md)
-* [Experimentation Accelerator ベストプラクティス](experiment-accelerator-best-practices.md)
+* [Journey Optimizer Experimentation Acceleratorの概要](experiment-accelerator.md)
+* [Journey Optimizer Experimentation Acceleratorを使用した AI でのデータ使用](experiment-accelerator-security.md)
+* [Journey Optimizer Experimentation Accelerator ベストプラクティス](experiment-accelerator-best-practices.md)
 * **[実験の監視](experiment-accelerator-monitor.md)**
 * [実験指標](experiment-accelerator-metrics.md)
 
@@ -50,7 +50,7 @@ ht-degree: 5%
 
 ## 実験の監視 {#monitor-page}
 
-実験にアクセスして監視するには、「実験 **&#x200B;**」タブから実験のリストから以前に設定した実験を選択するか、詳細メニューを使用して **[!UICONTROL 詳細を表示]** または **[!UICONTROL ソースで開く]** します。
+実験にアクセスして監視するには、「実験 ****」タブから実験のリストから以前に設定した実験を選択するか、詳細メニューを使用して **[!UICONTROL 詳細を表示]** または **[!UICONTROL ソースで開く]** します。
 
 ![](assets/experiment-accelerator-1.png)
 
@@ -135,11 +135,11 @@ ht-degree: 5%
 
    ![](assets/experiment-monitor-opportunities.png)
 
-1. 商談を選択すると、**商談の詳細** ウィンドウが開きます。このウィンドウには、Experimentation Acceleratorによって提案された具体的な処理やバリエーションの概要が表示されます。 このビューには次が含まれます。
+1. 商談を選択すると、**商談の詳細** ウィンドウが開きます。このウィンドウには、Journey Optimizer Experimentation Acceleratorによって提案された具体的な処理やバリエーションの概要が表示されます。 このビューには次が含まれます。
 
    * **[!UICONTROL 仮説]**：提案された処理の期待される結果を説明する、AI によって生成された仮説。
 
-   * **[!UICONTROL 根拠]**:Experimentation Acceleratorがこの機会を提案した理由の説明。
+   * **[!UICONTROL 根拠]**:Journey Optimizer Experimentation Acceleratorがこの機会を提案した理由の説明。
 
    * **[!UICONTROL オポチュニティ評価]**：以下に基づく推奨事項の二重評価。
 
@@ -158,9 +158,9 @@ ht-degree: 5%
 
    **[!DNL Adobe Target]** から実行される実験の場合、提案された変更は、代わりに **[!DNL Adobe Target]** の実験ワークフローに読み込まれます。
 
-   ➡️ [ 詳しくは、Adobe Target ドキュメントを参照してください ](https://experienceleague.adobe.com/ja/docs/target/using/activities/abtest/test-ab)
+   ➡️ [ 詳しくは、Adobe Target ドキュメントを参照してください ](https://experienceleague.adobe.com/en/docs/target/using/activities/abtest/test-ab)
 
-1. 実験ビューでは、Experimentation Acceleratorで表示されるのと同じ AI **[!UICONTROL 実験の機会]** にアクセスできます。
+1. 実験ビューでは、Journey Optimizer Experimentation Acceleratorで表示されるのと同じ AI **[!UICONTROL 実験の機会]** にアクセスできます。
 
    **[!UICONTROL 表示]** を選択して、オポチュニティの詳細を開きます。
 

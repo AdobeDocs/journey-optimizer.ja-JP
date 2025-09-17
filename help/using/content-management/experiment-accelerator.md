@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 実験アクセラレータ
+title: Journey Optimizer Experimentation Accelerator
 description: 効果的に実験を行い、インサイトを生み出す能力の向上
 feature: Experimentation
 topic: Content Management
@@ -10,20 +10,20 @@ level: Beginner
 keywords: コンテンツ, 実験, 複数, オーディエンス, 処理
 hide: true
 hidefromtoc: true
-source-git-commit: 50dcdd30e21fe1b12d502a2b9c478f4ceb546c49
+source-git-commit: ddeb3512fbe1d1de86456fe2c3ccd2b3805b5684
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 2%
+source-wordcount: '365'
+ht-degree: 1%
 
 ---
 
-# Experimentation Acceleratorの概要 {#content-experiment}
+# Journey Optimizer Experimentation Acceleratorの概要 {#content-experiment}
 
 >[!BEGINSHADEBOX]
 
-* **[Experimentation Acceleratorの概要](experiment-accelerator.md)**
-* [Experimentation Acceleratorを使用した AI でのデータ使用](experiment-accelerator-security.md)
-* [Experimentation Accelerator ベストプラクティス](experiment-accelerator-best-practices.md)
+* **[Journey Optimizer Experimentation Acceleratorの概要](experiment-accelerator.md)**
+* [Journey Optimizer Experimentation Acceleratorを使用した AI でのデータ使用](experiment-accelerator-security.md)
+* [Journey Optimizer Experimentation Accelerator ベストプラクティス](experiment-accelerator-best-practices.md)
 * [実験の監視](experiment-accelerator-monitor.md)
 * [実験指標](experiment-accelerator-metrics.md)
 
@@ -31,9 +31,9 @@ ht-degree: 2%
 
 >[!AVAILABILITY]
 >
->**Experimentation Accelerator** では、Adobe TargetまたはAdobe Journey Optimizerのライセンスが必要です。
+>**Journey Optimizer Experimentation Accelerator** では、Adobe TargetまたはAdobe Journey Optimizerのライセンスが必要です。
 
-**0&rbrace;Experimentation Accelerator&rbrace; は、実験プロセスを合理化および強化するために設計された強力なツールです。** Adobe TargetやAdobe Journey Optimizerと統合することにより、実験を管理、分析および最適化するための一元的なプラットフォームを提供します。 Experimentation Acceleratorでは、AI に基づくインサイトとアダプティブテストを活用して、データに基づく意思決定を行い、マーケティング戦略を改善し、測定可能な結果を導くことができます。
+**0}Journey Optimizer Experimentation Accelerator} は、実験プロセスを合理化および強化するために設計された強力なツールです。** Adobe TargetやAdobe Journey Optimizerと統合することにより、実験を管理、分析および最適化するための一元的なプラットフォームを提供します。 Journey Optimizer Experimentation Acceleratorでは、AI に基づくインサイトとアダプティブテストを活用して、データに基づく意思決定を行い、マーケティング戦略を改善し、測定可能な結果を導くことができます。
 
 主なメリットは次のとおりです。
 
@@ -49,21 +49,21 @@ ht-degree: 2%
 
 * **シームレスなCollaboration**：結果を簡単に共有し、リアルタイムのアラートでチームロールを管理します。
 
-## 実験アクセラレーターへのアクセス
+## Journey Optimizer Experimentation Acceleratorへのアクセス
 
-[ 実験を作成して設定 ](content-experiment.md) し、キャンペーンやジャーニーをプロファイルに送信した後、**[!UICONTROL Experimentation Accelerator]** にアクセスして、実験のパフォーマンスを詳しく調べることができます。
+[ 実験を作成して設定 ](content-experiment.md) し、キャンペーンやジャーニーをプロファイルに送信した後、**[!UICONTROL Journey Optimizer Experimentation Accelerator]** にアクセスして、実験のパフォーマンスを詳しく調べることができます。
 
-**[!UICONTROL 実験]** ドロップダウンの左側のメニューから、またはアプリ切り替えボタンを使用して [!UICONTROL 0&rbrace;Experimentation Accelerator&rbrace; にアクセスできます。 &#x200B;]Target ライセンスを持つユーザーのみが、アプリ切り替えボタンからのみアクセスできます。
+**[!UICONTROL 実験]** ドロップダウンの左側のメニューから、またはアプリ切り替えボタンを使用して [!UICONTROL 0}Journey Optimizer Experimentation Accelerator} にアクセスできます。 ]Target ライセンスを持つユーザーのみが、アプリ切り替えボタンからのみアクセスできます。
 
 使用可能な実験は、設定によって異なります。
 
 * **Adobe Journey Optimizer ユーザーの場合**：有効にした組織のサンドボックスで設定した実験は、自動的に含まれます。
 
-* **Journey Optimizerを使用しているAdobe Target ユーザーの場合**:Target の A/B アクティビティは、Journey Optimizerの実稼動サンドボックスの **[!UICONTROL 2&rbrace;Experimentation Accelerator&rbrace; に表示されます。]**
+* **Journey Optimizerを使用しているAdobe Target ユーザーの場合**:Target の A/B アクティビティは、Journey Optimizerの実稼動サンドボックスの **[!UICONTROL 2}Journey Optimizer Experimentation Accelerator} に表示されます。]**
 
 * **Adobe Targetのみのユーザーの場合**:Target 組織内のすべての A/B アクティビティは、Journey Optimizerの実稼動サンドボックスに含まれます。
 
-**[!UICONTROL Experimentation Accelerator]** を使用するには、サンドボックスにアクセスし、関連する権限に従う必要があります。
+**[!UICONTROL Journey Optimizer Experimentation Accelerator]** を使用するには、サンドボックスにアクセスし、関連する権限に従う必要があります。
 
 <!--table style="table-layout:fixed"><tr style="border: 0;">
 <td><img alt="Overview" href="experiment-accelerator-overview.md" src="assets/do-not-localize/experiments-2.jpeg">

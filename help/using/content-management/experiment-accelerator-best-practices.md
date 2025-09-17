@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Experimentation Accelerator ベストプラクティス
+title: Journey Optimizer Experimentation Accelerator ベストプラクティス
 description: 効果的に実験を行い、インサイトを生み出す能力の向上
 feature: Experimentation
 topic: Content Management
@@ -10,20 +10,20 @@ level: Beginner
 keywords: コンテンツ, 実験, 複数, オーディエンス, 処理
 hide: true
 hidefromtoc: true
-source-git-commit: 50dcdd30e21fe1b12d502a2b9c478f4ceb546c49
+source-git-commit: ddeb3512fbe1d1de86456fe2c3ccd2b3805b5684
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '769'
 ht-degree: 3%
 
 ---
 
-# Experimentation Accelerator ベストプラクティス {#content-experiment-best-practices}
+# Journey Optimizer Experimentation Accelerator ベストプラクティス {#content-experiment-best-practices}
 
 >[!BEGINSHADEBOX]
 
-* [Experimentation Acceleratorの概要](experiment-accelerator.md)
-* **[Experimentation Acceleratorのベストプラクティス](experiment-accelerator-best-practices.md)**
-* [Experimentation Acceleratorのプライバシー、セキュリティ、ガバナンス](experiment-accelerator-security.md)
+* [Journey Optimizer Experimentation Acceleratorの概要](experiment-accelerator.md)
+* **[Journey Optimizer Experimentation Acceleratorのベストプラクティス](experiment-accelerator-best-practices.md)**
+* [Journey Optimizer Experimentation Acceleratorのプライバシー、セキュリティ、ガバナンス](experiment-accelerator-security.md)
 * [実験の監視](experiment-accelerator-monitor.md)
 * [実験指標](experiment-accelerator-metrics.md)
 
@@ -98,11 +98,11 @@ A/B テストは、複数のバージョンの対象を比較して、定義さ�
 優れた実験は、単に勝利を生み出すだけでなく、明確で実用的な学習を生み出します。
 検索対象は次のとおりです。
 
-&check; **統計的信頼性**：バリアント間の違いが偶然によるものである可能性は低いです。
-&check; **目標との整合性**：メイン指標は、ビジネス目標に対する有意義な進捗を反映しています。
-&check; **セカンダリ上の影響**：関連する指標に大きな悪影響はありません。
-&check; **スケーラビリティ**：結果は、将来の決定を知らせたり、他の領域に一般化したりできます。
-&check; **Clarity**：結果の原因は、合理的に分離され、理解されています。
+&amp;check; **統計的信頼性**：バリアント間の違いが偶然によるものである可能性は低いです。
+&amp;check; **目標との整合性**：メイン指標は、ビジネス目標に対する有意義な進捗を反映しています。
+&amp;check; **セカンダリ上の影響**：関連する指標に大きな悪影響はありません。
+&amp;check; **スケーラビリティ**：結果は、将来の決定を知らせたり、他の領域に一般化したりできます。
+&amp;check; **Clarity**：結果の原因は、合理的に分離され、理解されています。
 
 実験は、「最良の」バージョンを見つけることだけでなく、テストとイテレーションを通じて知識を構築することです。 適切に行われると、実験でインサイトが明らかになり、よりスマートな決定、より良いユーザーエクスペリエンス、より良い結果が導かれます。
 

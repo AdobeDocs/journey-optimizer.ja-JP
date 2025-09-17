@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Experimentation Accelerator指標
+title: Journey Optimizer Experimentation Accelerator指標
 description: 効果的に実験を行い、インサイトを生み出す能力の向上
 feature: Experimentation
 topic: Content Management
@@ -10,9 +10,9 @@ level: Beginner
 keywords: コンテンツ, 実験, 複数, オーディエンス, 処理
 hide: true
 hidefromtoc: true
-source-git-commit: c28a322ec13de2a23ab5cffb4785b14425e4e6e9
+source-git-commit: ddeb3512fbe1d1de86456fe2c3ccd2b3805b5684
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '266'
 ht-degree: 4%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 4%
 
 >[!BEGINSHADEBOX]
 
-* [Experimentation Acceleratorの概要](experiment-accelerator.md)
-* [Experimentation Acceleratorを使用した AI でのデータ使用](experiment-accelerator-security.md)
-* [Experimentation Accelerator ベストプラクティス](experiment-accelerator-best-practices.md)
+* [Journey Optimizer Experimentation Acceleratorの概要](experiment-accelerator.md)
+* [Journey Optimizer Experimentation Acceleratorを使用した AI でのデータ使用](experiment-accelerator-security.md)
+* [Journey Optimizer Experimentation Accelerator ベストプラクティス](experiment-accelerator-best-practices.md)
 * [実験の監視](experiment-accelerator-monitor.md)
 * **[実験指標](experiment-accelerator-metrics.md)**
 
