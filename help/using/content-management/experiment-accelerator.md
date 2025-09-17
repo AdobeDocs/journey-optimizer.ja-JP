@@ -10,10 +10,10 @@ level: Beginner
 keywords: コンテンツ, 実験, 複数, オーディエンス, 処理
 hide: true
 hidefromtoc: true
-source-git-commit: ddeb3512fbe1d1de86456fe2c3ccd2b3805b5684
+source-git-commit: eb5c9c949b89406cfe62f136bd6a52ab2692b6e4
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 1%
+source-wordcount: '491'
+ht-degree: 15%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 1%
 >
 >**Journey Optimizer Experimentation Accelerator** では、Adobe TargetまたはAdobe Journey Optimizerのライセンスが必要です。
 
-**0&rbrace;Journey Optimizer Experimentation Accelerator&rbrace; は、実験プロセスを合理化および強化するために設計された強力なツールです。** Adobe TargetやAdobe Journey Optimizerと統合することにより、実験を管理、分析および最適化するための一元的なプラットフォームを提供します。 Journey Optimizer Experimentation Acceleratorでは、AI に基づくインサイトとアダプティブテストを活用して、データに基づく意思決定を行い、マーケティング戦略を改善し、測定可能な結果を導くことができます。
+**0}Journey Optimizer Experimentation Accelerator} は、実験プロセスを合理化および強化するために設計された強力なツールです。** Adobe TargetやAdobe Journey Optimizerと統合することにより、実験を管理、分析および最適化するための一元的なプラットフォームを提供します。 Journey Optimizer Experimentation Acceleratorでは、AI に基づくインサイトとアダプティブテストを活用して、データに基づく意思決定を行い、マーケティング戦略を改善し、測定可能な結果を導くことができます。
 
 主なメリットは次のとおりです。
 
@@ -53,17 +53,46 @@ ht-degree: 1%
 
 [ 実験を作成して設定 ](content-experiment.md) し、キャンペーンやジャーニーをプロファイルに送信した後、**[!UICONTROL Journey Optimizer Experimentation Accelerator]** にアクセスして、実験のパフォーマンスを詳しく調べることができます。
 
-**[!UICONTROL 実験]** ドロップダウンの左側のメニューから、またはアプリ切り替えボタンを使用して [!UICONTROL 0&rbrace;Journey Optimizer Experimentation Accelerator&rbrace; にアクセスできます。 &#x200B;]Target ライセンスを持つユーザーのみが、アプリ切り替えボタンからのみアクセスできます。
+**[!UICONTROL 実験]** ドロップダウンの左側のメニューから、またはアプリ切り替えボタンを使用して [!UICONTROL 0}Journey Optimizer Experimentation Accelerator} にアクセスできます。 ]Target ライセンスを持つユーザーのみが、アプリ切り替えボタンからのみアクセスできます。
 
 使用可能な実験は、設定によって異なります。
 
 * **Adobe Journey Optimizer ユーザーの場合**：有効にした組織のサンドボックスで設定した実験は、自動的に含まれます。
 
-* **Journey Optimizerを使用しているAdobe Target ユーザーの場合**:Target の A/B アクティビティは、Journey Optimizerの実稼動サンドボックスの **[!UICONTROL 2&rbrace;Journey Optimizer Experimentation Accelerator&rbrace; に表示されます。]**
+* **Journey Optimizerを使用しているAdobe Target ユーザーの場合**:Target の A/B アクティビティは、Journey Optimizerの実稼動サンドボックスの **[!UICONTROL 2}Journey Optimizer Experimentation Accelerator} に表示されます。]**
 
 * **Adobe Targetのみのユーザーの場合**:Target 組織内のすべての A/B アクティビティは、Journey Optimizerの実稼動サンドボックスに含まれます。
 
-**[!UICONTROL Journey Optimizer Experimentation Accelerator]** を使用するには、サンドボックスにアクセスし、関連する権限に従う必要があります。
+**[!UICONTROL Journey Optimizer Experimentation Accelerator]** を使用するには、サンドボックスへのアクセスと、次の関連する権限が必要です。
+
+* **[!UICONTROL 実験を表示]**
+* **[!UICONTROL 実験メタデータの管理]**
+
++++ 実験に関連する権限の割り当て方法を学ぶ
+
+1. **[!DNL Permissions]** 製品で、「**[!UICONTROL 役割]**」タブに移動し、目的の **[!UICONTROL 役割]** を選択します。
+
+1. 「**[!UICONTROL 編集]**」をクリックして、権限を変更します。
+
+1. **[!UICONTROL 実験アクセラレーター]** リソースを追加し、ドロップダウンメニューから **[!UICONTROL 実験を表示]** または **[!UICONTROL 実験メタデータを管理]** を選択します。
+
+   ![](assets/permissions-experiment.png)
+
+1. 「**[!UICONTROL 保存]**」をクリックして、変更を適用します。
+
+この役割に既に割り当てられているユーザーの権限は、自動的に更新されます。
+
+この役割を新しいユーザーに割り当てるには：
+
+1. 役割ダッシュボード内の「**[!UICONTROL ユーザー]**」タブに移動し、「**[!UICONTROL ユーザーを追加]**」をクリックします。
+
+1. ユーザーの名前、メールアドレスを入力するか、リストから選択して、「**[!UICONTROL 保存]**」をクリックします。
+
+   まだユーザーを作成していない場合は、[このドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/abac/permissions-ui/users)を参照してください。
+
+ユーザーは、インスタンスにアクセスする手順が記載されたメールを受信します。
+
++++
 
 <!--table style="table-layout:fixed"><tr style="border: 0;">
 <td><img alt="Overview" href="experiment-accelerator-overview.md" src="assets/do-not-localize/experiments-2.jpeg">
