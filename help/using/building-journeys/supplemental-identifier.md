@@ -3,10 +3,10 @@ title: ジャーニーでの補助識別子の使用
 description: ジャーニーの補助識別子の使用方法について説明します。
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 4ce48f7929aa218908e8a1e25c37410c6ded6bde
 workflow-type: tm+mt
-source-wordcount: '1257'
-ht-degree: 100%
+source-wordcount: '1366'
+ht-degree: 83%
 
 ---
 
@@ -17,45 +17,37 @@ ht-degree: 100%
 >title="補足識別子の使用"
 >abstract="補足識別子は、ジャーニーの実行に関する追加のコンテキストを指定するセカンダリ識別子です。定義するには、補足識別子として使用するフィールドを選択し、関連付ける名前空間を選択します。"
 
-デフォルトでは、ジャーニーは&#x200B;**プロファイル ID** のコンテキストで実行されます。つまり、特定のジャーニーでプロファイルがアクティブである限り、別のジャーニーに再エントリできません。これを防ぐために、[!DNL Journey Optimizer] では、プロファイル ID に加えて、注文 ID、サブスクリプション ID、処方箋 ID などの&#x200B;**補助識別子**を取得できます。
-この例では、予約 ID を補助識別子として追加しています。
+<!--
+By default, journeys are executed in the context of a **profile ID**. This means that, as long as the profile is active in a given journey, it won't be able to re-enter another journey. To prevent this, [!DNL Journey Optimizer] allows you to capture a **supplemental identifier**, such as an order ID, subscription ID, prescription ID, in addition to the profile ID. 
+In this example, we have added a booking ID as a supplemental identifier. 
 
 ![](assets/event-supplemental-id.png){width=40% zoomable}
 
-これにより、ジャーニーは、補助識別子（ここでは予約 ID）に関連付けられたプロファイル ID のコンテキストで実行されます。補助識別子の反復ごとに、ジャーニーのインスタンスが 1 つ実行されます。これにより、異なる予約を行った場合、ジャーニーで同じプロファイル ID の複数のエントリが可能になります。
+By doing so, journeys are executed in the context of the profile ID associated to the supplemental identifier (here, the booking ID). One instance of the journey is executed for each iteration of the supplemental identifier. This allows multiple entrances of the same profile ID in journeys if they have made different bookings. 
 
-さらに、Journey Optimizer を使用すると、補足識別子の属性（予約番号、処方箋の更新日、製品タイプなど）を活用してメッセージをカスタマイズできるので、関連性の高いコミュニケーションを確保できます。<!--Example: A healthcare provider can send renewal reminders for each prescription in a patient's profile.-->
+In addition, Journey Optimizer allows you to leverage attributes of the supplemental identifier (e.g., booking number, prescription renewal date, product type) for message customization, ensuring highly relevant communications.-->
+
+<table style="border-collapse: collapse; width: 100%;">
+  <tr>
+    <td style="vertical-align: top; padding-right: 20px; border: none;">
+      <p>デフォルトでは、ジャーニーは<b>プロファイル ID</b> のコンテキストで実行されます。つまり、特定のジャーニーでプロファイルがアクティブである限り、別のジャーニーに再エントリできません。これを防ぐために、Journey Optimizerでは、プロファイル ID に加えて、注文 ID、サブスクリプション ID、処方箋 ID などの <b> 追加の識別子 </b> を取得できます。  
+      <p>この例では、追加の識別子として <b> 予約 ID</b> を追加しました。</p>
+      <p>これにより、ジャーニーは、補助識別子（ここでは予約 ID）に関連付けられたプロファイル ID のコンテキストで実行されます。補助識別子の反復ごとに、ジャーニーのインスタンスが 1 つ実行されます。これにより、異なる予約を行った場合、ジャーニーで同じプロファイル ID の複数のエントリが可能になります。</p>
+      <p>さらに、Journey Optimizerでは、補足的な識別情報の属性（予約番号、処方箋更新日、商品タイプなど）をメッセージのカスタマイズに活用し、関連性の高いコミュニケーションを確保できます。</p>
+    </td>
+    <td style="vertical-align: top; border: none; text-align: center; width: 40%;">
+      <img src="assets/event-supplemental-id.png" alt="追加の識別子の例" style="max-width:100%;" />
+    </td>
+  </tr>
+</table>
 
 ➡️ [この機能について詳しくは、ビデオを参照してください](#video)。
 
 ## ガードレールと制限 {#guardrails}
 
-* **サポートされているジャーニー**：現時点では、補助識別子は、**イベントトリガー**&#x200B;ジャーニーと&#x200B;**オーディエンスを読み取り**&#x200B;ジャーニーで使用できます。オーディエンス選定ジャーニーでは使用できません。
+* **サポートされているジャーニー**:**イベントトリガー** ジャーニーと **オーディエンスを読み取り** ジャーニーでは、追加の識別子がサポートされています。 オーディエンスの選定ジャーニー **オーディエンスの選定アクティビティで始まるジャーニーなど）では** サポートされません）。
 
 * **同時インスタンス制限**：プロファイルには、10 を超えるジャーニーインスタンスを同時に含めることはできません。
-
-<!--* **Array depth**: Supplemental identifier objects can have a maximum depth of 3 levels (2 levels of nesting).
-
-    +++Example
-
-    ```
-    [
-    (level 1) "Atorvastatin" : {
-    "description" : "used to lower cholesterol",
-    "renewal_date" : "11/20/25",
-    "dosage" : "10mg"
-    (level 2) "ingredients" : [
-    (level 3) "Atorvastatin calcium",
-    "lactose monohydrate",
-    "microcrystalline cellulose",
-    "other" ]
-    }
-    ]
-    ```
-
-    +++
--->
-* **終了条件**：終了条件がトリガーされると、その時点でジャーニーでライブになっているプロファイルのすべてのインスタンスが終了します。これは、プロファイル ID と補足識別子の組み合わせとは関係ありません。
 
 * **頻度ルール**：補助識別子の使用から作成した各ジャーニーインスタンスは、補助識別子の使用によって複数のジャーニーインスタンスが生成された場合でも、フリークエンシーキャップにカウントされます。
 
@@ -77,8 +69,20 @@ ht-degree: 100%
 * **オーディエンスを読み取りジャーニー**
 
    * ビジネスイベントを使用する場合、補助 ID は無効になります。
-
    * 補助 ID は、プロファイルのフィールドである必要があります（つまり、イベント／コンテキストフィールドではありません）。
+   * 追加の ID を使用するオーディエンスを読み取りジャーニーの場合、各ジャーニーインスタンスのオーディエンスを読み取りアクティビティの読み取り率は、1 秒あたり最大 500 プロファイルに制限されます。
+
+## 追加の ID を含む終了条件の動作 {#exit-criteria}
+
+前提条件：追加の ID に対してジャーニーが有効になっていること（単一イベントまたはオーディエンスを読み取りアクティビティを使用）
+
+終了条件が設定されている場合の、追加の ID 対応ジャーニーでのプロファイルの動作を次の表に示します。
+
+| 終了条件の設定 | 終了条件を満たした場合の動作 |
+| ---------------------------- | ---------------------------------- |
+| 追加でない ID イベントに基づく | そのジャーニー内の対応するプロファイルのすべてのインスタンスが終了します。 |
+| 追加の ID イベントに基づく <br/>*メモ：追加の ID 名前空間は、初期ノードの名前空間と一致する必要があります*。 | 一致するプロファイル +追加の ID インスタンスのみが終了します。 |
+| オーディエンスに基づく | そのジャーニー内の対応するプロファイルのすべてのインスタンスが終了します。 |
 
 ## 補助識別子の追加とジャーニーでの活用 {#add}
 
@@ -251,4 +255,4 @@ ht-degree: 100%
 
 [!DNL Adobe Journey Optimizer] で補足識別子を有効にして適用する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464793?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
