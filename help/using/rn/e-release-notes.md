@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 59a6413fb111c3ac595416d8e5933b981bc64d3c
+source-git-commit: abb1da09160cd5454460588242c475b85f4adf6b
 workflow-type: tm+mt
-source-wordcount: '1472'
-ht-degree: 26%
+source-wordcount: '1540'
+ht-degree: 29%
 
 ---
 
@@ -77,13 +77,13 @@ ht-degree: 26%
 <table>
 <thead>
 <tr>
-<th><strong>Journey Agent</strong><br/></th>
+<th><strong>Journey Agentが来ました。</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Agentを使用すると、Journey Optimizerのユーザーは、自然言語インターフェイスを使用してジャーニーを作成、分析および最適化できます。 Journey Agentを使用すると、実務担当者は、スケジュールやオーディエンスの競合をすばやく検出して解決し、パフォーマンスとドロップオフポイントを分析し、今後のキャンペーンでレプリケートするパフォーマンスの高いジャーニーを特定できます。</p>
+<p>AI アシスタントに、Journey Optimizerの基本的なJourney Agent スキルが含まれるようになりました。これにより、実務担当者は自然言語インターフェイスを使用してジャーニーを分析できます。 これらの新しいスキルを使用すると、ユーザーは分析し、（近日公開）ジャーニーを作成して、スケジュールやオーディエンスの競合の可能性を検出および解決できます。</p>
 </td>
 </tr>
 </tbody>
@@ -110,6 +110,24 @@ ht-degree: 26%
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>ランディングページのカスタムフォーム</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>[!DNL Journey Optimizer] を使用すると、ランディングページを通じてプロファイル属性を取得できるようになりました。</p>
+<p>特定のデータセットに基づいて、ニーズに合わせてカスタマイズされたカスタムフォームを作成、デザイン、管理します。その後、ランディングページでこれらのフォームを活用して、各フォームに定義されたデータセットに選択したプロファイル属性を追加できます。</p>
+<p>この機能は、限定提供です。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
+<!--p><img src="assets/do-not-localize/forms.gif"/></p>
+<p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p-->
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
