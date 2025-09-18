@@ -255,4 +255,4 @@ In addition, Journey Optimizer allows you to leverage attributes of the suppleme
 
 [!DNL Adobe Journey Optimizer] で補足識別子を有効にして適用する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3464793?quality=12&captions=jpn)
