@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 75c3db704853b8d2d8920ddd0086681d1fb02a93
+source-git-commit: 180b517c311f1d9a19f8c185f4ce5acd824aa3d9
 workflow-type: tm+mt
-source-wordcount: '1033'
-ht-degree: 100%
+source-wordcount: '1472'
+ht-degree: 26%
 
 ---
 
@@ -18,56 +18,26 @@ ht-degree: 100%
 
 [!DNL Adobe Journey Optimizer] は、新機能、既存機能の強化、およびバグ修正を継続的に提供します。[リリースノート](release-notes.md)では、各月の終わりにすべての変更がまとめられます。
 
-
-## 2025年8月プレリリースノート {#25-8-rn}
+## 2025 年 9 月プレリリースノート {#25-9-rn}
 
 **以下のプレリリースノートの内容は、リリースの公開日まで予告なく変更される場合があります**。リンク、画面、更新済みのドキュメントは、リリース日にリリースノートに公開されます。
 
 [Adobe Experience Platform プレリリースノート](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}も参照してください。
 
-**リリース日**：2025年8月19日（PT）
+**リリース日**:2025 年 9 月 23～24 日
 
-
-### 新機能 {#Aug-25-8-features}
+### 新機能 {#sept-25-9-features}
 
 <table>
 <thead>
 <tr>
-<th><strong>ジャーニーの一時停止と再開</strong><br/></th>
+<th><strong>ジャーニーを取得するパブリック API</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>これで、ジャーニーを一時停止して再開できるようになりました。この機能により、顧客体験を止めずにライブジャーニーを一時中断できるので、ジャーニー実務担当者はより優れた制御と柔軟性を得ることができます。一時停止すると、通信は送信されず、ジャーニーが再開されるまでプロファイルは中断状態のままになります。</p>
-<p>1 つのジャーニーのみを一時停止および再開することや、ジャーニーのグループに対して一括で一時停止および再開の操作を実行することができます。</p>
-<p>さらに、一時停止したジャーニーにグローバルフィルターを適用して、属性に基づいてプロファイルを除外できます。</p>
-<p><!--img src="assets/do-not-localize/PauseResume.gif"/>--></p>
-<p>この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。</p>
-<p><!--For more information, refer to the <a href="../building-journeys/journey-pause.md">detailed documentation</a>--></p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>カレンダー表示</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>ジャーニーとキャンペーンのリストでカレンダー表示を使用できるようになりました。これにより、すべてのジャーニーとキャンペーンのアクティベーションをそれぞれのリストで視覚化できます。</p>
-<p>この機能は、以前は限定提供でしたが、現在はすべての環境で使用できるようになりました。この一般提供リリースでは、この機能には次のものが含まれます。</p>
-<ul>
-<li>日付でのナビゲーションのデザインの改善</li>
-<li>開始日と終了日を設定した場合に、ドラフトキャンペーンを表示する機能。</li>
-<li>長期間実行されているカレンダー項目の表示と非表示を切り替える新しい設定。</li>
-</ul>
-<p><!--img src="assets/do-not-localize/calendar.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../building-journeys/journey-ui.md#journeys-calendar">detailed documentation</a>--></p>
+<p>ジャーニーと、キャンペーンやサーフェスなどの関連オブジェクトを取得する新しいJourney Optimizer API が使用できるようになりました。</p>
 </td>
 </tr>
 </tbody>
@@ -76,66 +46,93 @@ ht-degree: 100%
 <!--table>
 <thead>
 <tr>
-<th><strong>Dark mode in the Email Designer</strong><br/></th>
+<th><strong>New Web Push notifications channel</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>The Journey Optimizer Email Designer now offers the ability to switch to dark mode view, where you can additionally define specific custom settings that will display only for recipients reading their emails in dark mode.</p>
-<p>Note the following:</p>
+<p>Adobe Journey Optimizer now supports Web Push notifications, expanding the push channel beyond mobile. You can seamlessly deliver notifications to both mobile and desktop browsers, enabling you to reach customers directly on their devices without requiring an app.</p>
+<p>This enhancement allows you to engage users with timely, personalized messages in real time, leveraging the same authoring workflows and targeting capabilities already available for mobile push.</p>
+</td>
+</tr>
+</tbody>
+</table-->
+
+<table>
+<thead>
+<tr>
+<th><strong>ロイヤルティアプリ用の新しいソースコネクタ</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Experience Platformで、Talon.One、Capilary、Kobie の各ロイヤルティアプリで新しいソースコネクタが使用できるようになりました。 これらのコネクタを使用すると、ロイヤルティデータをAdobe Experience Platformにシームレスにストリーミングし、これらのデータをJourney Optimizerで活用できます。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Journey Agent</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Agentを使用すると、Journey Optimizerのユーザーは、自然言語インターフェイスを使用してジャーニーを作成、分析および最適化できます。 Journey Agentを使用すると、実務担当者は、スケジュールやオーディエンスの競合をすばやく検出して解決し、パフォーマンスとドロップオフポイントを分析し、今後のキャンペーンでレプリケートするパフォーマンスの高いジャーニーを特定できます。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Journey Optimizer Experimentation Accelerator</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer Experimentation Acceleratorは、実験を次のレベルに引き上げるために設計された AI ファーストの製品です。 Adobe Journey OptimizerおよびAdobe Target ユーザー向けに構築されたこのサービスは、実験管理を統合し、AI を活用したインサイトとオポチュニティを提供し、新しい実験エージェントを導入します。</p>
+<p>次の点にご期待ください。</p>
 <ul>
-<li>The dark mode final rendering may vary and depends on the recipient's email client.</li>
-<li>Not all email clients support custom dark mode. Moreover, some email clients only apply their own default dark mode for all emails that are received. In both cases, the custom settings that you defined in the Email Designer cannot be rendered.</li>
+<li><strong> 統合された実験インベントリ：</strong>Adobe Journey OptimizerとAdobe Targetのすべての実験を 1 つの中央ワークスペースですばやく表示、フィルタリング、管理します。 新しいチームスイッチャーを使用すると、ユーザーはチームや役割別にビューを調整し、適切な人物に最も関連性の高い実験を確実に表示できます。</li>
+<li><strong>AI 実験のインサイトと機会：</strong>GenAI によるインサイトと推奨事項を使用して、統計的な読み上げを超えます。 各実験では、根拠を裏付ける完全な、実用的な機会が得られるため、チームは次に何をテストすべきかをより自信を持って決定できます。</li>
+<li><strong> マルチアームバンディット（MAB）のサポート：</strong> マルチアームバンディット実験で無駄になるトラフィックを減らしながら、影響を最大化します。 MAB では、オーディエンスを均等に分割するのではなく、パフォーマンスの最も高いバリエーションにリアルタイムでより多くの訪問者を自動的に割り当てるため、機能を学びながら、より多くの顧客により良いエクスペリエンスを提供できます。</li>
 </ul>
-<P>This capability is currently in beta version and only available to beta customers. To join the beta program, contact your Adobe representative.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>E メールデザイナーでのダークモード</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer E メールデザイナーに、ダークモード表示に切り替える機能が追加されました。この機能を使用すると、ダークモードでメールを読む受信者にのみ表示される特定のカスタム設定を定義できます。</p>
+<p>次のことに注意してください。</p>
+<ul>
+<li>ダークモードの最終的なレンダリングは、受信者のメールクライアントに応じて異なります。</li>
+<li>すべてのメールクライアントがカスタムダークモードをサポートしているわけではありません。さらに、一部のメールクライアントでは、受信したすべてのメールに対して、独自のデフォルトのダークモードのみが適用されます。どちらの場合も、E メールデザイナーで定義したカスタム設定はレンダリングできません。</li>
+</ul>
 <p><img src="assets/do-not-localize/dark-mode.gif"/></p>
-<p>For more information, refer to the <a href="../email/dark-mode.md">detailed documentation</a></p>
-</td>
-</tr>
-</tbody>
-</table-->
-
-<table>
-<thead>
-<tr>
-<th><strong>Adobe Experience Platform データをパーソナライゼーションに使用</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>パーソナライゼーションエディターで Adobe Experience Platform のデータを利用して、コンテンツをパーソナライズします。これを行うには、まず、API 呼び出しを通じて参照パーソナライゼーションに必要なデータセットを有効にする必要があります。完了したら、そのデータを使用して、コンテンツを [!DNL Journey Optimizer] にパーソナライズできます。</p>
-<p>この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できます。この一般提供リリースでは、次の機能強化が導入されました。</p>
-<ul>
-<li>インバウンドチャネルのサポート。</li>
-<li>「datasetLookup」ヘルパー関数を式およびビジュアルフラグメント内で使用して、Adobe Experience Platform データセットのデータを使用してコンテンツをパーソナライズできるようになりました。</li>
-<li>データセットのオプションを使用すると、API 呼び出しを実行しなくても、データセットで参照パーソナライゼーションを有効にできるようになりました。</li>
-</ul>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<p>詳しくは、<a href="../email/dark-mode.md">詳細なドキュメント</a>を参照してください。</p>
+ <p>公開日：2025 年 9 月 16 日（PT）</p>
 </td>
 </tr>
 </tbody>
 </table>
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Use Decisioning in email channel</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>You can now add Decision policies into email journeys and campaigns. Decision policies are containers for your offers that leverage the Decisioning engine to dynamically return the best content to deliver for each audience member.</p>
-<p>Previously released in Limited Availability, this capability is now available to all environments (General Availability).</p>
-<p><img src="assets/do-not-localize/FILE.gif"/></p>
-<p><For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
-</td>
-</tr>
-</tbody>
-</table-->
 
 <table>
 <thead>
@@ -146,10 +143,12 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer では、AI と実験フレームワークを活用しながら、条件と最適化機能間のシームレスな操作性と差別化を確保して、ジャーニーを最適化するツールを提供するようになりました。</p>
+<p>新しい最適化ノードを使用して特定のオーディエンスにターゲットを設定するか、A/B テストを実行して、ビジネス目標に焦点を合わせた KPI を達成する最適なパスを決定します。</p>
+<p>このツールを使用すると、コミュニケーション、シーケンス、タイミングをテスト、調整、カスタマイズし、顧客に最も効果的にリーチできます。</p>
 <p>この機能は、限定提供です。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<p><img src="assets/do-not-localize/optimize.gif"/></p>
+<p>詳しくは、<a href="../building-journeys/optimize.md">詳細なドキュメント</a>を参照してください</p>
+<p>公開日：2025 年 9 月 4 日（PT）</p>
 </td>
 </tr>
 </tbody>
@@ -158,22 +157,16 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>ジャーニーのアクションアクティビティ</strong><br/></th>
+<th><strong>サブドメインのカスタムデリゲーションメソッド</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer は、単一アクションと複数アクションのインバウンドアクショングループの両方を設定できる新しい汎用アクションアクティビティをサポートしているので、ジャーニーキャンバス内でのアクション設定を効率化できます。特に、この新機能により、次のことが可能になります。</p>
-<ul>
-<li>ジャーニーキャンバス内の簡素化されたネイティブアクション設定。</li>
-<li>複数アクションのインバウンドノードを作成する処理能力。</li>
-<li>組み込みのチャネルアクションに最適化を追加する機能。</li>
-<li>任意のアクションに実験オプションと多言語オプションの両方を追加する機能。</li>
-</ul>
+<p>完全なデリゲーションと CNAME メソッドに加えて、新しいサブドメイン設定メソッドとして、カスタムデリゲーションメソッドが使用できるようになりました。これにより、メッセージの配信、レンダリング、トラッキングに必要な DNS のあらゆる側面を完全に制御および管理できます。</p>
 <p>この機能は、限定提供です。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<p>詳しくは、<a href="../configuration/delegate-custom-subdomain.md">詳細なドキュメント</a>を参照してください</p>
+<p>公開日：2025 年 9 月 4 日（PT）</p>
 </td>
 </tr>
 </tbody>
@@ -182,67 +175,87 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>ランディングページのカスタムフォーム</strong><br/></th>
+<th><strong>パーソナライゼーションと意思決定へのAdobe Experience Platform データの使用</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer では、カスタムフォームを作成し、ランディングページで活用して、各フォームに定義されたデータセットにプロファイル属性を取得できるようになりました。</p>
-<p>この機能は、限定提供です。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
-<p><!--This capability is currently in beta version and only available to beta customers. To join the beta program, contact your Adobe representative.--></p>
-<p><!--img src="assets/do-not-localize/FILE.gif"/>--></p>
-<p><!--For more information, refer to the <a href="../FILE.md">detailed documentation</a>--></p>
+<p>以前パブリックベータ版でリリースされていましたが、この機能は、すべての環境で限定提供（LA）で利用できるようになりました。 このリリースでは、次の機能強化が導入されました。</p>
+<ul><li>インバウンドチャネルでのデータセットルックアップパーソナライゼーションのサポート。</li>
+<li>「datasetLookup」ヘルパー関数を式フラグメント内で使用できるようになりました。 現時点では、この機能は一部のお客様のみが利用できます。 アクセスするには、アドビ担当者にお問い合わせください。</li>
+<li>データセット管理インターフェイスのオプションを使用すると、API 呼び出しを実行しなくても、ルックアップパーソナライゼーション用のレコードベースのデータセットを有効にできるようになりました。</li>
+<li>データ取り込みステータスを追跡し、データセットの検索準備が整ったタイミングを把握するための監視機能を強化しました。</li>
+<li>最適なパフォーマンスと信頼性を確保するために、使用ガイドラインとガードレールを更新しました。</li>
+<li>Adobe Experience Platform データセットを決定キャッピングルールで活用できるようになりました。</li></ul></p>
+<p>詳しくは、<a href="../data/lookup-aep-data.md">詳細なドキュメント</a>を参照してください。</p>
+<p>公開日：2025 年 9 月 1 日（PT）</p>
 </td>
 </tr>
 </tbody>
 </table>
 
+### 機能強化
 
-### 機能強化 {#Aug-25-8-improv}
+- **承認ポリシーの権限**
+承認ポリシーを作成または設定する際に、ジャーニー/キャンペーン作成者が独自のオブジェクトを承認できないようにするオプションを追加しました。
 
-このリリースに含まれる機能強化を以下に示します。
+- **新しいジャーニーアラート**\
+  ジャーニーには、事前設定済みの新しいアラートを使用できます。
+   - プロファイル破棄率の超過：過去 5 分に入力されたプロファイルに対するプロファイル破棄の割合が、しきい値を超えました。
+   - カスタムアクションエラー率を超えました：過去 5 分の、成功した HTTP 呼び出しに対するカスタムアクションエラーの割合が、しきい値を超えました。
+   - プロファイルエラー率の超過：過去 5 分に入力されたプロファイルに対する、エラーのプロファイルの割合が、しきい値を超えました。
 
-* **管理**
+- **カスタム認証でネストされた JSON ボディパラメーターがサポートされるようになりました**\
+  カスタムアクションにカスタム認証を設定する場合、ネストされた JSON オブジェクト（`bodyParams` 内のサブオブジェクトなど）がサポートされるようになりました。
 
-   * **チャネル設定のモニタリングアラート** - チャネル設定に失敗した場合や DNS レコードが見つからない場合に、メールまたは Journey Optimizer 通知センターでシステムアラートを受信するように登録できるようになりました。
+- **決定項目へのフラグメントの添付**\
+  Journey Optimizerで、意思決定ポリシーを通じてコードベースのエクスペリエンスキャンペーンで利用できるフラグメントを意思決定項目に添付する機能が提供されるようになりました。
 
-* **キャンペーン**
+- **ワンクリック登録解除 URL でのカスタム属性のサポート**\
+  Journey Optimizerを使用すると、Adobe外で同意を管理している場合に、メール設定で独自のワンクリック購読解除リンクを定義することで、外部カスタムエンドポイントを設定できます。 受信者が登録解除リンクをクリックすると、Journey Optimizer では、同意更新イベントにいくつかのデフォルトのプロファイル固有のパラメーターが追加されます。
 
-   * **アウトバウンドキャンペーンのレート制御** - アウトバウンドキャンペーン（メール、SMS、プッシュ通知）のスロットルレート制御を有効にできるようになりました。これにより、ランディングページやカスタマーケアプラットフォームなどのダウンストリームシステムの過負荷を防ぐことができます。
+  購読解除メールアドレスをさらにパーソナライズするために、同意イベントに追加するカスタム属性を定義できるようになりました。 この機能は、8 月 25 日リリース以降、カスタムのワンクリック購読解除リンクで既に使用されています。
 
-   * **アクションキャンペーンのスケジュール設定** - キャンペーンの毎日、毎週、毎月のスケジューラーが更新され、精度が向上しました。例えば、スケジュール間の週数／月数を設定し、実行する曜日を定義して、特定の回数の発生後または特定の日付に停止することを決定できるようになりました。
+- **SMS BYOP の mTLS サポート**\
+  カスタム SMS プロバイダーを設定する際に、相互 TLS （mTLS）認証を有効にするオプションが追加されました。この場合、安全な接続が確立される前に、クライアントとサーバーの両方が相互の ID を確認する必要があります。
 
-   * **スケジュール済みトランザクションアクションキャンペーン** - スケジュール済みトランザクションアクションキャンペーンを使用して、メール、SMS、プッシュチャネル経由でバッチのオーディエンスベースのトランザクション通信を送信できるようになりました。
+- **モデルベースのスキーマ**\
+  より明確で直感的なエクスペリエンスを実現するために、リレーショナルスキーマは現在、オーケストレートキャンペーンではモデルベースのスキーマと呼ばれています。
 
-* **チャネル - プッシュ**
+- **ジャーニーでのデータセットルックアップのサポート**\
+  ジャーニーの新しいアクティビティ **データセットルックアップ** を使用すると、実行時にAdobe Experience Platform レコードデータセットからデータを動的に取得できます。 この機能を活用すると、プロファイルまたはイベントペイロードに存在しない可能性のあるデータにアクセスできるので、顧客とのインタラクションが関連性が高く、タイムリーなものとなります。
 
-   * **プッシュ通知の有効期限** - 各プッシュ通知に有効期限を指定できるようになりました。これにより、時間的制約のあるメッセージ（Black Friday セールなど）が特定の日付以降に送信されなくなるので、顧客に悪いエクスペリエンスを提供することを回避できます。
+- **すべてのインバウンドチャネルのコンテンツバリエーションのシミュレーション**\
+  以前は、メール、SMS、プッシュ通知のチャネルでのみ使用できましたが、コンテンツのバリエーションのシミュレーションはすべてのインバウンドチャネルにも適用されるようになりました。
 
-* **チャネル - メール**
+- **カスタムアクションの監視とレポート作成**\
+  この機能により、ライフサイクルステータスやパフォーマンスアラートなど、ジャーニーの正常性と実行がよりわかりやすく表示されます。 カスタムアクションで異常な状況が発生しているタイミング、場所、理由をすばやく理解できるようになりました。
 
-   * **メールへの PDF 添付ファイル** - Journey Optimizer で送信されるメールメッセージに静的 PDF ファイルを添付できるようになりました。
+- **API トリガーキャンペーンの Webhook サポート**\
+  API トリガーキャンペーンで Webhook がサポートされるようになりました。 Webhook の URL を設定して、メッセージごとにリアルタイムのステータス更新を受信するようにすると、観測性が向上し、シームレスな監視と自動化が可能になります。
 
-* **チャネル - SMS**
+- **ジャーニーカスタムアクションでのリダイレクトのサポート**\
+  リダイレクト （302）がジャーニーのカスタムアクションでサポートされるようになりました。
 
-   * **ファジーオプトアウト** - 有効にすると、「**ファジーオプトアウト**」オプションは、定義済みのオプトアウトキーワード（「CANCIL」など）に非常に類似したインバウンドメッセージを検出し、ユーザーの登録解除の意図を検証する確認返信を自動的に送信します。定義済みのプロンプトを通じてユーザーが確認すると、登録解除されます。
+- **API トリガーメールキャンペーンの高スループットモード**\
+  API トリガーキャンペーンで新しい高スループットモードが使用できるようになりました。 このモードは、大規模なリアルタイムメッセージ（1 秒あたり最大 5000 トランザクション）向けに設計されており、より高い可用性とより低い待ち時間を提供します。\
+  この機能は、Adobeの高スループットトランザクションメッセージのアドオン機能を購入した組織のメールチャネルでのみ使用できます。 詳しくは、Adobe担当者にお問い合わせください。
 
-     **ファジーオプトアウト**&#x200B;は、Sinch と Infobip でのみ使用できます。
 
-   * **SMS 接続を検証** - 指定されたデバイスにサンプルメッセージを送信して、Adobe Journey Optimizer 内で SMS API 資格情報を簡単にテストおよび検証できるようになりました。
+- **時間単位での頻度キャップのリセット** - チャネルルールセットに対して時間単位でキャップを適用できるようになりました。以前は限定提供（LA）で利用できましたが、現在はすべての環境で利用でき、1 時間（以前は 3 時間）を選択できるようになりました。 [ 詳細情報 ](../conflict-prioritization/channel-capping.md)。 実施可能日：9 月 17 日（PT）
 
-* **設定**
+- **動的ドメインのサポート** - Journey Optimizerで、Adobeが受け入れる事前定義済みドメインの完全/ベース URL パーソナライゼーションがサポートされるようになりました。 [ 詳細を表示 ](../personalization/personalization-build-expressions.md#where)<!--Availability date: September 12-->
 
-   * **動的ドメインのサポート** - Journey Optimizer では、チャネル設定レベルでリストされている定義済みドメインのトラッキング URL のパーソナライゼーションがサポートされるようになりました。
+  >[!NOTE]
+  >
+  >この機能は、一連のお客様に対して限定提供で利用できます。
 
-   * **ワンクリック登録解除 URL を使用したカスタム属性のサポート** - Journey Optimizer では、アドビ以外で同意を管理している場合、メール設定で独自のワンクリック登録解除リンクを定義して、外部カスタムエンドポイントを設定できます。受信者が登録解除リンクをクリックすると、Journey Optimizer では、同意更新イベントにいくつかのデフォルトのプロファイル固有のパラメーターが追加されます。
+- **決定キャッピングルールの式** – 決定項目のキャッピングルールのしきい値を定義する独自の式を作成できるようになりました。 [詳細情報](../experience-decisioning/items.md#capping)
 
-     ワンクリック登録解除リンクをさらにパーソナライズするには、同意イベントに追加されるカスタム属性を定義できるようになりました。
+>[!NOTE]
+>
+>この機能は、現在、すべてのユーザーに対する限定提供として利用できます。
 
-* **決定**
+- **チャネル設定の監視アラート** - カスタムサブドメインデリゲーションタイプを使用したメールチャネル設定エラーが発生した場合に、メールまたはJourney Optimizer通知センターでシステムアラートを受け取ることを登録できるようになりました。 [詳細情報](../reports/alerts.md#alert-dns-record-missing)
 
-   * **フラグメントを決定項目に添付** - Journey Optimizer では、決定ポリシーを通じてコードベースのエクスペリエンスキャンペーンで活用できるフラグメントを決定項目に添付できるようになりました。
-
-* **ジャーニー**
-
-   * **ジャーニーの一括操作** - ジャーニーのリストから、複数の項目を選択できるようになりました。選択すると、一度に最大 10 件のジャーニーを一時停止または再開できます。
