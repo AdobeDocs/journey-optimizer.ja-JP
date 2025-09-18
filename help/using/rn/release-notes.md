@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 64228dfbd0e8c2884df179767d0ec9fe13d6fdf6
+source-git-commit: 09b56bacb61f64e5292a6c1b9b7706b9fa390d0c
 workflow-type: tm+mt
 source-wordcount: '2226'
 ht-degree: 87%
@@ -376,7 +376,7 @@ ht-degree: 87%
 
 * **決定**
 
-   * **フラグメントを決定項目に添付** - Journey Optimizer では、決定ポリシーを通じてコードベースのエクスペリエンスキャンペーンで活用できるフラグメントを決定項目に添付できるようになりました。この機能は、一連のお客様に対する限定提供で使用できます。[詳細情報](../experience-decisioning/create-decision.md#fragments)
+   * **フラグメントを決定項目に添付** - Journey Optimizer では、決定ポリシーを通じてコードベースのエクスペリエンスキャンペーンで活用できるフラグメントを決定項目に添付できるようになりました。この機能は、一連のお客様に対して限定提供で利用できます。 [詳細情報](../experience-decisioning/create-decision.md#fragments)
 
 * **ジャーニー**
 

@@ -10,7 +10,7 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: 式, エディター, 説明, 開始
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 244d17a6c75eaee5b09fb82a9237db041a2650d1
+source-git-commit: 09b56bacb61f64e5292a6c1b9b7706b9fa390d0c
 workflow-type: tm+mt
 source-wordcount: '1565'
 ht-degree: 98%
@@ -77,7 +77,7 @@ Journey Optimizer では、メッセージ内の **URL** をパーソナライ�
 >
 >スペースは、URL 内で使用されるパーソナライゼーショントークンではサポートされていません。
 
-Journey Optimizerでは、一連の顧客に対して、完全な/ベース URL のパーソナライゼーションもサポートされます。 例：
+一部のお客様の限定提供では、Journey Optimizerは、完全な/ベース URL のパーソナライゼーションもサポートしています。 例：
 
 ```
 <a href="{{profile.social.link}}" />
