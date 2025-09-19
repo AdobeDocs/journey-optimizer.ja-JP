@@ -5,10 +5,10 @@ title: 複数の手順のキャンペーンでのチャネルアクティビテ�
 description: 複数の手順のキャンペーンでのチャネルアクティビティの追加方法について説明します。
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: 8205d248d986cdc1a2262705c58524c2434265f5
+source-git-commit: 8c3ff6c60f846af2cddc8c84507cd64fd457cbbb
 workflow-type: tm+mt
-source-wordcount: '1108'
-ht-degree: 100%
+source-wordcount: '1107'
+ht-degree: 98%
 
 ---
 
@@ -93,7 +93,7 @@ UNUSED IDs in BJ
 
 1. **キャッピングルールの適用**
 
-   **[!UICONTROL ルールセット]**&#x200B;ドロップダウンリストで、キャッピングルールをキャンペーンに適用するチャネルルールセットを選択します。チャネルルールセットを活用すると、通信タイプ別のフリークエンシーキャップを設定し、類似したメッセージで顧客に過剰な負荷がかかるのを防ぐことができます。[詳しくは、ルールセットの操作方法を参照してください](../../conflict-prioritization/rule-sets.md)。
+   **[!UICONTROL ルールセット]**&#x200B;ドロップダウンリストで、キャッピングルールをキャンペーンに適用するチャネルルールセットを選択します。チャネルルールセットを活用すると、通信タイプごとにフリークエンシーキャップを設定して、類似のメッセージを持つ顧客の過負荷を防ぐことができます。 [詳しくは、ルールセットの操作方法を参照してください](../../conflict-prioritization/rule-sets.md)。
 
 1. **エンゲージメントのトラッキング**（メールと SMS）。
 
