@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9155a16a0557a32c1d59b66b03fc84c5bc7b8463
+source-git-commit: c472ce00623b810dea60dd5d9e34ca4d516447ad
 workflow-type: tm+mt
-source-wordcount: '2950'
+source-wordcount: '2948'
 ht-degree: 98%
 
 ---
@@ -80,12 +80,12 @@ ht-degree: 98%
       + [反応](using/building-journeys/reaction-events.md)
       + [オーディエンスの選定](using/building-journeys/audience-qualification-events.md)
       + [最適化](using/building-journeys/optimize.md)
-      + [条件](using/building-journeys/conditions.md)
-      + [条件アクティビティ](using/building-journeys/condition-activity.md)
       + [オーディエンスを読み取り](using/building-journeys/read-audience.md)
       + [待機](using/building-journeys/wait-activity.md)
+      + [条件](using/building-journeys/conditions.md)
+      + [条件](using/building-journeys/condition-activity.md)
       + [コンテンツの決定](using/building-journeys/content-decision.md)
-      + [アクションアクティビティ](using/building-journeys/journey-action.md)
+      + [アクション](using/building-journeys/journey-action.md)
       + [ビルトインのチャネルアクション](using/building-journeys/journeys-message.md)
       + [カスタムアクション](using/building-journeys/using-custom-actions.md)
       + [Adobe Campaign Standard のアクション](using/building-journeys/using-adobe-campaign-standard.md)

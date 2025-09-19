@@ -11,10 +11,10 @@ keywords: アクティビティ, 条件, キャンバス, ジャーニー, 最�
 badge: label="限定提供" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: f1a44b91e8dfe28d0cf54c11a7912e568f3d176d
+source-git-commit: c472ce00623b810dea60dd5d9e34ca4d516447ad
 workflow-type: tm+mt
-source-wordcount: '1257'
-ht-degree: 37%
+source-wordcount: '1298'
+ht-degree: 35%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 37%
 
 1. **[!UICONTROL 実験を作成]** をクリックします。
 
-1. 実験に設定する&#x200B;**[!UICONTROL 成功指標]**&#x200B;を選択します。
+1. 実験に設定する **[!UICONTROL 成功指標]** を選択します。 使用可能な指標とリストの設定方法について詳しくは、[ この節 ](success-metrics.md) を参照してください。
 
    <!--Need to have the list of all default metrics + a description for each.
     Explain why the metric selection is important.
@@ -125,7 +125,7 @@ ht-degree: 37%
 
 ジャーニーがライブになると、ユーザーには異なるパスを進むようにランダムに割り当てられます。[!DNL Journey Optimizer] は、どのパスが最もパフォーマンスが高いかを追跡し、アクションにつながるインサイトを提供します。
 
-<!--Follow the success of your journey with the Journey Path Experiment report.Reporting page on Journey Path Experimentation to be created - such as what we have for [Experimentation campaign report](../reports/campaign-global-report-cja-experimentation.md)-->
+ジャーニーパス実験レポートを使用して、ジャーニーの成功を追跡します。 [詳細情報](../reports/journey-global-report-cja-experimentation.md)
 
 ### 実験のユースケース {#uc-experiment}
 
@@ -224,7 +224,7 @@ ht-degree: 37%
 
 ジャーニーがライブになると、各セグメントに指定されたパスが処理され、ゴールドメンバーはメールオファーを使用してパスに入力し、他のメンバーは SMS リマインダーを使用してパスに入力します。
 
-<!--Follow the success of your journey with the Journey Path Targeting report.Reporting page on Journey Path Targeting to be created - such as what we have for [Experimentation campaign report](../reports/campaign-global-report-cja-experimentation.md)-->
+ジャーニーレポートを使用して、ジャーニーが成功したかどうかを追跡します。 [詳細情報](../reports/journey-global-report-cja.md#targeting)
 
 ### ターゲティングルールの使用例 {#uc-targeting}
 
