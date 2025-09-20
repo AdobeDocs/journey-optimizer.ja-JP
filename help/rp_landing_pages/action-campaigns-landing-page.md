@@ -40,7 +40,7 @@ Adobe Journey Optimizer のアクションキャンペーンを使用すると�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 キャンペーンアクションの設定
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer のアクションキャンペーンを使用すると�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=ja)
 
 キャンペーンオーディエンスの定義
 

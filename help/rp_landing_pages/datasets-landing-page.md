@@ -20,7 +20,7 @@ Adobe Journey Optimizer データセットは、データを管理および利�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 Adobe Journey Optimizer のデータセットの使用と管理
 

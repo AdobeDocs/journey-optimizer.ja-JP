@@ -20,7 +20,7 @@ Adobe Journey Optimizer の SMS／MMS／RCS チャネルを使用すると、パ
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 テキストメッセージの基本を学ぶ
 
@@ -50,7 +50,7 @@ SMS、MMS、RCS メッセージの作成方法
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
 
 テキストメッセージのオプトアウトの管理
 
@@ -60,7 +60,7 @@ SMS、MMS、RCS 通信のオプトアウトプロセスを管理することで�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 SMS サブドメインの設定
 
@@ -70,7 +70,7 @@ SMS サブドメインの設定
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 SMS／MMS／RCS チャネルの設定
 

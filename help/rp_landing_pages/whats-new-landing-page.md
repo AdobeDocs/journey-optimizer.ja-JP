@@ -50,7 +50,7 @@ Adobe Experience Manager as a Cloud Service を Adobe Journey Optimizer と統�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 Adobe Journey Optimizer の最新のリリースノート
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer の最新のリリースノート
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
 
 Adobe Journey Optimizer の以前のリリースノート
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 全体の機能、統合、改善に関する詳細な�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
 
 Adobe Journey Optimizer ドキュメントの最新の更新
 

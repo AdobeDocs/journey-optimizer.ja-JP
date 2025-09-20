@@ -30,7 +30,7 @@ Adobe Journey Optimizer でイベントデータを収集すると、決定数�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 エクスペリエンスイベントを収集するデータセットの作成方法
 

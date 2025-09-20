@@ -20,7 +20,7 @@ Adobe Journey Optimizer のキャンペーンレポートを使用すると、�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
 
 キャンペーンレポートの概要
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer のキャンペーンレポートを使用すると、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 コードベースのキャンペーンレポート
 

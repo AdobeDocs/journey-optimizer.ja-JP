@@ -40,7 +40,7 @@ Adobe Journey Optimizer の「全期間のレポート」機能にアクセス�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 Customer Journey Analytics の手動設定
 

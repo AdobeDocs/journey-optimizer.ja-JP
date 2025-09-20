@@ -30,7 +30,7 @@ Adobe Journey Optimizer を使用して、一貫性のある視覚的および�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 ブランド一致スコアの評価
 

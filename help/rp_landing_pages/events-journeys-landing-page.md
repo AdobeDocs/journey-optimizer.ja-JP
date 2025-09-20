@@ -60,7 +60,7 @@ Adobe Analytics データを統合してジャーニーを自動化し、パー�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 ビジネスイベントの設定
 
@@ -70,7 +70,7 @@ Adobe Analytics データを統合してジャーニーを自動化し、パー�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 Streaming API を使用したイベントの送信
 

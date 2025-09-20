@@ -50,7 +50,7 @@ Adobe Experience Platform データソース
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 外部データソースの設定
 

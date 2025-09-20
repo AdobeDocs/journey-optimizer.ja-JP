@@ -20,7 +20,7 @@ Adobe Journey Optimizer の動的コンテンツを使用すると、オーデ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 動的コンテンツの基本を学ぶ
 

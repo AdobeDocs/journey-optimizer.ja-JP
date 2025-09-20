@@ -40,7 +40,7 @@ AI 式ビルダーを使用して、AI モデル、属性、コンテキスト�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
 
 AI モデルの理解と実装
 

@@ -20,7 +20,7 @@ Adobe Journey Optimizer の決定機能を使用すると、一元化された�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 決定の概要
 

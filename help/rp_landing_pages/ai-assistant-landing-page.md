@@ -20,7 +20,7 @@ Adobe Journey Optimizer の AI アシスタントは、生成 AI を活用して
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 AI アシスタントの基本を学ぶ
 
@@ -40,7 +40,7 @@ AI アシスタントを使用して、ブランド一致を保持しながら�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=ja)
 
 プッシュ通知コンテンツの生成
 
@@ -50,7 +50,7 @@ AI アシスタントを使用して、ブランド一致を保持しながら�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=ja)
 
 AI を使用した SMS コンテンツ生成
 
@@ -70,7 +70,7 @@ AI アシスタントを使用して web ページのコンテンツとビジュ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/window-maximize.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/window-maximize.svg?lang=ja)
 
 AI を使用したランディングページ生成
 

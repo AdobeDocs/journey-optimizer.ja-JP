@@ -60,7 +60,7 @@ Web エクスペリエンスの監視
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 Adobe Journey Optimizer で単一ページアプリケーションを作成する方法
 

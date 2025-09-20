@@ -30,7 +30,7 @@ API トリガーキャンペーンの作成と管理
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 API トリガーキャンペーンプロパティの定義
 
@@ -40,7 +40,7 @@ API トリガーキャンペーンの名前、タグ付け、アクセス制限�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 API トリガーキャンペーンアクションの設定
 
@@ -50,7 +50,7 @@ API トリガーキャンペーンアクションの設定
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 API トリガーキャンペーンコンテンツの編集とパーソナライズ
 

@@ -40,7 +40,7 @@ Adobe Journey Optimizer でスキーマを作成し、データセットを設�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 DDL ファイルを使用したリレーショナルスキーマの作成
 
