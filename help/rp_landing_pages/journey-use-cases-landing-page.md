@@ -5,10 +5,10 @@ title: ユースケース
 description: ユースケース
 redpen-status: CREATED_||_2025-08-11_20-20-12
 exl-id: 09b60e6e-8874-4950-a37a-fc807d3b39b1
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
-source-wordcount: '293'
-ht-degree: 100%
+source-git-commit: 8218c4666588bb58e0529a73eebcddef3209cbd0
+workflow-type: tm+mt
+source-wordcount: '334'
+ht-degree: 87%
 
 ---
 
@@ -86,3 +86,4 @@ Adobe Campaign と Journey Optimizer を統合して、トランザクション�
 
 - **[外部データソースとカスタムアクションを使用してスループットを制限](../using/building-journeys/limit-throughput.md)** - データソースとカスタムアクションを使用して、外部システムのジャーニーのスループットを最適化し、制限を管理します。
 - **[カスタムアクションを使用して Experience Platform にジャーニーイベントを書き込む](../using/building-journeys/custom-action-aep.md)** - 認証済みの呼び出しと HTTP API エンドポイントを設定して、ジャーニーイベントを Adobe Experience Platform に書き込みます。
+- **[ライブジャーニーからのプロファイルの削除](../using/building-journeys/journey-pause.md#apply-an-exit-criteria-in-a-paused-journey)** - ビジネスまたは運用上の理由から、ライブジャーニーから一部のプロファイルを削除し、ジャーニー内の現在の特定の条件に一致するプロファイルを除外することが必要な場合があります。 この操作は、ジャーニーを一時停止することで実行できます。
