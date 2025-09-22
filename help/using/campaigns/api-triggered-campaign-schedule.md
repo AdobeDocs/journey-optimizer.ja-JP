@@ -9,8 +9,8 @@ role: Developer
 level: Experienced
 keywords: キャンペーン, API トリガー, REST, Optimizer, メッセージ
 exl-id: e04b0d38-6b3d-4086-a0f0-c1b8f6d9634f
-source-git-commit: eeacfacf3068f831afb7b7ad78214941a9259c93
-workflow-type: ht
+source-git-commit: d3570e2c3d6340deaba8ca0f342161ab43ad1c43
+workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 100%
 
@@ -51,4 +51,4 @@ ht-degree: 100%
 
 ## 次の手順 {#next}
 
-キャンペーンの設定とコンテンツの準備が整ったら、レビューしてアクティブ化できます。[詳細情報](review-activate-campaign.md)
+キャンペーンの設定とコンテンツの準備が整ったら、レビューしてアクティブ化できます。[詳細情報](../campaigns/review-activate-api-triggered-campaign.md)
