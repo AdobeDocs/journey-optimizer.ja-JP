@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0c27f2cec8200e6f65c22caec560dbea5bc80042
+source-git-commit: 8ef9b3b886e9856c6c2dac55e33a7ca6ce86b414
 workflow-type: tm+mt
 source-wordcount: '3097'
 ht-degree: 66%
@@ -292,6 +292,8 @@ ht-degree: 66%
 
 * **チャネル設定の監視アラート** - カスタムサブドメインデリゲーションタイプを使用したメールチャネル設定エラーが発生した場合に、メールまたはJourney Optimizer通知センターでシステムアラートを受け取ることを登録できるようになりました。 [詳細情報](../reports/alerts.md#alert-dns-record-missing)
 
+* **ワンクリック購読解除リクエスト** - Adobe Managed で設定されたワンクリック購読解除リクエストの処理をさらに強化し、信頼性と一貫性のある処理を確保する機能強化を導入しました。
+
 
 ## 2025年8月リリースノート {#25-8-rn}
 
@@ -532,8 +534,6 @@ ht-degree: 66%
    * **ワンクリック登録解除 URL を使用したカスタム属性のサポート** - Journey Optimizer では、アドビ以外で同意を管理している場合、メール設定で独自のワンクリック登録解除リンクを定義して、外部カスタムエンドポイントを設定できます。受信者が登録解除リンクをクリックすると、Journey Optimizer では、同意更新イベントにいくつかのデフォルトのプロファイル固有のパラメーターが追加されます。
 
      ワンクリック登録解除リンクをさらにパーソナライズするのに、同意イベントにも追加されるカスタム属性を定義できるようになりました。[詳細情報](../email/list-unsubscribe.md#custom-attributes)
-
-   * **ワンクリック購読解除リクエスト** - Adobe Managed で設定されたワンクリック購読解除リクエストの処理をさらに強化し、信頼性と一貫性のある処理を確保する機能強化を導入しました。
 
 * **データセット**
 
