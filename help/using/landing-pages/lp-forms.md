@@ -11,7 +11,8 @@ keywords: ランディング，ランディングページ，作成，ページ�
 badge: label="限定提供" type="Informative"
 hidefromtoc: true
 hide: true
-source-git-commit: 67283fe92282ce23c97c29fa2c0ad78132cc184a
+exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
+source-git-commit: 45ebae048a748429a1918326526f3756a3e93c4c
 workflow-type: tm+mt
 source-wordcount: '1137'
 ht-degree: 4%
@@ -32,7 +33,7 @@ ht-degree: 4%
 >id="ajo_lp_form_connection"
 >title="使用するエンドポイントを選択"
 >abstract="フォーム送信時にデータが送信されるストリーミングエンドポイントを定義する。"
->additional-url="https://experienceleague.adobe.com/ja/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="HTTP API ストリーミング接続の作成"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="HTTP API ストリーミング接続の作成"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_dataset"
@@ -68,7 +69,7 @@ ht-degree: 4%
 
    >[!NOTE]
    >
-   >ストリーミングソース接続の作成について詳しくは、[Experience Platform ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"} を参照してください。
+   >ストリーミングソース接続の作成について詳しくは、[Experience Platform ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"} を参照してください。
 
 1. フォームにリンクする **[!UICONTROL データセット]** を選択します。 ここで、フォームの応答が保存され、反映されます。 入力して特定のデータセットを検索するか、リストから選択できます。
 
@@ -90,7 +91,7 @@ ht-degree: 4%
 >id="ajo_lp_form_preset"
 >title="プリセットを選択"
 >abstract="使用する接続を含む事前定義済みプリセットと、フォームの事前定義済みデータセットを選択します。"
->additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="フォームプリセットの作成"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="フォームプリセットの作成"
 
 フォームを作成するには、次の手順に従います。
 
