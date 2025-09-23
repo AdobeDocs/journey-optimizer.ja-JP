@@ -8,13 +8,13 @@ topic: Content Management
 role: User
 level: Intermediate
 version: Journey Orchestration
-source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
+exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
+source-git-commit: 4b0355c4e871e89c1b3eeea978959a2d97fa475d
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 16%
 
 ---
-
 
 # ジャーニーでの [!DNL Adobe Experience Platform] データの使用 {#datalookup}
 
