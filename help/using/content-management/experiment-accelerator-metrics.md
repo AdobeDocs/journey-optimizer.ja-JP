@@ -10,10 +10,11 @@ level: Beginner
 keywords: コンテンツ, 実験, 複数, オーディエンス, 処理
 hide: true
 hidefromtoc: true
-source-git-commit: ddeb3512fbe1d1de86456fe2c3ccd2b3805b5684
+exl-id: 74868625-f4ea-44f9-ae2a-8e5fdd22a081
+source-git-commit: 70fce6fae4db58c72496945c50155dbd0b4986b4
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 4%
+source-wordcount: '374'
+ht-degree: 11%
 
 ---
 
@@ -35,8 +36,6 @@ ht-degree: 4%
 
 「**[!UICONTROL 指標]**」タブには、Journey OptimizerとAdobe Targetで使用可能なすべての成功指標が統合ビューに表示されるので、イニシアチブをまたいでパフォーマンスを追跡したり、結果を比較したり、注意が必要な領域をすばやく特定したりするのに役立ちます。
 
-**[!UICONTROL 指標]** リストには、次のものが含まれます。
-
 ![](assets/do-not-localize/Smock_Filter_18_N.svg) をクリックしてフィルターにアクセスします。ここには、**[!UICONTROL Sourceによるフィルタリング]** または **[!UICONTROL アクティブな実験で使用]** などのコンテキスト固有のオプションがあります。
 
 または、検索バーに名前を入力して、指標をすばやく見つけることもできます。
@@ -53,9 +52,9 @@ ht-degree: 4%
 
 クイックリファレンスとして次の要約値を利用できます。
 
-* **[!UICONTROL 合計]**:
+* **[!UICONTROL 合計]**：レポート期間中の選択した指標の累積値。
 
-* **[!UICONTROL 平均]**:
+* **[!UICONTROL 平均]**：選択した時間範囲で計算された指標の代表値。 毎日または毎週の変動のバランスを取ることで、通常のパフォーマンスをより明確に把握し、比較のベースラインとして使用できます。
 
 * **[!UICONTROL コンバージョン率]**：処理を確認した後に目的のアクション（購入、サインアップなど）を完了したプロファイルの割合。
 
@@ -64,3 +63,11 @@ ht-degree: 4%
 ### 実験効果
 
 このセクションには、選択した期間内（過去 90 日間、過去 30 日間または過去 7 日間）のすべてのアクティブな実験が表示され、指標に対する貢献度がハイライト表示されます。
+
+次の指標を使用できます。
+
+* **[!UICONTROL 上昇率]**：ベースラインに対する特定の処理のコンバージョン率の向上率を測定します。
+
+* **[!UICONTROL 信頼性]**：ある処理がベースライン処理と同じであることを示す証拠。[詳細情報](../content-management/experiment-calculations.md#understand-confidence)
+
+* **[!UICONTROL 貢献度]**：特定の実験または処理に起因する可能性のある指標の全体的な変化の割合。相対的な影響が最も大きいイニシアチブを特定できます。
