@@ -8,10 +8,10 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 967e5ed75a7a3d37b37749f464a3b96e10b1f35a
+source-git-commit: c517e7faa027b5c1fe3b130f45fc7bf5020c454a
 workflow-type: tm+mt
-source-wordcount: '1500'
-ht-degree: 86%
+source-wordcount: '1554'
+ht-degree: 83%
 
 ---
 
@@ -46,6 +46,8 @@ AND _experience.journeyOrchestration.stepEvents.nodeType='start'
 AND _experience.journeyOrchestration.stepEvents.instanceType = 'unitary'
 AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 ```
+
+[journey_step_events で破棄されたイベントタイプのトラブルシューティング ](../reports/sharing-field-list.md#discarded-events) を行う方法を説明します。
 
 +++
 
@@ -474,6 +476,9 @@ ORDER BY DATE(timestamp) desc
 
 このクエリは、指定した期間に 1 日ごとにジャーニーにエントリしたプロファイルの数を返します。プロファイルが別の ID を使用してエントリした場合は、2 回カウントされます。再エントリを有効にすると、別の日にジャーニーに再エントリした場合、プロファイル数が複数日にわたって重複する場合があります。
 
+[journey_step_events で破棄されたイベントタイプのトラブルシューティング ](../reports/sharing-field-list.md#discarded-events) を行う方法を説明します。
+
+
 +++
 
 ## 「オーディエンスを読み取り」に関連するクエリ {#read-segment-queries}
@@ -508,7 +513,7 @@ _experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'finished')) AS export_job_runtime;
 ```
 
-クエリは、オーディエンス書き出しジョブがキューに追加された時刻と最終的に終了した時刻との時間差を分単位で返します。
+クエリは、オーディエンスエクスポートジョブがキューに追加された時刻と最終的に終了した時刻との時間差を分単位で返します。
 
 +++
 
@@ -661,8 +666,8 @@ WHERE
 
 また、次のような問題も検出できます。
 
-* トピックまたは書き出しジョブ作成時のエラー（オーディエンスの書き出し API 呼び出しのタイムアウトを含む）
-* 停止する可能性がある書き出しジョブ（特定のジャーニーバージョンで、書き出しジョブの終了に関するイベントがない場合）
+* トピックまたはエクスポートジョブ作成時のエラー（オーディエンスのエクスポート API 呼び出しのタイムアウトを含む）
+* 停止する可能性があるエクスポートジョブ（特定のジャーニーバージョンで、エクスポートジョブの終了に関するイベントがない場合）
 * セカンダリの問題（エクスポートジョブ終了イベントを受け取ったが、セカンダリ処理終了イベントを受け取っていない場合）
 
 重要事項：このクエリでイベントが返されない場合、次のいずれかの理由が原因である可能性があります。
@@ -969,6 +974,8 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
 ```
 
+[journey_step_events で破棄されたイベントタイプのトラブルシューティング ](../reports/sharing-field-list.md#discarded-events) を行う方法を説明します。
+
 +++
 
 +++その他の理由でプロファイルの外部イベントが破棄されたかどうかを確認する
@@ -997,6 +1004,8 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
 ```
 
+[journey_step_events で破棄されたイベントタイプのトラブルシューティング ](../reports/sharing-field-list.md#discarded-events) を行う方法を説明します。
+
 +++
 
 +++errorCode で stateMachine によって破棄されたすべてのイベントの数を確認する
@@ -1016,6 +1025,8 @@ SELECT _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode, CO
 where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' GROUP BY _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode
 ```
+
+[journey_step_events で破棄されたイベントタイプのトラブルシューティング ](../reports/sharing-field-list.md#discarded-events) を行う方法を説明します。
 
 +++
 
@@ -1043,6 +1054,8 @@ where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' AND _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode='reentranceNotAllowed'
 ```
 
+[journey_step_events で破棄されたイベントタイプのトラブルシューティング ](../reports/sharing-field-list.md#discarded-events) を行う方法を説明します。
+
 +++
 
 ## 一般的なジャーニーベースのクエリ {#journey-based-queries}
@@ -1068,6 +1081,7 @@ ORDER BY DATE(timestamp) desc
 ```
 
 このクエリは、指定した期間に 1 日にトリガーされた一意のジャーニーの数を返します。1 つのジャーニーが複数日でトリガーされる場合は、1 日につき 1 回とカウントされます。
+
 
 +++
 

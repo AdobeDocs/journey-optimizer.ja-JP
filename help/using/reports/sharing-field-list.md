@@ -8,10 +8,10 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: d3f0adab52ed8e44a6097c5079396d1e9c06e0a7
+source-git-commit: c517e7faa027b5c1fe3b130f45fc7bf5020c454a
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 100%
+source-wordcount: '598'
+ht-degree: 54%
 
 ---
 
@@ -46,7 +46,7 @@ identityMap 属性の場合、プライマリ ID はデフォルトで「primary
 
 ## profile {#profile-field}
 
-このフィールドグループは、journeyStepEvent に固有のものです。このイベントはジャーニーと関連しており、identityMap を持たず、存在する場合はプロファイル ID を示しています。
+このフィールドグループは、journeyStepEvent に固有です。このイベントはジャーニーと関連しており、identityMap を持たず、存在する場合はプロファイル ID を示しています。
 
 journeyStepEvent の場合、ID に関連するフィールドも追加する必要があります。
 
@@ -61,15 +61,52 @@ journeyStepEvent の場合、ID に関連するフィールドも追加する必
 
 | フィールド名 | タイプ | 説明 |
 |---|---|------------|
-| ID | 文字列 | トリガーされたオーディエンス書き出しジョブの識別子 |
-| status | 文字列 | オーディエンス書き出しジョブのステータス：待機中、開始済み、完了済み |
-| exportCountTotal | 整数 | オーディエンス書き出しジョブの可能な最大値 |
-| exportCountRealized | 整数 | ジョブを通じて書き出されたオーディエンスの実際の数 |
-| exportCountFailed | 整数 | ジョブを通じた書き出し中に失敗したオーディエンスの数 |
-| exportSegmentID | 文字列 | 書き出すオーディエンスの識別子 |
+| ID | 文字列 | トリガーされたオーディエンスエクスポートジョブの識別子 |
+| status | 文字列 | オーディエンスエクスポートジョブのステータス：待機中、開始済み、完了済み |
+| exportCountTotal | 整数 | オーディエンスエクスポートジョブの可能な最大値 |
+| exportCountRealized | 整数 | ジョブを通じてエクスポートされたオーディエンスの実際の数 |
+| exportCountFailed | 整数 | ジョブを通じたエクスポート中に失敗したオーディエンスの数 |
+| exportSegmentID | 文字列 | エクスポートするオーディエンスの識別子 |
 | eventType | 文字列 | エラーイベントか情報イベントかを示すイベントタイプ：Info、Error |
 | eventCode | 文字列 | 対応する eventType の理由を示すエラーコード |
+
+eventTypes について詳しくは [ この節 ](#discarded-events) を参照してください。
 
 ## stepEvents {#stepevents-field}
 
 このカテゴリには、元のステップイベントフィールドが含まれます。この[節](../reports/sharing-legacy-fields.md)を参照してください。
+
+
+## journey_step_events で破棄されたイベントタイプのトラブルシューティング  {#discarded-events}
+
+`eventCode = 'discard'` を含むレコードに対して journey_step_events をクエリすると、複数の eventTypes が発生する場合があります。
+
+最も頻度の高い破棄 eventTypes の定義、一般的な原因およびトラブルシューティング手順を次に示します。
+
+* EXTERNAL_KEY_COMPUTATION_ERROR: システムは、イベントデータから顧客の一意の識別子（外部キー）を計算できませんでした。
+一般的な原因：イベントペイロードに顧客識別子（メール、顧客 ID など）が見つからないか、形式が正しくありません。
+トラブルシューティング：必要な識別子についてイベント設定を確認し、イベントデータが完全で正しい形式であることを確認します。
+* NO_INTERESTED_SEGMENTMEMBERSHIP_EVENT: セグメントの選定ジャーニーを受信しましたが、このセグメントに応答するジャーニーが設定されていません。
+一般的な原因：ジャーニーでセグメントをトリガーとして使用していないこと、ジャーニーがドラフト/停止状態であること、セグメント ID が一致していないこと。
+トラブルシューティング：少なくとも 1 つのジャーニーがライブで、セグメントに設定されていることを確認し、セグメント ID を検証します。
+* ジャーニーインスタンス ID_NOT_CREATE: ユーザーのジャーニーインスタンスを作成できませんでした。
+一般的な原因：重複イベント、大量のイベント、システムリソースの制約。
+トラブルシューティング：重複排除の実装、トラフィックスパイクの回避、ジャーニー設計の最適化、永続的な場合はサポートにお問い合わせください。
+* EVENT_WITH_NO_event: ジャーニーを受信しましたが、応答するアクティブなジャーニーが設定されていません。
+一般的な原因：イベント名/ID の不一致、ジャーニーが公開されていない、間違ったサンドボックス/組織、テストモード/プロファイルの不一致。
+トラブルシューティング：イベントとジャーニー設定の検証、ジャーニーステータスの確認、デバッグツールの使用。
+
+一時停止したジャーニーで発生した破棄の場合：
+
+* PAUSED_VERSION_VERSION: ジャーニーのエントリ時に発生したジャーニーを破棄します
+
+* ジャーニー_IN_PAUSED_STATE: プロファイルがジャーニーにあるときに発生した処理を破棄します
+
+これらのイベントの詳細とトラブルシューティング方法については、[ジャーニーの一時停止 ](../building-journeys/journey-pause.md#troubleshoot-profile-discards-in-paused-journeys) の節を参照してください。
+
+## その他のリソース
+
+* [ データセットクエリサンプル - ジャーニーステップイベント ](../data/datasets-query-examples.md#journey-step-event)。
+* [ クエリの例 – イベントベースのクエリ ](query-examples.md#event-based-queries)。
+* [ ビルトインスキーマディクショナリ ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja)
+

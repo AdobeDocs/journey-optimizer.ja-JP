@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: データセット, Optimizer, ユースケース
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 967e5ed75a7a3d37b37749f464a3b96e10b1f35a
+source-git-commit: c517e7faa027b5c1fe3b130f45fc7bf5020c454a
 workflow-type: tm+mt
-source-wordcount: '916'
-ht-degree: 100%
+source-wordcount: '925'
+ht-degree: 99%
 
 ---
 
@@ -205,7 +205,7 @@ _内部名：ジャーニーステップイベント（システムデータセ�
 
 関連するスキーマは、Journey Orchestration のジャーニーのイベントステップイベントです。
 
-このクエリは、特定のジャーニーのアクションラベル別に、アクション成功数の内訳を表示します。
+このクエリは、特定のジャーニーのアクションラベル別に、アクション成功数の分類を表示します。
 
 ```sql
 select
@@ -221,7 +221,7 @@ group by
     _experience.journeyOrchestration.stepEvents.actionName;   
 ```
 
-このクエリは、特定のジャーニーの nodeId および nodeLabel ごとに、エントリしたステップ数の内訳を表示します。異なるジャーニーノードに対して nodeLabel を同じにできるので、nodeId はここに含まれます。
+このクエリは、特定のジャーニーの nodeId および nodeLabel ごとに、エントリしたステップ数の分類を表示します。異なるジャーニーノードに対して nodeLabel を同じにできるので、nodeId はここに含まれます。
 
 ```sql
 select
@@ -241,7 +241,7 @@ group by
 
 また、一般的に使用されるいくつかの[ジャーニーステップイベントのクエリを実行する例](../reports/query-examples.md)も参照してください。
 
-
+[journey_step_events で破棄されたイベントタイプのトラブルシューティング ](../reports/sharing-field-list.md#discarded-events) を行う方法を説明します。
 
 ## 意思決定イベントデータセット{#ode-decisionevents}
 
@@ -356,7 +356,7 @@ _インターフェイスでの名前：ajo_entity_dataset（システムデー�
 
 関連するスキーマは AJO エンティティスキーマです。
 
-このデータセットを使用すると、マーケターが定義したメタデータにアクセスし、外部ツールでレポート視覚化するために Journey Optimizer がデータセットを書き出した際に、レポートに関するより優れたインサイトを得ることができます。messageID 属性を使用することで、メッセージフィードバックデータセットやエクスペリエンスイベントトラッキングデータセットなどの様々なデータセットをつなぎ合わせて、プロファイルレベルでの送信からトラッキングまでのメッセージ配信の詳細を取得することができます。
+このデータセットを使用すると、マーケターが定義したメタデータにアクセスし、外部ツールでレポート視覚化するために Journey Optimizer がデータセットをエクスポートした際に、レポートに関するより優れたインサイトを得ることができます。messageID 属性を使用することで、メッセージフィードバックデータセットやエクスペリエンスイベントトラッキングデータセットなどの様々なデータセットをつなぎ合わせて、プロファイルレベルでの送信からトラッキングまでのメッセージ配信の詳細を取得することができます。
 
 **重要な注意事項**
 
