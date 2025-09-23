@@ -9,7 +9,7 @@ version: Campaign Orchestration
 source-git-commit: 4d5505cbb46bdff846218bfc3657c6a6e5447af3
 workflow-type: tm+mt
 source-wordcount: '654'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 94%
 
 ![](assets/canvas-example-diagram.png){zoomable="yes"}
 
-➡️[ ビデオでオーケストレートキャンペーンを確認する ](#video-oc)
+➡️ [オーケストレーションキャンペーンをビデオで確認](#video-oc)
 
 ## コア機能
 
@@ -52,7 +52,7 @@ ht-degree: 94%
 
 >[!NOTE]
 >
->サポートされるチャネルは、[ メール ](../email/get-started-email.md)、[SMS/MMS/RCS](../sms/get-started-sms.md)、[ プッシュ通知 ](../push/get-started-push.md) です。
+>サポートされているチャネル：[メール](../email/get-started-email.md)、[SMS／MMS／RCS](../sms/get-started-sms.md)、[プッシュ通知](../push/get-started-push.md)。
 >
 >使用できるチャネルは、ライセンスモデルとアドオンによって異なります。
 
@@ -83,9 +83,9 @@ ht-degree: 94%
 * **ワークテーブル**：ワークテーブルには、トランジションによって実行されるすべての情報が含まれます。調整された各キャンペーンは、複数のワークテーブルを使用します。これらのテーブルで伝達されたデータは、調整されたキャンペーンのライフサイクルを通じて使用できます。
 
 
-## 入門ビデオ {#video-oc}
+## 概要ビデオ {#video-oc}
 
-オーケストレートキャンペーンで使用できる主要な概念と機能について説明します。
+オーケストレーションキャンペーンで使用できる主な概念と機能について説明します。
 
 
 >[!VIDEO](https://video.tv.adobe.com/v/3471538/?learn=on&enablevpops)
