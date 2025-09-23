@@ -11,10 +11,10 @@ level: Intermediate
 keywords: 式, エディター
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 248aae7b2841086ef5a0ea73936c245963e8eae2
+source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
 workflow-type: tm+mt
-source-wordcount: '804'
-ht-degree: 19%
+source-wordcount: '816'
+ht-degree: 16%
 
 ---
 
@@ -23,13 +23,13 @@ ht-degree: 19%
 >[!CONTEXTUALHELP]
 >id="lookup-aep-data"
 >title="参照のために有効にする"
->abstract="ルックアップでデータセットを有効にすると、Journey Optimizer のパーソナライゼーションおよび決定の機能でデータを活用できます。"
+>abstract="ルックアップ用にデータセットを有効にすると、Journey Optimizerのパーソナライゼーション、意思決定、Journey Orchestration の機能内でそのデータを活用できます。"
 
 >[!AVAILABILITY]
 >
 >この機能は、現在、限定提供リリースとしてすべてのお客様が利用できます。
 
-Journey Optimizerでは、パーソナライゼーションと意思決定の機能を使用して、Adobe Experience Platform データのデータを活用できます。 これを行うには、以下に示すように、参照パーソナライゼーションに必要なレコードベースのデータセットをまず参照サービスに対して有効にする必要があります。
+Journey Optimizerでは、パーソナライゼーション、意思決定、ジャーニーオーケストレーションの機能を使用して、Adobe Experience Platform データのデータを活用できます。 これを行うには、以下に示すように、参照パーソナライゼーションに必要なレコードベースのデータセットをまず参照サービスに対して有効にする必要があります。
 
 ## 必読
 
@@ -150,12 +150,10 @@ curl -s -XPATCH "https://platform.adobe.io/data/core/entity/lookup/dataSets/${DA
 
 ![](assets/aep-data-monitoring.png)
 
-<!--Ivan Mironchuk
-Note - we have a bug here currently. Will need to update screenshot once the lookup service will accurately reflect the progress.-->
-
 ## 次の手順
 
 API 呼び出しを使用した検索に対してデータセットが有効になったら、パーソナライゼーションおよび判定機能でデータ [!DNL Journey Optimizer] 使用できます。 詳しくは、次の節を参照してください。
 
 * [Adobe Experience Platform データをパーソナライゼーションに使用](../personalization/aep-data-perso.md)
 * [Adobe Experience Platform データを決定に使用](../experience-decisioning/aep-data-exd.md)
+* [Journey orchestration へのAdobe Experience Platform データの使用](../building-journeys/dataset-lookup.md)

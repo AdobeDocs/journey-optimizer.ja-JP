@@ -10,7 +10,7 @@ role: Data Engineer
 level: Intermediate
 keywords: 式, エディター
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: 6d603641a3565b1f1465fa881383f4d48611c786
+source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 83%

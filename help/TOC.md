@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
+source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
 workflow-type: tm+mt
-source-wordcount: '2954'
+source-wordcount: '2956'
 ht-degree: 99%
 
 ---
@@ -80,18 +80,19 @@ ht-degree: 99%
       + [反応](using/building-journeys/reaction-events.md)
       + [オーディエンスの選定](using/building-journeys/audience-qualification-events.md)
       + [最適化](using/building-journeys/optimize.md)
-      + [オーディエンスを読み取り](using/building-journeys/read-audience.md)
-      + [待機](using/building-journeys/wait-activity.md)
       + [条件](using/building-journeys/conditions.md)
       + [条件](using/building-journeys/condition-activity.md)
+      + [オーディエンスを読み取り](using/building-journeys/read-audience.md)
+      + [待機](using/building-journeys/wait-activity.md)
       + [コンテンツの決定](using/building-journeys/content-decision.md)
+      + [データセットのルックアップ](using/building-journeys/dataset-lookup.md)
       + [アクション](using/building-journeys/journey-action.md)
       + [ビルトインのチャネルアクション](using/building-journeys/journeys-message.md)
+      + [ジャンプ](using/building-journeys/jump.md)
+      + [プロファイルを更新](using/building-journeys/update-profiles.md)
       + [カスタムアクション](using/building-journeys/using-custom-actions.md)
       + [Adobe Campaign Standard のアクション](using/building-journeys/using-adobe-campaign-standard.md)
       + [Adobe Campaign v7／v8 のアクション](using/building-journeys/using-adobe-campaign-v7-v8.md)
-      + [ジャンプ](using/building-journeys/jump.md)
-      + [プロファイルを更新](using/building-journeys/update-profiles.md)
    + 式の作成 {#building-advanced-conditions-journeys}
       + [式の作成](/help/rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
       + [高度な式エディターの操作](using/building-journeys/expression/expressionadvanced.md)
