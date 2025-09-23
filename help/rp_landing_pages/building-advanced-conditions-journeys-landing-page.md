@@ -6,9 +6,9 @@ description: 式の作成
 redpen-status: CREATED_||_2025-08-11_20-19-10
 exl-id: 6ccd0bc7-fb40-48de-abcb-0cb1eb2c6303
 source-git-commit: a5f0b47b9af31c1ae1fd6ae3dffd4c260444297a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '246'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer には、ジャーニー内に複雑なロジックを�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 高度な式エディターの使用
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer には、ジャーニー内に複雑なロジックを�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 式の高度な構文
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer で高度な式を作成するのに必要な構文ル�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Adobe Journey Optimizer の関数
 
@@ -51,9 +51,9 @@ Adobe Journey Optimizer の関数
 
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-Journey Optimizer データセットに関するクエリの例と関連するユースケース
+Journey Optimizer データセットに関するクエリのサンプルと関連するユースケース
 
 実用的な SQL クエリの例にアクセスして、様々なユースケースの Journey Optimizer データセット間でデータを分析および管理します。
 
@@ -61,7 +61,7 @@ Journey Optimizer データセットに関するクエリの例と関連する�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 データ分析用の SQL クエリの例
 

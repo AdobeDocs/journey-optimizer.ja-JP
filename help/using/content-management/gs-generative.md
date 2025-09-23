@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: cf9c6370af9541dc0e1361eb42c942d1744a1aae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '830'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 97%
 
 Microsoft Azure OpenAI と Adobe Firefly を活用した Adobe Journey Optimizer の AI アシスタントは、テキストと画像に対するプロアクティブなコンテンツバリエーションの提案を提供します。この新しい機能を使用して、**プロンプトベースのテキストおよび画像を生成**&#x200B;できます。画像の生成は、Adobe Firefly で管理されます。
 
-AI アシスタントは、世代 **複数の言語** をサポートし、多様なグローバルオーディエンスにリーチして関与できるようにします。 AI アシスタントは次の言語で使用できます。
+AI アシスタントは、**複数言語**&#x200B;での生成をサポートし、ユーザーが多様なグローバルオーディエンスにリーチしてエンゲージできるようにします。AI アシスタントは、次の言語で使用できます。
 
 <table style="table-layout:fixed; margin-top: 0px; margin-bottom: 0px;">
   <tbody>

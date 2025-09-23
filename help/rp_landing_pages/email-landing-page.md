@@ -6,15 +6,15 @@ description: メールチャネル
 redpen-status: CREATED_||_2025-08-11_20-35-15
 exl-id: f7c61cc3-943e-40a3-94be-f3f1bd46961d
 source-git-commit: 9cb3a60fb9a2266b4723dfc1b952f1bab11b97e3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '333'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
 # メールチャネル{#section-overview}
 
-Adobe Journey Optimizer のメールチャネルを使用すると、正確でクリエイティブに、影響力のあるメールキャンペーンをデザイン、設定、配信できます。直感的な電子メールDesignerを使用してパーソナライズされたメッセージを作成する場合でも、高度な電子メールジャーニーやキャンペーンを設定する場合でも、コンプライアンスのためのオプトアウトを管理する場合でも、このチャネルは、電子メールマーケティングのあらゆる側面を 1 つの屋根の下に置きます。 まず、最適な配信品質とパーソナライゼーションのためにメールチャネルを設定し、次に、オーディエンスの共感を得られる動的なコンテンツを作成するツールを探索します。送信者のレピュテーションの管理やDMARCのコンプライアンスの達成など、高度なトピックを深く掘り下げて、メールが意図した場所に届くようにします。 シームレスな構成から効果的なデザインと戦略的配信まで、メールチャネルは、メールマーケティングを顧客エンゲージメントの信頼性の高いデータ駆動型エンジンに変換するツールを提供します。
+Adobe Journey Optimizer のメールチャネルを使用すると、正確でクリエイティブに、影響力のあるメールキャンペーンをデザイン、設定、配信できます。直感的な E メールデザイナーを使用してパーソナライズされたメッセージを作成する場合でも、高度なメールジャーニーやキャンペーンを設定する場合でも、コンプライアンスのオプトアウトを管理する場合でも、このチャネルにより、メールマーケティングのあらゆる側面が 1 か所にまとめられます。まず、最適な配信品質とパーソナライゼーションにメールチャネルを設定し、次に、オーディエンスの共感を得られる動的なコンテンツを作成するツールを探索します。送信者の評判の管理や DMARC コンプライアンスの達成などの高度なトピックについて詳しく説明し、メールが目的の場所に受信されるようにします。シームレスな構成から効果的なデザインと戦略的配信まで、メールチャネルは、メールマーケティングを顧客エンゲージメントの信頼性の高いデータ駆動型エンジンに変換するツールを提供します。
 
 メール配信を作成するには、次の手順を実行します。
 
@@ -32,7 +32,7 @@ Adobe Journey Optimizer のメールチャネルを使用すると、正確で�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 メールの作成方法
 
@@ -42,7 +42,7 @@ Adobe Journey Optimizer のメールチャネルを使用すると、正確で�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 メールコンテンツのデザインと最適化
 
@@ -52,7 +52,7 @@ Adobe Journey Optimizer を使用して、レスポンシブでパーソナラ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 メールオプトアウトの管理
 
@@ -62,7 +62,7 @@ Adobe Journey Optimizer を使用して、レスポンシブでパーソナラ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 メールチャネルの設定
 
@@ -72,7 +72,7 @@ Adobe Journey Optimizer を使用して、レスポンシブでパーソナラ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 メールの配信品質の取得
 

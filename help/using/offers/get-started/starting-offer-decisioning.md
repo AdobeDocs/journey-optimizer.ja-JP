@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 source-git-commit: d3766e14edc5dcbde4d984f24a16800cfb84e76c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '913'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 98%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] の新しい意思決定機能である意思決定は、コードベースのエクスペリエンスおよびメールチャネルで利用できるようになりました。 [詳細情報](../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../experience-decisioning/gs-experience-decisioning.md)
 
 [!DNL Journey Optimizer] を使用すると、すべてのタッチポイントをまたいで、適切なタイミングで最高のオファーとエクスペリエンスを顧客に提供できます。デザインが完了すると、パーソナライズされたオファーを使用してオーディエンスをターゲットに設定できます。
 
@@ -121,13 +121,13 @@ ht-degree: 98%
 以下のビデオでは、 意思決定管理の主な機能、アーキテクチャおよび使用例を紹介しています。
 
 
->[!VIDEO](https://video.tv.adobe.com/v/340416?quality=12&learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/326961?quality=12&learn=on)
 
 ### オファーの定義と管理 {#use-offer-decisioning}
 
 次のビデオでは、意思決定管理を使用してオファーを定義および管理し、リアルタイムの顧客データを活用する方法を示します。
 
 
->[!VIDEO](https://video.tv.adobe.com/v/340470?quality=12&learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/326841?quality=12&learn=on)
 
 

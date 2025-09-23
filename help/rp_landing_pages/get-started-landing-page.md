@@ -6,9 +6,9 @@ description: 基本を学ぶ
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
 source-git-commit: d5d6903966b0c62095bfb5a17d94c4c3f4b18379
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '384'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer は、企業が複数のチャネルをまたいでパ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Adobe Journey Optimizer の主な機能
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer の主な機能
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer アーキテクチャの概要
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer と Adobe Experience Platform を統合して、デー�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Adobe Journey Optimizer の役割と責務
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer を効果的に実装および管理するのに必要�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Adobe Journey Optimizer ユーザーインターフェイスの概要
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer インターフェイスを操作し、ジャーニー�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Adobe Journey Optimizer でのコンテンツの検索、フィルタリング、整理
 
@@ -70,11 +70,11 @@ Adobe Journey Optimizer でのコンテンツの検索、フィルタリング�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
-Adobe Journey Optimizerのガードレールと制限
+Adobe Journey Optimizer のガードレールと制限
 
-Adobe Journey Optimizerの機能を効果的に使用するための制約と推奨事項について説明します。
+Adobe Journey Optimizer 機能を効果的に使用する制約と推奨プラクティスについて説明します。
 
 [コア概念の詳細情報](../using/start/guardrails.md)
 :::
@@ -84,9 +84,9 @@ Adobe Journey Optimizerの機能を効果的に使用するための制約と推
 
 ## その他のリソース
 
-- **[中心概念の詳細](../using/start/functional-areas-redpen.md)** - Adobe Journey Optimizerの主要な機能領域と、それらが連携してカスタマージャーニーを最適化する方法について説明します。
+- **[コア概念の詳細情報](../using/start/functional-areas-redpen.md)** - Adobe Journey Optimizer の主な機能領域と、これらが連携してカスタマージャーニーを最適化する仕組みについて説明します。
 - **[Adobe Journey Optimizer：主な用語](../using/start/terminology-md-redpen.md)** - Adobe Journey Optimizer を自信を持って使用し、マーケティング戦略を効果的に実装する基本的な用語と概念について説明します。
 - **[Adobe Journey Optimizer のアクセシビリティ機能](../using/start/accessibility.md)** - すべてのユーザーの包括性を確保するアクセシビリティ機能と WCAG 標準へのコンプライアンスについて説明します。
 - **[Adobe Journey Optimizer の AI アシスタントの基本を学ぶ](../using/start/ai-assistant.md)** - AI アシスタントを活用して、Adobe Journey Optimizer 内の概念をナビゲートし、運用上のインサイトを得ます。
-- **[トラブルシューティング](../using/start/troubleshooting.md)** – 各トラブルシューティングセクションでは、よくある質問への回答と問題に対する解決策を提供します。
+- **[トラブルシューティング](../using/start/troubleshooting.md)** - 各トラブルシューティングセクションでは、よくある質問への回答と問題に対する解決策を提供します。
 

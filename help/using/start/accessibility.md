@@ -8,9 +8,9 @@ role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
 source-git-commit: 95e50386d4190d0b967d133a327c25ab1681b5c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '486'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->詳しくは、メールおよびランディングページ用のアクセシブルなコンテンツの設計に関するガイドラインを参照してください [ この節 ](../email/accessible-content.md)。
+>メールやランディングページのアクセス可能なコンテンツをデザインするガイドラインについて詳しくは、[この節](../email/accessible-content.md)を参照してください。
 
 [!DNL Adobe Journey Optimizer] のアクセシビリティ機能は、Adobe Experience Platform から継承したものです。
 
