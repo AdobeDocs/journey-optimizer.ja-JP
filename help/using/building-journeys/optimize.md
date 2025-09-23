@@ -14,7 +14,7 @@ version: Journey Orchestration
 source-git-commit: c472ce00623b810dea60dd5d9e34ca4d516447ad
 workflow-type: tm+mt
 source-wordcount: '1298'
-ht-degree: 35%
+ht-degree: 38%
 
 ---
 
@@ -166,7 +166,7 @@ ht-degree: 35%
 >[!CONTEXTUALHELP]
 >id="ajo_path_targeting_fallback"
 >title="フォールバックパスとは"
->abstract="フォールバックパスを使用すると、ターゲティングルールが選定されていない場合に、オーディエンスが代替パスを入力できます。 </br> このオプションを選択しない場合、ターゲティングルールに適合しないオーディエンスは、フォールバックパスに入力せずにジャーニーを終了します。"
+>abstract="フォールバックパスを使用すると、ターゲティングルールが選定されていない場合に、オーディエンスはフォールバックパスにエントリできます。</br>このオプションを選択しない場合、ターゲティングルールに該当しないオーディエンスは、フォールバックパスにエントリせずにジャーニーを終了します。"
 
 ターゲティングルールを使用すると、特定のオーディエンスセグメント <!-- depending on profile attributes or contextual attributes--> に基づいて、ジャーニーパスの 1 つにエントリする資格を顧客が得るために満たす必要がある特定のルールまたは資格を決定できます。
 
