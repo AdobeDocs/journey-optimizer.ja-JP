@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 4ce48f7929aa218908e8a1e25c37410c6ded6bde
+source-git-commit: 5da036a6b352eecaf6a14f5d21bf5391fc5ed3fa
 workflow-type: tm+mt
-source-wordcount: '2708'
-ht-degree: 97%
+source-wordcount: '2817'
+ht-degree: 91%
 
 ---
 
@@ -52,10 +52,9 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 
 ### メールガードレール {#message-guardrails}
 
-次のガードレールが[メールチャネル](../../rp_landing_pages/email-landing-page.md)に適用されます。
+<!--The following guardrails apply to the [email channel](../../rp_landing_pages/email-landing-page.md):-->
 
-* [!DNL Journey Optimizer] では、メールに添付ファイルを追加することはできません。
-* [!DNL Adobe Journey Optimizer] と他の製品（[!DNL Adobe Campaign] や [!DNL Adobe Marketo Engage] など）から、同じ送信ドメインを使用してメッセージを送信することはできません。
+[!DNL Adobe Journey Optimizer] と他の製品（[!DNL Adobe Campaign] や [!DNL Adobe Marketo Engage] など）から、同じ送信ドメインを使用してメールメッセージを送信することはできません。
 
 ### SMS ガードレール {#sms-guardrails}
 
@@ -65,15 +64,21 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 * 現在、MMS ではメッセージのフィードバック同期を使用できません。
 * 同意の管理は、MMS の SMS チャネルレベルで動作します。
 
-### Web チャネルのガードレール {#web-guardrails}
+### インバウンドチャネルガードレール {#inbound-guardrails}
 
-[!DNL Journey Optimizer] [web キャンペーン](../web/get-started-web.md)は、以前の他のチャネルで関与したことのない新しいプロファイルをターゲットにします。これにより、エンゲージメント可能なプロファイルの総数が増え、ユーザーが購入した、エンゲージメント可能なプロファイルの契約上の数を超えると、コストに影響する可能性があります。
+* Journey Optimizerでは、1 秒あたり 5,000 件のインバウンドリクエストのピーク量をサポートしています。 このガードレールは、すべてのインバウンドリクエストに適用されます。これは、Journey Optimizerでサポートされているインバウンドチャネル（[web](../web/get-started-web.md)、[ アプリ内 ](../in-app/get-started-in-app.md)、[ コードベースのエクスペリエンス ](../code-based/get-started-code-based.md)、[ コンテンツカード ](../../rp_landing_pages/content-card-landing-page.md)）のいずれかから発生できます。
 
-各パッケージのライセンス指標は、[Journey Optimizer の製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}ページにリストされています。
+  Journey Optimizer インバウンドチャネルは、他のチャネルでこれまで関わってこなかった可能性のある新しいプロファイルをターゲットにします。 これにより、エンゲージメント可能なプロファイルの総数が増え、ユーザーが購入した、エンゲージメント可能なプロファイルの契約上の数を超えると、コストに影響する可能性があります。
 
-### コードベースチャネルのガードレール {#code-based-guardrails}
+  各パッケージのライセンス指標は、[Journey Optimizer の製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}ページにリストされています。
 
-[!DNL Journey Optimizer] でコードベースのエクスペリエンスアクションを使用して、アプリケーションで使用できるコードコンテンツペイロードを配信するには、[このページ](../code-based/code-based-prerequisites.md)で説明されている前提条件に従います。
+* Journey Optimizerでは、一度に最大 500 個のアクティブなインバウンドアクションをサポートします。 これらのインバウンドアクション（[web](../web/get-started-web.md)、[ アプリ内 ](../in-app/get-started-in-app.md)、[ コードベースのエクスペリエンス ](../code-based/get-started-code-based.md)、[ コンテンツカード ](../../rp_landing_pages/content-card-landing-page.md)）は、ライブキャンペーンの一部である場合や、ライブジャーニーで使用されるノードである場合にカウントされます。 この数に達したら、新しいキャンペーンを開始する前に、インバウンドアクションを使用している古いキャンペーンやジャーニーを非アクティブ化する必要があります。
+
+* [ で ](../code-based/get-started-code-based.md) コードベースのエクスペリエンス [!DNL Journey Optimizer] アクションを使用し、アプリケーションで使用できるコードコンテンツペイロードを配信するには、[ このページ ](../code-based/code-based-prerequisites.md) に記載されている前提条件に従ってください。
+
+### トランザクションメッセージガードレール {#transactional-message-guardrails}
+
+Journey Optimizerは、キャンペーンで 1 秒あたり 500 トランザクションメッセージのピーク量をサポートします。
 
 ## ランディングページガードレール {#lp-guardrails}
 
@@ -199,7 +204,7 @@ Adobe Experience Platform では、API ベースのプロファイルの作成�
 
 ### 追加の識別子 {#supplemental}
 
-ジャーニーでの追加識別子の使用には、特定のガードレールが適用されます。 [ このページ ](../building-journeys/supplemental-identifier.md#guardrails) に一覧表示されます
+ジャーニーでの追加識別子の使用には、特定のガードレールが適用されます。 詳しくは、[このページ](../building-journeys/supplemental-identifier.md#guardrails)を参照してください。
 
 ### 式エディター {#expression-editor}
 
