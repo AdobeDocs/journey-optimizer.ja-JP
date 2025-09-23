@@ -12,9 +12,9 @@ badge: label="限定提供" type="Informative"
 hidefromtoc: true
 hide: true
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: 45ebae048a748429a1918326526f3756a3e93c4c
+source-git-commit: 60a4fb6b88fe94119bcbd209a5f893e12142c0f0
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1262'
 ht-degree: 4%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 4%
 >id="ajo_lp_form_connection"
 >title="使用するエンドポイントを選択"
 >abstract="フォーム送信時にデータが送信されるストリーミングエンドポイントを定義する。"
->additional-url="https://experienceleague.adobe.com/ja/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="HTTP API ストリーミング接続の作成"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="HTTP API ストリーミング接続の作成"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_dataset"
@@ -69,7 +69,7 @@ ht-degree: 4%
 
    >[!NOTE]
    >
-   >ストリーミングソース接続の作成について詳しくは、[Experience Platform ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"} を参照してください。
+   >ストリーミングソース接続の作成について詳しくは、[Experience Platform ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"} を参照してください。
 
 1. フォームにリンクする **[!UICONTROL データセット]** を選択します。 ここで、フォームの応答が保存され、反映されます。 入力して特定のデータセットを検索するか、リストから選択できます。
 
@@ -91,7 +91,7 @@ ht-degree: 4%
 >id="ajo_lp_form_preset"
 >title="プリセットを選択"
 >abstract="使用する接続を含む事前定義済みプリセットと、フォームの事前定義済みデータセットを選択します。"
->additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="フォームプリセットの作成"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="フォームプリセットの作成"
 
 フォームを作成するには、次の手順に従います。
 
@@ -156,6 +156,32 @@ ht-degree: 4%
   >ルール内で定義された条件が順番に読み取られます。
 
   ![](assets/lp_create-form-thank-you-conditional.png){width=40%}
+
+## 公開済みフォームを編集する {#edit-form}
+
+フォームが公開された後も、編集は可能です。 次の手順に従います。
+
+1. [ フォームリスト ](#access-forms) にアクセスし、公開されたフォームを選択します。
+
+1. 「**[!UICONTROL フォームを編集]**」ボタンをクリックします。
+
+   ![](assets/lp_edit-form-button.png){width=90%}
+
+1. ドラフト ステータスで、新しいバージョンのフォームが作成されます。 **[!UICONTROL ドラフトバージョンを作成]** をクリックします。
+
+1. 必要に応じてフォームを更新し、「**[!UICONTROL 保存]** をクリックします。 フォームのステータスが **[!UICONTROL 公開済み（ドラフト）]** になります。
+
+   * 更新されたバージョンを公開するまで、現在のバージョンのステータスは引き続き **[!UICONTROL 公開済み]** になります。
+
+   * 更新されたバージョンのステータスが **[!UICONTROL ドラフト]** になります。
+
+1. フォームの概要に戻ると、フォームの 2 つのバージョン間を移動できます。
+
+   ![](assets/lp_published-with-draft-form.png){width=70%}
+
+1. 「**[!UICONTROL ドラフト]**」セクションでは、ドラフトを公開または破棄すると共に、フォームの詳細またはコンテンツを編集できます。
+
+   ![](assets/lp_edit-draft-form.png){width=75%}
 
 ## ランディングページでのフォームの活用 {#leverage-form-in-lp}
 
