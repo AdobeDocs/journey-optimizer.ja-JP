@@ -8,26 +8,15 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: コンテンツ, 実験, 複数, オーディエンス, 処理
-hide: true
-hidefromtoc: true
-source-git-commit: ddeb3512fbe1d1de86456fe2c3ccd2b3805b5684
+exl-id: 40a57083-d7b1-416b-af87-4b603b83052d
+source-git-commit: 61ae9196f699c3b6aa1d9a5bb2259d36aaebc0e3
 workflow-type: tm+mt
-source-wordcount: '1122'
+source-wordcount: '1095'
 ht-degree: 5%
 
 ---
 
 # 実験の追跡 {#monitor}
-
->[!BEGINSHADEBOX]
-
-* [Journey Optimizer Experimentation Acceleratorの概要](experiment-accelerator.md)
-* [Journey Optimizer Experimentation Acceleratorを使用した AI でのデータ使用](experiment-accelerator-security.md)
-* [Journey Optimizer Experimentation Accelerator ベストプラクティス](experiment-accelerator-best-practices.md)
-* **[実験の監視](experiment-accelerator-monitor.md)**
-* [実験指標](experiment-accelerator-metrics.md)
-
->[!ENDSHADEBOX]
 
 **[!UICONTROL 実験]** タブは、Adobe Journey OptimizerとAdobe Targetからのテストのトラッキングと分析を一元化します。 すべての実験を表示し、KPI を確認し、フィルターまたは検索して特定のテストを見つけることができます。
 
@@ -50,7 +39,7 @@ ht-degree: 5%
 
 ## 実験の監視 {#monitor-page}
 
-実験にアクセスして監視するには、「実験 **&#x200B;**」タブから実験のリストから以前に設定した実験を選択するか、詳細メニューを使用して **[!UICONTROL 詳細を表示]** または **[!UICONTROL ソースで開く]** します。
+実験にアクセスして監視するには、「実験 ****」タブから実験のリストから以前に設定した実験を選択するか、詳細メニューを使用して **[!UICONTROL 詳細を表示]** または **[!UICONTROL ソースで開く]** します。
 
 ![](assets/experiment-accelerator-1.png)
 
@@ -158,7 +147,7 @@ ht-degree: 5%
 
    **[!DNL Adobe Target]** から実行される実験の場合、提案された変更は、代わりに **[!DNL Adobe Target]** の実験ワークフローに読み込まれます。
 
-   ➡️ [ 詳しくは、Adobe Target ドキュメントを参照してください ](https://experienceleague.adobe.com/ja/docs/target/using/activities/abtest/test-ab)
+   ➡️ [ 詳しくは、Adobe Target ドキュメントを参照してください ](https://experienceleague.adobe.com/en/docs/target/using/activities/abtest/test-ab)
 
 1. 実験ビューでは、Journey Optimizer Experimentation Acceleratorで表示されるのと同じ AI **[!UICONTROL 実験の機会]** にアクセスできます。
 

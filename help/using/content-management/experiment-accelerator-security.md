@@ -8,26 +8,15 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: コンテンツ, 実験, 複数, オーディエンス, 処理
-hide: true
-hidefromtoc: true
-source-git-commit: ddeb3512fbe1d1de86456fe2c3ccd2b3805b5684
+exl-id: b7c00cdc-430c-40a2-90c9-6dd891d2563b
+source-git-commit: 61ae9196f699c3b6aa1d9a5bb2259d36aaebc0e3
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '439'
 ht-degree: 1%
 
 ---
 
 # Journey Optimizer Experimentation Acceleratorを使用した AI でのデータ使用{#experiment-accelerator-security}
-
->[!BEGINSHADEBOX]
-
-* [Journey Optimizer Experimentation Acceleratorの概要](experiment-accelerator.md)
-* [Journey Optimizer Experimentation Acceleratorを使用した AI でのデータ使用](experiment-accelerator-security.md)
-* [Journey Optimizer Experimentation Accelerator ベストプラクティス](experiment-accelerator-best-practices.md)
-* [実験の監視](experiment-accelerator-monitor.md)
-* [実験指標](experiment-accelerator-metrics.md)
-
->[!ENDSHADEBOX]
 
 **Adobe Journey Optimizer Journey Optimizer Experimentation Accelerator** を使用すると、インサイトを自動的に見つけ、実験および実験プログラムを改善する機会を推奨できます。 ソリューションでは、AI と機械学習を活用して、これらの推奨事項を提供します。 このステートメントでは、顧客データが **Journey Optimizer Experimentation Accelerator** でどのように使用されるかを明確にします。
 

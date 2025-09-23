@@ -8,27 +8,15 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: コンテンツ, 実験, 複数, オーディエンス, 処理
-hide: true
-hidefromtoc: true
 exl-id: 74868625-f4ea-44f9-ae2a-8e5fdd22a081
-source-git-commit: 70fce6fae4db58c72496945c50155dbd0b4986b4
+source-git-commit: 61ae9196f699c3b6aa1d9a5bb2259d36aaebc0e3
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 11%
+source-wordcount: '347'
+ht-degree: 12%
 
 ---
 
 # 指標 {#experiment-accelerator-metrics}
-
->[!BEGINSHADEBOX]
-
-* [Journey Optimizer Experimentation Acceleratorの概要](experiment-accelerator.md)
-* [Journey Optimizer Experimentation Acceleratorを使用した AI でのデータ使用](experiment-accelerator-security.md)
-* [Journey Optimizer Experimentation Accelerator ベストプラクティス](experiment-accelerator-best-practices.md)
-* [実験の監視](experiment-accelerator-monitor.md)
-* **[実験指標](experiment-accelerator-metrics.md)**
-
->[!ENDSHADEBOX]
 
 **[!UICONTROL 指標]** ページには、Journey Optimizer実験と Target 実験の成功指標が 1 か所で表示され、パフォーマンスのモニタリング、比較、より深いインサイトを得ることができます。
 

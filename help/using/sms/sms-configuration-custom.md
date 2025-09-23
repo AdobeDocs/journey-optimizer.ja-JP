@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
-workflow-type: ht
-source-wordcount: '1081'
-ht-degree: 100%
+source-git-commit: 71b4c2b711858731cfd0f627a5ff97fe9eb817a2
+workflow-type: tm+mt
+source-wordcount: '1119'
+ht-degree: 96%
 
 ---
 
@@ -65,6 +65,10 @@ ht-degree: 100%
    * **[!UICONTROL 認証タイプ]**：認証タイプを選択し、選択した認証方法に基づいて[対応するフィールドに入力](#auth-options)します。
 
      ![](assets/sms-byop.png)
+
+1. **[!UICONTROL mTLS サポート]** オプションを有効にします。これにより、安全な接続を確立する前に、クライアントとサーバーの両方が互いを認証するようにします。
+
+   mTLS のみを使用するには、「**[!UICONTROL 認証タイプ]**」ドロップダウンから「**[!UICONTROL 認証なし]**」を選択し、「**[!UICONTROL mTLS サポート]**」を有効にします。
 
 1. 「**[!UICONTROL ヘッダー]**」セクションで、「**[!UICONTROL 新しいパラメーターを追加]**」をクリックし、外部サービスに送信されるリクエストメッセージの HTTP ヘッダーを指定します。
 

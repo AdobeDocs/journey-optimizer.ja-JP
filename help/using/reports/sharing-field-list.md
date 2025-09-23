@@ -8,10 +8,10 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: c517e7faa027b5c1fe3b130f45fc7bf5020c454a
+source-git-commit: 11b2141db8d0e6dd44987d5f7941430fbe3e48f8
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 54%
+source-wordcount: '601'
+ht-degree: 53%
 
 ---
 
@@ -77,11 +77,11 @@ eventTypes について詳しくは [ この節 ](#discarded-events) を参照�
 このカテゴリには、元のステップイベントフィールドが含まれます。この[節](../reports/sharing-legacy-fields.md)を参照してください。
 
 
-## journey_step_events で破棄されたイベントタイプのトラブルシューティング  {#discarded-events}
+## ジャーニーステップイベントで破棄されたイベントタイプのトラブルシューティング  {#discarded-events}
 
-`eventCode = 'discard'` を含むレコードに対して journey_step_events をクエリすると、複数の eventTypes が発生する場合があります。
+`eventCode = 'discard'` を含むレコードに対してジャーニーステップイベントのクエリを実行すると、複数の eventTypes が発生する場合があります。
 
-最も頻度の高い破棄 eventTypes の定義、一般的な原因およびトラブルシューティング手順を次に示します。
+最も頻繁な破棄 `eventTypes` ードの定義、一般的な原因、トラブルシューティング手順を次に示します。
 
 * EXTERNAL_KEY_COMPUTATION_ERROR: システムは、イベントデータから顧客の一意の識別子（外部キー）を計算できませんでした。
 一般的な原因：イベントペイロードに顧客識別子（メール、顧客 ID など）が見つからないか、形式が正しくありません。

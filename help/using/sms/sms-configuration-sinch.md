@@ -7,7 +7,7 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
-source-git-commit: 699ad8f66688539ded31e9f361c3fa312fec1069
+source-git-commit: 7068a3ba62eae585a5e7d5a682dfd211fa5a55bd
 workflow-type: tm+mt
 source-wordcount: '1146'
 ht-degree: 91%
@@ -57,7 +57,7 @@ Journey Optimizer で SMS メッセージと MMS を送信するように Sinch 
    | オプトアウトメッセージ | オプトアウトメッセージとして自動的に送信されるカスタム応答を入力します。 |
    | ヘルプキーワード | **ヘルプメッセージ**&#x200B;を自動的にトリガーするデフォルトまたはカスタムのキーワードを入力します。複数のキーワードの場合は、コンマ区切り値を使用します。 |
    | ヘルプメッセージ | **ヘルプメッセージ**&#x200B;として自動的に送信されるカスタム応答を入力します。 |
-   | ダブルオプトインキーワード | ダブルオプトイン処理をトリガーするキーワードを入力します。ユーザープロファイルが存在しない場合は、確認が成功すると作成されます。複数のキーワードの場合は、コンマ区切り値を使用します。[詳しくは、SMS ダブルオプトインを参照してください](https://video.tv.adobe.com/v/3440273/?learn=on&captions=jpn)。 |
+   | ダブルオプトインキーワード | ダブルオプトイン処理をトリガーするキーワードを入力します。ユーザープロファイルが存在しない場合は、確認が成功すると作成されます。複数のキーワードの場合は、コンマ区切り値を使用します。[詳しくは、SMS ダブルオプトインを参照してください](https://video.tv.adobe.com/v/3427129/?learn=on)。 |
    | ダブルオプトインメッセージ | ダブルオプトインの確認に応じて自動的に送信されるカスタム応答を入力します。 |
    | インバウンド番号 | ユニークなインバウンド番号またはショートコードを追加します。これにより、それぞれに独自のインバウンド番号またはショートコードを持つ異なるサンドボックス間で同じ API 資格情報を使用できます。 |
    | カスタム受信キーワード | 特定のアクションに対して一意のキーワードを定義します（割引、オファー、登録など）。これらのキーワードはプロファイル内の属性として取得され、保存されるので、ユーザーはジャーニー内でストリーミングセグメントの選定をトリガーし、カスタマイズされた応答やアクションを提供できます。 |
@@ -125,6 +125,30 @@ API 資格情報を作成し設定したら、MMS メッセージ用のチャネ
 RCS（リッチ通信サービス）メッセージは、Sinch を通じて Journey Optimizer でサポートされ、ロゴや送信者名などのブランド要素を含む検証済みのビジネスプロファイルを使用して、基本的なメッセージを送信できます。
 
 プロファイルのデバイスが RCS をサポートしていない場合や、一時的に RCS 経由で未到達の場合に、メッセージは SMS に自動的にフォールバックします。
+
+<!--
+### Basic RCS Messages
+
+>[!AVAILABILITY]
+>
+> Basic RCS messages is only available upon Adobe RCS add-on offering.
+
+1. **Set up your branded RCS agent**
+
+    Create a branded RCS agent in the Sinch Dashboard. [Learn more on branded RCS agent](https://community.sinch.com/t5/RCS/Getting-Started-with-RCS-using-Conversation-API/ta-p/17844)
+
+1. **Set up your [Custom API credentials](sms-configuration-custom.md)**
+    
+    Once your RCS agent is approved, you need to set up your Sinch API credentials, which include your access key, secret, and service plan ID. These credentials will be used by Journey Optimizer to authenticate and send messages through Sinch's platform.
+
+1. **Create a [channel configuration](sms-configuration-surface.md) for your RCS messages**
+
+    Configure a channel surface in Journey Optimizer by linking your Sinch credentials and defining the messaging parameters. This setup enables you to compose and send RCS messages from Journey Optimizer.
+
+1. **Create and personalize your [SMS message](../sms/create-sms.md)**
+
+    Your messages automatically falls back to SMS when the profile's device does not support RCS or is temporarily unreachable via RCS.
+-->
 
 ### RCS マルチメディア メッセージ
 

@@ -5,10 +5,10 @@ title: 調整されたキャンペーンに関するよくある質問
 description: Journey Optimizer の調整されたキャンペーンに関するよくある質問
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 0a80d8df834c48b6a5e6f4fafae89006b64bca11
+source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
 workflow-type: tm+mt
 source-wordcount: '1430'
-ht-degree: 14%
+ht-degree: 15%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 14%
 
 Adobe Journey Optimizer の調整されたキャンペーンに関するよくある質問を以下に示します。
 
-さらに詳細が必要ですか？このページの下部にあるフィードバックオプションを使用して質問を提起するか、[Adobe Journey Optimizer コミュニティ ](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"} とつながってください。
+さらに詳細が必要ですか？このページの下部にあるフィードバックオプションを使用して質問を提起するか、[Adobe Journey Optimizer コミュニティ ](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=en){target="_blank"} とつながってください。
 
 +++ Campaign オーケストレーションとは
 
@@ -177,13 +177,13 @@ Campaign Orchestration では、アドホックセグメント化を「ライブ
 
 +++ Campaign オーケストレーションは、バッチを介して読み込まれたデータにのみアクセスしますか。それとも、リアルタイムに更新されたテーブル（Analytics データなど）に対してクエリを実行することもできます。
 
-Journey Optimizer Campaign オーケストレーションは、まずリレーショナルスキーマに基づいてアドホッククエリを作成できます。 リレーショナルスキーマは、現時点ではバッチソースのみをサポートします。 さらに、任意のタイプのAdobe Experience Platform Audience からのオーディエンスの読み取りをサポートしています。
+Journey Optimizer Campaign オーケストレーションは、まず、モデルベースのスキーマに基づいてアドホッククエリを作成できます。 モデルベースのスキーマは、現時点ではバッチソースのみをサポートします。 さらに、任意のタイプのAdobe Experience Platform Audience からのオーディエンスの読み取りをサポートしています。
 
 +++
 
 +++ 調整されたキャンペーンは意思決定をサポートしますか？
 
-はい。決定では、オーケストレートキャンペーンのリレーショナルデータを使用できます。 リレーショナルスキーマを XDM スキーマに接続すると、XDM データを意思決定で使用できます。
+はい。決定では、オーケストレートキャンペーンのリレーショナルデータを使用できます。 モデルベースのスキーマを XDM スキーマに接続すると、XDM データを意思決定に使用できるようになります。
 
 +++
 
@@ -260,4 +260,4 @@ Adobe Experience Platform プロファイルに対して送信する際、受信
 * [調整されたキャンペーンのガードレールと制限](../orchestrated/guardrails.md)
 * [Orchestrated キャンペーンでのスキーマとデータセットの基本を学ぶ](../orchestrated/gs-schemas.md)
 * [最初のオーケストレートキャンペーンを作成](../orchestrated/gs-campaign-creation.md)
-* [Journey Optimizerの製品説明 ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}
+* [Journey Optimizer 製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}

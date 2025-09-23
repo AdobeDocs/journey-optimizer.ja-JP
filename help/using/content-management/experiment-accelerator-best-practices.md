@@ -8,26 +8,15 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: コンテンツ, 実験, 複数, オーディエンス, 処理
-hide: true
-hidefromtoc: true
-source-git-commit: ddeb3512fbe1d1de86456fe2c3ccd2b3805b5684
+exl-id: 001e05db-e343-4a95-9694-274a8c50d08c
+source-git-commit: 61ae9196f699c3b6aa1d9a5bb2259d36aaebc0e3
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '742'
 ht-degree: 3%
 
 ---
 
 # Journey Optimizer Experimentation Accelerator ベストプラクティス {#content-experiment-best-practices}
-
->[!BEGINSHADEBOX]
-
-* [Journey Optimizer Experimentation Acceleratorの概要](experiment-accelerator.md)
-* **[Journey Optimizer Experimentation Acceleratorのベストプラクティス](experiment-accelerator-best-practices.md)**
-* [Journey Optimizer Experimentation Acceleratorのプライバシー、セキュリティ、ガバナンス](experiment-accelerator-security.md)
-* [実験の監視](experiment-accelerator-monitor.md)
-* [実験指標](experiment-accelerator-metrics.md)
-
->[!ENDSHADEBOX]
 
 ## A/B テストとは
 
@@ -98,11 +87,11 @@ A/B テストは、複数のバージョンの対象を比較して、定義さ�
 優れた実験は、単に勝利を生み出すだけでなく、明確で実用的な学習を生み出します。
 検索対象は次のとおりです。
 
-&check; **統計的信頼性**：バリアント間の違いが偶然によるものである可能性は低いです。
-&check; **目標との整合性**：メイン指標は、ビジネス目標に対する有意義な進捗を反映しています。
-&check; **セカンダリ上の影響**：関連する指標に大きな悪影響はありません。
-&check; **スケーラビリティ**：結果は、将来の決定を知らせたり、他の領域に一般化したりできます。
-&check; **Clarity**：結果の原因は、合理的に分離され、理解されています。
+&amp;check; **統計的信頼性**：バリアント間の違いが偶然によるものである可能性は低いです。
+&amp;check; **目標との整合性**：メイン指標は、ビジネス目標に対する有意義な進捗を反映しています。
+&amp;check; **セカンダリ上の影響**：関連する指標に大きな悪影響はありません。
+&amp;check; **スケーラビリティ**：結果は、将来の決定を知らせたり、他の領域に一般化したりできます。
+&amp;check; **Clarity**：結果の原因は、合理的に分離され、理解されています。
 
 実験は、「最良の」バージョンを見つけることだけでなく、テストとイテレーションを通じて知識を構築することです。 適切に行われると、実験でインサイトが明らかになり、よりスマートな決定、より良いユーザーエクスペリエンス、より良い結果が導かれます。
 

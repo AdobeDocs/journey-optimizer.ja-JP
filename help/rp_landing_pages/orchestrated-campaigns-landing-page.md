@@ -5,22 +5,22 @@ title: 調整されたキャンペーン
 description: 調整されたキャンペーン
 redpen-status: CREATED_||_2025-08-11_20-27-33
 exl-id: 31f3668f-99fb-4388-a379-4979c63b7b3a
-source-git-commit: 8205d248d986cdc1a2262705c58524c2434265f5
+source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
 workflow-type: tm+mt
 source-wordcount: '263'
-ht-degree: 77%
+ht-degree: 89%
 
 ---
 
 # 調整されたキャンペーン{#section-overview}
 
-Adobe Journey Optimizer の調整されたキャンペーンを使用すると、適切なメッセージを適切なオーディエンスに大規模に配信する、高度なマルチステップマーケティングキャンペーンをデザインおよび実行できます。リアルタイムジャーニーとは異なり、これらのバッチキャンペーンはオーディエンスセグメントとプロファイルを一緒に処理するため、スケジュールに沿ったデータドリブン型マーケティングイニシアチブに最適です。オーディエンスのセグメント化、トランジション、ワークテーブルなどのアクティビティが連携してシームレスなワークフローを作成する方法を確認します。 この過程で、オーケストレートキャンペーンとジャーニーの違い、パーソナライゼーション用のデータの設定、キャンペーンの作成と開始、パフォーマンスの最適化を、すべて直感的なビジュアルキャンバスで学ぶことができます。 マーケティングオートメーションを次のレベルに引き上げる準備をしましょう。
+Adobe Journey Optimizer の調整されたキャンペーンを使用すると、適切なメッセージを適切なオーディエンスに大規模に配信する、高度なマルチステップマーケティングキャンペーンをデザインおよび実行できます。リアルタイムジャーニーとは異なり、これらのバッチキャンペーンはオーディエンスセグメントとプロファイルを一緒に処理するため、スケジュールに沿ったデータドリブン型マーケティングイニシアチブに最適です。オーディエンスのセグメント化、トランジション、ワークテーブルなどのアクティビティを連携させて、シームレスなワークフローを作成する方法について説明します。この過程で、オーケストレーションキャンペーンとジャーニーの違い、パーソナライゼーションのデータの設定、キャンペーンの作成と開始、パフォーマンスの最適化について、直感的なビジュアルキャンバスを使って説明します。マーケティングオートメーションを次のレベルに引き上げる準備をしましょう。
 
 ## 調整されたキャンペーンの概要
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 調整されたキャンペーンの概要
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer の調整されたキャンペーンのコア機能、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 ガードレールと制限
 
@@ -40,17 +40,17 @@ Adobe Journey Optimizer の調整されたキャンペーンのコア機能、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 調整されたキャンペーンのデータ設定
 
-リレーショナルスキーマ、データセット、チャネルを設定して、調整されたキャンペーンのデータを準備します。
+モデルベースのスキーマ、データセット、チャネルを設定して、調整されたキャンペーンのデータへの対応を確保します。
 
 [データ設定について](data-configuration-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 調整されたキャンペーンの起動と管理
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer の調整されたキャンペーンのコア機能、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 調整されたキャンペーンのデータベースのクエリ
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer の調整されたキャンペーンのコア機能、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 キャンペーンアクティビティの包括的なガイド
 
@@ -84,4 +84,4 @@ Adobe Journey Optimizer の調整されたキャンペーンのコア機能、�
 ## その他のリソース
 
 - **[よくある質問](../using/orchestrated/orchestrated-campaigns-faq.md)** - Adobe Journey Optimizer オーケストレートキャンペーンに関するよくある質問（FAQ）を紹介します。
-.
+

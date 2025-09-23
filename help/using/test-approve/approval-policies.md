@@ -5,10 +5,10 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 36136c8fce1b6bd9113d95787afbcff5a7605ddf
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 100%
+source-wordcount: '539'
+ht-degree: 97%
 
 ---
 
@@ -50,6 +50,8 @@ ht-degree: 100%
 1. ポリシーの「**[!UICONTROL 名前]**」と「**[!UICONTROL 説明]**」を入力します。
 
 1. ポリシーを「**[!UICONTROL ジャーニー]**」に適用するか「**[!UICONTROL キャンペーン]**」に適用するかを選択します。
+
+1. **[!UICONTROL 自己承認をブロック]** を有効にして、ジャーニー/キャンペーン作成者が独自のオブジェクトを承認できないようにします。
 
    ![](assets/policy_create_2.png)
 

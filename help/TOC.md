@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c472ce00623b810dea60dd5d9e34ca4d516447ad
+source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
 workflow-type: tm+mt
-source-wordcount: '2948'
-ht-degree: 98%
+source-wordcount: '2954'
+ht-degree: 99%
 
 ---
 
@@ -235,8 +235,8 @@ ht-degree: 98%
       + [よくある質問](using/orchestrated/orchestrated-campaigns-faq.md)
       + データ設定 {#data-configuration}
          + [データ設定](/help/rp_landing_pages/data-configuration-landing-page.md)
-         + リレーショナルスキーマとデータセットの管理 {#schemas-datasets}
-            + [リレーショナルスキーマとデータセットの管理](/help/rp_landing_pages/schemas-datasets-landing-page.md)
+         + モデルベースのスキーマとデータセットの管理 {#schemas-datasets}
+            + [モデルベースのスキーマとデータセットの管理](/help/rp_landing_pages/schemas-datasets-landing-page.md)
             + [スキーマとデータセットの基本を学ぶ](using/orchestrated/gs-schemas.md)
             + [手動スキーマ](using/orchestrated/manual-schema.md)
             + [ファイルアップロードスキーマ](using/orchestrated/file-upload-schema.md)
@@ -334,7 +334,7 @@ ht-degree: 98%
             + [インラインのスタイル属性の追加](using/email/inline-styling.md)
             + [カスタム CSS を追加](using/email/custom-css.md)
             + [ダークモードコンテンツの管理](using/email/dark-mode.md)
-         + [アクセシブルなコンテンツの作成](using/email/accessible-content.md)
+         + [アクセス可能なコンテンツの作成](using/email/accessible-content.md)
       + [メールオプトアウトの管理](using/email/email-opt-out.md)
       + メールチャネルの設定 {#configure-email}
          + [メールチャネルの設定](/help/rp_landing_pages/configure-email-landing-page.md)
@@ -547,14 +547,15 @@ ht-degree: 98%
       + [コンテンツ実験](/help/rp_landing_pages/content-experiment-landing-page.md)
       + [コンテンツ実験の基本を学ぶ](using/content-management/get-started-experiment.md)
       + [コンテンツ実験を作成](using/content-management/content-experiment.md)
-      + 実験加速器 {#experiment}
+      + 実験アクセラレーター {#experiment}
          + [実験アクセラレーターの基本を学ぶ](using/content-management/experiment-accelerator.md)
-         + [Experimentation Acceleratorを使用した AI でのデータ使用](using/content-management/experiment-accelerator-security.md)
+         + [実験アクセラレーターを使用した AI でのデータ使用](using/content-management/experiment-accelerator-security.md)
          + [実験アクセラレーターのベストプラクティス](using/content-management/experiment-accelerator-best-practices.md)
-         + [実験加速器モニター](using/content-management/experiment-accelerator-monitor.md)
+         + [実験アクセラレーターの監視](using/content-management/experiment-accelerator-monitor.md)
          + [実験アクセラレーターの指標](using/content-management/experiment-accelerator-metrics.md)
       + テクニカルノート {#technotes}
          + [テクニカルノート](/help/rp_landing_pages/technotes-landing-page.md)
+         + [A/B テストとマルチアームバンディットの比較](using/content-management/mab-vs-ab.md)
          + [統計計算について](using/content-management/experiment-calculations.md)
          + [実験レポートの統計計算について](using/content-management/experiment-report-calculations.md)
 + オーディエンス、プロファイル、ID {#audiences-profiles-identities}

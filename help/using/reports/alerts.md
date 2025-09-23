@@ -8,10 +8,10 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 13623d28ba7b852f7267b5f800f2c9a3afda4a62
+source-git-commit: 21adeb5128b22bf7b2e7e6c2cff9c31159741cee
 workflow-type: tm+mt
-source-wordcount: '1216'
-ht-degree: 80%
+source-wordcount: '1313'
+ht-degree: 65%
 
 ---
 
@@ -19,8 +19,7 @@ ht-degree: 80%
 
 ジャーニーとキャンペーンを作成する場合は、「**アラート**」ボタンを使用してエラーを確認および解決してから、実行または公開します。
 
-* ジャーニーをトラブルシューティングする方法について詳しくは、[このページ](../building-journeys/troubleshooting.md)を参照してください。
-* キャンペーンをレビューする方法について詳しくは、[このページ](../campaigns/review-activate-campaign.md)を参照してください。
+
 
 専用の&#x200B;**[!UICONTROL アラート]**&#x200B;メニューから、このページで詳しく説明されているように、[!DNL Adobe Journey Optimizer] システムアラートを登録することもできます。
 
@@ -42,18 +41,34 @@ ht-degree: 80%
 
    * [ジャーニーカスタムアクションエラー](#alert-custom-actions)アラート
    * [オーディエンスを読み取りトリガーに失敗しました](#alert-read-audiences)アラート
+<!--DOCAC-13465   * the [Profile Discard Rate Exceeded](#alert-discard-rate) alert
+   * the [Custom Action Error Rate Exceeded](#alert-custom-action-error-rate) alert
+   * the [Profile Error Rate Exceeded](#alert-profile-error-rate) alert-->
 
 * チャネル設定に固有のアラート：
 
    * [AJO ドメイン DNS レコードがありません](#alert-dns-record-missing)アラート
-  <!--* the [AJO channel configuration failure](#alert-channel-config-failure) alert
-   * the [AJO domain certificates renewal unsuccessful](#alert-certificates-renewal) alert-->
+   * [AJO チャネル設定エラー ](#alert-channel-config-failure) アラート
+     <!--* the [AJO domain certificates renewal unsuccessful](#alert-certificates-renewal) alert-->
 
 ## アラートの配信を登録 {#subscribe-alerts}
 
-1. 「**[!UICONTROL 登録]**」オプションを選択すると、ユーザーインターフェイスから各アラートを個別に登録できます。
+予期しない動作が発生した場合や、操作の特定の条件（システムがしきい値に達した場合に問題が発生する可能性があるなど）に達した場合、その条件を登録している組織内のユーザーにアラート通知が配信されます。
 
-   ![](assets/alert-subscribe.png){width=80%}
+ユーザーインターフェイスから各アラートを個別に、または **[!UICONTROL アラート]** メンからグローバルに登録できます（[ グローバル登録 ](#global-subscription) を参照） <!--DOCAC-13465, or unitary for a specific journey (see [Unitary subscription](#unitary-subscription))-->。
+
+登録者の環境設定に基づいて、アラートはメールで送信されるか、ユーザーインターフェイスの右上隅にある Journey Optimizer 通知センター内（アプリ内通知）で直接送信されます。[!DNL Adobe Experience Cloud] **[!UICONTROL 環境設定]**&#x200B;で、これらのアラートを受信する方法を選択します。[詳細情報](../start/user-interface.md#in-product-alerts)
+
+アラートが解決されると、登録者に「解決済み」通知が届きます。
+
+
+### グローバル購読 {#global-subscription}
+
+すべてのジャーニーとキャンペーンでアラートを購読/購読解除するには、次の手順に従います。
+
+1. 左側のメニューから **[!UICONTROL アラート]** ダッシュボードを参照し、購読するアラートの **[!UICONTROL 購読]** オプションを選択します。
+
+   ![ アラートの購読 ](assets/alert-subscribe.png){width=80%}
 
    >[!NOTE]
    >
@@ -61,37 +76,28 @@ ht-degree: 80%
 
 1. **[!UICONTROL 登録解除]**&#x200B;する場合も同じ方法を使用します。
 
-1. また、[I/O イベント通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=ja){target="_blank"}を通じてアラートを購読することもできます。アラートルールは、様々な登録パッケージに整理されます。特定の Journey Optimizer アラートに対応するイベント登録については、[以下](#journey-alerts)で詳しく説明します。
+[I/O イベント通知 ](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=ja){target="_blank"} を通じて登録することもできます。 アラートルールは、様々な登録パッケージに整理されます。特定の Journey Optimizer アラートに対応するイベント登録については、[以下](#journey-alerts)で詳しく説明します。
 
-1. 予期しない動作が発生した場合や、操作の特定の条件（システムがしきい値に達した場合に問題が発生する可能性があるなど）に達した場合、その条件を登録している組織内のユーザーにアラート通知が配信されます。
+<!--DOCAC-13465
+### Unitary subscription {#unitary-subscription}
 
-登録者の環境設定に基づいて、アラートはメールで送信されるか、ユーザーインターフェイスの右上隅にある Journey Optimizer 通知センター内（アプリ内通知）で直接送信されます。[!DNL Adobe Experience Cloud] **[!UICONTROL 環境設定]**&#x200B;で、これらのアラートを受信する方法を選択します。[詳細情報](../start/user-interface.md#in-product-alerts)
+To subscribe/unsubscribe to an alert for a specific journey, follow these steps:
 
->[!NOTE]
->
->デフォルトでは、アプリ内アラートのみが有効になっています。
+1. Browse to the journey inventory and select the **[!UICONTROL Subscribe to alerts]** option for a specific journey.
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=ja#enable-email-alerts){target="_blank"}.-->
+      ![Subscribing to an alert for a specific journey](assets/subscribe-journey-alert.png){width=80%}
 
-アラートが解決されると、登録者に「解決済み」通知が届きます。
+1. Choose the alert(s). The following alerts are available: [Profile Discard Rate Exceeded](#alert-discard-rate), [Custom Action Error Rate Exceeded](#alert-custom-action-error-rate), and [Profile Error Rate Exceeded](#alert-profile-error-rate).
+   
+1. To unsubscribe to an alert, unselect it from the same screen.
 
-## アラートの管理 {#manage-alerts}
+1. Click **[!UICONTROL Save]** to confirm.
+-->
 
-アラートを管理するには、項目を選択し、「**[!UICONTROL その他のアクション]**」ボタンを使用します。
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
-![](assets/alert-more-actions.png){width=80%}
 
-デフォルトでは、すべてのアラートが有効になっています。アラートを無効にするには、**[!UICONTROL その他のアクション]**&#x200B;メニューから「**[!UICONTROL アラートを無効にする]**」オプションを選択します。このアラートのすべての登録者は、関連する通知を受け取らなくなります。
 
-アラートを登録しているユーザーのリストを表示するには、「**[!UICONTROL アラート登録者を管理]**」を選択します。その他の登録者を追加するには、空白フィールドを使用します。
-
-![](assets/alert-subscribers.png){width=80%}
-
-考えられるアラートステータスを以下に示します。
-
-* **[!UICONTROL 有効]** - アラートは有効で、現在、トリガー条件を監視しています。
-* **[!UICONTROL 無効]** - アラートは無効で、現在、トリガー条件を監視していません。このアラートに関する通知は受信されません。
-* **[!UICONTROL トリガー]** - アラートのトリガー条件は、現在、満たされています。
 
 ## ジャーニーアラート {#journey-alerts}
 
@@ -99,9 +105,12 @@ ht-degree: 80%
 >
 >Adobe Journey Optimizer に特定のアラートは、**ライブ**&#x200B;ジャーニーにのみ適用されます。 テストモードのジャーニーでは、アラートはトリガーされません。
 
+
 ### ジャーニーカスタムアクションエラー {#alert-custom-actions}
 
 このアラートは、カスタムアクションが失敗した場合に警告を表示します。過去 5 分間に特定のカスタムアクションで 1％以上のエラーが発生した場合、エラーが発生したとみなします。これは 30 秒ごとに評価されます。
+
+アラートの名前をクリックして、アラートの詳細と設定を確認します。
 
 ![](assets/alerts-custom-action.png)
 
@@ -144,6 +153,26 @@ ht-degree: 80%
 ![](assets/alert-troubleshooting-0.png)
 
 ![](assets/alert-troubleshooting-1.png)
+
+<!--DOCAC-13465
+
+### Profile Discard Rate Exceeded {#alert-discard-rate}
+
+This alert warns you if the ratio of profile discards to entered profiles over the last 5 minutes exceeded threshold. The defaut threshold is set to 20% but you can [define a custom theshold](#custom-threshold).
+
+Click the name of the alert to check the alert details and configuration.
+
+
+### Custom Action Error Rate Exceeded {#alert-custom-action-error-rate}
+
+This alert warns you if the ratio of custom action errors to successful HTTP calls over the last 5 minutes exceeded threshold. The defaut threshold is set to 20% but you can [define a custom theshold](#custom-threshold).
+
+### Profile Error Rate Exceeded {#alert-profile-error-rate}
+
+This alert warns you if the ratio of custom action errors to successful HTTP calls over the last 5 minutes exceeded threshold. The defaut threshold is set to 20% but you can [define a custom theshold](#custom-threshold).
+
+Click the name of the alert to check the alert details and configuration.
+-->
 
 ## アラートの設定 {#configuration-alerts}
 
@@ -220,7 +249,61 @@ ht-degree: 80%
 
 This alert warns you if a domain certificate (CDN, tracking URL) renewal failed for a specific Journey Optimizer subdomain.-->
 
+## アラートの管理 {#manage-alerts}
+
+### アラートの編集
+
+アラートの行をクリックすると、そのアラートの詳細を確認できます。 名前、ステータス、通知チャネルが左側のパネルに表示されます。
+<!--DOCAC-13465
+For Journey alerts, use the **[!UICONTROL More actions]** button to edit them. You can then define a [custom theshold](#custom-threshold) for these alerts.-->
+
+![](assets/alert-more-actions.png){width=60%}
+
+<!--DOCAC-13465
+#### Define a custom threshold {#custom-threshold}
+
+You can set thresholds for the [Journey alerts](#journey-alerts). The threshold alerts above default to 20%. 
+
+To change the threshold:
+
+1. Browse to the **Alerts** screen
+1. Click the **[!UICONTROL More actions]** button of the alert to update
+1. Enter the new threshold and confirm. The new threshold applies to **all** journeys
 
 
+![](assets/alert-threshold.png){width=60%}
+
+>[!CAUTION]
+>
+>The threshold levels are global across all journeys and cannot be individually modified per journey.
+-->
+
+### アラートの無効化
+
+デフォルトでは、すべてのアラートが有効になっています。アラートを無効にするには、「**[!UICONTROL アラートを無効にする]**」オプションを選択します。このアラートのすべてのサブスクライバーは、関連する通知を受信しなくなります。
 
 
+### アラートステータス
+
+考えられるアラートステータスを以下に示します。
+
+* **[!UICONTROL 有効]** - アラートは有効で、現在、トリガー条件を監視しています。
+* **[!UICONTROL 無効]** - アラートは無効で、現在、トリガー条件を監視していません。このアラートに関する通知は受信されません。
+* **[!UICONTROL トリガー]** - アラートのトリガー条件は、現在、満たされています。
+
+
+### サブスクライバの表示と更新 {#manage-subscribers}
+
+**[!UICONTROL アラート購読者を管理]** を選択して、アラートを購読しているユーザーのリストを表示します。
+
+![](assets/alert-subscribers.png){width=80%}
+
+サブスクライバーを追加するには、メールをコンマで区切って入力し、「**[!UICONTROL 更新]**」を選択します。
+
+購読者を削除するには、現在の購読者からメールアドレスを削除して「**[!UICONTROL 更新]**」を選択します。
+
+## その他のリソース {#additional-resources-alerts}
+
+
+* ジャーニーをトラブルシューティングする方法について詳しくは、[このページ](../building-journeys/troubleshooting.md)を参照してください。
+* キャンペーンをレビューする方法について詳しくは、[このページ](../campaigns/review-activate-campaign.md)を参照してください。

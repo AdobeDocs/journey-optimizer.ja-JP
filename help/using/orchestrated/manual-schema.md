@@ -2,24 +2,23 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 設定の手順
-description: ユーザーインターフェイスを通じてリレーショナルスキーマを直接作成する方法について説明します。
+description: ユーザーインターフェイスを介してモデルベースのスキーマを直接作成する方法を説明します。
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 5eb60e7c551796829c25a407ff45fbfec4bb76dd
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 98%
+source-wordcount: '899'
+ht-degree: 87%
 
 ---
 
+# 手動モデルベースのスキーマの設定 {#manual-schema}
 
-# 手動のリレーショナルスキーマの設定 {#manual-schema}
-
-リレーショナルスキーマは、ユーザーインターフェイスを通じて直接作成できるので、属性、プライマリキー、バージョン管理フィールド、関係の詳細な設定が可能になります。
+モデルベースのスキーマはユーザーインターフェイスを通じて直接作成でき、属性、プライマリキー、バージョンフィールド、関係の詳細な設定を可能にします。
 
 次の例では、**ロイヤルティメンバーシップ**&#x200B;スキーマを手動で定義して、調整されたキャンペーンに必要な構造を示します。
 
-1. Adobe Experience Platform インターフェイスを使用して、[リレーショナルスキーマを手動で作成します](#schema)。
+1. Adobe Experience Platform インターフェイスを使用して [ 手動でモデルベースのスキーマを作成する ](#schema) を参照してください。
 
 1. 顧客 ID、メンバーシップレベル、ステータスフィールドなどの[属性を追加します](#schema-attributes)。
 
@@ -31,7 +30,7 @@ ht-degree: 98%
 
 ## スキーマの作成 {#schema}
 
-まず、Adobe Experience Platform で新しいリレーショナルスキーマを手動で作成します。このプロセスにより、名前や動作など、スキーマ構造をゼロから定義できます。
+まず、Adobe Experience Platformで新しいモデルベースのスキーマを手動で作成します。 このプロセスにより、名前や動作など、スキーマ構造をゼロから定義できます。
 
 1. Adobe Experience Platform にログインします。
 
@@ -39,7 +38,7 @@ ht-degree: 98%
 
 1. 「**[!UICONTROL スキーマを作成]**」をクリックします。
 
-1. **[!UICONTROL スキーマタイプ]**&#x200B;として「**リレーショナル**」を選択します。
+1. **[!UICONTROL スキーマタイプ]** として **モデルベース** を選択します。
 
    ![](assets/admin_schema_1.png){zoomable="yes"}
 
@@ -59,7 +58,7 @@ ht-degree: 98%
 
 ターゲティングに使用するスキーマには、関連付けられた ID 名前空間を持つタイプ `String` の ID フィールドを 1 つ以上含める必要があります。これにより、Adobe Journey Optimizer のターゲティングおよび ID 解決機能との互換性が確保されます。
 
-+++Adobe Experience Platform でリレーショナルスキーマを作成する場合、次の機能がサポートされます。
++++Adobe Experience Platformでモデルベースのスキーマを作成する場合、次の機能がサポートされます
 
 * **ENUM**\
   ENUM フィールドは、DDL ベースと手動スキーマ作成の両方でサポートされているので、許可される値の固定セットを使用して属性を定義できます。
@@ -68,7 +67,7 @@ ht-degree: 98%
   アクセス制御や使用制限などのデータガバナンスポリシーの適用に、スキーマフィールドレベルでラベル付けがサポートされています。詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja)を参照してください。
 
 * **複合キー**\
-  複合プライマリキーは、リレーショナルスキーマ定義でサポートされるので、複数のフィールドと共に使用してレコードを一意に識別できます。
+  モデルベースのスキーマ定義では複合プライマリキーがサポートされるので、複数のフィールドを使用してレコードを一意に識別できます。
 
 +++
 
@@ -149,9 +148,15 @@ ht-degree: 98%
 
 ## 調整されたキャンペーン用のデータセットを有効にする {#enable}
 
+>[!CONTEXTUALHELP]
+>id="ajo_oc_enable_dataset_for_oc"
+>title="調整されたキャンペーン"
+>abstract="データセットを作成したら、調整されたキャンペーン用に明示的に有効にする必要があります。 この手順により、データセットを Adobe Journey Optimizer 内でリアルタイムのオーケストレーションとパーソナライゼーションに使用できるようになります。"
+
+
 データセットを作成したら、調整されたキャンペーン用に明示的に有効にする必要があります。 この手順により、データセットを Adobe Journey Optimizer 内でリアルタイムのオーケストレーションとパーソナライゼーションに使用できるようになります。
 
-データセットでオーケストレーションされたAdobe Developer拡張機能を検証または有効にするには [&#128279;](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset/#tag/DatasetEnablement)Campaign のドキュメント &rbrace; を参照してください。
+データセットでオーケストレーションされたAdobe Developer拡張機能を検証または有効にするには [](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset/#tag/DatasetEnablement)Campaign のドキュメント } を参照してください。
 
 1. **[!UICONTROL データセット]**&#x200B;リストでデータセットを見つけます。
 
