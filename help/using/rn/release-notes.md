@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8ef9b3b886e9856c6c2dac55e33a7ca6ce86b414
+source-git-commit: deafaf331edb1df9a3417a0e85d641a62fa682d2
 workflow-type: tm+mt
-source-wordcount: '3097'
+source-wordcount: '3111'
 ht-degree: 66%
 
 ---
@@ -237,7 +237,7 @@ ht-degree: 66%
 
 * **承認ポリシーの権限**
 承認ポリシーを作成または設定する際に、ジャーニー/キャンペーン作成者が独自のオブジェクトを承認できないようにするオプションを追加しました。
-
+<!-->
 * **新しいジャーニーアラート**\
   ジャーニーには、事前設定済みの新しいアラートを使用できます。
 
@@ -246,6 +246,7 @@ ht-degree: 66%
    * プロファイルエラー率の超過：過去 5 分に入力されたプロファイルに対する、エラーのプロファイルの割合が、しきい値を超えました。
 
   しきい値を変更し、個々のジャーニーレベルのアラートに登録するか、グローバルに登録するかを指定できます。
+-->
 
 * **カスタム認証でネストされた JSON ボディパラメーターがサポートされるようになりました**\
   カスタムアクションにカスタム認証を設定する場合、ネストされた JSON オブジェクト（`bodyParams` 内のサブオブジェクトなど）がサポートされるようになりました。
@@ -258,9 +259,9 @@ ht-degree: 66%
 * **SMS チャネルの mTLS サポート**
 カスタム SMS プロバイダーを設定する際に、相互 TLS （mTLS）認証を有効にするオプションが追加されました。この場合、安全な接続が確立される前に、クライアントとサーバーの両方が相互の ID を確認する必要があります。
 
-<!--* **Model-based Schemas**  
-  For a clearer and more intuitive experience, Relational Schemas are now referred to as Model-based Schemas in Orchestrated campaigns.
--->
+
+* **モデルベースのスキーマ**\
+  リレーショナルスキーマは、現在、調整されたキャンペーンではモデルベースのスキーマと呼ばれています。
 
 * **ジャーニーでのデータセットルックアップのサポート**\
   ジャーニーの新しいアクティビティ **データセットルックアップ** を使用すると、実行時にAdobe Experience Platform レコードデータセットからデータを動的に取得できます。 この機能を活用すると、プロファイルまたはイベントペイロードに存在しない可能性のあるデータにアクセスできるので、顧客とのインタラクションが関連性が高く、タイムリーなものとなります。
