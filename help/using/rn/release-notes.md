@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: deafaf331edb1df9a3417a0e85d641a62fa682d2
+source-git-commit: 0d58a5075e6459ee7d46192f7bc1c9ee0b8b70bf
 workflow-type: tm+mt
-source-wordcount: '3111'
-ht-degree: 66%
+source-wordcount: '3032'
+ht-degree: 68%
 
 ---
 
@@ -237,15 +237,15 @@ ht-degree: 66%
 
 * **承認ポリシーの権限**
 承認ポリシーを作成または設定する際に、ジャーニー/キャンペーン作成者が独自のオブジェクトを承認できないようにするオプションを追加しました。
-<!-->
-* **新しいジャーニーアラート**\
-  ジャーニーには、事前設定済みの新しいアラートを使用できます。
+<!--
+* **New Journey Alerts**  
+  New pre-configured alerts are available for journeys:
 
-   * プロファイル破棄率の超過：過去 5 分に入力されたプロファイルに対するプロファイル破棄の割合が、しきい値を超えました。
-   * カスタムアクションエラー率を超えました：過去 5 分の、成功した HTTP 呼び出しに対するカスタムアクションエラーの割合が、しきい値を超えました。
-   * プロファイルエラー率の超過：過去 5 分に入力されたプロファイルに対する、エラーのプロファイルの割合が、しきい値を超えました。
+  * Profile Discard Rate Exceeded: Ratio of profile discards to entered profiles over the last 5 mins exceeded threshold.  
+  * Custom Action Error Rate Exceeded: Ratio of custom action errors to successful HTTP calls over the last 5 mins exceeded threshold.  
+  * Profile Error Rate Exceeded: Ratio of profiles-in-error to entered profiles over the last 5 mins exceeded threshold.
 
-  しきい値を変更し、個々のジャーニーレベルのアラートに登録するか、グローバルに登録するかを指定できます。
+  You can modify threshold values and subscribe to individual journey-level alerts vs globally.
 -->
 
 * **カスタム認証でネストされた JSON ボディパラメーターがサポートされるようになりました**\
