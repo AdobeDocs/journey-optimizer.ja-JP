@@ -8,7 +8,7 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 21adeb5128b22bf7b2e7e6c2cff9c31159741cee
+source-git-commit: 34649ab411823f1aa09d390d23484697e80763c5
 workflow-type: tm+mt
 source-wordcount: '1313'
 ht-degree: 65%
@@ -55,7 +55,7 @@ ht-degree: 65%
 
 予期しない動作が発生した場合や、操作の特定の条件（システムがしきい値に達した場合に問題が発生する可能性があるなど）に達した場合、その条件を登録している組織内のユーザーにアラート通知が配信されます。
 
-ユーザーインターフェイスから各アラートを個別に、または **[!UICONTROL アラート]** メンからグローバルに登録できます（[ グローバル登録 ](#global-subscription) を参照） <!--DOCAC-13465, or unitary for a specific journey (see [Unitary subscription](#unitary-subscription))-->。
+ユーザーインターフェイスから各アラートを個別に、**[!UICONTROL アラート]** メニューからグローバルに登録できます（[ グローバル登録 ](#global-subscription) を参照） <!--DOCAC-13465, or unitary for a specific journey (see [Unitary subscription](#unitary-subscription))-->。
 
 登録者の環境設定に基づいて、アラートはメールで送信されるか、ユーザーインターフェイスの右上隅にある Journey Optimizer 通知センター内（アプリ内通知）で直接送信されます。[!DNL Adobe Experience Cloud] **[!UICONTROL 環境設定]**&#x200B;で、これらのアラートを受信する方法を選択します。[詳細情報](../start/user-interface.md#in-product-alerts)
 
@@ -94,7 +94,7 @@ To subscribe/unsubscribe to an alert for a specific journey, follow these steps:
 1. Click **[!UICONTROL Save]** to confirm.
 -->
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=ja#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 
 

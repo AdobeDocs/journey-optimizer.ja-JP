@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 1969a6bcea8627ea48c304f632b21bc41278b1bd
+source-git-commit: 34649ab411823f1aa09d390d23484697e80763c5
 workflow-type: tm+mt
 source-wordcount: '1803'
 ht-degree: 43%
@@ -191,7 +191,7 @@ ht-degree: 43%
 
   この機能は現在、すべてのユーザーに対する限定提供として使用できます。
 
-* **チャネル設定のモニタリングアラート** - カスタムサブドメインデリゲーションタイプを使用したメールチャネル設定エラーが発生した場合に、メールまたは Journey Optimizer 通知センターでシステムアラートを受信するように登録できるようになりました。[詳細情報](../reports/alerts.md#alert-dns-record-missing)
+* **チャネル設定のモニタリングアラート** - カスタムサブドメインデリゲーションタイプを使用したメールチャネル設定エラーが発生した場合に、メールまたは Journey Optimizer 通知センターでシステムアラートを受信するように登録できるようになりました。[詳細情報](../reports/alerts.md#alert-channel-config-failure)
 
 
 
