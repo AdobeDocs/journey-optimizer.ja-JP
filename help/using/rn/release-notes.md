@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c708f33079da6d3e739dcec86870623fad40a69b
+source-git-commit: 56fa96e7da6352fb8e0c658ced8950c011f65c9e
 workflow-type: tm+mt
-source-wordcount: '1806'
+source-wordcount: '1794'
 ht-degree: 43%
 
 ---
@@ -197,9 +197,7 @@ ht-degree: 43%
 
 ### 準備中 {#sept-25-9-soon}
 
-以下の機能および改善点は、今後日内に提供される予定です。
-
-**以下の内容は予告なく変更される場合があります**。 これらの機能と改善点が実稼動環境にリリースされた際に、リンク、画面、更新されたドキュメントが公開されます。
+今後数日以内に、次の機能および機能強化のリリースが予定されています。 **情報は変更される場合があります**。 更新されたリンク、画面およびドキュメントは、これらの更新が実稼動環境で公開されると共有されます。
 
 <table>
 <thead>
@@ -276,7 +274,7 @@ ht-degree: 43%
 <p>特定のデータセットに基づいて、ニーズに合わせてカスタマイズされたカスタムフォームを作成、デザイン、管理します。その後、ランディングページでこれらのフォームを活用して、各フォームに定義されたデータセットに選択したプロファイル属性を追加できます。</p>
 <p>この機能は、限定提供です。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
 <p><img src="assets/do-not-localize/forms.gif"/></p>
-<p>詳しくは、<a href="../landing-pages/lp-forms.md">詳細なドキュメント</a>を参照してください</p>
+<!--p>For more information, refer to the <a href="../landing-pages/lp-forms.md">detailed documentation</a></p-->
 </td>
 </tr>
 </tbody>
@@ -310,11 +308,15 @@ ht-degree: 43%
 * **新しいジャーニーアラート**\
   ジャーニーには、事前設定済みの新しいアラートを使用できます。
 
-   * [ プロファイル破棄率を超過 ](../reports/alerts.md#profile-discard-rate-exceeded)：過去 5 分に入力されたプロファイルに対するプロファイル破棄の割合が、しきい値を超えました。
-   * [ カスタムアクションエラー率を超えています ](../reports/alerts.md#custom-action-error-rate-exceeded)：過去 5 分の、成功した HTTP 呼び出しに対するカスタムアクションエラーの割合が、しきい値を超えています。
-   * [ プロファイルエラー率を超過 ](../reports/alerts.md#profile-error-rate-exceeded)：過去 5 分に入力されたプロファイルに対する、エラーのプロファイルの割合が、しきい値を超えました。
+   * プロファイル破棄率の超過：過去 5 分に入力されたプロファイルに対するプロファイル破棄の割合が、しきい値を超えました。
+   * カスタムアクションエラー率を超えました：過去 5 分の、成功した HTTP 呼び出しに対するカスタムアクションエラーの割合が、しきい値を超えました。
+   * プロファイルエラー率の超過：過去 5 分に入力されたプロファイルに対する、エラーのプロファイルの割合が、しきい値を超えました。
+<!--
+  * [Profile Discard Rate Exceeded](../reports/alerts.md#profile-discard-rate-exceeded): Ratio of profile discards to entered profiles over the last 5 mins exceeded threshold.  
+  * [Custom Action Error Rate Exceeded](../reports/alerts.md#custom-action-error-rate-exceeded): Ratio of custom action errors to successful HTTP calls over the last 5 mins exceeded threshold.  
+  * [Profile Error Rate Exceeded](../reports/alerts.md#profile-error-rate-exceeded): Ratio of profiles-in-error to entered profiles over the last 5 mins exceeded threshold.-->
 
-  しきい値を変更し、個々のジャーニーレベルのアラートに登録するか、グローバルに登録するかを指定できます。
+しきい値を変更し、個々のジャーニーレベルのアラートに登録するか、グローバルに登録するかを指定できます。
 
 
 * **ワンクリック登録解除 URL でのカスタム属性のサポート**\
