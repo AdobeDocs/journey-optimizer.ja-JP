@@ -12,9 +12,9 @@ badge: label="限定提供" type="Informative"
 hidefromtoc: true
 hide: true
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: 7cbc4c7964d3fe9b79cbbff3917216f624286dba
+source-git-commit: 58c9fb91bac95e343ddaee93eca24181b80c3894
 workflow-type: tm+mt
-source-wordcount: '1520'
+source-wordcount: '1575'
 ht-degree: 3%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 3%
 >id="ajo_lp_form_connection"
 >title="使用するエンドポイントを選択"
 >abstract="フォーム送信時にデータが送信されるストリーミングエンドポイントを定義する。"
->additional-url="https://experienceleague.adobe.com/ja/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="HTTP API ストリーミング接続の作成"
+>additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="HTTP API ストリーミング接続の作成"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_dataset"
@@ -69,7 +69,7 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >ストリーミングソース接続の作成について詳しくは、[Experience Platform ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"} を参照してください。
+   >ストリーミングソース接続の作成について詳しくは、[Experience Platform ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"} を参照してください。
 
 1. フォームにリンクする **[!UICONTROL データセット]** を選択します。 ここで、フォームの応答が保存され、反映されます。 入力して特定のデータセットを検索するか、リストから選択できます。
 
@@ -93,7 +93,7 @@ ht-degree: 3%
 >id="ajo_lp_form_preset"
 >title="プリセットを選択"
 >abstract="使用する接続を含む事前定義済みプリセットと、フォームの事前定義済みデータセットを選択します。"
->additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="フォームプリセットの作成"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="フォームプリセットの作成"
 
 フォームを作成するには、次の手順に従います。
 
@@ -107,39 +107,57 @@ ht-degree: 3%
 
 1. 「**[!UICONTROL 作成]**」をクリックします。フォームデザイナーが開き、構造とコンテンツ [ コンポーネント ](../email/content-components.md#add-content-components) を追加してコンテンツを作成できます。 [ テキスト ](../email/content-components.md#text) コンポーネントと **[!UICONTROL フィールド]** コンポーネントを使用できます。
 
-1. フォームに特定のフィールドを追加するには、構造をキャンバスにドラッグ&amp;ドロップし、**[!UICONTROL フィールド]** コンポーネントを内部にドラッグします。<!--**[!UICONTROL Select field attribute]** or **[!UICONTROL Add custom field]**.-->
+1. プロファイルデータと属性を取得するには、フォームに特定のフィールドを追加します。 [詳細情報](#define-fields)
 
-   ![](assets/lp_create-form-field.png)
+1. これらのフィールドを設定およびデザインします。 [詳細情報](#configure-fields)
 
-   次に、次のいずれかのオプションを選択します。
+1. **[!UICONTROL スタイル]** パネルを使用して、必要に応じてフォームのレイアウト、スタイル設定および寸法を調整できます。 [ 詳しくは、スタイル設定を参照してください ](../email/get-started-email-style.md)
 
-   >[!BEGINTABS]
+1. すべてのフィールドを設定したら、「保存して閉じる **[!UICONTROL をクリックし]** す。
 
-   >[!TAB  フィールド属性を選択 ]
+1. 「ありがとうございます」ページを設定します。 [詳細情報](#thank-you-page)
 
-   このオプションを使用して、フォームにリンクされたデータセットスキーマに基づいて属性を選択します。
+1. **[!UICONTROL 公開]** ランディングページで選択できるフォームです。
 
-   >[!NOTE]
-   >
-   >データセットは、フォーム用に選択したプリセットで定義されます。 [詳細情報](#create-form-preset)
+### 特定のフィールドの定義 {#define-fields}
 
-   ![](assets/lp_select-field-attribute.png){width=100%}
+フォームに特定のフィールドを追加するには、構造をキャンバスにドラッグ&amp;ドロップし、**[!UICONTROL フィールド]** コンポーネントを内部にドラッグします。<!--**[!UICONTROL Select field attribute]** or **[!UICONTROL Add custom field]**.-->
 
-   例えば、メールとユーザー ID を設定できます。 ユーザーがこれらのフィールドに入力すると、入力した情報は選択したデータセットに保存されます。
+![](assets/lp_create-form-field.png)
 
-   ![](assets/lp_create-form-field-attributes.png){width=55%}
+次に、次のいずれかのオプションを選択します。
 
-   収集したデータをプロファイルにマッピングするには、プロファイル ID フィールドを選択します。 ID フィールドは、属性リストで **[!UICONTROL 必須]** とマークされます。これにより、フィルターを適用できます。
+>[!BEGINTABS]
 
-   ![](assets/lp_create-form-required-attributes.png){width=65%}
+>[!TAB  フィールド属性を選択 ]
 
-   >[!TAB  カスタムフィールドを追加 ]
+このオプションを使用して、フォームにリンクされたデータセットスキーマに基づいて属性を選択します。
 
-   このオプションを使用すると、リンクされたデータセット内のフィールドにマッピングすることなく、フリーフィールドを定義するだけです。
+>[!NOTE]
+>
+>データセットは、フォーム用に選択したプリセットで定義されます。 [詳細情報](#create-form-preset)
 
-   ![](assets/lp_create-form-custom-field.png){width=85%}
+![](assets/lp_select-field-attribute.png){width=100%}
 
-   >[!ENDTABS]
+例えば、メールとユーザー ID を設定できます。 ユーザーがこれらのフィールドに入力すると、入力した情報は選択したデータセットに保存されます。
+
+![](assets/lp_create-form-field-attributes.png){width=55%}
+
+収集したデータをプロファイルにマッピングするには、プロファイル ID フィールドを選択します。 ID フィールドは、属性リストで **[!UICONTROL 必須]** とマークされます。これにより、フィルターを適用できます。
+
+![](assets/lp_create-form-required-attributes.png){width=65%}
+
+>[!TAB  カスタムフィールドを追加 ]
+
+このオプションを使用すると、リンクされたデータセット内のフィールドにマッピングすることなく、フリーフィールドを定義するだけです。
+
+![](assets/lp_create-form-custom-field.png){width=85%}
+
+>[!ENDTABS]
+
+### フィールドの設定とデザイン {#configure-fields}
+
+フィールド属性を選択するか、カスタムフィールドを追加したら、フォームの送信時に、その詳細と動作をさらに調整できます。
 
 1. 右側の **[!UICONTROL コンテンツ]** タブの **[!UICONTROL フィールドの詳細]** セクションでは、必要に応じて次の要素を指定できます。
 
@@ -166,14 +184,6 @@ ht-degree: 3%
    * 「**[!UICONTROL 定型入力を有効にする]**」を選択すると、ユーザーの入力を汎用文字に置き換えることができます。 *9* は任意の数字を意味し、*a* は任意の文字を意味し、*は任意の数字または文字を意味します。<!--Not sure how you define that in the form-->
 
    ![](assets/lp_create-form-field-behaviors.png){width=75%}
-
-1. **[!UICONTROL スタイル]** パネルを使用して、必要に応じてフォームのレイアウト、スタイル設定および寸法を調整できます。 [ 詳しくは、スタイル設定を参照してください ](../email/get-started-email-style.md)
-
-1. すべてのフィールドを設定したら、「保存して閉じる **[!UICONTROL をクリックし]** す。
-
-1. 「ありがとうございます」ページを設定します。 [詳細情報](#thank-you-page)
-
-1. **[!UICONTROL 公開]** ランディングページで選択できるフォームです。
 
 ### 「ありがとうございます」ページの設定 {#thank-you-page}
 
