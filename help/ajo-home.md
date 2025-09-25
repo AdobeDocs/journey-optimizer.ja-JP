@@ -5,7 +5,7 @@ title: Adobe Journey Optimizer ドキュメント
 description: Adobe Journey Optimizer ドキュメント
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: a73bf80fa61c6ce7c9be054e013e9a59ef3d9ba8
+source-git-commit: 65b994873e2e8202de20876c2c83868f145e2d90
 workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 85%
@@ -16,7 +16,7 @@ ht-degree: 85%
 
 Adobe Journey Optimizer を使用すると、チームはメールや SMS などのチャネル全体で、シームレスでパーソナライズされたカスタマーエクスペリエンスをデザインし、提供できるようになります。キャンペーンオーケストレーション、データ管理、意思決定の高度なツールを組み合わせることで、顧客のニーズにリアルタイムに適応するジャーニーを作成できます。このドキュメントは、最新機能や統合の探索から、オーディエンスの管理、ジャーニーの設定、パフォーマンスの分析の方法の学習に至るまで、プラットフォーム操作を習得するロードマップとして参照できます。マーケター、データアナリスト、キャンペーンマネージャーのどれに該当する場合でも、自信を持って目標を達成するのに役立つ、ステップバイステップのガイド、ベストプラクティス、リソースを確認できます。
 
-## 新機能 {#section-overview}
+## 新機能 {#section-new}
 
 Journey Optimizer 製品とドキュメントの最新の機能強化の概要について説明します。機能、改善点、修正の包括的なリストについては、詳細な[リリースノート](../using/rn/release-notes.md)を参照してください。
 
@@ -45,11 +45,11 @@ Adobe Journey Optimizer の Adobe Express 統合により、コンテンツの�
 >[!ENDTABS]
 
 
-## 探索を開始
+## 探索を開始 {#section-explore}
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 最新のリリースノート
 
@@ -59,7 +59,7 @@ Adobe Journey Optimizerの最新のリリースノート、新機能、改善点
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 基本を学ぶ
 
@@ -69,7 +69,7 @@ Adobe Journey Optimizerの最新のリリースノート、新機能、改善点
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 包括的なジャーニーガイド
 
@@ -79,7 +79,7 @@ Adobe Journey Optimizerの最新のリリースノート、新機能、改善点
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 キャンペーンの理解と管理
 
@@ -89,7 +89,7 @@ Adobe Journey Optimizerの最新のリリースノート、新機能、改善点
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 通信チャネル
 
@@ -99,7 +99,7 @@ Adobe Journey Optimizerの最新のリリースノート、新機能、改善点
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 競合管理と優先順位付け
 
