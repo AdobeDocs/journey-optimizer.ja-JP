@@ -76,8 +76,8 @@ ht-degree: 45%
 <tbody>
 <tr>
 <td>
-<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a> を活用し、Journey OptimizerでJourney Agentを利用できます。 これにより、自然言語インターフェイスを使用してジャーニーを分析できます。 エージェントは、オーディエンスを検出したり、ジャーニーでの競合やプロファイルのドロップオフをスケジュールしたりして、それらを解決する手順を実行できるようにします。 間もなく、代理店のサポートを受けたジャーニーを作成できるようになります。</p>
-<p>詳しくは、<a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">詳細なドキュメント</a>を参照してください。</p>
+<p><a href="https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a> を活用し、Journey OptimizerでJourney Agentを利用できます。 これにより、自然言語インターフェイスを使用してジャーニーを分析できます。 エージェントは、オーディエンスを検出したり、ジャーニーでの競合やプロファイルのドロップオフをスケジュールしたりして、それらを解決する手順を実行できるようにします。 間もなく、代理店のサポートを受けたジャーニーを作成できるようになります。</p>
+<p>詳しくは、<a href="https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
