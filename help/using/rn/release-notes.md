@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 34649ab411823f1aa09d390d23484697e80763c5
+source-git-commit: 83ed772d25cbf3e54c5ab45cff3803cb062cdfd6
 workflow-type: tm+mt
-source-wordcount: '1803'
-ht-degree: 43%
+source-wordcount: '1812'
+ht-degree: 44%
 
 ---
 
@@ -28,6 +28,22 @@ ht-degree: 43%
 **リリース日**:2025 年 9 月 23～24 日
 
 ### 新機能 {#sept-25-9-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>ジャーニーを取得するパブリック API</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>ジャーニーと、キャンペーンやサーフェスなどの関連オブジェクトを取得する新しいJourney Optimizer API が使用できるようになりました。</p>
+<p>詳しくは、<a href="https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve/">詳細なドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -198,21 +214,6 @@ ht-degree: 43%
 ### 準備中 {#sept-25-9-soon}
 
 今後数日以内に、次の機能および機能強化のリリースが予定されています。 **情報は変更される場合があります**。 更新されたリンク、画面およびドキュメントは、これらの更新が実稼動環境で公開されると共有されます。
-
-<table>
-<thead>
-<tr>
-<th><strong>ジャーニーを取得するパブリック API</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>ジャーニーと、キャンペーンやサーフェスなどの関連オブジェクトを取得する新しいJourney Optimizer API が使用できるようになりました。</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
