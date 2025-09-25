@@ -3,7 +3,6 @@ solution: Journey Optimizer
 product: journey optimizer
 title: Adobe Experience Platform データの使用
 description: ' [!DNL Journey Optimizer]  の決定およびパーソナライゼーション機能での Adobe Experience Platform データセットの使用方法について説明します。'
-badge: label="限定提供" type="Informative"
 feature: Personalization, Rules
 topic: Personalization
 role: Data Engineer
@@ -11,9 +10,9 @@ level: Intermediate
 keywords: 式, エディター
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 189a5e1c31946e05ef88161f0b5d678b95dd2064
+source-git-commit: e3c6b00ccc0d034fc42dd1294a9b3a72054a48d3
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '742'
 ht-degree: 17%
 
 ---
@@ -24,10 +23,6 @@ ht-degree: 17%
 >id="lookup-aep-data"
 >title="参照のために有効にする"
 >abstract="ルックアップ用にデータセットを有効にすると、Journey Optimizerのパーソナライゼーション、意思決定、Journey Orchestration の機能内でそのデータを活用できます。"
-
->[!AVAILABILITY]
->
->この機能は、現在、限定提供リリースとしてすべてのお客様が利用できます。
 
 Journey Optimizerでは、パーソナライゼーション、意思決定、ジャーニーオーケストレーションの機能を使用して、Adobe Experience Platform データのデータを活用できます。 これを行うには、以下に示すように、参照パーソナライゼーションに必要なレコードベースのデータセットをまず参照サービスに対して有効にする必要があります。
 
