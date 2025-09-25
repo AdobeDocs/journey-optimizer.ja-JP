@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: データセット, Optimizer, ユースケース
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: c517e7faa027b5c1fe3b130f45fc7bf5020c454a
+source-git-commit: 90b8f69f3849418eaec1b65b14e0362980c43e9a
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 99%
+source-wordcount: '958'
+ht-degree: 95%
 
 ---
 
@@ -236,6 +236,33 @@ where
 group by
     _experience.journeyOrchestration.stepEvents.nodeID,
     _experience.journeyOrchestration.stepEvents.nodeName; 
+```
+
+
+
+
+このクエリは、プロファイル ID とメッセージフィードバックイベントデータセットを使用して、プロファイルへのメッセージの配信に関連付けられているジャーニー内のノード（nodeID および nodeName）を取得します。
+
+```sql
+select
+    _experience.journeyorchestration.stepevents.nodeID, JSE._experience.journeyorchestration.stepevents.nodeName
+from journey_step_events JSE
+where 
+    _experience.journeyOrchestration.stepEvents.actionID 
+    in
+
+    (
+    select
+        _experience.customerJourneyManagement.messageExecution.journeyActionID
+    from  ajo_message_feedback_event_dataset
+    where 
+        _experience.customerJourneyManagement.messageProfile.messageProfileID = '<PROFILE ID>'
+    group by
+        _experience.customerJourneyManagement.messageExecution.journeyActionID
+    )
+
+group by
+    _experience.journeyorchestration.stepevents.nodeID, JSE._experience.journeyorchestration.stepevents.nodeName  
 ```
 
 
