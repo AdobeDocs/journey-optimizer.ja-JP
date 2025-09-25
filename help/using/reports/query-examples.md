@@ -8,7 +8,7 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: c517e7faa027b5c1fe3b130f45fc7bf5020c454a
+source-git-commit: 97c1d0f2e9f8100f70d5c4e40325abddc5e3dfbd
 workflow-type: tm+mt
 source-wordcount: '1554'
 ht-degree: 83%
@@ -83,7 +83,7 @@ SELECT
 _experience.journeyOrchestration.stepEvents.nodeName,
 count(distinct _experience.journeyOrchestration.stepEvents.profileID)
 FROM journey_step_events
-WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersiionID>'
+WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersionID>'
 AND DATE(timestamp) > (now() - interval '<last x hours>' hour)
 AND
   (_experience.journeyOrchestration.stepEvents.actionExecutionError is not NULL
@@ -106,7 +106,7 @@ _データレイクのクエリ_
 SELECT
 count(_id) AS NUMBER_OF_EVENTS_DISCARDED
 FROM journey_step_events
-WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersiionID>'
+WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersionID>'
 AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 ```
 
