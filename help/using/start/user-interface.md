@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
+source-git-commit: daa4ab45623f3c175cf3ac1e818eb33fff835f1d
 workflow-type: tm+mt
-source-wordcount: '1758'
-ht-degree: 100%
+source-wordcount: '1903'
+ht-degree: 92%
 
 ---
 
@@ -355,3 +355,30 @@ AI アシスタントにアクセスして使用する方法については、[�
 >id="ajo_journey_business_rules"
 >title="ルールセット"
 >abstract="ルールセット"
+
+<!-- WEBHOOKS -->
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_feedback_webhook_settings"
+>title="Webhook を有効にする"
+>abstract="Webhook を有効にすると、メッセージの実行ステータスに関するリアルタイムのフィードバックを受け取ることができます。 このオプションをアクティブ化する前に、**管理**/**チャネル**/**フィードバック Webhook** メニューで Webhook が設定されていることを確認します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_feedback_webhook_settings_create"
+>title="Feedback Webhook"
+>abstract="フィードバック Webhook を使用すると、トランザクション API トリガーキャンペーンで送信されたメッセージの実行ステータスに関するリアルタイムのフィードバックを受け取ることができます。 組織とサンドボックスの組み合わせごとに 1 つの Webhook 設定のみが許可されます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_feedback_webhook_settings_configuration"
+>title="基本設定"
+>abstract="このセクションでは、Webhook を識別するわかりやすい名前を入力し、この Webhook がフィードバックを受信するチャネル（メールまたは SMS）を選択します。 Webhook URL フィールドに、フィードバックイベントを配信する必要がある HTTPS エンドポイントを指定します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_feedback_webhook_settings_authentication"
+>title="認証"
+>abstract="エンドポイントで JWT 認証が必要な場合は、リストから **JWT 認証** を選択し、必要な詳細を入力します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_feedback_webhook_settings_header_parameters"
+>title="ヘッダーパラメーター"
+>abstract="このセクションでは、Webhook リクエストごとに送信される追加のカスタムヘッダーを設定できます。"
