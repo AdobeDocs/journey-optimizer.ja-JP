@@ -9,10 +9,10 @@ level: Intermediate
 keywords: 再エントリ, ジャーニー, 終了, ライブ, 停止
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 2a5db6950ac82fd18deb2e4009c9a43247444d6a
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 100%
+source-wordcount: '775'
+ht-degree: 98%
 
 ---
 
@@ -87,7 +87,6 @@ ht-degree: 100%
 
 必要に応じて、ジャーニー内のすべての個人の進行を停止することもできます。ジャーニーを停止すると、ジャーニー内のすべての個人がタイムアウトになります。ただし、ジャーニーを停止すると、既にジャーニーにエントリしている人物は全員、進行が停止します。ジャーニーは基本的にオフになります。ジャーニーを終了する場合のベストプラクティスは、ジャーニーを[クローズ](#close-journey)することです。
 
-
 例えば、ジャーニーが誤ったオーディエンスをターゲットにしていることをマーケターが認識した場合や、メッセージの配信に想定されるカスタムアクションが正しく機能していない場合に、ジャーニーを停止できます。ジャーニーのリストからジャーニーを停止するには、ジャーニー名の右側にある&#x200B;**[!UICONTROL 省略記号]**&#x200B;ボタンをクリックし、「**[!UICONTROL 停止]**」を選択します。
 
 ![](assets/journey-finish-quick-action.png)
@@ -102,3 +101,7 @@ ht-degree: 100%
 1. 「**[!UICONTROL 停止]**」をクリックし、ダイアログボックスで確定します。
 
 停止すると、ジャーニーのステータスは&#x200B;**[!UICONTROL 停止済み]**&#x200B;に設定されます。
+
+>[!CAUTION]
+>
+>ジャーニーを停止する権限は、**[!DNL Manage journeys]** の高レベル権限を持つユーザーに制限されます。 [!DNL Journey Optimizer] ユーザーのアクセス権の管理について詳しくは、[この節](../administration/permissions-overview.md)を参照してください。
