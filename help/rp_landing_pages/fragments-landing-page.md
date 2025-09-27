@@ -20,7 +20,7 @@ Adobe Journey Optimizer の再利用可能なコンテンツフラグメント�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
 
 フラグメントの使用の概要
 

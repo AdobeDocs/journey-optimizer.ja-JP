@@ -20,7 +20,7 @@ Adobe Journey Optimizer の意思決定管理により、マーケターは複�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
 
 意思決定管理の概要
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer の意思決定管理により、マーケターは複�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
 
 意思決定管理ガードレールと制限
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer でオファーと決定を作成、管理、設定す�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 メールでのパーソナライズされたオファーの使用
 

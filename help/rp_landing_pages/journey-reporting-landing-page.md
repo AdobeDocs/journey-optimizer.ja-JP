@@ -30,7 +30,7 @@ Adobe Journey Optimizer のジャーニーレポートは、メール、SMS、we
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 コードベースのジャーニーレポート
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer のジャーニーレポートは、メール、SMS、we
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open.svg?lang=ja)
 
 メールのジャーニーレポート
 

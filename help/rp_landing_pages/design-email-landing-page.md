@@ -20,7 +20,7 @@ Adobe Journey Optimizer でメールコンテンツをデザインすると、�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 メールデザインの基本を学ぶ
 

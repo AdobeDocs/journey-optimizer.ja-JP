@@ -40,7 +40,7 @@ Adobe Journey Optimizer で最初の調整されたキャンペーンを開始�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 キャンペーンアクティビティの調整
 

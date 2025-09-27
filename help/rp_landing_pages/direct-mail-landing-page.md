@@ -20,7 +20,7 @@ Adobe Journey Optimizer のダイレクトメールを使用すると、明確�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
 
 ダイレクトメールキャンペーンの概要
 

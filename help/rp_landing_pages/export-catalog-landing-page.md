@@ -30,7 +30,7 @@ Adobe Journey Optimizer でオファーカタログを書き出すと、Adobe Ex
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 書き出したオファーカタログへのアクセス
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer でオファーカタログを書き出すと、Adobe Ex
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 パーソナライズされたオファーのデータセットリファレンス
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer でオファーカタログを書き出すと、Adobe Ex
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 決定データセットの概要
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer でオファーカタログを書き出すと、Adobe Ex
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 プレースメントデータセットの詳細
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer でオファーカタログを書き出すと、Adobe Ex
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 フォールバックオファーのデータセットのドキュメント
 

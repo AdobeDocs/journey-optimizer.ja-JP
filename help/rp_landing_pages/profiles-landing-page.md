@@ -20,7 +20,7 @@ Adobe Journey Optimizer のプロファイルを使用すると、複数のソ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 プロファイルの概要
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer でプロファイルを作成、管理および活用�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 テストプロファイルの作成方法
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer でテストプロファイルを作成して、ジャ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 計算属性の操作
 

@@ -20,7 +20,7 @@ Adobe Journey Optimizer でリレーショナルスキーマとデータセッ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 リレーショナルスキーマとデータセットの基本を学ぶ
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer でスキーマを作成し、データセットを設�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 手動リレーショナルスキーマの設定
 
@@ -50,7 +50,7 @@ DDL ファイルをアップロードし、テーブルをリンクし、調整�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 Adobe Journey Optimizer キャンペーン用データの取り込み
 

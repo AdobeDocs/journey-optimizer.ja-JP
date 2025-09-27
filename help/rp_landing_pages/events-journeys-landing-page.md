@@ -40,7 +40,7 @@ Adobe Journey Optimizer のイベント設定とは、パーソナライズさ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 ExperienceEvent スキーマ
 
@@ -50,7 +50,7 @@ ExperienceEvent スキーマ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
 
 Adobe Analytics との統合
 

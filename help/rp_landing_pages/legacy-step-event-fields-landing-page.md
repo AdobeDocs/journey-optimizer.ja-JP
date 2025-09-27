@@ -20,7 +20,7 @@ Adobe Journey Optimizer の従来のステップイベントフィールドは�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
 
 従来のフィールドについて
 
@@ -50,7 +50,7 @@ Journey Optimizer の概要
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 アクション実行フィールド
 

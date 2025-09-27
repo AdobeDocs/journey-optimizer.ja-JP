@@ -30,7 +30,7 @@ Adobe Journey Optimizer でオファーをランク付けする AI モデルを�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
 
 自動最適化モデル
 

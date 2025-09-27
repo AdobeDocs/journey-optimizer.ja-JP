@@ -50,7 +50,7 @@ inAudience 関数の使用
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/exchange-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/exchange-alt.svg?lang=ja)
 
 コンバージョン関数
 

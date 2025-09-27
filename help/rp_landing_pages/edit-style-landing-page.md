@@ -30,7 +30,7 @@ Adobe Journey Optimizer を使用して、メールの本文、構造、コン�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 メールの背景のパーソナライズ
 

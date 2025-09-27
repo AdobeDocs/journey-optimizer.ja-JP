@@ -30,7 +30,7 @@ Adobe Journey Optimizer では、ランキングを作成することで、オ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 AI 式ビルダーの使用
 

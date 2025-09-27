@@ -50,7 +50,7 @@ DMARC レコードを設定し、デリゲートされたサブドメインの�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 Google TXT レコードの追加
 
