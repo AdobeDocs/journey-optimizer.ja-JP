@@ -8,10 +8,10 @@ feature: SMS, Channel Configuration
 level: Intermediate
 keywords: SMS, サブドメイン, 設定
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
-source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
+source-git-commit: 9f66606e2673554f7dfb40dd48cfc17eca2ca06b
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 100%
+source-wordcount: '1008'
+ht-degree: 87%
 
 ---
 
@@ -133,14 +133,23 @@ SMS サブドメインにアクセスして編集するには、実稼動サン�
 
 ホスティングソリューションで検証レコードを作成できなかった場合、サブドメインは「**[!UICONTROL 失敗]**」とマークされます。
 
+## ガードレール {#guardrails}
+
+現在、[!DNL Journey Optimizer] ユーザーインターフェイスでは、SMS サブドメインが設定された後の削除または委任解除はサポートされていません。
+
+ただし、[!DNL Journey Optimizer] 内で機能をテストする場合は、SMS サブドメインの作成が必要になる場合があります。 テストが完了すると、UI で SMS サブドメインの削除またはデリゲート解除が許可されないので、散乱した環境に不要な設定が生じる可能性があります。
+
+推奨される手順と考慮事項を次に示します。
+
+<!--As an alternative action, create a new SMS subdomain for future use cases and avoid using the existing one if it is no longer needed.-->
+
+* ベストプラクティスとして、必要なコンポーネントと設定のみを作成して、適切な環境を維持します。
+* ビジネスに影響が及ぶ状況では、SMS サブドメインの削除または委任解除を支援できる可能性のあるAdobe担当者にお問い合わせください。 [詳細情報](#undelegate-subdomain)
+* さらにサポートが必要な場合は、Adobeに問い合わせて、インスタンスを効果的に管理する方法を確認してください。
+
 ## サブドメインのデリゲート解除 {#undelegate-subdomain}
 
 SMS サブドメインをデリゲートを解除する場合、デリゲート解除するサブドメインについて詳しくは、アドビ担当者にお問い合わせください。
-
-<!--
-1. Stop the active campaigns associated with the subdomains. [Learn how](../campaigns/manage-campaigns.md#stop)
-
-1. Stop the active journeys associated with the subdomains. [Learn how](../building-journeys/end-journey.md#stop-journey)-->
 
 SMS サブドメインが CNAME レコードを指している場合は、SMS サブドメイン用に作成した CNAME DNS レコードをホスティングソリューションから削除できます（ただし、元のメールサブドメインがある場合は削除しないでください）。
 
