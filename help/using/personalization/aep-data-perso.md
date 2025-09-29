@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Adobe Experience Platform データをパーソナライゼーションに使用
-description: Adobe Experience Platform データをパーソナライゼーションに使用する方法を説明します。
+description: Adobe Experience Platform データをパーソナライゼーションに使用する方法について説明します。
 badge: label="限定提供" type="Informative"
 feature: Personalization, Rules
 topic: Personalization
@@ -10,10 +10,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 式, エディター
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
+source-git-commit: e9ed993dd5957adb305b582b30e6675d2bb4526f
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 83%
+source-wordcount: '710'
+ht-degree: 93%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 83%
 
 >[!AVAILABILITY]
 >
->この機能は、現在、限定提供リリースとしてすべてのお客様が利用できます。
+>この機能は現在、限定提供リリースとしてすべてのお客様に対して提供されています。
 >
->現時点では、限られた顧客セットに対して、式フラグメント内で「datasetLookup」ヘルパー関数を使用できます。 アクセスするには、アドビ担当者にお問い合わせください。
+>現時点では、限定された一連のお客様のみが、「datasetLookup」ヘルパー関数を式フラグメント内で使用できます。アクセスするには、アドビ担当者にお問い合わせください。
 
-Journey Optimizerを使用すると、パーソナライゼーションエディターでAdobe Experience Platform レコードデータセットのデータを活用して [ コンテンツをパーソナライズ ](../personalization/personalize.md) できます。 開始する前に、参照のパーソナライゼーションに必要なデータセットを最初に参照に対して有効にする必要があります。 詳しくは、「Adobe Experience Platform データの使用 [ を参照してくだ ](../data/lookup-aep-data.md) い。
+Journey Optimizer を使用すると、パーソナライゼーションエディターで Adobe Experience Platform レコードデータセットのデータを利用して、[コンテンツをパーソナライズする](../personalization/personalize.md)ことができます。開始する前に、まず、参照パーソナライゼーションに必要なデータセットを参照に対して有効にする必要があります。詳しくは、「Adobe Experience Platform データの使用 [ を参照してくだ ](../data/lookup-aep-data.md) い。
 
-データセットで参照パーソナライゼーションを有効にしたら、そのデータを使用してコンテンツを [!DNL Journey Optimizer] にパーソナライズできます。
+データセットの参照パーソナライゼーションが有効になると、そのデータを使用してコンテンツを [!DNL Journey Optimizer] にパーソナライズできます。
 
 1. メッセージなどのパーソナライズ機能を定義でき、すべてのコンテキストで使用できるパーソナライゼーションエディターを開きます。[パーソナライゼーションエディターの操作方法を学ぶ](../personalization/personalization-build-expressions.md)
 
@@ -54,7 +54,7 @@ Journey Optimizerを使用すると、パーソナライゼーションエディ
 
    * **required=false**：required が TRUE に設定されている場合、一致するキーが見つかった場合にのみメッセージが配信されます。false に設定した場合は、一致するキーは必要なく、メッセージを配信できます。false に設定した場合、メッセージコンテンツのフォールバックまたはデフォルト値を考慮することをお勧めします。
 
-   +++データセット ID を取得する場所
+   +++データセット ID はどこで取得できますか？
 
    データセット ID は、Adobe Experience Platform ユーザーインターフェイスで取得できます。データセットの操作方法について詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/user-guide#view-datasets){target="_blank"}を参照してください。
 
@@ -81,6 +81,8 @@ Journey Optimizerを使用すると、パーソナライゼーションエディ
    >[!NOTE]
    >
    >データセットフィールドを参照する場合は、スキーマ内で定義されている完全なフィールドパスと一致することを確認します。
+   >
+   >ヘルパー関数を使用して取得できるフィールドの数にハードリミットはありません。 ただし、最高のパフォーマンスを得るには、スループットに影響を与えないように、フィールド数を 50 未満に保つことをお勧めします。
 
    * **result** は **MultiEntity** ヘルパー関数で **result** パラメーターに割り当てた値です。この例では「フライト」です。
    * **fieldID** は取得するフィールドの ID です。この ID は、データセットに関連するレコードスキーマを参照する際に、[!DNL Adobe Experience Platform] ユーザーインターフェイスに表示されます。
