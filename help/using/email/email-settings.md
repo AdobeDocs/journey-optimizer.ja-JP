@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 設定, メール, 設定
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: fc12ee65fc773c70b88504a951e5f5c5b2b3b0e6
 workflow-type: tm+mt
-source-wordcount: '1471'
-ht-degree: 100%
+source-wordcount: '1401'
+ht-degree: 98%
 
 ---
 
@@ -187,11 +187,6 @@ IP プールが選択された後、IP プールのドロップダウンリス�
 
 ## 実行アドレス {#execution-address}
 
->[!CONTEXTUALHELP]
->id="ajo_email_config_execution_address"
->title="使用するデフォルトの実行アドレスの上書き"
->abstract="使用できるメールアドレスがデータベース内に複数ある（個人用、仕事用など）場合、優先して送信するアドレスを選択できます。プライマリアドレスはサンドボックスレベルで定義されますが、ここでは、この特定のメール設定のデフォルト設定を上書きできます。"
-
 プロファイルをターゲットにする際に、使用できるメールアドレスがデータベース内に複数ある（仕事用のメールアドレス、個人用のメールアドレスなど）場合があります。
 
 その場合、[!DNL Journey Optimizer] は、サンドボックスレベルで&#x200B;**[!UICONTROL 実行フィールド]**&#x200B;に指定されたアドレスを使用して、優先してプロファイルサービスから使用するメールアドレスを決定します。[詳細情報](../configuration/primary-email-addresses.md)
@@ -202,8 +197,6 @@ IP プールが選択された後、IP プールのドロップダウンリス�
 
 ただし、このデフォルトの実行フィールドは、メールチャネル設定レベルで変更できます。その後、この設定を特定のキャンペーンやジャーニーに適用できます。
 
-これを行うには、「**[!UICONTROL 配信アドレス]**」フィールドを編集し、使用できるメールタイプの XDM フィールドのリストから項目を選択します。
+これを行うには、「**[!UICONTROL 配信アドレス]**」フィールドを編集し、使用可能なメールタイプの XDM フィールドのリストから項目を選択します。 [詳細情報](../configuration/primary-email-addresses.md#override-execution-address-channel-config)
 
 ![](assets/email-config-delivery-address.png)
-
-実行フィールドは更新され、その後プライマリアドレスとして使用されます。サンドボックスレベルの一般設定が上書きされます。

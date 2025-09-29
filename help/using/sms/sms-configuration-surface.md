@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 0d541520-016e-468f-b011-808712847556
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: fc12ee65fc773c70b88504a951e5f5c5b2b3b0e6
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 100%
+source-wordcount: '474'
+ht-degree: 86%
 
 ---
 
@@ -40,7 +40,7 @@ SMS／MMS／RCS チャネルを設定したら、**[!DNL Journey Optimizer]** �
 
 1. **SMS 設定**&#x200B;を定義します。
 
-   ![](assets/sms-surface-settings.png)
+   ![](assets/sms-surface-settings.png){width=80%}
 
    設定を使用して送信する **[!UICONTROL SMS タイプ]**（**[!UICONTROL トランザクション]**&#x200B;または&#x200B;**[!UICONTROL マーケティング]**）を選択することから開始します。
 
@@ -59,13 +59,17 @@ SMS／MMS／RCS チャネルを設定したら、**[!DNL Journey Optimizer]** �
 
 1. コミュニケーションに使用する「**[!UICONTROL 送信者番号]**」を入力します。
 
-1. 「**[!UICONTROL SMS 実行フィールド]**」を選択して、プロファイルの電話番号に関連付けられた「**[!UICONTROL プロファイル属性]**」を選択します。
-
 1. SMS メッセージで URL 短縮機能を使用する場合は、**[!UICONTROL サブドメイン]**&#x200B;リストから項目を選択します。
 
    >[!NOTE]
    >
    >サブドメインを選択するには、1 つ以上の SMS／MMS サブドメインを事前に設定していることを確認してください。[方法についてはこちらを参照](sms-subdomains.md)
+
+1. 「**[!UICONTROL 実行ディメンション]**」セクションで、**[!UICONTROL SMS 実行フィールド]** を使用して、プロファイル属性の中から、データベースで複数の番号が使用可能な場合に優先して使用する電話番号を選択します。 [詳細情報](../configuration/primary-email-addresses.md#override-execution-address-channel-config)
+
+   >[!NOTE]
+   >
+   >デフォルト [!DNL Journey Optimizer] は、サンドボックスレベルで [ 一般設定 ](../configuration/primary-email-addresses.md) で指定された電話番号を使用します。 このフィールドを更新すると、この設定を使用するジャーニーおよびキャンペーンのデフォルト値が上書きされます。
 
 1. すべてのパラメーターを設定したら、「**[!UICONTROL 送信]**」をクリックして確定します。なお、チャネル設定をドラフトとして保存し、後で設定を再開することもできます。
 
