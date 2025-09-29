@@ -104,7 +104,7 @@ ht-degree: 69%
 
 特定のメールまたは SMS のデフォルトの実行アドレスを変更できます [ チャネル設定 ](channel-surfaces.md)。
 
-これを行うには、「実行ディメンション **[!UICONTROL セクションに移動し]****[!UICONTROL 実行アドレス]** の下のフィールドを編集します。
+これを行うには、「実行ディメンション **[!UICONTROL セクションに移動し]**&#x200B;**[!UICONTROL 実行アドレス]** の下のフィールドを編集します。
 
 ![](assets/sms-config-execution-address.png){width=85%}
 
