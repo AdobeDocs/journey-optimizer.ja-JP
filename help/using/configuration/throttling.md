@@ -4,14 +4,14 @@ product: journey optimizer
 title: Throttling API
 description: Throttling API の使用方法を学ぶ
 feature: Journeys, API
-role: User
+role: Developer
 level: Beginner
 keywords: 外部, API, Optimizer, キャップ
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
-source-git-commit: 60cb5e1ba2b5c8cfd0a306a589c85761be1cf657
+source-git-commit: 13af123030449d870f44f3470710b0da2c6f4775
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 96%
+source-wordcount: '1024'
+ht-degree: 93%
 
 ---
 
@@ -19,14 +19,14 @@ ht-degree: 96%
 
 Throttling API を使用すると、スロットル設定を作成、設定および監視して、1 秒あたりに送信されるイベントの数を制限できます。
 
-この節では、API の使用方法に関する全体的な情報を示します。API について詳しくは、[Adobe Journey Optimizer API ドキュメント](https://developer.adobe.com/journey-optimizer-apis/)を参照してください。
+この節では、API の使用方法に関する全体的な情報を示します。API について詳しくは、[Adobe Journey Optimizer API ドキュメント](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}を参照してください。
 
 ## 必読
 
 * **1 つの組織につき 1 つの設定：**&#x200B;現在、1 つの組織につき 1 つの設定のみを使用できます。設定は、（ヘッダーの `x-sandbox-name` を通じて指定される）実稼動サンドボックスで定義する必要があります。
 * **組織レベルのアプリケーション：**&#x200B;設定は、組織レベルで適用されます。
 * **API 制限の処理：** API で設定された上限に達すると、それ以降のイベントは最大 6 時間キューに入れられます。この値は変更できません。
-* **`maxHttpConnections`パラメーター：**「maxHttpConnections」パラメーターは、Capping API でのみ使用可能なオプションパラメーターであり、Journey Optimizer が外部システムに対して開く接続の数をキャップできます。[Capping API の使用方法の詳細情報](../configuration/capping.md)
+* **`maxHttpConnections`パラメーター：** `maxHttpConnections` パラメーターは、Capping API で使用できるオプションのパラメーターで、Journey Optimizerが外部システムに対して開く接続数を制限することができます。 [Capping API の使用方法の詳細情報](../configuration/capping.md)
 
   接続数をキャップするが、外部呼び出しもスロットルする場合は、同じエンドポイントで、1 つのスロットリングと 1 つのキャップの 2 つの設定を指定できます。1 つのエンドポイントに対して、両方の設定を共存させることができます。スロットルしたエンドポイントに対して「maxHttpConnections」を設定するには、Throttling API を使用してスロットリングしきい値を設定し、Capping API を使用して「maxHttpConnections」を設定します。Capping API を呼び出す際に、キャップしきい値をスロットリングしきい値よりも高い値に設定して、キャップルールが実質的に適用されないようにすることができます。
 
@@ -45,20 +45,21 @@ Throttling API を使用すると、スロットル設定を作成、設定お�
 | [!DNL GET] | /throttlingConfigs/`{uid}` | スロットル設定を取得します |
 | [!DNL DELETE] | /throttlingConfigs/`{uid}` | スロットル設定を削除します |
 
-また、テスト設定に役立つ Postman コレクションについて詳しくは、[こちら](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Throttling-API_postman-collection.json)を参照してください。
+また、テスト設定に役立つ Postman コレクションについて詳しくは、[こちら](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Throttling-API_postman-collection.json){target="_blank"}を参照してください。
 
-このコレクションは、__[Adobe I/O コンソールの統合](https://console.adobe.io/integrations)／試す／Postman 用にダウンロード__&#x200B;経由で生成された Postman 変数コレクションを共有するように設定されています。これにより、選択した統合値を含む Postman 環境ファイルが生成されます。
+このコレクションは、**[Adobe I/O コンソールの統合](https://console.adobe.io/integrations)／試す／Postman 用にダウンロード**&#x200B;経由で生成された Postman 変数コレクションを共有するように設定されています。これにより、選択した統合値を含む Postman 環境ファイルが生成されます。
 
 ダウンロードして Postman にアップロードしたら、`{JO_HOST}`、`{BASE_PATH}` および `{SANDBOX_NAME}` の 3 つの変数を追加する必要があります。
+
 * `{JO_HOST}`：[!DNL Journey Optimizer]ゲートウェイ URL。
 * `{BASE_PATH}`：API のエントリポイント。
-* `{SANDBOX_NAME}`：API 操作が行われるサンドボックス名に対応するヘッダー **x-sandbox-name**（例えば、「prod」）。詳しくは、[サンドボックスの概要](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ja)を参照してください。
+* `{SANDBOX_NAME}`：API 操作が行われるサンドボックス名に対応するヘッダー **x-sandbox-name**（例えば、「prod」）。詳しくは、[サンドボックスの概要](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ja){target="_blank"}を参照してください。
 
 ## スロットル設定{#configuration}
 
 スロットル設定の構造は次のとおりです。**name** 属性と **description** 属性はオプションです。
 
-```
+```json
 {
     "name": "<given name - free text>",
     "description": "<given description - free text>"
@@ -70,7 +71,7 @@ Throttling API を使用すると、スロットル設定を作成、設定お�
 
 例：
 
-```
+```json
 {
   "name": "throttling-config-external",
   "description": "example of throttling config for an external endpoint",
@@ -88,7 +89,7 @@ Throttling API を使用すると、スロットル設定を作成、設定お�
 
 設定を作成または更新する際に、プロセスは指定された設定を検証し、設定の一意の ID で識別される検証ステータス（次のいずれか）を返します。
 
-```
+```json
 "ok" or "error"
 ```
 
@@ -123,7 +124,7 @@ Throttling API を使用すると、スロットル設定を作成、設定お�
 
 実稼動以外のサンドボックスで設定を作成しようとした場合：
 
-```
+```json
 {
     "status": 400,
     "error": "{\"code\":1463,\"family\":\"INPUT_OUTPUT_ERROR\",\"message\":\"Operation not allowed on throttling config: non prod sandbox\",\"service\":\"vyg-authoring-api\",\"version\":\"ed87515\",\"context\":\"com.adobe.voyager.service.authoring.restapis.v1_0.ThrottlingConfigService:384\",\"schema\":\"throttlingConfigs$ui-tests\"}",
@@ -133,7 +134,7 @@ Throttling API を使用すると、スロットル設定を作成、設定お�
 
 指定したサンドボックスが存在しない場合：
 
-```
+```json
 {
     "status": 500,
     "error": "{\"code\":4000,\"family\":\"INTERNAL_ERROR\",\"message\":\"INTERNAL ERROR\",\"service\":\"vyg-authoring-api\",\"version\":\"ed87515\",\"context\":\"com.adobe.voyager.common.exceptions.ApiErrorException:43\"}",
@@ -143,7 +144,7 @@ Throttling API を使用すると、スロットル設定を作成、設定お�
 
 別の設定を作成しようとした場合：
 
-```
+```json
 {
     "status": 400,
     "error": "{\"code\":1465,\"family\":\"INPUT_OUTPUT_ERROR\",\"message\":\"Can't create throttling config: only one config allowed per org\",\"service\":\"vyg-authoring-api\",\"version\":\"ed87515\",\"context\":\"com.adobe.voyager.service.authoring.restapis.v1_0.ThrottlingConfigService:108\",\"schema\":\"throttlingConfigs$prod\"}",
@@ -163,7 +164,7 @@ Throttling API を使用すると、スロットル設定を作成、設定お�
 
 **作成 - POST**
 
-```
+```json
 {
     "canDeploy": {
         "validationStatus": "ok"
@@ -200,7 +201,7 @@ Throttling API を使用すると、スロットル設定を作成、設定お�
 
 **更新 - PUT**
 
-```
+```json
 {
     "updatedElement": {
         "_id": "043a1aea-2dfd-4965-b93a-cb9a1eced0e6_8872a010-f91e-11ea-895c-11ef8f98ba52",
@@ -238,7 +239,7 @@ Throttling API を使用すると、スロットル設定を作成、設定お�
 
 **読み取り（更新後）- GET**
 
-```
+```json
 {
     "result": {
         "_id": "043a1aea-2dfd-4965-b93a-cb9a1eced0e6_8872a010-f91e-11ea-895c-11ef8f98ba52",
@@ -270,7 +271,7 @@ Throttling API を使用すると、スロットル設定を作成、設定お�
 
 **読み取り（デプロイ後）- GET**
 
-```
+```json
 {
     "result": {
         "_id": "043a1aea-2dfd-4965-b93a-cb9a1eced0e6_8872a010-f91e-11ea-895c-11ef8f98ba52",

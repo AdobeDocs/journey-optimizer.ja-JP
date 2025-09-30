@@ -4,14 +4,14 @@ product: journey optimizer
 title: Capping API
 description: Capping API の使用方法を学ぶ
 feature: Journeys, API
-role: User
+role: Developer
 level: Beginner
 keywords: 外部, API, Optimizer, キャップ
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
-source-git-commit: 9f801b1fdcab38bffff851675eca5e2fb61dfbf9
+source-git-commit: 13af123030449d870f44f3470710b0da2c6f4775
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 93%
+source-wordcount: '730'
+ht-degree: 89%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 93%
 
 Capping API を使用すると、キャップ設定を作成、設定および監視できます。
 
-この節では、API の使用方法に関する全体的な情報を示します。API について詳しくは、[Adobe Journey Optimizer API ドキュメント](https://developer.adobe.com/journey-optimizer-apis/)を参照してください。
+この節では、API の使用方法に関する全体的な情報を示します。API について詳しくは、[Adobe Journey Optimizer API ドキュメント](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}を参照してください。
 
 ## Capping API の説明と Postman コレクション {#description}
 
-次の表に、Capping API で使用できるコマンドを示します。リクエストサンプル、パラメーター、応答形式などの情報について詳しくは、[Adobe Journey Optimizer API ドキュメント](https://developer.adobe.com/journey-optimizer-apis/references/journeys/)を参照してください。
+次の表に、Capping API で使用できるコマンドを示します。リクエストサンプル、パラメーター、応答形式などの情報について詳しくは、[Adobe Journey Optimizer API ドキュメント](https://developer.adobe.com/journey-optimizer-apis/references/journeys/){target="_blank"}を参照してください。
 
 | メソッド | パス | 説明 |
 |---|---|---|
@@ -46,13 +46,13 @@ Capping API を使用すると、キャップ設定を作成、設定および�
 ダウンロードして Postman にアップロードしたら、`{JO_HOST}`、`{BASE_PATH}` および `{SANDBOX_NAME}` の 3 つの変数を追加する必要があります。
 * `{JO_HOST}`：[!DNL Journey Optimizer]ゲートウェイ URL。
 * `{BASE_PATH}`：API のエントリポイント。
-* `{SANDBOX_NAME}`：API 操作が行われるサンドボックス名に対応するヘッダー **x-sandbox-name**（例えば、「prod」）。詳しくは、[サンドボックスの概要](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ja)を参照してください。
+* `{SANDBOX_NAME}`：API 操作が行われるサンドボックス名に対応するヘッダー **x-sandbox-name**（例えば、「prod」）。詳しくは、[サンドボックスの概要](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ja){target="_blank"}を参照してください。
 
 ## エンドポイントの設定
 
 エンドポイント設定の基本構造は次のとおりです。
 
-```
+```json
 {
     "url": "<endpoint URL>",  //wildcards are allowed in the endpoint URL
     "methods": [ "<HTTP method such as GET, POST, >, ...],
@@ -75,12 +75,12 @@ Capping API を使用すると、キャップ設定を作成、設定および�
 >
 >設定できる最大値は 400 です。何も指定しない場合、システムは動的なスケーリングに応じて、最大で数千の接続を開く可能性があります。
 >
->キャップ設定をデプロイする際に、「maxHttpConnection」値を指定しない場合、デプロイ済みの設定にデフォルトの「maxHttpConnection = -1」が追加されます。つまり、Journey Optimizer はデフォルトのシステム値を使用します。
+>キャッピング設定がデプロイされる際、`maxHttpConnections` 値が設定されていない場合、デプロイされた設定にはデフォルトの `maxHttpConnections = -1` が追加され、Journey Optimizerではデフォルトのシステム値が使用されます。
 
 例：
 
-```
-`{
+```json
+{
   "url": "https://api.example.org/data/2.5/*",
   "methods": [
     "GET"
@@ -104,7 +104,7 @@ Capping API を使用すると、キャップ設定を作成、設定および�
 
 **canDeploy**&#x200B;メソッドを呼び出す際、プロセスは設定を検証し、次のいずれかの一意の ID によって識別される検証ステータスを返します。
 
-```
+```json
 "ok" or "error"
 ```
 
