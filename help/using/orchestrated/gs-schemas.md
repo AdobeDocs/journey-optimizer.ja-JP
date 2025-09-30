@@ -52,7 +52,7 @@ ht-degree: 68%
 
 モデルベースのデータモデルでスキーマやテーブルを整理することは、データを複数のテーブルに構造化することです。 各テーブルに 1 つのタイプのエンティティ／スキーマが格納されていることを確認します。
 
-➡️ [ スキーマについて詳しくは、Adobe Experience Platform ドキュメントを参照してください ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
+➡️ [ スキーマについて詳しくは、Adobe Experience Platform ドキュメントを参照してください ](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
 
 ## 実装手順 {#implementation}
 
