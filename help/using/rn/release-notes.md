@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: be07b0dfec31d23f741bfc2a9f89fe1a7891ef0b
+source-git-commit: 29d1aab42bf34adfb8ae8f28d1204d1980487cf4
 workflow-type: tm+mt
-source-wordcount: '1783'
-ht-degree: 42%
+source-wordcount: '1926'
+ht-degree: 39%
 
 ---
 
@@ -77,8 +77,8 @@ ht-degree: 42%
 <tbody>
 <tr>
 <td>
-<p><a href="https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a> を活用し、Journey OptimizerでJourney Agentを利用できます。 これにより、自然言語インターフェイスを使用してジャーニーを分析できます。 エージェントは、オーディエンスを検出したり、ジャーニーでの競合やプロファイルのドロップオフをスケジュールしたりして、それらを解決する手順を実行できるようにします。 間もなく、代理店のサポートを受けたジャーニーを作成できるようになります。</p>
-<p>詳しくは、<a href="https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">詳細なドキュメント</a>を参照してください。</p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a> を活用し、Journey OptimizerでJourney Agentを利用できます。 これにより、自然言語インターフェイスを使用してジャーニーを分析できます。 エージェントは、オーディエンスを検出したり、ジャーニーでの競合やプロファイルのドロップオフをスケジュールしたりして、それらを解決する手順を実行できるようにします。 間もなく、代理店のサポートを受けたジャーニーを作成できるようになります。</p>
+<p>詳しくは、<a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2025 年 9 月 24 日（PT）</p>
 </td>
 </tr>
@@ -213,7 +213,19 @@ ht-degree: 42%
 
   この機能は、一連のお客様に対して限定提供で利用できます。
 
+* **Webhook** – このリリースでは、カスタム SMS プロバイダーを設定する際の Webhook に関する次の機能強化が導入されています。
 
+   * 取得するデータのタイプに応じて、Webhook の目的（インバウンドまたはフィードバック）を定義できるようになりました。
+
+   * 設定を容易にするために、キーワード設定用のインターフェイスを改善しました。
+
+* **SMS**
+
+   * カスタム SMS プロバイダーを設定する際に、受信 SMS に認識できないキーワードが含まれている場合に使用する **デフォルト** キーワードを定義できるようになりました。 特定のアクションに対して **カスタム** キーワードを作成することもできます。
+
+   * 設定で明示的に定義されていない入力ミス、単語、文など、SMS メッセージで送信される未定義の受信キーワードの応答にアクセスできるようになりました。 これらは、{InboundMessage} の下の **0}AJO メールトラッキングエクスペリエンスイベント** データセットに 13 か月間保存され **す。**
+
+* **WhatsApp** - WhatsApp のデフォルトの実行アドレスを使用するか、カスタムアドレスを設定できるようになりました。
 
 ### 準備中 {#sept-25-9-soon}
 
