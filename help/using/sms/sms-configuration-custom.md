@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 29d1aab42bf34adfb8ae8f28d1204d1980487cf4
+source-git-commit: 1d869ee8bf1c76e182a3f6b0433e5ab2eec2a8fb
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1357'
 ht-degree: 86%
 
 ---
@@ -199,17 +199,19 @@ Webhook を設定する際に、取得するデータのタイプに基づいて
 
    * **[!UICONTROL API 資格情報]**:（以前に設定した API 資格情報 [ ドロップダウンから選択 ](#api-credential) ます。
 
+   * **[!UICONTROL 送信者電話番号&#x200B;]**：コミュニケーションに使用する&#x200B;送信者の電話番号を入力します。
+
+     ![](assets/webhook-inbound.png)
+
 1. 「![](assets/do-not-localize/Smock_Add_18_N.svg)」をクリックしてキーワードカテゴリを追加し、次のように設定します。
 
    * **[!UICONTROL 受信キーワードカテゴリ]**：キーワードカテゴリを **[!UICONTROL オプトイン]**、**[!UICONTROL オプトアウト]**、**[!UICONTROL ヘルプ]** または **[!UICONTROL デフォルト]** から選択します。
 
-   * **[!UICONTROL キーワードを入力]**: メッセージを自動的にトリガーにするデフォルトまたはカスタムのキーワードを入力します。 複数のキーワードの場合は、コンマ区切り値を使用します。
+   * **[!UICONTROL キーワードを入力]**: メッセージを自動的にトリガーにするデフォルトまたはカスタムのキーワードを入力します。 「![](assets/do-not-localize/Smock_Add_18_N.svg)」をクリックして複数のキーワードを追加します。
 
-   * **[!UICONTROL 返信メッセージ]**：自動的に送信されるカスタムの応答を入力します。
+   * **[!UICONTROL 返信メッセージ]**：自動的に送信されるカスタム応答をドロップダウンから選択します。
 
    ![](assets/sms_byo_6.png)
-
-1. 「**[!UICONTROL ファジーオプトアウト]**」オプションを有効にすると、オプトアウトキーワードに類似したメッセージ（「CANCIL」など）が検出されます。
 
 1. 「**[!UICONTROL ペイロードエディターを表示]**」をクリックして、リクエストペイロードを検証およびカスタマイズします。
 
@@ -243,6 +245,8 @@ Webhook のインバウンド設定を作成し指定したら、SMS メッセ�
 
    * **[!UICONTROL タイプ]** : フィードバック。
 
+   ![](assets/webhook-feedback.png)
+
 1. 「**[!UICONTROL ペイロードエディターを表示]**」をクリックして、リクエストペイロードを検証およびカスタマイズします。
 
    プロファイル属性を使用してペイロードを動的にパーソナライズし、ビルトインのヘルパー関数を使用して、処理と応答の生成のために正確なデータを確実に送信できます。
@@ -255,7 +259,7 @@ Webhook のインバウンド設定を作成し指定したら、SMS メッセ�
 
 1. 以前に送信した **[!UICONTROL Webhook]** から新しい **[!UICONTROL Webhook URL]** にアクセスしてコピーします。
 
-   ![](assets/sms_byo_7.png)
+   ![](assets/sms_byo_8.png)
 
 Webhook のインバウンド設定を作成し指定したら、SMS メッセージ用の[チャネル設定](sms-configuration-surface.md)を作成する必要があります。
 
