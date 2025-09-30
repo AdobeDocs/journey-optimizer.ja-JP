@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a73bf80fa61c6ce7c9be054e013e9a59ef3d9ba8
+source-git-commit: be07b0dfec31d23f741bfc2a9f89fe1a7891ef0b
 workflow-type: tm+mt
-source-wordcount: '2951'
+source-wordcount: '2954'
 ht-degree: 99%
 
 ---
@@ -290,7 +290,7 @@ ht-degree: 99%
       + [テストプロファイルの選択](using/content-management/test-profiles.md)
       + [テストプロファイルを使用したプレビュー](using/content-management/preview.md)
       + [テストプロファイルデータを使用した本配信前確認の送信](using/content-management/proofs.md)
-      + [メールレンダリングのテスト](using/content-management/rendering.md)
+      + [メールのレンダリングのテスト](using/content-management/rendering.md)
       + [コンテンツバリエーションのシミュレート](using/test-approve/simulate-sample-input.md)
       + [コンテンツバリアントの自動生成](using/test-approve/simulate-sample-input-generated.md)
       + [メールスパムレポート](using/content-management/spam-report.md)
@@ -911,6 +911,7 @@ ht-degree: 99%
    + [シードリストの使用](using/configuration/seed-lists.md)
    + [アーカイブのサポート](using/configuration/archiving-support.md)
    + [実行アドレスの変更](using/configuration/primary-email-addresses.md)
+   + [フィードバック Webhook の作成](using/configuration/feedback-webhooks.md)
 + ジャーニー設定 {#configure-journeys}
    + [ジャーニー設定](/help/rp_landing_pages/configure-journeys-landing-page.md)
    + [ジャーニー設定の基本を学ぶ](using/configuration/about-data-sources-events-actions.md)

@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c3700e139451cbd3a33af751d5715750a0e8675e
+source-git-commit: be07b0dfec31d23f741bfc2a9f89fe1a7891ef0b
 workflow-type: tm+mt
-source-wordcount: '1776'
+source-wordcount: '1783'
 ht-degree: 42%
 
 ---
@@ -21,7 +21,6 @@ ht-degree: 42%
 >abstract="**Adobe Journey Optimizer** は、新機能、既存機能の強化およびバグ修正を継続的に提供します。これらのリリースノートでは、すべての変更が各月の最終週にまとめられます。"
 
 [!DNL Adobe Journey Optimizer] は、新機能、既存機能の強化、およびバグ修正を継続的に提供します。これらのリリースノートでは、すべての変更が各月の最終週にまとめられます。[!DNL Adobe Journey Optimizer] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}を参照してください。
-
 
 ## 2025 年 9 月リリースノート {#25-9-rn}
 
@@ -78,8 +77,8 @@ ht-degree: 42%
 <tbody>
 <tr>
 <td>
-<p><a href="https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a> を活用し、Journey OptimizerでJourney Agentを利用できます。 これにより、自然言語インターフェイスを使用してジャーニーを分析できます。 エージェントは、オーディエンスを検出したり、ジャーニーでの競合やプロファイルのドロップオフをスケジュールしたりして、それらを解決する手順を実行できるようにします。 間もなく、代理店のサポートを受けたジャーニーを作成できるようになります。</p>
-<p>詳しくは、<a href="https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">詳細なドキュメント</a>を参照してください。</p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a> を活用し、Journey OptimizerでJourney Agentを利用できます。 これにより、自然言語インターフェイスを使用してジャーニーを分析できます。 エージェントは、オーディエンスを検出したり、ジャーニーでの競合やプロファイルのドロップオフをスケジュールしたりして、それらを解決する手順を実行できるようにします。 間もなく、代理店のサポートを受けたジャーニーを作成できるようになります。</p>
+<p>詳しくは、<a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2025 年 9 月 24 日（PT）</p>
 </td>
 </tr>
@@ -173,6 +172,11 @@ ht-degree: 42%
 
 
 ### 機能強化 {#sept-25-9-improvements}
+
+* **API トリガーキャンペーンの Webhook サポート**\
+  API トリガーキャンペーンで Webhook がサポートされるようになりました。 Webhook の URL を設定して、メッセージごとにリアルタイムのステータス更新を受信するようにすると、観測性が向上し、シームレスな監視と自動化が可能になります。 [詳細情報](../configuration/feedback-webhooks.md)
+
+  公開日：2025 年 9 月 29 日（PT）
 
 * **承認ポリシーの権限**
 承認ポリシーを作成または設定する際に、ジャーニー/キャンペーン作成者が独自のオブジェクトを承認できないようにするオプションを追加しました。 [ 詳細を読む ](../test-approve/approval-policies.md) – 公開日：2025 年 9 月 23 日（PT）
@@ -340,10 +344,5 @@ ht-degree: 42%
 * **API トリガーメールキャンペーンの高スループットモード**\
   API トリガーキャンペーンで新しい高スループットモードが使用できるようになりました。 このモードは、大規模なリアルタイムメッセージ（1 秒あたり最大 5000 トランザクション）向けに設計されており、より高い可用性とより低い待ち時間を提供します。\
   この機能は、Adobeの高スループットトランザクションメッセージのアドオン機能を購入した組織のメールチャネルでのみ使用できます。 詳しくは、Adobe担当者にお問い合わせください。
-
-  <!-- Availability date: Sept XX, 2025-->
-
-* **API トリガーキャンペーンの Webhook サポート**\
-  API トリガーキャンペーンで Webhook がサポートされるようになりました。 Webhook の URL を設定して、メッセージごとにリアルタイムのステータス更新を受信するようにすると、観測性が向上し、シームレスな監視と自動化が可能になります。
 
   <!-- Availability date: Sept XX, 2025-->
