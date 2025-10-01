@@ -15,7 +15,7 @@ exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
 source-git-commit: 58c9fb91bac95e343ddaee93eca24181b80c3894
 workflow-type: tm+mt
 source-wordcount: '1575'
-ht-degree: 3%
+ht-degree: 10%
 
 ---
 
@@ -27,18 +27,18 @@ ht-degree: 3%
 
 [!DNL Journey Optimizer] ランディングページでプロファイルデータを取得し、[!DNL Experience Platform] データセットを強化するには、ランディングページでフォームを活用します。
 
-## フォームプリセットの作成 {#create-form-preset}
+## フォームプリセットを作成 {#create-form-preset}
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_connection"
 >title="使用するエンドポイントを選択"
->abstract="フォーム送信時にデータが送信されるストリーミングエンドポイントを定義する。"
->additional-url="https://experienceleague.adobe.com/ja/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="HTTP API ストリーミング接続の作成"
+>abstract="フォーム送信時にデータが送信されるストリーミングエンドポイントを定義します。"
+>additional-url="https://experienceleague.adobe.com/ja/docs/experience-platform/sources/ui-tutorials/create/streaming/http" text="HTTP API ストリーミング接続を作成"
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_dataset"
 >title="データセットの選択"
->abstract="フォームの応答を保存および反映するデータセットを定義します。 入力して特定のデータセットを検索するか、リストから選択できます。"
+>abstract="フォームの応答を保存および反映するデータセットを定義します。入力して特定のデータセットを検索するか、リストから選択できます。"
 
 フォームを作成する前に、フォーム送信データを送信する接続エンドポイントと、フォームを通じて取り込まれたデータを保存するデータセットを選択する専用のプリセットを作成する必要があります。
 
@@ -87,13 +87,13 @@ ht-degree: 3%
 
 ![](assets/lp_form-list.png)
 
-## フォームの作成とデザイン {#create-form}
+## フォームを作成して設計 {#create-form}
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_form_preset"
 >title="プリセットを選択"
 >abstract="使用する接続を含む事前定義済みプリセットと、フォームの事前定義済みデータセットを選択します。"
->additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="フォームプリセットの作成"
+>additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/landing-pages/lp-forms#create-form-preset" text="フォームプリセットを作成"
 
 フォームを作成するには、次の手順に従います。
 
@@ -185,12 +185,12 @@ ht-degree: 3%
 
    ![](assets/lp_create-form-field-behaviors.png){width=75%}
 
-### 「ありがとうございます」ページの設定 {#thank-you-page}
+### サンキューページを設定 {#thank-you-page}
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_forms_thankyou_page"
->title="「ありがとうございました」ページ"
->abstract="ユーザーがフォームに入力または転送したときの動作を設定します。"
+>title="サンキューページ"
+>abstract="誰かがフォームに入力またはフォームを転送したときの動作を設定します。"
 
 「**[!UICONTROL ありがとうページ]**」セクションでは、ユーザーがフォームに入力したときの動作を設定します。
 
