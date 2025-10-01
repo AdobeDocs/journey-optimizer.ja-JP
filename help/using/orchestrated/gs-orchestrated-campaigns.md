@@ -6,10 +6,10 @@ description: 調整されたキャンペーンの開始方法について説明�
 short-description: 調整されたキャンペーンの主な機能とユースケースをご確認ください。
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
-source-git-commit: 4d5505cbb46bdff846218bfc3657c6a6e5447af3
+source-git-commit: 97f9c32435667fecb950892ed6f6531085055e59
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 98%
+source-wordcount: '652'
+ht-degree: 92%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_orchestrated"
 >title="campaigns_overview_orchestrated"
->abstract="<b>キャンペーンオーケストレーション</b><br/>リレーショナルデータセットを分割、組み合わせ、強化、操作して、オーディエンスを定義します<br/><br/> <b>マルチエンティティデータの活用</b><br/>調整されたキャンペーンでリレーショナルデータセットを活用して、セグメント化とパーソナライゼーション用のデータを強化する方法について説明します<br/><br/><b>アドホックセグメント化と正確なカウント</b><br/>正確なカウントを使用してセグメントを段階的に作成します<br/><br/><b>使用可能なチャネル</b><br/>メール、SMS、プッシュ通知、ダイレクトメール"
+>abstract="<b>キャンペーンオーケストレーション</b><br/>リレーショナルデータセットを分割、組み合わせ、強化、操作して、オーディエンスを定義します<br/><br/> <b> マルチエンティティデータの活用 </b><br/>Orchestrated キャンペーンでリレーショナルデータセットを活用して、セグメント化とパーソナライゼーションのためのデータを強化する方法を学びます。<br/><br/><b> アドホックセグメント化と正確なカウント </b><br/> 正確なカウントを使用してセグメントを段階的に構築します。<br/><br/><b> 利用可能なチャネル </b><br/> メール、SMS、プッシュ通知"
 
 [!DNL Adobe Journey Optimizer] のキャンペーンオーケストレーションは、チャネルをまたいだブランド主導の洗練されたマーケティングキャンペーンを強化し、エンゲージメント、収益、顧客の忠誠度を大規模に促進します。
 
