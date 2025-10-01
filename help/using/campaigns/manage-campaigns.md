@@ -13,27 +13,27 @@ exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 source-git-commit: 1215c7c2de090db7bcdb7943cc96599d9809972d
 workflow-type: tm+mt
 source-wordcount: '1863'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
 # キャンペーンへのアクセスと管理 {#manage-campaigns}
 
-キャンペーンを開始する前に、（この節で説明している [ 以下の前提条件を確認してくだ ](get-started-with-campaigns.md#permissions) い。 これらの前提条件が満たされたら、キャンペーンの作成を開始できます。
+キャンペーンを開始する前に、[この節](get-started-with-campaigns.md#permissions)に記載されている次の前提条件を確認してください。これらの前提条件が満たされたら、キャンペーンの作成を開始できます。
 
-* **キャンペーンへのアクセス**。 キャンペーンには、[ キャンペーンリスト ](#access) または [ キャンペーンカレンダー ](#calendar) からアクセスできます。
+* **キャンペーンへのアクセス**。[キャンペーンリスト](#access)または[キャンペーンカレンダー](#calendar)からキャンペーンにアクセスできます。
 
-* **キャンペーンを作成**。 作成手順は [ キャンペーンのタイプ ](get-started-with-campaigns.md#get-started-with-campaigns) によって異なります。 [ アクションキャンペーン ](../campaigns/create-campaign.md)、[API トリガーキャンペーン ](../campaigns/api-triggered-campaigns.md) または [ オーケストレーションされたキャンペーン ](../orchestrated/create-orchestrated-campaign.md) を作成する方法を説明します。
+* **キャンペーンを作成**&#x200B;します。作成手順は、[キャンペーンのタイプ](get-started-with-campaigns.md#get-started-with-campaigns)によって異なります。詳しくは、[アクションキャンペーン](../campaigns/create-campaign.md)、[API トリガーキャンペーン](../campaigns/api-triggered-campaigns.md)または[オーケストレーションキャンペーン](../orchestrated/create-orchestrated-campaign.md)を作成する方法を参照してください。
 
-* **キャンペーンプロパティを定義**。 [ アクションキャンペーン ](../campaigns/campaign-properties.md)、[API トリガーキャンペーン ](../campaigns/api-triggered-campaign-properties.md)、または [ オーケストレーションされたキャンペーン ](../orchestrated/create-orchestrated-campaign.md) のプロパティを設定する方法を説明します。
+* **キャンペーンのプロパティを定義**&#x200B;します。詳しくは、[アクションキャンペーン](../campaigns/campaign-properties.md)、[API トリガーキャンペーン](../campaigns/api-triggered-campaign-properties.md)または[オーケストレーションキャンペーン](../orchestrated/create-orchestrated-campaign.md)のプロパティを設定する方法を参照してください。
 
-* **キャンペーンチャネルとコンテンツを定義**。 [ アクションキャンペーン ](../campaigns/campaign-content.md)、[API トリガーキャンペーン ](../campaigns/api-triggered-campaign-content.md) または [ 調整されたキャンペーン ](../orchestrated/orchestrate-activities.md) のコンテンツを定義する方法を説明します。
+* **キャンペーンチャネルとコンテンツを定義**&#x200B;します。詳しくは、[アクションキャンペーン](../campaigns/campaign-content.md)、[API トリガーキャンペーン](../campaigns/api-triggered-campaign-content.md)または[オーケストレーションキャンペーン](../orchestrated/orchestrate-activities.md)のコンテンツを定義する方法を参照してください。
 
-* **キャンペーンのスケジュール設定** - スケジュール済みキャンペーンは [ キャンペーンカレンダーで ](#calendar) 確認できます。
+* **キャンペーンのスケジュール** - スケジュール済みキャンペーンは、[キャンペーンカレンダー](#calendar)で確認できます。
 
-次に、テストを開始し、キャンペーンを改善および調整してから実行します。 キャンペーンがライブになったら、キャンペーンを監視してレポートにアクセスできます。
+次に、キャンペーンを実行する前に、テストを開始し、改善と調整を行います。キャンペーンが公開されたら、キャンペーンを監視して、レポートにアクセスできます。
 
-すべてのキャンペーンのステータスとアラート [ この節 ](#statuses) を参照してください。
+すべてのキャンペーンのステータスとアラートについて詳しくは、[この節](#statuses)を参照してください。
 
 
 ## キャンペーンへのアクセス {#access}
@@ -48,7 +48,7 @@ ht-degree: 69%
 >title="アクション"
 >abstract="この節では、調整されたキャンペーン内で使用されるすべてのアクションを示します。"
 
-キャンペーンは、**[!UICONTROL キャンペーン]** メニューからアクセスできます。 タブを使用して、タイプ（**アクション** キャンペーン、**API トリガー** キャンペーン、および **オーケストレーション** キャンペーン別にキャンペーンを参照します。 [ キャンペーンのタイプ ](get-started-with-campaigns.md#get-started-with-campaigns) について詳しくは、こちらを参照してください。 使用できるタイプは、使用許諾契約と権限によって異なります。
+キャンペーンは、**[!UICONTROL キャンペーン]**&#x200B;メニューからアクセスできます。以下のタブを使用して、**アクション**&#x200B;キャンペーン、**API トリガー**&#x200B;キャンペーン、**オーケストレーション**&#x200B;キャンペーンなどのタイプ別にキャンペーンを参照します。詳しくは、[キャンペーンのタイプ](get-started-with-campaigns.md#get-started-with-campaigns)を参照してください。使用可能なタイプは、ライセンス契約と権限によって異なります。
 
 >[!BEGINTABS]
 
@@ -84,20 +84,20 @@ ht-degree: 69%
 
 ![キャンペーンの在庫を示す画像](assets/inventory-actions.png)
 
-* **[!UICONTROL すべての時間レポートを表示]** / **[!UICONTROL 過去 24 時間のレポートを表示]** - レポートにアクセスして、キャンペーンの影響とパフォーマンスを測定および視覚化します。 [ キャンペーンレポート ](../reports/campaign-global-report-cja.md) の詳細情報。
-* **[!UICONTROL タグを編集]** - キャンペーンに関連付けられたタグを編集します。 詳細情報 [ キャンペーンでのタグの使用 ](../start/search-filter-categorize.md#add-tags-to-an-object)
-* **[!UICONTROL 複製]** – このオプションを使用して、キャンペーンを複製します（例：停止されたオーケストレーションされたキャンペーンを実行する場合）。 [詳細情報](#duplicate-a-campaign)
-* **[!UICONTROL 削除]** – このオプションを使用して、キャンペーンを削除します。 [詳細情報](#delete-a-campaign)
-* **[!UICONTROL アーカイブ]** - キャンペーンをアーカイブします。すべてのアーカイブ済みキャンペーンは、最終変更日から 30 日後にローリング再スケジュールで削除されます。このアクションは、「ドラフト **[!UICONTROL キャンペーンを除くすべてのキャンペーンで使用]** きます。 詳細情報：[ キャンペーンのアーカイブ ](#archive-a-campaign)。
+* **[!UICONTROL 全期間のレポートを表示]**／**[!UICONTROL 過去 24 時間のレポートを表示]** - レポートにアクセスして、キャンペーンの影響とパフォーマンスを測定および視覚化します。詳しくは、[キャンペーンレポート](../reports/campaign-global-report-cja.md)を参照してください。
+* **[!UICONTROL タグを編集]** - キャンペーンに関連付けられたタグを編集します。詳しくは、[キャンペーンでのタグの使用](../start/search-filter-categorize.md#add-tags-to-an-object)を参照してください。
+* **[!UICONTROL 複製]** - このオプションを使用して、例えば、停止済みのオーケストレーションキャンペーンの実行に、キャンペーンを複製します。[詳細情報](#duplicate-a-campaign)
+* **[!UICONTROL 削除]** - このオプションを使用して、キャンペーンを削除します。[詳細情報](#delete-a-campaign)
+* **[!UICONTROL アーカイブ]** - キャンペーンをアーカイブします。すべてのアーカイブ済みキャンペーンは、最終変更日から 30 日後にローリング再スケジュールで削除されます。このアクションは、**[!UICONTROL ドラフト]**&#x200B;キャンペーンを除くすべてのキャンペーンで使用できます。詳しくは、[キャンペーンのアーカイブ](#archive-a-campaign)を参照してください。
 
 アクションおよび API トリガーキャンペーンの場合は、以下の追加アクションを使用できます。
 
-* **[!UICONTROL パッケージに追加]** - キャンペーンを別のサンドボックスに書き出すには、パッケージに追加します。詳細情報 [ 別のサンドボックスへのオブジェクトの書き出し ](../configuration/copy-objects-to-sandbox.md)
+* **[!UICONTROL パッケージに追加]** - キャンペーンを別のサンドボックスに書き出すには、パッケージに追加します。詳しくは、[別のサンドボックスへのオブジェクトの書き出し](../configuration/copy-objects-to-sandbox.md)を参照してください。
 * **[!UICONTROL ドラフトバージョンを開く]** - キャンペーンの新しいバージョンが作成され、まだアクティブ化されていない場合は、このアクションを使用して、そのドラフトバージョンにアクセスできます。
 
-## Campaign のライフサイクル {#statuses}
+## キャンペーンのライフサイクル {#statuses}
 
-Adobe Journey Optimizerでは、各キャンペーンは、インターフェイスのステータスに反映されるライフサイクルを通じて移動します。 使用可能なステータスは、キャンペーンのタイプ（アクション、API トリガー、オーケストレーション）によって異なります。 以下のタブを使用して、各キャンペーンタイプに固有のライフサイクルとステータスを調べます。
+Adobe Journey Optimizer では、各キャンペーンはインターフェイスのステータスに反映されるライフサイクルを通じて移動します。使用可能なステータスは、キャンペーンのタイプ（アクション、API トリガー、オーケストレーション）によって異なります。以下のタブを使用して、各キャンペーンタイプに固有のライフサイクルとステータスを探索します。
 
 >[!BEGINTABS]
 
@@ -167,25 +167,25 @@ Adobe Journey Optimizerでは、各キャンペーンは、インターフェイ
 
 キャンペーンカレンダーに移動するには：
 
-1. ![ カレンダー ](assets/do-not-localize/Smock_Calendar_18_N.svg) アイコンをクリックして、キャンペーン カレンダーにアクセスします。
+1. ![カレンダー](assets/do-not-localize/Smock_Calendar_18_N.svg) アイコンをクリックして、キャンペーンカレンダーにアクセスします。
 
-1. 週間を移動するには、カレンダーの上にある矢印ボタンまたは日付選択を使用します。
+1. 週間を移動するには、カレンダーの上にある矢印ボタンまたは日付セレクターを使用します。
 
    カレンダーには、現在の週にスケジュールされているすべてのキャンペーンが表示されます。
 
    ![ライブキャンペーンを表示するカレンダー表示](assets/campaigns-timeline.png)
 
-1. ![ 歯車 ](assets/do-not-localize/Smock_Gears_18_N.png) アイコンをクリックして、数日または数週間にわたる項目の表示を切り替えます。
+1. ![歯車](assets/do-not-localize/Smock_Gears_18_N.png) アイコンをクリックして、数日間または数週間にまたがる項目の表示を切り替えます。
 
    ![ライブキャンペーンを表示するカレンダー表示](assets/campaign-long-term.png)
 
-1. ![ カレンダーを追加 ](assets/do-not-localize/Smock_CalendarAdd_18_N.svg) アイコンをクリックして、最大 3 つの外部カレンダーを管理および追加します。
+1. ![カレンダーを追加](assets/do-not-localize/Smock_CalendarAdd_18_N.svg) アイコンをクリックして、最大 3 つの外部カレンダーを管理および追加します。
 
-   ![ 外部カレンダーを表示するカレンダービュー ](assets/campaign-external-calendar.png)
+   ![外部カレンダーを示すカレンダー表示](assets/campaign-external-calendar.png)
 
-1. イベント名、開始日および終了日を含む CSV ファイルをドラッグ&amp;ドロップします。
+1. イベント名、開始日および終了日を含む CSV ファイルをドラッグ＆ドロップします。
 
-   アップロードされたイベントは、組織内のすべてのユーザーに対して表示され、ジャーニーカレンダーとキャンペーンカレンダーの両方に表示されます。
+   アップロードされたイベントは、組織内のすべてのユーザーが閲覧でき、ジャーニーカレンダーとキャンペーンカレンダーの両方に表示されます。
 
    +++CSV 形式は次のようになります。
 
@@ -195,11 +195,11 @@ Adobe Journey Optimizerでは、各キャンペーンは、インターフェイ
 
    +++
 
-1. 必要に応じて、追加した外部カレンダーの非表示、表示、削除を行うことができます。
+1. 必要に応じて、追加した外部カレンダーを表示するか非表示にしたり、削除したりできます。
 
-   ![ 外部カレンダーを表示するカレンダービュー ](assets/campaign-manage-calendar.png)
+   ![外部カレンダーを示すカレンダー表示](assets/campaign-manage-calendar.png)
 
-1. キャンペーンの詳細を表示するには、視覚的なブロックをクリックして詳細を開きます。 情報パネルが開き、タイプ、レポートへのアクセス、割り当てたタグなど、キャンペーンに関する様々な情報が表示されます。
+1. キャンペーンの詳細を確認するには、ビジュアルブロックをクリックして詳細を開きます。情報パネルが開き、タイプ、レポートへのアクセス、割り当てたタグなど、キャンペーンに関する様々な情報が表示されます。
 
    ![情報パネルを開いた状態のキャンペーンリスト](assets/campaign-rail.png)
 
@@ -248,19 +248,19 @@ Adobe Journey Optimizerでは、各キャンペーンは、インターフェイ
 
 ## キャンペーンの削除 {#delete}
 
-キャンペーンを削除するには、省略記号 ![ その他のアクション ボタンを示す画像 ](assets/do-not-localize/rule-builder-icon-more.svg) ボタンを使用し、「**[!UICONTROL 削除]** を選択します。
+キャンペーンを削除するには、省略記号 ![その他のアクションボタンを示す画像 ](assets/do-not-localize/rule-builder-icon-more.svg) ボタンを使用して、「**[!UICONTROL 削除]**」を選択します。
 
 ![](assets/delete-a-campaign.png){width="70%" align="left"}
 
 >[!IMPORTANT]
 >
->このオプションは、**[!UICONTROL ドラフト]** キャンペーンでのみ使用できます。
+>このオプションは、**[!UICONTROL ドラフト]**&#x200B;キャンペーンでのみ使用できます。
 
 
 ## キャンペーンの複製 {#duplicate}
 
-例えば、キャンペーンを停止した場合にキャンペーンを複製するには、省略記号 ![ その他のアクションボタンを示す画像 ](assets/do-not-localize/rule-builder-icon-more.svg) ボタンを使用して、「複製 **[!UICONTROL を選択し]** す。
+キャンペーンを複製するには（例えば、キャンペーンが停止されている場合）、省略記号 ![ その他のアクションボタンを示す画像 ](assets/do-not-localize/rule-builder-icon-more.svg) ボタンを使用して、「**[!UICONTROL 複製]**」を選択します。
 
-キャンペーンの名前を入力して確認します。
+キャンペーンの名前を入力して確定します。
 
 キャンペーンが作成され、キャンペーンリストに追加されます。
