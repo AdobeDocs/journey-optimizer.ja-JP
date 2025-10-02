@@ -1,6 +1,6 @@
 ---
-title: 書き出したオファーカタログへのアクセス
-description: Adobe Experience Platform に書き出したオファーカタログにアクセスする方法を学ぶ
+title: エクスポートしたオファーカタログへのアクセス
+description: Adobe Experience Platform にエクスポートしたオファーカタログにアクセスする方法を学ぶ
 badge: label="レガシー" type="Informative"
 feature: Decision Management, Datasets
 topic: Integrations
@@ -14,9 +14,9 @@ ht-degree: 100%
 
 ---
 
-# 書き出したオファーカタログへのアクセス {#access-exported-catalog}
+# エクスポートしたオファーカタログへのアクセス {#access-exported-catalog}
 
-書き出したオファーカタログには、Adobe Experience Platform の&#x200B;**[!UICONTROL データセット]**&#x200B;メニューでアクセスできます。オファーライブラリのオブジェクトごとに 1 つのデータセットが作成されます。
+エクスポートしたオファーカタログには、Adobe Experience Platform の&#x200B;**[!UICONTROL データセット]**&#x200B;メニューでアクセスできます。オファーライブラリのオブジェクトごとに 1 つのデータセットが作成されます。
 
 ![](../assets/datasets-list.png)
 

@@ -194,4 +194,4 @@ HTML コンポーネントを使用して、改行、太字、斜体などのリ
 
 このビデオでは、フラグメント内の HTML コンポーネントを編集可能にして、コンテンツとスタイルの両方を動的に更新できるようにする方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464369/?learn=on&#x26;enablevpops&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)

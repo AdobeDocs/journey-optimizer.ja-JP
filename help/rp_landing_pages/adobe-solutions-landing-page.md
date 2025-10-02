@@ -6,7 +6,7 @@ description: アドビソリューションを使用した送信
 redpen-status: CREATED_||_2025-08-11_21-17-09
 exl-id: a8d34150-32f1-4c58-8728-ba73b7e90ec4
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer は、**Adobe Campaign Standard**、**Campaign v7／v8**
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Adobe Journey Optimizer と Adobe Campaign Standard の統合
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer を Adobe Campaign Standard と統合して、メール�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Adobe Journey Optimizer と Adobe Campaign v7／v8 の統合
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer を Adobe Campaign v7／v8 に接続して、メール�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Adobe Journey Optimizer と Marketo Engage の統合
 

@@ -11,7 +11,7 @@ version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '109'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -53,4 +53,4 @@ ht-degree: 71%
 
 `setHours(nowWithDelta(1, "days"), 20)`
 
-明日の午後 8:XY に返します（XY は現在の時間評価の時点の分）。 評価が午前 2:45 に行われる場合、返される時刻は午後 8:45 になります。
+明日の午後 8:XY を返します（XY は現在時刻の分）。評価が午前 2:45 に行われた場合、返される時刻は午後 8:45 になります。

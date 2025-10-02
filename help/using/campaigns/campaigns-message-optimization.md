@@ -10,7 +10,7 @@ exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
 source-git-commit: 1c47c89ae86844399240d48c4d19f834d90c7598
 workflow-type: tm+mt
 source-wordcount: '1088'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 99%
 
    ![](assets/msg-optimization-create-targeting.png){width=85%}
 
-1. 必要に応じて「**[!UICONTROL フォールバックコンテンツを有効にする]**」オプションを選択します。 フォールバックコンテンツを使用すると、ターゲティングルールが選定されていない場合に、オーディエンスはデフォルトコンテンツを受信できます。
+1. 必要に応じて、「**[!UICONTROL フォールバックコンテンツを有効にする]**」オプションを選択します。フォールバックコンテンツを使用すると、ターゲティングルールが選定されていない場合に、オーディエンスはデフォルトコンテンツを受信できます。
 
    >[!NOTE]
    >
@@ -186,4 +186,4 @@ E.g. explaining how a marketer can look at the report to determine which treatme
 
 アクションまたは API トリガーキャンペーンでメッセージの最適化を活用する方法について説明します。 サブオーディエンスをターゲットにする方法、場所ごとにメッセージのバリエーションを作成する方法、フォールバックコンテンツを有効にする方法、単一のキャンペーン内で複数の実験を実行する方法について説明します。また、このチュートリアルでは、メッセージの一貫性を維持しながらマルチチャネルキャンペーンを管理する方法についても説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3470369?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)

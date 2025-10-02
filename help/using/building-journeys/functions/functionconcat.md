@@ -5,13 +5,13 @@ description: concat 関数について説明します
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: concat，関数，式，ジャーニー
+keywords: concat, 関数, 式, ジャーニー
 exl-id: 690c8aa9-f754-4720-b4ed-a338e5d3b79d
 version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '44'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 

@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: AEM テンプレートの操作
-description: AEM でテンプレートを作成し、Journey Optimizer に書き出す方法を説明します。
+description: AEM でテンプレートを作成し、Journey Optimizer にエクスポートする方法を説明します。
 hide: true
 hidefromtoc: true
 feature: Overview
@@ -50,13 +50,13 @@ Adobe Journey Optimizer で Adobe Experience Manager の使用をさらに最適
 
 * Experience Manager テンプレートのパーソナライゼーションを有効にするには、適切な Journey Optimizer 構文が必要です。[詳細情報](../personalization/personalization-syntax.md)
 
-* 一括テンプレートの書き出しは現在サポートされていません。テンプレートは個別に書き出す必要があります。
+* 一括テンプレートのエクスポートは現在サポートされていません。テンプレートは個別にエクスポートする必要があります。
 
-* Experience Manager および Journey Optimizer の同期は現在使用できません。Journey Optimizer にテンプレートを送信した後に Experience Manager テンプレートに変更を加えた場合、ユーザーはテンプレートを再度書き出し、Journey Optimizer に再送信する必要があります。
+* Experience Manager および Journey Optimizer の同期は現在使用できません。Journey Optimizer にテンプレートを送信した後に Experience Manager テンプレートに変更を加えた場合、ユーザーはテンプレートを再度エクスポート、Journey Optimizer に再送信する必要があります。
 
 ## テンプレートを Journey Optimizer に送信する{#aem-templates-send}
 
-Adobe Experience Manager テンプレートを Adobe Journey Optimizer に書き出すには、次の手順に従います。
+Adobe Experience Manager テンプレートを Adobe Journey Optimizer にエクスポートするには、次の手順に従います。
 
 1. Adobe Experience Manager のホームページで「**[!UICONTROL アウトバウンドマーケティング]**」を選択します。
 
@@ -68,7 +68,7 @@ Adobe Experience Manager テンプレートを Adobe Journey Optimizer に書き
 
    ![](assets/aem_ajo_4.png)
 
-1. Journey Optimizer に書き出すテンプレートを選択し、詳細メニューから「**[!UICONTROL 送信先]**」を選択します。
+1. Journey Optimizer にエクスポートするテンプレートを選択し、詳細メニューから「**[!UICONTROL 送信先]**」を選択します。
 
    ![](assets/aem-advanced-menu.png)
 
@@ -76,7 +76,7 @@ Adobe Experience Manager テンプレートを Adobe Journey Optimizer に書き
 
    ![](assets/aem-send-template-settings.png)
 
-1. 「**[!UICONTROL 送信]**」ボタンをクリックした後、書き出し処理が開始されます。書き出しが完了すると、ユーザーインターフェイスに「（テンプレート名）が AJO に正常に送信されました」というメッセージが表示されます。
+1. 「**[!UICONTROL 送信]**」ボタンをクリックした後、エクスポート処理が開始されます。エクスポートが完了すると、ユーザーインターフェイスに「（テンプレート名）が AJO に正常に送信されました」というメッセージが表示されます。
 
 テンプレートは、選択したサンドボックスの Adobe Journey Optimizer コンテンツテンプレートに追加されます。
 

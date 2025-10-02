@@ -6,7 +6,7 @@ description: アクションの設定
 redpen-status: CREATED_||_2025-08-11_21-11-53
 exl-id: 4ce42dab-7e8f-454d-8f34-e713312ad7c5
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer のアクションの設定により、カスタマー�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 カスタムアクションの基本を学ぶ
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer でカスタムアクションを設定および使用�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 カスタムアクションの設定方法
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer でカスタムアクションを設定および使用�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 カスタムアクションでの API 呼び出し応答の使用
 

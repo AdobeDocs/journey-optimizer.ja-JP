@@ -6,7 +6,7 @@ description: アクティビティ
 redpen-status: CREATED_||_2025-08-11_20-09-57
 exl-id: 9342ef70-43a7-4763-9ae0-bb95b8b7f7f1
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer のアクティビティとは、ユーザーがイベ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 ジャーニーのアクティビティの概要
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer のイベント、オーケストレーション、ア�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 一般的なイベントの使用
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer のイベント、オーケストレーション、ア�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 反応イベントの設定
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer のイベント、オーケストレーション、ア�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 オーディエンスの選定イベント
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer のイベント、オーケストレーション、ア�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 条件アクティビティの使用
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer のイベント、オーケストレーション、ア�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 待機アクティビティの設定
 

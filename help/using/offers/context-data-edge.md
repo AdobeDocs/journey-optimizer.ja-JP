@@ -11,7 +11,7 @@ exl-id: c9e14d4d-f2e2-43f9-b1c5-4b005ce858ad
 source-git-commit: e6193d6204f722df7e6c02aaed80abc53b523755
 workflow-type: tm+mt
 source-wordcount: '813'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 98%
 
 >[!ENDSHADEBOX]
 
-## Edge Decisioning リクエストでコンテキストデータを渡すための前提条件 {#prerequisites}
+## Edge 決定リクエストでコンテキストデータを渡す前提条件 {#prerequisites}
 
 Decisioning API を使用して自由な形式でコンテキストを渡すのではなく、Edge 決定コンテキストペイロードは XDM エクスペリエンスイベントに準拠する必要があります。これを行うには、データ収集に使用される「XDM エクスペリエンスイベント」の一部としてコンテキストを定義する必要があります。
 

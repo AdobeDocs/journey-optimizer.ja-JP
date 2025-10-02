@@ -13,7 +13,7 @@ exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
 source-git-commit: cd688d0c140404a846df09a53f37be8d0fe5633e
 workflow-type: tm+mt
 source-wordcount: '927'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -88,24 +88,24 @@ ht-degree: 79%
    >
    >キーの長さは 2048 または 4096 ビットのみです。 サブドメインが送信された後は変更できません。
 
-1. 「**[!UICONTROL CSR をダウンロード]**」をクリックして、フォームをローカルコンピューターに保存します。
+1. 「**[!UICONTROL CSR をダウンロード]**」をクリックして、フォームをローカルコンピュータに保存します。
 
-1. これを認証局（CA）に送信して、SSL 証明書を取得します。 この CSR を署名のために CA に送信する前に、考慮すべき重要な点がいくつかあります。
+1. これを認証局（CA）に送信して、SSL 証明書を取得します。この CSR を署名のために CA に送信する前に、考慮すべき重要な点がいくつかあります。
 
-   * 手順 3 でダウンロードした CSR は、data.subdomain.com専用です。
+   * 手順 3 でダウンロードした CSR は、data.subdomain.com 専用です。
 
-   * ただし、証明書は、1 つの証明書内の Subject Alternative Name （SAN; サブジェクト代替名）エントリとして、data.subdomain.comとcdn.subdomain.comの両方に対応している必要があります。 例えば、example.adobe.comをデリゲートしている場合、data.subdomain.comはdata.example.adobe.comに、cdn.subdomain.comはcdn.example.adobe.comに対応します。
+   * ただし、証明書は、単一の証明書内のサブジェクト代替名（SAN）エントリとして、data.subdomain.com と cdn.subdomain.com の両方に対応している必要があります。例えば、example.adobe.com をデリゲートしている場合、data.subdomain.com は data.example.adobe.com に対応し、cdn.subdomain.com は cdn.example.adobe.com に対応します。
 
-   * データ （data.example.adobe.com）と CDN （cdn.example.adobe.com） サブドメインの両方を、同じ証明書内のピアエントリとして追加する必要があります。
+   * データ（data.example.adobe.com）サブドメインと CDN（cdn.example.adobe.com）サブドメインの両方を、同じ証明書のピアエントリとして追加する必要があります。
 
-   * ほとんどの CA では、署名プロセス中に SAN （CDN サブドメインなど）を追加できます
+   * ほとんどの CA では、署名プロセス中に SAN（CDN サブドメインなど）を追加できます
 
-      * CA ポータルを使用（推奨される場合）、または
-      * ポータルオプションが利用できない場合は、サポートチームに手動でリクエストします。
+      * CA ポータル経由（使用可能な場合は推奨）、または
+      * ポータルオプションが使用できない場合は、サポートチームに手動でリクエストすることで追加できます。
 
-   * 署名が完了すると、CA は Data domain と CDN サブドメインの両方をカバーする 1 つの証明書を発行します。
+   * 署名が完了すると、CA はデータドメインと CDN サブドメインの両方に対応する単一の証明書を発行します。
 
-1. 取得したら、「**[!UICONTROL SSL 証明書をアップロード]**」をクリックし、完全な証明書チェーンを使用して.pem 形式で [!DNL Journey Optimizer] に証明書をアップロードします。 .pem ファイル形式の例を次に示します。
+1. 取得したら、「**[!UICONTROL SSL 証明書をアップロード]**」をクリックし、完全な証明書チェーンを含む .pem 形式で証明書を [!DNL Journey Optimizer] にアップロードします。.pem ファイル形式のサンプルを以下に示します。
 
    ```
    -----BEGIN CERTIFICATE-----

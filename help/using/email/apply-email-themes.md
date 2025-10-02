@@ -81,7 +81,7 @@ If you apply a theme to a content using a [fragment](../content-management/fragm
 
    ![](assets/theme-select.png)
 
-1. 「**[!UICONTROL 一般設定]**」タブで、ブランドに特定の名前を付けてテーマの定義を開始します。デフォルトのメールの幅を調整したり、現在のテーマを書き出して[サンドボックス間で共有](../configuration/copy-objects-to-sandbox.md)したりすることもできます。
+1. 「**[!UICONTROL 一般設定]**」タブで、ブランドに特定の名前を付けてテーマの定義を開始します。デフォルトのメールの幅を調整したり、現在のテーマをエクスポートして[サンドボックス間で共有](../configuration/copy-objects-to-sandbox.md)したりすることもできます。
 
    <!--![](assets/theme-general-settings.png)-->
 

@@ -6,7 +6,7 @@ description: データ管理
 redpen-status: CREATED_||_2025-08-11_21-06-39
 exl-id: d60bd99c-aa17-4ef0-85a9-384ef21b96da
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer のデータ管理を使用すると、柔軟性、セ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 データ管理の基本を学ぶ
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer の高度なデータ保持、書き出し、削除、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Adobe Journey Optimizer のスキーマの操作
 
@@ -40,7 +40,7 @@ Adobe Experience Platform のスキーマを理解および管理して、Journe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 Journey Optimizer データセット
 
@@ -50,7 +50,7 @@ TTL ルール、書き出し、SQL クエリなど、Adobe Journey Optimizerで�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Adobe Experience Platform データの使用
 
@@ -60,7 +60,7 @@ Journey Optimizer で Adobe Experience Platform のデータセットを有効�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Journey Optimizer のクエリの基本を学ぶ
 

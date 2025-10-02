@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '512'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 98%
 * POST と PUT の呼び出しメソッドのみをサポートしています。 
 * クエリパラメーターまたはヘッダーの名前を、「.」または「$」で開始することはできません。 
 * IP アドレスは使用できません。 
-* 内部Adobe アドレス（.adobe.）は許可されていません。
+* 内部アドビアドレス（.adobe.）は許可されていません。
 
 ## イベントの制限 {#events-limitations}
 

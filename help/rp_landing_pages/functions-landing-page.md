@@ -6,7 +6,7 @@ description: ヘルパー関数リスト
 redpen-status: CREATED_||_2025-08-12_00-34-42
 exl-id: 39d68cae-8d6b-4e34-bcd9-75d9531bc6aa
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '301'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer のヘルパー関数を使用すると、パーソナ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 ヘルパー関数の基本を学ぶ
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer でのデータ操作とパーソナライゼーショ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 集計関数ライブラリ
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer でのデータ操作とパーソナライゼーショ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 演算関数ライブラリ
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer でのデータ操作とパーソナライゼーショ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 配列およびリスト関数リファレンス
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer でのデータ操作とパーソナライゼーショ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 ブール関数と比較関数ライブラリ
 

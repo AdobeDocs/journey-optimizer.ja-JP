@@ -13,7 +13,7 @@ exl-id: 617d623c-e038-4b5b-a367-5254116b7815
 source-git-commit: 8701afe345f0eeed1503e4765d4715398823b102
 workflow-type: tm+mt
 source-wordcount: '179'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->サポートされるチャネルは、[ メール ](../email/get-started-email.md)、[SMS/MMS/RCS](../sms/get-started-sms.md)、[ プッシュ通知 ](../push/get-started-push.md)、[WhatsApp](../whatsapp/get-started-whatsapp.md)、[LINE](../line/get-started-line.md)、[ ダイレクトメール ](../direct-mail/get-started-direct-mail.md)、[ アプリ内 ](../in-app/get-started-in-app.md)、[Web](../web/get-started-web.md)、[ コードベースのエクスペリエンス ](../code-based/get-started-code-based.md) です。
+>サポートされているチャネル：[メール](../email/get-started-email.md)、[SMS／MMS／RCS](../sms/get-started-sms.md)、[プッシュ通知](../push/get-started-push.md)、[WhatsApp](../whatsapp/get-started-whatsapp.md)、[LINE](../line/get-started-line.md)、[ダイレクトメール](../direct-mail/get-started-direct-mail.md)、[アプリ内](../in-app/get-started-in-app.md)、[Web](../web/get-started-web.md)、[コードベースのエクスペリエンス](../code-based/get-started-code-based.md)。
 >
 >使用できるチャネルは、ライセンスモデルとアドオンによって異なります。
 
@@ -55,4 +55,4 @@ ht-degree: 90%
 
 アクションキャンペーンの作成方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3412405?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)

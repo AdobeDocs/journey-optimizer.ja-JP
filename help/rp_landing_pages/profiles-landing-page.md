@@ -6,7 +6,7 @@ description: プロファイル
 redpen-status: CREATED_||_2025-08-11_20-46-38
 exl-id: 9fc17481-1983-4462-b904-4b24d69c797d
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer のプロファイルを使用すると、複数のソ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 プロファイルの概要
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer でプロファイルを作成、管理および活用�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 テストプロファイルの作成方法
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer でテストプロファイルを作成して、ジャ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 計算属性の操作
 

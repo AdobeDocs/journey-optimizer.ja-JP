@@ -36,4 +36,4 @@ ht-degree: 100%
 
 条件ルールビルダーを使用して動的コンテンツを作成する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3413673?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3409815?quality=12)

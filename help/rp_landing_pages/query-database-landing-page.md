@@ -6,7 +6,7 @@ description: データベースのクエリ
 redpen-status: CREATED_||_2025-08-11_20-25-18
 exl-id: 57ea921d-e881-44fb-b20a-a46028180e64
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer の強力なデータベースクエリツールを使�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 調整されたキャンペーンでのルールビルダーの使用
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer のルールビルダーを使用して、オーディ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Adobe Journey Optimizer で最初のルールを作成する方法
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer で最初のルールを作成する方法
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Adobe Journey Optimizer で式を編集する方法
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer で式を編集する方法
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Adobe Journey Optimizer でのリターゲティングクエリの作成
 

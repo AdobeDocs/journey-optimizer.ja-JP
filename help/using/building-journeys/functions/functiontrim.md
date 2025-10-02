@@ -5,13 +5,13 @@ description: trim 関数について説明します
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: トリミング，関数，式，ジャーニー
+keywords: trim, 関数, 式, ジャーニー
 exl-id: 1ee126fd-d021-4060-9538-aca5cabf8164
 version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '35'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 

@@ -10,7 +10,7 @@ exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 source-git-commit: ef042e3a93dccc29d66eb9ab7d837f7914a8959d
 workflow-type: tm+mt
 source-wordcount: '2753'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 99%
 >title="オファー実施要件について"
 >abstract="このセクションでは、決定ルールを使用して、オファーの対象となるユーザーを決定できます。"
 
-<!--additional-url="https://video.tv.adobe.com/v/341373?captions=jpn" text="Watch demo video"-->
+<!--additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
@@ -273,7 +273,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->カウンターがエッジからハブに、またはハブからエッジ領域に伝播される場合、最大 30 分の遅延が適用される場合があります。
+>カウンターがエッジリージョンからハブリージョンに、またはハブリージョンからエッジリージョンに生成される場合、最大 30 分の遅延が発生することがあります。
 
 組織に関連付けられているハブとエッジのリージョンについて詳しくは、アドビ担当者にお問い合わせください。
 

@@ -6,7 +6,7 @@ description: ジャーニーレポート
 redpen-status: CREATED_||_2025-08-11_20-51-07
 exl-id: 1feffdeb-2bdc-4197-8c04-e4ae48879401
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer のジャーニーレポートは、メール、SMS、we
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 コードベースのジャーニーレポート
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer のジャーニーレポートは、メール、SMS、we
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open.svg)
 
 メールのジャーニーレポート
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer のジャーニーレポートは、メール、SMS、we
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 アプリ内メッセージのインサイト
 

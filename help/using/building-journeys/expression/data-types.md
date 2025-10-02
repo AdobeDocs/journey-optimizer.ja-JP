@@ -197,7 +197,7 @@ toDateTime 関数でカプセル化できます。
 
 値の逆シリアル化とシリアル化に DateTimeFormatter ISO_OFFSET_DATE_TIME を使用します。[詳細情報](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME){_blank}
 
-エポック値を表す整数を渡すこともできます。[詳細情報](https://www.epochconverter.com){_blank}。
+エポック値を表す整数を渡すこともできます。[詳細情報](https://www.epochconverter.com){_blank}
 
 タイムゾーンは、オフセットまたはタイムゾーンコード（例：Europe/Paris、Z は UTC を意味）で指定できます。
 

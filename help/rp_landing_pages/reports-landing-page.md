@@ -6,7 +6,7 @@ description: カスタムジャーニーレポート
 redpen-status: CREATED_||_2025-08-11_20-54-10
 exl-id: 1e685fcd-5bb1-4792-b851-e76b7273ddc7
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer のカスタムジャーニーレポートを使用す�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 ジャーニーレポートの作成と分析
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer のカスタムジャーニーレポートを使用す�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 ステップイベントフィールドのリスト
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer でのレポートおよびデータ管理タスクを�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 従来のステップイベントフィールド
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer でのレポートおよびデータ管理タスクを�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 データ分析用の SQL クエリの例
 

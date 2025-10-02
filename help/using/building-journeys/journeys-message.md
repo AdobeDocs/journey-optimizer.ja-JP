@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '557'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -127,11 +127,11 @@ ht-degree: 92%
    >
    >* メールおよびプッシュ通知の場合、送信時間の最適化を有効にできます。[詳細情報](send-time-optimization.md)
 
-1. アクティビティに応じて、選択したチャネルに固有の詳細パラメーターを表示したり、実行アドレスなどの一部のデフォルト値を上書きしたりできます。 [詳細情報](about-journey-activities.md#advanced-parameters)
+1. アクティビティに応じて、選択したチャネルに固有の詳細設定パラメーターを表示し、実行アドレスなどの一部のデフォルト値を上書きできます。[詳細情報](about-journey-activities.md#advanced-parameters)
 
    >[!NOTE]
    >
-   >詳細設定パラメーターが非表示の場合は、右側のパネルの上部にある **[!UICONTROL 読み取り専用フィールドを表示]** ボタンをクリックします。
+   >詳細設定パラメーターが非表示になっている場合は、右側のパネルの上部にある「**[!UICONTROL 読み取り専用フィールドを表示]**」ボタンをクリックします。
 
 ## ライブコンテンツの更新 {#update-live-content}
 

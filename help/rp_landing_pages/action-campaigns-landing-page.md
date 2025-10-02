@@ -6,7 +6,7 @@ description: アクションキャンペーン
 redpen-status: CREATED_||_2025-08-11_20-22-10
 exl-id: 577ba2bf-0491-4e4a-bbf3-0cfb374086c1
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer のアクションキャンペーンを使用すると�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 アクションキャンペーンの作成
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer のアクションキャンペーンを使用すると�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 アクションキャンペーンのプロパティの定義
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer のアクションキャンペーンを使用すると�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 キャンペーンアクションの設定
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer のアクションキャンペーンを使用すると�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 メッセージの最適化の活用
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer のアクションキャンペーンを使用すると�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/pencil-alt.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/pencil-alt.svg)
 
 キャンペーンコンテンツの編集
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer のアクションキャンペーンを使用すると�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
 
 キャンペーンオーディエンスの定義
 

@@ -66,7 +66,7 @@ ht-degree: 100%
 
    ![](assets/email_designer_create_options.png)
 
-1. メールコンテンツを定義し、パーソナライズしたら、コンテンツを書き出して、検証したり、後で使用したりできます。 「**[!UICONTROL HTML を書き出す]**」をクリックして、 コンピューターに HTML とアセットを含む zip ファイルを保存します。
+1. メールコンテンツを定義し、パーソナライズしたら、コンテンツをエクスポートして、検証したり、後で使用したりできます。 「**[!UICONTROL HTML をエクスポート]**」をクリックして、 コンピューターに HTML とアセットを含む zip ファイルを保存します。
 
    ![](assets/email_designer_export.png)
 
@@ -74,8 +74,8 @@ ht-degree: 100%
 
 メッセージエディターでメールコンテンツを作成する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416418?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 
 A/B テストを行うようにコンテンツ実験を設定し、ビジネス目標を最大限に推進するメールコンテンツを探索する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447332?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)

@@ -6,7 +6,7 @@ description: メッセージとジャーニーのキャッピングルールの�
 redpen-status: CREATED_||_2025-08-11_20-28-34
 exl-id: 630e252a-aab2-4a27-ad46-d4dbfbc3f3a4
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer でメッセージとジャーニーのキャッピン�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 ルールセットの操作
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer で、メッセージの頻度とジャーニーエン�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 ジャーニーのキャップと判別
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer で、メッセージの頻度とジャーニーエン�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 チャネル別のフリークエンシーキャップ
 

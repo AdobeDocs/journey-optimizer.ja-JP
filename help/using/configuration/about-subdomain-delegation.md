@@ -12,7 +12,7 @@ exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
 source-git-commit: 1746efa82611d232b5af07b271739417b4e36e8c
 workflow-type: tm+mt
 source-wordcount: '982'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -88,11 +88,11 @@ CNAME を使用してサブドメインを作成しアドビ固有のレコー�
 
 ### カスタムサブドメインの使用 {#custom-subdomain-delegation}
 
-カスタムの委任方法を使用すると、メッセージの配信、レンダリング、トラッキングに必要な DNS のあらゆる側面を完全に制御および維持できます。
+カスタムデリゲーションメソッドを使用すると、メッセージの配信、レンダリング、トラッキングに必要な DNS のあらゆる側面の制御と管理を完全に所有できます。
 
-この場合、独自のサブドメインを完全に所有および管理し、このプロセスの一環として生成される証明書を完全に制御できます。
+この場合、お客様は独自のサブドメインを完全に所有および管理し、このプロセスの一部として生成される証明書を完全に制御できます。
 
-カスタムドメインの設定方法については、[ この節 ](delegate-custom-subdomain.md) を参照してください。
+カスタムドメインの設定について詳しくは、[この節](delegate-custom-subdomain.md)を参照してください。
 
 ## 設定方法の比較
 
@@ -108,9 +108,9 @@ CNAME を使用してサブドメインを作成しアドビ固有のレコー�
 |---|---|---|
 | **完全なデリゲーション** | サブドメインと名前空間レコードを作成します。次に、アドビは Adobe Campaign に必要なすべての DNS レコードを設定します。<br/><br/>この設定では、アドビは、サブドメインとすべての DNS レコードを管理するすべての責任を負います。 | 低 |
 | **CNAME メソッド** | サブドメインと名前空間レコードを作成します。次に、アドビは、DNS サーバーに配置されるレコードを提供し、対応する値を Adobe Campaign DNS サーバーに設定します。<br/><br/>この設定では、お客様とアドビの両方が DNS の維持に対する責任を共有します。 | 高 |
-| **カスタムの委任方法** | サブドメインと名前空間レコードを作成する – Adobeは、DNS サーバーに配置するレコードを提供します。 認証局から取得した SSL 証明書をアップロードし、ドメインの所有権を確認してメールアドレスをレポートすることで、フィードバックループの手順を完了します。<br/><br/> この設定では、DNS の管理に対して完全な責任があります。 | 非常に高い |
+| **カスタムデリゲーションメソッド** | サブドメインと名前空間レコードを作成 - 次に、アドビは、DNS サーバーに配置されるレコードを提供します。 認証局から取得した SSL 証明書をアップロードし、ドメインの所有権を確認してメールアドレスを報告し、フィードバックループの手順を完了します。<br/><br/>この設定では、お客様が DNS の維持に対するすべての責任を負います。 | 非常に高い |
 
-ドメイン設定に関するその他の詳細情報については、[このドキュメント](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html?lang=ja){target="_blank"}を参照してください。
+ドメイン設定について詳しくは、[このドキュメント](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html?lang=ja){target="_blank"}を参照してください。
 
 サブドメインの設定方法について質問がある場合は、アドビにお問い合わせいただくか、カスタマーケアに連絡して配信品質のコンサルティングを依頼してください。
 

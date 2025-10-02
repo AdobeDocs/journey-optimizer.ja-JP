@@ -6,7 +6,7 @@ description: SMS／MMS／RCS チャネル
 redpen-status: CREATED_||_2025-08-11_20-38-50
 exl-id: 1e59db2e-087f-4ce8-9d9e-99ff872c0062
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer の SMS／MMS／RCS チャネルを使用すると、パ
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 テキストメッセージの基本を学ぶ
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer で SMS、MMS、RCS メッセージを設定、作成、
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 SMS、MMS、RCS メッセージの作成方法
 
@@ -40,7 +40,7 @@ SMS、MMS、RCS メッセージの作成方法
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 テキストメッセージの確認および送信
 
@@ -50,7 +50,7 @@ SMS、MMS、RCS メッセージの作成方法
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 テキストメッセージのオプトアウトの管理
 
@@ -60,7 +60,7 @@ SMS、MMS、RCS 通信のオプトアウトプロセスを管理することで�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 SMS サブドメインの設定
 
@@ -70,7 +70,7 @@ SMS サブドメインの設定
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 SMS／MMS／RCS チャネルの設定
 

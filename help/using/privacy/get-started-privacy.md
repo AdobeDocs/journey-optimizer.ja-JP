@@ -30,7 +30,7 @@ Adobe Experience Platform と Journey Optimizer には、プライバシー管�
 
 * **同意ポリシーの適用**：顧客の環境設定に従って、Adobe Experience Platform の同意ポリシーを定義し、カスタムアクションに適用します。[詳細情報](../action/consent.md)
 
-* **ガバナンスポリシーの適用**：Adobe Experience Platform ガバナンスポリシーを活用して、機密フィールドがカスタムアクションによってサードパーティ製システムに書き出されるのを防ぎます。[詳細情報](../action/action-privacy.md)
+* **ガバナンスポリシーの適用**：Adobe Experience Platform ガバナンスポリシーを活用して、機密フィールドがカスタムアクションによってサードパーティ製システムにエクスポートされるのを防ぎます。[詳細情報](../action/action-privacy.md)
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

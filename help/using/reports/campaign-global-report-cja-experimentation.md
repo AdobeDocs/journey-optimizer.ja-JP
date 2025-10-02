@@ -11,7 +11,7 @@ exl-id: 69742163-7378-49ab-929e-86213d6e65e3
 source-git-commit: 08d444f499229f0942e4dae17d87030225f34d5f
 workflow-type: tm+mt
 source-wordcount: '336'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -45,28 +45,28 @@ ht-degree: 64%
 
 +++
 
-### 成功別バリアント指標 {#variant-inbound}
+### 成功指標別のバリアント {#variant-inbound}
 
 ![](assets/cja-experimentation-variants.png)
 
-**成功指標別のバリアント** の表には、実験を設定する際に選択した成功指標に基づいて、各バリアントがどのように実行されるかを示します。
+**成功指標別のバリアント**の表には、実験の設定時に選択した成功指標に基づいて、各バリアントの実行方法が表示されます。
 これらの結果の詳細と解釈について詳しくは、[このページ](../content-management/get-started-experiment.md#interpret-results)を参照してください。
 
-+++ 成功指標ごとのバリアントの詳細を説明します
++++ 成功指標別のバリアントの詳細情報
 
 * **[!UICONTROL ユーザー]**：メッセージのターゲットプロファイルに適格な、ユーザープロファイルの数。
 
-* **[!UICONTROL インバウンドクリック数]**：実験の作成時に以前選択した成功指標の合計値。
+* **[!UICONTROL インバウンドクリック数]**：実験の作成時に以前に選択した成功指標の合計値。
 
 * **[!UICONTROL コンバージョン率]**：実験の作成時に以前に選択した成功指標の合計値を、プロファイル数で割った値です。
 
 * **[!UICONTROL 上昇率]**：ベースラインに対する特定の処理のコンバージョン率の向上率を測定します。
 
-* **[!UICONTROL 信頼下限]**：選択した信頼区間の中で、処理とベースラインの間のコンバージョン率差の最小推定値。
+* **[!UICONTROL 信頼下限]**：選択した信頼区間内での、処理とベースライン間のコンバージョン率の差の最小推定値。
 
 * **[!UICONTROL 信頼性]**：ある処理がベースライン処理と同じであることを示す証拠。[詳細情報](../content-management/experiment-calculations.md#understand-confidence)
 
-* **[!UICONTROL 信頼上限]**：選択した信頼区間における、処理とベースラインの間のコンバージョン率差の最高推定値。
+* **[!UICONTROL 信頼上限]**：選択した信頼区間内での、処理とベースライン間のコンバージョン率の差の最高推定値。
 
 +++
 
@@ -75,4 +75,4 @@ ht-degree: 64%
 ![](assets/cja-experimentation-conversion.png)
 
 
-**[!UICONTROL 信頼区間]** グラフは、選択可能な改善範囲を示し、ベースラインを、選択した成功指標に対して最もパフォーマンスの高い処理と比較します。 [詳細情報](../content-management/experiment-calculations.md#confidence-intervals)
+**[!UICONTROL 信頼区間]**&#x200B;グラフには、選択した成功指標に対してベースラインと最もパフォーマンスの高い処理を比較し、改善の可能性のある範囲が表示されます。[詳細情報](../content-management/experiment-calculations.md#confidence-intervals)

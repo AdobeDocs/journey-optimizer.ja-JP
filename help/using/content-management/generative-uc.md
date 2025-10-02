@@ -11,7 +11,7 @@ exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
 source-git-commit: 36bef8f07645b1e9a5a010e3f1b4044f2099b002
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -113,7 +113,7 @@ ht-degree: 99%
 
 1. 適切なコンテンツを見つけたら、「**[!UICONTROL 選択]**」をクリックします。
 
-## サポートされている言語のコンテンツを生成{#languages}
+## サポートされている複数の言語でのコンテンツの生成{#languages}
 
 ![](assets/do-not-localize/gen-ai-language.gif)
 

@@ -6,7 +6,7 @@ description: プッシュ通知チャネル
 redpen-status: CREATED_||_2025-08-11_20-37-12
 exl-id: 8d82ef2f-91ee-4502-9a01-f66ccbd55fea
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ Adobe Journey Optimizer のプッシュ通知は、モバイルアプリのユ�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 プッシュ通知の作成と設定
 
@@ -48,7 +48,7 @@ Adobe Journey Optimizer のプッシュ通知は、モバイルアプリのユ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 プッシュ通知のデザイン
 
@@ -58,7 +58,7 @@ Adobe Journey Optimizer のプッシュ通知は、モバイルアプリのユ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 プッシュ通知のプレビュー、検証、送信
 
@@ -68,7 +68,7 @@ Adobe Journey Optimizer のプッシュ通知は、モバイルアプリのユ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 プッシュ通知の設定
 

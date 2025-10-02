@@ -6,7 +6,7 @@ description: AI モデル
 redpen-status: CREATED_||_2025-08-11_20-59-35
 exl-id: c33c47b7-5d2d-4d76-81ed-cbd06a7797be
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer の AI モデルは、ビジネス目標に合わせて�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 AI モデルの基本を学ぶ
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer の AI モデルとそのタイプ、機能、さらに�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 自動最適化モデルについて
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer の AI モデルとそのタイプ、機能、さらに�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 パーソナライズされた最適化モデルについて
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer の AI モデルとそのタイプ、機能、さらに�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 AI モデルの作成方法
 

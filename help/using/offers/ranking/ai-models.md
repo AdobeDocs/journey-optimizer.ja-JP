@@ -11,7 +11,7 @@ exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
 source-git-commit: 58a5737a1eb56ab88aa71ba0a740dd51258e5248
 workflow-type: tm+mt
 source-wordcount: '396'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -61,6 +61,6 @@ AI モデルを作成して使用する主な手順は次のとおりです。
 
 ## チュートリアルビデオ {#video}
 
-Offer Decisioningの AI モデルを作成する方法と、モデルを意思決定に適用する方法について説明します。
+Offer Decisioning 用の AI モデルを作成する方法と、モデルを決定に適用する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3445645?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3419959?quality=12)

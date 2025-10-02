@@ -6,7 +6,7 @@ description: メールチャネルの設定
 redpen-status: CREATED_||_2025-08-11_20-34-10
 exl-id: c9377c3c-d716-4fae-adc8-458cbe7213dd
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer でメールチャネルを設定することは、効�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 メール設定の基本を学ぶ
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer でメールチャネルを設定することは、効�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 メール設定の定義
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer でメールチャネルを設定することは、効�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 リストの登録解除の有効化と設定
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer でメールチャネルを設定することは、効�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 メールヘッダーパラメーターの設定
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer でメールチャネルを設定することは、効�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 メールチャネル用の URL トラッキングの設定
 
@@ -70,7 +70,7 @@ URL トラッキングパラメーターを設定して、メールキャンペ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 パーソナライズされたメール設定
 

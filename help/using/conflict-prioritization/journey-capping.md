@@ -7,7 +7,7 @@ exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
 source-git-commit: 450a6accf11d72d56e6b93cec9ec89dc8cf3c8f3
 workflow-type: tm+mt
 source-wordcount: '944'
-ht-degree: 86%
+ht-degree: 92%
 
 ---
 
@@ -59,12 +59,12 @@ ht-degree: 86%
 
 1. 各タイプのキャップを設定する方法について詳しくは、以下の節を展開してください。
 
-   +++ジャーニーエントリキャッピングルールの設定
+   +++ジャーニーのエントリキャッピングルールの設定
 
    1. 「**[!UICONTROL キャップ]**」フィールドで、プロファイルが入力できるジャーニーの最大数を設定します。
    1. 「**[!UICONTROL 期間]**」フィールドで、考慮する期間を定義します。期間は UTC タイムゾーンに基づきます。例えば、日別のキャップは午前 0 時（UTC）にリセットされます。
 
-   この例では、プロファイルが 1 か月に「5」を超えるジャーニーにエントリすることを制限します。
+   この例では、プロファイルが 1 か月に「5」を超えるジャーニーにエントリできないように制限します。
 
    ![](assets/journey-capping-entry-example.png)
 
@@ -115,8 +115,8 @@ ht-degree: 86%
 
 ![](assets/journey-report.png)
 
-さらに、[Adobe Experience Platform クエリサービス ](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ja){target="_blank"} を使用してクエリを作成し、プロファイルが特定のジャーニーにエントリしない原因となったルールを特定できます。 クエリの例について詳しくは、[この節](../reports/query-examples.md#common-queries)を参照してください。
+さらに、[Adobe Experience Platform クエリサービス](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ja){target="_blank"}を使用してクエリを作成し、プロファイルが特定のジャーニーにエントリしない原因となったルールを特定できます。クエリの例について詳しくは、[この節](../reports/query-examples.md#common-queries)を参照してください。
 
 ## チュートリアルビデオ {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3447613?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)

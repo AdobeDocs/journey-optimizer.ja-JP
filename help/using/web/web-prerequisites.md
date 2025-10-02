@@ -46,7 +46,7 @@ Web プロパティで web チャネルキャンペーンのオーサリング�
 >
 >サーバーサイドのみの実装は、現在、web チャネルではサポートされていません。Web ページのサーバーサイドのみの実装がある場合は、代わりに[コードベースのエクスペリエンスチャネル](../code-based/get-started-code-based.md)を使用できます。
 
-<!--If the Adobe Experience Platform Web SDK is not yet implemented on the website, a message displays in the web designer suggesting that you install the Visual Editing Helper browser extension and implement the [Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja){target="_blank"}.-->
+<!--If the Adobe Experience Platform Web SDK is not yet implemented on the website, a message displays in the web designer suggesting that you install the Visual Editing Helper browser extension and implement the [Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"}.-->
 
 ## ビジュアルオーサリングの前提条件 {#visual-authoring-prerequisites}
 

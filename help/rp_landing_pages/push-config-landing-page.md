@@ -6,7 +6,7 @@ description: プッシュ通知の設定
 redpen-status: CREATED_||_2025-08-11_20-36-35
 exl-id: 52a58dc4-20fa-467d-b790-d9c7eecbdaf6
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer のプッシュ通知を使用すると、オーディ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 プッシュ通知のデータフローと設定
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer を使用してプッシュ通知を配信するのに�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 プッシュ通知チャネルの設定
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer を使用してプッシュ通知を配信するのに�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 モバイルオンボーディングのクイックスタートワークフロー
 

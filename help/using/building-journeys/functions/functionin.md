@@ -5,13 +5,13 @@ description: in 関数について説明します
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: in，関数，式，ジャーニー
+keywords: in, 関数, 式, ジャーニー
 exl-id: 629b7aa3-8904-453b-ba3c-c6a333b13c81
 version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '117'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 

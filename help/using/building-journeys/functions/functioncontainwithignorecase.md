@@ -5,13 +5,13 @@ description: containIgnoreCase 関数について説明します
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: containIgnoreCase，関数，式，ジャーニー
+keywords: containIgnoreCase, 関数, 式, ジャーニー
 exl-id: 26074584-a215-4515-8a61-7460bd9d4447
 version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '52'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 

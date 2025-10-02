@@ -5,13 +5,13 @@ description: toInteger 関数について説明します
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: toInteger，関数，式，ジャーニー
+keywords: toInteger, 関数, 式, ジャーニー
 exl-id: 901a91d1-13dd-4283-b87f-223196eb072f
 version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '79'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 

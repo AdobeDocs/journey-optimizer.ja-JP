@@ -64,7 +64,7 @@ AI モデルを作成するには、次の手順を行います。
    >
    >この機能は、管理者権限を持つ [!DNL Customer Journey Analytics] のお客様のみが使用可能です。
    >
-   >開始する前に、Journey Optimizer データセットをデフォルトのデータビューに書き出すために、Journey Optimizer と Customer Journey Analytics が統合済みであることを確認してください。[詳しくは、 [!DNL Customer Journey Analytics]](../../reports/cja-ajo.md) で  [!DNL Journey Optmizer]  データを活用する方法を参照してください
+   >開始する前に、Journey Optimizer データセットをデフォルトのデータビューにエクスポートするために、Journey Optimizer と Customer Journey Analytics が統合済みであることを確認してください。[詳しくは、 [!DNL Customer Journey Analytics]](../../reports/cja-ajo.md) で  [!DNL Journey Optmizer]  データを活用する方法を参照してください
 
    **[!UICONTROL パーソナライズされた最適化]**&#x200B;モデルは、ビジネス目標を定義し、顧客データを利用して、パーソナライズされたオファーを提供し、KPI を最大化するビジネス指向モデルをトレーニングできる AI モデルのタイプです。
 
@@ -117,4 +117,4 @@ AI モデルを作成するには、次の手順を行います。
 
 Learn how to create a personalized optimization model and how to apply it to a decision.
 
->[!VIDEO](https://video.tv.adobe.com/v/3445952?quality=12&captions=jpn)-->
+>[!VIDEO](https://video.tv.adobe.com/v/3419954?quality=12)-->

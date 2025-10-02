@@ -20,7 +20,7 @@ Adobe Journey Optimizer の調整されたキャンペーンを使用すると�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 調整されたキャンペーンの概要
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer の調整されたキャンペーンのコア機能、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 ガードレールと制限
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer の調整されたキャンペーンのコア機能、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 調整されたキャンペーンのデータ設定
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer の調整されたキャンペーンのコア機能、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 調整されたキャンペーンの起動と管理
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer の調整されたキャンペーンのコア機能、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 調整されたキャンペーンのデータベースのクエリ
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer の調整されたキャンペーンのコア機能、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 キャンペーンアクティビティの包括的なガイド
 

@@ -11,7 +11,7 @@ exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
 source-git-commit: 34649ab411823f1aa09d390d23484697e80763c5
 workflow-type: tm+mt
 source-wordcount: '1313'
-ht-degree: 65%
+ht-degree: 83%
 
 ---
 
@@ -94,7 +94,7 @@ To subscribe/unsubscribe to an alert for a specific journey, follow these steps:
 1. Click **[!UICONTROL Save]** to confirm.
 -->
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=ja#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 
 
@@ -204,46 +204,46 @@ Click the name of the alert to check the alert details and configuration.
 
 <!--The I/O event subscription name corresponding to this alert is xx. > Do we need to mention this?-->
 
-### AJO チャネルの設定エラー {#alert-channel-config-failure}
+### AJO チャネル設定エラー {#alert-channel-config-failure}
 
 >[!IMPORTANT]
 >
->このアラートは、**カスタムサブドメイン** デリゲーションタイプを使用した [ メール ](../configuration/delegate-custom-subdomain.md) チャネル設定にのみ適用されます。<!--Other channel types (such as SMS, push, or in-app) are not covered by this alert.-->
+>このアラートは、[カスタムサブドメイン](../configuration/delegate-custom-subdomain.md)デリゲーションタイプを使用する&#x200B;**メール**&#x200B;チャネル設定にのみ適用されます。<!--Other channel types (such as SMS, push, or in-app) are not covered by this alert.-->
 
-このアラートは、システム監査でメールチャネルの設定の問題が検出された場合にトリガーされます。 これらの問題には、チャネル設定の誤り、無効な DNS 設定、抑制リストの問題、IP の不整合、メール配信に影響を与えるその他のエラーが含まれる場合があります。
+このアラートは、システム監査によりメールチャネルの設定に関する問題が検出された場合にトリガーされます。これらの問題には、チャネル設定ミス、無効な DNS 設定、抑制リストの問題、IP の不一致、メールの配信に影響を与えることがあるその他のエラーが含まれる場合があります。
 
-このようなアラートを受け取った場合の解決手順は次のとおりです。
+このようなアラートを受信した場合の解決手順を以下に示します。
 
-1. アラートをクリックすると、[ インターフェイス内の影響を受ける ](../email/get-started-email-config.md) メールチャネル設定 [!DNL Journey Optimizer] にリダイレクトされます。
+1. アラートをクリックして、[!DNL Journey Optimizer] インターフェイスで影響を受ける[メールチャネル設定](../email/get-started-email-config.md)に移動します。
 
-   チャネル設定の編集に関するガイダンスについては、[ この節 ](../configuration/channel-surfaces.md#edit-channel-surface) を参照してください。
+   チャネル設定の編集に関するガイダンスについて詳しくは、[この節](../configuration/channel-surfaces.md#edit-channel-surface)を参照してください。
 
-1. 設定の詳細と表示されるエラーメッセージを確認します。 一般的なエラーの理由を次に示します。
+1. 設定の詳細と表示されるエラーメッセージを確認します。一般的なエラーの理由を以下に示します。
 
    * SPF 検証に失敗しました
-   * DKIMの検証に失敗しました
+   * DKIM の検証に失敗しました
    * MX レコードの検証に失敗しました
-   * 無効な DNS レコード
+   * DNS レコードが無効です
 
    >[!NOTE]
    >
-   >考えられる設定失敗の理由を [ この節 ](../configuration/channel-surfaces.md) に示します。
+   >考えられる設定エラーの理由について詳しくは、[この節](../configuration/channel-surfaces.md)を参照してください。
 
-1. 問題を解決します。
+1. 次のように問題を解決します。
 
    * 必要に応じて、チャネル設定を更新します。
-   * アラートに記載されている特定の DNS の問題を修正する必要がある場合があります。
+   * アラートに記載されている特定の DNS に関する問題を修正する必要がある場合があります。
 
    >[!NOTE]
    >
-   >単一のドメインを複数のチャネル設定に関連付けることができるので、1 つのチャネル設定の DNS の問題を解決すると、複数の設定に関連する問題が自動的に修正される場合があります。
+   >単一のドメインを複数のチャネル設定に関連付けることができるので、1 つのチャネル設定の DNS に関する問題を解決すると、複数の設定をまたいで関連する問題が自動的に修正される場合があります。
 
-変更しても問題が解決しない場合は、同じアラートが翌日に再度トリガーされます。
+変更しても問題が解決しない場合は、翌日に同じアラートが再度トリガーされます。
 
-メール設定の問題を解決する際は、次に示すベストプラクティスに注意してください。
+メール設定に関する問題を解決する際は、以下に示すベストプラクティスに注意してください。
 
-* 迅速な対応 – メール配信の中断を避けるために、設定の障害が検出されしだい対処します。
-* すべての設定の確認 – アラートに影響を受けた複数のメール設定が示されている場合は、それぞれを確認して修正します。
+* 迅速に対応 - 設定エラーが検出されたらすぐに対処し、メール配信の中断を回避します。
+* すべての設定を確認 - アラートに影響を受けるメール設定が複数示されている場合は、それぞれを確認して修正します。
 
 <!--### AJO domain certificates renewal unsuccessful {#alert-certificates-renewal}
 

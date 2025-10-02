@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '456'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -53,6 +53,6 @@ ht-degree: 95%
 
 ## 代替パスの追加 {#canvas-add-path}
 
-**[!UICONTROL 最適化]** および **[!UICONTROL アクション]** のジャーニーアクティビティでエラーが発生した場合の代替アクションを定義できます。
+**[!UICONTROL 条件]**&#x200B;および&#x200B;**[!UICONTROL アクション]**&#x200B;のジャーニーアクティビティで、エラーが発生した場合の代替アクションを定義できます。
 
 アクションまたは条件でエラーが発生すると、個人のジャーニーが停止します。続行する唯一の方法は、問題を解決することです。ジャーニーが中断しないように、アクティビティのプロパティで「**[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**」オプションをオンにすることもできます。詳しくは、[この節](../building-journeys/using-the-journey-designer.md#paths)を参照してください。

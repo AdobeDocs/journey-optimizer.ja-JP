@@ -20,7 +20,7 @@ ht-degree: 96%
 
 カスタマーエクスペリエンスソリューションの強みと成功は、エンドカスタマーデータの充実度とカバレッジによって定義されます。また、このデータは貴重であり、特定の顧客にとって最高の価値があります。データ管理機能の評価が厳しくなり、テクノロジーの選択が本質的にビルトインされるようになりました。
 
-[!DNL Adobe Journey Optimizer] を使用すると、このデータを簡単に管理、保持し、テクノロジースタックの一部であるプラットフォームやシステムに書き出すことができます。
+[!DNL Adobe Journey Optimizer] を使用すると、このデータを簡単に管理、保持し、テクノロジースタックの一部であるプラットフォームやシステムにエクスポートできます。
 
 **マイデータ、マイルール** - [!DNL Adobe Journey Optimizer] は、その操作に固有のすべてのジャーニーデータとオファーデータに加えて、顧客プロファイルデータの豊富なセットを継続的に（リアルタイムで）作成します。データベースから取り込んだユーザーデータの Strawman バージョンは、エンリッチメントされ、カバレッジと深度を備えた高価値のデータに変換されます。IT エコシステム全体でその価値を活用できるように、このデータは安全であると同時にあらゆる場所に存在する必要があります。
 
@@ -65,14 +65,14 @@ ht-degree: 96%
 
 [!DNL Journey Optimizer] のデータの柔軟性を使用して、データの保持、アーカイブ、削除に関連する特定の要件に対処できます。
 
-* **データの抽出／書き出し**：ソースデータの抽出は、データアクセス API を使用して、ペナルティや時間の遅延なしでいつでも開始できます。[Data Access API](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html?lang=ja){target="_blank"} は、[!DNL Adobe Experience Platform] 内に取り込んだデータセットの検出可能性とアクセシビリティに重点を置いた RESTful インターフェイスをユーザーに提供します。<!--In the future (on roadmap), you can use file-based destinations to export and migrate log data from Adobe Journey Optimizer. -->
+* **データの抽出／エクスポート**：ソースデータの抽出は、データアクセス API を使用して、ペナルティや時間の遅延なしでいつでも開始できます。[Data Access API](https://experienceleague.adobe.com/docs/experience-platform/data-access/api.html?lang=ja){target="_blank"} は、[!DNL Adobe Experience Platform] 内に取り込んだデータセットの検出可能性とアクセシビリティに重点を置いた RESTful インターフェイスをユーザーに提供します。<!--In the future (on roadmap), you can use file-based destinations to export and migrate log data from Adobe Journey Optimizer. -->
 
   ジャーニーやキャンペーンで使用されるコンテンツは、上記の API または宛先メソッドを介して抽出できません。
 
 <!--
 * **Profile Service Data Retention**: For Behavioral and Time series data appended to any Profile, you may choose to use Journey Optimizer's default setting of retaining this data for up to 91 days from the date of its addition to a Profile, or until an alternative time-period selected by the you. The time that Adobe keeps this data varies from contract to contract, and is outlined in an organization's data retention policy.
 
-  Learn more about Experience Event expirations in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/event-expirations.html?lang=ja){target="_blank"}.
+  Learn more about Experience Event expirations in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/profile/event-expirations.html){target="_blank"}.
 -->
 
 * **パージとアーカイブのメカニズム**：データのパージとアーカイブは、[!DNL Adobe Journey Optimizer] で自由に定義および自動化して、データ保持ポリシーを自動化できます。異なるデータエンティティに対して様々なエージング戦略を定義できます。また、古いデータをパージまたはアーカイブする前に自動的にエクスポートするように、エクスポートメカニズムを定義することもできます。

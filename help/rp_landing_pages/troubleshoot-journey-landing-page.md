@@ -6,7 +6,7 @@ description: トラブルシューティング
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 ジャーニーをテストまたは公開する前のエラーのトラブルシューティング
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer でのライブジャーニー実行のトラブルシューティング
 
@@ -41,7 +41,7 @@ Adobe Journey Optimizer でのライブジャーニー実行のトラブルシ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Adobe Journey Optimizer ジャーニーでのインバウンドアクションのトラブルシューティング
 
@@ -51,7 +51,7 @@ Adobe Journey Optimizer ジャーニーでのインバウンドアクション�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Adobe Journey Optimizer でのカスタムアクションのトラブルシューティング
 
@@ -64,4 +64,4 @@ Adobe Journey Optimizer でのカスタムアクションのトラブルシュ�
 
 ### その他のリソース
 
-さらに、一般的なエラーコードとその効果的な解決方法を詳しく説明した[こちらのアドビコミュニティのブログ投稿](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=ja)も参照してください。
+さらに、一般的なエラーコードとその効果的な解決方法を詳しく説明した[こちらのアドビコミュニティのブログ投稿](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884)も参照してください。

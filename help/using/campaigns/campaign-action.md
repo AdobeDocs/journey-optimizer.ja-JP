@@ -13,7 +13,7 @@ exl-id: fed96e48-2e54-4bd4-ae17-77434d1b90eb
 source-git-commit: 8c3ff6c60f846af2cddc8c84507cd64fd457cbbb
 workflow-type: tm+mt
 source-wordcount: '815'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 95%
 
    >[!NOTE]
    >
-   >サポートされるチャネルは、[ メール ](../email/get-started-email.md)、[SMS/MMS/RCS](../sms/get-started-sms.md)、[ プッシュ通知 ](../push/get-started-push.md)、[WhatsApp](../whatsapp/get-started-whatsapp.md)、[LINE](../line/get-started-line.md)、[ ダイレクトメール ](../direct-mail/get-started-direct-mail.md)、[ アプリ内 ](../in-app/get-started-in-app.md)、[Web](../web/get-started-web.md)、[ コードベースのエクスペリエンス ](../code-based/get-started-code-based.md) です。
+   >サポートされているチャネル：[メール](../email/get-started-email.md)、[SMS／MMS／RCS](../sms/get-started-sms.md)、[プッシュ通知](../push/get-started-push.md)、[WhatsApp](../whatsapp/get-started-whatsapp.md)、[LINE](../line/get-started-line.md)、[ダイレクトメール](../direct-mail/get-started-direct-mail.md)、[アプリ内](../in-app/get-started-in-app.md)、[Web](../web/get-started-web.md)、[コードベースのエクスペリエンス](../code-based/get-started-code-based.md)。
    >
    >使用できるチャネルは、ライセンスモデルとアドオンによって異なります。
 

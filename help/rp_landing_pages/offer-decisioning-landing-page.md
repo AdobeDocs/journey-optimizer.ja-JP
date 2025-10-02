@@ -6,7 +6,7 @@ description: 意思決定管理
 redpen-status: CREATED_||_2025-08-11_21-05-09
 exl-id: 5262df0e-201b-45bc-8234-e5acb7ff8af9
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer の意思決定管理を使用すると、適切なオ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 ランキングの作成と最適化
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer の意思決定管理を使用すると、適切なオ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 オファーの作成と管理
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer で、パーソナライズされたオファー、フ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 決定の作成と管理
 

@@ -6,7 +6,7 @@ description: 多言語コンテンツ
 redpen-status: CREATED_||_2025-08-12_00-43-28
 exl-id: 3f02694e-2237-4022-8e05-b76a5a1443b5
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer の多言語コンテンツ機能を使用すると、�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 多言語コンテンツの基本を学ぶ
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer の多言語コンテンツ機能を使用すると、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 多言語コンテンツのロケールの作成方法
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer の多言語コンテンツ機能を使用すると、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 言語プロバイダーの追加と設定
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer の多言語コンテンツ機能を使用すると、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 手動翻訳を使用した多言語コンテンツの作成
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer の多言語コンテンツ機能を使用すると、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 自動翻訳を使用した多言語コンテンツの作成
 

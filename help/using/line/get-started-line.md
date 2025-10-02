@@ -25,7 +25,7 @@ LINE メッセージは、ジャーニーまたはキャンペーンで作成し
 
 * **キャンペーン**&#x200B;の場合：キャンペーンを作成し、アクションとして LINE を選択し、基本設定を定義してから、メッセージコンテンツを編集して送信する LINE メッセージを定義します。キャンペーンを作成する方法については、[このページ](../campaigns/create-campaign.md#configure)を参照してください。
 
-LINE メッセージを作成する前に、Journey Optimizer を使用して LINE チャネルを設定します。[詳細情報](line-configuration.md)。
+LINE メッセージを作成する前に、Journey Optimizer を使用して LINE チャネルを設定します。[詳細情報](line-configuration.md)
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

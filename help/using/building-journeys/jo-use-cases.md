@@ -12,7 +12,7 @@ version: Journey Orchestration
 source-git-commit: 32794465dfa8a82fd7becfd5b48abd1ca4d393de
 workflow-type: tm+mt
 source-wordcount: '767'
-ht-degree: 53%
+ht-degree: 98%
 
 ---
 
@@ -123,47 +123,47 @@ ht-degree: 53%
 
 ## ビデオチュートリアル
 
-Adobe Journey Optimizerの最も一般的なユースケースを構築するための主な手順については、ビデオチュートリアルをご覧ください。
+Adobe Journey Optimizer で最も一般的なユースケースを作成する主な手順について詳しくは、ビデオチュートリアルを参照してください。
 
 
 <table style="table-layout:auto">
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px">
-    <br/>
-      <strong> 顧客のオンボーディング </strong><br/><p>Journey Optimizerでカスタマーオンボーディングジャーニーを実装する方法を説明します。</p> - <a href="https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding" target="_blank"> ユースケースビデオをご覧ください </a>
+    <br/>
+      <strong>カスタマーオンボーディング</strong><br/><p>Journey Optimizer でカスタマーオンボーディングジャーニーを実装する方法について説明します。</p> - <a href="https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding" target="_blank">ユースケースビデオを視聴</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-campaign.svg" width="35px">
-    <br/>
-      <strong> 放棄されたカート </strong><br/><p>Adobe Journey Optimizer のプレイブック機能を使用して、放棄された買い物かごのユースケースを実装する方法について説明します。</p><a href="https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart" target="_blank"> ユースケースビデオをご覧ください </a>
+    <br/>
+      <strong>放棄された買い物かご</strong><br/><p>Adobe Journey Optimizer のプレイブック機能を使用して、放棄された買い物かごのユースケースを実装する方法について説明します。</p><a href="https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart" target="_blank">ユースケースビデオを視聴</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-content.svg" width="35px">
     <br/>
-      <strong> 再エンゲージメント </strong><br/><p>Adobeが Luma デモサイトを操作するためにインテリジェントな再エンゲージメントのユースケースを適応させた方法を、データアーキテクトとデータエンジニアのチュートリアルおよびExperience Platform Web SDK チュートリアルに記載されている基盤実装に基づいて説明します。</p><a href="https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/use-cases/personalization-insights-engagement/use-cases-luma" target="_blank"> ユースケースビデオをご覧ください </a> 
+      <strong>再エンゲージメント</strong><br/><p>アドビがデータアーキテクトおよびデータエンジニアのチュートリアルと Experience Platform Web SDK チュートリアルに記載されている基盤実装に基づいて、インテリジェントな再エンゲージメントのユースケースを Luma デモサイトで操作するのに適応させた方法について説明します。</p><a href="https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/use-cases/personalization-insights-engagement/use-cases-luma" target="_blank">ユースケースビデオを視聴</a> 
     </td>
   </tr>
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-experience.svg" width="35px">
     <br/>
-      <strong> リアルタイムオファーのパーソナライゼーション </strong><br/><p>Adobe Journey Optimizerの天候関連のデータを使用してオファーを提供すると、企業は、実際のリアルタイムの環境条件に基づいてカスタマーエクスペリエンスをパーソナライズできます。</p><a href="https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/personalizing-offers-with-real-time-weather-data/introduction" target="_blank"> 段階的なチュートリアルに従う </a>
+      <strong> リアルタイムのオファーのパーソナライゼーション</strong><br/><p>Adobe Journey Optimizer の天候関連データを使用してオファーを提供することで、企業は実際のリアルタイムの環境条件に基づいてスタマーエクスペリエンスをパーソナライズできます。</p><a href="https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/personalizing-offers-with-real-time-weather-data/introduction" target="_blank">ステップバイステップチュートリアルに従う</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-configure.svg" width="35px">
     <br/>
-      <strong> 決定を介して配信されるオファーのトラッキングとレポート </strong><br/><p>Adobe Journey Optimizerを通じて配信されるオファーのレポートとパフォーマンス分析を有効にする：コンテキストに基づいてオファーをパーソナライズして配信する場合、インプレッションとユーザーインタラクションの両方をトラッキングして効果を評価することが不可欠です。</p><a href="https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/reporting-on-ajo-od/introduction" target="_blank"> 段階的なチュートリアルに従う </a> 
+      <strong>決定を通じて配信されるオファーの追跡とレポート</strong><br/><p>Adobe Journey Optimizer を通じて配信されるオファーのレポートとパフォーマンス分析を有効にします。コンテキストシグナルに基づいてオファーをパーソナライズおよび配信する場合、その効果を評価するには、インプレッション数とユーザーインタラクション数の両方を追跡することが不可欠です。</p><a href="https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/reporting-on-ajo-od/introduction" target="_blank">ステップバイステップチュートリアルに従う</a> 
     </td>
     <td>
       <img src="../assets/do-not-localize/icon_profile-audience.svg" width="35px">
     <br/>
-      <strong> ランキング式を使用したオファーのパーソナライズ </strong><br/><p>Adobe Journey Optimizerで郵便番号や年収などのユーザー属性を活用して、パーソナライズされた金融オファーを提供する方法を説明します。 ランキング式を使用すると、場所に固有のプロモーションと収入ベースの実施要件に基づいて、オファーをインテリジェントにスコアリングし、優先順位を付けることができます。</p><a href="https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/personalizing-offers-with-ranking-formulas-based-on-user-zip-code-and-income/introduction" target="_blank"> 段階的なチュートリアルに従う </a> 
+      <strong>ランキング式を使用したオファーのパーソナライズ</strong><br/><p>Adobe Journey Optimizer 内で郵便番号や年収などのユーザー属性を活用して、パーソナライズされた金融オファーを配信する方法について説明します。ランキング式を使用することで、場所固有のプロモーションと収入に基づく実施要件に基づいて、オファーをインテリジェントにスコアリングし、優先順位を付けることができます。</p><a href="https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/personalizing-offers-with-ranking-formulas-based-on-user-zip-code-and-income/introduction" target="_blank">ステップバイステップチュートリアルに従う</a> 
     </td>
   </tr>
 </table>
 
-[Adobe Journey Optimizerでのオーケストレーションをオムニチャネルエンゲージメントに拡大 ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/scaling-orchestration-to-omnichannel-engagement/introduction){target="_blank"} するためのビデオチュートリアルも参照してください。6 つのレッスンを通じて、シンプルなアウトバウンドメッセージから高度なオムニチャネルエクスペリエンスにビジネスコミュニケーションを向上させる方法を学びます。 実践的な例を通じて、プロアクティブなアウトリーチとレスポンシブなエンゲージメントをシームレスにブレンドするカスタマージャーニーを作成するためのインサイトを得ます。
+詳しくは、[Adobe Journey Optimizer でのオーケストレーションのオムニチャネルエンゲージメントへの拡大](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/scaling-orchestration-to-omnichannel-engagement/introduction){target="_blank"}に関するビデオチュートリアルも参照してください。6 つのレッスンのコースを通じて、ビジネスコミュニケーションを、シンプルなアウトバウンドメッセージングから高度なオムニチャネルエクスペリエンスに向上させる方法について説明します。実用的な例を通じて、プロアクティブなアウトリーチとレスポンシブなエンゲージメントをシームレスに組み合わせたカスタマージャーニーを作成するインサイトが得られます。
 
 
 
@@ -175,42 +175,42 @@ Adobe Journey Optimizerの最も一般的なユースケースを構築するた
 <td>
 <img alt="ブログ投稿" src="../assets/do-not-localize/community.jpeg">
 <div>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400?profile.language=ja" target="_blank">ユースケース：Adobe Journey Optimizer で平日にのみメールを送信する方法</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-approval-strategies-in-adobe-journey-optimizer/ba-p/761396?profile.language=ja" target="_blank">ユースケース：高度な承認戦略</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=ja" target="_blank">ユースケース：毎日のフリークエンシーキャップ</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445?profile.language=ja" target="_blank">ベストプラクティス：オーディエンスを読み取りジャーニー</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/from-plan-to-perfection-how-to-test-your-ajo-journeys-for-10/ba-p/761270?profile.language=ja" target="_blank">ユースケース：ジャーニーのテスト</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/deliver-with-confidence-approval-workflows-across-adobe-journey/ba-p/760900?profile.language=ja" target="_blank">ユースケース：承認ワークフロー</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958?profile.language=ja" target="_blank">ユースケース：ジャーニーのエントリ条件と終了条件</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400" target="_blank">ユースケース：Adobe Journey Optimizer で平日にのみメールを送信する方法</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-approval-strategies-in-adobe-journey-optimizer/ba-p/761396" target="_blank">ユースケース：高度な承認戦略</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510" target="_blank">ユースケース：毎日のフリークエンシーキャップ</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445" target="_blank">ベストプラクティス：オーディエンスを読み取りジャーニー</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/from-plan-to-perfection-how-to-test-your-ajo-journeys-for-10/ba-p/761270" target="_blank">ユースケース：ジャーニーのテスト</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/deliver-with-confidence-approval-workflows-across-adobe-journey/ba-p/760900" target="_blank">ユースケース：承認ワークフロー</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958" target="_blank">ユースケース：ジャーニーのエントリ条件と終了条件</a></p>
 </div>
 <p>
 </td>
 <td>
 <img alt="ジャーニーのステップイベント" src="../assets/do-not-localize/list.jpeg">
 <div>
-<a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-step-events-in-adobe-journey-optimizer-fundamentals/ba-p/762024?profile.language=ja" target="_blank">Adobe Journey Optimizer のステップイベントの習得：データ駆動型キャンペーンの基本、スキーマおよび基本的なクエリ
+<a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-step-events-in-adobe-journey-optimizer-fundamentals/ba-p/762024" target="_blank">Adobe Journey Optimizer のステップイベントの習得：データ駆動型キャンペーンの基本、スキーマおよび基本的なクエリ
 </a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/fast-external-audience-activation-with-custom-upload/ba-p/761658?profile.language=ja" target="_blank">ユースケース：カスタムアップロードを使用した高速な外部 Audience Activation</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/personalization-beyond-the-ajo-profile-bringing-non-profile/ba-p/769225?profile.language=ja" target="_blank">ユースケース：プロファイルを超えたPersonalization
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/fast-external-audience-activation-with-custom-upload/ba-p/761658" target="_blank">ユースケース：カスタムアップロードを使用した高速な外部 Audience Activation</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/personalization-beyond-the-ajo-profile-bringing-non-profile/ba-p/769225" target="_blank">ユースケース：プロファイルを超えたパーソナライゼーション
 </a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/take-flight-with-personalization-how-airlines-can-elevate-offers/ba-p/767513?profile.language=ja" target="_blank">Personalizationで空を飛ぶ：航空会社がAdobe Journey Optimizerでオファーを高める方法
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/take-flight-with-personalization-how-airlines-can-elevate-offers/ba-p/767513" target="_blank">パーソナライゼーションを使用したフライトの搭乗：航空会社が Adobe Journey Optimizer を使用してオファーを向上させる方法
 </a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-real-time-personalization-a-marketer-s-guide-to-aem/ba-p/762606?profile.language=ja" target="_blank">リアルタイム Personalizationの習得：マーケター向けAEM コンテンツフラグメントおよびAdobe Journey Optimizerガイド
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-real-time-personalization-a-marketer-s-guide-to-aem/ba-p/762606" target="_blank">リアルタイムのパーソナライゼーションの習得：AEM コンテンツフラグメントと Adobe Journey Optimizer のマーケター向けガイド
 </a></p>
 </div>
 <p></td>
 <td>
 <img alt="カスタムアクション" src="../assets/do-not-localize/step-event.jpeg">
-<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-extend-adobe-journey-optimizer-with-custom-actions/ba-p/761323?profile.language=ja" target="_blank">カスタムアクションを使用してAdobe Journey Optimizerを拡張する方法：統合の使用例
+<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-extend-adobe-journey-optimizer-with-custom-actions/ba-p/761323" target="_blank">カスタムアクションを使用した Adobe Journey Optimizer の拡張方法：統合ユースケース
 </a></p>
 </div>
-<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/breaking-down-barriers-how-adobe-journey-optimizer-s-custom/ba-p/759223?profile.language=ja" target="_blank">Adobe Journey Optimizerのカスタム委任機能は、企業コンプライアンスの課題を解決します
+<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/breaking-down-barriers-how-adobe-journey-optimizer-s-custom/ba-p/759223" target="_blank">Adobe Journey Optimizer のカスタムデリゲーション機能で企業のコンプライアンス課題を解決
 </a></p>
 </div>
-<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/line-in-ajo-from-first-campaign-to-advanced-expression-fragment/ba-p/771048?profile.language=ja" target="_blank">Journey Optimizerの行：最初のキャンペーンから高度な式フラグメントおよびカスタムアクションのユースケースまで
+<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/line-in-ajo-from-first-campaign-to-advanced-expression-fragment/ba-p/771048" target="_blank">Journey Optimizer の LINE：最初のキャンペーンから高度な式フラグメントとカスタムアクションまでのユースケース
 </a></p>
 </div>
-<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-universal-link-integration-guide-for-ios/ba-p/768669?profile.language=ja" target="_blank">iOSのJourney Optimizer Universal Link 統合ガイド
+<div><p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-universal-link-integration-guide-for-ios/ba-p/768669" target="_blank">Journey Optimizer の iOS 用ユニバーサルリンク統合ガイド
 </a></p>
 </div>
 </td>

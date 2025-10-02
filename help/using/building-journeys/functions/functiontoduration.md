@@ -5,13 +5,13 @@ description: toDuration 関数について説明します
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: toDuration，関数，式，ジャーニー
+keywords: toDuration, 関数, 式, ジャーニー
 exl-id: c78e30c5-99ee-4dc7-a03a-17f7ee65f83a
 version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '289'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

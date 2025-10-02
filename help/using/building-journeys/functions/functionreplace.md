@@ -5,13 +5,13 @@ description: replace 関数について説明します
 feature: Journeys
 role: Data Engineer, Architect
 level: Experienced
-keywords: 置換，関数，式，ジャーニー
+keywords: replace, 関数, 式, ジャーニー
 exl-id: 3eb35fd6-2d11-4f24-b0d9-5334e7ed7872
 version: Journey Orchestration
 source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 

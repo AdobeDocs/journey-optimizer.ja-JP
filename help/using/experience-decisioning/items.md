@@ -9,7 +9,7 @@ exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 source-git-commit: 7926e90f3a2ca62b297a8db548f044086d3dab66
 workflow-type: tm+mt
 source-wordcount: '2179'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -82,8 +82,8 @@ Journey Optimizer では、決定項目と呼ばれるマーケティングオ�
 >abstract="デフォルトでは、すべてのプロファイルが決定項目を受け取る資格を持ちますが、オーディエンスまたはルールを使用すると、項目を特定のプロファイルのみに制限できます。"
 
 <!--
->"additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 
@@ -116,9 +116,9 @@ Journey Optimizer では、決定項目と呼ばれるマーケティングオ�
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_capping_expression"
 >title="式"
->abstract="キャップのしきい値に静的な値を使用する代わりに、独自の式を定義できます。これにより、Adobe Experience Platform データセットの決定属性や外部属性を使用して、しきい値を動的に計算できます。<br/><br/>キャップルール&#x200B;**式**&#x200B;は現在、すべてのユーザーに対する限定提供として使用できます。これらは、**[!UICONTROL 合計]**&#x200B;キャップタイプでのみサポートされます。"
+>abstract="キャップのしきい値に静的な値を使用する代わりに、独自の式を定義できます。これにより、Adobe Experience Platform データセットの決定属性や外部属性を使用して、しきい値を動的に計算できます。<br/><br/>キャップルール&#x200B;**式**&#x200B;は現在、すべてのユーザーに対する限定提供として使用できます。これらは、**[!UICONTROL 合計]**&#x200B;キャップのタイプでのみサポートされます。"
 
-キャッピングは、オファー項目を提示できる最大回数を定義する制約として使用されます。 ユーザーが特定のオファーを受け取る回数を制限すると、顧客への過度の勧誘を防ぎ、各タッチポイントをそれに適したオファーで最適化できます。特定の決定項目に対して最大 10 個のキャップを作成できます。
+キャップは、オファーを提示できる最大回数を定義する制約として使用されます。ユーザーが特定のオファーを受け取る回数を制限すると、顧客への過度の勧誘を防ぎ、各タッチポイントをそれに適したオファーで最適化できます。特定の決定項目に対して最大 10 個のキャップを作成できます。
 
 ![](assets/item-capping.png)
 
@@ -127,15 +127,15 @@ Journey Optimizer では、決定項目と呼ばれるマーケティングオ�
 >
 >キャップカウンターの値の更新には、最大 3 秒かかる場合があります。例えば、web サイト上にオファーを表示する web バナーを表示しようとしているとします。特定のユーザーが 3 秒以内に web サイトの次のページを参照した場合、そのユーザーのカウンター値は増分しません。
 
-キャッピングルールを設定する際に、Adobe Experience Platform データセットに保存された属性を参照して、しきい値を定義できます。 データセットを使用するには、「**[!UICONTROL データセット]**」セクションでデータセットを選択します。
+キャッピングルールを設定する際に、Adobe Experience Platform データセットに保存されている属性を参照して、しきい値を定義できます。データセットを使用するには、「**[!UICONTROL データセット]**」セクションで選択します。
 
 ![](assets/exd-lookup-capping.png)
 
 >[!NOTE]
 >
->この機能は、現在、すべてのユーザーに対する限定提供として利用できます。 使用方法について詳しくは、次の節を参照してください。[ 決定へのAdobe Experience Platform データの使用 ](../experience-decisioning/aep-data-exd.md)
+>この機能は現在、すべてのユーザーに対する限定提供として使用できます。使用方法について詳しくは、[決定の Adobe Experience Platform データの使用](../experience-decisioning/aep-data-exd.md)の節を参照してください。
 
-決定項目のキャッピングルールを設定するには、「**[!UICONTROL キャッピングを作成]** ボタンをクリックし、次に説明する手順に従います。
+決定項目のキャッピングルールを設定するには、「**[!UICONTROL キャッピングを作成]**」ボタンをクリックし、次の手順に従います。
 
 ![](assets/item-capping-create.png)
 
@@ -158,7 +158,7 @@ Journey Optimizer では、決定項目と呼ばれるマーケティングオ�
 
    * **[!UICONTROL プロファイルごと]**&#x200B;を選択して、オファーを同じユーザーに提案できる回数を定義します。例えば、「プラチナクレジットカード」のオファーを持つ銀行の場合、このオファーを 1 つのプロファイルにつき 5 回以上表示したくないとします。実際、ユーザーがオファーを 5 回見て、それに対して何らかのアクションを起こしていない場合、その次に最適なオファーに対して行動する可能性が高いと考えられます。
 
-1. キャッピングしきい値を定義します。 そのためには、静的な値を入力するか、式を使用してしきい値を計算します。 詳しくは、以下の節を展開してください。
+1. キャップしきい値を定義します。これを行うには、静的な値を入力するか、式を使用してしきい値を計算します。詳しくは、以下の節を展開してください。
 
    +++静的しきい値
 
@@ -172,13 +172,13 @@ Journey Optimizer では、決定項目と呼ばれるマーケティングオ�
 
    キャップのしきい値に静的な値を使用する代わりに、独自の式を定義できます。これにより、Adobe Experience Platform データセットの決定属性や外部属性を使用して、しきい値を動的に計算できます。
 
-   例えば、マーケターはエクスポージャーを調整するために乗数を追加することができます。 例えば、利用可能な在庫を 2 倍にすることで、オファーを利用可能な単位の 2 倍の数の顧客に表示できます。 このアプローチは、すべての顧客がコンバージョンするとは限らず、売り過ぎることなく、より良いリーチを保証することを期待しています。
+   例えば、マーケターは露出を調整するのに乗数を追加することを決定する場合があります。例えば、使用可能な在庫数を 2 倍にすることで、使用可能なユニット数の 2 倍の顧客にオファーを表示できます。このアプローチは、すべての顧客がコンバージョンするわけではないことを予測し、過剰販売することなく、より広いリーチを確保します。
 
    >[!NOTE]
    >
-   >キャッピングルール **式** は現在、すべてのユーザーに対する使用制限として使用できます。 これらは、**[!UICONTROL 合計]**&#x200B;キャップタイプでのみサポートされます。
+   >キャッピングルール&#x200B;**式**&#x200B;は現在、すべてのユーザーに対する限定提供として使用できます。これらは、**[!UICONTROL 合計]**&#x200B;キャップのタイプでのみサポートされます。
 
-   式を使用するには、「**[!UICONTROL 式]**」オプションを有効にし、必要に応じて式を編集します。
+   式を使用するには、「**[!UICONTROL 式]**」オプションを有効にして、必要に応じて式を編集します。
 
    ![](assets/exd-lookup-capping-expression.png)
 

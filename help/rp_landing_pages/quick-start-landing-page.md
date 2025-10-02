@@ -5,7 +5,7 @@ title: 役割と責務
 description: 役割と責務
 redpen-status: CREATED_||_2025-08-11_20-03-47
 source-git-commit: 5a8ef88cba254241933607ca59156d35e0e92926
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer の成功は、それぞれのスキルに合わせて�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 役割と責務の概要
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer を正常に実装するのに必要な主な役割、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 マーケター向けの基本を学ぶ
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer を正常に実装するのに必要な主な役割、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 データエンジニア向けの基本を学ぶ
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer を正常に実装するのに必要な主な役割、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 システム管理者向けの基本を学ぶ
 

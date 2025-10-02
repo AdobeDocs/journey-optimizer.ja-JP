@@ -10,7 +10,7 @@ level: Intermediate
 keywords: Marketo、Marketo Engage 統合
 exl-id: 70d1ef5a-743b-4362-bb65-93a8c996209f
 source-git-commit: dec575162b6db7e7d4f32f5f170de9673b979e5c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 100%
 

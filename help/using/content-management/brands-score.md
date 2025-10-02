@@ -6,7 +6,7 @@ role: User
 level: Beginner, Intermediate
 exl-id: 01e74670-7431-4791-b98c-12278e6d3332
 source-git-commit: 03699215020770d0636c77e9d197990ab5da0975
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 100%
 
@@ -76,6 +76,6 @@ ht-degree: 100%
 
 +++ こちらのビデオをご覧ください
 
->[!VIDEO](https://video.tv.adobe.com/v/3470547/?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3470544/?learn=on)
 
 +++

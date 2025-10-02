@@ -239,7 +239,7 @@ Domain,!examplecom,MANUAL,Invalid format for value: !examplecom
 >abstract="To download the suppression list, Qou can either export the current list by generating a new file, or download the file that was previously generated."
 -->
 
-抑制リストを CSV ファイルとして書き出すには、次の手順に従います。
+抑制リストを CSV ファイルとしてエクスポートするには、次の手順に従います。
 
 1. 「**[!UICONTROL CSV をダウンロード]**」ボタンを選択します。 
 

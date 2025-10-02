@@ -6,7 +6,7 @@ description: イベント設定
 redpen-status: CREATED_||_2025-08-11_21-10-50
 exl-id: 4f9f480d-8c71-4486-8074-d6fa9ed828bb
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer のイベント設定とは、パーソナライズさ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 単一イベントの設定
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer のイベント設定とは、パーソナライズさ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 ExperienceEvent スキーマ
 
@@ -50,7 +50,7 @@ ExperienceEvent スキーマ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Adobe Analytics との統合
 
@@ -60,7 +60,7 @@ Adobe Analytics データを統合してジャーニーを自動化し、パー�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 ビジネスイベントの設定
 
@@ -70,7 +70,7 @@ Adobe Analytics データを統合してジャーニーを自動化し、パー�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Streaming API を使用したイベントの送信
 

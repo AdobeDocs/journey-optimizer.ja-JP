@@ -6,7 +6,7 @@ description: テストと承認
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 100%
 
@@ -20,17 +20,17 @@ Adobe Journey Optimizer の「テストと承認」機能を使用すると、�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 コンテンツのプレビュー、テスト、検証
 
-テストプロファイル、メールレンダリングテスト、スパムスコア評価などを使用して、パーソナライズされたコンテンツをプレビュー、テスト、検証する方法について説明します。
+テストプロファイル、メールのレンダリングのテスト、スパムスコア評価などを使用して、パーソナライズされたコンテンツをプレビュー、テスト、検証する方法について説明します。
 
 [コンテンツのプレビューとテストの探索](preview-test-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 ジャーニーおよびキャンペーンの承認ワークフロー
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer の「テストと承認」機能を使用すると、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 システムアラートへのアクセスと登録
 

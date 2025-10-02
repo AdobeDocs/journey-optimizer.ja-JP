@@ -9,7 +9,7 @@ level: Experienced
 keywords: プラットフォーム, データレイク, 作成, レイク, データセット, プロファイル
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
 source-git-commit: fbd0280d293cef3548b48c2992b4f9f2793a7e1f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 100%
 

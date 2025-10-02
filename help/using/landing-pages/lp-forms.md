@@ -55,7 +55,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
-> フォームプリセットにアクセスして編集するには、実稼動サンドボックスにおける **[!UICONTROL フォームプリセットの管理]** 権限が必要です。 権限について詳しくは、[&#x200B; この節 &#x200B;](../administration/high-low-permissions.md#administration-permissions).<!--TBC--> を参照してください
+> フォームプリセットにアクセスして編集するには、実稼動サンドボックスにおける **[!UICONTROL フォームプリセットの管理]** 権限が必要です。 権限について詳しくは、[ この節 ](../administration/high-low-permissions.md#administration-permissions).<!--TBC--> を参照してください
 
 1. **[!UICONTROL フォームプリセット]** インベントリにアクセスするには、左のメニューから **[!UICONTROL 管理]**/**[!UICONTROL チャネル]**/**[!UICONTROL フォーム設定]** を選択します。
 
@@ -69,7 +69,7 @@ ht-degree: 10%
 
    >[!NOTE]
    >
-   >ストリーミングソース接続の作成について詳しくは、[Experience Platform ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"} を参照してください。
+   >ストリーミングソース接続の作成について詳しくは、[Experience Platform ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"} を参照してください。
 
 1. フォームにリンクする **[!UICONTROL データセット]** を選択します。 ここで、フォームの応答が保存され、反映されます。 入力して特定のデータセットを検索するか、リストから選択できます。
 
@@ -103,15 +103,15 @@ ht-degree: 10%
 
    ![](assets/lp_create-form.png)
 
-1. 使用する接続と、フォーム用に事前定義されたデータセットを含む **[!UICONTROL プリセット]** を選択します。 [&#x200B; フォームプリセットの作成方法を学ぶ &#x200B;](#create-form-preset)
+1. 使用する接続と、フォーム用に事前定義されたデータセットを含む **[!UICONTROL プリセット]** を選択します。 [ フォームプリセットの作成方法を学ぶ ](#create-form-preset)
 
-1. 「**[!UICONTROL 作成]**」をクリックします。フォームデザイナーが開き、構造とコンテンツ [&#x200B; コンポーネント &#x200B;](../email/content-components.md#add-content-components) を追加してコンテンツを作成できます。 [&#x200B; テキスト &#x200B;](../email/content-components.md#text) コンポーネントと **[!UICONTROL フィールド]** コンポーネントを使用できます。
+1. 「**[!UICONTROL 作成]**」をクリックします。フォームデザイナーが開き、構造とコンテンツ [ コンポーネント ](../email/content-components.md#add-content-components) を追加してコンテンツを作成できます。 [ テキスト ](../email/content-components.md#text) コンポーネントと **[!UICONTROL フィールド]** コンポーネントを使用できます。
 
 1. プロファイルデータと属性を取得するには、フォームに特定のフィールドを追加します。 [詳細情報](#define-fields)
 
 1. これらのフィールドを設定およびデザインします。 [詳細情報](#configure-fields)
 
-1. **[!UICONTROL スタイル]** パネルを使用して、必要に応じてフォームのレイアウト、スタイル設定および寸法を調整できます。 [&#x200B; 詳しくは、スタイル設定を参照してください &#x200B;](../email/get-started-email-style.md)
+1. **[!UICONTROL スタイル]** パネルを使用して、必要に応じてフォームのレイアウト、スタイル設定および寸法を調整できます。 [ 詳しくは、スタイル設定を参照してください ](../email/get-started-email-style.md)
 
 1. すべてのフィールドを設定したら、「保存して閉じる **[!UICONTROL をクリックし]** す。
 
@@ -199,7 +199,7 @@ ht-degree: 10%
 次のいずれかのアクションを設定します。
 
 * **[!UICONTROL ページを維持]** – このオプションを選択すると、フォームの送信時に訪問者が同じページに留まります。
-* **[!UICONTROL ランディングページ]** - フォームの送信後にユーザーがリダイレクトされる公開済みの [&#x200B; ランディングページ &#x200B;](create-lp.md) を選択します。
+* **[!UICONTROL ランディングページ]** - フォームの送信後にユーザーがリダイレクトされる公開済みの [ ランディングページ ](create-lp.md) を選択します。
 * **[!UICONTROL 外部 URL]** - フォローアップページとして使用する完全な URL を入力します。 ユーザーがフォームを送信すると、指定した URL に移動します。
 * **[!UICONTROL 条件付きリダイレクト]** - フォームの応答に基づいて異なるフォローアップアクションを動的に表示するルールを設定します。
 
@@ -215,7 +215,7 @@ ht-degree: 10%
 
 フォームが公開された後も、編集は可能です。 次の手順に従います。
 
-1. [&#x200B; フォームリスト &#x200B;](#access-forms) にアクセスし、公開されたフォームを選択します。
+1. [ フォームリスト ](#access-forms) にアクセスし、公開されたフォームを選択します。
 
 1. 「**[!UICONTROL フォームを編集]**」ボタンをクリックします。
 
@@ -249,7 +249,7 @@ ht-degree: 10%
 
 1. プライマリページを設定します。 [詳細情報](create-lp.md#configure-primary-page)
 
-1. [&#x200B; ランディングページデザイナー &#x200B;](design-lp.md) を開きます。
+1. [ ランディングページデザイナー ](design-lp.md) を開きます。
 
 1. **[!UICONTROL 構造コンポーネント]** をコンテンツにドラッグ&amp;ドロップします。 **[!UICONTROL フォーム]** コンポーネントをその構造にドラッグ&amp;ドロップします。
 
@@ -263,19 +263,19 @@ ht-degree: 10%
 
    >[!NOTE]
    >
-   >「**[!UICONTROL フォームを編集]** ボタンを使用して、選択したフォームを更新できます。 フォームが新しいタブで開きます。 フォームコンテンツの編集手順は、[&#x200B; この節 &#x200B;](#create-form) で説明する手順と同じです。
+   >「**[!UICONTROL フォームを編集]** ボタンを使用して、選択したフォームを更新できます。 フォームが新しいタブで開きます。 フォームコンテンツの編集手順は、[ この節 ](#create-form) で説明する手順と同じです。
 
 1. 「**[!UICONTROL フォローアップタイプ]**」セクションでは、ユーザーがフォームに入力したときの動作を設定します。
 
    * 「**[!UICONTROL フォーム定義]**」を選択して、埋め込みフォームで定義されたアクションを選択します。 [詳細情報](#thank-you-page)
 
-   * フォームの送信後にユーザーがリダイレクトされる公開済みの [&#x200B; ランディングページ &#x200B;](create-lp.md) を選択することもできます。
+   * フォームの送信後にユーザーがリダイレクトされる公開済みの [ ランディングページ ](create-lp.md) を選択することもできます。
 
    * または、ユーザーがフォームを送信したときに表示されるフォローアップページとして **[!UICONTROL 外部 URL]** を定義します。
 
 1. ランディングページを保存してテストします。 [詳細情報](create-lp.md#test-landing-page)
 
-ランディングページが [&#x200B; 公開 &#x200B;](create-lp.md#publish-landing-page) され、ジャーニーで使用されると、ユーザーがフォームに入力したときに、入力された情報は選択したデータセットに取り込まれます。
+ランディングページが [ 公開 ](create-lp.md#publish-landing-page) され、ジャーニーで使用されると、ユーザーがフォームに入力したときに、入力された情報は選択したデータセットに取り込まれます。
 
 >[!NOTE]
 >

@@ -6,7 +6,7 @@ description: 全期間のレポート
 redpen-status: CREATED_||_2025-08-11_20-52-29
 exl-id: cc658ad0-79ec-4403-bdda-18f0c428d3fa
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer の「全期間のレポート」は、一定期間に�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 全期間のレポートの基本を学ぶ
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer の「全期間のレポート」機能にアクセス�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 指標の包括的なリスト
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer の「全期間のレポート」機能にアクセス�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Customer Journey Analytics の手動設定
 
@@ -50,7 +50,7 @@ Customer Journey Analytics の手動設定
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 レポートの管理
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 内でレポートを分析、カスタマイズ、エ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 レポートデータソースの設定
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 内でレポートを分析、カスタマイズ、エ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 除外の理由
 

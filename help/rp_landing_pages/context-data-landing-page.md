@@ -6,7 +6,7 @@ description: コンテキストデータの活用
 redpen-status: CREATED_||_2025-08-11_21-02-37
 exl-id: 09ba2a43-f7f3-4414-b7b3-64c9932ff6c7
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 コンテキストデータの基本を学ぶ
 
@@ -30,7 +30,7 @@ Decisioning API リクエストと Edge Decisioning API リクエストの違い
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Edge Decisioning リクエストでのコンテキストデータの使用
 
@@ -40,7 +40,7 @@ Edge Decisioning リクエストでのコンテキストデータの使用
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 決定リクエストと実施要件ルールでのコンテキストデータの使用
 

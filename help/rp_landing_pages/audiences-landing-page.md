@@ -6,7 +6,7 @@ description: オーディエンス
 redpen-status: CREATED_||_2025-08-11_20-46-11
 exl-id: c3b9f97d-7c2f-436c-abba-60b7c0726ee4
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer のオーディエンスは、顧客の行動、好み�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 オーディエンスの基本を学ぶ
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 内の Audience management、セグメント化、アク
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 オーディエンスの作成と管理
 
@@ -40,7 +40,7 @@ CSV の読み込みや連合データソースなど、オーディエンスの�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 キャンペーンとジャーニーでのオーディエンスのアクティブ化
 
@@ -50,7 +50,7 @@ CSV の読み込みや連合データソースなど、オーディエンスの�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 エンリッチメント属性の活用
 

@@ -301,7 +301,7 @@ ht-degree: 98%
 
    ![](assets/inhouse-translation-1.png)
 
-1. 外部翻訳ソフトウェアを使用して、翻訳を CSV ファイルに書き出すことができます。または、「**[!UICONTROL CSV を読み込み]**」ボタンをクリックして、その CSV ファイルを元の翻訳プロジェクトに読み込むこともできます。
+1. 外部翻訳ソフトウェアを使用して、翻訳を CSV ファイルにエクスポートできます。または、「**[!UICONTROL CSV を読み込み]**」ボタンをクリックして、その CSV ファイルを元の翻訳プロジェクトに読み込むこともできます。
 
    ![](assets/inhouse-translation-3.png)
 
@@ -341,7 +341,7 @@ ht-degree: 98%
 
    ![](assets/translation_review_2.png)
 
-1. 更新した翻訳を入力し、終了したら「**[!UICONTROL 確認]**」をクリックします。
+1.   更新した翻訳を入力し、終了したら「**[!UICONTROL 確認]**」をクリックします。
 
    ![](assets/translation_review_4.png)
 

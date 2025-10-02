@@ -9,7 +9,7 @@ exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
 source-git-commit: 2a5db6950ac82fd18deb2e4009c9a43247444d6a
 workflow-type: tm+mt
 source-wordcount: '933'
-ht-degree: 86%
+ht-degree: 91%
 
 ---
 
@@ -30,19 +30,19 @@ ht-degree: 86%
 
 アプリ内メッセージが正常に配信されるようにするには、次の設定を定義する必要があります。
 
-* [Adobe Experience Platform Data Collection](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=ja){target="_blank"} で、**[!UICONTROL Adobe Journey Optimizer]** サービスの下で「Adobe Experience Platform Edge」オプションと「**[!UICONTROL Adobe Experience Platform]**」オプションを有効にするなど、データストリームが定義されていることを確認します。
+* [Adobe Experience Platform データ収集](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=ja){target="_blank"}で、**[!UICONTROL Adobe Experience Platform]** サービスの下にある Adobe Experience Platform Edge と「**[!UICONTROL Adobe Journey Optimizer]**」オプションを有効にするなど、データストリームが定義されていることを確認します。
 
   これにより、Journey Optimizer インバウンドイベントが Adobe Experience Platform Edge で正しく処理されます。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=ja){target="_blank"}
 
   ![](assets/inapp_config_6.png)
 
-* [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target="_blank"} で、「**[!UICONTROL Active-On-Edge結合ポリシー]**」オプションが有効になっているデフォルトの結合ポリシーがあることを確認します。 それには、**[!UICONTROL 顧客r]**／**[!UICONTROL プロファイル]**／**[!UICONTROL 結合ポリシー]** Experience Platform メニューでポリシーを選択します。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ja#configure){target="_blank"}
+* [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target="_blank"} で、デフォルトの結合ポリシーが設定され、「**[!UICONTROL Active-On-Edge 結合ポリシー]**」オプションが有効になっていることを確認します。それには、**[!UICONTROL 顧客r]**／**[!UICONTROL プロファイル]**／**[!UICONTROL 結合ポリシー]** Experience Platform メニューでポリシーを選択します。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ja#configure){target="_blank"}
 
   この結合ポリシーは、[!DNL Journey Optimizer] インバウンドチャネルで使用すると、エッジでインバウンドキャンペーンを正しくアクティブ化して公開できます。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ja){target="_blank"}
 
   >[!NOTE]
   >
-  >カスタムの&#x200B;**[!UICONTROL データセット設定]**&#x200B;マージポリシーを使用する場合は、指定したマージポリシー内に&#x200B;**[!UICONTROL ジャーニーインバウンド]**&#x200B;データセットを必ず追加してください。
+  >カスタムの&#x200B;**[!UICONTROL データセット設定]**&#x200B;結合ポリシーを使用する場合は、指定した結合ポリシー内に&#x200B;**[!UICONTROL ジャーニーインバウンド]**&#x200B;データセットを必ず追加してください。
 
   ![](assets/inapp_config_8.png)
 

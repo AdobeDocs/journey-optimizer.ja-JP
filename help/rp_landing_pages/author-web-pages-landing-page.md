@@ -6,7 +6,7 @@ description: Web ページの作成
 redpen-status: CREATED_||_2025-08-11_20-40-34
 exl-id: 6f1ce53e-ab5a-4c77-bbd6-fc049e3dc4f5
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer の強力なツールを使用して、web エクスペ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Web designer を使用したコンテンツの編集
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer の視覚的な web designer を使用して、web ペ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 非ビジュアルエディターを使用した web コンテンツの編集
 
@@ -40,7 +40,7 @@ CSS セレクターの追加、ヘッドコンテンツの変更、クリック�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Adobe Journey Optimizer での web 変更の管理
 
@@ -50,7 +50,7 @@ CSS セレクター、カスタムコード、コード管理のベストプラ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Web エクスペリエンスの監視
 
@@ -60,7 +60,7 @@ Web エクスペリエンスの監視
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Adobe Journey Optimizer で単一ページアプリケーションを作成する方法
 

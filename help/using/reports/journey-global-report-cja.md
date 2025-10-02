@@ -11,7 +11,7 @@ exl-id: 30d4f967-e085-44f1-973d-11e79f693e6e
 source-git-commit: 158d9d9a1070e1d842183e5bd6cb5ce8e38834c5
 workflow-type: tm+mt
 source-wordcount: '971'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -152,16 +152,16 @@ Customer Journey Analytics ワークスペースと、データのフィルタ�
 
 ![](assets/cja-journey-targeting-overview.png)
 
-コンテンツに対して **[!UICONTROL ターゲティングルール]** を設定した場合、**[!UICONTROL ターゲティングの概要]** 表には、主要なエンゲージメント指標の詳細ビューが表示され、各ルールのターゲットプロファイルがコンテンツとどのように相互作用したかが示されます。
+コンテンツの&#x200B;**[!UICONTROL ターゲティングルール]**&#x200B;を設定すると、**[!UICONTROL ターゲティングの概要]**&#x200B;の表に主要なエンゲージメント指標の詳細なビューが表示され、各ルールのターゲットプロファイルがコンテンツとどのようにやり取りしたかが示されます。
 
-➡️[ ターゲティングルールの詳細情報 ](../campaigns/campaigns-message-optimization.md)
+➡️ [ターゲティングルールの詳細情報](../campaigns/campaigns-message-optimization.md)
 
-+++ ターゲティングの概要指標の詳細を学ぶ
++++ ターゲティングの概要指標の詳細情報
 
 * **[!UICONTROL 人物]**：イベントのターゲットプロファイルに適格な、ユーザープロファイルの数。
 
 * **[!UICONTROL ユニーククリック数]**：メールでコンテンツをクリックしたプロファイルの数。
 
-* **[!UICONTROL ユニーククリック率]**：少なくとも 1 回クリックしたターゲットプロファイルの割合。
+* **[!UICONTROL ユニーククリック率]**：1 回以上クリックしたターゲットプロファイルの割合。
 
 +++

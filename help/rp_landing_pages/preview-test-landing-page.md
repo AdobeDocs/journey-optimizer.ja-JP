@@ -6,7 +6,7 @@ description: コンテンツのプレビューとテスト
 redpen-status: CREATED_||_2025-08-11_20-30-05
 exl-id: bd78e0af-573b-4880-a9f1-44467c9db159
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer でコンテンツをプレビューおよびテスト�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Adobe Journey Optimizer でコンテンツをプレビューおよびテストする方法
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer でコンテンツをプレビューおよびテスト�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Adobe Journey Optimizer でテストプロファイルを選択する方法
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer でテストプロファイルを選択する方法
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 テストプロファイルを使用したコンテンツのプレビュー
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer でテストプロファイルを選択する方法
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 テストプロファイルデータを使用した本配信前確認の送信
 
@@ -60,13 +60,13 @@ Adobe Journey Optimizer でテストプロファイルを選択する方法
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg)
 
-Adobe Journey Optimizer で Litmus を使用してメールレンダリングをテストする方法
+Adobe Journey Optimizer で Litmus を使用してメールのレンダリングをテストする方法
 
-Litmus を統合して、一般的なメールクライアント全体のメールレンダリングをプレビューし、適切に表示されることを確認します。
+Litmus を統合して、一般的なメールクライアント全体のメールのレンダリングをプレビューし、適切に表示されることを確認します。
 
-[Litmus を使用したメールレンダリングのテスト](../using/content-management/rendering.md)
+[Litmus を使用したメールのレンダリングのテスト](../using/content-management/rendering.md)
 :::
 
 :::

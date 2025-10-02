@@ -10,7 +10,7 @@ level: Beginner
 keywords: キャンペーン, 方法, 開始, Optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: 4bd3e202935cfc971990faa7d1dd2f3d0d7cdc6d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '879'
 ht-degree: 100%
 

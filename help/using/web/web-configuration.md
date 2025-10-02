@@ -85,7 +85,7 @@ Web または[コードベースのエクスペリエンス](../code-based/get-s
 
 1. 異なるルール間で **[!UICONTROL OR]** 演算子または&#x200B;**[!UICONTROL 除外]**&#x200B;演算子を使用できます。
 
-   **[!UICONTROL 除外]**&#x200B;は、定義されたルールに一致するページの 1 つをターゲットにしない場合に役立ちます。例えば、`https://luma.com/blogs/productinfo` ページを除く、`product` を含むすべての `luma.com` ページです。
+   **[!UICONTROL 除外]**&#x200B;は、定義されたルールに一致するページの 1 つをターゲットにしない場合に役立ちます。例えば、`https://luma.com/blogs/productinfo` ページを除く、`product` を含むすべての `luma.com` ページをターゲットにできます。
 
    ![](assets/web_config_4.png)
 

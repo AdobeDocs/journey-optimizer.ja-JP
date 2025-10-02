@@ -28,7 +28,7 @@ ht-degree: 76%
 
 1. サポートされているソースからデータセットにデータを[取り込みます](ingest-data.md)。
 
-➡️ [ 手動モデルベースのスキーマについて詳しくは、Adobe Experience Platform ドキュメントを参照してください ](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
+➡️ [ 手動モデルベースのスキーマについて詳しくは、Adobe Experience Platform ドキュメントを参照してください ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
 
 ## スキーマの作成 {#schema}
 

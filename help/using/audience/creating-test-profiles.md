@@ -248,4 +248,4 @@ curl -X POST \
 
 テストプロファイルを作成する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416426?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/334236?quality=12)

@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
 workflow-type: tm+mt
 source-wordcount: '718'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -93,7 +93,7 @@ ht-degree: 94%
 
 ![ジャーニーアクティビティプロパティの詳細パラメーターフィールド](assets/journey-advanced-parameters.png)
 
-読みやすくするために、右側のパネルの上部にある **[!UICONTROL 読み取り専用フィールドを非表示にする]** ボタンを使用して、これらのパラメーターを非表示にします。
+読みやすくするには、右側のパネルの上部にある「**[!UICONTROL 読み取り専用フィールドを非表示]**」ボタンを使用して、これらのパラメーターを非表示にします。
 
 ![ジャーニーアクティビティプロパティの読み取り専用フィールドを非表示アイコン](assets/journey-hide-read-only-fields.png)
 
@@ -103,9 +103,9 @@ ht-degree: 94%
 
 >[!NOTE]
 >
->詳細設定パラメーターが非表示の場合は、「**[!UICONTROL 読み取り専用フィールドを表示]**」ボタンをクリックします
+>詳細設定パラメーターが非表示になっている場合は、「**[!UICONTROL 読み取り専用フィールドを表示]**」ボタンをクリックします
 >
->![ ジャーニーアクティビティプロパティの「読み取り専用フィールドを表示」アイコン ](assets/journey-show-read-only-fields.png){width=60%}
+>![ジャーニーアクティビティプロパティの読み取り専用フィールドを表示アイコン](assets/journey-show-read-only-fields.png){width=60%}
 
 ### 代替パスの追加
 

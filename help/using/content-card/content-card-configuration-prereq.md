@@ -28,7 +28,7 @@ Adobe Journey Optimizer でコンテンツカードを正しく表示するに�
 
   >[!NOTE]
   >
-  >カスタムの&#x200B;**[!UICONTROL データセット設定]**&#x200B;マージポリシーを使用する場合は、指定したマージポリシー内に&#x200B;**[!UICONTROL ジャーニーインバウンド]**&#x200B;データセットを必ず追加してください。
+  >カスタムの&#x200B;**[!UICONTROL データセット設定]**&#x200B;結合ポリシーを使用する場合は、指定した結合ポリシー内に&#x200B;**[!UICONTROL ジャーニーインバウンド]**&#x200B;データセットを必ず追加してください。
 
 * **Adobe Experience Platform Mobile または Platform Web SDK**
 

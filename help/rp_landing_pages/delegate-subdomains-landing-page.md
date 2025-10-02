@@ -6,7 +6,7 @@ description: メールサブドメインのデリゲート
 redpen-status: CREATED_||_2025-08-11_21-07-51
 exl-id: 7df9b8e2-136a-4ffc-9243-53c7be026d81
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer でメールのサブドメインをデリゲートす�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 サブドメインデリゲーションの基本を学ぶ
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer でサブドメインをデリゲートするメリッ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 サブドメインのデリゲート
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer でサブドメインをデリゲートするメリッ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 DMARC レコードの設定
 
@@ -50,7 +50,7 @@ DMARC レコードを設定し、デリゲートされたサブドメインの�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Google TXT レコードの追加
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer に Google TXT レコードを追加して、Gmail の�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 PTR レコードへのアクセスと編集
 
@@ -70,7 +70,7 @@ PTR レコードへのアクセスと編集
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 IP プールの作成
 

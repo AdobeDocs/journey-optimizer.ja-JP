@@ -12,7 +12,7 @@ exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
 source-git-commit: b6f0174b31b4ef317c18644a93a4ae38a712fb36
 workflow-type: tm+mt
 source-wordcount: '1513'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -28,29 +28,29 @@ ht-degree: 70%
 >title="ダークモードに切り替え"
 >abstract="ダークモードに切り替えると、サポートされているメールクライアントでどのようにレンダリングされるかをプレビューできます。 <br>最終的なレンダリングは、受信者のメールクライアントに応じて異なります。すべてのメールクライアントがダークモードをサポートしているわけではありません。"
 
-メールをデザインする際に、[!DNL Journey Optimizer][ メールDesigner](get-started-email-design.md) を使用して **[!UICONTROL ダークモード]** ビューに切り替えることができます。
+メールをデザインする際に、[!DNL Journey Optimizer] [E メールデザイナー](get-started-email-design.md)を使用すると、**[!UICONTROL ダークモード]**&#x200B;ビューに切り替えることができます。
 
-この <!--Email Designer --> ダークモード表示では、サポートしているメールクライアントがダークモードがオンの場合に表示する特定のカスタム設定を定義することもできます。
+この<!--Email Designer -->ダークモードビューでは、ダークモードがオンの場合にサポートしているメールクライアントに表示される特定のカスタム設定を定義することもできます。
 
 <!--When designing your emails, the Journey Optimizer Email Designer allows you to switch to Dark mode where you can define specific custom settings. When dark mode is on, the supporting email clients will display the settings that you defined for this mode.-->
 
 ## ダークモードとは {#what-is-dark-mode}
 
-さまざまなメールクライアントでダークモードがレンダリングされる方法は複雑です。 まず、ダークモードを定義します。
+様々なメールクライアントでダークモードがレンダリングされる方法は複雑です。まず、ダークモードを定義します。
 
-ダークモードを使用すると、サポートされるメールクライアントやアプリで、テキスト、ボタン、その他の UI 要素に暗い背景と明るい色のメールを表示できます。 目への負担を軽減し、バッテリー寿命を短縮し、低照度環境での読みやすさを向上させて、より快適な視聴エクスペリエンスを実現します。
+ダークモードを使用すると、サポートしているメールクライアントとアプリで、メールの背景を暗くし、テキスト、ボタン、他の UI 要素を明るい色で表示できます。目への負担を軽減し、バッテリー寿命を短縮し、低照度環境での読みやすさを向上させて、より快適な視聴エクスペリエンスを実現します。
 
 <!--Dark Mode uses a dark color palette with light text and UI elements to reduce eye strain, save battery life, and improve readability in low-light environments.-->
 
-主要なオペレーティングシステムやアプリ全体で高まる傾向として <!-- (Apple Mail, Gmail, Outlook, Twitter, Slack)--> コンテンツをすべてのユーザーにとって読みやすく、視覚的に魅力あるものにするために、最新のメールデザインでは重要な検討事項となっています。
+これは、主要なオペレーティングシステムとアプリ<!-- (Apple Mail, Gmail, Outlook, Twitter, Slack)-->全体で高まるトレンドとして、すべてのユーザーにとってコンテンツが読みやすく視覚的に魅力的であることを確保するために、最新のメールデザインでは重要な考慮事項になっています。
 
 ## ガードレール {#guardrails}
 
-ダークモードのレンダリングに対する期待は、様々なメールクライアントによって適用される方法が大きく異なる可能性があるので、慎重に考慮する必要があります。
+ダークモードのレンダリングに関する期待は、様々なメールクライアントによって適用方法が大きく異なる可能性があるので、慎重に考慮する必要があります。
 
 <!--The dark mode final rendering depends on the recipient's email client. It is not possible to guarantee that your email will look the same in dark mode across all devices.-->
 
-[!DNL Journey Optimizer] Email Designerでダークモードを使用する前に、メインのメールクライアントでの処理方法を理解することが重要です。 区別すべきケースは次の 3 つです。
+[!DNL Journey Optimizer] E メールデザイナーでダークモードを使用する前に、メインのメールクライアントでの処理方法を理解することが重要です。区別するケースには、次の 3 つがあります。
 
 <!--
 * Check out the list of [email clients supporting dark mode](https://www.caniemail.com/search/?s=dark){target="_blank"}
@@ -60,36 +60,36 @@ ht-degree: 70%
 
 ### ダークモードをサポートしていないクライアント {#not-supporting}
 
-次のような一部のメールクライアントは、この機能をまったくサポートしていません。
+次のような一部のメールクライアントでは、この機能をまったくサポートしていません。
 
 * Yahoo! メール
 * AOL
 
-E メールDesignerでダークモードのカスタム設定を定義しているかどうかに関係なく、これらのメールクライアントはダークモードのレンダリングを表示しません。<!--Regardless of whether the interface is in light or dark mode, your email will render the same.-->
+E メールデザイナーでダークモードのカスタム設定を定義したかどうかに関係なく、これらのメールクライアントではダークモードのレンダリングを表示しません。<!--Regardless of whether the interface is in light or dark mode, your email will render the same.-->
 
-### 独自のダークモードを適用するクライアント {#default-support}
+### 独自のダークモードを適用しているクライアント {#default-support}
 
-一部のメールクライアントは、受信するすべてのメールに対して独自のデフォルトのダークモードを体系的に適用しています。 色、背景、画像など。 はメールクライアントに固有のダークモード設定で自動的に調整されます。つまり、外部の変更はできません。
+一部のメールクライアントでは、受信したすべてのメールに対して、独自のデフォルトのダークモードが体系的に適用されます。色、背景、画像などはメールクライアント固有のダークモード設定で自動的に調整されるので、外部からの変更はできません。
 
 <!--It is important to note that less than 25% of email clients offer customization options for dark mode. Clients such as Gmail implement their own dark mode rendering, which is not subject to external modification.-->
 
-次に例を示します。
+これらのクライアントの例：
 
 * Gmail（デスクトップ web メール、iOS、Android、モバイル web メール）
 * Outlook Windows
 * Outlook Windows メール
 
-この場合、メールDesignerでカスタムダークモード設定を定義すると、その設定はメールクライアントの設定で上書きされます。
+この場合、E メールデザイナーでカスタムダークモード設定を定義すると、これらの設定はメールクライアントの設定で上書きされます。
 
-これらのメールクライアントはダークモードを処理することを理解することが重要ですが、特定のダークモードデザインはレンダリングされません。
+これらのメールクライアントはダークモードを処理しますが、特定のダークモードデザインはレンダリングされないことを理解することが重要です。
 
 <!--In this case, the custom settings that you defined in the Email Designer cannot be rendered.-->
 
 <!--Some visual changes may also be caused by the email app or device overriding the original design.-->
 
-### カスタムダークモードをサポートするクライアント {#custom-support}
+### カスタムダークモードをサポートしているクライアント {#custom-support}
 
-他のメールクライアントには、`@media (prefers-color-scheme: dark)` クエリを使用してカスタムダークモードをレンダリングするオプションが用意されています。これは、[!DNL Journey Optimizer] Email Designerで使用される方法です。
+他のメールクライアントには、`@media (prefers-color-scheme: dark)` クエリを使用してカスタムダークモードをレンダリングするオプションが用意されています。これは、[!DNL Journey Optimizer] E メールデザイナーで使用される方法です。
 
 このオプションを処理する主なクライアントのリストを以下に示します。
 
@@ -100,15 +100,15 @@ E メールDesignerでダークモードのカスタム設定を定義してい�
 * Outlook iOS
 * Outlook Android
 
-この場合、メールDesignerで定義した具体的な設定が表示されます。
+この場合、E メールデザイナーで定義した特定の設定が表示されます。
 
 >[!NOTE]
 >
->メールDesignerを使用してダークモードのカスタム設定を定義する方法については、[ この節 ](#define-custom-dark-mode) を参照してください。
+>E メールデザイナーでカスタムダークモード設定を定義する方法について詳しくは、[この節](#define-custom-dark-mode)を参照してください。
 
-ただし、電子メールクライアントごとに適用される制限もあります。 例えば、Apple Mail 16 （macOs 13）などの一部のクライアントでは、メールのコンテンツに画像が存在してもダークモードが生成されません。
+ただし、メールクライアントごとに制限が一部適用される場合があります。例えば、Apple メール 16（macOS 13）などの一部のクライアントでは、メールのコンテンツに画像が存在している場合、ダークモードは生成されません。
 
-最適な結果を得るには、ターゲット設定しているメールクライアントでコンテンツをテストします。 各クライアントの最終結果にできるだけ近いシミュレーションを確認するには、メールDesignerの「[ メールのレンダリング ](../content-management/rendering.md)」オプションを使用します。
+最適な結果を得るには、ターゲットにしているメールクライアントでコンテンツをテストします。各クライアントの最終結果にできるだけ近いシミュレーションを表示するには、E メールデザイナーで「[メールレンダリング](../content-management/rendering.md)」オプションを使用します。
 
 ## E メールデザイナーでのダークモード {#dark-mode-email-designer}
 
@@ -155,7 +155,7 @@ E メールデザイナーでダークモードにアクセスし、デフォル
 
 >[!CAUTION]
 >
->最終的なレンダリングは、受信者のメールクライアントによって異なる場合があります。各メールクライアントの最終結果にできるだけ近いシミュレーションを表示するには、「[メールレンダリング](../content-management/rendering.md)」オプションを使用します。
+>最終的なレンダリングは、受信者のメールクライアントによって異なる場合があります。各メールクライアントの最終結果にできるだけ近いシミュレーションを表示するには、「[メールのレンダリング](../content-management/rendering.md)」オプションを使用します。
 
 <!--This is custom dark mode:
 
@@ -259,7 +259,7 @@ The best practices for designing accesible content in dark mode are listed in [t
 
 * 問題を早期に発見するには、反転したカラースキームを使用する E メールデザイナーの[ダークモードのプレビュー](#preview-dark-mode)を使用します。
 
-* Litmus を活用した「[メールレンダリング](../content-management/rendering.md)」オプションを使用して、主要なメールクライアント（Apple メール、Gmail、Outlook）でデザインをシミュレートし、ダークモードでの色と画像の動作を確認します。
+* Litmus を活用した「[メールのレンダリング](../content-management/rendering.md)」オプションを使用して、主要なメールクライアント（Apple メール、Gmail、Outlook）でデザインをシミュレートし、ダークモードでの色と画像の動作を確認します。
 
 <!--
 

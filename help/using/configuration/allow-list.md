@@ -156,7 +156,7 @@ API 呼び出しについて詳しくは、[Adobe Experience Platform API](https
 
 ## 許可リストのダウンロード {#download-allowed-list}
 
-許可リストを CSV ファイルとして書き出すには、次の手順に従います。
+許可リストを CSV ファイルとしてエクスポートするには、次の手順に従います。
 
 1. 「**[!UICONTROL CSV をダウンロード]**」ボタンを選択します。 
 

@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
 source-git-commit: 03699215020770d0636c77e9d197990ab5da0975
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 100%
 
@@ -195,6 +195,6 @@ Once you have performed your tests and validated the content, you can send your 
 
 +++ こちらのビデオをご覧ください
 
->[!VIDEO](https://video.tv.adobe.com/v/3470283/?learn=on&captions=jpn")
+>[!VIDEO](https://video.tv.adobe.com/v/3470282/?learn=on")
 
 +++

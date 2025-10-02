@@ -8,7 +8,7 @@ version: Campaign Orchestration
 source-git-commit: 4d5505cbb46bdff846218bfc3657c6a6e5447af3
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 85%
+ht-degree: 92%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 85%
 
 >[!NOTE]
 >
->* 使用できるアクティビティは、ライセンスモデル、権限および実装によって異なる場合があります。
+>* ライセンスモデル、権限、実装に応じて、使用可能なアクティビティが異なる場合があります。
 >
->* オーケストレーションされたキャンペーンのアクティビティの数は 500 に制限されます。
+>* オーケストレーションキャンペーンのアクティビティ数は 500 に制限されます。
 
 
 ## ターゲティングアクティビティ {#targeting}
