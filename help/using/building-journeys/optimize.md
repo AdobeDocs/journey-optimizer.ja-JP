@@ -74,7 +74,7 @@ ht-degree: 96%
 
 1. 「**[!UICONTROL 実験を作成]**」をクリックします。
 
-1. 実験に設定する **[!UICONTROL 成功指標]** を選択します。 使用可能な指標とリストの設定方法について詳しくは、[ この節 ](success-metrics.md) を参照してください。
+1. 実験に設定する **[!UICONTROL 成功指標]** を選択します。 使用可能な指標とリストの設定方法について詳しくは、[&#x200B; この節 &#x200B;](success-metrics.md) を参照してください。
 
    <!--Need to have the list of all default metrics + a description for each.
     Explain why the metric selection is important.

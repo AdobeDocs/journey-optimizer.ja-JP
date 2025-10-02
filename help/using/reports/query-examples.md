@@ -47,7 +47,7 @@ AND _experience.journeyOrchestration.stepEvents.instanceType = 'unitary'
 AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 ```
 
-[journey_step_events で破棄されたイベントタイプのトラブルシューティング ](../reports/sharing-field-list.md#discarded-events) を行う方法を説明します。
+[journey_step_events で破棄されたイベントタイプのトラブルシューティング &#x200B;](../reports/sharing-field-list.md#discarded-events) を行う方法を説明します。
 
 +++
 
@@ -476,7 +476,7 @@ ORDER BY DATE(timestamp) desc
 
 このクエリは、指定した期間に 1 日ごとにジャーニーにエントリしたプロファイルの数を返します。プロファイルが別の ID を使用してエントリした場合は、2 回カウントされます。再エントリを有効にすると、別の日にジャーニーに再エントリした場合、プロファイル数が複数日にわたって重複する場合があります。
 
-[journey_step_events で破棄されたイベントタイプのトラブルシューティング ](../reports/sharing-field-list.md#discarded-events) を行う方法を説明します。
+[journey_step_events で破棄されたイベントタイプのトラブルシューティング &#x200B;](../reports/sharing-field-list.md#discarded-events) を行う方法を説明します。
 
 
 +++
@@ -974,7 +974,7 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
 ```
 
-[journey_step_events で破棄されたイベントタイプのトラブルシューティング ](../reports/sharing-field-list.md#discarded-events) を行う方法を説明します。
+[journey_step_events で破棄されたイベントタイプのトラブルシューティング &#x200B;](../reports/sharing-field-list.md#discarded-events) を行う方法を説明します。
 
 +++
 
@@ -1004,7 +1004,7 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' 
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
 ```
 
-[journey_step_events で破棄されたイベントタイプのトラブルシューティング ](../reports/sharing-field-list.md#discarded-events) を行う方法を説明します。
+[journey_step_events で破棄されたイベントタイプのトラブルシューティング &#x200B;](../reports/sharing-field-list.md#discarded-events) を行う方法を説明します。
 
 +++
 
@@ -1026,7 +1026,7 @@ where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' GROUP BY _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode
 ```
 
-[journey_step_events で破棄されたイベントタイプのトラブルシューティング ](../reports/sharing-field-list.md#discarded-events) を行う方法を説明します。
+[journey_step_events で破棄されたイベントタイプのトラブルシューティング &#x200B;](../reports/sharing-field-list.md#discarded-events) を行う方法を説明します。
 
 +++
 
@@ -1054,7 +1054,7 @@ where
 _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' AND _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode='reentranceNotAllowed'
 ```
 
-[journey_step_events で破棄されたイベントタイプのトラブルシューティング ](../reports/sharing-field-list.md#discarded-events) を行う方法を説明します。
+[journey_step_events で破棄されたイベントタイプのトラブルシューティング &#x200B;](../reports/sharing-field-list.md#discarded-events) を行う方法を説明します。
 
 +++
 

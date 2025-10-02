@@ -52,13 +52,13 @@ ht-degree: 68%
 
 モデルベースのデータモデルでスキーマやテーブルを整理することは、データを複数のテーブルに構造化することです。 各テーブルに 1 つのタイプのエンティティ／スキーマが格納されていることを確認します。
 
-➡️ [ スキーマについて詳しくは、Adobe Experience Platform ドキュメントを参照してください ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
+➡️ [&#x200B; スキーマについて詳しくは、Adobe Experience Platform ドキュメントを参照してください &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
 
 ## 実装手順 {#implementation}
 
 データを取り込み、モデルベースのスキーマを作成するには、次の手順に従います。
 
-1. [ 手動でモデルベースのスキーマを作成 ](manual-schema.md) または [DDL ファイルを使用 ](file-upload-schema.md)
+1. [&#x200B; 手動でモデルベースのスキーマを作成 &#x200B;](manual-schema.md) または [DDL ファイルを使用 &#x200B;](file-upload-schema.md)
 
    テーブル、属性、関係を含むデータモデルの構造を定義します。ユーザーインターフェイスでスキーマを手動で作成するか、設定の高速化に DDL ファイルをアップロードするかを選択します。
 

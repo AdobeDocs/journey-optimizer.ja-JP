@@ -24,4 +24,4 @@ Adobe Journey Optimizer では、外部ソースからデータを取り込み�
 
 >[!VIDEO](https://video.tv.adobe.com/v/335919?quality=12)
 
-Source コネクタを使用して外部ソースからデータを取り込む方法について詳しくは、[Adobe Experience Platform ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja){target="_blank"} を参照してください。
+Source コネクタを使用して外部ソースからデータを取り込む方法について詳しくは、[Adobe Experience Platform ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja){target="_blank"} を参照してください。

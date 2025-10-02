@@ -268,7 +268,7 @@ group by
 
 また、一般的に使用されるいくつかの[ジャーニーステップイベントのクエリを実行する例](../reports/query-examples.md)も参照してください。
 
-[journey_step_events で破棄されたイベントタイプのトラブルシューティング ](../reports/sharing-field-list.md#discarded-events) を行う方法を説明します。
+[journey_step_events で破棄されたイベントタイプのトラブルシューティング &#x200B;](../reports/sharing-field-list.md#discarded-events) を行う方法を説明します。
 
 ## 意思決定イベントデータセット{#ode-decisionevents}
 

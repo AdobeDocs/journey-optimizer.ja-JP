@@ -102,9 +102,9 @@ ht-degree: 69%
 >title="使用するデフォルトの実行アドレスの上書き"
 >abstract="複数のメールアドレスまたは電話番号がデータベースで使用可能な場合（個人用、仕事用など）、送信で優先順位を付けるメールアドレスを選択できます。 プライマリアドレスはサンドボックスレベルで定義されますが、ここでは、この特定のチャネル設定のデフォルト設定を上書きできます。"
 
-特定のメールまたは SMS のデフォルトの実行アドレスを変更できます [ チャネル設定 ](channel-surfaces.md)。
+特定のメールまたは SMS のデフォルトの実行アドレスを変更できます [&#x200B; チャネル設定 &#x200B;](channel-surfaces.md)。
 
-これを行うには、「実行ディメンション **[!UICONTROL セクションに移動し]****[!UICONTROL 実行アドレス]** の下のフィールドを編集します。
+これを行うには、「実行ディメンション **[!UICONTROL セクションに移動し]**&#x200B;**[!UICONTROL 実行アドレス]** の下のフィールドを編集します。
 
 ![](assets/sms-config-execution-address.png){width=85%}
 
@@ -112,6 +112,6 @@ ht-degree: 69%
 
 ![](assets/sms-config-execution-field.png)
 
-実行フィールドが更新され、このチャネル設定を使用するキャンペーンまたはジャーニーのプライマリアドレスとして使用されます。 サンドボックスレベルで定義された [ 一般設定 ](#admin-settings) よりも優先されます。
+実行フィールドが更新され、このチャネル設定を使用するキャンペーンまたはジャーニーのプライマリアドレスとして使用されます。 サンドボックスレベルで定義された [&#x200B; 一般設定 &#x200B;](#admin-settings) よりも優先されます。
 
 <!--[Learn more on the execution address in the email configuration ](../email/email-settings.md#execution-address)-->

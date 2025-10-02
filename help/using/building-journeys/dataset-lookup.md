@@ -39,7 +39,7 @@ ht-degree: 22%
 
 ### データセットの有効化
 
-Adobe Experience Platformで参照するには、データセットを有効にする必要があります。 詳しくは、「Adobe Experience Platform データの使用 [ を参照してくだ ](../data/lookup-aep-data.md) い。
+Adobe Experience Platformで参照するには、データセットを有効にする必要があります。 詳しくは、「Adobe Experience Platform データの使用 [&#x200B; を参照してくだ &#x200B;](../data/lookup-aep-data.md) い。
 
 ### 制限と制限
 
@@ -71,7 +71,7 @@ Adobe Experience Platformで参照するには、データセットを有効に�
 
    >[!NOTE]
    >
-   >探しているデータセットがリストに表示されない場合は、そのデータセットの検索を有効にしていることを確認してください。 詳しくは、[ 必ずお読みください ](#must-read) の節を参照してください。
+   >探しているデータセットがリストに表示されない場合は、そのデータセットの検索を有効にしていることを確認してください。 詳しくは、[&#x200B; 必ずお読みください &#x200B;](#must-read) の節を参照してください。
 
 1. データセットから取得する特定のフィールドを選択します。
 
@@ -103,7 +103,7 @@ Adobe Experience Platformで参照するには、データセットを有効に�
 
 * **ジャーニー式エディター**:
 
-  **[!UICONTROL 詳細設定モード]** エディターにアクセスし、構文 `@datasetLookup{MyDatasetLookUpActivity1.entities}` を使用します。 [ 高度な式エディターの操作方法を学ぶ ](../building-journeys/expression/expressionadvanced.md)
+  **[!UICONTROL 詳細設定モード]** エディターにアクセスし、構文 `@datasetLookup{MyDatasetLookUpActivity1.entities}` を使用します。 [&#x200B; 高度な式エディターの操作方法を学ぶ &#x200B;](../building-journeys/expression/expressionadvanced.md)
 
 * **Personalization エディター**:
 

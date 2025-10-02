@@ -66,15 +66,15 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 
 ### インバウンドチャネルガードレール {#inbound-guardrails}
 
-* Journey Optimizerでは、1 秒あたり 5,000 件のインバウンドリクエストのピーク量をサポートしています。 このガードレールは、すべてのインバウンドリクエストに適用されます。これは、Journey Optimizerでサポートされているインバウンドチャネル（[web](../web/get-started-web.md)、[ アプリ内 ](../in-app/get-started-in-app.md)、[ コードベースのエクスペリエンス ](../code-based/get-started-code-based.md)、[ コンテンツカード ](../../rp_landing_pages/content-card-landing-page.md)）のいずれかから発生できます。
+* Journey Optimizerでは、1 秒あたり 5,000 件のインバウンドリクエストのピーク量をサポートしています。 このガードレールは、すべてのインバウンドリクエストに適用されます。これは、Journey Optimizerでサポートされているインバウンドチャネル（[web](../web/get-started-web.md)、[&#x200B; アプリ内 &#x200B;](../in-app/get-started-in-app.md)、[&#x200B; コードベースのエクスペリエンス &#x200B;](../code-based/get-started-code-based.md)、[&#x200B; コンテンツカード &#x200B;](../../rp_landing_pages/content-card-landing-page.md)）のいずれかから発生できます。
 
   Journey Optimizer インバウンドチャネルは、他のチャネルでこれまで関わってこなかった可能性のある新しいプロファイルをターゲットにします。 これにより、エンゲージメント可能なプロファイルの総数が増え、ユーザーが購入した、エンゲージメント可能なプロファイルの契約上の数を超えると、コストに影響する可能性があります。
 
   各パッケージのライセンス指標は、[Journey Optimizer の製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}ページにリストされています。
 
-* Journey Optimizerでは、一度に最大 500 個のアクティブなインバウンドアクションをサポートします。 これらのインバウンドアクション（[web](../web/get-started-web.md)、[ アプリ内 ](../in-app/get-started-in-app.md)、[ コードベースのエクスペリエンス ](../code-based/get-started-code-based.md)、[ コンテンツカード ](../../rp_landing_pages/content-card-landing-page.md)）は、ライブキャンペーンの一部である場合や、ライブジャーニーで使用されるノードである場合にカウントされます。 この数に達したら、新しいキャンペーンを開始する前に、インバウンドアクションを使用している古いキャンペーンやジャーニーを非アクティブ化する必要があります。
+* Journey Optimizerでは、一度に最大 500 個のアクティブなインバウンドアクションをサポートします。 これらのインバウンドアクション（[web](../web/get-started-web.md)、[&#x200B; アプリ内 &#x200B;](../in-app/get-started-in-app.md)、[&#x200B; コードベースのエクスペリエンス &#x200B;](../code-based/get-started-code-based.md)、[&#x200B; コンテンツカード &#x200B;](../../rp_landing_pages/content-card-landing-page.md)）は、ライブキャンペーンの一部である場合や、ライブジャーニーで使用されるノードである場合にカウントされます。 この数に達したら、新しいキャンペーンを開始する前に、インバウンドアクションを使用している古いキャンペーンやジャーニーを非アクティブ化する必要があります。
 
-* [ で ](../code-based/get-started-code-based.md) コードベースのエクスペリエンス [!DNL Journey Optimizer] アクションを使用し、アプリケーションで使用できるコードコンテンツペイロードを配信するには、[ このページ ](../code-based/code-based-prerequisites.md) に記載されている前提条件に従ってください。
+* [&#x200B; で &#x200B;](../code-based/get-started-code-based.md) コードベースのエクスペリエンス [!DNL Journey Optimizer] アクションを使用し、アプリケーションで使用できるコードコンテンツペイロードを配信するには、[&#x200B; このページ &#x200B;](../code-based/code-based-prerequisites.md) に記載されている前提条件に従ってください。
 
 ### トランザクションメッセージガードレール {#transactional-message-guardrails}
 
@@ -171,7 +171,7 @@ Journey Optimizer のサブドメインデリゲーションに適用される�
 
 次のガードレールがジャーニーの[イベント](../event/about-events.md)に適用されます。
 
-* Journey Optimizerは、すべてのサンドボックスで、1 秒あたり 5,000 件のインバウンドジャーニーイベントのピーク量をサポートします。 この制限について詳しくは [ このページを参照 ](../event/about-events.md#event-thoughput)。
+* Journey Optimizerは、すべてのサンドボックスで、1 秒あたり 5,000 件のインバウンドジャーニーイベントのピーク量をサポートします。 この制限について詳しくは [&#x200B; このページを参照 &#x200B;](../event/about-events.md#event-thoughput)。
 * イベントトリガージャーニーでは、ジャーニーの最初のアクションを処理するのに最大 5 分かかる場合があります。
 * システム生成イベントの場合、まず Journey Optimizer 内でカスタマージャーニーの開始に使用するストリーミングデータを設定して、一意のオーケストレーション ID を取得する必要があります。このオーケストレーション ID は、Adobe Experience Platform に到達するストリーミングのペイロードに追加する必要があります。この制限は、ルールベースのイベントには適用されません。
 * ビジネスイベントは、単一イベントやオーディエンスの選定アクティビティと組み合わせて使用することはできません。

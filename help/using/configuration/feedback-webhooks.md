@@ -115,4 +115,4 @@ Webhook は、次のイベントをキャプチャできます。
 
 ## 次の手順 {#next}
 
-フィードバック Webhook が作成されたら、**トランザクション API トリガーキャンペーン** オーディエンスを設定する際に有効にすることができます。 詳しくは、次の節を参照してください。[Webhook の有効化 ](../campaigns/api-triggered-campaign-audience.md#webhook)
+フィードバック Webhook が作成されたら、**トランザクション API トリガーキャンペーン** オーディエンスを設定する際に有効にすることができます。 詳しくは、次の節を参照してください。[Webhook の有効化 &#x200B;](../campaigns/api-triggered-campaign-audience.md#webhook)

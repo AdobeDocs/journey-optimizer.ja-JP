@@ -69,7 +69,7 @@ SMS／MMS／RCS チャネルを設定したら、**[!DNL Journey Optimizer]** �
 
    >[!NOTE]
    >
-   >デフォルト [!DNL Journey Optimizer] は、サンドボックスレベルで [ 一般設定 ](../configuration/primary-email-addresses.md) で指定された電話番号を使用します。 このフィールドを更新すると、この設定を使用するジャーニーおよびキャンペーンのデフォルト値が上書きされます。
+   >デフォルト [!DNL Journey Optimizer] は、サンドボックスレベルで [&#x200B; 一般設定 &#x200B;](../configuration/primary-email-addresses.md) で指定された電話番号を使用します。 このフィールドを更新すると、この設定を使用するジャーニーおよびキャンペーンのデフォルト値が上書きされます。
 
 1. すべてのパラメーターを設定したら、「**[!UICONTROL 送信]**」をクリックして確定します。なお、チャネル設定をドラフトとして保存し、後で設定を再開することもできます。
 

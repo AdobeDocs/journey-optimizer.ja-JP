@@ -18,7 +18,7 @@ ht-degree: 76%
 
 次の例では、**ロイヤルティメンバーシップ**&#x200B;スキーマを手動で定義して、調整されたキャンペーンに必要な構造を示します。
 
-1. Adobe Experience Platform インターフェイスを使用して [ 手動でモデルベースのスキーマを作成する ](#schema) を参照してください。
+1. Adobe Experience Platform インターフェイスを使用して [&#x200B; 手動でモデルベースのスキーマを作成する &#x200B;](#schema) を参照してください。
 
 1. 顧客 ID、メンバーシップレベル、ステータスフィールドなどの[属性を追加します](#schema-attributes)。
 
@@ -28,7 +28,7 @@ ht-degree: 76%
 
 1. サポートされているソースからデータセットにデータを[取り込みます](ingest-data.md)。
 
-➡️ [ 手動モデルベースのスキーマについて詳しくは、Adobe Experience Platform ドキュメントを参照してください ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
+➡️ [&#x200B; 手動モデルベースのスキーマについて詳しくは、Adobe Experience Platform ドキュメントを参照してください &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
 
 ## スキーマの作成 {#schema}
 

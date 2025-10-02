@@ -31,7 +31,7 @@ ht-degree: 98%
 * 注文番号、ステータス、品目名を含む注文イベントを設定します。この[節](../event/about-events.md)を参照してください。
 * 決定を作成するには、この[節](../offers/offer-activities/create-offer-activities.md)を参照してください。
 
-➡️ [ ビデオで類似のユースケースを確認する ](#video)
+➡️ [&#x200B; ビデオで類似のユースケースを確認する &#x200B;](#video)
 
 ## 手順 1 - ジャーニーの作成 {#create-journey}
 

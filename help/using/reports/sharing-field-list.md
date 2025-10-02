@@ -70,7 +70,7 @@ journeyStepEvent の場合、ID に関連するフィールドも追加する必
 | eventType | 文字列 | エラーイベントか情報イベントかを示すイベントタイプ：情報、エラー |
 | eventCode | 文字列 | 対応する eventType の理由を示すエラーコード |
 
-eventTypes について詳しくは [ この節 ](#discarded-events) を参照してください。
+eventTypes について詳しくは [&#x200B; この節 &#x200B;](#discarded-events) を参照してください。
 
 ## stepEvents {#stepevents-field}
 
@@ -101,11 +101,11 @@ eventTypes について詳しくは [ この節 ](#discarded-events) を参照�
 * **PAUSED_VERSION**：ジャーニーのエントリ時に発生したジャーニーを破棄します
 * **JOURNEY_IN_PAUSED_STATE**: プロファイルがジャーニーにあるときに発生したジャーニーを破棄します
 
-これらのイベントの詳細とトラブルシューティング方法については、[ジャーニーの一時停止 ](../building-journeys/journey-pause.md#troubleshoot-profile-discards-in-paused-journeys) の節を参照してください。
+これらのイベントの詳細とトラブルシューティング方法については、[ジャーニーの一時停止 &#x200B;](../building-journeys/journey-pause.md#troubleshoot-profile-discards-in-paused-journeys) の節を参照してください。
 
 ## その他のリソース
 
-* [ データセットクエリサンプル - ジャーニーステップイベント ](../data/datasets-query-examples.md#journey-step-event)。
-* [ クエリの例 – イベントベースのクエリ ](query-examples.md#event-based-queries)。
-* [ ビルトインスキーマディクショナリ ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja)
+* [&#x200B; データセットクエリサンプル - ジャーニーステップイベント &#x200B;](../data/datasets-query-examples.md#journey-step-event)。
+* [&#x200B; クエリの例 – イベントベースのクエリ &#x200B;](query-examples.md#event-based-queries)。
+* [&#x200B; ビルトインスキーマディクショナリ &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja)
 

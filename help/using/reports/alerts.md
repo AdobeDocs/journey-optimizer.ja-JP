@@ -48,14 +48,14 @@ ht-degree: 83%
 * チャネル設定に固有のアラート：
 
    * [AJO ドメイン DNS レコードがありません](#alert-dns-record-missing)アラート
-   * [AJO チャネル設定エラー ](#alert-channel-config-failure) アラート
+   * [AJO チャネル設定エラー &#x200B;](#alert-channel-config-failure) アラート
      <!--* the [AJO domain certificates renewal unsuccessful](#alert-certificates-renewal) alert-->
 
 ## アラートの配信を登録 {#subscribe-alerts}
 
 予期しない動作が発生した場合や、操作の特定の条件（システムがしきい値に達した場合に問題が発生する可能性があるなど）に達した場合、その条件を登録している組織内のユーザーにアラート通知が配信されます。
 
-ユーザーインターフェイスから各アラートを個別に、**[!UICONTROL アラート]** メニューからグローバルに登録できます（[ グローバル登録 ](#global-subscription) を参照） <!--DOCAC-13465, or unitary for a specific journey (see [Unitary subscription](#unitary-subscription))-->。
+ユーザーインターフェイスから各アラートを個別に、**[!UICONTROL アラート]** メニューからグローバルに登録できます（[&#x200B; グローバル登録 &#x200B;](#global-subscription) を参照） <!--DOCAC-13465, or unitary for a specific journey (see [Unitary subscription](#unitary-subscription))-->。
 
 登録者の環境設定に基づいて、アラートはメールで送信されるか、ユーザーインターフェイスの右上隅にある Journey Optimizer 通知センター内（アプリ内通知）で直接送信されます。[!DNL Adobe Experience Cloud] **[!UICONTROL 環境設定]**&#x200B;で、これらのアラートを受信する方法を選択します。[詳細情報](../start/user-interface.md#in-product-alerts)
 
@@ -68,7 +68,7 @@ ht-degree: 83%
 
 1. 左側のメニューから **[!UICONTROL アラート]** ダッシュボードを参照し、購読するアラートの **[!UICONTROL 購読]** オプションを選択します。
 
-   ![ アラートの購読 ](assets/alert-subscribe.png){width=80%}
+   ![&#x200B; アラートの購読 &#x200B;](assets/alert-subscribe.png){width=80%}
 
    >[!NOTE]
    >
@@ -76,7 +76,7 @@ ht-degree: 83%
 
 1. **[!UICONTROL 登録解除]**&#x200B;する場合も同じ方法を使用します。
 
-[I/O イベント通知 ](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=ja){target="_blank"} を通じて登録することもできます。 アラートルールは、様々な登録パッケージに整理されます。特定の Journey Optimizer アラートに対応するイベント登録については、[以下](#journey-alerts)で詳しく説明します。
+[I/O イベント通知 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=ja){target="_blank"} を通じて登録することもできます。 アラートルールは、様々な登録パッケージに整理されます。特定の Journey Optimizer アラートに対応するイベント登録については、[以下](#journey-alerts)で詳しく説明します。
 
 <!--DOCAC-13465
 ### Unitary subscription {#unitary-subscription}

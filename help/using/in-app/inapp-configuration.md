@@ -121,7 +121,7 @@ Journey Optimizerでアプリ内設定を作成するには、次の手順に従
 >
 >データセットは、[!DNL Journey Optimizer] レポートシステムによって読み取り専用で使用され、データ収集やデータの取り込みには影響しません。
 
-アプリ内チャネルのレポートを有効にするには、アプリ内実装 [ データストリーム ](../data/get-started-datasets.md) で使用される [ データセット ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=ja){target="_blank"} もレポート設定に含まれていることを確認する必要があります。 つまり、レポートを設定する際に、アプリのデータストリームに存在しないデータセットを追加すると、アプリのデータはレポートに表示されません。 レポーティング用にデータセットを追加する方法について詳しくは、[この節](../reports/reporting-configuration.md#add-datasets)を参照してください。
+アプリ内チャネルのレポートを有効にするには、アプリ内実装 [&#x200B; データストリーム &#x200B;](../data/get-started-datasets.md) で使用される [&#x200B; データセット &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/datastreams/overview.html?lang=ja){target="_blank"} もレポート設定に含まれていることを確認する必要があります。 つまり、レポートを設定する際に、アプリのデータストリームに存在しないデータセットを追加すると、アプリのデータはレポートに表示されません。 レポーティング用にデータセットを追加する方法について詳しくは、[この節](../reports/reporting-configuration.md#add-datasets)を参照してください。
 
 データセットスキーマに `AEP Web SDK ExperienceEvent` および `Consumer Experience Event`（[このページ](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/initial-configuration/configure-schemas.html?lang=ja#add-field-groups){target="_blank"}で定義）の定義済み[フィールドグループ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja#field-group){target="_blank"}を使用して&#x200B;**いない**&#x200B;場合は、`Experience Event - Proposition Interactions`、`Application Details`、`Commerce Details` および `Web Details` のフィールドグループを追加する必要があります。これらは、各プロファイルが参加しているキャンペーンやジャーニーを追跡するため、[!DNL Journey Optimizer] レポートに必要です。
 
@@ -133,7 +133,7 @@ Journey Optimizerでアプリ内設定を作成するには、次の手順に従
 
 **関連トピック：**
 
-* [アプリ内メッセージの作成 ](create-in-app.md)
+* [アプリ内メッセージの作成 &#x200B;](create-in-app.md)
 * [キャンペーンの作成](../campaigns/create-campaign.md)
 * [アプリ内メッセージのデザイン](design-in-app.md)
 * [アプリ内レポート](../reports/campaign-global-report-cja-inapp.md)

@@ -21,15 +21,15 @@ ht-degree: 79%
 
 この節では、DDL （Data Definition Language）ファイルをアップロードして、Adobe Experience Platform内でモデルベースのスキーマを作成する手順を説明します。 DDL ファイルを使用すると、テーブル、属性、キー、関係など、データモデルの構造を事前に定義できます。
 
-1. [DDL ファイルをアップロード ](#ddl-upload) して、モデルベースのスキーマを作成し、その構造を定義します。
+1. [DDL ファイルをアップロード &#x200B;](#ddl-upload) して、モデルベースのスキーマを作成し、その構造を定義します。
 
 1. データモデルのテーブル間の[関係を定義](#relationships)します。
 
-1. [ スキーマをリンク ](#link-schema)：モデルベースのデータを受信者やブランドなどの既存のプロファイルエンティティと接続します。
+1. [&#x200B; スキーマをリンク &#x200B;](#link-schema)：モデルベースのデータを受信者やブランドなどの既存のプロファイルエンティティと接続します。
 
 1. サポートされているソースからデータセットに[データを取得](ingest-data.md)します。
 
-➡️ [ モデルベースのスキーマについて詳しくは、Adobe Experience Platform ドキュメントを参照してください ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/model-based)
+➡️ [&#x200B; モデルベースのスキーマについて詳しくは、Adobe Experience Platform ドキュメントを参照してください &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/model-based)
 
 ## DDL ファイルのアップロード{#ddl-upload}
 
