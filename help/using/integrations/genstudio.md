@@ -140,4 +140,4 @@ The following limitations apply to GenStudio integration in [!DNL Adobe Journey 
 
 Journey Optimizer から GenStudio for Performance Marketing にメールテンプレートをエクスポートし、GenStudio のテンプレートを使用してブランドに準拠したメールを作成し、Journey Optimizer にシームレスにインポートするプロセスについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3456038/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3456050/?quality=12&captions=jpn)

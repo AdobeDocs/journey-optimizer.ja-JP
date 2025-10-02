@@ -195,6 +195,6 @@ Once you have performed your tests and validated the content, you can send your 
 
 +++ こちらのビデオをご覧ください
 
->[!VIDEO](https://video.tv.adobe.com/v/3470282/?learn=on")
+>[!VIDEO](https://video.tv.adobe.com/v/3470283/?learn=on&captions=jpn")
 
 +++

@@ -55,4 +55,4 @@ HTML コンテンツを含んだファイルをインポートするには、次
 
 既存の HTML コンテンツの読み込み、デザインの調整、ミラーページと購読解除リンクの追加およびコンテンツのコーディング方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/334102?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3421912?quality=12&captions=jpn)

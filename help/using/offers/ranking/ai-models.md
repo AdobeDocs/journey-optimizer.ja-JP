@@ -63,4 +63,4 @@ AI モデルを作成して使用する主な手順は次のとおりです。
 
 Offer Decisioning 用の AI モデルを作成する方法と、モデルを決定に適用する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3419959?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3445645?quality=12&captions=jpn)
