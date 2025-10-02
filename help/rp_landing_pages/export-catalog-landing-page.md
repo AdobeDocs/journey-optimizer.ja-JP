@@ -40,7 +40,7 @@ Adobe Journey Optimizer でオファーカタログを書き出すと、Adobe Ex
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 パーソナライズされたオファーのデータセットリファレンス
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer でオファーカタログを書き出すと、Adobe Ex
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 決定データセットの概要
 

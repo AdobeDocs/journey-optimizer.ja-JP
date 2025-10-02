@@ -20,7 +20,7 @@ Adobe Journey Optimizer の調整されたキャンペーンを使用すると�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
 
 調整されたキャンペーンの概要
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer の調整されたキャンペーンのコア機能、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
 
 ガードレールと制限
 

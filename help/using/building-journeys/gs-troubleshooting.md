@@ -59,9 +59,9 @@ ht-degree: 100%
 <tr style="border: 0;">
   <td>
     <div>
-    <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884">
+    <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=ja">
     <img alt="一般的なエラーコードについて" src="../assets/do-not-localize/icon-quick-start.svg" /></a> 
-    <br>さらに、<strong>一般的なエラーコード</strong>とその効果的な解決方法を詳しく説明した<a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884" target="_blank">こちらのアドビコミュニティのブログ投稿</a>も参照してください。
+    <br>さらに、<strong>一般的なエラーコード</strong>とその効果的な解決方法を詳しく説明した<a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=ja" target="_blank">こちらのアドビコミュニティのブログ投稿</a>も参照してください。
     </div>
   </td>
 </tr>

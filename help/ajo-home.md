@@ -79,7 +79,7 @@ Adobe Journey Optimizerの最新のリリースノート、新機能、改善点
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=ja)
 
 キャンペーンの理解と管理
 
@@ -89,7 +89,7 @@ Adobe Journey Optimizerの最新のリリースノート、新機能、改善点
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ja)
 
 通信チャネル
 

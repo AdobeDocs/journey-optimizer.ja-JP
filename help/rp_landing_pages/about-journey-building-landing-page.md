@@ -40,7 +40,7 @@ Adobe Journey Optimizer のイベント、オーケストレーション、ア�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 反応イベントの設定
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer のイベント、オーケストレーション、ア�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 オーディエンスの選定イベント
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer のイベント、オーケストレーション、ア�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ja)
 
 待機アクティビティの設定
 

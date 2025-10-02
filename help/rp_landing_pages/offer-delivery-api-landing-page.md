@@ -50,7 +50,7 @@ Edge Decisioning API を通じて Adobe Experience Platform Web SDK を使用し
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 Batch Decisioning API を使用したオファーの配信
 

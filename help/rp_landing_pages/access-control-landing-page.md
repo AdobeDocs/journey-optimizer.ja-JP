@@ -50,7 +50,7 @@ Adobe Journey Optimizer でユーザーアクセスと権限を制御する役�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
 
 組み込みの権限
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer でロールベースのアクセス制御を設定す�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 権限レベル
 

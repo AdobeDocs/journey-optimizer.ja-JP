@@ -40,7 +40,7 @@ Adobe Journey Optimizer でのデータ操作とパーソナライゼーショ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 演算関数ライブラリ
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer でのデータ操作とパーソナライゼーショ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 配列およびリスト関数リファレンス
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer でのデータ操作とパーソナライゼーショ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=ja)
 
 日時関数ライブラリ
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer でのデータ操作とパーソナライゼーショ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 ブール関数と比較関数ライブラリ
 

@@ -40,7 +40,7 @@ Adobe Journey Optimizer でカスタムアクションを設定および使用�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 カスタムアクションでの API 呼び出し応答の使用
 

@@ -30,7 +30,7 @@ Adobe Journey Optimizer のオファーの設定
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 フォールバックオファーの作成方法
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer のオファーの設定
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 オファーコレクションの作成および管理方法
 

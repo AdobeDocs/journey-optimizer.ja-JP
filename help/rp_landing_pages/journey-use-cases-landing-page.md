@@ -20,7 +20,7 @@ Adobe Journey Optimizer のユースケースを使用して、マーケティ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
 
 ユースケースを通じて学ぶ
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer のユースケースを使用して、マーケティ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 エクスペリエンスイベント参照
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer のユースケースを使用して、マーケティ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 マルチチャネルメッセージの送信
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer のユースケースを使用して、マーケティ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 Campaign v7／v8 を使用したメッセージの送信
 
@@ -60,7 +60,7 @@ Adobe Campaign と Journey Optimizer を統合して、トランザクション�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 サブスクライバーへのメッセージの送信
 
@@ -70,7 +70,7 @@ Adobe Campaign と Journey Optimizer を統合して、トランザクション�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 カスタムアクションを使用したコレクションの動的な受け渡し
 
@@ -86,4 +86,4 @@ Adobe Campaign と Journey Optimizer を統合して、トランザクション�
 
 - **[外部データソースとカスタムアクションを使用してスループットを制限](../using/building-journeys/limit-throughput.md)** - データソースとカスタムアクションを使用して、外部システムのジャーニーのスループットを最適化し、制限を管理します。
 - **[カスタムアクションを使用して Experience Platform にジャーニーイベントを書き込む](../using/building-journeys/custom-action-aep.md)** - 認証済みの呼び出しと HTTP API エンドポイントを設定して、ジャーニーイベントを Adobe Experience Platform に書き込みます。
-- **[ライブジャーニーからのプロファイルの削除 &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-pause#journey-exit-criteria)** - ビジネスまたは運用上の理由から、ライブジャーニーから一部のプロファイルを削除し、ジャーニー内の現在の特定の条件に一致するプロファイルを除外することが必要な場合があります。 この操作は、ジャーニーを一時停止することで実行できます。
+- **[ライブジャーニーからのプロファイルの削除 &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-pause#journey-exit-criteria)** - ビジネスまたは運用上の理由から、ライブジャーニーから一部のプロファイルを削除し、ジャーニー内の現在の特定の条件に一致するプロファイルを除外することが必要な場合があります。 この操作は、ジャーニーを一時停止することで実行できます。

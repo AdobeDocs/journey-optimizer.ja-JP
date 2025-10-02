@@ -50,7 +50,7 @@ Adobe Journey Optimizer のアクションキャンペーンを使用すると�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 メッセージの最適化の活用
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer のアクションキャンペーンを使用すると�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/pencil-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/pencil-alt.svg?lang=ja)
 
 キャンペーンコンテンツの編集
 
