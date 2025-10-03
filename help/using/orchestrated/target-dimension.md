@@ -5,10 +5,10 @@ title: ターゲティングディメンションの作成
 description: リレーショナルスキーマを顧客プロファイルにマッピングする方法について説明します。
 exl-id: 2479c109-cd6f-407e-8a53-77e4477dc36f
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: aa075c1ca2feb3b6ef406089ab9fffd704fd95e2
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 100%
+source-wordcount: '742'
+ht-degree: 97%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 100%
 
 ## チャネル設定の指定 {#channel-configuration}
 
-**[!UICONTROL ターゲットディメンション]**&#x200B;を設定したら、メールまたは SMS **[!UICONTROL チャネル設定]**&#x200B;を指定し、適切な&#x200B;**[!UICONTROL 実行の詳細]**&#x200B;を定義する必要があります。次の項目を定義できます。
+**[!UICONTROL Target Dimension]** を設定した後、**[!UICONTROL チャネル設定]** を設定し、適切な **[!UICONTROL 実行の詳細]** を定義する必要があります。 次の項目を定義できます。
 
 * **メッセージ配信のレベル**：例えば、個人ごとに 1 つのメールなど、受信者ごとに 1 つのメッセージを送信します。
 
