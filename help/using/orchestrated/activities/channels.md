@@ -5,10 +5,10 @@ title: 複数の手順のキャンペーンでのチャネルアクティビテ�
 description: 複数の手順のキャンペーンでのチャネルアクティビティの追加方法について説明します。
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: 8c3ff6c60f846af2cddc8c84507cd64fd457cbbb
+source-git-commit: 3931b1d6fd97b92c79aff2c003f8cb692fc52e47
 workflow-type: tm+mt
-source-wordcount: '1107'
-ht-degree: 98%
+source-wordcount: '1111'
+ht-degree: 96%
 
 ---
 
@@ -60,16 +60,15 @@ UNUSED IDs in BJ
 
 チャネルアクティビティを使用すると、複数のタッチポイントで顧客を引きつけてコンバージョンを促進する、包括的でパーソナライズされたキャンペーンを作成できます。
 
-
 >[!CAUTION]
 >
 >調整されたキャンペーンでは、SMS、プッシュ、メールチャネルのみがサポートされます。
 
+## チャネルアクティビティを追加し、そのプロパティを定義します。 {#add}
+
 >[!PREREQUISITES]
 >
->チャネルアクティビティを追加する前に、[オーディエンスを作成アクティビティ](build-audience.md)を使用してターゲットオーディエンスを定義します。
-
-## チャネルアクティビティを追加し、そのプロパティを定義します。 {#add}
+>チャネルアクティビティを追加する前に、[ オーディエンスを作成 ](build-audience.md) または [ オーディエンスを読み取り ](read-audience.md) アクティビティを使用してターゲットオーディエンスを定義します。
 
 1. チャネルアクティビティをキャンバスに追加します。使用できるチャネルアクティビティは、**[!UICONTROL メール]**、**[!UICONTROL SMS]** および&#x200B;**[!UICONTROL プッシュ]**&#x200B;です。
 
