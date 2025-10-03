@@ -9,7 +9,7 @@ exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 source-git-commit: 0d32f1f79314694a34e1e996ed405a4484dc863d
 workflow-type: tm+mt
 source-wordcount: '1726'
-ht-degree: 44%
+ht-degree: 90%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 44%
 
 [!DNL Adobe Journey Optimizer] は、新機能、既存機能の強化、およびバグ修正を継続的に提供します。これらのリリースノートでは、すべての変更が各月の最終週にまとめられます。[!DNL Adobe Journey Optimizer] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}を参照してください。
 
-## 2025 年 9 月リリースノート {#25-9-rn}
+## 2025年9月リリースノート {#25-9-rn}
 
-**リリース日**:2025 年 9 月 23～24 日
+**リリース日**：2025年9月23～24日（PT）
 
 ### 新機能 {#sept-25-9-features}
 
@@ -48,21 +48,21 @@ ht-degree: 44%
 <table>
 <thead>
 <tr>
-<th><strong>Journey Optimizer Experimentation Accelerator</strong><br/></th>
+<th><strong>Journey Optimizer 実験アクセラレーター</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer Experimentation Acceleratorは、実験を次のレベルに引き上げるために設計された AI ファーストの製品です。 Adobe Journey OptimizerおよびAdobe Target ユーザー向けに構築されたこのサービスは、実験管理を統合し、AI を活用したインサイトとオポチュニティを提供し、新しい実験エージェントを導入します。</p>
-<p>次の点にご期待ください。</p>
+<p>Journey Optimizer 実験アクセラレーターは、実験を次のレベルに引き上げるために設計された AI ファーストの製品です。Adobe Journey Optimizer および Adobe Target ユーザー向けに作成されたこの製品は、実験管理を統合し、AI を活用したインサイトと機会を提供し、新しい実験エージェントを導入します。</p>
+<p>主な機能：</p>
 <ul>
-<li><strong> 統合された実験インベントリ：</strong>Adobe Journey OptimizerとAdobe Targetのすべての実験を 1 つの中央ワークスペースですばやく表示、フィルタリング、管理します。</li>
-<li><strong>AI 実験のインサイトと機会：</strong>GenAI によるインサイトと推奨事項を使用して、統計的な読み上げを超えます。 各実験では、根拠を裏付ける完全な、実用的な機会が得られるため、チームは次に何をテストすべきかをより自信を持って決定できます。</li>
-<li><strong>Journey Optimizerでのマルチアームバンディット（MAB）のサポート：</strong> マルチアームバンディット実験で無駄になるトラフィックを減らしながら、影響を最大限に高めます。 MAB では、オーディエンスを均等に分割するのではなく、パフォーマンスの最も高いバリエーションにリアルタイムでより多くの訪問者を自動的に割り当てるため、機能を学びながら、より多くの顧客により良いエクスペリエンスを提供できます。</li></ul>
+<li><strong>統合された実験インベントリ：</strong>Adobe Journey Optimizer と Adobe Target のすべての実験を 1 つの中央ワークスペースですばやく表示、フィルタリング、管理します。</li>
+<li><strong>AI 実験のインサイトと機会：</strong>GenAI 駆動型のインサイトとレコメンデーションを使用することで、統計的な読み上げを超えた結果が得られます。各実験では、共に実用的な機会とともにん、裏付けとなる論理的根拠が明らかになるので、チームは次にテストする内容をより自信を持って決定できます。</li>
+<li><strong>Journey Optimizer でのマルチアームバンディット（MAB）のサポート：</strong>マルチアームバンディット実験により、無駄なトラフィックを削減しながら影響力を最大限に高めます。MAB は、オーディエンスを均等に分割するのではなく、最もパフォーマンスの高いバリエーションにより多くの訪問者をリアルタイムで自動的に割り当てるので、機能を学びながら、より多くの顧客に優れたエクスペリエンスを提供できます。</li></ul>
 <p><img src="assets/do-not-localize/experimentation-accelerator.gif"/></p>
 <p>詳しくは、<a href="../content-management/experiment-accelerator.md">詳細なドキュメント</a>を参照してください。</p>
-<p>公開日：2025 年 9 月 23 日（PT）</p>
+<p>公開日：2025年9月23日（PT）</p>
 </td>
 </tr>
 </tbody>
@@ -71,15 +71,15 @@ ht-degree: 44%
 <table>
 <thead>
 <tr>
-<th><strong>Journey Agentが来ました。</strong><br/></th>
+<th><strong>Journey エージェントが公開されました</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p><a href="https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform Agent Orchestrator</a> を活用し、Journey OptimizerでJourney Agentを利用できます。 これにより、自然言語インターフェイスを使用してジャーニーを分析できます。 エージェントは、オーディエンスを検出したり、ジャーニーでの競合やプロファイルのドロップオフをスケジュールしたりして、それらを解決する手順を実行できるようにします。 間もなく、代理店のサポートを受けたジャーニーを作成できるようになります。</p>
+<p><a href="https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform エージェントオーケストレーター</a>を活用した Journey エージェントは、Journey Optimizer で使用できます。これにより、自然言語インターフェイスを通じてジャーニーを分析できます。エージェントは、オーディエンスやスケジュールの競合と、ジャーニーでのプロファイルのドロップオフを検出して解決するのに役立ちます。近日中に、エージェント型サポートによるジャーニーを作成できます。</p>
 <p>詳しくは、<a href="https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">詳細なドキュメント</a>を参照してください。</p>
-<p>公開日：2025 年 9 月 24 日（PT）</p>
+<p>公開日：2025年9月24日（PT）</p>
 </td>
 </tr>
 </tbody>
@@ -150,13 +150,13 @@ ht-degree: 44%
 <table>
 <thead>
 <tr>
-<th><strong>Adobe Experience Platform のデータをパーソナライゼーションと決定に活用</strong><br/></th>
+<th><strong>Adobe Experience Platform データをパーソナライゼーションと決定に使用</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>以前はパブリックベータ版でリリースされていましたが、現在はすべての環境でこの機能を利用できます。 このリリースでは、次の機能強化が導入されました。</p>
+<p>この機能は、以前はパブリックベータ版でリリースされていましたが、現在はすべての環境で使用できるようになりました。このリリースでは、次の機能強化が導入されました。</p>
 <ul><li>インバウンドチャネルでのデータセット参照パーソナライゼーションのサポート。</li>
 <li>「datasetLookup」ヘルパー関数を式フラグメント内で使用できるようになりました。現時点では、この機能は限定された一連のお客様のみが使用できます。アクセスするには、アドビ担当者にお問い合わせください。</li>
 <li>データセット管理インターフェイスのオプションを使用すると、API 呼び出しを実行しなくても、レコードベースのデータセットで参照パーソナライゼーションを有効にできるようになりました。</li>
@@ -174,62 +174,62 @@ ht-degree: 44%
 ### 機能強化 {#sept-25-9-improvements}
 
 * **API トリガーキャンペーンの Webhook サポート**\
-  API トリガーキャンペーンで Webhook がサポートされるようになりました。 Webhook の URL を設定して、メッセージごとにリアルタイムのステータス更新を受信するようにすると、観測性が向上し、シームレスな監視と自動化が可能になります。 [詳細情報](../configuration/feedback-webhooks.md)
+  API トリガーキャンペーンで webhook がサポートされるようになりました。Webhook の URL を設定して、メッセージごとにリアルタイムのステータス更新を受信するようにすると、観測性が向上し、シームレスな監視と自動化が可能になります。 [詳細情報](../configuration/feedback-webhooks.md)
 
   公開日：2025 年 9 月 29 日（PT）
 
 * **SMS チャネルの mTLS サポート**
-カスタム SMS プロバイダーを設定する際に、相互 TLS （mTLS）認証を有効にするオプションが追加されました。この場合、安全な接続が確立される前に、クライアントとサーバーの両方が相互の ID を確認する必要があります。 [&#x200B; 詳細を読む &#x200B;](../sms/sms-configuration-custom.md) – 公開日：2025 年 9 月 23 日（PT）
+カスタム SMS プロバイダーを設定する際に、相互 TLS（mTLS）認証を有効にするオプションが追加されました。このオプションでは、安全な接続を確立する前に、クライアントとサーバーの両方が相互の ID を確認する必要があります。[詳細情報](../sms/sms-configuration-custom.md) - 公開日：2025年9月23日（PT）
 
 * **モデルベースのスキーマ**\
-  モデルベースのスキーマは、で使用して、調整されたキャンペーンでのリレーショナルモデリングのニーズをサポートできるようになりました。 [&#x200B; 詳細を読む &#x200B;](../orchestrated/gs-schemas.md) – 公開日：2025 年 9 月 23 日（PT）
+  モデルベースのスキーマを使用して、オーケストレーションキャンペーンでのリレーショナルモデリングのニーズをサポートできるようになりました。[詳細情報](../orchestrated/gs-schemas.md) - 公開日：2025年9月23日（PT）
 
-* **ジャーニーでのデータセットルックアップのサポート**\
-  ジャーニーの新しいアクティビティ **データセットルックアップ** を使用すると、実行時にAdobe Experience Platform レコードデータセットからデータを動的に取得できます。 この機能を活用すると、プロファイルまたはイベントペイロードに存在しない可能性のあるデータにアクセスできるので、顧客とのインタラクションが関連性が高く、タイムリーなものとなります。 [&#x200B; 詳細を読む &#x200B;](../building-journeys/dataset-lookup.md) – 公開日：2025 年 9 月 23 日（PT）
+* **ジャーニーでのデータセット参照のサポート**\
+  ジャーニーの新しい&#x200B;**データセット参照**&#x200B;アクティビティを使用すると、実行時に Adobe Experience Platform レコードデータセットからデータを動的に取得できます。この機能を活用することで、プロファイルやイベントペイロードに存在しない場合があるデータにアクセスできるので、顧客とのインタラクションの関連性を高め、適切なタイミングで行えるようになります。[詳細情報](../building-journeys/dataset-lookup.md) - 公開日：2025年9月23日（PT）
 
-  このアクティビティは、一連の組織でのみ使用できます（使用制限あり）。 アクセスするには、アドビ担当者にお問い合わせください。
+  このアクティビティは、一連の組織のみが使用できます（限定提供）。アクセスするには、アドビ担当者にお問い合わせください。
 
 * **ジャーニーカスタムアクションでのリダイレクトのサポート**\
-  リダイレクト （302）がジャーニーのカスタムアクションでサポートされるようになりました。  – 公開日：2025 年 9 月 23 日（PT）
+  リダイレクト（302）がジャーニーカスタムアクションでサポートされるようになりました。- 公開日：2025年9月23日（PT）
 
-* **チャネル設定のモニタリングアラート** - カスタムサブドメインデリゲーションタイプを使用したメールチャネル設定エラーが発生した場合に、メールまたは Journey Optimizer 通知センターでシステムアラートを受信するように登録できるようになりました。[&#x200B; 詳細を読む &#x200B;](../reports/alerts.md#alert-channel-config-failure) – 公開日：2025 年 9 月 23 日（PT）
+* **チャネル設定のモニタリングアラート** - カスタムサブドメインデリゲーションタイプを使用したメールチャネル設定エラーが発生した場合に、メールまたは Journey Optimizer 通知センターでシステムアラートを受信するように登録できるようになりました。[詳細情報](../reports/alerts.md#alert-channel-config-failure) - 公開日：2025年9月23日（PT）
 
-* **ワンクリック購読解除リクエスト** - Adobe Managed で設定されたワンクリック購読解除リクエストの処理をさらに強化し、信頼性と一貫性のある処理を確保する機能強化を導入しました。  – 公開日：2025 年 9 月 23 日（PT）
+* **ワンクリック登録解除リクエスト** - Adobe Managed で設定したワンクリック登録解除リクエストの処理をさらに強化し、信頼性と一貫性のある処理を確保する機能強化を導入しました。- 公開日：2025年9月23日（PT）
 
-* **カスタム認証でネストされた JSON ボディパラメーターがサポートされるようになりました**\
-  カスタムアクションにカスタム認証を設定する場合、ネストされた JSON オブジェクト（`bodyParams` 内のサブオブジェクトなど）がサポートされるようになりました。 [&#x200B; 詳細を読む &#x200B;](../datasource/external-data-sources.md#custom-authentication-mode) – 公開日：2025 年 9 月 18 日（PT）
+* **カスタム認証でサポートされるようになった、ネストされた JSON 本文パラメーター**\
+  カスタムアクションのカスタム認証を設定する際、ネストされた JSON オブジェクト（例：`bodyParams` 内のサブオブジェクト）がサポートされるようになりました。[詳細情報](../datasource/external-data-sources.md#custom-authentication-mode) - 公開日：2025年9月18日（PT）
 
-* **時間単位での頻度キャップのリセット** - チャネルルールセットに対して時間単位でキャップを適用できるようになりました。以前は限定提供（LA）で利用できましたが、現在はすべての環境で利用でき、1 時間（以前は 3 時間）を選択できるようになりました。 [&#x200B; 詳細を読む &#x200B;](../conflict-prioritization/channel-capping.md) – 公開日：2025 年 9 月 17 日（PT）
+* **時間単位での頻度キャップのリセット** - チャネルルールセットに対して時間単位でキャップを適用できるようになりました。この機能は、以前は限定提供で公開されていましたが、現在はすべての環境で使用し、1 時間（以前は 3 時間）を選択できるようになりました。[詳細情報](../conflict-prioritization/channel-capping.md) - 公開日：2025年9月17日（PT）
 
-* **すべてのインバウンドチャネルのコンテンツバリエーションのシミュレーション**\
-  以前は、メール、SMS、プッシュ通知のチャネルでのみ使用できましたが、コンテンツのバリエーションのシミュレーションはすべてのインバウンドチャネルにも適用されるようになりました。 [&#x200B; 詳細を読む &#x200B;](../test-approve/simulate-sample-input.md) – 公開日：2025 年 9 月 17 日（PT）
+* **すべてのインバウンドチャネルのコンテンツバリエーションのシミュレート**\
+  コンテンツバリエーションのシミュレートは、以前はメール、SMS、プッシュ通知チャネルでのみ公開されていましたが、すべてのインバウンドチャネルにも適用されるようになりました。[詳細情報](../test-approve/simulate-sample-input.md) - 公開日：2025年9月17日（PT）
 
-* **決定キャッピングルールの式** - 独自の式を作成して、決定項目のキャッピングルールのしきい値を定義できるようになりました。[&#x200B; 詳細を読む &#x200B;](../experience-decisioning/items.md#capping) – 公開日：2025 年 9 月 16 日（PT）
+* **決定キャッピングルールの式** - 独自の式を作成して、決定項目のキャッピングルールのしきい値を定義できるようになりました。[詳細情報](../experience-decisioning/items.md#capping) - 公開日：2025年9月16日（PT）
 
-* **動的ドメインのサポート** - Journey Optimizer では、アドビが受け入れた定義済みドメインの完全／ベース URL パーソナライゼーションがサポートされるようになりました。[&#x200B; 詳細を読む &#x200B;](../personalization/personalization-build-expressions.md#where) – 公開日：2025 年 9 月 12 日（PT）
+* **動的ドメインのサポート** - Journey Optimizer では、アドビが受け入れた定義済みドメインの完全／ベース URL パーソナライゼーションがサポートされるようになりました。[詳細情報](../personalization/personalization-build-expressions.md#where) - 公開日：2025年9月12日（PT）
 
-  この機能は、一連のお客様に対して限定提供で利用できます。
+  この機能は、一連のお客様に対する限定提供で使用できます。
 
 * **Webhook** – このリリースでは、カスタム SMS プロバイダーを設定する際の Webhook に関する次の機能強化が導入されています。
 
-   * 取得するデータのタイプに応じて、Webhook の目的（インバウンドまたはフィードバック）を定義できるようになりました。 [&#x200B; 詳細を読む &#x200B;](../sms/sms-configuration-custom.md#webhook) – 公開日：2025 年 9 月 23 日（PT）
+   * 取得するデータのタイプに応じて、Webhook の目的（インバウンドまたはフィードバック）を定義できるようになりました。 [詳細情報](../sms/sms-configuration-custom.md#webhook) - 公開日：2025年9月23日（PT）
 
-   * 設定を容易にするために、キーワード設定用のインターフェイスを改善しました。 [&#x200B; 詳細を読む &#x200B;](../sms/sms-configuration-custom.md#webhook) – 公開日：2025 年 9 月 23 日（PT）
+   * 設定を容易にするために、キーワード設定用のインターフェイスを改善しました。 [詳細情報](../sms/sms-configuration-custom.md#webhook) - 公開日：2025年9月23日（PT）
 
 * **SMS**
 
-   * カスタム SMS プロバイダーを設定する際に、受信 SMS に認識できないキーワードが含まれている場合に使用する **デフォルト** キーワードを定義できるようになりました。 特定のアクションに対して **カスタム** キーワードを作成することもできます。 [&#x200B; 詳細を読む &#x200B;](../sms/sms-configuration-custom.md) – 公開日：2025 年 9 月 23 日（PT）
+   * カスタム SMS プロバイダーを設定する際に、受信 SMS に認識できないキーワードが含まれている場合に使用する **デフォルト** キーワードを定義できるようになりました。 特定のアクションに対して **カスタム** キーワードを作成することもできます。 [詳細情報](../sms/sms-configuration-custom.md) - 公開日：2025年9月23日（PT）
 
-   * 設定で明示的に定義されていない入力ミス、単語、文など、SMS メッセージで送信される未定義の受信キーワードの応答にアクセスできるようになりました。 これらは、{InboundMessage} の下の **0&rbrace;AJO メールトラッキングエクスペリエンスイベント** データセットに 13 か月間保存され **す。** Sinch、Infobip、カスタム SMS プロバイダーでのみ使用できます。  – 公開日：2025 年 9 月 23 日（PT）
+   * 設定で明示的に定義されていない入力ミス、単語、文など、SMS メッセージで送信される未定義の受信キーワードの応答にアクセスできるようになりました。 これらは、{InboundMessage} の下の **0}AJO メールトラッキングエクスペリエンスイベント** データセットに 13 か月間保存され **す。** Sinch、Infobip、カスタム SMS プロバイダーでのみ使用できます。  – 公開日：2025 年 9 月 23 日（PT）
 
 <!--
 * **Approval policy permissions**
   Added an option when creating or setting Approval Policy to prevent Journey/Campaign creators from approving their own objects. [Read more](../test-approve/approval-policies.md) - Availability date: Sept 23, 2025 
 -->
 
-### 準備中 {#sept-25-9-soon}
+### 近日リリース予定 {#sept-25-9-soon}
 
-今後数日以内に、次の機能および機能強化のリリースが予定されています。 **情報は変更される場合があります**。 更新されたリンク、画面およびドキュメントは、これらの更新が実稼動環境で公開されると共有されます。
+今後数日間で、次の機能と機能強化がリリースされる予定です。**情報は変更される場合があります**。更新したリンク、画面、ドキュメントは、これらの更新が実稼動環境で公開すると共有されます。
 
 <!--table>
 <thead>
@@ -316,7 +316,7 @@ ht-degree: 44%
 <ul>
 <li>プロファイルごとに、年間最大 6 件の PDF 添付ファイル付きメッセージを送信できます。</li>
 <li>各添付ファイルの最大許容ファイルサイズは 5 MB です。</li>
-<li>その他のサイズまたはボリュームについては、PDF添付ファイルアドオンを購入できます。 詳しくは、アドビ担当者にお問い合わせください。</li>
+<li>追加のサイズまたはボリュームについては、PDF 添付ファイルアドオンを購入できます。詳しくは、アドビ担当者にお問い合わせください。</li>
 </ul>
 <p>この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。</p>
 <p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
@@ -330,24 +330,24 @@ ht-degree: 44%
 
 
 * **新しいジャーニーアラート**\
-  ジャーニーには、事前設定済みの新しいアラートを使用できます。
+  ジャーニーに事前設定済みの新しいアラートが使用可能です。
 
-   * プロファイル破棄率の超過：過去 5 分に入力されたプロファイルに対するプロファイル破棄の割合が、しきい値を超えました。
-   * カスタムアクションエラー率を超えました：過去 5 分の、成功した HTTP 呼び出しに対するカスタムアクションエラーの割合が、しきい値を超えました。
-   * プロファイルエラー率の超過：過去 5 分に入力されたプロファイルに対する、エラーのプロファイルの割合が、しきい値を超えました。
+   * プロファイル破棄率超過：しきい値を超えた、過去 5 分間にエントリ済みのプロファイル数に対するプロファイル破棄率。
+   * カスタムアクションエラー率超過：しきい値を超えた、過去 5 分間に成功した HTTP 呼び出し数に対するカスタムアクションエラー率。
+   * プロファイルエラー率超過：しきい値を超えた、過去 5 分間にエントリ済みのプロファイル数に対するプロファイルエラー率。
 <!--
   * [Profile Discard Rate Exceeded](../reports/alerts.md#profile-discard-rate-exceeded): Ratio of profile discards to entered profiles over the last 5 mins exceeded threshold.  
   * [Custom Action Error Rate Exceeded](../reports/alerts.md#custom-action-error-rate-exceeded): Ratio of custom action errors to successful HTTP calls over the last 5 mins exceeded threshold.  
   * [Profile Error Rate Exceeded](../reports/alerts.md#profile-error-rate-exceeded): Ratio of profiles-in-error to entered profiles over the last 5 mins exceeded threshold.-->
 
-しきい値を変更し、個々のジャーニーレベルのアラートに登録するか、グローバルに登録するかを指定できます。
+しきい値を変更し、グローバルではなく個々のジャーニーレベルのアラートを登録できます。
 
 <!-- Availability date: Sept XX, 2025-->
 
 
-* **ワンクリック登録解除 URL でのカスタム属性のサポート**\
-  Journey Optimizerを使用すると、Adobe外で同意を管理している場合に、メール設定で独自のワンクリック購読解除リンクを定義することで、外部カスタムエンドポイントを設定できます。 受信者が登録解除リンクをクリックすると、Journey Optimizer では、同意更新イベントにいくつかのデフォルトのプロファイル固有のパラメーターが追加されます。
+* **ワンクリック登録解除 URL を使用したカスタム属性のサポート**\
+  Journey Optimizer では、アドビ以外で同意を管理している場合、メール設定で独自のワンクリック登録解除リンクを定義して、外部カスタムエンドポイントを設定できます。受信者が登録解除リンクをクリックすると、Journey Optimizer では、同意更新イベントにいくつかのデフォルトのプロファイル固有のパラメーターが追加されます。
 
-  購読解除メールアドレスをさらにパーソナライズするために、同意イベントに追加するカスタム属性を定義できるようになりました。 この機能は、8 月 25 日リリース以降、カスタムのワンクリック購読解除リンクで既に使用されています。
+  登録解除メールアドレスをさらにパーソナライズするために、同意イベントに追加されるカスタム属性を定義できるようになりました。この機能は、8月25日（PT）リリース以降、カスタムのワンクリック登録解除リンクで既に使用可能です。
 
   <!-- Availability date: Sept XX, 2025-->
