@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
 source-git-commit: 4bb16689d9af805a077b4c87540bd23162f84bbb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '6603'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -268,7 +268,7 @@ ht-degree: 99%
 
 * **決定**
 
-   * **フラグメントを決定項目に添付** - Journey Optimizer では、決定ポリシーを通じてコードベースのエクスペリエンスキャンペーンで活用できるフラグメントを決定項目に添付できるようになりました。この機能は、一連のお客様に対して限定提供で利用できます。 [詳細情報](../experience-decisioning/create-decision.md#fragments)
+   * **フラグメントを決定項目に添付** - Journey Optimizer では、決定ポリシーを通じてコードベースのエクスペリエンスキャンペーンで活用できるフラグメントを決定項目に添付できるようになりました。この機能は、一連のお客様に対する限定提供で使用できます。[詳細情報](../experience-decisioning/create-decision.md#fragments)
 
 * **ジャーニー**
 

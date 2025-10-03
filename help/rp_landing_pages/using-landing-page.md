@@ -5,23 +5,23 @@ title: Adobe Journey Optimizer ヘルプ
 description: Adobe Journey Optimizer ヘルプ
 redpen-status: CREATED_||_2025-08-11_21-21-01
 source-git-commit: a73bf80fa61c6ce7c9be054e013e9a59ef3d9ba8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '398'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
 # Adobe Journey Optimizer ヘルプ{#section-overview}
 
-Adobe Journey Optimizer を使用すると、チームはメールや SMS などのチャネル全体で、シームレスでパーソナライズされたカスタマーエクスペリエンスをデザインし、提供できるようになります。キャンペーンオーケストレーション、データ管理、意思決定の高度なツールを組み合わせることで、顧客のニーズにリアルタイムに適応するジャーニーを作成できます。このドキュメントは、最新機能や統合の探索から、オーディエンスの管理、ジャーニーの設定、パフォーマンスの分析まで、プラットフォーム操作を習得するロードマップとして参照できます。マーケター、データアナリスト、キャンペーンマネージャーのどれに該当する場合でも、自信を持って目標を達成するのに役立つ、ステップバイステップのガイド、ベストプラクティス、リソースを確認できます。
+Adobe Journey Optimizer を使用すると、チームはメールや SMS などのチャネル全体で、シームレスでパーソナライズされたカスタマーエクスペリエンスをデザインし、提供できるようになります。キャンペーンオーケストレーション、データ管理、意思決定の高度なツールを組み合わせることで、顧客のニーズにリアルタイムに適応するジャーニーを作成できます。このドキュメントは、最新機能や統合の探索から、オーディエンスの管理、ジャーニーの設定、パフォーマンスの分析まで、プラットフォーム操作を習得するロードマップとして参照できます。マーケター、データアナリスト、キャンペーンマネージャーのどの役割であっても、自信を持って目標を達成するのに役立つステップバイステップのガイド、ベストプラクティスおよびリソースを確認できます。
 
 ## Adobe Journey Optimizer ヘルプ
 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Adobe Journey Optimizer の基本を学ぶ
 
@@ -31,7 +31,7 @@ Adobe Journey Optimizer の基本を学ぶ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 包括的なジャーニーガイド
 
@@ -41,7 +41,7 @@ Adobe Journey Optimizer の基本を学ぶ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 キャンペーンの理解と管理
 
@@ -51,7 +51,7 @@ Adobe Journey Optimizer の基本を学ぶ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 競合管理と優先順位付け
 

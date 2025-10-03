@@ -6,21 +6,21 @@ description: ジャーニー
 redpen-status: CREATED_||_2025-08-11_20-21-13
 exl-id: c148c9e8-8b1d-4c64-8bb6-dc86898cb672
 source-git-commit: 21364f17c8a09d564e97cfc5f29f742dd8f32f4a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '296'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 # ジャーニー{#section-overview}
 
-Adobe Journey Optimizerのジャーニーを使用すると、オーディエンスの行動とニーズにリアルタイムで適応する、パーソナライズされたマルチステップのカスタマージャーニーを作成できます。 直感的なドラッグ＆ドロップキャンバスを使用すると、コンテキストデータとオーディエンスターゲティングを活用して、複数のチャネルをまたいでメッセージとアクションを調整し、最大限の影響を得ることができます。リアルタイムのトリガーを探索する場合や、ジャーニープロパティを管理する場合、カスタムアクションや式などの高度なツールを使用する場合のいずれであっても、この節では、明確なロードマップを提供します。有意義でタイムリーなカスタマーエクスペリエンスを提供するジャーニーを自信を持ってデザインおよび調整するためのハウツーガイド、ユースケース、トラブルシューティングのヒントについて詳しく説明します。
+Adobe Journey Optimizer でジャーニーを使用すると、オーディエンスの行動やニーズにリアルタイムで適応する、パーソナライズされた複数手順のカスタマージャーニーを作成できます。直感的なドラッグ＆ドロップキャンバスを使用すると、コンテキストデータとオーディエンスターゲティングを活用して、複数のチャネルをまたいでメッセージとアクションを調整し、最大限の影響を得ることができます。リアルタイムのトリガーを探索する場合や、ジャーニープロパティを管理する場合、カスタムアクションや式などの高度なツールを使用する場合のいずれであっても、この節では、明確なロードマップを提供します。有意義でタイムリーなカスタマーエクスペリエンスを提供するジャーニーを自信を持ってデザインおよび調整するためのハウツーガイド、ユースケース、トラブルシューティングのヒントについて詳しく説明します。
 
 ## ジャーニーの概要
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Adobe Journey Optimizer ジャーニーの基本を学ぶ
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer の直感的なドラッグ＆ドロップツールと�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Adobe Journey Optimizer のアクティビティ
 
@@ -86,6 +86,6 @@ Adobe Journey Optimizer の実用的なユースケース
 
 - **[カスタマージャーニーのトラブルシューティング](troubleshoot-journey-landing-page.md)** - ツール、エラーコード、デバッグと最適化のベストプラクティスを使用して、ジャーニー実行の問題を診断および解決します。
 
-- **[ジャーニーアラートの登録](../using/reports/alerts.md)** - システムアラートの管理、通知の登録、ジャーニーやキャンペーンの問題のトラブルシューティングの方法について説明します。
+- **[Journey アラートへの登録](../using/reports/alerts.md)** - システムアラートを管理、通知を登録し、ジャーニーとキャンペーンの問題をトラブルシューティングする方法を確認します。
 
 

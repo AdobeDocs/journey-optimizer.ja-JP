@@ -6,9 +6,9 @@ description: 調整されたキャンペーン
 redpen-status: CREATED_||_2025-08-11_20-27-33
 exl-id: 31f3668f-99fb-4388-a379-4979c63b7b3a
 source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '263'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer の調整されたキャンペーンを使用すると�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 調整されたキャンペーンの概要
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer の調整されたキャンペーンのコア機能、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 ガードレールと制限
 
@@ -44,7 +44,7 @@ Adobe Journey Optimizer の調整されたキャンペーンのコア機能、�
 
 調整されたキャンペーンのデータ設定
 
-モデルベースのスキーマ、データセット、チャネルを設定して、調整されたキャンペーンのデータへの対応を確保します。
+モデルベースのスキーマ、データセット、チャネルを設定して、オーケストレーションキャンペーンのデータを準備します。
 
 [データ設定について](data-configuration-landing-page.md)
 :::
@@ -83,5 +83,5 @@ Adobe Journey Optimizer の調整されたキャンペーンのコア機能、�
 
 ## その他のリソース
 
-- **[よくある質問](../using/orchestrated/orchestrated-campaigns-faq.md)** - Adobe Journey Optimizer オーケストレートキャンペーンに関するよくある質問（FAQ）を紹介します。
+- **[よくある質問](../using/orchestrated/orchestrated-campaigns-faq.md)** - Adobe Journey Optimizer オーケストレーションキャンペーンに関するよくある質問（FAQ）について説明します。
 

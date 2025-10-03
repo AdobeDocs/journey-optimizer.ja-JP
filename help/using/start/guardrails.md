@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 26212ade689477154e4ea33dbc1970e3acea0a12
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2825'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 
 <!--The following guardrails apply to the [email channel](../../rp_landing_pages/email-landing-page.md):-->
 
-[!DNL Adobe Journey Optimizer] と他の製品（[!DNL Adobe Campaign] や [!DNL Adobe Marketo Engage] など）から、同じ送信ドメインを使用してメールメッセージを送信することはできません。
+[!DNL Adobe Journey Optimizer] や、他の製品（例えば [!DNL Adobe Campaign] や [!DNL Adobe Marketo Engage] など）から、同じ送信ドメインを使用してメールメッセージを送信することはできません。
 
 ### SMS ガードレール {#sms-guardrails}
 
@@ -64,21 +64,21 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 * 現在、MMS ではメッセージのフィードバック同期を使用できません。
 * 同意の管理は、MMS の SMS チャネルレベルで動作します。
 
-### インバウンドチャネルガードレール {#inbound-guardrails}
+### インバウンドチャネルのガードレール {#inbound-guardrails}
 
-* Journey Optimizerでは、1 秒あたり 5,000 件のインバウンドリクエストのピーク量をサポートしています。 このガードレールは、すべてのインバウンドリクエストに適用されます。これは、Journey Optimizerでサポートされているインバウンドチャネル（[web](../web/get-started-web.md)、[&#x200B; アプリ内 &#x200B;](../in-app/get-started-in-app.md)、[&#x200B; コードベースのエクスペリエンス &#x200B;](../code-based/get-started-code-based.md)、[&#x200B; コンテンツカード &#x200B;](../../rp_landing_pages/content-card-landing-page.md)）のいずれかから発生できます。
+* Journey Optimizer では、1 秒あたり 5,000 件のインバウンドリクエストのピーク量をサポートします。このガードレールは、Journey Optimizer がサポートするすべてのインバウンドチャネル（[web](../web/get-started-web.md)、[アプリ内](../in-app/get-started-in-app.md)、[コードベースのエクスペリエンス](../code-based/get-started-code-based.md)、[コンテンツカード](../../rp_landing_pages/content-card-landing-page.md)）から発生する場合があるすべてのインバウンドリクエストに適用されます。
 
-  Journey Optimizer インバウンドチャネルは、他のチャネルでこれまで関わってこなかった可能性のある新しいプロファイルをターゲットにします。 これにより、エンゲージメント可能なプロファイルの総数が増え、ユーザーが購入した、エンゲージメント可能なプロファイルの契約上の数を超えると、コストに影響する可能性があります。
+  Journey Optimizer インバウンドチャネルは、以前の他のチャネルで関与していなかった可能性のある新しいプロファイルをターゲットにします。これにより、エンゲージメント可能なプロファイルの総数が増え、ユーザーが購入した、エンゲージメント可能なプロファイルの契約上の数を超えると、コストに影響する可能性があります。
 
   各パッケージのライセンス指標は、[Journey Optimizer の製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}ページにリストされています。
 
-* Journey Optimizerでは、一度に最大 500 個のアクティブなインバウンドアクションをサポートします。 これらのインバウンドアクション（[web](../web/get-started-web.md)、[&#x200B; アプリ内 &#x200B;](../in-app/get-started-in-app.md)、[&#x200B; コードベースのエクスペリエンス &#x200B;](../code-based/get-started-code-based.md)、[&#x200B; コンテンツカード &#x200B;](../../rp_landing_pages/content-card-landing-page.md)）は、ライブキャンペーンの一部である場合や、ライブジャーニーで使用されるノードである場合にカウントされます。 この数に達したら、新しいキャンペーンを開始する前に、インバウンドアクションを使用している古いキャンペーンやジャーニーを非アクティブ化する必要があります。
+* Journey Optimizer では、一度に最大 500 件のアクティブなインバウンドアクションをサポートします。これらのインバウンドアクション（[web](../web/get-started-web.md)、[アプリ内](../in-app/get-started-in-app.md)、[コードベースのエクスペリエンス](../code-based/get-started-code-based.md)、[コンテンツカード](../../rp_landing_pages/content-card-landing-page.md)）は、ライブキャンペーンの一部である場合や、ライブジャーニーで使用されるノードである場合にカウントされます。この数に達したら、新しいキャンペーンやインバウンドアクションを開始する前に、インバウンドアクションを使用している古いキャンペーンまたはジャーニーを非アクティブ化する必要があります。
 
-* [&#x200B; で &#x200B;](../code-based/get-started-code-based.md) コードベースのエクスペリエンス [!DNL Journey Optimizer] アクションを使用し、アプリケーションで使用できるコードコンテンツペイロードを配信するには、[&#x200B; このページ &#x200B;](../code-based/code-based-prerequisites.md) に記載されている前提条件に従ってください。
+* [!DNL Journey Optimizer] で[コードベースのエクスペリエンス](../code-based/get-started-code-based.md)アクションを使用して、アプリケーションで使用できるコードコンテンツペイロードを配信するには、[このページ](../code-based/code-based-prerequisites.md)で説明されている前提条件に従います。
 
-### トランザクションメッセージガードレール {#transactional-message-guardrails}
+### トランザクションメッセージのガードレール {#transactional-message-guardrails}
 
-Journey Optimizerは、キャンペーンで 1 秒あたり 500 トランザクションメッセージのピーク量をサポートします。
+Journey Optimizer では、キャンペーンで 1 秒あたり 500 件のトランザクションメッセージのピーク量をサポートします。
 
 ## ランディングページガードレール {#lp-guardrails}
 
@@ -171,7 +171,7 @@ Journey Optimizer のサブドメインデリゲーションに適用される�
 
 次のガードレールがジャーニーの[イベント](../event/about-events.md)に適用されます。
 
-* Journey Optimizerは、すべてのサンドボックスで、1 秒あたり 5,000 件のインバウンドジャーニーイベントのピーク量をサポートします。 この制限について詳しくは [&#x200B; このページを参照 &#x200B;](../event/about-events.md#event-thoughput)。
+* Journey Optimizer では、すべてのサンドボックスをまたいで、1 秒あたり 5,000 件のインバウンドジャーニーイベントのピーク量をサポートします。この制限について詳しくは、[このページ](../event/about-events.md#event-thoughput)を参照してください。
 * イベントトリガージャーニーでは、ジャーニーの最初のアクションを処理するのに最大 5 分かかる場合があります。
 * システム生成イベントの場合、まず Journey Optimizer 内でカスタマージャーニーの開始に使用するストリーミングデータを設定して、一意のオーケストレーション ID を取得する必要があります。このオーケストレーション ID は、Adobe Experience Platform に到達するストリーミングのペイロードに追加する必要があります。この制限は、ルールベースのイベントには適用されません。
 * ビジネスイベントは、単一イベントやオーディエンスの選定アクティビティと組み合わせて使用することはできません。
@@ -202,9 +202,9 @@ Adobe Experience Platform では、API ベースのプロファイルの作成�
 * このプロファイルをすぐには活用しないジャーニーを設定します。例えば、アカウントの作成を確認するようにジャーニーをデザインしている場合、エクスペリエンスイベントには、最初の確認メッセージを送信するのに必要な情報（姓、名、メールアドレスなど）を含めることができます。
 
 
-### 追加の識別子 {#supplemental}
+### 補助識別子 {#supplemental}
 
-ジャーニーでの追加識別子の使用には、特定のガードレールが適用されます。 詳しくは、[このページ](../building-journeys/supplemental-identifier.md#guardrails)を参照してください。
+ジャーニーでの補助識別子の使用には、特定のガードレールが適用されます。詳しくは、[このページ](../building-journeys/supplemental-identifier.md#guardrails)を参照してください。
 
 ### 式エディター {#expression-editor}
 
@@ -219,8 +219,8 @@ Adobe Experience Platform では、API ベースのプロファイルの作成�
 
 次のガードレールが[オーディエンスの選定](../building-journeys/audience-qualification-events.md)ジャーニーアクティビティに適用されます。
 
-* 「オーディエンスの選定」アクティビティは、Adobe Campaign アクティビティと併用できません。
-* オーディエンスの選定ジャーニーでは、追加の識別子はサポートされていません。
+* オーディエンスの選定アクティビティは、Adobe Campaign アクティビティと併用できません。
+* オーディエンスの選定ジャーニーでは、補助識別子はサポートされていません。
 
 #### キャンペーンアクティビティ {#ac-g}
 
@@ -264,13 +264,13 @@ Adobe Experience Platform では、API ベースのプロファイルの作成�
 * ジャーニーでは、「**オーディエンスを読み取り**」アクティビティを 1 つのみ使用できます。
 * また、**オーディエンスを読み取り**&#x200B;アクティビティの使用方法に関するレコメンデーションについて詳しくは、[このページ](../building-journeys/read-audience.md)を参照してください。
 * 再試行は、エクスポートジョブの取得中に、オーディエンストリガージャーニー（**オーディエンスを読み取り**&#x200B;または&#x200B;**ビジネスイベント**&#x200B;で始まる）にデフォルトで適用されます。エクスポートジョブの作成中にエラーが発生した場合、最大 1 時間、10 分ごとに再試行が行われます。それ以降は失敗と見なされます。したがって、これらのタイプのジャーニーは、スケジュールされた時間から最大 1 時間後に実行できます。
-* 追加の ID を使用するジャーニーの場合、各ジャーニーインスタンスのオーディエンスを読み取りアクティビティの読み取り率は、1 秒あたり最大 500 プロファイルに制限されます。
+* 補助 ID を使用するジャーニーの場合、各ジャーニーインスタンスのオーディエンスを読み取りアクティビティの読み取り率は、1 秒あたり最大 500 プロファイルに制限されます。
 
 [このページ](../building-journeys/read-audience.md#must-read)を参照してください。
 
 #### プロファイルアクティビティの更新 {#update-profile-g}
 
-特定のガードレールが「**[!UICONTROL プロファイルを更新]**」アクティビティに適用されます。詳しくは、[このページ](../building-journeys/update-profiles.md)を参照してください。
+特定のガードレールが&#x200B;**[!UICONTROL プロファイルを更新]**&#x200B;アクティビティに適用されます。詳しくは、[このページ](../building-journeys/update-profiles.md)を参照してください。
 
 ## キャンペーンオーケストレーションガードレール {#orchestration-guardrails}
 
