@@ -20,7 +20,7 @@ Adobe Journey Optimizer の Offer Delivery API を使用すると、パーソナ
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
 
 Offer Delivery API の基本を学ぶ
 
@@ -30,7 +30,7 @@ Decisioning API、Edge Decisioning API、Batch Decisioning API など、パー�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 Decisioning API を使用したオファーの配信
 
@@ -40,7 +40,7 @@ Decisioning API を使用したオファーの配信
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 Edge Decisioning API を使用したオファーの配信
 

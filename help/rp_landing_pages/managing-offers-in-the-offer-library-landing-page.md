@@ -20,7 +20,7 @@ Adobe Journey Optimizer の「オファーの作成と管理」の節では、�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 Adobe Journey Optimizer のオファーの設定
 

@@ -40,7 +40,7 @@ CSS セレクターの追加、ヘッドコンテンツの変更、クリック�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 Adobe Journey Optimizer での web 変更の管理
 

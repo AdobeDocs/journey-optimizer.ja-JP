@@ -60,7 +60,7 @@ AI アシスタントを使用して、ブランドガイドラインを遵守�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=ja)
 
 Web ページのコンテンツとアセットの生成
 

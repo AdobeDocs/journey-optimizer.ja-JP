@@ -40,7 +40,7 @@ Adobe Journey Optimizer で使用できるアウトバウンドおよびイン�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=ja)
 
 アプリ内メッセージ
 

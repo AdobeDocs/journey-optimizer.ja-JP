@@ -20,7 +20,7 @@ Adobe Journey Optimizer のヘルパー関数を使用すると、パーソナ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 ヘルパー関数の基本を学ぶ
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer でのデータ操作とパーソナライゼーショ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 集計関数ライブラリ
 

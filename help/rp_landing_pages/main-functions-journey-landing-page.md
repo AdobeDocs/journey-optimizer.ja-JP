@@ -70,7 +70,7 @@ Adobe Journey Optimizer の日付関数
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 Adobe Journey Optimizer のリスト関数
 
