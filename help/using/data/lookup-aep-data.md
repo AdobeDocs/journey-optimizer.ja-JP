@@ -13,7 +13,7 @@ exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
 source-git-commit: eb0da59bbdaa16eb381dda965cd06fb8548a945a
 workflow-type: tm+mt
 source-wordcount: '833'
-ht-degree: 74%
+ht-degree: 79%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 74%
 >[!CONTEXTUALHELP]
 >id="lookup-aep-data"
 >title="参照のために有効にする"
->abstract="ルックアップ用にデータセットを有効にすると、Journey Optimizerのパーソナライゼーション、意思決定、Journey Orchestration の機能内でそのデータを活用できます。"
+>abstract="データセットの参照を有効にすると、Journey Optimizer のパーソナライゼーション、決定、ジャーニーオーケストレーション機能内でそのデータを活用できます。"
 
-Journey Optimizerでは、パーソナライゼーション、意思決定、ジャーニーオーケストレーションの機能を使用して、Adobe Experience Platform データのデータを活用できます。 これを行うには、まず、以下で説明するように、参照パーソナライゼーションに必要なレコードベースのデータセットを参照サービスに対して有効にする必要があります。
+Journey Optimizer を使用すると、パーソナライゼーション、決定、ジャーニーオーケストレーション機能を使用して、Adobe Experience Platform のデータを活用できます。これを行うには、まず、以下で説明するように、参照パーソナライゼーションに必要なレコードベースのデータセットを参照サービスに対して有効にする必要があります。
 
 ## 必読
 
@@ -34,7 +34,7 @@ Journey Optimizerでは、パーソナライゼーション、意思決定、ジ
 
 * **データセットに PII がありません** - ルックアップが有効なデータセットには、個人を特定できる情報（PII）を含めないでください。
 
-* &#x200B;
+* 
    * **削除のリスク** - パーソナライゼーションで使用されるデータセットは、削除から保護されません。 どのデータセットが使用されているかを追跡して、削除されないようにする必要があります。
 
 * **スキーマタイプ** - データセットは、プロファイルタイプまたはイベントタイプの **ではない** スキーマに関連付ける必要があります。
@@ -154,4 +154,4 @@ API 呼び出しを使用して参照用データセットを有効にすると�
 
 * [Adobe Experience Platform データをパーソナライゼーションに使用](../personalization/aep-data-perso.md)
 * [Adobe Experience Platform データを決定に使用](../experience-decisioning/aep-data-exd.md)
-* [Journey orchestration へのAdobe Experience Platform データの使用](../building-journeys/dataset-lookup.md)
+* [Adobe Experience Platform データをジャーニーオーケストレーションに使用](../building-journeys/dataset-lookup.md)

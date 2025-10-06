@@ -2,23 +2,23 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 設定の手順
-description: ユーザーインターフェイスを介してモデルベースのスキーマを直接作成する方法を説明します。
+description: ユーザーインターフェイスを通じてモデルベースのスキーマを直接作成する方法について説明します。
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
 version: Campaign Orchestration
 source-git-commit: e189bb6a52691770655a436e45c6788d1011a8ca
 workflow-type: tm+mt
 source-wordcount: '871'
-ht-degree: 76%
+ht-degree: 87%
 
 ---
 
-# 手動モデルベースのスキーマの設定 {#manual-schema}
+# 手動のモデルベースのスキーマの設定 {#manual-schema}
 
-モデルベースのスキーマはユーザーインターフェイスを通じて直接作成でき、属性、プライマリキー、バージョンフィールド、関係の詳細な設定を可能にします。
+モデルベースのスキーマは、ユーザーインターフェイスを通じて直接作成できるので、属性、プライマリキー、バージョン管理フィールド、関係の詳細な設定が実現します。
 
 次の例では、**ロイヤルティメンバーシップ**&#x200B;スキーマを手動で定義して、調整されたキャンペーンに必要な構造を示します。
 
-1. Adobe Experience Platform インターフェイスを使用して [&#x200B; 手動でモデルベースのスキーマを作成する &#x200B;](#schema) を参照してください。
+1. Adobe Experience Platform インターフェイスを使用して、[モデルベースのスキーマを手動で作成します](#schema)。
 
 1. 顧客 ID、メンバーシップレベル、ステータスフィールドなどの[属性を追加します](#schema-attributes)。
 
@@ -28,11 +28,11 @@ ht-degree: 76%
 
 1. サポートされているソースからデータセットにデータを[取り込みます](ingest-data.md)。
 
-➡️ [&#x200B; 手動モデルベースのスキーマについて詳しくは、Adobe Experience Platform ドキュメントを参照してください &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
+➡️ [ 手動モデルベースのスキーマについて詳しくは、Adobe Experience Platform ドキュメントを参照してください ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
 
 ## スキーマの作成 {#schema}
 
-まず、Adobe Experience Platformで新しいモデルベースのスキーマを手動で作成します。 このプロセスにより、名前や動作など、スキーマ構造をゼロから定義できます。
+まず、Adobe Experience Platform で新しいモデルベースのスキーマを手動で作成します。このプロセスにより、名前や動作など、スキーマ構造をゼロから定義できます。
 
 1. Adobe Experience Platform にログインします。
 
@@ -40,7 +40,7 @@ ht-degree: 76%
 
 1. 「**[!UICONTROL スキーマを作成]**」をクリックします。
 
-1. **[!UICONTROL スキーマタイプ]** として **モデルベース** を選択します。
+1. **スキーマタイプ**&#x200B;として「**[!UICONTROL モデルベース]**」を選択します。
 
    ![](assets/admin_schema_1.png){zoomable="yes"}
 
@@ -60,7 +60,7 @@ ht-degree: 76%
 
 ターゲティングに使用するスキーマには、関連付けられた ID 名前空間を持つタイプ `String` の ID フィールドを 1 つ以上含める必要があります。これにより、Adobe Journey Optimizer のターゲティングおよび ID 解決機能との互換性が確保されます。
 
-+++Adobe Experience Platformでモデルベースのスキーマを作成する場合、次の機能がサポートされます
++++Adobe Experience Platform でモデルベースのスキーマを作成する場合、次の機能がサポートされます。
 
 * **ENUM**\
   ENUM フィールドは、DDL ベースと手動スキーマ作成の両方でサポートされているので、許可される値の固定セットを使用して属性を定義できます。
@@ -69,7 +69,7 @@ ht-degree: 76%
   アクセス制御や使用制限などのデータガバナンスポリシーの適用に、スキーマフィールドレベルでラベル付けがサポートされています。詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja)を参照してください。
 
 * **複合キー**\
-  モデルベースのスキーマ定義では複合プライマリキーがサポートされるので、複数のフィールドを使用してレコードを一意に識別できます。
+  複合プライマリキーは、モデルベースのスキーマ定義でサポートされるので、複数のフィールドと共に使用してレコードを一意に識別できます。
 
 +++
 

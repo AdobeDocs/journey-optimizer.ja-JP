@@ -10,7 +10,7 @@ exl-id: fd713864-96b9-4687-91bd-84e3533273ff
 source-git-commit: 1d869ee8bf1c76e182a3f6b0433e5ab2eec2a8fb
 workflow-type: tm+mt
 source-wordcount: '1357'
-ht-degree: 86%
+ht-degree: 88%
 
 ---
 
@@ -66,9 +66,9 @@ ht-degree: 86%
 
      ![](assets/sms-byop.png)
 
-1. **[!UICONTROL mTLS サポート]** オプションを有効にします。これにより、安全な接続を確立する前に、クライアントとサーバーの両方が互いを認証するようにします。
+1. 「**[!UICONTROL mTLS サポート]**」オプションを有効にすると、安全な接続を確立する前にクライアントとサーバーの両方が相互に認証するようになります。
 
-   mTLS のみを使用するには、「**[!UICONTROL 認証タイプ]**」ドロップダウンから「**[!UICONTROL 認証なし]**」を選択し、「**[!UICONTROL mTLS サポート]**」を有効にします。
+   mTLS のみを使用するには、**[!UICONTROL 認証タイプ]**&#x200B;ドロップダウンから「**[!UICONTROL 認証なし]**」を選択し、**[!UICONTROL mTLS サポート]**&#x200B;を有効にします。
 
 1. 「**[!UICONTROL ヘッダー]**」セクションで、「**[!UICONTROL 新しいパラメーターを追加]**」をクリックし、外部サービスに送信されるリクエストメッセージの HTTP ヘッダーを指定します。
 
@@ -197,7 +197,7 @@ Webhook を設定する際に、取得するデータのタイプに基づいて
 
    * **[!UICONTROL タイプ]**：インバウンド。
 
-   * **[!UICONTROL API 資格情報]**:（以前に設定した API 資格情報 [&#x200B; ドロップダウンから選択 &#x200B;](#api-credential) ます。
+   * **[!UICONTROL API 資格情報]**:（以前に設定した API 資格情報 [ ドロップダウンから選択 ](#api-credential) ます。
 
    * **[!UICONTROL 送信者電話番号&#x200B;]**：コミュニケーションに使用する&#x200B;送信者の電話番号を入力します。
 

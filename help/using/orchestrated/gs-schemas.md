@@ -2,20 +2,20 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 設定の手順
-description: DDL をアップロードして、Adobe Experience Platform内でモデルベースのスキーマを作成する方法を説明します
+description: DDL をアップロードして Adobe Experience Platform 内でモデルベースのスキーマを作成する方法について説明します。
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
 version: Campaign Orchestration
 source-git-commit: e189bb6a52691770655a436e45c6788d1011a8ca
 workflow-type: tm+mt
 source-wordcount: '470'
-ht-degree: 68%
+ht-degree: 90%
 
 ---
 
 
 # モデルベースのスキーマとデータセットの基本を学ぶ{#gs-schemas}
 
-このガイドでは、モデルベースのスキーマを作成し、オーケストレートキャンペーン用のデータセットを設定してデータを取り込むプロセスについて説明します。
+このガイドでは、モデルベースのスキーマの作成、オーケストレーションキャンペーン用のデータセットの設定、データの取り込みのプロセスについて説明します。
 
 ![スキーマ](assets/do-not-localize/schema_admin.png){zoomable="yes"}
 
@@ -35,13 +35,13 @@ ht-degree: 68%
 
 データモデルは、論理的で概念的なもので、オーケストレーションキャンペーンの物理的な実装には結び付けられていません
 
-**モデルベースのデータモデル** では、データは他のテーブルに関連するテーブルに整理されます。
+**モデルベースのデータモデル**&#x200B;では、データは他のテーブルに関連するテーブルに整理されます。
 
 * 各テーブルには、行（レコード）と列（属性）があります。
 * 各テーブルには、行を一意に識別するプライマリキーがあります。
 * テーブル間の関係は外部キーを使用して表されます
 
-**モデルベースのスキーマ** は、モデルベースのデータモデルの正式な定義です。
+**モデルベースのスキーマ**&#x200B;は、モデルベースのデータモデルの正式な定義です。
 
 次の内容が指定されています。
 
@@ -50,15 +50,15 @@ ht-degree: 68%
 * 制約
 * テーブル間の関係
 
-モデルベースのデータモデルでスキーマやテーブルを整理することは、データを複数のテーブルに構造化することです。 各テーブルに 1 つのタイプのエンティティ／スキーマが格納されていることを確認します。
+モデルベースのデータモデルでのスキーマやテーブルの整理は、データを複数のテーブルに構造化することです。各テーブルに 1 つのタイプのエンティティ／スキーマが格納されていることを確認します。
 
-➡️ [&#x200B; スキーマについて詳しくは、Adobe Experience Platform ドキュメントを参照してください &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
+➡️ [ スキーマについて詳しくは、Adobe Experience Platform ドキュメントを参照してください ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
 
 ## 実装手順 {#implementation}
 
 データを取り込み、モデルベースのスキーマを作成するには、次の手順に従います。
 
-1. [&#x200B; 手動でモデルベースのスキーマを作成 &#x200B;](manual-schema.md) または [DDL ファイルを使用 &#x200B;](file-upload-schema.md)
+1. [モデルベースのスキーマを手動](manual-schema.md)で作成するか、[DDL ファイルを使用](file-upload-schema.md)して作成
 
    テーブル、属性、関係を含むデータモデルの構造を定義します。ユーザーインターフェイスでスキーマを手動で作成するか、設定の高速化に DDL ファイルをアップロードするかを選択します。
 
