@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 56a7f3be7777e1c9f73a1c473bd6babf952333f1
+source-git-commit: ed0c1b9f219b3b855aaac1a27b5ceb704d6f6d5e
 workflow-type: tm+mt
-source-wordcount: '2745'
-ht-degree: 100%
+source-wordcount: '2931'
+ht-degree: 93%
 
 ---
 
@@ -378,6 +378,39 @@ ht-degree: 100%
 >[!WARNING]
 >
 >フラグメントキーが正しくない場合や、フラグメントコンテンツが有効でない場合、レンダリングは失敗し、Edge 呼び出しでエラーが発生します。
+
+#### フラグメント使用時のガードレール {#fragments-guardrails}
+
+**決定項目とコンテキストの属性**
+
+決定項目属性とコンテキスト属性は、[!DNL Journey Optimizer] フラグメントではデフォルトではサポートされていません。 ただし、以下に説明するように、代わりにグローバル変数を使用できます。
+
+例えば、フラグメントで *sport* 変数を使用するとします。
+
+1. フラグメント内でこの変数を参照します。例：
+
+   ```
+   Elevate your practice with new {{sport}} gear!
+   ```
+
+1. 決定ポリシーブロック内で、**Let** 関数を使用して変数を定義します。 次の例では、決定項目属性を使用して *sport* が定義されています。
+
+   ```
+   {#each decisionPolicy.13e1d23d-b8a7-4f71-a32e-d833c51361e0.items as |item|}}
+   {% let sport = item._cjmstage.value %}
+   {{fragment id = get(item._experience.decisioning.offeritem.contentReferencesMap, "placement1").id }}
+   {{/each}}
+   ```
+
+**決定項目フラグメントコンテンツの検証**
+
+* これらのフラグメントは動的な性質を持つため、キャンペーンで使用する場合、決定項目で参照されるフラグメントでは、キャンペーンコンテンツ作成時のメッセージ検証がスキップされます。
+
+* フラグメントコンテンツの検証は、フラグメントの作成中と公開中にのみ行われます。
+
+* JSON フラグメントの場合、JSON オブジェクトの有効性は保証されません。 式フラグメントコンテンツが決定項目で使用できるように、有効な JSON であることを確認します。
+
+実行時に、キャンペーンコンテンツ（決定項目のフラグメントコンテンツを含む）が検証されます。 検証に失敗した場合、キャンペーンはレンダリングされません。
 
 ## 最終手順 {#final-steps}
 
