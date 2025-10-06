@@ -4,7 +4,7 @@ description: ジャーニーとキャンペーンに優先度スコアを割り�
 role: User
 level: Beginner
 exl-id: f33ca0a8-ed33-4964-a85c-8705a4ff728e
-source-git-commit: e8f7f5862e3816481680fa999657ae90334ff888
+source-git-commit: be1538495ea7427fd8c4b8ea781db74bf557c22f
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 100%
@@ -56,7 +56,7 @@ Journey Optimizer を使用すると、ジャーニーの&#x200B;**[!UICONTROL �
 >title="優先度"
 >abstract="ジャーニーアクションに優先度スコアを割り当てます。同じチャネル設定を使用するジャーニーアクションまたはキャンペーンが複数ある場合、インバウンドアクションの優先順位を付けるために優先度が不可欠です。</br>数値（0～100）を入力します。数値が大きいほど優先度が高くなります。デフォルトでは、アクションの優先度スコアは、ジャーニーの全体的な優先度スコアから継承されます。"
 
-また、Journey Optimizer を使用すると、**[!UICONTROL アクション]**&#x200B;アクティビティ内のインバウンドチャネルアクションに優先度スコアを割り当てることもできます。
+また、Journey Optimizer を使用すると、[アクション](../building-journeys/journey-action.md)アクティビティ内のインバウンドチャネルアクションに優先度スコアを割り当てることもできます。
 
 これにより、同じチャネル設定を使用するジャーニーアクションまたはキャンペーンが複数ある場合、インバウンドアクションの優先順位を付けることができます。
 
@@ -72,4 +72,4 @@ Journey Optimizer を使用すると、ジャーニーの&#x200B;**[!UICONTROL �
 
 ## チュートリアルビデオ {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3445002?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)
