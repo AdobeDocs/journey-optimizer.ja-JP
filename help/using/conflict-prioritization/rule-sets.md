@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: メッセージ, 頻度, ルール, プレッシャー
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 43fe7ca22a7685944b2b11ca3d1872641d1f4694
+source-git-commit: 9cd21ef6552ce8f6ddb2097de883ec1a1bbf06e2
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 100%
+source-wordcount: '1018'
+ht-degree: 93%
 
 ---
 
@@ -74,6 +74,11 @@ ht-degree: 100%
 >abstract="Specify the maximum number of messages sent to a customer profile within the chosen time frame. The frequency cap will be based on the selected calendar period and will be reset at the beginning of the corresponding time frame."-->
 
 >[!CONTEXTUALHELP]
+>id="ajo_rule_type"
+>title="ルールタイプ"
+>abstract="チャネルルールセットに必要なルールタイプを選択します。**フリークエンシーキャップ** タイプを使用して、通信チャネルにキャッピングルールを適用します。 例えば、1 日に 1 件を超えるメールまたは SMS 通信を送信しないでください。 **クワイエットアワー** （限定提供）を選択して、時間ベースの除外を定義し、特定の期間にメッセージが送信されないようにします。
+
+>[!CONTEXTUALHELP]
 >id="ajo_rule_sets_duration"
 >title="メッセージルールカテゴリの選択"
 >abstract="アクティブ化してメッセージに適用すると、選択したカテゴリに一致するすべての頻度ルールがこのメッセージに自動的に適用されます。現在、マーケティングカテゴリのみが使用可能です。"
@@ -82,6 +87,11 @@ ht-degree: 100%
 >id="ajo_rule_set_rule_capping"
 >title="ルールのキャップ"
 >abstract="ルールのキャップを設定します。ルールセットドメインと「ルールタイプ」フィールドでの選択に応じて、このフィールドでは、プロファイルに送信できるメッセージの最大数や、プロファイルが同時に入力または登録できるジャーニーの最大数を定義できます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_business_rules"
+>title="ルールセット"
+>abstract="カスタムアクションに適用するルールセットを選択します。"
 
 ルールセットを作成するには、次の手順に従います。
 
@@ -164,4 +174,4 @@ ht-degree: 100%
 
 ## チュートリアルビデオ {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444727?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
