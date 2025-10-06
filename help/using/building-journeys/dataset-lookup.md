@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 version: Journey Orchestration
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
-source-git-commit: 189a5e1c31946e05ef88161f0b5d678b95dd2064
+source-git-commit: 3a682f0fc6a6f9a3a505dfd99bd8d54dfd41a077
 workflow-type: tm+mt
 source-wordcount: '750'
-ht-degree: 22%
+ht-degree: 24%
 
 ---
 
@@ -33,13 +33,13 @@ ht-degree: 22%
 
 >[!AVAILABILITY]
 >
->このアクティビティは、一連の組織でのみ使用できます（使用制限あり）。 アクセスするには、アドビ担当者にお問い合わせください。
+>このアクティビティは、一連の組織のみが使用できます（限定提供）。アクセスするには、アドビ担当者にお問い合わせください。
 
 ## 必読 {#must-read}
 
 ### データセットの有効化
 
-Adobe Experience Platformで参照するには、データセットを有効にする必要があります。 詳しくは、「Adobe Experience Platform データの使用 [&#x200B; を参照してくだ &#x200B;](../data/lookup-aep-data.md) い。
+Adobe Experience Platformで参照するには、データセットを有効にする必要があります。 詳しくは、「Adobe Experience Platform データの使用 [ を参照してくだ ](../data/lookup-aep-data.md) い。
 
 ### 制限と制限
 
@@ -71,7 +71,7 @@ Adobe Experience Platformで参照するには、データセットを有効に�
 
    >[!NOTE]
    >
-   >探しているデータセットがリストに表示されない場合は、そのデータセットの検索を有効にしていることを確認してください。 詳しくは、[&#x200B; 必ずお読みください &#x200B;](#must-read) の節を参照してください。
+   >探しているデータセットがリストに表示されない場合は、そのデータセットの検索を有効にしていることを確認してください。 詳しくは、[ 必ずお読みください ](#must-read) の節を参照してください。
 
 1. データセットから取得する特定のフィールドを選択します。
 
@@ -103,7 +103,7 @@ Adobe Experience Platformで参照するには、データセットを有効に�
 
 * **ジャーニー式エディター**:
 
-  **[!UICONTROL 詳細設定モード]** エディターにアクセスし、構文 `@datasetLookup{MyDatasetLookUpActivity1.entities}` を使用します。 [&#x200B; 高度な式エディターの操作方法を学ぶ &#x200B;](../building-journeys/expression/expressionadvanced.md)
+  **[!UICONTROL 詳細設定モード]** エディターにアクセスし、構文 `@datasetLookup{MyDatasetLookUpActivity1.entities}` を使用します。 [ 高度な式エディターの操作方法を学ぶ ](../building-journeys/expression/expressionadvanced.md)
 
 * **Personalization エディター**:
 
@@ -124,6 +124,7 @@ Adobe Experience Platformで参照するには、データセットを有効に�
 1. **購入イベント**：ユーザーの買い物かごから SKU をキャプチャします。
 
 1. **データセットルックアップアクティビティ**:
+
 * データセット：`products-dataset` （プライマリキーとしての SKU）。
 * 参照キー：`list(@event{purchase_event.products.sku})`。
 * 返されるフィールド：`["SKU", "category", "price"]`。
@@ -133,7 +134,7 @@ Adobe Experience Platformで参照するには、データセットを有効に�
    * カテゴリが「household」の場合は SKU をフィルタリングします。
 
      ```
-     @event{purchase_event.products.all( in(currentEventField.sku, @datasetlookup{MyDatasetLookupActivity1.entities.all(currentDatasetLookupField.category == ‘household’).sku} ) )} 
+     @event{purchase_event.products.all( in(currentEventField.sku, @datasetlookup{MyDatasetLookupActivity1.entities.all(currentDatasetLookupField.category == 'household').sku} ) )} 
      ```
 
    または
@@ -141,7 +142,7 @@ Adobe Experience Platformで参照するには、データセットを有効に�
    * 家庭用品に対する総支出を集計し、$40 のしきい値と比較します。
 
      ```
-     sum(@event{purchase_event.products.all( in(currentEventField.sku, @datasetlookup{MyDatasetLookUpActivity1.entities.all(currentDatasetLookupField.category == ‘household’).sku} ) )}.price}, ',', true ) > 40
+     sum(@event{purchase_event.products.all( in(currentEventField.sku, @datasetlookup{MyDatasetLookUpActivity1.entities.all(currentDatasetLookupField.category == 'household').sku} ) )}.price}, ',', true ) > 40
      ```
 
 1. **Personalization エディター**:
