@@ -7,9 +7,9 @@ role: User
 level: Experienced
 exl-id: 008d42c7-a523-4857-b34e-0e8dd1dfa507
 source-git-commit: 9bf642227facd44401a33a1047b53018478ed35a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '287'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -46,6 +46,6 @@ ht-degree: 94%
 
 Journey Optimizer の確立された機能である意思決定管理では、マーケティングオファーの一元化されたライブラリと、リアルタイム顧客プロファイルにルールと制約を適用する決定エンジンを使用し、Adobe Experience Platform データを活用して的確なオファーを適切なタイミングで提供します。
 
-意思決定管理では、メール、アプリ内メッセージ、プッシュ通知、SMS およびダイレクトメールの各チャネルをサポートしています。
+意思決定管理では、メール、アプリ内メッセージ、プッシュ通知、SMS、ダイレクトメールのチャネルをサポートしています。
 
 ➡️ [意思決定管理の基本を学ぶ](../offers/get-started/starting-offer-decisioning.md)

@@ -10,9 +10,9 @@ level: Intermediate, Experienced
 keywords: 外部, ソース, データ, 設定, 接続, サードパーティ
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 source-git-commit: 4d979ccc421221993a752dd41bc22ea3d83e7555
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1647'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -273,4 +273,4 @@ Bearer 認証タイプの例を次に示します。
 
 >[!CAUTION]
 >
->カスタムアクションにカスタム認証を設定する場合、ネストされた JSON オブジェクト（`bodyParams` 内のサブオブジェクトなど）がサポートされていることに注意してください **サポートされている**。
+>カスタムアクションのカスタム認証を設定する際、ネストされた JSON オブジェクト（例：`bodyParams` 内のサブオブジェクト）が&#x200B;**サポート**&#x200B;されます。

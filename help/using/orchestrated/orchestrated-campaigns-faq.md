@@ -6,9 +6,9 @@ description: Journey Optimizer の調整されたキャンペーンに関する�
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
 source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1430'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -177,13 +177,13 @@ Yes. Campaign orchestration is natively integrated with:
 
 +++ キャンペーンオーケストレーションはバッチを通じて読み込まれるデータにのみアクセスしますか、それともリアルタイムで更新されるテーブル（Analytics データなど）もクエリを実行できますか？
 
-Journey Optimizer Campaign オーケストレーションは、まず、モデルベースのスキーマに基づいてアドホッククエリを作成できます。 モデルベースのスキーマは、現時点ではバッチソースのみをサポートします。 また、任意のタイプの Adobe Experience Platform オーディエンスからのオーディエンスを読み取りをサポートします。
+Journey Optimizer キャンペーンオーケストレーションは、まずモデルベースのスキーマに基づいてアドホッククエリを作成できます。モデルベースのスキーマは現在、バッチソースのみをサポートしています。また、任意のタイプの Adobe Experience Platform オーディエンスからのオーディエンスを読み取りをサポートします。
 
 +++
 
 +++ オーケストレーションキャンペーンは決定をサポートしますか？
 
-はい。決定では、オーケストレーションキャンペーンからのリレーショナルデータを使用できます。モデルベースのスキーマを XDM スキーマに接続すると、XDM データを意思決定に使用できるようになります。
+はい。決定では、オーケストレーションキャンペーンからのリレーショナルデータを使用できます。モデルベースのスキーマを XDM スキーマに接続すると、XDM データを決定に使用できます。
 
 +++
 
@@ -255,9 +255,9 @@ Adobe Experience Platform プロファイルに対して送信する際、受信
 
 ## その他のリソース
 
-その他のラーニングやアップデートについては、次のリソースを参照してください。
+学習内容と更新情報について詳しくは、以下のリソースを参照してください。
 
-* [調整されたキャンペーンのガードレールと制限](../orchestrated/guardrails.md)
-* [Orchestrated キャンペーンでのスキーマとデータセットの基本を学ぶ](../orchestrated/gs-schemas.md)
-* [最初のオーケストレートキャンペーンを作成](../orchestrated/gs-campaign-creation.md)
+* [オーケストレーションキャンペーンのガードレールと制限](../orchestrated/guardrails.md)
+* [オーケストレーションキャンペーンのスキーマとデータセットの基本を学ぶ](../orchestrated/gs-schemas.md)
+* [最初のオーケストレーションキャンペーンの作成](../orchestrated/gs-campaign-creation.md)
 * [Journey Optimizer 製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}

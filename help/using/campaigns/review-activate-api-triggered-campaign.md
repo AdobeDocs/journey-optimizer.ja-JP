@@ -10,15 +10,15 @@ level: Experienced
 keywords: キャンペーン, API トリガー, REST, Optimizer, メッセージ
 exl-id: 561f1215-d13d-4ffc-b6f1-396ae67774c8
 source-git-commit: d3570e2c3d6340deaba8ca0f342161ab43ad1c43
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '287'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 # API トリガーキャンペーンのレビューとアクティブ化 {#api-review}
 
-API トリガーキャンペーンを設定したら、アクティブ化する前にそのパラメーターとコンテンツをレビューする必要があります。 それには、次の手順に従います。
+API トリガーキャンペーンを設定したら、アクティブ化する前にそのパラメーターとコンテンツをレビューする必要があります。それには、次の手順に従います。
 
 >[!IMPORTANT]
 >

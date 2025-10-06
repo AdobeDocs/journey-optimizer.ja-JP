@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
 source-git-commit: 34649ab411823f1aa09d390d23484697e80763c5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1313'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -48,27 +48,27 @@ ht-degree: 83%
 * チャネル設定に固有のアラート：
 
    * [AJO ドメイン DNS レコードがありません](#alert-dns-record-missing)アラート
-   * [AJO チャネル設定エラー &#x200B;](#alert-channel-config-failure) アラート
+   * [AJO チャネル設定エラー](#alert-channel-config-failure)アラート
      <!--* the [AJO domain certificates renewal unsuccessful](#alert-certificates-renewal) alert-->
 
 ## アラートの配信を登録 {#subscribe-alerts}
 
 予期しない動作が発生した場合や、操作の特定の条件（システムがしきい値に達した場合に問題が発生する可能性があるなど）に達した場合、その条件を登録している組織内のユーザーにアラート通知が配信されます。
 
-ユーザーインターフェイスから各アラートを個別に、**[!UICONTROL アラート]** メニューからグローバルに登録できます（[&#x200B; グローバル登録 &#x200B;](#global-subscription) を参照） <!--DOCAC-13465, or unitary for a specific journey (see [Unitary subscription](#unitary-subscription))-->。
+各アラートは、ユーザーインターフェイスから個別に登録することも、**[!UICONTROL アラート]**&#x200B;メニューからグローバルに登録することもできます（[グローバル登録](#global-subscription)を参照）<!--DOCAC-13465, or unitary for a specific journey (see [Unitary subscription](#unitary-subscription))-->。
 
 登録者の環境設定に基づいて、アラートはメールで送信されるか、ユーザーインターフェイスの右上隅にある Journey Optimizer 通知センター内（アプリ内通知）で直接送信されます。[!DNL Adobe Experience Cloud] **[!UICONTROL 環境設定]**&#x200B;で、これらのアラートを受信する方法を選択します。[詳細情報](../start/user-interface.md#in-product-alerts)
 
 アラートが解決されると、登録者に「解決済み」通知が届きます。
 
 
-### グローバル購読 {#global-subscription}
+### グローバル登録 {#global-subscription}
 
-すべてのジャーニーとキャンペーンでアラートを購読/購読解除するには、次の手順に従います。
+すべてのジャーニーとキャンペーンのアラートを登録／登録解除するには、次の手順に従います。
 
-1. 左側のメニューから **[!UICONTROL アラート]** ダッシュボードを参照し、購読するアラートの **[!UICONTROL 購読]** オプションを選択します。
+1. 左側のメニューから&#x200B;**[!UICONTROL アラート]**&#x200B;ダッシュボードに移動し、登録するアラートの「**[!UICONTROL 登録]**」オプションを選択します。
 
-   ![&#x200B; アラートの購読 &#x200B;](assets/alert-subscribe.png){width=80%}
+   ![アラートの登録](assets/alert-subscribe.png){width=80%}
 
    >[!NOTE]
    >
@@ -76,7 +76,7 @@ ht-degree: 83%
 
 1. **[!UICONTROL 登録解除]**&#x200B;する場合も同じ方法を使用します。
 
-[I/O イベント通知 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=ja){target="_blank"} を通じて登録することもできます。 アラートルールは、様々な登録パッケージに整理されます。特定の Journey Optimizer アラートに対応するイベント登録については、[以下](#journey-alerts)で詳しく説明します。
+また、[I/O イベント通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=ja){target="_blank"}を通じて登録することもできます。アラートルールは、様々な登録パッケージに整理されます。特定の Journey Optimizer アラートに対応するイベント登録については、[以下](#journey-alerts)で詳しく説明します。
 
 <!--DOCAC-13465
 ### Unitary subscription {#unitary-subscription}
@@ -94,7 +94,7 @@ To subscribe/unsubscribe to an alert for a specific journey, follow these steps:
 1. Click **[!UICONTROL Save]** to confirm.
 -->
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=ja#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 
 
@@ -110,7 +110,7 @@ To subscribe/unsubscribe to an alert for a specific journey, follow these steps:
 
 このアラートは、カスタムアクションが失敗した場合に警告を表示します。過去 5 分間に特定のカスタムアクションで 1％以上のエラーが発生した場合、エラーが発生したとみなします。これは 30 秒ごとに評価されます。
 
-アラートの名前をクリックして、アラートの詳細と設定を確認します。
+アラートの名前をクリックすると、アラートの詳細と設定を確認できます。
 
 ![](assets/alerts-custom-action.png)
 
@@ -253,7 +253,7 @@ This alert warns you if a domain certificate (CDN, tracking URL) renewal failed 
 
 ### アラートの編集
 
-アラートの行をクリックすると、そのアラートの詳細を確認できます。 名前、ステータス、通知チャネルが左側のパネルに表示されます。
+アラートの行をクリックすると、そのアラートの詳細を確認できます。名前、ステータス、通知チャネルが左側のパネルに表示されます。
 <!--DOCAC-13465
 For Journey alerts, use the **[!UICONTROL More actions]** button to edit them. You can then define a [custom theshold](#custom-threshold) for these alerts.-->
 
@@ -292,15 +292,15 @@ To change the threshold:
 * **[!UICONTROL トリガー]** - アラートのトリガー条件は、現在、満たされています。
 
 
-### サブスクライバの表示と更新 {#manage-subscribers}
+### サブスクライバーの表示と更新 {#manage-subscribers}
 
-**[!UICONTROL アラート購読者を管理]** を選択して、アラートを購読しているユーザーのリストを表示します。
+アラートを登録しているユーザーのリストを表示するには、「**[!UICONTROL アラートサブスクライバーを管理]**」を選択します。
 
 ![](assets/alert-subscribers.png){width=80%}
 
 サブスクライバーを追加するには、メールをコンマで区切って入力し、「**[!UICONTROL 更新]**」を選択します。
 
-購読者を削除するには、現在の購読者からメールアドレスを削除して「**[!UICONTROL 更新]**」を選択します。
+サブスクライバーを削除するには、現在のサブスクライバーからメールアドレスを削除し、「**[!UICONTROL 更新]**」を選択します。
 
 ## その他のリソース {#additional-resources-alerts}
 

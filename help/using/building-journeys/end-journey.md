@@ -10,9 +10,9 @@ keywords: 再エントリ, ジャーニー, 終了, ライブ, 停止
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
 source-git-commit: 2a5db6950ac82fd18deb2e4009c9a43247444d6a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '775'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -104,4 +104,4 @@ ht-degree: 98%
 
 >[!CAUTION]
 >
->ジャーニーを停止する権限は、**[!DNL Manage journeys]** の高レベル権限を持つユーザーに制限されます。 [!DNL Journey Optimizer] ユーザーのアクセス権の管理について詳しくは、[この節](../administration/permissions-overview.md)を参照してください。
+>ジャーニーを停止する権限は、**[!DNL Manage journeys]** の上位権限を持つユーザーに制限されます。[!DNL Journey Optimizer] ユーザーのアクセス権の管理について詳しくは、[この節](../administration/permissions-overview.md)を参照してください。

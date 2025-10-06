@@ -11,9 +11,9 @@ keywords: ジャーニー, メッセージ, プッシュ, sms, メール, アプ
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
 source-git-commit: 8c3ff6c60f846af2cddc8c84507cd64fd457cbbb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '975'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -80,7 +80,7 @@ ht-degree: 97%
 
 **[!UICONTROL ビジネスルール]**&#x200B;ドロップダウンリストで、キャッピングルールをジャーニーアクションに適用するルールセットを選択します。
 
-チャネルルールセットを活用すると、通信タイプごとにフリークエンシーキャップを設定して、類似のメッセージを持つ顧客の過負荷を防ぐことができます。
+チャネルルールセットを活用すると、通信タイプ別のフリークエンシーキャップを設定し、類似したメッセージで顧客に過剰な負荷がかかるのを防ぐことができます。
 
 [ルールセットの操作方法について説明します。](../conflict-prioritization/rule-sets.md)
 

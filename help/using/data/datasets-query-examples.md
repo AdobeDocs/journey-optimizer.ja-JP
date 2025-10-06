@@ -10,9 +10,9 @@ level: Experienced
 keywords: データセット, Optimizer, ユースケース
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
 source-git-commit: 90b8f69f3849418eaec1b65b14e0362980c43e9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '958'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -241,7 +241,7 @@ group by
 
 
 
-このクエリは、プロファイル ID とメッセージフィードバックイベントデータセットを使用して、プロファイルへのメッセージの配信に関連付けられているジャーニー内のノード（nodeID および nodeName）を取得します。
+このクエリは、プロファイル ID とメッセージフィードバックイベントデータセットを使用して、プロファイルへのメッセージの配信に関連付けられているジャーニー内のノード（nodeID と nodeName 別）を取得します。
 
 ```sql
 select
@@ -268,7 +268,7 @@ group by
 
 また、一般的に使用されるいくつかの[ジャーニーステップイベントのクエリを実行する例](../reports/query-examples.md)も参照してください。
 
-[journey_step_events で破棄されたイベントタイプのトラブルシューティング &#x200B;](../reports/sharing-field-list.md#discarded-events) を行う方法を説明します。
+詳しくは、[journey_step_events で破棄されたイベントタイプのトラブルシューティング](../reports/sharing-field-list.md#discarded-events)を参照してください。
 
 ## 意思決定イベントデータセット{#ode-decisionevents}
 

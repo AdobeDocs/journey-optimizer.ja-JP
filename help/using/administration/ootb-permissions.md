@@ -10,9 +10,9 @@ level: Intermediate
 keywords: 権限, オーサリング, メッセージ
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
 source-git-commit: 2a5db6950ac82fd18deb2e4009c9a43247444d6a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '989'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 99%
 | IP ウォームアップ設定 | **[!DNL Manage IP warmup plans]**：IP ウォームアッププランを読み取り、作成、編集します。</br>**[!DNL View IP warmup plans]**：IP ウォームアッププランへの読み取り専用アクセス。</br>**[!DNL View IP warmup reports]**：IP ウォームアップレポートの読み取りおよび編集。 |
 | Journey Optimizer ライブラリ | **[!DNL Manage Library Items]**：[!DNL Journey Optimizer] ライブラリ内の保存済み式の追加、削除。</br>**[!DNL Simulate content]**：プレビューおよび配達確認用に「コンテンツをシミュレート」オプションへのアクセス。</br>**[!DNL Publish fragments]**：コンテンツフラグメントを公開します。 |
 | Journey Optimizer ルール | **[!DNL Manage frequency rules]**：メッセージ頻度ルールへのアクセス、作成、編集、削除。</br>**[!DNL View frequency rules]**：ルールへの読み取り専用アクセス。 |
-| ジャーニー | **[!DNL Approve & publish Journeys]**：ポリシーが適用された際にジャーニーを承認および公開する権限。</br> **[!DNL Manage journeys]**：ジャーニーの読み取り、作成、編集、一時停止、停止、削除。 ジャーニーにアクセスして管理するには、この権限を **[!DNL View journeys events, data sources and actions]** と組み合わせます。</br>**[!DNL Manage journeys events, data sources and actions]**：イベント、ソース、アクションの読み取り、作成、編集、削除。</br>**[!DNL Publish journeys]**：ジャーニーの公開。</br>**[!DNL View journeys]**：ジャーニーへの読み取り専用アクセス。</br>**[!DNL View journeys events, data sources and actions]**：ジャーニーイベント、ジャーニーカスタムアクション、ジャーニーデータソースへの読み取り専用アクセス。</br>**[!DNL View journeys report]**：ジャーニーレポートの読み取りと編集。</br> |
+| ジャーニー | **[!DNL Approve & publish Journeys]**：ポリシーが適用された際にジャーニーを承認および公開する権限。</br> **[!DNL Manage journeys]**：ジャーニーの読み取り、作成、編集、一時停止、停止、削除。ジャーニーにアクセスして管理するには、この権限を **[!DNL View journeys events, data sources and actions]** と組み合わせます。</br>**[!DNL Manage journeys events, data sources and actions]**：イベント、ソース、アクションの読み取り、作成、編集、削除。</br>**[!DNL Publish journeys]**：ジャーニーの公開。</br>**[!DNL View journeys]**：ジャーニーへの読み取り専用アクセス。</br>**[!DNL View journeys events, data sources and actions]**：ジャーニーイベント、ジャーニーカスタムアクション、ジャーニーデータソースへの読み取り専用アクセス。</br>**[!DNL View journeys report]**：ジャーニーレポートの読み取りと編集。</br> |
 | メッセージ | **[!DNL Manage messages]**：メッセージの読み取り、作成、編集、削除。</br>**[!DNL Manage messages preview and test]**：ポリシーが適用された際にメッセージを承認および公開する権限。</br>**[!DNL Publish messages]**：メッセージを公開する権限。</br>**[!DNL View messages]**：メッセージへの読み取り専用アクセス。</br>**[!DNL View messages report]**：メッセージレポートの読み取り、編集。 |
 | 調整されたキャンペーン | **[!DNL Manage orchestrated campaigns]**：調整されたキャンペーンの読み取り、作成、編集、削除。</br>**[!DNL Manage orchestrated campaigns admin]**：Adobe Experience Platform プロファイルとリレーショナルストアエンティティ間のリンクと紐付けの読み取り、作成、編集、削除。</br>**[!DNL Publish orchestrated campaigns]**：調整されたキャンペーンの公開。</br>**[!DNL View orchestrated campaigns admin]**：Adobe Experience Platform プロファイルとリレーショナルストアエンティティ間のリンクと紐付けの読み取り、編集。</br>**[!DNL View orchestrated campaigns]**：調整されたキャンペーンの読み取り、編集。</br>**[!DNL View orchestrated campaigns report]**：調整されたキャンペーンレポートの読み取り、編集。 |
 | プロファイル管理 | **[!DNL Evaluate a segment to an audience]**：セグメント定義を評価して、オーディエンスのプロファイルを生成します。</br>**[!DNL Export audience segments]**：評価済みのデータセットセグメントをオーディエンスセットにエクスポートします。</br>**[!DNL Manage merge policies]**：結合ポリシーの読み取り、作成、編集、削除。</br>**[!DNL Manage profiles]**：顧客プロファイルに使用するデータセットへの読み取り、作成、編集、削除。使用可能なプロファイルへの読み取り専用アクセス</br>**[!DNL View merge policies]**：使用可能な結合ポリシーへの読み取り専用アクセス。</br>**[!DNL View profiles]**：使用可能なプロファイルへの読み取り専用アクセス。</br>**[!DNL View segments]**：使用可能なオーディエンスへの読み取り専用アクセス。 |

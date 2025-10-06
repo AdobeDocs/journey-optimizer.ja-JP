@@ -11,7 +11,7 @@ keywords: ジャーニー, アクティビティ, 開始, イベント, アク�
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 version: Journey Orchestration
 source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '718'
 ht-degree: 100%
 
@@ -47,7 +47,7 @@ ht-degree: 100%
 * [オーディエンスを読み取り](read-audience.md)
 * [待機](wait-activity.md)
 * [コンテンツの決定](content-decision.md)
-* [データセットのルックアップ](dataset-lookup.md)
+* [データセットの参照](dataset-lookup.md)
 
 ![ジャーニー designer のオーケストレーションアクティビティパレット](assets/journey-orchestration-activities.png)
 

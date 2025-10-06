@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
 source-git-commit: 97c1d0f2e9f8100f70d5c4e40325abddc5e3dfbd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '601'
-ht-degree: 51%
+ht-degree: 100%
 
 ---
 
@@ -67,10 +67,10 @@ journeyStepEvent の場合、ID に関連するフィールドも追加する必
 | exportCountRealized | 整数 | ジョブを通じてエクスポートされたオーディエンスの実際の数 |
 | exportCountFailed | 整数 | ジョブを通じたエクスポート中に失敗したオーディエンスの数 |
 | exportSegmentID | 文字列 | エクスポートするオーディエンスの識別子 |
-| eventType | 文字列 | エラーイベントか情報イベントかを示すイベントタイプ：情報、エラー |
+| eventType | 文字列 | エラーイベントか情報イベントかを示すイベントタイプ：Info、Error |
 | eventCode | 文字列 | 対応する eventType の理由を示すエラーコード |
 
-eventTypes について詳しくは [&#x200B; この節 &#x200B;](#discarded-events) を参照してください。
+eventTypes について詳しくは、[この節](#discarded-events)を参照してください。
 
 ## stepEvents {#stepevents-field}
 
@@ -79,33 +79,33 @@ eventTypes について詳しくは [&#x200B; この節 &#x200B;](#discarded-eve
 
 ## ジャーニーステップイベントで破棄されたイベントタイプのトラブルシューティング  {#discarded-events}
 
-`eventCode = 'discard'` を含むレコードに対してジャーニーステップイベントのクエリを実行すると、複数の eventTypes が発生する場合があります。
+`eventCode = 'discard'` を使用してレコードのジャーニーステップイベントのクエリを実行すると、複数の eventTypes が発生する場合があります。
 
-最も頻繁な破棄 `eventTypes` ードの定義、一般的な原因、トラブルシューティング手順を次に示します。
+最も頻繁に破棄される `eventTypes` の定義、一般的な原因およびトラブルシューティング手順を以下に示します。
 
-* **EXTERNAL_KEY_COMPUTATION_ERROR**: システムは、イベントデータから顧客の一意の識別子（外部キー）を計算できませんでした。
-   * 一般的な原因：イベントペイロードに顧客識別子（メール、顧客 ID など）が見つからないか、形式が正しくありません。
-   * トラブルシューティング：必要な識別子についてイベント設定を確認し、イベントデータが完全で正しい形式であることを確認します。
-* **NO_INTERESTED_SEGMENTMEMBERSHIP_EVENT**：セグメントの選定ジャーニーを受信しましたが、このセグメントに応答するジャーニーが設定されていません。
-   * 一般的な原因：ジャーニーでセグメントをトリガーとして使用していないこと、ジャーニーがドラフト/停止状態であること、セグメント ID が一致していないこと。
-   * トラブルシューティング：少なくとも 1 つのジャーニーがライブで、セグメントに設定されていることを確認し、セグメント ID を検証します。
-* **CUSTOMER_INSTANCE_ID_NOT_CREATE**: ジャーニーのジャーニーインスタンスを作成できませんでした。
-   * 一般的な原因：重複イベント、大量のイベント、システムリソースの制約。
-   * トラブルシューティング：重複排除の実装、トラフィックスパイクの回避、ジャーニー設計の最適化、永続的な場合はサポートにお問い合わせください。
-* **EVENT_WITH_NO_event**:ジャーニーは受信されましたが、応答するアクティブなジャーニーが設定されていません。
-   * 一般的な原因：イベント名/ID の不一致、ジャーニーが公開されていない、間違ったサンドボックス/組織、テストモード/プロファイルの不一致。
-   * トラブルシューティング：イベントとジャーニー設定の検証、ジャーニーステータスの確認、デバッグツールの使用。
+* **EXTERNAL_KEY_COMPUTATION_ERROR**：システムでは、イベントデータから顧客の一意の ID（外部キー）を計算できませんでした。
+   * 一般的な原因：イベントペイロード内の顧客識別子（メール、顧客 ID など）が欠落しているか、形式が正しくありません。
+   * トラブルシューティング：必要な識別子のイベント設定を確認し、イベントデータが完全で正しい形式であることを確認します。
+* **NO_INTERESTED_JOURNEYS_FOR_SEGMENTMEMBERSHIP_EVENT**：セグメントの選定イベントを受信しましたが、このセグメントに応答するジャーニーが設定されていません。
+   * 一般的な原因：セグメントをトリガーとして使用するジャーニーがないか、ジャーニーがドラフト／停止状態であるか、セグメント ID が一致しません。
+   * トラブルシューティング：1 つ以上のジャーニーがライブで、セグメントに対して設定されていることを確認し、セグメント ID を検証します。
+* **JOURNEY_INSTANCE_ID_NOT_CREATE**：システムでは、顧客のジャーニーインスタンスを作成できませんでした。
+   * 一般的な原因：重複イベント、大量のイベント、システムリソースの制限。
+   * トラブルシューティング：重複排除を実装し、トラフィックスパイクを回避し、ジャーニーの設計を最適化します。問題が解決しない場合はサポートにお問い合わせください。
+* **EVENT_WITH_NO_JOURNEY**：イベントを受信しましたが、応答するアクティブなジャーニーが設定されていません。
+   * 一般的な原因：イベント名／ID の不一致、ジャーニーが公開されていない、間違ったサンドボックス／組織、テストモード／プロファイルの不一致。
+   * トラブルシューティング：イベントとジャーニーの設定を検証し、ジャーニーステータスを確認し、デバッグツールを使用します。
 
 一時停止したジャーニーで発生した破棄の場合：
 
-* **PAUSED_VERSION**：ジャーニーのエントリ時に発生したジャーニーを破棄します
-* **JOURNEY_IN_PAUSED_STATE**: プロファイルがジャーニーにあるときに発生したジャーニーを破棄します
+* **PAUSED_JOURNEY_VERSION**：ジャーニーのエントリ時に発生した破棄
+* **JOURNEY_IN_PAUSED_STATE**：プロファイルがジャーニー内にある際に発生した破棄
 
-これらのイベントの詳細とトラブルシューティング方法については、[ジャーニーの一時停止 &#x200B;](../building-journeys/journey-pause.md#troubleshoot-profile-discards-in-paused-journeys) の節を参照してください。
+これらのイベントとトラブルシューティング方法について詳しくは、[ジャーニーの一時停止の節](../building-journeys/journey-pause.md#troubleshoot-profile-discards-in-paused-journeys)を参照してください。
 
 ## その他のリソース
 
-* [&#x200B; データセットクエリサンプル - ジャーニーステップイベント &#x200B;](../data/datasets-query-examples.md#journey-step-event)。
-* [&#x200B; クエリの例 – イベントベースのクエリ &#x200B;](query-examples.md#event-based-queries)。
-* [&#x200B; ビルトインスキーマディクショナリ &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja)
+* [データセットクエリサンプル - ジャーニーステップイベント](../data/datasets-query-examples.md#journey-step-event)。
+* [クエリの例 - イベントベースのクエリ](query-examples.md#event-based-queries)。
+* [ビルトインスキーマ辞書](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja)
 

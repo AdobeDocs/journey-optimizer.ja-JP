@@ -6,9 +6,9 @@ description: 調整されたキャンペーンアクティビティの操作方�
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
 version: Campaign Orchestration
 source-git-commit: 4d5505cbb46bdff846218bfc3657c6a6e5447af3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '407'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -51,9 +51,9 @@ ht-degree: 92%
 
 ## チャネルアクティビティ {#channel}
 
-Adobe Journey Optimizer を使用すると、複数のチャネル間でマーケティングキャンペーンを自動化および実行できます。[&#x200B; チャネルアクティビティ &#x200B;](channels.md) をキャンバスに組み合わせて、顧客の行動に基づいてアクションをトリガーにできるクロスチャネルオーケストレートキャンペーンを作成できます。
+Adobe Journey Optimizer を使用すると、複数のチャネル間でマーケティングキャンペーンを自動化および実行できます。[チャネルアクティビティ](channels.md)をキャンバスに組み合わせて、顧客の行動に基づいてアクションをトリガーできるクロスチャネルのオーケストレーションキャンペーンを作成できます。
 
-[&#x200B; オーケストレートキャンペーンでチャネルアクションを作成する &#x200B;](channels.md) 方法を説明します。
+詳しくは、[オーケストレーションキャンペーンでのチャネルアクションの作成](channels.md)を参照してください。
 
 ## フロー制御アクティビティ {#flow-control}
 

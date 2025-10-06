@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journey Optimizer Experimentation Accelerator指標
+title: Journey Optimizer 実験アクセラレーターの指標
 description: 効果的に実験を行い、インサイトを生成する処理能力を向上させます
 feature: Experimentation
 topic: Content Management
@@ -10,9 +10,9 @@ level: Beginner
 keywords: コンテンツ, 実験, 複数, オーディエンス, 処理
 exl-id: 74868625-f4ea-44f9-ae2a-8e5fdd22a081
 source-git-commit: 61ae9196f699c3b6aa1d9a5bb2259d36aaebc0e3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '347'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 74%
 
 * **[!UICONTROL 合計]**：レポート期間中の選択した指標の累積値。
 
-* **[!UICONTROL 平均]**：選択した時間範囲で計算された指標の代表値。 毎日または毎週の変動のバランスを取ることで、通常のパフォーマンスをより明確に把握し、比較のベースラインとして使用できます。
+* **[!UICONTROL 平均]**：選択した時間範囲をまたいで計算された指標の標準値。毎日または毎週の変動のバランスを取ることで、通常のパフォーマンスをより明確に把握し、比較のベースラインとして使用できます。
 
 * **[!UICONTROL コンバージョン率]**：処理を確認した後に目的のアクション（例：購入、新規登録）を完了したプロファイルの割合。
 
@@ -58,4 +58,4 @@ ht-degree: 74%
 
 * **[!UICONTROL 信頼性]**：ある処理がベースライン処理と同じであることを示す証拠。[詳細情報](../content-management/experiment-calculations.md#understand-confidence)
 
-* **[!UICONTROL 貢献度]**：特定の実験または処理に起因する可能性のある指標の全体的な変化の割合。相対的な影響が最も大きいイニシアチブを特定できます。
+* **[!UICONTROL 貢献度]**：特定の実験または処理に起因する指標の全体的な変化の割合。これにより、相対的に最も大きな影響を与えているイニシアチブを特定できます。

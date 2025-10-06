@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journey Optimizer Experimentation Accelerator ベストプラクティス
+title: Journey Optimizer 実験アクセラレーターのベストプラクティス
 description: 効果的に実験を行い、インサイトを生成する処理能力を向上させます
 feature: Experimentation
 topic: Content Management
@@ -10,13 +10,13 @@ level: Beginner
 keywords: コンテンツ, 実験, 複数, オーディエンス, 処理
 exl-id: 001e05db-e343-4a95-9694-274a8c50d08c
 source-git-commit: 61ae9196f699c3b6aa1d9a5bb2259d36aaebc0e3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '742'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Journey Optimizer Experimentation Accelerator ベストプラクティス {#content-experiment-best-practices}
+# Journey Optimizer 実験アクセラレーターのベストプラクティス {#content-experiment-best-practices}
 
 ## A/B テストとは
 
@@ -87,11 +87,11 @@ A/B テストは、定義された目標に対してより優れたパフォー�
 良い実験は単に勝利を生み出すだけではなく、明確で実用的な学習を生み出します。
 検索対象は次のとおりです。
 
-&check; **統計的な信頼性**：バリアント間の違いが偶然によるものである可能性は低いです。
-&check; **目標との整合性**：プライマリ指標は、ビジネス目標に対する有意義な進捗を反映します。
-&check; **二次的影響**：関連する指標に重大な悪影響はありません。
-&check; **スケーラビリティ**：結果は、今後の決定を知らせたり、他の領域に一般化したりできます。
-&check; **明確さ**：結果の原因は、合理的に分離され、理解されています。
+&amp;check; **統計的な信頼性**：バリアント間の違いが偶然によるものである可能性は低いです。
+&amp;check; **目標との整合性**：プライマリ指標は、ビジネス目標に対する有意義な進捗を反映します。
+&amp;check; **二次的影響**：関連する指標に重大な悪影響はありません。
+&amp;check; **スケーラビリティ**：結果は、今後の決定を知らせたり、他の領域に一般化したりできます。
+&amp;check; **明確さ**：結果の原因は、合理的に分離され、理解されています。
 
 実験は、単に「最良」のバージョンを見つけることではなく、テストと反復を通じて知識を構築することです。適切に行うと、実験により、よりスマートな決定、より優れたユーザーエクスペリエンス、改善された成果につながるインサイトが得られます。
 

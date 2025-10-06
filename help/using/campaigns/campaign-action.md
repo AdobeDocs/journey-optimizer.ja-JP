@@ -11,9 +11,9 @@ mini-toc-levels: 1
 keywords: 作成, Optimizer, キャンペーン, サーフェス, メッセージ
 exl-id: fed96e48-2e54-4bd4-ae17-77434d1b90eb
 source-git-commit: 8c3ff6c60f846af2cddc8c84507cd64fd457cbbb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '815'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 97%
 
 +++**キャッピングルールの適用**（メール、ダイレクトメール、プッシュ、SMS）
 
-**[!UICONTROL ビジネスルール]**&#x200B;ドロップダウンリストで、キャッピングルールをキャンペーンに適用するルールセットを選択します。チャネルルールセットを活用すると、通信タイプごとにフリークエンシーキャップを設定して、類似のメッセージを持つ顧客の過負荷を防ぐことができます。 [詳しくは、ルールセットの操作方法を参照してください](../conflict-prioritization/rule-sets.md)。
+**[!UICONTROL ビジネスルール]**&#x200B;ドロップダウンリストで、キャッピングルールをキャンペーンに適用するルールセットを選択します。チャネルルールセットを活用すると、通信タイプ別のフリークエンシーキャップを設定し、類似したメッセージで顧客に過剰な負荷がかかるのを防ぐことができます。[詳しくは、ルールセットの操作方法を参照してください](../conflict-prioritization/rule-sets.md)。
 
 +++
 

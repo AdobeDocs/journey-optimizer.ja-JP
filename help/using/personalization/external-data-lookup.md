@@ -10,9 +10,9 @@ hidefromtoc: true
 badge: label="限定提供" type="Informative"
 exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
 source-git-commit: 2a5db6950ac82fd18deb2e4009c9a43247444d6a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1202'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -172,7 +172,7 @@ First video description: <b>result.videos[0].description</b>
 
 ### タイムアウトとエラー処理
 
-Adobe Experience Platform Edge Networkの低遅延、高スループットのパフォーマンス特性を維持するために、外部エンドポイントを呼び出す際に [!DNL Journey Optimizer] では厳密なタイムアウトを使用します。
+[!DNL Journey Optimizer] では、Adobe Experience Platform Edge Network の低い待ち時間、高スループットのパフォーマンス特性を維持するのに、外部エンドポイントを呼び出す際に厳密なタイムアウトを使用します。
 
 エンドポイントがタイムアウトした場合や、エンドポイントに到達する際に他の種類のエラーが発生した場合、結果変数は空になります。この場合、結果変数内の属性への参照も空になります。コンテンツに属性を単に表示している場合は、空白として表示されます。結果内の配列属性をループしようとする場合は、項目は返されません。
 
@@ -198,7 +198,7 @@ First video description: {%=result.videos[0].description ?: "none found" %}
 
 ### デバッグ
 
-デバッグに役立つように、Adobe Experience Platform AssuranceのEdge Delivery ビューに、外部データ検索のタイムアウトとエラーの詳細が含まれています。 インバウンドアクションで externalDataLookup ヘルパーに期待どおりの結果が表示されない場合は、Assurance セッションを開始し、web またはモバイル実装から [!DNL Journey Optimizer] 呼び出しを開始し、Edge Delivery ビューを使用してタイムアウトまたはエラーの詳細を確認できます。
+デバッグに役立つように、Adobe Experience Platform Assurance の Edge Delivery ビューには、外部データ参照のタイムアウトとエラーの詳細が含まれます。インバウンドアクションで externalDataLookup ヘルパーに期待どおりの結果が表示されない場合は、Assurance セッションを開始し、web またはモバイル実装から [!DNL Journey Optimizer] 呼び出しを開始し、Edge Delivery ビューを使用してタイムアウトまたはエラーの詳細を確認できます。
 
 例：
 

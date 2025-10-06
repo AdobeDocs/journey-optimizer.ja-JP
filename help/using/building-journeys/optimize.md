@@ -12,9 +12,9 @@ badge: label="限定提供" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
 source-git-commit: c472ce00623b810dea60dd5d9e34ca4d516447ad
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1298'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 96%
 
 1. 「**[!UICONTROL 実験を作成]**」をクリックします。
 
-1. 実験に設定する **[!UICONTROL 成功指標]** を選択します。 使用可能な指標とリストの設定方法について詳しくは、[&#x200B; この節 &#x200B;](success-metrics.md) を参照してください。
+1. 実験に設定する&#x200B;**[!UICONTROL 成功指標]**&#x200B;を選択します。使用可能な指標とリストの設定方法について詳しくは、[この節](success-metrics.md)を参照してください。
 
    <!--Need to have the list of all default metrics + a description for each.
     Explain why the metric selection is important.
@@ -125,7 +125,7 @@ ht-degree: 96%
 
 ジャーニーがライブになると、ユーザーには異なるパスを進むようにランダムに割り当てられます。[!DNL Journey Optimizer] は、最もパフォーマンスが高いパスを追跡し、実用的なインサイトを提供します。
 
-ジャーニーパス実験レポートを使用して、ジャーニーの成功を追跡します。 [詳細情報](../reports/journey-global-report-cja-experimentation.md)
+ジャーニーパス実験レポートを使用して、ジャーニーの成功を追跡します。[詳細情報](../reports/journey-global-report-cja-experimentation.md)
 
 ### 実験のユースケース {#uc-experiment}
 
@@ -224,7 +224,7 @@ ht-degree: 96%
 
 ジャーニーがライブになると、各セグメントに指定したパスが処理され、ゴールドメンバーはメールオファーを含むパスにエントリし、他のメンバーは SMS リマインダーを含むパスにエントリするようになります。
 
-ジャーニーレポートを使用して、ジャーニーが成功したかどうかを追跡します。 [詳細情報](../reports/journey-global-report-cja.md#targeting)
+ジャーニーレポートを使用して、ジャーニーの成功を追跡します。[詳細情報](../reports/journey-global-report-cja.md#targeting)
 
 ### ターゲティングルールのユースケース {#uc-targeting}
 

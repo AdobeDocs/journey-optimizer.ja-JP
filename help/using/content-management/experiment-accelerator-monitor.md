@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journey Optimizer Experimentation Accelerator モニター
+title: Journey Optimizer 実験アクセラレーターの監視
 description: 効果的に実験を行い、インサイトを生成する処理能力を向上させます
 feature: Experimentation
 topic: Content Management
@@ -10,9 +10,9 @@ level: Beginner
 keywords: コンテンツ, 実験, 複数, オーディエンス, 処理
 exl-id: 40a57083-d7b1-416b-af87-4b603b83052d
 source-git-commit: 61ae9196f699c3b6aa1d9a5bb2259d36aaebc0e3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1095'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -124,11 +124,11 @@ ht-degree: 94%
 
    ![](assets/experiment-monitor-opportunities.png)
 
-1. 商談を選択すると、**商談の詳細** ウィンドウが開きます。このウィンドウには、Journey Optimizer Experimentation Acceleratorによって提案された具体的な処理やバリエーションの概要が表示されます。 この表示には、以下が含まれます。
+1. 機会を選択すると、**機会の詳細**&#x200B;ウィンドウが開き、Journey Optimizer 実験アクセラレーターにより提案された特定の処理やバリエーションの概要が表示されます。この表示には、以下が含まれます。
 
    * **[!UICONTROL 仮説]**：提案された処理の予想される結果を説明する AI 生成の仮説。
 
-   * **[!UICONTROL 根拠]**:Journey Optimizer Experimentation Acceleratorがこの機会を提案した理由の説明。
+   * **[!UICONTROL 論理的根拠]**：Journey Optimizer 実験アクセラレーターがこの機会を提案した理由の説明。
 
    * **[!UICONTROL 機会評価]**：以下に基づいたレコメンデーションの二重評価。
 
@@ -149,7 +149,7 @@ ht-degree: 94%
 
    ➡️ [詳しくは、Adobe Target ドキュメントを参照してください。](https://experienceleague.adobe.com/ja/docs/target/using/activities/abtest/test-ab)
 
-1. 実験ビューでは、Journey Optimizer Experimentation Acceleratorで表示されるのと同じ AI **[!UICONTROL 実験の機会]** にアクセスできます。
+1. 実験ビュー内では、Journey Optimizer 実験アクセラレーターにより表示されたものと同じ AI **[!UICONTROL 実験機会]**&#x200B;にアクセスできます。
 
    「**[!UICONTROL 表示]**」を選択して、機会の詳細を開きます。
 
