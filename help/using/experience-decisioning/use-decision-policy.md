@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 mini-toc-levels: 1
-source-git-commit: fc741db8db2ca9c05dbb87a41712e90a62a18c13
+source-git-commit: 5c8afc78e14a358b2d6baebfca7dbb76991894c8
 workflow-type: tm+mt
-source-wordcount: '866'
-ht-degree: 65%
+source-wordcount: '936'
+ht-degree: 64%
 
 ---
 
@@ -19,29 +19,39 @@ ht-degree: 65%
 
 ## 決定ポリシーコードの挿入 {#insert-code}
 
-1. パーソナライゼーションエディターを開き、**[!UICONTROL 決定ポリシー]**&#x200B;メニューにアクセスします。
+>[!BEGINTABS]
 
-1. **[!UICONTROL ポリシーを挿入]** （コードベースのエクスペリエンス）または **[!UICONTROL 構文を挿入]** （メール）を選択して、決定ポリシーに対応するコードを追加します。
+>[!TAB コードベースのエクスペリエンス]
 
-   +++メールでの決定ポリシーコードの挿入
+1. パーソナライゼーションエディターを開き、**[!UICONTROL 決定ポリシー]** メニューにアクセスします。
 
-   ![](assets/decision-policy-add.png)
-
-   メールの場合、コンポーネントに事前に関連付けられたプレースメントがない場合は、リストから 1 つ選択して「**[!UICONTROL 割り当て]**」をクリックします。
-
-   ![](assets/decision-policy-placement.png)
-
-   +++
-
-   +++コードベースのエクスペリエンスでの決定ポリシーコードの挿入
+1. 「**[!UICONTROL ポリシーを挿入]**」を選択して、決定ポリシーに対応するコードを追加します。
 
    ![](assets/decision-code-based-add-decision.png)
-
-   +++
 
    >[!NOTE]
    >
    >コード挿入ボタンが表示されない場合は、親コンポーネントに対して決定ポリシーが既に設定されていることがあります。
+
+1. 決定ポリシーのコードが追加されます。このシーケンスは、決定ポリシーを返して欲しい回数だけ繰り返します。例えば、[決定を作成する](#add-decision)際に、2 つの項目を返すように選択した場合、同じシーケンスが 2 回繰り返されます。
+
+>[!TAB メール]
+
+1. パーソナライゼーションエディターを開き、**[!UICONTROL 決定ポリシー]**&#x200B;メニューにアクセスします。
+
+1. 「**[!UICONTROL 構文を挿入]**」を選択して、決定ポリシーに対応するコードを追加します。
+
+   ![](assets/decision-policy-add.png)
+
+   >[!NOTE]
+   >
+   >コード挿入ボタンが表示されない場合は、親コンポーネントに対して決定ポリシーが既に設定されていることがあります。
+
+1. 構成部品にあらかじめプレースメントが関連付けられていない場合は、リストからプレースメントを 1 つ選択し、「**[!UICONTROL 割り当て]**」をクリックします。
+
+   ![](assets/decision-policy-placement.png)
+
+>[!ENDTABS]
 
 1. 決定ポリシーのコードが追加されます。このシーケンスは、決定ポリシーを返して欲しい回数だけ繰り返します。例えば、[決定を作成する](#add-decision)際に、2 つの項目を返すように選択した場合、同じシーケンスが 2 回繰り返されます。
 
@@ -54,7 +64,7 @@ ht-degree: 65%
 >[!NOTE]
 >
 >決定ポリシー項目のトラッキングの場合、決定ポリシーのコンテンツに対して、`trackingToken` 属性を次のように追加する必要があります。
->&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 属性を追加するには、横にある「+」アイコンをクリックします。 必要な数の属性をコードに追加できます。
 
