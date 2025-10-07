@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: be07b0dfec31d23f741bfc2a9f89fe1a7891ef0b
+source-git-commit: 7896dc3450f499e0889f6e32df5958ae9868d9e6
 workflow-type: tm+mt
-source-wordcount: '2954'
+source-wordcount: '2969'
 ht-degree: 99%
 
 ---
@@ -700,7 +700,10 @@ ht-degree: 99%
          + [コンテキストデータの活用](using/experience-decisioning/context-data.md)
          + [決定の Adobe Experience Platform の使用](using/experience-decisioning/aep-data-exd.md)
       + [選択戦略の作成](using/experience-decisioning/selection-strategies.md)
-      + [決定ポリシーを作成](using/experience-decisioning/create-decision.md)
+      + 決定ポリシーを使用したオファーの配信 {#decision-policies}
+         + [決定ポリシーの基本を学ぶ](using/experience-decisioning/create-decision.md)
+         + [決定ポリシーを作成](using/experience-decisioning/create-decision-policy.md)
+         + [メッセージでの決定ポリシーの使用](using/experience-decisioning/use-decision-policy.md)
       + [決定に関するレポート](using/experience-decisioning/cja-reporting.md)
       + [決定のユースケース](using/experience-decisioning/experience-decisioning-uc.md)
       + イベントデータの収集 {#experience-decisioning-collect-event-data}
@@ -966,7 +969,7 @@ ht-degree: 99%
    + [プライバシー](/help/rp_landing_pages/privacy-landing-page.md)
    + [プライバシーの基本を学ぶ](using/privacy/get-started-privacy.md)
    + [プライバシーリクエスト](using/privacy/requests.md)
-   + [&#x200B; リソースに対する監査アクション](using/privacy/audit-logs.md)
+   + [ リソースに対する監査アクション](using/privacy/audit-logs.md)
    + [データライフサイクル操作の実行](using/privacy/data-hygiene.md)
    + 同意を管理 {#consent}
       + [同意を管理](/help/rp_landing_pages/consent-landing-page.md)
