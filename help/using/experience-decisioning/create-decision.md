@@ -82,4 +82,4 @@ ht-degree: 79%
 
 これで、決定ポリシーの仕組みと、パーソナライズされたオファーの配信に決定ポリシーがどのように役立つかを理解できたので、最初の決定ポリシーを作成する準備が整いました。
 
-➡️[ 決定ポリシーの作成方法を説明します ](../experience-decisioning/create-decision-policy.md)
+➡️[&#x200B; 決定ポリシーの作成方法を説明します &#x200B;](../experience-decisioning/create-decision-policy.md)
