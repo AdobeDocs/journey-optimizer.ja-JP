@@ -5,10 +5,10 @@ title: 設定の手順
 description: DDL をアップロードして Adobe Experience Platform 内でモデルベースのスキーマを作成する方法について説明します。
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: e189bb6a52691770655a436e45c6788d1011a8ca
+source-git-commit: d910abc164a713c7d8634cdd11cc4cd8b42be398
 workflow-type: tm+mt
-source-wordcount: '1080'
-ht-degree: 94%
+source-wordcount: '1058'
+ht-degree: 93%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 94%
 
 1. サポートされているソースからデータセットに[データを取得](ingest-data.md)します。
 
-➡️ [&#x200B; モデルベースのスキーマについて詳しくは、Adobe Experience Platform ドキュメントを参照してください &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/schema/model-based)
+➡️ [ モデルベースのスキーマについて詳しくは、Adobe Experience Platform ドキュメントを参照してください ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/model-based)
 
 ## DDL ファイルのアップロード{#ddl-upload}
 
@@ -57,9 +57,6 @@ Excel ベースのスキーマファイルのアップロードがサポート�
 
 * **データガバナンスのスキーマラベル**\
   アクセス制御や使用制限などのデータガバナンスポリシーの適用に、スキーマフィールドレベルでラベル付けがサポートされています。詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja)を参照してください。
-
-* **複合キー**\
-  複合プライマリキーは、モデルベースのスキーマ定義でサポートされるので、複数のフィールドと共に使用してレコードを一意に識別できます。
 
 +++
 
