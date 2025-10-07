@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
-source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
+source-git-commit: 3cb16d48c8f478643e8c9891e4fd8c0c3b18f2c5
 workflow-type: tm+mt
 source-wordcount: '1428'
 ht-degree: 100%
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 フラグメントを管理するには、左側のメニューの&#x200B;**[!UICONTROL コンテンツ管理]**／**[!UICONTROL フラグメント]**&#x200B;からフラグメントリストにアクセスします。
 
-現在のサンドボックスで作成されたすべてのフラグメント（[**[!UICONTROL フラグメント]**&#x200B;メニューから](#create-fragments)か、「[フラグメントとして保存](#save-as-fragment)」オプションを使用して）が表示されます。
+現在のサンドボックスで作成されたすべてのフラグメント（[**[!UICONTROL フラグメント]**&#x200B;メニューから](create-fragments.md#create-fragments)か、「[フラグメントとして保存](save-fragments.md)」オプションを使用して）が表示されます。
 
 左側のパネルでは、フラグメントをフォルダーに整理できます。デフォルトでは、すべてのフラグメントが表示されます。フォルダーを選択すると、選択したフォルダーに含まれるフラグメントとフォルダーのみが表示されます。[詳細情報](#folders)
 

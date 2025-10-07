@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 mini-toc-levels: 1
-source-git-commit: 5c8afc78e14a358b2d6baebfca7dbb76991894c8
+source-git-commit: 2960ed9c9f7a65cbd7122424c2438a461ee8beab
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 64%
+source-wordcount: '937'
+ht-degree: 61%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 64%
 
 >[!ENDTABS]
 
-1. 決定ポリシーのコードが追加されます。このシーケンスは、決定ポリシーを返して欲しい回数だけ繰り返します。例えば、[決定を作成する](#add-decision)際に、2 つの項目を返すように選択した場合、同じシーケンスが 2 回繰り返されます。
+決定ポリシーのコードが追加されると、このシーケンスは、決定ポリシーを返す回数だけ繰り返されます。 例えば、[決定を作成する](#add-decision)際に、2 つの項目を返すように選択した場合、同じシーケンスが 2 回繰り返されます。
 
 ## 決定項目の属性の活用 {#attributes}
 
@@ -64,7 +64,7 @@ ht-degree: 64%
 >[!NOTE]
 >
 >決定ポリシー項目のトラッキングの場合、決定ポリシーのコンテンツに対して、`trackingToken` 属性を次のように追加する必要があります。
->&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 属性を追加するには、横にある「+」アイコンをクリックします。 必要な数の属性をコードに追加できます。
 
