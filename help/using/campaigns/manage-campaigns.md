@@ -10,33 +10,14 @@ mini-toc-levels: 1
 level: Beginner
 keywords: キャンペーンの管理, ステータス, スケジュール, アクセス, Optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 1215c7c2de090db7bcdb7943cc96599d9809972d
+source-git-commit: 801b90201c3ffcbfb7b038abac2bf99209a14c7a
 workflow-type: tm+mt
-source-wordcount: '1863'
+source-wordcount: '1709'
 ht-degree: 100%
 
 ---
 
 # キャンペーンへのアクセスと管理 {#manage-campaigns}
-
-キャンペーンを開始する前に、[この節](get-started-with-campaigns.md#permissions)に記載されている次の前提条件を確認してください。これらの前提条件が満たされたら、キャンペーンの作成を開始できます。
-
-* **キャンペーンへのアクセス**。[キャンペーンリスト](#access)または[キャンペーンカレンダー](#calendar)からキャンペーンにアクセスできます。
-
-* **キャンペーンを作成**&#x200B;します。作成手順は、[キャンペーンのタイプ](get-started-with-campaigns.md#get-started-with-campaigns)によって異なります。詳しくは、[アクションキャンペーン](../campaigns/create-campaign.md)、[API トリガーキャンペーン](../campaigns/api-triggered-campaigns.md)または[オーケストレーションキャンペーン](../orchestrated/create-orchestrated-campaign.md)を作成する方法を参照してください。
-
-* **キャンペーンのプロパティを定義**&#x200B;します。詳しくは、[アクションキャンペーン](../campaigns/campaign-properties.md)、[API トリガーキャンペーン](../campaigns/api-triggered-campaign-properties.md)または[オーケストレーションキャンペーン](../orchestrated/create-orchestrated-campaign.md)のプロパティを設定する方法を参照してください。
-
-* **キャンペーンチャネルとコンテンツを定義**&#x200B;します。詳しくは、[アクションキャンペーン](../campaigns/campaign-content.md)、[API トリガーキャンペーン](../campaigns/api-triggered-campaign-content.md)または[オーケストレーションキャンペーン](../orchestrated/orchestrate-activities.md)のコンテンツを定義する方法を参照してください。
-
-* **キャンペーンのスケジュール** - スケジュール済みキャンペーンは、[キャンペーンカレンダー](#calendar)で確認できます。
-
-次に、キャンペーンを実行する前に、テストを開始し、改善と調整を行います。キャンペーンが公開されたら、キャンペーンを監視して、レポートにアクセスできます。
-
-すべてのキャンペーンのステータスとアラートについて詳しくは、[この節](#statuses)を参照してください。
-
-
-## キャンペーンへのアクセス {#access}
 
 >[!CONTEXTUALHELP]
 >id="ajo_targeting_workflow_list"

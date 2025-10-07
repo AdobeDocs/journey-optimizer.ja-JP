@@ -9,9 +9,9 @@ role: Developer
 level: Experienced
 keywords: キャンペーン, API トリガー, REST, Optimizer, メッセージ
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: d4765f9084efac1fd241404dff365a66027ce5af
+source-git-commit: 801b90201c3ffcbfb7b038abac2bf99209a14c7a
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '275'
 ht-degree: 100%
 
 ---
@@ -43,6 +43,8 @@ API トリガー型キャンペーンで使用できるチャネルは、メー�
 
 ## API トリガーキャンペーン作成の主な手順 {#steps}
 
+キャンペーンを開始する前に、[この節](get-started-with-campaigns.md#permissions)に記載されている次の前提条件を確認してください。これらの前提条件が満たされたら、キャンペーンの作成を開始できます。
+
 1. [キャンペーンのプロパティの定義](api-triggered-campaign-properties.md)
 1. [キャンペーンアクションの設定](api-triggered-campaign-action.md)
 1. [キャンペーンコンテンツの編集](api-triggered-campaign-content.md)
@@ -51,12 +53,8 @@ API トリガー型キャンペーンで使用できるチャネルは、メー�
 1. [キャンペーンのレビューとアクティブ化](review-activate-api-triggered-campaign.md)
 1. [キャンペーン実行のトリガー](trigger-campaigns.md)
 
->[!IMPORTANT]
->
->キャンペーンを作成する前に、一般的な[キャンペーンの前提条件](../campaigns/get-started-with-campaigns.md#prerequisites)を確認します。
-
 ## チュートリアルビデオ {#video}
 
 Interactive Message Execution REST API を使用して、キャンペーンを作成し、ユーザーインタラクションに基づいて外部システムからキャンペーンをトリガーする方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452726?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)

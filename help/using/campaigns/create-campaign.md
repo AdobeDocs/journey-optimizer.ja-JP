@@ -10,9 +10,9 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 作成, Optimizer, キャンペーン, サーフェス, メッセージ
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 8701afe345f0eeed1503e4765d4715398823b102
+source-git-commit: 801b90201c3ffcbfb7b038abac2bf99209a14c7a
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '189'
 ht-degree: 100%
 
 ---
@@ -40,6 +40,8 @@ ht-degree: 100%
 
 ## アクションキャンペーン作成の主な手順 {#steps}
 
+キャンペーンを開始する前に、[この節](get-started-with-campaigns.md#permissions)に記載されている次の前提条件を確認してください。これらの前提条件が満たされたら、キャンペーンの作成を開始できます。
+
 1. [アクションキャンペーンのプロパティの定義](campaign-properties.md)
 1. [キャンペーンアクションの設定](campaign-action.md)
 1. [アクションキャンペーンコンテンツの編集](campaign-content.md)
@@ -47,12 +49,8 @@ ht-degree: 100%
 1. [アクションキャンペーンのスケジュール](campaign-schedule.md)
 1. [アクションキャンペーンのレビューとアクティブ化](review-activate-campaign.md)
 
->[!IMPORTANT]
->
->キャンペーンを作成する前に、一般的な[キャンペーンの前提条件](../campaigns/get-started-with-campaigns.md#prerequisites)を確認します。
-
 ## チュートリアルビデオ {#video}
 
 アクションキャンペーンの作成方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3412405?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)
