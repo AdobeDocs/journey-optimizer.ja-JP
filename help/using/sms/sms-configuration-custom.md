@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 1d869ee8bf1c76e182a3f6b0433e5ab2eec2a8fb
+source-git-commit: 21eebaaa0193164ac70dd819b25ad6547446397f
 workflow-type: tm+mt
-source-wordcount: '1357'
-ht-degree: 88%
+source-wordcount: '1355'
+ht-degree: 86%
 
 ---
 
@@ -173,7 +173,7 @@ API 資格情報を作成したら、JWT 認証に必要なフィールドに入
 
 >[!ENDSHADEBOX]
 
-API 資格情報が正常に作成されたら、次の手順では Webhook を作成し、インバウンド設定を指定します。この設定により、システムが受信データまたはメッセージを適切に受信して処理できます。
+API 資格情報が正常に作成されたら、Webhook を設定して、オプトインおよびオプトアウトの同意を管理するためのインバウンド応答をキャプチャし、利用可能な場合は開封確認メッセージなどの配信レポートを受信できるようになりました。
 
 Webhook を設定する際に、取得するデータのタイプに基づいて目的を定義できます。
 
@@ -197,7 +197,7 @@ Webhook を設定する際に、取得するデータのタイプに基づいて
 
    * **[!UICONTROL タイプ]**：インバウンド。
 
-   * **[!UICONTROL API 資格情報]**:（以前に設定した API 資格情報 [&#x200B; ドロップダウンから選択 &#x200B;](#api-credential) ます。
+   * **[!UICONTROL API 資格情報]**:（以前に設定した API 資格情報 [ ドロップダウンから選択 ](#api-credential) ます。
 
    * **[!UICONTROL 送信者電話番号&#x200B;]**：コミュニケーションに使用する&#x200B;送信者の電話番号を入力します。
 
