@@ -34,7 +34,7 @@ ht-degree: 89%
 
 1. [パーソナライゼーションエディター](personalization-build-expressions.md)を開き、左側のパネルで「**[!UICONTROL フラグメント]**」ボタンを選択します。
 
-   リストには、現在のサンドボックスで作成またはフラグメントとして保存されたすべての式フラグメントが表示されます。[ フラグメントの作成方法を学ぶ ](../content-management/create-fragments.md)
+   リストには、現在のサンドボックスで作成またはフラグメントとして保存されたすべての式フラグメントが表示されます。[&#x200B; フラグメントの作成方法を学ぶ &#x200B;](../content-management/create-fragments.md)
 作成日で並べ替えられ、最近追加された式のフラグメントがリストの最初に表示されます。
 
    ![](assets/expression-fragments-pane.png)
