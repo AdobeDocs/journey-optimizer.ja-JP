@@ -5,7 +5,7 @@ feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
-source-git-commit: 7896dc3450f499e0889f6e32df5958ae9868d9e6
+source-git-commit: fc741db8db2ca9c05dbb87a41712e90a62a18c13
 workflow-type: tm+mt
 source-wordcount: '1644'
 ht-degree: 73%
@@ -39,7 +39,7 @@ ht-degree: 73%
 
 ## 決定ポリシーの追加 {#add}
 
-1. ジャーニーまたはキャンペーンを開き、[&#x200B; チャネルアクション &#x200B;](../building-journeys/journeys-message.md) を選択して、メッセージのコンテンツを編集します。
+1. ジャーニーまたはキャンペーンを開き、[ チャネルアクション ](../building-journeys/journeys-message.md) を選択して、メッセージのコンテンツを編集します。
 
 1. メールの場合は、「**[!UICONTROL 決定を有効にする]** オプションを切り替えます。
 
@@ -233,4 +233,5 @@ ht-degree: 73%
 
 これで、決定ポリシーの作成方法を理解できたので、その決定ポリシーをオファーの配信チャネルに使用する準備 [!DNL Journey Optimizer] 整いました。
 
-➡️[&#x200B; メッセージでの決定ポリシーの使用方法を学ぶ &#x200B;](../experience-decisioning/use-decision-policy.md)
+➡️[ メッセージでの決定ポリシーの使用方法を学ぶ ](../experience-decisioning/use-decision-policy.md)
+

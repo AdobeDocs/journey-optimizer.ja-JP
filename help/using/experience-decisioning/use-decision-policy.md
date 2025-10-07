@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Experienced
 mini-toc-levels: 1
-source-git-commit: 7896dc3450f499e0889f6e32df5958ae9868d9e6
+source-git-commit: fc741db8db2ca9c05dbb87a41712e90a62a18c13
 workflow-type: tm+mt
 source-wordcount: '866'
 ht-degree: 65%
@@ -54,7 +54,7 @@ ht-degree: 65%
 >[!NOTE]
 >
 >決定ポリシー項目のトラッキングの場合、決定ポリシーのコンテンツに対して、`trackingToken` 属性を次のように追加する必要があります。
->&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 属性を追加するには、横にある「+」アイコンをクリックします。 必要な数の属性をコードに追加できます。
 
@@ -167,3 +167,4 @@ ht-degree: 65%
 >現在、決定を使用して、[コードベースのエクスペリエンス](../code-based/create-code-based.md)キャンペーンまたはジャーニーのユーザーインターフェイスのコンテンツをシミュレートすることはできません。回避策について詳しくは、[この節](../code-based/code-based-decisioning-implementations.md)を参照してください。
 
 決定のパフォーマンスを確認するために、カスタムの [Customer Journey Analytics レポートダッシュボード](cja-reporting.md)を作成できます。
+

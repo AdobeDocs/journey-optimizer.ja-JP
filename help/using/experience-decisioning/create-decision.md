@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
-source-git-commit: 7896dc3450f499e0889f6e32df5958ae9868d9e6
+source-git-commit: fc741db8db2ca9c05dbb87a41712e90a62a18c13
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 79%
@@ -82,4 +82,5 @@ ht-degree: 79%
 
 これで、決定ポリシーの仕組みと、パーソナライズされたオファーの配信に決定ポリシーがどのように役立つかを理解できたので、最初の決定ポリシーを作成する準備が整いました。
 
-➡️[&#x200B; 決定ポリシーの作成方法を説明します &#x200B;](../experience-decisioning/create-decision-policy.md)
+➡️[ 決定ポリシーの作成方法を説明します ](../experience-decisioning/create-decision-policy.md)
+
