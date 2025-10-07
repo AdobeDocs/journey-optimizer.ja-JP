@@ -19,7 +19,7 @@ ht-degree: 98%
 >id="ajo_exd_config_strategies"
 >title="選択戦略の定義"
 >abstract="選択戦略は、再利用可能で、実施要件の制約およびランキング方法に関連付けられたコレクションで構成され、決定ポリシーが選択されている場合に表示されるオファーを決定します。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-policies/create-decision" text="決定ポリシーの作成&quot;—>"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-policies/create-decision" text="決定ポリシーの作成&quot;—>
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_strategy_eligibility"
@@ -88,7 +88,7 @@ ht-degree: 98%
 >id="ajo_exd_strategy_ranking"
 >title="オファーのランク付け方法の定義"
 >abstract="特定の選択戦略に対して実施要件を満たすオファーが複数ある場合、選択戦略（優先度またはランキング式）を作成する際に各プロファイルに最適なオファーを選択する方法を選べます。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-policies/create-decision.html" text="決定ポリシーの作成&quot;—>"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-policies/create-decision.html" text="決定ポリシーの作成&quot;—>
 
 特定の選択戦略に対して実施要件を満たすオファーが複数ある場合、選択戦略を作成する際に各プロファイルに最適なオファーを選択する方法を選べます。オファーのランク付けは、次の基準で行えます。
 
