@@ -30,7 +30,7 @@ ht-degree: 99%
 >
 >このページでは、[!DNL Journey Optimizer] でデザインしたメールやランディングページを障害のある人物が読み、理解し、操作できるように、すべての受信者がコンテンツにアクセスできるようにする方法について説明します。
 >
->一方、[!DNL Journey Optimizer] インターフェイス自体のアクセシビリティについては、[ この節 ](../start/accessibility.md) で詳しく説明します。
+>一方、[!DNL Journey Optimizer] インターフェイス自体のアクセシビリティについては、[&#x200B; この節 &#x200B;](../start/accessibility.md) で詳しく説明します。
 
 ## テキストの読みやすさの確保 {#text-readability}
 
