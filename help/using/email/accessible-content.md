@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: メール, デザイン, アクセシビリティ
 exl-id: 78011ec0-a3b6-4d4e-ab4b-9da032c283a2
-source-git-commit: 45ebae048a748429a1918326526f3756a3e93c4c
+source-git-commit: dc7b24223bd32a75b87946733a6b098811e007d9
 workflow-type: tm+mt
 source-wordcount: '1610'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 >
 >このページでは、[!DNL Journey Optimizer] でデザインしたメールやランディングページを障害のある人物が読み、理解し、操作できるように、すべての受信者がコンテンツにアクセスできるようにする方法について説明します。
 >
->一方、[!DNL Journey Optimizer] インターフェイス自体のアクセシビリティについて詳しくは、[この節](../start/accessibility.md)を参照してください。
+>一方、[!DNL Journey Optimizer] インターフェイス自体のアクセシビリティについては、[ この節 ](../start/accessibility.md) で詳しく説明します。
 
 ## テキストの読みやすさの確保 {#text-readability}
 
