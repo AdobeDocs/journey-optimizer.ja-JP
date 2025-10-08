@@ -5,10 +5,10 @@ title: 設定の手順
 description: DDL をアップロードして Adobe Experience Platform 内でモデルベースのスキーマを作成する方法について説明します。
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: fc741db8db2ca9c05dbb87a41712e90a62a18c13
+source-git-commit: a9b790bc833b5819862bf2f3284968d81f595f28
 workflow-type: tm+mt
-source-wordcount: '1058'
-ht-degree: 93%
+source-wordcount: '1084'
+ht-degree: 91%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 93%
 
 1. サポートされているソースからデータセットに[データを取得](ingest-data.md)します。
 
-➡️ [&#x200B; モデルベースのスキーマについて詳しくは、Adobe Experience Platform ドキュメントを参照してください &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/schema/model-based)
+➡️ [ モデルベースのスキーマについて詳しくは、Adobe Experience Platform ドキュメントを参照してください ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/model-based)
 
 ## DDL ファイルのアップロード{#ddl-upload}
 
@@ -149,6 +149,10 @@ Excel ベースのスキーマファイルのアップロードがサポート�
    * **自動レイアウトを適用**：スキーマを自動的に整理して、より適切に整理します。
 
    * **マップを表示**：ミニマップオーバーレイを切り替えると、大規模スキーマレイアウトや複雑なスキーマレイアウトをより簡単に移動できます。
+
+   * **すべて展開/すべて折りたたむ**：すべてのスキーマノードをすばやく展開または折りたたんで、属性を表示または非表示にします。
+
+   * **ダウンロード**:ER 図を.png ファイルとしてダウンロードします。
 
 1. 完了したら、「**保存**」をクリックします。このアクションにより、スキーマと関連するデータセットが作成され、データセットを調整されたキャンペーンで使用できます。
 

@@ -5,10 +5,10 @@ title: 調整されたキャンペーンのガードレールと制限
 description: 調整されたキャンペーンのガードレールと制限について説明します
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
-source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
-workflow-type: ht
-source-wordcount: '494'
-ht-degree: 100%
+source-git-commit: a9b790bc833b5819862bf2f3284968d81f595f28
+workflow-type: tm+mt
+source-wordcount: '508'
+ht-degree: 97%
 
 ---
 
@@ -68,6 +68,8 @@ ht-degree: 100%
 * データセットの作成中に割り当てられた `table_name` は永続的であり、セグメント化およびパーソナライゼーション機能全体で使用されます。
 
 * 現在のデータモデリングフレームワークでは、**フィールドグループはサポートされていません**。
+
+* 現時点では、ファイルのアップロードフローを使用した複合プライマリキーのサポートは使用できません。
 
 ## アクティビティの制限
 
