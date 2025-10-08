@@ -10,10 +10,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 式, エディター
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
-source-git-commit: e411778cc873a24e4846e7acbe439222dd6e4c82
+source-git-commit: 813e7a61a69e73afe3f2f9fc808c551d85bd22a0
 workflow-type: tm+mt
-source-wordcount: '1161'
-ht-degree: 100%
+source-wordcount: '1200'
+ht-degree: 96%
 
 ---
 
@@ -21,12 +21,12 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_catalogs_dataset"
->title="データセットのルックアップ"
+>title="データセットの参照"
 >abstract="Adobe Experience Platform の属性を決定に使用するには、マッピングを作成して、Adobe Experience Platform データセットと [!DNL Journey Optimizer] のデータとの結合方法を定義する必要があります。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_catalogs_dataset_create"
->title="データセットのルックアップ"
+>title="データセットの参照"
 >abstract="ルックアップに対して有効になっているすべての Adobe Experience Platform データセットの中から、必要な属性を持つデータセットを選択し、決定項目属性とデータセットの両方に存在するマッピングキー（便名、顧客 ID など）を選択します。"
 
 >[!CONTEXTUALHELP]
@@ -44,15 +44,17 @@ ht-degree: 100%
 >title="データセットの追加"
 >abstract="[!DNL Adobe Experience Platform] データセットを使用して、動的な外部属性に基づいてキャップ条件を定義します。「**[!UICONTROL データセットを追加]**」をクリックして、必要な属性を持つ Adobe Experience Platform データセットを選択します。データセットがリストに表示されない場合は、ルックアップに対してデータセットが有効になっていて、データセットのルックアップマッピングが作成されていることを確認します。"
 
+[!DNL Journey Optimizer] を使用すると、決定に [!DNL Adobe Experience Platform] のデータを活用できます。これにより、決定属性の定義をデータセットの追加データに拡張し、属性を 1 つずつ手動で更新する必要がなく、定期的に変更される一括更新を行うことができます。例えば、可用性、待機時間などです。
+
 >[!AVAILABILITY]
 >
 >この機能は現在、限定提供リリースとしてすべてのお客様に対して提供されています。
 
-[!DNL Journey Optimizer] を使用すると、決定に [!DNL Adobe Experience Platform] のデータを活用できます。これにより、決定属性の定義をデータセットの追加データに拡張し、属性を 1 つずつ手動で更新する必要がなく、定期的に変更される一括更新を行うことができます。例えば、可用性、待機時間などです。
+## ガードレールと制限 {#guardrails}
 
->[!IMPORTANT]
->
->[!DNL Journey Optimizer] は、1 つの決定ポリシーに対して最大 1000 個の参照をサポートします。
+* **サポートされているチャネル** - Decisioning を使用したデータセットルックアップは、現在、メールとジャーニーのカスタムアクションで機能します。<!--Support for code-based experience channels is coming soon.-->
+* **属性の使用状況** - デシジョンのデータセットルックアップ機能は、属性を追加して決定項目定義を拡張しているため、属性をプロファイルに拡張していません
+* ルックアップ制限：[!DNL Journey Optimizer] では、1 つの決定ポリシーあたり最大 1,000 個のルックアップをサポートしています。
 
 ## 前提条件
 
