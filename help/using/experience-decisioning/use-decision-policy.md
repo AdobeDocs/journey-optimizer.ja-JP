@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 mini-toc-levels: 1
-source-git-commit: 2960ed9c9f7a65cbd7122424c2438a461ee8beab
+source-git-commit: f8b91ef5504396ab696acc05ac273423dd5f208e
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 61%
+source-wordcount: '945'
+ht-degree: 59%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 61%
 >[!NOTE]
 >
 >決定ポリシー項目のトラッキングの場合、決定ポリシーのコンテンツに対して、`trackingToken` 属性を次のように追加する必要があります。
->&#x200B;>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 属性を追加するには、横にある「+」アイコンをクリックします。 必要な数の属性をコードに追加できます。
 
@@ -78,13 +78,13 @@ ht-degree: 61%
 
 ![](assets/decision-code-based-decision-profile-attribute.png)
 
-## フラグメントの活用 {#fragments}
+## フラグメントの活用（コードベースのエクスペリエンス） {#fragments}
 
 決定ポリシーにフラグメントを含む決定項目が含まれている場合は、決定ポリシーコードでこれらのフラグメントを活用できます。[詳しくは、フラグメントを参照してください。](../content-management/fragments.md)
 
 >[!AVAILABILITY]
 >
->この機能は現在、一連の組織でのみ使用できます（限定提供）。詳しくは、アドビ担当者にお問い合わせください。
+>この機能は現在、コードベースのエクスペリエンスチャネルと一連の組織（限定提供）でのみ使用できます。 詳しくは、アドビ担当者にお問い合わせください。
 
 例えば、複数のモバイルデバイスモデルに対して異なるコンテンツを表示するとします。決定ポリシーで使用している決定項目に、これらのデバイスに対応するフラグメントが追加されていることを確認します。[方法についてはこちらを参照してください](items.md#attributes)。
 
