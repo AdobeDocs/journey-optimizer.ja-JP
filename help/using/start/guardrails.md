@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 26212ade689477154e4ea33dbc1970e3acea0a12
-workflow-type: ht
-source-wordcount: '2825'
-ht-degree: 100%
+source-git-commit: 5bc1a3a3e41d50890237fbc431bffab921d7d19f
+workflow-type: tm+mt
+source-wordcount: '2823'
+ht-degree: 99%
 
 ---
 
@@ -274,4 +274,4 @@ Adobe Experience Platform では、API ベースのプロファイルの作成�
 
 ## キャンペーンオーケストレーションガードレール {#orchestration-guardrails}
 
-キャンペーンオーケストレーションを使用する際に留意すべきガードレールと制限について詳しくは、[意思決定管理のガードレールと制限](../orchestrated/guardrails.md)の節を参照してください。
+Campaign オーケストレーションを使用する際に留意するガードレールと制限について詳しくは、この節 [ ガードレールと制限 ](../orchestrated/guardrails.md) を参照してください。
