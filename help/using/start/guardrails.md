@@ -274,4 +274,4 @@ Adobe Experience Platform では、API ベースのプロファイルの作成�
 
 ## キャンペーンオーケストレーションガードレール {#orchestration-guardrails}
 
-Campaign オーケストレーションを使用する際に留意するガードレールと制限について詳しくは、この節 [ ガードレールと制限 ](../orchestrated/guardrails.md) を参照してください。
+Campaign オーケストレーションを使用する際に留意するガードレールと制限について詳しくは、この節 [&#x200B; ガードレールと制限 &#x200B;](../orchestrated/guardrails.md) を参照してください。
