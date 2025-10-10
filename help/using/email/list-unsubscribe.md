@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 設定, メール, 設定
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: 56fae76fe83871875464203c01ea070ff1dbc173
+source-git-commit: 673a7f58f49afcc12ef9823db6ec68dbee4e77db
 workflow-type: tm+mt
-source-wordcount: '1458'
-ht-degree: 100%
+source-wordcount: '1691'
+ht-degree: 85%
 
 ---
 
@@ -123,9 +123,13 @@ ht-degree: 100%
 
 「**[!UICONTROL 顧客管理]**」オプションを選択した場合、カスタムエンドポイントを入力してキャンペーンやジャーニーで使用すると、受信者が登録解除リンクをクリックした際に、[!DNL Journey Optimizer] によって、同意更新イベント<!--sent to the custom endpoint -->にいくつかのデフォルトのプロファイル固有のパラメーターが追加されます。
 
-カスタム&#x200B;**[!UICONTROL ワンクリック登録解除 URL]** をさらにパーソナライズするのに、同意イベントにも追加されるカスタム属性を定義できます。
+エンドポイントをさらにパーソナライズするには <!-- (**[!UICONTROL Mailto (unsubscribe)]** and **[!UICONTROL One-click Unsubscribe URL]**)--> 同意イベントにも追加するカスタム属性を定義します。
 
-これを行うには、「**[!UICONTROL URL トラッキングパラメーター]**」セクションを使用します。対応するセクションで定義したすべての URL トラッキングパラメーターは、デフォルトのパラメーターに加えて、カスタムワンクリック登録解除 URL の末尾に追加されます。[カスタム URL トラッキングの設定方法の詳細情報](url-tracking.md)
+>[!AVAILABILITY]
+>
+>**[!UICONTROL 宛先（登録解除）]** オプションについては、この機能は限定提供（LA）で使用できます。 アクセス権を取得するには、Adobe担当者にお問い合わせください。 この場合、**カスタム属性（使用制限あり）を使用した宛先（登録解除）** 節 [ 以下 ](#configure-decrypt-api) で説明している新しいクエリパラメーターを使用する必要があります。
+
+エンドポイントのカスタム属性を定義するには、「**[!UICONTROL URL トラッキングパラメーター]**」セクションを使用します。 対応するセクションで定義したすべての URL トラッキングパラメーターが、デフォルトのパラメーターに加えて、カスタムエンドポイントの末尾に追加されます。 [カスタム URL トラッキングの設定方法の詳細情報](url-tracking.md)
 
 ### 復号化 API の設定 {#configure-decrypt-api}
 
@@ -220,5 +224,47 @@ GET 呼び出しは次のとおりです。
     "timestamp": "2024-11-26T14:25:09.316930Z"
 }
 ```
+
++++
+
++++ カスタム属性を使用した宛先（登録解除）（使用制限あり）
+
+「**[!UICONTROL 宛先（登録解除）]**」オプションを使用して、登録解除リンクをクリックすると、事前に入力されたメールが、指定された登録解除アドレスに送信されます。
+
+2025 年 10 月以降、**[!UICONTROL 宛先（登録解除）]** エンドポイントに **[!UICONTROL 顧客管理]** オプションを使用する場合は、同意イベントに追加するカスタム属性を定義できます。 この場合、以下に説明するクエリパラメーターを使用する必要があります。
+
+>[!AVAILABILITY]
+>
+>この機能は、限定提供です。アクセス権を取得するには、アドビ担当者にお問い合わせください。
+
+GET 呼び出しは次のとおりです。
+
+エンドポイント：https://platform.adobe.io/journey/imp/consent/decrypt
+
+クエリパラメーター：
+
+* **emailParamsSub**：宛先アドレスで受信したメールの件名から抽出された文字列。
+
+   * 例：*unsubscribev1.abc*
+
+   * 解析値：*v1.abc*
+
+* **emailParamsBody**：メールの本文（存在する場合）から *unsubscribev1.xyz* 形式で抽出された文字列。
+
+   * 解析値：*v1.xyz*
+
+API の例：https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&amp;emailParamsBody=v1.xyz
+
+>[!CAUTION]
+>
+>以前の実装（例：https://platform.adobe.io/journey/imp/consent/decrypt?emailParams=&lt;v1.xxx>）を使用していた場合は、**emailParams** ではなく、新しい **emailParamsSub** および **emailParamsBody** パラメーターを使用する必要があります。 詳しくは、Adobe担当者にお問い合わせください。
+
+**emailParamsSub** パラメーターと **emailParamsBody** パラメーターは、カスタムエンドポイントに送信される同意更新イベントに含まれます。
+
+ヘッダー要件：
+
+* x-api-key
+* x-gw-ims-org-id
+* 認証（技術アカウントからのユーザートークン）
 
 +++
