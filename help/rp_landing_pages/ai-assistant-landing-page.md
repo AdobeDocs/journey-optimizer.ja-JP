@@ -70,7 +70,7 @@ AI アシスタントを使用して web ページのコンテンツとビジュ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/window-maximize.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/window-maximize.svg?lang=ja)
 
 AI を使用したランディングページ生成
 
