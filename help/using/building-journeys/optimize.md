@@ -53,7 +53,7 @@ ht-degree: 99%
 >id="ajo_path_experiment_success_metric"
 >title="成功指標"
 >abstract="成功指標は、実験で最もパフォーマンスの高い処理を追跡および評価するために使用します。"
->additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="ジャーニー指標の設定とトラッキング"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="ジャーニー指標の設定とトラッキング"
 
 実験を行うことで、ランダム分割に基づいて様々なパスをテストし、事前定義済みの成功指標に基づいて最もパフォーマンスが高いパスを判断できます。
 
