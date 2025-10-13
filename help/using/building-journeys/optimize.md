@@ -11,10 +11,10 @@ keywords: アクティビティ, 条件, キャンバス, ジャーニー, 最�
 badge: label="限定提供" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: c472ce00623b810dea60dd5d9e34ca4d516447ad
-workflow-type: ht
-source-wordcount: '1298'
-ht-degree: 100%
+source-git-commit: 15a143956156458cf78d02a4cf92300e97cef949
+workflow-type: tm+mt
+source-wordcount: '1305'
+ht-degree: 99%
 
 ---
 
@@ -53,6 +53,7 @@ ht-degree: 100%
 >id="ajo_path_experiment_success_metric"
 >title="成功指標"
 >abstract="成功指標は、実験で最もパフォーマンスの高い処理を追跡および評価するために使用します。"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="ジャーニー指標の設定とトラッキング"
 
 実験を行うことで、ランダム分割に基づいて様々なパスをテストし、事前定義済みの成功指標に基づいて最もパフォーマンスが高いパスを判断できます。
 
@@ -75,13 +76,6 @@ ht-degree: 100%
 1. 「**[!UICONTROL 実験を作成]**」をクリックします。
 
 1. 実験に設定する&#x200B;**[!UICONTROL 成功指標]**&#x200B;を選択します。使用可能な指標とリストの設定方法について詳しくは、[この節](success-metrics.md)を参照してください。
-
-   <!--Need to have the list of all default metrics + a description for each.
-    Explain why the metric selection is important.
-    Are there custom metrics? If so explain.
-    If possible, add best practices and examples for each metrics (could even be a dedicated section).
-    Consider adding an example in this step: For this example, select this metric to test xxx.
-    -->
 
    ![](assets/journey-optimize-experiment-metrics.png){width=80%}
 
