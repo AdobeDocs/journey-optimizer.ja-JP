@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 12dbe0031e9037d879e0d2309c7c26cc3c00cc4e
+source-git-commit: 3d4b4fce529db70c53daea3d15d4af9a14b57424
 workflow-type: tm+mt
-source-wordcount: '1069'
-ht-degree: 100%
+source-wordcount: '1112'
+ht-degree: 96%
 
 ---
 
@@ -96,6 +96,10 @@ Adobe Journey Optimizer を使用して、テキスト（SMS）、リッチ通�
 >id="ajo_message_sms_content"
 >title="SMS コンテンツの定義"
 >abstract="パーソナライゼーションエディターを使用してコンテンツを定義し、動的要素を組み込むことで、テキストメッセージ（SMS／MMS／RCS）をカスタマイズおよびパーソナライズします。"
+
+>[!AVAILABILITY]
+>
+>RCS Upscale は HIPAA 対応のサービスではありません。組織がJourney Optimizerで処理を許可される可能性のある許可された医療データ（個人の医療情報や PHI など）を含む機密性の高い個人データの収集、保存、処理に使用しないでください。
 
 メッセージコンテンツを設定するには、次の手順に従います。MMS の設定について詳しくは、[この節](#mms-content)を参照してください。
 
