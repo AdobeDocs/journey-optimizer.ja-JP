@@ -6,9 +6,9 @@ feature: Release Notes
 description: Adobe Journey Optimizer リリースサイクルについて
 hide: true
 hidefromtoc: true
-source-git-commit: f00deec2db697dccca161d82fe80b7f3f451c172
+source-git-commit: 0de90d707c02e11bfb8a6af7b22d4273a8b6b88d
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '846'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 0%
 >
 > 各四半期の終わりには、四半期ごとのスケジュールや依存する製品リリースに合わせて、リリースを月末の 2 週間前まで予定してロールアウトできます。
 
-毎月のリリースでは、一連の新機能と修正が導入されていますが、継続的な配信アプローチでは、準備が整った時点でサイクル間に追加の更新をデプロイできます。 リリースノートと関連ドキュメントもそれに応じて更新されます。
+毎月のリリースでは、一連の新機能と修正が導入されていますが、継続的な配信アプローチでは、準備が整った時点でサイクル間に追加の更新をデプロイできます。 リリースノートと関連ドキュメントはそれに応じて更新され、リリース日が記載されます。 その月にリリースされたすべての変更は、リリース日の月次リリースノートに統合されます。
 
 
 ## リリースパス {#release-paths}
