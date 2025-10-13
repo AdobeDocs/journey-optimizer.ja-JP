@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 110c4895ac7f0b683a695e9705a8f8ac54d09637
+source-git-commit: b08f996d9871f59665c2d329b493fd6e61030fac
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 100%
+source-wordcount: '616'
+ht-degree: 57%
 
 ---
 
@@ -106,12 +106,12 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 
 >[!NOTE]
 >
->オーディエンスとセグメント化サービスについて詳しくは、[この節](../../audience/about-audiences.md)を参照してください。
+>オーディエンスとセグメント化サービスについて詳しくは、[ この節 ](../../audience/about-audiences.md) を参照してください。
 
 
 ## Unless{#unless}
 
-`unless` ヘルパーを使用して、条件ブロックを定義します。`if` ヘルパーとは異なり、式の評価結果が false の場合にブロックがレンダリングされます。
+`unless` ヘルパーを使用して、条件ブロックを定義します。`if` ヘルパーとは異なり、式評価が false を返した場合、ブロックがレンダリングされます。
 
 **構文**
 
@@ -211,3 +211,78 @@ with は、長い変数名に短い別名を付ける場合にも使用できま
     {{/each}}
 {{sum}}
 ```
+
+## 実行メタデータ {#execution-metadata}
+
+>[!AVAILABILITY]
+>
+>この機能は、限定提供です。アクセス権を取得するには、アドビ担当者にお問い合わせください。
+
+`executionMetadata` ヘルパーを使用すると、カスタムのキーと値のペアを動的にキャプチャし、メッセージ実行コンテキストに保存できます。
+
+**構文**
+
+```
+{{executionMetadata key="your_key" value="your_value"}}
+```
+
+この構文では、`key` はメタデータ名を指し、`value` は保持するメタデータです。
+
+**ユースケース**
+
+この機能を使用すると、キャンペーンやジャーニーの任意のネイティブアクションにコンテキスト情報を追加できます。 これにより、トラッキング、分析、パーソナライゼーション、ダウンストリーム処理など、様々な目的で、リアルタイム配信のコンテキストデータを外部システムに書き出すことができます。
+
+>[!NOTE]
+>
+>実行メタデータ関数は、[ カスタムアクション ](../../action/action.md) ではサポートされていません。
+
+例えば、実行メタデータヘルパーを使用して、各プロファイルに送信される各配信に特定の ID を追加できます。 この情報は実行時に生成され、エンリッチメントされた実行メタデータを書き出して、外部レポートプラットフォームとのダウンストリーム調整を行うことができます。
+
+**仕組み**
+
+キャンペーンまたはジャーニー内のチャネルコンテンツから任意の要素を選択し、パーソナライゼーションエディターを使用して、`executionMetadata` ヘルパーをこの要素に追加します。
+
+>[!NOTE]
+>
+>コンテンツ自体が表示されている場合、実行メタデータ関数は表示されません。
+
+
+実行時に、次のスキーマの追加を伴って、メタデータ値が既存の **[!UICONTROL メッセージフィードバックイベントデータセット]** に追加されます。
+
+```
+"_experience": {
+  "customerJourneyManagement": {
+    "messageExecution": {
+      "metadata": {
+        "your_key": "your_value"
+      }
+    }
+  }
+}
+```
+
+>[!NOTE]
+>
+>データセットについて詳しくは、[ この節 ](../../data/get-started-datasets.md) を参照してください。
+
+**制限事項**
+
+アクションごとのキーと値のペアの上限は 2 kb です。
+
+2 Kb の制限を超えた場合、メッセージは配信されますが、キーと値のペアは切り捨てられる場合があります。
+
+**例**
+
+```
+{{executionMetadata key="firstName" value=profile.person.name.firstName}}
+```
+
+この例では、`profile.person.name.firstName` = &quot;Alex&quot;とすると、結果のエンティティは次のようになります。
+
+```
+{
+  "key": "firstName",
+  "value": "Alex"
+}
+```
+

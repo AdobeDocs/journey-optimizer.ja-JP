@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: e255751e411d8b623a12780a52a54551b5d65182
+source-git-commit: b08f996d9871f59665c2d329b493fd6e61030fac
 workflow-type: tm+mt
-source-wordcount: '2399'
-ht-degree: 100%
+source-wordcount: '2422'
+ht-degree: 99%
 
 ---
 
@@ -438,6 +438,9 @@ ht-degree: 100%
         <td><a href="helpers.md#each">Each</a></td><td>配列を繰り返すために使用します。</td>
     </tr>
     <tr>
+        <td><a href="helpers.md#execution-metadata">実行メタデータ</a></td><td>このヘルパーは、メッセージのレンダリング中にカスタムのキー値メタデータをキャプチャし、ランタイム実行メタデータオブジェクトに保存できるようにします</td>
+    </tr>
+    <tr>
         <td><a href="helpers.md#if-function">If</a></td><td>条件付きブロックの定義に使用します。式の評価が true を返した場合、ブロックがレンダリングされます。</td>
     </tr>
     <tr>
@@ -516,4 +519,4 @@ ht-degree: 100%
 
 パーソナライズ機能のヘルパー関数を使用してパーソナライゼーション値を変換する方法と、ヘルパー関数の様々なユースケースを説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416781?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
