@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: 3d4b4fce529db70c53daea3d15d4af9a14b57424
+source-git-commit: 89955157e37f3312ccc8d033a26f5a8664aebfe1
 workflow-type: tm+mt
 source-wordcount: '1112'
 ht-degree: 96%
@@ -22,12 +22,13 @@ ht-degree: 96%
 >title="テキストメッセージの作成"
 >abstract="テキストメッセージ（SMS／MMS／RCS）を作成するには、ジャーニーまたはキャンペーンに SMS アクションを追加し、パーソナライゼーションエディターでパーソナライゼーションを開始します。"
 
+>[!AVAILABILITY]
+>
+>RCS Upscale は HIPAA 対応のサービスではありません。組織がJourney Optimizerで処理を許可される可能性のある許可された医療データ（個人の医療情報や PHI など）を含む機密性の高い個人データの収集、保存、処理に使用しないでください。
+
 Adobe Journey Optimizer を使用して、テキスト（SMS）、リッチ通信（RCS）およびマルチメディア（MMS）メッセージををデザインして送信できます。まず、ジャーニーまたはキャンペーンに SMS アクションを追加し、次に、以下に説明するように、テキストメッセージのコンテンツを定義する必要があります。また、Adobe Journey Optimizer には、送信前にテキストメッセージをテストする機能も用意されているので、レンダリング、パーソナライゼーション属性、その他すべての設定を確認できます。
 
->[!NOTE]
->
->業界標準と規制に従って、すべての SMS／MMS マーケティングメッセージには、受信者が簡単に登録解除できる方法を含める必要があります。SMS 受信者は、オプトインおよびオプトアウトのキーワードで返信ですることでこれを実行できます。[オプトアウトの管理方法について学ぶ](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
-
+業界標準と規制に従って、すべての SMS／MMS マーケティングメッセージには、受信者が簡単に登録解除できる方法を含める必要があります。SMS 受信者は、オプトインおよびオプトアウトのキーワードで返信ですることでこれを実行できます。[オプトアウトの管理方法について学ぶ](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
 
 ## テキストメッセージの追加 {#create-sms-journey-campaign}
 
@@ -96,10 +97,6 @@ Adobe Journey Optimizer を使用して、テキスト（SMS）、リッチ通�
 >id="ajo_message_sms_content"
 >title="SMS コンテンツの定義"
 >abstract="パーソナライゼーションエディターを使用してコンテンツを定義し、動的要素を組み込むことで、テキストメッセージ（SMS／MMS／RCS）をカスタマイズおよびパーソナライズします。"
-
->[!AVAILABILITY]
->
->RCS Upscale は HIPAA 対応のサービスではありません。組織がJourney Optimizerで処理を許可される可能性のある許可された医療データ（個人の医療情報や PHI など）を含む機密性の高い個人データの収集、保存、処理に使用しないでください。
 
 メッセージコンテンツを設定するには、次の手順に従います。MMS の設定について詳しくは、[この節](#mms-content)を参照してください。
 
