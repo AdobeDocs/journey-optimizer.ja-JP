@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 881cae4638082f804a5e2a768dfa135193959191
 workflow-type: tm+mt
 source-wordcount: '1354'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -155,13 +155,13 @@ ht-degree: 100%
 
 新しく作成した指標は、レポートを PDF または CSV としてエクスポートする際に含まれます。ただし、終了すると、レポートから削除されます。
 
-## 探索的分析によるデータの探索 {#exploratory}
+## insight ビルダーでデータを探索 {#exploratory}
 
-探索的分析ツールを使用すると、選択した&#x200B;**[!UICONTROL ディメンション]**&#x200B;と&#x200B;**[!UICONTROL 指標]**&#x200B;からテーブルとビジュアライゼーションを簡単に作成できます。このツールは、データの探索を効率化し、情報を自動的にカスタマイズして、簡単に分析できるようにします。詳しくは、[このドキュメント](https://experienceleague.adobe.com/ja/docs/analytics/analyze/analysis-workspace/panels/quickinsight)を参照してください。
+insight ビルダーツールを使用すると、選択した **[!UICONTROL ディメンション]** および **[!UICONTROL 指標]** からテーブルやビジュアライゼーションを簡単に作成できます。 このツールは、データの探索を効率化し、情報を自動的にカスタマイズして、簡単に分析できるようにします。詳しくは、[このドキュメント](https://experienceleague.adobe.com/ja/docs/analytics/analyze/analysis-workspace/panels/quickinsight)を参照してください。
 
-1. まず、探索的分析を使用するレポートにアクセスします。
+1. まず、Insight ビルダーを使用するレポートにアクセスします。
 
-1. 左側のパネルメニューから探索的分析メニューを選択します。
+1. 左側のパネルメニューからInsight ビルダーメニューを選択します。
 
    ![](assets/exploratory_analysis_1.png)
 
