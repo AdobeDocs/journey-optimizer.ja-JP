@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: コンテンツ, 実験, 複数, オーディエンス, 処理
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
-source-git-commit: 397fad9c95e0c11c0496ab5c9adfb6f8169de4f6
-workflow-type: ht
-source-wordcount: '1846'
+source-git-commit: e1e7badf7a0539d49b0eb1d9668f945503f84ba6
+workflow-type: tm+mt
+source-wordcount: '1843'
 ht-degree: 100%
 
 ---
@@ -264,9 +264,9 @@ Journey Optimizer のコンテンツ実験を使用すると、複数の配信�
    * 勝者が見つかったらすぐに。
    * 選択した時間に実験がライブになった後。
 
-自動スケール時間は、実験の終了日より前にスケジュールする必要があります。終了日以降の時間に設定すると、検証警告が表示され、キャンペーンまたはジャーニーは公開されません。
+   自動スケール時間は、実験の終了日より前にスケジュールする必要があります。終了日以降の時間に設定すると、検証警告が表示され、キャンペーンまたはジャーニーは公開されません。
 
-    ![](assets/scale-winner-2.png)
+   ![](assets/scale-winner-2.png)
 
 1. スケール時間で勝者が見つからない場合のフォールバック動作を以下から選択します。
 
