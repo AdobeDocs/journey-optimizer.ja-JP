@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 8a94f9081c4f7fe158c084d02642d5bbba33dca2
+source-git-commit: 36056208cd1e435c4801bd178bdc5f2d74068dc5
 workflow-type: tm+mt
-source-wordcount: '2972'
-ht-degree: 99%
+source-wordcount: '2981'
+ht-degree: 98%
 
 ---
 
@@ -363,11 +363,13 @@ ht-degree: 99%
       + [プッシュ通知の基本を学ぶ](using/push/get-started-push.md)
       + [プッシュ通知の作成](using/push/create-push.md)
       + [プッシュ通知のデザイン](using/push/design-push.md)
+      + [Web プッシュ通知のデザイン](using/push/design-push-web.md)
       + [プッシュ通知の確認と送信](using/push/send-push.md)
       + プッシュ通知の設定 {#push-config}
          + [プッシュ通知の設定](/help/rp_landing_pages/push-config-landing-page.md)
          + [プッシュ通知フロー](using/push/push-gs.md)
          + [プッシュ通知チャネルの設定](using/push/push-configuration.md)
+         + [プッシュ通知チャネルの設定](using/push/push-configuration-web.md)
          + [モバイルオンボーディングのクイックスタートワークフロー](using/push/mobile-onboarding-wf.md)
    + SMS／MMS／RCS チャネル {#sms}
       + [SMS／MMS／RCS チャネル](/help/rp_landing_pages/sms-landing-page.md)
@@ -970,7 +972,7 @@ ht-degree: 99%
    + [プライバシー](/help/rp_landing_pages/privacy-landing-page.md)
    + [プライバシーの基本を学ぶ](using/privacy/get-started-privacy.md)
    + [プライバシーリクエスト](using/privacy/requests.md)
-   + [&#x200B; リソースに対する監査アクション](using/privacy/audit-logs.md)
+   + [ リソースに対する監査アクション](using/privacy/audit-logs.md)
    + [データライフサイクル操作の実行](using/privacy/data-hygiene.md)
    + 同意を管理 {#consent}
       + [同意を管理](/help/rp_landing_pages/consent-landing-page.md)

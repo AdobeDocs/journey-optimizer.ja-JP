@@ -6,11 +6,12 @@ description: Journey Optimizer でプッシュ通知を送信するように環�
 feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
-exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
+hidefromtoc: true
+hide: true
 source-git-commit: 36056208cd1e435c4801bd178bdc5f2d74068dc5
 workflow-type: tm+mt
-source-wordcount: '1843'
-ht-degree: 99%
+source-wordcount: '1890'
+ht-degree: 97%
 
 ---
 
@@ -132,8 +133,7 @@ Adobe Experience Platform Mobile SDK は、Android および iOS 互換の SDK �
 
 この作業が完了するまでに、[!DNL Adobe Experience Platform Data Collection] でモバイルプロパティも作成および設定する必要があります。通常、管理するモバイルアプリケーションごとにモバイルプロパティを作成します。モバイルプロパティを作成および設定する方法について詳しくは、[Adobe Experience Platform Mobile SDK ドキュメント](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}を参照してください。
 
-<!--To enable **Web push notifications**, ensure that the [pushNotifications property](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/pushnotifications) is properly configured within the Web SDK. Then, use [the sendPushSubscription command](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendpushsubscription) to register push subscriptions with Adobe Experience Platform.
--->
+**Web プッシュ通知** を有効にするには、[pushNotifications プロパティ ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/pushnotifications) が web SDK内で正しく設定されていることを確認します。 次に、[sendPushSubscription コマンド ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendpushsubscription) を使用して、プッシュ購読をAdobe Experience Platformに登録します。
 
 ## 手順 1：Journey Optimizer でのアプリのプッシュ資格情報の追加 {#push-credentials-launch}
 
@@ -175,15 +175,13 @@ Adobe Experience Platform Mobile SDK は、Android および iOS 互換の SDK �
 
       1. FCM プッシュ資格情報をドラッグ＆ドロップします。プッシュ資格情報の取得方法の詳細については、[Google ドキュメント](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}を参照してください。
 
-<!--
-    * **For Web**
+   * **Web の場合**
 
-        ![](assets/add-app-config-web.png)
+     ![](assets/add-app-config-web.png)
 
-        1. Provide the **[!UICONTROL App ID]**.
+      1. **[!UICONTROL アプリ ID]** を指定します。
 
-        1. Enter your **[!UICONTROL VAPID public key]** and **[!UICONTROL private key]**.
--->
+      1. **[!UICONTROL VAPID 公開鍵]** および **[!UICONTROL 秘密鍵]** を入力します。
 
 1. 「**[!UICONTROL 送信]**」をクリックして、アプリ設定を作成します。
 
@@ -228,7 +226,7 @@ Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Ex
 
 1. この設定を使用してメッセージに同意ポリシーを関連付けるには、**[!UICONTROL マーケティングアクション]**&#x200B;を選択します。顧客の意向に従うために、そのマーケティングアクションに関連付けられているすべての同意ポリシーが活用されます。[詳細情報](../action/consent.md#surface-marketing-actions)
 
-1. **[!UICONTROL Platform]** をAndroidまたはiOS <!--and/or Web--> の中から選択します。
+1. **[!UICONTROL Platform]** をAndroid、iOS、Web の中から選択します。
 
 1. 上記で設定した[プッシュ資格情報](#push-credentials-launch)と同じ&#x200B;**[!UICONTROL アプリ ID]** を選択します。
 
