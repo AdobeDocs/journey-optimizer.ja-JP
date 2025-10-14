@@ -22,7 +22,7 @@ ht-degree: 13%
 >
 >現在、Journey Optimizerの web プッシュ通知では、**サイレント通知** および **コンテンツをシミュレート** 機能はサポートされていませんが、今後利用できるようになります。
 
-Web プッシュ通知キャンペーンまたはジャーニーを作成したら、要件に応じてそのコンテンツと構造をデザインできます。 Web プッシュ通知を送信する前に、まず [ チャネル設定 ](push-configuration-web.md) 内でこのチャネルを設定する必要があります。
+Web プッシュ通知キャンペーンまたはジャーニーを作成したら、要件に応じてそのコンテンツと構造をデザインできます。 Web プッシュ通知を送信する前に、まず [&#x200B; チャネル設定 &#x200B;](push-configuration-web.md) 内でこのチャネルを設定する必要があります。
 
 <!--
 ## Send a silent notification {#silent-notification}
@@ -38,7 +38,7 @@ Use the **Custom Data** section to include additional information in the form of
 
 ## タイトルと本文 {#push-title-body}
 
-メッセージを作成するには、「**[!UICONTROL タイトル]**」フィールドと「**[!UICONTROL 本文]**」フィールドをクリックします。パーソナライゼーションエディターを使用して、コンテンツの定義 [ データのパーソナライズ ](../personalization/personalize.md) および [ 動的コンテンツ ](../personalization/get-started-dynamic-content.md) の追加を行います。
+メッセージを作成するには、「**[!UICONTROL タイトル]**」フィールドと「**[!UICONTROL 本文]**」フィールドをクリックします。パーソナライゼーションエディターを使用して、コンテンツの定義 [&#x200B; データのパーソナライズ &#x200B;](../personalization/personalize.md) および [&#x200B; 動的コンテンツ &#x200B;](../personalization/get-started-dynamic-content.md) の追加を行います。
 
 **[!UICONTROL AI アシスタントでテキストを編集]** をクリックすると、Journey Optimizer AI アシスタントを使用してコンテンツを簡単に生成できます。
 
@@ -54,7 +54,7 @@ Use the **Custom Data** section to include additional information in the form of
 
 **[!UICONTROL メディアを追加]** フィールドにメディア URL を入力します。 また、URL にパーソナライゼーショントークンを含めて、各ユーザー用にコンテンツをカスタマイズすることもできます。
 
-![AI アシスタントでテキストを編集 ](assets/do-not-localize/Smock_ImageAdd_18_N.svg) をクリックすると、Journey Optimizer AI アシスタントを使用してメディアをすばやく生成できます。
+![AI アシスタントでテキストを編集 &#x200B;](assets/do-not-localize/Smock_ImageAdd_18_N.svg) をクリックすると、Journey Optimizer AI アシスタントを使用してメディアをすばやく生成できます。
 
 ![](assets/web-media.png)
 

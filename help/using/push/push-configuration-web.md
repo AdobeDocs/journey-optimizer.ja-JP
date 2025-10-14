@@ -133,7 +133,7 @@ Adobe Experience Platform Mobile SDK は、Android および iOS 互換の SDK �
 
 この作業が完了するまでに、[!DNL Adobe Experience Platform Data Collection] でモバイルプロパティも作成および設定する必要があります。通常、管理するモバイルアプリケーションごとにモバイルプロパティを作成します。モバイルプロパティを作成および設定する方法について詳しくは、[Adobe Experience Platform Mobile SDK ドキュメント](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}を参照してください。
 
-**Web プッシュ通知** を有効にするには、[pushNotifications プロパティ ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/pushnotifications) が web SDK内で正しく設定されていることを確認します。 次に、[sendPushSubscription コマンド ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendpushsubscription) を使用して、プッシュ購読をAdobe Experience Platformに登録します。
+**Web プッシュ通知** を有効にするには、[pushNotifications プロパティ &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/pushnotifications) が web SDK内で正しく設定されていることを確認します。 次に、[sendPushSubscription コマンド &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendpushsubscription) を使用して、プッシュ購読をAdobe Experience Platformに登録します。
 
 ## 手順 1：Journey Optimizer でのアプリのプッシュ資格情報の追加 {#push-credentials-launch}
 
