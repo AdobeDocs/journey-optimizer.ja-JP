@@ -5,10 +5,10 @@ title: 複数の手順のキャンペーンでのチャネルアクティビテ�
 description: 複数の手順のキャンペーンでのチャネルアクティビティの追加方法について説明します。
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: 3931b1d6fd97b92c79aff2c003f8cb692fc52e47
+source-git-commit: ed00ef1f9aad7a9baf16b806e1cbffae677b2a91
 workflow-type: tm+mt
-source-wordcount: '1111'
-ht-degree: 98%
+source-wordcount: '1124'
+ht-degree: 97%
 
 ---
 
@@ -68,7 +68,7 @@ UNUSED IDs in BJ
 
 >[!PREREQUISITES]
 >
->チャネルアクティビティを追加する前に、[&#x200B; オーディエンスを作成 &#x200B;](build-audience.md) または [&#x200B; オーディエンスを読み取り &#x200B;](read-audience.md) アクティビティを使用してターゲットオーディエンスを定義します。
+>チャネルアクティビティを追加する前に、[ オーディエンスを作成 ](build-audience.md) または [ オーディエンスを読み取り ](read-audience.md) アクティビティを使用してターゲットオーディエンスを定義します。
 
 1. チャネルアクティビティをキャンバスに追加します。使用できるチャネルアクティビティは、**[!UICONTROL メール]**、**[!UICONTROL SMS]** および&#x200B;**[!UICONTROL プッシュ]**&#x200B;です。
 
@@ -100,7 +100,9 @@ UNUSED IDs in BJ
 
 1. **迅速配信モードを有効にする**（プッシュ）
 
-   迅速配信モードは、キャンペーンを通じて大量のプッシュメッセージを非常に高速に送信できるようにする [!DNL Journey Optimizer] アドオンです。迅速配信は、メッセージ配信の遅延がビジネス上の重要な問題になる状況で、携帯電話に緊急のプッシュアラートを送信するときに使用します（ニュースチャネルアプリをインストールしたユーザーにニュース速報を流すなど）。迅速配信モードを使用する際のパフォーマンスについて詳しくは、[Adobe Journey Optimizer 製品の説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}を参照してください。
+   迅速配信モードは、キャンペーンを通じて大量のプッシュメッセージを非常に高速に送信できるようにする [!DNL Journey Optimizer] アドオンです。迅速配信は、メッセージ配信の遅延がビジネス上の重要な問題になる状況で、携帯電話に緊急のプッシュアラートを送信するときに使用します（ニュースチャネルアプリをインストールしたユーザーにニュース速報を流すなど）。プッシュ通知の迅速配信モードを有効にする方法については [ このページ ](../../push/create-push.md#rapid-delivery) を参照してください。
+
+   迅速配信モードを使用する際のパフォーマンスについて詳しくは、[Adobe Journey Optimizer 製品の説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}を参照してください。
 
 1. **コンテンツ実験を作成**
 
