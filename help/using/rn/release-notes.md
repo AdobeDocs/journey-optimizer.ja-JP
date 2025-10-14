@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0a014d90c8a6654afcbfbd115db9a805c793cef5
+source-git-commit: 6782fabc6cb268218f55469298758272f887156a
 workflow-type: tm+mt
-source-wordcount: '1773'
-ht-degree: 74%
+source-wordcount: '1853'
+ht-degree: 72%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 74%
 
 [!DNL Adobe Journey Optimizer] は継続的な配信モデルに従っており、Adobeが新機能、機能強化および修正点を継続的に提供できるようにします。 このアプローチにより、機能をスケーラブルかつ段階的にロールアウトして、すべての環境でパフォーマンスと安定性を確保できます。
 
-このモデルのため、リリースノートは毎月のリリースの間に更新されます。  専用の [&#x200B; 最新のアップデート &#x200B;](#updates-rn) セクションでは、実稼動へのデプロイ時に新機能と改善点がハイライト表示されるので、常にすべての変更がリアルタイムで通知されます。<!--For full details about the release cycle and availability phases, see [Journey Optimizer release cycle](#releases.md).-->
+このモデルのため、リリースノートは毎月のリリースの間に更新されます。  専用の [ 最新のアップデート ](#updates-rn) セクションでは、実稼動へのデプロイ時に新機能と改善点がハイライト表示されるので、常にすべての変更がリアルタイムで通知されます。<!--For full details about the release cycle and availability phases, see [Journey Optimizer release cycle](#releases.md).-->
 
 [!DNL Adobe Journey Optimizer] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}を参照してください。
 
 ## 最新の更新内容 {#updates-rn}
 
-過去数週間にリリースされた新機能と機能強化を次に示し、その公開日を示します。 これらは、月末に次のリリースノートのコンテンツとグループ化されます。 最新の [&#x200B; 以下のリリースノート &#x200B;](#latest-rn) も参照してください。
+過去数週間にリリースされた新機能と機能強化を次に示し、その公開日を示します。 これらは、月末に次のリリースノートのコンテンツとグループ化されます。 最新の [ 以下のリリースノート ](#latest-rn) も参照してください。
 
 ### 新機能 {#updates-features}
 
@@ -45,6 +45,24 @@ ht-degree: 74%
 <p>この機能は、限定提供です。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
 <p>詳しくは、<a href="../personalization/functions/helpers.md#execution-metadata">詳細なドキュメント</a>を参照してください</p>
 <p>公開日：2025 年 10 月 13 日（PT）</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>実験エージェントが登場！</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator.html" target="_blank">Adobe Experience Platform Agent Orchestrator</a> を活用し、Journey Optimizerで実験エージェントを利用できます。 </p>
+<p>実験エージェントは、Web サイト、メール、プッシュメッセージおよびアプリケーションをまたいでデジタル実験を実行および管理する方法を最新化する、AI を利用したツールです。 これにより、実験をより効率的に実行し、ビジネス目標を整理し、うまくいったこと、うまくいかなかったこと、次に実験する場所を強調表示した、実用的なインサイトを生成できます。</p>
+<p>詳しくは、<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">詳細なドキュメント</a>を参照してください。</p>
+<p>公開日：2025 年 10 月 10 日（PT）</p>
 </td>
 </tr>
 </tbody>
@@ -286,7 +304,7 @@ Journey Optimizerを使用すると、Adobe外で同意を管理している場�
 
    * カスタム SMS プロバイダーを設定する際に、受信 SMS に認識できないキーワードが含まれている場合に使用する **デフォルト** キーワードを定義できるようになりました。 特定のアクションに対して **カスタム** キーワードを作成することもできます。 [詳細情報](../sms/sms-configuration-custom.md) - 公開日：2025年9月23日（PT）
 
-   * 設定で明示的に定義されていない入力ミス、単語、文など、SMS メッセージで送信される未定義の受信キーワードの応答にアクセスできるようになりました。 これらは、{InboundMessage} の下の **0&rbrace;AJO メールトラッキングエクスペリエンスイベント** データセットに 13 か月間保存され **す。** Sinch、Infobip、カスタム SMS プロバイダーでのみ使用できます。  – 公開日：2025 年 9 月 23 日（PT）
+   * 設定で明示的に定義されていない入力ミス、単語、文など、SMS メッセージで送信される未定義の受信キーワードの応答にアクセスできるようになりました。 これらは、{InboundMessage} の下の **0}AJO メールトラッキングエクスペリエンスイベント** データセットに 13 か月間保存され **す。** Sinch、Infobip、カスタム SMS プロバイダーでのみ使用できます。  – 公開日：2025 年 9 月 23 日（PT）
 
 <!--
 * **Approval policy permissions**
