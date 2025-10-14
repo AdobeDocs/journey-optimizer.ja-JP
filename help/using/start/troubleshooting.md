@@ -7,10 +7,10 @@ feature: Get Started
 role: User
 level: Intermediate
 exl-id: f8acb987-5c6e-4545-93b9-fdfc0d74db57
-source-git-commit: 45ebae048a748429a1918326526f3756a3e93c4c
+source-git-commit: f46cc01dce5ab0a30c1f0907b2a4684802b216be
 workflow-type: tm+mt
-source-wordcount: '2674'
-ht-degree: 100%
+source-wordcount: '2746'
+ht-degree: 97%
 
 ---
 
@@ -201,7 +201,7 @@ Adobe Journey Optimizer では、ジャーニーで&#x200B;**プロファイル�
 
 この問題の解決手順について詳しくは、[このトラブルシューティング記事](https://experienceleague.adobe.com/ja/docs/experience-cloud-kcs/kbarticles/ka-26253){target="_blank"}を参照してください。
 
-詳しくは、[この Journey Optimizer コミュニティの投稿](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998?profile.language=ja){target="_blank"}を参照してください。
+詳しくは、[この Journey Optimizer コミュニティの投稿](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998){target="_blank"}を参照してください。
 
 毎日のジョブがスケジュールされるタイミングを確認するには、[Adobe Experience Platform Schedules API ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/api/schedules?lang=ja){target="_blank"}も参照してください。
 
@@ -258,7 +258,6 @@ Adobe Journey Optimizer では、ジャーニーで&#x200B;**プロファイル�
 * [ジャーニーでのインバウンドアクションのトラブルシューティング](../building-journeys/troubleshooting-inbound.md)
 * [ライブジャーニー実行のトラブルシューティング](../building-journeys/troubleshooting-execution.md)
 * [カスタムアクションのトラブルシューティング](../action/troubleshoot-custom-action.md)
-
 
 
 +++ 新しいジャーニーバージョンを作成する際に式が失われるのはなぜですか？  
@@ -325,6 +324,14 @@ Adobe Journey Optimizer では、ジャーニーで&#x200B;**プロファイル�
 Journey Throttling API について詳しくは、[このページ](../configuration/throttling.md)を参照してください。
 
 詳しくは、[外部システムとの統合に関するドキュメント](../configuration/external-systems.md)も参照してください。
+
++++
+
++++ 矢印からオーディエンスを公開する際に「**invalid_access**」または「**No access to this dataId=XX granted**」というメッセージが表示された場合、403 エラーが発生した場合は、どのような手順を行う必要がありますか？
+
+このエラーを解決するには、管理者に問い合わせて、ユーザープロファイルがオーディエンスの公開に必要なデータビューにアクセスできることを確認してから、オーディエンスを再度公開してみてください。
+
+この問題を解決する手順については、[ 権限のドキュメント ](../administration/permissions.md){target="_blank"} を参照してください。
 
 +++
 
