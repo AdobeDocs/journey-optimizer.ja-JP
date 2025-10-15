@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 設定, メール, 設定
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: 673a7f58f49afcc12ef9823db6ec68dbee4e77db
+source-git-commit: ae971aac1a44b11a19435577d1c17530a91a2ed5
 workflow-type: tm+mt
-source-wordcount: '1691'
+source-wordcount: '1693'
 ht-degree: 85%
 
 ---
@@ -127,7 +127,7 @@ ht-degree: 85%
 
 >[!AVAILABILITY]
 >
->**[!UICONTROL 宛先（登録解除）]** オプションについては、この機能は限定提供（LA）で使用できます。 アクセス権を取得するには、Adobe担当者にお問い合わせください。 この場合、**カスタム属性（使用制限あり）を使用した宛先（登録解除）** 節 [&#x200B; 以下 &#x200B;](#configure-decrypt-api) で説明している新しいクエリパラメーターを使用する必要があります。
+>**[!UICONTROL 宛先（登録解除）]** オプションについては、この機能は限定提供（LA）で使用できます。 アクセス権を取得するには、Adobe担当者にお問い合わせください。 この場合、**カスタム属性（使用制限あり）を使用した宛先（登録解除）** 節 [ 以下 ](#configure-decrypt-api) で説明している新しいクエリパラメーターを使用する必要があります。
 
 エンドポイントのカスタム属性を定義するには、「**[!UICONTROL URL トラッキングパラメーター]**」セクションを使用します。 対応するセクションで定義したすべての URL トラッキングパラメーターが、デフォルトのパラメーターに加えて、カスタムエンドポイントの末尾に追加されます。 [カスタム URL トラッキングの設定方法の詳細情報](url-tracking.md)
 
@@ -179,6 +179,12 @@ GET 呼び出しは次のとおりです。
     "optOutLevel": "channel",
     "channelType": "email",
     "timestamp": "2024-11-26T14:25:09.316930Z"
+    "utm": [
+         {
+            "utm_source": "AJO",
+            "utm_medium": "Email"
+        }
+    ]
 }
 ```
 
@@ -253,7 +259,7 @@ GET 呼び出しは次のとおりです。
 
    * 解析値：*v1.xyz*
 
-API の例：https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&emailParamsBody=v1.xyz
+API の例：https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&amp;emailParamsBody=v1.xyz
 
 >[!CAUTION]
 >
@@ -266,5 +272,26 @@ API の例：https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSu
 * x-api-key
 * x-gw-ims-org-id
 * 認証（技術アカウントからのユーザートークン）
+
+同意応答：
+
+```
+{
+    "profileNameSpace": " CRMID ",
+    "profileId": "5142733041546020095851529937068211571",
+    "emailAddress": "john@google.com",
+    "emailNameSpace": "Email",
+    "sandboxId": "sandboxId",
+    "optOutLevel": "channel",
+    "channelType": "email",
+    "timestamp": "2024-11-26T14:25:09.316930Z"
+    "utm": [
+        {
+            "utm_source": "AJO",
+            "utm_medium": "Email"
+        }
+    ]
+}
+```
 
 +++
