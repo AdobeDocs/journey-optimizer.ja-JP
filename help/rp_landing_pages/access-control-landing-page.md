@@ -70,7 +70,7 @@ Adobe Journey Optimizer でロールベースのアクセス制御を設定す�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 属性ベースのアクセス制御
 
