@@ -8,10 +8,10 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 34649ab411823f1aa09d390d23484697e80763c5
-workflow-type: ht
-source-wordcount: '1313'
-ht-degree: 100%
+source-git-commit: 6e436424d0b7bd4f6172f4a4c00cc8c74c9570af
+workflow-type: tm+mt
+source-wordcount: '1650'
+ht-degree: 80%
 
 ---
 
@@ -41,9 +41,9 @@ ht-degree: 100%
 
    * [ジャーニーカスタムアクションエラー](#alert-custom-actions)アラート
    * [オーディエンスを読み取りトリガーに失敗しました](#alert-read-audiences)アラート
-<!--DOCAC-13465   * the [Profile Discard Rate Exceeded](#alert-discard-rate) alert
-   * the [Custom Action Error Rate Exceeded](#alert-custom-action-error-rate) alert
-   * the [Profile Error Rate Exceeded](#alert-profile-error-rate) alert-->
+   * [ プロファイル破棄率を超えました ](#alert-discard-rate) アラート
+   * [ カスタムアクションエラー率を超えました ](#alert-custom-action-error-rate) アラート
+   * [ プロファイルエラー率を超えました ](#alert-profile-error-rate) アラート
 
 * チャネル設定に固有のアラート：
 
@@ -55,7 +55,7 @@ ht-degree: 100%
 
 予期しない動作が発生した場合や、操作の特定の条件（システムがしきい値に達した場合に問題が発生する可能性があるなど）に達した場合、その条件を登録している組織内のユーザーにアラート通知が配信されます。
 
-各アラートは、ユーザーインターフェイスから個別に登録することも、**[!UICONTROL アラート]**&#x200B;メニューからグローバルに登録することもできます（[グローバル登録](#global-subscription)を参照）<!--DOCAC-13465, or unitary for a specific journey (see [Unitary subscription](#unitary-subscription))-->。
+ユーザーインターフェイスから各アラートを個別に、**[!UICONTROL アラート]** メニューからグローバルに（[ グローバル登録 ](#global-subscription) を参照）、または特定のジャーニーに対して単一で（[ 単一登録 ](#unitary-subscription) を参照）登録できます。
 
 登録者の環境設定に基づいて、アラートはメールで送信されるか、ユーザーインターフェイスの右上隅にある Journey Optimizer 通知センター内（アプリ内通知）で直接送信されます。[!DNL Adobe Experience Cloud] **[!UICONTROL 環境設定]**&#x200B;で、これらのアラートを受信する方法を選択します。[詳細情報](../start/user-interface.md#in-product-alerts)
 
@@ -78,23 +78,21 @@ ht-degree: 100%
 
 また、[I/O イベント通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=ja){target="_blank"}を通じて登録することもできます。アラートルールは、様々な登録パッケージに整理されます。特定の Journey Optimizer アラートに対応するイベント登録については、[以下](#journey-alerts)で詳しく説明します。
 
-<!--DOCAC-13465
-### Unitary subscription {#unitary-subscription}
+### 単一サブスクリプション {#unitary-subscription}
 
-To subscribe/unsubscribe to an alert for a specific journey, follow these steps:
+特定のジャーニーのアラートを購読/購読解除するには、次の手順に従います。
 
-1. Browse to the journey inventory and select the **[!UICONTROL Subscribe to alerts]** option for a specific journey.
+1. ジャーニーインベントリを参照し、特定のジャーニーの **[!UICONTROL アラートを購読]** オプションを選択します。
 
-      ![Subscribing to an alert for a specific journey](assets/subscribe-journey-alert.png){width=80%}
+   ![ 特定のジャーニーのアラートの購読 ](assets/subscribe-journey-alert.png){width=80%}
 
-1. Choose the alert(s). The following alerts are available: [Profile Discard Rate Exceeded](#alert-discard-rate), [Custom Action Error Rate Exceeded](#alert-custom-action-error-rate), and [Profile Error Rate Exceeded](#alert-profile-error-rate).
-   
-1. To unsubscribe to an alert, unselect it from the same screen.
+1. アラートを選択します。 次のアラートを使用できます：[ プロファイル破棄率を超過 ](#alert-discard-rate)、[ カスタムアクションエラー率を超過 ](#alert-custom-action-error-rate)、および [ プロファイルエラー率を超過 ](#alert-profile-error-rate)。
 
-1. Click **[!UICONTROL Save]** to confirm.
--->
+1. アラートの購読を解除するには、同じ画面からアラートの選択を解除します。
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=ja#enable-email-alerts){target="_blank"}.-->
+1. 「**[!UICONTROL 保存]**」をクリックして確認します。
+
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 
 
@@ -154,25 +152,22 @@ To subscribe/unsubscribe to an alert for a specific journey, follow these steps:
 
 ![](assets/alert-troubleshooting-1.png)
 
-<!--DOCAC-13465
+### プロファイルの破棄率を超えました {#alert-discard-rate}
 
-### Profile Discard Rate Exceeded {#alert-discard-rate}
+このアラートは、過去 5 分間に入力されたプロファイルに対するプロファイル破棄の割合が、しきい値を超えた場合に警告します。 デフォルトのしきい値は 20% に設定されていますが、[ カスタムしきい値を定義する ](#custom-threshold) ことができます。
 
-This alert warns you if the ratio of profile discards to entered profiles over the last 5 minutes exceeded threshold. The defaut threshold is set to 20% but you can [define a custom theshold](#custom-threshold).
-
-Click the name of the alert to check the alert details and configuration.
+アラートの名前をクリックすると、アラートの詳細と設定を確認できます。
 
 
-### Custom Action Error Rate Exceeded {#alert-custom-action-error-rate}
+### カスタムアクションのエラー率を超えました {#alert-custom-action-error-rate}
 
-This alert warns you if the ratio of custom action errors to successful HTTP calls over the last 5 minutes exceeded threshold. The defaut threshold is set to 20% but you can [define a custom theshold](#custom-threshold).
+このアラートは、過去 5 分間に成功した HTTP 呼び出しに対するカスタムアクションエラーの割合が、しきい値を超えた場合に警告します。 デフォルトのしきい値は 20% に設定されていますが、[ カスタムしきい値を定義する ](#custom-threshold) ことができます。
 
-### Profile Error Rate Exceeded {#alert-profile-error-rate}
+### プロファイルのエラー率を超えました {#alert-profile-error-rate}
 
-This alert warns you if the ratio of custom action errors to successful HTTP calls over the last 5 minutes exceeded threshold. The defaut threshold is set to 20% but you can [define a custom theshold](#custom-threshold).
+このアラートは、過去 5 分間に成功した HTTP 呼び出しに対するカスタムアクションエラーの割合が、しきい値を超えた場合に警告します。 デフォルトのしきい値は 20% に設定されていますが、[ カスタムしきい値を定義する ](#custom-threshold) ことができます。
 
-Click the name of the alert to check the alert details and configuration.
--->
+アラートの名前をクリックすると、アラートの詳細と設定を確認できます。
 
 ## アラートの設定 {#configuration-alerts}
 
@@ -254,29 +249,26 @@ This alert warns you if a domain certificate (CDN, tracking URL) renewal failed 
 ### アラートの編集
 
 アラートの行をクリックすると、そのアラートの詳細を確認できます。名前、ステータス、通知チャネルが左側のパネルに表示されます。
-<!--DOCAC-13465
-For Journey alerts, use the **[!UICONTROL More actions]** button to edit them. You can then define a [custom theshold](#custom-threshold) for these alerts.-->
+ジャーニーアラートの場合は、「その他のアクション **[!UICONTROL ボタンを使用して編集し]** す。 その後、これらのアラートに対して [ カスタムスレッシュホールド ](#custom-threshold) を定義できます。
 
 ![](assets/alert-more-actions.png){width=60%}
 
-<!--DOCAC-13465
-#### Define a custom threshold {#custom-threshold}
+#### カスタムしきい値の定義 {#custom-threshold}
 
-You can set thresholds for the [Journey alerts](#journey-alerts). The threshold alerts above default to 20%. 
+[ジャーニーアラートのしきい値を設定でき ](#journey-alerts) す。 しきい値アラートは、デフォルトを 20% 超えています。
 
-To change the threshold:
+しきい値を変更するには：
 
-1. Browse to the **Alerts** screen
-1. Click the **[!UICONTROL More actions]** button of the alert to update
-1. Enter the new threshold and confirm. The new threshold applies to **all** journeys
+1. **アラート** 画面を参照します
+1. 更新するアラートの **[!UICONTROL その他のアクション]** ボタンをクリックします
+1. 新しいしきい値を入力して確認します。 新しいしきい値は **すべて** ジャーニーに適用されます
 
 
 ![](assets/alert-threshold.png){width=60%}
 
 >[!CAUTION]
 >
->The threshold levels are global across all journeys and cannot be individually modified per journey.
--->
+>しきい値レベルは、すべてのジャーニーでグローバルであり、ジャーニーごとに個別に変更することはできません。
 
 ### アラートの無効化
 
