@@ -39,7 +39,7 @@ ht-degree: 77%
 {%= formatNumber(number/double,string) %}: string
 ```
 
-[Oracle ドキュメントと ](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) サポートされているロケールにまとめられている書式設定と有効なロケールを使用でき [ す ](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank}
+[Oracle ドキュメントと &#x200B;](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) サポートされているロケールにまとめられている書式設定と有効なロケールを使用でき [&#x200B; す &#x200B;](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank}
 
 **例**
 
