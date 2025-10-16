@@ -37,7 +37,7 @@ ht-degree: 99%
 
 >[!CAUTION]
 >
->オーディエンスの選定の設定を開始する前に、[ ガードレールと制限事項 ](#audience-qualification-guardrails) を参照してください。
+>オーディエンスの選定の設定を開始する前に、[&#x200B; ガードレールと制限事項 &#x200B;](#audience-qualification-guardrails) を参照してください。
 
 
 ## アクティビティの設定 {#configure-segment-qualification}
