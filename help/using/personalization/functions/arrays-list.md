@@ -6,7 +6,7 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: f4068450dde5f85652096c09e7f817dbab40a3d8
+source-git-commit: 98202be781bec0b03a9a9f33e93f1b01b7830a37
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 100%
@@ -285,5 +285,5 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 次の操作は、寿司とピザを 1 回以上食べたことがある人を定義しています。
 
 ```sql
-{%= supersetOf(person.eatenFoods,["sushi", "pizza"] %}
+{%= supersetOf(person.eatenFoods,["sushi", "pizza"]) %}
 ```

@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: b9149ad6-2be7-4bdf-82eb-7ab52780cb4e
-source-git-commit: 8a1ec5acef067e3e1d971deaa4b10cffa6294d75
+source-git-commit: 98202be781bec0b03a9a9f33e93f1b01b7830a37
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 93%
+source-wordcount: '244'
+ht-degree: 77%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 93%
 
 ## 絶対パス {#absolute}
 
-`absolute` 関数は、数値をその絶対値を変換するために使用されます。
+`absolute` 関数は、数値をその絶対値に変換するために使用されます。
 
 **構文**
 
@@ -39,7 +39,7 @@ ht-degree: 93%
 {%= formatNumber(number/double,string) %}: string
 ```
 
-[Oracle ドキュメントと &#x200B;](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) サポートされているロケールにまとめられている書式設定と有効なロケールを使用でき [&#x200B; す &#x200B;](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank}
+[Oracle ドキュメントと ](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) サポートされているロケールにまとめられている書式設定と有効なロケールを使用でき [ す ](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank}
 
 **例**
 
@@ -71,7 +71,7 @@ ht-degree: 93%
 
 ## 切り上げ {#round-up}
 
-`Count only null` 関数は、数値を切り上げるために使用されます。
+`roundUp` 関数は、数値を切り上げるために使用されます。
 
 **構文**
 
@@ -109,7 +109,7 @@ ht-degree: 93%
 
 **例**
 
-このクエリは、42.6 の 整数値、つまり 42 を返します。
+このクエリは 42.6 （42）の整数値を返します。
 
 ```sql
 {%= toInt(42.6) %}: integer

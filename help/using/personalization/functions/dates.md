@@ -6,10 +6,10 @@ topic: Personalization
 role: Data Engineer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: ed4d50cbc488fb396c4fffec21d3f0062d3fc20a
+source-git-commit: 98202be781bec0b03a9a9f33e93f1b01b7830a37
 workflow-type: tm+mt
-source-wordcount: '1032'
-ht-degree: 100%
+source-wordcount: '1034'
+ht-degree: 93%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 100%
 
 ## 分数を追加 {#add-minutes}
 
-`addMinutes` 関数は、増分に正の値を使用し、減分に負の値を使用して、指定された日付を指定された分数で調整します
+`addMinutes` 関数は、指定された日付を指定された分数で調整します。増分には正の値、減分には負の値を使用します。
 
 **構文**
 
@@ -87,7 +87,7 @@ ht-degree: 100%
 
 ## 秒数を追加 {#add-seconds}
 
-`addSeconds` は、増分に正の値を使用し、減分に負の値を使用して、指定された日付を指定された秒数で調整します。
+`addSeconds` 関数は、指定された日付を指定された秒数で調整します。増分には正の値、減分には負の値を使用します。
 
 **構文**
 
@@ -104,7 +104,7 @@ ht-degree: 100%
 
 ## 年数を追加 {#add-years}
 
-`addYears` は、増分に正の値を使用し、減分に負の値を使用して、指定された日付を指定された年数で調整します。
+`addYears` 関数は、指定された日付を指定された年数で調整します。増分には正の値を使用し、減分には負の値を使用します。
 
 **構文**
 
@@ -253,7 +253,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## ある月の日付 {#day-month}
 
-`dayOfWeek` は、その月の日付を表す数値を返します。
+`dayOfMonth` は、その月の日付を表す数値を返します。
 
 **構文**
 
@@ -355,7 +355,7 @@ The following operation gets all the values for the map `identityMap`.
 
 +++例
 
-* 入力：`{%= extractMinute(stringToDate("2024-11-01T17:19:51Z"))%}`
+* 入力：`{%= extractMinutes(stringToDate("2024-11-01T17:19:51Z"))%}`
 * 出力：`19`
 
 +++
@@ -639,7 +639,7 @@ The following operation gets all the values for the map `identityMap`.
 
 +++例
 
-* 入力：`truncateToStartOfWeek(stringToDate("2024-11-19T17:19:51Z"))%} // tuesday`
+* 入力：`{%= truncateToStartOfWeek(stringToDate("2024-11-19T17:19:51Z"))%} // tuesday`
 * 出力：`2024-11-18T00:00Z // monday`
 
 +++
