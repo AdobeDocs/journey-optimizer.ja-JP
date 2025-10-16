@@ -10,10 +10,10 @@ role: User
 level: Beginner, Intermediate
 keywords: メールテーマ, モジュール, 再利用性, ブランドの一貫性, メールデザイン, カスタム CSS, モバイルの最適化
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
-source-git-commit: abd5f388a41cc85c710cdb8c8e51c7fe381714ad
+source-git-commit: 12d0869e323a1b3b892bac91ba423029f9c123a5
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 100%
+source-wordcount: '831'
+ht-degree: 97%
 
 ---
 
@@ -127,7 +127,7 @@ If you apply a theme to a content using a [fragment](../content-management/fragm
 
    * ビルトインの[メールテンプレート](use-email-templates.md)を選択して、E メールデザイナーを開きます。各テンプレートに固有のデフォルトのテーマが自動的に適用されます。
 
-   * [新しいコンテンツをゼロから](content-from-scratch.md)デザインし、「**[!UICONTROL テーマを使用]**」を選択して、定義済みのスタイルテーマから開始します。
+   * [ 新規コンテンツをゼロから ](content-from-scratch.md) デザインし、**[!UICONTROL テーマを使用]** を選択して、定義済みのスタイル設定テーマから始めます。
 
      ![](assets/theme-from-scratch.png)
 

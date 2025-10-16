@@ -7,12 +7,12 @@ feature: Email Design
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-keywords: 垂直方向の位置揃え, 電子メールエディター, パディング
+keywords: 垂直方向の整列，メールエディター，パディング
 exl-id: 1e1d90ff-df5d-4432-a63a-a32d0d281d48
-source-git-commit: 7ca149d420f802a6230e699cffefddc4117cb85e
+source-git-commit: 12d0869e323a1b3b892bac91ba423029f9c123a5
 workflow-type: tm+mt
 source-wordcount: '199'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
