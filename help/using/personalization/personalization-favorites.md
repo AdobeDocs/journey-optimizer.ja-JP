@@ -9,16 +9,16 @@ role: Data Engineer
 level: Intermediate
 keywords: 式, エディター, 属性, パーソナライゼーション
 exl-id: d188bb6b-2924-4818-b007-be660cce249c
-source-git-commit: c0afa3e2bc6dbcb0f2f2357eebc04285de8c5773
+source-git-commit: 87245fffb3ad10d51a7500d006dbe69b1905640e
 workflow-type: tm+mt
 source-wordcount: '97'
-ht-degree: 100%
+ht-degree: 83%
 
 ---
 
 # お気に入りに属性を追加 {#fav}
 
-お気に入りメニューに異なる属性を追加すると、最も頻繁に使用する項目にすばやくアクセスできます。属性をお気に入りに追加するには、「...」メニューをクリックし、**[!UICONTROL お気に入りに追加]**&#x200B;を選択します。
+お気に入りメニューに異なる属性を追加すると、最も頻繁に使用する項目にすばやくアクセスできます。 属性をお気に入りに追加するには、「...」メニューをクリックし、**[!UICONTROL お気に入りに追加]**&#x200B;を選択します。
 
 ![](assets/favorite-option.png)
 

@@ -9,7 +9,7 @@ role: Data Engineer
 level: Intermediate
 keywords: 式, エディター, ヘルパー, ユースケース, パーソナライゼーション
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: c9627cfd1d717d56744f0287738b1303194c23e1
+source-git-commit: 87245fffb3ad10d51a7500d006dbe69b1905640e
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 97%
@@ -52,7 +52,7 @@ ht-degree: 97%
 1. スキーマに `productListItems` 配列が含まれるイベントを作成します。
 1. この配列のすべてのフィールドを、このイベントのペイロードフィールドとして定義します。
 
-   商品リスト項目のデータタイプについて詳しくは、[Adobe Experience Platform ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=ja){target="_blank"} を参照してください。
+   商品リスト項目のデータタイプについて詳しくは、[Adobe Experience Platform ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=ja){target="_blank"} を参照してください。
 
 1. このイベントで開始されるジャーニーを作成します。
 1. ジャーニーに&#x200B;**メール**&#x200B;アクティビティを追加します。
@@ -105,7 +105,7 @@ ht-degree: 97%
 
       ![](assets/personalization-uc-helpers-5.png)
 
-      名前データタイプについて詳しくは、[Adobe Experience Platform ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=ja){target="_blank"} を参照してください。
+      ユーザー名データタイプについて詳しくは、[Adobe Experience Platform ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=ja){target="_blank"} を参照してください。
 
 1. 「 **[!UICONTROL 検証]**」をクリックしてから、「**[!UICONTROL 保存]**」をクリックします。
 
@@ -344,4 +344,4 @@ ht-degree: 97%
 
 ヘルパー関数の使用方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416781?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

@@ -9,10 +9,10 @@ role: Data Engineer
 level: Intermediate
 keywords: 式, エディター, 条件, ルール
 exl-id: 246a4a55-059e-462c-ac1e-43b90f4abda4
-source-git-commit: 0ce842816e8a63fabd21483323c664238c32848a
+source-git-commit: 87245fffb3ad10d51a7500d006dbe69b1905640e
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 100%
+source-wordcount: '604'
+ht-degree: 97%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 100%
 
 ## 条件付きルールの保存 {#save}
 
-頻繁に再利用する条件付きルールがある場合は、条件ライブラリに保存できます。保存されたルールはすべて共有され、組織内の個人がアクセスして使用できます。
+頻繁に再利用する条件付きルールがある場合は、条件ライブラリに保存できます。 保存されたルールはすべて共有され、組織内の個人がアクセスして使用できます。
 
 >[!NOTE]
 >
