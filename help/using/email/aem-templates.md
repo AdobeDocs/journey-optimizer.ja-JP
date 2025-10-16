@@ -11,10 +11,10 @@ role: User
 level: Beginner
 badge: label="ベータ版" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: da82432dd15f19ac7db52f491e5afd5ba6d4e3d7
 workflow-type: tm+mt
-source-wordcount: '734'
-ht-degree: 100%
+source-wordcount: '730'
+ht-degree: 95%
 
 ---
 
@@ -29,13 +29,13 @@ Adobe Journey Optimizer を使用すると、Adobe Experience Manager サイト�
 
 ## 前提条件 {#prerequisites}
 
-この機能の使用を開始する前に、次の要件に従っていることを確認してください。
+この機能を使用する前に、次の要件を満たしていることを確認してください。
 
 * **Experience Manager 設定**
 
   この機能は、[Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/overview/introduction.html?lang=ja){target="_blank"} で使用できます。
 
-  ベータ版プログラムの一環として、クラウドサービス設定は、Adobe Experience Manager でアドビが Adobe Journey Optimizer に接続するために実行します。
+  ベータ版プログラムの一環として、Cloud Service設定は、Adobe Journey Optimizerに接続するために、Adobe Experience ManagerでAdobeによって実行されます。
 
 * **権限**
 

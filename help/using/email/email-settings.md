@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 設定, メール, 設定
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: fc12ee65fc773c70b88504a951e5f5c5b2b3b0e6
+source-git-commit: da82432dd15f19ac7db52f491e5afd5ba6d4e3d7
 workflow-type: tm+mt
 source-wordcount: '1401'
-ht-degree: 98%
+ht-degree: 96%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->更新されたメール設定は、設定が使用されているジャーニーまたはキャンペーンで自動的にピックアップされます。
+>更新されたメール設定は、その設定が使用されているジャーニーまたはキャンペーンで自動的にピックアップされます。
 
 ## メールタイプ {#email-type}
 
@@ -73,7 +73,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->非実稼動環境の場合、アドビは、標準のテストサブドメインの作成や、共有送信 IP プールへのアクセスを許可しません。[独自のサブドメインをデリゲート](../configuration/delegate-subdomain.md)して、組織に割り当てられたプールの IP を使用する必要があります。
+>非本番環境の場合、アドビは、標準のテストサブドメインの作成や、共有送信 IP プールへのアクセスを許可しません。[独自のサブドメインをデリゲート](../configuration/delegate-subdomain.md)して、組織に割り当てられたプールの IP を使用する必要があります。
 
 IP プールが選択された後、IP プールのドロップダウンリストの下に表示される IP アドレスにカーソルを合わせると、PTR 情報が表示されます。[PTR レコードについての詳細情報](../configuration/ptr-records.md)
 
