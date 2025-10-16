@@ -57,7 +57,7 @@ ht-degree: 78%
 
 ![](assets/api-triggered-webhook.png)
 
-Webhook 設定は、**[!UICONTROL 管理]**/**[!UICONTROL チャネル]**/**[!UICONTROL フィードバック Webhook]** メニューで一元的に管理されます。 ここから、管理者は webhook エンドポイントを作成および編集できます。 [ フィードバック Webhook の作成方法を学ぶ ](../configuration/feedback-webhooks.md)
+Webhook 設定は、**[!UICONTROL 管理]**/**[!UICONTROL チャネル]**/**[!UICONTROL フィードバック Webhook]** メニューで一元的に管理されます。 ここから、管理者は webhook エンドポイントを作成および編集できます。 [&#x200B; フィードバック Webhook の作成方法を学ぶ &#x200B;](../configuration/feedback-webhooks.md)
 
 ## 次の手順 {#next}
 

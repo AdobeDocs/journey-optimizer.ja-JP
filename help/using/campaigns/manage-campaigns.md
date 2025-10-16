@@ -61,7 +61,7 @@ ht-degree: 99%
 
 また、検索バーとフィルターを使用して、リスト内での検索を簡単にすることができます。例えば、キャンペーンをフィルタリングして、特定のチャネルまたはタグに関連付けられたキャンペーンや、特定の日付範囲中に作成されたキャンペーンのみを表示できます。
 
-キャンペーン在庫の ![「その他のアクション」ボタンを示す画像 ](assets/do-not-localize/rule-builder-icon-more.svg) ボタンを使用すると、以下に説明する様々な操作を実行できます。
+キャンペーン在庫の ![「その他のアクション」ボタンを示す画像 &#x200B;](assets/do-not-localize/rule-builder-icon-more.svg) ボタンを使用すると、以下に説明する様々な操作を実行できます。
 
 ![キャンペーンの在庫を示す画像](assets/inventory-actions.png)
 
@@ -229,7 +229,7 @@ Adobe Journey Optimizer では、各キャンペーンはインターフェイ�
 
 ## キャンペーンの削除 {#delete}
 
-キャンペーンを削除するには、省略記号 ![その他のアクションボタンを示す画像 ](assets/do-not-localize/rule-builder-icon-more.svg) ボタンを使用して、「**[!UICONTROL 削除]**」を選択します。
+キャンペーンを削除するには、省略記号 ![その他のアクションボタンを示す画像 &#x200B;](assets/do-not-localize/rule-builder-icon-more.svg) ボタンを使用して、「**[!UICONTROL 削除]**」を選択します。
 
 ![](assets/delete-a-campaign.png){width="70%" align="left"}
 
@@ -240,7 +240,7 @@ Adobe Journey Optimizer では、各キャンペーンはインターフェイ�
 
 ## キャンペーンの複製 {#duplicate}
 
-キャンペーンを複製するには（例えば、キャンペーンが停止されている場合）、省略記号 ![ その他のアクションボタンを示す画像 ](assets/do-not-localize/rule-builder-icon-more.svg) ボタンを使用して、「**[!UICONTROL 複製]**」を選択します。
+キャンペーンを複製するには（例えば、キャンペーンが停止されている場合）、省略記号 ![&#x200B; その他のアクションボタンを示す画像 &#x200B;](assets/do-not-localize/rule-builder-icon-more.svg) ボタンを使用して、「**[!UICONTROL 複製]**」を選択します。
 
 キャンペーンの名前を入力して確定します。
 
