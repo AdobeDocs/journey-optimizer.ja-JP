@@ -186,4 +186,4 @@ E.g. explaining how a marketer can look at the report to determine which treatme
 
 アクションまたは API トリガーキャンペーンでメッセージの最適化を活用する方法について説明します。 サブオーディエンスをターゲットにする方法、場所ごとにメッセージのバリエーションを作成する方法、フォールバックコンテンツを有効にする方法、単一のキャンペーン内で複数の実験を実行する方法について説明します。また、このチュートリアルでは、メッセージの一貫性を維持しながらマルチチャネルキャンペーンを管理する方法についても説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3470369?captions=jpn&quality=12)
