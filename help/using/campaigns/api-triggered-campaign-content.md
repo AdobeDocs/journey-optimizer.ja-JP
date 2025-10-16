@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: キャンペーン, API トリガー, REST, Optimizer, メッセージ
 exl-id: b7f12c65-c1af-4c49-b126-c13a51940a43
-source-git-commit: 45c95d5682b35c8afb161b75c88942c010b36d1c
+source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
 workflow-type: tm+mt
 source-wordcount: '385'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 

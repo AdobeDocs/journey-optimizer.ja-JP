@@ -10,10 +10,10 @@ mini-toc-levels: 1
 level: Beginner
 keywords: キャンペーンの管理, ステータス, スケジュール, アクセス, Optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 801b90201c3ffcbfb7b038abac2bf99209a14c7a
+source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
 workflow-type: tm+mt
-source-wordcount: '1709'
-ht-degree: 100%
+source-wordcount: '1708'
+ht-degree: 99%
 
 ---
 
@@ -164,7 +164,7 @@ Adobe Journey Optimizer では、各キャンペーンはインターフェイ�
 
    ![外部カレンダーを示すカレンダー表示](assets/campaign-external-calendar.png)
 
-1. イベント名、開始日および終了日を含む CSV ファイルをドラッグ＆ドロップします。
+1. イベント名、開始日および終了日を含む CSV ファイルをドラッグ&amp;ドロップします。
 
    アップロードされたイベントは、組織内のすべてのユーザーが閲覧でき、ジャーニーカレンダーとキャンペーンカレンダーの両方に表示されます。
 

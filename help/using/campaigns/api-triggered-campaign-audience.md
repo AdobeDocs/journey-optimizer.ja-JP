@@ -8,9 +8,9 @@ role: Developer
 level: Experienced
 keywords: キャンペーン, API トリガー, REST, Optimizer, メッセージ
 exl-id: 6dda5687-3742-4e88-be7c-c4969b183161
-source-git-commit: be07b0dfec31d23f741bfc2a9f89fe1a7891ef0b
+source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '487'
 ht-degree: 78%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 78%
 
 ## オーディエンスの選択
 
-**Marketing API トリガーキャンペーンの場合**、「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックして、使用可能なAdobe Experience Platform オーディエンスのリストを表示します。 [詳しくは、オーディエンスについて参照してください](../audience/about-audiences.md)。
+**Marketing API トリガーキャンペーンの場合**、「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックして、使用可能なAdobe Experience Platform オーディエンスのリストを表示します。 [オーディエンスの詳細情報を参照してください](../audience/about-audiences.md)。
 
 >[!IMPORTANT]
 >
@@ -57,7 +57,7 @@ ht-degree: 78%
 
 ![](assets/api-triggered-webhook.png)
 
-Webhook 設定は、**[!UICONTROL 管理]**/**[!UICONTROL チャネル]**/**[!UICONTROL フィードバック Webhook]** メニューで一元的に管理されます。 ここから、管理者は webhook エンドポイントを作成および編集できます。 [&#x200B; フィードバック Webhook の作成方法を学ぶ &#x200B;](../configuration/feedback-webhooks.md)
+Webhook 設定は、**[!UICONTROL 管理]**/**[!UICONTROL チャネル]**/**[!UICONTROL フィードバック Webhook]** メニューで一元的に管理されます。 ここから、管理者は webhook エンドポイントを作成および編集できます。 [ フィードバック Webhook の作成方法を学ぶ ](../configuration/feedback-webhooks.md)
 
 ## 次の手順 {#next}
 
