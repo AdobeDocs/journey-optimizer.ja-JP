@@ -16,7 +16,7 @@ ht-degree: 96%
 
 # システム管理者向けの基礎知識 {#get-started-sys-admins}
 
-[!DNL Adobe Journey Optimizer] の使用を開始する前に、環境を準備するためのいくつかの手順が必要です。[ データエンジニア ](data-engineer.md) と [ジャーニー実践者 ](marketer.md) が [!DNL Adobe Journey Optimizer] の作業を開始できるように、これらの手順を実行する必要があります。
+[!DNL Adobe Journey Optimizer] の使用を開始する前に、環境を準備するためのいくつかの手順が必要です。[&#x200B; データエンジニア &#x200B;](data-engineer.md) と [ジャーニー実践者 &#x200B;](marketer.md) が [!DNL Adobe Journey Optimizer] の作業を開始できるように、これらの手順を実行する必要があります。
 
 **システム管理者**&#x200B;として、**役割を把握し、サンドボックス管理とチャネル設定の権限を割り当てる**&#x200B;必要があります。また、サンドボックスを設定し、使用可能な役割用にサンドボックスを管理する必要もあります。その後で、チームメンバーを役割に割り当てることができます。
 
@@ -33,7 +33,7 @@ ht-degree: 96%
 
 1. **サンドボックス**&#x200B;を含む役割の&#x200B;**権限を設定**&#x200B;し、チームメンバーに様々な役割を割り当てることでアクセス権を付与します。権限は、**[!UICONTROL 役割]**&#x200B;に割り当てる許可を定義できるようにするための単一の権利です。各権限は、機能群（[!DNL Journey Optimizer] のさまざまな機能やオブジェクトに相当するジャーニー、オファーなど）の下に集められています。詳しくは、[権限レベル](../../administration/high-low-permissions.md)の節を参照してください。
 
-さらに、Assets Essentials にアクセスする必要のあるユーザーを **Assets Essentials コンシューマーユーザー**&#x200B;または／および **Assets Essentialsユーザー**&#x200B;の役割に追加する必要があります。詳しくは、[Assets Essentials ドキュメント ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=ja){target="_blank"} を参照してください。
+さらに、Assets Essentials にアクセスする必要のあるユーザーを **Assets Essentials コンシューマーユーザー**&#x200B;または／および **Assets Essentialsユーザー**&#x200B;の役割に追加する必要があります。詳しくは、[Assets Essentials ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=ja){target="_blank"} を参照してください。
 
 >[!NOTE]
 >2022年1月6日（PT）より前に入手した Journey Optimizer 製品の場合、組織に [!DNL Adobe Experience Manager Assets Essentials] をデプロイする必要があります。詳しくは、[Assets Essentials のデプロイ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=ja){target="_blank"}の節を参照してください。
