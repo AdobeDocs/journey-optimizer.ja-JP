@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1a5f6be689c9e91ee0dc0b5f024dbe8020424337
+source-git-commit: f06a9d01721ff23dfdf95db8d984143bb36fe85c
 workflow-type: tm+mt
-source-wordcount: '1281'
-ht-degree: 29%
+source-wordcount: '1209'
+ht-degree: 40%
 
 ---
 
@@ -29,40 +29,7 @@ ht-degree: 29%
 
 ### 新機能 {#oct-25-10-features}
 
-<table>
-<thead>
-<tr>
-<th><strong>ジャーニーのダイレクトメールチャネル</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>以前はキャンペーンに限定されていましたが、ダイレクトメールチャネルがジャーニーキャンバスで使用できるようになり、ダイレクトメールをジャーニーに組み込めるようになりました。 ダイレクトメールは、ファイル抽出の設定と時間ベースの頻度設定のサポートにより、バッチと 1 対 1 のジャーニーシナリオの両方で使用できるようになりました。</p>
-<p> この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。</p>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
-</td>
-</tr>
-</tbody>
-</table>
 
-<table>
-<thead>
-<tr>
-<th><strong>アクションキャンペーンを取得する新しい API</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>新しいJourney Optimizer API が使用できるようになりました。これにより、詳細、バージョン、設定など、キャンペーン関連のデータをプログラムで取得し、調べることができます。</p>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
@@ -115,6 +82,41 @@ ht-degree: 29%
 <tr>
 <td>
 <p>ダイレクトメールチャネルを調整されたキャンペーンで使用できるようになりました。 ダイレクトメールアクティビティでは、調整されたキャンペーン内でのダイレクトメール送信が促進され、1 回限りのメッセージと繰り返しメッセージの両方を送信できます。これは、ダイレクトメールプロバイダーが必要とする抽出ファイルを生成するプロセスを自動化するのに役立ちます。チャネルアクティビティを調整されたキャンペーンキャンバスに組み合わせて、顧客の行動とデータに基づいてアクションをトリガーできるクロスチャネルキャンペーンを作成できます。</p>
+<!--img src="assets/do-not-localize/FILE.gif"-->
+<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>ジャーニーのダイレクトメールチャネル</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>以前はキャンペーンに限定されていましたが、ダイレクトメールチャネルがジャーニーキャンバスで使用できるようになり、ダイレクトメールをジャーニーに組み込めるようになりました。 ダイレクトメールは、ファイル抽出の設定と時間ベースの頻度設定のサポートにより、バッチと 1 対 1 のジャーニーシナリオの両方で使用できるようになりました。</p>
+<p> この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。</p>
+<!--img src="assets/do-not-localize/FILE.gif"-->
+<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>アクションキャンペーンを取得する新しい API</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>新しいJourney Optimizer API が使用できるようになりました。これにより、詳細、バージョン、設定など、キャンペーン関連のデータをプログラムで取得し、調べることができます。</p>
 <!--img src="assets/do-not-localize/FILE.gif"-->
 <!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
 </td>
@@ -193,20 +195,18 @@ ht-degree: 29%
 </tr>
 </tbody>
 </table>
-
 <table>
 <thead>
 <tr>
-<th><strong>新しい実行メタデータヘルパー関数</strong><br/></th>
+<th><strong>実行メタデータヘルパー</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>新しい executionMetadata ヘルパー関数が、パーソナライゼーションエディターで使用できます。 これを使用すると、任意のネイティブアクションにコンテキスト情報を追加し、外部システムに書き出すためにデータセットに取得できます。</p>
-<p>この機能は、一連の組織でのみ使用できます（限定提供）。アクセスするには、アドビ担当者にお問い合わせください。</p>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+<p>新しい「executionMetadata」ヘルパー関数がパーソナライゼーションエディターで使用できます。 これを使用すると、任意のネイティブアクションにコンテキスト情報を追加し、外部システムに書き出すためにデータセットに取得できます。</p>
+<p>この機能は、限定提供です。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
+<p>詳しくは、<a href="../personalization/functions/helpers.md#execution-metadata">詳細なドキュメント</a>を参照してください</p>
 <p>公開日：2025 年 10 月 13 日（PT）</p>
 </td>
 </tr>
@@ -216,22 +216,40 @@ ht-degree: 29%
 <table>
 <thead>
 <tr>
-<th><strong>実験エージェント</strong><br/></th>
+<th><strong>実験エージェントが登場！</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>実験エージェントは、Web サイト、メール、プッシュメッセージおよびアプリケーションをまたいでデジタル実験を実行および管理する方法を最新化する、AI を利用したツールです。 Adobe Experience Platform AI プラットフォームと実験ツール上に構築された実験エージェントは、実験をより効率的に実行し、ビジネス目標を整理し、成功した内容、失敗した内容、次に実験する場所に焦点を当てた実用的なインサイトを生成するのに役立ちます。</p>
-<p>新しいExperimentation Accelerator機能の一部として、エージェントは次の機能を提供します。</p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator.html" target="_blank">Adobe Experience Platform Agent Orchestrator</a> を活用し、Journey Optimizerで実験エージェントを利用できます。 </p>
+<p>実験エージェントは、Web サイト、メール、プッシュメッセージおよびアプリケーションをまたいでデジタル実験を実行および管理する方法を最新化する、AI を利用したツールです。 これにより、実験をより効率的に実行し、ビジネス目標を整理し、うまくいったこと、うまくいかなかったこと、次に実験する場所を強調表示した、実用的なインサイトを生成できます。</p>
+<p>詳しくは、<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">詳細なドキュメント</a>を参照してください。</p>
+<p>公開日：2025 年 10 月 10 日（PT）</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>メールへの PDF 添付ファイル</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizer で送信されるメールメッセージに静的 PDF ファイルを添付できるようになりました。</p>
 <ul>
-<li><strong> パフォーマンス：</strong> 実験で発生したことを明確に把握します</li>
-<li><strong> インサイト：</strong> 結果が発生した理由の説明</li>
-<li><strong> 機会：</strong> 実行する次のアクションに関するガイダンス</li>
+<li>プロファイルごとに、年間最大 6 件の PDF 添付ファイル付きメッセージを送信できます。</li>
+<li>各添付ファイルの最大許容ファイルサイズは 5 MB です。</li>
+<li>追加のサイズまたはボリュームについては、PDF 添付ファイルアドオンを購入できます。詳しくは、アドビ担当者にお問い合わせください。</li>
 </ul>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
-<p>公開日：2025 年 10 月 9 日（PT）</p>
+<p>この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。</p>
+<p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
+<p>詳しくは、<a href="../email/pdf-attachments.md">詳細なドキュメント</a>を参照してください。</p>
+<p>公開日：2025 年 9 月 30 日（PT）</p>
 </td>
 </tr>
 </tbody>
@@ -247,43 +265,40 @@ ht-degree: 29%
 <tr>
 <td>
 <p>ジャーニーと、キャンペーンやサーフェスなどの関連オブジェクトを取得する新しいJourney Optimizer API が使用できるようになりました。</p>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+<p>詳しくは、<a href="https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve/">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2025 年 9 月 25 日（PT）</p>
 </td>
 </tr>
 </tbody>
 </table>
 
+
 ### 機能強化
 
-- **キャンペーン、エクスペリエンス決定、ジャーニー**
-   - **ターゲティングでの再利用可能なルールの選択** - ジャーニーやキャンペーンでメッセージの最適化機能を使用してターゲティングルールを使用する際に、ルールビルダーを活用できるようになりました。<!-- [Read more](../FILE.md) -->
+**ターゲティングでの再利用可能なルールを選択**
 
-- **チャネル - WhatsApp**
-   - **WhatsApp チャネルの実行フィールド** - メールと SMS に加えて、WhatsApp のデフォルトの実行フィールドを更新できるようになりました。 また、WhatsApp ジャーニーアクティビティの詳細設定パラメーターまたは WhatsApp チャネル設定でグローバルに設定された実行フィールドを上書きすることもできます。<!-- [Read more](../FILE.md) -->
+ジャーニーやキャンペーンで、メッセージの最適化機能を使用してターゲティングルールを使用する際に、ルールビルダーを活用できるようになりました。<!-- [Read more](../FILE.md) -->
 
-- **権限**
-   - **ジャーニー/キャンペーンの作成者が承認できないようにする** – 承認ポリシーを作成または設定する際に、ジャーニー/キャンペーンの作成者が独自のオブジェクトを承認できないようにするオプションを追加しました。<!-- [Read more](../FILE.md) -->
+**WhatsApp チャネルの実行フィールド**
 
-- **チャネル - プッシュ**
-   - **モバイルライブアクティビティ – プライベートベータ版** - ライブアクティビティは、モバイルアプリ内でリアルタイムの更新とインタラクティブなエクスペリエンスを提供し、ユーザーが進行中のイベントやタスクに関する情報をデバイスの画面に直接表示できるようにします。 この機能は、ユーザーがアプリを開くことなく、進行状況の追跡、イベントの更新、インタラクティブコンテンツなどのライブ情報を配信することで、エンゲージメントを強化します。<!-- [Read more](../FILE.md) -->
+メールと SMS に加えて、WhatsApp のデフォルトの実行フィールドを更新できるようになりました。 また、WhatsApp ジャーニーアクティビティの詳細設定パラメーターまたは WhatsApp チャネル設定でグローバルに設定された実行フィールドを上書きすることもできます。<!-- [Read more](../FILE.md) -->
 
-- **ジャーニー**
-   - **新しいジャーニーアラート** – 公開日：2025 年 10 月 14 日（PT）
-ジャーニーに対して、新しい事前設定されたアラートを使用できます。プロファイル破棄率を超えています（過去 5 分に入力したプロファイルに対するプロファイル破棄の割合がしきい値を超えています）、カスタムアクションエラー率を超えています（過去 5 分に成功した HTTP 呼び出しに対するカスタムアクションエラーの割合がしきい値を超えています）。<!-- [Read more](../FILE.md) -->
+**権限**
 
-- **設定**
-   - **ワンクリック登録解除 URL でのカスタム属性のサポート** – 公開日：2025 年 10 月 6 日（PT）
-Journey Optimizerを使用すると、Adobe外で同意を管理している場合に、メール設定で独自のワンクリック購読解除リンクを定義することで、外部カスタムエンドポイントを設定できます。 受信者が購読解除リンクをクリックすると、Journey Optimizerによって、プロファイル固有のデフォルトのパラメーターが同意更新イベントに追加されます。 登録解除メールアドレスをさらにパーソナライズするために、同意イベントに追加されるカスタム属性を定義できるようになりました。この機能は、8 月 25 日（PT）以降、カスタムのワンクリック購読解除 URL で既に使用できるようになり、限定提供で宛先（登録解除） オプション用にリリースされました。 アクセス権を取得するには、Adobe担当者にお問い合わせください。<!-- [Read more](../FILE.md) -->
+**新しいジャーニーアラート**
 
-- **チャネル - メール**
-   - **メールへのPDF添付ファイル** – 公開日：2025 年 9 月 30 日（PT）
-Journey Optimizerで送信されるメールメッセージに、静的PDF ファイルを添付できるようになりました。 プロファイルごとに、PDFの添付ファイルを含むメッセージを年間 6 件まで送信できます。 各添付ファイルに許可される最大ファイルサイズは 5 MB です。 その他のサイズまたはボリュームについては、PDF添付ファイルアドオンを購入できます。 詳しくは、アドビ担当者にお問い合わせください。
+[ プロファイル破棄率を超過 ](../reports/alerts.md#alert-discard-rate) （過去 5 分に入力したプロファイルに対するプロファイル破棄の割合がしきい値を超えています）、[ カスタムアクションエラー率を超過 ](../reports/alerts.md#alert-custom-action-error-rate) （過去 5 分に成功した HTTP 呼び出しに対するカスタムアクションエラーの割合がしきい値を超えています）、[ プロファイルエラー率を超過 ](../reports/alerts.md#alert-profile-error-rate) （過去 5 分に入力したプロファイルに対するエラーの割合）のジャーニーに使用できます。 しきい値を変更し、グローバルではなく個々のジャーニーレベルのアラートを登録できます。
 
-  >[!AVAILABILITY]
-  >
-  >以前は限定提供でリリースされていましたが、この改善はすべての環境で利用できるようになりました（一般提供）。
+公開日：2025 年 10 月 14 日（PT）
 
-  <!-- [Read more](../FILE.md) -->
+**Mailto （登録解除）アドレスのカスタム属性のサポート**
 
+Journey Optimizerを使用すると、Adobe外で同意を管理している場合に、独自のワンクリック購読解除リンクとカスタム購読解除メールアドレスをメール設定に定義することで、外部カスタムエンドポイントを設定できます。 受信者が登録解除リンクをクリックすると、Journey Optimizer では、同意更新イベントにいくつかのデフォルトのプロファイル固有のパラメーターが追加されます。
+
+カスタムエンドポイントをさらにパーソナライズするために、同意イベントにも追加されるカスタム属性を定義できるようになりました。 [詳細情報](../email/list-unsubscribe.md#custom-attributes)
+
+>[!AVAILABILITY]
+>
+>この機能は、8 月 25 日（PT）以降、カスタム **[!UICONTROL ワンクリック登録解除 URL]** で既に使用できるようになり、限定提供の **[!UICONTROL 宛先（登録解除）]** オプションでリリースされました。 アクセス権を取得するには、アドビ担当者にお問い合わせください。
+
+公開日：2025 年 10 月 6 日（PT）
