@@ -7,7 +7,7 @@ feature: Get Started
 role: Data Engineer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: 1a2c6e97fcd30245cff1bf08fd5771ce8bc84ddc
+source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
 workflow-type: tm+mt
 source-wordcount: '572'
 ht-degree: 100%
@@ -33,7 +33,7 @@ ID 名前空間、プロファイルに対して有効化されたデータセ�
 
 1. **データセットを作成**&#x200B;してプロファイルに対して有効にします。データセットは、スキーマ（列）とフィールド（行）で構成されるデータコレクション（通常はテーブル）を格納し管理するための構造です。データセットには、保存するデータの様々な側面を記述したメタデータも含まれます。データセットを作成したら、既存のスキーマにマッピングし、データを追加できます。データセットについて詳しくは、[このページ](../../data/get-started-datasets.md)を参照してください。
 
-1. **ソースコネクタを設定**&#x200B;します。Adobe Experience Platform では、外部ソースからデータを取り込みながら、Platform サービスを使用して入力データの構造化、ラベル付けおよび強化を行うことができます。アドビのアプリケーション、クラウドベースのストレージ、データベースなど、様々なソースからデータを取り込むことができます。ソースコネクタについて詳しくは、[このページ](../get-started-sources.md)を参照してください。
+1. **ソースコネクタを設定**&#x200B;します。Adobe Journey Optimizer では、外部ソースからデータを取り込みながら、Platform サービスを使用して入力データの構造化、ラベル付けおよび強化を行うことができます。アドビのアプリケーション、クラウドベースのストレージ、データベースなど、様々なソースからデータを取り込むことができます。ソースコネクタについて詳しくは、[このページ](../get-started-sources.md)を参照してください。
 
 1. **テストプロファイルを作成**&#x200B;します。ジャーニーで[テストモード](../../building-journeys/testing-the-journey.md)を使用する際や、送信前に[メッセージをプレビューしてテストする](../../content-management/preview-test.md)には、テストプロファイルが必要です。テストプロファイルの作成手順について詳しくは、[このページ](../../audience/creating-test-profiles.md)を参照してください。
 

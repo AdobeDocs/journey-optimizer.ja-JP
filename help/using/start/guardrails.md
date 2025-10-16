@@ -9,16 +9,16 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 5bc1a3a3e41d50890237fbc431bffab921d7d19f
+source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
 workflow-type: tm+mt
 source-wordcount: '2823'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
 # ガードレールと制限 {#limitations}
 
-[!DNL Adobe Journey Optimizer] を使用する際には、さらに以下のガードレールと制限事項があります。
+[!DNL Adobe Journey Optimizer] を使用する際の追加のガードレールと制限を以下に示します。
 
 使用権限、製品の制限事項、パフォーマンスガードレールの一覧については、[Adobe Journey Optimizer 製品説明ページ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}を参照してください。
 
@@ -274,4 +274,4 @@ Adobe Experience Platform では、API ベースのプロファイルの作成�
 
 ## キャンペーンオーケストレーションガードレール {#orchestration-guardrails}
 
-Campaign オーケストレーションを使用する際に留意するガードレールと制限について詳しくは、この節 [&#x200B; ガードレールと制限 &#x200B;](../orchestrated/guardrails.md) を参照してください。
+Campaign オーケストレーションを使用する際に留意するガードレールと制限について詳しくは、この節 [ ガードレールと制限 ](../orchestrated/guardrails.md) を参照してください。

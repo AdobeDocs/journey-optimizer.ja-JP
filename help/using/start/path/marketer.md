@@ -2,21 +2,21 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Journey Optimizer の基本を学ぶ（マーケター向け）
-description: ジャーニー実務担当者向けに Journey Optimizer の操作方法の詳細について説明します
+description: ジャーニー実務担当者には、Journey Optimizerの操作方法の詳細について説明します
 level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
 workflow-type: tm+mt
 source-wordcount: '466'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
 # マーケター向けの基礎知識 {#get-started-marketers}
 
-**マーケター**&#x200B;つまり&#x200B;**ジャーニー実務担当者**&#x200B;は、オファーおよびジャーニーの作成とコンテンツのデザインを担当します。[システム管理者](administrator.md)と[データエンジニア](data-engineer.md)からアクセス権を付与され、環境の準備ができたら、[!DNL Adobe Journey Optimizer] での作業を開始できます。
+**マーケター** または **ジャーニー実務担当者** は、オファーおよびジャーニーの作成と、コンテンツのデザインを担当します。 [システム管理者](administrator.md)と[データエンジニア](data-engineer.md)からアクセス権を付与され、環境の準備ができたら、[!DNL Adobe Journey Optimizer] での作業を開始できます。
 
 初めてのジャーニーをセットアップし、オファーとアセットを追加して、メッセージを送信するには、以下の節を参照してください。
 
