@@ -10,10 +10,10 @@ level: Intermediate
 keywords: ジャーニー, 最初, 開始, クイックスタート, オーディエンス, イベント, アクション
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
-source-git-commit: 12ece43b9a52150baa71fab09653c6212aea6643
-workflow-type: ht
-source-wordcount: '1444'
-ht-degree: 100%
+source-git-commit: 118bf89f56d26213fde71fa795fc6576ce764ef2
+workflow-type: tm+mt
+source-wordcount: '1443'
+ht-degree: 99%
 
 ---
 
@@ -81,7 +81,7 @@ ht-degree: 100%
 
    ![外部カレンダーを示すカレンダー表示](assets/journey-calendar-2.png)
 
-1. イベント名、開始日および終了日を含む CSV ファイルをドラッグ＆ドロップします。
+1. イベント名、開始日および終了日を含む CSV ファイルをドラッグ&amp;ドロップします。
 
    アップロードされたイベントは、組織内のすべてのユーザーが閲覧でき、ジャーニーカレンダーとキャンペーンカレンダーの両方に表示されます。
 

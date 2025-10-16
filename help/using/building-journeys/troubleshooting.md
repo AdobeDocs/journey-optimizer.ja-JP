@@ -10,10 +10,10 @@ level: Intermediate
 keywords: トラブルシューティング, ジャーニー, チェック, エラー
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 118bf89f56d26213fde71fa795fc6576ce764ef2
 workflow-type: tm+mt
 source-wordcount: '456'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 この節では、テストまたは公開の前にジャーニーをトラブルシューティングする方法について説明します。以下に示すチェックはすべて、ジャーニーがテストモードの場合、またはジャーニーがライブの場合に実行できます。レコメンデーションは、テストモードで以下のすべてのチェックを行い、公開に進むことです。テストモードについて詳しくは、[このページ](../building-journeys/testing-the-journey.md)を参照してください。
 
-ジャーニーイベントのトラブルシューティングを行う方法と、プロファイルがジャーニーにエントリしたかどうか、プロファイルがジャーニーをどのように移動したか、メッセージが送信されたかどうかを確認する方法について詳しくは、[このページ](troubleshooting-execution.md)を参照してください。
+ジャーニーイベントのトラブルシューティング方法、プロファイルがジャーニーにエントリしたかどうか、ジャーニー内を移動するかどうか、メッセージが送信されたかどうかを [ このページ ](troubleshooting-execution.md) で確認する方法について説明します。
 
 インバウンドアクションを使用している場合、トラブルシューティングを行う方法について詳しくは、[このページ](troubleshooting-inbound.md)を参照してください。
 

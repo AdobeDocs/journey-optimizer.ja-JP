@@ -10,10 +10,10 @@ level: Intermediate
 keywords: ジャーニー, 最初, 開始, クイックスタート, オーディエンス, イベント, アクション
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
-source-git-commit: 96b8813ebad35f51986cc62d847d9d3d256b08be
+source-git-commit: 118bf89f56d26213fde71fa795fc6576ce764ef2
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 100%
+source-wordcount: '766'
+ht-degree: 97%
 
 ---
 
@@ -90,7 +90,7 @@ Adobe Journey Optimizer には、マーケターがマーケティングアウ�
 
    ![](assets/read-segment.png)
 
-1. まず、イベントまたは&#x200B;**オーディエンスを読み取り**&#x200B;アクティビティを、パレットからキャンバスにドラッグ＆ドロップします。ジャーニーのデザインについて詳しくは、[この節](using-the-journey-designer.md)を参照してください。
+1. イベントまたは **オーディエンスを読み取り** アクティビティを、パレットからキャンバスにドラッグ&amp;ドロップします。 ジャーニーのデザインについて詳しくは、[この節](using-the-journey-designer.md)を参照してください。
 
 ## ジャーニーのテスト {#jo-test}
 

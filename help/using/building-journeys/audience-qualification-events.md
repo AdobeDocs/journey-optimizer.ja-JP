@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 選定, イベント, オーディエンス, ジャーニー, プラットフォーム
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 118bf89f56d26213fde71fa795fc6576ce764ef2
 workflow-type: tm+mt
 source-wordcount: '1203'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->オーディエンスの選定の設定を開始する前に、[ガードレールと制限のトピックに目を通してください](#audience-qualification-guardrails)。
+>オーディエンスの選定の設定を開始する前に、[ ガードレールと制限事項 ](#audience-qualification-guardrails) を参照してください。
 
 
 ## アクティビティの設定 {#configure-segment-qualification}
@@ -162,4 +162,4 @@ ht-degree: 100%
 
 オーディエンスの選定ジャーニーに当てはまるユースケースについて、このビデオで説明します。オーディエンスの選定を使用してジャーニーを構築する方法と、適用するベストプラクティスについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3446205?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
