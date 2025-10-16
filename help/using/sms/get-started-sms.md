@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: b5ea41cec72fb80dd2fcc3aa467e80cd293fd239
+source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 100%
+source-wordcount: '268'
+ht-degree: 92%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 テキストメッセージは、ジャーニーまたはキャンペーンで作成して送信できます。SMS、MMS、RCS の場合は、SMS アクションを使用します。
 
-* **ジャーニー**&#x200B;の場合：ジャーニーを作成し、SMS アクティビティを追加し、基本設定を定義します。次に、アクション：SMS の右側のパネルを参照して、SMS、MMS または RCS メッセージのコンテンツを作成します。[ジャーニーを作成する方法について説明します](../building-journeys/journey-gs.md)
+* **ジャーニー**&#x200B;の場合：ジャーニーを作成し、SMS アクティビティを追加し、基本設定を定義します。次に、右側の SMS アクションパネルを参照して、SMS、MMS、または RCS メッセージのコンテンツを作成します。 [ジャーニーを作成する方法について説明します](../building-journeys/journey-gs.md)
 
 * **キャンペーン**&#x200B;の場合：キャンペーンを作成し、アクションとして SMS を選択し、基本設定を定義します。次に、メッセージコンテンツを編集して、送信する SMS、MMS または RCS メッセージを定義します。[キャンペーンを作成する方法について説明します](../campaigns/create-campaign.md#configure)
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer では、SMS サービスプロバイダー（または 
 
   +++こちらのビデオをご覧ください
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3422696?learn=on&captions=jpn)
+  >[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
   +++
 
@@ -79,7 +79,7 @@ Adobe Journey Optimizer では、SMS サービスプロバイダー（または 
 
   +++こちらのビデオをご覧ください
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3430376?quality=12&learn=on&captions=jpn)
+  >[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
   +++
 
@@ -88,6 +88,6 @@ Adobe Journey Optimizer では、SMS サービスプロバイダー（または 
 
   +++こちらのビデオをご覧ください
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3464756?captions=jpn)
+  >[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
   +++

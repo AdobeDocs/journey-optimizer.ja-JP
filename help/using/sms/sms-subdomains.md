@@ -8,10 +8,10 @@ feature: SMS, Channel Configuration
 level: Intermediate
 keywords: SMS, サブドメイン, 設定
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
-source-git-commit: 9f66606e2673554f7dfb40dd48cfc17eca2ca06b
+source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
 workflow-type: tm+mt
 source-wordcount: '1008'
-ht-degree: 87%
+ht-degree: 85%
 
 ---
 
@@ -157,4 +157,4 @@ SMS サブドメインが CNAME レコードを指している場合は、SMS �
 >
 >SMS サブドメインは、[CNAME メソッド](../configuration/delegate-subdomain.md#cname-subdomain-setup)を使用してアドビにデリゲートされた[既存のサブドメイン](#sms-use-existing-subdomain)であるか、ユーザーが設定した[新しい SMS サブドメイン](#sms-configure-new-subdomain)のいずれかであるので、CNAME レコードを指すことができます。
 
-アドビがリクエストを処理すると、デリゲート解除したドメインはサブドメイン在庫ページに表示されなくなります。
+リクエストがAdobeで処理されると、デリゲートされていないドメインはサブドメインインベントリページに表示されなくなります。
