@@ -30,7 +30,7 @@ ht-degree: 97%
 
 <!--[Learn how to create a code-based campaign in this video](#video)-->
 
-➡️ コンテンツ実験を使用して決定をコードベースのエクスペリエンスチャネルと比較する方法を示すエンドツーエンドのユースケースについては、[ この節 ](../experience-decisioning/experience-decisioning-uc.md) を参照してください。
+➡️ コンテンツ実験を使用して決定をコードベースのエクスペリエンスチャネルと比較する方法を示すエンドツーエンドのユースケースについては、[&#x200B; この節 &#x200B;](../experience-decisioning/experience-decisioning-uc.md) を参照してください。
 
 ## コードベースのチャネルと他のチャネルを使用する場合 {#code-based-vs-other-channels}
 

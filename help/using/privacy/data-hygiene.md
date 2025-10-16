@@ -38,4 +38,4 @@ Adobe Experience Platform にデータが継続的に取り込まれるので、
 Privacy Service とデータライフサイクル操作の実行方法について詳しくは、Adobe Experience Platform のドキュメントを参照してください。
 
 * [Privacy Service の概要](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja)
-* [Adobe Experience Platformのデータライフサイクル ](https://experienceleague.adobe.com/docs/experience-platform/hygiene/home.html?lang=ja)
+* [Adobe Experience Platformのデータライフサイクル &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/hygiene/home.html?lang=ja)
