@@ -34,7 +34,7 @@ ht-degree: 88%
 
 1. [パーソナライゼーションエディター](personalization-build-expressions.md)を開き、左側のパネルで「**[!UICONTROL フラグメント]**」ボタンを選択します。
 
-   リストには、現在のサンドボックスで作成またはフラグメントとして保存されたすべての式フラグメントが表示されます。[ フラグメントの作成方法を学ぶ ](../content-management/create-fragments.md)
+   リストには、現在のサンドボックスで作成またはフラグメントとして保存されたすべての式フラグメントが表示されます。[&#x200B; フラグメントの作成方法を学ぶ &#x200B;](../content-management/create-fragments.md)
 作成日で並べ替えられ、最近追加された式のフラグメントがリストの最初に表示されます。
 
    ![](assets/expression-fragments-pane.png)
@@ -73,7 +73,7 @@ ht-degree: 88%
 
 >[!NOTE]
 >
->複数の改行を含む式フラグメントを作成し、[SMS](../sms/create-sms.md#sms-content) または[プッシュ](../push/design-push.md)コンテンツで使用する場合、改行は保持されます。したがって、送信する前に [SMS](../sms/send-sms.md) または [ プッシュ ](../push/send-push.md) メッセージをテストしてください。
+>複数の改行を含む式フラグメントを作成し、[SMS](../sms/create-sms.md#sms-content) または[プッシュ](../push/design-push.md)コンテンツで使用する場合、改行は保持されます。したがって、送信する前に [SMS](../sms/send-sms.md) または [&#x200B; プッシュ &#x200B;](../push/send-push.md) メッセージをテストしてください。
 
 ## 暗黙的変数の使用 {#implicit-variables}
 
