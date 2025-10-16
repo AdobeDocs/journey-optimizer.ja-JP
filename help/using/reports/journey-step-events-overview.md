@@ -149,7 +149,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
 
 **データ品質**
 
-- データの問題を特定するために [ 破棄されたイベント ](sharing-field-list.md#discarded-events) を定期的に監視する
+- データの問題を特定するために [&#x200B; 破棄されたイベント &#x200B;](sharing-field-list.md#discarded-events) を定期的に監視する
 - イベントスキーマが分析要件に一致することの検証
 - カスタムクエリに適切なエラー処理を実装
 
@@ -180,7 +180,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
 ### ドキュメントリンク {#documentation-links}
 
 - **[ジャーニーステップ共有の概要](sharing-overview.md)**: ジャーニーデータがAdobe Experience Platformにどのようにフローするかについて
-- **[ビルトインスキーマディクショナリ ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja)**：完全な XDM スキーマリファレンス
+- **[ビルトインスキーマディクショナリ &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja)**：完全な XDM スキーマリファレンス
 - **[Journey Optimizer レポート](report-gs-cja.md)**: Journey Optimizerのレポート機能の概要
 
 ### 統合ガイド {#integration-guides}
