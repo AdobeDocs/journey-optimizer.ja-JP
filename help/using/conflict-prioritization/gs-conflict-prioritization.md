@@ -4,10 +4,10 @@ description: Journey Optimizer の競合と優先順位付けツールを活用�
 role: User
 level: Beginner
 exl-id: 9dc0cd89-d29a-42d2-a73f-d95f9c39c86e
-source-git-commit: 8146221975b7460bf1deaca9363d1624b719b480
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '629'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -25,7 +25,7 @@ Journey Optimizer では、過剰な数のインタラクションで顧客が�
 
 **競合検出ツール**&#x200B;を使用すると、ジャーニーとキャンペーンの潜在的な重複を特定できます。同時に過剰なコミュニケーションが提供されると顧客疲労を引き起こす可能性があるので、これは重要です。Journey Optimizer を使用すると、タイムライン、オーディエンスの重複、チャネル設定などの要素を監視できます。競合を早期に特定することで、キャンペーンを絞り込み、顧客に複数のメッセージが同時に送信されるのを回避できます。
 
-➡️ [ジャーニーとキャンペーンの潜在的な競合の検出方法を学ぶ](conflicts.md)
+➡️[ ジャーニーとキャンペーンで潜在的な競合を検出する方法を説明します ](conflicts.md)
 
 ### 優先度スコア
 

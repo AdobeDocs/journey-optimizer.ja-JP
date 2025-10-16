@@ -6,16 +6,16 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: b83bdade-7275-4eef-9c49-fc1d157cee0d
-source-git-commit: dccaaa0588b504c1c00ce25fd6bbb4f34652ec91
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 100%
+source-wordcount: '552'
+ht-degree: 96%
 
 ---
 
 # コンテンツカードコンテンツのデザイン {#design-content-card}
 
-カードのオーサリング構造は、フォームベースのオーサリングエクスペリエンスを提供し、マーケターが基本入力を提供できるようにします。この入力は開発者がレンダリングするのに使用できます。
+カードのオーサリング構造は、開発者がレンダリングできる基本的な入力をマーケターに提供する、フォームベースのオーサリングエクスペリエンスを提供します。
 
 コンテンツを定義し、パーソナライズしたら、レビューしてアクティブ化できます。設定したスケジュールに従ってキャンペーンが送信されます。[詳しくは、このページを参照してください](../campaigns/review-activate-campaign.md)。
 

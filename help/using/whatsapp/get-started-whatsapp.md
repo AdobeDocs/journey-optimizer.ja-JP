@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
-source-git-commit: 31e25c511d8873e54c7b92e65511108a77f84941
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '320'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -34,7 +34,7 @@ WhatsApp を Journey Optimizer と統合するには、次が必要です。
 * [適切な権限を持つユーザー認証トークン](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)
 * [承認済み Meta テンプレート](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/)
 
-統合を進める前に、次も確認する必要があります。
+統合を進める前に、以下についても確認する必要があります。
 
 * [WhatsApp コンテンツルール](https://www.whatsapp.com/legal/messaging-guidelines)
 * [Meta ポリシーへの準拠](https://www.whatsapp.com/legal)
@@ -58,7 +58,7 @@ WhatsApp を Journey Optimizer と統合するには、次が必要です。
 
 +++ こちらのビデオをご覧ください
 
->[!VIDEO](https://video.tv.adobe.com/v/3470245?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3470244?learn=on)
 
 +++
 

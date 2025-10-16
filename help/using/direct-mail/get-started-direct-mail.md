@@ -1,15 +1,15 @@
 ---
 title: ダイレクトメールの基本を学ぶ
-description: Journey Optimizer でダイレクトメールメッセージを作成する方法を説明します
+description: Journey Optimizer でダイレクトメールメッセージを作成する方法を学ぶ
 feature: Direct Mail
 topic: Content Management
 role: User
 level: Beginner
 keywords: ダイレクトメール, メッセージ, キャンペーン
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
-source-git-commit: 6865131089122419a7d2f41bd7c6a36d144aa71c
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '236'
 ht-degree: 94%
 
 ---

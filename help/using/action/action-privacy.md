@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: データ, ガバナンス, DULE, ラベル, ラベル付け, Platform, ポリシー
 exl-id: be3efd3b-35d5-4cf7-9015-29d1e305355d
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '1290'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -66,7 +66,7 @@ Journey Optimizer でデータガバナンスポリシーを適用するには�
 
 ### ジャーニーとキャンペーンにマーケティングアクションを適用{#journeys-campaigns}
 
-ガバナンスポリシーを作成したら、関連するマーケティングアクションを Journey Optimizer **チャネル設定**&#x200B;内に適用する必要があります。それには、次の手順に従います。
+ガバナンスポリシーを作成したら、関連するマーケティングアクションをJourney Optimizer **チャネル設定** に適用する必要があります。 それには、次の手順に従います。
 
 1. **[!UICONTROL チャネル]**／**[!UICONTROL 一般設定]**／**[!UICONTROL チャネル設定]**&#x200B;メニューにアクセスします。
 

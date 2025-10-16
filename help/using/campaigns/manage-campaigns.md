@@ -10,10 +10,10 @@ mini-toc-levels: 1
 level: Beginner
 keywords: キャンペーンの管理, ステータス, スケジュール, アクセス, Optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
-source-wordcount: '1708'
-ht-degree: 99%
+source-wordcount: '1707'
+ht-degree: 94%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 99%
 >title="アクション"
 >abstract="この節では、調整されたキャンペーン内で使用されるすべてのアクションを示します。"
 
-キャンペーンは、**[!UICONTROL キャンペーン]**&#x200B;メニューからアクセスできます。以下のタブを使用して、**アクション**&#x200B;キャンペーン、**API トリガー**&#x200B;キャンペーン、**オーケストレーション**&#x200B;キャンペーンなどのタイプ別にキャンペーンを参照します。詳しくは、[キャンペーンのタイプ](get-started-with-campaigns.md#get-started-with-campaigns)を参照してください。使用可能なタイプは、ライセンス契約と権限によって異なります。
+キャンペーンは、**[!UICONTROL キャンペーン]**&#x200B;メニューからアクセスできます。タブを使用して、タイプ（**アクション** キャンペーン、**API トリガー** キャンペーン、および **オーケストレーション** キャンペーン別にキャンペーンを参照します。 [ キャンペーンのタイプ ](get-started-with-campaigns.md#get-started-with-campaigns) について詳しくは、こちらを参照してください。 使用できるタイプは、使用許諾契約と権限によって異なります。
 
 >[!BEGINTABS]
 
@@ -61,7 +61,7 @@ ht-degree: 99%
 
 また、検索バーとフィルターを使用して、リスト内での検索を簡単にすることができます。例えば、キャンペーンをフィルタリングして、特定のチャネルまたはタグに関連付けられたキャンペーンや、特定の日付範囲中に作成されたキャンペーンのみを表示できます。
 
-キャンペーン在庫の ![「その他のアクション」ボタンを示す画像 &#x200B;](assets/do-not-localize/rule-builder-icon-more.svg) ボタンを使用すると、以下に説明する様々な操作を実行できます。
+キャンペーン在庫の ![「その他のアクション」ボタンを示す画像 ](assets/do-not-localize/rule-builder-icon-more.svg) ボタンを使用すると、以下に説明する様々な操作を実行できます。
 
 ![キャンペーンの在庫を示す画像](assets/inventory-actions.png)
 
@@ -69,7 +69,7 @@ ht-degree: 99%
 * **[!UICONTROL タグを編集]** - キャンペーンに関連付けられたタグを編集します。詳しくは、[キャンペーンでのタグの使用](../start/search-filter-categorize.md#add-tags-to-an-object)を参照してください。
 * **[!UICONTROL 複製]** - このオプションを使用して、例えば、停止済みのオーケストレーションキャンペーンの実行に、キャンペーンを複製します。[詳細情報](#duplicate-a-campaign)
 * **[!UICONTROL 削除]** - このオプションを使用して、キャンペーンを削除します。[詳細情報](#delete-a-campaign)
-* **[!UICONTROL アーカイブ]** - キャンペーンをアーカイブします。すべてのアーカイブ済みキャンペーンは、最終変更日から 30 日後にローリング再スケジュールで削除されます。このアクションは、**[!UICONTROL ドラフト]**&#x200B;キャンペーンを除くすべてのキャンペーンで使用できます。詳しくは、[キャンペーンのアーカイブ](#archive-a-campaign)を参照してください。
+* **[!UICONTROL アーカイブ]** - キャンペーンをアーカイブします。アーカイブされたすべてのキャンペーンは、最終変更日から 30 日後に周期的なスケジュールで削除されます。 このアクションは、**[!UICONTROL ドラフト]**&#x200B;キャンペーンを除くすべてのキャンペーンで使用できます。詳しくは、[キャンペーンのアーカイブ](#archive-a-campaign)を参照してください。
 
 アクションおよび API トリガーキャンペーンの場合は、以下の追加アクションを使用できます。
 
@@ -214,7 +214,7 @@ Adobe Journey Optimizer では、各キャンペーンはインターフェイ�
 
 >[!IMPORTANT]
 >
->キャンペーンを停止しても、その時点で送信中のキャンペーンは停止されませんが、スケジュール済みの送信や、送信中のキャンペーンの次回の送信は停止されます。
+>キャンペーンを停止しても、その時点で進行中の送信は停止しませんが、スケジュール済みの送信や次回の送信（進行中の送信がある場合）が停止します。
 
 ## キャンペーンのアーカイブ {#archive}
 
@@ -229,7 +229,7 @@ Adobe Journey Optimizer では、各キャンペーンはインターフェイ�
 
 ## キャンペーンの削除 {#delete}
 
-キャンペーンを削除するには、省略記号 ![その他のアクションボタンを示す画像 &#x200B;](assets/do-not-localize/rule-builder-icon-more.svg) ボタンを使用して、「**[!UICONTROL 削除]**」を選択します。
+キャンペーンを削除するには、省略記号 ![その他のアクションボタンを示す画像 ](assets/do-not-localize/rule-builder-icon-more.svg) ボタンを使用して、「**[!UICONTROL 削除]**」を選択します。
 
 ![](assets/delete-a-campaign.png){width="70%" align="left"}
 
@@ -240,7 +240,7 @@ Adobe Journey Optimizer では、各キャンペーンはインターフェイ�
 
 ## キャンペーンの複製 {#duplicate}
 
-キャンペーンを複製するには（例えば、キャンペーンが停止されている場合）、省略記号 ![&#x200B; その他のアクションボタンを示す画像 &#x200B;](assets/do-not-localize/rule-builder-icon-more.svg) ボタンを使用して、「**[!UICONTROL 複製]**」を選択します。
+キャンペーンを複製するには（例えば、キャンペーンが停止されている場合）、省略記号 ![ その他のアクションボタンを示す画像 ](assets/do-not-localize/rule-builder-icon-more.svg) ボタンを使用して、「**[!UICONTROL 複製]**」を選択します。
 
 キャンペーンの名前を入力して確定します。
 

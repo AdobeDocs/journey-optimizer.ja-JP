@@ -7,10 +7,10 @@ feature: Whatsapp, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: 21eebaaa0193164ac70dd819b25ad6547446397f
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '836'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
@@ -41,7 +41,7 @@ WhatsApp メッセージを送信する前に、Adobe Journey Optimizer 環境�
 
    ![](assets/whatsapp-api-2.png)
 
-1. WhatsApp メッセージの送信に使用する&#x200B;**送信者名**&#x200B;を選択します。
+1. WhatsApp メッセージの送信に使用する **送信者名** を選択します。
 
 1. 電話番号の設定は自動的に入力されます。
 
@@ -180,6 +180,6 @@ Webhook が設定されたので、WhatsApp 設定を作成できます。
 
 +++ こちらのビデオをご覧ください
 
->[!VIDEO](https://video.tv.adobe.com/v/3470269/?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++

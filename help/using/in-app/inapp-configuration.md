@@ -6,10 +6,10 @@ feature: In App
 level: Intermediate
 keywords: アプリ内, メッセージ, 設定, プラットフォーム
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 2a5db6950ac82fd18deb2e4009c9a43247444d6a
-workflow-type: ht
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+workflow-type: tm+mt
 source-wordcount: '933'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 

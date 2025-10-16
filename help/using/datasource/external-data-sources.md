@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: 外部, ソース, データ, 設定, 接続, サードパーティ
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
-source-git-commit: 4d979ccc421221993a752dd41bc22ea3d83e7555
-workflow-type: ht
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+workflow-type: tm+mt
 source-wordcount: '1647'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_custom"
 >title="外部データソース"
->abstract="外部データソースを使用すると、サードパーティシステムへの接続を定義できます。例えば、ホテルの予約システムを使用して、部屋が登録されたかどうかを確認する場合などです。組み込みの Adobe Experience Platform データソースとは異なり、外部データソースは必要な分だけ作成できます。"
+>abstract="外部データソースを使用すると、サードパーティシステムへの接続を定義できます。例えば、ホテルの予約システムを使用して、部屋が登録されたかどうかを確認する場合などです。ビルトインのAdobe Experience Platform データソースとは異なり、必要な数の外部データソースを作成できます。"
 
 ## 外部データソースの操作 {#gs-ext-data-sources}
 
-外部データソースを使用すると、サードパーティシステムへの接続を定義できます。例えば、ホテルの予約システムを使用して、部屋が登録されたかどうかを確認する場合などです。組み込みの Adobe Experience Platform データソースとは異なり、外部データソースは必要な分だけ作成できます。
+外部データソースを使用すると、サードパーティシステムへの接続を定義できます。例えば、ホテルの予約システムを使用して、部屋が登録されたかどうかを確認する場合などです。ビルトインのAdobe Experience Platform データソースとは異なり、必要な数の外部データソースを作成できます。
 
 >[!NOTE]
 >

@@ -9,10 +9,10 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: 設定,メッセージ,チャネル,サンドボックス,Optimizer
-source-git-commit: 21e2ea3e6a72d2a0eb0338df5665282d814501ac
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '303'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 100%
 
    * 抑制リストにメールアドレスを送信する前に再試行が実行される日数を管理します。[詳細](manage-suppression-list.md)
 
-   * **メールの BCC オプション**&#x200B;を有効にして、個人に送信されたメッセージのコピーを保持します。[詳細情報](archiving-support.md#enable-bcc)
+   * 個人に送信されたメッセージのコピーを保持するには、「**BCC メール**」オプションを有効にします。 [詳細情報](archiving-support.md#enable-bcc)
 
    * **ビジネスルール**&#x200B;を設定して、受信者を過度に勧誘しないようにします。[詳細情報](../conflict-prioritization/rule-sets.md)
 

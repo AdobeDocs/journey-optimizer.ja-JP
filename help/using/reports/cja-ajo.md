@@ -8,16 +8,16 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5349b0cf-da4e-458c-89be-c75a38e4721a
-source-git-commit: 5b8d26b4fbc323308b5a49672f9d30298756ccf9
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
 # [!DNL Customer Journey Analytics] の手動設定 {#cja-ajo}
 
-[!DNL Journey Optimizer] と [!DNL Customer Journey Analytics] の 統合により、自動レポート配信とデータのカスタムビジュアライゼーションですべてのジャーニーの総合的なビューを確認できるようになります。
+[!DNL Journey Optimizer] との統合 [!DNL Customer Journey Analytics]、すべてのジャーニーの全体像を、自動レポート配信とデータのカスタムビジュアライゼーションで提供します。
 
 次の節では、Journey Optimizer で生成されたデータを手動で活用して、Customer Journey Analytics 内で詳細な分析を行う方法について概説します。この統合は自動的に設定できます。[詳細情報](report-gs-cja.md)
 

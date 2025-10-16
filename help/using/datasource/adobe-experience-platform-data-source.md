@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: ビルトイン, ソース, データ, Platform, 統合
 exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
-source-git-commit: 8e020f79e0f44e6fc804fcceb149146f9644c777
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '398'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -35,7 +35,7 @@ Adobe Experience Platform のデータソースは、Adobe リアルタイム顧
 >ジャーニーの式／条件でのエクスペリエンスイベントの使用はサポートされていません。ユースケースでエクスペリエンスイベントを使用する必要がある場合は、別の方法を考慮します。[詳細情報](../building-journeys/exp-event-lookup.md)
 
 
-組み込みデータソースにフィールドグループを追加する主な手順は次のとおりです。
+ビルトインデータソースにフィールドグループを追加する主な手順は次のとおりです。
 
 1. データソースのリストから、組み込みの **Adobe Experience Platform** データソースを選択します。
 

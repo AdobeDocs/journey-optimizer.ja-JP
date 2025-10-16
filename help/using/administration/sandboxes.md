@@ -9,10 +9,10 @@ role: Admin, Architect, Developer
 level: Experienced
 keywords: サンドボックス, 仮想, 環境, 組織, プラットフォーム
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: 8093af8c3e7484f9ebed8dbc50065bcff0459581
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 100%
+source-wordcount: '323'
+ht-degree: 95%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 100%
 
    ![](assets/sandbox_3.png)
 
-1. 必要に応じて、横にある「X」アイコンをクリックして、**[!UICONTROL 役割]**&#x200B;へのサンドボックスのアクセス権を削除します。
+1. 必要に応じて、その横にある「X」アイコンをクリックすると、**[!UICONTROL 役割]** からサンドボックスアクセスが削除されます。
 
    ![](assets/sandbox_4.png)
 
@@ -70,4 +70,4 @@ ht-degree: 100%
 
 サンドボックスの概要と、開発用サンドボックスと実稼動用サンドボックスを区別する方法について説明します。サンドボックスの作成、リセット、削除方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416784?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/334355?quality=12)

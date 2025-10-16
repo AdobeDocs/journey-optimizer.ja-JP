@@ -7,10 +7,10 @@ feature: Privacy, Monitoring
 role: User
 level: Intermediate
 exl-id: 8045b559-bf5e-4b5f-9da4-accd44641a68
-source-git-commit: a5b292e6eb4145fa29774fbeb4ce823bc71b849c
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -38,4 +38,4 @@ Adobe Experience Platform にデータが継続的に取り込まれるので、
 Privacy Service とデータライフサイクル操作の実行方法について詳しくは、Adobe Experience Platform のドキュメントを参照してください。
 
 * [Privacy Service の概要](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja)
-* [Adobe Experience Platform のデータライフサイクル](https://experienceleague.adobe.com/docs/experience-platform/hygiene/home.html?lang=ja)
+* [Adobe Experience Platformのデータライフサイクル ](https://experienceleague.adobe.com/docs/experience-platform/hygiene/home.html?lang=ja)

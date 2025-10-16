@@ -6,14 +6,14 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '771'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
-# コードベースチャネルの基本を学ぶ {#get-sarted-code-based}
+# コードベースチャネルの基本を学ぶ {#get-started-code-based}
 
 [!DNL Journey Optimizer] を使用すると、web アプリ、モバイルアプリ、デスクトップアプリ、ビデオコンソール、TV 接続デバイス、スマート TV、キオスク、ATM、音声アシスタント、IoT デバイスなど、すべてのタッチポイントで顧客に提供するエクスペリエンスをパーソナライズしてテストできます。
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 <!--[Learn how to create a code-based campaign in this video](#video)-->
 
-➡️ コンテンツ実験を使用してコードベースのエクスペリエンスチャネルと決定を比較する方法を示すエンドツーエンドのユースケースについて詳しくは、[この節](../experience-decisioning/experience-decisioning-uc.md)を参照してください。
+➡️ コンテンツ実験を使用して決定をコードベースのエクスペリエンスチャネルと比較する方法を示すエンドツーエンドのユースケースについては、[ この節 ](../experience-decisioning/experience-decisioning-uc.md) を参照してください。
 
 ## コードベースのチャネルと他のチャネルを使用する場合 {#code-based-vs-other-channels}
 

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1f16edd-efdf-41c2-a0ad-5f55009008f5
-source-git-commit: fa57bee17e5d9df99cc564bfac06bcd3f5090aab
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 100%
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 プッシュ通知は次の場所で作成できます。
 
-* **ジャーニー**&#x200B;の場合：ジャーニーにプッシュアクティビティを追加し、基本設定を定義したら、右側の&#x200B;**[!UICONTROL アクション : プッシュ]**&#x200B;パネルを使用して、プッシュ通知のコンテンツを作成します。[ジャーニーの作成方法を学ぶ](../building-journeys/journey-gs.md)
+* **ジャーニー**&#x200B;の場合：ジャーニーにプッシュアクティビティを追加し、基本設定を定義したら、右側の&#x200B;**[!UICONTROL アクション : プッシュ]**&#x200B;パネルを使用して、プッシュ通知のコンテンツを作成します。[ジャーニーを作成する方法について説明します](../building-journeys/journey-gs.md)
 
 * **キャンペーン**&#x200B;の場合：キャンペーンを作成したら、アクションとして「プッシュ通知」を選択し、基本設定を定義します。[キャンペーンの作成方法を学ぶ](../campaigns/create-campaign.md#configure)
 

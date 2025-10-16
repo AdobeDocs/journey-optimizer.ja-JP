@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: cf9c6370af9541dc0e1361eb42c942d1744a1aae
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 100%
@@ -71,7 +71,7 @@ Adobe Journey Optimizer の AI アシスタントを使用して、様々なメ�
 
 >[!IMPORTANT]
 >
->* この機能の使用を開始する前に、関連する[ガードレールと制限](#generative-guardrails)のトピックに目を通してください。
+>* この機能の使用を開始する前に、関連する[ガードレールと制限](#generative-guardrails)のトピックをお読みください。
 >
 >
 >* Adobe Journey Optimizer で AI アシスタントを使用する前に、[ユーザー契約](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}に同意する必要があります。詳しくは、アドビ担当者にお問い合わせください。

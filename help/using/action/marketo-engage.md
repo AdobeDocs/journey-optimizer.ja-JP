@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: Marketo、Marketo Engage 統合
 exl-id: 70d1ef5a-743b-4362-bb65-93a8c996209f
-source-git-commit: dec575162b6db7e7d4f32f5f170de9673b979e5c
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -118,6 +118,6 @@ Journey Optimizer では、Marketo Engage のカスタムアクションを設�
 
 1. このアクションのラベルと説明を入力します。
 
-1. 「**リクエストパラメーター**」セクションで、各パラメーターの&#x200B;**編集**&#x200B;アイコンをクリックし、ペイロードで設定した動的な値を選択します。
+1. 「**リクエストパラメーター**」セクションで、各パラメーターの **編集** アイコンをクリックし、ペイロードに設定した動的な値を選択します。
 
 ![](assets/engage-use-canvas.png){width="70%" align="left"}

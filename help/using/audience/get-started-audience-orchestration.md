@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: 060d65e8d3fb1442b04626170a35d463d1faa514
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '1030'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -99,13 +99,13 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-このドキュメントでは、Adobe Journey Optimizer 内でオーディエンス構成を使用する方法について詳しく説明します。リアルタイム顧客プロファイルのみの顧客で、Adobe Journey Optimizer を使用していない場合は、[こちらをクリック](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=ja){target="_blank"}してください。
+このドキュメントでは、Adobe Journey Optimizer内でオーディエンス構成を使用する方法について詳しく説明します。 リアルタイム顧客プロファイルのみの顧客で、Adobe Journey Optimizer を使用していない場合は、[こちらをクリック](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/audience-composition.html?lang=ja){target="_blank"}してください。
 
 >[!ENDSHADEBOX]
 
 オーディエンス構成を使用すると、**構成ワークフロー**&#x200B;を作成できます。このワークフローでは、既存の Adobe Experience Platform オーディエンスを 1 つのビジュアルキャンバスにまとめ、様々なアクティビティ（分割、除外など）を活用して新しいオーディエンスを作成できます。
 
-完了すると、**結果のオーディエンス**は既存のオーディエンスと共に Adobe Experience Platform に保存され、Journey Optimizer のキャンペーンやターゲット顧客へのジャーニーに活用できます。詳しくは、Journey Optimizer でオーディエンスをターゲットにする方法を参照してください。
+完了すると、**結果オーディエンス** が既存のオーディエンスと共にAdobe Experience Platformに保存され、Journey Optimizer キャンペーンやジャーニーで活用して顧客をターゲットできます。 詳しくは、Journey Optimizer でオーディエンスをターゲットにする方法を参照してください。
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]

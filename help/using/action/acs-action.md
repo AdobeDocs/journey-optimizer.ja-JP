@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate
 keywords: キャンペーン, Standard, 統合, キャップ, アクション
 exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
-source-git-commit: d92c280e40419d2e3ec62a7ba85cd492a0867fde
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -58,7 +58,7 @@ Campaign Standard アクションを設定するには、次の手順に従い�
    >
    >* https で始まる URL
    >
-   >* この Adobe Campaign Standard のインスタンスに関連付けられている組織は、Journey Optimizer の組織と同じです
+   >* このAdobe Campaign Standard インスタンスに関連付けられている組織は、Journey Optimizer組織と同じです
 
 この設定が完了すると、ジャーニーを設計する際に、**[!UICONTROL アクション]**&#x200B;カテゴリで&#x200B;**[!UICONTROL メール]**、**[!UICONTROL プッシュ]**、**[!UICONTROL SMS]** の 3 つのアクションが使用できます。[使用方法の詳細情報](../building-journeys/using-adobe-campaign-standard.md)
 

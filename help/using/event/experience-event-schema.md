@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Intermediate, Experienced
 keywords: スキーマ, XDM, プラットフォーム, ストリーミング, 取り込み, ジャーニー
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: d79e42cd42fa8342526e02116f65a8e53449fad5
+source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '391'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->ジャーニー条件でのエクスペリエンスイベント参照はサポートされなくなりました。詳しくは、別のベストプラクティスを参照してください。イベントトリガージャーニーのユースケースがあり、エクスペリエンスイベント参照が必要で、リストされている別の手段のいずれでもサポートできない場合は、アドビ担当者にお問い合わせください。アドビが目標の達成をお手伝いします。
+>ジャーニー条件でのエクスペリエンスイベント参照はサポートされなくなりました。詳しくは、別のベストプラクティスを参照してください。イベントトリガージャーニーのユースケースで、エクスペリエンスイベントの検索が引き続き必要であり、リストされている代替手段ではサポートできない場合は、Adobe担当者にお問い合わせください。アドビが目標の達成をお手伝いします。
 >
 >ジャーニーの開始イベントからコンテキストにアクセスしても影響を受けません。
 
@@ -80,7 +80,7 @@ Here is the purchase schema with the relationship defined on the product ID fiel
 
 >[!NOTE]
 >
->Learn more about schema relationships in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=ja).
+>Learn more about schema relationships in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html).
 
 In Journey Optimizer, you can then leverage all the fields from the linked tables:
 
