@@ -9,10 +9,10 @@ level: Experienced
 keywords: 式, 構文, 演算子, エディター, ジャーニー
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7ac246c0aa6776d3ec67223c4b07536b8ed0c881
 workflow-type: tm+mt
 source-wordcount: '551'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -43,7 +43,7 @@ not (@event{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
    * 以下の例は正しいです。`3.0 * 4.0`
    * `3 * 4.0` はエラーを引き起こします
 
-* `+` 演算子を使用する場合、式は丸括弧で囲む必要があります。例：
+* `+` 演算子を使用する場合、式を括弧内にカプセル化する必要があります。 例：
    * `toDateTimeOnly(toDateTime((currentTimeInMillis()) + 1))` は正しいです
    * `toDateTimeOnly(toDateTime(currentTimeInMillis() + 1))` はエラーを引き起こします
 

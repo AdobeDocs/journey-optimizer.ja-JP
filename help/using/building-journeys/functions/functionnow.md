@@ -8,10 +8,10 @@ level: Experienced
 keywords: now, 関数, 式, ジャーニー
 exl-id: 16dcc772-e48d-4f10-be75-62dd39473556
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7ac246c0aa6776d3ec67223c4b07536b8ed0c881
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 100%
+source-wordcount: '62'
+ht-degree: 93%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 | パラメーター | 説明 |
 |--- |--- |
-| 文字列 |  |
+| 文字列 | タイムゾーン識別子（オプション） |
 
 ## シグネチャと戻り値のタイプ
 

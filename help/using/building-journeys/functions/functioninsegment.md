@@ -8,7 +8,7 @@ level: Experienced
 keywords: inSegment, 関数, 式, ジャーニー
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7ac246c0aa6776d3ec67223c4b07536b8ed0c881
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 100%
@@ -34,9 +34,9 @@ ht-degree: 100%
 
 なお、オーディエンスの参加ステータスが&#x200B;**適合**&#x200B;の個人のみが、オーディエンスのメンバーと見なされます。オーディエンスの評価方法について詳しくは、[セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ja#interpret-segment-results)を参照してください。
 
-`IF inSegment('segmentName') == true` は、セグメントメンバーシップがエントリまたは既存のステータスになっていることを意味します。
+`inSegment('segmentName') == true` は、セグメントメンバーシップがエントリまたは既存のステータスになっていることを意味します。
 
-`ELSE inSegment('segmentName') == false` は、離脱ステータスのセグメントメンバーシップがあることを意味します。
+`inSegment('segmentName') == false` は、離脱ステータスのセグメントメンバーシップがあることを意味します。
 
 ## カテゴリ
 

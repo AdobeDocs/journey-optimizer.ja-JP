@@ -9,7 +9,7 @@ level: Experienced
 keywords: クエリ, コレクション, 関数, ペイロード, ジャーニー
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7ac246c0aa6776d3ec67223c4b07536b8ed0c881
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 100%
@@ -113,7 +113,7 @@ count(@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTo
 
 >[!NOTE]
 >
->* **all()** 関数のフィルター条件に何も指定していない場合、フィルターはリスト内のすべての要素を返します。**ただし、コレクションの要素数をカウントするのに、all 関数は不要です。
+>* **all()** 関数のフィルター条件に何も指定していない場合、フィルターはリスト内のすべての要素を返します。**ただし、コレクションの要素数をカウントするためには、all 関数は不要です。**
 >
 >* `currentEventField` はイベントコレクションを操作する場合、`currentDataPackField` はデータソースコレクションを操作する場合、`currentActionField` はカスタムアクションの応答コレクションを操作する場合にのみ使用できます。
 >
@@ -163,7 +163,7 @@ _`<listExpression>`.at(`<index>`)_
 
 
 ```json
-@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.at(1).token}`
+@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.at(1).token}
 ```
 
 結果は `token_2` です。

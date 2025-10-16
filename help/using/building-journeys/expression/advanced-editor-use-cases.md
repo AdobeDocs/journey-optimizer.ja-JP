@@ -11,10 +11,10 @@ hidefromtoc: true
 keywords: 式, 条件, ユースケース, イベント
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7ac246c0aa6776d3ec67223c4b07536b8ed0c881
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 100%
+source-wordcount: '547'
+ht-degree: 95%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 100%
 
 **この式は、過去 7 日間に指定された、このユーザーのすべてのイベントを検索します。**
 
-次に、completePurchase に転換されなかったすべての addtocart イベントを選択します。
+次に、completePurchase に変換されなかったすべての「買い物かごに追加」イベントを選択します。
 
 >[!NOTE]
 >

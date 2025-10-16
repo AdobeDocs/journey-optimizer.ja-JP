@@ -9,7 +9,7 @@ level: Experienced
 keywords: ジャーニー, フィールド, 式, イベント
 exl-id: 2348646a-b205-4b50-a08f-6625e92f44d7
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7ac246c0aa6776d3ec67223c4b07536b8ed0c881
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 100%
@@ -69,7 +69,7 @@ ht-degree: 100%
  
 expression example:
 - @event{OrderEvent.orderId}                                    -> "12345"
-- @event{OrderEvent.producdId, defaultValue : "not specified" } -> "not specified" // default value, productId is not a field present in the payload
+- @event{OrderEvent.productId, defaultValue : "not specified" } -> "not specified" // default value, productId is not a field present in the payload
 - @event{OrderEvent.productId}                                  -> null
  
  
