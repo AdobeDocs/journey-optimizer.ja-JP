@@ -9,10 +9,10 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: データセット, Optimizer, ユースケース
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 90b8f69f3849418eaec1b65b14e0362980c43e9a
-workflow-type: ht
-source-wordcount: '958'
-ht-degree: 100%
+source-git-commit: f1a00e734f22cb660e442ebe8c0dde3468e29768
+workflow-type: tm+mt
+source-wordcount: '1066'
+ht-degree: 89%
 
 ---
 
@@ -175,6 +175,10 @@ ORDER BY timestamp DESC;
 日付の形式は、`YYYY-MM-DD HH:MM:SS` です。
 
 識別したら、これらのアドレスを Journey Optimizer 抑制リストから削除します。[詳細情報](../configuration/manage-suppression-list.md#remove-from-suppression-list)
+
+>[!NOTE]
+>
+>メッセージフィードバックイベントデータセットで identityMap を参照する場合、実行時に使用される ID のみが反映されることに注意してください。 プッシュ通知の場合、「送信済み」イベントは、この通知を送信するために使用されるプッシュトークンにリンクされた ECID にのみ依存し、「除外」イベントは、カスタム ID に依存する可能性があります。 例えば、プッシュトークンが見つからなかったことが理由でプロファイルが除外された場合、ジャーニーレベルまたはアクションキャンペーンレベルで使用される ID が選択され、このイベントが登録されます。 追加の名前空間（例：カスタム ID）が必要な場合は、これらのフィードバックレコードをプロファイル関連のデータセット（例：profile_snapshot）と結合して、完全な ID リストを取得します。
 
 
 
