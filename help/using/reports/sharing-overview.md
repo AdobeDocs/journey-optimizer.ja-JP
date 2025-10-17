@@ -8,10 +8,10 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: 29d6b881-35a3-4c62-9e7d-d0aeb206ea77
-source-git-commit: 316fdb4e581ea139c2914f395a5d1823c2ded3cc
+source-git-commit: efae7f7d366690af71430bb9eb62523d1881c50e
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 100%
+source-wordcount: '620'
+ht-degree: 83%
 
 ---
 
@@ -26,6 +26,10 @@ ht-degree: 100%
 例えば、複数のメールを送信するジャーニーを設定したとします。この機能を使用すると、[!DNL Journey Optimizer] のデータをダウンストリームのイベントデータと組み合わせることができます。このようなイベントデータには、発生したコンバージョン数、Web サイトで発生したエンゲージメント、ストアで発生したトランザクション数などがあります。ジャーニー情報を Adobe Experience Platform のデータ（他のデジタルプロパティのデータまたはオフラインプロパティのデータ）と組み合わせて、パフォーマンスをより包括的に把握することができます。
 
 [!DNL Journey Optimizer] は、個人がジャーニーで実行するステップごとに、必要なスキーマとデータセットへのストリームを Adobe Experience Platform に対して自動的に作成します。ステップイベントは、ジャーニーのあるノードから別のノードに移動する個人に対応します。例えば、イベント、条件およびアクションを備えたジャーニーでは、3 つのステップイベントが Adobe Experience Platform に送信されます。
+
+>[!NOTE]
+>
+>プロファイルレベルのステップイベントに加えて、システムは **オーディエンスを読み取り** アクティビティの内部イベントも生成します。 これらのイベントは `segmentExportJob` イベントと呼ばれ、オーディエンスを読み取りノードのライフサイクル（書き出しジョブの作成、キューへの登録、完了、エラーなど）を記録し、個々のプロファイルではなく、オーディエンスを読み取りアクティビティごとに生成されます。 その結果、これらのイベントにはプロファイル識別子（UPMID）が関連付けられていない場合があります。 これらの内部イベントは、オーディエンスを読み取りのパフォーマンスの監視とトラブルシューティングに役立ち、[serviceEvents の節 ](../reports/sharing-field-list.md#servicevents-field) に記載されているフィールドを使用してクエリできます。 segmentExportJob イベントの操作方法のクエリ例については、[ オーディエンスの読み取りに関連するクエリ ](../reports/query-examples.md#read-segment-queries) を参照してください。
 
 同じノードに対して複数のイベントを作成できる場合があります。例えば、「待機」アクティビティの場合は、次のようになります。
 

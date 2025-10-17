@@ -8,10 +8,10 @@ topic: Content Management
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: faf6e63e3951b67997836107ae518b294526206b
+source-git-commit: efae7f7d366690af71430bb9eb62523d1881c50e
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 77%
+source-wordcount: '649'
+ht-degree: 70%
 
 ---
 
@@ -57,7 +57,7 @@ journeyStepEvent の場合、ID に関連するフィールドも追加する必
 
 ## serviceEvents {#servicevents-field}
 
-この Mixin には、プロファイルエクスポートジョブに対応するすべてのフィールドが含まれています。
+この Mixin には、プロファイルエクスポートジョブに対応するすべてのフィールドが含まれています。 これらのイベントは、**オーディエンスを読み取り** アクティビティごとに生成され、オーディエンスの書き出し操作（待機中、開始済み、完了、エラー）のライフサイクルを追跡します。 通常のステップイベントとは異なり、serviceEvents は個々のプロファイルではなく、オーディエンスを読み取りノード自体に結び付けられます。つまり、プロファイル ID が関連付けられていない可能性があります。
 
 | フィールド名 | タイプ | 説明 |
 |---|---|------------|

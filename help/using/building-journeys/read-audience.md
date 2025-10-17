@@ -10,10 +10,10 @@ level: Intermediate
 keywords: アクティビティ, ジャーニー, 読み取り, オーディエンス, プラットフォーム
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 version: Journey Orchestration
-source-git-commit: de338bcbd73b94ac004ee39106e50fe707afb19a
+source-git-commit: efae7f7d366690af71430bb9eb62523d1881c50e
 workflow-type: tm+mt
-source-wordcount: '2400'
-ht-degree: 100%
+source-wordcount: '2450'
+ht-degree: 97%
 
 ---
 
@@ -31,6 +31,10 @@ ht-degree: 100%
 [オーディエンスの作成](../audience/about-audiences.md)ユースケースで作成した「Luma アプリのオープンとチェックアウト」オーディエンスを例に取ります。「オーディエンスを読み取り」アクティビティを使用すると、オーディエンスに属するすべての個人をジャーニーにエントリさせ、条件、タイマー、イベント、アクションなどのジャーニーのすべての機能を活用する個別のジャーニーに流入させることができます。
 
 ➡️ [ビデオでこの機能を確認する](#video)
+
+>[!NOTE]
+>
+>オーディエンスを読み取りアクティビティを実行すると、システムは内部イベント（`segmentExportJob` イベントと呼ばれます）を生成して、オーディエンスの書き出し操作のライフサイクルを追跡します。 これらのイベントは、個々のプロファイルごとではなく、アクティビティレベルで記録され、監視やトラブルシューティングの目的でクエリできます。 詳細情報 [ オーディエンスを読み取りイベントのクエリ ](../reports/query-examples.md#read-segment-queries)。
 
 >[!CAUTION]
 >
@@ -303,4 +307,4 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 「オーディエンスを読み取り」アクティビティによってトリガーされるジャーニーに適用可能なユースケースを理解します。バッチベースのジャーニーを構築する方法と適用するベストプラクティスについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430369?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)
