@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: 13552b3731a20fc9ca2d93a18c0a2c9fdf9378fa
+source-git-commit: 243d4e74c15057bc4bd334876a1bc87969d396e0
 workflow-type: tm+mt
 source-wordcount: '812'
 ht-degree: 27%
@@ -39,7 +39,7 @@ Adobe Journey Optimizerは、複数のチャネルで顧客を引き付けるた
 
 **MMS （マルチメディアメッセージサービス）**
 
-ビデオ、画像、オーディオクリップ、GIF などのマルチメディアコンテンツとのコミュニケーションを強化します。 MMS メッセージでは、メディア ファイルに加えて最大 1600 文字のテキストを使用できます。 [MMS の制限事項に関する詳細情報 &#x200B;](../start/guardrails.md#sms-guardrails)
+ビデオ、画像、オーディオクリップ、GIF などのマルチメディアコンテンツとのコミュニケーションを強化します。 MMS メッセージでは、メディア ファイルに加えて最大 1600 文字のテキストを使用できます。 [MMS の制限事項に関する詳細情報 ](../start/guardrails.md#sms-guardrails)
 
 **RCS （Rich Communication Services）**
 
@@ -49,28 +49,28 @@ Adobe Journey Optimizerは、複数のチャネルで顧客を引き付けるた
 
 **Personalizationと動的コンテンツ**
 
-パーソナライゼーションエディターを使用して、パーソナライズされたテキストメッセージを作成します。 プロファイル属性、条件付きコンテンツ、動的データを追加して、個々の受信者に合わせてメッセージをカスタマイズします。 [&#x200B; パーソナライゼーションについて &#x200B;](../personalization/personalize.md)
+パーソナライゼーションエディターを使用して、パーソナライズされたテキストメッセージを作成します。 プロファイル属性、条件付きコンテンツ、動的データを追加して、個々の受信者に合わせてメッセージをカスタマイズします。 [ パーソナライゼーションについて ](../personalization/personalize.md)
 
 **複数プロバイダーのサポート**
 
 Adobe Journey Optimizerは、主要な SMS サービスプロバイダーと統合されています。
 
-* **Sinch** - [&#x200B; 設定ガイド &#x200B;](sms-configuration-sinch.md)
-* **Twilio** - [&#x200B; 設定ガイド &#x200B;](sms-configuration-twilio.md)
-* **Infobip** - [&#x200B; 設定ガイド &#x200B;](sms-configuration-infobip.md)
+* **Sinch** - [ 設定ガイド ](sms-configuration-sinch.md)
+* **Twilio** - [ 設定ガイド ](sms-configuration-twilio.md)
+* **Infobip** - [ 設定ガイド ](sms-configuration-infobip.md)
 * **カスタムプロバイダー** - カスタム API 統合を使用して他の SMS プロバイダーを設定する。 [詳細情報](sms-configuration-custom.md)
 
 **URL 短縮およびトラッキング**
 
-エンゲージメントを監視するために、メッセージに短縮された追跡可能な URL を追加します。 URL 短縮機能を使用するには、サブドメイン設定が必要です。 [SMS サブドメインの設定方法を学ぶ &#x200B;](sms-subdomains.md)
+エンゲージメントを監視するために、メッセージに短縮された追跡可能な URL を追加します。 URL 短縮機能を使用するには、サブドメイン設定が必要です。 [SMS サブドメインの設定方法を学ぶ ](sms-subdomains.md)
 
 **オプトアウトの管理**
 
-組み込みのオプトアウト管理により、業界標準および規制への準拠を確保します。 Journey Optimizerは、Sinch および Infobip プロバイダーの標準のオプトアウトキーワード（STOP、QUIT、CANCEL など）を自動的に処理します。 [&#x200B; オプトアウト管理について学ぶ &#x200B;](sms-opt-out.md)
+組み込みのオプトアウト管理により、業界標準および規制への準拠を確保します。 Journey Optimizerは、Sinch および Infobip プロバイダーの標準のオプトアウトキーワード（STOP、QUIT、CANCEL など）を自動的に処理します。 [ オプトアウト管理について学ぶ ](sms-opt-out.md)
 
 **プレビューとテスト**
 
-テストプロファイルとサンプルデータを使用して、送信前にテキストメッセージをテストします。 パーソナライゼーション、コンテンツ、書式設定をプレビューして、メッセージを正しく表示します。 [&#x200B; メッセージの送信方法を学ぶ &#x200B;](send-sms.md)
+テストプロファイルとサンプルデータを使用して、送信前にテキストメッセージをテストします。 パーソナライゼーション、コンテンツ、書式設定をプレビューして、メッセージを正しく表示します。 [ メッセージの送信方法を学ぶ ](send-sms.md)
 
 **レポートと分析**
 
@@ -88,7 +88,7 @@ Adobe Journey Optimizerは、主要な SMS サービスプロバイダーと統�
 3. **チャネル設定の作成** - マーケティングメッセージとトランザクションメッセージ用の SMS 設定をセットアップする
 4. **サブドメインの設定（オプション）** - メッセージで URL 短縮機能を使用する予定の場合のみ必須
 
-これらの設定手順は、通常、システム管理者が実行します。 [SMS 設定の概要 &#x200B;](sms-configuration.md)
+これらの設定手順は、通常、システム管理者が実行します。 [SMS 設定の概要 ](sms-configuration.md)
 
 ## クイックスタートガイド {#quick-start}
 
@@ -106,7 +106,7 @@ Adobe Journey Optimizerは、主要な SMS サービスプロバイダーと統�
 <a href="create-sms.md">
 <img alt="リード" src="../assets/do-not-localize/sms-create.jpeg">
 </a>
-<div><a href="create-sms.md"><strong> テキストメッセージの作成 </strong>
+<div><a href="create-sms.md"><strong> テキストメッセージの作成 </strong></a>
 </div>
 <p>SMS、MMS または RCS コンテンツの設計とパーソナライズ</p>
 </td>
@@ -201,7 +201,7 @@ SMS メッセージを設定、作成およびカスタマージャーニーに�
 
 +++こちらのビデオをご覧ください
 
->[!VIDEO](https://video.tv.adobe.com/v/3422696?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
@@ -211,7 +211,7 @@ Adobe Journey Optimizerがマーケターに提供する包括的なモバイル
 
 +++こちらのビデオをご覧ください
 
->[!VIDEO](https://video.tv.adobe.com/v/3430376?captions=jpn&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
 +++
 
@@ -221,7 +221,7 @@ Adobe Journey Optimizerがマーケターに提供する包括的なモバイル
 
 +++こちらのビデオをご覧ください
 
->[!VIDEO](https://video.tv.adobe.com/v/3464756?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
 +++
 
