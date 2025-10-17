@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 93179c7612eda244e512f8144ca396660a8a7537
+source-git-commit: 2c077e81aedf0a36ae15065a6cb15c88d22dd888
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 44%
+source-wordcount: '1034'
+ht-degree: 41%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 44%
 [!DNL Adobe Journey Optimizer] は、新機能、既存機能の強化、およびバグ修正を継続的に提供します。[リリースノート](release-notes.md)では、各月の終わりにすべての変更がまとめられます。
 
 
-## 2025 年 10 月プレリリースノート {#25-10-rn}
+## 2025 年 10 月プレリリースノート {#oct-25-10-rn}
 
 **以下のプレリリースノートの内容は、リリースの公開日まで予告なく変更される場合があります**。リンク、画面、更新済みのドキュメントは、リリース日にリリースノートに公開されます。
 
@@ -196,6 +196,24 @@ ht-degree: 44%
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>再利用可能なターゲティングルール</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizerでは、専用の UI メニューからルールを作成し、キャンペーンまたはジャーニーのコンテンツ最適化の一部として、またはジャーニーの最適化アクティビティでターゲティングを構築する際に活用できるようになりました。</p>
+<p>現在、ターゲティングルールは、Decisioning アドオン機能を購入した組織で利用でき、他の組織ではオンデマンドで利用できます（使用制限あり）。</p>
+<p>この機能は、すべてのお客様に段階的にロールアウトされます。 それまでの間、Adobe担当者に連絡してアクセス権を取得してください。</p>
+<!--img src="assets/do-not-localize/FILE.gif"-->
+<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -246,7 +264,7 @@ ht-degree: 44%
 <td>
 <p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator.html" target="_blank">Adobe Experience Platform Agent Orchestrator</a> を活用し、Journey Optimizerで実験エージェントを利用できます。 </p>
 <p>実験エージェントは、Web サイト、メール、プッシュメッセージおよびアプリケーションをまたいでデジタル実験を実行および管理する方法を最新化する、AI を利用したツールです。 これにより、実験をより効率的に実行し、ビジネス目標を整理し、うまくいったこと、うまくいかなかったこと、次に実験する場所を強調表示した、実用的なインサイトを生成できます。</p>
-<p>詳しくは、<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=ja" target="_blank">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2025 年 10 月 10 日（PT）</p>
 </td>
 </tr>
@@ -297,13 +315,9 @@ ht-degree: 44%
 
 ### 機能強化
 
-**ターゲティングでの再利用可能なルールを選択**
-
-ジャーニーやキャンペーンで、メッセージの最適化機能を使用してターゲティングルールを使用する際に、ルールビルダーを活用できるようになりました。<!-- [Read more](../FILE.md) -->
-
 **WhatsApp チャネルの実行フィールド**
 
-メールと SMS に加えて、WhatsApp のデフォルトの実行フィールドを更新できるようになりました。 また、WhatsApp ジャーニーアクティビティの詳細設定パラメーターまたは WhatsApp チャネル設定でグローバルに設定された実行フィールドを上書きすることもできます。<!-- [Read more](../FILE.md) -->
+メールと SMS に加えて、サンドボックスレベルで WhatsApp 配信のデフォルトの実行フィールドを更新することがわかります。 また、WhatsApp ジャーニーアクティビティの詳細設定パラメーターまたは WhatsApp チャネル設定で変更することで、グローバルに設定された実行フィールドを上書きすることもできます。<!-- [Read more](../FILE.md) -->
 
 **Mailto （登録解除）アドレスのカスタム属性のサポート**
 
