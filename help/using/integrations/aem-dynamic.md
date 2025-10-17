@@ -7,9 +7,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3e777cc5-a935-4e68-9de7-60b241e78f63
-source-git-commit: 1b4ab451ed9e2315ffe4850c6ab4b8ad20223ac3
+source-git-commit: 9ec2255cd618035179b5dbc01b2e15374af65f3b
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '991'
 ht-degree: 100%
 
 ---
@@ -41,14 +41,16 @@ Adobe Experience Manager as a Cloud Service の Dynamic Media を Journey Optimi
 
 Dynamic Media と Adobe Journey Optimizer の統合は、Dynamic Media [Scene7 モード](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"}と [OpenAPI 搭載](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}の両方で使用できます。
 
+<!--
 >[!AVAILABILITY]
 >
->古いバージョンの Outlook（2016 を含む）では、Dynamic Media を使用したコンテンツのレンダリングはサポートされていません。アドビでは、互換性を向上させるよう、永続的な修正に積極的に取り組んでいます。その間、次のガイドラインを適用します。
+>Older versions of Outlook (including 2016) do not support rendering of content with Dynamic Media.  We are actively working on a permanent fix to enhance compatibility. In the meantime, apply the following guidelines:
 >
->* Dynamic Media Scene7 URL の場合：画像 URL に `?bfc=on` を追加します。これにより、自動形式ネゴシエーションが可能になり、クライアントの機能に基づいて最も互換性のある画像形式が配信されます。
+>* For Dynamic Media Scene7 URLs: Append `?bfc=on` to the image URL. This enables automatic format negotiation, ensuring the most compatible image format is delivered based on the client's capabilities.
 >
->* Open API 搭載 Dynamic Media の場合：`.avif` 形式を使用します。この形式には、必要に応じて互換性のある形式を配信するビルトインのフォールバックメカニズムが含まれます。
+>* For Dynamic Media with Open API: Use the `.avif` format. This format includes built-in fallback mechanisms to deliver a compatible format when necessary.
 >
+-->
 
 HTML コンテンツに Adobe Experience Manager アセットを追加するには、次の手順に従います。
 
@@ -256,5 +258,5 @@ Adobe Experience Manager Dynamic Media を Adobe Journey Optimizer と統合し�
 
 このチュートリアルでは、AJO 内で画像を直接変更する方法、HTML モードを使用してテキストオーバーレイを追加する方法、AEM で高度なパーソナライゼーション用の Dynamic Media テンプレートを作成する方法、様々なオーディエンスセグメントに合わせてコンテンツを調整してキャンペーンをパーソナライズする方法について説明します。この統合により、マーケターは、アプリケーションを切り替えずに、パーソナライズされた魅力的なキャンペーンを効率的に作成できます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3463783/?learn=on&enablevpops=&autoplay=true&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3457695/?learn=on&enablevpops=&autoplay=true)
 
