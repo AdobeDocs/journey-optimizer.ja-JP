@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: c2b990a413762dccc71e4152cbb145a51a5d073e
+source-git-commit: 9c80306d1dad057272b43339c940fec77e2441b1
 workflow-type: tm+mt
-source-wordcount: '1142'
-ht-degree: 42%
+source-wordcount: '956'
+ht-degree: 44%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 42%
 
 [Adobe Experience Platform プレリリースノート](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}も参照してください。
 
-**リリース日**:2025 年 10 月 21～22 日
+**リリース日**：2025年10月22日（PT）
 
 ### 新機能 {#oct-25-10-features}
 
@@ -48,46 +48,46 @@ ht-degree: 42%
 </tbody>
 </table>
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>RCS の基本メッセージ</strong><br/></th>
+<th><strong>RCS Basic Messaging</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>新しい RCS 基本アドオン機能により、Journey Optimizerで基本的な RCS （Rich Communication Services）メッセージングを提供できるようになりました。これにより、プロバイダや地理的なサポートに応じて、以下の強化されたメッセージング機能が可能になります。</p>
+<p>With the new RCS Basic add-on offering, you can now deliver basic Rich Communication Services (RCS) messaging in Journey Optimizer, enabling the following enhanced messaging capabilities subject to provider and geographical support:</p>
 <ul>
-<li><strong> ブランド化および検証済みの送信者のサポート：</strong> ブランド要素（ロゴ、送信者名など）を含む検証済みのビジネスプロファイルを使用してメッセージを送信します。</li>
-<li><strong> メッセージ配信インサイト：</strong> メッセージのステータス更新（送信済み、配信済み、読み取りなど）を含む詳細な配信レポートを受信します。</li>
-<li><strong> リンクトラッキング：</strong> エンゲージメント分析のために、RCS メッセージ内に URL を埋め込んで追跡します。</li>
-<li><strong>SMS へのフォールバック：</strong> 受信者のデバイスが RCS をサポートしていない場合や、RCS 経由で一時的に到達できない場合に SMS に自動的にフォールバックします。</li>
-<li><strong> 基本的なメッセージ構成：</strong> 基本的なテキストベースの RCS メッセージを送信します。</li>
+<li><strong>Branded and verified sender support:</strong> Send messages using verified business profiles with branding elements (logo, sender name, etc.).</li>
+<li><strong>Message delivery insights:</strong> Receive detailed delivery reports including message status updates (e.g., sent, delivered, read).</li>
+<li><strong>Link tracking:</strong> Embed and track URLs within RCS messages for engagement analytics.</li>
+<li><strong>Fallback to SMS:</strong> Automatic fallback to SMS when the recipient's device does not support RCS or is temporarily unreachable via RCS.</li>
+<li><strong>Basic message composition:</strong> Send basic text-based RCS messages.</li>
 </ul>
 <!--img src="assets/do-not-localize/FILE.gif"-->
 <!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
-</td>
+<!--/td>
 </tr>
 </tbody>
-</table>
+</table-->
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>オーケストレートキャンペーンのダイレクトメールチャネル</strong><br/></th>
+<th><strong>Direct mail channel in Orchestrated campaigns</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>ダイレクトメールチャネルを調整されたキャンペーンで使用できるようになりました。 ダイレクトメールアクティビティでは、調整されたキャンペーン内でのダイレクトメール送信が促進され、1 回限りのメッセージと繰り返しメッセージの両方を送信できます。これは、ダイレクトメールプロバイダーが必要とする抽出ファイルを生成するプロセスを自動化するのに役立ちます。チャネルアクティビティを調整されたキャンペーンキャンバスに組み合わせて、顧客の行動とデータに基づいてアクションをトリガーできるクロスチャネルキャンペーンを作成できます。</p>
+<p>Direct mail channel is now available in orchestrated campaigns. The Direct mail activity facilitates direct mail sending within your Orchestrated campaign, for both one-time and recurring messages. It serves to automate the process of generating the extraction file required by direct mail providers. You can combine channel activities into the Orchestrated campaign canvas to create cross-channel campaigns that can trigger actions based on customer behavior and data.</p>
 <!--img src="assets/do-not-localize/FILE.gif"-->
 <!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
-</td>
+<!--/td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <!--table>
 <thead>
@@ -224,7 +224,7 @@ ht-degree: 42%
 <td>
 <p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator.html" target="_blank">Adobe Experience Platform Agent Orchestrator</a> を活用し、Journey Optimizerで実験エージェントを利用できます。 </p>
 <p>実験エージェントは、Web サイト、メール、プッシュメッセージおよびアプリケーションをまたいでデジタル実験を実行および管理する方法を最新化する、AI を利用したツールです。 これにより、実験をより効率的に実行し、ビジネス目標を整理し、うまくいったこと、うまくいかなかったこと、次に実験する場所を強調表示した、実用的なインサイトを生成できます。</p>
-<p>詳しくは、<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=ja" target="_blank">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2025 年 10 月 10 日（PT）</p>
 </td>
 </tr>
@@ -283,11 +283,9 @@ ht-degree: 42%
 
 メールと SMS に加えて、WhatsApp のデフォルトの実行フィールドを更新できるようになりました。 また、WhatsApp ジャーニーアクティビティの詳細設定パラメーターまたは WhatsApp チャネル設定でグローバルに設定された実行フィールドを上書きすることもできます。<!-- [Read more](../FILE.md) -->
 
-**権限**
-
 **新しいジャーニーアラート**
 
-[&#x200B; プロファイル破棄率を超過 &#x200B;](../reports/alerts.md#alert-discard-rate) （過去 5 分に入力したプロファイルに対するプロファイル破棄の割合がしきい値を超えています）、[&#x200B; カスタムアクションエラー率を超過 &#x200B;](../reports/alerts.md#alert-custom-action-error-rate) （過去 5 分に成功した HTTP 呼び出しに対するカスタムアクションエラーの割合がしきい値を超えています）、[&#x200B; プロファイルエラー率を超過 &#x200B;](../reports/alerts.md#alert-profile-error-rate) （過去 5 分に入力したプロファイルに対するエラーの割合）のジャーニーに使用できます。 しきい値を変更し、グローバルではなく個々のジャーニーレベルのアラートを登録できます。
+[ プロファイル破棄率を超過 ](../reports/alerts.md#alert-discard-rate) （過去 5 分に入力したプロファイルに対するプロファイル破棄の割合がしきい値を超えています）、[ カスタムアクションエラー率を超過 ](../reports/alerts.md#alert-custom-action-error-rate) （過去 5 分に成功した HTTP 呼び出しに対するカスタムアクションエラーの割合がしきい値を超えています）、[ プロファイルエラー率を超過 ](../reports/alerts.md#alert-profile-error-rate) （過去 5 分に入力したプロファイルに対するエラーの割合）のジャーニーに使用できます。 しきい値を変更し、グローバルではなく個々のジャーニーレベルのアラートを登録できます。
 
 公開日：2025 年 10 月 14 日（PT）
 
