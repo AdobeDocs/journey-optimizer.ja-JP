@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
+source-git-commit: 0a9c36b75f7433eadbc8894fb7252a8f846c78b2
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 92%
+source-wordcount: '744'
+ht-degree: 30%
 
 ---
 
@@ -25,69 +25,182 @@ ht-degree: 92%
 
 * **キャンペーン**&#x200B;の場合：キャンペーンを作成し、アクションとして SMS を選択し、基本設定を定義します。次に、メッセージコンテンツを編集して、送信する SMS、MMS または RCS メッセージを定義します。[キャンペーンを作成する方法について説明します](../campaigns/create-campaign.md#configure)
 
-Adobe Journey Optimizer では、SMS サービスプロバイダー（または SMS ゲートウェイプロバイダー）を通じてテキストメッセージを送信します。SMS／MMS／RCS メッセージを作成する前に、Journey Optimizer を使用してテキストおよび RCS メッセージ用にサービスプロバイダーを設定します。[詳細情報](sms-configuration.md)
+>[!IMPORTANT]
+>
+>テキストメッセージを初めて作成する場合は、SMS チャネルが設定されていることを確認してください。 [詳細情報](sms-configuration.md)
+
+## テキストメッセージ機能 {#sms-capabilities}
+
+Adobe Journey Optimizerは、複数のチャネルで顧客を引き付けるための包括的なテキストメッセージ機能を提供します。
+
+**SMS （ショートメッセージサービス）**
+
+最大 160 文字のテキストのみのメッセージを送信します。 SMS は、すべてのモバイルデバイスで最も広くサポートされているテキストメッセージ形式です。
+
+**MMS （マルチメディアメッセージサービス）**
+
+ビデオ、画像、オーディオクリップ、GIF などのマルチメディアコンテンツとのコミュニケーションを強化します。 MMS メッセージでは、メディア ファイルに加えて最大 1600 文字のテキストを使用できます。 [MMS の制限事項に関する詳細情報 ](../start/guardrails.md#sms-guardrails)
+
+**RCS （Rich Communication Services）**
+
+カルーセル、リッチカード、推奨アクション、拡張メディアサポートなどの高度な機能を備えた、ブランド化されたインタラクティブメッセージを送信します。 RCS は、サポート対象のデバイスに関するメッセージ機能を強化します。
+
+## 主な特長 {#key-features}
+
+**Personalizationと動的コンテンツ**
+
+パーソナライゼーションエディターを使用して、パーソナライズされたテキストメッセージを作成します。 プロファイル属性、条件付きコンテンツ、動的データを追加して、個々の受信者に合わせてメッセージをカスタマイズします。 [ パーソナライゼーションについて ](../personalization/personalize.md)
+
+**複数プロバイダーのサポート**
+
+Adobe Journey Optimizerは、主要な SMS サービスプロバイダーと統合されています。
+
+* **Sinch** - [ 設定ガイド ](sms-configuration-sinch.md)
+* **Twilio** - [ 設定ガイド ](sms-configuration-twilio.md)
+* **Infobip** - [ 設定ガイド ](sms-configuration-infobip.md)
+* **カスタムプロバイダー** - カスタム API 統合を使用して他の SMS プロバイダーを設定する。 [詳細情報](sms-configuration-custom.md)
+
+**URL 短縮およびトラッキング**
+
+エンゲージメントを監視するために、メッセージに短縮された追跡可能な URL を追加します。 URL 短縮機能を使用するには、サブドメイン設定が必要です。 [SMS サブドメインの設定方法を学ぶ ](sms-subdomains.md)
+
+**オプトアウトの管理**
+
+組み込みのオプトアウト管理により、業界標準および規制への準拠を確保します。 Journey Optimizerは、Sinch および Infobip プロバイダーの標準のオプトアウトキーワード（STOP、QUIT、CANCEL など）を自動的に処理します。 [ オプトアウト管理について学ぶ ](sms-opt-out.md)
+
+**プレビューとテスト**
+
+テストプロファイルとサンプルデータを使用して、送信前にテキストメッセージをテストします。 パーソナライゼーション、コンテンツ、書式設定をプレビューして、メッセージを正しく表示します。 [ メッセージの送信方法を学ぶ ](send-sms.md)
+
+**レポートと分析**
+
+包括的なレポート機能を使用して、SMS キャンペーンおよびジャーニーのパフォーマンスを追跡します。
+
+* [キャンペーンレポートの SMS 送信](../reports/campaign-global-report-cja-sms.md)
+* [SMS ジャーニーレポート](../reports/journey-global-report-cja-sms.md)
+
+## 設定要件 {#configuration-requirements}
+
+テキストメッセージを送信する前に、次の操作を行う必要があります。
+
+1. **SMS プロバイダーの選択** - Sinch、Twilio、Infobip から選択するか、カスタムプロバイダーを設定します
+2. **API 資格情報の設定** - プロバイダーの API トークンとサービス ID をJourney Optimizerに統合します
+3. **チャネル設定の作成** - マーケティングメッセージとトランザクションメッセージ用の SMS 設定をセットアップする
+4. **サブドメインの設定（オプション）** - メッセージで URL 短縮機能を使用する予定の場合のみ必須
+
+これらの設定手順は、通常、システム管理者が実行します。 [SMS 設定の概要 ](sms-configuration.md)
+
+## クイックスタートガイド {#quick-start}
 
 <table style="table-layout:fixed"><tr style="border: 0;">
+<td>
+<a href="sms-configuration.md">
+<img alt="検証" src="../assets/do-not-localize/sms-config.jpg">
+</a>
+<div>
+<a href="sms-configuration.md"><strong>SMS チャネルの設定</strong></a>
+</div>
+<p>SMS プロバイダーとチャネルの設定を行う</p>
+</td>
 <td>
 <a href="create-sms.md">
 <img alt="リード" src="../assets/do-not-localize/sms-create.jpeg">
 </a>
-<div><a href="create-sms.md"><strong>テキストメッセージの作成</strong>
+<div><a href="create-sms.md"><strong> テキストメッセージの作成 </strong>
 </div>
-<p>
+<p>SMS、MMS または RCS コンテンツの設計とパーソナライズ</p>
 </td>
 <td>
 <a href="send-sms.md">
 <img alt="低頻度" src="../assets/do-not-localize/sms-sending.jpg">
 </a>
 <div>
-<a href="send-sms.md"><strong>テキストメッセージの送信</strong></a>
+<a href="send-sms.md"><strong> プレビューと送信 </strong></a>
 </div>
-<p></td>
+<p>テキストメッセージをテストしてオーディエンスに送信します</p>
+</td>
 <td>
 <a href="sms-opt-out.md">
 <img alt="検証" src="../assets/do-not-localize/sms-opt-out.jpg">
 </a>
 <div>
-<a href="sms-opt-out.md"><strong>オプトアウト管理</strong></a>
+<a href="sms-opt-out.md"><strong> オプトアウトの管理 </strong></a>
 </div>
-<p>
-</td>
-<td>
-<a href="sms-configuration.md">
-<img alt="検証" src="../assets/do-not-localize/sms-config.jpg">
-</a>
-<div>
-<a href="sms-configuration.md"><strong>SMS／MMS／RCS の設定</strong></a>
-</div>
-<p>
+<p>登録解除リクエストの処理とコンプライアンスの確保</p>
 </td>
 </tr></table>
 
-## チュートリアルビデオ
+## その他のリソース {#additional-resources}
 
-* 次のビデオでは、SMS メッセージを設定、作成およびカスタマージャーニーに含める方法を示します。
+**設定ガイド**
 
-  +++こちらのビデオをご覧ください
+* [SMS チャネル設定の概要](sms-configuration.md)
+* [SMS チャネル設定の作成](sms-configuration-surface.md)
+* [URL 短縮用の SMS サブドメインの設定](sms-subdomains.md)
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3422696?captions=jpn&learn=on)
+**プロバイダー設定ガイド**
 
-  +++
+* [Sinch プロバイダーの設定](sms-configuration-sinch.md)
+* [Twilio プロバイダーの設定](sms-configuration-twilio.md)
+* [Infobip プロバイダーの設定](sms-configuration-infobip.md)
+* [カスタム SMS プロバイダーの設定](sms-configuration-custom.md)
 
-* 次のビデオは、Adobe Journey Optimizer がマーケターに提供するモバイル機能をより詳細に理解するのに役立ちます。
+**コンテンツの作成と管理**
 
+* [SMS/MMS メッセージの作成](create-sms.md)
+* [メッセージのプレビュー、テスト、送信](send-sms.md)
+* [テキストメッセージでのPersonalization](../personalization/personalize.md)
+* [動的コンテンツ](../personalization/get-started-dynamic-content.md)
 
-  +++こちらのビデオをご覧ください
+**コンプライアンスとプライバシー**
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3430376?captions=jpn&quality=12&learn=on)
+* [オプトアウト管理](sms-opt-out.md)
+* [プライバシーと同意](../privacy/opt-out.md#sms-opt-out-management-sms-opt-out-management)
 
-  +++
+**パフォーマンストラッキング**
 
-* 次のビデオは、カスタム SMS プロバイダーを使用して、ブランド化されたインタラクティブな RCS メッセージを Adobe Journey Optimizer で設定および送信するのに役立ちます。
+* [キャンペーンレポートの SMS 送信](../reports/campaign-global-report-cja-sms.md)
+* [SMS ジャーニーレポート](../reports/journey-global-report-cja-sms.md)
 
+**ジャーニーとキャンペーンの統合**
 
-  +++こちらのビデオをご覧ください
+* [ジャーニーへの SMS メッセージの追加](../building-journeys/journeys-message.md)
+* [SMS キャンペーンの作成](../campaigns/create-campaign.md)
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3464756?captions=jpn)
+## チュートリアルビデオ {#videos}
 
-  +++
+**SMS メッセージの設定と送信**
+
+SMS メッセージを設定、作成およびカスタマージャーニーに含める方法について説明します。
+
++++こちらのビデオをご覧ください
+
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
+
++++
+
+**モバイルメッセージ機能の詳細**
+
+Adobe Journey Optimizerがマーケターに提供する包括的なモバイルメッセージ機能について説明します。
+
++++こちらのビデオをご覧ください
+
+>[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
+
++++
+
+**ブランド化された RCS メッセージの送信**
+
+カスタム SMS プロバイダーを使用して、ブランド化されたインタラクティブな RCS メッセージを Adobe Journey Optimizer で設定および送信する方法について説明します。
+
++++こちらのビデオをご覧ください
+
+>[!VIDEO](https://video.tv.adobe.com/v/3464755)
+
++++
+
+**関連トピック**
+
+* [ジャーニーでのメッセージの追加](../building-journeys/journeys-message.md)
+* [マーケティングキャンペーンの作成](../campaigns/create-campaign.md)
+* [ガードレールと制限](../start/guardrails.md#sms-guardrails)
