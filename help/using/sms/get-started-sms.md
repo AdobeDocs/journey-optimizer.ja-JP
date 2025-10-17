@@ -175,7 +175,7 @@ SMS メッセージを設定、作成およびカスタマージャーニーに�
 
 +++こちらのビデオをご覧ください
 
->[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3422696?captions=jpn&learn=on)
 
 +++
 
@@ -185,7 +185,7 @@ Adobe Journey Optimizerがマーケターに提供する包括的なモバイル
 
 +++こちらのビデオをご覧ください
 
->[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3430376?captions=jpn&quality=12&learn=on)
 
 +++
 
@@ -195,7 +195,7 @@ Adobe Journey Optimizerがマーケターに提供する包括的なモバイル
 
 +++こちらのビデオをご覧ください
 
->[!VIDEO](https://video.tv.adobe.com/v/3464755)
+>[!VIDEO](https://video.tv.adobe.com/v/3464756?captions=jpn)
 
 +++
 
