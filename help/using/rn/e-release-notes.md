@@ -7,7 +7,7 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 70ffd26772ae9907278af92a46af30b9d1bb1309
+source-git-commit: 93179c7612eda244e512f8144ca396660a8a7537
 workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 44%
@@ -207,7 +207,7 @@ ht-degree: 44%
 <tr>
 <td>
 <p>新しい事前設定済みのアラートを使用して、ジャーニーの実行を監視できます。</p>
-<ul><li><a href="./reports/alerts.md#alert-discard-rate"> プロファイル破棄率を超過 </a>：過去 5 分に入力されたプロファイルに対するプロファイル破棄の割合が、しきい値を超過しました</li>
+<ul><li><a href="../reports/alerts.md#alert-discard-rate"> プロファイル破棄率を超過 </a>：過去 5 分に入力されたプロファイルに対するプロファイル破棄の割合が、しきい値を超過しました</li>
 <li><a href="../reports/alerts.md#alert-custom-action-error-rate"> カスタムアクションエラー率を超えています </a>：過去 5 分間に成功した HTTP 呼び出しに対するカスタムアクションエラーの割合が、しきい値を超えています</li>
 <li><a href="../reports/alerts.md#alert-profile-error-rate"> プロファイルエラー率を超えています </a>：過去 5 分に、入力されたプロファイルに対するエラー内プロファイルの割合が、しきい値を超えています</li>。</ul> <p>しきい値を変更し、グローバルではなく個々のジャーニーレベルのアラートを登録できます。</p>
 <p>詳しくは、<a href="../reports/alerts.md">詳細なドキュメント</a>を参照してください。</p>
@@ -246,7 +246,7 @@ ht-degree: 44%
 <td>
 <p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator.html" target="_blank">Adobe Experience Platform Agent Orchestrator</a> を活用し、Journey Optimizerで実験エージェントを利用できます。 </p>
 <p>実験エージェントは、Web サイト、メール、プッシュメッセージおよびアプリケーションをまたいでデジタル実験を実行および管理する方法を最新化する、AI を利用したツールです。 これにより、実験をより効率的に実行し、ビジネス目標を整理し、うまくいったこと、うまくいかなかったこと、次に実験する場所を強調表示した、実用的なインサイトを生成できます。</p>
-<p>詳しくは、<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=ja" target="_blank">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2025 年 10 月 10 日（PT）</p>
 </td>
 </tr>
