@@ -30,7 +30,7 @@ AI アシスタントの基本を学ぶ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ja)
 
 AI を使用したメールコンテンツ生成
 
@@ -40,7 +40,7 @@ AI アシスタントを使用して、ブランド一致を保持しながら�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=ja)
 
 プッシュ通知コンテンツの生成
 
@@ -50,7 +50,7 @@ AI アシスタントを使用して、ブランド一致を保持しながら�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=ja)
 
 AI を使用した SMS コンテンツ生成
 

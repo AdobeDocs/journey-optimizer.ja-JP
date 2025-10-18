@@ -20,7 +20,7 @@ Adobe Journey Optimizer のアクセス制御により、管理者は、組織�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 アクセス制御の基本を学ぶ
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer でユーザー権限、役割、サンドボックス�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 ユーザーと役割の管理
 

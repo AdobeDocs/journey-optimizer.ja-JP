@@ -20,7 +20,7 @@ Adobe Journey Optimizer の強力なツールを使用して、web エクスペ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 Web designer を使用したコンテンツの編集
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer の視覚的な web designer を使用して、web ペ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 非ビジュアルエディターを使用した web コンテンツの編集
 
@@ -50,7 +50,7 @@ CSS セレクター、カスタムコード、コード管理のベストプラ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
 
 Web エクスペリエンスの監視
 
@@ -60,7 +60,7 @@ Web エクスペリエンスの監視
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 Adobe Journey Optimizer で単一ページアプリケーションを作成する方法
 

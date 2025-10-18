@@ -60,7 +60,7 @@ Adobe Journey Optimizer のイベント、オーケストレーション、ア�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 条件アクティビティの使用
 

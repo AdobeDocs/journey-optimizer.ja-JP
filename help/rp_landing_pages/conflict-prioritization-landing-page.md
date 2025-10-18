@@ -20,7 +20,7 @@ Adobe Journey Optimizer の競合管理と優先順位付けにより、お客�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 競合管理の基本を学ぶ
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer の競合管理と優先順位付けにより、お客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 潜在的な競合の特定
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer の競合管理と優先順位付けにより、お客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 キャンペーンへの優先度スコアの割り当て
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer の競合管理と優先順位付けにより、お客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 メッセージとジャーニーのキャッピングルールの設定
 

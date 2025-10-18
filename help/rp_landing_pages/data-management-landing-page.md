@@ -20,7 +20,7 @@ Adobe Journey Optimizer のデータ管理を使用すると、柔軟性、セ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
 
 データ管理の基本を学ぶ
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer の高度なデータ保持、書き出し、削除、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 Adobe Journey Optimizer のスキーマの操作
 
@@ -40,7 +40,7 @@ Adobe Experience Platform のスキーマを理解および管理して、Journe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ja)
 
 Journey Optimizer データセット
 
@@ -60,7 +60,7 @@ Journey Optimizer で Adobe Experience Platform のデータセットを有効�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
 
 Journey Optimizer のクエリの基本を学ぶ
 
