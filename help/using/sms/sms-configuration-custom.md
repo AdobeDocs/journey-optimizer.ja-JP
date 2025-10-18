@@ -270,5 +270,5 @@ Webhook のインバウンド設定を作成し指定したら、SMS メッセ�
 
 ## チュートリアルビデオ {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3431625)
+>[!VIDEO](https://video.tv.adobe.com/v/3459089?captions=jpn)
 

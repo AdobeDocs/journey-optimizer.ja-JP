@@ -60,7 +60,7 @@ ht-degree: 100%
 
 [!DNL Journey Optimizer] で&#x200B;**ビジュアルフラグメント**&#x200B;を管理、作成および使用する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3419932/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451183/?captions=jpn&quality=12)
 
 [!DNL Journey Optimizer] で&#x200B;**式フラグメント**&#x200B;を管理、作成および使用する方法について説明します。
 
