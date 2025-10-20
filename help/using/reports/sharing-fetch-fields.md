@@ -5,10 +5,10 @@ title: journeyStep イベントのデータ取得フィールド
 description: journeyStep イベントのデータ取得フィールド
 feature: Journeys, Reporting
 topic: Content Management
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Experienced
 exl-id: 948fe843-47cf-4b20-976a-48069eb9cf5c
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 100%
@@ -34,6 +34,7 @@ ht-degree: 100%
 型：文字列
 
 値：
+
 * aep
 * custom
 
@@ -44,6 +45,7 @@ ht-degree: 100%
 型：文字列
 
 値：
+
 * http
 * キャップ
 * timedout

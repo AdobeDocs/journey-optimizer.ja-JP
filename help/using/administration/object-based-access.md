@@ -5,14 +5,14 @@ title: オブジェクトレベルのアクセス制御
 description: オブジェクト選択へのデータアクセスを管理する権限を定義できる、オブジェクトレベルのアクセス制御について説明します
 feature: Access Management
 topic: Administration
-role: Admin, Developer, Architect
+role: Admin, Developer
 level: Experienced
 keywords: オブジェクト, レベル, アクセス, 制御, ラベル, olac, 権限
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: 8b0310e91e5b5c1418e8e26f4505bda45146ceba
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

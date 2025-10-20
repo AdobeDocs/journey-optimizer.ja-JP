@@ -5,8 +5,8 @@ title: 設定の手順
 description: DDL をアップロードして Adobe Experience Platform 内でモデルベースのスキーマを作成する方法について説明します。
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: a9b790bc833b5819862bf2f3284968d81f595f28
-workflow-type: ht
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+workflow-type: tm+mt
 source-wordcount: '1084'
 ht-degree: 100%
 

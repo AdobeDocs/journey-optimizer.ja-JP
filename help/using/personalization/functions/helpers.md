@@ -3,10 +3,10 @@ title: ヘルパー
 description: ヘルパー
 feature: Personalization
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 98202be781bec0b03a9a9f33e93f1b01b7830a37
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 57%
@@ -106,7 +106,7 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 
 >[!NOTE]
 >
->オーディエンスとセグメント化サービスについて詳しくは、[&#x200B; この節 &#x200B;](../../audience/about-audiences.md) を参照してください。
+>オーディエンスとセグメント化サービスについて詳しくは、[ この節 ](../../audience/about-audiences.md) を参照してください。
 
 
 ## Unless{#unless}
@@ -134,8 +134,8 @@ Some edu specific content
 ## Each{#each}
 
 `each` ヘルパーを使用して、配列に対して反復処理を行います。
-ヘルパーの構文は ```{{#each ArrayName}}``` YourContent {{/each}} です。
-個々の配列項目は、ブロック内でキーワード **this** を使用して参照できます。配列の要素のインデックスは、{{@index}} を使用してレンダリングできます。
+ヘルパーの構文は ```{{#each ArrayName}}``` YourContent `{{/each}}` です。
+個々の配列項目は、ブロック内でキーワード **this** を使用して参照できます。配列の要素のインデックスは、`{{@index}}` を使用してレンダリングできます。
 
 **構文**
 
@@ -234,7 +234,7 @@ with は、長い変数名に短い別名を付ける場合にも使用できま
 
 >[!NOTE]
 >
->実行メタデータ関数は、[&#x200B; カスタムアクション &#x200B;](../../action/action.md) ではサポートされていません。
+>実行メタデータ関数は、[ カスタムアクション ](../../action/action.md) ではサポートされていません。
 
 例えば、実行メタデータヘルパーを使用して、各プロファイルに送信される各配信に特定の ID を追加できます。 この情報は実行時に生成され、エンリッチメントされた実行メタデータを書き出して、外部レポートプラットフォームとのダウンストリーム調整を行うことができます。
 
@@ -263,7 +263,7 @@ with は、長い変数名に短い別名を付ける場合にも使用できま
 
 >[!NOTE]
 >
->データセットについて詳しくは、[&#x200B; この節 &#x200B;](../../data/get-started-datasets.md) を参照してください。
+>データセットについて詳しくは、[ この節 ](../../data/get-started-datasets.md) を参照してください。
 
 **制限事項**
 

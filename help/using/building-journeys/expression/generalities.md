@@ -4,15 +4,15 @@ product: journey optimizer
 title: 高度な式エディターの構文
 description: 高度な式エディターで使用される構文について説明します。
 feature: Journeys
-role: Data Engineer, Architect
+role: Engineer
 level: Experienced
 keywords: 構文, エディター, ジャーニー
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '249'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 | 式 | 評価結果 |
 |--- |--- |
-| `4 + 2 * 10` | <ul><li>「*」は「+」よりも優先されます：2 * 10 の評価結果は → 20</li><li>4 + 20 → 24</li></ul> |
+| `4 + 2 * 10` | <ul><li>「*」は「+」よりも優先されます：2 \* 10 の評価結果は→ 20</li><li>4 + 20 → 24</li></ul> |
 | `(4 + 2) * 10` | <ul><li>括弧によって優先度が変わります：(4 + 2) の評価結果は → 6</li><li> 6 * 10 → 60</li></ul> |
 
 ## 大文字と小文字の区別 {#case-sensitivity}

@@ -5,11 +5,11 @@ title: カスタムアクションのトラブルシューティング
 description: カスタムアクションのトラブルシューティング方法について説明します。
 feature: Journeys, Actions, Custom Actions
 topic: Administration
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Experienced
 keywords: アクション, サードパーティ, カスタム, ジャーニー, API
 exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
-source-git-commit: 8a94f9081c4f7fe158c084d02642d5bbba33dca2
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 87%
@@ -93,8 +93,8 @@ Journey Optimizer 管理者は、外部ツール（Postman など）を使用し
 
 カスタムアクションの設定と使用について詳しくは、以下の節を参照してください。
 
-* [&#x200B; カスタムアクションの概要 &#x200B;](../action/action.md) - カスタムアクションの概要と、カスタムアクションがサードパーティシステムへの接続にどのように役立つかを説明します
-* [&#x200B; カスタムアクションの設定 &#x200B;](../action/about-custom-action-configuration.md) - カスタムアクションの作成および設定方法を説明します
-* [&#x200B; カスタムアクションの使用 &#x200B;](../building-journeys/using-custom-actions.md) - ジャーニーでのカスタムアクションの使用方法を説明します
-* [&#x200B; コレクションをカスタムアクションパラメーターに渡す &#x200B;](../building-journeys/collections.md) – 実行時に値が動的に入力されるカスタムアクションパラメーターにコレクションを渡す方法について説明します
+* [ カスタムアクションの概要 ](../action/action.md) - カスタムアクションの概要と、カスタムアクションがサードパーティシステムへの接続にどのように役立つかを説明します
+* [ カスタムアクションの設定 ](../action/about-custom-action-configuration.md) - カスタムアクションの作成および設定方法を説明します
+* [ カスタムアクションの使用 ](../building-journeys/using-custom-actions.md) - ジャーニーでのカスタムアクションの使用方法を説明します
+* [ コレクションをカスタムアクションパラメーターに渡す ](../building-journeys/collections.md) – 実行時に値が動的に入力されるカスタムアクションパラメーターにコレクションを渡す方法について説明します
 

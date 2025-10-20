@@ -3,15 +3,15 @@ product: journey optimizer
 title: sort
 description: sort 関数について説明します
 feature: Journeys
-role: Data Engineer, Architect
+role: Engineer
 level: Experienced
 keywords: sort, 関数, 式, ジャーニー
 exl-id: 607e1424-4165-48ae-b896-cce2d18f7dcc
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

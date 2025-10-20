@@ -4,15 +4,15 @@ product: journey optimizer
 title: AJO アーキテクチャ
 description: アーキテクチャと AEP との関係
 feature: Get Started
-role: Admin, Data Engineer, Developer, User
+role: Admin, Developer, User
 level: Beginner
 redpen-status: PASS_||_2025-04-28_15-13-07
 exl-id: f792fdf9-8038-4dd7-a7d5-d931dbf35c3e
 hide: true
-source-git-commit: f94067ffb421bfd095ed3fcb3001af0e5dc44ab3
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

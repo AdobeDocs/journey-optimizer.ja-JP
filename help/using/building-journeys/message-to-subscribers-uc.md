@@ -5,12 +5,12 @@ title: サブスクライバーへのメッセージの送信
 description: ジャーニーを作成してリスト上の購読者にメッセージを送信する方法を説明します
 feature: Journeys, Use Cases, Subscriptions
 topic: Content Management
-role: User, Data Engineer
+role: User, Developer
 level: Intermediate, Experienced
 keywords: ジャーニー, ユースケース, メッセージ, 購読者, リスト, 読み取り
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 100%

@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: サブドメイン, PTR, レコード, DNS, ドメイン, メール
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 100%
@@ -153,6 +153,7 @@ IP アドレスに関連付ける新しいサブドメインが有効である�
 検証プロセスが失敗した場合は、古い PTR レコードが表示されます。以前に IP アドレスに関連付けられていた有効なサブドメインは変更されません。
 
 考えられる更新エラーのタイプは次のとおりです。
+
 * PTR レコードの新しい転送 DNS の作成に失敗
 * レコードの更新に失敗
 * アフィニティの再オンボーディングに失敗

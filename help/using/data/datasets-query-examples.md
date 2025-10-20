@@ -5,11 +5,11 @@ title: データセットクエリの例
 description: データセットクエリの例
 feature: Journeys, Reporting, Use Cases, Datasets, Data Management
 topic: Content Management
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Experienced
 keywords: データセット, Optimizer, ユースケース
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: f1a00e734f22cb660e442ebe8c0dde3468e29768
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1066'
 ht-degree: 89%

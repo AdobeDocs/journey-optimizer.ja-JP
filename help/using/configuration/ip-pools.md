@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: IP, プール, グループ, サブドメイン, 配信品質
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: 5172fbce0ff2c3330e68394234f6f28db245c7d4
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 100%
@@ -112,6 +112,7 @@ IP プールの更新ステータスを確認するには、「**[!UICONTROL そ
 >[!NOTE]
 >
 >IP プールが正常に更新された後、次の時間待機しなければならない場合があります。
+>
 >* 単一メッセージで使用されるまでに数分間
 >* IP プールの次のバッチがバッチメッセージで有効になるまで
 

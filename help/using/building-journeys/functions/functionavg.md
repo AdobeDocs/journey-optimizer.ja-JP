@@ -3,12 +3,12 @@ product: journey optimizer
 title: avg
 description: avg 関数について説明します
 feature: Journeys
-role: Data Engineer, Architect
+role: Engineer
 level: Experienced
 keywords: avg, 関数, 式, ジャーニー
 exl-id: cc70f90c-2d12-42a0-829f-5f28c3c29cad
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '55'
 ht-degree: 100%

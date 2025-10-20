@@ -3,12 +3,12 @@ product: journey optimizer
 title: distinct
 description: distinct 関数について説明します
 feature: Journeys
-role: Data Engineer, Architect
+role: Engineer
 level: Experienced
 keywords: distinct, 関数, 式, ジャーニー
 exl-id: f4e2dd34-b634-4a91-af53-60be155a65d0
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 100%

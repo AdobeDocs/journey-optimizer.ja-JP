@@ -5,11 +5,11 @@ title: サンドボックス間での Journey Optimizer オブジェクトのコ
 description: サンドボックス間でジャーニー、コンテンツテンプレートおよびフラグメントをコピーする方法について説明します。
 feature: Journeys, Sandboxes
 topic: Content Management
-role: User, Developer, Data Engineer
+role: User, Developer
 level: Experienced
 keywords: サンドボックス, ジャーニー, コピー, 環境
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: f8134fd1e030fb969747a37acd657f62fd398c75
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1701'
 ht-degree: 100%

@@ -5,10 +5,10 @@ title: journeyStep イベントの ID フィールド
 description: journeyStep イベントの ID フィールド
 feature: Journeys, Reporting
 topic: Content Management
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Experienced
 exl-id: c447fcf0-51ec-4d88-8b2d-f15db076bfbc
-source-git-commit: 07b1f9b885574bb6418310a71c3060fa67f6cac3
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '60'
 ht-degree: 100%

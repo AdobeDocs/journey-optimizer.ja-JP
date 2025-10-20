@@ -5,11 +5,11 @@ title: データソースの設定
 description: データソースの設定方法を学ぶ
 feature: Journeys, Data Sources
 topic: Administration
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Intermediate, Experienced
 keywords: データ, ソース, 設定, フィールド
 exl-id: 9b0dcffb-f543-4066-850c-67ec33f74a31
-source-git-commit: 521b643dfea095c2e9499db60038dc7202fc8648
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 100%

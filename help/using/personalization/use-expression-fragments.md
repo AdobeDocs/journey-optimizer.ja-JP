@@ -5,14 +5,14 @@ title: 式フラグメントの使用
 description: ' [!DNL Journey Optimizer] パーソナライゼーションエディターで式フラグメントを使用する方法を説明します。'
 feature: Personalization, Fragments
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Intermediate
 keywords: 式, エディター, ライブラリ, パーソナライゼーション
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 87245fffb3ad10d51a7500d006dbe69b1905640e
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '994'
-ht-degree: 88%
+ht-degree: 98%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 88%
 
 フラグメントは、[!DNL Journey Optimizer] キャンペーンおよびジャーニー全体で参照できる、再利用可能なコンポーネントです。この機能を使用すると、複数のカスタムコンテンツブロックを事前に構築し、マーケティングユーザーはそのコンテンツブロックを使用して、改善されたデザインプロセスでコンテンツを迅速に組み立てることができます。[詳しくは、フラグメントを参照してください。](../content-management/fragments.md)
 
-➡️ [フラグメントの管理、作成、使用方法について詳しくは、このビデオをご覧ください](../content-management/fragments.md#video-fragments)
+➡️ [フラグメントの管理、作成、使用方法について詳しくは、このビデオを参照してください。](../content-management/fragments.md#video-fragments)
 
 ## 式フラグメントの使用 {#use-expression-fragment}
 
@@ -34,8 +34,8 @@ ht-degree: 88%
 
 1. [パーソナライゼーションエディター](personalization-build-expressions.md)を開き、左側のパネルで「**[!UICONTROL フラグメント]**」ボタンを選択します。
 
-   リストには、現在のサンドボックスで作成またはフラグメントとして保存されたすべての式フラグメントが表示されます。[&#x200B; フラグメントの作成方法を学ぶ &#x200B;](../content-management/create-fragments.md)
-作成日で並べ替えられ、最近追加された式のフラグメントがリストの最初に表示されます。
+   リストには、現在のサンドボックスで作成またはフラグメントとして保存されたすべての式フラグメントが表示されます。[フラグメントの作成方法について説明します。](../content-management/create-fragments.md)
+フラグメントは作成日で並べ替えられます。最近追加した式フラグメントがリストの最初に表示されます。
 
    ![](assets/expression-fragments-pane.png)
 
@@ -65,7 +65,7 @@ ht-degree: 88%
 
 1. その後、[パーソナライゼーションエディター](personalization-build-expressions.md)のパーソナライズ機能とオーサリング機能をすべて使用して、通常どおりコンテンツをカスタマイズして検証できます。
 
-1. 場合によっては、変数の計算のみが必要になるので、式フラグメントのコンテンツを非表示にした方がよいでしょう。 これを行うには、`render` 属性を使用して `false` に設定します。 例：
+1. 場合によっては、変数の計算のみが必要となり、式フラグメントのコンテンツは非表示にした方がよいこともあります。これを行うには、`render` 属性を使用して `false` に設定します。例：
 
    ```
    Hi {{profile.person.name.firstName|fragment id='ajo:fragmentId/variantId' mode ='inline' render=false}}
@@ -73,7 +73,7 @@ ht-degree: 88%
 
 >[!NOTE]
 >
->複数の改行を含む式フラグメントを作成し、[SMS](../sms/create-sms.md#sms-content) または[プッシュ](../push/design-push.md)コンテンツで使用する場合、改行は保持されます。したがって、送信する前に [SMS](../sms/send-sms.md) または [&#x200B; プッシュ &#x200B;](../push/send-push.md) メッセージをテストしてください。
+>複数の改行を含む式フラグメントを作成し、[SMS](../sms/create-sms.md#sms-content) または[プッシュ](../push/design-push.md)コンテンツで使用する場合、改行は保持されます。したがって、送信する前に [SMS](../sms/send-sms.md) または [ プッシュ ](../push/send-push.md) メッセージをテストしてください。
 
 ## 暗黙的変数の使用 {#implicit-variables}
 
@@ -83,15 +83,15 @@ ht-degree: 88%
 
 次のようなユースケースが考えられます。
 
-1. **フラグメント内で入力変数を使用します**。
+1. **フラグメントでの入力変数の使用**
 
-   フラグメントをキャンペーン/ジャーニーアクションコンテンツで使用すると、フラグメント外で宣言された変数を活用できます。 以下に例を示します。
+   フラグメントをキャンペーン／ジャーニーアクションコンテンツで使用すると、フラグメント外で宣言された変数を活用できます。以下に例を示します。
 
    ![](../personalization/assets/variable-in-a-fragment.png)
 
    `utm_content` 変数がキャンペーンコンテンツで宣言されていることがわかります。**ヒーローブロック**&#x200B;というフラグメントが使用されると、`utm_content` パラメーター値が追加されるリンクが表示されます。最終結果は、`https://luma.enablementadobe.com?utm_campaign= Product_launch&utm_content= start_shopping` です。
 
-1. **フラグメントの出力変数を使用**
+1. **フラグメントの出力変数の使用**
 
    フラグメント内で計算または定義された変数は、コンテンツ内で使用できます。次の例では、フラグメント **F1** によって、一連の変数が宣言されています。
 

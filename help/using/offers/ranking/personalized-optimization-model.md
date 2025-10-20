@@ -8,7 +8,7 @@ feature: Ranking, Decision Management
 role: User
 level: Experienced
 exl-id: c73b3092-e96d-4957-88e6-500e99542782
-source-git-commit: 0e9d8335bed8d8157a0f2302a5ff2b0a74257218
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 100%
@@ -59,6 +59,7 @@ ht-degree: 100%
 * **オンライン推論**&#x200B;フェーズでは、モデルで生成されたリアルタイムスコアに基づいて候補オファーをランク付けします。ユーザーやオファーの機能を組み込むのが困難な従来の協調フィルタリング手法とは異なり、パーソナライズされた最適化はディープラーニングベースのレコメンデーション手法であり、複雑な非線形の機能インタラクションパターンを含めて学習できます。
 
 以下に、パーソナライズされた最適化の基本的な考え方を簡単に示します。図 1 に示すように、ユーザーとオファーとの間の過去のインタラクションを格納するデータセットがあるとします。 次のものがあります。
+
 * 2 つのオファー（offer_1 と offer_2）
 * 2 つの機能（feature_1 と feature_2）
 * response 列。

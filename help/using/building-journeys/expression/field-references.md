@@ -4,12 +4,12 @@ product: journey optimizer
 title: フィールド参照
 description: 高度な式でのフィールド参照について説明します
 feature: Journeys
-role: Data Engineer, Architect
+role: Engineer
 level: Experienced
 keywords: ジャーニー, フィールド, 式, イベント
 exl-id: 2348646a-b205-4b50-a08f-6625e92f44d7
 version: Journey Orchestration
-source-git-commit: 7ac246c0aa6776d3ec67223c4b07536b8ed0c881
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 100%

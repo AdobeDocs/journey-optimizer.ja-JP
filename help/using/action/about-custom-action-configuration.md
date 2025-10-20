@@ -5,11 +5,11 @@ title: カスタムアクションの設定
 description: カスタムアクションの設定方法を学ぶ
 feature: Journeys, Actions, Custom Actions
 topic: Administration
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Experienced
 keywords: アクション, サードパーティ, カスタム, ジャーニー, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1829'
 ht-degree: 92%
@@ -196,15 +196,15 @@ Mutual Transport Layer Security（mTLS）は、Adobe Journey Optimizer カスタ
 >
 
 
-* [&#x200B; カスタムアクションのトラブルシューティング &#x200B;](../action/troubleshoot-custom-action.md) - カスタムアクションのトラブルシューティング方法を説明します。
+* [ カスタムアクションのトラブルシューティング ](../action/troubleshoot-custom-action.md) - カスタムアクションのトラブルシューティング方法を説明します。
 
 
 ## その他のリソース
 
 カスタムアクションの設定、使用、トラブルシューティングについて詳しくは、以下の節を参照してください。
 
-* [&#x200B; カスタムアクションの概要 &#x200B;](../action/action.md) - カスタムアクションの概要と、カスタムアクションがサードパーティシステムへの接続にどのように役立つかを説明します
-* [&#x200B; カスタムアクションの使用 &#x200B;](../building-journeys/using-custom-actions.md) - ジャーニーでのカスタムアクションの使用方法を説明します
-* [&#x200B; カスタムアクションのトラブルシューティング &#x200B;](../action/troubleshoot-custom-action.md) - カスタムアクションのトラブルシューティング方法を説明します。
-* [&#x200B; コレクションをカスタムアクションパラメーターに渡す &#x200B;](../building-journeys/collections.md) – 実行時に値が動的に入力されるカスタムアクションパラメーターにコレクションを渡す方法について説明します
+* [ カスタムアクションの概要 ](../action/action.md) - カスタムアクションの概要と、カスタムアクションがサードパーティシステムへの接続にどのように役立つかを説明します
+* [ カスタムアクションの使用 ](../building-journeys/using-custom-actions.md) - ジャーニーでのカスタムアクションの使用方法を説明します
+* [ カスタムアクションのトラブルシューティング ](../action/troubleshoot-custom-action.md) - カスタムアクションのトラブルシューティング方法を説明します。
+* [ コレクションをカスタムアクションパラメーターに渡す ](../building-journeys/collections.md) – 実行時に値が動的に入力されるカスタムアクションパラメーターにコレクションを渡す方法について説明します
 

@@ -4,12 +4,12 @@ product: journey optimizer
 title: AJO の役割と責務
 description: Adobe Journey Optimizer に関連する様々な役割とその責務について説明します。
 feature: Get Started
-role: Admin, Data Engineer, Developer, User
+role: Admin, Developer, User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
-source-git-commit: 0a80d8df834c48b6a5e6f4fafae89006b64bca11
-workflow-type: ht
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 100%
 
@@ -94,7 +94,7 @@ Journey Optimizer の実装が成功すると、通常、このシーケンス�
 
 Journey Optimizer の主な機能とペルソナについて詳しくは、紹介ビデオをご覧ください。このビデオでは、ユーザーインターフェイスを順を追って説明し、役割固有のワークフローに基づいて主な機能を重点的に説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430316?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 ## その他のリソース
 

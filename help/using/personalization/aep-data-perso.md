@@ -6,14 +6,14 @@ description: Adobe Experience Platform データをパーソナライゼーシ�
 badge: label="限定提供" type="Informative"
 feature: Personalization, Rules
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Intermediate
 keywords: 式, エディター
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
-source-git-commit: 87245fffb3ad10d51a7500d006dbe69b1905640e
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '707'
-ht-degree: 86%
+ht-degree: 92%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 86%
 
 >[!AVAILABILITY]
 >
->この機能は現在、限定提供リリースとしてすべてのお客様に対して提供されています。
+>この機能は現在、限定提供リリースとしてすべてお客様が利用できます。
 >
 >現時点では、限定された一連のお客様のみが、「datasetLookup」ヘルパー関数を式フラグメント内で使用できます。アクセスするには、アドビ担当者にお問い合わせください。
 
-Journey Optimizer を使用すると、パーソナライゼーションエディターで Adobe Experience Platform レコードデータセットのデータを利用して、[コンテンツをパーソナライズする](../personalization/personalize.md)ことができます。開始する前に、まず、参照パーソナライゼーションに必要なデータセットを参照に対して有効にする必要があります。詳しくは、「Adobe Experience Platform データの使用 [&#x200B; の節を参照してくだ &#x200B;](../data/lookup-aep-data.md) い。
+Journey Optimizer を使用すると、パーソナライゼーションエディターで Adobe Experience Platform レコードデータセットのデータを利用して、[コンテンツをパーソナライズする](../personalization/personalize.md)ことができます。開始する前に、まず、参照パーソナライゼーションに必要なデータセットを参照に対して有効にする必要があります。詳しくは、「Adobe Experience Platform データの使用 [ の節を参照してくだ ](../data/lookup-aep-data.md) い。
 
 データセットの参照パーソナライゼーションが有効になると、そのデータを使用してコンテンツを [!DNL Journey Optimizer] にパーソナライズできます。
 

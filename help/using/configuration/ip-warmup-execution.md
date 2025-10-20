@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: IP、グループ、サブドメイン、配信品質
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '2635'
 ht-degree: 100%
@@ -232,7 +232,7 @@ At phase level, system ensures that previously targeted + new profiles are picke
 
 * フェーズの最初の実行をアクティブ化する場合：
 
-   * [オーディエンス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja){target="_blank"}は、除外されたキャンペーンオーディエンス（存在する場合）に対して、`<warmupName>-Phase<phaseNo>-Audience Exclusion ` という命名規則で作成されます。
+   * [オーディエンス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja){target="_blank"}は、除外されたキャンペーンオーディエンス（存在する場合）に対して、`<warmupName>-Phase<phaseNo>-Audience Exclusion` という命名規則で作成されます。
 
    * 除外されたドメイングループ（存在する場合）に対してオーディエンスが、`<warmupName>-Phase<phaseNo>-Domain Exclusion` という命名規則で作成されます。
 

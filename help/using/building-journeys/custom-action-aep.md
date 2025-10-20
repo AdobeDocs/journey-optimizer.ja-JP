@@ -5,11 +5,11 @@ title: カスタムアクションを使用した AEP へのジャーニーイ�
 description: カスタムアクションを使用した AEP へのジャーニーイベントの書き込み
 feature: Journeys, Use Cases, Custom Actions
 topic: Content Management
-role: Developer, Data Engineer
+role: Developer
 level: Experienced
 exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 100%

@@ -5,12 +5,12 @@ title: 権限レベル
 description: ユーザーが様々な機能にアクセスできるようになる高レベルおよび低レベルの権限について説明します。
 topic: Administration
 feature: Access Management
-role: Admin, Architect, Developer
+role: Admin, Developer
 level: Experienced
 keywords: 権限, 高レベル, 低レベル, プロファイル, Admin Console
 exl-id: 1b286f9d-43ef-4b80-b4ee-136da857bb95
-source-git-commit: 2a5db6950ac82fd18deb2e4009c9a43247444d6a
-workflow-type: ht
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+workflow-type: tm+mt
 source-wordcount: '1303'
 ht-degree: 100%
 

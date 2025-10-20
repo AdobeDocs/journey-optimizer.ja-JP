@@ -3,10 +3,10 @@ title: オファー配信 API の基本を学ぶ
 description: パーソナライズされたオファーの配信に使用できる API について説明します。
 feature: Decision Management, API
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 100%
@@ -20,6 +20,7 @@ ht-degree: 100%
 このページでは、**Decisioning** API と **Edge Decisioning** API で利用できる特定の機能について説明します。どちらでも顧客にオファーを配信することができますが、インバウンドのユースケースにはできるだけ **Edge Decisioning** API を使用し、プラットフォームでの待ち時間とスループットを向上できるようにすることをお勧めします。
 
 API の使用方法について詳しくは、次の節を参照してください。
+
 * [Decisioning API](decisioning-api.md)
 * [Edge Decisioning API](edge-decisioning-api.md)
 * [Batch Decisioning API](batch-decisioning-api.md)

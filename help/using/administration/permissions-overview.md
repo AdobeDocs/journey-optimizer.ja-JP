@@ -5,11 +5,11 @@ title: ユーザー管理の概要
 description: 権限の定義と管理方法を学ぶ
 feature: Access Management
 topic: Administration
-role: Admin, Architect
+role: Admin, Developer
 level: Intermediate
 keywords: 権限, 制限, アクセス, サンドボックス
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 93%

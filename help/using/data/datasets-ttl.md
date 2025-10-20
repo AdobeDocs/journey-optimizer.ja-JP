@@ -4,11 +4,11 @@ product: journey optimizer
 title: データセットの有効期間（TTL）ガードレールについて
 description: ' [!DNL Adobe Journey Optimizer] のデータセットの有効期間ガードレール'
 feature: Data Model, Datasets, Data Management
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Experienced
 keywords: プラットフォーム, データレイク, 作成, レイク, データセット, プロファイル
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: fbd0280d293cef3548b48c2992b4f9f2793a7e1f
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 100%

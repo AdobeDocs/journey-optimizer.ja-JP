@@ -6,10 +6,10 @@ feature: Decision Management
 role: User
 level: Intermediate
 exl-id: bd950410-691b-49d8-8851-8c6c448c00fd
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '533'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -23,13 +23,14 @@ Journey Optimizer を使用すると、カスタムアップロード（CSV フ�
 2. オファー表示域でのコンテンツのパーソナライズ。
 
 カスタムアップロードオーディエンスについて詳しくは、次の節を参照してください。
+
 * [オーディエンスと Journey Optimizer の概要](../audience/about-audiences.md)
 * [Adobe Experience Platform でのオーディエンスの読み込み](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
 
 ## 必読 {#must-read}
 
 * この機能は、**意思決定管理**&#x200B;でのみサポートされ、決定（旧称「エクスペリエンス決定」）ではサポートされていません。
-* これは、**Decisioning API（Hub）**&#x200B;リクエストを通じてのみ使用でき、**Edge Decisioning API** または **Batch Decisioning** ではサポートされていません。
+* これは、**Decisioning API （Hub）** リクエストを通じてのみ使用でき、**Edge Decisioning API** または **Batch Decisioning** ではサポートされていません。
 
 ## カスタムアップロードオーディエンスを実施要件条件として使用 {#eligibilty}
 

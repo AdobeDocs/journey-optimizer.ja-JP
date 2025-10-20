@@ -3,12 +3,12 @@ product: journey optimizer
 title: filter
 description: filter 関数について説明します
 feature: Journeys
-role: Data Engineer, Architect
+role: Engineer
 level: Experienced
 keywords: フィルター, 関数, 式, ジャーニー
 exl-id: 05e3d2ba-1a27-4f27-88cc-3d83eb3b14af
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 100%

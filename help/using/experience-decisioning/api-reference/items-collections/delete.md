@@ -3,10 +3,10 @@ title: 項目コレクションの削除
 description: グループの決定をコレクションに分類する方法について説明します。
 feature: Decision Management, API, Collections
 topic: Integrations
-role: Data Engineer
+role: Developer
 level: Experienced
 exl-id: 7290c857-cbc7-4197-ae13-430adcf1649b
-source-git-commit: 7bfbb88c2817d18b7897a7fe1657ebf11be6eb58
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 100%

@@ -6,7 +6,7 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 2161baf0-38b7-4397-bffe-083929e8033a
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '935'
 ht-degree: 100%
@@ -99,11 +99,11 @@ Web または[コードベースのエクスペリエンス](../code-based/get-s
 
   | 演算子 | 説明 | 例 |
   |---|---|---|
-  | 等しい | ドメインの完全一致。  |
+  | 等しい | ドメインの完全一致。  | |
   | 次で始まる | 入力された文字列で始まるすべてのドメイン（サブドメインを含む）に一致します。  | 例：「Starts with: dev」は、「dev」で始まるすべてのドメインとサブドメイン（dev.example.com、dev.products.example.com、developer.example.com など）に一致します。 |
   | 次で終わる | 入力された文字列で終わるすべてのドメイン（サブドメインを含む）に一致します。  | 例：「Ends with: example.com」は、「example.com」で終わるすべてのドメインおよびサブドメイン（stage.example.com、prod.example.com、myexample.com など）に一致します。 |
   | ワイルドカード一致 | 「ワイルドカード一致」演算子を使用すると、ユーザーは次のように文字列の途中にワイルドカード一致を定義できます。「dev.*.example.com」。検証ルールでは、演算子が「ワイルドカード一致」の場合、値にはワイルドカード（アスタリスク）を 1 つのみ含める必要があります。  | 例：「ワイルドカード一致：dev.*.example.com」。これは、dev.products.example.com、dev.mytest.products.example.com、dev.blog.example.com などのドメインに一致します。 |
-  | いずれか | すべてのドメインに一致します。これは、ドメイン間で特定のパスをテストする場合に役立ちます。 |
+  | いずれか | すべてのドメインに一致します。これは、ドメイン間で特定のパスをテストする場合に役立ちます。 |  |
 
 
 * **パス**

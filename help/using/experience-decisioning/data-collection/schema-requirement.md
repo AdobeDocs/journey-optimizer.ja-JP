@@ -4,12 +4,12 @@ solution: Experience Platform
 title: イベントキャプチャの設定
 description: イベントをキャプチャするためのオファースキーマの設定方法を学ぶ
 feature: Ranking, Datasets, Decision Management
-role: Developer, Data Engineer
+role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
 exl-id: ce3a2c33-c15b-436f-90b1-7373d7b2b1ca
-source-git-commit: 0bba63855360d0dcd7daa98a2083f23995b88b94
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 100%

@@ -3,12 +3,12 @@ product: journey optimizer
 title: countWithNull
 description: countWithNull 関数について説明します
 feature: Journeys
-role: Data Engineer, Architect
+role: Engineer
 level: Experienced
 keywords: countWithNull, 関数, 式, ジャーニー
 exl-id: 8d53b6d8-f00f-4d1a-b6df-951f84a15430
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '57'
 ht-degree: 100%

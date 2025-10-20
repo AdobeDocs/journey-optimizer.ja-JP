@@ -5,12 +5,12 @@ title: Campaign v7／v8 を使用したメッセージの送信
 description: Campaign v7／v8 を使用したメッセージの送信方法を学ぶ
 feature: Journeys, Integrations, Custom Actions, Use Cases
 topic: Administration
-role: Admin, Data Engineer, User
+role: Admin, Developer, User
 level: Intermediate, Experienced
 keywords: ジャーニー, メッセージ, キャンペーン, 統合
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 100%

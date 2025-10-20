@@ -3,13 +3,13 @@ title: 外部データ参照ヘルパー
 description: Adobe Journey Optimizer で動的なパーソナライゼーションに外部データ参照ヘルパーを使用する包括的なガイドです。
 feature: Personalization
 topic: Personalization
-role: Data Engineer
+role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
 badge: label="限定提供" type="Informative"
 exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
-source-git-commit: 87245fffb3ad10d51a7500d006dbe69b1905640e
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1202'
 ht-degree: 97%

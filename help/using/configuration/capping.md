@@ -8,8 +8,8 @@ role: Developer
 level: Beginner
 keywords: 外部, API, Optimizer, キャップ
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
-source-git-commit: 13af123030449d870f44f3470710b0da2c6f4775
-workflow-type: ht
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 100%
 
@@ -44,6 +44,7 @@ Capping API を使用すると、キャップ設定を作成、設定および�
 このコレクションは、__[Adobe I/O コンソールの統合](https://console.adobe.io/integrations)／試す／Postman 用にダウンロード__&#x200B;経由で生成された Postman 変数コレクションを共有するように設定されています。これにより、選択した統合値を含む Postman 環境ファイルが生成されます。
 
 ダウンロードして Postman にアップロードしたら、`{JO_HOST}`、`{BASE_PATH}` および `{SANDBOX_NAME}` の 3 つの変数を追加する必要があります。
+
 * `{JO_HOST}`：[!DNL Journey Optimizer]ゲートウェイ URL。
 * `{BASE_PATH}`：API のエントリポイント。
 * `{SANDBOX_NAME}`：API 操作が行われるサンドボックス名に対応するヘッダー **x-sandbox-name**（例えば、「prod」）。詳しくは、[サンドボックスの概要](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ja){target="_blank"}を参照してください。
@@ -182,6 +183,7 @@ Capping API を使用すると、キャップ設定を作成、設定および�
 >既にデプロイされている設定を更新する場合は、再デプロイが必要です。
 
 使用する API 呼び出し：
+
 1. **`list`** - 既存の設定を取得します。
 1. **`get`** - 特定の設定の詳細を取得します。
 1. **`update`** - 設定を変更します。

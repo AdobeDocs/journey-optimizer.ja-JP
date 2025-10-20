@@ -5,11 +5,11 @@ title: カスタムアクションパラメーターへのコレクションの�
 description: カスタムアクションを使用して、Journey Optimizerでコレクションを動的に渡す方法を説明します
 feature: Journeys, Use Cases, Custom Actions, Collections
 topic: Content Management
-role: Developer, Data Engineer
+role: Developer
 level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 version: Journey Orchestration
-source-git-commit: 8a94f9081c4f7fe158c084d02642d5bbba33dca2
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 35%
@@ -68,7 +68,7 @@ ht-degree: 35%
 
 >[!NOTE]
 >
->コレクション内のネストされた配列は、カスタムアクションリクエストペイロードでは部分的にのみサポートされます。 詳しくは、[&#x200B; 制限事項 &#x200B;](#limitations) を参照してください。
+>コレクション内のネストされた配列は、カスタムアクションリクエストペイロードでは部分的にのみサポートされます。 詳しくは、[ 制限事項 ](#limitations) を参照してください。
 
 ## 一般的な手順 {#general-procedure}
 
@@ -227,8 +227,8 @@ ht-degree: 35%
 
 カスタムアクションの設定、使用、トラブルシューティングについて詳しくは、以下の節を参照してください。
 
-* [&#x200B; カスタムアクションの概要 &#x200B;](../action/action.md) - カスタムアクションの概要と、カスタムアクションがサードパーティシステムへの接続にどのように役立つかを説明します
-* [&#x200B; カスタムアクションの設定 &#x200B;](../action/about-custom-action-configuration.md) - カスタムアクションの作成および設定方法を説明します
-* [&#x200B; カスタムアクションの使用 &#x200B;](../building-journeys/using-custom-actions.md) - ジャーニーでのカスタムアクションの使用方法を説明します
-* [&#x200B; カスタムアクションのトラブルシューティング &#x200B;](../action/troubleshoot-custom-action.md) - カスタムアクションのトラブルシューティング方法を説明します。
+* [ カスタムアクションの概要 ](../action/action.md) - カスタムアクションの概要と、カスタムアクションがサードパーティシステムへの接続にどのように役立つかを説明します
+* [ カスタムアクションの設定 ](../action/about-custom-action-configuration.md) - カスタムアクションの作成および設定方法を説明します
+* [ カスタムアクションの使用 ](../building-journeys/using-custom-actions.md) - ジャーニーでのカスタムアクションの使用方法を説明します
+* [ カスタムアクションのトラブルシューティング ](../action/troubleshoot-custom-action.md) - カスタムアクションのトラブルシューティング方法を説明します。
 

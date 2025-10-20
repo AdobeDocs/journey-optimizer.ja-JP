@@ -5,10 +5,10 @@ title: コンテキストデータと Edge 決定リクエスト
 description: Edge 決定リクエストでコンテキストデータを渡す方法について説明します。
 badge: label="レガシー" type="Informative"
 feature: Decision Management
-role: Developer, Data Engineer
+role: Developer
 level: Experienced
 exl-id: c9e14d4d-f2e2-43f9-b1c5-4b005ce858ad
-source-git-commit: e6193d6204f722df7e6c02aaed80abc53b523755
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '813'
 ht-degree: 100%

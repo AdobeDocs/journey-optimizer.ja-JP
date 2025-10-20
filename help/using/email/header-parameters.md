@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 設定, メール, 設定
 exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
-source-git-commit: 1b4ab451ed9e2315ffe4850c6ab4b8ad20223ac3
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '712'
 ht-degree: 100%
@@ -35,6 +35,7 @@ ht-degree: 100%
 >[!NOTE]
 >
 >**[!UICONTROL 送信者メールの接頭辞]**&#x200B;および&#x200B;**[!UICONTROL エラーメールの接頭辞]**&#x200B;アドレスは、現在選択されている[デリゲートされたサブドメイン](../configuration/about-subdomain-delegation.md)を使用してメールを送信します。例えば、デリゲートされたサブドメインが *marketing.luma.com* の場合：
+>
 >* **[!UICONTROL 送信者メールの接頭辞]**&#x200B;として *contact* と入力します。送信者メールは、*contact@marketing.luma.com* です。
 >* **[!UICONTROL エラーメールの接頭辞]**&#x200B;として *error* と入力します。エラーアドレスは、*error@marketing.luma.com* です。
 

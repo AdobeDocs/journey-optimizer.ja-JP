@@ -5,11 +5,11 @@ title: ジャーニーにイベントを送信するための追加手順
 description: ジャーニーにイベントを送信するための追加手順を学ぶ
 feature: Journeys, Events
 topic: Administration
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Intermediate, Experienced
 keywords: 手順, 設定, ジャーニー, イベント, ストリーム, API
 exl-id: e0144151-6c54-4656-9650-b544d8e7be16
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 88%
@@ -88,6 +88,6 @@ ht-degree: 88%
 }
 ```
 
-「data」部分をどこに貼り付けるかを特定しやすくするために、[JSON フォーマッター &#x200B;](https://jsonformatter.curiousconcept.com){target="_blank"} などの JSON ビジュアライゼーションツールを使用できます。
+「data」部分をどこに貼り付けるかを特定しやすくするために、[JSON フォーマッター ](https://jsonformatter.curiousconcept.com){target="_blank"} などの JSON ビジュアライゼーションツールを使用できます。
 
-ストリーミング取得 API のトラブルシューティングについては、[Experience Platformのドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=ja){target="_blank"} を参照してください。
+ストリーミング取得 API のトラブルシューティングについては、[Experience Platformのドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=ja){target="_blank"} を参照してください。

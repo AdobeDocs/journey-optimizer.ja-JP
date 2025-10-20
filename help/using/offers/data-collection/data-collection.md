@@ -4,10 +4,10 @@ description: 意思決定管理のフィードバックデータ収集の詳細�
 badge: label="レガシー" type="Informative"
 feature: Decision Management, Datasets
 topic: Integrations
-role: User, Data Engineer, Developer
+role: User, Developer
 level: Experienced
 exl-id: 278cb255-439c-4ce8-ab59-07df79774b98
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 100%
@@ -19,6 +19,7 @@ ht-degree: 100%
 ## データ収集について
 
 Adobe Experience Platform では、表示されるオファーやユーザーの操作方法など、オファー決定支援のフィードバックを収集できます。 このデータは、次の目的で使用できます。
+
 * [意思決定管理レポート](../reports/get-started-events.md)の作成
 * [フリークエンシーキャップ](../offer-library/add-constraints.md#capping)ルールの使用
 * ランキングメソッドとして使用できる [AI モデル](../ranking/create-ranking-strategies.md)の構築。

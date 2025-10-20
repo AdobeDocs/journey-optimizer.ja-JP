@@ -4,12 +4,12 @@ solution: Experience Platform
 title: イベントを収集するデータセットの作成
 description: イベントを収集するデータセットの作成方法を説明します
 feature: Ranking, Decision Management, Datasets
-role: Data Engineer, Developer
+role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
 exl-id: 96c1326f-be40-4738-8997-a67dc14872bb
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 100%

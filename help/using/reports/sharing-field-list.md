@@ -5,10 +5,10 @@ title: ステップイベントフィールドの一覧
 description: ステップイベントフィールドの一覧
 feature: Journeys, Reporting
 topic: Content Management
-role: Data Engineer, Data Architect, Admin
+role: Engineer, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: efae7f7d366690af71430bb9eb62523d1881c50e
+source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 70%
