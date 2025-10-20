@@ -11,9 +11,9 @@ level: Intermediate
 keywords: 式, エディター
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
 source-git-commit: 813e7a61a69e73afe3f2f9fc808c551d85bd22a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1200'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -48,13 +48,13 @@ ht-degree: 96%
 
 >[!AVAILABILITY]
 >
->この機能は現在、限定提供リリースとしてすべてのお客様に対して提供されています。
+>この機能は現在、限定提供リリースとしてすべてお客様が利用できます。
 
-## ガードレールと制限 {#guardrails}
+## ガードレールと制限事項 {#guardrails}
 
-* **サポートされているチャネル** - Decisioning を使用したデータセットルックアップは、現在、メールとジャーニーのカスタムアクションで機能します。<!--Support for code-based experience channels is coming soon.-->
-* **属性の使用状況** - デシジョンのデータセットルックアップ機能は、属性を追加して決定項目定義を拡張しているため、属性をプロファイルに拡張していません
-* ルックアップ制限：[!DNL Journey Optimizer] では、1 つの決定ポリシーあたり最大 1,000 個のルックアップをサポートしています。
+* **サポートされているチャネル** - 決定を使用したデータセット参照は、現在、メールとジャーニーのカスタムアクションで機能します。<!--Support for code-based experience channels is coming soon.-->
+* **属性の使用状況** - 決定のデータセットルックアップ機能は、属性を追加して決定項目の定義を拡張します。プロファイルに対する属性は拡張しません。
+* 参照制限：[!DNL Journey Optimizer] では、1 つの決定ポリシーあたり最大 1,000 件の参照をサポートしています。
 
 ## 前提条件
 

@@ -10,9 +10,9 @@ level: Beginner
 keywords: コンテンツ, 実験, 複数, オーディエンス, 処理
 exl-id: 74868625-f4ea-44f9-ae2a-8e5fdd22a081
 source-git-commit: 664f6bafd4cfb4d86b7a449c279484ca49933247
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '347'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 98%
 
 このセクションには、選択した期間（過去 90 日間、過去 30 日間、過去 7 日間） 内のすべてのアクティブな実験が表示され、その指標に対する貢献度がハイライト表示されます。
 
-使用可能な指標は次のとおりです。
+次の指標を使用できます。
 
 * **[!UICONTROL 上昇率]**：ベースラインに対する特定の処理のコンバージョン率の向上率を測定します。
 

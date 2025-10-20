@@ -6,9 +6,9 @@ description: 調整されたキャンペーンのガードレールと制限に�
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
 source-git-commit: a9b790bc833b5819862bf2f3284968d81f595f28
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '508'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 

@@ -6,9 +6,9 @@ description: DDL をアップロードして Adobe Experience Platform 内でモ
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
 version: Campaign Orchestration
 source-git-commit: e189bb6a52691770655a436e45c6788d1011a8ca
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '470'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 90%
 
 ## 主要概念
 
-オーケストレートキャンペーンのコンテキストでは、**データセット** は、スキーマ（行）とフィールド（列）を含んだデータコレクション（通常はテーブル）のストレージおよび管理用の構成体です。 Experience Platform に正常に取り込まれたデータは、データレイク内にデータセットとして保存されます。
+オーケストレーションキャンペーンのコンテキストでは、**データセット**&#x200B;とは、スキーマ（行）とフィールド（列）を含んだデータコレクション（通常はテーブル）のストレージおよび管理として機能する構成体です。Experience Platform に正常に取り込まれたデータは、データレイク内にデータセットとして保存されます。
 
 **スキーマ**&#x200B;は、データの構造と形式を表し、検証します。現実のオブジェクト（人物など）の概念上の定義を提供し、そのオブジェクトの各インスタンスに含める必要があるデータ（名前や誕生日など）の概要を説明します。
 
@@ -52,7 +52,7 @@ ht-degree: 90%
 
 モデルベースのデータモデルでのスキーマやテーブルの整理は、データを複数のテーブルに構造化することです。各テーブルに 1 つのタイプのエンティティ／スキーマが格納されていることを確認します。
 
-➡️ [&#x200B; スキーマについて詳しくは、Adobe Experience Platform ドキュメントを参照してください &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
+➡️ [スキーマについて詳しくは、Adobe Experience Platform ドキュメントを参照してください](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/ui/resources/schemas#create-model-based-schema)
 
 ## 実装手順 {#implementation}
 
@@ -72,7 +72,7 @@ ht-degree: 90%
 
    スキーマを定義したら、それに基づいてデータセットを作成する必要があります。このデータセットは、取り込んだデータのストレージとして機能します。
 
-1. [調整されたキャンペーンの有効化](manual-schema.md#enable)
+1. [オーケストレーションキャンペーンを有効にする](manual-schema.md#enable)
 
    データセットには、取り込んだデータが保存され、Adobe Journey Optimizer でアクセスできるようにするには、オーケストレーションキャンペーンを有効にする必要があります。
 

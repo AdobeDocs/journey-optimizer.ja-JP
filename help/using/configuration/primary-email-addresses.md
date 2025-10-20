@@ -10,9 +10,9 @@ level: Intermediate
 keywords: プライマリ, 実行, メール, ターゲット, プロファイル, Optimizer
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 source-git-commit: fc12ee65fc773c70b88504a951e5f5c5b2b3b0e6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '607'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 69%
 
 <!--1. You can also select an additional field to use as secondary email address. This allows you to determine which field to use if the primary field is empty for a profile. -->
 
-## ジャーニーパラメーターのデフォルトの実行フィールドを上書き {#override-execution-address-journey}
+## ジャーニーパラメーターのデフォルトの実行フィールドの上書き {#override-execution-address-journey}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_execution_address"
@@ -78,7 +78,7 @@ ht-degree: 69%
 >abstract="いくつかの特定のケースでは、デフォルトの実行アドレスを上書きできます。フィールドの右側にある **パラメーターの上書きを有効にする** アイコンを使用して、カスタムプライマリアドレスを定義します。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/configuration/primary-email-addresses#journey-parameters" text="実行アドレスについて"
 
-特定のユースケースについては、グローバルに設定された実行フィールドを上書きし、ジャーニーレベルで異なる値を定義することができます。
+特定のユースケースでは、グローバルに設定された実行フィールドを上書きし、ジャーニーレベルで異なる値を定義できます。
 
 この値の上書きは、例えば次のような場合に便利です。
 
@@ -87,7 +87,7 @@ ht-degree: 69%
 
 **[!UICONTROL メール]**&#x200B;アクションまたは **[!UICONTROL SMS]** アクションを[ジャーニー](../email/create-email.md#create-email-journey-campaign)に追加すると、プライマリメールアドレスがジャーニーの詳細設定パラメーターの下に表示されます。
 
-フィールドの右側にある **[!UICONTROL パラメーターの上書きを有効にする]** アイコンを使用して、この値を上書きします。
+フィールドの右側にある「**[!UICONTROL パラメーターの上書きを有効にする]**」アイコンを使用して、この値を上書きします。
 
 ![](assets/journey-enable-parameter-override.png)
 
@@ -95,16 +95,16 @@ ht-degree: 69%
 >
 >メールアドレスの上書きは、特定のユースケースに対してのみ使用してください。ほとんどの場合、**[!UICONTROL 実行フィールド]**&#x200B;でプライマリアドレスとして定義されている値を使用する必要があるため、メールアドレスを変更する必要はありません。
 
-## チャネル設定のデフォルトの実行フィールドを上書き {#override-execution-address-channel-config}
+## チャネル設定のデフォルトの実行フィールドの上書き {#override-execution-address-channel-config}
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_config_execution_address"
 >title="使用するデフォルトの実行アドレスの上書き"
->abstract="複数のメールアドレスまたは電話番号がデータベースで使用可能な場合（個人用、仕事用など）、送信で優先順位を付けるメールアドレスを選択できます。 プライマリアドレスはサンドボックスレベルで定義されますが、ここでは、この特定のチャネル設定のデフォルト設定を上書きできます。"
+>abstract="複数のメールアドレスまたは電話番号がデータベースで使用可能な場合 (個人用、仕事用など)、送信で優先するものを選択できます。プライマリアドレスはサンドボックスレベルで定義されますが、ここでは、この特定のチャネル設定のデフォルト設定を上書きできます。"
 
-特定のメールまたは SMS のデフォルトの実行アドレスを変更できます [&#x200B; チャネル設定 &#x200B;](channel-surfaces.md)。
+特定のメールまたは SMS の[チャネル設定](channel-surfaces.md)のデフォルトの実行アドレスを変更できます。
 
-これを行うには、「実行ディメンション **[!UICONTROL セクションに移動し]**&#x200B;**[!UICONTROL 実行アドレス]** の下のフィールドを編集します。
+これを行うには、「**[!UICONTROL 実行ディメンション]**」セクションに移動し、**[!UICONTROL 実行アドレス]**&#x200B;の下のフィールドを編集します。
 
 ![](assets/sms-config-execution-address.png){width=85%}
 
@@ -112,6 +112,6 @@ ht-degree: 69%
 
 ![](assets/sms-config-execution-field.png)
 
-実行フィールドが更新され、このチャネル設定を使用するキャンペーンまたはジャーニーのプライマリアドレスとして使用されます。 サンドボックスレベルで定義された [&#x200B; 一般設定 &#x200B;](#admin-settings) よりも優先されます。
+実行フィールドが更新され、このチャネル設定を使用するキャンペーンまたはジャーニーのプライマリアドレスとして使用されます。サンドボックスレベルで定義された[一般設定](#admin-settings)が上書きされます。
 
 <!--[Learn more on the execution address in the email configuration ](../email/email-settings.md#execution-address)-->

@@ -6,9 +6,9 @@ description: ユーザーインターフェイスを通じてモデルベース�
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
 version: Campaign Orchestration
 source-git-commit: fc741db8db2ca9c05dbb87a41712e90a62a18c13
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '871'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 87%
 
 1. サポートされているソースからデータセットにデータを[取り込みます](ingest-data.md)。
 
-➡️ [&#x200B; 手動モデルベースのスキーマについて詳しくは、Adobe Experience Platform ドキュメントを参照してください &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
+➡️ [手動モデルベーススキーマについて詳しくは、Adobe Experience Platform のドキュメントを参照してください](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
 
 ## スキーマの作成 {#schema}
 
@@ -112,7 +112,7 @@ ht-degree: 87%
 
 ## スキーマをリンク {#link-schema}
 
-2 つのスキーマ間に関係を作成すると、プライマリプロファイルスキーマを超えるデータでオーケストレートキャンペーンを強化できます。
+2 つのスキーマ間に関係を作成すると、プライマリプロファイルスキーマ以外のデータを使用してオーケストレーションキャンペーンを強化できます。
 
 1. 新しく作成したスキーマから、リンクとして使用する属性を選択し、「**[!UICONTROL 関係を追加]**」をクリックします。
 
@@ -130,7 +130,7 @@ ht-degree: 87%
 
 ## スキーマのデータセットの作成 {#dataset}
 
-スキーマを定義したら、それに基づいてデータセットを作成できます。 データセットには、取り込んだデータが格納されます。このデータセットにアクセスするには、オーケストレートキャンペーンを有効にする必要があります。
+スキーマを定義したら、それに基づいてデータセットを作成できるようになります。データセットには、取り込んだデータが格納されます。オーケストレーションキャンペーンにアクセスするには、データセットを有効にする必要があります。
 
 1. **[!UICONTROL データ管理]**／**[!UICONTROL データセット]**&#x200B;メニューに移動し、「**[!UICONTROL データセットを作成]**」をクリックします。
 
@@ -144,9 +144,9 @@ ht-degree: 87%
 
 1. **[!UICONTROL データセット]**&#x200B;に&#x200B;**[!UICONTROL 名前]**&#x200B;を入力して、「**[!UICONTROL 終了]**」をクリックします。
 
-次に、オーケストレートキャンペーン用のデータセットを有効にする必要があります。
+次に、オーケストレーションキャンペーン用のデータセットを有効にする必要があります。
 
-## 調整されたキャンペーン用のデータセットを有効にする {#enable}
+## オーケストレーションキャンペーンのデータセットを有効にする {#enable}
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_enable_dataset_for_oc"
@@ -160,7 +160,7 @@ ht-degree: 87%
 
 1. **[!UICONTROL データセット]**&#x200B;リストでデータセットを見つけます。
 
-1. 「**[!UICONTROL データセット]**」設定から、「**オーケストレートキャンペーン**」オプションを有効にして、オーケストレートキャンペーンで使用できるデータセットをマークします。
+1. **[!UICONTROL データセット]**&#x200B;設定から「**オーケストレーションキャンペーン**」オプションを有効にして、データセットをオーケストレーションキャンペーンで使用できるようにします。
 
    ![](assets/schema_manual_7.png){zoomable="yes"}
 

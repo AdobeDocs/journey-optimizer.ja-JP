@@ -1,38 +1,38 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journey Optimizerで API トリガーキャンペーンのフィードバック Webhook を作成する
-description: Journey Optimizerで API トリガーキャンペーンのフィードバック Webhook を作成する方法を説明します。
+title: Journey Optimizer で API トリガーキャンペーンのフィードバック Webhook を作成する
+description: Journey Optimizer で API トリガーキャンペーンのフィードバック Webhook を作成する方法を説明します。
 feature: Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
 source-git-commit: be07b0dfec31d23f741bfc2a9f89fe1a7891ef0b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '301'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
 
 # API トリガーキャンペーン用のフィードバック Webhook の作成 {#webhooks}
 
-フィードバック Webhook を使用すると、トランザクション API トリガーキャンペーンを通じて送信されたメッセージに対して、リアルタイムのステータス更新を受け取ることができます。 Webhook を設定すると、配信の結果をシステムに直接自動的に受け取り、監視、ログ記録、自動処理を有効にすることができます。
+フィードバック Webhook を使用すると、トランザクション API トリガーキャンペーンを通じて送信されたメッセージに対して、リアルタイムのステータス更新を受け取ることができます。Webhook を設定すると、配信の結果をシステムに直接自動的に受信できるようになり、監視、ログ記録、自動処理が可能になります。
 
-Webhook 設定は、**[!UICONTROL 管理]** / **[!UICONTROL チャネル]** / **[!UICONTROL フィードバック Webhook 設定]** メニューから管理できます。
+Webhook 設定は、**[!UICONTROL 管理]**／**[!UICONTROL チャネル]**／**[!UICONTROL フィードバック Webhook 設定]**&#x200B;メニューから管理できます。
 
 ![](assets/webhook-list.png)
 
 >[!NOTE]
->**組織+ サンドボックス** の組み合わせごとに 1 つの Webhook 設定のみが許可されます。
+>**組織 + サンドボックス**&#x200B;の組み合わせごとに、1 つの Webhook 設定のみが許可されます。
 
 ## フィードバック Webhook の作成
 
 Webhook を作成するには、次の手順に従います。
 
-1. **[!UICONTROL 管理]**/**[!UICONTROL チャネル]**/**[!UICONTROL フィードバック Webhook 設定]** に移動します。
+1. **[!UICONTROL 管理]**／**[!UICONTROL チャネル]**／**[!UICONTROL フィードバック Webhook 設定]**&#x200B;に移動します。
 
-1. **フィードバックを作成 Webhook** をクリックします。
+1. 「**フィードバック Webhook を作成**」をクリックします。
 
 1. 「**[!UICONTROL 基本設定]**」セクションで、次の詳細を指定します。
 
@@ -46,18 +46,18 @@ Webhook を作成するには、次の手順に従います。
 
    ![](assets/webhook-authentication.png)
 
-   * **認証なし** – 認証ヘッダーは追加されません。
+   * **認証なし** - 認証ヘッダーは追加されません。
    * **JWT 認証** - エンドポイントで JWT 認証が必要な場合は、必要な詳細を指定します。
 
-1. 「**[!UICONTROL ヘッダーパラメーター]**」セクションでは、各 Webhook リクエストで送信される追加のカスタムヘッダーを設定します。
+1. 「**[!UICONTROL ヘッダーパラメーター]**」セクションでは、各 Webhook リクエストと共に送信される追加のカスタムヘッダーを設定します。
 
    ![](assets/webhook-header.png)
 
-1. 「**[!UICONTROL 送信]**」をクリックして、設定を保存します。
+1. 「**[!UICONTROL 送信]**」をクリックして設定を保存します。
 
 >[!NOTE]
 >
->webhook はいつでも編集できます。 これを行うには、インベントリから開き、「**[!UICONTROL 編集]**」ボタンをクリックします。
+>Webhook はいつでも編集できます。これを行うには、インベントリから開き、「**[!UICONTROL 編集]**」ボタンをクリックします。
 
 ## Webhook ペイロード構造
 
@@ -115,4 +115,4 @@ Webhook は、次のイベントをキャプチャできます。
 
 ## 次の手順 {#next}
 
-フィードバック Webhook が作成されたら、**トランザクション API トリガーキャンペーン** オーディエンスを設定する際に有効にすることができます。 詳しくは、次の節を参照してください。[Webhook の有効化 &#x200B;](../campaigns/api-triggered-campaign-audience.md#webhook)
+フィードバック Webhook が作成されると、**トランザクション API トリガーキャンペーン**&#x200B;オーディエンスを設定する際にそれを有効にすることができます。詳しくは、[Webhook の有効化](../campaigns/api-triggered-campaign-audience.md#webhook)の節を参照してください

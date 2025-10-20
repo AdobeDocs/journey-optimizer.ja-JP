@@ -10,9 +10,9 @@ level: Intermediate
 keywords: メッセージ, 頻度, ルール, プレッシャー
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
 source-git-commit: 9cd21ef6552ce8f6ddb2097de883ec1a1bbf06e2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1018'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 93%
 >[!CONTEXTUALHELP]
 >id="ajo_rule_type"
 >title="ルールタイプ"
->abstract="チャネルルールセットに必要なルールタイプを選択します。**フリークエンシーキャップ** タイプを使用して、通信チャネルにキャッピングルールを適用します。 例えば、1 日に 1 件を超えるメールまたは SMS 通信を送信しないでください。 **クワイエットアワー** （限定提供）を選択して、時間ベースの除外を定義し、特定の期間にメッセージが送信されないようにします。"
+>abstract="チャネルルールセットに必要なルールタイプを選択します。**フリークエンシーキャップ**&#x200B;タイプを使用して、通信チャネルにキャッピングルールを適用します。例えば、1 日に 1 件以上のメールまたは SMS 通信を送信できないようにします。**クワイエットアワー**（限定提供）を選択して、時間ベースの除外を定義し、特定の期間にメッセージが送信されないようにします。
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_duration"
@@ -174,4 +174,4 @@ ht-degree: 93%
 
 ## チュートリアルビデオ {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444727?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

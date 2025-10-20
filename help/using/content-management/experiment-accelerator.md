@@ -10,9 +10,9 @@ level: Beginner
 keywords: コンテンツ, 実験, 複数, オーディエンス, 処理
 exl-id: 938b148e-b2cd-4d8b-9f73-dd62420d6184
 source-git-commit: 4c0d5be4d8783818453683190d1371b8516bc3a4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '467'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 95%
 
 >[!AVAILABILITY]
 >
->**Journey Optimizer Experimentation Accelerator** には、お客様に対して有料ライセンスが必要で、Adobe TargetまたはAdobe Journey Optimizerとシームレスに統合されます。
+>**Journey Optimizer 実験アクセラレーター**&#x200B;を使用するには、有料ライセンスが必要です。このアクセラレーターは Adobe Target または　Adobe Journey Optimizer とシームレスに統合されています。
 
 **Journey Optimizer 実験アクセラレーター**&#x200B;は、実験プロセスの効率化および強化を目的に設計された強力なツールです。Adobe Target および Adobe Journey Optimizer と統合することで、実験を管理、分析、最適化する一元化されたプラットフォームを提供します。Journey Optimizer 実験アクセラレーターは、AI 駆動型のインサイトとアダプティブテストを活用し、データ主導の決定、マーケティング戦略の改善、測定可能な結果の推進を実現します。
 
