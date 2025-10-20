@@ -55,8 +55,8 @@ ht-degree: 80%
 
 カスタムアクションの設定と使用について詳しくは、以下の節を参照してください。
 
-* [ カスタムアクションの設定 ](../action/about-custom-action-configuration.md) - カスタムアクションの作成および設定方法を説明します
-* [ カスタムアクションの使用 ](../building-journeys/using-custom-actions.md) - ジャーニーでのカスタムアクションの使用方法を説明します
-* [ コレクションをカスタムアクションパラメーターに渡す ](../building-journeys/collections.md) – 実行時に値が動的に入力されるカスタムアクションパラメーターにコレクションを渡す方法について説明します
-* [ カスタムアクションのトラブルシューティング ](../action/troubleshoot-custom-action.md) - カスタムアクションのトラブルシューティング方法を説明します。
+* [&#x200B; カスタムアクションの設定 &#x200B;](../action/about-custom-action-configuration.md) - カスタムアクションの作成および設定方法を説明します
+* [&#x200B; カスタムアクションの使用 &#x200B;](../building-journeys/using-custom-actions.md) - ジャーニーでのカスタムアクションの使用方法を説明します
+* [&#x200B; コレクションをカスタムアクションパラメーターに渡す &#x200B;](../building-journeys/collections.md) – 実行時に値が動的に入力されるカスタムアクションパラメーターにコレクションを渡す方法について説明します
+* [&#x200B; カスタムアクションのトラブルシューティング &#x200B;](../action/troubleshoot-custom-action.md) - カスタムアクションのトラブルシューティング方法を説明します。
 
