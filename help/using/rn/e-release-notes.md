@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1ecf54bbcb2cc62b5f13434cfbf1e369cd145d93
+source-git-commit: d09fc3ed670a50b6a99bcf660353ee37d31c7501
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 44%
+source-wordcount: '1089'
+ht-degree: 52%
 
 ---
 
@@ -160,23 +160,23 @@ ht-degree: 44%
 </tbody>
 </table>
 
-<table>
+<!--table>
 <thead>
 <tr>
-<th><strong>メールチャネルでの決定のサポート</strong><br/></th>
+<th><strong>Decisioning support in email channel</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>メールジャーニーとキャンペーンに決定ポリシーを追加できるようになりました。決定ポリシーは、配信する最適なコンテンツを各オーディエンスメンバーに応じて動的に返すことを目的に、決定エンジンを活用するオファーのためのコンテナです。</p>
-<p>この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。</p>
-<!--img src="assets/do-not-localize/FILE.gif"-->
-<!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
+<p>You can now add Decision policies into email journeys and campaigns. Decision policies are containers for your offers that leverage the Decisioning engine to dynamically return the best content to deliver for each audience member.</p>
+<p>Previously released in Limited Availability, this capability is now available to all environments (General Availability).</p>
+<img src="assets/do-not-localize/FILE.gif">
+<p>For more information, refer to the <a href="../FILE.md">detailed documentation</a></p>
 </td>
 </tr>
 </tbody>
-</table>
+</table-->
 
 <table>
 <thead>
@@ -248,7 +248,7 @@ ht-degree: 44%
 <li><a href="../reports/alerts.md#alert-custom-action-error-rate"> カスタムアクションエラー率を超えています </a>：過去 5 分間に成功した HTTP 呼び出しに対するカスタムアクションエラーの割合が、しきい値を超えています</li>
 <li><a href="../reports/alerts.md#alert-profile-error-rate"> プロファイルエラー率を超過 </a>：過去 5 分に入力されたプロファイルに対する、エラーのプロファイルの割合が、しきい値を超えました。</li></ul> <p>しきい値を変更し、グローバルではなく個々のジャーニーレベルのアラートを登録できます。</p>
 <p>詳しくは、<a href="../reports/alerts.md">詳細なドキュメント</a>を参照してください。</p>
-<p>公開日：2025 年 10 月 14 日（PT）</p>
+<p>公開日：2025年10月14日（PT）</p>
 </td>
 </tr>
 </tbody>
@@ -266,7 +266,7 @@ ht-degree: 44%
 <p>新しい「executionMetadata」ヘルパー関数がパーソナライゼーションエディターで使用できます。 これを使用すると、任意のネイティブアクションにコンテキスト情報を追加し、外部システムに書き出すためにデータセットに取得できます。</p>
 <p>この機能は、限定提供です。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
 <p>詳しくは、<a href="../personalization/functions/helpers.md#execution-metadata">詳細なドキュメント</a>を参照してください</p>
-<p>公開日：2025 年 10 月 13 日（PT）</p>
+<p>公開日：2025年10月13日（PT）</p>
 </td>
 </tr>
 </tbody>
@@ -283,8 +283,8 @@ ht-degree: 44%
 <td>
 <p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator.html" target="_blank">Adobe Experience Platform Agent Orchestrator</a> を活用し、Journey Optimizerで実験エージェントを利用できます。 </p>
 <p>実験エージェントは、Web サイト、メール、プッシュメッセージおよびアプリケーションをまたいでデジタル実験を実行および管理する方法を最新化する、AI を利用したツールです。 これにより、実験をより効率的に実行し、ビジネス目標を整理し、うまくいったこと、うまくいかなかったこと、次に実験する場所を強調表示した、実用的なインサイトを生成できます。</p>
-<p>詳しくは、<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=ja" target="_blank">詳細なドキュメント</a>を参照してください。</p>
-<p>公開日：2025 年 10 月 10 日（PT）</p>
+<p>詳しくは、<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">詳細なドキュメント</a>を参照してください。</p>
+<p>公開日：2025年10月10日（PT）</p>
 </td>
 </tr>
 </tbody>
@@ -308,7 +308,7 @@ ht-degree: 44%
 <p>この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。</p>
 <p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
 <p>詳しくは、<a href="../email/pdf-attachments.md">詳細なドキュメント</a>を参照してください。</p>
-<p>公開日：2025 年 9 月 30 日（PT）</p>
+<p>公開日：2025年9月30日（PT）</p>
 </td>
 </tr>
 </tbody>
@@ -323,9 +323,9 @@ ht-degree: 44%
 <tbody>
 <tr>
 <td>
-<p>ジャーニーと、キャンペーンやサーフェスなどの関連オブジェクトを取得する新しいJourney Optimizer API が使用できるようになりました。</p>
+<p>ジャーニーと、キャンペーンやサーフェスなどの関連オブジェクトを取得する新しい Journey Optimizer API が利用可能になりました。</p>
 <p>詳しくは、<a href="https://developer.adobe.com/journey-optimizer-apis/references/journeys-retrieve/">詳細なドキュメント</a>を参照してください。</p>
-<p>公開日：2025 年 9 月 25 日（PT）</p>
+<p>公開日：2025年9月25日（PT）</p>
 </td>
 </tr>
 </tbody>
@@ -334,18 +334,22 @@ ht-degree: 44%
 
 ### 機能強化
 
+**AI モデルを通じた E メールの意思決定**
+
+AI モデルを使用して、Decisioning を通じてメールの最適なコンテンツを最適化できるようになりました。 例えば、この機能を使用すると、購入、ボタンのクリック、買い物かごに追加などのカスタムイベントに基づいて最適なコンテンツを最適化できます。
+
 **WhatsApp チャネルの実行フィールド**
 
 メールと SMS に加えて、サンドボックスレベルで WhatsApp 配信のデフォルトの実行フィールドを更新することがわかります。 また、WhatsApp ジャーニーアクティビティの詳細設定パラメーターまたは WhatsApp チャネル設定で変更することで、グローバルに設定された実行フィールドを上書きすることもできます。<!-- [Read more](../FILE.md) -->
 
-**Mailto （登録解除）アドレスのカスタム属性のサポート**
+**宛先（登録解除）アドレスのカスタム属性サポート**
 
-Journey Optimizerを使用すると、Adobe外で同意を管理している場合に、独自のワンクリック購読解除リンクとカスタム購読解除メールアドレスをメール設定に定義することで、外部カスタムエンドポイントを設定できます。 受信者が登録解除リンクをクリックすると、Journey Optimizer では、同意更新イベントにいくつかのデフォルトのプロファイル固有のパラメーターが追加されます。
+アドビの外部で同意を管理している場合、Journey Optimizer では、メール設定で独自のワンクリック登録解除リンクとカスタム登録解除用メールアドレスを定義して、外部カスタムエンドポイントを設定できます。受信者が登録解除リンクをクリックすると、Journey Optimizer では、同意更新イベントにいくつかのデフォルトのプロファイル固有のパラメーターが追加されます。
 
-カスタムエンドポイントをさらにパーソナライズするために、同意イベントにも追加されるカスタム属性を定義できるようになりました。 [詳細情報](../email/list-unsubscribe.md#custom-attributes)
+ワンクリック登録解除リンクをさらにパーソナライズするため、同意イベントに追加されるカスタム属性も定義できるようになりました。[詳細情報](../email/list-unsubscribe.md#custom-attributes)
 
 >[!AVAILABILITY]
 >
->この機能は、8 月 25 日（PT）以降、カスタム **[!UICONTROL ワンクリック登録解除 URL]** で既に使用できるようになり、限定提供の **[!UICONTROL 宛先（登録解除）]** オプションでリリースされました。 アクセス権を取得するには、アドビ担当者にお問い合わせください。
+>この機能は、8月25日（PT）以降、カスタム&#x200B;**[!UICONTROL ワンクリック登録解除 URL]** で既に使用できるようになり、限定提供の「**[!UICONTROL 宛先（登録解除）]**」オプションでリリースされました。アクセス権を取得するには、アドビ担当者にお問い合わせください。
 
-公開日：2025 年 10 月 6 日（PT）
+公開日：2025年10月6日（PT）
