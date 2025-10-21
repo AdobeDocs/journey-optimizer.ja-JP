@@ -6,7 +6,7 @@ topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
 source-wordcount: '1051'
 ht-degree: 100%
@@ -110,19 +110,19 @@ curl -X POST 'https://platform.adobe.io/data/core/ods/decisions' \
 
 | プロパティ | 説明 | 例 |
 | -------- | ----------- | ------- |
-| `xdm:propositionRequests` | このオブジェクトには、プレースメント ID と決定 ID が含まれています。 |
+| `xdm:propositionRequests` | このオブジェクトには、プレースメント ID と決定 ID が含まれています。 |  |
 | `xdm:propositionRequests.xdm:placementId` | 一意のプレースメント ID。 | `"xdm:placementId": "dps:offer-placement:ffed0456"` |
 | `xdm:propositionRequests.xdm:activityId` | 一意の決定 ID。 | `"xdm:activityId": "dps:offer-activity:ffed0123"` |
 | `xdm:itemCount` | 返されるオファーの数。最大値は 30 です。 | `"xdm:itemCount": 2` |
-| `xdm:profiles` | このオブジェクトは、決定がリクエストされるプロファイルに関する情報を保持します。API リクエストの場合は、プロファイルが 1 つ含まれます。 |
+| `xdm:profiles` | このオブジェクトは、決定がリクエストされるプロファイルに関する情報を保持します。API リクエストの場合は、プロファイルが 1 つ含まれます。 |  |
 | `xdm:profiles.xdm:identityMap` | このオブジェクトは、ID の名前空間統合コードに基づく一連のエンドユーザー ID を保持します。ID マップには各名前空間の複数の ID を保持できます。名前空間の詳細については、[このページ](../../../audience/get-started-identity.md)を参照してください。 | `Email: [{"xdm:id": "123@abc.com"}]` |
 | `xdm:profiles.xdm:decisionRequestId` | プロファイルの決定リクエストを一意に識別するために使用できる、クライアントによって生成された ID。この ID は応答内にエコーバックされ、決定の結果に影響を与えません。 | `"xdm:decisionRequestId": "0AA00002-0000-1224-c0de-cjf98Csj43"` |
-| `xdm:allowDuplicatePropositions` | このオブジェクトは、重複除外ルールの制御構造を表します。特定のディメンションに対して同じオプションを提案できるかどうかを示す一連のフラグで構成されます。フラグを true に設定した場合は、重複が許可され、フラグで示されるカテゴリ全体で削除されません。フラグを false に設定した場合、決定エンジンはディメンション全体で同じ提案を行わず、代わりにサブデシジョンの 1 つに対して次に最適なオプションを選択する必要があります。 |
+| `xdm:allowDuplicatePropositions` | このオブジェクトは、重複除外ルールの制御構造を表します。特定のディメンションに対して同じオプションを提案できるかどうかを示す一連のフラグで構成されます。フラグを true に設定した場合は、重複が許可され、フラグで示されるカテゴリ全体で削除されません。フラグを false に設定した場合、決定エンジンはディメンション全体で同じ提案を行わず、代わりにサブデシジョンの 1 つに対して次に最適なオプションを選択する必要があります。 |  |
 | `xdm:allowDuplicatePropositions.xdm:acrossActivities` | True に設定すると、複数の決定に同じオプションが割り当てられる場合があります。 | `"xdm:acrossActivities": true` |
 | `xdm:allowDuplicatePropositions.xdm:acrossPlacements` | True に設定すると、複数のプレースメントに同じオプションが割り当てられる場合があります。 | `"xdm:acrossPlacements": true` |
 | `xdm:enrichedAudience` | CSV オーディエンスをターゲティングする場合は、このパラメーターを追加して「true」に設定します | `"xdm:enrichedAudience": true` |
 | `xdm:mergePolicy.xdm:id` | プロファイルアクセスサービスが返すデータを制御する結合ポリシーを指定します。リクエストで指定されていない場合、意思決定管理はプロファイルアクセスサービスに何も渡さず、指定されている場合は呼び出し元が提供する ID を渡します。 | `"xdm:id": "5f3ed32f-eaf1-456c-b0f0-7b338c4cb18a"` |
-| `xdm:responseFormat` | 応答コンテンツをフォーマットする一連のフラグ。 |
+| `xdm:responseFormat` | 応答コンテンツをフォーマットする一連のフラグ。 |  |
 | `xdm:responseFormat.xdm:includeContent` | ブール値で、`true` に設定した場合、応答にコンテンツを含めます。 | `"xdm:includeContent": true` |
 | `xdm:responseFormat.xdm:includeMetadata` | 返される追加のメタデータを指定するために使用されるオブジェクト。このプロパティが含まれていない場合、デフォルトでは `xdm:id` と `repo:etag` が返されます。 | `name` |
 | `xdm:responseFormat.xdm:activity` | このフラグは、`xdm:activity` に対して返される特定のメタデータ情報を識別します。 | `name` |
@@ -188,7 +188,7 @@ curl -X POST 'https://platform.adobe.io/data/core/ods/decisions' \
 | プロパティ | 説明 | 例 |
 | -------- | ----------- | ------- |
 | `xdm:propositionId` | XDM DecisionEvent に関連付けられた提案エンティティの一意の ID。 | `"xdm:propositionId": "5d0ffb5e-dfc6-4280-99b6-0bf3131cb8b8"` |
-| `xdm:propositions` | このオブジェクトには、決定の提案が 1 つ含まれています。決定に対して複数のオプションが返されることもあります。オプションが見つからない場合は、決定のフォールバックオファーが返されます。1 つの決定の提案には、`options` プロパティまたは `fallback` プロパティが常に含まれています。`options` プロパティは（存在する場合）、空にすることはできません。 |
+| `xdm:propositions` | このオブジェクトには、決定の提案が 1 つ含まれています。決定に対して複数のオプションが返されることもあります。オプションが見つからない場合は、決定のフォールバックオファーが返されます。1 つの決定の提案には、`options` プロパティまたは `fallback` プロパティが常に含まれています。`options` プロパティは（存在する場合）、空にすることはできません。 |  |
 | `xdm:propositions.xdm:activity` | このオブジェクトには、決定の一意の ID が含まれます。 | `"xdm:id": "dps:activity:ffed0123"` |
 | `xdm:propositions.xdm:placement` | このオブジェクトには、オファープレースメントの一意の ID が含まれます。 | `"xdm:id": "dps:placement:ffed0456"` |
 | `xdm:propositions.xdm:options` | このオブジェクトには、単一のオプションが含まれます（一意の ID を含む）。指定する場合、このオブジェクトを空にすることはできません。 | `xdm:id": "dps:personalized-option:ccc0111` |
@@ -222,7 +222,7 @@ The following video is intended to support your understanding of the components 
 >
 >This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/342831/?captions=jpn&quality=12) -->
+>[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12) -->
 
 ## 次の手順 {#next-steps}
 

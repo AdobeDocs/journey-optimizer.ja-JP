@@ -11,10 +11,10 @@ hide: true
 hidefromtoc: true
 exl-id: ec1af88c-7b0a-4eaf-97e1-0d9676268fed
 badge: label="ベータ版" type="Informative"
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 97%
+source-wordcount: '477'
+ht-degree: 92%
 
 ---
 
@@ -22,15 +22,17 @@ ht-degree: 97%
 
 キャンペーンのグローバルレポートへは、「**[!UICONTROL レポートを表示]**」ボタンを使用して、キャンペーンから直接アクセスできます。
 
-キャンペーンの&#x200B;**[!UICONTROL グローバルレポート]**&#x200B;は、キャンペーンの成功とエラーの詳細を示す様々なウィジェットに分かれています。必要に応じて、各ウィジェットのサイズを変更したり削除したりできます。詳しくは、この[節](../reports/global-report.md#modify-dashboard)を参照してください。
+キャンペーンの&#x200B;**[!UICONTROL グローバルレポート]**&#x200B;は、キャンペーンの成功とエラーの詳細を示す様々なウィジェットに分かれています。必要に応じて、各ウィジェットのサイズを変更したり削除したりできます。詳しくは、この <!--[section](../reports/global-report.md#modify-dashboard)--> を参照してください。
 
-Adobe Journey Optimizerで使用可能なすべての指標の詳細なリストについては、[このページ](global-report.md#list-of-components-global.md)を参照してください。
+Adobe Journey Optimizerで使用可能なすべての指標の詳細なリストについては、<!--[this page](global-report.md#list-of-components-global.md)--> を参照してください。
 
 ## 「キャンペーン」タブ {#campaign-global-objectives}
 
 ### 配信 {#delivery-global-objectives}
 
+<!--
 ![](assets/campaign_report_global_1.png)
+-->
 
 **[!UICONTROL キャンペーンの統計]**&#x200B;ウィジェットには、キャンペーンに関連する主な情報の詳細が表示されます。
 
@@ -58,7 +60,9 @@ Adobe Journey Optimizerで使用可能なすべての指標の詳細なリスト
 
 ### 実験レポート {#experimentation-global-objectives}
 
+<!--
 ![](assets/experimentation_report_3.png)
+-->
 
 「**[!UICONTROL 実験]**」タブには、各バリアントのパフォーマンスに関する主要なインサイトが表示され、最も成功したものを特定します。
 

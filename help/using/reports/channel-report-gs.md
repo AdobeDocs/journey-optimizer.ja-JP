@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 247b966d-4f84-453b-8178-9c9ebcd494ef
-source-git-commit: 64e225cdc8615e51655ef550866b67ca249a7572
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 99%
+source-wordcount: '637'
+ht-degree: 96%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 99%
 
 チャネルレポートは完全にカスタマイズ可能で、ウィジェットのサイズを変更したり、削除したりして、特定のニーズに合ったダッシュボードを作成できます。また、レポートデータを PDF ファイルまたは CSV ファイルにエクスポートして、さらに詳しく分析することもできます。
 
-チャネルレポートで使用できる様々な指標およびウィジェットについて詳しくは、[このページ](channel-report.md)を参照してください。
+<!--[this page](channel-report.md)--> のチャネルレポートで使用できる様々な指標およびウィジェットについて詳しくは、こちらを参照してください。
 
 ## 開始する前に {#manage-reports-prereq}
 

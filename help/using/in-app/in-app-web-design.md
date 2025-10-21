@@ -8,10 +8,10 @@ level: Beginner
 keywords: アプリ内, メッセージ, 作成, 開始
 hide: true
 hidefromtoc: true
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
-source-wordcount: '780'
-ht-degree: 100%
+source-wordcount: '775'
+ht-degree: 97%
 
 ---
 
@@ -89,7 +89,9 @@ ht-degree: 100%
 
 ![](assets/in_app_web_design_3.png)
 
-メディア URL を入力するか、「**[!UICONTROL アセットを選択]**」アイコンをクリックして、アセットライブラリに保存されているアセットをアプリ内メッセージに直接追加します。[アセット管理の詳細情報](../content-management/assets-essentials.md)。画面読み上げアプリケーション用の&#x200B;**[!UICONTROL 代替テキスト]**&#x200B;を追加することもできます。
+メディア URL を入力するか、「**[!UICONTROL Assetsを選択]**」アイコンをクリックして、Assets ライブラリに保存されているアセットをアプリ内メッセージに直接追加します。<!--[Learn more about asset management](../content-management/assets-essentials.md).-->
+
+画面読み上げアプリケーション用の&#x200B;**[!UICONTROL 代替テキスト]**&#x200B;を追加することもできます。
 
 +++詳細フォーマットを使用したその他のオプション
 

@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 4bb16689d9af805a077b4c87540bd23162f84bbb
-workflow-type: ht
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
+workflow-type: tm+mt
 source-wordcount: '6603'
 ht-degree: 100%
 
@@ -1393,6 +1393,7 @@ Journey Optimizer 製品リリースに関する&#x200B;**メールおよび製�
 **パーソナライゼーションエディター**（公開日：3月12日（PT））
 
 Journey Optimizer パーソナライゼーションエディターが更新され、新しい機能が追加されました。
+
 * **コードエディターのデザインの更新** - 操作性と焦点を向上させる、よりクリーンで最新のインターフェイス。
 * **検索と置換** - エディター内でコンテンツをすばやく検索して置換する機能が追加されました。
 * **取り消しとやり直しのサポート** - 変更を簡単に元に戻したり、再適用したりできます。

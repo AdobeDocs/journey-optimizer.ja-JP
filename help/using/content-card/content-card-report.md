@@ -7,7 +7,7 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 100%
@@ -35,7 +35,9 @@ ht-degree: 100%
 
 ## 表示してクリックのトレンド {#display-click}
 
+<!--
 ![](assets/content-card-report-1.png)
+-->
 
 **[!UICONTROL 表示してクリックのトレンド]**&#x200B;のグラフは、メッセージの全体的なリーチと、メッセージに関与するユニークプロファイルの数の両方を理解するのに役立ちます。
 
@@ -51,7 +53,9 @@ ht-degree: 100%
 
 ## トラッキングデータ {#tracking-data}
 
+<!--
 ![](assets/content-card-report-2.png)
+-->
 
 **[!UICONTROL トラッキングデータ]**&#x200B;のテーブルには、コンテンツカードと結びつけられたプロファイルアクティビティの詳細なスナップショットが表示され、エンゲージメントとコンテンツカードの効果に関する重要なインサイトを得ることができます。
 

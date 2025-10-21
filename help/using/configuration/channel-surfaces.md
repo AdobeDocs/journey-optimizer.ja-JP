@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: チャネル, サーフェス, 技術, パラメーター, Optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
 source-wordcount: '1804'
 ht-degree: 100%
@@ -238,6 +238,7 @@ ht-degree: 100%
 #### 成功 {#success}
 
 検証プロセスが正常に完了すると、この設定を使用するすべてのメッセージで、新しいバージョンの設定が自動的に使用されます。ただし、次の待機時間が必要になることがあります。
+
 * 単一メッセージで使用されるまでに数分間
 * 設定の次のバッチがバッチメッセージで有効になるまで
 

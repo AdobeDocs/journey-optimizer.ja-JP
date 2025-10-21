@@ -10,7 +10,7 @@ level: Experienced
 keywords: サブドメイン, デリゲーション, ドメイン, DNS
 badge: label="限定提供" type="Informative"
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: cd688d0c140404a846df09a53f37be8d0fe5633e
+source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
 source-wordcount: '927'
 ht-degree: 100%
@@ -113,10 +113,11 @@ ht-degree: 100%
    -----END CERTIFICATE-----
    ```
 
-   <!--
-    >[!CAUTION]
-    >
-    >Both Data and CDN subdomains must be included in the same certificate.-->
+<!--
+>[!CAUTION]
+>
+>Both Data and CDN subdomains must be included in the same certificate.
+-->
 
 ## フィードバックループの手順の完了 {#feedback-loop-steps}
 
