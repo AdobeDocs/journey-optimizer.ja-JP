@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b1a16fa6c194d2bd352c4c287bc96d56ced122ba
+source-git-commit: 0aa29a163e337359ea4455edee57bc49fd06a020
 workflow-type: tm+mt
-source-wordcount: '2995'
+source-wordcount: '2999'
 ht-degree: 98%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 98%
       + [アクセシビリティ](using/start/accessibility.md)
    + [AI アシスタントの操作](using/start/ai-assistant.md)
    + [ユースケースプレイブック](using/start/playbooks.md)
-   + [ガードレールと制限](using/start/guardrails.md)
+   + [ガードレールと制限事項](using/start/guardrails.md)
    + [トラブルシューティング](using/start/troubleshooting.md)
 + ジャーニー {#orchestrate-journeys}
    + [ジャーニー](/help/rp_landing_pages/orchestrate-journeys-landing-page.md)
@@ -87,7 +87,7 @@ ht-degree: 98%
       + [オーディエンスを読み取り](using/building-journeys/read-audience.md)
       + [待機](using/building-journeys/wait-activity.md)
       + [コンテンツの決定](using/building-journeys/content-decision.md)
-      + [データセットのルックアップ](using/building-journeys/dataset-lookup.md)
+      + [データセットの参照](using/building-journeys/dataset-lookup.md)
       + [アクション](using/building-journeys/journey-action.md)
       + [ビルトインのチャネルアクション](using/building-journeys/journeys-message.md)
       + [ジャンプ](using/building-journeys/jump.md)
@@ -976,11 +976,12 @@ ht-degree: 98%
    + [プライバシー](/help/rp_landing_pages/privacy-landing-page.md)
    + [プライバシーの基本を学ぶ](using/privacy/get-started-privacy.md)
    + [プライバシーリクエスト](using/privacy/requests.md)
-   + [&#x200B; リソースに対する監査アクション](using/privacy/audit-logs.md)
+   + [ リソースに対する監査アクション](using/privacy/audit-logs.md)
    + [データライフサイクル操作の実行](using/privacy/data-hygiene.md)
    + 同意を管理 {#consent}
       + [同意を管理](/help/rp_landing_pages/consent-landing-page.md)
       + [オプトアウトの管理](using/privacy/opt-out.md)
       + [同意ポリシーの使用](using/action/consent.md)
+      + [顧客の環境設定の管理](using/action/preference-center.md)
    + [データガバナンス](using/action/action-privacy.md)
    + [顧客管理キーの設定と管理](using/privacy/cmk.md)

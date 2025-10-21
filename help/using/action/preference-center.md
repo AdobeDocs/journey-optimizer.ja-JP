@@ -1,0 +1,124 @@
+---
+solution: Journey Optimizer
+product: journey optimizer
+title: 顧客の環境設定の管理
+description: 同意ポリシーの使用を通じてユーザーの環境設定を管理する方法を説明します
+feature: Journeys, Privacy, Consent Management, Landing Pages
+topic: Administration
+role: Data Engineer, Data Architect, Admin
+level: Experienced
+keywords: ポリシー，ガバナンス，プラットフォーム，同意，healthcare shield
+hide: true
+hidefromtoc: true
+source-git-commit: 0aa29a163e337359ea4455edee57bc49fd06a020
+workflow-type: tm+mt
+source-wordcount: '865'
+ht-degree: 4%
+
+---
+
+# 顧客の環境設定の管理 {#preference-center}
+
+>[!AVAILABILITY]
+>
+>この機能は、現在、Adobe **Healthcare Shield** または **プライバシーとセキュリティシールド** アドオン機能を購入した組織でのみ利用できます。
+
+最新のマーケティング自動化エコシステムでは、ブランドは様々なタッチポイントを介して顧客と関わり、無関係または過剰な通信のリスクに直面し、離脱、スパムの苦情、コンプライアンスのリスクにつながります。 だからこそ、オーディエンスに関するリアルタイムのインサイトを得て、パーソナライズされた敬意のあるコミュニケーションを提供するために、顧客の環境設定を管理する必要があります。
+
+[!DNL Adobe Journey Optimizer] では、[ 同意ポリシー ](consent.md) を使用して、顧客の好みに従うことができ <!-- in terms of **channels** and **topics**--> す。 これにより、[!DNL Journey Optimizer] は顧客の同意を尊重しながら <!-- their preferred channels and on the subscription topics--> 選択に基づいてのみ顧客をターゲットにします。
+
+[!DNL Journey Optimizer] を使用してユーザーの環境設定を管理するには、次の操作を実行します。
+
+* 任意のネイティブアウトバウンドチャネルのオプトイン/オプトアウトに対する顧客の同意を取得します。 例えば、特定のチャネルの通信の受信に同意しない顧客を除外する [!DNL Experience Platform] めに、同意ポリシーを作成します。 次に、メールチャネル設定を使用して、[!DNL Journey Optimizer] にこの同意ポリシーを適用します。 [詳細情報](consent.md#surface-marketing-actions)
+
+  >[!NOTE]
+  >
+  >サポートされるチャネルは、メール、プッシュ、SMS およびアプリ内 <!--To check--> です。
+
+* 顧客が購読を希望するトピック（受信することに同意したコミュニケーションのタイプなど）を顧客に尋ねます。 [詳細情報](#manage-preferences)
+
+>[!IMPORTANT]
+>
+>同意は、環境設定よりも優先されます。 例えば、顧客の 1 人が優先チャネルがメールで、ニュースレターの受信に同意したことを示したとします <!-- they are interested in yoga--> ただし、顧客がユーザーからのコミュニケーションの受信をオプトアウトした場合、送信するメールニュースレターのターゲットにはできません <!-- on yoga-->。
+
+## 設定を記録し、優先する {#manage-preferences}
+
+[!DNL Journey Optimizer] の同意ポリシーを使用すると、顧客の環境設定を一元的に管理できます。 これにより、同意の選択肢を尊重しながら、選択したトピックに基づいてのみ顧客をターゲットにすることができます。 それには、次の手順に従います。
+
+複数の購読トピック（*ニュースレター*、*オファー* および *新製品発売*）にわたるコミュニケーション環境設定に基づいて、ジャーニーやキャンペーンを通じて顧客をターゲットにするとします。
+
+1. プロファイルレベルでブール演算子を使用して環境設定属性を定義します <!--how??-->。 例えば、次のように指定できます。
+
+   * Newsletter_Email - ブール値（True/False）
+   * オファー – ブール値（True/False）
+   * 新製品ローンチ – ブール値（True/False）
+
+   これらの属性は、プロファイル対応の [ データセット ](../data/get-started-datasets.md) のスキーマで取得され、[ 統合顧客プロファイル ](../audience/get-started-profiles.md) にマッピングされます。
+
+   >[!NOTE]
+   >
+   >顧客の同意および連絡先の環境設定は複雑なトピックです。 同意およびコンテキスト環境設定を [!DNL Experience Platform] で収集、処理、フィルタリングする方法については、次のドキュメントを参照することをお勧めします。
+   >
+   >* 同意データの収集に必要なスキーマフィールドグループについては、[ このページ ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview){target="_blank"} を参照してください。 顧客から収集した同意データを処理し、保存されている顧客プロファイルに統合する方法について詳しく説明します。
+   >* 「同意と環境設定」フィールドグループについて詳しくは、[ このページ ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/consents#ingest){target="_blank"} を参照してください。
+   >* スキーマにカスタム環境設定フィールドを追加するには、[ この節 ](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/consent/adobe/dataset#custom-consent){target="_blank"} の手順に従います。
+
+1. 顧客の環境設定を取り込むためのページを作成します。 次のいずれかの方法を使用します。
+
+   * [Adobe Experience Platform web SDK](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/home){target="_blank"} を使用して、顧客の環境設定を記録する web ページを作成します。
+
+   * プロファイルデータを通じて顧客の好みを把握するためのフォームが含まれている [!DNL Journey Optimizer] [ ランディングページ ](../landing-pages/create-lp.md) を使用します。  [ フォームについて詳しくはこちらを参照 ](../landing-pages/lp-forms.md) <!--Forms not released/announced yet - TBC-->
+
+     >[!NOTE]
+     >
+     >使用しているランディングページのドメインが、サブブランドではなく上位ブランドに属していることを確認してください。 これは、エンドユーザーの信頼を確保するためです。<!--Please clarify-->
+
+1. このページでは、チェックボックスをオンまたはオフにして、トピックごとの購読などの環境設定を更新できます。
+
+   各アクションは、データをプロファイル対応のデータセットスキーマに取り込むことで、対応するプロファイル属性（オプトインの場合は `True`、オプトアウトの場合は `False`）に対して保存される同意イベントをトリガー<!-- that contains the corresponding preference fields--> ます。
+
+   <!--Record your users' preferences through the web page or landing page that you created. The data is saved against the corresponding profile, meaning that the preference data is ingested into a Profile-enabled dataset whose schema contains consent/preference fields.-->
+
+   例えば、メールアドレスがjohn.black@lumamail.comのユーザーは、オファーの受信に同意したが、ニュースレターの受信を望まない場合などです。
+
+   対応するプロファイルデータセットが次のように更新されます。
+
+   | 属性= メール ID | 属性= オファー | 属性= ニュースレター |
+   |---------|----------|---------|
+   | john.black@lumamail.com | Y | いいえ |
+
+   >[!NOTE]
+   >
+   >受信した同意イベントは顧客プロファイルにフィードされ、リアルタイムの更新を保証します。 各プロファイルには、購読環境設定全体の最新の選択内容が反映されます。
+
+1. Adobe Experience Platform で、（**[!UICONTROL プライバシー]**／**[!UICONTROL ポリシー]**&#x200B;メニューから）カスタムポリシーを作成します。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=ja#create-policy){target="_blank"}
+
+   >[!AVAILABILITY]
+   >
+   >同意ポリシーは、現在、Adobe **Healthcare Shield** または **プライバシーとセキュリティシールド** アドオン機能を購入した組織でのみ利用できます。 [ 同意ポリシーの詳細情報 ](consent.md)
+
+   同意ポリシーを利用するには、プロファイルデータに環境設定属性が存在する必要があります。 そのため、これらの属性をプロファイルレベルで定義する必要があります（手順 1 で説明）。
+
+1. **[!UICONTROL 同意ポリシー]**&#x200B;のタイプを選択し、次のように条件を設定します。[ 同意ポリシーの設定方法を学ぶ ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=ja#consent-policy){target="_blank"}
+
+<!--Consent policies are comprised of two logical components:
+
+* **If**: The condition that will trigger the policy check, based on a certain marketing action (email, SMS, push, custom action, etc.) being performed, the presence of certain data usage labels, or a combination of the two.
+
+* **Then**: The consent attribute must be present for a profile to be included in the action that triggered the policy. More than one field can also be selected.-->
+
+     例えば、メールのニュースレターの受信をオプトアウトしていない顧客にのみコミュニケーションを送信するには、カスタムポリシーを作成して、次の条件を定義します。
+    
+    **[!UICONTROL  マーケティングアクション ]**が**[!UICONTROL  メール ]**
+    
+    *と等しい場合**[!UICONTROL  ニュースレター_メール ]**は存在しません**[!UICONTROL false]**または**[!UICONTROL  ニュースレター_メール ]**が**[!UICONTROL false]**
+    
+    ![] （assets/consent-policy-email-newsletter.png） {width=100%}
+    
+    >[!TIP]
+    >
+    > プロファイル対応データセットには、プロファイル属性**[!UICONTROL Newsletter_Email]**を含め、値を「true」に設定する必要があります（手順 1 で説明するなど） 
+
+1. 同意ポリシーを作成したら、[!DNL Journey Optimizer] チャネル設定 [ または ](consent.md#surface-marketing-actions) ジャーニーのカスタムアクション [ を使用して ](consent.md#journey-custom-actions) で活用します。
+
+1. これで、ジャーニーやキャンペーンでこれらのチャネル設定またはカスタムアクションを使用して、<!--targeted--> 顧客の環境設定に従っていることを確認できます。
