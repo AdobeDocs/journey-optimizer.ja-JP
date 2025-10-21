@@ -3,15 +3,15 @@ product: journey optimizer
 title: matchRegExp
 description: matchRegExp 関数について説明します
 feature: Journeys
-role: Engineer
+role: Developer
 level: Experienced
 keywords: matchRegExp, 関数, 式, ジャーニー
 exl-id: 24cf362c-f390-4bb1-be82-a079bc27fa1f
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '56'
+ht-degree: 100%
 
 ---
 

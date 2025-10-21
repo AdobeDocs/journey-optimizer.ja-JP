@@ -3,12 +3,12 @@ product: journey optimizer
 title: endWithIgnoreCase
 description: endWithIgnoreCase 関数について説明します
 feature: Journeys
-role: Engineer
+role: Developer
 level: Experienced
 keywords: endWithIgnoreCase, 関数, 式, ジャーニー
 exl-id: 278ef1a4-571c-4b5f-b4de-0cfc644ac7d7
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '52'
 ht-degree: 100%

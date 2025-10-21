@@ -3,12 +3,12 @@ product: journey optimizer
 title: listSize
 description: listSize 関数について説明します
 feature: Journeys
-role: Engineer
+role: Developer
 level: Experienced
 keywords: listSize, 関数, 式, ジャーニー
 exl-id: dd378e4d-f65a-495c-ac10-b4209d6b6b88
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '78'
 ht-degree: 100%

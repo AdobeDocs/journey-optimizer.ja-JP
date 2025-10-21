@@ -3,12 +3,12 @@ product: journey optimizer
 title: inNextHours
 description: inNextHours 関数について説明します
 feature: Journeys
-role: Engineer
+role: Developer
 level: Experienced
 keywords: inNextHours, 関数, 式, ジャーニー
 exl-id: 079a91b6-49c5-4e68-a240-358ed0cded92
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '48'
 ht-degree: 100%

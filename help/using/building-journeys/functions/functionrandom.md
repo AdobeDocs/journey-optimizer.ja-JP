@@ -3,12 +3,12 @@ product: journey optimizer
 title: random
 description: random 関数について説明します
 feature: Journeys
-role: Engineer
+role: Developer
 level: Experienced
 keywords: random, 関数, 式, ジャーニー
 exl-id: df006301-d309-4cb0-b505-317f623df494
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '30'
 ht-degree: 100%

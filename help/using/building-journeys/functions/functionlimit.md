@@ -3,12 +3,12 @@ product: journey optimizer
 title: limit
 description: 関数 limit について説明します
 feature: Journeys
-role: Engineer
+role: Developer
 level: Experienced
 keywords: limit, 関数, 式, ジャーニー
 exl-id: 7fa1e393-2912-4392-b759-e54d08d5635a
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 100%

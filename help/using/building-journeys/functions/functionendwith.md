@@ -3,12 +3,12 @@ product: journey optimizer
 title: endWith
 description: endWith 関数について説明します
 feature: Journeys
-role: Engineer
+role: Developer
 level: Experienced
 keywords: endWith, 関数, 式, ジャーニー
 exl-id: ae54c127-9de2-42fd-942c-664d2cfe66d2
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '47'
 ht-degree: 100%

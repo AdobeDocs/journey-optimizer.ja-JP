@@ -5,11 +5,11 @@ title: データソースの基本を学ぶ
 description: データソースの開始方法について学ぶ
 feature: Journeys, Data Sources
 topic: Administration
-role: Engineer, Admin
+role: Developer, Admin
 level: Intermediate, Experienced
 keywords: データ，ソース，ジャーニー，プラットフォーム
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 98%
@@ -55,5 +55,5 @@ Adobe Experience Platform データソースと外部データソースの設定
 
 データソースとは何かを理解し、Experience Platform と外部データソースを設定する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416779?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334256?quality=12)
 

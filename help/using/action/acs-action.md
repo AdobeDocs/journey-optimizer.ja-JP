@@ -5,11 +5,11 @@ title: Adobe Campaign Standard との統合
 description: Journey Optimizer を Adobe Campaign Standard と統合する方法を学ぶ
 feature: Journeys, Actions, Custom Actions
 topic: Administration
-role: Engineer, Admin
+role: Developer, Admin
 level: Intermediate
 keywords: キャンペーン, Standard, 統合, キャップ, アクション
 exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 96%

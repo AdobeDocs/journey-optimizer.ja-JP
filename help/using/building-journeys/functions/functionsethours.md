@@ -3,15 +3,15 @@ product: journey optimizer
 title: setHours
 description: setHours 関数について説明します
 feature: Journeys
-role: Engineer
+role: Developer
 level: Experienced
 keywords: setHours、関数、式、ジャーニー
 exl-id: ed78c2a9-d83a-4fac-a2e9-7383da131a1f
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '109'
+ht-degree: 100%
 
 ---
 

@@ -5,11 +5,11 @@ title: 同意ポリシーの使用
 description: Adobe Experience Platform の同意ポリシーの使用方法を学ぶ
 feature: Journeys, Actions, Custom Actions, Privacy, Consent Management
 topic: Administration
-role: Engineer, Admin
+role: Developer, Admin
 level: Experienced
 keywords: ポリシ, ガバナンス, プラットフォーム, Healthcare Shield, 同意
 exl-id: 01ca4b3e-3778-4537-81e9-97ef92c9aa9e
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '1242'
 ht-degree: 93%
@@ -18,7 +18,7 @@ ht-degree: 93%
 
 # 同意ポリシーの使用 {#consent-management}
 
-データは、組織または法規制によって定義された使用制限の対象となる場合があります。したがって、Journey Optimizer内のデータ操作が、[&#x200B; データ使用ポリシー &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ja){target="_blank"} に準拠していることを確認することが重要です。 これらのポリシーは、データに対して実行できるマーケティングアクションを定義する Adobe Experience Platform ルールです。
+データは、組織または法規制によって定義された使用制限の対象となる場合があります。したがって、Journey Optimizer内のデータ操作が、[ データ使用ポリシー ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ja){target="_blank"} に準拠していることを確認することが重要です。 これらのポリシーは、データに対して実行できるマーケティングアクションを定義する Adobe Experience Platform ルールです。
 
 デフォルトでは、プロファイルがマーケティング組織からの通信の受信をオプトアウトした場合、対応するプロファイルは以降の配信から除外されます。このデフォルトのロジックを上書きする&#x200B;**同意ポリシー**&#x200B;を作成できます。例えば、Experience Platform で同意ポリシーを作成して、特定のチャネルのコミュニケーションの受信に対してまだ同意をしていない顧客を除外できます。カスタムポリシーがない場合、デフォルトのポリシーが適用されます。
 
@@ -28,7 +28,7 @@ ht-degree: 93%
 
 同意ポリシーを適用する主な手順は次のとおりです。
 
-1. Adobe Experience Platform で、関連付けられたマーケティングアクションと同意ポリシーを作成します。[&#x200B; 同意ポリシーの作成方法を説明します &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=ja#consent-policy){target="_blank"}
+1. Adobe Experience Platform で、関連付けられたマーケティングアクションと同意ポリシーを作成します。[ 同意ポリシーの作成方法を説明します ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=ja#consent-policy){target="_blank"}
 
 2. チャネル設定またはジャーニーのカスタムアクションを使用して、Adobe Journey Optimizer で同意ポリシーを適用します。
 
@@ -41,9 +41,9 @@ ht-degree: 93%
 
 ## チャネル設定を介した同意ポリシーの活用 {#surface-marketing-actions}
 
-[!DNL Journey Optimizer] では、同意は Experience Platform [同意スキーマ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=ja){target="_blank"}で処理されます。デフォルトでは同意フィールドの値は空で、通信内容の受信に同意したものとして扱われます。このデフォルト値は、以下に示す値の 1 つにオンボーディングする際に変更できます [&#x200B; こちら &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=ja#choice-values){target="_blank"}。
+[!DNL Journey Optimizer] では、同意は Experience Platform [同意スキーマ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=ja){target="_blank"}で処理されます。デフォルトでは同意フィールドの値は空で、通信内容の受信に同意したものとして扱われます。このデフォルト値は、以下に示す値の 1 つにオンボーディングする際に変更できます [ こちら ](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=ja#choice-values){target="_blank"}。
 
-同意フィールドの値を変更するには、マーケティングアクションとそのアクションの実行条件を定義するカスタム同意ポリシーを作成します。[&#x200B; マーケティングアクションの詳細情報 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ja#marketing-actions){target="_blank"}
+同意フィールドの値を変更するには、マーケティングアクションとそのアクションの実行条件を定義するカスタム同意ポリシーを作成します。[ マーケティングアクションの詳細情報 ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ja#marketing-actions){target="_blank"}
 
 例えば、メール通信の受信に同意したプロファイルのみをターゲットにする同意ポリシーを作成する場合は、次の手順に従います。
 
@@ -53,7 +53,7 @@ ht-degree: 93%
 
    <!--![](assets/consent-policy-create.png)-->
 
-1. **[!UICONTROL 同意ポリシー]**&#x200B;のタイプを選択し、次のように条件を設定します。[&#x200B; 同意ポリシーの設定方法を学ぶ &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=ja#consent-policy){target="_blank"}
+1. **[!UICONTROL 同意ポリシー]**&#x200B;のタイプを選択し、次のように条件を設定します。[ 同意ポリシーの設定方法を学ぶ ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=ja#consent-policy){target="_blank"}
 
    1. 「**[!UICONTROL If]**」セクションで、デフォルトの&#x200B;**[!UICONTROL メールターゲティング]**&#x200B;マーケティングアクションを選択します。
 
@@ -61,13 +61,13 @@ ht-degree: 93%
 
       >[!NOTE]
       >
-      >Adobeですぐに使用できる主要なマーケティングアクションを [&#x200B; この表 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ja#core-actions){target="_blank"} に示します。 カスタムマーケティングアクションを作成する手順については、[&#x200B; この節 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=ja#create-marketing-action){target="_blank"} を参照してください。
+      >Adobeですぐに使用できる主要なマーケティングアクションを [ この表 ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ja#core-actions){target="_blank"} に示します。 カスタムマーケティングアクションを作成する手順については、[ この節 ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=ja#create-marketing-action){target="_blank"} を参照してください。
 
    1. マーケティングアクションが適用されたときの動作を選択します。この例では、「**[!UICONTROL メールマーケティングの同意]**」を選択します。
 
    ![](assets/consent-policy-then.png)
 
-1. このポリシーを保存して [&#x200B; 有効 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=ja#enable){target="_blank"} します。
+1. このポリシーを保存して [ 有効 ](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=ja#enable){target="_blank"} します。
 
 1. Journey Optimizer で、メールサーフェスを作成します。[方法についてはこちらを参照](../configuration/channel-surfaces.md#create-channel-surface)
 

@@ -5,13 +5,13 @@ title: ジャーニーのフィールド
 description: ジャーニーのフィールド
 feature: Journeys, Reporting
 topic: Content Management
-role: Engineer, Admin
+role: Developer, Admin
 level: Experienced
 exl-id: 177b4a97-c757-40ca-a190-fbd88169e5e2
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '78'
+ht-degree: 100%
 
 ---
 
@@ -51,6 +51,6 @@ ht-degree: 0%
 
 ## バージョン {#version-field}
 
-バージョン。`major` `minor` で表します。
+バージョン。`major``minor` で表します。
 
 型：文字列

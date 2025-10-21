@@ -3,12 +3,12 @@ product: journey optimizer
 title: inLastMonths
 description: inLastMonths 関数について説明します
 feature: Journeys
-role: Engineer
+role: Developer
 level: Experienced
 keywords: inLastMonths, 関数, 式, ジャーニー
 exl-id: 4933ef43-66b8-462d-867c-03edd4c34947
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '48'
 ht-degree: 100%

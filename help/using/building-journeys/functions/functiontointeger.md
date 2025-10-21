@@ -3,12 +3,12 @@ product: journey optimizer
 title: toInteger
 description: toInteger 関数について説明します
 feature: Journeys
-role: Engineer
+role: Developer
 level: Experienced
 keywords: toInteger, 関数, 式, ジャーニー
 exl-id: 901a91d1-13dd-4283-b87f-223196eb072f
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 100%

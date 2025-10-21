@@ -5,11 +5,11 @@ title: ジャーニーイベントの活用
 description: ジャーニーでのイベントの使用方法を学ぶ
 feature: Journeys, Events
 topic: Administration
-role: Engineer, Admin
+role: Developer, Admin
 level: Intermediate, Experienced
 keywords: イベント, ジャーニー, 定義, 開始
 exl-id: fb3e51b5-4cbb-4949-8992-1075959da67d
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '1537'
 ht-degree: 99%
@@ -120,8 +120,8 @@ Adobe Journey Optimizer では、すべてのサンドボックスをまたい�
 
 イベントの設定方法と、ストリーミングエンドポイントとイベントのペイロードの指定方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3431517?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/336253?quality=12)
 
 ビジネスイベントに適用できる使用例を理解します。ビジネスイベントを使用したジャーニーの構築方法と、適用するベストプラクティスについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416427?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334234?quality=12)

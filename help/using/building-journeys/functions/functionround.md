@@ -3,12 +3,12 @@ product: journey optimizer
 title: round
 description: round 関数について説明します
 feature: Journeys
-role: Engineer
+role: Developer
 level: Experienced
 keywords: round, 関数, 式, ジャーニー
 exl-id: b9d5fd2f-9c7f-4811-b34f-23ce1d2c833f
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '48'
 ht-degree: 100%
