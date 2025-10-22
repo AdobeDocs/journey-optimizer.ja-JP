@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: 設定, メール, 設定
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
-source-git-commit: da82432dd15f19ac7db52f491e5afd5ba6d4e3d7
+source-git-commit: ea8f77c2821bfae7b853b3ac39ea22f0d19ae43d
 workflow-type: tm+mt
-source-wordcount: '1401'
+source-wordcount: '1419'
 ht-degree: 96%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 96%
 >[!NOTE]
 >
 >評判を保持し、配信品質を向上させるには、メール設定を作成する前にメールの送信に使用するサブドメインを設定します。[詳細情報](../configuration/about-subdomain-delegation.md)
+>
+>メールチャネル設定を作成する前に、まず 1 つ以上の IP プールを作成する必要があります。 [詳細情報](../configuration/ip-pools.md)
 
 以下で詳しく説明するように、チャネル設定の専用セクションでメール設定を定義します。
 
@@ -197,6 +199,6 @@ IP プールが選択された後、IP プールのドロップダウンリス�
 
 ただし、このデフォルトの実行フィールドは、メールチャネル設定レベルで変更できます。その後、この設定を特定のキャンペーンやジャーニーに適用できます。
 
-これを行うには、「**[!UICONTROL 配信アドレス]**」フィールドを編集し、使用可能なメールタイプの XDM フィールドのリストから項目を選択します。 [詳細情報](../configuration/primary-email-addresses.md#override-execution-address-channel-config)
+これを行うには、「**[!UICONTROL 配信アドレス]**」フィールドを編集し、使用できるメールタイプの XDM フィールドのリストから項目を選択します。[詳細情報](../configuration/primary-email-addresses.md#override-execution-address-channel-config)
 
 ![](assets/email-config-delivery-address.png)
