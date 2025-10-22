@@ -7,9 +7,9 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: be3936e4-8185-4031-9daf-95eea58077d0
-source-git-commit: 1247742550ab5fbd22ab8efc4300fd5c0d1a5c12
+source-git-commit: d983d10124be2bad645ad3d8f14c38c26a453d5a
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '463'
 ht-degree: 92%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 92%
 
 >[!NOTE]
 >
->データを取り込む場合、メールでは大文字と小文字が区別されます。つまり、重複するプロファイルを作成し（John.Greene@luma.com用のプロファイル、john.green@luma.com用のプロファイルなど）、それらのプロファイルをター [!DNL Journey Optimizer] ットジャーニーやキャンペーンでターゲティングする際に使用できます。
+>データを取り込む場合、メールでは大文字と小文字が区別されます。 つまり、重複したプロファイルを作成し（例えば、John.Greene@luma.com用のプロファイルとjohn.greene@luma.com用のプロファイルを別々に）、それらのプロファイルをター [!DNL Journey Optimizer] ットジャーニーやキャンペーンでターゲティングする際に使用することができます。
 
 **ID グラフ** - ロイヤルティ ID や CRM システム ID などの顧客 ID を使用して、様々なソースからのデータを組み合わせます。ブランドのデータセット内の様々な ID 間の関係をマッピングして、顧客の包括的なビューを作成します。
 
@@ -58,4 +58,4 @@ ht-degree: 92%
 
 Adobe Experience Platform がリアルタイム顧客プロファイルをアセンブルおよび更新する方法、これらのプロファイルにアクセスして使用する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/31660?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27251?quality=12)
