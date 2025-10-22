@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
+source-git-commit: 1247742550ab5fbd22ab8efc4300fd5c0d1a5c12
 workflow-type: tm+mt
-source-wordcount: '2823'
+source-wordcount: '2860'
 ht-degree: 98%
 
 ---
@@ -106,11 +106,13 @@ Journey Optimizer のサブドメインデリゲーションに適用される�
 * ビジュアルフラグメントは、テーマを使用モードと手動スタイル設定モード間で互換性がありません。テーマを適用するコンテンツでフラグメントを使用できるようにするには、このフラグメントをテーマを使用モードで作成する必要があります。[テーマの詳細情報](../email/apply-email-themes.md)
 * ジャーニーまたはキャンペーンでトラッキングが有効になっている場合、フラグメントにリンクを追加し、このフラグメントがメッセージで使用されていると、メッセージに含まれる他のすべてのリンクなど、これらのリンクを追跡します。[リンクとトラッキングの詳細情報](../email/message-tracking.md)
 
-## オーディエンスガードレール {#audience}
+## オーディエンスとプロファイルのガードレール {#audience}
 
-特定のサンドボックス内で最大 10 個のオーディエンス構成を公開できます。このしきい値に達した場合、新しい構成を公開するためには、構成を削除してスペースを解放する必要があります。
+* 特定のサンドボックス内で最大 10 個のオーディエンス構成を公開できます。このしきい値に達した場合、新しい構成を公開するためには、構成を削除してスペースを解放する必要があります。
 
-オーディエンス構成について詳しくは、[このページ](../audience/get-started-audience-orchestration.md)を参照してください。
+  オーディエンス構成について詳しくは、[このページ](../audience/get-started-audience-orchestration.md)を参照してください。
+
+* データを取り込む場合、メールでは大文字と小文字が区別されます。 つまり、重複したプロファイルを作成し（例えば、John.Greene@luma.com用のプロファイルとjohn.green@luma.com用のプロファイルを別々に）、それらのプロファイルをター [!DNL Journey Optimizer] ットジャーニーやキャンペーンでターゲティングする際に使用することができます。
 
 ## 決定と意思決定管理ガードレール {#decisioning-guardrails}
 
@@ -274,4 +276,4 @@ Adobe Experience Platform では、API ベースのプロファイルの作成�
 
 ## キャンペーンオーケストレーションガードレール {#orchestration-guardrails}
 
-Campaign オーケストレーションを使用する際に留意するガードレールと制限について詳しくは、この節 [&#x200B; ガードレールと制限 &#x200B;](../orchestrated/guardrails.md) を参照してください。
+キャンペーンオーケストレーションを使用する際に留意すべきガードレールと制限事項について詳しくは、[ガードレールと制限事項](../orchestrated/guardrails.md)の節を参照してください。

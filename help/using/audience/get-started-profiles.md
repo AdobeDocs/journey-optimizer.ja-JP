@@ -7,10 +7,10 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: be3936e4-8185-4031-9daf-95eea58077d0
-source-git-commit: 1ad534b7877f0ac6c1f50e29f41af708e83b34c9
+source-git-commit: 1247742550ab5fbd22ab8efc4300fd5c0d1a5c12
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 100%
+source-wordcount: '462'
+ht-degree: 92%
 
 ---
 
@@ -25,6 +25,10 @@ ht-degree: 100%
 **リアルタイム顧客プロファイル** - オンライン、オフラインおよび偽名のソースからの顧客属性とイベントを単一の統合プロファイルに統合します。プロファイルを使用して、複数のタッチポイントでパーソナライズされたリアルタイムのエクスペリエンスを顧客にエンゲージできます。
 
 **データ取り込み** - 様々なデータソースに接続して、行動、トランザクション、財務、運用に関するデータを取り込みます。リアルタイムまたはバッチアップロードでデータを取り込んで、プロファイルを常に最新の状態に保ちます。
+
+>[!NOTE]
+>
+>データを取り込む場合、メールでは大文字と小文字が区別されます。つまり、重複するプロファイルを作成し（John.Greene@luma.com用のプロファイル、john.green@luma.com用のプロファイルなど）、それらのプロファイルをター [!DNL Journey Optimizer] ットジャーニーやキャンペーンでターゲティングする際に使用できます。
 
 **ID グラフ** - ロイヤルティ ID や CRM システム ID などの顧客 ID を使用して、様々なソースからのデータを組み合わせます。ブランドのデータセット内の様々な ID 間の関係をマッピングして、顧客の包括的なビューを作成します。
 
@@ -54,4 +58,4 @@ ht-degree: 100%
 
 Adobe Experience Platform がリアルタイム顧客プロファイルをアセンブルおよび更新する方法、これらのプロファイルにアクセスして使用する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/31660?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/27251?quality=12)
