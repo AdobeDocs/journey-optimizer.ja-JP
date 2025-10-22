@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
+source-git-commit: d6905059dbf1504407c49f76415e4c6eb819bed7
 workflow-type: tm+mt
 source-wordcount: '1014'
 ht-degree: 49%
@@ -22,7 +22,7 @@ ht-degree: 49%
 
 [!DNL Adobe Journey Optimizer] は継続的な配信モデルに従っており、Adobeが新機能、機能強化および修正点を継続的に提供できるようにします。 このアプローチにより、機能をスケーラブルかつ段階的にロールアウトして、すべての環境でパフォーマンスと安定性を確保できます。
 
-このモデルのため、リリースノートは毎月のリリースの間に更新されます。  専用の [&#x200B; 最新のアップデート &#x200B;](#updates-rn) セクションでは、実稼動へのデプロイ時に新機能と改善点がハイライト表示されるので、常にすべての変更がリアルタイムで通知されます。<!--For full details about the release cycle and availability phases, see [Journey Optimizer release cycle](#releases.md).-->
+このモデルのため、リリースノートは毎月のリリースの間に更新されます。  専用の [ 最新のアップデート ](#updates-rn) セクションでは、実稼動へのデプロイ時に新機能と改善点がハイライト表示されるので、常にすべての変更がリアルタイムで通知されます。<!--For full details about the release cycle and availability phases, see [Journey Optimizer release cycle](#releases.md).-->
 
 [!DNL Adobe Journey Optimizer] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}を参照してください。
 
@@ -268,7 +268,7 @@ ht-degree: 49%
 <tr>
 <td>
 <p>Journey Optimizer Experimentation Acceleratorに、実験エージェントが含まれるようになりました。これは、実験、インサイト、機会とやり取りできる、AI を活用した対話型ツールです。 Journey Optimizer Experimentation Acceleratorのエクスペリエンスを向上させ、実験をより効率的に実行し、何が機能するかを明らかにし、次にどこを最適化するかを見つけるのを支援します。</p>
-<p>詳しくは、<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=ja" target="_blank">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2025年10月10日（PT）</p>
 </td>
 </tr>
@@ -348,7 +348,7 @@ New capabilities and improvements released in the past weeks are listed below, w
 
 今後数日間で、次の機能と機能強化がリリースされる予定です。**情報は変更される場合があります**。更新したリンク、画面、ドキュメントは、これらの更新が実稼動環境で公開すると共有されます。
 
-### 新機能 {#oct-25-10-soon-features}
+#### 新機能 {#oct-25-10-soon-features}
 
 <table>
 <thead>
@@ -369,7 +369,7 @@ New capabilities and improvements released in the past weeks are listed below, w
 </tbody>
 </table>
 
-### 機能強化 {#oct-25-10-soon-improvements}
+#### 機能強化 {#oct-25-10-soon-improvements}
 
 **AI モデルを通じた E メールの意思決定**
 
