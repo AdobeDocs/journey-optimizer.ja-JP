@@ -11,10 +11,10 @@ keywords: アクティビティ, 条件, キャンバス, ジャーニー, 最�
 badge: label="限定提供" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: 15a143956156458cf78d02a4cf92300e97cef949
+source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
 workflow-type: tm+mt
-source-wordcount: '1305'
-ht-degree: 99%
+source-wordcount: '1461'
+ht-degree: 88%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 99%
 >id="ajo_path_experiment_success_metric"
 >title="成功指標"
 >abstract="成功指標は、実験で最もパフォーマンスの高い処理を追跡および評価するために使用します。"
->additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="ジャーニー指標の設定とトラッキング"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="ジャーニー指標の設定とトラッキング"
 
 実験を行うことで、ランダム分割に基づいて様々なパスをテストし、事前定義済みの成功指標に基づいて最もパフォーマンスが高いパスを判断できます。
 
@@ -186,9 +186,33 @@ ht-degree: 99%
 
 1. 「**[!UICONTROL ターゲティングルールを作成]**」をクリックします。
 
-1. ルールビルダーを使用して条件を定義します。例えば、ロイヤルティプログラムのゴールドメンバー向けのルール（`loyalty.status.equals("Gold", false)`）と、他のメンバー向けのルール（`loyalty.status.notEqualTo("Gold", false)`）を定義します。
+1. **[!UICONTROL ルールを作成]**/**[!UICONTROL 新規作成]** をクリックし、ルールビルダーを使用して条件を定義します。
+
+   ![](assets/journey-targeting-create-rule.png){width=100%}
+
+   例えば、ロイヤルティプログラムのゴールドメンバー向けのルール（`loyalty.status.equals("Gold", false)`）と、他のメンバー向けのルール（`loyalty.status.notEqualTo("Gold", false)`）を定義します。
 
    ![](assets/journey-targeting-rule.png)
+
+1. また、**[!UICONTROL ルールを作成]**/**[!UICONTROL ルールを選択]** をクリックして、**[!UICONTROL ルール]** メニューから作成した既存のターゲティングルールを選択することもできます。 [詳細情報](../experience-decisioning/rules.md)
+
+   ![](assets/journey-targeting-select-rule.png){width=70%}
+
+   この場合、ルールを構成する数式はジャーニーアクティビティにコピーされます。 **[!UICONTROL ルール]** メニューからそのルールに後続の変更を加えても、ジャーニーのコピーには影響しません。
+
+   >[!AVAILABILITY]
+   >
+   >現在、Decisioning アドオン機能を購入した組織では、専用の [ メニューから ](../experience-decisioning/rules.md#create) ターゲティングルールの作成 [!DNL Journey Optimizer] を利用でき、他の組織ではオンデマンドで利用できます（使用制限あり）。
+   >
+   >この機能は、すべてのお客様に段階的に展開される予定です。 それまでの間、Adobe担当者に連絡してアクセス権を取得してください。
+
+1. ルールを追加した後も、そのルールを変更できます。 **[!UICONTROL インラインで編集]** を選択してルールビルダーを使用して外出先で更新するか、**[!UICONTROL ルールを選択]** を選択して別の既存のルールを取得します。
+
+   ![](assets/journey-targeting-modify-rule.png){width=100%}
+
+   >[!NOTE]
+   >
+   >ルールをインラインで編集しても、ルールの作成元である既存のルールには影響しません。
 
 1. 必要に応じて、「**[!UICONTROL フォールバックパスを有効にする]**」オプションを選択します。このアクションにより、上記で定義したどのターゲティングルールも満たさないオーディエンスに対してフォールバックパスが作成されます。
 

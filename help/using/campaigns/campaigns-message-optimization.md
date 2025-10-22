@@ -1,16 +1,16 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: メッセージの最適化
+title: キャンペーンとジャーニーの最適化
 description: メッセージの最適化を活用して、パーソナライズおよび最適化されたマーケティングジャーニーとキャンペーンを作成します。
 role: User
 level: Intermediate
 keywords: キャンペーンの最適化, 実験, ターゲティング, A/B テスト
 exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
-source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
+source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
 workflow-type: tm+mt
-source-wordcount: '1088'
-ht-degree: 95%
+source-wordcount: '1253'
+ht-degree: 81%
 
 ---
 
@@ -68,11 +68,35 @@ ht-degree: 95%
 
    ![](assets/msg-optimization-select-targeting.png){width=85%}
 
-1. ルールビルダーを使用して条件を定義します。例えば、米国居住者向けのルール、フランス居住者向けのルール、インド居住者向けのルールを定義します。
+1. **[!UICONTROL ルールを作成]**/**[!UICONTROL 新規作成]** をクリックし、ルールビルダーを使用して外出先で条件を定義します。
+
+   ![](assets/msg-optimization-create-rule.png){width=100%}
+
+   例えば、米国居住者向けのルール、フランス居住者向けのルール、インド居住者向けのルールを定義します。
 
    ![](assets/msg-optimization-create-targeting.png){width=85%}
 
-1. 必要に応じて、「**[!UICONTROL フォールバックコンテンツを有効にする]**」オプションを選択します。フォールバックコンテンツを使用すると、ターゲティングルールが選定されていない場合に、オーディエンスはデフォルトコンテンツを受信できます。
+1. また、**[!UICONTROL ルールを作成]**/**[!UICONTROL ルールを選択]** をクリックして、**[!UICONTROL ルール]** メニューから作成した既存のターゲティングルールを選択することもできます。 [詳細情報](../experience-decisioning/rules.md)
+
+   ![](assets/msg-optimization-select-rule.png){width=70%}
+
+   この場合、ルールを構成する式は、ジャーニーまたはキャンペーンにコピーされるだけです。 **[!UICONTROL ルール]** メニューからそのルールに後続の変更を加えても、ジャーニーやキャンペーンのコピーには影響しません。
+
+   >[!AVAILABILITY]
+   >
+   >現在、Decisioning アドオン機能を購入した組織では、専用の [ メニューから ](../experience-decisioning/rules.md#create) ターゲティングルールの作成 [!DNL Journey Optimizer] を利用でき、他の組織ではオンデマンドで利用できます（使用制限あり）。
+   >
+   >この機能は、すべてのお客様に段階的に展開される予定です。 それまでの間、Adobe担当者に連絡してアクセス権を取得してください。
+
+1. ルールを追加した後も、そのルールを変更できます。 **[!UICONTROL インラインで編集]** を選択してルールビルダーを使用して外出先で更新するか、**[!UICONTROL ルールを選択]** を選択して別の既存のルールを取得します。
+
+   ![](assets/msg-optimization-modify-rule.png){width=100%}
+
+   >[!NOTE]
+   >
+   >ルールをインラインで編集しても、ルールの作成元である既存のルールには影響しません。
+
+1. 必要に応じて、「**[!UICONTROL フォールバックコンテンツを有効にする]**」オプションを選択します。フォールバックコンテンツを使用すると、ターゲティングルールが認定されていない場合に、オーディエンスがデフォルトコンテンツを受け取ることができます。
 
    >[!NOTE]
    >
@@ -186,4 +210,4 @@ E.g. explaining how a marketer can look at the report to determine which treatme
 
 アクションまたは API トリガーキャンペーンでメッセージの最適化を活用する方法について説明します。 サブオーディエンスをターゲットにする方法、場所ごとにメッセージのバリエーションを作成する方法、フォールバックコンテンツを有効にする方法、単一のキャンペーン内で複数の実験を実行する方法について説明します。また、このチュートリアルでは、メッセージの一貫性を維持しながらマルチチャネルキャンペーンを管理する方法についても説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3470369?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)

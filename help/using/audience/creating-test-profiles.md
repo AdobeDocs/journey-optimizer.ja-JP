@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: fa46397b87ae3a81cd016d95afd3e09bb002cfaa
+source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
 workflow-type: tm+mt
-source-wordcount: '1351'
+source-wordcount: '1082'
 ht-degree: 100%
 
 ---
@@ -121,42 +121,44 @@ ID 名前空間を選択し、上記の形式に基づいて CSV ファイルを
 >
 >テストプロファイルは、既存のプロファイルを上書きする場合があります。ユースケースを実行する前に、CSV にテストプロファイルのみが含まれ、正しいサンドボックスに対して実行されていることを確認してください。
 
-## プロファイルからテストプロファイルへの変換{#turning-profile-into-test}
+<!-- Removed as asked in DOCAC-13605 AJO Test Profiles Using a Journey should be removed
+## Turn a profile into a test profile{#turning-profile-into-test}
 
-既存のプロファイルをテストプロファイルに変換したり、プロファイルの作成時と同じ方法でプロファイル属性を更新したりできます。
+You can turn an existing profile into a test profile: you can update profiles attributes in the same way as when you create a profile. 
 
-簡単な方法として、ジャーニーで「**[!UICONTROL プロファイルを更新]**」アクションアクティビティを使用し、ブール値フィールド **testProfile** を「false」から「true」に変更します。
+A simple way to do this is by using an **[!UICONTROL Update Profile]** action activity in a journey and change the **testProfile** boolean field from false to true.
 
-ジャーニーは、**[!UICONTROL オーディエンスを読み取り]**&#x200B;アクティビティと&#x200B;**[!UICONTROL プロファイルを更新]**&#x200B;アクティビティで構成されます。まず、テストプロファイルに変換するプロファイルをターゲティングしたオーディエンスを作成する必要があります。
+Your journey will be composed of a **[!UICONTROL Read Audience]** and an **[!UICONTROL Update Profile]** activity. You first need to create an audience targeting the profiles you want to turn into test profiles. 
 
 >[!NOTE]
 >
-> **testProfile** フィールドを更新することになるので、選択したプロファイルには、このフィールドを含める必要があります。関連するスキーマには、「**プロファイルテストの詳細**」フィールドグループが必要です。[このセクション](../audience/creating-test-profiles.md#test-profiles-prerequisites)をご覧ください。
+> Since you will be updating the **testProfile** field, the chosen profiles must include this field. The related schema must have the **Profile test details** field group. See [this section](../audience/creating-test-profiles.md#test-profiles-prerequisites).
 
-1. **オーディエンス**&#x200B;を参照し、右上の「**オーディエンスを作成**」を選択します。
-   ![](assets/test-profiles-22.png)
-1. オーディエンス名を定義してオーディエンスを作成する：目的のプロファイルをターゲットにするためのフィールドと値を選択します。
-   ![](assets/test-profiles-23.png)
-1. 「**保存**」をクリックし、オーディエンスによってプロファイルが正しくターゲットになっていることを確認します。
-   ![](assets/test-profiles-24.png)
+1. Browse to **Audiences**, then **Create audience**, in the top right.
+    ![](assets/test-profiles-22.png) 
+1. Define a name for your audience and build the audience: choose the field(s) and value(s) to target the profiles you want.
+    ![](assets/test-profiles-23.png) 
+1. Click **Save** and check that the profiles are correctly targeted by the audience.
+    ![](assets/test-profiles-24.png) 
 
-   >[!NOTE]
-   >
-   > オーディエンスの計算には時間がかかる場合があります。オーディエンスについて詳しくは、[この節](../audience/about-audiences.md)を参照してください。
+    >[!NOTE]
+    >
+    > Audience calculation can take some time. Learn more about audiences in [this section](../audience/about-audiences.md).
 
-1. 次に、新しいジャーニーを作成し、**[!UICONTROL オーディエンスを読み取り]**&#x200B;オーケストレーションアクティビティから始めます。
-1. 以前に作成したオーディエンスと、プロファイルで使用する名前空間を選択します。
-   ![](assets/test-profiles-25.png)
-1. 「**[!UICONTROL プロファイルを更新]**」アクションアクティビティを追加します。
-1. スキーマ、**testProfiles** フィールド、データセットを選択し、値を「**true**」に設定します。これを実行するには、「**[!UICONTROL 値]**」フィールドで、右側の「**ペン**」アイコンをクリックし、「**[!UICONTROL 詳細設定モード]**」を選択して、「**true**」と入力します。
-   ![](assets/test-profiles-26.png)
-1. 「**[!UICONTROL 公開]**」をクリックします。
-1. 「**[!UICONTROL オーディエンス]**」セクションで、プロファイルが正しく更新されていることを確認します。
-   ![](assets/test-profiles-28.png)
+1. Now create a new journey and start with a **[!UICONTROL Read Audience]** orchestration activity.
+1. Choose the previously created audience and the namespace that your profiles use.
+    ![](assets/test-profiles-25.png)
+1. Add an **[!UICONTROL Update Profile]** action activity. 
+1. Select the schema, the **testProfiles** field, the dataset and set the value to **True**. To perform this, in the **[!UICONTROL VALUE]** field, click the **Pen** icon on the right, select **[!UICONTROL Advanced mode]** and enter **true**.
+    ![](assets/test-profiles-26.png)
+1. Click **[!UICONTROL Publish]**.
+1. In the **[!UICONTROL Audiences]** section, check that the profiles have been correctly updated.
+    ![](assets/test-profiles-28.png)
 
-   >[!NOTE]
-   >
-   > 「**[!UICONTROL プロファイルを更新]**」アクティビティについては、[このセクション](../building-journeys/update-profiles.md)を参照してください。
+    >[!NOTE]
+    >
+    > For more information on the **[!UICONTROL Update Profile]** activity, refer to [this section](../building-journeys/update-profiles.md).
+-->
 
 ## CSV ファイルを使用したテストプロファイルの作成{#create-test-profiles-csv}
 
@@ -248,4 +250,4 @@ curl -X POST \
 
 テストプロファイルを作成する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416426?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/334236?quality=12)
