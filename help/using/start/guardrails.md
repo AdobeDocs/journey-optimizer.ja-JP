@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: d983d10124be2bad645ad3d8f14c38c26a453d5a
+source-git-commit: 9ef761d216867c302a9c367dc509a52dc08fb06c
 workflow-type: tm+mt
-source-wordcount: '2860'
+source-wordcount: '2861'
 ht-degree: 98%
 
 ---
@@ -112,7 +112,7 @@ Journey Optimizer のサブドメインデリゲーションに適用される�
 
   オーディエンス構成について詳しくは、[このページ](../audience/get-started-audience-orchestration.md)を参照してください。
 
-* データを取り込む場合、メールでは大文字と小文字が区別されます。 つまり、重複したプロファイルを作成し（例えば、John.Greene@luma.com用のプロファイルとjohn.greene@luma.com用のプロファイルを別々に）、それらのプロファイルをター [!DNL Journey Optimizer] ットジャーニーやキャンペーンでターゲティングする際に使用することができます。
+* データを取り込む場合、メールでは大文字と小文字が区別されます。 つまり、重複したプロファイル（John.Greene@luma.com用のプロファイルとjohn.greene@luma.com用のプロファイルなど）が作成され、カスタマイ [!DNL Journey Optimizer] されたジャーニーやキャンペーンで対応する受信者をターゲティングする際に使用される可能性があります。
 
 ## 決定と意思決定管理ガードレール {#decisioning-guardrails}
 
