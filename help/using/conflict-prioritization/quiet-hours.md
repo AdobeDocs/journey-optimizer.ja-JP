@@ -187,4 +187,4 @@ ht-degree: 5%
 
 Adobe Journey Optimizerの無休時間数機能の使用方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3475851?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475853?captions=jpn&quality=12)
