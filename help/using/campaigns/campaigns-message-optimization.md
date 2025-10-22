@@ -84,7 +84,7 @@ ht-degree: 81%
 
    >[!AVAILABILITY]
    >
-   >現在、Decisioning アドオン機能を購入した組織では、専用の [ メニューから ](../experience-decisioning/rules.md#create) ターゲティングルールの作成 [!DNL Journey Optimizer] を利用でき、他の組織ではオンデマンドで利用できます（使用制限あり）。
+   >現在、Decisioning アドオン機能を購入した組織では、専用の [&#x200B; メニューから &#x200B;](../experience-decisioning/rules.md#create) ターゲティングルールの作成 [!DNL Journey Optimizer] を利用でき、他の組織ではオンデマンドで利用できます（使用制限あり）。
    >
    >この機能は、すべてのお客様に段階的に展開される予定です。 それまでの間、Adobe担当者に連絡してアクセス権を取得してください。
 
