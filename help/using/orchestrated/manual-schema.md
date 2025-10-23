@@ -6,7 +6,7 @@ description: ユーザーインターフェイスを通じてモデルベース�
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
 version: Campaign Orchestration
 source-git-commit: fc741db8db2ca9c05dbb87a41712e90a62a18c13
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 100%
 
