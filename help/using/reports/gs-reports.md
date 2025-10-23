@@ -140,6 +140,6 @@ Adobe Journey Optimizerの全期間レポートを効果的に使用する方法
 
 +++こちらのビデオをご覧ください
 
->[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3422696?captions=jpn&learn=on)
 
 +++
