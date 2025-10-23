@@ -51,8 +51,8 @@ ht-degree: 30%
 
 これらのルールは次のどちらでも使用できます。
 
-* ジャーニーやキャンペーンで [ コンテンツ最適化のターゲティング ](../campaigns/campaigns-message-optimization.md#targeting) を作成する場合
-* 作成時 [ ジャーニーパスの最適化 ](../building-journeys/optimize.md#targeting)。
+* ジャーニーやキャンペーンで [&#x200B; コンテンツ最適化のターゲティング &#x200B;](../campaigns/campaigns-message-optimization.md#targeting) を作成する場合
+* 作成時 [&#x200B; ジャーニーパスの最適化 &#x200B;](../building-journeys/optimize.md#targeting)。
 
 ## アクセスルール {#access}
 
@@ -60,13 +60,13 @@ ht-degree: 30%
 
 次のアクションを使用できます。
 
-* ルールエンティティ（**[!UICONTROL 決定項目]** または **[!UICONTROL ターゲティング]** - [ 詳細情報 ](#about)）でフィルタリングできます。
+* ルールエンティティ（**[!UICONTROL 決定項目]** または **[!UICONTROL ターゲティング]** - [&#x200B; 詳細情報 &#x200B;](#about)）でフィルタリングできます。
 
 * ルール名をクリックして選択し、ルールビルダーを使用して編集します。 [詳細情報](#create)
 
 * 各項目の横にある **[!UICONTROL その他のアクション]** ボタンから、次の操作を実行できます。
 
-   * **[!UICONTROL 決定項目]** エンティティを選択した場合、別のサンドボックスに書き出すために、ルールをパッケージに追加します。 詳細情報 [ 別のサンドボックスへのオブジェクトの書き出し ](../configuration/copy-objects-to-sandbox.md)
+   * **[!UICONTROL 決定項目]** エンティティを選択した場合、別のサンドボックスに書き出すために、ルールをパッケージに追加します。 詳細情報 [&#x200B; 別のサンドボックスへのオブジェクトの書き出し &#x200B;](../configuration/copy-objects-to-sandbox.md)
    * ルールを複製します。
    * ルールを削除します。
 
@@ -86,8 +86,8 @@ ht-degree: 30%
 
    ![](assets/rules-select-entity.png){width=90%}
 
-   * **[!UICONTROL 決定項目]** - ルールは、決定のコンテキストでは [ 決定項目 ](#decision-rules) に適用できます。
-   * **[!UICONTROL ターゲティング]** - ルールは、キャンペーンまたはジャーニーの [ コンテンツ最適化 ](#targeting-rules) の一部として、または [ ジャーニーの最適化 ](../campaigns/campaigns-message-optimization.md#targeting) アクティビティ [ でターゲティング ](../building-journeys/optimize.md#targeting) ルールを作成する際に使用できます。
+   * **[!UICONTROL 決定項目]** - ルールは、決定のコンテキストでは [&#x200B; 決定項目 &#x200B;](#decision-rules) に適用できます。
+   * **[!UICONTROL ターゲティング]** - ルールは、キャンペーンまたはジャーニーの [&#x200B; コンテンツ最適化 &#x200B;](#targeting-rules) の一部として、または [&#x200B; ジャーニーの最適化 &#x200B;](../campaigns/campaigns-message-optimization.md#targeting) アクティビティ [&#x200B; でターゲティング &#x200B;](../building-journeys/optimize.md#targeting) ルールを作成する際に使用できます。
 
 1. **[!UICONTROL 決定項目]** ルールを作成する場合は、「**[!UICONTROL データセット検索を有効にする]** を選択して、Adobe Experience Platformのデータを使用し、外部データを使用して決定ロジックを強化できます。 これは、製品の在庫状況やリアルタイムの価格設定など、頻繁に変更される属性の場合に特に役立ちます。
 
@@ -128,4 +128,4 @@ ht-degree: 30%
 >
 >UTF-8 でエンコードされた文字の場合、ルール文字列のサイズは最大 15 KB になります。これは、15,000 個の ASCII 文字（各 1 バイト）、または 3,750～7,500 個の非 ASCII 文字（各 2～4 バイト）に相当します。
 >
->[ 実施要件ルールのガードレールと制限事項の詳細 ](decisioning-guardrails.md#eligibility-rules)
+>[&#x200B; 実施要件ルールのガードレールと制限事項の詳細 &#x200B;](decisioning-guardrails.md#eligibility-rules)
