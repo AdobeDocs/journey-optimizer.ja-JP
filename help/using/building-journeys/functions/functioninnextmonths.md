@@ -9,7 +9,7 @@ keywords: inNextMonths, 関数, 式, ジャーニー
 exl-id: e2e520ec-ae9e-4ed6-b50d-606fc6861d56
 version: Journey Orchestration
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '48'
 ht-degree: 100%
 

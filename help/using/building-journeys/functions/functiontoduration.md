@@ -9,7 +9,7 @@ keywords: toDuration, 関数, 式, ジャーニー
 exl-id: c78e30c5-99ee-4dc7-a03a-17f7ee65f83a
 version: Journey Orchestration
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 100%
 

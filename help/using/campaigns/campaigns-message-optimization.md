@@ -84,7 +84,7 @@ ht-degree: 81%
 
    >[!AVAILABILITY]
    >
-   >現在、Decisioning アドオン機能を購入した組織では、専用の [&#x200B; メニューから &#x200B;](../experience-decisioning/rules.md#create) ターゲティングルールの作成 [!DNL Journey Optimizer] を利用でき、他の組織ではオンデマンドで利用できます（使用制限あり）。
+   >現在、Decisioning アドオン機能を購入した組織では、専用の [ メニューから ](../experience-decisioning/rules.md#create) ターゲティングルールの作成 [!DNL Journey Optimizer] を利用でき、他の組織ではオンデマンドで利用できます（使用制限あり）。
    >
    >この機能は、すべてのお客様に段階的に展開される予定です。 それまでの間、Adobe担当者に連絡してアクセス権を取得してください。
 
@@ -210,4 +210,4 @@ E.g. explaining how a marketer can look at the report to determine which treatme
 
 アクションまたは API トリガーキャンペーンでメッセージの最適化を活用する方法について説明します。 サブオーディエンスをターゲットにする方法、場所ごとにメッセージのバリエーションを作成する方法、フォールバックコンテンツを有効にする方法、単一のキャンペーン内で複数の実験を実行する方法について説明します。また、このチュートリアルでは、メッセージの一貫性を維持しながらマルチチャネルキャンペーンを管理する方法についても説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3470369?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)

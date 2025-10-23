@@ -53,7 +53,7 @@ ht-degree: 88%
 >id="ajo_path_experiment_success_metric"
 >title="成功指標"
 >abstract="成功指標は、実験で最もパフォーマンスの高い処理を追跡および評価するために使用します。"
->additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="ジャーニー指標の設定とトラッキング"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="ジャーニー指標の設定とトラッキング"
 
 実験を行うことで、ランダム分割に基づいて様々なパスをテストし、事前定義済みの成功指標に基づいて最もパフォーマンスが高いパスを判断できます。
 
@@ -202,7 +202,7 @@ ht-degree: 88%
 
    >[!AVAILABILITY]
    >
-   >現在、Decisioning アドオン機能を購入した組織では、専用の [&#x200B; メニューから &#x200B;](../experience-decisioning/rules.md#create) ターゲティングルールの作成 [!DNL Journey Optimizer] を利用でき、他の組織ではオンデマンドで利用できます（使用制限あり）。
+   >現在、Decisioning アドオン機能を購入した組織では、専用の [ メニューから ](../experience-decisioning/rules.md#create) ターゲティングルールの作成 [!DNL Journey Optimizer] を利用でき、他の組織ではオンデマンドで利用できます（使用制限あり）。
    >
    >この機能は、すべてのお客様に段階的に展開される予定です。 それまでの間、Adobe担当者に連絡してアクセス権を取得してください。
 

@@ -88,7 +88,7 @@ ht-degree: 5%
    1. 使用する **[!UICONTROL タイムゾーン]** を選択：
 
       * **[!UICONTROL UTC/GMT]** – 個々のタイムゾーンに関係なく、オーディエンス内のすべての受信者に標準の GMT タイムウィンドウを適用します。
-      * **[!UICONTROL 受信者ローカルタイムゾーンを使用]** – 各プロファイルのタイムゾーンフィールドを使用します。 [&#x200B; ジャーニーでのタイムゾーン管理の詳細情報 &#x200B;](../building-journeys/timezone-management.md#timezone-from-profiles)
+      * **[!UICONTROL 受信者ローカルタイムゾーンを使用]** – 各プロファイルのタイムゾーンフィールドを使用します。 [ ジャーニーでのタイムゾーン管理の詳細情報 ](../building-journeys/timezone-management.md#timezone-from-profiles)
 
         >[!IMPORTANT]
         >
@@ -128,7 +128,7 @@ ht-degree: 5%
 
 >[!TAB  ジャーニーでの待ち時間チャネルアクションの適用 ]
 
-1. ジャーニーを開き、[&#x200B; チャネルアクション &#x200B;](../building-journeys/journeys-message.md) を選択し、メッセージのコンテンツを編集します。
+1. ジャーニーを開き、[ チャネルアクション ](../building-journeys/journeys-message.md) を選択し、メッセージのコンテンツを編集します。
 1. 「**[!UICONTROL ビジネス・ルールの追加]**」ボタンをクリックし、非表示時間ルールを含むルール・セットを選択します。
 
    ![](assets/quiet-hours-apply.png)
@@ -156,7 +156,7 @@ ht-degree: 5%
 
 ## 次の手順
 
-ジャーニーまたはキャンペーンがアクティブ化されて実行されると、[Customer Journey Analytics レポートおよび &#x200B;](../reports/report-gs-cja.md) ライブレポート [&#x200B; で、コミュニケーションから除外されたプロファイルの数を確認できます。このレポートでは、配信から除外されたユーザーの理由として考えられる非表示時間ルールが一覧表示されます &#x200B;](../reports/live-report.md)。
+ジャーニーまたはキャンペーンがアクティブ化されて実行されると、[Customer Journey Analytics レポートおよび ](../reports/report-gs-cja.md) ライブレポート [ で、コミュニケーションから除外されたプロファイルの数を確認できます。このレポートでは、配信から除外されたユーザーの理由として考えられる非表示時間ルールが一覧表示されます ](../reports/live-report.md)。
 
 ![](assets/quiet-hours-report.png)
 
@@ -187,4 +187,4 @@ ht-degree: 5%
 
 Adobe Journey Optimizerの無休時間数機能の使用方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3475853?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475851?quality=12)

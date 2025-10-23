@@ -31,7 +31,7 @@ ht-degree: 98%
 * 注文番号、ステータス、品目名を含む注文イベントを設定します。この[節](../event/about-events.md)を参照してください。
 * 決定を作成するには、この[節](../offers/offer-activities/create-offer-activities.md)を参照してください。
 
-➡️ [&#x200B; ビデオで類似のユースケースを確認する &#x200B;](#video)
+➡️ [ ビデオで類似のユースケースを確認する ](#video)
 
 ## 手順 1 - ジャーニーの作成 {#create-journey}
 
@@ -110,4 +110,4 @@ ht-degree: 98%
 
 次のビデオでは、ジャーニーのコンテキストデータを活用してメールをパーソナライズする、類似したユースケースを示します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3428530?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425027?quality=12)

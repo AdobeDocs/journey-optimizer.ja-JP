@@ -10,7 +10,7 @@ level: Experienced
 keywords: オブジェクト, レベル, アクセス, 制御, ラベル, olac, 権限
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
 source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 100%
 

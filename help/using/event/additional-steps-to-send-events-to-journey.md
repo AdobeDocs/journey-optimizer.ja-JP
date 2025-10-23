@@ -88,6 +88,6 @@ ht-degree: 88%
 }
 ```
 
-「data」部分をどこに貼り付けるかを特定しやすくするために、[JSON フォーマッター &#x200B;](https://jsonformatter.curiousconcept.com){target="_blank"} などの JSON ビジュアライゼーションツールを使用できます。
+「data」部分をどこに貼り付けるかを特定しやすくするために、[JSON フォーマッター ](https://jsonformatter.curiousconcept.com){target="_blank"} などの JSON ビジュアライゼーションツールを使用できます。
 
-ストリーミング取得 API のトラブルシューティングについては、[Experience Platformのドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=ja){target="_blank"} を参照してください。
+ストリーミング取得 API のトラブルシューティングについては、[Experience Platformのドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=ja){target="_blank"} を参照してください。
