@@ -34,7 +34,7 @@ API トリガーキャンペーンを使用すると、マーケティングコ�
 
 >[!NOTE]
 >
->サポートされるチャネルは、[ メール ](../email/get-started-email.md)、[SMS](../sms/get-started-sms.md)、[ プッシュ通知 ](../push/get-started-push.md) です。 高スループット API トリガーキャンペーンは、現在、メールチャネルのみをサポートしています。
+>サポートされるチャネルは、[&#x200B; メール &#x200B;](../email/get-started-email.md)、[SMS](../sms/get-started-sms.md)、[&#x200B; プッシュ通知 &#x200B;](../push/get-started-push.md) です。 高スループット API トリガーキャンペーンは、現在、メールチャネルのみをサポートしています。
 >
 >使用できるチャネルは、ライセンスモデルとアドオンによって異なります。
 

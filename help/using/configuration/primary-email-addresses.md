@@ -83,7 +83,7 @@ ht-degree: 69%
 * 配信をテストします。 独自のメールアドレスまたは電話番号を追加できます。ジャーニーを公開すると、メール、SMS または WhatsApp のメッセージが送信されます。
 * リストのサブスクライバーにメッセージを送信します。 詳しくは、[このユースケース](../building-journeys/message-to-subscribers-uc.md)を参照してください。
 
-**[!UICONTROL メール]**、**[!UICONTROL SMS]** または **[!UICONTROL WhatsApp]** アクションを [ ジャーニー ](../email/create-email.md#create-email-journey-campaign) に追加すると、プライマリメールアドレスまたは電話番号がジャーニーの詳細設定パラメーターの下に表示されます。
+**[!UICONTROL メール]**、**[!UICONTROL SMS]** または **[!UICONTROL WhatsApp]** アクションを [&#x200B; ジャーニー &#x200B;](../email/create-email.md#create-email-journey-campaign) に追加すると、プライマリメールアドレスまたは電話番号がジャーニーの詳細設定パラメーターの下に表示されます。
 
 フィールドの右側にある「**[!UICONTROL パラメーターの上書きを有効にする]**」アイコンを使用して、この値を上書きします。
 
@@ -100,13 +100,13 @@ ht-degree: 69%
 >title="使用するデフォルトの実行アドレスの上書き"
 >abstract="複数のメールアドレスまたは電話番号がデータベースで使用可能な場合 (個人用、仕事用など)、送信で優先するものを選択できます。プライマリアドレスはサンドボックスレベルで定義されますが、ここでは、この特定のチャネル設定のデフォルト設定を上書きできます。"
 
-特定のメール、SMS または WhatsApp [ チャネル設定 ](channel-surfaces.md) のデフォルトの実行アドレスを変更できます。
+特定のメール、SMS または WhatsApp [&#x200B; チャネル設定 &#x200B;](channel-surfaces.md) のデフォルトの実行アドレスを変更できます。
 
 これを行うには、「実行ディメンション **[!UICONTROL セクションに移動し]** 「実行アドレス **[!UICONTROL の下の専用フィールドを編集]** ます。
 
 >[!NOTE]
 >
->[WhatsApp チャネル ](../whatsapp/whatsapp-configuration.md#whatsapp-configuration) の場合、**[!UICONTROL WhatsApp 実行フィールド]** は **[!UICONTROL WhatsApp 設定]** セクションの下にあります。
+>[WhatsApp チャネル &#x200B;](../whatsapp/whatsapp-configuration.md#whatsapp-configuration) の場合、**[!UICONTROL WhatsApp 実行フィールド]** は **[!UICONTROL WhatsApp 設定]** セクションの下にあります。
 
 ![](assets/sms-config-execution-address.png){width=85%}
 

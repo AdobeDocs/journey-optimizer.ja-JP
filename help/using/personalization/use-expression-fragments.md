@@ -73,7 +73,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->複数の改行を含む式フラグメントを作成し、[SMS](../sms/create-sms.md#sms-content) または[プッシュ](../push/design-push.md)コンテンツで使用する場合、改行は保持されます。したがって、送信する前に [SMS](../sms/send-sms.md) または [ プッシュ ](../push/send-push.md) メッセージをテストしてください。
+>複数の改行を含む式フラグメントを作成し、[SMS](../sms/create-sms.md#sms-content) または[プッシュ](../push/design-push.md)コンテンツで使用する場合、改行は保持されます。したがって、送信する前に [SMS](../sms/send-sms.md) または [&#x200B; プッシュ &#x200B;](../push/send-push.md) メッセージをテストしてください。
 
 ## 暗黙的変数の使用 {#implicit-variables}
 
