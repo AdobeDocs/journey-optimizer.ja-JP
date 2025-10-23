@@ -9,7 +9,7 @@ level: Experienced
 keywords: スキーマ, Platform, データ, 構造
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '394'
 ht-degree: 100%
 
@@ -56,7 +56,7 @@ Adobe Experience Platform には、2 つのタイプのスキーマがありま�
 
 標準スキーマの作成、フィールドグループの追加、カスタムフィールドグループの作成および設定の方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3417458?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334461?quality=12)
 
 >[!MORELIKETHIS]
 >
