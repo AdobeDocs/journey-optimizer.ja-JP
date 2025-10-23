@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: メール, デザイン, アクセシビリティ
 exl-id: 78011ec0-a3b6-4d4e-ab4b-9da032c283a2
-source-git-commit: da82432dd15f19ac7db52f491e5afd5ba6d4e3d7
+source-git-commit: d1e8120f361a04b47b20dbe71ecacad1be0aeb3d
 workflow-type: tm+mt
-source-wordcount: '1610'
-ht-degree: 97%
+source-wordcount: '1638'
+ht-degree: 96%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 97%
 >
 >このページでは、[!DNL Journey Optimizer] でデザインしたメールやランディングページを障害のある人物が読み、理解し、操作できるように、すべての受信者がコンテンツにアクセスできるようにする方法について説明します。
 >
->一方、[!DNL Journey Optimizer] インターフェイス自体のアクセシビリティについては、[&#x200B; この節 &#x200B;](../start/accessibility.md) で詳しく説明します。
+>一方、[!DNL Journey Optimizer] インターフェイス自体のアクセシビリティについて詳しくは、[この節](../start/accessibility.md)を参照してください。
 
 ## テキストの読みやすさの確保 {#text-readability}
 
@@ -142,9 +142,9 @@ E メールデザイナーの関連する構造および[コンテンツコン�
 
 ## ダークモードの使用 {#dark-mode}
 
-<!--TO PUBLISH WHEN DARK MODE IS RELEASED-->
-
 ダークモードは、光に敏感なユーザーや視覚障害のあるユーザーの視覚的なアクセシビリティを強化し、視聴エクスペリエンスを向上させます。
+
+E メールDesignerでは、**[!UICONTROL ダークモード]** に切り替えて、サポートされている E メールクライアントで表示される特定のカスタム設定を確認して定義できます。 [詳細情報](dark-mode.md)
 
 ![](assets/accessible-dark-mode.png){width="90%"}
 
