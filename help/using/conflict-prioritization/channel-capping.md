@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: メッセージ, 頻度, ルール, プレッシャー
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
-source-git-commit: 8c3ff6c60f846af2cddc8c84507cd64fd457cbbb
-workflow-type: ht
-source-wordcount: '1225'
-ht-degree: 100%
+source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
+workflow-type: tm+mt
+source-wordcount: '1226'
+ht-degree: 98%
 
 ---
 
@@ -116,7 +116,7 @@ ht-degree: 100%
 
 1. ジャーニーまたはキャンペーンをアクティブ化する前に、実行は少なくとも 10 分後にスケジュールしてください。
 
-   これにより、選択したビジネスルールのプロファイルのカウンター値を入力する十分な時間を確保できます。キャンペーンをすぐにアクティブ化すると、ルールセットカウンターの値が受信者のプロファイルに入力されず、メッセージがカスタムルールセットのフリークエンシーキャップルールにカウントされません。また、すぐにアクティブ化されたジャーニーやキャンペーンと API トリガーキャンペーンでは、キャップが正しく機能しない場合があります。
+   これにより、選択したビジネスルールのプロファイルのカウンター値を入力する十分な時間を確保できます。キャンペーンをすぐにアクティブ化すると、ルールセットカウンターの値が受信者のプロファイルに入力されず、メッセージがカスタムルールセットのフリークエンシーキャップルールにカウントされません。また、すぐにアクティブ化されたジャーニーやキャンペーンと API トリガーキャンペーンでは、キャッピングが正しく機能しない可能性があります。
 
    ![](assets/rule-set-schedule-campaign.png)
 
@@ -161,4 +161,4 @@ In this scenario, an individual profile:
 
 ## チュートリアルビデオ {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444727?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

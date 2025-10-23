@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: キャンペーン, API トリガー, REST, Optimizer, メッセージ
 exl-id: bda7e337-a246-4f01-b935-4a234d4c4baa
-source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
+source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 86%
+source-wordcount: '297'
+ht-degree: 64%
 
 ---
 
@@ -27,6 +27,18 @@ ht-degree: 86%
    * **[!UICONTROL API トリガー - マーケティング]** - ターゲットオーディエンスにパーソナライズされたマーケティングコミュニケーションを送信するには、この API トリガーキャンペーンのタイプを選択します。
 
    * **[!UICONTROL API トリガー – トランザクション]** - トランザクションキャンペーンは、トランザクションメッセージ、つまり、個人が実行したアクション（パスワードのリセットリクエスト、買い物かごの購入など）に続いて送信されるメッセージを送信することを目的としています。
+
+     +++ハイスループットモード
+
+     トランザクション API トリガーキャンペーンの場合は、**[!UICONTROL 高スループット]** モードを有効にできます。 このモードは、大規模なリアルタイムメッセージ（1 秒あたり最大 5000 トランザクション）向けに設計されており、より高い可用性とより低い待ち時間を提供します。 [ 高スループット モードの操作方法を学ぶ ](../campaigns/api-triggered-high-throughput.md)
+
+     >[!AVAILABILITY]
+     >
+     >現在、高スループット モードは、メールチャネルと米国地域でのみ使用できます。
+     >
+     >この機能は、Adobe **ハイスループットトランザクションメッセージ** アドオン機能を購入した組織でのみ利用できます。 詳しくは、アドビ担当者にお問い合わせください。
+
+     +++
 
    ![](assets/api-triggered-modal.png)
 

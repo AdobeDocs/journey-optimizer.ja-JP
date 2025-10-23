@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: キャンペーン, API トリガー, REST, Optimizer, メッセージ
 exl-id: b7f12c65-c1af-4c49-b126-c13a51940a43
-source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
+source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 95%
+source-wordcount: '424'
+ht-degree: 80%
 
 ---
 
@@ -35,11 +35,15 @@ ht-degree: 95%
 <div align="center"><a href="../push/create-push.md"><strong>プッシュ通知</strong></a></div></td>
 </tr></table>
 
+>[!IMPORTANT]
+>
+>[ ハイスループットキャンペーン ](../campaigns/api-triggered-high-throughput.md) は、Adobe プロファイルに依存しません。以下に説明するように、すべてのパーソナライゼーションをコンテキストデータとして API ペイロードに含める必要があります。 このモードは、メールチャネルと米国地域でのみ使用できます。
+
 ## コンテキストデータを使用したコンテンツのパーソナライズ {#contextual}
 
 メッセージをパーソナライズするのに活用できる追加データを API ペイロードに渡すことができます。
 
-この例では、パスワードのリセットを希望する顧客に、サードパーティツールで生成されるパスワードリセット URL を送信するとします。API トリガー型キャンペーンを使用すると、生成されたこの URL を API ペイロードに渡し、キャンペーンに活用してメッセージに追加できます。
+この例では、パスワードのリセットを希望する顧客に、サードパーティツールで生成されるパスワードリセット URL を送信するとします。API トリガーキャンペーンを使用すると、生成されたこの URL を API ペイロードに渡し、キャンペーンに活用してメッセージに追加できます。
 
 それには、これらのデータを API ペイロードに渡し、パーソナライゼーションエディターを使用してメッセージに追加する必要があります。`{{context.<contextualAttribute>}}` 構文を使用します。ここで、`<contextualAttribute>` は、渡すデータを含んだ API ペイロード内の変数の名前と一致する必要があります。
 

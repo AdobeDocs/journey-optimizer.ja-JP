@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: キャンペーン, API トリガー, REST, Optimizer, メッセージ
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 79%
+source-wordcount: '271'
+ht-degree: 73%
 
 ---
 
@@ -30,14 +30,11 @@ API トリガーキャンペーンを使用すると、マーケティングコ�
 
 それには、まず Journey Optimizer で API トリガーキャンペーンを作成し、次に [Interactive Message Execution REST API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution) を使用して、API 呼び出しを通じてその実行を開始する必要があります。
 
-API トリガー型キャンペーンで使用できるチャネルは、メール、SMS およびプッシュメッセージです。
-
 ➡️ [この機能について詳しくは、ビデオを参照してください](#video)。
-
 
 >[!NOTE]
 >
->サポートされているチャネル：[メール](../email/get-started-email.md)、[SMS／MMS／RCS](../sms/get-started-sms.md)、[プッシュ通知](../push/get-started-push.md)。
+>サポートされるチャネルは、[ メール ](../email/get-started-email.md)、[SMS](../sms/get-started-sms.md)、[ プッシュ通知 ](../push/get-started-push.md) です。 高スループット API トリガーキャンペーンは、現在、メールチャネルのみをサポートしています。
 >
 >使用できるチャネルは、ライセンスモデルとアドオンによって異なります。
 
@@ -57,4 +54,4 @@ API トリガー型キャンペーンで使用できるチャネルは、メー�
 
 Interactive Message Execution REST API を使用して、キャンペーンを作成し、ユーザーインタラクションに基づいて外部システムからキャンペーンをトリガーする方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452726?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)

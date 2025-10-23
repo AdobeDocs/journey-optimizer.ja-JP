@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d6905059dbf1504407c49f76415e4c6eb819bed7
+source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 49%
+source-wordcount: '1122'
+ht-degree: 45%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 49%
 
 [!DNL Adobe Journey Optimizer] は継続的な配信モデルに従っており、Adobeが新機能、機能強化および修正点を継続的に提供できるようにします。 このアプローチにより、機能をスケーラブルかつ段階的にロールアウトして、すべての環境でパフォーマンスと安定性を確保できます。
 
-このモデルのため、リリースノートは毎月のリリースの間に更新されます。  専用の [&#x200B; 最新のアップデート &#x200B;](#updates-rn) セクションでは、実稼動へのデプロイ時に新機能と改善点がハイライト表示されるので、常にすべての変更がリアルタイムで通知されます。<!--For full details about the release cycle and availability phases, see [Journey Optimizer release cycle](#releases.md).-->
+このモデルのため、リリースノートは毎月のリリースの間に更新されます。  専用の [ 最新のアップデート ](#updates-rn) セクションでは、実稼動へのデプロイ時に新機能と改善点がハイライト表示されるので、常にすべての変更がリアルタイムで通知されます。<!--For full details about the release cycle and availability phases, see [Journey Optimizer release cycle](#releases.md).-->
 
 [!DNL Adobe Journey Optimizer] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}を参照してください。
 
@@ -182,23 +182,23 @@ ht-degree: 49%
 </tbody>
 </table-->
 
-<!--<table>
+<table>
 <thead>
 <tr>
-<th><strong>High throughput messaging for API triggered email campaigns</strong><br/></th>
+<th><strong>API トリガーメールキャンペーンに対する高スループットメッセージ</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>A new high throughput transactional messaging mode is available in API triggered campaigns. This mode is designed for large-scale, real-time transactional messaging and supports up to 5,000 transactions per second with higher availability. This mode also supports transactional messages without referencing or creating customer profiles, such as guest checkout, order confirmation, password resets, security notifications, and one-time passwords for two-factor authentication.</p>
-<p>This capability is only available for the email channel, for organizations that have purchased the Adobe High Throughput Transactional Messaging add-on offering. Contact your Adobe representative for more details.</p>
-<p>For more information, refer to the <a href="../campaigns/api-triggered-campaign-action.md">detailed documentation</a>.</p>
-<p>Availability date: October 22, 2025</p>
+<p>API トリガーキャンペーンで、新しい高スループットのトランザクションメッセージモードを使用できます。 このモードは、大規模なリアルタイムトランザクションメッセージ用に設計されており、1 秒あたり最大 5,000 個のトランザクションをサポートし、可用性が向上します。 また、このモードでは、ゲストのチェックアウト、注文の確認、パスワードのリセット、セキュリティ通知、その他のサービスや操作に関する通知など、顧客プロファイルを参照または作成することなく、トランザクションメッセージをサポートします。</p>
+<p>この機能は、Adobeの高スループットトランザクションメッセージ アドオン機能を購入した組織のメールチャネルでのみ使用できます。 詳しくは、アドビ担当者にお問い合わせください。</p>
+<p>詳しくは、<a href="../campaigns/api-triggered-high-throughput.md">詳細なドキュメント</a>を参照してください。</p>
+<p>公開日：2025年10月22日（PT）</p>
 </td>
 </tr>
 </tbody>
-</table>-->
+</table>
 
 <table>
 <thead>
@@ -268,7 +268,7 @@ ht-degree: 49%
 <tr>
 <td>
 <p>Journey Optimizer Experimentation Acceleratorに、実験エージェントが含まれるようになりました。これは、実験、インサイト、機会とやり取りできる、AI を活用した対話型ツールです。 Journey Optimizer Experimentation Acceleratorのエクスペリエンスを向上させ、実験をより効率的に実行し、何が機能するかを明らかにし、次にどこを最適化するかを見つけるのを支援します。</p>
-<p>詳しくは、<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=ja" target="_blank">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2025年10月10日（PT）</p>
 </td>
 </tr>
