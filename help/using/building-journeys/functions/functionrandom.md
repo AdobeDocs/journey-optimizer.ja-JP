@@ -9,7 +9,7 @@ keywords: random, 関数, 式, ジャーニー
 exl-id: df006301-d309-4cb0-b505-317f623df494
 version: Journey Orchestration
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '30'
 ht-degree: 100%
 

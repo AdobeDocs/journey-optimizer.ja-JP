@@ -9,7 +9,7 @@ keywords: trim, 関数, 式, ジャーニー
 exl-id: 1ee126fd-d021-4060-9538-aca5cabf8164
 version: Journey Orchestration
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '35'
 ht-degree: 100%
 

@@ -9,7 +9,7 @@ keywords: inNextHours, 関数, 式, ジャーニー
 exl-id: 079a91b6-49c5-4e68-a240-358ed0cded92
 version: Journey Orchestration
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '48'
 ht-degree: 100%
 
