@@ -97,12 +97,12 @@ Journey Optimizer は、メッセージを処理する際に、式を Experience
 
 ジャーニーのコンテキストイベント情報を使用してメッセージをパーソナライズする方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3448127?captions=jpn&quality=12)
 
 プロファイルベースのパーソナライゼーションをメッセージに追加する方法と、オーディエンスメンバーシップをパーソナライゼーションブロックの前提条件として使用する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3416419?captions=jpn&quality=12)
 
 パーソナライゼーションエディタープレイグラウンドを活用し、サンプルデータを使用してパーソナライゼーションコードを記述およびテストする方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3457868?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475953?captions=jpn&quality=12)
