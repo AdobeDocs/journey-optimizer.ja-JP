@@ -6,10 +6,10 @@ description: ' [!DNL Adobe Journey Optimizer]  レポートへのアクセス方
 role: User
 level: Beginner
 exl-id: 7961dc5c-7918-4ae3-8361-0ed4bc4f145b
-source-git-commit: 158ae930fa87dc0476273bfbb14c96e780281491
+source-git-commit: ac80d1cec351a3029c8b2bf862275ffe7fd5c86d
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 100%
+source-wordcount: '448'
+ht-degree: 97%
 
 ---
 
@@ -133,3 +133,13 @@ Adobe Journey Optimizer では、堅牢なレポート機能を通じて実用�
 <td><img alt="コンテンツカード" src="../channels/assets/do-not-localize/cards.png">
 <div align="center"><p><strong>コンテンツカード</strong></p><p><a href="campaign-global-report-cja-content.md"><strong>キャンペーンレポート</strong></a></p><p><a href="journey-global-report-cja-content.md"><strong>ジャーニーレポート</strong></a></p></div></td>
 </tr></table>
+
+### チュートリアルビデオ {#video}
+
+Adobe Journey Optimizerの全期間レポートを効果的に使用する方法について説明します。
+
++++こちらのビデオをご覧ください
+
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
+
++++

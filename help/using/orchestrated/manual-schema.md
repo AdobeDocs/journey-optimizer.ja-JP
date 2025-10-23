@@ -5,10 +5,10 @@ title: 設定の手順
 description: ユーザーインターフェイスを通じてモデルベースのスキーマを直接作成する方法について説明します。
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
 version: Campaign Orchestration
-source-git-commit: fc741db8db2ca9c05dbb87a41712e90a62a18c13
+source-git-commit: ac80d1cec351a3029c8b2bf862275ffe7fd5c86d
 workflow-type: tm+mt
-source-wordcount: '871'
-ht-degree: 100%
+source-wordcount: '882'
+ht-degree: 98%
 
 ---
 
@@ -109,6 +109,8 @@ ht-degree: 100%
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
 属性を作成して保存した後、関係を定義することで、スキーマを他のリレーショナルスキーマとリンクできます。
+
+➡️ [ リレーショナルスキーマについて詳しくは、Adobe Experience Platform ドキュメントを参照してください ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
 
 ## スキーマをリンク {#link-schema}
 
