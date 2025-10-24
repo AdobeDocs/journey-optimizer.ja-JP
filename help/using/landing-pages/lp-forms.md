@@ -10,7 +10,7 @@ level: Beginner
 keywords: ランディング, ランディングページ, 作成, ページ, フォーム
 badge: label="限定提供" type="Informative"
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: 913104934e78b61b91ea3fca21ee80372050a1fb
+source-git-commit: c91bfc19a8c68b7b914c552349f50e7d47d150df
 workflow-type: tm+mt
 source-wordcount: '1572'
 ht-degree: 92%
@@ -77,7 +77,7 @@ ht-degree: 92%
 
    >[!NOTE]
    >
-   >現在、選択できるのは [!DNL Adobe Experience Platform] データセットのみです。一度に 1 つのデータセットを選択できます。 [データセットの詳細](../../data/get-started-datasets.md)
+   >現在、選択できるのは [!DNL Adobe Experience Platform] データセットのみです。一度に 1 つのデータセットを選択できます。 [データセットの詳細](../data/get-started-datasets.md)
 
 1. 「**[!UICONTROL 公開]**」をクリックします。これで、プリセットをフォームで使用する準備が整いました。
 
@@ -217,7 +217,7 @@ ht-degree: 92%
 
 フォームは公開した後でも編集できます。次の手順に従います。
 
-1. [&#x200B; フォームリスト &#x200B;](#access-forms) にアクセスし、公開済みフォームを選択します。
+1. [ フォームリスト ](#access-forms) にアクセスし、公開済みフォームを選択します。
 
 1. 「**[!UICONTROL フォームを編集]**」ボタンをクリックします。
 
@@ -265,7 +265,7 @@ ht-degree: 92%
 
    >[!NOTE]
    >
-   >「**[!UICONTROL フォームを編集]**」ボタンを使用して、選択したフォームを更新できます。フォームが新しいタブで開きます。フォームコンテンツの編集手順については、[&#x200B; この節 &#x200B;](#create-form) を参照してください。
+   >「**[!UICONTROL フォームを編集]**」ボタンを使用して、選択したフォームを更新できます。フォームが新しいタブで開きます。フォームコンテンツの編集手順については、[ この節 ](#create-form) を参照してください。
 
 1. 「**[!UICONTROL フォローアップタイプ]**」セクションで、ユーザーがフォームに入力した際の動作を設定します。
 
