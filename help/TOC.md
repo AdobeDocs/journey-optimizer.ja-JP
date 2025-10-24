@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
+source-git-commit: 460ac269404842001f320df6404db474a34c30b7
 workflow-type: tm+mt
-source-wordcount: '3011'
+source-wordcount: '2992'
 ht-degree: 98%
 
 ---
@@ -555,13 +555,8 @@ ht-degree: 98%
    + コンテンツ実験 {#content-experiment}
       + [コンテンツ実験](/help/rp_landing_pages/content-experiment-landing-page.md)
       + [コンテンツ実験の基本を学ぶ](using/content-management/get-started-experiment.md)
+      + [実験アクセラレーターの基本を学ぶ](using/content-management/experiment-accelerator-gs.md)
       + [コンテンツ実験を作成](using/content-management/content-experiment.md)
-      + 実験アクセラレーター {#experiment}
-         + [実験アクセラレーターの基本を学ぶ](using/content-management/experiment-accelerator.md)
-         + [実験アクセラレーターを使用した AI でのデータ使用](using/content-management/experiment-accelerator-security.md)
-         + [実験アクセラレーターのベストプラクティス](using/content-management/experiment-accelerator-best-practices.md)
-         + [実験アクセラレーターの監視](using/content-management/experiment-accelerator-monitor.md)
-         + [実験アクセラレーターの指標](using/content-management/experiment-accelerator-metrics.md)
       + テクニカルノート {#technotes}
          + [テクニカルノート](/help/rp_landing_pages/technotes-landing-page.md)
          + [A/B テストとマルチアームバンディットの比較](using/content-management/mab-vs-ab.md)
@@ -978,7 +973,7 @@ ht-degree: 98%
    + [プライバシー](/help/rp_landing_pages/privacy-landing-page.md)
    + [プライバシーの基本を学ぶ](using/privacy/get-started-privacy.md)
    + [プライバシーリクエスト](using/privacy/requests.md)
-   + [&#x200B; リソースに対する監査アクション](using/privacy/audit-logs.md)
+   + [ リソースに対する監査アクション](using/privacy/audit-logs.md)
    + [データライフサイクル操作の実行](using/privacy/data-hygiene.md)
    + 同意を管理 {#consent}
       + [同意を管理](/help/rp_landing_pages/consent-landing-page.md)

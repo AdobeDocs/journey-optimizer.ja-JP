@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 23a6a0d0766959a2a073512e805b14edb1a323f0
+source-git-commit: 460ac269404842001f320df6404db474a34c30b7
 workflow-type: tm+mt
-source-wordcount: '7883'
-ht-degree: 100%
+source-wordcount: '7884'
+ht-degree: 99%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 100%
 <li><strong>AI 実験のインサイトと機会：</strong>GenAI 駆動型のインサイトとレコメンデーションを使用することで、統計的な読み上げを超えた結果が得られます。各実験では、共に実用的な機会とともにん、裏付けとなる論理的根拠が明らかになるので、チームは次にテストする内容をより自信を持って決定できます。</li>
 <li><strong>Journey Optimizer でのマルチアームバンディット（MAB）のサポート：</strong>マルチアームバンディット実験により、無駄なトラフィックを削減しながら影響力を最大限に高めます。MAB は、オーディエンスを均等に分割するのではなく、最もパフォーマンスの高いバリエーションにより多くの訪問者をリアルタイムで自動的に割り当てるので、機能を学びながら、より多くの顧客に優れたエクスペリエンスを提供できます。</li></ul>
 <p><img src="assets/do-not-localize/experimentation-accelerator.gif"/></p>
-<p>詳しくは、<a href="../content-management/experiment-accelerator.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="https://experienceleague.adobe.com/en/docs/experimentation-accelerator/using/overview">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2025年10月3日（PT）</p>
 </td>
 </tr>
