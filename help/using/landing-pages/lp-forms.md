@@ -9,13 +9,11 @@ role: User
 level: Beginner
 keywords: ランディング, ランディングページ, 作成, ページ, フォーム
 badge: label="限定提供" type="Informative"
-hidefromtoc: true
-hide: true
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: 58c9fb91bac95e343ddaee93eca24181b80c3894
-workflow-type: ht
-source-wordcount: '1575'
-ht-degree: 100%
+source-git-commit: 913104934e78b61b91ea3fca21ee80372050a1fb
+workflow-type: tm+mt
+source-wordcount: '1572'
+ht-degree: 92%
 
 ---
 
@@ -23,7 +21,7 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->この機能は、限定提供です。アクセス権を取得するには、アドビ担当者にお問い合わせください。
+>この機能は、現在、米国およびオーストラリアのお客様向けに限定提供されています。 アクセス権を取得するには、アドビ担当者にお問い合わせください。
 
 [!DNL Journey Optimizer] ランディングページでプロファイルデータを取得し、[!DNL Experience Platform] データセットを強化するには、ランディングページでフォームを活用できます。
 
@@ -42,7 +40,7 @@ ht-degree: 100%
 
 フォームを作成する前に、フォーム送信データが送信される接続エンドポイントと、フォームを通じて取得したデータが保存されるデータセットを選択する専用のプリセットを作成する必要があります。
 
-データがストリーミングエンドポイントに到達すると、データセット情報とリンクされます。生成されたソース／ターゲット接続とソースフローを使用すると、データがデータセットにプッシュされます。
+ストリーミングエンドポイントにデータが到着すると、データセット情報とリンクされます。 生成されたソース／ターゲット接続とソースフローを使用すると、データがデータセットにプッシュされます。
 
 プリセットの作成時：
 
@@ -53,9 +51,13 @@ ht-degree: 100%
    * **ターゲット接続** - データが保存または使用される場所。
    * **ソースフロー** - ソース接続から [!DNL Experience Platform] にデータを移動し、マッピング、変換、検証を処理するパイプライン。
 
+<!--
 >[!NOTE]
 >
-> フォームプリセットにアクセスして編集するには、実稼動サンドボックスにおける&#x200B;**[!UICONTROL フォームプリセットの管理]**&#x200B;権限が必要です。権限について詳しくは、[この節](../administration/high-low-permissions.md#administration-permissions)を参照してください。<!--TBC-->
+> To access and edit form presets, you must have the **[!UICONTROL Manage form presets]** permission on the production sandbox. Learn more about permissions in [this section](../administration/high-low-permissions.md#administration-permissions).TBC
+-->
+
+フォームプリセットを作成するには、次の手順に従います。
 
 1. **[!UICONTROL フォームプリセット]**&#x200B;インベントリにアクセスするには、左側のメニューから&#x200B;**[!UICONTROL 管理]**／**[!UICONTROL チャネル]**／**[!UICONTROL フォーム設定]**&#x200B;を選択します。
 
@@ -75,7 +77,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >現在、選択できるのは [!DNL Adobe Experience Platform] データセットのみです。一度に 1 つのデータセットのみ選択できます。
+   >現在、選択できるのは [!DNL Adobe Experience Platform] データセットのみです。一度に 1 つのデータセットを選択できます。 [データセットの詳細](../../data/get-started-datasets.md)
 
 1. 「**[!UICONTROL 公開]**」をクリックします。これで、プリセットをフォームで使用する準備が整いました。
 
@@ -192,7 +194,7 @@ ht-degree: 100%
 >title="「ありがとうございました」ページ"
 >abstract="ユーザーがフォームに入力または転送した際の動作を設定します。"
 
-「**[!UICONTROL ありがとうございましたページ]**」セクションで、ユーザーがフォームに入力した際の動作を設定します。
+フォームの詳細に戻り、「ありがとうページ **[!UICONTROL セクションで、ユーザーがフォームに入力した場合の動作を設定します。]**
 
 ![](assets/lp_create-form-thank-you.png){width=70%}
 
@@ -215,7 +217,7 @@ ht-degree: 100%
 
 フォームは公開した後でも編集できます。次の手順に従います。
 
-1. [フォームリスト](#access-forms)にアクセスし、公開済みフォームを選択します。
+1. [ フォームリスト ](#access-forms) にアクセスし、公開済みフォームを選択します。
 
 1. 「**[!UICONTROL フォームを編集]**」ボタンをクリックします。
 
@@ -239,7 +241,7 @@ ht-degree: 100%
 
 ## ランディングページでのフォームの活用 {#leverage-form-in-lp}
 
-このフォームをランディングページに埋め込むと、フォームで定義した属性に対応するデータを取得し、選択したデータセットに保存できます。次の手順に従います。
+これで、このフォームをランディングページに埋め込み、フォームで定義した属性に対応するデータを取得し、選択したデータセットに保存できるようになりました。 次の手順に従います。
 
 1. ランディングページを作成します。[詳細情報](create-lp.md#create-landing-page)
 
@@ -263,7 +265,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >「**[!UICONTROL フォームを編集]**」ボタンを使用して、選択したフォームを更新できます。フォームが新しいタブで開きます。フォームコンテンツの編集手順は、[この節](#create-form)で説明する手順と同じです。
+   >「**[!UICONTROL フォームを編集]**」ボタンを使用して、選択したフォームを更新できます。フォームが新しいタブで開きます。フォームコンテンツの編集手順については、[ この節 ](#create-form) を参照してください。
 
 1. 「**[!UICONTROL フォローアップタイプ]**」セクションで、ユーザーがフォームに入力した際の動作を設定します。
 
