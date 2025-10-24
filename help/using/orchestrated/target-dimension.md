@@ -5,10 +5,10 @@ title: ターゲティングディメンションの作成
 description: リレーショナルスキーマを顧客プロファイルにマッピングする方法について説明します。
 exl-id: 2479c109-cd6f-407e-8a53-77e4477dc36f
 version: Campaign Orchestration
-source-git-commit: ac80d1cec351a3029c8b2bf862275ffe7fd5c86d
+source-git-commit: 9003668674302c576ed9738c803446c476877e47
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 97%
+source-wordcount: '399'
+ht-degree: 88%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 97%
 
   システムは、ターゲットスキーマが `Profile` にどのようにマッピングされるかを理解する必要があります。これは、ターゲットスキーマと `Profile` スキーマの両方に存在し、ID 名前空間として設定される共有 ID フィールドを通じて実現されます。
 
-➡️ [&#x200B; リレーショナルスキーマについて詳しくは、Adobe Experience Platform ドキュメントを参照してください &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
+➡️ [ リレーショナルスキーマについて詳しくは、Adobe Experience Platform ドキュメントを参照してください ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
 
 ## ターゲティングディメンションの作成 {#targeting-dimension}
 
@@ -47,7 +47,7 @@ ht-degree: 97%
 
 1. ドロップダウンから[以前に設定したスキーマ](gs-schemas.md)を選択します。
 
-   すべてのリレーショナルスキーマが表示されますが、**プロファイル**&#x200B;と直接の ID 関係を持つスキーマのみが選択対象の実施要件となります。
+   すべてのリレーショナルスキーマが表示されますが、選択できるのは **プロファイル** に対して直接 ID 関係を持つスキーマのみです。 人物以外のスキーマ（購入など）を選択したり、プロファイルに直接関連付けられているスキーマを選択したりしないでください。
 
 1. ターゲットにするエンティティを表す **[!UICONTROL ID 値]**&#x200B;を選択します。
 
