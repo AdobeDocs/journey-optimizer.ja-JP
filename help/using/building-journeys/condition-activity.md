@@ -42,7 +42,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->[ プロファイルストア ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja#profile-data-store){target="_blank"} に 3 つ以上のクロスデバイス ID を含むプロファイルの条件評価が失敗します。
+>[&#x200B; プロファイルストア &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja#profile-data-store){target="_blank"} に 3 つ以上のクロスデバイス ID を含むプロファイルの条件評価が失敗します。
 
 ## 条件パスの追加と管理 {#about_condition}
 
