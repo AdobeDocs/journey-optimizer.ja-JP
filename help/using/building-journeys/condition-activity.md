@@ -10,10 +10,10 @@ level: Intermediate
 keywords: アクティビティ, 条件, キャンバス, ジャーニー
 exl-id: 02de069c-3009-4105-aa98-c49959d3efda
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: dee9dc2c2229314940def5f0279699d877d50df6
 workflow-type: tm+mt
-source-wordcount: '1542'
-ht-degree: 100%
+source-wordcount: '1560'
+ht-degree: 98%
 
 ---
 
@@ -39,6 +39,10 @@ ht-degree: 100%
 * [プロファイルキャップ](#profile_cap)
 
 ジャーニー条件でオーディエンスを使用することもできます。[詳細情報](#using-a-segment)
+
+>[!NOTE]
+>
+>[ プロファイルストア ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja#profile-data-store){target="_blank"} に 3 つ以上のクロスデバイス ID を含むプロファイルの条件評価が失敗します。
 
 ## 条件パスの追加と管理 {#about_condition}
 
