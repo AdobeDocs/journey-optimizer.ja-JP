@@ -12,7 +12,7 @@ exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
 source-git-commit: ae971aac1a44b11a19435577d1c17530a91a2ed5
 workflow-type: tm+mt
 source-wordcount: '1693'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -123,13 +123,13 @@ ht-degree: 85%
 
 「**[!UICONTROL 顧客管理]**」オプションを選択した場合、カスタムエンドポイントを入力してキャンペーンやジャーニーで使用すると、受信者が登録解除リンクをクリックした際に、[!DNL Journey Optimizer] によって、同意更新イベント<!--sent to the custom endpoint -->にいくつかのデフォルトのプロファイル固有のパラメーターが追加されます。
 
-エンドポイントをさらにパーソナライズするには <!-- (**[!UICONTROL Mailto (unsubscribe)]** and **[!UICONTROL One-click Unsubscribe URL]**)--> 同意イベントにも追加するカスタム属性を定義します。
+エンドポイント <!-- (**[!UICONTROL Mailto (unsubscribe)]** and **[!UICONTROL One-click Unsubscribe URL]**)--> をさらにパーソナライズするには、カスタム属性を定義できます。これらは同意イベントにも追加されます。
 
 >[!AVAILABILITY]
 >
->**[!UICONTROL 宛先（登録解除）]** オプションについては、この機能は限定提供（LA）で使用できます。 アクセス権を取得するには、Adobe担当者にお問い合わせください。 この場合、**カスタム属性（使用制限あり）を使用した宛先（登録解除）** 節 [&#x200B; 以下 &#x200B;](#configure-decrypt-api) で説明している新しいクエリパラメーターを使用する必要があります。
+>**[!UICONTROL 宛先（登録解除）]**&#x200B;オプションでは、この機能は限定提供（LA）で利用できます。アクセス権を取得するには、アドビ担当者にお問い合わせください。この場合、[以下の](#configure-decrypt-api)「**カスタム属性（限定提供）を使用した宛先（登録解除）**」セクションに記載されている、新しいクエリパラメーターを使用する必要があります。
 
-エンドポイントのカスタム属性を定義するには、「**[!UICONTROL URL トラッキングパラメーター]**」セクションを使用します。 対応するセクションで定義したすべての URL トラッキングパラメーターが、デフォルトのパラメーターに加えて、カスタムエンドポイントの末尾に追加されます。 [カスタム URL トラッキングの設定方法の詳細情報](url-tracking.md)
+エンドポイントのカスタム属性を定義するには、「**[!UICONTROL URL トラッキングパラメーター]**」セクションを使用します。対応するセクションで定義するすべての URL トラッキングパラメーターは、デフォルトのパラメーターに加えて、カスタムエンドポイントの末尾に追加されます。[カスタム URL トラッキングの設定方法の詳細情報](url-tracking.md)
 
 ### 復号化 API の設定 {#configure-decrypt-api}
 
@@ -233,11 +233,11 @@ GET 呼び出しは次のとおりです。
 
 +++
 
-+++ カスタム属性を使用した宛先（登録解除）（使用制限あり）
++++ カスタム属性を使用した宛先（登録解除）（限定提供）
 
 「**[!UICONTROL 宛先（登録解除）]**」オプションを使用して、登録解除リンクをクリックすると、事前に入力されたメールが、指定された登録解除アドレスに送信されます。
 
-2025 年 10 月以降、**[!UICONTROL 宛先（登録解除）]** エンドポイントに **[!UICONTROL 顧客管理]** オプションを使用する場合は、同意イベントに追加するカスタム属性を定義できます。 この場合、以下に説明するクエリパラメーターを使用する必要があります。
+2025年10月以降、**[!UICONTROL 宛先（登録解除）]**&#x200B;エンドポイントの&#x200B;**[!UICONTROL 顧客管理]**&#x200B;オプションを使用している場合は、同意イベントに追加するカスタム属性を定義できます。この場合、以下に説明するクエリパラメーターを使用する必要があります。
 
 >[!AVAILABILITY]
 >
@@ -259,13 +259,13 @@ GET 呼び出しは次のとおりです。
 
    * 解析値：*v1.xyz*
 
-API の例：https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&emailParamsBody=v1.xyz
+API の例：https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&amp;emailParamsBody=v1.xyz
 
 >[!CAUTION]
 >
->以前の実装（例：https://platform.adobe.io/journey/imp/consent/decrypt?emailParams=&lt;v1.xxx>）を使用していた場合は、**emailParams** ではなく、新しい **emailParamsSub** および **emailParamsBody** パラメーターを使用する必要があります。 詳しくは、Adobe担当者にお問い合わせください。
+>以前の実装（例：https://platform.adobe.io/journey/imp/consent/decrypt?emailParams=&lt;v1.xxx>）を使用していた場合は、**emailParams** ではなく、新しい **emailParamsSub** および **emailParamsBody** パラメーターを使用する必要があります。詳しくは、アドビ担当者にお問い合わせください。
 
-**emailParamsSub** パラメーターと **emailParamsBody** パラメーターは、カスタムエンドポイントに送信される同意更新イベントに含まれます。
+**emailParamsSub** および **emailParamsBody** パラメーターは、カスタムエンドポイントに送信される同意更新イベントに含まれます。
 
 ヘッダー要件：
 

@@ -11,7 +11,7 @@ exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
 source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
 workflow-type: tm+mt
 source-wordcount: '1008'
-ht-degree: 85%
+ht-degree: 98%
 
 ---
 
@@ -135,17 +135,17 @@ SMS サブドメインにアクセスして編集するには、実稼動サン�
 
 ## ガードレール {#guardrails}
 
-現在、[!DNL Journey Optimizer] ユーザーインターフェイスでは、SMS サブドメインが設定された後の削除または委任解除はサポートされていません。
+現在、[!DNL Journey Optimizer] ユーザーインターフェイスでは、SMS サブドメインが設定された後にそれらを削除またはデリゲーション解除することはできません。
 
-ただし、[!DNL Journey Optimizer] 内で機能をテストする場合は、SMS サブドメインの作成が必要になる場合があります。 テストが完了すると、UI で SMS サブドメインの削除またはデリゲート解除が許可されないので、散乱した環境に不要な設定が生じる可能性があります。
+ただし、[!DNL Journey Optimizer] 内で機能をテストする場合は、SMS サブドメインを作成する必要がある場合があります。 テストが完了すると、UI で SMS サブドメインの削除やデリゲート解除ができないので、散乱した環境に不要な設定が生じる可能性があります。
 
-推奨される手順と考慮事項を次に示します。
+推奨手順と考慮事項を次に示します。
 
 <!--As an alternative action, create a new SMS subdomain for future use cases and avoid using the existing one if it is no longer needed.-->
 
 * ベストプラクティスとして、必要なコンポーネントと設定のみを作成して、適切な環境を維持します。
-* ビジネスに影響が及ぶ状況では、SMS サブドメインの削除または委任解除を支援できる可能性のあるAdobe担当者にお問い合わせください。 [詳細情報](#undelegate-subdomain)
-* さらにサポートが必要な場合は、Adobeに問い合わせて、インスタンスを効果的に管理する方法を確認してください。
+* ビジネスに影響が及ぶ状況では、SMS サブドメインの削除またはデリゲーション解除を支援できる可能性のあるアドビ担当者にお問い合わせください。[詳細情報](#undelegate-subdomain)
+* さらにサポートが必要な場合は、アドビに問い合わせて、インスタンスを効果的に管理する方法を確認してください。
 
 ## サブドメインのデリゲート解除 {#undelegate-subdomain}
 

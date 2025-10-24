@@ -10,7 +10,7 @@ exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
 source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
 workflow-type: tm+mt
 source-wordcount: '236'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 94%
 
 >[!AVAILABILITY]
 >
->ダイレクトメールメッセージは、スケジュールされたキャンペーンのコンテキストでのみ作成できます。オーケストレーションされたキャンペーンや API トリガーキャンペーン、ジャーニーでは使用できません。
+>ダイレクトメールメッセージは、スケジュールされたキャンペーンのコンテキストでのみ作成できます。オーケストレーションキャンペーンおよび API トリガーキャンペーン、まはたジャーニーでは使用できません。
 
 ![](../rn/assets/do-not-localize/gif-dm.gif)
 
