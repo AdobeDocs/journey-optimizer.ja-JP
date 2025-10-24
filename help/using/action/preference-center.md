@@ -57,9 +57,9 @@ ht-degree: 4%
    >
    >顧客の同意および連絡先の環境設定は複雑なトピックです。 同意およびコンテキスト環境設定を [!DNL Experience Platform] で収集、処理、フィルタリングする方法については、次のドキュメントを参照することをお勧めします。
    >
-   >* 同意データの収集に必要なスキーマフィールドグループについては、[&#x200B; このページ &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview){target="_blank"} を参照してください。 顧客から収集した同意データを処理し、保存されている顧客プロファイルに統合する方法について詳しく説明します。
-   >* 「同意と環境設定」フィールドグループについて詳しくは、[&#x200B; このページ &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/consents#ingest){target="_blank"} を参照してください。
-   >* スキーマにカスタム環境設定フィールドを追加するには、[&#x200B; この節 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/consent/adobe/dataset#custom-consent){target="_blank"} の手順に従います。
+   >* 同意データの収集に必要なスキーマフィールドグループについては、[&#x200B; このページ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview){target="_blank"} を参照してください。 顧客から収集した同意データを処理し、保存されている顧客プロファイルに統合する方法について詳しく説明します。
+   >* 「同意と環境設定」フィールドグループについて詳しくは、[&#x200B; このページ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/field-groups/profile/consents#ingest){target="_blank"} を参照してください。
+   >* スキーマにカスタム環境設定フィールドを追加するには、[&#x200B; この節 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/governance-privacy-security/consent/adobe/dataset#custom-consent){target="_blank"} の手順に従います。
 
 1. 顧客の環境設定を取り込むためのページを作成します。 次のいずれかの方法を使用します。
 
