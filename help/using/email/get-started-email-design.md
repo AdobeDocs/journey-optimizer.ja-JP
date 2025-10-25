@@ -78,8 +78,8 @@ ht-degree: 93%
 
 メッセージエディターでメールコンテンツを作成する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3416418?captions=jpn&quality=12)
 
 A/B テストを行うようにコンテンツ実験を設定し、ビジネス目標を最大限に推進するメールコンテンツを探索する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3419893)
+>[!VIDEO](https://video.tv.adobe.com/v/3447332?captions=jpn)
