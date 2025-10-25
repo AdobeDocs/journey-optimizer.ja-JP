@@ -5,10 +5,10 @@ feature: Decisioning
 role: User
 level: Intermediate
 exl-id: 73548973-ff8d-4d6c-b383-dd3679fa159a
-source-git-commit: 58f4fdf8ec3cdb609efebf5b8713f6b770ef5414
+source-git-commit: b9a515156e9a79519be59fb52b67762a32c9d03e
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 100%
+source-wordcount: '237'
+ht-degree: 88%
 
 ---
 
@@ -67,3 +67,9 @@ ht-degree: 100%
 | プレースメントの合計 | 1K |
 | AI ランキングモデル | 5 |
 | 頻度ルール - オファーごとのキャップルールの最大数 | 10 |
+
+## 設定  {#configurations}
+
+Decisioning がサポートする設定の合計数は、20,000 を超えることはできません。
+
+合計数は、サンドボックスに存在する [ キャッピングルール ](items.md#capping) の合計数です。

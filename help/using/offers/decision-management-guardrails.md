@@ -6,10 +6,10 @@ feature: Decisioning
 role: User
 level: Intermediate
 exl-id: d2872bd3-42f8-4744-bb5b-41c49340098a
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: b9a515156e9a79519be59fb52b67762a32c9d03e
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 100%
+source-wordcount: '348'
+ht-degree: 85%
 
 ---
 
@@ -89,3 +89,9 @@ ht-degree: 100%
 | プレースメント | 1000 |
 | AI ランキングモデル | 5 |
 | フリークエンシーキャップ - オファーごとのキャッピングルールの最大数 | 10 |
+
+## 設定  {#configurations}
+
+意思決定管理がサポートする設定の総数は、20,000 件を超えることはできません。
+
+合計数は、サンドボックスに存在する [ キャッピングルール ](offer-library/add-constraints.md#capping) の合計数です。 すべての [ プレースメント ](offer-library/creating-placements.md) に適用されるキャッピングルールごとに、指定したオファーに関連付けられたすべてのプレースメントにルールを乗算する必要があります。
