@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: メール, デザイン, アクセシビリティ
 exl-id: 78011ec0-a3b6-4d4e-ab4b-9da032c283a2
-source-git-commit: d1e8120f361a04b47b20dbe71ecacad1be0aeb3d
+source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
 workflow-type: tm+mt
 source-wordcount: '1638'
 ht-degree: 96%

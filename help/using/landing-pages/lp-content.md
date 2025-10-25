@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: ランディング, ランディングページ, 作成, ページ, フォーム, コンポーネント
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
 workflow-type: tm+mt
-source-wordcount: '1308'
-ht-degree: 100%
+source-wordcount: '1336'
+ht-degree: 97%
 
 ---
 
@@ -33,6 +33,10 @@ ht-degree: 100%
 >また、**[!UICONTROL フォーム]**&#x200B;コンポーネントを使用せずにクリックスルーのランディングページを作成することもできます。この場合、ランディングページはユーザーに表示されますが、フォームの送信には必要ありません。これは、オプトインやオプトアウトなど、受信者からのアクションを必要とせずにランディングページの表示のみを行う場合や、ユーザーによる入力が不要な情報を提供する場合に役立ちます。
 
 ランディングページのコンテンツ designer を使用すると、サブページのプライマリページから取得したコンテキストデータを活用することもできます。[詳細情報](#use-primary-page-context)
+
+>[!NOTE]
+>
+>[ 欧州アクセシビリティ法 ](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} は、すべてのデジタル通信がアクセス可能であるべきであると規定しています。 [ でコンテンツをデザインする場合は、](../email/accessible-content.md) このページ [!DNL Journey Optimizer] に記載されている具体的なガイドラインに従ってください。
 
 ## フォームコンポーネントの使用 {#use-form-component}
 

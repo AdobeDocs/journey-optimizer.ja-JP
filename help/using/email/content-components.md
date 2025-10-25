@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: コンポーネント, E メールデザイナー, エディター, メール
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
 workflow-type: tm+mt
-source-wordcount: '1401'
-ht-degree: 100%
+source-wordcount: '1448'
+ht-degree: 96%
 
 ---
 
@@ -41,6 +41,10 @@ ht-degree: 100%
 メールコンテンツを作成する際は、**[!UICONTROL コンテンツコンポーネント]**&#x200B;を使用すると、メールに配置して編集できる生のコンポーネントで、メールをさらにパーソナライズできます。
 
 メールのレイアウトを定義する 1 つ以上の構造コンポーネント内には、必要な数だけコンテンツコンポーネントを追加できます。
+
+>[!NOTE]
+>
+>[ 欧州アクセシビリティ法 ](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} は、すべてのデジタル通信がアクセス可能であるべきであると規定しています。 コンテンツコンポーネントを活用して [ でメールをデザインする場合、アクセシブルなフォントや読みやすい形式の使用、画像用の代替テキストの提供など、](accessible-content.md) このページ [!DNL Journey Optimizer] に記載されている特定のガイドラインに従っていることを確認してください。
 
 ## コンテンツコンポーネントの追加 {#add-content-components}
 
@@ -180,7 +184,7 @@ ht-degree: 100%
 1. 新しく追加したコンポーネントをクリックし、画像プロパティを設定します。
 
    * 「**[!UICONTROL 画像タイトル]** 」に画像のタイトルを入力します。
-   * **[!UICONTROL 代替テキスト]**&#x200B;を使用すると、画像にリンクするキャプションを設定できます。これは HTML の alt 属性に対応します。
+   * **[!UICONTROL 代替テキスト]**&#x200B;を使用すると、画像にリンクするキャプションを設定できます。これは、alt HTML属性に対応します。 [詳細情報](../email/accessible-content.md#alt-text)
 
    ![](assets/email_designer_10.png)
 

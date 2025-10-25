@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: ランディング, ランディングページ, デザイン, HTML
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 100%
+source-wordcount: '187'
+ht-degree: 85%
 
 ---
 
@@ -35,3 +35,5 @@ ht-degree: 100%
 >[!NOTE]
 >
 >ランディングページのコンテンツデザイナーは、E メールデザイナーと非常に似ています。詳しくは、[ [!DNL Journey Optimizer]](../email/get-started-email-design.md) でのコンテンツのデザインを参照してください。
+>
+>[ 欧州アクセシビリティ法 ](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} は、すべてのデジタル通信がアクセス可能であるべきであると規定しています。 [ でコンテンツをデザインする場合は、](../email/accessible-content.md) このページ [!DNL Journey Optimizer] に記載されている具体的なガイドラインに従ってください。

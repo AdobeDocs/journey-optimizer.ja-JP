@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: コンテンツ, エディター, メール, 開始
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: 50491d039f2baf8c30a6af0c1b59fe9041244ac7
+source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 97%
+source-wordcount: '700'
+ht-degree: 91%
 
 ---
 
@@ -60,7 +60,11 @@ ht-degree: 97%
 >abstract="Designer では、列構造を選択することで、テンプレートのレイアウトを簡単に定義できます。"
 
 
-Adobe Journey Optimizer Designer を使用して、コンテンツの構造を簡単に定義できます。単純なドラッグ＆ドロップ操作で構造要素を追加したり移動したりして、コンテンツの形を数秒でデザインすることができます。
+[!DNL Adobe Journey Optimizer] メールDesignerを使用して、コンテンツの構造を簡単に定義できます。 単純なドラッグ＆ドロップ操作で構造要素を追加したり移動したりして、コンテンツの形を数秒でデザインすることができます。
+
+>[!NOTE]
+>
+>[ 欧州アクセシビリティ法 ](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} は、すべてのデジタル通信がアクセス可能であるべきであると規定しています。 [ でコンテンツをデザインする場合は、](accessible-content.md) このページ [!DNL Journey Optimizer] に記載されている具体的なガイドラインに従ってください。
 
 コンテンツの作成を開始するには、次の手順に従います。
 

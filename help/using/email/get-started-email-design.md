@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: メール, デザイン, Stock, アセット
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: da82432dd15f19ac7db52f491e5afd5ba6d4e3d7
-workflow-type: ht
-source-wordcount: '609'
-ht-degree: 100%
+source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
+workflow-type: tm+mt
+source-wordcount: '654'
+ht-degree: 93%
 
 ---
 
@@ -41,6 +41,10 @@ ht-degree: 100%
 | 推奨 | 慎重に使用 | 推奨しない |
 |-|-|-|
 | <ul><li>構造用の<b>静的なテーブルベースのレイアウト</b></li> <li>レイアウトの一貫性を保つための <b>HTML テーブルとネストされたテーブル</b></li> <li><b>テンプレートの幅</b>は 600～800 ピクセル </li> <li>スタイル設定用の<b>シンプルなインライン CSS</b> </li> <li>ユニバーサル互換性のための <b>web セーフフォント</b></li> | <ul><li><b>背景画像</b>は、特定のメールプラットフォームでは表示されない場合があります。</li><li><b>カスタム web フォント</b>にはユニバーサルサポートがありません。</li><li><b>ワイドレイアウト</b>は、小さな画面では適切に表示されない場合があります。</li><li><b>画像マップ</b>の機能は限定的です。</li><li><b>埋め込み CSS</b> は、メール配信中に削除される場合があります。</li> | <ul><li><b>JavaScript</b> は、通常、メール環境ではサポートされていません。</li> <li> <b>`<iframe>`</b> タグは、ほとんどのプラットフォームでブロックされています。 </li> <li><b>Flash</b> は旧式で、サポートされなくなりました。</li> <li><b>埋め込みオーディオ</b>は、多くの場合、再生できません。</li> <li><b>埋め込みビデオ</b>は、多くのメールプラットフォームと互換性がありません。</li> <li> <b>Forms</b> は、メール内では機能しません。</li> <li> `<div>` レイヤ化はレンダリングの問題を引き起こす可能性があります。</li> |
+
+>[!NOTE]
+>
+>[ 欧州アクセシビリティ法 ](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} は、すべてのデジタル通信がアクセス可能であるべきであると規定しています。 この節に示すメールデザインのベストプラクティスに加えて、電子メールDesignerを使用してアクセシブルなコンテンツを構築する際に固有の [ このページ ](accessible-content.md) に記載されているガイドラインにも従ってください。
 
 ## メールコンテンツを作成するための主な手順 {#key-steps}
 
@@ -74,8 +78,8 @@ ht-degree: 100%
 
 メッセージエディターでメールコンテンツを作成する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416418?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 
 A/B テストを行うようにコンテンツ実験を設定し、ビジネス目標を最大限に推進するメールコンテンツを探索する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447332?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)
