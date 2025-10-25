@@ -8,10 +8,10 @@ role: Admin
 level: Experienced
 keywords: ランディング, ランディングページ, 設定, 環境, サブドメイン, プリセット
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 8e5a904f9310385f5a8186159dedde9942624268
+source-git-commit: 18ff50d9625e3e5be555b6ca274b2d7f61dd126e
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 100%
+source-wordcount: '411'
+ht-degree: 84%
 
 ---
 
@@ -60,15 +60,23 @@ ht-degree: 100%
 
    ![](assets/lp_preset-subdomain.png)
 
-   サブドメインを選択できるようにするには、1 つ以上のランディングページサブドメインが設定済みであることを確認します。[方法](#lp-subdomains)
+   >[!NOTE]
+   >
+   >サブドメインを選択できるようにするには、1 つ以上のランディングページサブドメインが設定済みであることを確認します。[方法](lp-subdomains.md)
 
    選択したサブドメインに対応する設定が表示されます。
 
-1. 「**[!UICONTROL ランディングページサブドメインと同じ]**」オプションをオンにすると、トラッキング URL のランディングページサブドメインを選択できます。[詳しくは、トラッキングを参照してください](../email/message-tracking.md)
+1. **[!UICONTROL トラッキング URL]** のランディングページサブドメインを選択するには、「**[!UICONTROL ランディングページサブドメインと同じ]**」オプションをオンにします。 [詳しくは、トラッキングを参照してください](../email/message-tracking.md)
 
    ![](assets/lp_preset-subdomain-settings-same.png)
 
    例えば、ランディングページの URL が「pages.mail.luma.com」で、トラッキング URL が「data.mail.luma.com」の場合、トラッキングサブドメインとして「pages.mail.luma.com」を使用するように選択できます。
+
+   >[!CAUTION]
+   >
+   >選択したランディングページのサブドメインは、**[!UICONTROL トラッキング URL]** を指定するために使用されます <!--and **[!UICONTROL Image Delivery URL]** --> そのサブドメインが [ 既存のサブドメインを使用して作成された場合 ](lp-subdomains.md#lp-use-existing-subdomain)。
+   >
+   >「[ 独自のドメインを追加 ](lp-subdomains.md#lp-configure-new-subdomain)」オプションを使用してサブドメインが作成された場合、代わりにプライマリサブドメイン（最初にデリゲートされたサブドメイン）が使用されます。
 
 1. 「**[!UICONTROL 送信]**」をクリックして、ランディングページプリセットの作成を確定します。<!--You can also save the preset as draft and resume its configuration later on.-->
 
