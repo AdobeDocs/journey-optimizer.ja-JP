@@ -153,15 +153,15 @@ Adobe Journey Optimizer エラーコードは、コンポーネントと問題�
 1. **情報の収集**：エラーコード、リクエスト ID、タイムスタンプ、再現手順を収集します
 2. **システムステータスの確認**：既知のサービスの問題については、[Adobe ステータス &#x200B;](https://status.adobe.com/ja){target="_blank"} を参照してください
 3. **ドキュメントを検索**：ソリューションの [Adobe Experience League](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=ja){target="_blank"} を確認する
-4. **コミュニティに参加**:[Adobe Journey Optimizer コミュニティに質問を投稿 &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} ます
+4. **コミュニティに参加**:[Adobe Journey Optimizer コミュニティに質問を投稿 &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"} ます
 5. **Adobe サポートへのお問い合わせ**：関連するすべての詳細を含むサポートチケットを送信します
 
 >[!NOTE]
 >
->このエラーコード参照は、新しいコードが識別されドキュメント化されると、継続的に更新されます。 最新情報については、[Adobe Journey Optimizer Community のブログ &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs){target="_blank"} を定期的に確認してください。
+>このエラーコード参照は、新しいコードが識別されドキュメント化されると、継続的に更新されます。 最新情報については、[Adobe Journey Optimizer Community のブログ &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs?profile.language=ja){target="_blank"} を定期的に確認してください。
 
 **関連トピック**
 
-* [Adobe Journey Optimizer エラーコードの説明：第 1 部 &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884){target="_blank"}
-* [Adobe Journey Optimizer エラーコードの説明：パート 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661){target="_blank"}
+* [Adobe Journey Optimizer エラーコードの説明：第 1 部 &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=ja){target="_blank"}
+* [Adobe Journey Optimizer エラーコードの説明：パート 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661?profile.language=ja){target="_blank"}
 
