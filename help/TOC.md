@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: bf6cc008acba9df44b239e8ac2425c9ffe700229
+source-git-commit: 6ab58b82f5c18f54d8857452d1f91ea96a55933b
 workflow-type: tm+mt
-source-wordcount: '2995'
-ht-degree: 98%
+source-wordcount: '2998'
+ht-degree: 97%
 
 ---
 
@@ -202,13 +202,6 @@ ht-degree: 98%
       + [配信を増やす](using/building-journeys/ramp-up-deliveries-uc.md)
       + [外部データソースとカスタムアクションを使用したスループットの制限](using/building-journeys/limit-throughput.md)
       + [カスタムアクションを使用した Experience Platform のジャーニーイベントの書き込み](using/building-journeys/custom-action-aep.md)
-   + トラブルシューティング {#troubleshoot-journey}
-      + [トラブルシューティング](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
-      + [エラーコードのリファレンス](using/building-journeys/error-codes-reference.md)
-      + [ジャーニーエラーのトラブルシューティング](using/building-journeys/troubleshooting.md)
-      + [ジャーニー実行のトラブルシューティング](using/building-journeys/troubleshooting-execution.md)
-      + [インバウンドアクションのトラブルシューティング](using/building-journeys/troubleshooting-inbound.md)
-      + [カスタムアクションのトラブルシューティング](using/action/troubleshoot-custom-action.md)
 + キャンペーン {#campaigns}
    + [キャンペーン](/help/rp_landing_pages/campaigns-landing-page.md)
    + [キャンペーンの基本を学ぶ](using/campaigns/get-started-with-campaigns.md)
@@ -278,7 +271,7 @@ ht-degree: 98%
          + [分割](using/orchestrated/activities/split.md)
          + [テスト](using/orchestrated/activities/test.md)
          + [待機](using/orchestrated/activities/wait.md)
-+ 競合管理と優先順位付け {#conflict-prioritization}
++ 競合と優先順位付け {#conflict-prioritization}
    + [競合管理と優先順位付け](/help/rp_landing_pages/conflict-prioritization-landing-page.md)
    + [競合管理と優先順位付けの基本を学ぶ](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [潜在的な競合の特定](using/conflict-prioritization/conflicts.md)
@@ -307,7 +300,15 @@ ht-degree: 98%
       + [承認ポリシーの作成と管理](using/test-approve/approval-policies.md)
       + [承認をリクエスト](using/test-approve/request-approval.md)
       + [リクエストの承認](using/test-approve/review-approve-request.md)
++ 監視とトラブルシューティング {#monitor}
+   + [監視とトラブルシューティング](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
    + [システムアラート](using/reports/alerts.md)
+   + [エラーコードのリファレンス](using/building-journeys/error-codes-reference.md)
+   + ジャーニートラブルシューティング {#troubleshoot-journey}
+      + [ジャーニーエラーのトラブルシューティング](using/building-journeys/troubleshooting.md)
+      + [ジャーニー実行のトラブルシューティング](using/building-journeys/troubleshooting-execution.md)
+      + [インバウンドアクションのトラブルシューティング](using/building-journeys/troubleshooting-inbound.md)
+      + [カスタムアクションのトラブルシューティング](using/action/troubleshoot-custom-action.md)
 + 通信チャネル {#channels}
    + [通信チャネルの概要](using/channels/gs-channels.md)
    + メールチャネル {#email}
@@ -974,7 +975,7 @@ ht-degree: 98%
    + [プライバシー](/help/rp_landing_pages/privacy-landing-page.md)
    + [プライバシーの基本を学ぶ](using/privacy/get-started-privacy.md)
    + [プライバシーリクエスト](using/privacy/requests.md)
-   + [&#x200B; リソースに対する監査アクション](using/privacy/audit-logs.md)
+   + [ リソースに対する監査アクション](using/privacy/audit-logs.md)
    + [データライフサイクル操作の実行](using/privacy/data-hygiene.md)
    + 同意を管理 {#consent}
       + [同意を管理](/help/rp_landing_pages/consent-landing-page.md)

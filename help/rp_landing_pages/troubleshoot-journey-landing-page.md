@@ -5,10 +5,10 @@ title: トラブルシューティング
 description: トラブルシューティング
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
-source-git-commit: bf6cc008acba9df44b239e8ac2425c9ffe700229
+source-git-commit: 6ab58b82f5c18f54d8857452d1f91ea96a55933b
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 87%
+source-wordcount: '270'
+ht-degree: 68%
 
 ---
 
@@ -21,7 +21,27 @@ ht-degree: 87%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+
+システムアラートへのアクセスと登録
+
+ジャーニーとキャンペーンで、システムアラートにアクセスする方法、通知を購読する方法、重要なイベントを監視する方法について説明します。
+
+[システムアラートへのアクセス](../using/reports/alerts.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+
+エラーコード リファレンス
+
+Adobe Journey Optimizerの一般的なエラーコードを理解し、ジャーニー、キャンペーンおよびメッセージ全体にわたる問題の迅速な解決策を見つけます。
+
+[エラーコードのリファレンスの表示](../using/building-journeys/error-codes-reference.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 ジャーニーをテストまたは公開する前のエラーのトラブルシューティング
 
@@ -31,7 +51,7 @@ ht-degree: 87%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer でのライブジャーニー実行のトラブルシューティング
 
@@ -41,7 +61,7 @@ Adobe Journey Optimizer でのライブジャーニー実行のトラブルシ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Adobe Journey Optimizer ジャーニーでのインバウンドアクションのトラブルシューティング
 
@@ -51,7 +71,7 @@ Adobe Journey Optimizer ジャーニーでのインバウンドアクション�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Adobe Journey Optimizer でのカスタムアクションのトラブルシューティング
 
@@ -60,14 +80,10 @@ Adobe Journey Optimizer でのカスタムアクションのトラブルシュ�
 [カスタムアクションの検証](../using/action/troubleshoot-custom-action.md)
 :::
 
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
-
-エラーコード リファレンス
-
-Adobe Journey Optimizerの一般的なエラーコードを理解し、ジャーニー、キャンペーンおよびメッセージ全体にわたる問題の迅速な解決策を見つけます。
-
-[エラーコードのリファレンスの表示](../using/building-journeys/error-codes-reference.md)
-:::
-
 ::::
+
+## その他のリソース
+
+* [ジャーニーに関する FAQ](../using/building-journeys/journey-faq.md) - ジャーニーに関するよくある質問に対する包括的な回答です。ジャーニーのタイプ、実行、設定、ベストプラクティスのトラブルシューティングについて説明しています。
+
+* [ ガードレールと制限事項 ](../using/start/guardrails.md) - Journey Optimizerのガードレール、製品の制限事項、パフォーマンスに関する考慮事項、サポートされているブラウザーについて説明して、最適な使用方法を確認します。
