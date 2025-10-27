@@ -5,10 +5,10 @@ title: Adobe Journey Optimizerの AI 機能
 description: Adobe Journey Optimizerの AI 機能
 hide: true
 hidefromtoc: true
-source-git-commit: 9d0460d303a3701ad7ff5b7f2487ac6ccdd6facd
+source-git-commit: 2b377fea2f54c15d04fd0fc16633951c58598580
 workflow-type: tm+mt
 source-wordcount: '1013'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizerは、人工知能と機械学習の力を活用して、
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/sparkles.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 コンテンツ生成用 AI アシスタント
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizerは、人工知能と機械学習の力を活用して、
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 送信時間の最適化
 
@@ -40,7 +40,7 @@ AI を使用して、メッセージの送信に最適な時間を予測し、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/data.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 意思決定の AI モデル
 
@@ -50,7 +50,7 @@ AI を使用して、メッセージの送信に最適な時間を予測し、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/help.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 AI アシスタントの製品知識
 
@@ -60,7 +60,7 @@ AI アシスタントの製品知識
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/experiment.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 AI を使用したコンテンツ実験
 
@@ -70,7 +70,7 @@ AI を使用したコンテンツ実験
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user-group.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 顧客 AI 統合
 
@@ -170,7 +170,7 @@ AI アシスタントをコンテンツの生成に使用するには、ユー�
 
 +++**AI 機能を使用するには、何らかの条件に同意する必要がありますか？**
 
-はい、Journey Optimizerで AI アシスタントを使用する前に、[Adobe Experience Cloud ジェネレーティブ AI ユーザーガイドライン &#x200B;](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) に同意する必要があります。 詳しくは、Adobe担当者にお問い合わせください。 さらに、Adobeは、生成される AI の使用における透明性への取り組みの一環として、Fireflyで生成されたアセットにContent Credentialsを適用します。
+はい、Journey Optimizerで AI アシスタントを使用する前に、[Adobe Experience Cloud ジェネレーティブ AI ユーザーガイドライン ](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) に同意する必要があります。 詳しくは、Adobe担当者にお問い合わせください。 さらに、Adobeは、生成される AI の使用における透明性への取り組みの一環として、Fireflyで生成されたアセットにContent Credentialsを適用します。
 
 +++
 
