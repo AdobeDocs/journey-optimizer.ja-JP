@@ -30,7 +30,7 @@ Adobe Journey Optimizerは、人工知能と機械学習の力を活用して、
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ja)
 
 送信時間の最適化
 
@@ -70,7 +70,7 @@ AI を使用したコンテンツ実験
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user-group.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/user-group.svg?lang=ja)
 
 顧客 AI 統合
 
