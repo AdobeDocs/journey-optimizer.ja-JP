@@ -5,10 +5,10 @@ title: コンテンツ管理
 description: コンテンツ管理
 redpen-status: CREATED_||_2025-08-12_00-44-43
 exl-id: 159ae1bf-e1bd-48c7-b91b-2ac8bdfffaf2
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: b8c2b05df22e4aa78ea95e47e1554c9d538dfc0f
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 100%
+source-wordcount: '267'
+ht-degree: 97%
 
 ---
 
@@ -20,9 +20,9 @@ Adobe Journey Optimizer のコンテンツ管理機能を使用すると、キ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-Adobe Journey Optimizer のパーソナライゼーション
+Personalizationを追加
 
 パーソナライゼーション機能を実装および最適化して、カスタマイズされたカスタマーエクスペリエンスを作成する方法について説明します。
 
@@ -30,9 +30,9 @@ Adobe Journey Optimizer のパーソナライゼーション
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Adobe Journey Optimizer のランディングページ
+ランディングページの作成
 
 マーケティングキャンペーンのランディングページを作成、管理、最適化するツールとチュートリアルについて説明します。
 
@@ -40,9 +40,9 @@ Adobe Journey Optimizer のランディングページ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Adobe Journey Optimizer のコンテンツテンプレート
+コンテンツテンプレート
 
 効率的なキャンペーンとジャーニー管理において、再利用可能なテンプレートを使用して、コンテンツ作成を効率化します。
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer のコンテンツテンプレート
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 再利用可能なコンテンツフラグメント
 
@@ -60,9 +60,9 @@ Adobe Journey Optimizer のコンテンツテンプレート
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-Adobe Journey Optimizer の動的コンテンツ
+動的コンテンツを作成
 
 条件付きルールを使用して、メール、SMS、プッシュ通知用の動的でパーソナライズされたコンテンツを作成します。
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer の動的コンテンツ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 クロスソリューションのユースケース
 
