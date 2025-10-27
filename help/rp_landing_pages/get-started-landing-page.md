@@ -5,22 +5,24 @@ title: 基本を学ぶ
 description: 基本を学ぶ
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
-source-git-commit: 08599d8a9249115a4ce7f339b3565b7805db83e4
+source-git-commit: f116775dfa5bb46857c5e9401a291b46105ebcca
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 78%
+source-wordcount: '352'
+ht-degree: 54%
 
 ---
 
 # 基本を学ぶ{#section-overview}
 
-Adobe Journey Optimizer は、企業が複数のチャネルをまたいでパーソナライズされたリアルタイムのカスタマーエクスペリエンスを作成できるので、適切なメッセージを適切なタイミングでお客様に送信するのに役立ちます。複雑なカスタマージャーニーの調整、AI 駆動型の意思決定の活用、コンテンツとデータのシームレスな管理など、このプラットフォームでは、すべてのインタラクションを最適化するツールを提供します。この節では、オムニチャネルオーケストレーション、リアルタイムのインサイト、インテリジェントな決定などの主な機能がどのように連携して影響力のある結果をもたらすかについて説明します。各トピックでは段階的に理解を深めることができるので、Adobe Journey Optimizer が顧客エンゲージメントを動的でデータ駆動型のプロセスに変換する仕組みを簡単に理解できます。
+Adobe Journey Optimizerを使用すると、すべてのチャネルにわたって、パーソナライズされたリアルタイムのカスタマーエクスペリエンスを提供できます。 適切なメッセージを適切なタイミングで提供することで、お客様の現在の状況に対応します。
+
+ここでは、オムニチャネルオーケストレーションや AI に基づく意思決定から、シームレスなコンテンツおよびデータ管理に至るまで、プラットフォームのコア機能について説明します。 これらの強力なツールが連携して、すべての顧客インタラクションを最適化する仕組みを学ぶことができます。 各トピックは最後のトピックに基づいており、動的でデータ駆動型の方法で顧客エンゲージメントを習得へとステップバイステップで導きます。
 
 ## Adobe Journey Optimizer の基本を学ぶ
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 主な機能
 
@@ -30,7 +32,7 @@ Adobe Journey Optimizer は、企業が複数のチャネルをまたいでパ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 アーキテクチャの概要
 
@@ -40,7 +42,7 @@ Adobe Journey Optimizer と Adobe Experience Platform を統合して、デー�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 役割と責務
 
@@ -50,7 +52,7 @@ Adobe Journey Optimizer を効果的に実装および管理するのに必要�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 ユーザーインターフェイスの概要
 
@@ -60,7 +62,7 @@ Adobe Journey Optimizer インターフェイスを操作し、ジャーニー�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 コンテンツの検索、フィルタリング、整理
 
@@ -70,7 +72,7 @@ Adobe Journey Optimizer インターフェイスを操作し、ジャーニー�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 ガードレールと制限
 
