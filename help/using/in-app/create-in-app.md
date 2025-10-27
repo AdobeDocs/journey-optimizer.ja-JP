@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: アプリ内, メッセージ, 作成, 開始
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: da7d895fcc724e6b1c0d6480f6a8693037a03752
+source-git-commit: 71b12ea083d72597c65e8fb2dc3424ffafa77462
 workflow-type: tm+mt
-source-wordcount: '2056'
-ht-degree: 99%
+source-wordcount: '2076'
+ht-degree: 97%
 
 ---
 
@@ -110,7 +110,7 @@ ht-degree: 99%
    1. アプリ内メッセージがアクティブな場合のトリガーの頻度を選択します。
 
       * **[!UICONTROL 毎回表示する]**：**[!UICONTROL モバイルアプリトリガー]**&#x200B;ドロップダウンで選択したイベントが発生した場合に、常にメッセージを表示します。
-      * **[!UICONTROL 1 度だけ表示]**：**[!UICONTROL モバイルアプリトリガー]**&#x200B;ドロップダウンで選択したイベントが初めて発生した場合にのみ、このメッセージを表示します。
+      * **[!UICONTROL 1 回表示]**：このメッセージは、ユーザーセッションごとに 1 回だけ表示され、閉じられるまですべてのウィンドウまたはアクティビティで表示されます。 特定の画面に制限したり、自動的に解除したりするには、メッセージデリゲートでカスタムロジックを使用します。
       * **[!UICONTROL クリックスルーまで表示]**：**[!UICONTROL モバイルアプリトリガー]**&#x200B;ドロップダウンで選択したイベントが、「クリック」アクションで SDK によって操作イベントが送信されるまでに発生した場合に、このメッセージが表示されます。
 
 1. 必要に応じて、追加のアクションまたはイベントをドラッグ＆ドロップして、ジャーニーフローを完了します。[詳細情報](../building-journeys/about-journey-activities.md)
@@ -236,7 +236,7 @@ ht-degree: 99%
 
   +++こちらのビデオをご覧ください
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3451883?quality=12&learn=on&captions=jpn)
+  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
   +++
 
@@ -244,7 +244,7 @@ ht-degree: 99%
 
   +++こちらのビデオをご覧ください
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3445289/?learn=on&autoplay=true&captions=jpn)
+  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
 
   +++
 
@@ -252,7 +252,7 @@ ht-degree: 99%
 
   +++こちらのビデオをご覧ください
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3451830/?learn=on&autoplay=true&captions=jpn)
+  >[!VIDEO](https://video.tv.adobe.com/v/3423077/?learn=on&autoplay=true)
 
   +++
 
