@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 584d860d0908f354389037be860757dabe1c1e3f
+source-git-commit: ef395b65a92fea235811b595cca9bf73f9e78022
 workflow-type: tm+mt
-source-wordcount: '2998'
+source-wordcount: '2999'
 ht-degree: 97%
 
 ---
@@ -48,7 +48,6 @@ ht-degree: 97%
    + [AI アシスタントの操作](using/start/ai-assistant.md)
    + [ユースケースプレイブック](using/start/playbooks.md)
    + [ガードレールと制限事項](using/start/guardrails.md)
-   + [トラブルシューティング](using/start/troubleshooting.md)
 + ジャーニー {#orchestrate-journeys}
    + [ジャーニー](/help/rp_landing_pages/orchestrate-journeys-landing-page.md)
    + [ジャーニーの基本を学ぶ](using/building-journeys/journey.md)
@@ -304,6 +303,7 @@ ht-degree: 97%
    + [監視とトラブルシューティング](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
    + [システムアラート](using/reports/alerts.md)
    + [エラーコードのリファレンス](using/building-journeys/error-codes-reference.md)
+   + [トラブルシューティング記事](using/start/troubleshooting.md)
    + ジャーニーのトラブルシューティング {#troubleshoot-journey}
       + [ジャーニーエラーのトラブルシューティング](using/building-journeys/troubleshooting.md)
       + [ジャーニー実行のトラブルシューティング](using/building-journeys/troubleshooting-execution.md)
@@ -975,7 +975,7 @@ ht-degree: 97%
    + [プライバシー](/help/rp_landing_pages/privacy-landing-page.md)
    + [プライバシーの基本を学ぶ](using/privacy/get-started-privacy.md)
    + [プライバシーリクエスト](using/privacy/requests.md)
-   + [&#x200B; リソースに対する監査アクション](using/privacy/audit-logs.md)
+   + [ リソースに対する監査アクション](using/privacy/audit-logs.md)
    + [データライフサイクル操作の実行](using/privacy/data-hygiene.md)
    + 同意を管理 {#consent}
       + [同意を管理](/help/rp_landing_pages/consent-landing-page.md)

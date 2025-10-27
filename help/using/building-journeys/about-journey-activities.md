@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 keywords: ジャーニー, アクティビティ, 開始, イベント, アクション
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 version: Journey Orchestration
-source-git-commit: 9336b77e5b7682923dca6e95f0ede67c0d9b0f85
-workflow-type: ht
-source-wordcount: '718'
-ht-degree: 100%
+source-git-commit: ef395b65a92fea235811b595cca9bf73f9e78022
+workflow-type: tm+mt
+source-wordcount: '722'
+ht-degree: 99%
 
 ---
 
@@ -118,3 +118,5 @@ ht-degree: 100%
 ジャーニーをテストおよび公開する前に、すべてのアクティビティが正しく設定されていることを確認します。システムでエラーが検出される場合は、テストまたは公開を実行できません。
 
 アクティビティとジャーニーでのエラーのトラブルシューティング方法について詳しくは、[このページ](troubleshooting.md)を参照してください。
+
+**[監視とトラブルシューティング](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)** も参照してください。
