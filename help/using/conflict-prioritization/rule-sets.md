@@ -124,7 +124,7 @@ ht-degree: 87%
 
    * [ジャーニーのキャップ](../conflict-prioritization/journey-capping.md)
    * [チャネルと通信タイプによるフリークエンシーキャップ](../conflict-prioritization/channel-capping.md)
-   * [ 待ち時間 ](../conflict-prioritization/quiet-hours.md) （限定提供）
+   * [&#x200B; 待ち時間 &#x200B;](../conflict-prioritization/quiet-hours.md) （限定提供）
 
 1. 「**[!UICONTROL 保存]**」をクリックして、ルールの作成を確定します。メッセージが、**[!UICONTROL ドラフト]**&#x200B;ステータスでルールリストに追加されます。
 
