@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: ジャーニー, Discover, 開始
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 05b8e6c4500d5ec3b6c2c3b0230499a369c8d8ac
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 100%
+source-wordcount: '416'
+ht-degree: 93%
 
 ---
 
@@ -51,4 +51,11 @@ Journey Optimizer ジャーニーデザイナーには、マーケターやジ�
 
 ジャーニーのコンポーネントを把握し、キャンバスでのジャーニー構築の基本を理解します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430350?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
+
+## その他のリソース {#additional-resources}
+
+* [ジャーニーに関する FAQ](journey-faq.md) - ジャーニーに関するよくある質問
+* [ エラーコードのリファレンス ](error-codes-reference.md) - ジャーニーエラーコードとトラブルシューティング手順
+* [ アラート ](../reports/alerts.md) - ジャーニー監視用のアラートの設定
+* [ トラブルシューティング ](troubleshooting.md) - ジャーニーに関する一般的な問題と解決策
