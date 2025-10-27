@@ -1,20 +1,20 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journey Optimizer のトラブルシューティング
-description: Journey Optimizerのトラブルシューティングの質問
+title: Journey Optimizerのトラブルシューティング記事
+description: Journey Optimizerのトラブルシューティング記事
 feature: Get Started
 role: User
 level: Intermediate
 exl-id: f8acb987-5c6e-4545-93b9-fdfc0d74db57
-source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
+source-git-commit: eb3cd3f6fa096b6203e4ba54fbfc06f542d16c82
 workflow-type: tm+mt
-source-wordcount: '2746'
+source-wordcount: '2748'
 ht-degree: 97%
 
 ---
 
-# トラブルシューティング {#ajo-troubleshooting}
+# トラブルシューティング記事 {#ajo-troubleshooting}
 
 次は、Adobe Journey Optimizer のトラブルシューティング記事のリストです。各トラブルシューティングセクションでは、よくある質問への回答と問題に対する解決策を提供します。
 
@@ -201,7 +201,7 @@ Adobe Journey Optimizer では、ジャーニーで&#x200B;**プロファイル�
 
 この問題の解決手順について詳しくは、[このトラブルシューティング記事](https://experienceleague.adobe.com/ja/docs/experience-cloud-kcs/kbarticles/ka-26253){target="_blank"}を参照してください。
 
-詳しくは、[この Journey Optimizer コミュニティの投稿](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998?profile.language=ja){target="_blank"}を参照してください。
+詳しくは、[この Journey Optimizer コミュニティの投稿](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998){target="_blank"}を参照してください。
 
 毎日のジョブがスケジュールされるタイミングを確認するには、[Adobe Experience Platform Schedules API ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/api/schedules?lang=ja){target="_blank"}も参照してください。
 
@@ -331,7 +331,7 @@ Journey Throttling API について詳しくは、[このページ](../configura
 
 このエラーを解決するには、管理者に問い合わせて、ユーザープロファイルがオーディエンスの公開に必要なデータビューにアクセスできることを確認してから、オーディエンスを再度公開してみてください。
 
-この問題を解決する手順については、[&#x200B; 権限のドキュメント &#x200B;](../administration/permissions.md){target="_blank"} を参照してください。
+この問題を解決する手順については、[ 権限のドキュメント ](../administration/permissions.md){target="_blank"} を参照してください。
 
 +++
 
