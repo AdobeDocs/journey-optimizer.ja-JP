@@ -5,10 +5,10 @@ title: トラブルシューティング
 description: トラブルシューティング
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: bf6cc008acba9df44b239e8ac2425c9ffe700229
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 100%
+source-wordcount: '203'
+ht-degree: 87%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 ジャーニーをテストまたは公開する前のエラーのトラブルシューティング
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer でのライブジャーニー実行のトラブルシューティング
 
@@ -41,7 +41,7 @@ Adobe Journey Optimizer でのライブジャーニー実行のトラブルシ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Adobe Journey Optimizer ジャーニーでのインバウンドアクションのトラブルシューティング
 
@@ -51,7 +51,7 @@ Adobe Journey Optimizer ジャーニーでのインバウンドアクション�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Adobe Journey Optimizer でのカスタムアクションのトラブルシューティング
 
@@ -60,8 +60,14 @@ Adobe Journey Optimizer でのカスタムアクションのトラブルシュ�
 [カスタムアクションの検証](../using/action/troubleshoot-custom-action.md)
 :::
 
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+
+エラーコード リファレンス
+
+Adobe Journey Optimizerの一般的なエラーコードを理解し、ジャーニー、キャンペーンおよびメッセージ全体にわたる問題の迅速な解決策を見つけます。
+
+[エラーコードのリファレンスの表示](../using/building-journeys/error-codes-reference.md)
+:::
+
 ::::
-
-### その他のリソース
-
-さらに、一般的なエラーコードとその効果的な解決方法を詳しく説明した[こちらのアドビコミュニティのブログ投稿](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=ja)も参照してください。
