@@ -170,7 +170,7 @@ AI アシスタントをコンテンツの生成に使用するには、ユー�
 
 +++**AI 機能を使用するには、何らかの条件に同意する必要がありますか？**
 
-はい、Journey Optimizerで AI アシスタントを使用する前に、[Adobe Experience Cloud ジェネレーティブ AI ユーザーガイドライン ](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) に同意する必要があります。 詳しくは、Adobe担当者にお問い合わせください。 さらに、Adobeは、生成される AI の使用における透明性への取り組みの一環として、Fireflyで生成されたアセットにContent Credentialsを適用します。
+はい、Journey Optimizerで AI アシスタントを使用する前に、[Adobe Experience Cloud ジェネレーティブ AI ユーザーガイドライン &#x200B;](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) に同意する必要があります。 詳しくは、Adobe担当者にお問い合わせください。 さらに、Adobeは、生成される AI の使用における透明性への取り組みの一環として、Fireflyで生成されたアセットにContent Credentialsを適用します。
 
 +++
 
