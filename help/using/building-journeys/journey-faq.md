@@ -11,9 +11,9 @@ keywords: ジャーニー，質問，回答，トラブルシューティング�
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 0b4dc91b945d17647029d89e294221ff97a26881
+source-git-commit: aece514b3ce21fa7b7a7ada546b4757ce00fa912
 workflow-type: tm+mt
-source-wordcount: '4938'
+source-wordcount: '4568'
 ht-degree: 2%
 
 ---
@@ -31,7 +31,7 @@ Adobe Journey Optimizer ジャーニーに関するよくある質問を以下�
 
 ジャーニーは、複数のチャネルをまたいでリアルタイムの顧客体験を設計および実行できる複数手順のオーケストレーションです。 ジャーニーは、イベント、オーケストレーションアクティビティ、アクション、メッセージを組み合わせて、顧客行動やビジネスイベントに基づいてパーソナライズされたコンテキストに沿ったエクスペリエンスを作成します。
 
-[&#x200B; ジャーニー &#x200B;](journey.md) の詳細情報。
+[ ジャーニー ](journey.md) の詳細情報。
 
 +++
 
@@ -44,7 +44,7 @@ Adobe Journey Optimizerでは、次の 4 種類のジャーニーをサポート
 * **オーディエンスの選定ジャーニー**：プロファイルが特定のオーディエンスセグメントに適合する（または離脱する）場合にトリガーされます。 プロファイルは、オーディエンス条件を満たすとジャーニーにエントリします。
 * **ビジネスイベントジャーニー**：複数のプロファイルに同時に影響を与えるビジネスイベント（株価アップデート、天気アラートなど）によってトリガーされます。
 
-詳しくは、[&#x200B; ジャーニータイプ &#x200B;](entry-management.md#types-of-journeys) を参照してください。
+詳しくは、[ ジャーニータイプ ](entry-management.md#types-of-journeys) を参照してください。
 
 +++
 
@@ -58,7 +58,7 @@ Adobe Journey Optimizerでは、次の 4 種類のジャーニーをサポート
 * **[API トリガーキャンペーン](../campaigns/api-triggered-campaigns.md)**:API 呼び出しを介してトリガーされるキャンペーン。外部システムと統合して、リアルタイムイベントまたはビジネスロジックに基づいてメッセージを送信できます。
 * **[オーケストレートキャンペーン](../orchestrated/gs-orchestrated-campaigns.md)**：条件、待機時間、複数のアクションを含め、スケジュールに沿って調整されたエクスペリエンスを作成できる、キャンバス上に作成された複数ステップのオーディエンスベースのキャンペーンです。
 
-**ベストプラクティス**：高度なオーケストレーションを伴う複雑なイベントトリガーエンゲージメントには [&#x200B; ジャーニー &#x200B;](journey.md) を、スケジュールされたオーディエンスベースの通信には [&#x200B; アクションキャンペーン &#x200B;](../campaigns/create-campaign.md)、外部システムからプログラムでトリガーする [API トリガーキャンペーン &#x200B;](../campaigns/api-triggered-campaigns.md)、キャンペーン固有の要件を持つ複数手順の通信には [&#x200B; オーケストレートキャンペーン &#x200B;](../orchestrated/gs-orchestrated-campaigns.md) を使用します。
+**ベストプラクティス**：高度なオーケストレーションを伴う複雑なイベントトリガーエンゲージメントには [ ジャーニー ](journey.md) を、スケジュールされたオーディエンスベースの通信には [ アクションキャンペーン ](../campaigns/create-campaign.md)、外部システムからプログラムでトリガーする [API トリガーキャンペーン ](../campaigns/api-triggered-campaigns.md)、キャンペーン固有の要件を持つ複数手順の通信には [ オーケストレートキャンペーン ](../orchestrated/gs-orchestrated-campaigns.md) を使用します。
 
 +++
 
@@ -72,66 +72,69 @@ Adobe Journey Optimizerでは、次の 4 種類のジャーニーをサポート
 * **組み込みのチャネルアクション**：メール、SMS、プッシュなどのチャネルに対応するネイティブメッセージ機能
 * **カスタムアクション**：サードパーティシステムとの統合
 
-詳しくは、[&#x200B; ジャーニーアクティビティ &#x200B;](about-journey-activities.md) を参照してください。
+詳しくは、[ ジャーニーアクティビティ ](about-journey-activities.md) を参照してください。
 
 +++
 
-+++ ジャーニーでサポートされているオーディエンスのタイプとその制限を教えてください。
+<!-- WAITING FOR VALIDATION
 
-Adobe Journey Optimizerでは、それぞれ異なる特性とガードレールを持つ、次の 3 種類のオーディエンスをサポートしています。
++++ What types of audiences are supported in journeys and what are their limitations?
 
-**1.ストリーミングオーディエンス**
+Adobe Journey Optimizer supports three types of audiences, each with different characteristics and guardrails:
 
-* **説明**：プロファイルデータの変更に応じてリアルタイムで評価されるオーディエンス
-* **評価**：プロファイル属性またはイベントがセグメント条件に一致する場合の継続的な評価
-* **ジャーニー使用量**：オーディエンスを読み取り、オーディエンスの選定、条件の各アクティビティでサポートされています
-* **最適な対象**：行動の変更やプロファイルの更新に基づくリアルタイムエンゲージメント
-* **ガードレール**:
-   * 最大オーディエンスサイズは、Journey Optimizerのライセンスによって異なります
-   * 評価待ち時間は通常 5 分未満
-   * 複雑なセグメントロジックは、評価パフォーマンスに影響を与える場合があります
+**1. Streaming audiences**
 
-**2. バッチオーディエンス**
+* **Description**: Audiences that evaluate in real-time as profile data changes
+* **Evaluation**: Continuous evaluation when profile attributes or events match segment criteria
+* **Journey usage**: Supported in Read Audience, Audience Qualification, and Condition activities
+* **Best for**: Real-time engagement based on behavioral changes or profile updates
+* **Guardrails**:
+  * Maximum audience size depends on your Journey Optimizer license
+  * Evaluation latency typically under 5 minutes
+  * Complex segment logic may impact evaluation performance
 
-* **説明**：スケジュールに基づいて評価されるオーディエンス（通常は毎日）
-* **評価**：スケジュールされた間隔でバッチジョブで処理
-* **ジャーニーの使用状況**：オーディエンスを読み取りアクティビティと条件アクティビティでサポートされます。オーディエンスの選定ジャーニーでは限定的にサポートされます
-* **最適な対象**：通常のキャンペーン、ニュースレター、スケジュールされた通信
-* **ガードレール**:
-   * 評価は 1 日に 1 回（デフォルト）または設定したスケジュールで行われます
-   * プロファイルは、次の評価までリアルタイムの変更を反映しない場合があります
-   * オーディエンスを読み取りアクティビティで、大きなバッチオーディエンスを効率的に処理できます
+**2. Batch audiences**
 
-**3.オーディエンスのアップロード（カスタムアップロード）**
+* **Description**: Audiences evaluated on a scheduled basis (typically daily)
+* **Evaluation**: Processed in batch jobs at scheduled intervals
+* **Journey usage**: Supported in Read Audience and Condition activities; limited support in Audience Qualification journeys
+* **Best for**: Regular campaigns, newsletters, scheduled communications
+* **Guardrails**:
+  * Evaluation occurs once per day (default) or at configured schedule
+  * Profiles may not reflect real-time changes until next evaluation
+  * Read Audience activity can process large batch audiences efficiently
 
-* **説明**：プロファイル識別子を含む CSV ファイルをアップロードして作成されたオーディエンス
-* **評価**：新しいファイルがアップロードされたときにのみ更新される静的リスト
-* **ジャーニーの使用状況**：オーディエンスを読み取りアクティビティと条件アクティビティではサポートされています。オーディエンスの選定ジャーニーでは **サポートされていません**
-* **最適な対象**:1 回限りのキャンペーン、外部リストのインポート、ターゲット通信
-* **ガードレール**:
-   * CSV ファイルサイズの制限が適用されます（現在の制限については、製品ドキュメントを確認してください）
-   * オーディエンスメンバーは、新しいアップロードで更新されるまで静的です
-   * ID 名前空間はジャーニー名前空間と一致する必要があります
-   * プロファイルはAdobe Experience Platformに存在する必要があります
+**3. Upload audiences (Custom upload)**
 
-**ジャーニー固有の考慮事項**:
+* **Description**: Audiences created by uploading CSV files with profile identifiers
+* **Evaluation**: Static list updated only when new files are uploaded
+* **Journey usage**: Supported in Read Audience and Condition activities; **not supported** in Audience Qualification journeys
+* **Best for**: One-time campaigns, external list imports, targeted communications
+* **Guardrails**:
+  * CSV file size limits apply (check product documentation for current limits)
+  * Audience members are static until refreshed with new upload
+  * Identity namespace must match journey namespace
+  * Profiles must exist in Adobe Experience Platform
 
-* **オーディエンスジャーニーを読み取り**:3 つのオーディエンスタイプがすべてサポートされます。バッチ書き出しは、ジャーニーの実行時に行われます
-* **オーディエンスの選定ジャーニー**：ストリーミングオーディエンスの推奨、バッチオーディエンスの選定検出の遅延、オーディエンスのアップロードはサポートされていません
-* **条件アクティビティ**：すべてのオーディエンスタイプを使用して、メンバーシップを確認できます
-* **名前空間の整合性**：オーディエンス ID 名前空間は、適切なプロファイル識別のために、ジャーニーの名前空間と一致する必要があります
+**Journey-specific considerations**:
 
-**ベストプラクティス**:
+* **Read Audience journeys**: All three audience types supported; batch export occurs when journey runs
+* **Audience Qualification journeys**: Streaming audiences recommended; batch audiences have delayed qualification detection; upload audiences not supported
+* **Condition activities**: All audience types can be used to check membership
+* **Namespace alignment**: Audience identity namespace must match the journey's namespace for proper profile identification
 
-* 即座の応答を必要とするリアルタイムのイベント駆動型ジャーニーに **ストリーミングオーディエンス** を使用
-* 毎日の評価で十分な、スケジュールされた通信への **バッチオーディエンス** の使用
-* 外部リストを使用したターゲット設定の 1 回限りのキャンペーンには、**オーディエンスをアップロード** を使用します
-* 大規模デプロイメントでのオーディエンスサイズと評価パフォーマンスの監視
-* ジャーニーのタイミングとエントリ条件を設計する際は、オーディエンスの更新頻度を考慮します
+**Best practices**:
 
-[&#x200B; オーディエンス &#x200B;](../audience/about-audiences.md)、[&#x200B; セグメントの作成 &#x200B;](../audience/creating-a-segment-definition.md) および [&#x200B; カスタムアップロードオーディエンス &#x200B;](../audience/custom-upload.md) について説明します。
+* Use **streaming audiences** for real-time, event-driven journeys requiring immediate response
+* Use **batch audiences** for scheduled communications where daily evaluation is sufficient
+* Use **upload audiences** for targeted one-time campaigns with external lists
+* Monitor audience size and evaluation performance in large-scale deployments
+* Consider audience refresh rates when designing journey timing and entry conditions
+
+Learn more about [audiences](../audience/about-audiences.md), [creating segments](../audience/creating-a-segment-definition.md), and [custom upload audiences](../audience/custom-upload.md).
 
 +++
+-->
 
 +++ 単一ジャーニーとオーディエンスを読み取りジャーニーはどのように選択すればよいですか？
 
@@ -163,7 +166,7 @@ Adobe Journey Optimizerでは、それぞれ異なる特性とガードレール
 6. **ジャーニーのドライラン**：ドライランを使用すると、実際の顧客に連絡したりプロファイル情報を更新したりせずに、実際の実稼動データを使用してジャーニーをテストできます
 7. **ジャーニーの公開**：ジャーニーをアクティブ化してライブにする
 
-[&#x200B; ステップバイステップガイド &#x200B;](journey-gs.md) に従います。
+[ ステップバイステップガイド ](journey-gs.md) に従います。
 
 +++
 
@@ -176,7 +179,7 @@ Adobe Journey Optimizerでは、それぞれ異なる特性とガードレール
 * **データエンリッチメント**：追加情報を取得するデータソースを設定します
 * **サードパーティ統合**：外部システムを使用する場合のカスタムアクションの設定
 
-詳しくは、[&#x200B; ジャーニー設定 &#x200B;](../configuration/about-data-sources-events-actions.md) を参照してください。
+詳しくは、[ ジャーニー設定 ](../configuration/about-data-sources-events-actions.md) を参照してください。
 
 +++
 
@@ -192,7 +195,7 @@ Adobe Journey Optimizerでは、それぞれ異なる特性とガードレール
 
 これらのオプションを使用すると、CRM、ロイヤルティシステム、気象サービス、その他の外部プラットフォームのデータでカスタマーエクスペリエンスを強化できます。
 
-[&#x200B; カスタムアクション &#x200B;](using-custom-actions.md) および [&#x200B; データセットルックアップ &#x200B;](dataset-lookup.md) について説明します。
+[ カスタムアクション ](using-custom-actions.md) および [ データセットルックアップ ](dataset-lookup.md) について説明します。
 
 +++
 
@@ -204,7 +207,7 @@ Adobe Journey Optimizerでは、それぞれ異なる特性とガードレール
 * プロファイル属性、オーディエンスメンバーシップ、イベントまたはコンテキストデータに基づいて、ジャーニーを複数のパスに分割します
 * 指定した時間内に条件を満たさないプロファイルのタイムアウトパスを定義
 
-[&#x200B; 条件 &#x200B;](condition-activity.md) の詳細情報。
+[ 条件 ](condition-activity.md) の詳細情報。
 
 +++
 
@@ -214,7 +217,7 @@ Adobe Journey Optimizerでは、それぞれ異なる特性とガードレール
 
 ネイティブでサポートされていないチャネルの場合は、**カスタムアクション** を使用して外部のメッセージプラットフォームと統合し、サードパーティのチャネルを介してメッセージを送信できます。
 
-[&#x200B; ジャーニー内のメッセージ &#x200B;](journeys-message.md) および [&#x200B; カスタムアクション &#x200B;](using-custom-actions.md) の詳細情報。
+[ ジャーニー内のメッセージ ](journeys-message.md) および [ カスタムアクション ](using-custom-actions.md) の詳細情報。
 
 +++
 
@@ -226,7 +229,7 @@ Adobe Journey Optimizerでは、それぞれ異なる特性とガードレール
 * 一定間隔のドリップキャンペーンの作成
 * 条件との組み合わせによるタイムアウトシナリオの作成
 
-[&#x200B; 待機アクティビティ &#x200B;](wait-activity.md) の詳細情報。
+[ 待機アクティビティ ](wait-activity.md) の詳細情報。
 
 +++
 
@@ -234,7 +237,7 @@ Adobe Journey Optimizerでは、それぞれ異なる特性とガードレール
 
 はい。**プロファイルを更新** アクティビティを使用すると、ジャーニーのイベントまたは条件に基づいてAdobe Experience Platformのプロファイル属性を変更できます。 これは、ロイヤルティポイントの更新、ジャーニーマイルストーンの記録、環境設定の変更、顧客エンゲージメントスコアの追跡に役立ちます。
 
-詳細情報 [&#x200B; プロファイルの更新 &#x200B;](update-profiles.md)。
+詳細情報 [ プロファイルの更新 ](update-profiles.md)。
 
 +++
 
@@ -250,7 +253,7 @@ Adobe Journey Optimizerでは、それぞれ異なる特性とガードレール
 
 購入イベントを受信すると、ジャーニーは自動的にトリガーし、確認メールがリアルタイムで送信されます。
 
-[&#x200B; イベント設定 &#x200B;](../event/about-events.md) および [&#x200B; メールアクション &#x200B;](journeys-message.md) の詳細情報。
+[ イベント設定 ](../event/about-events.md) および [ メールアクション ](journeys-message.md) の詳細情報。
 
 +++
 
@@ -266,7 +269,7 @@ Adobe Journey Optimizerでは、それぞれ異なる特性とガードレール
 
 **ベストプラクティス**：スパムのように見われないように、再送信の回数を制限します（通常、リマインダーの最大数は 1～2 です）。
 
-詳しくは、[&#x200B; 反応イベント &#x200B;](reaction-events.md) を参照してください。
+詳しくは、[ 反応イベント ](reaction-events.md) を参照してください。
 
 +++
 
@@ -282,7 +285,7 @@ Adobe Journey Optimizerでは、それぞれ異なる特性とガードレール
    * **タイムアウトパス （購入なし）**：買い物かごの内容を含んだ放棄リマインダーメールを送信します
 5. **オプション**：タイムアウト（24 時間）で別の反応イベントを追加し、インセンティブ（10% 割引など）を含む 2 回目のリマインダーを送信します
 
-詳しくは、[&#x200B; ジャーニーのユースケース &#x200B;](jo-use-cases.md) および [&#x200B; 反応イベント &#x200B;](reaction-events.md) を参照してください。
+詳しくは、[ ジャーニーのユースケース ](jo-use-cases.md) および [ 反応イベント ](reaction-events.md) を参照してください。
 
 +++
 
@@ -297,7 +300,7 @@ Adobe Journey Optimizerでは、それぞれ異なる特性とガードレール
    * **パス 3**：新規顧客（購入合計が 100 ドル未満）
 3. パスごとに異なるメッセージやオファーを追加する
 
-詳しくは、[&#x200B; 条件 &#x200B;](condition-activity.md) および [&#x200B; オーディエンスの選定 &#x200B;](audience-qualification-events.md) を参照してください。
+詳しくは、[ 条件 ](condition-activity.md) および [ オーディエンスの選定 ](audience-qualification-events.md) を参照してください。
 
 +++
 
@@ -308,7 +311,7 @@ Journey Optimizerには、タイムゾーン管理のオプションがいくつ
 * **プロファイルタイムゾーン**：メッセージは、プロファイルに保存されている各個人のタイムゾーンに基づいて送信されます
 * **固定タイムゾーン**：すべてのメッセージで、定義した特定のタイムゾーンが使用されます
 
-詳細情報：[&#x200B; タイムゾーン管理 &#x200B;](timezone-management.md)。
+詳細情報：[ タイムゾーン管理 ](timezone-management.md)。
 
 +++
 
@@ -331,7 +334,7 @@ Journey Optimizerには、タイムゾーン管理のオプションがいくつ
 
 **ヒント**：ジャーニーキャッピングルールを使用すると、すべてのジャーニーで顧客が受け取るメッセージの合計数を制限できます。
 
-詳しくは、[&#x200B; 待機アクティビティ &#x200B;](wait-activity.md) および [&#x200B; ジャーニーキャッピング &#x200B;](../conflict-prioritization/journey-capping.md) を参照してください。
+詳しくは、[ 待機アクティビティ ](wait-activity.md) および [ ジャーニーキャッピング ](../conflict-prioritization/journey-capping.md) を参照してください。
 
 +++
 
@@ -346,7 +349,7 @@ Journey Optimizerには、次の 2 つのテスト方法があります。
 
 **ベストプラクティス**：ジャーニーは常に公開前にテストし、期待どおりに機能し、問題が早期に特定されることを確認します。
 
-[&#x200B; テストモード &#x200B;](testing-the-journey.md) および [&#x200B; ドライラン &#x200B;](journey-dry-run.md) の詳細情報
+[ テストモード ](testing-the-journey.md) および [ ドライラン ](journey-dry-run.md) の詳細情報
 
 +++
 
@@ -359,7 +362,7 @@ Journey Optimizerには、次の 2 つのテスト方法があります。
 * ジャーニーを進むプロファイルに対するメッセージとアクションの実行の開始
 * 公開済みのジャーニーでは限定的に編集できます（さらに編集する場合は新しいバージョンを作成する必要があります）
 
-詳しくは、[&#x200B; ジャーニーの公開 &#x200B;](publishing-the-journey.md) を参照してください。
+詳しくは、[ ジャーニーの公開 ](publishing-the-journey.md) を参照してください。
 
 +++
 
@@ -388,7 +391,7 @@ Journey Optimizerには、次の 2 つのテスト方法があります。
 
 既にジャーニーに含まれているプロファイルは元のバージョンを完了し、新しいプロファイルは新しいバージョンに入ります。
 
-詳しくは、[&#x200B; ジャーニーバージョン &#x200B;](journey-ui.md#journey-versions) を参照してください。
+詳しくは、[ ジャーニーバージョン ](journey-ui.md#journey-versions) を参照してください。
 
 +++
 
@@ -400,7 +403,7 @@ Journey Optimizerには、次の 2 つのテスト方法があります。
 * **直ちに停止**：ジャーニーを終了し、現在ジャーニー内にあるすべてのプロファイルを終了します
 * **一時停止**：ジャーニーを一時的に停止し、後で再開します
 
-詳しくは、[&#x200B; ジャーニーの終了 &#x200B;](end-journey.md) を参照してください。
+詳しくは、[ ジャーニーの終了 ](end-journey.md) を参照してください。
 
 +++
 
@@ -420,7 +423,7 @@ Journey Optimizerには、次の 2 つのテスト方法があります。
 * 緊急の状況や重大なエラーに使用します
 * 例：製品のリコールにはプロモーションメッセージの即時停止が必要
 
-詳しくは、[&#x200B; ジャーニーの終了 &#x200B;](end-journey.md) および [&#x200B; ジャーニーの公開 &#x200B;](publishing-the-journey.md) を参照してください。
+詳しくは、[ ジャーニーの終了 ](end-journey.md) および [ ジャーニーの公開 ](publishing-the-journey.md) を参照してください。
 
 +++
 
@@ -434,7 +437,7 @@ Journey Optimizerには、次の 2 つのテスト方法があります。
 * **ジャーニーの全期間レポート**: Customer Journey Analyticsを使用してジャーニーのパフォーマンスを分析します。 ドライランテストの実行結果もここで確認できます。
 * **ジャーニー ステップ イベント**: カスタム レポートの詳細な実行データにアクセスします
 
-詳しくは、[&#x200B; ジャーニーレポート &#x200B;](report-journey.md) を参照してください。
+詳しくは、[ ジャーニーレポート ](report-journey.md) を参照してください。
 
 +++
 
@@ -449,7 +452,7 @@ Journey Optimizerには、次の 2 つのテスト方法があります。
 * **無効な名前空間**：ジャーニー名前空間がプロファイル ID と一致しません
 * **ジャーニークローズ**：ジャーニーは新規エントリを受け入れなくなりました
 
-詳しくは、[&#x200B; エントリ管理 &#x200B;](entry-management.md) を参照してください。
+詳しくは、[ エントリ管理 ](entry-management.md) を参照してください。
 
 +++
 
@@ -464,7 +467,7 @@ Journey Optimizerには、次の 2 つのテスト方法があります。
 * 詳細なプロファイルの動作の追跡
 * 高度な分析とアトリビューションモデルの作成
 
-詳しくは、[&#x200B; ジャーニーステップイベント &#x200B;](../reports/sharing-overview.md) を参照してください。
+詳しくは、[ ジャーニーステップイベント ](../reports/sharing-overview.md) を参照してください。
 
 +++
 
@@ -485,7 +488,7 @@ Journey Optimizerには、次のトラブルシューティングリソースが
 * 条件またはパーソナライゼーションの式が無効です
 * タイムアウト設定が短すぎます
 
-詳細情報：[&#x200B; ジャーニーのトラブルシューティング &#x200B;](troubleshooting.md)。
+詳細情報：[ ジャーニーのトラブルシューティング ](troubleshooting.md)。
 
 +++
 
@@ -512,7 +515,7 @@ Learn more about [action responses](../action/action-response.md).
 
 個々のプロファイルを表示するには、Customer Journey Analyticsで **ジャーニーステップイベント** を使用するか、ステップイベントデータセットを直接クエリします。
 
-[&#x200B; ジャーニーライブレポート &#x200B;](report-journey.md) の詳細情報。
+[ ジャーニーライブレポート ](report-journey.md) の詳細情報。
 
 +++
 
@@ -539,7 +542,7 @@ Learn more about [action responses](../action/action-response.md).
 * **チャネル設定の問題**：メール/SMS の設定が正しくありません
 解決策：チャネル設定と認証を確認します
 
-詳しくは、[&#x200B; トラブルシューティング &#x200B;](troubleshooting.md) および [&#x200B; 同意管理 &#x200B;](../action/consent.md) を参照してください。
+詳しくは、[ トラブルシューティング ](troubleshooting.md) および [ 同意管理 ](../action/consent.md) を参照してください。
 
 +++
 
@@ -569,23 +572,23 @@ Learn more about [action responses](../action/action-response.md).
 
 はい。**[条件アクティビティ](condition-activity.md)** を使用して、優先チャネルに基づいてプロファイルをルーティングします。
 
-1. ジャーニーに [&#x200B; 条件アクティビティ &#x200B;](condition-activity.md) を追加します
+1. ジャーニーに [ 条件アクティビティ ](condition-activity.md) を追加します
 2. 優先チャネルプロファイル属性（`profile.preferredChannel` など）を確認して、各チャネルのパスを作成します
 3. チャネル固有のパスの設定：
-   * **メールパス**：メール用に最適化されたコンテンツを含んだ [&#x200B; メールアクション &#x200B;](../email/create-email.md) を追加します
-   * **SMS パス**：簡潔なメッセージを含む [SMS アクション &#x200B;](../sms/create-sms.md) を追加します
-   * **プッシュパス**：アクションにつながる短いコンテンツを含む [&#x200B; プッシュ通知アクション &#x200B;](../push/create-push.md) を追加します
-   * **アプリ内パス**：エンゲージメントの高いアプリユーザーに対する [&#x200B; アプリ内メッセージアクション &#x200B;](../in-app/create-in-app.md) の追加
+   * **メールパス**：メール用に最適化されたコンテンツを含んだ [ メールアクション ](../email/create-email.md) を追加します
+   * **SMS パス**：簡潔なメッセージを含む [SMS アクション ](../sms/create-sms.md) を追加します
+   * **プッシュパス**：アクションにつながる短いコンテンツを含む [ プッシュ通知アクション ](../push/create-push.md) を追加します
+   * **アプリ内パス**：エンゲージメントの高いアプリユーザーに対する [ アプリ内メッセージアクション ](../in-app/create-in-app.md) の追加
 4. 環境設定のないプロファイルにデフォルトパスを追加し、プライマリチャネルにルーティングします
 
 **ベストプラクティス**:
 
 * プロファイルデータに正確なチャネル環境設定が含まれていることを確認
 * 各チャネルの長所と短所に適したコンテンツの設計
-* [&#x200B; チャネルサーフェス &#x200B;](../configuration/channel-surfaces.md) を使用したチャネル設定の管理
+* [ チャネルサーフェス ](../configuration/channel-surfaces.md) を使用したチャネル設定の管理
 * すべてのパスをテストして、メッセージが適切に配信されることを確認します。
 
-[&#x200B; 条件 &#x200B;](condition-activity.md)、[&#x200B; メッセージアクション &#x200B;](journeys-message.md)、および [&#x200B; チャネル選択 &#x200B;](../channels/gs-channels.md) について説明します。
+[ 条件 ](condition-activity.md)、[ メッセージアクション ](journeys-message.md)、および [ チャネル選択 ](../channels/gs-channels.md) について説明します。
 
 +++
 
@@ -595,15 +598,15 @@ Learn more about [action responses](../action/action-response.md).
 
 **ジャーニーエントリ時**:
 
-* 除外ルールでの [&#x200B; オーディエンス定義 &#x200B;](../audience/creating-a-segment-definition.md) の使用
-* 特定のプロファイルを除外する [&#x200B; エントリ条件 &#x200B;](entry-management.md) を追加します
-* ジャーニープロパティで [&#x200B; プロファイル属性ベースの終了条件 &#x200B;](journey-properties.md) を設定し、特定の属性に基づいてプロファイルを自動的に除外します
+* 除外ルールでの [ オーディエンス定義 ](../audience/creating-a-segment-definition.md) の使用
+* 特定のプロファイルを除外する [ エントリ条件 ](entry-management.md) を追加します
+* ジャーニープロパティで [ プロファイル属性ベースの終了条件 ](journey-properties.md) を設定し、特定の属性に基づいてプロファイルを自動的に除外します
 
 **ジャーニー内**:
 
-* ジャーニーの早い段階で [&#x200B; 条件アクティビティ &#x200B;](condition-activity.md) を追加して、不要なプロファイルを終了する
+* ジャーニーの早い段階で [ 条件アクティビティ ](condition-activity.md) を追加して、不要なプロファイルを終了する
 * 除外する属性（VIPのステータス、テストアカウントなど）を確認します
-* [&#x200B; オーディエンスの選定 &#x200B;](audience-qualification-events.md) を使用して、除外するプロファイルを特定します
+* [ オーディエンスの選定 ](audience-qualification-events.md) を使用して、除外するプロファイルを特定します
 
 **除外シナリオの例**:
 
@@ -622,7 +625,7 @@ Learn more about [action responses](../action/action-response.md).
 
 **ベストプラクティス**：すべてのタッチポイントで顧客を確実に識別する名前空間を選択します。
 
-[ID 名前空間 &#x200B;](../audience/get-started-identity.md) の詳細情報。
+[ID 名前空間 ](../audience/get-started-identity.md) の詳細情報。
 
 +++
 
@@ -637,7 +640,7 @@ Learn more about [action responses](../action/action-response.md).
 
 **ベストプラクティス**：再エントリルールを使用して、メッセージ疲れを防ぎ、適切なペーシングを確保します。 異なるトランザクションに対してプロファイルを複数回入力する必要があるトランザクションジャーニーでは、追加の識別子の使用を検討してください。
 
-[&#x200B; エントリ管理 &#x200B;](entry-management.md) および [&#x200B; 追加識別子 &#x200B;](supplemental-identifier.md) の詳細をご覧ください。
+[ エントリ管理 ](entry-management.md) および [ 追加識別子 ](supplemental-identifier.md) の詳細をご覧ください。
 
 +++
 
@@ -651,7 +654,7 @@ Learn more about [action responses](../action/action-response.md).
 * 最適なタイミングのメッセージにより顧客体験が向上
 * 登録解除率の低下
 
-詳しくは、[&#x200B; 送信時間の最適化 &#x200B;](send-time-optimization.md) を参照してください。
+詳しくは、[ 送信時間の最適化 ](send-time-optimization.md) を参照してください。
 
 +++
 
@@ -664,7 +667,7 @@ Learn more about [action responses](../action/action-response.md).
 
 複数のジャーニーまたは特定のジャーニーのプロファイルごとに最大エントリ数または同時実行性を設定し、時間枠（日別、週別、月別）を定義し、同じプロファイルに対して複数のジャーニーが競合する場合にジャーニーの優先順位を付けることができます。
 
-詳しくは、[&#x200B; ジャーニーキャッピング &#x200B;](../conflict-prioritization/journey-capping.md) を参照してください。
+詳しくは、[ ジャーニーキャッピング ](../conflict-prioritization/journey-capping.md) を参照してください。
 
 +++
 
@@ -687,7 +690,7 @@ Journey Optimizerは、Adobe Campaignとネイティブに統合され、その�
 
 **ベストプラクティス**：既存の Campaign テンプレートやデータモデルがある場合、または Campaign 固有の機能が必要な場合は、この統合を使用してください。
 
-詳細情報：[Campaign 統合 &#x200B;](ajo-ac.md)。
+詳細情報：[Campaign 統合 ](ajo-ac.md)。
 
 +++
 
@@ -697,7 +700,7 @@ Journey Optimizerは、Adobe Campaignとネイティブに統合され、その�
 
 プロファイルがジャンプ アクティビティに到達すると、現在のジャーニーを終了し、開始点からターゲットジャーニーにエントリします。
 
-詳細情報 [&#x200B; ジャンプアクティビティ &#x200B;](jump.md)。
+詳細情報 [ ジャンプアクティビティ ](jump.md)。
 
 +++
 
@@ -726,7 +729,7 @@ Journey Optimizerは、Adobe Campaignとネイティブに統合され、その�
 * 開封率を監視し、それに応じてタイミングやコンテンツを調整
 * コンバージョンや深い関与があった場合は顧客を早期に退出させる
 
-詳しくは、[&#x200B; ジャーニーのユースケース &#x200B;](jo-use-cases.md) を参照してください。
+詳しくは、[ ジャーニーのユースケース ](jo-use-cases.md) を参照してください。
 
 +++
 
@@ -754,7 +757,7 @@ Journey Optimizerは、Adobe Campaignとネイティブに統合され、その�
 * 様々なオファーやインセンティブ
 * 完全に異なるジャーニーパス
 
-詳しくは、[&#x200B; アクティビティの最適化 &#x200B;](optimize.md) および [&#x200B; コンテンツ実験 &#x200B;](../content-management/content-experiment.md) を参照してください。
+詳しくは、[ アクティビティの最適化 ](optimize.md) および [ コンテンツ実験 ](../content-management/content-experiment.md) を参照してください。
 
 +++
 
@@ -775,7 +778,7 @@ Journey Optimizerは、Adobe Campaignとネイティブに統合され、その�
 * フラッシュセールのお知らせ
 * 気象ベースのプロモーション
 
-詳細情報 [&#x200B; ビジネスイベント &#x200B;](general-events.md)。
+詳細情報 [ ビジネスイベント ](general-events.md)。
 
 +++
 
@@ -799,7 +802,7 @@ Journey Optimizerは、Adobe Campaignとネイティブに統合され、その�
 * 結合ポリシーに含まれるデータセットを理解し、使用可能なデータを把握します
 * 予測可能な結果を得るために、関連するオーディエンスとジャーニーにわたって一貫した結合ポリシーを使用する
 
-[&#x200B; 結合ポリシー &#x200B;](../audience/get-started-profiles.md) および [ID 管理 &#x200B;](../audience/get-started-identity.md) の詳細情報。
+[ 結合ポリシー ](../audience/get-started-profiles.md) および [ID 管理 ](../audience/get-started-identity.md) の詳細情報。
 
 +++
 
@@ -817,7 +820,7 @@ Journey Optimizerは、Adobe Campaignとネイティブに統合され、その�
 * 一定時間待ってから、条件を使用して、待機中に何かが発生したかどうかを確認します
 * 例：7 日間待ってから、顧客が購入したかどうかを確認する
 
-[&#x200B; 条件 &#x200B;](condition-activity.md) および [&#x200B; 待機アクティビティ &#x200B;](wait-activity.md) の詳細情報。
+[ 条件 ](condition-activity.md) および [ 待機アクティビティ ](wait-activity.md) の詳細情報。
 
 +++
 
@@ -833,7 +836,7 @@ Journey Optimizerは、Adobe Campaignとネイティブに統合され、その�
 * **オーディエンスサイズ**：オーディエンスを読み取りのバッチサイズの制限
 * **式の複雑さ**：条件とパーソナライゼーションの文字の制限
 
-完全な [&#x200B; ガードレールと制限 &#x200B;](../start/guardrails.md) を表示します。
+完全な [ ガードレールと制限 ](../start/guardrails.md) を表示します。
 
 +++
 
@@ -869,7 +872,7 @@ Journey Optimizerは、Adobe Campaignとネイティブに統合され、その�
 * ジャーニーのロジックとビジネスルールの文書化
 * ジャーニーのバージョン管理の計画
 
-詳しくは、[&#x200B; ジャーニーデザインのベストプラクティス &#x200B;](using-the-journey-designer.md) を参照してください。
+詳しくは、[ ジャーニーデザインのベストプラクティス ](using-the-journey-designer.md) を参照してください。
 
 +++
 
@@ -886,7 +889,7 @@ Journey Optimizerは、Adobe Campaignとネイティブに統合され、その�
 * より効率的な条件でロジックをシンプル化
 * すべてのアクティビティが必要かどうかを確認する
 
-詳しくは、[&#x200B; ジャーニーデザイン &#x200B;](using-the-journey-designer.md) および [&#x200B; ガードレールと制限 &#x200B;](../start/guardrails.md) を参照してください。
+詳しくは、[ ジャーニーデザイン ](using-the-journey-designer.md) および [ ガードレールと制限 ](../start/guardrails.md) を参照してください。
 
 +++
 
@@ -894,26 +897,26 @@ Journey Optimizerは、Adobe Campaignとネイティブに統合され、その�
 
 **設計に関する考慮事項**:
 
-* 個々のイベントではなく、[&#x200B; オーディエンスベースのエントリ &#x200B;](read-audience.md) をバッチ通信に使用します
-* 適切な [&#x200B; 待機時間 &#x200B;](wait-activity.md) を実装してメッセージ量を分散させる
-* [&#x200B; キャッピングルール &#x200B;](../conflict-prioritization/journey-capping.md) を活用して、システム容量超過を防ぐ
-* [&#x200B; 条件ロジック &#x200B;](condition-activity.md) を最適化して、処理の複雑さを軽減します
+* 個々のイベントではなく、[ オーディエンスベースのエントリ ](read-audience.md) をバッチ通信に使用します
+* 適切な [ 待機時間 ](wait-activity.md) を実装してメッセージ量を分散させる
+* [ キャッピングルール ](../conflict-prioritization/journey-capping.md) を活用して、システム容量超過を防ぐ
+* [ 条件ロジック ](condition-activity.md) を最適化して、処理の複雑さを軽減します
 
 **監視**:
 
-* [&#x200B; ジャーニー指標 &#x200B;](report-journey.md) を定期的に追跡
-* API パフォーマンスの監視 [&#x200B; カスタムアクション &#x200B;](using-custom-actions.md)
-* [&#x200B; トラブルシューティングツール &#x200B;](troubleshooting.md) を使用して、エラー率とタイムアウトの発生を確認する
-* [&#x200B; ジャーニーアラート &#x200B;](../reports/alerts.md) ジャーニーの重大なエラーの購読
+* [ ジャーニー指標 ](report-journey.md) を定期的に追跡
+* API パフォーマンスの監視 [ カスタムアクション ](using-custom-actions.md)
+* [ トラブルシューティングツール ](troubleshooting.md) を使用して、エラー率とタイムアウトの発生を確認する
+* [ ジャーニーアラート ](../reports/alerts.md) ジャーニーの重大なエラーの購読
 
 **最適化**:
 
-* [&#x200B; テストモード &#x200B;](testing-the-journey.md) および [&#x200B; ドライラン &#x200B;](journey-dry-run.md) を使用して、公開前にパフォーマンスを検証します
-* [&#x200B; カスタムアクション &#x200B;](using-custom-actions.md) を使用して外部 API 呼び出しを最小限に抑え、サードパーティシステムでの待ち時間と依存関係を回避します
-* 可能な場合は、外部呼び出しを実行する代わりに [&#x200B; データセットルックアップ &#x200B;](dataset-lookup.md) を使用して、頻繁に使用するデータをAdobe Experience Platformに保存します
-* [&#x200B; メッセージ配信 &#x200B;](journeys-message.md) パフォーマンスのレビューと最適化
+* [ テストモード ](testing-the-journey.md) および [ ドライラン ](journey-dry-run.md) を使用して、公開前にパフォーマンスを検証します
+* [ カスタムアクション ](using-custom-actions.md) を使用して外部 API 呼び出しを最小限に抑え、サードパーティシステムでの待ち時間と依存関係を回避します
+* 可能な場合は、外部呼び出しを実行する代わりに [ データセットルックアップ ](dataset-lookup.md) を使用して、頻繁に使用するデータをAdobe Experience Platformに保存します
+* [ メッセージ配信 ](journeys-message.md) パフォーマンスのレビューと最適化
 
-詳しくは、[&#x200B; ガードレールと制限事項 &#x200B;](../start/guardrails.md) を参照してください。
+詳しくは、[ ガードレールと制限事項 ](../start/guardrails.md) を参照してください。
 
 +++
 
