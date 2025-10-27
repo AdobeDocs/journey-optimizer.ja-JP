@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: メッセージ, 頻度, ルール, プレッシャー
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
+source-git-commit: 25f581e0f501c148140716da1ef1bf7fd4f43352
 workflow-type: tm+mt
 source-wordcount: '1062'
-ht-degree: 89%
+ht-degree: 87%
 
 ---
 
@@ -80,7 +80,7 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="ajo_rule_type"
 >title="ルールタイプ"
->abstract="チャネルルールセットに必要なルールタイプを選択します。**フリークエンシーキャップ**&#x200B;タイプを使用して、通信チャネルにキャッピングルールを適用します。例えば、1 日に 1 件以上のメールまたは SMS 通信を送信できないようにします。**クワイエットアワー**（限定提供）を選択して、時間ベースの除外を定義し、特定の期間にメッセージが送信されないようにします。"
+>abstract="チャネルルールセットに必要なルールタイプを選択します。**フリークエンシーキャップ**&#x200B;タイプを使用して、通信チャネルにキャッピングルールを適用します。例えば、1 日に 1 件以上のメールまたは SMS 通信を送信できないようにします。**待ち時間** （限定提供）を選択して、時間ベースの除外を定義し、特定の期間中にメッセージが送信されないようにします。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_duration"
@@ -124,7 +124,7 @@ ht-degree: 89%
 
    * [ジャーニーのキャップ](../conflict-prioritization/journey-capping.md)
    * [チャネルと通信タイプによるフリークエンシーキャップ](../conflict-prioritization/channel-capping.md)
-   * [&#x200B; 待ち時間 &#x200B;](../conflict-prioritization/quiet-hours.md) （限定提供）
+   * [ 待ち時間 ](../conflict-prioritization/quiet-hours.md) （限定提供）
 
 1. 「**[!UICONTROL 保存]**」をクリックして、ルールの作成を確定します。メッセージが、**[!UICONTROL ドラフト]**&#x200B;ステータスでルールリストに追加されます。
 
@@ -180,4 +180,4 @@ ht-degree: 89%
 
 ## チュートリアルビデオ {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444727?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
