@@ -164,6 +164,6 @@ Adobe Journey Optimizer エラーコードは、コンポーネントと問題�
 
 **関連トピック**
 
-* [Adobe Journey Optimizer エラーコードの説明：第 1 部 &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884){target="_blank"}
+* [Adobe Journey Optimizer エラーコードの説明：第 1 部 &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=ja){target="_blank"}
 * [Adobe Journey Optimizer エラーコードの説明：パート 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661){target="_blank"}
 
