@@ -56,6 +56,6 @@ Journey Optimizer ジャーニーデザイナーには、マーケターやジ�
 ## その他のリソース {#additional-resources}
 
 * [ジャーニーに関する FAQ](journey-faq.md) - ジャーニーに関するよくある質問
-* [ エラーコードのリファレンス ](error-codes-reference.md) - ジャーニーエラーコードとトラブルシューティング手順
-* [ アラート ](../reports/alerts.md) - ジャーニー監視用のアラートの設定
-* [ トラブルシューティング ](troubleshooting.md) - ジャーニーに関する一般的な問題と解決策
+* [&#x200B; エラーコードのリファレンス &#x200B;](error-codes-reference.md) - ジャーニーエラーコードとトラブルシューティング手順
+* [&#x200B; アラート &#x200B;](../reports/alerts.md) - ジャーニー監視用のアラートの設定
+* [&#x200B; トラブルシューティング &#x200B;](troubleshooting.md) - ジャーニーに関する一般的な問題と解決策
