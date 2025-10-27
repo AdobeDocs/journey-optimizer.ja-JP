@@ -20,7 +20,7 @@ Adobe Journey Optimizerは、人工知能と機械学習の力を活用して、
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 コンテンツ生成用 AI アシスタント
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizerは、人工知能と機械学習の力を活用して、
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
 
 送信時間の最適化
 
@@ -40,7 +40,7 @@ AI を使用して、メッセージの送信に最適な時間を予測し、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 意思決定の AI モデル
 
@@ -50,7 +50,7 @@ AI を使用して、メッセージの送信に最適な時間を予測し、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
 
 AI アシスタントの製品知識
 
@@ -60,7 +60,7 @@ AI アシスタントの製品知識
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 AI を使用したコンテンツ実験
 
@@ -70,7 +70,7 @@ AI を使用したコンテンツ実験
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 顧客 AI 統合
 
