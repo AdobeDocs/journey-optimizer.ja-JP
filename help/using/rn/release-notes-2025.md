@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 460ac269404842001f320df6404db474a34c30b7
+source-git-commit: d21f22dcab625c4dd60d74468c7afdb29041a54d
 workflow-type: tm+mt
-source-wordcount: '7884'
+source-wordcount: '7890'
 ht-degree: 99%
 
 ---
@@ -222,7 +222,7 @@ ht-degree: 99%
 <td>
 <p>これで、ジャーニーを一時停止して再開できるようになりました。この機能により、顧客体験を止めずにライブジャーニーを一時中断できるので、ジャーニー実務担当者はより優れた制御と柔軟性を得ることができます。一時停止すると、通信は送信されず、ジャーニーが再開されるまでプロファイルは中断状態のままになります。</p>
 <p>1 つのジャーニーのみを一時停止および再開することや、ジャーニーのグループに対して一括で一時停止および再開の操作を実行することができます。</p>
-<p>さらに、一時停止したジャーニーにグローバルフィルターを適用して、属性に基づいてプロファイルを除外できます。</p>
+<p>さらに、プロファイル属性ベースの終了条件（以前の名称は「グローバルフィルター」）を一時停止されたジャーニーに適用して、属性に基づいてプロファイルを除外できます。</p>
 <p><img src="assets/do-not-localize/PauseResume.gif"/></p>
 <p>この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。</p>
 <p>詳しくは、<a href="../building-journeys/journey-pause.md">詳細なドキュメント</a>を参照してください。</p>
