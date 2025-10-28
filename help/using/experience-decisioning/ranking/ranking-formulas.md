@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
-source-git-commit: 6f4ec598a56b0e835e1e866f24dcc016f6835be8
+source-git-commit: af4a5965c9268baf88c5306f1aa20d305ee7e501
 workflow-type: tm+mt
-source-wordcount: '1342'
-ht-degree: 100%
+source-wordcount: '1457'
+ht-degree: 92%
 
 ---
 
@@ -221,6 +221,22 @@ if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.p
                     ]}
 }
 ```
+
++++
+
++++プロファイルの郵便番号と年収に基づいてオファーをブースト
+
+この例では、システムは常に最初に ZIP 一致のオファーを表示しようとし、一致が見つからない場合は一般的なオファーにフォールバックし、他の ZIP コード向けのオファーを表示しないようにします。
+
+```pql
+if( offer._luma.offerDetails.zipCode = _luma.zipCode,luma.annualIncome / 1000 + 10000, if( not offer.luma.offerDetails.zipCode,_luma.annualIncome / 1000, -9999) )
+```
+
+数式の機能：
+
+* オファーの郵便番号がユーザーと同じ場合は、非常に高いスコアを付けて、最初に選択されるようにします。
+* オファーに郵便番号がまったく含まれていない場合（一般的なオファーの場合）、ユーザーの収入に基づいて通常のスコアを付けます。
+* オファーの郵便番号がユーザーと異なる場合は、スコアを非常に低く設定し、選択されないようにします。
 
 +++
 
