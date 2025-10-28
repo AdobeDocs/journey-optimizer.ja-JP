@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: メッセージ, 頻度, ルール, プレッシャー
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
-source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
+source-git-commit: 98ff30896eacdd1d8c6efd4db49cb2cbeb859a83
 workflow-type: tm+mt
-source-wordcount: '1226'
-ht-degree: 98%
+source-wordcount: '1219'
+ht-degree: 97%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 98%
 
    * **[!UICONTROL 毎時]** - フリークエンシーキャップは、選択した時間数に対して有効です。カウンターは、各時間枠の開始時に自動的にリセットされます。1 時間のフリークエンシーキャップの場合、UTC 時間の終了に合わせて 1 時間ごとにリセットされます。
    * **[!UICONTROL 毎日]**：毎日の頻度キャップは、その日の 23:59:59 UTC まで有効で、翌日の開始時に 0 にリセットされます。
-   * **[!UICONTROL 毎週]**：頻度キャップは、カレンダー週が日曜日に始まるので、その週の土曜日 23:59:59 UTC まで有効です。有効期限は、ルールが作成された日時に関係なく適用されます。例えば、木曜日にルールが作成された場合、このルールは土曜日の 23:59:59 まで有効です。
+   * **[!UICONTROL 毎週]** – 頻度の上限は、その週の UTC で土曜日 23:59:59 まで有効です。 有効期限は、ルールが作成された日時に関係なく適用されます。例えば、木曜日にルールが作成された場合、このルールは土曜日の 23:59:59 まで有効です。
    * **[!UICONTROL 毎月]**：頻度キャップは、その月の最終日の 23:59:59 UTC まで有効です。例えば、1月の月次有効期限は 1月31日、23:59:59 UTC です。
 
    >[!IMPORTANT]
@@ -161,4 +161,4 @@ In this scenario, an individual profile:
 
 ## チュートリアルビデオ {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444727?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
