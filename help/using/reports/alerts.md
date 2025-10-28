@@ -8,9 +8,9 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: f06a9d01721ff23dfdf95db8d984143bb36fe85c
+source-git-commit: 663292f83538707effeb992a0602b1f40d8c1663
 workflow-type: tm+mt
-source-wordcount: '1893'
+source-wordcount: '1898'
 ht-degree: 65%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 65%
 
 ジャーニーとキャンペーンを作成する場合は、「**アラート**」ボタンを使用してエラーを確認および解決してから、実行または公開します。
 
-* ジャーニーのトラブルシューティング方法については、[&#x200B; このページ &#x200B;](../building-journeys/troubleshooting.md) を参照してください
+* ジャーニーのトラブルシューティング方法については、[ このページ ](../building-journeys/troubleshooting.md) を参照してください
 
-* キャンペーンのレビュー方法については、[&#x200B; このページ &#x200B;](../campaigns/review-activate-campaign.md) を参照してください
+* キャンペーンのレビューとアクティブ化の方法について学ぶ：[ アクションキャンペーン ](../campaigns/review-activate-campaign.md) | [API トリガーキャンペーン ](../campaigns/review-activate-api-triggered-campaign.md) | [ 調整されたキャンペーン ](../orchestrated/start-monitor-campaigns.md)
 
 
 これらに加えて、特定の条件セットに達すると、その条件を購読している組織内のユーザーにアラートメッセージを送信できます。 これらのアラートは、専用の **[!UICONTROL アラート]** メニューから利用できます。 Adobe Experience Platform には、組織に対して有効にできる定義済みのアラートルールがいくつか用意されています。 さらに、[!DNL Adobe Journey Optimizer] 固有のシステムアラートを登録することもできます（詳しくは、このページを参照）。
@@ -37,9 +37,9 @@ ht-degree: 65%
 
    * [ジャーニーカスタムアクションエラー](#alert-custom-actions)アラート
    * [オーディエンスを読み取りトリガーに失敗しました](#alert-read-audiences)アラート
-   * [&#x200B; プロファイル破棄率を超えました &#x200B;](#alert-discard-rate) アラート
-   * [&#x200B; カスタムアクションエラー率を超えました &#x200B;](#alert-custom-action-error-rate) アラート
-   * [&#x200B; プロファイルエラー率を超えました &#x200B;](#alert-profile-error-rate) アラート
+   * [ プロファイル破棄率を超えました ](#alert-discard-rate) アラート
+   * [ カスタムアクションエラー率を超えました ](#alert-custom-action-error-rate) アラート
+   * [ プロファイルエラー率を超えました ](#alert-profile-error-rate) アラート
 
 * チャネル設定に固有のアラート：
 
@@ -51,7 +51,7 @@ ht-degree: 65%
 
 予期しない動作が発生した場合や、操作の特定の条件（システムがしきい値に達した場合に問題が発生する可能性があるなど）に達した場合、その条件を登録している組織内のユーザーにアラート通知が配信されます。
 
-ユーザーインターフェイスから各アラートを個別に、**[!UICONTROL アラート]** メニューからグローバルに（[&#x200B; グローバル登録 &#x200B;](#global-subscription) を参照）、または特定のジャーニーに対して単一で（[&#x200B; 単一登録 &#x200B;](#unitary-subscription) を参照）登録できます。
+ユーザーインターフェイスから各アラートを個別に、**[!UICONTROL アラート]** メニューからグローバルに（[ グローバル登録 ](#global-subscription) を参照）、または特定のジャーニーに対して単一で（[ 単一登録 ](#unitary-subscription) を参照）登録できます。
 
 登録者の環境設定に基づいて、アラートはメールで送信されるか、ユーザーインターフェイスの右上隅にある Journey Optimizer 通知センター内（アプリ内通知）で直接送信されます。[!DNL Adobe Experience Cloud] **[!UICONTROL 環境設定]**&#x200B;で、これらのアラートを受信する方法を選択します。[詳細情報](../start/user-interface.md#in-product-alerts)
 
@@ -80,15 +80,15 @@ ht-degree: 65%
 
 1. ジャーニーインベントリを参照し、特定のジャーニーの **[!UICONTROL アラートを購読]** オプションを選択します。
 
-   ![&#x200B; 特定のジャーニーのアラートの購読 &#x200B;](assets/subscribe-journey-alert.png){width=75%}
+   ![ 特定のジャーニーのアラートの購読 ](assets/subscribe-journey-alert.png){width=75%}
 
-1. アラートを選択します。 次のアラートを使用できます：[&#x200B; プロファイル破棄率を超過 &#x200B;](#alert-discard-rate)、[&#x200B; カスタムアクションエラー率を超過 &#x200B;](#alert-custom-action-error-rate)、および [&#x200B; プロファイルエラー率を超過 &#x200B;](#alert-profile-error-rate)。
+1. アラートを選択します。 次のアラートを使用できます：[ プロファイル破棄率を超過 ](#alert-discard-rate)、[ カスタムアクションエラー率を超過 ](#alert-custom-action-error-rate)、および [ プロファイルエラー率を超過 ](#alert-profile-error-rate)。
 
 1. アラートの購読を解除するには、同じ画面からアラートの選択を解除します。
 
 1. 「**[!UICONTROL 保存]**」をクリックして確認します。
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=ja#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## ジャーニーアラート {#journey-alerts}
 
@@ -133,9 +133,9 @@ ht-degree: 65%
 
 **カスタムアクション**&#x200B;アラートのトラブルシューティングをするには:
 
-* 別のジャーニーで [&#x200B; テストモード &#x200B;](../building-journeys/testing-the-journey.md) を使用してカスタムアクションを確認します。
+* 別のジャーニーで [ テストモード ](../building-journeys/testing-the-journey.md) を使用してカスタムアクションを確認します。
 
-* [&#x200B; ジャーニーレポート &#x200B;](../reports/journey-live-report.md) を確認して、アクションのエラー理由を確認します。
+* [ ジャーニーレポート ](../reports/journey-live-report.md) を確認して、アクションのエラー理由を確認します。
 
 * ジャーニーの stepEvents で「failureReason」の詳細を確認します。
 
@@ -143,7 +143,7 @@ ht-degree: 65%
 
 ### プロファイルの破棄率を超えました {#alert-discard-rate}
 
-このアラートは、過去 5 分間に入力されたプロファイルに対するプロファイル破棄の割合が、しきい値を超えた場合に警告します。 デフォルトのしきい値は 20% に設定されていますが、[&#x200B; カスタムしきい値を定義する &#x200B;](#custom-threshold) ことができます。
+このアラートは、過去 5 分間に入力されたプロファイルに対するプロファイル破棄の割合が、しきい値を超えた場合に警告します。 デフォルトのしきい値は 20% に設定されていますが、[ カスタムしきい値を定義する ](#custom-threshold) ことができます。
 
 アラートの名前をクリックすると、アラートの詳細と設定を確認できます。
 
@@ -158,7 +158,7 @@ ht-degree: 65%
 
 ### カスタムアクションのエラー率を超えました {#alert-custom-action-error-rate}
 
-このアラートは、過去 5 分間に成功した HTTP 呼び出しに対するカスタムアクションエラーの割合が、しきい値を超えた場合に警告します。 デフォルトのしきい値は 20% に設定されていますが、[&#x200B; カスタムしきい値を定義する &#x200B;](#custom-threshold) ことができます。
+このアラートは、過去 5 分間に成功した HTTP 呼び出しに対するカスタムアクションエラーの割合が、しきい値を超えた場合に警告します。 デフォルトのしきい値は 20% に設定されていますが、[ カスタムしきい値を定義する ](#custom-threshold) ことができます。
 
 カスタムアクションエラーは、様々な理由で発生する可能性があります。 これらのエラーのトラブルシューティングを行うには、次のようにします。
 
@@ -168,7 +168,7 @@ ht-degree: 65%
 
 ### プロファイルのエラー率を超えました {#alert-profile-error-rate}
 
-このアラートは、過去 5 分間に成功した HTTP 呼び出しに対するカスタムアクションエラーの割合が、しきい値を超えた場合に警告します。 デフォルトのしきい値は 20% に設定されていますが、[&#x200B; カスタムしきい値を定義する &#x200B;](#custom-threshold) ことができます。
+このアラートは、過去 5 分間に成功した HTTP 呼び出しに対するカスタムアクションエラーの割合が、しきい値を超えた場合に警告します。 デフォルトのしきい値は 20% に設定されていますが、[ カスタムしきい値を定義する ](#custom-threshold) ことができます。
 
 アラートの名前をクリックすると、アラートの詳細と設定を確認できます。
 
@@ -256,13 +256,13 @@ This alert warns you if a domain certificate (CDN, tracking URL) renewal failed 
 ### アラートの編集
 
 アラートの行をクリックすると、そのアラートの詳細を確認できます。名前、ステータス、通知チャネルが左側のパネルに表示されます。
-ジャーニーアラートの場合は、「その他のアクション **[!UICONTROL ボタンを使用して編集し]** す。 その後、これらのアラートに対して [&#x200B; カスタムスレッシュホールド &#x200B;](#custom-threshold) を定義できます。
+ジャーニーアラートの場合は、「その他のアクション **[!UICONTROL ボタンを使用して編集し]** す。 その後、これらのアラートに対して [ カスタムスレッシュホールド ](#custom-threshold) を定義できます。
 
 ![](assets/alert-more-actions.png){width=60%}
 
 ### カスタムしきい値の定義 {#custom-threshold}
 
-[ジャーニーアラートのしきい値を設定でき &#x200B;](#journey-alerts) す。 しきい値アラートは、デフォルトを 20% 超えています。
+[ジャーニーアラートのしきい値を設定でき ](#journey-alerts) す。 しきい値アラートは、デフォルトを 20% 超えています。
 
 しきい値を変更するには：
 
