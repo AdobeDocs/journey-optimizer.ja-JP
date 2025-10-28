@@ -10,9 +10,9 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: 式, エディター, 説明, 開始
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 6b3005dd9483ff5311e4bf6b4f13d254c6be41d6
 workflow-type: tm+mt
-source-wordcount: '1565'
+source-wordcount: '1550'
 ht-degree: 98%
 
 ---
@@ -105,7 +105,7 @@ Journey Optimizer では、メッセージ内の **URL** をパーソナライ�
 * **[!UICONTROL ターゲット属性]**：このフォルダーは、調整されたキャンペーンに固有です。キャンペーンキャンバス内で直接計算された属性が含まれます。[詳しくは、調整されたキャンペーンの追加方法を参照してください。](../orchestrated/activities/channels.md#add-personalization)
 * **[!UICONTROL オーディエンス]**：Adobe Experience Platform セグメント化サービスで作成されたすべてのオーディエンスをリストします。セグメント化の詳細については、[こちら](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja){target="_blank"}を参照してください。
 * **[!UICONTROL オファー決定]**：特定のプレースメントに関連付けられているすべてのオファーを一覧表示します。配置を選択し、コンテンツにオファーを挿入します。オファーの管理方法に関する詳細なドキュメントについては、[この節](../offers/get-started/starting-offer-decisioning.md)を参照してください。
-* **[!UICONTROL コンテキスト属性]**：チャネルアクションアクティビティ（メール、プッシュ、SMS）をジャーニーまたはキャンペーンで使用する場合、イベントやプロパティに関連するコンテキスト属性をパーソナライズに使用できます。コンテキスト属性を活用したパーソナライゼーションの例については、[&#x200B; この節 &#x200B;](personalization-use-case.md) を参照してください。
+* **[!UICONTROL コンテキスト属性]**：チャネルアクションアクティビティ（メール、プッシュ、SMS）をジャーニーまたはキャンペーンで使用する場合、イベントやプロパティに関連するコンテキスト属性をパーソナライズに使用できます。コンテキスト属性を活用したパーソナライゼーションの例については、[ この節 ](personalization-use-case.md) を参照してください。
 
 >[!NOTE]
 >
@@ -162,8 +162,6 @@ Journey Optimizer では、メッセージ内の **URL** をパーソナライ�
 1. **[!UICONTROL ピル]**：長い属性パスを非表示にして読みやすさを向上させるために、属性をコンパクトな「ピル」として表示します。属性をクリックすると、その完全なパスが表示されます。
 
    >[!NOTE]
-   >
-   >ピルの表示は、今後 30 日間にわたってすべての環境に段階的にロールアウトされます。
    >
    >このオプションは、プロファイル属性、コンテキスト属性およびダイナミックメディアでのみ使用できます。
 
