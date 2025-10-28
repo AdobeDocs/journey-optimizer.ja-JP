@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 送信時間, 送信, メッセージ, 最適化, ジャーニー, AI, インテリジェント
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
 workflow-type: tm+mt
-source-wordcount: '1485'
-ht-degree: 100%
+source-wordcount: '1520'
+ht-degree: 99%
 
 ---
 
@@ -98,6 +98,10 @@ Adobe Journey Optimizer の送信時間の最適化機能（アドビのジャ�
 
 
 ## よくある質問 {#faq-send-time}
+
+送信時間の最適化に関するよくある質問を以下に示します。
+
+さらに詳細が必要ですか？このページの下部にあるフィードバックオプションを使用して、質問を入力するか、[Adobe Journey Optimizer コミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"}にアクセスしてください。
 
 +++送信時間の最適化を使用する前に、どのくらいの時間を待機する必要がありますか？
 

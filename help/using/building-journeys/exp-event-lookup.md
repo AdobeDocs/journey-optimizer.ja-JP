@@ -5,10 +5,10 @@ title: ジャーニーのエクスペリエンスイベント参照
 description: ジャーニーのエクスペリエンスイベント参照の使用方法について説明します
 exl-id: 35e2e347-0669-44a3-92ba-aee52e54c219
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 100%
+source-wordcount: '949'
+ht-degree: 98%
 
 ---
 
@@ -129,7 +129,9 @@ ht-degree: 100%
 
 ## よくある質問 {#faq-ee}
 
-ジャーニーの式／条件でのエクスペリエンスイベントの使用はサポートされなくなりました。影響について詳しくは、以下の FAQ を参照してください。
+ジャーニーでのエクスペリエンスイベント検索に関するよくある質問を以下に示します。
+
+さらに詳細が必要ですか？このページの下部にあるフィードバックオプションを使用して、質問を入力するか、[Adobe Journey Optimizer コミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"}にアクセスしてください。
 
 +++影響を受ける特定の機能は何ですか？ 
 

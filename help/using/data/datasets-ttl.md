@@ -8,10 +8,10 @@ role: Developer, Admin
 level: Experienced
 keywords: プラットフォーム, データレイク, 作成, レイク, データセット, プロファイル
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 100%
+source-wordcount: '711'
+ht-degree: 98%
 
 ---
 
@@ -50,7 +50,9 @@ ht-degree: 100%
 
 ## よくある質問 {#faq}
 
-次に、データセット TLL に関するよくある質問への回答のリストを示します。
+データセットの有効期間（TTL）に関するよくある質問を以下に示します。
+
+さらに詳細が必要ですか？このページの下部にあるフィードバックオプションを使用して、質問を入力するか、[Adobe Journey Optimizer コミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"}にアクセスしてください。
 
 +++この変更は、本番サンドボックスにのみ適用されますか？それとも開発サンドボックスにも適用されますか？
 

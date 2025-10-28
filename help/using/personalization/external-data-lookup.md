@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 badge: label="限定提供" type="Informative"
 exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
 workflow-type: tm+mt
-source-wordcount: '1202'
-ht-degree: 97%
+source-wordcount: '1241'
+ht-degree: 96%
 
 ---
 
@@ -206,16 +206,24 @@ First video description: {%=result.videos[0].description ?: "none found" %}
 
 ![](assets/external-data-troubleshoot.png "width=50%")
 
-## よくある質問
+## よくある質問 {#faq-external-data}
 
-* リクエストからのコンテキスト属性をパラメーターとして外部データ参照に渡すにはどうすればよいですか？
+外部データ検索ヘルパーに関するよくある質問を以下に示します。
 
-  コンテキスト属性/ データストリーム / イベント メニューを使用して、使用しているエクスペリエンスイベントスキーマを参照し、関連する属性をパラメーター値として次のように挿入します。
+さらに詳細が必要ですか？このページの下部にあるフィードバックオプションを使用して、質問を入力するか、[Adobe Journey Optimizer コミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"}にアクセスしてください。
 
-  ```
-  {{externalDataLookup actionId="..." result="result" query.myQueryParameter=context.datastream.event.<schemaId>.my.xdm.attribute}}
-  ```
++++ リクエストからのコンテキスト属性をパラメーターとして外部データ参照に渡すにはどうすればよいですか？
 
-* [!DNL Journey Optimizer] では、外部エンドポイント応答をキャッシュしますか？
+コンテキスト属性/ データストリーム / イベント メニューを使用して、使用しているエクスペリエンスイベントスキーマを参照し、関連する属性をパラメーター値として次のように挿入します。
 
-  現在はサポートされていません。 この機能は今後サポートされる予定です。
+```
+{{externalDataLookup actionId="..." result="result" query.myQueryParameter=context.datastream.event.<schemaId>.my.xdm.attribute}}
+```
+
++++
+
++++ [!DNL Journey Optimizer] では、外部エンドポイント応答をキャッシュしますか？
+
+現在はサポートされていません。 この機能は今後サポートされる予定です。
+
++++

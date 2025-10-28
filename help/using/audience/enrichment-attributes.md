@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3ec496ba-7555-49e2-992c-403c33302a90
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 96%
+source-wordcount: '550'
+ht-degree: 95%
 
 ---
 
@@ -56,10 +56,11 @@ ht-degree: 96%
 >+++
 
 
+## よくある質問 {#faq-enrichment}
 
+エンリッチメント属性に関するよくある質問を以下に示します。
 
-
-
+さらに詳細が必要ですか？このページの下部にあるフィードバックオプションを使用して、質問を入力するか、[Adobe Journey Optimizer コミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"}にアクセスしてください。
 
 +++ エンリッチメント属性とは何ですか？
 

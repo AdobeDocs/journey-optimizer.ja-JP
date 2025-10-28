@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: アセット, Experience Manager, 統合
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 100%
+source-wordcount: '826'
+ht-degree: 98%
 
 ---
 
@@ -112,7 +112,11 @@ ht-degree: 100%
     -->
 
 
-## [!DNL Adobe Experience Manager Assets] に関する FAQ {#faq-assets}
+## よくある質問 {#faq-assets}
+
+Adobe Experience Manager Assetsに関するよくある質問を以下に示します。
+
+さらに詳細が必要ですか？このページの下部にあるフィードバックオプションを使用して、質問を入力するか、[Adobe Journey Optimizer コミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"}にアクセスしてください。
 
 +++ Journey Optimizer 内でバンドルされた Assets Essentials リポジトリを引き続き使用できますか？
 
