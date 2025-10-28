@@ -9,8 +9,8 @@ role: User
 level: Intermediate
 version: Journey Orchestration
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
-source-git-commit: 5b7847957cc0fa176a32c7e0b01d5f41fd424610
-workflow-type: ht
+source-git-commit: ccd9f1aa3359875796104d9789d5dd8c0279c0c1
+workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 100%
 
@@ -45,7 +45,7 @@ Adobe Experience Platform で参照するには、データセットを有効に
 
 * ジャーニーあたり最大 10 個のデータセット参照アクティビティ。
 * 最大 20 個の選択フィールド。
-* 参照キー配列内に最大 500 個のキー。
+* 参照キー配列内に最大 50 個のキー。
 * 強化されたデータサイズは 10 KB に制限されています。
 
 ### その他のパフォーマンスに関する考慮事項
