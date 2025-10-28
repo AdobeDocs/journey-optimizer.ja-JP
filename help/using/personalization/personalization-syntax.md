@@ -9,10 +9,10 @@ role: Developer
 level: Intermediate
 keywords: 式, エディター, 構文, パーソナライゼーション
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 50eff8b6c4aaa432595bf16ef1d567c272d6b084
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 99%
+source-wordcount: '588'
+ht-degree: 96%
 
 ---
 
@@ -44,6 +44,8 @@ ht-degree: 99%
 * **true**、**false**、**null** および **undefined**&#x200B;という語は、パス式の最初の部分でのみ使用できます。
 
 * Handlebars では、{{expression}} から返される値は **HTML エスケープ**&#x200B;されています。式に「`&`」が含まれている場合、返される HTML エスケープ出力は「`&amp;`」として生成されます。Handlebars の値をエスケープしない場合は、「トリプルスタッシュ」を使用します。
+
+  フィールド `profile.person.name` の値が「Mark &amp; Mary」であるとします。 構文 `{{profile.person.name}}` には `Mark &amp; Mary` が表示され、`{{{profile.person.name}}}` には `Mark & Mary` が表示されます。
 
 * リテラル関数の引数に関して、テンプレート言語パーサーはエスケープされない単一のバックスラッシュ（`\`）記号をサポートしていません。この文字は、バックスラッシュ（`\`）記号を追加してエスケープする必要があります。例：
 
