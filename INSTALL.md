@@ -21,6 +21,7 @@ ht-degree: 4%
    ```
    @setup-agents
    ```
+
 3. プロンプトに従います
 4. 完了！✨
 
@@ -32,11 +33,13 @@ ht-degree: 4%
    ```bash
    ./setup-agents.sh
    ```
+
    または手動で：
 
    ```bash
    git submodule update --init --recursive
    ```
+
 3. 完了！✨
 
 ## 検証
@@ -136,7 +139,7 @@ journey-optimizer.en/
 
 これにより、すべてのユーザーが同じ最新のエージェントを使用できるようになります。
 
----
+&#x200B;---
 
 **サポートが必要な場合** ドキュメントチームのリーダーに問い合わせるか、内部 Wiki を確認します。
 
