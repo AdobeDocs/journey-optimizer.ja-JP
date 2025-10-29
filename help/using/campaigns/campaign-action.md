@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 作成, Optimizer, キャンペーン, サーフェス, メッセージ
 exl-id: fed96e48-2e54-4bd4-ae17-77434d1b90eb
-source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
+source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 88%
+source-wordcount: '829'
+ht-degree: 86%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 88%
 
    >[!NOTE]
    >
-   >サポートされているチャネル：[メール](../email/get-started-email.md)、[SMS／MMS／RCS](../sms/get-started-sms.md)、[プッシュ通知](../push/get-started-push.md)、[WhatsApp](../whatsapp/get-started-whatsapp.md)、[LINE](../line/get-started-line.md)、[ダイレクトメール](../direct-mail/get-started-direct-mail.md)、[アプリ内](../in-app/get-started-in-app.md)、[Web](../web/get-started-web.md)、[コードベースのエクスペリエンス](../code-based/get-started-code-based.md)。
+   >サポートされるチャネルの詳細については、この節の表 [ ジャーニーとキャンペーンのチャネル ](../channels/gs-channels.md#channels) を参照してください。
    >
    >使用できるチャネルは、ライセンスモデルとアドオンによって異なります。
 
@@ -69,7 +69,7 @@ ht-degree: 88%
 
 +++**迅速配信モードを有効にする**（プッシュ）。
 
-迅速配信モードは、キャンペーンを通じて大量のプッシュメッセージを非常に高速に送信できるようにする [!DNL Journey Optimizer] アドオンです。 迅速配信は、メッセージ配信の遅延がビジネス上の重要な問題になる状況で、携帯電話に緊急のプッシュアラートを送信するときに使用します（ニュースチャネルアプリをインストールしたユーザーにニュース速報を流すなど）。プッシュ通知の迅速配信モードを有効にする方法については [&#x200B; このページ &#x200B;](../push/create-push.md#rapid-delivery) を参照してください。
+迅速配信モードは、キャンペーンを通じて大量のプッシュメッセージを非常に高速に送信できるようにする [!DNL Journey Optimizer] アドオンです。 迅速配信は、メッセージ配信の遅延がビジネス上の重要な問題になる状況で、携帯電話に緊急のプッシュアラートを送信するときに使用します（ニュースチャネルアプリをインストールしたユーザーにニュース速報を流すなど）。プッシュ通知の迅速配信モードを有効にする方法については [ このページ ](../push/create-push.md#rapid-delivery) を参照してください。
 
 迅速配信モードを使用する際のパフォーマンスについて詳しくは、[Adobe Journey Optimizer 製品の説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}を参照してください。
 

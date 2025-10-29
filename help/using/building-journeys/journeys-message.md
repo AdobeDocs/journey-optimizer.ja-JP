@@ -10,10 +10,10 @@ level: Intermediate
 keywords: ジャーニー, メッセージ, プッシュ, sms, メール, アプリ内, web, コンテンツカード, コードベースのエクスペリエンス
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 100%
+source-wordcount: '554'
+ht-degree: 96%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 
 ## ジャーニーでのメッセージの追加  {#add-msg-in-journey}
 
-ビルトインのチャネルアクションを使用すると、アウトバウンドまたはインバウンドメッセージを設定できます。サポートされるインバウンドチャネルは、メール、テキストメッセージ（SMS／MMS）およびプッシュ通知です。サポートされるアウトバウンドチャネルは、アプリ内、web、コードベースのエクスペリエンスおよびコンテンツカードです。
+ビルトインのチャネルアクションを使用すると、アウトバウンドまたはインバウンドメッセージを設定できます。ジャーニーで使用可能なチャネルについて詳しくは、この節の表 [ ジャーニーとキャンペーンのチャネル ](../channels/gs-channels.md#channels) を参照してください。
 
 ジャーニーにビルトインのチャネルアクションを追加するには、次の手順に従います。
 
