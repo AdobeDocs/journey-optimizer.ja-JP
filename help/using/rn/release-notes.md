@@ -288,7 +288,7 @@ ht-degree: 47%
 <tr>
 <td>
 <p>Journey Optimizer Experimentation Acceleratorに、実験エージェントが含まれるようになりました。これは、実験、インサイト、機会とやり取りできる、AI を活用した対話型ツールです。 Journey Optimizer Experimentation Acceleratorのエクスペリエンスを向上させ、実験をより効率的に実行し、何が機能するかを明らかにし、次にどこを最適化するかを見つけるのを支援します。</p>
-<p>詳しくは、<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=ja" target="_blank">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2025年10月10日（PT）</p>
 </td>
 </tr>
