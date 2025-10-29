@@ -1,5 +1,5 @@
 ---
-source-git-commit: d7bb3424bc6dfb837b47d15c448a2d46bf4b6c3c
+source-git-commit: 80d5f294491b35dcdbfe4976cb3ec4cf14384858
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 4%
@@ -138,8 +138,6 @@ journey-optimizer.en/
 **https://git.corp.adobe.com/AdobeDocs/CursorAgents**
 
 これにより、すべてのユーザーが同じ最新のエージェントを使用できるようになります。
-
-&#x200B;---
 
 **サポートが必要な場合** ドキュメントチームのリーダーに問い合わせるか、内部 Wiki を確認します。
 
