@@ -116,7 +116,7 @@ Image to HTML コンバーターは、ジェネレーティブ AI テクノロ�
 
 ジャーニーまたはキャンペーンでメールを作成する際に、**[!UICONTROL コンテンツを編集]** 画面からメールDesignerにアクセスします。
 
-[ メールテンプレートの操作 ](use-email-templates.md) および [ コンテンツテンプレートの作成 ](../content-management/content-templates.md) について説明します。
+[&#x200B; メールテンプレートの操作 &#x200B;](use-email-templates.md) および [&#x200B; コンテンツテンプレートの作成 &#x200B;](../content-management/content-templates.md) について説明します。
 
 ## ベストプラクティス {#best-practices}
 
