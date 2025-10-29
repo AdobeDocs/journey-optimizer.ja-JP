@@ -44,7 +44,7 @@ ht-degree: 89%
 
 >[!NOTE]
 >
->[ 欧州アクセシビリティ法 ](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} は、すべてのデジタル通信がアクセス可能であるべきであると規定しています。 この節に示すメールデザインのベストプラクティスに加えて、電子メールDesignerを使用してアクセシブルなコンテンツを構築する際に固有の [ このページ ](accessible-content.md) に記載されているガイドラインにも従ってください。
+>[&#x200B; 欧州アクセシビリティ法 &#x200B;](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} は、すべてのデジタル通信がアクセス可能であるべきであると規定しています。 この節に示すメールデザインのベストプラクティスに加えて、電子メールDesignerを使用してアクセシブルなコンテンツを構築する際に固有の [&#x200B; このページ &#x200B;](accessible-content.md) に記載されているガイドラインにも従ってください。
 
 ## メールコンテンツを作成するための主な手順 {#key-steps}
 
