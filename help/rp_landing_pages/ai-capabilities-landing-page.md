@@ -5,10 +5,10 @@ title: Adobe Journey Optimizerの AI 機能
 description: Adobe Journey Optimizerの AI 機能
 hide: true
 hidefromtoc: true
-source-git-commit: e06876a2f7f6e7145f08f725c1bfd4fdf59caf5c
+source-git-commit: 7db2932d6f4c6455cc323103c89e6d673d50efd0
 workflow-type: tm+mt
-source-wordcount: '1218'
-ht-degree: 4%
+source-wordcount: '1436'
+ht-degree: 3%
 
 ---
 
@@ -80,68 +80,53 @@ Adobe インテリジェントサービスとの統合により、顧客の行�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/analytics.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
-ジャーニー分析エージェント
+ブランドの整合性スコアリング
 
-自然言語を使用してジャーニーを分析し最適化します。 フォールアウトポイントを特定し、オーディエンスとスケジュールの競合を検出して、実用的なレコメンデーションを取得します。
+AI を活用したスコアリングを使用して、AI で生成されたコンテンツがブランドガイドラインにどの程度適合しているかを評価します。
 
-[Journey Agentを探索 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"}
+[ブランドの整合性について学ぶ](../using/content-management/brands-score.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/beaker.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
-実験エージェント
+実験アクセラレータ
 
-AI を活用したインサイトでデジタル実験を実行および管理します。 次のテストに備えて、パフォーマンスの概要、コンテンツの分析、推奨事項を入手します。
+AI に基づくインサイトとレコメンデーションを使用して、コンテンツ実験プロセスを高速化します。
 
-[Discover 実験エージェント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}
+[実験アクセラレータを探索](../using/content-management/experiment-accelerator-gs.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-Audience Agent
+AI を活用した API
 
-会話型 AI を使用して、オーディエンスセグメントを作成、分析および最適化します。 自然言語クエリを使用して複雑なセグメントを作成し、オーディエンスの重複に関するインサイトを得ます。
+API を使用して、プログラムでJourney Optimizerの AI および機械学習機能にアクセスします。
 
-[Audience Agentについて &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/audience-agent){target="_blank"}
-:::
-
-:::
-![icon](https://cdn.experienceleague.adobe.com/icons/workflow.svg)
-
-Agent Orchestrator
-
-複数の AI エージェントを調整して、シームレスに連携します。 ジャーニー、実験、オーディエンス、データインサイトの各エージェントを組み合わせて、複雑なタスクを解決します。
-
-[Agent Orchestratorを探索 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}
+[AI を活用した API の確認](../using/configuration/ajo-apis.md)
 :::
 
 ::::
 
 
-## その他のリソース
-
-- **[ブランドの整合性スコアリング](../using/content-management/brands-score.md)** - AI を活用したスコアリングを使用して、AI で生成されたコンテンツがブランドガイドラインにどの程度適合しているかを評価します。
-- **[実験アクセラレーター](../using/content-management/experiment-accelerator-gs.md)** - AI 駆動型のインサイトとレコメンデーションでコンテンツ実験プロセスを加速します。
-- **[AI を利用した API](../using/configuration/ajo-apis.md)** - API を介して、プログラムからJourney Optimizerの AI および機械学習機能にアクセスします。
 
 ## Adobe Experience Cloudの AI エージェント
 
 Adobe Experience Cloud AI Agents は、AI 機能をJourney Optimizer以外にも拡張し、複雑なマーケティングタスクで自然言語のやり取りを可能にします。
 
-- **[ジャーニー分析エージェント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"}** - ジャーニーのフォールアウト分析を実行し、オーディエンスとスケジュールの重複を検出し、ジャーニーのパフォーマンスを最適化するための実用的なレコメンデーションを受け取ります。
-- **[実験エージェント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}** – 実験結果を分析し、勝者パターンを特定し、チャネルをまたいでテストする新しい機会を見つけます。
+- **[ジャーニー分析エージェント ](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"}** - ジャーニーのフォールアウト分析を実行し、オーディエンスとスケジュールの重複を検出し、ジャーニーのパフォーマンスを最適化するための実用的なレコメンデーションを受け取ります。
+- **[実験エージェント ](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}** – 実験結果を分析し、勝者パターンを特定し、チャネルをまたいでテストする新しい機会を見つけます。
 - **[Audience Agent](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/audience-agent){target="_blank"}** – 対話型 AI を使用してオーディエンスセグメントを作成および管理し、オーディエンスの構成を分析し、セグメント化戦略を最適化します。
 - **[Agent Orchestrator](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}** – 複数の専門エージェントを調整して、複雑で複数の手順を持つマーケティングの課題を効率的に解決します。
 
 ## よくある質問
 
-+++**AI 機能を使用するには、どのような権限が必要ですか？**
++++**Journey Optimizerで AI アシスタントを使用するには、どのような権限が必要ですか？**
 
-AI アシスタントをコンテンツの生成に使用するには、ユーザーに **コンテンツの生成** 権限を付与する必要があります。 この権限は、権限製品の AI アシスタント リソースを通じて割り当てられます。 AI アシスタントを使用して商品の知識や運用上のインサイトを得るには、Adobe Experience Cloud ジェネレーティブ AI ユーザーガイドラインに同意する必要があります。
+AI アシスタントをコンテンツの生成に使用するには、ユーザーに **コンテンツの生成** 権限を付与する必要があります。 この権限は、権限製品の AI アシスタント リソースを通じて割り当てられます。 AI アシスタントを使用して商品の知識や運用上のインサイトを得るには、Adobe Experience Cloud ジェネレーティブ AI ユーザーガイドラインに同意する必要があります。 AI エージェントの権限については、以下の別の FAQ エントリを参照してください。
 
 [権限の詳細](../using/administration/ootb-permissions.md)
 
@@ -217,9 +202,47 @@ AI アシスタントをコンテンツの生成に使用するには、ユー�
 
 +++
 
++++**Adobe Experience Cloud AI エージェントとは**
+
+AI エージェントは、Adobe Experience Platform上に構築された特殊な AI アシスタントで、自然言語を使用して、複雑なマーケティングタスクの分析、最適化および管理を支援します。 コンテンツ生成用の AI アシスタントとは異なり、AI エージェントは、運用インサイト、ジャーニー分析、オーディエンス管理、実験に焦点を当てます。 使用可能なエージェントには、ジャーニー分析エージェント、実験エージェント、Audience Agent、Agent Orchestratorが含まれます。
+
+[AI エージェントの詳細を学ぶ ](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}
+
++++
+
++++**AI エージェントを使用するには、どのような権限が必要ですか？**
+
+権限はエージェントによって異なります。
+
+- **ジャーニー分析エージェント** - ジャーニーを作成するには、**ジャーニーの表示** インサイトの表示権限と **ジャーニーの管理** が必要です。 オーディエンスを操作するには、**セグメントの表示** および **セグメントの管理** 権限も必要です。
+- **実験エージェント** – 実験を作成するには、インサイトを表示する **実験を表示** 権限と **実験メタデータを管理** 権限が必要です。
+- **Audience Agent** – 適切なセグメント表示権限と管理権限が必要です。
+- すべての担当者が AI アシスタントにアクセスし、Adobe Experience Cloud ジェネレーティブ AI ユーザーガイドラインに同意する必要があります。
+
++++
+
++++**ジャーニー分析エージェントの機能**
+
+ジャーニー分析エージェントは、次の場合に役立ちます。
+
+- **ジャーニーのフォールアウトの分析** - ジャーニー中に顧客が離脱する場所と理由を特定し、離脱パターンを検出します。
+- **オーディエンスの重複の検出** – 複数のジャーニーにわたるオーディエンスの重複を分析して、ターゲティング超過による疲労を防ぎます。
+- **スケジュールの競合の特定** – 同じオーディエンスをターゲティングするスケジュール済みジャーニー間のタイミングの競合を検出します。
+- **運用インサイトの表示** – 「すべてのライブジャーニーを表示」や「1 つ以上のジャーニーで使用されているオーディエンス」など、プロンプトベースのインサイトを取得します。
+
+[ジャーニー分析エージェントの探索 ](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"}
+
++++
+
++++**AI エージェントはどのように連携しますか？**
+
+**Agent Orchestrator** は、複数の専門エージェントを調整して、複雑で複数の手順を持つマーケティングの課題を解決します。 例えば、ジャーニー分析エージェントを使用してフォールアウトポイントを特定したり、Audience Agentを使用してセグメントの構成を分析したり、実験エージェントを使用してソリューションをテストしたりできます。 オーケストレーターは、関与するエージェントを自動的に決定し、作業を効率的に順序付けます。
+
++++
+
 +++**AI 機能を使用するには、何らかの条件に同意する必要がありますか？**
 
-はい、Journey Optimizerで AI アシスタントを使用する前に、[Adobe Experience Cloud ジェネレーティブ AI ユーザーガイドライン &#x200B;](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html) に同意する必要があります。 詳しくは、Adobe担当者にお問い合わせください。 さらに、Adobeは、生成される AI の使用における透明性への取り組みの一環として、Fireflyで生成されたアセットにContent Credentialsを適用します。
+はい、Journey Optimizerの AI アシスタントまたはAdobe Experience Cloudの AI エージェントを使用する前に [Adobe Experience Cloud ジェネレーティブ AI ユーザーガイドライン ](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"} に同意する必要があります。 詳しくは、Adobe担当者にお問い合わせください。 さらに、Adobeは、生成される AI の使用における透明性への取り組みの一環として、Fireflyで生成されたアセットにContent Credentialsを適用します。
 
 +++
 
