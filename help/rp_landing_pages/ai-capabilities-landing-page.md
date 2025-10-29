@@ -96,7 +96,7 @@ Adobe インテリジェントサービスとの統合により、顧客の行�
 
 AI を活用したインサイトでデジタル実験を実行および管理します。 次のテストに備えて、パフォーマンスの概要、コンテンツの分析、推奨事項を入手します。
 
-[Discover 実験エージェント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}
+[Discover 実験エージェント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}
 :::
 
 :::
@@ -133,7 +133,7 @@ Agent Orchestrator
 Adobe Experience Cloud AI Agents は、AI 機能をJourney Optimizer以外にも拡張し、複雑なマーケティングタスクで自然言語のやり取りを可能にします。
 
 - **[ジャーニー分析エージェント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"}** - ジャーニーのフォールアウト分析を実行し、オーディエンスとスケジュールの重複を検出し、ジャーニーのパフォーマンスを最適化するための実用的なレコメンデーションを受け取ります。
-- **[実験エージェント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}** – 実験結果を分析し、勝者パターンを特定し、チャネルをまたいでテストする新しい機会を見つけます。
+- **[実験エージェント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}** – 実験結果を分析し、勝者パターンを特定し、チャネルをまたいでテストする新しい機会を見つけます。
 - **[Audience Agent](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/audience-agent){target="_blank"}** – 対話型 AI を使用してオーディエンスセグメントを作成および管理し、オーディエンスの構成を分析し、セグメント化戦略を最適化します。
 - **[Agent Orchestrator](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}** – 複数の専門エージェントを調整して、複雑で複数の手順を持つマーケティングの課題を効率的に解決します。
 
