@@ -8,10 +8,10 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 273cda84-0261-4c5b-b5f4-0202e8874d05
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: b93d2288156713ac7479eef491f6104df1955a18
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 100%
+source-wordcount: '663'
+ht-degree: 64%
 
 ---
 
@@ -56,8 +56,6 @@ ht-degree: 100%
 `Timestamp` フィールドは、アクション実行の終了時刻を示します。プロファイルがカスタムアクションノードにエントリしたタイミングを特定するには、`Timestamp` から `actionExecutionTime` を減算します。
 
 例えば、`Timestamp` が「2025-02-04 09:39:03 UTC」で、`actionExecutionTime` が 1,813,227 ミリ秒（～31 分）の場合、プロファイルは「2025-02-04 09:08:32 UTC」頃にノードにエントリしました。
-
-
 
 
 ## actionExecutionError {#actionexecutionerror-field}
@@ -106,6 +104,56 @@ ht-degree: 100%
 actionExecOrigError のエラーコード。
 
 型：文字列
+
+## actionOriginEndpoint {#actionoriginendpoint}
+
+アクションで使用されるカスタムアクションエンドポイントの URI。
+
+型：文字列
+
+## actionOriginMethod {#actionoriginmethod}
+
+これは、HTTP リクエストで使用されるメソッド（GETまたは POST）を表します。
+
+型：文字列
+
+## actionOriginIsMTLS {#actionoriginismtls}
+
+これは、エンドポイントに対して MTLS が有効になっているかどうかを表します。
+
+型：ブール型
+
+## actionIsProxy {#actionisproxy}
+
+定義済みの IP アドレス範囲を持つ HTTP プロキシが呼び出しに使用されるかどうかを示します。
+
+型：ブール型
+
+## actionExecutionOriginStartTime {#actionexecutionoriginstarttime}
+
+これは、HTTP リクエストが開始されるタイムスタンプを表します。 再試行の場合、これは最後の再試行が開始されるタイムスタンプです。 タイムスタンプは、UTC タイムゾーンで ISO8601 形式を使用します。
+
+このタイムスタンプは、通常、プロファイルがカスタムアクションノードに入ってやや後になることに注意してください。または、スロットルの場合、プロファイルがノードに入ってかなり後になります。
+
+タイプ：timestamp
+
+## actionExecutionOriginTime {#actionexecutionorigintime}
+
+HTTP 呼び出しの応答時間を表します。 再試行の場合、これは最後の再試行の試行にかかる時間です。 HTTP リクエストが開始されてから、サーバーから完全な応答が返されるまでの時間を測定します。 スロットルの場合、キューでの待機に費やされた時間は除外されます。
+
+型：long
+
+## actionIsThrottled {#actionisthrottled}
+
+これは、エンドポイントに対してスロットルが有効になっているかどうかを表します。
+
+型：ブール型
+
+## actionWaitTime {#actionwaittime}
+
+これは、スロットルされたエンドポイントに対して設定されたレート制限に達した場合、呼び出しは設定されたレートでキューに入れられ、処理されます。 このフィールドは、コールが実行されるまでキュー内で待機していた時間をレポートします。 actionIsThrottled が true の場合にのみ指定==ます。
+
+型：long
 
 ## actionBusinessType {#actionbusinesstype-field}
 

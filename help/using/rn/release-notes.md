@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 913104934e78b61b91ea3fca21ee80372050a1fb
+source-git-commit: b93d2288156713ac7479eef491f6104df1955a18
 workflow-type: tm+mt
-source-wordcount: '1209'
-ht-degree: 48%
+source-wordcount: '1297'
+ht-degree: 47%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 48%
 
 [!DNL Adobe Journey Optimizer] は継続的な配信モデルに従っており、Adobeが新機能、機能強化および修正点を継続的に提供できるようにします。 このアプローチにより、機能をスケーラブルかつ段階的にロールアウトして、すべての環境でパフォーマンスと安定性を確保できます。
 
-このモデルのため、リリースノートは毎月のリリースの間に更新されます。  専用の [&#x200B; 最新のアップデート &#x200B;](#updates-rn) セクションでは、実稼動へのデプロイ時に新機能と改善点がハイライト表示されるので、常にすべての変更がリアルタイムで通知されます。<!--For full details about the release cycle and availability phases, see [Journey Optimizer release cycle](#releases.md).-->
+このモデルのため、リリースノートは毎月のリリースの間に更新されます。  専用の [ 最新のアップデート ](#updates-rn) セクションでは、実稼動へのデプロイ時に新機能と改善点がハイライト表示されるので、常にすべての変更がリアルタイムで通知されます。<!--For full details about the release cycle and availability phases, see [Journey Optimizer release cycle](#releases.md).-->
 
 [!DNL Adobe Journey Optimizer] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}を参照してください。
 
@@ -31,6 +31,24 @@ ht-degree: 48%
 **リリース日**：2025年10月22日（PT）
 
 ### 新機能 {#oct-25-10-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>カスタムアクションの監視とレポート</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>この機能により、カスタムアクションエンドポイントの正常性とパフォーマンスがよりわかりやすくなっています。 新しいカスタムアクション監視ダッシュボードと、ジャーニーステップイベントデータセットの対応するフィールドを使用すると、カスタムアクションエンドポイントの成功した呼び出し、エラー、スループット、応答時間、キュー待機時間を監視するのに役立ちます。 カスタムアクションで異常な状況が発生しているタイミング、場所、理由をすばやく把握できるようになりました。</p>
+<p>この機能は、現在、お客様に対して限定提供されています。</p>
+<p>詳しくは、<a href="../action/reporting.md">詳細なドキュメント</a>を参照してください。</p>
+<p>公開日：2025年10月28日（PT）</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -71,24 +89,6 @@ ht-degree: 48%
 </tr>
 </tbody>
 </table>
-
-<!--table>
-<thead>
-<tr>
-<th><strong>Custom action monitoring and reporting</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>This capability provides better visibility into journey health and execution, including lifecycle status and performance alerts. You can now quickly understand when, where, and why an anomalous situation is occurring in a custom action.</p>
-<img src="assets/do-not-localize/FILE.gif">
-<p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p>
-<p>Availability date: October 22, 2025</p>
-</td>
-</tr>
-</tbody>
-</table-->
 
 <!--table>
 <thead>
@@ -288,7 +288,7 @@ ht-degree: 48%
 <tr>
 <td>
 <p>Journey Optimizer Experimentation Acceleratorに、実験エージェントが含まれるようになりました。これは、実験、インサイト、機会とやり取りできる、AI を活用した対話型ツールです。 Journey Optimizer Experimentation Acceleratorのエクスペリエンスを向上させ、実験をより効率的に実行し、何が機能するかを明らかにし、次にどこを最適化するかを見つけるのを支援します。</p>
-<p>詳しくは、<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=ja" target="_blank">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html" target="_blank">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2025年10月10日（PT）</p>
 </td>
 </tr>
