@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: メール, 読み込み, コンテンツ, html, zip, css
 exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
-source-git-commit: e35d18002fa32df8c1cfd9e0a609ce167df4641a
+source-git-commit: ddbab603e4ac612a49a3853fcac428950def1d98
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 100%
@@ -26,6 +26,11 @@ ht-degree: 100%
   >[!NOTE]
   >
   >.zip ファイル構造に制限はありません。ただし、.zip フォルダーのツリー構造に合わせて、相対参照を指定する必要があります。
+
+<!--DOCAC-13676
+>[!TIP]
+>
+>If you have image designs (JPEG or PNG) instead of HTML files, you can use the [Template Accelerator](image-to-html.md) to automatically convert them into editable HTML email templates using AI.-->
 
 HTML コンテンツを含んだファイルをインポートするには、次の手順に従います。
 
@@ -55,4 +60,4 @@ HTML コンテンツを含んだファイルをインポートするには、次
 
 既存の HTML コンテンツの読み込み、デザインの調整、ミラーページと購読解除リンクの追加およびコンテンツのコーディング方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3421912?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/334102?quality=12)
