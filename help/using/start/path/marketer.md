@@ -2,25 +2,25 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Journey Optimizer の基本を学ぶ（マーケター向け）
-description: ジャーニー実務担当者には、Journey Optimizerの操作方法の詳細について説明します
+description: ジャーニー実務担当者向けに Journey Optimizer の操作方法の詳細について説明します
 level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
 source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '466'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-# マーケター向けの基礎知識 {#get-started-marketers}
+# 基本を学ぶ（マーケター向け） {#get-started-marketers}
 
-**マーケター** または **ジャーニー実務担当者** は、オファーおよびジャーニーの作成と、コンテンツのデザインを担当します。 [システム管理者](administrator.md)と[データエンジニア](data-engineer.md)からアクセス権を付与され、環境の準備ができたら、[!DNL Adobe Journey Optimizer] での作業を開始できます。
+**マーケター**&#x200B;または&#x200B;**ジャーニー実務担当者**&#x200B;は、オファーおよびジャーニーの作成とコンテンツのデザインを担当します。[システム管理者](administrator.md)と[データエンジニア](data-engineer.md)からアクセス権を付与され、環境の準備ができたら、[!DNL Adobe Journey Optimizer] での作業を開始できます。
 
 初めてのジャーニーをセットアップし、オファーとアセットを追加して、メッセージを送信するには、以下の節を参照してください。
 
-1. **オーディエンスを作成**&#x200B;します。Journey Optimizer では、**オーディエンス**&#x200B;メニューから直接セグメント定義を通じてオーディエンスを作成し、ジャーニーに活用することができます。オーディエンスについて詳しくは、[このページ](../../audience/about-audiences.md)を参照してください。セグメント定義を作成する方法については、[このサンプル &#x200B;](../../audience/creating-a-segment-definition.md)を参照してください。
+1. **オーディエンスを作成**&#x200B;します。Journey Optimizer では、**オーディエンス**&#x200B;メニューから直接セグメント定義を通じてオーディエンスを作成し、ジャーニーに活用することができます。オーディエンスについて詳しくは、[このページ](../../audience/about-audiences.md)を参照してください。セグメント定義を作成する方法については、[このサンプル ](../../audience/creating-a-segment-definition.md)を参照してください。
 
 1. **パーソナライズ機能と動的コンテンツを追加します**。Journey Optimizer のパーソナライズ機能と動的コンテンツ機能を活用して、メッセージをオーディエンスに合わせます。[パーソナライズ機能](../../personalization/personalize.md)と[動的コンテンツ](../../personalization/get-started-dynamic-content.md)の詳細をご覧ください。
 
