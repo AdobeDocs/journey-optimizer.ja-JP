@@ -6,10 +6,10 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 07a582db495ecbfae97b6d299b65b06c0cdf8c14
 workflow-type: tm+mt
-source-wordcount: '1034'
-ht-degree: 93%
+source-wordcount: '1091'
+ht-degree: 87%
 
 ---
 
@@ -420,9 +420,22 @@ The following operation gets all the values for the map `identityMap`.
 {%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/dd/YY") %}
 ```
 
-## 日付をロケールサポートの形式にする{#format-date-locale}
+### パターン文字 {#pattern-characters}
 
-`formatDate` 関数は、日付と時刻の値を、目的のロケールなどの対応する言語に依存する表現にフォーマットするために使用します。書式は、有効な Java DateTimeFormat パターンである必要があります。
+パターン文字には、見た目は似ていても、概念が異なるものもあります。
+
+| パターン | 意味 | 例（`2023-12-31T10:15:30Z`） |
+|---------|---------|--------------------------------------|
+| `y` | 暦年（標準年） | `2023` |
+| `Y` | 週ベースの年（ISO 8601）。 年の境界で異なる場合があります。 | `2024` （2023 年 12 月 31 日が 2024 年の第 1 週にあたるため） |
+| `M` | 月（1 ～ 12 または `Jan`、`January` などのテキスト） | `12` または `Dec` |
+| `m` | 分時（0～59） | `15` |
+| `d` | 日（1 ～ 31） | `31` |
+| `D` | 年間通算日（1 ～ 366） | `365` |
+
+### 日付をロケールサポートの形式にする{#format-date-locale}
+
+`formatDate` 関数を使用すると、日付と時刻の値を、目的のロケールなどの対応する言語に依存する表現にフォーマットできます。 書式は、有効な Java DateTimeFormat パターンである必要があります。
 
 **構文**
 

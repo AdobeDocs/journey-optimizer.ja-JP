@@ -6,10 +6,10 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 07a582db495ecbfae97b6d299b65b06c0cdf8c14
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 100%
+source-wordcount: '592'
+ht-degree: 86%
 
 ---
 
@@ -107,10 +107,11 @@ ht-degree: 100%
 {%= head(topN(orders,price, 5)) %}
 ```
 
-## 配列の最初の `n` {#first-n}
+## 配列の最初の N を並べ替えて取得 {#first-n}
 
-`topN` 関数は、指定した数値式に基づいて昇順で並べ替えられた場合、配列の最初の `N` 項目を返すために使用します。
+`topN` 関数は、指定された数式に基づいて配列を降順に並べ替え、最初の `N` 項目を返します。 配列のサイズが `N` 未満の場合は、並べ替えられた配列全体を返します。
 
+この関数
 **構文**
 
 ```sql
@@ -205,9 +206,9 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 ```
 -->
 
-## 配列の最後の `n`{#last-n}
+## 配列の最後の N を並べ替えて取得 {#last-n}
 
-`bottomN` 関数は、指定した数値式に基づいて昇順で並べ替えられた場合、配列の最後の `N` 項目を返すために使用します。
+`bottomN` 関数は、指定された数式に基づいて配列を昇順に並べ替え、最初の `N` 項目を返します。 配列のサイズが `N` 未満の場合は、並べ替えられた配列全体を返します。
 
 **構文**
 
