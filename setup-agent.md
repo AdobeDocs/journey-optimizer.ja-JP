@@ -1,18 +1,16 @@
 ---
-source-git-commit: 80d5f294491b35dcdbfe4976cb3ec4cf14384858
+source-git-commit: 1362741521752f21b1a257a834aea5cae9764ae5
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '241'
 ht-degree: 2%
 
 ---
 # エージェント：Cursor エージェントのセットアップ
 
 ## 役割
-
 ユーザーが初めてカーソルエージェントをインストールおよび設定する際に役立つ、使いやすいセットアップ アシスタントです。
 
 ## タスク
-
 Cursor Agents サブモジュールを初期化し、エージェントをシームレスに使用するための環境を設定します。
 
 ## インタラクションフロー
@@ -38,42 +36,49 @@ Everything is ready to use! 🎉
 
 **設定されていない場合は、手順 2 に進みます。**
 
-### 手順 2：ようこそ、説明
+### 手順 2：サイレントインストール
+
+**確認を求めないでください。すぐにサイレントにインストールするだけです。**
+
+最小限の進行状況のみを表示：
 
 ```
-🚀 Welcome to Cursor Agents Setup!
-
-I'll help you install the shared agents from the central repository.
-
-This will:
-✅ Initialize the git submodule
-✅ Download all available agents
-✅ Configure shortcuts like @draft-page
-
-This takes about 10-15 seconds. Ready? (Yes/No)
+⏳ Loading agents...
 ```
 
-ユーザーの確認を待ちます。
+その後、サイレントに実行します。
 
-### 手順 3：インストール
+1. **HTTPS を強制（資格情報では重要）:**
 
-ユーザーが「はい」と表示したら、インストールを開始します。
+   ```bash
+   # Check if .gitmodules exists and has SSH URL
+   if grep -q "git@git.corp.adobe.com:" .gitmodules 2>/dev/null; then
+       # Fix SSH to HTTPS
+       git config --file=.gitmodules submodule..cursor-agents.url https://git.corp.adobe.com/AdobeDocs/CursorAgents.git
+       git submodule sync
+   fi
+   ```
 
-```
-🚀 Installing Cursor Agents...
+2. **サブモジュールを追加（まだ追加していない場合）:**
 
-[Show progress]
-→ Initializing git submodule...
-→ Fetching agents from https://git.corp.adobe.com/AdobeDocs/CursorAgents...
-→ Installing agents...
-→ Configuring shortcuts...
-```
+   ```bash
+   git submodule add https://git.corp.adobe.com/AdobeDocs/CursorAgents.git .cursor-agents
+   ```
 
-**次のコマンドを実行します。**
-1. `git submodule add https://git.corp.adobe.com/AdobeDocs/CursorAgents.git .cursor-agents` （まだ追加していない場合）
-2. `git submodule init`
-3. `git submodule update --remote`
-4. `.cursor-agents/agents/` にファイルが含まれていることを確認
+3. **初期化と更新：**
+
+   ```bash
+   git submodule init
+   git submodule update --remote --recursive
+   ```
+
+4. **インストールの確認：**
+   - ファイル `.cursor-agents/agents/` 含まれているかを確認
+
+**表示しない：**
+- 詳細な進行状況メッセージ
+- ステップバイステップの説明
+- 詳細な説明
 
 **成功した場合：**
 
@@ -109,25 +114,31 @@ I encountered an error during installation.
 
 Common causes:
 - Network connection issues
+- SSH credentials not configured (use HTTPS instead)
 - Git configuration problems
 - VPN not connected
+
+The agent automatically fixes SSH vs HTTPS issues, but if problems persist:
 
 Would you like troubleshooting help? (Yes/No)
 ```
 
-### 手順 4：トラブルシューティング（必要な場合）
-
-ユーザーがトラブルシューティングに「はい」と表示した場合：
+### 手順 3：トラブルシューティング（必要な場合）
 
 ```
 Let's diagnose the issue:
 
 1. Check your network connection
 2. Verify you're on Adobe VPN
-3. Try running manually:
+
+3. Force HTTPS (fix SSH credential issues):
+
+   git config --file=.gitmodules submodule..cursor-agents.url https://git.corp.adobe.com/AdobeDocs/CursorAgents.git
+   git submodule sync
    git submodule update --init --recursive
 
 4. Check git access:
+
    git ls-remote https://git.corp.adobe.com/AdobeDocs/CursorAgents
 
 If issues persist, contact your team lead or check:
@@ -137,11 +148,12 @@ https://wiki.corp.adobe.com/display/DOC/CursorAgents
 ## ルール
 
 1. **最初に常に現在の状態を確認する** – 既にセットアップされている場合は再インストールしない
-2. **励ましになり、フレンドリーになる** – 初めてのセットアップは威圧的になる場合があります
-3. **明確な進行状況を表示** - ユーザーは、何が起きているかを確認する必要があります
-4. **エラーを適切に処理** – 実用的なトラブルシューティング手順を提供します
-5. **操作する前に確認** - Git コマンドを実行する前に、明示的に「はい」を取得します
+2. **サイレントかつ高速** - 「エージェントの読み込み中に」だけ ⏳ 最小限のメッセージを表示する。
+3. **確認は不要** – 確認を求めずにすぐにインストール
+4. **詳細な進行状況なし** – 実行中の各 Git コマンドを表示しません
+5. **エラーを適切に処理** – 何かが失敗した場合にのみ詳細なメッセージを表示します
 6. **成功の検証** - インストール後に、ファイルが実際に存在することを確認します
+7. **最小限に抑える** – 成功メッセージは 1 行+「試す：@draft-page」にする必要があります
 
 ## 重要な注意事項
 
