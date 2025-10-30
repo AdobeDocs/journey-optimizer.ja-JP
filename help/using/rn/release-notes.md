@@ -22,7 +22,7 @@ ht-degree: 86%
 
 [!DNL Adobe Journey Optimizer] は継続的配信モデルに従って、アドビが新機能、機能強化、修正を継続的に提供できるようにします。このアプローチにより、スケーラブルで段階的な機能のロールアウトが可能になり、すべての環境をまたいでパフォーマンスと安定性を確保できます。
 
-このモデルにより、リリースノートは毎月のリリースの間に更新されます。専用の [ 最新のアップデート ](#latest-updates) セクションでは、実稼動へのデプロイ時に新機能と改善点がハイライト表示されるので、常にすべての変更がリアルタイムで通知されます。 リリースサイクルと可用性フェーズについて詳しくは、[Journey Optimizer リリースサイクル ](releases.md) を参照してください。
+このモデルにより、リリースノートは毎月のリリースの間に更新されます。専用の [&#x200B; 最新のアップデート &#x200B;](#latest-updates) セクションでは、実稼動へのデプロイ時に新機能と改善点がハイライト表示されるので、常にすべての変更がリアルタイムで通知されます。 リリースサイクルと可用性フェーズについて詳しくは、[Journey Optimizer リリースサイクル &#x200B;](releases.md) を参照してください。
 
 [!DNL Adobe Journey Optimizer] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}を参照してください。
 
