@@ -9,9 +9,7 @@ role: User
 level: Beginner
 badge: label="限定提供" type="Informative"
 keywords: メール，テンプレート，画像，HTML, AI, デザイン，コンバーター
-hide: true
-hidefromtoc: true
-source-git-commit: 8a504f02de0d438213025f9741a31e66e318a5da
+source-git-commit: 7176f5a1fa4c1b6c564fdb5d65f4e9208a1dce30
 workflow-type: tm+mt
 source-wordcount: '1769'
 ht-degree: 3%
@@ -116,7 +114,7 @@ Image to HTML コンバーターは、ジェネレーティブ AI テクノロ�
 
 ジャーニーまたはキャンペーンでメールを作成する際に、**[!UICONTROL コンテンツを編集]** 画面からメールDesignerにアクセスします。
 
-[&#x200B; メールテンプレートの操作 &#x200B;](use-email-templates.md) および [&#x200B; コンテンツテンプレートの作成 &#x200B;](../content-management/content-templates.md) について説明します。
+[ メールテンプレートの操作 ](use-email-templates.md) および [ コンテンツテンプレートの作成 ](../content-management/content-templates.md) について説明します。
 
 ## ベストプラクティス {#best-practices}
 

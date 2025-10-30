@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9d58e16bb6717c4aeccede84b1ccc5b4e777fad8
+source-git-commit: 7176f5a1fa4c1b6c564fdb5d65f4e9208a1dce30
 workflow-type: tm+mt
-source-wordcount: '1164'
-ht-degree: 46%
+source-wordcount: '1243'
+ht-degree: 86%
 
 ---
 
@@ -20,43 +20,46 @@ ht-degree: 46%
 >title="新機能"
 >abstract="**Adobe Journey Optimizer** は、新機能、既存機能の強化およびバグ修正を継続的に提供します。これらのリリースノートでは、すべての変更が各月の最終週にまとめられます。"
 
-[!DNL Adobe Journey Optimizer] は継続的な配信モデルに従っており、Adobeが新機能、機能強化および修正点を継続的に提供できるようにします。 このアプローチにより、機能をスケーラブルかつ段階的にロールアウトして、すべての環境でパフォーマンスと安定性を確保できます。
+[!DNL Adobe Journey Optimizer] は継続的配信モデルに従って、アドビが新機能、機能強化、修正を継続的に提供できるようにします。このアプローチにより、スケーラブルで段階的な機能のロールアウトが可能になり、すべての環境をまたいでパフォーマンスと安定性を確保できます。
 
-このモデルのため、リリースノートは毎月のリリースの間に更新されます。  専用の [&#x200B; 最新のアップデート &#x200B;](#latest-updates) セクションでは、実稼動へのデプロイ時に新機能と改善点がハイライト表示されるので、常にすべての変更がリアルタイムで通知されます。 リリースサイクルと可用性フェーズについて詳しくは、[Journey Optimizer リリースサイクル &#x200B;](#releases.md) を参照してください。
+このモデルにより、リリースノートは毎月のリリースの間に更新されます。専用の [ 最新のアップデート ](#latest-updates) セクションでは、実稼動へのデプロイ時に新機能と改善点がハイライト表示されるので、常にすべての変更がリアルタイムで通知されます。 リリースサイクルと可用性フェーズについて詳しくは、[Journey Optimizer リリースサイクル ](#releases.md) を参照してください。
 
 [!DNL Adobe Journey Optimizer] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}を参照してください。
 
-<!-- DOCAC-13676
+<!--
 ## Latest updates {#latest-updates}
 
-New capabilities and improvements released recently are listed below, with their availability date.
 
-### New capabilities {#latest-features}
+New capabilities and improvements released in the past weeks are listed below, with their availability date. They will be grouped with the next release notes content at the end of the month. See also the latest [release notes below](#latest-rn).
+
+-->
+
+
+
+## 2025年10月リリースノート {#oct-25-10-rn}
+
+### 新機能 {#oct-25-10-features}
+
 
 <table>
 <thead>
 <tr>
-<th><strong>Image to HTML converter</strong><br/></th>
+<th><strong>画像からHTMLへのコンバーター</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>The image to HTML converter is an AI-powered feature that converts static image designs into fully customizable, modular HTML email content templates. This no-code tool enables marketers to transform visual designs into responsive, editable email templates without requiring technical expertise—perfect for platform migration, rapid template creation, and building reusable template libraries.</p>
-<p>This capability is available in Limited Availability. Contact your Adobe representative to gain access.</p>
-<p>For more information, refer to the <a href="../email/image-to-html.md">detailed documentation</a>.</p>
-<p>Availability date: November 3, 2025</p>
+<p>画像からHTMLへのコンバーターは、静的な画像デザインを、完全にカスタマイズ可能なモジュール型のHTML メールコンテンツテンプレートに変換する AI を利用した機能です。 このコードなしのツールにより、マーケターは、技術的な専門知識を必要とせずに、ビジュアルデザインをレスポンシブで編集可能なメールテンプレートに変換でき、プラットフォームの移行、迅速なテンプレート作成、再利用可能なテンプレートライブラリの構築に最適です。</p>
+<p><img src="../email/assets/email_designer_converted_img.png"/></p>
+<p>この機能は、限定提供です。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
+<p>詳しくは、<a href="../email/image-to-html.md">詳細なドキュメント</a>を参照してください。</p>
+<p>公開日：2025 年 10 月 30 日（PT）</p>
 </td>
 </tr>
 </tbody>
 </table>
--->
 
-## 2025 年 10 月リリースノート {#oct-25-10-rn}
-
-**リリース日**：2025年10月22日（PT）
-
-### 新機能 {#oct-25-10-features}
 
 <table>
 <thead>
@@ -99,15 +102,15 @@ New capabilities and improvements released recently are listed below, with their
 <table>
 <thead>
 <tr>
-<th><strong>無表示時間/時間ベースの除外</strong><br/></th>
+<th><strong>クワイエットアワー／時間ベースの除外</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>通知の少ない時間帯は、メール、SMS、プッシュおよび WhatsApp チャネルに対する時間ベースの除外を定義できます。 これにより、特定の期間中にメッセージが送信されないようにし、顧客の好みやコンプライアンスの要件を尊重するのに役立ちます。</p>
-<p>クワイエットタイムは、キャンペーンやジャーニーの個々のアクションに割り当てて、正確に制御できるルールセットを通じて適用できます。</p>
-<p>非表示時間ルールは現在、一連の組織でのみ使用できます（使用制限あり）。 キャンセル待ちに追加するには、Adobeの担当者にお問い合わせください。</p>
+<p>クワイエットアワーでは、メール、SMS、プッシュ、WhatsApp の各チャネルについて、時間ベースの除外を定義できます。これにより、特定の期間中にメッセージが送信されなくなり、顧客の環境設定やコンプライアンス要件を適用できます。</p>
+<p>クワイエットアワーは、キャンペーンやジャーニー内の個々のアクションに割り当てて、正確な制御を行うことができるルールセットを通じて適用できます。</p>
+<p>クワイエットアワールールは現在、一連の組織でのみ使用できます（限定提供）。待機リストに追加するには、アドビ担当者にお問い合わせください。</p>
 <img src="assets/do-not-localize/quiet-hour.gif">
 <p>詳しくは、<a href="../conflict-prioritization/quiet-hours.md">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2025年10月22日（PT）</p>
@@ -231,14 +234,14 @@ New capabilities and improvements released recently are listed below, with their
 <table>
 <thead>
 <tr>
-<th><strong>API トリガーメールキャンペーンに対する高スループットメッセージ</strong><br/></th>
+<th><strong>API トリガーメールキャンペーンの高スループットメッセージ</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>API トリガーキャンペーンで、新しい高スループットのトランザクションメッセージモードを使用できます。 このモードは、大規模なリアルタイムトランザクションメッセージ用に設計されており、1 秒あたり最大 5,000 個のトランザクションをサポートし、可用性が向上します。 また、このモードでは、ゲストのチェックアウト、注文の確認、パスワードのリセット、セキュリティ通知、その他のサービスや操作に関する通知など、顧客プロファイルを参照または作成することなく、トランザクションメッセージをサポートします。</p>
-<p>この機能は、Adobeの高スループットトランザクションメッセージ アドオン機能を購入した組織のメールチャネルでのみ使用できます。 詳しくは、アドビ担当者にお問い合わせください。</p>
+<p>API トリガーキャンペーンで新しい高スループットトランザクションメッセージモードが使用できるようになりました。このモードは、大規模なリアルタイムトランザクションメッセージ向けに設計され、1 秒あたり最大 5,000 トランザクションと高い可用性を実現します。また、このモードでは、ゲストのチェックアウト、注文確認、パスワードリセット、セキュリティ通知、その他のサービス／操作に関する通知など、顧客プロファイルを参照または作成することなく、トランザクションメッセージをサポートします。</p>
+<p>この機能は、アドビの高スループットトランザクションメッセージのアドオン機能を購入した組織がメールチャネルでのみ使用できます。詳しくは、アドビ担当者にお問い合わせください。</p>
 <p>詳しくは、<a href="../campaigns/api-triggered-high-throughput.md">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2025年10月22日（PT）</p>
 </td>
@@ -255,8 +258,8 @@ New capabilities and improvements released recently are listed below, with their
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizerでは、時間と労力を節約するために、専用の UI メニューから再利用可能なルールを作成し、キャンペーンやジャーニーのコンテンツ最適化の一部として、またはジャーニーの最適化アクティビティのいずれかでターゲティングを構築する際に活用できるようになりました。</p>
-<p>ターゲティングルールは現在、限定提供（LA）になっています。 アクセス権を取得するには、アドビ担当者にお問い合わせください。この機能は、Decisioning アドオン機能を購入した組織のみが利用できます。 すべての顧客に段階的にロールアウトされます。</p>
+<p>時間と労力を節約するために、Journey Optimizer では、専用の UI メニューから再利用可能なルールを作成し、キャンペーンやジャーニーの最適化コンテンツの一部として、またはジャーニーを最適化アクティビティのいずれかでターゲティングを作成する際に活用できるようになりました。</p>
+<p>ターゲティングルールは現在、限定提供（LA）です。 アクセス権を取得するには、アドビ担当者にお問い合わせください。この機能は、決定アドオン機能を購入した組織のみが利用できます。すべての顧客に段階的にロールアウトされる予定です。</p>
 <img src="assets/do-not-localize/targeting-rules.gif">
 <p>詳しくは、<a href="../experience-decisioning/rules.md">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2025年10月22日（PT）</p>
@@ -274,10 +277,10 @@ New capabilities and improvements released recently are listed below, with their
 <tbody>
 <tr>
 <td>
-<p>新しい事前設定済みのアラートを使用して、ジャーニーの実行を監視できます。</p>
-<ul><li><a href="../reports/alerts.md#alert-discard-rate"> プロファイル破棄率を超過 </a>：過去 5 分に入力されたプロファイルに対するプロファイル破棄の割合が、しきい値を超過しました</li>
-<li><a href="../reports/alerts.md#alert-custom-action-error-rate"> カスタムアクションエラー率を超えています </a>：過去 5 分間に成功した HTTP 呼び出しに対するカスタムアクションエラーの割合が、しきい値を超えています</li>
-<li><a href="../reports/alerts.md#alert-profile-error-rate"> プロファイルエラー率を超過 </a>：過去 5 分に入力されたプロファイルに対する、エラーのプロファイルの割合が、しきい値を超えました。</li></ul> <p>しきい値を変更し、グローバルではなく個々のジャーニーレベルのアラートを登録できます。</p>
+<p>ジャーニーの実行を監視する事前設定済みの新しいアラートが使用可能です。</p>
+<ul><li><a href="../reports/alerts.md#alert-discard-rate">プロファイル破棄率超過</a>：しきい値を超えた、過去 5 分間にエントリ済みのプロファイル数に対するプロファイル破棄率。</li>
+<li><a href="../reports/alerts.md#alert-custom-action-error-rate">カスタムアクションエラー率超過</a>：しきい値を超えた、過去 5 分間に成功した HTTP 呼び出し数に対するカスタムアクションエラー率。</li>
+<li><a href="../reports/alerts.md#alert-profile-error-rate">プロファイルエラー率超過</a>：しきい値を超えた、過去 5 分間にエントリ済みのプロファイル数に対するプロファイルエラー率。</li></ul> <p>しきい値を変更し、グローバルではなく個々のジャーニーレベルのアラートを登録できます。</p>
 <p>詳しくは、<a href="../reports/alerts.md">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2025年10月14日（PT）</p>
 </td>
@@ -294,7 +297,7 @@ New capabilities and improvements released recently are listed below, with their
 <tbody>
 <tr>
 <td>
-<p>新しい「executionMetadata」ヘルパー関数がパーソナライゼーションエディターで使用できます。 これを使用すると、任意のネイティブアクションにコンテキスト情報を追加し、外部システムに書き出すためにデータセットに取得できます。</p>
+<p>新しい「executionMetadata」ヘルパー関数がパーソナライゼーションエディターで使用できます。これを使用すると、任意のネイティブアクションにコンテキスト情報を追加し、データセットにキャプチャして外部システムにエクスポートできます。</p>
 <p>この機能は、限定提供です。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
 <img src="assets/do-not-localize/execution-metadata.gif">
 <p>詳しくは、<a href="../personalization/functions/helpers.md#execution-metadata">詳細なドキュメント</a>を参照してください。</p>
@@ -307,13 +310,13 @@ New capabilities and improvements released recently are listed below, with their
 <table>
 <thead>
 <tr>
-<th><strong>実験エージェントのExperimentation Accelerator</strong><br/></th>
+<th><strong>実験エージェントを備えた実験アクセラレーター</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer Experimentation Acceleratorに、実験エージェントが含まれるようになりました。これは、実験、インサイト、機会とやり取りできる、AI を活用した対話型ツールです。 Journey Optimizer Experimentation Acceleratorのエクスペリエンスを向上させ、実験をより効率的に実行し、何が機能するかを明らかにし、次にどこを最適化するかを見つけるのを支援します。</p>
+<p>Journey Optimizer 実験アクセラレーターに、実験、インサイト、機会とやり取りできる AI を活用した対話型ツールである実験エージェントが含まれるようになりました。これにより、Journey Optimizer の実験アクセラレーターのエクスペリエンスが強化され、実験をより効率的に実行し、機能する内容を明らかにし、次に最適化する箇所を見つけるのに役立ちます。</p>
 <p>詳しくは、<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment.html?lang=ja" target="_blank">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2025年10月10日（PT）</p>
 </td>
@@ -362,19 +365,13 @@ New capabilities and improvements released recently are listed below, with their
 </tbody>
 </table>
 
-<!--
-## Latest updates {#updates-rn}
 
-New capabilities and improvements released in the past weeks are listed below, with their availability date. They will be grouped with the next release notes content at the end of the month. See also the latest [release notes below](#latest-rn).
--->
 
 ### 機能強化 {#updates-improvements}
 
-<!--Availability date: October 22, 2025-->
-
 **WhatsApp チャネルの実行フィールド**
 
-メールと SMS に加えて、サンドボックスレベルで WhatsApp 配信のデフォルトの実行フィールドを更新することがわかります。 また、WhatsApp ジャーニーアクティビティの詳細設定パラメーターまたは WhatsApp チャネル設定で変更することで、グローバルに設定された実行フィールドを上書きすることもできます。 [詳細情報](../configuration/primary-email-addresses.md)
+メールと SMS に加えて、サンドボックスレベルで WhatsApp 配信のデフォルトの実行フィールドを更新できるようになりました。また、WhatsApp ジャーニーアクティビティの高度なパラメーターや WhatsApp チャネル設定で変更することで、グローバルに設定された実行フィールドを上書きすることもできます。[詳細情報](../configuration/primary-email-addresses.md)
 
 公開日：2025年10月22日（PT）
 

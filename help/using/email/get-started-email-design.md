@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: メール, デザイン, Stock, アセット
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 95701732933fabd37c7de0420438e180ee6fe5d2
+source-git-commit: 7176f5a1fa4c1b6c564fdb5d65f4e9208a1dce30
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '680'
 ht-degree: 89%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 89%
 
 >[!NOTE]
 >
->[&#x200B; 欧州アクセシビリティ法 &#x200B;](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} は、すべてのデジタル通信がアクセス可能であるべきであると規定しています。 この節に示すメールデザインのベストプラクティスに加えて、電子メールDesignerを使用してアクセシブルなコンテンツを構築する際に固有の [&#x200B; このページ &#x200B;](accessible-content.md) に記載されているガイドラインにも従ってください。
+>[ 欧州アクセシビリティ法 ](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} は、すべてのデジタル通信がアクセス可能であるべきであると規定しています。 この節に示すメールデザインのベストプラクティスに加えて、電子メールDesignerを使用してアクセシブルなコンテンツを構築する際に固有の [ このページ ](accessible-content.md) に記載されているガイドラインにも従ってください。
 
 ## メールコンテンツを作成するための主な手順 {#key-steps}
 
@@ -65,12 +65,12 @@ ht-degree: 89%
      >キャンペーンでは、**[!UICONTROL コンテンツを編集]**&#x200B;画面から「**[!UICONTROL コードエディター]**」ボタンを選択することもできます。[詳細情報](create-email.md#define-email-content)
 
    * ファイルまたは .zip フォルダーから&#x200B;**既存の HTML コンテンツを読み込み**&#x200B;ます。メールコンテンツの読み込み方法については、[この節](existing-content.md)を参照してください。
-<!-- DOCAC-13676
-    * **Convert image designs to HTML templates** using the AI-powered image to HTML converter. Learn how to transform static images into editable email templates in [this section](image-to-html.md).-->
 
-    * **既存のコンテンツを選択** – 組み込みテンプレートまたはカスタムテンプレートのリストから行います。 メールテンプレートの使用方法については、[ この節 ] （../email/use-email-templates.md）を参照してください。
-    
-    ![] （assets/email_designer_create_options.png） 
+   * **AI を利用した画像をHTMLに変換コンバーターを使用して** 画像デザインをHTML テンプレートに変換します。 静的画像を編集可能なメールテンプレートに変換する方法については、[ この節 ](image-to-html.md) を参照してください。
+
+   * ビルトインまたはカスタムテンプレートのリストから&#x200B;**既存のコンテンツを選択します**。メールテンプレートの操作方法については、[この節](../email/use-email-templates.md)を参照してください。
+
+   ![](assets/email_designer_create_options.png)
 
 1. メールコンテンツを定義し、パーソナライズしたら、コンテンツをエクスポートして、検証したり、後で使用したりできます。 「**[!UICONTROL HTML をエクスポート]**」をクリックして、 コンピューターに HTML とアセットを含む zip ファイルを保存します。
 
@@ -80,8 +80,8 @@ ht-degree: 89%
 
 メッセージエディターでメールコンテンツを作成する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416418?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 
 A/B テストを行うようにコンテンツ実験を設定し、ビジネス目標を最大限に推進するメールコンテンツを探索する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447332?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)
