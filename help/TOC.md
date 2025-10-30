@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b93d2288156713ac7479eef491f6104df1955a18
+source-git-commit: f48f56209ea4aad4b254a21a48b3ec84b8b16a8a
 workflow-type: tm+mt
 source-wordcount: '3010'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 97%
 + ジャーニー {#orchestrate-journeys}
    + [ジャーニー](/help/rp_landing_pages/orchestrate-journeys-landing-page.md)
    + [ジャーニーの基本を学ぶ](using/building-journeys/journey.md)
-   + [ジャーニーに関するよくある質問](using/building-journeys/journey-faq.md)
+   + [ジャーニーの FAQ](using/building-journeys/journey-faq.md)
    + ジャーニーの作成 {#create-journey}
       + [ジャーニーの作成](/help/rp_landing_pages/create-journey-landing-page.md)
       + [最初のジャーニーを作成](using/building-journeys/journey-gs.md)
@@ -225,7 +225,7 @@ ht-degree: 97%
       + [キャンペーンのスケジュール](using/campaigns/api-triggered-campaign-schedule.md)
       + [キャンペーンのレビューとアクティブ化](using/campaigns/review-activate-api-triggered-campaign.md)
       + [キャンペーン実行のトリガー](using/campaigns/trigger-campaigns.md)
-      + [API トリガーキャンペーンに対する高スループットモードの有効化](using/campaigns/api-triggered-high-throughput.md)
+      + [API トリガーメールキャンペーンの高スループットモードのアクティブ化](using/campaigns/api-triggered-high-throughput.md)
    + 調整されたキャンペーン {#orchestrated-campaigns}
       + [調整されたキャンペーン](/help/rp_landing_pages/orchestrated-campaigns-landing-page.md)
       + [調整されたキャンペーンの基本を学ぶ](using/orchestrated/gs-orchestrated-campaigns.md)
@@ -279,9 +279,9 @@ ht-degree: 97%
    + メッセージとジャーニーのキャッピングルールの設定 {#capping-rules}
       + [メッセージとジャーニーのキャッピングルールの設定](/help/rp_landing_pages/capping-rules-landing-page.md)
       + [ルールセットの操作](using/conflict-prioritization/rule-sets.md)
-      + [ジャーニーキャッピングと判別の管理](using/conflict-prioritization/journey-capping.md)
-      + [チャネルとタイプによるフリークエンシーキャップの設定](using/conflict-prioritization/channel-capping.md)
-      + [クワイエットアワーを設定](using/conflict-prioritization/quiet-hours.md)
+      + [ジャーニーのキャップと判別の管理](using/conflict-prioritization/journey-capping.md)
+      + [チャネルとタイプ別のフリークエンシーキャップの設定](using/conflict-prioritization/channel-capping.md)
+      + [クワイエットアワーの設定](using/conflict-prioritization/quiet-hours.md)
 + テストと承認 {#test}
    + [テストと承認](/help/rp_landing_pages/test-landing-page.md)
    + コンテンツのプレビューとテスト {#preview-test}
@@ -324,9 +324,9 @@ ht-degree: 97%
             + [コンテンツ作成を開始する](/help/rp_landing_pages/start-creating-content-landing-page.md)
             + [コンテンツのゼロからのデザイン](using/email/content-from-scratch.md)
             + [コンテンツの読み込み](using/email/existing-content.md)
-            + [画像をHTML テンプレートに変換する](using/email/image-to-html.md)
             + [コンテンツを独自にコーディング](using/email/code-content.md)
             + [メールテンプレートを使用](using/email/use-email-templates.md)
+            + [画像をHTML テンプレートに変換する](using/email/image-to-html.md)
             + [メールテーマの活用](using/email/apply-email-themes.md)
             + [メールへの PDF ファイルの添付](using/email/pdf-attachments.md)
          + コンテンツのデザイン {#add-content}
@@ -978,7 +978,7 @@ ht-degree: 97%
    + [プライバシー](/help/rp_landing_pages/privacy-landing-page.md)
    + [プライバシーの基本を学ぶ](using/privacy/get-started-privacy.md)
    + [プライバシーリクエスト](using/privacy/requests.md)
-   + [&#x200B; リソースに対する監査アクション](using/privacy/audit-logs.md)
+   + [ リソースに対する監査アクション](using/privacy/audit-logs.md)
    + [データライフサイクル操作の実行](using/privacy/data-hygiene.md)
    + 同意を管理 {#consent}
       + [同意を管理](/help/rp_landing_pages/consent-landing-page.md)
