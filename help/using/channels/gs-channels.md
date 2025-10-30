@@ -9,7 +9,7 @@ exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
 source-git-commit: d2ae91dd8f9f3ef8a38db12ea3c9356ca9a27c53
 workflow-type: tm+mt
 source-wordcount: '566'
-ht-degree: 92%
+ht-degree: 95%
 
 ---
 
@@ -109,7 +109,7 @@ SDK と API を使用して、デジタルプラットフォーム全体でパ�
 
 コンテンツカード
 
-モバイルアプリや web サイトで魅力的でパーソナライズされたメッセージを表示するコンテンツカードを設定、作成およびデザインする方法について説明します。
+モバイルアプリや web サイトで魅力的でパーソナライズされたメッセージに対するコンテンツカードを設定、作成、デザインする方法について説明します。
 
 [コードベースのエクスペリエンスの詳細情報](../../rp_landing_pages/content-card-landing-page.md)
 :::
