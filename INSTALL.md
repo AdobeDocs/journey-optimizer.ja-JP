@@ -1,5 +1,5 @@
 ---
-source-git-commit: 505810d58d7db1682cc434b0df6d1ec5f5edd23e
+source-git-commit: 08eaa7ae974c134ea2e920a1fa854dcf6a971e18
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 2%
@@ -177,6 +177,6 @@ your-repo/
 
 すべてのリポジトリは、`git submodule update --remote` を介して更新を受け取ります。
 
-&#x200B;---
+---
 
 **サポートが必要な場合** ドキュメントチームのリーダーに問い合わせるか、内部 Wiki を確認します。
