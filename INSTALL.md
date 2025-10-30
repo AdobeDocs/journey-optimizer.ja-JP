@@ -1,8 +1,8 @@
 ---
-source-git-commit: 80d5f294491b35dcdbfe4976cb3ec4cf14384858
+source-git-commit: 505810d58d7db1682cc434b0df6d1ec5f5edd23e
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 4%
+source-wordcount: '293'
+ht-degree: 2%
 
 ---
 # 🚀 カーソルエージェントのインストール
@@ -21,9 +21,13 @@ ht-degree: 4%
    ```
    @setup-agents
    ```
-
-3. プロンプトに従います
+3. エージェントは自動的に以下を行います。
+   - SSH および HTTPS アクセスのテスト
+   - 作業方法を使用
+   - 必要に応じて設定の手順を説明します
 4. 完了！✨
+
+**注意：**`git.corp.adobe.com` への SSH または HTTPS アクセス権があるかどうかをエージェントが自動的に検出し、適切なメソッドを使用します。 どちらも機能しない場合は、ガイド付きの設定が提供されます。
 
 ### オプション 2：端子を使用する
 
@@ -34,7 +38,12 @@ ht-degree: 4%
    ./setup-agents.sh
    ```
 
-   または手動で：
+   スクリプトは自動的に以下を行います。
+   - SSH および HTTPS アクセスのテスト
+   - 作業方法を使用
+   - 必要に応じてセットアップ手順を表示する
+
+   または手動（Git が設定されていることがわかっている場合）:
 
    ```bash
    git submodule update --init --recursive
@@ -64,7 +73,7 @@ ls .cursor-agents/agents/
 @fix-grammar     # Fix grammar in current file
 ```
 
-使用可能なエージェントの完全なリストについては、`.cursor-agents/AGENTS.md` を参照してください。
+使用可能なエージェントの完全なリストについては、[AGENTS.md](AGENTS.md) を参照してください。
 
 ## エージェントの更新
 
@@ -123,15 +132,14 @@ chmod +x setup-agents.sh
 カーソルエージェントは、**git サブモジュール** として配布されます。
 
 ```
-journey-optimizer.en/
+your-repo/
   ├── .cursor-agents/          ← Git submodule
   │   ├── agents/
   │   │   ├── draft-page-generator.md
   │   │   └── fix-grammar.md
   │   └── AGENTS.md
   ├── setup-agents.sh          ← Setup script
-  ├── setup-agent.md           ← Bootstrap agent
-  └── help/                    ← Your documentation
+  └── your-content/
 ```
 
 サブモジュールはを指します。
@@ -139,5 +147,35 @@ journey-optimizer.en/
 
 これにより、すべてのユーザーが同じ最新のエージェントを使用できるようになります。
 
-**サポートが必要な場合** ドキュメントチームのリーダーに問い合わせるか、内部 Wiki を確認します。
+## メンテナー向け
 
+### 新しいリポジトリへの追加
+
+1. サブモジュールを追加します。
+
+   ```bash
+   git submodule add https://git.corp.adobe.com/AdobeDocs/CursorAgents.git .cursor-agents
+   ```
+
+2. 設定ファイルをコピーします。
+   - `setup-agents.sh`
+   - `setup-agent.md` （サブモジュールではなくルートに配置）
+   - `INSTALL.md`
+
+3. コミット :
+
+   ```bash
+   git add .gitmodules .cursor-agents setup-agents.sh
+   git commit -m "Add Cursor Agents submodule"
+   ```
+
+### 中央リポジトリの更新
+
+エージェントに対する変更は、次の場所で行う必要があります。
+**https://git.corp.adobe.com/AdobeDocs/CursorAgents**
+
+すべてのリポジトリは、`git submodule update --remote` を介して更新を受け取ります。
+
+---
+
+**サポートが必要な場合** ドキュメントチームのリーダーに問い合わせるか、内部 Wiki を確認します。
