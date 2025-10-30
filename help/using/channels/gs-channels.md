@@ -6,10 +6,10 @@ description: ' [!DNL Adobe Journey Optimizer]  通信チャネルの操作方法
 role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
-source-git-commit: d2ae91dd8f9f3ef8a38db12ea3c9356ca9a27c53
+source-git-commit: 3093bd544dcc2f8a743c46cb0e45939bdf00adf1
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 95%
+source-wordcount: '521'
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Journey Optimizer には、オーディエンスと効果的にエンゲ�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 メールチャネル
 
@@ -37,7 +37,7 @@ Adobe Journey Optimizer には、オーディエンスと効果的にエンゲ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 プッシュ通知チャネル
 
@@ -47,7 +47,7 @@ Adobe Journey Optimizer には、オーディエンスと効果的にエンゲ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
 
 SMS／MMS／RCS メッセージ
 
@@ -57,7 +57,7 @@ SMS／MMS／RCS メッセージ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
 
 ダイレクトメールキャンペーン
 
@@ -75,7 +75,7 @@ SMS／MMS／RCS メッセージ
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 アプリ内メッセージ
 
@@ -85,7 +85,7 @@ SMS／MMS／RCS メッセージ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 Web
 
@@ -95,7 +95,7 @@ Web エクスペリエンスを作成、設定、パーソナライズし、web 
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 コードベースのエクスペリエンス
 
@@ -105,7 +105,7 @@ SDK と API を使用して、デジタルプラットフォーム全体でパ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/id-card.svg)
 
 コンテンツカード
 
@@ -130,17 +130,18 @@ Adobe Journey Optimizer では、次の 2 つのプライマリコンテキス�
 
 - **キャンペーン**：特定のチャネルを利用する特定のマーケティングキャンペーンをデプロイし、ターゲット目標を達成します。新製品のプロモーションや季節的な販売の推進にかかわらず、キャンペーンを使用すると、オーディエンスに合わせて焦点を当てたメッセージング戦略を作成できます。[詳しくは、キャンペーンの作成と実行方法を参照してください](../campaigns/get-started-with-campaigns.md)。
 
-次の表に、様々なジャーニーとキャンペーンをまたいだ各チャネルの可用性を示し、チャネルがサポートされている場所を示します。
+<!--
+The table below shows the availability of each channel across different journeys and campaign, indicating where they are supported.
 
-| チャネル | ジャーニー | アクションキャンペーン（マーケティング） | アクションキャンペーン（トランザクション） | API トリガーキャンペーン | 調整されたキャンペーン |
+| Channel              | Journeys | Action campaigns (Marketing) | Action campaigns (Transactional) | API-triggered campaigns | Orchestrated campaigns |
 |----------------------|---------------------|-------------------------|----------------------------|--------------------------------|--------------|--------------|
-| メール | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| SMS | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| プッシュ通知 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| アプリ内 | ✅ | ✅ | — | — | — | — |
-| ダイレクトメール | ✅ | ✅ | — | — | — | — |
-| Web | ✅ | ✅ | — | — | — | — |
-| コードベースの費用 | ✅ | ✅ | — | — | — | — |
-| コンテンツカード | ✅ | ✅ | — | — | — | — |
-| WhatsApp | ✅ | ✅ | — | — | — | — |
-| 折れ線グラフ | ✅ | ✅ | — | — | — | — |
+| Email                | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| SMS                  | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Push notification    | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| In-app               | ✅ | ✅ | — | — | — | — |
+| Direct mail          | ✅ | ✅ | — | — | — | — |
+| Web                  | ✅ | ✅ | — | — | — | — |
+| Code-based exp.      | ✅ | ✅ | — | — | — | — |
+| Content cards        | ✅ | ✅ | — | — | — | — |
+| WhatsApp             | ✅ | ✅ | — | — | — | — |
+| Line                 | ✅ | ✅ | — | — | — | — |-->
