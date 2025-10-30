@@ -20,7 +20,7 @@ Adobe Journey Optimizerは、人工知能と機械学習の力を活用して、
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 コンテンツ生成用 AI アシスタント
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizerは、人工知能と機械学習の力を活用して、
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
 
 送信時間の最適化
 
@@ -40,7 +40,7 @@ AI を使用して、メッセージの送信に最適な時間を予測し、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 意思決定の AI モデル
 
@@ -50,7 +50,7 @@ AI を使用して、メッセージの送信に最適な時間を予測し、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
 
 AI アシスタントの製品知識
 
@@ -60,7 +60,7 @@ AI アシスタントの製品知識
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 AI を使用したコンテンツ実験
 
@@ -70,7 +70,7 @@ AI を使用したコンテンツ実験
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 顧客 AI 統合
 
@@ -80,7 +80,7 @@ Adobe インテリジェントサービスとの統合により、顧客の行�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
 
 ブランドの整合性スコアリング
 
@@ -90,7 +90,7 @@ AI を活用したスコアリングを使用して、AI で生成されたコ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 実験アクセラレータ
 
@@ -100,7 +100,7 @@ AI に基づくインサイトとレコメンデーションを使用して、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 Image to HTML Converter
 
@@ -110,7 +110,7 @@ AI を活用したコンバージョンテクノロジーを使用して、静�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 ジャーニーの Operational Insights （Beta）
 
@@ -128,7 +128,7 @@ AI を活用したコンバージョンテクノロジーを使用して、静�
 Adobe Experience Cloud AI Agents は、AI 機能をJourney Optimizer以外にも拡張し、複雑なマーケティングタスクで自然言語のやり取りを可能にします。
 
 - **[ジャーニー分析エージェント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"}** - ジャーニーのフォールアウト分析を実行し、オーディエンスとスケジュールの重複を検出し、ジャーニーのパフォーマンスを最適化するための実用的なレコメンデーションを受け取ります。
-- **[実験エージェント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}** – 実験結果を分析し、勝者パターンを特定し、チャネルをまたいでテストする新しい機会を見つけます。
+- **[実験エージェント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}** – 実験結果を分析し、勝者パターンを特定し、チャネルをまたいでテストする新しい機会を見つけます。
 - **[Audience Agent](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/audience-agent){target="_blank"}** – 対話型 AI を使用してオーディエンスセグメントを作成および管理し、オーディエンスの構成を分析し、セグメント化戦略を最適化します。
 - **[Agent Orchestrator](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}** – 複数の専門エージェントを調整して、複雑で複数の手順を持つマーケティングの課題を効率的に解決します。
 
