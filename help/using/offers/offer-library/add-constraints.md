@@ -7,10 +7,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: 7878e51e4ffb84ec84acee26872b5ab69900e806
+source-git-commit: 85f351a792e962c6320b12a2e50942677c775433
 workflow-type: tm+mt
-source-wordcount: '2729'
-ht-degree: 99%
+source-wordcount: '2723'
+ht-degree: 97%
 
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 99%
 >title="オファー実施要件について"
 >abstract="このセクションでは、決定ルールを使用して、オファーの対象となるユーザーを決定できます。"
 
-<!--additional-url="https://video.tv.adobe.com/v/341373?captions=jpn" text="Watch demo video"-->
+<!--additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
@@ -143,10 +143,12 @@ ht-degree: 99%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_capping"
 >title="キャップの使用"
->abstract="顧客に過度の勧誘をしないようにするには、キャップを使用して、オファーを提示できる回数のキャップを定義します。特定のオファーに対して最大 10 個のキャップルールを作成できます。"
->additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints#capping-change-date" text="日付を変更すると、キャップに影響を与える場合があります"
+>abstract="顧客に過度の勧誘をしないようにするには、キャッピングを使用して、オファーを提示できる最大回数を定義します。 特定のオファーに対して最大 10 個のキャップルールを作成できます。"
 
-キャップは、オファーを提示できる最大回数を定義する制約として使用されます。ユーザーが特定のオファーを受け取る回数を制限することで、顧客への過度の勧誘を防ぎ、最適なオファーを用いて各タッチポイントを最適化できます。
+<!--
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints#capping-change-date" text="Changing dates can impact capping"-->
+
+キャップは、オファーを提示できる最大回数を定義する制約として使用されます。ユーザーが特定のオファーを受け取る回数を制限すると、顧客への過度の勧誘を防ぎ、各タッチポイントをそれに適したオファーで最適化できます。
 
 特定のオファーに対して最大 10 個のキャップルールを追加できます。キャッピングルールを設定するには、「**[!UICONTROL キャッピングを作成]** ボタンをクリックし、次の手順に従います。
 
