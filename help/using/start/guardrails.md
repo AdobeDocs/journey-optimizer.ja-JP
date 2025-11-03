@@ -58,7 +58,7 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 
 * [!DNL Adobe Journey Optimizer] や、他の製品（例えば [!DNL Adobe Campaign] や [!DNL Adobe Marketo Engage] など）から、同じ送信ドメインを使用してメールメッセージを送信することはできません。
 
-E メールメッセージを設計する際、システムは主要な設定を確認し、警告（推奨事項とベストプラクティス）およびエラー（テストやアクティブ化を妨げる問題をブロックする）に関するアラートを表示します。 メールアラートと検証要件について詳しくは、[ この節 ](../email/create-email.md#check-email-alerts) を参照してください。
+E メールメッセージを設計する際、システムは主要な設定を確認し、警告（推奨事項とベストプラクティス）およびエラー（テストやアクティブ化を妨げる問題をブロックする）に関するアラートを表示します。 メールアラートと検証要件について詳しくは、[&#x200B; この節 &#x200B;](../email/create-email.md#check-email-alerts) を参照してください。
 
 ### SMS ガードレール {#sms-guardrails}
 
