@@ -10,10 +10,10 @@ level: Intermediate
 keywords: ジャーニー、設定、プロパティ
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
 workflow-type: tm+mt
-source-wordcount: '2733'
-ht-degree: 100%
+source-wordcount: '2748'
+ht-degree: 99%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 100%
 
 プロファイルエントリモードは、右側の設定パネルのジャーニーレベルで定義されます。設定は次のとおりです。
 
-プロファイルエントリ管理は、ジャーニーのタイプに応じて異なります。プロファイルのエントリと再エントリの管理について詳しくは、[このページ](entry-management.md)を参照してください。
+プロファイルエントリ管理は、ジャーニーのタイプに応じて異なります。プロファイルのエントリおよび再エントリ管理について詳しくは、[ このページ ](entry-management.md) を参照してください。 ジャーニーの処理率と、ジャーニー内でのプロファイルのフローについて詳しくは、[ この節 ](entry-management.md#journey-processing-rate) を参照してください。
 
 ### 再エントリを許可  {#allow-reentrance}
 

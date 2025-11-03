@@ -10,10 +10,10 @@ level: Intermediate
 keywords: カスタム, 一般, イベント, ジャーニー
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 100%
+source-wordcount: '615'
+ht-degree: 98%
 
 ---
 
@@ -32,6 +32,8 @@ ht-degree: 100%
 イベントを使用すると、ジャーニーをまとめてトリガーし、ジャーニーの過程にある個人にリアルタイムでメッセージを送信できます。
 
 このタイプのイベントでは、ラベルと説明のみを追加できます。その他の設定は編集できません。技術ユーザーによって実施します。[このページ](../event/about-events.md)を参照してください。
+
+イベントのスループットとジャーニーの処理率について詳しくは、[ この節 ](entry-management.md#journey-processing-rate) を参照してください。
 
 ![](assets/general-events.png)
 

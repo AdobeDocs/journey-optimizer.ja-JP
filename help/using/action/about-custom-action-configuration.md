@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: アクション, サードパーティ, カスタム, ジャーニー, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
 workflow-type: tm+mt
-source-wordcount: '1829'
-ht-degree: 92%
+source-wordcount: '1838'
+ht-degree: 91%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 92%
 
 ターゲットにするエンドポイントをカスタムアクションを使用して選択する場合は、次の点を確認します。
 
-* このエンドポイントは、[Throttling API](../configuration/throttling.md) または [Capping API](../configuration/capping.md) の設定を使用してジャーニーのスループットをキャップすることでサポートできます。スロットル設定は、200 TPS を下回ることはできません。ターゲットにするエンドポイントは、200 TPS 以上をサポートする必要があります。
+* このエンドポイントは、[Throttling API](../configuration/throttling.md) または [Capping API](../configuration/capping.md) の設定を使用してジャーニーのスループットをキャップすることでサポートできます。スロットル設定は、200 TPS を下回ることはできません。ターゲットにするエンドポイントは、少なくとも 200 TPS をサポートする必要があります。 ジャーニーの処理率について詳しくは、[ この節 ](../building-journeys/entry-management.md#journey-processing-rate) を参照してください。
 * このエンドポイントの応答時間は、できるだけ短くする必要があります。求めるスループットによっては、応答時間が長いと、実際のスループットに影響を与える可能性があります。
 
 すべてのカスタムアクションには、1 分間に 300,000 件の呼び出しというキャップが定義されています。また、デフォルトのキャップは、ホストごとおよびサンドボックスごとに実行されます。例えば、サンドボックスで、同じホストを持つ 2 つのエンドポイント（例：`https://www.adobe.com/endpoint1` と `https://www.adobe.com/endpoint2`）がある場合、キャッピングはadobe.com ホスト以下のすべてのエンドポイントに適用されます。 「endpoint1」と「endpoint2」は同じキャップ設定を共有し、一方のエンドポイントがキャップに達すると、もう一方のエンドポイントに影響が生じます。
@@ -196,15 +196,15 @@ Mutual Transport Layer Security（mTLS）は、Adobe Journey Optimizer カスタ
 >
 
 
-* [&#x200B; カスタムアクションのトラブルシューティング &#x200B;](../action/troubleshoot-custom-action.md) - カスタムアクションのトラブルシューティング方法を説明します。
+* [ カスタムアクションのトラブルシューティング ](../action/troubleshoot-custom-action.md) - カスタムアクションのトラブルシューティング方法を説明します。
 
 
 ## その他のリソース
 
 カスタムアクションの設定、使用、トラブルシューティングについて詳しくは、以下の節を参照してください。
 
-* [&#x200B; カスタムアクションの概要 &#x200B;](../action/action.md) - カスタムアクションの概要と、カスタムアクションがサードパーティシステムへの接続にどのように役立つかを説明します
-* [&#x200B; カスタムアクションの使用 &#x200B;](../building-journeys/using-custom-actions.md) - ジャーニーでのカスタムアクションの使用方法を説明します
-* [&#x200B; カスタムアクションのトラブルシューティング &#x200B;](../action/troubleshoot-custom-action.md) - カスタムアクションのトラブルシューティング方法を説明します。
-* [&#x200B; コレクションをカスタムアクションパラメーターに渡す &#x200B;](../building-journeys/collections.md) – 実行時に値が動的に入力されるカスタムアクションパラメーターにコレクションを渡す方法について説明します
+* [ カスタムアクションの概要 ](../action/action.md) - カスタムアクションの概要と、カスタムアクションがサードパーティシステムへの接続にどのように役立つかを説明します
+* [ カスタムアクションの使用 ](../building-journeys/using-custom-actions.md) - ジャーニーでのカスタムアクションの使用方法を説明します
+* [ カスタムアクションのトラブルシューティング ](../action/troubleshoot-custom-action.md) - カスタムアクションのトラブルシューティング方法を説明します。
+* [ コレクションをカスタムアクションパラメーターに渡す ](../building-journeys/collections.md) – 実行時に値が動的に入力されるカスタムアクションパラメーターにコレクションを渡す方法について説明します
 

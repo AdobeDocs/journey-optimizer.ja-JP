@@ -9,10 +9,10 @@ level: Experienced
 keywords: ジャーニー, データソース, 制限, スループット, カスタム, アクション
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 100%
+source-wordcount: '764'
+ht-degree: 93%
 
 ---
 
@@ -32,7 +32,7 @@ Adobe Journey Optimizer を使用すると、実務担当者は、カスタム�
 >
 >応答がサポートされるようになったので、外部データソースのユースケースでは、データソースの代わりにカスタムアクションを使用する必要があります。応答について詳しくは、この[節](../action/action-response.md)を参照してください。
 
-外部データソースやカスタムアクションを扱う場合は、ジャーニーのスループットを単一ジャーニーの場合は最大 5,000 インスタンス/秒、オーディエンストリガージャーニーの場合は最大 20,000 インスタンス/秒に制限して、外部システムを保護する必要が生じる場合があります。
+外部データソースやカスタムアクションを扱う場合は、ジャーニーのスループットを制限して、外部システムを保護する必要が生じる場合があります。単一のジャーニーの場合は最大 5,000 インスタンス/秒、オーディエンストリガーの場合は最大 20,000 インスタンス/秒です。 ジャーニーの処理率とスループットについて詳しくは、[ この節 ](entry-management.md#journey-processing-rate) を参照してください。
 
 カスタムアクションの場合、スロットル機能は製品レベルで使用できます。 この[ページ](../configuration/external-systems.md#capping)を参照してください。
 

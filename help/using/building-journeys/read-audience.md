@@ -10,9 +10,9 @@ level: Intermediate
 keywords: アクティビティ, ジャーニー, 読み取り, オーディエンス, プラットフォーム
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 version: Journey Orchestration
-source-git-commit: efae7f7d366690af71430bb9eb62523d1881c50e
+source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
 workflow-type: tm+mt
-source-wordcount: '2450'
+source-wordcount: '2461'
 ht-degree: 97%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->オーディエンスを読み取りアクティビティを実行すると、システムは内部イベント（`segmentExportJob` イベントと呼ばれます）を生成して、オーディエンスの書き出し操作のライフサイクルを追跡します。 これらのイベントは、個々のプロファイルごとではなく、アクティビティレベルで記録され、監視やトラブルシューティングの目的でクエリできます。 詳細情報 [&#x200B; オーディエンスを読み取りイベントのクエリ &#x200B;](../reports/query-examples.md#read-segment-queries)。
+>オーディエンスを読み取りアクティビティを実行すると、システムは内部イベント（`segmentExportJob` イベントと呼ばれます）を生成して、オーディエンスの書き出し操作のライフサイクルを追跡します。 これらのイベントは、個々のプロファイルごとではなく、アクティビティレベルで記録され、監視やトラブルシューティングの目的でクエリできます。 詳細情報 [ オーディエンスを読み取りイベントのクエリ ](../reports/query-examples.md#read-segment-queries)。
 
 >[!CAUTION]
 >
@@ -118,7 +118,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->サンドボックスあたりの全体的な読み取り率は、1 秒あたり 20,000 プロファイルに設定されています。したがって、同じサンドボックスで同時に実行されるすべての「オーディエンスを読み取り」の読み取り率は、合計で 1 秒あたり最大 20,000 プロファイルになります。このキャップは変更できません。
+>サンドボックスあたりの全体的な読み取り率は、1 秒あたり 20,000 プロファイルに設定されています。したがって、同じサンドボックスで同時に実行されるすべての「オーディエンスを読み取り」の読み取り率は、合計で 1 秒あたり最大 20,000 プロファイルになります。この上限は変更できません。 ジャーニーの処理率とスループットについて詳しくは、[ この節 ](entry-management.md#journey-processing-rate) を参照してください。
 
 ### ジャーニーのスケジュール {#schedule}
 
@@ -307,4 +307,4 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 「オーディエンスを読み取り」アクティビティによってトリガーされるジャーニーに適用可能なユースケースを理解します。バッチベースのジャーニーを構築する方法と適用するベストプラクティスについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430369?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)
