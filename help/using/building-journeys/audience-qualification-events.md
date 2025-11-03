@@ -164,4 +164,4 @@ ht-degree: 95%
 
 オーディエンスの選定ジャーニーに当てはまるユースケースについて、このビデオで説明します。オーディエンスの選定を使用してジャーニーを構築する方法と、適用するベストプラクティスについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3446205?captions=jpn&quality=12)
