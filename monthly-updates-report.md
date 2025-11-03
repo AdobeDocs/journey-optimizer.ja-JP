@@ -5,7 +5,7 @@ title: ドキュメント更新レポート（毎月）
 description: 新規および更新されたドキュメントページのリスト
 hide: true
 hidefromtoc: true
-source-git-commit: 2bbb733577d8aeb09a8cbd8e49f2665acaa2c794
+source-git-commit: 2d81708b4829c330732de62177fc781d892d416d
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 ---
 
 
-# ドキュメントの更新 – 新しいコンテンツとガイダンス
+# ドキュメントの更新 – 新規および更新されたコンテンツ
 
 **期間：** 年 10 月 15 日～11 月 3 日
 
