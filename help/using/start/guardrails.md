@@ -9,18 +9,18 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 9ef761d216867c302a9c367dc509a52dc08fb06c
+source-git-commit: 148fde1fd0a7d8f4b24fab11a398ce6ac0a0c807
 workflow-type: tm+mt
-source-wordcount: '2861'
+source-wordcount: '2908'
 ht-degree: 98%
 
 ---
 
 # ガードレールと制限 {#limitations}
 
-[!DNL Adobe Journey Optimizer] を使用する際の追加のガードレールと制限を以下に示します。
+次に、[!DNL Adobe Journey Optimizer] を使用する際の追加のガードレールと制限を示します。
 
-使用権限、製品の制限事項、パフォーマンスガードレールの一覧については、[Adobe Journey Optimizer 製品説明ページ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}を参照してください。
+使用権限、製品の制限事項、パフォーマンスガードレールの一覧について詳しくは、[Adobe Journey Optimizer 製品説明ページ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}を参照してください。
 
 
 >[!CAUTION]
@@ -54,7 +54,11 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 
 <!--The following guardrails apply to the [email channel](../../rp_landing_pages/email-landing-page.md):-->
 
-[!DNL Adobe Journey Optimizer] や、他の製品（例えば [!DNL Adobe Campaign] や [!DNL Adobe Marketo Engage] など）から、同じ送信ドメインを使用してメールメッセージを送信することはできません。
+次のガードレールが[メールチャネル](../email/get-started-email.md)に適用されます。
+
+* [!DNL Adobe Journey Optimizer] や、他の製品（例えば [!DNL Adobe Campaign] や [!DNL Adobe Marketo Engage] など）から、同じ送信ドメインを使用してメールメッセージを送信することはできません。
+
+E メールメッセージを設計する際、システムは主要な設定を確認し、警告（推奨事項とベストプラクティス）およびエラー（テストやアクティブ化を妨げる問題をブロックする）に関するアラートを表示します。 メールアラートと検証要件について詳しくは、[ この節 ](../email/create-email.md#check-email-alerts) を参照してください。
 
 ### SMS ガードレール {#sms-guardrails}
 
@@ -112,7 +116,7 @@ Journey Optimizer のサブドメインデリゲーションに適用される�
 
   オーディエンス構成について詳しくは、[このページ](../audience/get-started-audience-orchestration.md)を参照してください。
 
-* データを取り込む場合、メールでは大文字と小文字が区別されます。 つまり、重複したプロファイル（John.Greene@luma.com用のプロファイルとjohn.greene@luma.com用のプロファイルなど）が作成され、カスタマイ [!DNL Journey Optimizer] されたジャーニーやキャンペーンで対応する受信者をターゲティングする際に使用される可能性があります。
+* データを取り込む際、メールでは大文字と小文字が区別されます。つまり、重複したプロファイル（例えば、John.Greene@luma.com のプロファイルと john.greene@luma.com の別のプロファイル）が作成され、[!DNL Journey Optimizer] ジャーニーとキャンペーンで対応する受信者をターゲティングする際に使用される場合があります。
 
 ## 決定と意思決定管理ガードレール {#decisioning-guardrails}
 
