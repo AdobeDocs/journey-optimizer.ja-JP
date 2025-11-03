@@ -7,10 +7,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
-source-git-commit: ef042e3a93dccc29d66eb9ab7d837f7914a8959d
+source-git-commit: 7878e51e4ffb84ec84acee26872b5ab69900e806
 workflow-type: tm+mt
-source-wordcount: '2753'
-ht-degree: 100%
+source-wordcount: '2729'
+ht-degree: 99%
 
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 100%
 >title="オファー実施要件について"
 >abstract="このセクションでは、決定ルールを使用して、オファーの対象となるユーザーを決定できます。"
 
-<!--additional-url="https://video.tv.adobe.com/v/341373?captions=jpn" text="Watch demo video"-->
+<!--additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
@@ -148,11 +148,7 @@ ht-degree: 100%
 
 キャップは、オファーを提示できる最大回数を定義する制約として使用されます。ユーザーが特定のオファーを受け取る回数を制限することで、顧客への過度の勧誘を防ぎ、最適なオファーを用いて各タッチポイントを最適化できます。
 
-特定のオファーに対して最大 10 個のキャップルールを追加できます。キャップルールを設定するには、「**[!UICONTROL キャップを作成]**」ボタンをクリックし、次の手順に従います。
-
->[!CAUTION]
->
->以前に作成したオファーのフリークエンシーキャップを有効または無効にすることはできません。これを行うには、新しいオファーを作成する必要があります。
+特定のオファーに対して最大 10 個のキャップルールを追加できます。キャッピングルールを設定するには、「**[!UICONTROL キャッピングを作成]** ボタンをクリックし、次の手順に従います。
 
 1. カウンターを増やすために、どの&#x200B;**[!UICONTROL キャップイベント]**&#x200B;を考慮するかを定義します。[詳細情報](#capping-event)
 
