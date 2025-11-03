@@ -33,7 +33,7 @@ ht-degree: 98%
 
 このタイプのイベントでは、ラベルと説明のみを追加できます。その他の設定は編集できません。技術ユーザーによって実施します。[このページ](../event/about-events.md)を参照してください。
 
-イベントのスループットとジャーニーの処理率について詳しくは、[ この節 ](entry-management.md#journey-processing-rate) を参照してください。
+イベントのスループットとジャーニーの処理率について詳しくは、[&#x200B; この節 &#x200B;](entry-management.md#journey-processing-rate) を参照してください。
 
 ![](assets/general-events.png)
 
