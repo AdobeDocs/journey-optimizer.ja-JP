@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 作成, Optimizer, キャンペーン, サーフェス, メッセージ
 exl-id: bcb7a5e4-440d-4548-b305-c320bafe6ee7
-source-git-commit: 8701afe345f0eeed1503e4765d4715398823b102
+source-git-commit: 20faceb1de8523426b288864d400f023c7dfdc6d
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 100%
+source-wordcount: '166'
+ht-degree: 98%
 
 ---
 
@@ -47,6 +47,15 @@ ht-degree: 100%
 <div align="center"><a href="../code-based/create-code-based.md"><strong>コードベースのエクスペリエンス</strong></a></div></td>
 <td><a href="../content-card/create-content-card.md"><img alt="コンテンツカード" src="../channels/assets/do-not-localize/cards.png"></a>
 <div align="center"><a href="../content-card/create-content-card.md"><strong>コンテンツカード</strong></a></div></td>
+</tr></table>
+
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td></td>
+<td><a href="../line/get-started-line.md"><img alt="ライン" src="assets/do-not-localize/line.png"></a>
+<div align="center"><a href="../line/get-started-line.md"><strong> 行 </strong></a></div></td>
+<td><a href="../whatsapp/get-started-whatsapp.md"><img alt="Web" src="assets/do-not-localize/whatsapp.png"></a>
+<div align="center"><a href="../whatsapp/get-started-whatsapp.md"><strong>WhatsApp</strong></a></div></td>
+<td></td>
 </tr></table>
 
 ## コンテンツのテストとチェック
