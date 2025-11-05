@@ -27,7 +27,7 @@ ht-degree: 3%
 * ジャーニー条件内でのリアルタイムオーディエンスの参加の評価
 * 複数のオーディエンスチェックを組み合わせて、複雑なターゲティングルールを作成します
 
-この関数は、オーディエンスのメンバーシップをリアルタイムで評価し、ブール値を返すので、決定ノードや条件式に最適です。 オーディエンスは、[Adobe Experience Platform](https://platform.adobe.com/audience/overview){target="_blank"} （Journey Optimizerでの [ オーディエンスの操作 ](../../audience/about-audiences.md) で定義および管理され、式エディターには、オーディエンスを正確に参照するのに役立つオートコンプリート候補が表示されます。
+この関数は、オーディエンスのメンバーシップをリアルタイムで評価し、ブール値を返すので、決定ノードや条件式に最適です。 オーディエンスは、[Adobe Experience Platform](https://platform.adobe.com/audience/overview){target="_blank"} （Journey Optimizerでの [&#x200B; オーディエンスの操作 &#x200B;](../../audience/about-audiences.md) で定義および管理され、式エディターには、オーディエンスを正確に参照するのに役立つオートコンプリート候補が表示されます。
 
 **オーディエンスステータス：**
 
@@ -36,7 +36,7 @@ ht-degree: 3%
 * **実現**：個人はオーディエンス定義の対象となり、アクティブなメンバーになります
 * **退出**：個人はオーディエンスを離れ、資格を失いました
 
-**実現済み** ステータスの個人のみが、アクティブオーディエンスメンバーと見なされます。 関数が `true` を返す場合、個人が適合済みのステータスであることを確認します。`false` を返す場合、離脱済みのステータスであることを示します。 オーディエンスの評価について詳しくは、[ セグメント化サービスのドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ja#interpret-segment-results){target="_blank"} を参照してください。
+**実現済み** ステータスの個人のみが、アクティブオーディエンスメンバーと見なされます。 関数が `true` を返す場合、個人が適合済みのステータスであることを確認します。`false` を返す場合、離脱済みのステータスであることを示します。 オーディエンスの評価について詳しくは、[&#x200B; セグメント化サービスのドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ja#interpret-segment-results){target="_blank"} を参照してください。
 
 +++構文
 
@@ -109,7 +109,7 @@ inAudience("Unsubscribed") == false
 
 **結合ポリシーに関する考慮事項：**
 * `inAudience` 関数で複数のオーディエンスを使用する場合、結合ポリシーとの不一致により、エラーやアラートが発生する可能性があります
-* 結合ポリシーの動作の詳細については [](../journey-properties.md)ジャーニープロパティを参照してください
+* 結合ポリシーの動作の詳細については [&#128279;](../journey-properties.md)ジャーニープロパティを参照してください
 
 ## 関連トピック
 
