@@ -40,13 +40,13 @@ ht-degree: 33%
 
 * [フラグメント](../content-management/fragments.md)には、テーマを使用モードと手動スタイルモード間で相互互換性がありません。
 
-   * テーマの設定されたコンテンツで [ フラグメント ](../content-management/fragments.md) を活用するには、このフラグメント自体がテーマを使用して作成されている必要があります。 [詳細情報](#leverage-themes-fragment)
+   * テーマの設定されたコンテンツで [&#x200B; フラグメント &#x200B;](../content-management/fragments.md) を活用するには、このフラグメント自体がテーマを使用して作成されている必要があります。 [詳細情報](#leverage-themes-fragment)
 
    * メールコンテンツでフラグメントを使用する場合は、このフラグメントに定義したテーマを適用してください。 これを怠ると、特に Outlook 2021 以前のバージョンで、表示の問題が発生する可能性があります。 [詳細情報](#leverage-themes-fragment)
 
-* HTMLで作成したコンテンツを使用する場合は、[ 互換モード ](existing-content.md) になり、そのコンテンツにテーマを直接適用することはできません。
+* HTMLで作成したコンテンツを使用する場合は、[&#x200B; 互換モード &#x200B;](existing-content.md) になり、そのコンテンツにテーマを直接適用することはできません。
 
-   * テーマを適用するには、まず読み込んだコンテンツを [ 新しいテンプレートとして ](../content-management/create-content-templates.md#save-as-template) 保存し、次にこのテンプレートをテーマ互換コンテンツに変換する必要があります。 その後、このテンプレートを使用してメールコンテンツを作成できます。 手動スタイル設定で作成されたテンプレートを変換する方法については、[ この節 ](#theme-convertor) を参照してください。
+   * テーマを適用するには、まず読み込んだコンテンツを [&#x200B; 新しいテンプレートとして &#x200B;](../content-management/create-content-templates.md#save-as-template) 保存し、次にこのテンプレートをテーマ互換コンテンツに変換する必要があります。 その後、このテンプレートを使用してメールコンテンツを作成できます。 手動スタイル設定で作成されたテンプレートを変換する方法については、[&#x200B; この節 &#x200B;](#theme-convertor) を参照してください。
 
    * 読み込んだHTML コンテンツを変換することもできます。 [詳細情報](existing-content.md)
 
@@ -72,7 +72,7 @@ ht-degree: 33%
 
    ![](assets/theme-edit.png)
 
-1. 「**[!UICONTROL 一般設定]**」タブで、ブランドに合った特定の名前を付けてテーマの定義を開始します。 メールのデフォルトのビューポート幅を調整したり、現在のテーマを書き出して [ サンドボックス間で共有 ](../configuration/copy-objects-to-sandbox.md) したりできます。
+1. 「**[!UICONTROL 一般設定]**」タブで、ブランドに合った特定の名前を付けてテーマの定義を開始します。 メールのデフォルトのビューポート幅を調整したり、現在のテーマを書き出して [&#x200B; サンドボックス間で共有 &#x200B;](../configuration/copy-objects-to-sandbox.md) したりできます。
 
    <!--![](assets/theme-general-settings.png)-->
 
@@ -114,13 +114,13 @@ ht-degree: 33%
 
 コンテンツテンプレートまたはメールにデフォルトまたはカスタムのスタイルテーマを適用するには、次の手順に従います。
 
-1. [!DNL Journey Optimizer] では、[ メールの追加 ](create-email.md) ジャーニーまたはキャンペーンへのアクション、メールの作成 [ コンテンツテンプレート ](../content-management/create-content-templates.md#create-template-from-scratch)、[ メール本文の編集 ](get-started-email-design.md#key-steps) を行います。
+1. [!DNL Journey Optimizer] では、[&#x200B; メールの追加 &#x200B;](create-email.md) ジャーニーまたはキャンペーンへのアクション、メールの作成 [&#x200B; コンテンツテンプレート &#x200B;](../content-management/create-content-templates.md#create-template-from-scratch)、[&#x200B; メール本文の編集 &#x200B;](get-started-email-design.md#key-steps) を行います。
 
 1. 次のいずれかのアクションを選択できます。
 
    * ビルトインの[メールテンプレート](use-email-templates.md)を選択して、E メールデザイナーを開きます。各テンプレートに固有のデフォルトのテーマが自動的に適用されます。
 
-   * [ 新規コンテンツをゼロから ](content-from-scratch.md) デザインし、**[!UICONTROL テーマを使用]** を選択して、定義済みのスタイル設定テーマから始めます。
+   * [&#x200B; 新規コンテンツをゼロから &#x200B;](content-from-scratch.md) デザインし、**[!UICONTROL テーマを使用]** を選択して、定義済みのスタイル設定テーマから始めます。
 
      ![](assets/theme-from-scratch.png)
 
@@ -128,7 +128,7 @@ ht-degree: 33%
      >
      >手動スタイル設定モードを選択した場合、デザインをリセットしない限り、テーマを適用することはできません。
      >
-     >テーマの設定されたコンテンツで [ フラグメント ](../content-management/fragments.md) を活用するには、このフラグメント自体がテーマを使用して作成されている必要があります。 [詳細情報](#leverage-themes-fragment)
+     >テーマの設定されたコンテンツで [&#x200B; フラグメント &#x200B;](../content-management/fragments.md) を活用するには、このフラグメント自体がテーマを使用して作成されている必要があります。 [詳細情報](#leverage-themes-fragment)
 
 1. E メールデザイナーに移動したら、右側のパネルにある「**[!UICONTROL テーマ]**」ボタンをクリックします。デフォルトのテーマまたはテンプレートのテーマが表示されます。このテーマでは、2 つのカラーバリアントを切り替えることができます。
 
@@ -184,7 +184,7 @@ ht-degree: 33%
 
 ## フラグメントでのテーマの活用 {#leverage-themes-fragment}
 
-[ テーマが適用 ](#apply-themes-email) されたテンプレートまたはメールでフラグメントを活用するには、このフラグメント自体がテーマを使用して作成されている必要があります。 そうでない場合、テーマの設定されたコンテンツでこのフラグメントを使用することはできません。
+[&#x200B; テーマが適用 &#x200B;](#apply-themes-email) されたテンプレートまたはメールでフラグメントを活用するには、このフラグメント自体がテーマを使用して作成されている必要があります。 そうでない場合、テーマの設定されたコンテンツでこのフラグメントを使用することはできません。
 
 テーマと互換性のあるフラグメントを作成するには、次の手順に従います。
 
@@ -214,7 +214,7 @@ ht-degree: 33%
 
    >[!CAUTION]
    >
-   >メールコンテンツでフラグメントを使用する場合は、このフラグメントに定義した [ テーマを適用 ](#apply-themes-email) ことを確認します。 これを怠ると、特に Outlook 2021 以前のバージョンで、表示の問題が発生する可能性があります。
+   >メールコンテンツでフラグメントを使用する場合は、このフラグメントに定義した [&#x200B; テーマを適用 &#x200B;](#apply-themes-email) ことを確認します。 これを怠ると、特に Outlook 2021 以前のバージョンで、表示の問題が発生する可能性があります。
 
 1. 「**[!UICONTROL 閉じる]**」をクリックします。
 
@@ -228,7 +228,7 @@ ht-degree: 33%
 
 [!DNL Journey Optimizer] を使用すると、手動のスタイル設定を使用して作成されたテンプレートを、テーマ互換のコンテンツに変換できます。 これは、テーマを [!DNL Journey Optimizer] に取り込む前にコンテンツテンプレートを作成した場合や、外部コンテンツを読み込む場合に特に便利です。
 
-1. メール [ コンテンツテンプレート ](../content-management/create-content-templates.md) を開き、メールDesignerを使用してそのコンテンツを編集します。
+1. メール [&#x200B; コンテンツテンプレート &#x200B;](../content-management/create-content-templates.md) を開き、メールDesignerを使用してそのコンテンツを編集します。
 
 1. 右側のパネルで **[!UICONTROL テーマ]** アイコンを選択し、「**[!UICONTROL コンテンツからテーマを生成]** ボタンをクリックします。
 
