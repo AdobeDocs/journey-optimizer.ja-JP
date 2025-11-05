@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 181999b096f6f65f25ba5220868aab3aaeafb807
+source-git-commit: a051f93a02cd90af65e62fd97ea437d07a964d7c
 workflow-type: tm+mt
-source-wordcount: '1243'
-ht-degree: 86%
+source-wordcount: '1357'
+ht-degree: 84%
 
 ---
 
@@ -22,19 +22,34 @@ ht-degree: 86%
 
 [!DNL Adobe Journey Optimizer] は継続的配信モデルに従って、アドビが新機能、機能強化、修正を継続的に提供できるようにします。このアプローチにより、スケーラブルで段階的な機能のロールアウトが可能になり、すべての環境をまたいでパフォーマンスと安定性を確保できます。
 
-このモデルにより、リリースノートは毎月のリリースの間に更新されます。専用の [&#x200B; 最新のアップデート &#x200B;](#latest-updates) セクションでは、実稼動へのデプロイ時に新機能と改善点がハイライト表示されるので、常にすべての変更がリアルタイムで通知されます。 リリースサイクルと可用性フェーズについて詳しくは、[Journey Optimizer リリースサイクル &#x200B;](releases.md) を参照してください。
+このモデルにより、リリースノートは毎月のリリースの間に更新されます。専用の [ 最新のアップデート ](#latest-updates) セクションでは、実稼動へのデプロイ時に新機能と改善点がハイライト表示されるので、常にすべての変更がリアルタイムで通知されます。 リリースサイクルと可用性フェーズについて詳しくは、[Journey Optimizer リリースサイクル ](releases.md) を参照してください。
 
 [!DNL Adobe Journey Optimizer] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}を参照してください。
 
-<!--
-## Latest updates {#latest-updates}
+## 最新の更新内容 {#latest-updates}
 
+過去数週間にリリースされた新機能と機能強化を次に示し、その公開日を示します。 これらは、月末に次のリリースノートのコンテンツとグループ化されます。 最新の [ 以下のリリースノート ](#latest-rn) も参照してください。
 
-New capabilities and improvements released in the past weeks are listed below, with their availability date. They will be grouped with the next release notes content at the end of the month. See also the latest [release notes below](#latest-rn).
+#### 新機能 {#oct-25-10-soon-features}
 
--->
-
-
+<table>
+<thead>
+<tr>
+<th><strong>E メールデザイナーのテーマ</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>事前承認済みのテーマをすばやく適用して、すべてのメールにわたってブランドの一貫性を確保し、キャンペーン作成プロセスを高速化し、デザインチームへの依存を減らしながら高品質のメールを独自に作成できるようになりました。</p>
+<p>この機能は、以前はベータ版でリリースされていましたが、現在は一部の組織で使用できるようになりました（限定提供）。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
+<img src="assets/do-not-localize/themes.gif">
+<p>詳しくは、<a href="../email/apply-email-themes.md">詳細なドキュメント</a>を参照してください。</p>
+<p>公開日：2025年11月5日（PT）</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## 2025年10月リリースノート {#oct-25-10-rn}
 
