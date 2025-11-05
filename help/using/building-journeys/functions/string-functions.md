@@ -7,10 +7,10 @@ role: Developer
 level: Experienced
 keywords: 文字列，関数，式，ジャーニー，テキスト，操作
 version: Journey Orchestration
-source-git-commit: d58319d687d113ce680c415524fdea0400cb38f0
+source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
 workflow-type: tm+mt
-source-wordcount: '1097'
-ht-degree: 84%
+source-wordcount: '1127'
+ht-degree: 82%
 
 ---
 
@@ -20,15 +20,16 @@ ht-degree: 84%
 
 次の必要がある場合は、文字列関数を使用します。
 
-* 複数のテキスト値の連結と結合
-* 特定のテキストパターンまたは部分文字列の検索
-* 大文字と小文字を区別する一致または大文字と小文字を区別しない一致を持つ文字列を比較
-* 部分文字列操作を使用してテキストの一部を抽出する
-* テキストを大文字または小文字に変換する
-* 文字列が空であるか、特定の値を含んでいるかを確認します
-* テキストパターンを新しい値に置き換える
-* 文字列を配列に分割して、さらに処理する
-* 正規表現に対してテキストを検証します
+* 複数のテキスト値の連結および結合（[concat](#concat)）
+* 特定のテキストパターンまたは部分文字列（[contain](#contain)、[containIgnoreCase](#containIgnoreCase)、[indexOf](#indexOf)、[lastIndexOf](#lastIndexOf)、[matchRegExp](#matchRegExp)）を検索します
+* 大文字と小文字を区別する、または大文字と小文字を区別しない一致する文字列を比較します（[equalIgnoreCase](#equalIgnoreCase), [notEqualIgnoreCase](#notEqualIgnoreCase)）
+* 文字列の開始と終了を確認します（[startWith](#startWith)、[startWithIgnoreCase](#startWithIgnoreCase)、[endWith](#endWith)、[endWithIgnoreCase](#endWithIgnoreCase)）
+* 部分文字列操作を使用してテキストの一部を抽出する（[substr](#substr)）
+* テキストを大文字または小文字に変換（[upper](#upper)、[lower](#lower)、[trim](#trim)）
+* 文字列が空であるか、特定の値（[isEmpty](#isEmpty)、[isNotEmpty](#isNotEmpty)）を含んでいるかを確認します
+* テキストパターンを新しい値に置き換えます（[replace](#replace), [replaceAll](#replaceAll)）
+* さらに処理するために文字列を配列に分割（[split](#split)）
+* 文字列の長さを取得（[length](#length)）するか、一意の識別子を生成（[uuid](#uuid)）します
 
 文字列関数は、包括的なテキスト操作機能を提供し、ジャーニー式のテキストコンテンツに基づく高度なデータ処理と条件付きロジックを可能にします。
 

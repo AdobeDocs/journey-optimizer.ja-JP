@@ -7,10 +7,10 @@ role: Developer
 level: Experienced
 keywords: コンバージョン，関数，式，ジャーニー，タイプ，キャスト
 version: Journey Orchestration
-source-git-commit: 7d75abf6b428becc8b535a63421e85cca417daac
+source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
 workflow-type: tm+mt
-source-wordcount: '940'
-ht-degree: 87%
+source-wordcount: '957'
+ht-degree: 85%
 
 ---
 
@@ -20,9 +20,10 @@ ht-degree: 87%
 
 次の必要がある場合は、変換関数を使用します。
 
-* 文字列値を数値、ブール値または日付型に変換する
-* 日付と時刻を異なる形式と表示域に変換する
-* 整数タイプと小数タイプの間で数値をキャストします
+* 文字列値を数値、ブール値、または日付タイプ（[toInteger](#toInteger)、[toDecimal](#toDecimal)、[toBool](#toBool)）に変換します
+* 日付と時刻を、異なる形式および表示域（[toDateTime](#toDateTime)、[toDateTimeOnly](#toDateTimeOnly)、[toDateOnly](#toDateOnly)）に変換します。
+* integer 型と decimal 型（[toInteger](#toInteger)、[toDecimal](#toDecimal)）の間で数値をキャストします
+* 値を文字列形式（[toString](#toString)）またはデュレーション（[toDuration](#toDuration)）に変換します
 * 比較および操作のタイプの互換性の確保
 * 異なるタイプ形式を持つ可能性のある外部ソースからのデータを処理します
 

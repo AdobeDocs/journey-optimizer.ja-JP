@@ -7,10 +7,10 @@ role: Developer
 level: Experienced
 keywords: 日付，関数，式，ジャーニー，時間
 version: Journey Orchestration
-source-git-commit: 42abfcc9711d87b2dc00df47e964dad07443f0ed
+source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
 workflow-type: tm+mt
-source-wordcount: '783'
-ht-degree: 84%
+source-wordcount: '791'
+ht-degree: 83%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 84%
 
 日付関数は、次の場合に使用します。
 
-* 特定のタイムゾーン処理で現在の時刻または日付を取得します
-* 日付が特定の時間範囲（過去または未来）に収まっているかどうかを確認する
-* 日付と時間の構成要素（時間、日、タイムゾーン）を変更する
+* 特定のタイムゾーン処理（[now](#now)、[nowWithDelta](#nowWithDelta)、[currentTimeInMillis](#currentTimeInMillis)）で現在の時刻または日付を取得します
+* 日付が特定の時間範囲（[inLastDays](#inLastDays)、[inLastHours](#inLastHours)、[inLastMonths](#inLastMonths)、[inLastYears](#inLastYears)、[inNextDays](#inNextDays)、[inNextHours](#inNextHours)、[inNextMonths](#inNextMonths)、[inNextYears](#inNextYears)）に該当するかどうかを確認します
+* 日時コンポーネント（[setHours](#setHours)、[setDays](#setDays)、[updateTimeZone](#updateTimeZone)）を変更する
 * 時間ベースの計算と比較の実行
 * 異なる時間形式と表示域の変換
 

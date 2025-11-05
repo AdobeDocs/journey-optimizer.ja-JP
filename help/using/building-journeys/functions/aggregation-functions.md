@@ -7,10 +7,10 @@ role: Developer
 level: Experienced
 keywords: 集計，関数，式，ジャーニー，平均，カウント，最大，最小，合計
 version: Journey Orchestration
-source-git-commit: 6102fba3ba30b462654e218f08835be53b75e2cc
+source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 79%
+source-wordcount: '717'
+ht-degree: 78%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 79%
 
 次の場合に、集計関数を使用します。
 
-* リストまたは配列（平均、合計、最小、最大）から統計値を計算
-* コレクション内の要素をカウントし、null 値を含めるか除外するオプションを指定します
-* データセット内の一意の値の決定
+* リストまたは配列（[avg](#avg)、[sum](#sum)、[min](#min)、[max](#max)）から統計値を計算します
+* null 値を含めるか除外するオプションを使用して、コレクション内の要素（[count](#count)、[countOnlyNull](#countOnlyNull)、[countWithNull](#countWithNull)）をカウントします
+* データセット内の一意の値を決定します（[distinctCount](#distinctCount)、[distinctCountWithNull](#distinctCountWithNull)）
 * 計算指標に基づくデータ駆動型の決定を行う
 
 集計関数は、特定の動作に従って null 値を自動的に処理するので、欠落値や未定義の値を含む可能性のある実際のデータを簡単に操作できます。

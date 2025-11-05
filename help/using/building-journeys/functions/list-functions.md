@@ -7,10 +7,10 @@ role: Developer
 level: Experienced
 keywords: リスト，関数，式，ジャーニー，配列，コレクション
 version: Journey Orchestration
-source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
+source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
 workflow-type: tm+mt
-source-wordcount: '1144'
-ht-degree: 86%
+source-wordcount: '1158'
+ht-degree: 85%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 86%
 
 リスト関数は、次の場合に使用します。
 
-* 条件に基づいてコレクションから特定の項目をフィルタリングして抽出
-* リスト要素の昇順または降順での並べ替えと整理
-* 重複の削除とリストからの一意の値の取得
-* コレクション内に値が存在するかどうかを確認します
-* リストから返される項目の数を制限
-* リストを様々な形式またはデータタイプに変換する
-* リスト間の共通要素の検索などの設定操作の実行
+* 条件（[filter](#filter)、[getListItem](#getListItem)）に基づいて、コレクションから特定の項目をフィルタリングして抽出
+* リスト要素の昇順または降順での並べ替えと整理（[sort](#sort)）
+* 重複を削除して、リストから一意の値を取得します（[distinct](#distinct)、[distinctWithNull](#distinctWithNull)）
+* 値がコレクション内に存在するかどうかを確認します（[in](#in)）
+* リストから返される項目の数を制限する（[limit](#limit)）
+* リスト（[listSize](#listSize)）のサイズを取得するか、リストを異なる形式（[serializeList](#serializeList)）に変換します
+* リスト間の共通要素の検索などの集合操作の実行（[intersect](#intersect)）
 
 リスト関数は、複雑なデータ構造を操作するための強力なツールを提供し、コレクションの内容に基づく高度なデータ操作と条件付きロジックを可能にします。
 
