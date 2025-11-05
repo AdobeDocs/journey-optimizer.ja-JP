@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d58319d687d113ce680c415524fdea0400cb38f0
+source-git-commit: a866442aa073c648d4455754e9945f0dddfb079d
 workflow-type: tm+mt
-source-wordcount: '2956'
+source-wordcount: '2947'
 ht-degree: 98%
 
 ---
@@ -112,22 +112,13 @@ ht-degree: 98%
       + 関数 {#main-functions-journey}
          + [関数](/help/rp_landing_pages/main-functions-journey-landing-page.md)
          + [主な関数](using/building-journeys/expression/functions.md)
-         + Adobe Experience Platform {#adobe-experience-platform}
-            + [inAudience](using/building-journeys/functions/functioninaudience.md)
-         + 集計 {#aggregation}
-            + [集計関数](using/building-journeys/functions/aggregation-functions.md)
-         + コンバージョン {#conversion}
-            + [コンバージョン関数](using/building-journeys/functions/conversion-functions.md)
-         + 日付 {#date}
-            + [日付関数](using/building-journeys/functions/date-functions.md)
-         + リスト {#list}
-            + [リスト関数](using/building-journeys/functions/list-functions.md)
-         + 数値計算 {#math}
-            + [数値計算](/help/rp_landing_pages/math-landing-page.md)
-            + [random](using/building-journeys/functions/functionrandom.md)
-            + [round](using/building-journeys/functions/functionround.md)
-         + 文字列 {#string}
-            + [文字列関数](using/building-journeys/functions/string-functions.md)
+         + [inAudience 関数](using/building-journeys/functions/functioninaudience.md)
+         + [集計関数](using/building-journeys/functions/aggregation-functions.md)
+         + [コンバージョン関数](using/building-journeys/functions/conversion-functions.md)
+         + [日付関数](using/building-journeys/functions/date-functions.md)
+         + [リスト関数](using/building-journeys/functions/list-functions.md)
+         + [数学関数](using/building-journeys/functions/math-functions.md)
+         + [文字列関数](using/building-journeys/functions/string-functions.md)
    + ユースケース {#journey-use-cases}
       + [ユースケース](/help/rp_landing_pages/journey-use-cases-landing-page.md)
       + [ユースケースを通じて学ぶ](using/building-journeys/jo-use-cases.md)
@@ -916,7 +907,7 @@ ht-degree: 98%
    + [プライバシー](/help/rp_landing_pages/privacy-landing-page.md)
    + [プライバシーの基本を学ぶ](using/privacy/get-started-privacy.md)
    + [プライバシーリクエスト](using/privacy/requests.md)
-   + [&#x200B; リソースに対する監査アクション](using/privacy/audit-logs.md)
+   + [ リソースに対する監査アクション](using/privacy/audit-logs.md)
    + [データライフサイクル操作の実行](using/privacy/data-hygiene.md)
    + 同意を管理 {#consent}
       + [同意を管理](/help/rp_landing_pages/consent-landing-page.md)
