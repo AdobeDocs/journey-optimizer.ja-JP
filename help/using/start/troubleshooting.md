@@ -331,7 +331,7 @@ Journey Throttling API について詳しくは、[このページ](../configura
 
 このエラーを解決するには、管理者に問い合わせて、ユーザープロファイルがオーディエンスの公開に必要なデータビューにアクセスできることを確認してから、オーディエンスを再度公開してみてください。
 
-この問題を解決する手順については、[ 権限のドキュメント ](../administration/permissions.md){target="_blank"} を参照してください。
+この問題を解決する手順については、[&#x200B; 権限のドキュメント &#x200B;](../administration/permissions.md){target="_blank"} を参照してください。
 
 +++
 
