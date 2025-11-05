@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
 workflow-type: tm+mt
 source-wordcount: '2035'
 ht-degree: 100%
@@ -152,7 +152,7 @@ ht-degree: 100%
 <p>実行時に動的に入力されるカスタムアクションパラメーターに、コレクションつまりデータのリストを渡すことができるようになりました。単純なコレクションとオブジェクトコレクションの 2 種類のコレクションがサポートされています。以前に作成したカスタムアクションは引き続き機能します。 </p>
 <p>コレクションについて詳しくは、<a href="../building-journeys/collections.md">詳細なドキュメント</a>を参照してください。 </p>
 <p>filter 関数と intersect 関数が、高度な式エディターで使用できる関数のリストに追加されました。これにより、コレクションのフィルタリングと比較でさらに多くのことを行えるようになります。</p>
-<p><a href="../building-journeys/functions/functionfilter.md">filter</a> 関数と <a href="../building-journeys/functions/functionintersect.md">intersect</a> 関数のドキュメントを参照してください。</p>
+<p><a href="../building-journeys/functions/list-functions.md#filter">filter</a> 関数と <a href="../building-journeys/functions/list-functions.md#intersect">intersect</a> 関数のドキュメントを参照してください。</p>
 </td>
 </tr>
 </tbody>

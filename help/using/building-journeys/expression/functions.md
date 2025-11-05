@@ -9,7 +9,7 @@ level: Experienced
 keywords: 関数, 式, エディター, ジャーニー
 exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 version: Journey Orchestration
-source-git-commit: 42abfcc9711d87b2dc00df47e964dad07443f0ed
+source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 100%
@@ -62,16 +62,16 @@ ht-degree: 100%
 | 日付 | [setHours](../functions/date-functions.md#setHours) |
 | 日付 | [setDays](../functions/date-functions.md#setDays) |
 | 日付 | [updateTimeZone](../functions/date-functions.md#updateTimeZone) |
-| リスト | [distinct](../functions/functiondistinct.md) |
-| リスト | [distinctWithNull](../functions/functiondistinctwithnull.md) |
-| リスト | [filter](../functions/functionfilter.md) |
-| リスト | [getListItem](../functions/functiongetlistitem.md) |
-| リスト | [in](../functions/functionin.md) |
-| リスト | [intersect](../functions/functionintersect.md) |
-| リスト | [limit](../functions/functionlimit.md) |
-| リスト | [listSize](../functions/functionlistsize.md) |
-| リスト | [serializeList](../functions/functionserializelist.md) |
-| リスト | [sort](../functions/functionsort.md) |
+| リスト | [distinct](../functions/list-functions.md#distinct) |
+| リスト | [distinctWithNull](../functions/list-functions.md#distinctWithNull) |
+| リスト | [filter](../functions/list-functions.md#filter) |
+| リスト | [getListItem](../functions/list-functions.md#getListItem) |
+| リスト | [in](../functions/list-functions.md#in) |
+| リスト | [intersect](../functions/list-functions.md#intersect) |
+| リスト | [limit](../functions/list-functions.md#limit) |
+| リスト | [listSize](../functions/list-functions.md#listSize) |
+| リスト | [serializeList](../functions/list-functions.md#serializeList) |
+| リスト | [sort](../functions/list-functions.md#sort) |
 | 数値計算 | [random](../functions/functionrandom.md) |
 | 数値計算 | [round](../functions/functionround.md) |
 | 文字列 | [concat](../functions/functionconcat.md) |

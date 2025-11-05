@@ -5,7 +5,7 @@ title: リスト
 description: リスト
 redpen-status: CREATED_||_2025-08-11_20-15-54
 exl-id: 5cb96709-c1bf-415e-bcdf-217c1ae7c34d
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 100%
@@ -20,63 +20,63 @@ Adobe Journey Optimizer の「リスト」関数を使用すると、ワーク�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer での「distinct」関数の使用
 
 「distinct」関数を使用して、null エントリを無視し、一意の値またはオブジェクトを返すことで、リストを重複排除する方法について説明します。
 
-[「distinct」の詳細を読む](../using/building-journeys/functions/functiondistinct.md)
+[「distinct」の詳細を読む](../using/building-journeys/functions/list-functions.md#distinct)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 distinctWithNull 関数 - Adobe Journey Optimizer
 
 null エントリを含めながら、リストから個別の値またはオブジェクトを取得するのに「distinctWithNull」を使用する方法について説明します。
 
-[詳しくは、「distinctWithNull」を参照してください。](../using/building-journeys/functions/functiondistinctwithnull.md)
+[詳しくは、「distinctWithNull」を参照してください。](../using/building-journeys/functions/list-functions.md#distinctWithNull)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer での「filter」関数の使用
 
 「filter」関数を使用して、特定のキー値に基づいてオブジェクトのリストにフィルターを適用する方法について説明します。
 
-[「filter」関数の詳細の探索](../using/building-journeys/functions/functionfilter.md)
+[「filter」関数の詳細の探索](../using/building-journeys/functions/list-functions.md#filter)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer での getListItem 関数の使用
 
 「getListItem」関数を使用して、特定のインデックスにあるリストから項目を取得する方法について説明します。
 
-[「getListItem」について](../using/building-journeys/functions/functiongetlistitem.md)
+[「getListItem」について](../using/building-journeys/functions/list-functions.md#getListItem)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer での「in」関数の使用
 
 「in」関数を使用して、リスト内に値が存在するかどうかを確認する方法について説明します。
 
-[「in」の詳細情報](../using/building-journeys/functions/functionin.md)
+[「in」の詳細情報](../using/building-journeys/functions/list-functions.md#in)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer の intersect 関数
 
 「intersect」関数を使用して、2 つの入力リスト間の共通値を取得する方法について説明します。
 
-[「intersect」の詳細](../using/building-journeys/functions/functionintersect.md)
+[「intersect」の詳細](../using/building-journeys/functions/list-functions.md#intersect)
 :::
 
 ::::
@@ -84,7 +84,7 @@ Adobe Journey Optimizer の intersect 関数
 
 ## その他のリソース
 
-- **[Adobe Journey Optimizer での `limit` 関数の使用](../using/building-journeys/functions/functionlimit.md)** - 「limit」関数を使用して、リストを最初または最後の N 要素に制限する方法について説明します。
-- **[listSize 関数リファレンス](../using/building-journeys/functions/functionlistsize.md)** - 「listSize」関数を使用して、リスト内の要素の数をカウントする方法について説明します。
-- **[Adobe Journey Optimizer での serializeList 関数](../using/building-journeys/functions/functionserializelist.md)** - 「serializeList」関数を使用して、リストをカスタマイズ可能な書式設定の文字列に変換します。
-- **[Adobe Journey Optimizer での sort 関数](../using/building-journeys/functions/functionsort.md)** - 「sort」関数を使用して、値またはオブジェクトのリストを自然な順序で並べ替える方法について説明します。
+- **[Adobe Journey Optimizer での `limit` 関数の使用](../using/building-journeys/functions/list-functions.md#limit)** - 「limit」関数を使用して、リストを最初または最後の N 要素に制限する方法について説明します。
+- **[listSize 関数リファレンス](../using/building-journeys/functions/list-functions.md#listSize)** - 「listSize」関数を使用して、リスト内の要素の数をカウントする方法について説明します。
+- **[Adobe Journey Optimizer での serializeList 関数](../using/building-journeys/functions/list-functions.md#serializeList)** - 「serializeList」関数を使用して、リストをカスタマイズ可能な書式設定の文字列に変換します。
+- **[Adobe Journey Optimizer での sort 関数](../using/building-journeys/functions/list-functions.md#sort)** - 「sort」関数を使用して、値またはオブジェクトのリストを自然な順序で並べ替える方法について説明します。

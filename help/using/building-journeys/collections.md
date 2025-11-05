@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
 workflow-type: tm+mt
 source-wordcount: '723'
-ht-degree: 35%
+ht-degree: 37%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 35%
 
 >[!NOTE]
 >
->コレクション内のネストされた配列は、カスタムアクションリクエストペイロードでは部分的にのみサポートされます。 詳しくは、[&#x200B; 制限事項 &#x200B;](#limitations) を参照してください。
+>コレクション内のネストされた配列は、カスタムアクションリクエストペイロードでは部分的にのみサポートされます。 詳しくは、[ 制限事項 ](#limitations) を参照してください。
 
 ## 一般的な手順 {#general-procedure}
 
@@ -132,7 +132,7 @@ ht-degree: 35%
 
    ![](assets/uc-collection-4.png){width="50%" align="left"}
 
-配列フィールドの場合は、高度な式エディターを使用してデータ操作を実行することもできます。次の例では、[filter](functions/functionfilter.md) 関数と [intersect](functions/functionintersect.md) 関数を使用しています。
+配列フィールドの場合は、高度な式エディターを使用してデータ操作を実行することもできます。次の例では、[filter](functions/list-functions.md#filter) 関数と [intersect](functions/list-functions.md#intersect) 関数を使用しています。
 
 ![](assets/uc-collection-5.png)
 
@@ -227,8 +227,8 @@ ht-degree: 35%
 
 カスタムアクションの設定、使用、トラブルシューティングについて詳しくは、以下の節を参照してください。
 
-* [&#x200B; カスタムアクションの概要 &#x200B;](../action/action.md) - カスタムアクションの概要と、カスタムアクションがサードパーティシステムへの接続にどのように役立つかを説明します
-* [&#x200B; カスタムアクションの設定 &#x200B;](../action/about-custom-action-configuration.md) - カスタムアクションの作成および設定方法を説明します
-* [&#x200B; カスタムアクションの使用 &#x200B;](../building-journeys/using-custom-actions.md) - ジャーニーでのカスタムアクションの使用方法を説明します
-* [&#x200B; カスタムアクションのトラブルシューティング &#x200B;](../action/troubleshoot-custom-action.md) - カスタムアクションのトラブルシューティング方法を説明します。
+* [ カスタムアクションの概要 ](../action/action.md) - カスタムアクションの概要と、カスタムアクションがサードパーティシステムへの接続にどのように役立つかを説明します
+* [ カスタムアクションの設定 ](../action/about-custom-action-configuration.md) - カスタムアクションの作成および設定方法を説明します
+* [ カスタムアクションの使用 ](../building-journeys/using-custom-actions.md) - ジャーニーでのカスタムアクションの使用方法を説明します
+* [ カスタムアクションのトラブルシューティング ](../action/troubleshoot-custom-action.md) - カスタムアクションのトラブルシューティング方法を説明します。
 

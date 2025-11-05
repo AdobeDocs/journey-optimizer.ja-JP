@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
+source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
 workflow-type: tm+mt
 source-wordcount: '3599'
 ht-degree: 100%
@@ -262,7 +262,7 @@ ht-degree: 100%
 <td>
 <p>Journey Optimizer キャンペーンを使用すると、様々なチャネルを使用して、特定のオーディエンスに 1 回限りのコンテンツを配信できます。ジャーニーを使用する場合、アクションはシーケンスで順番に実行されるように設計されています。 キャンペーンでは、アクションは指定したスケジュールに基づいて同時にまたは即時に実行されます。 </p>
 <img src="assets/do-not-localize/campaigns.gif"/>
-<p>キャンペーンを作成する方法を<a href="../campaigns/get-started-with-campaigns.md">詳細なドキュメント</a>および<a href="https://video.tv.adobe.com/v/3412405?captions=jpn">機能に関するビデオ</a>で説明します。
+<p>キャンペーンを作成する方法を<a href="../campaigns/get-started-with-campaigns.md">詳細なドキュメント</a>および<a href="https://video.tv.adobe.com/v/346680">機能に関するビデオ</a>で説明します。
 </td>
 </tr>
 </tbody>
@@ -617,7 +617,7 @@ ht-degree: 100%
 **ジャーニー**
 
 * **オーディエンスを読み取り** - 1 回限りの「オーディエンスを読み取り」ジャーニーは、ジャーニーの実行から 30 日後に、完了ステータスに移行するようになりました。スケジュールされた「オーディエンスを読み取り」の場合は、最後の実行から 30 日後になります。[詳細情報](../building-journeys/read-audience.md)
-* **式エディター** - [limit](../building-journeys/functions/functionlimit.md) 関数が追加され、リストの項目数を制限できるようになりました。[sort](../building-journeys/functions/functionsort.md) 関数を使用して、リストオブジェクトを並べ替えることができるようになりました。また、listObject のサポートが [discint](../building-journeys/functions/functiondistinct.md) および [distinctWithNull](../building-journeys/functions/functiondistinctwithnull.md) 関数に追加されました。
+* **式エディター** - [limit](../building-journeys/functions/list-functions.md#limit) 関数が追加され、リストの項目数を制限できるようになりました。[sort](../building-journeys/functions/list-functions.md#sort) 関数を使用して、リストオブジェクトを並べ替えることができるようになりました。また、listObject のサポートが [discint](../building-journeys/functions/list-functions.md#distinct) および [distinctWithNull](../building-journeys/functions/list-functions.md#distinctWithNull) 関数に追加されました。
 
 **管理**
 

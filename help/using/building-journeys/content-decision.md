@@ -11,7 +11,7 @@ badge: label="限定提供" type="Informative"
 keywords: アクティビティ, 決定, コンテンツ決定, 決定ポリシー, キャンバス, ジャーニー
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
 workflow-type: tm+mt
 source-wordcount: '1120'
 ht-degree: 100%
@@ -116,7 +116,7 @@ ht-degree: 100%
    >
    >決定ルールで使用されるジャーニーエクスペリエンスイベント（コンテキストデータとして）または[オファースキーマ](../experience-decisioning/catalogs.md#access-catalog-schema)のいずれかで、属性に定義された制限ラベルは、DULE または同意のポリシー違反にはなりません。データガバナンスポリシーについて詳しくは、[この節](../action/action-privacy.md)を参照してください
 
-1. ジャーニーにエントリするプロファイルに対してオファーが返されたかどうかを確認するには、構文 `listSize(@decision{ContentdecisionName.items})>0` で [listSize](functions/functionlistsize.md) 関数を使用します
+1. ジャーニーにエントリするプロファイルに対してオファーが返されたかどうかを確認するには、構文 `listSize(@decision{ContentdecisionName.items})>0` で [listSize](functions/list-functions.md#listSize) 関数を使用します
 
    >[!NOTE]
    >

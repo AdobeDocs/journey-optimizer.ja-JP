@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 42abfcc9711d87b2dc00df47e964dad07443f0ed
+source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
 workflow-type: tm+mt
-source-wordcount: '2987'
+source-wordcount: '2978'
 ht-degree: 98%
 
 ---
@@ -121,17 +121,7 @@ ht-degree: 98%
          + 日付 {#date}
             + [日付関数](using/building-journeys/functions/date-functions.md)
          + リスト {#list}
-            + [リスト](/help/rp_landing_pages/list-landing-page.md)
-            + [distinct](using/building-journeys/functions/functiondistinct.md)
-            + [distinctWithNull](using/building-journeys/functions/functiondistinctwithnull.md)
-            + [filter](using/building-journeys/functions/functionfilter.md)
-            + [getListItem](using/building-journeys/functions/functiongetlistitem.md)
-            + [in](using/building-journeys/functions/functionin.md)
-            + [intersect](using/building-journeys/functions/functionintersect.md)
-            + [制限](using/building-journeys/functions/functionlimit.md)
-            + [listSize](using/building-journeys/functions/functionlistsize.md)
-            + [serializeList](using/building-journeys/functions/functionserializelist.md)
-            + [sort](using/building-journeys/functions/functionsort.md)
+            + [リスト関数](using/building-journeys/functions/list-functions.md)
          + 数値計算 {#math}
             + [数値計算](/help/rp_landing_pages/math-landing-page.md)
             + [random](using/building-journeys/functions/functionrandom.md)
@@ -949,7 +939,7 @@ ht-degree: 98%
    + [プライバシー](/help/rp_landing_pages/privacy-landing-page.md)
    + [プライバシーの基本を学ぶ](using/privacy/get-started-privacy.md)
    + [プライバシーリクエスト](using/privacy/requests.md)
-   + [&#x200B; リソースに対する監査アクション](using/privacy/audit-logs.md)
+   + [ リソースに対する監査アクション](using/privacy/audit-logs.md)
    + [データライフサイクル操作の実行](using/privacy/data-hygiene.md)
    + 同意を管理 {#consent}
       + [同意を管理](/help/rp_landing_pages/consent-landing-page.md)
