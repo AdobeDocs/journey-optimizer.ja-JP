@@ -51,7 +51,7 @@ ht-degree: 79%
 
 >[!NOTE]
 >
->サポートされるチャネルの詳細については、この節の表 [ ジャーニーとキャンペーンのチャネル ](../channels/gs-channels.md#channels) を参照してください。
+>サポートされるチャネルの詳細については、この節の表 [&#x200B; ジャーニーとキャンペーンのチャネル &#x200B;](../channels/gs-channels.md#channels) を参照してください。
 >
 >使用できるチャネルは、ライセンスモデルとアドオンによって異なります。
 
@@ -130,4 +130,4 @@ ht-degree: 79%
 * **[キャンペーンの開始と監視](start-monitor-campaigns.md)** - キャンペーンを開始し、その実行をリアルタイムで監視するためのベストプラクティスについて説明します。
 * **[ガードレールと制限](guardrails.md)** – 重要なガードレール、制限、ベストプラクティスを確認して、最適なキャンペーンパフォーマンスを確保します。
 * **[よくある質問](orchestrated-campaigns-faq.md)** - オーケストレートキャンペーンの機能、機能、ユースケースに関するよくある質問への回答を示します。
-* **[調整されたキャンペーンチュートリアル ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/create-campaigns/orchestrated-campaigns/introduction-to-orchestrated-campaigns){target="_blank"}** – 機能とベストプラクティスをカバーするステップバイステップのビデオチュートリアルをご覧ください。
+* **[調整されたキャンペーンチュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/create-campaigns/orchestrated-campaigns/introduction-to-orchestrated-campaigns){target="_blank"}** – 機能とベストプラクティスをカバーするステップバイステップのビデオチュートリアルをご覧ください。
