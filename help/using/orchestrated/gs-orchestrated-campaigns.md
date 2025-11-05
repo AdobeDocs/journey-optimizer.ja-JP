@@ -6,10 +6,10 @@ description: 調整されたキャンペーンの開始方法について説明�
 short-description: 調整されたキャンペーンの主な機能とユースケースをご確認ください。
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
-source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
+source-git-commit: 9619ffd2cde677c0c83ee1b53f232c41b5faaa9a
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 97%
+source-wordcount: '779'
+ht-degree: 79%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->サポートされるチャネルの詳細については、この節の表 [&#x200B; ジャーニーとキャンペーンのチャネル &#x200B;](../channels/gs-channels.md#channels) を参照してください。
+>サポートされるチャネルの詳細については、この節の表 [ ジャーニーとキャンペーンのチャネル ](../channels/gs-channels.md#channels) を参照してください。
 >
 >使用できるチャネルは、ライセンスモデルとアドオンによって異なります。
 
@@ -92,7 +92,7 @@ ht-degree: 97%
 
 ## さらに深く掘り下げましょう
 
-調整されたキャンペーンについて理解できたので、これらのドキュメントの節を深く掘り下げ、この機能の使用を開始します。
+これで、オーケストレートキャンペーンの概要を理解できたので、ドキュメントの節で詳しく説明し、この機能の使用を開始します。
 
 <table><tr style="border: 0; text-align: center;">
 <td>
@@ -121,3 +121,13 @@ ht-degree: 97%
 </div>
 <p></td>
 </tr></table>
+
+## その他のリソース
+
+* **[最初のルールを作成](build-query.md)** - ルールビルダーをマスターして、ターゲットクエリを作成し、リレーショナルデータを使用して精度の高いオーディエンスをセグメント化します。
+* **[リレーショナルスキーマの作成](gs-schemas.md)** - リレーショナルスキーマを設定して、キャンペーンでマルチエンティティデータを活用する方法を説明します。
+* **[調整されたキャンペーンのレポート](reporting-campaigns.md)** – 詳細なレポート指標とインサイトを使用して、キャンペーンのパフォーマンスを追跡および分析します。
+* **[キャンペーンの開始と監視](start-monitor-campaigns.md)** - キャンペーンを開始し、その実行をリアルタイムで監視するためのベストプラクティスについて説明します。
+* **[ガードレールと制限](guardrails.md)** – 重要なガードレール、制限、ベストプラクティスを確認して、最適なキャンペーンパフォーマンスを確保します。
+* **[よくある質問](orchestrated-campaigns-faq.md)** - オーケストレートキャンペーンの機能、機能、ユースケースに関するよくある質問への回答を示します。
+* **[調整されたキャンペーンチュートリアル ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/create-campaigns/orchestrated-campaigns/introduction-to-orchestrated-campaigns){target="_blank"}** – 機能とベストプラクティスをカバーするステップバイステップのビデオチュートリアルをご覧ください。
