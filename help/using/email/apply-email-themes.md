@@ -10,7 +10,7 @@ role: User
 level: Beginner, Intermediate
 keywords: メールテーマ, モジュール, 再利用性, ブランドの一貫性, メールデザイン, カスタム CSS, モバイルの最適化
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
-source-git-commit: a051f93a02cd90af65e62fd97ea437d07a964d7c
+source-git-commit: 4d12c36391c2546788d49cca6e2468a29fc1e74f
 workflow-type: tm+mt
 source-wordcount: '1567'
 ht-degree: 33%
@@ -40,13 +40,13 @@ ht-degree: 33%
 
 * [フラグメント](../content-management/fragments.md)には、テーマを使用モードと手動スタイルモード間で相互互換性がありません。
 
-   * テーマの設定されたコンテンツで [&#x200B; フラグメント &#x200B;](../content-management/fragments.md) を活用するには、このフラグメント自体がテーマを使用して作成されている必要があります。 [詳細情報](#leverage-themes-fragment)
+   * テーマの設定されたコンテンツで [ フラグメント ](../content-management/fragments.md) を活用するには、このフラグメント自体がテーマを使用して作成されている必要があります。 [詳細情報](#leverage-themes-fragment)
 
    * メールコンテンツでフラグメントを使用する場合は、このフラグメントに定義したテーマを適用してください。 これを怠ると、特に Outlook 2021 以前のバージョンで、表示の問題が発生する可能性があります。 [詳細情報](#leverage-themes-fragment)
 
-* HTMLで作成したコンテンツを使用する場合は、[&#x200B; 互換モード &#x200B;](existing-content.md) になり、そのコンテンツにテーマを直接適用することはできません。
+* HTMLで作成したコンテンツを使用する場合は、[ 互換モード ](existing-content.md) になり、そのコンテンツにテーマを直接適用することはできません。
 
-   * テーマを適用するには、まず読み込んだコンテンツを [&#x200B; 新しいテンプレートとして &#x200B;](../content-management/create-content-templates.md#save-as-template) 保存し、次にこのテンプレートをテーマ互換コンテンツに変換する必要があります。 その後、このテンプレートを使用してメールコンテンツを作成できます。 手動スタイル設定で作成されたテンプレートを変換する方法については、[&#x200B; この節 &#x200B;](#theme-convertor) を参照してください。
+   * テーマを適用するには、まず読み込んだコンテンツを [ 新しいテンプレートとして ](../content-management/create-content-templates.md#save-as-template) 保存し、次にこのテンプレートをテーマ互換コンテンツに変換する必要があります。 その後、このテンプレートを使用してメールコンテンツを作成できます。 手動スタイル設定で作成されたテンプレートを変換する方法については、[ この節 ](#theme-convertor) を参照してください。
 
    * 読み込んだHTML コンテンツを変換することもできます。 [詳細情報](existing-content.md)
 
@@ -72,7 +72,7 @@ ht-degree: 33%
 
    ![](assets/theme-edit.png)
 
-1. 「**[!UICONTROL 一般設定]**」タブで、ブランドに合った特定の名前を付けてテーマの定義を開始します。 メールのデフォルトのビューポート幅を調整したり、現在のテーマを書き出して [&#x200B; サンドボックス間で共有 &#x200B;](../configuration/copy-objects-to-sandbox.md) したりできます。
+1. 「**[!UICONTROL 一般設定]**」タブで、ブランドに合った特定の名前を付けてテーマの定義を開始します。 メールのデフォルトのビューポート幅を調整したり、現在のテーマを書き出して [ サンドボックス間で共有 ](../configuration/copy-objects-to-sandbox.md) したりできます。
 
    <!--![](assets/theme-general-settings.png)-->
 
@@ -114,13 +114,13 @@ ht-degree: 33%
 
 コンテンツテンプレートまたはメールにデフォルトまたはカスタムのスタイルテーマを適用するには、次の手順に従います。
 
-1. [!DNL Journey Optimizer] では、[&#x200B; メールの追加 &#x200B;](create-email.md) ジャーニーまたはキャンペーンへのアクション、メールの作成 [&#x200B; コンテンツテンプレート &#x200B;](../content-management/create-content-templates.md#create-template-from-scratch)、[&#x200B; メール本文の編集 &#x200B;](get-started-email-design.md#key-steps) を行います。
+1. [!DNL Journey Optimizer] では、[ メールの追加 ](create-email.md) ジャーニーまたはキャンペーンへのアクション、メールの作成 [ コンテンツテンプレート ](../content-management/create-content-templates.md#create-template-from-scratch)、[ メール本文の編集 ](get-started-email-design.md#key-steps) を行います。
 
 1. 次のいずれかのアクションを選択できます。
 
    * ビルトインの[メールテンプレート](use-email-templates.md)を選択して、E メールデザイナーを開きます。各テンプレートに固有のデフォルトのテーマが自動的に適用されます。
 
-   * [&#x200B; 新規コンテンツをゼロから &#x200B;](content-from-scratch.md) デザインし、**[!UICONTROL テーマを使用]** を選択して、定義済みのスタイル設定テーマから始めます。
+   * [ 新規コンテンツをゼロから ](content-from-scratch.md) デザインし、**[!UICONTROL テーマを使用]** を選択して、定義済みのスタイル設定テーマから始めます。
 
      ![](assets/theme-from-scratch.png)
 
@@ -128,7 +128,7 @@ ht-degree: 33%
      >
      >手動スタイル設定モードを選択した場合、デザインをリセットしない限り、テーマを適用することはできません。
      >
-     >テーマの設定されたコンテンツで [&#x200B; フラグメント &#x200B;](../content-management/fragments.md) を活用するには、このフラグメント自体がテーマを使用して作成されている必要があります。 [詳細情報](#leverage-themes-fragment)
+     >テーマの設定されたコンテンツで [ フラグメント ](../content-management/fragments.md) を活用するには、このフラグメント自体がテーマを使用して作成されている必要があります。 [詳細情報](#leverage-themes-fragment)
 
 1. E メールデザイナーに移動したら、右側のパネルにある「**[!UICONTROL テーマ]**」ボタンをクリックします。デフォルトのテーマまたはテンプレートのテーマが表示されます。このテーマでは、2 つのカラーバリアントを切り替えることができます。
 
@@ -146,7 +146,7 @@ ht-degree: 33%
 
 1. コンテンツテンプレートでテーマを選択したら、「**[!UICONTROL テーマを編集]** ボタンをクリックして更新できます。 [詳細情報](#create-and-edit-themes)
 
-   ![](assets/theme-edit-in-template.png){width="40%" align="center" zoomable="yes"}
+   ![](assets/theme-edit-in-template.png){width="40%"}
 
    >[!NOTE]
    >
@@ -170,7 +170,7 @@ ht-degree: 33%
 
 コンポーネントを選択したら、「**[!UICONTROL スタイル]** タブの専用アイコンを使用してスタイルのロックを解除できます。
 
-![](assets/theme-unlock-style.png){width="90%" align="center" zoomable="yes"}
+![](assets/theme-unlock-style.png){width="90%"}
 
 選択したテーマはそのコンポーネントに引き続き適用されますが、スタイル設定要素を上書きすることもできます。 テーマを変更すると、新しいテーマは、上書きされなかったスタイル設定要素にのみ適用されます。<!--can you revert this action?-->
 
@@ -180,11 +180,11 @@ ht-degree: 33%
 
 テーマを変更した場合 <!--the font size is still 14 and --> コンポーネントのフォントカラーは赤のままですが、このコンポーネントの背景色は新しいテーマに合わせて変更されます。
 
-![](assets/theme-unlock-style-ex-colored.png){width="80%" align="center" zoomable="yes"}
+![](assets/theme-unlock-style-ex-colored.png){width="80%"}
 
 ## フラグメントでのテーマの活用 {#leverage-themes-fragment}
 
-[&#x200B; テーマが適用 &#x200B;](#apply-themes-email) されたテンプレートまたはメールでフラグメントを活用するには、このフラグメント自体がテーマを使用して作成されている必要があります。 そうでない場合、テーマの設定されたコンテンツでこのフラグメントを使用することはできません。
+[ テーマが適用 ](#apply-themes-email) されたテンプレートまたはメールでフラグメントを活用するには、このフラグメント自体がテーマを使用して作成されている必要があります。 そうでない場合、テーマの設定されたコンテンツでこのフラグメントを使用することはできません。
 
 テーマと互換性のあるフラグメントを作成するには、次の手順に従います。
 
@@ -192,7 +192,7 @@ ht-degree: 33%
 
 1. 定義済みのスタイル設定テーマから始めるには、「**[!UICONTROL テーマを使用]**」を選択します。
 
-   ![](assets/fragment-use-themes.png){width="100%" align="center" zoomable="yes"}
+   ![](assets/fragment-use-themes.png){width="100%"}
 
    >[!CAUTION]
    >
@@ -206,21 +206,21 @@ ht-degree: 33%
 
 1. 他のテーマを選択して、フラグメントコンテンツをプレビューできます。 これを行うには、デフォルトのテーマの横にある矢印を選択し、「**[!UICONTROL テーマを選択]**」をクリックします。
 
-   ![](assets/fragment-select-themes.png){width="40%" align="center" zoomable="yes"}
+   ![](assets/fragment-select-themes.png){width="40%"}
 
 1. 「**[!UICONTROL Adobeテーマ]**」タブと「**[!UICONTROL マイテーマ]**」タブ間を移動し、フラグメントに対して（両方のタブから）最大 5 つの互換性のあるテーマを選択できます。
 
-   ![](assets/fragment-select-compatible-themes.png){width=70% align="center" zoomable="yes"}
+   ![](assets/fragment-select-compatible-themes.png){width=70%}
 
    >[!CAUTION]
    >
-   >メールコンテンツでフラグメントを使用する場合は、このフラグメントに定義した [&#x200B; テーマを適用 &#x200B;](#apply-themes-email) ことを確認します。 これを怠ると、特に Outlook 2021 以前のバージョンで、表示の問題が発生する可能性があります。
+   >メールコンテンツでフラグメントを使用する場合は、このフラグメントに定義した [ テーマを適用 ](#apply-themes-email) ことを確認します。 これを怠ると、特に Outlook 2021 以前のバージョンで、表示の問題が発生する可能性があります。
 
 1. 「**[!UICONTROL 閉じる]**」をクリックします。
 
 1. **[!UICONTROL デフォルトテーマ]** の横にある矢印を再度選択します。 選択したテーマを切り替えて、各スタイル レンダリングをプレビューできるようになりました。
 
-   ![](assets/fragment-selected-themes.png){width=90% align="center" zoomable="yes"}
+   ![](assets/fragment-selected-themes.png){width=90%}
 
 1. もう一度 **[!UICONTROL テーマを選択]** をクリックして、テーマを追加したり、選択を変更したりします。
 
@@ -228,20 +228,20 @@ ht-degree: 33%
 
 [!DNL Journey Optimizer] を使用すると、手動のスタイル設定を使用して作成されたテンプレートを、テーマ互換のコンテンツに変換できます。 これは、テーマを [!DNL Journey Optimizer] に取り込む前にコンテンツテンプレートを作成した場合や、外部コンテンツを読み込む場合に特に便利です。
 
-1. メール [&#x200B; コンテンツテンプレート &#x200B;](../content-management/create-content-templates.md) を開き、メールDesignerを使用してそのコンテンツを編集します。
+1. メール [ コンテンツテンプレート ](../content-management/create-content-templates.md) を開き、メールDesignerを使用してそのコンテンツを編集します。
 
 1. 右側のパネルで **[!UICONTROL テーマ]** アイコンを選択し、「**[!UICONTROL コンテンツからテーマを生成]** ボタンをクリックします。
 
-   ![](assets/generate-theme.png){width=100% align="center" zoomable="yes"}
+   ![](assets/generate-theme.png){width=100%}
 
 1. **[!UICONTROL テーマを作成]** ウィンドウが開きます。 [!DNL Journey Optimizer] は、スタイル設定要素を自動的に検出し、それらを新しいテーマに統合します。
 
-   ![](assets/generate-theme-create-window.png){width=100% align="center" zoomable="yes"}
+   ![](assets/generate-theme-create-window.png){width=90%}
 
 1. テーマの名前を指定します。
 
 1. カラーバリアントの追加やフォントの編集など、ゼロからテーマを作成する場合と同様に、必要に応じて独自の調整を行います。 [詳細情報](#create-and-edit-themes)
 
-   ![](assets/generate-theme-colors.png){width=100% align="center" zoomable="yes"}
+   ![](assets/generate-theme-colors.png){width=90%}
 
 1. **[!UICONTROL 保存]** をクリックして、再利用するためにこの新しいテーマを保存します。 これで、このテーマを他のテーマなどのコンテンツに適用できます。 [詳細情報](#leverage-themes-fragment)
