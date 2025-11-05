@@ -9,7 +9,7 @@ level: Experienced
 keywords: 関数, 式, エディター, ジャーニー
 exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 version: Journey Orchestration
-source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
+source-git-commit: d58319d687d113ce680c415524fdea0400cb38f0
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 100%
@@ -74,26 +74,26 @@ ht-degree: 100%
 | リスト | [sort](../functions/list-functions.md#sort) |
 | 数値計算 | [random](../functions/functionrandom.md) |
 | 数値計算 | [round](../functions/functionround.md) |
-| 文字列 | [concat](../functions/functionconcat.md) |
-| 文字列 | [contain](../functions/functioncontain.md) |
-| 文字列 | [containIgnoreCase](../functions/functioncontainwithignorecase.md) |
-| 文字列 | [endWith](../functions/functionendwith.md) |
-| 文字列 | [endWithIgnoreCase](../functions/functionendwithignorecase.md) |
-| 文字列 | [equalIgnoreCase](../functions/functionequalignorecase.md) |
-| 文字列 | [indexOf](../functions/functionindexof.md) |
-| 文字列 | [isEmpty](../functions/functionisempty.md) |
-| 文字列 | [isNotEmpty](../functions/functionisnotempty.md) |
-| 文字列 | [lastIndexOf](../functions/functionlastindexof.md) |
-| 文字列 | [length](../functions/functionlength.md) |
-| 文字列 | [lower](../functions/functionlower.md) |
-| 文字列 | [matchRegExp](../functions/functionmatchregexp.md) |
-| 文字列 | [notEqualIgnoreCase](../functions/functionnotequalignorecase.md) |
-| 文字列 | [replace](../functions/functionreplace.md) |
-| 文字列 | [replaceAll](../functions/functionreplaceall.md) |
-| 文字列 | [split](../functions/functionsplit.md) |
-| 文字列 | [startWith](../functions/functionstartwith.md) |
-| 文字列 | [startWithIgnoreCase](../functions/functionstartwithignorecase.md) |
-| 文字列 | [substr](../functions/functionsubstr.md) |
-| 文字列 | [trim](../functions/functiontrim.md) |
-| 文字列 | [upper](../functions/functionupper.md) |
-| 文字列 | [uuid](../functions/functionuuid.md) |
+| 文字列 | [concat](../functions/string-functions.md#concat) |
+| 文字列 | [contain](../functions/string-functions.md#contain) |
+| 文字列 | [containIgnoreCase](../functions/string-functions.md#containIgnoreCase) |
+| 文字列 | [endWith](../functions/string-functions.md#endWith) |
+| 文字列 | [endWithIgnoreCase](../functions/string-functions.md#endWithIgnoreCase) |
+| 文字列 | [equalIgnoreCase](../functions/string-functions.md#equalIgnoreCase) |
+| 文字列 | [indexOf](../functions/string-functions.md#indexOf) |
+| 文字列 | [isEmpty](../functions/string-functions.md#isEmpty) |
+| 文字列 | [isNotEmpty](../functions/string-functions.md#isNotEmpty) |
+| 文字列 | [lastIndexOf](../functions/string-functions.md#lastIndexOf) |
+| 文字列 | [length](../functions/string-functions.md#length) |
+| 文字列 | [lower](../functions/string-functions.md#lower) |
+| 文字列 | [matchRegExp](../functions/string-functions.md#matchRegExp) |
+| 文字列 | [notEqualIgnoreCase](../functions/string-functions.md#notEqualIgnoreCase) |
+| 文字列 | [replace](../functions/string-functions.md#replace) |
+| 文字列 | [replaceAll](../functions/string-functions.md#replaceAll) |
+| 文字列 | [split](../functions/string-functions.md#split) |
+| 文字列 | [startWith](../functions/string-functions.md#startWith) |
+| 文字列 | [startWithIgnoreCase](../functions/string-functions.md#startWithIgnoreCase) |
+| 文字列 | [substr](../functions/string-functions.md#substr) |
+| 文字列 | [trim](../functions/string-functions.md#trim) |
+| 文字列 | [upper](../functions/string-functions.md#upper) |
+| 文字列 | [uuid](../functions/string-functions.md#uuid) |
