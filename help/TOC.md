@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7d75abf6b428becc8b535a63421e85cca417daac
+source-git-commit: 42abfcc9711d87b2dc00df47e964dad07443f0ed
 workflow-type: tm+mt
-source-wordcount: '3000'
+source-wordcount: '2987'
 ht-degree: 98%
 
 ---
@@ -119,21 +119,7 @@ ht-degree: 98%
          + コンバージョン {#conversion}
             + [コンバージョン関数](using/building-journeys/functions/conversion-functions.md)
          + 日付 {#date}
-            + [日付](/help/rp_landing_pages/date-landing-page.md)
-            + [currentTime&#x200B;InMillis](using/building-journeys/functions/functioncurrenttimeinmillis.md)
-            + [inLastDays](using/building-journeys/functions/functioninlastdays.md)
-            + [inLastHours](using/building-journeys/functions/functioninlasthours.md)
-            + [inLastMonths](using/building-journeys/functions/functioninlastmonths.md)
-            + [inLastYears](using/building-journeys/functions/functioninlastyears.md)
-            + [inNextDays](using/building-journeys/functions/functioninnextdays.md)
-            + [inNextHours](using/building-journeys/functions/functioninnexthours.md)
-            + [inNextMonths](using/building-journeys/functions/functioninnextmonths.md)
-            + [inNextYears](using/building-journeys/functions/functioninnextyears.md)
-            + [now](using/building-journeys/functions/functionnow.md)
-            + [nowWithDelta](using/building-journeys/functions/functionnowwithdelta.md)
-            + [setHours](using/building-journeys/functions/functionsethours.md)
-            + [setDays](using/building-journeys/functions/functionsetdays.md)
-            + [updateTimeZone](using/building-journeys/functions/functionupdatetimezone.md)
+            + [日付関数](using/building-journeys/functions/date-functions.md)
          + リスト {#list}
             + [リスト](/help/rp_landing_pages/list-landing-page.md)
             + [distinct](using/building-journeys/functions/functiondistinct.md)
@@ -963,7 +949,7 @@ ht-degree: 98%
    + [プライバシー](/help/rp_landing_pages/privacy-landing-page.md)
    + [プライバシーの基本を学ぶ](using/privacy/get-started-privacy.md)
    + [プライバシーリクエスト](using/privacy/requests.md)
-   + [&#x200B; リソースに対する監査アクション](using/privacy/audit-logs.md)
+   + [ リソースに対する監査アクション](using/privacy/audit-logs.md)
    + [データライフサイクル操作の実行](using/privacy/data-hygiene.md)
    + 同意を管理 {#consent}
       + [同意を管理](/help/rp_landing_pages/consent-landing-page.md)

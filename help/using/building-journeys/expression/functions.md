@@ -9,7 +9,7 @@ level: Experienced
 keywords: 関数, 式, エディター, ジャーニー
 exl-id: 5b978eef-7d3e-41fe-bb08-0cf37c3b125d
 version: Journey Orchestration
-source-git-commit: 7d75abf6b428becc8b535a63421e85cca417daac
+source-git-commit: 42abfcc9711d87b2dc00df47e964dad07443f0ed
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 100%
@@ -48,20 +48,20 @@ ht-degree: 100%
 | 変換 | [toDuration](../functions/conversion-functions.md#toDuration) |
 | 変換 | [toInteger](../functions/conversion-functions.md#toInteger) |
 | 変換 | [toString](../functions/conversion-functions.md#toString) |
-| 日付 | [currentTimeInMillis](../functions/functioncurrenttimeinmillis.md) |
-| 日付 | [inLastDays](../functions/functioninlastdays.md) |
-| 日付 | [inLastHours](../functions/functioninlasthours.md) |
-| 日付 | [inLastMonths](../functions/functioninlastmonths.md) |
-| 日付 | [inLastYears](../functions/functioninlastyears.md) |
-| 日付 | [inNextDays](../functions/functioninnextdays.md) |
-| 日付 | [inNextHours](../functions/functioninnexthours.md) |
-| 日付 | [inNextMonths](../functions/functioninnextmonths.md) |
-| 日付 | [inNextYears](../functions/functioninnextyears.md) |
-| 日付 | [now](../functions/functionnow.md) |
-| 日付 | [nowWithDelta](../functions/functionnowwithdelta.md) |
-| 日付 | [setHours](../functions/functionsethours.md) |
-| 日付 | [setDays](../functions/functionsetdays.md) |
-| 日付 | [updateTimeZone](../functions/functionupdatetimezone.md) |
+| 日付 | [currentTimeInMillis](../functions/date-functions.md#currentTimeInMillis) |
+| 日付 | [inLastDays](../functions/date-functions.md#inLastDays) |
+| 日付 | [inLastHours](../functions/date-functions.md#inLastHours) |
+| 日付 | [inLastMonths](../functions/date-functions.md#inLastMonths) |
+| 日付 | [inLastYears](../functions/date-functions.md#inLastYears) |
+| 日付 | [inNextDays](../functions/date-functions.md#inNextDays) |
+| 日付 | [inNextHours](../functions/date-functions.md#inNextHours) |
+| 日付 | [inNextMonths](../functions/date-functions.md#inNextMonths) |
+| 日付 | [inNextYears](../functions/date-functions.md#inNextYears) |
+| 日付 | [now](../functions/date-functions.md#now) |
+| 日付 | [nowWithDelta](../functions/date-functions.md#nowWithDelta) |
+| 日付 | [setHours](../functions/date-functions.md#setHours) |
+| 日付 | [setDays](../functions/date-functions.md#setDays) |
+| 日付 | [updateTimeZone](../functions/date-functions.md#updateTimeZone) |
 | リスト | [distinct](../functions/functiondistinct.md) |
 | リスト | [distinctWithNull](../functions/functiondistinctwithnull.md) |
 | リスト | [filter](../functions/functionfilter.md) |
