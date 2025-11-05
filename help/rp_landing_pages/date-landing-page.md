@@ -20,7 +20,7 @@ Adobe Journey Optimizer の日付関数を使用すると、時間関連デー�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 currentTimeInMillis 関数リファレンス
 
@@ -30,7 +30,7 @@ currentTimeInMillis 関数リファレンス
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 inLastDays 関数
 
@@ -40,7 +40,7 @@ inLastDays 関数
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 inLastHours 関数の使用
 
@@ -50,7 +50,7 @@ inLastHours 関数の使用
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 inLastMonths 関数の使用
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer で「inLastMonths」を使用して、ある日付が�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 inLastYears 関数の使用
 
@@ -70,7 +70,7 @@ inLastYears 関数の使用
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 inNextDays 関数
 
