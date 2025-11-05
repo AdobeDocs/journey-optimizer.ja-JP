@@ -7,7 +7,7 @@ redpen-status: CREATED_||_2025-08-11_20-18-53
 exl-id: d82e30d6-abe5-4522-a8c4-a11ff5c9bd91
 hide: true
 hidefromtoc: true
-source-git-commit: 6c07fcc79c49698df748c6fc6fbd75a59c5b11c1
+source-git-commit: 5f63c10a79847a271e330f440fdfdb1ff64ffa88
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 80%
@@ -22,7 +22,7 @@ Adobe Journey Optimizer の関数を使用すると、動的で正確な式を�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer の主な関数
 
@@ -32,7 +32,7 @@ Adobe Journey Optimizer の主な関数
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 inAudience 関数の使用
 
@@ -42,7 +42,7 @@ inAudience 関数の使用
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 集計関数リファレンス
 
@@ -52,7 +52,7 @@ inAudience 関数の使用
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/exchange-alt.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/exchange-alt.svg)
 
 コンバージョン関数
 
@@ -62,7 +62,7 @@ inAudience 関数の使用
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 Adobe Journey Optimizer の日付関数
 
@@ -72,7 +72,7 @@ Adobe Journey Optimizer の日付関数
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Adobe Journey Optimizer のリスト関数
 
@@ -86,5 +86,5 @@ Adobe Journey Optimizer のリスト関数
 
 ## その他のリソース
 
-- **[数学関数](math-landing-page.md)** - ジャーニー式での数値計算に使用する random や round などの数学関数について説明します。
+- **[数学関数](../using/building-journeys/functions/math-functions.md)** - ジャーニー式での数値計算に使用する random や round などの数学関数について説明します。
 - **[Adobe Journey Optimizer の文字列関数](../using/building-journeys/functions/string-functions.md)** - ジャーニー式で連結、部分文字列の抽出、書式設定などの関数を使用して文字列を操作します。
