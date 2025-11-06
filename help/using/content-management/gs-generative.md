@@ -8,14 +8,20 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: ht
-source-wordcount: '830'
-ht-degree: 100%
+source-git-commit: 493f72a9d49974830d8d29b0c19046adfd9724a6
+workflow-type: tm+mt
+source-wordcount: '940'
+ht-degree: 88%
 
 ---
 
 # AI アシスタントの基本を学ぶ {#gs-content-assistant}
+
+>[!CONTEXTUALHELP]
+>id="ajo_ai_assistant_prompt"
+>title="プロンプトの例"
+>abstract="以下のJourney Optimizerのドキュメントを参照して、コンバージョンの高いオンブランドのマーケティングコンテンツを生成する効果的なプロンプトを作成する方法を確認します。"
+
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_settings"
@@ -161,3 +167,12 @@ Adobe Journey Optimizer の AI アシスタントには、次の制限が適用�
 <p>
 </td>
 </tr></table>
+
+## その他のリソース
+
+* **[メール用 AI アシスタント](generative-email.md)** - AI アシスタントを使用してメールコンテンツのバリエーションを生成および最適化する方法を説明します。
+* **[プッシュ通知用 AI アシスタント](generative-push.md)** - AI サポートを使用して魅力的なプッシュ通知コンテンツを作成する方法を説明します。
+* **[SMS 用 AI アシスタント](generative-sms.md)** - AI を利用したコンテンツ作成を使用して、効果的な SMS メッセージのバリエーションを生成します。
+* **[Web エクスペリエンス用 AI アシスタント](generative-web.md)** - AI アシスタントを使用して web コンテンツを作成および最適化する方法について説明します。
+* **[生成実験](generative-experimentation.md)** - AI で生成されたコンテンツを実験と組み合わせる方法を説明します。
+* **[AI アシスタント チュートリアル ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/ai-assistant){target="_blank"}** - AI アシスタントの機能とベストプラクティスに関するステップバイステップのビデオ チュートリアルをご覧ください。
