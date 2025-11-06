@@ -148,7 +148,7 @@ Adobe Express のエンタープライズ版ライセンスを持つユーザー
 
 Adobe Express ツールを使用して Adobe Journey Optimizer でアセットを編集する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3455523/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3455524/?captions=jpn&quality=12)
 
 
 

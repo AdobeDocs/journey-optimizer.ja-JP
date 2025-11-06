@@ -187,4 +187,4 @@ ht-degree: 100%
 
 Adobe Journey Optimizer でのクワイエットアワー機能の使用方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3475851?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475853?captions=jpn&quality=12)

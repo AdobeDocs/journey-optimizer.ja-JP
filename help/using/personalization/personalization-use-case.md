@@ -110,4 +110,4 @@ ht-degree: 100%
 
 次のビデオでは、ジャーニーのコンテキストデータを活用してメールをパーソナライズする、類似したユースケースを示します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3425027?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3428530?captions=jpn&quality=12)
