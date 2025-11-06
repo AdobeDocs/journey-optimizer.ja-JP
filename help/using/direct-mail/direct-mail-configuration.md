@@ -89,7 +89,7 @@ ht-degree: 98%
 
 **[!UICONTROL サーバータイプ]**&#x200B;として「**[!UICONTROL Amazon S3]**」を選択した場合は、サーバーの詳細と資格情報を入力します。
 
-* **AWS バケット名**:To AWS バケット名の見つけ方については、[ こちらのページ ](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html) を参照してください。
+* **AWS バケット名**:To AWS バケット名の見つけ方については、[&#x200B; こちらのページ &#x200B;](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html) を参照してください。
 
 * **AWS アクセスキー**：AWS アクセスキー ID を見つける場所については、[このページ](https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html#access-keys-and-secret-access-keys)を参照してください。
 

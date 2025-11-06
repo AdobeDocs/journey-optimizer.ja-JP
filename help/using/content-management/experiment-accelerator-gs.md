@@ -39,4 +39,4 @@ ht-degree: 96%
 
 * **シームレスな共同作業**：リアルタイムアラートを使用して結果を簡単に共有し、チームの役割を管理します。
 
-➡️ [Journey Optimizer Experimentation Acceleratorのドキュメントへのアクセス ](https://experienceleague.adobe.com/ja/docs/experimentation-accelerator/using/overview)
+➡️ [Journey Optimizer Experimentation Acceleratorのドキュメントへのアクセス &#x200B;](https://experienceleague.adobe.com/ja/docs/experimentation-accelerator/using/overview)

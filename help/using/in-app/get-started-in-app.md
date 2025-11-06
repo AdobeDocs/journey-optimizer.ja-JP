@@ -63,4 +63,4 @@ Journey Optimizer を使用すると、アプリ内通知を作成し、メッ�
 * **[アプリ内チャネルの設定](inapp-configuration.md)** - モバイルアプリの適切な設定を使用して、アプリ内メッセージチャネルを設定します。
 * **[アプリ内コンテンツのデザイン](design-in-app.md)** - アプリ内メッセージのレイアウト、スタイル、ボタン、インタラクティブ要素をカスタマイズします。
 * **[Web のアプリ内](create-in-app-web.md)** - Web アプリケーションのアプリ内メッセージを作成および配信する方法を説明します。
-* **[アプリ内チャネルチュートリアル ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/channels/in-app-channel/in-app-messages-overview){target="_blank"}** - アプリ内メッセージの機能とベストプラクティスに関するステップバイステップのビデオチュートリアルをご覧ください。
+* **[アプリ内チャネルチュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/channels/in-app-channel/in-app-messages-overview){target="_blank"}** - アプリ内メッセージの機能とベストプラクティスに関するステップバイステップのビデオチュートリアルをご覧ください。

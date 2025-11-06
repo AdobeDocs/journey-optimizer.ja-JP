@@ -66,5 +66,5 @@ WhatsApp を Journey Optimizer と統合するには、次が必要です。
 
 WhatsApp のメッセージングと設定に関するその他のビデオチュートリアルをご覧ください。
 
-➡️ [WhatsApp チャネルチュートリアル ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/channels/whatsapp/whatsapp-introduction){target="_blank"}
+➡️ [WhatsApp チャネルチュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/channels/whatsapp/whatsapp-introduction){target="_blank"}
 

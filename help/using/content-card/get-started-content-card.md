@@ -51,4 +51,4 @@ ht-degree: 70%
 
 * **[ランディングページのコンテンツカード](content-card-lp.md)** - ランディングページにコンテンツカードを実装してエンゲージメントを強化する方法について説明します。
 * **[コンテンツカードレポート](content-card-report.md)** – 詳細な指標とインサイトを使用して、コンテンツカードのパフォーマンスを追跡および分析します。
-* **[コンテンツカードチュートリアル ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/channels/content-cards/create-content-cards){target="_blank"}** - コンテンツカードの機能とベストプラクティスに関するステップバイステップのビデオチュートリアルをご覧ください。
+* **[コンテンツカードチュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/channels/content-cards/create-content-cards){target="_blank"}** - コンテンツカードの機能とベストプラクティスに関するステップバイステップのビデオチュートリアルをご覧ください。

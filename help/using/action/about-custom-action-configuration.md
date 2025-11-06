@@ -74,7 +74,7 @@ ht-degree: 98%
 
 ターゲットにするエンドポイントをカスタムアクションを使用して選択する場合は、次の点を確認します。
 
-* このエンドポイントは、[Throttling API](../configuration/throttling.md) または [Capping API](../configuration/capping.md) の設定を使用してジャーニーのスループットをキャップすることでサポートできます。スロットル設定は、200 TPS を下回ることはできません。ターゲットにするエンドポイントは、少なくとも 200 TPS をサポートする必要があります。 ジャーニーの処理率について詳しくは、[ この節 ](../building-journeys/entry-management.md#journey-processing-rate) を参照してください。
+* このエンドポイントは、[Throttling API](../configuration/throttling.md) または [Capping API](../configuration/capping.md) の設定を使用してジャーニーのスループットをキャップすることでサポートできます。スロットル設定は、200 TPS を下回ることはできません。ターゲットにするエンドポイントは、少なくとも 200 TPS をサポートする必要があります。 ジャーニーの処理率について詳しくは、[&#x200B; この節 &#x200B;](../building-journeys/entry-management.md#journey-processing-rate) を参照してください。
 * このエンドポイントの応答時間は、できるだけ短くする必要があります。求めるスループットによっては、応答時間が長いと、実際のスループットに影響を与える可能性があります。
 
 すべてのカスタムアクションには、1 分間に 300,000 件の呼び出しというキャップが定義されています。また、デフォルトのキャップは、ホストごとおよびサンドボックスごとに実行されます。例えば、サンドボックスで、同じホストに 2 つのエンドポイントがある場合（例：`https://www.adobe.com/endpoint1` と `https://www.adobe.com/endpoint2`）、キャップは adobe.com ホストの下にあるすべてのエンドポイントに適用されます。「endpoint1」と「endpoint2」は同じキャップ設定を共有し、一方のエンドポイントがキャップに達すると、もう一方のエンドポイントに影響が生じます。

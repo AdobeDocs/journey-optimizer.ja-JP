@@ -88,6 +88,6 @@ Adobe Journey Optimizer の実用的なユースケース
 
 - **[Journey アラートへの登録](../using/reports/alerts.md)** - システムアラートを管理、通知を登録し、ジャーニーとキャンペーンの問題をトラブルシューティングする方法を確認します。
 
-- **[ジャーニーチュートリアル ](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}** – 機能、能力、ベストプラクティスをカバーする実践ビデオチュートリアルを通じてジャーニーを構築します。
+- **[ジャーニーチュートリアル &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}** – 機能、能力、ベストプラクティスをカバーする実践ビデオチュートリアルを通じてジャーニーを構築します。
 
 

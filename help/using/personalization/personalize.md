@@ -107,4 +107,4 @@ Journey Optimizer は、メッセージを処理する際に、式を Experience
 
 >[!VIDEO](https://video.tv.adobe.com/v/3457868?quality=12)
 
-パーソナライゼーションの機能とベストプラクティスに関する詳細なビデオチュートリアルについては、[Personalization チュートリアルを参照してください ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/personalize-content/personalization-editor-overview){target="_blank"}
+パーソナライゼーションの機能とベストプラクティスに関する詳細なビデオチュートリアルについては、[Personalization チュートリアルを参照してください &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/personalize-content/personalization-editor-overview){target="_blank"}

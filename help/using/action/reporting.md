@@ -28,15 +28,15 @@ ht-degree: 3%
 
 **[!UICONTROL カスタムアクション]** レポートページでは、ジャーニーからサードパーティシステムへの API 呼び出しの信頼性とパフォーマンスを監視できます。 これらのレポートは、統合の問題、待ち時間のボトルネック、配信に影響する可能性のあるスロットル/キャッピング制限などをすばやく特定するのに役立ちます。
 
-カスタムアクションレポートページは、Journey Optimizerの他の全期間レポートと同様に機能します。 ダッシュボード機能について詳しくは、[ このドキュメント ](../reports/report-cja-manage.md) を参照してください。
+カスタムアクションレポートページは、Journey Optimizerの他の全期間レポートと同様に機能します。 ダッシュボード機能について詳しくは、[&#x200B; このドキュメント &#x200B;](../reports/report-cja-manage.md) を参照してください。
 
 **[!UICONTROL カスタムアクション]** レポートページにアクセスするには、![](assets/do-not-localize/Smock_Monitoring_18_N.svg) アクション **[!UICONTROL ホームページの「]**」をクリックします。
 
 ![](assets/monitor-1.png)
 
-➡️[ カスタムアクションの設定方法の詳細を説明します ](../action/about-custom-action-configuration.md)。
+➡️[&#x200B; カスタムアクションの設定方法の詳細を説明します &#x200B;](../action/about-custom-action-configuration.md)。
 
-**[!UICONTROL カスタムアクション]** レポートページに加えて、**[!DNL Adobe Experience Platform Query Service]** を使用して、カスタムアクションのパフォーマンス指標に関するレポートを作成するクエリを作成できます。 クエリの例については、[ この節 ](../reports/query-examples.md) を参照してください。
+**[!UICONTROL カスタムアクション]** レポートページに加えて、**[!DNL Adobe Experience Platform Query Service]** を使用して、カスタムアクションのパフォーマンス指標に関するレポートを作成するクエリを作成できます。 クエリの例については、[&#x200B; この節 &#x200B;](../reports/query-examples.md) を参照してください。
 
 ## KPI {#kpis}
 
@@ -68,7 +68,7 @@ ht-degree: 3%
 * 1 日の時間範囲を選択すると、グラフには 1 時間あたりの KPI が表示されます。
 * 1 時間の時間範囲を選択すると、グラフには 1 分あたりの KPI が表示されます。
 
-➡️[HTTP 呼び出し指標については、KPI の節を参照してください ](#kpis)
+➡️[HTTP 呼び出し指標については、KPI の節を参照してください &#x200B;](#kpis)
 
 ## 呼び出しの分類 {#breakdown}
 
@@ -76,6 +76,6 @@ ht-degree: 3%
 
 **[!UICONTROL 呼び出し分類]** テーブルは、最上位レベルのエンドポイントごとの全体的な指標から、各エンドポイントを使用したカスタムアクションごとの指標、最下位レベルで依存するジャーニーまで、HTTP 呼び出し指標の階層的分類を提供します。
 
-➡️[HTTP 呼び出し指標については、KPI の節を参照してください ](#kpis)
+➡️[HTTP 呼び出し指標については、KPI の節を参照してください &#x200B;](#kpis)
 
 

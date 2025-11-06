@@ -189,4 +189,4 @@ Adobe Journey Optimizer がメッセージを追跡する直接的な目標指�
 * **[マルチアームバンディットと A/B テストの比較](mab-vs-ab.md)** – 様々な実験アプローチと、各方法を使用するタイミングを比較します。
 * **[実験アクセラレーター](experiment-accelerator-gs.md)** - AI を活用した最適化で実験を高速化する方法を説明します。
 * **[実験レポートの計算](experiment-report-calculations.md)** – 実験結果と統計的優位差の解釈方法について説明します。
-* **[実験チュートリアル ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/content-management/experimentation-overview){target="_blank"}** - コンテンツ実験とベストプラクティスに関するステップバイステップのビデオチュートリアルをご覧ください。
+* **[実験チュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/content-management/experimentation-overview){target="_blank"}** - コンテンツ実験とベストプラクティスに関するステップバイステップのビデオチュートリアルをご覧ください。

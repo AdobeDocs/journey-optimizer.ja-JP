@@ -90,7 +90,7 @@ ht-degree: 95%
 
 ## キャンペーンタイプ
 
-[!DNL Journey Optimizer] では、3 つのキャンペーンタイプをサポートしています。各タイプは異なるユースケースに適合し、異なるチャネルをサポートします。 各キャンペーンタイプで使用できるチャネルについて詳しくは、この節の表 [ ジャーニーとキャンペーンのチャネル）を参照してください ](../channels/gs-channels.md#channels)
+[!DNL Journey Optimizer] では、3 つのキャンペーンタイプをサポートしています。各タイプは異なるユースケースに適合し、異なるチャネルをサポートします。 各キャンペーンタイプで使用できるチャネルについて詳しくは、この節の表 [&#x200B; ジャーニーとキャンペーンのチャネル）を参照してください &#x200B;](../channels/gs-channels.md#channels)
 
 ![](assets/campaign-modal.png)
 
@@ -149,7 +149,7 @@ ht-degree: 95%
 
    1. ユーザーの名前またはメールアドレスを入力するか、リストからユーザーを選択して、「**[!UICONTROL 保存]**」をクリックします。
 
-      ユーザーをまだ作成していない場合は、[ ユーザーの追加に関するドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/ui/users){target="_blank"} を参照してください
+      ユーザーをまだ作成していない場合は、[&#x200B; ユーザーの追加に関するドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/ui/users){target="_blank"} を参照してください
 
 
   これにより、ユーザーをインスタンスへリダイレクトするメールがユーザーに送られます。

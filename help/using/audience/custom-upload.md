@@ -27,7 +27,7 @@ Adobe Experience Platform オーディエンスポータルでは、CSV ファ�
 
 ![](assets/import-audience.png)
 
-オーディエンスのインポート方法について詳しくは、Adobe Experience Platform[ セグメント化サービスのドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"} を参照してください。
+オーディエンスのインポート方法について詳しくは、Adobe Experience Platform[&#x200B; セグメント化サービスのドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"} を参照してください。
 
 オーディエンスを CSV 形式でアップロードする方法について詳しくは、次のビデオをご覧ください。
 

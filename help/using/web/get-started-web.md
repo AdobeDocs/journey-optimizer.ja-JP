@@ -75,6 +75,6 @@ Web キャンペーンを作成する詳細な手順については、[こちら
 * **[Web コンテンツの編集](create-web.md#edit-web-content)** - Web デザイナーにマスターを設定し、ビジュアルエディットモードまたは非ビジュアルエディットモードを使用してページを変更できるようにします。
 * **[Web 変更の管理](manage-web-modifications.md)** - web エクスペリエンス全体で変更を整理、適用、管理する方法を説明します。
 * **[web エクスペリエンスの監視](monitor-web-experiences.md)** – 詳細なレポートを使用して、web キャンペーンのパフォーマンスを追跡および分析します。
-* **[Web キャンペーンチュートリアル ](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/web-channel/create-a-web-campaign){target="_blank"}** - web チャネルの機能とベストプラクティスに関するステップバイステップのビデオチュートリアルをご覧ください。
+* **[Web キャンペーンチュートリアル &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/web-channel/create-a-web-campaign){target="_blank"}** - web チャネルの機能とベストプラクティスに関するステップバイステップのビデオチュートリアルをご覧ください。
 
 

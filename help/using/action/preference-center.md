@@ -87,7 +87,7 @@ ht-degree: 95%
 |---------|----------|---------|
 | john.black@lumamail.com | Y | N |-->
 
-    >[!メモ]
+    >[ !メモ]
     >
     >受信した同意イベントは顧客プロファイルにフィードされ、リアルタイムの更新が確保されます。各プロファイルには、購読環境設定をまたいで最新の選択が反映されます。
 
@@ -113,9 +113,9 @@ ht-degree: 95%
     
     * **[!UICONTROL Newsletter_Email]** が存在しない（**[!UICONTROL false]**）または **[!UICONTROL Newsletter_Email]** が等しくない場合（**[!UICONTROL false]**）
     
-    。[](assets/consent-policy-email-newsletter.png){width=80%}
+    。[&#128279;](assets/consent-policy-email-newsletter.png){width=80%}
     
-    >[!ヒント]
+    >[ !ヒント]
     >
     >プロファイル対応データセットには、値が `true` に設定されたプロファイル属性 **[!UICONTROL Newsletter_Email]** を含める必要があります（手順 1 で説明）。
 

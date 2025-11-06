@@ -230,4 +230,4 @@ Adobe Journey Optimizer がマーケターに提供する包括的なモバイ�
 * [ジャーニーでのメッセージの追加](../building-journeys/journeys-message.md)
 * [マーケティングキャンペーンの作成](../campaigns/create-campaign.md)
 * [ガードレールと制限](../start/guardrails.md#sms-guardrails)
-* [SMS とモバイルメッセージのチュートリアル ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/channels/sms-channel/sms-mms-messages-overview){target="_blank"}
+* [SMS とモバイルメッセージのチュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/channels/sms-channel/sms-mms-messages-overview){target="_blank"}

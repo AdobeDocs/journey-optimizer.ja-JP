@@ -76,4 +76,4 @@ Journey Optimizer では、過剰な数のインタラクションで顧客が�
 * **[フリークエンシーキャップの設定](channel-capping.md)** - チャネルレベルのフリークエンシーキャップを設定して、オーバーメッセージを防ぐ方法について説明します。
 * **[ルールセットの作成](rule-sets.md)** – 高度な競合管理およびメッセージガバナンス用のビジネスルールを作成する方法について説明します。
 * **[ジャーニー固有のキャッピング](journey-capping.md)** - ジャーニーレベルのキャッピングルールを設定し、ジャーニー内のメッセージ頻度を制御します。
-* **[競合管理チュートリアル ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/conflict-management/identify-potential-conflicts){target="_blank"}** – 競合管理と優先順位付けに関するステップバイステップのビデオチュートリアルを紹介します。
+* **[競合管理チュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/conflict-management/identify-potential-conflicts){target="_blank"}** – 競合管理と優先順位付けに関するステップバイステップのビデオチュートリアルを紹介します。
