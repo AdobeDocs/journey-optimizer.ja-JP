@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: a1daf6f7-c26c-4d70-984b-0b4eeb04a1a8
-source-git-commit: d3f15c09194a50b95107fb84d680606a468f8644
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 100%
@@ -45,7 +45,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >ジャーニーの公開について詳しくは、[この節](../building-journeys/publishing-the-journey.md)を参照してください。
+   >ジャーニーの公開について詳しくは、[この節](../building-journeys/publish-journey.md)を参照してください。
 
 コードベースのジャーニーのステータスが「**[!UICONTROL ライブ]**」になり、選択したオーディエンスに対して表示されます。ジャーニーの各受信者に、変更内容が表示されます。
 

@@ -11,7 +11,7 @@ keywords: アクティビティ, 条件, キャンバス, ジャーニー, 最�
 badge: label="限定提供" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '1461'
 ht-degree: 88%
@@ -53,7 +53,7 @@ ht-degree: 88%
 >id="ajo_path_experiment_success_metric"
 >title="成功指標"
 >abstract="成功指標は、実験で最もパフォーマンスの高い処理を追跡および評価するために使用します。"
->additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="ジャーニー指標の設定とトラッキング"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="ジャーニー指標の設定とトラッキング"
 
 実験を行うことで、ランダム分割に基づいて様々なパスをテストし、事前定義済みの成功指標に基づいて最もパフォーマンスが高いパスを判断できます。
 
@@ -115,7 +115,7 @@ ht-degree: 88%
 
    ![](assets/journey-optimize-experiment-content.png){width=100%}
 
-1. ジャーニーを[公開](publishing-the-journey.md)します。
+1. ジャーニーを[公開](publish-journey.md)します。
 
 ジャーニーがライブになると、ユーザーには異なるパスを進むようにランダムに割り当てられます。[!DNL Journey Optimizer] は、最もパフォーマンスが高いパスを追跡し、実用的なインサイトを提供します。
 
@@ -162,7 +162,7 @@ ht-degree: 88%
 >title="フォールバックパスとは"
 >abstract="フォールバックパスを使用すると、ターゲティングルールが選定されていない場合に、オーディエンスは代替パスにエントリできます。</br>このオプションを選択しない場合、ターゲティングルールに選定されていないオーディエンスはフォールバックパスにエントリせずにジャーニーを終了します。"
 
-ターゲティングルールを使用すると、特定のオーディエンスセグメントに基づいて、顧客がいずれかのジャーニーパスへのエントリ対象となるために満たす必要がある、特定のルールまたは資格を決定できます<!-- depending on profile attributes or contextual attributes-->。
+ターゲティングルールを使用すると、特定のオーディエンスセグメントに基づいて、顧客がいずれかのジャーニーパスへのエントリ対象となるために満たす必要がある、特定のルールまたは選定を決定できます<!-- depending on profile attributes or contextual attributes-->。
 
 特定のパスをランダムに割り当てる実験とは異なり、ターゲティングは、適切なオーディエンスまたはプロファイルが指定されたパスに確実にエントリするという点で決定論的です。
 
@@ -202,7 +202,7 @@ ht-degree: 88%
 
    >[!AVAILABILITY]
    >
-   >現在、Decisioning アドオン機能を購入した組織では、専用の [&#x200B; メニューから &#x200B;](../experience-decisioning/rules.md#create) ターゲティングルールの作成 [!DNL Journey Optimizer] を利用でき、他の組織ではオンデマンドで利用できます（使用制限あり）。
+   >現在、Decisioning アドオン機能を購入した組織では、専用の [ メニューから ](../experience-decisioning/rules.md#create) ターゲティングルールの作成 [!DNL Journey Optimizer] を利用でき、他の組織ではオンデマンドで利用できます（使用制限あり）。
    >
    >この機能は、すべてのお客様に段階的に展開される予定です。 それまでの間、Adobe担当者に連絡してアクセス権を取得してください。
 
@@ -238,7 +238,7 @@ ht-degree: 88%
 
    この例では、ゴールドメンバー向けの特別オファーを含むメールと、他のメンバー向けの SMS リマインダーを設計します。
 
-1. ジャーニーを[公開](publishing-the-journey.md)します。
+1. ジャーニーを[公開](publish-journey.md)します。
 
 ジャーニーがライブになると、各セグメントに指定したパスが処理され、ゴールドメンバーはメールオファーを含むパスにエントリし、他のメンバーは SMS リマインダーを含むパスにエントリするようになります。
 

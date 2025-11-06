@@ -10,7 +10,7 @@ level: Intermediate
 keywords: ジャーニー, 最初, 開始, クイックスタート, オーディエンス, イベント, アクション
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
-source-git-commit: 118bf89f56d26213fde71fa795fc6576ce764ef2
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 99%
@@ -49,7 +49,7 @@ ht-degree: 99%
 
 ![「参照」タブをハイライト表示したジャーニーダッシュボード](assets/journeys-browse.png)
 
-ジャーニーリストには、すべてのジャーニーバージョンがバージョン番号と共に表示されます。ジャーニーを検索すると、アプリを初めて開いたときに、リストの先頭に最新のバージョンが表示されます。次に、必要な並べ替えを定義します。アプリケーションはこの定義をユーザーの環境設定として扱います。ジャーニーのバージョンは、ジャーニー版インターフェイスの上部（キャンバスの上）にも表示されます。詳しくは、[ジャーニーバージョン管理](publishing-the-journey.md#journey-versions-journey-versions)を参照してください。
+ジャーニーリストには、すべてのジャーニーバージョンがバージョン番号と共に表示されます。ジャーニーを検索すると、アプリを初めて開いたときに、リストの先頭に最新のバージョンが表示されます。次に、必要な並べ替えを定義します。アプリケーションはこの定義をユーザーの環境設定として扱います。ジャーニーのバージョンは、ジャーニー版インターフェイスの上部（キャンバスの上）にも表示されます。詳しくは、[ジャーニーバージョン管理](publish-journey.md#journey-versions-journey-versions)を参照してください。
 
 ### ジャーニーカレンダー {#calendar}
 
@@ -108,7 +108,7 @@ ht-degree: 99%
 
 ![2 つのタイプのジャーニーが選択された、ジャーニーフィルタリングのサンプルを示す画面](assets/filter-journeys.png)
 
-**[!UICONTROL ステータスフィルターとバージョンフィルター]**&#x200B;では、[ステータス](#journey-statuses)、[タイプ](#journey-types)、[バージョン](publishing-the-journey.md#journey-versions-journey-versions)および割り当てられている[タグ](../start/search-filter-categorize.md#tags)に従ってジャーニーをフィルタリングできます。
+**[!UICONTROL ステータスフィルターとバージョンフィルター]**&#x200B;では、[ステータス](#journey-statuses)、[タイプ](#journey-types)、[バージョン](publish-journey.md#journey-versions-journey-versions)および割り当てられている[タグ](../start/search-filter-categorize.md#tags)に従ってジャーニーをフィルタリングできます。
 
 **[!UICONTROL 作成フィルター]**&#x200B;を使用すると、作成日またはジャーニーを作成したユーザーに従ってジャーニーをフィルタリングできます。
 
@@ -141,7 +141,7 @@ ht-degree: 99%
 * **ドラフト**：ジャーニーは最初のステージです。まだ公開されていません。
 * **ドラフト（テスト）**：「**テストモード**」ボタンを使用してテストモードがアクティブ化されています。[詳細情報](../building-journeys/testing-the-journey.md)
 * **完了済み**：91 日の[グローバルタイムアウト](journey-properties.md#global_timeout)が経過すると、ジャーニーは自動的にこのステータスに切り替わります。既にジャーニーにエントリしているプロファイルは、通常どおりにジャーニーを終了できます。新しいプロファイルは、そのジャーニーにエントリできなくなります。
-* **ライブ**：ジャーニーは「**公開**」ボタンを使用して公開されています。[詳細情報](../building-journeys/publishing-the-journey.md)
+* **ライブ**：ジャーニーは「**公開**」ボタンを使用して公開されています。[詳細情報](../building-journeys/publish-journey.md)
 * **一時停止済み**：ライブジャーニーは「**一時停止**」ボタンを使用して一時停止されています。[詳細情報](../building-journeys/journey-pause.md)
 * **停止済み**：「**停止**」ボタンを使用してジャーニーがオフになっています。すべての個人のジャーニーが即座に終了します。[詳細情報](../building-journeys/end-journey.md#stop-a-journey)
 * **クローズ済み**：「**新規エントリに対してクローズ**」ボタンを使用してジャーニーが終了しました。ジャーニーは、新しい個人がジャーニーにエントリするのを停止します。既にジャーニーにエントリしている人は、通常通りにジャーニーを終了することができます。[詳細情報](../building-journeys/end-journey.md)

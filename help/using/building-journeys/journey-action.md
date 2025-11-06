@@ -10,7 +10,7 @@ level: Intermediate
 keywords: ジャーニー, メッセージ, プッシュ, sms, メール, アプリ内, web, コンテンツカード, コードベースのエクスペリエンス
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: ed00ef1f9aad7a9baf16b806e1cbffae677b2a91
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '988'
 ht-degree: 98%
@@ -102,7 +102,7 @@ ht-degree: 98%
 
 迅速配信は、メッセージ配信の遅延がビジネス上の重要な問題になる状況で、携帯電話に緊急のプッシュアラートを送信するときに使用します（ニュースチャネルアプリをインストールしたユーザーにニュース速報を流すなど）。
 
-プッシュ通知の迅速配信モードを有効にする方法については [&#x200B; このページ &#x200B;](../push/create-push.md#rapid-delivery) を参照してください。
+プッシュ通知の迅速配信モードを有効にする方法については [ このページ ](../push/create-push.md#rapid-delivery) を参照してください。
 
 迅速配信モードを使用する際のパフォーマンスについて詳しくは、[Adobe Journey Optimizer 製品の説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}を参照してください。
 
@@ -179,7 +179,7 @@ ht-degree: 98%
 
 1. 同様の手順を実行して、さらにアクションを追加します。ジャーニーアクショングループには、最大 10 個のインバウンドアクションを追加できます。
 
-ジャーニーが[ライブ](publishing-the-journey.md)になると、すべてのアクションが同時にアクティブ化されます。
+ジャーニーが[ライブ](publish-journey.md)になると、すべてのアクションが同時にアクティブ化されます。
 <!--
 ## Next steps {#next}
 

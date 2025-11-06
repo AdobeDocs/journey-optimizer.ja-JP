@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 31acb095-de90-495f-8e8c-43a78dedfa06
-source-git-commit: 623d9b15d1f7f4e7f73f26cf3e19516bed4c0f56
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 100%
@@ -39,4 +39,4 @@ ht-degree: 100%
 >
 > キャンペーンが承認ポリシーの対象となっている場合、テキストメッセージを送信できるようにするには、承認をリクエストする必要があります。[詳細情報](../test-approve/gs-approval.md)
 
-WhatsApp メッセージの準備が整ったら、[ジャーニー](../building-journeys/publishing-the-journey.md)または[キャンペーン](../campaigns/review-activate-campaign.md)の設定を完了して送信します。
+WhatsApp メッセージの準備が整ったら、[ジャーニー](../building-journeys/publish-journey.md)または[キャンペーン](../campaigns/review-activate-campaign.md)の設定を完了して送信します。

@@ -6,8 +6,8 @@ topic: Integrations
 role: User
 level: Experienced
 mini-toc-levels: 1
-source-git-commit: f8b91ef5504396ab696acc05ac273423dd5f208e
-workflow-type: ht
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+workflow-type: tm+mt
 source-wordcount: '945'
 ht-degree: 100%
 
@@ -64,7 +64,7 @@ ht-degree: 100%
 >[!NOTE]
 >
 >決定ポリシー項目のトラッキングでは、決定ポリシーのコンテンツに対して次のように `trackingToken` 属性を追加する必要があります。
->>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
 
 属性を追加するには、横にある「+」アイコンをクリックします。 必要な数の属性をコードに追加できます。
 
@@ -166,7 +166,7 @@ ht-degree: 100%
 
 コンテンツの準備が整ったら、キャンペーンまたはジャーニーをレビューして公開します。
 
-* [ジャーニーの公開](../building-journeys/publishing-the-journey.md)
+* [ジャーニーの公開](../building-journeys/publish-journey.md)
 * [キャンペーンのレビューとアクティブ化](../campaigns/review-activate-campaign.md)
 * [コードベースのエクスペリエンスの公開とアクティブ化](../code-based/publish-code-based.md)
 

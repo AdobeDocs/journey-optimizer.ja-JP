@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: シードリスト, シードリスト, シード, 設定
 exl-id: 0172f6bc-da8b-4a83-a0fc-4ed41324568f
-source-git-commit: 1cca05a4f7590f42c1ed5104cb530930e139b2b9
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 100%
@@ -73,7 +73,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->アクティブな[キャンペーン](../campaigns/review-activate-campaign.md)や[ジャーニー](../building-journeys/publishing-the-journey.md)で使用されているシードリストは削除できません。キャンペーン／ジャーニーを非アクティブ化するか、シードリストが選択されていない別の設定を使用するように編集する必要があります。[シードリストの使用についての詳細情報](#use-seed-list)
+>アクティブな[キャンペーン](../campaigns/review-activate-campaign.md)や[ジャーニー](../building-journeys/publish-journey.md)で使用されているシードリストは削除できません。キャンペーン／ジャーニーを非アクティブ化するか、シードリストが選択されていない別の設定を使用するように編集する必要があります。[シードリストの使用についての詳細情報](#use-seed-list)
 
 シードリスト名をクリックすると、編集できます。<!--Use the **[!UICONTROL Edit]** button to edit a seed list.-->
 
@@ -150,7 +150,7 @@ ht-degree: 100%
 
    ![](assets/seed-list-campaign-email.png)
 
-1. [キャンペーン](../campaigns/review-activate-campaign.md)をアクティベートするか、[ジャーニー](../building-journeys/publishing-the-journey.md)を公開します。
+1. [キャンペーン](../campaigns/review-activate-campaign.md)をアクティベートするか、[ジャーニー](../building-journeys/publish-journey.md)を公開します。
 
 これで、キャンペーンやジャーニーを通じてメールメッセージが顧客に送信されるたびに、選択したシードリストのメールアドレスも、同じ条件で同時に、ターゲット受信者と同じコンテンツで受信します。
 

@@ -9,7 +9,7 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 分析, 統合, web sdk, Platform
 exl-id: 9d842722-e5eb-4743-849d-b7ba9448062f
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 100%
@@ -135,6 +135,6 @@ Adobe Analytics ソースコネクタについて詳しくは、[Adobe Experienc
 
 1. 次に、**[!UICONTROL メールアクション]**&#x200B;を追加します。このメールでは、顧客は注文に関するフィードバックを提供するよう求められます。
 
-これで、ジャーニーをテストして公開できます。[詳細情報](../building-journeys/publishing-the-journey.md)
+これで、ジャーニーをテストして公開できます。[詳細情報](../building-journeys/publish-journey.md)
 
 ![](assets/ajo-aa_7.png)

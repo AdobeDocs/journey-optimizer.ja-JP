@@ -11,7 +11,7 @@ badge: label="限定提供" type="Informative"
 keywords: アクティビティ, 決定, コンテンツ決定, 決定ポリシー, キャンバス, ジャーニー
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
-source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '1120'
 ht-degree: 100%
@@ -166,9 +166,9 @@ ht-degree: 100%
 
 ![ジャーニーを完了](assets/journey-content-decision-full-journey.png)
 
-<!--When all activities are properly configured and saved, [publish](publishing-the-journey.md) your journey.-->
+<!--When all activities are properly configured and saved, [publish](publish-journey.md) your journey.-->
 
-ジャーニーを[アクティブ化](publishing-the-journey.md)すると、次の操作が行われます。
+ジャーニーを[アクティブ化](publish-journey.md)すると、次の操作が行われます。
 
 <!--* Profiles who enter the journey and are eligible for at least one offer are targeted by the custom action.
 

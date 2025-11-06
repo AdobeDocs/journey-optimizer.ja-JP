@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 公開, ジャーニー, ライブ, 有効性, 確認
 exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 100%
@@ -54,7 +54,7 @@ ht-degree: 100%
 >[!MORELIKETHIS]
 >
 >* [レポートの概要](../reports/gs-reports.md)
->* [ジャーニーの公開](publishing-the-journey.md)
+>* [ジャーニーの公開](publish-journey.md)
 >* [ジャーニーのドライラン](journey-dry-run.md)
 >* [ジャーニー指標の設定とトラッキング](success-metrics.md)
 >* [カスタムジャーニーレポート](../reports/sharing-overview.md)
