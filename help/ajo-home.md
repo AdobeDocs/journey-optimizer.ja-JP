@@ -5,10 +5,10 @@ title: Adobe Journey Optimizer ドキュメント
 description: Adobe Journey Optimizer ドキュメント
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
+source-git-commit: b26606d1ba0d0d43d69b5e6fd2ae86c49dceebe9
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 98%
+source-wordcount: '506'
+ht-degree: 94%
 
 ---
 
@@ -22,24 +22,24 @@ Journey Optimizer 製品とドキュメントの最新の機能強化の概要�
 
 >[!BEGINTABS]
 
->[!TAB 2025 年 10 月リリース ]
+>[!TAB 2025年10月リリース]
 
-Journey Optimizer 10 月リリースが公開されました。 今月リリースされた新機能と機能強化について詳しくは、リリースノートを参照してください。
+Journey Optimizer 10月リリースが公開されました。今月リリースされた新機能と機能強化について詳しくは、リリースノートを参照してください。
 
 [![詳細情報](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
 
 >[!TAB キャンペーンオーケストレーション]
 
-Journey Optimizer に、ブランド主導のバッチキャンペーン専用の新しい機能である&#x200B;**キャンペーンオーケストレーション**&#x200B;が含まれるようになりました。このリリースでは、キャンペーンオーケストレーションキャンバスと強化されたデータモデリングが導入され、これらを連携することで、マーケターがパーソナライズされたクロスチャネルキャンペーンを計画、ターゲット、配信できます。
+Journey Optimizerには、ブランド主導のバッチキャンペーン専用の新しい機能である **キャンペーンオーケストレーション** が含まれるようになりました。
 
 [![詳細情報](using/assets/do-not-localize/learn-more-button.svg)](using/orchestrated/gs-orchestrated-campaigns.md)
 
->[!TAB Adobe Express]
+>[!TAB  通知のない時間帯 ]
 
-Adobe Journey Optimizer の Adobe Express 統合により、コンテンツの作成中に Adobe Express の強力な編集ツールに簡単にアクセスできます。この統合により、ソリューションを切り替えることなく、画像のサイズ変更、背景の削除、ビジュアルの切り抜き、アセットの JPEG または PNG への変換が可能になります。
+通知の少ない時間帯は、メール、SMS、プッシュおよび WhatsApp チャネルに対する時間ベースの除外を定義できます。
 
-[![詳細情報](using/assets/do-not-localize/learn-more-button.svg)](using/integrations/express.md)
+[![詳細情報](using/assets/do-not-localize/learn-more-button.svg)](using/conflict-prioritization/quiet-hours.md)
 
 
 >[!ENDTABS]
@@ -49,7 +49,7 @@ Adobe Journey Optimizer の Adobe Express 統合により、コンテンツの�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 最新のリリースノート
 
@@ -59,7 +59,7 @@ Adobe Journey Optimizer の最新リリースノート、新機能および機�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 基本を学ぶ
 
@@ -69,7 +69,7 @@ Adobe Journey Optimizer の最新リリースノート、新機能および機�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 包括的なジャーニーガイド
 
@@ -79,7 +79,7 @@ Adobe Journey Optimizer の最新リリースノート、新機能および機�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 キャンペーンの理解と管理
 
@@ -89,7 +89,7 @@ Adobe Journey Optimizer の最新リリースノート、新機能および機�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 通信チャネル
 
@@ -99,7 +99,7 @@ Adobe Journey Optimizer の最新リリースノート、新機能および機�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 競合管理と優先順位付け
 
