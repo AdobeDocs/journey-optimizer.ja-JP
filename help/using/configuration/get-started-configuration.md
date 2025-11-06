@@ -81,4 +81,4 @@ ht-degree: 77%
 * **[IP ウォームアップ](ip-warmup-gs.md)** - IP アドレスのウォームアップのベストプラクティスを見つけて、メールの配信品質と送信者のレピュテーションを向上させます。
 * **[抑制リストの管理](manage-suppression-list.md)** - バウンスを処理しリストハイジーンを維持するために抑制リストを管理する方法について説明します。
 * **[モバイルアプリの設定](set-mobile-config.md)** - プッシュ通知とアプリ内メッセージ用のモバイルアプリ設定を指定します。
-* **[設定チュートリアル ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/configuration/channel-configuration/configure-channels){target="_blank"}** - チャネル設定とベストプラクティスに関するステップバイステップのビデオチュートリアルをご覧ください。
+* **[設定チュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/configuration/channel-configuration/configure-channels){target="_blank"}** - チャネル設定とベストプラクティスに関するステップバイステップのビデオチュートリアルをご覧ください。

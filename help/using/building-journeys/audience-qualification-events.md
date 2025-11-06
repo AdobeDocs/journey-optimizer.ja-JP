@@ -96,7 +96,7 @@ ht-degree: 96%
 
 **[!UICONTROL オーディエンスの選定]**&#x200B;アクティビティを使用すると、Adobe Experience Platform オーディエンスから選定された個人または選定されなかった個人を、直ちにジャーニーにエントリさせることができます。
 
-この情報は瞬時に処理されます。測定した値は、1 秒あたり 10,000 件の速度でイベントを受信したことを示しています。その結果、エントリのピークがどのように発生するか、その回避方法やジャーニーの準備方法を理解できるようになります。 ジャーニーの処理レートとスループット制限について詳しくは、[ この節 ](entry-management.md#journey-processing-rate) を参照してください。
+この情報は瞬時に処理されます。測定した値は、1 秒あたり 10,000 件の速度でイベントを受信したことを示しています。その結果、エントリのピークがどのように発生するか、その回避方法やジャーニーの準備方法を理解できるようになります。 ジャーニーの処理レートとスループット制限について詳しくは、[&#x200B; この節 &#x200B;](entry-management.md#journey-processing-rate) を参照してください。
 
 ### バッチオーディエンス {#batch-speed-segment-qualification}
 
@@ -126,7 +126,7 @@ ht-degree: 96%
 
   ![](assets/segment-overload.png)
 
-エントリレートの制限とスループットについて詳しくは、[ この節 ](entry-management.md#profile-entrance-rate) を参照してください。
+エントリレートの制限とスループットについて詳しくは、[&#x200B; この節 &#x200B;](entry-management.md#profile-entrance-rate) を参照してください。
 
 ## ガードレールと制限 {#audience-qualification-guardrails}
 
