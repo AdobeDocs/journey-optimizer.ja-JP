@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '412'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 96%
 >title="ファジーオプトアウト"
 >abstract="有効にすると、ファジーオプトアウトは、定義済みのオプトアウトキーワード（CANCIL など）に非常に類似したインバウンドメッセージを検出し、ユーザーの登録解除の意図を検証する確認返信を自動的に送信します。定義済みのプロンプトを通じてユーザーが確認すると、登録解除されます。"
 
-SMS、MMS、RCS を送信する前に、Adobe Journey Optimizer環境を設定する必要があります。 これを実行するには、次の手順を実行します。
+SMS、MMS または RCS を送信する前に、Adobe Journey Optimizer 環境を設定する必要があります。これを実行するには、次の手順を実行します。
 
 1. Journey Optimizer とプロバイダー設定を統合します。
 手順は、SMS プロバイダーによって異なります。詳細なドキュメントにアクセスするには、以下のリンクを参照してください。

@@ -10,15 +10,15 @@ level: Intermediate
 keywords: オファー, 決定, メール, パーソナライゼーション, 決定
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
 source-git-commit: da82432dd15f19ac7db52f491e5afd5ba6d4e3d7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '619'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # パーソナライズされたオファーの追加 {#deliver-personalized-offers}
 
-[!DNL Journey Optimizer] のメールには、意思決定管理エンジンを利用して顧客に提供する最適なオファーを選択する決定を挿入できます。
+[!DNL Journey Optimizer] メールでは、意思決定管理エンジンを活用して顧客に提供する最適なオファーを選択する決定を挿入できます。
 
 例えば、受信者のロイヤルティレベルに応じて変わる特別割引オファーを、メールに表示する決定を追加できます。
 
@@ -104,4 +104,4 @@ ht-degree: 96%
 
 [!DNL Journey Optimizer] でメッセージに意思決定管理コンポーネントを追加する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416051?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334088?quality=12)

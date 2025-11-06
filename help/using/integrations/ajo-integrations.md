@@ -8,9 +8,9 @@ role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
 source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '956'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Journey Optimizer を使用すると、このデータを簡単に管理�
 
 Customer Journey Analytics を使用すると、Journey Optimizer で生成されたデータに対してアドバンス分析を実行できます。
 
-Journey OptimizerはAdobe Experience Platformにデータを保存し、Customer Journey Analyticsを使用して、自動レポート配信とデータのカスタムビジュアライゼーションにより、すべてのジャーニー、キャンペーン、オファーの全体像を提供します。
+Journey Optimizer は、Adobe Experience Platform にデータを保存し、Customer Journey Analytics を使用して、自動レポート配信とデータのカスタムビジュアライゼーションにより、すべてのジャーニー、キャンペーン、オファーの総合的なビューを提供します。
 
 Journey Optimizer でジャーニーを作成した後、Customer Journey Analytics は、プラットフォームからデータを取り込み、レポートを開始して、顧客がジャーニーで行ったすべてのインタラクションの影響を理解できます。
 
@@ -121,7 +121,7 @@ Adobe GenStudio for Performance Marketing は、マーケティングチーム�
 
 Adobe Workfront の Adobe Journey Optimizer モジュールを使用すると、レコードの作成、読み取り、更新、削除を行ったり、Adobe Journey Optimizer API に対するカスタム API 呼び出しを実行したりできます。
 
-この統合の主な手順の概要については、[このブログ投稿](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685?profile.language=ja){target="_blank"}を参照してください。
+この統合の主な手順の概要については、[このブログ投稿](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/accelerating-go-to-market-how-workfront-workfront-fusion-aep-and/ba-p/653685){target="_blank"}を参照してください。
 
 Journey Optimizer と Adobe Workfront について詳しくは、[Adobe Workfront ドキュメント](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-journey-optimizer-modules.html?lang=ja){target="_blank"}を参照してください。
 

@@ -2,18 +2,18 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: チャネル設定の指定
-description: チャネル設定の設定方法を学ぶ
+description: チャネル設定の指定方法について説明します。
 version: Campaign Orchestration
 source-git-commit: 0b92d0e806c47b0d87ba53b7c7f1d56ee4453abb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '381'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 # チャネル設定の指定 {#channel-configuration}
 
-[Target Dimension](target-dimension.md) を設定した後、**[!UICONTROL チャネル設定]** を設定し、適切な **[!UICONTROL 実行の詳細]** を定義する必要があります。 次の項目を定義できます。
+[ターゲットディメンション](target-dimension.md)を設定したら、**[!UICONTROL チャネル設定]**&#x200B;を指定し、適切な&#x200B;**[!UICONTROL 実行の詳細]**&#x200B;を定義する必要があります。次の項目を定義できます。
 
 * **メッセージ配信のレベル**：例えば、個人ごとに 1 つのメールなど、受信者ごとに 1 つのメッセージを送信します。
 

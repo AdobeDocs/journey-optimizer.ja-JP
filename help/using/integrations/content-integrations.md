@@ -10,15 +10,15 @@ level: Beginner
 keywords: アセット, 統合
 exl-id: 3e72df85-ba80-4cec-848b-7441cb3e7fef
 source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '694'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # ソリューションとアプリを組み合わせたコンテンツの管理 {#combine-solutions}
 
-オムニチャネルのカスタマージャーニーおよびキャンペーンでアクティブ化するメッセージやコンテンツを作成するために、マーケターや顧客体験の専門家は、ワークフロー内の生成 AI、編集機能、アセット、テンプレート、フラグメント管理などの使いやすいオーサリングオプションを必要としています。Adobe Journey Optimizerを使用すると、Adobeのソリューションとアプリを簡単に組み合わせて、Adobe ツールを最大限に活用できます。 これらのネイティブ統合は、特定のユースケースに対処し、Adobe Journey Optimizer の機能範囲を拡張するのに役立ちます。
+オムニチャネルのカスタマージャーニーおよびキャンペーンでアクティブ化するメッセージやコンテンツを作成するために、マーケターや顧客体験の専門家は、ワークフロー内の生成 AI、編集機能、アセット、テンプレート、フラグメント管理などの使いやすいオーサリングオプションを必要としています。Adobe Journey Optimizer を使用すると、アドビソリューションとアプリを簡単に組み合わせて、アドビツールを最大限に活用できます。これらのネイティブ統合は、特定のユースケースに対処し、Adobe Journey Optimizer の機能範囲を拡張するのに役立ちます。
 
 ## Adobe Experience Manager {#integration-aem}
 

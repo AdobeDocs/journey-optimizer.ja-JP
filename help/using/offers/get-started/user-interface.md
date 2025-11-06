@@ -8,15 +8,15 @@ role: User
 level: Beginner, Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
 source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '637'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # オファーライブラリのユーザーインターフェイス {#user-interface}
 
-左パネルの **[!UICONTROL 意思決定管理]** セクションには、意思決定管理機能にアクセスできる次の 2 つのメニューが表示されます。
+左側のパネルの「**[!UICONTROL 意思決定管理]**」セクションには、意思決定管理機能にアクセスできる次の 2 つのメニューが表示されます。
 
 **[!UICONTROL オファー]**&#x200B;メニューでは、オファーを管理および配信できます。
 

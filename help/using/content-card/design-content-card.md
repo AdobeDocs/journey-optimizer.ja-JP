@@ -7,15 +7,15 @@ role: User
 level: Beginner
 exl-id: b83bdade-7275-4eef-9c49-fc1d157cee0d
 source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '552'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # コンテンツカードコンテンツのデザイン {#design-content-card}
 
-カードのオーサリング構造は、開発者がレンダリングできる基本的な入力をマーケターに提供する、フォームベースのオーサリングエクスペリエンスを提供します。
+カードのオーサリング構造は、開発者がレンダリングできる基本入力をマーケターに提供するフォームベースのオーサリングエクスペリエンスを提供します。
 
 コンテンツを定義し、パーソナライズしたら、レビューしてアクティブ化できます。設定したスケジュールに従ってキャンペーンが送信されます。[詳しくは、このページを参照してください](../campaigns/review-activate-campaign.md)。
 
@@ -27,7 +27,7 @@ ht-degree: 96%
 
 * **[!UICONTROL 小さい画像]**：テキストと共にコンパクトな画像を表示します。ビジュアルよりもコンテンツを優先するメッセージに最適です。
 
-  [iOS &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/smallimage-template/) および [Android](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/smallimagecarduistate/) でのレイアウトについて詳しくは、Adobe 開発者用ドキュメントを参照してください。
+  [iOS ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/smallimage-template/) および [Android](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/smallimagecarduistate/) でのレイアウトについて詳しくは、Adobe 開発者用ドキュメントを参照してください。
 
 * **[!UICONTROL 大きい画像]**：テキストの上部または横に目立つ画像を配置し、メッセージでビジュアルに焦点を当てます。
 

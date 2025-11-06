@@ -5,15 +5,15 @@ role: User
 level: Beginner
 exl-id: f33ca0a8-ed33-4964-a85c-8705a4ff728e
 source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '608'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 # 優先度スコアの割り当て {#priority}
 
-Journey Optimizerでは、ジャーニー、キャンペーン、またはジャーニー **[!UICONTROL アクション]** アクティビティ内のインバウンドチャネルアクションに優先度スコアを割り当てることができます。
+Journey Optimizer を使用すると、ジャーニーの&#x200B;**[!UICONTROL アクション]**&#x200B;アクティビティ内のジャーニー、キャンペーンまたはインバウンドチャネルアクションに優先度スコアを割り当てることができます。
 
 制限（フリークエンシーキャップなど）が課せられている場合、ジャーニー、キャンペーンまたはアクションの優先順位を付けるために優先度が不可欠です。
 
@@ -72,4 +72,4 @@ Journey Optimizerでは、ジャーニー、キャンペーン、またはジャ
 
 ## チュートリアルビデオ {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3445002?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)

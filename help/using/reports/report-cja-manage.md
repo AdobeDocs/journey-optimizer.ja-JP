@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
 source-git-commit: 881cae4638082f804a5e2a768dfa135193959191
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1354'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -155,13 +155,13 @@ ht-degree: 96%
 
 新しく作成した指標は、レポートを PDF または CSV としてエクスポートする際に含まれます。ただし、終了すると、レポートから削除されます。
 
-## insight ビルダーでデータを探索 {#exploratory}
+## インサイトビルダーによるデータの探索 {#exploratory}
 
-insight ビルダーツールを使用すると、選択した **[!UICONTROL ディメンション]** および **[!UICONTROL 指標]** からテーブルやビジュアライゼーションを簡単に作成できます。 このツールは、データの探索を効率化し、情報を自動的にカスタマイズして、簡単に分析できるようにします。詳しくは、[このドキュメント](https://experienceleague.adobe.com/ja/docs/analytics/analyze/analysis-workspace/panels/quickinsight)を参照してください。
+インサイトビルダーツールを使用すると、選択した&#x200B;**[!UICONTROL ディメンション]**&#x200B;と&#x200B;**[!UICONTROL 指標]**&#x200B;からテーブルとビジュアライゼーションを簡単に作成できます。このツールは、データの探索を効率化し、情報を自動的にカスタマイズして、簡単に分析できるようにします。詳しくは、[このドキュメント](https://experienceleague.adobe.com/ja/docs/analytics/analyze/analysis-workspace/panels/quickinsight)を参照してください。
 
-1. まず、Insight ビルダーを使用するレポートにアクセスします。
+1. まず、インサイトビルダーを使用するレポートにアクセスします。
 
-1. 左側のパネルメニューからInsight ビルダーメニューを選択します。
+1. 左側のパネルメニューからインサイトビルダーメニューを選択します。
 
    ![](assets/exploratory_analysis_1.png)
 
@@ -193,7 +193,7 @@ d. Open the report for the journey that you added the metric to and ensure that 
 >[!IMPORTANT]
 >
 >各組織では、オーディエンスの公開が 25 個に制限されています。また、ユーザーは 1 時間あたり最大 5 個、1 日あたり最大 20 個のオーディエンスを公開できます。
->&#x200B;> 1 回限りのオーディエンスの有効期間は 48 時間です。したがって、その期間内に 25 個のオーディエンスが公開された場合、追加のオーディエンスは、48 時間が経過した後でのみ公開できます。
+> 1 回限りのオーディエンスの有効期間は 48 時間です。したがって、その期間内に 25 個のオーディエンスが公開された場合、追加のオーディエンスは、48 時間が経過した後でのみ公開できます。
 
 テーブル内の特定のデータを選択し、これらの選択からオーディエンスを直接作成できるので、オーディエンス作成プロセスが効率化および簡素化されました。
 

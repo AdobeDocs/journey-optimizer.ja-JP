@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: a93d4dc9-f0e9-400c-b9a4-6cdac84390fd
 source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '648'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 97%
 
    **[!UICONTROL 設定]**&#x200B;フィールドはデフォルトで、ユーザーがチャネルで最後に使用した設定で事前入力されます。
 
-これで、以下に説明するように、「**[!UICONTROL コンテンツを編集]** ボタンから LINE メッセージのコンテンツのデザインを開始できます。
+これで、以下に説明するように、「**[!UICONTROL コンテンツを編集]**」ボタンから LINE メッセージのコンテンツのデザインを開始できます。
 
 >[!TAB キャンペーンへの LINE メッセージの追加]
 

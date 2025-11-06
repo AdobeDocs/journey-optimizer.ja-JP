@@ -5,9 +5,9 @@ role: User
 level: Beginner
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
 source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '944'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -80,7 +80,7 @@ ht-degree: 97%
 
    1. 「**[!UICONTROL キャップ]**」フィールドで、プロファイルが同時に登録できるジャーニーの最大数を設定します。
 
-   1. **[!UICONTROL 優先順位付けの先読み]** フィールドを使用して、選択した期間（1 日、7 日、30 日など）の優先度スコアに基づいてジャーニーエントリをアービトレートします。
+   1. 「**[!UICONTROL 優先順位付けの先読み]**」フィールドを使用して、選択した期間（1 日、7 日、30 日など）の優先度スコアに基づいてジャーニーエントリを判別します。
 
       このオプションは、その週の残りの期間に予定されているオーディエンスを読み取りジャーニーをスキャンし、より優先度の高いジャーニーが予定されているので、プロファイルのジャーニーへのエントリを抑制する必要があるかどうかを決定します。これは、プロファイルが複数のジャーニーの対象となる場合に、より価値の高いジャーニーへのエントリを優先順位付けするのに役立ちます。
 
@@ -119,4 +119,4 @@ ht-degree: 97%
 
 ## チュートリアルビデオ {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3447613?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)

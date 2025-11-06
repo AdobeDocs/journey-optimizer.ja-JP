@@ -11,7 +11,7 @@ mini-toc-levels: 1
 keywords: 作成, Optimizer, キャンペーン, サーフェス, メッセージ
 exl-id: 5635ef04-c69d-4397-9762-7a6f1265d453
 source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '195'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 1. **オーディエンスを選択**
 
-   マーケティングキャンペーンの場合は、「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックして、使用できる Adobe Experience Platform オーディエンスのリストを表示します。[オーディエンスの詳細情報を参照してください](../audience/about-audiences.md)。
+   マーケティングキャンペーンの場合は、「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックして、使用できる Adobe Experience Platform オーディエンスのリストを表示します。[詳しくは、オーディエンスを参照してください](../audience/about-audiences.md)。
 
    >[!IMPORTANT]
    >

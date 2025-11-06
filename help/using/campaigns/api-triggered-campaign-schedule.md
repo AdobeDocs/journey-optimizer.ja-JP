@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: API トリガーキャンペーンのスケジュール設定
+title: API トリガーキャンペーンのスケジュール
 description: API トリガーキャンペーンのスケジュール方法について説明します。
 feature: Campaigns, API
 topic: Content Management
@@ -10,9 +10,9 @@ level: Experienced
 keywords: キャンペーン, API トリガー, REST, Optimizer, メッセージ
 exl-id: e04b0d38-6b3d-4086-a0f0-c1b8f6d9634f
 source-git-commit: 93698c93f3750b4d7feff18509f8144a7c79f156
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '315'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

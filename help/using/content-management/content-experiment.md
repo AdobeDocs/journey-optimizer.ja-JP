@@ -10,9 +10,9 @@ level: Beginner
 keywords: コンテンツ, 実験, 複数, オーディエンス, 処理
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
 source-git-commit: 4f1ae3a812b75c180716c5af0d6f87ef58bc2a13
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1855'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -70,7 +70,7 @@ Journey Optimizer のコンテンツ実験を使用すると、複数の配信�
 
 >[!AVAILABILITY]
 >
->ダイレクトメールはホールドアウト機能をサポートしていますが、現在、処理はサポートしていません。
+>ダイレクトメールは、ホールドアウト機能をサポートしていますが、現在、処理はサポートしていません。
 
 コンテンツ実験では、次の 3 つのタイプの実験の中から選択できます。
 

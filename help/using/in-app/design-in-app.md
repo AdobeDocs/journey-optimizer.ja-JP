@@ -8,9 +8,9 @@ level: Beginner
 keywords: アプリ内, メッセージ, デザイン, 書式設定
 exl-id: 7d7aa721-96aa-4ebc-a51c-e693f893f34f
 source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1222'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 98%
 
 アプリ内コンテンツを編集して、エクスペリエンスオプションを設定できます。
 
-* **[!UICONTROL Campaign]** の **[!UICONTROL アクション]** メニューで **[!UICONTROL コンテンツを編集]** ボタンをクリックして、メッセージコンテンツを設定します。
+* **[!UICONTROL キャンペーン]**&#x200B;の&#x200B;**[!UICONTROL アクション]**&#x200B;メニューから「**[!UICONTROL コンテンツを編集]**」ボタンをクリックして、メッセージコンテンツを設定します。
 
   ![](assets/edit-in-app-content.png)
 
@@ -108,7 +108,7 @@ ht-degree: 98%
 
 +++詳細フォーマットを使用したその他のオプション
 
-**[!UICONTROL 詳細フォーマットモード]**&#x200B;がオンになっている場合、メディアの&#x200B;**[!UICONTROL 最大の高さ]**&#x200B;と&#x200B;**[!UICONTROL 最大幅]**&#x200B;をカスタマイズできます。
+**[!UICONTROL 詳細フォーマットモード]**&#x200B;がオンの場合、メディアの&#x200B;**[!UICONTROL 最大の高さ]**&#x200B;と&#x200B;**[!UICONTROL 最大幅]**&#x200B;をカスタマイズできます。
 
 +++
 
