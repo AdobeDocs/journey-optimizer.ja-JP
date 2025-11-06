@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
 workflow-type: tm+mt
 source-wordcount: '1226'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 95%
 
 >[!CAUTION]
 >
->オーディエンスの選定の設定を開始する前に、[&#x200B; ガードレールと制限事項 &#x200B;](#audience-qualification-guardrails) を参照してください。
+>オーディエンスの選定の設定を開始する前に、[ガードレールと制限を参照してください](#audience-qualification-guardrails)。
 
 
 ## アクティビティの設定 {#configure-segment-qualification}
@@ -96,7 +96,7 @@ ht-degree: 95%
 
 **[!UICONTROL オーディエンスの選定]**&#x200B;アクティビティを使用すると、Adobe Experience Platform オーディエンスから選定された個人または選定されなかった個人を、直ちにジャーニーにエントリさせることができます。
 
-この情報は瞬時に処理されます。測定した値は、1 秒あたり 10,000 件の速度でイベントを受信したことを示しています。その結果、エントリのピークがどのように発生するか、その回避方法やジャーニーの準備方法を理解できるようになります。 ジャーニーの処理レートとスループット制限について詳しくは、[&#x200B; この節 &#x200B;](entry-management.md#journey-processing-rate) を参照してください。
+この情報は瞬時に処理されます。測定した値は、1 秒あたり 10,000 件の速度でイベントを受信したことを示しています。その結果、エントリのピークがどのように発生するか、その回避方法やジャーニーの準備方法を理解できるようになります。 ジャーニーの処理レートとスループット制限について詳しくは、[ この節 ](entry-management.md#journey-processing-rate) を参照してください。
 
 ### バッチオーディエンス {#batch-speed-segment-qualification}
 
@@ -126,7 +126,7 @@ ht-degree: 95%
 
   ![](assets/segment-overload.png)
 
-エントリレートの制限とスループットについて詳しくは、[&#x200B; この節 &#x200B;](entry-management.md#profile-entrance-rate) を参照してください。
+エントリレートの制限とスループットについて詳しくは、[ この節 ](entry-management.md#profile-entrance-rate) を参照してください。
 
 ## ガードレールと制限 {#audience-qualification-guardrails}
 
@@ -164,4 +164,4 @@ ht-degree: 95%
 
 オーディエンスの選定ジャーニーに当てはまるユースケースについて、このビデオで説明します。オーディエンスの選定を使用してジャーニーを構築する方法と、適用するベストプラクティスについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3446205?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)

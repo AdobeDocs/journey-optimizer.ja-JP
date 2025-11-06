@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '1443'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -81,7 +81,7 @@ ht-degree: 99%
 
    ![外部カレンダーを示すカレンダー表示](assets/journey-calendar-2.png)
 
-1. イベント名、開始日および終了日を含む CSV ファイルをドラッグ&amp;ドロップします。
+1. イベント名、開始日および終了日を含む CSV ファイルをドラッグ＆ドロップします。
 
    アップロードされたイベントは、組織内のすべてのユーザーが閲覧でき、ジャーニーカレンダーとキャンペーンカレンダーの両方に表示されます。
 

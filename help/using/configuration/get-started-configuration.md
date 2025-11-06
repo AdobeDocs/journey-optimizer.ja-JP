@@ -9,10 +9,10 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: 設定,メッセージ,チャネル,サンドボックス,Optimizer
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 95%
+source-wordcount: '397'
+ht-degree: 77%
 
 ---
 
@@ -68,8 +68,17 @@ ht-degree: 95%
 
    * 抑制リストにメールアドレスを送信する前に再試行が実行される日数を管理します。[詳細](manage-suppression-list.md)
 
-   * 個人に送信されたメッセージのコピーを保持するには、「**BCC メール**」オプションを有効にします。 [詳細情報](archiving-support.md#enable-bcc)
+   * **「BCC メール」オプション**&#x200B;を有効にして、個人に送信されたメッセージのコピーを保持します。[詳細情報](archiving-support.md#enable-bcc)
 
    * **ビジネスルール**&#x200B;を設定して、受信者を過度に勧誘しないようにします。[詳細情報](../conflict-prioritization/rule-sets.md)
 
-   * Adobe Experience Platform で使用可能なメールアドレス／電話番号が複数ある場合、受信者に優先して使用するメールアドレス／電話番号を決定します。[詳細情報](primary-email-addresses.md)
+   * Adobe Experience Platform で使用可能なメールアドレス／電話番号が複数ある場合、受信者に優先して使用するメールアドレス／電話番号を決定します。([詳細情報](primary-email-addresses.md))
+
+## その他のリソース
+
+* **[チャネルサーフェスの設定](channel-surfaces.md)** - メール、プッシュ、SMS、その他のチャネルのチャネルサーフェスを設定および管理する方法について説明します。
+* **[サブドメインデリゲーション](delegate-subdomain.md)** - メールの配信品質とブランディングのためにサブドメインをAdobeにデリゲートする方法について説明します。
+* **[IP ウォームアップ](ip-warmup-gs.md)** - IP アドレスのウォームアップのベストプラクティスを見つけて、メールの配信品質と送信者のレピュテーションを向上させます。
+* **[抑制リストの管理](manage-suppression-list.md)** - バウンスを処理しリストハイジーンを維持するために抑制リストを管理する方法について説明します。
+* **[モバイルアプリの設定](set-mobile-config.md)** - プッシュ通知とアプリ内メッセージ用のモバイルアプリ設定を指定します。
+* **[設定チュートリアル ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/configuration/channel-configuration/configure-channels){target="_blank"}** - チャネル設定とベストプラクティスに関するステップバイステップのビデオチュートリアルをご覧ください。

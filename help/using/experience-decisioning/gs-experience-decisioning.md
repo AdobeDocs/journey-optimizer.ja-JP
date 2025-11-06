@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 96%
+source-wordcount: '619'
+ht-degree: 84%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 96%
 
 1. ターゲットオーディエンスに表示する&#x200B;**決定項目を作成**&#x200B;します。
 
-   ➡️ ユーザーインターフェイス（および[&#x200B; API ドキュメント](api-reference/decisions-items/create.md)）での[決定項目の作成方法について説明します。](items.md)
+   ➡️ ユーザーインターフェイス（および[ API ドキュメント](api-reference/decisions-items/create.md)）での[決定項目の作成方法について説明します。](items.md)
 
 1. **コレクションで整理**：コレクションを使用し、属性ベースのルールに基づいて決定項目を分類します。コレクションを選択戦略に組み込んで、考慮する必要がある決定項目のコレクションを特定します。
 
@@ -80,10 +80,20 @@ ht-degree: 96%
 
 1. **選択戦略の作成**：コレクション、決定ルール、ランキング方法を活用した選択戦略を作成して、プロファイルに表示するのに適した決定項目を特定します。
 
-   ➡️ [&#128279;](selection-strategies.md)ユーザーインターフェイス（および [APIドキュメント](api-reference/selection-strategies/create.md)）での選択戦略の作成方法の詳細情報
+   ➡️ [ユーザーインターフェイス（および [APIドキュメント](api-reference/selection-strategies/create.md)）での選択戦略の作成方法の詳細情報](selection-strategies.md)
 
 1. **決定ポリシーを作成し、コードベースまたはメールのジャーニー／キャンペーンに埋め込む**：決定ポリシーは、複数の選択戦略を組み合わせて、対象のオーディエンスに表示する適格な決定項目を決定します。
 
    ➡️ [決定ポリシーの操作方法について説明します。](create-decision.md)
 ➡️コードベースのエクスペリエンスチャネルを通じてオファーを正常に配信するには、[この節](../code-based/code-based-implementation-samples.md)の実装手順に従ってください。
+
+## その他のリソース
+
+* **[決定項目の作成](items.md)** - オファー、コンテンツバリエーション、エクスペリエンスなどの決定項目を作成および管理する方法について説明します。
+* **[決定カタログの設定](catalogs.md)** – 意思決定項目をカタログに整理して管理を強化する方法を説明します。
+* **[選択戦略の定義](selection-strategies.md)** – 実施要件ルールとランキングメソッドを使用して選択戦略を作成する方法を説明します。
+* **[決定ポリシーの作成](create-decision-policy.md)** – 戦略と制約を組み合わせて決定ポリシーを作成する方法を説明します。
+* **[ランキングと AI モデル](ranking/ranking.md)** - パーソナライズされた意思決定のためのマスターランキング式と AI モデル。
+* **[意思決定ガードレール](decisioning-guardrails.md)** – 意思決定の実装における重要な制限とベストプラクティスを確認します。
+* **[意思決定チュートリアル ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/decision-capabilities/decisioning/introduction-to-decisioning){target="_blank"}** – 意思決定機能とベストプラクティスに関するステップバイステップのビデオチュートリアルをご覧ください。
 

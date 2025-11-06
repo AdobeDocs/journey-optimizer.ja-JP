@@ -10,7 +10,7 @@ exl-id: f8acb987-5c6e-4545-93b9-fdfc0d74db57
 source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
 workflow-type: tm+mt
 source-wordcount: '2748'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -149,7 +149,7 @@ Adobe Customer Journey Analytics の&#x200B;**アプリ内チャネル**&#x200B;
 
 この問題について詳しくは、[このトラブルシューティング記事](https://experienceleague.adobe.com/ja/docs/experience-cloud-kcs/kbarticles/ka-26206){target="_blank"}を参照してください。
 
-Customer Journey Analytics で Journey Optimizer Analytics データを統合する方法について詳しくは、[このページ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/integrations/ajo#automatically-configure-journey-optimizer-integration){target="_blank"}を参照してください。
+Customer Journey Analytics で Journey Optimizer Analytics データを統合する方法について詳しくは、[このページ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/ajo#automatically-configure-journey-optimizer-integration){target="_blank"}を参照してください。
 
 詳しくは、[Journey Optimizer の全期間レポートドキュメント](../reports/report-gs-cja.md)も参照してください。
 
@@ -191,7 +191,7 @@ Adobe Journey Optimizer では、ジャーニーで&#x200B;**プロファイル�
 
 ジャーニーの&#x200B;**プロファイルを更新**&#x200B;アクティビティについて詳しくは、[このページ](../building-journeys/update-profiles.md)を参照してください。
 
-詳しくは、[データ取り込みに関する Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/ingestion/tutorials/ingest-batch-data#dataset-activity){target="_blank"}も参照してください。
+詳しくは、[データ取り込みに関する Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/tutorials/ingest-batch-data#dataset-activity){target="_blank"}も参照してください。
 
 +++
 
@@ -201,9 +201,9 @@ Adobe Journey Optimizer では、ジャーニーで&#x200B;**プロファイル�
 
 この問題の解決手順について詳しくは、[このトラブルシューティング記事](https://experienceleague.adobe.com/ja/docs/experience-cloud-kcs/kbarticles/ka-26253){target="_blank"}を参照してください。
 
-詳しくは、[この Journey Optimizer コミュニティの投稿](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998?profile.language=ja){target="_blank"}を参照してください。
+詳しくは、[この Journey Optimizer コミュニティの投稿](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998){target="_blank"}を参照してください。
 
-毎日のジョブがスケジュールされるタイミングを確認するには、[Adobe Experience Platform Schedules API ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/api/schedules){target="_blank"}も参照してください。
+毎日のジョブがスケジュールされるタイミングを確認するには、[Adobe Experience Platform Schedules API ドキュメント](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/api/schedules){target="_blank"}も参照してください。
 
 +++
 
@@ -216,7 +216,7 @@ Adobe Journey Optimizer では、ジャーニーで&#x200B;**プロファイル�
 
 ジャーニーの&#x200B;**プロファイルを更新**&#x200B;アクティビティについて詳しくは、[このページ](../building-journeys/update-profiles.md)を参照してください。
 
-詳しくは、[Adobe Real-Time CDP プロファイルドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/ui/user-guide#profile-detail){target="_blank"}も参照してください。
+詳しくは、[Adobe Real-Time CDP プロファイルドキュメント](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#profile-detail){target="_blank"}も参照してください。
 
 +++
 
@@ -228,7 +228,7 @@ Adobe Journey Optimizer では、ジャーニーで&#x200B;**プロファイル�
 
 [ライセンス使用状況ダッシュボード](../audience/license-usage.md)を使用して、組織のライセンス使用状況とエンゲージ可能なプロファイルを監視します。
 
-詳しくは、[Adobe Experience Platform クエリサービスの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/query/home){target="_blank"}も参照してください。
+詳しくは、[Adobe Experience Platform クエリサービスの概要](https://experienceleague.adobe.com/en/docs/experience-platform/query/home){target="_blank"}も参照してください。
 
 +++
 
@@ -327,11 +327,11 @@ Journey Throttling API について詳しくは、[このページ](../configura
 
 +++
 
-+++ 矢印からオーディエンスを公開する際に「**invalid_access**」または「**No access to this dataId=XX granted**」というメッセージが表示された場合、403 エラーが発生した場合は、どのような手順を行う必要がありますか？
++++ 矢印からオーディエンスを公開する際に、**invalid_access** または&#x200B;**この dataId=XX へのアクセス権は付与されていません**&#x200B;というメッセージを含む 403 エラーが発生した場合、どのような手順を実行する必要がありますか？
 
-このエラーを解決するには、管理者に問い合わせて、ユーザープロファイルがオーディエンスの公開に必要なデータビューにアクセスできることを確認してから、オーディエンスを再度公開してみてください。
+このエラーを解決するには、管理者に依頼して、オーディエンスの公開に必要なデータビューへのアクセス権がユーザープロファイルにあることを確認してから、オーディエンスの公開をもう一度試してください。
 
-この問題を解決する手順については、[&#x200B; 権限のドキュメント &#x200B;](../administration/permissions.md){target="_blank"} を参照してください。
+この問題の解決手順について詳しくは、[権限ドキュメント](../administration/permissions.md){target="_blank"}を参照してください。
 
 +++
 
@@ -413,6 +413,6 @@ Postman や同様のツールを通じて **Query Service API** を使用する�
 
 詳しくは、[このトラブルシューティング記事](https://experienceleague.adobe.com/ja/docs/experience-cloud-kcs/kbarticles/ka-26196){target="_blank"}を参照してください。
 
-詳しくは、[API 資格情報の管理ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/abac/permissions-ui/permissions#manage-api-credentials-for-role){target="_blank"}も参照してください。
+詳しくは、[API 資格情報の管理ドキュメント](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions#manage-api-credentials-for-role){target="_blank"}も参照してください。
 
 +++
