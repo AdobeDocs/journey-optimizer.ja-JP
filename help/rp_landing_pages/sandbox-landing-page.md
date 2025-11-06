@@ -20,7 +20,7 @@ Adobe Journey Optimizer のサンドボックスは、開発、テスト、実�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 サンドボックスの管理と割り当て
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer で環境をパーティション化し、役割を割�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 サンドボックス間でのオブジェクトのコピー
 

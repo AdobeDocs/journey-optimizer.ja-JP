@@ -7,12 +7,12 @@ feature: Journeys, Data Sources
 topic: Administration
 role: Developer, Admin
 level: Intermediate, Experienced
-keywords: データ，ソース，ジャーニー，プラットフォーム
+keywords: データ, ソース, ジャーニー, プラットフォーム
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '343'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 98%
 * [カスタムの待機の定義](../building-journeys/wait-activity.md#custom)
 * [タイムゾーンの定義](../building-journeys/timezone-management.md)
 
-➡️ [この機能について詳しくは、ビデオを参照してください](#video)。
+➡️ [この機能をビデオで確認](#video)
 
 ジャーニーがイベントペイロードからのローカルデータのみを活用する場合、この設定は必要ありません。例えば、ジャーニーがイベントと、そのイベントのデータのみを使用する後続のチャネルアクションアクティビティで構成される場合、データソースを設定する必要はありません。
 
@@ -49,11 +49,11 @@ ht-degree: 98%
 >
 >スキーマの関係は、データ ソースではサポートされていません。
 
-Adobe Experience Platform データソースと外部データソースの設定方法、およびデータを特定してジャーニーで使用する方法について詳しくは、この[チュートリアルビデオ](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html?lang=ja){target="_blank"}をご覧ください。
+Adobe Experience Platform データソースと外部データソースの設定方法、およびデータを特定してジャーニーで使用する方法について詳しくは、この[チュートリアルビデオ](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html?lang=ja){target="_blank"}を参照してください。
 
 ## チュートリアルビデオ {#video}
 
 データソースとは何かを理解し、Experience Platform と外部データソースを設定する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416779?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334256?quality=12)
 

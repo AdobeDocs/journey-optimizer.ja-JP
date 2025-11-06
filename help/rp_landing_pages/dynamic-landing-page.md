@@ -20,7 +20,7 @@ Adobe Journey Optimizer の動的コンテンツを使用すると、オーデ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 動的コンテンツの基本を学ぶ
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer の動的コンテンツを使用すると、オーデ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 条件付きルールの作成と管理
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer を使用して、メッセージ内の動的なコン�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Adobe Journey Optimizer で動的コンテンツを作成する方法
 

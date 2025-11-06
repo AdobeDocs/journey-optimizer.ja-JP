@@ -37,7 +37,7 @@ Adobe Experience Platform に取り込まれたすべてのデータは、デー
 
 >[!NOTE]
 >
->2024年11月1日（PT）以降、ストリーミングセグメント化では、[!DNL Journey Optimizer] のトラッキングデータセットとフィードバックデータセットからの送信イベントと開封イベントがサポートされなくなります。フリークエンシーキャップや疲労管理を実装する場合は、代わりにビジネスルールを使用してください。詳しくは、[この節](../conflict-prioritization/rule-sets.md)を参照してください。毎日のキャップに関するユースケースの説明などについて詳しくは、[こちら](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=ja){target="_blank"}を参照してください。
+>2024年11月1日（PT）以降、ストリーミングセグメント化では、[!DNL Journey Optimizer] のトラッキングデータセットとフィードバックデータセットからの送信イベントと開封イベントがサポートされなくなります。フリークエンシーキャップや疲労管理を実装する場合は、代わりにビジネスルールを使用してください。詳しくは、[この節](../conflict-prioritization/rule-sets.md)を参照してください。毎日のキャップに関するユースケースの説明などについて詳しくは、[こちら](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}を参照してください。
 >
 >さらに、2025年2月以降、Journey Optimizer システム生成データセットに対して、有効期間（TTL）ガードレールがロールアウトされます。[詳細情報](datasets-ttl.md)
 
@@ -85,7 +85,7 @@ Adobe Journey Optimizer のシステムデータセットを以下に示しま�
 
 データセットの作成、スキーマへのマッピング、データの追加、データの取り込み確認の方法についてこのビデオで説明しています。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416782?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334293?quality=12)
 
 ## データガバナンス
 
@@ -109,5 +109,5 @@ Adobe Journey Optimizer のシステムデータセットを以下に示しま�
 
 >[!MORELIKETHIS]
 >
->* [ストリーミング取り込みの概要](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=ja){target="_blank"}
+>* [ストリーミング取得の概要](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=ja){target="_blank"}
 >* [Adobe Experience Platform へのデータの取り込み](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=ja){target="_blank"}

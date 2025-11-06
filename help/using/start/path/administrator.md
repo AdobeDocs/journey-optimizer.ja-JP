@@ -8,7 +8,7 @@ role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
 source-git-commit: 6c73a1ee024ca61b30d71e77268e51b93576ae62
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '671'
 ht-degree: 100%
 
@@ -56,7 +56,7 @@ ht-degree: 100%
 
    * **SMS チャネル**&#x200B;で、SMS に必要なすべての技術パラメーターを設定します。[詳細情報](../../sms/sms-configuration.md)
 
-   * 抑制リストにメールアドレスを送信するまでに&#x200B;**再試行**&#x200B;を実行する日数を管理します。[詳細](../../configuration/manage-suppression-list.md)
+   * 抑制リストにメールアドレスを送信するまでに&#x200B;**再試行**&#x200B;を実行する日数を管理します。[詳細情報](../../configuration/manage-suppression-list.md)
 
 1. **サブドメインをデリゲート**：Journey Optimizer で新規サブドメインを使用する場合、最初の手順としてそのサブドメインをデリゲートします。[詳細](../../configuration/about-subdomain-delegation.md)
 

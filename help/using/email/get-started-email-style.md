@@ -29,9 +29,9 @@ ht-degree: 63%
 * [メールの背景のパーソナライズ](backgrounds.md)
 * [垂直方向の整列とパディングの調整](alignment-and-padding.md)
 * [インラインスタイル属性の追加](inline-styling.md)方法を学ぶ
-* 方法を学ぶ [&#x200B; メールコンテンツへのカスタム CSS の追加 &#x200B;](custom-css.md)
-* 詳細情報 [&#x200B; ダークモードコンテンツの管理 &#x200B;](dark-mode.md)
+* 方法を学ぶ [ メールコンテンツへのカスタム CSS の追加 ](custom-css.md)
+* 詳細情報 [ ダークモードコンテンツの管理 ](dark-mode.md)
 
 >[!NOTE]
 >
->[&#x200B; 欧州アクセシビリティ法 &#x200B;](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} は、すべてのデジタル通信がアクセス可能であるべきであると規定しています。 [&#x200B; でコンテンツをデザインする場合は、](../email/accessible-content.md) このページ [!DNL Journey Optimizer] に記載されている特定のスタイル設定ガイドライン（色、ラベル、アイコンを調整して明確にしたり、モバイルやレスポンシブのレイアウト用にデザインを最適化したりするなど）に従ってください。
+>[ 欧州アクセシビリティ法 ](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} は、すべてのデジタル通信がアクセス可能であるべきであると規定しています。 [ でコンテンツをデザインする場合は、](../email/accessible-content.md) このページ [!DNL Journey Optimizer] に記載されている特定のスタイル設定ガイドライン（色、ラベル、アイコンを調整して明確にしたり、モバイルやレスポンシブのレイアウト用にデザインを最適化したりするなど）に従ってください。

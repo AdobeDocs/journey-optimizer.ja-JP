@@ -6,7 +6,7 @@ description: DDL をアップロードして Adobe Experience Platform 内でモ
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
 version: Campaign Orchestration
 source-git-commit: e189bb6a52691770655a436e45c6788d1011a8ca
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 100%
 

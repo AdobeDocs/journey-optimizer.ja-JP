@@ -20,7 +20,7 @@ Adobe Journey Optimizer のコンテンツ実験では、コンテンツの様�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 コンテンツ実験の基本を学ぶ
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer のコンテンツ実験では、コンテンツの様�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 コンテンツ実験の作成と拡大・縮小
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer のコンテンツ実験では、コンテンツの様�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 実験に関する高度な統計手法
 

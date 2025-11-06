@@ -20,7 +20,7 @@ Adobe Journey Optimizer の通信チャネルを使用すると、様々なタ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 通信チャネルの概要
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer で使用できるアウトバウンドおよびイン�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 メールチャネル
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer で使用できるアウトバウンドおよびイン�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 アプリ内メッセージ
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer で使用できるアウトバウンドおよびイン�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 プッシュ通知チャネル
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer で使用できるアウトバウンドおよびイン�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
 
 SMS／MMS／RCS メッセージ
 
@@ -70,7 +70,7 @@ SMS／MMS／RCS メッセージ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
 
 ダイレクトメールキャンペーン
 

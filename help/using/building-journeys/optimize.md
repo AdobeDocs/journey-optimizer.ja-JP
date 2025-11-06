@@ -14,7 +14,7 @@ version: Journey Orchestration
 source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
 workflow-type: tm+mt
 source-wordcount: '1461'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -186,7 +186,7 @@ ht-degree: 88%
 
 1. 「**[!UICONTROL ターゲティングルールを作成]**」をクリックします。
 
-1. **[!UICONTROL ルールを作成]**/**[!UICONTROL 新規作成]** をクリックし、ルールビルダーを使用して条件を定義します。
+1. **[!UICONTROL ルールを作成]**／**[!UICONTROL 新規作成]**&#x200B;をクリックし、ルールビルダーを使用して条件を定義します。
 
    ![](assets/journey-targeting-create-rule.png){width=100%}
 
@@ -194,25 +194,25 @@ ht-degree: 88%
 
    ![](assets/journey-targeting-rule.png)
 
-1. また、**[!UICONTROL ルールを作成]**/**[!UICONTROL ルールを選択]** をクリックして、**[!UICONTROL ルール]** メニューから作成した既存のターゲティングルールを選択することもできます。 [詳細情報](../experience-decisioning/rules.md)
+1. また、**[!UICONTROL ルールを作成]**／**[!UICONTROL ルールを選択]**&#x200B;をクリックして、**[!UICONTROL ルール]**&#x200B;メニューから作成した既存のターゲティングルールを選択することもできます。[詳細情報](../experience-decisioning/rules.md)
 
    ![](assets/journey-targeting-select-rule.png){width=70%}
 
-   この場合、ルールを構成する数式はジャーニーアクティビティにコピーされます。 **[!UICONTROL ルール]** メニューからそのルールに後続の変更を加えても、ジャーニーのコピーには影響しません。
+   この場合、ルールを構成する数式がジャーニーアクティビティにシンプルにコピーされます。その後、**[!UICONTROL ルール]**&#x200B;メニューからそのルールを変更しても、ジャーニーのコピーには影響しません。
 
    >[!AVAILABILITY]
    >
-   >現在、Decisioning アドオン機能を購入した組織では、専用の [&#x200B; メニューから &#x200B;](../experience-decisioning/rules.md#create) ターゲティングルールの作成 [!DNL Journey Optimizer] を利用でき、他の組織ではオンデマンドで利用できます（使用制限あり）。
+   >専用の [!DNL Journey Optimizer] メニューから[ターゲティングルールを作成](../experience-decisioning/rules.md#create)できるのは、現在、決定アドオン機能を購入した組織で、他の組織ではオンデマンドで使用できます（限定提供）。
    >
-   >この機能は、すべてのお客様に段階的に展開される予定です。 それまでの間、Adobe担当者に連絡してアクセス権を取得してください。
+   >この機能は、すべての顧客に段階的にロールアウトされる予定です。それまでの間、アクセス権を取得するには、アドビ担当者にお問い合わせください。
 
-1. ルールを追加した後も、そのルールを変更できます。 **[!UICONTROL インラインで編集]** を選択してルールビルダーを使用して外出先で更新するか、**[!UICONTROL ルールを選択]** を選択して別の既存のルールを取得します。
+1. ルールを追加したら、引き続き変更できます。 ルールビルダーを使用して外出先で更新するには「**[!UICONTROL インラインで編集]**」を選択し、別の既存のルールを選択するには「**[!UICONTROL ルールを選択]**」を選択します。
 
    ![](assets/journey-targeting-modify-rule.png){width=100%}
 
    >[!NOTE]
    >
-   >ルールをインラインで編集しても、ルールの作成元である既存のルールには影響しません。
+   >ルールをインラインで編集しても、そのルールの元となる既存のルールには影響しません。
 
 1. 必要に応じて、「**[!UICONTROL フォールバックパスを有効にする]**」オプションを選択します。このアクションにより、上記で定義したどのターゲティングルールも満たさないオーディエンスに対してフォールバックパスが作成されます。
 

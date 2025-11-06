@@ -12,7 +12,7 @@ exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '642'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -93,8 +93,8 @@ Journey Optimizer 管理者は、外部ツール（Postman など）を使用し
 
 カスタムアクションの設定と使用について詳しくは、以下の節を参照してください。
 
-* [&#x200B; カスタムアクションの概要 &#x200B;](../action/action.md) - カスタムアクションの概要と、カスタムアクションがサードパーティシステムへの接続にどのように役立つかを説明します
-* [&#x200B; カスタムアクションの設定 &#x200B;](../action/about-custom-action-configuration.md) - カスタムアクションの作成および設定方法を説明します
-* [&#x200B; カスタムアクションの使用 &#x200B;](../building-journeys/using-custom-actions.md) - ジャーニーでのカスタムアクションの使用方法を説明します
-* [&#x200B; コレクションをカスタムアクションパラメーターに渡す &#x200B;](../building-journeys/collections.md) – 実行時に値が動的に入力されるカスタムアクションパラメーターにコレクションを渡す方法について説明します
+* [カスタムアクションの基本を学ぶ](../action/action.md) - カスタムアクションの概要と、サードパーティシステムへの接続に役立つ仕組みについて説明します。
+* [カスタムアクションの設定](../action/about-custom-action-configuration.md) - カスタムアクションの作成および設定方法について説明します
+* [カスタムアクションの使用](../building-journeys/using-custom-actions.md) - ジャーニーでのカスタムアクションの使用方法について説明します
+* [コレクションをカスタムアクションパラメーターに渡す](../building-journeys/collections.md) - 実行時に値が動的に入力されるコレクションをカスタムアクションパラメーターに渡す方法について説明します
 

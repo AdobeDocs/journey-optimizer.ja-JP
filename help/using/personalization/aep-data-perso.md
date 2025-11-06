@@ -13,7 +13,7 @@ exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
 source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '707'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 92%
 >
 >現時点では、限定された一連のお客様のみが、「datasetLookup」ヘルパー関数を式フラグメント内で使用できます。アクセスするには、アドビ担当者にお問い合わせください。
 
-Journey Optimizer を使用すると、パーソナライゼーションエディターで Adobe Experience Platform レコードデータセットのデータを利用して、[コンテンツをパーソナライズする](../personalization/personalize.md)ことができます。開始する前に、まず、参照パーソナライゼーションに必要なデータセットを参照に対して有効にする必要があります。詳しくは、「Adobe Experience Platform データの使用 [&#x200B; の節を参照してくだ &#x200B;](../data/lookup-aep-data.md) い。
+Journey Optimizer を使用すると、パーソナライゼーションエディターで Adobe Experience Platform レコードデータセットのデータを利用して、[コンテンツをパーソナライズする](../personalization/personalize.md)ことができます。開始する前に、まず、参照パーソナライゼーションに必要なデータセットを参照に対して有効にする必要があります。詳しくは、[Adobe Experience Platform データの使用](../data/lookup-aep-data.md)の節を参照してください。
 
 データセットの参照パーソナライゼーションが有効になると、そのデータを使用してコンテンツを [!DNL Journey Optimizer] にパーソナライズできます。
 
@@ -46,7 +46,7 @@ Journey Optimizer を使用すると、パーソナライゼーションエデ�
 
      >[!NOTE]
      >
-     >このフィールドに入力する値は、フィールド ID （`profile.packages.packageSKU`）、ジャーニーイベントで渡されるフィールド（`context.journey.events.event_ID.productSKU`）、または静的な値（`sku007653`）のいずれかです。 いずれの場合も、システムは値を使用してデータセットを検索し、キーと一致するかどうかを確認します。
+     >このフィールドに入力する値は、フィールド ID（`profile.packages.packageSKU`）、ジャーニーイベントで渡されるフィールド（`context.journey.events.event_ID.productSKU`）、または静的な値（`sku007653`）です。いずれの場合も、システムは値を使用してデータセットを検索し、キーと一致するかどうかを確認します。
      >
      >キーにリテラル文字列値を使用する場合は、テキストを引用符で囲みます。例：`{{datasetLookup datasetId="datasetId" id="SKU1234" result="store" required=false}}`。属性値を動的キーとして使用する場合は、引用符を削除します。例：`{{datasetLookup datasetId="datasetId" id=category.product.SKU result="SKU" required=false}}`
 
@@ -84,7 +84,7 @@ Journey Optimizer を使用すると、パーソナライゼーションエデ�
    >
    >ヘルパー関数を使用して取得できるフィールドの数にハードリミットはありません。 ただし、最高のパフォーマンスを得るには、スループットに影響を与えないように、フィールド数を 50 未満に保つことをお勧めします。
 
-   * **result** は、**datasetLookup** ヘルパー関数の **result** パラメーターに割り当てた値です。 この例では、「flight」です。
+   * **result** は **datasetLookup** ヘルパー関数で **result** パラメーターに割り当てた値です。この例では「フライト」です。
    * **fieldID** は取得するフィールドの ID です。この ID は、データセットに関連するレコードスキーマを参照する際に、[!DNL Adobe Experience Platform] ユーザーインターフェイスに表示されます。
 
      +++フィールド ID はどこで取得できますか？

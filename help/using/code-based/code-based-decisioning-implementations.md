@@ -9,7 +9,7 @@ exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
 source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '371'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -137,7 +137,7 @@ curl --location 'https://edge-int.adobedc.net/ee/v1/interact?configId=2f21d344-b
 
       * 2 番目の提案に対して、フォールバック決定項目（これも一意）または空の決定項目が渡されます。
 
-+++決定サンプル応答（`allowDuplicateDecisionItems` = `true`）
++++決定サンプル応答（`allowDuplicateDecisionItems` = `true`）
 
 ```
 {
@@ -213,7 +213,7 @@ curl --location 'https://edge-int.adobedc.net/ee/v1/interact?configId=2f21d344-b
 
 +++
 
-+++決定サンプル応答（`allowDuplicateDecisionItems` = `false`）
++++決定サンプル応答（`allowDuplicateDecisionItems` = `false`）
 
 ```
 {

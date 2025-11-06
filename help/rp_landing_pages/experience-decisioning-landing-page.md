@@ -20,7 +20,7 @@ Adobe Journey Optimizer の決定機能を使用すると、一元化された�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 決定の概要
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer の決定機能を使用すると、一元化された�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 決定のガードレールと制限
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer で決定を効果的に使用する制約とベスト�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 API リファレンス：オファーの配信
 
@@ -50,7 +50,7 @@ API リファレンス：オファーの配信
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 決定項目とカタログの管理
 
@@ -60,7 +60,7 @@ API リファレンス：オファーの配信
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 決定ルールの作成
 
@@ -70,7 +70,7 @@ API リファレンス：オファーの配信
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 AI モデルを使用したランキングの作成
 

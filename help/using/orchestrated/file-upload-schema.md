@@ -5,10 +5,10 @@ title: 設定の手順
 description: DDL をアップロードして Adobe Experience Platform 内でモデルベースのスキーマを作成する方法について説明します。
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 80c136409821388a4baea9286b298220c91bba7a
 workflow-type: tm+mt
 source-wordcount: '1084'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 1. サポートされているソースからデータセットに[データを取り込み](ingest-data.md)ます。
 
-➡️ [モデルベースのスキーマについて詳しくは、Adobe Experience Platform のドキュメントを参照してください。](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/schema/model-based)
+➡️ [モデルベースのスキーマについて詳しくは、Adobe Experience Platform のドキュメントを参照してください。](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational)
 
 ## DDL ファイルのアップロード{#ddl-upload}
 

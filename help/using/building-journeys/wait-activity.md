@@ -81,7 +81,7 @@ Select the date for the execution of the next activity.
 
 エディターの式は、`dateTimeOnly` 形式にする必要があります。[このページ](expression/expressionadvanced.md)を参照してください。dateTimeOnly 形式について詳しくは、[このページ](expression/data-types.md)を参照してください。
 
-ベストプラクティスは、プロファイルに固有のカスタム日付を使用し、すべてに同じ日付を使用しないことです。例えば、`toDateTimeOnly('2024-01-01T01:11:00Z')` ではなく、各プロファイルに固有の `toDateTimeOnly(@event{Event.productDeliveryDate})` を定義します。固定日付を使用すると、ジャーニーの実行に問題が生じる可能性があることに注意してください。 待機アクティビティがジャーニーの処理率に与える影響について詳しくは、[&#x200B; この節 &#x200B;](entry-management.md#wait-activities-impact) を参照してください。
+ベストプラクティスは、プロファイルに固有のカスタム日付を使用し、すべてに同じ日付を使用しないことです。例えば、`toDateTimeOnly('2024-01-01T01:11:00Z')` ではなく、各プロファイルに固有の `toDateTimeOnly(@event{Event.productDeliveryDate})` を定義します。固定日付を使用すると、ジャーニーの実行に問題が生じる可能性があることに注意してください。 待機アクティビティがジャーニーの処理率に与える影響について詳しくは、[ この節 ](entry-management.md#wait-activities-impact) を参照してください。
 
 
 >[!NOTE]

@@ -9,7 +9,7 @@ exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
 source-git-commit: aa5577ebbeabea59a2c9bf55f68edd05710d7a03
 workflow-type: tm+mt
 source-wordcount: '981'
-ht-degree: 93%
+ht-degree: 95%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 93%
 1. 管理／チャネル／チャネル設定でアプリ内メッセージチャネル設定を作成する方法について詳しくは、[この節](#channel-prerequisites)を参照してください。
 1. コンテンツ実験を使用している場合は、[この節](#experiment-prerequisite)に記載されている要件に従ってください。
 
-完了したら、最初のアプリ内メッセージを作成、設定および送信できます。 これを実現する方法については、[この節](create-in-app.md)を参照してください。
+完了したら、最初のアプリ内メッセージを作成、設定および送信できます。これを実現する方法について詳しくは、[この節](create-in-app.md)を参照してください。
 
 ## 配信の前提条件 {#delivery-prerequisites}
 
@@ -83,7 +83,7 @@ Journey Optimizer でアプリ内設定を作成するには、次の手順に�
 
    >[!NOTE]
    >
-   >iOS および Android プラットフォームの場合、配信はアプリ ID のみに基づきます。両方のアプリが同じアプリ ID を共有している場合、**[!UICONTROL チャネル設定]**&#x200B;で選択したプラットフォームに関係なく、コンテンツは両方に配信されます。
+   >iOS および Android プラットフォームの場合、配信はアプリ ID のみに基づきます。両方のアプリが同じアプリ ID を共有している場合、**[!UICONTROL チャネル設定]**で選択したプラットフォームに関係なく、コンテンツは両方に配信されます。
    >アプリ内メッセージ配信を特定のプラットフォームに制限するには、ジャーニーまたはキャンペーンロジック内でデバイス固有のルールを実装する必要があります。
 
    ![](assets/inapp_config_10.png)
@@ -139,7 +139,7 @@ Journey Optimizer でアプリ内設定を作成するには、次の手順に�
 
 **関連トピック：**
 
-* [アプリ内メッセージの作成 &#x200B;](create-in-app.md)
+* [アプリ内メッセージの作成 ](create-in-app.md)
 * [キャンペーンの作成](../campaigns/create-campaign.md)
 * [アプリ内メッセージのデザイン](design-in-app.md)
 * [アプリ内レポート](../reports/campaign-global-report-cja-inapp.md)

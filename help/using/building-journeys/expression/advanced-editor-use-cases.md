@@ -14,7 +14,7 @@ version: Journey Orchestration
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '547'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 95%
 
 **この式は、過去 7 日間に指定された、このユーザーのすべてのイベントを検索します。**
 
-次に、completePurchase に変換されなかったすべての「買い物かごに追加」イベントを選択します。
+次に、completePurchase に変換されなかったすべての買い物かごに追加イベントを選択します。
 
 >[!NOTE]
 >

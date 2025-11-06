@@ -11,7 +11,7 @@ hidefromtoc: true
 source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
 source-wordcount: '775'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -89,13 +89,13 @@ ht-degree: 97%
 
 ![](assets/in_app_web_design_3.png)
 
-メディア URL を入力するか、「**[!UICONTROL Assetsを選択]**」アイコンをクリックして、Assets ライブラリに保存されているアセットをアプリ内メッセージに直接追加します。<!--[Learn more about asset management](../content-management/assets-essentials.md).-->
+メディア URL を入力するか、「**[!UICONTROL アセットを選択]**」アイコンをクリックして、アセットライブラリに保存されているアセットをアプリ内メッセージに直接追加します。<!--[Learn more about asset management](../content-management/assets-essentials.md).-->
 
 画面読み上げアプリケーション用の&#x200B;**[!UICONTROL 代替テキスト]**&#x200B;を追加することもできます。
 
 +++詳細フォーマットを使用したその他のオプション
 
-**[!UICONTROL 詳細フォーマットモード]**&#x200B;がオンになっている場合、メディアの&#x200B;**[!UICONTROL 最大の高さ]**&#x200B;と&#x200B;**[!UICONTROL 最大幅]**&#x200B;をカスタマイズできます。
+**[!UICONTROL 詳細フォーマットモード]**&#x200B;がオンの場合、メディアの&#x200B;**[!UICONTROL 最大の高さ]**&#x200B;と&#x200B;**[!UICONTROL 最大幅]**&#x200B;をカスタマイズできます。
 
 +++
 

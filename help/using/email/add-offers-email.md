@@ -10,7 +10,7 @@ level: Intermediate
 keywords: オファー, 決定, メール, パーソナライゼーション, 決定
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
 source-git-commit: da82432dd15f19ac7db52f491e5afd5ba6d4e3d7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 100%
 
@@ -104,4 +104,4 @@ ht-degree: 100%
 
 [!DNL Journey Optimizer] でメッセージに意思決定管理コンポーネントを追加する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416051?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334088?quality=12)

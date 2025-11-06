@@ -4,7 +4,7 @@ description: ジャーニーの補助識別子の使用方法について説明�
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
 source-git-commit: 62c0c1f46b5bd575102d9f27037cb6add1355ba2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1381'
 ht-degree: 100%
 
@@ -246,4 +246,4 @@ ht-degree: 100%
 
 [!DNL Adobe Journey Optimizer] で補足識別子を有効にして適用する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464793?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)

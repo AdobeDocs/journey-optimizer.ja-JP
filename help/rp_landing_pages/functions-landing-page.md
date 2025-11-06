@@ -20,7 +20,7 @@ Adobe Journey Optimizer のヘルパー関数を使用すると、パーソナ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 ヘルパー関数の基本を学ぶ
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer でのデータ操作とパーソナライゼーショ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 集計関数ライブラリ
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer でのデータ操作とパーソナライゼーショ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 演算関数ライブラリ
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer でのデータ操作とパーソナライゼーショ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 配列およびリスト関数リファレンス
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer でのデータ操作とパーソナライゼーショ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 日時関数ライブラリ
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer でのデータ操作とパーソナライゼーショ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 ブール関数と比較関数ライブラリ
 

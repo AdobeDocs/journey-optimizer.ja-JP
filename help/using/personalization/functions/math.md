@@ -9,7 +9,7 @@ exl-id: b9149ad6-2be7-4bdf-82eb-7ab52780cb4e
 source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '244'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 77%
 
 パーソナライゼーションエディターで数学関数を使用する方法を説明します。
 
-## 絶対パス {#absolute}
+## 絶対 {#absolute}
 
 `absolute` 関数は、数値をその絶対値に変換するために使用されます。
 
@@ -39,7 +39,7 @@ ht-degree: 77%
 {%= formatNumber(number/double,string) %}: string
 ```
 
-[Oracle ドキュメントと &#x200B;](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html) サポートされているロケールにまとめられている書式設定と有効なロケールを使用でき [&#x200B; す &#x200B;](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank}
+[Oracle ドキュメント](https://docs.oracle.com/javase/8/docs/api/java/util/Locale.html)と[サポートされているロケール](https://www.oracle.com/java/technologies/javase/jdk11-suported-locales.html){_blank}にまとめられている書式設定と有効なロケールを使用できます。
 
 **例**
 
@@ -109,7 +109,7 @@ ht-degree: 77%
 
 **例**
 
-このクエリは 42.6 （42）の整数値を返します。
+このクエリは、42.6 の 整数値、つまり 42 を返します。
 
 ```sql
 {%= toInt(42.6) %}: integer

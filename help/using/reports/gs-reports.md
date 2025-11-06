@@ -6,10 +6,10 @@ description: ' [!DNL Adobe Journey Optimizer]  レポートへのアクセス方
 role: User
 level: Beginner
 exl-id: 7961dc5c-7918-4ae3-8361-0ed4bc4f145b
-source-git-commit: ac80d1cec351a3029c8b2bf862275ffe7fd5c86d
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 97%
+source-wordcount: '460'
+ht-degree: 94%
 
 ---
 
@@ -140,6 +140,8 @@ Adobe Journey Optimizerの全期間レポートを効果的に使用する方法
 
 +++こちらのビデオをご覧ください
 
->[!VIDEO](https://video.tv.adobe.com/v/3422696?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
+
+[ レポートのチュートリアル ](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/report-and-monitor/report-and-monitor){target="_blank"} で、レポートと分析に関するその他のビデオチュートリアルをご覧ください

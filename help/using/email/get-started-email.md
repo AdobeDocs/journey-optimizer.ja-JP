@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: メール, 開始, 作成, プレビュー
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
-source-git-commit: f670eddab41c2317d2dbe76ad7aea5a77bb87f2a
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 100%
+source-wordcount: '288'
+ht-degree: 66%
 
 ---
 
@@ -109,3 +109,12 @@ ht-degree: 100%
 <p>
 </td>
 </tr></table>
+
+## その他のリソース
+
+* **[メールの作成](create-email.md)** - キャンペーンとジャーニーでメールメッセージを作成する方法を手順を追って説明します。
+* **[メールコンテンツのデザイン](get-started-email-design.md)** - メールコンテンツをゼロから、またはテンプレートを使用してデザインする様々な方法を説明します。
+* **[メール設定](get-started-email-config.md)** - メールのサーフェス、サブドメイン、IP プールなどのメール設定を構成する方法について説明します。
+* **[メールのパーソナライゼーションとスタイル設定](get-started-email-style.md)** - カスタム CSS、整列、パディング、ダークモードのサポートなどの、マスターのスタイル設定手法。
+* **[メールのトラッキングと監視](message-tracking.md)** - パフォーマンス分析のために、メッセージの開封数、クリック数を追跡し、URL トラッキングを管理する方法について説明します。
+* **[メールチャネルチュートリアル ](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/email-channel){target="_blank"}** - メールの機能とベストプラクティスに関するステップバイステップのビデオチュートリアルをご覧ください。

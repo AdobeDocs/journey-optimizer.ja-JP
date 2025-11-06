@@ -12,7 +12,7 @@ exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
 source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '323'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 95%
 
    ![](assets/sandbox_3.png)
 
-1. 必要に応じて、その横にある「X」アイコンをクリックすると、**[!UICONTROL 役割]** からサンドボックスアクセスが削除されます。
+1. 必要に応じて、横にある「X」アイコンをクリックして、**[!UICONTROL 役割]**&#x200B;からサンドボックスへのアクセス権を削除します。
 
    ![](assets/sandbox_4.png)
 
@@ -70,4 +70,4 @@ ht-degree: 95%
 
 サンドボックスの概要と、開発用サンドボックスと実稼動用サンドボックスを区別する方法について説明します。サンドボックスの作成、リセット、削除方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416784?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334355?quality=12)

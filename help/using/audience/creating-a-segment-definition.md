@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
 source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1003'
 ht-degree: 100%
 
@@ -136,4 +136,4 @@ Adobe Experience Platform オーディエンスポータルを使用すると、
 
 Journey Optimizer がルールを使用してオーディエンスを生成する方法の概要と、属性、イベント、既存のオーディエンスを使用してオーディエンスを作成する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430329?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425020?quality=12)

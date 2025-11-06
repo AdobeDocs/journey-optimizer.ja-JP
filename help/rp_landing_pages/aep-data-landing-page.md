@@ -20,7 +20,7 @@ Adobe Journey Optimizer を使用すると、Adobe Experience Platform のリッ
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 決定でのコンテキストデータの活用
 
@@ -30,7 +30,7 @@ Adobe Experience Platform のコンテキストデータを Adobe Journey Optimi
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 決定の Adobe Experience Platform データの使用
 

@@ -12,7 +12,7 @@ exl-id: 70d1ef5a-743b-4362-bb65-93a8c996209f
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -118,6 +118,6 @@ Journey Optimizer では、Marketo Engage のカスタムアクションを設�
 
 1. このアクションのラベルと説明を入力します。
 
-1. 「**リクエストパラメーター**」セクションで、各パラメーターの **編集** アイコンをクリックし、ペイロードに設定した動的な値を選択します。
+1. 「**リクエストパラメーター**」セクションで、各パラメーターの「**編集**」アイコンをクリックし、ペイロードで設定した動的な値を選択します。
 
 ![](assets/engage-use-canvas.png){width="70%" align="left"}

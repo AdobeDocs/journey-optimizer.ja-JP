@@ -6,7 +6,7 @@ description: SFTP、クラウドストレージ、データベースなどのサ
 exl-id: 7f1e7985-b68e-43d6-9c8f-fea2469f8af9
 version: Campaign Orchestration
 source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 100%
 

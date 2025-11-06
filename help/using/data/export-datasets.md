@@ -9,7 +9,7 @@ level: Beginner
 keywords: プラットフォーム, データレイク, 作成, レイク, データセット, プロファイル
 exl-id: 66b5c691-ddc4-4e9b-9386-2ce6c307451c
 source-git-commit: 62c0c1f46b5bd575102d9f27037cb6add1355ba2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '961'
 ht-degree: 100%
 

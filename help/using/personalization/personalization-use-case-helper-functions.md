@@ -12,7 +12,7 @@ exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
 source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '1037'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 97%
 * `if`ヘルパー：関連製品が買い物かごに入っている場合に製品固有のメモを挿入します。[詳細情報](functions/helpers.md#if-function)。
 <!-- **Context**: personalization based on contextual data from the journey -->
 
-➡️ [ヘルパー関数の使用方法については、このビデオをご覧ください](#video)
+➡️ [ヘルパー関数の使用方法について詳しくは、このビデオを参照してください。](#video)
 
 開始する前に、次の要素の設定方法を理解しておく必要があります。
 
@@ -52,7 +52,7 @@ ht-degree: 97%
 1. スキーマに `productListItems` 配列が含まれるイベントを作成します。
 1. この配列のすべてのフィールドを、このイベントのペイロードフィールドとして定義します。
 
-   商品リスト項目のデータタイプについて詳しくは、[Adobe Experience Platform ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=ja){target="_blank"} を参照してください。
+   製品リスト項目データタイプについて詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/product-list-item.html?lang=ja){target="_blank"}を参照してください。
 
 1. このイベントで開始されるジャーニーを作成します。
 1. ジャーニーに&#x200B;**メール**&#x200B;アクティビティを追加します。
@@ -105,7 +105,7 @@ ht-degree: 97%
 
       ![](assets/personalization-uc-helpers-5.png)
 
-      ユーザー名データタイプについて詳しくは、[Adobe Experience Platform ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=ja){target="_blank"} を参照してください。
+      ユーザー名データタイプについて詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=ja){target="_blank"}を参照してください。
 
 1. 「 **[!UICONTROL 検証]**」をクリックしてから、「**[!UICONTROL 保存]**」をクリックします。
 
@@ -344,4 +344,4 @@ ht-degree: 97%
 
 ヘルパー関数の使用方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416781?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

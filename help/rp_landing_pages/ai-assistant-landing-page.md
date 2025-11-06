@@ -20,7 +20,7 @@ Adobe Journey Optimizer の AI アシスタントは、生成 AI を活用して
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 AI アシスタントの基本を学ぶ
 
@@ -30,7 +30,7 @@ AI アシスタントの基本を学ぶ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 AI を使用したメールコンテンツ生成
 
@@ -40,7 +40,7 @@ AI アシスタントを使用して、ブランド一致を保持しながら�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 プッシュ通知コンテンツの生成
 
@@ -50,7 +50,7 @@ AI アシスタントを使用して、ブランド一致を保持しながら�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 AI を使用した SMS コンテンツ生成
 
@@ -60,7 +60,7 @@ AI アシスタントを使用して、ブランドガイドラインを遵守�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 Web ページのコンテンツとアセットの生成
 
@@ -70,7 +70,7 @@ AI アシスタントを使用して web ページのコンテンツとビジュ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/window-maximize.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/window-maximize.svg)
 
 AI を使用したランディングページ生成
 

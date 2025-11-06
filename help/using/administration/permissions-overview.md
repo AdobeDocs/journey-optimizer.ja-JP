@@ -12,15 +12,15 @@ exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
 source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '436'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 # アクセス制御の基本を学ぶ {#permissions-overview}
 
-[!DNL Journey Optimizer] を使用すると、さまざまなユーザーに割り当てる権限を定義して管理できます。権限とは、製品内の機能へのアクセスを許可または拒否する一連の権利と制限です。
+[!DNL Journey Optimizer] を使用すると、様々なユーザーに割り当てる権限を定義して管理できます。権限とは、製品内の機能へのアクセスを許可または拒否する一連の権利と制約です。
 
-[!DNL Journey Optimizer] のアクセス制御は、Adobe Experience Cloudの **権限** を通じて提供されます。 この機能では、ユーザーを権限とサンドボックスにリンクさせる、役割とポリシーを活用します。
+[!DNL Journey Optimizer] のアクセス制御は、Adobe Experience Cloud の&#x200B;**権限**&#x200B;を通じて提供されます。この機能では、ユーザーを権限とサンドボックスにリンクさせる、役割とポリシーを活用します。
 
 Journey Optimizer のアクセス制御を設定するには、組織のシステム管理者権限または製品管理者権限が必要です。権限を付与または取り消すことができる最小の役割は、製品管理者です。権限を管理できる他の管理者の役割は、システム管理者です（制限なし）。詳しくは、管理者の役割に関する[アドビヘルプセンターの記事](https://helpx.adobe.com/jp/enterprise/using/admin-roles.html){target="_blank"}を参照してください。
 

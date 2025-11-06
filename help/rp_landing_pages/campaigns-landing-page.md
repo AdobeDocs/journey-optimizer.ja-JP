@@ -20,7 +20,7 @@ Adobe Journey Optimizer のキャンペーンを使用すると、様々なチ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 キャンペーンを使い始める
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer のキャンペーンを使用すると、様々なチ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 キャンペーンへのアクセスと管理
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer のキャンペーンを使用すると、様々なチ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 アクションキャンペーン
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer のキャンペーンを使用すると、様々なチ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 API トリガーキャンペーン
 
@@ -60,7 +60,7 @@ API トリガーキャンペーン
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 調整されたキャンペーン
 

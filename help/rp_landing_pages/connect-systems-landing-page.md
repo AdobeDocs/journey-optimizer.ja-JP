@@ -20,7 +20,7 @@ Adobe Journey Optimizer を使用すると、システムと環境をシーム�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Adobe Journey Optimizer と他のソリューションの統合
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer が他のアドビおよびサードパーティのソ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer API の操作
 
@@ -40,7 +40,7 @@ Adobe Experience Platform と統合し、API を使用してチャネルをま�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 ジャーニーと外部システムの統合
 
@@ -50,7 +50,7 @@ capping API や throttling API など、Adobe Journey Optimizer を外部シス�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 アドビソリューションを使用した送信
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer を設定して、Adobe Campaign、Marketo Engage、他�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Adobe Journey Optimizer のサンドボックス管理
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer のサンドボックスを使用して、仮想環境�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 ソースコネクタの基本を学ぶ
 

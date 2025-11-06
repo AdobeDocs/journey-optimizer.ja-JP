@@ -11,7 +11,7 @@ keywords: トラブルシューティング, ジャーニー, チェック, エ�
 exl-id: 03fbc4f4-b0a8-46d5-91f9-620685b11493
 version: Journey Orchestration
 source-git-commit: 118bf89f56d26213fde71fa795fc6576ce764ef2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 100%
 

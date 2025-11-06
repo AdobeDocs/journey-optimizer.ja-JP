@@ -30,7 +30,7 @@ ht-degree: 88%
 
 >[!TIP]
 >
->HTML ファイルの代わりに画像デザイン（JPEGまたは PNG）がある場合は、[&#x200B; 画像からHTMLへのコンバーター &#x200B;](image-to-html.md) を使用すると、AI を使用して、編集可能なHTML メールテンプレートに自動変換できます。
+>HTML ファイルの代わりに画像デザイン（JPEGまたは PNG）がある場合は、[ 画像からHTMLへのコンバーター ](image-to-html.md) を使用すると、AI を使用して、編集可能なHTML メールテンプレートに自動変換できます。
 
 HTML コンテンツを含んだファイルをインポートするには、次の手順に従います。
 
@@ -60,4 +60,4 @@ HTML コンテンツを含んだファイルをインポートするには、次
 
 既存の HTML コンテンツの読み込み、デザインの調整、ミラーページと購読解除リンクの追加およびコンテンツのコーディング方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3421912?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334102?quality=12)

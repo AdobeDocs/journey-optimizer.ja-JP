@@ -4,10 +4,10 @@ description: Journey Optimizer の競合と優先順位付けツールを活用�
 role: User
 level: Beginner
 exl-id: 9dc0cd89-d29a-42d2-a73f-d95f9c39c86e
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: ht
-source-wordcount: '629'
-ht-degree: 100%
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+workflow-type: tm+mt
+source-wordcount: '716'
+ht-degree: 88%
 
 ---
 
@@ -68,3 +68,12 @@ Journey Optimizer では、過剰な数のインタラクションで顧客が�
 * **オーディエンスの選定ジャーニーにおける同時アクティベーション**
 
   同じオーディエンス選定イベントで複数のオーディエンス選定ジャーニーがアクティブ化されると、エントリキャップのカウントが不正確になります。カウントがキャップを下回った場合、ジャーニーは引き続き判別されますが、同時アクティベーションでは最新のカウントを取得することはできません。
+
+## その他のリソース
+
+* **[競合の管理](conflicts.md)** – 重複するキャンペーンとジャーニー間の競合を特定し解決する方法について説明します。
+* **[優先度スコアの設定](priority-scores.md)** - メッセージ配信の優先順位を制御するための優先度スコアの割り当て方法と使用方法について説明します。
+* **[フリークエンシーキャップの設定](channel-capping.md)** - チャネルレベルのフリークエンシーキャップを設定して、オーバーメッセージを防ぐ方法について説明します。
+* **[ルールセットの作成](rule-sets.md)** – 高度な競合管理およびメッセージガバナンス用のビジネスルールを作成する方法について説明します。
+* **[ジャーニー固有のキャッピング](journey-capping.md)** - ジャーニーレベルのキャッピングルールを設定し、ジャーニー内のメッセージ頻度を制御します。
+* **[競合管理チュートリアル ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/conflict-management/identify-potential-conflicts){target="_blank"}** – 競合管理と優先順位付けに関するステップバイステップのビデオチュートリアルを紹介します。

@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 動的コンテンツの作成
-description: メッセージに動的コンテンツを追加する方法を説明します。
+description: メッセージに動的コンテンツを追加する方法について説明します。
 feature: Personalization
 topic: Personalization
 role: Developer
@@ -12,7 +12,7 @@ exl-id: 639ad7df-0d0f-4c9b-95d1-f3101267aae2
 source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '654'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Adobe Journey Optimizer では、ライブラリで作成した条件付きル�
 
 パーソナライゼーションエディターを使用して、パーソナライゼーションを追加できる任意のフィールドに動的コンテンツを作成できます。これには、件名行、リンク、プッシュ通知コンテンツまたはテキストタイプのオファーの表示域が含まれます。[詳しくは、パーソナライゼーションを参照してください](personalize.md)
 
-さらに、メールDesignerで条件付きルールを使用して、コンテンツコンポーネントのバリアントを複数作成できます。
+さらに、条件付きルールを E メールデザイナーで使用して、コンテンツコンポーネントの複数のバリアントを作成できます。
 
 ## 式への動的コンテンツの追加 {#perso-expressions}
 

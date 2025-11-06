@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 開始, 開始, コンテンツ, 実験
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
-source-wordcount: '2002'
-ht-degree: 98%
+source-wordcount: '2085'
+ht-degree: 94%
 
 ---
 
@@ -181,3 +181,12 @@ Adobe Journey Optimizer がメッセージを追跡する直接的な目標指�
   >[!CAUTION]
   >
   >分析数が多いほど、擬似的な効果や偽陽性を検出する可能性が高くなります。
+
+## その他のリソース
+
+* **[コンテンツ実験の作成](content-experiment.md)** - メッセージのパフォーマンスを最適化する A/B テストを設計および設定する方法について説明します。
+* **[実験計算](experiment-calculations.md)** – 実験分析で使用される統計的方法と指標について説明します。
+* **[マルチアームバンディットと A/B テストの比較](mab-vs-ab.md)** – 様々な実験アプローチと、各方法を使用するタイミングを比較します。
+* **[実験アクセラレーター](experiment-accelerator-gs.md)** - AI を活用した最適化で実験を高速化する方法を説明します。
+* **[実験レポートの計算](experiment-report-calculations.md)** – 実験結果と統計的優位差の解釈方法について説明します。
+* **[実験チュートリアル ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/content-management/experimentation-overview){target="_blank"}** - コンテンツ実験とベストプラクティスに関するステップバイステップのビデオチュートリアルをご覧ください。

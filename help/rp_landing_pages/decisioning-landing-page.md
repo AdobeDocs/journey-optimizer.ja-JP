@@ -20,7 +20,7 @@ Journey Optimizer の意思決定機能を使用すると、すべてのタッ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 意思決定機能の概要
 
@@ -30,7 +30,7 @@ Journey Optimizer の意思決定機能を使用すると、すべてのタッ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Adobe Journey Optimizer での意思決定
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer での意思決定
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Adobe Journey Optimizer での意思決定管理
 

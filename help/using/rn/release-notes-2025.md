@@ -42,7 +42,7 @@ ht-degree: 99%
 <li><strong>AI 実験のインサイトと機会：</strong>GenAI 駆動型のインサイトとレコメンデーションを使用することで、統計的な読み上げを超えた結果が得られます。各実験では、共に実用的な機会とともにん、裏付けとなる論理的根拠が明らかになるので、チームは次にテストする内容をより自信を持って決定できます。</li>
 <li><strong>Journey Optimizer でのマルチアームバンディット（MAB）のサポート：</strong>マルチアームバンディット実験により、無駄なトラフィックを削減しながら影響力を最大限に高めます。MAB は、オーディエンスを均等に分割するのではなく、最もパフォーマンスの高いバリエーションにより多くの訪問者をリアルタイムで自動的に割り当てるので、機能を学びながら、より多くの顧客に優れたエクスペリエンスを提供できます。</li></ul>
 <p><img src="assets/do-not-localize/experimentation-accelerator.gif"/></p>
-<p>詳しくは、<a href="https://experienceleague.adobe.com/en/docs/experimentation-accelerator/using/overview">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="https://experienceleague.adobe.com/ja/docs/experimentation-accelerator/using/overview">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2025年10月3日（PT）</p>
 </td>
 </tr>
@@ -988,7 +988,7 @@ Journey Optimizer 製品リリースに関する&#x200B;**メールおよび製�
 <td>
 <p>プロファイル ID と、注文 ID、サブスクリプション ID、処方箋 ID などの別の識別子を使用してジャーニーをトリガーできるようになりました。これにより、同じプロファイルを同じジャーニーに複数回同時に含めることができます。これにより、各インスタンスがジャーニーを通じて独自のパスに従いながら、複数の注文やサブスクリプションを並行して管理するなどのシナリオが可能になります。</p>
 <p>詳しくは、<a href="../building-journeys/supplemental-identifier.md">詳細なドキュメント</a>を参照してください。</p>
-<p>この機能は、一連の組織でのみ使用できます（限定提供）。アクセスするには、アドビ担当者にお問い合わせください。</p>
+<p>この機能は、一連の組織でのみ使用できます（限定提供）。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
 <p>公開日：2025年5月23日（PT）</p>
 </td>
 </tr>
@@ -1713,7 +1713,7 @@ You can now choose to have your emails relayed to your SMTP servers instead of b
 <p>柔軟なオーディエンス評価を使用すると、選択したオーディエンスに対してオンデマンドでセグメント化ジョブを実行できるので、Journey Optimizer のジャーニーやキャンペーンにオーディエンスをターゲティングする前に、常に最新のオーディエンスデータを確保できます。</p>
 <img src="assets/do-not-localize/flexible-audience.gif">
 <p>詳しくは、<a href="../audience/creating-a-segment-definition.md#flexible">詳細なドキュメント</a>を参照してください。</p>
-<p>この機能は、一連の組織でのみ使用できます（限定提供）。アクセスするには、アドビ担当者にお問い合わせください。</p>
+<p>この機能は、一連の組織でのみ使用できます（限定提供）。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
 <p>リリース日：2025年1月28日（PT）</p>
 </tr>
 </tbody>

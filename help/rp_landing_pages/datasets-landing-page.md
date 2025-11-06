@@ -20,7 +20,7 @@ Adobe Journey Optimizer データセットは、データを管理および利�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Adobe Journey Optimizer のデータセットの使用と管理
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer でデータセットにアクセス、作成、管理�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 データセットの有効期間（TTL）ガードレール
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer でデータセットにアクセス、作成、管理�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Adobe Journey Optimizer データセットの書き出し
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer データセットの書き出し
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer：データセットクエリの例
 

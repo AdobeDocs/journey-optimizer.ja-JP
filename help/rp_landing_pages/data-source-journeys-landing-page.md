@@ -20,7 +20,7 @@ Adobe Journey Optimizer のデータソースを使用すると、アドビの�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 データソースの基本を学ぶ
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer のデータソースを使用すると、アドビの�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 データソースの設定方法
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer でデータソースを設定し、ジャーニーの�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Adobe Experience Platform データソース
 
@@ -50,7 +50,7 @@ Adobe Experience Platform データソース
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 外部データソースの設定
 

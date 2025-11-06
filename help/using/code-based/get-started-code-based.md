@@ -6,10 +6,10 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: ht
-source-wordcount: '771'
-ht-degree: 100%
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+workflow-type: tm+mt
+source-wordcount: '855'
+ht-degree: 90%
 
 ---
 
@@ -101,4 +101,13 @@ Web の使用例を実行するには、web チャネルまたはコードベー
    >[!INFO]
    >
    >これを確実に行うために、アプリ実装チームは、明示的な API または SDK 呼び出しを行って、「バナーテキスト」や「Recommendations トレイ 1」などのコードベースの設定で定義したサーフェスのコンテンツや、アプリケーション内の UI に関連しない決定ポイント（「検索アルゴリズムパラメーター」など）のコンテンツを取得します。<!--In this case, the implementation team is responsible for rendering or otherwise interpreting and acting on the returned content.--> [詳細情報](code-based-implementation-samples.md)
+
+## その他のリソース
+
+* **[コードベースのエクスペリエンスの作成](create-code-based.md)** - カスタム実装用のコードベースのキャンペーンおよびジャーニーを作成し、設定する方法を説明します。
+* **[コードベースのチャネルの設定](code-based-configuration.md)** - サーフェスと実装を適切に設定して、コードベースのエクスペリエンス設定を指定します。
+* **[コードベースの前提条件](code-based-prerequisites.md)** – 実装に必要な技術要件と開発者リソースについて説明します。
+* **[コードベースのエクスペリエンスのテスト](test-code-based.md)** – 公開前にコードベースのエクスペリエンスをプレビューしてテストする方法を説明します。
+* **[実装サンプル](code-based-implementation-samples.md)** – 様々なユースケースのコード例と実装パターンを調べます。
+* **[コードベースのエクスペリエンスチュートリアル ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/channels/code-based-experience-channel/create-a-code-based-experience-campaign){target="_blank"}** - コードベースの機能とベストプラクティスに関するステップバイステップのビデオチュートリアルをご覧ください。
 

@@ -20,7 +20,7 @@ Adobe Journey Optimizer でのコンテンツのデザインとは、オーデ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 コンテンツコンポーネントの使用
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer でのコンテンツのデザインとは、オーデ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg)
 
 ビジュアルフラグメントの活用
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer でのコンテンツのデザインとは、オーデ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 リンクの追加とメッセージのトラッキング
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer でのコンテンツのデザインとは、オーデ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 パーソナライズされたオファーの挿入
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer でのコンテンツのデザインとは、オーデ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg)
 
 テキストバージョンの生成
 
@@ -70,7 +70,7 @@ HTML コンテンツを表示できない受信者向けに、メールのプレ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 メタデータの追加
 

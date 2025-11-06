@@ -20,7 +20,7 @@ Adobe Journey Optimizer の「オファーの設定」のセクションでは�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 パーソナライズされたオファーの作成
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer の「オファーの設定」のセクションでは�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 オファーへの表示域の追加
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer の「オファーの設定」のセクションでは�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 オファーへの制約の追加
 

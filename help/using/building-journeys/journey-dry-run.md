@@ -149,4 +149,4 @@ Adobe Experience Platform クエリサービスを使用して&#x200B;**ジャ�
 
 ジャーニーのドライラン方法について詳しくは、このビデオを参照してください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464683/?learn=on&enablevpops&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)

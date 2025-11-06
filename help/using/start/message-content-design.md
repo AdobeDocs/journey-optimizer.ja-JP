@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 keywords: コンテンツ, デザイン, メール, プッシュ, SMS, パーソナライゼーション, テンプレート
 source-git-commit: 945f684f4ad30da38907ff967692a3d359f56bf0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Adobe Journey Optimizer でメッセージコンテンツをデザインする�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 メールコンテンツのデザイン
 
@@ -35,7 +35,7 @@ E メールデザイナーを使用してメールデザインを習得し、レ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg)
 
 プッシュ通知のデザイン
 
@@ -45,7 +45,7 @@ iOS および Android 向けの魅力的なプッシュ通知を作成し、タ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 SMS および MMS メッセージのデザイン
 
@@ -55,7 +55,7 @@ SMS を使用してパーソナライズされたテキストメッセージを�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 アプリ内メッセージのデザイン
 
@@ -65,7 +65,7 @@ SMS を使用してパーソナライズされたテキストメッセージを�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 コンテンツのパーソナライズ
 
@@ -75,7 +75,7 @@ SMS を使用してパーソナライズされたテキストメッセージを�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 テンプレートとフラグメントの使用
 

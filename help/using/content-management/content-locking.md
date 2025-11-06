@@ -8,7 +8,7 @@ role: User
 level: Beginner, Intermediate
 exl-id: f64fe1c4-3e30-4b74-80f8-b801a5f1d4c4
 source-git-commit: dcbb83e72377838281e1762bb99230e7fe52ab4c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1273'
 ht-degree: 100%
 
@@ -196,4 +196,4 @@ Journey Optimizer では、テンプレート全体をロックするか、特�
 
 メールテンプレートのコンテンツをロックする方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3451608?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)

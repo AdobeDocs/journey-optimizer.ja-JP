@@ -6,7 +6,7 @@ description: Journey Optimizer の調整されたキャンペーンに関する�
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
 source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1430'
 ht-degree: 100%
 

@@ -20,7 +20,7 @@ Adobe Journey Optimizer のプッシュ通知を使用すると、オーディ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 プッシュ通知のデータフローと設定
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer を使用してプッシュ通知を配信するのに�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 プッシュ通知チャネルの設定
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer を使用してプッシュ通知を配信するのに�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 モバイルオンボーディングのクイックスタートワークフロー
 

@@ -20,7 +20,7 @@ Adobe Journey Optimizer でジャーニーを外部システムと統合する�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 外部システム統合のベストプラクティス
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer でジャーニーを外部システムと統合する�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Capping API の概要および実装ガイド
 
@@ -40,7 +40,7 @@ Capping API を使用した外部システム統合のキャッピング設定�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Throttling API：設定および管理ガイド
 

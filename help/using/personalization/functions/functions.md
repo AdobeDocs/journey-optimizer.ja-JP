@@ -9,7 +9,7 @@ exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
 source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '2422'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -133,7 +133,7 @@ ht-degree: 98%
         <td><a href="dates.md#convert-zoned-date-time">ZonedDateTime を変換</a></td><td>この関数は、日時を指定されたタイムゾーンに変換します。</td>
     </tr>
     <tr>
-        <td><a href="dates.md#current">現在の時刻（ミリ秒）</a></td><td>この関数は、現在の時刻をエポックミリ秒単位で取得します。</td>
+        <td><a href="dates.md#current">現在の時刻（ミリ秒）</a></td><td>この関数は、現在の時刻をエポックミリ秒で取得します。</td>
     </tr>
     <tr>
         <td><a href="dates.md#date-diff">日数の差異</a></td><td>この関数は、日数で 2 つの日付間の差異を取得します。</td>
@@ -231,7 +231,7 @@ ht-degree: 98%
 
 <table>
     <tr>
-        <td><a href="math.md#absolute">絶対パス</a></td><td>この関数は、任意の数値を言語依存の表現に書式設定します。</td>
+        <td><a href="math.md#absolute">絶対</a></td><td>この関数は、任意の数値を言語依存の表現に書式設定します。</td>
     </tr>
     <tr>
         <td><a href="math.md#format-number">数値を書式設定する</a></td><td>この関数は、任意の数値を言語依存の表現に書式設定します。</td>
@@ -246,7 +246,7 @@ ht-degree: 98%
         <td><a href="math.md#round-up">切り上げ</a></td><td>この関数は、数値を切り上げます。</td>
     </tr>
     <tr>
-    <td><a href="math.md#to-hex-string">16 進文字列に</a></td><td>任意の数を 16 進文字列に変換します。</td>
+    <td><a href="math.md#to-hex-string">16 進文字列に</a></td><td>任意の数を 16 進数文字列に変換します。</td>
     </tr>
     <tr>
     <td><a href="math.md#to-int">ToInt</a></td><td>これらの型（number、double、int、long、float、short、byte、boolean、string）のいずれかを整数に変換します。</td>
@@ -437,7 +437,7 @@ ht-degree: 98%
         <td><a href="helpers.md#each">Each</a></td><td>配列を繰り返すために使用します。</td>
     </tr>
     <tr>
-        <td><a href="helpers.md#execution-metadata">実行メタデータ</a></td><td>このヘルパーは、メッセージのレンダリング中にカスタムのキー値メタデータをキャプチャし、ランタイム実行メタデータオブジェクトに保存できるようにします</td>
+        <td><a href="helpers.md#execution-metadata">実行メタデータ</a></td><td>このヘルパーは、メッセージのレンダリング中にカスタムキーと値のメタデータをキャプチャし、ランタイム実行メタデータオブジェクトに保存できるようにします</td>
     </tr>
     <tr>
         <td><a href="helpers.md#if-function">If</a></td><td>条件付きブロックの定義に使用します。式の評価が true を返した場合、ブロックがレンダリングされます。</td>
@@ -518,4 +518,4 @@ ht-degree: 98%
 
 パーソナライズ機能のヘルパー関数を使用してパーソナライゼーション値を変換する方法と、ヘルパー関数の様々なユースケースを説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416781?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

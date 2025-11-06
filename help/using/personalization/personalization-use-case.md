@@ -12,7 +12,7 @@ exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
 source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
 workflow-type: tm+mt
 source-wordcount: '531'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 98%
 * 注文番号、ステータス、品目名を含む注文イベントを設定します。この[節](../event/about-events.md)を参照してください。
 * 決定を作成するには、この[節](../offers/offer-activities/create-offer-activities.md)を参照してください。
 
-➡️ [&#x200B; ビデオで類似のユースケースを確認する &#x200B;](#video)
+➡️ [類似したユースケースについて詳しくは、ビデオを参照してください](#video)。
 
 ## 手順 1 - ジャーニーの作成 {#create-journey}
 
@@ -110,4 +110,4 @@ ht-degree: 98%
 
 次のビデオでは、ジャーニーのコンテキストデータを活用してメールをパーソナライズする、類似したユースケースを示します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3428530?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425027?quality=12)

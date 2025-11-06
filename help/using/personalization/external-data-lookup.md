@@ -12,7 +12,7 @@ exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
 source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
 workflow-type: tm+mt
 source-wordcount: '1241'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -214,7 +214,7 @@ First video description: {%=result.videos[0].description ?: "none found" %}
 
 +++ リクエストからのコンテキスト属性をパラメーターとして外部データ参照に渡すにはどうすればよいですか？
 
-コンテキスト属性/ データストリーム / イベント メニューを使用して、使用しているエクスペリエンスイベントスキーマを参照し、関連する属性をパラメーター値として次のように挿入します。
+コンテキスト属性／データストリーム／イベントメニューを使用して、使用しているエクスペリエンスイベントスキーマを参照し、関連する属性を次のようにパラメーター値として挿入します。
 
 ```
 {{externalDataLookup actionId="..." result="result" query.myQueryParameter=context.datastream.event.<schemaId>.my.xdm.attribute}}

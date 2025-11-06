@@ -20,7 +20,7 @@ Adobe Journey Optimizer の意思決定管理により、マーケターは複�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 意思決定管理の概要
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer の意思決定管理により、マーケターは複�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 意思決定管理ガードレールと制限
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer の意思決定管理により、マーケターは複�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 オファーライブラリのユーザーインターフェイスガイド
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer の意思決定管理により、マーケターは複�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 オファーを作成および管理する主要ステップ
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer でオファーと決定を作成、管理、設定す�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 決定にカスタムアップロードオーディエンスを使用
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer でオファーと決定を作成、管理、設定す�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 メールでのパーソナライズされたオファーの使用
 

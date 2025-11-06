@@ -12,7 +12,7 @@ exl-id: 322e035c-7370-40c9-b1cb-3428bc26e874
 source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
 workflow-type: tm+mt
 source-wordcount: '449'
-ht-degree: 90%
+ht-degree: 95%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 90%
 
    >[!NOTE]
    >
-   >サポートされるチャネルの詳細については、この節の表 [&#x200B; ジャーニーとキャンペーンのチャネル &#x200B;](../channels/gs-channels.md#channels) を参照してください。 使用できるチャネルは、ライセンスモデルとアドオンによって異なります。
+   >サポートされるチャネルの詳細については、この節の表 [ ジャーニーとキャンペーンのチャネル ](../channels/gs-channels.md#channels) を参照してください。 使用できるチャネルは、ライセンスモデルとアドオンによって異なります。
    >
-   >高スループット API トリガーキャンペーンは、現在、メールチャネルのみをサポートしています。
+   >High Throughput API トリガーキャンペーンは現在、メールチャネルのみをサポートしています。
 
 1. **チャネル設定を選択**
 
@@ -66,9 +66,9 @@ ht-degree: 90%
 
 +++**迅速配信モードを有効にする**（プッシュ）。
 
-迅速配信モードは、キャンペーンを通じて大量のプッシュメッセージを非常に高速に送信できるようにする [!DNL Journey Optimizer] アドオンです。迅速配信は、メッセージ配信の遅延がビジネス上の重要な問題になる状況で、携帯電話に緊急のプッシュアラートを送信するときに使用します（ニュースチャネルアプリをインストールしたユーザーにニュース速報を流すなど）。プッシュ通知の迅速配信モードを有効にする方法については [&#x200B; このページ &#x200B;](../push/create-push.md#rapid-delivery) を参照してください。
+迅速配信モードは、キャンペーンを通じて大量のプッシュメッセージを非常に高速に送信できるようにする [!DNL Journey Optimizer] アドオンです。迅速配信は、メッセージ配信の遅延がビジネス上の重要な問題になる状況で、携帯電話に緊急のプッシュアラートを送信するときに使用します（ニュースチャネルアプリをインストールしたユーザーにニュース速報を配信するなど）。プッシュ通知の迅速配信モードを有効にする方法について詳しくは、[このページ](../push/create-push.md#rapid-delivery)を参照してください。
 
-迅速配信モードを使用する際のパフォーマンスについて詳しくは、[Adobe Journey Optimizer 製品の説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}を参照してください。
+迅速配信モードを使用する際のパフォーマンスについて詳しくは、[Adobe Journey Optimizer 製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}を参照してください。
 
 +++
 

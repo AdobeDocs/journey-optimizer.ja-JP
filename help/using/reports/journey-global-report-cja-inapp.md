@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: f10b3ab9-db0a-4759-98e4-2ac1988eb8c4
 source-git-commit: 3d14a6ea3bd6756304db3fdf80b2a2786d5d2a1c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 100%
 
@@ -85,7 +85,7 @@ ht-degree: 100%
 
 * **[!UICONTROL 表示数]**：ユーザーにアプリ内メッセージが表示された回数。
 
-* **[!UICONTROL ユニーク表示数]**：メッセージが開封された回数。1 つのプロファイルによる複数回のインタラクションは考慮されません。。
+* **[!UICONTROL ユニーク表示数]**：メッセージが開封された回数。1 つのプロファイルによる複数回のインタラクションは考慮されません。
 
 * **[!UICONTROL 送信数]**：アプリ内メッセージ用の送信の合計数。
 

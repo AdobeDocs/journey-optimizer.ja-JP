@@ -12,7 +12,7 @@ exl-id: 2f0218c9-e1b1-44ba-be51-15824b9fc6d2
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Campaign Standard アクションを設定するには、次の手順に従い�
    >
    >* https で始まる URL
    >
-   >* このAdobe Campaign Standard インスタンスに関連付けられている組織は、Journey Optimizer組織と同じです
+   >* この Adobe Campaign Standard インスタンスに関連付けられている組織は、Journey Optimizer 組織と同じです。
 
 この設定が完了すると、ジャーニーを設計する際に、**[!UICONTROL アクション]**&#x200B;カテゴリで&#x200B;**[!UICONTROL メール]**、**[!UICONTROL プッシュ]**、**[!UICONTROL SMS]** の 3 つのアクションが使用できます。[使用方法の詳細情報](../building-journeys/using-adobe-campaign-standard.md)
 

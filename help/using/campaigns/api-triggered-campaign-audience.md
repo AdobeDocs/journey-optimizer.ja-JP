@@ -8,9 +8,9 @@ role: Developer
 level: Experienced
 keywords: キャンペーン, API トリガー, REST, Optimizer, メッセージ
 exl-id: 6dda5687-3742-4e88-be7c-c4969b183161
-source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
+source-git-commit: 31fcdf7e0cb63df24b01be13b2a4a8822768e1b7
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '518'
 ht-degree: 94%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 94%
 
 ## オーディエンスの選択
 
-**Marketing API トリガーキャンペーンの場合は**、「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックして、使用できる Adobe Experience Platform オーディエンスのリストを表示します。[オーディエンスの詳細情報を参照してください](../audience/about-audiences.md)。
+**Marketing API トリガーキャンペーンの場合は**、「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックして、使用できる Adobe Experience Platform オーディエンスのリストを表示します。[詳しくは、オーディエンスを参照してください](../audience/about-audiences.md)。
 
 >[!IMPORTANT]
 >
@@ -51,7 +51,7 @@ ht-degree: 94%
 >
 >**AJO インタラクティブメッセージングプロファイルデータセット**&#x200B;の、3 つのアウトバウンドチャネル（メール、SMS、プッシュ）に対応するそれぞれのデフォルト名前空間（メール、電話、ECID）で、不明なプロファイルが作成されます。ただし、カスタム名前空間を使用している場合、ID は同じカスタム名前空間で作成されます。
 >
->[&#x200B; ハイスループットキャンペーン &#x200B;](../campaigns/api-triggered-high-throughput.md) の場合は、このモードはAdobe プロファイルに依存しないので、実行時にプロファイルを作成することはできません。プロファイルが存在するかどうかをシステムが確認しません。
+>[ ハイスループットキャンペーン ](../campaigns/api-triggered-high-throughput.md) では、Adobe プロファイルに依存しないので、実行時にプロファイルを作成することはできません。 プロファイルが存在するかどうかは確認されません。
 
 ## Webhook を有効にする {#webhook}
 

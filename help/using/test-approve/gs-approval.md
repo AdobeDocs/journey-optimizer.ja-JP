@@ -5,10 +5,10 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: 92d1439e-5cac-4e7d-85f8-ebf432e9ef7c
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
-workflow-type: ht
-source-wordcount: '561'
-ht-degree: 100%
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+workflow-type: tm+mt
+source-wordcount: '625'
+ht-degree: 90%
 
 ---
 
@@ -83,3 +83,10 @@ Journey Optimizer では、マーケティングチームはキャンペーン�
 特定のジャーニーまたはキャンペーンに対して送信されたすべての承認および変更リクエストを監視できます。これを行うには、ジャーニーキャンバスまたはキャンペーンレビュー画面の右上のセクションにある「**[!UICONTROL 監査記録を表示]**」アイコンをクリックします。
 
 ![](assets/monitor-requests.png)
+
+## その他のリソース
+
+* **[承認ポリシーの作成](approval-policies.md)** - キャンペーンとジャーニーのレビューワークフローを適用する承認ポリシーの設定方法について説明します。
+* **[承認をリクエスト](request-approval.md)** – 承認用にコンテンツを送信する方法と、承認ステータスをトラッキングする方法について説明します。
+* **[リクエストのレビューおよび承認](review-approve-request.md)** – 承認者として承認リクエストをレビュー、承認または却下する方法を説明します。
+* **[サンプル入力でシミュレート](simulate-sample-input.md)** - サンプルプロファイルデータを使用してコンテンツをテストおよび検証する方法について説明します。

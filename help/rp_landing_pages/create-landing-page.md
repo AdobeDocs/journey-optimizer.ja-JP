@@ -20,7 +20,7 @@ Adobe Journey Optimizer でオーディエンスを作成すると、パーソ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Adobe Journey Optimizer でのセグメント定義の作成
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer でのセグメント定義の作成
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 オーディエンス構成の基本を学ぶ
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer でのセグメント定義の作成
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/file-upload.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/file-upload.svg)
 
 カスタム CSV アップロードを使用してオーディエンスを読み込む方法
 
@@ -50,7 +50,7 @@ CSV ファイルを通じてオーディエンスを読み込み、属性をプ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 連合オーディエンス構成
 

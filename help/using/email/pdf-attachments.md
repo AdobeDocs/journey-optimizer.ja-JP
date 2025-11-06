@@ -10,7 +10,7 @@ level: Beginner
 keywords: メール, メッセージ, 添付ファイル, PDF, エディター
 exl-id: 71e218d0-5b3b-4db5-8b7b-d08df8f088c4
 source-git-commit: 8be7a537781331fdc8cf198c366868ab1c886b38
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '339'
 ht-degree: 100%
 

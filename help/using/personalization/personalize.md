@@ -9,10 +9,10 @@ role: Developer
 level: Beginner
 keywords: 式, エディター, 開始, パーソナライゼーション
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 95%
+source-wordcount: '519'
+ht-degree: 97%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 95%
 
 **パーソナライゼーションエディター**&#x200B;を使用すると、すべてのデータを選択、整理、カスタマイズ、検証して、コンテンツ用にカスタマイズされたパーソナライゼーションを作成したり、ヘルパー関数や事前定義済みの式などの様々なツールを活用してメッセージを効果的に調整したりできます。
 
-Journey Optimizerでは、ハンドルバーに基づいたインラインパーソナライゼーション構文を使用します。この構文を使用すると、コンテンツを二重の中括弧 **`{{}}`** で囲んだ式を作成することができます。
+Journey Optimizer では、ハンドルバーに基づいたインラインのパーソナライゼーション構文を使用します。この構文を使用すると、コンテンツを二重の中括弧 **`{{}}`** で囲んだ式を作成できます。
 
 Journey Optimizer は、メッセージを処理する際に、式を Experience Platform データセットに含まれるデータで置き換えます。例えば、`Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}` は動的に `Hello John Doe` になります。
 
@@ -97,12 +97,14 @@ Journey Optimizer は、メッセージを処理する際に、式を Experience
 
 ジャーニーのコンテキストイベント情報を使用してメッセージをパーソナライズする方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3448127?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
 プロファイルベースのパーソナライゼーションをメッセージに追加する方法と、オーディエンスメンバーシップをパーソナライゼーションブロックの前提条件として使用する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416419?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)
 
 パーソナライゼーションエディタープレイグラウンドを活用し、サンプルデータを使用してパーソナライゼーションコードを記述およびテストする方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3475953?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3457868?quality=12)
+
+パーソナライゼーションの機能とベストプラクティスに関する詳細なビデオチュートリアルについては、[Personalization チュートリアルを参照してください ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/personalize-content/personalization-editor-overview){target="_blank"}

@@ -94,4 +94,4 @@ ht-degree: 85%
 
 意思決定管理がサポートする設定の総数は、20,000 件を超えることはできません。
 
-合計数は、サンドボックスに存在する [&#x200B; キャッピングルール &#x200B;](offer-library/add-constraints.md#capping) の合計数です。 すべての [&#x200B; プレースメント &#x200B;](offer-library/creating-placements.md) に適用されるキャッピングルールごとに、指定したオファーに関連付けられたすべてのプレースメントにルールを乗算する必要があります。
+合計数は、サンドボックスに存在する [ キャッピングルール ](offer-library/add-constraints.md#capping) の合計数です。 すべての [ プレースメント ](offer-library/creating-placements.md) に適用されるキャッピングルールごとに、指定したオファーに関連付けられたすべてのプレースメントにルールを乗算する必要があります。

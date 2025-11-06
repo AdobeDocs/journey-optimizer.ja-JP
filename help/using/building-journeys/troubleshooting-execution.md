@@ -31,7 +31,7 @@ ht-degree: 100%
 
 これらのツールを介して送信する API 呼び出しが正しく送信されているかどうかを確認できます。エラーが返された場合は、呼び出しに問題があるということです。ペイロード、ヘッダー（特に組織 ID）、宛先の URL を再度確認します。ヒットするのに適した URL を管理者に問い合わせることができます。
 
-イベントは、ソースからジャーニーに直接プッシュされるわけではありません。ジャーニーは、Adobe Experience Platform のストリーミング取得 API に依存しています。結果として、イベントに関する問題が発生した場合は、[Adobe Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=ja){target="_blank"}で Streaming ingestion API のトラブルシューティングを参照してください。
+イベントは、ソースからジャーニーに直接プッシュされるわけではありません。ジャーニーは、Adobe Experience Platform のストリーミング取得 API に依存しています。結果として、イベントに関する問題が発生した場合は、[Adobe Experience Platform のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=ja){target="_blank"}でストリーミング取得 API のトラブルシューティングを参照してください。
 
 ジャーニーでエラー `ERR_MODEL_RULES_16` が発生してテストモードを有効にできない場合は、チャネルアクションを使用する際に、使用するイベントに [ID 名前空間](../audience/get-started-identity.md)が含まれていることを確認してください。
 
@@ -49,7 +49,7 @@ ID 名前空間は、テストプロファイルを一意に識別するため�
 * ペイロードプレビューからペイロードをコピーする前にイベントを保存したか。
 * イベントペイロードにイベント ID が含まれているか。
 * 正しい URL をヒットしたか。
-* イベント設定ペインのペイロード構造プレビューを使用して、ストリーミング取り込み API のペイロード構造に従ったか。[このページ](../event/about-creating.md#preview-the-payload)を参照してください。
+* イベント設定ペインのペイロード構造プレビューを使用して、ストリーミング取得 API のペイロード構造に従ったか。[このページ](../event/about-creating.md#preview-the-payload)を参照してください。
 * イベントのヘッダーで正しいキーと値のペアを使用しましたか？
 
   ```

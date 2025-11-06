@@ -44,7 +44,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->[&#x200B; 欧州アクセシビリティ法 &#x200B;](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} は、すべてのデジタル通信がアクセス可能であるべきであると規定しています。 コンテンツコンポーネントを活用して [&#x200B; でメールをデザインする場合、アクセシブルなフォントや読みやすい形式の使用、画像用の代替テキストの提供など、](accessible-content.md) このページ [!DNL Journey Optimizer] に記載されている特定のガイドラインに従っていることを確認してください。
+>[ 欧州アクセシビリティ法 ](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} は、すべてのデジタル通信がアクセス可能であるべきであると規定しています。 コンテンツコンポーネントを活用して [ でメールをデザインする場合、アクセシブルなフォントや読みやすい形式の使用、画像用の代替テキストの提供など、](accessible-content.md) このページ [!DNL Journey Optimizer] に記載されている特定のガイドラインに従っていることを確認してください。
 
 ## コンテンツコンポーネントの追加 {#add-content-components}
 

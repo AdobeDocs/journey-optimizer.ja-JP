@@ -20,7 +20,7 @@ Adobe Journey Optimizer のランキングを使用すると、オーディエ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 ランキングの基本を学ぶ
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer のランキングを使用すると、オーディエ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 ランキング式の作成と使用
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer のランキングを使用すると、オーディエ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 オファーランキングの AI モデル
 

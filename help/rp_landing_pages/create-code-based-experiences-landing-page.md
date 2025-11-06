@@ -20,7 +20,7 @@ Adobe Journey Optimizer のコードベースのエクスペリエンスによ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 コードベースのエクスペリエンスの作成と構成
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer のコードベースのエクスペリエンスによ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 コードベースのエクスペリエンスでの編集可能なフィールドの使用
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer のコードベースのエクスペリエンスによ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 コードベースのエクスペリエンスのテスト
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer のコードベースのエクスペリエンスによ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 コードベースのエクスペリエンスの公開と管理
 

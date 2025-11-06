@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: アプリ内, メッセージ, 作成, 開始
 exl-id: 51562843-7b50-4eb5-bf79-5ce03f7549cb
-source-git-commit: 47482adb84e05fe41eb1c50479a8b50e00469ec4
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 100%
+source-wordcount: '196'
+ht-degree: 65%
 
 ---
 
@@ -56,3 +56,11 @@ Journey Optimizer を使用すると、アプリ内通知を作成し、メッ�
 <p>
 </td>
 </tr></table>
+
+## その他のリソース
+
+* **[アプリ内メッセージの作成](create-in-app.md)** - モバイルアプリケーションのアプリ内メッセージを作成および設定する方法について説明します。
+* **[アプリ内チャネルの設定](inapp-configuration.md)** - モバイルアプリの適切な設定を使用して、アプリ内メッセージチャネルを設定します。
+* **[アプリ内コンテンツのデザイン](design-in-app.md)** - アプリ内メッセージのレイアウト、スタイル、ボタン、インタラクティブ要素をカスタマイズします。
+* **[Web のアプリ内](create-in-app-web.md)** - Web アプリケーションのアプリ内メッセージを作成および配信する方法を説明します。
+* **[アプリ内チャネルチュートリアル ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/channels/in-app-channel/in-app-messages-overview){target="_blank"}** - アプリ内メッセージの機能とベストプラクティスに関するステップバイステップのビデオチュートリアルをご覧ください。

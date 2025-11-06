@@ -22,7 +22,7 @@ Adobe Journey Optimizer の「数値計算」の節を使用すると、ジャ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 random 関数
 
@@ -32,7 +32,7 @@ Adobe Journey Optimizer で「random」関数を使用して 0～1 の間の乱�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 round 関数
 

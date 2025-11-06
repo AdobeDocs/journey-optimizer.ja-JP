@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
 source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 100%
 
@@ -71,6 +71,6 @@ Adobe Journey Optimizer 側でオプトアウトステータスに基づいて�
 
   +++ こちらのビデオをご覧ください
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3440273/?captions=jpn&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3427129/?learn=on)
 
   +++

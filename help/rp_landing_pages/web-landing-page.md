@@ -20,7 +20,7 @@ Adobe Journey Optimizer の web チャネルを使用すると、web サイト�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Web チャネルの基本を学ぶ
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer でパーソナライズされた web エクスペリエ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Web チャネルの設定
 
@@ -40,7 +40,7 @@ Web チャネルの設定
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Web エクスペリエンスの作成と管理
 
@@ -50,7 +50,7 @@ Web エクスペリエンスの作成と管理
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Web ページの作成と管理
 

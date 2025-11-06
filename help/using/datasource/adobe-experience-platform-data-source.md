@@ -12,7 +12,7 @@ exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '398'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Adobe Experience Platform のデータソースは、Adobe リアルタイム顧
 
 ビルトインデータソースにフィールドグループを追加する主な手順は次のとおりです。
 
-1. データソースのリストから、組み込みの **Adobe Experience Platform** データソースを選択します。
+1. データソースのリストから、ビルトインの **Adobe Experience Platform** データソースを選択します。
 
    画面の右側にデータソース設定ペインが開きます。
 

@@ -20,7 +20,7 @@ Adobe Journey Optimizer で最初の調整されたキャンペーンを開始�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 調整されたキャンペーンを作成するためのステップバイステップガイド
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer で最初の調整されたキャンペーンを開始�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 調整されたキャンペーンの作成とスケジュール
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer で最初の調整されたキャンペーンを開始�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 キャンペーンアクティビティの調整
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer で最初の調整されたキャンペーンを開始�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 キャンペーンの開始と監視
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer で最初の調整されたキャンペーンを開始�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 調整されたキャンペーンのレポート
 

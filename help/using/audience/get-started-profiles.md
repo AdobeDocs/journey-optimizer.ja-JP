@@ -10,7 +10,7 @@ exl-id: be3936e4-8185-4031-9daf-95eea58077d0
 source-git-commit: 9ef761d216867c302a9c367dc509a52dc08fb06c
 workflow-type: tm+mt
 source-wordcount: '464'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 92%
 
 >[!NOTE]
 >
->データを取り込む場合、メールでは大文字と小文字が区別されます。 つまり、重複したプロファイル（John.Greene@luma.com用のプロファイルとjohn.greene@luma.com用のプロファイルなど）が作成され、カスタマイ [!DNL Journey Optimizer] されたジャーニーやキャンペーンで対応する受信者をターゲティングする際に使用される可能性があります。
+>データを取り込む際、メールでは大文字と小文字が区別されます。つまり、重複したプロファイル（例えば、John.Greene@luma.com のプロファイルと john.greene@luma.com の別のプロファイル）が作成され、[!DNL Journey Optimizer] ジャーニーとキャンペーンで対応する受信者をターゲティングする際に使用される場合があります。
 
 **ID グラフ** - ロイヤルティ ID や CRM システム ID などの顧客 ID を使用して、様々なソースからのデータを組み合わせます。ブランドのデータセット内の様々な ID 間の関係をマッピングして、顧客の包括的なビューを作成します。
 
@@ -58,4 +58,4 @@ ht-degree: 92%
 
 Adobe Experience Platform がリアルタイム顧客プロファイルをアセンブルおよび更新する方法、これらのプロファイルにアクセスして使用する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/31660?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27251?quality=12)

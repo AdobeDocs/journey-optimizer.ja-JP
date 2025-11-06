@@ -12,7 +12,7 @@ exl-id: b7f12c65-c1af-4c49-b126-c13a51940a43
 source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
 workflow-type: tm+mt
 source-wordcount: '424'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 80%
 
 >[!IMPORTANT]
 >
->[&#x200B; ハイスループットキャンペーン &#x200B;](../campaigns/api-triggered-high-throughput.md) は、Adobe プロファイルに依存しません。以下に説明するように、すべてのパーソナライゼーションをコンテキストデータとして API ペイロードに含める必要があります。 このモードは、メールチャネルと米国地域でのみ使用できます。
+>[高スループットキャンペーン](../campaigns/api-triggered-high-throughput.md)はアドビのプロファイルに依存しません。すべてのパーソナライゼーションは、以下に説明するように、コンテキストデータとして API ペイロードに含める必要があります。このモードは、メールチャネルと米国地域でのみ使用できます。
 
 ## コンテキストデータを使用したコンテンツのパーソナライズ {#contextual}
 

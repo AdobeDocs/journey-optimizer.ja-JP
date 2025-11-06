@@ -20,7 +20,7 @@ ht-degree: 100%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 メールの配信品質の概要
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer でメール配信品質を最適化する概念、ベ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 抑制リストについて
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer でメール配信品質を最適化する概念、ベ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 新しい DMARC 要件への準拠
 

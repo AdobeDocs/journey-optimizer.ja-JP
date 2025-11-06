@@ -14,7 +14,7 @@ badge: label="ベータ版" type="Informative"
 source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
 workflow-type: tm+mt
 source-wordcount: '477'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 92%
 
 キャンペーンの&#x200B;**[!UICONTROL グローバルレポート]**&#x200B;は、キャンペーンの成功とエラーの詳細を示す様々なウィジェットに分かれています。必要に応じて、各ウィジェットのサイズを変更したり削除したりできます。詳しくは、この <!--[section](../reports/global-report.md#modify-dashboard)--> を参照してください。
 
-Adobe Journey Optimizerで使用可能なすべての指標の詳細なリストについては、<!--[this page](global-report.md#list-of-components-global.md)--> を参照してください。
+Adobe Journey Optimizer で使用できるすべての指標のリストについて詳しくは、<!--[this page](global-report.md#list-of-components-global.md)--> を参照してください。
 
 ## 「キャンペーン」タブ {#campaign-global-objectives}
 
@@ -68,7 +68,7 @@ Adobe Journey Optimizerで使用可能なすべての指標の詳細なリスト
 
 最もパフォーマンスの高い処理の判定には時間がかかる場合があり、このアイコン ![](assets/experimentation_report_1.png) が表示されます。
 
-+++実験レポートで使用できる様々な指標およびウィジェットについて詳しくは、こちらを参照してください。
++++実験レポートで使用できる様々な指標およびウィジェットについて説明します。
 
 **[!UICONTROL 実験結果]**&#x200B;ウィジェットは、各バリアントのパフォーマンスの詳細を説明します。ベースラインを変更するには、**[!UICONTROL ベースライン]**&#x200B;ドロップダウンから処理の 1 つを選択します。最も優れた処理には、星のアイコンが表示されます。
 

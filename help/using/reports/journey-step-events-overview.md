@@ -2,95 +2,95 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: ジャーニーステップイベントの操作
-description: Adobe Journey Optimizerでのジャーニーステップイベントの操作方法 – 概要、重要性、分析と最適化での使用方法を説明します
+description: Adobe Journey Optimizer でのジャーニーステップイベントの操作方法と、概要、重要な理由、分析と最適化での使用方法について説明します。
 feature: Journeys, Reporting
 role: Developer, Admin, User
 level: Intermediate, Experienced
-keywords: ジャーニー，ステップイベント，分析，レポート，監視，XDM
+keywords: ジャーニー, ステップイベント, 分析, レポート, 監視, XDM
 source-git-commit: 17e0528849f2bd4d3cbf279c34c98a8359cad797
 workflow-type: tm+mt
 source-wordcount: '898'
-ht-degree: 2%
+ht-degree: 99%
 
 ---
 
 # ジャーニーステップイベントの操作 {#work-with-journey-step-events}
 
-ジャーニーステップイベントは、Adobe Journey Optimizerの [&#x200B; ジャーニー &#x200B;](../audience/get-started-profiles.md) を通じて進行する [&#x200B; プロファイル &#x200B;](../building-journeys/journey.md) の各ステップに関する詳細情報を取得する、自動生成されたイベントです。 これらのイベントは、[&#x200B; ジャーニーのパフォーマンス &#x200B;](../building-journeys/report-journey.md) を包括的に可視化し、強力な分析機能を有効にします。
+ジャーニーステップイベントは、Adobe Journey Optimizer での[ジャーニー](../building-journeys/journey.md)の進行状況に合わせて[プロファイル](../audience/get-started-profiles.md)が実行する各ステップに関する詳細情報をキャプチャする、自動的に生成されたイベントです。これらのイベントにより、[ジャーニーのパフォーマンス](../building-journeys/report-journey.md)を包括的に表示でき、強力な分析機能が有効になります。
 
 ## ジャーニーステップイベントとは {#what-are-step-events}
 
-ジャーニーステップイベントは、プロファイルがジャーニーのあるノードから別のノードに移動するたびに、Adobe Journey Optimizerが自動的に作成して [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target="_blank"} に送信する、システム生成の [XDM （エクスペリエンスデータモデル） &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ja){target="_blank"} イベントです。 各イベントは、顧客のジャーニーエクスペリエンスの特定の [&#x200B; ジャーニーアクティビティ &#x200B;](../building-journeys/about-journey-activities.md) トランジションに対応します。
+ジャーニーステップイベントは、システムにより生成される [XDM（エクスペリエンスデータモデル）](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target="_blank"}イベントです。ジャーニー内でプロファイルがノード間を移動するたびに、Adobe Journey Optimizer により自動的に作成され、[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ja){target="_blank"} に送信されます。各イベントは、顧客のジャーニーエクスペリエンスでの特定の[ジャーニーアクティビティ](../building-journeys/about-journey-activities.md)やトランジションに対応します。
 
 ジャーニーステップイベントには、主に次の 2 つのタイプがあります。
 
-- **journeyStepEvent**：ジャーニーステップを通じた個人プロファイルの進行に関連するイベント
+- **journeyStepEvent**：ジャーニーステップを通じた個人プロファイルの進行状況に関連するイベント
 - **journeyStepProfileEvent**：追加のプロファイルコンテキスト情報を含むイベント
 
-### ジャーニーステップイベントのトリガー {#event-triggers}
+### ジャーニーステップイベントをトリガーする内容 {#event-triggers}
 
-ジャーニーステップイベントは、様々なジャーニーアクティビティに対して自動的に生成されます。
+ジャーニーステップイベントは、次の様々なジャーニーアクティビティに対して自動的に生成されます。
 
-- **エントリイベント**：プロファイルがジャーニーにエントリ [&#x200B; したとき &#x200B;](../building-journeys/entry-management.md)
-- **アクションの実行**:[&#x200B; メッセージが送信された &#x200B;](../building-journeys/journeys-message.md) または [&#x200B; カスタムアクション &#x200B;](../building-journeys/using-custom-actions.md) が実行されたとき
-- **条件評価**：プロファイルが [&#x200B; 条件 &#x200B;](../building-journeys/condition-activity.md) および決定ポイントを通過した場合
-- **待機アクティビティ**：プロファイルがエントリおよび終了したとき [&#x200B; 待機ノード &#x200B;](../building-journeys/wait-activity.md)
-- **イベントを終了**：プロファイルがジャーニーを完了または [&#x200B; 終了 &#x200B;](../building-journeys/end-journey.md) したとき
-- **エラー処理**：ジャーニーの実行中にエラーが発生した場合
+- **エントリイベント**：プロファイルが[ジャーニーにエントリ](../building-journeys/entry-management.md)する場合
+- **アクション実行**：[メッセージが送信](../building-journeys/journeys-message.md)される場合や、[カスタムアクション](../building-journeys/using-custom-actions.md)が実行される場合
+- **条件評価**：プロファイルが[条件](../building-journeys/condition-activity.md)と決定ポイントを通過する場合
+- **待機アクティビティ**：プロファイルが[待機ノード](../building-journeys/wait-activity.md)にエントリおよび終了する場合
+- **終了イベント**：プロファイルが[ジャーニーを完了または終了](../building-journeys/end-journey.md)する場合
+- **エラー処理**：ジャーニー実行中にエラーが発生する場合
 
 >[!NOTE]
 >
->ジャーニーステップイベントは、すべてのインスタンスでデフォルトで有効になっています。 ステップイベントのプロビジョニング中に作成された [&#x200B; スキーマとデータセット &#x200B;](sharing-overview.md) を変更または更新することはできません。 これらのスキーマとデータセットは、読み取り専用モードです。
+>ジャーニーステップイベントは、すべてのインスタンスでデフォルトでアクティブ化されます。ステップイベントのプロビジョニング時に作成された[スキーマやデータセット](sharing-overview.md)は、変更も更新もできません。これらのスキーマとデータセットは読み取り専用モードです。
 
-詳しくは、[&#x200B; ジャーニーステップイベントスキーマ &#x200B;](sharing-field-list.md) を参照してください。
+詳しくは、[ジャーニーステップイベントスキーマ](sharing-field-list.md)を参照してください。
 
 ## ジャーニーステップイベントが重要な理由 {#why-step-events-matter}
 
-ジャーニーステップイベントは、Adobe Journey Optimizerを使用する組織にとって重要な価値を提供します。
+ジャーニーステップイベントは、Adobe Journey Optimizer を使用する組織に対して次の重要な価値を提供します。
 
 ### リアルタイムの分析と監視 {#real-time-analytics}
 
-- **ジャーニーパフォーマンストラッキング**: [&#x200B; ライブレポート &#x200B;](live-report.md) を使用して、ジャーニー内でのプロファイルのフローをリアルタイムで監視します
-- **コンバージョン分析**:[journey analytics を使用したドロップオフポイントと成功したコンバージョンパスについて &#x200B;](journey-global-report-cja.md)
-- **エラー検出**：発生した問題を特定してトラブルシューティングする [&#x200B; 監視とアラート &#x200B;](alerts.md)
+- **ジャーニーのパフォーマンストラッキング**：[ライブレポート](live-report.md)を使用して、プロファイルがジャーニーを通じてフローする仕組みをリアルタイムで監視します。
+- **コンバージョン分析**：[ジャーニー分析](journey-global-report-cja.md)を使用して、離脱ポイントと成功したコンバージョンパスを理解します
+- **エラー検出**：[監視とアラート](alerts.md)を通じて発生した問題を特定し、トラブルシューティングします
 
 ### データ統合とインサイト {#data-integration}
 
-- **クロスプラットフォーム分析**：ジャーニーデータを他の [Adobe Experience Platform データソースと組み合わせます &#x200B;](../datasource/adobe-experience-platform-data-source.md)
-- **Customer 360 表示**：ジャーニーのインタラクションを含む包括的な [&#x200B; 顧客プロファイル &#x200B;](../audience/get-started-profiles.md) を作成します
-- **アトリビューションモデリング**:[Customer Journey Analyticsを使用して、ジャーニータッチポイントをダウンストリームのビジネスアウトカムに結び付ける &#x200B;](cja-ajo.md)
+- **クロスプラットフォーム分析**：ジャーニーデータを他の [Adobe Experience Platform データソース](../datasource/adobe-experience-platform-data-source.md)と組み合わせます
+- **360 度の顧客表示**：ジャーニーのインタラクションを含む包括的な[顧客プロファイル](../audience/get-started-profiles.md)を作成します。
+- **アトリビューションモデリング**：[Customer Journey Analytics](cja-ajo.md) を使用して、ジャーニーのタッチポイントをダウンストリームのビジネス成果に結び付けます
 
 ### 最適化の機会 {#optimization}
 
-- **A/B テストインサイト**:[&#x200B; 実験 &#x200B;](campaign-global-report-cja-experimentation.md) を使用して、様々なジャーニーパスのパフォーマンスを分析します
-- **Personalizationの機能強化**: ジャーニー行動データを使用して、[&#x200B; 動的コンテンツ &#x200B;](../personalization/dynamic-content.md) での今後のエクスペリエンスを向上させます
-- **運用効率**：ボトルネックを特定し、最適化 [&#x200B; ジャーニー設計 &#x200B;](../building-journeys/using-the-journey-designer.md)
+- **A/B テストのインサイト**：[実験](campaign-global-report-cja-experimentation.md)を使用して、様々なジャーニーパスのパフォーマンスを分析します
+- **パーソナライゼーションの機能強化**：ジャーニー行動データを使用して、[動的コンテンツ](../personalization/dynamic-content.md)による今後のエクスペリエンスを向上させます。
+- **運用効率**：ボトルネックを特定し、[ジャーニーのデザイン](../building-journeys/using-the-journey-designer.md)を最適化します
 
 ## ジャーニーステップイベントの使用方法 {#how-to-use-step-events}
 
 ### ジャーニーステップイベントデータへのアクセス {#accessing-data}
 
-ジャーニーステップイベントデータはAdobe Experience Platformに自動的に保存され、以下の方法でアクセスできます。
+ジャーニーステップイベントデータは Adobe Experience Platform に自動的に保存され、次を通じてアクセスできます。
 
-1. **データレイクのクエリ**:SQL を使用して、`journey_step_events` クエリサービス [&#x200B; で &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ja){target="_blank"} データセットをクエリします
-2. **Customer Journey Analytics**: [&#x200B; 高度な分析ツール &#x200B;](cja-ajo.md) を使用してジャーニーデータを分析します
-3. **リアルタイムレポート**:Journey Optimizerのビルトインレポート機能 [&#x200B; を使用してデータにアクセスします &#x200B;](gs-reports.md)
-4. **API**：カスタムアプリケーションのイベントデータへのプログラムによるアクセス
+1. **データレイククエリ**：SQL を使用して、[クエリサービス](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ja){target="_blank"}で `journey_step_events` データセットのクエリを実行します
+2. **Customer Journey Analytics**：[高度な分析ツール](cja-ajo.md)を通じてジャーニーデータを分析します。
+3. **リアルタイムのレポート**：Journey Optimizer の[ビルトインレポート機能](gs-reports.md)を通じてデータにアクセスします
+4. **API**：カスタムアプリケーションのイベントデータにプログラムでアクセスします
 
-詳細情報 [&#x200B; データセットへのアクセス &#x200B;](../data/datasets-query-examples.md)。
+詳しくは、[データセットへのアクセス](../data/datasets-query-examples.md)を参照してください。
 
-### 使用可能な主要なデータポイント {#key-data-points}
+### 使用可能な主なデータポイント {#key-data-points}
 
-ジャーニーステップイベントでは、次のような包括的な情報を取り込むことができます。
+ジャーニーステップイベントでは、次のような包括的な情報がキャプチャされます。
 
-- **ジャーニー ID**: [ジャーニー ID、バージョン、および名前 &#x200B;](sharing-journey-fields.md)
-- **プロファイル情報**:[&#x200B; プロファイル ID および関連する ID](sharing-identity-fields.md)
-- **ステップの詳細**:[&#x200B; ノード名、ステップタイプおよび実行ステータス &#x200B;](sharing-common-fields.md)
+- **ジャーニー ID**：[ジャーニー ID、バージョン、名前](sharing-journey-fields.md)
+- **プロファイル情報**：[プロファイル ID と関連 ID](sharing-identity-fields.md)
+- **ステップ詳細**：[ノード名、ステップタイプ、実行ステータス](sharing-common-fields.md)
 - **タイムスタンプ**：各ジャーニーステップの正確なタイミング
-- **アクション結果**:[&#x200B; 成功/失敗のステータスと実行の詳細 &#x200B;](sharing-execution-fields.md)
-- **エラー情報**：問題が発生した場合の詳細 [&#x200B; エラーコードと説明 &#x200B;](sharing-field-list.md#discarded-events)
+- **アクション結果**：[成功／失敗のステータスと実行の詳細](sharing-execution-fields.md)
+- **エラー情報**：問題発生時の詳細な[エラーコードと説明](sharing-field-list.md#discarded-events)
 
-すべての [&#x200B; 使用可能なフィールド定義 &#x200B;](sharing-field-list.md) を参照します。
+すべての[使用可能なフィールド定義](sharing-field-list.md)を探索します。
 
 ### よくあるユースケース {#common-use-cases}
 
@@ -116,80 +116,80 @@ WHERE _experience.journeyOrchestration.stepEvents.actionExecutionError IS NOT NU
 GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
 ```
 
-**ジャーニーfunnel分析**
+**ジャーニーファネル分析**
 
-- ジャーニーステップごとのコンバージョン率の追跡
-- プロファイルが最も頻繁にジャーニーから離脱する場所を特定します
-- 様々なジャーニーフェーズでの滞在時間の測定
+- 各ジャーニーステップでコンバージョン率を追跡します
+- プロファイルが最も頻繁にジャーニーを終了する場所を特定します
+- 様々なジャーニーフェーズに費やす時間を測定します
 
-詳しくは、[funnel分析のクエリ手法 &#x200B;](query-examples.md#common-queries) を参照してください。
+詳しくは、[ファネル分析のクエリ手法](query-examples.md#common-queries)を参照してください。
 
 ## サンプルとリソース {#samples-resources}
 
 ### クエリの例とテンプレート {#query-examples}
 
-一般的なジャーニーステップイベント分析の包括的なクエリ例を確認します。
+一般的なジャーニーステップイベント分析の包括的なクエリの例を探索します。
 
 - **[ジャーニーステップイベントクエリの例](query-examples.md)**：一般的な分析シナリオですぐに使用できる SQL クエリ
-- **[データセットクエリサンプル](../data/datasets-query-examples.md#journey-step-event)**：ジャーニーステップイベントデータセットのクエリ例
-- **[プロファイルベースのクエリ](query-examples.md#profile-based-queries)**：個々のプロファイルジャーニーとインタラクションを追跡します
+- **[データセットクエリのサンプル](../data/datasets-query-examples.md#journey-step-event)**：ジャーニーステップイベントデータセットのクエリの例
+- **[プロファイルベースのクエリ](query-examples.md#profile-based-queries)**：個々のプロファイルのジャーニーとインタラクションを追跡します
 
-### フィールド文書 {#field-documentation}
+### フィールドドキュメント {#field-documentation}
 
 ジャーニーステップイベントの完全なデータ構造を理解します。
 
-- **[ジャーニーステップイベントフィールドのリスト](sharing-field-list.md)**：使用可能なすべてのフィールドの包括的なリファレンス
-- **[共通フィールド](sharing-common-fields.md)**:journeyStepEvent と journeyStepProfileEvent 全体で共有されたフィールド
+- **[ジャーニーステップイベントフィールドリスト](sharing-field-list.md)**：すべての使用可能なフィールドの包括的なリファレンス
+- **[共通フィールド](sharing-common-fields.md)**：journeyStepEvent と journeyStepProfileEvent 間で共有されるフィールド
 - **[アクション実行フィールド](sharing-execution-fields.md)**：アクション実行トラッキングに固有のフィールド
-- **[ジャーニーフィールド](sharing-journey-fields.md)**:ジャーニー固有のメタデータと識別子
+- **[ジャーニーフィールド](sharing-journey-fields.md)**：ジャーニー固有のメタデータと識別子
 
 ### ベストプラクティスとトラブルシューティング {#best-practices}
 
 **パフォーマンスの最適化**
 
-- `journeyVersionID` の代わりに `journeyVersionName` を使用して、クエリのパフォーマンスを向上させます（[&#x200B; ジャーニープロパティの詳細 &#x200B;](../building-journeys/expression/journey-properties.md)）。
-- 日付範囲でフィルタリングすると、大きなデータセットに対するクエリの速度が向上します
-- [&#x200B; ジャーニー名前空間設定 &#x200B;](../building-journeys/entry-management.md) に一致するプロファイル ID の活用
+- クエリパフォーマンスを向上させるには、`journeyVersionName` の代わりに `journeyVersionID` を使用します（[ジャーニープロパティの詳細情報](../building-journeys/expression/journey-properties.md)）
+- 日付範囲でフィルタリングすると、大規模なデータセットでのクエリ速度が向上します
+- [ジャーニー名前空間の設定](../building-journeys/entry-management.md)に一致するプロファイル ID を活用します
 
 **データ品質**
 
-- データの問題を特定するために [&#x200B; 破棄されたイベント &#x200B;](sharing-field-list.md#discarded-events) を定期的に監視する
-- イベントスキーマが分析要件に一致することの検証
-- カスタムクエリに適切なエラー処理を実装
+- データの問題を特定するために、[破棄されたイベント](sharing-field-list.md#discarded-events)を定期的に監視します
+- イベントスキーマが分析要件と一致しているかどうかを検証します
+- カスタムクエリに適切なエラー処理を実装します
 
-**Analytics 戦略**
+**分析戦略**
 
-- ジャーニーステップイベントと [&#x200B; メッセージフィードバックデータ &#x200B;](../data/datasets-query-examples.md#message-feedback-event-dataset) を組み合わせて、完全なアトリビューションを実現します
-- 時間ベースの分析を使用したジャーニーの速度とボトルネックの把握
+- ジャーニーステップイベントと[メッセージフィードバックデータ](../data/datasets-query-examples.md#message-feedback-event-dataset)を組み合わせて、完全なアトリビューションを実現します
+- 時間ベースの分析を使用して、ジャーニーの速度とボトルネックを理解します
 
 ### 高度な分析機能 {#advanced-analytics}
 
-**Customer Journey Analyticsの統合**
-ジャーニーステップイベントは、[Customer Journey Analytics](cja-ajo.md) を使用して、次の目的で分析できます。
+**Customer Journey Analytics の統合**
+[Customer Journey Analytics](cja-ajo.md) を使用して、ジャーニーステップイベントを分析することで、次の目的に対応できます。
 
 - 高度なアトリビューションモデリング
-- クロスチャネルジャーニービジュアライゼーション
-- ジャーニー結果に関する予測分析
+- クロスチャネルジャーニーのビジュアライゼーション
+- ジャーニーの成果に関する予測分析
 
-Journey Optimizer データ用に [Customer Journey Analyticsを設定 &#x200B;](report-gs-cja.md) する方法を説明します。
+Journey Optimizer データに詳しくは、[Customer Journey Analytics の設定](report-gs-cja.md)方法を参照してください。
 
 ## その他のリソース {#additional-resources}
 
 ### ドキュメントリンク {#documentation-links}
 
-- **[ジャーニーステップ共有の概要](sharing-overview.md)**: ジャーニーデータがAdobe Experience Platformにどのようにフローするかについて
-- **[ビルトインスキーマディクショナリ &#x200B;](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja){target="_blank"}**：完全な XDM スキーマリファレンス
-- **[Journey Optimizer レポート](report-gs-cja.md)**: Journey Optimizerのレポート機能の概要
+- **[ジャーニーステップ共有の概要](sharing-overview.md)**：ジャーニーデータが Adobe Experience Platform にフローする仕組みについて説明します
+- **[ビルトインスキーマディクショナリ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja){target="_blank"}**：完全な XDM スキーマリファレンス
+- **[Journey Optimizer レポート](report-gs-cja.md)**：Journey Optimizer のレポート機能の概要
 
 ### 統合ガイド {#integration-guides}
 
-- **[Adobe Customer Journey Analytics](cja-ajo.md)**: CJAでJourney Optimizer データを分析しています
+- **[Adobe Customer Journey Analytics](cja-ajo.md)**：CJA での Journey Optimizer データの分析
 - **[データ管理](../data/export-datasets.md)**：ジャーニーデータのエクスポートと管理
 - **[プライバシーとガバナンス](../privacy/audit-logs.md)**：ジャーニーイベントのデータガバナンスに関する考慮事項
 
 
 **次の手順：**
 
-- [&#x200B; 最初のジャーニーレポートの作成 &#x200B;](sharing-overview.md) から開始します
-- 具体的なユースケースについては、[&#x200B; クエリの例 &#x200B;](query-examples.md) を参照してください
-- [&#x200B; ジャーニー管理のベストプラクティス &#x200B;](../building-journeys/journey.md) について説明します
+- [最初のジャーニーレポートの作成](sharing-overview.md)から開始します
+- 特定のユースケースについて詳しくは、[クエリの例](query-examples.md)を参照してください
+- 詳しくは、[ジャーニー管理のベストプラクティス](../building-journeys/journey.md)を参照してください

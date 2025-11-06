@@ -6,7 +6,7 @@ description: 複数の手順のキャンペーンでのチャネルアクティ�
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
 source-git-commit: ed00ef1f9aad7a9baf16b806e1cbffae677b2a91
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1124'
 ht-degree: 100%
 

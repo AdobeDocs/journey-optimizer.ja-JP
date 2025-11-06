@@ -34,7 +34,7 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->サポートされるチャネルの詳細については、この節の表 [&#x200B; ジャーニーとキャンペーンのチャネル &#x200B;](../channels/gs-channels.md#channels) を参照してください。
+>サポートされるチャネルの詳細については、この節の表 [ ジャーニーとキャンペーンのチャネル ](../channels/gs-channels.md#channels) を参照してください。
 >
 >使用できるチャネルは、ライセンスモデルとアドオンによって異なります。
 
@@ -53,4 +53,4 @@ ht-degree: 90%
 
 アクションキャンペーンの作成方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3412405?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)

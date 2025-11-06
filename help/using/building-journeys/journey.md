@@ -51,12 +51,12 @@ Journey Optimizer ジャーニーデザイナーには、マーケターやジ�
 
 ジャーニーのコンポーネントを把握し、キャンバスでのジャーニー構築の基本を理解します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430350?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ## その他のリソース {#additional-resources}
 
 * [ジャーニーに関する FAQ](journey-faq.md) - ジャーニーに関するよくある質問
-* [&#x200B; エラーコードのリファレンス &#x200B;](error-codes-reference.md) - ジャーニーエラーコードとトラブルシューティング手順
-* [&#x200B; アラート &#x200B;](../reports/alerts.md) - ジャーニー監視用のアラートの設定
-* [&#x200B; トラブルシューティング &#x200B;](troubleshooting.md) - ジャーニーに関する一般的な問題と解決策
-* [&#x200B; 監視とトラブルシューティング &#x200B;](/help/rp_landing_pages/troubleshoot-journey-landing-page.md) - ジャーニーを監視およびトラブルシューティングするツールと機能
+* [ エラーコードのリファレンス ](error-codes-reference.md) - ジャーニーエラーコードとトラブルシューティング手順
+* [ アラート ](../reports/alerts.md) - ジャーニー監視用のアラートの設定
+* [ トラブルシューティング ](troubleshooting.md) - ジャーニーに関する一般的な問題と解決策
+* [ 監視とトラブルシューティング ](/help/rp_landing_pages/troubleshoot-journey-landing-page.md) - ジャーニーを監視およびトラブルシューティングするツールと機能

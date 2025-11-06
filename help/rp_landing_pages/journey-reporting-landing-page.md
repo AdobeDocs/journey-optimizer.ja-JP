@@ -20,7 +20,7 @@ Adobe Journey Optimizer のジャーニーレポートは、メール、SMS、we
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 ジャーニーレポートの分析
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer のジャーニーレポートは、メール、SMS、we
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 コードベースのジャーニーレポート
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer のジャーニーレポートは、メール、SMS、we
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 コンテンツカードのエンゲージメント
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer のジャーニーレポートは、メール、SMS、we
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 ダイレクトメールの指標
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer のジャーニーレポートは、メール、SMS、we
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open.svg)
 
 メールのジャーニーレポート
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer のジャーニーレポートは、メール、SMS、we
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 アプリ内メッセージのインサイト
 

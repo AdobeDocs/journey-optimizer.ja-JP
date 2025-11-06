@@ -12,7 +12,7 @@ exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '358'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -49,14 +49,14 @@ ht-degree: 80%
 
 カスタムアクションの設定方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430280?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)
 
 ## その他のリソース
 
 カスタムアクションの設定と使用について詳しくは、以下の節を参照してください。
 
-* [&#x200B; カスタムアクションの設定 &#x200B;](../action/about-custom-action-configuration.md) - カスタムアクションの作成および設定方法を説明します
-* [&#x200B; カスタムアクションの使用 &#x200B;](../building-journeys/using-custom-actions.md) - ジャーニーでのカスタムアクションの使用方法を説明します
-* [&#x200B; コレクションをカスタムアクションパラメーターに渡す &#x200B;](../building-journeys/collections.md) – 実行時に値が動的に入力されるカスタムアクションパラメーターにコレクションを渡す方法について説明します
-* [&#x200B; カスタムアクションのトラブルシューティング &#x200B;](../action/troubleshoot-custom-action.md) - カスタムアクションのトラブルシューティング方法を説明します。
+* [カスタムアクションの設定](../action/about-custom-action-configuration.md) - カスタムアクションの作成および設定方法について説明します
+* [カスタムアクションの使用](../building-journeys/using-custom-actions.md) - ジャーニーでのカスタムアクションの使用方法について説明します
+* [コレクションをカスタムアクションパラメーターに渡す](../building-journeys/collections.md) - 実行時に値が動的に入力されるコレクションをカスタムアクションパラメーターに渡す方法について説明します
+* [カスタムアクションのトラブルシューティング](../action/troubleshoot-custom-action.md) - カスタムアクションのトラブルシューティング方法について説明します
 

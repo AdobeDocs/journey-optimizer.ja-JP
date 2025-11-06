@@ -12,7 +12,7 @@ version: Journey Orchestration
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '551'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ not (@event{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
    * 以下の例は正しいです。`3.0 * 4.0`
    * `3 * 4.0` はエラーを引き起こします
 
-* `+` 演算子を使用する場合、式を括弧内にカプセル化する必要があります。 例：
+* `+` 演算子を使用する場合、式を括弧で囲む必要があります。例：
    * `toDateTimeOnly(toDateTime((currentTimeInMillis()) + 1))` は正しいです
    * `toDateTimeOnly(toDateTime(currentTimeInMillis() + 1))` はエラーを引き起こします
 

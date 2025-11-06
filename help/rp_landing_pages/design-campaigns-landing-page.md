@@ -20,7 +20,7 @@ Adobe Journey Optimizer のオーケストレーションキャンペーンの�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 調整されたキャンペーンアクティビティの操作
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer のオーケストレーションキャンペーンの�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 AND 結合アクティビティの使用
 
@@ -40,7 +40,7 @@ AND 結合アクティビティの使用
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 オーディエンスを作成アクティビティ
 
@@ -50,7 +50,7 @@ AND 結合アクティビティの使用
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 ディメンションを変更アクティビティ
 
@@ -60,7 +60,7 @@ AND 結合アクティビティの使用
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 チャネルアクティビティ
 
@@ -70,7 +70,7 @@ AND 結合アクティビティの使用
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 結合アクティビティ
 

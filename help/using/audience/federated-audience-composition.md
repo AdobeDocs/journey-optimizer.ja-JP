@@ -32,4 +32,4 @@ Adobe [!DNL Journey Optimizer] で使用できる連合オーディエンス構�
 
 連合オーディエンス構成について詳しくは、次のビデオをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3450879?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3432261?quality=12)

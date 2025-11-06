@@ -23,9 +23,9 @@ ht-degree: 83%
 
 ![](assets/queries-home.png)
 
-クエリエディターの使用方法については、[&#x200B; このドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html?lang=ja){target="_blank"} を参照してください。
+クエリエディターの使用方法については、[ このドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/query/ui/user-guide.html?lang=ja){target="_blank"} を参照してください。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; クエリサービスドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ja){target="_blank"}
->* [&#x200B; クエリサービスの概要ビデオ &#x200B;](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html?lang=ja){target="_blank"}
+>* [ クエリサービスドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ja){target="_blank"}
+>* [ クエリサービスの概要ビデオ ](https://experienceleague.adobe.com/docs/platform-learn/tutorials/queries/understanding-query-service.html?lang=ja){target="_blank"}

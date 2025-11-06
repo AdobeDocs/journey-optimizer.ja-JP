@@ -12,7 +12,7 @@ version: Journey Orchestration
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
 workflow-type: tm+mt
 source-wordcount: '249'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 96%
 
 | 式 | 評価結果 |
 |--- |--- |
-| `4 + 2 * 10` | <ul><li>「*」は「+」よりも優先されます：2 \* 10 の評価結果は→ 20</li><li>4 + 20 → 24</li></ul> |
+| `4 + 2 * 10` | <ul><li>「*」は「+」よりも優先されます：2 \* 10 の評価結果は → 20</li><li>4 + 20 → 24</li></ul> |
 | `(4 + 2) * 10` | <ul><li>括弧によって優先度が変わります：(4 + 2) の評価結果は → 6</li><li> 6 * 10 → 60</li></ul> |
 
 ## 大文字と小文字の区別 {#case-sensitivity}

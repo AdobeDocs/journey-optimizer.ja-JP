@@ -45,7 +45,7 @@ ht-degree: 97%
 
 * **ソフトバウンス**&#x200B;では、アドレスが直ちに抑制リストに送られることはありませんが、エラーカウンターが増加します。その後、数回の[再試行](../configuration/retries.md)が実行され、エラーカウンターがしきい値に達すると、アドレスが抑制リストに追加されます。
 
-* また、アドレスやドメイン[&#128279;](../configuration/manage-suppression-list.md#add-addresses-and-domains)を抑制リストに&#x200B;**手動で**&#x200B;追加することもできます。
+* また、アドレスやドメイン](../configuration/manage-suppression-list.md#add-addresses-and-domains)を抑制リストに&#x200B;[**手動で**&#x200B;追加することもできます。
 
 ハードバウンスとソフトバウンスについて詳しくは、[この節](#delivery-failures)を参照してください。
 

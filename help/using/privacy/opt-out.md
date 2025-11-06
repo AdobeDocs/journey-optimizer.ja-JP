@@ -69,7 +69,7 @@ Journey Optimizer のメールと SMS メッセージでオプトアウトを管
 >
 >[!DNL Journey Optimizer] で作成したチャネルで使用される決定範囲は、属するジャーニーまたはキャンペーンからのこの要件を満たします。
 
-1. [&#x200B; セグメント化サービス &#x200B;](../audience/about-audiences.md) を使用して [Adobe Experience Platform オーディエンス &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja){target="_blank"} を作成し、**[!UICONTROL コンテンツをパーソナライズ =はい（オプトイン）]** などのプロファイル属性を使用して、パーソナライゼーションに同意したユーザーをターゲットにします。
+1. [ セグメント化サービス ](../audience/about-audiences.md) を使用して [Adobe Experience Platform オーディエンス ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja){target="_blank"} を作成し、**[!UICONTROL コンテンツをパーソナライズ =はい（オプトイン）]** などのプロファイル属性を使用して、パーソナライゼーションに同意したユーザーをターゲットにします。
 
    ![](assets/perso-consent-od-audience.png)
 
@@ -121,7 +121,7 @@ Journey Optimizer のメールと SMS メッセージでオプトアウトを管
 
 セグメントルールビルダーを使用して、オプトアウトプロファイルを含むオーディエンスを作成できます。
 
-1. [&#x200B; セグメント化サービス &#x200B;](../audience/about-audiences.md) を使用して [Adobe Experience Platform オーディエンス &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja){target="_blank"} を作成します。
+1. [ セグメント化サービス ](../audience/about-audiences.md) を使用して [Adobe Experience Platform オーディエンス ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja){target="_blank"} を作成します。
 
    ![](assets/perso-consent-audience-build-rule.png)
 
@@ -159,7 +159,7 @@ Journey Optimizer のメールと SMS メッセージでオプトアウトを管
 
 1. **[!UICONTROL パス 1]** は、パーソナライズされていないオーディエンスになります。関連するラベルを選択します。
 
-1. この [&#x200B; リスト &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=ja#choice-values){target="_blank"} から適切な値を選択します。
+1. この [ リスト ](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=ja#choice-values){target="_blank"} から適切な値を選択します。
 
    この場合、`n` を使用して、ユーザーがパーソナライゼーションに対するデータの使用に同意していないことを示します。
 

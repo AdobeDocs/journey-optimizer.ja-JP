@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2214ec90-580e-469e-9b14-d8cb2d4bb050
-source-git-commit: b4c1cb69fd67e8c74982103c68050ab56a71113a
+source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
 workflow-type: tm+mt
 source-wordcount: '499'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -61,4 +61,4 @@ ht-degree: 100%
 
 AI アシスタントまたは手動入力を使用してメタデータを定義し、スキーマやセグメントなどの技術アセットを関連付け、様々な IMS 組織をまたいでプレイブックを共有できます。
 
-プレイブックの作成および共有方法について詳しくは、ユースケースプレイブックドキュメントの [AI アシスタントを使用した独自のプレイブックの作成および共有](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/author.html?lang=ja#sharing-playbooks-sandboxes){target="_blank"}を参照してください。
+プレイブックの作成および共有方法について詳しくは、ユースケースプレイブックドキュメントの [AI アシスタントを使用した独自のプレイブックの作成および共有](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/author.html#sharing-playbooks-sandboxes){target="_blank"}を参照してください。

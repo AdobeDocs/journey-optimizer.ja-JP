@@ -20,7 +20,7 @@ Adobe Journey Optimizer のガイド付きチャネル設定により、モバ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 モバイルと web チャネルの設定
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer のガイド付きチャネル設定により、モバ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 チャネル設定の作成と変更
 

@@ -11,7 +11,7 @@ mini-toc-levels: 1
 keywords: 作成, Optimizer, キャンペーン, サーフェス, メッセージ
 exl-id: b183eeb8-606f-444d-9302-274f159c3847
 source-git-commit: bc779f732b865d5c178141f0b660d5c75f95a237
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 100%
 
