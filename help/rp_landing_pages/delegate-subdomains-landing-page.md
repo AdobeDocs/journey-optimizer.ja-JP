@@ -40,7 +40,7 @@ Adobe Journey Optimizer でサブドメインをデリゲートするメリッ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
 
 DMARC レコードの設定
 

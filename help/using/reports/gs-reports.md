@@ -144,4 +144,4 @@ Adobe Journey Optimizerの全期間レポートを効果的に使用する方法
 
 +++
 
-[&#x200B; レポートのチュートリアル &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/report-and-monitor/report-and-monitor){target="_blank"} で、レポートと分析に関するその他のビデオチュートリアルをご覧ください
+[&#x200B; レポートのチュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/report-and-monitor/report-and-monitor){target="_blank"} で、レポートと分析に関するその他のビデオチュートリアルをご覧ください

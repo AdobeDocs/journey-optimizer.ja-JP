@@ -60,7 +60,7 @@ Adobe Journey Optimizer で最初の調整されたキャンペーンを開始�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
 
 調整されたキャンペーンのレポート
 

@@ -20,7 +20,7 @@ ht-degree: 99%
 
 Web アプリ内チャネルを設定するには、次の手順に従います。
 
-* Web アプリ内メッセージをサポートするには、web SDK タグ拡張機能をインストールします。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html){target="_blank"}
+* Web アプリ内メッセージをサポートするには、web SDK タグ拡張機能をインストールします。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=ja){target="_blank"}
 
 * トリガーをカスタマイズします。Web アプリ内メッセージは、プラットフォームへのデータの送信トリガーと手動トリガーの 2 種類のトリガーをサポートします。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-in-app-messaging.html?lang=ja){target="_blank"}
 

@@ -40,6 +40,6 @@ ht-degree: 76%
 * **[ダイレクトメールチャネルの設定](direct-mail-configuration.md)** - ダイレクトメールサーフェスとファイルのルーティング設定を指定します。
 * **[ジャーニーでのダイレクトメール](direct-mail-journeys.md)** - カスタマージャーニー内でダイレクトメールアクションを使用する方法を説明します。
 * **[ダイレクトメールのテストと送信](test-send-direct-mail.md)** - ダイレクトメール配信をテスト、検証および公開する方法について説明します。
-* **[ダイレクトメールチュートリアル &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}** - ダイレクトメールの機能とベストプラクティスに関するステップバイステップのビデオチュートリアルをご覧ください。
+* **[ダイレクトメールチュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}** - ダイレクトメールの機能とベストプラクティスに関するステップバイステップのビデオチュートリアルをご覧ください。
 
 

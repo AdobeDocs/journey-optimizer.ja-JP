@@ -61,7 +61,7 @@ ht-degree: 99%
 
       >[!NOTE]
       >
-      >アドビが標準で提供するコアマーケティングアクションの一覧については、[この表](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html#core-actions){target="_blank"}を参照してください。カスタムマーケティングアクションを作成する手順について詳しくは、[この節](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=ja#create-marketing-action){target="_blank"}を参照してください。
+      >アドビが標準で提供するコアマーケティングアクションの一覧については、[この表](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ja#core-actions){target="_blank"}を参照してください。カスタムマーケティングアクションを作成する手順について詳しくは、[この節](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=ja#create-marketing-action){target="_blank"}を参照してください。
 
    1. マーケティングアクションが適用されたときの動作を選択します。この例では、「**[!UICONTROL メールマーケティングの同意]**」を選択します。
 

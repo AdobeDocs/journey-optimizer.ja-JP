@@ -20,7 +20,7 @@ Adobe Journey Optimizer でメッセージとジャーニーのキャッピン�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 ルールセットの操作
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer で、メッセージの頻度とジャーニーエン�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 ジャーニーのキャップと判別
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer で、メッセージの頻度とジャーニーエン�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 チャネル別のフリークエンシーキャップ
 

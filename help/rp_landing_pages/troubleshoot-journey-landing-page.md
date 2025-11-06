@@ -25,7 +25,7 @@ ht-degree: 26%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=ja)
 
 システムアラートへのアクセスと登録
 
@@ -35,7 +35,7 @@ ht-degree: 26%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
 
 エラーコード リファレンス
 
@@ -45,7 +45,7 @@ Adobe Journey Optimizerの一般的なエラーコードを理解し、ジャー
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 ジャーニーをテストまたは公開する前のエラーのトラブルシューティング
 
@@ -55,7 +55,7 @@ Adobe Journey Optimizerの一般的なエラーコードを理解し、ジャー
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 ライブジャーニー実行のトラブルシューティング
 
@@ -65,7 +65,7 @@ Adobe Journey Optimizerの一般的なエラーコードを理解し、ジャー
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 ジャーニーの受信アクションのトラブルシューティング
 
@@ -75,7 +75,7 @@ Adobe Journey Optimizerの一般的なエラーコードを理解し、ジャー
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 カスタムアクションのトラブルシューティング
 

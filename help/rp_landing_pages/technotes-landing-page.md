@@ -20,7 +20,7 @@ Adobe Journey Optimizer のテクニカルノートでは、実験とレポー�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
 
 Adobe Journey Optimizer 実験で使用される統計計算
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer 実験で使用される統計計算
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
 
 実験レポートの統計計算について
 
