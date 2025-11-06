@@ -104,4 +104,4 @@ ht-degree: 100%
 
 [!DNL Journey Optimizer] でメッセージに意思決定管理コンポーネントを追加する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/334088?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3416051?captions=jpn&quality=12)
