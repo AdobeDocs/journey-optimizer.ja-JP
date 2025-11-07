@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: アクション, サードパーティ, カスタム, ジャーニー, API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: 221368c7766e942143639fcd554b32f9de5ab0c9
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 100%
+source-wordcount: '713'
+ht-degree: 86%
 
 ---
 
@@ -211,6 +211,37 @@ currentActionField.description == "abc"
 )}
 )
 ```
+
+### ネイティブチャネルでのカスタムアクション応答の使用 {#response-in-channels}
+
+Handlebars 構文を使用して、ネイティブチャネル（メール、プッシュ、SMS など）のカスタムアクション応答から、ネストされた配列を繰り返し処理できます。 これは、外部システムからの動的データを使用してメッセージコンテンツをパーソナライズする必要がある場合に役立ちます。
+
+例えば、カスタムアクションが外部システムから次の応答を返す場合：
+
+```json
+{    
+    "id": "84632848268632",    
+    "responses": [
+        { "productIDs": [1111,2222,3333] },
+        { "productIDs": [4444,5555,6666] },
+        { "productIDs": [7777,8888,9999] }
+    ]
+}
+```
+
+ネイティブチャネル（例えば、メール内）で、`responses` 配列とネストされた `productIDs` 配列を次のように繰り返し処理できます。
+
+```handlebars
+{{#each context.journey.actions.<yourcustomaction>.responses as |res|}}
+
+  {{#each res.productIDs as |productID|}}
+    <li>{{productID}}</li>
+  {{/each}}
+
+{{/each}}
+```
+
+`<yourcustomaction>` を、ジャーニーで設定されたカスタムアクションの実際の名前に置き換えます。
 
 ## その他のリソース
 

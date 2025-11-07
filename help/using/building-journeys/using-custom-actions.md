@@ -10,10 +10,10 @@ level: Intermediate
 keywords: アクション, カスタム, API, ジャーニー, 設定, サービス
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 221368c7766e942143639fcd554b32f9de5ab0c9
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 100%
+source-wordcount: '427'
+ht-degree: 96%
 
 ---
 
@@ -29,6 +29,8 @@ ht-degree: 100%
 カスタムアクションについて詳しくは、[この節](../action/action.md)を参照してください。
 
 カスタムアクションを作成して設定する方法について詳しくは、[このページ](../action/about-custom-action-configuration.md)を参照してください。
+
+[ このページ ](../action/action-response.md) で、カスタムアクションの API 呼び出し応答をパーソナライゼーションに使用する方法を説明します。
 
 ## 同意とデータガバナンス {#privacy}
 

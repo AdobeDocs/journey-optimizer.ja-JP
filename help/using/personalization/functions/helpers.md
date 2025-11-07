@@ -6,10 +6,10 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 221368c7766e942143639fcd554b32f9de5ab0c9
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 100%
+source-wordcount: '652'
+ht-degree: 94%
 
 ---
 
@@ -162,6 +162,10 @@ Some edu specific content
     <li>{{product.productName}} {{product.productRating}}</li>
 {{/each}}
 ```
+
+>[!NOTE]
+>
+>また、`each` ヘルパーを使用して、カスタムアクション応答から返された配列に対して反復処理を行うこともできます。 カスタムアクション応答からネストされた配列を反復する例については、[ ネイティブチャネルでのカスタムアクション応答の使用 ](../../action/action-response.md#response-in-channels) を参照してください。
 
 ## With{#with}
 
