@@ -8,10 +8,10 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: cc38101d0745770cca196372fc5fdbb64318e601
+source-git-commit: 1349da209bc90dd8ebad0bd309f89039aa6ea3f2
 workflow-type: tm+mt
-source-wordcount: '1815'
-ht-degree: 89%
+source-wordcount: '2153'
+ht-degree: 76%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 89%
 
 * ジャーニーをトラブルシューティングする方法について詳しくは、[このページ](../building-journeys/troubleshooting.md)を参照してください
 
-* キャンペーンのレビューとアクティブ化の方法について学ぶ：[&#x200B; アクションキャンペーン &#x200B;](../campaigns/review-activate-campaign.md) | [API トリガーキャンペーン &#x200B;](../campaigns/review-activate-api-triggered-campaign.md) | [&#x200B; 調整されたキャンペーン &#x200B;](../orchestrated/start-monitor-campaigns.md)
+* キャンペーンのレビューとアクティブ化の方法について学ぶ：[ アクションキャンペーン ](../campaigns/review-activate-campaign.md) | [API トリガーキャンペーン ](../campaigns/review-activate-api-triggered-campaign.md) | [ 調整されたキャンペーン ](../orchestrated/start-monitor-campaigns.md)
 
 
 これらに加えて、特定の条件セットに達した場合、その条件を登録している組織内のユーザーにアラートメッセージを送信できます。これらのアラートは、専用の&#x200B;**[!UICONTROL アラート]**&#x200B;メニューから使用できます。 Adobe Experience Platform には、組織に対して有効にできる定義済みのアラートルールがいくつか用意されています。さらに、このページの説明に従って、[!DNL Adobe Journey Optimizer] 固有のシステムアラートを登録することもできます。
@@ -32,6 +32,7 @@ ht-degree: 89%
 
 左側のメニューの&#x200B;**[!UICONTROL 管理]**&#x200B;で、「**[!UICONTROL アラート]**」をクリックします。Journey Optimizer には、事前設定済みのアラートがいくつか「**参照**」タブに用意されています。
 
+![](assets/updated-alerts-list.png){width=50%}
 
 * ジャーニーに固有のアラート：
 
@@ -39,6 +40,9 @@ ht-degree: 89%
    * [Custom Action Error Rate Exceeded](#alert-custom-action-error-rate) アラート（前のジャーニーの Custom Action Failure アラートに代わる）
    * [プロファイルの破棄率を超えました](#alert-discard-rate)アラート
    * [プロファイルのエラー率を超えました](#alert-profile-error-rate)アラート
+   * [ジャーニーが公開されました ](#alert-journey-published) アラート
+   * [ジャーニー完了 ](#alert-journey-finished) アラート
+   * [ カスタムアクションキャッピングトリガー ](#alert-custom-action-capping) アラート
 
 * チャネル設定に固有のアラート：
 
@@ -81,13 +85,13 @@ ht-degree: 89%
 
    ![特定のジャーニーのアラートの登録](assets/subscribe-journey-alert.png){width=75%}
 
-1. アラートを選択します。[プロファイルの破棄率を超えました](#alert-discard-rate)アラート、[カスタムアクションのエラー率を超えました](#alert-custom-action-error-rate)アラート、[プロファイルのエラー率を超えました](#alert-profile-error-rate)アラートを使用できます。
+1. アラートを選択します。次のアラートを使用できます：[ プロファイル破棄率を超えています ](#alert-discard-rate)、[ カスタムアクションエラー率を超えています ](#alert-custom-action-error-rate)、[ プロファイルエラー率を超えています ](#alert-profile-error-rate)、6}ジャーニーが公開されました [、](#alert-journey-published)ジャーニーが完了しました [、および ](#alert-journey-finished) カスタムアクションキャッピングトリガー [。](#alert-custom-action-capping)
 
 1. アラートを登録解除するには、同じ画面からアラートを選択解除します。
 
 1. 「**[!UICONTROL 保存]**」をクリックして確認します。
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=ja#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## ジャーニーアラート {#journey-alerts}
 
@@ -102,8 +106,6 @@ ht-degree: 89%
 
 このアラートは、スケジュールされた実行時間から 10 分経過しても、「**オーディエンスを読み取り**」アクティビティでプロファイルを処理されなかった場合に警告します。このエラーは、技術的な問題やオーディエンスが空であることが原因で発生する可能性があります。このエラーが技術的な問題によって発生した場合、問題のタイプに応じて、再試行が引き続き行われる可能性があります（例：エクスポートジョブの作成に失敗した場合、最大 1 時間、10 分ごとに再試行されます）。
 
-![](assets/read-audience-alert.png)
-
 「**オーディエンスを読み取り**」アクティビティに関するアラートは、繰り返しジャーニーにのみ適用されます。**1 回**&#x200B;または&#x200B;**できるだけ早く**&#x200B;実行するスケジュールが設定されているライブジャーニーの「**オーディエンスを読み取り**」アクティビティは無視されます。
 
 **オーディエンスを読み取り** に関するアラートは、プロファイルが **オーディエンスを読み取り** ノードに入ったか、1 時間後に解決されます。
@@ -114,7 +116,7 @@ ht-degree: 89%
 
 ### プロファイルの破棄率を超えました {#alert-discard-rate}
 
-このアラートは、過去 5 分間にエントリ済みのプロファイルに対するプロファイル破棄率がしきい値を超えた場合に警告します。デフォルトのしきい値は 20% に設定されていますが、[&#x200B; カスタムのしきい値を定義 &#x200B;](#custom-threshold) できます。
+このアラートは、過去 5 分間にエントリ済みのプロファイルに対するプロファイル破棄率がしきい値を超えた場合に警告します。デフォルトのしきい値は 20% に設定されていますが、[ カスタムのしきい値を定義 ](#custom-threshold) できます。
 
 アラートの名前をクリックすると、アラートの詳細と設定を確認できます。
 
@@ -129,7 +131,7 @@ ht-degree: 89%
 
 ### カスタムアクションのエラー率を超えました {#alert-custom-action-error-rate}
 
-このアラートは、過去 5 分間に成功した HTTP 呼び出し数に対するカスタムアクションエラー率がしきい値を超えた場合に警告します。デフォルトのしきい値は 20% に設定されていますが、[&#x200B; カスタムのしきい値を定義 &#x200B;](#custom-threshold) できます。
+このアラートは、過去 5 分間に成功した HTTP 呼び出し数に対するカスタムアクションエラー率がしきい値を超えた場合に警告します。デフォルトのしきい値は 20% に設定されていますが、[ カスタムのしきい値を定義 ](#custom-threshold) できます。
 
 >[!NOTE]
 >
@@ -148,11 +150,47 @@ ht-degree: 89%
 
 ### プロファイルのエラー率を超えました {#alert-profile-error-rate}
 
-このアラートは、過去 5 分間に入力されたプロファイルに対するエラー内のプロファイルの割合が、しきい値を超えた場合に警告します。 デフォルトのしきい値は 20% に設定されていますが、[&#x200B; カスタムのしきい値を定義 &#x200B;](#custom-threshold) できます。
+このアラートは、過去 5 分間に入力されたプロファイルに対するエラー内のプロファイルの割合が、しきい値を超えた場合に警告します。 デフォルトのしきい値は 20% に設定されていますが、[ カスタムのしきい値を定義 ](#custom-threshold) できます。
 
 アラートの名前をクリックすると、アラートの詳細と設定を確認できます。
 
 プロファイルエラーのトラブルシューティングを行うには、ステップイベントのデータのクエリを実行して、プロファイルがジャーニーで失敗した場所と理由を理解します。
+
+### 公開されたジャーニー {#alert-journey-published}
+
+このアラートは、ジャーニーキャンバスで実務担当者がジャーニーを公開したときに通知します。
+
+これは、組織のジャーニーライフサイクルイベントを追跡するのに役立つ情報アラートです。 これは 1 回限りの通知なので、解決条件はありません。
+
+### ジャーニーが完了しました {#alert-journey-finished}
+
+このアラートは、ジャーニーが完了すると通知します。 「完了」の定義は、ジャーニーのタイプによって異なります。
+
+| ジャーニータイプ | 繰り返し？ | 終了日はありますか？ | 「finished」の定義 |
+|--------------|------------|---------------|--------------------------|
+| オーディエンスを読み取り | × | 該当なし | 実行開始 91 日後 |
+| オーディエンスを読み取り | ○ | × | 実行開始 91 日後 |
+| オーディエンスを読み取り | ○ | ○ | 終了日に達した場合 |
+| イベントトリガージャーニー | 該当なし | ○ | 終了日に達した場合 |
+| イベントトリガージャーニー | 該当なし | × | UI または API 経由で閉じた場合 |
+
+これは、ジャーニーの完了を追跡するのに役立つ情報アラートです。 これは 1 回限りの通知なので、解決条件はありません。
+
+### カスタムアクションキャッピングのトリガー {#alert-custom-action-capping}
+
+このアラートは、カスタムアクションでキャッピングがトリガーされたときに警告します。 キャッピングは、外部エンドポイントに送信される呼び出しの数を制限して、エンドポイントの圧倒を防ぐために使用されます。
+
+アラートの名前をクリックすると、アラートの詳細と設定を確認できます。
+
+キャッピングがトリガーされると、定義された期間内に API 呼び出しの最大数に達し、それ以降の呼び出しはスロットルまたはキューに入れられています。 カスタムアクションのキャッピングについて詳しくは、[ このページ ](../action/about-custom-action-configuration.md#custom-action-enhancements-best-practices) を参照してください。
+
+このアラートは、キャッピングがアクティブでなくなったとき、または評価期間中にプロファイルがカスタムアクションに到達しなかったときに解決されます。
+
+キャッピングの問題をトラブルシューティングするには：
+
+* カスタムアクションのキャッピング設定を確認し、使用例に適した制限になっていることを確認します。
+* API 呼び出しの量が予想よりも多いかどうかを確認し、ジャーニーのデザインやキャッピングの設定の調整を検討します。
+* 外部エンドポイントを監視して、想定される負荷に対応できることを確認します。
 
 ## アラートの設定 {#configuration-alerts}
 
@@ -236,7 +274,7 @@ This alert warns you if a domain certificate (CDN, tracking URL) renewal failed 
 ### アラートの編集
 
 アラートの行をクリックすると、そのアラートの詳細を確認できます。名前、ステータス、通知チャネルが左側のパネルに表示されます。
-ジャーニーアラートの場合は、「**[!UICONTROL その他のアクション]**」ボタンを使用して編集します。その後、これらのアラートの [&#x200B; カスタムしきい値 &#x200B;](#custom-threshold) を定義できます。
+ジャーニーアラートの場合は、「**[!UICONTROL その他のアクション]**」ボタンを使用して編集します。その後、これらのアラートの [ カスタムしきい値 ](#custom-threshold) を定義できます。
 
 ![](assets/alert-more-actions.png){width=60%}
 
