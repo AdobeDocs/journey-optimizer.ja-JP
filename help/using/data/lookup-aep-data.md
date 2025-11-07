@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 式, エディター
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: c910664b343f8143579e4a22ff101d38476c4585
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 100%
+source-wordcount: '866'
+ht-degree: 96%
 
 ---
 
@@ -48,6 +48,8 @@ Journey Optimizer を使用すると、パーソナライゼーション、決�
   **バッチ 3**：Sku7、Sku8、Sku9、Sku10
 
   **バッチ 1** を削除すると、Sku1、Sku2、Sku3 が検索ストアから削除されます。結果として生成される参照データには、Sku4、Sku5、Sku6、Sku7、Sku8、Sku9、Sku10 が含まれます。
+
+* **連鎖検索なし** - データセット検索を連結することはできません。 つまり、1 回の検索の結果を変数として使用して、2 回目の検索を実行するキーにすることはできません。
 
 ### 参照サービスの使用権限
 
