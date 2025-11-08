@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: IP、グループ、サブドメイン、配信品質
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 5f2ccb102d08151da5616ef42559164f29542e5d
 workflow-type: tm+mt
-source-wordcount: '2635'
-ht-degree: 100%
+source-wordcount: '2678'
+ht-degree: 98%
 
 ---
 
@@ -157,6 +157,8 @@ At phase level, system ensures that previously targeted + new profiles are picke
 >id="ajo_admin_ip_warmup_qualified"
 >title="認定プロファイルを表示"
 >abstract="この列には、認定プロファイルの数が表示されます。オーディエンスの実行を評価した後、適格なプロファイルが認定プロファイルよりも多い場合、「**エラーが発生した場合にアクティブ化された実行をキャンセル**」オプションが有効になっていない限り、実行は引き続き行われます。この場合、実行はキャンセルされます。"
+
+IP ウォームアップ計画のフェーズを定義したら、各フェーズ内で個々の実行を設定する必要があります。 各実行にはスケジュールが必要です。オプションで、エンゲージメントフィルター、エラー処理および再試行ウィンドウを設定して、最適な実行を確保できます。 次の手順に従います。
 
 1. 各実行のスケジュールを選択して、指定した時間に実行されるようにします。
 

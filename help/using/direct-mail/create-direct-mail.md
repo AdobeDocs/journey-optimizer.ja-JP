@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: ダイレクトメール, メッセージ, キャンペーン
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: e823be2257d49158492af508e23f40e749bc33be
+source-git-commit: 5f2ccb102d08151da5616ef42559164f29542e5d
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 100%
+source-wordcount: '781'
+ht-degree: 96%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 >
 >ダイレクトメールは、ホールドアウト機能をサポートしていますが、現在、処理はサポートしていません。
 
-ダイレクトメールキャンペーンを作成するには、次の手順に従います。
+ダイレクトメールキャンペーンを作成するには、スケジュール済みキャンペーンを設定し、ターゲットオーディエンスを選択して、メッセージ設定を含むダイレクトメール設定を指定します。 次の手順に従います。
 
 1. **[!UICONTROL キャンペーン]**&#x200B;メニューにアクセスし、「**[!UICONTROL キャンペーンを作成]**」をクリックします。
 

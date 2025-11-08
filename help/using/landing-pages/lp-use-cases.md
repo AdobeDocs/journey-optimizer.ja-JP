@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: ランディング, ランディングページ, ユースケース
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 42d40abf8290bac64e142f5cf0bf595446ccb2e9
+source-git-commit: 5f2ccb102d08151da5616ef42559164f29542e5d
 workflow-type: tm+mt
-source-wordcount: '980'
-ht-degree: 100%
+source-wordcount: '1013'
+ht-degree: 97%
 
 ---
 
@@ -29,6 +29,8 @@ ht-degree: 100%
 例えば、来月イベントを開催し、<!--to keep your customers that are interested updated on that event-->イベント登録キャンペーンを開始するとします。これを行うには、受信者がこのイベントに登録できる、ランディングページへのリンクを含むメールを送信します。登録したユーザーは、この目的で作成したサブスクリプションリストに追加されます。
 
 ### ランディングページの設定 {#set-up-lp}
+
+イベント登録用のランディングページを設定するには、購読リストを作成し、登録フォームでランディングページをデザインして、必要なページと設定を指定します。 次の手順に従います。
 
 1. イベント登録の購読リストを作成します。このリストには、登録済みユーザーが格納されます。購読リストの作成方法については、[こちら](subscription-list.md#define-subscription-list)を参照してください。
 
