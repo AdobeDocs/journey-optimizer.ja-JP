@@ -49,7 +49,7 @@ ht-degree: 96%
 
 >[!TAB キャンペーンへのメールの追加]
 
-1. [ キャンペーンを作成 ](../campaigns/create-campaign.md) し、アクションとして **[!UICONTROL メール]** を選択します。
+1. [&#x200B; キャンペーンを作成 &#x200B;](../campaigns/create-campaign.md) し、アクションとして **[!UICONTROL メール]** を選択します。
 
 1. キャンペーンプロパティ、[オーディエンス](../audience/about-audiences.md)、[スケジュール](../campaigns/campaign-schedule.md)など、メールキャンペーンを作成する手順を完了します。
 
