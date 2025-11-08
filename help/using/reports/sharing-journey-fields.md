@@ -51,6 +51,6 @@ ht-degree: 0%
 
 ## バージョン {#version-field}
 
-バージョン。`major``minor` で表します。
+バージョン。`major` `minor` で表します。
 
 型：文字列

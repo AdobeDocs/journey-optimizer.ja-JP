@@ -74,9 +74,9 @@ ht-degree: 84%
 
    >[!CAUTION]
    >
-   >選択したランディングページのサブドメインは、**[!UICONTROL トラッキング URL]** を指定するために使用されます <!--and **[!UICONTROL Image Delivery URL]** --> そのサブドメインが [ 既存のサブドメインを使用して作成された場合 ](lp-subdomains.md#lp-use-existing-subdomain)。
+   >選択したランディングページのサブドメインは、**[!UICONTROL トラッキング URL]** を指定するために使用されます <!--and **[!UICONTROL Image Delivery URL]** --> そのサブドメインが [&#x200B; 既存のサブドメインを使用して作成された場合 &#x200B;](lp-subdomains.md#lp-use-existing-subdomain)。
    >
-   >「[ 独自のドメインを追加 ](lp-subdomains.md#lp-configure-new-subdomain)」オプションを使用してサブドメインが作成された場合、代わりにプライマリサブドメイン（最初にデリゲートされたサブドメイン）が使用されます。
+   >「[&#x200B; 独自のドメインを追加 &#x200B;](lp-subdomains.md#lp-configure-new-subdomain)」オプションを使用してサブドメインが作成された場合、代わりにプライマリサブドメイン（最初にデリゲートされたサブドメイン）が使用されます。
 
 1. 「**[!UICONTROL 送信]**」をクリックして、ランディングページプリセットの作成を確定します。<!--You can also save the preset as draft and resume its configuration later on.-->
 

@@ -109,5 +109,5 @@ Web の使用例を実行するには、web チャネルまたはコードベー
 * **[コードベースの前提条件](code-based-prerequisites.md)** – 実装に必要な技術要件と開発者リソースについて説明します。
 * **[コードベースのエクスペリエンスのテスト](test-code-based.md)** – 公開前にコードベースのエクスペリエンスをプレビューしてテストする方法を説明します。
 * **[実装サンプル](code-based-implementation-samples.md)** – 様々なユースケースのコード例と実装パターンを調べます。
-* **[コードベースのエクスペリエンスチュートリアル ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/channels/code-based-experience-channel/create-a-code-based-experience-campaign){target="_blank"}** - コードベースの機能とベストプラクティスに関するステップバイステップのビデオチュートリアルをご覧ください。
+* **[コードベースのエクスペリエンスチュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/channels/code-based-experience-channel/create-a-code-based-experience-campaign){target="_blank"}** - コードベースの機能とベストプラクティスに関するステップバイステップのビデオチュートリアルをご覧ください。
 

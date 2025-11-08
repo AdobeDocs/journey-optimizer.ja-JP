@@ -97,7 +97,7 @@ Adobe Journey Optimizer でランディングページを作成して購読解�
 
 +++ オプトアウト API 呼び出しの実装方法について説明します。
 
-受信者がランディングページから選択内容を送信する際にオプトアウトするには、**Adobe Developer** を使用して [ 購読 API 呼び出し ](https://developer.adobe.com){target="_blank"} を実装し、対応するプロファイルの環境設定を更新する必要があります。
+受信者がランディングページから選択内容を送信する際にオプトアウトするには、**Adobe Developer** を使用して [&#x200B; 購読 API 呼び出し &#x200B;](https://developer.adobe.com){target="_blank"} を実装し、対応するプロファイルの環境設定を更新する必要があります。
 
 この POST 呼び出しは次の通りです。
 

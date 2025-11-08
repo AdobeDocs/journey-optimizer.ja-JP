@@ -144,7 +144,7 @@ CJA オーディエンスはジャーニーで直接サポートされていま�
 * 大規模デプロイメントでのオーディエンスサイズと評価パフォーマンスの監視
 * ジャーニーのタイミングとエントリ条件を設計する際は、オーディエンスの更新頻度を考慮します
 
-[ オーディエンス ](../audience/about-audiences.md)、[ セグメントの作成 ](../audience/creating-a-segment-definition.md)、[ カスタムアップロードオーディエンス ](../audience/custom-upload.md) および [Federated Audience Composition](../audience/federated-audience-composition.md) について説明します。
+[&#x200B; オーディエンス &#x200B;](../audience/about-audiences.md)、[&#x200B; セグメントの作成 &#x200B;](../audience/creating-a-segment-definition.md)、[&#x200B; カスタムアップロードオーディエンス &#x200B;](../audience/custom-upload.md) および [Federated Audience Composition](../audience/federated-audience-composition.md) について説明します。
 
 +++
 

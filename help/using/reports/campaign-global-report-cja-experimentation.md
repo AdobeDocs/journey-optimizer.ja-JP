@@ -49,7 +49,7 @@ ht-degree: 0%
 
 ![](assets/cja-experimentation-variants.png)
 
-**成功指標別のバリアント**の表には、実験の設定時に選択した成功指標に基づいて、各バリアントの実行方法が表示されます。
+**成功指標別のバリアント**&#x200B;の表には、実験の設定時に選択した成功指標に基づいて、各バリアントの実行方法が表示されます。
 これらの結果の詳細と解釈について詳しくは、[このページ](../content-management/get-started-experiment.md#interpret-results)を参照してください。
 
 +++ 成功指標別のバリアントの詳細情報
