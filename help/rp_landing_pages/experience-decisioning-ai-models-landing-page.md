@@ -50,7 +50,7 @@ Adobe Journey Optimizer でオファーをランク付けする AI モデルを�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 ステップバイステップガイド：AI モデルの作成
 

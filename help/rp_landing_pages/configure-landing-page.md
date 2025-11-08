@@ -30,7 +30,7 @@ Adobe Journey Optimizer でコンテンツカードチャネルを有効にす�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 Journey Optimizer でのコンテンツカードチャネルの設定
 

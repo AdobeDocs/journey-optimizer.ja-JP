@@ -40,7 +40,7 @@ Adobe Journey Optimizer のコードベースのエクスペリエンスによ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 コードベースのエクスペリエンスのテスト
 
