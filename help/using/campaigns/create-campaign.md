@@ -10,7 +10,7 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 作成, Optimizer, キャンペーン, サーフェス, メッセージ
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
+source-git-commit: 81e54a3e3428d58818805b5dcb397ede4039436a
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 90%
@@ -34,13 +34,13 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->サポートされるチャネルの詳細については、この節の表 [&#x200B; ジャーニーとキャンペーンのチャネル &#x200B;](../channels/gs-channels.md#channels) を参照してください。
+>サポートされるチャネルの詳細については、この節の表 [ ジャーニーとキャンペーンのチャネル ](../channels/gs-channels.md#channels) を参照してください。
 >
 >使用できるチャネルは、ライセンスモデルとアドオンによって異なります。
 
 ## アクションキャンペーン作成の主な手順 {#steps}
 
-キャンペーンを開始する前に、[この節](get-started-with-campaigns.md#permissions)に記載されている次の前提条件を確認してください。これらの前提条件が満たされたら、キャンペーンの作成を開始できます。
+キャンペーンを開始する前に、[この節](get-started-with-campaigns.md#prerequisites)に記載されている次の前提条件を確認してください。これらの前提条件が満たされたら、キャンペーンの作成を開始できます。
 
 1. [アクションキャンペーンのプロパティの定義](campaign-properties.md)
 1. [キャンペーンアクションの設定](campaign-action.md)
@@ -53,4 +53,4 @@ ht-degree: 90%
 
 アクションキャンペーンの作成方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3412405?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)

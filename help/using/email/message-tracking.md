@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: リンク, トラッキング, 監視, メール
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 7a83bb558559ba814ed9431bb85a68929a276ed5
 workflow-type: tm+mt
 source-wordcount: '1344'
 ht-degree: 100%
@@ -205,4 +205,4 @@ Adobe Journey Optimizer で生成されるミラーページには、すべて�
 
 >[!NOTE]
 >
->最終的な URL を確認するには、[配達確認を送信](../content-management/preview-test.md#send-proofs)し、配達確認を受信したらメールのコンテンツにあるリンクをクリックします。URL にはトラッキングパラメーターを表示する必要があります。上記の例では、最終的な URL は次のようになります：<https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number>
+>最終的な URL を確認するには、[配達確認を送信](../content-management/proofs.md)し、配達確認を受信したらメールのコンテンツにあるリンクをクリックします。URL にはトラッキングパラメーターを表示する必要があります。上記の例では、最終的な URL は次のようになります：<https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number>

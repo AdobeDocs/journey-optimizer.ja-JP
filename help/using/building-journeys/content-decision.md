@@ -11,7 +11,7 @@ badge: label="限定提供" type="Informative"
 keywords: アクティビティ, 決定, コンテンツ決定, 決定ポリシー, キャンバス, ジャーニー
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: 7a83bb558559ba814ed9431bb85a68929a276ed5
 workflow-type: tm+mt
 source-wordcount: '1120'
 ht-degree: 100%
@@ -60,13 +60,13 @@ ht-degree: 100%
 
 1. 返される項目の数を選択します。例えば、「2」を選択した場合、最適な 2 つの実施要件を満たすオファーが表示されます。「**[!UICONTROL 次へ]**」をクリックします。
 
-1. 「**[!UICONTROL 戦略シーケンス]**」セクションでは、決定ポリシーと共に提示する決定項目や選択戦略を選択します。[詳細情報](../experience-decisioning/create-decision.md#select)
+1. 「**[!UICONTROL 戦略シーケンス]**」セクションでは、決定ポリシーと共に提示する決定項目や選択戦略を選択します。[詳細情報](../experience-decisioning/create-decision.md#create-decision)
 
 1. 必要に応じて、評価順序を並べ替えます。
 
-   複数の決定項目や戦略を追加すると、順番に評価され、各オブジェクトまたはオブジェクトのグループの左側に数字で示されます。デフォルトのシーケンスを変更するには、オブジェクトやグループをドラッグ＆ドロップして、任意の順序に並べ替えることができます。[詳細情報](../experience-decisioning/create-decision.md#evaluation-order)
+   複数の決定項目や戦略を追加すると、順番に評価され、各オブジェクトまたはオブジェクトのグループの左側に数字で示されます。デフォルトのシーケンスを変更するには、オブジェクトやグループをドラッグ＆ドロップして、任意の順序に並べ替えることができます。[詳細情報](../experience-decisioning/create-decision.md#create-decision)
 
-1. （オプション）フォールバックオファーを追加します。[詳細情報](../experience-decisioning/create-decision.md#fallback)
+1. （オプション）フォールバックオファーを追加します。[詳細情報](../experience-decisioning/create-decision.md#create-decision)
 
 1. 決定ポリシーをレビューして保存します。
 

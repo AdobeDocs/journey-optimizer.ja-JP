@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 選定, イベント, オーディエンス, ジャーニー, プラットフォーム
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
-source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
+source-git-commit: 7a83bb558559ba814ed9431bb85a68929a276ed5
 workflow-type: tm+mt
 source-wordcount: '1226'
 ht-degree: 96%
@@ -96,7 +96,7 @@ ht-degree: 96%
 
 **[!UICONTROL オーディエンスの選定]**&#x200B;アクティビティを使用すると、Adobe Experience Platform オーディエンスから選定された個人または選定されなかった個人を、直ちにジャーニーにエントリさせることができます。
 
-この情報は瞬時に処理されます。測定した値は、1 秒あたり 10,000 件の速度でイベントを受信したことを示しています。その結果、エントリのピークがどのように発生するか、その回避方法やジャーニーの準備方法を理解できるようになります。 ジャーニーの処理レートとスループット制限について詳しくは、[&#x200B; この節 &#x200B;](entry-management.md#journey-processing-rate) を参照してください。
+この情報は瞬時に処理されます。測定した値は、1 秒あたり 10,000 件の速度でイベントを受信したことを示しています。その結果、エントリのピークがどのように発生するか、その回避方法やジャーニーの準備方法を理解できるようになります。 ジャーニーの処理レートとスループット制限について詳しくは、[ この節 ](entry-management.md#journey-processing-rate) を参照してください。
 
 ### バッチオーディエンス {#batch-speed-segment-qualification}
 
@@ -108,7 +108,7 @@ ht-degree: 96%
 
 ストリーミングオーディエンスに対して「オーディエンスの選定」を使用すると、オーディエンスの継続的な評価により、エントリや離脱のピークが大きくなるリスクを軽減できます。ただし、オーディエンス定義の結果、大量の顧客が同時に選定されることになると、ピークが生じる可能性があります。
 
-ストリーミングセグメント化で開くイベントや送信イベントを使用しないでください。代わりに、クリック数、購入数、ビーコンデータなどの実際のユーザーアクティビティのシグナルを使用します。頻度または抑制ロジックについては、イベントを送信するのではなくビジネスルールを使用します。[詳細情報](../audience/about-audiences.md#open-and-send-event-guardrails)
+ストリーミングセグメント化で開くイベントや送信イベントを使用しないでください。代わりに、クリック数、購入数、ビーコンデータなどの実際のユーザーアクティビティのシグナルを使用します。頻度または抑制ロジックについては、イベントを送信するのではなくビジネスルールを使用します。[詳細情報](../audience/about-audiences.md)
 
 ストリーミングセグメント化について詳しくは、[Adobe Experience Platform のドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}を参照してください。
 
@@ -126,7 +126,7 @@ ht-degree: 96%
 
   ![](assets/segment-overload.png)
 
-エントリレートの制限とスループットについて詳しくは、[&#x200B; この節 &#x200B;](entry-management.md#profile-entrance-rate) を参照してください。
+エントリレートの制限とスループットについて詳しくは、[ この節 ](entry-management.md#profile-entrance-rate) を参照してください。
 
 ## ガードレールと制限 {#audience-qualification-guardrails}
 
@@ -164,4 +164,4 @@ ht-degree: 96%
 
 オーディエンスの選定ジャーニーに当てはまるユースケースについて、このビデオで説明します。オーディエンスの選定を使用してジャーニーを構築する方法と、適用するベストプラクティスについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3446205?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)

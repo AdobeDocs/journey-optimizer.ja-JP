@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 keywords: キャンペーン, API トリガー, REST, Optimizer, メッセージ
 exl-id: 561f1215-d13d-4ffc-b6f1-396ae67774c8
-source-git-commit: d3570e2c3d6340deaba8ca0f342161ab43ad1c43
+source-git-commit: 81e54a3e3428d58818805b5dcb397ede4039436a
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 100%
@@ -38,7 +38,7 @@ API トリガーキャンペーンを設定したら、アクティブ化する�
 
 1. キャンペーンがアクティブ化されました。ステータスは&#x200B;**[!UICONTROL ライブ]**、開始日を入力した場合は&#x200B;**[!UICONTROL スケジュール済み]**&#x200B;です。
 
-   **[!UICONTROL 完了]**&#x200B;ステータスは、キャンペーンがアクティブ化されてから 3 日後、または繰り返し実行されている場合はキャンペーンの終了日に自動的に割り当てられます。[詳しくは、キャンペーンのステータスを参照してください](get-started-with-campaigns.md#statuses)。
+   **[!UICONTROL 完了]**&#x200B;ステータスは、キャンペーンがアクティブ化されてから 3 日後、または繰り返し実行されている場合はキャンペーンの終了日に自動的に割り当てられます。[詳しくは、キャンペーンのステータスを参照してください](manage-campaigns.md#statuses)。
 
    終了日が指定されていない場合、キャンペーンは&#x200B;**[!UICONTROL ライブ]**&#x200B;ステータスのままとなります。変更するには、キャンペーンを手動で停止する必要があります。[キャンペーンの停止方法についてはこちらを参照](manage-campaigns.md)
 

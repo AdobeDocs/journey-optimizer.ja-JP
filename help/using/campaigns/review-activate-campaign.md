@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: キャンペーン, レビュー, 検証, アクティブ化, アクティブ化, Optimizer
 exl-id: 7c4afc98-0d79-4e26-90f8-558bac037169
-source-git-commit: 311dbb72079b91d3faa1c60c38a66a806d80da42
+source-git-commit: 81e54a3e3428d58818805b5dcb397ede4039436a
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 100%
@@ -39,7 +39,7 @@ ht-degree: 100%
 
 1. キャンペーンがアクティブ化されました。ステータスは&#x200B;**[!UICONTROL ライブ]**、開始日を入力した場合は&#x200B;**[!UICONTROL スケジュール型]**&#x200B;です。キャンペーンで設定されたメッセージは、すぐに送信されるか、指定日に送信されます。
 
-   **[!UICONTROL 完了]**&#x200B;ステータスは、キャンペーンがアクティブ化されてから 3 日後、または繰り返し実行されている場合はキャンペーンの終了日に自動的に割り当てられます。[詳しくは、キャンペーンのステータスを参照してください](get-started-with-campaigns.md#statuses)。
+   **[!UICONTROL 完了]**&#x200B;ステータスは、キャンペーンがアクティブ化されてから 3 日後、または繰り返し実行されている場合はキャンペーンの終了日に自動的に割り当てられます。[詳しくは、キャンペーンのステータスを参照してください](manage-campaigns.md#statuses)。
 
    終了日が指定されていない場合、キャンペーンは&#x200B;**[!UICONTROL ライブ]**&#x200B;ステータスのままとなります。変更するには、キャンペーンを手動で停止する必要があります。[キャンペーンの停止方法についてはこちらを参照](manage-campaigns.md)
 
