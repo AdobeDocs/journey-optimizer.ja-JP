@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 452a0a3a08a7b90d0e3a5b78b2e16f532f04ef1a
 workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 100%
@@ -62,7 +62,7 @@ Journey Optimizer でオーディエンスに意味のあるタグを追加す�
 
 「**[!UICONTROL タグ]**」フィールドでは、オブジェクトのタグを定義できます。タグは、次のオブジェクトで使用できます。
 
-* [キャンペーン](../campaigns/create-campaign.md#create)
+* [キャンペーン](../campaigns/create-campaign.md)
 * [決定項目](../experience-decisioning/items.md)
 * [フラグメント](../content-management/fragments.md)
 * [ジャーニー](../building-journeys/journey-properties.md)
