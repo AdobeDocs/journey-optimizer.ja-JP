@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: IP, プール, 配信品質
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: a44b68e99ec4c55b8ed27b244fcb9e76bdb97760
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 100%
@@ -51,7 +51,7 @@ IP ウォームアップキャンペーンを作成するには、次の手順�
 
    ![](assets/ip-warmup-campaign-plan-activation.png)
 
-   キャンペーン[スケジュール](../campaigns/create-campaign.md#schedule)が、関連付けられる IP ウォームアッププランによって実行されます。つまり、スケジュールはキャンペーン自体で定義されなくなります。
+   キャンペーン[スケジュール](../campaigns/campaign-schedule.md)が、関連付けられる IP ウォームアッププランによって実行されます。つまり、スケジュールはキャンペーン自体で定義されなくなります。
 
 1. キャンペーンプロパティ、[オーディエンス](../audience/about-audiences.md)<!--best practices for IP warmup in terms of audience?-->、[コンテンツ](../email/get-started-email-design.md#key-steps)など、メールキャンペーンを作成する手順を完了します。
 
@@ -75,7 +75,7 @@ IP ウォームアップキャンペーンを作成するには、次の手順�
 
 ライブになると、キャンペーンは IP ウォームアッププランで使用できる状態になります。[詳細情報](ip-warmup-plan.md)
 
-IP ウォームアップキャンペーンは、1 つの IP ウォームアッププランでのみ使用できます。ただし、同じ IP ウォームアッププランの 1 つ以上のフェーズで同じキャンペーンを使用できます。[詳細情報](ip-warmup-plan.md#define-phases)
+IP ウォームアップキャンペーンは、1 つの IP ウォームアッププランでのみ使用できます。ただし、同じ IP ウォームアッププランの 1 つ以上のフェーズで同じキャンペーンを使用できます。[詳細情報](ip-warmup-plan.md#ip-warmup-plan-tab)
 
 >[!NOTE]
 >

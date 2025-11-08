@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: IP, プール, グループ, サブドメイン, 配信品質
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: a44b68e99ec4c55b8ed27b244fcb9e76bdb97760
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 100%
@@ -103,7 +103,7 @@ IP プールを編集するには、次の手順に従います。
 
 >[!NOTE]
 >
->[チャネル設定の作成](channel-surfaces.md#create-channel-surface)時、編集中の IP プール（**[!UICONTROL 処理中]**&#x200B;ステータス）を選択しており、その設定用に選択されたサブドメインに関連付けられていない場合は、設定の作成を続行できません。[詳細情報](channel-surfaces.md#subdomains-and-ip-pools)
+>[チャネル設定の作成](channel-surfaces.md#create-channel-surface)時、編集中の IP プール（**[!UICONTROL 処理中]**&#x200B;ステータス）を選択しており、その設定用に選択されたサブドメインに関連付けられていない場合は、設定の作成を続行できません。[詳細情報](channel-surfaces.md#create-channel-surface)
 
 IP プールの更新ステータスを確認するには、「**[!UICONTROL その他のアクション]**」ボタンをクリックし、「**[!UICONTROL 最近の更新]**」を選択します。
 
