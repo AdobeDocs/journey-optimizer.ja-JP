@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 公開, ジャーニー, ライブ, 有効性, 確認
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 version: Journey Orchestration
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 100%
@@ -30,7 +30,7 @@ ht-degree: 100%
 1. ジャーニーを公開する前に、そのジャーニーが有効で、エラーがないことを確認します。エラーのあるジャーニーは公開できません。
 
    * ジャーニーをテストする方法について詳しくは、[このページ](testing-the-journey.md)を参照してください。
-   * ジャーニーのエラーをトラブルシューティングする方法について詳しくは、[この節](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)を参照してください。
+   * ジャーニーのエラーをトラブルシューティングする方法について詳しくは、[この節](../building-journeys/troubleshooting.md#activity-errors)を参照してください。
 
 1. ジャーニーを公開するには、右上のドロップダウンメニューにある「**[!UICONTROL 公開]**」オプションをクリックします。
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 
    ![](assets/journeyuc1_18.png)
 
-ジャーニーを公開すると、**読み取り専用**&#x200B;モードになります。読み取り専用モードでは、アクティビティのラベルと説明、ジャーニーの名前、ジャーニーの説明のみを変更できます。公開済みのジャーニーに追加の変更を行う必要がある場合は、ジャーニーの[新しいバージョン](journey-ui.md#journey-versions)を作成します。
+ジャーニーを公開すると、**読み取り専用**&#x200B;モードになります。読み取り専用モードでは、アクティビティのラベルと説明、ジャーニーの名前、ジャーニーの説明のみを変更できます。公開済みのジャーニーに追加の変更を行う必要がある場合は、ジャーニーの[新しいバージョン](journey-ui.md#journey-filter)を作成します。
 
 ジャーニーを停止すると、そのジャーニーは完全に停止します。ジャーニーを進むすべての個人は完全に停止し、ジャーニーは新規エントリの許可を停止します。ジャーニーを再び実行する必要がある場合は、複製して新しいジャーニーを公開します。
 
@@ -81,11 +81,11 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->ジャーニーのバージョン管理には、特定のガードレールと制限が適用されます。詳しくは、[このページ](../start/guardrails.md#journey-versions-journey-versions-g)を参照してください。
+>ジャーニーのバージョン管理には、特定のガードレールと制限が適用されます。詳しくは、[このページ](../start/guardrails.md#journey-versions-g)を参照してください。
 
 
 ## チュートリアルビデオ {#video}
 
 ジャーニーの公開方法について詳しくは、次のビデオを参照してください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3427936?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)

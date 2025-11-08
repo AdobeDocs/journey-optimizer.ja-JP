@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: ランディング, ランディングページ, ユースケース
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '980'
 ht-degree: 100%
@@ -48,7 +48,7 @@ ht-degree: 100%
 
    ![](assets/lp_subscription-uc-thanks.png)
 
-1. ランディングページを[公開](create-lp.md#publish)します。
+1. ランディングページを[公開](create-lp.md#publish-landing-page)します。
 
 1. [ジャーニー](../building-journeys/journey.md)で、**メール**&#x200B;アクティビティを追加して、登録ランディングページにトラフィックを誘導します。
 
@@ -127,7 +127,7 @@ ht-degree: 100%
    >
    >必ずプライマリページの&#x200B;**[!UICONTROL フォーム]**&#x200B;コンポーネントの「**[!UICONTROL コールトゥアクション]**」セクションにあるサブページを参照してください。[詳細情報](design-lp.md)
 
-1. ページのコンテンツを設定して定義したら、ランディングページを[公開](create-lp.md#publish)します。
+1. ページのコンテンツを設定して定義したら、ランディングページを[公開](create-lp.md#publish-landing-page)します。
 
 1. ジャーニーで[メールメッセージを作成します](../email/get-started-email-design.md)。
 
@@ -171,7 +171,7 @@ ht-degree: 100%
 
 **関連トピック：**
 
-* [ワンクリックオプトアウト](../email/email-opt-out.md#one-click-opt-out-link)
+* [ワンクリックオプトアウト](../email/email-opt-out.md#one-click-opt-out)
 * [メールヘッダーのオプトアウトリンク](../email/email-opt-out.md#unsubscribe-header)
 
 <!--
@@ -182,7 +182,7 @@ You can also enable your recipients to unsubscribe whithout using landing pages.
 
 * **One-click opt-out**
 
-    You can add a one-click opt-out link into your email content. This will enable your recipients to quickly unsubscribe from your communications, without being redirected to a landing page where they need to confirm opting out. [Learn more](../privacy/opt-out.md#one-click-opt-out-link)
+    You can add a one-click opt-out link into your email content. This will enable your recipients to quickly unsubscribe from your communications, without being redirected to a landing page where they need to confirm opting out. [Learn more](../privacy/opt-out.md#opt-out-personalization)
 
 * **Unsubscribe link in header**
 

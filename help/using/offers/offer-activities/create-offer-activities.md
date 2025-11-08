@@ -7,7 +7,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
-source-git-commit: fb036e910431a4ce9709b394c93484e6b76bf8f8
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '2549'
 ht-degree: 100%
@@ -397,7 +397,7 @@ ht-degree: 100%
 
 ![](../assets/decision_click-name.png)
 
-これにより、その決定の詳細情報にアクセスできます。「**[!UICONTROL 変更ログ]**」タブを選択して、決定に加えられた[すべての変更を監視](../get-started/user-interface.md#changes-log)します。
+これにより、その決定の詳細情報にアクセスできます。「**[!UICONTROL 変更ログ]**」タブを選択して、決定に加えられた[すべての変更を監視](../get-started/user-interface.md#changes-logs)します。
 
 ![](../assets/decision_information.png)
 
@@ -405,6 +405,6 @@ ht-degree: 100%
 
 意思決定管理でオファーアクティビティを作成する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/346695?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
 
 

@@ -7,7 +7,7 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1101'
 ht-degree: 100%
@@ -112,7 +112,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >この例では、優先度スコアのみを使用します。詳しくは、[実施要件ルールと制約](../../using/offers/offer-library/creating-personalized-offers.md#eligibility)を参照してください。
+   >この例では、優先度スコアのみを使用します。詳しくは、[実施要件ルールと制約](../../using/offers/offer-library/add-constraints.md#eligibility)を参照してください。
 
 ## オファーの設定 {#configure-offers}
 
@@ -130,7 +130,7 @@ ht-degree: 100%
    >
    >オファーをメッセージ内の様々な場所に表示し、様々なプレースメントのコンテキストでオファーを使用する機会を増やすことができます。
 
-   表示域について詳しくは、[この節](../../using/offers/offer-library/creating-personalized-offers.md#representations)を参照してください。
+   表示域について詳しくは、[この節](../../using/offers/offer-library/add-representations.md#representations)を参照してください。
 
 1. 最初の 2 つのプレースメントに適切な画像を選択します。「*非デジタル - テキスト*」プレースメントのカスタムテキストを入力します。
 

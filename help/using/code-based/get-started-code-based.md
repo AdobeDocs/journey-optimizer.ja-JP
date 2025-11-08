@@ -6,7 +6,7 @@ topic: Content Management
 role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 90%
@@ -88,7 +88,7 @@ Web の使用例を実行するには、web チャネルまたはコードベー
 
 1. その場所を参照するコードベースのチャネル設定を作成します。[方法について詳しくは、こちらを参照してください](code-based-configuration.md#create-code-based-configuration)
 
-1. この設定を使用して、[!DNL Journey Optimizer] でジャーニーまたはキャンペーンを作成します。[方法について詳しくは、こちらを参照してください](create-code-based.md#create-code-based-campaign)
+1. この設定を使用して、[!DNL Journey Optimizer] でジャーニーまたはキャンペーンを作成します。[方法について詳しくは、こちらを参照してください](create-code-based.md#create-code-based-experience)
 
 1. [!DNL Journey Optimizer] パーソナライゼーションエディターを使用して、選択した設定のコンテンツを指定してエクスペリエンスを作成します。[方法について詳しくは、こちらを参照してください](create-code-based.md#edit-code)
 
@@ -109,5 +109,5 @@ Web の使用例を実行するには、web チャネルまたはコードベー
 * **[コードベースの前提条件](code-based-prerequisites.md)** – 実装に必要な技術要件と開発者リソースについて説明します。
 * **[コードベースのエクスペリエンスのテスト](test-code-based.md)** – 公開前にコードベースのエクスペリエンスをプレビューしてテストする方法を説明します。
 * **[実装サンプル](code-based-implementation-samples.md)** – 様々なユースケースのコード例と実装パターンを調べます。
-* **[コードベースのエクスペリエンスチュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/channels/code-based-experience-channel/create-a-code-based-experience-campaign){target="_blank"}** - コードベースの機能とベストプラクティスに関するステップバイステップのビデオチュートリアルをご覧ください。
+* **[コードベースのエクスペリエンスチュートリアル ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/channels/code-based-experience-channel/create-a-code-based-experience-campaign){target="_blank"}** - コードベースの機能とベストプラクティスに関するステップバイステップのビデオチュートリアルをご覧ください。
 

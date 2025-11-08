@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 keywords: プライマリ, 実行, メール, ターゲット, プロファイル, Optimizer
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '641'
 ht-degree: 100%
@@ -83,7 +83,7 @@ ht-degree: 100%
 * 配信のテスト。自分のメールアドレスや電話番号を追加できる：ジャーニーを公開するとメール、SMS または WhatsApp のメッセージが届きます。
 * リスト上の購読者に対するメッセージの送信。詳しくは、[このユースケース](../building-journeys/message-to-subscribers-uc.md)を参照してください。
 
-**[!UICONTROL メール]**&#x200B;アクション、**[!UICONTROL SMS]** アクションまたは **[!UICONTROL WhatsApp]** アクションを[ジャーニー](../email/create-email.md#create-email-journey-campaign)に追加すると、プライマリメールアドレスや電話番号がジャーニーの詳細設定パラメーターの下に表示されます。
+**[!UICONTROL メール]**&#x200B;アクション、**[!UICONTROL SMS]** アクションまたは **[!UICONTROL WhatsApp]** アクションを[ジャーニー](../email/create-email.md#create-email)に追加すると、プライマリメールアドレスや電話番号がジャーニーの詳細設定パラメーターの下に表示されます。
 
 フィールドの右側にある「**[!UICONTROL パラメーターの上書きを有効にする]**」アイコンを使用して、この値を上書きします。
 

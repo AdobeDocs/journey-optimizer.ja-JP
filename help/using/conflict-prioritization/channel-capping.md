@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: メッセージ, 頻度, ルール, プレッシャー
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
-source-git-commit: 98ff30896eacdd1d8c6efd4db49cb2cbeb859a83
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1219'
 ht-degree: 98%
@@ -94,7 +94,7 @@ ht-degree: 98%
 
 1. 上記の手順を繰り返して、必要な数のルールをルールセットに追加します。
 
-1. キャップルールをメッセージに適用する準備が整ったら、ルールセットと、追加したルールをアクティブ化します。[ルールセットのアクティブ化方法の詳細情報](../conflict-prioritization/rule-sets.md#create)
+1. キャップルールをメッセージに適用する準備が整ったら、ルールセットと、追加したルールをアクティブ化します。[ルールセットのアクティブ化方法の詳細情報](../conflict-prioritization/rule-sets.md#Create)
 
 ## メッセージにルールセットを適用する {#apply-frequency-rule}
 
@@ -161,4 +161,4 @@ In this scenario, an individual profile:
 
 ## チュートリアルビデオ {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444727?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

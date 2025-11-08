@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 keywords: ランディング, ランディングページ, 設定, 環境, サブドメイン, プリセット
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: 18ff50d9625e3e5be555b6ca274b2d7f61dd126e
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 84%
@@ -24,7 +24,7 @@ ht-degree: 84%
 
 ## ランディングページプリセットの基本を学ぶ {#gs-lp-presets}
 
-[ランディングページの作成](../landing-pages/create-lp.md#create-a-lp)を行う場合は、ランディングページを作成し、**[!DNL Journey Optimizer]** を介して活用できるように、ランディングページプリセットを選択する必要があります。プリセットには、このプリセットに基づいてランディングページに使用するサブドメインが含まれています。
+[ランディングページの作成](../landing-pages/create-lp.md#create-lp)を行う場合は、ランディングページを作成し、**[!DNL Journey Optimizer]** を介して活用できるように、ランディングページプリセットを選択する必要があります。プリセットには、このプリセットに基づいてランディングページに使用するサブドメインが含まれています。
 
 プリセットを作成する前に、1 つ以上のランディングページサブドメインが設定済みであることを確認します。[ランディングページサブドメインの作成方法の詳細情報](lp-subdomains.md)
 
@@ -74,9 +74,9 @@ ht-degree: 84%
 
    >[!CAUTION]
    >
-   >選択したランディングページのサブドメインは、**[!UICONTROL トラッキング URL]** を指定するために使用されます <!--and **[!UICONTROL Image Delivery URL]** --> そのサブドメインが [&#x200B; 既存のサブドメインを使用して作成された場合 &#x200B;](lp-subdomains.md#lp-use-existing-subdomain)。
+   >選択したランディングページのサブドメインは、**[!UICONTROL トラッキング URL]** を指定するために使用されます <!--and **[!UICONTROL Image Delivery URL]** --> そのサブドメインが [ 既存のサブドメインを使用して作成された場合 ](lp-subdomains.md#lp-use-existing-subdomain)。
    >
-   >「[&#x200B; 独自のドメインを追加 &#x200B;](lp-subdomains.md#lp-configure-new-subdomain)」オプションを使用してサブドメインが作成された場合、代わりにプライマリサブドメイン（最初にデリゲートされたサブドメイン）が使用されます。
+   >「[ 独自のドメインを追加 ](lp-subdomains.md#lp-configure-new-subdomain)」オプションを使用してサブドメインが作成された場合、代わりにプライマリサブドメイン（最初にデリゲートされたサブドメイン）が使用されます。
 
 1. 「**[!UICONTROL 送信]**」をクリックして、ランディングページプリセットの作成を確定します。<!--You can also save the preset as draft and resume its configuration later on.-->
 
@@ -93,4 +93,4 @@ ht-degree: 84%
 **関連トピック**:
 
 * [ランディングページの基本を学ぶ](../landing-pages/get-started-lp.md)
-* [ランディングページの作成](../landing-pages/create-lp.md#create-a-lp)
+* [ランディングページの作成](../landing-pages/create-lp.md#create-lp)

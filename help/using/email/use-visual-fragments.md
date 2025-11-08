@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: 7a8a0c133318b0bfc33b0fdb294e5b9ef53de9a5
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 100%
@@ -64,8 +64,8 @@ ht-degree: 100%
 1. 「**[!UICONTROL 設定]**」タブから、次の操作を実行できます。
 
    * フラグメントを表示するデバイスを選択します。
-   * 必要に応じて、新しいタブでフラグメントを開いて編集します。[詳細情報](../content-management/fragments.md#edit-fragments)
-   * 参照を探索します。[詳細情報](../content-management/fragments.md#explore-references)
+   * 必要に応じて、新しいタブでフラグメントを開いて編集します。[詳細情報](../content-management/fragments.md#fragments)
+   * 参照を探索します。[詳細情報](../content-management/fragments.md#visual-expression)
 
 1. 「**[!UICONTROL スタイル]**」タブを使用して、フラグメントをさらにカスタマイズできます。
 

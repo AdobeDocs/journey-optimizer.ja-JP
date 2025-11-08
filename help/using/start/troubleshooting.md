@@ -7,7 +7,7 @@ feature: Get Started
 role: User
 level: Intermediate
 exl-id: f8acb987-5c6e-4545-93b9-fdfc0d74db57
-source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '2748'
 ht-degree: 99%
@@ -149,7 +149,7 @@ Adobe Customer Journey Analytics の&#x200B;**アプリ内チャネル**&#x200B;
 
 この問題について詳しくは、[このトラブルシューティング記事](https://experienceleague.adobe.com/ja/docs/experience-cloud-kcs/kbarticles/ka-26206){target="_blank"}を参照してください。
 
-Customer Journey Analytics で Journey Optimizer Analytics データを統合する方法について詳しくは、[このページ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/integrations/ajo#automatically-configure-journey-optimizer-integration){target="_blank"}を参照してください。
+Customer Journey Analytics で Journey Optimizer Analytics データを統合する方法について詳しくは、[このページ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/integrations/ajo#automatically-configure-journey-optimizer-integration){target="_blank"}を参照してください。
 
 詳しくは、[Journey Optimizer の全期間レポートドキュメント](../reports/report-gs-cja.md)も参照してください。
 
@@ -191,7 +191,7 @@ Adobe Journey Optimizer では、ジャーニーで&#x200B;**プロファイル�
 
 ジャーニーの&#x200B;**プロファイルを更新**&#x200B;アクティビティについて詳しくは、[このページ](../building-journeys/update-profiles.md)を参照してください。
 
-詳しくは、[データ取り込みに関する Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/ingestion/tutorials/ingest-batch-data#dataset-activity){target="_blank"}も参照してください。
+詳しくは、[データ取り込みに関する Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/tutorials/ingest-batch-data#dataset-activity){target="_blank"}も参照してください。
 
 +++
 
@@ -201,9 +201,9 @@ Adobe Journey Optimizer では、ジャーニーで&#x200B;**プロファイル�
 
 この問題の解決手順について詳しくは、[このトラブルシューティング記事](https://experienceleague.adobe.com/ja/docs/experience-cloud-kcs/kbarticles/ka-26253){target="_blank"}を参照してください。
 
-詳しくは、[この Journey Optimizer コミュニティの投稿](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998?profile.language=ja){target="_blank"}を参照してください。
+詳しくは、[この Journey Optimizer コミュニティの投稿](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998){target="_blank"}を参照してください。
 
-毎日のジョブがスケジュールされるタイミングを確認するには、[Adobe Experience Platform Schedules API ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/api/schedules){target="_blank"}も参照してください。
+毎日のジョブがスケジュールされるタイミングを確認するには、[Adobe Experience Platform Schedules API ドキュメント](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/api/schedules){target="_blank"}も参照してください。
 
 +++
 
@@ -216,7 +216,7 @@ Adobe Journey Optimizer では、ジャーニーで&#x200B;**プロファイル�
 
 ジャーニーの&#x200B;**プロファイルを更新**&#x200B;アクティビティについて詳しくは、[このページ](../building-journeys/update-profiles.md)を参照してください。
 
-詳しくは、[Adobe Real-Time CDP プロファイルドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/ui/user-guide#profile-detail){target="_blank"}も参照してください。
+詳しくは、[Adobe Real-Time CDP プロファイルドキュメント](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#profile-detail){target="_blank"}も参照してください。
 
 +++
 
@@ -228,7 +228,7 @@ Adobe Journey Optimizer では、ジャーニーで&#x200B;**プロファイル�
 
 [ライセンス使用状況ダッシュボード](../audience/license-usage.md)を使用して、組織のライセンス使用状況とエンゲージ可能なプロファイルを監視します。
 
-詳しくは、[Adobe Experience Platform クエリサービスの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/query/home){target="_blank"}も参照してください。
+詳しくは、[Adobe Experience Platform クエリサービスの概要](https://experienceleague.adobe.com/en/docs/experience-platform/query/home){target="_blank"}も参照してください。
 
 +++
 
@@ -287,7 +287,7 @@ Adobe Journey Optimizer では、ジャーニーで&#x200B;**プロファイル�
 
 この問題の解決手順について詳しくは、[このトラブルシューティング記事](https://experienceleague.adobe.com/ja/docs/experience-cloud-kcs/kbarticles/ka-26018){target="_blank"}を参照してください。
 
-詳しくは、[ジャーニーガードレール](../start/guardrails.md#journey-guardrails)も参照してください。
+詳しくは、[ジャーニーガードレール](../start/guardrails.md#decisioning-guardrails)も参照してください。
 
 +++
 
@@ -300,7 +300,7 @@ Adobe Journey Optimizer では、ジャーニーで&#x200B;**プロファイル�
 
 イベントについて詳しくは、[このページ](../event/about-events.md)を参照してください。
 
-詳しくは、[ジャーニーイベントガードレール](../start/guardrails.md#events)も参照してください。
+詳しくは、[ジャーニーイベントガードレール](../start/guardrails.md#events-g)も参照してください。
 
 +++
 
@@ -413,6 +413,6 @@ Postman や同様のツールを通じて **Query Service API** を使用する�
 
 詳しくは、[このトラブルシューティング記事](https://experienceleague.adobe.com/ja/docs/experience-cloud-kcs/kbarticles/ka-26196){target="_blank"}を参照してください。
 
-詳しくは、[API 資格情報の管理ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/abac/permissions-ui/permissions#manage-api-credentials-for-role){target="_blank"}も参照してください。
+詳しくは、[API 資格情報の管理ドキュメント](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions#manage-api-credentials-for-role){target="_blank"}も参照してください。
 
 +++

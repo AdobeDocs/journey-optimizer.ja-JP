@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: ランディング, ランディングページ
 exl-id: cc4cfd17-4d85-4dcd-8dd9-23cc2cd898be
-source-git-commit: 27e5d1565522f5daa006a16438671ce9d559465b
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 100%
@@ -87,6 +87,6 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL その他のアクション]**」ボタンを使用すると、ランディングページを別の既存フォルダーに移動することもできます。
 
-1. これで、作成したフォルダーに移動できます。ここから[作成](create-lp.md#create-landing-page.md)した新しいランディングページはそれぞれ現在のフォルダーに保存されます。
+1. これで、作成したフォルダーに移動できます。ここから[作成](create-lp.md#create-landing-page)した新しいランディングページはそれぞれ現在のフォルダーに保存されます。
 
    ![](assets/lp-folder-create.png)

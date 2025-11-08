@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: ジャーニー, 質問, 回答, トラブルシューティング, ヘルプ, ガイド
 version: Journey Orchestration
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '5125'
 ht-degree: 87%
@@ -144,7 +144,7 @@ CJA オーディエンスはジャーニーで直接サポートされていま�
 * 大規模デプロイメントでのオーディエンスサイズと評価パフォーマンスの監視
 * ジャーニーのタイミングとエントリ条件を設計する際は、オーディエンスの更新頻度を考慮します
 
-[&#x200B; オーディエンス &#x200B;](../audience/about-audiences.md)、[&#x200B; セグメントの作成 &#x200B;](../audience/creating-a-segment-definition.md)、[&#x200B; カスタムアップロードオーディエンス &#x200B;](../audience/custom-upload.md) および [Federated Audience Composition](../audience/federated-audience-composition.md) について説明します。
+[ オーディエンス ](../audience/about-audiences.md)、[ セグメントの作成 ](../audience/creating-a-segment-definition.md)、[ カスタムアップロードオーディエンス ](../audience/custom-upload.md) および [Federated Audience Composition](../audience/federated-audience-composition.md) について説明します。
 
 +++
 
@@ -403,7 +403,7 @@ Journey Optimizer には、次の 2 つのテストアプローチが用意さ�
 
 既にジャーニーに含まれているプロファイルは元のバージョンを完了し、新しいプロファイルは新しいバージョンにエントリします。
 
-詳しくは、[ジャーニーバージョン](journey-ui.md#journey-versions)を参照してください。
+詳しくは、[ジャーニーバージョン](journey-ui.md#journey-filter)を参照してください。
 
 +++
 

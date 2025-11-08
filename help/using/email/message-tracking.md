@@ -9,7 +9,7 @@ role: User
 level: Beginner, Intermediate
 keywords: リンク, トラッキング, 監視, メール
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1344'
 ht-degree: 100%
@@ -73,7 +73,7 @@ ht-degree: 100%
 
    * ブランドからのコミュニケーションの受信に同意するリンクを挿入する場合は、「**[!UICONTROL 外部オプトイン / 購読]**」を選択します。
 
-   * ブランドからのコミュニケーションの受信を解除するリンクを挿入する場合は、「**[!UICONTROL 外部オプトアウト / 登録解除]**」を選択します。オプトアウト管理について詳しくは、[この節](email-opt-out.md#opt-out-management)を参照してください。
+   * ブランドからのコミュニケーションの受信を解除するリンクを挿入する場合は、「**[!UICONTROL 外部オプトアウト / 登録解除]**」を選択します。オプトアウト管理について詳しくは、[この節](email-opt-out.md#email-opt-out)を参照してください。
 
    * メールのミラーページへのリンクを追加する場合は、「**[!UICONTROL ミラーページ]**」を選択します。[詳細情報](#mirror-page)
 
@@ -93,7 +93,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->マーケティングタイプの電子メールメッセージには、[オプトアウトリンク](../privacy/opt-out.md#opt-out-management)を含める必要があります。これはトランザクションメッセージには必要ありません。メッセージカテゴリ（**[!UICONTROL マーケティング]**&#x200B;または&#x200B;**[!UICONTROL トランザクション]**）は、メッセージの作成時に[チャネル設定](../configuration/channel-surfaces.md#email-type)に定義されます。
+>マーケティングタイプの電子メールメッセージには、[オプトアウトリンク](../privacy/opt-out.md#opt-out-decision-management)を含める必要があります。これはトランザクションメッセージには必要ありません。メッセージカテゴリ（**[!UICONTROL マーケティング]**&#x200B;または&#x200B;**[!UICONTROL トランザクション]**）は、メッセージの作成時に[チャネル設定](email-settings.md#email-type)に定義されます。
 
 メッセージが送信されると、リンクは **25 か月**&#x200B;間保持されます。遅延が経過した後は、そのリンクを使用できなくなります。
 

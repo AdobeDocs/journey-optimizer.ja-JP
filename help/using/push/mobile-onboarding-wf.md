@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate
 badge: label="ベータ版" type="Informative"
 exl-id: 364ef926-3f92-4297-acbd-a283668106ac
-source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 100%
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 ## 基本を学ぶ{#gs-mobile-wf}
 
-この新しいワークフローは、合計クリック数を減らし、Journey Optimizer のモバイル設定を高速化することで、データ収集の設定を自動化します。このクイックスタートワークフローでは、4 つの簡単な手順に従って、モバイル設定を[設定](##setup-mobile-wf)、[実装](#implement-mobile-wf)、[検証](#valid-mobile-wf)、[レビュー](#review-mobile-wf)できます。
+この新しいワークフローは、合計クリック数を減らし、Journey Optimizer のモバイル設定を高速化することで、データ収集の設定を自動化します。このクイックスタートワークフローでは、4 つの簡単な手順に従って、モバイル設定を[設定](#gs-mobile-wf)、[実装](#implement-mobile-wf)、[検証](#valid-mobile-wf)、[レビュー](#review-mobile-wf)できます。
 
 新しいモバイルオンボーディングクイックスタートワークフローにアクセスするには、ソリューション切り替えツールから **[!DNL Data Collection]** を参照します。次に、ホームページで **[!DNL Start Collecting Mobile Data]** カードを選択します。
 
@@ -75,5 +75,5 @@ ht-degree: 100%
 * [プッシュ通知の基本を学ぶ](../../rp_landing_pages/push-landing-page.md)
 * [プッシュ通知のデータフローとコンポーネント](push-gs.md)
 * [プッシュチャネルの設定](push-configuration.md)
-* [プッシュ通知レポート](../reports/journey-global-report-cja-push.md#push-global)
+* [プッシュ通知レポート](../reports/journey-global-report-cja-push.md#track-link-url-push)
 * [プッシュ通知の作成](create-push.md)

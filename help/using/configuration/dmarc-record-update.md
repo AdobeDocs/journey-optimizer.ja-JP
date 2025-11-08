@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: サブドメイン、ドメイン、メール、DMARC、レコード
 exl-id: 15b10a61-6ecd-4ffa-b1c2-21e862263f6d
-source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 100%
@@ -33,7 +33,7 @@ Google と Yahoo! は、業界のベストプラクティス実施の一環と�
 
 そのため、[!DNL Journey Optimizer] でアドビにデリゲートしたすべてのサブドメインに対して、DMARC レコードが設定されていることを確認することを強くお勧めします。お客様のケースに適用される、以下の手順に従います。
 
-* 送信サブドメインをアドビに[完全にデリゲート](delegate-subdomain.md#full-subdomain-delegation)している場合は、以下のオプションのいずれかに従います。
+* 送信サブドメインをアドビに[完全にデリゲート](delegate-subdomain.md#set-up-subdomain)している場合は、以下のオプションのいずれかに従います。
 
    * **ホスティングソリューション**のデリゲートされたサブドメインの親ドメインに DMARC を設定します。
 または

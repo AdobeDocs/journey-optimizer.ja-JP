@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-source-git-commit: 4d7ad2c3ed71801298f1afe31d0e29d7bb1d5c7f
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '6783'
 ht-degree: 100%
@@ -308,7 +308,7 @@ ht-degree: 100%
    * プロファイルストアのデータの場合は 90 日
    * データレイクのデータの場合は 13 か月
 
-  この変更は、後続のフェーズで既存のお客様のサンドボックスにロールアウトされます。[詳細情報](../data/datasets-ttl.md#ttl)
+  この変更は、後続のフェーズで既存のお客様のサンドボックスにロールアウトされます。[詳細情報](../data/datasets-ttl.md#ttl-guardrail)
 
 * **カスタムアクションのパラメーター** - 公開日：2024年10月3日（PT） - カスタムアクションで NULL およびオプションパラメーターがサポートされるようになりました。[詳細情報](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
@@ -631,7 +631,7 @@ ht-degree: 100%
 **ジャーニー**
 
 * **条件**&#x200B;アクティビティでは、デフォルトで、**[!UICONTROL 時間条件]**&#x200B;が 00:00 から 12:00 までの時間単位で設定されるようになりました。[詳細情報](../building-journeys/condition-activity.md#time_condition)
-* ジャーニーを作成する際に、「**アラート**」ボタンからアラートが表示されるようになり、他のアラートに合わせて一貫したユーザー エクスペリエンスを実現します。[詳細情報](../building-journeys/troubleshooting.md#checking-for-errors-before-testing)
+* ジャーニーを作成する際に、「**アラート**」ボタンからアラートが表示されるようになり、他のアラートに合わせて一貫したユーザー エクスペリエンスを実現します。[詳細情報](../building-journeys/troubleshooting.md#activity-errors)
 * ジャーニーツールバーのズームオプションが改善されました。ズームの割合が表示され、ズーム値をより簡単にリセットできるようになりました。
 
 **プッシュチャネル**
@@ -1129,7 +1129,7 @@ ht-degree: 100%
 
 **コンテンツ管理**
 
-* すべてのチャネルのコンテンツテンプレートをシミュレートできるようになりました。[詳細情報](../content-management/content-templates.md#test-templates)
+* すべてのチャネルのコンテンツテンプレートをシミュレートできるようになりました。[詳細情報](../content-management/content-templates.md#video-templates)
 
 **パーソナライゼーション**
 
@@ -1242,7 +1242,7 @@ ht-degree: 100%
 
 * **オーディエンス構成を通じて作成されたオーディエンス**&#x200B;をターゲットにし、ジャーニーのエンリッチメント属性を活用できるようになりました。[詳細情報](../building-journeys/read-audience.md)
 
-* **CSV ファイルからアップロードされたオーディエンス**&#x200B;を、ジャーニーやキャンペーンにターゲットできるようになりました。[詳細情報](../audience/about-audiences.md#segments-in-journey-optimizer)
+* **CSV ファイルからアップロードされたオーディエンス**&#x200B;を、ジャーニーやキャンペーンにターゲットできるようになりました。[詳細情報](../audience/about-audiences.md#about-segments)
 
   >[!AVAILABILITY]
   >

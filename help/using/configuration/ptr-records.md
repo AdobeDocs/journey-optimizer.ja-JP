@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: サブドメイン, PTR, レコード, DNS, ドメイン, メール
 exl-id: 4c930792-0677-4ad5-a46c-8d40fc3c4d3a
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '842'
 ht-degree: 100%
@@ -64,13 +64,13 @@ PTR レコードを使用すると、受信メールサーバーは、送信メ�
 
 ### 完全にデリゲートされたサブドメイン {#fully-delegated-subdomains}
 
-アドビに[完全にデリゲートされた](delegate-subdomain.md#full-subdomain-delegation)サブドメインを持つ PTR レコードを編集するには、次の手順に従います。
+アドビに[完全にデリゲートされた](delegate-subdomain.md#set-up-subdomain)サブドメインを持つ PTR レコードを編集するには、次の手順に従います。
 
 1. リストで PTR レコード名をクリックして開きます。
 
    ![](assets/ptr-record-select.png)
 
-1. リストからアドビに[完全にデリゲートされた](delegate-subdomain.md#full-subdomain-delegation)サブドメインを選択します。
+1. リストからアドビに[完全にデリゲートされた](delegate-subdomain.md#set-up-subdomain)サブドメインを選択します。
 
    ![](assets/ptr-record-subdomain.png)
 

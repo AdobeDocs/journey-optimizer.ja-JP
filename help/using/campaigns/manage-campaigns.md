@@ -10,7 +10,7 @@ mini-toc-levels: 1
 level: Beginner
 keywords: キャンペーンの管理, ステータス, スケジュール, アクセス, Optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1709'
 ht-degree: 100%
@@ -29,7 +29,7 @@ ht-degree: 100%
 >title="アクション"
 >abstract="この節では、調整されたキャンペーン内で使用されるすべてのアクションを示します。"
 
-キャンペーンは、**[!UICONTROL キャンペーン]**&#x200B;メニューからアクセスできます。以下のタブを使用して、**アクション**&#x200B;キャンペーン、**API トリガー**&#x200B;キャンペーン、**オーケストレーション**&#x200B;キャンペーンなどのタイプ別にキャンペーンを参照します。詳しくは、[キャンペーンのタイプ](get-started-with-campaigns.md#get-started-with-campaigns)を参照してください。使用可能なタイプは、ライセンス契約と権限によって異なります。
+キャンペーンは、**[!UICONTROL キャンペーン]**&#x200B;メニューからアクセスできます。以下のタブを使用して、**アクション**&#x200B;キャンペーン、**API トリガー**&#x200B;キャンペーン、**オーケストレーション**&#x200B;キャンペーンなどのタイプ別にキャンペーンを参照します。詳しくは、[キャンペーンのタイプ](get-started-with-campaigns.md#get-started-campaigns)を参照してください。使用可能なタイプは、ライセンス契約と権限によって異なります。
 
 >[!BEGINTABS]
 
@@ -66,7 +66,7 @@ ht-degree: 100%
 ![キャンペーンの在庫を示す画像](assets/inventory-actions.png)
 
 * **[!UICONTROL 全期間のレポートを表示]**／**[!UICONTROL 過去 24 時間のレポートを表示]** - レポートにアクセスして、キャンペーンの影響とパフォーマンスを測定および視覚化します。詳しくは、[キャンペーンレポート](../reports/campaign-global-report-cja.md)を参照してください。
-* **[!UICONTROL タグを編集]** - キャンペーンに関連付けられたタグを編集します。詳しくは、[キャンペーンでのタグの使用](../start/search-filter-categorize.md#add-tags-to-an-object)を参照してください。
+* **[!UICONTROL タグを編集]** - キャンペーンに関連付けられたタグを編集します。詳しくは、[キャンペーンでのタグの使用](../start/search-filter-categorize.md#add-tags)を参照してください。
 * **[!UICONTROL 複製]** - このオプションを使用して、例えば、停止済みのオーケストレーションキャンペーンの実行に、キャンペーンを複製します。[詳細情報](#duplicate-a-campaign)
 * **[!UICONTROL 削除]** - このオプションを使用して、キャンペーンを削除します。[詳細情報](#delete-a-campaign)
 * **[!UICONTROL アーカイブ]** - キャンペーンをアーカイブします。すべてのアーカイブ済みキャンペーンは、最終変更日から 30 日後にローリングスケジュールで削除されます。このアクションは、**[!UICONTROL ドラフト]**&#x200B;キャンペーンを除くすべてのキャンペーンで使用できます。詳しくは、[キャンペーンのアーカイブ](#archive-a-campaign)を参照してください。

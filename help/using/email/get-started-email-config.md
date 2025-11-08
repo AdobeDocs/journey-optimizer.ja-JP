@@ -9,7 +9,7 @@ feature: Channel Configuration, Email
 topic: Administration
 keywords: メール, 設定, サーフェス, サブドメイン
 exl-id: 1fc9a4f6-6c34-4414-b400-aac6bda9ee25
-source-git-commit: ea8f77c2821bfae7b853b3ac39ea22f0d19ae43d
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 100%
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 1. 各メールチャネル設定で、メールの配信に必要なすべての&#x200B;**技術的パラメーター**&#x200B;を設定します。[詳細情報](email-settings.md)
 
-   * ここで、メールの送信に使用するサブドメインと、設定に関連付ける IP プールを選択します。[詳細情報](email-settings.md#subdomains-and-ip-pools)
+   * ここで、メールの送信に使用するサブドメインと、設定に関連付ける IP プールを選択します。[詳細情報](email-settings.md#ip-pools)
 
    ![](assets/surface-subdomain-ip-pool.png)
 

@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 5dd46ea8-acba-4c42-a65a-c18e45cba2cd
-source-git-commit: 92247adabc56f369c9b11cdc519cdc7bf30c99f1
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1218'
 ht-degree: 100%
@@ -104,7 +104,7 @@ JSON または HTML コードの一部を編集可能にするには、まず、
 
 1. 編集画面の右側のパネルにある&#x200B;**[!UICONTROL 決定を表示]**&#x200B;アイコンを使用するか、式エディターの左側のメニューの「**[!UICONTROL 決定ポリシー]**」セクションから「**[!UICONTROL 決定ポリシーを追加]**」をクリックします。
 
-   決定ポリシーの作成方法について詳しくは、[この節](../experience-decisioning/create-decision.md#add-decision)を参照してください。
+   決定ポリシーの作成方法について詳しくは、[この節](../experience-decisioning/create-decision.md#create-decision)を参照してください。
 
 1. 「**[!UICONTROL ポリシーを挿入]**」ボタンをクリックします。決定ポリシーに対応するコードが追加されます。
 
@@ -246,4 +246,4 @@ JSON テンプレートと HTML テンプレートの例を以下に示します
 
 コードベースのエクスペリエンスチャネルコンテンツテンプレートに編集可能なフィールドを追加する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3463992/?captions=jpn&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3463990/?learn=on&#x26;enablevpops)

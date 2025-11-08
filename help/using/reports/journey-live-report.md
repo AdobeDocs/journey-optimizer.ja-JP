@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e3781f79-7c8d-4512-b44f-835639b1471f
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '3712'
 ht-degree: 100%
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 ジャーニー&#x200B;**[!UICONTROL ライブレポート]**&#x200B;は、ジャーニーの成功とエラーの詳細を示す様々なウィジェットに分かれています。必要に応じて、各ウィジェットのサイズを変更したり削除したりできます。詳しくは、この[節](live-report.md#modify-dashboard)を参照してください。
 
-Adobe Journey Optimizer で使用可能なすべての指標の詳細なリストについては、[このページ](live-report.md#list-of-components-live)を参照してください。
+Adobe Journey Optimizer で使用可能なすべての指標の詳細なリストについては、[このページ](live-report.md#live-report)を参照してください。
 
 ## 「ジャーニー」タブ {#journey-live}
 

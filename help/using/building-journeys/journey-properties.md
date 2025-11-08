@@ -10,7 +10,7 @@ level: Intermediate
 keywords: ジャーニー、設定、プロパティ
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '2748'
 ht-degree: 99%
@@ -55,7 +55,7 @@ ht-degree: 99%
 
 プロファイルエントリモードは、右側の設定パネルのジャーニーレベルで定義されます。設定は次のとおりです。
 
-プロファイルエントリ管理は、ジャーニーのタイプに応じて異なります。プロファイルのエントリおよび再エントリ管理について詳しくは、[&#x200B; このページ &#x200B;](entry-management.md) を参照してください。 ジャーニーの処理率と、ジャーニー内でのプロファイルのフローについて詳しくは、[&#x200B; この節 &#x200B;](entry-management.md#journey-processing-rate) を参照してください。
+プロファイルエントリ管理は、ジャーニーのタイプに応じて異なります。プロファイルのエントリおよび再エントリ管理について詳しくは、[ このページ ](entry-management.md) を参照してください。 ジャーニーの処理率と、ジャーニー内でのプロファイルのフローについて詳しくは、[ この節 ](entry-management.md#journey-processing-rate) を参照してください。
 
 ### 再エントリを許可  {#allow-reentrance}
 
@@ -307,7 +307,7 @@ Adobe Journey Optimizer は、ジャーニー全体を通じて使用される�
 
 この機能は、一時停止／再開機能と連携して動作し、より安全で柔軟にジャーニーを管理するのに役立ちます。これにより、手動による介入を最小限に抑え、無関係な通信や準拠していない通信を送信するリスクを軽減し、ジャーニーロジックを現在のビジネス要件に合わせて維持できます。
 
-[一時停止したジャーニーでプロファイル属性の終了条件を使用](journey-pause.md#apply-a-global-filter-to-profiles-in-a-paused-journey)する方法について詳しくは、この節を参照してください。
+[一時停止したジャーニーでプロファイル属性の終了条件を使用](journey-pause.md#journey-pause-sample)する方法について詳しくは、この節を参照してください。
 
 ### ガードレールと制限 {#exit-criteria-guardrails}
 

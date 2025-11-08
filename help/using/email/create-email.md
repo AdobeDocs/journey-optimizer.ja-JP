@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 作成, メール, 開始, ジャーニー, キャンペーン
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 3aa3203ae7763d81288cb70a2984d017b0006bb3
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1026'
 ht-degree: 100%
@@ -51,7 +51,7 @@ ht-degree: 100%
 
 1. スケジュール済みキャンペーンまたは API トリガーキャンペーンを新規作成し、アクションとして「**[!UICONTROL メール]**」を選択します。
 
-1. キャンペーンプロパティ、[オーディエンス](../audience/about-audiences.md)、[スケジュール](../campaigns/create-campaign.md#schedule)など、メールキャンペーンを作成する手順を完了します。
+1. キャンペーンプロパティ、[オーディエンス](../audience/about-audiences.md)、[スケジュール](../campaigns/campaign-schedule.md#action-campaign-schedule)など、メールキャンペーンを作成する手順を完了します。
 
    ![](assets/email_campaign_steps.png)
 
@@ -86,7 +86,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
 1. メールに決定ポリシーを追加する場合は、**[!UICONTROL 決定を有効にする]**&#x200B;を切り替えます。
 
-   決定ポリシーは、各オーディエンスメンバーに配信する最適なコンテンツを動的に返すことを目的に、決定エンジンを活用するオファーのコンテナです。[メールでの決定ポリシーの作成方法の詳細情報](../experience-decisioning/create-decision.md#add)
+   決定ポリシーは、各オーディエンスメンバーに配信する最適なコンテンツを動的に返すことを目的に、決定エンジンを活用するオファーのコンテナです。[メールでの決定ポリシーの作成方法の詳細情報](../experience-decisioning/create-decision.md#create-decision)
 
    ![](assets/../../experience-decisioning/assets/decision-policy-enable.png)
 
@@ -132,7 +132,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
 * **警告**&#x200B;は、次のようなレコメンデーションやベストプラクティスを示しています。
 
-   * **[!UICONTROL メール本文にオプトアウトンクがありません]**：購読解除リンクをメール本文に追加するのがベストプラクティスです。設定方法について詳しくは、[この節](../privacy/opt-out.md#opt-out-management)を参照してください。
+   * **[!UICONTROL メール本文にオプトアウトンクがありません]**：購読解除リンクをメール本文に追加するのがベストプラクティスです。設定方法について詳しくは、[この節](../privacy/opt-out.md#opt-out-decision-management)を参照してください。
 
      >[!NOTE]
      >

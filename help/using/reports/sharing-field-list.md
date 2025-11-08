@@ -8,7 +8,7 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 100%
@@ -112,7 +112,7 @@ eventTypes について詳しくは、[この節](#discarded-events)を参照し
    * **PAUSED_JOURNEY_VERSION**：ジャーニーのエントリ時に発生した破棄
    * **JOURNEY_IN_PAUSED_STATE**：プロファイルがジャーニー内にある際に発生した破棄
 
-  これらのイベントとトラブルシューティング方法について詳しくは、[ジャーニーの一時停止の節](../building-journeys/journey-pause.md#troubleshoot-profile-discards-in-paused-journeys)を参照してください。
+  これらのイベントとトラブルシューティング方法について詳しくは、[ジャーニーの一時停止の節](../building-journeys/journey-pause.md#discards-troubleshoot)を参照してください。
 
 ## その他のリソース
 

@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: メール, テンプレート, デザイン
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
-source-git-commit: 5be9ac1f77d7a09089dd8115fd7c9cfa0a3ab0d2
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 100%
@@ -33,9 +33,9 @@ ht-degree: 100%
 
 * **保存済みテンプレート**.また、次のいずれかの方法でカスタムテンプレートを使用することもできます。
 
-   * 「**[!UICONTROL コンテンツテンプレート]**」メニューを使用してゼロから作成する。[詳細情報](../content-management/content-templates.md#create-template-from-scratch)
+   * 「**[!UICONTROL コンテンツテンプレート]**」メニューを使用してゼロから作成する。[詳細情報](../content-management/content-templates.md#content-templates)
 
-   * 「**[!UICONTROL コンテンツテンプレートとして保存]**」オプションを使用して、ジャーニーまたはキャンペーンの電子メールから保存する。[詳細情報](../content-management/content-templates.md#save-as-template)
+   * 「**[!UICONTROL コンテンツテンプレートとして保存]**」オプションを使用して、ジャーニーまたはキャンペーンの電子メールから保存する。[詳細情報](../content-management/content-templates.md#video-templates)
 
 サンプルまたは保存済みのテンプレートの 1 つを使用してコンテンツの作成を開始するには、次の手順に従います。
 
@@ -47,7 +47,7 @@ ht-degree: 100%
 
    ![](assets/email_designer-saved-templates-tab.png)
 
-1. 現在のサンドボックスに作成されたすべての[コンテンツテンプレート](../content-management/content-templates.md#create-content-templates)のリストが表示されます。**[!UICONTROL 名前別]**、**[!UICONTROL 最終変更日]**&#x200B;および&#x200B;**[!UICONTROL 最終作成日]**&#x200B;で並べ替え可能です。
+1. 現在のサンドボックスに作成されたすべての[コンテンツテンプレート](../content-management/content-templates.md#content-templates)のリストが表示されます。**[!UICONTROL 名前別]**、**[!UICONTROL 最終変更日]**&#x200B;および&#x200B;**[!UICONTROL 最終作成日]**&#x200B;で並べ替え可能です。
 
    ![](assets/email_designer-saved-templates-filter.png)
 

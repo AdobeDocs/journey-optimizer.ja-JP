@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: メッセージ, 頻度, ルール, プレッシャー
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 25f581e0f501c148140716da1ef1bf7fd4f43352
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '1062'
 ht-degree: 97%
@@ -151,7 +151,7 @@ ht-degree: 97%
    ルールセットを適用する方法について詳しくは、次の節を参照してください。
 
    * [ジャーニーにルールセットを適用する](../conflict-prioritization/journey-capping.md#apply-capping)
-   * [ジャーニーとキャンペーンのアクションへのキャッピングルールの適用](../conflict-prioritization/channel-capping.md#apply)
+   * [ジャーニーとキャンペーンのアクションへのキャッピングルールの適用](../conflict-prioritization/channel-capping.md#apply-frequency-rule)
    * [ジャーニーとキャンペーンへのクワイエットアワールールの適用](../conflict-prioritization/quiet-hours.md#apply)
 
 ## ルールセットへのアクセスと管理 {#access-rule-sets}
@@ -180,4 +180,4 @@ ht-degree: 97%
 
 ## チュートリアルビデオ {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444727?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

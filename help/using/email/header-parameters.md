@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 設定, メール, 設定
 exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '712'
 ht-degree: 100%
@@ -65,7 +65,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->入力したアドレスのサブドメインがアドビに[完全にデリゲート](../configuration/delegate-subdomain.md#full-subdomain-delegation)されたドメインである場合は、アドビ担当者にお問い合わせください。
+>入力したアドレスのサブドメインがアドビに[完全にデリゲート](../configuration/delegate-subdomain.md#set-up-subdomain)されたドメインである場合は、アドビ担当者にお問い合わせください。
 
 ## メールの転送 {#forward-email}
 

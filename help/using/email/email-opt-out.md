@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: オプトアウト, メール, リンク, 登録解除
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: 47185cdcfb243d7cb3becd861fec87abcef1f929
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '991'
 ht-degree: 95%
@@ -22,7 +22,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->すべてのマーケティングのメッセージには、オプトアウトリンクを含める必要があります。トランザクションメッセージの場合、これは必須ではありません。メッセージカテゴリ（**[!UICONTROL マーケティング]**&#x200B;または&#x200B;**[!UICONTROL トランザクション]**）は、メッセージの作成時に[チャネル設定](../configuration/channel-surfaces.md#email-type)レベルで定義されます。
+>すべてのマーケティングのメッセージには、オプトアウトリンクを含める必要があります。トランザクションメッセージの場合、これは必須ではありません。メッセージカテゴリ（**[!UICONTROL マーケティング]**&#x200B;または&#x200B;**[!UICONTROL トランザクション]**）は、メッセージの作成時に[チャネル設定](email-settings.md#email-type)レベルで定義されます。
 
 メールコンテンツに購読解除リンクを挿入するには、次の操作を実行します。
 
@@ -97,7 +97,7 @@ Adobe Journey Optimizer でランディングページを作成して購読解�
 
 +++ オプトアウト API 呼び出しの実装方法について説明します。
 
-受信者がランディングページから選択内容を送信する際にオプトアウトするには、**Adobe Developer** を使用して [&#x200B; 購読 API 呼び出し &#x200B;](https://developer.adobe.com){target="_blank"} を実装し、対応するプロファイルの環境設定を更新する必要があります。
+受信者がランディングページから選択内容を送信する際にオプトアウトするには、**Adobe Developer** を使用して [ 購読 API 呼び出し ](https://developer.adobe.com){target="_blank"} を実装し、対応するプロファイルの環境設定を更新する必要があります。
 
 この POST 呼び出しは次の通りです。
 

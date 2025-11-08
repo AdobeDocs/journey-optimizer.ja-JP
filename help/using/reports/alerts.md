@@ -8,7 +8,7 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 1349da209bc90dd8ebad0bd309f89039aa6ea3f2
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '2153'
 ht-degree: 76%
@@ -21,7 +21,7 @@ ht-degree: 76%
 
 * ジャーニーをトラブルシューティングする方法について詳しくは、[このページ](../building-journeys/troubleshooting.md)を参照してください
 
-* キャンペーンのレビューとアクティブ化の方法について学ぶ：[&#x200B; アクションキャンペーン &#x200B;](../campaigns/review-activate-campaign.md) | [API トリガーキャンペーン &#x200B;](../campaigns/review-activate-api-triggered-campaign.md) | [&#x200B; 調整されたキャンペーン &#x200B;](../orchestrated/start-monitor-campaigns.md)
+* キャンペーンのレビューとアクティブ化の方法について学ぶ：[ アクションキャンペーン ](../campaigns/review-activate-campaign.md) | [API トリガーキャンペーン ](../campaigns/review-activate-api-triggered-campaign.md) | [ 調整されたキャンペーン ](../orchestrated/start-monitor-campaigns.md)
 
 
 これらに加えて、特定の条件セットに達した場合、その条件を登録している組織内のユーザーにアラートメッセージを送信できます。これらのアラートは、専用の&#x200B;**[!UICONTROL アラート]**&#x200B;メニューから使用できます。 Adobe Experience Platform には、組織に対して有効にできる定義済みのアラートルールがいくつか用意されています。さらに、このページの説明に従って、[!DNL Adobe Journey Optimizer] 固有のシステムアラートを登録することもできます。
@@ -40,9 +40,9 @@ ht-degree: 76%
    * [Custom Action Error Rate Exceeded](#alert-custom-action-error-rate) アラート（前のジャーニーの Custom Action Failure アラートに代わる）
    * [プロファイルの破棄率を超えました](#alert-discard-rate)アラート
    * [プロファイルのエラー率を超えました](#alert-profile-error-rate)アラート
-   * [ジャーニーが公開されました &#x200B;](#alert-journey-published) アラート
-   * [ジャーニー完了 &#x200B;](#alert-journey-finished) アラート
-   * [&#x200B; カスタムアクションキャッピングトリガー &#x200B;](#alert-custom-action-capping) アラート
+   * [ジャーニーが公開されました ](#alert-journey-published) アラート
+   * [ジャーニー完了 ](#alert-journey-finished) アラート
+   * [ カスタムアクションキャッピングトリガー ](#alert-custom-action-capping) アラート
 
 * チャネル設定に固有のアラート：
 
@@ -56,7 +56,7 @@ ht-degree: 76%
 
 各アラートは、ユーザーインターフェイスから個別に登録することも、**[!UICONTROL アラート]**&#x200B;メニューからグローバルに登録することも（[グローバル登録](#global-subscription)を参照）、特定のジャーニーに対して単一で登録することもできます（[単一登録](#unitary-subscription)を参照）。
 
-登録者の環境設定に基づいて、アラートはメールで送信されるか、ユーザーインターフェイスの右上隅にある Journey Optimizer 通知センター内（アプリ内通知）で直接送信されます。[!DNL Adobe Experience Cloud] **[!UICONTROL 環境設定]**&#x200B;で、これらのアラートを受信する方法を選択します。[詳細情報](../start/user-interface.md#in-product-alerts)
+登録者の環境設定に基づいて、アラートはメールで送信されるか、ユーザーインターフェイスの右上隅にある Journey Optimizer 通知センター内（アプリ内通知）で直接送信されます。[!DNL Adobe Experience Cloud] **[!UICONTROL 環境設定]**&#x200B;で、これらのアラートを受信する方法を選択します。[詳細情報](../start/user-interface.md#in-product-uc)
 
 アラートが解決されると、サブスクライバーは「解決済み」通知を受け取ります。 アラートは、値の切り替えを防ぐために、1 時間後に解決されます。
 
@@ -85,13 +85,13 @@ ht-degree: 76%
 
    ![特定のジャーニーのアラートの登録](assets/subscribe-journey-alert.png){width=75%}
 
-1. アラートを選択します。次のアラートを使用できます：[&#x200B; プロファイル破棄率を超えています &#x200B;](#alert-discard-rate)、[&#x200B; カスタムアクションエラー率を超えています &#x200B;](#alert-custom-action-error-rate)、[&#x200B; プロファイルエラー率を超えています &#x200B;](#alert-profile-error-rate)、6&rbrace;ジャーニーが公開されました [、](#alert-journey-published)ジャーニーが完了しました [、および &#x200B;](#alert-journey-finished) カスタムアクションキャッピングトリガー [。](#alert-custom-action-capping)
+1. アラートを選択します。次のアラートを使用できます：[ プロファイル破棄率を超えています ](#alert-discard-rate)、[ カスタムアクションエラー率を超えています ](#alert-custom-action-error-rate)、[ プロファイルエラー率を超えています ](#alert-profile-error-rate)、6}ジャーニーが公開されました [、](#alert-journey-published)ジャーニーが完了しました [、および ](#alert-journey-finished) カスタムアクションキャッピングトリガー [。](#alert-custom-action-capping)
 
 1. アラートを登録解除するには、同じ画面からアラートを選択解除します。
 
 1. 「**[!UICONTROL 保存]**」をクリックして確認します。
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=ja#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## ジャーニーアラート {#journey-alerts}
 
@@ -116,7 +116,7 @@ ht-degree: 76%
 
 ### プロファイルの破棄率を超えました {#alert-discard-rate}
 
-このアラートは、過去 5 分間にエントリ済みのプロファイルに対するプロファイル破棄率がしきい値を超えた場合に警告します。デフォルトのしきい値は 20% に設定されていますが、[&#x200B; カスタムのしきい値を定義 &#x200B;](#custom-threshold) できます。
+このアラートは、過去 5 分間にエントリ済みのプロファイルに対するプロファイル破棄率がしきい値を超えた場合に警告します。デフォルトのしきい値は 20% に設定されていますが、[ カスタムのしきい値を定義 ](#custom-threshold) できます。
 
 アラートの名前をクリックすると、アラートの詳細と設定を確認できます。
 
@@ -131,7 +131,7 @@ ht-degree: 76%
 
 ### カスタムアクションのエラー率を超えました {#alert-custom-action-error-rate}
 
-このアラートは、過去 5 分間に成功した HTTP 呼び出し数に対するカスタムアクションエラー率がしきい値を超えた場合に警告します。デフォルトのしきい値は 20% に設定されていますが、[&#x200B; カスタムのしきい値を定義 &#x200B;](#custom-threshold) できます。
+このアラートは、過去 5 分間に成功した HTTP 呼び出し数に対するカスタムアクションエラー率がしきい値を超えた場合に警告します。デフォルトのしきい値は 20% に設定されていますが、[ カスタムのしきい値を定義 ](#custom-threshold) できます。
 
 >[!NOTE]
 >
@@ -150,7 +150,7 @@ ht-degree: 76%
 
 ### プロファイルのエラー率を超えました {#alert-profile-error-rate}
 
-このアラートは、過去 5 分間に入力されたプロファイルに対するエラー内のプロファイルの割合が、しきい値を超えた場合に警告します。 デフォルトのしきい値は 20% に設定されていますが、[&#x200B; カスタムのしきい値を定義 &#x200B;](#custom-threshold) できます。
+このアラートは、過去 5 分間に入力されたプロファイルに対するエラー内のプロファイルの割合が、しきい値を超えた場合に警告します。 デフォルトのしきい値は 20% に設定されていますが、[ カスタムのしきい値を定義 ](#custom-threshold) できます。
 
 アラートの名前をクリックすると、アラートの詳細と設定を確認できます。
 
@@ -182,7 +182,7 @@ ht-degree: 76%
 
 アラートの名前をクリックすると、アラートの詳細と設定を確認できます。
 
-キャッピングがトリガーされると、定義された期間内に API 呼び出しの最大数に達し、それ以降の呼び出しはスロットルまたはキューに入れられています。 カスタムアクションのキャッピングについて詳しくは、[&#x200B; このページ &#x200B;](../action/about-custom-action-configuration.md#custom-action-enhancements-best-practices) を参照してください。
+キャッピングがトリガーされると、定義された期間内に API 呼び出しの最大数に達し、それ以降の呼び出しはスロットルまたはキューに入れられています。 カスタムアクションのキャッピングについて詳しくは、[ このページ ](../action/about-custom-action-configuration.md#custom-action-enhancements-best-practices) を参照してください。
 
 このアラートは、キャッピングがアクティブでなくなったとき、または評価期間中にプロファイルがカスタムアクションに到達しなかったときに解決されます。
 
@@ -274,7 +274,7 @@ This alert warns you if a domain certificate (CDN, tracking URL) renewal failed 
 ### アラートの編集
 
 アラートの行をクリックすると、そのアラートの詳細を確認できます。名前、ステータス、通知チャネルが左側のパネルに表示されます。
-ジャーニーアラートの場合は、「**[!UICONTROL その他のアクション]**」ボタンを使用して編集します。その後、これらのアラートの [&#x200B; カスタムしきい値 &#x200B;](#custom-threshold) を定義できます。
+ジャーニーアラートの場合は、「**[!UICONTROL その他のアクション]**」ボタンを使用して編集します。その後、これらのアラートの [ カスタムしきい値 ](#custom-threshold) を定義できます。
 
 ![](assets/alert-more-actions.png){width=60%}
 

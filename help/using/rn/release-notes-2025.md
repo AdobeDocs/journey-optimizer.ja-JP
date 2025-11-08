@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: d21f22dcab625c4dd60d74468c7afdb29041a54d
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '7890'
 ht-degree: 99%
@@ -407,7 +407,7 @@ ht-degree: 99%
 
 * **キャンペーン**
 
-   * **アウトバウンドキャンペーンのレート制御** - アウトバウンドキャンペーン（メール、SMS、プッシュ通知）のレート制御を有効にできるようになりました。これにより、ランディングページやカスタマーケアプラットフォームなどのダウンストリームシステムの過負荷を防ぐことができます。[詳細情報](../campaigns/campaign-schedule.md#rate-control)
+   * **アウトバウンドキャンペーンのレート制御** - アウトバウンドキャンペーン（メール、SMS、プッシュ通知）のレート制御を有効にできるようになりました。これにより、ランディングページやカスタマーケアプラットフォームなどのダウンストリームシステムの過負荷を防ぐことができます。[詳細情報](../campaigns/campaign-schedule.md#set-rate-control)
 
    * **アクションキャンペーンのスケジュール設定** - キャンペーンの毎日、毎週、毎月のスケジューラーが更新され、繰り返しスケジュールをより詳細に制御できるようになりました。
 

@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 0e43be98-f471-4860-be84-8f99ab93e983
-source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
-source-wordcount: '2035'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -86,7 +86,7 @@ ht-degree: 100%
 
 * **式エディター** - パワーユーザーは、関数を使用してマップを操作できるようになりました。この機能は、サブスクリプションリストで利用できます。例えば、オーディエンスでは、サブスクリプションリストからメールアドレスを取得できるようになりました。詳しくは、[このサンプル](../building-journeys/message-to-subscribers-uc.md)を参照してください。
 
-* **監視** - ライブジャーニーのステップイベントとテストモードが強化されました。プロファイルエクスポートジョブに関連する[新規フィールド](../reports/sharing-field-list.md#serviceevents)が追加されました。ユーザーエクスペリエンスを向上させるために、ステップイベントフィールドが様々なカテゴリに分類されるようになりました。以前のステップイベントフィールドはすべて、引き続き[stepEvents](../reports/sharing-legacy-fields.md) カテゴリで使用できます。
+* **監視** - ライブジャーニーのステップイベントとテストモードが強化されました。プロファイルエクスポートジョブに関連する[新規フィールド](../reports/sharing-field-list.md#servicevents-field)が追加されました。ユーザーエクスペリエンスを向上させるために、ステップイベントフィールドが様々なカテゴリに分類されるようになりました。以前のステップイベントフィールドはすべて、引き続き[stepEvents](../reports/sharing-legacy-fields.md) カテゴリで使用できます。
 * **アクセシビリティ** - ジャーニーにアクセシビリティ機能の強化が実装されました。
 * **コレクション** - サブオブジェクトを含んだオブジェクトの配列がサポートされるようになりました。[詳細情報](../building-journeys/collections.md)
 * **リスト** - ジャーニー、イベント、アクション、データソースのリスト画面が改善されました。
@@ -277,7 +277,7 @@ ht-degree: 100%
 **コンテンツデザイン**
 
 * **背景** - 背景画像がライブプレビューでサポートされるようになりました。[詳細情報](../content-management/preview-test.md)
-  <!--* **One-click opt-out link** - You can insert a new type of link into your email content: the **Opt-out** link allows users to unsubscribe from receiving your communications in just one click, without being redirected to a landing page to confirm opting out. [Learn more](../privacy/opt-out.md#one-click-opt-out-link)-->
+  <!--* **One-click opt-out link** - You can insert a new type of link into your email content: the **Opt-out** link allows users to unsubscribe from receiving your communications in just one click, without being redirected to a landing page to confirm opting out. [Learn more](../privacy/opt-out.md#opt-out-personalization)-->
 
 **パーソナライゼーション**
 
@@ -351,7 +351,7 @@ ht-degree: 100%
 
 **プレビューとテスト**
 
-* ID と名前空間が&#x200B;**[!UICONTROL プレビュー]**&#x200B;画面に表示されるようになりました。[詳細情報](../content-management/preview-test.md#preview-your-messages)
+* ID と名前空間が&#x200B;**[!UICONTROL プレビュー]**&#x200B;画面に表示されるようになりました。[詳細情報](../content-management/preview-test.md#preview-test)
 * 配達確認のテストメールの数が 10 個に制限されるようになりました。
 * 配達確認の&#x200B;**件名行の接頭辞**&#x200B;に使用できる文字が制限されるようになりました。[詳細情報](../content-management/preview-test.md#send-proofs)
 

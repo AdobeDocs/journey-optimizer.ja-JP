@@ -10,7 +10,7 @@ level: Experienced
 keywords: サブドメイン, デリゲーション, ドメイン, DNS
 badge: label="限定提供" type="Informative"
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '927'
 ht-degree: 100%
@@ -23,7 +23,7 @@ ht-degree: 100%
 >
 >この機能は、限定提供です。アクセス権を取得するには、アドビ担当者にお問い合わせください。
 
-[完全にデリゲート](about-subdomain-delegation.md#full-subdomain-delegation)された方法と [CNAME 設定](about-subdomain-delegation.md#cname-subdomain-delegation)方法の代わりに、**カスタムデリゲーション**&#x200B;方法を使用すると、Journey Optimizer 内でサブドメインの所有権を取得し、生成された証明書を完全に制御できます。
+[完全にデリゲート](about-subdomain-delegation.md#full-subdomain-delegation)された方法と [CNAME 設定](about-subdomain-delegation.md#subdomain-delegation-methods)方法の代わりに、**カスタムデリゲーション**&#x200B;方法を使用すると、Journey Optimizer 内でサブドメインの所有権を取得し、生成された証明書を完全に制御できます。
 
 このプロセスの一部として、アドビでは、メッセージの配信、レンダリング、トラッキングに DNS が適切に設定されていることを確認する必要があります。このため、認証局から取得した [SSL 証明書をアップロード](#upload-ssl-certificate)し、ドメインの所有権を確認してメールアドレスを報告し、[フィードバックループの手順](#feedback-loop-steps)を完了する必要があります。
 

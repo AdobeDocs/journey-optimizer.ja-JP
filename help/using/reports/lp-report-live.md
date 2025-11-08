@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: df13e473-8003-4dde-aaf8-df8385c9ee21
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 96%
@@ -59,4 +59,4 @@ ht-degree: 96%
 **[!UICONTROL チャネル別の訪問回数]**／**[!UICONTROL チャネル別のコンバージョン数]**&#x200B;のグラフは、チャネルに応じて過去 24 時間にランディングページで正常にインタラクションを起こした訪問回数とユーザー数の合計を表します。
 +++
 
-Adobe Journey Optimizer で使用可能なすべての指標の詳細なリストについては、[このページ](live-report.md#list-of-components-live)を参照してください。
+Adobe Journey Optimizer で使用可能なすべての指標の詳細なリストについては、[このページ](live-report.md#live-report)を参照してください。

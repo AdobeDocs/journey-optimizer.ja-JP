@@ -5,7 +5,7 @@ title: ジャーニーのエクスペリエンスイベント参照
 description: ジャーニーのエクスペリエンスイベント参照の使用方法について説明します
 exl-id: 35e2e347-0669-44a3-92ba-aee52e54c219
 version: Journey Orchestration
-source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 98%
@@ -56,7 +56,7 @@ ht-degree: 98%
 
 * Adobe Experience Platform [セグメントビルダー - 時間制約](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
-* [条件でのオーディエンスの使用](../building-journeys/condition-activity.md#using-audiences-in-conditions)
+* [条件でのオーディエンスの使用](../building-journeys/condition-activity.md#using-a-segment)
 
 * [inAudience() 関数](../building-journeys/functions/functioninaudience.md)
 
@@ -75,7 +75,7 @@ ht-degree: 98%
 
 * Adobe Experience Platform [セグメントビルダー - 時間制約](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
-* [条件でのオーディエンスの使用](../building-journeys/condition-activity.md#using-audiences-in-conditions)
+* [条件でのオーディエンスの使用](../building-journeys/condition-activity.md#using-a-segment)
 
 * [inAudience() 関数](../building-journeys/functions/functioninaudience.md)
 
@@ -97,7 +97,7 @@ ht-degree: 98%
 
 * Adobe Experience Platform [セグメントビルダー - 時間制約](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
-* [条件でのオーディエンスの使用](../building-journeys/condition-activity.md#using-audiences-in-conditions)
+* [条件でのオーディエンスの使用](../building-journeys/condition-activity.md#using-a-segment)
 
 * [inAudience() 関数](../building-journeys/functions/functioninaudience.md)
 

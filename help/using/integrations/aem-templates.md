@@ -11,7 +11,7 @@ role: User
 level: Beginner
 badge: label="ベータ版" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
-source-git-commit: 4fa50df6827e07e6f6f3c5730d1ae2a1af0d426d
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '741'
 ht-degree: 100%
@@ -100,7 +100,7 @@ Journey Optimizer で Experience Manager テンプレートをコンテンツテ
    >
    > テンプレートを編集およびパーソナライズする場合は、互換性モードのみを使用できます。
 
-1. コンテンツテンプレートの準備が整ったら、[テストして検証します](../content-management/content-templates.md#test-template)。
+1. コンテンツテンプレートの準備が整ったら、[テストして検証します](../content-management/content-templates.md#content-templates)。
 
 1. コンテンツが定義されると、**[!UICONTROL 保存済みのテンプレート]**&#x200B;コレクションを参照して、メールの新規作成時に使用できます。次に、「**[!UICONTROL このテンプレートを使用]**」を選択します。
 

@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate, Experienced
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
-source-git-commit: 5b377982f43902a4549f24c022fa8f4947d896a8
+source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
 workflow-type: tm+mt
 source-wordcount: '828'
 ht-degree: 100%
@@ -124,7 +124,7 @@ Define two delivery treatments each containing a different decision policy.-->
 
 1. 変更を保存し、「**[!UICONTROL 作成]**」をクリックします。**[!UICONTROL 決定ポリシー]**&#x200B;の下に新しい決定が追加されます。
 
-1. 「**[!UICONTROL ポリシーを挿入]**」ボタンをクリックします。決定ポリシーに対応するコードが追加されます。次に、必要なすべての属性（プロファイル属性を含む）をコードに追加します。[詳細情報](create-decision.md#use-decision-policy)
+1. 「**[!UICONTROL ポリシーを挿入]**」ボタンをクリックします。決定ポリシーに対応するコードが追加されます。次に、必要なすべての属性（プロファイル属性を含む）をコードに追加します。[詳細情報](create-decision.md#create-decision)
 
    ![](assets/exd-uc-experiment-insert-policy.png){width="90%"}
 
