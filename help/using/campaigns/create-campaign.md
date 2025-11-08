@@ -53,4 +53,4 @@ ht-degree: 90%
 
 アクションキャンペーンの作成方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/346680?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3412405?captions=jpn&quality=12)
