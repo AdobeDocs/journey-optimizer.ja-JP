@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: メール, 開始, 作成, プレビュー
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 73a347c104fe28799c264f9a8b6c3e5e12c8d892
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 66%
+source-wordcount: '295'
+ht-degree: 63%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 66%
 
 * **ジャーニー**&#x200B;の場合：ジャーニーに&#x200B;**[!UICONTROL メール]**&#x200B;アクティビティを追加し、基本設定を定義したら、右側の&#x200B;**[!UICONTROL アクション：メール]**&#x200B;パネルを使用して、メッセージのコンテンツを作成します。[ジャーニーの作成方法を学ぶ](../building-journeys/journey-gs.md)
 
-* **Campaign** の場合：キャンペーンを作成したら、アクションとして「**[!UICONTROL メール]**」を選択し、基本設定を定義します。[キャンペーンの作成方法を学ぶ](../campaigns/campaign-action.md#action-campaign-action)
+* **Campaign** の場合：キャンペーンを作成したら、アクションとして「**[!UICONTROL メール]**」を選択し、基本設定を定義します。[ アクションキャンペーン ](../campaigns/campaign-action.md#action-campaign-action) の作成方法を学ぶ | [API トリガーキャンペーン ](../campaigns/api-triggered-campaigns.md) | [ 調整されたキャンペーン ](../orchestrated/create-orchestrated-campaign.md#create)
 
 
 >[!IMPORTANT]
@@ -117,4 +117,4 @@ ht-degree: 66%
 * **[メール設定](get-started-email-config.md)** - メールのサーフェス、サブドメイン、IP プールなどのメール設定を構成する方法について説明します。
 * **[メールのパーソナライゼーションとスタイル設定](get-started-email-style.md)** - カスタム CSS、整列、パディング、ダークモードのサポートなどの、マスターのスタイル設定手法。
 * **[メールのトラッキングと監視](message-tracking.md)** - パフォーマンス分析のために、メッセージの開封数、クリック数を追跡し、URL トラッキングを管理する方法について説明します。
-* **[メールチャネルチュートリアル &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/email-channel){target="_blank"}** - メールの機能とベストプラクティスに関するステップバイステップのビデオチュートリアルをご覧ください。
+* **[メールチャネルチュートリアル ](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/email-channel){target="_blank"}** - メールの機能とベストプラクティスに関するステップバイステップのビデオチュートリアルをご覧ください。

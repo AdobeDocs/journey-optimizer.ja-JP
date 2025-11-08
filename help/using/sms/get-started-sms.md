@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 73a347c104fe28799c264f9a8b6c3e5e12c8d892
 workflow-type: tm+mt
-source-wordcount: '818'
-ht-degree: 99%
+source-wordcount: '825'
+ht-degree: 97%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 99%
 
 * **ジャーニー**&#x200B;の場合：ジャーニーを作成し、SMS アクティビティを追加し、基本設定を定義します。次に、右側の SMS アクションパネルを参照して、SMS、MMS または RCS メッセージのコンテンツを作成します。[ジャーニーを作成する方法について説明します](../building-journeys/journey-gs.md)
 
-* **キャンペーン**&#x200B;の場合：キャンペーンを作成し、アクションとして SMS を選択し、基本設定を定義します。次に、メッセージコンテンツを編集して、送信する SMS、MMS または RCS メッセージを定義します。[キャンペーンを作成する方法について説明します](../campaigns/campaign-action.md#action-campaign-action)
+* **キャンペーン**&#x200B;の場合：キャンペーンを作成し、アクションとして SMS を選択し、基本設定を定義します。次に、メッセージコンテンツを編集して、送信する SMS、MMS または RCS メッセージを定義します。[ アクションキャンペーン ](../campaigns/campaign-action.md#action-campaign-action) の作成方法を学ぶ | [API トリガーキャンペーン ](../campaigns/api-triggered-campaigns.md) | [ 調整されたキャンペーン ](../orchestrated/create-orchestrated-campaign.md#create)
 
 >[!IMPORTANT]
 >
@@ -201,7 +201,7 @@ SMS メッセージを設定、作成およびカスタマージャーニーに�
 
 +++こちらのビデオをご覧ください
 
->[!VIDEO](https://video.tv.adobe.com/v/3422696?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
@@ -211,7 +211,7 @@ Adobe Journey Optimizer がマーケターに提供する包括的なモバイ�
 
 +++こちらのビデオをご覧ください
 
->[!VIDEO](https://video.tv.adobe.com/v/3430376?captions=jpn&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
 +++
 
@@ -221,7 +221,7 @@ Adobe Journey Optimizer がマーケターに提供する包括的なモバイ�
 
 +++こちらのビデオをご覧ください
 
->[!VIDEO](https://video.tv.adobe.com/v/3464756?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
 +++
 
@@ -230,4 +230,4 @@ Adobe Journey Optimizer がマーケターに提供する包括的なモバイ�
 * [ジャーニーでのメッセージの追加](../building-journeys/journeys-message.md)
 * [マーケティングキャンペーンの作成](../campaigns/create-campaign.md)
 * [ガードレールと制限](../start/guardrails.md#sms-guardrails)
-* [SMS とモバイルメッセージのチュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/channels/sms-channel/sms-mms-messages-overview){target="_blank"}
+* [SMS とモバイルメッセージのチュートリアル ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/channels/sms-channel/sms-mms-messages-overview){target="_blank"}

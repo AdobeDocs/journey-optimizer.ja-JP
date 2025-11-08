@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: dc1bddaf-968f-405d-b8cc-b9443a838fa6
-source-git-commit: 61a30dcc93823dc5e8b647e683bfa2ebf5bfa01b
+source-git-commit: 73a347c104fe28799c264f9a8b6c3e5e12c8d892
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 100%
+source-wordcount: '163'
+ht-degree: 92%
 
 ---
 
@@ -23,7 +23,7 @@ LINE メッセージは、ジャーニーまたはキャンペーンで作成し
 
 * **ジャーニー**&#x200B;の場合：ジャーニーを作成し、LINE アクティビティを追加し、基本設定を定義してから、右側の&#x200B;**[!UICONTROL アクション：LINE]**&#x200B;パネルを参照して LINE メッセージのコンテンツを作成します。ジャーニーを作成する方法については、[このページ](../building-journeys/journey-gs.md)を参照してください。
 
-* **キャンペーン**&#x200B;の場合：キャンペーンを作成し、アクションとして LINE を選択し、基本設定を定義してから、メッセージコンテンツを編集して送信する LINE メッセージを定義します。キャンペーンを作成する方法については、[このページ](../campaigns/create-campaign.md#configure)を参照してください。
+* **キャンペーン**&#x200B;の場合：キャンペーンを作成し、アクションとして LINE を選択し、基本設定を定義してから、メッセージコンテンツを編集して送信する LINE メッセージを定義します。[ アクションキャンペーン ](../campaigns/campaign-action.md#action-campaign-action) の作成方法を学ぶ | [API トリガーキャンペーン ](../campaigns/api-triggered-campaigns.md) | [ 調整されたキャンペーン ](../orchestrated/create-orchestrated-campaign.md#create)
 
 LINE メッセージを作成する前に、Journey Optimizer を使用して LINE チャネルを設定します。[詳細情報](line-configuration.md)
 
