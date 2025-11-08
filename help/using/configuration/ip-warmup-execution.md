@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: IP、グループ、サブドメイン、配信品質
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: 5f2ccb102d08151da5616ef42559164f29542e5d
+source-git-commit: fbd99b95b0e9aeb06435a81bf345dd615a0f9d02
 workflow-type: tm+mt
-source-wordcount: '2678'
-ht-degree: 98%
+source-wordcount: '2723'
+ht-degree: 96%
 
 ---
 
@@ -45,6 +45,8 @@ ht-degree: 98%
 At phase level, system ensures that previously targeted + new profiles are picked up AND at iteration level, system ensures that each run is having unique profiles and the count matches what is stated in plan-->
 
 <!--![](assets/ip-warmup-plan-phase-1.png)-->
+
+IP ウォームアップ計画のフェーズを定義するには、フェーズごとにキャンペーンを選択し、ドメインとオーディエンスの除外を設定して、プロファイルのターゲティングを管理する必要があります。 各フェーズには、次のセクションで設定される複数の実行を含めることができます。 次の手順に従います。
 
 1. IP ウォームアッププランの最初のフェーズに関連付けるキャンペーンを選択します。
 

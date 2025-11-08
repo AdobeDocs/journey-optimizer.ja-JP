@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 作成, メール, 開始, ジャーニー, キャンペーン
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 5f2ccb102d08151da5616ef42559164f29542e5d
+source-git-commit: fbd99b95b0e9aeb06435a81bf345dd615a0f9d02
 workflow-type: tm+mt
-source-wordcount: '1059'
-ht-degree: 97%
+source-wordcount: '1055'
+ht-degree: 96%
 
 ---
 
@@ -49,9 +49,9 @@ ht-degree: 97%
 
 >[!TAB キャンペーンへのメールの追加]
 
-1. スケジュール済みキャンペーンまたは API トリガーキャンペーンを新規作成し、アクションとして「**[!UICONTROL メール]**」を選択します。
+1. [ キャンペーンを作成 ](../campaigns/create-campaign.md) し、アクションとして **[!UICONTROL メール]** を選択します。
 
-1. キャンペーンプロパティ、[オーディエンス](../audience/about-audiences.md)、[スケジュール](../campaigns/campaign-schedule.md#action-campaign-schedule)など、メールキャンペーンを作成する手順を完了します。
+1. キャンペーンプロパティ、[オーディエンス](../audience/about-audiences.md)、[スケジュール](../campaigns/campaign-schedule.md)など、メールキャンペーンを作成する手順を完了します。
 
    ![](assets/email_campaign_steps.png)
 
