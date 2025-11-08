@@ -29,7 +29,7 @@ ht-degree: 63%
 
 * **ジャーニー**&#x200B;の場合：ジャーニーに&#x200B;**[!UICONTROL メール]**&#x200B;アクティビティを追加し、基本設定を定義したら、右側の&#x200B;**[!UICONTROL アクション：メール]**&#x200B;パネルを使用して、メッセージのコンテンツを作成します。[ジャーニーの作成方法を学ぶ](../building-journeys/journey-gs.md)
 
-* **Campaign** の場合：キャンペーンを作成したら、アクションとして「**[!UICONTROL メール]**」を選択し、基本設定を定義します。[ アクションキャンペーン ](../campaigns/campaign-action.md#action-campaign-action) の作成方法を学ぶ | [API トリガーキャンペーン ](../campaigns/api-triggered-campaigns.md) | [ 調整されたキャンペーン ](../orchestrated/create-orchestrated-campaign.md#create)
+* **Campaign** の場合：キャンペーンを作成したら、アクションとして「**[!UICONTROL メール]**」を選択し、基本設定を定義します。[&#x200B; アクションキャンペーン &#x200B;](../campaigns/campaign-action.md#action-campaign-action) の作成方法を学ぶ | [API トリガーキャンペーン &#x200B;](../campaigns/api-triggered-campaigns.md) | [&#x200B; 調整されたキャンペーン &#x200B;](../orchestrated/create-orchestrated-campaign.md#create)
 
 
 >[!IMPORTANT]
@@ -117,4 +117,4 @@ ht-degree: 63%
 * **[メール設定](get-started-email-config.md)** - メールのサーフェス、サブドメイン、IP プールなどのメール設定を構成する方法について説明します。
 * **[メールのパーソナライゼーションとスタイル設定](get-started-email-style.md)** - カスタム CSS、整列、パディング、ダークモードのサポートなどの、マスターのスタイル設定手法。
 * **[メールのトラッキングと監視](message-tracking.md)** - パフォーマンス分析のために、メッセージの開封数、クリック数を追跡し、URL トラッキングを管理する方法について説明します。
-* **[メールチャネルチュートリアル ](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/email-channel){target="_blank"}** - メールの機能とベストプラクティスに関するステップバイステップのビデオチュートリアルをご覧ください。
+* **[メールチャネルチュートリアル &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/email-channel){target="_blank"}** - メールの機能とベストプラクティスに関するステップバイステップのビデオチュートリアルをご覧ください。

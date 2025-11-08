@@ -29,7 +29,7 @@ ht-degree: 96%
 
 * **ジャーニー**&#x200B;の場合：ジャーニーにプッシュアクティビティを追加し、基本設定を定義したら、右側の&#x200B;**[!UICONTROL アクション : プッシュ]**&#x200B;パネルを使用して、プッシュ通知のコンテンツを作成します。[ジャーニーを作成する方法について説明します。](../building-journeys/journey-gs.md)
 
-* **キャンペーン**&#x200B;の場合：キャンペーンを作成したら、アクションとして「プッシュ通知」を選択し、基本設定を定義します。[ アクションキャンペーン ](../campaigns/campaign-action.md#action-campaign-action) の作成方法を学ぶ | [API トリガーキャンペーン ](../campaigns/api-triggered-campaigns.md) | [ 調整されたキャンペーン ](../orchestrated/create-orchestrated-campaign.md#create)
+* **キャンペーン**&#x200B;の場合：キャンペーンを作成したら、アクションとして「プッシュ通知」を選択し、基本設定を定義します。[&#x200B; アクションキャンペーン &#x200B;](../campaigns/campaign-action.md#action-campaign-action) の作成方法を学ぶ | [API トリガーキャンペーン &#x200B;](../campaigns/api-triggered-campaigns.md) | [&#x200B; 調整されたキャンペーン &#x200B;](../orchestrated/create-orchestrated-campaign.md#create)
 
 専用のタブを使用して、**iOS** および **Android** オペレーティングシステムのプッシュ通知設定を定義します。
 

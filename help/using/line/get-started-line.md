@@ -23,7 +23,7 @@ LINE メッセージは、ジャーニーまたはキャンペーンで作成し
 
 * **ジャーニー**&#x200B;の場合：ジャーニーを作成し、LINE アクティビティを追加し、基本設定を定義してから、右側の&#x200B;**[!UICONTROL アクション：LINE]**&#x200B;パネルを参照して LINE メッセージのコンテンツを作成します。ジャーニーを作成する方法については、[このページ](../building-journeys/journey-gs.md)を参照してください。
 
-* **キャンペーン**&#x200B;の場合：キャンペーンを作成し、アクションとして LINE を選択し、基本設定を定義してから、メッセージコンテンツを編集して送信する LINE メッセージを定義します。[ アクションキャンペーン ](../campaigns/campaign-action.md#action-campaign-action) の作成方法を学ぶ | [API トリガーキャンペーン ](../campaigns/api-triggered-campaigns.md) | [ 調整されたキャンペーン ](../orchestrated/create-orchestrated-campaign.md#create)
+* **キャンペーン**&#x200B;の場合：キャンペーンを作成し、アクションとして LINE を選択し、基本設定を定義してから、メッセージコンテンツを編集して送信する LINE メッセージを定義します。[&#x200B; アクションキャンペーン &#x200B;](../campaigns/campaign-action.md#action-campaign-action) の作成方法を学ぶ | [API トリガーキャンペーン &#x200B;](../campaigns/api-triggered-campaigns.md) | [&#x200B; 調整されたキャンペーン &#x200B;](../orchestrated/create-orchestrated-campaign.md#create)
 
 LINE メッセージを作成する前に、Journey Optimizer を使用して LINE チャネルを設定します。[詳細情報](line-configuration.md)
 
