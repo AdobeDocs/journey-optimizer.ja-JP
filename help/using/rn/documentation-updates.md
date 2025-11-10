@@ -52,13 +52,13 @@ ht-degree: 83%
 
 * Journey Optimizer Experimentation Accelerator ドキュメントが利用できるようになりました。 [詳細情報](../content-management/experiment-accelerator-gs.md)
 
-* **formatDate** ヘルパー関数のドキュメントに新しい節が追加されました。 このセクションでは、y、Y、M、d、D などのキーパターン記号の意味を明確にします。[ 詳細を表示 ](../personalization/functions/dates.md#pattern-characters)
+* **formatDate** ヘルパー関数のドキュメントに新しい節が追加されました。 このセクションでは、y、Y、M、d、D などのキーパターン記号の意味を明確にします。[&#x200B; 詳細を表示 &#x200B;](../personalization/functions/dates.md#pattern-characters)
 
 * PQLの例を「決定ランキング式」の節に追加し、プロファイルの郵便番号と年収に基づいてオファーをブーストする方法を示しました。 [詳細情報](../experience-decisioning/ranking/ranking-formulas.md#ranking-formula-examples)
 
 * ジャーニーテストモードの節に、テストモードがカスタムアップロードオーディエンス属性のエンリッチメントをサポートしないことを示す制限を追加しました。 [詳細情報](../building-journeys/testing-the-journey.md#important_notes)
 
-* [ 意思決定管理ガードレールと制限 ](../offers/decision-management-guardrails.md#configurations) ページおよび [ 決定ガードレールと制限 ](../experience-decisioning/decisioning-guardrails.md#configurations) ページに、サンドボックスに存在するキャッピングルールの合計数に対応するサポートされる設定の最大数（20,000）を指定する新しい節を追加しました。
+* [&#x200B; 意思決定管理ガードレールと制限 &#x200B;](../offers/decision-management-guardrails.md#configurations) ページおよび [&#x200B; 決定ガードレールと制限 &#x200B;](../experience-decisioning/decisioning-guardrails.md#configurations) ページに、サンドボックスに存在するキャッピングルールの合計数に対応するサポートされる設定の最大数（20,000）を指定する新しい節を追加しました。
 
 * ジャーニーの条件アクティビティの節に、2 つ以上のクロスデバイス ID を含むプロファイルの条件評価が失敗することを記載したメモを追加しました。 [詳細情報](../building-journeys/condition-activity.md)
 
