@@ -5,10 +5,10 @@ title: 調整されたキャンペーンに関するよくある質問
 description: Journey Optimizer の調整されたキャンペーンに関するよくある質問
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: c584ce48029bd298b503a342a1e663eeeedbba42
+source-git-commit: a166534edc3e9b52cc3f1f905ec310378a18a67a
 workflow-type: tm+mt
-source-wordcount: '1430'
-ht-degree: 100%
+source-wordcount: '1415'
+ht-degree: 99%
 
 ---
 
@@ -183,7 +183,7 @@ Journey Optimizer キャンペーンオーケストレーションは、まず�
 
 +++ オーケストレーションキャンペーンは決定をサポートしますか？
 
-はい。決定では、オーケストレーションキャンペーンからのリレーショナルデータを使用できます。モデルベースのスキーマを XDM スキーマに接続すると、XDM データを決定に使用できます。
+いいえ。オーケストレーションされたキャンペーンは意思決定機能をサポートしていません。
 
 +++
 
