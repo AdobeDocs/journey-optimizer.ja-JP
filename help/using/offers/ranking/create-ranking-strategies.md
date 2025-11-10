@@ -96,4 +96,4 @@ AI モデルを作成するには、次の手順を行います。
 
 パーソナライズされた最適化モデルを作成する方法と、そのモデルを決定に適用する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3419954?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3445952?captions=jpn&quality=12)

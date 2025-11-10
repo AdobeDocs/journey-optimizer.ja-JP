@@ -122,13 +122,13 @@ ht-degree: 100%
 以下のビデオでは、 意思決定管理の主な機能、アーキテクチャおよび使用例を紹介しています。
 
 
->[!VIDEO](https://video.tv.adobe.com/v/326961?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/340416?captions=jpn&quality=12&learn=on)
 
 ### オファーの定義と管理 {#use-offer-decisioning}
 
 次のビデオでは、意思決定管理を使用してオファーを定義および管理し、リアルタイムの顧客データを活用する方法を示します。
 
 
->[!VIDEO](https://video.tv.adobe.com/v/326841?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/340470?captions=jpn&quality=12&learn=on)
 
 
