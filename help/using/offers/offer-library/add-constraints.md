@@ -145,7 +145,7 @@ ht-degree: 97%
 >id="ajo_decisioning_capping"
 >title="キャップの使用"
 >abstract="顧客に過度の勧誘をしないようにするには、キャッピングを使用して、オファーを提示できる最大回数を定義します。 特定のオファーに対して最大 10 個のキャップルールを作成できます。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints#capping" text="日付を変更すると、キャップに影響を与える場合があります"
+>additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints#capping" text="日付を変更すると、キャップに影響を与える場合があります"
 
 キャップは、オファーを提示できる最大回数を定義する制約として使用されます。ユーザーが特定のオファーを受け取る回数を制限すると、顧客への過度の勧誘を防ぎ、各タッチポイントをそれに適したオファーで最適化できます。
 
