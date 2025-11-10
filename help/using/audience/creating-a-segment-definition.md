@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 0356d88d66c7c02a59c7d91a44eb92596e08b21b
 workflow-type: tm+mt
-source-wordcount: '1003'
-ht-degree: 100%
+source-wordcount: '1035'
+ht-degree: 96%
 
 ---
 
@@ -55,6 +55,10 @@ ht-degree: 100%
    * **属性**：1980年以降に生まれた、アトランタ、サンフランシスコ、シアトルに住む人のプロファイル。
 
      ![](assets/add-attributes.png)
+
+     >[!NOTE]
+     >
+     >`frequencyMap` 属性は、セグメント定義での使用はサポートされておらず、オーディエンスセグメント化条件の一部として使用することはできません。 頻度ベースのターゲティングの場合は、ビジネスルールの下でフリークエンシーキャッピングルールを使用することを検討します。
 
    * **イベント**：過去 7 日以内に購入を行ったプロファイル。
 
@@ -136,4 +140,4 @@ Adobe Experience Platform オーディエンスポータルを使用すると、
 
 Journey Optimizer がルールを使用してオーディエンスを生成する方法の概要と、属性、イベント、既存のオーディエンスを使用してオーディエンスを作成する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430329?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425020?quality=12)
