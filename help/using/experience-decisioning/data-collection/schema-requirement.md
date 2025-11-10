@@ -1,6 +1,6 @@
 ---
-product: experience platform
-solution: Experience Platform
+solution: Journey Optimizer
+product: Journey Optimizer
 title: イベントキャプチャの設定
 description: イベントをキャプチャするためのオファースキーマの設定方法を学ぶ
 feature: Ranking, Datasets, Decision Management
@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 exl-id: ce3a2c33-c15b-436f-90b1-7373d7b2b1ca
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 3fa90fa707b562ecf2160ec980520bc8bc267a21
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 100%

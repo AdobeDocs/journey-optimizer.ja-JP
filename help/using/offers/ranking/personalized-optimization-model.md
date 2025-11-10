@@ -1,6 +1,6 @@
 ---
-product: experience platform
-solution: Experience Platform
+solution: Journey Optimizer
+product: Journey Optimizer
 title: パーソナライズされた最適化モデル
 description: パーソナライズされた最適化モデルの詳細情報
 badge: label="レガシー" type="Informative"
@@ -9,7 +9,7 @@ role: User
 level: Experienced
 exl-id: c73b3092-e96d-4957-88e6-500e99542782
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 3fa90fa707b562ecf2160ec980520bc8bc267a21
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 100%

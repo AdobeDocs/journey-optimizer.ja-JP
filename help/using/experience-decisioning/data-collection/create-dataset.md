@@ -1,6 +1,6 @@
 ---
-product: experience platform
-solution: Experience Platform
+solution: Journey Optimizer
+product: Journey Optimizer
 title: イベントを収集するデータセットの作成
 description: イベントを収集するデータセットの作成方法を説明します
 feature: Ranking, Decision Management, Datasets
@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 exl-id: 96c1326f-be40-4738-8997-a67dc14872bb
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 3fa90fa707b562ecf2160ec980520bc8bc267a21
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 100%
