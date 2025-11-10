@@ -8,7 +8,8 @@ feature: Ranking, Decision Management
 role: User
 level: Intermediate
 exl-id: 81d07ec8-e808-4bc6-97b1-b9f7db2aec22
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+version: Journey Orchestration
+source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 100%
@@ -95,4 +96,4 @@ AI モデルを作成するには、次の手順を行います。
 
 パーソナライズされた最適化モデルを作成する方法と、そのモデルを決定に適用する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3445952?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3419954?quality=12)

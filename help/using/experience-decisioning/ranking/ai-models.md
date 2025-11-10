@@ -7,7 +7,8 @@ feature: Ranking, Decision Management
 role: User
 level: Intermediate
 exl-id: 07679823-2288-4528-b09a-12fd76a69482
-source-git-commit: 18a1020971dc6a1101e4e35c1523d004f3fd4188
+version: Journey Orchestration
+source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 100%

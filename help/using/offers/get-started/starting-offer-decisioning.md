@@ -7,7 +7,8 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
-source-git-commit: d3766e14edc5dcbde4d984f24a16800cfb84e76c
+version: Journey Orchestration
+source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
 workflow-type: tm+mt
 source-wordcount: '913'
 ht-degree: 100%
@@ -121,13 +122,13 @@ ht-degree: 100%
 以下のビデオでは、 意思決定管理の主な機能、アーキテクチャおよび使用例を紹介しています。
 
 
->[!VIDEO](https://video.tv.adobe.com/v/340416?captions=jpn&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/326961?quality=12&learn=on)
 
 ### オファーの定義と管理 {#use-offer-decisioning}
 
 次のビデオでは、意思決定管理を使用してオファーを定義および管理し、リアルタイムの顧客データを活用する方法を示します。
 
 
->[!VIDEO](https://video.tv.adobe.com/v/340470?captions=jpn&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/326841?quality=12&learn=on)
 
 

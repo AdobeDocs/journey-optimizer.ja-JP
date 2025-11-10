@@ -7,7 +7,8 @@ topic: Integrations
 role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
-source-git-commit: 87f3da0a1d73f9aa26c7420d260778286bacdf0c
+version: Journey Orchestration
+source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 100%
@@ -74,4 +75,4 @@ Adobe Experience Platform で利用可能なデータに基づいて、オファ
 
 ## チュートリアルビデオ {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341373?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329373?quality=12)
