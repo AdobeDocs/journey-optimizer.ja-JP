@@ -89,5 +89,5 @@ ht-degree: 100%
 
 意思決定管理でプレースメントを作成する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/329372?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/341388?captions=jpn&quality=12)
 
