@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer, Experience Platform
+product: Journey Optimizer
 title: 意思決定管理ガードレールと制限
 description: 意思決定管理ガードレールと制限について説明します。
 badge: label="レガシー" type="Informative"
@@ -7,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: d2872bd3-42f8-4744-bb5b-41c49340098a
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 85%
@@ -95,4 +97,4 @@ ht-degree: 85%
 
 意思決定管理がサポートする設定の総数は、20,000 件を超えることはできません。
 
-合計数は、サンドボックスに存在する [&#x200B; キャッピングルール &#x200B;](offer-library/add-constraints.md#capping) の合計数です。 すべての [&#x200B; プレースメント &#x200B;](offer-library/creating-placements.md) に適用されるキャッピングルールごとに、指定したオファーに関連付けられたすべてのプレースメントにルールを乗算する必要があります。
+合計数は、サンドボックスに存在する [ キャッピングルール ](offer-library/add-constraints.md#capping) の合計数です。 すべての [ プレースメント ](offer-library/creating-placements.md) に適用されるキャッピングルールごとに、指定したオファーに関連付けられたすべてのプレースメントにルールを乗算する必要があります。

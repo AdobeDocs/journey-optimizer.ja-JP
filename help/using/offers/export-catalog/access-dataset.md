@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer, Experience Platform
+product: Journey Optimizer
 title: エクスポートしたオファーカタログへのアクセス
 description: Adobe Experience Platform にエクスポートしたオファーカタログにアクセスする方法を学ぶ
 badge: label="レガシー" type="Informative"
@@ -8,7 +10,7 @@ role: User, Developer
 level: Intermediate
 exl-id: d822c541-c043-41f5-916c-6a8e39fb148a
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
 workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 100%

@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer, Experience Platform
+product: Journey Optimizer
 title: 決定ルールの作成
 description: オファーを表示できるユーザーを定義する決定ルールの作成方法を説明します
 badge: label="レガシー" type="Informative"
@@ -8,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 100%
@@ -75,4 +77,4 @@ Adobe Experience Platform で利用可能なデータに基づいて、オファ
 
 ## チュートリアルビデオ {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341373?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329373?quality=12)

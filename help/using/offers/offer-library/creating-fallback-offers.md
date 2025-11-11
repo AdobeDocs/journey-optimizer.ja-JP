@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer, Experience Platform
+product: Journey Optimizer
 title: フォールバックオファーを作成
 description: オファーを受ける資格を持たない顧客に表示するフォールバックオファーを作成する方法を説明します
 badge: label="レガシー" type="Informative"
@@ -8,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 100%
@@ -64,5 +66,5 @@ ht-degree: 100%
 
 ## チュートリアルビデオ {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341357?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329383?quality=12)
 
