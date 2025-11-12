@@ -49,13 +49,13 @@ ht-degree: 20%
 
 1. 「**[!UICONTROL アクション]**」セクションで、「**[!UICONTROL ライブアクティビティ]** を選択し、新しい設定を選択または作成します。
 
-   ライブアクティビティ設定について詳しくは、[ このページ ](mobile-live-configuration.md) を参照してください。
+   ライブアクティビティ設定について詳しくは、[&#x200B; このページ &#x200B;](mobile-live-configuration.md) を参照してください。
 
    ![](assets/create-live-2.png)
 
 1. 「**[!UICONTROL 実験を作成]**」をクリックしてコンテンツ実験の設定を開始し、パフォーマンスを測定してターゲットオーディエンスに最適なオプションを特定するための処理を作成します。[詳細情報](../content-management/content-experiment.md)
 
-1. 「**[!UICONTROL オーディエンス]**」タブから、**[!UICONTROL ID タイプ]**[ 詳細情報 ](../audience/about-audiences.md) を選択します。
+1. 「**[!UICONTROL オーディエンス]**」タブから、**[!UICONTROL ID タイプ]**&#x200B;[&#x200B; 詳細情報 &#x200B;](../audience/about-audiences.md) を選択します。
 
 1. キャンペーンは、特定の日付に実行するか、繰り返し頻度で実行するように設計されています。キャンペーンの&#x200B;**[!UICONTROL スケジュール]**&#x200B;を設定する方法については、[この節](../campaigns/create-campaign.md#schedule)を参照してください。
 
@@ -65,7 +65,7 @@ ht-degree: 20%
 
    また、**[!UICONTROL キャンペーン ID]** 識別子もコピーして、ペイロードに含めてください。
 
-   ➡️ OAuth トークンや API キーなどの認証要件については、[API トリガーキャンペーンのドキュメント ](https://developer.adobe.com/journey-optimizer-apis/references/messaging/) を参照してください。
+   ➡️ OAuth トークンや API キーなどの認証要件については、[API トリガーキャンペーンのドキュメント &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/messaging/) を参照してください。
 
    ![](assets/create-live-3.png)
 
@@ -114,6 +114,7 @@ ht-degree: 20%
        ]
        }
        ```
+
    +++
 
-ライブアクティビティを設計した後、[ ビルトインレポート ](../reports/campaign-global-report-cja-activity.md) を使用して、ライブアクティビティの影響を測定して追跡できます。
+ライブアクティビティを設計した後、[&#x200B; ビルトインレポート &#x200B;](../reports/campaign-global-report-cja-activity.md) を使用して、ライブアクティビティの影響を測定して追跡できます。

@@ -80,7 +80,7 @@ ht-degree: 62%
 
 1. **[!UICONTROL Platform]** としてiOSを選択します。
 
-1. ドロップダウンから、上記で設定した **[!UICONTROL プッシュ資格情報]** と同じ [ アプリ ID](#push-credentials-launch) を選択するか、既存の ID を選択します。
+1. ドロップダウンから、上記で設定した **[!UICONTROL プッシュ資格情報]** と同じ [&#x200B; アプリ ID](#push-credentials-launch) を選択するか、既存の ID を選択します。
 
    ![](assets/config-3.png)
 
@@ -96,4 +96,4 @@ ht-degree: 62%
 
 Adobe Experience Platform モバイルSDKとの統合を開始して、ロック画面と Dynamic Island でリアルタイムの動的な更新を有効にできるようになりました。
 
-➡️ [ 詳しくは、Adobe Experience Platform Mobile SDK統合を参照してください ](mobile-live-configuration-sdk.md)
+➡️ [&#x200B; 詳しくは、Adobe Experience Platform Mobile SDK統合を参照してください &#x200B;](mobile-live-configuration-sdk.md)

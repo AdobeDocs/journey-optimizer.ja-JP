@@ -36,7 +36,7 @@ Adobe Experience Platform Mobile SDKは、Appleのライブアクティビティ
 
    **[!DNL AEPMessaging]**、**[!DNL AEPMessagingLiveActivity]**、**[!DNL ActivityKit]** のモジュールを読み込みます。
 
-1. [ 属性の定義 ](#attributes)
+1. [&#x200B; 属性の定義 &#x200B;](#attributes)
 
    `LiveActivityAttributes` に準拠し、`LiveActivityData` 属性と `ContentState` 属性を含めます。
 

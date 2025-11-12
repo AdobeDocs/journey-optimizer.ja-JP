@@ -76,7 +76,7 @@ Appleでは、ライブアクティビティを **8 時間のアクティブな�
 +++ライブアクティビティ用に別のウィジェット拡張機能を作成する必要はありますか？
 
 はい。ライブアクティビティは WidgetKit を通じて表示されるので、Xcode プロジェクトにウィジェット拡張機能を作成して `ActivityConfiguration` を実装する必要があります。
-[ ウィジェット設定の詳細情報 ](mobile-live-configuration-sdk.md)
+[&#x200B; ウィジェット設定の詳細情報 &#x200B;](mobile-live-configuration-sdk.md)
 
 +++
 
@@ -132,7 +132,7 @@ Appleでは、ライブアクティビティを **8 時間のアクティブな�
 
 +++ライブアクティビティが正常に配信されたかどうかを確認するにはどうすればよいですか？
 
-Adobe Journey Optimizerでの [ キャンペーン分析の監視 ](../reports/campaign-global-report-cja-activity.md)。 配信率、エラーおよびエンゲージメント指標をトラッキングできます。 また、アプリにカスタム分析イベントを実装することを検討します。
+Adobe Journey Optimizerでの [&#x200B; キャンペーン分析の監視 &#x200B;](../reports/campaign-global-report-cja-activity.md)。 配信率、エラーおよびエンゲージメント指標をトラッキングできます。 また、アプリにカスタム分析イベントを実装することを検討します。
 +++
 
 +++ライブアクティビティを事前にスケジュールすることはできますか？
@@ -203,7 +203,7 @@ Adobe Execution API を使用してライブアクティビティをリモート
 
 +++ヘッドレス API には、どのような認証が必要ですか？
 
-OAuth トークンや API キーなどの認証要件については、[API トリガーキャンペーンのドキュメント ](https://developer.adobe.com/journey-optimizer-apis/references/messaging/) を参照してください。
+OAuth トークンや API キーなどの認証要件については、[API トリガーキャンペーンのドキュメント &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/messaging/) を参照してください。
 
 +++
 
