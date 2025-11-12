@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
 workflow-type: tm+mt
-source-wordcount: '2946'
-ht-degree: 98%
+source-wordcount: '2977'
+ht-degree: 97%
 
 ---
 
@@ -385,6 +385,13 @@ ht-degree: 98%
       + [Journey Optimizer での LINE チャネルの設定](using/line/line-configuration.md)
       + [LINE メッセージの作成](using/line/create-line.md)
       + [LINE メッセージの確認および送信](using/line/send-line.md)
+   + ライブアクティビティ {#live-activity}
+      + [ライブアクティビティの基本を学ぶ](using/mobile-live/get-started-mobile-live.md)
+      + [ライブアクティビティの作成](using/mobile-live/create-mobile-live.md)
+      + [よくある質問](using/mobile-live/mobile-live-faq.md)
+      + コンテンツカードチャネルの設定 {#configure}
+         + [Journey Optimizerでのライブアクティビティの設定](using/mobile-live/mobile-live-configuration.md)
+         + [ライブアクティビティのSDK統合の設定](using/mobile-live/mobile-live-configuration-sdk.md)
 + コンテンツ管理 {#content-management}
    + [コンテンツ管理](/help/rp_landing_pages/content-management-landing-page.md)
    + パーソナライゼーション {#personalization}
@@ -542,6 +549,7 @@ ht-degree: 98%
          + [メールキャンペーンレポート](using/reports/campaign-global-report-cja-email.md)
          + [実験キャンペーンレポート](using/reports/campaign-global-report-cja-experimentation.md)
          + [アプリ内キャンペーンレポート](using/reports/campaign-global-report-cja-inapp.md)
+         + [ライブアクティビティキャンペーンレポート](using/reports/campaign-global-report-cja-activity.md)
          + [プッシュ通知キャンペーンレポート](using/reports/campaign-global-report-cja-push.md)
          + [SMS キャンペーンレポート](using/reports/campaign-global-report-cja-sms.md)
          + [Web キャンペーンレポート](using/reports/campaign-global-report-cja-web.md)
@@ -906,7 +914,7 @@ ht-degree: 98%
    + [プライバシー](/help/rp_landing_pages/privacy-landing-page.md)
    + [プライバシーの基本を学ぶ](using/privacy/get-started-privacy.md)
    + [プライバシーリクエスト](using/privacy/requests.md)
-   + [&#x200B; リソースに対する監査アクション](using/privacy/audit-logs.md)
+   + [ リソースに対する監査アクション](using/privacy/audit-logs.md)
    + [データライフサイクル操作の実行](using/privacy/data-hygiene.md)
    + 同意を管理 {#consent}
       + [同意を管理](/help/rp_landing_pages/consent-landing-page.md)
