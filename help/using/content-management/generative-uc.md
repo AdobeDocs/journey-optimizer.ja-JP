@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
-source-git-commit: 36bef8f07645b1e9a5a010e3f1b4044f2099b002
+source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 100%
+source-wordcount: '675'
+ht-degree: 90%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 ## 既存のコンテンツを使用
 
-![](assets/do-not-localize/gen-ai-reuse-text.gif)
+![AI アシスタントが既存のキャンペーンコンテンツを再利用して新しいバリエーションを生成する様子を示すアニメーションデモ ](assets/do-not-localize/gen-ai-reuse-text.gif)
 
 1. キャンペーンを設定したら、「**[!UICONTROL コンテンツを編集]**」を選択します。
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 
 ## バリエーションの絞り込み
 
-![](assets/do-not-localize/gen-ai-variation.gif)
+![ 「再フレーズ」オプションと「要約」オプションを使用して、AI が生成するコンテンツのバリエーションを調整するアニメーションデモ ](assets/do-not-localize/gen-ai-variation.gif)
 
 1. キャンペーンを設定したら、「**[!UICONTROL コンテンツを編集]**」をクリックします。
 
@@ -71,7 +71,7 @@ ht-degree: 100%
 
 ## 類似画像を生成
 
-![](assets/do-not-localize/uc-image-similar.gif)
+![ 選択した AI 生成画像に基づいて類似した画像バリエーションを生成するアニメーションデモ ](assets/do-not-localize/uc-image-similar.gif)
 
 1. キャンペーンを設定したら、「**[!UICONTROL コンテンツを編集]**」を選択します。
 
@@ -91,7 +91,7 @@ ht-degree: 100%
 
 ## スタイル参照のアップロード
 
-![](assets/do-not-localize/uc-image-reference.gif)
+![AI アシスタントの画像生成スタイルをガイドする参照画像のアップロードのアニメーションデモ ](assets/do-not-localize/uc-image-reference.gif)
 
 1. メールキャンペーンを設定したら、「**[!UICONTROL コンテンツを編集]**」をクリックします。
 
@@ -115,7 +115,7 @@ ht-degree: 100%
 
 ## サポートされている複数の言語でのコンテンツの生成{#languages}
 
-![](assets/do-not-localize/gen-ai-language.gif)
+![ フランス語、スペイン語、ドイツ語など複数の言語でコンテンツを生成する AI アシスタントのアニメーションデモ ](assets/do-not-localize/gen-ai-language.gif)
 
 1. キャンペーンを設定したら、「**[!UICONTROL コンテンツを編集]**」をクリックします。
 

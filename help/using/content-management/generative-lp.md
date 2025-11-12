@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: d38c3b44-9183-4537-a9dd-fd7761328cc1
-source-git-commit: 50933d991c6a337e6d1739652d680778759ef0d5
+source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
 workflow-type: tm+mt
-source-wordcount: '1650'
-ht-degree: 100%
+source-wordcount: '1887'
+ht-degree: 87%
 
 ---
 
@@ -42,7 +42,7 @@ Journey Optimizer で AI アシスタントを使用する方法については�
 
 1. 必要に応じてレイアウトをパーソナライズし、**[!UICONTROL AI アシスタント]**&#x200B;メニューにアクセスします。
 
-   ![](assets/lp-full-gen-1.png){zoomable="yes"}
+   ![AI アシスタントパネルを使用したランディングページデザイナーが、完全なページコンテンツ生成用に開かれた ](assets/lp-full-gen-1.png){zoomable="yes"}
 
 1. 「**[!UICONTROL オリジナルコンテンツを使用]**」オプションを有効にして、AI アシスタントで、選択したコンテンツに基づいて新しいコンテンツをパーソナライズします。
 
@@ -50,7 +50,7 @@ Journey Optimizer で AI アシスタントを使用する方法については�
 
    プロンプトの作成に関するサポートが必要な場合は、ランディングページを改善する様々なプロンプトのアイデアを提供する&#x200B;**[!UICONTROL プロンプトライブラリ]**&#x200B;にアクセスします。
 
-   ![](assets/lp-full-gen-2.png){zoomable="yes"}
+   ![ 完全なページ生成用にプロンプトフィールドとプロンプトライブラリアクセスを備えたランディングページの AI アシスタント ](assets/lp-full-gen-2.png){zoomable="yes"}
 
 1. 次の&#x200B;**[!UICONTROL テキスト設定]**&#x200B;オプションを使用してプロンプトを調整します。
 
@@ -58,7 +58,7 @@ Journey Optimizer で AI アシスタントを使用する方法については�
    * **[!UICONTROL 言語]**：生成されたコンテンツの言語を選択します。
    * **[!UICONTROL トーン]**：ランディングページのトーンは、オーディエンスの共感を呼ぶものにします。情報を提供する、遊び心を持たせる、説得力があるなど、目的に合わせて、AI アシスタントはメッセージを適切に調整することができます。
 
-   ![](assets/lp-full-gen-3.png){zoomable="yes"}
+   ![ 通信戦略、言語、トーンのオプションを表示するランディングページのテキスト設定パネル ](assets/lp-full-gen-3.png){zoomable="yes"}
 
 1. **[!UICONTROL 画像設定]**&#x200B;を選択します。
 
@@ -68,7 +68,7 @@ Journey Optimizer で AI アシスタントを使用する方法については�
    * **[!UICONTROL 照明]**：画像内の稲妻を指し、画像の雰囲気を形成し、特定の要素をハイライト表示します。
    * **[!UICONTROL 構成]**：画像のフレーム内の要素の配置を指します
 
-   ![](assets/lp-full-gen-4.png){zoomable="yes"}
+   ![ コンテンツタイプ、視覚強度、カラーとトーン、照明、コンポジションを含むランディングページの画像設定パネル ](assets/lp-full-gen-4.png){zoomable="yes"}
 
 1. **[!UICONTROL ブランドアセット]**&#x200B;メニューから「**[!UICONTROL ブランドアセットをアップロード]**」をクリックすると、AI アシスタントに追加のコンテキストを提供できるコンテンツを含むブランドアセットを追加するか、以前にアップロードしたアセットを選択できます。
 
@@ -84,7 +84,7 @@ Journey Optimizer で AI アシスタントを使用する方法については�
 
    詳しくは、[ブランド一致スコア](brands-score.md)を参照してください。
 
-   ![](assets/lp-full-gen-5.png){zoomable="yes"}
+   ![Brand Alignment Score の割合インジケーターとプレビューコントロールを使用した、生成されたランディングページのバリエーション ](assets/lp-full-gen-5.png){zoomable="yes"}
 
 1. **[!UICONTROL プレビュー]**&#x200B;ウィンドウ内の「**[!UICONTROL 絞り込み]**」オプションに移動して、追加のカスタマイズ機能にアクセスします。
 
@@ -94,7 +94,7 @@ Journey Optimizer で AI アシスタントを使用する方法については�
 
    または、テキストの&#x200B;**[!UICONTROL トーン]**&#x200B;や&#x200B;**[!UICONTROL コミュニケーション戦略]**&#x200B;を変更することもできます。
 
-   ![](assets/lp-full-gen-6.png){zoomable="yes"}
+   ![ リフレーズを表示するランディングページの絞り込みメニュー、トーンとコミュニケーション戦略のドロップダウンでシンプルな言語を使用 ](assets/lp-full-gen-6.png){zoomable="yes"}
 
 1. 「**[!UICONTROL ブランド一致]**」タブを開いて、コンテンツが[ブランドガイドライン](brands.md)とどのように一致しているかを確認します。
 
@@ -114,7 +114,7 @@ Journey Optimizer で AI アシスタントを使用する方法については�
 
 1. 「**[!UICONTROL テキストコンポーネント]**」を選択して、特定のコンテンツのみをターゲットにします。次に、**[!UICONTROL AI アシスタント]**&#x200B;メニューにアクセスします。
 
-   ![](assets/lp-text-gen-1.png){zoomable="yes"}
+   ![ テキストコンポーネントを選択したランディングページデザイナーと、テキスト生成用の AI アシスタントパネル ](assets/lp-text-gen-1.png){zoomable="yes"}
 
 1. 「**[!UICONTROL オリジナルコンテンツを使用]**」オプションを有効にして、AI アシスタントで、選択したコンテンツに基づいて新しいコンテンツをパーソナライズします。
 
@@ -122,7 +122,7 @@ Journey Optimizer で AI アシスタントを使用する方法については�
 
    プロンプトの作成に関するサポートが必要な場合は、ランディングページを改善する様々なプロンプトのアイデアを提供する&#x200B;**[!UICONTROL プロンプトライブラリ]**&#x200B;にアクセスします。
 
-   ![](assets/lp-text-gen-2.png){zoomable="yes"}
+   ![ プロンプトフィールドとプロンプトライブラリボタンを使用したランディングページ用の AI Assistant のテキスト生成 ](assets/lp-text-gen-2.png){zoomable="yes"}
 
 1. 次の&#x200B;**[!UICONTROL テキスト設定]**&#x200B;オプションを使用してプロンプトを調整します。
 
@@ -131,7 +131,7 @@ Journey Optimizer で AI アシスタントを使用する方法については�
    * **[!UICONTROL トーン]**：ランディングページのトーンは、オーディエンスの共感を呼ぶものにします。情報を提供する、遊び心を持たせる、説得力があるなど、目的に合わせて、AI アシスタントはメッセージを適切に調整することができます。
    * **テキストの長さ**：スライダーを使用して、目的のテキストの長さを選択します。
 
-   ![](assets/lp-text-gen-3.png){zoomable="yes"}
+   ![ 通信戦略、言語、トーンおよびテキスト長のスライダーを使用したランディングページのテキスト設定 ](assets/lp-text-gen-3.png){zoomable="yes"}
 
 1. **[!UICONTROL ブランドアセット]**&#x200B;メニューから「**[!UICONTROL ブランドアセットをアップロード]**」をクリックすると、AI アシスタントに追加のコンテキストを提供できるコンテンツを含むブランドアセットを追加するか、以前にアップロードしたアセットを選択できます。
 
@@ -148,7 +148,7 @@ Journey Optimizer で AI アシスタントを使用する方法については�
 
    詳しくは、[ブランド一致スコア](brands-score.md)を参照してください。
 
-   ![](assets/lp-text-gen-4.png){zoomable="yes"}
+   ![ ブランド調整スコアの割合と選択オプションを含む、生成されたランディングページのテキストのバリエーション ](assets/lp-text-gen-4.png){zoomable="yes"}
 
 1. **[!UICONTROL プレビュー]**&#x200B;ウィンドウ内の「**[!UICONTROL 絞り込み]**」オプションに移動して、追加のカスタマイズ機能にアクセスします。
 
@@ -164,7 +164,7 @@ Journey Optimizer で AI アシスタントを使用する方法については�
 
    または、テキストの&#x200B;**[!UICONTROL トーン]**&#x200B;や&#x200B;**[!UICONTROL コミュニケーション戦略]**&#x200B;を変更することもできます。
 
-   ![](assets/lp-text-gen-5.png){zoomable="yes"}
+   ![ 精巧、要約、フレーズ変更、トーン ドロップダウン付きのよりシンプルな言語を使用を示すランディングページテキストの絞り込みメニュー ](assets/lp-text-gen-5.png){zoomable="yes"}
 
 1. 「**[!UICONTROL ブランド一致]**」タブを開いて、コンテンツが[ブランドガイドライン](brands.md)とどのように一致しているかを確認します。
 
@@ -186,7 +186,7 @@ Journey Optimizer で AI アシスタントを使用する方法については�
 
 1. 右側のメニューから、「**[!UICONTROL AI アシスタント]**」を選択します。
 
-   ![](assets/lp-image-gen-1.png){zoomable="yes"}
+   ![ 画像アセットを選択したランディングページデザイナーと、画像生成用に開かれた AI アシスタントパネル ](assets/lp-image-gen-1.png){zoomable="yes"}
 
 1. AI アシスタントの「**[!UICONTROL 参照スタイル]**」オプションを有効にして、参照コンテンツに基づいて新しいコンテンツをパーソナライズします。また、画像をアップロードして、バリエーションにコンテキストを追加することもできます。
 
@@ -194,7 +194,7 @@ Journey Optimizer で AI アシスタントを使用する方法については�
 
    プロンプトの作成に関するサポートが必要な場合は、ランディングページを改善する様々なプロンプトのアイデアを提供する&#x200B;**[!UICONTROL プロンプトライブラリ]**&#x200B;にアクセスします。
 
-   ![](assets/lp-image-gen-2.png){zoomable="yes"}
+   ![ 参照スタイル切り替え、プロンプトフィールド、プロンプトライブラリを使用したランディングページ用の AI アシスタントの画像生成 ](assets/lp-image-gen-2.png){zoomable="yes"}
 
 1. 次の&#x200B;**[!UICONTROL 画像設定]**&#x200B;オプションを使用してプロンプトを調整します。
 
@@ -205,7 +205,7 @@ Journey Optimizer で AI アシスタントを使用する方法については�
    * **[!UICONTROL 照明]**：画像内の稲妻を指し、画像の雰囲気を形成し、特定の要素をハイライト表示します。
    * **[!UICONTROL 構成]**：画像のフレーム内の要素の配置を指します
 
-   ![](assets/lp-image-gen-3.png){zoomable="yes"}
+   ![ 縦横比、コンテンツタイプ、視覚強度、カラーとトーン、照明、コンポジションを使用したランディングページの画像設定 ](assets/lp-image-gen-3.png){zoomable="yes"}
 
 1. **[!UICONTROL ブランドアセット]**&#x200B;メニューから「**[!UICONTROL ブランドアセットをアップロード]**」をクリックすると、AI アシスタントに追加のコンテキストを提供できるコンテンツを含むブランドアセットを追加するか、以前にアップロードしたアセットを選択できます。
 
@@ -221,7 +221,7 @@ Journey Optimizer で AI アシスタントを使用する方法については�
 
    詳しくは、[ブランド一致スコア](brands-score.md)を参照してください。
 
-   ![](assets/lp-image-gen-4.png){zoomable="yes"}
+   ![Brand Alignment Score の割合とプレビューコントロールを使用した、生成されたランディングページの画像のバリエーション ](assets/lp-image-gen-4.png){zoomable="yes"}
 
 1. **[!UICONTROL プレビュー]**&#x200B;ウィンドウ内の「**[!UICONTROL 絞り込み]**」オプションに移動して、追加のカスタマイズ機能にアクセスします。
 
@@ -232,7 +232,7 @@ Journey Optimizer で AI アシスタントを使用する方法については�
 
    * 後でアクセスできるようにアセットを保存するには、「**[!UICONTROL 保存]**」を選択します。
 
-   ![](assets/lp-image-gen-5.png){zoomable="yes"}
+   ![ 「類似結果を生成」、「Adobe Expressで編集」および「保存」ボタンを表示するランディングページ画像の調整オプション ](assets/lp-image-gen-5.png){zoomable="yes"}
 
 1. 「**[!UICONTROL ブランド一致]**」タブを開いて、コンテンツが[ブランドガイドライン](brands.md)とどのように一致しているかを確認します。
 

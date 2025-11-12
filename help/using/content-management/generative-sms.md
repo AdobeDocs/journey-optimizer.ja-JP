@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5fd1cc3a-c023-4e8e-bfac-9a86bd33bbb3
-source-git-commit: 50933d991c6a337e6d1739652d680778759ef0d5
+source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 100%
+source-wordcount: '629'
+ht-degree: 89%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 1. **[!UICONTROL AI アシスタントを表示]**&#x200B;メニューにアクセスします。
 
-   ![](assets/sms-genai-1.png){zoomable="yes"}
+   ![ ブランドセレクターとプロンプトフィールドを表示する AI アシスタントパネルを含む SMS メッセージエディターが開かれた ](assets/sms-genai-1.png){zoomable="yes"}
 
 1. **[!UICONTROL ブランド]**&#x200B;を選択して、AI で生成されたコンテンツがブランドの仕様と一致していることを確認します。ブランドについて詳しくは、[こちら](brands.md)を参照してください。
 
@@ -48,7 +48,7 @@ ht-degree: 100%
 
    プロンプトの作成に関するサポートが必要な場合は、キャンペーンを改善するための様々なプロンプトのアイデアを提供する&#x200B;**[!UICONTROL プロンプトライブラリ]**&#x200B;にアクセスしてください。
 
-   ![](assets/sms-genai-2.png){zoomable="yes"}
+   ![ ブランドセレクター、プロンプトフィールド、およびプロンプトライブラリアクセスボタンを備えた SMS 用 AI アシスタント ](assets/sms-genai-2.png){zoomable="yes"}
 
 1. 次の&#x200B;**[!UICONTROL テキスト設定]**&#x200B;オプションを使用してプロンプトを調整します。
 
@@ -57,7 +57,7 @@ ht-degree: 100%
    * **[!UICONTROL トーン]**：テキストがオーディエンスと目的に適したものになります。
    * **[!UICONTROL 長さ]**：範囲スライダーを使用して、コンテンツの長さを選択します。
 
-   ![](assets/sms-genai-3.png){zoomable="yes"}
+   ![ 通信戦略、言語、トーンおよび長さのスライダーコントロールを表示する SMS のテキスト設定パネル ](assets/sms-genai-3.png){zoomable="yes"}
 
 1. **[!UICONTROL ブランドアセット]**&#x200B;メニューから「**[!UICONTROL ブランドアセットをアップロード]**」をクリックすると、AI アシスタントに追加のコンテキストを提供できるコンテンツを含むブランドアセットを追加するか、以前にアップロードしたアセットを選択できます。
 
@@ -73,7 +73,7 @@ ht-degree: 100%
 
    詳しくは、[ブランド一致スコア](brands-score.md)を参照してください。
 
-   ![](assets/sms-genai-5.png){zoomable="yes"}
+   ![Brand Alignment Score の割合インジケーターとプレビューオプションを含む、生成された SMS のバリエーション ](assets/sms-genai-5.png){zoomable="yes"}
 
 1. **[!UICONTROL プレビュー]**&#x200B;ウィンドウ内の「**[!UICONTROL 絞り込み]**」オプションに移動して、追加のカスタマイズ機能にアクセスし、環境設定に合わせてバリエーションを微調整します。
 
@@ -85,7 +85,7 @@ ht-degree: 100%
 
    または、テキストの&#x200B;**[!UICONTROL トーン]**&#x200B;や&#x200B;**[!UICONTROL コミュニケーション戦略]**&#x200B;を変更することもできます。
 
-   ![](assets/sms-genai-4.png){zoomable="yes"}
+   ![ リフレーズを表示する SMS の「絞り込み」オプション、トーンと通信戦略のドロップダウンでシンプルな言語を使用 ](assets/sms-genai-4.png){zoomable="yes"}
 
 1. 「**[!UICONTROL ブランド一致]**」タブを開いて、コンテンツが[ブランドガイドライン](brands.md)とどのように一致しているかを確認します。
 

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1b3930ff-f7b0-43f0-bcf2-5c3de0a88b25
-source-git-commit: 50933d991c6a337e6d1739652d680778759ef0d5
+source-git-commit: 22c3c44106d51032cd9544b642ae209bfd62d69a
 workflow-type: tm+mt
-source-wordcount: '1752'
-ht-degree: 100%
+source-wordcount: '1978'
+ht-degree: 88%
 
 ---
 
@@ -42,7 +42,7 @@ Journey Optimizer で AI アシスタントを使用する方法については�
 
 1. 必要に応じてレイアウトをパーソナライズし、**[!UICONTROL AI アシスタント]**&#x200B;メニューにアクセスします。
 
-   ![](assets/full-email-1.png){zoomable="yes"}
+   ![ メールDesignerの AI アシスタントパネルで、ブランド選択とプロンプトフィールドを表示する ](assets/full-email-1.png){zoomable="yes"}
 
 1. 「**[!UICONTROL オリジナルコンテンツを使用]**」オプションを有効にして、AI アシスタントで、選択したコンテンツに基づいて新しいコンテンツをパーソナライズします。
 
@@ -52,7 +52,7 @@ Journey Optimizer で AI アシスタントを使用する方法については�
 
    プロンプトの作成に関するサポートが必要な場合は、キャンペーンを改善するための様々なプロンプトのアイデアを提供する&#x200B;**[!UICONTROL プロンプトライブラリ]**&#x200B;にアクセスしてください。
 
-   ![](assets/full-email-2.png){zoomable="yes"}
+   ![ プロンプト ライブラリ ボタンのプロンプト フィールドに書き込み済みのプロンプト候補が表示される ](assets/full-email-2.png){zoomable="yes"}
 
 1. 「**[!UICONTROL 件名]**」オプションと「**[!UICONTROL プリヘッダー]**」オプションを切り替えて、バリアントの生成に含めることができます。
 
@@ -62,7 +62,7 @@ Journey Optimizer で AI アシスタントを使用する方法については�
    * **[!UICONTROL 言語]**：生成されたコンテンツの言語を選択します。
    * **[!UICONTROL トーン]**：メールのトーンは、オーディエンスの共感を呼ぶものにします。情報を提供する、遊び心を持たせる、説得力があるなど、目的に合わせて、AI アシスタントはメッセージを適切に調整することができます。
 
-   ![](assets/full-email-4.png){zoomable="yes"}
+   ![ コミュニケーション戦略、言語、トーンのオプションを表示するテキスト設定パネル ](assets/full-email-4.png){zoomable="yes"}
 
 1. **[!UICONTROL 画像設定]**&#x200B;を選択します。
 
@@ -72,13 +72,13 @@ Journey Optimizer で AI アシスタントを使用する方法については�
    * **[!UICONTROL 照明]**：画像内の稲妻を指し、画像の雰囲気を形成し、特定の要素をハイライト表示します。
    * **[!UICONTROL 構成]**：画像のフレーム内の要素の配置を指します
 
-   ![](assets/full-email-6.png){zoomable="yes"}
+   ![ コンテンツタイプ、視覚強度、カラーとトーン、照明、コンポジションの各オプションを表示する画像設定パネル ](assets/full-email-6.png){zoomable="yes"}
 
 1. **[!UICONTROL ブランドアセット]**&#x200B;メニューから「**[!UICONTROL ブランドアセットをアップロード]**」をクリックすると、AI アシスタントに追加のコンテキストを提供できるコンテンツを含むブランドアセットを追加するか、以前にアップロードしたアセットを選択できます。
 
    以前にアップロードしたファイルは、**[!UICONTROL アップロードされたブランドアセット]**&#x200B;ドロップダウンで使用できます。生成に含めるアセットを切り替えるだけです。
 
-   ![](assets/full-email-3.png){zoomable="yes"}
+   ![ 「ブランドアセットをアップロード」ボタンと、以前にアップロードしたアセットのリストを表示した「ブランドアセット」セクション ](assets/full-email-3.png){zoomable="yes"}
 
 1. プロンプトの準備が整ったら、「**[!UICONTROL 生成]**」をクリックします。
 
@@ -88,7 +88,7 @@ Journey Optimizer で AI アシスタントを使用する方法については�
 
    詳しくは、[ブランド一致スコア](brands-score.md)を参照してください。
 
-   ![](assets/full-email-7.png){zoomable="yes"}
+   ![ 詳細なアラインメント指標を含んだパーセンテージスコアを示す、ブランドのアラインメントスコアパネル ](assets/full-email-7.png){zoomable="yes"}
 
 1. **[!UICONTROL プレビュー]**&#x200B;ウィンドウ内の「**[!UICONTROL 絞り込み]**」オプションに移動して、追加のカスタマイズ機能にアクセスします。
 
@@ -98,7 +98,7 @@ Journey Optimizer で AI アシスタントを使用する方法については�
 
    または、テキストの&#x200B;**[!UICONTROL トーン]**&#x200B;や&#x200B;**[!UICONTROL コミュニケーション戦略]**&#x200B;を変更することもできます。
 
-   ![](assets/full-email-5.png){zoomable="yes"}
+   ![ トーンとコミュニケーションの方法をドロップダウンで「リファイン」メニューに表示される「リフレーズ」および「よりシンプルな言語を使用」オプション ](assets/full-email-5.png){zoomable="yes"}
 
 1. 「**[!UICONTROL ブランド一致]**」タブを開いて、コンテンツが[ブランドガイドライン](brands.md)とどのように一致しているかを確認します。
 
@@ -120,7 +120,7 @@ Journey Optimizer で AI アシスタントを使用する方法については�
 
 1. 「**[!UICONTROL テキストコンポーネント]**」を選択して、特定のコンテンツのみをターゲットにします。次に、**[!UICONTROL AI アシスタント]**&#x200B;メニューにアクセスします。
 
-   ![](assets/text-genai-1.png){zoomable="yes"}
+   ![ テキストコンポーネントを選択した電子メールDesignerで、AI アシスタント メニューが右側のパネルに開きます ](assets/text-genai-1.png){zoomable="yes"}
 
 1. 「**[!UICONTROL オリジナルコンテンツを使用]**」オプションを有効にして、AI アシスタントで、選択したコンテンツに基づいて新しいコンテンツをパーソナライズします。
 
@@ -130,7 +130,7 @@ Journey Optimizer で AI アシスタントを使用する方法については�
 
    プロンプトの作成に関するサポートが必要な場合は、キャンペーンを改善するための様々なプロンプトのアイデアを提供する&#x200B;**[!UICONTROL プロンプトライブラリ]**&#x200B;にアクセスしてください。
 
-   ![](assets/text-genai-2.png){zoomable="yes"}
+   ![ プロンプトフィールド、ブランドセレクター、プロンプトライブラリアクセスを備えた AI アシスタントのテキスト生成パネル ](assets/text-genai-2.png){zoomable="yes"}
 
 1. 次の&#x200B;**[!UICONTROL テキスト設定]**&#x200B;オプションを使用してプロンプトを調整します。
 
@@ -139,13 +139,13 @@ Journey Optimizer で AI アシスタントを使用する方法については�
    * **[!UICONTROL トーン]**：メールのトーンは、オーディエンスの共感を呼ぶものにします。情報を提供する、遊び心を持たせる、説得力があるなど、目的に合わせて、AI アシスタントはメッセージを適切に調整することができます。
    * **テキストの長さ**：スライダーを使用して、目的のテキストの長さを選択します。
 
-   ![](assets/text-genai-4.png){zoomable="yes"}
+   ![ 通信戦略、言語、トーンおよびテキスト長のスライダーコントロールを示すテキスト設定が展開されました ](assets/text-genai-4.png){zoomable="yes"}
 
 1. **[!UICONTROL ブランドアセット]**&#x200B;メニューから「**[!UICONTROL ブランドアセットをアップロード]**」をクリックすると、AI アシスタントに追加のコンテキストを提供できるコンテンツを含むブランドアセットを追加するか、以前にアップロードしたアセットを選択できます。
 
    以前にアップロードしたファイルは、**[!UICONTROL アップロードされたブランドアセット]**&#x200B;ドロップダウンで使用できます。生成に含めるアセットを切り替えるだけです。
 
-   ![](assets/text-genai-3.png){zoomable="yes"}
+   ![ 以前にアップロードしたブランドアセットが切り替えられるブランドアセットドロップダウンメニュー ](assets/text-genai-3.png){zoomable="yes"}
 
 1. プロンプトの準備が整ったら、「**[!UICONTROL 生成]**」をクリックします。
 
@@ -157,7 +157,7 @@ Journey Optimizer で AI アシスタントを使用する方法については�
 
    詳しくは、[ブランド一致スコア](brands-score.md)を参照してください。
 
-   ![](assets/text-genai-6.png){zoomable="yes"}
+   ![Brand Alignment Score のパーセンテージ インジケーターとプレビューオプションを使用した生成テキストのバリエーション ](assets/text-genai-6.png){zoomable="yes"}
 
 1. **[!UICONTROL プレビュー]**&#x200B;ウィンドウ内の「**[!UICONTROL 絞り込み]**」オプションに移動して、追加のカスタマイズ機能にアクセスします。
 
@@ -173,7 +173,7 @@ Journey Optimizer で AI アシスタントを使用する方法については�
 
    または、テキストの&#x200B;**[!UICONTROL トーン]**&#x200B;や&#x200B;**[!UICONTROL コミュニケーション戦略]**&#x200B;を変更することもできます。
 
-   ![](assets/text-genai-5.png){zoomable="yes"}
+   ![[ 拡張 ]、[ 要約 ]、[ フレーズ変更 ]、および [ トーン ] ドロップダウン付きの [ 簡易言語の使用 ] を表示する [ リファイン ] オプション メニュー ](assets/text-genai-5.png){zoomable="yes"}
 
 1. 「**[!UICONTROL ブランド一致]**」タブを開いて、コンテンツが[ブランドガイドライン](brands.md)とどのように一致しているかを確認します。
 
@@ -197,7 +197,7 @@ Journey Optimizer で AI アシスタントを使用する方法については�
 
 1. 右側のメニューから、「**[!UICONTROL AI アシスタント]**」を選択します。
 
-   ![](assets/image-genai-1.png){zoomable="yes"}
+   ![ 画像アセットを選択した状態でメールDesignerを送信し、AI アシスタントパネルが画像の生成用に開かれた ](assets/image-genai-1.png){zoomable="yes"}
 
 1. AI アシスタントの「**[!UICONTROL 参照スタイル]**」オプションを有効にして、参照コンテンツに基づいて新しいコンテンツをパーソナライズします。また、画像をアップロードして、バリエーションにコンテキストを追加することもできます。
 
@@ -207,7 +207,7 @@ Journey Optimizer で AI アシスタントを使用する方法については�
 
    プロンプトの作成に関するサポートが必要な場合は、キャンペーンを改善するための様々なプロンプトのアイデアを提供する&#x200B;**[!UICONTROL プロンプトライブラリ]**&#x200B;にアクセスしてください。
 
-   ![](assets/image-genai-2.png){zoomable="yes"}
+   ![ 参照スタイル切り替え、ブランドセレクター、プロンプトフィールドを備えた AI アシスタントの画像生成パネル ](assets/image-genai-2.png){zoomable="yes"}
 
 1. 次の&#x200B;**[!UICONTROL 画像設定]**&#x200B;オプションを使用してプロンプトを調整します。
 
@@ -218,7 +218,7 @@ Journey Optimizer で AI アシスタントを使用する方法については�
    * **[!UICONTROL 照明]**：画像内の稲妻を指し、画像の雰囲気を形成し、特定の要素をハイライト表示します。
    * **[!UICONTROL 構成]**：画像のフレーム内の要素の配置を指します
 
-   ![](assets/image-genai-4.png){zoomable="yes"}
+   ![ 縦横比、コンテンツタイプ、視覚強度、カラーとトーン、照明、コンポジションコントロールを備えた画像設定パネル ](assets/image-genai-4.png){zoomable="yes"}
 
 1. **[!UICONTROL ブランドアセット]**&#x200B;メニューから「**[!UICONTROL ブランドアセットをアップロード]**」をクリックすると、AI アシスタントに追加のコンテキストを提供できるコンテンツを含むブランドアセットを追加するか、以前にアップロードしたアセットを選択できます。
 
@@ -247,7 +247,7 @@ Journey Optimizer で AI アシスタントを使用する方法については�
 
    * 後でアクセスできるようにアセットを保存するには、「**[!UICONTROL 保存]**」を選択します。
 
-   ![](assets/image-genai-5.png){zoomable="yes"}
+   ![ 「類似画像を生成」、「Adobe Expressで編集」および「保存」ボタンを表示する、生成された画像の調整オプション ](assets/image-genai-5.png){zoomable="yes"}
 
 1. 適切なコンテンツが見つかったら、「**[!UICONTROL 選択]**」をクリックします。
 
