@@ -5,9 +5,9 @@ title: 調整されたキャンペーンのアクティビティ
 description: 調整されたキャンペーンのアクティビティ
 redpen-status: CREATED_||_2025-08-11_20-27-08
 exl-id: d6635d58-b618-4d92-b60f-c6fc63e473a6
-source-git-commit: 4270fbfb191700704d161f472abf62f7af79c208
+source-git-commit: 341a4dac0ae1c124559ebf552af5b3e7a35519e7
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '338'
 ht-degree: 100%
 
 ---
@@ -40,7 +40,7 @@ AND 結合アクティビティの使用
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 オーディエンスを作成アクティビティ
 
@@ -91,5 +91,5 @@ AND 結合アクティビティの使用
 - **[紐付けアクティビティ](../using/orchestrated/activities/reconciliation.md)** - 外部データまたは未識別データを既存のリソースと照合し、正確なターゲティングを行えるようにします。
 - **[オーディエンスを保存アクティビティ](../using/orchestrated/activities/save-audience.md)** -将来のターゲティングに使用できるように、再利用可能なオーディエンスを作成または更新します。
 - **[分割アクティビティ](../using/orchestrated/activities/split.md)** - フィルターまたは母集団のサイズを使用して、母集団をサブセットにセグメント化します。
-- **[テストアクティビティ](../using/orchestrated/activities/test.md)** - 指定した条件に基づいて条件付きトランジションを有効にします。
+  <!--- **[Test Activity](../using/orchestrated/activities/test.md)** - Enable conditional transitions based on specified criteria.-->
 - **[待機アクティビティ](../using/orchestrated/activities/wait.md)** - タイミングと関連性を高めるために、アクティビティ間で遅延を発生させます。
