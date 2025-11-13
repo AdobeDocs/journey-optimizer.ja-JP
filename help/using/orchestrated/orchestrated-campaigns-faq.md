@@ -5,7 +5,7 @@ title: 調整されたキャンペーンに関するよくある質問
 description: Journey Optimizer の調整されたキャンペーンに関するよくある質問
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 536d080e455e4872ed6e58b11adc3324b332f7b5
+source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
 workflow-type: tm+mt
 source-wordcount: '1799'
 ht-degree: 79%
@@ -247,7 +247,7 @@ Yes. Campaign orchestration is natively integrated with:
 
 +++ キャンペーンオーケストレーションはバッチを通じて読み込まれるデータにのみアクセスしますか、それともリアルタイムで更新されるテーブル（Analytics データなど）もクエリを実行できますか？
 
-Journey Optimizer Campaign オーケストレーションでは、モデルベースのスキーマに基づいてアドホッククエリを作成できます。 モデルベースのスキーマは、現時点ではバッチソースのみをサポートします。 さらに、任意のタイプのAdobe Experience Platform Audience からのオーディエンスを読み取りアクティビティもサポートしています。
+Journey Optimizer Campaign Orchestration は、リレーショナルスキーマに基づいてアドホッククエリを作成できます。 リレーショナルスキーマは、現時点ではバッチソースのみをサポートします。 さらに、任意のタイプのAdobe Experience Platform Audience からのオーディエンスを読み取りアクティビティもサポートしています。
 
 **詳細情報**
 

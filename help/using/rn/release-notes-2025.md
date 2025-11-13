@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
 workflow-type: tm+mt
 source-wordcount: '7890'
 ht-degree: 99%
@@ -162,8 +162,8 @@ ht-degree: 99%
 * **SMS チャネルの mTLS サポート**
 カスタム SMS プロバイダーを設定する際に、相互 TLS（mTLS）認証を有効にするオプションが追加されました。このオプションでは、安全な接続を確立する前に、クライアントとサーバーの両方が相互の ID を確認する必要があります。[詳細情報](../sms/sms-configuration-custom.md) - 公開日：2025年9月23日（PT）
 
-* **モデルベースのスキーマ**\
-  モデルベースのスキーマを使用して、オーケストレーションキャンペーンでのリレーショナルモデリングのニーズをサポートできるようになりました。[詳細情報](../orchestrated/gs-schemas.md) - 公開日：2025年9月23日（PT）
+* **リレーショナルスキーマ**\
+  でリレーショナルスキーマを使用して、オーケストレートキャンペーンでのリレーショナルモデリングのニーズをサポートできるようになりました。 [詳細情報](../orchestrated/gs-schemas.md) - 公開日：2025年9月23日（PT）
 
 * **ジャーニーでのデータセット参照のサポート**\
   ジャーニーの新しい&#x200B;**データセット参照**&#x200B;アクティビティを使用すると、実行時に Adobe Experience Platform レコードデータセットからデータを動的に取得できます。この機能を活用することで、プロファイルやイベントペイロードに存在しない場合があるデータにアクセスできるので、顧客とのインタラクションの関連性を高め、適切なタイミングで行えるようになります。[詳細情報](../building-journeys/dataset-lookup.md) - 公開日：2025年9月23日（PT）

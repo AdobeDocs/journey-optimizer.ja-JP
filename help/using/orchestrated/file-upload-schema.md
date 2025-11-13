@@ -2,34 +2,34 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 設定の手順
-description: DDL をアップロードして Adobe Experience Platform 内でモデルベースのスキーマを作成する方法について説明します。
+description: DDL をアップロードして Adobe Experience Platform 内でリレーショナルスキーマを作成する方法について説明します。
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
-source-git-commit: 80c136409821388a4baea9286b298220c91bba7a
+source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
 workflow-type: tm+mt
 source-wordcount: '1084'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
 
-# DDL ファイルを使用したモデルベースのスキーマの作成 {#file-upload-schema}
+# DDL ファイルを使用したリレーショナルスキーマの作成 {#file-upload-schema}
 
-**ロイヤルティメンバーシップ**、**ロイヤルティトランザクション**、**ロイヤルティ報酬**&#x200B;などのスキーマを作成して、オーケストレーションキャンペーンに必要なモデルベースのデータモデルを定義します。各スキーマには、プライマリキー、バージョン管理属性、**受信者**&#x200B;や&#x200B;**ブランド**&#x200B;などのエンティティを参照する適切な関係を含める必要があります。
+**ロイヤルティメンバーシップ**、**ロイヤルティトランザクション**、**ロイヤルティ報酬**&#x200B;などのスキーマを作成して、調整されたキャンペーンに必要なリレーショナルデータモデルを定義します。各スキーマには、プライマリキー、バージョン管理属性、**受信者**&#x200B;や&#x200B;**ブランド**&#x200B;などのエンティティを参照する適切な関係を含める必要があります。
 
 スキーマは、インターフェイスを通じて手動で作成することや、DDL ファイルを使用して一括で読み込むことができます。
 
-この節では、DDL（データ定義言語）ファイルをアップロードして Adobe Experience Platform 内でモデルベースのスキーマを作成する方法について、手順を追って説明します。DDL ファイルを使用すると、テーブル、属性、キー、関係など、データモデルの構造を事前に定義できます。
+この節では、DDL（データ定義言語）ファイルをアップロードして Adobe Experience Platform 内でリレーショナルスキーマを作成する方法について、手順を追って説明します。DDL ファイルを使用すると、テーブル、属性、キー、関係など、データモデルの構造を事前に定義できます。
 
-1. [DDL ファイルをアップロード](#ddl-upload)してモデルベースのスキーマを作成し、その構造を定義します。
+1. [DDL ファイルをアップロード](#ddl-upload)してリレーショナルスキーマを作成し、その構造を定義します。
 
 1. データモデルのテーブル間の[関係を定義](#relationships)します。
 
-1. [スキーマをリンク](#link-schema)して、モデルベースのデータを受信者やブランドなどの既存のプロファイルエンティティに接続します。
+1. [スキーマをリンク](#link-schema)して、リレーショナルデータを受信者やブランドなどの既存のプロファイルエンティティに接続します。
 
-1. サポートされているソースからデータセットに[データを取り込み](ingest-data.md)ます。
+1. サポートされているソースからデータセットに[データを取得](ingest-data.md)します。
 
-➡️ [モデルベースのスキーマについて詳しくは、Adobe Experience Platform のドキュメントを参照してください。](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/schema/relational)
+➡️ [ リレーショナルスキーマについて詳しくは、Adobe Experience Platform ドキュメントを参照してください ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational)
 
 ## DDL ファイルのアップロード{#ddl-upload}
 
@@ -37,7 +37,7 @@ DDL ファイルをアップロードすると、テーブル、属性、キー�
 
 Excel ベースのスキーマファイルのアップロードがサポートされています。[提供されているテンプレート](assets/template.zip)をダウンロードして、スキーマ定義を簡単に準備します。
 
-+++Adobe Experience Platform でモデルベースのスキーマを作成する場合、次の機能がサポートされます。
++++Adobe Experience Platform でリレーショナルスキーマを作成する場合、次の機能がサポートされます。
 
 * **ENUM**\
   ENUM フィールドは、DDL ベースと手動スキーマ作成の両方でサポートされているので、許可される値の固定セットを使用して属性を定義できます。
@@ -66,7 +66,7 @@ Excel ベースのスキーマファイルのアップロードがサポート�
 
 1. 「**スキーマを作成**」をクリックします。
 
-1. **スキーマタイプ**&#x200B;として「**[!UICONTROL モデルベース]**」を選択します。
+1. **[!UICONTROL スキーマタイプ]**&#x200B;として「**リレーショナル**」を選択します。
 
    ![](assets/admin_schema_1.png)
 

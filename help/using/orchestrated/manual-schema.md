@@ -2,23 +2,23 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 設定の手順
-description: ユーザーインターフェイスを通じてモデルベースのスキーマを直接作成する方法について説明します。
+description: ユーザーインターフェイスを通じてリレーショナルスキーマを直接作成する方法について説明します。
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
 version: Campaign Orchestration
-source-git-commit: ac80d1cec351a3029c8b2bf862275ffe7fd5c86d
+source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
 workflow-type: tm+mt
 source-wordcount: '882'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
-# 手動のモデルベースのスキーマの設定 {#manual-schema}
+# 手動のリレーショナルスキーマの設定 {#manual-schema}
 
-モデルベースのスキーマは、ユーザーインターフェイスを通じて直接作成できるので、属性、プライマリキー、バージョン管理フィールド、関係の詳細な設定が実現します。
+リレーショナルスキーマは、ユーザーインターフェイスを通じて直接作成できるので、属性、プライマリキー、バージョン管理フィールド、関係の詳細な設定が可能になります。
 
 次の例では、**ロイヤルティメンバーシップ**&#x200B;スキーマを手動で定義して、調整されたキャンペーンに必要な構造を示します。
 
-1. Adobe Experience Platform インターフェイスを使用して、[モデルベースのスキーマを手動で作成します](#schema)。
+1. Adobe Experience Platform インターフェイスを使用して、[リレーショナルスキーマを手動で作成します](#schema)。
 
 1. 顧客 ID、メンバーシップレベル、ステータスフィールドなどの[属性を追加します](#schema-attributes)。
 
@@ -28,11 +28,11 @@ ht-degree: 98%
 
 1. サポートされているソースからデータセットにデータを[取り込みます](ingest-data.md)。
 
-➡️ [手動モデルベーススキーマについて詳しくは、Adobe Experience Platform のドキュメントを参照してください](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
+➡️[ 手動のリレーショナルスキーマについて詳しくは、Adobe Experience Platform ドキュメントを参照してください ](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/ui/resources/schemas#create-manually)
 
 ## スキーマの作成 {#schema}
 
-まず、Adobe Experience Platform で新しいモデルベースのスキーマを手動で作成します。このプロセスにより、名前や動作など、スキーマ構造をゼロから定義できます。
+まず、Adobe Experience Platform で新しいリレーショナルスキーマを手動で作成します。このプロセスにより、名前や動作など、スキーマ構造をゼロから定義できます。
 
 1. Adobe Experience Platform にログインします。
 
@@ -40,7 +40,7 @@ ht-degree: 98%
 
 1. 「**[!UICONTROL スキーマを作成]**」をクリックします。
 
-1. **スキーマタイプ**&#x200B;として「**[!UICONTROL モデルベース]**」を選択します。
+1. **[!UICONTROL スキーマタイプ]**&#x200B;として「**リレーショナル**」を選択します。
 
    ![](assets/admin_schema_1.png){zoomable="yes"}
 
@@ -60,7 +60,7 @@ ht-degree: 98%
 
 ターゲティングに使用するスキーマには、関連付けられた ID 名前空間を持つタイプ `String` の ID フィールドを 1 つ以上含める必要があります。これにより、Adobe Journey Optimizer のターゲティングおよび ID 解決機能との互換性が確保されます。
 
-+++Adobe Experience Platform でモデルベースのスキーマを作成する場合、次の機能がサポートされます。
++++Adobe Experience Platform でリレーショナルスキーマを作成する場合、次の機能がサポートされます。
 
 * **ENUM**\
   ENUM フィールドは、DDL ベースと手動スキーマ作成の両方でサポートされているので、許可される値の固定セットを使用して属性を定義できます。
@@ -69,7 +69,7 @@ ht-degree: 98%
   アクセス制御や使用制限などのデータガバナンスポリシーの適用に、スキーマフィールドレベルでラベル付けがサポートされています。詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja)を参照してください。
 
 * **複合キー**\
-  複合プライマリキーは、モデルベースのスキーマ定義でサポートされるので、複数のフィールドと共に使用してレコードを一意に識別できます。
+  複合プライマリキーは、リレーショナルスキーマ定義でサポートされるので、複数のフィールドと共に使用してレコードを一意に識別できます。
 
 +++
 
@@ -110,7 +110,7 @@ ht-degree: 98%
 
 属性を作成して保存した後、関係を定義することで、スキーマを他のリレーショナルスキーマとリンクできます。
 
-➡️ [&#x200B; リレーショナルスキーマについて詳しくは、Adobe Experience Platform ドキュメントを参照してください &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
+➡️ [ リレーショナルスキーマについて詳しくは、Adobe Experience Platform ドキュメントを参照してください ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
 
 ## スキーマをリンク {#link-schema}
 

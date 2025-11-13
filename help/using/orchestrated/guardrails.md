@@ -5,7 +5,7 @@ title: 調整されたキャンペーンのガードレールと制限
 description: 調整されたキャンペーンのガードレールと制限について説明します
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
-source-git-commit: a9b790bc833b5819862bf2f3284968d81f595f28
+source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 100%
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 * 管理性とパフォーマンスを維持するために、スキーマあたりの属性の平均数は **50 列を超えないようにしてください**。
 
-* Adobe Experience Platform **プロファイル**&#x200B;では、モデルベースのスキーマを有効にできません。Adobe Experience Platform **プロファイル**&#x200B;では、標準 XDM スキーマのみがサポートされています。モデルベースのスキーマは、オーケストレーションキャンペーンまたはアクションキャンペーンに対して有効にできます。[詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
+* Adobe Experience Platform **プロファイル**&#x200B;では、リレーショナルスキーマを有効にできません。Adobe Experience Platform **プロファイル**&#x200B;では、標準 XDM スキーマのみがサポートされています。リレーショナルスキーマは、オーケストレーションキャンペーンまたはアクションキャンペーンに対して有効にできます。[詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
 
 ### データ取り込み
 
