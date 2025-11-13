@@ -9,10 +9,10 @@ role: User, Developer
 level: Intermediate, Experienced
 keywords: ジャーニー、ユースケース
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 100%
+source-wordcount: '287'
+ht-degree: 93%
 
 ---
 
@@ -34,13 +34,13 @@ IP をウォームアップするために、配信数を徐々に増やすこ�
 
    1. 「**[!UICONTROL 制限]**」フィールドをこの配信の最大受信者数に設定します。
 
-   ![](assets/profile-cap-condition.png)
+   ![ カスタムアクションの実行量を制御するためのプロファイルキャップ条件 ](assets/profile-cap-condition.png)
 
    この制限は、購読者の合計数まで徐々に増やすことができます。
 
 1. **[!UICONTROL メール]**&#x200B;アクションアクティビティを&#x200B;**[!UICONTROL 条件]**&#x200B;アクティビティの後の呼びパスに追加します。
 
-   ![](assets/ramp-up-deliveries-message.png)
+   ![ 外部システムにデータを送信するためのカスタム アクションを持つジャーニー](assets/ramp-up-deliveries-message.png)
 
    ジャーニーが実行されると、指定したプロファイルの最大数まで、メッセージが入力プロファイルに送信されます。この制限に達すると、入力したプロファイルは代替パスを使用します。
 

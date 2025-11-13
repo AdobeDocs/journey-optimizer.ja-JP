@@ -10,10 +10,10 @@ level: Intermediate
 keywords: ジャーニー, メッセージ, プッシュ, sms, メール, アプリ内, web, コンテンツカード, コードベースのエクスペリエンス
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '988'
-ht-degree: 100%
+source-wordcount: '1050'
+ht-degree: 94%
 
 ---
 
@@ -50,17 +50,17 @@ ht-degree: 100%
 
 1. ジャーニーで活用するビルトインのチャネルアクティビティを選択します。
 
-   ![](assets/journey-action-type-cbe.png)
+   ![ チャネルアクションとカスタムアクションオプションを表示するアクションタイプドロップダウン ](assets/journey-action-type-cbe.png)
 
 1. アクションにラベルを追加し、「**[!UICONTROL アクションを設定]**」を選択します。
 
-   ![](assets/journey-action-configure.png){width="80%"}
+   ![ ラベルと説明フィールドを含むアクションアクティビティ設定ペイン ](assets/journey-action-configure.png){width="80%"}
 
 1. ジャーニーアクション設定画面の「**[!UICONTROL アクション]**」タブに移動します。
 
    選択したチャネルに使用する設定を選択します。
 
-   ![](assets/journey-action-actions-tab.png)
+   ![ カスタムアクションとAdobe アクションが表示されている管理メニューの「アクション」タブ ](assets/journey-action-actions-tab.png)
 
 1. インバウンドチャネルを選択した場合は、複数のアクションを追加できます。[詳細情報](#multi-action)
 
@@ -159,15 +159,15 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL 複数アクション]**」をアクションタイプとして選択します。
 
-   ![](assets/journey-multi-action.png)
+   ![ オーケストレーション下のジャーニーパレットのマルチアクションアクティビティ ](assets/journey-multi-action.png)
 
 1. 必要に応じてラベルを追加し、「**[!UICONTROL アクションを設定]**」を選択します。
 
-   ![](assets/journey-multi-action-configure.png){width="60%"}
+   ![ ラベルと説明フィールドを含むマルチアクション設定ペイン ](assets/journey-multi-action-configure.png){width="60%"}
 
 1. ジャーニーアクション設定画面の「**[!UICONTROL アクション]**」タブに移動します。
 
-   ![](assets/journey-multi-action-configuration.png){width="70%"}
+   ![ 実行するアクションのリストを表示するマルチアクション設定 ](assets/journey-multi-action-configuration.png){width="70%"}
 
 1. 「**[!UICONTROL アクション]**」セクションからインバウンドアクション（**コードベースのエクスペリエンス**、**アプリ内メッセージ**、**コンテンツカード**、または **web**）を選択します。
 
@@ -175,7 +175,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL アクションを追加]**」ボタンを使用して、ドロップダウンリストから別のインバウンドアクションを選択します。
 
-   ![](assets/journey-multi-action-add.png){width="80%"}
+   ![ 複数アクションアクティビティに追加のアクションを含める「アクションを追加」ボタン ](assets/journey-multi-action-add.png){width="80%"}
 
 1. 同様の手順を実行して、さらにアクションを追加します。ジャーニーアクショングループには、最大 10 個のインバウンドアクションを追加できます。
 

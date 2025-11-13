@@ -10,10 +10,10 @@ level: Intermediate
 keywords: ジャーニー, 最初, 開始, クイックスタート, オーディエンス, イベント, アクション
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '1443'
-ht-degree: 100%
+source-wordcount: '1475'
+ht-degree: 94%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 100%
 
 ジャーニーカレンダーに移動するには：
 
-1. カレンダー表示にアクセスするには、ジャーニーリストを開き、![カレンダーアイコン](assets/do-not-localize/timeline-icon.svg) アイコンをクリックします。
+1. カレンダー表示にアクセスするには、ジャーニーリストを開き、「![ カレンダーアイコンをクリックしてカレンダー表示に切り替える ](assets/do-not-localize/timeline-icon.svg) アイコンをクリックします。
 
 1. 週間を移動するには、カレンダーの上にある矢印ボタンまたは日付セレクターを使用します。
 
@@ -73,11 +73,11 @@ ht-degree: 100%
 
    ![ライブジャーニーを表示するカレンダー表示](assets/timeline-journeys.png)
 
-1. ![歯車](assets/do-not-localize/Smock_Gears_18_N.png) アイコンをクリックして、数日間または数週間にまたがる項目の表示を切り替えます。
+1. ![ 設定アイコンをクリックして複数日のジャーニーの表示を切り替える ](assets/do-not-localize/Smock_Gears_18_N.png) アイコンをクリックして、複数の日または週にまたがる項目の表示を切り替えます。
 
    ![ライブキャンペーンを表示するカレンダー表示](assets/journey-calendar-1.png)
 
-1. ![カレンダーを追加](assets/do-not-localize/Smock_CalendarAdd_18_N.svg) アイコンをクリックして、最大 3 つの外部カレンダーを管理および追加します。
+1. ![ 外部カレンダーを追加 ](assets/do-not-localize/Smock_CalendarAdd_18_N.svg) アイコンをクリックして、最大 3 つの外部カレンダーを管理および追加します。
 
    ![外部カレンダーを示すカレンダー表示](assets/journey-calendar-2.png)
 
@@ -120,7 +120,7 @@ ht-degree: 100%
 
 イベント、データソースまたはアクションの設定ペインの「**[!UICONTROL 使用されている場所]**」フィールドには、特定のイベント、フィールドグループまたはアクションを使用するジャーニーの数が表示されます。「**[!UICONTROL ジャーニーを表示]**」ボタンをクリックすると、対応するジャーニーのリストを表示できます。
 
-![](assets/journey3bis.png)
+![ イベントまたはアクションを使用するジャーニーの数を示すフィールドで使用 ](assets/journey3bis.png)
 
 ## ジャーニーのタイプ {#journey-types}
 
@@ -166,7 +166,7 @@ ht-degree: 100%
 
 1. ジャーニーの名前を入力して確定します。ジャーニーのプロパティ画面で名前を変更することもできます。デフォルトでは、名前は `[JOURNEY-NAME]_copy` のように設定されます。
 
-   ![](assets/duplicate-jo2.png)
+   ![ 重複したジャーニーのジャーニー名入力フィールド ](assets/duplicate-jo2.png)
 
 1. 新しいジャーニーが作成され、ジャーニーリストで使用できます。
 

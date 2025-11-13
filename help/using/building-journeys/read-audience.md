@@ -10,10 +10,10 @@ level: Intermediate
 keywords: アクティビティ, ジャーニー, 読み取り, オーディエンス, プラットフォーム
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '2461'
-ht-degree: 99%
+source-wordcount: '2558'
+ht-degree: 95%
 
 ---
 
@@ -60,13 +60,13 @@ ht-degree: 99%
 
    リストに表示される列は、カスタマイズして並べ替えることができます。
 
-   ![](assets/read-segment-selection.png)
+   ![ 使用可能なAdobe Experience Platform オーディエンスを示すオーディエンス選択インターフェイス ](assets/read-segment-selection.png)
 
    オーディエンスが追加されると、「**[!UICONTROL コピー]**」ボタンを使用して、オーディエンスの名前と ID をコピーできます。
 
    `{"name":"Luma app opening and checkout","id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
-   ![](assets/read-segment-copy.png)
+   ![ オーディエンス名とオーディエンス ID を JSON 形式でコピーする場合の「コピー」ボタン ](assets/read-segment-copy.png)
 
    >[!NOTE]
    >
@@ -118,7 +118,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->サンドボックスあたりの全体的な読み取り率は、1 秒あたり 20,000 プロファイルに設定されています。したがって、同じサンドボックスで同時に実行されるすべての「オーディエンスを読み取り」の読み取り率は、合計で 1 秒あたり最大 20,000 プロファイルになります。この上限は変更できません。 ジャーニーの処理率とスループットについて詳しくは、[&#x200B; この節 &#x200B;](entry-management.md#journey-processing-rate) を参照してください。
+>サンドボックスあたりの全体的な読み取り率は、1 秒あたり 20,000 プロファイルに設定されています。したがって、同じサンドボックスで同時に実行されるすべての「オーディエンスを読み取り」の読み取り率は、合計で 1 秒あたり最大 20,000 プロファイルになります。この上限は変更できません。 ジャーニーの処理率とスループットについて詳しくは、[ この節 ](entry-management.md#journey-processing-rate) を参照してください。
 
 ### ジャーニーのスケジュール {#schedule}
 
@@ -165,15 +165,15 @@ ht-degree: 99%
 
 1. **[!UICONTROL オーディエンスを読み取り]**&#x200B;アクティビティのプロパティで、「**[!UICONTROL ジャーニースケジュールを編集]**」を選択します。
 
-   ![](assets/read-segment-schedule.png)
+   ![ オーディエンスを読み取りアクティビティプロパティの「ジャーニースケジュールを編集」ボタン ](assets/read-segment-schedule.png)
 
 1. ジャーニーのプロパティが表示されます。**[!UICONTROL スケジューラータイプ]**&#x200B;ドロップダウンリストで、ジャーニーを実行する頻度を選択します。
 
-   ![](assets/read-segment-schedule-list.png)
+   ![ 頻度オプションを含むスケジューラータイプのドロップダウン：1 回、毎日、毎週、毎月 ](assets/read-segment-schedule-list.png)
 
 繰り返しジャーニーの場合は、ジャーニーへのプロファイルのエントリを管理するのに役立つ特定のオプションを使用できます。各オプションについて詳しくは、以下の節を展開してください。
 
-![](assets/read-audience-options.png)
+![ オーディエンスの読み取りの繰り返しオプション：増分読み取り、再エントリを強制、バッチ後のトリガー](assets/read-audience-options.png)
 
 +++**[!UICONTROL 増分読み取り]**
 
@@ -239,13 +239,13 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 それには、テストモードを有効にします。
 
-![](assets/read-segment-test-mode.png)
+![ テストプロファイルを選択したオーディエンスを読み取りアクティビティのテストモードインターフェイス ](assets/read-segment-test-mode.png)
 
 通常どおりにテストモードを設定し実行します。[ジャーニーのテスト方法を学ぶ](testing-the-journey.md)。
 
 テストを実行したら、「**[!UICONTROL ログを表示]**」ボタンを使用して、テスト結果を確認できます。詳しくは、[この節](testing-the-journey.md#viewing_logs)を参照してください。
 
-![](assets/read-segment-log.png)
+![ オーディエンスの実行結果とプロファイルフローを示すテストログ ](assets/read-segment-log.png)
 
 テストが正常に完了すると、ジャーニーを公開できます（[ジャーニーの公開](publish-journey.md)を参照）。オーディエンスに属する個人は、ジャーニーのプロパティの「**[!UICONTROL スケジューラー]**」セクションで指定された日時にジャーニーにエントリします。
 
@@ -273,7 +273,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 * 時間（例：その人物のタイムゾーンで午前中か？）
 * ジャーニーに流入するオーディエンスを割合に基づいて分割するアルゴリズム（例：90% - 10%、コントロール母集団を除外）
 
-![](assets/read-segment-audience1.png)
+![VIP パスおよびVIP以外のパスへのオーディエンスのセグメント化の条件アクティビティ ](assets/read-segment-audience1.png)
 
 >[!NOTE]
 >
@@ -287,7 +287,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 この除外は、母集団のカウントを目的として、または複数のステップから成るジャーニーに従って、オーディエンスの取得直後に発生する可能性があります。
 
-![](assets/read-segment-audience2.png)
+![ 終了アクティビティを使用した除外ブランチのあるジャーニーパス ](assets/read-segment-audience2.png)
 
 **和集合**
 
@@ -295,7 +295,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 例えば、VIP の顧客と VIP 以外の顧客は、ジャーニーで 10 日間別々のエクスペリエンスを経た後で、同じパスに戻ることができます。結合した後、セグメント化や除外を実行してオーディエンスを再度分割できます。
 
-![](assets/read-segment-audience3.png)
+![ 和集合を使用したセグメント化の後で結合し直されるジャーニーパス ](assets/read-segment-audience3.png)
 
 ## 再試行 {#read-audience-retry}
 
@@ -307,4 +307,4 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 「オーディエンスを読み取り」アクティビティによってトリガーされるジャーニーに適用可能なユースケースを理解します。バッチベースのジャーニーを構築する方法と適用するベストプラクティスについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430369?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)

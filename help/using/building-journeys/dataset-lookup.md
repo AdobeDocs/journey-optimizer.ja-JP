@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 version: Journey Orchestration
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
-source-git-commit: ccd9f1aa3359875796104d9789d5dd8c0279c0c1
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 100%
+source-wordcount: '776'
+ht-degree: 96%
 
 ---
 
@@ -63,7 +63,7 @@ Adobe Experience Platform で参照するには、データセットを有効に
 
 1. **[!UICONTROL オーケストレーション]**&#x200B;カテゴリを展開し、**[!UICONTROL データセット参照]**&#x200B;アクティビティをキャンバスにドロップします。
 
-   ![](assets/aep-data-activity.png)
+   ![ ジャーニーのAdobe Experience Platform データセットルックアップアクティビティ ](assets/aep-data-activity.png)
 
 1. ラベルと説明を追加します。
 
@@ -81,7 +81,7 @@ Adobe Experience Platform で参照するには、データセットを有効に
 
    +++例
 
-   ![](assets/aep-data-leaf-primitive.png)
+   ![ プリミティブデータタイプと構造を示すデータセットフィールド選択 ](assets/aep-data-leaf-primitive.png)
 
    +++
 
@@ -93,7 +93,7 @@ Adobe Experience Platform で参照するには、データセットを有効に
 
    +++例
 
-   ![](assets/aep-data-strings.png)
+   ![ データセットフィールドのルックアップと文字列関数を使用した式エディター ](assets/aep-data-strings.png)
 
    +++
 

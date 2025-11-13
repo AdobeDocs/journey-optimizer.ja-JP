@@ -3,10 +3,10 @@ title: ジャーニーでの補助識別子の使用
 description: ジャーニーの補助識別子の使用方法について説明します。
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
-source-git-commit: 62c0c1f46b5bd575102d9f27037cb6add1355ba2
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '1381'
-ht-degree: 100%
+source-wordcount: '1424'
+ht-degree: 96%
 
 ---
 
@@ -89,7 +89,7 @@ ht-degree: 100%
 
    1. 識別子を **[!UICONTROL ID]** としてマークします。
 
-      ![](assets/supplemental-ID-schema.png)
+      ![ 追加の識別子フィールドグループを使用したスキーマ設定 ](assets/supplemental-ID-schema.png)
 
       >[!IMPORTANT]
       >
@@ -105,7 +105,7 @@ ht-degree: 100%
 
    1. イベント設定画面で、「**[!UICONTROL 補助識別子を使用]**」オプションをオンにします。
 
-      ![](assets/supplemental-ID-event.png)
+      ![ 追加の識別子の名前空間選択を使用したイベント設定 ](assets/supplemental-ID-event.png)
 
    1. 式エディターを使用して、補足 ID としてマークした属性を選択します。
 
@@ -119,7 +119,7 @@ ht-degree: 100%
 
    設定したイベントをジャーニーキャンバスにドラッグします。プロファイル ID と補足 ID の両方に基づいてジャーニーエントリがトリガーされます。
 
-   ![](assets/supplemental-ID-journey.png)
+   ![ イベントのトリガーに追加の ID を使用しているジャーニー](assets/supplemental-ID-journey.png)
 
 >[!TAB オーディエンスを読み取りジャーニー]
 
@@ -131,7 +131,7 @@ ht-degree: 100%
 
    1. 識別子を **[!UICONTROL ID]** としてマークします。
 
-      ![](assets/supplemental-ID-schema-profile.png)
+      ![ 追加の識別子フィールドが設定されたプロファイルスキーマ ](assets/supplemental-ID-schema-profile.png)
 
       >[!IMPORTANT]
       >
@@ -145,7 +145,7 @@ ht-degree: 100%
 
     1. Navigate to the **[!UICONTROL Configuration]** / **[!UICONTROL Data Sources]** menu, then locate the "ExperiencePlatformDataSource" data source.
 
-        ![](assets/supplemental-ID-data-source.png)
+        ![Data source configuration with supplemental identifier mapping](assets/supplemental-ID-data-source.png)
 
     1. Open the field selector then select the attribute you want to use as a supplemental identifier (e.g., booking ID, subscription ID).-->
 
@@ -155,7 +155,7 @@ ht-degree: 100%
 
    1. アクティビティのプロパティパネルで、「**[!UICONTROL 補助識別子を使用]**」オプションをオンに切り替えます。
 
-      ![](assets/supplemental-ID-read-audience.png)
+      ![ 追加の識別子設定を使用したオーディエンスを読み取りアクティビティ ](assets/supplemental-ID-read-audience.png)
 
    1. 「**[!UICONTROL 補助識別子]**」フィールドで、式エディターを使用して、補助 ID としてマークした属性を選択します。
 
@@ -171,7 +171,7 @@ ht-degree: 100%
 
 式エディターとパーソナライゼーションエディターを使用して、パーソナライゼーションまたは条件付きロジックの補足識別子の属性を参照します。属性は、**[!UICONTROL コンテキスト属性]**&#x200B;メニューからアクセスできます。
 
-![](assets/supplemental-ID-perso.png)
+![ コンテンツの追加の識別子フィールドを示すPersonalization エディター ](assets/supplemental-ID-perso.png)
 
 イベントトリガージャーニーでは、配列（複数の処方箋やポリシーなど）を操作している場合は、数式を使用して特定の要素を抽出します。
 
@@ -246,4 +246,4 @@ ht-degree: 100%
 
 [!DNL Adobe Journey Optimizer] で補足識別子を有効にして適用する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464793?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)

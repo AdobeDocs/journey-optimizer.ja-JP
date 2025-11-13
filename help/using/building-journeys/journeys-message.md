@@ -10,10 +10,10 @@ level: Intermediate
 keywords: ジャーニー, メッセージ, プッシュ, sms, メール, アプリ内, web, コンテンツカード, コードベースのエクスペリエンス
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 version: Journey Orchestration
-source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 96%
+source-wordcount: '569'
+ht-degree: 93%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 96%
 
 ## ジャーニーでのメッセージの追加  {#add-msg-in-journey}
 
-ビルトインのチャネルアクションを使用すると、アウトバウンドまたはインバウンドメッセージを設定できます。ジャーニーで使用可能なチャネルについて詳しくは、この節の表 [&#x200B; ジャーニーとキャンペーンのチャネル &#x200B;](../channels/gs-channels.md#channels) を参照してください。
+ビルトインのチャネルアクションを使用すると、アウトバウンドまたはインバウンドメッセージを設定できます。ジャーニーで使用可能なチャネルについて詳しくは、この節の表 [ ジャーニーとキャンペーンのチャネル ](../channels/gs-channels.md#channels) を参照してください。
 
 ジャーニーにビルトインのチャネルアクションを追加するには、次の手順に従います。
 
@@ -42,7 +42,7 @@ ht-degree: 96%
 
 1. パレットの「**アクション**」セクションから、チャネルアクティビティをキャンバスにドラッグ＆ドロップします。
 
-   ![](assets/journey-web-activity.png)
+   ![ ジャーニーキャンバスでの web チャネルアクションアクティビティ ](assets/journey-web-activity.png)
 
 1. また、「**[!UICONTROL アクション]**」アクティビティを選択して、複数のインバウンドアクションを選択できます。[詳細情報](journey-action.md)
 
@@ -139,7 +139,7 @@ ht-degree: 96%
 
 それには、ライブジャーニーを開き、チャネルアクティビティを選択して、「**コンテンツを編集**」をクリックします。
 
-![](assets/add-a-message2.png)
+![ 使用可能なチャネルオプションを表示する追加アクションアクティビティドロップダウン ](assets/add-a-message2.png)
 
 ただし、パーソナライゼーションで使用されている属性は、プロファイル属性であるかコンテキストデータ（イベントプロパティまたはジャーニープロパティから得られるもの）であるかにかかわらず、変更できません。
 

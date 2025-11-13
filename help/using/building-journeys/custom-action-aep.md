@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 100%
+source-wordcount: '419'
+ht-degree: 86%
 
 ---
 
@@ -26,11 +26,11 @@ ht-degree: 100%
 
 1. 「**資格情報**」セクションで、「**OAuth サーバー間**」をクリックします。
 
-   ![](assets/custom-action-aep-1.png)
+   ![ アクションタイプがドロップダウンに表示されたカスタムアクション設定画面 ](assets/custom-action-aep-1.png)
 
 1. 「**cURL コマンドを表示**」をクリックします。
 
-   ![](assets/custom-action-aep-2.png)
+   ![Adobe Experience Platformのアクションタイプの選択 ](assets/custom-action-aep-2.png)
 
 1. cURL コマンドをコピーし、client_id、client_secret、grant_type および scope を保存します。
 
@@ -48,15 +48,15 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 1. Adobe Experience Platform で、左メニューの&#x200B;**接続**&#x200B;の下にある「**ソース**」をクリックします。**HTTP API** で「**データを追加**」をクリックします。
 
-   ![](assets/custom-action-aep-3.png)
+   ![Adobe Experience Platformのサンドボックス選択ドロップダウン ](assets/custom-action-aep-3.png)
 
 1. 「**新規アカウント**」を選択し、認証を有効にします。「**ソースに接続**」を選択します。
 
-   ![](assets/custom-action-aep-4.png)
+   ![ ストリーミングデータ用データセット選択インターフェイス ](assets/custom-action-aep-4.png)
 
 1. 「**次へ**」を選択し、データを書き込むデータセットを選択します。「**次へ**」、「**終了**」の順にクリックします。
 
-   ![](assets/custom-action-aep-5.png)
+   ![ アクションパラメーターにマッピングされる XDM スキーマフィールド ](assets/custom-action-aep-5.png)
 
 1. 新しく作成したデータフローを開きます。スキーマペイロードをコピーして、メモ帳に保存します。
 
@@ -109,7 +109,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 1. ヘッダー（Content-Type、Charset、sandbox-name）が設定されていることを確認します。
 
-   ![](assets/custom-action-aep-7bis.png)
+   ![ 設定ペインを使用したジャーニーキャンバスのカスタムアクション ](assets/custom-action-aep-7bis.png)
 
 ### 認証の設定 {#custom-action-aep-authentication}
 
@@ -143,7 +143,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 1. 「**クリックして認証をテスト**」ボタンを使用して、接続をテストします。
 
-   ![](assets/custom-action-aep-8.png)
+   ![ 式エディターを使用したパラメーターマッピングインターフェイス ](assets/custom-action-aep-8.png)
 
 ### ペイロードの設定 {#custom-action-aep-payload}
 
@@ -182,4 +182,4 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 1. ユースケースに応じて、ジャーニーバージョン ID、ノード ID、ノード名およびその他の属性を入力します。
 
-   ![](assets/custom-action-aep-9.png)
+   ![ 複雑なフィールドマッピング用の詳細モードエディター ](assets/custom-action-aep-9.png)

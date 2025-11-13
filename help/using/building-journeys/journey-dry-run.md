@@ -9,10 +9,10 @@ level: Intermediate
 keywords: 公開, ジャーニー, ライブ, 有効性, 確認
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
-source-git-commit: 598be5d2c5aca0262063c61e80e6b36020983131
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
 source-wordcount: '1127'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 100%
 ドライランをアクティブ化するには、次の手順に従います。
 
 1. テストするジャーニーを開きます。
-1. 「**ドライラン**」ボタンを選択します。
+1. 「**[!UICONTROL ドライラン]**」ボタンを選択します。
 
    ![ジャーニーのドライランの開始](assets/dry-run-button.png)
 
@@ -85,9 +85,9 @@ ht-degree: 100%
 
    ![ジャーニーのドライラン公開の確認](assets/dry-run-publish.png){width="50%" align="left"}
 
-   トランジション中は、**ドライランをアクティブ化中**&#x200B;というステータスメッセージが表示されます。
+   トランジション中は、**[!UICONTROL ドライランをアクティブ化中]**&#x200B;というステータスメッセージが表示されます。
 
-1. アクティブ化すると、ジャーニーは&#x200B;**ドライラン**&#x200B;モードにエントリします。
+1. アクティブ化すると、ジャーニーは&#x200B;**[!UICONTROL ドライラン]**&#x200B;モードにエントリします。
 
 
 ## ドライランの監視 {#journey-dry-monitor}
@@ -109,17 +109,17 @@ ht-degree: 100%
 
 ## ドライランの停止 {#journey-dry-run-stop}
 
-14 日後、ドライランのジャーニーは自動的に&#x200B;**ドラフト**&#x200B;ステータスに移行します。
+14 日後、ドライランのジャーニーは自動的に&#x200B;**[!UICONTROL ドラフト]**&#x200B;ステータスに移行します。
 
 ドライランのジャーニーは、手動で停止することもできます。ドライランモードを非アクティブ化するには、次の手順に従います。
 
 1. 停止するドライランのジャーニーを開きます。
-1. 「**閉じる**」ボタンを選択して、テストを終了します。
+1. 「**[!UICONTROL 閉じる]**」ボタンを選択して、テストを終了します。
 確認画面で、過去 24 時間および全期間のレポートへのリンクを使用できます。
 
    ![ジャーニーのドライラン実行の停止](assets/dry-run-stop.png){width="50%" align="left"}
 
-1. 「**ドラフトに戻る**」をクリックして確定します。
+1. 「**[!UICONTROL ドラフトに戻る]**」をクリックして確定します。
 
 
 ## ガードレールと制限 {#journey-dry-run-limitations}
@@ -143,10 +143,10 @@ ht-degree: 100%
 
 stepEvent データを&#x200B;**外部システム**&#x200B;に書き出す場合は、`inDryRun` フラグを使用してドライラン実行をフィルタリングできます。
 
-Adobe Experience Platform クエリサービスを使用して&#x200B;**ジャーニーレポート指標**&#x200B;を分析する際は、ドライランで生成されたステップイベントを除外する必要があります。これを実行するには、`inDryRun` フラグを `false` に設定します。
+Adobe Experience Platform クエリサービスを使用して **ジャーニーレポート指標** を分析する場合は、ドライランで生成されたステップイベントを除外する必要があります。 これを実行するには、`inDryRun` フラグを `false` に設定します。
 
 ## チュートリアルビデオ {#dry-run-video}
 
 ジャーニーのドライラン方法について詳しくは、このビデオを参照してください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464683/?captions=jpn&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)

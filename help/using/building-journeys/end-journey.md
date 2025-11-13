@@ -9,10 +9,10 @@ level: Intermediate
 keywords: 再エントリ, ジャーニー, 終了, ライブ, 停止
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 100%
+source-wordcount: '819'
+ht-degree: 94%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 100%
 
 ジャーニーに複数のパスがある場合は、レポートを読みやすくするために、各末尾にラベルを追加することをお勧めします。詳しくは、[ジャーニーレポート](../reports/live-report.md)を参照してください。
 
-![](assets/journey-end.png)
+![ ジャーニーツールバーの「ジャーニーアクションを終了」ボタン ](assets/journey-end.png)
 
 ## ジャーニーをクローズ {#close-journey}
 
@@ -69,14 +69,14 @@ ht-degree: 100%
 
 ジャーニーのリストからジャーニーをクローズするには、ジャーニー名の右側にある&#x200B;**[!UICONTROL 省略記号]**&#x200B;ボタンをクリックし、「**[!UICONTROL 新しいエントリをクローズ]**」を選択します。
 
-![](assets/journey-finish-quick-action.png)
+![ ジャーニーを終了するためのクイックアクションメニューの完了アクションドロップダウン ](assets/journey-finish-quick-action.png)
 
 以下を行うこともできます。
 
 1. **[!UICONTROL ジャーニー]**&#x200B;リストで、クローズするジャーニーをクリックします。
 1. 右上の下向き矢印をクリックします。
 
-   ![](assets/finish_drop_down_list.png){width="50%" align="left" zoomable="yes"}
+   ![ ジャーニーの終了と代替アクションを表示する終了オプションメニュー ](assets/finish_drop_down_list.png){width="50%" align="left" zoomable="yes"}
 
 1. 「**[!UICONTROL 新規エントリに対してクローズ]**」をクリックし、ダイアログボックスで確定します。
 
@@ -89,14 +89,14 @@ ht-degree: 100%
 
 例えば、ジャーニーが誤ったオーディエンスをターゲットにしていることをマーケターが認識した場合や、メッセージの配信に想定されるカスタムアクションが正しく機能していない場合に、ジャーニーを停止できます。ジャーニーのリストからジャーニーを停止するには、ジャーニー名の右側にある&#x200B;**[!UICONTROL 省略記号]**&#x200B;ボタンをクリックし、「**[!UICONTROL 停止]**」を選択します。
 
-![](assets/journey-finish-quick-action.png)
+![ ジャーニーを終了するためのクイックアクションメニューの完了アクションドロップダウン ](assets/journey-finish-quick-action.png)
 
 以下を行うこともできます。
 
 1. **[!UICONTROL ジャーニー]**&#x200B;リストで、停止するジャーニーをクリックします。
 1. 右上の下向き矢印をクリックします。
 
-   ![](assets/finish_drop_down_list2.png){width="50%" align="left" zoomable="yes"}
+   ![ ジャーニーのクローズやクリーンアップなど、追加の終了オプション ](assets/finish_drop_down_list2.png){width="50%" align="left" zoomable="yes"}
 
 1. 「**[!UICONTROL 停止]**」をクリックし、ダイアログボックスで確定します。
 

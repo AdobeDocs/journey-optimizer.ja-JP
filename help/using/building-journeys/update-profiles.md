@@ -10,10 +10,10 @@ level: Intermediate
 keywords: プロファイル, 更新, ジャーニー, アクティビティ
 exl-id: 8b2b2d1e-9bd1-439d-a15e-acdbab387c4b
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 100%
+source-wordcount: '669'
+ht-degree: 94%
 
 ---
 
@@ -48,13 +48,13 @@ ht-degree: 100%
 
 1. パレットの「**アクション**」セクションで、「**プロファイルを更新**」アクティビティをキャンバスにドロップします。
 
-   ![](assets/profileupdate0.png)
+   ![ アクションの下のジャーニーパレットのプロファイルアクティビティを更新 ](assets/profileupdate0.png)
 
 1. リストからスキーマを選択します。
 
 1. 「**フィールド**」をクリックして、更新するフィールドを選択します。選択できるフィールドは 1 つだけです。
 
-   ![](assets/profileupdate2.png)
+   ![ フィールド選択ドロップダウンを含むプロファイル更新設定パネル ](assets/profileupdate2.png)
 
 1. リストからデータセットを選択します。
 
@@ -66,15 +66,15 @@ ht-degree: 100%
 
    * 簡単な式エディターを使用して、データソースまたは受信イベントからフィールドを選択できます。
 
-     ![](assets/profileupdate4.png)
+     ![ プロファイル属性を更新するためのシンプルモードフィールドセレクター ](assets/profileupdate4.png)
 
    * 特定の値を定義する場合や高度な機能を活用する場合は、「**詳細設定モード**」を選択します。
 
-     ![](assets/profileupdate3.png)
+     ![ 複雑なプロファイル更新のための詳細モード式エディター ](assets/profileupdate3.png)
 
 これで、「**プロファイルを更新**」を設定できました。
 
-![](assets/profileupdate1.png)
+![ フィールド設定を使用したジャーニーのプロファイル更新アクティビティ ](assets/profileupdate1.png)
 
 
 ## テストモードの使用 {#using-the-test-mode}

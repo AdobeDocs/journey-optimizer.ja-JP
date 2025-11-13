@@ -12,10 +12,10 @@ hidefromtoc: true
 hide: true
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 version: Journey Orchestration
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '1601'
-ht-degree: 100%
+source-wordcount: '1696'
+ht-degree: 94%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 100%
 
 1. **[!UICONTROL メソッド]**&#x200B;ドロップダウンリストから条件を選択します。
 
-   ![](assets/journey-optimize-condition.png){width=80%}
+   ![ 「条件」メソッドを選択した状態でアクティビティを最適化 ](assets/journey-optimize-condition.png){width=80%}
 
    使用可能な条件のタイプは次のとおりです。
 
@@ -66,13 +66,13 @@ ht-degree: 100%
 
 複数の条件を定義する場合は、「**[!UICONTROL パスを追加]**」をクリックします。条件ごとに、キャンバスのアクティビティの後に新しいパスが追加されます。
 
-![](assets/journey-condition-add-path.png){width=80%}
+![ 複数の条件パスを作成するための「パスを追加」ボタン ](assets/journey-condition-add-path.png){width=80%}
 
 ジャーニーの設計には、機能的な影響があることに注意してください。条件の後に複数のパスが定義された場合、最初の有効なパスのみが実行されます。つまり、パスを上下に配置することで、パスの優先順位を変更できます。
 
 最初のパスの条件「このユーザーは VIP である」と 2 番目のパスの条件「このユーザーは男性である」を例にとってみましょう。両方の条件を満たす人物（VIP の男性）がこのステップを通過した場合、最初のパスが「上」に配置されているため、この人物が 2 番目のパスに該当しても最初のパスが選択されます。この優先度を変更するには、アクティビティを別の垂直方向の順序に移動します。
 
-![](assets/journey48.png)
+![ 男性条件の上にVIP条件を示したパスの優先順位付けの例 ](assets/journey48.png)
 
 定義された条件に該当しないオーディエンス向けに、別のパスを作成するには、「**[!UICONTROL 上記以外の事例のパスを表示]**」をオンにします。
 
@@ -85,7 +85,7 @@ ht-degree: 100%
 * **AND** - 2 つの条件の積集合。すべて条件に一致する要素のみが考慮されます。
 * **OR** - 2 つの条件の和集合。2 つの条件の少なくとも 1 つに一致する要素が考慮されます。
 
-![](assets/journey64.png){width=80%}
+![ ドラッグ&amp;ドロップのフィールドと論理演算子を使用したシンプルな式エディター ](assets/journey64.png){width=80%}
 
 [Adobe Experience Platform セグメント化サービス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja){target="_blank"}を使用してオーディエンスを作成している場合は、ジャーニー条件で活用できます。詳しくは、[条件でのオーディエンスの使用](../building-journeys/condition-activity.md#using-a-segment)を参照してください。
 
@@ -105,7 +105,7 @@ ht-degree: 100%
 
 高度な式エディターを使用すると、コレクションを操作したり、パラメーターを渡す必要があるデータソースを使用したり、より高度な条件を設定できます。[詳細情報](../datasource/external-data-sources.md)
 
-![](assets/journey50.png){width=80%}
+![ 高度な式エディターを使用した Data Sourceの条件 ](assets/journey50.png){width=80%}
 
 ## 日付条件 {#date_condition}
 
@@ -115,7 +115,7 @@ ht-degree: 100%
 >
 >タイムゾーンは条件に固有ではなくなり、ジャーニープロパティのジャーニーレベルで定義されるようになりました。[詳細情報](../building-journeys/timezone-management.md)
 
-![](assets/journey53.png)
+![ 開始日フィールドと終了日フィールドを使用した日付条件の設定 ](assets/journey53.png)
 
 ## パーセンテージ分割 {#percentage_split}
 
@@ -127,7 +127,7 @@ ht-degree: 100%
 >
 >割合条件分岐には、パスを追加するボタンはありません。パスの数は、分割数によって異なります。条件分岐では、他のケースではパスは発生しないので、パスを追加できません。ユーザーは常に、分割されたパスの 1 つに入ります。
 
-![](assets/journey52.png)
+![ トラフィック配分を示すスライダーを使用したパーセンテージ分割設定 ](assets/journey52.png)
 
 ## 時間条件 {#time_condition}
 
@@ -139,7 +139,7 @@ ht-degree: 100%
 >
 >* デフォルトでは、**[!UICONTROL 時間条件]**&#x200B;は 00:00 から 12:00 までの時間単位で設定されます。
 
-![](assets/journey51.png)
+![ 時間範囲および曜日セレクターを使用した時間条件 ](assets/journey51.png)
 
 次の 3 つの時間フィルターオプションを使用できます。
 
@@ -172,7 +172,7 @@ ht-degree: 100%
 
 テストモードでは、プロファイルキャップは考慮されません。
 
-![](assets/profile-cap-condition.png)
+![ 最大プロファイル制限入力フィールドを使用したプロファイルキャップ条件 ](assets/profile-cap-condition.png)
 
 ## 条件でのオーディエンスの使用 {#using-a-segment}
 
@@ -182,13 +182,13 @@ ht-degree: 100%
 
 1. ジャーニーを開いて&#x200B;**[!UICONTROL 最適化]**&#x200B;アクティビティをドロップし、「**[!UICONTROL データソース条件]**」を選択します。
 
-   ![](assets/segment3.png)
+   ![ ドロップダウンメニューで選択されたデータSourceの条件方法 ](assets/segment3.png)
 
 1. 必要な追加パスごとに「**[!UICONTROL パスを追加]**」をクリックします。各パスに対して「**[!UICONTROL 式]**」フィールドをクリックします。
 
 1. 左側で、**[!UICONTROL オーディエンス]**&#x200B;ノードを展開します。条件に使用するオーディエンスをドラッグ＆ドロップします。デフォルトでは、オーディエンスの条件は true です。
 
-   ![](assets/segment4.png){width=80%}
+   ![Adobe Experience Platform オーディエンスを選択するための式エディターのオーディエンスノード ](assets/segment4.png){width=80%}
 
    >[!NOTE]
    >

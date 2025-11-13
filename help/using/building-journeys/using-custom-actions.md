@@ -10,10 +10,10 @@ level: Intermediate
 keywords: アクション, カスタム, API, ジャーニー, 設定, サービス
 exl-id: 2b1b3613-3096-43ec-a860-600dda1d83b2
 version: Journey Orchestration
-source-git-commit: 221368c7766e942143639fcd554b32f9de5ab0c9
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 96%
+source-wordcount: '442'
+ht-degree: 93%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 96%
 
 カスタムアクションを作成して設定する方法について詳しくは、[このページ](../action/about-custom-action-configuration.md)を参照してください。
 
-[&#x200B; このページ &#x200B;](../action/action-response.md) で、カスタムアクションの API 呼び出し応答をパーソナライゼーションに使用する方法を説明します。
+[ このページ ](../action/action-response.md) で、カスタムアクションの API 呼び出し応答をパーソナライゼーションに使用する方法を説明します。
 
 ## 同意とデータガバナンス {#privacy}
 
@@ -60,7 +60,7 @@ URL に動的パスが含まれる場合は、「**[!UICONTROL パス]**」フ�
 
 `https://xxx.yyy.com:8080/somethingstatic/`\&lt;ID>`/messages`
 
-![](assets/journey-custom-action-url.png)
+![ 動的パラメーターマッピングを使用したカスタムアクション URL 設定 ](assets/journey-custom-action-url.png)
 
 ### ヘッダーとクエリパラメーター {#headers}
 
@@ -68,7 +68,7 @@ URL に動的パスが含まれる場合は、「**[!UICONTROL パス]**」フ�
 
 動的ヘッダーおよびクエリパラメーターのフィールドの値を指定するには、フィールド内または鉛筆アイコンをクリックして目的のフィールドを選択します。
 
-![](assets/journey-dynamicheaderfield.png)
+![ カスタムアクションの動的ヘッダーフィールド設定 ](assets/journey-dynamicheaderfield.png)
 
 ## アクションパラメーター
 

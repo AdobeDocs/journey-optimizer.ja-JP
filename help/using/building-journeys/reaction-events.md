@@ -10,10 +10,10 @@ level: Intermediate
 keywords: ジャーニー, イベント, 反応, トラッキング, Platform
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 100%
+source-wordcount: '387'
+ht-degree: 97%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 [アクションアクティビティについて](../building-journeys/about-journey-activities.md#action-activities)を参照してください。
 
-![](assets/journey45.png)
+![ チャネル選択とイベントタイプオプションを使用した反応イベント設定 ](assets/journey45.png)
 
 反応イベントは様々な手順で設定できます。
 

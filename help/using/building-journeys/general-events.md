@@ -10,10 +10,10 @@ level: Intermediate
 keywords: カスタム, 一般, イベント, ジャーニー
 exl-id: b1813122-7031-452e-9ac5-a4ea7c6dc57c
 version: Journey Orchestration
-source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 98%
+source-wordcount: '640'
+ht-degree: 94%
 
 ---
 
@@ -33,9 +33,9 @@ ht-degree: 98%
 
 このタイプのイベントでは、ラベルと説明のみを追加できます。その他の設定は編集できません。技術ユーザーによって実施します。[このページ](../event/about-events.md)を参照してください。
 
-イベントのスループットとジャーニーの処理率について詳しくは、[&#x200B; この節 &#x200B;](entry-management.md#journey-processing-rate) を参照してください。
+イベントのスループットとジャーニーの処理率について詳しくは、[ この節 ](entry-management.md#journey-processing-rate) を参照してください。
 
-![](assets/general-events.png)
+![ イベントの選択と設定を含む一般イベント設定パネル ](assets/general-events.png)
 
 ビジネスイベントをドロップすると、**オーディエンスを読み取り**&#x200B;アクティビティが自動的に追加されます。ビジネスイベントの詳細については、[この節](../event/about-events.md)を参照してください。
 
@@ -55,7 +55,7 @@ ht-degree: 98%
 
 1. 指定したタイムアウト内にイベントが受信されなかった場合、ベストプラクティスは、個人をタイムアウトパスに送信することです。この場合は、「**[!UICONTROL タイムアウトのパスを設定]**」オプションを有効にします。その場合、その個人のジャーニーはタイムアウト値に達しても続行します。「**[!UICONTROL タイムアウトのパスを設定]**」オプションを常に有効にすることをお勧めします。
 
-   ![](assets/event-timeout.png)
+   ![ デュレーションとタイムアウトパスのオプションを使用したイベントのタイムアウト設定 ](assets/event-timeout.png)
 
 この例のジャーニーでは、顧客がロビーに入ると、最初のウェルカムメールが送信されます。次に、顧客が翌日中にレストランに入店した場合に限り、食事割引メールが送信されます。そのため、レストランのイベントは 1 日でタイムアウトするように設定してあります。
 
@@ -69,4 +69,4 @@ ht-degree: 98%
 * タイムアウト期間内に 1 つのイベントの受け取りが発生すると、その個人は受け取ったイベントのパスに進みます。
 * タイムアウト期間内にイベントの受け取りが発生しなかった場合、その個人はタイムアウトが定義されたイベントのタイムアウトブランチに進みます。
 
-![](assets/event-timeout-group.png)
+![ ジャーニーでタイムアウト設定を含む複数のイベント ](assets/event-timeout-group.png)

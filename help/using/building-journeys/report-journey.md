@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 公開, ジャーニー, ライブ, 有効性, 確認
 exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
 version: Journey Orchestration
-source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 100%
+source-wordcount: '410'
+ht-degree: 98%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 表示されたイベントは過去 24 時間以内に発生したもので、イベントと表示の間に少なくとも 2 分の間隔（通常 5 分以内）があります。
 
-![](assets/journey_live_report.png)
+![ リアルタイムのパフォーマンス指標を示すジャーニーライブレポートダッシュボード ](assets/journey_live_report.png)
 
 ライブモードまたは[ドライランモード](journey-dry-run.md)のジャーニーでは、次の項目を確認できます。
 

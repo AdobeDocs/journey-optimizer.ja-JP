@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 公開, ジャーニー, ライブ, 有効性, 確認
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 100%
+source-wordcount: '624'
+ht-degree: 96%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 100%
    >
    > ジャーニーが承認ポリシーの対象となっている場合、ジャーニーを公開するには、承認をリクエストする必要があります。[詳細情報](../test-approve/gs-approval.md)
 
-   ![](assets/journeyuc1_18.png)
+   ![ ジャーニーツールバーの「公開」ボタンを使用してジャーニーをアクティベート ](assets/journeyuc1_18.png)
 
 ジャーニーを公開すると、**読み取り専用**&#x200B;モードになります。読み取り専用モードでは、アクティビティのラベルと説明、ジャーニーの名前、ジャーニーの説明のみを変更できます。公開済みのジャーニーに追加の変更を行う必要がある場合は、ジャーニーの[新しいバージョン](journey-ui.md#journey-filter)を作成します。
 
@@ -52,7 +52,7 @@ ht-degree: 100%
 
 ジャーニーリストには、すべてのジャーニーバージョンがバージョン番号と共に表示されます。ジャーニーを検索すると、アプリを初めて開いたときに、リストの先頭に最新のバージョンが表示されます。次に、必要な並べ替えを定義します。アプリケーションはこの定義をユーザーの環境設定として扱います。ジャーニーのバージョンは、ジャーニー版インターフェイスの上部（キャンバスの上）にも表示されます。
 
-![](assets/journeyversions1.png)
+![ 公開済みバージョンとドラフトバージョンが表示されているジャーニーバージョンリスト ](assets/journeyversions1.png)
 
 >[!NOTE]
 >
@@ -64,7 +64,7 @@ ht-degree: 100%
 
 1. ライブジャーニーの最新バージョンを開き、「**[!UICONTROL 新しいバージョンを作成]**」をクリックして確認します。
 
-   ![](assets/journeyversions2.png)
+   ![ ジャーニーを複製するための新しいバージョンを作成ダイアログ ](assets/journeyversions2.png)
 
    >[!NOTE]
    >
@@ -88,4 +88,4 @@ ht-degree: 100%
 
 ジャーニーの公開方法について詳しくは、次のビデオを参照してください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3427936?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)

@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 選定, イベント, オーディエンス, ジャーニー, プラットフォーム
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
-source-git-commit: 7a83bb558559ba814ed9431bb85a68929a276ed5
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
-source-wordcount: '1226'
-ht-degree: 96%
+source-wordcount: '1285'
+ht-degree: 91%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 96%
 
 1. **[!UICONTROL イベント]**&#x200B;カテゴリを展開し、**[!UICONTROL オーディエンスの選定]**&#x200B;アクティビティをキャンバスにドロップします。
 
-   ![](assets/segment5.png)
+   ![ ジャーニーパレットでのオーディエンスの選定イベント ](assets/segment5.png)
 
 1. アクティビティに&#x200B;**[!UICONTROL ラベル]**&#x200B;を追加します。この手順はオプションです。
 
@@ -56,13 +56,13 @@ ht-degree: 96%
    >
    >リストに表示される列はカスタマイズして並べ替えることができます。
 
-   ![](assets/segment6.png)
+   ![ 選定イベント設定用のオーディエンス選択ドロップダウン ](assets/segment6.png)
 
    オーディエンスが追加されると、「**[!UICONTROL コピー]**」ボタンを使用して、オーディエンスの名前と ID をコピーできます。
 
    `{"name":"Loyalty membership","id":"8597c5dc-70e3-4b05-8fb9-7e938f5c07a3"}`
 
-   ![](assets/segment-copy.png)
+   ![ オーディエンス名とオーディエンス ID を JSON 形式でコピーする場合の「コピー」ボタン ](assets/segment-copy.png)
 
 1. 「**[!UICONTROL 動作]**」フィールドで、オーディエンスへのエントリ、離脱またはその両方をリッスンするかどうかを選択します。
 
@@ -76,7 +76,7 @@ ht-degree: 96%
    >
    >ユーザーベースの ID 名前空間のみ選択できます。名前空間を参照テーブルに対して定義した場合（例：ProductID 名前空間を Product 参照に対して定義した場合）、その名前空間を&#x200B;**名前空間**&#x200B;ドロップダウンリストで使用することはできません。
 
-   ![](assets/segment7.png)
+   ![ オーディエンスの選定 ID の名前空間の選択 ](assets/segment7.png)
 
 ペイロードには、条件とアクションで使用できる次のコンテキスト情報が含まれています。
 
@@ -88,7 +88,7 @@ ht-degree: 96%
 
 [条件アクティビティ](../building-journeys/condition-activity.md#about_condition)を参照してください。
 
-![](assets/segment8.png)
+![ イベント設定でのオーディエンスのエントリと離脱の設定 ](assets/segment8.png)
 
 **オーディエンスの選定**&#x200B;イベントを含む新しいジャーニーは、公開してから 10 分後に運用可能になります。この時間間隔は、専用サービスのキャッシュ更新間隔に対応します。したがって、このジャーニーを使用する前に 10 分待つ必要があります。
 
@@ -96,7 +96,7 @@ ht-degree: 96%
 
 **[!UICONTROL オーディエンスの選定]**&#x200B;アクティビティを使用すると、Adobe Experience Platform オーディエンスから選定された個人または選定されなかった個人を、直ちにジャーニーにエントリさせることができます。
 
-この情報は瞬時に処理されます。測定した値は、1 秒あたり 10,000 件の速度でイベントを受信したことを示しています。その結果、エントリのピークがどのように発生するか、その回避方法やジャーニーの準備方法を理解できるようになります。 ジャーニーの処理レートとスループット制限について詳しくは、[&#x200B; この節 &#x200B;](entry-management.md#journey-processing-rate) を参照してください。
+この情報は瞬時に処理されます。測定した値は、1 秒あたり 10,000 件の速度でイベントを受信したことを示しています。その結果、エントリのピークがどのように発生するか、その回避方法やジャーニーの準備方法を理解できるようになります。 ジャーニーの処理レートとスループット制限について詳しくは、[ この節 ](entry-management.md#journey-processing-rate) を参照してください。
 
 ### バッチオーディエンス {#batch-speed-segment-qualification}
 
@@ -118,15 +118,15 @@ ht-degree: 96%
 
 * **[!UICONTROL オーディエンスの選定]**&#x200B;アクティビティで作成直後にバッチオーディエンスを使用しないでください。これにより、最初の計算のピークを回避できます。まだ計算されていないオーディエンスを使用しようとすると、ジャーニーキャンバスに黄色の警告が表示されます。
 
-  ![](assets/segment-error.png)
+  ![ オーディエンスがAdobe Experience Platformに見つからない場合のエラーメッセージ ](assets/segment-error.png)
 
 * ジャーニーで使用するデータソースとアクションのキャップルールを設定して、データソースの過負荷を避けます。詳しくは、[Journey Orchestration のドキュメント](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=ja){target="_blank"}を参照してください。キャップルールには再試行がないことに注意してください。再試行が必要な場合は、条件やアクションで「**[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**」ボックスをオンにし、ジャーニーで代替パスを使用します。
 
 * 実稼動ジャーニーでオーディエンスを使用する前に、このオーディエンスに選定された個人の数を毎日評価します。それには、**[!UICONTROL オーディエンス]**&#x200B;メニューをチェックし、オーディエンスを開き、**[!UICONTROL プロファイルの推移]**&#x200B;グラフで確認します。
 
-  ![](assets/segment-overload.png)
+  ![ オーディエンスのイベントが多すぎてリアルタイム処理ができない場合の警告メッセージ ](assets/segment-overload.png)
 
-エントリレートの制限とスループットについて詳しくは、[&#x200B; この節 &#x200B;](entry-management.md#profile-entrance-rate) を参照してください。
+エントリレートの制限とスループットについて詳しくは、[ この節 ](entry-management.md#profile-entrance-rate) を参照してください。
 
 ## ガードレールと制限 {#audience-qualification-guardrails}
 
@@ -164,4 +164,4 @@ ht-degree: 96%
 
 オーディエンスの選定ジャーニーに当てはまるユースケースについて、このビデオで説明します。オーディエンスの選定を使用してジャーニーを構築する方法と、適用するベストプラクティスについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3446205?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)

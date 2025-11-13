@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 待機, アクティビティ, ジャーニー, 次, キャンバス
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 version: Journey Orchestration
-source-git-commit: 5eddbb1f9ab53f1666ccd8518785677018e10f6f
+source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
 workflow-type: tm+mt
 source-wordcount: '664'
 ht-degree: 95%
@@ -69,7 +69,7 @@ ht-degree: 95%
 
 Select the date for the execution of the next activity.
 
-![](assets/journey56.png)
+![Wait activity configuration panel with duration and fixed date options](assets/journey56.png)
 
 -->
 
@@ -81,7 +81,7 @@ Select the date for the execution of the next activity.
 
 エディターの式は、`dateTimeOnly` 形式にする必要があります。[このページ](expression/expressionadvanced.md)を参照してください。dateTimeOnly 形式について詳しくは、[このページ](expression/data-types.md)を参照してください。
 
-ベストプラクティスは、プロファイルに固有のカスタム日付を使用し、すべてに同じ日付を使用しないことです。例えば、`toDateTimeOnly('2024-01-01T01:11:00Z')` ではなく、各プロファイルに固有の `toDateTimeOnly(@event{Event.productDeliveryDate})` を定義します。固定日付を使用すると、ジャーニーの実行に問題が生じる可能性があることに注意してください。 待機アクティビティがジャーニーの処理率に与える影響について詳しくは、[&#x200B; この節 &#x200B;](entry-management.md#wait-activities-impact) を参照してください。
+ベストプラクティスは、プロファイルに固有のカスタム日付を使用し、すべてに同じ日付を使用しないことです。例えば、`toDateTimeOnly('2024-01-01T01:11:00Z')` ではなく、各プロファイルに固有の `toDateTimeOnly(@event{Event.productDeliveryDate})` を定義します。固定日付を使用すると、ジャーニーの実行に問題が生じる可能性があることに注意してください。 待機アクティビティがジャーニーの処理率に与える影響について詳しくは、[ この節 ](entry-management.md#wait-activities-impact) を参照してください。
 
 
 >[!NOTE]
