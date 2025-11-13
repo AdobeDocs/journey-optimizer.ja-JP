@@ -29,7 +29,7 @@ ht-degree: 98%
 
 1. サポートされているソースからデータセットに[データを取得](ingest-data.md)します。
 
-➡️ [ リレーショナルスキーマについて詳しくは、Adobe Experience Platform ドキュメントを参照してください ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational)
+➡️ [&#x200B; リレーショナルスキーマについて詳しくは、Adobe Experience Platform ドキュメントを参照してください &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational)
 
 ## DDL ファイルのアップロード{#ddl-upload}
 
