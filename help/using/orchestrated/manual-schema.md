@@ -110,7 +110,7 @@ ht-degree: 97%
 
 属性を作成して保存した後、関係を定義することで、スキーマを他のリレーショナルスキーマとリンクできます。
 
-➡️ [&#x200B; リレーショナルスキーマについて詳しくは、Adobe Experience Platform ドキュメントを参照してください &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
+➡️ [&#x200B; リレーショナルスキーマについて詳しくは、Adobe Experience Platform ドキュメントを参照してください &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
 
 ## スキーマをリンク {#link-schema}
 
