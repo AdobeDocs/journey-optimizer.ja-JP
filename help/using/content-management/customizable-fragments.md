@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
-source-git-commit: 5bc467f7fd25dd4218470c0e73bc0dc87938e218
+source-git-commit: 71d4fae1eecb2acfcf3ba889c58bf71fb74d48fa
 workflow-type: tm+mt
-source-wordcount: '1510'
+source-wordcount: '1472'
 ht-degree: 99%
 
 ---
@@ -143,8 +143,8 @@ HTML コンポーネントの場合、特定の要素のみを編集可能なフ
 ## カスタマイズ可能なフラグメントへのリッチテキストの追加 {#rich-text}
 
 HTML コンポーネントを使用して、改行、太字、斜体などのリッチテキストを編集可能なフラグメントに追加できます。これを行うには、以下の手順に従います。
-
-➡️ [編集可能なフラグメントにリッチテキストを追加して使用する方法について詳しくは、このビデオをご覧ください](#video)
+<!--
+➡️ [Learn how to add and use rich text to an editable fragment in this video](#video)-->
 
 ### リッチテキストを含むフラグメントの作成 {#add-rich-text}
 
@@ -190,8 +190,10 @@ HTML コンポーネントを使用して、改行、太字、斜体などのリ
 
    ![](assets/fragment-rich-editable-fields-update-styling.png)
 
-## チュートリアルビデオ {#video}
+<!--
+## How-to video {#video}
 
-このビデオでは、フラグメント内の HTML コンポーネントを編集可能にして、コンテンツとスタイルの両方を動的に更新できるようにする方法を説明します。
+This video shows how to make HTML components within a fragment editable, allowing for dynamic updates to both content and styling.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464369/?captions=jpn&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
+-->
