@@ -73,47 +73,47 @@ ht-degree: 20%
 
    次のペイロードの例に記載されているフィールドのほとんどは必須であり、`requestId`、`dismissal-date`、`alert` のみがオプションです。
 
-       ```json
-       {
-       &quot;requestId&quot;: &quot;your-request-id&quot;,
-       &quot;campaignId&quot;: &quot;your-campaign-id&quot;,
-       &quot;recipients&quot;: [
-       {
-       &quot;type&quot;: &quot;aep&quot;,
-       &quot;userId&quot;: &quot;testemail@gmail.com&quot;,
-       &quot;namespace&quot;: &quot;email&quot;,
-       &quot;context&quot;: {
-       &quot;requestPayload&quot;: {
-       &quot;aps&quot;: {
-       &quot;content-available&quot;:1,
-       &quot;timestamp&quot;:1756984054,              //現在のエポック時間 
-       &quot;demission-date&quot;: 1756984084,         // オプション - event=&quot;end&quot;
- の場合に自動削除       &quot;event&quot;: &quot;update&quot;,                    //開始 |更新 |終了 
-       
-   FoodDeliveryLiveActivityAttributes の     // フィールド 
-       &quot;content-state&quot;: {
-       &quot;orderStatus&quot;: &quot;配信済み&quot;
-       },
-       
-       &quot;attributes-type&quot;: &quot;FoodDeliveryLiveActivityAttributes&quot;,
-       &quot;attributes&quot;: {
-       &quot;restaurantName&quot;: &quot;ピザ&quot;,
-       &quot;liveActivityData&quot;: {
-       &quot;liveActivityID&quot;: &quot;orderId1&quot;       //顧客参照 ID
-       }
-       },
-       
-       &quot;アラート&quot;: {
-       &quot;title&quot;: &quot;Order Delivered!&quot;,
-        「body」:「あなたのピザが届きました」 
-       }
-       }
-       }
-       }
-       }
-       ]
-       }
-       ```
+    ```json
+    {
+        "requestId": "your-request-id",
+        "campaignId": "your-campaign-id",
+        "recipients": [
+    {
+        "type": "aep",
+        "userId": "testemail@gmail.com",
+        "namespace": "email",
+        "context": {
+         "requestPayload": {
+        "aps": {
+        "content-available": 1,
+        "timestamp": 1756984054,              // current epoch time
+        "dismissal-date": 1756984084,         // optional – auto remove when event="end"
+        "event": "update",                    // start | update | end
+    
+        // Fields from FoodDeliveryLiveActivityAttributes
+        "content-state": {
+          "orderStatus": "Delivered"
+        },
+    
+        "attributes-type": "FoodDeliveryLiveActivityAttributes",
+        "attributes": {
+          "restaurantName": "Pizza",
+          "liveActivityData": {
+            "liveActivityID": "orderId1"       // customer reference ID
+          }
+        },
+    
+        "alert": {
+          "title": "Order Delivered!",
+          "body": "Your pizza has arrived."
+        }
+      }
+    }
+    }
+    }
+    ]
+    }
+    ```
 
    +++
 
