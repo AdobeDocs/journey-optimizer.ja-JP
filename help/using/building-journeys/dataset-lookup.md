@@ -63,7 +63,7 @@ Adobe Experience Platform で参照するには、データセットを有効に
 
 1. **[!UICONTROL オーケストレーション]**&#x200B;カテゴリを展開し、**[!UICONTROL データセット参照]**&#x200B;アクティビティをキャンバスにドロップします。
 
-   ![ ジャーニーのAdobe Experience Platform データセットルックアップアクティビティ ](assets/aep-data-activity.png)
+   ![&#x200B; ジャーニーのAdobe Experience Platform データセットルックアップアクティビティ &#x200B;](assets/aep-data-activity.png)
 
 1. ラベルと説明を追加します。
 
@@ -81,7 +81,7 @@ Adobe Experience Platform で参照するには、データセットを有効に
 
    +++例
 
-   ![ プリミティブデータタイプと構造を示すデータセットフィールド選択 ](assets/aep-data-leaf-primitive.png)
+   ![&#x200B; プリミティブデータタイプと構造を示すデータセットフィールド選択 &#x200B;](assets/aep-data-leaf-primitive.png)
 
    +++
 
@@ -93,7 +93,7 @@ Adobe Experience Platform で参照するには、データセットを有効に
 
    +++例
 
-   ![ データセットフィールドのルックアップと文字列関数を使用した式エディター ](assets/aep-data-strings.png)
+   ![&#x200B; データセットフィールドのルックアップと文字列関数を使用した式エディター &#x200B;](assets/aep-data-strings.png)
 
    +++
 

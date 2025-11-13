@@ -89,7 +89,7 @@ ht-degree: 96%
 
    1. 識別子を **[!UICONTROL ID]** としてマークします。
 
-      ![ 追加の識別子フィールドグループを使用したスキーマ設定 ](assets/supplemental-ID-schema.png)
+      ![&#x200B; 追加の識別子フィールドグループを使用したスキーマ設定 &#x200B;](assets/supplemental-ID-schema.png)
 
       >[!IMPORTANT]
       >
@@ -105,7 +105,7 @@ ht-degree: 96%
 
    1. イベント設定画面で、「**[!UICONTROL 補助識別子を使用]**」オプションをオンにします。
 
-      ![ 追加の識別子の名前空間選択を使用したイベント設定 ](assets/supplemental-ID-event.png)
+      ![&#x200B; 追加の識別子の名前空間選択を使用したイベント設定 &#x200B;](assets/supplemental-ID-event.png)
 
    1. 式エディターを使用して、補足 ID としてマークした属性を選択します。
 
@@ -119,7 +119,7 @@ ht-degree: 96%
 
    設定したイベントをジャーニーキャンバスにドラッグします。プロファイル ID と補足 ID の両方に基づいてジャーニーエントリがトリガーされます。
 
-   ![ イベントのトリガーに追加の ID を使用しているジャーニー](assets/supplemental-ID-journey.png)
+   ![&#x200B; イベントのトリガーに追加の ID を使用しているジャーニー](assets/supplemental-ID-journey.png)
 
 >[!TAB オーディエンスを読み取りジャーニー]
 
@@ -131,7 +131,7 @@ ht-degree: 96%
 
    1. 識別子を **[!UICONTROL ID]** としてマークします。
 
-      ![ 追加の識別子フィールドが設定されたプロファイルスキーマ ](assets/supplemental-ID-schema-profile.png)
+      ![&#x200B; 追加の識別子フィールドが設定されたプロファイルスキーマ &#x200B;](assets/supplemental-ID-schema-profile.png)
 
       >[!IMPORTANT]
       >
@@ -155,7 +155,7 @@ ht-degree: 96%
 
    1. アクティビティのプロパティパネルで、「**[!UICONTROL 補助識別子を使用]**」オプションをオンに切り替えます。
 
-      ![ 追加の識別子設定を使用したオーディエンスを読み取りアクティビティ ](assets/supplemental-ID-read-audience.png)
+      ![&#x200B; 追加の識別子設定を使用したオーディエンスを読み取りアクティビティ &#x200B;](assets/supplemental-ID-read-audience.png)
 
    1. 「**[!UICONTROL 補助識別子]**」フィールドで、式エディターを使用して、補助 ID としてマークした属性を選択します。
 
@@ -171,7 +171,7 @@ ht-degree: 96%
 
 式エディターとパーソナライゼーションエディターを使用して、パーソナライゼーションまたは条件付きロジックの補足識別子の属性を参照します。属性は、**[!UICONTROL コンテキスト属性]**&#x200B;メニューからアクセスできます。
 
-![ コンテンツの追加の識別子フィールドを示すPersonalization エディター ](assets/supplemental-ID-perso.png)
+![&#x200B; コンテンツの追加の識別子フィールドを示すPersonalization エディター &#x200B;](assets/supplemental-ID-perso.png)
 
 イベントトリガージャーニーでは、配列（複数の処方箋やポリシーなど）を操作している場合は、数式を使用して特定の要素を抽出します。
 

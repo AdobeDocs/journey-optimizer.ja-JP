@@ -30,4 +30,4 @@ Adobe Experience Platform 上に作成された [!DNL Intelligent Services] は�
 
 その結果、これらの属性は Journey Optimizer の条件（最適な決定を下すためのもの）、アクション、セグメントの作成において、他のプロファイル属性として使用できます。
 
-![ 傾向スコアおよび予測を示す顧客 AI 統合 ](assets/customer-ai.png)
+![&#x200B; 傾向スコアおよび予測を示す顧客 AI 統合 &#x200B;](assets/customer-ai.png)

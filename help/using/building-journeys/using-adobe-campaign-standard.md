@@ -36,7 +36,7 @@ Adobe Campaign Standard をお使いの場合、**[!UICONTROL メール]**、**[
 >
 >Journey Optimizer で使用するには、Campaign Standard トランザクションメッセージとそれに関連するイベントを公開する必要があります。イベントが公開されてもメッセージが表示されない場合、Journey Optimizer インターフェイスには表示されません。メッセージが公開されても、関連するイベントが公開されなかった場合、Journey Optimizer インターフェイスには表示されますが、使用はできません。
 
-![ ジャーニーでのAdobe Campaign Standard アクションの設定 ](assets/journey59.png)
+![&#x200B; ジャーニーでのAdobe Campaign Standard アクションの設定 &#x200B;](assets/journey59.png)
 
 イベント（リアルタイムとも呼ばれます）またはプロファイルトランザクションメッセージテンプレートを使用できます。
 
@@ -46,7 +46,7 @@ Adobe Campaign Standard をお使いの場合、**[!UICONTROL メール]**、**[
 
 テンプレートを選択すると、メッセージペイロードで期待されるすべてのフィールドが、**[!UICONTROL アドレス]**&#x200B;および&#x200B;**[!UICONTROL パーソナライゼーションデータ]**&#x200B;の下のアクティビティ設定ペインに表示されます。これらの各フィールドを、イベントまたはデータソースのいずれかから使用するフィールドにマッピングする必要があります。また、高度な式エディターを使用して、値を手動で渡したり、取得した情報に対してデータ操作（例：文字列を大文字に変換）を実行したり、「if, then, else」などの関数を使用したりできます。[このページ](expression/expressionadvanced.md)を参照してください。
 
-![Campaign Standard メッセージテンプレート選択インターフェイス ](assets/journey60.png)
+![Campaign Standard メッセージテンプレート選択インターフェイス &#x200B;](assets/journey60.png)
 
 ## メールと SMS {#section_asc_51g_nhb}
 
@@ -70,7 +70,7 @@ Adobe Campaign Standard をお使いの場合、**[!UICONTROL メール]**、**[
 
 これらは、システムがメッセージの送信先を把握するために必要なフィールドです。メールテンプレートの場合は、メールアドレスです。SMS の場合は、携帯電話番号です。
 
-![Campaign Standard統合用のメッセージパラメーターの設定 ](assets/journey61.png)
+![Campaign Standard統合用のメッセージパラメーターの設定 &#x200B;](assets/journey61.png)
 
 **[!UICONTROL パーソナライゼーションデータ]**
 
@@ -80,7 +80,7 @@ Adobe Campaign Standard をお使いの場合、**[!UICONTROL メール]**、**[
 
 これらは、Adobe Campaign Standard メッセージで想定されるフィールドです。これらのフィールドを使用して、メッセージのパーソナライズ、条件付き書式設定の適用、特定のメッセージバリアントの選択を行うことができます。
 
-![Journey OptimizerとCampaign Standard間のフィールドマッピング ](assets/journey62.png)
+![Journey OptimizerとCampaign Standard間のフィールドマッピング &#x200B;](assets/journey62.png)
 
 ## プッシュ {#section_im3_hvf_nhb}
 
@@ -88,7 +88,7 @@ Adobe Campaign Standard をお使いの場合、**[!UICONTROL メール]**、**[
 
 まず、ドロップダウンリストとトランザクションメッセージからモバイルアプリを選択する必要があります。
 
-![Campaign Standard パラメーターマッピング用の高度な式エディター ](assets/journey62bis.png)
+![Campaign Standard パラメーターマッピング用の高度な式エディター &#x200B;](assets/journey62bis.png)
 
 **[!UICONTROL ターゲット]**&#x200B;および&#x200B;**[!UICONTROL パーソナライゼーションデータ]**&#x200B;の 2 つのカテゴリを使用できます。
 

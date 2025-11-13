@@ -43,7 +43,7 @@ ht-degree: 89%
 * 各ジャーニーパスでの[ターゲティング](#targeting)ルールを活用する
 * パスに[条件](#conditions)を適用する
 
-![ ジャーニーアクティビティパレットの「最適化」ボタン ](assets/journey-optimize.png)
+![&#x200B; ジャーニーアクティビティパレットの「最適化」ボタン &#x200B;](assets/journey-optimize.png)
 
 ジャーニーがライブになると、プロファイルは定義済み条件に照らして評価され、一致条件に基づいて、ジャーニーから適切なパスに送信されます。
 
@@ -71,13 +71,13 @@ ht-degree: 89%
 
 1. **[!UICONTROL メソッド]**&#x200B;ドロップダウンリストから「**[!UICONTROL 実験]**」を選択します。
 
-   ![ コンテンツ実験の設定パネル ](assets/journey-optimize-experiment.png){width=65%}
+   ![&#x200B; コンテンツ実験の設定パネル &#x200B;](assets/journey-optimize-experiment.png){width=65%}
 
 1. 「**[!UICONTROL 実験を作成]**」をクリックします。
 
 1. 実験に設定する&#x200B;**[!UICONTROL 成功指標]**&#x200B;を選択します。使用可能な指標とリストの設定方法について詳しくは、[この節](success-metrics.md)を参照してください。
 
-   ![ 実験のプライマリおよび追加指標の選択 ](assets/journey-optimize-experiment-metrics.png){width=80%}
+   ![&#x200B; 実験のプライマリおよび追加指標の選択 &#x200B;](assets/journey-optimize-experiment-metrics.png){width=80%}
 
 1. 配信に&#x200B;**[!UICONTROL 除外]**&#x200B;グループを追加することを選択できます。このグループは、この実験からパスにエントリしません。
 
@@ -91,7 +91,7 @@ ht-degree: 89%
 
 1. 各&#x200B;**[!UICONTROL 処理]**&#x200B;に正確な割合を割り当てるか、**[!UICONTROL 等しく分布]**&#x200B;切り替えバーをオンにすることができます。
 
-   ![ 処理配分スライダーと割合配分 ](assets/journey-optimize-experiment-treatments.png){width=80%}
+   ![&#x200B; 処理配分スライダーと割合配分 &#x200B;](assets/journey-optimize-experiment-treatments.png){width=80%}
 
 1. 「**[!UICONTROL 作成]**」をクリックします。
 
@@ -103,17 +103,17 @@ ht-degree: 89%
 
    * [メール](../email/create-email.md)アクティビティを 3 番目の分岐にドラッグ＆ドロップし、その後に [SMS](../sms/create-sms.md) アクティビティ（**処理 C**）をドラッグ＆ドロップします。
 
-   ![3 つの処理パスによるコンテンツ実験の例 ](assets/journey-optimize-experiment-ex.png){width=100%}
+   ![3 つの処理パスによるコンテンツ実験の例 &#x200B;](assets/journey-optimize-experiment-ex.png){width=100%}
 
 1. オプションで、「**[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**」を使用して、代替アクションを定義します。[詳細情報](using-the-journey-designer.md#paths)
 
 1. チャネルアクションを選択し、「**[!UICONTROL コンテンツを編集]**」ボタンを使用して、デザインツールにアクセスします。
 
-   ![ チャネルアクションアクティビティの「コンテンツを編集」ボタン ](assets/journey-optimize-experiment-edit-content.png){width=70%}
+   ![&#x200B; チャネルアクションアクティビティの「コンテンツを編集」ボタン &#x200B;](assets/journey-optimize-experiment-edit-content.png){width=70%}
 
 1. そこから、左側のパネルを使用して、実験内の各アクションに対して様々なコンテンツ間を移動できます。必要に応じて、各コンテンツを選択および設計します。
 
-   ![ 実験の処理を表示するコンテンツ選択パネル ](assets/journey-optimize-experiment-content.png){width=100%}
+   ![&#x200B; 実験の処理を表示するコンテンツ選択パネル &#x200B;](assets/journey-optimize-experiment-content.png){width=100%}
 
 1. ジャーニーを[公開](publish-journey.md)します。
 
@@ -131,7 +131,7 @@ ht-degree: 89%
 
 ➡️ コンバージョン率を成功指標として使用します（例：購入、新規登録）。
 
-![ メールと SMS を比較したチャネル有効性の実験 ](assets/journey-optimize-experiment-uc-channel.png)
+![&#x200B; メールと SMS を比較したチャネル有効性の実験 &#x200B;](assets/journey-optimize-experiment-uc-channel.png)
 
 +++
 
@@ -141,7 +141,7 @@ ht-degree: 89%
 
 ➡️ 購入数または登録解除率を成功指標として使用します。
 
-![ メッセージ頻度の実験で、1 つのメールをテストする場合と 3 つのメールをテストする場合 ](assets/journey-optimize-experiment-uc-frequency.png)
+![&#x200B; メッセージ頻度の実験で、1 つのメールをテストする場合と 3 つのメールをテストする場合 &#x200B;](assets/journey-optimize-experiment-uc-frequency.png)
 
 +++
 
@@ -151,7 +151,7 @@ ht-degree: 89%
 
 ➡️ クリックスルー率または売上高を成功指標として使用します。
 
-![24 時間の遅延と 72 時間の遅延を比較する待機時間の実験 ](assets/journey-optimize-experiment-uc-wait.png)
+![24 時間の遅延と 72 時間の遅延を比較する待機時間の実験 &#x200B;](assets/journey-optimize-experiment-uc-wait.png)
 
 +++
 
@@ -182,21 +182,21 @@ ht-degree: 89%
 
 1. **[!UICONTROL メソッド]**&#x200B;ドロップダウンリストから「**[!UICONTROL ターゲティングルール]**」を選択します。
 
-   ![ 最適化アクティビティでのターゲティングルールの選択 ](assets/journey-optimize-targeting.png){width=60%}
+   ![&#x200B; 最適化アクティビティでのターゲティングルールの選択 &#x200B;](assets/journey-optimize-targeting.png){width=60%}
 
 1. 「**[!UICONTROL ターゲティングルールを作成]**」をクリックします。
 
 1. **[!UICONTROL ルールを作成]**／**[!UICONTROL 新規作成]**&#x200B;をクリックし、ルールビルダーを使用して条件を定義します。
 
-   ![ ターゲット条件を作成するためのルールビルダーインターフェイス ](assets/journey-targeting-create-rule.png){width=100%}
+   ![&#x200B; ターゲット条件を作成するためのルールビルダーインターフェイス &#x200B;](assets/journey-targeting-create-rule.png){width=100%}
 
    例えば、ロイヤルティプログラムのゴールドメンバー向けのルール（`loyalty.status.equals("Gold", false)`）と、他のメンバー向けのルール（`loyalty.status.notEqualTo("Gold", false)`）を定義します。
 
-   ![ ゴールド メンバーおよびゴールド以外のメンバーのロイヤルティステータスのターゲティングルール ](assets/journey-targeting-rule.png)
+   ![&#x200B; ゴールド メンバーおよびゴールド以外のメンバーのロイヤルティステータスのターゲティングルール &#x200B;](assets/journey-targeting-rule.png)
 
 1. また、**[!UICONTROL ルールを作成]**／**[!UICONTROL ルールを選択]**&#x200B;をクリックして、**[!UICONTROL ルール]**&#x200B;メニューから作成した既存のターゲティングルールを選択することもできます。[詳細情報](../experience-decisioning/rules.md)
 
-   ![ ルールメニューから既存のターゲティングルールを選択 ](assets/journey-targeting-select-rule.png){width=70%}
+   ![&#x200B; ルールメニューから既存のターゲティングルールを選択 &#x200B;](assets/journey-targeting-select-rule.png){width=70%}
 
    この場合、ルールを構成する数式がジャーニーアクティビティにシンプルにコピーされます。その後、**[!UICONTROL ルール]**&#x200B;メニューからそのルールを変更しても、ジャーニーのコピーには影響しません。
 
@@ -208,7 +208,7 @@ ht-degree: 89%
 
 1. ルールを追加したら、引き続き変更できます。 ルールビルダーを使用して外出先で更新するには「**[!UICONTROL インラインで編集]**」を選択し、別の既存のルールを選択するには「**[!UICONTROL ルールを選択]**」を選択します。
 
-   ![ ターゲティングルールを変更するための「インラインを編集」または「ルールを選択」オプション ](assets/journey-targeting-modify-rule.png){width=100%}
+   ![&#x200B; ターゲティングルールを変更するための「インラインを編集」または「ルールを選択」オプション &#x200B;](assets/journey-targeting-modify-rule.png){width=100%}
 
    >[!NOTE]
    >
@@ -224,17 +224,17 @@ ht-degree: 89%
 
 1. ジャーニーに戻り、特定のアクションをドロップして各パスをカスタマイズします。例えば、ゴールドロイヤルティメンバー向けにパーソナライズされたオファーを含むメールを作成し、他のすべてのメンバー向けには SMS リマインダーを作成します。
 
-   ![ ゴールドメンバー向けのメールと他のメンバー向けの SMS を含むジャーニーパス ](assets/journey-targeting-paths.png)
+   ![&#x200B; ゴールドメンバー向けのメールと他のメンバー向けの SMS を含むジャーニーパス &#x200B;](assets/journey-targeting-paths.png)
 
 1. ルール設定を定義する際に「**[!UICONTROL フォールバックコンテンツを有効にする]**」オプションを選択した場合は、自動的に追加されたフォールバックパスに対して 1 つ以上のアクションを定義します。
 
-   ![ 未適合プロファイルのフォールバックパス設定 ](assets/journey-targeting-fallback.png){width=70%}
+   ![&#x200B; 未適合プロファイルのフォールバックパス設定 &#x200B;](assets/journey-targeting-fallback.png){width=70%}
 
 1. オプションで、「**[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**」を使用して、問題が発生した場合の代替アクションを定義します。[詳細情報](using-the-journey-designer.md#paths)
 
 1. ターゲティングルールの設定で定義した各グループに対応する各アクションに適切なコンテンツを設計します。アクションごとに様々なコンテンツ間をシームレスに移動できます。
 
-   ![ ルールアクションをターゲット設定するためのコンテンツデザインパネル ](assets/journey-targeting-design.png)
+   ![&#x200B; ルールアクションをターゲット設定するためのコンテンツデザインパネル &#x200B;](assets/journey-targeting-design.png)
 
    この例では、ゴールドメンバー向けの特別オファーを含むメールと、他のメンバー向けの SMS リマインダーを設計します。
 
@@ -254,7 +254,7 @@ ht-degree: 89%
 
 <!--➡️ Use the revenue per profile or conversion rate as the optimization metric.-->
 
-![ メールを使用したゴールドメンバーと SMS を使用した他のメンバーをターゲットとする、セグメント固有のチャネル ](assets/journey-optimize-targeting-uc-segment.png)
+![&#x200B; メールを使用したゴールドメンバーと SMS を使用した他のメンバーをターゲットとする、セグメント固有のチャネル &#x200B;](assets/journey-optimize-targeting-uc-segment.png)
 
 +++
 
@@ -264,7 +264,7 @@ ht-degree: 89%
 
 <!--➡️ Use the click-through rate or downstream conversions as the optimization metric.-->
 
-![ プッシュまたは SMS フォールバックを使用した電子メールエンゲージメントの行動ベースのターゲティング ](assets/journey-optimize-targeting-uc-behavior.png)
+![&#x200B; プッシュまたは SMS フォールバックを使用した電子メールエンゲージメントの行動ベースのターゲティング &#x200B;](assets/journey-optimize-targeting-uc-behavior.png)
 
 +++
 
@@ -274,7 +274,7 @@ ht-degree: 89%
 
 <!--➡️ Use the repeat purchase rate or engagement rate as the optimization metric.-->
 
-![ 購入者にはクロス販売パスによる購入履歴ターゲティング、非購入者には育成パス ](assets/journey-optimize-targeting-uc-purchase.png)
+![&#x200B; 購入者にはクロス販売パスによる購入履歴ターゲティング、非購入者には育成パス &#x200B;](assets/journey-optimize-targeting-uc-purchase.png)
 
 +++
 
@@ -282,7 +282,7 @@ ht-degree: 89%
 
 条件は、特定の条件に基づいて複数のパスを作成することで、個人がジャーニーをどのように進めるかを定義できる[ターゲティング](#targeting)ルールのタイプです。
 
-![ 条件に基づいて複数のパスを作成するジャーニーの条件アクティビティ ](assets/journey-condition.png)
+![&#x200B; 条件に基づいて複数のパスを作成するジャーニーの条件アクティビティ &#x200B;](assets/journey-condition.png)
 
 条件を定義する方法について詳しくは、[この節](conditions.md)を参照してください。
 

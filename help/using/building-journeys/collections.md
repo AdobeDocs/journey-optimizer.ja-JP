@@ -104,7 +104,7 @@ ht-degree: 94%
 
 1. 「**[!UICONTROL アクションパラメーター]**」セクションに、JSON の例を貼り付けます。表示される構造は静的です。ペイロードを貼り付けたときに、すべてのフィールドが定数として定義されます。
 
-   ![ コレクション関数と操作を表示する式エディター ](assets/uc-collection-1.png)
+   ![&#x200B; コレクション関数と操作を表示する式エディター &#x200B;](assets/uc-collection-1.png)
 
 1. 必要に応じて、フィールドタイプを調整します。コレクションでは、listString、listInteger、listDecimal、listBoolean、listDateTime、listDateTimeOnly、listDateOnly、listObject の各フィールドタイプがサポートされています。
 
@@ -120,21 +120,21 @@ ht-degree: 94%
 
 1. フィールドごとに、ジャーニーキャンバスに表示されるラベルを定義します。
 
-   ![ 条件ビルダーインターフェイスを使用したフィルターコレクション関数 ](assets/uc-collection-2.png){width="70%" align="left"}
+   ![&#x200B; 条件ビルダーインターフェイスを使用したフィルターコレクション関数 &#x200B;](assets/uc-collection-2.png){width="70%" align="left"}
 
 1. ジャーニーを作成し、作成したカスタムアクションを追加します。詳しくは、[このページ](../building-journeys/using-custom-actions.md)を参照してください。
 
 1. 「**[!UICONTROL アクションパラメーター]**」セクションで、高度な式エディターを使用して配列パラメーター（この例では `products`）を定義します。
 
-   ![ フィールド選択時のコレクションフィルター式 ](assets/uc-collection-3.png)
+   ![&#x200B; フィールド選択時のコレクションフィルター式 &#x200B;](assets/uc-collection-3.png)
 
 1. 次のオブジェクトフィールドごとに、ソース XDM スキーマ内の対応するフィールド名を入力します。名前が同じ場合は、この操作は不要です。この例では、`product id` と「color」のみを定義する必要があります。
 
-   ![ 順序設定を使用したコレクション並べ替え関数 ](assets/uc-collection-4.png){width="50%" align="left"}
+   ![&#x200B; 順序設定を使用したコレクション並べ替え関数 &#x200B;](assets/uc-collection-4.png){width="50%" align="left"}
 
 配列フィールドの場合は、高度な式エディターを使用してデータ操作を実行することもできます。次の例では、[filter](functions/list-functions.md#filter) 関数と [intersect](functions/list-functions.md#intersect) 関数を使用しています。
 
-![ フィルター、並べ替え、制限の操作を含むコレクション式の完了 ](assets/uc-collection-5.png)
+![&#x200B; フィルター、並べ替え、制限の操作を含むコレクション式の完了 &#x200B;](assets/uc-collection-5.png)
 
 ## 制限事項 {#limitations}
 
@@ -194,7 +194,7 @@ ht-degree: 94%
 
 異種混在タイプと配列の配列の場合、配列は listAny タイプで定義されます。個々の項目のみをマッピングできますが、配列を変数に変更することはできません。
 
-![ データ・タイプとフィールド選択が混在する異機種混在コレクション ](assets/uc-collection-heterogeneous.png){width="70%" align="left"}
+![&#x200B; データ・タイプとフィールド選択が混在する異機種混在コレクション &#x200B;](assets/uc-collection-heterogeneous.png){width="70%" align="left"}
 
 異種混在タイプの例：
 

@@ -33,11 +33,11 @@ ht-degree: 94%
 
 * 必須フィールドが空の場合は、エラーが表示されます。
 
-  ![ キャンバスにジャーニーインジケーターと共に表示されたエラー検証エラー ](assets/journey63.png)
+  ![&#x200B; キャンバスにジャーニーインジケーターと共に表示されたエラー検証エラー &#x200B;](assets/journey63.png)
 
 * キャンバスで 2 つのアクティビティが切断されると、警告が表示されます。
 
-  ![ ジャーニーキャンバスで切断されたアクティビティを示す警告アイコン ](assets/canvas-disconnected.png)
+  ![&#x200B; ジャーニーキャンバスで切断されたアクティビティを示す警告アイコン &#x200B;](assets/canvas-disconnected.png)
 
 ## ジャーニーのエラー {#canvas-errors}
 
@@ -45,7 +45,7 @@ ht-degree: 94%
 
 システムは、**エラー**&#x200B;と&#x200B;**警告**&#x200B;の 2 種類の問題を検出します。エラーは、公開とテストアクティベーションをブロックします。警告は、テストのアクティベーションや公開をブロックしない、潜在的な問題を示します。問題の説明と、タイプ ERR_XXX_XXX の問題ログ ID が表示されます。これは問題の特定に役立ちます。
 
-![ 説明ツールチップを含むジャーニーのエラーおよび警告インジケーター ](assets/journey-error-and-warning.png)
+![&#x200B; 説明ツールチップを含むジャーニーのエラーおよび警告インジケーター &#x200B;](assets/journey-error-and-warning.png)
 
 <!--Most of the time, errors detected by the system are linked to errors visible on the activities but they can also relate to other issues. In all cases, check alerts and resolve the issue using to the error description. If you cannot identify the issue, use the **[!UICONTROL Copy details]** button to store the alerts, and send them to your administrator.-->
 

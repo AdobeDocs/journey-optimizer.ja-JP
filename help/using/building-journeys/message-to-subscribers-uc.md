@@ -33,7 +33,7 @@ ht-degree: 95%
 
    1. 「**[!UICONTROL アドレス]**」フィールドの右側にある「 **[!UICONTROL パラメーターの上書きを有効にする]**」アイコンをクリックしたあと、**[!UICONTROL 編集]**&#x200B;アイコンをクリックします。
 
-      ![ 購読者リストのターゲティングに対するオーディエンスを読み取りのジャーニーフロー ](assets/message-to-subscribers-uc-1.png)
+      ![&#x200B; 購読者リストのターゲティングに対するオーディエンスを読み取りのジャーニーフロー &#x200B;](assets/message-to-subscribers-uc-1.png)
 
    1. 式エディターで、購読者のメールアドレスを取得する式を入力します。[詳細情報](expression/expressionadvanced.md)
 
@@ -54,7 +54,7 @@ ht-degree: 95%
 
       式におけるフィールドへの参照について詳しくは、[こちら](expression/field-references.md)を参照してください。
 
-      ![ サブスクライバー用にパーソナライズされたコンテンツを含むメール設定 ](assets/message-to-subscribers-uc-2.png)
+      ![&#x200B; サブスクライバー用にパーソナライズされたコンテンツを含むメール設定 &#x200B;](assets/message-to-subscribers-uc-2.png)
 
    1. **[!UICONTROL 式を追加]**&#x200B;ダイアログボックスで「**[!UICONTROL OK]**」をクリックします。
 

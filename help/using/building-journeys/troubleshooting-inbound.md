@@ -41,11 +41,11 @@ ht-degree: 95%
    >
    >ジャーニーバージョン ID は、URL の「journey/」の後にあります（例：*86232fb1-2932-4036-8198-55dfec606fd7*）。
 
-   ![ ジャーニー URL またはプロパティパネルのジャーニーID の場所 ](assets/troubleshoot-inbound-retrieve-journey-id.png)
+   ![&#x200B; ジャーニー URL またはプロパティパネルのジャーニーID の場所 &#x200B;](assets/troubleshoot-inbound-retrieve-journey-id.png)
 
 1. インバウンドアクションをクリックして、その詳細を表示します。インバウンドアクションのラベルと ID を取得します。
 
-   ![ アクティビティ設定パネルのコードビューのアクション ID](assets/troubleshoot-inbound-retrieve-action-id.png)
+   ![&#x200B; アクティビティ設定パネルのコードビューのアクション ID](assets/troubleshoot-inbound-retrieve-action-id.png)
 
 1. プロファイルの名前空間と ID を取得して、問題の発生したプロファイルを識別します。設定に基づいて、名前空間は ECID、メール、顧客 ID などになります。プロファイルを検索する方法について詳しくは、[Experience Platform ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}を参照してください。
 
@@ -68,7 +68,7 @@ ht-degree: 95%
 
 次のグラフには、実行できるデバッグ手順のシーケンスを示します。
 
-![ インバウンドメッセージが表示されない場合のトラブルシューティングワークフロー：ジャーニー、エッジ配信、プロファイルを確認します ](assets/troubleshoot-inbound-scenario-1-steps.png){width="70%" align="center"}
+![&#x200B; インバウンドメッセージが表示されない場合のトラブルシューティングワークフロー：ジャーニー、エッジ配信、プロファイルを確認します &#x200B;](assets/troubleshoot-inbound-scenario-1-steps.png){width="70%" align="center"}
 
 ### 手順 1：デバイス／クライアントが Edge Network からコンテンツを受信しているかどうかを確認する {#step-1}
 
@@ -82,7 +82,7 @@ ht-degree: 95%
 
 1. 「**[!UICONTROL デバイスでのメッセージ]**」タブで、**[!UICONTROL メッセージ]**&#x200B;ドロップダウンリストをクリックします。
 
-   ![ アプリ内メッセージ配信イベントおよびデータを表示するAdobe Assurance ビュー ](assets/troubleshoot-inbound-assurance-in-app.png){width="80%"}
+   ![&#x200B; アプリ内メッセージ配信イベントおよびデータを表示するAdobe Assurance ビュー &#x200B;](assets/troubleshoot-inbound-assurance-in-app.png){width="80%"}
 
 1. ジャーニー名の後に「- アプリ内メッセージ」が付いたメッセージを探します。このようなメッセージがあった場合、アプリ内メッセージがデバイス／クライアントに存在し、問題がアプリ内トリガーに関連している可能性があります。
 
@@ -112,7 +112,7 @@ Edge Network の動作をデバッグするには、次の手順に従います�
 
 1. インバウンドアクションに対応する Edge アクティビティが「**[!UICONTROL 選定アクティビティ]**」セクションまたは「**[!UICONTROL 未選定アクティビティ]**」セクションにリストされているかどうかを確認します。
 
-   ![ プロファイルに送信されたメッセージの提案を示すEdge配信ログ ](assets/troubleshoot-inbound-edge-delivery.png)
+   ![&#x200B; プロファイルに送信されたメッセージの提案を示すEdge配信ログ &#x200B;](assets/troubleshoot-inbound-edge-delivery.png)
 
    * 「**選定アクティビティ**」セクションの場合、プロファイルはインバウンドジャーニーアクションに選定され、コンテンツを返す必要があります。
    * 「**未選定アクティビティ**」セクションの場合、プロファイルはインバウンドジャーニーアクションに選定されません。詳しくは、除外の理由を参照してください。
@@ -122,7 +122,7 @@ Edge Network の動作をデバッグするには、次の手順に従います�
    >
    >**Assurance** セッションで Edge アクティビティを見つけるには、**[!UICONTROL audienceNamespace]** が **joai** で、**[!UICONTROL audienceSegmentId]** が &lt;*JourneyVersionID*>_&lt;*JourneyActionID*> であるアクティビティを探します（例：*86232fb1-2932-4036-8198-55dfec606fd7_708f718d-8503-4427-ad8d-8e28979b554c*）。
 
-   ![ プロファイルがメッセージに適合しなかったことを示すEdge配信エラー ](assets/troubleshoot-inbound-edge-delivery-unqualified.png){width="70%"}
+   ![&#x200B; プロファイルがメッセージに適合しなかったことを示すEdge配信エラー &#x200B;](assets/troubleshoot-inbound-edge-delivery-unqualified.png){width="70%"}
 
 1. アクティビティが「**[!UICONTROL 未選定アクティビティ]**」セクションにあり、除外の理由が&#x200B;*「セグメントがアクティブではありません」*&#x200B;である場合、Edge Network 配信サーバーは、プロファイルが関連する **joai** オーディエンスセグメントの一部ではないと判断します。
 
@@ -148,11 +148,11 @@ Edge プロファイルの `segmentMembership` 属性に **joai** セグメン�
 
 1. 「**[!UICONTROL JSON を表示]**」をクリックして、プロファイルの JSON ビューを開きます。
 
-   ![ オーディエンスメンバーシップステータスを示す、JSON 形式のプロファイル属性ビュー ](assets/troubleshoot-inbound-profile-view-json.png){width="80%"}
+   ![&#x200B; オーディエンスメンバーシップステータスを示す、JSON 形式のプロファイル属性ビュー &#x200B;](assets/troubleshoot-inbound-profile-view-json.png){width="80%"}
 
 1. `segmentMembership` 属性に移動し、セグメント ID &lt;*JourneyVersionID>*_&lt;*JourneyActionID*> が **joai** 名前空間に存在し、「**[!UICONTROL 適合]**<!--or existing?-->」ステータスになっているかどうかを確認します。
 
-   ![ タイムスタンプ付きの実現されたオーディエンスメンバーシップを示すプロファイル JSON](assets/troubleshoot-inbound-profile-json-realized.png){width="90%"}
+   ![&#x200B; タイムスタンプ付きの実現されたオーディエンスメンバーシップを示すプロファイル JSON](assets/troubleshoot-inbound-profile-json-realized.png){width="90%"}
 
    * 存在する場合、インバウンドジャーニーアクションに対応する **joai** セグメントが Edge プロファイルに正しく生成されます。
 

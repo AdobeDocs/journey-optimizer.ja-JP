@@ -30,7 +30,7 @@ ht-degree: 93%
 
 カスタムアクションを作成して設定する方法について詳しくは、[このページ](../action/about-custom-action-configuration.md)を参照してください。
 
-[ このページ ](../action/action-response.md) で、カスタムアクションの API 呼び出し応答をパーソナライゼーションに使用する方法を説明します。
+[&#x200B; このページ &#x200B;](../action/action-response.md) で、カスタムアクションの API 呼び出し応答をパーソナライゼーションに使用する方法を説明します。
 
 ## 同意とデータガバナンス {#privacy}
 
@@ -60,7 +60,7 @@ URL に動的パスが含まれる場合は、「**[!UICONTROL パス]**」フ�
 
 `https://xxx.yyy.com:8080/somethingstatic/`\&lt;ID>`/messages`
 
-![ 動的パラメーターマッピングを使用したカスタムアクション URL 設定 ](assets/journey-custom-action-url.png)
+![&#x200B; 動的パラメーターマッピングを使用したカスタムアクション URL 設定 &#x200B;](assets/journey-custom-action-url.png)
 
 ### ヘッダーとクエリパラメーター {#headers}
 
@@ -68,7 +68,7 @@ URL に動的パスが含まれる場合は、「**[!UICONTROL パス]**」フ�
 
 動的ヘッダーおよびクエリパラメーターのフィールドの値を指定するには、フィールド内または鉛筆アイコンをクリックして目的のフィールドを選択します。
 
-![ カスタムアクションの動的ヘッダーフィールド設定 ](assets/journey-dynamicheaderfield.png)
+![&#x200B; カスタムアクションの動的ヘッダーフィールド設定 &#x200B;](assets/journey-dynamicheaderfield.png)
 
 ## アクションパラメーター
 

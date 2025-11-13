@@ -40,21 +40,21 @@ Campaign インスタンスをこの統合用にプロビジョニングする�
 
 1. **管理**／**プラットフォーム**／**列挙**&#x200B;で、**イベントタイプ**（eventType）列挙を選択します。新しいイベントタイプ（この例では「journey-event」）を作成します。イベントタイプの内部名は、後で JSON ファイルを書き込む際に使用します。
 
-   ![ スキーマとフィールドの選択を使用したAdobe Journey Optimizerでのイベントの設定 ](assets/accintegration-uc-1.png)
+   ![&#x200B; スキーマとフィールドの選択を使用したAdobe Journey Optimizerでのイベントの設定 &#x200B;](assets/accintegration-uc-1.png)
 
 1. 作成を有効にするには、インスタンスを切断して、再接続します。
 
 1. **Message Center**／**トランザクションメッセージテンプレート**&#x200B;で、以前に作成したイベントタイプに基づいて新しいメールテンプレートを作成します。
 
-   ![ 名前空間とプロファイル識別子の設定を示すイベント設定 ](assets/accintegration-uc-2.png)
+   ![&#x200B; 名前空間とプロファイル識別子の設定を示すイベント設定 &#x200B;](assets/accintegration-uc-2.png)
 
 1. テンプレートをデザインします。この例では、プロファイルの名と注文番号にパーソナライゼーションを適用します。名は Adobe Experience Platform データソースにあり、注文番号は Journey Optimizer イベントのフィールドです。Campaign で正しいフィールド名を使用していることを確認します。
 
-   ![ プロファイルとイベントデータを含んだ JSON 構造を示すイベントペイロードプレビュー ](assets/accintegration-uc-3.png)
+   ![&#x200B; プロファイルとイベントデータを含んだ JSON 構造を示すイベントペイロードプレビュー &#x200B;](assets/accintegration-uc-3.png)
 
 1. トランザクションテンプレートを公開します。
 
-   ![API 統合用のペイロード ID をコピーするイベントコピーボタン ](assets/accintegration-uc-4.png)
+   ![API 統合用のペイロード ID をコピーするイベントコピーボタン &#x200B;](assets/accintegration-uc-4.png)
 
 1. テンプレートに対応する JSON ペイロードを記述します。
 
@@ -78,30 +78,30 @@ Campaign インスタンスをこの統合用にプロビジョニングする�
 
 1. イベントを作成します。「purchaseOrderNumber」フィールドを含めます。
 
-   ![Adobe Campaign Classic統合のカスタムアクション設定画面 ](assets/accintegration-uc-5.png)
+   ![Adobe Campaign Classic統合のカスタムアクション設定画面 &#x200B;](assets/accintegration-uc-5.png)
 
 1. Journey Optimizer で、Campaign テンプレートに対応するアクションを作成します。「**アクションタイプ**」ドロップダウンで、**Adobe Campaign Classic** を選択します。
 
-   ![Adobe Campaign Classicオプションが表示されているアクションタイプの選択 ](assets/accintegration-uc-6.png)
+   ![Adobe Campaign Classicオプションが表示されているアクションタイプの選択 &#x200B;](assets/accintegration-uc-6.png)
 
 1. 「**ペイロードフィールド**」をクリックし、以前に作成した JSON を貼り付けます。
 
-   ![ アクション統合用の Campaign アカウント選択ドロップダウン ](assets/accintegration-uc-7.png)
+   ![&#x200B; アクション統合用の Campaign アカウント選択ドロップダウン &#x200B;](assets/accintegration-uc-7.png)
 
 1. メールアドレスと 2 つのパーソナライゼーションフィールドで、「**定数**」を「**変数**」に変更します。
 
-   ![Campaign 統合のフィールドマッピングを使用したアクションペイロード設定 ](assets/accintegration-uc-8.png)
+   ![Campaign 統合のフィールドマッピングを使用したアクションペイロード設定 &#x200B;](assets/accintegration-uc-8.png)
 
 1. 次に、新しいジャーニーを作成し、以前に作成したイベントから開始します。
 
-   ![ イベントとキャンペーンジャーニーが設定されたアクションキャンバス ](assets/accintegration-uc-9.png)
+   ![&#x200B; イベントとキャンペーンジャーニーが設定されたアクションキャンバス &#x200B;](assets/accintegration-uc-9.png)
 
 1. アクションを追加し、Journey Optimizer の正しいフィールドに各フィールドをマッピングします。
 
-   ![ 動的値の式エディターを使用したアクションパラメーターのマッピング ](assets/accintegration-uc-10.png)
+   ![&#x200B; 動的値の式エディターを使用したアクションパラメーターのマッピング &#x200B;](assets/accintegration-uc-10.png)
 
 1. ジャーニーのテスト.
 
-   ![ イベントトリガーとキャンペーンアクションの実行を使用したジャーニーフローの完了 ](assets/accintegration-uc-11.png)
+   ![&#x200B; イベントトリガーとキャンペーンアクションの実行を使用したジャーニーフローの完了 &#x200B;](assets/accintegration-uc-11.png)
 
 1. これで、ジャーニーを公開できます。

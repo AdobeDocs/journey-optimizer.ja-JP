@@ -88,7 +88,7 @@ Customer Journey Analytics ライセンスを使用すると、カスタム成�
 
    指標はジャーニー自体に適用され、ジャーニーのすべての要素に適用されます。
 
-   ![ ジャーニープロパティの成功指標設定パネル ](assets/success_metric.png)
+   ![&#x200B; ジャーニープロパティの成功指標設定パネル &#x200B;](assets/success_metric.png)
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
@@ -100,5 +100,5 @@ Customer Journey Analytics ライセンスを使用すると、カスタム成�
 
    選択した指標が、レポートの KPI とジャーニー統計テーブルに表示されます。
 
-   ![ 目標のトラッキングに使用できるイベントを表示する成功指標ドロップダウン ](assets/success_metric_2.png)
+   ![&#x200B; 目標のトラッキングに使用できるイベントを表示する成功指標ドロップダウン &#x200B;](assets/success_metric_2.png)
 
