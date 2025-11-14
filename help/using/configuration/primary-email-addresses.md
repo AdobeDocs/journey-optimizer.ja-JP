@@ -9,14 +9,14 @@ role: Admin
 level: Intermediate
 keywords: プライマリ, 実行, メール, ターゲット, プロファイル, Optimizer
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 36a9a4afb24f3c7909c57e983992de2bf12acd24
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 100%
+source-wordcount: '647'
+ht-degree: 88%
 
 ---
 
-# 実行アドレスの変更 {#change-primary-email}
+# デフォルトの実行フィールドの管理 {#change-primary-email}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address"
@@ -73,8 +73,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_execution_address"
 >title="カスタム値の定義"
->abstract="いくつかの特定のケースでは、デフォルトの実行アドレスを上書きできます。フィールドの右側にある **パラメーターの上書きを有効にする** アイコンを使用して、カスタムプライマリアドレスを定義します。"
->additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/configuration/primary-email-addresses#journey-parameters" text="実行アドレスについて"
+>abstract="場合によっては、デフォルトの実行フィールド値を上書きできます。 このフィールドの右側にある **パラメーターの上書きを有効にする** アイコンを使用して、送信の優先順位を付けるカスタムメールアドレスまたは電話番号を定義します。"
 
 特定のユースケースでは、グローバルに設定された実行フィールドを上書きし、ジャーニーレベルで異なる値を定義できます。
 
@@ -91,7 +90,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->メールアドレスや電話番号の上書きは、特定のユースケースに対してのみ使用してください。ほとんどの場合、サンドボックスレベルの&#x200B;**[!UICONTROL 実行フィールド]**&#x200B;でプライマリアドレスとして定義されている値を使用する必要があるため、メールアドレスを変更する必要はありません。
+>メールアドレスや電話番号の上書きは、特定のユースケースに対してのみ使用してください。ほとんどの場合、サンドボックスレベルで **[!UICONTROL 実行フィールド]** のプライマリフィールドとして定義されている値を使用する必要があるため、変更は必要ありません。 [詳細情報](#change-primary-email)
 
 ## チャネル設定のデフォルトの実行フィールドの上書き {#override-execution-address-channel-config}
 
