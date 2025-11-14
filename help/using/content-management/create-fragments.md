@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: 3cb16d48c8f478643e8c9891e4fd8c0c3b18f2c5
+source-git-commit: b0b786203d176c3d817f28e1f4cef1f31eda4640
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 100%
+source-wordcount: '758'
+ht-degree: 97%
 
 ---
 
@@ -79,7 +79,7 @@ ht-degree: 100%
 
   >[!CAUTION]
   >
-  >フラグメントには、テーマを使用モードと手動スタイルモード間で相互互換性がありません。テーマを適用するコンテンツでフラグメントを使用できるようにするには、このフラグメントをテーマを使用モードで作成する必要があります。[テーマの詳細情報](../email/apply-email-themes.md)
+  >フラグメントには、テーマを使用モードと手動スタイルモード間で相互互換性がありません。メールコンテンツでフラグメントを使用する場合は、このフラグメントに定義したテーマを適用していることを確認します。 [詳細情報](../email/apply-email-themes.md#leverage-themes-fragment)
 
 * 式フラグメントの場合は、[!DNL Journey Optimizer] パーソナライゼーションエディターのすべてのパーソナライズ機能およびオーサリング機能を活用して、フラグメントコンテンツを構築します。[詳細情報](../personalization/personalization-build-expressions.md)
 
