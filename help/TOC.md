@@ -914,7 +914,7 @@ ht-degree: 97%
    + [プライバシー](/help/rp_landing_pages/privacy-landing-page.md)
    + [プライバシーの基本を学ぶ](using/privacy/get-started-privacy.md)
    + [プライバシーリクエスト](using/privacy/requests.md)
-   + [ リソースに対する監査アクション](using/privacy/audit-logs.md)
+   + [&#x200B; リソースに対する監査アクション](using/privacy/audit-logs.md)
    + [データライフサイクル操作の実行](using/privacy/data-hygiene.md)
    + 同意を管理 {#consent}
       + [同意を管理](/help/rp_landing_pages/consent-landing-page.md)
