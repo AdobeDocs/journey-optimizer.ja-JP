@@ -60,7 +60,7 @@ Adobe Journey Optimizer を設定して、Adobe Campaign、Marketo Engage、他�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 Adobe Journey Optimizer のサンドボックス管理
 

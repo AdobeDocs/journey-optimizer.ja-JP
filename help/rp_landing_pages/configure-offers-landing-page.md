@@ -40,7 +40,7 @@ Adobe Journey Optimizer の「オファーの設定」のセクションでは�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 オファーへの制約の追加
 
