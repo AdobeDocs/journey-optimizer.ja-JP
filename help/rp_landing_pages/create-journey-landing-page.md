@@ -7,7 +7,7 @@ redpen-status: CREATED_||_2025-08-11_20-07-02
 version: Journey Orchestration
 exl-id: d08e8c3a-7ade-4c38-93f6-c552a44d6209
 source-git-commit: 74723337f97c8196b506ccc1ace11077710494ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '293'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ Adobe Journey Optimizer でジャーニーを作成すると、個人の行動�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 初めてのカスタマージャーニーの作成方法
 
@@ -31,7 +31,7 @@ Adobe Journey Optimizer でジャーニーを作成すると、個人の行動�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 ジャーニーのプロパティの定義と管理
 
@@ -41,7 +41,7 @@ Adobe Journey Optimizer でジャーニーを作成すると、個人の行動�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 ジャーニーのデザイン方法
 
@@ -51,7 +51,7 @@ Adobe Journey Optimizer でジャーニーを作成すると、個人の行動�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 ジャーニーのテスト方法
 
@@ -61,7 +61,7 @@ Adobe Journey Optimizer でジャーニーを作成すると、個人の行動�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 ドライランモードでのジャーニーのテスト
 
@@ -71,7 +71,7 @@ Adobe Journey Optimizer でジャーニーを作成すると、個人の行動�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 ジャーニーの公開
 

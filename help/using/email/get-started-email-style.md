@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: メール, スタイル, css, 本文, 構造
 exl-id: 2e20ecc5-bb58-4dc8-a2bc-ec5a02c16ae8
 source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '173'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -29,9 +29,9 @@ ht-degree: 63%
 * [メールの背景のパーソナライズ](backgrounds.md)
 * [垂直方向の整列とパディングの調整](alignment-and-padding.md)
 * [インラインスタイル属性の追加](inline-styling.md)方法を学ぶ
-* 方法を学ぶ [&#x200B; メールコンテンツへのカスタム CSS の追加 &#x200B;](custom-css.md)
-* 詳細情報 [&#x200B; ダークモードコンテンツの管理 &#x200B;](dark-mode.md)
+* [メールコンテンツへのカスタム CSS の追加](custom-css.md)方法を学ぶ
+* [ダークモードコンテンツの管理](dark-mode.md)方法を学ぶ
 
 >[!NOTE]
 >
->[&#x200B; 欧州アクセシビリティ法 &#x200B;](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} は、すべてのデジタル通信がアクセス可能であるべきであると規定しています。 [&#x200B; でコンテンツをデザインする場合は、](../email/accessible-content.md) このページ [!DNL Journey Optimizer] に記載されている特定のスタイル設定ガイドライン（色、ラベル、アイコンを調整して明確にしたり、モバイルやレスポンシブのレイアウト用にデザインを最適化したりするなど）に従ってください。
+>[欧州アクセシビリティ法](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}では、すべてのデジタル通信がアクセス可能である必要があると規定しています。[!DNL Journey Optimizer] でコンテンツをデザインする際は、明確さを確保するために色、ラベル、アイコンを調整したり、モバイルやレスポンシブレイアウト向けにデザインを最適化したりするなど、[このページ](../email/accessible-content.md)に示す特定のスタイル設定ガイドラインに必ず従ってください。

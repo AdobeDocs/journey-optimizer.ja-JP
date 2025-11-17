@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '853'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -88,6 +88,6 @@ Journey Optimizer のコア機能とサービスは、リアルタイム顧客�
 >* [開始の主な手順](quick-start.md)
 >* [ジャーニーの設計とメッセージの送信](../building-journeys/journey-gs.md)
 >* [ライブレポート](../reports/live-report.md)
->* [Journey Optimizerの概要チュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction){target="_blank"}
+>* [Journey Optimizer の概要チュートリアル](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction){target="_blank"}
 >* [Journey Optimizer Security の概要](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf)（PDF）
 >* [Journey Optimizer 製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}

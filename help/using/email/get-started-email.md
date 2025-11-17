@@ -10,9 +10,9 @@ level: Beginner
 keywords: メール, 開始, 作成, プレビュー
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
 source-git-commit: 73a347c104fe28799c264f9a8b6c3e5e12c8d892
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '295'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 63%
 
 * **ジャーニー**&#x200B;の場合：ジャーニーに&#x200B;**[!UICONTROL メール]**&#x200B;アクティビティを追加し、基本設定を定義したら、右側の&#x200B;**[!UICONTROL アクション：メール]**&#x200B;パネルを使用して、メッセージのコンテンツを作成します。[ジャーニーの作成方法を学ぶ](../building-journeys/journey-gs.md)
 
-* **Campaign** の場合：キャンペーンを作成したら、アクションとして「**[!UICONTROL メール]**」を選択し、基本設定を定義します。[&#x200B; アクションキャンペーン &#x200B;](../campaigns/campaign-action.md#action-campaign-action) の作成方法を学ぶ | [API トリガーキャンペーン &#x200B;](../campaigns/api-triggered-campaigns.md) | [&#x200B; 調整されたキャンペーン &#x200B;](../orchestrated/create-orchestrated-campaign.md#create)
+* **Campaign** の場合：キャンペーンを作成したら、アクションとして「**[!UICONTROL メール]**」を選択し、基本設定を定義します。詳しくは、[アクションキャンペーン](../campaigns/campaign-action.md#action-campaign-action) | [API トリガーキャンペーン](../campaigns/api-triggered-campaigns.md) | [オーケストレーションキャンペーン](../orchestrated/create-orchestrated-campaign.md#create)の作成方法を参照してください
 
 
 >[!IMPORTANT]
@@ -112,9 +112,9 @@ ht-degree: 63%
 
 ## その他のリソース
 
-* **[メールの作成](create-email.md)** - キャンペーンとジャーニーでメールメッセージを作成する方法を手順を追って説明します。
-* **[メールコンテンツのデザイン](get-started-email-design.md)** - メールコンテンツをゼロから、またはテンプレートを使用してデザインする様々な方法を説明します。
-* **[メール設定](get-started-email-config.md)** - メールのサーフェス、サブドメイン、IP プールなどのメール設定を構成する方法について説明します。
-* **[メールのパーソナライゼーションとスタイル設定](get-started-email-style.md)** - カスタム CSS、整列、パディング、ダークモードのサポートなどの、マスターのスタイル設定手法。
-* **[メールのトラッキングと監視](message-tracking.md)** - パフォーマンス分析のために、メッセージの開封数、クリック数を追跡し、URL トラッキングを管理する方法について説明します。
-* **[メールチャネルチュートリアル &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/channels/email-channel){target="_blank"}** - メールの機能とベストプラクティスに関するステップバイステップのビデオチュートリアルをご覧ください。
+* **[メールの作成](create-email.md)** - 手順に従って、キャンペーンやジャーニーでメールメッセージを作成する方法について説明します。
+* **[メールコンテンツのデザイン](get-started-email-design.md)** - メールコンテンツをゼロから、またはテンプレートを使用してデザインする様々な方法について説明します。
+* **[メールの設定](get-started-email-config.md)** - メールサーフェス、サブドメイン、IP プールなどのメール設定を指定する方法について説明します。
+* **[メールのパーソナライゼーションとスタイル設定](get-started-email-style.md)** - カスタム CSS、整列、パディング、ダークモードのサポートなど、スタイル設定のテクニックを習得します。
+* **[メールのトラッキングと監視](message-tracking.md)** - パフォーマンス分析のために、メッセージの開封数やクリック数を追跡し、URL トラッキングを管理する方法について説明します。
+* **[メールチャネルのチュートリアル](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/channels/email-channel){target="_blank"}** - メールの機能とベストプラクティスに関するステップバイステップのビデオチュートリアルを参照してください。

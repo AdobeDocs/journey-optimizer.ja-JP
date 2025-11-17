@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: c1f16edd-efdf-41c2-a0ad-5f55009008f5
 source-git-commit: 73a347c104fe28799c264f9a8b6c3e5e12c8d892
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '330'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 96%
 
 * **ジャーニー**&#x200B;の場合：ジャーニーにプッシュアクティビティを追加し、基本設定を定義したら、右側の&#x200B;**[!UICONTROL アクション : プッシュ]**&#x200B;パネルを使用して、プッシュ通知のコンテンツを作成します。[ジャーニーを作成する方法について説明します。](../building-journeys/journey-gs.md)
 
-* **キャンペーン**&#x200B;の場合：キャンペーンを作成したら、アクションとして「プッシュ通知」を選択し、基本設定を定義します。[&#x200B; アクションキャンペーン &#x200B;](../campaigns/campaign-action.md#action-campaign-action) の作成方法を学ぶ | [API トリガーキャンペーン &#x200B;](../campaigns/api-triggered-campaigns.md) | [&#x200B; 調整されたキャンペーン &#x200B;](../orchestrated/create-orchestrated-campaign.md#create)
+* **キャンペーン**&#x200B;の場合：キャンペーンを作成したら、アクションとして「プッシュ通知」を選択し、基本設定を定義します。詳しくは、[アクションキャンペーン](../campaigns/campaign-action.md#action-campaign-action) | [API トリガーキャンペーン](../campaigns/api-triggered-campaigns.md) | [オーケストレーションキャンペーン](../orchestrated/create-orchestrated-campaign.md#create)を作成する方法を参照してください
 
 専用のタブを使用して、**iOS** および **Android** オペレーティングシステムのプッシュ通知設定を定義します。
 

@@ -6,9 +6,9 @@ level: Beginner
 feature: Approval
 exl-id: 92d1439e-5cac-4e7d-85f8-ebf432e9ef7c
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '625'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -86,7 +86,7 @@ Journey Optimizer では、マーケティングチームはキャンペーン�
 
 ## その他のリソース
 
-* **[承認ポリシーの作成](approval-policies.md)** - キャンペーンとジャーニーのレビューワークフローを適用する承認ポリシーの設定方法について説明します。
-* **[承認をリクエスト](request-approval.md)** – 承認用にコンテンツを送信する方法と、承認ステータスをトラッキングする方法について説明します。
-* **[リクエストのレビューおよび承認](review-approve-request.md)** – 承認者として承認リクエストをレビュー、承認または却下する方法を説明します。
-* **[サンプル入力でシミュレート](simulate-sample-input.md)** - サンプルプロファイルデータを使用してコンテンツをテストおよび検証する方法について説明します。
+* **[承認ポリシーの作成](approval-policies.md)** - キャンペーンとジャーニーでレビューワークフローを実施するための承認ポリシーの設定方法について説明します。
+* **[承認のリクエスト](request-approval.md)** - 承認用にコンテンツを送信し、承認ステータスを追跡する方法について説明します。
+* **[リクエストのレビューと承認](review-approve-request.md)** - 承認者として承認リクエストをレビュー、承認または却下する方法について説明します。
+* **[サンプル入力でのシミュレート](simulate-sample-input.md)** - サンプルプロファイルデータを使用してコンテンツをテストおよび検証する方法について説明します。

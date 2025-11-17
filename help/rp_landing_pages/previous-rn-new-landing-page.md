@@ -8,7 +8,7 @@ hidefromtoc: true
 redpen-status: CREATED_||_2025-08-11_20-02-38
 exl-id: 74d13927-18ca-4b7a-8e0e-fd69b38c0eff
 source-git-commit: c70cdb0f12b484844ab0222cec8922f30b0ee7dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '166'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ Adobe Journey Optimizer のリリースノートでは、カスタマージャ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Adobe Journey Optimizer リリースノート 2025
 
@@ -32,7 +32,7 @@ Adobe Journey Optimizer リリースノート 2025
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Adobe Journey Optimizer 2024年リリースノート
 

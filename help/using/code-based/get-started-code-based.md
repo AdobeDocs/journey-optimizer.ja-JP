@@ -7,9 +7,9 @@ role: User, Developer, Admin
 level: Experienced
 exl-id: 987de2bf-cebe-4753-98b4-01eb3fded492
 source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '855'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -104,10 +104,10 @@ Web の使用例を実行するには、web チャネルまたはコードベー
 
 ## その他のリソース
 
-* **[コードベースのエクスペリエンスの作成](create-code-based.md)** - カスタム実装用のコードベースのキャンペーンおよびジャーニーを作成し、設定する方法を説明します。
-* **[コードベースのチャネルの設定](code-based-configuration.md)** - サーフェスと実装を適切に設定して、コードベースのエクスペリエンス設定を指定します。
-* **[コードベースの前提条件](code-based-prerequisites.md)** – 実装に必要な技術要件と開発者リソースについて説明します。
-* **[コードベースのエクスペリエンスのテスト](test-code-based.md)** – 公開前にコードベースのエクスペリエンスをプレビューしてテストする方法を説明します。
-* **[実装サンプル](code-based-implementation-samples.md)** – 様々なユースケースのコード例と実装パターンを調べます。
-* **[コードベースのエクスペリエンスチュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/channels/code-based-experience-channel/create-a-code-based-experience-campaign){target="_blank"}** - コードベースの機能とベストプラクティスに関するステップバイステップのビデオチュートリアルをご覧ください。
+* **[コードベースのエクスペリエンスの作成](create-code-based.md)** - カスタム実装用のコードベースのキャンペーンとジャーニーを作成および設定する方法について説明します。
+* **[コードベースのチャネルの設定](code-based-configuration.md)** - 適切なサーフェスと実装設定を使用して、コードベースのエクスペリエンス設定を指定します。
+* **[コードベースの前提条件](code-based-prerequisites.md)** - 実装に必要な技術要件と開発者リソースについて説明します。
+* **[コードベースのエクスペリエンスのテスト](test-code-based.md)** - 公開前にコードベースのエクスペリエンスをプレビューおよびテストする方法について説明します。
+* **[実装サンプル](code-based-implementation-samples.md)** - 様々なユースケースのコード例と実装パターンについて説明します。
+* **[コードベースのエクスペリエンスのチュートリアル](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/channels/code-based-experience-channel/create-a-code-based-experience-campaign){target="_blank"}** - コードベースの機能とベストプラクティスに関するステップバイステップのビデオチュートリアルを参照してください。
 

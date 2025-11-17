@@ -8,7 +8,7 @@ exl-id: 5cb96709-c1bf-415e-bcdf-217c1ae7c34d
 hide: true
 hidefromtoc: true
 source-git-commit: d58319d687d113ce680c415524fdea0400cb38f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '361'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ Adobe Journey Optimizer の「リスト」関数を使用すると、ワーク�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer での「distinct」関数の使用
 
@@ -32,7 +32,7 @@ Adobe Journey Optimizer での「distinct」関数の使用
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 distinctWithNull 関数 - Adobe Journey Optimizer
 
@@ -42,7 +42,7 @@ null エントリを含めながら、リストから個別の値またはオブ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer での「filter」関数の使用
 
@@ -52,7 +52,7 @@ Adobe Journey Optimizer での「filter」関数の使用
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer での getListItem 関数の使用
 
@@ -62,7 +62,7 @@ Adobe Journey Optimizer での getListItem 関数の使用
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer での「in」関数の使用
 
@@ -72,7 +72,7 @@ Adobe Journey Optimizer での「in」関数の使用
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer の intersect 関数
 

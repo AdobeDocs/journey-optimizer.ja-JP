@@ -8,9 +8,9 @@ level: Beginner
 keywords: ダイレクトメール, メッセージ, キャンペーン
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '313'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -37,9 +37,9 @@ ht-degree: 76%
 ## その他のリソース
 
 * **[ダイレクトメールの作成](create-direct-mail.md)** - ダイレクトメール配信を作成し、オフラインチャネル用の抽出ファイルを設定する方法について説明します。
-* **[ダイレクトメールチャネルの設定](direct-mail-configuration.md)** - ダイレクトメールサーフェスとファイルのルーティング設定を指定します。
-* **[ジャーニーでのダイレクトメール](direct-mail-journeys.md)** - カスタマージャーニー内でダイレクトメールアクションを使用する方法を説明します。
-* **[ダイレクトメールのテストと送信](test-send-direct-mail.md)** - ダイレクトメール配信をテスト、検証および公開する方法について説明します。
-* **[ダイレクトメールチュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}** - ダイレクトメールの機能とベストプラクティスに関するステップバイステップのビデオチュートリアルをご覧ください。
+* **[ダイレクトメールチャネルの設定](direct-mail-configuration.md)** - ダイレクトメールサーフェスとファイルルーティング設定を指定します。
+* **[ジャーニーでのダイレクトメール](direct-mail-journeys.md)** - カスタマージャーニー内でダイレクトメールアクションを使用する方法について説明します。
+* **[ダイレクトメールのテストと送信](test-send-direct-mail.md)** - ダイレクトメール配信をテスト、検証、公開する方法について説明します。
+* **[ダイレクトメールのチュートリアル](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}** - ダイレクトメールの機能とベストプラクティスに関するステップバイステップのビデオチュートリアルを参照してください。
 
 

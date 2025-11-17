@@ -10,9 +10,9 @@ keywords: ジャーニー, Discover, 開始
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
 source-git-commit: ef395b65a92fea235811b595cca9bf73f9e78022
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '427'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -51,12 +51,12 @@ Journey Optimizer ジャーニーデザイナーには、マーケターやジ�
 
 ジャーニーのコンポーネントを把握し、キャンバスでのジャーニー構築の基本を理解します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430350?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ## その他のリソース {#additional-resources}
 
 * [ジャーニーに関する FAQ](journey-faq.md) - ジャーニーに関するよくある質問
-* [&#x200B; エラーコードのリファレンス &#x200B;](error-codes-reference.md) - ジャーニーエラーコードとトラブルシューティング手順
-* [&#x200B; アラート &#x200B;](../reports/alerts.md) - ジャーニー監視用のアラートの設定
-* [&#x200B; トラブルシューティング &#x200B;](troubleshooting.md) - ジャーニーに関する一般的な問題と解決策
-* [&#x200B; 監視とトラブルシューティング &#x200B;](/help/rp_landing_pages/troubleshoot-journey-landing-page.md) - ジャーニーを監視およびトラブルシューティングするツールと機能
+* [エラーコードの参照](error-codes-reference.md) - ジャーニーエラーコードとトラブルシューティング手順
+* [アラート](../reports/alerts.md) - ジャーニー監視に関するアラートの設定
+* [トラブルシューティング](troubleshooting.md) - ジャーニーに関する一般的な問題と解決策
+* [監視とトラブルシューティング](/help/rp_landing_pages/troubleshoot-journey-landing-page.md) - ジャーニーを監視およびトラブルシューティングするツールと機能

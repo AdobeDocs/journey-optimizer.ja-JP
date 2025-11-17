@@ -10,7 +10,7 @@ level: Experienced
 keywords: 設定, メール, 設定
 exl-id: 13536962-7541-4eb6-9ccb-4f97e167734a
 source-git-commit: ea8f77c2821bfae7b853b3ac39ea22f0d19ae43d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1419'
 ht-degree: 100%
 

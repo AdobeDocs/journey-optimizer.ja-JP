@@ -8,21 +8,21 @@ exl-id: d82e30d6-abe5-4522-a8c4-a11ff5c9bd91
 hide: true
 hidefromtoc: true
 source-git-commit: 5f63c10a79847a271e330f440fdfdb1ff64ffa88
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '284'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 # 関数{#section-overview}
 
-Adobe Journey Optimizer の関数を使用すると、動的で正確な式を作成して、カスタマージャーニーをカスタマイズできます。オーディエンスメンバーシップの評価、データの集計、形式の変換、日付の操作、リストの処理のいずれを行う場合でも、各関数のカテゴリは、ワークフローを最適化する独自の目的を果たします。 数学計算、文字列のカスタマイズなどのツールを備えた、これらの関数は、高度な条件を作成する無限の可能性を提供します。以降の節を参照すると、複雑な操作を簡素化し、パーソナライズされたジャーニーオーケストレーションの可能性を最大限に活用できるようにする、実用的な例と詳細なガイダンスが見つかります。
+Adobe Journey Optimizer の関数を使用すると、動的で正確な式を作成して、カスタマージャーニーをカスタマイズできます。オーディエンスメンバーシップの評価、データの集計、形式の変換、日付の操作、リストの処理など、関数の各カテゴリはワークフローの最適化で独自の目的を果たします。数学計算、文字列のカスタマイズなどのツールと共に使用することで、これらの関数は高度な条件を作成する無限の可能性を提供します。以降の節を参照すると、複雑な操作を簡素化する実用的な例と詳細なガイダンスが見つかり、パーソナライズされたジャーニーオーケストレーションの可能性を最大限に活用することが容易になります。
 
 ## Adobe Journey Optimizer の関数
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer の主な関数
 
@@ -32,7 +32,7 @@ Adobe Journey Optimizer の主な関数
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 inAudience 関数の使用
 
@@ -42,7 +42,7 @@ inAudience 関数の使用
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 集計関数リファレンス
 
@@ -52,7 +52,7 @@ inAudience 関数の使用
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/exchange-alt.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/exchange-alt.svg)
 
 コンバージョン関数
 
@@ -62,7 +62,7 @@ inAudience 関数の使用
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 Adobe Journey Optimizer の日付関数
 
@@ -72,7 +72,7 @@ Adobe Journey Optimizer の日付関数
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Adobe Journey Optimizer のリスト関数
 

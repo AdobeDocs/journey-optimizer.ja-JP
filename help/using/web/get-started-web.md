@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
 source-git-commit: 9619ffd2cde677c0c83ee1b53f232c41b5faaa9a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '257'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -70,11 +70,11 @@ Web キャンペーンを作成する詳細な手順については、[こちら
 
 ## その他のリソース
 
-* **[web エクスペリエンスの作成](create-web.md)** - web キャンペーンとジャーニーを作成および設定して、web コンテンツを変更する方法を説明します。
-* **[Web チャネルの前提条件](web-prerequisites.md)** - Web チャネルの実装に必要な技術要件と設定について説明します。
-* **[Web コンテンツの編集](create-web.md#edit-web-content)** - Web デザイナーにマスターを設定し、ビジュアルエディットモードまたは非ビジュアルエディットモードを使用してページを変更できるようにします。
-* **[Web 変更の管理](manage-web-modifications.md)** - web エクスペリエンス全体で変更を整理、適用、管理する方法を説明します。
-* **[web エクスペリエンスの監視](monitor-web-experiences.md)** – 詳細なレポートを使用して、web キャンペーンのパフォーマンスを追跡および分析します。
-* **[Web キャンペーンチュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/channels/web-channel/create-a-web-campaign){target="_blank"}** - web チャネルの機能とベストプラクティスに関するステップバイステップのビデオチュートリアルをご覧ください。
+* **[Web エクスペリエンスの作成](create-web.md)** - web キャンペーンとジャーニーを作成して設定し、web コンテンツを変更する方法について説明します。
+* **[Web チャネルの前提条件](web-prerequisites.md)** - web チャネルの実装に必要な技術要件と設定について説明します。
+* **[Web コンテンツの編集](create-web.md#edit-web-content)** - web デザイナーを習得し、ビジュアル編集モードまたは非ビジュアル編集モードを使用してページを変更します。
+* **[Web 変更の管理](manage-web-modifications.md)** - web エクスペリエンスをまたいで変更を整理、適用、管理する方法について説明します。
+* **[Web エクスペリエンスの監視](monitor-web-experiences.md)** - 詳細なレポートを使用して、web キャンペーンのパフォーマンスを追跡および分析します。
+* **[Web キャンペーンのチュートリアル](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/channels/web-channel/create-a-web-campaign){target="_blank"}** - web チャネルの機能とベストプラクティスに関するステップバイステップのビデオチュートリアルを参照してください。
 
 
