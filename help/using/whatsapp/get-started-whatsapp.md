@@ -58,7 +58,7 @@ WhatsApp を Journey Optimizer と統合するには、次が必要です。
 
 +++ こちらのビデオをご覧ください
 
->[!VIDEO](https://video.tv.adobe.com/v/3470244?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470245?captions=jpn&learn=on)
 
 +++
 
