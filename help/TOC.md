@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 57494753f24570a1f14c16e4e98d27ee0c710813
 workflow-type: tm+mt
 source-wordcount: '2983'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 97%
       + [2021年](using/rn/release-notes-2021.md)
    + [ドキュメントの更新](using/rn/documentation-updates.md)
    + [毎月の更新レポート](../monthly-updates-report.md)
-   + [ジャーニーキャンバスの改善](using/rn/new-canvas.md)
+   + [ジャーニーキャンバスの向上](using/rn/new-canvas.md)
 + 基本を学ぶ {#get-started}
    + [基本を学ぶ](/help/rp_landing_pages/get-started-landing-page.md)
    + [主な機能](using/start/get-started.md)
@@ -133,7 +133,7 @@ ht-degree: 97%
    + [キャンペーン](/help/rp_landing_pages/campaigns-landing-page.md)
    + [キャンペーンの基本を学ぶ](using/campaigns/get-started-with-campaigns.md)
    + [キャンペーンへのアクセスと管理](using/campaigns/manage-campaigns.md)
-   + [通知のない時間帯](using/campaigns/quiet-hours.md)
+   + [クワイエットアワー](using/campaigns/quiet-hours.md)
    + アクションキャンペーン {#action-campaigns}
       + [アクションキャンペーン](/help/rp_landing_pages/action-campaigns-landing-page.md)
       + [アクションキャンペーンの操作](using/campaigns/create-campaign.md)
@@ -231,7 +231,7 @@ ht-degree: 97%
 + 監視とトラブルシューティング {#monitor}
    + [監視とトラブルシューティング](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
    + [システムアラート](using/reports/alerts.md)
-   + [エラーコードのリファレンス](using/building-journeys/error-codes-reference.md)
+   + [エラーコードの参照](using/building-journeys/error-codes-reference.md)
    + [トラブルシューティング記事](using/start/troubleshooting.md)
    + ジャーニーのトラブルシューティング {#troubleshoot-journey}
       + [ジャーニーエラーのトラブルシューティング](using/building-journeys/troubleshooting.md)
@@ -254,7 +254,7 @@ ht-degree: 97%
             + [コンテンツの読み込み](using/email/existing-content.md)
             + [コンテンツを独自にコーディング](using/email/code-content.md)
             + [メールテンプレートを使用](using/email/use-email-templates.md)
-            + [画像をHTML テンプレートに変換する](using/email/image-to-html.md)
+            + [HTML テンプレートへの画像の変換](using/email/image-to-html.md)
             + [メールテーマの活用](using/email/apply-email-themes.md)
             + [メールへの PDF ファイルの添付](using/email/pdf-attachments.md)
          + コンテンツのデザイン {#add-content}
@@ -915,7 +915,7 @@ ht-degree: 97%
    + [プライバシー](/help/rp_landing_pages/privacy-landing-page.md)
    + [プライバシーの基本を学ぶ](using/privacy/get-started-privacy.md)
    + [プライバシーリクエスト](using/privacy/requests.md)
-   + [&#x200B; リソースに対する監査アクション](using/privacy/audit-logs.md)
+   + [ リソースに対する監査アクション](using/privacy/audit-logs.md)
    + [データライフサイクル操作の実行](using/privacy/data-hygiene.md)
    + 同意を管理 {#consent}
       + [同意を管理](/help/rp_landing_pages/consent-landing-page.md)
