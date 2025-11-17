@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7eaca4faf61431fa438afc7550ff4b89f95fa192
+source-git-commit: 57494753f24570a1f14c16e4e98d27ee0c710813
 workflow-type: tm+mt
 source-wordcount: '2983'
 ht-degree: 97%
@@ -316,7 +316,7 @@ ht-degree: 97%
       + [テキストメッセージの確認および送信](using/sms/send-sms.md)
       + [テキストメッセージのオプトアウトの管理](using/sms/sms-opt-out.md)
       + [SMS サブドメインの設定](using/sms/sms-subdomains.md)
-      + [SMS のコスト最適化のベストプラクティス](using/sms/sms-subdomains.md)
+      + [SMS のコスト最適化のベストプラクティス](using/sms/sms-cost-optimization.md)
       + SMS／MMS／RCS チャネルの設定 {#configure-sms}
          + [SMS／MMS／RCS チャネルの設定](/help/rp_landing_pages/configure-sms-landing-page.md)
          + [SMS／MMS／RCS 設定の基本を学ぶ](using/sms/sms-configuration.md)
@@ -915,7 +915,7 @@ ht-degree: 97%
    + [プライバシー](/help/rp_landing_pages/privacy-landing-page.md)
    + [プライバシーの基本を学ぶ](using/privacy/get-started-privacy.md)
    + [プライバシーリクエスト](using/privacy/requests.md)
-   + [&#x200B; リソースに対する監査アクション](using/privacy/audit-logs.md)
+   + [ リソースに対する監査アクション](using/privacy/audit-logs.md)
    + [データライフサイクル操作の実行](using/privacy/data-hygiene.md)
    + 同意を管理 {#consent}
       + [同意を管理](/help/rp_landing_pages/consent-landing-page.md)
