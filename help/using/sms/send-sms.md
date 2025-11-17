@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
-source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
+source-git-commit: 7eaca4faf61431fa438afc7550ff4b89f95fa192
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 100%
+source-wordcount: '445'
+ht-degree: 64%
 
 ---
 
@@ -26,6 +26,22 @@ ht-degree: 100%
 ![](assets/sms_preview_2.png)
 
 コンテンツをプレビューおよびテストする方法について詳しくは、[コンテンツ管理](../content-management/preview-test.md)の節を参照してください。
+
+### 文字のエンコーディングと制限 {#sms-character-limits}
+
+SMS メッセージの計画や管理に役立つ **[!UICONTROL コンテンツをシミュレート]** メニューにアクセスすると、文字数が表示されます。
+
+![](assets/sms_preview_3.png)
+
+Journey Optimizerの SMS エディターでは UTF-8 エンコーディングが使用され、2 バイト文字または Unicode 文字の入力や貼り付けが可能です。 これらの文字は、配信のためにサービスプロバイダーに送信されます。 ほとんどの SMS プロバイダーは、標準メッセージに対して 160 文字の制限がある GSM 7 ビットエンコーディングを使用し、GSM 以外の文字が 70 文字の制限で検出された場合は、UTF-16 （UCS-2）に切り替えます。
+
+文字数カウントは、動的パーソナライゼーションや GSM 以外の 7 ビット特殊文字によって発生する変化を反映していません。
+
+>[!IMPORTANT]
+>
+>Journey Optimizer SMS 配信レポートは、連結されたメッセージや動的なパーソナライゼーションを考慮しないので、プロバイダーから送信された実際のメッセージ数が反映されない場合があります。 詳細な使用方法と請求方法については、Adobeの担当者にお問い合わせください。
+>
+>SMS の請求超過を最小限に抑えるためのベストプラクティスについては、[ 文字の最適化に関する SMS のベストプラクティス ](sms-cost-optimization.md) を参照してください。
 
 ## コンテンツの検証 {#sms-validate}
 
