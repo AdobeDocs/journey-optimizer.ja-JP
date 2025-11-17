@@ -30,7 +30,7 @@ Adobe Journey Optimizer は、人工知能と機械学習の機能を活用し�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
 
 送信時間の最適化
 
@@ -40,7 +40,7 @@ AI を使用して、メッセージの送信に最適な時間を予測し、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 決定の AI モデル
 
@@ -50,7 +50,7 @@ AI を使用して、メッセージの送信に最適な時間を予測し、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
 
 AI アシスタントの製品知識
 
@@ -60,7 +60,7 @@ AI アシスタントの製品知識
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 AI によるコンテンツ実験
 
@@ -70,7 +70,7 @@ AI によるコンテンツ実験
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
 
 ブランド一致スコアリング
 
@@ -80,7 +80,7 @@ AI を活用したスコアリングを使用して、AI 生成コンテンツ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 実験アクセラレーター
 
@@ -90,7 +90,7 @@ AI 駆動型インサイトとレコメンデーションを使用して、コ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 画像から HTML へのコンバーター
 
@@ -100,7 +100,7 @@ AI を活用した変換テクノロジーを使用して、静的画像デザ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 ジャーニーに関する運用上のインサイト（Beta）
 
