@@ -10,7 +10,7 @@ redpen-status: PASS_||_2025-04-28_15-13-07
 exl-id: d4c968d2-5eae-4fff-9b67-427ac9d9d74c
 hide: true
 source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1388'
 ht-degree: 100%
 

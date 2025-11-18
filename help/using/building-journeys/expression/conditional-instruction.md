@@ -10,7 +10,7 @@ keywords: 詳細, 条件, アクション, ジャーニー
 exl-id: 5a5b35a7-e3b5-4dc0-8a87-e985956b04a4
 version: Journey Orchestration
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '168'
 ht-degree: 100%
 
