@@ -9,8 +9,8 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: イベント, 単一, 作成, ジャーニー
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: ht
+source-git-commit: b8c2eced0f517e917021e9f42a8943b4a5e4f287
+workflow-type: tm+mt
 source-wordcount: '1693'
 ht-degree: 100%
 
@@ -43,15 +43,13 @@ ht-degree: 100%
 
 1. イベントの名前を入力します。説明を追加することもできます。
 
-   ![](assets/jo-event3.png)
-
    >[!NOTE]
    >
    >英数字とアンダースコアのみが使用できます。最大長は 30 文字です。
 
-1. 「**[!UICONTROL タイプ]**」フィールドで「**単一**」を選択します。
+   ![](assets/jo-event3.png)
 
-   ![](assets/jo-event3bis.png)
+1. 「**[!UICONTROL タイプ]**」フィールドで「**単一**」を選択します。
 
 1. 「**[!UICONTROL イベント ID タイプ]**」フィールドで、使用するイベント ID タイプとして「**ルールベース**」または「**システム生成**」を選択します。イベント ID のタイプの詳細については、[この節](../event/about-events.md#event-id-type)を参照してください。
 
@@ -69,8 +67,6 @@ ht-degree: 100%
 
 1. ルールベースのイベントの場合は、「**[!UICONTROL イベント ID 条件]**」フィールド内でクリックします。簡単で高度な式エディターを使用して、ジャーニーをトリガーするイベントを識別するためにシステムが使用する条件を定義します。
 
-   ![](assets/jo-event6.png)
-
    この例では、プロファイルの市区町村に基づいて条件を作成しました。つまり、システムはこの条件（**[!UICONTROL 市区町村]**&#x200B;フィールドと&#x200B;**[!UICONTROL パリ]**&#x200B;という値）を満たすイベントを受け取るたびに、ジャーニーにイベントを渡します。
 
    >[!NOTE]
@@ -82,8 +78,6 @@ ht-degree: 100%
 1. ID タイプを追加します。この手順はオプションですが、ID タイプを追加すると、リアルタイム顧客プロファイルサービスに保存されている情報を活用できるため、推奨されています。イベントのキーのタイプを定義します。詳しくは、[この節](../event/about-creating.md#select-the-namespace)を参照してください。
 
 1. プロファイル識別子を定義します。ペイロードフィールドからフィールドを選択するか、イベントに関連付けられた個人を識別する式を定義します。このキーは、ID タイプを選択すると自動的に設定されます（編集は可能）。ジャーニーは ID タイプに対応するキーを選択します（例えば、メール ID タイプを選択すると、メールのキーが選択されます）。詳しくは、[この節](../event/about-creating.md#define-the-event-key)を参照してください。
-
-   ![](assets/jo-event7.png)
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
