@@ -12,7 +12,7 @@ keywords: 式, エディター
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
 version: Journey Orchestration
 source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1200'
 ht-degree: 100%
 
