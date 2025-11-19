@@ -11,7 +11,7 @@ hidefromtoc: true
 exl-id: ce3a2c33-c15b-436f-90b1-7373d7b2b1ca
 version: Journey Orchestration
 source-git-commit: 3fa90fa707b562ecf2160ec980520bc8bc267a21
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '271'
 ht-degree: 100%
 
