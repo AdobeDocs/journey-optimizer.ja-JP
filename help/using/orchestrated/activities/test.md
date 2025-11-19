@@ -8,7 +8,7 @@ hidefromtoc: true
 exl-id: edd70849-0a21-45f2-91f3-4774a0cad9dd
 version: Campaign Orchestration
 source-git-commit: 341a4dac0ae1c124559ebf552af5b3e7a35519e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '375'
 ht-degree: 100%
 
