@@ -7,9 +7,9 @@ feature: SMS
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: 7eaca4faf61431fa438afc7550ff4b89f95fa192
+source-git-commit: 13b3c8aa7fce85029167ef31feb7272e4877b7b0
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -66,9 +66,9 @@ UCS-2 エンコーディングを使用すると、文字数が増加する可�
 
 ## レポートについて {#understanding-reporting}
 
-**Journey Optimizer レポート** は、SMS の部分に関係なく、完全なメッセージを 1 件の送信としてカウントします。 これにより、エンゲージメント可能なプロファイル量を減らすことができます。
+**Journey Optimizer レポート** は、SMS の部分に関係なく、完全なメッセージを 1 件の送信としてカウントします。
 
-**プロバイダーレポート** は、配信の実際の SMS パーツを表示し、請求と超過を判断するために使用する必要があります。
+**プロバイダーレポート** は、配信に使用される SMS メッセージの実際の部分の数を反映し、請求と潜在的な超過を確認するために参照する必要があります。 Adobeが Sinch 経由の SMS プロバイダーである場合は、この請求レポートを月単位で個別に受け取ります。
 
 ## Personalizationの考慮事項 {#personalization-considerations}
 
@@ -76,5 +76,5 @@ UCS-2 エンコーディングを使用すると、文字数が増加する可�
 
 ## その他のリソース {#additional-resources}
 
-[Sinch 文字サポートガイド &#x200B;](https://developers.sinch.com/docs/sms/resources/message-info/character-support/) で、サポートされる文字とエンコーディングルールを確認します
+[Sinch 文字サポートガイド ](https://developers.sinch.com/docs/sms/resources/message-info/character-support/) で、サポートされる文字とエンコーディングルールを確認します
 
