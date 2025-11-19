@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: 外部, API, Optimizer, キャップ
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: cef105e55f3353c616e18be84faa0ee774aeac06
+source-git-commit: e6e8178f7a57a6d57c8d137dd313a26a5878994b
 workflow-type: tm+mt
-source-wordcount: '1654'
-ht-degree: 95%
+source-wordcount: '1781'
+ht-degree: 88%
 
 ---
 
@@ -127,6 +127,24 @@ Journey Optimizerと外部システムの統合に関するよくある質問（
 +++ タイムアウトはどこで設定できますか？ 最大値はありますか？
 
 各ジャーニーで、タイムアウト時間を定義できます。 タイムアウト時間は、ジャーニーのプロパティで設定します。 タイムアウト時間は、1 秒から 30 秒の間にする必要があります。 この [節](../configuration/external-systems.md#timeout)と[このページ](../building-journeys/journey-properties.md#timeout_and_error)を参照してください。
+
++++
+
++++ エグレスプロキシとは何ですか？また、いつ使用すればよいですか？
+
+エグレスプロキシは、Journey Optimizerから外部システムへの送信呼び出しに **静的 IP アドレス** を提供します。 サードパーティのエンドポイントで IP許可リストに加えるが必要な場合に使用します。
+
+**重要：** エグレスプロキシは、スループット、レート制限、同時接続数を制御しません。 呼び出し量と接続制限を管理するには、[Capping API](capping.md) または [Throttling API](throttling.md) を使用します。
+
+**エグレスプロキシを使用：**
+* サードパーティのファイアウォールまたはエンドポイントでの静的 IP の許可リストに加える
+
+**Capping/Throttling API の用途：**
+* 1 秒あたりの API 呼び出し数の制限
+* エンドポイントへの同時接続の制御
+* 外部システムを過負荷から保護
+
+許可リストに加える目的で静的 IP が必要な場合は、Adobeに連絡し、組織でエグレスプロキシを有効にしてもらってください。
 
 +++
 
