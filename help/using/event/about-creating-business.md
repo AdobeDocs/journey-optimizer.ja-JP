@@ -9,7 +9,7 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: イベント, ジャーニー, ビジネス, 設定
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: 712c077d146058c5f5c407e622972d2d10e278fa
+source-git-commit: b8c2eced0f517e917021e9f42a8943b4a5e4f287
 workflow-type: tm+mt
 source-wordcount: '1127'
 ht-degree: 98%
@@ -94,8 +94,6 @@ ht-degree: 98%
    ![](assets/test-profiles-4.png)
 
 1.  「**[!UICONTROL イベント ID 条件]**」フィールド内をクリックします。簡単な式エディターを使用して、ジャーニーをトリガーするイベントを識別するためにシステムが使用する条件を定義します。
-
-   ![](assets/jo-event6-business.png)
 
    この例では、製品の ID に基づいて条件を作成しました。つまり、システムがこの条件に一致するイベントを受け取るたびに、ジャーニーに渡されます。
 
