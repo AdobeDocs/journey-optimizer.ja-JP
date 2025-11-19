@@ -11,7 +11,7 @@ level: Intermediate
 exl-id: 07be59e8-e994-4854-8089-25614d005dbe
 version: Journey Orchestration
 source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '23'
 ht-degree: 100%
 
