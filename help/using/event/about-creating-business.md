@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: イベント, ジャーニー, ビジネス, 設定
 exl-id: 39eb40e1-d7f5-4a8e-9b64-c620940d5ff2
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: ht
+source-git-commit: 712c077d146058c5f5c407e622972d2d10e278fa
+workflow-type: tm+mt
 source-wordcount: '1127'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->また、ビジネスイベントのユースケースについての[チュートリアル](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/create-journeys/use-case-business-event.html?lang=ja)を視聴することもできます。プロファイルでスキーマを有効にする必要はありません。
+>また、ビジネスイベントのユースケースについての[チュートリアル](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/journeys/use-case-business-event){target="_blank"}を視聴することもできます。プロファイルでスキーマを有効にする必要はありません。
 
 ## 重要な注意事項 {#important-notes}
 
@@ -56,7 +56,7 @@ ht-degree: 100%
 
 **具体化されたオーディエンスの過負荷を避けるためのガードレールとは何ですか？**
 
-1 回限りのビジネスイベントの場合、特定のジャーニーについて、最初のイベントジョブによってプッシュされたデータが 1 時間の時間枠で再利用されます。スケジュールされたジャーニーの場合、ガードレールはありません。オーディエンスについて詳しくは、[Adobe Experience Platform セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja)を参照してください。
+1 回限りのビジネスイベントの場合、特定のジャーニーについて、最初のイベントジョブによってプッシュされたデータが 1 時間の時間枠で再利用されます。スケジュールされたジャーニーの場合、ガードレールはありません。オーディエンスについて詳しくは、[Adobe Experience Platform セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja){target="_blank"}を参照してください。
 
 ## ビジネスイベントの概要 {#gs-business-events}
 
