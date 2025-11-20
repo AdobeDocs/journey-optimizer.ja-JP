@@ -21,7 +21,7 @@ Adobe Experience Platform に取り込まれたすべてのデータは、デー
 
 ## ガードレールと制限
 
-* 2024年11月1日（PT）以降、ストリーミングセグメント化では、[!DNL Journey Optimizer] のトラッキングデータセットとフィードバックデータセットからの送信イベントと開封イベントがサポートされなくなります。フリークエンシーキャップや疲労管理を実装する場合は、代わりにビジネスルールを使用してください。詳しくは、[この節](../conflict-prioritization/rule-sets.md)を参照してください。毎日のキャップに関するユースケースの説明などについて詳しくは、[こちら](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}を参照してください。
+* 2024年11月1日（PT）以降、ストリーミングセグメント化では、[!DNL Journey Optimizer] のトラッキングデータセットとフィードバックデータセットからの送信イベントと開封イベントがサポートされなくなります。フリークエンシーキャップや疲労管理を実装する場合は、代わりにビジネスルールを使用してください。詳しくは、[この節](../conflict-prioritization/rule-sets.md)を参照してください。毎日のキャップに関するユースケースの説明などについて詳しくは、[こちら](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=ja){target="_blank"}を参照してください。
 
 * 2025 年 2 月から、Time-to-Live （TTL）ガードレールが、Journey Optimizer システム生成データセットにロールアウトされています。 [詳細情報](datasets-ttl.md)
 
@@ -74,8 +74,8 @@ Adobe Experience Platform に取り込まれたすべてのデータは、デー
 
 スキーマまたは CSV ファイルからデータセットを作成できます。 データセットの作成方法について詳しくは、[!DNL Adobe Experience Platform] のドキュメントを参照してください。
 
-* [&#x200B; 既存のスキーマを使用したデータセットの作成 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#schema){target="_blank"}
-* [&#x200B; 既存の XDM スキーマへの CSV ファイルのマッピング &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema){target="_blank"}
+* [&#x200B; 既存のスキーマを使用したデータセットの作成 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/user-guide#schema){target="_blank"}
+* [&#x200B; 既存の XDM スキーマへの CSV ファイルのマッピング &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema){target="_blank"}
 
 データセットの作成、スキーマへのマッピング、データの追加、データの取り込み確認の方法についてこのビデオで説明しています。
 
@@ -101,4 +101,4 @@ Adobe Experience Platform に取り込まれたすべてのデータは、デー
 >
 >* [&#x200B; データセットドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=ja){target="_blank"}
 >* [&#x200B; データ取り込みのドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ja){target="_blank"}。
->* [データ管理ライセンス使用権限のベストプラクティス](https://experienceleague.adobe.com/en/docs/experience-platform/landing/license/data-management-best-practices#data-management-best-practices){target="_blank"}
+>* [データ管理ライセンス使用権限のベストプラクティス](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/license/data-management-best-practices#data-management-best-practices){target="_blank"}
