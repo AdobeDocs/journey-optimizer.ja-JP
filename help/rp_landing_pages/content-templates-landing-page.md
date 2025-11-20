@@ -20,7 +20,7 @@ Adobe Journey Optimizer のコンテンツテンプレートは、キャンペ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 コンテンツテンプレートの基本を学ぶ
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer のコンテンツテンプレートは、キャンペ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 コンテンツテンプレートの作成
 

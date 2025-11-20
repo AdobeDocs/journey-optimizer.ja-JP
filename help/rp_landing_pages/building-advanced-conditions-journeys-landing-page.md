@@ -40,7 +40,7 @@ Adobe Journey Optimizer で高度な式を作成するのに必要な構文ル�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 Adobe Journey Optimizer の関数
 

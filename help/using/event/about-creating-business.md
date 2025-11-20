@@ -31,7 +31,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->また、ビジネスイベントのユースケースについての[チュートリアル](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/journeys/use-case-business-event){target="_blank"}を視聴することもできます。プロファイルでスキーマを有効にする必要はありません。
+>また、ビジネスイベントのユースケースについての[チュートリアル](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/journeys/use-case-business-event){target="_blank"}を視聴することもできます。プロファイルでスキーマを有効にする必要はありません。
 
 ## 重要な注意事項 {#important-notes}
 

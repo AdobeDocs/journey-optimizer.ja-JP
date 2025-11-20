@@ -20,7 +20,7 @@ Adobe Journey Optimizer は、人工知能と機械学習の機能を活用し�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 コンテンツ生成用 AI アシスタント
 

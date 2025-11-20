@@ -41,7 +41,7 @@ Adobe Journey Optimizer でジャーニーを作成すると、個人の行動�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 ジャーニーのデザイン方法
 

@@ -40,7 +40,7 @@ Adobe Journey Optimizer のコンテンツ実験では、コンテンツの様�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
 
 実験に関する高度な統計手法
 
