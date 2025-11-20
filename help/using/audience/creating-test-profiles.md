@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: a6f2cc11f57c5cd766cd31e941649fb5003ae30b
 workflow-type: tm+mt
 source-wordcount: '1082'
 ht-degree: 100%
@@ -18,7 +18,6 @@ ht-degree: 100%
 # テストプロファイルの作成 {#create-test-profiles}
 
 ジャーニーで[テストモード](../building-journeys/testing-the-journey.md)を使用する際や、[コンテンツをプレビューしてテストする](../content-management/preview-test.md)には、テストプロファイルが必要です。
-
 
 >[!NOTE]
 >
@@ -250,4 +249,4 @@ curl -X POST \
 
 テストプロファイルを作成する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416426?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334236?quality=12)
