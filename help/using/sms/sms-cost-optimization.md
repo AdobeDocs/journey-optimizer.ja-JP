@@ -76,5 +76,5 @@ UCS-2 エンコーディングを使用すると、文字数が増加する可�
 
 ## その他のリソース {#additional-resources}
 
-[Sinch 文字サポートガイド ](https://developers.sinch.com/docs/sms/resources/message-info/character-support/) で、サポートされる文字とエンコーディングルールを確認します
+[Sinch 文字サポートガイド &#x200B;](https://developers.sinch.com/docs/sms/resources/message-info/character-support/) で、サポートされる文字とエンコーディングルールを確認します
 

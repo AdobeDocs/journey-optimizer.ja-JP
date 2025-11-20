@@ -57,7 +57,7 @@ _Azure Cosmos DB サービスがアカウントのデフォルト ID の AAD 認
 
 1. **権限の確認** - サービスプリンシパルが、Azure Key Vault および Cosmos DB リソースへのアクセスに必要な権限を持っていることを確認します。 Azure Cosmos DB で認証するには、サービスプリンシパルに適切な役割が割り当てられている必要があります。
 
-1. **Azure Cosmos DB CMK の設定を確認する** – 顧客管理キー（CMK）を使用している場合、AAD トークンの取得を復元する手順について詳しくは、[Azure Cosmos DB CMK トラブルシューティングガイド ](https://learn.microsoft.com/en-us/azure/cosmos-db/cmk-troubleshooting-guide#azure-active-directory-token-acquisition-error){target="_blank"} を参照してください。
+1. **Azure Cosmos DB CMK の設定を確認する** – 顧客管理キー（CMK）を使用している場合、AAD トークンの取得を復元する手順について詳しくは、[Azure Cosmos DB CMK トラブルシューティングガイド &#x200B;](https://learn.microsoft.com/en-us/azure/cosmos-db/cmk-troubleshooting-guide#azure-active-directory-token-acquisition-error){target="_blank"} を参照してください。
 
 1. **再度有効化してテスト** – 設定を修正した後、サービスプリンシパルが無効だった場合は再度有効にし、トランザクションキャンペーン API 呼び出しを再テストして、認証が成功し、メッセージが配信されたことを確認します。
 
