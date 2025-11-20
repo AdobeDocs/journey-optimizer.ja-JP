@@ -8,10 +8,10 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 177b4a97-c757-40ca-a190-fbd88169e5e2
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 6961a07e2874f9beb76a9beaebb29997d114d8e7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '130'
+ht-degree: 60%
 
 ---
 
@@ -43,6 +43,10 @@ ht-degree: 0%
 
 型：文字列
 
+>[!NOTE]
+>
+>ジャーニー名は、ジャーニー実行データをレポートデータセットにリンクするために使用されます。 ジャーニーの名前を変更する場合は、正確なレポートを維持するために、新しい名前がレポートデータセットの名前と一致することを確認してください。 不一致により、レポートデータが期待どおりに表示されない場合があります。 詳しくは、[ レポートデータが見つからないトラブルシューティング ](../building-journeys/report-journey.md#troubleshooting-missing-data) を参照してください。
+
 ## description {#description-field}
 
 ジャーニーの説明。
@@ -51,6 +55,6 @@ ht-degree: 0%
 
 ## バージョン {#version-field}
 
-バージョン。`major` `minor` で表します。
+バージョン。`major``minor` で表します。
 
 型：文字列

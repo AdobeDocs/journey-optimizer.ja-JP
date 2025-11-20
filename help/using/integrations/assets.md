@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: アセット, Experience Manager, 統合
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
+source-git-commit: 5ac4220250b69289ec0f722ca54fef3b63174643
 workflow-type: tm+mt
-source-wordcount: '826'
-ht-degree: 98%
+source-wordcount: '1106'
+ht-degree: 73%
 
 ---
 
@@ -139,5 +139,42 @@ Adobe Experience Manager Assetsに関するよくある質問を以下に示し�
 +++ Journey Optimizer ユーザーは、Journey Optimizer インターフェイスから Adobe Experience Manager Assets as a Cloud Service リポジトリに変更を加えることができますか？
 
 Journey Optimizer ユーザーが資格のある **[!DNL Adobe Experience Manager Assets as a Cloud Service]** 標準ユーザーで、リポジトリに関する編集権限がある限り、ユーザーは **[!DNL Adobe Experience Manager Assets as a Cloud Service]** リポジトリを編集できます。
+
++++
+
++++ Journey Optimizerから送信されるメールに画像が読み込まれないことがあるのはなぜですか？
+
+アセット（画像など）がAdobe Experience Managerで管理され、Journey Optimizerで使用される場合、有効期間（TTL）が設定されたアセットライフサイクルポリシーの対象となります。 TTL の期間が終了した後は、アセットがストレージ（CDN）から削除される可能性があり、そのアセットを参照するメール内の画像が壊れる可能性があります。
+
+>[!NOTE]
+>
+>アセット TTL は、Adobe Journey Optimizer バックエンドサービスで管理され、現在、お客様は設定できません。 すべてのJourney Optimizer組織で、現在の TTL 期間は 730 日に設定されています。
+
++++
+
++++ アセットの有効期限が切れたために画像が破損した場合、どうすれば解決できますか？
+
+アセットの有効期限が切れたときに画像の可用性を復元するには：
+
+1. **影響を受けるアセットを再公開**: Adobe Experience Managerでアセットに移動し、再公開します。 これにより、CDN でアセットが再び使用できるようになります。
+
+2. **コンテンツ参照を更新**：期限切れのアセットを参照するコンテンツフラグメントまたはテンプレートを使用している場合：
+   * コンテンツフラグメントのドラフトまたはクローンの作成
+   * アセットを再追加または再選択
+   * 更新されたコンテンツを公開
+
+3. **プロアクティブ管理**：今後の中断を避けるために、アクティブなメールキャンペーン、特に TTL の有効期限に近づいているキャンペーンで使用されるアセットを、定期的にレビューして再公開することを検討してください。
+
+>[!CAUTION]
+>
+>再公開の要件は、すべての環境（実稼動、ステージ、開発）に適用されます。 アセットのライフサイクルを適切に管理して、アセットの可用性を維持します。
+
++++
+
++++ アセットの有効期限ロジックは今後改善されますか？
+
+はい。Adobeは、アセットの有効期限とライフサイクル管理のロジックを調整するための機能強化に積極的に取り組んでいます。 これらの改善は、アセットのライフサイクルステータスをよりわかりやすく可視化し、ライブキャンペーンで画像が壊れるリスクを軽減することを目的としています。
+
+最新の更新については、Adobe アカウントチームに問い合わせるか、Adobe Journey Optimizer リリースノートを監視してください。
 
 +++
