@@ -7,7 +7,7 @@ short-description: 調整されたキャンペーンの主な機能とユース�
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
 source-git-commit: 9619ffd2cde677c0c83ee1b53f232c41b5faaa9a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '779'
 ht-degree: 100%
 
