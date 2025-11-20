@@ -74,8 +74,8 @@ Adobe Experience Platform に取り込まれたすべてのデータは、デー
 
 スキーマまたは CSV ファイルからデータセットを作成できます。 データセットの作成方法について詳しくは、[!DNL Adobe Experience Platform] のドキュメントを参照してください。
 
-* [ 既存のスキーマを使用したデータセットの作成 ](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#schema){target="_blank"}
-* [ 既存の XDM スキーマへの CSV ファイルのマッピング ](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema){target="_blank"}
+* [&#x200B; 既存のスキーマを使用したデータセットの作成 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#schema){target="_blank"}
+* [&#x200B; 既存の XDM スキーマへの CSV ファイルのマッピング &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema){target="_blank"}
 
 データセットの作成、スキーマへのマッピング、データの追加、データの取り込み確認の方法についてこのビデオで説明しています。
 
@@ -93,12 +93,12 @@ Adobe Experience Platform に取り込まれたすべてのデータは、デー
 
 ## サンプルとユースケース {#samples}
 
-* [ チュートリアル - Adobe Experience Platformへのデータの取り込 ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=ja){target="_blank"}
-* [ エンドツーエンドのユースケース ](../audience/creating-test-profiles.md) - スキーマとデータセットを作成し、データを取り込んで [!DNL Adobe Journey Optimizer] にテストプロファイルを追加する
-* [ クエリの例 ](../data/datasets-query-examples.md) - [!DNL Adobe Journey Optimizer] データセットと関連する使用例。
+* [&#x200B; チュートリアル - Adobe Experience Platformへのデータの取り込 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=ja){target="_blank"}
+* [&#x200B; エンドツーエンドのユースケース &#x200B;](../audience/creating-test-profiles.md) - スキーマとデータセットを作成し、データを取り込んで [!DNL Adobe Journey Optimizer] にテストプロファイルを追加する
+* [&#x200B; クエリの例 &#x200B;](../data/datasets-query-examples.md) - [!DNL Adobe Journey Optimizer] データセットと関連する使用例。
 
 >[!MORELIKETHIS]
 >
->* [ データセットドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=ja){target="_blank"}
->* [ データ取り込みのドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ja){target="_blank"}。
+>* [&#x200B; データセットドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=ja){target="_blank"}
+>* [&#x200B; データ取り込みのドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ja){target="_blank"}。
 >* [データ管理ライセンス使用権限のベストプラクティス](https://experienceleague.adobe.com/en/docs/experience-platform/landing/license/data-management-best-practices#data-management-best-practices){target="_blank"}
