@@ -315,7 +315,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 ### タイミングとデータの伝播
 
-* **バッチセグメント化ジョブの完了**：バッチオーディエンスの場合は、毎日のバッチセグメント化ジョブが完了し、ジャーニーが実行される前にスナップショットが更新されていることを確認します。 バッチオーディエンスは、セグメント化ジョブの完了後、約 **2 時間** で使用できるようになります。 詳細情報 [&#x200B; オーディエンス評価方法 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html#evaluate-segments){target="_blank"}。
+* **バッチセグメント化ジョブの完了**：バッチオーディエンスの場合は、毎日のバッチセグメント化ジョブが完了し、ジャーニーが実行される前にスナップショットが更新されていることを確認します。 バッチオーディエンスは、セグメント化ジョブの完了後、約 **2 時間** で使用できるようになります。 詳細情報 [&#x200B; オーディエンス評価方法 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja#evaluate-segments){target="_blank"}。
 
 * **データ取り込みタイミング**：プロファイルデータの取り込みがジャーニーの実行前に完全に完了したことを確認します。 ジャーニーが開始される直前にプロファイルが取り込まれた場合、そのプロファイルはまだオーディエンスに反映されていない可能性があります。 詳しくは、[Adobe Experience Platformでのデータ取得 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ja){target="_blank"} を参照してください。
 
@@ -325,9 +325,9 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 ### データの検証と監視
 
-* **セグメント化ジョブのステータスの確認**:Adobe Experience Platform[&#x200B; モニタリングダッシュボード &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/dataflows/ui/monitor-segments.html){target="_blank"} でバッチセグメント化ジョブの完了時間を監視して、オーディエンスデータの準備が整ったことを確認します。
+* **セグメント化ジョブのステータスの確認**:Adobe Experience Platform[&#x200B; モニタリングダッシュボード &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/dataflows/ui/monitor-segments.html?lang=ja){target="_blank"} でバッチセグメント化ジョブの完了時間を監視して、オーディエンスデータの準備が整ったことを確認します。
 
-* **結合ポリシーの検証**：オーディエンス用に設定した結合ポリシーが、様々なソースのプロファイルデータを組み合わせるために期待される動作と一致することを確認します。 詳しくは、[Adobe Experience Platformの結合ポリシー &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html){target="_blank"} を参照してください。
+* **結合ポリシーの検証**：オーディエンス用に設定した結合ポリシーが、様々なソースのプロファイルデータを組み合わせるために期待される動作と一致することを確認します。 詳しくは、[Adobe Experience Platformの結合ポリシー &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=ja){target="_blank"} を参照してください。
 
 * **セグメント定義の確認**：セグメント定義が正しく設定されており、期待されるすべての選定条件が含まれていることを確認します。 詳細情報：[&#x200B; オーディエンスの構築 &#x200B;](../audience/creating-a-segment-definition.md)。 次の点に特に注意してください。
    * イベントのタイムスタンプに基づいてプロファイルを除外する可能性のある、時間ベースの条件。
