@@ -317,5 +317,5 @@ Adobe Journey Optimizerを使用して、平日にのみメールを送信する
 | [&#x200B; 式エディターのドキュメント &#x200B;](expression/expressionadvanced.md) | ジャーニー式の作成と検証 |
 | [ジャーニーデザイナーガイド &#x200B;](using-the-journey-designer.md) | ジャーニーキャンバスのマスター |
 | [ジャーニーユースケースの概要 &#x200B;](jo-use-cases.md) | その他のジャーニーパターンと例を探索 |
-| [&#x200B; コミュニティブログ投稿：平日にのみメールを送信する方法 &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400){target="_blank"} | 詳細な例を含むオリジナルのブログ投稿 |
+| [&#x200B; コミュニティブログ投稿：平日にのみメールを送信する方法 &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400?profile.language=ja){target="_blank"} | 詳細な例を含むオリジナルのブログ投稿 |
 
