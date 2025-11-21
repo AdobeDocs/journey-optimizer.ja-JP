@@ -343,7 +343,7 @@ toDateTimeOnly(now()) == toDateTimeOnly("2024-12-25T00:00:00")
 
 Adobe Journey Optimizerを使用して、平日にのみメールを送信する方法を説明します。 このビデオでは、条件アクティビティと待機の数式を実装して、月曜配信の週末のエントリをキューに入れる手順を順を追って説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3469330?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3469381?captions=jpn&quality=12&learn=on)
 
 ## その他のリソース
 
