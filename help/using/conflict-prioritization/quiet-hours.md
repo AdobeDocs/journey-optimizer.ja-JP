@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 badge: label="限定提供" type="Informative"
 keywords: メッセージ, 頻度, ルール, プレッシャー
-source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
+source-git-commit: 2f4c6a4a82784ae2fae99b3d802b2d8f94d2ca75
 workflow-type: tm+mt
-source-wordcount: '904'
-ht-degree: 100%
+source-wordcount: '905'
+ht-degree: 97%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->クワイエットアワールールは現在、一連の組織でのみ使用できます（限定提供）。待機リストに追加するには、アドビ担当者にお問い合わせください。
+>非表示時間ルールは現在、一連の組織でのみ使用できます（使用制限あり）。  今後のリリースで、すべてのお客様が段階的に利用できるようになります。
 
 
 ➡️ [この機能について詳しくは、ビデオを参照してください](#video)。
@@ -187,4 +187,4 @@ ht-degree: 100%
 
 Adobe Journey Optimizer でのクワイエットアワー機能の使用方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3475853?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475851?quality=12)
