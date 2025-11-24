@@ -193,5 +193,5 @@ toDateTimeOnly(setHours(nowWithDelta(1, "days"), 9))
 * [&#x200B; 日付関数 &#x200B;](functions/date-functions.md) – 日付と時刻の関数の完全なリファレンス
 * [&#x200B; 式エディター &#x200B;](expression/expressionadvanced.md) – 複雑な式の作成
 * [ジャーニーのベストプラクティス &#x200B;](journey-gs.md#best-practices) - ジャーニーデザインの推奨アプローチ
-* [&#x200B; コミュニティブログ投稿：平日のみメールを送信する方法 &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400){target="_blank"} – 詳細な例を含む元のブログ投稿
+* [&#x200B; コミュニティブログ投稿：平日のみメールを送信する方法 &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400?profile.language=ja){target="_blank"} – 詳細な例を含む元のブログ投稿
 
