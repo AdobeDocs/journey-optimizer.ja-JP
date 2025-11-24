@@ -6,7 +6,7 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 585abb9929499ae18a2e4fcaeb5f9f158b01698d
+source-git-commit: a18ccb6f7928250e9b3bc453971689bb378dac11
 workflow-type: tm+mt
 source-wordcount: '1498'
 ht-degree: 98%
@@ -32,6 +32,7 @@ ht-degree: 98%
 
 ### 新機能 {#features}
 
+<table>
 <thead>
 <tr>
 <th><strong>アクションキャンペーンを取得する新しい API</strong><br/></th>
