@@ -32,11 +32,11 @@ ht-degree: 0%
 
 このアプローチは、B2B メールキャンペーン、プロのニュースレターやコミュニケーション、ビジネス関連のお知らせ、仕事関連の製品アップデート、週末の配信が望ましくないマーケティングキャンペーンなどに最適です。
 
-➡️ 詳しい手順については、[ ビデオチュートリアル ](#how-to-video) を参照してください
+➡️ 詳しい手順については、[&#x200B; ビデオチュートリアル &#x200B;](#how-to-video) を参照してください
 
 >[!NOTE]
 >
->このユースケースを実装するには、ジャーニーをトリガーし、[ ジャーニー条件 ](../configuration/channel-surfaces.md) と [ 式 ](../audience/about-audiences.md) の基本的な理解を持つ、設定済みの [ メールチャネルサーフェス ](../event/about-events.md)、[ オーディエンス ](condition-activity.md) または [ イベント ](expression/expressionadvanced.md) を持つアクティブなAdobe Journey Optimizer インスタンスが必要です。
+>このユースケースを実装するには、ジャーニーをトリガーし、[&#x200B; ジャーニー条件 &#x200B;](../configuration/channel-surfaces.md) と [&#x200B; 式 &#x200B;](../audience/about-audiences.md) の基本的な理解を持つ、設定済みの [&#x200B; メールチャネルサーフェス &#x200B;](../event/about-events.md)、[&#x200B; オーディエンス &#x200B;](condition-activity.md) または [&#x200B; イベント &#x200B;](expression/expressionadvanced.md) を持つアクティブなAdobe Journey Optimizer インスタンスが必要です。
 
 
 ## 実装手順
@@ -45,9 +45,9 @@ ht-degree: 0%
 
 1. Adobe Journey Optimizerの **[!UICONTROL ジャーニー管理]** / **[!UICONTROL ジャーニー]** に移動します。
 
-1. **[!UICONTROL ジャーニーを作成]** をクリックして、新規のジャーニーを作成します。 [ ジャーニー作成の詳細情報 ](journey-gs.md)
+1. **[!UICONTROL ジャーニーを作成]** をクリックして、新規のジャーニーを作成します。 [&#x200B; ジャーニー作成の詳細情報 &#x200B;](journey-gs.md)
 
-1. [ ジャーニープロパティ ](journey-properties.md) を設定します。
+1. [&#x200B; ジャーニープロパティ &#x200B;](journey-properties.md) を設定します。
 
 1. ジャーニーのエントリポイントを選択：
    * **[オーディエンスを読み取り](read-audience.md)**：特定のオーディエンスをターゲティングするバッチキャンペーンの場合
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 ジャーニーが開始された直後に、条件を追加して、現在の日付が土曜日か日曜日かを確認します。 これにより、それに応じてワークフローが分岐されます。
 
-1. **[!UICONTROL 条件]** アクティビティを、エントリポイントの後のキャンバスにドラッグ&amp;ドロップします。 [ 条件アクティビティの詳細はこちらを参照 ](condition-activity.md)
+1. **[!UICONTROL 条件]** アクティビティを、エントリポイントの後のキャンバスにドラッグ&amp;ドロップします。 [&#x200B; 条件アクティビティの詳細はこちらを参照 &#x200B;](condition-activity.md)
 
 1. 条件アクティビティをクリックして、設定パネルを開きます。
 
@@ -71,14 +71,14 @@ ht-degree: 0%
 
 1. **2 番目のパス（日曜日）** には、**曜日** を選択し、**日曜日** のみを選択します。 このパスに「Sunday」というラベルを付けます。
 
-   ![ 式エディターでの土曜日と日曜日の条件の設定 ](assets/weekday-email-uc-condition-expression.png)
+   ![&#x200B; 式エディターでの土曜日と日曜日の条件の設定 &#x200B;](assets/weekday-email-uc-condition-expression.png)
 
 
 1. **[!UICONTROL 上記以外の事例のパスを表示]** にチェックを入れて、平日（月曜日～金曜日）のエントリのパスを作成します。
 
 >[!NOTE]
 >
->曜日の評価に使用されるタイムゾーンは、条件レベルではなく、ジャーニープロパティのジャーニーレベルで定義されます。 式で使用されるジャーニータイムゾーンは、受信者ではなく、ジャーニーで設定されたタイムゾーンです。[ タイムゾーン管理の詳細情報 ](timezone-management.md)。
+>曜日の評価に使用されるタイムゾーンは、条件レベルではなく、ジャーニープロパティのジャーニーレベルで定義されます。 式で使用されるジャーニータイムゾーンは、受信者ではなく、ジャーニーで設定されたタイムゾーンです。[&#x200B; タイムゾーン管理の詳細情報 &#x200B;](timezone-management.md)。
 
 ### 手順 3：週末のエントリに対する待機アクティビティの設定
 
@@ -120,7 +120,7 @@ toDateTimeOnly(setHours(nowWithDelta(1, "days"), 9))
 
 1. Enter: `toDateTimeOnly(setHours(nowWithDelta(2, "days"), 9))`
 
-   ![ 土曜日、日曜日、平日の 3 つの条件のパスを持つジャーニー](assets/weekday-email-uc-paths.png)
+   ![&#x200B; 土曜日、日曜日、平日の 3 つの条件のパスを持つジャーニー](assets/weekday-email-uc-paths.png)
 
 1. **を使用して、** 日曜日のパス `toDateTimeOnly(setHours(nowWithDelta(1, "days"), 9))` に対して同じ手順を繰り返します。
 
@@ -157,22 +157,22 @@ toDateTimeOnly(setHours(nowWithDelta(1, "days"), 9))
 
 1. 右上隅の **[!UICONTROL テスト]** ボタンをクリックします。
 
-1. テストモードを有効にします。 [ ジャーニーのテスト方法を学ぶ ](testing-the-journey.md)
+1. テストモードを有効にします。 [&#x200B; ジャーニーのテスト方法を学ぶ &#x200B;](testing-the-journey.md)
 
-1. 様々な曜日のシミュレーションエントリ時間を使用して [ テストプロファイル ](../audience/creating-test-profiles.md) を作成します。
+1. 様々な曜日のシミュレーションエントリ時間を使用して [&#x200B; テストプロファイル &#x200B;](../audience/creating-test-profiles.md) を作成します。
    * **土曜日エントリ**：プロファイルが土曜日のパスに従い、待機し、指定した時間に月曜日にメールを受信することを確認します
    * **日曜日のエントリ**：プロファイルが日曜日のパスに従い、待機し、指定した時間に月曜日にメールを受信することを確認します
    * **月曜日から金曜日のエントリ**：待機せずにメールがすぐに送信されることを確認します
 
 1. ジャーニーのビジュアライゼーションを確認し、プロファイルが正しい条件付きパス（土曜日、日曜日または平日）に従っていることを確認します。
 
-1. ジャーニー内のエラーや警告を確認します。 [ ジャーニーのトラブルシューティングについて説明します ](troubleshooting.md)
+1. ジャーニー内のエラーや警告を確認します。 [&#x200B; ジャーニーのトラブルシューティングについて説明します &#x200B;](troubleshooting.md)
 
 1. 待機の数式で、希望する月曜日の配信時間の正しい期間が計算されていることを確認します。
 
 >[!IMPORTANT]
 >
->常にテストモードでジャーニーロジックをテストして、待機アクティビティが期待どおりに動作することを確認します。 テストモードを使用して様々なエントリシナリオをシミュレートし、週末のエントリが月曜の配信のキューに正しく入っていることを検証します。 [ ジャーニーテストのベストプラクティスについて詳しくは、こちらを参照してください ](testing-the-journey.md)
+>常にテストモードでジャーニーロジックをテストして、待機アクティビティが期待どおりに動作することを確認します。 テストモードを使用して様々なエントリシナリオをシミュレートし、週末のエントリが月曜の配信のキューに正しく入っていることを検証します。 [&#x200B; ジャーニーテストのベストプラクティスについて詳しくは、こちらを参照してください &#x200B;](testing-the-journey.md)
 
 ### 手順 7：ジャーニーの公開
 
@@ -180,18 +180,18 @@ toDateTimeOnly(setHours(nowWithDelta(1, "days"), 9))
 
 1. 右上隅の **[!UICONTROL 公開]** をクリックします。
 
-1. 公開を確認します。 [ ジャーニーの公開の詳細情報 ](publish-journey.md)
+1. 公開を確認します。 [&#x200B; ジャーニーの公開の詳細情報 &#x200B;](publish-journey.md)
 
-1. [ジャーニーレポート ](report-journey.md) および [ ライブレポート ](../reports/journey-live-report.md) を使用して、ジャーニーのパフォーマンスを監視します。
+1. [ジャーニーレポート &#x200B;](report-journey.md) および [&#x200B; ライブレポート &#x200B;](../reports/journey-live-report.md) を使用して、ジャーニーのパフォーマンスを監視します。
 
 
 ## 関連トピック
 
-* [ 条件アクティビティについて ](condition-activity.md) - ジャーニーで様々なパスを作成する方法を説明します
-* [ ジャーニーでの条件の使用 ](conditions.md) - ジャーニー条件の詳細ガイド
-* [ 待機アクティビティ ](wait-activity.md) – 待機時間と数式を設定します
-* [ 日付関数 ](functions/date-functions.md) – 日付と時刻の関数の完全なリファレンス
-* [ 式エディター ](expression/expressionadvanced.md) – 複雑な式の作成
-* [ジャーニーのベストプラクティス ](journey-gs.md#best-practices) - ジャーニーデザインの推奨アプローチ
-* [ コミュニティブログ投稿：平日のみメールを送信する方法 ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400){target="_blank"} – 詳細な例を含む元のブログ投稿
+* [&#x200B; 条件アクティビティについて &#x200B;](condition-activity.md) - ジャーニーで様々なパスを作成する方法を説明します
+* [&#x200B; ジャーニーでの条件の使用 &#x200B;](conditions.md) - ジャーニー条件の詳細ガイド
+* [&#x200B; 待機アクティビティ &#x200B;](wait-activity.md) – 待機時間と数式を設定します
+* [&#x200B; 日付関数 &#x200B;](functions/date-functions.md) – 日付と時刻の関数の完全なリファレンス
+* [&#x200B; 式エディター &#x200B;](expression/expressionadvanced.md) – 複雑な式の作成
+* [ジャーニーのベストプラクティス &#x200B;](journey-gs.md#best-practices) - ジャーニーデザインの推奨アプローチ
+* [&#x200B; コミュニティブログ投稿：平日のみメールを送信する方法 &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/how-to-send-emails-only-on-weekdays-in-adobe-journey-optimizer/ba-p/760400){target="_blank"} – 詳細な例を含む元のブログ投稿
 
