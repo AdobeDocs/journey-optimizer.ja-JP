@@ -6,9 +6,9 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2f4c6a4a82784ae2fae99b3d802b2d8f94d2ca75
+source-git-commit: 585abb9929499ae18a2e4fcaeb5f9f158b01698d
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1498'
 ht-degree: 98%
 
 ---
@@ -31,6 +31,22 @@ ht-degree: 98%
 過去数週間にリリースされた新機能および改善点と、その公開日を以下に示します。これらは、月末に次のリリースノートのコンテンツと共にグループ化されます。また、最新の[以下のリリースノート](#latest-rn)も参照してください。
 
 ### 新機能 {#features}
+
+<thead>
+<tr>
+<th><strong>アクションキャンペーンを取得する新しい API</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>新しい Journey Optimizer API が使用可能になり、詳細、バージョン、設定などのキャンペーン関連データをプログラムで取得および検査できるようになりました。</p>
+<p>詳しくは、<a href="https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve/">詳細なドキュメント</a>を参照してください。</p>
+<p>公開日：2025年11月24日（PT）</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -212,23 +228,6 @@ ht-degree: 98%
 <!--img src="assets/do-not-localize/FILE.gif"-->
 <!-- p>For more information, refer to the <a href="../FILE.md">detailed documentation</a>.</p -->
 <!--/td>
-</tr>
-</tbody>
-</table-->
-
-<!--table>
-<thead>
-<tr>
-<th><strong>New API to retrieve Action Campaigns</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>A new Journey Optimizer API is now available, enabling you to programmatically retrieve and inspect campaign-related data such as details, versions, and configurations.</p>
-<p>For more information, refer to the <a href="https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve/">detailed documentation</a>.</p>
-<p>Availability date: October 22, 2025</p>
-</td>
 </tr>
 </tbody>
 </table-->
