@@ -11,9 +11,9 @@ keywords: ジャーニー，ユースケース，平日，条件，メール，�
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: eee9a460fc443be29c1ef407a02c5645869ca11d
+source-git-commit: 9b3c9f7c0327c8c3c3d2b7f1b4255b7e1457a51e
 workflow-type: tm+mt
-source-wordcount: '1069'
+source-wordcount: '1070'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->このユースケースを実装するには、ジャーニーをトリガーし、[&#x200B; ジャーニー条件 &#x200B;](../configuration/channel-surfaces.md) と [&#x200B; 式 &#x200B;](../audience/about-audiences.md) の基本的な理解を持つ、設定済みの [&#x200B; メールチャネルサーフェス &#x200B;](../event/about-events.md)、[&#x200B; オーディエンス &#x200B;](condition-activity.md) または [&#x200B; イベント &#x200B;](expression/expressionadvanced.md) を持つアクティブなAdobe Journey Optimizer インスタンスが必要です。
+>このユースケースを実装するには、ジャーニーをトリガーし、[ ジャーニー条件 ](../configuration/channel-surfaces.md) と [ 式 ](../audience/about-audiences.md) の基本的な理解を持つ、設定済みの [ メールチャネルサーフェス ](../event/about-events.md)、[ オーディエンス ](condition-activity.md) または [ イベント ](expression/expressionadvanced.md) を持つアクティブなAdobe Journey Optimizer インスタンスが必要です。
 
 
 ## 実装手順
@@ -43,9 +43,9 @@ ht-degree: 0%
 
 1. Adobe Journey Optimizerの **[!UICONTROL ジャーニー管理]** / **[!UICONTROL ジャーニー]** に移動します。
 
-1. **[!UICONTROL ジャーニーを作成]** をクリックして [&#x200B; 新規のジャーニーを作成 &#x200B;](journey-gs.md) します。
+1. **[!UICONTROL ジャーニーを作成]** をクリックして [ 新規のジャーニーを作成 ](journey-gs.md) します。
 
-1. [&#x200B; ジャーニープロパティ &#x200B;](journey-properties.md) を設定します。
+1. [ ジャーニープロパティ ](journey-properties.md) を設定します。
 
 1. ジャーニーのエントリポイントを選択：
    * **[オーディエンスを読み取り](read-audience.md)**：特定のオーディエンスをターゲティングするバッチキャンペーンの場合
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 ジャーニーが開始された直後に、**[!UICONTROL 条件]** アクティビティを追加して、現在の日付が土曜日か日曜日かを確認します。 これにより、それに応じてワークフローが分岐されます。
 
-1. [**[!UICONTROL &#x200B; 条件 &#x200B;]**&#x200B;アクティビティ &#x200B;](condition-activity.md) をエントリポイントの後のキャンバスにドラッグ&amp;ドロップします。
+1. [**[!UICONTROL  条件 ]**アクティビティ ](condition-activity.md) をエントリポイントの後のキャンバスにドラッグ&amp;ドロップします。
 
 1. **[!UICONTROL 条件]** アクティビティをクリックして、設定パネルを開きます。
 
@@ -69,14 +69,14 @@ ht-degree: 0%
 
 1. **2 番目のパス（日曜日）** には、**[!UICONTROL 曜日]** を選択し、**日曜日** のみを選択します。 このパスに「Sunday」というラベルを付けます。
 
-   ![&#x200B; 式エディターでの土曜日と日曜日の条件の設定 &#x200B;](assets/weekday-email-uc-condition-expression.png)
+   ![ 式エディターでの土曜日と日曜日の条件の設定 ](assets/weekday-email-uc-condition-expression.png)
 
 
 1. **[!UICONTROL 上記以外の事例のパスを表示]** にチェックを入れて、平日（月曜日～金曜日）のエントリのパスを作成します。
 
 >[!NOTE]
 >
->曜日の評価に使用されるタイムゾーンは、条件レベルではなく、ジャーニープロパティのジャーニーレベルで定義されます。 式で使用されるジャーニー [&#x200B; タイムゾーン &#x200B;](timezone-management.md) は、受信者ではなく、ジャーニーで設定されたタイムゾーンです。
+>曜日の評価に使用されるタイムゾーンは、条件レベルではなく、ジャーニープロパティのジャーニーレベルで定義されます。 式で使用されるジャーニー [ タイムゾーン ](timezone-management.md) は、受信者ではなく、ジャーニーで設定されたタイムゾーンです。
 
 ### 手順 3：週末のエントリに対する待機アクティビティの設定
 
@@ -118,7 +118,7 @@ toDateTimeOnly(setHours(nowWithDelta(1, "days"), 9))
 
 1. Enter: `toDateTimeOnly(setHours(nowWithDelta(2, "days"), 9))`
 
-   ![&#x200B; 土曜日、日曜日、平日の 3 つの条件のパスを持つジャーニー](assets/weekday-email-uc-paths.png)
+   ![ 土曜日、日曜日、平日の 3 つの条件のパスを持つジャーニー](assets/weekday-email-uc-paths.png)
 
 1. **を使用して、** 日曜日のパス `toDateTimeOnly(setHours(nowWithDelta(1, "days"), 9))` に対して同じ手順を繰り返します。
 
@@ -143,9 +143,9 @@ toDateTimeOnly(setHours(nowWithDelta(1, "days"), 9))
 完全なジャーニーワークフローは、次のロジックに従います。
 
 * **開始** → **[!UICONTROL 条件]**：土曜日ですか、日曜日ですか。
-   * **はい（土曜日）:**&#x200B;**[!UICONTROL お待ちください]** 月曜日の午前 9 時まで→ **[!UICONTROL メールを送信]**
-   * **対応（日曜日）:**&#x200B;**[!UICONTROL お待ちください]** 月曜日の午前 9 時まで→**[!UICONTROL メールを送信]**
-   * **いいえ（月曜日から金曜日）:**&#x200B;**[!UICONTROL メールを送信]** すぐに
+   * **はい（土曜日）:****[!UICONTROL お待ちください]** 月曜日の午前 9 時まで→ **[!UICONTROL メールを送信]**
+   * **対応（日曜日）:****[!UICONTROL お待ちください]** 月曜日の午前 9 時まで→**[!UICONTROL メールを送信]**
+   * **いいえ（月曜日から金曜日）:****[!UICONTROL メールを送信]** すぐに
 
 これにより、すべてのメールが平日にのみ送信され、週末のエントリが月曜日の配信用に自動的にキューに入れられます。
 
@@ -155,22 +155,22 @@ toDateTimeOnly(setHours(nowWithDelta(1, "days"), 9))
 
 1. 右上隅の **[!UICONTROL テスト]** ボタンをクリックします。
 
-1. [&#x200B; テストモード &#x200B;](testing-the-journey.md) を有効にします。
+1. [ テストモード ](testing-the-journey.md) を有効にします。
 
-1. 様々な曜日のシミュレーションエントリ時間を使用して [&#x200B; テストプロファイル &#x200B;](../audience/creating-test-profiles.md) を作成します。
+1. 様々な曜日のシミュレーションエントリ時間を使用して [ テストプロファイル ](../audience/creating-test-profiles.md) を作成します。
    * **土曜日エントリ**：プロファイルが土曜日のパスに従い、待機し、指定した時間に月曜日にメールを受信することを確認します
    * **日曜日のエントリ**：プロファイルが日曜日のパスに従い、待機し、指定した時間に月曜日にメールを受信することを確認します
    * **月曜日から金曜日のエントリ**：待機せずにメールがすぐに送信されることを確認します
 
 1. ジャーニーのビジュアライゼーションを確認し、プロファイルが正しい条件付きパス（土曜日、日曜日または平日）に従っていることを確認します。
 
-1. ジャーニー内の [&#x200B; エラーまたは警告 &#x200B;](troubleshooting.md) を確認します。
+1. ジャーニー内の [ エラーまたは警告 ](troubleshooting.md) を確認します。
 
 1. 待機の数式で、希望する月曜日の配信時間の正しい期間が計算されていることを確認します。
 
 >[!IMPORTANT]
 >
->常にテストモードでジャーニーロジックをテストして、待機アクティビティが期待どおりに動作することを確認します。 テストモードを使用して様々なエントリシナリオをシミュレートし、週末のエントリが月曜の配信のキューに正しく入っていることを検証します。 詳しくは [&#x200B; ジャーニーテストのベストプラクティス &#x200B;](testing-the-journey.md) を参照してください。
+>常にテストモードでジャーニーロジックをテストして、待機アクティビティが期待どおりに動作することを確認します。 テストモードを使用して様々なエントリシナリオをシミュレートし、週末のエントリが月曜の配信のキューに正しく入っていることを検証します。 詳しくは [ ジャーニーテストのベストプラクティス ](testing-the-journey.md) を参照してください。
 
 ### 手順 7：ジャーニーの公開
 
@@ -178,16 +178,16 @@ toDateTimeOnly(setHours(nowWithDelta(1, "days"), 9))
 
 1. 右上隅の **[!UICONTROL 公開]** をクリックします。
 
-1. [&#x200B; 公開 &#x200B;](publish-journey.md) を確認します。
+1. [ 公開 ](publish-journey.md) を確認します。
 
-1. [ジャーニーレポート &#x200B;](report-journey.md) および [&#x200B; ライブレポート &#x200B;](../reports/journey-live-report.md) を使用して、ジャーニーのパフォーマンスを監視します。
+1. [ジャーニーレポート ](report-journey.md) および [ ライブレポート ](../reports/journey-live-report.md) を使用して、ジャーニーのパフォーマンスを監視します。
 
 
 ## 関連トピック
 
-* [&#x200B; 条件アクティビティ &#x200B;](condition-activity.md) を使用して、ジャーニーに様々なパスを作成する方法を説明します
-* [&#x200B; ジャーニーでの条件の使用 &#x200B;](conditions.md) に関する詳細なガイド
-* [&#x200B; 待機アクティビティ &#x200B;](wait-activity.md) を使用して、待機期間と数式を設定します
-* [&#x200B; 日付関数 &#x200B;](functions/date-functions.md) の完全なリファレンス
-* [&#x200B; 式エディター &#x200B;](expression/expressionadvanced.md) を使用した複雑な式の作成
-* [&#x200B; ジャーニーのデザインとベストプラクティス &#x200B;](journey-gs.md#best-practices) に推奨されるアプローチ
+* [ 条件アクティビティ ](condition-activity.md) - ジャーニーで様々なパスを作成する方法を説明します
+* [ ジャーニーでの条件の使用 ](conditions.md) - ジャーニー条件の詳細ガイド
+* [ 待機アクティビティ ](wait-activity.md) – 待機時間と数式を設定します
+* [ 日付関数 ](functions/date-functions.md) – 日付と時刻の関数の完全なリファレンス
+* [ 式エディター ](expression/expressionadvanced.md) – 複雑な式の作成
+* [ジャーニーのベストプラクティス ](journey-gs.md#best-practices) - ジャーニーデザインの推奨アプローチ
