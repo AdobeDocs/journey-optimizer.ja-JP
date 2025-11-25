@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 78cf16d0f62d6cb7fac82b9e8f89e8726e2db896
+source-git-commit: bc614a78229771e826edea581aefb97b0e3f4159
 workflow-type: tm+mt
-source-wordcount: '3075'
-ht-degree: 95%
+source-wordcount: '3086'
+ht-degree: 94%
 
 ---
 
@@ -178,7 +178,7 @@ Journey Optimizer のサブドメインデリゲーションに適用される�
 
 次のガードレールがジャーニーの[カスタムアクション](../action/action.md)に適用されます。
 
-* すべてのカスタムアクションには、各ホストおよび各サンドボックスに、1 分間で 300,000 件の呼び出しというキャップが定義されています。[このページ](../action/about-custom-action-configuration.md)を参照してください。この制限は、カスタムアクションの対象となる外部エンドポイントを保護することを目的に、顧客の使用状況に基づいて設定されています。必要に応じて、キャップ／スロットリング API でキャップまたはスロットルキャップを大きく定義することで、この設定を上書きできます。[このページ](../configuration/external-systems.md)を参照してください。
+* すべてのカスタムアクションには、各ホストおよび各サンドボックスに、1 分間で 300,000 件の呼び出しというキャップが定義されています。「ホストあたり」の制限は、ドメインレベル（例：example.com）で適用されます。 [このページ](../action/about-custom-action-configuration.md)を参照してください。この制限は、カスタムアクションの対象となる外部エンドポイントを保護することを目的に、顧客の使用状況に基づいて設定されています。必要に応じて、キャップ／スロットリング API でキャップまたはスロットルキャップを大きく定義することで、この設定を上書きできます。[このページ](../configuration/external-systems.md)を参照してください。
 * カスタムアクションの URL は動的パラメーターをサポートしていません。
 * POST、PUT および GET 呼び出しメソッドがサポートされています
 * クエリパラメーターやヘッダーの名前は、「.」または「$」で始める必要があります。
