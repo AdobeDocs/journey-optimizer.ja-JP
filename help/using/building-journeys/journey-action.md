@@ -11,9 +11,9 @@ keywords: ジャーニー, メッセージ, プッシュ, sms, メール, アプ
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
 source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1050'
+ht-degree: 100%
 
 ---
 
@@ -50,17 +50,17 @@ ht-degree: 0%
 
 1. ジャーニーで活用するビルトインのチャネルアクティビティを選択します。
 
-   ![&#x200B; チャネルアクションとカスタムアクションオプションを表示するアクションタイプドロップダウン &#x200B;](assets/journey-action-type-cbe.png)
+   ![チャネルアクションとカスタムアクションのオプションを示すアクションタイプドロップダウン](assets/journey-action-type-cbe.png)
 
 1. アクションにラベルを追加し、「**[!UICONTROL アクションを設定]**」を選択します。
 
-   ![&#x200B; ラベルと説明フィールドを含むアクションアクティビティ設定ペイン &#x200B;](assets/journey-action-configure.png){width="80%"}
+   ![ラベルフィールドと説明フィールドを含むアクションアクティビティ設定パネル](assets/journey-action-configure.png){width="80%"}
 
 1. ジャーニーアクション設定画面の「**[!UICONTROL アクション]**」タブに移動します。
 
    選択したチャネルに使用する設定を選択します。
 
-   ![&#x200B; カスタムアクションとAdobe アクションが表示されている管理メニューの「アクション」タブ &#x200B;](assets/journey-action-actions-tab.png)
+   ![カスタムアクションと Adobe アクションを示す管理メニューの「アクション」タブ](assets/journey-action-actions-tab.png)
 
 1. インバウンドチャネルを選択した場合は、複数のアクションを追加できます。[詳細情報](#multi-action)
 
@@ -159,15 +159,15 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL 複数アクション]**」をアクションタイプとして選択します。
 
-   ![&#x200B; オーケストレーション下のジャーニーパレットのマルチアクションアクティビティ &#x200B;](assets/journey-multi-action.png)
+   ![オーケストレーションの下にあるジャーニーパレットの複数アクションアクティビティ](assets/journey-multi-action.png)
 
 1. 必要に応じてラベルを追加し、「**[!UICONTROL アクションを設定]**」を選択します。
 
-   ![&#x200B; ラベルと説明フィールドを含むマルチアクション設定ペイン &#x200B;](assets/journey-multi-action-configure.png){width="60%"}
+   ![ラベルフィールドと説明フィールドを含む複数アクション設定パネル](assets/journey-multi-action-configure.png){width="60%"}
 
 1. ジャーニーアクション設定画面の「**[!UICONTROL アクション]**」タブに移動します。
 
-   ![&#x200B; 実行するアクションのリストを表示するマルチアクション設定 &#x200B;](assets/journey-multi-action-configuration.png){width="70%"}
+   ![実行するアクションのリストを示す複数アクション設定](assets/journey-multi-action-configuration.png){width="70%"}
 
 1. 「**[!UICONTROL アクション]**」セクションからインバウンドアクション（**コードベースのエクスペリエンス**、**アプリ内メッセージ**、**コンテンツカード**、または **web**）を選択します。
 
@@ -175,7 +175,7 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL アクションを追加]**」ボタンを使用して、ドロップダウンリストから別のインバウンドアクションを選択します。
 
-   ![&#x200B; 複数アクションアクティビティに追加のアクションを含める「アクションを追加」ボタン &#x200B;](assets/journey-multi-action-add.png){width="80%"}
+   ![複数アクションアクティビティに追加アクションを含める「アクションを追加」ボタン](assets/journey-multi-action-add.png){width="80%"}
 
 1. 同様の手順を実行して、さらにアクションを追加します。ジャーニーアクショングループには、最大 10 個のインバウンドアクションを追加できます。
 

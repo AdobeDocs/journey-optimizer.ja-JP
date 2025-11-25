@@ -12,9 +12,9 @@ mini-toc-levels: 1
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
 version: Journey Orchestration
 source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '596'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -172,7 +172,7 @@ if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.p
 >
 >Edge Decision API の例では、`<OrgID>` を組織のテナント ID に置き換えます。
 
-+++コンテキストデータのチャネルが顧客の優先チャネルと一致する場合は、オファーの優先度を 10 上げます
++++コンテキストデータのチャネルが顧客の優先チャネルと一致する場合は、オファーの優先度を 10 上げる
 
 >[!BEGINTABS]
 
@@ -188,7 +188,7 @@ if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.p
 
 +++
 
-+++呼び出しで「contextData.weather=hot」が渡された場合、「attribute=hot」を含むすべてのオファーの優先度を上げます。
++++呼び出しで「contextData.weather=hot」が渡された場合、「attribute=hot」を含むすべてのオファーの優先度を上げる。
 
 >[!BEGINTABS]
 
@@ -204,7 +204,7 @@ if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.p
 
 +++
 
-+++コンテンツ生成元ブースト
++++コンテンツオリジンの優先度を上げる
 
 >[!BEGINTABS]
 
@@ -220,7 +220,7 @@ if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.p
 
 +++
 
-+++気象ブースト
++++天気の優先度を上げる
 
 >[!BEGINTABS]
 

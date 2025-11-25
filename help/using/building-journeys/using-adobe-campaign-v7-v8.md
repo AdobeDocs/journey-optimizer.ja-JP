@@ -11,9 +11,9 @@ keywords: ジャーニー, 統合, キャンペーン, v7, v8
 exl-id: 3da712e7-0e08-4585-8ca4-b6ff79df0b68
 version: Journey Orchestration
 source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '207'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -36,4 +36,4 @@ Journey Optimizer と Campaign インスタンスとの接続は、プロビジ�
 1. パレットの「**アクション**」セクションで、Campaign アクションを選択してジャーニーに追加します。
 1. **アクションパラメーター**&#x200B;には、メッセージペイロードで想定されるすべてのフィールドが表示されます。これらの各フィールドを、イベントまたはデータソースのいずれかから使用するフィールドにマッピングする必要があります。これはカスタムアクションと似ています。[この節](../building-journeys/using-custom-actions.md)を参照してください。
 
-![Adobe Campaign v7/v8 アクションの設定と統合の設定 &#x200B;](assets/accintegration2.png)
+![Adobe Campaign v7／v8 アクション設定と統合設定](assets/accintegration2.png)

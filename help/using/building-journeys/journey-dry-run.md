@@ -10,9 +10,9 @@ keywords: 公開, ジャーニー, ライブ, 有効性, 確認
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
 source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1127'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -128,8 +128,8 @@ ht-degree: 97%
 * ドライランモードのジャーニーは、ライブジャーニーの割り当て量にカウントされます
 * ドライランのジャーニーは、ビジネスルールには影響しません
   <!--* When creating a new journey version, if a previous journey version is **Live**, then the Dry run activation is not allowed on the new version.-->
-* **ジャンプ**&#x200B;アクションは、ドライランでは有効になりません。
-ソースジャーニーが宛先ジャーニーへの&#x200B;**ジャンプ**&#x200B;イベントをトリガーした際、そのジャンプイベントはドライランのジャーニーバージョンには適用されません。例えば、ジャーニーの最新バージョンがドライランで、以前のバージョンが&#x200B;**ライブ**&#x200B;である場合、ジャンプイベントはドライランバージョンを無視し、**ライブ**&#x200B;バージョンにのみ適用されます。
+* **ジャンプ**アクションは、ドライランでは有効になりません。
+ソースジャーニーが宛先ジャーニーへの**ジャンプ**&#x200B;イベントをトリガーした際、そのジャンプイベントはドライランのジャーニーバージョンには適用されません。例えば、ジャーニーの最新バージョンがドライランで、以前のバージョンが&#x200B;**ライブ**&#x200B;である場合、ジャンプイベントはドライランバージョンを無視し、**ライブ**&#x200B;バージョンにのみ適用されます。
 
 ## ジャーニーのステップイベントとドライラン {#journey-step-events}
 
@@ -143,10 +143,10 @@ ht-degree: 97%
 
 stepEvent データを&#x200B;**外部システム**&#x200B;に書き出す場合は、`inDryRun` フラグを使用してドライラン実行をフィルタリングできます。
 
-Adobe Experience Platform クエリサービスを使用して **ジャーニーレポート指標** を分析する場合は、ドライランで生成されたステップイベントを除外する必要があります。 これを実行するには、`inDryRun` フラグを `false` に設定します。
+Adobe Experience Platform クエリサービスを使用して&#x200B;**ジャーニーレポート指標**&#x200B;を分析する際は、ドライランで生成されたステップイベントを除外する必要があります。これを実行するには、`inDryRun` フラグを `false` に設定します。
 
 ## チュートリアルビデオ {#dry-run-video}
 
 ジャーニーのドライラン方法について詳しくは、このビデオを参照してください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464683/?captions=jpn&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)

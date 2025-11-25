@@ -6,16 +6,16 @@ description: DDL をアップロードして Adobe Experience Platform 内でリ
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
 version: Campaign Orchestration
 source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '470'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 
 # リレーショナルスキーマとデータセットの基本を学ぶ{#gs-schemas}
 
-このガイドでは、リレーショナルスキーマの作成、調整されたキャンペーン用のデータセットの設定、データの取り込みのプロセスについて説明します。
+このガイドでは、リレーショナルスキーマの作成、オーケストレーションキャンペーン用のデータセットの設定、データの取り込みのプロセスについて説明します。
 
 ![スキーマ](assets/do-not-localize/schema_admin.png){zoomable="yes"}
 
@@ -35,7 +35,7 @@ ht-degree: 95%
 
 データモデルは、論理的で概念的なもので、オーケストレーションキャンペーンの物理的な実装には結び付けられていません
 
-**リレーショナルデータモデル** では、データは他のテーブルに関連するテーブルに整理されます。
+**リレーショナルデータモデル**&#x200B;では、データは他のテーブルに関連するテーブルに整理されます。
 
 * 各テーブルには、行（レコード）と列（属性）があります。
 * 各テーブルには、行を一意に識別するプライマリキーがあります。

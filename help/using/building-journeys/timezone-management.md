@@ -11,9 +11,9 @@ keywords: タイムゾーン, プロパティ, ジャーニー, 条件, 時間, 
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
 version: Journey Orchestration
 source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '375'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 96%
 「**[!UICONTROL ジャーニーのプロパティ]**」ペインで、タイムゾーンを選択します。
 
 
-![&#x200B; ジャーニープロパティのタイムゾーン選択ドロップダウン &#x200B;](assets/journey72.png)
+![ジャーニープロパティのタイムゾーン選択ドロップダウン](assets/journey72.png)
 
 ## プロファイルのタイムゾーンを使用 {#timezone-from-profiles}
 
@@ -61,7 +61,7 @@ ht-degree: 96%
 
 プロファイルのタイムゾーンが定義されている場合、そのタイムゾーンが取得され、ジャーニーで使用されます。タイムゾーンが定義されていない場合、使用されるタイムゾーンは、 タイムゾーンフィールドで定義されたタイムゾーンになります。
 
-![&#x200B; タイミングをパーソナライズするための、データソース内のプロファイルタイムゾーン設定 &#x200B;](assets/journey73.png)
+![パーソナライズされたタイミングのデータソースのプロファイルタイムゾーン設定](assets/journey73.png)
 
 >[!NOTE]
 >

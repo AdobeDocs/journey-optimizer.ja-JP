@@ -11,9 +11,9 @@ keywords: 公開, ジャーニー, ライブ, 有効性, 確認
 exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
 version: Journey Orchestration
 source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '546'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -88,7 +88,7 @@ Customer Journey Analytics ライセンスを使用すると、カスタム成�
 
    指標はジャーニー自体に適用され、ジャーニーのすべての要素に適用されます。
 
-   ![&#x200B; ジャーニープロパティの成功指標設定パネル &#x200B;](assets/success_metric.png)
+   ![ジャーニープロパティの成功指標設定パネル](assets/success_metric.png)
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
@@ -100,5 +100,5 @@ Customer Journey Analytics ライセンスを使用すると、カスタム成�
 
    選択した指標が、レポートの KPI とジャーニー統計テーブルに表示されます。
 
-   ![&#x200B; 目標のトラッキングに使用できるイベントを表示する成功指標ドロップダウン &#x200B;](assets/success_metric_2.png)
+   ![目標のトラッキングに使用できるイベントを示す成功指標ドロップダウン](assets/success_metric_2.png)
 

@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
 source-git-commit: 71d4fae1eecb2acfcf3ba889c58bf71fb74d48fa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1472'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -195,5 +195,5 @@ HTML コンポーネントを使用して、改行、太字、斜体などのリ
 
 This video shows how to make HTML components within a fragment editable, allowing for dynamic updates to both content and styling.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464369/?captions=jpn&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
 -->
