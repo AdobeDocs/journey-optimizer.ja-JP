@@ -72,7 +72,7 @@ KPI は、キャンペーンで使用されるチャネルによって異なり�
 
 * **[!UICONTROL アウトバウンドエラー数]**：送信プロセス中に発生し、プロファイルにメッセージを送信できなかったエラーの合計数。
 
-* **[!UICONTROL アウトバウンド除外]**:Adobe Journey Optimizerによって除外されたプロファイルの数。 [ 除外のカウント方法の詳細情報 ](exclusion-list.md#exclusion-list)。
+* **[!UICONTROL アウトバウンド除外]**:Adobe Journey Optimizerによって除外されたプロファイルの数。 [&#x200B; 除外のカウント方法の詳細情報 &#x200B;](exclusion-list.md#exclusion-list)。
 
 * **[!UICONTROL 表示数]**：メッセージが開封された回数。
 

@@ -248,9 +248,9 @@ Adobe Journey Optimizer では、ジャーニーで&#x200B;**プロファイル�
 
 **例**:94,000 件のプロファイルをターゲットにしたキャンペーンでは、69,000 件の配信済みプロファイルと 37,000 件の除外が合計 106,000 件と、元のターゲットプロファイル 94,000 件を超えています。 これは予期される動作です。
 
-除外イベントの合計と一意のプロファイル除外の違いを理解するには、[ 除外カウントの説明 ](../reports/exclusion-list.md#exclusion-list) を参照してください。
+除外イベントの合計と一意のプロファイル除外の違いを理解するには、[&#x200B; 除外カウントの説明 &#x200B;](../reports/exclusion-list.md#exclusion-list) を参照してください。
 
-[ キャンペーンレポート ](../reports/campaign-global-report-cja.md) および [ レポート指標 ](../reports/global-report-components-cja.md) の詳細情報。
+[&#x200B; キャンペーンレポート &#x200B;](../reports/campaign-global-report-cja.md) および [&#x200B; レポート指標 &#x200B;](../reports/global-report-components-cja.md) の詳細情報。
 
 +++
 
