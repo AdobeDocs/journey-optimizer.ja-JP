@@ -8,10 +8,10 @@ role: Developer, Admin
 level: Experienced
 keywords: プラットフォーム, データレイク, 作成, レイク, データセット, プロファイル
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
-workflow-type: ht
+source-git-commit: 4532db3f84cdf41d295050e85e721f65cb4f1f0e
+workflow-type: tm+mt
 source-wordcount: '711'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 | AJO 受信アクティビティイベントデータセット | 13 か月 | 90 日 |
 | AJO 分類データセット | 13 か月 | 該当なし |
 | AJO メール BCC フィードバックイベントデータセット | 13 か月 | 該当なし |
-| acpEntity イベントデータセット | 13 か月 | 該当なし |
+| エンティティイベントデータセット | 13 か月 | 該当なし |
 | ジャーニー | 13 か月 | 該当なし |
 | ジャーニーステップイベント | 13 か月 | 該当なし |
 | 決定オブジェクトリポジトリ - パーソナライズされたオファー | 13 か月 | 該当なし |
