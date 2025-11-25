@@ -7,10 +7,10 @@ feature: Get Started
 role: User
 level: Intermediate
 exl-id: f8acb987-5c6e-4545-93b9-fdfc0d74db57
-source-git-commit: 853e87cdd69a3fc180dcb1aa38b4b67f27977939
+source-git-commit: 312c3a9b924876f6bfe88890b247629ea1706b3e
 workflow-type: tm+mt
-source-wordcount: '2862'
-ht-degree: 96%
+source-wordcount: '2942'
+ht-degree: 93%
 
 ---
 
@@ -201,9 +201,17 @@ Adobe Journey Optimizer では、ジャーニーで&#x200B;**プロファイル�
 
 この問題の解決手順について詳しくは、[このトラブルシューティング記事](https://experienceleague.adobe.com/ja/docs/experience-cloud-kcs/kbarticles/ka-26253){target="_blank"}を参照してください。
 
-詳しくは、[この Journey Optimizer コミュニティの投稿](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998?profile.language=ja){target="_blank"}を参照してください。
+詳しくは、[この Journey Optimizer コミュニティの投稿](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998){target="_blank"}を参照してください。
 
 毎日のジョブがスケジュールされるタイミングを確認するには、[Adobe Experience Platform Schedules API ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/api/schedules){target="_blank"}も参照してください。
+
++++
+
++++ オーディエンスピッカーがキャンペーンとジャーニーでプロファイル数が異なるのはなぜですか？
+
+キャンペーンで表示する場合とジャーニーで表示する場合とで、同じオーディエンスに表示されるプロファイル数が異なることに気付くかもしれません。 これは、オーディエンスデータの取得に各機能が異なる API を使用し、異なる値を返す可能性があるためです。
+
+これは予期された動作であり、キャンペーンの実行には影響しません。正しいプロファイルが引き続きターゲットされます。 実際のオーディエンスサイズを確認するには、**[!UICONTROL 顧客]**/**[!UICONTROL オーディエンス]** に移動し、オーディエンスを選択します。
 
 +++
 
@@ -248,9 +256,9 @@ Adobe Journey Optimizer では、ジャーニーで&#x200B;**プロファイル�
 
 **例**:94,000 件のプロファイルをターゲットにしたキャンペーンでは、69,000 件の配信済みプロファイルと 37,000 件の除外が合計 106,000 件と、元のターゲットプロファイル 94,000 件を超えています。 これは予期される動作です。
 
-除外イベントの合計と一意のプロファイル除外の違いを理解するには、[&#x200B; 除外カウントの説明 &#x200B;](../reports/exclusion-list.md#exclusion-list) を参照してください。
+除外イベントの合計と一意のプロファイル除外の違いを理解するには、[ 除外カウントの説明 ](../reports/exclusion-list.md#exclusion-list) を参照してください。
 
-[&#x200B; キャンペーンレポート &#x200B;](../reports/campaign-global-report-cja.md) および [&#x200B; レポート指標 &#x200B;](../reports/global-report-components-cja.md) の詳細情報。
+[ キャンペーンレポート ](../reports/campaign-global-report-cja.md) および [ レポート指標 ](../reports/global-report-components-cja.md) の詳細情報。
 
 +++
 
