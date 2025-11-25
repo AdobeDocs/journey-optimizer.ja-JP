@@ -11,8 +11,8 @@ keywords: アセット, Experience Manager, 統合
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
 source-git-commit: 5ac4220250b69289ec0f722ca54fef3b63174643
 workflow-type: tm+mt
-source-wordcount: '1106'
-ht-degree: 73%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -114,7 +114,7 @@ ht-degree: 73%
 
 ## よくある質問 {#faq-assets}
 
-Adobe Experience Manager Assetsに関するよくある質問を以下に示します。
+Adobe Experience Manager Assets に関するよくある質問を以下に示します。
 
 さらに詳細が必要ですか？このページの下部にあるフィードバックオプションを使用して、質問を入力するか、[Adobe Journey Optimizer コミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"}にアクセスしてください。
 
