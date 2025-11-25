@@ -10,10 +10,10 @@ level: Intermediate
 keywords: ジャーニー, 制限
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 version: Journey Orchestration
-source-git-commit: 62783c5731a8b78a8171fdadb1da8a680d249efd
+source-git-commit: de71f603b98c44d09ede5cc6bafc945f124ceb09
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 100%
+source-wordcount: '564'
+ht-degree: 91%
 
 ---
 
@@ -23,11 +23,12 @@ ht-degree: 100%
 
 ## 一般的なアクションの制限 {#action-limitations}
 
-* 送信スロットルに制限はありません。 
-* エラーが発生した場合は、手順に従い再試行を 2 回実行します。受け取ったエラーメッセージに応じて、リトライ回数を調整することはできません。 
+* 送信スロットルはありません。
+* エラーが発生した場合は、手順に従って 3 回再試行されます。受け取ったエラーメッセージに応じて、リトライ回数を調整することはできません。
 * ビルトインの&#x200B;**反応**&#x200B;イベントを使用すると、すぐに使えるアクションに反応できます（[このページ](../building-journeys/reaction-events.md)を参照してください）。
-カスタムアクションを介して送信されたメッセージに反応する場合は、専用のイベントを設定する必要があります。 
+カスタムアクションを介して送信されたメッセージに反応させたい場合は、専用のイベントを設定する必要があります。
 * 2 つのアクションを並行して配置することはできません。1 つずつ順番に追加する必要があります。
+
 
 ## ジャーニーバージョンの制限 {#journey-versions-limitations}
 
@@ -48,6 +49,10 @@ ht-degree: 100%
 ## イベントの制限 {#events-limitations}
 
 * システム生成イベントの場合、まず Journey Optimizer 内でカスタマージャーニーの開始に使用するストリーミングデータを設定して、一意のオーケストレーション ID を取得する必要があります。このオーケストレーション ID は、Adobe Experience Platform に到達するストリーミングペイロードに追加する必要があります。この制限は、ルールベースのイベントには適用されません。
+
+## 反応イベントの制限 {#reaction-limitations}
+
+* **[!UICONTROL 反応]** アクティビティは、ジャーニーキャンバスの [ チャネルアクションアクティビティ ](../building-journeys/journeys-message.md) の直後に配置する必要があります。 チャネルアクションと **[!UICONTROL 反応]** アクティビティの間に **[!UICONTROL 待機]** アクティビティまたはその他のアクティビティを配置することはサポートされておらず、結果として反応が期待どおりに機能しない場合があります。 詳しくは、[この節](../building-journeys/reaction-events.md)を参照してください。
 
 ## データソースの制限 {#data-sources-limitations}
 
