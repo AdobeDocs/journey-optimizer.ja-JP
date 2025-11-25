@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b74d3137-2dd9-4302-a56e-73503d318d18
-source-git-commit: 158d9d9a1070e1d842183e5bd6cb5ce8e38834c5
+source-git-commit: 853e87cdd69a3fc180dcb1aa38b4b67f27977939
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 100%
+source-wordcount: '610'
+ht-degree: 96%
 
 ---
 
@@ -72,7 +72,7 @@ KPI は、キャンペーンで使用されるチャネルによって異なり�
 
 * **[!UICONTROL アウトバウンドエラー数]**：送信プロセス中に発生し、プロファイルにメッセージを送信できなかったエラーの合計数。
 
-* **[!UICONTROL アウトバウンド除外数]**：Adobe Journey Optimizer によって除外されたプロファイルの数。
+* **[!UICONTROL アウトバウンド除外]**:Adobe Journey Optimizerによって除外されたプロファイルの数。 [ 除外のカウント方法の詳細情報 ](exclusion-list.md#exclusion-list)。
 
 * **[!UICONTROL 表示数]**：メッセージが開封された回数。
 

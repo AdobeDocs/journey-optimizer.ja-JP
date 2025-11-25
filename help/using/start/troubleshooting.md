@@ -7,10 +7,10 @@ feature: Get Started
 role: User
 level: Intermediate
 exl-id: f8acb987-5c6e-4545-93b9-fdfc0d74db57
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '2748'
-ht-degree: 100%
+source-git-commit: 853e87cdd69a3fc180dcb1aa38b4b67f27977939
+workflow-type: tm+mt
+source-wordcount: '2862'
+ht-degree: 96%
 
 ---
 
@@ -201,7 +201,7 @@ Adobe Journey Optimizer では、ジャーニーで&#x200B;**プロファイル�
 
 この問題の解決手順について詳しくは、[このトラブルシューティング記事](https://experienceleague.adobe.com/ja/docs/experience-cloud-kcs/kbarticles/ka-26253){target="_blank"}を参照してください。
 
-詳しくは、[この Journey Optimizer コミュニティの投稿](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998?profile.language=ja){target="_blank"}を参照してください。
+詳しくは、[この Journey Optimizer コミュニティの投稿](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998){target="_blank"}を参照してください。
 
 毎日のジョブがスケジュールされるタイミングを確認するには、[Adobe Experience Platform Schedules API ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/api/schedules){target="_blank"}も参照してください。
 
@@ -239,6 +239,18 @@ Adobe Journey Optimizer では、ジャーニーで&#x200B;**プロファイル�
 この問題の解決手順について詳しくは、[このトラブルシューティング記事](https://experienceleague.adobe.com/ja/docs/experience-cloud-kcs/kbarticles/ka-26173){target="_blank"}を参照してください。
 
 日付関数について詳しくは、[このページ](../building-journeys/functions/date-functions.md)を参照してください。
+
++++
+
++++ 配信済み+除外がキャンペーンレポートでターゲットオーディエンスサイズを超えるのはなぜですか？
+
+キャンペーンレポートでは、「配信済み **と** 除外 **の合計が** 元のターゲットオーディエンスサイズを超えていることに気付く場合があります。 この問題は、**除外** 指標が、同じプロファイルの重複する除外イベントを含む、すべての除外イベントをカウントするために発生します。 キャンペーン中にプロファイルが複数回除外された場合、各イベントは個別にカウントされます。
+
+**例**:94,000 件のプロファイルをターゲットにしたキャンペーンでは、69,000 件の配信済みプロファイルと 37,000 件の除外が合計 106,000 件と、元のターゲットプロファイル 94,000 件を超えています。 これは予期される動作です。
+
+除外イベントの合計と一意のプロファイル除外の違いを理解するには、[ 除外カウントの説明 ](../reports/exclusion-list.md#exclusion-list) を参照してください。
+
+[ キャンペーンレポート ](../reports/campaign-global-report-cja.md) および [ レポート指標 ](../reports/global-report-components-cja.md) の詳細情報。
 
 +++
 
