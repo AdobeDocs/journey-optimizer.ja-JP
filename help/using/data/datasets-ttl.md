@@ -8,10 +8,10 @@ role: Developer, Admin
 level: Experienced
 keywords: プラットフォーム, データレイク, 作成, レイク, データセット, プロファイル
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: 4532db3f84cdf41d295050e85e721f65cb4f1f0e
+source-git-commit: d4729294a007a348e0233aa8a75bbe3b2999742a
 workflow-type: tm+mt
-source-wordcount: '711'
-ht-degree: 99%
+source-wordcount: '817'
+ht-degree: 86%
 
 ---
 
@@ -78,13 +78,13 @@ TTL 拡張機能は、現在サポートされていません。ただし、2025
 
 >[!NOTE]
 >
->プロファイルに保存されたデータには、合計データボリュームの使用権限が適用されます。したがって、TTL 拡張機能の結果として増加したプロファイルのデータストレージは、合計データボリュームの使用権限に対してカウントされます。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html?lang=ja){target=_blank}
+>プロファイルに保存されたデータには、合計データボリュームの使用権限が適用されます。したがって、TTL 拡張機能の結果として増加したプロファイルのデータストレージは、合計データボリュームの使用権限に対してカウントされます。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html?lang=ja){target=&quot;_blank}
 
 +++
 
 +++お客様は、データレイクの [!DNL Journey Optimizer] システムデータセットデータの TTL を増やすことができますか？ 
 
-TTL 拡張機能は、現在サポートされていません。お客様は、宛先を通じてデータをエクスポートし、データを長期間保持できます。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=ja){target=_blank}。さらに、**[!DNL Data Distiller]** 使用権限を持つお客様は、派生データセットを作成して、TTL なしでデータレイクにデータを保存できます。[詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=_blank}
+TTL 拡張機能は、現在サポートされていません。お客様は、宛先を通じてデータをエクスポートし、データを長期間保持できます。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=ja){target=&quot;_blank}。さらに、**[!DNL Data Distiller]** 使用権限を持つお客様は、派生データセットを作成して、TTL なしでデータレイクにデータを保存できます。[詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=&quot;_blank}
 
 +++
 
@@ -111,5 +111,17 @@ TTL 拡張機能は、現在サポートされていません。お客様は、�
 +++TTL の適用（バックフィルのユースケースなど）に使用されるタイムスタンプは何ですか？ 
 
 イベントのタイムスタンプが使用されます（つまり、取り込み日ではありません）。
+
++++
+
++++Journey Optimizer システムで生成されたデータセットを削除できますか？
+
+Journey Optimizer システム生成データセットは保護されており、標準のAdobe Experience Platform UI からは削除できません。 これらのデータセットは、Journey Optimizer機能に不可欠で、システムによって管理されます。
+
+Journey Optimizer システムデータセットを永続的に削除する必要がある場合（例：QA 環境、サンドボックスクリーンアップ、特定のデータハイジーン要件など）、Adobe エンジニアリングまたはAdobe カスタマーケアにお問い合わせください。 これらのデータセットでは、完全で安全な削除を確実に行うために、専用のバックエンド手順が必要です。
+
+>[!NOTE]
+>
+>これらのシステムデータセット内で日常的なデータクリーンアップを行うには、Privacy Serviceから使用できる **[!UICONTROL データライフサイクル]** 操作を使用して、特定のレコードまたは ID を削除します。 [詳細情報](../privacy/data-hygiene.md)
 
 +++
