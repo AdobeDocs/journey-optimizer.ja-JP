@@ -52,7 +52,7 @@ ht-degree: 91%
 
 ## 反応イベントの制限 {#reaction-limitations}
 
-* **[!UICONTROL 反応]** アクティビティは、ジャーニーキャンバスの [ チャネルアクションアクティビティ ](../building-journeys/journeys-message.md) の直後に配置する必要があります。 チャネルアクションと **[!UICONTROL 反応]** アクティビティの間に **[!UICONTROL 待機]** アクティビティまたはその他のアクティビティを配置することはサポートされておらず、結果として反応が期待どおりに機能しない場合があります。 詳しくは、[この節](../building-journeys/reaction-events.md)を参照してください。
+* **[!UICONTROL 反応]** アクティビティは、ジャーニーキャンバスの [&#x200B; チャネルアクションアクティビティ &#x200B;](../building-journeys/journeys-message.md) の直後に配置する必要があります。 チャネルアクションと **[!UICONTROL 反応]** アクティビティの間に **[!UICONTROL 待機]** アクティビティまたはその他のアクティビティを配置することはサポートされておらず、結果として反応が期待どおりに機能しない場合があります。 詳しくは、[この節](../building-journeys/reaction-events.md)を参照してください。
 
 ## データソースの制限 {#data-sources-limitations}
 
