@@ -5,30 +5,30 @@ description: リスト関数について説明します
 feature: Journeys
 role: Developer
 level: Experienced
-keywords: リスト，関数，式，ジャーニー，配列，コレクション
+keywords: リスト, 関数, 式, ジャーニー, 配列, コレクション
 version: Journey Orchestration
 source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1158'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 # リスト関数 {#list-functions}
 
-リスト関数を使用すると、ジャーニー式内で値のコレクションを操作および操作できます。 これらの機能は、カスタマージャーニーで配列やリストをフィルタリング、並べ替え、変換および分析するために不可欠です。
+リスト関数を使用すると、ジャーニー式内で値のコレクションを操作して作業できます。これらの関数は、カスタマージャーニーでの配列やリストのフィルタリング、並べ替え、変換、分析に不可欠です。
 
-リスト関数は、次の場合に使用します。
+リスト関数は、次の操作が必要な場合に使用します。
 
-* 条件（[filter](#filter)、[getListItem](#getListItem)）に基づいて、コレクションから特定の項目をフィルタリングして抽出
-* リスト要素の昇順または降順での並べ替えと整理（[sort](#sort)）
-* 重複を削除して、リストから一意の値を取得します（[distinct](#distinct)、[distinctWithNull](#distinctWithNull)）
-* 値がコレクション内に存在するかどうかを確認します（[in](#in)）
-* リストから返される項目の数を制限する（[limit](#limit)）
-* リスト（[listSize](#listSize)）のサイズを取得するか、リストを異なる形式（[serializeList](#serializeList)）に変換します
-* リスト間の共通要素の検索などの集合操作の実行（[intersect](#intersect)）
+* 条件に基づいてコレクションから特定の項目をフィルタリングして抽出（[filter](#filter)、[getListItem](#getListItem)）
+* リスト要素を昇順または降順に並べ替えて整理（[sort](#sort)）
+* リストから重複を削除し、一意の値を取得（[distinct](#distinct)、[distinctWithNull](#distinctWithNull)）
+* コレクション内に値が存在するかどうかを確認（[in](#in)）
+* リストから返される項目の数を制限（[limit](#limit)）
+* リストのサイズを取得（[listSize](#listSize)）またはリストを異なる形式に変換（[serializeList](#serializeList)）
+* リスト間の共通要素の検索などの集合演算を実行（[intersect](#intersect)）
 
-リスト関数は、複雑なデータ構造を操作するための強力なツールを提供し、コレクションの内容に基づく高度なデータ操作と条件付きロジックを可能にします。
+リスト関数は、複雑なデータ構造を操作するための強力なツールを提供し、コレクションの内容に基づいた高度なデータ操作と条件付きロジックを可能にします。
 
 ## distinct {#distinct}
 
@@ -161,7 +161,7 @@ ht-degree: 85%
 
 +++
 
-**注意：** パラメーター `<listObject>` は、この関数ではサポートされていません。
+**メモ：**&#x200B;パラメーター `<listObject>` は、この関数ではサポートされません。
 
 ## filter {#filter}
 
@@ -305,7 +305,7 @@ filter(
 
 `getListItem([10, 2, 3], 1)`
 
-「2」を返します
+「2」を返します。
 
 `getListItem(["A", "B", "C"], 2)`
 
@@ -414,21 +414,21 @@ false を返します。
 
 +++シグネチャと戻り値のタイプ
 
-`intersect(listString,listString)`: listString
+`intersect(listString,listString)`：listString
 
-`intersect(listDecimal,listDecimal)`: listDecimal
+`intersect(listDecimal,listDecimal)`：listDecimal
 
-`intersect(listInteger,listInteger)`: listInteger
+`intersect(listInteger,listInteger)`：listInteger
 
-`intersect(listDateTime,listDateTime)`: listDateTime
+`intersect(listDateTime,listDateTime)`：listDateTime
 
-`intersect(listDateTimeOnly,listDateTimeOnly)`: listDateTimeOnly
+`intersect(listDateTimeOnly,listDateTimeOnly)`：listDateTimeOnly
 
-`intersect(listDateOnly,listDateOnly)`: listDateOnly
+`intersect(listDateOnly,listDateOnly)`：listDateOnly
 
-`intersect(listDuration,listDuration)`: listDuration
+`intersect(listDuration,listDuration)`：listDuration
 
-`intersect(listBoolean,listBoolean)`: listBoolean
+`intersect(listBoolean,listBoolean)`：listBoolean
 
 リストを返します。
 

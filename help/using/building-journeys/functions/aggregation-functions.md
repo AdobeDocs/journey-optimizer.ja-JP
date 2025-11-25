@@ -5,27 +5,27 @@ description: 集計関数について説明します
 feature: Journeys
 role: Developer
 level: Experienced
-keywords: 集計，関数，式，ジャーニー，平均，カウント，最大，最小，合計
+keywords: 集計, 関数, 式, ジャーニー, 平均, カウント, 最大, 最小, 合計
 version: Journey Orchestration
 source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '717'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
 # 集計関数 {#aggregation-functions}
 
-集計関数は、一連の値に対して計算を実行し、単一の集計結果を返します。 これらの関数を使用すると、平均の計算、最小値と最大値の検索、要素のカウント、数値の合計によって、ジャーニー式のデータを分析できます。
+集計関数は、一連の値に対して計算を実行し、単一の集計結果を返します。これらの関数を使用すると、平均値を計算したり、最小値と最大値を検索したり、要素をカウントしたり、数値を合計したりすることで、ジャーニー式内のデータを分析できます。
 
-次の場合に、集計関数を使用します。
+集計関数は、次の操作が必要な場合に使用します。
 
-* リストまたは配列（[avg](#avg)、[sum](#sum)、[min](#min)、[max](#max)）から統計値を計算します
-* null 値を含めるか除外するオプションを使用して、コレクション内の要素（[count](#count)、[countOnlyNull](#countOnlyNull)、[countWithNull](#countWithNull)）をカウントします
-* データセット内の一意の値を決定します（[distinctCount](#distinctCount)、[distinctCountWithNull](#distinctCountWithNull)）
-* 計算指標に基づくデータ駆動型の決定を行う
+* リストまたは配列から統計値を計算（[avg](#avg)、[sum](#sum)、[min](#min)、[max](#max)）
+* null 値を含めるか除外するオプションを使用して、コレクション内の要素をカウント（[count](#count)、[countOnlyNull](#countOnlyNull)、[countWithNull](#countWithNull)）
+* データセット内の一意の値を決定（[distinctCount](#distinctCount)、[distinctCountWithNull](#distinctCountWithNull)）
+* 計算指標に基づいてデータ駆動型の意思決定を実行
 
-集計関数は、特定の動作に従って null 値を自動的に処理するので、欠落値や未定義の値を含む可能性のある実際のデータを簡単に操作できます。
+集計関数は、特定の動作に従って null 値を自動的に処理するので、欠落値や未定義値が含まれる場合がある実際のデータの操作が容易になります。
 
 
 ## avg {#avg}
@@ -155,7 +155,7 @@ null 値を数に入れずに、リストの要素数を数えます。
 
 +++
 
-**注意：** パラメーター `<listObject>` は、この関数ではサポートされていません。
+**メモ：**&#x200B;パラメーター `<listObject>` は、この関数ではサポートされません。
 
 ## countWithNull {#countWithNull}
 
@@ -191,7 +191,7 @@ null 値を含むリストのすべての要素をカウントします。
 
 +++
 
-**注意：** パラメーター `<listObject>` は、この関数ではサポートされていません。
+**メモ：**&#x200B;パラメーター `<listObject>` は、この関数ではサポートされません。
 
 ## distinctCount {#distinctCount}
 
@@ -276,7 +276,7 @@ null 値を含め、異なる値の数をカウントします。
 
 +++
 
-**注意：** パラメーター `<listObject>` は、この関数ではサポートされていません。
+**メモ：**&#x200B;パラメーター `<listObject>` は、この関数ではサポートされません。
 
 ## max {#max}
 

@@ -10,9 +10,9 @@ feature: Application Settings
 topic: Administration
 keywords: 設定,メッセージ,チャネル,サンドボックス,Optimizer
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '397'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -77,8 +77,8 @@ ht-degree: 77%
 ## その他のリソース
 
 * **[チャネルサーフェスの設定](channel-surfaces.md)** - メール、プッシュ、SMS、その他のチャネルのチャネルサーフェスを設定および管理する方法について説明します。
-* **[サブドメインデリゲーション](delegate-subdomain.md)** - メールの配信品質とブランディングのためにサブドメインをAdobeにデリゲートする方法について説明します。
-* **[IP ウォームアップ](ip-warmup-gs.md)** - IP アドレスのウォームアップのベストプラクティスを見つけて、メールの配信品質と送信者のレピュテーションを向上させます。
-* **[抑制リストの管理](manage-suppression-list.md)** - バウンスを処理しリストハイジーンを維持するために抑制リストを管理する方法について説明します。
+* **[サブドメインデリゲーション](delegate-subdomain.md)** - メールの配信品質とブランディングのためにサブドメインをアドビにデリゲートする方法について説明します。
+* **[IP ウォームアップ](ip-warmup-gs.md)** - メールの配信品質と送信者の評判を向上させるための IP アドレスウォームアップのベストプラクティスについて説明します。
+* **[抑制リストの管理](manage-suppression-list.md)** - バウンスを処理し、リストハイジーンを維持するために抑制リストを管理する方法について説明します。
 * **[モバイルアプリの設定](set-mobile-config.md)** - プッシュ通知とアプリ内メッセージ用のモバイルアプリ設定を指定します。
-* **[設定チュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/configuration/channel-configuration/configure-channels){target="_blank"}** - チャネル設定とベストプラクティスに関するステップバイステップのビデオチュートリアルをご覧ください。
+* **[設定チュートリアル](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/configuration/channel-configuration/configure-channels){target="_blank"}** - チャネル設定とベストプラクティスに関するステップバイステップのビデオチュートリアルを参照してください。

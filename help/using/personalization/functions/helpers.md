@@ -7,9 +7,9 @@ role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
 source-git-commit: 221368c7766e942143639fcd554b32f9de5ab0c9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '652'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -165,7 +165,7 @@ Some edu specific content
 
 >[!NOTE]
 >
->また、`each` ヘルパーを使用して、カスタムアクション応答から返された配列に対して反復処理を行うこともできます。 カスタムアクション応答からネストされた配列を反復する例については、[&#x200B; ネイティブチャネルでのカスタムアクション応答の使用 &#x200B;](../../action/action-response.md#response-in-channels) を参照してください。
+>`each` ヘルパーを使用して、カスタムアクション応答から返された配列を繰り返し処理することもできます。カスタムアクション応答からネストされた配列を繰り返し処理する例について詳しくは、[ネイティブチャネルでのカスタムアクション応答の使用](../../action/action-response.md#response-in-channels)を参照してください。
 
 ## With{#with}
 

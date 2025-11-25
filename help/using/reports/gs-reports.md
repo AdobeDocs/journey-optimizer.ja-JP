@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 7961dc5c-7918-4ae3-8361-0ed4bc4f145b
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '460'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -136,12 +136,12 @@ Adobe Journey Optimizer では、堅牢なレポート機能を通じて実用�
 
 ### チュートリアルビデオ {#video}
 
-Adobe Journey Optimizerの全期間レポートを効果的に使用する方法について説明します。
+Adobe Journey Optimizer の全期間のレポートを効果的に使用する方法について説明します。
 
 +++こちらのビデオをご覧ください
 
->[!VIDEO](https://video.tv.adobe.com/v/3422696?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
-[&#x200B; レポートのチュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/report-and-monitor/report-and-monitor){target="_blank"} で、レポートと分析に関するその他のビデオチュートリアルをご覧ください
+レポートと分析に関するその他のビデオチュートリアルについて詳しくは、[レポートチュートリアル](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/report-and-monitor/report-and-monitor){target="_blank"}を参照してください。

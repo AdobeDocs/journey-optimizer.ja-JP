@@ -8,9 +8,9 @@ role: Developer, Admin, User
 level: Intermediate, Experienced
 keywords: ジャーニー, ステップイベント, 分析, レポート, 監視, XDM
 source-git-commit: 17e0528849f2bd4d3cbf279c34c98a8359cad797
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '898'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

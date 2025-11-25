@@ -10,9 +10,9 @@ level: Experienced
 keywords: キャンペーン, API トリガー, REST, Optimizer, メッセージ
 exl-id: 322e035c-7370-40c9-b1cb-3428bc26e874
 source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '449'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 95%
 
    >[!NOTE]
    >
-   >サポートされるチャネルの詳細については、この節の表 [&#x200B; ジャーニーとキャンペーンのチャネル &#x200B;](../channels/gs-channels.md#channels) を参照してください。 使用できるチャネルは、ライセンスモデルとアドオンによって異なります。
+   >サポートされるチャネルについて詳しくは、[ジャーニーとキャンペーンのチャネル](../channels/gs-channels.md#channels)の節にある表を参照してください。使用できるチャネルは、ライセンスモデルとアドオンによって異なります。
    >
    >High Throughput API トリガーキャンペーンは現在、メールチャネルのみをサポートしています。
 

@@ -9,9 +9,9 @@ level: Experienced
 keywords: ランディング, ランディングページ, 設定, 環境, サブドメイン, プリセット
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
 source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '411'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 84%
 
    選択したサブドメインに対応する設定が表示されます。
 
-1. **[!UICONTROL トラッキング URL]** のランディングページサブドメインを選択するには、「**[!UICONTROL ランディングページサブドメインと同じ]**」オプションをオンにします。 [詳しくは、トラッキングを参照してください](../email/message-tracking.md)
+1. 「**[!UICONTROL ランディングページサブドメインと同じ]**」オプションをオンにすると、**[!UICONTROL トラッキング URL]** のランディングページサブドメインを選択できます。[詳しくは、トラッキングを参照してください](../email/message-tracking.md)
 
    ![](assets/lp_preset-subdomain-settings-same.png)
 
@@ -74,9 +74,9 @@ ht-degree: 84%
 
    >[!CAUTION]
    >
-   >選択したランディングページのサブドメインは、**[!UICONTROL トラッキング URL]** を指定するために使用されます <!--and **[!UICONTROL Image Delivery URL]** --> そのサブドメインが [&#x200B; 既存のサブドメインを使用して作成された場合 &#x200B;](lp-subdomains.md#lp-use-existing-subdomain)。
+   >選択したランディングページのサブドメインは、そのサブドメインを[既存のサブドメイン](lp-subdomains.md#lp-use-existing-subdomain)を使用して作成した場合、**[!UICONTROL トラッキング URL]** <!--and **[!UICONTROL Image Delivery URL]** -->の指定に使用されます。
    >
-   >「[&#x200B; 独自のドメインを追加 &#x200B;](lp-subdomains.md#lp-configure-new-subdomain)」オプションを使用してサブドメインが作成された場合、代わりにプライマリサブドメイン（最初にデリゲートされたサブドメイン）が使用されます。
+   >サブドメインを「[独自のドメインを追加](lp-subdomains.md#lp-configure-new-subdomain)」オプションを使用して作成した場合は、代わりにプライマリサブドメイン（つまり、最初のデリゲートされたサブドメイン）が使用されます。
 
 1. 「**[!UICONTROL 送信]**」をクリックして、ランディングページプリセットの作成を確定します。<!--You can also save the preset as draft and resume its configuration later on.-->
 

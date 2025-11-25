@@ -6,9 +6,9 @@ description: ジャーニーのエクスペリエンスイベント参照の使�
 exl-id: 35e2e347-0669-44a3-92ba-aee52e54c219
 version: Journey Orchestration
 source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '949'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -129,7 +129,7 @@ ht-degree: 98%
 
 ## よくある質問 {#faq-ee}
 
-ジャーニーでのエクスペリエンスイベント検索に関するよくある質問を以下に示します。
+ジャーニーでのエクスペリエンスイベント参照に関するよくある質問を以下に示します。
 
 さらに詳細が必要ですか？このページの下部にあるフィードバックオプションを使用して、質問を入力するか、[Adobe Journey Optimizer コミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"}にアクセスしてください。
 

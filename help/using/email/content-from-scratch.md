@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: コンテンツ, エディター, メール, 開始
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
 source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '700'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -60,11 +60,11 @@ ht-degree: 91%
 >abstract="Designer では、列構造を選択することで、テンプレートのレイアウトを簡単に定義できます。"
 
 
-[!DNL Adobe Journey Optimizer] メールDesignerを使用して、コンテンツの構造を簡単に定義できます。 単純なドラッグ＆ドロップ操作で構造要素を追加したり移動したりして、コンテンツの形を数秒でデザインすることができます。
+[!DNL Adobe Journey Optimizer] E メールデザイナーを使用して、コンテンツの構造を簡単に定義できます。単純なドラッグ＆ドロップ操作で構造要素を追加したり移動したりして、コンテンツの形を数秒でデザインできます。
 
 >[!NOTE]
 >
->[&#x200B; 欧州アクセシビリティ法 &#x200B;](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} は、すべてのデジタル通信がアクセス可能であるべきであると規定しています。 [&#x200B; でコンテンツをデザインする場合は、](accessible-content.md) このページ [!DNL Journey Optimizer] に記載されている具体的なガイドラインに従ってください。
+>[欧州アクセシビリティ法](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}では、すべてのデジタル通信がアクセス可能である必要があると規定しています。[!DNL Journey Optimizer] でコンテンツをデザインする際は、[このページ](accessible-content.md)に記載されている特定のガイドラインに従ってください。
 
 コンテンツの作成を開始するには、次の手順に従います。
 
@@ -84,7 +84,7 @@ ht-degree: 91%
 
    ![](assets/email_designer_structure_components.png)
 
-   **[!UICONTROL n:n 列]** コンポーネントを選択して、列数（3～10）を任意に定義します。 各列の下部にある矢印を動かして、各列の幅を定義することもできます。
+   **[!UICONTROL n:n 列]**&#x200B;コンポーネントを選択して、列数（3～10）を任意に定義します。各列の下部にある矢印を動かして、各列の幅を定義することもできます。
 
    >[!NOTE]
    >

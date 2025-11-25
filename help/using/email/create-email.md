@@ -10,9 +10,9 @@ level: Beginner
 keywords: 作成, メール, 開始, ジャーニー, キャンペーン
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
 source-git-commit: fbd99b95b0e9aeb06435a81bf345dd615a0f9d02
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1055'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 96%
 
 >[!TAB キャンペーンへのメールの追加]
 
-1. [&#x200B; キャンペーンを作成 &#x200B;](../campaigns/create-campaign.md) し、アクションとして **[!UICONTROL メール]** を選択します。
+1. [キャンペーンを作成](../campaigns/create-campaign.md)し、アクションとして「**[!UICONTROL メール]**」を選択します。
 
 1. キャンペーンプロパティ、[オーディエンス](../audience/about-audiences.md)、[スケジュール](../campaigns/campaign-schedule.md)など、メールキャンペーンを作成する手順を完了します。
 
@@ -80,7 +80,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 >title="メールコンテンツの設定"
 >abstract="メールのコンテンツを作成します。件名を定義してから、E メールデザイナーを活用してメールの本文を作成およびパーソナライズします。"
 
-ジャーニーまたはキャンペーンにメールアクションを追加した後、メールDesignerを使用して、件名、送信者情報、メール本文などのメールコンテンツを定義する必要があります。 次の手順に従います。
+ジャーニーやキャンペーンにメールアクションを追加したら、E メールデザイナーを使用して、件名、送信者情報、メール本文などのメールコンテンツを定義する必要があります。次の手順に従います。
 
 1. ジャーニーまたはキャンペーンの設定画面で、「**[!UICONTROL コンテンツを編集]**」ボタンをクリックして、メールコンテンツを設定します。[詳細情報](get-started-email-design.md)
 

@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: コンテンツ, 実験, 複数, オーディエンス, 処理
 source-git-commit: 460ac269404842001f320df6404db474a34c30b7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '189'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -39,4 +39,4 @@ ht-degree: 96%
 
 * **シームレスな共同作業**：リアルタイムアラートを使用して結果を簡単に共有し、チームの役割を管理します。
 
-➡️ [Journey Optimizer Experimentation Acceleratorのドキュメントへのアクセス &#x200B;](https://experienceleague.adobe.com/ja/docs/experimentation-accelerator/using/overview)
+➡️ [Journey Optimizer 実験アクセラレータードキュメントへのアクセス](https://experienceleague.adobe.com/ja/docs/experimentation-accelerator/using/overview)

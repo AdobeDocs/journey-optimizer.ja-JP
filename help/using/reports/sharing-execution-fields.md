@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Experienced
 exl-id: 273cda84-0261-4c5b-b5f4-0202e8874d05
 source-git-commit: b93d2288156713ac7479eef491f6104df1955a18
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '663'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -25,25 +25,25 @@ ht-degree: 64%
 
 実行中のアクションの ID。
 
-型：文字列
+型：string
 
 ## actionName {#actionname-field}
 
 アクションの名前。名前が設定されていない場合、stepName が使用されます。
 
-型：文字列
+型：string
 
 ## actionType {#actionType-field}
 
 アクションのタイプ。
 
-型：文字列
+型：string
 
 ## actionParameterized {#actionparameterized-field}
 
 アクションがパラメータ化されているかどうかを示します。
 
-型：ブール型
+型：boolean
 
 ## actionExecutionTime {#actionexecutiontime-field}
 
@@ -62,7 +62,7 @@ ht-degree: 64%
 
 アクションが呼び出されたときに発生するエラーの種類。
 
-型：文字列
+型：string
 
 値：
 
@@ -75,7 +75,7 @@ ht-degree: 64%
 
 アクション実行エラーのコード。エラーにコードがあるかどうかを示します（HTTP など）。
 
-型：文字列
+型：string
 
 ## actionExecutionOriginError {#actionexecutionoriginerror-field}
 
@@ -97,61 +97,61 @@ ht-degree: 64%
     "actionExecOrigErrorCode": "500"
 ```
 
-型：文字列
+型：string
 
 ## actionExecutionOriginCode {#actionexecutionorigincode-field}
 
 actionExecOrigError のエラーコード。
 
-型：文字列
+型：string
 
 ## actionOriginEndpoint {#actionoriginendpoint}
 
 アクションで使用されるカスタムアクションエンドポイントの URI。
 
-型：文字列
+型：string
 
 ## actionOriginMethod {#actionoriginmethod}
 
-これは、HTTP リクエストで使用されるメソッド（GETまたは POST）を表します。
+これは、HTTP リクエストで使用されるメソッド（GETまたは POST）を示します。
 
-型：文字列
+型：string
 
 ## actionOriginIsMTLS {#actionoriginismtls}
 
-これは、エンドポイントに対して MTLS が有効になっているかどうかを表します。
+これは、エンドポイントに対して MTLS が有効になっているかどうかを示します。
 
-型：ブール型
+型：boolean
 
 ## actionIsProxy {#actionisproxy}
 
-定義済みの IP アドレス範囲を持つ HTTP プロキシが呼び出しに使用されるかどうかを示します。
+これは、定義済みの IP アドレス範囲を持つ HTTP プロキシが呼び出しに使用されるかどうかを示します。
 
-型：ブール型
+型：boolean
 
 ## actionExecutionOriginStartTime {#actionexecutionoriginstarttime}
 
-これは、HTTP リクエストが開始されるタイムスタンプを表します。 再試行の場合、これは最後の再試行が開始されるタイムスタンプです。 タイムスタンプは、UTC タイムゾーンで ISO8601 形式を使用します。
+これは、HTTP リクエストが開始されるタイムスタンプを示します。再試行の場合、これは最後の再試行が開始されるタイムスタンプです。タイムスタンプは、UTC タイムゾーンで ISO8601 形式を使用します。
 
-このタイムスタンプは、通常、プロファイルがカスタムアクションノードに入ってやや後になることに注意してください。または、スロットルの場合、プロファイルがノードに入ってかなり後になります。
+このタイムスタンプは通常、プロファイルがカスタムアクションノードにエントリしてから少し後になりますが、スロットルの場合は、プロファイルがノードにエントリしてからかなり後になります。
 
-タイプ：timestamp
+型：timestamp
 
 ## actionExecutionOriginTime {#actionexecutionorigintime}
 
-HTTP 呼び出しの応答時間を表します。 再試行の場合、これは最後の再試行の試行にかかる時間です。 HTTP リクエストが開始されてから、サーバーから完全な応答が返されるまでの時間を測定します。 スロットルの場合、キューでの待機に費やされた時間は除外されます。
+これは、HTTP 呼び出しの応答時間を示します。再試行の場合、これは最後の再試行にかかる時間です。 HTTP リクエストが開始されてから、サーバーから完全な応答が返されるまでの時間を測定します。スロットルの場合、キューで待機に費やす時間は除外されます。
 
 型：long
 
 ## actionIsThrottled {#actionisthrottled}
 
-これは、エンドポイントに対してスロットルが有効になっているかどうかを表します。
+これは、エンドポイントに対してスロットルが有効になっているかどうかを示します。
 
-型：ブール型
+型：boolean
 
 ## actionWaitTime {#actionwaittime}
 
-これは、スロットルされたエンドポイントに対して設定されたレート制限に達した場合、呼び出しは設定されたレートでキューに入れられ、処理されます。 このフィールドは、コールが実行されるまでキュー内で待機していた時間をレポートします。 actionIsThrottled が true の場合にのみ指定==ます。
+これは、スロットルされたエンドポイントに対して設定されたレート制限に達した際に、呼び出しがキューに追加され、設定済みのレートで処理されることを示します。このフィールドは、呼び出しが実行される前にキュー内で待機していた時間をレポートします。actionIsThrottled == true の場合にのみ指定されます。
 
 型：long
 
@@ -169,25 +169,25 @@ HTTP 呼び出しの応答時間を表します。 再試行の場合、これ�
    * Epsilon
    * ...
 
-型：文字列
+型：string
 
 ## deliveryJobID {#deliveryjobid-field}
 
 バッチジャーニーの配信ジョブ ID を示します。
 
-型：文字列
+型：string
 
 ## batchDeliveryID {#batchdeliveryid-field}
 
 バッチジャーニーの配信 ID を示します。
 
-型：文字列
+型：string
 
 ## fromSegmentTrigger {#fromsegmenttrigger-field}
 
 バッチジャーニーがオーディエンスセグメントからトリガーされるかどうかを示します。
 
-型：ブール型
+型：boolean
 
 ## actionSchedulerCount {#actionschedulercount-field}
 

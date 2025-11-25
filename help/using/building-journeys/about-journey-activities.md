@@ -11,9 +11,9 @@ keywords: ジャーニー, アクティビティ, 開始, イベント, アク�
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 version: Journey Orchestration
 source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '722'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -119,4 +119,4 @@ ht-degree: 99%
 
 アクティビティとジャーニーでのエラーのトラブルシューティング方法について詳しくは、[このページ](troubleshooting.md)を参照してください。
 
-**[監視とトラブルシューティング](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)** も参照してください。
+また、**[監視とトラブルシューティング](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)**&#x200B;も参照してください。

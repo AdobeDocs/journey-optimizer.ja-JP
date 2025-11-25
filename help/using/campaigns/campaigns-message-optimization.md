@@ -8,7 +8,7 @@ level: Intermediate
 keywords: キャンペーンの最適化, 実験, ターゲティング, A/B テスト
 exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
 source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1253'
 ht-degree: 100%
 
@@ -210,4 +210,4 @@ E.g. explaining how a marketer can look at the report to determine which treatme
 
 アクションまたは API トリガーキャンペーンでメッセージの最適化を活用する方法について説明します。 サブオーディエンスをターゲットにする方法、場所ごとにメッセージのバリエーションを作成する方法、フォールバックコンテンツを有効にする方法、単一のキャンペーン内で複数の実験を実行する方法について説明します。また、このチュートリアルでは、メッセージの一貫性を維持しながらマルチチャネルキャンペーンを管理する方法についても説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3470369?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)

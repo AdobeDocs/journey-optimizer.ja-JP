@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 69742163-7378-49ab-929e-86213d6e65e3
 source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '336'
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 ![](assets/cja-experimentation-variants.png)
 
-**成功指標別のバリアント**&#x200B;の表には、実験の設定時に選択した成功指標に基づいて、各バリアントの実行方法が表示されます。
+**成功指標別のバリアント**の表には、実験の設定時に選択した成功指標に基づいて、各バリアントの実行方法が表示されます。
 これらの結果の詳細と解釈について詳しくは、[このページ](../content-management/get-started-experiment.md#interpret-results)を参照してください。
 
 +++ 成功指標別のバリアントの詳細情報

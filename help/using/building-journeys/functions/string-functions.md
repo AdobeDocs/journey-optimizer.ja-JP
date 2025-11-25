@@ -5,33 +5,33 @@ description: 文字列関数について説明します
 feature: Journeys
 role: Developer
 level: Experienced
-keywords: 文字列，関数，式，ジャーニー，テキスト，操作
+keywords: 文字列, 関数, 式, ジャーニー, テキスト, 操作
 version: Journey Orchestration
 source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1127'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
 # 文字列関数 {#string-functions}
 
-文字列関数を使用すると、ジャーニー式内のテキスト値を操作および操作できます。 これらの機能は、カスタマージャーニーでのテキスト処理、検証、変換および分析に不可欠です。
+文字列関数を使用すると、ジャーニー式内でテキスト値を操作して作業できます。これらの関数は、カスタマージャーニーでのテキストの処理、検証、変換、分析に不可欠です。
 
-次の必要がある場合は、文字列関数を使用します。
+文字列関数は、次の操作が必要な場合に使用します。
 
-* 複数のテキスト値の連結および結合（[concat](#concat)）
-* 特定のテキストパターンまたは部分文字列（[contain](#contain)、[containIgnoreCase](#containIgnoreCase)、[indexOf](#indexOf)、[lastIndexOf](#lastIndexOf)、[matchRegExp](#matchRegExp)）を検索します
-* 大文字と小文字を区別する、または大文字と小文字を区別しない一致する文字列を比較します（[equalIgnoreCase](#equalIgnoreCase), [notEqualIgnoreCase](#notEqualIgnoreCase)）
-* 文字列の開始と終了を確認します（[startWith](#startWith)、[startWithIgnoreCase](#startWithIgnoreCase)、[endWith](#endWith)、[endWithIgnoreCase](#endWithIgnoreCase)）
-* 部分文字列操作を使用してテキストの一部を抽出する（[substr](#substr)）
+* 複数のテキスト値を連結して組み合わせ（[concat](#concat)）
+* 特定のテキストパターンまたは部分文字列を検索（[contain](#contain)、[containIgnoreCase](#containIgnoreCase)、[indexOf](#indexOf)、[lastIndexOf](#lastIndexOf)、[matchRegExp](#matchRegExp)）
+* 大文字と小文字を区別または区別しない一致で文字列を比較（[equalIgnoreCase](#equalIgnoreCase)、[notEqualIgnoreCase](#notEqualIgnoreCase)）
+* 文字列の先頭と末尾を確認（[startWith](#startWith)、[startWithIgnoreCase](#startWithIgnoreCase)、[endWith](#endWith)、[endWithIgnoreCase](#endWithIgnoreCase)）
+* 部分文字列演算を使用してテキストの一部を抽出（[substr](#substr)）
 * テキストを大文字または小文字に変換（[upper](#upper)、[lower](#lower)、[trim](#trim)）
-* 文字列が空であるか、特定の値（[isEmpty](#isEmpty)、[isNotEmpty](#isNotEmpty)）を含んでいるかを確認します
-* テキストパターンを新しい値に置き換えます（[replace](#replace), [replaceAll](#replaceAll)）
-* さらに処理するために文字列を配列に分割（[split](#split)）
-* 文字列の長さを取得（[length](#length)）するか、一意の識別子を生成（[uuid](#uuid)）します
+* 文字列が空であるか、特定の値を含んでいるかを確認（[isEmpty](#isEmpty)、[isNotEmpty](#isNotEmpty)）
+* テキストパターンを新しい値に置換（[replace](#replace)、[replaceAll](#replaceAll)）
+* 文字列を配列に分割してさらに処理（[split](#split)）
+* 文字列の長さを取得（[length](#length)）または一意の識別子を生成（[uuid](#uuid)）
 
-文字列関数は、包括的なテキスト操作機能を提供し、ジャーニー式のテキストコンテンツに基づく高度なデータ処理と条件付きロジックを可能にします。
+文字列関数は、包括的なテキスト操作機能を提供し、ジャーニー式のテキストコンテンツに基づいて高度なデータ処理と条件付きロジックを可能にします。
 
 ## concat {#concat}
 
@@ -360,7 +360,7 @@ true を返します。
 
 ## lastIndexOf {#lastIndexOf}
 
-2 番目のパラメータが最後に現れる（最初の引数内の）位置を返します。一致するものがない場合は -1 を返します。
+2 番目のパラメータが最後に現れる（最初の引数内の）位置を返します。一致するものがない場合は「-1」を返します。
 
 +++構文
 
@@ -562,7 +562,7 @@ true を返します。
 
 「Hexlo World」を返します。
 
-**正規表現の例：**
+**RegExp を使用した例：**
 
 ターゲットパラメーターは RegExp なので、置き換える文字列に応じて、一部の文字をエスケープする必要が生じる場合があります。次に例を示します。
 
@@ -620,7 +620,7 @@ true を返します。
 
 「Hexxo Worxd」を返します。
 
-ターゲットパラメーターは RegExp なので、置き換える文字列に応じて、一部の文字をエスケープする必要が生じる場合があります。[replace](#replace) 関数の例を参照してください。
+ターゲットパラメーターは RegExp なので、置き換える文字列に応じて、一部の文字をエスケープする必要が生じる場合があります。例について詳しくは、[replace](#replace) 関数を参照してください。
 
 +++
 

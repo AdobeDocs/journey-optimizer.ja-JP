@@ -8,9 +8,9 @@ level: Beginner
 keywords: アプリ内, メッセージ, 作成, 開始
 exl-id: 5a67177e-a7cf-41a8-9e7d-37f7fe3d34dc
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '634'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Web アプリ内チャネルを設定するには、次の手順に従います�
 
    1. 必要に応じて、イベントのドロップダウンをクリックしてトリガーを変更します。
 
-      +++利用可能なトリガーを参照してください。
+      +++使用可能なトリガーについては、こちらを参照してください。
 
       | パッケージ | トリガー | 定義 |
       |---|---|---|

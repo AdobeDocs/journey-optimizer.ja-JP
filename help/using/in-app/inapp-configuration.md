@@ -7,9 +7,9 @@ level: Intermediate
 keywords: アプリ内, メッセージ, 設定, プラットフォーム
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
 source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '981'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 95%
 
   >[!NOTE]
   >
-  >`context.datastream` 属性の使用は、現在、Journey Optimizerの web チャネルキャンペーンに対してのみサポートされています。 アプリ内メッセージで `context.datastream` を使用しようとすると、`Invalid syntax Missing schema field: 'datastream` などの検証エラーが発生します。
+  >`context.datastream` 属性の使用は現在、Journey Optimizer の web チャネルキャンペーンでのみサポートされています。アプリ内メッセージで `context.datastream` を使用しようとすると、`Invalid syntax Missing schema field: 'datastream` などの検証エラーが発生します。
 
   ![](assets/inapp_config_6.png)
 
@@ -83,8 +83,8 @@ Journey Optimizer でアプリ内設定を作成するには、次の手順に�
 
    >[!NOTE]
    >
-   >iOS および Android プラットフォームの場合、配信はアプリ ID のみに基づきます。両方のアプリが同じアプリ ID を共有している場合、**[!UICONTROL チャネル設定]**&#x200B;で選択したプラットフォームに関係なく、コンテンツは両方に配信されます。
-   >アプリ内メッセージ配信を特定のプラットフォームに制限するには、ジャーニーまたはキャンペーンロジック内でデバイス固有のルールを実装する必要があります。
+   >iOS および Android プラットフォームの場合、配信はアプリ ID のみに基づきます。両方のアプリが同じアプリ ID を共有している場合、**[!UICONTROL チャネル設定]**で選択したプラットフォームに関係なく、コンテンツは両方に配信されます。
+   >アプリ内メッセージの配信を特定のプラットフォームに制限するには、ジャーニーまたはキャンペーンロジック内にデバイス固有のルールを実装する必要があります。
 
    ![](assets/inapp_config_10.png)
 
@@ -139,7 +139,7 @@ Journey Optimizer でアプリ内設定を作成するには、次の手順に�
 
 **関連トピック：**
 
-* [アプリ内メッセージの作成 &#x200B;](create-in-app.md)
+* [アプリ内メッセージの作成 ](create-in-app.md)
 * [キャンペーンの作成](../campaigns/create-campaign.md)
 * [アプリ内メッセージのデザイン](design-in-app.md)
 * [アプリ内レポート](../reports/campaign-global-report-cja-inapp.md)

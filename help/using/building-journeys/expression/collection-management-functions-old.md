@@ -11,7 +11,7 @@ level: Experienced
 keywords: クエリ, コレクション, 関数, ペイロード, ジャーニー
 version: Journey Orchestration
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '739'
 ht-degree: 100%
 

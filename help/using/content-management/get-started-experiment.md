@@ -10,9 +10,9 @@ level: Beginner
 keywords: 開始, 開始, コンテンツ, 実験
 exl-id: 7fe4b24e-f60a-4107-a064-00010b0cbbfc
 source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2085'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -82,14 +82,14 @@ Adobe Journey Optimizer がメッセージを追跡する直接的な目標指�
 例えば、電子メールの件名のパーソナライゼーションが開封率を向上させるかどうかを示す仮説が得られます。ただし、メッセージコンテンツや画像に変更を加えると、混乱を招く可能性があります。
 +++
 
-+++適切な指標を使用していることを確認
++++適切な指標を使用していることを確認する
 
 ターゲットにする指標と、加える変更がこの指標に直接影響を与える可能性があるかどうかを判断します。
 
 例えば、メッセージ本文のコンテンツを変更しても、メールの開封率に影響を与える可能性は低いことなどです。
 +++
 
-+++適切なオーディエンスサイズまたは十分に長い期間でテストを実行
++++適切なオーディエンスサイズまたは十分に長い期間でテストを実行する
 
 テストを長期間実行すると、処理間の目標指標の違いをより少なく検出できます。ただし、目標指標のベースライン値が小さい場合は、より大きなサンプルサイズが必要になります。
 実験に含める必要があるユーザーの数は、検出する効果のサイズ、目標指標の平方偏差または広がり、偽陽性と偽陰性のエラーに対する許容値によって異なります。従来の実験では、「[サンプルサイズ計算ツール](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=ja){_blank}」を使用して、テストを実行する必要がある期間を決定できます。
@@ -184,9 +184,9 @@ Adobe Journey Optimizer がメッセージを追跡する直接的な目標指�
 
 ## その他のリソース
 
-* **[コンテンツ実験の作成](content-experiment.md)** - メッセージのパフォーマンスを最適化する A/B テストを設計および設定する方法について説明します。
-* **[実験計算](experiment-calculations.md)** – 実験分析で使用される統計的方法と指標について説明します。
-* **[マルチアームバンディットと A/B テストの比較](mab-vs-ab.md)** – 様々な実験アプローチと、各方法を使用するタイミングを比較します。
-* **[実験アクセラレーター](experiment-accelerator-gs.md)** - AI を活用した最適化で実験を高速化する方法を説明します。
-* **[実験レポートの計算](experiment-report-calculations.md)** – 実験結果と統計的優位差の解釈方法について説明します。
-* **[実験チュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/content-management/experimentation-overview){target="_blank"}** - コンテンツ実験とベストプラクティスに関するステップバイステップのビデオチュートリアルをご覧ください。
+* **[コンテンツ実験の作成](content-experiment.md)** - メッセージのパフォーマンスを最適化する A/B テストをデザインおよび設定する方法について説明します。
+* **[実験計算](experiment-calculations.md)** - 実験分析で使用される統計手法と指標について説明します。
+* **[マルチアームバンディットと A/B テストの比較](mab-vs-ab.md)** - 様々な実験アプローチと、各方法を使用するタイミングを比較します。
+* **[実験アクセラレーター](experiment-accelerator-gs.md)** - AI を活用した最適化で実験を高速化する方法について説明します。
+* **[実験レポートの計算](experiment-report-calculations.md)** - 実験結果と統計的有意差の解釈方法について説明します。
+* **[実験チュートリアル](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/content-management/experimentation-overview){target="_blank"}** - コンテンツ実験とベストプラクティスに関するステップバイステップをビデオチュートリアルで説明します。

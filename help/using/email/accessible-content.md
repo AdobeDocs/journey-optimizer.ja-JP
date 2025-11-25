@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: メール, デザイン, アクセシビリティ
 exl-id: 78011ec0-a3b6-4d4e-ab4b-9da032c283a2
 source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1638'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -144,7 +144,7 @@ E メールデザイナーの関連する構造および[コンテンツコン�
 
 ダークモードは、光に敏感なユーザーや視覚障害のあるユーザーの視覚的なアクセシビリティを強化し、視聴エクスペリエンスを向上させます。
 
-E メールDesignerでは、**[!UICONTROL ダークモード]** に切り替えて、サポートされている E メールクライアントで表示される特定のカスタム設定を確認して定義できます。 [詳細情報](dark-mode.md)
+E メールデザイナーを使用すると、**[!UICONTROL ダークモード]**&#x200B;ビューに切り替えて、サポートしているメールクライアントに表示される特定のカスタム設定を定義できます。[詳細情報](dark-mode.md)
 
 ![](assets/accessible-dark-mode.png){width="90%"}
 

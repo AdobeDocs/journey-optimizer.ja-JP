@@ -5,28 +5,28 @@ description: 日付関数について説明します
 feature: Journeys
 role: Developer
 level: Experienced
-keywords: 日付，関数，式，ジャーニー，時間
+keywords: 日付, 関数, 式, ジャーニー, 時間
 version: Journey Orchestration
 source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '791'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
 # 日付関数 {#date-functions}
 
-日付関数を使用すると、ジャーニー式内で日付と時間の値を操作および操作できます。 これらの機能は、カスタマージャーニーでの時間ベースの条件、スケジュール、時間計算に不可欠です。
+日付関数を使用すると、ジャーニー式内で日時の値を操作して作業できます。これらの関数は、カスタマージャーニーでの時間ベースの条件、スケジュール、時間計算に不可欠です。
 
-日付関数は、次の場合に使用します。
+日付関数は、次の操作が必要な場合に使用します。
 
-* 特定のタイムゾーン処理（[now](#now)、[nowWithDelta](#nowWithDelta)、[currentTimeInMillis](#currentTimeInMillis)）で現在の時刻または日付を取得します
-* 日付が特定の時間範囲（[inLastDays](#inLastDays)、[inLastHours](#inLastHours)、[inLastMonths](#inLastMonths)、[inLastYears](#inLastYears)、[inNextDays](#inNextDays)、[inNextHours](#inNextHours)、[inNextMonths](#inNextMonths)、[inNextYears](#inNextYears)）に該当するかどうかを確認します
-* 日時コンポーネント（[setHours](#setHours)、[setDays](#setDays)、[updateTimeZone](#updateTimeZone)）を変更する
-* 時間ベースの計算と比較の実行
-* 異なる時間形式と表示域の変換
+* 特定のタイムゾーン処理（[now](#now)、[nowWithDelta](#nowWithDelta)、[currentTimeInMillis](#currentTimeInMillis)）を使用して現在の時刻または日付を取得
+* 日付が特定の時間範囲（[inLastDays](#inLastDays)、[inLastHours](#inLastHours)、[inLastMonths](#inLastMonths)、[inLastYears](#inLastYears)、[inNextDays](#inNextDays)、[inNextHours](#inNextHours)、[inNextMonths](#inNextMonths)、[inNextYears](#inNextYears)）に該当するかどうかを確認
+* 日時コンポーネント（[setHours](#setHours)、[setDays](#setDays)、[updateTimeZone](#updateTimeZone)）を変更
+* 時間ベースの計算と比較を実行
+* 異なる時間形式と表示域間を変換
 
-日付関数を使用すると、時間ロジックを正確に制御でき、特定の期間やスケジュールに応答する、時間依存のジャーニーパスおよび条件を作成できます。
+日付関数は、時間ロジックを正確に制御し、特定の期間とスケジュールに応答する、時間依存のジャーニーパスと条件を作成できます。
 
 ## currentTimeInMillis {#currentTimeInMillis}
 

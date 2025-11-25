@@ -10,9 +10,9 @@ level: Beginner, Intermediate
 keywords: コンポーネント, E メールデザイナー, エディター, メール
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
 source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1448'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->[&#x200B; 欧州アクセシビリティ法 &#x200B;](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"} は、すべてのデジタル通信がアクセス可能であるべきであると規定しています。 コンテンツコンポーネントを活用して [&#x200B; でメールをデザインする場合、アクセシブルなフォントや読みやすい形式の使用、画像用の代替テキストの提供など、](accessible-content.md) このページ [!DNL Journey Optimizer] に記載されている特定のガイドラインに従っていることを確認してください。
+>[欧州アクセシビリティ法](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}では、すべてのデジタル通信がアクセス可能である必要があると規定しています。コンテンツコンポーネントを活用して [!DNL Journey Optimizer] でメールをデザインする際は、アクセシブルなフォント、読みやすい形式の使用、画像の代替テキストの提供など、[このページ](accessible-content.md)に示す特定のガイドラインに必ず従ってください。
 
 ## コンテンツコンポーネントの追加 {#add-content-components}
 
@@ -184,7 +184,7 @@ ht-degree: 96%
 1. 新しく追加したコンポーネントをクリックし、画像プロパティを設定します。
 
    * 「**[!UICONTROL 画像タイトル]** 」に画像のタイトルを入力します。
-   * **[!UICONTROL 代替テキスト]**&#x200B;を使用すると、画像にリンクするキャプションを設定できます。これは、alt HTML属性に対応します。 [詳細情報](../email/accessible-content.md#alt-text)
+   * **[!UICONTROL 代替テキスト]**&#x200B;を使用すると、画像にリンクするキャプションを定義できます。これは HTML の alt 属性に対応します。[詳細情報](../email/accessible-content.md#alt-text)
 
    ![](assets/email_designer_10.png)
 

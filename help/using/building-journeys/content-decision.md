@@ -12,7 +12,7 @@ keywords: アクティビティ, 決定, コンテンツ決定, 決定ポリシ�
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
 source-git-commit: 7a83bb558559ba814ed9431bb85a68929a276ed5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1120'
 ht-degree: 100%
 

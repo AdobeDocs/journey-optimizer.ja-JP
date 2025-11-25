@@ -10,9 +10,9 @@ level: Experienced
 keywords: 設定, メール, 設定
 exl-id: 5a12280c-b937-4cd9-a1ef-563bab48e42e
 source-git-commit: ffcf4711d733dad725cbb95fd30438535c922bda
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '397'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ URL トラッキングパラメーターを設定するには、目的の値を&
 
 パーソナライゼーションエディターでは、次の事前定義済みの値を使用できます。
 
-* **メッセージプロファイル ID**：配信内の各ターゲットプロファイルに送信される各メッセージを一意に識別するメッセージ指向の属性。
+* **メッセージプロファイル ID**：配信内の各ターゲットプロファイルに送信された各メッセージを一意に識別するメッセージ指向の属性。
 
 * **オファー ID**：メールで使用されるオファーの ID。
 

@@ -5,29 +5,29 @@ description: コンバージョン関数について説明します
 feature: Journeys
 role: Developer
 level: Experienced
-keywords: コンバージョン，関数，式，ジャーニー，タイプ，キャスト
+keywords: コンバージョン, 関数, 式, ジャーニー, タイプ, キャスト
 version: Journey Orchestration
 source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '957'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 # コンバージョン関数 {#conversion-functions}
 
-コンバージョン関数を使用すると、ジャーニー式内のデータをタイプ間で変換できます。 これらの関数は、様々なデータソースや操作を操作する際に、データの互換性と適切なタイプの処理を確保するために不可欠です。
+コンバージョン関数を使用すると、ジャーニー式内でデータをあるタイプから別のタイプに変換できます。これらの関数は、様々なデータソースや操作で作業する際に、データの互換性と適切なタイプの処理を確保するために不可欠です。
 
-次の必要がある場合は、変換関数を使用します。
+コンバージョン関数は、次の操作が必要な場合に使用します。
 
-* 文字列値を数値、ブール値、または日付タイプ（[toInteger](#toInteger)、[toDecimal](#toDecimal)、[toBool](#toBool)）に変換します
-* 日付と時刻を、異なる形式および表示域（[toDateTime](#toDateTime)、[toDateTimeOnly](#toDateTimeOnly)、[toDateOnly](#toDateOnly)）に変換します。
-* integer 型と decimal 型（[toInteger](#toInteger)、[toDecimal](#toDecimal)）の間で数値をキャストします
-* 値を文字列形式（[toString](#toString)）またはデュレーション（[toDuration](#toDuration)）に変換します
-* 比較および操作のタイプの互換性の確保
-* 異なるタイプ形式を持つ可能性のある外部ソースからのデータを処理します
+* 文字列値を数値、ブール値、日付タイプに変換（[toInteger](#toInteger)、[toDecimal](#toDecimal)、[toBool](#toBool)）
+* 日付と時刻を異なる形式と表示域の間で変換（[toDateTime](#toDateTime)、[toDateTimeOnly](#toDateTimeOnly)、[toDateOnly](#toDateOnly)）
+* 数値を整数タイプと小数タイプの間でキャスト（[toInteger](#toInteger)、[toDecimal](#toDecimal)）
+* 値を文字列形式（[toString](#toString)）または期間（[toDuration](#toDuration)）に変換
+* 比較や演算のタイプの互換性を確保
+* 異なるタイプ形式を持つ場合がある外部ソースからのデータを処理
 
-各コンバージョン関数は、型固有のルールとエッジケースを自動的に処理するので、ジャーニー式でのデータ変換の信頼性と予測可能性が向上します。
+各コンバージョン関数は、タイプ固有のルールとエッジケースを自動的に処理するので、ジャーニー式でのデータ変換の信頼性と予測可能性が向上します。
 
 ## toBool {#toBool}
 

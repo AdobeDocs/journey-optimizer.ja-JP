@@ -9,9 +9,9 @@ role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: ポリシー, ガバナンス, プラットフォーム, 同意, Healthcare Shield
 source-git-commit: bbea90bd21bd19941e8c8df93c8ec7a8a2769d77
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '859'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 95%
 
      >[!NOTE]
      >
-     >使用しているランディングページのドメインが、サブブランドではなく上位ブランドに属していることを確認してください。 実際、収集された環境設定は、上位ブランドレベルのプロファイルデータに保存されます。
+     >使用されているランディングページのドメインが、サブブランドではなく上位ブランドに属していることを確認します。実際、収集した環境設定は、上位ブランドレベルのプロファイルデータに保存されます。
 
 1. このページでは、顧客はチェックボックスをオンまたはオフにして、トピック別の購読などの環境設定を更新できます。
 
@@ -87,7 +87,7 @@ ht-degree: 95%
 |---------|----------|---------|
 | john.black@lumamail.com | Y | N |-->
 
-    >[ !メモ]
+    >[!メモ]
     >
     >受信した同意イベントは顧客プロファイルにフィードされ、リアルタイムの更新が確保されます。各プロファイルには、購読環境設定をまたいで最新の選択が反映されます。
 
@@ -113,9 +113,9 @@ ht-degree: 95%
     
     * **[!UICONTROL Newsletter_Email]** が存在しない（**[!UICONTROL false]**）または **[!UICONTROL Newsletter_Email]** が等しくない場合（**[!UICONTROL false]**）
     
-    。[&#128279;](assets/consent-policy-email-newsletter.png){width=80%}
+    。[](assets/consent-policy-email-newsletter.png){width=80%}
     
-    >[ !ヒント]
+    >[!ヒント]
     >
     >プロファイル対応データセットには、値が `true` に設定されたプロファイル属性 **[!UICONTROL Newsletter_Email]** を含める必要があります（手順 1 で説明）。
 

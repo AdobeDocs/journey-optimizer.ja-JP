@@ -10,9 +10,9 @@ level: Experienced
 keywords: アクション, サードパーティ, カスタム, ジャーニー, API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
 source-git-commit: 221368c7766e942143639fcd554b32f9de5ab0c9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '713'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -214,7 +214,7 @@ currentActionField.description == "abc"
 
 ### ネイティブチャネルでのカスタムアクション応答の使用 {#response-in-channels}
 
-Handlebars 構文を使用して、ネイティブチャネル（メール、プッシュ、SMS など）のカスタムアクション応答から、ネストされた配列を繰り返し処理できます。 これは、外部システムからの動的データを使用してメッセージコンテンツをパーソナライズする必要がある場合に役立ちます。
+Handlebars 構文を使用して、ネイティブチャネル（メール、プッシュ、SMS など）のカスタムアクション応答のネストされた配列を繰り返し処理できます。これは、外部システムからの動的データを使用してメッセージコンテンツをパーソナライズする必要がある場合に役立ちます。
 
 例えば、カスタムアクションが外部システムから次の応答を返す場合：
 
@@ -229,7 +229,7 @@ Handlebars 構文を使用して、ネイティブチャネル（メール、プ
 }
 ```
 
-ネイティブチャネル（例えば、メール内）で、`responses` 配列とネストされた `productIDs` 配列を次のように繰り返し処理できます。
+次のように、ネイティブチャネル（例：メール）内の `responses` 配列とネストされた `productIDs` 配列を繰り返し処理できます。
 
 ```handlebars
 {{#each context.journey.actions.<yourcustomaction>.responses as |res|}}

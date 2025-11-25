@@ -10,7 +10,7 @@ level: Experienced
 keywords: IP, プール, グループ, サブドメイン, 配信品質
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
 source-git-commit: a44b68e99ec4c55b8ed27b244fcb9e76bdb97760
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '721'
 ht-degree: 100%
 
