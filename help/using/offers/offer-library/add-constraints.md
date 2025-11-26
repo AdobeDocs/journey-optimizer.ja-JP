@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
 workflow-type: tm+mt
 source-wordcount: '2729'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -79,7 +79,7 @@ ht-degree: 97%
 >title="オファー実施要件について"
 >abstract="このセクションでは、決定ルールを使用して、オファーの対象となるユーザーを決定できます。"
 
-<!--additional-url="https://video.tv.adobe.com/v/341373?captions=jpn" text="Watch demo video"-->
+<!--additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"
@@ -146,12 +146,12 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_capping"
 >title="キャップの使用"
->abstract="顧客に過度の勧誘をしないようにするには、キャッピングを使用して、オファーを提示できる最大回数を定義します。 特定のオファーに対して最大 10 個のキャップルールを作成できます。"
+>abstract="顧客を過度に勧誘しないように、キャップを使用して、オファーを提示できる最大回数を定義します。特定のオファーに対して最大 10 個のキャップルールを作成できます。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/decisioning/offer-decisioning/managing-offers-in-the-offer-library/configure-offers/add-constraints#capping" text="日付を変更すると、キャップに影響を与える場合があります"
 
-キャップは、オファーを提示できる最大回数を定義する制約として使用されます。ユーザーが特定のオファーを受け取る回数を制限すると、顧客への過度の勧誘を防ぎ、各タッチポイントをそれに適したオファーで最適化できます。
+キャップは、オファーを提示できる最大回数を定義する制約として使用されます。ユーザーが特定のオファーを受け取る回数を制限することで、顧客への過度の勧誘を防ぎ、最適なオファーを用いて各タッチポイントを最適化できます。
 
-特定のオファーに対して最大 10 個のキャップルールを追加できます。キャッピングルールを設定するには、「**[!UICONTROL キャッピングを作成]** ボタンをクリックし、次の手順に従います。
+特定のオファーに対して最大 10 個のキャップルールを追加できます。キャッピングルールを設定するには、「**[!UICONTROL キャッピングを作成]**」ボタンをクリックし、以下の手順に従います。
 
 1. カウンターを増やすために、どの&#x200B;**[!UICONTROL キャップイベント]**&#x200B;を考慮するかを定義します。[詳細情報](#capping-event)
 

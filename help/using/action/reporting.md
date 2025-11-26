@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 badge: label="限定提供" type="Informative"
 source-git-commit: 30a7ebde95f2cb1ddecf3dc48420076914db4b12
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 100%
 
