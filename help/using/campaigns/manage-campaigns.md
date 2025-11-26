@@ -10,10 +10,10 @@ mini-toc-levels: 1
 level: Beginner
 keywords: キャンペーンの管理, ステータス, スケジュール, アクセス, Optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
-source-git-commit: 81e54a3e3428d58818805b5dcb397ede4039436a
-workflow-type: ht
-source-wordcount: '1709'
-ht-degree: 100%
+source-git-commit: 10eaebc1d24eae4a0a149822d31ff92509d1e6f8
+workflow-type: tm+mt
+source-wordcount: '1775'
+ht-degree: 96%
 
 ---
 
@@ -128,6 +128,10 @@ Adobe Journey Optimizer では、各キャンペーンはインターフェイ�
 1 つのキャンペーン内でエラーが発生した場合、キャンペーンのステータスの横に警告アイコンが表示されます。アラートに関する情報を表示するには、アラートをクリックします。これらのアラートは、キャンペーンメッセージが公開されていない場合または選択した設定が正しくない場合など、様々な状況で発生する場合があります。
 
 ![](assets/campaign-alerts.png)
+
+>[!NOTE]
+>
+>Assets/画像は、フラグメント/インラインメッセージで最初に公開されてから最大 2 年間（730 日）配信されたコンテンツでアクセスできます。 この有効期限の後（730 日後の任意の時間）に、さらに 2 年間アクセスできるようにするには、再公開が必要です。 最初の公開から 730 日以内に行われた再公開では、アセット/画像の有効期限が次の 730 日に延長されません。
 
 ## キャンペーンカレンダー {#calendar}
 
