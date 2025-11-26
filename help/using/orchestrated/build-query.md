@@ -6,7 +6,7 @@ description: 調整されたキャンペーンのルールの作成方法につ�
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
 version: Campaign Orchestration
 source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1717'
 ht-degree: 100%
 

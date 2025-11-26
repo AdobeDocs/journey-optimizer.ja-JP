@@ -6,7 +6,7 @@ description: Adobe Journey Optimizer を使用して調整されたキャンペ�
 exl-id: 3c1cad30-3ed7-4df1-a46a-60394a834e79
 version: Campaign Orchestration
 source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '657'
 ht-degree: 100%
 

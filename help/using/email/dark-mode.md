@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 keywords: ダークモード, メール, カラー, エディター
 exl-id: 27442cb0-5027-4d9c-9d3c-9ec33af7c9ff
 source-git-commit: b6f0174b31b4ef317c18644a93a4ae38a712fb36
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1513'
 ht-degree: 100%
 
@@ -155,7 +155,7 @@ E メールデザイナーでダークモードにアクセスし、デフォル
 
 >[!CAUTION]
 >
->最終的なレンダリングは、受信者のメールクライアントによって異なる場合があります。各メールクライアントの最終結果にできるだけ近いシミュレーションを表示するには、「[メールのレンダリング](../content-management/rendering.md)」オプションを使用します。
+>最終的なレンダリングは、受信者のメールクライアントによって異なる場合があります。各メールクライアントの最終結果にできるだけ近いシミュレーションを表示するには、「[メールレンダリング](../content-management/rendering.md)」オプションを使用します。
 
 <!--This is custom dark mode:
 
@@ -259,7 +259,7 @@ The best practices for designing accesible content in dark mode are listed in [t
 
 * 問題を早期に発見するには、反転したカラースキームを使用する E メールデザイナーの[ダークモードのプレビュー](#preview-dark-mode)を使用します。
 
-* Litmus を活用した「[メールのレンダリング](../content-management/rendering.md)」オプションを使用して、主要なメールクライアント（Apple メール、Gmail、Outlook）でデザインをシミュレートし、ダークモードでの色と画像の動作を確認します。
+* Litmus を活用した「[メールレンダリング](../content-management/rendering.md)」オプションを使用して、主要なメールクライアント（Apple メール、Gmail、Outlook）でデザインをシミュレートし、ダークモードでの色と画像の動作を確認します。
 
 <!--
 

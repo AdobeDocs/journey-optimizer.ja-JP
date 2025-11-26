@@ -6,7 +6,7 @@ description: 重複排除 - 重複アクティビティの使用方法につい�
 exl-id: 4aa79448-f75a-48d5-8819-f4cb4baad5c7
 version: Campaign Orchestration
 source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '612'
 ht-degree: 100%
 
