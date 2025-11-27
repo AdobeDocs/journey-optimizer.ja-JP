@@ -82,7 +82,7 @@ Journey Optimizer でアプリ内設定を作成するには、次の手順に�
 
    >[!NOTE]
    >
-   >iOS および Android プラットフォームの場合、配信はアプリ ID のみに基づきます。両方のアプリが同じアプリ ID を共有している場合、**[!UICONTROL チャネル設定]**で選択したプラットフォームに関係なく、コンテンツは両方に配信されます。
+   >iOS および Android プラットフォームの場合、配信はアプリ ID のみに基づきます。両方のアプリが同じアプリ ID を共有している場合、**[!UICONTROL チャネル設定]**&#x200B;で選択したプラットフォームに関係なく、コンテンツは両方に配信されます。
    >アプリ内メッセージの配信を特定のプラットフォームに制限するには、ジャーニーまたはキャンペーンロジック内にデバイス固有のルールを実装する必要があります。
 
    ![](assets/inapp_config_10.png)
@@ -138,7 +138,7 @@ Journey Optimizer でアプリ内設定を作成するには、次の手順に�
 
 **関連トピック：**
 
-* [アプリ内メッセージの作成 ](create-in-app.md)
+* [アプリ内メッセージの作成 &#x200B;](create-in-app.md)
 * [キャンペーンの作成](../campaigns/create-campaign.md)
 * [アプリ内メッセージのデザイン](design-in-app.md)
 * [アプリ内レポート](../reports/campaign-global-report-cja-inapp.md)
@@ -153,7 +153,7 @@ Journey Optimizer でアプリ内設定を作成するには、次の手順に�
 
 >[!NOTE]
 >
->偽名プロファイルのデータの有効期限を設定する方法については、[Experience Platform ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/pseudonymous-profiles){target="_blank"} を参照してください。
+>偽名プロファイルのデータの有効期限を設定する方法については、[Experience Platform ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/pseudonymous-profiles){target="_blank"} を参照してください。
 
 Adobeでは、現在のEdge プロファイル TTL に一致するように TTL 値を 14 日に設定することをお勧めします。
 

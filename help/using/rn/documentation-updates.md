@@ -21,7 +21,7 @@ ht-degree: 84%
 
 ## 2025年11月 {#november-2025}
 
-* インバウンドチャネルを使用した偽名プロファイルのターゲティングに関するガードレールが [web](../web/web-prerequisites.md#profile-management-guardrail)、[ アプリ内 ](../in-app/inapp-configuration.md#profile-management-guardrail)、[ コードベースのエクスペリエンス ](../code-based/code-based-prerequisites.md#profile-management-guardrail)、[ コンテンツカード ](../content-card/content-card-configuration-prereq.md#profile-management-guardrail) 前提条件のページおよび [ ガードレールと制限 ](../start/guardrails.md) ページに追加されました。 このガードレールは、認証されていない、またはまだ知られていないターゲティングプロファイルが、エンゲージメント可能なプロファイルの合計数を増やし、請求に影響を与える可能性があることを指定します。 これが、Adobeが自動プロファイル削除の有効期間（TTL）を設定して、エンゲージメント可能なプロファイル数と関連コストを管理することをお勧めする理由です。
+* インバウンドチャネルを使用した偽名プロファイルのターゲティングに関するガードレールが [web](../web/web-prerequisites.md#profile-management-guardrail)、[&#x200B; アプリ内 &#x200B;](../in-app/inapp-configuration.md#profile-management-guardrail)、[&#x200B; コードベースのエクスペリエンス &#x200B;](../code-based/code-based-prerequisites.md#profile-management-guardrail)、[&#x200B; コンテンツカード &#x200B;](../content-card/content-card-configuration-prereq.md#profile-management-guardrail) 前提条件のページおよび [&#x200B; ガードレールと制限 &#x200B;](../start/guardrails.md) ページに追加されました。 このガードレールは、認証されていない、またはまだ知られていないターゲティングプロファイルが、エンゲージメント可能なプロファイルの合計数を増やし、請求に影響を与える可能性があることを指定します。 これが、Adobeが自動プロファイル削除の有効期間（TTL）を設定して、エンゲージメント可能なプロファイル数と関連コストを管理することをお勧めする理由です。
 
 * アセットと画像が最初の公開から最大 2 年間（730 日）アクセス可能で、有効期限が切れた後は再公開する必要があることを示すメモが追加されました。 [詳細情報](../content-management/proofs.md)
 
