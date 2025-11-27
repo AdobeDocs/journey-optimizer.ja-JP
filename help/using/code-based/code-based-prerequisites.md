@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: ac901f88-5fde-4220-88c6-fe05433866cc
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 3d5ed7c5efd76616c8dbc89078f7368eedc5f1af
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 100%
+source-wordcount: '833'
+ht-degree: 83%
 
 ---
 
@@ -24,6 +24,10 @@ ht-degree: 100%
 * コードベースのエクスペリエンスレポートに表示するデータを有効にするには、以下の[レポーティングの前提条件](#reporting-prerequisites)に従います。
 
 * [コードベースのエクスペリエンスチャネル設定](code-based-configuration.md)を作成する際、独自の実装で宣言されたものと一致する文字列／パスまたはサーフェス URI を入力します。これにより、指定したアプリまたはページ内の目的の場所にコンテンツが配信されます。それ以外の場合は、変更を配信できません。[詳細情報](code-based-surface.md)
+
+>[!NOTE]
+>
+>コードベースのエクスペリエンスで偽名プロファイル（未認証の訪問者）をターゲットにする場合は、自動プロファイル削除の有効期間（TTL）を設定して、エンゲージメント可能なプロファイル数と関連コストを管理することを検討します。 [詳細情報](#profile-management-guardrail)
 
 ## 実装の前提条件 {#implementation-prerequisites}
 
@@ -70,3 +74,17 @@ ht-degree: 100%
 >[!NOTE]
 >
 >データセットは、[!DNL Journey Optimizer] レポートシステムによって読み取り専用で使用され、データ収集やデータの取り込みには影響しません。
+
+## プロファイル管理ガードレール {#profile-management-guardrail}
+
+コードベースのエクスペリエンス [!DNL Journey Optimizer]、偽名プロファイルをターゲットにすることができます。つまり、他のチャネルでこれまでエンゲージメントされたことがないので、認証されていないプロファイルや、まだ知られていないプロファイルを意味します。 これは、例えば、すべての訪問者やオーディエンスを ECID などの一時 ID に基づいてターゲティングしている場合です。
+
+これにより、エンゲージメント可能なプロファイルの総数が増え、ユーザーが購入した、エンゲージメント可能なプロファイルの契約上の数を超えると、コストに影響する可能性があります。各パッケージのライセンス指標は、[Journey Optimizer の製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}ページにリストされています。エンゲージメント可能なプロファイルの数は、[ライセンス使用状況ダッシュボード](../audience/license-usage.md)で確認できます。
+
+エンゲージメント可能なプロファイルを適切な制限内に保つために、Adobeでは、偽名プロファイルが特定の期間内に表示または関与していない場合は、偽名プロファイルをリアルタイム顧客プロファイルから自動的に削除するように、Time-To-Live （TTL）を設定することをお勧めします。
+
+>[!NOTE]
+>
+>偽名プロファイルのデータの有効期限を設定する方法については、[Experience Platform ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/pseudonymous-profiles){target="_blank"} を参照してください。
+
+Adobeでは、現在のEdge プロファイル TTL に一致するように TTL 値を 14 日に設定することをお勧めします。

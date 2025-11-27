@@ -6,10 +6,10 @@ feature: In App
 level: Intermediate
 keywords: アプリ内, メッセージ, 設定, プラットフォーム
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '981'
-ht-degree: 100%
+source-git-commit: 3d5ed7c5efd76616c8dbc89078f7368eedc5f1af
+workflow-type: tm+mt
+source-wordcount: '1146'
+ht-degree: 90%
 
 ---
 
@@ -33,7 +33,6 @@ ht-degree: 100%
 * [Adobe Experience Platform データ収集](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=ja){target="_blank"}で、**[!UICONTROL Adobe Experience Platform]** サービスの下にある Adobe Experience Platform Edge と「**[!UICONTROL Adobe Journey Optimizer]**」オプションを有効にするなど、データストリームが定義されていることを確認します。
 
   これにより、Journey Optimizer インバウンドイベントが Adobe Experience Platform Edge で正しく処理されます。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=ja){target="_blank"}
-
 
   >[!NOTE]
   >
@@ -143,4 +142,18 @@ Journey Optimizer でアプリ内設定を作成するには、次の手順に�
 * [キャンペーンの作成](../campaigns/create-campaign.md)
 * [アプリ内メッセージのデザイン](design-in-app.md)
 * [アプリ内レポート](../reports/campaign-global-report-cja-inapp.md)
+
+## プロファイル管理ガードレール {#profile-management-guardrail}
+
+[!DNL Journey Optimizer] アプリ内メッセージは、偽名プロファイルをターゲットにすることができます。つまり、他のチャネルでこれまで関与したことがないので、認証されていないプロファイルや、まだ知られていないプロファイルを意味します。 これは、例えば、すべての訪問者やオーディエンスを ECID などの一時 ID に基づいてターゲティングしている場合です。
+
+これにより、エンゲージメント可能なプロファイルの総数が増え、ユーザーが購入した、エンゲージメント可能なプロファイルの契約上の数を超えると、コストに影響する可能性があります。各パッケージのライセンス指標は、[Journey Optimizer の製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}ページにリストされています。エンゲージメント可能なプロファイルの数は、[ライセンス使用状況ダッシュボード](../audience/license-usage.md)で確認できます。
+
+エンゲージメント可能なプロファイルを適切な制限内に保つために、Adobeでは、偽名プロファイルが特定の期間内に表示または関与していない場合は、偽名プロファイルをリアルタイム顧客プロファイルから自動的に削除するように、Time-To-Live （TTL）を設定することをお勧めします。
+
+>[!NOTE]
+>
+>偽名プロファイルのデータの有効期限を設定する方法については、[Experience Platform ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/pseudonymous-profiles){target="_blank"} を参照してください。
+
+Adobeでは、現在のEdge プロファイル TTL に一致するように TTL 値を 14 日に設定することをお勧めします。
 

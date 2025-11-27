@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: bd7ed127c09e24dc1b29c4fcdecb8a2fd70c9009
+source-git-commit: 3d5ed7c5efd76616c8dbc89078f7368eedc5f1af
 workflow-type: tm+mt
-source-wordcount: '3131'
-ht-degree: 93%
+source-wordcount: '3233'
+ht-degree: 90%
 
 ---
 
@@ -88,15 +88,21 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 
 ### インバウンドチャネルのガードレール {#inbound-guardrails}
 
+[!DNL Journey Optimizer] で[コードベースのエクスペリエンス](../code-based/get-started-code-based.md)アクションを使用して、アプリケーションで使用できるコードコンテンツペイロードを配信するには、[このページ](../code-based/code-based-prerequisites.md)で説明されている前提条件に従います。
+
+[ ユーザーインターフェイスで ](../web/get-started-web.md)web ページ [!DNL Journey Optimizer] にアクセスして作成できるようにするには、[ このページ ](../web/web-prerequisites.md) に記載されている前提条件に従ってください。
+
+[!DNL Journey Optimizer] を使用してジャーニーやキャンペーンでアプリ内メッセージを送信するには、[ このページ ](../in-app/inapp-configuration.md) に記載されている配信の前提条件に従ってください。
+
+Adobe Journey Optimizerでコンテンツカードを正しく表示するには、[ このページ ](../content-card/content-card-configuration-prereq.md) に記載されているAdobe Experience Platform設定を行う必要があります。
+
 * Journey Optimizer では、1 秒あたり 5,000 件のインバウンドリクエストのピーク量をサポートします。このガードレールは、Journey Optimizer がサポートするすべてのインバウンドチャネル（[web](../web/get-started-web.md)、[アプリ内](../in-app/get-started-in-app.md)、[コードベースのエクスペリエンス](../code-based/get-started-code-based.md)、[コンテンツカード](../../rp_landing_pages/content-card-landing-page.md)）から発生する場合があるすべてのインバウンドリクエストに適用されます。
 
-  Journey Optimizer インバウンドチャネルは、以前の他のチャネルで関与していなかった可能性のある新しいプロファイルをターゲットにします。これにより、エンゲージメント可能なプロファイルの総数が増え、ユーザーが購入した、エンゲージメント可能なプロファイルの契約上の数を超えると、コストに影響する可能性があります。
+* Journey Optimizer インバウンドチャネルは、以前の他のチャネルで関与していなかった可能性のある新しいプロファイルをターゲットにします。これにより、エンゲージメント可能なプロファイルの総数が増え、ユーザーが購入した、エンゲージメント可能なプロファイルの契約上の数を超えると、コストに影響する可能性があります。各パッケージのライセンス指標は、[Journey Optimizer の製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}ページにリストされています。
 
-  各パッケージのライセンス指標は、[Journey Optimizer の製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}ページにリストされています。
+  エンゲージメント可能なプロファイルを適切な制限内に保つために、Adobeでは、偽名プロファイルがこの期間内に表示またはエンゲージメントされていない場合、偽名プロファイルをハブで自動的に削除するために、有効期間（TTL）を 14 日に設定することをお勧めします。 方法については、[Experience Platform ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/pseudonymous-profiles){target="_blank"} を参照してください。
 
 * Journey Optimizer では、一度に最大 500 件のアクティブなインバウンドアクションをサポートします。これらのインバウンドアクション（[web](../web/get-started-web.md)、[アプリ内](../in-app/get-started-in-app.md)、[コードベースのエクスペリエンス](../code-based/get-started-code-based.md)、[コンテンツカード](../../rp_landing_pages/content-card-landing-page.md)）は、ライブキャンペーンの一部である場合や、ライブジャーニーで使用されるノードである場合にカウントされます。この数に達したら、新しいキャンペーンやインバウンドアクションを開始する前に、インバウンドアクションを使用している古いキャンペーンまたはジャーニーを非アクティブ化する必要があります。
-
-* [!DNL Journey Optimizer] で[コードベースのエクスペリエンス](../code-based/get-started-code-based.md)アクションを使用して、アプリケーションで使用できるコードコンテンツペイロードを配信するには、[このページ](../code-based/code-based-prerequisites.md)で説明されている前提条件に従います。
 
 ### トランザクションメッセージのガードレール {#transactional-message-guardrails}
 
