@@ -23,9 +23,9 @@ ht-degree: 84%
 
 >[!IMPORTANT]
 >
->[ このリンク ](https://github.com/adobe/alloy-samples/tree/main/ajo){target="_blank"} に従って、様々なパーソナライゼーションおよび実験のユースケース向けのサンプル実装を確認してください。 必要な実装手順とエンドツーエンドのパーソナライゼーションフローの仕組みをより深く理解するために、これらを確認および実行してください。
+>[&#x200B; このリンク &#x200B;](https://github.com/adobe/alloy-samples/tree/main/ajo){target="_blank"} に従って、様々なパーソナライゼーションおよび実験のユースケース向けのサンプル実装を確認してください。 必要な実装手順とエンドツーエンドのパーソナライゼーションフローの仕組みをより深く理解するために、これらを確認および実行してください。
 
-意思決定およびコードベースのエクスペリエンス用に Web SDKを設定する方法について詳 ➡️ くは、[ これらのチュートリアル ](code-based-decisioning-implementations.md#tutorials) を参照してください。
+意思決定およびコードベースのエクスペリエンス用に Web SDKを設定する方法について詳 ➡️ くは、[&#x200B; これらのチュートリアル &#x200B;](code-based-decisioning-implementations.md#tutorials) を参照してください。
 
 ## クライアントサイドの実装 {#client-side-implementation}
 
@@ -33,11 +33,11 @@ ht-degree: 84%
 
 * [以下](#client-side-how)の手順では、サンプル **Web SDK** 実装のコードベースのエクスペリエンスジャーニーとキャンペーンによってエッジに公開されたコンテンツを取得し、パーソナライズされたコンテンツを表示するプロセスについて説明します。
 
-* **Mobile SDK** を使用してコードベースのチャネルを実装する手順については、[ このチュートリアル ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"} を参照してください。
+* **Mobile SDK** を使用してコードベースのチャネルを実装する手順については、[&#x200B; このチュートリアル &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"} を参照してください。
 
   >[!NOTE]
   >
-  >モバイルユースケースのサンプル実装は、[iOS アプリ ](https://github.com/adobe/aepsdk-messaging-ios/tree/main/TestApps/MessagingDemoAppSwiftUI){target="_blank"} および [Android アプリ ](https://github.com/adobe/aepsdk-messaging-android/tree/main/code/testapp){target="_blank"} で利用できます。
+  >モバイルユースケースのサンプル実装は、[iOS アプリ &#x200B;](https://github.com/adobe/aepsdk-messaging-ios/tree/main/TestApps/MessagingDemoAppSwiftUI){target="_blank"} および [Android アプリ &#x200B;](https://github.com/adobe/aepsdk-messaging-android/tree/main/code/testapp){target="_blank"} で利用できます。
 
 ### 仕組み – Web SDK {#client-side-how}
 
@@ -308,7 +308,7 @@ Cookie は、ユーザー ID とクラスター情報を保持するために使
 ハイブリッド実装を使用している場合は、以下のリンクを確認してください。
 
 * Adobe テクニカルブログ：[Adobe Experience Platform Web SDKのハイブリッドPersonalization](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
-* SDK ドキュメント：[Web SDKとEdge Network Server API を使用したハイブリッドパーソナライゼーション ](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html?lang=ja){target="_blank"}
+* SDK ドキュメント：[Web SDKとEdge Network Server API を使用したハイブリッドパーソナライゼーション &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html?lang=ja){target="_blank"}
 
 <!--
 ## Implementation guides and tutorials {#implementation-guides}
