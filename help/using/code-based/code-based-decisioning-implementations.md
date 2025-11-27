@@ -6,7 +6,7 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
-source-git-commit: 1b6158132e5df1912d9658805fa8b1344c6f938f
+source-git-commit: 5ddce63ac21f7cbfff435b4914cc91a8d6d58b93
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 81%
@@ -17,11 +17,11 @@ ht-degree: 81%
 
 コードベースのエクスペリエンスで決定を使用する際は、以下に説明するケースで、クライアント実装に次のフラグを追加することを検討してください。
 
-➡️ 意思決定およびコードベースのエクスペリエンス用に web SDKを設定する方法については、[&#x200B; これらのチュートリアル &#x200B;](#tutorials) を参照してください。
-
 >[!CAUTION]
 >
 >コードベースのエクスペリエンスチャネルでは、[!DNL Journey Optimizer][Decisioning](../experience-decisioning/gs-experience-decisioning.md) 機能のみをサポートしています。 従来の意思決定管理機能は、コードベースのエクスペリエンスでは使用できません。
+
+➡️ 意思決定およびコードベースのエクスペリエンス用に web SDKを設定する方法については、[ これらのチュートリアル ](#tutorials) を参照してください。
 
 ## 決定を使用したコードベースのエクスペリエンスのテスト {#code-based-test-decisions}
 
@@ -295,8 +295,8 @@ curl --location 'https://edge-int.adobedc.net/ee/v1/interact?configId=2f21d344-b
 
 +++
 
-## チュートリアル{#tutorials}
+## チュートリアル {#tutorials}
 
-Journey Optimizerの Decisioning を使用して、web SDKの設定を中心に、web サイト上のコンテンツオファーをパーソナライズする方法を説明します [&#x200B; このチュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/use-decisioning-to-personalize-web-offers/introduction){target="_blank"}。
+Journey Optimizerの Decisioning を使用して、web SDKの設定を中心に、web サイト上のコンテンツオファーをパーソナライズする方法を説明します [ このチュートリアル ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/use-decisioning-to-personalize-web-offers/introduction){target="_blank"}。
 
-Web SDKを設定し、コードベースのエクスペリエンスと意思決定を使用して、リアルタイムの天気データとコンテキスト情報を使用してオファーをパーソナライズする方法を説明します [&#x200B; このチュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/personalizing-offers-with-real-time-weather-data/introduction){target="_blank"}。
+Web SDKを設定し、コードベースのエクスペリエンスと意思決定を使用して、リアルタイムの天気データとコンテキスト情報を使用してオファーをパーソナライズする方法を説明します [ このチュートリアル ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/personalizing-offers-with-real-time-weather-data/introduction){target="_blank"}。
