@@ -7,16 +7,20 @@ role: User
 level: Intermediate, Experienced
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
-workflow-type: ht
-source-wordcount: '828'
-ht-degree: 100%
+source-git-commit: 1b6158132e5df1912d9658805fa8b1344c6f938f
+workflow-type: tm+mt
+source-wordcount: '841'
+ht-degree: 98%
 
 ---
 
 # コンテンツ実験によるコードベースのエクスペリエンスでの決定の使用 {#experience-decisioning-uc}
 
 このユースケースでは、[!DNL Journey Optimizer] コードベースチャネルで決定の使用に必要なすべての手順を示します。
+
+>[!NOTE]
+>
+>従来の意思決定管理機能は、コードベースのエクスペリエンスチャネルではサポートされていません。
 
 この例では、特定のランキング式が、事前に割り当てられたオファーの優先度よりも優れたパフォーマンスを発揮するかどうか確信が持てません。ターゲットオーディエンスに最適なパフォーマンスを測定するには、[コンテンツ実験](../content-management/content-experiment.md)を使用してキャンペーンを作成し、次の 2 つの配信処理を定義します。
 

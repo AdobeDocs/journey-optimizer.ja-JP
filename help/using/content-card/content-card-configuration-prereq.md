@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: df92e319-1e42-486f-b688-595964a762c9
-source-git-commit: 3d5ed7c5efd76616c8dbc89078f7368eedc5f1af
+source-git-commit: 1f9841ddd039a7591f396e38d8a93ed840d6879e
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 73%
+source-wordcount: '295'
+ht-degree: 90%
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Journey Optimizer でコンテンツカードを正しく表示するに�
 
 * **Adobe Experience Platform**
 
-  デフォルトの結合ポリシーで、**顧客**／**プロファイル**／**[!UICONTROL 結合ポリシー]** Experience Platform メニューで「**[!UICONTROL Active-On-Edge 結合ポリシー]**」がアクティブになっていることを確認します。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ja#configure){target="_blank"}
+  デフォルトの結合ポリシーで、**顧客]**／**[!UICONTROL プロファイル**／**[!UICONTROL 結合ポリシー]** Experience Platform メニューで「**[!UICONTROL Active-On-Edge 結合ポリシー]**」がアクティブになっていることを確認します。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ja#configure){target="_blank"}
 
   >[!NOTE]
   >
@@ -48,16 +48,6 @@ Adobe Journey Optimizer でコンテンツカードを正しく表示するに�
 
   コンテンツ実験のレポート用にデータセットを追加する方法について詳しくは、[この節](../reports/reporting-configuration.md)を参照してください。
 
-## プロファイル管理ガードレール {#profile-management-guardrail}
-
-[!DNL Journey Optimizer] コンテンツカードは、偽名プロファイルをターゲットにすることができます。つまり、他のチャネルでこれまで関与したことがないので、認証されていないプロファイルや、まだ知られていないプロファイルをターゲットにします。 これは、例えば、すべての訪問者やオーディエンスを ECID などの一時 ID に基づいてターゲティングしている場合です。
-
-これにより、エンゲージメント可能なプロファイルの総数が増え、ユーザーが購入した、エンゲージメント可能なプロファイルの契約上の数を超えると、コストに影響する可能性があります。各パッケージのライセンス指標は、[Journey Optimizer の製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}ページにリストされています。エンゲージメント可能なプロファイルの数は、[ライセンス使用状況ダッシュボード](../audience/license-usage.md)で確認できます。
-
-エンゲージメント可能なプロファイルを適切な制限内に保つために、Adobeでは、偽名プロファイルが特定の期間内に表示または関与していない場合は、偽名プロファイルをリアルタイム顧客プロファイルから自動的に削除するように、Time-To-Live （TTL）を設定することをお勧めします。
-
->[!NOTE]
+>[!CAUTION]
 >
->偽名プロファイルのデータの有効期限を設定する方法については、[Experience Platform ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/pseudonymous-profiles){target="_blank"} を参照してください。
-
-Adobeでは、現在のEdge プロファイル TTL に一致するように TTL 値を 14 日に設定することをお勧めします。
+>コンテンツカードで偽名プロファイル（未認証の訪問者）をターゲットにする場合は、自動プロファイル削除の有効期間（TTL）を設定して、エンゲージメント可能なプロファイル数と関連コストを管理することを検討してください。 [詳細情報](../start/guardrails.md#profile-management-inbound)

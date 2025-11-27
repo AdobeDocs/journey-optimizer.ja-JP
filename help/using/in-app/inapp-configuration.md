@@ -6,10 +6,10 @@ feature: In App
 level: Intermediate
 keywords: アプリ内, メッセージ, 設定, プラットフォーム
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
-source-git-commit: 3d5ed7c5efd76616c8dbc89078f7368eedc5f1af
+source-git-commit: 1f9841ddd039a7591f396e38d8a93ed840d6879e
 workflow-type: tm+mt
-source-wordcount: '1146'
-ht-degree: 90%
+source-wordcount: '1011'
+ht-degree: 97%
 
 ---
 
@@ -25,6 +25,10 @@ ht-degree: 90%
 1. コンテンツ実験を使用している場合は、[この節](#experiment-prerequisite)に記載されている要件に従ってください。
 
 完了したら、最初のアプリ内メッセージを作成、設定および送信できます。これを実現する方法について詳しくは、[この節](create-in-app.md)を参照してください。
+
+>[!CAUTION]
+>
+>偽名プロファイル（未認証の訪問者）をアプリ内メッセージでターゲティングする場合は、自動プロファイル削除の有効期間（TTL）を設定して、エンゲージメント可能なプロファイル数と関連コストを管理することを検討します。 [詳細情報](../start/guardrails.md#profile-management-inbound)
 
 ## 配信の前提条件 {#delivery-prerequisites}
 
@@ -82,7 +86,7 @@ Journey Optimizer でアプリ内設定を作成するには、次の手順に�
 
    >[!NOTE]
    >
-   >iOS および Android プラットフォームの場合、配信はアプリ ID のみに基づきます。両方のアプリが同じアプリ ID を共有している場合、**[!UICONTROL チャネル設定]**&#x200B;で選択したプラットフォームに関係なく、コンテンツは両方に配信されます。
+   >iOS および Android プラットフォームの場合、配信はアプリ ID のみに基づきます。両方のアプリが同じアプリ ID を共有している場合、**[!UICONTROL チャネル設定]**で選択したプラットフォームに関係なく、コンテンツは両方に配信されます。
    >アプリ内メッセージの配信を特定のプラットフォームに制限するには、ジャーニーまたはキャンペーンロジック内にデバイス固有のルールを実装する必要があります。
 
    ![](assets/inapp_config_10.png)
@@ -138,22 +142,9 @@ Journey Optimizer でアプリ内設定を作成するには、次の手順に�
 
 **関連トピック：**
 
-* [アプリ内メッセージの作成 &#x200B;](create-in-app.md)
+* [アプリ内メッセージの作成 ](create-in-app.md)
 * [キャンペーンの作成](../campaigns/create-campaign.md)
 * [アプリ内メッセージのデザイン](design-in-app.md)
 * [アプリ内レポート](../reports/campaign-global-report-cja-inapp.md)
 
-## プロファイル管理ガードレール {#profile-management-guardrail}
-
-[!DNL Journey Optimizer] アプリ内メッセージは、偽名プロファイルをターゲットにすることができます。つまり、他のチャネルでこれまで関与したことがないので、認証されていないプロファイルや、まだ知られていないプロファイルを意味します。 これは、例えば、すべての訪問者やオーディエンスを ECID などの一時 ID に基づいてターゲティングしている場合です。
-
-これにより、エンゲージメント可能なプロファイルの総数が増え、ユーザーが購入した、エンゲージメント可能なプロファイルの契約上の数を超えると、コストに影響する可能性があります。各パッケージのライセンス指標は、[Journey Optimizer の製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}ページにリストされています。エンゲージメント可能なプロファイルの数は、[ライセンス使用状況ダッシュボード](../audience/license-usage.md)で確認できます。
-
-エンゲージメント可能なプロファイルを適切な制限内に保つために、Adobeでは、偽名プロファイルが特定の期間内に表示または関与していない場合は、偽名プロファイルをリアルタイム顧客プロファイルから自動的に削除するように、Time-To-Live （TTL）を設定することをお勧めします。
-
->[!NOTE]
->
->偽名プロファイルのデータの有効期限を設定する方法については、[Experience Platform ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/pseudonymous-profiles){target="_blank"} を参照してください。
-
-Adobeでは、現在のEdge プロファイル TTL に一致するように TTL 値を 14 日に設定することをお勧めします。
 

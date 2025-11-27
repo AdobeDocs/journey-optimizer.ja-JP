@@ -6,16 +6,22 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
-workflow-type: ht
-source-wordcount: '371'
-ht-degree: 100%
+source-git-commit: 1b6158132e5df1912d9658805fa8b1344c6f938f
+workflow-type: tm+mt
+source-wordcount: '460'
+ht-degree: 81%
 
 ---
 
-# コードベースのエクスペリエンス実装での決定
+# コードベースのエクスペリエンス実装での決定 {#code-based-decisioning-implementations}
 
 コードベースのエクスペリエンスで決定を使用する際は、以下に説明するケースで、クライアント実装に次のフラグを追加することを検討してください。
+
+➡️ 意思決定およびコードベースのエクスペリエンス用に web SDKを設定する方法については、[ これらのチュートリアル ](#tutorials) を参照してください。
+
+>[!CAUTION]
+>
+>コードベースのエクスペリエンスチャネルでは、[!DNL Journey Optimizer][Decisioning](../experience-decisioning/gs-experience-decisioning.md) 機能のみをサポートしています。 従来の意思決定管理機能は、コードベースのエクスペリエンスでは使用できません。
 
 ## 決定を使用したコードベースのエクスペリエンスのテスト {#code-based-test-decisions}
 
@@ -288,3 +294,9 @@ curl --location 'https://edge-int.adobedc.net/ee/v1/interact?configId=2f21d344-b
 ```
 
 +++
+
+## チュートリアル{#tutorials}
+
+Journey Optimizerの Decisioning を使用して、web SDKの設定を中心に、web サイト上のコンテンツオファーをパーソナライズする方法を説明します [ このチュートリアル ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/use-decisioning-to-personalize-web-offers/introduction){target="_blank"}。
+
+Web SDKを設定し、コードベースのエクスペリエンスと意思決定を使用して、リアルタイムの天気データとコンテキスト情報を使用してオファーをパーソナライズする方法を説明します [ このチュートリアル ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/personalizing-offers-with-real-time-weather-data/introduction){target="_blank"}。

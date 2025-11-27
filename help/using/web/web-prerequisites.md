@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: 3d5ed7c5efd76616c8dbc89078f7368eedc5f1af
+source-git-commit: 1f9841ddd039a7591f396e38d8a93ed840d6879e
 workflow-type: tm+mt
-source-wordcount: '1346'
-ht-degree: 89%
+source-wordcount: '1181'
+ht-degree: 97%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 89%
 
 >[!NOTE]
 >
->偽名プロファイル（未認証の訪問者）を web ページのターゲットにする場合は、自動プロファイル削除の有効期間（TTL）を設定して、エンゲージメント可能なプロファイル数と関連コストを管理することを検討してください。 [詳細情報](#profile-management-guardrail)
+>偽名プロファイル（未認証の訪問者）を web ページのターゲットにする場合は、自動プロファイル削除の有効期間（TTL）を設定して、エンゲージメント可能なプロファイル数と関連コストを管理することを検討してください。 [詳細情報](../start/guardrails.md#profile-management-inbound)
 
 ## 実装の前提条件 {#implementation-prerequisites}
 
@@ -45,7 +45,7 @@ Web プロパティで web チャネルキャンペーンのオーサリング�
 >
 >サーバーサイドのみの実装は、現在、web チャネルではサポートされていません。Web ページのサーバーサイドのみの実装がある場合は、代わりに[コードベースのエクスペリエンスチャネル](../code-based/get-started-code-based.md)を使用できます。
 
-<!--If the Adobe Experience Platform Web SDK is not yet implemented on the website, a message displays in the web designer suggesting that you install the Visual Editing Helper browser extension and implement the [Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja){target="_blank"}.-->
+<!--If the Adobe Experience Platform Web SDK is not yet implemented on the website, a message displays in the web designer suggesting that you install the Visual Editing Helper browser extension and implement the [Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"}.-->
 
 ## ビジュアルオーサリングの前提条件 {#visual-authoring-prerequisites}
 
@@ -155,17 +155,3 @@ Web チャネルのレポーティングを有効にするには、web 実装[�
 ## アセットのブランドドメイン {#branded-domains-for-assets}
 
 Web エクスペリエンスの作成時に [Adobe Experience Manager Assets](../integrations/assets.md) ライブラリのコンテンツを追加する場合は、このコンテンツの公開に使用するサブドメインを設定する必要があります。[詳細情報](web-delegated-subdomains.md)
-
-## プロファイル管理ガードレール {#profile-management-guardrail}
-
-[!DNL Journey Optimizer] web キャンペーンでは、偽名プロファイルをターゲットにすることができます。つまり、他のチャネルでこれまで関与したことがないので、認証されていないプロファイルや、まだ知られていないプロファイルを意味します。 これは、例えば、すべての訪問者やオーディエンスを ECID などの一時 ID に基づいてターゲティングしている場合です。
-
-これにより、エンゲージメント可能なプロファイルの総数が増え、ユーザーが購入した、エンゲージメント可能なプロファイルの契約上の数を超えると、コストに影響する可能性があります。各パッケージのライセンス指標は、[Journey Optimizer の製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}ページにリストされています。エンゲージメント可能なプロファイルの数は、[ライセンス使用状況ダッシュボード](../audience/license-usage.md)で確認できます。
-
-エンゲージメント可能なプロファイルを適切な制限内に保つために、Adobeでは、偽名プロファイルが特定の期間内に表示または関与していない場合は、偽名プロファイルをリアルタイム顧客プロファイルから自動的に削除するように、Time-To-Live （TTL）を設定することをお勧めします。
-
->[!NOTE]
->
->偽名プロファイルのデータの有効期限を設定する方法については、[Experience Platform ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/pseudonymous-profiles){target="_blank"} を参照してください。
-
-Adobeでは、現在のEdge プロファイル TTL に一致するように TTL 値を 14 日に設定することをお勧めします。
