@@ -39,7 +39,7 @@ ht-degree: 46%
 
 >[!INFO]
 >
->詳しくは、この[概要](https://business.adobe.com/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"}と [!DNL Adobe GenStudio for Performance Marketing] の[デモ](https://business.adobe.com/products/genstudio-for-performance-marketing.html#demo){target="_blank"}を参照してください。
+>詳しくは、この[概要](https://business.adobe.com/jp/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"}と [!DNL Adobe GenStudio for Performance Marketing] の[デモ](https://business.adobe.com/jp/products/genstudio-for-performance-marketing.html#demo){target="_blank"}を参照してください。
 
 ➡️ [この機能をビデオで確認](#video)
 
@@ -51,7 +51,7 @@ ht-degree: 46%
 
 * [!DNL GenStudio for Performance Marketing] と [!DNL Adobe Journey Optimizer] の両方が同じ IMS 組織に属している必要があります。
 
-* 統合機能を利用するには、ユーザーが少なくとも **共同作業者** の役割以上を持ってい [!DNL GenStudio for Performance Marketing] 必要があります。 [GenStudioのユーザーロールの詳細情報 &#x200B;](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles){target="_blank"}
+* 統合機能を利用するには、ユーザーが少なくとも **共同作業者** の役割以上を持ってい [!DNL GenStudio for Performance Marketing] 必要があります。 [GenStudioのユーザーロールの詳細情報 &#x200B;](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles){target="_blank"}
 
 <!--To access the GenStudio integration in [!DNL Adobe Journey Optimizer] feature, users need to be granted the **xxx** permission. [Learn more](../administration/permissions.md)
 
