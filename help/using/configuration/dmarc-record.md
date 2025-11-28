@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: サブドメイン、ドメイン、メール、DMARC、レコード
 exl-id: f9e217f8-5aa8-4d3a-96fc-65defcb5d340
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '1482'
-ht-degree: 100%
+source-git-commit: 502f26ba3f8f5fa0db73be9f0cf66b21dbea507b
+workflow-type: tm+mt
+source-wordcount: '1577'
+ht-degree: 94%
 
 ---
 
@@ -190,6 +190,16 @@ Google と Yahoo! は、業界のベストプラクティス実施の一環と�
    ベストプラクティスとして、DMARC のコンプライアンス率を高め（理想的には 100 %に近い水準に目標を定め）、誤検出のリスクを最小限に抑えながら、セキュリティ上のメリットを最大限に活用します。
 
 1. **レポート間隔**&#x200B;を 24 時間から 168 時間の間で選択します。これにより、ドメイン所有者はメール認証結果に関する最新情報を定期的に受け取り、メールのセキュリティを向上させるために必要な措置を講じることができます。
+
+### トラブルシューティング {#troubleshooting}
+
+DMARC レコードを設定するには、ドメインの DNS 設定に DNS TXT レコードを追加します。 このレコードは、認証に失敗したメッセージを強制隔離するか拒否するかなど、DMARC ポリシーを指定します。
+
+DNS の変更がインターネット全体に反映されるまでには、通常、数分から 48 時間かかります。
+
+DMARC設定を変更した直後に更新を検証しようとすると、エラーが表示されるか、変更内容がまだ検出されない場合があります。
+
+DNS レコードが反映されるまで十分な時間をおいて、DMARCの設定を確認します。
 
 <!--The DMARC reporting interval is specified in the DMARC policy published in the DNS (Domain Name System) records for a domain. The reporting interval can be set to daily, weekly, or another specified frequency, depending on the domain owner's preferences.
 
