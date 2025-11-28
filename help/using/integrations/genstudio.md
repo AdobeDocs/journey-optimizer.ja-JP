@@ -51,7 +51,7 @@ ht-degree: 46%
 
 * [!DNL GenStudio for Performance Marketing] と [!DNL Adobe Journey Optimizer] の両方が同じ IMS 組織に属している必要があります。
 
-* 統合機能を利用するには、ユーザーが少なくとも **共同作業者** の役割以上を持ってい [!DNL GenStudio for Performance Marketing] 必要があります。 [GenStudioのユーザーロールの詳細情報 ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles){target="_blank"}
+* 統合機能を利用するには、ユーザーが少なくとも **共同作業者** の役割以上を持ってい [!DNL GenStudio for Performance Marketing] 必要があります。 [GenStudioのユーザーロールの詳細情報 &#x200B;](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles){target="_blank"}
 
 <!--To access the GenStudio integration in [!DNL Adobe Journey Optimizer] feature, users need to be granted the **xxx** permission. [Learn more](../administration/permissions.md)
 
@@ -157,9 +157,9 @@ GenStudioでメールのバリエーションを作成したら、キャンペ�
 
    >[!NOTE]
    >
-   >GenStudioのエクスペリエンス [ テンプレートから作成  [!DNL Journey Optimizer]  は ](#export-from-ajo-to-genstudio) 完全な編集機能を使用して、メールDesignerに直接読み込まれます。 [!DNL Journey Optimizer] テンプレートを使用せずに作成されたGenStudio エクスペリエンスは [ 互換モード ](../email/existing-content.md) に読み込まれますが、その場合、編集機能が制限される可能性があります。
+   >GenStudioのエクスペリエンス [&#x200B; テンプレートから作成  [!DNL Journey Optimizer]  は &#x200B;](#export-from-ajo-to-genstudio) 完全な編集機能を使用して、メールDesignerに直接読み込まれます。 [!DNL Journey Optimizer] テンプレートを使用せずに作成されたGenStudio エクスペリエンスは [&#x200B; 互換モード &#x200B;](../email/existing-content.md) に読み込まれますが、その場合、編集機能が制限される可能性があります。
 
-1. [ メールコンテンツ編集ツール ](../email/content-from-scratch.md) および [ パーソナライゼーションフィールド ](../personalization/personalize.md) を使用して、必要に応じてメールを編集します。 コンテンツを保存します。
+1. [&#x200B; メールコンテンツ編集ツール &#x200B;](../email/content-from-scratch.md) および [&#x200B; パーソナライゼーションフィールド &#x200B;](../personalization/personalize.md) を使用して、必要に応じてメールを編集します。 コンテンツを保存します。
 
 1. キャンペーンの概要ページに戻り、「**[!UICONTROL 実験を作成]**」をクリックして、実験を使用します。[詳しくは、コンテンツ実験の作成方法を参照してください](../content-management/content-experiment.md)
 
@@ -189,7 +189,7 @@ GenStudioでメールのバリエーションを作成したら、キャンペ�
 
 +++GenStudioのコンテンツをJourney Optimizerに読み込んだ後に編集できますか？
 
-はい。GenStudio エクスペリエンスを [!DNL Journey Optimizer] に読み込んだ後、メールDesigner[ コンテンツ編集ツール ](../email/content-from-scratch.md) を使用して [ パーソナライゼーションフィールド ](../personalization/personalize.md) を追加し、メールコンテンツをさらにカスタマイズできます。
+はい。GenStudio エクスペリエンスを [!DNL Journey Optimizer] に読み込んだ後、メールDesigner[&#x200B; コンテンツ編集ツール &#x200B;](../email/content-from-scratch.md) を使用して [&#x200B; パーソナライゼーションフィールド &#x200B;](../personalization/personalize.md) を追加し、メールコンテンツをさらにカスタマイズできます。
 +++
 
 +++Journey Optimizer テンプレートを使用せずに作成されたGenStudio エクスペリエンスはどうなりますか。
@@ -199,7 +199,7 @@ GenStudioでメールのバリエーションを作成したら、キャンペ�
 
 +++Journey Optimizerで複数のGenStudio メールのバリエーションをテストできますか？
 
-はい。様々なGenStudio メールのバリエーションを読み込むことで、複数のコンテンツ処理を作成し、Journey Optimizerの [ コンテンツ実験 ](../content-management/content-experiment.md) 機能を使用して、オーディエンスに最も効果の高いバリエーションをテストできます。
+はい。様々なGenStudio メールのバリエーションを読み込むことで、複数のコンテンツ処理を作成し、Journey Optimizerの [&#x200B; コンテンツ実験 &#x200B;](../content-management/content-experiment.md) 機能を使用して、オーディエンスに最も効果の高いバリエーションをテストできます。
 +++
 
 +++GenStudioでは、ブランドの一貫性をどのように確保していますか？
