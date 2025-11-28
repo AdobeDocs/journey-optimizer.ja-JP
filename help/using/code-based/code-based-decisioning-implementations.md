@@ -21,7 +21,7 @@ ht-degree: 77%
 >
 >コードベースのエクスペリエンスチャネルでは、[!DNL Journey Optimizer][Decisioning](../experience-decisioning/gs-experience-decisioning.md) 機能のみをサポートしています。 従来の意思決定管理機能は、コードベースのエクスペリエンスでは使用できません。
 
-➡️ コードベースのエクスペリエンスと意思決定のための web SDKの設定について詳しくは、[ これらのチュートリアル ](#tutorials) を参照してください。
+➡️ コードベースのエクスペリエンスと意思決定のための web SDKの設定について詳しくは、[&#x200B; これらのチュートリアル &#x200B;](#tutorials) を参照してください。
 
 ## 決定を使用したコードベースのエクスペリエンスのテスト {#code-based-test-decisions}
 
@@ -297,10 +297,10 @@ curl --location 'https://edge-int.adobedc.net/ee/v1/interact?configId=2f21d344-b
 
 ## チュートリアル {#tutorials}
 
-[ このチュートリアル ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/#implement-extension-in-mobile-app){target="_blank"} のAdobe Experience Platform Mobile SDK 用の [Adobe Journey Optimizer拡張機能 ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"} を使用して、コードベースのエクスペリエンスを取得、表示、トラッキングする方法を説明します。
+[&#x200B; このチュートリアル &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/#implement-extension-in-mobile-app){target="_blank"} のAdobe Experience Platform Mobile SDK 用の [Adobe Journey Optimizer拡張機能 &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"} を使用して、コードベースのエクスペリエンスを取得、表示、トラッキングする方法を説明します。
 
-[ このチュートリアル ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/use-decisioning-to-personalize-web-offers/introduction){target="_blank"} では、Journey Optimizerの Decisioning を使用して、web SDKの設定を中心に、web サイト上のコンテンツオファーをパーソナライズする方法を説明します。
+[&#x200B; このチュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/use-decisioning-to-personalize-web-offers/introduction){target="_blank"} では、Journey Optimizerの Decisioning を使用して、web SDKの設定を中心に、web サイト上のコンテンツオファーをパーソナライズする方法を説明します。
 
-Web SDKを設定し、コードベースのエクスペリエンスと意思決定を使用して、リアルタイムの天気データとコンテキスト情報を使用してオファーをパーソナライズする方法を説明します [ このチュートリアル ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/personalizing-offers-with-real-time-weather-data/introduction){target="_blank"}。
+Web SDKを設定し、コードベースのエクスペリエンスと意思決定を使用して、リアルタイムの天気データとコンテキスト情報を使用してオファーをパーソナライズする方法を説明します [&#x200B; このチュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/personalizing-offers-with-real-time-weather-data/introduction){target="_blank"}。
 
 
