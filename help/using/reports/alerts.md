@@ -8,10 +8,10 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '2153'
-ht-degree: 100%
+source-git-commit: 767eb74a6ba13013b290eaa28ba8ff590e8b6781
+workflow-type: tm+mt
+source-wordcount: '2216'
+ht-degree: 97%
 
 ---
 
@@ -91,7 +91,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL 保存]**」をクリックして確認します。
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=ja#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## ジャーニーアラート {#journey-alerts}
 
@@ -158,11 +158,19 @@ ht-degree: 100%
 
 ### ジャーニーが公開されました {#alert-journey-published}
 
+>[!AVAILABILITY]
+>
+>このアラートは現在、機能が制限された状態で使用できます。 このアラートを購読することはできますが、通知はまだ完全には動作していません。
+
 このアラートは、ジャーニーキャンバスで実務担当者がジャーニーを公開した際に通知します。
 
 これは、組織のジャーニーライフサイクルイベントを追跡するのに役立つ情報アラートです。これは 1 回限りの通知なので、解決条件はありません。
 
 ### ジャーニーが完了しました {#alert-journey-finished}
+
+>[!AVAILABILITY]
+>
+>このアラートは現在、機能が制限された状態で使用できます。 このアラートを購読することはできますが、通知はまだ完全には動作していません。
 
 このアラートは、ジャーニーが完了した際に通知します。「完了」の定義は、ジャーニータイプによって異なります。
 
@@ -177,6 +185,10 @@ ht-degree: 100%
 これは、ジャーニーの完了を追跡するのに役立つ情報アラートです。これは 1 回限りの通知なので、解決条件はありません。
 
 ### カスタムアクションのキャップがトリガーされました {#alert-custom-action-capping}
+
+>[!AVAILABILITY]
+>
+>このアラートは現在、機能が制限された状態で使用できます。 このアラートを購読することはできますが、通知はまだ完全には動作していません。
 
 このアラートは、カスタムアクションでキャップ がトリガーされた際に警告します。キャップは、エンドポイントに過負荷がかかるのを防ぐために、外部エンドポイントに送信される呼び出しの数を制限するために使用されます。
 
