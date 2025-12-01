@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: dff732d14dd143f085b1287274f7571a900a0c87
+source-git-commit: 59e85eb7a14f88d95b2ef97e3ace11a65f115b75
 workflow-type: tm+mt
-source-wordcount: '2993'
-ht-degree: 98%
+source-wordcount: '2995'
+ht-degree: 99%
 
 ---
 
@@ -157,7 +157,7 @@ ht-degree: 98%
       + [API トリガーメールキャンペーンの高スループットモードのアクティブ化](using/campaigns/api-triggered-high-throughput.md)
    + 調整されたキャンペーン {#orchestrated-campaigns}
       + [調整されたキャンペーン](/help/rp_landing_pages/orchestrated-campaigns-landing-page.md)
-      + [調整されたキャンペーンの基本を学ぶ](using/orchestrated/gs-orchestrated-campaigns.md)
+      + [オーケストレーションキャンペーンの基本を学ぶ](using/orchestrated/gs-orchestrated-campaigns.md)
       + [ガードレールと制限](using/orchestrated/guardrails.md)
       + [よくある質問](using/orchestrated/orchestrated-campaigns-faq.md)
       + データ設定 {#data-configuration}
@@ -317,7 +317,7 @@ ht-degree: 98%
       + [テキストメッセージの確認および送信](using/sms/send-sms.md)
       + [テキストメッセージのオプトアウトの管理](using/sms/sms-opt-out.md)
       + [SMS サブドメインの設定](using/sms/sms-subdomains.md)
-      + [SMS のコスト最適化のベストプラクティス](using/sms/sms-cost-optimization.md)
+      + [SMS コスト最適化のベストプラクティス](using/sms/sms-cost-optimization.md)
       + SMS／MMS／RCS チャネルの設定 {#configure-sms}
          + [SMS／MMS／RCS チャネルの設定](/help/rp_landing_pages/configure-sms-landing-page.md)
          + [SMS／MMS／RCS 設定の基本を学ぶ](using/sms/sms-configuration.md)
@@ -392,8 +392,8 @@ ht-degree: 98%
       + [ライブアクティビティの作成](using/mobile-live/create-mobile-live.md)
       + [よくある質問](using/mobile-live/mobile-live-faq.md)
       + コンテンツカードチャネルの設定 {#configure}
-         + [Journey Optimizerでのライブアクティビティの設定](using/mobile-live/mobile-live-configuration.md)
-         + [ライブアクティビティのSDK統合の設定](using/mobile-live/mobile-live-configuration-sdk.md)
+         + [Journey Optimizer でのライブアクティビティの設定](using/mobile-live/mobile-live-configuration.md)
+         + [ライブアクティビティ SDK 統合の設定](using/mobile-live/mobile-live-configuration-sdk.md)
 + コンテンツ管理 {#content-management}
    + [コンテンツ管理](/help/rp_landing_pages/content-management-landing-page.md)
    + パーソナライゼーション {#personalization}
@@ -591,6 +591,7 @@ ht-degree: 98%
       + [決定](/help/rp_landing_pages/experience-decisioning-landing-page.md)
       + [決定の基本を学ぶ](using/experience-decisioning/gs-experience-decisioning.md)
       + [決定ガードレールと制限](using/experience-decisioning/decisioning-guardrails.md)
+      + [Decisioning FAQ](using/experience-decisioning/decisioning-faq.md)
       + API リファレンス {#experience-decisioning-api-reference}
          + [API リファレンス](/help/rp_landing_pages/experience-decisioning-api-reference-landing-page.md)
          + オファー項目の作成と管理 {#create-manage}
@@ -917,7 +918,7 @@ ht-degree: 98%
    + [プライバシー](/help/rp_landing_pages/privacy-landing-page.md)
    + [プライバシーの基本を学ぶ](using/privacy/get-started-privacy.md)
    + [プライバシーリクエスト](using/privacy/requests.md)
-   + [&#x200B; リソースに対する監査アクション](using/privacy/audit-logs.md)
+   + [ リソースに対する監査アクション](using/privacy/audit-logs.md)
    + [データライフサイクル操作の実行](using/privacy/data-hygiene.md)
    + 同意を管理 {#consent}
       + [同意を管理](/help/rp_landing_pages/consent-landing-page.md)
