@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: IP、グループ、サブドメイン、配信品質
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: fbd99b95b0e9aeb06435a81bf345dd615a0f9d02
-workflow-type: ht
-source-wordcount: '2723'
-ht-degree: 100%
+source-git-commit: 52021f85658fe37e5cd9b66e4e764ccc1c790b38
+workflow-type: tm+mt
+source-wordcount: '2730'
+ht-degree: 99%
 
 ---
 
@@ -230,7 +230,7 @@ IP ウォームアッププランのフェーズを定義した後、各フェ�
 
 >[!CAUTION]
 >
->各実行は、実際の送信時間の 12 時間以上前にアクティブ化する必要があります。そうしない場合、オーディエンスの評価が完了しない場合があります。
+>各実行は、実際の送信時間の少なくとも 12 時間前と、毎日のバッチセグメント化ジョブの前にアクティブ化する必要があります。 そうしない場合、オーディエンスの評価が完了しない場合があります。
 
 実行をアクティブ化すると、複数のオーディエンスが自動的に作成されます。
 
