@@ -109,7 +109,7 @@ Adobe Journey Optimizer を使用して、テキスト（SMS）、リッチ通�
 
    ![](assets/sms-content.png)
 
-1. [ テキスト生成用 AI アシスタント ](../content-management/generative-text.md) を使用して、オーディエンスに合わせた魅力的なテキストメッセージを生成します。
+1. [&#x200B; テキスト生成用 AI アシスタント &#x200B;](../content-management/generative-text.md) を使用して、オーディエンスに合わせた魅力的なテキストメッセージを生成します。
 
 1. パーソナライゼーションエディターを使用して、コンテンツの定義、パーソナライゼーションと動的コンテンツの追加を行います。プロファイル名や市区町村など、任意の属性を使用できます。また、条件ルールを定義することもできます。パーソナライゼーションエディターの[パーソナライゼーション](../personalization/personalize.md)と[動的コンテンツ](../personalization/get-started-dynamic-content.md)について詳しくは、次のページを参照してください。
 

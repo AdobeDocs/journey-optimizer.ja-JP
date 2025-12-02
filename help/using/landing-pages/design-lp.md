@@ -26,7 +26,7 @@ ht-degree: 90%
 
 * コンテンツ designer のインターフェイスで&#x200B;**ランディングページをゼロから設計**&#x200B;し、[Adobe Experience Manager Assets](../integrations/assets.md) の画像を活用します。コンテンツ<!--or use built-in templates--> のデザイン方法については、 [この節](../email/content-from-scratch.md)を参照してください。
 
-* **AI アシスタントを使用してコンテンツを生成** AI で生成されたテキストと画像を使用して、ランディングページの作成を高速化します。 [AI アシスタントの詳細を説明します ](../content-management/generative-full-content.md)。
+* **AI アシスタントを使用してコンテンツを生成** AI で生成されたテキストと画像を使用して、ランディングページの作成を高速化します。 [AI アシスタントの詳細を説明します &#x200B;](../content-management/generative-full-content.md)。
 
 * コンテンツ designer に直接 **Raw HTML をコーディングまたは貼り付け**&#x200B;ます。独自のコンテンツの作成方法については、[この節](../email/code-content.md)を参照してください。
 
@@ -36,6 +36,6 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->ランディングページのコンテンツデザイナーは、E メールデザイナーと非常に似ています。詳しくは、[ [!DNL Journey Optimizer]](../email/get-started-email-design.md) でのコンテンツのデザインを参照してください。
+>ランディングページのコンテンツデザイナーは、E メールデザイナーと非常に似ています。詳しくは、[&#x200B; [!DNL Journey Optimizer]](../email/get-started-email-design.md) でのコンテンツのデザインを参照してください。
 >
 >[欧州アクセシビリティ法](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}では、すべてのデジタル通信がアクセス可能である必要があると規定しています。[!DNL Journey Optimizer] でコンテンツをデザインする際は、[このページ](../email/accessible-content.md)に記載されている特定のガイドラインに従ってください。
