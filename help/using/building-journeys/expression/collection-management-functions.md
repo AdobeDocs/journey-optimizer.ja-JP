@@ -9,10 +9,10 @@ level: Experienced
 keywords: クエリ, コレクション, 関数, ペイロード, ジャーニー
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: ht
-source-wordcount: '481'
-ht-degree: 100%
+source-git-commit: e7693ba84d8806cf4b0dc10e8fdd18f2511e37ea
+workflow-type: tm+mt
+source-wordcount: '545'
+ht-degree: 82%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 式言語には、クエリコレクションに対する一連の関数も導入されています。これらの関数について以下で説明します。
 
-次の例では、コレクションを含むイベントペイロードを使用します。
+次の例では、「LobbyBeacon」という名前のイベントを使用して、プッシュ通知トークンのコレクションを含めています。 このページの例では、次に示すイベントペイロード構造を使用しています。
 
 ```json
                 { 
@@ -65,6 +65,10 @@ ht-degree: 100%
 }
 ```
 
+>[!NOTE]
+>
+>以下の例では、`@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens}` を使用してこのペイロードが参照されています。ここで、「LobbyBeacon」はイベント名で、残りのパスは上記の構造に対応しています。
+
 ## all(`<condition>`) 関数
 
 この **[!UICONTROL all]** 関数では、ブール式を使用して指定のコレクションに対するフィルターを定義できます。
@@ -73,9 +77,13 @@ ht-degree: 100%
 <listExpression>.all(<condition>)
 ```
 
-例えば、すべてのアプリユーザーの中から、iOS 13 を使用しているユーザーを取得できます（ブール式「app used == IOS 13」）。この関数の結果は、ブール式に一致する項目（例：アプリユーザー 1、アプリユーザー 34、アプリユーザー 432）を含んだフィルター済みリストになります。
+**概念例：** すべてのアプリユーザーの中から、IOS 13 を使用しているユーザーを取得できます（ブール式「app used == IOS 13」）。 この関数の結果は、ブール式に一致する項目（例：アプリユーザー 1、アプリユーザー 34、アプリユーザー 432）を含んだフィルター済みリストになります。
 
 「データソースの条件」アクティビティでは、**[!UICONTROL all]** 関数の結果が null かどうかを確認できます。また、この **[!UICONTROL all]** 関数を、**[!UICONTROL count]** 関数などの他の関数と組み合わせることができます。詳しくは、[「データソースの条件」アクティビティ](../condition-activity.md#data_source_condition)を参照してください。
+
+**LobbyBeacon ペイロードを使用したコード例：**
+
+以下の例では、このページの上部に表示されるイベントペイロードを使用しています。
 
 
 >[!CAUTION]
