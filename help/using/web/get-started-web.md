@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 8f06b8f0-f64d-42f7-9b10-7bb76f63d1c5
-source-git-commit: 9619ffd2cde677c0c83ee1b53f232c41b5faaa9a
-workflow-type: ht
-source-wordcount: '257'
-ht-degree: 100%
+source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+workflow-type: tm+mt
+source-wordcount: '275'
+ht-degree: 93%
 
 ---
 
@@ -75,6 +75,7 @@ Web キャンペーンを作成する詳細な手順については、[こちら
 * **[Web コンテンツの編集](create-web.md#edit-web-content)** - web デザイナーを習得し、ビジュアル編集モードまたは非ビジュアル編集モードを使用してページを変更します。
 * **[Web 変更の管理](manage-web-modifications.md)** - web エクスペリエンスをまたいで変更を整理、適用、管理する方法について説明します。
 * **[Web エクスペリエンスの監視](monitor-web-experiences.md)** - 詳細なレポートを使用して、web キャンペーンのパフォーマンスを追跡および分析します。
+* **[AI アシスタントを使用した web コンテンツの生成](../content-management/generative-full-content.md)** - AI を活用して、テキストや画像を含む web コンテンツを作成および最適化します。
 * **[Web キャンペーンのチュートリアル](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/channels/web-channel/create-a-web-campaign){target="_blank"}** - web チャネルの機能とベストプラクティスに関するステップバイステップのビデオチュートリアルを参照してください。
 
 

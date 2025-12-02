@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 5063115c6ac93ef332044bfff43a4df817a1a4e3
+source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
 workflow-type: tm+mt
-source-wordcount: '919'
-ht-degree: 100%
+source-wordcount: '866'
+ht-degree: 97%
 
 ---
 
@@ -71,7 +71,7 @@ Adobe Journey Optimizer の AI アシスタントを使用して、様々なメ�
 
 >[!IMPORTANT]
 >
->* この機能の使用を開始する前に、関連する[ガードレールと制限](#generative-guardrails)のトピックをお読みください。
+>* この機能の使用を開始する前に、関連する[ガードレールと制限](#generative-guardrails)のトピックに目を通してください。
 >
 >
 >* Adobe Journey Optimizer で AI アシスタントを使用する前に、[ユーザー契約](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}に同意する必要があります。詳しくは、アドビ担当者にお問い合わせください。
@@ -128,45 +128,34 @@ Adobe Journey Optimizer の AI アシスタントには、次の制限が適用�
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
-<a href="generative-email.md">
-<img alt="メールの生成" src="assets/do-not-localize/text-genai.jpeg">
+<a href="generative-full-content.md">
+<img alt="完全なコンテンツ生成" src="assets/do-not-localize/email-genai.jpeg">
 </a>
 <div>
-<a href="generative-email.md"><strong>メールの生成</strong></a>
+<a href="generative-full-content.md"><strong> 完全なコンテンツを生成 </strong></a>
 </div>
 <p>
 </td>
 <td>
-<a href="generative-sms.md">
-<img alt="SMS の生成" src="assets/do-not-localize/image-genai.jpeg">
+<a href="generative-text.md">
+<img alt="テキスト生成" src="assets/do-not-localize/text-genai.jpeg">
 </a>
-<div><a href="generative-sms.md"><strong>SMS の生成</strong>
+<div><a href="generative-text.md"><strong> テキストを生成 </strong>
 </div>
 <p>
 </td>
 <td>
-<a href="generative-push.md">
-<img alt="プッシュの生成" src="assets/do-not-localize/email-genai.jpeg">
+<a href="generative-image.md">
+<img alt="画像生成" src="assets/do-not-localize/image-genai.jpeg">
 </a>
 <div>
-<a href="generative-push.md"><strong>プッシュ通知の生成</strong></a>
+<a href="generative-image.md"><strong> 画像の生成 </strong></a>
 </div>
 <p></td>
-<td>
-<a href="generative-web.md">
-<img alt="Web 生成" src="assets/do-not-localize/web-genai.jpeg">
-</a>
-<div><a href="generative-web.md"><strong>Web ページの生成</strong>
-</div>
-<p>
-</td>
 </tr></table>
 
 ## その他のリソース
 
-* **[メール用 AI アシスタント](generative-email.md)** - AI アシスタントを使用してメールコンテンツのバリエーションを生成および最適化する方法について説明します。
-* **[プッシュ通知用 AI アシスタント](generative-push.md)** - AI アシスタントを使用して魅力的なプッシュ通知コンテンツを作成する方法について説明します。
-* **[SMS 用 AI アシスタント](generative-sms.md)** - AI を活用したコンテンツ作成を使用して、効果的な SMS メッセージのバリエーションを生成します。
-* **[Web エクスペリエンス用 AI アシスタント](generative-web.md)** - AI アシスタントを使用して web コンテンツを作成および最適化する方法について説明します。
 * **[生成実験](generative-experimentation.md)** - AI 生成コンテンツと実験を組み合わせる方法について説明します。
+* **[AI アシスタントのユースケース](generative-uc.md)** - AI アシスタントの使用方法に関するユースケースを説明します。
 * **[AI アシスタントのチュートリアル](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/ai-assistant){target="_blank"}** - AI アシスタントの機能とベストプラクティスに関するステップバイステップのビデオチュートリアルを参照してください。

@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '1105'
-ht-degree: 100%
+source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+workflow-type: tm+mt
+source-wordcount: '1119'
+ht-degree: 98%
 
 ---
 
@@ -98,6 +98,7 @@ Adobe Journey Optimizer を使用して、テキスト（SMS）、リッチ通�
 >title="SMS コンテンツの定義"
 >abstract="パーソナライゼーションエディターを使用してコンテンツを定義し、動的要素を組み込むことで、テキストメッセージ（SMS／MMS／RCS）をカスタマイズおよびパーソナライズします。"
 
+
 メッセージコンテンツを設定するには、次の手順に従います。MMS の設定について詳しくは、[この節](#mms-content)を参照してください。
 
 1. ジャーニーまたはキャンペーンの設定画面で、「**[!UICONTROL コンテンツを編集]**」ボタンをクリックして、テキストメッセージのコンテンツを設定します。
@@ -107,6 +108,8 @@ Adobe Journey Optimizer を使用して、テキスト（SMS）、リッチ通�
    Infobip、Twilio またはその他のサードパーティプロバイダーを使用した RCS メッセージの場合は、必要な JSON ペイロードを[カスタム SMS 設定](sms-configuration-custom.md#api-credential)に貼り付けます。
 
    ![](assets/sms-content.png)
+
+1. [ テキスト生成用 AI アシスタント ](../content-management/generative-text.md) を使用して、オーディエンスに合わせた魅力的なテキストメッセージを生成します。
 
 1. パーソナライゼーションエディターを使用して、コンテンツの定義、パーソナライゼーションと動的コンテンツの追加を行います。プロファイル名や市区町村など、任意の属性を使用できます。また、条件ルールを定義することもできます。パーソナライゼーションエディターの[パーソナライゼーション](../personalization/personalize.md)と[動的コンテンツ](../personalization/get-started-dynamic-content.md)について詳しくは、次のページを参照してください。
 

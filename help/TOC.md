@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 59e85eb7a14f88d95b2ef97e3ace11a65f115b75
+source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
 workflow-type: tm+mt
-source-wordcount: '2995'
+source-wordcount: '2988'
 ht-degree: 99%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 99%
    + [AI アシスタントの操作](using/start/ai-assistant.md)
    + [AJOの AI 機能](/help/rp_landing_pages/ai-capabilities-landing-page.md)
    + [ユースケースプレイブック](using/start/playbooks.md)
-   + [ガードレールと制限事項](using/start/guardrails.md)
+   + [ガードレールと制限](using/start/guardrails.md)
 + ジャーニー {#orchestrate-journeys}
    + [ジャーニー](/help/rp_landing_pages/orchestrate-journeys-landing-page.md)
    + [ジャーニーの基本を学ぶ](using/building-journeys/journey.md)
@@ -125,7 +125,7 @@ ht-degree: 99%
       + [マルチチャネルメッセージの送信](using/building-journeys/journeys-uc.md)
       + [Campaign v7／v8 を使用したメッセージの送信](using/building-journeys/ajo-ac.md)
       + [サブスクライバーへのメッセージの送信](using/building-journeys/message-to-subscribers-uc.md)
-      + [平日にのみメールを送信](using/building-journeys/weekday-email-uc.md)
+      + [平日にのみメールを送信する](using/building-journeys/weekday-email-uc.md)
       + [カスタムアクションパラメーターへのコレクションの受け渡し](using/building-journeys/collections.md)
       + [配信を増やす](using/building-journeys/ramp-up-deliveries-uc.md)
       + [外部データソースとカスタムアクションを使用したスループットの制限](using/building-journeys/limit-throughput.md)
@@ -475,12 +475,10 @@ ht-degree: 99%
       + [コンテンツ生成用 AI アシスタント](/help/rp_landing_pages/ai-assistant-landing-page.md)
       + [AI アシスタントの基本を学ぶ](using/content-management/gs-generative.md)
       + [AI プロンプトのベストプラクティス](using/content-management/ai-assistant-prompting-guide.md)
-      + [AI によるメール生成](using/content-management/generative-email.md)
-      + [AI によるプッシュ生成](using/content-management/generative-push.md)
-      + [AI による SMS 生成](using/content-management/generative-sms.md)
-      + [AI による web 生成](using/content-management/generative-web.md)
+      + [AI を使用して完全なコンテンツを生成](using/content-management/generative-full-content.md)
+      + [AI を使用してテキストを生成](using/content-management/generative-text.md)
+      + [AI を使用した画像の生成](using/content-management/generative-image.md)
       + [AI によるコンテンツ実験](using/content-management/generative-experimentation.md)
-      + [AI によるランディングページ](using/content-management/generative-lp.md)
       + [AI アシスタントのユースケース](using/content-management/generative-uc.md)
       + ブランド {#brands}
          + [ブランド](/help/rp_landing_pages/brands-landing-page.md)
@@ -918,7 +916,7 @@ ht-degree: 99%
    + [プライバシー](/help/rp_landing_pages/privacy-landing-page.md)
    + [プライバシーの基本を学ぶ](using/privacy/get-started-privacy.md)
    + [プライバシーリクエスト](using/privacy/requests.md)
-   + [&#x200B; リソースに対する監査アクション](using/privacy/audit-logs.md)
+   + [ リソースに対する監査アクション](using/privacy/audit-logs.md)
    + [データライフサイクル操作の実行](using/privacy/data-hygiene.md)
    + 同意を管理 {#consent}
       + [同意を管理](/help/rp_landing_pages/consent-landing-page.md)

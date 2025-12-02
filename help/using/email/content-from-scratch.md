@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: コンテンツ, エディター, メール, 開始
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
-source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
-workflow-type: ht
-source-wordcount: '700'
-ht-degree: 100%
+source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+workflow-type: tm+mt
+source-wordcount: '723'
+ht-degree: 96%
 
 ---
 
@@ -71,6 +71,9 @@ ht-degree: 100%
 1. Designer のホームページで、「**[!UICONTROL ゼロからデザイン]**」オプションを選択します。
 
    ![](assets/email_designer.png)
+
+
+1. AI アシスタントを使用して電子メールの作成を高速化し、完全なコンテンツ生成のための [AI アシスタント ](../content-management/generative-full-content.md) を使用して、テキストや画像を含む完全な電子メールコンテンツを生成します。
 
 1. **[!UICONTROL 構造]**&#x200B;をキャンバスにドラッグ＆ドロップしてコンテンツのデザインを開始し、メールのレイアウトを定義します。
 

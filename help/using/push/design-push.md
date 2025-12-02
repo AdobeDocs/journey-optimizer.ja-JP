@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
-source-git-commit: 36056208cd1e435c4801bd178bdc5f2d74068dc5
+source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
 workflow-type: tm+mt
-source-wordcount: '1491'
-ht-degree: 100%
+source-wordcount: '1522'
+ht-degree: 97%
 
 ---
 
@@ -27,6 +27,8 @@ ht-degree: 100%
 メッセージを作成するには、「**[!UICONTROL タイトル]**」フィールドと「**[!UICONTROL 本文]**」フィールドをクリックします。パーソナライゼーションエディターを使用して、コンテンツの定義、データのパーソナライズ、動的コンテンツの追加を行います。パーソナライゼーションエディターでの[パーソナライズ機能](../personalization/personalize.md)および[動的コンテンツ](../personalization/get-started-dynamic-content.md)の詳細情報。
 
 デバイスのプレビューセクションを使用すると、iOS 端末と Android 端末で表示されるプッシュ通知を視覚化できます。
+
+AI アシスタントを使用してコンテンツの作成を高速化し、テキスト生成用の [AI アシスタントを使用して魅力的なプッシュ通知テキストを生成するか ](../content-management/generative-text.md) フルコンテンツ生成用の [AI アシスタント ](../content-management/generative-full-content.md) を使用して完全なプッシュ通知を作成します。
 
 ## クリック時の動作 {#on-click-behavior}
 

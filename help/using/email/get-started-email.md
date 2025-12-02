@@ -9,8 +9,8 @@ role: User
 level: Beginner
 keywords: メール, 開始, 作成, プレビュー
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
-source-git-commit: 73a347c104fe28799c264f9a8b6c3e5e12c8d892
-workflow-type: ht
+source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 100%
 
@@ -75,10 +75,10 @@ ht-degree: 100%
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
-<a href="../content-management/generative-email.md">
+<a href="../content-management/generative-full-content.md">
 <img alt="AI アシスタント" src="../assets/do-not-localize/email-generate.jpg">
 </a>
-<div><a href="../content-management/generative-email.md"><strong>コンテンツ生成用 AI アシスタント</strong>
+<div><a href="../content-management/generative-full-content.md"><strong>コンテンツ生成用 AI アシスタント</strong>
 </div>
 <p>
 </td>
