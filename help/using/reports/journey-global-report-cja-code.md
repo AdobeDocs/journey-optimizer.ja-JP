@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 33b6cc18-dd63-48d9-8d85-526500d83d37
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 670464cf2e6fdec6e1f74cc472fe15ad35760765
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 100%
+source-wordcount: '421'
+ht-degree: 91%
 
 ---
 
@@ -28,6 +28,10 @@ ht-degree: 100%
 ![](assets/report-access-jo.png)
 
 >[!ENDSHADEBOX]
+
+>[!NOTE]
+>
+>コードベースのエクスペリエンスは、ユーザーがサイトやアプリにアクセスしてオプトインするインバウンドインタラクションとして機能します。 その結果、アウトバウンドメッセージ配信用に選択されたプロファイルを追跡する **ターゲット** または **オーディエンス** 指標が、コードベースのキャンペーンでは増分されません。
 
 ## 表示してクリック {#impressions-code}
 
