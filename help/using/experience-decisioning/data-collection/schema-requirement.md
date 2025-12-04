@@ -6,14 +6,12 @@ description: イベントをキャプチャするためのオファースキー�
 feature: Ranking, Datasets, Decision Management
 role: Developer
 level: Experienced
-hide: true
-hidefromtoc: true
 exl-id: ce3a2c33-c15b-436f-90b1-7373d7b2b1ca
 version: Journey Orchestration
-source-git-commit: 3fa90fa707b562ecf2160ec980520bc8bc267a21
-workflow-type: ht
-source-wordcount: '271'
-ht-degree: 100%
+source-git-commit: 5de16a8f69089e49484104bbae109df111cbf1ed
+workflow-type: tm+mt
+source-wordcount: '231'
+ht-degree: 49%
 
 ---
 
@@ -23,43 +21,72 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->イベントタイプごとに、データセットで使用されるスキーマに、**[!UICONTROL エクスペリエンスイベント - 提案インタラクション]**&#x200B;フィールドグループが関連付けられていることを確認してください。[詳細情報](create-dataset.md)
+>イベントタイプごとに、データセットで使用されるスキーマに、**[!UICONTROL エクスペリエンスイベント – 提案インタラクション]** フィールドグループが関連付けられていることを確認してください。<!--[Learn more](create-dataset.md)-->
 
 JavaScript コードに実装する必要があるスキーマ要件は、以下のとおりです。
 
->[!NOTE]
->
->決定イベントは意思決定管理により自動的に生成され、自動生成される **[!UICONTROL ODE DecisionEvents]** データセット<!--to check-->に配置されるので、これらのイベントを送信する必要はありません。
-
 ## インプレッションの追跡 {#track-impressions}
 
-イベントタイプとソースが次のようになっていることを確認します。
+次のフィールドが正しく設定されていることを確認します。
 
 **エクスペリエンスイベントタイプ：** `decisioning.propositionDisplay`
-**ソース：** Web.sdk/Alloy.js（`sendEvent command -> xdm : {eventType, interactionMixin}`）またはバッチ取り込み
+
+**propositionEventType:** `_experience.decisioning.propositionEventType.display`
+
+**Source:** Web.sdk/Alloy.js （`sendEvent command -> xdm : {eventType, interactionMixin}`）またはバッチ取得
+
 +++**サンプルペイロード：**
 
-```
+```json
 {
-    "@id": "a7864a96-1eac-4934-ab44-54ad037b4f2b",
-    "xdm:timestamp": "2023-09-26T15:52:25+00:00",
-    "xdm:eventType": "decisioning.propositionDisplay",
-    "https://ns.adobe.com/experience/decisioning/propositions":
-    [
+  "_experience": {
+    "decisioning": {
+      "propositionEventType": {
+        "display": 1
+      },
+      "proposition": [
         {
-            "xdm:items":
-            [
-                {
-                    "xdm:id": "personalized-offer:f67bab756ed6ee4",
+          "items": [
+            {
+              "itemSelection": {
+                "rankingDetail": {
+                  "algorithmID": "RANDOM",
+                  "strategyID": "1YYKhS4MImWqIBrpudMIf4",
+                  "trafficType": "random",
+                  "step": "aiModel"
                 },
-                {
-                    "xdm:id": "personalized-offer:f67bab756ed6ee5",
+                "selectionDetail": {
+                  "selectionType": "selectionStrategy",
+                  "strategyName": "not a real selection strategy",
+                  "strategyID": "dps:selection-strategy:1b630b32da42125a",
+                  "version": "35a6b5b1-62ff-4a4b-94cd-96852a59d89a"
                 }
-            ],
-            "xdm:id": "3cc33a7e-13ca-4b19-b25d-c816eff9a70a", //decision event id - taken from experience event for "nextBestOffer"
-            "xdm:scope": "scope:12cfc3fa94281acb", //decision scope id - taken from experience event for "nextBestOffer"
+              },
+              "name": "not a real offer",
+              "id": "dps:14c7468e7f6271ff8023748a1146d11f05f77b7fc1368081:1b630a7d8d9f2g4j",
+              "score": 0.9765416360350985
+            }
+          ],
+          "scopeDetails": {
+            "decisionPolicy": {
+              "id": "01c3ad3d-6d41-4013-a88f-5a4975579179"
+            },
+            "decisionProvider": "EXD",
+            "placement": {
+              "id": "a99d6b1e-5930-4ba6-hd64-17a14bb15032#farouk-img-test"
+            },
+            "correlationID": "28ca161e-552c-464e-dh37-bc38d4ce944b-0"
+          },
+          "scope": "a99d6b1e-5930-4ba6-hd64-17a14bb15032#farouk-img-test",
+          "id": "86fb8f37-0498-4533-9dab-c206690c1f67"
         }
-    ]
+      ],
+      "exdRequestID": "edb61199-ef92-46c8-adc5-f622df5b9078"
+    }
+  },
+  "eventType": "decisioning.propositionDisplay",
+  "_id": "04b5384e-c09c-4df8-b6f0-7c476a51b219",
+  "timestamp": "2025-10-07T20:22:00Z"
 }
 ```
 
@@ -67,33 +94,73 @@ JavaScript コードに実装する必要があるスキーマ要件は、以下
 
 ## クリックの追跡 {#track-clicks}
 
-イベントタイプとソースが次のようになっていることを確認します。
+次のフィールドが正しく設定されていることを確認します。
 
 **エクスペリエンスイベントタイプ：** `decisioning.propositionInteract`
-**ソース：** Web.sdk/Alloy.js（`sendEvent command -> xdm : {eventType, interactionMixin}`）またはバッチ取り込み
+
+**propositionEventType:** `_experience.decisioning.propositionEventType.interact`
+
+**Source:** Web.sdk/Alloy.js （`sendEvent command -> xdm : {eventType, interactionMixin}`）またはバッチ取得
+
+提案内の各オファーには、Adobeで生成される一意の ID であるトラッキングトークンが含まれます。 このトークンは、対応するクリックまたはインプレッションイベントで、受信したとおりに（変更なしで）渡す必要があります。 トラッキングトークンの照合により、Adobeでユーザーアクションを正しいオファー決定に正確に関連付け、ダウンストリームレポートと AI ベースの最適化を可能にします。
+
 +++**サンプルペイロード：**
 
-```
+```json
 {
-    "@id": "a7864a96-1eac-4934-ab44-54ad037b4f2b",
-    "xdm:timestamp": "2023-09-26T15:52:25+00:00",
-    "xdm:eventType": "decisioning.propositionInteract",
-    "https://ns.adobe.com/experience/decisioning/propositions":
-    [
+  "_experience": {
+    "decisioning": {
+      "propositionEventType": {
+        "interact": 1
+      },
+      "propositionAction": {
+        "tokens": [
+          "Vx9fwWXmp6/kyYRVOUZWEQ"
+        ]
+      },
+      "proposition": [
         {
-            "xdm:items":
-            [
-                {
-                    "xdm:id": "personalized-offer:f67bab756ed6ee4"
+          "items": [
+            {
+              "itemSelection": {
+                "rankingDetail": {
+                  "algorithmID": "RANDOM",
+                  "strategyID": "1YYKhS4MImWqIBrpudMIf4",
+                  "trafficType": "random",
+                  "step": "aiModel"
                 },
-                {
-                    "xdm:id": "personalized-offer:f67bab756ed6ee5"
-                },
-            ],
-            "xdm:id": "3cc33a7e-13ca-4b19-b25d-c816eff9a70a", //decision event id
-            "xdm:scope": "scope:12cfc3fa94281acb", //decision scope id
+                "selectionDetail": {
+                  "selectionType": "selectionStrategy",
+                  "strategyName": "not a real selection strategy",
+                  "strategyID": "dps:selection-strategy:1b630b32da42125a",
+                  "version": "35a6b5b1-62ff-4a4b-94cd-96852a59d89a"
+                }
+              },
+              "name": "not a real offer",
+              "id": "dps:14c7468e7f6271ff8023748a1146d11f05f77b7fc1368081:1b630a7d8d9f2g4j",
+              "score": 0.9765416360350985
+            }
+          ],
+          "scopeDetails": {
+            "decisionPolicy": {
+              "id": "01c3ad3d-6d41-4013-a88f-5a4975579179"
+            },
+            "decisionProvider": "EXD",
+            "placement": {
+              "id": "a99d6b1e-5930-4ba6-hd64-17a14bb15032#farouk-img-test"
+            },
+            "correlationID": "28ca161e-552c-464e-dh37-bc38d4ce944b-0"
+          },
+          "scope": "a99d6b1e-5930-4ba6-hd64-17a14bb15032#farouk-img-test",
+          "id": "86fb8f37-0498-4533-9dab-c206690c1f67"
         }
-    ]
+      ],
+      "exdRequestID": "edb61199-ef92-46c8-adc5-f622df5b9078"
+    }
+  },
+  "eventType": "decisioning.propositionInteract",
+  "_id": "04b5384e-c09c-4df8-b6f0-7c476a51b765",
+  "timestamp": "2025-10-07T20:50:00Z"
 }
 ```
 
@@ -103,11 +170,14 @@ JavaScript コードに実装する必要があるスキーマ要件は、以下
 
 カスタムイベントの場合、データセットで使用されるスキーマには、**[!UICONTROL エクスペリエンスイベント - 提案インタラクション]**&#x200B;フィールドグループも関連付けられている必要がありますが、これらのイベントのタグ付けに使用する必要があるエクスペリエンスイベントタイプに関する特定の要件はありません。
 
+<!--
+
 >[!NOTE]
 >
->[キャップ](../items.md#capping)でカスタムイベントを考慮するには、次の 2 つの Edge データ収集エンドポイントのいずれかにエクスペリエンスイベントを送信して、エクスペリエンスイベントを Adobe Experience Platform エンドポイントに接続する必要があります。
+>To have your custom events accounted for in [capping](../items.md#capping), you need to connect the experience event to Adobe Experience Platform endpoints by sending it to either one of these two Edge data collection endpoints:
 >
 >* POST /ee/v2/interact
 >* POST /ee/v2/collect
 >
->[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja){target="_blank"} または [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=ja){target="_blank"} を使用している場合、接続は自動的に行われます。
+>If you are using the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} or [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"}, the connection is made automatically.-->
+
