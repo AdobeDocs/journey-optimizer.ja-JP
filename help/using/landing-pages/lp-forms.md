@@ -10,10 +10,10 @@ level: Beginner
 keywords: ランディング, ランディングページ, 作成, ページ, フォーム
 badge: label="限定提供" type="Informative"
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: b8c2eced0f517e917021e9f42a8943b4a5e4f287
+source-git-commit: 13ef8ae4fa988537db192eca0b906940e51eeb28
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1630'
+ht-degree: 96%
 
 ---
 
@@ -69,9 +69,16 @@ ht-degree: 0%
 
 1. そのフォームに使用する&#x200B;**[!UICONTROL ストリーミング接続]**&#x200B;を選択します。これは、フォームの送信時にデータが送信されるストリーミングエンドポイントです。
 
-   >[!NOTE]
+   ストリーミングソース接続の作成について詳しくは、[Experience Platform ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}を参照してください。
+
+   >[!IMPORTANT]
    >
-   >ストリーミングソース接続の作成について詳しくは、[Experience Platform ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/ui-tutorials/create/streaming/http){target="_blank"}を参照してください。
+   >HTTP API ストリーミング接続をドロップダウンリストに表示するには、Adobe Experience Platformで作成する際に次の要件を満たす必要があります。
+   >
+   >* **データタイプ** は **XDM** に設定する必要があります（生データではありません）
+   >* **認証** は **無効** （認証されていない接続）である必要があります
+   >
+   >ストリーミング接続がリストに表示されない場合は、これらの条件の両方が満たされていることを確認します。<!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
 
 1. フォームにリンクする&#x200B;**[!UICONTROL データセット]**&#x200B;を選択します。ここにフォームの応答が保存および反映されます。 特定のデータセットを検索するには、入力するか、リストから選択できます。
 
