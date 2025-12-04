@@ -8,10 +8,10 @@ role: Developer, Admin
 level: Experienced
 keywords: プラットフォーム, データレイク, 作成, レイク, データセット, プロファイル
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: d4729294a007a348e0233aa8a75bbe3b2999742a
+source-git-commit: 6233fcb466e741fd7eb912e6c59c8daf030f71a0
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 86%
+source-wordcount: '1061'
+ht-degree: 67%
 
 ---
 
@@ -78,13 +78,13 @@ TTL 拡張機能は、現在サポートされていません。ただし、2025
 
 >[!NOTE]
 >
->プロファイルに保存されたデータには、合計データボリュームの使用権限が適用されます。したがって、TTL 拡張機能の結果として増加したプロファイルのデータストレージは、合計データボリュームの使用権限に対してカウントされます。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html?lang=ja){target=_blank}
+>プロファイルに保存されたデータには、合計データボリュームの使用権限が適用されます。したがって、TTL 拡張機能の結果として増加したプロファイルのデータストレージは、合計データボリュームの使用権限に対してカウントされます。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html?lang=ja){target=&quot;_blank}
 
 +++
 
 +++お客様は、データレイクの [!DNL Journey Optimizer] システムデータセットデータの TTL を増やすことができますか？ 
 
-TTL 拡張機能は、現在サポートされていません。お客様は、宛先を通じてデータをエクスポートし、データを長期間保持できます。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=ja){target=_blank}。さらに、**[!DNL Data Distiller]** 使用権限を持つお客様は、派生データセットを作成して、TTL なしでデータレイクにデータを保存できます。[詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=_blank}
+TTL 拡張機能は、現在サポートされていません。お客様は、宛先を通じてデータをエクスポートし、データを長期間保持できます。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=ja){target=&quot;_blank}。さらに、**[!DNL Data Distiller]** 使用権限を持つお客様は、派生データセットを作成して、TTL なしでデータレイクにデータを保存できます。[詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=&quot;_blank}
 
 +++
 
@@ -114,6 +114,30 @@ TTL 拡張機能は、現在サポートされていません。お客様は、�
 
 +++
 
++++新しい TTL は、より長いデータ保持が必要なユースケース（例：過去 120 日間にメールを受信したプロファイルや 1 年間のキャッピングメールを除く）にどのように影響しますか？
+
+新しい TTL ポリシーでは、プロファイルストア内およびデータレイク内のシステム生成データセットデータのルックバック期間が 90 日に制限され、13 か月に制限されます。 これらの期間を超えてデータにアクセスする必要があるユースケースは、影響を受けます。 例えば、プロファイルストアで 90 日より古いイベントに基づくオーディエンスのセグメント化やフリークエンシーキャップは、システムデータセットを使用して行えなくなります。
+
++++
+
++++TTL よりも長くデータを保持するには、どのような代替手段がありますか？
+
+保存期間を延長する必要があるお客様は、TTL の有効期限が切れる前に、AJO データセットから外部ストレージに関連データを書き出すことを検討する必要があります。 Adobe Journey Optimizerは、様々なクラウドストレージの宛先（Amazon S3、Azure Blob、Google Cloud Storage など）へのデータセットの書き出しをサポートしています。 [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=ja){target=&quot;_blank}
+
++++
+
++++TTL の変更に備えて、お客様は何を行う必要がありますか？
+
+* ユースケースを確認し、新しい TTL を超えてデータを保持する必要がある場合は特定します。
+* データを削除する前に、重要なデータを派生データセットにコピーする自動クエリを設定します。
+* Adobe担当者と協力して、その他のニーズや潜在的な TTL 拡張（将来のリリース用に予定）について話し合います。
+
++++
+
++++既存のサンドボックスに TTL が適用される前に、顧客に通知されますか？
+
+はい。影響を受けるお客様には事前に通知され、製品チームが協力して円滑な移行を確保します。
+
 +++Journey Optimizer システムで生成されたデータセットを削除できますか？
 
 Journey Optimizer システム生成データセットは保護されており、標準のAdobe Experience Platform UI からは削除できません。 これらのデータセットは、Journey Optimizer機能に不可欠で、システムによって管理されます。
@@ -123,5 +147,6 @@ Journey Optimizer システムデータセットを永続的に削除する必�
 >[!NOTE]
 >
 >これらのシステムデータセット内で日常的なデータクリーンアップを行うには、Privacy Serviceから使用できる **[!UICONTROL データライフサイクル]** 操作を使用して、特定のレコードまたは ID を削除します。 [詳細情報](../privacy/data-hygiene.md)
+
 
 +++
