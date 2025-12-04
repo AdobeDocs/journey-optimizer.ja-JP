@@ -8,7 +8,7 @@ role: Developer
 level: Experienced
 exl-id: ce3a2c33-c15b-436f-90b1-7373d7b2b1ca
 version: Journey Orchestration
-source-git-commit: 5de16a8f69089e49484104bbae109df111cbf1ed
+source-git-commit: f43b1ea0dd2197331329e24cb3d76eef0b5a9e86
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 49%
@@ -179,5 +179,4 @@ JavaScript コードに実装する必要があるスキーマ要件は、以下
 >* POST /ee/v2/interact
 >* POST /ee/v2/collect
 >
->If you are using the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja){target="_blank"} or [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=ja){target="_blank"}, the connection is made automatically.-->
-
+>If you are using the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} or [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"}, the connection is made automatically.-->
