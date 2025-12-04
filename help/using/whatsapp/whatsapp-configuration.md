@@ -7,10 +7,10 @@ feature: Whatsapp, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: f69e482daf457f1c331d158d1bf04b4cfb392197
-workflow-type: ht
-source-wordcount: '902'
-ht-degree: 100%
+source-git-commit: bd0f1f6b63616bcef4cfc50706e42612e0a04e89
+workflow-type: tm+mt
+source-wordcount: '1061'
+ht-degree: 85%
 
 ---
 
@@ -179,6 +179,23 @@ Webhook が設定されたので、WhatsApp 設定を作成できます。
 
 これで、Journey Optimizer で WhatsApp メッセージを送信する準備が整いました。
 
+## WhatsApp チャネル設定のトラブルシューティング {#troubleshooting}
+
+### API 資格情報の設定中に HTTP 500 エラーが発生する
+
+WhatsApp API 認証情報の設定時に HTTP 500 エラーが発生した場合は、次のトラブルシューティング手順に従います。
+
+1. **使用権限の確認**：組織に `cjm_whatsapp` の使用権限がプロビジョニングされていることを確認します。 この権限がないと、WhatsApp チャネルを設定できません。
+
+1. **ビジネスアカウントフィールドを検証**：すべての必須フィールドが正しく入力されていることを確認します。
+   * **API トークン**：適切な権限を持つ有効なMeta アクセストークンである必要があります。 [詳細情報](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)
+   * **ビジネスアカウント ID**:Meta ビジネスアカウント ID と完全に一致する必要があります。 [詳細情報](https://www.facebook.com/business/help/1181250022022158?id=180505742745347)
+
+1. **資格情報を外部でテスト**:Meta API を使用して資格情報を直接検証し、問題が資格情報によるものか、Journey Optimizerの資格情報処理によるものかを確認します。
+
+1. **詳細ログを有効にする**：内部サーバーまたは認証の設定ミスを特定するには、Journey Optimizerで詳細ログを有効にして、API 呼び出しエラーに関する詳細情報を提供します。
+
+1. **サポートへのお問い合わせ**：環境と使用権限が有効であることが確認されても、HTTP 500 エラーが解決しない場合は、Adobe担当者にお問い合わせください。
 
 ## チュートリアルビデオ {#video}
 
@@ -186,6 +203,6 @@ Webhook が設定されたので、WhatsApp 設定を作成できます。
 
 +++ こちらのビデオをご覧ください
 
->[!VIDEO](https://video.tv.adobe.com/v/3470269/?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++

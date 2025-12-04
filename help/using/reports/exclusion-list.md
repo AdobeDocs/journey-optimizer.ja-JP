@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a34ba1a8-87d5-4f9c-a181-2f49e74e8f09
-source-git-commit: 853e87cdd69a3fc180dcb1aa38b4b67f27977939
+source-git-commit: ca6f722c93fffe0cebcddb4f730f23d9a720ef9d
 workflow-type: tm+mt
-source-wordcount: '830'
-ht-degree: 83%
+source-wordcount: '868'
+ht-degree: 77%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 83%
 | InAppNoVariantDefined | 050041 | アプリ内 | 除外イベントは、アプリ内メッセージのバリアントが定義されていない場合に生成されます。 |
 | InAppNoMessageFoundForTreatment | 050042 | アプリ内 | 除外イベントは、メッセージに対して実験が有効になっていて、対象となる処理に対するメッセージが見つからない場合に生成されます。 |
 | PushNoTokenFoundInProfile | 050030 | プッシュ | 除外イベントは、プロファイルにプッシュトークンがない場合に生成されます。 |
-| PushNoValidTokenFoundForApps | 050031 | プッシュ | 除外イベントは、設定でターゲットアプリの有効なトークンが見つからない場合に生成されます。 |
+| PushNoValidTokenFoundForApps | 050031 | プッシュ | 除外イベントは、設定内のターゲットアプリに対して有効なトークンが見つからない場合に生成されます。 **重要：** 実稼働用証明書を使用する場合は、ユーザープロファイルの `pushNotificationDetails.platform` 属性を `apns` に設定する必要があります。 サンドボックス証明書を使用している場合は、`apnsSandbox` に設定します。 プラットフォーム属性と証明書の種類が一致しない場合、この除外はトリガーされます。 |
 | PushMalformedProfile | 050034 | プッシュ | 除外イベントは、プロファイルの pushNotificationDetails の形式が正しくない場合に生成されます。 |
 | PushNoConsent | 050111 | プッシュ | 除外イベントは、ユーザーがマーケティングプッシュ通知をオプトアウトした場合に生成されます。 |
 | PushNoApplicationDefinedInPreset | 050033 | プッシュ | 除外イベントは、設定にターゲットとなるアプリケーションが含まれていない場合に生成されます。 |

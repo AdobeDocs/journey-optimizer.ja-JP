@@ -10,14 +10,24 @@ role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '337'
-ht-degree: 100%
+source-git-commit: e99ba08b86c682cdcb20be758590b97c0d474040
+workflow-type: tm+mt
+source-wordcount: '392'
+ht-degree: 93%
 
 ---
 
 # フォールバックオファーを作成 {#create-fallback-offers}
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_new_fallback"
+>title="フォールバックオファー"
+>abstract="フォールバックオファーは、エンドユーザーがパーソナライズされたオファーの対象でない場合に表示されるデフォルトのオファーです。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_decisioning_fallback_offer_details "
+>title="フォールバックオファーの詳細"
+>abstract="フォールバックオファーの名前を指定します。また、既存の 1 つまたは複数のコレクション修飾子を関連付けることもできます。これにより、オファーライブラリの検索と整理がしやすくなります。"
 
 フォールバックオファーは、他のオファーに対する資格がない場合に顧客に送信されます。フォールバックオファーの作成手順は、オファーを作成する際のように、1 つまたは複数の表示域を作成することで構成されます。
 
@@ -66,5 +76,5 @@ ht-degree: 100%
 
 ## チュートリアルビデオ {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341357?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329383?quality=12)
 

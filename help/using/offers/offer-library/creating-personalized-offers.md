@@ -10,9 +10,9 @@ role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '830'
+source-git-commit: e99ba08b86c682cdcb20be758590b97c0d474040
+workflow-type: tm+mt
+source-wordcount: '807'
 ht-degree: 100%
 
 ---
@@ -52,11 +52,6 @@ ht-degree: 100%
 >id="ajo_decisioning_new_personalized"
 >title="パーソナライズされたオファー"
 >abstract="パーソナライズされたオファーは、実施要件ルールおよび制約に基づいてカスタマイズできるメッセージです。"
-
->[!CONTEXTUALHELP]
->id="ajo_decisioning_new_fallback"
->title="フォールバックオファー"
->abstract="フォールバックオファーは、エンドユーザーがパーソナライズされたオファーの対象でない場合に表示されるデフォルトのオファーです。"
 
 **オファー**&#x200B;を作成するには、次の手順に従います。
 
@@ -175,4 +170,4 @@ ht-degree: 100%
 
 ## チュートリアルビデオ {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341356?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)
