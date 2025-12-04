@@ -90,11 +90,11 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 
 * [!DNL Journey Optimizer] で[コードベースのエクスペリエンス](../code-based/get-started-code-based.md)アクションを使用して、アプリケーションで使用できるコードコンテンツペイロードを配信するには、[このページ](../code-based/code-based-prerequisites.md)で説明されている前提条件に従います。
 
-* [ ユーザーインターフェイスで ](../web/get-started-web.md)web ページ [!DNL Journey Optimizer] にアクセスして作成できるようにするには、[ このページ ](../web/web-prerequisites.md) に記載されている前提条件に従ってください。
+* [&#x200B; ユーザーインターフェイスで &#x200B;](../web/get-started-web.md)web ページ [!DNL Journey Optimizer] にアクセスして作成できるようにするには、[&#x200B; このページ &#x200B;](../web/web-prerequisites.md) に記載されている前提条件に従ってください。
 
-* [!DNL Journey Optimizer] を使用してジャーニーやキャンペーンでアプリ内メッセージを送信するには、[ このページ ](../in-app/inapp-configuration.md) に記載されている配信の前提条件に従ってください。
+* [!DNL Journey Optimizer] を使用してジャーニーやキャンペーンでアプリ内メッセージを送信するには、[&#x200B; このページ &#x200B;](../in-app/inapp-configuration.md) に記載されている配信の前提条件に従ってください。
 
-* Adobe Journey Optimizerでコンテンツカードを正しく表示するには、[ このページ ](../content-card/content-card-configuration-prereq.md) に記載されているAdobe Experience Platform設定を行う必要があります。
+* Adobe Journey Optimizerでコンテンツカードを正しく表示するには、[&#x200B; このページ &#x200B;](../content-card/content-card-configuration-prereq.md) に記載されているAdobe Experience Platform設定を行う必要があります。
 
 * Journey Optimizer では、1 秒あたり 5,000 件のインバウンドリクエストのピーク量をサポートします。このガードレールは、Journey Optimizer がサポートするすべてのインバウンドチャネル（[web](../web/get-started-web.md)、[アプリ内](../in-app/get-started-in-app.md)、[コードベースのエクスペリエンス](../code-based/get-started-code-based.md)、[コンテンツカード](../../rp_landing_pages/content-card-landing-page.md)）から発生する場合があるすべてのインバウンドリクエストに適用されます。
 
@@ -110,7 +110,7 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 
 >[!NOTE]
 >
->偽名プロファイルのデータの有効期限を設定する方法については、[Experience Platform ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/pseudonymous-profiles){target="_blank"} を参照してください。
+>偽名プロファイルのデータの有効期限を設定する方法については、[Experience Platform ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/pseudonymous-profiles){target="_blank"} を参照してください。
 
 Adobeでは、現在のEdge プロファイル TTL に一致するように TTL 値を 14 日に設定することをお勧めします。
 
