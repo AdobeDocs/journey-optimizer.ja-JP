@@ -28,7 +28,7 @@ ht-degree: 90%
 
 デバイスのプレビューセクションを使用すると、iOS 端末と Android 端末で表示されるプッシュ通知を視覚化できます。
 
-AI アシスタントを使用してコンテンツの作成を高速化し、テキスト生成用の [AI アシスタントを使用して魅力的なプッシュ通知テキストを生成するか ](../content-management/generative-text.md) フルコンテンツ生成用の [AI アシスタント ](../content-management/generative-full-content.md) を使用して完全なプッシュ通知を作成します。
+AI アシスタントを使用してコンテンツの作成を高速化し、テキスト生成用の [AI アシスタントを使用して魅力的なプッシュ通知テキストを生成するか &#x200B;](../content-management/generative-text.md) フルコンテンツ生成用の [AI アシスタント &#x200B;](../content-management/generative-full-content.md) を使用して完全なプッシュ通知を作成します。
 
 ## クリック時の動作 {#on-click-behavior}
 
@@ -70,8 +70,8 @@ Android バージョンで追加できるのは、画像アイコンと、拡張
 
 `adb_media` のようなカスタムデータフィールドに画像など、メディア添付ファイルをプッシュ通知ペイロードに含める場合、画像がデバイスにレンダリングされるように、モバイルアプリケーションは特定のクライアントサイド処理を実装する必要があります。
 
-* **iOS**: ペイロードからメディアコンテンツをダウンロードして処理するには、アプリに [Notification Service Extension](https://developer.apple.com/documentation/usernotifications/modifying_content_in_newly_delivered_notifications){target="_blank"} を実装する必要があります。 さらに、「**[!UICONTROL 詳細オプション]**」セクションで「[ 可変コンテンツフラグを追加 ](#advanced-options-push)」オプションを有効にする必要があります。
-* **Android**: ペイロードからの画像添付ファイルを処理するために、アプリで [ 自動表示とトラッキングワークフロー ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/push-notification/android/automatic-display-and-tracking/){target="_blank"} を実装する必要があります。
+* **iOS**: ペイロードからメディアコンテンツをダウンロードして処理するには、アプリに [Notification Service Extension](https://developer.apple.com/documentation/usernotifications/modifying_content_in_newly_delivered_notifications){target="_blank"} を実装する必要があります。 さらに、「**[!UICONTROL 詳細オプション]**」セクションで「[&#x200B; 可変コンテンツフラグを追加 &#x200B;](#advanced-options-push)」オプションを有効にする必要があります。
+* **Android**: ペイロードからの画像添付ファイルを処理するために、アプリで [&#x200B; 自動表示とトラッキングワークフロー &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/push-notification/android/automatic-display-and-tracking/){target="_blank"} を実装する必要があります。
 
 ## ボタンの追加 {#add-buttons-push}
 
