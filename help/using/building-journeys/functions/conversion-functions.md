@@ -7,10 +7,10 @@ role: Developer
 level: Experienced
 keywords: コンバージョン, 関数, 式, ジャーニー, タイプ, キャスト
 version: Journey Orchestration
-source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
-workflow-type: ht
-source-wordcount: '957'
-ht-degree: 100%
+source-git-commit: 451a9e1e5d5e6e1408849e8d1c5c9644a95359da
+workflow-type: tm+mt
+source-wordcount: '1054'
+ht-degree: 89%
 
 ---
 
@@ -142,12 +142,13 @@ dateOnly を返します。
 
 +++パラメーター
 
-| パラメーター | タイプ |
-|-----------|------------------|
-| ISO-8601 形式の日時 | 文字列 |
-| タイムゾーン ID | 文字列 |
-| タイムゾーンを含まない日時 | 日時のみ |
-| エポックのミリ秒単位の整数値 | 整数 |
+| パラメーター | 説明 |
+|--- |--- |
+| 文字列 | iso-8601 形式の日時。 タイムゾーン情報を含む日時の文字列表現 |
+| 文字列 | タイムゾーン id。 タイムゾーン識別子（例：「UTC」、「ヨーロッパ/パリ」） |
+| dateOnly | タイムゾーンのない日付を表し、年 – 月 – 日と表示されます |
+| 日時のみ | タイムゾーンのない日時を表し、年 – 月 – 日 – 時間 – 分 – 秒 – ミリ秒と表示されます |
+| 整数 | エポックのミリ秒単位の整数値 |
 
 +++
 
@@ -155,7 +156,9 @@ dateOnly を返します。
 
 `toDateTime(<string>)`
 
-`toDateTime(<stringified time zone id>, <dateTimeOnly>)`
+`toDateTime(<string>, <dateOnly>)`
+
+`toDateTime(<string>, <dateTimeOnly>)`
 
 `toDateTime(<integer>)`
 
@@ -165,17 +168,29 @@ dateOnly を返します。
 
 +++例
 
-`toDateTime ("2023-08-18T23:17:59.123Z")`
+`toDateTime("2023-08-18T23:17:59.123Z")`
 
 2023-08-18T23:17:59.123Z を返します
 
-`toDateTime(toDateTimeOnly("UTC", "2023-08-18T23:17:59.123"))`
+ISO-8601 文字列には、既にタイムゾーン情報が含まれています。
+
+`toDateTime("Europe/Paris", toDateOnly("2023-08-18"))`
+
+2023-08-18T00:00:00.000+02:00 を返します。
+
+タイムゾーンと日付のみの値を組み合わせて日時を作成します。 時間は、指定されたタイムゾーンの午前 0 時（00:00:00）に設定されます。
+
+`toDateTime("UTC", toDateTimeOnly("2023-08-18T23:17:59.123"))`
 
 2023-08-18T23:17:59.123Z を返します
+
+タイムゾーン情報を持たない dateTimeOnly 値にタイムゾーンを適用することで、日時を作成します。
 
 `toDateTime(1560762190189)`
 
-2023-06-17T09:03:10.189Z を返します
+2019-06-17T09:03:10.189Z を返します。
+
+Unix タイムスタンプをミリ秒単位で dateTime 値に変換します。
 
 +++
 
