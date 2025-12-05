@@ -9,8 +9,8 @@ role: Developer
 level: Intermediate
 keywords: 式, エディター, ヘルパー, ユースケース, パーソナライゼーション
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
-workflow-type: ht
+source-git-commit: bf5b054eaaca73abf484ccbabf160e902fad3f5b
+workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 100%
 
@@ -114,6 +114,8 @@ ht-degree: 100%
 1. メッセージを保存します。
 
 ## 手順 4：買い物かご内の商品リストの挿入 {#each-helper}
+
+<!--This step demonstrates iterating over event data. For comprehensive examples of iterating over different data sources (events, custom action responses, and other contextual data), see [Iterate over contextual data with Handlebars](personalization-contexts.md).-->
 
 1. メッセージコンテンツを再度開きます。
 
@@ -344,4 +346,4 @@ ht-degree: 100%
 
 ヘルパー関数の使用方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416781?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
