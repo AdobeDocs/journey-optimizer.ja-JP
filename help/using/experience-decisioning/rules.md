@@ -137,4 +137,4 @@ ht-degree: 100%
 
 Adobe Journey Optimizer で再利用可能な&#x200B;**ターゲティングルール**&#x200B;を作成、複製、適用し、地域、言語、行動などの顧客属性に基づいてキャンペーンを効率的にパーソナライズし、オーディエンスの精度を高めながら時間を節約する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3476127/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476128/?captions=jpn&quality=12)
