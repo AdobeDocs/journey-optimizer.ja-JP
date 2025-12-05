@@ -11,9 +11,9 @@ keywords: 式, エディター
 mini-toc-levels: 1
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
 source-git-commit: a6f2cc11f57c5cd766cd31e941649fb5003ae30b
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '848'
+ht-degree: 100%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 0%
 >title="参照のために有効にする"
 >abstract="データセットの参照を有効にすると、Journey Optimizer のパーソナライゼーション、決定、ジャーニーオーケストレーション機能内でそのデータを活用できます。"
 
-[!DNL Journey Optimizer] を使用すると、パーソナライゼーション、意思決定、ジャーニーオーケストレーションの機能を使用して、[!DNL Adobe Experience Platform] データのデータを活用できます。 これを行うには、まず、以下で説明するように、参照パーソナライゼーションに必要なレコードベースのデータセットを参照サービスに対して有効にする必要があります。
+[!DNL Journey Optimizer] を使用すると、パーソナライゼーション、決定、ジャーニーオーケストレーション機能を使用して、[!DNL Adobe Experience Platform] のデータを活用できます。これを行うには、まず、以下で説明するように、参照パーソナライゼーションに必要なレコードベースのデータセットを参照サービスに対して有効にする必要があります。
 
-データセットにアクセスして操作する方法について詳しくは、この節：[&#x200B; データセットの基本を学ぶ &#x200B;](../data/get-started-datasets.md) を参照してください。
+データセットにアクセスして操作する方法について詳しくは、[データセットの基本を学ぶ](../data/get-started-datasets.md)の節を参照してください。
 
 ## 必読
 
@@ -122,7 +122,7 @@ ht-degree: 0%
 curl -s -XPATCH "https://platform.adobe.io/data/core/entity/lookup/dataSets/${DATASET_ID}/${ACTION}" \ -H "Authorization: Bearer ${ACCESS_TOKEN}" \ -H "x-api-key: ${API_KEY}" \ -H "x-gw-ims-org-id: ${IMS_ORG}" \ -H "x-sandbox-name: ${SANDBOX_NAME}" 
 ```
 
-次のとおりです。
+ここで：
 
 * URL は `https://platform.adobe.io/data/core/entity/lookup/dataSets/${DATASET_ID}/${ACTION}` です。
 * データセット ID は、有効にするデータセットです。

@@ -11,9 +11,9 @@ keywords: ジャーニー, 制限
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 version: Journey Orchestration
 source-git-commit: de71f603b98c44d09ede5cc6bafc945f124ceb09
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '564'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -25,8 +25,7 @@ ht-degree: 91%
 
 * 送信スロットルはありません。
 * エラーが発生した場合は、手順に従って 3 回再試行されます。受け取ったエラーメッセージに応じて、リトライ回数を調整することはできません。
-* ビルトインの&#x200B;**反応**&#x200B;イベントを使用すると、すぐに使えるアクションに反応できます（[このページ](../building-journeys/reaction-events.md)を参照してください）。
-カスタムアクションを介して送信されたメッセージに反応させたい場合は、専用のイベントを設定する必要があります。
+* ビルトインの&#x200B;**反応**&#x200B;イベントを使用すると、すぐに使えるアクションに反応できます（[このページ](../building-journeys/reaction-events.md)を参照してください）。カスタムアクションを介して送信されたメッセージに反応させたい場合は、専用のイベントを設定する必要があります。
 * 2 つのアクションを並行して配置することはできません。1 つずつ順番に追加する必要があります。
 
 
@@ -52,7 +51,7 @@ ht-degree: 91%
 
 ## 反応イベントの制限 {#reaction-limitations}
 
-* **[!UICONTROL 反応]** アクティビティは、ジャーニーキャンバスの [&#x200B; チャネルアクションアクティビティ &#x200B;](../building-journeys/journeys-message.md) の直後に配置する必要があります。 チャネルアクションと **[!UICONTROL 反応]** アクティビティの間に **[!UICONTROL 待機]** アクティビティまたはその他のアクティビティを配置することはサポートされておらず、結果として反応が期待どおりに機能しない場合があります。 詳しくは、[この節](../building-journeys/reaction-events.md)を参照してください。
+* **[!UICONTROL 反応]**&#x200B;アクティビティは、ジャーニーキャンバスの[チャネルアクションアクティビティ](../building-journeys/journeys-message.md)の直後に配置する必要があります。チャネルアクションと&#x200B;**[!UICONTROL 反応]**&#x200B;アクティビティの間に&#x200B;**[!UICONTROL 待機]**&#x200B;アクティビティまたはその他のアクティビティを配置することはサポートされておらず、反応が期待どおりに機能しない場合があります。詳しくは、[この節](../building-journeys/reaction-events.md)を参照してください。
 
 ## データソースの制限 {#data-sources-limitations}
 

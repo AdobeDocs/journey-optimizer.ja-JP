@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: aa060d8e-23e2-4bab-b709-636077eb5d20
 source-git-commit: 853e87cdd69a3fc180dcb1aa38b4b67f27977939
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2162'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -132,7 +132,7 @@ ht-degree: 95%
   </tr> 
   <tr> 
    <td> 送信除外数<br/> </td> 
-   <td> Adobe Journey Optimizerによって除外されたプロファイルの数。 <a href="exclusion-list.md"> 除外のカウント方法の詳細情報 </a>.<br/> </td> 
+   <td> Adobe Journey Optimizer によって除外されたプロファイルの数。<a href="exclusion-list.md">除外のカウント方法の詳細情報</a>。<br/> </td> 
   </tr>
   <tr> 
    <td> プレースメント名<br/> </td> 
@@ -193,7 +193,7 @@ ht-degree: 95%
   </tr>
   <tr> 
    <td> ユニーク送信除外数<br/> </td> 
-   <td>実施要件ルール、オーディエンスのセグメント化またはプロファイルステータスが原因でメッセージの受信から除外された一意のプロファイルの数。 <a href="exclusion-list.md"> 除外のカウント方法の詳細情報 </a>.<br/> </td> 
+   <td>実施要件ルール、オーディエンスのセグメント化またはプロファイルステータスによりメッセージの受信から除外されたユニークプロファイルの数。<a href="exclusion-list.md">除外のカウント方法の詳細情報</a>。<br/> </td> 
   </tr>
   <tr> 
    <td>ユニークターゲット<br/> </td> 
@@ -234,7 +234,7 @@ ht-degree: 95%
     </tr>
     <tr> 
       <td>アウントバウンド SMS 除外数</td> 
-      <td>Adobe Journey Optimizerによって SMS メッセージの受信から除外されたプロファイルの数。 <a href="exclusion-list.md"> 除外のカウント方法の詳細情報 </a>。</td> 
+      <td>Adobe Journey Optimizer によって SMS メッセージの受信から除外されたプロファイルの数。<a href="exclusion-list.md">除外のカウント方法の詳細情報</a>。</td> 
     </tr>
     <tr> 
       <td>ユニーククリック数</td> 
@@ -548,7 +548,7 @@ ht-degree: 95%
 </tr>
 <tr> 
    <td>アウトバウンド除外数<br/> </td> 
-   <td>事前定義済みの条件またはAdobe Journey Optimizerによるフィルタリングが原因でダイレクトメールの受信から除外されたプロファイルの数。 <a href="exclusion-list.md"> 除外のカウント方法の詳細情報 </a>.<br/> </td> 
+   <td>事前定義済みの条件または Adobe Journey Optimizer によるフィルタリングが原因でダイレクトメールの受信から除外されたプロファイルの数。<a href="exclusion-list.md">除外のカウント方法の詳細情報</a>。<br/> </td> 
 </tr>
 <tr> 
    <td>プロファイル<br/> </td> 

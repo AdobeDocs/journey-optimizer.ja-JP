@@ -6,9 +6,9 @@ description: リレーショナルスキーマを顧客プロファイルにマ�
 exl-id: 2479c109-cd6f-407e-8a53-77e4477dc36f
 version: Campaign Orchestration
 source-git-commit: f842142a985481004192c88af2973787912c85b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '438'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -27,13 +27,13 @@ ht-degree: 74%
 
   >[!IMPORTANT]
   >
-  > オーケストレートキャンペーンを使用すると、**プロファイル** スキーマに直接または関連する関係を持つ任意のスキーマに対してターゲティングを行うことができます。 使用は主に 1:1 の関係を対象としていますが、関係パスがデータモデルで適切にモデル化されている限り、アカウント :N 受信者などの 1`>` の関係もサポートします。 これにより、メッセージ配信の正しいプロファイル ID を解決しながら、アカウントレベルのデータに基づいたターゲティングが可能になります。
+  > オーケストレーションキャンペーンでは、**プロファイル**&#x200B;スキーマと直接または関連する関係を持つ任意のスキーマをターゲットにすることができます。主に 1:1 の関係で使用することを目的としていますが、関係パスがデータモデルで適切にモデル化されている限り、アカウント `>` 受信者などの 1:N の関係もサポートします。これにより、メッセージ配信に対する正しいプロファイル ID を解決しながら、アカウントレベルのデータに基づいてターゲティングが可能になります。
 
 * **プロファイルのリンケージ**
 
   システムは、ターゲットスキーマが `Profile` にどのようにマッピングされるかを理解する必要があります。これは、ターゲットスキーマと `Profile` スキーマの両方に存在し、ID 名前空間として設定される共有 ID フィールドを通じて実現されます。
 
-➡️ [&#x200B; リレーショナルスキーマについて詳しくは、Adobe Experience Platform ドキュメントを参照してください &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
+➡️ [リレーショナルスキーマについて詳しくは、Adobe Experience Platform ドキュメントを参照してください](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/schema/relational#how-relational-schemas-differ-from-standard-xdm-schemas)
 
 ## ターゲティングディメンションの作成 {#targeting-dimension}
 
@@ -47,7 +47,7 @@ ht-degree: 74%
 
 1. ドロップダウンから[以前に設定したスキーマ](gs-schemas.md)を選択します。
 
-   すべてのリレーショナルスキーマが表示されますが、選択できるのは **プロファイル** に対して直接 ID 関係を持つスキーマのみです。 人物以外のスキーマ（購入など）を選択したり、プロファイルに直接関連付けられているスキーマを選択したりしないでください。
+   すべてのリレーショナルスキーマが表示されますが、**プロファイル**&#x200B;と直接の ID 関係を持つスキーマのみが選択対象の実施要件となります。購入など、人物以外のスキーマの選択は回避し、プロファイルに直接関連付けられているスキーマを選択します。
 
 1. ターゲットにするエンティティを表す **[!UICONTROL ID 値]**&#x200B;を選択します。
 

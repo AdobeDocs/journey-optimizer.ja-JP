@@ -10,9 +10,9 @@ level: Intermediate
 version: Journey Orchestration
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
 source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '776'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ Adobe Experience Platform で参照するには、データセットを有効に
 
 1. **[!UICONTROL オーケストレーション]**&#x200B;カテゴリを展開し、**[!UICONTROL データセット参照]**&#x200B;アクティビティをキャンバスにドロップします。
 
-   ![&#x200B; ジャーニーのAdobe Experience Platform データセットルックアップアクティビティ &#x200B;](assets/aep-data-activity.png)
+   ![ジャーニーの Adobe Experience Platform データセット参照アクティビティ](assets/aep-data-activity.png)
 
 1. ラベルと説明を追加します。
 
@@ -81,7 +81,7 @@ Adobe Experience Platform で参照するには、データセットを有効に
 
    +++例
 
-   ![&#x200B; プリミティブデータタイプと構造を示すデータセットフィールド選択 &#x200B;](assets/aep-data-leaf-primitive.png)
+   ![プリミティブデータタイプと構造を示す「データセット」フィールドの選択](assets/aep-data-leaf-primitive.png)
 
    +++
 
@@ -93,7 +93,7 @@ Adobe Experience Platform で参照するには、データセットを有効に
 
    +++例
 
-   ![&#x200B; データセットフィールドのルックアップと文字列関数を使用した式エディター &#x200B;](assets/aep-data-strings.png)
+   ![「データセット」フィールドの参照と文字列関数を含む式エディター](assets/aep-data-strings.png)
 
    +++
 

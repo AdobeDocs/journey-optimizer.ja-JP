@@ -8,9 +8,9 @@ level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 version: Journey Orchestration
 source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1457'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -225,9 +225,9 @@ if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.p
 
 +++
 
-+++プロファイルの郵便番号と年収に基づいてオファーをブースト
++++プロファイルの郵便番号と年収に基づいたオファーのブースト
 
-この例では、システムは常に最初に ZIP 一致のオファーを表示しようとし、一致が見つからない場合は一般的なオファーにフォールバックし、他の ZIP コード向けのオファーを表示しないようにします。
+この例では、システムは常に最初に郵便番号が一致するオファーを表示しようとし、一致が見つからない場合は一般的なオファーにフォールバックして、他の郵便番号向けのオファーの表示を回避します。
 
 ```pql
 if( offer._luma.offerDetails.zipCode = _luma.zipCode,luma.annualIncome / 1000 + 10000, if( not offer.luma.offerDetails.zipCode,_luma.annualIncome / 1000, -9999) )
@@ -235,9 +235,9 @@ if( offer._luma.offerDetails.zipCode = _luma.zipCode,luma.annualIncome / 1000 + 
 
 数式の機能：
 
-* オファーの郵便番号がユーザーと同じ場合は、非常に高いスコアを付けて、最初に選択されるようにします。
-* オファーに郵便番号がまったく含まれていない場合（一般的なオファーの場合）、ユーザーの収入に基づいて通常のスコアを付けます。
-* オファーの郵便番号がユーザーと異なる場合は、スコアを非常に低く設定し、選択されないようにします。
+* オファーの郵便番号がユーザーと同じ場合は、最初に選択されるように非常に高いスコアを付けます。
+* オファーに郵便番号がまったく含まれていない場合（一般的なオファーの場合）は、ユーザーの収入に基づいて通常のスコアを付けます。
+* オファーの郵便番号がユーザーと異なる場合は、選択されないように非常に低いスコアを付けます。
 
 +++
 

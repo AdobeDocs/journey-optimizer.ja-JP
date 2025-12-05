@@ -11,9 +11,9 @@ keywords: 待機, アクティビティ, ジャーニー, 次, キャンバス
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 version: Journey Orchestration
 source-git-commit: cec807afe35bc95be9fa8d455cd72c2600e51fa7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '732'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -92,13 +92,13 @@ Select the date for the execution of the next activity.
 
 >[!CAUTION]
 >
->`toDateTimeOnly()` を使用してカスタム待機式を作成する場合は、式の結果に「Z」やタイムゾーンオフセット（例：「–05:00」）を追加しないでください。 式では、明示的なタイムゾーン識別子を使用せずにジャーニーの設定済みタイムゾーンを参照する、有効な ISO 日付/時刻構文を使用する必要があります。
+>`toDateTimeOnly()` を使用してカスタム待機式を作成する際は、式の結果に「Z」またはタイムゾーンオフセット（例：「-05:00」）の追加を回避します。式では、明示的なタイムゾーン指定子なしで、ジャーニーの設定済みタイムゾーンを参照する有効な ISO 日時構文を使用する必要があります。
 >
 >**正しい例：** `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00"))`
 >
->**間違った例：** `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00Z"))` ❌ （「Z」を含む）
+>**正しくない例：** `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00Z"))` ❌（「Z」を含む）
 >
->サポートされていないタイムゾーン識別子を使用すると、プロファイルが、期待どおりに進まず、待機アクティビティで停止したままになる可能性があります。
+>サポートされていないタイムゾーン指定子を使用すると、プロファイルが期待どおりに進まず、待機アクティビティで停止したままになる場合があります。
 
 待機アクティビティが期待どおりに動作することを検証するには、ステップイベントを使用できます。[詳細情報](../reports/query-examples.md#common-queries)
 

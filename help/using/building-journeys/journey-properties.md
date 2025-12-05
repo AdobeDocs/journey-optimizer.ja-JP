@@ -11,9 +11,9 @@ keywords: ジャーニー、設定、プロパティ
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
 source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2771'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 97%
 * ジャーニーアクティビティの[タイムアウト期間](#timeout)を定義します（管理者ユーザーのみ）
 * [競合管理ツール](#conflict)を使用して、競合を監視し、ジャーニーに優先順位を付けます
 
-![&#x200B; 一般設定と詳細オプションを含むジャーニープロパティ構成ペイン &#x200B;](assets/new-journey-properties.png){width="80%"}{zoomable="yes"}
+![一般設定と詳細設定オプションを含むジャーニープロパティ設定パネル](assets/new-journey-properties.png){width="80%"}{zoomable="yes"}
 
 >[!NOTE]
 >
@@ -55,7 +55,7 @@ ht-degree: 97%
 
 プロファイルエントリモードは、右側の設定パネルのジャーニーレベルで定義されます。設定は次のとおりです。
 
-プロファイルエントリ管理は、ジャーニーのタイプに応じて異なります。プロファイルのエントリおよび再エントリ管理について詳しくは、[&#x200B; このページ &#x200B;](entry-management.md) を参照してください。 ジャーニーの処理率と、ジャーニー内でのプロファイルのフローについて詳しくは、[&#x200B; この節 &#x200B;](entry-management.md#journey-processing-rate) を参照してください。
+プロファイルエントリ管理は、ジャーニーのタイプに応じて異なります。プロファイルのエントリと再エントリの管理について詳しくは、[このページ](entry-management.md)を参照してください。ジャーニーの処理率とプロファイルがジャーニーを通じてフローする仕組みについて詳しくは、[この節](entry-management.md#journey-processing-rate)を参照してください。
 
 ### 再エントリを許可  {#allow-reentrance}
 
@@ -285,7 +285,7 @@ Adobe Journey Optimizer は、ジャーニー全体を通じて使用される�
 
 1. ジャーニーを開きます。
 
-1. ジャーニーキャンバスの右上のセクションにある「![&#x200B; 終了条件を表示 &#x200B;](assets/do-not-localize/Smock_UserCheckedOut_18_N.svg) アイコン **[!UICONTROL 終了条件を表示]** アイコンをクリックします。
+1. ジャーニーキャンバスの右上のセクションにある ![終了条件を表示アイコン](assets/do-not-localize/Smock_UserCheckedOut_18_N.svg) **[!UICONTROL 終了条件を表示]** アイコンをクリックします。
 
 1. 「**[!UICONTROL 終了条件を追加]**」を選択します。
 
@@ -296,7 +296,7 @@ Adobe Journey Optimizer は、ジャーニー全体を通じて使用される�
 
 複数の終了条件を追加できます。
 
-![&#x200B; ジャーニー終了のオーディエンス条件を示す終了条件パネル &#x200B;](assets/exitcriteria-sample.png){width="40%" align="left"}
+![ジャーニー終了のオーディエンス条件を示す終了条件パネル](assets/exitcriteria-sample.png){width="40%" align="left"}
 
 
 ### プロファイル属性ベースの終了条件 {#profile-exit-criteria}

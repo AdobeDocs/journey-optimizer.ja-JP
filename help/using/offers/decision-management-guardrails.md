@@ -10,9 +10,9 @@ level: Intermediate
 exl-id: d2872bd3-42f8-4744-bb5b-41c49340098a
 version: Journey Orchestration
 source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '348'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -95,6 +95,6 @@ ht-degree: 85%
 
 ## 設定  {#configurations}
 
-意思決定管理がサポートする設定の総数は、20,000 件を超えることはできません。
+意思決定管理がサポートする設定の合計数は、20,000 を超えることはできません。
 
-合計数は、サンドボックスに存在する [&#x200B; キャッピングルール &#x200B;](offer-library/add-constraints.md#capping) の合計数です。 すべての [&#x200B; プレースメント &#x200B;](offer-library/creating-placements.md) に適用されるキャッピングルールごとに、指定したオファーに関連付けられたすべてのプレースメントにルールを乗算する必要があります。
+合計設定数は、サンドボックス内に存在する[キャッピングルール](offer-library/add-constraints.md#capping)の合計数です。すべての[プレースメント](offer-library/creating-placements.md)をまたいで適用されるキャッピングルールごとに、指定したオファーに関連付けられているすべてのプレースメントをまたいでそのルールを乗算する必要があります。

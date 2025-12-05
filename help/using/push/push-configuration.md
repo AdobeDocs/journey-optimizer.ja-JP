@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
 source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1877'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -132,7 +132,7 @@ Adobe Experience Platform Mobile SDK は、Android および iOS 互換の SDK �
 
 この作業が完了するまでに、[!DNL Adobe Experience Platform Data Collection] でモバイルプロパティも作成および設定する必要があります。通常、管理するモバイルアプリケーションごとにモバイルプロパティを作成します。モバイルプロパティを作成および設定する方法について詳しくは、[Adobe Experience Platform Mobile SDK ドキュメント](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}を参照してください。
 
-<!--To enable **Web push notifications**, ensure that the [pushNotifications property](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/commands/configure/pushnotifications) is properly configured within the Web SDK. Then, use [the sendPushSubscription command](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/commands/sendpushsubscription) to register push subscriptions with Adobe Experience Platform.
+<!--To enable **Web push notifications**, ensure that the [pushNotifications property](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/pushnotifications) is properly configured within the Web SDK. Then, use [the sendPushSubscription command](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendpushsubscription) to register push subscriptions with Adobe Experience Platform.
 -->
 
 ## 手順 1：Journey Optimizer でのアプリのプッシュ資格情報の追加 {#push-credentials-launch}
@@ -145,7 +145,7 @@ Adobe Experience Platform Mobile SDK は、Android および iOS 互換の SDK �
 
 1. 「**[!UICONTROL プッシュ認証情報を作成]**」をクリックします。
 
-1. **[!UICONTROL Platform]** ドロップダウンで、オペレーティングシステムを選択します。
+1. **[!UICONTROL プラットフォーム]**&#x200B;ドロップダウンから、次のオペレーティングシステムを選択します。
 
    * **iOS の場合**
 
@@ -161,8 +161,8 @@ Adobe Experience Platform Mobile SDK は、Android および iOS 互換の SDK �
 
          >[!NOTE]
          >
-         > .p8 Appleのプッシュ通知キーのみがサポートされています。 .p8 キーの制限に達した場合は、別のApple開発者アカウントを使用します。
-         >Appleのキー制限について詳しくは、[Apple Developer Documentation](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns) を参照してください。
+         > .p8 Apple プッシュ通知キーのみがサポートされています。.p8 キーの制限に達した場合は、別の Apple 開発者アカウントを使用します。
+         >Apple キー制限について詳しくは、[Apple 開発者向けドキュメント](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns)を参照してください。
 
 
       1. **キー ID** を指定します。これは、p8 認証キーの作成中に割り当てられた 10 文字の文字列です。これは、**証明書**、**識別子**&#x200B;および&#x200B;**プロファイル**&#x200B;ページの「**キー**」タブにあります。
@@ -208,7 +208,7 @@ To get the SDKs needed for push notification to work you will need the following
 * **[!UICONTROL Adobe Experience Platform Edge]**
 * **[!UICONTROL Adobe Experience Platform Assurance]**, optional but recommended to debug the mobile implementation.
 
-Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-mobile-android-apps-with-launch/configure-launch/launch-add-extensions.html?lang=ja).
+Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-mobile-android-apps-with-launch/configure-launch/launch-add-extensions.html).
 -->
 
 ## 手順 2：プッシュ用のチャネル設定の作成{#message-preset}

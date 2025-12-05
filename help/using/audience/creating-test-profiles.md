@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
 source-git-commit: a6f2cc11f57c5cd766cd31e941649fb5003ae30b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1082'
 ht-degree: 100%
 
@@ -249,4 +249,4 @@ curl -X POST \
 
 テストプロファイルを作成する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416426?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334236?quality=12)

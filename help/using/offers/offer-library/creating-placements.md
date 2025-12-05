@@ -11,7 +11,7 @@ level: Intermediate
 exl-id: dfaf887e-d4b3-45b0-8297-bffdb0abff4d
 version: Journey Orchestration
 source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '630'
 ht-degree: 100%
 
@@ -89,5 +89,5 @@ ht-degree: 100%
 
 意思決定管理でプレースメントを作成する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/341388?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329372?quality=12)
 

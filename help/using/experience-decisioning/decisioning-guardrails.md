@@ -7,9 +7,9 @@ level: Intermediate
 exl-id: 73548973-ff8d-4d6c-b383-dd3679fa159a
 version: Journey Orchestration
 source-git-commit: 3fa90fa707b562ecf2160ec980520bc8bc267a21
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '247'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 85%
 | ガードレール | 上限 |
 | ------- | ------- |
 | エッジセグメント化を利用する決定ポリシーを使用したコードベースのエクスペリエンス API リクエスト | 1500 |
-| エッジセグメント化を利用しない決定ポリシーを使用したコードベースのエクスペリエンス API リクエスト | 5000 |
-| Edge決定リクエストあたりのサーフェス URI の最大数 | 30 |
+| エッジセグメント化を利用しない決定ポリシーを使用したコードベースのエクスペリエンス API リクエスト | 5,000 |
+| Edge Decisioning リクエストあたりのサーフェス URI の最大数 | 30 |
 
 ## 項目コレクション {#item-collections}
 
@@ -72,6 +72,6 @@ ht-degree: 85%
 
 ## 設定  {#configurations}
 
-Decisioning がサポートする設定の合計数は、20,000 を超えることはできません。
+決定がサポートする設定の合計数は、20,000 を超えることはできません。
 
-合計数は、サンドボックスに存在する [&#x200B; キャッピングルール &#x200B;](items.md#capping) の合計数です。
+合計設定数は、サンドボックス内に存在する[キャッピングルール](items.md#capping)の合計数です。
