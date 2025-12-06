@@ -6,7 +6,7 @@ description: CO-STAR フレームワークを使用して AI を活用したコ�
 role: User
 level: Intermediate
 source-git-commit: 5063115c6ac93ef332044bfff43a4df817a1a4e3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2107'
 ht-degree: 100%
 

@@ -38,7 +38,7 @@ ht-degree: 86%
 
 >[!CAUTION]
 >
->* オーディエンスを読み取りアクティビティを使用する前に、[&#x200B; ガードレールと制限事項を参照 &#x200B;](#must-read) してください。
+>* オーディエンスを読み取りアクティビティを使用する前に、[ ガードレールと制限事項を参照 ](#must-read) してください。
 
 ## アクティビティの設定 {#configuring-segment-trigger-activity}
 
@@ -52,11 +52,11 @@ ht-degree: 86%
 
 1. アクティビティに&#x200B;**[!UICONTROL ラベル]**&#x200B;を追加します（オプション）。
 
-1. 「**[!UICONTROL オーディエンス]**」フィールドで、ジャーニーにエントリする [!DNL Adobe Experience Platform] オーディエンスを選択し、「**[!UICONTROL 保存]**」をクリックします。 [!DNL Adobe Experience Platform] セグメント定義 [&#x200B; を使用して生成された任意の &#x200B;](../audience/creating-a-segment-definition.md) オーディエンスを選択できます。
+1. 「**[!UICONTROL オーディエンス]**」フィールドで、ジャーニーにエントリする [!DNL Adobe Experience Platform] オーディエンスを選択し、「**[!UICONTROL 保存]**」をクリックします。 [!DNL Adobe Experience Platform] セグメント定義 [ を使用して生成された任意の ](../audience/creating-a-segment-definition.md) オーディエンスを選択できます。
 
    >[!NOTE]
    >
-   >さらに、[!DNL Adobe Experience Platform] オーディエンスコンポジション [&#x200B; または &#x200B;](../audience/get-started-audience-orchestration.md)CSV ファイルからアップロードされた [&#x200B; を使用して作成された &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#import-audience){target="_blank"} オーディエンスをターゲットにすることもできます。
+   >さらに、[!DNL Adobe Experience Platform] オーディエンスコンポジション [ または ](../audience/get-started-audience-orchestration.md)CSV ファイルからアップロードされた [ を使用して作成された ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#import-audience){target="_blank"} オーディエンスをターゲットにすることもできます。
 
    リストに表示される列は、カスタマイズして並べ替えることができます。
 
@@ -104,7 +104,7 @@ ht-degree: 86%
 
 >[!CAUTION]
 >
->[&#x200B; リアルタイム顧客プロファイルデータとセグメント化のガードレール &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja){target="_blank"} も [!DNL Adobe Journey Optimizer] に適用されます。
+>[ リアルタイム顧客プロファイルデータとセグメント化のガードレール ](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja){target="_blank"} も [!DNL Adobe Journey Optimizer] に適用されます。
 
 ### ジャーニーでのプロファイルエントリの管理
 
@@ -348,4 +348,4 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 「オーディエンスを読み取り」アクティビティによってトリガーされるジャーニーに適用可能なユースケースを理解します。バッチベースのジャーニーを構築する方法と適用するベストプラクティスについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430369?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)
