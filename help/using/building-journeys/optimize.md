@@ -11,10 +11,10 @@ keywords: アクティビティ, 条件, キャンバス, ジャーニー, 最�
 badge: label="限定提供" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: ht
-source-wordcount: '1636'
-ht-degree: 100%
+source-git-commit: fd42ff8502f03debb0bb8c6c0c286744be62c561
+workflow-type: tm+mt
+source-wordcount: '1662'
+ht-degree: 98%
 
 ---
 
@@ -120,6 +120,10 @@ ht-degree: 100%
 ジャーニーがライブになると、ユーザーには異なるパスを進むようにランダムに割り当てられます。[!DNL Journey Optimizer] は、最もパフォーマンスが高いパスを追跡し、実用的なインサイトを提供します。
 
 ジャーニーパス実験レポートを使用して、ジャーニーの成功を追跡します。[詳細情報](../reports/journey-global-report-cja-experimentation.md)
+
+>[!CAUTION]
+>
+>パス実験のメタデータは、一度公開したら編集しないでください。 メタデータを編集すると、実験結果の計算とレポートが中断されます。
 
 ### 実験のユースケース {#uc-experiment}
 
