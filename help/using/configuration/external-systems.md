@@ -8,10 +8,10 @@ role: User
 level: Beginner
 keywords: 外部, API, Optimizer, キャップ
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: bc614a78229771e826edea581aefb97b0e3f4159
-workflow-type: ht
+source-git-commit: 0b0badfa09a24d451671f5bae9ddc437c6db2911
+workflow-type: tm+mt
 source-wordcount: '1805'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -60,7 +60,7 @@ API の使用方法について詳しくは、次の節を参照してくださ�
 * [Capping API](capping.md)
 * [Throttling API](throttling.md)
 
-API について詳しくは、[Adobe Journey Optimizer API ドキュメント](https://developer.adobe.com/journey-optimizer-apis/references/journeys/)を参照してください。
+API について詳しくは、[Adobe Journey Optimizer API ドキュメント](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling/)を参照してください。
 
 ### データソースとカスタムアクションの処理能力 {#capacity}
 

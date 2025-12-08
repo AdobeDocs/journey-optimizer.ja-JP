@@ -8,10 +8,10 @@ role: Developer
 level: Beginner
 keywords: 外部, API, Optimizer, キャップ
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
-workflow-type: ht
+source-git-commit: 0b0badfa09a24d451671f5bae9ddc437c6db2911
+workflow-type: tm+mt
 source-wordcount: '730'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -23,7 +23,7 @@ Capping API を使用すると、キャップ設定を作成、設定および�
 
 ## Capping API の説明と Postman コレクション {#description}
 
-次の表に、Capping API で使用できるコマンドを示します。リクエストサンプル、パラメーター、応答形式などの情報について詳しくは、[Adobe Journey Optimizer API ドキュメント](https://developer.adobe.com/journey-optimizer-apis/references/journeys/){target="_blank"}を参照してください。
+次の表に、Capping API で使用できるコマンドを示します。リクエストサンプル、パラメーター、応答形式などの情報について詳しくは、[Adobe Journey Optimizer API ドキュメント](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling/){target="_blank"}を参照してください。
 
 | メソッド | パス | 説明 |
 |---|---|---|

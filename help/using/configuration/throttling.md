@@ -8,10 +8,10 @@ role: Developer
 level: Beginner
 keywords: 外部, API, Optimizer, キャップ
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
-source-git-commit: 13af123030449d870f44f3470710b0da2c6f4775
+source-git-commit: 0b0badfa09a24d451671f5bae9ddc437c6db2911
 workflow-type: tm+mt
 source-wordcount: '1024'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -32,7 +32,7 @@ Throttling API を使用すると、スロットル設定を作成、設定お�
 
 ## スロットル API の説明とPostman コレクション {#description}
 
-次の表に、スロットル API で使用できるコマンドを示します。リクエストサンプル、パラメーター、応答形式などの情報について詳しくは、[Adobe Journey Optimizer API ドキュメント](https://developer.adobe.com/journey-optimizer-apis/references/journeys/)を参照してください。
+次の表に、スロットル API で使用できるコマンドを示します。リクエストサンプル、パラメーター、応答形式などの情報について詳しくは、[Adobe Journey Optimizer API ドキュメント](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling/)を参照してください。
 
 | メソッド | パス | 説明 |
 |---|---|---|
