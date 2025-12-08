@@ -27,7 +27,7 @@ ht-degree: 92%
 
 * インプレッション数、クリック数およびカスタムイベントを追跡するためのデータ収集を設定する方法に関する新しいページが、エクスペリエンス決定の節で使用できるようになりました。 [詳細情報](../experience-decisioning/data-collection/schema-requirement.md)
 
-* AI アシスタントを使用したコンテンツ生成のドキュメントを再編成し、明確さと操作性を向上しました。 前の 5 つのチャネル固有のページ（メール、プッシュ、SMS、web およびランディングページ）は、[ 完全なコンテンツを生成 ](../content-management/generative-full-content.md)、[ テキストを生成 ](../content-management/generative-text.md)、[ 画像を生成 ](../content-management/generative-image.md) の 3 つの生成タイプのページに統合されました。
+* AI アシスタントを使用したコンテンツ生成のドキュメントを再編成し、明確さと操作性を向上しました。 前の 5 つのチャネル固有のページ（メール、プッシュ、SMS、web およびランディングページ）は、[&#x200B; 完全なコンテンツを生成 &#x200B;](../content-management/generative-full-content.md)、[&#x200B; テキストを生成 &#x200B;](../content-management/generative-text.md)、[&#x200B; 画像を生成 &#x200B;](../content-management/generative-image.md) の 3 つの生成タイプのページに統合されました。
 
 ## 2025年11月 {#november-2025}
 
