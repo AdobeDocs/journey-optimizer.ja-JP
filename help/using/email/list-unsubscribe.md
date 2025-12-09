@@ -10,9 +10,9 @@ level: Experienced
 keywords: 設定, メール, 設定
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
 source-git-commit: d77c6376bee14d3d6f90be9be54ac01c740e754f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1704'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 98%
 >
 >登録解除設定を管理する方法について詳しくは、以下の[この節](#enable-list-unsubscribe)を参照してください。
 
-どちらの場合も、受信者がオプトアウトリンクをクリックすると、登録解除リクエストがそれに応じて処理されます。対応するプロファイルはすぐにオプトアウトされ、この選択は [0&rbrace;Experience Platform&rbrace; で更新されます。 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ja){target="_blank"}同意処理について詳しくは、[Experience Platform ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=ja){target="_blank"} を参照してください。
+どちらの場合も、受信者がオプトアウトリンクをクリックすると、登録解除リクエストがそれに応じて処理されます。対応するプロファイルはすぐにオプトアウトされ、この選択は [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ja){target="_blank"} で更新されます。同意処理について詳しくは、[Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=ja){target="_blank"}を参照してください。
 
 >[!NOTE]
 >
@@ -259,7 +259,7 @@ GET 呼び出しは次のとおりです。
 
    * 解析値：*v1.xyz*
 
-API の例：https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&emailParamsBody=v1.xyz
+API の例：https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&amp;emailParamsBody=v1.xyz
 
 >[!CAUTION]
 >

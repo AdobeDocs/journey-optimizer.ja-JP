@@ -10,19 +10,19 @@ level: Beginner, Intermediate
 keywords: メール, デザイン, Stock, アセット
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
 source-git-commit: 2762eb74ee4bd1c9dba4f8e542375ab7b4b25290
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '700'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # メールデザインの基本を学ぶ {#get-started-content-design}
 
-メールDesignerにアクセスし、メールコンテンツのデザインを開始するには、まずジャーニーまたはキャンペーンで [&#x200B; メールを作成 &#x200B;](create-email.md) する必要があります。
+E メールデザイナーにアクセスしてメールコンテンツのデザインを開始するには、まずジャーニーまたはキャンペーンで[メールを作成](create-email.md)する必要があります。
 
-その後、[!DNL Journey Optimizer] メールデザイン機能 **を使用して、既存のコンテンツを読み込んだり、レスポンシブなメールの作成をゼロから開始したりできます**。 [詳細情報](content-from-scratch.md)
+その後、[!DNL Journey Optimizer] **メールデザイン機能**&#x200B;を使用して既存のコンテンツを読み込んだり、レスポンシブなメールをゼロから作成したりできます。[詳細情報](content-from-scratch.md)
 
-メールDesignerでは、次のことも可能です。
+また、E メールデザイナーでは、次の操作も実行できます。
 
 * **Adobe Experience Manager Assets Essentials** を活用してメールを強化し、独自のアセットデータベースを作成および管理します。[詳細情報](../integrations/assets.md)
 
@@ -32,7 +32,7 @@ ht-degree: 91%
 
 ➡️ [この機能をビデオで確認](#video)
 
-## メールコンテンツを作成するための主な手順 {#key-steps}
+## メールコンテンツ作成の主な手順 {#key-steps}
 
 メールを作成したら、メールコンテンツのデザインを開始できます。
 
@@ -82,8 +82,8 @@ ht-degree: 91%
 
 メッセージエディターでメールコンテンツを作成する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416418?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 
 A/B テストを行うようにコンテンツ実験を設定し、ビジネス目標を最大限に推進するメールコンテンツを探索する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447332?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)

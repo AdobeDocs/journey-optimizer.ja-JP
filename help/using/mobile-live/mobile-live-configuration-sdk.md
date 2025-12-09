@@ -2,27 +2,27 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: ライブアクティビティチャネルの設定
-description: Adobe Experience Platform Mobile SDK統合を設定する方法について説明します
+description: Adobe Experience Platform Mobile SDK 統合を設定する方法について説明します
 feature: Channel Configuration
 role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
 source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '465'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
 
-# Adobe Experience Platform Mobile SDKとライブアクティビティの統合 {#mobile-live-config-sdk}
+# Adobe Experience Platform Mobile SDK とのライブアクティビティ統合 {#mobile-live-config-sdk}
 
 >[!BEGINSHADEBOX]
 
 * [ライブアクティビティの基本を学ぶ](get-started-mobile-live.md)
-* [ライブアクティビティ設定](mobile-live-configuration.md)
-* **[Adobe Experience Platform Mobile SDKとライブアクティビティの統合](mobile-live-configuration-sdk.md)**
+* [ライブアクティビティの設定](mobile-live-configuration.md)
+* **[Adobe Experience Platform Mobile SDK とのライブアクティビティ統合](mobile-live-configuration-sdk.md)**
 * [ライブアクティビティの作成](create-mobile-live.md)
 * [よくある質問](mobile-live-faq.md)
 * [ライブアクティビティキャンペーンレポート](../reports/campaign-global-report-cja-activity.md)
@@ -30,29 +30,29 @@ ht-degree: 1%
 
 >[!ENDSHADEBOX]
 
-Adobe Experience Platform Mobile SDKは、Appleのライブアクティビティに対する組み込みのサポートを提供します。 これにより、アプリを開かなくても、アプリでリアルタイムの動的な更新をロック画面と動的な島に直接表示できます。
+Adobe Experience Platform Mobile SDK は、Apple のライブアクティビティのビルトインのサポートを提供します。 これにより、アプリを開かなくても、ロック画面と Dynamic Island でリアルタイムの動的な更新を直接表示できます。
 
-1. [必要なモジュールの読み込み](#import)
+1. [必要なモジュールをインポート](#import)
 
    **[!DNL AEPMessaging]**、**[!DNL AEPMessagingLiveActivity]**、**[!DNL ActivityKit]** のモジュールを読み込みます。
 
-1. [&#x200B; 属性の定義 &#x200B;](#attributes)
+1. [属性の定義](#attributes)
 
    `LiveActivityAttributes` に準拠し、`LiveActivityData` 属性と `ContentState` 属性を含めます。
 
-1. [ライブアクティビティの登録](#register)
+1. [ライブアクティビティを登録](#register)
 
-   SDKの初期化後に `Messaging.registerLiveActivity()` を使用します。
+   SDK の初期化後に `Messaging.registerLiveActivity()` を使用します。
 
-1. [ウィジェット設定の作成](#widget)
+1. [ウィジェット設定を作成](#widget)
 
    ロック画面と Dynamic Island インターフェイスの両方に `ActivityConfiguration` を実装します。
 
-1. [ライブアクティビティをローカルで開始（オプション）](#local)
+1. [ローカルでライブアクティビティを開始（オプション）](#local)
 
-   ライブアクティビティは、Journey Optimizerからリモートで開始することも、アプリケーションコード内でローカルに開始することもできます。
+   ライブアクティビティは、Journey Optimizer を通じてリモートで開始することも、アプリケーションコード内でローカルで開始することもできます。
 
-1. [デバッグサポートの追加（オプション）](#debug)
+1. [デバッグサポートを追加（オプション）](#debug)
 
    Assuranceに `LiveActivityAssuranceDebuggable` を実装します。
 
@@ -62,17 +62,17 @@ Adobe Experience Platform Mobile SDKは、Appleのライブアクティビティ
 
 **前提条件：**
 
-* **iOS:**
-   * **iOS16.1 以降**：基本的なライブアクティビティ機能
-   * **iOS 17.2 以降**: プッシュツースタートのサポート
-   * **iOS 18 以降**: ブロードキャストチャンネルのサポート
-* **Xcode:** 14.0 以降
-* **Swift:** 5.7 以降
+* **iOS：**
+   * **iOS 16.1 以降**：基本的なライブアクティビティ機能
+   * **iOS 17.2 以降**：プッシュトゥスタートのサポート
+   * **iOS 18 以降**：ブロードキャストチャネルのサポート
+* **Xcode：** 14.0 以降
+* **Swift：** 5.7 以降
 * **依存関係：** AEPCore、AEPMessaging、AEPMessagingLiveActivity、ActivityKit
 
 >[!ENDSHADEBOX]
 
-## 手順 1：必要なモジュールのインポート {#import}
+## 手順 1：必要なモジュールをインポート {#import}
 
 開始するには、まず **[!DNL AEPMessaging]**、**[!DNL AEPMessagingLiveActivity]**、**[!DNL ActivityKit]** モジュールを読み込む必要があります。
 
@@ -82,21 +82,21 @@ import AEPMessagingLiveActivity
 import ActivityKit
 ```
 
-## 手順 2：ライブアクティビティ属性の定義 {#attributes}
+## 手順 2：ライブアクティビティ属性を定義 {#attributes}
 
-`LiveActivityAttributes` プロトコルに準拠する構造体を作成します。 ライブアクティビティの静的データと動的コンテンツの状態の両方を定義します。
+`LiveActivityAttributes` プロトコルに準拠する構造体を作成します。これにより、ライブアクティビティの静的データと動的コンテンツの状態の両方が定義されます。
 
 主なコンポーネントは次のとおりです。
 
-* Adobe Experience Platform固有のデータを含む **`liveActivityData`** （必須）。
+* Adobe Experience Platform 固有のデータを含む **`liveActivityData`**（必須）。
    * 個々のユーザーの場合：`LiveActivityData(liveActivityID: "unique-id")` を使用します
    * ブロードキャストの場合：`LiveActivityData(channelID: "channel-id")` を使用します
 
-* 静的属性、ユースケースに固有のカスタムプロパティ（`restaurantName` など）。
+* 静的属性、ユースケースに固有のカスタムプロパティ（例：`restaurantName`）。
 
-* ライブアクティビティのライフサイクル中に更新できる動的データを定義する **`ContentState`**。 それは `Codable` と `Hashable` に従わなければなりません。
+* ライブアクティビティライフサイクル中に更新できる動的データを定義する **`ContentState`**。これは、`Codable` と `Hashable` に準拠する必要があります。
 
-* 定義済みリスト `LiveActivityOrigin`、アクティビティがアプリケーション内でローカルに開始されたか、iOS 17.2 以降でサポートされているプッシュトゥスタート通知を使用してリモートに開始されたかを示します。 この値を使用すると、SDKで、データ収集中のローカルで開始されたライブアクティビティとリモートでトリガーされたライブアクティビティを区別できます。
+* `LiveActivityOrigin` 定義済みリストは、アクティビティがアプリ内でローカルで開始されたか、iOS 17.2 以降でサポートされているプッシュトゥスタート通知を通じてリモートで開始されたかを指定します。この値により、SDK で、データ収集中にローカルで開始されたライブアクティビティとリモートでトリガーされたライブアクティビティを区別できます。
 
 **例**
 
@@ -134,7 +134,7 @@ public struct LiveActivityData: Codable {
 }
 ```
 
-また、アプリに複数のライブアクティビティタイプを登録できます。
+また、アプリに複数のライブアクティビティタイプを登録することもできます。
 
 ```swift
 if #available(iOS 16.1, *) {
@@ -144,15 +144,15 @@ if #available(iOS 16.1, *) {
 }
 ```
 
-## 手順 3：ライブアクティビティの登録 {#register}
+## 手順 3：ライブアクティビティを登録 {#register}
 
-SDKの初期化後、ライブ アクティビティ タイプを `AppDelegate` に登録します。これにより、次のことが可能になります。
+SDK の初期化後に `AppDelegate` にライブアクティビティタイプを登録すると、次の操作を実行できます。
 
-* 自動プッシュトゥスタートトークンコレクションを有効にする（iOS 17.2 以降）
-* ライブアクティビティ更新トークンを自動的に収集します
-* ライフサイクル管理とイベント追跡を可能にする
+* 自動プッシュトゥスタートトークン収集を有効にする（iOS 17.2 以降）
+* ライブアクティビティ更新トークンを自動的に収集
+* ライフサイクル管理とイベントトラッキングを有効にする
 
-**食品配信ライブアクティビティの例：**
+**食品配送ライブアクティビティの例：**
 
 ```swift
 if #available(iOS 16.1, *) {
@@ -160,11 +160,11 @@ if #available(iOS 16.1, *) {
 }
 ```
 
-## 手順 4：ライブアクティビティ ウィジェットの作成 {#widgets}
+## 手順 4：ライブアクティビティウィジェットを作成 {#widgets}
 
 ライブアクティビティはウィジェットを通じて表示されます。ウィジェットバンドルと設定を作成する必要があります。
 
-**食品配信ライブアクティビティの例：**
+**食品配送ライブアクティビティの例：**
 
 ```swift
 @main
@@ -199,11 +199,11 @@ struct FoodDeliveryLiveActivityWidget: Widget {
 }
 ```
 
-## 手順 5：ライブアクティビティのローカルでの開始（オプション） {#local}
+## 手順 5：ローカルでライブアクティビティを開始（オプション） {#local}
 
-Journey Optimizerではライブ アクティビティをリモートから開始できますが、ローカルで開始することもできます。
+Journey Optimizer ではライブアクティビティをリモートで開始できますが、ローカルで開始することもできます。
 
-**食品配信ライブアクティビティの例：**
+**食品配送ライブアクティビティの例：**
 
 ```swift
 let attributes = FoodDeliveryLiveActivityAttributes(
@@ -222,11 +222,11 @@ let activity = try Activity<FoodDeliveryLiveActivityAttributes>.request(
 )
 ```
 
-## 手順 6：デバッグサポートの追加（オプション） {#debug}
+## 手順 6：デバッグサポートを追加（オプション） {#debug}
 
-必要に応じて、Adobe Assuranceでライブアクティビティスキーマをデバッグできます。
+必要に応じて、Adobe Assurance でライブアクティビティスキーマをデバッグできます。
 
-**食品配信ライブアクティビティの例：**
+**食品配送ライブアクティビティの例：**
 
 ```swift
 @available(iOS 16.1, *)
