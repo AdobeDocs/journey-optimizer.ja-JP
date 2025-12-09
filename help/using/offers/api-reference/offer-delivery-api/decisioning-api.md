@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '1051'
-ht-degree: 100%
+source-git-commit: f30113bf07c42f75bb986a81af49367ac682f4af
+workflow-type: tm+mt
+source-wordcount: '1094'
+ht-degree: 96%
 
 ---
 
@@ -26,6 +26,12 @@ ht-degree: 100%
 このチュートリアルでは、特に意思決定管理に関して、API の実用的な理解が必要です。
 詳しくは、[意思決定管理 API デベロッパーガイド](../getting-started.md)を参照してください。
 このチュートリアルでは、一意のプレースメント ID と決定 ID も必要です。これらの値を取得していない場合は、[プレースメントの作成](../offers-api/placements/create.md)および[決定の作成](../activities-api/activities/create.md)に関するチュートリアルを参照してください。
+
+>[!NOTE]
+>
+>**決定リクエストでコンテキストデータを渡す**
+>
+>決定リクエストでコンテキストデータ（デバイスタイプ、場所、ユーザーの環境設定など）を渡して、動的な実施要件ルールを作成し、リアルタイムの条件に基づいてパーソナライズされたオファーを配信できます。 [ コンテキストデータと決定リクエストの詳細 ](../../context-data-decisioning.md)
 
 ## 必須ヘッダー {#required-headers}
 
@@ -225,7 +231,7 @@ The following video is intended to support your understanding of the components 
 >
 >This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/342831/?captions=jpn&quality=12) -->
+>[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12) -->
 
 ## 次の手順 {#next-steps}
 

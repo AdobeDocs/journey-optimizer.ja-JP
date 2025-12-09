@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '889'
-ht-degree: 100%
+source-git-commit: f30113bf07c42f75bb986a81af49367ac682f4af
+workflow-type: tm+mt
+source-wordcount: '935'
+ht-degree: 95%
 
 ---
 
@@ -54,6 +54,12 @@ SDK を使用するには、[スキーマ](../../../data/get-started-schemas.md)
 オファーをパーソナライズするには、パーソナライズ機能やプロファイルを個別に設定する必要があります。
 
 <!-- Refer to the [doc](www.link.com) for detailed instructions.  -->
+
+>[!NOTE]
+>
+>**Edge Decisioning リクエストでコンテキストデータを渡す**
+>
+>Edge Decisioning リクエストでコンテキストデータ（デバイスタイプ、場所、ユーザーの環境設定など）を渡し、動的な実施要件ルールを作成し、リアルタイムの条件に基づいてパーソナライズされたオファーを配信できます。 [ コンテキストデータとEdge Decisioning リクエストについて詳しくはこちらから ](../../context-data-edge.md)
 
 意思決定管理の SDK を設定するには、次の 2 つの手順に従います。
 
