@@ -50,31 +50,31 @@ Decisioning API を使用して自由形式でコンテキストを渡すのと�
 
    この例では、「オファーコンテキスト」フィールドグループに language と deviceType という 2 つのプロパティがあります。これらのプロパティは、オファーのランキングと実施要件ルールで使用されます。
 
-   ![language と deviceType プロパティを含んだオファーコンテキストフィールドグループを示す XDM スキーマ ](assets/context-edge-xdm.png){width="60%" align="center" zoomable="yes"}
+   ![language と deviceType プロパティを含んだオファーコンテキストフィールドグループを示す XDM スキーマ &#x200B;](assets/context-edge-xdm.png){width="60%" align="center" zoomable="yes"}
 
-   スキーマの使用方法については、[!DNL Adobe Experience Platform]Experience Data Model （XDM）ガイド [ 参照してください ](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/home){target="_blank"}
+   スキーマの使用方法については、[!DNL Adobe Experience Platform]Experience Data Model （XDM）ガイド [&#x200B; 参照してください &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/home){target="_blank"}
 
 1. データセット（ここでは「オファーコンテキスト」）を作成し、プロファイルに対して有効になっていることを確認します。
 
-1. **[!UICONTROL データ収集]**／**[!UICONTROL データストリーム]**&#x200B;メニューから新しいデータストリームを作成します。データストリームを作成および設定する方法については、[!DNL Adobe Experience Platform] データストリームガイド [ を参照 ](https://experienceleague.adobe.com/ja/docs/experience-platform/datastreams/configure){target="_blank"} てください。
+1. **[!UICONTROL データ収集]**／**[!UICONTROL データストリーム]**&#x200B;メニューから新しいデータストリームを作成します。データストリームを作成および設定する方法については、[!DNL Adobe Experience Platform] データストリームガイド [&#x200B; を参照 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/datastreams/configure){target="_blank"} てください。
 
    ここでは、「オファーコンテンツ」イベントスキーマを選択して、「オファーコンテキスト」データストリームを作成しました。
 
-   ![ イベントスキーマを選択したオファーコンテキストデータストリーム設定 ](assets/context-edge-datastream.png)
+   ![&#x200B; イベントスキーマを選択したオファーコンテキストデータストリーム設定 &#x200B;](assets/context-edge-datastream.png)
 
 1. 新しく作成したデータストリームを編集し、サービスとして「Adobe Experience Platform」を選択し、イベントデータセットとして「オファーコンテキスト」を選択します。
 
-   ![Adobe Experience Platformとオファーコンテキストデータセットを使用したデータストリームサービスの設定 ](assets/context-edge-datastream-new.png)
+   ![Adobe Experience Platformとオファーコンテキストデータセットを使用したデータストリームサービスの設定 &#x200B;](assets/context-edge-datastream-new.png)
 
 1. データストリームを保存し、その ID をコピーします。この ID は、API リクエストエンドポイントで使用されます。[詳しくは、API 呼び出しの作成方法を参照してください。](#request)
 
-   ![ 設定インターフェイスからのデータストリーム ID のコピー ](assets/context-edge-datastream-copy.png)
+   ![&#x200B; 設定インターフェイスからのデータストリーム ID のコピー &#x200B;](assets/context-edge-datastream-copy.png)
 
 ## 実施要件ルールでのコンテキストデータの使用 {#rules}
 
 ユーザーのデバイスタイプに基づいて表示するオファーを決定する実施要件ルールを作成します。
 
-![iPhoneおよびiPad オファーのデバイスタイプ実施要件ルール ](assets/context-edge-device.png)
+![iPhoneおよびiPad オファーのデバイスタイプ実施要件ルール &#x200B;](assets/context-edge-device.png)
 
 * iPhone デバイスのルール：
 
@@ -116,13 +116,13 @@ Decisioning API を使用して自由形式でコンテキストを渡すのと�
 
 以前に作成したオファーを、ここでは「Edge デバイスコンテキスト」という名前の静的コレクションに追加します。このコレクションでは、オファーの決定によって実施要件を満たすオファーが選択され、お客様に提示されます。
 
-![ デバイス固有のオファーを含むEdge Device Context コレクション ](assets/context-edge-collection.png)
+![&#x200B; デバイス固有のオファーを含むEdge Device Context コレクション &#x200B;](assets/context-edge-collection.png)
 
 ## オファーの決定の作成 {#decision}
 
 オファーの決定エンジンを活用して、フォールバックオファーとして「コンテキストフォールバック」オファーを選択し、デバイスタイプに基づいてユーザーに提示する最適なオファーを選択する新しい決定を作成します。
 
-![ コンテキストフォールバックをフォールバックオファーとして使用したオファー決定設定 ](assets/context-edge-decision.png)
+![&#x200B; コンテキストフォールバックをフォールバックオファーとして使用したオファー決定設定 &#x200B;](assets/context-edge-decision.png)
 
 >[!NOTE]
 >
@@ -145,7 +145,7 @@ Decisioning API を使用して自由形式でコンテキストを渡すのと�
 
   +++決定範囲の取得先
 
-  ![ オファーの決定インターフェイスから決定範囲をコピーする場所 ](assets/context-edge-copy-scope.png)
+  ![&#x200B; オファーの決定インターフェイスから決定範囲をコピーする場所 &#x200B;](assets/context-edge-copy-scope.png)
 
   +++
 
