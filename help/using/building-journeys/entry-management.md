@@ -9,10 +9,10 @@ level: Intermediate
 keywords: 再エントリ, ジャーニー, プロファイル, 繰り返し
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: ht
-source-wordcount: '1124'
-ht-degree: 100%
+source-git-commit: b0b297ed33ab273a3201569760e1d2db5b3ccaad
+workflow-type: tm+mt
+source-wordcount: '1207'
+ht-degree: 93%
 
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 100%
 # プロファイルエントリ管理 {#entry-management}
 
 プロファイルエントリ管理は、ジャーニーのタイプに応じて異なります。
+
+>[!TIP]
+>
+>実際の事例を使った実践的なガイダンスをお探しですか？ ウェルカムキャンペーン、放棄された買い物かごの回復、完全なエントリと終了設定の例を含んだロイヤルティプログラムなどのユースケースを含む、アドビの [ ジャーニーのエントリと終了条件の包括的なガイド ](entry-exit-criteria-guide.md) を参照してください。
 
 ## ジャーニーのタイプ {#types-of-journeys}
 
@@ -115,3 +119,10 @@ Business events follow reentrance rules in the same way as for unitary events. I
 <!--
 After 91 days, a Read audience journey switches to the **Finished** status. This behavior is set for 91 days only (i.e. journey timeout default value) as all information about profiles who entered the journey is removed 91 days after they entered. Persons still in the journey automatically are impacted. They exit the journey after the 30 day timeout. 
 -->
+
+## 関連トピック
+
+* [ジャーニーの入退室条件ガイド ](entry-exit-criteria-guide.md) – 実際の例とベストプラクティスが記載された完全なガイド
+* [ 終了条件の設定 ](journey-properties.md#exit-criteria) - プロファイルがジャーニーを終了するタイミングを定義します
+* [ ジャーニーの終了 ](end-journey.md) - ジャーニーのクローズ方法と終了方法について
+* [ジャーニーの使用例 ](jo-use-cases.md) - エントリ構成と終了構成の完全な例を参照してください

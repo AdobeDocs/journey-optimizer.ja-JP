@@ -9,14 +9,18 @@ level: Intermediate
 keywords: 再エントリ, ジャーニー, 終了, ライブ, 停止
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: ht
-source-wordcount: '819'
-ht-degree: 100%
+source-git-commit: b0b297ed33ab273a3201569760e1d2db5b3ccaad
+workflow-type: tm+mt
+source-wordcount: '892'
+ht-degree: 92%
 
 ---
 
 # ジャーニーの終了 {#journey-ending}
+
+>[!TIP]
+>
+>プロファイルをジャーニーから離脱させるタイミングと方法に関する実践的なガイダンスをお探しですか？ 実際の出口シナリオ、ベストプラクティス、設定ガイダンスが含まれている、アドビの [ ジャーニーのエントリ条件と終了条件の包括的なガイド ](entry-exit-criteria-guide.md) を参照してください。
 
 ## ライブジャーニーの終了方法
 
@@ -105,3 +109,10 @@ ht-degree: 100%
 >[!CAUTION]
 >
 >ジャーニーを停止する権限は、**[!DNL Manage journeys]** の上位権限を持つユーザーに制限されます。[!DNL Journey Optimizer] ユーザーのアクセス権の管理について詳しくは、[この節](../administration/permissions-overview.md)を参照してください。
+
+## 関連トピック
+
+* [ジャーニーの入退室条件ガイド ](entry-exit-criteria-guide.md) – 実際の例とベストプラクティスが記載された完全なガイド
+* [ プロファイルエントリ管理 ](entry-management.md) - プロファイルがジャーニーにエントリする方法を設定します
+* [ 終了条件の設定 ](journey-properties.md#exit-criteria) - ジャーニーからの自動プロファイル削除の設定
+* [ ジャーニーを一時停止 ](journey-pause.md) - ジャーニーの実行を一時的に停止します
