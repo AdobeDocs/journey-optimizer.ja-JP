@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
-workflow-type: ht
-source-wordcount: '2179'
-ht-degree: 100%
+source-git-commit: 3215129db1909c3f14f91f11d98a93144b58a837
+workflow-type: tm+mt
+source-wordcount: '2162'
+ht-degree: 99%
 
 ---
 
@@ -37,7 +37,7 @@ Journey Optimizer では、決定項目と呼ばれるマーケティングオ�
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_custom_attributes"
 >title="カスタム属性を定義"
->abstract="カスタム属性は、ニーズに合わせて調整された特定の属性で、決定項目に割り当てることができます。これらは、決定項目のカタログスキーマで作成されます。このセクションは、カタログスキーマに少なくとも 1 つのカスタム属性を追加した場合にのみ表示されます。"
+>abstract="カスタム属性は、ニーズに合わせて調整された特定の属性で、決定項目に割り当てることができます。決定項目のカタログスキーマに作成されます。"
 
 まず、決定項目の標準属性とカスタム属性を定義します。
 
@@ -83,8 +83,8 @@ Journey Optimizer では、決定項目と呼ばれるマーケティングオ�
 >abstract="デフォルトでは、すべてのプロファイルが決定項目を受け取る資格を持ちますが、オーディエンスまたはルールを使用すると、項目を特定のプロファイルのみに制限できます。"
 
 <!--
->"additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 
