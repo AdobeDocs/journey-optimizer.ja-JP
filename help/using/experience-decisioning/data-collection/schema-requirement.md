@@ -8,10 +8,10 @@ role: Developer
 level: Experienced
 exl-id: ce3a2c33-c15b-436f-90b1-7373d7b2b1ca
 version: Journey Orchestration
-source-git-commit: f43b1ea0dd2197331329e24cb3d76eef0b5a9e86
+source-git-commit: 093e5ba2a74b498bb31d0398e1df460fd93b285f
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 49%
+source-wordcount: '289'
+ht-degree: 39%
 
 ---
 
@@ -104,6 +104,10 @@ JavaScript コードに実装する必要があるスキーマ要件は、以下
 
 提案内の各オファーには、Adobeで生成される一意の ID であるトラッキングトークンが含まれます。 このトークンは、対応するクリックまたはインプレッションイベントで、受信したとおりに（変更なしで）渡す必要があります。 トラッキングトークンの照合により、Adobeでユーザーアクションを正しいオファー決定に正確に関連付け、ダウンストリームレポートと AI ベースの最適化を可能にします。
 
+>[!CAUTION]
+>
+>クリックのトラッキング時に `propositionAction.tokens` フィールドにトラッキングトークンを渡さない場合、クリックイベントは対応するオファーに適切に関連付けられません。 これにより、トラッキングデータが不完全になり、レポートおよび AI ベースのランキング最適化に悪影響を与えます。 クリックトラッキング実装の提案からトラッキングトークンを必ず含めてください。
+
 +++**サンプルペイロード：**
 
 ```json
@@ -179,4 +183,4 @@ JavaScript コードに実装する必要があるスキーマ要件は、以下
 >* POST /ee/v2/interact
 >* POST /ee/v2/collect
 >
->If you are using the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja){target="_blank"} or [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=ja){target="_blank"}, the connection is made automatically.-->
+>If you are using the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} or [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"}, the connection is made automatically.-->
