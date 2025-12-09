@@ -48,11 +48,11 @@ Journey OptimizerでAdobe Experience Manager コンテンツフラグメント�
 
 Adobe Experience ManagerとJourney Optimizerの統合は、次のデータフローに従います。
 
-1. **[作成と作成 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#creating-a-content-fragment)**：コンテンツが作成され、コンテンツフラグメントとしてAdobe Experience Managerに設定されます。
+1. **[作成と作成 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#creating-a-content-fragment)**：コンテンツが作成され、コンテンツフラグメントとしてAdobe Experience Managerに設定されます。
 
-1. **[タグ付け &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#manage-tags)**：コンテンツフラグメントは、Journey Optimizer固有のタグ（`ajo-enabled:{OrgId}/{SandboxName}`）でタグ付けされている必要があります。
+1. **[タグ付け &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#manage-tags)**：コンテンツフラグメントは、Journey Optimizer固有のタグ（`ajo-enabled:{OrgId}/{SandboxName}`）でタグ付けされている必要があります。
 
-1. **[公開 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#publishing-and-previewing-a-fragment)**：コンテンツフラグメントはAdobe Experience Managerで公開され、Journey Optimizerで使用できるようになります。
+1. **[公開 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#publishing-and-previewing-a-fragment)**：コンテンツフラグメントはAdobe Experience Managerで公開され、Journey Optimizerで使用できるようになります。
 
 1. **[アクセス](#aem-add)**:Journey Optimizerは、Adobe Experience Manager パブリッシュインスタンスから利用可能なコンテンツフラグメントをリアルタイムで取得し、表示します。
 
