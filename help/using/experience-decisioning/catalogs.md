@@ -7,14 +7,19 @@ role: User
 level: Intermediate
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
-workflow-type: ht
-source-wordcount: '378'
-ht-degree: 100%
+source-git-commit: 20408838a030ceeb8e61f5e1b80d910a8a21b87d
+workflow-type: tm+mt
+source-wordcount: '426'
+ht-degree: 87%
 
 ---
 
-# 項目カタログ {#catalog}
+# 項目カタログの設定 {#catalog}
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_custom_attributes"
+>title="カスタム属性を定義"
+>abstract="カスタム属性は、ニーズに合わせて調整された特定の属性で、決定項目に割り当てることができます。決定項目のカタログスキーマに作成されます。"
 
 決定では、カタログは、決定項目を整理する中心的なコンテナとして機能します。各カタログは、決定項目に割り当て可能なすべての属性を含む、Adobe Experience Platform スキーマにリンクされます。
 
@@ -48,11 +53,11 @@ ht-degree: 100%
 1. 以下の構造に従って、新しいタブでカタログのスキーマが開きます。
 
    * **`_experience`** ノードには、名前、開始日、終了日、説明など、標準の決定項目属性が含まれます。
-   * **`_<imsOrg>`** ノードには、カスタムの決定項目属性が格納されています。デフォルトでは、カスタム属性は設定されませんが、必要に応じて必要な数だけ追加できます。完了すると、カスタム属性が標準属性と共に、決定項目作成画面に表示されます。
+   * **`_<imsOrg>`** ノードには、カスタムの決定項目属性が格納されます。`<imsOrg>` の属性は、組織の名前（Luma の会社の場合は `_luma` など）に置き換えられます。 デフォルトでは、カスタム属性は設定されませんが、必要に応じて必要な数だけ追加できます。完了すると、カスタム属性が標準属性と共に、決定項目作成画面に表示されます。
 
    ![](assets/catalogs-schema.png)
 
-1. スキーマにカスタム属性を追加するには、**`_<imsOrg>`** ノードに展開し、構造内の目的の場所で「+」ボタンをクリックします。
+1. スキーマにカスタム属性を追加するには、組織のノード（**`_luma`** など）を展開し、構造内の目的の場所にある「+」ボタンをクリックします。
 
    ![](assets/catalogs-add.png)
 
