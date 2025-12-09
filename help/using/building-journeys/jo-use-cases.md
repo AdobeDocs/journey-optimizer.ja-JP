@@ -24,7 +24,7 @@ ht-degree: 93%
 
 >[!TIP]
 >
->ジャーニーのエントリおよび終了条件を初めて使用する場合は、 実際のユースケース、ベストプラクティス、段階的な設定ガイダンスを含む [ ジャーニーのエントリと終了条件に関する包括的なガイド ](entry-exit-criteria-guide.md) から開始します。
+>ジャーニーのエントリおよび終了条件を初めて使用する場合は、 実際のユースケース、ベストプラクティス、段階的な設定ガイダンスを含む [&#x200B; ジャーニーのエントリと終了条件に関する包括的なガイド &#x200B;](entry-exit-criteria-guide.md) から開始します。
 
 
 ## エクスペリエンスイベントの操作
@@ -199,7 +199,7 @@ Adobe Journey Optimizer で最も一般的なユースケースを作成する�
 <p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445" target="_blank">ベストプラクティス：オーディエンスを読み取りジャーニー</a></p>
 <p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/from-plan-to-perfection-how-to-test-your-ajo-journeys-for-10/ba-p/761270" target="_blank">ユースケース：ジャーニーのテスト</a></p>
 <p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/deliver-with-confidence-approval-workflows-across-adobe-journey/ba-p/760900" target="_blank">ユースケース：承認ワークフロー</a></p>
-<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958" target="_blank">Community Blog:ジャーニーの入口と出口の基準 </a> – 実際の例、ベストプラクティス、詳細な設定手順など、包括的な <a href="entry-exit-criteria-guide.md">2}ジャーニーの入口と出口の基準ガイドも参照してください</a></p>
+<p><a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958" target="_blank">Community Blog:ジャーニーの入口と出口の基準 </a> – 実際の例、ベストプラクティス、詳細な設定手順など、包括的な <a href="entry-exit-criteria-guide.md">2&rbrace;ジャーニーの入口と出口の基準ガイドも参照してください</a></p>
 </div>
 <p>
 </td>
