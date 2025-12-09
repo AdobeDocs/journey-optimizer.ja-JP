@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 2d118f5a-32ee-407c-9513-fe0ebe3ce8f0
 version: Journey Orchestration
-source-git-commit: 9894abfbc07268fea7c5081beaa93179cd63f689
+source-git-commit: 86145ff79de58391cc31c9b1a4bd34135868920e
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '453'
 ht-degree: 68%
 
 ---
@@ -18,14 +18,14 @@ ht-degree: 68%
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_custom_attributes"
->title="カスタム属性を定義"
+>title="カタログのスキーマへのアクセスと編集"
 >abstract="カスタム属性は、ニーズに合わせて調整された特定の属性で、決定項目に割り当てることができます。決定項目のカタログスキーマに作成されます。"
 
 決定では、カタログは、決定項目を整理する中心的なコンテナとして機能します。各カタログは [!DNL Adobe Experience Platform] スキーマにリンクされ、決定項目に割り当て可能なすべての属性を包含します。
 
 現時点では、作成されたすべての決定項目は、単一の「オファー」カタログ内に統合され、**[!UICONTROL カタログ]**&#x200B;メニューからアクセスできます。
 
-![&#x200B; オファーカタログが表示されている項目カタログリスト &#x200B;](assets/catalogs-list.png)
+![ オファーカタログが表示されている項目カタログリスト ](assets/catalogs-list.png)
 
 ## ガードレールと制限
 
@@ -54,18 +54,18 @@ ht-degree: 68%
    * **`_experience`** ノードには、名前、開始日、終了日、説明など、標準の決定項目属性が含まれます。
    * **`_<imsOrg>`** ノードには、カスタムの決定項目属性が格納されます。`<imsOrg>` の属性は、組織の名前（Luma の会社の場合は `_luma` など）に置き換えられます。 デフォルトでは、カスタム属性は設定されませんが、必要に応じて必要な数だけ追加できます。完了すると、カスタム属性が標準属性と共に、決定項目作成画面に表示されます。
 
-   ![&#x200B; エクスペリエンスノードと組織ノードを含むカタログスキーマ構造 &#x200B;](assets/catalogs-schema.png)
+   ![ エクスペリエンスノードと組織ノードを含むカタログスキーマ構造 ](assets/catalogs-schema.png)
 
 1. スキーマにカスタム属性を追加するには、組織のノード（**`_luma`** など）を展開し、構造内の目的の場所にある「+」ボタンをクリックします。
 
-   ![&#x200B; スキーマエディターにカスタム属性を追加ボタン &#x200B;](assets/catalogs-add.png)
+   ![ スキーマエディターにカスタム属性を追加ボタン ](assets/catalogs-add.png)
 
 1. 追加した属性に必要なフィールドに入力し、「**[!UICONTROL 適用]**」をクリックします。
 
-   決定アセット属性を持つ属性に入力される値はパブリック URL です。 ほとんどの場合、これは画像を指します。 [!DNL Adobe Experience Platform] スキーマの操作方法について詳しくは、[XDM システムのドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=ja) を参照してください。
+   決定アセット属性を持つ属性に入力される値はパブリック URL です。 ほとんどの場合、これは画像を指します。 [!DNL Adobe Experience Platform] スキーマの操作方法について詳しくは、[XDM システムのドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=ja) を参照してください。
 
 1. 目的のカスタム属性を追加したら、スキーマを保存します。新しいフィールドを「**[!UICONTROL カスタム属性]**」セクション内の決定項目作成画面で使用できるようになりました。
 
    以下の例は、スキーマで定義されたオブジェクトなどのカスタム属性を含む項目作成画面を示しています。
 
-   ![&#x200B; カスタム属性セクションを含む決定項目作成画面 &#x200B;](assets/custom-attributes.png)
+   ![ カスタム属性セクションを含む決定項目作成画面 ](assets/custom-attributes.png)
