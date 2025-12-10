@@ -90,7 +90,7 @@ Journey Optimizerは、複数のレベルでAdobe Experience Platformと統合�
 * **サービスレイヤー** - AEPのガバナンス、プライバシー、クエリサービスを活用します
 * **アプリケーションレイヤー** - AEP上でジャーニーオーケストレーション、意思決定管理、コンテンツ管理を提供します
 
-[Adobe Journey Optimizer ブループリント ](https://experienceleague.adobe.com/ja/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"} の詳細情報。
+[Adobe Journey Optimizer ブループリント &#x200B;](https://experienceleague.adobe.com/ja/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"} の詳細情報。
 
 ## プライバシーとセキュリティ {#privacy-security}
 
@@ -100,8 +100,8 @@ Adobe Experience Cloud のプライバシーとセキュリティのプラクテ
 
 >[!MORELIKETHIS]
 >
->* [Journey Optimizerの概要 ](get-started.md)
->* [ 主要用語 ](terminology.md)
+>* [Journey Optimizerの概要 &#x200B;](get-started.md)
+>* [&#x200B; 主要用語 &#x200B;](terminology.md)
 >* [ユーザーインターフェイスガイド](user-interface.md)
->* [ ガードレールと制限 ](guardrails.md)
+>* [&#x200B; ガードレールと制限 &#x200B;](guardrails.md)
 

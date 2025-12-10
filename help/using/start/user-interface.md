@@ -17,11 +17,11 @@ ht-degree: 33%
 
 # インターフェイスの操作 {#user-interface}
 
-Adobe Journey Optimizerにアクセスするには、Adobe IDを使用して [0}Adobe Experience Cloud} にログインし、「](https://experience.adobe.com)」を選択します。[!DNL Journey Optimizer]
+Adobe Journey Optimizerにアクセスするには、Adobe IDを使用して [0&rbrace;Adobe Experience Cloud&rbrace; にログインし、「](https://experience.adobe.com)」を選択します。[!DNL Journey Optimizer]
 
 >[!NOTE]
 >
->* お使いの環境で使用できるコンポーネントと機能は、[ 権限 ](../administration/permissions.md) および [ ライセンスパッケージ ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} によって異なります。
+>* お使いの環境で使用できるコンポーネントと機能は、[&#x200B; 権限 &#x200B;](../administration/permissions.md) および [&#x200B; ライセンスパッケージ &#x200B;](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} によって異なります。
 >* このドキュメントは頻繁に更新されます。 一部のスクリーンショットは、お使いのインターフェイスと少し異なる場合があります。
 
 ## クイックツアー {#quick-tour}
@@ -104,7 +104,7 @@ Journey Optimizer インターフェイスは、次の 4 つの主な領域で�
 * Adobe サポートに連絡する
 * フィードバックを共有
 
-![ コンテキストヘルプの例 ](assets/do-not-localize/Context-help.gif)
+![&#x200B; コンテキストヘルプの例 &#x200B;](assets/do-not-localize/Context-help.gif)
 
 ### 通知 {#notifications}
 
@@ -119,7 +119,7 @@ Journey Optimizer インターフェイスは、次の 4 つの主な領域で�
 2. **[!UICONTROL 通知]**&#x200B;の下にある **[!UICONTROL Journey Optimizer]** を見つけます。
 3. 受信する通知タイプを有効にする
 
-![ 通知設定 ](../rn/assets/do-not-localize/pulse-notif.png){width="60%" align="center"}
+![&#x200B; 通知設定 &#x200B;](../rn/assets/do-not-localize/pulse-notif.png){width="60%" align="center"}
 
 ### 言語設定 {#language}
 
@@ -164,15 +164,15 @@ AI アシスタントは、即座にヘルプと操作のインサイトを提�
 
 各機能に関する包括的なドキュメントについては、以下を参照してください。
 
-* **ジャーニー** - [ 最初のジャーニーを作成 ](../building-journeys/journey-gs.md)
-* **キャンペーン** - [ キャンペーンの基本を学ぶ ](../campaigns/get-started-with-campaigns.md)
-* **オファーと決定** - [ 意思決定管理 ](../offers/get-started/starting-offer-decisioning.md)
-* **コンテンツの作成** - [ メールデザイン ](../email/get-started-email-design.md)
+* **ジャーニー** - [&#x200B; 最初のジャーニーを作成 &#x200B;](../building-journeys/journey-gs.md)
+* **キャンペーン** - [&#x200B; キャンペーンの基本を学ぶ &#x200B;](../campaigns/get-started-with-campaigns.md)
+* **オファーと決定** - [&#x200B; 意思決定管理 &#x200B;](../offers/get-started/starting-offer-decisioning.md)
+* **コンテンツの作成** - [&#x200B; メールデザイン &#x200B;](../email/get-started-email-design.md)
 * **Audiences** - [Audience Management](../audience/about-audiences.md)
-* **チャネル設定** - [ チャネルのセットアップ ](../configuration/get-started-configuration.md)
-* **データ管理** - [ スキーマの操作 ](../data/get-started-schemas.md)
-* **プライバシーとガバナンス** - [ プライバシーの概要 ](../privacy/get-started-privacy.md)
-* **管理** - [ アクセス制御 ](../administration/permissions-overview.md)
+* **チャネル設定** - [&#x200B; チャネルのセットアップ &#x200B;](../configuration/get-started-configuration.md)
+* **データ管理** - [&#x200B; スキーマの操作 &#x200B;](../data/get-started-schemas.md)
+* **プライバシーとガバナンス** - [&#x200B; プライバシーの概要 &#x200B;](../privacy/get-started-privacy.md)
+* **管理** - [&#x200B; アクセス制御 &#x200B;](../administration/permissions-overview.md)
 
 ## 関連トピック {#related-topics}
 
