@@ -16,7 +16,7 @@ ht-degree: 2%
 
 >[!BEGINSHADEBOX]
 
-このユースケースは、Experience Platformに既に存在するオーディエンス、特に、発生したブラウジングアクティビティを収集するリアルタイムの web 行動オーディエンスから始まります。 [&#x200B; 詳しくは、Adobe Experience Platformを参照してください &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
+このユースケースは、Experience Platformに既に存在するオーディエンス、特に、発生したブラウジングアクティビティを収集するリアルタイムの web 行動オーディエンスから始まります。 [&#x200B; 詳しくは、Adobe Experience Platformを参照してください &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
 
 **このユースケースではスキーマが必要です：**
 

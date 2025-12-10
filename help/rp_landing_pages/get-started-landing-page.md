@@ -24,7 +24,7 @@ Adobe Journey Optimizerの基本と、データ駆動型パーソナライゼー
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
 
 Journey Optimizerとは
 
@@ -34,7 +34,7 @@ Journey Optimizerとは
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 仕組みについて
 
@@ -44,7 +44,7 @@ Journey OptimizerとAdobe Experience Platformの統合方法、およびその�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list.svg?lang=ja)
 
 主な用語
 
@@ -61,7 +61,7 @@ Journey Optimizerを自信を持ってナビゲートするのに役立つ基本
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/user.svg?lang=ja)
 
 マーケター向け
 
@@ -71,7 +71,7 @@ Journey Optimizerを自信を持ってナビゲートするのに役立つ基本
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ja)
 
 データエンジニア向け
 
@@ -81,7 +81,7 @@ Journey Optimizerを自信を持ってナビゲートするのに役立つ基本
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 管理者向け
 
@@ -110,7 +110,7 @@ Journey Optimizer インターフェイスの使用方法、主な機能への�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 検索と整理
 
@@ -120,7 +120,7 @@ Journey Optimizer インターフェイスの使用方法、主な機能への�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 AI とインテリジェント機能
 
@@ -145,7 +145,7 @@ AI が、コンテンツの作成、送信時間の最適化、よりスマー�
 * **[ユースケースプレイブック](../using/start/ai-features.md#playbooks)** – 放棄された買い物かごの回復やようこそキャンペーンなどの一般的なシナリオ用の事前定義済みワークフロー
 * **[監視とトラブルシューティング](troubleshoot-journey-landing-page.md)** - パフォーマンスの追跡、問題の特定、問題の迅速な解決を行うツール
 * **[新機能](../using/rn/release-notes.md)** – 最新の機能、改善点、修正点を常に把握できます。
-* **[コミュニティフォーラム &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}** – 他のユーザーとつながり、質問し、ベストプラクティスを共有します
+* **[コミュニティフォーラム &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"}** – 他のユーザーとつながり、質問し、ベストプラクティスを共有します
 * **[ドキュメントの更新](../using/rn/documentation-updates.md)** - ドキュメントに対する最近の変更や追加について常に情報を提供します
 
 ## 始める準備はよろしいでしょうか。
@@ -155,7 +155,7 @@ AI が、コンテンツの作成、送信時間の最適化、よりスマー�
 * **Journey Optimizerを初めて使用する場合** Journey Optimizerとは [基本を理解する &#x200B;](../using/start/get-started.md) 法
 * **自分の役割を知っている場合** 自分の責任に合った [&#x200B; 役割固有のガイド &#x200B;](../using/start/quick-start.md) に移動する
 * **探索しますか？**&#x200B;[AI 機能を参照するか &#x200B;](../using/start/ai-features.md) ユースケースプレイブック [&#x200B; を試してください &#x200B;](../using/start/ai-features.md#playbooks)
-* **サポートが必要な場合** トラブルシューティングガイド [&#x200B; を確認するか、](../using/start/troubleshooting.md) コミュニティフォーラム [&#x200B; にアクセスしてくださ &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}。
+* **サポートが必要な場合** トラブルシューティングガイド [&#x200B; を確認するか、](../using/start/troubleshooting.md) コミュニティフォーラム [&#x200B; にアクセスしてくださ &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"}。
 
 ## クイックリンク {#quick-links}
 
