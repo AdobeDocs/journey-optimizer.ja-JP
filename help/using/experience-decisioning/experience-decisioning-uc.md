@@ -1,13 +1,13 @@
 ---
 title: 決定のユースケース
 description: コードベースのエクスペリエンスチャネルを使用して、決定を作成し、コンテンツ実験で使用する方法について説明します。
-feature: Decisioning
+feature: Decisioning, Use Cases
 topic: Integrations
 role: User
 level: Intermediate, Experienced
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
 version: Journey Orchestration
-source-git-commit: 17c8bc8b37c4bdf7c93735e152eedf7e0bbaf62a
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
 workflow-type: tm+mt
 source-wordcount: '858'
 ht-degree: 96%
@@ -29,7 +29,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->コードベースのエクスペリエンスで決定を使用する際のテストと重複排除の実装について詳しくは、[&#x200B; このページ &#x200B;](../code-based/code-based-decisioning-implementations.md) を参照してください。
+>コードベースのエクスペリエンスで決定を使用する際のテストと重複排除の実装について詳しくは、[ このページ ](../code-based/code-based-decisioning-implementations.md) を参照してください。
 
 ## 選択戦略の作成
 

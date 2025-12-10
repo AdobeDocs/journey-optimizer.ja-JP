@@ -3,14 +3,14 @@ solution: Journey Optimizer
 product: journey optimizer
 title: ランディングページのユースケース
 description: Journey Optimizer のランディングページの最も一般的な使用例を確認する
-feature: Landing Pages, Subscriptions
+feature: Landing Pages, Subscriptions, Use Cases
 topic: Content Management
 role: User
 level: Intermediate
 keywords: ランディング, ランディングページ, ユースケース
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 5f2ccb102d08151da5616ef42559164f29542e5d
-workflow-type: ht
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+workflow-type: tm+mt
 source-wordcount: '1013'
 ht-degree: 100%
 

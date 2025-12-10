@@ -3,12 +3,12 @@ solution: Journey Optimizer
 product: journey optimizer
 title: システムアラートへのアクセスと購読
 description: システムアラートへのアクセスと購読方法を学ぶ
-feature: Journeys, Alerts
+feature: Journeys, Alerts, Monitoring
 topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 767eb74a6ba13013b290eaa28ba8ff590e8b6781
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
 workflow-type: tm+mt
 source-wordcount: '2216'
 ht-degree: 97%
@@ -91,7 +91,7 @@ ht-degree: 97%
 
 1. 「**[!UICONTROL 保存]**」をクリックして確認します。
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=ja#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## ジャーニーアラート {#journey-alerts}
 

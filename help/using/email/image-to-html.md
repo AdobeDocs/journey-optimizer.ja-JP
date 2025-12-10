@@ -4,21 +4,19 @@ product: journey optimizer
 title: 画像から HTML へのコンバーターを使用して、画像を HTML テンプレートに変換
 description: AI を活用した画像から HTML へのコンバーターを使用して、画像デザインを編集可能な HTML メールテンプレートに変換する方法について説明します
 feature: Email Design
-topic: Content Management
+topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 badge: label="限定提供" type="Informative"
 keywords: メール, テンプレート, 画像, HTML, AI, デザイン, コンバーター
-source-git-commit: 7176f5a1fa4c1b6c564fdb5d65f4e9208a1dce30
-workflow-type: ht
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+workflow-type: tm+mt
 source-wordcount: '1769'
 ht-degree: 100%
 
 ---
 
 # 画像から HTML へのコンバーターを使用して、画像を HTML テンプレートに変換 {#image-to-html}
-
-
 
 ## 概要 {#overview}
 

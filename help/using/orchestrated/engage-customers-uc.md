@@ -3,8 +3,9 @@ solution: Journey Optimizer
 product: journey optimizer
 title: ブラウジングアクティビティで顧客を引き付ける
 description: ブラウジングアクティビティで顧客を引き付ける
+feature: Use Cases
 version: Campaign Orchestration
-source-git-commit: 51c8c9282cb6eb9cdbd310d8f263d7973f28bbf0
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 2%
@@ -15,14 +16,14 @@ ht-degree: 2%
 
 >[!BEGINSHADEBOX]
 
-このユースケースは、Experience Platformに既に存在するオーディエンス、特に、発生したブラウジングアクティビティを収集するリアルタイムの web 行動オーディエンスから始まります。 [&#x200B; 詳しくは、Adobe Experience Platformを参照してください &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
+このユースケースは、Experience Platformに既に存在するオーディエンス、特に、発生したブラウジングアクティビティを収集するリアルタイムの web 行動オーディエンスから始まります。 [ 詳しくは、Adobe Experience Platformを参照してください ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
 
 **このユースケースではスキーマが必要です：**
 
 * **受信者**：ターゲティングディメンションとして使用され、フィールド `email`、`churnprop` を持つ
 * **ウィッシュリスト**：フィールド `description`、`priceref`、`imageurl` を使用
 
-➡️ [&#x200B; モデルベースのスキーマを設定する方法を学ぶ &#x200B;](gs-schemas.md)
+➡️ [ モデルベースのスキーマを設定する方法を学ぶ ](gs-schemas.md)
 
 >[!ENDSHADEBOX]
 
@@ -79,7 +80,7 @@ ht-degree: 2%
 
 キャンペーンの実行後、レポートダッシュボードでパフォーマンス指標と主要インサイトを確認できます。
 
-➡️[&#x200B; レポートの詳細情報 &#x200B;](../reports/campaign-global-report-cja.md)
+➡️[ レポートの詳細情報 ](../reports/campaign-global-report-cja.md)
 
 ## 高リスクセグメント {#high-risk}
 

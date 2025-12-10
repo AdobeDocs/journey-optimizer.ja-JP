@@ -4,11 +4,11 @@ product: journey optimizer
 title: Journey Optimizer の AI アシスタントの基本を学ぶ
 description: Journey Optimizer の AI アシスタントにアクセスして操作する方法を学ぶ
 feature: Content Assistant
-topic: Content Management
+topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
 workflow-type: tm+mt
 source-wordcount: '866'
 ht-degree: 97%

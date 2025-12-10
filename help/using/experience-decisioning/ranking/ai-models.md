@@ -4,12 +4,13 @@ product: Journey Optimizer
 title: AI モデルの基本を学ぶ
 description: オファーをランク付けできる AI モデルについて説明します
 feature: Ranking, Decision Management
+topic: Artificial Intelligence
 role: User
 level: Intermediate
 exl-id: 07679823-2288-4528-b09a-12fd76a69482
 version: Journey Orchestration
-source-git-commit: 3fa90fa707b562ecf2160ec980520bc8bc267a21
-workflow-type: ht
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 100%
 

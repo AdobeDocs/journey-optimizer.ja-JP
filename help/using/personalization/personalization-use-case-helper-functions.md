@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: パーソナライゼーションのユースケース&colon; 買い物かご放棄メール
 description: ユースケースを通じて、メールメッセージの本文をパーソナライズする方法を説明します。
-feature: Personalization
+feature: Personalization, Use Cases
 topic: Personalization
 role: Developer
 level: Intermediate
 keywords: 式, エディター, ヘルパー, ユースケース, パーソナライゼーション
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: bf5b054eaaca73abf484ccbabf160e902fad3f5b
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 100%
@@ -346,4 +346,4 @@ ht-degree: 100%
 
 ヘルパー関数の使用方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416781?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

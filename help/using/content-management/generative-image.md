@@ -4,10 +4,10 @@ product: journey optimizer
 title: AI アシスタントによる画像の生成
 description: Journey Optimizerの AI アシスタントで画像を生成する方法を説明します。
 feature: Content Assistant
-topic: Content Management
+topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
-source-git-commit: d552008195d324227ecf91ea7a1ab905fe3981cc
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
 workflow-type: tm+mt
 source-wordcount: '1414'
 ht-degree: 56%
@@ -42,7 +42,7 @@ AI アシスタントで画像の生成を開始するには、まずキャン�
 
 1. 右側のメニューから「**[!UICONTROL AI アシスタント]**」（Web の場合は「**[!UICONTROL コンテンツアシスタントを表示]**」を選択します。
 
-   ![&#x200B; 画像アセットが選択され、AI アシスタント パネルが開きました &#x200B;](assets/image-genai-1.png){zoomable="yes"}
+   ![ 画像アセットが選択され、AI アシスタント パネルが開きました ](assets/image-genai-1.png){zoomable="yes"}
 
 ### コンテンツを生成 {#generate-content}
 
@@ -56,7 +56,7 @@ AI アシスタントで画像の生成を開始するには、まずキャン�
 
    プロンプトの作成に関するサポートが必要な場合は、キャンペーンを改善するための様々なプロンプトのアイデアを提供する&#x200B;**[!UICONTROL プロンプトライブラリ]**&#x200B;にアクセスしてください。
 
-   ![&#x200B; オプション付き AI アシスタント画像生成パネル &#x200B;](assets/image-genai-2.png){zoomable="yes"}
+   ![ オプション付き AI アシスタント画像生成パネル ](assets/image-genai-2.png){zoomable="yes"}
 
 1. 次の&#x200B;**[!UICONTROL 画像設定]**&#x200B;オプションを使用してプロンプトを調整します。
 
@@ -67,7 +67,7 @@ AI アシスタントで画像の生成を開始するには、まずキャン�
    * **[!UICONTROL 照明]**：画像内の稲妻を指し、画像の雰囲気を形成し、特定の要素をハイライト表示します。
    * **[!UICONTROL 構成]**：画像のフレーム内の要素の配置を指します
 
-     ![&#x200B; コントロールを含む画像設定パネル &#x200B;](assets/image-genai-4.png){zoomable="yes"}
+     ![ コントロールを含む画像設定パネル ](assets/image-genai-4.png){zoomable="yes"}
 
 1. **[!UICONTROL 参照コンテンツ]** メニューで「**[!UICONTROL ファイルをアップロード]**」をクリックし、追加のコンテキスト AI アシスタントを提供できるコンテンツを含むブランドアセットを追加するか、以前にアップロードしたものを選択します。
 
@@ -85,7 +85,7 @@ AI アシスタントで画像の生成を開始するには、まずキャン�
 
    詳しくは、[ブランド一致スコア](brands-score.md)を参照してください。
 
-   ![&#x200B; バリエーションに対するブランドの整合性スコア &#x200B;](assets/image-genai-6.png){zoomable="yes"}
+   ![ バリエーションに対するブランドの整合性スコア ](assets/image-genai-6.png){zoomable="yes"}
 
 1. 「**[!UICONTROL プレビュー]**」をクリックして、選択したバリエーションの全画面バージョンを表示するか、「**[!UICONTROL 適用]**」をクリックして、現在のコンテンツを置き換えます。
 
@@ -98,7 +98,7 @@ AI アシスタントで画像の生成を開始するには、まずキャン�
 
    * 後でアクセスできるようにアセットを保存するには、「**[!UICONTROL 保存]**」を選択します。
 
-     ![&#x200B; 使用可能なアクションを表示してオプションを絞り込み &#x200B;](assets/image-genai-5.png){zoomable="yes"}
+     ![ 使用可能なアクションを表示してオプションを絞り込み ](assets/image-genai-5.png){zoomable="yes"}
 
 1. 適切なコンテンツが見つかったら、「**[!UICONTROL 選択]**」をクリックします。
 
@@ -141,7 +141,7 @@ AI アシスタントにアクセスしたら、生成設定を調整して、�
 
    プロンプトの作成に関するサポートが必要な場合は、キャンペーンを改善するための様々なプロンプトのアイデアを提供する&#x200B;**[!UICONTROL プロンプトライブラリ]**&#x200B;にアクセスしてください。
 
-   ![&#x200B; プッシュ用 AI アシスタントの画像生成 &#x200B;](assets/push-gen-img.png){zoomable="yes"}
+   ![ プッシュ用 AI アシスタントの画像生成 ](assets/push-gen-img.png){zoomable="yes"}
 
 1. 生成するフィールドとして **[!UICONTROL 画像]** を選択します。
 
@@ -153,7 +153,7 @@ AI アシスタントにアクセスしたら、生成設定を調整して、�
    * **[!UICONTROL 照明]**：画像内の稲妻を指し、画像の雰囲気を形成し、特定の要素をハイライト表示します。
    * **[!UICONTROL 構成]**：画像のフレーム内の要素の配置を指します
 
-     ![&#x200B; プッシュ用 AI アシスタントの画像生成 &#x200B;](assets/push-gen-img-3.png){zoomable="yes"}
+     ![ プッシュ用 AI アシスタントの画像生成 ](assets/push-gen-img-3.png){zoomable="yes"}
 
 1. **[!UICONTROL 参照コンテンツ]** メニューで「**[!UICONTROL ファイルをアップロード]**」をクリックし、追加のコンテキスト AI アシスタントを提供できるコンテンツを含むブランドアセットを追加するか、以前にアップロードしたものを選択します。
 
@@ -171,7 +171,7 @@ AI アシスタントにアクセスしたら、生成設定を調整して、�
 
    詳しくは、[ブランド一致スコア](brands-score.md)を参照してください。
 
-   ![&#x200B; バリエーションに対するブランドの整合性スコア &#x200B;](assets/push-gen-img-2.png){zoomable="yes"}
+   ![ バリエーションに対するブランドの整合性スコア ](assets/push-gen-img-2.png){zoomable="yes"}
 
 1. 「**[!UICONTROL プレビュー]**」をクリックして、選択したバリエーションの全画面バージョンを表示するか、「**[!UICONTROL 適用]**」をクリックして、現在のコンテンツを置き換えます。
 

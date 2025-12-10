@@ -3,8 +3,9 @@ solution: Journey Optimizer
 product: journey optimizer
 title: 製品の可用性をユーザーに通知
 description: 製品の可用性をユーザーに通知
+feature: Use Cases
 version: Campaign Orchestration
-source-git-commit: 51c8c9282cb6eb9cdbd310d8f263d7973f28bbf0
+source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 3%
@@ -47,7 +48,7 @@ ht-degree: 3%
 
    ![](assets/notify-4.png){zoomable="yes"}
 
-1. 項目ごとに個別のメールを送信できるようにするには、[&#x200B; メール設定 &#x200B;](../orchestrated/target-dimension.md) で `Recipients - email` が **[!UICONTROL Profile Target Dimension]** として、`Wishlistitems` が **[!UICONTROL セカンダリのディメンション]** として設定されていることを確認します。
+1. 項目ごとに個別のメールを送信できるようにするには、[ メール設定 ](../orchestrated/target-dimension.md) で `Recipients - email` が **[!UICONTROL Profile Target Dimension]** として、`Wishlistitems` が **[!UICONTROL セカンダリのディメンション]** として設定されていることを確認します。
 
    次に、**[!UICONTROL 実行アドレス]** メニューから、`wishlist.email`セカンダリのディメンション **[!UICONTROL として]** を選択します。 各ウィッシュリストトリガーは、ウィッシュリストデータに保存されたメールアドレスをセカンダリディメンションとして使用して、個別のメールを項目します。
 
@@ -55,7 +56,7 @@ ht-degree: 3%
 
 1. **[!UICONTROL メール]** アクティビティを追加して、製品可用性メッセージを作成します。 「**[!UICONTROL コンテンツを編集]**」をクリックして、コンテンツのデザインを開始します。
 
-   ➡️ [&#x200B; 詳しくは、メールのパーソナライゼーションを参照してください &#x200B;](../email/content-from-scratch.md)
+   ➡️ [ 詳しくは、メールのパーソナライゼーションを参照してください ](../email/content-from-scratch.md)
 
    ![](assets/notify-7.png){zoomable="yes"}
 
