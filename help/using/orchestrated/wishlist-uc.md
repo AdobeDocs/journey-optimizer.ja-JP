@@ -25,7 +25,7 @@ ht-degree: 1%
 * **Product**：フィールド `description`、`priceref`、`imageurl` を含む
 * **放棄された買い物かご** （任意）：フィールド `lastmodified` を使用
 
-➡️ [ モデルベースのスキーマを設定する方法を学ぶ ](gs-schemas.md)
+➡️ [&#x200B; モデルベースのスキーマを設定する方法を学ぶ &#x200B;](gs-schemas.md)
 
 >[!ENDSHADEBOX]
 
@@ -87,7 +87,7 @@ ht-degree: 1%
 
 1. 電子メールアクティビティを追加して、顧客ごとに個別にパーソナライズされた再エンゲージメントメッセージを作成します。 「**[!UICONTROL コンテンツを編集]**」をクリックして、コンテンツのデザインを開始します。
 
-   ➡️ [ 詳しくは、メールのパーソナライゼーションを参照してください ](../email/content-from-scratch.md)
+   ➡️ [&#x200B; 詳しくは、メールのパーソナライゼーションを参照してください &#x200B;](../email/content-from-scratch.md)
 
    ![](assets/uc-reengagement-8.png){zoomable="yes"}
 
@@ -101,4 +101,4 @@ ht-degree: 1%
 
 キャンペーンの実行後、キャンペーンのパフォーマンスに関する堅牢なデータと KPI のセットが表示されるレポートを確認できます。
 
-➡️[ レポートの詳細情報 ](../reports/campaign-global-report-cja.md)
+➡️[&#x200B; レポートの詳細情報 &#x200B;](../reports/campaign-global-report-cja.md)

@@ -29,7 +29,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->コードベースのエクスペリエンスで決定を使用する際のテストと重複排除の実装について詳しくは、[ このページ ](../code-based/code-based-decisioning-implementations.md) を参照してください。
+>コードベースのエクスペリエンスで決定を使用する際のテストと重複排除の実装について詳しくは、[&#x200B; このページ &#x200B;](../code-based/code-based-decisioning-implementations.md) を参照してください。
 
 ## 選択戦略の作成
 
