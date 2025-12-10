@@ -38,7 +38,7 @@ ht-degree: 97%
 * [日付条件](#date_condition)
 * [プロファイルキャップ](#profile_cap)
 
-ジャーニー条件でオーディエンスを使用することもできます。[詳細情報](#using-a-segment)。オーディエンスの生成およびターゲット設定方法について詳しくは、[ この節 ](../audience/about-audiences.md) を参照してください。
+ジャーニー条件でオーディエンスを使用することもできます。[詳細情報](#using-a-segment)。オーディエンスの生成およびターゲット設定方法について詳しくは、[&#x200B; この節 &#x200B;](../audience/about-audiences.md) を参照してください。
 
 >[!NOTE]
 >
@@ -72,7 +72,7 @@ ht-degree: 97%
 
 ![フィールド選択と論理演算子 AND OR を示す式エディター](assets/journey64.png)
 
-[Adobe Experience Platform セグメント化サービス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja){target="_blank"}を使用してオーディエンスを作成している場合は、ジャーニー条件で活用できます。[ 条件でのオーディエンスの使用 ](../building-journeys/condition-activity.md#using-a-segment) を参照してください。 Journey Optimizerでオーディエンスを生成およびターゲット設定する方法について詳しくは、[ この節 ](../audience/about-audiences.md) を参照してください。
+[Adobe Experience Platform セグメント化サービス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja){target="_blank"}を使用してオーディエンスを作成している場合は、ジャーニー条件で活用できます。[&#x200B; 条件でのオーディエンスの使用 &#x200B;](../building-journeys/condition-activity.md#using-a-segment) を参照してください。 Journey Optimizerでオーディエンスを生成およびターゲット設定する方法について詳しくは、[&#x200B; この節 &#x200B;](../audience/about-audiences.md) を参照してください。
 
 
 >[!NOTE]

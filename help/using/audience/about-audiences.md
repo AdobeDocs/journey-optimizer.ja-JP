@@ -76,7 +76,7 @@ Adobe Journey Optimizer には、マーケティング活動を強化する目�
 
 ## ジャーニーとキャンペーンでのオーディエンスのターゲット設定 {#target-audiences}
 
-オーディエンスの準備が整ったら、ジャーニーの構築時やキャンペーンの作成時にオーディエンスを選択し、関連するメッセージを使用して適切な人に適切なタイミングでリーチできるようにします。 [Journey Optimizerでの Audience Activation について詳しくはこちらを参照してください ](target-audiences.md)。
+オーディエンスの準備が整ったら、ジャーニーの構築時やキャンペーンの作成時にオーディエンスを選択し、関連するメッセージを使用して適切な人に適切なタイミングでリーチできるようにします。 [Journey Optimizerでの Audience Activation について詳しくはこちらを参照してください &#x200B;](target-audiences.md)。
 
 ## チュートリアルビデオ {#video}
 

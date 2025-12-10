@@ -21,7 +21,7 @@ ht-degree: 52%
 
 ## ガードレールと制限 {#guardrails}
 
-* **Healthcare Shield またはプライバシーとセキュリティシールド** - オーディエンス構成のオーディエンスと属性の使用は、現在、Healthcare Shield またはプライバシーとセキュリティシールドでは使用できません。 [ でオーディエンリッチメント属性を使用する方法を説明します  [!DNL Journey Optimizer]](../audience/about-audiences.md#enrichment)
+* **Healthcare Shield またはプライバシーとセキュリティシールド** - オーディエンス構成のオーディエンスと属性の使用は、現在、Healthcare Shield またはプライバシーとセキュリティシールドでは使用できません。 [&#x200B; でオーディエンリッチメント属性を使用する方法を説明します  [!DNL Journey Optimizer]](../audience/about-audiences.md#enrichment)
 
 * **カスタムアップロードと Federated Audience Composition** - カスタムアップロードと Federated Audience Composition オーディエンスの場合は、次のガードレールに注意してください。
 
@@ -49,11 +49,11 @@ ht-degree: 52%
 
 * ジャーニーの&#x200B;**オーディエンスを読み取り**&#x200B;オーケストレーションアクティビティを使用して、オーディエンス内のすべての個人をジャーニーにエントリさせ、ジャーニーに含まれるメッセージを受け取らせます。「シルバー顧客」オーディエンスがあるとします。このアクティビティを使用すると、すべてのシルバー顧客をジャーニーにエントリさせることができます。 その後、一連のパーソナライズされたメッセージを送信できます。 [詳しくは、「オーディエンスを読み取り」アクティビティの設定方法を参照してください](../building-journeys/read-audience.md#configuring-segment-trigger-activity)。
 
-  オーディエンスコンポジションやカスタムアップロードのオーディエンスを使用するジャーニーの場合、プロファイル属性は、ジャーニーエントリ時の最後のバッチ評価と同じくらい新しくなります。 ただし、**待機** アクティビティの後に、ジャーニーは統合プロファイルサービス（UPS）からプロファイル属性を更新して、使用可能な最新のデータを取得します。つまり、ジャーニーの実行中にプロファイル属性が変更される可能性があります。 [ 待機アクティビティ後のプロファイル更新の詳細情報 ](../building-journeys/wait-activity.md#profile-refresh)
+  オーディエンスコンポジションやカスタムアップロードのオーディエンスを使用するジャーニーの場合、プロファイル属性は、ジャーニーエントリ時の最後のバッチ評価と同じくらい新しくなります。 ただし、**待機** アクティビティの後に、ジャーニーは統合プロファイルサービス（UPS）からプロファイル属性を更新して、使用可能な最新のデータを取得します。つまり、ジャーニーの実行中にプロファイル属性が変更される可能性があります。 [&#x200B; 待機アクティビティ後のプロファイル更新の詳細情報 &#x200B;](../building-journeys/wait-activity.md#profile-refresh)
 
 * ジャーニーの&#x200B;**条件**&#x200B;アクティビティを使用し、オーディエンスメンバーシップに基づいて条件を作成します。[詳しくは、条件でのオーディエンスの使用方法を参照してください](../building-journeys/condition-activity.md#using-a-segment)。
 
-* ジャーニーの&#x200B;**オーディエンスの選定**&#x200B;イベントアクティビティを使用し、Adobe Experience Platform オーディエンスのエントリと離脱に応じて、個人をジャーニーにエントリさせたりジャーニー内で進行させたりします。例えば、新規のシルバー顧客全員をジャーニーにエントリさせ、それらの顧客にメッセージを送信することができます。[ オーディエンスの選定アクティビティの設定方法を学ぶ ](../building-journeys/audience-qualification-events.md)。
+* ジャーニーの&#x200B;**オーディエンスの選定**&#x200B;イベントアクティビティを使用し、Adobe Experience Platform オーディエンスのエントリと離脱に応じて、個人をジャーニーにエントリさせたりジャーニー内で進行させたりします。例えば、新規のシルバー顧客全員をジャーニーにエントリさせ、それらの顧客にメッセージを送信することができます。[&#x200B; オーディエンスの選定アクティビティの設定方法を学ぶ &#x200B;](../building-journeys/audience-qualification-events.md)。
 
   >[!NOTE]
   >
@@ -61,8 +61,8 @@ ht-degree: 52%
 
 ## [!DNL Journey Optimizer] でのサポートされていないオーディエンスタイプのアクティベーション
 
-ジャーニーとキャンペーンで直接ターゲット設定できるのは、オーディエンスポータルで作成 [!DNL Journey Optimizer] れたオーディエンスのみです。 [ 使用可能なオーディエンスタイプについて詳しくはこちらを参照してください ](../audience/about-audiences.md#types)。
+ジャーニーとキャンペーンで直接ターゲット設定できるのは、オーディエンスポータルで作成 [!DNL Journey Optimizer] れたオーディエンスのみです。 [&#x200B; 使用可能なオーディエンスタイプについて詳しくはこちらを参照してください &#x200B;](../audience/about-audiences.md#types)。
 
-Customer Journey Analytics オーディエンスなど、サポートされていないオーディエンスからプロファイルをターゲットにする必要がある場合は、オーディエンスポータルで新しいセグメント定義に含める必要があります。 セグメント定義でオーディエンスを追加する方法について詳しくは、[ セグメントビルダーのドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#adding-audiences){target="_blank"} を参照してください。
+Customer Journey Analytics オーディエンスなど、サポートされていないオーディエンスからプロファイルをターゲットにする必要がある場合は、オーディエンスポータルで新しいセグメント定義に含める必要があります。 セグメント定義でオーディエンスを追加する方法について詳しくは、[&#x200B; セグメントビルダーのドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#adding-audiences){target="_blank"} を参照してください。
 
 完了したら、セグメント化の評価が完了してジャーニーとキャンペーンで使用できるようになります。
