@@ -63,6 +63,6 @@ ht-degree: 52%
 
 ジャーニーとキャンペーンで直接ターゲット設定できるのは、オーディエンスポータルで作成 [!DNL Journey Optimizer] れたオーディエンスのみです。 [&#x200B; 使用可能なオーディエンスタイプについて詳しくはこちらを参照してください &#x200B;](../audience/about-audiences.md#types)。
 
-Customer Journey Analytics オーディエンスなど、サポートされていないオーディエンスからプロファイルをターゲットにする必要がある場合は、オーディエンスポータルで新しいセグメント定義に含める必要があります。 セグメント定義でオーディエンスを追加する方法について詳しくは、[&#x200B; セグメントビルダーのドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/segment-builder#adding-audiences){target="_blank"} を参照してください。
+Customer Journey Analytics オーディエンスなど、サポートされていないオーディエンスからプロファイルをターゲットにする必要がある場合は、オーディエンスポータルで新しいセグメント定義に含める必要があります。 セグメント定義でオーディエンスを追加する方法について詳しくは、[&#x200B; セグメントビルダーのドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#adding-audiences){target="_blank"} を参照してください。
 
 完了したら、セグメント化の評価が完了してジャーニーとキャンペーンで使用できるようになります。
