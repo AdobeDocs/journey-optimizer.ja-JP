@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: f08488433432c26cab4fa880f70d6ddb65f5a0ef
+source-git-commit: 51c8c9282cb6eb9cdbd310d8f263d7973f28bbf0
 workflow-type: tm+mt
-source-wordcount: '2995'
-ht-degree: 98%
+source-wordcount: '3013'
+ht-degree: 97%
 
 ---
 
@@ -199,6 +199,10 @@ ht-degree: 98%
          + [分割](using/orchestrated/activities/split.md)
          + [テスト](using/orchestrated/activities/test.md)
          + [待機](using/orchestrated/activities/wait.md)
+      + ユースケースを通じて学ぶ {#use-cases}
+         + [ウィッシュリスト項目の更新を送信](using/orchestrated/wishlist-uc.md)
+         + [ブラウジングアクティビティで顧客を引き付ける](using/orchestrated/engage-customers-uc.md)
+         + [製品の可用性をユーザーに通知](using/orchestrated/product-availability-uc.md)
 + 競合と優先順位付け {#conflict-prioritization}
    + [競合管理と優先順位付け](/help/rp_landing_pages/conflict-prioritization-landing-page.md)
    + [競合管理と優先順位付けの基本を学ぶ](using/conflict-prioritization/gs-conflict-prioritization.md)
@@ -916,7 +920,7 @@ ht-degree: 98%
    + [プライバシー](/help/rp_landing_pages/privacy-landing-page.md)
    + [プライバシーの基本を学ぶ](using/privacy/get-started-privacy.md)
    + [プライバシーリクエスト](using/privacy/requests.md)
-   + [&#x200B; リソースに対する監査アクション](using/privacy/audit-logs.md)
+   + [ リソースに対する監査アクション](using/privacy/audit-logs.md)
    + [データライフサイクル操作の実行](using/privacy/data-hygiene.md)
    + 同意を管理 {#consent}
       + [同意を管理](/help/rp_landing_pages/consent-landing-page.md)
