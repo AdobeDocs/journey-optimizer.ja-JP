@@ -9,10 +9,10 @@ role: Admin
 level: Intermediate
 keywords: IP, プール, 配信品質
 exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
-source-git-commit: a44b68e99ec4c55b8ed27b244fcb9e76bdb97760
-workflow-type: ht
-source-wordcount: '427'
-ht-degree: 100%
+source-git-commit: 05e300476ee77c7ac449f3cbb1ecb506e94c3da0
+workflow-type: tm+mt
+source-wordcount: '446'
+ht-degree: 95%
 
 ---
 
@@ -58,6 +58,8 @@ IP ウォームアップキャンペーンを作成するには、次の手順�
    >[!IMPORTANT]
    >
    >IP ウォームアップキャンペーンで許可されるオーディエンスは、[セグメントベース](../audience/creating-a-segment-definition.md)であり、[デフォルトの結合ポリシー](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}を使用して作成する必要があります。
+   >
+   >CSV アップロードオーディエンスは IP ウォームアップキャンペーンではサポートされていないので、キャンペーンのアクティベーション時にエラーが発生します。
 
    キャンペーンの設定方法について詳しくは、[このページ](../campaigns/get-started-with-campaigns.md)を参照してください。
 
