@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: チャネル, サーフェス, 技術, パラメーター, Optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
-workflow-type: ht
-source-wordcount: '1804'
-ht-degree: 100%
+source-git-commit: 29d99fd55fd31d5c4f6e86fabed2b45c0636a7b8
+workflow-type: tm+mt
+source-wordcount: '1853'
+ht-degree: 94%
 
 ---
 
@@ -252,11 +252,17 @@ ht-degree: 100%
 
 ## チャネル設定の非アクティブ化 {#deactivate-a-surface}
 
-**[!UICONTROL アクティブ]**&#x200B;なチャネル設定を新しいメッセージの作成に使用できないようにするには、その設定を非アクティブ化します。ただし、この設定を現在使用しているジャーニーのメッセージは影響を受けず、引き続き機能します。
+**[!UICONTROL アクティブ]** チャネル設定を新しいメッセージの作成に使用できないようにするには、その設定を非アクティブにします。<!--However, journeys' messages currently using this configuration will not be affected and will continue working.-->
 
->[!NOTE]
->
->更新の処理中にチャネル設定を非アクティブ化することはできません。更新が正常に完了するか失敗するまで待つ必要があります。詳しくは、[チャネル設定の編集](#edit-channel-surface)およびその中の[更新ステータス](#update-statuses)を参照してください。
+次の場合は、チャネル設定をディアクティベートできません。
+
+* ライブジャーニーで参照されている場合。 ライブジャーニーで使用中の設定をディアクティベートしようとすると、エラーが発生します。
+
+  チャネル設定を非アクティブ化するには、この設定を使用するすべてのライブジャーニーがクローズまたは停止していることを確認してください。 [ ジャーニーの終了方法を学ぶ ](../building-journeys/end-journey.md)
+
+* チャネル設定の更新の処理中。 更新が正常に完了するか失敗するまで待つ必要があります。[ チャネル設定の編集 ](#edit-channel-surface) および [ 更新ステータス ](#update-statuses) について説明します。
+
+チャネル設定を非アクティブ化するには、次の手順に従います。
 
 1. チャネル設定リストにアクセスします。
 
