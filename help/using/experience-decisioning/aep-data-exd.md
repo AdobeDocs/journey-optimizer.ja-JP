@@ -11,10 +11,10 @@ level: Intermediate
 keywords: 式, エディター
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
-workflow-type: ht
+source-git-commit: abdce896a63f7d1eee7b45fea025405bf88cad2a
+workflow-type: tm+mt
 source-wordcount: '1200'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 100%
 
 * **サポートされているチャネル** - 決定を使用したデータセット参照は、現在、メールとジャーニーのカスタムアクションで機能します。<!--Support for code-based experience channels is coming soon.-->
 * **属性の使用状況** - 決定のデータセットルックアップ機能は、属性を追加して決定項目の定義を拡張します。プロファイルに対する属性は拡張しません。
-* 参照制限：[!DNL Journey Optimizer] では、1 つの決定ポリシーあたり最大 1,000 件の参照をサポートしています。
+* **ルックアップ制限**:[!DNL Journey Optimizer] では、1 つの決定ポリシーあたり最大 1,000 個のルックアップをサポートしています。
 
 ## 前提条件
 
