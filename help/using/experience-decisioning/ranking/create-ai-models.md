@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: Journey Optimizer
 title: AI モデルの作成
 description: AI モデルを作成してオファーをランク付けする方法を説明します
-feature: Ranking, Decision Management
-topic: Ranking, Decision Management, Artificial Intelligence
+feature: Ranking, Decisioning
+topic: Artificial Intelligence
 role: User
 level: Intermediate
 exl-id: 532392d6-3637-4381-984d-f5b630f6d32d
 version: Journey Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 100%
@@ -119,4 +119,4 @@ AI モデルを作成するには、次の手順を行います。
 
 Learn how to create a personalized optimization model and how to apply it to a decision.
 
->[!VIDEO](https://video.tv.adobe.com/v/3445952?captions=jpn&quality=12)-->
+>[!VIDEO](https://video.tv.adobe.com/v/3419954?quality=12)-->

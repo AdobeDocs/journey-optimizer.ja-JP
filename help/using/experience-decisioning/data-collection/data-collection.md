@@ -1,7 +1,7 @@
 ---
 title: データ収集
 description: 意思決定管理のフィードバックデータ収集の詳細情報
-feature: Decision Management, Datasets
+feature: Datasets, Decisioning
 topic: Integrations
 role: User, Developer
 level: Experienced
@@ -9,8 +9,8 @@ hide: true
 hidefromtoc: true
 exl-id: 32e3a5b9-0633-48df-95b5-c03536be23a1
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
-workflow-type: ht
+source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
+workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 100%
 

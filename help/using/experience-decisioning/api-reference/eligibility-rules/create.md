@@ -1,14 +1,13 @@
 ---
 title: 実施要件ルールの作成
 description: 実施要件ルールを使用すると、プロファイル属性やオーディエンスなど、ターゲットにする項目に基づいて実施要件を満たす候補を定義できます。
-feature: Decision Management, API, Collections
-topic: Integrations
+feature: API, Collections, Decisioning
 role: Developer
 level: Experienced
 exl-id: 39c6e82e-c1b1-4dda-a941-3db6324cef37
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
-workflow-type: ht
+source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
+workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 100%
 

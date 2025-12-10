@@ -1,14 +1,14 @@
 ---
 title: ランキング式の削除
 description: ランキング式を使用すると、項目のランク付けに使用されるスコアリングの関数を定義できます。
-feature: Decision Management, API, Collections
+feature: API, Collections, Decisioning
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 4ea50481-b1b9-4e0c-ad4e-c4139891bfdf
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
-workflow-type: ht
+source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
+workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 100%
 

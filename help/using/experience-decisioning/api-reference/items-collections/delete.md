@@ -1,14 +1,14 @@
 ---
 title: 項目コレクションの削除
 description: グループの決定をコレクションに分類する方法について説明します。
-feature: Decision Management, API, Collections
+feature: API, Collections, Decisioning
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 7290c857-cbc7-4197-ae13-430adcf1649b
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
-workflow-type: ht
+source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
+workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 100%
 

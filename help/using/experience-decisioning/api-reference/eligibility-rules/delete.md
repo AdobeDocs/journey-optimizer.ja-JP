@@ -1,14 +1,14 @@
 ---
 title: 実施要件ルールの削除
 description: 実施要件ルールを使用すると、プロファイル属性やオーディエンスなど、ターゲットにする項目に基づいて実施要件を満たす候補を定義できます。
-feature: Decision Management, API, Collections
+feature: API, Collections, Decisioning
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 19baf888-23b7-46de-9d3c-9a0fa8ab2297
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
-workflow-type: ht
+source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
+workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 100%
 

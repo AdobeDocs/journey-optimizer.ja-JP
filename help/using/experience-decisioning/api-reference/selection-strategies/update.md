@@ -1,16 +1,16 @@
 ---
 title: 選択戦略の更新
 description: 選択戦略は、オファーを決定するための制約とランキング方法に関連付けられたコレクションで構成されます。
-feature: Decision Management, API, Collections
+feature: API, Collections, Decisioning
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 060f8c5f-4750-44dc-83aa-630afbc180eb
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
-workflow-type: ht
-source-wordcount: '127'
-ht-degree: 100%
+source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

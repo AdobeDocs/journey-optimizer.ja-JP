@@ -1,14 +1,14 @@
 ---
 title: 項目コレクションの作成
 description: コレクションを使用すると、好みに応じて決定項目を分類およびグループ化できます。
-feature: Decision Management, API, Collections
+feature: API, Collections, Decisioning
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: e4f2ab34-2af2-49b5-9164-b129e922fe59
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
-workflow-type: ht
+source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
+workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 100%
 

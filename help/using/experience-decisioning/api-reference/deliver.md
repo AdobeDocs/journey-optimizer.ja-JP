@@ -1,14 +1,14 @@
 ---
 title: コードベースのエクスペリエンスチャネルを使用したオファーの配信
 description: コードベースのエクスペリエンスチャネルを使用してオファーを配信します。
-feature: Decision Management, API
+feature: API, Decisioning
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 6e603bc1-0813-435a-9349-d8585a7a0997
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
-workflow-type: ht
+source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
+workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 100%
 
