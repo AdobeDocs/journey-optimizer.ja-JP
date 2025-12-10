@@ -17,11 +17,11 @@ ht-degree: 34%
 
 # インターフェイスの操作 {#user-interface}
 
-Adobe Journey Optimizerにアクセスするには、Adobe IDを使用して [0}Adobe Experience Cloud} にログインし、「](https://experience.adobe.com)」を選択します。[!DNL Journey Optimizer]
+Adobe Journey Optimizerにアクセスするには、Adobe IDを使用して [0&rbrace;Adobe Experience Cloud&rbrace; にログインし、「](https://experience.adobe.com)」を選択します。[!DNL Journey Optimizer]
 
 >[!NOTE]
 >
->* お使いの環境で使用できるコンポーネントと機能は、[ 権限 ](../administration/permissions.md) および [ ライセンスパッケージ ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} によって異なります。
+>* お使いの環境で使用できるコンポーネントと機能は、[&#x200B; 権限 &#x200B;](../administration/permissions.md) および [&#x200B; ライセンスパッケージ &#x200B;](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} によって異なります。
 >* このドキュメントは頻繁に更新されます。 一部のスクリーンショットは、お使いのインターフェイスと少し異なる場合があります。
 
 ## クイックツアー {#quick-tour}
@@ -44,47 +44,47 @@ Journey Optimizer インターフェイスは、次の 4 つの主な領域で�
 **ホーム** – 最近作成したアイテムと役立つリソースにすばやくアクセスできる出発点
 
 **ジャーニー管理** - カスタマーエクスペリエンスを作成および管理します
-* **キャンペーン** – 特定のオーディエンスに対して 1 回限りのメッセージまたはスケジュールされたメッセージを作成します。 [ キャンペーンの概要 ](../campaigns/get-started-with-campaigns.md)
+* **キャンペーン** – 特定のオーディエンスに対して 1 回限りのメッセージまたはスケジュールされたメッセージを作成します。 [&#x200B; キャンペーンの概要 &#x200B;](../campaigns/get-started-with-campaigns.md)
 * **ジャーニー** - マルチステップのクロスチャネルのカスタマーエクスペリエンスを構築します。 [初めてのジャーニーの作成](../building-journeys/journey-gs.md)
-* **レポート** – 統合されたCustomer Journey Analytics レポートを使用してパフォーマンスを分析します。 [ レポートドキュメントの表示 ](../reports/campaign-global-report.md)
+* **レポート** – 統合されたCustomer Journey Analytics レポートを使用してパフォーマンスを分析します。 [&#x200B; レポートドキュメントの表示 &#x200B;](../reports/campaign-global-report.md)
 
-**意思決定管理** - パーソナライズされたオファーを管理します。 [ 意思決定管理について ](../offers/get-started/starting-offer-decisioning.md)
+**意思決定管理** - パーソナライズされたオファーを管理します。 [&#x200B; 意思決定管理について &#x200B;](../offers/get-started/starting-offer-decisioning.md)
 * **オファー** - パーソナライズされたオファーの作成と管理
 * **コンポーネント** - オファーのプレースメント、ルールおよびタグを設定します
 
 **コンテンツ管理** - コンテンツの作成と整理
 * **Assets** – 画像およびメディアの一元的リポジトリーです。 [アセットの管理](../content-management/assets.md)
-* **コンテンツテンプレート** - キャンペーンおよびジャーニー用の再利用可能なメッセージテンプレート。 [ テンプレートの作成 ](../content-management/content-templates.md)
-* **フラグメント** – 複数のメッセージで使用できるコンテンツブロック。 [ フラグメントの操作 ](../content-management/fragments.md)
+* **コンテンツテンプレート** - キャンペーンおよびジャーニー用の再利用可能なメッセージテンプレート。 [&#x200B; テンプレートの作成 &#x200B;](../content-management/content-templates.md)
+* **フラグメント** – 複数のメッセージで使用できるコンテンツブロック。 [&#x200B; フラグメントの操作 &#x200B;](../content-management/fragments.md)
 * **ランディングページ** – 購読および環境設定用の web フォーム [ランディングページの設計](../landing-pages/get-started-lp.md)
 
-**データ管理** - データ基盤を管理します。 [ スキーマとデータセットについて ](../data/get-started-schemas.md)
+**データ管理** - データ基盤を管理します。 [&#x200B; スキーマとデータセットについて &#x200B;](../data/get-started-schemas.md)
 * **スキーマ** - データ構造の定義
 * **データセット** - データ収集を保存および管理します
 * **クエリ** - クエリの書き込みと実行
 * **監視** - データ取り込みの追跡
 
 **接続** – 他のシステムとの統合
-* **ソース** – 外部システムからデータを取り込みます。 [ ソースの設定 ](../data/get-started-sources.md)
-* **宛先** - クラウドストレージにデータを書き出します。 [ 宛先の設定 ](../data/export-datasets.md)
+* **ソース** – 外部システムからデータを取り込みます。 [&#x200B; ソースの設定 &#x200B;](../data/get-started-sources.md)
+* **宛先** - クラウドストレージにデータを書き出します。 [&#x200B; 宛先の設定 &#x200B;](../data/export-datasets.md)
 
 **顧客** - オーディエンスとプロファイルの管理
-* **オーディエンス** – 顧客セグメントを作成および管理します。 [ オーディエンスの操作 ](../audience/about-audiences.md)
+* **オーディエンス** – 顧客セグメントを作成および管理します。 [&#x200B; オーディエンスの操作 &#x200B;](../audience/about-audiences.md)
 * **購読リスト** - オプトインリストを管理します。 [購読の管理](../landing-pages/subscription-list.md)
-* **プロファイル** – 統合された顧客プロファイルを表示します。 [ プロファイルを探索 ](../audience/get-started-profiles.md)
-* **ID** - ID 解決を管理します。 [ID について学ぶ ](../audience/get-started-identity.md)
+* **プロファイル** – 統合された顧客プロファイルを表示します。 [&#x200B; プロファイルを探索 &#x200B;](../audience/get-started-profiles.md)
+* **ID** - ID 解決を管理します。 [ID について学ぶ &#x200B;](../audience/get-started-identity.md)
 
 **プライバシー** - プライバシーとコンプライアンスを制御します。 [プライバシーの概要](../privacy/get-started-privacy.md)
 * **ポリシー** - データガバナンスポリシーの定義
 * **リクエスト** - プライバシーリクエストを処理します（GDPR、CCPA）
-* **監査** - アクティビティログを確認します。 [ 監査ログの表示 ](../privacy/audit-logs.md)
+* **監査** - アクティビティログを確認します。 [&#x200B; 監査ログの表示 &#x200B;](../privacy/audit-logs.md)
 * **データのライフサイクル** - データ保持の設定
 
 **管理** - システム設定を指定します。 [アクセス制御の概要](../administration/permissions-overview.md)
 * **設定** - イベント、データソース、アクションを設定します。 [チャネルの設定](../configuration/get-started-configuration.md)
-* **ビジネスルール** - メッセージの頻度とジャーニーのエントリを制御します。 [ ビジネス・ルールの設定 ](../configuration/frequency-rules.md)
-* **アラート** - システムアラートを表示および管理します。 [ アラートの監視 ](../reports/alerts.md)
-* **サンドボックス** – 環境を管理し、サンドボックス間でオブジェクトをコピーします。 [ サンドボックスの操作 ](../administration/sandboxes.md)
+* **ビジネスルール** - メッセージの頻度とジャーニーのエントリを制御します。 [&#x200B; ビジネス・ルールの設定 &#x200B;](../configuration/frequency-rules.md)
+* **アラート** - システムアラートを表示および管理します。 [&#x200B; アラートの監視 &#x200B;](../reports/alerts.md)
+* **サンドボックス** – 環境を管理し、サンドボックス間でオブジェクトをコピーします。 [&#x200B; サンドボックスの操作 &#x200B;](../administration/sandboxes.md)
 * **チャネル** - チャネル設定と配信品質の設定
 * **タグ** - コンテンツの整理と分類
 
@@ -102,7 +102,7 @@ Journey Optimizer インターフェイスは、次の 4 つの主な領域で�
 * Adobe サポートに連絡する
 * フィードバックを共有
 
-![ コンテキストヘルプの例 ](assets/do-not-localize/Context-help.gif)
+![&#x200B; コンテキストヘルプの例 &#x200B;](assets/do-not-localize/Context-help.gif)
 
 ### 通知 {#notifications}
 
@@ -117,7 +117,7 @@ Journey Optimizer インターフェイスは、次の 4 つの主な領域で�
 2. **[!UICONTROL 通知]**&#x200B;の下にある **[!UICONTROL Journey Optimizer]** を見つけます。
 3. 受信する通知タイプを有効にする
 
-![ 通知設定 ](../rn/assets/do-not-localize/pulse-notif.png){width="60%" align="center"}
+![&#x200B; 通知設定 &#x200B;](../rn/assets/do-not-localize/pulse-notif.png){width="60%" align="center"}
 
 ### 言語設定 {#language}
 

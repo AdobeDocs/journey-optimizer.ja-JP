@@ -15,7 +15,7 @@ ht-degree: 11%
 
 # Journey Optimizerについて {#understanding-ajo}
 
-Adobe Journey OptimizerとAdobe Experience Platformが連携することで、データ駆動型パーソナライゼーションを大規模に実現します。 このページでは、これらのシステムがどのように動作するか、主要な機能領域がどのように組み合わさって優れた顧客体験を提供するかについて説明します。 [ 主な機能について学ぶ ](get-started.md) | [ 主要用語を調べる ](terminology.md)
+Adobe Journey OptimizerとAdobe Experience Platformが連携することで、データ駆動型パーソナライゼーションを大規模に実現します。 このページでは、これらのシステムがどのように動作するか、主要な機能領域がどのように組み合わさって優れた顧客体験を提供するかについて説明します。 [&#x200B; 主な機能について学ぶ &#x200B;](get-started.md) | [&#x200B; 主要用語を調べる &#x200B;](terminology.md)
 
 ## Journey Optimizerの仕組み {#how-it-works}
 
@@ -27,20 +27,20 @@ Adobe Journey Optimizerは、パーソナライズされたカスタマージャ
 
 Adobe Experience Platformはバックボーンとして機能するので、企業は顧客データを一元化し、パーソナライズされたエクスペリエンスのためにアクティブ化できます。
 
-* **データプラットフォーム** – 顧客データを収集、管理、構造化して、システム間の一貫性を確保するための一元的なハブ。 [ スキーマとデータセットについて ](../data/get-started-schemas.md)
-* **データ取り込み（ソース）** – 事前定義済みのコネクタを使用して、CRM プラットフォーム、web サイト、モバイルアプリ、クラウドストレージからデータをインポートします。 [ データソースの調査 ](../data/get-started-sources.md)
-* **リアルタイム顧客プロファイル** – 複数のソース（メールのやり取り、店舗での購入、web 行動）からのデータを結合して、統合プロファイルを作成します。 [ プロファイルについて ](../audience/get-started-profiles.md)
-* **ガバナンスレイヤー** – 規制に準拠しながら、データアクセス、プライバシーコンプライアンス、セキュリティを管理します。 [ プライバシードキュメントを表示 ](../privacy/get-started-privacy.md)
+* **データプラットフォーム** – 顧客データを収集、管理、構造化して、システム間の一貫性を確保するための一元的なハブ。 [&#x200B; スキーマとデータセットについて &#x200B;](../data/get-started-schemas.md)
+* **データ取り込み（ソース）** – 事前定義済みのコネクタを使用して、CRM プラットフォーム、web サイト、モバイルアプリ、クラウドストレージからデータをインポートします。 [&#x200B; データソースの調査 &#x200B;](../data/get-started-sources.md)
+* **リアルタイム顧客プロファイル** – 複数のソース（メールのやり取り、店舗での購入、web 行動）からのデータを結合して、統合プロファイルを作成します。 [&#x200B; プロファイルについて &#x200B;](../audience/get-started-profiles.md)
+* **ガバナンスレイヤー** – 規制に準拠しながら、データアクセス、プライバシーコンプライアンス、セキュリティを管理します。 [&#x200B; プライバシードキュメントを表示 &#x200B;](../privacy/get-started-privacy.md)
 
 ### Adobe Journey Optimizer：オーケストレーションエンジン {#ajo-orchestration}
 
 Adobe Journey Optimizerは、Adobe Experience Platformのデータとインサイトを適用して、インテリジェントでパーソナライズされたカスタマーエクスペリエンスを提供します。
 
 * **顧客の理解** - リアルタイム顧客プロファイルを使用すると、ターゲットメッセージング用にオーディエンスをセグメント化できます。 [オーディエンスの作成](../audience/about-audiences.md)
-* **コンテンツとオファー** - コンテンツを作成、管理およびパーソナライズするツール。個々のユーザーに最適なオファーを選択するリアルタイムロジック。 [ コンテンツのデザイン ](../content-management/get-started-content.md) | [ オファーの管理 ](../offers/get-started/starting-offer-decisioning.md)
-* **ジャーニーとキャンペーン管理** - インタラクションのシーケンス（ジャーニー）を自動化したり、1 回限りのターゲットメッセージ（キャンペーン）をスケジュールしたりできます。 [ ジャーニーの作成 ](../building-journeys/journey-gs.md) | [ キャンペーンの作成 ](../campaigns/get-started-with-campaigns.md)
+* **コンテンツとオファー** - コンテンツを作成、管理およびパーソナライズするツール。個々のユーザーに最適なオファーを選択するリアルタイムロジック。 [&#x200B; コンテンツのデザイン &#x200B;](../content-management/get-started-content.md) | [&#x200B; オファーの管理 &#x200B;](../offers/get-started/starting-offer-decisioning.md)
+* **ジャーニーとキャンペーン管理** - インタラクションのシーケンス（ジャーニー）を自動化したり、1 回限りのターゲットメッセージ（キャンペーン）をスケジュールしたりできます。 [&#x200B; ジャーニーの作成 &#x200B;](../building-journeys/journey-gs.md) | [&#x200B; キャンペーンの作成 &#x200B;](../campaigns/get-started-with-campaigns.md)
 * **配信（接続）** - メール、SMS、プッシュ通知、ダイレクトメールなどのチャネルを通じてメッセージを配信し、データを外部システムに書き出します。 [チャネルの設定](../configuration/get-started-configuration.md)
-* **測定と分析** – 継続的な改善に役立つレポートを使用して、顧客エンゲージメントとキャンペーンのパフォーマンスを追跡します。 [ レポートの表示 ](../reports/campaign-global-report.md)
+* **測定と分析** – 継続的な改善に役立つレポートを使用して、顧客エンゲージメントとキャンペーンのパフォーマンスを追跡します。 [&#x200B; レポートの表示 &#x200B;](../reports/campaign-global-report.md)
 
 ### 継続的な最適化サイクル {#optimization-cycle}
 
@@ -76,11 +76,11 @@ Journey Optimizerには、シームレスに連携する 7 つの主要な機能
 
 ## アーキテクチャの詳細 {#architecture-details}
 
-技術チーム向けに、Journey OptimizerとAdobe Experience Platformの統合方法を示す詳細なアーキテクチャ図を以下に示します。 [ インターフェイスに移動 ](user-interface.md) して、これらのコンポーネントを実際に参照します。
+技術チーム向けに、Journey OptimizerとAdobe Experience Platformの統合方法を示す詳細なアーキテクチャ図を以下に示します。 [&#x200B; インターフェイスに移動 &#x200B;](user-interface.md) して、これらのコンポーネントを実際に参照します。
 
 ![Adobe Journey Optimizer アーキテクチャ](assets/ajo-architecture.png)
 
-Experience Platformには、Adobe Real-Time Customer Data Platform、Journey Optimizer、Customer Journey Analytics、Adobe Mix Modelerの 4 つのアプリケーションがネイティブに構築されています。 Journey Optimizerは、これらのアプリケーションとシームレスに連携しますが、独立して機能することもできます。 実装に関する考慮事項については、[ ガードレールと制限を確認 ](guardrails.md) してください。
+Experience Platformには、Adobe Real-Time Customer Data Platform、Journey Optimizer、Customer Journey Analytics、Adobe Mix Modelerの 4 つのアプリケーションがネイティブに構築されています。 Journey Optimizerは、これらのアプリケーションとシームレスに連携しますが、独立して機能することもできます。 実装に関する考慮事項については、[&#x200B; ガードレールと制限を確認 &#x200B;](guardrails.md) してください。
 
 ### 統合ポイント {#integration-points}
 
@@ -90,8 +90,8 @@ Journey Optimizerは、複数のレベルでAdobe Experience Platformと統合�
 * **サービスレイヤー** - Adobe Experience Platformのガバナンス、プライバシー、クエリサービスを活用します
 * **アプリケーションレイヤー** - Adobe Experience Platform上でジャーニーオーケストレーション、意思決定管理、コンテンツ管理を提供します
 
-[Adobe Journey Optimizer ブループリント ](https://experienceleague.adobe.com/ja/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"} の詳細情報。
+[Adobe Journey Optimizer ブループリント &#x200B;](https://experienceleague.adobe.com/ja/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"} の詳細情報。
 
 ## プライバシーとセキュリティ {#privacy-security}
 
-Adobe Experience Cloud のプライバシーとセキュリティのプラクティスは、Adobe Journey Optimizer に適用されます。これらの対策により、GDPR などのプライバシー規制への準拠が確保され、顧客の信頼を維持しながら、パーソナライズされたエクスペリエンスを提供できるようになります。 [Journey Optimizerのプライバシーの詳細情報 ](../privacy/get-started-privacy.md)
+Adobe Experience Cloud のプライバシーとセキュリティのプラクティスは、Adobe Journey Optimizer に適用されます。これらの対策により、GDPR などのプライバシー規制への準拠が確保され、顧客の信頼を維持しながら、パーソナライズされたエクスペリエンスを提供できるようになります。 [Journey Optimizerのプライバシーの詳細情報 &#x200B;](../privacy/get-started-privacy.md)

@@ -74,7 +74,7 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->Adobe Experience Platformの用語の包括的な用語集については、[Adobe Experience Platform用語集 ](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=ja){target="_blank"} を参照してください。
+>Adobe Experience Platformの用語の包括的な用語集については、[Adobe Experience Platform用語集 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=ja){target="_blank"} を参照してください。
 
 ## 関連トピック {#related-topics}
 
