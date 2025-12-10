@@ -5,10 +5,10 @@ title: オーディエンスを読み取りアクティビティの使用
 description: 調整されたキャンペーンでのオーディエンスを読み取りアクティビティの使用方法について説明します。
 exl-id: ef8eba57-cd33-4746-8eb4-5214ef9cbe2f
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
-workflow-type: ht
-source-wordcount: '650'
-ht-degree: 100%
+source-git-commit: 24d66f146ea3ed0e89a3b928b805bc53a70a8895
+workflow-type: tm+mt
+source-wordcount: '662'
+ht-degree: 95%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 100%
 
 1. アクティビティに&#x200B;**[!UICONTROL ラベル]**&#x200B;を入力します。このラベルは、オーディエンスの名前として機能します。
 
-1. ![フォルダーを検索アイコン](../assets/do-not-localize/folder-search.svg) をクリックして、調整されたキャンペーンのターゲットにするオーディエンスを選択します。
+1. ![ フォルダー検索アイコン ](../assets/do-not-localize/folder-search.svg) をクリックして、オーケストレートキャンペーンのターゲットにするオーディエンスを選択します。 [Journey Optimizerでオーディエンスを生成およびターゲット設定する方法の詳細を説明します ](../audience/about-audiences.md)。
 
    ![](../assets/read-audience-2.png)
 

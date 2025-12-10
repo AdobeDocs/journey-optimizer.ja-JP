@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: d87f33c80cc85b1d1a87150687f6d7c9a268a016
+source-git-commit: 24d66f146ea3ed0e89a3b928b805bc53a70a8895
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 100%
+source-wordcount: '584'
+ht-degree: 92%
 
 ---
 
@@ -73,6 +73,10 @@ Adobe Journey Optimizer には、マーケティング活動を強化する目�
 * **オーディエンス構成**：構成ワークフローを作成し、既存のオーディエンスをビジュアルキャンバスに組み合わせ、ランク、分割、結合などのアクションを適用して新しいオーディエンスを作成します。[詳しくは、オーディエンス構成の操作方法を参照してください](get-started-audience-orchestration.md)
 
 * **連合オーディエンス構成**：既存のデータウェアハウスからデータセットを直接統合して、Adobe Experience Platform オーディエンスと属性をすべて 1 つのシステムで作成および強化できます。[詳しくは、連合オーディエンス構成の操作方法を参照してください](federated-audience-composition.md)。
+
+## ジャーニーとキャンペーンでのオーディエンスのターゲット設定 {#target-audiences}
+
+オーディエンスの準備が整ったら、ジャーニーの構築時やキャンペーンの作成時にオーディエンスを選択し、関連するメッセージを使用して適切な人に適切なタイミングでリーチできるようにします。 [Journey Optimizerでの Audience Activation について詳しくはこちらを参照してください ](target-audiences.md)。
 
 ## チュートリアルビデオ {#video}
 

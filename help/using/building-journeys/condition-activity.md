@@ -10,10 +10,10 @@ level: Intermediate
 keywords: アクティビティ, 条件, キャンバス, ジャーニー
 exl-id: 02de069c-3009-4105-aa98-c49959d3efda
 version: Journey Orchestration
-source-git-commit: 486d742ea2b1e8e6eca9e434ff862da3d40fd7ec
-workflow-type: ht
-source-wordcount: '1773'
-ht-degree: 100%
+source-git-commit: 24d66f146ea3ed0e89a3b928b805bc53a70a8895
+workflow-type: tm+mt
+source-wordcount: '1804'
+ht-degree: 97%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 * [日付条件](#date_condition)
 * [プロファイルキャップ](#profile_cap)
 
-ジャーニー条件でオーディエンスを使用することもできます。[詳細情報](#using-a-segment)
+ジャーニー条件でオーディエンスを使用することもできます。[詳細情報](#using-a-segment)。オーディエンスの生成およびターゲット設定方法について詳しくは、[ この節 ](../audience/about-audiences.md) を参照してください。
 
 >[!NOTE]
 >
@@ -72,7 +72,7 @@ ht-degree: 100%
 
 ![フィールド選択と論理演算子 AND OR を示す式エディター](assets/journey64.png)
 
-[Adobe Experience Platform セグメント化サービス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja){target="_blank"}を使用してオーディエンスを作成している場合は、ジャーニー条件で活用できます。詳しくは、[条件でのオーディエンスの使用](../building-journeys/condition-activity.md#using-a-segment)を参照してください。
+[Adobe Experience Platform セグメント化サービス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja){target="_blank"}を使用してオーディエンスを作成している場合は、ジャーニー条件で活用できます。[ 条件でのオーディエンスの使用 ](../building-journeys/condition-activity.md#using-a-segment) を参照してください。 Journey Optimizerでオーディエンスを生成およびターゲット設定する方法について詳しくは、[ この節 ](../audience/about-audiences.md) を参照してください。
 
 
 >[!NOTE]

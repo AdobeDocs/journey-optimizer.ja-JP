@@ -10,10 +10,10 @@ level: Intermediate
 keywords: デザイン, キャンバス, ジャーニー, インターフェイス, ドラッグ, ドロップ
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: ht
-source-wordcount: '1739'
-ht-degree: 100%
+source-git-commit: 24d66f146ea3ed0e89a3b928b805bc53a70a8895
+workflow-type: tm+mt
+source-wordcount: '1756'
+ht-degree: 98%
 
 ---
 
@@ -75,7 +75,7 @@ Adobe Journey Optimizer には、マーケターがマーケティングアウ�
 
 1. **イベントで開始**：イベントをリッスンするようにジャーニーを設定している場合、個人は&#x200B;**単独で**&#x200B;ジャーニーにエントリします。ジャーニーに含まれるメッセージは、現在ジャーニーを開始している人物に送信されます。[イベントの詳細情報](../event/about-events.md)
 
-1. **オーディエンスを読み取りで開始**：Adobe Experience Platform のオーディエンスをリッスンするようにジャーニーを設定します。この場合は、指定したオーディエンスに属するすべての個人がジャーニーにエントリします。ジャーニーに含まれるメッセージは、そのオーディエンスに属するすべての個人に送信されます。詳しくは、[オーディエンスを読み取り](read-audience.md)を参照してください。
+1. **オーディエンスを読み取りで開始**：Adobe Experience Platform のオーディエンスをリッスンするようにジャーニーを設定します。この場合は、指定したオーディエンスに属するすべての個人がジャーニーにエントリします。ジャーニーに含まれるメッセージは、そのオーディエンスに属するすべての個人に送信されます。詳しくは、[ オーディエンスを読み取り ](read-audience.md) を参照してください。 Journey Optimizerでオーディエンスを生成およびターゲット設定する方法について詳しくは、[ この節 ](../audience/about-audiences.md) を参照してください。
 
 ## 次のステップの定義{#define-next-steps}
 
