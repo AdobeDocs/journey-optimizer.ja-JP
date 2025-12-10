@@ -25,7 +25,7 @@ ht-degree: 68%
 
 現時点では、作成されたすべての決定項目は、単一の「オファー」カタログ内に統合され、**[!UICONTROL カタログ]**&#x200B;メニューからアクセスできます。
 
-![&#x200B; オファーカタログが表示されている項目カタログリスト &#x200B;](assets/catalogs-list.png)
+![ オファーカタログが表示されている項目カタログリスト ](assets/catalogs-list.png)
 
 ## ガードレールと制限
 
@@ -54,18 +54,18 @@ ht-degree: 68%
    * **`_experience`** ノードには、名前、開始日、終了日、説明など、標準の決定項目属性が含まれます。
    * **`_<imsOrg>`** ノードには、カスタムの決定項目属性が格納されます。`<imsOrg>` の属性は、組織の名前（Luma の会社の場合は `_luma` など）に置き換えられます。 デフォルトでは、カスタム属性は設定されませんが、必要に応じて必要な数だけ追加できます。完了すると、カスタム属性が標準属性と共に、決定項目作成画面に表示されます。
 
-   ![&#x200B; エクスペリエンスノードと組織ノードを含むカタログスキーマ構造 &#x200B;](assets/catalogs-schema.png)
+   ![ エクスペリエンスノードと組織ノードを含むカタログスキーマ構造 ](assets/catalogs-schema.png)
 
 1. スキーマにカスタム属性を追加するには、組織のノード（**`_luma`** など）を展開し、構造内の目的の場所にある「+」ボタンをクリックします。
 
-   ![&#x200B; スキーマエディターにカスタム属性を追加ボタン &#x200B;](assets/catalogs-add.png)
+   ![ スキーマエディターにカスタム属性を追加ボタン ](assets/catalogs-add.png)
 
 1. 追加した属性に必要なフィールドに入力し、「**[!UICONTROL 適用]**」をクリックします。
 
-   決定アセット属性を持つ属性に入力される値はパブリック URL です。 ほとんどの場合、これは画像を指します。 [!DNL Adobe Experience Platform] スキーマの操作方法について詳しくは、[XDM システムのドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=ja) を参照してください。
+   決定アセット属性を持つ属性に入力される値はパブリック URL です。 ほとんどの場合、これは画像を指します。 [!DNL Adobe Experience Platform] スキーマの操作方法について詳しくは、[XDM システムのドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=ja) を参照してください。
 
 1. 目的のカスタム属性を追加したら、スキーマを保存します。新しいフィールドを「**[!UICONTROL カスタム属性]**」セクション内の決定項目作成画面で使用できるようになりました。
 
    以下の例は、スキーマで定義されたオブジェクトなどのカスタム属性を含む項目作成画面を示しています。
 
-   ![&#x200B; カスタム属性セクションを含む決定項目作成画面 &#x200B;](assets/custom-attributes.png)
+   ![ カスタム属性セクションを含む決定項目作成画面 ](assets/custom-attributes.png)
