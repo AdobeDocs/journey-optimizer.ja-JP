@@ -120,7 +120,7 @@ AI アシスタントの会話能力に基づいて、Adobe Journey Optimizerは
 
 ### 追加の AI エージェント
 
-**Audience Agent** - Adobe Experience Platformをまたいだ対話型のオーディエンスの探索および管理（重複検出やサイズ追跡を含む）。 [Audience Agentの詳細情報 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/audience){target="_blank"}
+**Audience Agent** - Adobe Experience Platformをまたいだ対話型のオーディエンスの探索および管理（重複検出やサイズ追跡を含む）。 [Audience Agentの詳細情報 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/audience){target="_blank"}
 
 **Agent Orchestrator** – 複数の専門エージェントを調整して、複雑で複数の手順からなるマーケティングの課題を解決します。 オーケストレーターは、関与するエージェントを自動的に決定し、作業を効率的に順序付けます。 [Agent Orchestratorの詳細情報 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}
 
@@ -253,7 +253,7 @@ Journey Optimizer プレイブックを参照して、次のような一般的�
 
 ![&#x200B; ユースケースプレイブックインターフェイス &#x200B;](assets/playbooks-filter.png)
 
-[&#x200B; 使用可能なすべてのプレイブックを表示 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=ja){target="_blank"} | [&#x200B; 詳しくは、Experience Platform ドキュメントを参照してください &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
+[&#x200B; 使用可能なすべてのプレイブックを表示 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=ja){target="_blank"} | [&#x200B; 詳しくは、Experience Platform ドキュメントを参照してください &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=ja){target="_blank"}
 
 ## その他の AI 機能 {#additional-capabilities}
 
@@ -312,5 +312,5 @@ AI を活用したコンバージョンテクノロジーを使用して、静�
 >* [Experimentation Agent ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}
 >* [&#x200B; 送信時間の最適化ガイド &#x200B;](../building-journeys/send-time-optimization.md)
 >* [AI ランキングモデルの作成 &#x200B;](../experience-decisioning/ranking/create-ai-models.md)
->* [&#x200B; ユースケースプレイブックドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
+>* [&#x200B; ユースケースプレイブックドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=ja){target="_blank"}
 
