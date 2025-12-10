@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+source-git-commit: fb74c0c14cf35aeb0c28719878d009e040be4214
 workflow-type: tm+mt
 source-wordcount: '7890'
 ht-degree: 100%
@@ -1403,7 +1403,7 @@ Journey Optimizer 製品リリースに関する&#x200B;**メールおよび製�
 
 **ユースケースのプレイブック**
 
-* **プレイブックのオーサリングと共有（Private Beta）** - 独自のユースケースプレイブックを作成、管理、共有できるようになりました。この機能は、現在、一連の組織に対してのみ Private Beta として使用できます。アクセスするには、アドビ担当者にお問い合わせください。[詳細情報](../start/playbooks.md)
+* **プレイブックのオーサリングと共有（Private Beta）** - 独自のユースケースプレイブックを作成、管理、共有できるようになりました。この機能は、現在、一連の組織に対してのみ Private Beta として使用できます。アクセスするには、アドビ担当者にお問い合わせください。[詳細情報](../start/ai-features.md#playbooks)
 
 **ナビゲーション**
 

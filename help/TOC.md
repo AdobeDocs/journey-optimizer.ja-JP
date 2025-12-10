@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e09cdd834abd0a0ca3f6f5210c0ecbe3afa29b45
+source-git-commit: f08488433432c26cab4fa880f70d6ddb65f5a0ef
 workflow-type: tm+mt
-source-wordcount: '2997'
-ht-degree: 99%
+source-wordcount: '2995'
+ht-degree: 98%
 
 ---
 
@@ -32,24 +32,22 @@ ht-degree: 99%
    + [ジャーニーキャンバスの向上](using/rn/new-canvas.md)
 + 基本を学ぶ {#get-started}
    + [基本を学ぶ](/help/rp_landing_pages/get-started-landing-page.md)
-   + [主な機能](using/start/get-started.md)
-   + [アーキテクチャ](using/start/architecture-concepts-redpen.md)
-   + [中心概念](using/start/functional-areas-redpen.md)
-   + [主な用語](using/start/terminology-md-redpen.md)
-   + 役割と責務 {#quick-start}
-      + [概要](using/start/quick-start.md)
+   + 初期設定 {#essentials}
+      + [Journey Optimizerとは](using/start/get-started.md)
+      + [仕組みについて](using/start/understanding-ajo.md)
+      + [主な用語](using/start/terminology.md)
+      + [ガードレールと制限](using/start/guardrails.md)
+   + 役割別に開始 {#by-role}
+      + [学習パスを選択](using/start/quick-start.md)
       + [マーケター向けの基本を学ぶ](using/start/path/marketer.md)
       + [データエンジニア向けの基本を学ぶ](using/start/path/data-engineer.md)
       + [管理者向けの基本を学ぶ](using/start/path/administrator.md)
       + [開発者向けの基本を学ぶ](using/start/path/developer.md)
-   + ユーザーインターフェイス {#ui}
-      + [インターフェイスの基本を学ぶ](using/start/user-interface.md)
-      + [検索、フィルター、分類](using/start/search-filter-categorize.md)
+   + 効率的に作業する {#work-efficiently}
+      + [インターフェイスの操作](using/start/user-interface.md)
+      + [検索、フィルタリング、整理](using/start/search-filter-categorize.md)
+      + [AI とインテリジェント機能](using/start/ai-features.md)
       + [アクセシビリティ](using/start/accessibility.md)
-   + [AI アシスタントの操作](using/start/ai-assistant.md)
-   + [AJOの AI 機能](/help/rp_landing_pages/ai-capabilities-landing-page.md)
-   + [ユースケースプレイブック](using/start/playbooks.md)
-   + [ガードレールと制限](using/start/guardrails.md)
 + ジャーニー {#orchestrate-journeys}
    + [ジャーニー](/help/rp_landing_pages/orchestrate-journeys-landing-page.md)
    + [ジャーニーの基本を学ぶ](using/building-journeys/journey.md)
@@ -918,7 +916,7 @@ ht-degree: 99%
    + [プライバシー](/help/rp_landing_pages/privacy-landing-page.md)
    + [プライバシーの基本を学ぶ](using/privacy/get-started-privacy.md)
    + [プライバシーリクエスト](using/privacy/requests.md)
-   + [&#x200B; リソースに対する監査アクション](using/privacy/audit-logs.md)
+   + [ リソースに対する監査アクション](using/privacy/audit-logs.md)
    + [データライフサイクル操作の実行](using/privacy/data-hygiene.md)
    + 同意を管理 {#consent}
       + [同意を管理](/help/rp_landing_pages/consent-landing-page.md)
