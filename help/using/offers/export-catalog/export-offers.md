@@ -10,10 +10,10 @@ role: User, Developer
 level: Intermediate
 exl-id: c7f691aa-8f89-4f23-b897-53211863eb6d
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '1983'
-ht-degree: 100%
+source-git-commit: 47f4ab608df3439c01ca962232a956016a1f8667
+workflow-type: tm+mt
+source-wordcount: '1934'
+ht-degree: 99%
 
 ---
 
@@ -83,9 +83,8 @@ ht-degree: 100%
 
 **フィールド：**characteristics
 **タイトル：**決定オプションの特性
-**説明：**特性は、特定の決定オプションに属するオファーの追加属性またはプロパティです。これらの属性はキーと値のペアです。つまり、属性名（キーと呼ばれることもあります）とこれに関連付けられた値が含まれ、1 つの決定オプションを他のオファーと区別するために使用されます。例えば、属性名が「color」の場合、特定のオファーの値は「green」になる可能性があります。
-特性は、この決定オプションを説明するコンテンツの値として、また、オファーのパフォーマンスを分析および最適化する機能として使用されます。すべてのインスタンスの属性またはプロパティが同じ場合、その側面を、決定オプションの詳細から派生する拡張スキーマとしてモデル化する必要があります。
-**タイプ：**&#x200B;オブジェクト
+**説明：**&#x200B;特性は、特定の決定オプションに属するオファーの追加属性またはプロパティです。これらの属性はキーと値のペアです。つまり、属性名（キーと呼ばれることもあります）とこれに関連付けられた値が含まれ、1 つの決定オプションを他のオファーと区別するために使用されます。例えば、属性名が「color」の場合、特定のオファーでは値が「green」となる場合があります。<!--Characteristics are used as values in content that represents this decision option and as features to analyze and optimize the performance of an offer. When every instance has the same attribute or property, that aspect should be modeled as an extension schema that derives from the decision option detail.-->
+**型：** オブジェクト
 
 +++
 
