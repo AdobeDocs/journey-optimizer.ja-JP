@@ -8,14 +8,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
-source-git-commit: 452a0a3a08a7b90d0e3a5b78b2e16f532f04ef1a
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 26f9228bacee5865cbc368cf2e3db02370d43a4b
+workflow-type: tm+mt
+source-wordcount: '641'
+ht-degree: 90%
 
 ---
 
 # 検索、フィルター、整理 {#search-filter-organize}
+
+Adobe Journey Optimizer プロジェクトが拡大するにつれて、効率的な作業にはコンテンツの検索と整理が不可欠になります。 このページでは、ユニバーサル検索を使用してジャーニー、キャンペーン、アセットをすばやく見つける方法、特定の項目に焦点を当てるためのリストをフィルタリングする方法、タグとカテゴリを使用して作業を整理する方法について説明します。 これらのツールは、大量のコンテンツを移動し、チーム間の一貫性を維持し、毎日のワークフローを合理化するのに役立ちます。
 
 ## 検索 {#unified-search}
 

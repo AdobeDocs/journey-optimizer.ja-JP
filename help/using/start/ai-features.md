@@ -7,7 +7,7 @@ feature: Overview
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: c2e19786356ecf9604dc7f661c74a72cabcee6d4
+source-git-commit: 26f9228bacee5865cbc368cf2e3db02370d43a4b
 workflow-type: tm+mt
 source-wordcount: '1567'
 ht-degree: 3%
@@ -30,7 +30,7 @@ AI アシスタントは、Adobe Journey Optimizerの対話型ガイドです。
 
 >[!IMPORTANT]
 >
->AI アシスタントを使用する前に、[Adobe Experience Cloud ジェネレーティブ AI ユーザーガイドライン &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/home){target="_blank"} に同意する必要があります。
+>AI アシスタントを使用する前に、[Adobe Experience Cloud ジェネレーティブ AI ユーザーガイドライン ](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/home){target="_blank"} に同意する必要があります。
 
 ### AI アシスタントの機能
 
@@ -48,7 +48,7 @@ AI アシスタントは、Adobe Journey Optimizerの対話型ガイドです。
 
 >[!NOTE]
 >
->オペレーショナルインサイトは現在 **0&rbrace;ジャーニーのみが使用でき、現在のサンドボックスのデータが反映されます。**
+>オペレーショナルインサイトは現在 **0}ジャーニーのみが使用でき、現在のサンドボックスのデータが反映されます。**
 
 ### AI アシスタントの使用方法
 
@@ -58,9 +58,9 @@ AI アシスタントは、Adobe Journey Optimizerの対話型ガイドです。
 4. **ソースを表示** をクリックして、関連ドキュメントにアクセスします
 5. 応答品質の評価に親指を上下に使用
 
-![](assets/do-not-localize/ai-assistant-answer.png){width="50%" align="center"}
+![](assets/do-not-localize/ai-assistant-answer.png){width="40%" align="left"}
 
-[Experience Platformの AI アシスタントの詳細 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/home){target="_blank"}
+[Experience Platformの AI アシスタントの詳細 ](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/home){target="_blank"}
 
 ## ジャーニー最適化のための高度な AI エージェント {#ai-agents}
 
@@ -68,7 +68,7 @@ AI アシスタントの会話能力に基づいて、Adobe Journey Optimizerは
 
 ### ジャーニー分析エージェント {#journey-agent}
 
-[ジャーニー分析エージェント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"} は、自然言語分析を通じてジャーニーのパフォーマンスを最適化するのに役立ちます。
+[ジャーニー分析エージェント ](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"} は、自然言語分析を通じてジャーニーのパフォーマンスを最適化するのに役立ちます。
 
 **主な機能：**
 
@@ -120,9 +120,9 @@ AI アシスタントの会話能力に基づいて、Adobe Journey Optimizerは
 
 ### 追加の AI エージェント
 
-**Audience Agent** - Adobe Experience Platformをまたいだ対話型のオーディエンスの探索および管理（重複検出やサイズ追跡を含む）。 [Audience Agentの詳細情報 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/audience){target="_blank"}
+**Audience Agent** - Adobe Experience Platformをまたいだ対話型のオーディエンスの探索および管理（重複検出やサイズ追跡を含む）。 [Audience Agentの詳細情報 ](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/audience){target="_blank"}
 
-**Agent Orchestrator** – 複数の専門エージェントを調整して、複雑で複数の手順からなるマーケティングの課題を解決します。 オーケストレーターは、関与するエージェントを自動的に決定し、作業を効率的に順序付けます。 [Agent Orchestratorの詳細情報 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}
+**Agent Orchestrator** – 複数の専門エージェントを調整して、複雑で複数の手順からなるマーケティングの課題を解決します。 オーケストレーターは、関与するエージェントを自動的に決定し、作業を効率的に順序付けます。 [Agent Orchestratorの詳細情報 ](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}
 
 **アクセス権の取得：**
 
@@ -251,9 +251,9 @@ Journey Optimizer プレイブックを参照して、次のような一般的�
 * メール、プッシュまたは SMS のチャネル設定
 * ジャーニーとメッセージを作成するためのユーザー権限
 
-![&#x200B; ユースケースプレイブックインターフェイス &#x200B;](assets/playbooks-filter.png)
+![ ユースケースプレイブックインターフェイス ](assets/playbooks-filter.png)
 
-[&#x200B; 使用可能なすべてのプレイブックを表示 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=ja){target="_blank"} | [&#x200B; 詳しくは、Experience Platform ドキュメントを参照してください &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=ja){target="_blank"}
+[ 使用可能なすべてのプレイブックを表示 ](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/playbooks-list.html?lang=ja){target="_blank"} | [ 詳しくは、Experience Platform ドキュメントを参照してください ](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
 
 ## その他の AI 機能 {#additional-capabilities}
 
@@ -306,11 +306,11 @@ AI を活用したコンバージョンテクノロジーを使用して、静�
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; コンテンツ生成用 AI アシスタントの基本を学ぶ &#x200B;](../content-management/gs-generative.md)
->* [Experience Platformの AI アシスタント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/home){target="_blank"}
->* [ジャーニー分析エージェントのドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"}
->* [Experimentation Agent ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}
->* [&#x200B; 送信時間の最適化ガイド &#x200B;](../building-journeys/send-time-optimization.md)
->* [AI ランキングモデルの作成 &#x200B;](../experience-decisioning/ranking/create-ai-models.md)
->* [&#x200B; ユースケースプレイブックドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html?lang=ja){target="_blank"}
+>* [ コンテンツ生成用 AI アシスタントの基本を学ぶ ](../content-management/gs-generative.md)
+>* [Experience Platformの AI アシスタント ](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/home){target="_blank"}
+>* [ジャーニー分析エージェントのドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze){target="_blank"}
+>* [Experimentation Agent ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-experiment){target="_blank"}
+>* [ 送信時間の最適化ガイド ](../building-journeys/send-time-optimization.md)
+>* [AI ランキングモデルの作成 ](../experience-decisioning/ranking/create-ai-models.md)
+>* [ ユースケースプレイブックドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/use-case-playbooks/playbooks/overview.html){target="_blank"}
 

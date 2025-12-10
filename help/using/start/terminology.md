@@ -6,9 +6,9 @@ description: Adobe Journey Optimizerの基本的な用語と概念
 feature: Get Started
 role: Admin, Developer, User
 level: Beginner
-source-git-commit: 965bb76529f500d6fa4d89fa1d56979afe9d5bb0
+source-git-commit: 4ae9e908d259dbd266417242cf9e65d693227061
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '751'
 ht-degree: 11%
 
 ---
@@ -25,8 +25,8 @@ ht-degree: 11%
 
 | 用語 | 定義 |
 |------|------------|
-| **Adobe Journey Optimizer（AJO）** | あらゆるチャネル（メール、SMS、プッシュ通知、web）をまたいで、パーソナライズされたメッセージを作成し、顧客に配信するためのアプリケーション。 これにより、リアルタイムの顧客のアクションに応答するカスタマージャーニーを設計できます。 |
-| **Adobe Experience Platform（AEP）** | すべての顧客データを 1 か所で収集および整理するAdobe Journey Optimizerの基盤。 Journey Optimizerがパーソナライゼーションに使用する統合顧客プロファイルを作成します。 [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ja){target="_blank"} |
+| **Adobe Journey Optimizer** | あらゆるチャネル（メール、SMS、プッシュ通知、web）をまたいで、パーソナライズされたメッセージを作成し、顧客に配信するためのアプリケーション。 これにより、リアルタイムの顧客のアクションに応答するカスタマージャーニーを設計できます。 |
+| **Adobe Experience Platform** | すべての顧客データを 1 か所で収集および整理するAdobe Journey Optimizerの基盤。 Journey Optimizerがパーソナライゼーションに使用する統合顧客プロファイルを作成します。 [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ja){target="_blank"} |
 | **リアルタイム顧客プロファイル** | オンライン、オフライン、CRM、サードパーティデータなど、複数のチャネルのデータを組み合わせた、各顧客の統合されたリアルタイムビュー。 顧客がブランドとやり取りすると、各プロファイルは動的に更新されます。 [詳細情報](../audience/get-started-profiles.md) |
 | **サンドボックス** | ライブカスタマーコミュニケーションに影響を与えずにテストと実験を行うための個別のワークスペース。 Adobe Journey Optimizerには、開発環境、テスト環境、実稼動環境用の複数のサンドボックスが用意されています。 [詳細情報](../administration/sandboxes.md) |
 
@@ -74,7 +74,7 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->Adobe Experience Platformの用語の包括的な用語集については、[Adobe Experience Platform用語集 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=ja){target="_blank"} を参照してください。
+>Adobe Experience Platformの用語の包括的な用語集については、[Adobe Experience Platform用語集 ](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=ja){target="_blank"} を参照してください。
 
 ## 関連トピック {#related-topics}
 
