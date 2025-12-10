@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 待機, アクティビティ, ジャーニー, 次, キャンバス
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 version: Journey Orchestration
-source-git-commit: cec807afe35bc95be9fa8d455cd72c2600e51fa7
-workflow-type: ht
-source-wordcount: '732'
-ht-degree: 100%
+source-git-commit: c30a74ccdaec81cbbb28e3129d5c351a0fe64bfc
+workflow-type: tm+mt
+source-wordcount: '891'
+ht-degree: 82%
 
 ---
 
@@ -102,8 +102,18 @@ Select the date for the execution of the next activity.
 
 待機アクティビティが期待どおりに動作することを検証するには、ステップイベントを使用できます。[詳細情報](../reports/query-examples.md#common-queries)
 
-## 自動待機ノード  {#auto-wait-node}
+## 待機後のプロファイルの更新 {#profile-refresh}
 
+**オーディエンスを読み取り** アクティビティで始まるジャーニー内の **待機** アクティビティにプロファイルがパークされている場合、ジャーニーは統合プロファイルサービス（UPS）からプロファイルの属性を自動的に更新し、使用可能な最新のデータを取得します。
+
+* **ジャーニーのエントリ時**：プロファイルは、ジャーニーの開始時に評価されたオーディエンススナップショットの属性値を使用します。
+* **待機ノードの後**：ジャーニーは、古いスナップショットデータではなく、UPS から最新のプロファイルデータを取得するために参照を実行します。 つまり、ジャーニーの開始以降にプロファイル属性が変更された可能性があります。
+
+この動作により、待機期間後にダウンストリームアクティビティで現在のプロファイル情報が確実に使用されるようになります。 ただし、実行中にジャーニーで元のスナップショットデータのみを使用すると、予期しない結果が生じる可能性があります。
+
+例：プロファイルがジャーニーの開始時に「シルバー顧客」オーディエンスに該当しても、3 日間の待機中に「ゴールド顧客」にアップグレードされた場合、待機後のアクティビティには、更新された「ゴールド顧客」ステータスが表示されます。
+
+## 自動待機ノード  {#auto-wait-node}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_auto_wait_node "
