@@ -52,7 +52,7 @@ ht-degree: 95%
 
 1. アクティビティに&#x200B;**[!UICONTROL ラベル]**&#x200B;を入力します。このラベルは、オーディエンスの名前として機能します。
 
-1. ![ フォルダー検索アイコン ](../assets/do-not-localize/folder-search.svg) をクリックして、オーケストレートキャンペーンのターゲットにするオーディエンスを選択します。 [Journey Optimizerでオーディエンスを生成およびターゲット設定する方法の詳細を説明します ](../../audience/about-audiences.md)。
+1. ![&#x200B; フォルダー検索アイコン &#x200B;](../assets/do-not-localize/folder-search.svg) をクリックして、オーケストレートキャンペーンのターゲットにするオーディエンスを選択します。 [Journey Optimizerでオーディエンスを生成およびターゲット設定する方法の詳細を説明します &#x200B;](../../audience/about-audiences.md)。
 
    ![](../assets/read-audience-2.png)
 
