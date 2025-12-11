@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: オプトアウト, メール, リンク, 登録解除
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: d77c6376bee14d3d6f90be9be54ac01c740e754f
+source-git-commit: b1d262723b68083d1a32d259f3974a287f898579
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 97%
+source-wordcount: '1031'
+ht-degree: 94%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 97%
 
 受信者がオプトアウトリンクをクリックすると、登録解除リクエストがそれに応じて処理されます。
 
-対応するプロファイルの選択が更新されたことを確認するには、Experience Platform に移動して、[そのプロファイルを参照](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/ui/user-guide?lang=en#browse-tab){target="_blank"}します。[&#x200B; 「属性」タブ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/ui/user-guide#attributes){target="_blank"} で、**[!UICONTROL choice]** の値が **[!UICONTROL no]** に変更されたことを確認できます。 同意処理について詳しくは、[Experience Platform ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=ja){target="_blank"} を参照してください。
+対応するプロファイルの選択が更新されたことを確認するには、Experience Platform に移動して、[そのプロファイルを参照](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide?lang=en#browse-tab){target="_blank"}します。[ 「属性」タブ ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#attributes){target="_blank"} で、**[!UICONTROL choice]** の値が **[!UICONTROL no]** に変更されたことを確認できます。 同意処理について詳しくは、[Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=ja){target="_blank"}を参照してください。
 
 ![](assets/opt-out-profile-choice.png)
 
@@ -169,6 +169,10 @@ Adobe Journey Optimizer でランディングページを作成して購読解�
 1. メッセージを受け取った受信者が登録解除リンクをクリックすると、ランディングページが表示されます。
 
    ![](assets/opt-out-lp-example.png)
+
+   >[!WARNING]
+   >
+   >メール内で購読解除リンクをクリックした場合にのみ、ランディングページが開きます。 受信者は **ランディングページのオプトアウトボタンをクリックしてフォームを送信** して、購読解除を完了し、プロファイルの同意を更新する必要があります。
 
 1. 受信者がフォームを送信（ここではランディングページの「**[!UICONTROL 登録解除]**」ボタンをクリック）した場合、API 呼び出しを通じてプロファイルデータが更新されます。
 

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: ランディング, ランディングページ, ユースケース
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: f00550c1df41ff785d433e31847e890718a72f4c
+source-git-commit: b1d262723b68083d1a32d259f3974a287f898579
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 88%
+source-wordcount: '1184'
+ht-degree: 85%
 
 ---
 
@@ -149,6 +149,10 @@ ht-degree: 88%
 
    ![](assets/lp_opt-out-submit-form.png)
 
+   >[!WARNING]
+   >
+   >メール内で購読解除リンクをクリックした場合にのみ、ランディングページが開きます。 受信者は **ランディングページのオプトアウトボタンをクリックしてフォームを送信** して、購読解除を完了し、プロファイルの同意を更新する必要があります。
+
    受信者がボックスをオンにしてフォームを送信した場合：
 
    * オプトアウトした受信者は、確認メッセージ画面にリダイレクトされます。
@@ -194,7 +198,7 @@ You can also enable your recipients to unsubscribe whithout using landing pages.
 
 ランディングページで送信された情報を使用して、追加のアクションを実行できます。 例えば、ユーザーが特定のサブスクリプションリストを購読している場合、その情報を利用して、他のサブスクリプションリストを推奨するメールをそのユーザーに送信できます。
 
-これを行うには、送信情報を含む [AJO メールトラッキングエクスペリエンスイベントスキーマに基づいて &#x200B;](../event/about-creating.md) ルールベースの単一イベント **[!UICONTROL を作成し]** ジャーニーでこのイベントを使用 [&#x200B; する必要があ &#x200B;](../building-journeys/general-events.md) ます。
+これを行うには、送信情報を含む [AJO メールトラッキングエクスペリエンスイベントスキーマに基づいて ](../event/about-creating.md) ルールベースの単一イベント **[!UICONTROL を作成し]** ジャーニーでこのイベントを使用 [ する必要があ ](../building-journeys/general-events.md) ます。
 
 >[!NOTE]
 >
