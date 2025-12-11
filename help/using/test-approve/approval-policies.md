@@ -5,15 +5,14 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
-source-git-commit: 471fb04fd1cbaff0db827d1f5320577103b35d33
+source-git-commit: b70233b3ac1741fa645a426fba3c6bd3175b13a0
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 100%
+source-wordcount: '664'
+ht-degree: 68%
 
 ---
 
 # 承認ポリシーの作成と管理 {#approval-policies}
-
 
 >[!CONTEXTUALHELP]
 >id="ajo_approval_policy_request_approval"
@@ -25,12 +24,13 @@ ht-degree: 100%
 >title="変更をリクエスト"
 >abstract="変更をリクエスト"
 
-
 >[!NOTE]
 >
 >承認ポリシーを作成するには、Adobe Experience Platform のシステム管理者権限または製品管理者権限が必要です。[詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/home)
 
-承認ポリシーを使用すると、管理者はジャーニーとキャンペーンの検証プロセスを確立できます。このシステムは、ジャーニーまたはキャンペーンが承認を必要とするかどうかを決定する特定の条件の概要を示します。これらのポリシーは、単純にすべてのキャンペーンを特定のユーザーまたはチームによるレビューが必要となることから、キャンペーンの作成者に基づいて条件を設定することまで、複雑さが異なる場合があります。
+承認ポリシーを使用すると、管理者はジャーニーとキャンペーンの検証プロセスを確立できます。このシステムは、ジャーニーまたはキャンペーンが承認を必要とするかどうかを決定する特定の条件の概要を示します。これらのポリシーの複雑さは様々です。 すべてのキャンペーンを特定のユーザーまたはチームによるレビューを必要とするか、キャンペーンの作成者に基づいて条件を確立するだけです。
+
+タグ、キャンペーン/ジャーニー名、チャネルタイプ、リクエスター情報などの柔軟な条件を使用して、承認ポリシーをターゲットにすることができます。 例えば、「高リスク」とタグ付けされたすべてのオブジェクトや、特定の命名パターンに一致するキャンペーンに対して、承認を要求できます。
 
 ## 承認ポリシーの作成 {#create-policies}
 
@@ -41,9 +41,9 @@ ht-degree: 100%
 
 承認ポリシーを作成するには、次の手順に従います。
 
-1. Journey Optimizer の&#x200B;**[!UICONTROL 管理]**&#x200B;メニューから、**[!UICONTROL 権限]**／**[!UICONTROL ポリシー]**&#x200B;にアクセスします。
+1. **[!UICONTROL の]** 管理 [!DNL Journey Optimizer] メニューから、**[!UICONTROL 権限]****[!UICONTROL ポリシー]** にアクセスします。
 
-   ![](assets/policy_create_1.png)
+   ![ 権限メニューの「承認ポリシーを作成」ボタン ](assets/policy_create_1.png)
 
 1. 「**[!UICONTROL 承認ポリシー]**」タブの「**[!UICONTROL 作成]**」をクリックし、「**[!UICONTROL 承認ポリシー]**」を選択して「**[!UICONTROL 確認]**」をクリックします。
 
@@ -61,6 +61,14 @@ ht-degree: 100%
 
 ## 承認ポリシーの条件を設定 {#conditions}
 
+承認ポリシーには、ガバナンスニーズに合った柔軟なターゲティングオプションが用意されています。 次のような様々な条件に基づいて承認ポリシーを作成できます。
+
+* **キャンペーン/ジャーニー名**：特定のオブジェクトを名前でターゲットに設定します
+* **タグ**：特定のタグを持つすべてのキャンペーンまたはジャーニーにポリシーを適用します
+* **チャネルタイプ**：特定のアクション（メール、SMS、プッシュなど）に対して承認を要求
+* **キャンペーンタイプ**：スケジュール済みキャンペーンと API トリガーキャンペーンで異なるルールを設定する
+* **リクエスター**：キャンペーンまたはジャーニーの作成者に基づいてポリシーを定義します
+
 承認ポリシーに関連付ける条件を定義するには、次の手順に従います。
 
 1. **[!UICONTROL 承認ポリシー]**&#x200B;にアクセスします。
@@ -69,9 +77,9 @@ ht-degree: 100%
 
 1. 適切な「**[!UICONTROL カテゴリ]**」、「**[!UICONTROL 一致するルール]**」および「**[!UICONTROL オプション]**」を選択します。
 
-   例えば、「If Action match any Direct Mail」や「If Requestor Username match John Doe」などです。
+   例えば、「アクションが任意のダイレクトメールと一致する場合」や「要求者のユーザー名が John Doe と一致する場合」などです。
 
-   ![](assets/policy_condition_1.png)
+   ![ 承認ポリシー条件ビルダーインターフェイス ](assets/policy_condition_1.png)
 
    +++ 詳しくは、使用可能なカテゴリとオプションを参照してください
    <table>
@@ -124,14 +132,13 @@ ht-degree: 100%
     </tr>
     <tr>
     <td>依頼者のユーザー名</td>
-    <td>設計された依頼者の名前とメールアドレス</td>
+    <td>指定依頼者の名前とメールアドレス</td>
     </tr>
     <tr>
     <td>依頼者のユーザーグループ</td>
-    <td>設計された依頼者のユーザーグループの名前</td>
+    <td>指定された要求者のユーザーグループの名前</td>
     </tr>
     </table>
-
 
 1. 条件を追加するには、「**[!UICONTROL 条件を追加]**」をクリックして追加のルールを定義し、「**[!UICONTROL And]**」または「**[!UICONTROL Or]**」を選択して条件の接続方法を指定します。
 
@@ -143,7 +150,7 @@ ht-degree: 100%
 
    選択したユーザーまたはユーザーグループが、承認リクエストを検証することになります。
 
-   ![](assets/policy_condition_2.png)
+   ![ 承認要求受信者選択インターフェイス ](assets/policy_condition_2.png)
 
 1. 条件を追加するには、「**[!UICONTROL 条件を追加]**」をクリックして追加のルールを定義し、「**[!UICONTROL And]**」または「**[!UICONTROL Or]**」を選択して条件の接続方法を指定します。
 
@@ -163,8 +170,8 @@ ht-degree: 100%
    >
    >アクティブ化したポリシーは編集できません。条件を変更するには、まずポリシーを非アクティブ化します。
 
-   ![](assets/policy_activate_1.png)
+   ![ 「承認ポリシーをアクティブ化」ボタン ](assets/policy_activate_1.png)
 
 1. **[!UICONTROL ポリシー]**&#x200B;メニューから、必要に応じてポリシーの詳細オプションを開いて&#x200B;**[!UICONTROL 編集]**、**[!UICONTROL 非アクティブ化]**、**[!UICONTROL 複製]**&#x200B;を実行します。
 
-   ![](assets/policy_activate_2.png)
+   ![ 承認ポリシー管理オプション メニュー ](assets/policy_activate_2.png)
