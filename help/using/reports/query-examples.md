@@ -124,7 +124,7 @@ WHERE
     _experience.journeyOrchestration.stepEvents.instanceID = 'unitary_089dc93a-1970-4875-9660-22433b18e500';
 ```
 
-![ 破棄されたプロファイルの詳細を示すクエリ結果の例 ](assets/query-discarded-profiles.png)
+![&#x200B; 破棄されたプロファイルの詳細を示すクエリ結果の例 &#x200B;](assets/query-discarded-profiles.png)
 
 クエリ結果には、プロファイル破棄の理由を特定するのに役立つ次のキーフィールドが表示されます。
 
