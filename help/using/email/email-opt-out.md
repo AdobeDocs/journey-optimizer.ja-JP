@@ -34,7 +34,7 @@ ht-degree: 94%
 
 受信者がオプトアウトリンクをクリックすると、登録解除リクエストがそれに応じて処理されます。
 
-対応するプロファイルの選択が更新されたことを確認するには、Experience Platform に移動して、[そのプロファイルを参照](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide?lang=en#browse-tab){target="_blank"}します。[&#x200B; 「属性」タブ &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#attributes){target="_blank"} で、**[!UICONTROL choice]** の値が **[!UICONTROL no]** に変更されたことを確認できます。 同意処理について詳しくは、[Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=ja){target="_blank"}を参照してください。
+対応するプロファイルの選択が更新されたことを確認するには、Experience Platform に移動して、[そのプロファイルを参照](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/ui/user-guide?lang=en#browse-tab){target="_blank"}します。[&#x200B; 「属性」タブ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/ui/user-guide#attributes){target="_blank"} で、**[!UICONTROL choice]** の値が **[!UICONTROL no]** に変更されたことを確認できます。 同意処理について詳しくは、[Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=ja){target="_blank"}を参照してください。
 
 ![](assets/opt-out-profile-choice.png)
 
