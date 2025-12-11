@@ -39,7 +39,7 @@ ht-degree: 50%
 
    >[!NOTE]
    >
-   >メールDesignerのパーソナライゼーションエディターには、ジャーニー式と比較して、いくつかの関数制限があります。 [ 日付/時間関数の制限について詳しくはこちらを参照 ](#date-time-limitations)
+   >メールDesignerのパーソナライゼーションエディターには、ジャーニー式と比較して、いくつかの関数制限があります。 [&#x200B; 日付/時間関数の制限について詳しくはこちらを参照 &#x200B;](#date-time-limitations)
 
 1. メールの内容をクリアして新しいデザインからメールを開始する場合は、オプション メニューから「**[!UICONTROL デザインを変更]**」を選択します。
 
@@ -85,10 +85,10 @@ ht-degree: 50%
 
   例：`{%= profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate %}`
 
-* **日付操作関数の使用** - [ や ](../personalization/functions/dates.md) などの `dayOfYear()` 日付/時間関数 `diffInDays()` プロファイル属性の日付値と共に使用します。
+* **日付操作関数の使用** - [&#x200B; や &#x200B;](../personalization/functions/dates.md) などの `dayOfYear()` 日付/時間関数 `diffInDays()` プロファイル属性の日付値と共に使用します。
 
   例：`{%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/dd/YY") %}`
 
-* **計算属性の使用** – 複雑な日付計算を実行する [ 計算属性 ](../audience/computed-attributes.md) を作成し、結果をプロファイル属性として使用できるようにします。
+* **計算属性の使用** – 複雑な日付計算を実行する [&#x200B; 計算属性 &#x200B;](../audience/computed-attributes.md) を作成し、結果をプロファイル属性として使用できるようにします。
 
-詳しくは、[ パーソナライゼーションの日時関数 ](../personalization/functions/dates.md) を参照してください。
+詳しくは、[&#x200B; パーソナライゼーションの日時関数 &#x200B;](../personalization/functions/dates.md) を参照してください。
