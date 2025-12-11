@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: ランディング, ランディングページ, ユースケース
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: f00550c1df41ff785d433e31847e890718a72f4c
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 100%
+source-wordcount: '1148'
+ht-degree: 88%
 
 ---
 
@@ -169,8 +169,6 @@ ht-degree: 100%
 >
 >このデータセットにバッチが追加されていない場合でも、オプトイン／オプトアウト情報は含まれます。
 
-
-
 **関連トピック：**
 
 * [ワンクリックオプトアウト](../email/email-opt-out.md#one-click-opt-out)
@@ -190,14 +188,21 @@ You can also enable your recipients to unsubscribe whithout using landing pages.
 
     If the recipients' email client supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link. [Learn more](../email/email-opt-out.md#unsubscribe-header)
 
-////////
+-->
 
+## ランディングページ送信イベントの活用 {#leverage-lp-event}
 
-## Leverage landing page submission event {#leverage-lp-event}
+ランディングページで送信された情報を使用して、追加のアクションを実行できます。 例えば、ユーザーが特定のサブスクリプションリストを購読している場合、その情報を利用して、他のサブスクリプションリストを推奨するメールをそのユーザーに送信できます。
 
-You can use information that was submitted on a landing page to send communications to your customers. For example, if a user subscribes to a given subscription list, you can leverage that information to send an email recommending other subscription lists to that user.
+これを行うには、送信情報を含む [AJO メールトラッキングエクスペリエンスイベントスキーマに基づいて ](../event/about-creating.md) ルールベースの単一イベント **[!UICONTROL を作成し]** ジャーニーでこのイベントを使用 [ する必要があ ](../building-journeys/general-events.md) ます。
 
-To do this, you need to create an event containing the landing page submission information and use it in a journey. Follow the steps below.
+>[!NOTE]
+>
+>ランディングページの送信イベントを操作する場合、「イベント `interactionType`」フィールドは必ずしも特定のユーザーアクションを正確に反映しているとは限りません。 ユーザーがオプトアウト、購読、または別のアクションを実行したかどうかを正確に判断するには、イベント `interactionType` ータのみに依存するのではなく、実際のプロファイル属性（同意環境設定など）またはフォームフィールド値を常に確認します。
+
+<!--DETAILED STEPS TBC:
+
+Follow the steps below.
 
 1. Go to **[!UICONTROL Administration]** > **[!UICONTROL Configurations]**, and in the **[!UICONTROL Events]** section, select **[!UICONTROL Manage]**.
 
