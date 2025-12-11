@@ -9,10 +9,8 @@ role: User
 level: Intermediate
 keywords: ジャーニー, ユースケース, 平日, 条件, メール, スケジュール
 version: Journey Orchestration
-hide: true
-hidefromtoc: true
-source-git-commit: 9b3c9f7c0327c8c3c3d2b7f1b4255b7e1457a51e
-workflow-type: ht
+source-git-commit: 970712614b0d4da37d9ecbe45701f93147b1428c
+workflow-type: tm+mt
 source-wordcount: '1070'
 ht-degree: 100%
 
