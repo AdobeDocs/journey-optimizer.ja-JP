@@ -198,7 +198,7 @@ You can also enable your recipients to unsubscribe whithout using landing pages.
 
 ランディングページで送信された情報を使用して、追加のアクションを実行できます。 例えば、ユーザーが特定のサブスクリプションリストを購読している場合、その情報を利用して、他のサブスクリプションリストを推奨するメールをそのユーザーに送信できます。
 
-これを行うには、送信情報を含む [AJO メールトラッキングエクスペリエンスイベントスキーマに基づいて ](../event/about-creating.md) ルールベースの単一イベント **[!UICONTROL を作成し]** ジャーニーでこのイベントを使用 [ する必要があ ](../building-journeys/general-events.md) ます。
+これを行うには、送信情報を含む [AJO メールトラッキングエクスペリエンスイベントスキーマに基づいて &#x200B;](../event/about-creating.md) ルールベースの単一イベント **[!UICONTROL を作成し]** ジャーニーでこのイベントを使用 [&#x200B; する必要があ &#x200B;](../building-journeys/general-events.md) ます。
 
 >[!NOTE]
 >
