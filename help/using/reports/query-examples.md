@@ -8,10 +8,10 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 85cfc6d19c60f7aa04f052c84efa03480868d179
-workflow-type: ht
-source-wordcount: '2598'
-ht-degree: 100%
+source-git-commit: 81d8d068f1337516adc76c852225fd7850a292e8
+workflow-type: tm+mt
+source-wordcount: '2749'
+ht-degree: 94%
 
 ---
 
@@ -123,6 +123,64 @@ WHERE (
 AND _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersionID>'
 AND DATE(timestamp) > (now() - interval '<last x hours>' hour);
 ```
+
++++
+
++++破棄されたプロファイルのステップイベントの表示
+
+このクエリは、ジャーニーから破棄されたプロファイルのステップイベントの詳細を返します。 ビジネスルールや待ち時間の制約などが原因でプロファイルが破棄された理由を特定するのに役立ちます。 クエリは、特定の破棄イベントタイプに対してフィルタリングし、プロファイル ID、インスタンス ID、ジャーニー詳細、破棄の原因となったエラーなどの主要な情報を表示します。
+
+_データレイクのクエリ_
+
+```sql
+SELECT 
+    _experience.journeyOrchestration.stepEvents.profileID,
+    _experience.journeyOrchestration.stepEvents.instanceID,
+    _experience.journeyOrchestration.stepEvents.journeyID,
+    _experience.journeyOrchestration.stepEvents.journeyVersionID,
+    _experience.journeyOrchestration.stepEvents.actionExecutionError,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventType,
+    DATE(timestamp),
+    timestamp
+FROM journey_step_events
+WHERE
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = '<eventType>' AND
+    _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journeyVersionID>' AND
+    _experience.journeyOrchestration.stepEvents.instanceID = '<instanceID>';
+```
+
+_例_
+
+```sql
+SELECT 
+    _experience.journeyOrchestration.stepEvents.profileID,
+    _experience.journeyOrchestration.stepEvents.instanceID,
+    _experience.journeyOrchestration.stepEvents.journeyID,
+    _experience.journeyOrchestration.stepEvents.journeyVersionID,
+    _experience.journeyOrchestration.stepEvents.actionExecutionError,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventType,
+    DATE(timestamp),
+    timestamp
+FROM journey_step_events
+WHERE
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'quietHours' AND
+    _experience.journeyOrchestration.stepEvents.journeyVersionID = '6f21a072-6235-4c39-9f6a-9d9f3f3b2c3a' AND
+    _experience.journeyOrchestration.stepEvents.instanceID = 'unitary_089dc93a-1970-4875-9660-22433b18e500';
+```
+
+![ 破棄されたプロファイルの詳細を示すクエリ結果の例 ](assets/query-discarded-profiles.png)
+
+クエリ結果には、プロファイル破棄の理由を特定するのに役立つ次のキーフィールドが表示されます。
+
+* **actionExecutionError** - `businessRuleProfileDiscarded` に設定すると、ビジネスルールが原因でプロファイルが破棄されたことを示します。 「`eventType`」フィールドには、破棄の原因となった特定のビジネス・ルールに関する追加の詳細が表示されます。
+
+* **eventType** – 破棄の原因となったビジネス・ルールのタイプを指定します。
+   * `quietHours`：処理が停止している時間設定が原因で、プロファイルが破棄されました
+   * `forcedDiscardDueToQuietHours`：処理の少ない時間帯に保持されたプロファイルのガードレール制限に達したので、プロファイルが強制的に破棄されました
 
 +++
 
