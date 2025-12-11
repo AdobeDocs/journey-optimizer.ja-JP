@@ -17,7 +17,7 @@ ht-degree: 93%
 
 ヘルパー関数を使用すると、パーソナライズされたコンテンツ内のデータを変換して操作できます。 これらを使用して、計算の実行、データの書式設定、条件の適用および様々な操作を実行して、顧客に合わせて動的なエクスペリエンスを作成します。
 
-これらの関数は、[!DNL Journey Optimizer] テンプレート言語を利用します。 パーソナライゼーション構文のガイドラインについて詳しくは、[ このページ ](../personalization-syntax.md) を参照してください。
+これらの関数は、[!DNL Journey Optimizer] テンプレート言語を利用します。 パーソナライゼーション構文のガイドラインについて詳しくは、[&#x200B; このページ &#x200B;](../personalization-syntax.md) を参照してください。
 
 ➡️ [ヘルパー関数の使用方法について詳しくは、このビデオを参照してください。](#video)
 
@@ -42,7 +42,7 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->パーソナライゼーションエディターで使用できる関数と機能は、[ジャーニーの高度な式エディター ](../../building-journeys/expression/expressionadvanced.md) で使用できる関数および機能とは異なります。 例えば、`now()` 関数は、ジャーニー式でのみ使用できます。 [詳細情報](../../email/code-content.md#date-time-limitations)
+>パーソナライゼーションエディターで使用できる関数と機能は、[ジャーニーの高度な式エディター &#x200B;](../../building-journeys/expression/expressionadvanced.md) で使用できる関数および機能とは異なります。 例えば、`now()` 関数は、ジャーニー式でのみ使用できます。 [詳細情報](../../email/code-content.md#date-time-limitations)
 
 ## 関数{#functions-helper}
 
