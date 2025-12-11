@@ -7,7 +7,7 @@ role: Developer
 level: Experienced
 keywords: 日付, 関数, 式, ジャーニー, 時間
 version: Journey Orchestration
-source-git-commit: 48b3ef3d2e041ea49d1b0c91cc72ea04237a5e33
+source-git-commit: 8ca1c995bc38b110fa07573f922906c775fd5e6f
 workflow-type: tm+mt
 source-wordcount: '834'
 ht-degree: 95%
@@ -18,10 +18,6 @@ ht-degree: 95%
 
 日付関数を使用すると、ジャーニー式内で日時の値を操作して作業できます。これらの関数は、カスタマージャーニーでの時間ベースの条件、スケジュール、時間計算に不可欠です。
 
->[!NOTE]
->
->このページの関数は、ジャーニー式で使用できます。 `now()` などの一部の関数は、メールコンテンツのパーソナライゼーションエディターでは使用できません。 [詳細情報](../../personalization/functions/dates.md)
-
 日付関数は、次の操作が必要な場合に使用します。
 
 * 特定のタイムゾーン処理（[now](#now)、[nowWithDelta](#nowWithDelta)、[currentTimeInMillis](#currentTimeInMillis)）を使用して現在の時刻または日付を取得
@@ -31,6 +27,10 @@ ht-degree: 95%
 * 異なる時間形式と表示域間を変換
 
 日付関数は、時間ロジックを正確に制御し、特定の期間とスケジュールに応答する、時間依存のジャーニーパスと条件を作成できます。
+
+>[!NOTE]
+>
+>このページの関数は、ジャーニー式で使用できます。 `now()` などの一部の関数は、メールコンテンツのパーソナライゼーションエディターでは使用できません。 [詳細情報](../../personalization/functions/dates.md)
 
 ## currentTimeInMillis {#currentTimeInMillis}
 
