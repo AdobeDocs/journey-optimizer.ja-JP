@@ -66,7 +66,7 @@ Journey Optimizer ジャーニーデザイナーには、マーケターやジ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=ja)
 
 **ビルトインアクション**
 
@@ -76,7 +76,7 @@ Journey Optimizer ジャーニーデザイナーには、マーケターやジ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=ja)
 
 **カスタムアクション**
 
@@ -128,7 +128,7 @@ Journey Optimizer ジャーニーデザイナーには、マーケターやジ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar.svg?lang=ja)
 
 **メール送信時間の最適化**
 
@@ -184,7 +184,7 @@ AI を活用した送信時間最適化を使用して、各顧客が最も関�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 **ジャーニーの作成と管理**
 
@@ -194,7 +194,7 @@ AI を活用した送信時間最適化を使用して、各顧客が最も関�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 **ジャーニーアクティビティ**
 
@@ -204,7 +204,7 @@ AI を活用した送信時間最適化を使用して、各顧客が最も関�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 **式と条件**
 
