@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 10d2de34-23c1-4a5e-b868-700b462312eb
-source-git-commit: 24d66f146ea3ed0e89a3b928b805bc53a70a8895
+source-git-commit: 6c4bf9edf3b5d3031f5b0ef43db7c8699cfb75dc
 workflow-type: tm+mt
 source-wordcount: '584'
-ht-degree: 92%
+ht-degree: 89%
 
 ---
 
@@ -66,7 +66,7 @@ Adobe Journey Optimizer には、マーケティング活動を強化する目�
    * バッチセグメント化：オーディエンスは 24 時間ごとに更新され、一定の間隔でプロファイルのスナップショットが取得されます。
    * エッジセグメント化：オーディエンスはエッジ上で即座に評価されるので、リアルタイムのパーソナライゼーションが可能になります。
 
-[詳しくは、セグメント定義の作成方法を参照してください。](creating-a-segment-definition.md)
+  [詳しくは、セグメント定義の作成方法を参照してください。](creating-a-segment-definition.md)
 
 * **カスタムアップロード**：CSV ファイルを使用してオーディエンスを読み込みます。[詳しくは、カスタムアップロードオーディエンスの作成方法を参照してください](custom-upload.md)
 
@@ -76,7 +76,7 @@ Adobe Journey Optimizer には、マーケティング活動を強化する目�
 
 ## ジャーニーとキャンペーンでのオーディエンスのターゲット設定 {#target-audiences}
 
-オーディエンスの準備が整ったら、ジャーニーの構築時やキャンペーンの作成時にオーディエンスを選択し、関連するメッセージを使用して適切な人に適切なタイミングでリーチできるようにします。 [Journey Optimizerでの Audience Activation について詳しくはこちらを参照してください &#x200B;](target-audiences.md)。
+オーディエンスの準備が整ったら、ジャーニーの構築時やキャンペーンの作成時にオーディエンスを選択し、関連するメッセージを使用して適切な人に適切なタイミングでリーチできるようにします。 [Journey Optimizerでの Audience Activation について詳しくはこちらを参照してください ](target-audiences.md)。
 
 ## チュートリアルビデオ {#video}
 
