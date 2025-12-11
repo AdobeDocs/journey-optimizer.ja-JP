@@ -33,7 +33,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->パーソナライゼーションエディターで使用できる関数と機能は、[ジャーニーの高度な式エディター ](../../building-journeys/expression/expressionadvanced.md) で使用できる関数および機能とは異なります。 例えば、`now()` 関数は、ジャーニー式でのみ使用できます。 [詳細情報](../../email/code-content.md#date-time-limitations)
+>パーソナライゼーションエディターで使用できる関数と機能は、[ジャーニーの高度な式エディター &#x200B;](../../building-journeys/expression/expressionadvanced.md) で使用できる関数および機能とは異なります。 例えば、`now()` 関数は、ジャーニー式でのみ使用できます。 [詳細情報](../../email/code-content.md#date-time-limitations)
 
 ## 関数{#functions-helper}
 
