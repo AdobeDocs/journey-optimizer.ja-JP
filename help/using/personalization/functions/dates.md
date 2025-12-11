@@ -6,16 +6,20 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: 07a582db495ecbfae97b6d299b65b06c0cdf8c14
-workflow-type: ht
-source-wordcount: '1091'
-ht-degree: 100%
+source-git-commit: 48b3ef3d2e041ea49d1b0c91cc72ea04237a5e33
+workflow-type: tm+mt
+source-wordcount: '1110'
+ht-degree: 98%
 
 ---
 
 # 日時関数{#date-time}
 
 日時関数を使用すると、Journey Optimizer 内の値に対して日時操作を実行できます。
+
+>[!NOTE]
+>
+>`now()` 関数は、パーソナライゼーションエディターでは使用できません。 現在の日付と時刻の値には、代わりに `getCurrentZonedDateTime()` または `currentTimeInMillis()` を使用します。 [詳細情報](../../email/code-content.md#date-time-limitations)
 
 ## 日数を追加 {#add-days}
 

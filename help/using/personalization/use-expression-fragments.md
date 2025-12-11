@@ -9,10 +9,10 @@ role: Developer
 level: Intermediate
 keywords: 式, エディター, ライブラリ, パーソナライゼーション
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
-workflow-type: ht
-source-wordcount: '994'
-ht-degree: 100%
+source-git-commit: 20421485e354b0609dd445f2db2b7078ee81d891
+workflow-type: tm+mt
+source-wordcount: '1309'
+ht-degree: 75%
 
 ---
 
@@ -107,6 +107,89 @@ ht-degree: 100%
 >
 >実行時に、システムはフラグメント内の内容を展開し、パーソナライゼーションコードを上から下に解釈します。このことを念頭に置くと、より複雑なユースケースを実現できます。例えば、フラグメント F1 がその下にある別のフラグメント F2 に変数を渡すことができます。また、ビジュアルフラグメント F1 から、ネストされた式フラグメント F2 に変数を渡すこともできます。
 
+## ループ内での式フラグメントの使用 {#fragments-in-loops}
+
+`{{#each}}` ループ内で式フラグメントを使用する場合は、変数スコーピングの仕組みを理解することが重要です。 式フラグメントはメッセージコンテンツで定義されたグローバル変数にアクセスできますが、ループ固有の変数をパラメーターとして受け取ることはできません。
+
+### サポートされているパターン：グローバル変数を使用します {#global-variables-in-loops}
+
+式フラグメントは、ループ内からフラグメントが呼び出される場合でも、フラグメントの外部で定義されるグローバル変数を参照できます。 これは、反復コンテキストでフラグメントを使用する必要がある場合に推奨されるアプローチです。
+
+**例：ループ内でグローバル変数を使用したフラグメントの使用**
+
+メッセージコンテンツで、グローバル変数を定義し、それを参照するフラグメントを使用します。
+
+```handlebars
+{% let globalDiscount = 15 %}
+
+{{#each context.journey.actions.GetProducts.items as |product|}}
+  <div class="product">
+    <h3>{{product.name}}</h3>
+    <p>Price: ${{product.price}}</p>
+    {{fragment id='ajo:fragment123/variant456' mode='inline'}}
+  </div>
+{{/each}}
+```
+
+式フラグメント（fragment123）で、`globalDiscount` の変数を参照できます。
+
+```handlebars
+<p class="discount-info">Save {{globalDiscount}}% on all items!</p>
+```
+
+このパターンが機能するのは、ループコンテキストに関係なく、フラグメント内を含むメッセージ全体でグローバル変数にアクセスできるからです。
+
+### サポートされない：ループ変数をフラグメントパラメーターとして渡す {#loop-variables-limitations}
+
+現在の反復項目（上記の例では `product`）をパラメーターとして式フラグメントに渡すことはできません。 フラグメントは、周囲の `{{#each}}` ブロックからループスコープ変数に直接アクセスすることはできません。
+
+**例：機能しない問題**
+
+```handlebars
+{{#each context.journey.actions.GetProducts.items as |product|}}
+  <!-- This will NOT work as expected -->
+  {{fragment id='ajo:fragment123/variant456' mode='inline' currentProduct=product}}
+{{/each}}
+```
+
+現在の実装ではループ固有の変数に対するパラメーターを渡すことができないため、フラグメントは `product` をパラメーターとして受け取り、内部で使用することはできません。
+
+### 推奨される回避策 {#fragments-in-loops-workarounds}
+
+ループからのデータで式フラグメントを使用する必要がある場合は、次の方法を考慮してください。
+
+1. **ロジックをメッセージに直接含める**：ループ固有のロジックのフラグメントを使用する代わりに、パーソナライゼーションコードを `{{#each}}` ブロック内に直接追加します。
+
+   ```handlebars
+   {{#each context.journey.actions.GetProducts.items as |product|}}
+     <div class="product">
+       <h3>{{product.name}}</h3>
+       <p>Price: ${{product.price}}</p>
+       {{#if product.price > 100}}
+         <span class="premium-badge">Premium Product</span>
+       {{/if}}
+     </div>
+   {{/each}}
+   ```
+
+2. **ループ外でフラグメントを使用**：フラグメントコンテンツがループに依存しない場合は、イテレーションブロックの前または後にフラグメントを呼び出します。
+
+   ```handlebars
+   {{fragment id='ajo:fragment123/variant456' mode='inline'}}
+   
+   {{#each context.journey.actions.GetProducts.items as |product|}}
+     <div class="product">
+       <h3>{{product.name}}</h3>
+       <p>Price: ${{product.price}}</p>
+     </div>
+   {{/each}}
+   ```
+
+3. **複数のグローバル変数を設定**：複数のイテレーションをまたいでフラグメントに異なる値を渡す必要がある場合、各フラグメント呼び出しの前にグローバル変数を設定します（ただし、柔軟性は制限されます）。
+
+>[!NOTE]
+>
+>コンテキストデータの反復とループの操作については、ベストプラクティス、トラブルシューティングのヒント、詳細なパターンを含む [ コンテキストデータの反復 ](iterate-contextual-data.md) に関する包括的なガイドを参照してください。
 
 ## 編集可能フィールドのカスタマイズ {#customize-fields}
 

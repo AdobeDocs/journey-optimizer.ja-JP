@@ -7,16 +7,20 @@ role: Developer
 level: Experienced
 keywords: 日付, 関数, 式, ジャーニー, 時間
 version: Journey Orchestration
-source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
-workflow-type: ht
-source-wordcount: '791'
-ht-degree: 100%
+source-git-commit: 48b3ef3d2e041ea49d1b0c91cc72ea04237a5e33
+workflow-type: tm+mt
+source-wordcount: '834'
+ht-degree: 95%
 
 ---
 
 # 日付関数 {#date-functions}
 
 日付関数を使用すると、ジャーニー式内で日時の値を操作して作業できます。これらの関数は、カスタマージャーニーでの時間ベースの条件、スケジュール、時間計算に不可欠です。
+
+>[!NOTE]
+>
+>このページの関数は、ジャーニー式で使用できます。 `now()` などの一部の関数は、メールコンテンツのパーソナライゼーションエディターでは使用できません。 [詳細情報](../../personalization/functions/dates.md)
 
 日付関数は、次の操作が必要な場合に使用します。
 
@@ -347,6 +351,10 @@ true を返します。
 ## now {#now}
 
 現在の日付を日時形式で返します。データタイプについて詳しくは、[このページ](../expression/data-types.md)を参照してください。
+
+>[!NOTE]
+>
+>この関数は、ジャーニー式でのみ使用できます。 メールのパーソナライゼーションやその他のコンテンツには、代わりに `getCurrentZonedDateTime()` を使用します。 [詳細情報](../../personalization/functions/dates.md#get-current-zoned-date-time)
 
 +++構文
 
