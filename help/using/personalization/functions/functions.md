@@ -6,34 +6,43 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 8ca1c995bc38b110fa07573f922906c775fd5e6f
+source-git-commit: cdf9eadc36d7e7b3538690a7a165bc39eccc40b5
 workflow-type: tm+mt
-source-wordcount: '2434'
-ht-degree: 98%
+source-wordcount: '2458'
+ht-degree: 93%
 
 ---
 
 # ヘルパー関数の基本を学ぶ{#functions}
 
-[!DNL Journey Optimizer] テンプレート言語を使用して、計算、データの書式設定や変換、条件、パーソナライゼーションのコンテキストでの操作など、データの操作を実行します。パーソナライゼーション構文のガイドラインについて詳しくは、[このページ](../personalization-syntax.md)を参照してください。
+ヘルパー関数を使用すると、パーソナライズされたコンテンツ内のデータを変換して操作できます。 これらを使用して、計算の実行、データの書式設定、条件の適用および様々な操作を実行して、顧客に合わせて動的なエクスペリエンスを作成します。
 
-➡️ [ヘルパー関数の使用方法については、このビデオをご覧ください](#video)
+これらの関数は、[!DNL Journey Optimizer] テンプレート言語を利用します。 パーソナライゼーション構文のガイドラインについて詳しくは、[ このページ ](../personalization-syntax.md) を参照してください。
 
-テンプレート言語は、次に示すように、パーソナライゼーションエディターのパーソナライゼーションドロップダウンリストで選択できるヘルパー関数で利用されます。
+➡️ [ヘルパー関数の使用方法について詳しくは、このビデオを参照してください。](#video)
+
+## ヘルパー関数へのアクセス
+
+ヘルパー関数は、パーソナライゼーションエディターの関数メニューから使用できます。
 
 ![](../assets/access-helper-functions.png)
 
-[!DNL Journey Optimizer] パーソナライゼーションエディターでは、ヘルパー関数は[関数](#functions-helper)、[ヘルパー](#helper-helper)および[演算子](#operators-helper)の 3 つのカテゴリにグループ化されます。
+関数は、ナビゲーションを容易にするために次の 3 つのカテゴリに分類されています。
 
-サブカテゴリと関数にアクセスするには、カテゴリを選択します。
+* **[関数](#functions-helper)** - データ操作と変換操作
+* **[ヘルパー](#helper-helper)** – 条件付きロジックとユーティリティ関数
+* **[演算子](#operators-helper)** – 比較演算子と論理演算子
 
-サブカテゴリにアクセスするには、「`>`」アイコンをクリックします。`+` アイコンをクリックして関数を選択すると、その関数がパーソナライゼーション画面に自動的に追加されます。
+**ヘルパー関数を使用するには：**
 
-「`...`」アイコンをクリックして関数の説明を表示し、お気に入りに追加します。[詳細情報](../personalize.md#fav)
+1. カテゴリを選択すると、そのサブカテゴリと使用可能な関数が表示されます
+1. サブカテゴリを展開するには、`>` アイコンをクリックします
+1. 関数の横にある「`+`」アイコンをクリックして、パーソナライゼーションコードに追加します
+1. `...` アイコンをクリックして、関数の説明を表示するか、お気に入りに追加します。 [詳細情報](../personalize.md#fav)
 
 >[!NOTE]
 >
->パーソナライゼーションエディターで使用できる関数と機能は、[ジャーニーの高度な式エディター &#x200B;](../../building-journeys/expression/expressionadvanced.md) で使用できる関数および機能とは異なります。 例えば、`now()` 関数は、ジャーニー式でのみ使用できます。 [詳細情報](../../email/code-content.md#date-time-limitations)
+>パーソナライゼーションエディターで使用できる関数と機能は、[ジャーニーの高度な式エディター ](../../building-journeys/expression/expressionadvanced.md) で使用できる関数および機能とは異なります。 例えば、`now()` 関数は、ジャーニー式でのみ使用できます。 [詳細情報](../../email/code-content.md#date-time-limitations)
 
 ## 関数{#functions-helper}
 
@@ -518,4 +527,4 @@ ht-degree: 98%
 
 パーソナライズ機能のヘルパー関数を使用してパーソナライゼーション値を変換する方法と、ヘルパー関数の様々なユースケースを説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416781?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
