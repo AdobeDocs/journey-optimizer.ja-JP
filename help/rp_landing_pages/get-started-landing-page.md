@@ -151,21 +151,21 @@ AI が、コンテンツの作成、送信時間の最適化、よりスマー�
 
 ### ラーニングとサポートの利用
 
-* **[チュートリアルビデオ ](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=ja){target="_blank"}** - コア機能を説明するステップバイステップのビデオチュートリアル
+* **[チュートリアルビデオ &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=ja){target="_blank"}** - コア機能を説明するステップバイステップのビデオチュートリアル
 * **[ユースケースプレイブック](../using/start/ai-features.md#playbooks)** – 放棄された買い物かごの回復やようこそキャンペーンなどの一般的なシナリオ用の事前定義済みワークフロー
 * **[監視とトラブルシューティング](troubleshoot-journey-landing-page.md)** - パフォーマンスの追跡、問題の特定、問題の迅速な解決を行うツール
 * **[新機能](../using/rn/release-notes.md)** – 最新の機能、改善点、修正点を常に把握できます。
-* **[コミュニティフォーラム ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}** – 他のユーザーとつながり、質問し、ベストプラクティスを共有します
+* **[コミュニティフォーラム &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}** – 他のユーザーとつながり、質問し、ベストプラクティスを共有します
 * **[ドキュメントの更新](../using/rn/documentation-updates.md)** - ドキュメントに対する最近の変更や追加について常に情報を提供します
 
 ## 始める準備はよろしいでしょうか。
 
 自分に合ったパスを選択してください。
 
-* **Journey Optimizerを初めて使用する場合** Journey Optimizerとは [基本を理解する ](../using/start/get-started.md) 法
-* **自分の役割を知っている場合** 自分の責任に合った [ 役割固有のガイド ](../using/start/quick-start.md) に移動する
-* **探索しますか？**[AI 機能を参照するか ](../using/start/ai-features.md) ユースケースプレイブック [ を試してください ](../using/start/ai-features.md#playbooks)
-* **サポートが必要な場合** トラブルシューティングガイド [ を確認するか、](../using/start/troubleshooting.md) コミュニティフォーラム [ にアクセスしてくださ ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}。
+* **Journey Optimizerを初めて使用する場合** Journey Optimizerとは [基本を理解する &#x200B;](../using/start/get-started.md) 法
+* **自分の役割を知っている場合** 自分の責任に合った [&#x200B; 役割固有のガイド &#x200B;](../using/start/quick-start.md) に移動する
+* **探索しますか？**&#x200B;[AI 機能を参照するか &#x200B;](../using/start/ai-features.md) ユースケースプレイブック [&#x200B; を試してください &#x200B;](../using/start/ai-features.md#playbooks)
+* **サポートが必要な場合** トラブルシューティングガイド [&#x200B; を確認するか、](../using/start/troubleshooting.md) コミュニティフォーラム [&#x200B; にアクセスしてくださ &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}。
 
 ## クイックリンク {#quick-links}
 
@@ -173,13 +173,13 @@ AI が、コンテンツの作成、送信時間の最適化、よりスマー�
 
 | タスク | ガイド |
 |------|-------|
-| 最初のジャーニーを作成 | [ジャーニー作成ガイド ](../using/building-journeys/journey-gs.md) |
-| 最初のキャンペーンを送信 | [Campaign 作成ガイド ](../using/campaigns/get-started-with-campaigns.md) |
-| メールのデザイン | [ メールデザインガイド ](../using/email/get-started-email-design.md) |
-| オーディエンスの作成 | [ オーディエンス作成ガイド ](../using/audience/creating-a-segment-definition.md) |
-| チャネルを設定 | [ チャネル設定ガイド ](../using/configuration/get-started-configuration.md) |
-| パーソナライズされたオファーの作成 | [ 意思決定管理ガイド ](../using/offers/get-started/starting-offer-decisioning.md) |
+| 最初のジャーニーを作成 | [ジャーニー作成ガイド &#x200B;](../using/building-journeys/journey-gs.md) |
+| 最初のキャンペーンを送信 | [Campaign 作成ガイド &#x200B;](../using/campaigns/get-started-with-campaigns.md) |
+| メールのデザイン | [&#x200B; メールデザインガイド &#x200B;](../using/email/get-started-email-design.md) |
+| オーディエンスの作成 | [&#x200B; オーディエンス作成ガイド &#x200B;](../using/audience/creating-a-segment-definition.md) |
+| チャネルを設定 | [&#x200B; チャネル設定ガイド &#x200B;](../using/configuration/get-started-configuration.md) |
+| パーソナライズされたオファーの作成 | [&#x200B; 意思決定管理ガイド &#x200B;](../using/offers/get-started/starting-offer-decisioning.md) |
 
 >[!NOTE]
 >
->お使いの環境で使用できるコンポーネントと機能は、[ 権限 ](../using/administration/permissions.md) および [ ライセンスパッケージ ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} によって異なります。 具体的な設定については、Adobe カスタマーサクセスマネージャーにお問い合わせください。
+>お使いの環境で使用できるコンポーネントと機能は、[&#x200B; 権限 &#x200B;](../using/administration/permissions.md) および [&#x200B; ライセンスパッケージ &#x200B;](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} によって異なります。 具体的な設定については、Adobe カスタマーサクセスマネージャーにお問い合わせください。
