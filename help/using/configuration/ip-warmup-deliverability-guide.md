@@ -8,8 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: IP，配信品質，評判，ISP, エンゲージメント
-exl-id: TBD
-source-git-commit: b1b9b34aec305d6690d93e68238aed852ef689b7
+source-git-commit: 07896931a7c06e1b712f3b65e1dcf939b521ba83
 workflow-type: tm+mt
 source-wordcount: '1088'
 ht-degree: 6%
@@ -20,11 +19,11 @@ ht-degree: 6%
 
 Adobe Journey Optimizerで新しい IP アドレスまたはドメインを使用したメールキャンペーンを開始する場合、配信品質の基本事項を理解することは、送信者の強力なレピュテーションを構築するために重要です。 このガイドでは、評判ゼロから成功するインボックスの配置への移行に役立つ、重要な概念、準備手順およびベストプラクティスについて説明します。
 
-➡️ [IP ウォームアップ配信品質の基本については、このビデオをご覧ください &#x200B;](#video)
+➡️ [IP ウォームアップ配信品質の基本については、このビデオをご覧ください ](#video)
 
 >[!NOTE]
 >
->Adobe Journey Optimizerに IP ウォームアッププランを実装する手順については、[IP ウォームアッププランの基本を学ぶ &#x200B;](ip-warmup-gs.md) を参照してください。
+>Adobe Journey Optimizerに IP ウォームアッププランを実装する手順については、[IP ウォームアッププランの基本を学ぶ ](ip-warmup-gs.md) を参照してください。
 
 ## IP とドメインのレピュテーションが重要な理由 {#reputation-matters}
 
@@ -67,7 +66,7 @@ IP アドレスのウォームアップを開始する前に、すべての基�
 
 >[!NOTE]
 >
->Adobe Journey Optimizerには、ボリューム管理を自動化し、複雑なジャーニー設定を必要とせずにウォームアッププロセスを簡素化する、専用の [IP ウォームアッププラン機能 &#x200B;](ip-warmup-gs.md) が用意されています。
+>Adobe Journey Optimizerには、ボリューム管理を自動化し、複雑なジャーニー設定を必要とせずにウォームアッププロセスを簡素化する、専用の [IP ウォームアッププラン機能 ](ip-warmup-gs.md) が用意されています。
 
 ## AJOの IP ウォームアッププラン機能の使用 {#ajo-warmup-feature}
 
@@ -103,7 +102,7 @@ Adobe Journey Optimizerには、IP ウォームアップパフォーマンスを
 
 >[!TIP]
 >
->キャンペーンを包括的に分析するには、{campaign ライブレポート [&#x200B; と &#x200B;](../reports/campaign-live-report.md#email-live)2}Customer Journey Analytics レポート [&#x200B; 機能を使用します。](../reports/campaign-global-report-cja-email.md)
+>キャンペーンを包括的に分析するには、{campaign ライブレポート [ と ](../reports/campaign-live-report.md#email-live)2}Customer Journey Analytics レポート [ 機能を使用します。](../reports/campaign-global-report-cja-email.md)
 
 ## トラブルシューティングプレイブック {#troubleshooting}
 
@@ -113,7 +112,7 @@ Adobe Journey Optimizerには、IP ウォームアップパフォーマンスを
 |---------|--------------|-------------------|
 | Yahoo 一時的エラー（421 エラー） | ボリュームの増加が早すぎる | 24 時間送信を一時停止した後、前の層で再起動します |
 | シードアカウント全体で開封率が 2% を下回る | IPブロックリストへの登録 | [Google Postmaster Tools](https://postmaster.google.com/) および [Microsoft SNDS](https://sendersupport.olc.protection.outlook.com/snds/) を確認します。必要に応じて配信品質チケットを開きます。 |
-| 苦情率が 0.3% を超えています | ターゲットが誤っている、またはオーディエンスが古い | セグメント定義を監査し、[&#x200B; 抑制リスト &#x200B;](manage-suppression-list.md) から慢性的な苦情を除外します |
+| 苦情率が 0.3% を超えています | ターゲットが誤っている、またはオーディエンスが古い | セグメント定義を監査し、[ 抑制リスト ](manage-suppression-list.md) から慢性的な苦情を除外します |
 
 >[!IMPORTANT]
 >
@@ -145,12 +144,12 @@ Adobe Journey Optimizerには、IP ウォームアップパフォーマンスを
 
 Adobe Journey Optimizerでの IP ウォームアップの配信品質の基本事項、レピュテーションの構築、ベストプラクティスについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3463783/?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3457695/?learn=on)
 
 <!--
 >[!NOTE]
 >
->For more guidance, explore the [Adobe Journey Optimizer Deliverability Guide blog post](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950?profile.language=ja).-->
+>For more guidance, explore the [Adobe Journey Optimizer Deliverability Guide blog post](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950).-->
 
 ## 関連トピック {#related-topics}
 
@@ -161,5 +160,5 @@ Adobe Journey Optimizerでの IP ウォームアップの配信品質の基本�
 * [チャネル設定の指定](channel-surfaces.md)
 * [サブドメインのデリゲート](delegate-subdomain.md)
 * [抑制リストの管理](manage-suppression-list.md)
-* [&#x200B; 配信品質のベストプラクティスガイド &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja)
+* [ 配信品質のベストプラクティスガイド ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja)
 
