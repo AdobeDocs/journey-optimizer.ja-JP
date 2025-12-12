@@ -7,36 +7,43 @@ level: Beginner
 feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
-source-git-commit: 6fbb9f3d47f4299b35214be4966aafb8151183a2
+source-git-commit: 344a5509731b455ee283af22bfdd8c67e028b83e
 workflow-type: tm+mt
-source-wordcount: '1122'
-ht-degree: 6%
+source-wordcount: '1516'
+ht-degree: 3%
 
 ---
 
 # 基本を学ぶ（マーケター向け） {#get-started-marketers}
 
-**マーケター**&#x200B;または&#x200B;**ジャーニー実務担当者**&#x200B;は、オファーおよびジャーニーの作成とコンテンツのデザインを担当します。[システム管理者](administrator.md)と[データエンジニア](data-engineer.md)からアクセス権を付与され、環境の準備ができたら、[!DNL Adobe Journey Optimizer] での作業を開始できます。
+**マーケター** または **ビジネス実務担当者** は、顧客に対してコンテキストに沿った個人的なエクスペリエンスを提供するカスタマージャーニーを設計します。 メールメッセージ、プッシュメッセージ、オファー、決定コンポーネントなど、パーソナライズされたジャーニーの様々なコンポーネントをすべて作成および管理し、メッセージコンテンツをインテリジェントにパーソナライズします。 Journey Optimizerは、エンドツーエンドのユースケース全体を 1 か所で実装できる、統一されたユーザーエクスペリエンスを提供します。 [システム管理者](administrator.md)と[データエンジニア](data-engineer.md)からアクセス権を付与され、環境の準備ができたら、[!DNL Adobe Journey Optimizer] での作業を開始できます。
 
 ## 基本事項の基本を学ぶ
 
-Journey Optimizerを使用すると、メール、SMS、プッシュ、アプリ内、web、コンテンツカードなど、パーソナライズされた接続されたカスタマーエクスペリエンスを作成できます。 [&#x200B; 管理者 &#x200B;](administrator.md) と連携してアクセス権を取得し、[&#x200B; データエンジニア &#x200B;](data-engineer.md) と連携してオーディエンスとデータを設定します。
+Journey Optimizerでは、リアルタイムの顧客インサイト、最新のオムニチャネルオーケストレーションおよびインテリジェントな意思決定が、1 つのアプリケーションで統合されます。 メール、SMS、プッシュ、アプリ内、web、コンテンツカードなど、パーソナライズされた接続された顧客エクスペリエンスを作成します。
+
+Journey Optimizerには、次の 2 つの強力なオーケストレーションのアプローチがあります。
+
+* **ジャーニー**：行動やイベントによってトリガーされ、各顧客が自分のペースで進む、1 対 1 のリアルタイムのエンゲージメント
+* **キャンペーンの調整**：ワークフローを通じてオーディエンスが一緒に進行する、大規模な複雑な複数手順のバッチキャンペーンで、季節的なプロモーション、製品の発売、アカウントベースの通信など、ブランドが開始したキャンペーンに最適です
+
+担当の [ 管理者 ](administrator.md) と連携してアクセス権を取得し、[ データエンジニア ](data-engineer.md) と連携して、高度なセグメント化のためのオーディエンス、データ、リレーショナルスキーマを設定します。
 
 エクスペリエンスの作成を開始するには、次のコア手順に従います。
 
-1. **オーディエンスを作成**&#x200B;します。セグメント定義を通じたオーディエンスの構築、CSV ファイルのアップロード、オーディエンス構成の使用のいずれかを行います。 Journey Optimizerには、適切な顧客をターゲットにする方法が複数あります。 [&#x200B; オーディエンス &#x200B;](../../audience/about-audiences.md) および [&#x200B; セグメント定義の作成 &#x200B;](../../audience/creating-a-segment-definition.md) について説明します。
+1. **オーディエンスを作成**&#x200B;します。セグメント定義を通じたオーディエンスの構築、CSV ファイルのアップロード、オーディエンス構成の使用のいずれかを行います。 Journey Optimizerには、適切な顧客をターゲットにする方法が複数あります。 [ オーディエンス ](../../audience/about-audiences.md) および [ セグメント定義の作成 ](../../audience/creating-a-segment-definition.md) について説明します。
 
 1. **コンテンツをデザイン**。 メール、SMS、プッシュ、アプリ内、web、コンテンツカードなど、すべてのチャネルをまたいで魅力的なメッセージを作成します。
-   * **AI アシスタント** を使用して、ブランドガイドラインに基づいてメールコンテンツ、件名、画像を生成します。 [AI コンテンツ生成について &#x200B;](../../content-management/gs-generative.md)
+   * **AI アシスタント** を使用して、ブランドガイドラインに基づいてメールコンテンツ、件名、画像を生成します。 [AI コンテンツ生成について ](../../content-management/gs-generative.md)
    * 顧客データ、動的コンテンツおよび条件付きロジックを使用した **メッセージのパーソナライズ**。 [パーソナライゼーションの詳細情報](../../personalization/personalize.md)
-   * **コンテキストデータの反復** により、イベント、カスタムアクション、データセット検索からの動的リストを表示します。 [&#x200B; コンテキストデータの繰り返しについて学ぶ &#x200B;](../../personalization/iterate-contextual-data.md)
-   * ブランドの一貫性を維持するために、再利用可能な **コンテンツテンプレート** および **フラグメント** を作成します。 [&#x200B; テンプレートの操作 &#x200B;](../../content-management/content-templates.md)
-   * モバイルアプリや web サイト内で、永続的で割り込みのない **コンテンツカード** を配信します。 プッシュ通知とは異なり、コンテンツカードは閉じられるまで表示されたままになります。 [&#x200B; コンテンツカードについて学ぶ &#x200B;](../../content-card/create-content-card.md)
-   * **Adobe Experience Manager Assets** 統合によるアセットの管理。 [&#x200B; アセットについて &#x200B;](../../integrations/assets.md)
+   * **コンテキストデータの反復** により、イベント、カスタムアクション、データセット検索からの動的リストを表示します。 [ コンテキストデータの繰り返しについて学ぶ ](../../personalization/iterate-contextual-data.md)
+   * ブランドの一貫性を維持するために、再利用可能な **コンテンツテンプレート** および **フラグメント** を作成します。 [ テンプレートの操作 ](../../content-management/content-templates.md)
+   * モバイルアプリや web サイト内で、永続的で割り込みのない **コンテンツカード** を配信します。 プッシュ通知とは異なり、コンテンツカードは閉じられるまで表示されたままになります。 [ コンテンツカードについて学ぶ ](../../content-card/create-content-card.md)
+   * **Adobe Experience Manager Assets** 統合によるアセットの管理。 [ アセットについて ](../../integrations/assets.md)
 
    ![](../assets/perso_ee2.png)
 
-1. **オファーと決定を追加**。 AI を活用した意思決定を使用して、適切なタイミングで各顧客に最高のオファーを提供します。 [&#x200B; 意思決定管理 &#x200B;](../../offers/get-started/starting-offer-decisioning.md) および [&#x200B; エクスペリエンス決定 &#x200B;](../../experience-decisioning/gs-experience-decisioning.md) について説明します。
+1. **オファーと決定を追加**。 AI を活用した意思決定を使用して、適切なタイミングで各顧客に最高のオファーを提供します。 [ 意思決定管理 ](../../offers/get-started/starting-offer-decisioning.md) および [ エクスペリエンス決定 ](../../experience-decisioning/gs-experience-decisioning.md) について説明します。
 
    ![](../assets/offers-e2e-offers-displayed.png)
 
@@ -44,10 +51,10 @@ Journey Optimizerを使用すると、メール、SMS、プッシュ、アプリ
    * **テストプロファイル** を使用して、パーソナライゼーションをプレビューし、デバイス間でのレンダリングを確認します
    * CSV/JSON ファイルからの **サンプルデータ** を使用したテスト
    * 一般的なメールクライアントでのプレビュー **メールのレンダリング**
-   * **A/B テストおよび実験** を実行して、コンテンツのバリエーションを最適化します。 マルチアームバンディット実験を使用して、リアルタイムで、より多くのトラフィックを勝者のバリエーションに自動的に割り当てます。 [&#x200B; 実験について学ぶ &#x200B;](../../content-management/content-experiment.md)
-   * キャンペーンおよびジャーニー用に **承認ワークフロー** を設定します（追加のライセンスが必要です）。 [&#x200B; 承認について &#x200B;](../../test-approve/gs-approval.md)
+   * **A/B テストおよび実験** を実行して、コンテンツのバリエーションを最適化します。 マルチアームバンディット実験を使用して、リアルタイムで、より多くのトラフィックを勝者のバリエーションに自動的に割り当てます。 [ 実験について学ぶ ](../../content-management/content-experiment.md)
+   * キャンペーンおよびジャーニー用に **承認ワークフロー** を設定します（追加のライセンスが必要です）。 [ 承認について ](../../test-approve/gs-approval.md)
 
-   メッセージのテストと検証 [&#x200B; を行う方法を説明 &#x200B;](../../content-management/preview-test.md) ます。
+   メッセージのテストと検証 [ を行う方法を説明 ](../../content-management/preview-test.md) ます。
 
 1. **カスタマージャーニーを作成** します。 ジャーニーキャンバスを使用して、パーソナライズされたリアルタイムのエクスペリエンスを作成します。
 
@@ -56,21 +63,32 @@ Journey Optimizerを使用すると、メール、SMS、プッシュ、アプリ
    * **待機アクティビティ** を使用すると、メッセージとメッセージの最適なタイミングを作成できます
    * 1 つのジャーニー内で **複数のチャネル** をまたいでメッセージを送信する
    * **A/B テストを適用し** 送信時間を最適化してエンゲージメントを最大化
-   * **データセットルックアップ** を使用して、Adobe Experience Platformのリアルタイムデータでジャーニーを強化します。 [&#x200B; データセット参照について &#x200B;](../../building-journeys/dataset-lookup.md)
-   * **追加の識別子** を活用して、同じプロファイルが複数のジャーニーインスタンス（異なる注文や予約など）にエントリできるようにします。 [&#x200B; 追加の識別子について学ぶ &#x200B;](../../building-journeys/supplemental-identifier.md)
+   * **データセットルックアップ** を使用して、Adobe Experience Platformのリアルタイムデータでジャーニーを強化します。 [ データセット参照について ](../../building-journeys/dataset-lookup.md)
+   * **追加の識別子** を活用して、同じプロファイルが複数のジャーニーインスタンス（異なる注文や予約など）にエントリできるようにします。 [ 追加の識別子について学ぶ ](../../building-journeys/supplemental-identifier.md)
 
    ![](../assets/journey-design.png)
 
-   ジャーニーを設計して実行する方法 [&#x200B; ジャーニーのユースケース &#x200B;](../../building-journeys/journey-gs.md) と [&#x200B; ジャーニーのユースケース &#x200B;](../../building-journeys/jo-use-cases.md) について説明します。 [&#x200B; 入口/終了条件 &#x200B;](../../building-journeys/entry-exit-criteria-guide.md) を理解して、プロファイルフローを制御します。
+   ジャーニーを設計して実行する方法 [ ジャーニーのユースケース ](../../building-journeys/journey-gs.md) と [ ジャーニーのユースケース ](../../building-journeys/jo-use-cases.md) について説明します。 [ 入口/終了条件 ](../../building-journeys/entry-exit-criteria-guide.md) を理解して、プロファイルフローを制御します。
+
+1. **調整されたキャンペーンを開始**. 視覚的なキャンバスを使用して、複雑な複数ステップのバッチキャンペーンを大規模に設計します。
+
+   * リレーショナルクエリを使用して、顧客データをアカウント、購入、サブスクリプション、その他のエンティティと接続し、**オンデマンドのオーディエンス** を即座に作成します
+   * 正確なターゲティングのための **マルチエンティティのセグメント化** を作成する（例：「サブスクリプションの有効期限が 30 日間の顧客」や「最近、価値の高い購入を行ったアカウント」）
+   * 起動前に、正確なオーディエンス数で **事前送信表示** を取得
+   * 季節的なプロモーション、製品ローンチ、ロイヤルティオファーまたはアカウントベースのマーケティングのための設計 **複数手順のワークフロー**
+   * キャンペーンを即時、特定の時間、または繰り返しスケジュール（毎日、毎週、毎月）で実行するようにスケジュールします
+   * オーディエンスを **バッチモード** で処理。すべてのプロファイルがワークフローを通じて進行します
+
+   [ オーケストレートキャンペーンの基本を学ぶ ](../../orchestrated/gs-orchestrated-campaigns.md) および [ キャンペーンとジャーニーの使い分け ](../../orchestrated/orchestrated-campaigns-faq.md) を理解します。
 
 1. **監視と最適化**。 パフォーマンスの追跡と結果の経時的な改善：
    * **ライブジャーニー** のパフォーマンスを監視し、ボトルネックを特定
    * **メッセージ配信** 率とエンゲージメント指標の分析
    * Customer Journey Analytics統合での **レポートダッシュボード** の使用
    * **コンバージョン** およびビジネスへの影響の追跡
-   * **メッセージ頻度と優先順位付け** を競合管理ルールで管理して、過剰通信を防ぎます。 [&#x200B; 競合管理について説明します &#x200B;](../../conflict-prioritization/gs-conflict-prioritization.md)
+   * **メッセージ頻度と優先順位付け** を競合管理ルールで管理して、過剰通信を防ぎます。 [ 競合管理について説明します ](../../conflict-prioritization/gs-conflict-prioritization.md)
 
-   [&#x200B; パフォーマンスの監視 &#x200B;](../../reports/report-gs-cja.md) 方法を説明します。
+   [ パフォーマンスの監視 ](../../reports/report-gs-cja.md) 方法を説明します。
 
 ## 成功のベストプラクティス
 
@@ -90,6 +108,15 @@ Journey Optimizerを使用すると、メール、SMS、プッシュ、アプリ
 * **ドラフトモードでテスト**：アクティブ化する前に、ドライランでジャーニーロジックを検証します
 
 [ジャーニーのベストプラクティスを学ぶ](../../building-journeys/entry-exit-criteria-guide.md#best-practices)
+
+### キャンペーンオーケストレーション
+
+* **適切なアプローチを選択**：リアルタイムのビヘイビアートリガーエクスペリエンスにはジャーニーを使用し、スケジュールされたバッチキャンペーンにはオーケストレートキャンペーンを使用します
+* **明確なキャンペーン目標の定義**：複数ステップのワークフローを設計する前に目標を確立する
+* **パイロットオーディエンスから開始**：カウントとセグメント化ロジックを検証してからスケーリングをおこなう
+* **リレーショナルデータの活用**：マルチエンティティのセグメント化を使用して、顧客データをアカウント、購入、サブスクリプションに接続して、正確なターゲティングを実現します
+* **セグメント化をシンプルに**：明確で維持可能なルールにより、パフォーマンスと透明性を最適化
+* **一貫性のある命名を使用**：明確な命名規則により、キャンペーンの管理を容易にします
 
 ### オーディエンスのターゲティング
 
@@ -111,30 +138,38 @@ Journey Optimizerを使用すると、メール、SMS、プッシュ、アプリ
 
 Journey Optimizerの機能を示す実践的な例から学びます。
 
-**一般的なユースケース：**
+**ジャーニーの使用例** （リアルタイム、1 対 1）:
 
-* **ウェルカムシリーズ**：パーソナライズされた複数の手順を持つジャーニーで新規顧客をオンボーディングします。 [&#x200B; ユースケースを表示 &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding)
-* **放棄された買い物かごの回復**：買い物かごにアイテムを残した顧客を再び引き付けます。 [&#x200B; ユースケースを表示 &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart)
-* **再エンゲージメントキャンペーン**：ターゲットオファーを使用して、非アクティブな顧客を取り戻します。 [&#x200B; ユースケースを表示 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/use-cases/personalization-insights-engagement/use-cases-luma)
-* **誕生日キャンペーン**：特別オファーを含むパーソナライズされた誕生日メッセージの送信
-* **製品レコメンデーション**：閲覧および購入履歴に基づいて関連する製品を提案します
+* **ウェルカムシリーズ**：パーソナライズされた複数の手順を持つジャーニーで新規顧客をオンボーディングします。 [ ユースケースを表示 ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding)
+* **放棄された買い物かごの回復**：買い物かごにアイテムを残した顧客を再び引き付けます。 [ ユースケースを表示 ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart)
 * **イベント駆動型メッセージ**：顧客のアクションにリアルタイムで対応
+* **誕生日キャンペーン**：プロファイルの日付によってトリガーされるパーソナライズされた誕生日メッセージの送信
+* **製品レコメンデーション**：閲覧および購入履歴に基づいて関連する製品を提案します
+
+**キャンペーンのユースケースの調整** （バッチ、1 対多）:
+
+* **季節的なプロモーション**：顧客セグメントをまたいで調整されたキャンペーンを開始します（ホリデーセールス、新学期など）。
+* **製品ローンチ**：シーケンスメッセージを使用して、ターゲットオーディエンスに新しい製品を通知します
+* **ロイヤルティプログラムオファー**：購入履歴に基づいて階層型オファーを提供し、高価値顧客に報酬を与える
+* **アカウントベースドマーケティング**：特定の特性や関連する連絡先を持つ Target アカウント
+* **サブスクリプションの更新**：マルチエンティティクエリを使用して、間もなく期限切れになるサブスクリプションを持つ顧客にリーチする
+* **再エンゲージメントキャンペーン**：バッチモードでターゲットオファーを使用して、非アクティブな顧客を取り戻します。 [ ユースケースを表示 ](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/use-cases/personalization-insights-engagement/use-cases-luma)
 
 **ジャーニーパターン：**
 
-* [&#x200B; サブスクライバーへのメッセージの送信 &#x200B;](../../building-journeys/message-to-subscribers-uc.md)：パーソナライズされたコンテンツを含むターゲット購読リスト
-* [&#x200B; マルチチャネルメッセージ &#x200B;](../../building-journeys/journeys-uc.md)：メールとプッシュを反応イベントと組み合わせます
-* [&#x200B; 平日のみのメール &#x200B;](../../building-journeys/weekday-email-uc.md)：時間に基づく条件を使用して通信をスケジュールします
+* [ サブスクライバーへのメッセージの送信 ](../../building-journeys/message-to-subscribers-uc.md)：パーソナライズされたコンテンツを含むターゲット購読リスト
+* [ マルチチャネルメッセージ ](../../building-journeys/journeys-uc.md)：メールとプッシュを反応イベントと組み合わせます
+* [ 平日のみのメール ](../../building-journeys/weekday-email-uc.md)：時間に基づく条件を使用して通信をスケジュールします
 
-その他のパターンと実装については、完全な [&#x200B; ジャーニーユースケースライブラリ &#x200B;](../../building-journeys/jo-use-cases.md) を参照してください。
+完全な [ ジャーニーユースケースライブラリ ](../../building-journeys/jo-use-cases.md) と、[ オーケストレートキャンペーン ](../../orchestrated/gs-orchestrated-campaigns.md) の詳細をご覧ください。
 
 ## 他の役割との共同作業
 
 マーケティング作業は他のチームとつながっています。
 
-* **[&#x200B; データエンジニアとの連携](data-engineer.md)**：新しい計算属性のリクエスト、オーディエンスの品質に関するフィードバックの提供、データ要件の調整
-* **[&#x200B; デベロッパーとの連携](developer.md)**：イベントトリガーに合わせて、モバイル実装をテストし、トラッキングを検証します
-* **[&#x200B; 管理者との連携](administrator.md)**：チャネル設定をリクエストし、権限に関する問題を報告し、新機能のイネーブルメントについて調整します
+* **[ データエンジニアとの連携](data-engineer.md)**：新しい計算属性のリクエスト、調整されたキャンペーン用のリレーショナルスキーマの調整、オーディエンスの品質に関するフィードバックの提供、高度なセグメント化のためのマルチエンティティデータ要件の調整
+* **[ デベロッパーとの連携](developer.md)**：イベントトリガーに合わせて、モバイル実装をテストし、トラッキングを検証します
+* **[ 管理者との連携](administrator.md)**：チャネル設定のリクエスト、オーケストレーションされたキャンペーンのライセンスアクセスの確認、権限に関する問題の報告、新機能の有効化に関する調整をおこないます
 
 ## 最新情報を入手
 
@@ -142,7 +177,7 @@ Journey Optimizerの機能を示す実践的な例から学びます。
 
 * **[リリースノート](../../rn/release-notes.md)**：毎月リリースされる新機能、チャネル更新、機能強化を確認します
 * **[ドキュメントの更新](../../rn/documentation-updates.md)**：新しいユースケース、ベストプラクティス、機能ドキュメントなど、最近の変更を追跡します
-* **製品通知**:[Adobe Experience Cloud プロファイル &#x200B;](https://experience.adobe.com/preferences){target="_blank"} で通知を有効にすると、次の内容に関するアラートを受け取ることができます。
+* **製品通知**:[Adobe Experience Cloud プロファイル ](https://experience.adobe.com/preferences){target="_blank"} で通知を有効にすると、次の内容に関するアラートを受け取ることができます。
    * 利用可能な新しいチャネルと機能
    * 今後の機能のローンチとベータ版プログラム
    * ベストプラクティスとトレーニングの機会
@@ -154,5 +189,5 @@ Journey Optimizerの機能を示す実践的な例から学びます。
 
 1. **小規模から開始**：シンプルなウェルカムジャーニーまたは単一メッセージキャンペーンを作成して、プラットフォームを学習します
 2. **AI の活用**:AI アシスタントを使用して質問を行い、コンテンツ作成を高速化します
-3. **コミュニティに参加**:[Journey Optimizer コミュニティで他のExperience League ユーザーとつながる &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"}
-4. **チュートリアルを見る**: [Experience Leagueのステップバイステップのビデオをご覧ください &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=ja){target="_blank"}
+3. **コミュニティに参加**:[Journey Optimizer コミュニティで他のExperience League ユーザーとつながる ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}
+4. **チュートリアルを見る**: [Experience Leagueのステップバイステップのビデオをご覧ください ](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=ja){target="_blank"}
