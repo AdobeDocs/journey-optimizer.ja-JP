@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 hide: true
 hidefromtoc: true
 keywords: ジャーニー，オーケストレーション，はじめに，オンボーディング，機能
-source-git-commit: 856f35ebd70f38065e9b116bb648de1f2c2d439a
+source-git-commit: 4b14338cd2f152c95e87fa2a36f9c09f60b0806e
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 48%
+source-wordcount: '950'
+ht-degree: 45%
 
 ---
 
@@ -31,7 +31,7 @@ Journey Optimizer ジャーニーデザイナーには、マーケターやジ�
 
 ![パレット、キャンバス、プロパティパネルを含むジャーニーデザイナーインターフェイス](assets/journey38.png)
 
-**ビルドを開始する準備はできていますか？初** てのジャーニーを作成およびデザインする方法については、[&#x200B; このページ &#x200B;](journey-gs.md) を参照してください。
+**ビルドを開始する準備はできていますか？初** てのジャーニーを作成およびデザインする方法については、[ このページ ](journey-gs.md) を参照してください。
 
 ## ジャーニーの概要 {#section-getting-started}
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizerで journey orchestration をマスターするための�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **リアルタイムおよびバッチ配信**
 
@@ -80,7 +80,7 @@ Adobe Journey Optimizerで journey orchestration をマスターするための�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **コンテキストデータ**
 
@@ -90,7 +90,7 @@ Adobe Journey Optimizerで journey orchestration をマスターするための�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **ビルトインアクション**
 
@@ -100,7 +100,7 @@ Adobe Journey Optimizerで journey orchestration をマスターするための�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **カスタムアクション**
 
@@ -120,7 +120,7 @@ Adobe Journey Optimizerで journey orchestration をマスターするための�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **テストと最適化**
 
@@ -135,12 +135,12 @@ Adobe Journey Optimizerで journey orchestration をマスターするための�
 
 ジャーニーデザイナー内から、マーケターはイベントが発生した際に、任意のチャネルを通じてリアルタイムでトリガーされる 1:1 メッセージを送信できます。例えば、お客様がサービスを購読する際に、[ウェルカムメールがトリガー](message-to-subscribers-uc.md)され、初めてアプリにログインして環境設定を行うように促すことができます。購入の完了、メールの開封、アプリへのログインなどのアクションを使用して、新規顧客をジャーニーに進めることができます。
 
-### 一般的なジャーニーのユースケース
+[ジャーニー designer](using-the-journey-designer.md) には、メール、プッシュ通知、SMS／MMS などのアウトバウンドメッセージと、モバイルアプリ、web サイト、Journey Optimizer 内で直接作成されたコードベースのエクスペリエンスなどのインバウンドチャネルをサポートする[組み込みのチャネルアクション](journeys-message.md)が用意されています。また、サードパーティ製システムを使用してメッセージを送信することもできます。Journey Optimizerには [ カスタムアクション ](using-custom-actions.md) が含まれており、これらのシステムをジャーニーデザイナーから直接ジャーニーに統合できます。
 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **新規購読者へようこそ**
 
@@ -150,7 +150,7 @@ Adobe Journey Optimizerで journey orchestration をマスターするための�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **メール送信時間の最適化**
 
@@ -160,7 +160,7 @@ AI を活用した送信時間最適化を使用して、各顧客が最も関�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **配信を増やす**
 
@@ -170,7 +170,7 @@ AI を活用した送信時間最適化を使用して、各顧客が最も関�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **平日の目標**
 
@@ -179,13 +179,27 @@ AI を活用した送信時間最適化を使用して、各顧客が最も関�
 [詳細情報](weekday-email-uc.md)
 :::
 
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+
+**ユースケースを通じて学ぶ**
+
+実際の実装とベストプラクティスを示す、包括的なエンドツーエンドジャーニーのユースケースについて説明します。
+
+[すべてのユースケースを確認](jo-use-cases.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
+
+**ジャーニーに関する FAQ**
+
+ジャーニーの作成、トラブルシューティング、ベストプラクティスに関するよくある質問への回答を示します。
+
+[よくある質問を見る](journey-faq.md)
+:::
+
 ::::
-
-### その他のユースケース
-
-[ジャーニー designer](using-the-journey-designer.md) には、メール、プッシュ通知、SMS／MMS などのアウトバウンドメッセージと、モバイルアプリ、web サイト、Journey Optimizer 内で直接作成されたコードベースのエクスペリエンスなどのインバウンドチャネルをサポートする[組み込みのチャネルアクション](journeys-message.md)が用意されています。また、サードパーティ製システムを使用してメッセージを送信することもできます。Journey Optimizerには [&#x200B; カスタムアクション &#x200B;](using-custom-actions.md) が含まれており、これらのシステムをジャーニーデザイナーから直接ジャーニーに統合できます。
-
-**このページ** で [&#x200B; すべてのジャーニーのユースケースを確認 &#x200B;](jo-use-cases.md) し、実装できるエンドツーエンドのシナリオを見つけます。
 
 >[!NOTE]
 >
@@ -193,28 +207,20 @@ AI を活用した送信時間最適化を使用して、各顧客が最も関�
 
 ## 学習リソース {#learning-resources}
 
-### ビデオチュートリアル {#video}
-
-ジャーニーのコンポーネントを把握し、キャンバスでのジャーニー構築の基本を理解します。
-
->[!VIDEO](https://video.tv.adobe.com/v/3430350?captions=jpn&quality=12)
-
-### トピック別に探索
-
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 **ジャーニーの作成と管理**
 
 パーソナライズされたオムニチャネルキャンペーンを構築するためのカスタマージャーニーをデザイン、テスト、公開および追跡する手順について説明します。
 
-[&#x200B; ジャーニー作成の詳細 &#x200B;](/help/rp_landing_pages/create-journey-landing-page.md) | [&#x200B; ジャーニー管理について学ぶ &#x200B;](/help/rp_landing_pages/manage-journey-landing-page.md)
+[ ジャーニー作成の詳細 ](/help/rp_landing_pages/create-journey-landing-page.md) | [ ジャーニー管理について学ぶ ](/help/rp_landing_pages/manage-journey-landing-page.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **ジャーニーアクティビティ**
 
@@ -224,7 +230,7 @@ AI を活用した送信時間最適化を使用して、各顧客が最も関�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **式と条件**
 
@@ -234,7 +240,7 @@ AI を活用した送信時間最適化を使用して、各顧客が最も関�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 **トラブルシューティングと監視**
 
@@ -243,13 +249,38 @@ AI を活用した送信時間最適化を使用して、各顧客が最も関�
 [トラブルシューティングガイド](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
 :::
 
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+
+**ジャーニーデザイナーの概要**
+
+ジャーニーキャンバス、パレット、ビジュアルインターフェイスを使用してカスタマージャーニーを設計する方法を説明します。
+
+[デザイナーについて](using-the-journey-designer.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+
+**テストして公開**
+
+ジャーニーを公開する前に十分にテストし、ジャーニーが期待どおりに動作し、適切なエクスペリエンスを提供することを確認します。
+
+[テストガイド](testing-the-journey.md)
+:::
+
 ::::
+
+### ビデオチュートリアル {#video}
+
+ジャーニーのコンポーネントを把握し、キャンバスでのジャーニー構築の基本を理解します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ### その他のリソース
 
-* **[ジャーニーに関する FAQ](journey-faq.md)** - ジャーニーに関するよくある質問
 * **[エラーコードの参照](error-codes-reference.md)** - ジャーニーエラーコードとトラブルシューティング手順
 * **[アラート](../reports/alerts.md)** - ジャーニー監視に関するアラートの設定
 * **[トラブルシューティング](troubleshooting.md)** - ジャーニーに関する一般的な問題と解決策
-* **[ジャーニーチュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}** – 実践ビデオチュートリアルを通じてジャーニーの構築を学びます。
+* **[ジャーニーチュートリアル ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}** – 実践ビデオチュートリアルを通じてジャーニーの構築を学びます。
 
