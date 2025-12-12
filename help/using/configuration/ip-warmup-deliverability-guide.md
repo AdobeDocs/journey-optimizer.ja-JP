@@ -149,7 +149,7 @@ Adobe Journey Optimizerでの IP ウォームアップの配信品質の基本�
 <!--
 >[!NOTE]
 >
->For more guidance, explore the [Adobe Journey Optimizer Deliverability Guide blog post](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950).-->
+>For more guidance, explore the [Adobe Journey Optimizer Deliverability Guide blog post](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950?profile.language=ja).-->
 
 ## 関連トピック {#related-topics}
 
