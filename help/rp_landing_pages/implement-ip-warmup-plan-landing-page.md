@@ -5,10 +5,10 @@ title: IP ウォームアッププランの実装
 description: IP ウォームアッププランの実装
 redpen-status: CREATED_||_2025-08-11_21-08-31
 exl-id: 6f34e9c9-05ae-4a9c-b099-9a7ddf68a412
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: b1b9b34aec305d6690d93e68238aed852ef689b7
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 100%
+source-wordcount: '249'
+ht-degree: 92%
 
 ---
 
@@ -20,7 +20,17 @@ Adobe Journey Optimizer で IP ウォームアッププランを実装すると�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg)
+
+IP ウォームアップ配信品質ガイド
+
+IP ウォームアップジャーニーを開始する前に、配信品質の基本、評判の構築、ベストプラクティスについて理解します。
+
+[ガイドを読む](../using/configuration/ip-warmup-deliverability-guide.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 IP ウォームアッププランの基本を学ぶ
 
@@ -30,7 +40,7 @@ Adobe Journey Optimizer でメールの配信品質を向上させる IP ウォ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 IP ウォームアップキャンペーンの作成
 
@@ -40,7 +50,7 @@ IP ウォームアッププランのキャンペーンをデザインしてア�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 IP ウォームアッププランの作成および管理方法
 
@@ -50,7 +60,7 @@ IP ウォームアッププランの作成および管理方法
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 IP ウォームアッププランの実行と管理
 

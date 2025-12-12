@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: IP、配信品質
 exl-id: 393f051d-b86d-4b4f-b564-7a9ae3a5d4b8
-source-git-commit: fd9ae1f554357a0379e4c93b91f1d475c99d8ac3
+source-git-commit: b1b9b34aec305d6690d93e68238aed852ef689b7
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 72%
+source-wordcount: '367'
+ht-degree: 63%
 
 ---
 
@@ -22,7 +22,11 @@ ht-degree: 72%
 
 IP ウォームアッププラン機能を使用すると、送信量を徐々に増やすことができ、スパムとしてマークされないようにできます。**[!UICONTROL 管理]**&#x200B;メニュー内のこの新しいオプションを使用すると、複雑な毎日のジャーニーを作成するのではなく、統合された方法でより簡単に実行できます。
 
-➡️ [&#x200B; このビデオで IP ウォームアッププランを作成して実行する方法を説明します &#x200B;](#video)
+>[!NOTE]
+>
+>IP ウォームアッププランを実装する前に、この [IP ウォームアップ配信品質ガイド ](ip-warmup-deliverability-guide.md) で、配信品質の基礎、評判の構築、ベストプラクティスについて学びます。
+
+➡️ [ このビデオで IP ウォームアッププランを作成して実行する方法を説明します ](#video)
 
 >[!AVAILABILITY]
 >
@@ -52,7 +56,7 @@ IP ウォームアッププランを実装するための主な手順を以下�
 
 IP ウォームアッププランの作成および実行方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3453841/?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3432637/?learn=on)
 
 >[!NOTE]
 >
@@ -62,8 +66,10 @@ IP ウォームアッププランの作成および実行方法について説�
 
 IP ウォームアップに関する詳細なガイダンスについては、次の役立つブログ投稿を参照してください。
 
-* [IP ウォームアップの設定方法について &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warmup-understanding-how-to-set-up-the-ip-warmup/ba-p/761949?profile.language=ja) - IP ウォームアッププランの設定の基本と、実装を成功させるためのベストプラクティスについて説明します。
+* [Adobe Journey Optimizer配信品質ガイド：評価ゼロからインボックスヒーローまで ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950) – 評価の基礎、ウォームアップカレンダー、監視、トラブルシューティングのベストプラクティスを含む包括的なガイドです。
 
-* [IP ウォームアッププランの高度な機能 &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-features-in-ajo-ip-warm-up-plans-granular-controls-for/ba-p/761958?profile.language=ja) - IP ウォームアップ戦略を最適化するための高度な機能と詳細な制御を見つけます。
+* [IP ウォームアップの設定方法について ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warmup-understanding-how-to-set-up-the-ip-warmup/ba-p/761949) - IP ウォームアッププランの設定の基本と、実装を成功させるためのベストプラクティスについて説明します。
 
-* [IP ウォームアップトラブルシューティング &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warm-up-troubleshooting-audience-delays-and-smart-retry/ba-p/761952?profile.language=ja) - オーディエンスの遅延などの一般的な問題の解決策と、スマート再試行メカニズムについて説明します。
+* [IP ウォームアッププランの高度な機能 ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-features-in-ajo-ip-warm-up-plans-granular-controls-for/ba-p/761958) - IP ウォームアップ戦略を最適化するための高度な機能と詳細な制御を見つけます。
+
+* [IP ウォームアップトラブルシューティング ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warm-up-troubleshooting-audience-delays-and-smart-retry/ba-p/761952) - オーディエンスの遅延などの一般的な問題の解決策と、スマート再試行メカニズムについて説明します。
