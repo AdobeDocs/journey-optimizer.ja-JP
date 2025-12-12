@@ -165,7 +165,7 @@ Journey Optimizerを正常に実装するには、次のようなすべての役
 
 Journey Optimizer の主な機能とペルソナについて詳しくは、紹介ビデオをご覧ください。このビデオでは、ユーザーインターフェイスを順を追って説明し、役割固有のワークフローに基づいて主な機能を重点的に説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430316?captions=jpn&quality=12)
 
 ## その他のリソース
 
