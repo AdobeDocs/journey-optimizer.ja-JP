@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: ランディング, ランディングページ, リスト, 購読, サービス
 exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
-source-git-commit: 1aa2ac109cdbf0ba6af58204926f1cd5add334b0
+source-git-commit: c18f6f450bdc37f7ffbe87befb8601a920e46171
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 100%
+source-wordcount: '721'
+ht-degree: 93%
 
 ---
 
@@ -37,6 +37,10 @@ ht-degree: 100%
 プロファイルは、[ランディングページ](create-lp.md)から購読リストに追加できます。例については、[この節](lp-use-cases.md#subscription-to-a-service)で示します。
 
 ## サブスクリプションリストの作成 {#define-subscription-list}
+
+>[!NOTE]
+>
+>サブスクリプションリストを作成すると、関連するストリーミングセグメントがAdobe Experience Platformで自動的に生成されます。 ストリーミングセグメントを正常に作成するには、結合ポリシーで「**Edgeでアクティブ**」オプションが有効になっている必要があります。 ストリーミングセグメントの実施要件条件について詳しくは、[Adobe Experience Platform ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/methods/streaming-segmentation) を参照してください。
 
 購読リストを作成するには、次の手順に従います。
 
