@@ -8,10 +8,10 @@ role: Admin, Developer, User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
-source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
+source-git-commit: d3765f66beff13aaf77cd585c5da5f93c44fa1df
 workflow-type: tm+mt
-source-wordcount: '1570'
-ht-degree: 14%
+source-wordcount: '1724'
+ht-degree: 13%
 
 ---
 
@@ -159,16 +159,47 @@ Journey Optimizerをアプリケーションに接続する技術統合を実装
 
 **開始：** モバイルまたは web SDKを統合してから、最初のイベントを実装してジャーニーをトリガーします。
 
-[&#x200B; 開発者→ーザー向けの基本を学ぶ &#x200B;](path/developer.md)
+[ 開発者→ーザー向けの基本を学ぶ ](path/developer.md)
 
 ## Cross-Role Collaboration
 
-Journey Optimizerを正常に実装するには、次のようなすべての役割でのコラボレーションが必要です。
+Journey Optimizerを正常に実装するには、すべての役割にわたるコラボレーションが必要です。 各役割は他の役割と連携してシームレスな顧客体験を提供します。
 
-* **管理者** サンドボックス、権限、チャネル設定を設定して、他の役割を有効にします
-* **データエンジニア** は、開発者とマーケターが構築するデータ基盤を提供します
-* **開発者** マーケターがジャーニーの開発に使用する技術的トリガーを実装します
-* **マーケター** データ品質、機能リクエスト、ユーザーエクスペリエンスに関するフィードバックをすべてのチームに提供します
+>[!BEGINTABS]
+
+>[!TAB 管理者]
+
+**管理者** アクセスと設定を管理して、すべてのチームを有効にします。 次の機能を使用します。
+
+* **データエンジニア**：データ管理の権限の付与、サンドボックスアクセスの承認、ガバナンスポリシーの調整
+* **開発者**:API 資格情報を提供し、テスト環境を設定し、チャネル設定を承認します
+* **マーケター**：ジャーニー/キャンペーンの権限の割り当て、チャネルの設定、テスト環境のサポート
+
+>[!TAB  データエンジニア ]
+
+**データエンジニア** は、すべてのユーザーにデータ基盤を提供します。 次の機能を使用します。
+
+* **管理者**：データ管理の権限をリクエストし、ガバナンスポリシーと保持ポリシーについて調整します
+* **開発者**:XDM スキーマとイベント構造の提供、イベントのペイロード形式の定義、データ取り込みのテスト
+* **マーケター**：パーソナライゼーションの計算済み属性の作成、オーディエンスの作成、リレーショナルスキーマの設定
+
+>[!TAB 開発者]
+
+**開発者** ジャーニーを強化する技術統合を実装します。 次の機能を使用します。
+
+* **データエンジニア**:XDM スキーマとイベント構造を取得し、データ収集要件に合わせて、イベント配信をテストします
+* **管理者**:API の仕様、リクエスト権限および資格情報を提供し、テスト戦略について調整します。
+* **マーケター**：イベントトリガーの把握、トラッキングの実装、ジャーニーテストのサポート、問題のトラブルシューティング
+
+>[!TAB マーケター]
+
+**マーケター** 顧客体験を設計し、フィードバックを提供します。 次の機能を使用します。
+
+* **データエンジニア**：計算済み属性のリクエスト、オーディエンス要件の調整、データ品質に関するフィードバックの提供
+* **開発者**：イベントトリガー、テスト実装に基づいて連携し、トラッキングを検証します
+* **管理者**：チャネル設定のリクエスト、機能アクセスの確認、イネーブルメント時の調整
+
+>[!ENDTABS]
 
 **ベストプラクティス：** 部門横断的な定期的なミーティングを開催して、優先度に合わせて調整し、進捗を共有し、チーム間でブロッカーに対処します。
 
@@ -176,26 +207,30 @@ Journey Optimizerを正常に実装するには、次のようなすべての役
 
 Journey Optimizer の主な機能とペルソナについて詳しくは、紹介ビデオをご覧ください。このビデオでは、ユーザーインターフェイスを順を追って説明し、役割固有のワークフローに基づいて主な機能を重点的に説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430316?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 ## その他のリソース
 
 学習内容と更新情報について詳しくは、以下のリソースを参照してください。
 
-**ラーニングとドキュメント：**
+>[!BEGINTABS]
 
-* [&#x200B; チュートリアルビデオ &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=ja){target="_blank"} – すべての役割に対応するステップバイステップのビデオチュートリアル
-* [ジャーニーユースケースライブラリ &#x200B;](../building-journeys/jo-use-cases.md) – 実用的な例と実装パターン
-* [AI とインテリジェント機能 &#x200B;](ai-features.md) - AI アシスタント、送信時間の最適化、コンテンツ生成について説明します
-* [&#x200B; ユーザーインターフェイスガイド &#x200B;](user-interface.md) - Journey Optimizerの効果的な操作
+>[!TAB  ラーニングとドキュメント ]
 
-**最新情報を入手：**
+* [ チュートリアルビデオ ](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=ja){target="_blank"} – すべての役割に対応するステップバイステップのビデオチュートリアル
+* [ジャーニーユースケースライブラリ ](../building-journeys/jo-use-cases.md) – 実用的な例と実装パターン
+* [AI とインテリジェント機能 ](ai-features.md) - AI アシスタント、送信時間の最適化、コンテンツ生成について説明します
+* [ ユーザーインターフェイスガイド ](user-interface.md) - Journey Optimizerの効果的な操作
 
-* [&#x200B; リリースノート &#x200B;](../rn/release-notes.md) – 最新の機能、改善点および修正点
-* [&#x200B; ドキュメントの更新 &#x200B;](../rn/documentation-updates.md) – 最近のドキュメントの変更を追跡します
-* [&#x200B; 製品通知 &#x200B;](../rn/releases.md#staying-informed) - Journey Optimizer アップデートのメールアラートおよび製品内アラートを購読する方法について説明します
+>[!TAB  最新情報を入手 ]
 
-**コミュニティとサポート：**
+* [ リリースノート ](../rn/release-notes.md) – 最新の機能、改善点および修正点
+* [ ドキュメントの更新 ](../rn/documentation-updates.md) – 最近のドキュメントの変更を追跡します
+* [ 製品通知 ](../rn/releases.md#staying-informed) - Journey Optimizer アップデートのメールアラートおよび製品内アラートを購読する方法について説明します
 
-* [Experience League コミュニティ &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"} – 他のユーザーやエキスパートとつながる
-* [&#x200B; 製品フォーラム &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"} – 質問をしたり、知識を共有したりします
+>[!TAB  コミュニティとサポート ]
+
+* [Experience League コミュニティ ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} – 他のユーザーやエキスパートとつながる
+* [ 製品フォーラム ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} – 質問をしたり、知識を共有したりします
+
+>[!ENDTABS]
