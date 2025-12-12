@@ -8,23 +8,25 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: d6db3514a459e37d7c598efc82ffe0985ce72c41
+source-git-commit: 5ff7987c00afda3263cb97654967c5b698f726c2
 workflow-type: tm+mt
-source-wordcount: '2734'
-ht-degree: 95%
+source-wordcount: '2747'
+ht-degree: 92%
 
 ---
 
 # クエリの例{#query-examples}
 
-この節では、データレイクのジャーニーステップイベントに関するクエリを実行する際によく使用される例をいくつか示します。
+この節では、データレイクのジャーニーステップイベントに関するクエリを実行する際によく使用される例を示します。 具体的なユースケースに立ち入る前に、ジャーニーイベントデータで使用される主要識別子を理解しておくことが重要です。
 
 クエリで使用するフィールドに、対応するスキーマに関連する値があることを確認します。
 
-+++ID、instanceID、profileID の違いとは
+## キー識別子について {#key-identifiers}
+
++++ID、instanceID、profileID の違いは何ですか。
 
 * ID：すべてのステップイベントエントリに対して一意です。2 つの異なるステップイベントに同じ ID を割り当てることはできません。
-* instanceID：instanceID は、ジャーニー実行内のプロファイルに関連付けられるすべてのステップイベントで同一です。プロファイルがジャーニーに再度入ると、別の instanceID が使用されます。この新しい instanceID は、再入力されたインスタンスのすべてのステップイベント（開始から終了まで）で同じになります。
+* instanceID:instanceID は、ジャーニー実行内のプロファイルに関連付けられるすべてのステップイベントで同じです。 プロファイルがジャーニーに再度入ると、別の instanceID が使用されます。 この新しい instanceID は、再入力されたインスタンスのすべてのステップイベント（開始から終了まで）で同じになります。
 * profileID：ジャーニー名前空間に対応したプロファイルの ID です。
 
 >[!NOTE]
@@ -124,7 +126,6 @@ WHERE
     _experience.journeyOrchestration.stepEvents.instanceID = 'unitary_089dc93a-1970-4875-9660-22433b18e500';
 ```
 
-![&#x200B; 破棄されたプロファイルの詳細を示すクエリ結果の例 &#x200B;](assets/query-discarded-profiles.png)
 
 クエリ結果には、プロファイル破棄の理由を特定するのに役立つ次のキーフィールドが表示されます。
 
@@ -1068,7 +1069,7 @@ _データレイクのクエリ_
 SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp) FROM journey_step_events
 where
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventID = '<eventId>' AND
-_experience.journeyOrchestration.profile.ID = '<profileId>' AND
+_experience.journeyOrchestration.profile.ID = '<profileID>' AND
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
 ```
