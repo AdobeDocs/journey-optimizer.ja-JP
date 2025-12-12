@@ -8,9 +8,9 @@ role: Admin, Developer, User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
-source-git-commit: 344a5509731b455ee283af22bfdd8c67e028b83e
+source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
 workflow-type: tm+mt
-source-wordcount: '1585'
+source-wordcount: '1570'
 ht-degree: 14%
 
 ---
@@ -159,7 +159,7 @@ Journey Optimizerをアプリケーションに接続する技術統合を実装
 
 **開始：** モバイルまたは web SDKを統合してから、最初のイベントを実装してジャーニーをトリガーします。
 
-[&#x200B; 開発者→ーザー向けの基本を学ぶ &#x200B;](path/developer.md)
+[ 開発者→ーザー向けの基本を学ぶ ](path/developer.md)
 
 ## Cross-Role Collaboration
 
@@ -176,7 +176,7 @@ Journey Optimizerを正常に実装するには、次のようなすべての役
 
 Journey Optimizer の主な機能とペルソナについて詳しくは、紹介ビデオをご覧ください。このビデオでは、ユーザーインターフェイスを順を追って説明し、役割固有のワークフローに基づいて主な機能を重点的に説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430316?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 ## その他のリソース
 
@@ -184,18 +184,18 @@ Journey Optimizer の主な機能とペルソナについて詳しくは、紹�
 
 **ラーニングとドキュメント：**
 
-* [&#x200B; チュートリアルビデオ &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=ja){target="_blank"} – すべての役割に対応するステップバイステップのビデオチュートリアル
-* [ジャーニーユースケースライブラリ &#x200B;](../building-journeys/jo-use-cases.md) – 実用的な例と実装パターン
-* [AI とインテリジェント機能 &#x200B;](ai-features.md) - AI アシスタント、送信時間の最適化、コンテンツ生成について説明します
-* [&#x200B; ユーザーインターフェイスガイド &#x200B;](user-interface.md) - Journey Optimizerの効果的な操作
+* [ チュートリアルビデオ ](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=ja){target="_blank"} – すべての役割に対応するステップバイステップのビデオチュートリアル
+* [ジャーニーユースケースライブラリ ](../building-journeys/jo-use-cases.md) – 実用的な例と実装パターン
+* [AI とインテリジェント機能 ](ai-features.md) - AI アシスタント、送信時間の最適化、コンテンツ生成について説明します
+* [ ユーザーインターフェイスガイド ](user-interface.md) - Journey Optimizerの効果的な操作
 
 **最新情報を入手：**
 
-* [&#x200B; リリースノート &#x200B;](../rn/release-notes.md) – 最新の機能、改善点および修正点
-* [&#x200B; ドキュメントの更新 &#x200B;](../rn/documentation-updates.md) – 最近のドキュメントの変更を追跡します
-* **Product Notifications** - [Adobe Experience Cloud プロファイル &#x200B;](https://experience.adobe.com/preferences){target="_blank"} でアラートを有効にして、新しいリリース、メンテナンスウィンドウ、重要なお知らせに関する通知を受け取ります。 プロファイルアイコン /環境設定/通知をクリックして、設定します。
+* [ リリースノート ](../rn/release-notes.md) – 最新の機能、改善点および修正点
+* [ ドキュメントの更新 ](../rn/documentation-updates.md) – 最近のドキュメントの変更を追跡します
+* [ 製品通知 ](../rn/releases.md#staying-informed) - Journey Optimizer アップデートのメールアラートおよび製品内アラートを購読する方法について説明します
 
 **コミュニティとサポート：**
 
-* [Experience League コミュニティ &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"} – 他のユーザーやエキスパートとつながる
-* [&#x200B; 製品フォーラム &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"} – 質問をしたり、知識を共有したりします
+* [Experience League コミュニティ ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} – 他のユーザーやエキスパートとつながる
+* [ 製品フォーラム ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} – 質問をしたり、知識を共有したりします

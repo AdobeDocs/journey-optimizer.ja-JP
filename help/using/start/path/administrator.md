@@ -7,16 +7,16 @@ feature: Get Started
 role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 344a5509731b455ee283af22bfdd8c67e028b83e
+source-git-commit: ed3246d0bd552fee9c4df01babe18a5c1acd3b5f
 workflow-type: tm+mt
-source-wordcount: '1012'
-ht-degree: 48%
+source-wordcount: '971'
+ht-degree: 50%
 
 ---
 
 # システム管理者向けの基礎知識 {#get-started-sys-admins}
 
-**システム管理者** は、Journey Optimizer環境を設定し、アクセスを管理して、チームが効率的かつ安全に作業できるようにします。 [&#x200B; データエンジニア &#x200B;](data-engineer.md)、[&#x200B; 開発者 &#x200B;](developer.md)、[&#x200B; マーケター &#x200B;](marketer.md) が [!DNL Adobe Journey Optimizer] の使用を開始できるように、重要な設定手順を実行します。
+**システム管理者** は、Journey Optimizer環境を設定し、アクセスを管理して、チームが効率的かつ安全に作業できるようにします。 [ データエンジニア ](data-engineer.md)、[ 開発者 ](developer.md)、[ マーケター ](marketer.md) が [!DNL Adobe Journey Optimizer] の使用を開始できるように、重要な設定手順を実行します。
 
 主な役割には、ユーザーグループと権限の設定、異なるユーザーグループのデータとジャーニーを分割するためのサンドボックスの作成と管理、Journey Optimizerを介して配信される様々なメッセージとアセットに対して一貫したブランディングを確保するための配信チャネルとメッセージプリセットの設定などがあります。 セキュリティとガバナンスを維持しながら、適切なユーザーが適切な機能にアクセスできるようにします。
 
@@ -35,7 +35,7 @@ ht-degree: 48%
 
 1. **サンドボックス**&#x200B;を含む役割の&#x200B;**権限を設定**&#x200B;し、チームメンバーに様々な役割を割り当てることでアクセス権を付与します。権限は、**[!UICONTROL 役割]**&#x200B;に割り当てる許可を定義できるようにするための単一の権利です。各権限は、機能群（[!DNL Journey Optimizer] のさまざまな機能やオブジェクトに相当するジャーニー、オファーなど）の下に集められています。詳しくは、[権限レベル](../../administration/high-low-permissions.md)の節を参照してください。
 
-1. **オブジェクトレベルのアクセス制御を使用する** （オプション）。 ジャーニー、キャンペーン、チャネル設定などのオブジェクトにアクセスラベルを適用して、特定のリソースにアクセスできるユーザーを制御します。 詳細情報 [&#x200B; オブジェクトレベルのアクセス制御（OLAC） &#x200B;](../../administration/object-based-access.md)。
+1. **オブジェクトレベルのアクセス制御を使用する** （オプション）。 ジャーニー、キャンペーン、チャネル設定などのオブジェクトにアクセスラベルを適用して、特定のリソースにアクセスできるユーザーを制御します。 詳細情報 [ オブジェクトレベルのアクセス制御（OLAC） ](../../administration/object-based-access.md)。
 
 さらに、Assets Essentials にアクセスする必要のあるユーザーを **Assets Essentials コンシューマーユーザー**&#x200B;または／および **Assets Essentialsユーザー**&#x200B;の役割に追加する必要があります。[詳しくは、Assets Essentials ドキュメントを参照してください](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=ja){target="_blank"}。
 
@@ -43,7 +43,7 @@ ht-degree: 48%
 
 ## チャネルとメッセージの設定
 
-[&#x200B; マーケター &#x200B;](marketer.md) がメッセージを作成および送信できるようにするには、**管理** メニューにアクセスします。 **[!UICONTROL チャネル]** メニューを参照して、チャネル設定を指定します。
+[ マーケター ](marketer.md) がメッセージを作成および送信できるようにするには、**管理** メニューにアクセスします。 **[!UICONTROL チャネル]** メニューを参照して、チャネル設定を指定します。
 
 >[!NOTE]
 >**システム管理者**&#x200B;として、[!DNL Journey Optimizer] に&#x200B;**[!UICONTROL チャネル]**&#x200B;メニューが表示されない場合は、[権限](../../administration/permissions.md){target="_blank"}製品で権限を更新してください。
@@ -92,11 +92,11 @@ ht-degree: 48%
 
 管理作業により、すべてのチームが成功します。
 
-* **サポート [&#x200B; データエンジニア](data-engineer.md)**：データ管理の権限の付与、サンドボックスアクセスの承認、データ保持ポリシーの調整
+* **サポート [ データエンジニア](data-engineer.md)**：データ管理の権限の付与、サンドボックスアクセスの承認、データ保持ポリシーの調整
 
 * **[Developers](developer.md)** を有効にする：API 資格情報を入力し、テスト用にサンドボックス環境を設定して、チャネル設定を承認します。
 
-* **権限 [&#x200B; マーケター](marketer.md)**：ジャーニーとキャンペーンを作成し、使用するチャネルを設定し、テスト環境をサポートする適切な権限を割り当てます
+* **権限 [ マーケター](marketer.md)**：ジャーニーとキャンペーンを作成し、使用するチャネルを設定し、テスト環境をサポートする適切な権限を割り当てます
 
 ## 最新情報を入手
 
@@ -104,14 +104,7 @@ Journey Optimizer プラットフォームの最新のアップデートと管�
 
 * **[リリースノート](../../rn/release-notes.md)**：毎月リリースされる新機能、プラットフォーム更新、セキュリティパッチ、設定の変更を確認する
 * **[ドキュメントの更新](../../rn/documentation-updates.md)**：設定ガイド、権限の更新、新しい管理機能に対する最近の変更を追跡します
-* **製品通知**:[Adobe Experience Cloud プロファイル &#x200B;](https://experience.adobe.com/preferences){target="_blank"} で通知を有効にして、次の重要なアラートを受信できるようにします。
-   * システムメンテナンスウィンドウと予定されたダウンタイム
-   * セキュリティアップデートとパッチ
-   * 新しい管理機能と権限の変更
-   * ライセンスと使用権限の更新
-   * 製品に関する重要なお知らせ
-
-  通知を有効にするには、Adobe Experience Cloudの右上にあるプロファイルアイコンをクリックして、**環境設定/通知** に移動し、Journey Optimizer通知の環境設定を指定します。 管理者は、重要なシステム通知をすべて有効にする必要があります。
+* **[製品通知](../../rn/releases.md#staying-informed)**：システムメンテナンス、セキュリティアップデート、重要な製品のお知らせなど、Journey Optimizerのアップデートに関するメールおよび製品内アラートを購読する方法について説明します。 管理者は、重要なシステム通知をすべて有効にする必要があります
 
 ## 次の手順
 
