@@ -145,7 +145,7 @@ Adobe Journey Optimizerには、IP ウォームアップパフォーマンスを
 
 Adobe Journey Optimizerでの IP ウォームアップの配信品質の基本事項、レピュテーションの構築、ベストプラクティスについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3457695/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3463783/?captions=jpn&learn=on)
 
 <!--
 >[!NOTE]
