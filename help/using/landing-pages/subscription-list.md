@@ -40,7 +40,7 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->サブスクリプションリストを作成すると、関連するストリーミングセグメントがAdobe Experience Platformで自動的に生成されます。 ストリーミングセグメントを正常に作成するには、結合ポリシーで「**Edgeでアクティブ**」オプションが有効になっている必要があります。 ストリーミングセグメントの実施要件条件について詳しくは、[Adobe Experience Platform ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/methods/streaming-segmentation) を参照してください。
+>サブスクリプションリストを作成すると、関連するストリーミングセグメントがAdobe Experience Platformで自動的に生成されます。 ストリーミングセグメントを正常に作成するには、結合ポリシーで「**Edgeでアクティブ**」オプションが有効になっている必要があります。 ストリーミングセグメントの実施要件条件について詳しくは、[Adobe Experience Platform ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/methods/streaming-segmentation) を参照してください。
 
 購読リストを作成するには、次の手順に従います。
 
