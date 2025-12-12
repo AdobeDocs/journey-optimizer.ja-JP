@@ -19,7 +19,7 @@ ht-degree: 6%
 
 Adobe Journey Optimizerで新しい IP アドレスまたはドメインを使用したメールキャンペーンを開始する場合、配信品質の基本事項を理解することは、送信者の強力なレピュテーションを構築するために重要です。 このガイドでは、評判ゼロから成功するインボックスの配置への移行に役立つ、重要な概念、準備手順およびベストプラクティスについて説明します。
 
-➡️ この [Adobeのブログ投稿 &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950){target="_blank"} のビデオでは、配信品質の基本事項、評判の構築、IP ウォームアップのベストプラクティスについて説明します。
+➡️ この [Adobeのブログ投稿 &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950?profile.language=ja){target="_blank"} のビデオでは、配信品質の基本事項、評判の構築、IP ウォームアップのベストプラクティスについて説明します。
 
 >[!NOTE]
 >
@@ -135,7 +135,7 @@ Adobe Journey Optimizerには、IP ウォームアップパフォーマンスを
 <!--
 >[!NOTE]
 >
->For more guidance, explore the [Adobe Journey Optimizer Deliverability Guide blog post](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950).-->
+>For more guidance, explore the [Adobe Journey Optimizer Deliverability Guide blog post](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950?profile.language=ja).-->
 
 ## 関連トピック {#related-topics}
 
