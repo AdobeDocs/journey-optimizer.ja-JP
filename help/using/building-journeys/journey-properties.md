@@ -10,10 +10,10 @@ level: Intermediate
 keywords: ジャーニー、設定、プロパティ
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: b0b297ed33ab273a3201569760e1d2db5b3ccaad
+source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
 workflow-type: tm+mt
 source-wordcount: '2849'
-ht-degree: 97%
+ht-degree: 95%
 
 ---
 
@@ -252,7 +252,7 @@ Adobe Journey Optimizer は、Adobe Experience Platform からプロファイル
 * 単一イベントジャーニーの場合：デフォルトの結合ポリシーが使用されます
 * ビジネスイベントジャーニーの場合：次の「オーディエンスを読み取り」アクティビティのターゲットオーディエンスからの結合ポリシーが使用されます
 
-Adobe Journey Optimizer は、ジャーニー全体を通じて使用される結合ポリシーを適用します。したがって、1 つのジャーニーで複数のオーディエンスが使用されている場合（例：[`inAudience` 関数](functions/functioninaudience.md)内での使用）、これにより、ジャーニーで使用される結合ポリシーとの不一致が生じると、エラーが発生して、公開がブロックされます。ただし、メッセージのパーソナライゼーションで一貫性のないオーディエンスが使用されると、一貫性がないにもかかわらず、アラートは発生しません。このため、このオーディエンスをメッセージのパーソナライゼーションに使用する場合は、オーディエンスに関連付けられた結合ポリシーを確認することを強くお勧めします。
+Adobe Journey Optimizer は、ジャーニー全体を通じて使用される結合ポリシーを適用します。したがって、1 つのジャーニーで複数のオーディエンスが使用されている場合（例：[`inAudience` 関数](functions/functioninaudience.md)内での使用）、これにより、ジャーニーで使用される結合ポリシーとの不一致が生じると、エラーが発生して、公開がブロックされます。ただし、一貫性のないオーディエンスがメッセージのパーソナライゼーションで使用された場合は、一貫性がないにもかかわらず、アラートは発生しません。 そのため、このオーディエンスをメッセージのパーソナライゼーションに使用する場合は、オーディエンスに関連付けられている結合ポリシーを確認することを強くお勧めします。
 
 結合ポリシーについて詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/merge-policies/overview){target="_blank"}を参照してください。
 
@@ -275,7 +275,7 @@ Adobe Journey Optimizer は、ジャーニー全体を通じて使用される�
 
 >[!TIP]
 >
->実際の事例を使った実践的なガイダンスをお探しですか？ エントリと離脱の設定、ベストプラクティス、最適化戦略の両方を含む完全なユースケースが記載されている、アドビの [&#x200B; ジャーニーのエントリ条件と終了条件の包括的なガイド &#x200B;](entry-exit-criteria-guide.md) を参照してください。
+>実際の事例を使った実践的なガイダンスをお探しですか？ エントリと離脱の設定、ベストプラクティス、最適化戦略の両方を含む完全なユースケースが記載されている、アドビの [ ジャーニーのエントリ条件と終了条件の包括的なガイド ](entry-exit-criteria-guide.md) を参照してください。
 
 **サンプルのユースケース**
 
@@ -338,10 +338,10 @@ Adobe Journey Optimizer は、ジャーニー全体を通じて使用される�
 
 ### 関連トピック {#exit-criteria-related}
 
-* [ジャーニーの入退室条件ガイド &#x200B;](entry-exit-criteria-guide.md) – 実際の例とベストプラクティスが記載された完全なガイド
-* [&#x200B; プロファイルエントリ管理 &#x200B;](entry-management.md) - プロファイルがジャーニーにエントリする方法を設定します
-* [&#x200B; ジャーニーの終了方法 &#x200B;](end-journey.md) – 自然なジャーニーの完了について
-* [&#x200B; プロファイル属性終了条件を使用したジャーニーの一時停止 &#x200B;](journey-pause.md#journey-exit-criteria) - ジャーニーを一時停止する際に終了条件を使用します
+* [ジャーニーの入退室条件ガイド ](entry-exit-criteria-guide.md) – 実際の例とベストプラクティスが記載された完全なガイド
+* [ プロファイルエントリ管理 ](entry-management.md) - プロファイルがジャーニーにエントリする方法を設定します
+* [ ジャーニーの終了方法 ](end-journey.md) – 自然なジャーニーの完了について
+* [ プロファイル属性終了条件を使用したジャーニーの一時停止 ](journey-pause.md#journey-exit-criteria) - ジャーニーを一時停止する際に終了条件を使用します
 
 ## ジャーニースケジュール {#schedule}
 

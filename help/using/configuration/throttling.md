@@ -8,10 +8,10 @@ role: Developer
 level: Beginner
 keywords: 外部, API, Optimizer, キャップ
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
-source-git-commit: 0b0badfa09a24d451671f5bae9ddc437c6db2911
+source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
 workflow-type: tm+mt
 source-wordcount: '1024'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -23,7 +23,7 @@ Throttling API を使用すると、スロットル設定を作成、設定お�
 
 ## 必読
 
-* **1 つの組織につき 1 つの設定：**&#x200B;現在、1 つの組織につき 1 つの設定のみを使用できます。設定は、（ヘッダーの `x-sandbox-name` を通じて指定される）実稼動サンドボックスで定義する必要があります。
+* **組織ごとに 1 つの設定：** 現在、組織ごとに 1 つの設定のみが許可されています。 設定は、（ヘッダーの `x-sandbox-name` を通じて指定される）実稼動サンドボックスで定義する必要があります。
 * **組織レベルのアプリケーション：**&#x200B;設定は、組織レベルで適用されます。
 * **API 制限の処理：** API で設定された上限に達すると、それ以降のイベントは最大 6 時間キューに入れられます。この値は変更できません。
 * **`maxHttpConnections`パラメーター：**`maxHttpConnections` パラメーターは、Capping API でのみ使用できるオプションパラメーターであり、Journey Optimizer が外部システムに対して開く接続の数をキャップできます。[Capping API の使用方法の詳細情報](../configuration/capping.md)

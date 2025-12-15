@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 badge: label="限定提供" type="Informative"
 keywords: メッセージ, 頻度, ルール, プレッシャー
-source-git-commit: 2f4c6a4a82784ae2fae99b3d802b2d8f94d2ca75
-workflow-type: ht
+source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+workflow-type: tm+mt
 source-wordcount: '905'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -118,7 +118,7 @@ ht-degree: 100%
      >
      >このオプションは、ジャーニーアクションでのみ使用できます。キャンペーンアクションに適用した場合、「**[!UICONTROL メッセージを破棄]**」オプションを選択した場合と同じように動作します。
 
-   * **[!UICONTROL メッセージを破棄]** - メッセージは送信されません。メッセージを含むジャーニーまたはキャンペーンを送信のキャンセルで終了する場合は、「**[!UICONTROL ジャーニーまたはキャンペーンを破棄して終了]**」を選択します。
+   * **[!UICONTROL メッセージを破棄]** - メッセージは送信されません。メッセージを含むジャーニーまたはキャンペーンを、送信のキャンセルで終了する場合は、「**[!UICONTROL ジャーニーまたはキャンペーンを破棄して終了]**」を選択します。
 
 ## ジャーニーとキャンペーンへのクワイエットアワーの適用 {#apply}
 
@@ -187,4 +187,4 @@ ht-degree: 100%
 
 Adobe Journey Optimizer でのクワイエットアワー機能の使用方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3475853?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475851?quality=12)

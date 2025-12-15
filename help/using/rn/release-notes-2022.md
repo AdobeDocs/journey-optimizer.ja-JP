@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 hidefromtoc: true
 hide: true
 exl-id: 0997a640-3f89-4460-ba93-ea21a9d4efc5
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
+source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+workflow-type: tm+mt
 source-wordcount: '3599'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -241,7 +241,7 @@ ht-degree: 100%
 ### その他の変更{#sept-2022-other}
 
 * ジャーニーバーストモードは、Campaign 迅速配信モードに置き換えられました。[詳細情報](../push/create-push.md#rapid-delivery)
-* パフォーマンスを向上させるために、オーディエンスを読み取り、オーディエンスの選定またはビジネスイベントアクティビティで始まるジャーニーでは、エクスペリエンスイベントフィールドグループを使用できなくなりました。この変更は、新しいジャーニーにのみ適用されます。既存のジャーニーは、現在の動作を維持します。[詳細情報](../start/guardrails.md#expression-editor)
+* パフォーマンスを向上させるために、オーディエンスを読み取り、オーディエンスの選定またはビジネスイベントアクティビティで始まるジャーニーでは、エクスペリエンスイベントフィールドグループを使用できなくなりました。この変更は、新しいジャーニーにのみ適用されます。既存のジャーニーは、現在の動作を維持します。 [詳細情報](../start/guardrails.md#expression-editor)
 * スケジュールされた「オーディエンスを読み取り」ジャーニーの 1 時間の制限が削除されました。これらのジャーニーは遅延なく実行できるようになりました。
 
 

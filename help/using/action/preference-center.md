@@ -8,10 +8,10 @@ topic: Administration
 role: Data Engineer, Data Architect, Admin
 level: Experienced
 keywords: ポリシー, ガバナンス, プラットフォーム, 同意, Healthcare Shield
-source-git-commit: bbea90bd21bd19941e8c8df93c8ec7a8a2769d77
-workflow-type: ht
+source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+workflow-type: tm+mt
 source-wordcount: '859'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 最新のマーケティングオートメーションエコシステムでは、ブランドは様々なタッチポイントをまたいで顧客と関与しますが、無関係なコミュニケーションや過剰なコミュニケーションのリスクに直面し、非エンゲージメント、スパムの苦情、コンプライアンスリスクにつながります。そのため、オーディエンスに関するリアルタイムのインサイトを得て、パーソナライズされた敬意のあるコミュニケーションを実現するために、顧客の環境設定を管理する必要があります。
 
-[!DNL Adobe Journey Optimizer] では、[同意ポリシー](consent.md)の使用を通じて、顧客の環境設定<!-- in terms of **channels** and **topics**-->を適用できます。これにより、[!DNL Journey Optimizer] は顧客の同意を適用しながら、顧客の選択<!-- their preferred channels and on the subscription topics-->に基づいてのみ顧客をターゲットにすることができます。
+[!DNL Adobe Journey Optimizer] では、[ 同意ポリシー ](consent.md) を使用して、顧客の好みに従うことができ <!-- in terms of **channels** and **topics**--> す。 これにより、[!DNL Journey Optimizer] は顧客の同意を適用しながら、顧客の選択<!-- their preferred channels and on the subscription topics-->に基づいてのみ顧客をターゲットにすることができます。
 
 [!DNL Journey Optimizer] を使用してユーザーの環境設定を管理するには、次の操作を実行します。
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 >
 >同意は環境設定よりも優先されます。 例えば、顧客の 1 人が、優先チャネルはメールで、ニュースレター<!-- they are interested in yoga-->の受信に同意したことを示したとします。ただし、顧客がユーザーからのコミュニケーションの受信をオプトアウトした場合、送信するメールニュースレター<!-- on yoga-->のターゲットにすることはできません。
 
-## 環境設定の記録と適用 {#manage-preferences}
+## 設定を記録し、優先する {#manage-preferences}
 
 [!DNL Journey Optimizer] の同意ポリシーを使用すると、顧客の環境設定を一元的に管理できます。これにより、顧客の同意の選択を適用しながら、顧客が選択したトピックに基づいてのみ顧客をターゲットにすることができます。これを行うには、次の手順に従います。
 

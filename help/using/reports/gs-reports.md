@@ -6,10 +6,10 @@ description: ' [!DNL Adobe Journey Optimizer]  レポートへのアクセス方
 role: User
 level: Beginner
 exl-id: 7961dc5c-7918-4ae3-8361-0ed4bc4f145b
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: ht
+source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+workflow-type: tm+mt
 source-wordcount: '460'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Journey Optimizer では、堅牢なレポート機能を通じて実用�
 
   ![](assets/gs-cja-report-1.png)
 
-  Adobe Customer Journey Analytics ライセンスを所有している場合は、Journey Optimizer レポートを Customer Journey Analytics で分析できます。この強力なオプションにより、Customer Journey Analytics 環境にシームレスにリダイレクトされ、レポートを幅広くカスタマイズできるようになります。専用の Customer Journey Analytics 指標を使用してウィジェットを強化し、まったく新しいレベルのインサイトを得ることができます。[詳細情報](report-cja-manage.md)
+  Adobe Customer Journey Analytics ライセンスを所有している場合は、Journey Optimizer レポートをCustomer Journey Analyticsに分析できます。 この強力なオプションにより、Customer Journey Analytics 環境にシームレスにリダイレクトされ、レポートを幅広くカスタマイズできるようになります。専用の Customer Journey Analytics 指標を使用してウィジェットを強化し、まったく新しいレベルのインサイトを得ることができます。[詳細情報](report-cja-manage.md)
 
 
 ## さらに深く掘り下げましょう
@@ -140,7 +140,7 @@ Adobe Journey Optimizer の全期間のレポートを効果的に使用する�
 
 +++こちらのビデオをご覧ください
 
->[!VIDEO](https://video.tv.adobe.com/v/3422696?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
