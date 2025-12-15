@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: キャンペーン, レビュー, 検証, アクティブ化, アクティブ化, Optimizer
 exl-id: 86f35987-f0b7-406e-9ae6-0e4a2e651610
-source-git-commit: 8cb37cf0fb9dc8048d7da8ddda0c67280477d57f
-workflow-type: ht
-source-wordcount: '468'
-ht-degree: 100%
+source-git-commit: a5d8f10c8751d6be47f5423aea576e16590b86d6
+workflow-type: tm+mt
+source-wordcount: '514'
+ht-degree: 91%
 
 ---
 
@@ -42,6 +42,10 @@ ht-degree: 100%
    API 呼び出しの例について詳しくは、[このページ](https://developer.adobe.com/journey-optimizer-apis/references/messaging-samples/)も参照してください。
 
 ## トラブルシューティング {#troubleshooting}
+
+### メール配信遅延 {#delivery-delays}
+
+メール配信時間が予想を超える場合は、クラウドインフラストラクチャプロバイダーやメールサービスプロバイダーなどの外部サービスの潜在的な停止やパフォーマンスの問題を調査する必要があります。 Journey Optimizerのログには、メッセージ送信のタイムスタンプが記録されます。このタイムスタンプは、配信パイプラインでダウンストリームに遅延が発生したかどうかを判断するのに役立ちます。
 
 ### Azure Cosmos DB 認証エラー（500 内部サーバーエラー） {#cosmosdb-auth-errors}
 
