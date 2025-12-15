@@ -208,7 +208,7 @@ Adobe Journey Optimizerでパーソナライズされたタイムリーで効果
 
 **チュートリアルと例**
 
-[ジャーニーの使用例 &#x200B;](jo-use-cases.md) | [&#x200B; お客様のオンボーディングビデオ &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [&#x200B; 放棄された買い物かごビデオ &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [&#x200B; コミュニティブログ：入口と出口の基準 &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958)
+[ジャーニーの使用例 &#x200B;](jo-use-cases.md) | [&#x200B; お客様のオンボーディングビデオ &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [&#x200B; 放棄された買い物かごビデオ &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [&#x200B; コミュニティブログ：入口と出口の基準 &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958?profile.language=ja)
 
 **関連する機能**
 
