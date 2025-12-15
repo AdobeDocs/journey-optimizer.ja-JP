@@ -23,7 +23,7 @@ ht-degree: 98%
 
 最新のマーケティングオートメーションエコシステムでは、ブランドは様々なタッチポイントをまたいで顧客と関与しますが、無関係なコミュニケーションや過剰なコミュニケーションのリスクに直面し、非エンゲージメント、スパムの苦情、コンプライアンスリスクにつながります。そのため、オーディエンスに関するリアルタイムのインサイトを得て、パーソナライズされた敬意のあるコミュニケーションを実現するために、顧客の環境設定を管理する必要があります。
 
-[!DNL Adobe Journey Optimizer] では、[ 同意ポリシー ](consent.md) を使用して、顧客の好みに従うことができ <!-- in terms of **channels** and **topics**--> す。 これにより、[!DNL Journey Optimizer] は顧客の同意を適用しながら、顧客の選択<!-- their preferred channels and on the subscription topics-->に基づいてのみ顧客をターゲットにすることができます。
+[!DNL Adobe Journey Optimizer] では、[&#x200B; 同意ポリシー &#x200B;](consent.md) を使用して、顧客の好みに従うことができ <!-- in terms of **channels** and **topics**--> す。 これにより、[!DNL Journey Optimizer] は顧客の同意を適用しながら、顧客の選択<!-- their preferred channels and on the subscription topics-->に基づいてのみ顧客をターゲットにすることができます。
 
 [!DNL Journey Optimizer] を使用してユーザーの環境設定を管理するには、次の操作を実行します。
 
@@ -87,7 +87,7 @@ ht-degree: 98%
 |---------|----------|---------|
 | john.black@lumamail.com | Y | N |-->
 
-    >[!メモ]
+    >[ !メモ]
     >
     >受信した同意イベントは顧客プロファイルにフィードされ、リアルタイムの更新が確保されます。各プロファイルには、購読環境設定をまたいで最新の選択が反映されます。
 
@@ -113,9 +113,9 @@ ht-degree: 98%
     
     * **[!UICONTROL Newsletter_Email]** が存在しない（**[!UICONTROL false]**）または **[!UICONTROL Newsletter_Email]** が等しくない場合（**[!UICONTROL false]**）
     
-    。[](assets/consent-policy-email-newsletter.png){width=80%}
+    。[&#128279;](assets/consent-policy-email-newsletter.png){width=80%}
     
-    >[!ヒント]
+    >[ !ヒント]
     >
     >プロファイル対応データセットには、値が `true` に設定されたプロファイル属性 **[!UICONTROL Newsletter_Email]** を含める必要があります（手順 1 で説明）。
 
