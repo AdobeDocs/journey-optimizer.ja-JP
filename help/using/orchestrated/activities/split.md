@@ -6,7 +6,7 @@ description: 調整されたキャンペーンでの分割アクティビティ�
 exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
 version: Campaign Orchestration
 source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_segments"
 >title="分割アクティビティのセグメント"
->abstract="入力母集団をセグメント化するのに必要な数のサブセットを追加します。<br/></br>「**分割**」アクティビティを実行すると、母集団はアクティビティに追加された順序で様々なサブセットに分割されます。 調整されたキャンペーンを開始する前に、矢印ボタンを使用して、サブセットをニーズに合う順番に並べ替えておきます。"
+>abstract="入力母集団をセグメント化するのに必要な数のサブセットを追加します。<br/></br>「**分割**」アクティビティを実行すると、母集団はアクティビティに追加された順序で様々なサブセットに分割されます。 調整されたキャンペーンを開始する前に、矢印ボタンを使用して、サブセットをニーズに合う順序で並べ替えておきます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_split_filter"
