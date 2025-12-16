@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: オプトアウト, メール, リンク, 登録解除
 exl-id: 4bb51bef-5dab-4a72-8511-1a5e528f4b95
-source-git-commit: b1d262723b68083d1a32d259f3974a287f898579
+source-git-commit: af7451c0495e442328368a6a308af5c14dcda142
 workflow-type: tm+mt
-source-wordcount: '1031'
-ht-degree: 94%
+source-wordcount: '1117'
+ht-degree: 79%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 94%
 
 受信者がオプトアウトリンクをクリックすると、登録解除リクエストがそれに応じて処理されます。
 
-対応するプロファイルの選択が更新されたことを確認するには、Experience Platform に移動して、[そのプロファイルを参照](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/ui/user-guide?lang=en#browse-tab){target="_blank"}します。[&#x200B; 「属性」タブ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/ui/user-guide#attributes){target="_blank"} で、**[!UICONTROL choice]** の値が **[!UICONTROL no]** に変更されたことを確認できます。 同意処理について詳しくは、[Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=ja){target="_blank"}を参照してください。
+対応するプロファイルの選択が更新されたことを確認するには、Experience Platform に移動して、[そのプロファイルを参照](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide?lang=en#browse-tab){target="_blank"}します。[ 「属性」タブ ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide#attributes){target="_blank"} で、**[!UICONTROL choice]** の値が **[!UICONTROL no]** に変更されたことを確認できます。 同意処理について詳しくは、[Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=ja){target="_blank"}を参照してください。
 
 ![](assets/opt-out-profile-choice.png)
 
@@ -160,25 +160,30 @@ Adobe Journey Optimizer でランディングページを作成して購読解�
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
 
-### 登録解除リンク付きでメッセージを送信 {#send-message-unsubscribe-link}
+### 購読解除フローについて {#send-message-unsubscribe-link}
 
-ランディングページへの登録解除リンクを設定したら、メッセージを作成して送信できます。
+ランディングページの購読解除リンクを設定したら、メッセージを完成させて購読者に送信できます。
 
-1. メッセージに購読解除リンクを設定して、購読者に送信します。
+ランディングページのオプトアウトフロー全体が正常に完了するには、次のイベントが順番に発生することが予想されます。
 
-1. メッセージを受け取った受信者が登録解除リンクをクリックすると、ランディングページが表示されます。
+1. **クリック** - メッセージを受信した受信者は、メールの購読解除リンクをクリックします。
+
+1. **訪問** - ランディングページが読み込まれ、受信者に表示されます。
 
    ![](assets/opt-out-lp-example.png)
+
+1. **送信** – 受信者は、ランディングページの「購読解除」ボタンをクリックしてオプトアウトフォームを送信します。
 
    >[!WARNING]
    >
    >メール内で購読解除リンクをクリックした場合にのみ、ランディングページが開きます。 受信者は **ランディングページのオプトアウトボタンをクリックしてフォームを送信** して、購読解除を完了し、プロファイルの同意を更新する必要があります。
 
-1. 受信者がフォームを送信（ここではランディングページの「**[!UICONTROL 登録解除]**」ボタンをクリック）した場合、API 呼び出しを通じてプロファイルデータが更新されます。
-
-1. その後、オプトアウトした受信者は、オプトアウトが成功したことを示す確認メッセージ画面にリダイレクトされます。
+1. **購読解除** - システムが購読解除リクエストを処理します。 オプトアウトした受信者は、オプトアウトが成功したことを示す確認メッセージ画面にリダイレクトされます。
 
    ![](assets/opt-out-confirmation-example.png)
 
+1. **同意の更新** - API 呼び出しを通じて、プロファイル属性の同意を得てプロファイルデータが更新されます。これにより、今後のメール送信からプロファイルが除外されます。
+
    その結果、購読を再度登録しない限り、このユーザーはブランドから連絡を受けることはありません。
 
+このイベントシーケンスにより、購読解除プロセスが適切に追跡され、プロファイルの同意環境設定がシステムに正確に反映されます。 このフローの手順のいずれかが見つからない場合や正常に動作しない場合は、オプトアウト実装の問題を調査する必要がある可能性があります。
