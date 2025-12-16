@@ -10,10 +10,10 @@ level: Intermediate, Experienced
 keywords: ジャーニー, ユースケース, メッセージ, 購読者, リスト, 読み取り
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: ht
-source-wordcount: '345'
-ht-degree: 100%
+source-git-commit: 52126b42ff400a355db9c75afde0c86059daf164
+workflow-type: tm+mt
+source-wordcount: '355'
+ht-degree: 96%
 
 ---
 
@@ -27,8 +27,8 @@ ht-degree: 100%
 
 このジャーニーを設定するには、次の手順に従います。
 
-1. **[!UICONTROL 読み取り]**&#x200B;アクティビティで始まるジャーニーを作成します。[詳細情報](journey-gs.md)
-1. **[!UICONTROL メール]**&#x200B;アクションアクティビティをジャーニーに追加します。[詳細情報](journeys-message.md)。
+1. **[!UICONTROL 読み取り]**&#x200B;アクティビティで始まるジャーニーを作成します。詳しくは、[ 初めてのジャーニーの作成 ](journey-gs.md) を参照してください。
+1. **[!UICONTROL メール]**&#x200B;アクションアクティビティをジャーニーに追加します。詳細情報 [ チャネルアクションの操作 ](journeys-message.md)。
 1. **[!UICONTROL メール]**&#x200B;アクティビティ設定の「**[!UICONTROL メールパラメーター]**」セクションで、デフォルトのメールアドレス（`PersonalEmail.adress`）をリスト上の購読者のメールアドレスに置き換えます。
 
    1. 「**[!UICONTROL アドレス]**」フィールドの右側にある「 **[!UICONTROL パラメーターの上書きを有効にする]**」アイコンをクリックしたあと、**[!UICONTROL 編集]**&#x200B;アイコンをクリックします。
