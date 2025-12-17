@@ -50,11 +50,11 @@ Journey OptimizerでAdobe Experience Manager コンテンツフラグメント�
 
 Adobe Experience ManagerとJourney Optimizerの統合は、次のデータフローに従います。
 
-1. **[作成と作成 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#creating-a-content-fragment)**：コンテンツが作成され、コンテンツフラグメントとしてAdobe Experience Managerに設定されます。
+1. **[作成と作成 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#creating-a-content-fragment)**：コンテンツが作成され、コンテンツフラグメントとしてAdobe Experience Managerに設定されます。
 
-1. **[タグ付け &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#manage-tags)**：コンテンツフラグメントは、Journey Optimizer固有のタグ（`ajo-enabled:{OrgId}/{SandboxName}`）でタグ付けされている必要があります。
+1. **[タグ付け &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#manage-tags)**：コンテンツフラグメントは、Journey Optimizer固有のタグ（`ajo-enabled:{OrgId}/{SandboxName}`）でタグ付けされている必要があります。
 
-1. **[公開 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#publishing-and-previewing-a-fragment)**：コンテンツフラグメントはAdobe Experience Managerで公開され、Journey Optimizerで使用できるようになります。
+1. **[公開 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#publishing-and-previewing-a-fragment)**：コンテンツフラグメントはAdobe Experience Managerで公開され、Journey Optimizerで使用できるようになります。
 
 1. **[アクセス](#aem-add)**:Journey Optimizerは、Adobe Experience Manager パブリッシュインスタンスから利用可能なコンテンツフラグメントをリアルタイムで取得し、表示します。
 
@@ -66,7 +66,7 @@ Adobe Experience ManagerとJourney Optimizerの統合は、次のデータフロ
 
 ![](assets/do-not-localize/AEM_CF.png)
 
-コンテンツフラグメントは、存在するAdobe Experience Manager層に応じて、異なるライフサイクルステージに従います。 [&#x200B; 詳しくは、Adobe Experience Manager ドキュメントを参照してください &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/author-publish)
+コンテンツフラグメントは、存在するAdobe Experience Manager層に応じて、異なるライフサイクルステージに従います。 [&#x200B; 詳しくは、Adobe Experience Manager ドキュメントを参照してください &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/sites/authoring/author-publish)
 
 コンテンツは **オーサー層** で作成および管理されます。この層では、フラグメントのステータスとして、新規、ドラフト、公開済み、変更済み、未公開のいずれかを使用できます。 これらのステータスは **オーサー層** にのみ適用され、コンテンツの作成とレビューをサポートします。
 
