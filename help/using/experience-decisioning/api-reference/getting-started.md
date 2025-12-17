@@ -20,7 +20,7 @@ Decisioning API を使用すると、パーソナライズされたオファー�
 
 ## 認証 {#authentication}
 
-Decisioning API を使用する前に、API エンドポイントにアクセスするための認証を設定する必要があります。 詳細な手順については、[Journey Optimizer認証ガイド ](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} を参照してください。
+Decisioning API を使用する前に、API エンドポイントにアクセスするための認証を設定する必要があります。 詳細な手順については、[Journey Optimizer認証ガイド &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} を参照してください。
 
 ## 使用可能な API 操作 {#available-operations}
 
@@ -28,27 +28,27 @@ Decisioning API は、決定コンポーネントのための包括的な管理�
 
 * **決定項目** – 顧客に配信するオファーまたはコンテンツを表す決定項目を作成、読み取り、更新、削除およびリスト化します。
 
-  ➡️ [ 決定項目の管理方法を学ぶ ](decisions-items/create.md)
+  ➡️ [&#x200B; 決定項目の管理方法を学ぶ &#x200B;](decisions-items/create.md)
 
 * **項目コレクション** – 実施要件ルールを使用して管理とターゲティングを容易にするために、決定項目をコレクションに整理します。
 
-  ➡️ [ 項目コレクションの管理方法を学ぶ ](items-collections/create.md)
+  ➡️ [&#x200B; 項目コレクションの管理方法を学ぶ &#x200B;](items-collections/create.md)
 
 * **選択戦略** – 複数の項目が配信に適している場合に、決定項目を選択およびランク付けする方法を定義します。
 
-  ➡️ [ 選択戦略の管理方法を学ぶ ](selection-strategies/create.md)
+  ➡️ [&#x200B; 選択戦略の管理方法を学ぶ &#x200B;](selection-strategies/create.md)
 
 * **実施要件ルール** – 特定の決定項目を受け取る資格があるプロファイルを決定する条件を設定します。
 
-  ➡️[ 実施要件ルールの管理方法を学ぶ ](eligibility-rules/create.md)
+  ➡️[&#x200B; 実施要件ルールの管理方法を学ぶ &#x200B;](eligibility-rules/create.md)
 
 * **ランキング式** - カスタムランキングロジックを作成して、決定項目の表示順序を決定します。
 
-  ➡️ [ ランキング式の管理方法を学ぶ ](ranking-formulas/create.md)
+  ➡️ [&#x200B; ランキング式の管理方法を学ぶ &#x200B;](ranking-formulas/create.md)
 
 * **プレースメント** - エクスペリエンスで決定項目を表示できる場所またはコンテキストを定義します。
 
-  ➡️[ プレースメントの管理方法を学ぶ ](exd-placements/create.md)
+  ➡️[&#x200B; プレースメントの管理方法を学ぶ &#x200B;](exd-placements/create.md)
 
 ## 次の手順 {#next-steps}
 
@@ -59,4 +59,4 @@ Decisioning API は、決定コンポーネントのための包括的な管理�
 * [選択戦略の作成](selection-strategies/create.md)
 * [実施要件ルールの作成](eligibility-rules/create.md)
 
-キャンペーンとジャーニーで意思決定を使用する方法について詳しくは、[ 意思決定に関するドキュメント ](../gs-experience-decisioning.md) を参照してください。
+キャンペーンとジャーニーで意思決定を使用する方法について詳しくは、[&#x200B; 意思決定に関するドキュメント &#x200B;](../gs-experience-decisioning.md) を参照してください。
