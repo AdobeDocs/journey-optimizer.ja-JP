@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
-source-git-commit: e292d584e3c3d1997c2c3e6bb3675758ff530bf9
+source-git-commit: 92690f1b3f73c75d9b81746b49836a24ebf7c457
 workflow-type: tm+mt
-source-wordcount: '1121'
-ht-degree: 50%
+source-wordcount: '1510'
+ht-degree: 37%
 
 ---
 
@@ -30,17 +30,19 @@ AEM コンテンツフラグメントについて詳しくは、Experience Manag
 
 Journey OptimizerでAdobe Experience Manager コンテンツフラグメントを使用する場合は、次の制限事項に注意してください。
 
-* **コンテンツフラグメントタイプ**：シンプルなコンテンツフラグメントのみがサポートされます。 バリエーションとネストされたフラグメントは、現在サポートされていません。
+* **コンテンツフラグメントタイプ**：シンプルなコンテンツフラグメントとネストされたコンテンツフラグメントがサポートされます。 コンテンツフラグメントのバリエーションは、現在サポートされていません。
 
-* **多言語コンテンツ**：手動フローのみがサポートされます。
+* **多言語コンテンツ**：手動フローのみがサポートされます。 各言語バリアントは、Adobe Experience Managerで個別にオーサリングし、タグ付けおよび公開し、Journey Optimizerで手動で選択する必要があります。 自動言語の解決やフォールバックのメカニズムはありません。
+
+* **リポジトリアクセス**:Journey Optimizerは、Adobe Experience Manager パブリッシュ層とのみ統合されます。この層では、認証されていないパブリックエンドポイントを介してコンテンツフラグメントを利用できます。 オーサーリポジトリがリポジトリセレクターに表示される場合がありますが、Journey Optimizerで使用できるのはパブリッシュ層に公開されたコンテンツフラグメントのみです。
+
+* **コンテンツフラグメントのステータス**:Journey Optimizerには、「公開済み **** および **変更済み** ステータスのコンテンツフラグメントが表示されます。 いずれの場合も、最新の公開済みバージョンのみが使用されます。 公開後にフラグメントが変更された場合、その変更は、コンテンツフラグメントがJourney Optimizerで再公開されるまで、Adobe Experience Managerには反映されません。 Adobe Experience ManagerとJourney Optimizerの間には、バージョンの自動調整は行われません。
 
 * **Personalization**: プロファイル属性、コンテキスト属性、静的文字列、および事前宣言済み変数のみがサポートされています。 派生属性または計算属性はサポートされていません。
 
-* **アップデートとバージョン管理**：コンテンツフラグメントを更新するには、Adobe Experience Managerから手動で再公開する必要があります。 Adobe Experience ManagerとJourney Optimizerの間には、バージョンの自動調整は行われません。
+* **アップデートとバージョン管理**：コンテンツフラグメントを更新するには、Adobe Experience Managerから手動で再公開する必要があります。 Adobe Experience ManagerとJourney Optimizerの間には、バージョンの自動調整は行われません。 コンテンツフラグメントがAdobe Experience Managerに公開されると、Journey OptimizerはJourney Optimizer側でイベントと更新を受け取ります。 成功した場合、更新は、単一ジャーニーの場合は 5 分後、バッチのユースケースの場合は次のバッチで利用できます。
 
-* **キャッシュ**:Journey Optimizerは、Adobe Experience Manager パブリッシュからコンテンツフラグメントをリアルタイムで取得します。 プリレンダリングのキャッシュはありません。
-
-* **プルーフ**：公開済みキャンペーンおよびジャーニーのプルーフに、最新のExperience Manager コンテンツフラグメント公開からのデータが反映される。 履歴バージョンのロックはありません。
+* **キャッシュとプルーフ**：コンテンツフラグメントは、Adobe Experience Manager パブリッシュ層からリアルタイムで取得されます。 プリレンダリングやスナップショットのキャッシュはありません。 キャンペーンおよびジャーニーのプルーフでは、常にコンテンツフラグメントの最近公開されたバージョンが反映されます。履歴バージョンをプルーフ用にロックすることはできません。
 
 * **ユーザーアクセス**：誤ったエラーのリスクを減らすために、コンテンツフラグメントを公開するためのアクセス権を持つユーザーの数を制限することをお勧めします。
 
@@ -48,15 +50,29 @@ Journey OptimizerでAdobe Experience Manager コンテンツフラグメント�
 
 Adobe Experience ManagerとJourney Optimizerの統合は、次のデータフローに従います。
 
-1. **[作成と作成 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#creating-a-content-fragment)**：コンテンツが作成され、コンテンツフラグメントとしてAdobe Experience Managerに設定されます。
+1. **[作成と作成 ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#creating-a-content-fragment)**：コンテンツが作成され、コンテンツフラグメントとしてAdobe Experience Managerに設定されます。
 
-1. **[タグ付け &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#manage-tags)**：コンテンツフラグメントは、Journey Optimizer固有のタグ（`ajo-enabled:{OrgId}/{SandboxName}`）でタグ付けされている必要があります。
+1. **[タグ付け ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#manage-tags)**：コンテンツフラグメントは、Journey Optimizer固有のタグ（`ajo-enabled:{OrgId}/{SandboxName}`）でタグ付けされている必要があります。
 
-1. **[公開 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#publishing-and-previewing-a-fragment)**：コンテンツフラグメントはAdobe Experience Managerで公開され、Journey Optimizerで使用できるようになります。
+1. **[公開 ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#publishing-and-previewing-a-fragment)**：コンテンツフラグメントはAdobe Experience Managerで公開され、Journey Optimizerで使用できるようになります。
 
 1. **[アクセス](#aem-add)**:Journey Optimizerは、Adobe Experience Manager パブリッシュインスタンスから利用可能なコンテンツフラグメントをリアルタイムで取得し、表示します。
 
 1. **[統合](#aem-add)**：コンテンツフラグメントが選択され、キャンペーンやジャーニーに統合されます。
+
+コンテンツフラグメントがAdobe Experience Managerに公開されると、Journey Optimizer側でコンテンツを更新するためのイベントが送信されます。 更新に成功すると、コンテンツフラグメントは、単一ジャーニーの場合は約 5 分以内に、バッチ使用例の場合は次の処理バッチで使用できるようになります。 更新がJourney Optimizerで使用可能になると、適用可能なすべてのキャンペーンとジャーニーで最新の公開済みコンテンツが使用されます。
+
+### コンテンツフラグメントのライフサイクル
+
+![](assets/do-not-localize/AEM_CF.png)
+
+コンテンツフラグメントは、存在するAdobe Experience Manager層に応じて、異なるライフサイクルステージに従います。 [ 詳しくは、Adobe Experience Manager ドキュメントを参照してください ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/author-publish)
+
+コンテンツは **オーサー層** で作成および管理されます。この層では、フラグメントのステータスとして、新規、ドラフト、公開済み、変更済み、未公開のいずれかを使用できます。 これらのステータスは **オーサー層** にのみ適用され、コンテンツの作成とレビューをサポートします。
+
+コンテンツフラグメントが公開されると、**パブリッシュ層** にコピーが作成され、認証されていないパブリックなエンドポイントを介して公開されます。 Journey Optimizerは、この **パブリッシュ層** のみと統合されます。
+
+その結果、Journey Optimizerでは、公開済みコンテンツフラグメントまたは変更済みコンテンツフラグメントのみを表示し、常に最新の公開済みバージョンを使用します。 公開後に行われた変更は、コンテンツフラグメントが再公開されるまでJourney Optimizerに反映されません。
 
 ## Experience Manager でのタグの作成と割り当て
 
@@ -143,7 +159,7 @@ AEM コンテンツフラグメントを作成およびパーソナライズし�
 
    ![](assets/aem_campaign_9.png){zoomable="yes"}
 
-1. 「**[!UICONTROL 保存]**」をクリックします。[&#x200B; この節 &#x200B;](../content-management/preview.md) で説明されているように、メッセージコンテンツをテストおよび確認できるようになりました。
+1. 「**[!UICONTROL 保存]**」をクリックします。[ この節 ](../content-management/preview.md) で説明されているように、メッセージコンテンツをテストおよび確認できるようになりました。
 テストを実行してコンテンツを検証したら、[キャンペーンを送信](../campaigns/review-activate-campaign.md)したり、オーディエンスに[ジャーニーを公開](../building-journeys/publish-journey.md)したりできます。
 
 Adobe Experience Manager を使用すると、コンテンツフラグメントが使用されている Journey Optimizer キャンペーンまたはジャーニーを識別できます。詳しくは、[Adobe Experience Manager ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/extension-content-fragment-ajo-external-references)を参照してください。
