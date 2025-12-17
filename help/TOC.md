@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 964568f060626d3eeefa91f2836aac4d69aefa38
+source-git-commit: e46ab0637a0fa4a2b4b8b6ff3b8ab3eb5d38e0f7
 workflow-type: tm+mt
-source-wordcount: '3022'
+source-wordcount: '3015'
 ht-degree: 97%
 
 ---
@@ -597,38 +597,37 @@ ht-degree: 97%
       + [Decisioning FAQ](using/experience-decisioning/decisioning-faq.md)
       + API リファレンス {#experience-decisioning-api-reference}
          + [API リファレンス](/help/rp_landing_pages/experience-decisioning-api-reference-landing-page.md)
-         + オファー項目の作成と管理 {#create-manage}
-            + 決定項目 {#decision-items}
-               + [決定項目の作成](using/experience-decisioning/api-reference/decisions-items/create.md)
-               + [決定項目リスト](using/experience-decisioning/api-reference/decisions-items/decision-items-list.md)
-               + [決定項目の削除](using/experience-decisioning/api-reference/decisions-items/delete.md)
-               + [決定項目の参照](using/experience-decisioning/api-reference/decisions-items/lookup.md)
-               + [決定項目の更新](using/experience-decisioning/api-reference/decisions-items/update.md)
-            + 項目コレクション {#items-collections}
-               + [項目コレクションの作成](using/experience-decisioning/api-reference/items-collections/create.md)
-               + [項目コレクションの削除](using/experience-decisioning/api-reference/items-collections/delete.md)
-               + [項目コレクションリスト](using/experience-decisioning/api-reference/items-collections/items-collections-list.md)
-               + [項目コレクションの参照](using/experience-decisioning/api-reference/items-collections/lookup.md)
-               + [項目コレクションの更新](using/experience-decisioning/api-reference/items-collections/update.md)
-            + 選択戦略 {#selection-strategies}
-               + [選択戦略の作成](using/experience-decisioning/api-reference/selection-strategies/create.md)
-               + [選択戦略の削除](using/experience-decisioning/api-reference/selection-strategies/delete.md)
-               + [選択戦略の参照](using/experience-decisioning/api-reference/selection-strategies/lookup.md)
-               + [選択戦略リスト](using/experience-decisioning/api-reference/selection-strategies/selection-strategies-list.md)
-               + [選択戦略の更新](using/experience-decisioning/api-reference/selection-strategies/update.md)
-            + ランキング式 {#ranking-formulas}
-               + [ランキング式の作成](using/experience-decisioning/api-reference/ranking-formulas/create.md)
-               + [ランキング式の削除](using/experience-decisioning/api-reference/ranking-formulas/delete.md)
-               + [ランキング式の参照](using/experience-decisioning/api-reference/ranking-formulas/lookup.md)
-               + [選択ランキング式](using/experience-decisioning/api-reference/ranking-formulas/ranking-formulas-list.md)
-               + [ランキング式の更新](using/experience-decisioning/api-reference/ranking-formulas/update.md)
-            + 実施要件ルール {#eligibility-rules}
-               + [実施要件ルールの作成](using/experience-decisioning/api-reference/eligibility-rules/create.md)
-               + [実施要件ルールの削除](using/experience-decisioning/api-reference/eligibility-rules/delete.md)
-               + [実施要件ルールの参照](using/experience-decisioning/api-reference/eligibility-rules/lookup.md)
-               + [実施要件ルールのリスト](using/experience-decisioning/api-reference/eligibility-rules/eligibility-rules-list.md)
-               + [実施要件ルールの更新](using/experience-decisioning/api-reference/eligibility-rules/update.md)
-      + [コードベースのエクスペリエンスチャネルを使用したオファーの配信](using/experience-decisioning/api-reference/deliver.md)
+         + [Decisioning API の基本を学ぶ](using/experience-decisioning/api-reference/getting-started.md)
+         + 決定項目 {#decision-items}
+            + [決定項目の作成](using/experience-decisioning/api-reference/decisions-items/create.md)
+            + [決定項目リスト](using/experience-decisioning/api-reference/decisions-items/decision-items-list.md)
+            + [決定項目の削除](using/experience-decisioning/api-reference/decisions-items/delete.md)
+            + [決定項目の参照](using/experience-decisioning/api-reference/decisions-items/lookup.md)
+            + [決定項目の更新](using/experience-decisioning/api-reference/decisions-items/update.md)
+         + 項目コレクション {#items-collections}
+            + [項目コレクションの作成](using/experience-decisioning/api-reference/items-collections/create.md)
+            + [項目コレクションの削除](using/experience-decisioning/api-reference/items-collections/delete.md)
+            + [項目コレクションリスト](using/experience-decisioning/api-reference/items-collections/items-collections-list.md)
+            + [項目コレクションの参照](using/experience-decisioning/api-reference/items-collections/lookup.md)
+            + [項目コレクションの更新](using/experience-decisioning/api-reference/items-collections/update.md)
+         + 選択戦略 {#selection-strategies}
+            + [選択戦略の作成](using/experience-decisioning/api-reference/selection-strategies/create.md)
+            + [選択戦略の削除](using/experience-decisioning/api-reference/selection-strategies/delete.md)
+            + [選択戦略の参照](using/experience-decisioning/api-reference/selection-strategies/lookup.md)
+            + [選択戦略リスト](using/experience-decisioning/api-reference/selection-strategies/selection-strategies-list.md)
+            + [選択戦略の更新](using/experience-decisioning/api-reference/selection-strategies/update.md)
+         + ランキング式 {#ranking-formulas}
+            + [ランキング式の作成](using/experience-decisioning/api-reference/ranking-formulas/create.md)
+            + [ランキング式の削除](using/experience-decisioning/api-reference/ranking-formulas/delete.md)
+            + [ランキング式の参照](using/experience-decisioning/api-reference/ranking-formulas/lookup.md)
+            + [選択ランキング式](using/experience-decisioning/api-reference/ranking-formulas/ranking-formulas-list.md)
+            + [ランキング式の更新](using/experience-decisioning/api-reference/ranking-formulas/update.md)
+         + 実施要件ルール {#eligibility-rules}
+            + [実施要件ルールの作成](using/experience-decisioning/api-reference/eligibility-rules/create.md)
+            + [実施要件ルールの削除](using/experience-decisioning/api-reference/eligibility-rules/delete.md)
+            + [実施要件ルールの参照](using/experience-decisioning/api-reference/eligibility-rules/lookup.md)
+            + [実施要件ルールのリスト](using/experience-decisioning/api-reference/eligibility-rules/eligibility-rules-list.md)
+            + [実施要件ルールの更新](using/experience-decisioning/api-reference/eligibility-rules/update.md)
       + 決定項目の管理 {#manage-decision-items}
          + [決定項目の管理](/help/rp_landing_pages/manage-decision-items-landing-page.md)
          + [項目カタログの設定](using/experience-decisioning/catalogs.md)
@@ -922,7 +921,7 @@ ht-degree: 97%
    + [プライバシー](/help/rp_landing_pages/privacy-landing-page.md)
    + [プライバシーの基本を学ぶ](using/privacy/get-started-privacy.md)
    + [プライバシーリクエスト](using/privacy/requests.md)
-   + [&#x200B; リソースに対する監査アクション](using/privacy/audit-logs.md)
+   + [ リソースに対する監査アクション](using/privacy/audit-logs.md)
    + [データライフサイクル操作の実行](using/privacy/data-hygiene.md)
    + 同意を管理 {#consent}
       + [同意を管理](/help/rp_landing_pages/consent-landing-page.md)

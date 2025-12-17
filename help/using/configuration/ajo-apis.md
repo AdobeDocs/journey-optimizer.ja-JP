@@ -7,10 +7,10 @@ feature: Integrations, Data Ingestion
 role: Developer
 level: Intermediate
 exl-id: 4c897c52-6eb2-4d6e-aaa9-9bd83608b2b6
-source-git-commit: cbfebeaaa3ef6e55d48457012fd94bd74afc91de
+source-git-commit: e46ab0637a0fa4a2b4b8b6ff3b8ab3eb5d38e0f7
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 42%
+source-wordcount: '438'
+ht-degree: 43%
 
 ---
 
@@ -22,10 +22,10 @@ ht-degree: 42%
 >
 >**Journey Optimizer API の概要：**
 >
->* **[完全な API リファレンスを参照 &#x200B;](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}** – すべてのJourney Optimizer API にアクセスして直接テストする
->* **[認証の設定 &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}** - API の使用を開始するために必要な資格情報を収集します
+>* **[完全な API リファレンスを参照 ](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}** – すべてのJourney Optimizer API にアクセスして直接テストする
+>* **[認証の設定 ](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}** - API の使用を開始するために必要な資格情報を収集します
 >* **[意思決定管理 API](../offers/api-reference/getting-started.md)** - オファーと決定をプログラムで管理します
->* **[Experience Decisioning API](../experience-decisioning/api-reference/deliver.md)** - コードベースのエクスペリエンスを使用してパーソナライズされた決定項目を配信します
+>* **[Experience Decisioning API](../experience-decisioning/api-reference/getting-started.md)** – 決定項目、選択戦略、実施要件ルールをプログラムで管理します
 
 ## 概要 {#overview}
 
@@ -37,19 +37,19 @@ Adobe Journey Optimizer は、Adobe Experience Platform にネイティブに構
 
 Journey Optimizer API を使用する前に、API エンドポイントにアクセスするための認証を設定する必要があります。
 
-[&#x200B; 認証ガイド &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} に従って、すべてのJourney Optimizer API に必要な認証資格情報を収集します。
+[ 認証ガイド ](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} に従って、すべてのJourney Optimizer API に必要な認証資格情報を収集します。
 
 ## API ドキュメント {#api-documentation}
 
 完全なAdobe Journey Optimizer API ドキュメントには、使用可能なすべてのエンドポイント、リクエスト/応答の形式、インタラクティブテスト機能に関する詳細が含まれています。
 
-[Adobe Journey Optimizer API ドキュメントにアクセスし &#x200B;](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}**API リファレンス** メニューを参照して、使用可能なすべての API を確認します。
+[Adobe Journey Optimizer API ドキュメントにアクセスし ](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}**API リファレンス** メニューを参照して、使用可能なすべての API を確認します。
 
 ## 意思決定管理 API {#decision-management-apis}
 
 Journey Optimizerには、意思決定管理の専用 API が用意されており、オファー、決定およびプレースメントをプログラムで管理できます。
 
-Offer Decisioning API の使用を開始するには、[&#x200B; 意思決定管理 API デベロッパーガイド &#x200B;](../offers/api-reference/getting-started.md) を参照してください。
+Offer Decisioning API の使用を開始するには、[ 意思決定管理 API デベロッパーガイド ](../offers/api-reference/getting-started.md) を参照してください。
 
 ## Experience Decisioning API {#experience-decisioning-apis}
 
@@ -64,4 +64,4 @@ Journey Optimizerは、コードベースのエクスペリエンスを通じて
 * **ランキング式** - カスタムランキングロジックの設定
 * **プレースメント** – 決定項目を表示できる場所を定義します
 
-詳しくは、[Experience Decisioning API リファレンス &#x200B;](../experience-decisioning/api-reference/deliver.md) を参照し、[&#x200B; コードベースのエクスペリエンスを使用してオファーを配信 &#x200B;](../experience-decisioning/api-reference/deliver.md) する方法を確認してください。
+詳しくは、[Experience Decisioning API リファレンス ](../experience-decisioning/api-reference/getting-started.md) を参照してください。
