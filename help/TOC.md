@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e46ab0637a0fa4a2b4b8b6ff3b8ab3eb5d38e0f7
+source-git-commit: 8328e32f91c5541ec8561aef0e34757c4c7ecf9c
 workflow-type: tm+mt
-source-wordcount: '3015'
-ht-degree: 97%
+source-wordcount: '3024'
+ht-degree: 96%
 
 ---
 
@@ -628,6 +628,11 @@ ht-degree: 97%
             + [実施要件ルールの参照](using/experience-decisioning/api-reference/eligibility-rules/lookup.md)
             + [実施要件ルールのリスト](using/experience-decisioning/api-reference/eligibility-rules/eligibility-rules-list.md)
             + [実施要件ルールの更新](using/experience-decisioning/api-reference/eligibility-rules/update.md)
+         + プレースメント {#placements}
+            + [プレースメントの作成](using/experience-decisioning/api-reference/exd-placements/create.md)
+            + [プレースメントリスト](using/experience-decisioning/api-reference/exd-placements/exd-placements-list.md)
+            + [プレースメントを検索](using/experience-decisioning/api-reference/exd-placements/lookup.md)
+            + [プレースメントを更新](using/experience-decisioning/api-reference/exd-placements/update.md)
       + 決定項目の管理 {#manage-decision-items}
          + [決定項目の管理](/help/rp_landing_pages/manage-decision-items-landing-page.md)
          + [項目カタログの設定](using/experience-decisioning/catalogs.md)
@@ -921,7 +926,7 @@ ht-degree: 97%
    + [プライバシー](/help/rp_landing_pages/privacy-landing-page.md)
    + [プライバシーの基本を学ぶ](using/privacy/get-started-privacy.md)
    + [プライバシーリクエスト](using/privacy/requests.md)
-   + [&#x200B; リソースに対する監査アクション](using/privacy/audit-logs.md)
+   + [ リソースに対する監査アクション](using/privacy/audit-logs.md)
    + [データライフサイクル操作の実行](using/privacy/data-hygiene.md)
    + 同意を管理 {#consent}
       + [同意を管理](/help/rp_landing_pages/consent-landing-page.md)
