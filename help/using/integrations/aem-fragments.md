@@ -36,7 +36,7 @@ Journey OptimizerでAdobe Experience Manager コンテンツフラグメント�
 
 * **リポジトリアクセス**:Journey Optimizerは、Adobe Experience Manager パブリッシュ層とのみ統合されます。この層では、認証されていないパブリックエンドポイントを介してコンテンツフラグメントを利用できます。 オーサーリポジトリがリポジトリセレクターに表示される場合がありますが、Journey Optimizerで使用できるのはパブリッシュ層に公開されたコンテンツフラグメントのみです。
 
-* **コンテンツフラグメントのステータス**:Journey Optimizerには、「公開済み **** および **変更済み** ステータスのコンテンツフラグメントが表示されます。 いずれの場合も、最新の公開済みバージョンのみが使用されます。 公開後にフラグメントが変更された場合、その変更は、コンテンツフラグメントがJourney Optimizerで再公開されるまで、Adobe Experience Managerには反映されません。 Adobe Experience ManagerとJourney Optimizerの間には、バージョンの自動調整は行われません。
+* **コンテンツフラグメントのステータス**:Journey Optimizerには、「公開済み **&#x200B;**&#x200B;および **変更済み** ステータスのコンテンツフラグメントが表示されます。 いずれの場合も、最新の公開済みバージョンのみが使用されます。 公開後にフラグメントが変更された場合、その変更は、コンテンツフラグメントがJourney Optimizerで再公開されるまで、Adobe Experience Managerには反映されません。 Adobe Experience ManagerとJourney Optimizerの間には、バージョンの自動調整は行われません。
 
 * **Personalization**: プロファイル属性、コンテキスト属性、静的文字列、および事前宣言済み変数のみがサポートされています。 派生属性または計算属性はサポートされていません。
 
@@ -50,11 +50,11 @@ Journey OptimizerでAdobe Experience Manager コンテンツフラグメント�
 
 Adobe Experience ManagerとJourney Optimizerの統合は、次のデータフローに従います。
 
-1. **[作成と作成 ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#creating-a-content-fragment)**：コンテンツが作成され、コンテンツフラグメントとしてAdobe Experience Managerに設定されます。
+1. **[作成と作成 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#creating-a-content-fragment)**：コンテンツが作成され、コンテンツフラグメントとしてAdobe Experience Managerに設定されます。
 
-1. **[タグ付け ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#manage-tags)**：コンテンツフラグメントは、Journey Optimizer固有のタグ（`ajo-enabled:{OrgId}/{SandboxName}`）でタグ付けされている必要があります。
+1. **[タグ付け &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#manage-tags)**：コンテンツフラグメントは、Journey Optimizer固有のタグ（`ajo-enabled:{OrgId}/{SandboxName}`）でタグ付けされている必要があります。
 
-1. **[公開 ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#publishing-and-previewing-a-fragment)**：コンテンツフラグメントはAdobe Experience Managerで公開され、Journey Optimizerで使用できるようになります。
+1. **[公開 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#publishing-and-previewing-a-fragment)**：コンテンツフラグメントはAdobe Experience Managerで公開され、Journey Optimizerで使用できるようになります。
 
 1. **[アクセス](#aem-add)**:Journey Optimizerは、Adobe Experience Manager パブリッシュインスタンスから利用可能なコンテンツフラグメントをリアルタイムで取得し、表示します。
 
@@ -66,7 +66,7 @@ Adobe Experience ManagerとJourney Optimizerの統合は、次のデータフロ
 
 ![](assets/do-not-localize/AEM_CF.png)
 
-コンテンツフラグメントは、存在するAdobe Experience Manager層に応じて、異なるライフサイクルステージに従います。 [ 詳しくは、Adobe Experience Manager ドキュメントを参照してください ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/author-publish)
+コンテンツフラグメントは、存在するAdobe Experience Manager層に応じて、異なるライフサイクルステージに従います。 [&#x200B; 詳しくは、Adobe Experience Manager ドキュメントを参照してください &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/author-publish)
 
 コンテンツは **オーサー層** で作成および管理されます。この層では、フラグメントのステータスとして、新規、ドラフト、公開済み、変更済み、未公開のいずれかを使用できます。 これらのステータスは **オーサー層** にのみ適用され、コンテンツの作成とレビューをサポートします。
 
@@ -159,7 +159,7 @@ AEM コンテンツフラグメントを作成およびパーソナライズし�
 
    ![](assets/aem_campaign_9.png){zoomable="yes"}
 
-1. 「**[!UICONTROL 保存]**」をクリックします。[ この節 ](../content-management/preview.md) で説明されているように、メッセージコンテンツをテストおよび確認できるようになりました。
+1. 「**[!UICONTROL 保存]**」をクリックします。[&#x200B; この節 &#x200B;](../content-management/preview.md) で説明されているように、メッセージコンテンツをテストおよび確認できるようになりました。
 テストを実行してコンテンツを検証したら、[キャンペーンを送信](../campaigns/review-activate-campaign.md)したり、オーディエンスに[ジャーニーを公開](../building-journeys/publish-journey.md)したりできます。
 
 Adobe Experience Manager を使用すると、コンテンツフラグメントが使用されている Journey Optimizer キャンペーンまたはジャーニーを識別できます。詳しくは、[Adobe Experience Manager ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/extension-content-fragment-ajo-external-references)を参照してください。
