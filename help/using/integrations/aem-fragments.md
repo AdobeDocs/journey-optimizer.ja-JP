@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
-source-git-commit: 6cbe5d5e523f102ae340f1b33f3495fd721499d3
+source-git-commit: 13879953461a28c4c911030a165fbd0b6393bb07
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 100%
+source-wordcount: '647'
+ht-degree: 96%
 
 ---
 
@@ -35,6 +35,10 @@ AEM コンテンツフラグメントについて詳しくは、Experience Manag
 * 公開済みキャンペーンとジャーニーの本配信前確認には、最新の Experience Manager コンテンツフラグメントの公開からのデータが反映されます。
 
 ## Experience Manager でのタグの作成と割り当て
+
+>[!IMPORTANT]
+>
+>Journey Optimizerがコンテンツフラグメント管理 API を使用してAdobe Experience Manager コンテンツフラグメントにアクセスできるようにするには、まず [Dispatcherを設定 ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer#dispatcher-configuration) する必要があります。
 
 Journey Optimizer でコンテンツフラグメントを使用する前に、Journey Optimizer 専用のタグを作成する必要があります。
 
