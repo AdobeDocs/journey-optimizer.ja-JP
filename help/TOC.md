@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b06229e7a2fc64fbe28154c798b152cca8203a86
+source-git-commit: 9d6f9cf41b967e3185233d839cba229d9d4db908
 workflow-type: tm+mt
-source-wordcount: '3035'
+source-wordcount: '3024'
 ht-degree: 96%
 
 ---
@@ -472,9 +472,7 @@ ht-degree: 96%
       + [Adobe Stock との連携](using/integrations/stock.md)
       + [Adobe Express の操作](using/integrations/express.md)
       + [Experience Manager テンプレートの操作](using/integrations/aem-templates.md)
-      + Experience Manager コンテンツフラグメント {#fragments}
-         + [Experience Manager コンテンツフラグメントの基本を学ぶ](using/integrations/aem-fragments-gs.md)
-         + [Experience Manager コンテンツフラグメントの操作](using/integrations/aem-fragments.md)
+      + [Experience Manager コンテンツフラグメントの操作](using/integrations/aem-fragments.md)
       + [Dynamic Media の操作](using/integrations/aem-dynamic.md)
       + [GenStudio for Performance Marketing の操作](using/integrations/genstudio.md)
       + [統合の操作](using/integrations/external-sources.md)
@@ -928,7 +926,7 @@ ht-degree: 96%
    + [プライバシー](/help/rp_landing_pages/privacy-landing-page.md)
    + [プライバシーの基本を学ぶ](using/privacy/get-started-privacy.md)
    + [プライバシーリクエスト](using/privacy/requests.md)
-   + [&#x200B; リソースに対する監査アクション](using/privacy/audit-logs.md)
+   + [ リソースに対する監査アクション](using/privacy/audit-logs.md)
    + [データライフサイクル操作の実行](using/privacy/data-hygiene.md)
    + 同意を管理 {#consent}
       + [同意を管理](/help/rp_landing_pages/consent-landing-page.md)
