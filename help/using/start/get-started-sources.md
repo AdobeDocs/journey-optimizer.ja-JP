@@ -71,7 +71,7 @@ Journey Optimizerでは、既存のシステムに接続するための様々な
 * Salesforce
 * Salesforce Marketing Cloud
 
-➡️ 完全なリストについては、[Experience Platform ソースカタログを参照してください &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html#sources-catalog){target="_blank"}
+➡️ 完全なリストについては、[Experience Platform ソースカタログを参照してください &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja#sources-catalog){target="_blank"}
 
 ## 始める前に {#prerequisites}
 
@@ -109,7 +109,7 @@ Adobe Journey Optimizerは、Adobe Experience Platformのソースフレーム�
 
 これで、ソースの概要と重要性を理解できました。
 
-* [&#x200B; ソースカタログ &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html#sources-catalog){target="_blank"} を参照して、システムのコネクタを見つけます
+* [&#x200B; ソースカタログ &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja#sources-catalog){target="_blank"} を参照して、システムのコネクタを見つけます
 * 詳細情報 [&#x200B; ソース接続の作成 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/overview.html){target="_blank"}
 * [&#x200B; データマッピングと変換 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/overview.html){target="_blank"} について
 * 詳しくは、[&#x200B; 読み込んだデータをジャーニーで使用する &#x200B;](../building-journeys/journey-gs.md) を参照してください。
