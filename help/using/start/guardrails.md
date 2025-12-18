@@ -8,16 +8,16 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: d04cbbbec426cf1bf56004685172be2a9328ec18
 workflow-type: tm+mt
-source-wordcount: '3575'
+source-wordcount: '3574'
 ht-degree: 92%
 
 ---
 
 # ガードレールと制限 {#limitations}
 
-次に、[!DNL Adobe Journey Optimizer] を使用する際の追加のガードレールと制限を示します。
+[!DNL Adobe Journey Optimizer] を使用する際のガードレールと制限を以下に示します。
 
 使用権限、製品の制限事項、パフォーマンスガードレールの一覧について詳しくは、[Adobe Journey Optimizer 製品説明ページ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}を参照してください。
 
