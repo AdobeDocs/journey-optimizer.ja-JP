@@ -35,7 +35,7 @@ Journey OptimizerでAdobe Experience Manager コンテンツフラグメント�
 
 * **リポジトリアクセス**:Journey Optimizerは、Adobe Experience Manager パブリッシュ層とのみ統合されます。この層では、認証されていないパブリックエンドポイントを介してコンテンツフラグメントを利用できます。 オーサーリポジトリがリポジトリセレクターに表示される場合がありますが、Journey Optimizerで使用できるのはパブリッシュ層に公開されたコンテンツフラグメントのみです。
 
-* **コンテンツフラグメントのステータス**:Journey Optimizerには、「公開済み **** および **変更済み** ステータスのコンテンツフラグメントが表示されます。 いずれの場合も、最新の公開済みバージョンのみが使用されます。 公開後にフラグメントが変更された場合、その変更は、コンテンツフラグメントがJourney Optimizerで再公開されるまで、Adobe Experience Managerには反映されません。 Adobe Experience ManagerとJourney Optimizerの間には、バージョンの自動調整は行われません。
+* **コンテンツフラグメントのステータス**:Journey Optimizerには、「公開済み **&#x200B;**&#x200B;および **変更済み** ステータスのコンテンツフラグメントが表示されます。 いずれの場合も、最新の公開済みバージョンのみが使用されます。 公開後にフラグメントが変更された場合、その変更は、コンテンツフラグメントがJourney Optimizerで再公開されるまで、Adobe Experience Managerには反映されません。 Adobe Experience ManagerとJourney Optimizerの間には、バージョンの自動調整は行われません。
 
 * **Personalization**: プロファイル属性、コンテキスト属性、静的文字列、および事前宣言済み変数のみがサポートされています。 派生属性または計算属性はサポートされていません。
 
@@ -50,7 +50,7 @@ Journey OptimizerでAdobe Experience Manager コンテンツフラグメント�
 
 ![](assets/do-not-localize/AEM_CF.png)
 
-コンテンツフラグメントは、存在するAdobe Experience Manager層に応じて、異なるライフサイクルステージに従います。 [ 詳しくは、Adobe Experience Manager ドキュメントを参照してください ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/author-publish)
+コンテンツフラグメントは、存在するAdobe Experience Manager層に応じて、異なるライフサイクルステージに従います。 [&#x200B; 詳しくは、Adobe Experience Manager ドキュメントを参照してください &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/author-publish)
 
 コンテンツは **オーサー層** で作成および管理されます。この層では、フラグメントのステータスとして、新規、ドラフト、公開済み、変更済み、未公開のいずれかを使用できます。 これらのステータスは **オーサー層** にのみ適用され、コンテンツの作成とレビューをサポートします。
 
