@@ -7,7 +7,7 @@ feature: Integrations, Data Ingestion
 role: User
 level: Beginner
 exl-id: 359ea3c6-7746-469e-8a24-624f9726f2d8
-source-git-commit: 52b58d18cdbbff79f4dcb7af2817b178a4a0b429
+source-git-commit: 7864012ad148c2e52bc38598016e7bd7fac9644e
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 11%
@@ -71,7 +71,7 @@ Journey Optimizerでは、既存のシステムに接続するための様々な
 * Salesforce
 * Salesforce Marketing Cloud
 
-➡️ 完全なリストについては、[Experience Platform ソースカタログを参照してください &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja#sources-catalog){target="_blank"}
+➡️ 完全なリストについては、[Experience Platform ソースカタログを参照してください ](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html#sources-catalog){target="_blank"}
 
 ## 始める前に {#prerequisites}
 
@@ -81,7 +81,7 @@ Journey Optimizerでは、既存のシステムに接続するための様々な
 * **Source システム資格情報** – 接続する外部システムの認証の詳細
 * **データの把握** – 必要なデータフィールドと、それらがJourney Optimizer プロファイルにどのようにマッピングされるかを把握します。
 
-➡️ アクセス制御と権限 [&#x200B; について &#x200B;](../../administration/permissions.md) しく説明します
+➡️ アクセス制御と権限 [ について ](../administration/permissions.md) しく説明します
 
 ## ソースの仕組み {#how-sources-work}
 
@@ -103,13 +103,13 @@ Adobe Journey Optimizerは、Adobe Experience Platformのソースフレーム�
 
 >[!VIDEO](https://video.tv.adobe.com/v/335919?quality=12)
 
-ソースの設定と管理について詳しくは、[Adobe Experience Platform ソースのドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja){target="_blank"} を参照してください。
+ソースの設定と管理について詳しくは、[Adobe Experience Platform ソースのドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja){target="_blank"} を参照してください。
 
 ## 次の手順 {#next-steps}
 
 これで、ソースの概要と重要性を理解できました。
 
-* [&#x200B; ソースカタログ &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja#sources-catalog){target="_blank"} を参照して、システムのコネクタを見つけます
-* 詳細情報 [&#x200B; ソース接続の作成 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/overview.html){target="_blank"}
-* [&#x200B; データマッピングと変換 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/overview.html){target="_blank"} について
-* 詳しくは、[&#x200B; 読み込んだデータをジャーニーで使用する &#x200B;](../building-journeys/journey-gs.md) を参照してください。
+* [ ソースカタログ ](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html#sources-catalog){target="_blank"} を参照して、システムのコネクタを見つけます
+* 詳細情報 [ ソース接続の作成 ](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/overview.html){target="_blank"}
+* [ データマッピングと変換 ](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/overview.html){target="_blank"} について
+* 詳しくは、[ 読み込んだデータをジャーニーで使用する ](../building-journeys/journey-gs.md) を参照してください。
