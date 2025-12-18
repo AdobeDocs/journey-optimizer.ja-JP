@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: プレースメントの検索
 description: プレースメントは、オファーの表示に使用するコンテナです。
 feature: Decision Management, API
+badge: label="レガシー" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: db337b5c-426a-4695-81e8-3a1b041791f2
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '72'
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '90'
 ht-degree: 100%
 
 ---
 
 # プレースメントの検索 {#look-up-placement}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 特定のプレースメントを検索するには、プレースメント `id` を含む GET リクエストを [!DNL Offer Library] API に対して行います。
 

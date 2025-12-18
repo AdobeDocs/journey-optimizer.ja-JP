@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: フォールバックオファーを作成
 description: フォールバックオファーは、他のオファーの対象とならない顧客に送信されます。
 feature: Decision Management, API
+badge: label="レガシー" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 1a9c074a-187a-45b1-9ad0-378aeef0d03d
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '139'
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '157'
 ht-degree: 100%
 
 ---
 
 # フォールバックオファーを作成 {#create-fallback-offer}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 コンテナ ID を提供しながら [!DNL Offer Library] API に POST リクエストを実行することで、フォールバックオファーを作成できます。
 

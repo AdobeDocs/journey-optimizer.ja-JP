@@ -9,14 +9,18 @@ role: Developer
 level: Experienced
 exl-id: 45d060ce-0a12-4a6e-a594-ec10cdff8f38
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '155'
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '172'
 ht-degree: 100%
 
 ---
 
 # コンテキストデータと決定リクエスト {#context-data-decisioning}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../experience-decisioning/gs-experience-decisioning.md)
 
 この節では、決定リクエストでコンテキストデータを渡し、実施要件ルールで使用する方法について説明します。
 

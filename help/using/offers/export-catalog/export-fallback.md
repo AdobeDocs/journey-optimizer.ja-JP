@@ -10,14 +10,18 @@ role: User, Developer
 level: Intermediate
 exl-id: 73bfdc24-28cf-4cfd-bac9-a4ff1ea543e3
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '1004'
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '1021'
 ht-degree: 100%
 
 ---
 
 # フォールバックオファーデータセット {#fallback-dataset}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../experience-decisioning/gs-experience-decisioning.md)
 
 オファーが変更されるたびに、フォールバックオファーの自動生成データセットが更新されます。
 

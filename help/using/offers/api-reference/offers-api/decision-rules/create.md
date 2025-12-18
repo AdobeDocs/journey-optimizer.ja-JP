@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: 決定ルールの作成
 description: 決定ルールは、パーソナライズされたオファーに追加される制約で、実施要件を決定するためにプロファイルに適用されます。
 feature: Decision Management, API
+badge: label="レガシー" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 6a05efca-31bd-46d5-998d-ff3038d9013f
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '119'
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '137'
 ht-degree: 100%
 
 ---
 
 # 決定ルールの作成 {#create-decision-rule}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 決定ルールは、パーソナライズされたオファーに追加される制約で、実施要件を決定するためにプロファイルに適用されます。
 

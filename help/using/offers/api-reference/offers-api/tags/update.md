@@ -4,20 +4,26 @@ product: Journey Optimizer
 title: コレクション修飾子の更新
 description: コレクション修飾子を使用すると、オファーをより適切に整理し並べ替えることができます。
 feature: Decision Management, API
+badge: label="レガシー" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 918927e1-ad7a-4937-b652-2a0932e9efa1
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '117'
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '135'
 ht-degree: 100%
 
 ---
 
 
 # コレクション修飾子の更新 {#update-collection-qualifier}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 Offer Library API に対して PATCH リクエストを実行することで、コレクション修飾子（旧称「タグ」）を変更または更新できます。
 

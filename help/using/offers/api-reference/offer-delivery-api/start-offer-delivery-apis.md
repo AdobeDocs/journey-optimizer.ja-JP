@@ -3,20 +3,25 @@ solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: オファー配信 API の基本を学ぶ
 description: パーソナライズされたオファーの配信に使用できる API について説明します。
+badge: label="レガシー" type="Informative"
 feature: Decision Management, API
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 7bc1a4ec-113c-4af7-b549-ee17b843b818
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '469'
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '487'
 ht-degree: 100%
 
 ---
 
 # オファー配信 API の基本を学ぶ {#about-decisioning-apis}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../../experience-decisioning/gs-experience-decisioning.md)
 
 **Decisioning** API または **Edge Decisioning** API のいずれかを使用してオファーを配信できます。さらに、**Batch Decisioning** API を使用すると、特定のオーディエンス内のすべてのプロファイルに 1 回の呼び出しでオファーを配信できます。オーディエンス内の各プロファイルに対するオファーコンテンツは、Adobe Experience Platform データセットに配置され、カスタムバッチワークフローで使用できます。
 

@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: 決定ルールのリスト
 description: 決定ルールは、パーソナライズされたオファーに追加される制約で、実施要件を決定するためにプロファイルに適用されます。
 feature: Decision Management, API
+badge: label="レガシー" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 600aea10-3675-47b7-8f4b-f378308afd69
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '267'
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '285'
 ht-degree: 100%
 
 ---
 
 # 決定ルールのリスト {#list-decision-rules}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 決定ルールは、パーソナライズされたオファーに追加される制約で、実施要件を決定するためにプロファイルに適用されます。[!DNL Offer Library] API に対して単一の GET リクエストを実行することで、コンテナ内の既存の決定ルールのリストを表示できます。
 

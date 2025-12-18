@@ -10,14 +10,18 @@ role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 version: Journey Orchestration
-source-git-commit: e99ba08b86c682cdcb20be758590b97c0d474040
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '824'
 ht-degree: 100%
 
 ---
 
 # パーソナライズされたオファーの作成 {#create-personalized-offers}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../experience-decisioning/gs-experience-decisioning.md)
 
 オファーを作成する前に、以下が作成済みであることを確認してください。
 
@@ -170,4 +174,4 @@ ht-degree: 100%
 
 ## チュートリアルビデオ {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341356?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)

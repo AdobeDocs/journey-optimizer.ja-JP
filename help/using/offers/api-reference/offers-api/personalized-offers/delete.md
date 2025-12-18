@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: パーソナライズされたオファーの削除
 description: パーソナライズされたオファーは、実施要件ルールおよび制約に基づいてカスタマイズできるマーケティングメッセージです。
 feature: Decision Management, API
+badge: label="レガシー" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 52a5053d-3b94-47fd-a064-a20f9a595150
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '116'
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '134'
 ht-degree: 100%
 
 ---
 
 # パーソナライズされたオファーの削除 {#delete-personalized-offer}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 場合によっては、パーソナライズされたオファーを削除（DELETE）する必要があります。それには、削除するパーソナライズされたオファーの ID を使用して、[!DNL Offer Library] API に対する DELETE リクエストを実行します。
 

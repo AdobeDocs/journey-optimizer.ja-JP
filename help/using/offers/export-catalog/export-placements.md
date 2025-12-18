@@ -10,14 +10,18 @@ role: User, Developer
 level: Intermediate
 exl-id: 3e45f3cf-e17e-43a6-8424-98afef07aaa3
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '366'
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '383'
 ht-degree: 100%
 
 ---
 
 # プレースメントデータセット {#placements-dataset}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../experience-decisioning/gs-experience-decisioning.md)
 
 オファーを変更するたびに、プレースメントの自動生成データセットが更新されます。
 

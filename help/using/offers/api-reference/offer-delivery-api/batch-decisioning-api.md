@@ -3,21 +3,26 @@ solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: Batch Decisioning API
 description: Batch Decisioning API を使用して、事前定義された決定範囲内でオーディエンスのプロファイルに最適なオファーを選択する方法を説明します。
+badge: label="レガシー" type="Informative"
 feature: Decision Management, API
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '729'
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '747'
 ht-degree: 100%
 
 ---
 
 
 # [!DNL Batch Decisioning] API を使用したオファーの配信 {#deliver-offers-batch}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../../experience-decisioning/gs-experience-decisioning.md)
 
 [!DNL Batch Decisioning] API を使用すると、組織は、1 回の呼び出しで特定のオーディエンスのすべてのプロファイルに対して決定支援機能を使用できます。オーディエンス内の各プロファイルに対するオファーコンテンツは、Adobe Experience Platform データセットに配置され、カスタムバッチワークフローで使用できます。
 
@@ -33,7 +38,7 @@ ht-degree: 100%
 
 * データセットをメッセージ配信ベンダー API にエクスポートします。
 
-<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=ja) to learn more about exporting audiences.) -->
+<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html) to learn more about exporting audiences.) -->
 
 >[!NOTE]
 >

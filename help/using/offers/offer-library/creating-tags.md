@@ -10,14 +10,18 @@ role: User
 level: Intermediate
 exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '186'
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '203'
 ht-degree: 100%
 
 ---
 
 # コレクション修飾子の作成 {#create-tags}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../experience-decisioning/gs-experience-decisioning.md)
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_tags"
@@ -48,4 +52,4 @@ ht-degree: 100%
 
 ## チュートリアルビデオ {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341372?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329374?quality=12)

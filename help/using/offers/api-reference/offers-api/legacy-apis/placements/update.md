@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: プレースメントの更新
 description: プレースメントは、オファーの表示に使用するコンテナです。
 feature: Decision Management, API
+badge: label="レガシー" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 759c58e7-af1e-409c-8400-996b9a647ba7
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '160'
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '178'
 ht-degree: 100%
 
 ---
 
 # プレースメントの更新 {#update-placement}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 [!DNL Offer Library] API に対して PATCH リクエストを実行することで、コンテナ内のプレースメントを変更または更新できます。
 

@@ -10,14 +10,18 @@ role: User, Developer
 level: Intermediate
 exl-id: 064762b7-9774-42eb-bcef-1d92bc94a988
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '1530'
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '1547'
 ht-degree: 100%
 
 ---
 
 # 決定データセット {#decisions-dataset}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../experience-decisioning/gs-experience-decisioning.md)
 
 オファーを変更するたびに、自動生成された決定データセットが更新されます。
 
@@ -185,7 +189,7 @@ ht-degree: 100%
 
 * 名前空間
 
-  **フィールド：**namespace
+  **フィールド：** 名前空間
   **タイトル：**名前空間
   **説明：**&#x200B;属性に関連付けられた名前空間`xid` 。
   **タイプ：**オブジェクト

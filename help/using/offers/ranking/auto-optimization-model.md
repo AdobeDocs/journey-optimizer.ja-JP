@@ -9,14 +9,18 @@ role: User
 level: Experienced
 exl-id: a85de6a9-ece2-43da-8789-e4f8b0e4a0e7
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '1492'
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '1509'
 ht-degree: 100%
 
 ---
 
 # 自動最適化モデル {#auto-optimization-model}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../experience-decisioning/gs-experience-decisioning.md)
 
 自動最適化モデルは、ビジネスクライアントが設定する KPI（リターン）を最大化するオファーを提供することを目的としています。これらの KPI は、コンバージョン率、売上高などの形式で設定できます。現時点では、自動最適化は、オファーコンバージョンをターゲットとするオファークリック数の最適化に的を絞っています。自動最適化は、パーソナライズされておらず、オファーの「グローバル」パフォーマンスに基づいて最適化されます。
 

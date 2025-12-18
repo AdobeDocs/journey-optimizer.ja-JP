@@ -10,14 +10,18 @@ role: User
 level: Intermediate
 exl-id: 9ba16ad9-a5e7-4ce7-8ed6-7707d37178c6
 version: Journey Orchestration
-source-git-commit: e99ba08b86c682cdcb20be758590b97c0d474040
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '409'
 ht-degree: 93%
 
 ---
 
 # フォールバックオファーを作成 {#create-fallback-offers}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../experience-decisioning/gs-experience-decisioning.md)
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_new_fallback"
@@ -76,5 +80,5 @@ ht-degree: 93%
 
 ## チュートリアルビデオ {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341357?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329383?quality=12)
 

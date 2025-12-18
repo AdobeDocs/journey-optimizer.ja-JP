@@ -4,20 +4,26 @@ product: Journey Optimizer
 title: フォールバックオファーの削除
 description: フォールバックオファーは、他のオファーの対象とならない顧客に送信されます。
 feature: Decision Management, API
+badge: label="レガシー" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 5c94842a-021c-4a3a-ad9c-ccc2af2c1526
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '119'
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '137'
 ht-degree: 100%
 
 ---
 
 
 # フォールバックオファーの削除 {#delete-fallback-offer}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 場合によっては、フォールバックオファーを削除（DELETE）する必要があります。それには、削除するフォールバックオファーの ID を使用して、[!DNL Offer Library] API に対する DELETE リクエストを実行します。
 

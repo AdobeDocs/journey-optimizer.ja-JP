@@ -10,14 +10,18 @@ role: User
 level: Intermediate
 exl-id: 4f7f7d1d-a12a-4ff6-b0ff-1a1c3d305a9d
 version: Journey Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '413'
 ht-degree: 100%
 
 ---
 
 # AI モデルの基本を学ぶ {#ai-models}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../experience-decisioning/gs-experience-decisioning.md)
 
 [!DNL Journey Optimizer] では、トレーニング済みモデルシステムを使用し、特定のプロファイルに表示するオファーにランクを付けることができます。
 
@@ -65,4 +69,4 @@ AI モデルを作成して使用する主な手順は次のとおりです。
 
 Offer Decisioning 用の AI モデルを作成する方法と、モデルを決定に適用する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3445645?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3419959?quality=12)

@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: フォールバックオファーのリスト
 description: フォールバックオファーは、他のオファーの対象とならない顧客に送信されます。
 feature: Decision Management, API
+badge: label="レガシー" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: dd95c040-d905-4f5a-8cc5-58e39082e57e
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '210'
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '228'
 ht-degree: 100%
 
 ---
 
 # フォールバックオファーのリスト {#list-fallback-offers}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 フォールバックオファーは、他のオファーに対する資格がない場合に顧客に送信されます。フォールバックオファーの作成手順は、オファーを作成する際のように、1 つまたは複数の表示域を作成することで構成されます。
 

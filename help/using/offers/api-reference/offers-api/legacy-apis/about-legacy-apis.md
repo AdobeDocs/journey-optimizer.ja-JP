@@ -3,19 +3,24 @@ solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: レガシー API
 description: 意思決定管理オブジェクトの作成と管理のための API が更新されました。
+badge: label="レガシー" type="Informative"
 feature: Decision Management, API
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: cfe8162b-d50f-4ad3-8b62-9d30b756ad1b
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '59'
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '77'
 ht-degree: 100%
 
 ---
 
 # レガシー API について
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../../../experience-decisioning/gs-experience-decisioning.md)
 
 意思決定管理オブジェクトの作成と管理のための API が更新されました。これらの更新された API では、パフォーマンスと全体的なユーザーエクスペリエンスを向上させます。従来の API は、2024年3月27日（PT）に廃止されます。その前に必要な変更を行ってください。

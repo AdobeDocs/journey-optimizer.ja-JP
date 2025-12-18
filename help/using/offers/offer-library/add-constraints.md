@@ -10,14 +10,18 @@ role: User
 level: Intermediate
 exl-id: 7234a8e8-4ab0-4f17-a833-5e452fadac35
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '2729'
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '2746'
 ht-degree: 100%
 
 ---
 
 # オファーへの制約の追加 {#add-constraints}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../experience-decisioning/gs-experience-decisioning.md)
 
 >[!CONTEXTUALHELP]
 >id="od_offer_constraints"
@@ -79,7 +83,7 @@ ht-degree: 100%
 >title="オファー実施要件について"
 >abstract="このセクションでは、決定ルールを使用して、オファーの対象となるユーザーを決定できます。"
 
-<!--additional-url="https://video.tv.adobe.com/v/341373?captions=jpn" text="Watch demo video"-->
+<!--additional-url="https://video.tv.adobe.com/v/329373" text="Watch demo video"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_total_profile_estimate"

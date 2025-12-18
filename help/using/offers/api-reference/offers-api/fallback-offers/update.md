@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: フォールバックオファーの更新
 description: フォールバックオファーは、他のオファーの対象とならない顧客に送信されます。
 feature: Decision Management, API
+badge: label="レガシー" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 7ff69887-620f-4bc0-b8ff-5144ff30696c
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '155'
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '173'
 ht-degree: 100%
 
 ---
 
 # フォールバックオファーの更新 {#update-fallback-offer}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 [!DNL Offer Library] API に対して PATCH リクエストを実行することで、コンテナ内のフォールバックオファーを変更または更新できます。
 

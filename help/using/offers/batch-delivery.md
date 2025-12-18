@@ -9,14 +9,18 @@ role: User
 level: Intermediate
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '842'
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '859'
 ht-degree: 100%
 
 ---
 
 # バッチ決定 {#deliver}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../experience-decisioning/gs-experience-decisioning.md)
 
 ## Batch Decisioning の基本を学ぶ {#start}
 

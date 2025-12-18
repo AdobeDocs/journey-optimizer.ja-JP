@@ -9,14 +9,18 @@ role: Developer
 level: Experienced
 exl-id: 4e736f9d-0f05-4a79-8ebf-ea22517d78a9
 version: Journey Orchestration
-source-git-commit: d0b3a4e90b8eca6f5929f92f203c4bc296da7615
-workflow-type: ht
-source-wordcount: '210'
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '227'
 ht-degree: 100%
 
 ---
 
 # コンテキストデータの基本を学ぶ {#context-data}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../experience-decisioning/gs-experience-decisioning.md)
 
 決定リクエストの一部として送信したデータは、コンテキストデータと見なされます。決定エンジンでコンテキストデータを活用できます。例えば、決定リクエストが行われた時点で、現在の天気が 80 度以上であることを要求する決定ルールを設計できます。
 

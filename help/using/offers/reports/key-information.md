@@ -10,12 +10,16 @@ role: User, Developer
 level: Intermediate
 exl-id: 07be59e8-e994-4854-8089-25614d005dbe
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '23'
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '40'
 ht-degree: 100%
 
 ---
 
 # 意思決定管理イベントの主な情報 {#events-key-information}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../experience-decisioning/gs-experience-decisioning.md)
 

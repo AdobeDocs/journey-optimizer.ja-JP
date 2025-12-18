@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: コレクション修飾子の検索
 description: コレクション修飾子を使用すると、オファーをより適切に整理し並べ替えることができます。
 feature: Decision Management, API
+badge: label="レガシー" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: f31e6a17-c99a-4db9-a301-426a1f0bcc92
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '90'
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '108'
 ht-degree: 100%
 
 ---
 
 # コレクション修飾子の検索 {#look-up-tag}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 特定のコレクション修飾子（旧称「タグ」）を検索するには、リクエストパスにコレクション修飾子 `id` を含んだ GET リクエストを [!DNL Offer Library] API に対して実行します。
 

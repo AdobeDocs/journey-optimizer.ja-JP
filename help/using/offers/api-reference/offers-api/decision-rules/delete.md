@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: 決定ルールの削除
 description: 決定ルールは、パーソナライズされたオファーに追加される制約で、実施要件を決定するためにプロファイルに適用されます。
 feature: Decision Management, API
+badge: label="レガシー" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 52f4803b-9e9a-4ad0-ae24-de652006763d
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '120'
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '138'
 ht-degree: 100%
 
 ---
 
 # 決定ルールの削除 {#delete-decision-rule}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 場合によっては、決定ルールを削除（DELETE）する必要があります。これは、削除する決定ルールの `id` を使用して [!DNL Offer Library] API に対する DELETE リクエストを実行することで行います。
 

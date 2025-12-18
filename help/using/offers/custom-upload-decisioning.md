@@ -9,14 +9,18 @@ role: User
 level: Intermediate
 exl-id: bd950410-691b-49d8-8851-8c6c448c00fd
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '533'
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '550'
 ht-degree: 100%
 
 ---
 
 # 決定にカスタムアップロードオーディエンスを活用 {#custom-upload-decisioning}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../experience-decisioning/gs-experience-decisioning.md)
 
 Journey Optimizer を使用すると、カスタムアップロード（CSV ファイル）を使用して作成されたオーディエンスのデータを Adobe Experience Platform に活用して、意思決定管理ワークフローをサポートできます。これは、データがプロファイルには必要ないものの、意思決定には依然として不可欠な場合に、特に便利です。
 

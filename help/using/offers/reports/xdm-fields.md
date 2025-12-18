@@ -9,14 +9,18 @@ role: User, Developer
 level: Intermediate
 exl-id: f85563e2-fc83-49fb-8771-0f0656a90f9a
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '96'
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '113'
 ht-degree: 100%
 
 ---
 
 # イベントの XDM フィールドへのアクセス {#decisioningevents-xdm-schema}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../experience-decisioning/gs-experience-decisioning.md)
 
 意思決定管理イベントを含むデータセットから、DecisioningEvents XDM スキーマに直接アクセスできます。
 

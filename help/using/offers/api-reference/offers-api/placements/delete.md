@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: プレースメントの削除
 description: プレースメントは、オファーの表示に使用するコンテナです。
 feature: Decision Management, API
+badge: label="レガシー" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: ca7af3b0-62cd-44ac-8856-b3d1ec15f284
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '109'
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '127'
 ht-degree: 100%
 
 ---
 
 # プレースメントの削除 {#delete-placement}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 場合によっては、プレースメントを削除（DELETE）する必要があります。これは、削除するプレースメントの ID を使用して [!DNL Offer Library] API に対する DELETE リクエストを実行することで行います。
 

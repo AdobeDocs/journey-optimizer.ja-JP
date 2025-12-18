@@ -4,20 +4,26 @@ product: Journey Optimizer
 title: コレクション修飾子のリスト
 description: コレクション修飾子を使用すると、オファーをより適切に整理し並べ替えることができます。
 feature: Decision Management, API
+badge: label="レガシー" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 8cee44ed-5569-416c-b463-e75fb20d4c9c
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '232'
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '250'
 ht-degree: 100%
 
 ---
 
 
 # コレクション修飾子のリスト {#list-tags}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 コレクション修飾子（旧称「タグ」）を使用すると、オファーをより適切に整理し並べ替えることができます。例えば、ブラックフライデーのオファーに「ブラックフライデー」コレクション修飾子のラベルを付けることができます。オファーライブラリの検索機能を使用すると、そのコレクション修飾子を持つすべてのオファーを簡単に見つけることができます。
 

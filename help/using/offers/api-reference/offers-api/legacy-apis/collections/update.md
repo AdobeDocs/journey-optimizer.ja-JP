@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: コレクションの更新
 description: コレクションは、マーケターが事前に定義した条件（オファーのカテゴリなど）に基づくオファーのサブセットです。
 feature: Decision Management, API, Collections
+badge: label="レガシー" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: bf12d22f-e6c0-45fd-a2b2-149d3f4cf882
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '165'
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '183'
 ht-degree: 100%
 
 ---
 
 # コレクションの更新 {#update-collection}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 [!DNL Offer Library] API に対して PATCH リクエストを実行することで、コレクションを変更または更新できます
 

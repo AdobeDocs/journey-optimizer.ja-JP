@@ -9,14 +9,18 @@ role: User
 level: Intermediate
 exl-id: d2872bd3-42f8-4744-bb5b-41c49340098a
 version: Journey Orchestration
-source-git-commit: 753f6bc8130b0a743aac1208a8e5aac58e3dbbfd
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '365'
 ht-degree: 100%
 
 ---
 
 # 意思決定管理ガードレールと制限 {#decision-management-guardrails}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../experience-decisioning/gs-experience-decisioning.md)
 
 意思決定管理の最適な使用を確保するには、次のガードレールと制限に注意してください。
 

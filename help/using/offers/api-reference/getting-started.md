@@ -3,20 +3,25 @@ solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: はじめに
 description: 意思決定エンジンを使用して主要な操作を実行するために、Offer Library API の使用を開始する方法について説明します。
+badge: label="レガシー" type="Informative"
 feature: Decision Management, API
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '382'
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '400'
 ht-degree: 100%
 
 ---
 
 # 意思決定管理 API デベロッパーガイド {#decision-management-api-developer-guide}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../experience-decisioning/gs-experience-decisioning.md)
 
 >[!CONTEXTUALHELP]
 >id="od_api_support"
@@ -75,5 +80,5 @@ ht-degree: 100%
 
 The following video is intended to support your understanding of the components of Decision Management.
 
->[!VIDEO](https://video.tv.adobe.com/v/342831?captions=jpn&quality=12) -->
+>[!VIDEO](https://video.tv.adobe.com/v/329919?quality=12) -->
 

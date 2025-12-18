@@ -3,20 +3,25 @@ solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: オファーの配信
 description: 意思決定管理は、マーケターがビジネスロジックと決定ルールを使用してエンドユーザー向けにパーソナライズされたオファーエクスペリエンスを作成し、あらゆるチャネルとアプリケーションに配信できるようにする、一連のサービスと UI プログラムで構成されています。
+badge: label="レガシー" type="Informative"
 feature: Decision Management, API
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
 version: Journey Orchestration
-source-git-commit: f30113bf07c42f75bb986a81af49367ac682f4af
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '1094'
+source-wordcount: '1112'
 ht-degree: 96%
 
 ---
 
 # Decisioning API を使用したオファーの配信 {#decisioning-api}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../../experience-decisioning/gs-experience-decisioning.md)
 
 意思決定管理を使用すると、ビジネスロジックと決定ルールを使用し、あらゆるチャネルやアプリケーションをまたいで、パーソナライズされたオファーエクスペリエンスを作成し、エンドユーザーに配信できます。
 オファーとは、オファーを表示する資格のあるユーザーを指定するルールが関連付けられているマーケティングメッセージです。
@@ -31,7 +36,7 @@ ht-degree: 96%
 >
 >**決定リクエストでコンテキストデータを渡す**
 >
->決定リクエストでコンテキストデータ（デバイスタイプ、場所、ユーザーの環境設定など）を渡して、動的な実施要件ルールを作成し、リアルタイムの条件に基づいてパーソナライズされたオファーを配信できます。 [&#x200B; コンテキストデータと決定リクエストの詳細 &#x200B;](../../context-data-decisioning.md)
+>決定リクエストでコンテキストデータ（デバイスタイプ、場所、ユーザーの環境設定など）を渡して、動的な実施要件ルールを作成し、リアルタイムの条件に基づいてパーソナライズされたオファーを配信できます。 [ コンテキストデータと決定リクエストの詳細 ](../../context-data-decisioning.md)
 
 ## 必須ヘッダー {#required-headers}
 
@@ -231,7 +236,7 @@ The following video is intended to support your understanding of the components 
 >
 >This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/342831/?captions=jpn&quality=12) -->
+>[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12) -->
 
 ## 次の手順 {#next-steps}
 

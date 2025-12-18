@@ -10,14 +10,18 @@ role: User, Developer
 level: Intermediate
 exl-id: 51830c63-fa88-47e7-8605-192297fcf6b8
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '295'
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '312'
 ht-degree: 100%
 
 ---
 
 # 意思決定管理イベントの基本を学ぶ {#monitor-offer-events}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../experience-decisioning/gs-experience-decisioning.md)
 
 意思決定管理で特定のプロファイルに対する決定が行われるたびに、これらのイベントに関連する情報が Adobe Experience Platform に自動的に送信されます。
 

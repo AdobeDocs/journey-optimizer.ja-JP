@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: コレクションの削除
 description: コレクションは、マーケターが事前に定義した条件（オファーのカテゴリなど）に基づくオファーのサブセットです。
 feature: Decision Management, API, Collections
+badge: label="レガシー" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 2eaa0092-2436-4679-83f1-7530ab4a858f
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '117'
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '135'
 ht-degree: 100%
 
 ---
 
 # コレクションの削除 {#delete-collection}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 場合によっては、コレクションを削除（DELETE）する必要があります。これは、削除するコレクションの `id` を使用して [!DNL Offer Library] API に対して DELETE リクエストを実行することで行います。
 

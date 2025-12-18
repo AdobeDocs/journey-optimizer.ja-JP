@@ -10,14 +10,18 @@ role: User
 level: Intermediate
 exl-id: f736dcc7-6f6e-42ff-a940-4602299ae2b6
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '126'
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '143'
 ht-degree: 100%
 
 ---
 
 # ランキングの基本を学ぶ {#create-fallback-offers}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../experience-decisioning/gs-experience-decisioning.md)
 
 [!DNL Journey Optimizer] では、ランク付けを使用して、特定のプロファイルに対して表示するオファーをランク付けできます。
 

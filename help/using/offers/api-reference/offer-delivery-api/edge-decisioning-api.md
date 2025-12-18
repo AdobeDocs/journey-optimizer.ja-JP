@@ -3,20 +3,25 @@ solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: Edge Decisioning API を使用したオファーの配信
 description: Adobe Experience Platform Web SDK を使用すると、API またはオファーライブラリを使用して作成した、パーソナライズされたオファーを取得およびレンダリングできます。
+badge: label="レガシー" type="Informative"
 feature: Decision Management, API
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
 version: Journey Orchestration
-source-git-commit: f30113bf07c42f75bb986a81af49367ac682f4af
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
 workflow-type: tm+mt
-source-wordcount: '935'
+source-wordcount: '953'
 ht-degree: 95%
 
 ---
 
 # Edge Decisioning API を使用したオファーの配信 {#edge-decisioning-api}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../../experience-decisioning/gs-experience-decisioning.md)
 
 ## 概要と前提条件 {#edge-overview-and-prerequisites}
 
@@ -59,7 +64,7 @@ SDK を使用するには、[スキーマ](../../../data/get-started-schemas.md)
 >
 >**Edge Decisioning リクエストでコンテキストデータを渡す**
 >
->Edge Decisioning リクエストでコンテキストデータ（デバイスタイプ、場所、ユーザーの環境設定など）を渡し、動的な実施要件ルールを作成し、リアルタイムの条件に基づいてパーソナライズされたオファーを配信できます。 [&#x200B; コンテキストデータとEdge Decisioning リクエストについて詳しくはこちらから &#x200B;](../../context-data-edge.md)
+>Edge Decisioning リクエストでコンテキストデータ（デバイスタイプ、場所、ユーザーの環境設定など）を渡し、動的な実施要件ルールを作成し、リアルタイムの条件に基づいてパーソナライズされたオファーを配信できます。 [ コンテキストデータとEdge Decisioning リクエストについて詳しくはこちらから ](../../context-data-edge.md)
 
 意思決定管理の SDK を設定するには、次の 2 つの手順に従います。
 

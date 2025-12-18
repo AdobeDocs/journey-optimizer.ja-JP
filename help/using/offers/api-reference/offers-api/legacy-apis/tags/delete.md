@@ -4,19 +4,25 @@ product: Journey Optimizer
 title: コレクション修飾子の削除
 description: コレクション修飾子を使用すると、オファーをより適切に整理し並べ替えることができます。
 feature: Decision Management, API
+badge: label="レガシー" type="Informative"
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: cc67519e-7a80-49c7-8c8b-c777be633026
 version: Journey Orchestration
-source-git-commit: d6a9a8a392f0492aa6e4f059198ce77b6b2cd962
-workflow-type: ht
-source-wordcount: '159'
+source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+workflow-type: tm+mt
+source-wordcount: '177'
 ht-degree: 100%
 
 ---
 
 # コレクション修飾子の削除 {#delete-tag}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../experience-decisioning/gs-experience-decisioning.md)
+
 
 コレクション修飾子（旧称「タグ」）を削除（DELETE）する必要が生じる場合があります。 テナントコンテナで作成したコレクション修飾子のみを削除できます。これは、削除するコレクション修飾子の $id を使用して [!DNL Offer Library] API に対する DELETE リクエストを実行することで行います。
 
