@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: d3559564b0bf33428a703f7909eed908f1c452a4
+source-git-commit: b7550b55327cb27e67cb914c340bdd08360d4490
 workflow-type: tm+mt
-source-wordcount: '7908'
+source-wordcount: '7909'
 ht-degree: 99%
 
 ---
@@ -52,13 +52,13 @@ ht-degree: 99%
 <table>
 <thead>
 <tr>
-<th><strong>Journey エージェントが公開されました</strong><br/></th>
+<th><strong>Journey Agent が公開されました</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p><a href="https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform エージェントオーケストレーター</a>を活用した Journey エージェントは、Journey Optimizer で使用できます。これにより、自然言語インターフェイスを通じてジャーニーを分析できます。エージェントは、オーディエンスやスケジュールの競合と、ジャーニーでのプロファイルのドロップオフを検出して解決するのに役立ちます。近日中に、エージェント型サポートによるジャーニーを作成できます。</p>
+<p><a href="https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform エージェントオーケストレーター</a>を活用した Journey Agent は、Journey Optimizer で使用できます。これにより、自然言語インターフェイスを通じてジャーニーを分析できます。エージェントは、オーディエンスやスケジュールの競合と、ジャーニーでのプロファイルのドロップオフを検出して解決するのに役立ちます。近日中に、エージェント型サポートによるジャーニーを作成できます。</p>
 <p>詳しくは、<a href="https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2025年9月24日（PT）</p>
 </td>
@@ -1615,7 +1615,7 @@ HTML タイプのコンテンツテンプレートは非推奨（廃止予定）
 
 **同意ポリシー**
 
-メールチャネル設定のマーケティングアクションを通じて、カスタム同意ポリシーを活用できるようになりました。 [詳細情報](../action/consent.md#surface-marketing-actions)
+トランザクション E メールチャネル設定のマーケティングアクションを通じて、カスタム同意ポリシーを活用できるようになりました。 [詳細情報](../action/consent.md#surface-marketing-actions)
 
 <!--**Deliverability**
 
