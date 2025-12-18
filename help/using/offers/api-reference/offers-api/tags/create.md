@@ -10,7 +10,7 @@ role: Developer
 level: Experienced
 exl-id: f3f7cccb-0173-409e-8b76-8b6e136a22ac
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 100%
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
 Offer Library API に対して POST リクエストを実行することで、コレクション修飾子（旧称「タグ」）を作成できます。

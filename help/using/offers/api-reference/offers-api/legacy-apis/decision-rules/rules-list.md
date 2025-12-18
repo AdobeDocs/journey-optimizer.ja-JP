@@ -10,7 +10,7 @@ role: Developer
 level: Experienced
 exl-id: 600aea10-3675-47b7-8f4b-f378308afd69
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 100%
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
 決定ルールは、パーソナライズされたオファーに追加される制約で、実施要件を決定するためにプロファイルに適用されます。[!DNL Offer Library] API に対して単一の GET リクエストを実行することで、コンテナ内の既存の決定ルールのリストを表示できます。

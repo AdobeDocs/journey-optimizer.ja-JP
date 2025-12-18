@@ -10,7 +10,7 @@ role: Developer
 level: Experienced
 exl-id: 0eb68312-5567-4728-b184-9d40107676a0
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 100%
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
 フォールバックオファーは、他のオファーに対する資格がない場合に顧客に送信されます。フォールバックオファーの作成手順は、オファーを作成する際のように、1 つまたは複数の表示域を作成することで構成されます。

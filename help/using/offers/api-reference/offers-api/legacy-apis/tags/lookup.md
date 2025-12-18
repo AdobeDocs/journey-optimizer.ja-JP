@@ -10,7 +10,7 @@ role: Developer
 level: Experienced
 exl-id: f31e6a17-c99a-4db9-a301-426a1f0bcc92
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 100%
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
 特定のコレクション修飾子（旧称「タグ」）を検索するには、リクエストパスにコレクション修飾子 `id` を含んだ GET リクエストを [!DNL Offer Library] API に対して実行します。

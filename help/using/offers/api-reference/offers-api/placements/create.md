@@ -10,7 +10,7 @@ role: Developer
 level: Experienced
 exl-id: 7b735873-86f5-466f-b079-5e84d9f03a08
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 100%
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
 [!DNL Offer Library] API に POST リクエストを実行することで、プレースメントを作成できます。

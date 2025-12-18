@@ -10,7 +10,7 @@ role: Developer
 level: Experienced
 exl-id: 6ae37843-2679-48a3-96ef-bb93a5d4a333
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 100%
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
 場合によっては、パーソナライズされたオファーを削除（DELETE）する必要があります。テナントコンテナで作成したパーソナライズされたオファーのみを削除できます。これは、削除するパーソナライズされたオファーの $id を使用して [!DNL Offer Library] API に対する DELETE リクエストを実行することでおこないます。

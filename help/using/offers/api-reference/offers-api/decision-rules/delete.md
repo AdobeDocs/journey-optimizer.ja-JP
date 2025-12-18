@@ -10,7 +10,7 @@ role: Developer
 level: Experienced
 exl-id: 52f4803b-9e9a-4ad0-ae24-de652006763d
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 100%
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
 場合によっては、決定ルールを削除（DELETE）する必要があります。これは、削除する決定ルールの `id` を使用して [!DNL Offer Library] API に対する DELETE リクエストを実行することで行います。
