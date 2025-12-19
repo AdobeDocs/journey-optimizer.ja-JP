@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9d6f9cf41b967e3185233d839cba229d9d4db908
+source-git-commit: c9fd0aeda42f8833a542ecafae8c60aaebde4ef0
 workflow-type: tm+mt
-source-wordcount: '3024'
+source-wordcount: '3033'
 ht-degree: 96%
 
 ---
@@ -235,14 +235,22 @@ ht-degree: 96%
       + [リクエストの承認](using/test-approve/review-approve-request.md)
 + 監視とトラブルシューティング {#monitor}
    + [監視とトラブルシューティング](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
-   + [システムアラート](using/reports/alerts.md)
-   + [エラーコードの参照](using/building-journeys/error-codes-reference.md)
-   + [トラブルシューティング記事](using/start/troubleshooting.md)
-   + ジャーニーのトラブルシューティング {#troubleshoot-journey}
-      + [ジャーニーエラーのトラブルシューティング](using/building-journeys/troubleshooting.md)
-      + [ジャーニー実行のトラブルシューティング](using/building-journeys/troubleshooting-execution.md)
-      + [インバウンドアクションのトラブルシューティング](using/building-journeys/troubleshooting-inbound.md)
-      + [カスタムアクションのトラブルシューティング](using/action/troubleshoot-custom-action.md)
+   + [トラッキングの基本を学ぶ](using/start/get-started-tracking.md)
+   + メールの配信品質 {#deliverability}
+      + [メールの配信品質](/help/rp_landing_pages/deliverability-landing-page.md)
+      + [配信品質の基本を学ぶ](using/reports/deliverability.md)
+      + [抑制リストについて](using/reports/suppression-list.md)
+      + [新しい DMARC 要件](using/configuration/dmarc-record-update.md)
+   + アラートとエラーコードの監視 {#monitor-alerts-errors}
+      + [システムアラート](using/reports/alerts.md)
+      + [エラーコードの参照](using/building-journeys/error-codes-reference.md)
+   + トラブルシューティング {#troubleshooting}
+      + [トラブルシューティング FAQ](using/start/troubleshooting.md)
+      + ジャーニーのトラブルシューティング {#troubleshoot-journey}
+         + [ジャーニーエラーのトラブルシューティング](using/building-journeys/troubleshooting.md)
+         + [ジャーニー実行のトラブルシューティング](using/building-journeys/troubleshooting-execution.md)
+         + [インバウンドアクションのトラブルシューティング](using/building-journeys/troubleshooting-inbound.md)
+         + [カスタムアクションのトラブルシューティング](using/action/troubleshoot-custom-action.md)
 + 通信チャネル {#channels}
    + [通信チャネルの概要](using/channels/gs-channels.md)
    + メールチャネル {#email}
@@ -288,11 +296,6 @@ ht-degree: 96%
          + [ヘッダーパラメーター](using/email/header-parameters.md)
          + [URL トラッキング](using/email/url-tracking.md)
          + [メール設定のパーソナライズ](using/email/surface-personalization.md)
-      + メールの配信品質 {#deliverability}
-         + [メールの配信品質](/help/rp_landing_pages/deliverability-landing-page.md)
-         + [配信品質の基本を学ぶ](using/reports/deliverability.md)
-         + [抑制リストについて](using/reports/suppression-list.md)
-         + [新しい DMARC 要件](using/configuration/dmarc-record-update.md)
    + アプリ内チャネル {#in-app}
       + [アプリ内チャネル](/help/rp_landing_pages/in-app-landing-page.md)
       + [アプリ内の基本を学ぶ](using/in-app/get-started-in-app.md)
@@ -926,7 +929,7 @@ ht-degree: 96%
    + [プライバシー](/help/rp_landing_pages/privacy-landing-page.md)
    + [プライバシーの基本を学ぶ](using/privacy/get-started-privacy.md)
    + [プライバシーリクエスト](using/privacy/requests.md)
-   + [&#x200B; リソースに対する監査アクション](using/privacy/audit-logs.md)
+   + [ リソースに対する監査アクション](using/privacy/audit-logs.md)
    + [データライフサイクル操作の実行](using/privacy/data-hygiene.md)
    + 同意を管理 {#consent}
       + [同意を管理](/help/rp_landing_pages/consent-landing-page.md)
