@@ -8,9 +8,9 @@ topic: Administration
 role: User
 level: Beginner
 keywords: トラッキング，監視，分析，レポート，配信品質
-source-git-commit: c7ff5b6cc83313855f3ecd6c6d7b3b7ed6358af9
+source-git-commit: a326f6df3332519b2c3efc77a0a0f26e629f1145
 workflow-type: tm+mt
-source-wordcount: '1822'
+source-wordcount: '1813'
 ht-degree: 3%
 
 ---
@@ -91,11 +91,11 @@ Journey Optimizerは、チャネル固有のトラッキング機能を提供し
 
 * **URL トラッキングパラメーターの設定** - サーフェスレベルでトラッキングパラメーターを設定して、すべてのメールリンクにキャンペーン識別子（utm_campaign、utm_source など）を自動的に追加します。 これにより、デジタルエコシステム全体でアトリビューショントラッキングが可能になります。 [詳細情報](../email/url-tracking.md)
 
-* **フラグメント内のリンクの追跡** – 再利用可能なコンテンツフラグメント内のすべてのリンクは自動的に追跡され、共有コンテンツコンポーネント間のエンゲージメントの完全なビューを提供します。
+* **保存されたフラグメント内のリンクのトラッキング** - ジャーニーまたはキャンペーンでトラッキングが有効になっている場合、このジャーニーまたはキャンペーンのコンテンツから保存されたフラグメント内のリンクも、このフラグメントが再利用される際にトラッキングされます。 [詳細情報](../content-management/save-fragments.md)
 
 * **ミラーページトラッキングを追加** - ミラーページオプションを有効にして、閲覧者を自動トラッキングするメールの web バージョンを作成します。 [詳細情報](../email/message-tracking.md#mirror-page)
 
-**パフォーマンスの監視：** 開封数、クリック数、リンクレベルのパフォーマンスなど、キャンペーンレポートおよびジャーニーレポートでリアルタイム指標を表示します。 [&#x200B; キャンペーンレポート &#x200B;](../reports/campaign-global-report-cja-email.md) | [ジャーニーレポート &#x200B;](../reports/journey-global-report-cja-email.md)
+**パフォーマンスの監視：** 開封数、クリック数、リンクレベルのパフォーマンスなど、キャンペーンレポートおよびジャーニーレポートでリアルタイム指標を表示します。 [ キャンペーンレポート ](../reports/campaign-global-report-cja-email.md) | [ジャーニーレポート ](../reports/journey-global-report-cja-email.md)
 
 +++
 
@@ -111,7 +111,7 @@ Web の変更をデザインする際に、追跡する特定の要素（ボタ�
 * **自動データ収集** – 設定すると、Journey Optimizerはクリックイベントを自動的にキャプチャし、プロファイルに関連付けます
 * **リアルタイムでの監視** - ユーザーインタラクションを追跡し、パーソナライゼーションの有効性を検証します
 
-**トラッキングデータの表示：** レポートで、表示指標、クリックスルー率および要素レベルのパフォーマンスにアクセスします。 [&#x200B; キャンペーンレポート &#x200B;](../reports/campaign-global-report-cja-web.md) | [ジャーニーレポート &#x200B;](../reports/journey-global-report-cja-web.md)
+**トラッキングデータの表示：** レポートで、表示指標、クリックスルー率および要素レベルのパフォーマンスにアクセスします。 [ キャンペーンレポート ](../reports/campaign-global-report-cja-web.md) | [ジャーニーレポート ](../reports/journey-global-report-cja-web.md)
 
 +++
 
@@ -129,9 +129,9 @@ Web の変更をデザインする際に、追跡する特定の要素（ボタ�
 
 >[!NOTE]
 >
->プッシュトラッキングには、モバイル SDK実装が必要です。 アプリにAdobe Experience Platform Mobile SDKが正しく設定されていることを確認します。
+>プッシュトラッキングには、モバイル SDK実装が必要です。 アプリにAdobe Experience Platform Mobile SDKが正しく設定されていることを確認します。 [詳細情報](../push/push-configuration.md#integrate-mobile-app)
 
-**エンゲージメントの分析：** クリックスルー率、ボタンのパフォーマンスおよび追跡されたリンクの詳細をレポートに表示します。 [&#x200B; キャンペーンレポート &#x200B;](../reports/campaign-global-report-cja-push.md) | [ジャーニーレポート &#x200B;](../reports/journey-global-report-cja-push.md)
+**エンゲージメントの分析：** クリックスルー率、ボタンのパフォーマンスおよび追跡されたリンクの詳細をレポートに表示します。 [ キャンペーンレポート ](../reports/campaign-global-report-cja-push.md) | [ジャーニーレポート ](../reports/journey-global-report-cja-push.md)
 
 +++
 
@@ -147,7 +147,7 @@ Web の変更をデザインする際に、追跡する特定の要素（ボタ�
 
 * **表示タイミングの最適化** - トリガーされたメッセージが実際にユーザーに表示される可能性を最大化するために、曜日および時刻のルールを設定します。
 
-**トラッキング対象：** Journey Optimizerは、ディスプレイ、ボタンのクリック数、破棄数、トリガーされた指標と表示された指標の比較、リンクパフォーマンスを自動的にキャプチャします。 [&#x200B; キャンペーンレポート &#x200B;](../reports/campaign-global-report-cja-inapp.md) | [ジャーニーレポート &#x200B;](../reports/journey-global-report-cja-inapp.md)
+**トラッキング対象：** Journey Optimizerは、ディスプレイ、ボタンのクリック数、破棄数、トリガーされた指標と表示された指標の比較、リンクパフォーマンスを自動的にキャプチャします。 [ キャンペーンレポート ](../reports/campaign-global-report-cja-inapp.md) | [ジャーニーレポート ](../reports/journey-global-report-cja-inapp.md)
 
 +++
 
@@ -161,7 +161,7 @@ SMS トラッキングには最小限のセットアップが必要です。Jour
 
 * **インバウンドメッセージトラッキング** – 受信者からの返信は自動的に取り込まれ、双方向の会話と応答パターンを監視できます。
 
-**指標の表示：** アクセスリンクのクリックデータ、受信メッセージの量、メッセージタイプのパフォーマンスがレポートに表示されます。 [&#x200B; キャンペーンレポート &#x200B;](../reports/campaign-global-report-cja-sms.md) | [ジャーニーレポート &#x200B;](../reports/journey-global-report-cja-sms.md)
+**指標の表示：** アクセスリンクのクリックデータ、受信メッセージの量、メッセージタイプのパフォーマンスがレポートに表示されます。 [ キャンペーンレポート ](../reports/campaign-global-report-cja-sms.md) | [ジャーニーレポート ](../reports/journey-global-report-cja-sms.md)
 
 +++
 
@@ -175,17 +175,17 @@ SMS トラッキングには最小限のセットアップが必要です。Jour
 
 * Adobe Experience Platform用に設定されたデータストリームの設定
 * Web SDKまたはモバイル SDKを使用したコード内のイベント収集の実装
-* パーソナライズされたコンテンツの表示またはクリック時の提案インタラクションイベントの送信
+* コンテンツが表示またはクリックされたときに表示イベントとインタラクションイベントを送信
 
 [実装の前提条件について説明します](../code-based/code-based-prerequisites.md#reporting-prerequisites)
 
-**トラッキング対象：** 実装すると、あらゆるデジタルタッチポイント（web サイト、モバイルアプリ、IoT デバイスなど）にわたって、ディスプレイ、クリック数、クリックスルー率および要素レベルのパフォーマンスを追跡します。 [&#x200B; キャンペーンレポート &#x200B;](../reports/campaign-global-report-cja-code.md) | [ジャーニーレポート &#x200B;](../reports/journey-global-report-cja-code.md)
+**トラッキング対象：** 実装すると、あらゆるデジタルタッチポイント（web サイト、モバイルアプリ、IoT デバイスなど）にわたって、ディスプレイ、クリック数、クリックスルー率および要素レベルのパフォーマンスを追跡します。 [ キャンペーンレポート ](../reports/campaign-global-report-cja-code.md) | [ジャーニーレポート ](../reports/journey-global-report-cja-code.md)
 
 +++
 
 +++コンテンツカードトラッキング
 
-コンテンツカードは、ユーザーのインタラクションを自動的に追跡します。 トラッキング動作を制御するコンテンツと表示ルールを設定します。
+[ コンテンツカード ](../content-card/create-content-card.md) は、ユーザーのインタラクションを自動的に追跡します。 トラッキング動作を制御するコンテンツと表示ルールを設定します。
 
 **実装方法：**
 
@@ -195,13 +195,13 @@ SMS トラッキングには最小限のセットアップが必要です。Jour
 
 * **表示ルールの設定** - カードを表示するタイミングと場所を定義して、ディスプレイとインタラクションの正確なトラッキングを確保します。
 
-**エンゲージメントの監視：** 複数のセッションをまたいだ、ディスプレイ、クリック数、クリックスルー率およびエンゲージメントパターンを追跡します。 [&#x200B; キャンペーンレポート &#x200B;](../reports/campaign-global-report-cja-content.md) | [ジャーニーレポート &#x200B;](../reports/journey-global-report-cja-content.md)
+**エンゲージメントの監視：** 複数のセッションをまたいだ、ディスプレイ、クリック数、クリックスルー率およびエンゲージメントパターンを追跡します。 [ キャンペーンレポート ](../reports/campaign-global-report-cja-content.md) | [ジャーニーレポート ](../reports/journey-global-report-cja-content.md)
 
 +++
 
 +++ランディングページのトラッキング
 
-ランディングページには、追加の設定を必要としない組み込みのトラッキング機能が備わっています。 Journey Optimizerは、訪問数、コンバージョン数およびバウンス数の割合を自動的にキャプチャします。
+[ ランディングページ ](../reports/lp-report-global-cja.md) には、追加の設定を必要としない組み込みのトラッキング機能が備わっています。 Journey Optimizerは、訪問数、コンバージョン数およびバウンス数の割合を自動的にキャプチャします。
 
 **自動的に追跡されるもの：**
 
@@ -210,7 +210,7 @@ SMS トラッキングには最小限のセットアップが必要です。Jour
 * **バウンス率** – 相互作用せずに離脱した訪問者の割合
 * **パフォーマンスのトレンド** – 指標の進化を示す時系列データ
 
-**パフォーマンスの最適化：** トラッキングデータを使用してフォームフィールドを調整し、コンテンツのバリエーションをテストし、有効なトラフィックソースを特定し、放棄を減らします。 [詳細情報](../reports/lp-report-global-cja.md)
+**パフォーマンスの最適化：** トラッキングデータを使用してフォームフィールドを調整し、コンテンツのバリエーションをテストし、有効なトラフィックソースを特定し、放棄を減らします。
 
 +++
 
@@ -218,25 +218,17 @@ SMS トラッキングには最小限のセットアップが必要です。Jour
 
 チャネルレベルのトラッキングだけでなく、全体的なパフォーマンスを測定し、マーケティング戦略における顧客の行動を把握するためにトラッキングを設定します。
 
-**キャンペーン追跡の設定：**
-<!--
-* **Configure optimization** - When setting up campaigns, enable experimentation or targeting to track which content variations perform best. [Learn more](../campaigns/campaigns-message-optimization.md)-->
-
-* **コンバージョン指標の定義** - エンゲージメント指標を超えてキャンペーンの有効性を測定するために、どのアクションをコンバージョン（購入、サインアップ、ダウンロード）としてカウントするかを指定します。
-
-* **スケジュールの設定** – 送信時間の最適化を設定して、様々なタイミング戦略にわたってパフォーマンスを追跡し、最適な送信ウィンドウを特定します。 [詳細情報](../building-journeys/send-time-optimization.md)
-
-**ジャーニー追跡の設定：**
-
 * **カスタム成功指標の定義** – 標準のエンゲージメント指標を超えて、ビジネス目標（購入、サインアップ、更新など）に合わせた特定の KPI を設定します。 [詳細情報](../building-journeys/success-metrics.md)
 
 * **ジャーニーステップイベントの有効化** - ジャーニーを移動する際の顧客のすべてのアクションに関する詳細なトラッキングをアクティブ化します。 これにより、入口/出口、パス選択、返却位置を詳細に把握できます。 [詳細情報](../reports/journey-step-events-overview.md)
+
+* **スケジュールの設定** – 送信時間の最適化を設定して、様々なタイミング戦略にわたってパフォーマンスを追跡し、最適な送信ウィンドウを特定します。 [詳細情報](../building-journeys/send-time-optimization.md)
 
 * **カスタムアクションの監視の設定** – 外部システムとの統合のトラッキングを設定して、API 呼び出し、応答時間、エラーパターンを監視します。 [詳細情報](../action/reporting.md)
 
 * **カスタムレポートとデータのエクスポート** – 詳細な分析のために、カスタマイズされたレポートを作成し、トラッキングデータを外部システムにエクスポートします。 [詳細情報](../reports/sharing-overview.md)
 
-**統一されたパフォーマンスの表示：** キャンペーンとジャーニーの両方の包括的なレポートにアクセスして、メール、プッシュ、SMS、その他のチャネルにわたるパフォーマンスを比較し、どの組み合わせが最適な結果を導くかを把握します。 [&#x200B; キャンペーンレポート &#x200B;](../reports/campaign-global-report-cja.md) | [ジャーニーレポート &#x200B;](../reports/journey-global-report-cja.md)
+**統一されたパフォーマンスの表示：** キャンペーンとジャーニーの両方の包括的なレポートにアクセスして、メール、プッシュ、SMS、その他のチャネルにわたるパフォーマンスを比較し、どの組み合わせが最適な結果を導くかを把握します。 [ キャンペーンレポート ](../reports/campaign-global-report-cja.md) | [ジャーニーレポート ](../reports/journey-global-report-cja.md)
 
 ## 最適化と意思決定のパフォーマンスを追跡 {#optimization-decisioning-tracking}
 
@@ -248,7 +240,7 @@ Journey Optimizerは、最適化実験、ターゲティング戦略および意
 
 * **パス最適化の設定** - ジャーニーに **最適化** アクティビティを追加し、複数のパスを設定します。 Journey Optimizerは、プロファイルがどのパスを使用してパフォーマンスを測定するかを自動的に追跡します。 [詳細情報](../building-journeys/optimize.md)
 
-**分析結果：** 実験レポートで、コンバージョン率、統計的有意差および処理間の上昇率を表示します。 [&#x200B; キャンペーンレポート &#x200B;](../reports/campaign-global-report-cja-experimentation.md) | [ジャーニーレポート &#x200B;](../reports/journey-global-report-cja-experimentation.md)
+**分析結果：** 実験レポートで、コンバージョン率、統計的有意差および処理間の上昇率を表示します。 [ キャンペーンレポート ](../reports/campaign-global-report-cja-experimentation.md) | [ジャーニーレポート ](../reports/journey-global-report-cja-experimentation.md)
 
 **決定パフォーマンスの追跡：**
 
@@ -258,7 +250,7 @@ Decisioning を使用してコンテンツをパーソナライズする場合�
 * **インプレッショントラッキング** - E メールの場合、インプレッションは自動的に追跡されます。 コードベースのエクスペリエンスの場合は、コードに提案表示イベントを実装する必要があります。
 * **クリックの追跡** – 決定項目に対するクリックは、メールで自動的に追跡されます。コードベースのエクスペリエンスには、クリックイベントの実装が必要です。
 
-**コードベースのトラッキングの前提条件：** コードベースのエクスペリエンスで意思決定を追跡するには、実装が web SDKまたはモバイル SDKを使用して提案インタラクションイベント（表示とクリック）をAdobe Experience Platformに送信することを確認します。 [詳細情報](../experience-decisioning/gs-experience-decisioning.md)
+**コードベースのトラッキングの前提条件：** コードベースのエクスペリエンスで意思決定を追跡するには、実装が web SDKまたはモバイル SDKを使用して提案インタラクションイベント（表示とクリック）をAdobe Experience Platformに送信することを確認します。 [詳細情報](../experience-decisioning/data-collection/schema-requirement.md)
 
 **パフォーマンスの分析：** 決定 KPI の表示、決定項目の比較、選択戦略の分析およびレポートでの AI モデルのパフォーマンスの監視を行います。 [詳細情報](../experience-decisioning/cja-reporting.md)
 
