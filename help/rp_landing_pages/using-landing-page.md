@@ -4,7 +4,7 @@ product: Journey Optimizer
 title: Adobe Journey Optimizer ヘルプ
 description: Adobe Journey Optimizer ヘルプ
 redpen-status: CREATED_||_2025-08-11_21-21-01
-source-git-commit: a73bf80fa61c6ce7c9be054e013e9a59ef3d9ba8
+source-git-commit: 7c47940713484dd6d6047eefe6e0ae0d0a276b9c
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 100%
@@ -21,7 +21,7 @@ Adobe Journey Optimizer を使用すると、チームはメールや SMS など
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Adobe Journey Optimizer の基本を学ぶ
 
@@ -31,27 +31,27 @@ Adobe Journey Optimizer の基本を学ぶ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 包括的なジャーニーガイド
 
 この詳細なガイドを使用して、パーソナライズされたカスタマージャーニーをデザイン、調整、管理および最適化します。
 
-[ジャーニーを探索](orchestrate-journeys-landing-page.md)
+[ジャーニーを探索](../using/building-journeys/journey.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 キャンペーンの理解と管理
 
 効果的なターゲティングを実現する、様々なキャンペーンタイプの作成、管理および最適化に関する詳細なガイダンス。
 
-[詳しくは、キャンペーンを参照してください。](campaigns-landing-page.md)
+[詳しくは、キャンペーンを参照してください。](../using/campaigns/get-started-with-campaigns.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 競合管理と優先順位付け
 
