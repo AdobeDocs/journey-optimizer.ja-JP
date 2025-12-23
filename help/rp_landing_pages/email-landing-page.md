@@ -5,7 +5,7 @@ title: メールチャネル
 description: メールチャネル
 redpen-status: CREATED_||_2025-08-11_20-35-15
 exl-id: f7c61cc3-943e-40a3-94be-f3f1bd46961d
-source-git-commit: 9cb3a60fb9a2266b4723dfc1b952f1bab11b97e3
+source-git-commit: e2ecfcd3163965bbd0ada68edd61ac07373eaad2
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 100%
@@ -32,7 +32,7 @@ Adobe Journey Optimizer のメールチャネルを使用すると、正確で�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 メールの作成方法
 
@@ -42,7 +42,7 @@ Adobe Journey Optimizer のメールチャネルを使用すると、正確で�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 メールコンテンツのデザインと最適化
 
@@ -52,7 +52,7 @@ Adobe Journey Optimizer を使用して、レスポンシブでパーソナラ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 メールオプトアウトの管理
 
@@ -62,7 +62,7 @@ Adobe Journey Optimizer を使用して、レスポンシブでパーソナラ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 メールチャネルの設定
 
@@ -72,13 +72,13 @@ Adobe Journey Optimizer を使用して、レスポンシブでパーソナラ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 メールの配信品質の取得
 
 ツール、ベストプラクティス、実用的なインサイトを使用して、メールの配信品質を理解および最適化し、送信者の評判を向上させます。
 
-[メールの配信品質の向上](deliverability-landing-page.md)
+[メールの配信品質の向上](../using/reports/deliverability.md)
 :::
 
 ::::
