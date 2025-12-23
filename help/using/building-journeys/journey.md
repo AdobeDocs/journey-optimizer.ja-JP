@@ -116,7 +116,7 @@ Adobe Journey Optimizerでのジャーニーの作成、管理、最適化のす
 
 ジャーニーのコンポーネントを把握し、キャンバスでのジャーニー構築の基本を理解します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430350?captions=jpn&quality=12)
 
 ## その他のリソース {#additional-resources}
 
