@@ -128,7 +128,7 @@ Adobe Journey Optimizerでは、4 つのジャーニータイプをサポート�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 ジャーニーの作成の概要
 
@@ -138,7 +138,7 @@ Adobe Journey Optimizerでは、4 つのジャーニータイプをサポート�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 Journey Orchestration – 完全なガイド
 
@@ -148,7 +148,7 @@ Adobe Journey Optimizerでのジャーニーの作成、管理、最適化のす
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 ジャーニーの管理
 
@@ -158,7 +158,7 @@ Adobe Journey Optimizerでのジャーニーの作成、管理、最適化のす
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 ジャーニーアクティビティ
 
@@ -168,7 +168,7 @@ Adobe Journey Optimizerでのジャーニーの作成、管理、最適化のす
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 式の作成
 
@@ -178,7 +178,7 @@ Adobe Journey Optimizerでのジャーニーの作成、管理、最適化のす
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 ジャーニーのユースケース
 
