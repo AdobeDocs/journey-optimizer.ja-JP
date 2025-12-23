@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: ジャーニー, Discover, 開始
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: 7c47940713484dd6d6047eefe6e0ae0d0a276b9c
+source-git-commit: a6c80e4326454868d60e9ba335e509f806d3220f
 workflow-type: tm+mt
-source-wordcount: '687'
-ht-degree: 62%
+source-wordcount: '1099'
+ht-degree: 39%
 
 ---
 
@@ -23,23 +23,112 @@ Adobe Journey Optimizer でジャーニーを使用すると、オーディエ�
 
 [!DNL Journey Optimizer] を使用すると、イベントやデータソースに保存されたコンテキストデータを活用して、リアルタイムオーケストレーションのユースケースを作成できます。次の機能を使用して、複数の手順から成る詳細なシナリオをデザインできます。
 
-* **イベント** の受信をトリガーにしてリアルタイム [&#x200B; 単一配信 &#x200B;](general-events.md) を送信したり、Adobe Experience Platform **オーディエンス** を使用して [&#x200B; 一括で &#x200B;](read-audience.md) 送信したりできます。
+* **イベント** の受信をトリガーにしてリアルタイム [ 単一配信 ](general-events.md) を送信したり、Adobe Experience Platform **オーディエンス** を使用して [ 一括で ](read-audience.md) 送信したりできます。
 
-* **events** の [&#x200B; コンテキストデータ &#x200B;](../event/about-events.md)、Adobe Experience Platformの情報、または [&#x200B; データソース &#x200B;](../datasource/about-data-sources.md) を介したサードパーティの API サービスのデータを活用します。
+* **events** の [ コンテキストデータ ](../event/about-events.md)、Adobe Experience Platformの情報、または [ データソース ](../datasource/about-data-sources.md) を介したサードパーティの API サービスのデータを活用します。
 
 * **[組み込みのアクション](journeys-message.md)**&#x200B;を使用して [!DNL Journey Optimizer] でデザインしたメッセージを送信したり、サードパーティのシステムを使用している場合は&#x200B;**[カスタムアクション](using-custom-actions.md)**&#x200B;を作成してメッセージを送信したりできます。
 
-* **[ジャーニーデザイナー](using-the-journey-designer.md)** を使用すると、エントリイベントや [&#x200B; オーディエンスの読み取りアクティビティ &#x200B;](read-audience.md) を簡単にドラッグ&amp;ドロップして、[&#x200B; 条件 &#x200B;](condition-activity.md) を追加し、パーソナライズされたメッセージを送信するなど、複数の手順から成るユースケースを作成できます。
+* **[ジャーニーデザイナー](using-the-journey-designer.md)** を使用すると、エントリイベントや [ オーディエンスの読み取りアクティビティ ](read-audience.md) を簡単にドラッグ&amp;ドロップして、[ 条件 ](condition-activity.md) を追加し、パーソナライズされたメッセージを送信するなど、複数の手順から成るユースケースを作成できます。
 
-Journey Optimizer[&#x200B; ジャーニーデザイナー &#x200B;](using-the-journey-designer.md) は、マーケターやジャーニー実務担当者がチャネル間で複数の手順 1:1 のジャーニーを調整するために必要なすべてを提供します。 これには、ジャーニーの各ステップを調整し、ターゲットオーディエンスを定義し、行動、コンテキストデータ、ビジネスイベントに基づいてターゲットオーディエンスメンバーに表示されるメッセージ、オファー、コンテンツをチャネル全体に含めるための直感的なドラッグ&amp;ドロップキャンバスが含まれます。 [&#x200B; 実際のユースケース &#x200B;](jo-use-cases.md) を参照して、これらの機能を適用する方法を確認します。
+Journey Optimizer[ ジャーニーデザイナー ](using-the-journey-designer.md) は、マーケターやジャーニー実務担当者がチャネル間で複数の手順 1:1 のジャーニーを調整するために必要なすべてを提供します。 これには、ジャーニーの各ステップを調整し、ターゲットオーディエンスを定義し、行動、コンテキストデータ、ビジネスイベントに基づいてターゲットオーディエンスメンバーに表示されるメッセージ、オファー、コンテンツをチャネル全体に含めるための直感的なドラッグ&amp;ドロップキャンバスが含まれます。 [ 実際のユースケース ](jo-use-cases.md) を参照して、これらの機能を適用する方法を確認します。
 
 ➡️ [Journey Optimizer をビデオで確認](#video)
+
+## ジャーニーのタイプ
+
+Adobe Journey Optimizerでは、4 つのジャーニータイプをサポートしており、それぞれが様々なユースケースやエントリメカニズム向けに設計されています。 プロファイルの入力方法やカスタマーエクスペリエンスの進行状況に基づいて、適切なタイプを選択します。
+
+>[!BEGINTABS]
+
+>[!TAB  単一ジャーニー ]
+
+**単一ジャーニー** は、購入、アプリのログイン、フォームの送信などの特定のアクションが発生した場合に、イベントによって個別にトリガーされます。 イベントを受信すると、プロファイルがリアルタイムで 1 つずつジャーニーにエントリするので、パーソナライズされた、行動主導のエクスペリエンスに最適です。
+
+**主な特性：**
+
+* リアルタイムのイベント駆動型エントリ
+* 個々のプロファイルの処理
+* トランザクションメッセージや即時応答に最適
+* トリガーイベントからのコンテキストデータをサポート
+
+**ユースケース：**
+
+* 購入後の注文確認
+* が購読したときに送信されるウェルカムメール
+* ブラウジング動作によってトリガーされる買い物かご放棄
+* パスワードリセット通知
+
+➡️[ イベント設定について説明します ](../event/about-events.md)。 | [ 一般イベント ](general-events.md) | [ 購読者へのメッセージのユースケース ](message-to-subscribers-uc.md)
+
+>[!TAB  オーディエンスジャーニーの読み取り ]
+
+**オーディエンスジャーニーを読み取り** Adobe Experience Platformのオーディエンスから始めて、そのオーディエンス内のすべてのプロファイルにメッセージを一括で送信します。 このジャーニータイプは、オーディエンス全体を一度に処理するので、スケジュールされたキャンペーンや繰り返し通信に最適です。
+
+**主な特性：**
+
+* オーディエンスセグメントのバッチ処理
+* スケジュール済みまたは 1 回限りの実行
+* すべてのプロファイルが同時にエントリ
+* 大規模通信に対応
+
+**ユースケース：**
+
+* 月刊ニュースレター
+* セグメントをターゲットにするプロモーションキャンペーン
+* すべてのお客様に対する製品のお知らせ
+* 季節ごとのマーケティングキャンペーン
+
+➡️[ オーディエンスを読み取りアクティビティについて学ぶ ](read-audience.md) | [ オーディエンスの概要 ](../audience/about-audiences.md) | [ マルチチャネルメッセージのユースケース ](journeys-uc.md)
+
+>[!TAB  オーディエンスの選定ジャーニー ]
+
+**オーディエンスの選定ジャーニー** は、プロファイルが特定のオーディエンスセグメントに適合する（または終了する）ときにトリガーされます。 プロファイルは、オーディエンス条件を満たすと、ジャーニーにリアルタイムで個別にエントリし、顧客行動が変化した場合に即座にエンゲージメントを可能にします。
+
+**主な特性：**
+
+* リアルタイムの選定ベースのエントリ
+* オーディエンスメンバーシップの継続的な監視
+* 認定された個々のプロファイルの処理
+* ストリーミングオーディエンスに最適
+
+**ユースケース：**
+
+* VIP層のアップグレード通知
+* 顧客が非アクティブになった際の再エンゲージメント
+* 最初の購入祝いメッセージ
+* 顧客の引っ越し時の地理的ターゲティング
+
+➡️[ オーディエンスの選定について学ぶ ](audience-qualification-events.md) | [ 条件アクティビティ ](condition-activity.md) | [ セグメント定義の作成 ](../audience/creating-a-segment-definition.md)
+
+>[!TAB  ビジネスイベントジャーニー ]
+
+**ビジネスイベントジャーニー** は、複数のプロファイルに同時に影響を与えるビジネスイベント（株価の更新、天気予報のアラート、価格の変更など）によってトリガーされます。 これらのジャーニーは、個々の顧客の行動に反応するのではなく、より広いビジネス条件や外部要因に対応します。
+
+**主な特性：**
+
+* 個々のアクションではなく、ビジネスレベルのイベントによってトリガーされます
+* 一度に複数のプロファイルに影響
+* イベント発生時に特定のオーディエンスをターゲットにします
+* イベント駆動型のタイミングとオーディエンスターゲット設定を組み合わせます
+
+**ユースケース：**
+
+* 関心のある顧客への低インベントリアラート
+* Flash 販売のお知らせ
+* 天候ベースのプロモーション
+* 価格下降通知
+* 製品の在庫切れアラート
+
+➡️ [ ビジネスイベントについて学ぶ ](general-events.md) | [ ビジネスイベントの設定 ](../event/about-creating-business.md) | [ 応募管理 ](entry-management.md)
+
+>[!ENDTABS]
 
 ## ジャーニーの概要
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 ジャーニーの作成の概要
 
@@ -49,7 +138,7 @@ Journey Optimizer[&#x200B; ジャーニーデザイナー &#x200B;](using-the-jo
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Journey Orchestration – 完全なガイド
 
@@ -59,7 +148,7 @@ Adobe Journey Optimizerでのジャーニーの作成、管理、最適化のす
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 ジャーニーの管理
 
@@ -69,7 +158,7 @@ Adobe Journey Optimizerでのジャーニーの作成、管理、最適化のす
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 ジャーニーアクティビティ
 
@@ -79,7 +168,7 @@ Adobe Journey Optimizerでのジャーニーの作成、管理、最適化のす
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 式の作成
 
@@ -89,7 +178,7 @@ Adobe Journey Optimizerでのジャーニーの作成、管理、最適化のす
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 ジャーニーのユースケース
 
@@ -116,7 +205,7 @@ Adobe Journey Optimizerでのジャーニーの作成、管理、最適化のす
 
 ジャーニーのコンポーネントを把握し、キャンバスでのジャーニー構築の基本を理解します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430350?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ## その他のリソース {#additional-resources}
 
@@ -125,4 +214,4 @@ Adobe Journey Optimizerでのジャーニーの作成、管理、最適化のす
 * **[ジャーニーアラート](../reports/alerts.md)** - ジャーニー監視用のアラートの設定と、リアルタイムのアップデートを受け取るための通知の登録
 * **[エラーコードの参照](error-codes-reference.md)** - ジャーニーエラーコードとトラブルシューティング手順
 * **[トラブルシューティング](troubleshooting.md)** - ジャーニーに関する一般的な問題と解決策
-* **[ジャーニーチュートリアル（ビデオ） &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}** – 機能、能力、ベストプラクティスをカバーする実践ビデオチュートリアルを通じてジャーニーを構築します
+* **[ジャーニーチュートリアル（ビデオ） ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}** – 機能、能力、ベストプラクティスをカバーする実践ビデオチュートリアルを通じてジャーニーを構築します
