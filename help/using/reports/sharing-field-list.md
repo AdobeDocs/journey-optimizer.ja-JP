@@ -8,10 +8,10 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
+source-git-commit: 4f13f863a5e08cc0e92c26d782d888f0d6d2fea4
+workflow-type: tm+mt
 source-wordcount: '649'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -53,7 +53,7 @@ journeyStepEvent の場合、ID に関連するフィールドも追加する必
 | フィールド名 | タイプ | 説明 |
 |---|---|------------|
 | ID | 文字列 | プロファイル識別子は、ジャーニーで送信／使用されたプロファイルを識別します。例：foo@adobe.com |
-| namespace | 文字列 | このフィールドは、ジャーニーで使用されるプロファイルで参照される名前空間を記述します。例：Email、ECID |
+| 名前空間 | 文字列 | このフィールドは、ジャーニーで使用されるプロファイルで参照される名前空間を記述します。例：Email、ECID |
 
 ## serviceEvents {#servicevents-field}
 
@@ -95,7 +95,7 @@ eventTypes について詳しくは、[この節](#discarded-events)を参照し
 
   **トラブルシューティング**：1 つ以上のジャーニーがライブで、セグメントに対して設定されていることを確認し、セグメント ID を検証します。
 
-* **JOURNEY_INSTANCE_ID_NOT_CREATE**：システムでは、顧客のジャーニーインスタンスを作成できませんでした。
+* **CUSTOMER_INSTANCE_ID_NOT_CREATED**: ジャーニーのジャーニーインスタンスを作成できませんでした。
 
   **一般的な原因**：重複イベント、大量のイベント、システムリソースの制限。
 
