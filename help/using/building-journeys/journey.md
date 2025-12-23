@@ -23,15 +23,15 @@ Adobe Journey Optimizer でジャーニーを使用すると、オーディエ�
 
 [!DNL Journey Optimizer] を使用すると、イベントやデータソースに保存されたコンテキストデータを活用して、リアルタイムオーケストレーションのユースケースを作成できます。次の機能を使用して、複数の手順から成る詳細なシナリオをデザインできます。
 
-* **イベント** の受信をトリガーにしてリアルタイム [ 単一配信 ](general-events.md) を送信したり、Adobe Experience Platform **オーディエンス** を使用して [ 一括で ](read-audience.md) 送信したりできます。
+* **イベント** の受信をトリガーにしてリアルタイム [&#x200B; 単一配信 &#x200B;](general-events.md) を送信したり、Adobe Experience Platform **オーディエンス** を使用して [&#x200B; 一括で &#x200B;](read-audience.md) 送信したりできます。
 
-* **events** の [ コンテキストデータ ](../event/about-events.md)、Adobe Experience Platformの情報、または [ データソース ](../datasource/about-data-sources.md) を介したサードパーティの API サービスのデータを活用します。
+* **events** の [&#x200B; コンテキストデータ &#x200B;](../event/about-events.md)、Adobe Experience Platformの情報、または [&#x200B; データソース &#x200B;](../datasource/about-data-sources.md) を介したサードパーティの API サービスのデータを活用します。
 
 * **[組み込みのアクション](journeys-message.md)**&#x200B;を使用して [!DNL Journey Optimizer] でデザインしたメッセージを送信したり、サードパーティのシステムを使用している場合は&#x200B;**[カスタムアクション](using-custom-actions.md)**&#x200B;を作成してメッセージを送信したりできます。
 
-* **[ジャーニーデザイナー](using-the-journey-designer.md)** を使用すると、エントリイベントや [ オーディエンスの読み取りアクティビティ ](read-audience.md) を簡単にドラッグ&amp;ドロップして、[ 条件 ](condition-activity.md) を追加し、パーソナライズされたメッセージを送信するなど、複数の手順から成るユースケースを作成できます。
+* **[ジャーニーデザイナー](using-the-journey-designer.md)** を使用すると、エントリイベントや [&#x200B; オーディエンスの読み取りアクティビティ &#x200B;](read-audience.md) を簡単にドラッグ&amp;ドロップして、[&#x200B; 条件 &#x200B;](condition-activity.md) を追加し、パーソナライズされたメッセージを送信するなど、複数の手順から成るユースケースを作成できます。
 
-Journey Optimizer[ ジャーニーデザイナー ](using-the-journey-designer.md) は、マーケターやジャーニー実務担当者がチャネル間で複数の手順 1:1 のジャーニーを調整するために必要なすべてを提供します。 これには、ジャーニーの各ステップを調整し、ターゲットオーディエンスを定義し、行動、コンテキストデータ、ビジネスイベントに基づいてターゲットオーディエンスメンバーに表示されるメッセージ、オファー、コンテンツをチャネル全体に含めるための直感的なドラッグ&amp;ドロップキャンバスが含まれます。 [ 実際のユースケース ](jo-use-cases.md) を参照して、これらの機能を適用する方法を確認します。
+Journey Optimizer[&#x200B; ジャーニーデザイナー &#x200B;](using-the-journey-designer.md) は、マーケターやジャーニー実務担当者がチャネル間で複数の手順 1:1 のジャーニーを調整するために必要なすべてを提供します。 これには、ジャーニーの各ステップを調整し、ターゲットオーディエンスを定義し、行動、コンテキストデータ、ビジネスイベントに基づいてターゲットオーディエンスメンバーに表示されるメッセージ、オファー、コンテンツをチャネル全体に含めるための直感的なドラッグ&amp;ドロップキャンバスが含まれます。 [&#x200B; 実際のユースケース &#x200B;](jo-use-cases.md) を参照して、これらの機能を適用する方法を確認します。
 
 ➡️ [Journey Optimizer をビデオで確認](#video)
 
@@ -125,4 +125,4 @@ Adobe Journey Optimizerでのジャーニーの作成、管理、最適化のす
 * **[ジャーニーアラート](../reports/alerts.md)** - ジャーニー監視用のアラートの設定と、リアルタイムのアップデートを受け取るための通知の登録
 * **[エラーコードの参照](error-codes-reference.md)** - ジャーニーエラーコードとトラブルシューティング手順
 * **[トラブルシューティング](troubleshooting.md)** - ジャーニーに関する一般的な問題と解決策
-* **[ジャーニーチュートリアル（ビデオ） ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}** – 機能、能力、ベストプラクティスをカバーする実践ビデオチュートリアルを通じてジャーニーを構築します
+* **[ジャーニーチュートリアル（ビデオ） &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}** – 機能、能力、ベストプラクティスをカバーする実践ビデオチュートリアルを通じてジャーニーを構築します
