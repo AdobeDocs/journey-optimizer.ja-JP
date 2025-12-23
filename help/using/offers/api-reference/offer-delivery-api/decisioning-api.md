@@ -36,7 +36,7 @@ ht-degree: 93%
 >
 >**決定リクエストでコンテキストデータを渡す**
 >
->決定リクエストでコンテキストデータ（デバイスタイプ、場所、ユーザーの環境設定など）を渡して、動的な実施要件ルールを作成し、リアルタイムの条件に基づいてパーソナライズされたオファーを配信できます。 [ コンテキストデータと決定リクエストの詳細 ](../../context-data-decisioning.md)
+>決定リクエストでコンテキストデータ（デバイスタイプ、場所、ユーザーの環境設定など）を渡して、動的な実施要件ルールを作成し、リアルタイムの条件に基づいてパーソナライズされたオファーを配信できます。 [&#x200B; コンテキストデータと決定リクエストの詳細 &#x200B;](../../context-data-decisioning.md)
 
 ## 必須ヘッダー {#required-headers}
 
@@ -134,7 +134,7 @@ curl -X POST 'https://platform.adobe.io/data/core/ods/decisions' \
 | `xdm:allowDuplicatePropositions` | このオブジェクトは、重複除外ルールの制御構造を表します。特定のディメンションに対して同じオプションを提案できるかどうかを示す一連のフラグで構成されます。フラグを true に設定した場合は、重複が許可され、フラグで示されるカテゴリ全体で削除されません。フラグを false に設定した場合、決定エンジンはディメンション全体で同じ提案を行わず、代わりにサブデシジョンの 1 つに対して次に最適なオプションを選択する必要があります。 |  |
 | `xdm:allowDuplicatePropositions.xdm:acrossActivities` | True に設定すると、複数の決定に同じオプションが割り当てられる場合があります。 | `"xdm:acrossActivities": true` |
 | `xdm:allowDuplicatePropositions.xdm:acrossPlacements` | True に設定すると、複数のプレースメントに同じオプションが割り当てられる場合があります。 | `"xdm:acrossPlacements": true` |
-| `xdm:enrichedAudience` | カスタムアップロード（CSV）オーディエンスをターゲットにしており、オファーの決定応答でエンリッチメントデータを取得する場合は、このパラメーターを `true` に設定します。 [ 意思決定への CSV オーディエンスの使用について詳しくは、こちらを参照してください ](../../custom-upload-decisioning.md#must-read) | `"xdm:enrichedAudience": true` |
+| `xdm:enrichedAudience` | カスタムアップロード（CSV）オーディエンスをターゲットにしており、オファーの決定応答でエンリッチメントデータを取得する場合は、このパラメーターを `true` に設定します。 [&#x200B; 意思決定への CSV オーディエンスの使用について詳しくは、こちらを参照してください &#x200B;](../../custom-upload-decisioning.md#must-read) | `"xdm:enrichedAudience": true` |
 | `xdm:mergePolicy.xdm:id` | プロファイルアクセスサービスが返すデータを制御する結合ポリシーを指定します。リクエストで指定されていない場合、意思決定管理はプロファイルアクセスサービスに何も渡さず、指定されている場合は呼び出し元が提供する ID を渡します。 | `"xdm:id": "5f3ed32f-eaf1-456c-b0f0-7b338c4cb18a"` |
 | `xdm:responseFormat` | 応答コンテンツをフォーマットする一連のフラグ。 |  |
 | `xdm:responseFormat.xdm:includeContent` | ブール値で、`true` に設定した場合、応答にコンテンツを含めます。 | `"xdm:includeContent": true` |
