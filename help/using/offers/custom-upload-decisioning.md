@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 exl-id: bd950410-691b-49d8-8851-8c6c448c00fd
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: d34dfa121f005d28c6ab8895de2bbbd0cdf71dc1
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 100%
+source-wordcount: '609'
+ht-degree: 84%
 
 ---
 
@@ -36,8 +36,9 @@ Journey Optimizer を使用すると、カスタムアップロード（CSV フ�
 
 ## 必読 {#must-read}
 
-* この機能は、**意思決定管理**&#x200B;でのみサポートされ、決定（旧称「エクスペリエンス決定」）ではサポートされていません。
-* これは、**Decisioning API（Hub）**&#x200B;リクエストを通じてのみ使用でき、**Edge Decisioning API** または **Batch Decisioning** ではサポートされていません。
+* **意思決定管理のみ** – この機能は、意思決定管理でのみサポートされ、Decisioning （旧称「Experience Decisioning」）ではサポートされていません。
+* **Decisioning API （Hub）のみ** - Decisioning API （Hub）リクエストを通じてのみ使用でき、Edge Decisioning API または Batch Decisioning ではサポートされません。
+* **エンリッチメントデータの必須 API フラグ** - カスタムアップロード（CSV）オーディエンスを使用していて、オファー決定応答でエンリッチメントデータを取得する場合、API リクエストペイロードに `"xdm:enrichedAudience": true` を含める必要があります。 このフラグがないと、CSV でアップロードされたオーディエンスのエンリッチメント属性は返されません。 [Decisioning API の詳細情報 ](api-reference/offer-delivery-api/decisioning-api.md)
 
 ## カスタムアップロードオーディエンスを実施要件条件として使用 {#eligibilty}
 
