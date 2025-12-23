@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: メッセージ, 頻度, ルール, プレッシャー
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '1219'
-ht-degree: 100%
+source-git-commit: f874456748a8bd7fce69c7ad2a7e69380d5336a6
+workflow-type: tm+mt
+source-wordcount: '1249'
+ht-degree: 97%
 
 ---
 
@@ -128,6 +128,10 @@ ht-degree: 100%
 
 プロファイルのフリークエンシーキャップに達すると、次の期間までカウンターをリセットする方法はないので、頻度ルールをテストする場合は、新しく作成した[テストプロファイル](../audience/creating-test-profiles.md)を使用することをお勧めします。ルールを非アクティブ化すると、キャップを設定したプロファイルがメッセージを受け取ることはできますが、カウンターの増分は削除されません。
 
+>[!CAUTION]
+>
+>フリークエンシーキャッピングルールは、[ 配達確認 ](../content-management/proofs.md) を送信する際にも適用されます。 テストプロファイルが既にフリークエンシーキャップの制限に達している場合、配達確認は完了済みとして表示されますが、メールは配信されません。
+
 <!--add a new section for default priority namespace.-->
 
 <!--
@@ -161,4 +165,4 @@ In this scenario, an individual profile:
 
 ## チュートリアルビデオ {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444727?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
