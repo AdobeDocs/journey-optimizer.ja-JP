@@ -38,19 +38,19 @@ ht-degree: 11%
 
 1. **早い段階で頻繁にテストします** - キャンペーンが完全に作成されるまで待たないでください。 開発に合わせて、コンテンツ、パーソナライゼーションおよびロジックを増分的にテストします。
 
-1. **現実的なテストプロファイルの使用** - エッジケースや様々なパーソナライゼーションシナリオなど、ターゲットオーディエンスセグメントを正確に表す [ テストプロファイルを作成 ](../using/audience/creating-test-profiles.md) します。
+1. **現実的なテストプロファイルの使用** - エッジケースや様々なパーソナライゼーションシナリオなど、ターゲットオーディエンスセグメントを正確に表す [&#x200B; テストプロファイルを作成 &#x200B;](../using/audience/creating-test-profiles.md) します。
 
-1. **デバイスとクライアントをまたいだテスト** – 一般的なメールクライアント（Gmail、Outlook、Apple Mail）およびデバイス（デスクトップ、モバイル、タブレット）で [ メールのレンダリング ](../using/content-management/rendering.md) を検証し、一貫性のある表示を確保します。
+1. **デバイスとクライアントをまたいだテスト** – 一般的なメールクライアント（Gmail、Outlook、Apple Mail）およびデバイス（デスクトップ、モバイル、タブレット）で [&#x200B; メールのレンダリング &#x200B;](../using/content-management/rendering.md) を検証し、一貫性のある表示を確保します。
 
-1. **パーソナライゼーションの徹底的な検証** – 異なる属性値を持つ複数の [ テストプロファイル ](../using/content-management/test-profiles.md) を使用してテストし、パーソナライゼーショントークンが正しくレンダリングされ、フォールバック値が機能することを確認します。
+1. **パーソナライゼーションの徹底的な検証** – 異なる属性値を持つ複数の [&#x200B; テストプロファイル &#x200B;](../using/content-management/test-profiles.md) を使用してテストし、パーソナライゼーショントークンが正しくレンダリングされ、フォールバック値が機能することを確認します。
 
-1. **ジャーニーパスをシミュレート** – 複数の分岐を持つ複雑なジャーニーの場合は、[ テストモード ](../using/building-journeys/testing-the-journey.md) を使用して、様々なエントリ条件とプロファイル属性をテストし、可能なすべてのパスを検証します。
+1. **ジャーニーパスをシミュレート** – 複数の分岐を持つ複雑なジャーニーの場合は、[&#x200B; テストモード &#x200B;](../using/building-journeys/testing-the-journey.md) を使用して、様々なエントリ条件とプロファイル属性をテストし、可能なすべてのパスを検証します。
 
-1. **配信品質指標の確認** – 大きな送信を行う前に、[ スパムスコア ](../using/content-management/spam-report.md)、認証ステータスおよびメールヘルス指標を確認します。
+1. **配信品質指標の確認** – 大きな送信を行う前に、[&#x200B; スパムスコア &#x200B;](../using/content-management/spam-report.md)、認証ステータスおよびメールヘルス指標を確認します。
 
 1. **テスト結果の文書化** - テストの結果、見つかった問題、解決策の記録を保持して、今後のテストプロセスを改善し、チームと学習を共有します。
 
-1. **利害関係者を早期に関与させる** - [ 正式な承認 ](../using/test-approve/gs-approval.md) 前に利害関係者とプレビューやテスト結果を共有して、フィードバックを収集し、期待に合わせます。
+1. **利害関係者を早期に関与させる** - [&#x200B; 正式な承認 &#x200B;](../using/test-approve/gs-approval.md) 前に利害関係者とプレビューやテスト結果を共有して、フィードバックを収集し、期待に合わせます。
 
 ## 推奨されるテストワークフロー
 
@@ -60,56 +60,56 @@ ht-degree: 11%
 
 まず、コンテンツを作成しプレビュー機能を使用して、初期デザインとパーソナライゼーションを検証します。
 
-* [ メール ](../using/email/create-email.md)、[SMS](../using/sms/create-sms.md)、[ プッシュ通知 ](../using/push/create-push.md)、またはその他のチャネルコンテンツをデザイン
+* [&#x200B; メール &#x200B;](../using/email/create-email.md)、[SMS](../using/sms/create-sms.md)、[&#x200B; プッシュ通知 &#x200B;](../using/push/create-push.md)、またはその他のチャネルコンテンツをデザイン
 * **[コンテンツをシミュレート](../using/content-management/preview-test.md)** 機能を使用して、テストプロファイルでプレビューします
-* [ パーソナライゼーショントークン ](../using/personalization/personalization-syntax.md)、動的コンテンツおよびフォールバック値の確認
-* 異なる画面サイズおよびメールクライアントでの [ レンダリング ](../using/content-management/rendering.md) の検証
+* [&#x200B; パーソナライゼーショントークン &#x200B;](../using/personalization/personalization-syntax.md)、動的コンテンツおよびフォールバック値の確認
+* 異なる画面サイズおよびメールクライアントでの [&#x200B; レンダリング &#x200B;](../using/content-management/rendering.md) の検証
 
 ### 2.技術検証
 
 配信品質と機能に影響を与える技術的側面を検証します。
 
-* [ スパムスコアチェック ](../using/content-management/spam-report.md) を実行して、配信品質の潜在的な問題を特定します
+* [&#x200B; スパムスコアチェック &#x200B;](../using/content-management/spam-report.md) を実行して、配信品質の潜在的な問題を特定します
 * リンクをテストし、リンクが壊れていないこと、正しく追跡されていないことを確認します
-* [ メール認証 ](../using/configuration/dmarc-record.md) （SPF、DKIM、DMARC）設定を検証
+* [&#x200B; メール認証 &#x200B;](../using/configuration/dmarc-record.md) （SPF、DKIM、DMARC）設定を検証
 * HTMLのレンダリングを確認し、CSS の互換性の問題を調べる
-* モバイルおよびデスクトップデバイスでのテスト [ レスポンシブデザイン ](../using/email/content-from-scratch.md)
+* モバイルおよびデスクトップデバイスでのテスト [&#x200B; レスポンシブデザイン &#x200B;](../using/email/content-from-scratch.md)
 
 ### &#x200B;3. ジャーニー試験
 
 ジャーニーの場合、オーケストレーションロジックを検証します。
 
 * **[テストモード](../using/building-journeys/testing-the-journey.md)** を有効化して、ジャーニーを通じたプロファイルの進行状況をシミュレートします
-* 様々な [ エントリ条件 ](../using/building-journeys/entry-management.md) オーディエンス選定のテスト
-* [ 待機アクティビティ ](../using/building-journeys/wait-activity.md)、[ 条件 ](../using/building-journeys/condition-activity.md) および分岐ロジックが正しく機能していることを確認します
+* 様々な [&#x200B; エントリ条件 &#x200B;](../using/building-journeys/entry-management.md) オーディエンス選定のテスト
+* [&#x200B; 待機アクティビティ &#x200B;](../using/building-journeys/wait-activity.md)、[&#x200B; 条件 &#x200B;](../using/building-journeys/condition-activity.md) および分岐ロジックが正しく機能していることを確認します
 * 複雑なジャーニーに **[ドライラン](../using/building-journeys/journey-dry-run.md)** を使用して、メッセージを送信せずに実行パスを分析します
-* [ イベント ](../using/event/about-events.md) のトリガーが正しいこと、および [ カスタムアクション ](../using/action/about-custom-action-configuration.md) が期待どおりに実行されていることを確認します
+* [&#x200B; イベント &#x200B;](../using/event/about-events.md) のトリガーが正しいこと、および [&#x200B; カスタムアクション &#x200B;](../using/action/about-custom-action-configuration.md) が期待どおりに実行されていることを確認します
 
 ### 4.承認の送信
 
 テストが完了し、問題が解決したら、以下の手順を実行します。
 
-* 組織の [ 承認ポリシー ](../using/test-approve/approval-policies.md) に従って、キャンペーンまたはジャーニーを承認用に送信します
-* [ 承認リクエスト ](../using/test-approve/request-approval.md) にテスト結果とドキュメントを含める
-* [ 承認者 ](../using/test-approve/review-approve-request.md) からのフィードバックまたは変更リクエストに対応する
+* 組織の [&#x200B; 承認ポリシー &#x200B;](../using/test-approve/approval-policies.md) に従って、キャンペーンまたはジャーニーを承認用に送信します
+* [&#x200B; 承認リクエスト &#x200B;](../using/test-approve/request-approval.md) にテスト結果とドキュメントを含める
+* [&#x200B; 承認者 &#x200B;](../using/test-approve/review-approve-request.md) からのフィードバックまたは変更リクエストに対応する
 * 必要な修正を加え、変更が重大な場合は再テストする
 
 ### &#x200B;5. ローンチ前の検証
 
 キャンペーンまたはジャーニーをアクティブ化する前に、以下を行います。
 
-* すべての設定、オーディエンス、[ スケジュール ](../using/building-journeys/journey-properties.md) の最終レビューを実行します。
+* すべての設定、オーディエンス、[&#x200B; スケジュール &#x200B;](../using/building-journeys/journey-properties.md) の最終レビューを実行します。
 * すべての承認が実施され、文書化されていることを確認する
-* 送信時間と [ タイムゾーン ](../using/building-journeys/timezone-management.md) が正しいことを確認します
-* [ 監視とアラート ](../using/reports/alerts.md) を有効にして、起動後のパフォーマンスを追跡する
+* 送信時間と [&#x200B; タイムゾーン &#x200B;](../using/building-journeys/timezone-management.md) が正しいことを確認します
+* [&#x200B; 監視とアラート &#x200B;](../using/reports/alerts.md) を有効にして、起動後のパフォーマンスを追跡する
 
 ### 6.監視と反復
 
 立ち上げ後、引き続き監視を実施して、問題を早期に特定します。
 
-* ジャーニーエラー、バウンス率の高さ、エンゲージメントの低さに対する [ システムアラート ](../using/reports/alerts.md) の設定
-* [ ライブレポート ](../using/building-journeys/report-journey.md) を確認し、期待値に照らしてパフォーマンスを追跡する
-* 重大な問題が発生した場合は、ジャーニーを [ 一時停止または変更 ](../using/building-journeys/journey-pause.md) できるよう備える
+* ジャーニーエラー、バウンス率の高さ、エンゲージメントの低さに対する [&#x200B; システムアラート &#x200B;](../using/reports/alerts.md) の設定
+* [&#x200B; ライブレポート &#x200B;](../using/building-journeys/report-journey.md) を確認し、期待値に照らしてパフォーマンスを追跡する
+* 重大な問題が発生した場合は、ジャーニーを [&#x200B; 一時停止または変更 &#x200B;](../using/building-journeys/journey-pause.md) できるよう備える
 * 今後のテストプロセスを改善するために得られた教訓の文書化
 
 ## 実行中のテスト：ユースケース
@@ -183,20 +183,20 @@ ht-degree: 11%
 
 ### 必須のテストおよび検証ガイド
 
-* [ジャーニー内のライブレポート ](../using/building-journeys/report-journey.md) - ジャーニー指標をリアルタイムでモニタリングしてパフォーマンスをトラッキングし、実行中の問題を特定します。 プロファイルの進行状況、イベントのトリガーおよびアクションの完了率の詳細な分類にアクセスします。
+* [ジャーニー内のライブレポート &#x200B;](../using/building-journeys/report-journey.md) - ジャーニー指標をリアルタイムでモニタリングしてパフォーマンスをトラッキングし、実行中の問題を特定します。 プロファイルの進行状況、イベントのトリガーおよびアクションの完了率の詳細な分類にアクセスします。
 
-* [ テストプロファイルの作成 ](../using/audience/creating-test-profiles.md) - テストプロファイルを作成および管理して、実際の顧客シナリオをシミュレートし、パーソナライゼーションを検証します。 テスト用にプロファイルにフラグを付ける方法、属性値を設定する方法、テストプロファイルセグメントを整理する方法について説明します。
+* [&#x200B; テストプロファイルの作成 &#x200B;](../using/audience/creating-test-profiles.md) - テストプロファイルを作成および管理して、実際の顧客シナリオをシミュレートし、パーソナライゼーションを検証します。 テスト用にプロファイルにフラグを付ける方法、属性値を設定する方法、テストプロファイルセグメントを整理する方法について説明します。
 
-* [ メールスパムレポート ](../using/content-management/spam-report.md) – 送信する前にメールのスパムスコアを確認して、配信品質とインボックスの配置を向上させます。 スパムフィルターがコンテンツを評価し、改善のためのレコメンデーションを取得する方法を理解します。
+* [&#x200B; メールスパムレポート &#x200B;](../using/content-management/spam-report.md) – 送信する前にメールのスパムスコアを確認して、配信品質とインボックスの配置を向上させます。 スパムフィルターがコンテンツを評価し、改善のためのレコメンデーションを取得する方法を理解します。
 
 * [ジャーニーに関する FAQ](../using/building-journeys/journey-faq.md) - ジャーニーの作成、テスト、実行、トラブルシューティングに関するよくある質問への回答を示します。 頻繁に発生する問題を解決し、ジャーニーの動作を理解するためのクイックリファレンス。
 
 ### 関連トピック
 
-* [ コンテンツ管理 ](content-management-landing-page.md) - テンプレート、フラグメント、メールDesignerを使用して、コンテンツをデザイン、プレビュー、管理する方法について説明します。 一貫したブランディングのためのマスターコンテンツ作成のベストプラクティス。
+* [&#x200B; コンテンツ管理 &#x200B;](content-management-landing-page.md) - テンプレート、フラグメント、メールDesignerを使用して、コンテンツをデザイン、プレビュー、管理する方法について説明します。 一貫したブランディングのためのマスターコンテンツ作成のベストプラクティス。
 
-* [ レポートと分析 ](reporting-landing-page.md) – 包括的なレポート、ダッシュボード、指標を使用して、キャンペーンとジャーニーのパフォーマンスを分析します。 顧客体験を最適化するための、データに基づく意思決定を行います。
+* [&#x200B; レポートと分析 &#x200B;](reporting-landing-page.md) – 包括的なレポート、ダッシュボード、指標を使用して、キャンペーンとジャーニーのパフォーマンスを分析します。 顧客体験を最適化するための、データに基づく意思決定を行います。
 
-* [ジャーニー設定 ](configure-journeys-landing-page.md) - データソース、イベント、カスタムアクションを設定して、高度な Journey Orchestration を有効にします。 ジャーニー作成用の技術基盤を設定します。
+* [ジャーニー設定 &#x200B;](configure-journeys-landing-page.md) - データソース、イベント、カスタムアクションを設定して、高度な Journey Orchestration を有効にします。 ジャーニー作成用の技術基盤を設定します。
 
-* [ キャンペーン管理 ](../using/campaigns/get-started-with-campaigns.md) – 様々なキャンペーンタイプを調べ、最大の効果を得るためにバッチおよびリアルタイムキャンペーンを作成、スケジュール、最適化する方法を説明します。
+* [&#x200B; キャンペーン管理 &#x200B;](../using/campaigns/get-started-with-campaigns.md) – 様々なキャンペーンタイプを調べ、最大の効果を得るためにバッチおよびリアルタイムキャンペーンを作成、スケジュール、最適化する方法を説明します。
