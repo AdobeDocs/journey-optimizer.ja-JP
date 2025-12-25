@@ -5,22 +5,130 @@ title: テストと承認
 description: テストと承認
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: 6ab58b82f5c18f54d8857452d1f91ea96a55933b
-workflow-type: ht
-source-wordcount: '285'
-ht-degree: 100%
+source-git-commit: dd3d91266c0edea562f75ceb1f75974c7242ee1a
+workflow-type: tm+mt
+source-wordcount: '1296'
+ht-degree: 11%
 
 ---
 
 # テストと承認{#section-overview}
 
-キャンペーンやジャーニーを開始する前に、期待どおりに機能することを確認します。[テストプロファイル](../using/content-management/test-profiles.md)を使用してコンテンツをプレビュー、デバイス間でのメールのレンダリングを確認、[テストモード](../using/building-journeys/testing-the-journey.md)または[ドライラン](../using/building-journeys/journey-dry-run.md)を使用してジャーニーロジックを検証します。[承認ワークフロー](../using/test-approve/gs-approval.md)を設定して品質管理を確保し、[システムアラート](../using/reports/alerts.md)を使用して問題を監視します。早期にテストを行うことで、エラーを検出し、正確で効果的なキャンペーンを実現できます。
+品質保証は、優れた顧客体験を提供するために重要です。 Adobe Journey Optimizerは、オーディエンスにリーチする前にコンテンツを検証し、ジャーニーロジックを検証し、キャンペーンが品質標準を満たしていることを確認するのに役立つ、包括的なテスト機能と承認機能を提供します。 これらのツールを使用すると、テストプロファイルを使用したパーソナライズされたメッセージのプレビューから、複雑なジャーニーフローのシミュレーションに至るまで、問題を早期に特定して解決し、リスクを軽減し、ブランドの整合性を維持することができます。 複数のデバイスをまたいでメールのレンダリングをテストする場合でも、複数手順のジャーニーを検証する場合でも、正式な承認ワークフローを確立する場合でも、このセクションでは、キャンペーンとジャーニーの信頼性を構築するためのベストプラクティスと段階的なプロセスを説明します。 徹底したテストと構造化された承認を実装することで、エラーを最小限に抑え、配信品質を向上させ、顧客の共感を得られるシームレスなエクスペリエンスを作成できます。
+
+## テストと承認が重要な理由
+
+テストおよび承認プロセスは、ブランドの評判を保護し、キャンペーンの成功を確保するための不可欠な品質ゲートとして機能します。 これが重要な理由です。
+
+* **顧客に到達する前にエラーを見つける** – 修正が迅速でリスクのない制御された環境で、リンクの破損、誤ったパーソナライゼーション、レンダリングの問題、ロジックの欠陥を特定します。
+
+* **配信品質の向上** - スパムスコアをテストし、メール認証を検証し、メールクライアント間でのレンダリングを確認して、受信ボックスの配置とエンゲージメント率を最大化します。
+
+* **ブランドの一貫性の確保** – 様々なテストプロファイルを使用してコンテンツをプレビューし、様々な顧客セグメントに対してパーソナライゼーションが正しく表示され、ブランド標準を維持していることを確認します。
+
+* **複雑なジャーニーの検証** – 複数手順のジャーニーフローをシミュレートして、トリガーが正しく発生し、条件が適切に評価され、顧客が適切なメッセージを適切なタイミングで受け取ることを確認します。
+
+* **アカウンタビリティの確立** – 関係者の承認を必要とする正式な承認ワークフローを実装して、明確な所有権を作成し、不正な、または早期のキャンペーン開始を減らします。
+
+* **時間とリソースの節約** – 修正が安価かつ迅速な開発サイクルの早い段階で問題を検出し、コストのかかるローンチ後の修正やカスタマーサービスのエスカレーションを防ぎます。
+
+## テストのベストプラクティス
+
+テスト作業の有効性を最大限に高めるには、次の推奨プラクティスに従います。
+
+1. **早い段階で頻繁にテストします** - キャンペーンが完全に作成されるまで待たないでください。 開発に合わせて、コンテンツ、パーソナライゼーションおよびロジックを増分的にテストします。
+
+1. **現実的なテストプロファイルの使用** - エッジケースや様々なパーソナライゼーションシナリオなど、ターゲットオーディエンスセグメントを正確に表す [ テストプロファイルを作成 ](../using/audience/creating-test-profiles.md) します。
+
+1. **デバイスとクライアントをまたいだテスト** – 一般的なメールクライアント（Gmail、Outlook、Apple Mail）およびデバイス（デスクトップ、モバイル、タブレット）で [ メールのレンダリング ](../using/content-management/rendering.md) を検証し、一貫性のある表示を確保します。
+
+1. **パーソナライゼーションの徹底的な検証** – 異なる属性値を持つ複数の [ テストプロファイル ](../using/content-management/test-profiles.md) を使用してテストし、パーソナライゼーショントークンが正しくレンダリングされ、フォールバック値が機能することを確認します。
+
+1. **ジャーニーパスをシミュレート** – 複数の分岐を持つ複雑なジャーニーの場合は、[ テストモード ](../using/building-journeys/testing-the-journey.md) を使用して、様々なエントリ条件とプロファイル属性をテストし、可能なすべてのパスを検証します。
+
+1. **配信品質指標の確認** – 大きな送信を行う前に、[ スパムスコア ](../using/content-management/spam-report.md)、認証ステータスおよびメールヘルス指標を確認します。
+
+1. **テスト結果の文書化** - テストの結果、見つかった問題、解決策の記録を保持して、今後のテストプロセスを改善し、チームと学習を共有します。
+
+1. **利害関係者を早期に関与させる** - [ 正式な承認 ](../using/test-approve/gs-approval.md) 前に利害関係者とプレビューやテスト結果を共有して、フィードバックを収集し、期待に合わせます。
+
+## 推奨されるテストワークフロー
+
+徹底的なテストとスムーズな承認を確実に行うために、次の体系的なアプローチに従います。
+
+### &#x200B;1. コンテンツの開発とプレビュー
+
+まず、コンテンツを作成しプレビュー機能を使用して、初期デザインとパーソナライゼーションを検証します。
+
+* [ メール ](../using/email/create-email.md)、[SMS](../using/sms/create-sms.md)、[ プッシュ通知 ](../using/push/create-push.md)、またはその他のチャネルコンテンツをデザイン
+* **[コンテンツをシミュレート](../using/content-management/preview-test.md)** 機能を使用して、テストプロファイルでプレビューします
+* [ パーソナライゼーショントークン ](../using/personalization/personalization-syntax.md)、動的コンテンツおよびフォールバック値の確認
+* 異なる画面サイズおよびメールクライアントでの [ レンダリング ](../using/content-management/rendering.md) の検証
+
+### 2.技術検証
+
+配信品質と機能に影響を与える技術的側面を検証します。
+
+* [ スパムスコアチェック ](../using/content-management/spam-report.md) を実行して、配信品質の潜在的な問題を特定します
+* リンクをテストし、リンクが壊れていないこと、正しく追跡されていないことを確認します
+* [ メール認証 ](../using/configuration/dmarc-record.md) （SPF、DKIM、DMARC）設定を検証
+* HTMLのレンダリングを確認し、CSS の互換性の問題を調べる
+* モバイルおよびデスクトップデバイスでのテスト [ レスポンシブデザイン ](../using/email/content-from-scratch.md)
+
+### &#x200B;3. ジャーニー試験
+
+ジャーニーの場合、オーケストレーションロジックを検証します。
+
+* **[テストモード](../using/building-journeys/testing-the-journey.md)** を有効化して、ジャーニーを通じたプロファイルの進行状況をシミュレートします
+* 様々な [ エントリ条件 ](../using/building-journeys/entry-management.md) オーディエンス選定のテスト
+* [ 待機アクティビティ ](../using/building-journeys/wait-activity.md)、[ 条件 ](../using/building-journeys/condition-activity.md) および分岐ロジックが正しく機能していることを確認します
+* 複雑なジャーニーに **[ドライラン](../using/building-journeys/journey-dry-run.md)** を使用して、メッセージを送信せずに実行パスを分析します
+* [ イベント ](../using/event/about-events.md) のトリガーが正しいこと、および [ カスタムアクション ](../using/action/about-custom-action-configuration.md) が期待どおりに実行されていることを確認します
+
+### 4.承認の送信
+
+テストが完了し、問題が解決したら、以下の手順を実行します。
+
+* 組織の [ 承認ポリシー ](../using/test-approve/approval-policies.md) に従って、キャンペーンまたはジャーニーを承認用に送信します
+* [ 承認リクエスト ](../using/test-approve/request-approval.md) にテスト結果とドキュメントを含める
+* [ 承認者 ](../using/test-approve/review-approve-request.md) からのフィードバックまたは変更リクエストに対応する
+* 必要な修正を加え、変更が重大な場合は再テストする
+
+### &#x200B;5. ローンチ前の検証
+
+キャンペーンまたはジャーニーをアクティブ化する前に、以下を行います。
+
+* すべての設定、オーディエンス、[ スケジュール ](../using/building-journeys/journey-properties.md) の最終レビューを実行します。
+* すべての承認が実施され、文書化されていることを確認する
+* 送信時間と [ タイムゾーン ](../using/building-journeys/timezone-management.md) が正しいことを確認します
+* [ 監視とアラート ](../using/reports/alerts.md) を有効にして、起動後のパフォーマンスを追跡する
+
+### 6.監視と反復
+
+立ち上げ後、引き続き監視を実施して、問題を早期に特定します。
+
+* ジャーニーエラー、バウンス率の高さ、エンゲージメントの低さに対する [ システムアラート ](../using/reports/alerts.md) の設定
+* [ ライブレポート ](../using/building-journeys/report-journey.md) を確認し、期待値に照らしてパフォーマンスを追跡する
+* 重大な問題が発生した場合は、ジャーニーを [ 一時停止または変更 ](../using/building-journeys/journey-pause.md) できるよう備える
+* 今後のテストプロセスを改善するために得られた教訓の文書化
+
+## 実行中のテスト：ユースケース
+
+テストの概念が実際のシナリオにどのように適用されるかを確認します。
+
+* **[マルチチャネルメッセージの送信](../using/building-journeys/journeys-uc.md)** – このユースケースでは、オーディエンスの読み取り、反応イベント、メール/プッシュメッセージを組み合わせたジャーニーのテスト方法を示します。 オーディエンスのターゲティングからメッセージ配信までのフロー全体を検証する方法を説明し、実際のテスト手順と公開手順を確認します。
+
+* **[購読者へのメッセージの送信](../using/building-journeys/message-to-subscribers-uc.md)** – 動的なメールアドレスで購読リストをターゲットにするジャーニーのテスト方法を説明します。 この例では、パーソナライゼーション式を検証し、メッセージが正しい購読者に到達することを確認する方法を示しています。
+
+* **[時間限定メッセージの送信](../using/building-journeys/weekday-email-uc.md)** – 時間ベースの条件を使用してジャーニーをテストし、特定の日にメッセージが確実に送信されるようにする方法を説明します。 待機アクティビティとスケジュールロジックの検証方法を参照してください。
+
+* **[その他のジャーニーのユースケースを見る](../using/building-journeys/jo-use-cases.md)** - エクスペリエンスイベント、マルチチャネルメッセージ、外部システム統合をカバーする、実践的な例の包括的なコレクションにアクセスします。
 
 ## コンテンツのテストと承認
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 コンテンツのプレビュー、テスト、検証
 
@@ -30,7 +138,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 ジャーニーおよびキャンペーンの承認ワークフロー
 
@@ -40,7 +148,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 ジャーニーのテスト
 
@@ -50,7 +158,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 ジャーニーのドライラン
 
@@ -60,7 +168,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 監視とトラブルシューティング
 
@@ -73,12 +181,22 @@ ht-degree: 100%
 
 ## その他のリソース
 
-* [ジャーニーのライブレポート](../using/building-journeys/report-journey.md) - ジャーニーの指標をリアルタイムで監視してパフォーマンスを追跡し、実行中の問題を特定します。
+### 必須のテストおよび検証ガイド
 
-* [テストプロファイルの作成](../using/audience/creating-test-profiles.md) - 実際の顧客シナリオをシミュレートし、パーソナライゼーションを検証するためのテストプロファイルを作成および管理します。
+* [ジャーニー内のライブレポート ](../using/building-journeys/report-journey.md) - ジャーニー指標をリアルタイムでモニタリングしてパフォーマンスをトラッキングし、実行中の問題を特定します。 プロファイルの進行状況、イベントのトリガーおよびアクションの完了率の詳細な分類にアクセスします。
 
-* [コンテンツ管理](content-management-landing-page.md) - テンプレート、フラグメント、E メールデザイナーを使用してコンテンツをデザイン、プレビュー、管理する方法について説明します。
+* [ テストプロファイルの作成 ](../using/audience/creating-test-profiles.md) - テストプロファイルを作成および管理して、実際の顧客シナリオをシミュレートし、パーソナライゼーションを検証します。 テスト用にプロファイルにフラグを付ける方法、属性値を設定する方法、テストプロファイルセグメントを整理する方法について説明します。
 
-* [ジャーニーに関する FAQ](../using/building-journeys/journey-faq.md) - ジャーニーの作成、テスト、実行、トラブルシューティングに関するよくある質問への回答を見つけます。
+* [ メールスパムレポート ](../using/content-management/spam-report.md) – 送信する前にメールのスパムスコアを確認して、配信品質とインボックスの配置を向上させます。 スパムフィルターがコンテンツを評価し、改善のためのレコメンデーションを取得する方法を理解します。
 
-* [メールスパムレポート](../using/content-management/spam-report.md) - 送信前にメールのスパムスコアを確認して、配信品質とインボックスへの配置を改善します。
+* [ジャーニーに関する FAQ](../using/building-journeys/journey-faq.md) - ジャーニーの作成、テスト、実行、トラブルシューティングに関するよくある質問への回答を示します。 頻繁に発生する問題を解決し、ジャーニーの動作を理解するためのクイックリファレンス。
+
+### 関連トピック
+
+* [ コンテンツ管理 ](content-management-landing-page.md) - テンプレート、フラグメント、メールDesignerを使用して、コンテンツをデザイン、プレビュー、管理する方法について説明します。 一貫したブランディングのためのマスターコンテンツ作成のベストプラクティス。
+
+* [ レポートと分析 ](reporting-landing-page.md) – 包括的なレポート、ダッシュボード、指標を使用して、キャンペーンとジャーニーのパフォーマンスを分析します。 顧客体験を最適化するための、データに基づく意思決定を行います。
+
+* [ジャーニー設定 ](configure-journeys-landing-page.md) - データソース、イベント、カスタムアクションを設定して、高度な Journey Orchestration を有効にします。 ジャーニー作成用の技術基盤を設定します。
+
+* [ キャンペーン管理 ](../using/campaigns/get-started-with-campaigns.md) – 様々なキャンペーンタイプを調べ、最大の効果を得るためにバッチおよびリアルタイムキャンペーンを作成、スケジュール、最適化する方法を説明します。
