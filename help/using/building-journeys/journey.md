@@ -73,7 +73,7 @@ Adobe Journey Optimizerでは、4 つのジャーニータイプをサポート�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 **エントリポイントの定義**
 
@@ -83,7 +83,7 @@ Adobe Journey Optimizerでは、4 つのジャーニータイプをサポート�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ja)
 
 **メッセージの送信**
 
@@ -93,7 +93,7 @@ Adobe Journey Optimizerでは、4 つのジャーニータイプをサポート�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 **ロジックおよび条件の追加**
 
@@ -103,7 +103,7 @@ Adobe Journey Optimizerでは、4 つのジャーニータイプをサポート�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ja)
 
 **データの活用**
 
@@ -113,7 +113,7 @@ Adobe Journey Optimizerでは、4 つのジャーニータイプをサポート�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 **外部システムの接続**
 
@@ -123,7 +123,7 @@ Adobe Journey Optimizerでは、4 つのジャーニータイプをサポート�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 **オーケストレーションアクティビティの追加**
 
@@ -214,7 +214,7 @@ Adobe Journey Optimizerでは、4 つのジャーニータイプをサポート�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ja)
 
 **新規購読者へようこそ**
 
@@ -224,7 +224,7 @@ Adobe Journey Optimizerでは、4 つのジャーニータイプをサポート�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=ja)
 
 **送信時間の最適化**
 
@@ -234,7 +234,7 @@ AI を使用すると、各顧客が最も関与する可能性が高いタイ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
 
 **配信を増やす**
 
@@ -244,7 +244,7 @@ AI を使用すると、各顧客が最も関与する可能性が高いタイ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 **平日の目標**
 
@@ -254,7 +254,7 @@ AI を使用すると、各顧客が最も関与する可能性が高いタイ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 **マルチチャネルキャンペーン**
 
@@ -264,7 +264,7 @@ AI を使用すると、各顧客が最も関与する可能性が高いタイ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
 
 **すべてのユースケース**
 
@@ -282,7 +282,7 @@ AI を使用すると、各顧客が最も関与する可能性が高いタイ�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
 
 **高度な式**
 
@@ -292,7 +292,7 @@ AI を使用すると、各顧客が最も関与する可能性が高いタイ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ja)
 
 **タイムゾーン管理**
 
@@ -302,7 +302,7 @@ AI を使用すると、各顧客が最も関与する可能性が高いタイ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
 
 **テストモードとドライラン**
 
@@ -312,7 +312,7 @@ AI を使用すると、各顧客が最も関与する可能性が高いタイ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ja)
 
 **サンドボックスにコピー**
 
@@ -322,7 +322,7 @@ AI を使用すると、各顧客が最も関与する可能性が高いタイ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
 
 **タグと組織**
 
@@ -332,7 +332,7 @@ AI を使用すると、各顧客が最も関与する可能性が高いタイ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 **スループット制御**
 
