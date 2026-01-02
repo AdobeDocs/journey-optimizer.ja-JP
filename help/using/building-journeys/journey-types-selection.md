@@ -10,7 +10,7 @@ keywords: ジャーニーのタイプ，単一，オーディエンスを読み�
 version: Journey Orchestration
 hide: true
 hidefromtoc: true
-source-git-commit: 8ea2a0fe685678d41004d549443a1757eb30c765
+source-git-commit: f749eae4e0a826428880e913219cf6f5a135b17c
 workflow-type: tm+mt
 source-wordcount: '986'
 ht-degree: 4%
@@ -34,7 +34,7 @@ Adobe Journey Optimizerでは、4 つのジャーニータイプをサポート�
 
 **最適：** 購入後の注文確認、誰かが購読したときにウェルカムメール、閲覧によってトリガーされた買い物かごの放棄、パスワードリセット通知。
 
-➡️ [&#x200B; イベントについて学ぶ &#x200B;](../event/about-events.md) | [&#x200B; 購読者へのメッセージのユースケース &#x200B;](message-to-subscribers-uc.md)
+➡️ [ イベントについて学ぶ ](../event/about-events.md) | [ 購読者へのメッセージのユースケース ](message-to-subscribers-uc.md)
 
 >[!TAB  オーディエンスジャーニーの読み取り ]
 
@@ -44,7 +44,7 @@ Adobe Journey Optimizerでは、4 つのジャーニータイプをサポート�
 
 **最適な対象：** 月刊ニュースレター、セグメントをターゲットにしたプロモーションキャンペーン、製品のお知らせ、季節的なマーケティングキャンペーンなど。
 
-➡️[&#x200B; オーディエンスを読み取りについて学ぶ &#x200B;](read-audience.md) | [&#x200B; オーディエンスの概要 &#x200B;](../audience/about-audiences.md)
+➡️[ オーディエンスを読み取りについて学ぶ ](read-audience.md) | [ オーディエンスの概要 ](../audience/about-audiences.md)
 
 >[!TAB  オーディエンスの選定ジャーニー ]
 
@@ -54,7 +54,7 @@ Adobe Journey Optimizerでは、4 つのジャーニータイプをサポート�
 
 **次の用途に最適：** VIP層のアップグレード通知、お客様の非アクティブ化時の再エンゲージメント、初回購入祝いのメッセージ、お客様の移行時の地域ターゲティング。
 
-➡️[&#x200B; オーディエンスの選定について学ぶ &#x200B;](audience-qualification-events.md) | [&#x200B; オーディエンスの作成 &#x200B;](../audience/creating-a-segment-definition.md)
+➡️[ オーディエンスの選定について学ぶ ](audience-qualification-events.md) | [ オーディエンスの作成 ](../audience/creating-a-segment-definition.md)
 
 >[!TAB  ビジネスイベントジャーニー ]
 
@@ -64,7 +64,7 @@ Adobe Journey Optimizerでは、4 つのジャーニータイプをサポート�
 
 **最適：** 関心のあるお客様への低い在庫アラート、フラッシュセールのお知らせ、天気ベースのプロモーション、価格低下通知、製品在庫アラート。
 
-➡️ [&#x200B; ビジネスイベントについて学ぶ &#x200B;](../event/about-creating-business.md) | [&#x200B; 応募管理 &#x200B;](entry-management.md)
+➡️ [ ビジネスイベントについて学ぶ ](../event/about-creating-business.md) | [ 応募管理 ](entry-management.md)
 
 >[!ENDTABS]
 
@@ -177,5 +177,6 @@ Adobe Journey Optimizerでは、4 つのジャーニータイプをサポート�
 * **[ジャーニーの FAQ を表示](journey-faq.md)** – よくある質問に回答しました
 
 **キャンペーンと比較する必要がありますか？**
-&#x200B;- [ジャーニーとキャンペーン比較ガイド &#x200B;](../start/journeys-vs-campaigns.md) - ジャーニー、アクション/API キャンペーン、オーケストレーション済みキャンペーンから選択します
+
+* [ジャーニーとキャンペーン比較ガイド ](../start/journeys-vs-campaigns.md) - ジャーニー、アクション/API キャンペーン、オーケストレーション済みキャンペーンから選択します
 
