@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: ジャーニー, Discover, 開始
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: 87351e845c7a6267cc78c26c838e69e77325f2b8
+source-git-commit: a4b6b048d60847531e0e61de702b48ebe82884d3
 workflow-type: tm+mt
-source-wordcount: '1420'
-ht-degree: 5%
+source-wordcount: '1424'
+ht-degree: 4%
 
 ---
 
@@ -35,7 +35,7 @@ Adobe Journey Optimizerを使用すると、オーディエンスの行動やニ
 
 ![パレット、キャンバス、プロパティパネルを含むジャーニーデザイナーインターフェイス](assets/journey38.png)
 
-➡️ **作成を開始する準備はできていますか？** 最初のジャーニーを作成 [&#x200B; を 5 分で &#x200B;](journey-gs.md) きます。
+➡️ **作成を開始する準備はできていますか？** 最初のジャーニーを作成 [ を 5 分で ](journey-gs.md) きます。
 
 ## ジャーニータイプを選択 {#journey-types}
 
@@ -49,14 +49,9 @@ Adobe Journey Optimizerを使用すると、オーディエンスの行動やニ
 
 **単一ジャーニー** は、特定のアクション（購入、アプリのログイン、フォームの送信）が発生すると、個別にトリガーされます。 プロファイルはリアルタイムで一度に 1 つずつ入力されるので、すぐに行動に基づく応答を行う場合に最適です。
 
-**次に最適：**
+**最適：** 購入後の注文確認、誰かが購読したときにウェルカムメール、閲覧によってトリガーされた買い物かごの放棄、パスワードリセット通知。
 
-* 購入後の注文確認
-* が購読したときに送信されるウェルカムメール
-* ブラウジングによってトリガーされる買い物かご放棄
-* パスワードリセット通知
-
-➡️ [&#x200B; イベントについて学ぶ &#x200B;](../event/about-events.md) | [&#x200B; 購読者へのメッセージのユースケース &#x200B;](message-to-subscribers-uc.md)
+➡️ [ イベントについて学ぶ ](../event/about-events.md) | [ 購読者へのメッセージのユースケース ](message-to-subscribers-uc.md)
 
 >[!TAB  オーディエンスジャーニーの読み取り ]
 
@@ -64,14 +59,9 @@ Adobe Journey Optimizerを使用すると、オーディエンスの行動やニ
 
 **オーディエンスジャーニーを読み取り** Adobe Experience Platform オーディエンスから開始し、すべてのプロファイルに同時にメッセージを一括で送信します。 このジャーニータイプは、スケジュールされた大規模な通信に最適です。
 
-**次に最適：**
+**最適な対象：** 月刊ニュースレター、セグメントをターゲットにしたプロモーションキャンペーン、製品のお知らせ、季節的なマーケティングキャンペーンなど。
 
-* 月刊ニュースレター
-* セグメントをターゲットにするプロモーションキャンペーン
-* 製品に関するお知らせ
-* 季節ごとのマーケティングキャンペーン
-
-➡️[&#x200B; オーディエンスを読み取りについて学ぶ &#x200B;](read-audience.md) | [&#x200B; オーディエンスの概要 &#x200B;](../audience/about-audiences.md)
+➡️[ オーディエンスを読み取りについて学ぶ ](read-audience.md) | [ オーディエンスの概要 ](../audience/about-audiences.md)
 
 >[!TAB  オーディエンスの選定ジャーニー ]
 
@@ -79,14 +69,9 @@ Adobe Journey Optimizerを使用すると、オーディエンスの行動やニ
 
 **オーディエンスの選定ジャーニー** プロファイルが特定のオーディエンスに適合する（または離脱する）ときのトリガー。 プロファイルはリアルタイムで条件を満たすと個別に入力されるため、顧客の行動が変化した場合でも即座にエンゲージメントを確保できます。
 
-**次に最適：**
+**次の用途に最適：** VIP層のアップグレード通知、お客様の非アクティブ化時の再エンゲージメント、初回購入祝いのメッセージ、お客様の移行時の地域ターゲティング。
 
-* VIP層のアップグレード通知
-* 顧客が非アクティブになった際の再エンゲージメント
-* 最初の購入祝いメッセージ
-* 顧客の引っ越し時の地理的ターゲティング
-
-➡️[&#x200B; オーディエンスの選定について学ぶ &#x200B;](audience-qualification-events.md) | [&#x200B; オーディエンスの作成 &#x200B;](../audience/creating-a-segment-definition.md)
+➡️[ オーディエンスの選定について学ぶ ](audience-qualification-events.md) | [ オーディエンスの作成 ](../audience/creating-a-segment-definition.md)
 
 >[!TAB  ビジネスイベントジャーニー ]
 
@@ -94,15 +79,9 @@ Adobe Journey Optimizerを使用すると、オーディエンスの行動やニ
 
 **ビジネスイベントジャーニー** は、複数のプロファイルに同時に影響を与えるビジネスレベルのイベント（在庫の更新、天気アラート、価格の変更）によってトリガーされます。 これらは、個々の行動ではなく、より広いビジネス条件に対応します。
 
-**次に最適：**
+**最適：** 関心のあるお客様への低い在庫アラート、フラッシュセールのお知らせ、天気ベースのプロモーション、価格低下通知、製品在庫アラート。
 
-* 関心のある顧客への低インベントリアラート
-* Flash 販売のお知らせ
-* 天候ベースのプロモーション
-* 価格下降通知
-* 製品の在庫切れアラート
-
-➡️ [&#x200B; ビジネスイベントについて学ぶ &#x200B;](../event/about-creating-business.md) | [&#x200B; 応募管理 &#x200B;](entry-management.md)
+➡️ [ ビジネスイベントについて学ぶ ](../event/about-creating-business.md) | [ 応募管理 ](entry-management.md)
 
 >[!ENDTABS]
 
@@ -121,7 +100,7 @@ Adobe Journey Optimizerを使用すると、オーディエンスの行動やニ
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **エントリポイントの定義**
 
@@ -131,7 +110,7 @@ Adobe Journey Optimizerを使用すると、オーディエンスの行動やニ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **メッセージの送信**
 
@@ -141,7 +120,7 @@ Adobe Journey Optimizerを使用すると、オーディエンスの行動やニ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **ロジックおよび条件の追加**
 
@@ -151,7 +130,7 @@ Adobe Journey Optimizerを使用すると、オーディエンスの行動やニ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **データの活用**
 
@@ -161,7 +140,7 @@ Adobe Journey Optimizerを使用すると、オーディエンスの行動やニ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **外部システムの接続**
 
@@ -171,7 +150,7 @@ Adobe Journey Optimizerを使用すると、オーディエンスの行動やニ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **オーケストレーションアクティビティの追加**
 
@@ -182,7 +161,7 @@ Adobe Journey Optimizerを使用すると、オーディエンスの行動やニ
 
 ::::
 
-➡️ **実践的な学習：** [&#x200B; ジャーニーデザイナーのビデオをご覧ください &#x200B;](#video) または [&#x200B; エンドツーエンドのユースケースについて詳しく説明 &#x200B;](jo-use-cases.md)
+➡️ **実践的な学習：** [ ジャーニーデザイナーのビデオをご覧ください ](#video) または [ エンドツーエンドのユースケースについて詳しく説明 ](jo-use-cases.md)
 
 ## ジャーニー作成ワークフロー {#workflow}
 
@@ -190,16 +169,16 @@ Adobe Journey Optimizerを使用すると、オーディエンスの行動やニ
 
 **1. プラン** → **2. デザイン** → **3. テスト** → **4。 公開** → **5. モニタ** → **6 最適化**
 
-### &#x200B;1. **ジャーニーの計画** {#plan}
+### &#x200B;1. ジャーニーの計画 {#plan}
 
 デザイナーを開く前に、目的を明確にします。
 
 * **目標は何ですか？** （例：新規顧客のオンボーディング、非アクティブユーザーの再エンゲージ）
 * **観客はだれですか。** （特定のセグメント、イベント駆動型の個人）
-* **適合するジャーニータイプはどれですか？** （上記の [&#x200B; ジャーニータイプ &#x200B;](#journey-types) を参照）
+* **適合するジャーニータイプはどれですか？** （上記の [ ジャーニータイプ ](#journey-types) を参照）
 * **どのチャネルを使用しますか？** （メール、プッシュ、SMS など）
 
-### &#x200B;2. **キャンバスでのデザイン** {#design}
+### &#x200B;2. キャンバスでのデザイン {#design}
 
 ジャーニーデザイナーを使用したフローの作成：
 
@@ -211,7 +190,7 @@ Adobe Journey Optimizerを使用すると、オーディエンスの行動やニ
 
 [Journey designer →の使用方法を学ぶ](using-the-journey-designer.md)
 
-### &#x200B;3. **運用開始前にテスト** {#test}
+### 3.運用開始前のテスト {#test}
 
 ジャーニーを常にテストして、顧客が経験する前に問題を特定してください。
 
@@ -220,9 +199,9 @@ Adobe Journey Optimizerを使用すると、オーディエンスの行動やニ
 * すべての条件、メッセージ、アクションが期待どおりに動作することを確認します
 * タイミング、データフロー、パーソナライゼーションの確認
 
-[&#x200B; ジャーニー→のテスト &#x200B;](testing-the-journey.md) | [&#x200B; ドライラン→ールについて学ぶ &#x200B;](journey-dry-run.md)
+[ ジャーニー→のテスト ](testing-the-journey.md) | [ ドライラン→ールについて学ぶ ](journey-dry-run.md)
 
-### &#x200B;4. **ジャーニーの公開** {#publish}
+### &#x200B;4. ジャーニーの公開 {#publish}
 
 テストが完了したら、公開してジャーニーをライブにします。
 
@@ -232,7 +211,7 @@ Adobe Journey Optimizerを使用すると、オーディエンスの行動やニ
 
 [ジャーニー→を公開する](publish-journey.md)
 
-### &#x200B;5. **パフォーマンスの監視** {#monitor}
+### &#x200B;5. パフォーマンスの監視 {#monitor}
 
 ジャーニーの実際のパフォーマンスを追跡する：
 
@@ -240,9 +219,9 @@ Adobe Journey Optimizerを使用すると、オーディエンスの行動やニ
 * エントリ、完了およびエラー率の監視
 * 重大な問題に対するアラートの設定
 
-[→の監視とレポート &#x200B;](report-journey.md) | [&#x200B; アラートの設定→](../reports/alerts.md)
+[→の監視とレポート ](report-journey.md) | [ アラートの設定→](../reports/alerts.md)
 
-### &#x200B;6. **最適化と反復** {#optimize}
+### 6.最適化と反復 {#optimize}
 
 インサイトを使用した改善：
 
@@ -251,9 +230,9 @@ Adobe Journey Optimizerを使用すると、オーディエンスの行動やニ
 * 機能強化を含む新しいジャーニーバージョンの作成
 * AI を活用したレコメンデーションの使用
 
-[&#x200B; ジャーニーの最適化→](optimize.md) | [&#x200B; 送信時間の最適化→](send-time-optimization.md)
+[ ジャーニーの最適化→](optimize.md) | [ 送信時間の最適化→](send-time-optimization.md)
 
-➡️ **開始する準備ができましたか？**&#x200B;[&#x200B; 今すぐ最初のジャーニーを作成→ます &#x200B;](journey-gs.md)
+➡️ **開始する準備ができましたか？**[ 今すぐ最初のジャーニーを作成→ます ](journey-gs.md)
 
 ## 実際のユースケース {#use-cases}
 
@@ -262,7 +241,7 @@ Adobe Journey Optimizerを使用すると、オーディエンスの行動やニ
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **新規購読者へようこそ**
 
@@ -272,7 +251,7 @@ Adobe Journey Optimizerを使用すると、オーディエンスの行動やニ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **送信時間の最適化**
 
@@ -282,7 +261,7 @@ AI を使用すると、各顧客が最も関与する可能性が高いタイ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **配信を増やす**
 
@@ -292,7 +271,7 @@ AI を使用すると、各顧客が最も関与する可能性が高いタイ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **平日の目標**
 
@@ -302,7 +281,7 @@ AI を使用すると、各顧客が最も関与する可能性が高いタイ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **マルチチャネルキャンペーン**
 
@@ -312,13 +291,13 @@ AI を使用すると、各顧客が最も関与する可能性が高いタイ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **すべてのユースケース**
 
 ステップバイステップの実装を使用して、ジャーニーのユースケースの完全なライブラリを調べます。
 
-[&#x200B; すべての→を参照 &#x200B;](jo-use-cases.md) | [&#x200B; ユースケースライブラリ→](/help/rp_landing_pages/journey-use-cases-landing-page.md)
+[ すべての→を参照 ](jo-use-cases.md) | [ ユースケースライブラリ→](/help/rp_landing_pages/journey-use-cases-landing-page.md)
 :::
 
 ::::
@@ -330,7 +309,7 @@ AI を使用すると、各顧客が最も関与する可能性が高いタイ�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **高度な式**
 
@@ -340,7 +319,7 @@ AI を使用すると、各顧客が最も関与する可能性が高いタイ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **タイムゾーン管理**
 
@@ -350,7 +329,7 @@ AI を使用すると、各顧客が最も関与する可能性が高いタイ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **テストモードとドライラン**
 
@@ -360,7 +339,7 @@ AI を使用すると、各顧客が最も関与する可能性が高いタイ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **サンドボックスにコピー**
 
@@ -370,7 +349,7 @@ AI を使用すると、各顧客が最も関与する可能性が高いタイ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **タグと組織**
 
@@ -380,7 +359,7 @@ AI を使用すると、各顧客が最も関与する可能性が高いタイ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **スループット制御**
 
@@ -397,9 +376,9 @@ AI を使用すると、各顧客が最も関与する可能性が高いタイ�
 
 ジャーニーコンポーネントを視覚的に紹介し、キャンバスでジャーニーを作成するための基本を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430350?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
-➡️ **ビデオを増やしますか？**&#x200B;[&#x200B; ジャーニーのビデオチュートリアルを見る &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
+➡️ **ビデオを増やしますか？**[ ジャーニーのビデオチュートリアルを見る ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
 
 ## サポートが必要な場合 {#help}
 
@@ -422,4 +401,4 @@ AI を使用すると、各顧客が最も関与する可能性が高いタイ�
 * **[実行の問題のトラブルシューティング](troubleshooting-execution.md)** - ジャーニー実行の問題のデバッグ
 * **[インバウンドアクティビティのトラブルシューティング](troubleshooting-inbound.md)** - エントリと選定の問題の修正
 
-**初めてのジャーニーを作成する準備はできていますか？** [&#x200B; 今すぐ始める→](journey-gs.md)
+**初めてのジャーニーを作成する準備はできていますか？** [ 今すぐ始める→](journey-gs.md)
