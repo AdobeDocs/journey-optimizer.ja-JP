@@ -5,9 +5,9 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
-source-git-commit: b70233b3ac1741fa645a426fba3c6bd3175b13a0
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '663'
 ht-degree: 68%
 
 ---
@@ -41,9 +41,9 @@ ht-degree: 68%
 
 承認ポリシーを作成するには、次の手順に従います。
 
-1. **[!UICONTROL の]** 管理 [!DNL Journey Optimizer] メニューから、**[!UICONTROL 権限]**&#x200B;**[!UICONTROL ポリシー]** にアクセスします。
+1. **[!UICONTROL の]** 管理 [!DNL Journey Optimizer] メニューから、**[!UICONTROL 権限]****[!UICONTROL ポリシー]** にアクセスします。
 
-   ![&#x200B; 権限メニューの「承認ポリシーを作成」ボタン &#x200B;](assets/policy_create_1.png)
+   ![ 権限メニューの「承認ポリシーを作成」ボタン ](assets/policy_create_1.png)
 
 1. 「**[!UICONTROL 承認ポリシー]**」タブの「**[!UICONTROL 作成]**」をクリックし、「**[!UICONTROL 承認ポリシー]**」を選択して「**[!UICONTROL 確認]**」をクリックします。
 
@@ -66,7 +66,7 @@ ht-degree: 68%
 * **キャンペーン/ジャーニー名**：特定のオブジェクトを名前でターゲットに設定します
 * **タグ**：特定のタグを持つすべてのキャンペーンまたはジャーニーにポリシーを適用します
 * **チャネルタイプ**：特定のアクション（メール、SMS、プッシュなど）に対して承認を要求
-* **キャンペーンタイプ**：スケジュール済みキャンペーンと API トリガーキャンペーンで異なるルールを設定する
+* **キャンペーンタイプ**:[ アクションと API トリガーキャンペーン ](../campaigns/get-started-with-campaigns.md#campaign-types) に異なるルールを設定
 * **リクエスター**：キャンペーンまたはジャーニーの作成者に基づいてポリシーを定義します
 
 承認ポリシーに関連付ける条件を定義するには、次の手順に従います。
@@ -79,7 +79,7 @@ ht-degree: 68%
 
    例えば、「アクションが任意のダイレクトメールと一致する場合」や「要求者のユーザー名が John Doe と一致する場合」などです。
 
-   ![&#x200B; 承認ポリシー条件ビルダーインターフェイス &#x200B;](assets/policy_condition_1.png)
+   ![ 承認ポリシー条件ビルダーインターフェイス ](assets/policy_condition_1.png)
 
    +++ 詳しくは、使用可能なカテゴリとオプションを参照してください
    <table>
@@ -150,7 +150,7 @@ ht-degree: 68%
 
    選択したユーザーまたはユーザーグループが、承認リクエストを検証することになります。
 
-   ![&#x200B; 承認要求受信者選択インターフェイス &#x200B;](assets/policy_condition_2.png)
+   ![ 承認要求受信者選択インターフェイス ](assets/policy_condition_2.png)
 
 1. 条件を追加するには、「**[!UICONTROL 条件を追加]**」をクリックして追加のルールを定義し、「**[!UICONTROL And]**」または「**[!UICONTROL Or]**」を選択して条件の接続方法を指定します。
 
@@ -170,8 +170,8 @@ ht-degree: 68%
    >
    >アクティブ化したポリシーは編集できません。条件を変更するには、まずポリシーを非アクティブ化します。
 
-   ![&#x200B; 「承認ポリシーをアクティブ化」ボタン &#x200B;](assets/policy_activate_1.png)
+   ![ 「承認ポリシーをアクティブ化」ボタン ](assets/policy_activate_1.png)
 
 1. **[!UICONTROL ポリシー]**&#x200B;メニューから、必要に応じてポリシーの詳細オプションを開いて&#x200B;**[!UICONTROL 編集]**、**[!UICONTROL 非アクティブ化]**、**[!UICONTROL 複製]**&#x200B;を実行します。
 
-   ![&#x200B; 承認ポリシー管理オプション メニュー &#x200B;](assets/policy_activate_2.png)
+   ![ 承認ポリシー管理オプション メニュー ](assets/policy_activate_2.png)

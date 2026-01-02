@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 作成, Optimizer, キャンペーン, サーフェス, メッセージ
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 81e54a3e3428d58818805b5dcb397ede4039436a
-workflow-type: ht
-source-wordcount: '190'
-ht-degree: 100%
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
+workflow-type: tm+mt
+source-wordcount: '201'
+ht-degree: 94%
 
 ---
 
@@ -48,6 +48,8 @@ ht-degree: 100%
 1. [アクションキャンペーンオーディエンスの定義](campaign-audience.md)
 1. [アクションキャンペーンのスケジュール](campaign-schedule.md)
 1. [アクションキャンペーンのレビューとアクティブ化](review-activate-campaign.md)
+
+[ タイプ固有のガイドを使用した、完全なキャンペーン作成ワークフロー→](get-started-with-campaigns.md#workflow) について詳しくは、こちらを参照してください
 
 ## チュートリアルビデオ {#video}
 

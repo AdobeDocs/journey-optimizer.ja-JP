@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: IP、グループ、サブドメイン、配信品質
 exl-id: 752ffd7f-09c2-4aa3-a067-2dbe0634709c
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
 workflow-type: tm+mt
-source-wordcount: '2730'
-ht-degree: 98%
+source-wordcount: '2733'
+ht-degree: 97%
 
 ---
 
@@ -308,7 +308,7 @@ IP ウォームアッププラン自体は、1 か所で統合レポートとし
 
 ![](assets/ip-warmup-plan-reports.png)
 
-また、プランでは別のキャンペーンが使用されている可能性があるので、[キャンペーンメニュー](../campaigns/manage-campaigns.md#access)からレポートにアクセスすることもできます。
+また、プランで異なるキャンペーンを使用する可能性があるので、[ キャンペーン ](../campaigns/manage-campaigns.md#access) メニューからレポートにアクセスすることもできます。 [ カレンダー→で表示 ](../campaigns/manage-campaigns.md#calendar)
 
 
 ## プランを管理 {#manage-plan}

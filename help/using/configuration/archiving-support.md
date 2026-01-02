@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: アーカイブ, メッセージ, HIPAA, BCC, メール
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '1337'
-ht-degree: 100%
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
+workflow-type: tm+mt
+source-wordcount: '1342'
+ht-degree: 97%
 
 ---
 
@@ -148,7 +148,7 @@ BCC に関するレポート自体は、ジャーニーレポートとメッセ�
 
    >[!NOTE]
    >
-   >`<journey version id>` パラメーターを取得するには、**[!UICONTROL ジャーニー管理]**／**[!UICONTROL ジャーニー]**&#x200B;メニューから、対応する[ジャーニーバージョン](../building-journeys/journey.md#uc-journey)を選択します。ジャーニーバージョン ID は、web ブラウザーに表示される URL の末尾に表示されます。
+   >`<journey version id>` パラメーターを取得するには、**[!UICONTROL ジャーニー管理]**/**[!UICONTROL ジャーニー]** メニューから、対応するジャーニーバージョンを選択します。 ジャーニーバージョン ID は、web ブラウザーに表示される URL の末尾に表示されます。 [ ジャーニーのバージョンの詳細情報 ](../building-journeys/publish-journey.md#journey-versions)
    >
    >![](assets/preset-bcc-action-id.png)
 

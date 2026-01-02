@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 keywords: キャンペーン, API トリガー, REST, Optimizer, メッセージ
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: 81e54a3e3428d58818805b5dcb397ede4039436a
-workflow-type: ht
-source-wordcount: '271'
-ht-degree: 100%
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
+workflow-type: tm+mt
+source-wordcount: '282'
+ht-degree: 96%
 
 ---
 
@@ -50,8 +50,10 @@ API トリガーキャンペーンを使用すると、適切なタイミング�
 1. [キャンペーンのレビューとアクティブ化](review-activate-api-triggered-campaign.md)
 1. [キャンペーン実行のトリガー](trigger-campaigns.md)
 
+[ タイプ固有のガイドを使用した、完全なキャンペーン作成ワークフロー→](get-started-with-campaigns.md#workflow) について詳しくは、こちらを参照してください
+
 ## チュートリアルビデオ {#video}
 
 Interactive Message Execution REST API を使用して、キャンペーンを作成し、ユーザーインタラクションに基づいて外部システムからキャンペーンをトリガーする方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452726?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)

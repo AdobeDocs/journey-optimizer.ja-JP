@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: a1daf6f7-c26c-4d70-984b-0b4eeb04a1a8
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
+source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
+workflow-type: tm+mt
 source-wordcount: '499'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -69,13 +69,13 @@ ht-degree: 100%
    >
    >キャンペーンのアクティブ化について詳しくは、[この節](../campaigns/review-activate-campaign.md)を参照してください。
 
-コードベースキャンペーンのステータスが「**[!UICONTROL ライブ]**」になり、選択したオーディエンスに対して表示されます。キャンペーンの各受信者は、あなたがコンテンツに追加した変更を表示できます。
+コードベースのキャンペーンは **[!UICONTROL ライブ]**[ ステータス ](../campaigns/manage-campaigns.md#statuses) を取り、選択したオーディエンスに表示されるようになりました。 キャンペーンの各受信者は、あなたがコンテンツに追加した変更を表示できます。
 
 >[!NOTE]
 >
 >「**[!UICONTROL アクティブ化]**」をクリックした後、変更が公開されるまでに最大 15 分かかる場合があります。
 >
->コードベースキャンペーンのスケジュールを定義した場合、開始日時になるまで、ステータスは&#x200B;**[!UICONTROL スケジュール済み]**&#x200B;になります。
+>コードベースのキャンペーンのスケジュールを定義した場合、開始日時に達するまで、**[!UICONTROL スケジュール済み]**[ ステータス ](../campaigns/manage-campaigns.md#statuses) になります。
 
 ## コードベースのジャーニーまたはキャンペーンの停止 {#stop-code-based-experience}
 
