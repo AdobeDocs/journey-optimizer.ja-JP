@@ -101,7 +101,7 @@ Adobe Journey Optimizerを使用すると、複数のチャネルをまたいで
 
 ![](assets/gs-campaigns.png)
 
-➡️ **作成を開始する準備はできていますか？** 最初のキャンペーンを作成 [ を数分で ](create-campaign.md) 成します。
+➡️ **作成を開始する準備はできていますか？** 最初のキャンペーンを作成 [&#x200B; を数分で &#x200B;](create-campaign.md) 成します。
 
 ## キャンペーンタイプを選択 {#campaign-types}
 
@@ -130,7 +130,7 @@ Adobe Journey Optimizerを使用すると、複数のチャネルをまたいで
 * 製品ローンチに関するお知らせ
 * サービス中断通知
 
-➡️[ アクションキャンペーンについて学ぶ ](create-campaign.md)
+➡️[&#x200B; アクションキャンペーンについて学ぶ &#x200B;](create-campaign.md)
 
 >[!TAB API トリガーキャンペーン]
 
@@ -151,7 +151,7 @@ Adobe Journey Optimizerを使用すると、複数のチャネルをまたいで
 * アカウントアクティビティの通知
 * リアルタイムのパーソナライズされたレコメンデーション
 
-➡️ [API トリガーキャンペーンについて学ぶ ](api-triggered-campaigns.md)
+➡️ [API トリガーキャンペーンについて学ぶ &#x200B;](api-triggered-campaigns.md)
 
 >[!TAB オーケストレーションキャンペーン]
 
@@ -167,7 +167,7 @@ Adobe Journey Optimizerを使用すると、複数のチャネルをまたいで
 * 大規模なブランド主導のマーケティング
 * 複数の決定ポイントによる高度なワークフロー自動化
 
-➡️[ オーケストレートキャンペーンについて学ぶ ](../orchestrated/gs-orchestrated-campaigns.md)
+➡️[&#x200B; オーケストレートキャンペーンについて学ぶ &#x200B;](../orchestrated/gs-orchestrated-campaigns.md)
 
 >[!ENDTABS]
 
@@ -187,8 +187,8 @@ Adobe Journey Optimizerを使用すると、複数のチャネルをまたいで
 
 * **目標は何ですか？** （例：コンバージョンの促進、エンゲージメントの向上、顧客への通知）
 * **観客はだれですか。** （例：Adobe Experience Platformからビルドまたは選択）
-* **適合するキャンペーンタイプはどれですか？** （上記の [ キャンペーンタイプ ](#campaign-types) を参照）
-* **どのチャネルを使用しますか？** （メール、プッシュ、SMS、アプリ内、web など）→[ キャンペーンタイプ別のサポートされるチャネルを参照 ](../channels/gs-channels.md#channels)
+* **適合するキャンペーンタイプはどれですか？** （上記の [&#x200B; キャンペーンタイプ &#x200B;](#campaign-types) を参照）
+* **どのチャネルを使用しますか？** （メール、プッシュ、SMS、アプリ内、web など）→[&#x200B; キャンペーンタイプ別のサポートされるチャネルを参照 &#x200B;](../channels/gs-channels.md#channels)
 * **実行するタイミング** （即時、スケジュール済みまたは API トリガー）
 
 ### &#x200B;2. **キャンペーンプロパティの設定** {#configure}
@@ -276,11 +276,11 @@ Adobe Journey Optimizerを使用すると、複数のチャネルをまたいで
 
 ### 必要な設定
 
-* **オーディエンス** - キャンペーンを作成する前に、オーディエンスをAdobe Experience Platformで使用できる必要があります。 [ オーディエンス→ースの基本を学ぶ ](../audience/about-audiences.md)
+* **オーディエンス** - キャンペーンを作成する前に、オーディエンスをAdobe Experience Platformで使用できる必要があります。 [&#x200B; オーディエンス→ースの基本を学ぶ &#x200B;](../audience/about-audiences.md)
 
-* **チャネル設定** - チャネル設定（プリセット）を作成し、使用するチャネルで使用可能にする必要があります。 [ チャネル設定のセットアップ→](../configuration/channel-surfaces.md)
+* **チャネル設定** - チャネル設定（プリセット）を作成し、使用するチャネルで使用可能にする必要があります。 [&#x200B; チャネル設定のセットアップ→](../configuration/channel-surfaces.md)
 
-* **権限** - キャンペーンタイプに基づく適切な権限が必要です。 Campaign の機能にアクセスできない場合は、管理者にお問い合わせください。 [ 組み込みの役割→ついて説明します ](../administration/ootb-product-profiles.md)。
+* **権限** - キャンペーンタイプに基づく適切な権限が必要です。 Campaign の機能にアクセスできない場合は、管理者にお問い合わせください。 [&#x200B; 組み込みの役割→ついて説明します &#x200B;](../administration/ootb-product-profiles.md)。
 
 | キャンペーンタイプ | 権限 |
 |----------------------------|----------------------------------------------------------------------------|
