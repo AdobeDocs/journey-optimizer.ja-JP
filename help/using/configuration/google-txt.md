@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: サブドメイン, google, txt, レコード, gmail, 配信品質
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
-source-git-commit: 8b755351e25ecae9a2058e63919d6512ea0bf153
+source-git-commit: e89bec74f597185065b274d22740324a09e9319e
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 100%
+source-wordcount: '280'
+ht-degree: 75%
 
 ---
 
@@ -40,3 +40,17 @@ TXT レコードは、ドメインに関するテキスト情報を提供する�
    ![](assets/subdomain-google-txt.png)
 
 1. TXT レコードを追加したら、Google で検証する必要があります。これを行うには、[Google Workspace](https://support.google.com/a/answer/183895){target="_blank"}<!--G Suite Admin tools--> に移動し、検証手順を開始します。
+
+## Google TXT レコードの更新 {#update-google-txt-record}
+
+既存のGoogle TXT レコードを更新するには、次の手順に従います。
+
+1. **[!UICONTROL サブドメイン]** メニューからサブドメインを開きます。
+
+1. 「**[!UICONTROL Google txt レコード]**」フィールドの既存の値をクリアし、「**[!UICONTROL 保存]** をクリックします。 この手順では、前のGoogle TXT レコード値を空の文字列に置き換えます。
+
+1. 同じサブドメインを再度開き、新しい検証コードを入力します。
+
+1. もう一度 **[!UICONTROL 保存]** をクリックします。
+
+1. [Google Workspace](https://support.google.com/a/answer/183895){target="_blank"} を使用して、更新されたレコードを検証します。
