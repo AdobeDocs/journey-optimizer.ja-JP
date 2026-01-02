@@ -45,7 +45,7 @@ Adobe Journey Optimizerを使用すると、オーディエンスの行動やニ
 
 >[!TAB  単一ジャーニー ]
 
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg) **使用するタイミング：** リアルタイムのイベントトリガーエクスペリエンス
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja) **使用するタイミング：** リアルタイムのイベントトリガーエクスペリエンス
 
 **単一ジャーニー** は、特定のアクション（購入、アプリのログイン、フォームの送信）が発生すると、個別にトリガーされます。 プロファイルはリアルタイムで一度に 1 つずつ入力されるので、すぐに行動に基づく応答を行う場合に最適です。
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizerを使用すると、オーディエンスの行動やニ
 
 >[!TAB  オーディエンスジャーニーの読み取り ]
 
-![&#x200B; アイコン &#x200B;](https://cdn.experienceleague.adobe.com/icons/database.svg)**使用するタイミング：** スケジュール済みキャンペーンをオーディエンスセグメントに
+![&#x200B; アイコン &#x200B;](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ja)**使用するタイミング：** スケジュール済みキャンペーンをオーディエンスセグメントに
 
 **オーディエンスジャーニーを読み取り** Adobe Experience Platform オーディエンスから開始し、すべてのプロファイルに同時にメッセージを一括で送信します。 このジャーニータイプは、スケジュールされた大規模な通信に最適です。
 
@@ -75,7 +75,7 @@ Adobe Journey Optimizerを使用すると、オーディエンスの行動やニ
 
 >[!TAB  オーディエンスの選定ジャーニー ]
 
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg) **使用するタイミング：** オーディエンスメンバーシップの変更に対するリアルタイム応答
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja) **使用するタイミング：** オーディエンスメンバーシップの変更に対するリアルタイム応答
 
 **オーディエンスの選定ジャーニー** プロファイルが特定のオーディエンスに適合する（または離脱する）ときのトリガー。 プロファイルはリアルタイムで条件を満たすと個別に入力されるため、顧客の行動が変化した場合でも即座にエンゲージメントを確保できます。
 
@@ -90,7 +90,7 @@ Adobe Journey Optimizerを使用すると、オーディエンスの行動やニ
 
 >[!TAB  ビジネスイベントジャーニー ]
 
-![&#x200B; アイコン &#x200B;](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)**使用すべき状況：** 複数のお客様に影響するビジネス状況
+![&#x200B; アイコン &#x200B;](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=ja)**使用すべき状況：** 複数のお客様に影響するビジネス状況
 
 **ビジネスイベントジャーニー** は、複数のプロファイルに同時に影響を与えるビジネスレベルのイベント（在庫の更新、天気アラート、価格の変更）によってトリガーされます。 これらは、個々の行動ではなく、より広いビジネス条件に対応します。
 
@@ -121,7 +121,7 @@ Adobe Journey Optimizerを使用すると、オーディエンスの行動やニ
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 **エントリポイントの定義**
 
@@ -131,7 +131,7 @@ Adobe Journey Optimizerを使用すると、オーディエンスの行動やニ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ja)
 
 **メッセージの送信**
 
@@ -141,7 +141,7 @@ Adobe Journey Optimizerを使用すると、オーディエンスの行動やニ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 **ロジックおよび条件の追加**
 
@@ -151,7 +151,7 @@ Adobe Journey Optimizerを使用すると、オーディエンスの行動やニ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ja)
 
 **データの活用**
 
@@ -161,7 +161,7 @@ Adobe Journey Optimizerを使用すると、オーディエンスの行動やニ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 **外部システムの接続**
 
@@ -171,7 +171,7 @@ Adobe Journey Optimizerを使用すると、オーディエンスの行動やニ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 **オーケストレーションアクティビティの追加**
 
@@ -262,7 +262,7 @@ Adobe Journey Optimizerを使用すると、オーディエンスの行動やニ
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ja)
 
 **新規購読者へようこそ**
 
@@ -272,7 +272,7 @@ Adobe Journey Optimizerを使用すると、オーディエンスの行動やニ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=ja)
 
 **送信時間の最適化**
 
@@ -282,7 +282,7 @@ AI を使用すると、各顧客が最も関与する可能性が高いタイ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
 
 **配信を増やす**
 
@@ -292,7 +292,7 @@ AI を使用すると、各顧客が最も関与する可能性が高いタイ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 **平日の目標**
 
@@ -302,7 +302,7 @@ AI を使用すると、各顧客が最も関与する可能性が高いタイ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 **マルチチャネルキャンペーン**
 
@@ -312,7 +312,7 @@ AI を使用すると、各顧客が最も関与する可能性が高いタイ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
 
 **すべてのユースケース**
 
@@ -330,7 +330,7 @@ AI を使用すると、各顧客が最も関与する可能性が高いタイ�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
 
 **高度な式**
 
@@ -340,7 +340,7 @@ AI を使用すると、各顧客が最も関与する可能性が高いタイ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ja)
 
 **タイムゾーン管理**
 
@@ -350,7 +350,7 @@ AI を使用すると、各顧客が最も関与する可能性が高いタイ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
 
 **テストモードとドライラン**
 
@@ -360,7 +360,7 @@ AI を使用すると、各顧客が最も関与する可能性が高いタイ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ja)
 
 **サンドボックスにコピー**
 
@@ -370,7 +370,7 @@ AI を使用すると、各顧客が最も関与する可能性が高いタイ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
 
 **タグと組織**
 
@@ -380,7 +380,7 @@ AI を使用すると、各顧客が最も関与する可能性が高いタイ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 **スループット制御**
 
