@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: サブドメイン, デリゲーション, ドメイン, DNS
 exl-id: 8021f66e-7725-475b-8722-e6f8d74c9023
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
-workflow-type: ht
-source-wordcount: '1906'
-ht-degree: 100%
+source-git-commit: 8f9eca37076c899912616134f75b8e05690831fc
+workflow-type: tm+mt
+source-wordcount: '1928'
+ht-degree: 98%
 
 ---
 
@@ -125,6 +125,10 @@ ht-degree: 100%
 
     Capital letters are not allowed in subdomains. TBC by PM
 -->
+
+    >[！注意 ]
+    >
+    >DNS プロバイダーを使用して新しいサブドメインを作成した後、Adobeへのデリゲーションを試みる前に、DNS 伝達に 24 ～ 48 時間かかります。
 
 1. 専用セクションで **[!UICONTROL DMARC レコード]**&#x200B;を設定します。サブドメインに [DMARC レコード](dmarc-record.md)が既に存在し [!DNL Journey Optimizer] で取得する場合は、同じ値を使用することも、必要に応じて変更することもできます。値を追加しない場合は、デフォルトの値が使用されます。[DMARC レコードの管理方法の詳細情報](dmarc-record.md#set-up-dmarc)
 
@@ -277,4 +281,4 @@ CNAME を使用してサブドメインを設定するには、次の手順に�
 
 CNAME を使用してサブドメインを作成しアドビ固有のレコードを指すようにする方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/342236?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)
