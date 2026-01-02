@@ -49,7 +49,7 @@ ht-degree: 94%
 1. [アクションキャンペーンのスケジュール](campaign-schedule.md)
 1. [アクションキャンペーンのレビューとアクティブ化](review-activate-campaign.md)
 
-[ タイプ固有のガイドを使用した、完全なキャンペーン作成ワークフロー→](get-started-with-campaigns.md#workflow) について詳しくは、こちらを参照してください
+[&#x200B; タイプ固有のガイドを使用した、完全なキャンペーン作成ワークフロー→](get-started-with-campaigns.md#workflow) について詳しくは、こちらを参照してください
 
 ## チュートリアルビデオ {#video}
 

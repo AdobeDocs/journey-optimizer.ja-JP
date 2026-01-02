@@ -308,7 +308,7 @@ IP ウォームアッププラン自体は、1 か所で統合レポートとし
 
 ![](assets/ip-warmup-plan-reports.png)
 
-また、プランで異なるキャンペーンを使用する可能性があるので、[ キャンペーン ](../campaigns/manage-campaigns.md#access) メニューからレポートにアクセスすることもできます。 [ カレンダー→で表示 ](../campaigns/manage-campaigns.md#calendar)
+また、プランで異なるキャンペーンを使用する可能性があるので、[&#x200B; キャンペーン &#x200B;](../campaigns/manage-campaigns.md#access) メニューからレポートにアクセスすることもできます。 [&#x200B; カレンダー→で表示 &#x200B;](../campaigns/manage-campaigns.md#calendar)
 
 
 ## プランを管理 {#manage-plan}

@@ -50,7 +50,7 @@ API トリガーキャンペーンを使用すると、適切なタイミング�
 1. [キャンペーンのレビューとアクティブ化](review-activate-api-triggered-campaign.md)
 1. [キャンペーン実行のトリガー](trigger-campaigns.md)
 
-[ タイプ固有のガイドを使用した、完全なキャンペーン作成ワークフロー→](get-started-with-campaigns.md#workflow) について詳しくは、こちらを参照してください
+[&#x200B; タイプ固有のガイドを使用した、完全なキャンペーン作成ワークフロー→](get-started-with-campaigns.md#workflow) について詳しくは、こちらを参照してください
 
 ## チュートリアルビデオ {#video}
 

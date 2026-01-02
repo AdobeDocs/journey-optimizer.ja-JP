@@ -69,13 +69,13 @@ ht-degree: 92%
    >
    >キャンペーンのアクティブ化について詳しくは、[この節](../campaigns/review-activate-campaign.md)を参照してください。
 
-コードベースのキャンペーンは **[!UICONTROL ライブ]**[ ステータス ](../campaigns/manage-campaigns.md#statuses) を取り、選択したオーディエンスに表示されるようになりました。 キャンペーンの各受信者は、あなたがコンテンツに追加した変更を表示できます。
+コードベースのキャンペーンは **[!UICONTROL ライブ]**&#x200B;[&#x200B; ステータス &#x200B;](../campaigns/manage-campaigns.md#statuses) を取り、選択したオーディエンスに表示されるようになりました。 キャンペーンの各受信者は、あなたがコンテンツに追加した変更を表示できます。
 
 >[!NOTE]
 >
 >「**[!UICONTROL アクティブ化]**」をクリックした後、変更が公開されるまでに最大 15 分かかる場合があります。
 >
->コードベースのキャンペーンのスケジュールを定義した場合、開始日時に達するまで、**[!UICONTROL スケジュール済み]**[ ステータス ](../campaigns/manage-campaigns.md#statuses) になります。
+>コードベースのキャンペーンのスケジュールを定義した場合、開始日時に達するまで、**[!UICONTROL スケジュール済み]**&#x200B;[&#x200B; ステータス &#x200B;](../campaigns/manage-campaigns.md#statuses) になります。
 
 ## コードベースのジャーニーまたはキャンペーンの停止 {#stop-code-based-experience}
 

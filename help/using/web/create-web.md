@@ -230,13 +230,13 @@ Web キャンペーンの設定を定義し、必要に応じてコンテンツ�
    >
    >キャンペーンのアクティブ化について詳しくは、[この節](../campaigns/review-activate-campaign.md)を参照してください。
 
-Web キャンペーンは **[!UICONTROL ライブ]**[ ステータス ](../campaigns/manage-campaigns.md#statuses) になり、選択したオーディエンスに対して表示されるようになりました。 キャンペーンの各受信者は、web サイトに追加した変更を表示できます。
+Web キャンペーンは **[!UICONTROL ライブ]**&#x200B;[&#x200B; ステータス &#x200B;](../campaigns/manage-campaigns.md#statuses) になり、選択したオーディエンスに対して表示されるようになりました。 キャンペーンの各受信者は、web サイトに追加した変更を表示できます。
 
 >[!NOTE]
 >
 >「**[!UICONTROL アクティブ化]**」をクリックした後、web キャンペーンの変更が web サイトでライブになるまでに最大 15 分かかる場合があります。
 >
->Web キャンペーンのスケジュールを定義した場合、開始日時に達するまで、**[!UICONTROL スケジュール済み]**[ ステータス ](../campaigns/manage-campaigns.md#statuses) になります。
+>Web キャンペーンのスケジュールを定義した場合、開始日時に達するまで、**[!UICONTROL スケジュール済み]**&#x200B;[&#x200B; ステータス &#x200B;](../campaigns/manage-campaigns.md#statuses) になります。
 
 エクスペリエンスが公開されたら、web ジャーニーとキャンペーンを監視できます。[詳細情報](monitor-web-experiences.md)
 

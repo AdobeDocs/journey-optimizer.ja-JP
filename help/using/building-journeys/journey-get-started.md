@@ -31,7 +31,7 @@ Journey Optimizer ジャーニーデザイナーには、マーケターやジ�
 
 ![パレット、キャンバス、プロパティパネルを含むジャーニーデザイナーインターフェイス](assets/journey38.png)
 
-**ビルドを開始する準備はできていますか？初** てのジャーニーを作成およびデザインする方法については、[ このページ ](journey-gs.md) を参照してください。
+**ビルドを開始する準備はできていますか？初** てのジャーニーを作成およびデザインする方法については、[&#x200B; このページ &#x200B;](journey-gs.md) を参照してください。
 
 
 ## 主な機能 {#capabilities}
@@ -104,7 +104,7 @@ Journey Optimizer ジャーニーデザイナーには、マーケターやジ�
 
 ジャーニーデザイナー内から、マーケターはイベントが発生した際に、任意のチャネルを通じてリアルタイムでトリガーされる 1:1 メッセージを送信できます。例えば、お客様がサービスを購読する際に、[ウェルカムメールがトリガー](message-to-subscribers-uc.md)され、初めてアプリにログインして環境設定を行うように促すことができます。購入の完了、メールの開封、アプリへのログインなどのアクションを使用して、新規顧客をジャーニーに進めることができます。
 
-[ジャーニー designer](using-the-journey-designer.md) には、メール、プッシュ通知、SMS／MMS などのアウトバウンドメッセージと、モバイルアプリ、web サイト、Journey Optimizer 内で直接作成されたコードベースのエクスペリエンスなどのインバウンドチャネルをサポートする[組み込みのチャネルアクション](journeys-message.md)が用意されています。また、サードパーティ製システムを使用してメッセージを送信することもできます。Journey Optimizerには [ カスタムアクション ](using-custom-actions.md) が含まれており、これらのシステムをジャーニーデザイナーから直接ジャーニーに統合できます。
+[ジャーニー designer](using-the-journey-designer.md) には、メール、プッシュ通知、SMS／MMS などのアウトバウンドメッセージと、モバイルアプリ、web サイト、Journey Optimizer 内で直接作成されたコードベースのエクスペリエンスなどのインバウンドチャネルをサポートする[組み込みのチャネルアクション](journeys-message.md)が用意されています。また、サードパーティ製システムを使用してメッセージを送信することもできます。Journey Optimizerには [&#x200B; カスタムアクション &#x200B;](using-custom-actions.md) が含まれており、これらのシステムをジャーニーデザイナーから直接ジャーニーに統合できます。
 
 
 :::: landing-cards-container
@@ -184,7 +184,7 @@ AI を活用した送信時間最適化を使用して、各顧客が最も関�
 
 パーソナライズされたオムニチャネルキャンペーンを構築するためのカスタマージャーニーをデザイン、テスト、公開および追跡する手順について説明します。
 
-[ ジャーニー作成の詳細 ](/help/rp_landing_pages/create-journey-landing-page.md) | [ ジャーニー管理について学ぶ ](/help/rp_landing_pages/manage-journey-landing-page.md) | [ジャーニーワークフローの手順 ](journey.md#workflow)
+[&#x200B; ジャーニー作成の詳細 &#x200B;](/help/rp_landing_pages/create-journey-landing-page.md) | [&#x200B; ジャーニー管理について学ぶ &#x200B;](/help/rp_landing_pages/manage-journey-landing-page.md) | [ジャーニーワークフローの手順 &#x200B;](journey.md#workflow)
 :::
 
 :::
@@ -250,6 +250,6 @@ AI を活用した送信時間最適化を使用して、各顧客が最も関�
 * **[エラーコードの参照](error-codes-reference.md)** - ジャーニーエラーコードとトラブルシューティング手順
 * **[アラート](../reports/alerts.md)** - ジャーニー監視に関するアラートの設定
 * **[トラブルシューティング](troubleshooting.md)** - ジャーニーに関する一般的な問題と解決策
-* **[ジャーニーチュートリアル ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}** – 実践ビデオチュートリアルを通じてジャーニーの構築を学びます。
+* **[ジャーニーチュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}** – 実践ビデオチュートリアルを通じてジャーニーの構築を学びます。
 * **[ジャーニーガードレールと制限](../start/guardrails.md)** - [!DNL Adobe Journey Optimizer] を使用する際にガードレールと制限を確認する
 
