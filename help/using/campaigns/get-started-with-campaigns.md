@@ -10,9 +10,9 @@ level: Beginner
 mini-toc-levels: 1
 keywords: キャンペーン, 方法, 開始, Optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: edf8ad3cf95cc2a8dcaf3e1abd0203785eda8fb5
+source-git-commit: f42da9aa4a4aba053d967ec81b98cabe4ac2745a
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1549'
 ht-degree: 31%
 
 ---
@@ -101,7 +101,7 @@ Adobe Journey Optimizerを使用すると、複数のチャネルをまたいで
 
 ![](assets/gs-campaigns.png)
 
-➡️ **作成を開始する準備はできていますか？** 最初のキャンペーンを作成 [&#x200B; を数分で &#x200B;](create-campaign.md) 成します。
+➡️ **作成を開始する準備はできていますか？** 最初のキャンペーンを作成 [ を数分で ](create-campaign.md) 成します。
 
 ## キャンペーンタイプを選択 {#campaign-types}
 
@@ -124,7 +124,7 @@ Adobe Journey Optimizerを使用すると、複数のチャネルをまたいで
 
 **最適な対象：** 顧客セグメントへの月次ニュースレター、時間依存のプロモーションのお知らせ、季節的なマーケティングキャンペーン、製品発売に関するお知らせ、サービス中断の通知など。
 
-➡️[&#x200B; アクションキャンペーンについて学ぶ &#x200B;](create-campaign.md)
+➡️[ アクションキャンペーンについて学ぶ ](create-campaign.md)
 
 >[!TAB API トリガーキャンペーン]
 
@@ -139,7 +139,7 @@ Adobe Journey Optimizerを使用すると、複数のチャネルをまたいで
 
 **最適な対象：** パスワードリセットの確認、買い物かごの放棄の回復、注文の確認と配送の更新、アカウントのアクティビティの通知、リアルタイムでパーソナライズされたレコメンデーション。
 
-➡️ [API トリガーキャンペーンについて学ぶ &#x200B;](api-triggered-campaigns.md)
+➡️ [API トリガーキャンペーンについて学ぶ ](api-triggered-campaigns.md)
 
 >[!TAB オーケストレーションキャンペーン]
 
@@ -149,7 +149,7 @@ Adobe Journey Optimizerを使用すると、複数のチャネルをまたいで
 
 **最適な対象：** 複数手順の顧客エンゲージメントプログラム、複雑なセグメント化およびターゲティング戦略、クロスチャネルキャンペーンオーケストレーション、大規模なブランド主導のマーケティング、複数の決定ポイントを備えた高度なワークフロー自動化。
 
-➡️[&#x200B; オーケストレートキャンペーンについて学ぶ &#x200B;](../orchestrated/gs-orchestrated-campaigns.md)
+➡️[ オーケストレートキャンペーンについて学ぶ ](../orchestrated/gs-orchestrated-campaigns.md)
 
 >[!ENDTABS]
 
@@ -169,8 +169,8 @@ Adobe Journey Optimizerを使用すると、複数のチャネルをまたいで
 
 * **目標は何ですか？** （例：コンバージョンの促進、エンゲージメントの向上、顧客への通知）
 * **観客はだれですか。** （例：Adobe Experience Platformからビルドまたは選択）
-* **適合するキャンペーンタイプはどれですか？** （上記の [&#x200B; キャンペーンタイプ &#x200B;](#campaign-types) を参照）
-* **どのチャネルを使用しますか？** （メール、プッシュ、SMS、アプリ内、web など）→[&#x200B; キャンペーンタイプ別のサポートされるチャネルを参照 &#x200B;](../channels/gs-channels.md#channels)
+* **適合するキャンペーンタイプはどれですか？** （上記の [ キャンペーンタイプ ](#campaign-types) を参照）
+* **どのチャネルを使用しますか？** （メール、プッシュ、SMS、アプリ内、web など）→[ キャンペーンタイプ別のサポートされるチャネルを参照 ](../channels/gs-channels.md#channels)
 * **実行するタイミング** （即時、スケジュール済みまたは API トリガー）
 
 ### &#x200B;2. キャンペーンプロパティの設定 {#configure}
@@ -183,7 +183,7 @@ Adobe Journey Optimizerを使用すると、複数のチャネルをまたいで
 4. **優先度を設定** （競合管理を使用する場合）
 5. **スケジュールの設定** （アクションキャンペーンの場合）または API の詳細（API トリガーの場合）
 
-**タイプ固有のガイド：**&#x200B;[&#x200B; アクションキャンペーンのプロパティ &#x200B;](campaign-properties.md) | [API トリガー型キャンペーンプロパティ &#x200B;](api-triggered-campaign-properties.md) | [&#x200B; キャンペーン設定を調整 &#x200B;](../orchestrated/create-orchestrated-campaign.md)
+**タイプ固有のガイド：**[ アクションキャンペーンのプロパティ ](campaign-properties.md) | [API トリガー型キャンペーンプロパティ ](api-triggered-campaign-properties.md) | [ キャンペーン設定を調整 ](../orchestrated/create-orchestrated-campaign.md)
 
 ### &#x200B;3. コンテンツのデザイン {#design}
 
@@ -195,7 +195,7 @@ Adobe Journey Optimizerを使用すると、複数のチャネルをまたいで
 * **アプリ内** エクスペリエンスと **web** エクスペリエンスの作成
 * プロファイル属性とコンテキストデータを使用した **パーソナライゼーション** の追加
 
-**タイプ固有のガイド：**&#x200B;[&#x200B; アクションキャンペーンコンテンツ &#x200B;](campaign-content.md) | [API トリガー型キャンペーンコンテンツ &#x200B;](api-triggered-campaign-content.md) | [&#x200B; キャンペーンコンテンツの調整 &#x200B;](../orchestrated/create-orchestrated-campaign.md)
+**タイプ固有のガイド：**[ アクションキャンペーンコンテンツ ](campaign-content.md) | [API トリガー型キャンペーンコンテンツ ](api-triggered-campaign-content.md) | [ キャンペーンコンテンツの調整 ](../orchestrated/create-orchestrated-campaign.md)
 
 ### 4.確認とテスト {#review}
 
@@ -207,7 +207,7 @@ Adobe Journey Optimizerを使用すると、複数のチャネルをまたいで
 * **承認をリクエスト** 承認ワークフローを使用している場合
 * シードリストを使用した **配信品質のテスト**
 
-**タイプ固有のガイド：**&#x200B;[&#x200B; アクションキャンペーンのレビュー &#x200B;](review-activate-campaign.md) | [API トリガーキャンペーンのレビュー &#x200B;](review-activate-api-triggered-campaign.md) | [&#x200B; 調整されたキャンペーンのレビュー &#x200B;](../orchestrated/create-orchestrated-campaign.md)
+**タイプ固有のガイド：**[ アクションキャンペーンのレビュー ](review-activate-campaign.md) | [API トリガーキャンペーンのレビュー ](review-activate-api-triggered-campaign.md) | [ 調整されたキャンペーンのレビュー ](../orchestrated/create-orchestrated-campaign.md)
 
 ### &#x200B;5. キャンペーンのアクティブ化 {#activate}
 
@@ -218,7 +218,7 @@ Adobe Journey Optimizerを使用すると、複数のチャネルをまたいで
 * **承認プロセス** – 必要に応じて、関係者の承認を待ちます
 * 注意：アクティブなキャンペーンは編集できません（変更するには複製する必要があります）
 
-**タイプ固有のガイド：**&#x200B;[&#x200B; アクションキャンペーンのアクティブ化 &#x200B;](review-activate-campaign.md) | [API トリガーキャンペーンのアクティブ化 &#x200B;](review-activate-api-triggered-campaign.md) | [&#x200B; オーケストレーションされたキャンペーンのアクティブ化 &#x200B;](../orchestrated/create-orchestrated-campaign.md)
+**タイプ固有のガイド：**[ アクションキャンペーンのアクティブ化 ](review-activate-campaign.md) | [API トリガーキャンペーンのアクティブ化 ](review-activate-api-triggered-campaign.md) | [ オーケストレーションされたキャンペーンのアクティブ化 ](../orchestrated/create-orchestrated-campaign.md)
 
 ### 6.監視と分析 {#monitor}
 
@@ -230,7 +230,7 @@ Adobe Journey Optimizerを使用すると、複数のチャネルをまたいで
 * コンバージョンと ROI の分析
 * 最適化のためのインサイトの使用
 
-**タイプ固有のガイド：**&#x200B;[&#x200B; アクションキャンペーンレポート &#x200B;](../reports/campaign-global-report-cja.md) | [API トリガーキャンペーン監視 &#x200B;](api-triggered-campaigns.md#monitor) | [&#x200B; キャンペーン分析の調整 &#x200B;](../orchestrated/create-orchestrated-campaign.md)
+**タイプ固有のガイド：**[ アクションキャンペーンレポート ](../reports/campaign-global-report-cja.md) | [API トリガーキャンペーン監視 ](api-triggered-campaigns.md#monitor) | [ キャンペーン分析の調整 ](../orchestrated/create-orchestrated-campaign.md)
 
 ➡️ **開始する準備ができましたか？** キャンペーンタイプを選択します。
 * [アクションキャンペーン→ールの作成](create-campaign.md)
@@ -243,11 +243,11 @@ Adobe Journey Optimizerを使用すると、複数のチャネルをまたいで
 
 ### 必要な設定
 
-* **オーディエンス** - キャンペーンを作成する前に、オーディエンスをAdobe Experience Platformで使用できる必要があります。 [&#x200B; オーディエンス→ースの基本を学ぶ &#x200B;](../audience/about-audiences.md)
+* **オーディエンス** - キャンペーンを作成する前に、オーディエンスをAdobe Experience Platformで使用できる必要があります。 [ オーディエンス→ースの基本を学ぶ ](../audience/about-audiences.md)
 
-* **チャネル設定** - チャネル設定（プリセット）を作成し、使用するチャネルで使用可能にする必要があります。 [&#x200B; チャネル設定のセットアップ→](../configuration/channel-surfaces.md)
+* **チャネル設定** - チャネル設定（プリセット）を作成し、使用するチャネルで使用可能にする必要があります。 [ チャネル設定のセットアップ→](../configuration/channel-surfaces.md)
 
-* **権限** - キャンペーンタイプに基づく適切な権限が必要です。 Campaign の機能にアクセスできない場合は、管理者にお問い合わせください。 [&#x200B; 組み込みの役割→ついて説明します &#x200B;](../administration/ootb-product-profiles.md)。
+* **権限** - キャンペーンタイプに基づく適切な権限が必要です。 Campaign の機能にアクセスできない場合は、管理者にお問い合わせください。 [ 組み込みの役割→ついて説明します ](../administration/ootb-product-profiles.md)。
 
 | キャンペーンタイプ | 権限 |
 |----------------------------|----------------------------------------------------------------------------|
@@ -276,27 +276,27 @@ Adobe Journey Optimizerを使用すると、複数のチャネルをまたいで
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **スケジュールとタイミング**
 
-キャンペーンを特定の日時にスケジュールし、繰り返し配信を設定し、最大効果が得られるように送信時間を最適化します。
+キャンペーンを特定の日時にスケジュールし、繰り返し配信を設定し、最大効果が得られるように送信時間を最適化します。 （アクションおよび API トリガーキャンペーン）
 
 [スケジュールについて学ぶ](campaign-schedule.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **レートコントロール**
 
-ランディングページやカスタマーケアプラットフォームなどのダウンストリームシステムでの過負荷を防ぐために、メッセージのスループットを制限します。
+ランディングページやカスタマーケアプラットフォームなどのダウンストリームシステムでの過負荷を防ぐために、メッセージのスループットを制限します。 （アクションおよび API トリガーキャンペーン）
 
 [コントロールレートの制限](create-campaign.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **オーディエンスのターゲティング**
 
@@ -306,33 +306,33 @@ Adobe Journey Optimizerを使用すると、複数のチャネルをまたいで
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **承認ワークフロー**
 
-キャンペーンを開始する前にレビューおよび承認プロセスを実装し、品質とコンプライアンスを確保します。
+キャンペーンを開始する前にレビューおよび承認プロセスを実装し、品質とコンプライアンスを確保します。 （アクションおよび API トリガーキャンペーン）
 
 [レビューしてアクティブ化](review-activate-campaign.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **通知のない時間帯**
 
-指定した時間枠にメッセージを配信しないようにすることで、顧客の好みを尊重します。
+指定した時間枠にメッセージを配信しないようにすることで、顧客の好みを尊重します。 （アクションおよび API トリガーキャンペーン）
 
 [クワイエットアワーの設定](quiet-hours.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
-**送信時間の最適化**
+**最適化**
 
-AI を使用して、各個人とのエンゲージメントを最大限に高めるためのメッセージ送信の最適な時間を決定します。
+ターゲティングルールとコンテンツ実験を使用して、パーソナライズされたコンテンツを配信し、エンゲージメントを最大化します。
 
-[送信時間を最適化](campaigns-message-optimization.md)
+[キャンペーンの最適化](campaigns-message-optimization.md)
 :::
 
 ::::
