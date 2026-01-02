@@ -276,7 +276,7 @@ Adobe Journey Optimizerを使用すると、複数のチャネルをまたいで
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=ja)
 
 **スケジュールとタイミング**
 
@@ -286,7 +286,7 @@ Adobe Journey Optimizerを使用すると、複数のチャネルをまたいで
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 **レートコントロール**
 
@@ -296,7 +296,7 @@ Adobe Journey Optimizerを使用すると、複数のチャネルをまたいで
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 **オーディエンスのターゲティング**
 
@@ -306,7 +306,7 @@ Adobe Journey Optimizerを使用すると、複数のチャネルをまたいで
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
 
 **承認ワークフロー**
 
@@ -316,7 +316,7 @@ Adobe Journey Optimizerを使用すると、複数のチャネルをまたいで
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ja)
 
 **通知のない時間帯**
 
@@ -326,7 +326,7 @@ Adobe Journey Optimizerを使用すると、複数のチャネルをまたいで
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
 
 **最適化**
 
