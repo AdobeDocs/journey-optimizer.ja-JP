@@ -35,7 +35,7 @@ Adobe Journey Optimizerを使用すると、オーディエンスの行動やニ
 
 ![パレット、キャンバス、プロパティパネルを含むジャーニーデザイナーインターフェイス](assets/journey38.png)
 
-➡️ **作成を開始する準備はできていますか？** 最初のジャーニーを作成 [ を 5 分で ](journey-gs.md) きます。
+➡️ **作成を開始する準備はできていますか？** 最初のジャーニーを作成 [&#x200B; を 5 分で &#x200B;](journey-gs.md) きます。
 
 ## ジャーニータイプを選択 {#journey-types}
 
@@ -56,7 +56,7 @@ Adobe Journey Optimizerを使用すると、オーディエンスの行動やニ
 * ブラウジングによってトリガーされる買い物かご放棄
 * パスワードリセット通知
 
-➡️ [ イベントについて学ぶ ](../event/about-events.md) | [ 購読者へのメッセージのユースケース ](message-to-subscribers-uc.md)
+➡️ [&#x200B; イベントについて学ぶ &#x200B;](../event/about-events.md) | [&#x200B; 購読者へのメッセージのユースケース &#x200B;](message-to-subscribers-uc.md)
 
 >[!TAB  オーディエンスジャーニーの読み取り ]
 
@@ -71,7 +71,7 @@ Adobe Journey Optimizerを使用すると、オーディエンスの行動やニ
 * 製品に関するお知らせ
 * 季節ごとのマーケティングキャンペーン
 
-➡️[ オーディエンスを読み取りについて学ぶ ](read-audience.md) | [ オーディエンスの概要 ](../audience/about-audiences.md)
+➡️[&#x200B; オーディエンスを読み取りについて学ぶ &#x200B;](read-audience.md) | [&#x200B; オーディエンスの概要 &#x200B;](../audience/about-audiences.md)
 
 >[!TAB  オーディエンスの選定ジャーニー ]
 
@@ -86,7 +86,7 @@ Adobe Journey Optimizerを使用すると、オーディエンスの行動やニ
 * 最初の購入祝いメッセージ
 * 顧客の引っ越し時の地理的ターゲティング
 
-➡️[ オーディエンスの選定について学ぶ ](audience-qualification-events.md) | [ オーディエンスの作成 ](../audience/creating-a-segment-definition.md)
+➡️[&#x200B; オーディエンスの選定について学ぶ &#x200B;](audience-qualification-events.md) | [&#x200B; オーディエンスの作成 &#x200B;](../audience/creating-a-segment-definition.md)
 
 >[!TAB  ビジネスイベントジャーニー ]
 
@@ -102,7 +102,7 @@ Adobe Journey Optimizerを使用すると、オーディエンスの行動やニ
 * 価格下降通知
 * 製品の在庫切れアラート
 
-➡️ [ ビジネスイベントについて学ぶ ](../event/about-creating-business.md) | [ 応募管理 ](entry-management.md)
+➡️ [&#x200B; ビジネスイベントについて学ぶ &#x200B;](../event/about-creating-business.md) | [&#x200B; 応募管理 &#x200B;](entry-management.md)
 
 >[!ENDTABS]
 
@@ -182,7 +182,7 @@ Adobe Journey Optimizerを使用すると、オーディエンスの行動やニ
 
 ::::
 
-➡️ **実践的な学習：** [ ジャーニーデザイナーのビデオをご覧ください ](#video) または [ エンドツーエンドのユースケースについて詳しく説明 ](jo-use-cases.md)
+➡️ **実践的な学習：** [&#x200B; ジャーニーデザイナーのビデオをご覧ください &#x200B;](#video) または [&#x200B; エンドツーエンドのユースケースについて詳しく説明 &#x200B;](jo-use-cases.md)
 
 ## ジャーニー作成ワークフロー {#workflow}
 
@@ -196,7 +196,7 @@ Adobe Journey Optimizerを使用すると、オーディエンスの行動やニ
 
 * **目標は何ですか？** （例：新規顧客のオンボーディング、非アクティブユーザーの再エンゲージ）
 * **観客はだれですか。** （特定のセグメント、イベント駆動型の個人）
-* **適合するジャーニータイプはどれですか？** （上記の [ ジャーニータイプ ](#journey-types) を参照）
+* **適合するジャーニータイプはどれですか？** （上記の [&#x200B; ジャーニータイプ &#x200B;](#journey-types) を参照）
 * **どのチャネルを使用しますか？** （メール、プッシュ、SMS など）
 
 ### &#x200B;2. **キャンバスでのデザイン** {#design}
@@ -220,7 +220,7 @@ Adobe Journey Optimizerを使用すると、オーディエンスの行動やニ
 * すべての条件、メッセージ、アクションが期待どおりに動作することを確認します
 * タイミング、データフロー、パーソナライゼーションの確認
 
-[ ジャーニー→のテスト ](testing-the-journey.md) | [ ドライラン→ールについて学ぶ ](journey-dry-run.md)
+[&#x200B; ジャーニー→のテスト &#x200B;](testing-the-journey.md) | [&#x200B; ドライラン→ールについて学ぶ &#x200B;](journey-dry-run.md)
 
 ### &#x200B;4. **ジャーニーの公開** {#publish}
 
@@ -240,7 +240,7 @@ Adobe Journey Optimizerを使用すると、オーディエンスの行動やニ
 * エントリ、完了およびエラー率の監視
 * 重大な問題に対するアラートの設定
 
-[→の監視とレポート ](report-journey.md) | [ アラートの設定→](../reports/alerts.md)
+[→の監視とレポート &#x200B;](report-journey.md) | [&#x200B; アラートの設定→](../reports/alerts.md)
 
 ### &#x200B;6. **最適化と反復** {#optimize}
 
@@ -251,9 +251,9 @@ Adobe Journey Optimizerを使用すると、オーディエンスの行動やニ
 * 機能強化を含む新しいジャーニーバージョンの作成
 * AI を活用したレコメンデーションの使用
 
-[ ジャーニーの最適化→](optimize.md) | [ 送信時間の最適化→](send-time-optimization.md)
+[&#x200B; ジャーニーの最適化→](optimize.md) | [&#x200B; 送信時間の最適化→](send-time-optimization.md)
 
-➡️ **開始する準備ができましたか？**[ 今すぐ最初のジャーニーを作成→ます ](journey-gs.md)
+➡️ **開始する準備ができましたか？**&#x200B;[&#x200B; 今すぐ最初のジャーニーを作成→ます &#x200B;](journey-gs.md)
 
 ## 実際のユースケース {#use-cases}
 
@@ -318,7 +318,7 @@ AI を使用すると、各顧客が最も関与する可能性が高いタイ�
 
 ステップバイステップの実装を使用して、ジャーニーのユースケースの完全なライブラリを調べます。
 
-[ すべての→を参照 ](jo-use-cases.md) | [ ユースケースライブラリ→](/help/rp_landing_pages/journey-use-cases-landing-page.md)
+[&#x200B; すべての→を参照 &#x200B;](jo-use-cases.md) | [&#x200B; ユースケースライブラリ→](/help/rp_landing_pages/journey-use-cases-landing-page.md)
 :::
 
 ::::
@@ -399,7 +399,7 @@ AI を使用すると、各顧客が最も関与する可能性が高いタイ�
 
 >[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
-➡️ **ビデオを増やしますか？**[ ジャーニーのビデオチュートリアルを見る ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
+➡️ **ビデオを増やしますか？**&#x200B;[&#x200B; ジャーニーのビデオチュートリアルを見る &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
 
 ## サポートが必要な場合 {#help}
 
@@ -422,4 +422,4 @@ AI を使用すると、各顧客が最も関与する可能性が高いタイ�
 * **[実行の問題のトラブルシューティング](troubleshooting-execution.md)** - ジャーニー実行の問題のデバッグ
 * **[インバウンドアクティビティのトラブルシューティング](troubleshooting-inbound.md)** - エントリと選定の問題の修正
 
-**初めてのジャーニーを作成する準備はできていますか？** [ 今すぐ始める→](journey-gs.md)
+**初めてのジャーニーを作成する準備はできていますか？** [&#x200B; 今すぐ始める→](journey-gs.md)
