@@ -35,14 +35,14 @@ Adobe Journey Optimizerでキャンペーンにアクセス、整理、管理す
 
 必要な場所に直接ジャンプ：
 
-* **新しいキャンペーンの作成** → [ キャンペーンタイプを選択 ](get-started-with-campaigns.md#campaign-types)
+* **新しいキャンペーンの作成** → [&#x200B; キャンペーンタイプを選択 &#x200B;](get-started-with-campaigns.md#campaign-types)
    * [アクションキャンペーンを作成](create-campaign.md)
    * [API トリガーキャンペーンを作成](api-triggered-campaigns.md)
    * [オーケストレーションされたキャンペーンの作成](../orchestrated/gs-orchestrated-campaigns.md)
-* **既存のキャンペーンを検索** → [ 検索とフィルター ](#access)
-* **キャンペーンパフォーマンスの表示** → [ キャンペーンレポート ](../reports/campaign-global-report-cja.md)
-* **キャンペーンのスケジュール設定** →[ カレンダーの使用 ](#calendar)
-* **競合の管理** → [ 競合管理ガイド ](../conflict-prioritization/gs-conflict-prioritization.md)
+* **既存のキャンペーンを検索** → [&#x200B; 検索とフィルター &#x200B;](#access)
+* **キャンペーンパフォーマンスの表示** → [&#x200B; キャンペーンレポート &#x200B;](../reports/campaign-global-report-cja.md)
+* **キャンペーンのスケジュール設定** →[&#x200B; カレンダーの使用 &#x200B;](#calendar)
+* **競合の管理** → [&#x200B; 競合管理ガイド &#x200B;](../conflict-prioritization/gs-conflict-prioritization.md)
 
 ## キャンペーンへのアクセスと参照 {#access}
 
@@ -72,7 +72,7 @@ Adobe Journey Optimizerでキャンペーンにアクセス、整理、管理す
 
 ![調整されたキャンペーンの在庫を示す画像](assets/inventory.png){zoomable="yes"}
 
-リスト内のオーケストレーションされた各キャンペーンには、キャンペーンの現在の [ ステータス ](#statuses)、関連するチャネルとタグ、前回の変更日時などの情報が表示されます。 ![「レイアウトを設定」ボタン](assets/do-not-localize/inventory-configure-layout.svg) ボタンをクリックすると、表示される列をカスタマイズできます。
+リスト内のオーケストレーションされた各キャンペーンには、キャンペーンの現在の [&#x200B; ステータス &#x200B;](#statuses)、関連するチャネルとタグ、前回の変更日時などの情報が表示されます。 ![「レイアウトを設定」ボタン](assets/do-not-localize/inventory-configure-layout.svg) ボタンをクリックすると、表示される列をカスタマイズできます。
 
 >[!ENDTABS]
 
@@ -82,7 +82,7 @@ Adobe Journey Optimizerでキャンペーンにアクセス、整理、管理す
 
 ## Campaign 操作 {#operations}
 
-キャンペーンインベントリの「その他のアクション」ボタンを表示する ![ 画像 ](assets/do-not-localize/rule-builder-icon-more.svg) ボタンを使用すると、様々な操作を実行できます。
+キャンペーンインベントリの「その他のアクション」ボタンを表示する ![&#x200B; 画像 &#x200B;](assets/do-not-localize/rule-builder-icon-more.svg) ボタンを使用すると、様々な操作を実行できます。
 
 ![キャンペーンの在庫を示す画像](assets/inventory-actions.png)
 
@@ -90,15 +90,15 @@ Adobe Journey Optimizerでキャンペーンにアクセス、整理、管理す
 
 **すべてのキャンペーンタイプに対して：**
 
-* **[!UICONTROL 全期間のレポートを表示]**／**[!UICONTROL 過去 24 時間のレポートを表示]** - レポートにアクセスして、キャンペーンの影響とパフォーマンスを測定および視覚化します。[ キャンペーンレポートの詳細については、こちらを参照してください→](../reports/campaign-global-report-cja.md)
-* **[!UICONTROL タグを編集]** - キャンペーンに関連付けられたタグを編集します。[ タグ→の使用方法を学ぶ ](../start/search-filter-categorize.md#add-tags)
-* **[!UICONTROL 複製]** - このオプションを使用して、例えば、停止済みのオーケストレーションキャンペーンの実行に、キャンペーンを複製します。[→の複製の詳細情報 ](#duplicate-a-campaign)
-* **[!UICONTROL 削除]** - このオプションを使用して、キャンペーンを削除します。[→の削除の詳細情報 ](#delete-a-campaign)
-* **[!UICONTROL アーカイブ]** - キャンペーンをアーカイブします。すべてのアーカイブ済みキャンペーンは、最終変更日から 30 日後にローリングスケジュールで削除されます。このアクションは、**[!UICONTROL ドラフト]**&#x200B;キャンペーンを除くすべてのキャンペーンで使用できます。[ ア→ットのアーカイブの詳細情報 ](#archive-a-campaign)
+* **[!UICONTROL 全期間のレポートを表示]**／**[!UICONTROL 過去 24 時間のレポートを表示]** - レポートにアクセスして、キャンペーンの影響とパフォーマンスを測定および視覚化します。[&#x200B; キャンペーンレポートの詳細については、こちらを参照してください→](../reports/campaign-global-report-cja.md)
+* **[!UICONTROL タグを編集]** - キャンペーンに関連付けられたタグを編集します。[&#x200B; タグ→の使用方法を学ぶ &#x200B;](../start/search-filter-categorize.md#add-tags)
+* **[!UICONTROL 複製]** - このオプションを使用して、例えば、停止済みのオーケストレーションキャンペーンの実行に、キャンペーンを複製します。[→の複製の詳細情報 &#x200B;](#duplicate-a-campaign)
+* **[!UICONTROL 削除]** - このオプションを使用して、キャンペーンを削除します。[→の削除の詳細情報 &#x200B;](#delete-a-campaign)
+* **[!UICONTROL アーカイブ]** - キャンペーンをアーカイブします。すべてのアーカイブ済みキャンペーンは、最終変更日から 30 日後にローリングスケジュールで削除されます。このアクションは、**[!UICONTROL ドラフト]**&#x200B;キャンペーンを除くすべてのキャンペーンで使用できます。[&#x200B; ア→ットのアーカイブの詳細情報 &#x200B;](#archive-a-campaign)
 
 **アクションおよび API トリガーキャンペーンのみ：**
 
-* **[!UICONTROL パッケージに追加]** - キャンペーンを別のサンドボックスに書き出すには、パッケージに追加します。[ オブジェクトを→に書き出す方法を学ぶ ](../configuration/copy-objects-to-sandbox.md)
+* **[!UICONTROL パッケージに追加]** - キャンペーンを別のサンドボックスに書き出すには、パッケージに追加します。[&#x200B; オブジェクトを→に書き出す方法を学ぶ &#x200B;](../configuration/copy-objects-to-sandbox.md)
 * **[!UICONTROL ドラフトバージョンを開く]** - キャンペーンの新しいバージョンが作成され、まだアクティブ化されていない場合は、このアクションを使用して、そのドラフトバージョンにアクセスできます。
 
 ## キャンペーンステータスについて {#statuses}
@@ -107,14 +107,14 @@ Adobe Journey Optimizerでキャンペーンにアクセス、整理、管理す
 
 | ステータス | アクションキャンペーン | API トリガーキャンペーン | 調整されたキャンペーン | 意味 | 次のアクション |
 |--------|:----------------:|:-----------------------:|:----------------------:|---------------|--------------|
-| **[!UICONTROL ドラフト]** | ✅ | ✅ | ✅ | 編集中、アクティブ化されていません | 編集を続行または [ キャンペーンをアクティブ化 ](review-activate-campaign.md) |
-| **[!UICONTROL スケジュール型]** | ✅ | ✅ | ✅ | 特定の開始日用に設定 | ローンチを待つか [ 必要に応じて変更 ](#modify)、または [ カレンダーで表示 ](#calendar) |
-| **[!UICONTROL ライブ]** | ✅ | ✅ | ✅ | アクティブ化して実行中 | [ パフォーマンスの監視 ](../reports/campaign-global-report-cja.md)、必要に応じて [ 新しいバージョンの作成 ](#modify) |
-| **[!UICONTROL レビュー中]** | ✅ | ✅ | — | 承認用に送信 | [ 承認 ](../test-approve/gs-approval.md) または変更を待つ |
-| **[!UICONTROL 停止]** | ✅ | ✅ | ✅ | 手動で停止し、再アクティブ化できません | [ 複製して再利用 ](#duplicate-a-campaign) |
-| **[!UICONTROL 完了]** | ✅ | ✅ | ✅ | 実行完了（アクティベーション後または繰り返し処理の終了日に自動的に割り当てられる） | [ レポートの表示 ](../reports/campaign-global-report-cja.md)、[ アーカイブ ](#archive-a-campaign) または [ 複製 ](#duplicate-a-campaign) |
-| **[!UICONTROL 失敗]** | ✅ | ✅ | — | 実行できませんでした | ログを確認し、問題を修正 [ 複製して再試行 ](#duplicate-a-campaign) |
-| **[!UICONTROL アーカイブ済み]** | ✅ | ✅ | ✅ | アーカイブ済み（30 日後に自動削除） | 必要に応じて、[filter を使用して取得 ](#access) ます。 |
+| **[!UICONTROL ドラフト]** | ✅ | ✅ | ✅ | 編集中、アクティブ化されていません | 編集を続行または [&#x200B; キャンペーンをアクティブ化 &#x200B;](review-activate-campaign.md) |
+| **[!UICONTROL スケジュール型]** | ✅ | ✅ | ✅ | 特定の開始日用に設定 | ローンチを待つか [&#x200B; 必要に応じて変更 &#x200B;](#modify)、または [&#x200B; カレンダーで表示 &#x200B;](#calendar) |
+| **[!UICONTROL ライブ]** | ✅ | ✅ | ✅ | アクティブ化して実行中 | [&#x200B; パフォーマンスの監視 &#x200B;](../reports/campaign-global-report-cja.md)、必要に応じて [&#x200B; 新しいバージョンの作成 &#x200B;](#modify) |
+| **[!UICONTROL レビュー中]** | ✅ | ✅ | — | 承認用に送信 | [&#x200B; 承認 &#x200B;](../test-approve/gs-approval.md) または変更を待つ |
+| **[!UICONTROL 停止]** | ✅ | ✅ | ✅ | 手動で停止し、再アクティブ化できません | [&#x200B; 複製して再利用 &#x200B;](#duplicate-a-campaign) |
+| **[!UICONTROL 完了]** | ✅ | ✅ | ✅ | 実行完了（アクティベーション後または繰り返し処理の終了日に自動的に割り当てられる） | [&#x200B; レポートの表示 &#x200B;](../reports/campaign-global-report-cja.md)、[&#x200B; アーカイブ &#x200B;](#archive-a-campaign) または [&#x200B; 複製 &#x200B;](#duplicate-a-campaign) |
+| **[!UICONTROL 失敗]** | ✅ | ✅ | — | 実行できませんでした | ログを確認し、問題を修正 [&#x200B; 複製して再試行 &#x200B;](#duplicate-a-campaign) |
+| **[!UICONTROL アーカイブ済み]** | ✅ | ✅ | ✅ | アーカイブ済み（30 日後に自動削除） | 必要に応じて、[filter を使用して取得 &#x200B;](#access) ます。 |
 | **[!UICONTROL 閉じる]** | — | — | ✅ | 繰り返しキャンペーンがクローズされました。新規エントリは許可されません（すべてのアクティビティが完了するまで継続されます） | 完了まで待つ |
 | **[!UICONTROL パブリッシュ]** | — | — | ✅ | 公開中 | 公開が完了するのを待ちます |
 
@@ -240,7 +240,7 @@ Adobe Journey Optimizerでキャンペーンにアクセス、整理、管理す
 
 ## キャンペーンの削除 {#delete-a-campaign}
 
-キャンペーンを削除するには、省略記号 ![ その他のアクション ボタンを示す画像 ](assets/do-not-localize/rule-builder-icon-more.svg) ボタンを使用し、「**[!UICONTROL 削除]** を選択します。
+キャンペーンを削除するには、省略記号 ![&#x200B; その他のアクション ボタンを示す画像 &#x200B;](assets/do-not-localize/rule-builder-icon-more.svg) ボタンを使用し、「**[!UICONTROL 削除]** を選択します。
 
 ![](assets/delete-a-campaign.png){width="70%" align="left"}
 
@@ -250,7 +250,7 @@ Adobe Journey Optimizerでキャンペーンにアクセス、整理、管理す
 
 ## キャンペーンの複製 {#duplicate-a-campaign}
 
-例えば、キャンペーンを停止した場合にキャンペーンを複製するには、省略記号 ![ その他のアクションボタンを示す画像 ](assets/do-not-localize/rule-builder-icon-more.svg) ボタンを使用して、「複製 **[!UICONTROL を選択し]** す。
+例えば、キャンペーンを停止した場合にキャンペーンを複製するには、省略記号 ![&#x200B; その他のアクションボタンを示す画像 &#x200B;](assets/do-not-localize/rule-builder-icon-more.svg) ボタンを使用して、「複製 **[!UICONTROL を選択し]** す。
 
 キャンペーンの名前を入力して確定します。
 
@@ -258,12 +258,12 @@ Adobe Journey Optimizerでキャンペーンにアクセス、整理、管理す
 
 ## その他のリソース
 
-* **はじめに** - [ キャンペーンの基本を学ぶ ](get-started-with-campaigns.md) | [ 最初のアクションキャンペーンを作成 ](create-campaign.md) | [API トリガーキャンペーンガイド ](api-triggered-campaigns.md) | [ オーケストレートキャンペーンガイド ](../orchestrated/gs-orchestrated-campaigns.md)
+* **はじめに** - [&#x200B; キャンペーンの基本を学ぶ &#x200B;](get-started-with-campaigns.md) | [&#x200B; 最初のアクションキャンペーンを作成 &#x200B;](create-campaign.md) | [API トリガーキャンペーンガイド &#x200B;](api-triggered-campaigns.md) | [&#x200B; オーケストレートキャンペーンガイド &#x200B;](../orchestrated/gs-orchestrated-campaigns.md)
 
-* **Campaign 設定** - [Campaign プロパティ ](campaign-properties.md) | [ キャンペーンのアクションとチャネル ](campaign-action.md) | [Campaign コンテンツデザイン ](campaign-content.md) | [ キャンペーンオーディエンスの選択 ](campaign-audience.md) | [ キャンペーンスケジュール ](campaign-schedule.md)
+* **Campaign 設定** - [Campaign プロパティ &#x200B;](campaign-properties.md) | [&#x200B; キャンペーンのアクションとチャネル &#x200B;](campaign-action.md) | [Campaign コンテンツデザイン &#x200B;](campaign-content.md) | [&#x200B; キャンペーンオーディエンスの選択 &#x200B;](campaign-audience.md) | [&#x200B; キャンペーンスケジュール &#x200B;](campaign-schedule.md)
 
-* **高度な機能** - [ 承認ワークフロー ](../test-approve/gs-approval.md) | [ 競合管理と優先順位付け ](../conflict-prioritization/gs-conflict-prioritization.md) | [ チャネル別のフリークエンシーキャップ ](../conflict-prioritization/channel-capping.md) | [ 優先度スコア ](../conflict-prioritization/priority-scores.md) | [ キャンペーンを他のサンドボックスにエクスポート ](../configuration/copy-objects-to-sandbox.md)
+* **高度な機能** - [&#x200B; 承認ワークフロー &#x200B;](../test-approve/gs-approval.md) | [&#x200B; 競合管理と優先順位付け &#x200B;](../conflict-prioritization/gs-conflict-prioritization.md) | [&#x200B; チャネル別のフリークエンシーキャップ &#x200B;](../conflict-prioritization/channel-capping.md) | [&#x200B; 優先度スコア &#x200B;](../conflict-prioritization/priority-scores.md) | [&#x200B; キャンペーンを他のサンドボックスにエクスポート &#x200B;](../configuration/copy-objects-to-sandbox.md)
 
-* **監視と最適化** - [ キャンペーンレポート（CJA） ](../reports/campaign-global-report-cja.md) | [ アラートの設定 ](../reports/alerts.md)
+* **監視と最適化** - [&#x200B; キャンペーンレポート（CJA） &#x200B;](../reports/campaign-global-report-cja.md) | [&#x200B; アラートの設定 &#x200B;](../reports/alerts.md)
 
-* **組織** - [ タグの操作 ](../start/search-filter-categorize.md) | [ 権限の管理 ](../administration/ootb-product-profiles.md)
+* **組織** - [&#x200B; タグの操作 &#x200B;](../start/search-filter-categorize.md) | [&#x200B; 権限の管理 &#x200B;](../administration/ootb-product-profiles.md)
