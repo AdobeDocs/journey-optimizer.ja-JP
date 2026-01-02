@@ -404,7 +404,7 @@ AI を使用すると、各顧客が最も関与する可能性が高いタイ�
 
 ジャーニーコンポーネントを視覚的に紹介し、キャンバスでジャーニーを作成するための基本を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430350?captions=jpn&quality=12)
 
 ➡️ **ビデオを増やしますか？**&#x200B;[&#x200B; ジャーニーのビデオチュートリアルを見る &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
 
