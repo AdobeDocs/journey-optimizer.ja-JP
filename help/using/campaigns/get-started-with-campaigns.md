@@ -113,7 +113,7 @@ Adobe Journey Optimizerを使用すると、複数のチャネルをまたいで
 
 >[!TAB  アクションキャンペーン （スケジュール済み） ]
 
-![&#x200B; アイコン &#x200B;](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg) **使用するタイミング：** シンプルでスケジュールに沿ったバッチ通信
+![&#x200B; アイコン &#x200B;](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=ja) **使用するタイミング：** シンプルでスケジュールに沿ったバッチ通信
 
 **アクションキャンペーン** （スケジュール済みキャンペーンとも呼ばれます）は、特定の時間に実行されるわかりやすい 1 回限りのバッチ通信または繰り返しバッチ通信に最適です。
 
@@ -134,7 +134,7 @@ Adobe Journey Optimizerを使用すると、複数のチャネルをまたいで
 
 >[!TAB API トリガーキャンペーン]
 
-![&#x200B; アイコン &#x200B;](https://cdn.experienceleague.adobe.com/icons/code-branch.svg) **使用するタイミング：** 外部システムとのリアルタイムのイベント駆動型メッセージ
+![&#x200B; アイコン &#x200B;](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja) **使用するタイミング：** 外部システムとのリアルタイムのイベント駆動型メッセージ
 
 **API トリガーキャンペーン** API 呼び出しを通じてアクティブ化し、外部システムから直接 Automated Messaging を有効にします。 これらのキャンペーンは、API ペイロードのプロファイル属性とリアルタイムコンテキストデータの両方を使用したパーソナライゼーションをサポートしています。
 
@@ -155,7 +155,7 @@ Adobe Journey Optimizerを使用すると、複数のチャネルをまたいで
 
 >[!TAB オーケストレーションキャンペーン]
 
-![&#x200B; アイコン &#x200B;](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)**使用するタイミング：** 複雑な複数手順のマーケティングワークフロー
+![&#x200B; アイコン &#x200B;](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)**使用するタイミング：** 複雑な複数手順のマーケティングワークフロー
 
 **調整されたキャンペーン** は、高度なマーケティングワークフローを設計および自動化するための視覚的なドラッグ&amp;ドロップキャンバスを提供します。 オーディエンスのセグメント化から、チャネルをまたいでパーソナライズされたメッセージ配信に至るまで、すべてが迅速かつ制御可能に構築された直感的な 1 つの環境で行われます。
 
@@ -309,7 +309,7 @@ Adobe Journey Optimizerを使用すると、複数のチャネルをまたいで
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=ja)
 
 **スケジュールとタイミング**
 
@@ -319,7 +319,7 @@ Adobe Journey Optimizerを使用すると、複数のチャネルをまたいで
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 **レートコントロール**
 
@@ -329,7 +329,7 @@ Adobe Journey Optimizerを使用すると、複数のチャネルをまたいで
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 **オーディエンスのターゲティング**
 
@@ -339,7 +339,7 @@ Adobe Journey Optimizerを使用すると、複数のチャネルをまたいで
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
 
 **承認ワークフロー**
 
@@ -349,7 +349,7 @@ Adobe Journey Optimizerを使用すると、複数のチャネルをまたいで
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ja)
 
 **通知のない時間帯**
 
@@ -359,7 +359,7 @@ Adobe Journey Optimizerを使用すると、複数のチャネルをまたいで
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
 
 **送信時間の最適化**
 
