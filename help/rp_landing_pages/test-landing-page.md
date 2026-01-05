@@ -9,9 +9,9 @@ level: Beginner, Intermediate
 keywords: テスト，検証，承認，品質保証，qa, テストプロファイル，パーソナライゼーション，レンダリング，スパムチェック，コンテンツ実験，a/b テスト，競合検出，シードリスト，配達確認，サンプルデータ，承認ワークフロー，メールテスト，検証ワークフロー
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: d004bdaccab07110408860e67b52bf4c00c1fb15
+source-git-commit: 1fd6f4cc191a65fcd62457ee22509473bbfe2b98
 workflow-type: tm+mt
-source-wordcount: '2735'
+source-wordcount: '2753'
 ht-degree: 5%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 5%
 
 この節では、Journey Optimizerのすべてのテスト機能と承認機能について説明します。 テストプロファイルを使用したコンテンツのプレビュー、ジャーニーのロジックの検証、メールのレンダリングとスパムスコアの確認、A/B 実験の実行、競合の検出、承認ワークフローの設定などを行うツールが用意されています。
 
-このランディングページでは、作成している内容（キャンペーンとジャーニー）に基づいて適切なテストアプローチを選択し、推奨されるテストワークフローを順を追って説明し、すべてのテストおよび承認リソースにすばやくアクセスできます。 以下の [&#x200B; テストアプローチを選択 &#x200B;](#choose-your-testing-approach) から開始して、ユースケースに適用するツールを特定します。
+このランディングページでは、作成している内容（キャンペーンとジャーニー）に基づいて適切なテストアプローチを選択し、推奨されるテストワークフローを順を追って説明し、すべてのテストおよび承認リソースにすばやくアクセスできます。 以下の [ テストアプローチを選択 ](#choose-your-testing-approach) から開始して、ユースケースに適用するツールを特定します。 主なテスト用語の定義については、[ 主な用語 ](#key-terminology) を参照してください。
 
 ## テストと承認が重要な理由
 
@@ -74,110 +74,42 @@ ht-degree: 5%
 
 -->
 
-## 主な用語
-
-+++**テストプロファイル**
-
-パーソナライズされたコンテンツのプレビューに使用する合成顧客プロファイル（実際の顧客ではありません）。 リアルタイム顧客プロファイルサービスでフラグ付け。 テストモードとコンテンツのプレビューで必須です。 [&#x200B; 詳細情報 &#x200B;](../using/content-management/test-profiles.md) | [&#x200B; テストプロファイルの作成方法についてはこちらを参照 &#x200B;](../using/audience/creating-test-profiles.md)
-
-+++
-
-+++**テストモード**
-
-ジャーニーパスを通じてテストプロファイルを送信するジャーニーシミュレーション機能。 制限事項：ドラフトジャーニーのみ。名前空間が必要です。テストプロファイルのみ。 [詳細情報](../using/building-journeys/testing-the-journey.md)
-
-+++
-
-+++**ドライラン**
-
-メッセージの送信や API 呼び出しを行わずにパスをトレースするジャーニー実行分析ツール。 ユースケース：リソースを消費せずにロジックを検証する [詳細情報](../using/building-journeys/journey-dry-run.md)
-
-+++
-
-+++**サンプル入力データ**
-
-パーソナライゼーションをテストするためのプロファイル属性値が含まれている CSV または JSON ファイル。 最大 30 のバリアントをサポートします。 テストプロファイルを作成する代わりに使用できます。 [詳細情報](../using/test-approve/simulate-sample-input.md)
-
-+++
-
-+++**シードリスト**
-
-内部の関係者のメールアドレスが、実際の配信（テスト送信ではなく）に自動的に含まれる。 メールチャネルのみ。 ユースケース：品質の監視とコンプライアンス。 [詳細情報](../using/configuration/seed-lists.md)
-
-+++
-
-+++**コンテンツ実験**
-
-コンテンツのバリエーションを比較する A/B テストまたはマルチアームバンディット実験。 キャンペーンのみ。ジャーニーでは使用できません。 [&#x200B; 詳細情報 &#x200B;](../using/content-management/get-started-experiment.md) | [&#x200B; 実験の作成 &#x200B;](../using/content-management/content-experiment.md)
-
-+++
-
-+++**プルーフ**
-
-テストプロファイルデータを使用して、特定のメールアドレスに送信されるメール配信をテストします。 シードリストとは異なります（配達確認は手動のテスト送信、シードリストは自動的な関係者コピーです）。 [詳細情報](../using/content-management/proofs.md)
-
-+++
-
-+++**競合の検出**
-
-同じオーディエンスをターゲティングする、重複するキャンペーンおよびジャーニーを識別するツール。 限定的なジャーニーのサポート：単一、オーディエンスの選定、オーディエンスを読み取りタイプのみ。 [&#x200B; 詳細情報 &#x200B;](../using/conflict-prioritization/conflicts.md) | [&#x200B; 競合管理について説明します &#x200B;](../using/conflict-prioritization/gs-conflict-prioritization.md)
-
-+++
-
-+++**承認ワークフロー**
-
-アクティベーション前に関係者の承認が必要な複数手順のレビュープロセス。 承認ポリシーの設定が必要です。 [&#x200B; 詳細情報 &#x200B;](../using/test-approve/gs-approval.md) | [&#x200B; ポリシーの作成 &#x200B;](../using/test-approve/approval-policies.md)
-
-+++
-
-+++**レンダリングテスト**
-
-メールクライアント（Gmail、Outlook、Apple Mail）およびデバイスをまたいだメール表示の検証。 Litmus 統合が必要です。 [詳細情報](../using/content-management/rendering.md)
-
-+++
-
-+++**Personalization プレイグラウンド**
-
-インタラクティブなラーニング環境で、パーソナライゼーション構文とテスト式をサンプルデータで試すことができます。 ライブデータセットは必要ありません。 [詳細情報](../using/personalization/personalize.md#playground)
-
-+++
-
 ## メソッド選択をテストするためのデシジョンツリー
 
 このデシジョンツリーを使用すると、特定のシナリオに適切なテストツールをすばやく特定できます。 コンテキスト（作成している内容、検証が必要な内容、使用しているチャネル）に基づいて各質問に答え、関連する機能およびドキュメントに直接移動します。
 
 +++ **質問 1：テスト対象**
 
-* Campaign →[&#x200B; テストアプローチを選択 &#x200B;](#choose-your-testing-approach)
-* ジャーニー→[&#x200B; テストアプローチを選択 &#x200B;](#choose-your-testing-approach)
-* [Personalization→プレイグラウンド &#x200B;](#test--approve-content) のPersonalization式
+* Campaign →[ テストアプローチを選択 ](#choose-your-testing-approach)
+* ジャーニー→[ テストアプローチを選択 ](#choose-your-testing-approach)
+* [Personalization→プレイグラウンド ](#test--approve-content) のPersonalization式
 +++
 
 +++**質問 2：検証が必要な側面は何ですか？**
 
-* コンテンツとパーソナライゼーション→[&#x200B; テストプロファイル &#x200B;](#choose-your-testing-approach) または [&#x200B; サンプル入力データ &#x200B;](#choose-your-testing-approach)
-* メールの表示→[&#x200B; メールのレンダリングテスト &#x200B;](#2-technical-validation)
-* 配信品質→[&#x200B; スパムスコアのチェック &#x200B;](#2-technical-validation)
-* ジャーニーのロジックとフロー→[&#x200B; テストモード &#x200B;](#choose-your-testing-approach) または [&#x200B; ドライラン &#x200B;](#test--approve-content)
-* パフォーマンス比較→[&#x200B; コンテンツ実験 &#x200B;](#test--approve-content) （キャンペーンのみ）
-* タイミングの競合→[&#x200B; 競合の検出 &#x200B;](#test--approve-content)
-* 関係者レビュー→[&#x200B; 承認ワークフロー &#x200B;](#test--approve-content)
+* コンテンツとパーソナライゼーション→[ テストプロファイル ](#choose-your-testing-approach) または [ サンプル入力データ ](#choose-your-testing-approach)
+* メールの表示→[ メールのレンダリングテスト ](#2-technical-validation)
+* 配信品質→[ スパムスコアのチェック ](#2-technical-validation)
+* ジャーニーのロジックとフロー→[ テストモード ](#choose-your-testing-approach) または [ ドライラン ](#test--approve-content)
+* パフォーマンス比較→[ コンテンツ実験 ](#test--approve-content) （キャンペーンのみ）
+* タイミングの競合→[ 競合の検出 ](#test--approve-content)
+* 関係者レビュー→[ 承認ワークフロー ](#test--approve-content)
 +++
 
 +++**質問 3：どのチャネルですか？**
 
-* 電子メール →使用可能なすべてのテスト方法（[&#x200B; テストアプローチの選択 &#x200B;](#choose-your-testing-approach) を参照）
-* SMS、プッシュ→信 [&#x200B; コンテンツテスト &#x200B;](#choose-your-testing-approach)、[&#x200B; サンプル入力データ &#x200B;](#choose-your-testing-approach)、[&#x200B; 承認ワークフロー &#x200B;](#test--approve-content)
-* Web、アプリ内、コードベースの→[&#x200B; コンテンツテスト &#x200B;](#choose-your-testing-approach)、[&#x200B; サンプル入力データ &#x200B;](#choose-your-testing-approach)、[&#x200B; 承認ワークフロー &#x200B;](#test--approve-content)
+* 電子メール →使用可能なすべてのテスト方法（[ テストアプローチの選択 ](#choose-your-testing-approach) を参照）
+* SMS、プッシュ→信 [ コンテンツテスト ](#choose-your-testing-approach)、[ サンプル入力データ ](#choose-your-testing-approach)、[ 承認ワークフロー ](#test--approve-content)
+* Web、アプリ内、コードベースの→[ コンテンツテスト ](#choose-your-testing-approach)、[ サンプル入力データ ](#choose-your-testing-approach)、[ 承認ワークフロー ](#test--approve-content)
 * 複数のチャネル →各チャネルを個別にテスト
 +++
 
 +++**質問 4：ワークフローに含まれるタイミング**
 
-* 学習用→[Personalization プレイグラウンド &#x200B;](#test--approve-content) を作成する前に
-* 検証用の→ [&#x200B; テストプロファイル &#x200B;](#choose-your-testing-approach) および [&#x200B; サンプル入力データ &#x200B;](#choose-your-testing-approach) の構築中
-* 起動→前 [&#x200B; レンダリングテスト &#x200B;](#2-technical-validation)、[&#x200B; スパムチェック &#x200B;](#2-technical-validation)、[&#x200B; 競合検出 &#x200B;](#test--approve-content)、[&#x200B; 承認 &#x200B;](#test--approve-content)
-* ローンチ後→[&#x200B; ライブレポート &#x200B;](../using/building-journeys/report-journey.md) および [&#x200B; 監視 &#x200B;](#test--approve-content)
+* 学習用→[Personalization プレイグラウンド ](#test--approve-content) を作成する前に
+* 検証用の→ [ テストプロファイル ](#choose-your-testing-approach) および [ サンプル入力データ ](#choose-your-testing-approach) の構築中
+* 起動→前 [ レンダリングテスト ](#2-technical-validation)、[ スパムチェック ](#2-technical-validation)、[ 競合検出 ](#test--approve-content)、[ 承認 ](#test--approve-content)
+* ローンチ後→[ ライブレポート ](../using/building-journeys/report-journey.md) および [ 監視 ](#test--approve-content)
 +++
 
 
@@ -191,16 +123,16 @@ ht-degree: 5%
 
 **すべてのキャンペーンの場合：**
 
-* [&#x200B; テストプロファイル &#x200B;](../using/content-management/test-profiles.md) または [&#x200B; サンプル入力データ &#x200B;](../using/test-approve/simulate-sample-input.md) を使用したコンテンツのプレビューとテスト
-* デバイスとクライアントをまたいだ [&#x200B; メールのレンダリング &#x200B;](../using/content-management/rendering.md) の確認（メールチャネルのみ）
-* [&#x200B; スパムスコアチェック &#x200B;](../using/content-management/spam-report.md) を実行する（メールチャネルのみ）
-* 他のキャンペーンやジャーニーとの [&#x200B; 競合 &#x200B;](../using/conflict-prioritization/conflicts.md) のレビュー
-* 関係者の監視のための [&#x200B; シードリスト &#x200B;](../using/configuration/seed-lists.md) の設定（メールチャネルのみ）
-* アクティブ化前に [&#x200B; 承認 &#x200B;](../using/test-approve/gs-approval.md) 用に送信
+* [ テストプロファイル ](../using/content-management/test-profiles.md) または [ サンプル入力データ ](../using/test-approve/simulate-sample-input.md) を使用したコンテンツのプレビューとテスト
+* デバイスとクライアントをまたいだ [ メールのレンダリング ](../using/content-management/rendering.md) の確認（メールチャネルのみ）
+* [ スパムスコアチェック ](../using/content-management/spam-report.md) を実行する（メールチャネルのみ）
+* 他のキャンペーンやジャーニーとの [ 競合 ](../using/conflict-prioritization/conflicts.md) のレビュー
+* 関係者の監視のための [ シードリスト ](../using/configuration/seed-lists.md) の設定（メールチャネルのみ）
+* アクティブ化前に [ 承認 ](../using/test-approve/gs-approval.md) 用に送信
 
 **A/B テストと最適化の場合：**
 
-* [&#x200B; コンテンツ実験 &#x200B;](../using/content-management/get-started-experiment.md) を作成して、複数の処理をテストし、パフォーマンスを測定する
+* [ コンテンツ実験 ](../using/content-management/get-started-experiment.md) を作成して、複数の処理をテストし、パフォーマンスを測定する
 
 **API トリガーキャンペーンの場合：**
 
@@ -210,10 +142,10 @@ ht-degree: 5%
 
 **すべてのジャーニーの場合：**
 
-* [&#x200B; テストモード &#x200B;](../using/building-journeys/testing-the-journey.md) を使用して、プロファイルの進行をシミュレートします（ドラフトジャーニーのみ、名前空間が必要）または [&#x200B; ドライラン &#x200B;](../using/building-journeys/journey-dry-run.md) を使用して、メッセージを送信せずに実行パスを分析します
-* [&#x200B; プレビューと配達確認 &#x200B;](../using/content-management/preview-test.md) を使用した個々のメッセージのテスト
-* 他のジャーニーおよびキャンペーンとの [&#x200B; 競合 &#x200B;](../using/conflict-prioritization/conflicts.md) の確認
-* 公開前に [&#x200B; 承認 &#x200B;](../using/test-approve/gs-approval.md) 用に送信
+* [ テストモード ](../using/building-journeys/testing-the-journey.md) を使用して、プロファイルの進行をシミュレートします（ドラフトジャーニーのみ、名前空間が必要）または [ ドライラン ](../using/building-journeys/journey-dry-run.md) を使用して、メッセージを送信せずに実行パスを分析します
+* [ プレビューと配達確認 ](../using/content-management/preview-test.md) を使用した個々のメッセージのテスト
+* 他のジャーニーおよびキャンペーンとの [ 競合 ](../using/conflict-prioritization/conflicts.md) の確認
+* 公開前に [ 承認 ](../using/test-approve/gs-approval.md) 用に送信
 
 **複雑なジャーニーの場合：**
 
@@ -226,12 +158,12 @@ ht-degree: 5%
 
 **コンテンツを作成する前に：**
 
-* [&#x200B; パーソナライゼーションプレイグラウンド &#x200B;](../using/personalization/personalize.md#playground) で実験して、構文を学び、サンプルデータを使用して式をテストします
+* [ パーソナライゼーションプレイグラウンド ](../using/personalization/personalize.md#playground) で実験して、構文を学び、サンプルデータを使用して式をテストします
 
 **コンテンツ作成中：**
 
-* [&#x200B; テストプロファイル &#x200B;](../using/content-management/test-profiles.md) を使用してプレビューし、パーソナライゼーションのレンダリングが正しいことを検証します
-* CSV/JSON ファイルの [&#x200B; サンプル入力データ &#x200B;](../using/test-approve/simulate-sample-input.md) を使用して、複数のシナリオをテストします（最大 30 のバリアントをサポート）
+* [ テストプロファイル ](../using/content-management/test-profiles.md) を使用してプレビューし、パーソナライゼーションのレンダリングが正しいことを検証します
+* CSV/JSON ファイルの [ サンプル入力データ ](../using/test-approve/simulate-sample-input.md) を使用して、複数のシナリオをテストします（最大 30 のバリアントをサポート）
 
 >[!ENDTABS]
 
@@ -241,23 +173,23 @@ ht-degree: 5%
 
 1. **早い段階で頻繁にテストします** - キャンペーンが完全に作成されるまで待たないでください。 開発に合わせて、コンテンツ、パーソナライゼーションおよびロジックを増分的にテストします。
 
-1. **現実的なテストプロファイルの使用** - エッジケースや様々なパーソナライゼーションシナリオなど、ターゲットオーディエンスセグメントを正確に表す [&#x200B; テストプロファイルを作成 &#x200B;](../using/audience/creating-test-profiles.md) します。
+1. **現実的なテストプロファイルの使用** - エッジケースや様々なパーソナライゼーションシナリオなど、ターゲットオーディエンスセグメントを正確に表す [ テストプロファイルを作成 ](../using/audience/creating-test-profiles.md) します。
 
-1. **デバイスとクライアントをまたいだテスト** – 一般的なメールクライアント（Gmail、Outlook、Apple Mail）およびデバイス（デスクトップ、モバイル、タブレット）で [&#x200B; メールのレンダリング &#x200B;](../using/content-management/rendering.md) を確認し、表示の一貫性を確保します（メールチャネルのみ）。
+1. **デバイスとクライアントをまたいだテスト** – 一般的なメールクライアント（Gmail、Outlook、Apple Mail）およびデバイス（デスクトップ、モバイル、タブレット）で [ メールのレンダリング ](../using/content-management/rendering.md) を確認し、表示の一貫性を確保します（メールチャネルのみ）。
 
-1. **パーソナライゼーションの徹底的な検証** – 異なる属性値を持つ複数の [&#x200B; テストプロファイル &#x200B;](../using/content-management/test-profiles.md) を使用してテストし、パーソナライゼーショントークンが正しくレンダリングされ、フォールバック値が機能することを確認します。 [&#x200B; パーソナライゼーションプレイグラウンド &#x200B;](../using/personalization/personalize.md#playground) を使用して、パーソナライゼーション式を実験し、サンプルデータを使用したコードのテストを行ってからキャンペーンに適用します。
+1. **パーソナライゼーションの徹底的な検証** – 異なる属性値を持つ複数の [ テストプロファイル ](../using/content-management/test-profiles.md) を使用してテストし、パーソナライゼーショントークンが正しくレンダリングされ、フォールバック値が機能することを確認します。 [ パーソナライゼーションプレイグラウンド ](../using/personalization/personalize.md#playground) を使用して、パーソナライゼーション式を実験し、サンプルデータを使用したコードのテストを行ってからキャンペーンに適用します。
 
-1. **サンプルデータを使用したコンテンツバリエーションのテスト** - CSV または JSON ファイルの [&#x200B; サンプル入力データ &#x200B;](../using/test-approve/simulate-sample-input.md) を使用して、多数のテストプロファイルを作成することなく、最大 30 個のパーソナライゼーションシナリオをテストし、包括的なカバレッジを確保しながら時間を節約します。 メール、SMS、プッシュ、web、コードベースのエクスペリエンス、アプリ内およびコンテンツカードチャネルをサポートします。
+1. **サンプルデータを使用したコンテンツバリエーションのテスト** - CSV または JSON ファイルの [ サンプル入力データ ](../using/test-approve/simulate-sample-input.md) を使用して、多数のテストプロファイルを作成することなく、最大 30 個のパーソナライゼーションシナリオをテストし、包括的なカバレッジを確保しながら時間を節約します。 メール、SMS、プッシュ、web、コードベースのエクスペリエンス、アプリ内およびコンテンツカードチャネルをサポートします。
 
-1. **関係者の監視にシードリストを使用** - [&#x200B; シードリスト &#x200B;](../using/configuration/seed-lists.md) を設定して、品質監視とコンプライアンス検証のために、実行時にすべての配信のコピーを受信する内部の関係者を自動的に含めます（メールチャネルのみ）。
+1. **関係者の監視にシードリストを使用** - [ シードリスト ](../using/configuration/seed-lists.md) を設定して、品質監視とコンプライアンス検証のために、実行時にすべての配信のコピーを受信する内部の関係者を自動的に含めます（メールチャネルのみ）。
 
-1. **ジャーニーパスをシミュレート** – 複数の分岐を持つ複雑なジャーニーの場合は、[&#x200B; テストモード &#x200B;](../using/building-journeys/testing-the-journey.md) を使用して、様々なエントリ条件とプロファイル属性をテストし、可能なすべてのパスを検証します。 名前空間を使用するドラフトジャーニーで使用できます。
+1. **ジャーニーパスをシミュレート** – 複数の分岐を持つ複雑なジャーニーの場合は、[ テストモード ](../using/building-journeys/testing-the-journey.md) を使用して、様々なエントリ条件とプロファイル属性をテストし、可能なすべてのパスを検証します。 名前空間を使用するドラフトジャーニーで使用できます。
 
-1. **配信品質指標の確認** - [&#x200B; スパムスコア &#x200B;](../using/content-management/spam-report.md)、認証ステータスおよびメールヘルス指標を、大きな送信前に確認します（メールチャネルのみ）。
+1. **配信品質指標の確認** - [ スパムスコア ](../using/content-management/spam-report.md)、認証ステータスおよびメールヘルス指標を、大きな送信前に確認します（メールチャネルのみ）。
 
 1. **テスト結果の文書化** - テストの結果、見つかった問題、解決策の記録を保持して、今後のテストプロセスを改善し、チームと学習を共有します。
 
-1. **利害関係者を早期に関与させる** - [&#x200B; 正式な承認 &#x200B;](../using/test-approve/gs-approval.md) 前に利害関係者とプレビューやテスト結果を共有して、フィードバックを収集し、期待に合わせます。
+1. **利害関係者を早期に関与させる** - [ 正式な承認 ](../using/test-approve/gs-approval.md) 前に利害関係者とプレビューやテスト結果を共有して、フィードバックを収集し、期待に合わせます。
 
 ## 推奨されるテストワークフロー
 
@@ -267,33 +199,33 @@ ht-degree: 5%
 
 まず、コンテンツを作成しプレビュー機能を使用して、初期デザインとパーソナライゼーションを検証します。
 
-* [&#x200B; メール &#x200B;](../using/email/create-email.md)、[SMS](../using/sms/create-sms.md)、[&#x200B; プッシュ通知 &#x200B;](../using/push/create-push.md)、またはその他のチャネルコンテンツをデザイン
+* [ メール ](../using/email/create-email.md)、[SMS](../using/sms/create-sms.md)、[ プッシュ通知 ](../using/push/create-push.md)、またはその他のチャネルコンテンツをデザイン
 
 * **[コンテンツをシミュレート](../using/content-management/preview-test.md)** 機能を使用して、テストプロファイルでプレビューします
 
-* [&#x200B; パーソナライゼーショントークン &#x200B;](../using/personalization/personalization-syntax.md)、動的コンテンツおよびフォールバック値の確認
+* [ パーソナライゼーショントークン ](../using/personalization/personalization-syntax.md)、動的コンテンツおよびフォールバック値の確認
 
 * **[パーソナライゼーションプレイグラウンド](../using/personalization/personalize.md#playground)** でパーソナライゼーション式を実験し、ライブコンテンツに適用する前に、サンプルデータを使用してコードをテストおよび調整します
 
 * CSV/JSON ファイルの **[サンプル入力データ](../using/test-approve/simulate-sample-input.md)** を使用して複数のバリエーションをテストし、様々なプロファイルシナリオでのパーソナライゼーションを検証します
 
-* 異なる画面サイズおよびメールクライアントでの [&#x200B; レンダリング &#x200B;](../using/content-management/rendering.md) の検証
+* 異なる画面サイズおよびメールクライアントでの [ レンダリング ](../using/content-management/rendering.md) の検証
 
 ### 2.技術検証
 
 配信品質と機能に影響を与える技術的側面を検証します。
 
-* [&#x200B; スパムスコアチェック &#x200B;](../using/content-management/spam-report.md) を実行して、配信品質の潜在的な問題を特定します
+* [ スパムスコアチェック ](../using/content-management/spam-report.md) を実行して、配信品質の潜在的な問題を特定します
 
 * リンクをテストし、リンクが壊れていないこと、正しく追跡されていないことを確認します
 
-* [&#x200B; メール認証 &#x200B;](../using/configuration/dmarc-record.md) （SPF、DKIM、DMARC）設定を検証
+* [ メール認証 ](../using/configuration/dmarc-record.md) （SPF、DKIM、DMARC）設定を検証
 
 * HTMLのレンダリングを確認し、CSS の互換性の問題を調べる
 
-* モバイルおよびデスクトップデバイスでのテスト [&#x200B; レスポンシブデザイン &#x200B;](../using/email/content-from-scratch.md)
+* モバイルおよびデスクトップデバイスでのテスト [ レスポンシブデザイン ](../using/email/content-from-scratch.md)
 
-* 他のキャンペーンやジャーニーとの [&#x200B; 競合の可能性 &#x200B;](../using/conflict-prioritization/conflicts.md) をチェックして、顧客メッセージの疲労やタイミングの問題を防ぎます
+* 他のキャンペーンやジャーニーとの [ 競合の可能性 ](../using/conflict-prioritization/conflicts.md) をチェックして、顧客メッセージの疲労やタイミングの問題を防ぎます
 
 ### &#x200B;3. ジャーニーテスト（ジャーニーのみ）
 
@@ -301,23 +233,23 @@ ht-degree: 5%
 
 * **[テストモード](../using/building-journeys/testing-the-journey.md)** を有効化して、ジャーニーを通じたプロファイルの進行状況をシミュレートします
 
-* 様々な [&#x200B; エントリ条件 &#x200B;](../using/building-journeys/entry-management.md) オーディエンス選定のテスト
+* 様々な [ エントリ条件 ](../using/building-journeys/entry-management.md) オーディエンス選定のテスト
 
-* [&#x200B; 待機アクティビティ &#x200B;](../using/building-journeys/wait-activity.md)、[&#x200B; 条件 &#x200B;](../using/building-journeys/condition-activity.md) および分岐ロジックが正しく機能していることを確認します
+* [ 待機アクティビティ ](../using/building-journeys/wait-activity.md)、[ 条件 ](../using/building-journeys/condition-activity.md) および分岐ロジックが正しく機能していることを確認します
 
 * 複雑なジャーニーに **[ドライラン](../using/building-journeys/journey-dry-run.md)** を使用して、メッセージを送信せずに実行パスを分析します
 
-* [&#x200B; イベント &#x200B;](../using/event/about-events.md) のトリガーが正しいこと、および [&#x200B; カスタムアクション &#x200B;](../using/action/about-custom-action-configuration.md) が期待どおりに実行されていることを確認します
+* [ イベント ](../using/event/about-events.md) のトリガーが正しいこと、および [ カスタムアクション ](../using/action/about-custom-action-configuration.md) が期待どおりに実行されていることを確認します
 
 ### 4.承認の送信
 
 テストが完了し、問題が解決したら、以下の手順を実行します。
 
-* 組織の [&#x200B; 承認ポリシー &#x200B;](../using/test-approve/approval-policies.md) に従って、キャンペーンまたはジャーニーを承認用に送信します
+* 組織の [ 承認ポリシー ](../using/test-approve/approval-policies.md) に従って、キャンペーンまたはジャーニーを承認用に送信します
 
-* [&#x200B; 承認リクエスト &#x200B;](../using/test-approve/request-approval.md) にテスト結果とドキュメントを含める
+* [ 承認リクエスト ](../using/test-approve/request-approval.md) にテスト結果とドキュメントを含める
 
-* [&#x200B; 承認者 &#x200B;](../using/test-approve/review-approve-request.md) からのフィードバックまたは変更リクエストに対応する
+* [ 承認者 ](../using/test-approve/review-approve-request.md) からのフィードバックまたは変更リクエストに対応する
 
 * 必要な修正を加え、変更が重大な場合は再テストする
 
@@ -325,23 +257,23 @@ ht-degree: 5%
 
 キャンペーンまたはジャーニーをアクティブ化する前に、以下を行います。
 
-* すべての設定、オーディエンス、[&#x200B; スケジュール &#x200B;](../using/building-journeys/journey-properties.md) の最終レビューを実行します。
+* すべての設定、オーディエンス、[ スケジュール ](../using/building-journeys/journey-properties.md) の最終レビューを実行します。
 
 * すべての承認が実施され、文書化されていることを確認する
 
-* 送信時間と [&#x200B; タイムゾーン &#x200B;](../using/building-journeys/timezone-management.md) が正しいことを確認します
+* 送信時間と [ タイムゾーン ](../using/building-journeys/timezone-management.md) が正しいことを確認します
 
-* [&#x200B; 監視とアラート &#x200B;](../using/reports/alerts.md) を有効にして、起動後のパフォーマンスを追跡する
+* [ 監視とアラート ](../using/reports/alerts.md) を有効にして、起動後のパフォーマンスを追跡する
 
 ### 6.監視と反復
 
 立ち上げ後、引き続き監視を実施して、問題を早期に特定します。
 
-* ジャーニーエラー、バウンス率の高さ、エンゲージメントの低さに対する [&#x200B; システムアラート &#x200B;](../using/reports/alerts.md) の設定
+* ジャーニーエラー、バウンス率の高さ、エンゲージメントの低さに対する [ システムアラート ](../using/reports/alerts.md) の設定
 
-* [&#x200B; ライブレポート &#x200B;](../using/building-journeys/report-journey.md) を確認し、期待値に照らしてパフォーマンスを追跡する
+* [ ライブレポート ](../using/building-journeys/report-journey.md) を確認し、期待値に照らしてパフォーマンスを追跡する
 
-* 重大な問題が発生した場合は、ジャーニーを [&#x200B; 一時停止または変更 &#x200B;](../using/building-journeys/journey-pause.md) できるよう備える
+* 重大な問題が発生した場合は、ジャーニーを [ 一時停止または変更 ](../using/building-journeys/journey-pause.md) できるよう備える
 
 * 今後のテストプロセスを改善するために得られた教訓の文書化
 
@@ -360,7 +292,7 @@ ht-degree: 5%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 コンテンツのプレビュー、テスト、検証
 
@@ -370,7 +302,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 ジャーニーおよびキャンペーンの承認ワークフロー
 
@@ -380,7 +312,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 ジャーニーのテスト
 
@@ -390,7 +322,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 ジャーニーのドライラン
 
@@ -400,7 +332,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 監視とトラブルシューティング
 
@@ -410,7 +342,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 Personalizationプレイグラウンド
 
@@ -430,7 +362,7 @@ Personalizationプレイグラウンド
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 関係者による監視のためのシードリスト
 
@@ -440,7 +372,7 @@ Personalizationプレイグラウンド
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 競合の検出
 
@@ -451,17 +383,41 @@ Personalizationプレイグラウンド
 
 ::::
 
+## 主な用語
+
+**[テストプロファイル](../using/content-management/test-profiles.md)** = パーソナライズされたコンテンツのプレビューに使用される合成顧客プロファイル（実際の顧客ではありません）。 リアルタイム顧客プロファイルサービスでフラグ付け。 テストモードとコンテンツのプレビューで必須です。 [テストプロファイルの作成方法を学ぶ](../using/audience/creating-test-profiles.md)
+
+**[テストモード](../using/building-journeys/testing-the-journey.md)** = ジャーニーパスを介してテストプロファイルを送信するジャーニーシミュレーション機能。 制限事項：ドラフトジャーニーのみ。名前空間が必要です。テストプロファイルのみ。 [ テストモードのドキュメントを参照してください ](../using/building-journeys/testing-the-journey.md)
+
+**[ドライラン](../using/building-journeys/journey-dry-run.md)** = メッセージの送信や API 呼び出しを行わずにジャーニーをトレースするパス実行分析ツール。 ユースケース：リソースを消費せずにロジックを検証する [ ドライランについて学ぶ ](../using/building-journeys/journey-dry-run.md)
+
+**[サンプル入力データ](../using/test-approve/simulate-sample-input.md)** = パーソナライゼーションをテストするためのプロファイル属性値を含む CSV または JSON ファイル。 最大 30 のバリアントをサポートします。 テストプロファイルを作成する代わりに使用できます。 [ コンテンツのバリエーションをシミュレートする方法 ](../using/test-approve/simulate-sample-input.md)
+
+**[シードリスト](../using/configuration/seed-lists.md)** =実際の配信に自動的に含まれる内部関係者のメールアドレス（テスト送信ではありません）。 メールチャネルのみ。 ユースケース：品質の監視とコンプライアンス。 [ シードリストの設定 ](../using/configuration/seed-lists.md)
+
+**[コンテンツ実験](../using/content-management/get-started-experiment.md)** = A/B テストまたはコンテンツのバリエーションを比較するマルチアームバンディット実験。 キャンペーンのみ。ジャーニーでは使用できません。 [ 実験の概要 ](../using/content-management/get-started-experiment.md) | [ 実験の作成 ](../using/content-management/content-experiment.md)
+
+**[配達確認](../using/content-management/proofs.md)** = テストプロファイルデータを使用して、特定のメールアドレスに送信されたテストメール配信。 シードリストとは異なります（配達確認は手動のテスト送信、シードリストは自動的な関係者コピーです）。 [ 配達確認の送信 ](../using/content-management/proofs.md)
+
+**[競合検出](../using/conflict-prioritization/conflicts.md)** =同じオーディエンスをターゲティングする、重複するキャンペーンおよびジャーニーを識別するツール。 限定的なジャーニーのサポート：単一、オーディエンスの選定、オーディエンスを読み取りタイプのみ。 [ 競合管理について説明します ](../using/conflict-prioritization/gs-conflict-prioritization.md)
+
+**[承認ワークフロー](../using/test-approve/gs-approval.md)** = アクティベーション前に関係者の承認を必要とする複数手順のレビュープロセス。 承認ポリシーの設定が必要です。 [ 承認の設定 ](../using/test-approve/gs-approval.md) | [ ポリシーの作成 ](../using/test-approve/approval-policies.md)
+
+**[レンダリングテスト](../using/content-management/rendering.md)** = メールクライアント（Gmail、Outlook、Apple Mail）およびデバイスをまたいだメール表示の検証。 Litmus 統合が必要です。 [ メールのレンダリングをテスト ](../using/content-management/rendering.md)
+
+**[Personalization playground](../using/personalization/personalize.md#playground)** = インタラクティブなラーニング環境で、パーソナライゼーションの構文を試し、サンプルデータを使用して式をテストします。 ライブデータセットは必要ありません。 [ 遊び場にアクセス ](../using/personalization/personalize.md#playground)
+
 ## その他のリソース
 
 >[!BEGINTABS]
 
 >[!TAB  基本ガイド ]
 
-* [&#x200B; コンテンツのバリエーションをシミュレート &#x200B;](../using/test-approve/simulate-sample-input.md) - CSV または JSON ファイルを使用して最大 30 個のパーソナライゼーションシナリオをテストします。 複数のテストプロファイルを作成しない、多言語コンテンツのテストに最適です。 メール、SMS、プッシュ、web、コードベース、アプリ内、コンテンツカードをサポートします。
+* [ コンテンツのバリエーションをシミュレート ](../using/test-approve/simulate-sample-input.md) - CSV または JSON ファイルを使用して最大 30 個のパーソナライゼーションシナリオをテストします。 複数のテストプロファイルを作成しない、多言語コンテンツのテストに最適です。 メール、SMS、プッシュ、web、コードベース、アプリ内、コンテンツカードをサポートします。
 
-* [&#x200B; テストプロファイルの作成 &#x200B;](../using/audience/creating-test-profiles.md) - テストプロファイルを作成および管理して、顧客のシナリオをシミュレートします。 テスト用にプロファイルにフラグを付ける方法、属性を設定する方法、テストセグメントを整理する方法について説明します。
+* [ テストプロファイルの作成 ](../using/audience/creating-test-profiles.md) - テストプロファイルを作成および管理して、顧客のシナリオをシミュレートします。 テスト用にプロファイルにフラグを付ける方法、属性を設定する方法、テストセグメントを整理する方法について説明します。
 
-* [&#x200B; メールスパムレポート &#x200B;](../using/content-management/spam-report.md) – 送信する前にスパムスコアを確認して、配信品質とインボックスの配置を改善します。 コンテンツの最適化に関する実用的な推奨事項を取得します。
+* [ メールスパムレポート ](../using/content-management/spam-report.md) – 送信する前にスパムスコアを確認して、配信品質とインボックスの配置を改善します。 コンテンツの最適化に関する実用的な推奨事項を取得します。
 
 * [ジャーニーに関する FAQ](../using/building-journeys/journey-faq.md) - ジャーニーのテスト、実行、トラブルシューティングに関するよくある質問のクイックリファレンス。
 
@@ -530,9 +486,9 @@ Personalizationプレイグラウンド
 
 +++**Q：多くのテストプロファイルを作成せずにパーソナライゼーションをテストするにはどうすればよいですか？**
 
-**プライマリソリューション：** CSV/JSON ファイルで [&#x200B; サンプル入力データ &#x200B;](../using/test-approve/simulate-sample-input.md) を使用します（最大 30 個のバリアントをサポート）
-**代替：** 主要なセグメントをカバーする 3 ～ 5 個の代表的な [&#x200B; テストプロファイル &#x200B;](../using/audience/creating-test-profiles.md) を作成します
-**学習ツール：** 最初に [&#x200B; パーソナライゼーションプレイグラウンド &#x200B;](../using/personalization/personalize.md#playground) で実験
+**プライマリソリューション：** CSV/JSON ファイルで [ サンプル入力データ ](../using/test-approve/simulate-sample-input.md) を使用します（最大 30 個のバリアントをサポート）
+**代替：** 主要なセグメントをカバーする 3 ～ 5 個の代表的な [ テストプロファイル ](../using/audience/creating-test-profiles.md) を作成します
+**学習ツール：** 最初に [ パーソナライゼーションプレイグラウンド ](../using/personalization/personalize.md#playground) で実験
 
 +++
 
@@ -556,7 +512,7 @@ Personalizationプレイグラウンド
 +++**Q：外部統合が必要なテスト機能はどれですか？**
 
 **メールのレンダリング：** Litmus 統合が必要（個別のライセンス）
-**その他：**&#x200B;Journey Optimizerへのビルトイン。追加の統合は必要ありません
+**その他：**Journey Optimizerへのビルトイン。追加の統合は必要ありません
 **メモ：** テストプロファイルには、リアルタイム顧客プロファイルサービス（付属）が必要です
 
 +++
