@@ -4,15 +4,20 @@ product: Journey Optimizer
 title: オファーの作成と管理
 description: オファーの作成と管理
 redpen-status: CREATED_||_2025-08-11_21-00-55
+badge: label="レガシー" type="Informative"
 exl-id: 4578e8fe-341e-4678-b21f-d344f0a9a63d
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 2e5943968915b65a78a1c7c8898108b4d48f675a
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '201'
 ht-degree: 100%
 
 ---
 
 # オファーの作成と管理{#section-overview}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../experience-decisioning/gs-experience-decisioning.md)
 
 Adobe Journey Optimizer の「オファーの作成と管理」の節では、適切なタイミングで適切なオーディエンスに届く、カスタマイズされた影響力のあるオファーを作成できます。パーソナライズされたオファーを作成する場合でも、より幅広いアピールのフォールバックオプションを作成する場合でも、シームレスに管理するオファーを動的または静的なコレクションに整理する場合でも、この節では、明確で実用的なガイダンスが提供されます。プレースメント、制約、優先度などの戦略的設定を通じてオファーを最適化し、すべてのインタラクションが有意義であることを確保する方法について説明します。これらのコンポーネントが連携して、よりスマートで魅力的なエクスペリエンスを顧客に提供できる仕組みについて詳しく説明します。
 
@@ -20,7 +25,7 @@ Adobe Journey Optimizer の「オファーの作成と管理」の節では、�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Adobe Journey Optimizer のオファーの設定
 
@@ -30,7 +35,7 @@ Adobe Journey Optimizer のオファーの設定
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 フォールバックオファーの作成方法
 
@@ -40,7 +45,7 @@ Adobe Journey Optimizer のオファーの設定
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 オファーコレクションの作成および管理方法
 

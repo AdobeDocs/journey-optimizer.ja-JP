@@ -3,16 +3,21 @@ solution: Journey Optimizer
 product: Journey Optimizer
 title: ランキングの作成
 description: ランキングの作成
+badge: label="レガシー" type="Informative"
 redpen-status: CREATED_||_2025-08-11_21-00-00
 exl-id: c768d4b4-470d-4c53-b71b-0d09f89100e9
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 2e5943968915b65a78a1c7c8898108b4d48f675a
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '203'
 ht-degree: 100%
 
 ---
 
 # ランキングの作成{#section-overview}
+
+>[!TIP]
+>
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../experience-decisioning/gs-experience-decisioning.md)
 
 Adobe Journey Optimizer のランキングを使用すると、オーディエンスに最初に表示されるオファーをカスタマイズできるので、最も関連性の高いオプションが常に前面および中央に表示されます。シンプルなルールベースのランキング式と、ユーザーの行動に適応する高度な AI モデルのどちらを使用するかに関わらず、この機能は顧客エンゲージメントを最適化し、結果を推進するのに役立ちます。ランキング式がどのようにしてカスタムルールを定義し、同時にAI モデルがデータ駆動型のインサイトを活用して、よりスマートな優先順位付けを行うかについて説明します。さらに、これらのランキングをシームレスにプレースメントに割り当てる方法についても学び、すべての顧客インタラクションでオファーを提示する仕組みを完全に制御できるようになります。
 
@@ -20,7 +25,7 @@ Adobe Journey Optimizer のランキングを使用すると、オーディエ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 ランキングの基本を学ぶ
 
@@ -30,7 +35,7 @@ Adobe Journey Optimizer のランキングを使用すると、オーディエ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 ランキング式の作成と使用
 
@@ -40,7 +45,7 @@ Adobe Journey Optimizer のランキングを使用すると、オーディエ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 オファーランキングの AI モデル
 
