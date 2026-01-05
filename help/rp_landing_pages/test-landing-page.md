@@ -292,7 +292,7 @@ ht-degree: 5%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 コンテンツのプレビュー、テスト、検証
 
@@ -302,7 +302,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
 
 ジャーニーおよびキャンペーンの承認ワークフロー
 
@@ -312,7 +312,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 ジャーニーのテスト
 
@@ -322,7 +322,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 ジャーニーのドライラン
 
@@ -332,7 +332,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
 
 監視とトラブルシューティング
 
@@ -342,7 +342,7 @@ ht-degree: 5%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=ja)
 
 Personalizationプレイグラウンド
 
@@ -362,7 +362,7 @@ Personalizationプレイグラウンド
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ja)
 
 関係者による監視のためのシードリスト
 
@@ -372,7 +372,7 @@ Personalizationプレイグラウンド
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=ja)
 
 競合の検出
 
