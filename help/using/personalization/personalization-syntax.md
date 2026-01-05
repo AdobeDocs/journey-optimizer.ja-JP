@@ -9,10 +9,10 @@ role: Developer
 level: Intermediate
 keywords: 式, エディター, 構文, パーソナライゼーション
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 50eff8b6c4aaa432595bf16ef1d567c272d6b084
-workflow-type: ht
-source-wordcount: '588'
-ht-degree: 100%
+source-git-commit: 9c013883e1bcdbf7dffffa599a910178def80e39
+workflow-type: tm+mt
+source-wordcount: '666'
+ht-degree: 88%
 
 ---
 
@@ -50,6 +50,26 @@ ht-degree: 100%
 * リテラル関数の引数に関して、テンプレート言語パーサーはエスケープされない単一のバックスラッシュ（`\`）記号をサポートしていません。この文字は、バックスラッシュ（`\`）記号を追加してエスケープする必要があります。例：
 
   `{%= regexGroup("abc@xyz.com","@(\\w+)", 1)%}`
+
+## 予約済みのキーワード {#reserved-keywords}
+
+特定のキーワードは、Profile Query Language（PQL）で予約され、パーソナライゼーション式のフィールド名または変数名として直接使用することはできません。 予約されたキーワードに一致する名前を持つフィールドが XDM スキーマに含まれている場合、式で参照するには、バッククォート（`` ` ``）を使用してそれらをエスケープする必要があります。
+
+**予約済みのキーワードは次のとおりです。**
+
+* `next`
+* `last`
+* `this`
+
+**例：**
+
+プロファイルスキーマに `next` という名前のフィールドがある場合は、バッククォートで囲む必要があります。
+
+```
+{{profile.person.`next`.name}}
+```
+
+バッククォートがないと、パーソナライゼーションエディターは検証に失敗し、エラーが発生します。
 
 ## 使用可能な名前空間 {#namespaces}
 
