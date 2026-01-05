@@ -9,10 +9,10 @@ role: Developer
 level: Intermediate
 keywords: 式, エディター, 構文, パーソナライゼーション
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: 9c013883e1bcdbf7dffffa599a910178def80e39
+source-git-commit: 5e9ce28bf19d2f4406ab4fd395b44b72894928e6
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 88%
+source-wordcount: '678'
+ht-degree: 82%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 88%
 
 ## 構文の一般的なルール {#general-rules}
 
-* 識別子には、以下を除く任意の Unicode 文字を使用できます。
+* 識別子には、Handlebars 構文用に予約されている次の特殊文字を除く、任意の Unicode 文字を使用できます。
 
   ```
   Whitespace ! " # % & ' ( ) * + , . / ; < = > @ [ \ ] ^ ` { | } ~
@@ -47,7 +47,7 @@ ht-degree: 88%
 
   フィールド `profile.person.name` の値が「Mark &amp; Mary」であるとします。構文 `{{profile.person.name}}` には `Mark &amp; Mary` が表示され、`{{{profile.person.name}}}` には `Mark & Mary` が表示されます。
 
-* リテラル関数の引数に関して、テンプレート言語パーサーはエスケープされない単一のバックスラッシュ（`\`）記号をサポートしていません。この文字は、バックスラッシュ（`\`）記号を追加してエスケープする必要があります。例：
+* リテラル関数の引数に関して、テンプレート言語パーサーはエスケープされない単一のバックスラッシュ（`\`）記号をサポートしていません。この文字は、バックスラッシュ（`\`）記号を追加してエスケープする必要があります。 例：
 
   `{%= regexGroup("abc@xyz.com","@(\\w+)", 1)%}`
 
@@ -136,7 +136,7 @@ ht-degree: 88%
 
   +++
 
-## ヘルパー{#helpers-all}
+## ヘルパー {#helpers-all}
 
 Handlebars ヘルパーは、パラメーターの後に付けられる単純な識別子です。各パラメーターは、Handlebars 式です。これらのヘルパーは、テンプレート内の任意のコンテキストからアクセスできます。
 
@@ -144,7 +144,7 @@ Handlebars ヘルパーは、パラメーターの後に付けられる単純な
 
 ブロックは、ブロック開始タグ（`{{# }}`）と終了タグ（`{{/}}`）を持つ式です。
 
-ヘルパー関数について詳しくは、[この節](functions/helpers.md)を参照してください。
+     ヘルパー関数について詳しくは、[ この節 ] （functions/helpers.md）を参照してください。
 
 ## リテラル型 {#literal-types}
 
