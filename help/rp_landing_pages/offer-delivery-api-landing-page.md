@@ -6,7 +6,7 @@ description: API を使用したオファーの配信
 redpen-status: CREATED_||_2025-08-11_21-04-29
 badge: label="レガシー" type="Informative"
 exl-id: 4f959425-2b45-4257-a0a6-09738913bd68
-source-git-commit: 2e5943968915b65a78a1c7c8898108b4d48f675a
+source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../using/experience-decisioning/gs-experience-decisioning.md)
 
 Adobe Journey Optimizer の Offer Delivery API を使用すると、パーソナライズされたマーケティングオファーを適切なタイミングで適切なオーディエンスに配信し、複数のチャネルをまたいでエンゲージメントを強化できます。Edge Decisioning API を使用してリアルタイムエクスペリエンスをデザインする場合や、Decisioning API を使用して特定のオファーをカスタマイズする場合、Batch Decisioning API を通じてアウトリーチを拡大・縮小する場合のいずれであっても、これらのツールは様々なユースケースに対応する汎用性の高いソリューションを提供します。各 API の仕組み（コンテキストデータの処理からフリークエンシーキャップの実装に至るまで）と、ビジネスニーズに合わせてカスタマイズされたワークフローについて説明します。よりスマートな意思決定とシームレスな統合を実現し始め、自信を持って影響力のあるカスタマーエクスペリエンスを提供します。
 
@@ -25,7 +25,7 @@ Adobe Journey Optimizer の Offer Delivery API を使用すると、パーソナ
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Offer Delivery API の基本を学ぶ
 
@@ -35,7 +35,7 @@ Decisioning API、Edge Decisioning API、Batch Decisioning API など、パー�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Decisioning API を使用したオファーの配信
 
@@ -45,7 +45,7 @@ Decisioning API を使用したオファーの配信
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Edge Decisioning API を使用したオファーの配信
 
@@ -55,7 +55,7 @@ Edge Decisioning API を通じて Adobe Experience Platform Web SDK を使用し
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Batch Decisioning API を使用したオファーの配信
 

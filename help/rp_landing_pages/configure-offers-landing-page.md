@@ -6,7 +6,7 @@ description: オファーの設定
 redpen-status: CREATED_||_2025-08-11_21-00-31
 badge: label="レガシー" type="Informative"
 exl-id: e03307f5-0024-463a-ad2b-78d49e6d158f
-source-git-commit: 2e5943968915b65a78a1c7c8898108b4d48f675a
+source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 87%
@@ -17,7 +17,7 @@ ht-degree: 87%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../using/experience-decisioning/gs-experience-decisioning.md)
 
 Adobe Journey Optimizerの「オファーの設定」セクションを使用すると、オーディエンスのニーズや環境設定に完全に合致するパーソナライズされたオファーを設計および管理できます。 オファーをゼロから作成する場合でも、オファーのプレースメントを定義する場合でも、実施要件や頻度などの制約を微調整する場合でも、これらのツールを使用すると、メッセージが適切な人物に適切なタイミングで届くようになります。様々なコンテキストに合わせて魅力的なコンテンツを作成する方法、オファーが表示されるタイミングと場所のルールを設定する方法、影響を最大化する優先度を調整する方法について説明します。最終的には、エンゲージメントを推進し、測定可能な成果を実現する、動的なターゲットオファーを作成するスキルを習得できます。
 
@@ -25,7 +25,7 @@ Adobe Journey Optimizerの「オファーの設定」セクションを使用す
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 パーソナライズされたオファーの作成
 
@@ -35,7 +35,7 @@ Adobe Journey Optimizerの「オファーの設定」セクションを使用す
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 オファーへの表示域の追加
 
@@ -45,7 +45,7 @@ Adobe Journey Optimizerの「オファーの設定」セクションを使用す
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 オファーへの制約の追加
 

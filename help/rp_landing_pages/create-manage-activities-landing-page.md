@@ -6,7 +6,7 @@ description: 決定の作成と管理
 redpen-status: CREATED_||_2025-08-11_21-01-28
 badge: label="レガシー" type="Informative"
 exl-id: fc968e54-e35b-4def-b8ad-1a181c81c738
-source-git-commit: 2e5943968915b65a78a1c7c8898108b4d48f675a
+source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../using/experience-decisioning/gs-experience-decisioning.md)
 
 Adobe Journey Optimizer では、決定を管理することで、最も関連性の高いオファーを適切なタイミングで顧客に提供することができます。決定は、顧客データとビジネスルールを評価して各個人に最適なオファーを選択する、インテリジェントコンテナとして機能します。決定範囲の定義、優先度および AI などのランキング方法の設定、フォールバックオプションの設定を行って、すべての顧客がオファーを受け取れるようにする方法について説明します。最初の決定の作成からシミュレーションによるテストまで、このガイドでは各手順が詳細に解説されているため、エクスペリエンスをパーソナライズして有意義なエンゲージメントを推進するのに役立てることができます。
 
@@ -25,7 +25,7 @@ Adobe Journey Optimizer では、決定を管理することで、最も関連�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Adobe Journey Optimizer での決定の作成
 
@@ -35,7 +35,7 @@ Adobe Journey Optimizer での決定の作成
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 オファーの選択方法の設定
 
@@ -45,7 +45,7 @@ Adobe Journey Optimizer での決定の作成
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 オファーの決定のシミュレート
 

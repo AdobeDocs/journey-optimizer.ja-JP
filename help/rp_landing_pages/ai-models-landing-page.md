@@ -6,7 +6,7 @@ description: AI モデル
 redpen-status: CREATED_||_2025-08-11_20-59-35
 badge: label="レガシー" type="Informative"
 exl-id: c33c47b7-5d2d-4d76-81ed-cbd06a7797be
-source-git-commit: 2e5943968915b65a78a1c7c8898108b4d48f675a
+source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../using/experience-decisioning/gs-experience-decisioning.md)
 
 Adobe Journey Optimizer の AI モデルは、ビジネス目標に合わせてオファーをランク付けすることで、ユーザーがよりスマートなデータ駆動型の意思決定を行えるよう支援します。より高いコンバージョン率、売上高の増加、パーソナライズされたカスタマーエクスペリエンスのいずれを目標としている場合でも、これらのモデルはニーズに合わせて調整できます。過去のデータに基づいて全体的なパフォーマンスを向上させることに焦点を当てた自動最適化と、個々の顧客に合わせてレコメンデーションをカスタマイズするパーソナライズされた最適化という、2 つのタイプの AI モデルについて詳しく見ていきます。これらのモデルの作成と使用に関する明確なガイダンスを用いて、すべてのインタラクションを最適化するためのモデルの可能性を最大限に引き出し、マーケティング戦略の効果と影響力を高める方法について学びます。
 
@@ -25,7 +25,7 @@ Adobe Journey Optimizer の AI モデルは、ビジネス目標に合わせて�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 AI モデルの基本を学ぶ
 
@@ -35,7 +35,7 @@ Adobe Journey Optimizer の AI モデルとそのタイプ、機能、さらに�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 自動最適化モデルについて
 
@@ -45,7 +45,7 @@ Adobe Journey Optimizer の AI モデルとそのタイプ、機能、さらに�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 パーソナライズされた最適化モデルについて
 
@@ -55,7 +55,7 @@ Adobe Journey Optimizer の AI モデルとそのタイプ、機能、さらに�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 AI モデルの作成方法
 

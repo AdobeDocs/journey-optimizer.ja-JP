@@ -6,7 +6,7 @@ description: コンポーネントの作成
 badge: label="レガシー" type="Informative"
 redpen-status: CREATED_||_2025-08-11_20-58-59
 exl-id: 490fa22c-40b3-4c70-b31c-a971c941a232
-source-git-commit: 2e5943968915b65a78a1c7c8898108b4d48f675a
+source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../using/experience-decisioning/gs-experience-decisioning.md)
 
 Adobe Journey Optimizer では、プレースメント、決定ルール、コレクション修飾子などのコンポーネントを作成して、マーケティング活動をパーソナライズおよび効率化できます。プレースメントは適切なオファーが適切な場所に表示されるようにします。決定ルールではターゲットにするエンゲージメントのために特定のオファーを表示するオーディエンスを定義でき、コレクション修飾子はオファーの整理と検索を簡単にします。これらのツールを組み合わせることで、オファーの配信方法、管理方法、オーディエンスへのカスタマイズ方法を完全に制御できます。設定を指定する場合、実施要件を定義する場合、オファーライブラリを整理する場合など、各トピックは他のトピックに基づいて作成され、よりスマートな決定を簡単に実現するのに役立ちます。
 
@@ -25,7 +25,7 @@ Adobe Journey Optimizer では、プレースメント、決定ルール、コ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 オファーのプレースメントの作成に関するガイド
 
@@ -35,7 +35,7 @@ Adobe Journey Optimizer 内の適切な場所に適切なオファーコンテ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Adobe Journey Optimizer で決定ルールを作成する方法
 
@@ -45,7 +45,7 @@ Adobe Experience Platform データを使用して特定のオーディエンス
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/tags.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/tags.svg)
 
 Adobe Journey Optimizer でコレクション修飾子を作成および管理する方法
 
