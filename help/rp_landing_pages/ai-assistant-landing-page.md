@@ -20,7 +20,7 @@ Adobe Journey Optimizer の AI アシスタントは、生成 AI を活用して
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 AI アシスタントの基本を学ぶ
 
@@ -30,7 +30,7 @@ AI アシスタントの基本を学ぶ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 完全なコンテンツを生成
 
@@ -40,7 +40,7 @@ AI アシスタントを使用して、電子メール、プッシュ通知、we
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 テキストのみを生成
 
@@ -50,7 +50,7 @@ AI アシスタントを使用して、メール、SMS、プッシュ通知、we
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
 
 画像のみを生成
 
