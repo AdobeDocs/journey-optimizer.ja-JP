@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 2f7c620a712cfc104418bc985bd74e81da12147c
+source-git-commit: b85210a46c928389db985f0f794618209773c071
 workflow-type: tm+mt
-source-wordcount: '1364'
-ht-degree: 98%
+source-wordcount: '1648'
+ht-degree: 81%
 
 ---
 
@@ -89,7 +89,7 @@ ht-degree: 98%
 
 **[!UICONTROL サーバータイプ]**&#x200B;として「**[!UICONTROL Amazon S3]**」を選択した場合は、サーバーの詳細と資格情報を入力します。
 
-* **AWS バケット名**:To AWS バケット名の見つけ方については、[&#x200B; こちらのページ &#x200B;](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html) を参照してください。
+* **AWS バケット名**:To AWS バケット名の見つけ方については、[ こちらのページ ](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html) を参照してください。
 
 * **AWS アクセスキー**：AWS アクセスキー ID を見つける場所については、[このページ](https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html#access-keys-and-secret-access-keys)を参照してください。
 
@@ -114,6 +114,10 @@ ht-degree: 98%
 * **[!UICONTROL パスワード]**／**[!UICONTROL SSH キー]**：SFTP サーバーへの接続に使用するパスワードまたは SSH キー。
 
 ![](assets/file-routing-config-sftp-detail.png)
+
+>[!TIP]
+>
+>SSH キー認証を使用する場合、キーは **Base64 エンコードされた OpenSSH** 秘密鍵である必要があります。 PPK 形式のファイルの場合は、PuTTY ツールを使用して OpenSSH 形式に変換します。 手順について詳しくは、[ この節 ](#ssh-key-generation) を参照してください。
 
 >[!NOTE]
 >
@@ -154,6 +158,36 @@ ht-degree: 98%
 サーバータイプの詳細を入力したら、「**[!UICONTROL 送信]**」を選択します。ファイルのルーティング設定は、**[!UICONTROL アクティブ]**&#x200B;ステータスで作成されます。これで、[ダイレクトメール設定](#direct-mail-surface)で使用する準備が整いました。
 
 「**[!UICONTROL ドラフトとして保存]**」を選択してファイルのルーティング設定を作成することもできますが、**[!UICONTROL アクティブ]**&#x200B;になるまで設定で選択することはできません。
+
+### SFTP 認証用の SSH キーの生成 {#ssh-key-generation}
+
+SSH キー認証で SFTP を使用している場合は、Base64 にエンコードされた OpenSSH 秘密鍵が必要です。 キーが正しい形式でない場合、ファイルのルーティングを設定する際に接続エラーが発生する可能性があります。
+
++++Base64 にエンコードされた OpenSSH 秘密鍵の生成
+
+1. PuTTYgen で、キーペアを生成します。 2048 ビット以上の RSA をお勧めします。
+1. メニューから **コンバージョン**/**OpenSSH キーを書き出し** を選択します。
+1. プロンプトが表示されたら、「」を選択して秘密鍵を保存します **パスフレーズ保護は使用しません**。
+1. 保存ダイアログで、「**すべてのファイル（*」を選択します。*）** ファイルタイプとして使用して、キーが.ppk ファイルとしてではなくプレーンテキストとして保存されるようにします。
+1. 保存したファイルをテキストエディターで開き、形式を確認します。
+   * ファイルは `-----BEGIN RSA PRIVATE KEY-----` （前後の 5 つのダッシュ）で始める必要があります。
+   * 暗号化を示す表現は使用しないでください。
+   * ファイルは、`-----END RSA PRIVATE KEY-----` （前後の 5 つのダッシュ）で終わる必要があります。
+1. **ファイルコンテンツ全体** （`-----BEGIN/END RSA PRIVATE KEY-----` マーカーを含む）をコピーし、[Base64 Encode and Decode](https://www.base64encode.org/) などのツールを使用して Base64 にエンコードします。
+
+   >[!NOTE]
+   >
+   >Base64 エンコーディング出力で、MIME 形式を削除します。 エンコードされたキーは、単一の連続する文字列である必要があります。
+
+1. Base64 にエンコードされた SSH キーをJourney Optimizerの専用フィールドに貼り付けられるようになりました。
+
+>[!CAUTION]
+>
+>Base64 エンコーディングの後、キーには `-----BEGIN/END RSA PRIVATE KEY-----` マーカーが含まれなくなり、改行を含めることはできません。 対応する公開鍵を SFTP サーバーの認証済みキーファイルに追加する必要があります。
+
+SFTP アカウントのExperience Platformへの接続について詳しくは、[ このドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/sftp) を参照してください。
+
++++
 
 ## ダイレクトメール設定の作成 {#direct-mail-surface}
 
