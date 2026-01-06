@@ -7,7 +7,7 @@ feature: Monitoring
 exl-id: 3c1cad30-3ed7-4df1-a46a-60394a834e79
 version: Campaign Orchestration
 source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '657'
 ht-degree: 100%
 

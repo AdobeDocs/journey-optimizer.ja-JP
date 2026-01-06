@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 式, エディター, ユースケース, パーソナライゼーション
 exl-id: 7d9c3d31-af57-4f41-aa23-6efa5b785260
 source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '531'
 ht-degree: 100%
 
@@ -110,4 +110,4 @@ ht-degree: 100%
 
 次のビデオでは、ジャーニーのコンテキストデータを活用してメールをパーソナライズする、類似したユースケースを示します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3428530?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425027?quality=12)
