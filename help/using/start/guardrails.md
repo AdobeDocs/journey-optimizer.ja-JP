@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 8d8f47cafb05cacbda19930a4ca741e05f1e4d1d
+source-git-commit: 8c61d7cb30da328791aabb84318960e2f42d1ca0
 workflow-type: tm+mt
-source-wordcount: '3574'
-ht-degree: 99%
+source-wordcount: '3661'
+ht-degree: 96%
 
 ---
 
@@ -21,19 +21,19 @@ ht-degree: 99%
 
 使用権限、製品の制限事項、パフォーマンスガードレールの一覧について詳しくは、[Adobe Journey Optimizer 製品説明ページ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}を参照してください。
 
-
 >[!CAUTION]
 >
 >* [リアルタイム顧客プロファイルデータとセグメント化のガードレール](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/guardrails){target="_blank"}は、Adobe Journey Optimizer にも適用されます。
 >
 >* [リアルタイム顧客プロファイルのデータ取り込みのガードレール](https://experienceleague.adobe.com/ja/docs/experience-platform/ingestion/guardrails){target="_blank"}も参照してください
 
+## システムとプラットフォーム {#system-platform}
 
-## サポートされているブラウザー {#browsers}
+### サポートされているブラウザー {#browsers}
 
 Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージョンの Google Chrome で最適に動作するようにデザインされています。古いバージョンや他のブラウザーでは、特定の機能を使用すると問題が発生する場合があります。
 
-## データセットガードレール {#datasets-guardrails}
+### データセットガードレール {#datasets-guardrails}
 
 2025年2月現在、**新しいサンドボックスと新しい組織**&#x200B;の Journey Optimizer システム生成データセットに、次のように有効期間（TTL）ガードレールがロールアウトされます。
 
@@ -42,12 +42,13 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 
 この変更は、後続のフェーズで&#x200B;**既存顧客のサンドボックス**&#x200B;にロールアウトされます。[詳しくは、データセットの有効期間（TTL）ガードレールを参照してください](../data/datasets-ttl.md)
 
-## チャネルガードレール {#channel-guardrails}
+## チャネルとメッセージング {#channel-guardrails}
+
+この節では、メール、SMS、インバウンドチャネル（web、アプリ内、コードベース、コンテンツカード）、トランザクションメッセージなど、すべての通信チャネルのガードレールについて説明します。
 
 >[!NOTE]
 >
 >まれに、特定の地域での一時的な停止により、有効なプロファイルがジャーニーから除外されたり、メールが誤ってバウンスとしてマークされたりする場合があります。サービスが復元されたら、ジャーニーログを再確認し、同意プロファイルフィールドを確認して、必要に応じてジャーニーを再公開します。ISP のサービスが停止した場合、抑制リストからプロファイルを削除する方法について詳しくは、[この節](../configuration/manage-suppression-list.md#remove-from-suppression-list)を参照してください。
->
 
 ### メールガードレール {#message-guardrails}
 
@@ -117,7 +118,11 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 
 Journey Optimizer では、キャンペーンで 1 秒あたり 500 件のトランザクションメッセージのピーク量をサポートします。
 
-## ランディングページガードレール {#lp-guardrails}
+## コンテンツとAssets {#content-assets}
+
+この節では、ランディングページ、サブドメイン、フラグメントなど、コンテンツの作成と管理のガードレールについて説明します。
+
+### ランディングページガードレール {#lp-guardrails}
 
 次のガードレールが[ランディングページ](../landing-pages/get-started-lp.md)に適用されます。
 
@@ -126,11 +131,11 @@ Journey Optimizer では、キャンペーンで 1 秒あたり 500 件のトラ
 * ランディングページにプリヘッダーを追加することはできません。
 * ランディングプライマリページをデザインするときに、「**独自のコード**」オプションを選択することはできません。
 
-## サブドメインガードレール {#subdomain-guardrails}
+### サブドメインガードレール {#subdomain-guardrails}
 
 Journey Optimizer のサブドメインデリゲーションに適用されるガードレールと制限について詳しくは、[このページ](../configuration/delegate-subdomain.md#guardrails)を参照してください。
 
-## フラグメントガードレール {#fragments-guardrails}
+### フラグメントガードレール {#fragments-guardrails}
 
 次のガードレールが[フラグメント](../content-management/fragments.md)に適用されます。
 
@@ -143,7 +148,11 @@ Journey Optimizer のサブドメインデリゲーションに適用される�
 * ビジュアルフラグメントは、テーマを使用モードと手動スタイル設定モード間で互換性がありません。テーマを適用するコンテンツでフラグメントを使用できるようにするには、このフラグメントをテーマを使用モードで作成する必要があります。[テーマの詳細情報](../email/apply-email-themes.md)
 * ジャーニーまたはキャンペーンでトラッキングが有効になっている場合、フラグメントにリンクを追加し、このフラグメントがメッセージで使用されていると、メッセージに含まれる他のすべてのリンクなど、これらのリンクを追跡します。[リンクとトラッキングの詳細情報](../email/message-tracking.md)
 
-## オーディエンスとプロファイルのガードレール {#audience}
+## オーディエンスとプロファイル {#audiences-profiles}
+
+このセクションでは、Audience Management、プロファイル処理およびエンゲージメント可能なプロファイルに関する考慮事項のガードレールについて説明します。
+
+### オーディエンスとプロファイルのガードレール {#audience}
 
 * 特定のサンドボックス内で最大 10 個のオーディエンス構成を公開できます。このしきい値に達した場合、新しい構成を公開するためには、構成を削除してスペースを解放する必要があります。
 
@@ -153,14 +162,18 @@ Journey Optimizer のサブドメインデリゲーションに適用される�
 
 * インバウンドチャネルを使用して偽名プロファイル（未認証の訪問者）をターゲットにする場合は、エンゲージメント可能なプロファイル数と関連コストを管理するために、自動プロファイル削除の有効期間（TTL）を設定することを考慮します。[詳細情報](#profile-management-inbound)
 
-## 決定と意思決定管理ガードレール {#decisioning-guardrails}
+## 意思決定管理 {#decision-management}
+
+### 決定と意思決定管理ガードレール {#decisioning-guardrails}
 
 意思決定または意思決定管理を使用する際に留意すべきガードレールと制限について詳しくは、意思決定と意思決定管理の節を参照してください。
 
 * [決定ガードレールと制限](../experience-decisioning/decisioning-guardrails.md)
 * [意思決定管理ガードレールと制限](../offers/decision-management-guardrails.md)
 
-## ジャーニーガードレール {#journeys-guardrails}
+## ジャーニー {#journeys-guardrails}
+
+この節では、一般的なジャーニーの制限、ジャーニーコンポーネント（アクション、イベント、データソース）、ジャーニーアクティビティ、カスタムアクションや式エディターなどの特定の機能など、ジャーニーのガードレールと制限について説明します。
 
 ### 一般的なジャーニーのガードレール {#journeys-guardrails-journeys}
 
@@ -333,6 +346,8 @@ Adobe Experience Platform では、API ベースのプロファイルの作成�
 
 特定のガードレールが&#x200B;**[!UICONTROL プロファイルを更新]**&#x200B;アクティビティに適用されます。詳しくは、[このページ](../building-journeys/update-profiles.md)を参照してください。
 
-## キャンペーンオーケストレーションガードレール {#orchestration-guardrails}
+## キャンペーンオーケストレーション {#campaign-orchestration}
+
+### キャンペーンオーケストレーションガードレール {#orchestration-guardrails}
 
 キャンペーンオーケストレーションを使用する際に留意すべきガードレールと制限事項について詳しくは、[ガードレールと制限事項](../orchestrated/guardrails.md)の節を参照してください。
