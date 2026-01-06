@@ -52,13 +52,13 @@ ht-degree: 99%
 <table>
 <thead>
 <tr>
-<th><strong>Journey Agent が公開されました</strong><br/></th>
+<th><strong>Journey エージェントが公開されました</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p><a href="https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform エージェントオーケストレーター</a>を活用した Journey Agent は、Journey Optimizer で使用できます。これにより、自然言語インターフェイスを通じてジャーニーを分析できます。エージェントは、オーディエンスやスケジュールの競合と、ジャーニーでのプロファイルのドロップオフを検出して解決するのに役立ちます。近日中に、エージェント型サポートによるジャーニーを作成できます。</p>
+<p><a href="https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform エージェントオーケストレーター</a>を活用した Journey エージェントは、Journey Optimizer で使用できます。これにより、自然言語インターフェイスを通じてジャーニーを分析できます。エージェントは、オーディエンスやスケジュールの競合と、ジャーニーでのプロファイルのドロップオフを検出して解決するのに役立ちます。近日中に、エージェント型サポートによるジャーニーを作成できます。</p>
 <p>詳しくは、<a href="https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent-analyze" target="_blank">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2025年9月24日（PT）</p>
 </td>

@@ -8,7 +8,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 7c47940713484dd6d6047eefe6e0ae0d0a276b9c
 workflow-type: tm+mt
 source-wordcount: '531'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -22,16 +22,16 @@ Journey Optimizer 製品とドキュメントの最新の機能強化の概要�
 
 >[!BEGINTABS]
 
->[!TAB 最新の更新]
+>[!TAB 最新のアップデート]
 
-最新のJourney Optimizerの機能と改善点をリリースノートでご確認ください。
+Journey Optimizer の最新機能と改善点について詳しくは、リリースノートを参照してください。
 
 [![詳細情報](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
 
->[!TAB  コンテキストデータの反復処理 ]
+>[!TAB コンテキストデータの反復処理]
 
-イテレーション構文を使用して、イベント、カスタムアクション応答、その他のコンテキストデータなど、メッセージ内の様々なソースのデータの動的リストを表示する方法について説明します。
+反復構文を使用して、イベント、カスタムアクション応答、他のコンテキストデータなど、様々なソースからのデータの動的なリストをメッセージに表示する方法について説明します。
 
 [![詳細情報](using/assets/do-not-localize/learn-more-button.svg)](using/personalization/iterate-contextual-data.md)
 
@@ -56,7 +56,7 @@ Journey Optimizer に、ブランド主導のバッチキャンペーン専用�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 最新のリリースノート
 
@@ -66,7 +66,7 @@ Adobe Journey Optimizer の最新リリースノート、新機能および機�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 基本を学ぶ
 
@@ -76,7 +76,7 @@ Adobe Journey Optimizer の最新リリースノート、新機能および機�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 包括的なジャーニーガイド
 
@@ -86,7 +86,7 @@ Adobe Journey Optimizer の最新リリースノート、新機能および機�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 キャンペーンの理解と管理
 
@@ -96,7 +96,7 @@ Adobe Journey Optimizer の最新リリースノート、新機能および機�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 通信チャネル
 
@@ -106,7 +106,7 @@ Adobe Journey Optimizer の最新リリースノート、新機能および機�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 競合管理と優先順位付け
 

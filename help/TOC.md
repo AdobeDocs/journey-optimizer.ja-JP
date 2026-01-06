@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 8ea2a0fe685678d41004d549443a1757eb30c765
 workflow-type: tm+mt
 source-wordcount: '3037'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -32,27 +32,27 @@ ht-degree: 96%
    + [ジャーニーキャンバスの向上](using/rn/new-canvas.md)
 + 基本を学ぶ {#get-started}
    + [基本を学ぶ](/help/rp_landing_pages/get-started-landing-page.md)
-   + 初期設定 {#essentials}
-      + [Journey Optimizerとは](using/start/get-started.md)
+   + 基本事項 {#essentials}
+      + [Journey Optimizer とは](using/start/get-started.md)
       + [仕組みについて](using/start/understanding-ajo.md)
       + [主な用語](using/start/terminology.md)
       + [ガードレールと制限](using/start/guardrails.md)
-   + 役割別に開始 {#by-role}
-      + [学習パスを選択](using/start/quick-start.md)
+   + はじめに（役割別） {#by-role}
+      + [学習パスの選択](using/start/quick-start.md)
       + [マーケター向けの基本を学ぶ](using/start/path/marketer.md)
       + [データエンジニア向けの基本を学ぶ](using/start/path/data-engineer.md)
       + [管理者向けの基本を学ぶ](using/start/path/administrator.md)
       + [開発者向けの基本を学ぶ](using/start/path/developer.md)
-   + 効率的に作業する {#work-efficiently}
+   + 効率的な作業 {#work-efficiently}
       + [インターフェイスの操作](using/start/user-interface.md)
-      + [検索、フィルタリング、整理](using/start/search-filter-categorize.md)
+      + [検索、フィルター、整理](using/start/search-filter-categorize.md)
       + [AI とインテリジェント機能](using/start/ai-features.md)
       + [アクセシビリティ](using/start/accessibility.md)
       + [ジャーニーとキャンペーン](using/start/journeys-vs-campaigns.md)
 + ジャーニー {#orchestrate-journeys}
    + [ジャーニーの基本を学ぶ](using/building-journeys/journey.md)
    + [ジャーニーの種類と選択ガイド](using/building-journeys/journey-types-selection.md)
-   + [Journey Orchestrationに関する FAQ](using/building-journeys/journey-faq.md)
+   + [Journey Orchestration に関する FAQ](using/building-journeys/journey-faq.md)
    + ジャーニーの作成 {#create-journey}
       + [ジャーニーの作成](/help/rp_landing_pages/create-journey-landing-page.md)
       + [最初のジャーニーを作成](using/building-journeys/journey-gs.md)
@@ -202,9 +202,9 @@ ht-degree: 96%
          + [テスト](using/orchestrated/activities/test.md)
          + [待機](using/orchestrated/activities/wait.md)
       + ユースケースを通じて学ぶ {#use-cases}
-         + [ウィッシュリスト項目の更新を送信](using/orchestrated/wishlist-uc.md)
-         + [ブラウジングアクティビティで顧客を引き付ける](using/orchestrated/engage-customers-uc.md)
-         + [製品の可用性をユーザーに通知](using/orchestrated/product-availability-uc.md)
+         + [ウィッシュリスト項目の更新の送信](using/orchestrated/wishlist-uc.md)
+         + [参照アクティビティによる顧客との関与](using/orchestrated/engage-customers-uc.md)
+         + [製品の可用性に関するユーザーへの通知](using/orchestrated/product-availability-uc.md)
 + 競合と優先順位付け {#conflict-prioritization}
    + [競合管理と優先順位付け](/help/rp_landing_pages/conflict-prioritization-landing-page.md)
    + [競合管理と優先順位付けの基本を学ぶ](using/conflict-prioritization/gs-conflict-prioritization.md)
@@ -408,7 +408,7 @@ ht-degree: 96%
       + [パーソナライゼーションの概要](using/personalization/personalize.md)
       + [パーソナライゼーションの追加](using/personalization/personalization-build-expressions.md)
       + [パーソナライゼーション構文](using/personalization/personalization-syntax.md)
-      + [コンテキストデータの反復](using/personalization/iterate-contextual-data.md)
+      + [コンテキストデータの反復処理](using/personalization/iterate-contextual-data.md)
       + [式フラグメントの再利用](using/personalization/use-expression-fragments.md)
       + [Adobe Experience Platform データをパーソナライゼーションに使用](using/personalization/aep-data-perso.md)
       + ヘルパー関数リスト {#functions}
@@ -483,8 +483,8 @@ ht-degree: 96%
       + [コンテンツ生成用 AI アシスタント](/help/rp_landing_pages/ai-assistant-landing-page.md)
       + [AI アシスタントの基本を学ぶ](using/content-management/gs-generative.md)
       + [AI プロンプトのベストプラクティス](using/content-management/ai-assistant-prompting-guide.md)
-      + [AI を使用して完全なコンテンツを生成](using/content-management/generative-full-content.md)
-      + [AI を使用してテキストを生成](using/content-management/generative-text.md)
+      + [AI を使用した完全なコンテンツの生成](using/content-management/generative-full-content.md)
+      + [AI を使用したテキストの生成](using/content-management/generative-text.md)
       + [AI を使用した画像の生成](using/content-management/generative-image.md)
       + [AI によるコンテンツ実験](using/content-management/generative-experimentation.md)
       + [AI アシスタントのユースケース](using/content-management/generative-uc.md)
@@ -634,8 +634,8 @@ ht-degree: 96%
          + プレースメント {#placements}
             + [プレースメントの作成](using/experience-decisioning/api-reference/exd-placements/create.md)
             + [プレースメントリスト](using/experience-decisioning/api-reference/exd-placements/exd-placements-list.md)
-            + [プレースメントを検索](using/experience-decisioning/api-reference/exd-placements/lookup.md)
-            + [プレースメントを更新](using/experience-decisioning/api-reference/exd-placements/update.md)
+            + [プレースメントの参照](using/experience-decisioning/api-reference/exd-placements/lookup.md)
+            + [プレースメントの更新](using/experience-decisioning/api-reference/exd-placements/update.md)
       + 決定項目の管理 {#manage-decision-items}
          + [決定項目の管理](/help/rp_landing_pages/manage-decision-items-landing-page.md)
          + [項目カタログの設定](using/experience-decisioning/catalogs.md)
@@ -697,7 +697,7 @@ ht-degree: 96%
          + [オファーの作成と管理](/help/rp_landing_pages/managing-offers-in-the-offer-library-landing-page.md)
          + オファーの設定 {#configure-offers}
             + [オファーの設定](/help/rp_landing_pages/configure-offers-landing-page.md)
-            + [パーソナライズされたオファーの作成](using/offers/offer-library/creating-personalized-offers.md)
+            + [パーソナライズされたオファーを作成](using/offers/offer-library/creating-personalized-offers.md)
             + [表示域を追加](using/offers/offer-library/add-representations.md)
             + [制約を追加](using/offers/offer-library/add-constraints.md)
          + [フォールバックオファーを作成](using/offers/offer-library/creating-fallback-offers.md)
@@ -929,7 +929,7 @@ ht-degree: 96%
    + [プライバシー](/help/rp_landing_pages/privacy-landing-page.md)
    + [プライバシーの基本を学ぶ](using/privacy/get-started-privacy.md)
    + [プライバシーリクエスト](using/privacy/requests.md)
-   + [&#x200B; リソースに対する監査アクション](using/privacy/audit-logs.md)
+   + [ リソースに対する監査アクション](using/privacy/audit-logs.md)
    + [データライフサイクル操作の実行](using/privacy/data-hygiene.md)
    + 同意を管理 {#consent}
       + [同意を管理](/help/rp_landing_pages/consent-landing-page.md)
