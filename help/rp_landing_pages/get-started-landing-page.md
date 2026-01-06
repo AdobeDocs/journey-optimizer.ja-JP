@@ -6,9 +6,9 @@ description: Adobe Journey Optimizer の基本を学ぶ
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
 source-git-commit: 5ff7987c00afda3263cb97654967c5b698f726c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '587'
-ht-degree: 11%
+ht-degree: 100%
 
 ---
 
@@ -16,101 +16,101 @@ ht-degree: 11%
 
 Adobe Journey Optimizer を使用すると、すべてのチャネルをまたいでパーソナライズされたリアルタイムのカスタマーエクスペリエンスを提供できます。適切なメッセージを適切なタイミングで提供することで、お客様の現在の状況に対応します。
 
-Journey Optimizerを初めて使用する場合でも、スキルを広げたい経験豊富なユーザーでも、このセクションでは、すばやく効果的に使い始めるために必要なすべてを提供します。
+Journey Optimizer を初めて使用する場合でも、スキルの拡張を目指している経験豊富なユーザーでも、この節では、すばやく効果的に開始するのに必要なすべての情報を提供します。
 
-## 初期設定から始める {#essentials}
+## 基本事項を学ぶ {#essentials}
 
-Adobe Journey Optimizerの基本と、データ駆動型パーソナライゼーションを大規模に実現する方法について説明します。
+Adobe Journey Optimizer の基本と、大規模なデータ駆動型パーソナライゼーションを実現する方法について説明します。
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
-Journey Optimizerとは
+Journey Optimizer とは
 
-主な機能、ユースケース、Journey Optimizerによるパーソナライズされたカスタマーエクスペリエンスの提供方法を説明します。
+コア機能、ユースケース、Journey Optimizer がパーソナライズされたカスタマーエクスペリエンスを提供する仕組みについて説明します。
 
-[基本を学ぶ](../using/start/get-started.md)
+[基本の詳細情報](../using/start/get-started.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 仕組みについて
 
-Journey OptimizerとAdobe Experience Platformの統合方法、およびその主要な機能領域が連携する仕組みについて説明します。
+Journey Optimizer が Adobe Experience Platform と統合される仕組みと、主な機能領域が連携する仕組みについて説明します。
 
-[アーキテクチャの参照](../using/start/understanding-ajo.md)
+[アーキテクチャの探索](../using/start/understanding-ajo.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list.svg)
 
 主な用語
 
-Journey Optimizerを自信を持ってナビゲートするのに役立つ基本的な用語と概念。
+Journey Optimizer を自信を持って操作するのに役立つ基本的な用語と概念。
 
-[用語を確認](../using/start/terminology.md)
+[用語の確認](../using/start/terminology.md)
 :::
 
 ::::
 
-## 学習パスを選択 {#by-role}
+## 学習パスの選択 {#by-role}
 
-自分の責任と目標に合わせた役割固有のガイダンスの基本を学びます。
+責務と目標に合わせてカスタマイズされた役割固有のガイダンスの基本を学びます。
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/user.svg)
 
 マーケター向け
 
-カスタマージャーニーを設計し、キャンペーンを作成し、コンテンツをパーソナライズしてオーディエンスを引き付けます。
+カスタマージャーニーのデザイン、キャンペーンの作成、コンテンツのパーソナライズを行って、オーディエンスに関与します。
 
-[マーケターとしての開始](../using/start/path/marketer.md)
+[マーケター向けの基本を学ぶ](../using/start/path/marketer.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 データエンジニア向け
 
 データ構造を設定し、スキーマとデータセットを管理し、データ品質を確保します。
 
-[データエンジニアとしての開始](../using/start/path/data-engineer.md)
+[データエンジニア向けの基本を学ぶ](../using/start/path/data-engineer.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 管理者向け
 
-組織の環境の設定、権限の管理およびチャネルの設定を行います。
+組織の環境を設定し、権限を管理し、チャネルを設定します。
 
-[管理者として開始](../using/start/path/administrator.md)
+[管理者向けの基本を学ぶ](../using/start/path/administrator.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 開発者向け
 
-モバイルアプリの統合、web SDK の実装、イベントの設定、カスタム統合の構築を行います。
+モバイルアプリの統合、web SDK の実装、イベントの設定、カスタム統合の作成を行います。
 
-[開発者としての開始](../using/start/path/developer.md)
+[開発者向けの基本を学ぶ](../using/start/path/developer.md)
 :::
 
 ::::
 
-[自分に合った役割がわからない場合 迅速な評価を行う→](../using/start/quick-start.md)
+[自分に合った役割がわからないですか？迅速な評価を行う →](../using/start/quick-start.md)
 
-## 効率的に作業する {#work-efficiently}
+## 効率的な作業 {#work-efficiently}
 
-インターフェイスをマスターし、インテリジェントな機能を活用して作業を高速化します。
+インターフェイスを習得し、インテリジェントな機能を活用して作業を高速化します。
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 インターフェイスの操作
 
@@ -120,66 +120,66 @@ Journey Optimizer インターフェイスの使用方法、主な機能への�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 検索と整理
 
-検索、フィルター、タグを使用して、ジャーニー、キャンペーンおよびコンテンツを効率的に管理します。
+検索、フィルター、タグを使用して、ジャーニー、キャンペーン、コンテンツを効率的に管理します。
 
-[マスター検索](../using/start/search-filter-categorize.md)
+[検索の習得](../using/start/search-filter-categorize.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 AI とインテリジェント機能
 
-AI が、コンテンツの作成、送信時間の最適化、よりスマートな意思決定にどのように役立つかをご確認ください。
+AI がコンテンツの作成、送信時間の最適化、よりスマートな意思決定に役立つ仕組みについて説明します。
 
-[AI 機能の調査](../using/start/ai-features.md)
+[AI 機能の探索](../using/start/ai-features.md)
 :::
 
 ::::
 
 ## その他のリソース {#additional-resources}
 
-### リファレンスとベストプラクティス
+### 環境設定とベストプラクティス
 
-* **[ガードレールと制限事項](../using/start/guardrails.md)** - Journey Optimizerの機能を効果的に使用するための制約と推奨事項について
-* **[アクセシビリティ機能](../using/start/accessibility.md)** – すべてのユーザーにインクルーシブ性を確保するためのアクセシビリティ機能と WCAG コンプライアンスについて説明します
-* **[トラブルシューティングガイド](../using/start/troubleshooting.md)** – よくある質問への回答と、一般的な問題の解決策を示します
+* **[ガードレールと制限](../using/start/guardrails.md)** - Journey Optimizer の機能を効果的に使用するための制約と推奨プラクティスについて説明します
+* **[アクセシビリティ機能](../using/start/accessibility.md)** - すべてのユーザーの包括性を確保するアクセシビリティ機能と WCAG コンプライアンスについて説明します
+* **[トラブルシューティングガイド](../using/start/troubleshooting.md)** - よくある質問への回答と一般的な問題の解決策を見つけます
 
-### ラーニングとサポートの利用
+### 学習とサポートの利用
 
-* **[チュートリアルビデオ &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=ja){target="_blank"}** - コア機能を説明するステップバイステップのビデオチュートリアル
-* **[ユースケースプレイブック](../using/start/ai-features.md#playbooks)** – 放棄された買い物かごの回復やようこそキャンペーンなどの一般的なシナリオ用の事前定義済みワークフロー
-* **[監視とトラブルシューティング](troubleshoot-journey-landing-page.md)** - パフォーマンスの追跡、問題の特定、問題の迅速な解決を行うツール
-* **[新機能](../using/rn/release-notes.md)** – 最新の機能、改善点、修正点を常に把握できます。
-* **[コミュニティフォーラム &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"}** – 他のユーザーとつながり、質問し、ベストプラクティスを共有します
-* **[ドキュメントの更新](../using/rn/documentation-updates.md)** - ドキュメントに対する最近の変更や追加について常に情報を提供します
+* **[チュートリアルビデオ](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=ja){target="_blank"}** - コア機能に対応するステップバイステップのビデオチュートリアル
+* **[ユースケースプレイブック](../using/start/ai-features.md#playbooks)** - 放棄された買い物かごの復元やウェルカムキャンペーンなどの一般的なシナリオ用の事前定義済みワークフロー
+* **[監視とトラブルシューティング](troubleshoot-journey-landing-page.md)** - パフォーマンスを追跡し、問題を特定し、迅速に解決するためのツール
+* **[新機能](../using/rn/release-notes.md)** - 最新の機能、改善点、修正点を取得します
+* **[コミュニティフォーラム](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}** - 他のユーザーとつながり、質問し、ベストプラクティスを共有します
+* **[ドキュメントの更新](../using/rn/documentation-updates.md)** - ドキュメントの最近の変更と追加に関する最新情報を取得します
 
-## 始める準備はよろしいでしょうか。
+## 開始する準備は整いましたか？
 
-自分に合ったパスを選択してください。
+自分に合った次のパスを選択します。
 
-* **Journey Optimizerを初めて使用する場合** Journey Optimizerとは [基本を理解する &#x200B;](../using/start/get-started.md) 法
-* **自分の役割を知っている場合** 自分の責任に合った [&#x200B; 役割固有のガイド &#x200B;](../using/start/quick-start.md) に移動する
-* **探索しますか？**&#x200B;[AI 機能を参照するか &#x200B;](../using/start/ai-features.md) ユースケースプレイブック [&#x200B; を試してください &#x200B;](../using/start/ai-features.md#playbooks)
-* **サポートが必要な場合** トラブルシューティングガイド [&#x200B; を確認するか、](../using/start/troubleshooting.md) コミュニティフォーラム [&#x200B; にアクセスしてくださ &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"}。
+* **Journey Optimizer を初めて使用しますか？**&#x200B;まずは [Journey Optimizer とは](../using/start/get-started.md)から基本を理解します
+* **自分の役割を知っていますか？**&#x200B;自分の責務に該当する[役割固有のガイド](../using/start/quick-start.md)を参照してださい。
+* **探索しますか？**[AI 機能](../using/start/ai-features.md)を参照するか、[ユースケースプレイブック](../using/start/ai-features.md#playbooks)を試してください
+* **サポートが必要ですか？**[トラブルシューティングガイド](../using/start/troubleshooting.md)を確認するか、[コミュニティフォーラム](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}にアクセスしてください。
 
 ## クイックリンク {#quick-links}
 
-次の重要なガイドを使用して、すぐに作成を開始します。
+次の基本的なガイドを使用して、すぐに作成を開始します。
 
 | タスク | ガイド |
 |------|-------|
-| 最初のジャーニーを作成 | [ジャーニー作成ガイド &#x200B;](../using/building-journeys/journey-gs.md) |
-| 最初のキャンペーンを送信 | [Campaign 作成ガイド &#x200B;](../using/campaigns/get-started-with-campaigns.md) |
-| メールのデザイン | [&#x200B; メールデザインガイド &#x200B;](../using/email/get-started-email-design.md) |
-| オーディエンスの作成 | [&#x200B; オーディエンス作成ガイド &#x200B;](../using/audience/creating-a-segment-definition.md) |
-| チャネルを設定 | [&#x200B; チャネル設定ガイド &#x200B;](../using/configuration/get-started-configuration.md) |
-| パーソナライズされたオファーの作成 | [&#x200B; 意思決定管理ガイド &#x200B;](../using/offers/get-started/starting-offer-decisioning.md) |
+| 最初のジャーニーを作成 | [ジャーニー作成ガイド](../using/building-journeys/journey-gs.md) |
+| 最初のキャンペーンを送信 | [キャンペーン作成ガイド](../using/campaigns/get-started-with-campaigns.md) |
+| メールをデザイン | [メールデザインガイド](../using/email/get-started-email-design.md) |
+| オーディエンスを作成 | [オーディエンス作成ガイド](../using/audience/creating-a-segment-definition.md) |
+| チャネルを設定 | [チャネル設定ガイド](../using/configuration/get-started-configuration.md) |
+| パーソナライズされたオファーを作成 | [意思決定管理ガイド](../using/offers/get-started/starting-offer-decisioning.md) |
 
 >[!NOTE]
 >
->お使いの環境で使用できるコンポーネントと機能は、[&#x200B; 権限 &#x200B;](../using/administration/permissions.md) および [&#x200B; ライセンスパッケージ &#x200B;](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} によって異なります。 具体的な設定については、Adobe カスタマーサクセスマネージャーにお問い合わせください。
+>環境で使用できるコンポーネントと機能は、[権限](../using/administration/permissions.md)と[ライセンスパッケージ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}によって異なります。特定の設定に関する質問について詳しくは、Adobe カスタマーサクセスマネージャーにお問い合わせください。

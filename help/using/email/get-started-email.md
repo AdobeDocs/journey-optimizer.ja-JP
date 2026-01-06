@@ -10,7 +10,7 @@ level: Beginner
 keywords: メール, 開始, 作成, プレビュー
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
 source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '295'
 ht-degree: 100%
 

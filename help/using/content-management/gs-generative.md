@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '866'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -132,7 +132,7 @@ Adobe Journey Optimizer の AI アシスタントには、次の制限が適用�
 <img alt="完全なコンテンツ生成" src="assets/do-not-localize/email-genai.jpeg">
 </a>
 <div>
-<a href="generative-full-content.md"><strong> 完全なコンテンツを生成 </strong></a>
+<a href="generative-full-content.md"><strong>完全なコンテンツの生成</strong></a>
 </div>
 <p>
 </td>
@@ -140,7 +140,7 @@ Adobe Journey Optimizer の AI アシスタントには、次の制限が適用�
 <a href="generative-text.md">
 <img alt="テキスト生成" src="assets/do-not-localize/text-genai.jpeg">
 </a>
-<div><a href="generative-text.md"><strong> テキストを生成 </strong>
+<div><a href="generative-text.md"><strong>テキストの生成</strong>
 </div>
 <p>
 </td>
@@ -149,7 +149,7 @@ Adobe Journey Optimizer の AI アシスタントには、次の制限が適用�
 <img alt="画像生成" src="assets/do-not-localize/image-genai.jpeg">
 </a>
 <div>
-<a href="generative-image.md"><strong> 画像の生成 </strong></a>
+<a href="generative-image.md"><strong>画像の生成</strong></a>
 </div>
 <p></td>
 </tr></table>
@@ -157,5 +157,5 @@ Adobe Journey Optimizer の AI アシスタントには、次の制限が適用�
 ## その他のリソース
 
 * **[生成実験](generative-experimentation.md)** - AI 生成コンテンツと実験を組み合わせる方法について説明します。
-* **[AI アシスタントのユースケース](generative-uc.md)** - AI アシスタントの使用方法に関するユースケースを説明します。
+* **[AI アシスタントのユースケース](generative-uc.md)** - AI アシスタントを使用する方法について、ユースケースを通じて説明します。
 * **[AI アシスタントのチュートリアル](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/ai-assistant){target="_blank"}** - AI アシスタントの機能とベストプラクティスに関するステップバイステップのビデオチュートリアルを参照してください。
