@@ -2,27 +2,35 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: コンテンツのプレビューとテスト
-description: コンテンツのプレビューとテスト
+description: ローンチ前にメッセージの正確性を検証します。 テストプロファイルでパーソナライズされたコンテンツをプレビューし、関係者に配達確認を送信し、複数のクライアント間でのメールのレンダリングを確認し、スパムスコアを評価し、複数のコンテンツのバリエーションを効率的にテストします。
 redpen-status: CREATED_||_2025-08-11_20-30-05
 exl-id: bd78e0af-573b-4880-a9f1-44467c9db159
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 6b83b015dfd74da9eb58bd06958d0963d81c6489
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 100%
+source-wordcount: '657'
+ht-degree: 23%
 
 ---
 
 # コンテンツのプレビューとテスト{#section-overview}
 
-Adobe Journey Optimizer でコンテンツをプレビューおよびテストすることで、メッセージが正確でパーソナライズされていることを確認でき、配信準備が完了します。メールのレンダリングの微調整、コンテンツのバリエーションのシミュレーション、スパムスコアの分析などの各ツールを使用して、オーディエンスにリーチする前にエラーを特定し、パフォーマンスを最適化できます。テストプロファイル、サンプル入力データ、配達確認を使用してコンテンツを検証する方法や、メールのレンダリングをテストするための Litmus などのツールを統合する方法についても説明します。この節では段階的なガイドとベストプラクティスを参照しながら、受信者に合わせて調整された効果的なキャンペーンを自信を持って作成する方法について説明します。
+>[!BEGINSHADEBOX]
+
+**目的：** キャンペーンおよびジャーニー用のローンチ前検証ツール\
+**プライマリユーザー：** キャンペーンマネージャー、電子メールマーケター、コンテンツ作成者\
+**主な成果：** 顧客配信前のエラーのキャッチ
+
+>[!ENDSHADEBOX]
+
+顧客に到達する前にエラーをキャッチすることで、完璧なメッセージ配信を確保します。 コンテンツのプレビューでは、様々な顧客プロファイルをまたいでパーソナライゼーションの正確性を検証します。一方、テストツールでは、エンゲージメントに影響を与える可能性のある、レンダリングの問題、スパムリスクおよびコンテンツのバリエーションが明らかになります。 包括的な機能にアクセスして、アクティベーション前に関係者に配達確認を送信、サンプルデータを使用したパーソナライゼーションをシミュレート、クライアント間でのメールのレンダリングを確認、配信品質指標を評価します。 これらの検証手法をマスターにして、ブランドレピュテーションを保護し、インボックスの配置を最大化し、一貫して優れたカスタマーエクスペリエンスを提供します。
 
 ## コンテンツのプレビューとテスト
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-Adobe Journey Optimizer でコンテンツをプレビューおよびテストする方法
+コンテンツのプレビューとテストの方法
 
 テストプロファイルとサンプル入力データを使用して、コンテンツをプレビューおよびテストし、配達確認を送信し、パーソナライゼーションの精度を確保する方法について説明します。
 
@@ -30,9 +38,9 @@ Adobe Journey Optimizer でコンテンツをプレビューおよびテスト�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-Adobe Journey Optimizer でテストプロファイルを選択する方法
+テストプロファイルの選択方法
 
 テストプロファイルを選択および管理して、パーソナライズされたコンテンツを効果的にプレビューおよびテストする方法について説明します。
 
@@ -40,7 +48,7 @@ Adobe Journey Optimizer でテストプロファイルを選択する方法
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 テストプロファイルを使用したコンテンツのプレビュー
 
@@ -50,7 +58,7 @@ Adobe Journey Optimizer でテストプロファイルを選択する方法
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 テストプロファイルデータを使用した本配信前確認の送信
 
@@ -60,9 +68,9 @@ Adobe Journey Optimizer でテストプロファイルを選択する方法
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg)
 
-Adobe Journey Optimizer で Litmus を使用してメールのレンダリングをテストする方法
+Litmus を使用してメールのレンダリングをテストする方法
 
 Litmus を統合して、一般的なメールクライアント全体のメールのレンダリングをプレビューし、適切に表示されることを確認します。
 
@@ -70,9 +78,9 @@ Litmus を統合して、一般的なメールクライアント全体のメー�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
-Adobe Journey Optimizer でコンテンツのバリエーションをシミュレートおよびテストする方法
+コンテンツのバリエーションのシミュレーションおよびテスト方法
 
 サンプル入力データを使用してコンテンツのバリエーションをシミュレートし、パーソナライズされたコンテンツをテストして正確性を確保します。
 
@@ -81,7 +89,57 @@ Adobe Journey Optimizer でコンテンツのバリエーションをシミュ�
 
 ::::
 
+## クイック決定ガイド
+
+**コンテキスト：** この表では、テストの目標をAdobe Journey Optimizerの特定のツールにマッピングします。
+
+目標に基づいてテストアプローチを選択します。
+
+| **必要に応じて…** | **このツールを使用する** |
+|----------------------|-------------------|
+| パーソナライゼーションが正しく表示されることを確認します | [テストプロファイル](../using/content-management/test-profiles.md) |
+| 10 種類以上のコンテンツのバリエーションをすばやくテスト | [サンプル入力データ](../using/test-approve/simulate-sample-input.md) |
+| 送信前に関係者の承認を取得 | [ 配達確認の送信 ](../using/content-management/proofs.md) |
+| Gmail、Outlook、Apple Mail 全体でのメール表示の確認 | [Litmus レンダリング ](../using/content-management/rendering.md) |
+| インボックス配置の改善 | [ スパムレポート ](../using/content-management/spam-report.md) |
+| すべてのバリエーションを一度にプレビュー | [ プレビューモード ](../using/content-management/preview.md) |
+
+## ワークフローチェックリストのテスト
+
+**コンテキスト：** すべてのチャネル（メール、SMS、プッシュ、web、アプリ内）に適用できる推奨の 5 段階のテストシーケンス。
+
+包括的な検証を行うには、次の手順に従います。
+
+1. **プレビュー** - テストプロファイルを使用して、パーソナライゼーションのレンダリングが正しいことを確認します
+2. **バリエーションのテスト** - サンプルデータを CSV/JSON 形式でアップロードして、複数のシナリオを検証します
+3. **配信品質の確認** （メール） – スパムレポートとレンダリングテストの実行
+4. **配達確認の送信** - レビューおよび承認のために関係者と共有
+5. **最終チェック** – すべてのリンク、画像、CTA が正しく機能することを確認します
+
+**ヒント：** エッジケースを見つけるために、異なる顧客セグメント（高価値、新規、非アクティブ）を表すプロファイルを少なくとも 3 つ使用してテストします。
+
+## 一般的なシナリオ
+
+**コンテキスト：** 一般的なユースケースでテストツールを適用する方法を示す、実際の例。
+
+**シナリオ 1：マルチセグメントキャンペーン用のパーソナライズされたメールのテスト**
+→ [ サンプル入力データ ](../using/test-approve/simulate-sample-input.md) を使用して、個々のテストプロファイルを作成せずに 20～30 のバリエーションをテストします。 様々な顧客属性の CSV をアップロードし、すべてを一度にプレビューします。
+
+**シナリオ 2：メジャー送信前のメールのレンダリングの検証**
+[Litmus テスト ](../using/content-management/rendering.md) を実行→て上位のメールクライアント全体で表示を確認してから、[ スパムレポート ](../using/content-management/spam-report.md) をチェックしてインボックスが配置されていることを確認します。
+
+**シナリオ 3：関係者のサインオフを取得する**
+テストプロファイルデータを使用して、内部レビュー担当者に [ 配達確認の送信 ](../using/content-management/proofs.md) を→行し、顧客が受け取る内容が正確に確認できるようにします。
+
+## 重要ポイント
+
+- **テストプロファイル** は、パーソナライズされたコンテンツをプレビューするために不可欠です。10 以上のバリエーションを効率的にテストするには、サンプル入力データを使用します
+- **メール固有のツール** には、レンダリングテスト（Litmus）、スパムレポート、配達確認が含まれます
+- **推奨シーケンス：** プレビュー→テストバリエーション →配信品質の確認→配達確認の送信→最終チェック
+- **時間を節約：** 個々のテストプロファイルを作成する代わりに、顧客属性を含んだ CSV/JSON をアップロードします
 
 ## その他のリソース
 
-- **[Adobe Journey Optimizer でメールスパムレポートを使用する方法](../using/content-management/spam-report.md)** - スパムレポート機能を使用して、メールコンテンツのスパムスコアを評価し、配信品質を向上させます。
+- **[メールスパムレポートの使用方法](../using/content-management/spam-report.md)** - スパムレポート機能を使用して、メールコンテンツのスパムスコアを評価し、配信品質を向上させます。
+
+**関連トピック：**[ ランディングページのテストと承認 ](test-landing-page.md) | [ 承認ワークフロー ](approve-landing-page.md) | [ テストプロファイルの作成 ](../using/audience/creating-test-profiles.md)
