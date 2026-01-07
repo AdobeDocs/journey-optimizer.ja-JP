@@ -28,7 +28,7 @@ ht-degree: 23%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 コンテンツのプレビューとテストの方法
 
@@ -38,7 +38,7 @@ ht-degree: 23%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 テストプロファイルの選択方法
 
@@ -48,7 +48,7 @@ ht-degree: 23%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 テストプロファイルを使用したコンテンツのプレビュー
 
@@ -58,7 +58,7 @@ ht-degree: 23%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ja)
 
 テストプロファイルデータを使用した本配信前確認の送信
 
@@ -68,7 +68,7 @@ ht-degree: 23%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg?lang=ja)
 
 Litmus を使用してメールのレンダリングをテストする方法
 
@@ -78,7 +78,7 @@ Litmus を統合して、一般的なメールクライアント全体のメー�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 コンテンツのバリエーションのシミュレーションおよびテスト方法
 
