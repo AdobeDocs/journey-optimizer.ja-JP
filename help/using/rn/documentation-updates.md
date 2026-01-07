@@ -25,7 +25,7 @@ ht-degree: 89%
 
 * パーソナライゼーション構文のドキュメントに、パーソナライゼーション式での予約済みキーワードの使用方法を明確にする新しい節が追加されました。 XDM スキーマのフィールド名として使用する場合、`next`、`last`、`this` などの特定のPQL キーワードは、バッククォートでエスケープする必要があります。 [詳細情報](../personalization/personalization-syntax.md#reserved-keywords)
 
-* [ キャンペーンの基本を学ぶ ](../campaigns/get-started-with-campaigns.md) ページと [ キャンペーンを管理 ](../campaigns/manage-campaigns.md) ページが再構築され、情報アーキテクチャが改善されました。これには、タイプ固有のガイドを含む包括的なワークフロー、強化されたキャンペーンタイプの比較、統合されたステータステーブルが含まれています。
+* [&#x200B; キャンペーンの基本を学ぶ &#x200B;](../campaigns/get-started-with-campaigns.md) ページと [&#x200B; キャンペーンを管理 &#x200B;](../campaigns/manage-campaigns.md) ページが再構築され、情報アーキテクチャが改善されました。これには、タイプ固有のガイドを含む包括的なワークフロー、強化されたキャンペーンタイプの比較、統合されたステータステーブルが含まれています。
 
 * ジャーニーランディングページの設計が一新され、新しい 6 ステップワークフローによるオンボーディング、ジャーニータイプの比較の強化、ドキュメント全体でのナビゲーションの改善が促進されました。 [詳細情報](../building-journeys/journey.md)
 
@@ -63,7 +63,7 @@ ht-degree: 89%
 
 * 「パス実験」の節に、パス実験のメタデータを公開後に編集しないようにユーザーに警告するメモが追加されました。編集すると、実験結果の計算とレポートが中断されます。[詳細情報](../building-journeys/optimize.md#experimentation)
 
-*  選択ドロップダウンリストに表示されるストリーミング接続の要件を指定するメモが、「フォームプリセットの作成」の節に追加されました。[詳細情報](../landing-pages/lp-forms.md#create-form-preset)
+* 選択ドロップダウンリストに表示されるストリーミング接続の要件を指定するメモが、「フォームプリセットの作成」の節に追加されました。[詳細情報](../landing-pages/lp-forms.md#create-form-preset)
 
 * インプレッション数、クリック数およびカスタムイベントをトラッキングするためのデータ収集の設定方法に関する新しいページが、決定の節で使用できるようになりました。 [詳細情報](../experience-decisioning/data-collection/schema-requirement.md)
 
@@ -180,7 +180,7 @@ ht-degree: 89%
 
 * スキーマの概要ドキュメントに、オーケストレーションキャンペーンに使用される標準スキーマとリレーショナルスキーマを区別する情報が追加されました。[詳細情報](../data/gs-data.md)
 
-* [ 自動最適化 ](../experience-decisioning/ranking/auto-optimization-model.md) および [ パーソナライズされた最適化 ](../experience-decisioning/ranking/personalized-optimization-model.md) モデルを正常にトレーニングするための要件に関する情報が、意思決定および意思決定管理のドキュメントに追加されました。
+* [&#x200B; 自動最適化 &#x200B;](../experience-decisioning/ranking/auto-optimization-model.md) および [&#x200B; パーソナライズされた最適化 &#x200B;](../experience-decisioning/ranking/personalized-optimization-model.md) モデルを正常にトレーニングするための要件に関する情報が、意思決定および意思決定管理のドキュメントに追加されました。
 
 * Interactive Message Execution REST API 呼び出しには 60 秒のタイムアウトがあり、配信を確実に実行する内部再試行が行われることを明確にしました。[詳細情報](../campaigns/trigger-campaigns.md)
 
