@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: サブドメイン, google, txt, レコード, gmail, 配信品質
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
-source-git-commit: e89bec74f597185065b274d22740324a09e9319e
+source-git-commit: a23f13bea69d1539cc2cd27a701e20287ddba026
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '285'
 ht-degree: 75%
 
 ---
@@ -30,6 +30,8 @@ TXT レコードは、ドメインに関するテキスト情報を提供する�
 >[!CAUTION]
 >
 > この操作は、サブドメインのステータスが&#x200B;**[!UICONTROL 成功]**&#x200B;の場合にのみ実行できます。サブドメインのステータスについて詳しくは、[この節](delegate-subdomain.md#access-delegated-subdomains)を参照してください。
+
+## Google TXT レコードの追加 {#add-google-txt-record}
 
 サブドメインに Google TXT レコードを追加するには、次の手順に従います。
 
