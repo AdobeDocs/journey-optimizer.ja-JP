@@ -99,10 +99,10 @@ Litmus を統合して、一般的なメールクライアント全体のメー�
 |----------------------|-------------------|
 | パーソナライゼーションが正しく表示されることを確認します | [テストプロファイル](../using/content-management/test-profiles.md) |
 | 10 種類以上のコンテンツのバリエーションをすばやくテスト | [サンプル入力データ](../using/test-approve/simulate-sample-input.md) |
-| 送信前に関係者の承認を取得 | [ 配達確認の送信 ](../using/content-management/proofs.md) |
-| Gmail、Outlook、Apple Mail 全体でのメール表示の確認 | [Litmus レンダリング ](../using/content-management/rendering.md) |
-| インボックス配置の改善 | [ スパムレポート ](../using/content-management/spam-report.md) |
-| すべてのバリエーションを一度にプレビュー | [ プレビューモード ](../using/content-management/preview.md) |
+| 送信前に関係者の承認を取得 | [&#x200B; 配達確認の送信 &#x200B;](../using/content-management/proofs.md) |
+| Gmail、Outlook、Apple Mail 全体でのメール表示の確認 | [Litmus レンダリング &#x200B;](../using/content-management/rendering.md) |
+| インボックス配置の改善 | [&#x200B; スパムレポート &#x200B;](../using/content-management/spam-report.md) |
+| すべてのバリエーションを一度にプレビュー | [&#x200B; プレビューモード &#x200B;](../using/content-management/preview.md) |
 
 ## ワークフローチェックリストのテスト
 
@@ -123,13 +123,13 @@ Litmus を統合して、一般的なメールクライアント全体のメー�
 **コンテキスト：** 一般的なユースケースでテストツールを適用する方法を示す、実際の例。
 
 **シナリオ 1：マルチセグメントキャンペーン用のパーソナライズされたメールのテスト**
-→ [ サンプル入力データ ](../using/test-approve/simulate-sample-input.md) を使用して、個々のテストプロファイルを作成せずに 20～30 のバリエーションをテストします。 様々な顧客属性の CSV をアップロードし、すべてを一度にプレビューします。
+→ [&#x200B; サンプル入力データ &#x200B;](../using/test-approve/simulate-sample-input.md) を使用して、個々のテストプロファイルを作成せずに 20～30 のバリエーションをテストします。 様々な顧客属性の CSV をアップロードし、すべてを一度にプレビューします。
 
 **シナリオ 2：メジャー送信前のメールのレンダリングの検証**
-[Litmus テスト ](../using/content-management/rendering.md) を実行→て上位のメールクライアント全体で表示を確認してから、[ スパムレポート ](../using/content-management/spam-report.md) をチェックしてインボックスが配置されていることを確認します。
+[Litmus テスト &#x200B;](../using/content-management/rendering.md) を実行→て上位のメールクライアント全体で表示を確認してから、[&#x200B; スパムレポート &#x200B;](../using/content-management/spam-report.md) をチェックしてインボックスが配置されていることを確認します。
 
 **シナリオ 3：関係者のサインオフを取得する**
-テストプロファイルデータを使用して、内部レビュー担当者に [ 配達確認の送信 ](../using/content-management/proofs.md) を→行し、顧客が受け取る内容が正確に確認できるようにします。
+テストプロファイルデータを使用して、内部レビュー担当者に [&#x200B; 配達確認の送信 &#x200B;](../using/content-management/proofs.md) を→行し、顧客が受け取る内容が正確に確認できるようにします。
 
 ## 重要ポイント
 
@@ -142,4 +142,4 @@ Litmus を統合して、一般的なメールクライアント全体のメー�
 
 - **[メールスパムレポートの使用方法](../using/content-management/spam-report.md)** - スパムレポート機能を使用して、メールコンテンツのスパムスコアを評価し、配信品質を向上させます。
 
-**関連トピック：**[ ランディングページのテストと承認 ](test-landing-page.md) | [ 承認ワークフロー ](approve-landing-page.md) | [ テストプロファイルの作成 ](../using/audience/creating-test-profiles.md)
+**関連トピック：**&#x200B;[&#x200B; ランディングページのテストと承認 &#x200B;](test-landing-page.md) | [&#x200B; 承認ワークフロー &#x200B;](approve-landing-page.md) | [&#x200B; テストプロファイルの作成 &#x200B;](../using/audience/creating-test-profiles.md)
