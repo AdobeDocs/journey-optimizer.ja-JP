@@ -1,21 +1,21 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: フラグメントの作成
+title: フラグメントを作成
 description: フラグメントを作成して、Journey Optimizer のキャンペーンとジャーニーでコンテンツを再利用する方法について説明します
 feature: Fragments
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: b0b786203d176c3d817f28e1f4cef1f31eda4640
-workflow-type: ht
-source-wordcount: '758'
-ht-degree: 100%
+source-git-commit: bb5d69d748b7283297d19f43ab0fc54c46d5d303
+workflow-type: tm+mt
+source-wordcount: '787'
+ht-degree: 96%
 
 ---
 
-# フラグメントの作成 {#create-fragments}
+# フラグメントを作成 {#create-fragments}
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_visual_fragment"
@@ -67,7 +67,7 @@ ht-degree: 100%
 >
 >[コンテキスト属性](../personalization/personalization-build-expressions.md)は、フラグメント内ではサポートされていません。
 >
->ジャーニーまたはキャンペーンでトラッキングが有効になっている場合、フラグメントにリンクを追加し、このフラグメントがメッセージで使用されていると、メッセージに含まれる他のすべてのリンクと同様に、これらのリンクが追跡されます。[リンクとトラッキングの詳細情報](../email/message-tracking.md)
+>ジャーニーまたはキャンペーンでトラッキングが有効になっている場合、フラグメントにリンクを追加し、このフラグメントがメッセージで使用されていると、メッセージに含まれる他のすべてのリンクなど、これらのリンクを追跡します。[リンクとトラッキングの詳細情報](../email/message-tracking.md)
 
 * ビジュアルフラグメントの場合は、ジャーニーやキャンペーン内のメールと同じ方法で、必要に応じてコンテンツを編集します。[詳細情報](../email/get-started-email-design.md)
 
@@ -119,3 +119,7 @@ ht-degree: 100%
 
 * [ビジュアルフラグメントの使用方法を学ぶ](../email/use-visual-fragments.md)
 * [式フラグメントの使用方法を学ぶ](../personalization/use-expression-fragments.md)
+
+>[!CAUTION]
+>
+>公開した後は、新しいパーソナライズされた属性をライブフラグメントに追加することはできません。 パーソナライゼーション属性を追加する場合は、フラグメントを複製する必要があります。 [詳細情報](manage-fragments.md#adding-new-attributes)
