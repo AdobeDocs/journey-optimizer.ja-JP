@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: サブドメイン, Optimizer, デリゲーション
 exl-id: 1b5ca4db-44d9-49e2-ab39-a1abba223ec7
-source-git-commit: 1746efa82611d232b5af07b271739417b4e36e8c
-workflow-type: ht
-source-wordcount: '982'
-ht-degree: 100%
+source-git-commit: ab29af6861e8fc1137fbbffd99b9576afa7e04f5
+workflow-type: tm+mt
+source-wordcount: '984'
+ht-degree: 86%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 >title="デリゲートされたサブドメインがこちらに表示されます。"
 >abstract="最初のサブドメインをデリゲートします。 デリゲーションが完了すると、PTR レコードが作成され、メールチャネルが有効になります。"
 
-メールキャンペーン用のサブドメインを作成すると、異なるタイプのトラフィック（マーケティングと企業など）を特定の IP プールと特定のドメインに分離できるので、IP ウォーミングプロセスが加速し、全体の配信品質が向上します。
+メールジャーニーとキャンペーン用のサブドメインを作成すると、異なるタイプのトラフィック（マーケティング/企業など）を特定の IP プールと特定のドメインに分離できるので、IP ウォーミングプロセスが加速し、全体の配信品質が向上します。
 
 ドメインを共有している場合、そのドメインがブロックされたり、ブロックリストに追加されたりすると、会社のメール配信に影響を与える可能性があります。ただし、メールマーケティングのやりとりに固有のドメインを使用していると、ドメインに関するレピュテーション問題やブロックが与える影響は、そのドメインのメールのフローにとどまります。メインドメインを複数のメールストリームの送信者や「送信元」アドレスとして使用すると、メールの認証が機能せず、メッセージがブロックされたり、スパムフォルダーに仕分けられたりする可能性があります。
 
@@ -54,13 +54,13 @@ ht-degree: 100%
 
 ## サブドメインの設定方法 {#subdomain-delegation-methods}
 
-サブドメイン設定を使用すると、Adobe Campaign で使用するドメインのサブセクション（技術的には「DNS ゾーン」）を設定できます。
+サブドメイン設定を使用すると、Adobe Journey Optimizerで使用するためにドメインのサブセクション（技術的には「DNS ゾーン」）を設定できます。
 
 利用できる設定メソッドを次に示します。
 
 ### サブドメインのアドビへの完全なデリゲート（推奨） {#full-subdomain-delegation}
 
-[!DNL Journey Optimizer] では、サブドメインを製品インターフェイスから直接アドビに、完全にデリゲートできます。アドビは、メールキャンペーンの配信、レンダリング、トラッキングに必要な DNS のあらゆる側面を制御および管理することで、メッセージをマネージドサービスとして提供できます。
+[!DNL Journey Optimizer] では、サブドメインを製品インターフェイスから直接アドビに、完全にデリゲートできます。これにより、Adobeは、配信、レンダリング、トラッキングに必要な DNS のあらゆる側面を制御および管理することで、メッセージをマネージドサービスとして提供できます。
 
 <!--The subdomain is fully delegated to Adobe. Adobe is able to control and maintain all aspects of DNS that are required for delivering, rendering and tracking messages.-->
 
@@ -100,14 +100,14 @@ CNAME を使用してサブドメインを作成しアドビ固有のレコー�
 <!--
 | Configuration method | How it works | Level of effort |
 |---|---|---|
-| **Full delegation** | Create the subdomain and namespace record. Adobe will then configure all DNS records required for Adobe Campaign.<br/><br/>In this setup, Adobe is fully responsible for managing the subdomain and all the DNS records. | Low |
-| **CNAME method** |  Create the subdomain and namespace record. Adobe will then provide the records to be placed in your DNS servers and will configure the corresponding values in Adobe Campaign DNS servers.<br/><br/>In this setup, both you and Adobe share responsibility for maintaining DNS. | High |-->
+| **Full delegation** | Create the subdomain and namespace record. Adobe will then configure all DNS records required for Adobe Journey Optimizer.<br/><br/>In this setup, Adobe is fully responsible for managing the subdomain and all the DNS records. | Low |
+| **CNAME method** |  Create the subdomain and namespace record. Adobe will then provide the records to be placed in your DNS servers and will configure the corresponding values in Adobe Journey Optimizer DNS servers.<br/><br/>In this setup, both you and Adobe share responsibility for maintaining DNS. | High |-->
 
 
 | 設定方法 | 仕組み | 労力のレベル |
 |---|---|---|
-| **完全なデリゲーション** | サブドメインと名前空間レコードを作成します。次に、アドビは Adobe Campaign に必要なすべての DNS レコードを設定します。<br/><br/>この設定では、アドビは、サブドメインとすべての DNS レコードを管理するすべての責任を負います。 | 低 |
-| **CNAME メソッド** | サブドメインと名前空間レコードを作成します。次に、アドビは、DNS サーバーに配置されるレコードを提供し、対応する値を Adobe Campaign DNS サーバーに設定します。<br/><br/>この設定では、お客様とアドビの両方が DNS の維持に対する責任を共有します。 | 高 |
+| **完全なデリゲーション** | サブドメインと名前空間レコードを作成します。次に、Adobeは、Adobe Journey Optimizerに必要なすべての DNS レコードを設定します。<br/><br/>この設定では、アドビは、サブドメインとすべての DNS レコードを管理するすべての責任を負います。 | 低 |
+| **CNAME メソッド** | サブドメインと名前空間レコードを作成します。Adobeは、DNS サーバーに配置するレコードを提供し、Adobe Journey Optimizer DNS サーバーで対応する値を設定します。<br/><br/>この設定では、お客様とアドビの両方が DNS の維持に対する責任を共有します。 | 高 |
 | **カスタムデリゲーションメソッド** | サブドメインと名前空間レコードを作成 - 次に、アドビは、DNS サーバーに配置されるレコードを提供します。 認証局から取得した SSL 証明書をアップロードし、ドメインの所有権を確認してメールアドレスを報告し、フィードバックループの手順を完了します。<br/><br/>この設定では、お客様が DNS の維持に対するすべての責任を負います。 | 非常に高い |
 
 ドメイン設定について詳しくは、[このドキュメント](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html?lang=ja){target="_blank"}を参照してください。
