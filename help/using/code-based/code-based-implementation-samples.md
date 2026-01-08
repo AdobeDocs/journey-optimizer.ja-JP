@@ -6,10 +6,10 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
-source-git-commit: 0cdc5dce00d2240b2de6c4cba1648b4517323cce
+source-git-commit: cd31c50de91593348744ead8042e480a2f1164de
 workflow-type: tm+mt
-source-wordcount: '814'
-ht-degree: 84%
+source-wordcount: '935'
+ht-degree: 73%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 84%
 
 >[!IMPORTANT]
 >
->[&#x200B; このリンク &#x200B;](https://github.com/adobe/alloy-samples/tree/main/ajo){target="_blank"} に従って、様々なパーソナライゼーションおよび実験のユースケース向けのサンプル実装を確認してください。 必要な実装手順とエンドツーエンドのパーソナライゼーションフローの仕組みをより深く理解するために、これらを確認および実行してください。
+>[ このリンク ](https://github.com/adobe/alloy-samples/tree/main/ajo){target="_blank"} に従って、様々なパーソナライゼーションおよび実験のユースケース向けのサンプル実装を確認してください。 必要な実装手順とエンドツーエンドのパーソナライゼーションフローの仕組みをより深く理解するために、これらを確認および実行してください。
 
-➡️ コードベースのエクスペリエンスと意思決定のための web SDKの設定について詳しくは、[&#x200B; これらのチュートリアル &#x200B;](code-based-decisioning-implementations.md#tutorials) を参照してください。
+➡️ コードベースのエクスペリエンスと意思決定のための web SDKの設定について詳しくは、[ これらのチュートリアル ](code-based-decisioning-implementations.md#tutorials) を参照してください。
 
 ## クライアントサイドの実装 {#client-side-implementation}
 
@@ -33,11 +33,11 @@ ht-degree: 84%
 
 * [以下](#client-side-how)の手順では、サンプル **Web SDK** 実装のコードベースのエクスペリエンスジャーニーとキャンペーンによってエッジに公開されたコンテンツを取得し、パーソナライズされたコンテンツを表示するプロセスについて説明します。
 
-* **Mobile SDK** を使用してコードベースのチャネルを実装する手順については、[&#x200B; このチュートリアル &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"} を参照してください。
+* **Mobile SDK** を使用してコードベースのチャネルを実装する手順については、[ このチュートリアル ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"} を参照してください。
 
   >[!NOTE]
   >
-  >モバイルユースケースのサンプル実装は、[iOS アプリ &#x200B;](https://github.com/adobe/aepsdk-messaging-ios/tree/main/TestApps/MessagingDemoAppSwiftUI){target="_blank"} および [Android アプリ &#x200B;](https://github.com/adobe/aepsdk-messaging-android/tree/main/code/testapp){target="_blank"} で利用できます。
+  >モバイルユースケースのサンプル実装は、[iOS アプリ ](https://github.com/adobe/aepsdk-messaging-ios/tree/main/TestApps/MessagingDemoAppSwiftUI){target="_blank"} および [Android アプリ ](https://github.com/adobe/aepsdk-messaging-android/tree/main/code/testapp){target="_blank"} で利用できます。
 
 ### 仕組み – Web SDK {#client-side-how}
 
@@ -308,7 +308,45 @@ Cookie は、ユーザー ID とクラスター情報を保持するために使
 ハイブリッド実装を使用している場合は、以下のリンクを確認してください。
 
 * Adobe テクニカルブログ：[Adobe Experience Platform Web SDKのハイブリッドPersonalization](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
-* SDK ドキュメント：[Web SDKとEdge Network Server API を使用したハイブリッドパーソナライゼーション &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html?lang=ja){target="_blank"}
+* SDK ドキュメント：[Web SDKとEdge Network Server API を使用したハイブリッドパーソナライゼーション ](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html?lang=ja){target="_blank"}
+
+## Adobe Experience Platform Assuranceを使用したEdge ネットワーク API 呼び出しのデバッグ {#debugging-edge-api-assurance}
+
+（Web SDKやモバイル SDKを使用せずに）コードベースのエクスペリエンスにEdge Network API を直接使用する場合は、Assurance セッション ID を検証トークンヘッダーとして含めることで、Adobe Experience Platform Assuranceを使用して API 呼び出しをデバッグできます。
+
+1. アクティブなAssurance セッションからAdobe Experience Platform Assurance セッション ID を取得するか、Assurance API を使用して作成します。
+
+1. `x-adobe-aep-validation-token` ヘッダーをAssurance セッション ID に追加して、Assurance セッションを通じてEdge Network API リクエストをルーティングします。
+
+   **例：**
+
+   ```bash
+   curl -v 'https://edge.adobedc.net/ee/v1/interact?configId={DATASTREAM_ID}&requestId={REQUEST_ID}' \
+   --header 'Content-Type: application/json' \
+   --header 'x-adobe-aep-validation-token: {ASSURANCE_SESSION_ID}' \
+   --data-raw '{
+       "xdm": {
+         "identityMap": {
+               "ECID": [
+                   {
+                       "id": "{ECID_VALUE}"
+                   }
+               ]
+           }
+       },
+       "events": [
+           {
+               "xdm": {
+                   "eventType": "test",
+                   "timestamp": "{TIMESTAMP}"
+               }
+           }
+       ]
+   }'
+   ```
+
+1. 設定が完了したら、Assurance セッションを開き、**[!UICONTROL Edge Delivery]** ビューを選択して、リクエストペイロード、応答コンテンツ、パーソナライゼーションの提案、エラーメッセージなど、Edge Network API のリクエストと応答をリアルタイムで表示します。
+
 
 <!--
 ## Implementation guides and tutorials {#implementation-guides}
@@ -319,4 +357,4 @@ To help you get started with implementing code-based experiences, refer to the c
 
 * **Web SDK implementation**: Learn how to configure the Web SDK for decisioning and code-based experiences in [these tutorials](code-based-decisioning-implementations.md#tutorials).
 
-* **Decisioning implementation**: To learn how to implement decisioning capabilities on a code-based campaign, follow [this use case tutorial](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-uc){target="_blank"}.-->
+* **Decisioning implementation**: To learn how to implement decisioning capabilities on a code-based campaign, follow [this use case tutorial](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-uc){target="_blank"}.-->
