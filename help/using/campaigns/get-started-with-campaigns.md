@@ -10,9 +10,9 @@ level: Beginner
 mini-toc-levels: 1
 keywords: キャンペーン, 方法, 開始, Optimizer
 exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
-source-git-commit: 129c2af3a7a8db00c400f5c6e78530c0649d9896
+source-git-commit: 6c8649726f8faad0a9e4945778a3f9217f3627d8
 workflow-type: tm+mt
-source-wordcount: '1525'
+source-wordcount: '1513'
 ht-degree: 31%
 
 ---
@@ -101,7 +101,7 @@ Adobe Journey Optimizerを使用すると、複数のチャネルをまたいで
 
 ![](assets/gs-campaigns.png)
 
-➡️ **作成を開始する準備はできていますか？** 最初のキャンペーンを作成 [&#x200B; を数分で &#x200B;](create-campaign.md) 成します。
+➡️ **作成を開始する準備はできていますか？** 最初のキャンペーンを作成 [ を数分で ](create-campaign.md) 成します。
 
 ## キャンペーンタイプを選択 {#campaign-types}
 
@@ -119,7 +119,7 @@ Adobe Journey Optimizerを使用すると、複数のチャネルをまたいで
 
 **最適な対象：** 複数手順の顧客エンゲージメントプログラム、複雑なセグメント化およびターゲティング戦略、クロスチャネルキャンペーンオーケストレーション、大規模なブランド主導のマーケティング、複数の決定ポイントを備えた高度なワークフロー自動化。
 
-➡️[&#x200B; オーケストレートキャンペーンについて学ぶ &#x200B;](../orchestrated/gs-orchestrated-campaigns.md)
+➡️[ オーケストレートキャンペーンについて学ぶ ](../orchestrated/gs-orchestrated-campaigns.md)
 
 >[!TAB  アクションキャンペーン （スケジュール済み） ]
 
@@ -134,7 +134,7 @@ Adobe Journey Optimizerを使用すると、複数のチャネルをまたいで
 
 **最適な対象：** 顧客セグメントへの月次ニュースレター、時間依存のプロモーションのお知らせ、季節的なマーケティングキャンペーン、製品発売に関するお知らせ、サービス中断の通知など。
 
-➡️[&#x200B; アクションキャンペーンについて学ぶ &#x200B;](create-campaign.md)
+➡️[ アクションキャンペーンについて学ぶ ](create-campaign.md)
 
 >[!TAB API トリガーキャンペーン]
 
@@ -149,7 +149,7 @@ Adobe Journey Optimizerを使用すると、複数のチャネルをまたいで
 
 **最適な対象：** パスワードリセットの確認、買い物かごの放棄の回復、注文の確認と配送の更新、アカウントのアクティビティの通知、リアルタイムでパーソナライズされたレコメンデーション。
 
-➡️ [API トリガーキャンペーンについて学ぶ &#x200B;](api-triggered-campaigns.md)
+➡️ [API トリガーキャンペーンについて学ぶ ](api-triggered-campaigns.md)
 
 >[!ENDTABS]
 
@@ -157,111 +157,24 @@ Adobe Journey Optimizerを使用すると、複数のチャネルをまたいで
 >
 >どのタイプを選択するか不明な場合は、 スケジュールされたバッチ通信用の **アクションキャンペーン** またはリアルタイムメッセージ用の **API トリガーキャンペーン** から開始します。これらは、最も一般的なユースケースをカバーしています。
 
-## キャンペーン作成ワークフロー {#workflow}
-
-成功するキャンペーンを作成するには、明確で繰り返し可能なプロセスに従います。 ステップバイステップのワークフローを次に示します。
-
-+++ &#x200B;1. キャンペーンの計画
-
-開始する前に、目的を明確にします。
-
-* **目標は何ですか？** （例：コンバージョンの促進、エンゲージメントの向上、顧客への通知）
-* **観客はだれですか。** （例：Adobe Experience Platformからビルドまたは選択）
-* **適合するキャンペーンタイプはどれですか？** （上記の [&#x200B; キャンペーンタイプ &#x200B;](#campaign-types) を参照）
-* **どのチャネルを使用しますか？** （メール、プッシュ、SMS、アプリ内、web など）→[&#x200B; キャンペーンタイプ別のサポートされるチャネルを参照 &#x200B;](../channels/gs-channels.md#channels)
-* **実行するタイミング** （即時、スケジュール済みまたは API トリガー）
-
-+++
-
-+++キャンペーンプロパティの設定
-
-キャンペーンの基盤を設定します。
-
-1. **名前と説明** キャンペーンを識別しやすくします
-2. **キャンペーンタイプを選択** （アクション、API トリガー、オーケストレーションのいずれか）
-3. **オーディエンスの選択**
-4. **優先度を設定** （競合管理を使用する場合）
-5. **スケジュールの設定** （アクションキャンペーンの場合）または API の詳細（API トリガーの場合）
-
-**タイプ固有のガイド：**&#x200B;[&#x200B; アクションキャンペーンのプロパティ &#x200B;](campaign-properties.md) | [API トリガー型キャンペーンプロパティ &#x200B;](api-triggered-campaign-properties.md) | [&#x200B; キャンペーン設定を調整 &#x200B;](../orchestrated/create-orchestrated-campaign.md)
-
-+++
-
-+++コンテンツのデザイン
-
-オーディエンスに魅力的なメッセージを作成します。
-
-* リッチなメールエクスペリエンスには **メールDesigner** を使用します
-* 画像とディープリンクを使用した **プッシュ通知** の設定
-* パーソナライゼーションを使用した **SMS/MMS メッセージ** のデザイン
-* **アプリ内** エクスペリエンスと **web** エクスペリエンスの作成
-* プロファイル属性とコンテキストデータを使用した **パーソナライゼーション** の追加
-
-**タイプ固有のガイド：**&#x200B;[&#x200B; アクションキャンペーンコンテンツ &#x200B;](campaign-content.md) | [API トリガー型キャンペーンコンテンツ &#x200B;](api-triggered-campaign-content.md) | [&#x200B; キャンペーンコンテンツの調整 &#x200B;](../orchestrated/create-orchestrated-campaign.md)
-
-+++
-
-+++レビューとテスト
-
-アクティブ化の前にキャンペーンを常に確認してください。
-
-* テストプロファイルを使用した **コンテンツのプレビュー**
-* **ターゲティングを確認** して、適切なオーディエンスを確保します
-* **スケジュールとアクティブ化** 設定の確認
-* **承認をリクエスト** 承認ワークフローを使用している場合
-* シードリストを使用した **配信品質のテスト**
-
-**タイプ固有のガイド：**&#x200B;[&#x200B; アクションキャンペーンのレビュー &#x200B;](review-activate-campaign.md) | [API トリガーキャンペーンのレビュー &#x200B;](review-activate-api-triggered-campaign.md) | [&#x200B; 調整されたキャンペーンのレビュー &#x200B;](../orchestrated/create-orchestrated-campaign.md)
-
-+++
-
-+++キャンペーンのアクティブ化
-
-レビューが完了したら、キャンペーンをアクティブ化します。
-
-* **手動アクティベーション** – 即時またはスケジュールされた時間にアクティブ化します
-* **API アクティベーション** - API トリガーキャンペーンの場合は、アクティベーションエンドポイントを使用します
-* **承認プロセス** – 必要に応じて、関係者の承認を待ちます
-
-注意：アクティブなキャンペーンは編集できません（変更するには複製する必要があります）
-
-**タイプ固有のガイド：**&#x200B;[&#x200B; アクションキャンペーンのアクティブ化 &#x200B;](review-activate-campaign.md) | [API トリガーキャンペーンのアクティブ化 &#x200B;](review-activate-api-triggered-campaign.md) | [&#x200B; オーケストレーションされたキャンペーンのアクティブ化 &#x200B;](../orchestrated/create-orchestrated-campaign.md)
-
-+++
-
-+++監視と分析
-
-キャンペーンのパフォーマンスを追跡：
-
-* キャンペーンレポートと分析の表示
-* 配信率とエンゲージメント指標の監視
-* エラーとバウンスの追跡
-* コンバージョンと ROI の分析
-* 最適化のためのインサイトの使用
-
-**タイプ固有のガイド：**&#x200B;[&#x200B; アクションキャンペーンレポート &#x200B;](../reports/campaign-global-report-cja.md) | [API トリガーキャンペーン監視 &#x200B;](api-triggered-campaigns.md#monitor) | [&#x200B; キャンペーン分析の調整 &#x200B;](../orchestrated/create-orchestrated-campaign.md)
-
-+++
-
-➡️ **開始する準備ができましたか？** キャンペーンタイプを選択します。
-* [アクションキャンペーン→ールの作成](create-campaign.md)
-* [API トリガーキャンペーン→ールの作成](api-triggered-campaigns.md)
-* [オーケストレーションされたキャンペーン→の作成](../orchestrated/gs-orchestrated-campaigns.md)
-
 ## 前提条件 {#prerequisites}
 
 キャンペーンを使用する前に、次の点を確認します。
 
-* **オーディエンス** - キャンペーンを作成する前に、オーディエンスをAdobe Experience Platformで使用できる必要があります。 [&#x200B; オーディエンス→ースの基本を学ぶ &#x200B;](../audience/about-audiences.md)
+* **オーディエンス** - キャンペーンを作成する前に、オーディエンスをAdobe Experience Platformで使用できる必要があります。 [ オーディエンス→ースの基本を学ぶ ](../audience/about-audiences.md)
 
-* **チャネル設定** - チャネル設定（プリセット）を作成し、使用するチャネルで使用可能にする必要があります。 [&#x200B; チャネル設定のセットアップ→](../configuration/channel-surfaces.md)
+* **チャネル設定** - チャネル設定（プリセット）を作成し、使用するチャネルで使用可能にする必要があります。 [ チャネル設定のセットアップ→](../configuration/channel-surfaces.md)
 
-* **権限** - キャンペーンタイプに基づく適切な権限が必要です。 Campaign の機能にアクセスできない場合は、管理者にお問い合わせください。 [&#x200B; 組み込みの役割→ついて説明します &#x200B;](../administration/ootb-product-profiles.md)。
+* **権限** - キャンペーンタイプに基づく適切な権限が必要です。 Campaign の機能にアクセスできない場合は、管理者にお問い合わせください。 [ 組み込みの役割→ついて説明します ](../administration/ootb-product-profiles.md)。
+
+  +++キャンペーン権限リスト
 
   | キャンペーンタイプ | 権限 |
   |-------------|---------------|
   | **アクションキャンペーン** および **API トリガーキャンペーン** | キャンペーン管理者<br>キャンペーン承認者<br>キャンペーンマネージャー<br>キャンペーンビューアー |
   | **オーケストレーションキャンペーン** | オーケストレーションキャンペーン管理者<br>オーケストレーションキャンペーン承認者<br>オーケストレーションキャンペーンマネージャー<br>オーケストレーションキャンペーンビューアー |
+
+  +++
 
   +++キャンペーン権限の割り当て方法
 
@@ -277,14 +190,108 @@ Adobe Journey Optimizerを使用すると、複数のチャネルをまたいで
 
   +++
 
-## Campaign 機能 {#capabilities}
+## キャンペーン作成ワークフロー {#workflow}
+
+成功するキャンペーンを作成するには、明確で繰り返し可能なプロセスに従います。 ステップバイステップのワークフローを次に示します。
+
++++&#x200B;1. キャンペーンの計画
+
+開始する前に、目的を明確にします。
+
+* **目標は何ですか？** （例：コンバージョンの促進、エンゲージメントの向上、顧客への通知）
+* **観客はだれですか。** （例：Adobe Experience Platformからビルドまたは選択）
+* **適合するキャンペーンタイプはどれですか？** （上記の [ キャンペーンタイプ ](#campaign-types) を参照）
+* **どのチャネルを使用しますか？** （メール、プッシュ、SMS、アプリ内、web など）→[ キャンペーンタイプ別のサポートされるチャネルを参照 ](../channels/gs-channels.md#channels)
+* **実行するタイミング** （即時、スケジュール済みまたは API トリガー）
+
++++
+
++++&#x200B;2. キャンペーンプロパティの設定
+
+キャンペーンの基盤を設定します。
+
+1. **名前と説明** キャンペーンを識別しやすくします
+2. **キャンペーンタイプを選択** （アクション、API トリガー、オーケストレーションのいずれか）
+3. **オーディエンスの選択**
+4. **優先度を設定** （競合管理を使用する場合）
+5. **スケジュールの設定** （アクションキャンペーンの場合）または API の詳細（API トリガーの場合）
+
+**タイプ固有のガイド：**[ アクションキャンペーンのプロパティ ](campaign-properties.md) | [API トリガー型キャンペーンプロパティ ](api-triggered-campaign-properties.md) | [ キャンペーン設定を調整 ](../orchestrated/create-orchestrated-campaign.md)
+
++++
+
++++&#x200B;3. コンテンツのデザイン
+
+オーディエンスに魅力的なメッセージを作成します。
+
+* リッチなメールエクスペリエンスには **メールDesigner** を使用します
+* 画像とディープリンクを使用した **プッシュ通知** の設定
+* パーソナライゼーションを使用した **SMS/MMS メッセージ** のデザイン
+* **アプリ内** エクスペリエンスと **web** エクスペリエンスの作成
+* プロファイル属性とコンテキストデータを使用した **パーソナライゼーション** の追加
+
+**タイプ固有のガイド：**[ アクションキャンペーンコンテンツ ](campaign-content.md) | [API トリガー型キャンペーンコンテンツ ](api-triggered-campaign-content.md) | [ キャンペーンコンテンツの調整 ](../orchestrated/create-orchestrated-campaign.md)
+
++++
+
++++4.確認とテスト
+
+アクティブ化の前にキャンペーンを常に確認してください。
+
+* テストプロファイルを使用した **コンテンツのプレビュー**
+* **ターゲティングを確認** して、適切なオーディエンスを確保します
+* **スケジュールとアクティブ化** 設定の確認
+* **承認をリクエスト** 承認ワークフローを使用している場合
+* シードリストを使用した **配信品質のテスト**
+
+**タイプ固有のガイド：**[ アクションキャンペーンのレビュー ](review-activate-campaign.md) | [API トリガーキャンペーンのレビュー ](review-activate-api-triggered-campaign.md) | [ 調整されたキャンペーンのレビュー ](../orchestrated/create-orchestrated-campaign.md)
+
++++
+
++++&#x200B;5. キャンペーンのアクティブ化
+
+レビューが完了したら、キャンペーンをアクティブ化します。
+
+* **手動アクティベーション** – 即時またはスケジュールされた時間にアクティブ化します
+* **API アクティベーション** - API トリガーキャンペーンの場合は、アクティベーションエンドポイントを使用します
+* **承認プロセス** – 必要に応じて、関係者の承認を待ちます
+
+注意：アクティブなキャンペーンは編集できません（変更するには複製する必要があります）
+
+**タイプ固有のガイド：**[ アクションキャンペーンのアクティブ化 ](review-activate-campaign.md) | [API トリガーキャンペーンのアクティブ化 ](review-activate-api-triggered-campaign.md) | [ オーケストレーションされたキャンペーンのアクティブ化 ](../orchestrated/create-orchestrated-campaign.md)
+
++++
+
++++6.監視と分析
+
+キャンペーンのパフォーマンスを追跡：
+
+* キャンペーンレポートと分析の表示
+* 配信率とエンゲージメント指標の監視
+* エラーとバウンスの追跡
+* コンバージョンと ROI の分析
+* 最適化のためのインサイトの使用
+
+**タイプ固有のガイド：**[ アクションキャンペーンレポート ](../reports/campaign-global-report-cja.md) | [API トリガーキャンペーン監視 ](api-triggered-campaigns.md#monitor) | [ キャンペーン分析の調整 ](../orchestrated/create-orchestrated-campaign.md)
+
++++
+
+## さらに深く掘り下げましょう {#get-started-types}
+
+これで [!DNL Journey Optimizer] でキャンペーンを理解できたので、開始するにはキャンペーンタイプを選択します。
+
+<table style="table-layout:fixed"><tr style="border: 0; text-align: center;">
+<td><a href="create-campaign.md"><img width="70%" alt="アクションキャンペーン" src="assets/do-not-localize/gs-action-campaign.png"></a><br/><a href="create-campaign.md">アクションキャンペーン</a></td>
+<td><a href="api-triggered-campaigns.md"><img width="70%" alt="SMS" src="assets/do-not-localize/gs-api-triggered-campaign.png"></a><br/><a href="api-triggered-campaigns.md">API トリガーキャンペーン</a></td>
+<td><a href="../orchestrated/gs-orchestrated-campaigns.md"><img width="70%" alt="プッシュ" src="assets/do-not-localize/gs-orchestrated-campaign.png"></a><a href="../orchestrated/gs-orchestrated-campaigns.md">調整されたキャンペーン</a></td>
+</tr></table>
 
 キャンペーンに慣れたら、次の強力な機能を探索します。
 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **スケジュールとタイミング**
 
@@ -294,7 +301,7 @@ Adobe Journey Optimizerを使用すると、複数のチャネルをまたいで
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **レートコントロール**
 
@@ -304,7 +311,7 @@ Adobe Journey Optimizerを使用すると、複数のチャネルをまたいで
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **オーディエンスのターゲティング**
 
@@ -314,7 +321,7 @@ Adobe Journey Optimizerを使用すると、複数のチャネルをまたいで
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **承認ワークフロー**
 
@@ -324,7 +331,7 @@ Adobe Journey Optimizerを使用すると、複数のチャネルをまたいで
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **通知のない時間帯**
 
@@ -334,7 +341,7 @@ Adobe Journey Optimizerを使用すると、複数のチャネルをまたいで
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **最適化**
 
@@ -344,13 +351,3 @@ Adobe Journey Optimizerを使用すると、複数のチャネルをまたいで
 :::
 
 ::::
-
-## キャンペーンタイプの基本を学ぶ {#get-started-types}
-
-これで [!DNL Journey Optimizer] でキャンペーンを理解できたので、開始するにはキャンペーンタイプを選択します。
-
-<table style="table-layout:fixed"><tr style="border: 0; text-align: center;">
-<td><a href="create-campaign.md"><img width="70%" alt="アクションキャンペーン" src="assets/do-not-localize/gs-action-campaign.png"></a><br/><a href="create-campaign.md">アクションキャンペーン</a></td>
-<td><a href="api-triggered-campaigns.md"><img width="70%" alt="SMS" src="assets/do-not-localize/gs-api-triggered-campaign.png"></a><br/><a href="api-triggered-campaigns.md">API トリガーキャンペーン</a></td>
-<td><a href="../orchestrated/gs-orchestrated-campaigns.md"><img width="70%" alt="プッシュ" src="assets/do-not-localize/gs-orchestrated-campaign.png"></a><a href="../orchestrated/gs-orchestrated-campaigns.md">調整されたキャンペーン</a></td>
-</tr></table>
