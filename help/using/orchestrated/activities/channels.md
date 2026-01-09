@@ -5,10 +5,10 @@ title: 複数の手順のキャンペーンでのチャネルアクティビテ�
 description: 複数の手順のキャンペーンでのチャネルアクティビティの追加方法について説明します。
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: ed00ef1f9aad7a9baf16b806e1cbffae677b2a91
+source-git-commit: 5fea202c36720f58cc5610446ff0273ce891a17a
 workflow-type: tm+mt
-source-wordcount: '1124'
-ht-degree: 100%
+source-wordcount: '1126'
+ht-degree: 84%
 
 ---
 
@@ -18,17 +18,17 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_email"
 >title="メールアクティビティ"
->abstract="メールアクティビティを使用すると、調整されたキャンペーン内で、1 回限りのメッセージと繰り返しメッセージの両方でメールを送信できます。これは、調整された同じキャンペーン内で計算されたターゲットにメールを送信するプロセスを自動化するのに役立ちます。チャネルアクティビティを複数の手順のキャンペーンキャンバスに組み合わせて、顧客の行動とデータに基づいてアクションをトリガーできるクロスチャネルキャンペーンを作成できます。"
+>abstract="メール アクティビティを使用すると、1 回限りのメッセージと繰り返しメッセージの両方について、オーケストレートキャンペーン内でメールを送信できます。 これは、調整された同じキャンペーン内で計算されたターゲットにメールを送信するプロセスを自動化するのに役立ちます。チャネルアクティビティを複数の手順のキャンペーンキャンバスに組み合わせて、顧客の行動とデータに基づいてアクションをトリガーできるクロスチャネルキャンペーンを作成できます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_sms"
 >title="SMS アクティビティ"
->abstract="SMS アクティビティを使用すると、調整されたキャンペーン内で、1 回限りのメッセージと繰り返しメッセージで SMS を送信できます。これは、調整された同じキャンペーン内で計算されたターゲットに SMS を送信するプロセスを自動化するのに役立ちます。チャネルアクティビティを複数の手順のキャンペーンキャンバスに組み合わせて、顧客の行動とデータに基づいてアクションをトリガーできるクロスチャネルキャンペーンを作成できます。"
+>abstract="SMS アクティビティを使用すると、1 回限りのメッセージと繰り返しメッセージの両方について、オーケストレートキャンペーン内で SMS を送信できます。 これは、調整された同じキャンペーン内で計算されたターゲットに SMS を送信するプロセスを自動化するのに役立ちます。チャネルアクティビティを複数の手順のキャンペーンキャンバスに組み合わせて、顧客の行動とデータに基づいてアクションをトリガーできるクロスチャネルキャンペーンを作成できます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push"
 >title="プッシュアクティビティ"
->abstract="プッシュアクティビティを使用すると、調整されたキャンペーンの一部としてプッシュ通知を送信できます。これにより、1 回限りのキャンペーンと調整された繰り返しのキャンペーンの両方の配信が可能になり、調整された同じキャンペーン内の定義済みターゲットへのプッシュ通知の送信が自動化されます。チャネルアクティビティをキャンペーンキャンバスに組み合わせて、顧客の行動とデータに基づいてアクションをトリガーできるクロスチャネルキャンペーンを作成できます。"
+>abstract="プッシュ アクティビティを使用すると、オーケストレーションされたキャンペーンの一部としてプッシュ通知を送信できます。 1 回限りのキャンペーンと繰り返しのオーケストレートキャンペーンの両方を配信でき、同じオーケストレートキャンペーン内の事前定義済みターゲットにプッシュ通知を自動的に送信できます。 チャネルアクティビティをキャンペーンキャンバスに組み合わせて、顧客の行動とデータに基づいてアクションをトリガーできるクロスチャネルキャンペーンを作成できます。"
 
 <!--
 UNUSED IDs in BJ
@@ -36,12 +36,12 @@ UNUSED IDs in BJ
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push_ios"
 >title="Push iOS activity"
->abstract="The Push iOS activity let you send iOS Push notifications as part of your Orchestrated campaign. It enables the delivery of both one-time and recurring Orchestrated campaigns, automating the sending iOS Push notifications to a predefined target within the same workflow. You can combine channel activities into the campaign canvas to create cross-channel campaigns that can trigger actions based on customer behavior and data."
+>abstract="The Push iOS activity lets you send iOS Push notifications as part of your Orchestrated campaign. It enables the delivery of both one-time and recurring Orchestrated campaigns, automating the sending of iOS Push notifications to a predefined target within the same workflow. You can combine channel activities into the campaign canvas to create cross-channel campaigns that can trigger actions based on customer behavior and data."
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_push_android"
 >title="Push Android activity"
->abstract="The Push Android activity ket you send Android Push notifications as part of your Orchestrated campaign. It enables the delivery of both one-time and recurring messages, automating the sending Android Push notifications to a predefined target within the same Orchestrated campaign. You can combine channel activities into the Orchestrated campaign canvas to create cross-channel campaigns that can trigger actions based on customer behavior and data."
+>abstract="The Push Android activity lets you send Android Push notifications as part of your Orchestrated campaign. It enables the delivery of both one-time and recurring messages, automating the sending of Android Push notifications to a predefined target within the same Orchestrated campaign. You can combine channel activities into the Orchestrated campaign canvas to create cross-channel campaigns that can trigger actions based on customer behavior and data."
 
 -->
 
@@ -50,7 +50,7 @@ UNUSED IDs in BJ
 >title="ダイレクトメールアクティビティ"
 >abstract="ダイレクトメールアクティビティでは、調整されたキャンペーン内でのダイレクトメール送信が促進され、1 回限りのメッセージと繰り返しメッセージの両方を送信できます。これは、ダイレクトメールプロバイダーが必要とする抽出ファイルを生成するプロセスを自動化するのに役立ちます。チャネルアクティビティを調整されたキャンペーンキャンバスに組み合わせて、顧客の行動とデータに基づいてアクションをトリガーできるクロスチャネルキャンペーンを作成できます。"
 
-[!DNL Adobe Journey Optimizer] を使用すると、メール、SMS、プッシュ通知などのチャネルをまたいでマーケティングキャンペーンを自動化および実行できます。これらのチャネルアクティビティをキャンペーンキャンバスに組み合わせて、顧客の行動とデータに基づいてアクションをトリガーできるクロスチャネルの調整されたキャンペーンを作成できます。
+[!DNL Adobe Journey Optimizer] を使用すると、メール、SMS、プッシュ通知などのチャネルをまたいでマーケティングキャンペーンを自動化および実行できます。これらのチャネルアクティビティをキャンペーンキャンバスに組み合わせて、クロスチャネルのオーケストレートキャンペーンを作成できます。 これらのキャンペーンは、顧客の行動とデータに基づいてアクションのトリガーを設定できます。
 
 例：
 
@@ -100,7 +100,7 @@ UNUSED IDs in BJ
 
 1. **迅速配信モードを有効にする**（プッシュ）
 
-   迅速配信モードは、キャンペーンを通じて大量のプッシュメッセージを非常に高速に送信できるようにする [!DNL Journey Optimizer] アドオンです。迅速配信は、メッセージ配信の遅延がビジネス上の重要な問題になる状況で、携帯電話に緊急のプッシュアラートを送信するときに使用します（ニュースチャネルアプリをインストールしたユーザーにニュース速報を配信するなど）。プッシュ通知の迅速配信モードを有効にする方法について詳しくは、[このページ](../../push/create-push.md#rapid-delivery)を参照してください。
+   迅速配信モードは、キャンペーンを通じて大量のプッシュメッセージを非常に高速に送信できるようにする [!DNL Journey Optimizer] アドオンです。迅速配信は、メッセージ配信の遅延がビジネスにとって重要な場合に使用されます。 例えば、ニュースチャネルアプリをインストールしたユーザーにニュース速報を流すなど、携帯電話に緊急のプッシュアラートを送信するとします。 プッシュ通知の迅速配信モードを有効にする方法について詳しくは、[このページ](../../push/create-push.md#rapid-delivery)を参照してください。
 
    迅速配信モードを使用する際のパフォーマンスについて詳しくは、[Adobe Journey Optimizer 製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}を参照してください。
 
@@ -118,7 +118,7 @@ UNUSED IDs in BJ
 
 ## コンテンツの定義 {#content}
 
-「**[!UICONTROL コンテンツ]**」タブに切り替えて、メッセージを作成します。手順は、選択したチャネルによって異なります。メッセージコンテンツを作成する手順について詳しくは、次のページを参照してください。
+「**[!UICONTROL コンテンツ]**」タブに切り替えて、メッセージを作成します。プロセス手順は、選択したチャネルによって異なります。 メッセージコンテンツを作成する手順について詳しくは、次のページを参照してください。
 
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;" >
 <td><a href="../../email/create-email.md"><img alt="メール" src="../../channels/assets/do-not-localize/email.png"></a><br/><a href="../../email/create-email.md"><strong>メールの作成</strong></a></td>
@@ -128,7 +128,7 @@ UNUSED IDs in BJ
 
 ## パーソナライゼーションの追加
 
-調整されたキャンペーンのパーソナライゼーションは、他の **[!UICONTROL Journey Optimizer]** キャンペーンやジャーニーと同様に機能しますが、調整されたキャンバスに固有の重要な違いがいくつかあります。
+オーケストレートキャンペーンのPersonalizationは、他の **[!UICONTROL Journey Optimizer]** キャンペーンやジャーニーと同様に機能します。 ただし、オーケストレーションされたキャンバスに固有の重要な違いがいくつかあります。
 
 調整されたキャンペーンからパーソナライゼーションエディターにアクセスすると、2 つのメインフォルダーに、以下に説明するパーソナライゼーションに使用できる属性が含まれます。
 
@@ -192,3 +192,4 @@ Email recipients are defined upstream of the activity in the same workflow, via 
 
 
 <!--The message preparation is triggered according to the workflow execution parameters. From the message dashboard, you can select whether to request or not a manual confirmation to send the message (required by default). You can start the workflow manually or place a scheduler activity in the workflow to automate execution.-->
+
