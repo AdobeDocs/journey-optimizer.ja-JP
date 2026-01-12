@@ -8,10 +8,10 @@ topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 0271dfdf9578921f48001f2bdcc0dbb15f785762
 workflow-type: tm+mt
-source-wordcount: '2216'
-ht-degree: 97%
+source-wordcount: '2102'
+ht-degree: 99%
 
 ---
 
@@ -91,7 +91,7 @@ ht-degree: 97%
 
 1. 「**[!UICONTROL 保存]**」をクリックして確認します。
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=ja#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## ジャーニーアラート {#journey-alerts}
 
@@ -158,37 +158,17 @@ ht-degree: 97%
 
 ### ジャーニーが公開されました {#alert-journey-published}
 
->[!AVAILABILITY]
->
->このアラートは現在、機能が制限された状態で使用できます。 このアラートを購読することはできますが、通知はまだ完全には動作していません。
-
 このアラートは、ジャーニーキャンバスで実務担当者がジャーニーを公開した際に通知します。
 
 これは、組織のジャーニーライフサイクルイベントを追跡するのに役立つ情報アラートです。これは 1 回限りの通知なので、解決条件はありません。
 
 ### ジャーニーが完了しました {#alert-journey-finished}
 
->[!AVAILABILITY]
->
->このアラートは現在、機能が制限された状態で使用できます。 このアラートを購読することはできますが、通知はまだ完全には動作していません。
-
-このアラートは、ジャーニーが完了した際に通知します。「完了」の定義は、ジャーニータイプによって異なります。
-
-| ジャーニータイプ | 繰り返し？ | 終了日はありますか？ | 「完了」の定義 |
-|--------------|------------|---------------|--------------------------|
-| オーディエンスを読み取り | × | 該当なし | 実行開始から 91 日後 |
-| オーディエンスを読み取り | ○ | × | 実行開始から 91 日後 |
-| オーディエンスを読み取り | ○ | ○ | 終了日に達した場合 |
-| イベントトリガージャーニー | 該当なし | ○ | 終了日に達した場合 |
-| イベントトリガージャーニー | 該当なし | × | UI または API 経由で閉じた場合 |
+このアラートは、ジャーニーが完了した際に通知します。「完了」の定義は、ジャーニーのタイプによって異なります。 [ ジャーニーが完了したと見なされるタイミングの詳細を説明します ](../building-journeys/end-journey.md#journey-finished-definition)。
 
 これは、ジャーニーの完了を追跡するのに役立つ情報アラートです。これは 1 回限りの通知なので、解決条件はありません。
 
 ### カスタムアクションのキャップがトリガーされました {#alert-custom-action-capping}
-
->[!AVAILABILITY]
->
->このアラートは現在、機能が制限された状態で使用できます。 このアラートを購読することはできますが、通知はまだ完全には動作していません。
 
 このアラートは、カスタムアクションでキャップ がトリガーされた際に警告します。キャップは、エンドポイントに過負荷がかかるのを防ぐために、外部エンドポイントに送信される呼び出しの数を制限するために使用されます。
 
