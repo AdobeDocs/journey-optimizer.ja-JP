@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: アクション, サードパーティ, カスタム, ジャーニー, API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
-source-git-commit: a67707e50960e4848197fa1bd39ce95af3ef14ab
+source-git-commit: 6976f2b1b8b95f7dc9bffe65b7a7ddcc5dab5474
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 94%
+source-wordcount: '681'
+ht-degree: 91%
 
 ---
 
@@ -216,11 +216,11 @@ currentActionField.description == "abc"
 
 カスタムアクションの応答ペイロードフィールドは、メッセージのパーソナライゼーション用にネイティブチャネル（メール、プッシュ、SMS）で使用できます。 これには、外部 API から返された配列とネストされたデータ構造を繰り返し処理する機能が含まれます。
 
-<!--For detailed examples and syntax for iterating over custom action response data in messages, refer to [Iterate over contextual data with Handlebars](../personalization/iterate-contextual-data.md#custom-action-responses).-->
+メッセージ内のカスタムアクション応答データを繰り返す詳細な例と構文については、[Handlebars を使用したコンテキストデータの繰り返し ](../personalization/iterate-contextual-data.md#custom-action-responses) を参照してください。
 
 ## その他のリソース
 
 詳しくは、次のページを参照してください。
 
 * [フィールド参照](../building-journeys/expression/field-references.md)
-* [コレクション管理機能](../building-journeys/expression/collection-management-functions.md)
+* [コレクション管理関数](../building-journeys/expression/collection-management-functions.md)

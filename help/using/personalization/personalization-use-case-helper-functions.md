@@ -9,10 +9,10 @@ role: Developer
 level: Intermediate
 keywords: 式, エディター, ヘルパー, ユースケース, パーソナライゼーション
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: a67707e50960e4848197fa1bd39ce95af3ef14ab
+source-git-commit: 6976f2b1b8b95f7dc9bffe65b7a7ddcc5dab5474
 workflow-type: tm+mt
-source-wordcount: '1037'
-ht-degree: 100%
+source-wordcount: '1068'
+ht-degree: 97%
 
 ---
 
@@ -115,7 +115,7 @@ ht-degree: 100%
 
 ## 手順 4：買い物かご内の商品リストの挿入 {#each-helper}
 
-<!--This step demonstrates iterating over event data. For comprehensive examples of iterating over different data sources (events, custom action responses, and other contextual data), see [Iterate over contextual data with Handlebars](iterate-contextual-data.md).-->
+この手順では、イベントデータを繰り返し処理する方法を示します。 様々なデータソース（イベント、カスタムアクション応答、その他のコンテキストデータ）に対する反復処理の包括的な例については、[Handlebars を使用したコンテキストデータの反復処理 ](iterate-contextual-data.md) を参照してください。
 
 1. メッセージコンテンツを再度開きます。
 
@@ -346,4 +346,4 @@ ht-degree: 100%
 
 ヘルパー関数の使用方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416781?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
