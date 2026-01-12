@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
 version: Journey Orchestration
-source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
+source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
 workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 100%
@@ -52,7 +52,7 @@ ht-degree: 100%
 
 これらのルールは、次のいずれかの場合に使用できます。
 
-* ジャーニーやキャンペーンで[コンテンツ最適化ターゲティング](../campaigns/optimization-targeting.md)を作成する場合。
+* ジャーニーやキャンペーンで[コンテンツ最適化ターゲティング](../content-management/optimization-targeting.md)を作成する場合。
 * [ジャーニーパスの最適化](../building-journeys/optimize.md#targeting)を作成する場合。
 
 ➡️ [この機能について詳しくは、ビデオを参照してください。](#video)
@@ -90,7 +90,7 @@ ht-degree: 100%
    ![](assets/rules-select-entity.png){width=90%}
 
    * **[!UICONTROL 決定項目]** - ルールは、決定のコンテキスト内の[決定項目](#decision-rules)に適用できます。
-   * **[!UICONTROL ターゲティング]** - ルールは、キャンペーンまたはジャーニーの[コンテンツ最適化](../campaigns/optimization-targeting.md)の一部として、または[ジャーニーを最適化アクティビティ](../building-journeys/optimize.md#targeting)のいずれかで[ターゲティング](#targeting-rules)ルールを作成する際に使用できます。
+   * **[!UICONTROL ターゲティング]** - ルールは、キャンペーンまたはジャーニーの[コンテンツ最適化](../content-management/optimization-targeting.md)の一部として、または[ジャーニーを最適化アクティビティ](../building-journeys/optimize.md#targeting)のいずれかで[ターゲティング](#targeting-rules)ルールを作成する際に使用できます。
 
 1. **[!UICONTROL 決定項目]**&#x200B;ルールを作成する場合は、「**[!UICONTROL データセット参照を有効にする]**」を選択して、Adobe Experience Platform のデータを使用して、外部データで決定ロジックを強化できます。これは、製品の在庫状況やリアルタイムの価格設定など、頻繁に変更される属性の場合に特に役立ちます。
 
@@ -137,4 +137,4 @@ ht-degree: 100%
 
 Adobe Journey Optimizer で再利用可能な&#x200B;**ターゲティングルール**&#x200B;を作成、複製、適用し、地域、言語、行動などの顧客属性に基づいてキャンペーンを効率的にパーソナライズし、オーディエンスの精度を高めながら時間を節約する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3476128/?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476127/?quality=12)

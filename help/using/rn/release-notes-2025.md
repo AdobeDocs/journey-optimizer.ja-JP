@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
+source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
 workflow-type: tm+mt
 source-wordcount: '7909'
 ht-degree: 99%
@@ -384,7 +384,7 @@ ht-degree: 99%
 <P>ジャーニーやキャンペーンがライブになると、プロファイルは定義済みの条件に照らして評価され、一致条件に基づいて、適切なエクスペリエンスまたはコンテンツで配信されます。</p>
 <p><img src="assets/do-not-localize/campaign-optimization.gif"/></p>
 <p>この処理能力は、以前は 8月8日（PT）にキャンペーンでのみリリースされていましたが、現在は 8月22日（PT）以降のジャーニーでも使用できるようになりました。</p>
-<p>詳しくは、<a href="../campaigns/gs-message-optimization.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../content-management/gs-message-optimization.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>

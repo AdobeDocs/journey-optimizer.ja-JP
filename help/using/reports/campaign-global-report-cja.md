@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b74d3137-2dd9-4302-a56e-73503d318d18
-source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
+source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 100%
@@ -113,7 +113,7 @@ KPI は、キャンペーンで使用されるチャネルによって異なり�
 
 コンテンツの&#x200B;**[!UICONTROL ターゲティングルール]**&#x200B;を設定すると、**[!UICONTROL ターゲティングの概要]**&#x200B;の表に主要なエンゲージメント指標の詳細なビューが表示され、各ルールのターゲットプロファイルがコンテンツとどのようにやり取りしたかが示されます。
 
-➡️ [ターゲティングルールの詳細情報](../campaigns/optimization-targeting.md)
+➡️ [ターゲティングルールの詳細情報](../content-management/optimization-targeting.md)
 
 +++ ターゲティングの概要指標の詳細情報
 

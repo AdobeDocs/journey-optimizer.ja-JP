@@ -9,7 +9,7 @@ role: Developer
 level: Experienced
 keywords: キャンペーン, API トリガー, REST, Optimizer, メッセージ
 exl-id: 322e035c-7370-40c9-b1cb-3428bc26e874
-source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
+source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 100%
@@ -40,7 +40,7 @@ ht-degree: 100%
 
 1. **最適化を活用**
 
-   「**[!UICONTROL メッセージの最適化]**」セクションを使用すると、コンテンツ実験を実行したり、ターゲティングルールを活用したり、実験とターゲティングの両方の高度な組み合わせを使用したりすることができます。これらの様々なオプションと実行する手順について詳しくは、[キャンペーンの最適化](gs-message-optimization.md)の節を参照してください。
+   「**[!UICONTROL メッセージの最適化]**」セクションを使用すると、コンテンツ実験を実行したり、ターゲティングルールを活用したり、実験とターゲティングの両方の高度な組み合わせを使用したりすることができます。これらの様々なオプションと実行する手順について詳しくは、[キャンペーンの最適化](../content-management/gs-message-optimization.md)の節を参照してください。
 <!--
 1. **Create a content experiment**
 
