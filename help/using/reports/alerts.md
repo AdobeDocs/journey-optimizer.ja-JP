@@ -40,7 +40,7 @@ Adobe Journey Optimizerには、次の 2 種類のアラートが用意されて
 
 アラートを操作する前に：
 
-* **権限**：アラートを表示および管理するには、特定の権限が必要です。 [Adobe Experience Platformで必要な権限 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html#permissions){target="_blank"} を参照してください。
+* **権限**：アラートを表示および管理するには、特定の権限が必要です。 [Adobe Experience Platformで必要な権限 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=ja#permissions){target="_blank"} を参照してください。
 
 * **サンドボックス認識**：アラートの購読は、サンドボックスに固有です。 アラートを購読すると、そのアラートは現在のサンドボックスにのみ適用されます。 サンドボックスがリセットされると、すべてのアラート購読もリセットされます。
 
@@ -90,7 +90,7 @@ E メール配信品質の設定に関する問題を検出します。
 
 >[!NOTE]
 >
->他のAdobe Experience Platform サービスからのアラート（データ取得、ID 解決、セグメント化など）については、[&#x200B; 標準アラートルールのドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"} を参照してください。
+>他のAdobe Experience Platform サービスからのアラート（データ取得、ID 解決、セグメント化など）については、[&#x200B; 標準アラートルールのドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=ja){target="_blank"} を参照してください。
 
 ## アラートの配信を登録 {#subscribe-alerts}
 
@@ -183,7 +183,7 @@ E メール配信品質の設定に関する問題を検出します。
 >
 >[&#x200B; オーディエンスの読み取りに失敗 &#x200B;](#alert-read-audiences) アラートは、グローバルトリガーを通じてのみ使用でき、ジャーニーごとの購読では使用できません。
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=ja#enable-email-alerts){target="_blank"}.-->
 
 ## ジャーニーアラート {#journey-alerts}
 
@@ -418,4 +418,4 @@ This alert warns you if a domain certificate (CDN, tracking URL) renewal failed 
 * [Adobe Experience Platform アラートの概要 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=ja){target="_blank"} - アラートフレームワークについて
 * [UI でのアラートの管理 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=ja){target="_blank"} - アラートを表示、購読、管理する
 * [I/O イベントを介したアラートの購読 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=ja){target="_blank"} – 高度な統合オプション
-* [&#x200B; 標準アラートルール &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"} – 使用可能な Platform アラートの完全なリスト
+* [&#x200B; 標準アラートルール &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=ja){target="_blank"} – 使用可能な Platform アラートの完全なリスト
