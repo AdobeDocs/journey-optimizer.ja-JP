@@ -10,8 +10,8 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 作成, Optimizer, キャンペーン, サーフェス, メッセージ
 exl-id: fed96e48-2e54-4bd4-ae17-77434d1b90eb
-source-git-commit: afac93abcd2bacc4371748b94c0e66942a4c5076
-workflow-type: ht
+source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
+workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 100%
 
@@ -43,7 +43,7 @@ ht-degree: 100%
 
 1. **最適化を活用**
 
-   「**[!UICONTROL 最適化]**」セクションを使用すると、コンテンツ実験を実行したり、ターゲティングルールを活用したり、実験とターゲティングの両方の高度な組み合わせを使用したりすることができます。これらの様々なオプションと実行する手順について詳しくは、[この節](campaigns-message-optimization.md)を参照してください。
+   「**[!UICONTROL 最適化]**」セクションを使用すると、コンテンツ実験を実行したり、ターゲティングルールを活用したり、実験とターゲティングの両方の高度な組み合わせを使用したりすることができます。これらの様々なオプションと実行する手順について詳しくは、[この節](gs-message-optimization.md)を参照してください。
 <!--
 1. **Create a content experiment**
 

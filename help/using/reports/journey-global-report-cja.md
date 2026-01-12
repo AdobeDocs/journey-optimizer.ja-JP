@@ -8,8 +8,8 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 30d4f967-e085-44f1-973d-11e79f693e6e
-source-git-commit: 158d9d9a1070e1d842183e5bd6cb5ce8e38834c5
-workflow-type: ht
+source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
+workflow-type: tm+mt
 source-wordcount: '971'
 ht-degree: 100%
 
@@ -154,7 +154,7 @@ Customer Journey Analytics ワークスペースと、データのフィルタ�
 
 コンテンツの&#x200B;**[!UICONTROL ターゲティングルール]**&#x200B;を設定すると、**[!UICONTROL ターゲティングの概要]**&#x200B;の表に主要なエンゲージメント指標の詳細なビューが表示され、各ルールのターゲットプロファイルがコンテンツとどのようにやり取りしたかが示されます。
 
-➡️ [ターゲティングルールの詳細情報](../campaigns/campaigns-message-optimization.md)
+➡️ [ターゲティングルールの詳細情報](../campaigns/optimization-targeting.md)
 
 +++ ターゲティングの概要指標の詳細情報
 

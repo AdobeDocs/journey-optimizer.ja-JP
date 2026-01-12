@@ -5,8 +5,8 @@ title: コンテンツ管理
 description: コンテンツ管理
 redpen-status: CREATED_||_2025-08-12_00-44-43
 exl-id: 159ae1bf-e1bd-48c7-b91b-2ac8bdfffaf2
-source-git-commit: b8c2b05df22e4aa78ea95e47e1554c9d538dfc0f
-workflow-type: ht
+source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
+workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer のコンテンツ管理機能を使用すると、キ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 パーソナライゼーションの追加
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer のコンテンツ管理機能を使用すると、キ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 ランディングページの作成
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer のコンテンツ管理機能を使用すると、キ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 コンテンツテンプレート
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer のコンテンツ管理機能を使用すると、キ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 再利用可能なコンテンツフラグメント
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer のコンテンツ管理機能を使用すると、キ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 動的コンテンツの作成
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer のコンテンツ管理機能を使用すると、キ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 クロスソリューションのユースケース
 
@@ -86,4 +86,4 @@ Experience Manager、Stock、GenStudio などのアドビソリューション�
 
 - **[コンテンツ生成用 AI アシスタント](ai-assistant-landing-page.md)** - AI ツールを活用して、メール、SMS、web ページ、実験をまたいでコンテンツを生成およびパーソナライズします。
 - **[多言語コンテンツ管理](content-multilingual-landing-page.md)** - 手動および自動翻訳ワークフローを使用して、多言語コンテンツを作成および管理します。
-- **[コンテンツ実験](content-experiment-landing-page.md)** - オーディエンスのエンゲージメントとキャンペーンの結果を最適化する実験を設定して分析します。
+- **[コンテンツ実験](../using/content-management/get-started-experiment.md)** - オーディエンスのエンゲージメントとキャンペーンの結果を最適化する実験を設定して分析します。

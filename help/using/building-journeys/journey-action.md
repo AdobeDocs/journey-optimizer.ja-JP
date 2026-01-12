@@ -10,8 +10,8 @@ level: Intermediate
 keywords: ジャーニー, メッセージ, プッシュ, sms, メール, アプリ内, web, コンテンツカード, コードベースのエクスペリエンス
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: ht
+source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
+workflow-type: tm+mt
 source-wordcount: '1050'
 ht-degree: 100%
 
@@ -68,7 +68,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL 最適化]**」セクションを使用すると、コンテンツ実験を実行したり、ターゲティングルールを活用したり、実験とターゲティングの両方の高度な組み合わせを使用したりすることができます。
 
-   これらの様々なオプションと実行する手順について詳しくは、[この節](../campaigns/campaigns-message-optimization.md)を参照してください。
+   これらの様々なオプションと実行する手順について詳しくは、[この節](../campaigns/gs-message-optimization.md)を参照してください。
 
 1. 「**[!UICONTROL 言語]**」セクションを使用すると、ジャーニーアクション内の複数の言語でコンテンツを作成できます。これを行うには、「**[!UICONTROL 言語を追加]**」ボタンをクリックし、目的の&#x200B;**[!UICONTROL 言語設定]**&#x200B;を選択します。
 

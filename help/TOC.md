@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c9274ddf086fd0ea5fd4d2de9d90daffbccd5ae5
+source-git-commit: fec72c63d41a41adce5107082c50a68a7b8c0af2
 workflow-type: tm+mt
-source-wordcount: '3051'
+source-wordcount: '3061'
 ht-degree: 98%
 
 ---
@@ -501,9 +501,12 @@ ht-degree: 98%
       + [言語プロバイダーの作成](using/content-management/multilingual-provider.md)
       + [手動翻訳を使用した多言語コンテンツの作成](using/content-management/multilingual-manual.md)
       + [自動翻訳を使用した多言語コンテンツの作成](using/content-management/multilingual-automated.md)
-   + [メッセージの最適化](using/campaigns/campaigns-message-optimization.md)
+   + コンテンツの最適化 {#message-optimization}
+      + [最適化の基本を学ぶ](using/campaigns/gs-message-optimization.md)
+      + [ターゲティングを使用](using/campaigns/optimization-targeting.md)
+      + [実験を使用](using/campaigns/optimization-experimentation.md)
+      + [ターゲティングと実験を組み合わせ](using/campaigns/optimization-combination.md)
    + コンテンツ実験 {#content-experiment}
-      + [コンテンツ実験](/help/rp_landing_pages/content-experiment-landing-page.md)
       + [コンテンツ実験の基本を学ぶ](using/content-management/get-started-experiment.md)
       + [実験アクセラレーターの基本を学ぶ](using/content-management/experiment-accelerator-gs.md)
       + [コンテンツ実験を作成](using/content-management/content-experiment.md)
@@ -931,7 +934,7 @@ ht-degree: 98%
    + [プライバシー](/help/rp_landing_pages/privacy-landing-page.md)
    + [プライバシーの基本を学ぶ](using/privacy/get-started-privacy.md)
    + [プライバシーリクエスト](using/privacy/requests.md)
-   + [&#x200B; リソースに対する監査アクション](using/privacy/audit-logs.md)
+   + [ リソースに対する監査アクション](using/privacy/audit-logs.md)
    + [データライフサイクル操作の実行](using/privacy/data-hygiene.md)
    + 同意を管理 {#consent}
       + [同意を管理](/help/rp_landing_pages/consent-landing-page.md)
