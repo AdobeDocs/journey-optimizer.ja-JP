@@ -216,7 +216,7 @@ currentActionField.description == "abc"
 
 カスタムアクションの応答ペイロードフィールドは、メッセージのパーソナライゼーション用にネイティブチャネル（メール、プッシュ、SMS）で使用できます。 これには、外部 API から返された配列とネストされたデータ構造を繰り返し処理する機能が含まれます。
 
-メッセージ内のカスタムアクション応答データを繰り返す詳細な例と構文については、[Handlebars を使用したコンテキストデータの繰り返し ](../personalization/iterate-contextual-data.md#custom-action-responses) を参照してください。
+メッセージ内のカスタムアクション応答データを繰り返す詳細な例と構文については、[Handlebars を使用したコンテキストデータの繰り返し &#x200B;](../personalization/iterate-contextual-data.md#custom-action-responses) を参照してください。
 
 ## その他のリソース
 
