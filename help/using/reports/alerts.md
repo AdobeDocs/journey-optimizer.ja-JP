@@ -164,7 +164,7 @@ ht-degree: 99%
 
 ### ジャーニーが完了しました {#alert-journey-finished}
 
-このアラートは、ジャーニーが完了した際に通知します。「完了」の定義は、ジャーニーのタイプによって異なります。 [ ジャーニーが完了したと見なされるタイミングの詳細を説明します ](../building-journeys/end-journey.md#journey-finished-definition)。
+このアラートは、ジャーニーが完了した際に通知します。「完了」の定義は、ジャーニーのタイプによって異なります。 [&#x200B; ジャーニーが完了したと見なされるタイミングの詳細を説明します &#x200B;](../building-journeys/end-journey.md#journey-finished-definition)。
 
 これは、ジャーニーの完了を追跡するのに役立つ情報アラートです。これは 1 回限りの通知なので、解決条件はありません。
 
