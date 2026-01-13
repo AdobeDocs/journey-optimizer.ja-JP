@@ -129,7 +129,7 @@ ht-degree: 98%
 >
 >この機能は、限定提供です。アクセス権を取得するには、アドビ担当者にお問い合わせください。
 >
->**[!UICONTROL Mailto （登録解除）]** オプションについては、**Mailto （登録解除） with custom attributes （使用制限あり）** の節 [ 以下 ](#configure-decrypt-api) で説明している新しいクエリパラメーターを使用する必要があります。
+>**[!UICONTROL Mailto （登録解除）]** オプションについては、**Mailto （登録解除） with custom attributes （使用制限あり）** の節 [&#x200B; 以下 &#x200B;](#configure-decrypt-api) で説明している新しいクエリパラメーターを使用する必要があります。
 
 エンドポイントのカスタム属性を定義するには、「**[!UICONTROL URL トラッキングパラメーター]**」セクションを使用します。対応するセクションで定義するすべての URL トラッキングパラメーターは、デフォルトのパラメーターに加えて、カスタムエンドポイントの末尾に追加されます。[カスタム URL トラッキングの設定方法の詳細情報](url-tracking.md)
 
@@ -261,7 +261,7 @@ GET 呼び出しは次のとおりです。
 
    * 解析値：*v1.xyz*
 
-API の例：https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&amp;emailParamsBody=v1.xyz
+API の例：https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&emailParamsBody=v1.xyz
 
 >[!CAUTION]
 >
