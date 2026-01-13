@@ -6,7 +6,7 @@ description: 1 つのジャーニーまたはキャンペーン内でターゲ�
 role: User
 level: Intermediate
 keywords: 最適化，ターゲティング，実験，組み合わせ，詳細
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
+source-git-commit: f4eb982ba0840acfe336e759fcbf9cfd47b3b98c
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 92%
@@ -45,7 +45,7 @@ Journey Optimizer では、単一のジャーニーまたはキャンペーン�
 
 1. 他のターゲティングルールについても同様に進め、各バリアントに対応するコンテンツを設計します。
 
-1. 変更を保存し、ジャーニーまたはキャンペーンを[アクティブ化](review-activate-campaign.md)します。
+1. 変更を保存し、ジャーニーまたはキャンペーンを[アクティブ化](../campaigns/review-activate-campaign.md)します。
 
 ジャーニー／キャンペーンがライブになると、各ターゲットグループのユーザーには、所属するグループに定義した様々なコンテンツのバリエーションがランダムに割り当てられます。
 

@@ -6,7 +6,7 @@ description: コンテンツ実験を使用して、複数のバージョンの�
 role: User
 level: Intermediate
 keywords: 実験、最適化、A/B テスト、コンテンツ実験、処理
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
+source-git-commit: f4eb982ba0840acfe336e759fcbf9cfd47b3b98c
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 72%
@@ -17,7 +17,7 @@ ht-degree: 72%
 
 >[!NOTE]
 >
->このページでは、コンテンツの最適化における実験の使用方法の概要を説明します。 設定オプション、指標、分析など、コンテンツ実験について詳しくは、[&#x200B; コンテンツ実験に関するドキュメント &#x200B;](../content-management/get-started-experiment.md) を参照してください。
+>このページでは、コンテンツの最適化における実験の使用方法の概要を説明します。 設定オプション、指標、分析など、コンテンツ実験について詳しくは、[ コンテンツ実験に関するドキュメント ](../content-management/get-started-experiment.md) を参照してください。
 
 実験により、複数のバージョンのコンテンツをテストし、事前定義済みの成功指標に基づいて最もパフォーマンスが高いバージョンを判断できます。
 
@@ -51,9 +51,9 @@ ht-degree: 72%
 
    >[!NOTE]
    >
-   >他のアクションを選択することもできます。この実験は、キャンペーンまたはジャーニー [&#x200B; アクションアクティビティ &#x200B;](../building-journeys/journey-action.md) に追加されたすべてのアクションに適用されます。
+   >他のアクションを選択することもできます。この実験は、キャンペーンまたはジャーニー [ アクションアクティビティ ](../building-journeys/journey-action.md) に追加されたすべてのアクションに適用されます。
 
-1. ジャーニーまたはキャンペーンを[アクティブ化](review-activate-campaign.md)します。
+1. ジャーニーまたはキャンペーンを[アクティブ化](../campaigns/review-activate-campaign.md)します。
 
 ジャーニー／キャンペーンがライブになると、ユーザーには様々なコンテンツのバリエーションがランダムに割り当てられます。[!DNL Journey Optimizer] は、より多くの購入を推進したバリエーションを追跡し、実用的なインサイトを提供します。
 

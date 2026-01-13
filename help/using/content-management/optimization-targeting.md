@@ -6,7 +6,7 @@ description: ターゲティングルールを活用して、パーソナライ�
 role: User
 level: Intermediate
 keywords: ターゲティング，最適化，オーディエンス，パーソナライゼーション，ルール
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
+source-git-commit: f4eb982ba0840acfe336e759fcbf9cfd47b3b98c
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 95%
@@ -90,7 +90,7 @@ ht-degree: 95%
 
    この例では、米国居住者向けの特定のコンテンツ、フランス居住者向けの別のコンテンツ、インド居住者向けの別のコンテンツを設計します。
 
-1. ジャーニーまたはキャンペーンを[アクティブ化](review-activate-campaign.md)します。
+1. ジャーニーまたはキャンペーンを[アクティブ化](../campaigns/review-activate-campaign.md)します。
 
 ジャーニー／キャンペーンがライブになると、米国居住者には特定のメッセージ、フランス居住者には異なるメッセージなど、各ターゲットにカスタマイズされたコンテンツが送信されます。
 
