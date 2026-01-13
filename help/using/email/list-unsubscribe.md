@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 設定, メール, 設定
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: d77c6376bee14d3d6f90be9be54ac01c740e754f
-workflow-type: ht
-source-wordcount: '1704'
-ht-degree: 100%
+source-git-commit: 743609dbc10741c2a6e573be9c5a2d27be87e755
+workflow-type: tm+mt
+source-wordcount: '1701'
+ht-degree: 98%
 
 ---
 
@@ -127,7 +127,9 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->**[!UICONTROL 宛先（登録解除）]**&#x200B;オプションでは、この機能は限定提供（LA）で利用できます。アクセス権を取得するには、アドビ担当者にお問い合わせください。この場合、[以下の](#configure-decrypt-api)「**カスタム属性（限定提供）を使用した宛先（登録解除）**」セクションに記載されている、新しいクエリパラメーターを使用する必要があります。
+>この機能は、限定提供です。アクセス権を取得するには、アドビ担当者にお問い合わせください。
+>
+>**[!UICONTROL Mailto （登録解除）]** オプションについては、**Mailto （登録解除） with custom attributes （使用制限あり）** の節 [ 以下 ](#configure-decrypt-api) で説明している新しいクエリパラメーターを使用する必要があります。
 
 エンドポイントのカスタム属性を定義するには、「**[!UICONTROL URL トラッキングパラメーター]**」セクションを使用します。対応するセクションで定義するすべての URL トラッキングパラメーターは、デフォルトのパラメーターに加えて、カスタムエンドポイントの末尾に追加されます。[カスタム URL トラッキングの設定方法の詳細情報](url-tracking.md)
 

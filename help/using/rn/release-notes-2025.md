@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
+source-git-commit: 743609dbc10741c2a6e573be9c5a2d27be87e755
 workflow-type: tm+mt
-source-wordcount: '7909'
+source-wordcount: '7916'
 ht-degree: 99%
 
 ---
@@ -441,7 +441,7 @@ ht-degree: 99%
 
    * **ワンクリック登録解除 URL を使用したカスタム属性のサポート** - Journey Optimizer では、アドビ以外で同意を管理している場合、メール設定で独自のワンクリック登録解除リンクを定義して、外部カスタムエンドポイントを設定できます。受信者が登録解除リンクをクリックすると、Journey Optimizer では、同意更新イベントにいくつかのデフォルトのプロファイル固有のパラメーターが追加されます。
 
-     ワンクリック登録解除リンクをさらにパーソナライズするのに、同意イベントにも追加されるカスタム属性を定義できるようになりました。[詳細情報](../email/list-unsubscribe.md#custom-attributes)
+     ワンクリック登録解除リンクをさらにパーソナライズするのに、同意イベントにも追加されるカスタム属性を定義できるようになりました。この機能は、限定提供です。[詳細情報](../email/list-unsubscribe.md#custom-attributes)
 
 * **データセット**
 
