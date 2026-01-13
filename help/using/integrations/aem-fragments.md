@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
-source-git-commit: 13879953461a28c4c911030a165fbd0b6393bb07
+source-git-commit: 780c197da342968c6dc125277f325219e0717082
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 96%
+source-wordcount: '663'
+ht-degree: 91%
 
 ---
 
@@ -38,7 +38,7 @@ AEM コンテンツフラグメントについて詳しくは、Experience Manag
 
 >[!IMPORTANT]
 >
->Journey Optimizerがコンテンツフラグメント管理 API を使用してAdobe Experience Manager コンテンツフラグメントにアクセスできるようにするには、まず [Dispatcherを設定 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer#dispatcher-configuration) する必要があります。
+>Journey Optimizerがコンテンツフラグメント管理 API を使用してAdobe Experience Manager コンテンツフラグメントにアクセスできるようにするには、まず [Dispatcherを設定 ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer#dispatcher-configuration) する必要があります。
 
 Journey Optimizer でコンテンツフラグメントを使用する前に、Journey Optimizer 専用のタグを作成する必要があります。
 
@@ -105,6 +105,10 @@ AEM コンテンツフラグメントを作成およびパーソナライズし�
 
    ![](assets/aem_campaign_6.png)
 
+1. 長い属性のパスを非表示にして読みやすさを向上させる錠剤エクスペリエンスを有効にするには、**錠剤：オフ** を選択します。
+
+   ![](assets/aem_campaign_10.png)
+
 1. リアルタイムのパーソナライゼーションを有効にするには、**[!UICONTROL コンテンツフラグメント]**&#x200B;内で使用されるすべてのプレースホルダーを、フラグメントヘルパータグ内のパラメーターとしてユーザーが明示的に宣言する必要があります。次の方法を使用して、これらのプレースホルダーをプロファイル属性、コンテキスト属性、静的文字列または定義済み変数にマッピングできます。
 
    1. **プロファイルまたはコンテキスト属性のマッピング**：プレースホルダーをプロファイルまたはコンテキスト属性に割り当てます（例：name = profile.person.name.firstName）。
@@ -118,7 +122,7 @@ AEM コンテンツフラグメントを作成およびパーソナライズし�
       {% let variableName = attribute name %} 
       ```
 
-   次の例では、**_名前_**&#x200B;プレースホルダーはフラグメント内の **_profile.person.name.firstName_** 属性にマッピングされています。
+   次の例では、「**_month_**」プレースホルダーがフラグメント内の **_profile.person.birthDate_** 属性にマッピングされています。
 
    ![](assets/aem_campaign_9.png){zoomable="yes"}
 
