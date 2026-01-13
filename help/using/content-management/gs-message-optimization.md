@@ -3,13 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: コンテンツ最適化の基本を学ぶ
 description: コンテンツの最適化を使用して、キャンペーンやジャーニーでパーソナライズされ最適化されたコンテンツを配信する方法を説明します。
-feature: Experimentation, Targeting
+feature: Experimentation
 topic: Content Management
 role: User
 level: Beginner
 keywords: 最適化，ターゲティング，実験，A/B テスト，キャンペーン，ジャーニー，パーソナライゼーション
 exl-id: 0f563d61-7a9e-46bf-adfb-5a26e63505b9
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
+source-git-commit: 8dba26f29fda47d0b953d80656aa0f0b6fe294a9
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 8%
@@ -25,19 +25,19 @@ ht-degree: 8%
 
 コンテンツの最適化により、適切なメッセージを適切なオーディエンスに適切なタイミングで配信するツールが得られます。 データに基づくインサイトを強力なパーソナライゼーション機能と組み合わせることで、キャンペーンとジャーニー全体にわたるエンゲージメントとコンバージョンを最大化できます。
 
-コンテンツの最適化は、[&#x200B; キャンペーン &#x200B;](../campaigns/create-campaign.md) と [&#x200B; ジャーニー &#x200B;](../building-journeys/journey-gs.md) の両方で利用でき、すべての顧客タッチポイントに同じ最適化戦略を適用できます。
+コンテンツの最適化は、[ キャンペーン ](../campaigns/create-campaign.md) と [ ジャーニー ](../building-journeys/journey-gs.md) の両方で利用でき、すべての顧客タッチポイントに同じ最適化戦略を適用できます。
 
-➡️[&#x200B; このビデオで、キャンペーン内でコンテンツの最適化を活用する方法を説明します &#x200B;](#video)
+➡️[ このビデオで、キャンペーン内でコンテンツの最適化を活用する方法を説明します ](#video)
 
 ## 最適化機能 {#capabilities}
 
 Journey Optimizerのコンテンツの最適化を使用すると、次のことができます。
 
-* [&#x200B; ターゲティングを使用 &#x200B;](optimization-targeting.md) して、プロファイル属性、コンテキストデータ、オーディエンスメンバーシップに基づいて、特定のオーディエンスセグメントにパーソナライズされたコンテンツを配信します。
+* [ ターゲティングを使用 ](optimization-targeting.md) して、プロファイル属性、コンテキストデータ、オーディエンスメンバーシップに基づいて、特定のオーディエンスセグメントにパーソナライズされたコンテンツを配信します。
 
-* [&#x200B; 実験を実行 &#x200B;](optimization-experimentation.md) して複数のコンテンツバリエーションをテストし、成功指標に基づいて最もパフォーマンスが高いものを特定します。
+* [ 実験を実行 ](optimization-experimentation.md) して複数のコンテンツバリエーションをテストし、成功指標に基づいて最もパフォーマンスが高いものを特定します。
 
-* [&#x200B; 両方のアプローチを組み合わせる &#x200B;](optimization-combination.md) と、ターゲットとするセグメントごとに異なるバリエーションをテストする高度な最適化戦略を作成できます。
+* [ 両方のアプローチを組み合わせる ](optimization-combination.md) と、ターゲットとするセグメントごとに異なるバリエーションをテストする高度な最適化戦略を作成できます。
 
 ## ターゲティングと実験 {#targeting-vs-experimentation}
 
@@ -83,16 +83,16 @@ Journey Optimizerのコンテンツの最適化を使用すると、次のこと
 
 コンテンツの最適化を開始するには：
 
-1. **キャンペーンまたはジャーニーの作成**:[&#x200B; キャンペーン &#x200B;](../campaigns/create-campaign.md) または [&#x200B; ジャーニーを設定し &#x200B;](../building-journeys/journey-gs.md)1 つ以上のアクションを追加します。
+1. **キャンペーンまたはジャーニーの作成**:[ キャンペーン ](../campaigns/create-campaign.md) または [ ジャーニーを設定し ](../building-journeys/journey-gs.md)1 つ以上のアクションを追加します。
 
 1. **最適化アプローチを選択**:
-   * [&#x200B; ターゲティングを使用 &#x200B;](optimization-targeting.md) して、特定のセグメント向けにコンテンツをパーソナライズします。
-   * [&#x200B; 実験を使用 &#x200B;](optimization-experimentation.md) して、複数のバリエーションをテストします。
-   * [&#x200B; 両方を組み合わせる &#x200B;](optimization-combination.md) 高度な最適化。
+   * [ ターゲティングを使用 ](optimization-targeting.md) して、特定のセグメント向けにコンテンツをパーソナライズします。
+   * [ 実験を使用 ](optimization-experimentation.md) して、複数のバリエーションをテストします。
+   * [ 両方を組み合わせる ](optimization-combination.md) 高度な最適化。
 
 1. **コンテンツを定義**：最適化戦略に合わせて、様々なコンテンツのバリエーションを作成します。
 
-1. **アクティブ化と監視**：最適化されたキャンペーンやジャーニーを開始し、パフォーマンスを [&#x200B; レポート &#x200B;](../reports/campaign-global-report-cja.md) で追跡します。
+1. **アクティブ化と監視**：最適化されたキャンペーンやジャーニーを開始し、パフォーマンスを [ レポート ](../reports/campaign-global-report-cja.md) で追跡します。
 
 ## 仕組み {#how-it-works}
 
@@ -111,7 +111,7 @@ Journey Optimizerのコンテンツの最適化を使用すると、次のこと
 
 アクションまたは API トリガーキャンペーンでコンテンツの最適化を活用する方法を説明します。 サブオーディエンスをターゲットにする方法、場所ごとにメッセージのバリエーションを作成する方法、フォールバックコンテンツを有効にする方法、単一のキャンペーン内で複数の実験を実行する方法について説明します。また、このチュートリアルでは、メッセージの一貫性を維持しながらマルチチャネルキャンペーンを管理する方法についても説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3470369?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3470368?quality=12)
 
 **関連トピック**
 
