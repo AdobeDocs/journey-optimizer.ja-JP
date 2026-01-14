@@ -8,7 +8,7 @@ exl-id: c148c9e8-8b1d-4c64-8bb6-dc86898cb672
 hide: true
 hidefromtoc: true
 source-git-commit: 7c47940713484dd6d6047eefe6e0ae0d0a276b9c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '312'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ Adobe Journey Optimizer でジャーニーを使用すると、オーディエ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Adobe Journey Optimizer ジャーニーの基本を学ぶ
 
@@ -32,7 +32,7 @@ Adobe Journey Optimizer の直感的なドラッグ＆ドロップツールと�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 ジャーニーの作成と管理に関する包括的ガイド
 
@@ -42,7 +42,7 @@ Adobe Journey Optimizer の直感的なドラッグ＆ドロップツールと�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 ジャーニーの管理に関する包括的ガイド
 
@@ -52,7 +52,7 @@ Adobe Journey Optimizer の直感的なドラッグ＆ドロップツールと�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Adobe Journey Optimizer のアクティビティ
 
@@ -62,7 +62,7 @@ Adobe Journey Optimizer のアクティビティ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer での式の作成
 
@@ -72,7 +72,7 @@ Adobe Journey Optimizer での式の作成
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Adobe Journey Optimizer の実用的なユースケース
 

@@ -6,7 +6,7 @@ description: メールチャネル
 redpen-status: CREATED_||_2025-08-11_20-35-15
 exl-id: f7c61cc3-943e-40a3-94be-f3f1bd46961d
 source-git-commit: e2ecfcd3163965bbd0ada68edd61ac07373eaad2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '333'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ Adobe Journey Optimizer のメールチャネルを使用すると、正確で�
 
 メール配信を作成するには、次の手順を実行します。
 
-* **ジャーニー**&#x200B;の場合：ジャーニーに&#x200B;**[!UICONTROL メール]**&#x200B;アクティビティを追加し、基本設定を定義したら、右側の&#x200B;**[!UICONTROL アクション：メール]**&#x200B;パネルを使用して、メッセージのコンテンツを作成します。[ジャーニーの作成方法を学ぶ](../using/building-journeys/journey-gs.md)
+* **ジャーニー**&#x200B;の場合：ジャーニーに&#x200B;**[!UICONTROL メール]**&#x200B;アクティビティを追加し、基本設定を定義したら、右側の&#x200B;**[!UICONTROL アクション：メール]**&#x200B;パネルを使用して、メッセージのコンテンツを作成します。[ジャーニーを作成する方法の詳細情報](../using/building-journeys/journey-gs.md)
 
 * **Campaign** の場合：キャンペーンを作成したら、アクションとして「**[!UICONTROL メール]**」を選択し、基本設定を定義します。[キャンペーンの作成方法を学ぶ](../using/campaigns/create-campaign.md#configure)
 
@@ -32,7 +32,7 @@ Adobe Journey Optimizer のメールチャネルを使用すると、正確で�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 メールの作成方法
 
@@ -42,7 +42,7 @@ Adobe Journey Optimizer のメールチャネルを使用すると、正確で�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 メールコンテンツのデザインと最適化
 
@@ -52,7 +52,7 @@ Adobe Journey Optimizer を使用して、レスポンシブでパーソナラ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 メールオプトアウトの管理
 
@@ -62,7 +62,7 @@ Adobe Journey Optimizer を使用して、レスポンシブでパーソナラ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 メールチャネルの設定
 
@@ -72,7 +72,7 @@ Adobe Journey Optimizer を使用して、レスポンシブでパーソナラ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 メールの配信品質の取得
 

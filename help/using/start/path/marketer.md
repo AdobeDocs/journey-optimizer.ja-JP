@@ -8,9 +8,9 @@ feature: Get Started
 Role: User
 exl-id: 34304142-3ee8-4081-94b9-e914968c75ba
 source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1476'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -111,7 +111,7 @@ Journey Optimizer には、次の 2 つの強力なオーケストレーショ�
 
 ### キャンペーンオーケストレーション
 
-* **適切なアプローチを選択**：リアルタイムの動作トリガーエクスペリエンスの場合は [&#x200B; ジャーニータイプを比較 &#x200B;](../../building-journeys/journey.md#journey-types) スケジュールされたバッチキャンペーンの場合は [&#x200B; キャンペーンタイプ &#x200B;](../../campaigns/get-started-with-campaigns.md#campaign-types) を比較
+* **適切なアプローチを選択**：リアルタイムの行動トリガーエクスペリエンスの場合は[ジャーニータイプ](../../building-journeys/journey.md#journey-types)、スケジュールバッチキャンペーンの場合は[キャンペーンタイプを比較](../../campaigns/get-started-with-campaigns.md#campaign-types)します
 * **明確なキャンペーン目標を定義**：マルチステップのワークフローをデザインする前に、目標を設確立します
 * **パイロットオーディエンスから開始**：スケーリングする前に、カウントとセグメント化ロジックを検証します
 * **リレーショナルデータを活用**：マルチエンティティのセグメント化を使用して、お客様データをアカウント、購入、購読に関連付け、正確なターゲティングを実現します
@@ -202,5 +202,5 @@ Journey Optimizer の機能を示す次の実用的な例から学びます。
 
 1. **小規模から開始**：シンプルなウェルカムジャーニーや単一メッセージキャンペーンを作成して、プラットフォームを学びます
 2. **AI を活用**：AI アシスタントを使用して質問し、コンテンツ作成を高速化します
-3. **コミュニティに参加**：[Experience League コミュニティ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"}で他の Journey Optimizer ユーザーとつながります。
+3. **コミュニティに参加**：[Experience League コミュニティ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}で他の Journey Optimizer ユーザーとつながります。
 4. **チュートリアルを探索**：[Experience League](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=ja){target="_blank"} のステップバイステップのビデオをご覧ください

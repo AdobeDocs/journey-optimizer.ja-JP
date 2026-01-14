@@ -7,7 +7,7 @@ redpen-status: CREATED_||_2025-08-11_21-04-29
 badge: label="レガシー" type="Informative"
 exl-id: 4f959425-2b45-4257-a0a6-09738913bd68
 source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '240'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Adobe Journey Optimizer の Offer Delivery API を使用すると、パーソナ
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Offer Delivery API の基本を学ぶ
 
@@ -35,7 +35,7 @@ Decisioning API、Edge Decisioning API、Batch Decisioning API など、パー�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Decisioning API を使用したオファーの配信
 
@@ -45,7 +45,7 @@ Decisioning API を使用したオファーの配信
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Edge Decisioning API を使用したオファーの配信
 
@@ -55,7 +55,7 @@ Edge Decisioning API を通じて Adobe Experience Platform Web SDK を使用し
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Batch Decisioning API を使用したオファーの配信
 

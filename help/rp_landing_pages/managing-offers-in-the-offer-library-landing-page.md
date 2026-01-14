@@ -7,7 +7,7 @@ redpen-status: CREATED_||_2025-08-11_21-00-55
 badge: label="レガシー" type="Informative"
 exl-id: 4578e8fe-341e-4678-b21f-d344f0a9a63d
 source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '201'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Adobe Journey Optimizer の「オファーの作成と管理」の節では、�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Adobe Journey Optimizer のオファーの設定
 
@@ -35,7 +35,7 @@ Adobe Journey Optimizer のオファーの設定
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 フォールバックオファーの作成方法
 
@@ -45,7 +45,7 @@ Adobe Journey Optimizer のオファーの設定
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 オファーコレクションの作成および管理方法
 

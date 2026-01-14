@@ -9,15 +9,15 @@ level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 source-git-commit: 8c61d7cb30da328791aabb84318960e2f42d1ca0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3661'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # ガードレールと制限 {#limitations}
 
-[!DNL Adobe Journey Optimizer] を使用する際のガードレールと制限を以下に示します。
+次に、[!DNL Adobe Journey Optimizer] を使用する際のガードレールと制限を示します。
 
 使用権限、製品の制限事項、パフォーマンスガードレールの一覧について詳しくは、[Adobe Journey Optimizer 製品説明ページ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}を参照してください。
 
@@ -42,7 +42,7 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 
 この変更は、後続のフェーズで&#x200B;**既存顧客のサンドボックス**&#x200B;にロールアウトされます。[詳しくは、データセットの有効期間（TTL）ガードレールを参照してください](../data/datasets-ttl.md)
 
-## チャネルとメッセージング {#channel-guardrails}
+## チャネルとメッセージ {#channel-guardrails}
 
 この節では、メール、SMS、インバウンドチャネル（web、アプリ内、コードベース、コンテンツカード）、トランザクションメッセージなど、すべての通信チャネルのガードレールについて説明します。
 
@@ -118,9 +118,9 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 
 Journey Optimizer では、キャンペーンで 1 秒あたり 500 件のトランザクションメッセージのピーク量をサポートします。
 
-## コンテンツとAssets {#content-assets}
+## コンテンツとアセット {#content-assets}
 
-この節では、ランディングページ、サブドメイン、フラグメントなど、コンテンツの作成と管理のガードレールについて説明します。
+この節では、ランディングページ、サブドメイン、フラグメントなど、コンテンツの作成と管理のガイドラインについて説明します。
 
 ### ランディングページガードレール {#lp-guardrails}
 
@@ -150,7 +150,7 @@ Journey Optimizer のサブドメインデリゲーションに適用される�
 
 ## オーディエンスとプロファイル {#audiences-profiles}
 
-このセクションでは、Audience Management、プロファイル処理およびエンゲージメント可能なプロファイルに関する考慮事項のガードレールについて説明します。
+この節では、オーディエンス管理、プロファイルの処理、エンゲージメント可能なプロファイルの考慮事項に関するガイドラインについて説明します。
 
 ### オーディエンスとプロファイルのガードレール {#audience}
 
@@ -164,16 +164,16 @@ Journey Optimizer のサブドメインデリゲーションに適用される�
 
 ## 意思決定管理 {#decision-management}
 
-### 決定と意思決定管理ガードレール {#decisioning-guardrails}
+### 決定と意思決定管理のガードレール {#decisioning-guardrails}
 
-意思決定または意思決定管理を使用する際に留意すべきガードレールと制限について詳しくは、意思決定と意思決定管理の節を参照してください。
+決定または意思決定管理を使用する際に留意すべきガードレールと制限について詳しくは、次の決定と意思決定管理の節を参照してください。
 
 * [決定ガードレールと制限](../experience-decisioning/decisioning-guardrails.md)
 * [意思決定管理ガードレールと制限](../offers/decision-management-guardrails.md)
 
 ## ジャーニー {#journeys-guardrails}
 
-この節では、一般的なジャーニーの制限、ジャーニーコンポーネント（アクション、イベント、データソース）、ジャーニーアクティビティ、カスタムアクションや式エディターなどの特定の機能など、ジャーニーのガードレールと制限について説明します。
+この節では、一般的なジャーニーの制限、ジャーニーコンポーネント（アクション、イベント、データソース）、ジャーニーアクティビティ、特定の機能（カスタムアクションや式エディターなど）といった、ジャーニーのガードレールと制限について説明します。
 
 ### 一般的なジャーニーのガードレール {#journeys-guardrails-journeys}
 
