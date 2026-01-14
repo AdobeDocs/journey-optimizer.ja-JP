@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: ダイレクトメール, メッセージ, キャンペーン
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: ht
-source-wordcount: '313'
+source-git-commit: bf5d018fa6c3e88cf84345e892de72ada9f2c489
+workflow-type: tm+mt
+source-wordcount: '299'
 ht-degree: 100%
 
 ---
@@ -38,7 +38,6 @@ ht-degree: 100%
 
 * **[ダイレクトメールの作成](create-direct-mail.md)** - ダイレクトメール配信を作成し、オフラインチャネル用の抽出ファイルを設定する方法について説明します。
 * **[ダイレクトメールチャネルの設定](direct-mail-configuration.md)** - ダイレクトメールサーフェスとファイルルーティング設定を指定します。
-* **[ジャーニーでのダイレクトメール](direct-mail-journeys.md)** - カスタマージャーニー内でダイレクトメールアクションを使用する方法について説明します。
 * **[ダイレクトメールのテストと送信](test-send-direct-mail.md)** - ダイレクトメール配信をテスト、検証、公開する方法について説明します。
 * **[ダイレクトメールのチュートリアル](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}** - ダイレクトメールの機能とベストプラクティスに関するステップバイステップのビデオチュートリアルを参照してください。
 

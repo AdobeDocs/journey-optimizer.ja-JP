@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: ジャーニー，質問，回答，トラブルシューティング，ヘルプ，ガイド，オーケストレーション
 version: Journey Orchestration
-source-git-commit: 63d37e1cb4042323eb764350dc2c89b5483ccae3
+source-git-commit: bf5d018fa6c3e88cf84345e892de72ada9f2c489
 workflow-type: tm+mt
-source-wordcount: '5233'
-ht-degree: 99%
+source-wordcount: '5231'
+ht-degree: 98%
 
 ---
 
@@ -225,7 +225,7 @@ CJA オーディエンスはジャーニーで直接サポートされていま�
 
 +++ ジャーニーでプロファイルにメッセージを送信できますか？
 
-はい。Journey Optimizer には、メール、プッシュ通知、SMS／MMS／RCS、アプリ内メッセージ、web エクスペリエンス、コードベースのエクスペリエンス、ダイレクトメール、コンテンツカード、WhatsApp、LINE を通じてメッセージを送信できる&#x200B;**ビルトインのチャネルアクション**&#x200B;が含まれています。Journey Optimizer でメッセージコンテンツを直接デザインし、ジャーニーのアクションアクティビティとして追加できます。
+はい。Journey Optimizerには、メール、プッシュ通知、SMS/MMS/RCS、アプリ内メッセージ、web エクスペリエンス、コードベースのエクスペリエンス、コンテンツカード、WhatsApp および LINE を通じてメッセージを送信できる **組み込みのチャネルアクション** が含まれています。 Journey Optimizer でメッセージコンテンツを直接デザインし、ジャーニーのアクションアクティビティとして追加できます。
 
 ネイティブでサポートされていないチャネルの場合は、**カスタムアクション**&#x200B;を使用して外部メッセージプラットフォームと統合し、任意のサードパーティチャネルを通じてメッセージを送信できます。
 
