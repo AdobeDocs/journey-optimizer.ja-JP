@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: ダイレクトメール, メッセージ, キャンペーン
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 5f2ccb102d08151da5616ef42559164f29542e5d
-workflow-type: ht
-source-wordcount: '781'
-ht-degree: 100%
+source-git-commit: ef109382448b013398b83714b0f5e85f428ffadd
+workflow-type: tm+mt
+source-wordcount: '787'
+ht-degree: 97%
 
 ---
 
@@ -30,12 +30,7 @@ ht-degree: 100%
 >1. [ファイルのルーティング設定](../direct-mail/direct-mail-configuration.md#file-routing-configuration)：抽出ファイルをアップロードして保存するサーバーを指定します。
 >1. [ダイレクトメールメッセージ設定](../direct-mail/direct-mail-configuration.md#direct-mail-surface)：ファイルのルーティング設定を参照します。
 
-
 ## ダイレクトメールキャンペーンの作成{#create-dm-campaign}
-
->[!AVAILABILITY]
->
->ダイレクトメールは、ホールドアウト機能をサポートしていますが、現在、処理はサポートしていません。
 
 ダイレクトメールキャンペーンを作成するには、スケジュール済みキャンペーンを設定し、ターゲットオーディエンスを選択して、メッセージ設定を含むダイレクトメール設定を指定します。次の手順に従います。
 
@@ -62,6 +57,10 @@ ht-degree: 100%
 1. 使用する&#x200B;**[!UICONTROL ダイレクトメール設定]**&#x200B;を選択または作成します。[ダイレクトメール設定の作成方法について詳しくは、こちらを参照してください](direct-mail-configuration.md#direct-mail-surface)。
 
    ![](assets/direct-mail-campaign.png){width="800" align="center"}
+
+   >[!AVAILABILITY]
+   >
+   >ダイレクトメールは **除外** 機能をサポートしていますが、現在 **処理** はサポートしていません。 [ 実験の操作方法を学ぶ ](../content-management/get-started-experiment.md)
 
 1. キャンペーンは特定の日付にスケジュールすることも、定期的に繰り返すように設定することもできます。キャンペーンの&#x200B;**[!UICONTROL スケジュール]**&#x200B;を設定する方法については、[この節](../campaigns/campaign-schedule.md)を参照してください。
 
