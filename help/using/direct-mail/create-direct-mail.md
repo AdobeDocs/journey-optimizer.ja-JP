@@ -60,7 +60,7 @@ ht-degree: 97%
 
    >[!AVAILABILITY]
    >
-   >ダイレクトメールは **除外** 機能をサポートしていますが、現在 **処理** はサポートしていません。 [ 実験の操作方法を学ぶ ](../content-management/get-started-experiment.md)
+   >ダイレクトメールは **除外** 機能をサポートしていますが、現在 **処理** はサポートしていません。 [&#x200B; 実験の操作方法を学ぶ &#x200B;](../content-management/get-started-experiment.md)
 
 1. キャンペーンは特定の日付にスケジュールすることも、定期的に繰り返すように設定することもできます。キャンペーンの&#x200B;**[!UICONTROL スケジュール]**&#x200B;を設定する方法については、[この節](../campaigns/campaign-schedule.md)を参照してください。
 
