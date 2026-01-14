@@ -202,5 +202,5 @@ Journey Optimizer の機能を示す次の実用的な例から学びます。
 
 1. **小規模から開始**：シンプルなウェルカムジャーニーや単一メッセージキャンペーンを作成して、プラットフォームを学びます
 2. **AI を活用**：AI アシスタントを使用して質問し、コンテンツ作成を高速化します
-3. **コミュニティに参加**：[Experience League コミュニティ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}で他の Journey Optimizer ユーザーとつながります。
+3. **コミュニティに参加**：[Experience League コミュニティ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"}で他の Journey Optimizer ユーザーとつながります。
 4. **チュートリアルを探索**：[Experience League](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=ja){target="_blank"} のステップバイステップのビデオをご覧ください
