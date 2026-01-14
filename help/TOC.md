@@ -8,7 +8,7 @@ solution: Journey Optimizer
 source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
 workflow-type: tm+mt
 source-wordcount: '3061'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 98%
 + ジャーニー {#orchestrate-journeys}
    + [ジャーニーの基本を学ぶ](using/building-journeys/journey.md)
    + [ジャーニー入門ガイド](using/building-journeys/journey-get-started.md)
-   + [ジャーニーの種類と選択ガイド](using/building-journeys/journey-types-selection.md)
+   + [ジャーニータイプと選択ガイド](using/building-journeys/journey-types-selection.md)
    + [Journey Orchestration に関する FAQ](using/building-journeys/journey-faq.md)
    + ジャーニーの作成 {#create-journey}
       + [ジャーニーの作成](/help/rp_landing_pages/create-journey-landing-page.md)
@@ -68,7 +68,7 @@ ht-degree: 98%
    + ジャーニーの管理 {#manage-journey}
       + [ジャーニーの管理](/help/rp_landing_pages/manage-journey-landing-page.md)
       + [ジャーニーの参照とフィルタリング](using/building-journeys/journey-ui.md)
-      + [タグを使用して整理](using/building-journeys/tags.md)
+      + [タグを使用した整理](using/building-journeys/tags.md)
       + [ジャーニーのプロファイルエントリ](using/building-journeys/entry-management.md)
       + [ジャーニーの補足識別子の使用](using/building-journeys/supplemental-identifier.md)
       + [ジャーニーステップイベントの操作](using/reports/journey-step-events-overview.md)
@@ -157,8 +157,8 @@ ht-degree: 98%
       + [キャンペーンのレビューとアクティブ化](using/campaigns/review-activate-api-triggered-campaign.md)
       + [キャンペーン実行のトリガー](using/campaigns/trigger-campaigns.md)
       + [API トリガーメールキャンペーンの高スループットモードのアクティブ化](using/campaigns/api-triggered-high-throughput.md)
-   + 調整されたキャンペーン {#orchestrated-campaigns}
-      + [調整されたキャンペーン](/help/rp_landing_pages/orchestrated-campaigns-landing-page.md)
+   + オーケストレーションキャンペーン {#orchestrated-campaigns}
+      + [オーケストレーションキャンペーン](/help/rp_landing_pages/orchestrated-campaigns-landing-page.md)
       + [オーケストレーションキャンペーンの基本を学ぶ](using/orchestrated/gs-orchestrated-campaigns.md)
       + [ガードレールと制限](using/orchestrated/guardrails.md)
       + [よくある質問](using/orchestrated/orchestrated-campaigns-faq.md)
@@ -237,7 +237,7 @@ ht-degree: 98%
       + [リクエストの承認](using/test-approve/review-approve-request.md)
 + 監視とトラブルシューティング {#monitor}
    + [監視とトラブルシューティングの基本を学ぶ](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)
-   + [Journey Optimizerでのトラッキング](using/start/get-started-tracking.md)
+   + [Journey Optimizer のトラッキング](using/start/get-started-tracking.md)
    + メールの配信品質 {#deliverability}
       + [配信品質の基本を学ぶ](using/reports/deliverability.md)
       + [抑制リストについて](using/reports/suppression-list.md)
@@ -246,7 +246,7 @@ ht-degree: 98%
       + [システムアラート](using/reports/alerts.md)
       + [エラーコードの参照](using/building-journeys/error-codes-reference.md)
    + トラブルシューティング {#troubleshooting}
-      + [トラブルシューティング FAQ](using/start/troubleshooting.md)
+      + [トラブルシューティングに関する FAQ](using/start/troubleshooting.md)
       + ジャーニーのトラブルシューティング {#troubleshoot-journey}
          + [ジャーニーエラーのトラブルシューティング](using/building-journeys/troubleshooting.md)
          + [ジャーニー実行のトラブルシューティング](using/building-journeys/troubleshooting-execution.md)
@@ -727,9 +727,9 @@ ht-degree: 98%
          + [意思決定管理レポートの作成](/help/rp_landing_pages/create-reports-landing-page.md)
          + [意思決定管理イベントの操作](using/offers/reports/get-started-events.md)
          + [イベントの XDM フィールドへのアクセス](using/offers/reports/xdm-fields.md)
-      + オファーカタログの書き出し {#export-catalog}
-         + [オファーカタログの書き出し](/help/rp_landing_pages/export-catalog-landing-page.md)
-         + [オファーカタログエクスポートの基本を学ぶ](using/offers/export-catalog/get-started-export.md)
+      + オファーカタログのエクスポート {#export-catalog}
+         + [オファーカタログのエクスポート](/help/rp_landing_pages/export-catalog-landing-page.md)
+         + [オファーカタログの書き出しの基本を学ぶ](using/offers/export-catalog/get-started-export.md)
          + [エクスポートしたオファーカタログへのアクセス](using/offers/export-catalog/access-dataset.md)
          + [パーソナライズされたオファーデータセット](using/offers/export-catalog/export-offers.md)
          + [決定データセット](using/offers/export-catalog/export-decisions.md)
@@ -934,7 +934,7 @@ ht-degree: 98%
    + [プライバシー](/help/rp_landing_pages/privacy-landing-page.md)
    + [プライバシーの基本を学ぶ](using/privacy/get-started-privacy.md)
    + [プライバシーリクエスト](using/privacy/requests.md)
-   + [&#x200B; リソースに対する監査アクション](using/privacy/audit-logs.md)
+   + [ リソースに対する監査アクション](using/privacy/audit-logs.md)
    + [データライフサイクル操作の実行](using/privacy/data-hygiene.md)
    + 同意を管理 {#consent}
       + [同意を管理](/help/rp_landing_pages/consent-landing-page.md)
