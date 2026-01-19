@@ -9,10 +9,10 @@ level: Intermediate
 keywords: 再エントリ, ジャーニー, 終了, ライブ, 停止
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
-source-git-commit: 03e9d4205f59a32347cd1702b24bfbad2bf540b9
+source-git-commit: 63f7b09d8b8de578c32ba0f5d6fdd6b2f5786722
 workflow-type: tm+mt
-source-wordcount: '967'
-ht-degree: 92%
+source-wordcount: '994'
+ht-degree: 88%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 92%
 
 >[!TIP]
 >
->プロファイルをジャーニーから離脱させるタイミングと方法に関する実践的なガイダンスをお探しですか？ 実際の出口シナリオ、ベストプラクティス、設定ガイダンスが含まれている、アドビの [&#x200B; ジャーニーのエントリ条件と終了条件の包括的なガイド &#x200B;](entry-exit-criteria-guide.md) を参照してください。
+>プロファイルをジャーニーから離脱させるタイミングと方法に関する実践的なガイダンスをお探しですか？ 実際の出口シナリオ、ベストプラクティス、設定ガイダンスが含まれている、アドビの [ ジャーニーのエントリ条件と終了条件の包括的なガイド ](entry-exit-criteria-guide.md) を参照してください。
 
 ## ライブジャーニーの終了方法
 
@@ -120,11 +120,11 @@ ht-degree: 92%
 
 >[!CAUTION]
 >
->ジャーニーを停止する権限は、**[!DNL Manage journeys]** の上位権限を持つユーザーに制限されます。[!DNL Journey Optimizer] ユーザーのアクセス権の管理について詳しくは、[この節](../administration/permissions-overview.md)を参照してください。
+>ジャーニーを停止するには、**[!DNL Manage journeys]** 権限が必要です。 ジャーニーにインラインキャンペーンまたはメッセージノードが含まれる場合、ユーザーには **キャンペーン/キャンペーンを公開** 権限も必要です。 ジャーニーでアセット（メールなど）を使用する場合、ユーザーはそれらのアセットフォルダーにアクセスできる必要があります。 [!DNL Journey Optimizer] ユーザーのアクセス権の管理について詳しくは、[この節](../administration/permissions-overview.md)を参照してください。
 
 ## 関連トピック
 
-* [ジャーニーの入退室条件ガイド &#x200B;](entry-exit-criteria-guide.md) – 実際の例とベストプラクティスが記載された完全なガイド
-* [&#x200B; プロファイルエントリ管理 &#x200B;](entry-management.md) - プロファイルがジャーニーにエントリする方法を設定します
-* [&#x200B; 終了条件の設定 &#x200B;](journey-properties.md#exit-criteria) - ジャーニーからの自動プロファイル削除の設定
-* [&#x200B; ジャーニーを一時停止 &#x200B;](journey-pause.md) - ジャーニーの実行を一時的に停止します
+* [ジャーニーの入退室条件ガイド ](entry-exit-criteria-guide.md) – 実際の例とベストプラクティスが記載された完全なガイド
+* [ プロファイルエントリ管理 ](entry-management.md) - プロファイルがジャーニーにエントリする方法を設定します
+* [ 終了条件の設定 ](journey-properties.md#exit-criteria) - ジャーニーからの自動プロファイル削除の設定
+* [ ジャーニーを一時停止 ](journey-pause.md) - ジャーニーの実行を一時的に停止します
