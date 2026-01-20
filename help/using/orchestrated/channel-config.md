@@ -87,4 +87,4 @@ ht-degree: 82%
 www.YourLandingURL.com?utm_source=AJO&utm_campaign={{context.system.source.id}}&utm_content={{context.system.source.actionName}}
 ```
 
-URL トラッキングパラメーターについて詳しくは、[ この節 ](../email/url-tracking.md) を参照してください。
+URL トラッキングパラメーターについて詳しくは、[&#x200B; この節 &#x200B;](../email/url-tracking.md) を参照してください。
