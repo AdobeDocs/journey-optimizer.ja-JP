@@ -5,10 +5,10 @@ title: 複数の手順のキャンペーンでのチャネルアクティビテ�
 description: 複数の手順のキャンペーンでのチャネルアクティビティの追加方法について説明します。
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: 5fea202c36720f58cc5610446ff0273ce891a17a
+source-git-commit: 2bdabace34546bd27c2e3c19a3aee3c8a3eae5f2
 workflow-type: tm+mt
 source-wordcount: '1126'
-ht-degree: 84%
+ht-degree: 82%
 
 ---
 
@@ -144,7 +144,7 @@ UNUSED IDs in BJ
 
    * **`Enrichment`**：キャンバス内の&#x200B;**[!UICONTROL エンリッチメント]**&#x200B;アクティビティを通じて追加されたデータを含めます。これにより、外部データセットまたはオーケストレーション中に組み込まれた追加ロジックに基づいて、メッセージをパーソナライズできます。[エンリッチメントアクティビティの使用方法の詳細情報](../activities/enrichment.md)
 
-パーソナライゼーションエディターの使用方法の概要について詳しくは、[パーソナライゼーションの基本を学ぶ](../../personalization/personalize.md)を参照してください。
+パーソナライゼーションエディターの使用方法について詳しくは、[ パーソナライゼーションの基本を学ぶ ](../../personalization/personalize.md) を参照してください。
 
 ## コンテンツの確認とテスト
 

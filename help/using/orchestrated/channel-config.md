@@ -4,10 +4,10 @@ product: journey optimizer
 title: チャネル設定の指定
 description: チャネル設定の指定方法について説明します。
 version: Campaign Orchestration
-source-git-commit: 0b92d0e806c47b0d87ba53b7c7f1d56ee4453abb
+source-git-commit: 2bdabace34546bd27c2e3c19a3aee3c8a3eae5f2
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 100%
+source-wordcount: '466'
+ht-degree: 82%
 
 ---
 
@@ -66,3 +66,25 @@ ht-degree: 100%
 1. 設定したら、「**[!UICONTROL 送信]**」をクリックします。
 
 これで、チャネルを&#x200B;**調整されたキャンペーン**&#x200B;で使用する準備が整い、選択したターゲットディメンションに従ってメッセージが配信されるようになりました。
+
+## URL トラッキングパラメーター {#url-tracking}
+
+チャネル設定を設定する際に、分析やレポートの目的でトラッキングするリンクにメタデータを追加することで、メールキャンペーンのパフォーマンスを監視する URL トラッキングパラメーターを定義できます。
+
+これを行うには、`{{context.system.source.*}}` の構文を使用して、オーケストレーションされたキャンペーンに固有のコンテキスト属性を使用できます。
+
+* **`context.system.source.id`**：調整されたキャンペーン ID
+* **`context.system.source.name`**：調整されたキャンペーン名
+* **`context.system.source.versionId`**：調整されたキャンペーンバージョン ID
+* **`context.system.source.actionId`**：チャネルアクションノード ID
+* **`context.system.source.actionName`**：チャネルアクションノード名
+* **`context.system.source.channel`**：チャネルタイプ（メール、SMS、プッシュ）
+* **`context.system.IdentityNamespace`**：使用される ID 名前空間
+
+例：
+
+```
+www.YourLandingURL.com?utm_source=AJO&utm_campaign={{context.system.source.id}}&utm_content={{context.system.source.actionName}}
+```
+
+URL トラッキングパラメーターについて詳しくは、[ この節 ](../email/url-tracking.md) を参照してください。
