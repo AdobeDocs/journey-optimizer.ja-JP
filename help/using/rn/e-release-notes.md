@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: a6e6e8fce90fbd730c049f8a39878a44cea9c73c
+source-git-commit: f7cdbb8f4a0e43a6a2fa15032d1376faf0424168
 workflow-type: tm+mt
-source-wordcount: '2168'
-ht-degree: 44%
+source-wordcount: '1990'
+ht-degree: 47%
 
 ---
 
@@ -312,16 +312,6 @@ ht-degree: 44%
 * **SMS Webhook：フェーズ II** – 説明を入力します。
 
 * **WhatsApp 再販オファー** – 提供する説明。
-
-* **WhatsApp チャネルの実行フィールド** - メールと SMS に加えて、サンドボックスレベルで WhatsApp 配信のデフォルトの実行フィールドを更新できるようになりました。 また、WhatsApp ジャーニーアクティビティの詳細設定パラメーターまたは WhatsApp チャネル設定で変更することで、グローバルに設定された実行フィールドを上書きすることもできます。 [詳細情報](../configuration/primary-email-addresses.md)
-
-  公開日：2025年10月22日（PT）
-
-* **カスタム属性による宛先（登録解除） アドレスのサポート** - Journey Optimizerを使用すると、Adobe外で同意を管理している場合、独自のワンクリック登録解除リンクとカスタム登録解除メールアドレスをメールコンフィギュレーションに定義することで、外部カスタムエンドポイントを設定できます。 受信者が購読解除リンクをクリックすると、Journey Optimizerによって、プロファイル固有のデフォルトのパラメーターが同意更新イベントに追加されます。 カスタムエンドポイントをさらにパーソナライズするために、同意イベントにも追加されるカスタム属性を定義できるようになりました。 [詳細情報](../email/list-unsubscribe.md#custom-attributes)
-
-  **注意**：この機能は、8 月 25 日（PT）以降、カスタム **[!UICONTROL ワンクリック登録解除 URL]** で既に使用でき、限定提供で **[!UICONTROL 宛先（登録解除）]** オプション用にリリースされました。 アクセス権を取得するには、アドビ担当者にお問い合わせください。
-
-  公開日：2025年10月6日（PT）
 
 #### E メールデザイナー
 
