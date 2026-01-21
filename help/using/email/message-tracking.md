@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: リンク, トラッキング, 監視, メール
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+source-git-commit: 288e3418b7152410166ddb9e520997933f1f589c
 workflow-type: tm+mt
-source-wordcount: '1344'
-ht-degree: 97%
+source-wordcount: '1380'
+ht-degree: 95%
 
 ---
 
@@ -96,6 +96,10 @@ ht-degree: 97%
 >マーケティングタイプの電子メールメッセージには、[オプトアウトリンク](../privacy/opt-out.md#opt-out-decision-management)を含める必要があります。これはトランザクションメッセージには必要ありません。メッセージカテゴリ（**[!UICONTROL マーケティング]**&#x200B;または&#x200B;**[!UICONTROL トランザクション]**）は、メッセージの作成時に[チャネル設定](email-settings.md#email-type)に定義されます。
 
 メッセージが送信されると、リンクは **25 か月**&#x200B;間保持されます。遅延が経過した後は、そのリンクを使用できなくなります。
+
+>[!CAUTION]
+>
+>ボタンの **label** と **URL** の両方がフラグメントで編集可能になると、トラッキングレポートには、ボタンラベルではなく URL が表示されます。 トラッキングデータセットの「`_experience.customerJourneyManagement.messageInteraction.label`」フィールドには、URL 値が記録されます。
 
 ## ミラーページへのリンク {#mirror-page}
 
