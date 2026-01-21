@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 25a00f74-ed08-479c-9a5d-4185b5f3c684
-source-git-commit: 288e3418b7152410166ddb9e520997933f1f589c
+source-git-commit: 60907756a261c1f672944eccefbfe2ee90d0d017
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1028'
 ht-degree: 97%
 
 ---
@@ -111,10 +111,6 @@ ht-degree: 97%
 
 選択したフラグメントの一部が編集可能になっている場合は、そのフラグメントをコンテンツに追加した後で、そのデフォルト値を上書きできます。[詳しくは、フラグメントをカスタマイズ可能にする方法を参照してください](../content-management/customizable-fragments.md)
 
->[!CAUTION]
->
->ボタンコンポーネントの **label** と **URL** の両方がフラグメントで編集可能な場合、トラッキングレポートには、ボタンラベルではなく URL が表示されます。<!--If accurate label tracking is critical for your reporting, one potential approach is to break the inheritance on the fragment after adding it to your email, though note that this disconnects the fragment from centralized updates. [Learn more about breaking inheritance](#break-inheritance)-->
-
 フラグメント内の編集可能フィールドをカスタマイズするには、次の手順に従います。
 
 1. コンテンツにフラグメントを追加します。
@@ -128,6 +124,10 @@ ht-degree: 97%
    次の例では、画像の&#x200B;**ソース**&#x200B;と&#x200B;**代替テキスト**&#x200B;のほか、「ここをクリック」ボタンの **URL** が編集可能です。
 
    ![](assets/fragment-editable.png)
+
+>[!CAUTION]
+>
+>ボタンコンポーネントの **label** と **URL** の両方がフラグメントで編集可能になると、トラッキングレポートには、ボタンラベルではなく URL が表示されます。 [詳しくは、トラッキングを参照してください](../email/message-tracking.md)
 
 ## 継承の解除 {#break-inheritance}
 

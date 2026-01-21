@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
-source-git-commit: 288e3418b7152410166ddb9e520997933f1f589c
+source-git-commit: 60907756a261c1f672944eccefbfe2ee90d0d017
 workflow-type: tm+mt
-source-wordcount: '1498'
+source-wordcount: '1502'
 ht-degree: 98%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 98%
 
 >[!CAUTION]
 >
->ボタンコンポーネントの **label** と **URL** の両方がフラグメントで編集可能になると、トラッキングレポートには、ボタンラベルではなく URL が表示されます。<!--If accurate label tracking is critical for your reporting, one potential approach is to break the inheritance on the fragment after adding it to your email, though note that this disconnects the fragment from centralized updates.-->
+>ボタンコンポーネントの **label** と **URL** の両方がフラグメントで編集可能になると、トラッキングレポートには、ボタンラベルではなく URL が表示されます。 [詳しくは、トラッキングを参照してください](../email/message-tracking.md)
 
 ## HTML コンポーネントと式フラグメントへの編集可能なフィールドの追加 {#expression}
 
@@ -199,5 +199,5 @@ HTML コンポーネントを使用して、改行、太字、斜体などのリ
 
 This video shows how to make HTML components within a fragment editable, allowing for dynamic updates to both content and styling.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464369/?captions=jpn&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
 -->
