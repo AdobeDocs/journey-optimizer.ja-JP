@@ -12,10 +12,10 @@ badge: label="限定提供" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 7b50c933-9738-4b1b-acae-08f0a8d41dab
-source-git-commit: c62653af3c1eacaaf55dcf181d33f2253521e33d
+source-git-commit: 8bc0d28ea3e7c26bd8f7a35d00a73e41f35720d0
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 100%
+source-wordcount: '513'
+ht-degree: 85%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_msg_export"
 >title="送信済みコンテンツを保持および書き出し"
->abstract="このオプションを選択すると、この設定を使用して送信済みメールまたは SMS メッセージのコンテンツを [!DNL Experience Platform] データセットに書き込むことができます。レコードは 3 日間保持され、その間、独自のストレージに書き出すことができます。"
+>abstract="このオプションを選択すると、この設定を使用して送信済みメールまたは SMS メッセージのコンテンツを [!DNL Experience Platform] データセットに書き込むことができます。レコードは取り込み後 7 日間保持され、その間、独自のストレージに書き出すことができます。"
 
 >[!AVAILABILITY]
 >
@@ -34,18 +34,18 @@ ht-degree: 100%
 
 この機能を使用すると、[!DNL Journey Optimizer] 経由で送信され、書き出し対象としてマークされたメールと SMS メッセージのコンテンツが、[!DNL Experience Platform] **AJO メッセージの書き出しデータセット**&#x200B;に書き込まれます。
 
-その後、レコードは **AJO メッセージの書き出しデータセット**&#x200B;に 3 日間保持され、その間に任意の外部システムに書き出しすることができます。
+レコードはその後、取り込みから 7 暦日間 **AJO メッセージ書き出しデータセット } に保持され、その間、選択した外部システムに書き出すことができます。**
 <!--
 ## Terminology
 
-* **[!DNL Experience Platform] destinations** - Framework to deliver data out of Experience Platform into external endpoints. [Learn more](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/home){target="_blank"}
+* **[!DNL Experience Platform] destinations** - Framework to deliver data out of Experience Platform into external endpoints. [Learn more](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home){target="_blank"}
 * **AJO Message Export Dataset** - An [!DNL Experience Platform] dataset which stores the message content of email and SMS messages sent via [!DNL Journey Optimizer] which have been marked for export.
 * **Retention**: Records in the AJO Message Export Dataset are retained for 3 calendar days from ingestion.-->
 
 ## ガードレール
 
 * この機能は、メールと SMS チャネルのみをサポートします。
-* AJO メッセージの書き出しデータセット内のレコードは、取り込みから 3 日間保持されます。
+* AJO メッセージ書き出しデータセットのレコードは、取り込みから 7 カレンダー日間保持されます。
 * 以下に説明するように、メッセージの書き出しを有効にする前に送信されたメッセージでは、バックフィルはサポートされません。
 
 ## メッセージの書き出しを有効化 {#enable-message-export}
@@ -75,7 +75,7 @@ ht-degree: 100%
 
    * ソースデータセット:「**AJO メッセージの書き出しデータセット**」を選択します。
    * ファイル形式：「JSON」または「Parquet」を選択します（ダウンストリームツールに基づいていずれかを選択します）。
-   * スケジュール：3 日間の保持期間内に実行されることを確認します。
+   * スケジュール：7 日間の保持期間内に実行されるようにします。
 
 ### チャネル設定でメッセージの書き出しを有効化 {#config-message-export}
 
