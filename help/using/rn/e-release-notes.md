@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 5cdb4e9f8e01a2db17d2c831178053db620286eb
+source-git-commit: a6e6e8fce90fbd730c049f8a39878a44cea9c73c
 workflow-type: tm+mt
-source-wordcount: '1779'
-ht-degree: 41%
+source-wordcount: '2168'
+ht-degree: 44%
 
 ---
 
@@ -231,6 +231,65 @@ ht-degree: 41%
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>アクションキャンペーンを取得する新しい API</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>新しい Journey Optimizer API が使用可能になり、詳細、バージョン、設定などのキャンペーン関連データをプログラムで取得および検査できるようになりました。</p>
+<p>詳しくは、<a href="https://developer.adobe.com/journey-optimizer-apis/references/campaigns-retrieve/">詳細なドキュメント</a>を参照してください。</p>
+<p>公開日：2025年11月24日（PT）</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>新しいジャーニーアラート</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>ジャーニーのライフサイクルイベントとカスタムアクションのパフォーマンスを監視および追跡するのに役立つ、次の 3 つの新しいジャーニーアラートが使用できるようになりました。</p>
+<ul>
+<li><strong>ジャーニーが公開されました</strong>：ジャーニーキャンバスで実務担当者がジャーニーを公開した際に通知を受信します。</li>
+<li><strong>ジャーニーが完了しました</strong>：ジャーニーが完了した際に、ジャーニーのタイプ（オーディエンスを読み取りまたはイベントトリガー）に基づいた特定の定義を使用してアラートを受信します。</li>
+<li><strong>カスタムアクションキャップがトリガーされました</strong>：カスタムアクションエンドポイントでキャッピングをアクティブ化した際に通知されます。</li>
+</ul>
+<p>これらのアラートは、組織レベルまたは特定のジャーニーごとに登録できます。</p>
+<p>詳しくは、<a href="../reports/alerts.md#journey-alerts">詳細なドキュメント</a>を参照してください。</p>
+<p>公開日：2025年11月5日（PT）</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>E メールデザイナーのテーマ</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>事前承認済みのテーマをすばやく適用して、すべてのメールにわたってブランドの一貫性を確保し、キャンペーン作成プロセスを高速化し、デザインチームへの依存を減らしながら高品質のメールを独自に作成できるようになりました。</p>
+<p>この機能は、以前はベータ版でリリースされていましたが、現在は一部の組織で使用できるようになりました（限定提供）。アクセスするには、アドビ担当者にお問い合わせください。</p>
+<img src="assets/do-not-localize/themes.gif">
+<p>詳しくは、<a href="../email/apply-email-themes.md">詳細なドキュメント</a>を参照してください。</p>
+<p>公開日：2025年11月5日（PT）</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ### 機能強化 {#jan-26-01-improv}
 
 このリリースに含まれる機能強化を以下に示します。
@@ -253,6 +312,16 @@ ht-degree: 41%
 * **SMS Webhook：フェーズ II** – 説明を入力します。
 
 * **WhatsApp 再販オファー** – 提供する説明。
+
+* **WhatsApp チャネルの実行フィールド** - メールと SMS に加えて、サンドボックスレベルで WhatsApp 配信のデフォルトの実行フィールドを更新できるようになりました。 また、WhatsApp ジャーニーアクティビティの詳細設定パラメーターまたは WhatsApp チャネル設定で変更することで、グローバルに設定された実行フィールドを上書きすることもできます。 [詳細情報](../configuration/primary-email-addresses.md)
+
+  公開日：2025年10月22日（PT）
+
+* **カスタム属性による宛先（登録解除） アドレスのサポート** - Journey Optimizerを使用すると、Adobe外で同意を管理している場合、独自のワンクリック登録解除リンクとカスタム登録解除メールアドレスをメールコンフィギュレーションに定義することで、外部カスタムエンドポイントを設定できます。 受信者が購読解除リンクをクリックすると、Journey Optimizerによって、プロファイル固有のデフォルトのパラメーターが同意更新イベントに追加されます。 カスタムエンドポイントをさらにパーソナライズするために、同意イベントにも追加されるカスタム属性を定義できるようになりました。 [詳細情報](../email/list-unsubscribe.md#custom-attributes)
+
+  **注意**：この機能は、8 月 25 日（PT）以降、カスタム **[!UICONTROL ワンクリック登録解除 URL]** で既に使用でき、限定提供で **[!UICONTROL 宛先（登録解除）]** オプション用にリリースされました。 アクセス権を取得するには、アドビ担当者にお問い合わせください。
+
+  公開日：2025年10月6日（PT）
 
 #### E メールデザイナー
 
