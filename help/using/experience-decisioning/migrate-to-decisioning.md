@@ -62,11 +62,11 @@ Adobe Journey Optimizerの次世代の意思決定フレームワークおよび
 
 ### その他の機能
 
-* **ポリシーの適用**：ビジネスユーザーの権限を強化し、Decisioning 内で [ データ使用のラベル付けと適用（DULE） ](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/overview){target="_blank"} および [ 同意 ](../action/consent.md) などの機能を使用し、決定ワークフロー全体でプライバシーシールド保護を有効にします。 これにより、決定がデータ使用ポリシーおよび顧客の同意環境設定に自動的に従うようにします。
+* **ポリシーの適用**：ビジネスユーザーの権限を強化し、Decisioning 内で [&#x200B; データ使用のラベル付けと適用（DULE） &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/overview){target="_blank"} および [&#x200B; 同意 &#x200B;](../action/consent.md) などの機能を使用し、決定ワークフロー全体でプライバシーシールド保護を有効にします。 これにより、決定がデータ使用ポリシーおよび顧客の同意環境設定に自動的に従うようにします。
 
-* **ネイティブメッセージチャネルのサポート**：複数のチャネル（[ コードベースのエクスペリエンス ](../code-based/get-started-code-based.md) および [ メール ](../email/get-started-email.md) が現在利用可能で、2026 年第 1 四半期に予定されているその他のチャネル）にわたって 1 つのフレームワーク内でメッセージングと意思決定を統合します。 直感的な UI のサポートにより、ユーザーは、メッセージオーサリングワークフローに決定コンポーネントを直接挿入できます。
+* **ネイティブメッセージチャネルのサポート**：複数のチャネル（[&#x200B; コードベースのエクスペリエンス &#x200B;](../code-based/get-started-code-based.md) および [&#x200B; メール &#x200B;](../email/get-started-email.md) が現在利用可能で、2026 年第 1 四半期に予定されているその他のチャネル）にわたって 1 つのフレームワーク内でメッセージングと意思決定を統合します。 直感的な UI のサポートにより、ユーザーは、メッセージオーサリングワークフローに決定コンポーネントを直接挿入できます。
 
-* **Experience Platform データセットのルックアップ**: オファーの選択ルール、ランキング、パーソナライズされたオファーコンテンツ内で [2}Adobe Experience Platform データセット } を直接アップロードおよび参照する機能。 ](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/overview){target="_blank"}これにより、決定ロジックで動的外部データソースを使用できるようになり、パーソナライゼーションとターゲティングの柔軟性が向上します。 [詳細情報](../data/lookup-aep-data.md)
+* **Experience Platform データセットのルックアップ**: オファーの選択ルール、ランキング、パーソナライズされたオファーコンテンツ内で [2&rbrace;Adobe Experience Platform データセット &rbrace; を直接アップロードおよび参照する機能。 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/overview){target="_blank"}これにより、決定ロジックで動的外部データソースを使用できるようになり、パーソナライゼーションとターゲティングの柔軟性が向上します。 [詳細情報](../data/lookup-aep-data.md)
 
 * **スケーラビリティとパフォーマンス**：決定計算をハブからエッジに移動させるアーキテクチャの強化。待ち時間が大幅に削減され、高トラフィックのユースケースのスループットが向上します。
 
