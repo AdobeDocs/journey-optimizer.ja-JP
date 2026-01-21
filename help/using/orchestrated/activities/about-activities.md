@@ -5,10 +5,10 @@ title: 調整されたキャンペーンアクティビティの操作
 description: 調整されたキャンペーンアクティビティの操作方法について説明します。
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
 version: Campaign Orchestration
-source-git-commit: 4d5505cbb46bdff846218bfc3657c6a6e5447af3
+source-git-commit: 43fa71d7ec05e8c4b1ccd8d8c0ff8727128f5030
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 100%
+source-wordcount: '411'
+ht-degree: 99%
 
 ---
 
@@ -61,6 +61,11 @@ Adobe Journey Optimizer を使用すると、複数のチャネル間でマー�
 >id="ajo_orchestration_end"
 >title="終了アクティビティ"
 >abstract="**終了**&#x200B;アクティビティを使用すると、調整されたキャンペーンの終了をグラフィカルに示すことができます。このアクティビティは、機能上の影響はないので、省略可能です。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_signal"
+>title="外部シグナル"
+>abstract="外部シグナル"
 
 次のアクティビティは、オーケストレーションキャンペーンの整理と実行に固有です。主なタスクは、他のアクティビティの調整です。
 
