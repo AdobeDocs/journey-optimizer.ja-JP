@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: f7cdbb8f4a0e43a6a2fa15032d1376faf0424168
+source-git-commit: 07c2ec1b0bcb9d41a607fd4eeb90eee2d7b45eca
 workflow-type: tm+mt
-source-wordcount: '1990'
-ht-degree: 47%
+source-wordcount: '1934'
+ht-degree: 46%
 
 ---
 
@@ -156,29 +156,13 @@ ht-degree: 47%
 <table>
 <thead>
 <tr>
-<th><strong>プッシュチャネルでの決定のサポート</strong><br/></th>
+<th><strong>プッシュおよび SMS チャネルでの決定のサポート</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>決定ポリシーをプッシュ通知ジャーニーおよびキャンペーンに追加できるようになりました。 決定ポリシーは、配信する最適なコンテンツを各オーディエンスメンバーに応じて動的に返すことを目的に、決定エンジンを活用するオファーのためのコンテナです。</p>
-<p>この機能は、一連の組織でのみ使用できます（限定提供）。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>SMS チャネルでの決定のサポート</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>決定ポリシーを SMS ジャーニーおよびキャンペーンに追加できるようになりました。 決定ポリシーは、配信する最適なコンテンツを各オーディエンスメンバーに応じて動的に返すことを目的に、決定エンジンを活用するオファーのためのコンテナです。</p>
+<p>プッシュおよび SMS ジャーニーとキャンペーンに決定ポリシーを追加できるようになりました。 決定ポリシーは、配信する最適なコンテンツを各オーディエンスメンバーに応じて動的に返すことを目的に、決定エンジンを活用するオファーのためのコンテナです。</p>
 <p>この機能は、一連の組織でのみ使用できます（限定提供）。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
 </td>
 </tr>
