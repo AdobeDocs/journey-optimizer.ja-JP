@@ -7,7 +7,7 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 7f300d46ec6705ccef2d14a2c84c13a63f66f756
+source-git-commit: 9605b5bec688c5afcbcc7b391218cdef6cb3b196
 workflow-type: tm+mt
 source-wordcount: '2342'
 ht-degree: 22%
@@ -25,7 +25,7 @@ ht-degree: 22%
 
 詳しくは、[Adobe Experience Platform プレリリースノート](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}も参照してください。
 
-**リリース日**：2026年1月26日（PT）
+**リリース日**：2026年1月27日（PT）
 
 ### 新機能 {#jan-26-01-features}
 
