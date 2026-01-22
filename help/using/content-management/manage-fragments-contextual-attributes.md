@@ -9,10 +9,10 @@ role: User
 level: Intermediate, Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 5a1a356d6bf0dbd5290b2cf8257d87aa7db43b5b
+source-git-commit: 69efe0254aae3cb067f2c9f89db6aa4fe0a50549
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 5%
+source-wordcount: '358'
+ht-degree: 4%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 5%
 >
 >この機能は一部のお客様のみが利用でき、重大なリスクが伴います。 この機能が組織で有効になっていることをAdobe担当者に確認します。
 
-デフォルトでは、公開されたフラグメントへの新しい [&#x200B; パーソナライゼーション属性 &#x200B;](../personalization/personalization-build-expressions.md) の追加はサポートされていません。 フラグメントが公開されると、すべてのキャンペーンおよびジャーニーで、一連のプロファイルまたはコンテキスト属性がロックされます。
+デフォルトでは、公開されたフラグメントへの新しい [ パーソナライゼーション属性 ](../personalization/personalization-build-expressions.md) の追加はサポートされていません。 フラグメントが公開されると、すべてのキャンペーンおよびジャーニーで、一連のプロファイルまたはコンテキスト属性がロックされます。
 
 ただし、一部の顧客については、公開済みのフラグメントにのみ **コンテキスト属性** を追加することが可能です。
 
@@ -44,7 +44,7 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
->フラグメントを参照するジャーニーとキャンペーンへの影響を十分に理解している場合にのみ続行します。 [詳細情報](#limitations)
+>フラグメントを参照するジャーニーとキャンペーンで完全に [ 影響を理解 ](#limitations) した場合にのみ続行します。
 
 1. **[!UICONTROL コンテンツ管理]**/**[!UICONTROL フラグメント]** に移動します。
 
@@ -56,11 +56,7 @@ ht-degree: 5%
 
 1. パーソナライゼーションエディターで **[!UICONTROL コードエディター]** または **[!UICONTROL 詳細設定モード]** に切り替えます。
 
-1. 次の構文を使用して、コンテキスト属性を手動で入力またはコピーして貼り付けます。
-
-   ```
-   {{context.attribute_name}}
-   ```
+1. `{{context.attribute_name}}` の構文を使用して、コンテキスト属性を手動で入力またはコピーして貼り付けます。
 
    `promotionCode` 属性の例：
 
