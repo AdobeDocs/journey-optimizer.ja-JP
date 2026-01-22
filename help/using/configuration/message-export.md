@@ -34,11 +34,11 @@ ht-degree: 85%
 
 この機能を使用すると、[!DNL Journey Optimizer] 経由で送信され、書き出し対象としてマークされたメールと SMS メッセージのコンテンツが、[!DNL Experience Platform] **AJO メッセージの書き出しデータセット**&#x200B;に書き込まれます。
 
-レコードはその後、取り込みから 7 暦日間 **AJO メッセージ書き出しデータセット &rbrace; に保持され、その間、選択した外部システムに書き出すことができます。**
+レコードはその後、取り込みから 7 暦日間 **AJO メッセージ書き出しデータセット } に保持され、その間、選択した外部システムに書き出すことができます。**
 <!--
 ## Terminology
 
-* **[!DNL Experience Platform] destinations** - Framework to deliver data out of Experience Platform into external endpoints. [Learn more](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/home){target="_blank"}
+* **[!DNL Experience Platform] destinations** - Framework to deliver data out of Experience Platform into external endpoints. [Learn more](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home){target="_blank"}
 * **AJO Message Export Dataset** - An [!DNL Experience Platform] dataset which stores the message content of email and SMS messages sent via [!DNL Journey Optimizer] which have been marked for export.
 * **Retention**: Records in the AJO Message Export Dataset are retained for 3 calendar days from ingestion.-->
 
