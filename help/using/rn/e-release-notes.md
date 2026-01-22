@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: d1d544b484eb92fd29d0f3f2dc637c8617394304
+source-git-commit: 3ea5dd845569508421092bdf53634619354206e2
 workflow-type: tm+mt
-source-wordcount: '2358'
-ht-degree: 23%
+source-wordcount: '2407'
+ht-degree: 22%
 
 ---
 
@@ -172,13 +172,19 @@ ht-degree: 23%
 <table>
 <thead>
 <tr>
-<th><strong>メッセージのエクスポート</strong><br/></th>
+<th><strong>メッセージの書き出し</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>アーカイブやコンプライアンスの目的で、特定のデータセットに <strong> 送信済み配信を書き出す </strong> ことができるようになりました。 この機能は、メールだけでなく、SMS などの他のチャネルでも使用できます。 メッセージ書き出しデータセットのデータ保持が <strong>7 日 </strong> になりました。</p>
+<p>メールおよび SMS チャネルで新しい <strong> メッセージエクスポート </strong> 機能が使用できるようになりました。 この機能を使用すると、送信されたメッセージコンテンツを専用のExperience Platform データセットに自動的にエクスポートし、次のことが可能になります。</p>
+<ul>
+<li>コンプライアンス要件（HIPAA など）を満たす</li>
+<li>法的請求およびカスタマーケアに関する問い合わせに対するメッセージのアーカイブ</li>
+<li>個人に送信されたパーソナライズされたコンテンツのコピーを保持</li>
+</ul>
+<p>レコードは、取り込みから <strong>7 カレンダー日間 </strong>、AJO メッセージ書き出しデータセットに保持されます。 この保持期間中に、Experience Platformの宛先を介して独自のストレージにデータを書き出すことができます。 この機能はチャネル設定レベルで有効になり、書き出されるメッセージを詳細に制御できます。</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-12915">DOCAC JIRA タスクへのリンク </a> | <a href="https://jira.corp.adobe.com/browse/CJM-105313"> 製品 JIRA タスクへのリンク </a></p>
 </td>
 </tr>
@@ -297,9 +303,6 @@ ht-degree: 23%
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13979">DOCAC JIRA タスクへのリンク </a> | <a href="https://jira.corp.adobe.com/browse/CJM-95365"> 製品 JIRA タスクへのリンク </a>
 
 #### Experience Decisioning
-
-* **exd sandbox tooling documentation - update** – 提供される説明。
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13596">DOCAC JIRA タスクへのリンク </a>
 
 * **セルフサービス移行ツール API** - オファー管理エンティティを Experience Decisioning に移行するために、新しいセットの <strong> 移行ツール API</strong> を使用できます。 このツールを使用すると、依存関係の解決とロールバック機能により、サンドボックス間をシームレスに移行できます。
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13837">DOCAC JIRA タスクへのリンク </a> | <a href="https://jira.corp.adobe.com/browse/CJM-109695"> 製品 JIRA タスクへのリンク </a>
