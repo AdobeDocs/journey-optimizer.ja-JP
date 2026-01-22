@@ -7,7 +7,7 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: a47a1f3064c4166217d23517fe2d1082977bbc2c
+source-git-commit: d1d544b484eb92fd29d0f3f2dc637c8617394304
 workflow-type: tm+mt
 source-wordcount: '2358'
 ht-degree: 23%
@@ -388,7 +388,7 @@ ht-degree: 23%
 <td>
 <p>ジャーニーキャンバスの専用のコンテンツ決定アクティビティを通じて、ジャーニーに <strong> パーソナライズされたオファー </strong> を含め、それらをジャーニーアクティビティ（条件やカスタムアクションなど）で使用できるようになりました。</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-12902">DOCAC JIRA タスクへのリンク </a> | <a href="https://jira.corp.adobe.com/browse/CJM-99223"> 製品 JIRA タスクへのリンク </a></p>
-<p>公開日：2026年2月2日（PT）</p>
+<p>公開日：2026年2月3日（PT）</p>
 </td>
 </tr>
 </tbody>
