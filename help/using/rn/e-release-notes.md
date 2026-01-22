@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 9605b5bec688c5afcbcc7b391218cdef6cb3b196
+source-git-commit: a47a1f3064c4166217d23517fe2d1082977bbc2c
 workflow-type: tm+mt
-source-wordcount: '2342'
-ht-degree: 22%
+source-wordcount: '2358'
+ht-degree: 23%
 
 ---
 
@@ -188,6 +188,24 @@ ht-degree: 22%
 <table>
 <thead>
 <tr>
+<th><strong>Journey Agent - ジャーニーの作成</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>ジャーニー作成エージェントを使用すると、Journey Optimizer ユーザーは、自然言語インターフェイスを使用してマーケティングジャーニーを作成および設定できます。 ジャーニー作成エージェントを使用すると、実務担当者は、会話プロンプトで要件を説明することで、ジャーニーをすばやく作成できます。 エージェントによりジャーニーの作成が合理化されるので、マーケターは技術的な設定ではなく戦略に専念できます。</p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">詳細情報</a></p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-13747">DOCAC JIRA タスクへのリンク </a> | <a href="https://jira.corp.adobe.com/browse/CJM-95142"> 製品 JIRA タスクへのリンク </a></p>
+<p>公開日：2026年1月12日（PT）</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>アクションキャンペーンを取得する新しい API</strong><br/></th>
 </tr>
 </thead>
@@ -279,11 +297,6 @@ ht-degree: 22%
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13979">DOCAC JIRA タスクへのリンク </a> | <a href="https://jira.corp.adobe.com/browse/CJM-95365"> 製品 JIRA タスクへのリンク </a>
 
 #### Experience Decisioning
-
-* **ジャーニーの判別** - <strong> 式と AI モデル </strong> を使用して、顧客プロファイル属性とコンテキスト要因に基づいてジャーニーの優先度スコアを自動的に上げ、顧客が最も関連性の高いジャーニーにエントリできるようにできるようになりました。
-
-  **注意**：この機能強化は、一連の組織（使用制限あり）でのみ使用できます。
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13976">DOCAC JIRA タスクへのリンク </a> | <a href="https://jira.corp.adobe.com/browse/CJM-78932"> 製品 JIRA タスクへのリンク </a>
 
 * **exd sandbox tooling documentation - update** – 提供される説明。
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13596">DOCAC JIRA タスクへのリンク </a>
@@ -380,3 +393,4 @@ ht-degree: 22%
 </tr>
 </tbody>
 </table>
+
