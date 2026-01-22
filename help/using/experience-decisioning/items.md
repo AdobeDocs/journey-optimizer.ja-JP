@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-source-git-commit: 5d2903c1b5fe3e2fcc5d550d883629c884adeedf
+source-git-commit: 47e85275ff83689fe914e734e4a272bb4ef72d13
 workflow-type: tm+mt
 source-wordcount: '2132'
 ht-degree: 100%
@@ -46,7 +46,7 @@ Journey Optimizer では、決定項目と呼ばれるマーケティングオ�
    >
    >優先度は、整数データタイプです。整数データタイプであるすべての属性には、整数値（小数は含まない）を含める必要があります。
 
-1. 「**タグ**」フィールドを使用すると、Adobe Experience Platform 統合タグを決定項目に割り当てることができます。これにより、簡単に分類し、検索を改善できます。[タグの操作方法について詳しくは、こちらを参照してください](../start/search-filter-categorize.md#tags)
+1. 「**タグ**」フィールドを使用すると、Adobe Experience Platform 統合タグを決定項目に割り当てることができます。これにより、簡単に分類し、検索を改善できます。[タグの操作方法については、こちらを参照してください](../start/search-filter-categorize.md#tags)
 
 1. フラグメントを使用して、決定項目に複数のコンテンツを追加します。例えば、複数のモバイルデバイスモデルに対して異なるコンテンツを表示する場合などです。[詳しくは、フラグメントを参照してください。](../content-management/fragments.md)
 
@@ -54,7 +54,7 @@ Journey Optimizer では、決定項目と呼ばれるマーケティングオ�
    >
    >決定項目内のフラグメントは現在、一連の組織でのみ使用できます（限定提供）。詳しくは、アドビ担当者にお問い合わせください。
 
-   「**[!UICONTROL フラグメント]**」セクションで、使用する公開済みフラグメントを選択し、参照キーを割り当てます。その後、これらのフラグメントを決定ポリシーで活用できます。[詳細情報](create-decision.md#fragments)
+   「**[!UICONTROL フラグメント]**」セクションで、使用する公開済みフラグメントを選択し、参照キーを割り当てます。その後、これらのフラグメントを決定ポリシーで活用できます。[詳細情報](use-decision-policy.md#fragments)
 
    ![](assets/item-fragments.png){width=70%}
 
@@ -78,8 +78,8 @@ Journey Optimizer では、決定項目と呼ばれるマーケティングオ�
 >abstract="デフォルトでは、すべてのプロファイルが決定項目を受け取る資格を持ちますが、オーディエンスまたはルールを使用すると、項目を特定のプロファイルのみに制限できます。"
 
 <!--
->"additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 
