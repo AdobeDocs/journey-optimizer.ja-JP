@@ -3,12 +3,13 @@ solution: Journey Optimizer
 product: journey optimizer
 title: リリースノート
 feature: Release Notes
-topic: Content Management
+role: User
+level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7edc39a43783a3fa8a2b8bded1fd3eb70f20bad6
+source-git-commit: 21231a10389a6238cff6d71966ce2bab8379ea59
 workflow-type: tm+mt
-source-wordcount: '2086'
+source-wordcount: '2096'
 ht-degree: 29%
 
 ---
@@ -363,6 +364,7 @@ ht-degree: 29%
 <tr>
 <td>
 <p>ジャーニーキャンバスの専用のコンテンツ決定アクティビティを通じて、ジャーニーに <strong> パーソナライズされたオファー </strong> を含め、それらをジャーニーアクティビティ（条件やカスタムアクションなど）で使用できるようになりました。</p>
+<p>この機能は、すべての環境で使用できるようになります（一般提供）。</p>
 <p>公開日：2026年2月3日（PT）</p>
 </td>
 </tr>
