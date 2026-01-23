@@ -5,25 +5,15 @@ title: 最初のルールの作成
 description: 調整されたキャンペーンのルールの作成方法について説明します。
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
 version: Campaign Orchestration
-source-git-commit: 78fe305975ec97b45e73d60b1dcd66800f67d26e
+source-git-commit: e8b17fc5a7339092d2b276c36078d8841df28ef6
 workflow-type: tm+mt
-source-wordcount: '1878'
+source-wordcount: '1818'
 ht-degree: 100%
 
 ---
 
 
 # 最初のルールの作成 {#build-query}
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_querymodeler_selectaudience"
->title="オーディエンスを選択"
->abstract="「**オーディエンスを選択**」オプションを使用すると、クエリのフィルタリングに使用するオーディエンスを選択できます。"
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_querymodeler_predefinedfilter"
->title="定義済みフィルター"
->abstract="「**定義済みフィルター**」オプションを使用すると、カスタムフィルターのリストまたはお気に入りから定義済みフィルターを選択できます。"
 
 調整されたキャンペーンのルールの作成の主な手順を次に示します。
 
@@ -174,11 +164,6 @@ ht-degree: 100%
    ![「データを集計」オプションのスクリーンショット](assets/rule-builder-aggregate.png)
 
 ## 演算子を使用した条件の結合 {#operators}
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_querymodeler_group"
->title="グループ"
->abstract="このパネルでは、フィルター条件をリンクするために使用する演算子を変更できます。"
 
 新しい条件をルールに追加するたびに、**AND** 演算子によって既存の条件に自動的にリンクされます。つまり、2 つの条件の結果が結合されます。
 
