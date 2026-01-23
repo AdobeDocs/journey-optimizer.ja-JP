@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 775811ef33441c3209eaedc6cd3bee8f686190e0
+source-git-commit: 9ddf79c9542ad10907b25b2db4415130faec5d8d
 workflow-type: tm+mt
-source-wordcount: '2087'
-ht-degree: 29%
+source-wordcount: '2027'
+ht-degree: 30%
 
 ---
 
@@ -284,10 +284,6 @@ ht-degree: 29%
 
   **注意**：この機能強化は、一連の組織（使用制限あり）でのみ使用できます。
 
-
-#### E メールデザイナー
-
-* **電子メールデザイナーでのインプレース修正** - ブランドガイドラインでコンテンツを管理する場合、コンテンツの検証中に違反が検出されると、<strong>AI を利用した自動コンテンツ提案 </strong> を使用できるようになりました。 コンテンツにブランドガイドラインとの不一致のフラグが設定されたり、品質基準に失敗した場合、システムはプロアクティブに修正された代替コンテンツを生成し、インラインでレビューおよび適用できるので、コンプライアンスが向上し、生産が迅速化されます。
 
 #### Experience Decisioning
 
