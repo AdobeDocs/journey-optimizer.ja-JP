@@ -6,10 +6,10 @@ feature: Release Notes
 topic: Content Management
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 789bae8373dda34cd132ea7abffea37f002dbc50
+source-git-commit: 7edc39a43783a3fa8a2b8bded1fd3eb70f20bad6
 workflow-type: tm+mt
-source-wordcount: '2051'
-ht-degree: 28%
+source-wordcount: '2086'
+ht-degree: 29%
 
 ---
 
@@ -26,11 +26,13 @@ ht-degree: 28%
 
 [!DNL Adobe Journey Optimizer] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}を参照してください。
 
-## 2026 年 1 月リリースノート {#latest-rn}
+## 2026 年 1 月プレリリースノート {#latest-rn}
 
 **リリース日**：2026年1月27日（PT）
 
-これらのリリースノートはプレリリースで、リリースの公開日まで変更される可能性があります。 リンク、画面、更新されたドキュメントは、リリース日にリリースノートで公開されます。
+**以下のプレリリースノートの内容は、リリースの公開日まで予告なく変更される場合があります**。リンク、画面、更新済みのドキュメントは、リリース日にリリースノートに公開されます。
+
+詳しくは、[Adobe Experience Platform プレリリースノート](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}も参照してください。
 
 ### 新機能 {#jan-26-01-features}
 
@@ -116,6 +118,7 @@ ht-degree: 28%
 <td>
 <p>Adobe Journey Optimizerで <strong>web プッシュ通知 </strong> がサポートされるようになり、プッシュチャネルがモバイル以外にも拡大しました。 モバイルブラウザーとデスクトップブラウザーの両方にシームレスに通知を配信できるので、アプリを使用せずに、デバイス上で直接お客様にリーチできます。 この機能強化により、モバイルプッシュで既に使用可能なものと同じオーサリングワークフローとターゲティング機能を活用して、タイムリーでパーソナライズされたメッセージを用いて、リアルタイムでユーザーに関与できるようになります。</p>
 <p>この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。</p>
+<p><strong> 注意 </strong>:web プッシュ通知では、サイレント通知はまだサポートされていません。</p>
 </td>
 </tr>
 </tbody>
@@ -276,7 +279,7 @@ ht-degree: 28%
 
 #### キャンペーン
 
-* **プロファイルタイムゾーンを使用したキャンペーンのスケジュール設定** - Campaign のスケジュール設定で、各プロファイルの <strong> タイムゾーン </strong> を使用して、目的のローカルタイムでメッセージを配信できるようになりました。
+* **プロファイルタイムゾーンを使用したキャンペーンのスケジュール設定** - Campaign のスケジュール設定で、各プロファイルの <strong> タイムゾーン </strong> を使用して、目的のローカルタイムでメッセージを配信できるようになりました。 プロファイルタイムゾーンを使用したスケジュールは、メール、プッシュ、SMS、WhatsApp、LINE の各チャネルで使用できます。
 
   **注意**：この機能強化は、一連の組織（使用制限あり）でのみ使用できます。
 
