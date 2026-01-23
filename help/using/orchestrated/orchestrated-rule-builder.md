@@ -5,20 +5,15 @@ title: ルールビルダーの操作
 description: 調整されたキャンペーンのルールの作成方法について説明します。
 exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
 version: Campaign Orchestration
-source-git-commit: 78fe305975ec97b45e73d60b1dcd66800f67d26e
+source-git-commit: f85fab10da9cea7c8fd8f83c9e01b6ba06a19e8c
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '305'
 ht-degree: 100%
 
 ---
 
 
 # ルールビルダーの操作 {#orchestrated-rule-builder}
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_querymodeler_predefinedfilter"
->title="定義済みフィルター"
->abstract="「**定義済みフィルター**」オプションを使用すると、カスタムフィルターのリストまたはお気に入りから定義済みフィルターを選択できます。"
 
 調整されたキャンペーンには、様々な条件に基づいてデータベースをフィルタリングするプロセスを簡素化するルールビルダーが付属しています。ルールビルダーは非常に複雑で長いクエリを効率的に管理し、柔軟性と精度を向上させます。
 
