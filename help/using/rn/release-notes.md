@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9ddf79c9542ad10907b25b2db4415130faec5d8d
+source-git-commit: 68033e08fb57cad65a721540e530cfb7cc884a3b
 workflow-type: tm+mt
-source-wordcount: '2027'
-ht-degree: 30%
+source-wordcount: '1984'
+ht-degree: 29%
 
 ---
 
@@ -151,21 +151,6 @@ ht-degree: 30%
 <tr>
 <td>
 <p>ダイレクトメールチャネルを調整されたキャンペーンで使用できるようになりました。 <strong> ダイレクトメールアクティビティ </strong> は、1 回限りのメッセージと繰り返しメッセージの両方について、オーケストレートキャンペーン内でのダイレクトメール送信を容易にします。 ダイレクトメールプロバイダーに必要な <strong> 抽出ファイル </strong> の生成プロセスを自動化する役割を果たします。 チャネルアクティビティを調整されたキャンペーンキャンバスに組み合わせて、顧客の行動とデータに基づいてアクションをトリガーできるクロスチャネルキャンペーンを作成できます。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>ロイヤルティアプリ用の新しいソースコネクタ</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Experience Platformの Talon.One、Capilary、Kobie の各ロイヤルティアプリで、新しい <strong> ソースコネクタ </strong> が利用できるようになりました。 これらのコネクタを使用すると、ロイヤルティデータを Adobe Experience Platform にシームレスにストリームし、Journey Optimizer でこれらのデータを活用できます。</p>
 </td>
 </tr>
 </tbody>
