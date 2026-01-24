@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 68033e08fb57cad65a721540e530cfb7cc884a3b
+source-git-commit: d76ef12bab4502ef78c0e1d2d6b61957d54a351b
 workflow-type: tm+mt
-source-wordcount: '1984'
-ht-degree: 29%
+source-wordcount: '1962'
+ht-degree: 28%
 
 ---
 
@@ -120,22 +120,6 @@ ht-degree: 29%
 <p>Adobe Journey Optimizerで <strong>web プッシュ通知 </strong> がサポートされるようになり、プッシュチャネルがモバイル以外にも拡大しました。 モバイルブラウザーとデスクトップブラウザーの両方にシームレスに通知を配信できるので、アプリを使用せずに、デバイス上で直接お客様にリーチできます。 この機能強化により、モバイルプッシュで既に使用可能なものと同じオーサリングワークフローとターゲティング機能を活用して、タイムリーでパーソナライズされたメッセージを用いて、リアルタイムでユーザーに関与できるようになります。</p>
 <p>この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。</p>
 <p><strong> 注意 </strong>:web プッシュ通知では、サイレント通知はまだサポートされていません。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>プッシュおよび SMS チャネルでの決定のサポート</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>プッシュおよび SMS ジャーニーとキャンペーンに <strong> 決定ポリシー </strong> を追加できるようになりました。 決定ポリシーは、配信する最適なコンテンツを各オーディエンスメンバーに応じて動的に返すことを目的に、決定エンジンを活用するオファーのためのコンテナです。</p>
-<p>この機能は、一連の組織でのみ使用できます（限定提供）。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
 </td>
 </tr>
 </tbody>
@@ -327,6 +311,22 @@ ht-degree: 29%
 <td>
 <p>Adobe Experience Platform Agent Orchestratorを活用した <strong>Journey Agent</strong> はJourney Optimizerで利用でき、自然言語インターフェイスを通じてジャーニーを分析できます。 また、Journey Agentで直接チャネル固有のコンテンツを生成および管理できるようになりました。メールやプッシュなどのチャネル用のコンテンツの作成、テンプレートの適用とプレビュー、プロンプトによるトーンとスタイルの調整、コンテキスト内編集用のコンテンツをコンテンツDesignerで開くこともできます。</p>
 <p>公開日：2026年2月2日（PT）</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>プッシュおよび SMS チャネルでの決定のサポート</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong>Decisioning</strong> を使用して、プッシュメッセージと SMS メッセージのコンテンツをパーソナライズおよび最適化できるようになりました。 <strong> 優先度スコア </strong>、式または AI モデルを使用して、顧客に最適なコンテンツを表示します。</p>
+<p>公開日：2026年2月3日（PT）</p>
 </td>
 </tr>
 </tbody>
