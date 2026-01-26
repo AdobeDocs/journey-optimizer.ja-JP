@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: アクション, サードパーティ, カスタム, ジャーニー, API
 exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 70cac01cf79d7de66667e6fd786caf9df5499dd7
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 100%
+source-wordcount: '682'
+ht-degree: 94%
 
 ---
 
@@ -25,6 +25,11 @@ Journey Optimizer ユーザーインターフェイスの管理セクション�
 ![](assets/send-test-request.png){width="70%" align="left"}
 
 この機能を使用すると、テストと検証のプロセスが効率化され、カスタムアクションがライブジャーニーで正しく機能することが確保されます。
+
+>[!NOTE]
+>
+>組織で IP （エグレス）プロキシが有効になっている場合、**[!UICONTROL テストリクエストを送信]** 呼び出しによって IP がバイパスされます。 プロキシルーティングを確認するには、テストジャーニーまたはライブジャーニーを実行します。 IP （エグレス）プロキシとイネーブルメントについて詳しくは、[ 外部システムとの統合 ](../configuration/external-systems.md#faq) を参照してください。
+
 
 ## 前提条件 {#troubleshoot-custom-action-prereq}
 
