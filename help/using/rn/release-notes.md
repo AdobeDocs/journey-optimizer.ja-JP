@@ -184,7 +184,7 @@ ht-degree: 28%
 <tr>
 <td>
 <p>ジャーニー作成エージェントを使用すると、Journey Optimizer ユーザーは、自然言語インターフェイスを使用してマーケティングジャーニーを作成および設定できます。 ジャーニー作成エージェントを使用すると、実務担当者は、会話プロンプトで要件を説明することで、ジャーニーをすばやく作成できます。 エージェントによりジャーニーの作成が合理化されるので、マーケターは技術的な設定ではなく戦略に専念できます。</p>
-<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">詳細情報</a></p>
+<p><a href="https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">詳細情報</a></p>
 <p>公開日：2026年1月12日（PT）</p>
 </td>
 </tr>
