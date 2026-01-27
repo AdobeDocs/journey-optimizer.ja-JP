@@ -10,16 +10,20 @@ level: Intermediate
 keywords: 公開, ジャーニー, ライブ, 有効性, 確認
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 version: Journey Orchestration
-source-git-commit: 01ab3f5236acb914c3efe71ffe3d5281d1126589
+source-git-commit: 3866cedf2c264d94e981a43b649073aa1bdcd4f2
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 90%
+source-wordcount: '725'
+ht-degree: 86%
 
 ---
 
 # ジャーニーの公開 {#publishing-the-journey}
 
 ジャーニーをアクティブ化し、新しいプロファイルがジャーニーにエントリできるように、ジャーニーを公開する必要があります。ジャーニーを公開する前に、そのジャーニーが有効で、エラーがないことを確認します。エラーのあるジャーニーは公開できません。
+
+>[!NOTE]
+>
+>ジャーニーを保存または公開する際、Journey Optimizerがジャーニーの合計ペイロードサイズを検証し、制限に近づいた場合や制限を超えた場合は、公開を警告またはブロックする場合があります。 詳しくは、[ジャーニーのペイロードサイズの検証 ](../start/guardrails.md#journey-payload-size) を参照してください。
 
 ➡️ [この機能をビデオで確認](#video)
 
@@ -58,7 +62,7 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->通常、プロファイルは、ジャーニーのすべてのアクティブなバージョンに対して、同じジャーニー内に同時に複数回存在することはできません。再エントリが有効な場合、プロファイルはジャーニーに再エントリできますが、再エントリできるのは以前のジャーニーインスタンスから完全に離脱した後のみになります。[詳細情報](entry-management.md)。
+>通常、プロファイルは、ジャーニーのすべてのアクティブなバージョンに対して、同じジャーニー内に同時に複数回存在することはできません。再エントリが有効な場合、プロファイルはジャーニーに再エントリできますが、再エントリできるのは以前のジャーニーインスタンスから完全に離脱した後のみになります。[詳細情報](entry-management.md)
 
 ### ジャーニーの新しいバージョンの作成 {#journey-create-new-version}
 
@@ -90,4 +94,4 @@ ht-degree: 90%
 
 ジャーニーの公開方法について詳しくは、次のビデオを参照してください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3427936?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
