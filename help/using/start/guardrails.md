@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 8c61d7cb30da328791aabb84318960e2f42d1ca0
-workflow-type: ht
-source-wordcount: '3661'
-ht-degree: 100%
+source-git-commit: a068d3a4005d8f2247755f56ffb70665dc4c957f
+workflow-type: tm+mt
+source-wordcount: '3676'
+ht-degree: 98%
 
 ---
 
@@ -300,7 +300,8 @@ Adobe Experience Platform では、API ベースのプロファイルの作成�
 次のガードレールは、**[!UICONTROL Campaign v7/v8]** および **[!UICONTROL Campaign Standard]** アクティビティに適用されます。
 
 * Adobe Campaign アクティビティは、「オーディエンスを読み取り」アクティビティや「オーディエンスの選定」アクティビティと併用できません。
-* キャンペーンアクティビティは、カード、コードベースのエクスペリエンス、メール、プッシュ、SMS、アプリ内メッセージ、web などの他のチャネルアクティビティと併用できません。
+* **[!UICONTROL Campaign Standard]** アクティビティは、カード、コードベースのエクスペリエンス、メール、プッシュ、SMS、アプリ内メッセージ、web などの他のチャネルアクティビティと一緒に使用することはできません。
+* **[!UICONTROL Campaign v7/v8]** アクティビティは、同じジャーニーでネイティブチャネルアクティビティと一緒に使用できます。
 
 #### アプリ内アクティビティ {#in-app-activity-limitations}
 
@@ -310,7 +311,7 @@ Adobe Experience Platform では、API ベースのプロファイルの作成�
 
 * パーソナライゼーションには、プロファイル属性のみを含めることができます。
 
-* 「アプリ内」アクティビティは、Adobe Campaign アクティビティと併用できません。
+* アプリ内アクティビティは、**[!UICONTROL Campaign Standard]** アクティビティと一緒には使用できません。
 
 * アプリ内表示は、ジャーニーの存続期間に関連付けられています。つまり、プロファイルのジャーニーが終了すると、そのジャーニー内のすべてのアプリ内メッセージがそのプロファイルに表示されなくなります。その結果、ジャーニーアクティビティからアプリ内メッセージを直接停止することはできません。代わりに、ジャーニー全体を終了して、アプリ内メッセージがプロファイルに表示されないようにする必要があります。
 
