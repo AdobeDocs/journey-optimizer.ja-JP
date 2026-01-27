@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: aa66cc14a9d10df066f91403ed072cb95eebaa8f
+source-git-commit: 13d728fddb3179563edd9d5df752c732591c4a45
 workflow-type: tm+mt
 source-wordcount: '1863'
 ht-degree: 14%
@@ -31,11 +31,11 @@ ht-degree: 14%
 
 **リリース日**:2026 年 1 月 27～28 日
 
-[&#x200B; 機能 &#x200B;](#jan-26-01-features) および [&#x200B; 改善 &#x200B;](#jan-26-01-improv) の節では、既に使用可能な機能について説明し、[&#x200B; 近日公開 &#x200B;](#jan-26-01-coming-soon) では、後の公開日にスケジュールされている項目を一覧表示しています。
+[ 機能 ](#jan-26-01-features) および [ 改善 ](#jan-26-01-improv) の節では、既に使用可能な機能について説明し、[ 近日公開 ](#jan-26-01-coming-soon) では、後の公開日にスケジュールされている項目を一覧表示しています。
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新機能 {#jan-26-01-features}
 
@@ -128,7 +128,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 #### オーケストレーションキャンペーン
 
-* **属性の選択と配分値のコピー** - オーケストレートキャンペーンの値の配分ビューから、値を直接選択またはコピーできるようになりました。 [詳細情報](../orchestrated/orchestrated-rule-builder.md)
+* **属性の選択と配分値のコピー** - オーケストレートキャンペーンの値の配分ビューから、値を直接選択またはコピーできるようになりました。 [詳細情報](../orchestrated/build-query.md)
 
 * **オーディエンスのデータ使用ラベルの継承** - オーケストレートキャンペーンでオーディエンスを保存する際に、Adobe Experience Platformで適用されたラベルが自動的に引き継がれるようになり、手動の DULE タグ付けが減りました。 [詳細情報](../orchestrated/activities/save-audience.md)
 
