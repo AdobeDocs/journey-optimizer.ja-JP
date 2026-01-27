@@ -45,7 +45,7 @@ Journey Optimizer と Campaign インスタンスとの接続は、プロビジ�
 
 >[!NOTE]
 >
->* Campaign v7/v8 アクションは、同じジャーニーで、ネイティブチャネルアクションと同時に使用できます。 これは、Campaign Standardのアクションには適用されません。 [ キャンペーンアクティビティガードレール ](../start/guardrails.md#ac-g) を参照してください。
+>* Campaign v7/v8 アクションは、同じジャーニーで、ネイティブチャネルアクションと同時に使用できます。 これは、Campaign Standardのアクションには適用されません。 [&#x200B; キャンペーンアクティビティガードレール &#x200B;](../start/guardrails.md#ac-g) を参照してください。
 >* Campaign v7/v8 アクションは、オーディエンスを読み取りアクティビティやオーディエンスの選定アクティビティでは使用できません。 ガードレールのページのオーディエンスの読み取りとオーディエンスの選定ガードレールを参照してください。
 
 ![Adobe Campaign v7／v8 アクション設定と統合設定](assets/accintegration2.png)
