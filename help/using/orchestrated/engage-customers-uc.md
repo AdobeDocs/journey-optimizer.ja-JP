@@ -16,14 +16,14 @@ ht-degree: 4%
 
 >[!BEGINSHADEBOX]
 
-このユースケースは、Experience Platformに既に存在するオーディエンス、特に、発生したブラウジングアクティビティを収集するリアルタイムの web 行動オーディエンスから始まります。 [ 詳しくは、Adobe Experience Platformを参照してください ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
+このユースケースは、Experience Platformに既に存在するオーディエンス、特に、発生したブラウジングアクティビティを収集するリアルタイムの web 行動オーディエンスから始まります。 [&#x200B; 詳しくは、Adobe Experience Platformを参照してください &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
 
 **このユースケースではスキーマが必要です：**
 
 * **受信者**：ターゲティングディメンションとして使用され、フィールド `email`、`churnprop` を持つ
 * **ウィッシュリスト**：フィールド `description`、`priceref`、`imageurl` を使用
 
-➡️ [ リレーショナルスキーマの設定方法を学ぶ ](gs-schemas.md)
+➡️ [&#x200B; リレーショナルスキーマの設定方法を学ぶ &#x200B;](gs-schemas.md)
 
 >[!ENDSHADEBOX]
 
@@ -80,7 +80,7 @@ ht-degree: 4%
 
 キャンペーンの実行後、レポートダッシュボードでパフォーマンス指標と主要インサイトを確認できます。
 
-➡️[ レポートの詳細情報 ](../reports/campaign-global-report-cja.md)
+➡️[&#x200B; レポートの詳細情報 &#x200B;](../reports/campaign-global-report-cja.md)
 
 ## 高リスクセグメント {#high-risk}
 

@@ -63,7 +63,7 @@ ht-degree: 11%
 
    ![](assets/predefined-filter-parameter-apply.png)
 
-   定義済みフィルター自体を編集するには、「![ 省略記号ボタン ](assets/do-not-localize/rule-builder-icon-more.svg) ボタンをクリックし、「**[!UICONTROL ルール編集に切り替え]**」を選択します。 すべての変更は、作成している現在のルールにのみ適用されます。 定義済みフィルターは変更されません。
+   定義済みフィルター自体を編集するには、「![&#x200B; 省略記号ボタン &#x200B;](assets/do-not-localize/rule-builder-icon-more.svg) ボタンをクリックし、「**[!UICONTROL ルール編集に切り替え]**」を選択します。 すべての変更は、作成している現在のルールにのみ適用されます。 定義済みフィルターは変更されません。
 
    ![](assets/predefined-filter-parameter-edit.png)
 
@@ -79,7 +79,7 @@ ht-degree: 11%
 
 デフォルトでは、作成した定義済みフィルターは非公開となり、ユーザーにのみ表示されます。 組織内の他のオペレーターがフィルターにアクセスできるようにするには、「**[!UICONTROL 共有フィルター]**」オプションを有効にします。
 
-![ 共有フィルターオプション ](assets/predefined-filter-shared.png)
+![&#x200B; 共有フィルターオプション &#x200B;](assets/predefined-filter-shared.png)
 
 共有フィルターは、すべてのユーザーに対して定義済みフィルターリストに表示され、ユーザーが独自のルールでこれらのフィルターを使用できるようになります。
 
@@ -89,6 +89,6 @@ ht-degree: 11%
 
 1. ルールビルドで「**[!UICONTROL フィルターを選択または保存]** ボタンを使用して、定義済みフィルターリストを開きます。
 
-1. フィルターの横にある ![ 省略記号ボタン ](assets/do-not-localize/rule-builder-icon-more.svg) ボタンを選択し、目的のアクションを選択します。
+1. フィルターの横にある ![&#x200B; 省略記号ボタン &#x200B;](assets/do-not-localize/rule-builder-icon-more.svg) ボタンを選択し、目的のアクションを選択します。
 
 ![](assets/predefined-filters-edit.png)
