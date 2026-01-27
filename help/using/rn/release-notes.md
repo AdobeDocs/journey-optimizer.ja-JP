@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: c0ed4d941863730e6bc8dbea771cba94b305dd5b
+source-git-commit: dfd95301186c066bb024e8200140a10407b4e79e
 workflow-type: tm+mt
-source-wordcount: '1699'
+source-wordcount: '1704'
 ht-degree: 18%
 
 ---
@@ -184,7 +184,7 @@ ht-degree: 18%
 <tbody>
 <tr>
 <td>
-<p>ジャーニー作成エージェントを使用すると、Journey Optimizer ユーザーは <strong> 自然言語インターフェイス </strong> を使用してマーケティングジャーニーを作成および設定できます。 実務担当者は、対話型プロンプトで要件を記述し、ジャーニーの作成を合理化し、マーケターが技術的な設定ではなく戦略に集中できるようにすることで、ジャーニーをすばやく作成できます。</p>
+<p>Journey Agentの作成時にJourney Optimizer ユーザーが <strong> 自然言語インターフェイス </strong> を使用してマーケティングジャーニーを作成および設定できるようになりました。 実務担当者は、対話型プロンプトで要件を記述することで、ジャーニーを迅速に作成できます。 これにより、ジャーニーの作成プロセスが合理化され、マーケターは技術的な設定ではなく戦略に専念できます。</p>
 </td>
 </tr>
 </tbody>
