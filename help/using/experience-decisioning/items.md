@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-source-git-commit: 47e85275ff83689fe914e734e4a272bb4ef72d13
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
-source-wordcount: '2132'
-ht-degree: 100%
+source-wordcount: '2121'
+ht-degree: 99%
 
 ---
 
@@ -52,7 +52,7 @@ Journey Optimizer では、決定項目と呼ばれるマーケティングオ�
 
    >[!AVAILABILITY]
    >
-   >決定項目内のフラグメントは現在、一連の組織でのみ使用できます（限定提供）。詳しくは、アドビ担当者にお問い合わせください。
+   >この機能は、現在、コードベースのエクスペリエンスチャネルでのみ使用できます。
 
    「**[!UICONTROL フラグメント]**」セクションで、使用する公開済みフラグメントを選択し、参照キーを割り当てます。その後、これらのフラグメントを決定ポリシーで活用できます。[詳細情報](use-decision-policy.md#fragments)
 
@@ -78,8 +78,8 @@ Journey Optimizer では、決定項目と呼ばれるマーケティングオ�
 >abstract="デフォルトでは、すべてのプロファイルが決定項目を受け取る資格を持ちますが、オーディエンスまたはルールを使用すると、項目を特定のプロファイルのみに制限できます。"
 
 <!--
->"additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 

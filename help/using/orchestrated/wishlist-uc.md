@@ -1,18 +1,18 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: ウィッシュリスト項目の更新を送信
-description: ウィッシュリスト項目の更新を送信
+title: ウィッシュリスト項目の更新の送信
+description: ウィッシュリスト項目の更新の送信
 feature: Use Cases
 version: Campaign Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
 source-wordcount: '429'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
-# ウィッシュリスト項目の更新を送信 {#wishist-uc}
+# ウィッシュリスト項目の更新の送信 {#wishist-uc}
 
 >[!BEGINSHADEBOX]
 
@@ -25,7 +25,7 @@ ht-degree: 1%
 * **Product**：フィールド `description`、`priceref`、`imageurl` を含む
 * **放棄された買い物かご** （任意）：フィールド `lastmodified` を使用
 
-➡️ [&#x200B; モデルベースのスキーマを設定する方法を学ぶ &#x200B;](gs-schemas.md)
+➡️ [ リレーショナルスキーマの設定方法を学ぶ ](gs-schemas.md)
 
 >[!ENDSHADEBOX]
 
@@ -87,7 +87,7 @@ ht-degree: 1%
 
 1. 電子メールアクティビティを追加して、顧客ごとに個別にパーソナライズされた再エンゲージメントメッセージを作成します。 「**[!UICONTROL コンテンツを編集]**」をクリックして、コンテンツのデザインを開始します。
 
-   ➡️ [&#x200B; 詳しくは、メールのパーソナライゼーションを参照してください &#x200B;](../email/content-from-scratch.md)
+   ➡️ [ 詳しくは、メールのパーソナライゼーションを参照してください ](../email/content-from-scratch.md)
 
    ![](assets/uc-reengagement-8.png){zoomable="yes"}
 
@@ -101,4 +101,4 @@ ht-degree: 1%
 
 キャンペーンの実行後、キャンペーンのパフォーマンスに関する堅牢なデータと KPI のセットが表示されるレポートを確認できます。
 
-➡️[&#x200B; レポートの詳細情報 &#x200B;](../reports/campaign-global-report-cja.md)
+➡️[ レポートの詳細情報 ](../reports/campaign-global-report-cja.md)

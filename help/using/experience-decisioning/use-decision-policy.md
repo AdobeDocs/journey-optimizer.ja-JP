@@ -7,10 +7,10 @@ role: User
 level: Experienced
 mini-toc-levels: 1
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
-workflow-type: ht
-source-wordcount: '945'
-ht-degree: 100%
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+workflow-type: tm+mt
+source-wordcount: '946'
+ht-degree: 95%
 
 ---
 
@@ -83,9 +83,11 @@ ht-degree: 100%
 
 決定ポリシーにフラグメントを含む決定項目が含まれている場合は、決定ポリシーコードでこれらのフラグメントを活用できます。[詳しくは、フラグメントを参照してください。](../content-management/fragments.md)
 
->[!AVAILABILITY]
+>[!CAUTION]
 >
->この機能は現在、コードベースのエクスペリエンスチャネルと一連の組織（限定提供）でのみ使用できます。詳しくは、アドビ担当者にお問い合わせください。
+>この機能は、現在、コードベースのエクスペリエンスチャネルでのみ使用できます。
+>
+>現在、[ 式フラグメント ](../personalization/use-expression-fragments.md) のみを使用できます。 ネストされたフラグメント（他のフラグメントを参照するフラグメント）はサポートされていません。
 
 例えば、複数のモバイルデバイスモデルに対して異なるコンテンツを表示するとします。決定ポリシーで使用している決定項目に、これらのデバイスに対応するフラグメントが追加されていることを確認します。[方法についてはこちらを参照してください](items.md#attributes)。
 
@@ -134,7 +136,7 @@ ht-degree: 100%
 
 **決定項目とコンテキストの属性**
 
-[!DNL Journey Optimizer] のフラグメントでは、決定項目属性とコンテキスト属性はデフォルトでサポートされていません。ただし、以下に説明するように、代わりにグローバル変数を使用できます。
+決定項目属性とコンテキスト属性は、[!DNL Journey Optimizer] フラグメントではデフォルトではサポートされていません。 ただし、以下に説明するように、代わりにグローバル変数を使用できます。
 
 例えば、フラグメントで *sport* 変数を使用するとします。
 

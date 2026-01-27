@@ -1,29 +1,29 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: ブラウジングアクティビティで顧客を引き付ける
-description: ブラウジングアクティビティで顧客を引き付ける
+title: 参照アクティビティによる顧客との関与
+description: 参照アクティビティによる顧客との関与
 feature: Use Cases
 version: Campaign Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
 source-wordcount: '569'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
-# ブラウジングアクティビティで顧客を引き付ける {#engage-customers-uc}
+# 参照アクティビティによる顧客との関与 {#engage-customers-uc}
 
 >[!BEGINSHADEBOX]
 
-このユースケースは、Experience Platformに既に存在するオーディエンス、特に、発生したブラウジングアクティビティを収集するリアルタイムの web 行動オーディエンスから始まります。 [&#x200B; 詳しくは、Adobe Experience Platformを参照してください &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
+このユースケースは、Experience Platformに既に存在するオーディエンス、特に、発生したブラウジングアクティビティを収集するリアルタイムの web 行動オーディエンスから始まります。 [ 詳しくは、Adobe Experience Platformを参照してください ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
 
 **このユースケースではスキーマが必要です：**
 
 * **受信者**：ターゲティングディメンションとして使用され、フィールド `email`、`churnprop` を持つ
 * **ウィッシュリスト**：フィールド `description`、`priceref`、`imageurl` を使用
 
-➡️ [&#x200B; モデルベースのスキーマを設定する方法を学ぶ &#x200B;](gs-schemas.md)
+➡️ [ リレーショナルスキーマの設定方法を学ぶ ](gs-schemas.md)
 
 >[!ENDSHADEBOX]
 
@@ -80,7 +80,7 @@ ht-degree: 2%
 
 キャンペーンの実行後、レポートダッシュボードでパフォーマンス指標と主要インサイトを確認できます。
 
-➡️[&#x200B; レポートの詳細情報 &#x200B;](../reports/campaign-global-report-cja.md)
+➡️[ レポートの詳細情報 ](../reports/campaign-global-report-cja.md)
 
 ## 高リスクセグメント {#high-risk}
 

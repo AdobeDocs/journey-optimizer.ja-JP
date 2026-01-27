@@ -5,10 +5,10 @@ title: 調整されたキャンペーンに関するよくある質問
 description: Journey Optimizer の調整されたキャンペーンに関するよくある質問
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
-workflow-type: ht
-source-wordcount: '1799'
-ht-degree: 100%
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+workflow-type: tm+mt
+source-wordcount: '1819'
+ht-degree: 97%
 
 ---
 
@@ -357,7 +357,7 @@ Adobe Experience Platform プロファイルに対して送信する際、受信
 
 +++ すべてのフィルターをオーディエンス経由で定義する必要がありますか、それとも何らかのタイプのフィルターを設定できますか？
 
-オーケストレーションキャンペーンは定義済みフィルターをサポートしています。クエリをフィルターとして定義して保存し、お気に入りに追加して、以降のセグメント化タスクで再利用できます。
+オーケストレートキャンペーンは定義済みフィルターをサポートしています。クエリを定義してフィルターとして保存し、お気に入りに追加して、その後のセグメント化タスクで再利用できます。 定義済みフィルターにはパラメーターを含めることができるので、使用時に値を入力できます。 [詳しくは、定義済みフィルターの操作方法を参照してください](predefined-filters.md)。
 
 **詳細情報**
 

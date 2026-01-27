@@ -5,10 +5,10 @@ title: オーディエンスを保存アクティビティの使用
 description: 調整されたキャンペーンでのオーディエンスを保存アクティビティの使用方法について説明します。
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
-workflow-type: ht
-source-wordcount: '520'
-ht-degree: 100%
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+workflow-type: tm+mt
+source-wordcount: '555'
+ht-degree: 93%
 
 ---
 
@@ -59,6 +59,9 @@ ht-degree: 100%
 
 ![](../assets/save-audience-4.png)
 
+>[!NOTE]
+>
+>オーディエンス定義で、データ使用（DULE）でラベル付けされたExperience Platform スキーマ属性を使用する場合、これらのラベルは、保存されたオーディエンスに自動的に継承されます。 再適用する必要はありません。 [ 詳しくは、データガバナンスを参照してください ](../../action/action-privacy.md)
 
 ## 例 {#save-audience-example}
 

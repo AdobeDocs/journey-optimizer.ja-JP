@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: ca652ee1469f411a1bd80733ba89921b0ddb1b1c
+source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
 workflow-type: tm+mt
 source-wordcount: '9009'
 ht-degree: 100%
@@ -92,7 +92,6 @@ ht-degree: 100%
 <p>クワイエットアワーでは、メール、SMS、プッシュ、WhatsApp の各チャネルについて、時間ベースの除外を定義できます。これにより、特定の期間中にメッセージが送信されなくなり、顧客の環境設定やコンプライアンス要件を適用できます。</p>
 <p>クワイエットアワーは、キャンペーンやジャーニー内の個々のアクションに割り当てて、正確な制御を行うことができるルールセットを通じて適用できます。</p>
 <p>クワイエットアワールールは現在、一連の組織でのみ使用できます（限定提供）。今後のリリースで、すべてのお客様が段階的に利用できるようになります。</p>
-<img src="assets/do-not-localize/quiet-hour.gif">
 <p>詳しくは、<a href="../conflict-prioritization/quiet-hours.md">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2025年10月22日（PT）</p>
 </td>
