@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: アクション, サードパーティ, カスタム, ジャーニー, API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
-source-git-commit: 6976f2b1b8b95f7dc9bffe65b7a7ddcc5dab5474
+source-git-commit: 5213c60df3494c43a96d9098593a6ab539add8bb
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 91%
+source-wordcount: '844'
+ht-degree: 73%
 
 ---
 
@@ -94,7 +94,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
 1. カスタムアクションを作成します。[このページ](../action/about-custom-action-configuration.md)を参照してください。
 
-1. 「**応答**」フィールド内でクリックします。
+1. 「**応答** （成功応答）」フィールド内をクリックします。
 
    ![](assets/action-response2.png){width="80%" align="left"}
 
@@ -111,6 +111,16 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
    API が呼び出されるたびに、ペイロードの例に含まれるすべてのフィールドが取得されます。
 
+1. （オプション）エラー応答ペイロードを有効にして、呼び出しが失敗したときに返された形式を取得し、サンプルのペイロードを貼り付けます。 これを行うには、カスタムアクション設定で **エラー応答ペイロードを定義** を選択します。 ペイロードフィールドの設定について詳しくは、[ カスタムアクションの設定 ](../action/about-custom-action-configuration.md) を参照してください。
+
+   ```
+   {
+   "errorResponse" : "customer not found"
+   }
+   ```
+
+   エラー応答ペイロードは、カスタムアクション設定で有効にした場合にのみ使用できます。
+
 1. では、クエリパラメーターとして customerID も追加してみましょう。
 
    ![](assets/action-response9.png){width="80%" align="left"}
@@ -120,6 +130,8 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 ## ジャーニーで応答を活用 {#response-in-journey}
 
 カスタムアクションをジャーニーに追加するだけです。その後、条件、その他のアクションおよびメッセージのパーソナライゼーションで応答ペイロードフィールドを活用できます。
+
+エラー応答ペイロードを定義した場合は、**コンテキスト属性**/**Journey Orchestration**/**アクション**/`<action name>`/**errorResponse** に表示されます。 タイムアウトとエラーのブランチで使用して、フォールバックロジックとエラー処理を推進できます。
 
 例えば、ロイヤルティポイント数を確認する条件を追加できます。ユーザーがレストランに入ると、ローカルエンドポイントは、プロファイルのロイヤルティ情報が入った呼び出しを送信します。プロファイルがゴールド顧客の場合は、プッシュを送信できます。また、呼び出しでエラーが検出された場合は、カスタムアクションを送信して、システム管理者に通知します。
 
@@ -150,6 +162,12 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
    @action{ActionLoyalty.jo_status_code} == "http_400"
    ```
 
+   エラー応答のペイロードが定義されている場合は、そのフィールドをターゲットに設定することもできます。次に例を示します。
+
+   ```
+   @action{ActionLoyalty.errorResponse.errorResponse} == "customer not found"
+   ```
+
    ![](assets/action-response7.png)
 
 1. 組織に送信するカスタムアクションを追加します。
@@ -158,7 +176,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
 ## テストモードログ {#test-mode-logs}
 
-カスタムアクション応答に関連するステータスログに、テストモードでアクセスできます。ジャーニーに応答を含むカスタムアクションを定義している場合は、（そのカスタムアクションからの応答として）外部エンドポイントから返されたペイロードを表示するログの「**アクション履歴**」セクションが表示されます。これは、デバッグの面で非常に役立つ場合があります。
+カスタムアクション応答に関連するステータスログに、テストモードでアクセスできます。ジャーニーに応答を含むカスタムアクションを定義している場合は、（そのカスタムアクションからの応答として）外部エンドポイントから返されたペイロードを表示するログの「**アクション履歴**」セクションが表示されます。エラー応答ペイロードが定義されると、失敗した呼び出しに含まれます。 これは、デバッグの面で非常に役立つ場合があります。
 
 ![](assets/action-response12.png)
 
@@ -174,6 +192,8 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 * 内部エラー：**internalError**
 
 返された http コードが 2xx より大きい場合やエラーが発生した場合、アクション呼び出しはエラーと見なされます。この場合、ジャーニーは専用のタイムアウトまたはエラー分岐に進みます。
+
+エラー応答ペイロードがカスタムアクション用に設定されている場合、そのフィールドは、失敗した呼び出しの **errorResponse** ノードの下で公開されます。 エラー応答ペイロードが設定されていない場合は、そのノードは使用できません。
 
 >[!WARNING]
 >
@@ -216,7 +236,7 @@ currentActionField.description == "abc"
 
 カスタムアクションの応答ペイロードフィールドは、メッセージのパーソナライゼーション用にネイティブチャネル（メール、プッシュ、SMS）で使用できます。 これには、外部 API から返された配列とネストされたデータ構造を繰り返し処理する機能が含まれます。
 
-メッセージ内のカスタムアクション応答データを繰り返す詳細な例と構文については、[Handlebars を使用したコンテキストデータの繰り返し &#x200B;](../personalization/iterate-contextual-data.md#custom-action-responses) を参照してください。
+メッセージ内のカスタムアクション応答データを繰り返す詳細な例と構文については、[Handlebars を使用したコンテキストデータの繰り返し ](../personalization/iterate-contextual-data.md#custom-action-responses) を参照してください。
 
 ## その他のリソース
 

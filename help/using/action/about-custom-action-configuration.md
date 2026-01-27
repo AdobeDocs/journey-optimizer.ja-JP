@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: アクション, サードパーティ, カスタム, ジャーニー, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: bd7ed127c09e24dc1b29c4fcdecb8a2fd70c9009
-workflow-type: ht
-source-wordcount: '1974'
-ht-degree: 100%
+source-git-commit: 5213c60df3494c43a96d9098593a6ab539add8bb
+workflow-type: tm+mt
+source-wordcount: '2032'
+ht-degree: 96%
 
 ---
 
@@ -75,13 +75,13 @@ ht-degree: 100%
 ターゲットにするエンドポイントをカスタムアクションを使用して選択する場合は、次の点を確認します。
 
 * このエンドポイントは、[Throttling API](../configuration/throttling.md) または [Capping API](../configuration/capping.md) の設定を使用してジャーニーのスループットをキャップすることでサポートできます。スロットル設定は、200 TPS を下回ることはできません。ターゲットにするエンドポイントは、200 TPS 以上をサポートする必要があります。ジャーニーの処理率について詳しくは、[この節](../building-journeys/entry-management.md#journey-processing-rate)を参照してください。
-* このエンドポイントの応答時間は、できるだけ短くする必要があります。求めるスループットによっては、応答時間が長いと、実際のスループットに影響を与える可能性があります。
+* このエンドポイントの応答時間は、できるだけ短くする必要があります。予想されるスループットに応じて、応答時間が長いと、実際のスループットに影響を与える可能性があります。
 
 すべてのカスタムアクションには、1 分間に 300,000 件の呼び出しというキャップが定義されています。また、デフォルトのキャップは、ホストごとおよびサンドボックスごとに実行されます。例えば、サンドボックスで、同じホストに 2 つのエンドポイントがある場合（例：`https://www.adobe.com/endpoint1` と `https://www.adobe.com/endpoint2`）、キャップは adobe.com ホストの下にあるすべてのエンドポイントに適用されます。「endpoint1」と「endpoint2」は同じキャップ設定を共有し、一方のエンドポイントがキャップに達すると、もう一方のエンドポイントに影響が生じます。
 
 >[!NOTE]
 >
->1 分あたり 300,000 回の呼び出しのキャップは、応答時間が 0.75 秒未満のエンドポイントに対して、サンドボックスごとおよびエンドポイントごとに&#x200B;**スライディングウィンドウ**&#x200B;として適用されます。スライディングウィンドウは任意のミリ秒から開始できるので、クロックの分数に合わせてレートが 300k/分未満と表示される場合でも、キャップエラーが発生することがあります。応答時間が 0.75 秒を超えるエンドポイントの場合、30 秒あたり 150,000 回の呼び出し（これもスライディングウィンドウ）という別の制限が適用されます。低速エンドポイントについて詳しくは、[このページ](../configuration/external-systems.md#response-time)を参照してください。
+>1 分あたり 300,000 回の呼び出しのキャップは、応答時間が 0.75 秒未満のエンドポイントに対して、サンドボックスごとおよびエンドポイントごとに&#x200B;**スライディングウィンドウ**&#x200B;として適用されます。スライディングウィンドウは任意のミリ秒から開始できるので、クロックの分数に合わせてレートが 300k/分未満と表示される場合でも、キャップエラーが発生することがあります。応答時間が 0.75 秒を超えるエンドポイントの場合は、30 秒あたり 150,000 件の呼び出し（スライディングウィンドウも含む）という別の制限が適用されます。低速エンドポイントについて詳しくは、[このページ](../configuration/external-systems.md#response-time)を参照してください。
 
 デフォルトの 1 分あたり 300,000 回の呼び出し制限は、ドメインレベル（例：example.com）で適用されます。 より高い制限が必要な場合は、使用状況の証拠を添えてアドビサポートに連絡し、エンドポイントのスループットを確認します。キャップの増加をリクエストするには、予想される呼び出し量とエンドポイントの処理能力の詳細を提供します。処理能力テストにより、エンドポイントがより高いスループットを処理できることが示された場合、アドビではキャップをカスタマイズすることがあります。ベストプラクティスとしては、アウトバウンド呼び出しを調整し、キャップエラーを回避するために、ジャーニーを再構築するか、待機アクティビティを実装することを考慮します。
 
@@ -163,7 +163,7 @@ Adobe Journey Optimizer は、カスタムアクションに対してデフォ�
 
 Mutual Transport Layer Security（mTLS）は、Adobe Journey Optimizer カスタムアクションへの送信接続のセキュリティを強化します。mTLS は、データが共有される前に情報を共有する両者が本人であることを確認する、相互認証のためのエンドツーエンドのセキュリティ方式です。mTLS には TLS と比較して追加の手順が含まれており、サーバーはクライアントの証明書を要求し、クライアント側でそれを検証します。
 
-カスタムアクションでは相互 TLS（mTLS）認証がサポートされています。mTLS をアクティブ化するためにカスタムアクションまたはジャーニーで追加の設定は必要ありません。mTLS 対応エンドポイントが検出されると、自動的に実行されます。[詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support)
+カスタムアクションでは相互 TLS（mTLS）認証がサポートされています。mTLS をアクティブ化するためにカスタムアクションまたはジャーニーで追加の設定は必要ありません。mTLS 対応エンドポイントが検出されると、自動的に実行されます。[詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support)。
 
 ## ペイロードパラメーターの定義 {#define-the-message-parameters}
 
@@ -175,7 +175,13 @@ Mutual Transport Layer Security（mTLS）は、Adobe Journey Optimizer カスタ
 
    ![](assets/null-values.png){width="70%" align="left"}
 
-1. 「**[!UICONTROL 応答]**」セクションに、呼び出しで返されたペイロードの例をペーストします。このフィールドはオプションで、すべての呼び出しメソッドで使用できます。カスタムアクションで API 呼び出し応答を活用する方法について詳しくは、[このページ](../action/action-response.md)を参照してください。
+1. 「**[!UICONTROL 応答]**」セクションに、呼び出しが成功したときに返されるペイロードの例を貼り付けます。 このフィールドはオプションで、すべての呼び出しメソッドで使用できます。カスタムアクションで API 呼び出し応答を活用する方法について詳しくは、[このページ](../action/action-response.md)を参照してください。
+
+   ![](assets/response-values.png){width="70%" align="left"}
+
+1. （オプション）「**[!UICONTROL エラー応答ペイロードを定義]**」を選択して、「エラー応答ペイロード」フィールドを有効にします。 有効な場合、「**[!UICONTROL エラー応答]**」セクションを使用して、呼び出しが失敗したときに返されるペイロードの例を貼り付けます。 応答ペイロード（フィールドタイプと形式）にも同じ要件が適用されます。 ジャーニーでエラー応答ペイロードを活用する方法を説明します [ こちら ](../action/action-response.md)。
+
+   ![](assets/response-values.png){width="70%" align="left"}
 
 >[!NOTE]
 >
@@ -184,7 +190,7 @@ Mutual Transport Layer Security（mTLS）は、Adobe Journey Optimizer カスタ
 
 ![](assets/customactionpayloadmessage2.png)
 
-フィールド設定では、以下を行う必要があります。
+このフィールド設定では、以下を行う必要があります。
 
 * パラメーターのタイプ（例：文字列、整数など）を選択
 
