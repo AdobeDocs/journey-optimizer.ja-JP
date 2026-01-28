@@ -475,7 +475,7 @@ You can now use AI models to optimize the best content in your email through the
 <tr>
 <td>
 <p><a href="https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator" target="_blank">Adobe Experience Platform エージェントオーケストレーター</a>を活用した Journey エージェントは、Journey Optimizer で使用できます。これにより、自然言語インターフェイスを通じてジャーニーを分析できます。エージェントは、オーディエンスやスケジュールの競合と、ジャーニーでのプロファイルのドロップオフを検出して解決するのに役立ちます。近日中に、エージェント型サポートによるジャーニーを作成できます。</p>
-<p>詳しくは、<a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2025年9月24日（PT）</p>
 </td>
 </tr>
