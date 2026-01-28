@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 作成, メール, 開始, ジャーニー, キャンペーン
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: fbd99b95b0e9aeb06435a81bf345dd615a0f9d02
-workflow-type: ht
-source-wordcount: '1055'
-ht-degree: 100%
+source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
+workflow-type: tm+mt
+source-wordcount: '1075'
+ht-degree: 98%
 
 ---
 
@@ -163,6 +163,8 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 ## メールの確認および送信
 
 メッセージコンテンツを定義したら、テストプロファイルを使用してメッセージをプレビューし、配達確認を送信し、一般的なデスクトップ、モバイルおよび web ベースのクライアントでのレンダリングを制御できます。パーソナライズされたコンテンツを挿入した場合は、そのコンテンツがメッセージにどのように表示されるかを、テストプロファイルデータを使用して確認できます。
+
+また、コンテンツの品質を検証して、読みやすさ、有効性、コンテンツのまとまりを評価することもできます。 [ コンテンツ品質検証の詳細情報 ](../content-management/brands-score.md#validate-quality)
 
 >[!NOTE]
 >

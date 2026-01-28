@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 13d728fddb3179563edd9d5df752c732591c4a45
+source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
 workflow-type: tm+mt
-source-wordcount: '1863'
-ht-degree: 14%
+source-wordcount: '1799'
+ht-degree: 15%
 
 ---
 
@@ -31,11 +31,11 @@ ht-degree: 14%
 
 **リリース日**:2026 年 1 月 27～28 日
 
-[&#x200B; 機能 &#x200B;](#jan-26-01-features) および [&#x200B; 改善 &#x200B;](#jan-26-01-improv) の節では、既に使用可能な機能について説明し、[&#x200B; 近日公開 &#x200B;](#jan-26-01-coming-soon) では、後の公開日にスケジュールされている項目を一覧表示しています。
+[ 機能 ](#jan-26-01-features) および [ 改善 ](#jan-26-01-improv) の節では、既に使用可能な機能について説明し、[ 近日公開 ](#jan-26-01-coming-soon) では、後の公開日にスケジュールされている項目を一覧表示しています。
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新機能 {#jan-26-01-features}
 
@@ -147,6 +147,10 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 #### 権限
 
 * **ジャーニーおよびキャンペーンの自己承認を防ぐ** – 承認ポリシーを作成または設定する際に、ジャーニーまたはキャンペーンの作成者が独自のオブジェクトを承認できないようにするオプションを追加しました。 [詳細情報](../test-approve/approval-policies.md)
+
+#### AI アシスタント
+
+* **AI アシスタントのコンテンツ品質チェック** - ブランドの整合性に加えて、全体的な <strong> コンテンツ品質 </strong> を評価し、ブランドガイドラインに依存せずに、読みやすさ、凝集性、有効性に関する潜在的な問題を明らかにすることができます。 これらの自動チェックは、メッセージングの不明確、一貫性のないトーン、または構造的なギャップを特定するのに役立ちます。 公開日：2026 年 1 月 28 日（PT）。
 
 ## 近日リリース予定 {#jan-26-01-coming-soon}
 
@@ -333,10 +337,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 </table>
 
 ### 機能強化
-
-* **AI アシスタントのコンテンツ品質チェック** - ブランドの整合性に加えて、全体的な <strong> コンテンツ品質 </strong> を評価し、ブランドガイドラインに依存せずに、読みやすさ、凝集性、有効性に関する潜在的な問題を明らかにすることができます。 これらの自動チェックは、メッセージングの不明確、一貫性のないトーン、または構造的なギャップを特定するのに役立ちます。 公開日：2026 年 1 月 28 日（PT）。
-
-* **新しい「カラー」タブでブランドを更新** - ブランドガイドラインは、すべてのタッチポイントでブランドを一貫して提示するのに役立ちます。 新しい <strong> カラーセクション </strong> では、ブランドのカラーシステムの標準を定義し、エクスペリエンス間でカラーを選択、整理、適用する方法を概説します。 これにより、プライマリー、セカンダリー、アクセント、ニュートラルカラーを一貫して使用し、凝集してアクセス可能で認識可能なブランドアイデンティティをサポートします。 公開日：2026 年 1 月 28 日（PT）。
 
 * **SMS Webhook** - <strong>Webhook</strong> はすべての SMS プロバイダーでサポートされます。 目的に応じて、各 Webhook を設定できます。受信メッセージをキャプチャする受信 Webhook と、配信の受信、ステータスの更新、その他のメッセージ関連イベントを受信するフィードバック Webhook。 公開日：2026 年 1 月 28 日（PT）。
 

@@ -9,10 +9,10 @@ role: User
 level: Beginner, Intermediate
 keywords: メール, デザイン, アクセシビリティ
 exl-id: 78011ec0-a3b6-4d4e-ab4b-9da032c283a2
-source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
-workflow-type: ht
-source-wordcount: '1638'
-ht-degree: 100%
+source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
+workflow-type: tm+mt
+source-wordcount: '1652'
+ht-degree: 99%
 
 ---
 
@@ -131,6 +131,8 @@ E メールデザイナーの関連する構造および[コンテンツコン�
 * Litmus を活用した「[メールレンダリング](../content-management/rendering.md)」オプションを使用して、主要なメールクライアント（Apple メール、Gmail、Outlook）でデザインをシミュレートし、テキスト、色、画像によってコンテンツがアクセス可能になるかどうかを確認します。<!--Litmus includes accessibility testing-->
 
 * 実際のオーディエンスに送信する前に、コンテンツのレンダリングをテストする本配信前確認を送信します。[詳細情報](../content-management/proofs.md)
+
+* コンテンツ品質を検証して、読みやすさ、コンテンツのまとまり、全体的な有効性を評価します。 [詳細情報](../content-management/brands-score.md#validate-quality)
 
 ![](assets/accessible-simulate.png){width="90%"}
 
