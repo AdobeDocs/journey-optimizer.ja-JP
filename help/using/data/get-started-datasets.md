@@ -8,10 +8,10 @@ role: Developer, Admin
 level: Experienced
 keywords: プラットフォーム, データレイク, 作成, レイク, データセット, プロファイル
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: a6f2cc11f57c5cd766cd31e941649fb5003ae30b
+source-git-commit: ab0f100d53cb987919eb134442bf05e64c30719a
 workflow-type: tm+mt
-source-wordcount: '849'
-ht-degree: 79%
+source-wordcount: '889'
+ht-degree: 95%
 
 ---
 
@@ -21,30 +21,30 @@ Adobe Experience Platform に取り込まれたすべてのデータは、デー
 
 ## ガードレールと制限
 
-* 2024年11月1日（PT）以降、ストリーミングセグメント化では、[!DNL Journey Optimizer] のトラッキングデータセットとフィードバックデータセットからの送信イベントと開封イベントがサポートされなくなります。フリークエンシーキャップや疲労管理を実装する場合は、代わりにビジネスルールを使用してください。詳しくは、[この節](../conflict-prioritization/rule-sets.md)を参照してください。毎日のキャップに関するユースケースの説明などについて詳しくは、[こちら](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=ja){target="_blank"}を参照してください。
+* 2024年11月1日（PT）以降、ストリーミングセグメント化では、[!DNL Journey Optimizer] のトラッキングデータセットとフィードバックデータセットからの送信イベントと開封イベントがサポートされなくなります。フリークエンシーキャップや疲労管理を実装する場合は、代わりにビジネスルールを使用してください。詳しくは、[この節](../conflict-prioritization/rule-sets.md)を参照してください。毎日のキャップに関するユースケースの説明などについて詳しくは、[こちら](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}を参照してください。
 
-* 2025 年 2 月から、Time-to-Live （TTL）ガードレールが、Journey Optimizer システム生成データセットにロールアウトされています。 [詳細情報](datasets-ttl.md)
+* 2025年2月以降、Journey Optimizer システム生成データセットに対して、有効期間（TTL）ガードレールがロールアウトされます。[詳細情報](datasets-ttl.md)
 
 ## データセットへのアクセス {#access}
 
-ユーザーインターフェイスの **データセット** ワークスペース [!DNL Adobe Journey Optimizer] 使用すると、データの調査とデータセットの作成を行えます。 データセットダッシュボードを開くには、左側のナビゲーションで **データセット** を選択します。
+[!DNL Adobe Journey Optimizer] ユーザーインターフェイスの&#x200B;**データセット**&#x200B;ワークスペースを使用すると、データの調査とデータセットの作成ができます。データセットダッシュボードを開くには、左側のナビゲーションで「**データセット**」を選択します。
 
 ![](assets/datasets-home.png)
 
-「**参照**」タブを選択し、組織で使用可能なすべてのデータセットのリストを表示します。リストに表示された各データセットに関する詳細（名前、データセットが準拠するスキーマ、最新の取得実行のステータスなど）が表示されます。 デフォルトでは、取り込んだデータセットのみが表示されます。システム生成データセットを表示する場合は、フィルターの「**システムデータセットを表示**」切替スイッチをオンに切り替えます。
+「**参照**」タブを選択し、組織で使用可能なすべてのデータセットのリストを表示します。リストに表示された各データセットに関する詳細（名前、データセットが適用されるスキーマ、最新の取り込み実行のステータスなど）が表示されます。デフォルトでは、取り込んだデータセットのみが表示されます。システム生成データセットを表示する場合は、フィルターの「**システムデータセットを表示**」切替スイッチをオンに切り替えます。
 
 ![](assets/ajo-system-datasets.png)
 
 
 データセットの名前を選択して、そのデータセットのアクティビティ画面にアクセスし、選択したデータセットの詳細を確認します。「アクティビティ」タブには、消費されるメッセージの割合を視覚化したグラフと、成功および失敗したバッチのリストが含まれます。
 
-データセットをプレビューするには、画面の右上隅付近の **データセットをプレビュー** を選択し、このデータセットで成功した最新のバッチをプレビューします。 データセットが空の場合、プレビューリンクは非アクティブになります。
+データセットをプレビューするには、画面の右上隅付近の「**データセットをプレビュー**」を選択し、このデータセットで成功した最新のバッチをプレビューします。データセットが空の場合、プレビューリンクは非アクティブになります。
 
 ![](assets/dataset-preview.png)
 
-## [!DNL Journey Optimizer] システムデータセット {#system-datasets}
+## [!DNL Journey Optimizer] システムデータセット{#system-datasets}
 
-ここでは、[!DNL Journey Optimizer] で使用されるシステムデータセットの一覧を示します。 各スキーマのフィールドと属性の完全なリストを表示するには、[Journey Optimizer スキーマ辞書](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja){target="_blank"}を参照してください。
+この節では、[!DNL Journey Optimizer] で使用されるシステムデータセットの一覧を示します。各スキーマのフィールドと属性の完全なリストを表示するには、[Journey Optimizer スキーマ辞書](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja){target="_blank"}を参照してください。
 
 >[!CAUTION]
 >
@@ -52,7 +52,7 @@ Adobe Experience Platform に取り込まれたすべてのデータは、デー
 
 * レポート
 
-   * _レポート - メッセージフィードバックイベントデータセット_：メッセージ配信ログ。 レポートやオーディエンス作成を目的とした Journey Optimizer からのすべてのメッセージ配信に関する情報です。バウンスに関するメール ISP からのフィードバックも、このデータセットに記録されます。
+   * _レポート - メッセージフィードバックイベントデータセット_：メッセージ配信ログ。レポートやオーディエンス作成を目的とした Journey Optimizer からのすべてのメッセージ配信に関する情報です。バウンスに関するメール ISP からのフィードバックも、このデータセットに記録されます。
    * _レポート - メールトラッキングエクスペリエンスイベントデータセット_：レポートやオーディエンス作成のために使用されるメールチャネルのインタラクションログ。エンドユーザーがメールで実行したアクション（開封やクリックなど）に関する情報が保存されます。
    * _レポート - プッシュトラッキングエクスペリエンスイベントデータセット_：レポートやオーディエンス作成のために使用されるプッシュチャネルのインタラクションログ。プッシュ通知時にエンドユーザーが実行したアクションに関する情報が保存されます。
    * _レポート - ジャーニーステップイベント_：Journey Optimizer から生成され、レポーティングなどのサービスで使用されるすべてのジャーニーステップエクスペリエンスイベントをキャプチャします。また、YoY 分析用に Customer Journey Analytics でレポートを作成する場合にも重要です。ジャーニーメタデータに関連付けます。
@@ -63,6 +63,10 @@ Adobe Experience Platform に取り込まれたすべてのデータは、デー
 
   _同意サービスデータセット_：プロファイルの同意情報を保存します。
 
+* メッセージの書き出し
+
+  _AJO メッセージ書き出しデータセット_：書き出し目的で、送信済みメールおよび SMS メッセージの内容を保存します。 レコードは、取り込みから 7 カレンダー日間保持されます。 メッセージ書き出しアドオンを購入した組織でのみ使用できます。 [詳細情報](../configuration/message-export.md)
+
 * インテリジェントサービス
 
   _送信時間の最適化スコア／エンゲージメントスコア_：ジャーニー AI の出力スコア。
@@ -72,14 +76,14 @@ Adobe Experience Platform に取り込まれたすべてのデータは、デー
 
 [!DNL Adobe Experience Platform] にデータを追加することは、プロファイルを作成するための基盤となります。そうすれば、[!DNL Adobe Journey Optimizer] でプロファイルを活用できるようになります。まず、スキーマを定義し、ETL ツールを使用してデータを準備および標準化したあと、スキーマに基づいてデータセットを作成します。
 
-スキーマまたは CSV ファイルからデータセットを作成できます。 データセットの作成方法について詳しくは、[!DNL Adobe Experience Platform] のドキュメントを参照してください。
+スキーマまたは CSV ファイルからデータセットを作成できます。データセットの作成方法について詳しくは、次の [!DNL Adobe Experience Platform] ドキュメントを参照してください。
 
-* [&#x200B; 既存のスキーマを使用したデータセットの作成 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/user-guide#schema){target="_blank"}
-* [&#x200B; 既存の XDM スキーマへの CSV ファイルのマッピング &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema){target="_blank"}
+* [既存スキーマからのデータセットの作成](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/user-guide#schema){target="_blank"}
+* [既存の XDM スキーマへの CSV ファイルのマッピング](https://experienceleague.adobe.com/ja/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema){target="_blank"}
 
 データセットの作成、スキーマへのマッピング、データの追加、データの取り込み確認の方法についてこのビデオで説明しています。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416782?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334293?quality=12)
 
 ## データガバナンス
 
@@ -93,12 +97,12 @@ Adobe Experience Platform に取り込まれたすべてのデータは、デー
 
 ## サンプルとユースケース {#samples}
 
-* [&#x200B; チュートリアル - Adobe Experience Platformへのデータの取り込 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=ja){target="_blank"}
-* [&#x200B; エンドツーエンドのユースケース &#x200B;](../audience/creating-test-profiles.md) - スキーマとデータセットを作成し、データを取り込んで [!DNL Adobe Journey Optimizer] にテストプロファイルを追加する
-* [&#x200B; クエリの例 &#x200B;](../data/datasets-query-examples.md) - [!DNL Adobe Journey Optimizer] データセットと関連する使用例。
+* [チュートリアル - Adobe Experience Platform へのデータの取り込み](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=ja){target="_blank"}
+* [エンドツーエンドのユースケース](../audience/creating-test-profiles.md) - スキーマ、データセットの作成とデータの取り込みによる [!DNL Adobe Journey Optimizer] へのテストプロファイルの追加
+* [クエリ例](../data/datasets-query-examples.md) - [!DNL Adobe Journey Optimizer] データセットと関連するユースケース。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; データセットドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=ja){target="_blank"}
->* [&#x200B; データ取り込みのドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ja){target="_blank"}。
+>* [データセットのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=ja){target="_blank"}
+>* [データ取り込みのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ja){target="_blank"}
 >* [データ管理ライセンス使用権限のベストプラクティス](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/license/data-management-best-practices#data-management-best-practices){target="_blank"}

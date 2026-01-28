@@ -8,14 +8,11 @@ topic: Administration
 role: Admin
 level: Experienced
 keywords: 書き出し, メッセージ, HIPAA, メール, SMS, 設定
-badge: label="限定提供" type="Informative"
-hide: true
-hidefromtoc: true
 exl-id: 7b50c933-9738-4b1b-acae-08f0a8d41dab
-source-git-commit: 8bc0d28ea3e7c26bd8f7a35d00a73e41f35720d0
+source-git-commit: ab0f100d53cb987919eb134442bf05e64c30719a
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 85%
+source-wordcount: '695'
+ht-degree: 44%
 
 ---
 
@@ -24,28 +21,22 @@ ht-degree: 85%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_msg_export"
 >title="送信済みコンテンツを保持および書き出し"
->abstract="このオプションを選択すると、この設定を使用して送信済みメールまたは SMS メッセージのコンテンツを [!DNL Experience Platform] データセットに書き込むことができます。レコードは取り込み後 7 日間保持され、その間、独自のストレージに書き出すことができます。"
+>abstract="このオプションを選択すると、この設定を使用して、送信されたメールまたは SMS メッセージのコンテンツを [!DNL Experience Platform] データセットに書き込むことができます。 レコードは取り込み後 7 日間保持され、その間、独自のストレージに書き出すことができます。"
 
 >[!AVAILABILITY]
 >
->この機能は現在、一連の組織でのみ使用できます（限定提供）。詳しくは、アドビ担当者にお問い合わせください。
+>この機能は、メッセージ書き出しアドオン機能を購入した組織のメールおよび SMS チャネルでのみ使用できます。 詳しくは、アドビ担当者にお問い合わせください。
 
-**メッセージの書き出し**&#x200B;を使用すると、送信済みメールと SMS メッセージのコンテンツを [!DNL Journey Optimizer] から [!DNL Adobe Experience Platform] の宛先経由で独自のストレージに転送でき、これにより [!DNL Experience Platform] から外部エンドポイントにデータを配信できます。[詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/home){target="_blank"}
+**メッセージの書き出し** を使用すると、送信されたメールと SMS メッセージのコンテンツを [!DNL Journey Optimizer] から [!DNL Adobe Experience Platform] の宛先を介して独自のストレージに転送できます。これにより、[!DNL Experience Platform] から外部エンドポイントにデータを配信できます。 [詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/home){target="_blank"}
 
-この機能を使用すると、[!DNL Journey Optimizer] 経由で送信され、書き出し対象としてマークされたメールと SMS メッセージのコンテンツが、[!DNL Experience Platform] **AJO メッセージの書き出しデータセット**&#x200B;に書き込まれます。
+この機能により、書き出し用にマークされた [!DNL Journey Optimizer] を介して送信されたメールおよび SMS メッセージのコンテンツは、[!DNL Experience Platform] **AJO Message Export Dataset** に書き込まれます。 [詳しくは、データセットを参照してください](../data/get-started-datasets.md)
 
-レコードはその後、取り込みから 7 暦日間 **AJO メッセージ書き出しデータセット &rbrace; に保持され、その間、選択した外部システムに書き出すことができます。**
-<!--
-## Terminology
-
-* **[!DNL Experience Platform] destinations** - Framework to deliver data out of Experience Platform into external endpoints. [Learn more](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/home){target="_blank"}
-* **AJO Message Export Dataset** - An [!DNL Experience Platform] dataset which stores the message content of email and SMS messages sent via [!DNL Journey Optimizer] which have been marked for export.
-* **Retention**: Records in the AJO Message Export Dataset are retained for 3 calendar days from ingestion.-->
+その後、レコードは取り込みから 7 暦日間データセットに保持され、その間、選択した外部システムに書き出すことができます。
 
 ## ガードレール
 
-* この機能は、メールと SMS チャネルのみをサポートします。
-* AJO メッセージ書き出しデータセットのレコードは、取り込みから 7 カレンダー日間保持されます。
+* この機能は、**メール** および **SMS** チャネルのみをサポートします。
+* AJO メッセージ書き出しデータセットのレコードは、**取り込みから 7 暦日間保持** されます。
 * 以下に説明するように、メッセージの書き出しを有効にする前に送信されたメッセージでは、バックフィルはサポートされません。
 
 ## メッセージの書き出しを有効化 {#enable-message-export}
@@ -89,6 +80,31 @@ ht-degree: 85%
 
 1. 変更を保存し、チャネル設定を送信します。
 
-このチャネル設定を使用してキャンペーンまたはジャーニー経由で送信されたメールと SMS メッセージは、**AJO メッセージの書き出しデータセット**&#x200B;に書き込まれます。その後、定義済みの書き出しデータフローに基づいて、レコードは選択したストレージの宛先に書き出されます。
+このチャネル設定を使用してキャンペーンまたはジャーニー経由でメッセージを送信すると、メールおよび SMS メッセージが **0}AJO メッセージエクスポートデータセット } に書き込まれます。**&#x200B;その後、データセット内の [ レコードにアクセス ](#access-exported-data) し、定義した書き出しデータフローに基づいて、選択したストレージ宛先に書き出すことができます。
 
-**[!UICONTROL メッセージの書き出しの有効化]**&#x200B;切替スイッチを無効にすると、このチャネル設定の新しいレコードがデータセットに取り込まれなくなります。既存のレコードは保持が期限切れになるまで残ります。
+>[!NOTE]
+>
+>**[!UICONTROL メッセージの書き出しの有効化]**&#x200B;切替スイッチを無効にすると、このチャネル設定の新しいレコードがデータセットに取り込まれなくなります。既存のレコードは保持が期限切れになるまで残ります。
+
+## 書き出したメッセージデータへのアクセス {#access-exported-data}
+
+メッセージの書き出しを有効にしたチャネル設定を使用してメッセージが送信されたら、**AJO メッセージの書き出しデータセット** で、書き出したデータにアクセスして確認できます。
+
+書き出されたメッセージデータを表示するには：
+
+1. [!DNL Journey Optimizer] では、左側のナビゲーションで **[!UICONTROL データ管理]**/**[!UICONTROL データセット]** に移動します。 [詳しくは、データセットを参照してください](../data/get-started-datasets.md)
+
+1. システム生成データセットを表示していることを確認します。
+
+1. リストから **AJO メッセージ書き出しデータセット** を選択します。
+
+   ![](assets/datasets-list.png)
+
+1. データセットの詳細ページで **[!UICONTROL データセットをプレビュー]** をクリックして、最新のレコードを表示します。
+
+   ![](assets/ajo-message-export-dataset.png)
+
+データセットには、メッセージエクスポートが有効なチャネル設定を介して送信される各メッセージに関する包括的な情報が含まれています。これには、件名行、メッセージ本文、受信者のメールアドレスまたは電話番号、送信者のアドレスまたは電話番号、送信日時、パーソナライゼーションデータなどが含まれます。
+
+データセット内のすべてのレコードは、**取り込みから 7 カレンダー日** 保持されます。 この保存期間中は、コンプライアンス監査や法的問い合わせ用にデータにアクセスしたり、構成されたExperience Platformの出力先を介してデータを独自のストレージ・システムにエクスポートしたりできます。
+
