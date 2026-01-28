@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0706cb23bb41aff56984d7723df22c5a07bbe51d
+source-git-commit: d819b559e335ed743e1835edb170bca6e6653a4d
 workflow-type: tm+mt
-source-wordcount: '1807'
-ht-degree: 15%
+source-wordcount: '1863'
+ht-degree: 14%
 
 ---
 
@@ -31,11 +31,11 @@ ht-degree: 15%
 
 **リリース日**:2026 年 1 月 27～28 日
 
-[&#x200B; 機能 &#x200B;](#jan-26-01-features) および [&#x200B; 改善 &#x200B;](#jan-26-01-improv) の節では、既に使用可能な機能について説明し、[&#x200B; 近日公開 &#x200B;](#jan-26-01-coming-soon) では、後の公開日にスケジュールされている項目を一覧表示しています。
+[ 機能 ](#jan-26-01-features) および [ 改善 ](#jan-26-01-improv) の節では、既に使用可能な機能について説明し、[ 近日公開 ](#jan-26-01-coming-soon) では、後の公開日にスケジュールされている項目を一覧表示しています。
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新機能 {#jan-26-01-features}
 
@@ -110,24 +110,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>Web プッシュ通知チャネル</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Journey Optimizerは <strong>web プッシュ通知 </strong> をサポートし、プッシュチャネルをモバイル以外にも拡張します。 モバイルブラウザーとデスクトップブラウザーの両方に通知を配信できるので、アプリを必要とせずに、デバイス上で顧客に直接リーチできます。 この機能強化により、モバイルプッシュで既に使用可能なものと同じオーサリングワークフローとターゲティング機能を活用して、パーソナライズされたメッセージをリアルタイムでタイムリーにユーザーに提供できるようになります。</p>
-<p>詳しくは、<a href="../push/push-configuration-web.md">詳細なドキュメント</a>を参照してください。</p>
-<p>以前にBetaでリリースされたこの機能は、すべての環境で使用できるようになります（一般提供）。</p>
-<p>公開日：2026年1月28日（PT）</p>
-</td>
-</tr>
-</tbody>
-</table>
-
 ### 機能強化 {#jan-26-01-improv}
 
 #### Experience Decisioning
@@ -166,10 +148,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **ジャーニーおよびキャンペーンの自己承認を防ぐ** – 承認ポリシーを作成または設定する際に、ジャーニーまたはキャンペーンの作成者が独自のオブジェクトを承認できないようにするオプションを追加しました。 [詳細情報](../test-approve/approval-policies.md)
 
-#### AI アシスタント
-
-* **AI アシスタントのコンテンツ品質チェック** - ブランドの整合性に加えて、全体的な <strong> コンテンツ品質 </strong> を評価し、ブランドガイドラインに依存せずに、読みやすさ、凝集性、有効性に関する潜在的な問題を明らかにすることができます。 これらの自動チェックは、メッセージングの不明確、一貫性のないトーン、または構造的なギャップを特定するのに役立ちます。 公開日：2026 年 1 月 28 日（PT）。
-
 ## 近日リリース予定 {#jan-26-01-coming-soon}
 
 今後数日間で、次の機能と機能強化がリリースされる予定です。**情報は変更される場合があります**。更新したリンク、画面、ドキュメントは、これらの更新が実稼動環境で公開すると共有されます。
@@ -193,6 +171,23 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 </ul>
 <p>レコードは、取り込みから 7 暦日間、AJO メッセージ書き出しデータセットに保持されます。 この保持期間中に、Experience Platformの宛先を介して独自のストレージにデータを書き出すことができます。 この機能はチャネル設定レベルで有効になり、書き出されるメッセージを詳細に制御できます。</p>
 <p>この機能は、メッセージ書き出しアドオン機能を購入した組織のメールおよび SMS チャネルでのみ使用できます。 詳しくは、アドビ担当者にお問い合わせください。</p>
+<p>公開日：2026年1月28日（PT）</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Web プッシュ通知チャネル</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizerは <strong>web プッシュ通知 </strong> をサポートし、プッシュチャネルをモバイル以外にも拡張します。 モバイルブラウザーとデスクトップブラウザーの両方に通知を配信できるので、アプリを必要とせずに、デバイス上で顧客に直接リーチできます。 この機能強化により、モバイルプッシュで既に使用可能なものと同じオーサリングワークフローとターゲティング機能を活用して、パーソナライズされたメッセージをリアルタイムでタイムリーにユーザーに提供できるようになります。</p>
+<p>以前にBetaでリリースされたこの機能は、すべての環境で使用できるようになります（一般提供）。</p>
 <p>公開日：2026年1月28日（PT）</p>
 </td>
 </tr>
@@ -338,6 +333,10 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 </table>
 
 ### 機能強化
+
+* **AI アシスタントのコンテンツ品質チェック** - ブランドの整合性に加えて、全体的な <strong> コンテンツ品質 </strong> を評価し、ブランドガイドラインに依存せずに、読みやすさ、凝集性、有効性に関する潜在的な問題を明らかにすることができます。 これらの自動チェックは、メッセージングの不明確、一貫性のないトーン、または構造的なギャップを特定するのに役立ちます。 公開日：2026 年 1 月 28 日（PT）。
+
+* **新しい「カラー」タブでブランドを更新** - ブランドガイドラインは、すべてのタッチポイントでブランドを一貫して提示するのに役立ちます。 新しい <strong> カラーセクション </strong> では、ブランドのカラーシステムの標準を定義し、エクスペリエンス間でカラーを選択、整理、適用する方法を概説します。 これにより、プライマリー、セカンダリー、アクセント、ニュートラルカラーを一貫して使用し、凝集してアクセス可能で認識可能なブランドアイデンティティをサポートします。 公開日：2026 年 1 月 28 日（PT）。
 
 * **SMS Webhook** - <strong>Webhook</strong> はすべての SMS プロバイダーでサポートされます。 目的に応じて、各 Webhook を設定できます。受信メッセージをキャプチャする受信 Webhook と、配信の受信、ステータスの更新、その他のメッセージ関連イベントを受信するフィードバック Webhook。 公開日：2026 年 1 月 28 日（PT）。
 
