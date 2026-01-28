@@ -62,7 +62,7 @@ E メールデザイナーにアクセスしてメールコンテンツのデザ
 
    ![](assets/email_designer_export.png)
 
-1. また、コンテンツ品質を検証して、読みやすさ、コンテンツのまとまり、有効性に関する潜在的な問題を特定することもできます。 [ コンテンツ品質検証の詳細情報 ](../content-management/brands-score.md#validate-quality)
+1. また、コンテンツ品質を検証して、読みやすさ、コンテンツのまとまり、有効性に関する潜在的な問題を特定することもできます。 [&#x200B; コンテンツ品質検証の詳細情報 &#x200B;](../content-management/brands-score.md#validate-quality)
 
 ## メールデザインのベストプラクティス {#best-practices}
 

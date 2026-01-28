@@ -109,7 +109,7 @@ ht-degree: 40%
 
    ![](assets/brand-score-6.png)
 
-1. 「![ フルスクリーン」アイコンをクリックすると ](assets/do-not-localize/Smock_FullScreen_18_N.svg " 詳細なインサイトが表示されます ") 「フルスクリーン」アイコンをクリックすると、品質スコアの詳細な表示が表示されます。
+1. 「![&#x200B; フルスクリーン」アイコンをクリックすると &#x200B;](assets/do-not-localize/Smock_FullScreen_18_N.svg " 詳細なインサイトが表示されます ") 「フルスクリーン」アイコンをクリックすると、品質スコアの詳細な表示が表示されます。
 
    ![](assets/brand-score-7.png)
 
