@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
-source-git-commit: 881cae4638082f804a5e2a768dfa135193959191
+source-git-commit: 47280460f7b47412c348ccc75ca9afca50c34e7e
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1327'
 ht-degree: 100%
 
 ---
@@ -78,7 +78,7 @@ ht-degree: 100%
 
 ## エクスポートのスケジュール {#schedule-export}
 
-**エクスポートのスケジュール**&#x200B;を使用すると、最大 10 件のレポートを毎週、毎月、毎年の間隔で自動配信できます。また、スケジュール済みエクスポートを更新、編集、キャンセル、削除するオプションを使用して、エクスポートのスケジュールを簡単に管理することもできます。
+**エクスポートのスケジュール**&#x200B;を使用すると、最大 10 件のレポートを毎週、毎月、毎年の間隔で自動配信できます。また、定期エクスポートを更新、編集、キャンセル、削除するオプションを使用して、定期レポートを簡単に管理することもできます。
 
 1. レポートで、「**[!UICONTROL 共有]**」をクリックし、「**[!UICONTROL エクスポートのスケジュール]**」を選択します。
 
@@ -110,11 +110,11 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL スケジュールに従って送信]**」をクリックします。
 
-1. 以前に作成したスケジュール済みエクスポートを編集するには、「**[!UICONTROL 共有]**」をクリックし、「**[!UICONTROL スケジュールを管理]**」を選択します。
+1. 以前に作成した定期エクスポートを編集するには、「**[!UICONTROL 共有]**」をクリックし、「**[!UICONTROL スケジュールを管理]**」を選択します。
 
    ![](assets/export-schedule-3.png)
 
-1. スケジュール済みエクスポートのリストから、更新するエクスポートを選択し、必要な変更を行います。
+1. 定期エクスポートのリストから、更新するものを選択し、必要な変更を行います。
 
 1. スケジュール済みレポートを削除するには、管理スケジュールリストからレポートを 1 つ選択し、「**[!UICONTROL 削除]**」をクリックします。
 
@@ -216,10 +216,6 @@ d. Open the report for the journey that you added the metric to and ensure that 
 新しく作成したオーディエンスをジャーニーまたはキャンペーンで使用できるようになりました。
 
 ## テンプレートの管理 {#cja-template}
-
->[!AVAILABILITY]
->
-> **テンプレート**&#x200B;機能は段階的にロールアウト中で、1月末までに完全な一般公開が予定されています。[!DNL Customer Journey Analytics] ライセンスを持つユーザーのみが使用できます。
 
 Customer Journey Analytics テンプレートを活用して Journey Optimizer レポートを強化するオプションが追加されました。[Customer Journey Analytics テンプレートについての詳細情報](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/templates/use-templates#use-reports)
 
