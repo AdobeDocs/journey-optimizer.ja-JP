@@ -72,7 +72,7 @@ ht-degree: 94%
 
 1. 「**[!UICONTROL アクション]**」セクションで、「**[!UICONTROL プッシュ通知]**」を選択し、新しい設定を選択または作成します。
 
-   [ このページ ](push-configuration.md) のモバイルおよび [ このページ ](push-configuration-web.md) の web 用のプッシュ設定について詳しく説明します。
+   [&#x200B; このページ &#x200B;](push-configuration.md) のモバイルおよび [&#x200B; このページ &#x200B;](push-configuration-web.md) の web 用のプッシュ設定について詳しく説明します。
 
    ![](assets/push_create_3.png)
 

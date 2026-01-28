@@ -118,9 +118,9 @@ ht-degree: 77%
 
 ### pushNotification プロパティの設定 {#push-property}
 
-**Web プッシュ通知** を有効にするには、まず [pushNotifications プロパティ ](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/pushnotifications) が web SDK内で適切に設定されていることを確認する必要があります。 このプロパティは、Web アプリケーションによるプッシュ通知の処理方法を制御します。
+**Web プッシュ通知** を有効にするには、まず [pushNotifications プロパティ &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/pushnotifications) が web SDK内で適切に設定されていることを確認する必要があります。 このプロパティは、Web アプリケーションによるプッシュ通知の処理方法を制御します。
 
-さらに、Journey Optimizerで [ アプリのプッシュ資格情報 ](#push-credentials-launch) を設定するために必要な VAPID キーを生成する必要があります。
+さらに、Journey Optimizerで [&#x200B; アプリのプッシュ資格情報 &#x200B;](#push-credentials-launch) を設定するために必要な VAPID キーを生成する必要があります。
 
 ## 手順 1：Journey Optimizer でのアプリのプッシュ資格情報の追加 {#push-credentials-launch}
 
@@ -175,10 +175,10 @@ ht-degree: 77%
 
 ## 手順 3:sendPushSubscription プロパティの設定 {#sendPushSubscription-property}
 
-プッシュ資格情報とチャネル設定を設定したら、web アプリケーションに [sendPushSubscription コマンド ](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/sendpushsubscription) を実装する必要があります。 このコマンドは、ユーザーのプッシュ通知をAdobe Experience Platformに登録します。これにより、どのユーザーがプッシュ通知を受け取り、購読ステータスを管理するかをシステムが追跡できるようになります。 この登録は、Journey Optimizerがターゲットを設定したプッシュ通知をユーザーに送信するために不可欠です。
+プッシュ資格情報とチャネル設定を設定したら、web アプリケーションに [sendPushSubscription コマンド &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/sendpushsubscription) を実装する必要があります。 このコマンドは、ユーザーのプッシュ通知をAdobe Experience Platformに登録します。これにより、どのユーザーがプッシュ通知を受け取り、購読ステータスを管理するかをシステムが追跡できるようになります。 この登録は、Journey Optimizerがターゲットを設定したプッシュ通知をユーザーに送信するために不可欠です。
 
 ## 手順 4：イベントでモバイルアプリのテスト {#mobile-app-test}
 
 Adobe Experience Platformと [!DNL Adobe Experience Platform Data Collection] の両方で web プッシュ設定を完了したら、web プッシュ通知をプロファイルに送信する前に、実装をテストできます。 テストにより、購読が正しく登録され、ユーザーのブラウザーに通知が正しく配信されます。
 
-Web プッシュ設定を検証するイベントを含むテストジャーニーの作成に関する詳細な手順については、[ モバイルアプリのプッシュ通知設定のドキュメント ](push-configuration.md) を参照してください。このドキュメントでは、モバイルチャネルと web プッシュチャネルの両方に適用できる包括的なテストワークフローを提供します。
+Web プッシュ設定を検証するイベントを含むテストジャーニーの作成に関する詳細な手順については、[&#x200B; モバイルアプリのプッシュ通知設定のドキュメント &#x200B;](push-configuration.md) を参照してください。このドキュメントでは、モバイルチャネルと web プッシュチャネルの両方に適用できる包括的なテストワークフローを提供します。

@@ -31,7 +31,7 @@ ht-degree: 82%
 
 * **キャンペーン**&#x200B;の場合：キャンペーンを作成したら、アクションとして「プッシュ通知」を選択し、基本設定を定義します。詳しくは、[アクションキャンペーン](../campaigns/campaign-action.md#action-campaign-action) | [API トリガーキャンペーン](../campaigns/api-triggered-campaigns.md) | [オーケストレーションキャンペーン](../orchestrated/create-orchestrated-campaign.md#create)を作成する方法を参照してください
 
-専用のタブを使用して、**iOS**、**Android**、{Web **プラットフォームのプッシュ通知を設定** ます。
+専用のタブを使用して、**iOS**、**Android**、&lbrace;Web **プラットフォームのプッシュ通知を設定** ます。
 
 >[!NOTE]
 >
