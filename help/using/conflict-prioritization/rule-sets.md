@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: メッセージ, 頻度, ルール, プレッシャー
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 9613586e576c9010917352b721b4b335418a4e40
 workflow-type: tm+mt
-source-wordcount: '1062'
-ht-degree: 100%
+source-wordcount: '1070'
+ht-degree: 97%
 
 ---
 
@@ -101,7 +101,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->各チャネルドメインおよびジャーニードメインに対して、最大 10 個のアクティブなローカルルールセットを作成できます。
+>チャネルドメインに最大 10 個のルールセットを作成し、ジャーニードメインに最大 10 個のルールセットを作成して、合計 20 個のルールセットを作成できます。
 
 1. **[!UICONTROL ルールセット]**&#x200B;のリストにアクセスし、「**[!UICONTROL ルールセットを作成]**」をクリックします。
 
@@ -180,4 +180,4 @@ ht-degree: 100%
 
 ## チュートリアルビデオ {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444727?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
