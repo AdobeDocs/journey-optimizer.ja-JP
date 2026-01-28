@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d727acc1d01376a4abb8a0766340a2d32832305e
+source-git-commit: 8a7926be7a8e73d889cf38a047400236fd352dab
 workflow-type: tm+mt
 source-wordcount: '1828'
 ht-degree: 22%
@@ -31,11 +31,11 @@ ht-degree: 22%
 
 **リリース日**:2026 年 1 月 27～28 日
 
-[&#x200B; 機能 &#x200B;](#jan-26-01-features) および [&#x200B; 改善 &#x200B;](#jan-26-01-improv) の節では、既に使用可能な機能について説明し、[&#x200B; 近日公開 &#x200B;](#jan-26-01-coming-soon) では、後の公開日にスケジュールされている項目を一覧表示しています。
+[ 機能 ](#jan-26-01-features) および [ 改善 ](#jan-26-01-improv) の節では、既に使用可能な機能について説明し、[ 近日公開 ](#jan-26-01-coming-soon) では、後の公開日にスケジュールされている項目を一覧表示しています。
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新機能 {#jan-26-01-features}
 
@@ -155,7 +155,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 #### AI
 
-* **AI アシスタントコンテンツ品質チェック** - ブランドの整合性に加えて、全体的な <strong> コンテンツ品質 </strong> を評価して、ブランドガイドラインに依存せずに、<strong> 読みやすさ </strong>、凝集性、有効性に関する潜在的な問題を明らかにできるようになりました。 これらの自動チェックは、メッセージングの不明確、一貫性のないトーン、構造ギャップの特定に役立ちます。 [&#x200B; 詳細情報 &#x200B;](../content-management/brands-score.md#validate-quality)。 [&#x200B; ビデオでこの機能を確認する &#x200B;](https://video.tv.adobe.com/v/3470547/?captions=jpn&learn=on)。
+* **AI アシスタントコンテンツ品質チェック** - ブランドの整合性に加えて、全体的な <strong> コンテンツ品質 </strong> を評価して、ブランドガイドラインに依存せずに、<strong> 読みやすさ </strong>、凝集性、有効性に関する潜在的な問題を明らかにできるようになりました。 これらの自動チェックは、メッセージングの不明確、一貫性のないトーン、構造ギャップの特定に役立ちます。 [ 詳細情報 ](../content-management/brands-score.md#validate-quality)。 [ ビデオでこの機能を確認する ](https://video.tv.adobe.com/v/3470544/?learn=on)。
 
 #### Experience Decisioning
 
@@ -238,7 +238,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <td>
 <p><strong> 無表示時間 </strong> では、メール、SMS、プッシュ、WhatsApp の各チャネルに対して、時間ベースの除外を定義できます。 これにより、特定の期間中にメッセージが送信されないようにし、顧客の好みやコンプライアンスの要件を尊重するのに役立ちます。 クワイエットアワーは、キャンペーンやジャーニー内の個々のアクションに割り当てて、正確な制御を行うことができる<strong>ルールセット</strong>を通じて適用できます。</p>
 <p>以前は限定提供でリリースされていましたが、現在はすべての環境でこの機能を使用できます。 この一般提供リリースで、機能に、顧客が非表示時間の完了までキャンペーンアクションをキューに入れる機能と、アクティブ化された非表示時間ルールをプレビューする機能が含まれるようになりました。</p>
-<p>公開日：2026年1月28日（PT）</p>
+<p>公開日：2026年1月29日（PT）</p>
 </td>
 </tr>
 </tbody>
@@ -260,7 +260,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <li>完了した移行のロールバックサポート</li>
 <li>オブジェクトマッピングを使用した詳細な移行レポート</li>
 </ul>
-<p>公開日：2026年1月28日（PT）</p>
+<p>公開日：2026年1月29日（PT）</p>
 </td>
 </tr>
 </tbody>
@@ -277,7 +277,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <td>
 <p>新しい監視ダッシュボードと強化されたジャーニーステップイベントデータを使用して、<strong> カスタムアクションエンドポイント </strong> の正常性とパフォーマンスをより深くinsightできます。 成功した呼び出し、エラー、スループット、応答時間およびキューの待機時間を追跡して、異常値が発生したタイミング、場所、理由をすばやく把握します。</p>
 <p>この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。</p>
-<p>公開日：2026年1月28日（PT）</p>
+<p>公開日：2026年1月29日（PT）</p>
 </td>
 </tr>
 </tbody>
