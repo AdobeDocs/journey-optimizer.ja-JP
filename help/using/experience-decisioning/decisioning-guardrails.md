@@ -6,10 +6,10 @@ role: User
 level: Intermediate
 exl-id: 73548973-ff8d-4d6c-b383-dd3679fa159a
 version: Journey Orchestration
-source-git-commit: 3fa90fa707b562ecf2160ec980520bc8bc267a21
-workflow-type: ht
-source-wordcount: '247'
-ht-degree: 100%
+source-git-commit: 57017310f5ed34e447c47babe288b28186809f6e
+workflow-type: tm+mt
+source-wordcount: '272'
+ht-degree: 91%
 
 ---
 
@@ -26,6 +26,15 @@ ht-degree: 100%
 | エッジセグメント化を利用する決定ポリシーを使用したコードベースのエクスペリエンス API リクエスト | 1500 |
 | エッジセグメント化を利用しない決定ポリシーを使用したコードベースのエクスペリエンス API リクエスト | 5,000 |
 | Edge Decisioning リクエストあたりのサーフェス URI の最大数 | 30 |
+
+## 決定項目 {#decision-items}
+
+| ガードレール | 上限 |
+| ------- | ------- |
+| 決定項目の合計 | 10K |
+| 属性を含む項目の最大サイズ （1 KB）、最大 30 属性 | 1KB |
+| 項目表示の最大サイズ （すべてのプレースメントの合計） | 1KB |
+| 頻度ルール - オファーごとのキャップルールの最大数 | 10 |
 
 ## 項目コレクション {#item-collections}
 
@@ -65,10 +74,8 @@ ht-degree: 100%
 | ガードレール | 上限 |
 | ------- | ------- |
 | オファーカタログスキーマごとのカスタム属性の数 | 100 |
-| オファー項目の合計 | 10K |
 | プレースメントの合計 | 1K |
 | AI ランキングモデル | 5 |
-| 頻度ルール - オファーごとのキャップルールの最大数 | 10 |
 
 ## 設定  {#configurations}
 
