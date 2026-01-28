@@ -6,10 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
-workflow-type: ht
-source-wordcount: '1721'
-ht-degree: 100%
+source-git-commit: 217c7d1aead043e1978c8e0dd40190f789368fd0
+workflow-type: tm+mt
+source-wordcount: '1777'
+ht-degree: 96%
 
 ---
 
@@ -207,6 +207,10 @@ ht-degree: 100%
 ## 決定ポリシーの確認と保存 {#review}
 
 選択戦略を設定し、フォールバックオファーを追加したら、「**[!UICONTROL 次へ]**」をクリックして決定ポリシーを確認および保存します。次に、「**[!UICONTROL 作成]**」をクリックしてポリシーの作成を確定します。
+
+>[!IMPORTANT]
+>
+>決定ポリシーを作成すると、それに加えられた変更がすべてのデータ領域に反映されるまでに最大 15 分かかり、カナダでは最大 30 分かかる場合があります。 これには、コレクションへの新しい決定項目の追加、項目内のルールの変更、項目の内容の変更、数式の更新などの変更が含まれます。
 
 決定ポリシーは、パーソナライゼーションエディターの省略記号ボタンや、コンポーネントプロパティパネル内の&#x200B;**[!UICONTROL 決定]**&#x200B;メニューを使用して、いつでも編集または削除できます。
 
