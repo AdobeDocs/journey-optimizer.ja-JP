@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d3a9751fb7a95a761cb84fd1a00ea6bae9d32e37
+source-git-commit: 2dd468a97b8cb696d4ad7f1d0de2aceb15da29df
 workflow-type: tm+mt
 source-wordcount: '1839'
 ht-degree: 21%
@@ -31,11 +31,11 @@ ht-degree: 21%
 
 **リリース日**:2026 年 1 月 27～28 日
 
-[&#x200B; 機能 &#x200B;](#jan-26-01-features) および [&#x200B; 改善 &#x200B;](#jan-26-01-improv) の節では、既に使用可能な機能について説明し、[&#x200B; 近日公開 &#x200B;](#jan-26-01-coming-soon) では、後の公開日にスケジュールされている項目を一覧表示しています。
+[ 機能 ](#jan-26-01-features) および [ 改善 ](#jan-26-01-improv) の節では、既に使用可能な機能について説明し、[ 近日公開 ](#jan-26-01-coming-soon) では、後の公開日にスケジュールされている項目を一覧表示しています。
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新機能 {#jan-26-01-features}
 
@@ -131,7 +131,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 #### AI
 
-* **AI アシスタントコンテンツ品質チェック** - ブランドの整合性に加えて、全体的な <strong> コンテンツ品質 </strong> を評価して、ブランドガイドラインに依存せずに、<strong> 読みやすさ </strong>、凝集性、有効性に関する潜在的な問題を明らかにできるようになりました。 これらの自動チェックは、メッセージングの不明確、一貫性のないトーン、構造ギャップの特定に役立ちます。 [&#x200B; 詳細情報 &#x200B;](../content-management/brands-score.md#validate-quality)。 [&#x200B; ビデオでこの機能を確認する &#x200B;](https://video.tv.adobe.com/v/3470547/?captions=jpn&learn=on)。
+* **AI アシスタントコンテンツ品質チェック** - ブランドの整合性に加えて、全体的な <strong> コンテンツ品質 </strong> を評価して、ブランドガイドラインに依存せずに、<strong> 読みやすさ </strong>、凝集性、有効性に関する潜在的な問題を明らかにできるようになりました。 これらの自動チェックは、メッセージングの不明確、一貫性のないトーン、構造ギャップの特定に役立ちます。 [ 詳細情報 ](../content-management/brands-score.md#validate-quality)。 [ ビデオでこの機能を確認する ](https://video.tv.adobe.com/v/3470544/?learn=on)。
 
 #### Experience Decisioning
 
@@ -148,9 +148,9 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 * **ジャーニーでのジャーニーのペイロードサイズの検証** - Journey Optimizerで <strong> ペイロードサイズ </strong> が検証され、最適なパフォーマンスとシステムの安定性が確保されるようになりました。 ジャーニーを作成または公開すると、ペイロードサイズが推奨制限に近づいた場合や推奨制限を超えた場合は、明確な <strong> 警告とエラー </strong> が表示され、ジャーニー設定を最適化するための実用的なガイダンスも示されます。 このプロアクティブな検証は、潜在的な問題を早期に特定し、ジャーニーのパフォーマンスを維持するのに役立ちます。 [詳細情報](../start/guardrails.md#journey-payload-size)
 
 * **ジャーニーアラート** – 新しい <strong> 事前設定済みのアラート </strong> をジャーニーで使用できます。
-   &#x200B;- <strong> プロファイル破棄率を超えています </strong> – 過去 5 分に入力されたプロファイルに対するプロファイル破棄の割合が、しきい値を超えています
-   &#x200B;- <strong> カスタムアクションエラー率を超えました </strong> – 過去 5 分に成功した HTTP 呼び出しに対するカスタムアクションエラーの割合が、しきい値を超えました
-   &#x200B;- <strong> プロファイルエラー率を超えています </strong> – 過去 5 分に入力されたプロファイルに対する、エラーのプロファイルの割合が、しきい値を超えています
+   * <strong> プロファイル破棄率を超えています </strong> – 過去 5 分に入力されたプロファイルに対するプロファイル破棄の割合が、しきい値を超えています
+   * <strong> カスタムアクションエラー率を超えました </strong> – 過去 5 分に成功した HTTP 呼び出しに対するカスタムアクションエラーの割合が、しきい値を超えました
+   * <strong> プロファイルエラー率を超えています </strong> – 過去 5 分に入力されたプロファイルに対する、エラーのプロファイルの割合が、しきい値を超えています
 
   詳しくは、[詳細なドキュメント](../reports/alerts.md)を参照してください。
 
