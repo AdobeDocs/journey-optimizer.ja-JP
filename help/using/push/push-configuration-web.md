@@ -118,7 +118,7 @@ ht-degree: 77%
 
 ### pushNotification プロパティの設定 {#push-property}
 
-**Web プッシュ通知** を有効にするには、まず [pushNotifications プロパティ &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/pushnotifications) が web SDK内で適切に設定されていることを確認する必要があります。 このプロパティは、Web アプリケーションによるプッシュ通知の処理方法を制御します。
+**Web プッシュ通知** を有効にするには、まず [pushNotifications プロパティ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/js/commands/configure/pushnotifications) が web SDK内で適切に設定されていることを確認する必要があります。 このプロパティは、Web アプリケーションによるプッシュ通知の処理方法を制御します。
 
 さらに、Journey Optimizerで [&#x200B; アプリのプッシュ資格情報 &#x200B;](#push-credentials-launch) を設定するために必要な VAPID キーを生成する必要があります。
 
@@ -175,7 +175,7 @@ ht-degree: 77%
 
 ## 手順 3:sendPushSubscription プロパティの設定 {#sendPushSubscription-property}
 
-プッシュ資格情報とチャネル設定を設定したら、web アプリケーションに [sendPushSubscription コマンド &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/sendpushsubscription) を実装する必要があります。 このコマンドは、ユーザーのプッシュ通知をAdobe Experience Platformに登録します。これにより、どのユーザーがプッシュ通知を受け取り、購読ステータスを管理するかをシステムが追跡できるようになります。 この登録は、Journey Optimizerがターゲットを設定したプッシュ通知をユーザーに送信するために不可欠です。
+プッシュ資格情報とチャネル設定を設定したら、web アプリケーションに [sendPushSubscription コマンド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/js/commands/sendpushsubscription) を実装する必要があります。 このコマンドは、ユーザーのプッシュ通知をAdobe Experience Platformに登録します。これにより、どのユーザーがプッシュ通知を受け取り、購読ステータスを管理するかをシステムが追跡できるようになります。 この登録は、Journey Optimizerがターゲットを設定したプッシュ通知をユーザーに送信するために不可欠です。
 
 ## 手順 4：イベントでモバイルアプリのテスト {#mobile-app-test}
 
