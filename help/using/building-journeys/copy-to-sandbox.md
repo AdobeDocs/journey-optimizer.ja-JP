@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 別のサンドボックスへジャーニーをコピー
+title: 別のサンドボックスにジャーニーをコピー
 description: ジャーニーを別のサンドボックスにコピーする方法を説明します
 feature: Journeys, Sandboxes
 topic: Content Management
@@ -11,13 +11,13 @@ keywords: サンドボックス, ジャーニー, コピー, 環境
 exl-id: 8c63f2f2-5cec-4cb2-b3bf-2387eefb5002
 version: Journey Orchestration
 source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 100%
 
 ---
 
-# 別のサンドボックスへジャーニーをコピー {#copy-to-sandbox}
+# 別のサンドボックスにジャーニーをコピー {#copy-to-sandbox}
 
 <!--
 >[!CONTEXTUALHELP]
