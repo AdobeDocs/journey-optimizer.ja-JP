@@ -7,14 +7,14 @@ feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
-workflow-type: ht
-source-wordcount: '1877'
-ht-degree: 100%
+source-git-commit: 0706cb23bb41aff56984d7723df22c5a07bbe51d
+workflow-type: tm+mt
+source-wordcount: '1879'
+ht-degree: 99%
 
 ---
 
-# プッシュ通知チャネルの設定 {#push-notification-configuration}
+# モバイルアプリのプッシュ通知チャネルの設定 {#push-notification-configuration}
 
 [!DNL Journey Optimizer] では、ジャーニーを作成し、ターゲットとなるオーディエンスにメッセージを送信できます。[!DNL Journey Optimizer] でプッシュ通知の送信を開始する前に、モバイルアプリと Adobe Experience Platform のタグで設定と統合が行われていることを確認する必要があります。[!DNL Adobe Journey Optimizer] でのプッシュ通知のデータフローについては、[このページ](push-gs.md)を参照してください。
 
@@ -86,7 +86,7 @@ ht-degree: 100%
 
 1. 以前に設定した&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;を選択します。
 
-1. 「**[!UICONTROL ユーザー]**」タブで、「**[!UICONTROL ユーザーを追加]**」をクリックします。
+1. 「**[!UICONTROL ユーザー]**」タブで「**[!UICONTROL ユーザーを追加]**」をクリックします。
 
    ![](assets/push_product_6.png)
 
@@ -208,7 +208,7 @@ To get the SDKs needed for push notification to work you will need the following
 * **[!UICONTROL Adobe Experience Platform Edge]**
 * **[!UICONTROL Adobe Experience Platform Assurance]**, optional but recommended to debug the mobile implementation.
 
-Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-mobile-android-apps-with-launch/configure-launch/launch-add-extensions.html?lang=ja).
+Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-mobile-android-apps-with-launch/configure-launch/launch-add-extensions.html).
 -->
 
 ## 手順 2：プッシュ用のチャネル設定の作成{#message-preset}

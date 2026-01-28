@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
+source-git-commit: 0706cb23bb41aff56984d7723df22c5a07bbe51d
 workflow-type: tm+mt
-source-wordcount: '1799'
+source-wordcount: '1807'
 ht-degree: 15%
 
 ---
@@ -31,11 +31,11 @@ ht-degree: 15%
 
 **リリース日**:2026 年 1 月 27～28 日
 
-[&#x200B; 機能 &#x200B;](#jan-26-01-features) および [&#x200B; 改善 &#x200B;](#jan-26-01-improv) の節では、既に使用可能な機能について説明し、[&#x200B; 近日公開 &#x200B;](#jan-26-01-coming-soon) では、後の公開日にスケジュールされている項目を一覧表示しています。
+[ 機能 ](#jan-26-01-features) および [ 改善 ](#jan-26-01-improv) の節では、既に使用可能な機能について説明し、[ 近日公開 ](#jan-26-01-coming-soon) では、後の公開日にスケジュールされている項目を一覧表示しています。
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新機能 {#jan-26-01-features}
 
@@ -110,6 +110,24 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>Web プッシュ通知チャネル</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizerは <strong>web プッシュ通知 </strong> をサポートし、プッシュチャネルをモバイル以外にも拡張します。 モバイルブラウザーとデスクトップブラウザーの両方に通知を配信できるので、アプリを必要とせずに、デバイス上で顧客に直接リーチできます。 この機能強化により、モバイルプッシュで既に使用可能なものと同じオーサリングワークフローとターゲティング機能を活用して、パーソナライズされたメッセージをリアルタイムでタイムリーにユーザーに提供できるようになります。</p>
+<p>詳しくは、<a href="../push/push-configuration-web.md">詳細なドキュメント</a>を参照してください。</p>
+<p>以前にBetaでリリースされたこの機能は、すべての環境で使用できるようになります（一般提供）。</p>
+<p>公開日：2026年1月28日（PT）</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ### 機能強化 {#jan-26-01-improv}
 
 #### Experience Decisioning
@@ -175,23 +193,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 </ul>
 <p>レコードは、取り込みから 7 暦日間、AJO メッセージ書き出しデータセットに保持されます。 この保持期間中に、Experience Platformの宛先を介して独自のストレージにデータを書き出すことができます。 この機能はチャネル設定レベルで有効になり、書き出されるメッセージを詳細に制御できます。</p>
 <p>この機能は、メッセージ書き出しアドオン機能を購入した組織のメールおよび SMS チャネルでのみ使用できます。 詳しくは、アドビ担当者にお問い合わせください。</p>
-<p>公開日：2026年1月28日（PT）</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Web プッシュ通知チャネル</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Journey Optimizerは <strong>web プッシュ通知 </strong> をサポートし、プッシュチャネルをモバイル以外にも拡張します。 モバイルブラウザーとデスクトップブラウザーの両方に通知を配信できるので、アプリを必要とせずに、デバイス上で顧客に直接リーチできます。 この機能強化により、モバイルプッシュで既に使用可能なものと同じオーサリングワークフローとターゲティング機能を活用して、パーソナライズされたメッセージをリアルタイムでタイムリーにユーザーに提供できるようになります。</p>
-<p>以前にBetaでリリースされたこの機能は、すべての環境で使用できるようになります（一般提供）。</p>
 <p>公開日：2026年1月28日（PT）</p>
 </td>
 </tr>

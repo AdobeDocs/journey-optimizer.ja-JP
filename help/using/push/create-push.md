@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 8205d248d986cdc1a2262705c58524c2434265f5
-workflow-type: ht
-source-wordcount: '801'
-ht-degree: 100%
+source-git-commit: 0706cb23bb41aff56984d7723df22c5a07bbe51d
+workflow-type: tm+mt
+source-wordcount: '841'
+ht-degree: 94%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 100%
 >id="ajo_message_push"
 >title="プッシュメッセージの作成"
 >abstract="プッシュメッセージを追加し、パーソナライゼーションエディターを使用してパーソナライズを開始します。"
+
+モバイルデバイス（iOSおよびAndroid）と web ブラウザーのプッシュ通知を作成できます。 このページでは、ジャーニーまたはキャンペーンでプッシュ通知を設定するプロセスについて説明します。
 
 ## ジャーニーまたはキャンペーンでのプッシュ通知の作成 {#create}
 
@@ -64,13 +66,13 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL プロパティ]**」セクションで、キャンペーンの「**[!UICONTROL タイトル]**」と「**[!UICONTROL 説明]**」を編集します。
 
-1. 「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックして、使用可能な Adobe Experience Platform オーディエンスのリストからターゲットオーディエンスを定義します。[詳細情報](../audience/about-audiences.md)
+1. 「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックして、使用可能な Adobe Experience Platform オーディエンスのリストからターゲットオーディエンスを定義します。[詳細情報](../audience/about-audiences.md)。
 
-1. 「**[!UICONTROL ID 名前空間]**」フィールドで、選択したオーディエンスから個人を識別するために使用する名前空間を選択します。[詳細情報](../event/about-creating.md#select-the-namespace)
+1. 「**[!UICONTROL ID 名前空間]**」フィールドで、選択したオーディエンスから個人を識別するために使用する名前空間を選択します。[詳細情報](../event/about-creating.md#select-the-namespace)。
 
 1. 「**[!UICONTROL アクション]**」セクションで、「**[!UICONTROL プッシュ通知]**」を選択し、新しい設定を選択または作成します。
 
-   プッシュ設定について詳しくは、[このページ](push-configuration.md)を参照してください。
+   [ このページ ](push-configuration.md) のモバイルおよび [ このページ ](push-configuration-web.md) の web 用のプッシュ設定について詳しく説明します。
 
    ![](assets/push_create_3.png)
 
@@ -109,7 +111,7 @@ ht-degree: 100%
 
 迅速配信モードは、キャンペーンを通じて大量のプッシュメッセージを非常に高速に送信できるようにする [!DNL Journey Optimizer] アドオンです。
 
-迅速配信は、メッセージ配信の遅延がビジネス上の重要な問題になる状況で、携帯電話に緊急のプッシュアラートを送信するときに使用します（ニュースチャネルアプリをインストールしたユーザーにニュース速報を流すなど）。
+迅速配信は、メッセージ配信の遅延がビジネス上の重要な問題になる状況で、携帯電話に緊急のプッシュアラートを送信するときに使用します（ニュースチャネルアプリをインストールしたユーザーにニュース速報を配信するなど）。
 
 迅速配信モードを使用する際のパフォーマンスについて詳しくは、[Adobe Journey Optimizer 製品の説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}を参照してください。
 
@@ -128,7 +130,7 @@ ht-degree: 100%
 
    ![](assets/create-campaign-burst.png)
 
-1. メッセージコンテンツを設定し、ターゲットにするオーディエンスを選択します。[キャンペーンの作成方法について学ぶ](#create)
+1. メッセージコンテンツを設定し、ターゲットにするオーディエンスを選択します。[キャンペーンの作成方法を学ぶ](#create)
 
    >[!IMPORTANT]
    >

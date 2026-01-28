@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
-source-git-commit: 22a8742bf9000ed1cc8437d7ac89747276284dbf
+source-git-commit: 0706cb23bb41aff56984d7723df22c5a07bbe51d
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 100%
+source-wordcount: '390'
+ht-degree: 93%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 メッセージコンテンツを定義したら、CSV／JSON ファイルからアップロードした、または手動で追加したテストプロファイルやサンプル入力データを使用して、そのコンテンツをプレビューできます。パーソナライズされたコンテンツを挿入した場合は、そのコンテンツがメッセージ内でどのように表示されるかを確認できます。
 
-これを行うには、「**[!UICONTROL コンテンツをシミュレート]**」をクリックします。コンテンツをプレビューするデバイスの種類を **[!UICONTROL iOS]** または **[!UICONTROL Android]** から選択します。
+これを行うには、「**[!UICONTROL コンテンツをシミュレート]**」をクリックします。その後、コンテンツをプレビューするデバイスの種類（**[!UICONTROL iOS]**、**[!UICONTROL Android]** または **[!UICONTROL Web]**）を選択できます。
 
 ![](assets/push_preview_3.png)
 
@@ -58,7 +58,8 @@ ht-degree: 100%
 
 **関連トピック**
 
-* [プッシュチャネルの設定](push-configuration.md)
+* [モバイル用プッシュチャネルの設定](push-configuration.md)
+* [Web 用のプッシュチャネルの設定](push-configuration-web.md)
 * [プッシュ通知レポート](../reports/journey-global-report-cja-push.md)
 * [プッシュ通知の作成](create-push.md)
 * [ジャーニーへのメッセージの追加](../building-journeys/journeys-message.md)
