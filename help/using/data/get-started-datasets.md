@@ -83,7 +83,7 @@ Adobe Experience Platform に取り込まれたすべてのデータは、デー
 
 データセットの作成、スキーマへのマッピング、データの追加、データの取り込み確認の方法についてこのビデオで説明しています。
 
->[!VIDEO](https://video.tv.adobe.com/v/334293?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3416782?captions=jpn&quality=12)
 
 ## データガバナンス
 
