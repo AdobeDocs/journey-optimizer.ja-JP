@@ -5,10 +5,10 @@ title: 複数の手順のキャンペーンでのチャネルアクティビテ�
 description: 複数の手順のキャンペーンでのチャネルアクティビティの追加方法について説明します。
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+source-git-commit: 266bf3afde663b17aedce5fb51e7c5f424fee9ad
 workflow-type: tm+mt
-source-wordcount: '1431'
-ht-degree: 68%
+source-wordcount: '1448'
+ht-degree: 64%
 
 ---
 
@@ -50,11 +50,11 @@ UNUSED IDs in BJ
 >title="ダイレクトメールアクティビティ"
 >abstract="ダイレクトメールアクティビティでは、調整されたキャンペーン内でのダイレクトメール送信が促進され、1 回限りのメッセージと繰り返しメッセージの両方を送信できます。これは、ダイレクトメールプロバイダーが必要とする抽出ファイルを生成するプロセスを自動化するのに役立ちます。チャネルアクティビティを調整されたキャンペーンキャンバスに組み合わせて、顧客の行動とデータに基づいてアクションをトリガーできるクロスチャネルキャンペーンを作成できます。"
 
-[!DNL Adobe Journey Optimizer] を使用すると、メール、SMS、プッシュ通知などのチャネルをまたいでマーケティングキャンペーンを自動化および実行できます。 これらのチャネルアクティビティをキャンペーンキャンバスに組み合わせて、クロスチャネルのオーケストレートキャンペーンを作成できます。 これらのキャンペーンは、顧客の行動とデータに基づいてアクションのトリガーを設定できます。
+[!DNL Adobe Journey Optimizer] を使用すると、メール、SMS、プッシュ通知、ダイレクトメールなどのチャネルをまたいでマーケティングキャンペーンを自動化および実行できます。 これらのチャネルアクティビティをキャンペーンキャンバスに組み合わせて、クロスチャネルのオーケストレートキャンペーンを作成できます。 これらのキャンペーンは、顧客の行動とデータに基づいてアクションのトリガーを設定できます。
 
 例：
 
-* メール、SMS、プッシュを通じてウェルカムシリーズを送信します。
+* E メール、SMS、プッシュおよびダイレクトメールを使用して、ウェルカムシリーズを送信します。
 * 購入後にフォローアップメールを配信します。
 * パーソナライズされた誕生日の挨拶を SMS 経由で送信します。
 
@@ -62,7 +62,7 @@ UNUSED IDs in BJ
 
 >[!CAUTION]
 >
->調整されたキャンペーンでは、SMS、プッシュ、メールチャネルのみがサポートされます。
+>オーケストレートキャンペーンでは、SMS、プッシュ、メール、ダイレクトメールチャネルのみがサポートされます。
 
 ## チャネルアクティビティを追加し、そのプロパティを定義します。 {#add}
 
@@ -70,11 +70,11 @@ UNUSED IDs in BJ
 >
 >チャネルアクティビティを追加する前に、[オーディエンスを作成](build-audience.md)または[オーディエンスを読み取り](read-audience.md)アクティビティを使用してターゲットオーディエンスを定義します。
 
-1. チャネルアクティビティをキャンバスに追加します。使用できるチャネルアクティビティは、**[!UICONTROL メール]**、**[!UICONTROL SMS]** および&#x200B;**[!UICONTROL プッシュ]**&#x200B;です。
+1. チャネルアクティビティをキャンバスに追加します。使用可能なチャネルアクティビティは、**[!UICONTROL メール]**、**[!UICONTROL SMS]**、**[!UICONTROL プッシュ]**、**[!UICONTROL ダイレクトメール]** です。
 
    ![使用できるアクティビティを含むキャンバスを示す画像](../assets/channel-add.png)
 
-1. アクティビティを選択し、選択したチャネルに応じて「**[!UICONTROL メールを編集]**」、「**[!UICONTROL SMS を編集]**」または「**[!UICONTROL プッシュを編集]**」をクリックします。
+1. アクティビティを選択し、選択したチャネルに応じて、**[!UICONTROL メールを編集]**、**[!UICONTROL SMS を編集]**、**[!UICONTROL プッシュを編集]** または **[!UICONTROL ダイレクトメールを編集]** をクリックします。
 
    ![メールアクティビティを含むキャンバスを示す画像](../assets/channel-edit.png)
 
@@ -92,7 +92,7 @@ UNUSED IDs in BJ
 
 1. **キャッピングルールの適用**
 
-   **[!UICONTROL ルールセット]**&#x200B;ドロップダウンリストで、キャッピングルールをキャンペーンに適用するチャネルルールセットを選択します。チャネルルールセットを活用すると、通信タイプ別のフリークエンシーキャップを設定し、類似したメッセージで顧客に過剰な負荷がかかるのを防ぐことができます。[&#x200B; ルールセットの操作方法を学ぶ &#x200B;](../../conflict-prioritization/rule-sets.md)。
+   **[!UICONTROL ルールセット]**&#x200B;ドロップダウンリストで、キャッピングルールをキャンペーンに適用するチャネルルールセットを選択します。チャネルルールセットを活用すると、通信タイプ別のフリークエンシーキャップを設定し、類似したメッセージで顧客に過剰な負荷がかかるのを防ぐことができます。[ ルールセットの操作方法を学ぶ ](../../conflict-prioritization/rule-sets.md)。
 
 1. **コンテンツ実験を作成**
 
@@ -116,7 +116,7 @@ UNUSED IDs in BJ
 
 迅速配信モードは、キャンペーンを通じて大量のプッシュメッセージを非常に高速に送信できるようにする [!DNL Journey Optimizer] アドオンです。迅速配信は、メッセージ配信の遅延がビジネスにとって重要な場合に使用されます。 例えば、ニュースチャネルアプリをインストールしたユーザーにニュース速報を流すなど、携帯電話に緊急のプッシュアラートを送信するとします。 プッシュ通知の迅速配信モードを有効にする方法について詳しくは、[このページ](../../push/create-push.md#rapid-delivery)を参照してください。
 
-迅速配信モードを使用する際のパフォーマンスについて詳しくは、[Adobe Journey Optimizer製品の説明 &#x200B;](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} を参照してください。
+迅速配信モードを使用する際のパフォーマンスについて詳しくは、[Adobe Journey Optimizer製品の説明 ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} を参照してください。
 
 +++
 
@@ -132,7 +132,7 @@ UNUSED IDs in BJ
 <table style="table-layout:fixed"><tr style="border: 0; text-align: center;" >
 <td><a href="../../email/create-email.md"><img alt="メール" src="../../channels/assets/do-not-localize/email.png"></a><br/><a href="../../email/create-email.md"><strong>メールの作成</strong></a></td>
 <td><a href="../../sms/create-sms.md"><img alt="SMS" src="../../channels/assets/do-not-localize/sms.png"></a><br/><a href="../../sms/create-sms.md"><strong>SMS の作成</strong></a></td>
-<td><a href="../../push/create-push.md"><img alt="プッシュ" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>プッシュ通知の作成</strong></a></td>
+<td><a href="../../push/create-push.md"><img alt="プッシュ" src="../../channels/assets/do-not-localize/push.png"></a><a href="../../push/create-push.md"><strong>プッシュ通知の作成</strong></a></td><td><a href="../../direct-mail/create-direct-mail.md"><img alt="ダイレクトメール" src="../../channels/assets/do-not-localize/direct-mail.jpg"></a><a href="../../direct-mail/create-direct-mail.md"><strong>ダイレクトメールの作成</strong></a></td>
 </tr></table>
 
 ### パーソナライゼーションの追加
@@ -153,7 +153,7 @@ UNUSED IDs in BJ
 
    * **`Enrichment`**：キャンバス内の&#x200B;**[!UICONTROL エンリッチメント]**&#x200B;アクティビティを通じて追加されたデータを含めます。これにより、外部データセットまたはオーケストレーション中に組み込まれた追加ロジックに基づいて、メッセージをパーソナライズできます。[エンリッチメントアクティビティの使用方法の詳細情報](../activities/enrichment.md)
 
-パーソナライゼーションエディターの使用方法について詳しくは、[&#x200B; パーソナライゼーションの基本を学ぶ &#x200B;](../../personalization/personalize.md) を参照してください。
+パーソナライゼーションエディターの使用方法について詳しくは、[ パーソナライゼーションの基本を学ぶ ](../../personalization/personalize.md) を参照してください。
 
 ### コンテンツの確認とテスト
 
@@ -165,11 +165,11 @@ UNUSED IDs in BJ
 
 デフォルトでは、繰り返しなしのオーケストレートキャンペーンの場合、送信を明示的に承認するまでメッセージ配信は一時停止されます。 キャンペーンを公開した後、チャネルアクティビティのプロパティペインで「リクエストを送信」を確定します。
 
-![&#x200B; 確認ボタンを示す画像 &#x200B;](../assets/confirm-sending.png)
+![ 確認ボタンを示す画像 ](../assets/confirm-sending.png)
 
 オーケストレーションされたキャンペーンを公開する前に、送信の確認を無効にすることができます。 これを行うには、キャンバスでチャネルアクティビティを選択してプロパティを表示し、「**[!UICONTROL 確認せずに送信]**」をオンにします。
 
-![&#x200B; 「確認せずに送信」ボタンを示す画像 &#x200B;](../assets/send-without-confirmation.png)
+![ 「確認せずに送信」ボタンを示す画像 ](../assets/send-without-confirmation.png)
 
 ## レート制御の設定 {#rate-control}
 
@@ -185,7 +185,7 @@ UNUSED IDs in BJ
 
 1. 「**[!UICONTROL スケジュール]**」タブに移動し、「**[!UICONTROL 配信設定]** セクションの **[!UICONTROL 配信をスロットル]**」オプションを有効にします。
 
-   ![&#x200B; スロットル配信オプションと配信率/秒を使用したレートコントロール設定 &#x200B;](../assets/rate-control.png)
+   ![ スロットル配信オプションと配信率/秒を使用したレートコントロール設定 ](../assets/rate-control.png)
 
 1. 1 秒あたりの配信率 **[!UICONTROL を指定し]** す。
 

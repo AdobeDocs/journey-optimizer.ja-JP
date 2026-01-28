@@ -5,10 +5,10 @@ title: 調整されたキャンペーンのガードレールと制限
 description: 調整されたキャンペーンのガードレールと制限について説明します
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
-source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
-workflow-type: ht
-source-wordcount: '508'
-ht-degree: 100%
+source-git-commit: 266bf3afde663b17aedce5fb51e7c5f424fee9ad
+workflow-type: tm+mt
+source-wordcount: '510'
+ht-degree: 97%
 
 ---
 
@@ -91,4 +91,4 @@ ht-degree: 100%
 
 ## チャネルの制限
 
-調整されたキャンペーンでは、SMS、プッシュ、メールチャネルのみがサポートされます。
+オーケストレートキャンペーンでは、SMS、プッシュ、メール、ダイレクトメールチャネルのみがサポートされます。
