@@ -51,7 +51,7 @@ ht-degree: 17%
 
 >[!NOTE]
 >
->エンゲージメント可能なプロファイル数が突然急増した場合は、以下の [ トラブルシューティングの節 ](#troubleshooting-engageable-profiles) で、問題の理解と解決に関する詳細なガイダンスを参照してください。
+>エンゲージメント可能なプロファイル数が突然急増した場合は、以下の [&#x200B; トラブルシューティングの節 &#x200B;](#troubleshooting-engageable-profiles) で、問題の理解と解決に関する詳細なガイダンスを参照してください。
 
 ## トラブルシューティング：エンゲージメントプロファイル数の大幅な増加 {#troubleshooting-engageable-profiles}
 
@@ -79,7 +79,7 @@ ht-degree: 17%
 
 2. **大規模なオーディエンスをターゲットにしたジャーニー、キャンペーンおよび決定を調査します。**
 
-   * [ エンゲージメントプロファイルクエリ ](../reports/query-examples.md#engageable-profiles-queries) または [ クエリサービス ](https://experienceleague.adobe.com/ja/docs/experience-platform/query/home){target="_blank"} を使用して、多数のプロファイルをターゲットにした最近のジャーニーやキャンペーンをレビューします。
+   * [&#x200B; エンゲージメントプロファイルクエリ &#x200B;](../reports/query-examples.md#engageable-profiles-queries) または [&#x200B; クエリサービス &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/query/home){target="_blank"} を使用して、多数のプロファイルをターゲットにした最近のジャーニーやキャンペーンをレビューします。
    * プロファイル数の急増に貢献した特定のジャーニーバージョンを識別します。
    * 新しいプロファイルを含むジャーニー、キャンペーン、決定は、ジャーニーデータセットのイベント数の増加を招き、エンゲージメント可能なプロファイル数の増加の一因となる可能性があります。
 
@@ -91,7 +91,7 @@ ht-degree: 17%
 4. **アドレス可能なオーディエンスサイズの削減：**
 
    * 必要に応じて、偽名プロファイルを削除します。 この操作は、Journey OptimizerとReal-Time Customer Data Platformの両方に影響することに注意してください。
-   * [ 偽名プロファイルデータの有効期限 ](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/pseudonymous-profiles){target="_blank"} について詳しくは、リアルタイム顧客プロファイルガイドを参照してください。
+   * [&#x200B; 偽名プロファイルデータの有効期限 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/pseudonymous-profiles){target="_blank"} について詳しくは、リアルタイム顧客プロファイルガイドを参照してください。
    * **メモ：** 偽名プロファイルデータの有効期限は、Platform UI または API を使用して設定することはできません。 この機能を有効にするには、サポートに連絡する必要があります。
 
 5. **データセットの変更の監視：**
@@ -105,8 +105,8 @@ ht-degree: 17%
 
 **関連トピック：**
 
-* [ エンゲージメントプロファイルクエリの例 ](../reports/query-examples.md#engageable-profiles-queries) - エンゲージメント可能なプロファイルを監視および分析するサンプルクエリ
-* [Adobe Experience Platform クエリサービスの概要 ](https://experienceleague.adobe.com/ja/docs/experience-platform/query/home){target="_blank"}
+* [&#x200B; エンゲージメントプロファイルクエリの例 &#x200B;](../reports/query-examples.md#engageable-profiles-queries) - エンゲージメント可能なプロファイルを監視および分析するサンプルクエリ
+* [Adobe Experience Platform クエリサービスの概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/query/home){target="_blank"}
 
 ## 関連ドキュメント {#related-documentation}
 
@@ -115,4 +115,4 @@ ht-degree: 17%
 * [ライセンス使用状況ダッシュボードの概要](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=ja){target="_blank"}
 * [ライセンス使用状況ダッシュボードの確認](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=ja#exploring-the-license-usage-dashboard){target="_blank"}
 * [使用可能な指標](https://experienceleague.adobe.com/docs/experience-platform/dashboards/guides/license-usage.html?lang=ja#available-metrics){target="_blank"}
-* [ 偽名プロファイルデータの有効期限 ](https://experienceleague.adobe.com/docs/experience-platform/profile/pseudonymous-profiles.html?lang=ja){target="_blank"}
+* [&#x200B; 偽名プロファイルデータの有効期限 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/pseudonymous-profiles.html?lang=ja){target="_blank"}
