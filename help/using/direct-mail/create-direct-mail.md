@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: ダイレクトメール, メッセージ, キャンペーン
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
-source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
+source-git-commit: 3fdfc98c0049f39d12b1cb2241fde892f449cdc1
 workflow-type: tm+mt
 source-wordcount: '972'
 ht-degree: 89%
@@ -87,11 +87,13 @@ ht-degree: 89%
 
    >[!AVAILABILITY]
    >
-   >ダイレクトメールは **除外** 機能をサポートしていますが、現在 **処理** はサポートしていません。 [&#x200B; 実験の操作方法を学ぶ &#x200B;](../content-management/get-started-experiment.md)
+   >ダイレクトメールは **除外** 機能をサポートしていますが、現在 **処理** はサポートしていません。 [ 実験の操作方法を学ぶ ](../content-management/get-started-experiment.md)
 
 1. キャンペーンは特定の日付にスケジュールすることも、定期的に繰り返すように設定することもできます。キャンペーンの&#x200B;**[!UICONTROL スケジュール]**&#x200B;を設定する方法については、[この節](../campaigns/campaign-schedule.md)を参照してください。
 
 これで、ダイレクトメールプロバイダーに送信する抽出ファイルの設定を開始できます。
+
+>[!ENDTABS]
 
 ## 抽出ファイルの設定 {#extraction-file}
 
