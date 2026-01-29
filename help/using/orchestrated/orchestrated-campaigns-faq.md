@@ -5,10 +5,10 @@ title: 調整されたキャンペーンに関するよくある質問
 description: Journey Optimizer の調整されたキャンペーンに関するよくある質問
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 266bf3afde663b17aedce5fb51e7c5f424fee9ad
+source-git-commit: 478bd6df8a82c9e37ec9319dedb27d99c021ee99
 workflow-type: tm+mt
-source-wordcount: '1821'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -140,6 +140,14 @@ Yes. Campaign orchestration is natively integrated with:
 * **Customer Journey Analytics**: Campaign orchestration reports are available.  
 * **Real-Time CDP**: Audiences built in Campaigns can be read in Real-Time CDP.  
 * **Federated Audience Composition (FAC)**: Available as an add-on.  -->
+
++++ ライブオーケストレーション済みキャンペーンをドラフトに戻すことはできますか？
+
+はい、特定の状況で可能です。 「**[!UICONTROL ドラフトに戻る]** オプションは、キャンペーンを非公開にして、ドラフトステータスに戻す回復メカニズムとして設計されています。
+
+このオプションは、実行待ちのスケジュール済みキャンペーンや、実行エラーのあるライブキャンペーンで使用できます。 [ ライブキャンペーンをドラフトに戻す方法を説明します ](start-monitor-campaigns.md#back-to-draft)
+
++++
 
 +++ どのチャネルがサポートされていますか？
 
@@ -276,7 +284,7 @@ Journey Optimizer キャンペーンオーケストレーションは、リレ�
 
 **ベストプラクティス**
 
-* 実験、QA、実稼動環境用に&#x200B;**個別のサンドボックス**&#x200B;を維持します。
+* 実験、QA、本番環境用に&#x200B;**個別のサンドボックス**&#x200B;を維持します。
 * 必要に応じて、設定を詳細に文書化し、手動レプリケーションを有効にします。
 * ガバナンスチームと連携し、環境間の設定の差異を減らします。
 
