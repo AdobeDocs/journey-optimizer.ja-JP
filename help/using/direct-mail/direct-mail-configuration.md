@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: b85210a46c928389db985f0f794618209773c071
+source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
 workflow-type: tm+mt
-source-wordcount: '1648'
-ht-degree: 81%
+source-wordcount: '1708'
+ht-degree: 82%
 
 ---
 
@@ -61,6 +61,11 @@ ht-degree: 81%
 >title="AWS リージョンを選択"
 >abstract="ダイレクトメールファイルのエクスポート先となる AWS サーバーのリージョンを選択します。一般的には、ダイレクトメールプロバイダーの場所に最も近いリージョンを選択することをお勧めします。"
 
+>[!CONTEXTUALHELP]
+>id="ajo_dm_file_routing_frequency"
+>title="AWS リージョンを選択"
+>abstract="ファイルのルーティング設定がジャーニーを使用して送信される場合、ファイルがサーバーに送信される頻度を指定できます。"
+
 >[!NOTE]
 >
 >現在、[!DNL Journey Optimizer] では Amazon S3、SFTP、Azure、Data Landing Zone がサポートされています。
@@ -89,7 +94,7 @@ ht-degree: 81%
 
 **[!UICONTROL サーバータイプ]**&#x200B;として「**[!UICONTROL Amazon S3]**」を選択した場合は、サーバーの詳細と資格情報を入力します。
 
-* **AWS バケット名**:To AWS バケット名の見つけ方については、[&#x200B; こちらのページ &#x200B;](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html) を参照してください。
+* **AWS バケット名**:To AWS バケット名の見つけ方については、[ こちらのページ ](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html) を参照してください。
 
 * **AWS アクセスキー**：AWS アクセスキー ID を見つける場所については、[このページ](https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html#access-keys-and-secret-access-keys)を参照してください。
 
@@ -117,7 +122,7 @@ ht-degree: 81%
 
 >[!TIP]
 >
->SSH キー認証を使用する場合、キーは **Base64 エンコードされた OpenSSH** 秘密鍵である必要があります。 PPK 形式のファイルの場合は、PuTTY ツールを使用して OpenSSH 形式に変換します。 手順について詳しくは、[&#x200B; この節 &#x200B;](#ssh-key-generation) を参照してください。
+>SSH キー認証を使用する場合、キーは **Base64 エンコードされた OpenSSH** 秘密鍵である必要があります。 PPK 形式のファイルの場合は、PuTTY ツールを使用して OpenSSH 形式に変換します。 手順について詳しくは、[ この節 ](#ssh-key-generation) を参照してください。
 
 >[!NOTE]
 >
@@ -155,6 +160,10 @@ ht-degree: 81%
 
 ファイルを暗号化するには、暗号化キーををコピーして、「**[!UICONTROL PGP/GPG 暗号化キー]**」フィールドに貼り付けます。
 
+ファイルのルーティング設定がジャーニーを使用して送信される場合、ファイルがサーバーに送信される頻度を指定できます。
+
+![](assets/file-routing-journey.png)
+
 サーバータイプの詳細を入力したら、「**[!UICONTROL 送信]**」を選択します。ファイルのルーティング設定は、**[!UICONTROL アクティブ]**&#x200B;ステータスで作成されます。これで、[ダイレクトメール設定](#direct-mail-surface)で使用する準備が整いました。
 
 「**[!UICONTROL ドラフトとして保存]**」を選択してファイルのルーティング設定を作成することもできますが、**[!UICONTROL アクティブ]**&#x200B;になるまで設定で選択することはできません。
@@ -185,7 +194,7 @@ SSH キー認証で SFTP を使用している場合は、Base64 にエンコー
 >
 >Base64 エンコーディングの後、キーには `-----BEGIN/END RSA PRIVATE KEY-----` マーカーが含まれなくなり、改行を含めることはできません。 対応する公開鍵を SFTP サーバーの認証済みキーファイルに追加する必要があります。
 
-SFTP アカウントのExperience Platformへの接続について詳しくは、[&#x200B; このドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/connectors/cloud-storage/sftp) を参照してください。
+SFTP アカウントのExperience Platformへの接続について詳しくは、[ このドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/sftp) を参照してください。
 
 +++
 

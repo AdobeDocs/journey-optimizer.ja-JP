@@ -10,10 +10,10 @@ level: Intermediate
 keywords: ジャーニー, メッセージ, プッシュ, sms, メール, アプリ内, web, コンテンツカード, コードベースのエクスペリエンス
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: ht
-source-wordcount: '569'
-ht-degree: 100%
+source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
+workflow-type: tm+mt
+source-wordcount: '576'
+ht-degree: 94%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_message_activity"
 >title="ビルトインのチャネルアクション"
->abstract="Journey Optimizer には、ビルトインのチャネルアクション機能が含まれています。メッセージ（メール、テキストメッセージ（SMS/MMS）、プッシュ）またはインバウンドエクスペリエンス（アプリ内、web、コードベースのエクスペリエンス、コンテンツカード）アクティビティをジャーニーに追加し、設定とコンテンツを定義するだけです。その後、アクティビティはジャーニーのコンテキストで実行および送信されます。"
+>abstract="Journey Optimizer には、ビルトインのチャネルアクション機能が含まれています。ジャーニーにメッセージ（メール、テキストメッセージ（SMS/MMS）、プッシュ、ダイレクトメール）またはインバウンドエクスペリエンス（アプリ内、web、コードベースのエクスペリエンス、コンテンツカード）アクティビティを追加し、設定とコンテンツを定義するだけです。 その後、アクティビティはジャーニーのコンテキストで実行および送信されます。"
 
 [!DNL Journey Optimizer] には、メッセージの送信に使用されるビルトインのチャネルアクション機能が備わっています。プロファイルがこのアクティビティにエントリすると、メッセージが送信されます。
 
@@ -75,6 +75,15 @@ ht-degree: 100%
       </a>
       <div>
       <a href="../sms/create-sms.md"><strong>テキストメッセージ（SMS／MMS）の作成</strong></a>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../direct-mail/create-direct-mail.md">
+      <img alt="検証" src="../assets/do-not-localize/direct-mail.jpg">
+      </a>
+      <div>
+      <a href="../direct-mail/create-direct-mail.md"><strong>ダイレクトメールメッセージの作成</strong></a>
       </div>
       <p>
       </td>
