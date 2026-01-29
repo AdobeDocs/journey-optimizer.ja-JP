@@ -194,7 +194,7 @@ SSH キー認証で SFTP を使用している場合は、Base64 にエンコー
 >
 >Base64 エンコーディングの後、キーには `-----BEGIN/END RSA PRIVATE KEY-----` マーカーが含まれなくなり、改行を含めることはできません。 対応する公開鍵を SFTP サーバーの認証済みキーファイルに追加する必要があります。
 
-SFTP アカウントのExperience Platformへの接続について詳しくは、[&#x200B; このドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/connectors/cloud-storage/sftp) を参照してください。
+SFTP アカウントのExperience Platformへの接続について詳しくは、[&#x200B; このドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/connectors/cloud-storage/sftp) を参照してください。
 
 +++
 
