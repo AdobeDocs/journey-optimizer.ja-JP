@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: メッセージ, 頻度, ルール, プレッシャー
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: 9613586e576c9010917352b721b4b335418a4e40
+source-git-commit: a7d2557790054e7c6e28ca3ffa937f454c4b004c
 workflow-type: tm+mt
-source-wordcount: '1070'
-ht-degree: 97%
+source-wordcount: '1060'
+ht-degree: 94%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 97%
 * **チャネル**&#x200B;ルールセットは、通信チャネルにルールを適用します。次の設定を行うことができます。
 
    * **フリークエンシーキャップルール** - *1 日に 1 件以上のメールまたは SMS 通信を送信できないようにします。*
-   * **クワイエットアワールール**（限定提供）- *午前 8 時～午後 9 時の時間スロット外にメールメッセージを送信できないようにします。*
+   * **通知のない時間帯のルール** - *午前 8 時～午後 9 時の時間枠外にメールメッセージを送信しない。*
 
 * **ジャーニー**&#x200B;ルールセットは、ジャーニーにエントリキャップルールと同時実行キャップルールを適用します。例えば、複数のジャーニーにプロファイルを同時にエントリしないようにします。
 
@@ -80,7 +80,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="ajo_rule_type"
 >title="ルールタイプ"
->abstract="チャネルルールセットに必要なルールタイプを選択します。**フリークエンシーキャップ**&#x200B;タイプを使用して、通信チャネルにキャッピングルールを適用します。例えば、1 日に 1 件以上のメールまたは SMS 通信を送信できないようにします。**クワイエットアワー**（限定提供）を選択して、時間ベースの除外を定義し、特定の期間にメッセージが送信されないようにします。"
+>abstract="チャネルルールセットに必要なルールタイプを選択します。**フリークエンシーキャップ**&#x200B;タイプを使用して、通信チャネルにキャッピングルールを適用します。例えば、1 日に 1 件以上のメールまたは SMS 通信を送信できないようにします。「**通知のない時間**」を選択して、時間ベースの除外を定義し、特定の期間中にメッセージが送信されないようにします。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_sets_duration"
@@ -124,7 +124,7 @@ ht-degree: 97%
 
    * [ジャーニーのキャップ](../conflict-prioritization/journey-capping.md)
    * [チャネルと通信タイプによるフリークエンシーキャップ](../conflict-prioritization/channel-capping.md)
-   * [クワイエットアワー](../conflict-prioritization/quiet-hours.md)（限定提供で使用可能）
+   * [クワイエットアワー](../conflict-prioritization/quiet-hours.md)
 
 1. 「**[!UICONTROL 保存]**」をクリックして、ルールの作成を確定します。メッセージが、**[!UICONTROL ドラフト]**&#x200B;ステータスでルールリストに追加されます。
 
@@ -180,4 +180,4 @@ ht-degree: 97%
 
 ## チュートリアルビデオ {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444727?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
