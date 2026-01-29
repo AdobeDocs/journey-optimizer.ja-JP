@@ -42,7 +42,7 @@ ht-degree: 85%
 
 ![](assets/direct-mail-review.png){width="800" align="center"}
 
-ダイレクトメールキャンペーンの準備が整ったら、[ ジャーニー ](../building-journeys/journey-gs.md) または [ キャンペーン ](../campaigns/create-campaign.md) の設定を完了して送信します。
+ダイレクトメールキャンペーンの準備が整ったら、[&#x200B; ジャーニー &#x200B;](../building-journeys/journey-gs.md) または [&#x200B; キャンペーン &#x200B;](../campaigns/create-campaign.md) の設定を完了して送信します。
 
 >[!NOTE]
 >
