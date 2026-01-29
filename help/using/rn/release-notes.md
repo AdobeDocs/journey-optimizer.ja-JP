@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 598164d4b78b21d4a17038a364b15253fdcf55ef
+source-git-commit: 50dbebcd16631f5df624c962af1a84da0846f53d
 workflow-type: tm+mt
-source-wordcount: '1828'
-ht-degree: 22%
+source-wordcount: '1849'
+ht-degree: 23%
 
 ---
 
@@ -29,13 +29,13 @@ ht-degree: 22%
 
 ## 2026 年 1 月リリースノート {#latest-rn}
 
-**リリース日**:2026 年 1 月 27～28 日
+<!--**Release date**: January 27-28, 2026-->
 
-[&#x200B; 機能 &#x200B;](#jan-26-01-features) および [&#x200B; 改善 &#x200B;](#jan-26-01-improv) の節では、既に使用可能な機能について説明し、[&#x200B; 近日公開 &#x200B;](#jan-26-01-coming-soon) では、後の公開日にスケジュールされている項目を一覧表示しています。
+[ 機能 ](#jan-26-01-features) および [ 改善 ](#jan-26-01-improv) の節では、既に使用可能な機能について説明し、[ 近日公開 ](#jan-26-01-coming-soon) では、後の公開日にスケジュールされている項目を一覧表示しています。
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新機能 {#jan-26-01-features}
 
@@ -58,6 +58,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <p>この機能は、メッセージ書き出しアドオン機能を購入した組織のメールおよび SMS チャネルでのみ使用できます。 詳しくは、アドビ担当者にお問い合わせください。</p>
 <p><img src="assets/do-not-localize/message-export.gif"/></p>
 <p>詳しくは、<a href="../configuration/message-export.md#message-export">詳細なドキュメント</a>を参照してください。</p>
+<p>公開日：2026年1月28日（PT）</p>
 </td>
 </tr>
 </tbody>
@@ -76,6 +77,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <p><img src="assets/do-not-localize/web-push.gif"/></p>
 <p>この機能は、以前はベータ版でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。</p>
 <p>詳しくは、<a href="../push/push-configuration-web.md">詳細なドキュメント</a>を参照してください。</p>
+<p>公開日：2026年1月28日（PT）</p>
 </td>
 </tr>
 </tbody>
@@ -93,6 +95,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <p>ダイレクトメールチャネルを調整されたキャンペーンで使用できるようになりました。 <strong> ダイレクトメールアクティビティ </strong> は、1 回限りのメッセージと繰り返しメッセージの両方について、オーケストレートキャンペーン内でのダイレクトメール送信を容易にします。 ダイレクトメールプロバイダーに必要な <strong> 抽出ファイル </strong> の生成プロセスを自動化する役割を果たします。 チャネルアクティビティを調整されたキャンペーンキャンバスに組み合わせて、顧客の行動とデータに基づいてアクションをトリガーできるクロスチャネルキャンペーンを作成できます。</p>
 <p><img src="assets/do-not-localize/dm-oc.gif"/></p>
 <p>詳しくは、<a href="../orchestrated/activities/channels.md#channel">詳細なドキュメント</a>を参照してください。</p>
+<p>公開日：2026年1月28日（PT）</p>
 </td>
 </tr>
 </tbody>
@@ -155,7 +158,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 #### AI
 
-* **AI アシスタントコンテンツ品質チェック** - ブランドの整合性に加えて、全体的な <strong> コンテンツ品質 </strong> を評価して、ブランドガイドラインに依存せずに、<strong> 読みやすさ </strong>、凝集性、有効性に関する潜在的な問題を明らかにできるようになりました。 これらの自動チェックは、メッセージングの不明確、一貫性のないトーン、構造ギャップの特定に役立ちます。 [&#x200B; 詳細情報 &#x200B;](../content-management/brands-score.md#validate-quality)。 [&#x200B; ビデオでこの機能を確認する &#x200B;](https://video.tv.adobe.com/v/3470547/?captions=jpn&learn=on)。
+* **AI アシスタントコンテンツ品質チェック** - ブランドの整合性に加えて、全体的な <strong> コンテンツ品質 </strong> を評価して、ブランドガイドラインに依存せずに、<strong> 読みやすさ </strong>、凝集性、有効性に関する潜在的な問題を明らかにできるようになりました。 これらの自動チェックは、メッセージングの不明確、一貫性のないトーン、構造ギャップの特定に役立ちます。 [ 詳細情報 ](../content-management/brands-score.md#validate-quality)。 [ ビデオでこの機能を確認する ](https://video.tv.adobe.com/v/3470544/?learn=on)。
 
 #### Experience Decisioning
 
@@ -163,9 +166,16 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **ネイティブメッセージアクションとAdobe Campaign メッセージアクションの組み合わせ** - Journey Optimizerでは、<strong>Adobe Campaign v7/v8</strong> メッセージアクションと <strong> ネイティブチャネルアクション </strong> を同じジャーニーで組み合わせることができるようになりました。 [詳細情報](../building-journeys/using-adobe-campaign-v7-v8.md)
 
+  公開日：2026 年 1 月 27 日（PT）。
+
 * **カスタムアクションエラー応答ペイロード** - カスタムアクションにオプションの <strong> エラー応答ペイロード </strong> を定義できるようになりました。 呼び出しが失敗すると、エラーペイロードがジャーニーコンテキスト（アクションの errorResponse ノードの下）で公開され、<strong> タイムアウト/エラー分岐 </strong> で `jo_status_code` と共に使用して、より豊富なフォールバックロジックとデバッグをサポートできます。 [詳細情報](../action/action-response.md)
 
+  公開日：2026 年 1 月 27 日（PT）。
+
 * **ジャーニーでのジャーニーのペイロードサイズの検証** - Journey Optimizerで <strong> ペイロードサイズ </strong> が検証され、最適なパフォーマンスとシステムの安定性が確保されるようになりました。 ジャーニーを作成または公開すると、ペイロードサイズが推奨制限に近づいた場合や推奨制限を超えた場合は、明確な <strong> 警告とエラー </strong> が表示され、ジャーニー設定を最適化するための実用的なガイダンスも示されます。 このプロアクティブな検証は、潜在的な問題を早期に特定し、ジャーニーのパフォーマンスを維持するのに役立ちます。 [詳細情報](../start/guardrails.md#journey-payload-size)
+
+  公開日：2026 年 1 月 27 日（PT）。
+
 
 * **ジャーニーアラート** – 新しい <strong> 事前設定済みのアラート </strong> をジャーニーで使用できます。
    * <strong> プロファイル破棄率を超えています </strong> – 過去 5 分に入力されたプロファイルに対するプロファイル破棄の割合が、しきい値を超えています
@@ -194,15 +204,21 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **ユーザー生成メタデータのサポート** - <strong>executionMetadata ヘルパー関数 </strong> がオーケストレートキャンペーン用のパーソナライゼーションエディターで使用できるようになりました。これにより、任意のネイティブアクションにコンテキスト情報を添付し、外部システムに書き出すデータセットに保存できます。 [詳細情報](../personalization/functions/helpers.md#execution-metadata)
 
+  公開日：2026 年 1 月 27 日（PT）。
+
 #### キャンペーン
 
 * **プロファイルタイムゾーンを使用したキャンペーンのスケジュール設定** - Campaign のスケジュール設定で、各プロファイルの <strong> タイムゾーン </strong> を使用して、目的のローカルタイムでメッセージを配信できるようになりました。 [詳細情報](../campaigns/campaign-schedule.md)
 
   **注意**：この機能強化は、一連の組織（使用制限あり）でのみ使用できます。
 
+  公開日：2026 年 1 月 27 日（PT）。
+
 #### 権限
 
 * **ジャーニーおよびキャンペーンの自己承認を防ぐ** - <strong> 承認ポリシー </strong> を作成または設定する際に、ジャーニーまたはキャンペーンの作成者が <strong> 独自のオブジェクトを承認 </strong> できないようにするオプションを追加しました。 [詳細情報](../test-approve/approval-policies.md)
+
+  公開日：2026 年 1 月 27 日（PT）。
 
 ## 近日リリース予定 {#jan-26-01-coming-soon}
 
@@ -220,7 +236,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>以前はキャンペーンに限定されていましたが、<strong> ダイレクトメール </strong> チャネルがジャーニーキャンバスで使用できるようになり、ダイレクトメールをジャーニーに組み込めるようになりました。 ダイレクトメールは、ファイル抽出の設定と時間ベースの頻度設定をサポートし、<strong> バッチと 1:1 のジャーニーシナリオ </strong> の両方で使用できるようになりました。</p>
-<p>以前に限定提供でリリースされたこの機能は、すべての環境で使用できます（一般提供）。</p>
+<p>この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。</p>
 <p>公開日：2026年1月28日（PT）</p>
 </td>
 </tr>
