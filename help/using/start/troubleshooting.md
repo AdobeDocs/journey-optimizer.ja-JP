@@ -7,14 +7,14 @@ feature: Get Started, Monitoring
 role: User
 level: Intermediate
 exl-id: f8acb987-5c6e-4545-93b9-fdfc0d74db57
-source-git-commit: c9fd0aeda42f8833a542ecafae8c60aaebde4ef0
+source-git-commit: 4a15ee3ac4805880ce80f788e4619b501afb3d8b
 workflow-type: tm+mt
-source-wordcount: '2942'
-ht-degree: 99%
+source-wordcount: '2945'
+ht-degree: 97%
 
 ---
 
-# トラブルシューティング FAQ {#ajo-troubleshooting}
+# トラブルシューティングに関する FAQ {#ajo-troubleshooting}
 
 次は、Adobe Journey Optimizer のトラブルシューティング記事のリストです。各トラブルシューティングセクションでは、よくある質問への回答と問題に対する解決策を提供します。
 
@@ -201,7 +201,7 @@ Adobe Journey Optimizer では、ジャーニーで&#x200B;**プロファイル�
 
 この問題の解決手順について詳しくは、[このトラブルシューティング記事](https://experienceleague.adobe.com/ja/docs/experience-cloud-kcs/kbarticles/ka-26253){target="_blank"}を参照してください。
 
-詳しくは、[この Journey Optimizer コミュニティの投稿](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998?profile.language=ja){target="_blank"}を参照してください。
+詳しくは、[この Journey Optimizer コミュニティの投稿](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998){target="_blank"}を参照してください。
 
 毎日のジョブがスケジュールされるタイミングを確認するには、[Adobe Experience Platform Schedules API ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/api/schedules){target="_blank"}も参照してください。
 
@@ -230,13 +230,11 @@ Adobe Journey Optimizer では、ジャーニーで&#x200B;**プロファイル�
 
 +++ エンゲージ可能なプロファイル数が短期間に大幅に増加したのはなぜですか？ 
 
-**エンゲージ可能なプロファイル**&#x200B;指標は、過去 12 か月間にジャーニーまたはキャンペーンによって関与された一意のプロファイルの数を反映します。突然の増加は、大規模なオーディエンスをターゲットにしたり、データセットに変更があったりすることによって発生する場合があります。これを管理するには、**プロファイルカウントロジック**&#x200B;を確認し、大規模なオーディエンスをターゲットにするジャーニーを調査し、ジャーニーレベルで&#x200B;**オーディエンスをフィルタリング**&#x200B;し、**アドレス可能なオーディエンスサイズ**&#x200B;を縮小し、**データセットの変更**&#x200B;を監視します。
+**エンゲージ可能なプロファイル**&#x200B;指標は、過去 12 か月間にジャーニーまたはキャンペーンによって関与された一意のプロファイルの数を反映します。突然の増加は、最近関与していない大きなオーディエンスをターゲットにするジャーニーやキャンペーン、またはプロファイルサービスに対して有効なデータセットの変更が原因で発生する可能性があります。
 
-この問題の解決手順について詳しくは、[このトラブルシューティング記事](https://experienceleague.adobe.com/ja/docs/experience-cloud-kcs/kbarticles/ka-26161){target="_blank"}を参照してください。
+この問題を調査して解決するには、プロファイルカウントのロジックを理解し、大規模なオーディエンスをターゲティングするジャーニーとキャンペーンを調査し、オーディエンスを適切にフィルタリングし、データセットの変更を監視し、アドレス可能なオーディエンスサイズを減らす可能性があります。
 
-[ライセンス使用状況ダッシュボード](../audience/license-usage.md)を使用して、組織のライセンス使用状況とエンゲージ可能なプロファイルを監視します。
-
-詳しくは、[Adobe Experience Platform クエリサービスの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/query/home){target="_blank"}も参照してください。
+エンゲージメント可能なプロファイルの増加のトラブルシューティングと解決方法、および組織のライセンス使用状況の監視方法については、[ ライセンス使用状況ダッシュボードのドキュメント ](../audience/license-usage.md#troubleshooting-engageable-profiles) を参照してください。
 
 +++
 

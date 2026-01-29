@@ -8,10 +8,10 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
-source-git-commit: 4e90aa9a71ab8999d4ac03eac50aad93af48302c
+source-git-commit: 4a15ee3ac4805880ce80f788e4619b501afb3d8b
 workflow-type: tm+mt
-source-wordcount: '3908'
-ht-degree: 92%
+source-wordcount: '3977'
+ht-degree: 91%
 
 ---
 
@@ -97,6 +97,10 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 * Adobe Journey Optimizer でコンテンツカードを正しく表示するには、[このページ](../content-card/content-card-configuration-prereq.md)に記載されている Adobe Experience Platform の設定を指定する必要があります。
 
 * Journey Optimizer では、1 秒あたり 5,000 件のインバウンドリクエストのピーク量をサポートします。このガードレールは、Journey Optimizer がサポートするすべてのインバウンドチャネル（[web](../web/get-started-web.md)、[アプリ内](../in-app/get-started-in-app.md)、[コードベースのエクスペリエンス](../code-based/get-started-code-based.md)、[コンテンツカード](../../rp_landing_pages/content-card-landing-page.md)）から発生する場合があるすべてのインバウンドリクエストに適用されます。
+
+  Journey Optimizer インバウンドチャネルは、以前の他のチャネルで関与していなかった可能性のある新しいプロファイルをターゲットにします。これにより、合計 [ エンゲージメント可能なプロファイル ](../audience/license-usage.md) 数が増え、ユーザーが購入した、エンゲージメント可能なプロファイルの契約上の数を超えると、コストに影響する可能性があります。
+
+  各パッケージのライセンス指標は、[Journey Optimizerの製品説明 ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} ページにリストされています。 エンゲージメント可能なプロファイルの数は、[ ライセンス使用状況ダッシュボード ](../audience/license-usage.md) で確認できます。
 
 * Journey Optimizer では、同時に最大 500 件のアクティブなインバウンドアクションをサポートします。これらのインバウンドアクションは、ライブキャンペーンの一部である場合や、ライブジャーニーで使用されるノードである場合にカウントされます。この数に達したら、新しいキャンペーンやインバウンドアクションを開始する前に、インバウンドアクションを使用している古いキャンペーンまたはジャーニーを非アクティブ化する必要があります。
 

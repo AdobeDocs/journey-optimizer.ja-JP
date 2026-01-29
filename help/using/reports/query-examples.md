@@ -8,10 +8,10 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 5ff7987c00afda3263cb97654967c5b698f726c2
+source-git-commit: 4a15ee3ac4805880ce80f788e4619b501afb3d8b
 workflow-type: tm+mt
-source-wordcount: '2747'
-ht-degree: 92%
+source-wordcount: '3337'
+ht-degree: 71%
 
 ---
 
@@ -369,27 +369,25 @@ WHERE _experience.journeyOrchestration.serviceType is not null;
 
 このクエリを使用すると、メッセージ／アクションの実行中にジャーニーで発生した各エラーをリストできます。
 
-_データレイクのクエリ_
-
 ```sql
-SELECT _experience.journeyOrchestration.stepEvents.actionExecutionError, count(distinct _id) FROM journey_step_events
-WHERE _experience.journeyOrchestration.stepEvents.nodeName=<'message-name'>
+SELECT _experience.journeyOrchestration.stepEvents.actionExecutionError, count(distinct _id) AS ERROR_COUNT 
+FROM journey_step_events
+WHERE _experience.journeyOrchestration.stepEvents.nodeName = '<message-name>'
 AND _experience.journeyOrchestration.stepEvents.actionExecutionError IS NOT NULL
 AND _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-version-id>'
 GROUP BY _experience.journeyOrchestration.stepEvents.actionExecutionError
+ORDER BY ERROR_COUNT DESC;
 ```
 
-_例_
+_出力例_
 
-```sql
-SELECT _experience.journeyOrchestration.stepEvents.actionExecutionError, count(distinct _id) FROM journey_step_events
-WHERE _experience.journeyOrchestration.stepEvents.nodeName='Message - 100KB Email with Gateway and Kafkav2'
-AND _experience.journeyOrchestration.stepEvents.actionExecutionError IS NOT NULL
-AND _experience.journeyOrchestration.stepEvents.journeyVersionID = '67b14482-143e-4f83-9cf5-cfec0fca3d26'
-GROUP BY _experience.journeyOrchestration.stepEvents.actionExecutionError
-```
+| actionExecutionError | ERROR_COUNT |
+|---|---|
+| タイムアウト | 145 |
+| 接続エラー | 87 |
+| InvalidResponse | 23 |
 
-このクエリは、ジャーニーでのアクションの実行中に発生した様々なエラーとその発生回数を返します。
+このクエリは、ジャーニーでのアクションの実行中に発生した様々なエラーと、各エラーが発生した回数のカウントを頻度順に返します。
 
 +++
 
@@ -399,25 +397,20 @@ GROUP BY _experience.journeyOrchestration.stepEvents.actionExecutionError
 
 このクエリは、特定のプロファイルとジャーニーの組み合わせに関連付けられたイベントをカウントすることで、特定のプロファイルがジャーニーにエントリしたかどうかを確認します。
 
-_データレイクのクエリ_
-
 ```sql
-SELECT count(distinct _id) FROM journey_step_events
-where
-_experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-version-id>' AND
-_experience.journeyOrchestration.stepEvents.profileID = '<profileID corresponding to the namespace used>'
+SELECT count(distinct _id) AS EVENT_COUNT 
+FROM journey_step_events
+WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-version-id>' 
+AND _experience.journeyOrchestration.stepEvents.profileID = '<profileID corresponding to the namespace used>';
 ```
 
-_例_
+_出力例_
 
-```sql
-SELECT count(distinct _id) FROM journey_step_events
-where
-_experience.journeyOrchestration.stepEvents.journeyVersionID = 'ec9efdd0-8a7c-4d7a-a765-b2cad659fa4e' AND
-_experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
-```
+| EVENT_COUNT |
+|---|
+| 3 |
 
-結果は 0 より大きい値になります。このクエリは、プロファイルがジャーニーにエントリした正確な回数を返します。
+このクエリは、プロファイルがジャーニーにエントリした正確な回数を返します。 0 より大きい結果は、プロファイルがジャーニーにエントリしたことを確認します。
 
 +++
 
@@ -425,51 +418,41 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 方法 1：メッセージの名前がジャーニー内で一意でない場合（複数の場所で使用される場合）。
 
-_データレイクのクエリ_
-
 ```sql
-SELECT count(distinct _id) FROM journey_step_events WHERE
-_experience.journeyOrchestration.stepEvents.nodeID='<NodeId in the UI corresponding to the message>' AND
-_experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
-_experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-version-id>' AND
-_experience.journeyOrchestration.stepEvents.profileID = '<profileID corresponding to the namespace used>'
+SELECT count(distinct _id) AS MESSAGE_SENT_COUNT 
+FROM journey_step_events 
+WHERE _experience.journeyOrchestration.stepEvents.nodeID = '<NodeId in the UI corresponding to the message>' 
+AND _experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL 
+AND _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-version-id>' 
+AND _experience.journeyOrchestration.stepEvents.profileID = '<profileID corresponding to the namespace used>';
 ```
 
-_例_
+_出力例_
 
-```sql
-SELECT count(distinct _id) FROM journey_step_events WHERE
-_experience.journeyOrchestration.stepEvents.nodeID='17ae65a1-02dd-439d-b54e-b56a78520eba' AND
-_experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
-_experience.journeyOrchestration.stepEvents.journeyVersionID = '67b14482-143e-4f83-9cf5-cfec0fca3d26' AND
-_experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
-```
+| MESSAGE_SENT_COUNT |
+|---|
+| 1 |
 
-結果は 0 より大きい値になります。このクエリは、メッセージアクションがジャーニー側で正常に実行されたかどうかのみを示します。
+0 より大きい結果は、メッセージアクションが正常に実行されたことを確認します。 このクエリは、メッセージアクションがジャーニー側で正常に実行されたかどうかのみを示します。
 
 方法 2：メッセージの名前がジャーニー内で一意の場合。
 
-_データレイクのクエリ_
-
 ```sql
-SELECT count(distinct _id) FROM journey_step_events WHERE
-_experience.journeyOrchestration.stepEvents.nodeName='<NodeName in the UI corresponding to the message>' AND
-_experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
-_experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-version-id>' AND
-_experience.journeyOrchestration.stepEvents.profileID = '<profileID corresponding to the namespace used>'
+SELECT count(distinct _id) AS MESSAGE_SENT_COUNT 
+FROM journey_step_events 
+WHERE _experience.journeyOrchestration.stepEvents.nodeName = '<NodeName in the UI corresponding to the message>' 
+AND _experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL 
+AND _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-version-id>' 
+AND _experience.journeyOrchestration.stepEvents.profileID = '<profileID corresponding to the namespace used>';
 ```
 
-_例_
+_出力例_
 
-```sql
-SELECT count(distinct _id) FROM journey_step_events WHERE
-_experience.journeyOrchestration.stepEvents.nodeID='Message- 100KB Email' AND
-_experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
-_experience.journeyOrchestration.stepEvents.journeyVersionID = '67b14482-143e-4f83-9cf5-cfec0fca3d26' AND
-_experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
-```
+| MESSAGE_SENT_COUNT |
+|---|
+| 1 |
 
-このクエリは、すべてのメッセージのリストと、選択したプロファイルに対してそれらのメッセージが呼び出された回数を返します。
+クエリは、選択したプロファイルに対してメッセージが正常に呼び出された回数を返します。
 
 +++
 
@@ -477,27 +460,26 @@ _experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com'
 
 このクエリは、過去 30 日以内に特定のプロファイルに対して正常に実行されたすべてのメッセージアクションを、メッセージ名ごとにグループ化して取得します。
 
-_データレイクのクエリ_
-
 ```sql
-SELECT _experience.journeyOrchestration.stepEvents.nodeName, count(distinct _id) FROM journey_step_events
-WHERE  _experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
-_experience.journeyOrchestration.stepEvents.nodeType = 'action' AND
-_experience.journeyOrchestration.stepEvents.profileID = '<profileID corresponding to the namespace used>' AND
-timestamp > (now() - interval '30' day)
+SELECT _experience.journeyOrchestration.stepEvents.nodeName AS MESSAGE_NAME, 
+       count(distinct _id) AS MESSAGE_COUNT 
+FROM journey_step_events
+WHERE _experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL 
+AND _experience.journeyOrchestration.stepEvents.nodeType = 'action' 
+AND _experience.journeyOrchestration.stepEvents.profileID = '<profileID corresponding to the namespace used>' 
+AND timestamp > (now() - interval '30' day)
 GROUP BY _experience.journeyOrchestration.stepEvents.nodeName
+ORDER BY MESSAGE_COUNT DESC;
 ```
 
-_例_
+_出力例_
 
-```sql
-SELECT _experience.journeyOrchestration.stepEvents.nodeName, count(distinct _id) FROM journey_step_events
-WHERE  _experience.journeyOrchestration.stepEvents.actionExecutionError IS NULL AND
-_experience.journeyOrchestration.stepEvents.nodeType = 'action' AND
-_experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com' AND
-timestamp > (now() - interval '30' day)
-GROUP BY _experience.journeyOrchestration.stepEvents.nodeName
-```
+| メッセージ名 | MESSAGE_COUNT |
+|---|---|
+| お知らせメール | 1 |
+| 製品レコメンデーション | 3 |
+| 買い物かご放棄リマインダー | 2 |
+| 週刊ニュースレター | 4 |
 
 このクエリは、すべてのメッセージのリストと、選択したプロファイルに対してそれらのメッセージが呼び出された回数を返します。
 
@@ -507,27 +489,26 @@ GROUP BY _experience.journeyOrchestration.stepEvents.nodeName
 
 このクエリは、特定のプロファイルが過去 30 日以内ににエントリしたすべてのジャーニーと、各ジャーニーのエントリ数を返します。
 
-_データレイクのクエリ_
-
 ```sql
-SELECT _experience.journeyOrchestration.stepEvents.journeyVersionName, count(distinct _id) FROM journey_step_events
-WHERE  _experience.journeyOrchestration.stepEvents.nodeType = 'start' AND
-_experience.journeyOrchestration.stepEvents.profileID = '<profileID corresponding to the namespace used>' AND
-timestamp > (now() - interval '30' day)
+SELECT _experience.journeyOrchestration.stepEvents.journeyVersionName AS JOURNEY_NAME, 
+       count(distinct _id) AS ENTRY_COUNT 
+FROM journey_step_events
+WHERE _experience.journeyOrchestration.stepEvents.nodeType = 'start' 
+AND _experience.journeyOrchestration.stepEvents.profileID = '<profileID corresponding to the namespace used>' 
+AND timestamp > (now() - interval '30' day)
 GROUP BY _experience.journeyOrchestration.stepEvents.journeyVersionName
+ORDER BY ENTRY_COUNT DESC;
 ```
 
-_例_
+_出力例_
 
-```sql
-SELECT _experience.journeyOrchestration.stepEvents.journeyVersionName, count(distinct _id) FROM journey_step_events
-WHERE  _experience.journeyOrchestration.stepEvents.nodeType = 'start' AND
-_experience.journeyOrchestration.stepEvents.profileID = 'saurgarg@adobe.com' AND
-timestamp > (now() - interval '30' day)
-GROUP BY _experience.journeyOrchestration.stepEvents.journeyVersionName
-```
+| ジャーニー名 | ENTRY_COUNT |
+|---|---|
+| ようこそジャーニー v2 | 1 |
+| 製品レコメンデーション | 5 |
+| 再エンゲージメントキャンペーン | 2 |
 
-このクエリは、すべてのジャーニー名のリストと、クエリされたプロファイルがジャーニーにエントリした回数を返します。
+このクエリは、すべてのジャーニー名のリストと、クエリされたプロファイルが各ジャーニーにエントリした回数を返します。
 
 +++
 
@@ -535,25 +516,25 @@ GROUP BY _experience.journeyOrchestration.stepEvents.journeyVersionName
 
 このクエリは、指定された期間にジャーニーにエントリした個別のプロファイルの数の日別の分類を提供します。
 
-_データレイクのクエリ_
-
 ```sql
-SELECT DATE(timestamp), count(distinct _experience.journeyOrchestration.stepEvents.profileID) FROM journey_step_events
+SELECT DATE(timestamp) AS ENTRY_DATE, 
+       count(distinct _experience.journeyOrchestration.stepEvents.profileID) AS PROFILES_COUNT 
+FROM journey_step_events
 WHERE DATE(timestamp) > (now() - interval '<last x days>' day)
 AND _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journey-version-id>'
 GROUP BY DATE(timestamp)
-ORDER BY DATE(timestamp) desc
+ORDER BY DATE(timestamp) DESC;
 ```
 
-_例_
+_出力例_
 
-```sql
-SELECT DATE(timestamp), count(distinct _experience.journeyOrchestration.stepEvents.profileID) FROM journey_step_events
-WHERE DATE(timestamp) > (now() - interval '100' day)
-AND _experience.journeyOrchestration.stepEvents.journeyVersionID = '180ad071-d42d-42bb-8724-2a6ff0a109f1'
-GROUP BY DATE(timestamp)
-ORDER BY DATE(timestamp) desc
-```
+| ENTRY_DATE | PROFILES_COUNT |
+|---|---|
+| 2024-11-25 | 1,245 |
+| 2024-11-24 | 1,189 |
+| 2024-11-23 | 15,340 |
+| 2024-11-22 | 1,205 |
+| 2024-11-21 | 1,167 |
 
 このクエリは、指定した期間に 1 日ごとにジャーニーにエントリしたプロファイルの数を返します。プロファイルが別の ID を使用してエントリした場合は、2 回カウントされます。再エントリを有効にすると、別の日にジャーニーに再エントリした場合、プロファイル数が複数日にわたって重複する場合があります。
 
@@ -568,8 +549,6 @@ ORDER BY DATE(timestamp) desc
 
 このクエリは、ジョブがキューに追加されたタイミングとジョブが完了したタイミングの間の時間差を検出して、オーディエンスエクスポートジョブの期間を計算します。
 
-_データレイクのクエリ_
-
 ```sql
 select DATEDIFF (minute,
               (select timestamp
@@ -579,20 +558,6 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'queued
               (select timestamp
                 where
 _experience.journeyOrchestration.journey.versionID = '<journey-version-id>' AND
-_experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'finished')) AS export_job_runtime;
-```
-
-_例_
-
-```sql
-select DATEDIFF (minute,
-              (select timestamp
-                where
-_experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a6ff0a109f1' AND
-_experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'queued') ,
-              (select timestamp
-                where
-_experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a6ff0a109f1' AND
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'finished')) AS export_job_runtime;
 ```
 
@@ -604,21 +569,10 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.status = 'finish
 
 このクエリは、オーディエンスを読み取りアクティビティ中にインスタンス重複エラーにより破棄された個別のプロファイルの数をカウントします。
 
-_データレイクのクエリ_
-
 ```sql
 SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
 where
 _experience.journeyOrchestration.journey.versionID = '<journey-version-id>' AND
-_experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_DUPLICATION'
-```
-
-_例_
-
-```sql
-SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
-where
-_experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a6ff0a109f1' AND
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_DUPLICATION'
 ```
 
@@ -630,21 +584,10 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 このクエリは、無効な名前空間があったか、必要な名前空間の ID が欠落していたという理由により破棄されたプロファイルの数を返します。
 
-_データレイクのクエリ_
-
 ```sql
 SELECT count(*) FROM journey_step_events
 where
 _experience.journeyOrchestration.journey.versionID = '<journey-version-id>' AND
-_experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_BAD_NAMESPACE'
-```
-
-_例_
-
-```sql
-SELECT count(*) FROM journey_step_events
-where
-_experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a6ff0a109f1' AND
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_BAD_NAMESPACE'
 ```
 
@@ -656,21 +599,10 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 このクエリは、ジャーニーの実行に必要な ID マップが欠落していたという理由により破棄されたプロファイルをカウントします。
 
-_データレイクのクエリ_
-
 ```sql
 SELECT count(*) FROM journey_step_events
 where
 _experience.journeyOrchestration.journey.versionID = '<journey-version-id>' AND
-_experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_NO_IDENTITY_MAP'
-```
-
-_例_
-
-```sql
-SELECT count(*) FROM journey_step_events
-where
-_experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a6ff0a109f1' AND
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_NO_IDENTITY_MAP'
 ```
 
@@ -682,21 +614,10 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 このクエリは、ジャーニーがテストモードで実行されていたが、プロファイルの testProfile 属性が true に設定されていなかったという理由により破棄されたプロファイルを特定します。
 
-_データレイクのクエリ_
-
 ```sql
 SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
 where
 _experience.journeyOrchestration.journey.versionID = '<journey-version-id>' AND
-_experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_NOT_A_TEST_PROFILE'
-```
-
-_例_
-
-```sql
-SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
-where
-_experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a6ff0a109f1' AND
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_NOT_A_TEST_PROFILE'
 ```
 
@@ -708,21 +629,10 @@ _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERR
 
 このクエリは、ジャーニーの実行中に内部システムエラーにより破棄されたプロファイルの数を返します。
 
-_データレイクのクエリ_
-
 ```sql
 SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
 where
 _experience.journeyOrchestration.journey.versionID = '<journey-version-id>' AND
-_experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_INTERNAL'
-```
-
-_例_
-
-```sql
-SELECT count(distinct _experience.journeyOrchestration.profile.ID) FROM journey_step_events
-where
-_experience.journeyOrchestration.journey.versionID = '180ad071-d42d-42bb-8724-2a6ff0a109f1' AND
 _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventCode = 'ERROR_INSTANCE_INTERNAL'
 ```
 
@@ -1033,8 +943,6 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SER
 
 このクエリは、指定された時間枠内に、日付別にグループ化されたビジネスイベントがジャーニーで受信された回数をカウントします。
 
-_データレイクのクエリ_
-
 ```sql
 SELECT DATE(timestamp), count(distinct _id)
 FROM journey_step_events
@@ -1045,42 +953,17 @@ _experience.journeyOrchestration.stepEvents.nodeType = 'start' AND
 WHERE DATE(timestamp) > (now() - interval '<last x hours>' hour)
 ```
 
-_例_
-
-```sql
-SELECT DATE(timestamp), count(distinct _id)
-FROM journey_step_events
-where
-_experience.journeyOrchestration.stepEvents.journeyVersionID = 'b1093bd4-11f3-44cc-961e-33925cc58e18' AND
-_experience.journeyOrchestration.stepEvents.nodeName = 'TEST_MLTrainingSession' AND
-_experience.journeyOrchestration.stepEvents.nodeType = 'start' AND
-WHERE DATE(timestamp) > (now() - interval '6' hour)
-```
-
 +++
 
 +++関連するジャーニーが見つからなかったことが理由でプロファイルの外部イベントが破棄されたかどうかの確認
 
 このクエリは、特定のプロファイルの外部イベントを受信するように設定されたアクティブなジャーニーまたは一致するジャーニーがなかったという理由により、そのイベントが破棄されたタイミングを特定します。
 
-_データレイクのクエリ_
-
 ```sql
 SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp) FROM journey_step_events
 where
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventID = '<eventId>' AND
 _experience.journeyOrchestration.profile.ID = '<profileID>' AND
-_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
-_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
-```
-
-_例_
-
-```sql
-SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp) FROM journey_step_events
-where
-_experience.journeyOrchestration.serviceEvents.dispatcher.eventID = '515bff852185e434ca5c83bcfc4f24626b1545ca615659fc4cfff91626ce61a6' AND
-_experience.journeyOrchestration.profile.ID = 'mandee@adobe.com' AND
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WITH_NO_JOURNEY'
 ```
@@ -1093,26 +976,12 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'EVENT_WIT
 
 このクエリは、イベント ID とエラーコードと共に、内部サービスエラーにより、特定のプロファイルに対して破棄された外部イベントを取得します。
 
-_データレイクのクエリ_
-
 ```sql
 SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp), _experience.journeyOrchestration.serviceEvents.dispatcher.eventID, _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode
 FROM journey_step_events
 where
 _experience.journeyOrchestration.profile.ID='<profileID>' AND
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventID='<eventID>' AND
-_experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
-_experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
-```
-
-_例_
-
-```sql
-SELECT _experience.journeyOrchestration.profile.ID, DATE(timestamp), _experience.journeyOrchestration.serviceEvents.dispatcher.eventID, _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode
-FROM journey_step_events
-where
-_experience.journeyOrchestration.profile.ID='mandee@adobe.com' AND
-_experience.journeyOrchestration.serviceEvents.dispatcher.eventID='81c51be978d8bdf9ef497076b3e12b14533615522ecea9f5080a81c736491656' AND
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard' AND
 _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SERVICE_INTERNAL';
 ```
@@ -1124,16 +993,6 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SER
 +++errorCode で stateMachine によって破棄されたすべてのイベント数の確認
 
 このクエリは、ジャーニーの状態マシンにより破棄されたすべてのイベントをエラーコード別に集計し、破棄の最も一般的な理由を特定するのに役立ちます。
-
-_データレイクのクエリ_
-
-```sql
-SELECT _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode, COUNT() FROM journey_step_events
-where
-_experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' GROUP BY _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode
-```
-
-_例_
 
 ```sql
 SELECT _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode, COUNT() FROM journey_step_events
@@ -1149,19 +1008,6 @@ _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard
 
 このクエリは、ジャーニー設定で再エントリが許可されていない際に、プロファイルがジャーニーに再エントリしようとしたという理由により破棄されたすべてのイベントを特定します。
 
-_データレイクのクエリ_
-
-```sql
-SELECT DATE(timestamp), _experience.journeyOrchestration.profile.ID,
-_experience.journeyOrchestration.journey.versionID,
-_experience.journeyOrchestration.serviceEvents.stateMachine.eventCode 
-FROM journey_step_events
-where
-_experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard' AND _experience.journeyOrchestration.serviceEvents.stateMachine.eventCode='reentranceNotAllowed'
-```
-
-_例_
-
 ```sql
 SELECT DATE(timestamp), _experience.journeyOrchestration.profile.ID,
 _experience.journeyOrchestration.journey.versionID,
@@ -1175,29 +1021,175 @@ _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard
 
 +++
 
+## エンゲージメント可能なプロファイルのクエリ {#engageable-profiles-queries}
+
+これらのクエリは、エンゲージメント可能なプロファイル数の監視と分析に役立ちます。 エンゲージメント可能なプロファイルは、過去 12 か月にジャーニーまたはキャンペーンを通じてエンゲージメントした一意のプロファイルです。 詳しくは、[ エンゲージメント可能なプロファイルとライセンスの使用状況 ](../audience/license-usage.md#what-is-engageable-profile) を参照してください。
+
+>[!IMPORTANT]
+>
+>**エンゲージメント可能なプロファイルのクエリのベストプラクティス：**
+>* `GROUP BY` 句に非集計フィールドが含まれていることを確認してください
+>* サンドボックスに存在しないデータセットの参照を避ける – Platform UI でデータセット名を確認します
+>* 一意のプロファイルをカウントする際の `distinct` を使用して、ID 名前空間での重複を回避します
+>* `LIMIT` を使用する場合は、`ORDER BY` 句の後のクエリの最後に配置します
+
++++特定のジャーニーによってエンゲージメントされた一意のプロファイルのカウント
+
+このクエリは、特定のジャーニーによってエンゲージメントされた個別のプロファイルの数を返し、エンゲージメント可能なプロファイル数に貢献します。
+
+```sql
+SELECT count(distinct _experience.journeyOrchestration.stepEvents.profileID) AS ENGAGED_PROFILES
+FROM journey_step_events
+WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journeyVersionID>'
+AND timestamp > (now() - interval '12' month);
+```
+
+このクエリを使用すると、過去 12 か月間に特定のジャーニーが貢献した [ エンゲージメント可能なプロファイル ](../audience/license-usage.md) の数を把握できます。
+
++++
+
++++過去 12 か月間にジャーニーごとにエンゲージメントしたプロファイルのカウント
+
+このクエリは、過去 12 か月間に組織の各ジャーニーが関与した一意のプロファイル数を表示し、どのジャーニーが [ エンゲージメント可能なプロファイル ](../audience/license-usage.md) 数に最も貢献しているかを特定するのに役立ちます。
+
+```sql
+SELECT 
+    _experience.journeyOrchestration.stepEvents.journeyVersionID AS JOURNEY_VERSION_ID,
+    _experience.journeyOrchestration.stepEvents.journeyVersionName AS JOURNEY_NAME,
+    count(distinct _experience.journeyOrchestration.stepEvents.profileID) AS ENGAGED_PROFILES
+FROM journey_step_events
+WHERE timestamp > (now() - interval '12' month)
+GROUP BY 
+    _experience.journeyOrchestration.stepEvents.journeyVersionID,
+    _experience.journeyOrchestration.stepEvents.journeyVersionName
+ORDER BY ENGAGED_PROFILES DESC;
+```
+
+_出力例_
+
+| ジャーニー_バージョン_ID | ジャーニー名 | ENGAGED_PROFILES |
+|---|---|---|
+| 67b14482-143e-4f83-9cf5-cfec0fca3d26 | Campaign v2 へようこそ | 125,450 |
+| a3c21b89-456d-4e21-b8f3-9a8e7c6d5432 | 製品の発売ジャーニー | 98,230 |
+| f9e8d7c6-b5a4-3210-9876-543210fedcba | 再エンゲージメントフロー | 45,670 |
+
+この出力は、どのジャーニーが最もプロファイルを惹きつけ、エンゲージメント可能なプロファイル数に最も大きく貢献しているかを特定するのに役立ちます。
+
+>[!NOTE]
+>
+>このクエリは、`journeyVersionID` と `journeyVersionName` の両方でグループ化されています。 両方のフィールドはクエリで選択されるので、`GROUP BY` 句に含める必要があります。 `GROUP BY` 句からフィールドを省略すると、クエリが失敗します。
+
++++
+
++++過去 30 日間に毎日ジャーニーが関与したプロファイルをカウントします
+
+このクエリは、新しくエンゲージメントされたプロファイルの日別分類を提供し、[ エンゲージメント可能なプロファイル ](../audience/license-usage.md) 数のスパイクを特定するのに役立ちます。
+
+```sql
+SELECT 
+    DATE(timestamp) AS ENGAGEMENT_DATE,
+    count(distinct _experience.journeyOrchestration.stepEvents.profileID) AS ENGAGED_PROFILES
+FROM journey_step_events
+WHERE timestamp > (now() - interval '30' day)
+GROUP BY DATE(timestamp)
+ORDER BY ENGAGEMENT_DATE DESC;
+```
+
+_出力例_
+
+| ENGAGEMENT_DATE | ENGAGED_PROFILES |
+|---|---|
+| 2024-11-25 | 8,450 |
+| 2024-11-24 | 7,820 |
+| 2024-11-23 | 125,340 |
+| 2024-11-22 | 9,230 |
+| 2024-11-21 | 8,670 |
+
+この出力は、毎日のトレンドを監視し、大量のプロファイルがいつ関与しているかを特定するのに役立ちます。 この例では、11 月 23 日に、通常の毎日のエンゲージメント（約 8,000 件のプロファイル）と比較して、大幅なスパイク（125,340 件のプロファイル）が示されています。これは、ジャーニーまたはキャンペーンが [ エンゲージメント可能なプロファイル ](../audience/license-usage.md) 数の増加を引き起こした原因を理解するための調査が必要となります。
+
++++
+
++++最近、多くのオーディエンスを引き付けたジャーニーを特定します
+
+このクエリは、最近の期間に多数の新しいプロファイルにエンゲージメントしたジャーニーを特定するのに役立ちます。これにより、「エンゲージメント可能なプロファイル [ 数が突然増加する可能性があ ](../audience/license-usage.md) ます。
+
+```sql
+SELECT 
+    _experience.journeyOrchestration.stepEvents.journeyVersionID AS JOURNEY_VERSION_ID,
+    _experience.journeyOrchestration.stepEvents.journeyVersionName AS JOURNEY_NAME,
+    DATE(timestamp) AS ENGAGEMENT_DATE,
+    count(distinct _experience.journeyOrchestration.stepEvents.profileID) AS ENGAGED_PROFILES
+FROM journey_step_events
+WHERE timestamp > (now() - interval '7' day)
+AND _experience.journeyOrchestration.stepEvents.nodeType = 'start'
+GROUP BY 
+    _experience.journeyOrchestration.stepEvents.journeyVersionID,
+    _experience.journeyOrchestration.stepEvents.journeyVersionName,
+    DATE(timestamp)
+HAVING count(distinct _experience.journeyOrchestration.stepEvents.profileID) > 1000
+ORDER BY ENGAGEMENT_DATE DESC, ENGAGED_PROFILES DESC;
+```
+
+_出力例_
+
+| ジャーニー_バージョン_ID | ジャーニー名 | ENGAGEMENT_DATE | ENGAGED_PROFILES |
+|---|---|---|---|
+| 67b14482-143e-4f83-9cf5-cfec0fca3d26 | ブラックフライデーキャンペーン | 2024-11-23 | 125,340 |
+| a3c21b89-456d-4e21-b8f3-9a8e7c6d5432 | 製品の発売ジャーニー | 2024-11-22 | 45,230 |
+| f9e8d7c6-b5a4-3210-9876-543210fedcba | ホリデーニュースレター | 2024-11-21 | 32,150 |
+
+このクエリでは、過去 7 日間に 1 日に 1,000 件を超えるプロファイルにエンゲージしたジャーニーをフィルターします。 出力には、大規模なプロファイルエンゲージメントに関与している特定のジャーニーと日付が示されます。 必要に応じて `HAVING` 句のしきい値を調整します（例えば、しきい値を大きくするには `> 1000` を `> 10000` に変更します）。
+
++++
+
++++過去 12 か月間にすべてのジャーニーをまたいでエンゲージした一意のプロファイルの合計
+
+このクエリは、過去 12 か月のすべてのジャーニーでエンゲージメントした一意のプロファイルの数を提供し、ジャーニーベースのエンゲージメントの概要を示します。
+
+```sql
+SELECT count(distinct _experience.journeyOrchestration.stepEvents.profileID) AS TOTAL_ENGAGED_PROFILES
+FROM journey_step_events
+WHERE timestamp > (now() - interval '12' month);
+```
+
+_出力例_
+
+| TOTAL_ENGAGED_PROFILES |
+|---|
+| 2,547,890 |
+
+この単一の数は、過去 12 か月に少なくとも 1 つのジャーニーが関与した一意のプロファイルの合計数を表します。
+
+>[!NOTE]
+>
+>このクエリは、ジャーニーステップイベントデータセット内の個別のプロファイル ID をカウントします。 [ ライセンス使用状況ダッシュボード ](../audience/license-usage.md) に表示される実際のエンゲージメント可能なプロファイル数は、ジャーニー以外のキャンペーンやその他のJourney Optimizer機能でも関与するプロファイルも含まれるので、若干異なる場合があります。
+
++++
+
 ## 一般的なジャーニーベースのクエリ {#journey-based-queries}
 
 +++日別のアクティブなジャーニーの数
 
 このクエリは、アクティビティがあった一意のジャーニーバージョンの日別の数を返すので、ジャーニー実行パターンの推移を理解するのに役立ちます。
 
-_データレイクのクエリ_
-
 ```sql
-SELECT DATE(timestamp), count(distinct _experience.journeyOrchestration.stepEvents.journeyVersionID) FROM journey_step_events
+SELECT DATE(timestamp) AS ACTIVITY_DATE, 
+       count(distinct _experience.journeyOrchestration.stepEvents.journeyVersionID) AS ACTIVE_JOURNEYS
+FROM journey_step_events
 WHERE DATE(timestamp) > (now() - interval '<last x days>' day)
 GROUP BY DATE(timestamp)
-ORDER BY DATE(timestamp) desc
+ORDER BY DATE(timestamp) DESC;
 ```
 
-_例_
+_出力例_
 
-```sql
-SELECT DATE(timestamp), count(distinct _experience.journeyOrchestration.stepEvents.journeyVersionID) FROM journey_step_events
-WHERE DATE(timestamp) > (now() - interval '100' day)
-GROUP BY DATE(timestamp)
-ORDER BY DATE(timestamp) desc
-```
+| ACTIVITY_DATE | アクティブなジャーニー |
+|---|---|
+| 2024-11-25 | 12 |
+| 2024-11-24 | 15 |
+| 2024-11-23 | 14 |
+| 2024-11-22 | 11 |
+| 2024-11-21 | 13 |
 
 このクエリは、指定した期間に 1 日にトリガーされた一意のジャーニーの数を返します。1 つのジャーニーが複数日でトリガーされる場合は、1 日につき 1 回とカウントされます。
 
