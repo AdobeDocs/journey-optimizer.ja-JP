@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 43b10f54-0c19-46a1-8d51-eb6bf22e6da9
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 100%
+source-wordcount: '538'
+ht-degree: 94%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 +++ 詳しくは、送信統計指標を参照してください
 
-* **[!UICONTROL ターゲット]**：分析中に処理されたプッシュ通知の合計数。
+* **[!UICONTROL ターゲット]**：除外、抑制または同意削除が適用される前にオーディエンスに対して選定されたプロファイルの数。 再エントリを有効にしたジャーニーでは、プロファイルが複数回ターゲット化される場合があります。
 
 * **[!UICONTROL 送信数]**：プッシュ通知送信の合計数。
 

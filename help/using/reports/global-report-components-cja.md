@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: aa060d8e-23e2-4bab-b709-636077eb5d20
-source-git-commit: 853e87cdd69a3fc180dcb1aa38b4b67f27977939
-workflow-type: ht
-source-wordcount: '2162'
-ht-degree: 100%
+source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
+workflow-type: tm+mt
+source-wordcount: '2189'
+ht-degree: 97%
 
 ---
 
@@ -144,7 +144,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td> ターゲット<br/> </td> 
-   <td> 配信の分析中に処理されたメッセージの合計数。<br/> </td> 
+   <td> 除外、抑制または同意削除が適用される前にオーディエンスに対して選定されたプロファイルの数。 再エントリを有効にしたジャーニーでは、プロファイルが複数回ターゲットになる場合があります。<br/> </td> 
   </tr>
   <tr> 
    <td>ユニークバウンス数<br/> </td> 
@@ -197,7 +197,7 @@ ht-degree: 100%
   </tr>
   <tr> 
    <td>ユニークターゲット<br/> </td> 
-   <td>送信プロセス中にターゲットとなるユニークプロファイルの数。<br/> </td> 
+   <td>除外、抑制または同意削除が適用される前にオーディエンスに対して選定された一意のプロファイルの数。<br/> </td> 
   </tr> 
   <tr> 
    <td> 登録解除数<br/> </td> 

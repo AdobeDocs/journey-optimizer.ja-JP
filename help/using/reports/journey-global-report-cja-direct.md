@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 6fae8beb-ca40-40a1-8939-c309fbf46c4f
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 100%
+source-wordcount: '370'
+ht-degree: 92%
 
 ---
 
@@ -33,9 +33,9 @@ ht-degree: 100%
 
 +++ 詳しくは、送信統計指標を参照してください
 
-* **[!UICONTROL 人物]**：メッセージのターゲットプロファイルに適格な、ユーザープロファイルの数。
+* **[!UICONTROL ユーザー]**：メッセージのターゲットプロファイルに適格な、ユーザープロファイルの数。
 
-* **[!UICONTROL ターゲット]**：送信プロセス中に処理されたダイレクトメールメッセージの合計数。
+* **[!UICONTROL ターゲット]**：除外、抑制または同意削除が適用される前にオーディエンスに対して選定されたプロファイルの数。 再エントリを有効にしたジャーニーでは、プロファイルが複数回ターゲット化される場合があります。
 
 * **[!UICONTROL 送信数]**：ダイレクトメールメッセージ用の送信の合計数。
 

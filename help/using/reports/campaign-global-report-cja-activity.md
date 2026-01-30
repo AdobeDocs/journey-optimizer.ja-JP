@@ -7,10 +7,10 @@ feature: Reporting
 topic: Content Management
 role: User
 level: Intermediate
-source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
-workflow-type: ht
-source-wordcount: '400'
-ht-degree: 100%
+source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
+workflow-type: tm+mt
+source-wordcount: '407'
+ht-degree: 95%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 +++ 詳しくは、送信統計指標を参照してください
 
-* **[!UICONTROL ターゲット済み]**：ライブアクティビティ中にターゲットにしたプロファイルの合計数。
+* **[!UICONTROL ターゲット]**：除外、抑制または同意削除が適用される前にオーディエンスに対して選定されたプロファイルの数。
 
 * **[!UICONTROL 送信数]**：ターゲットプロファイルに送信しようとしたプッシュ通知の合計数。
 
