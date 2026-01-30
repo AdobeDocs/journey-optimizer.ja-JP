@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 0706cb23bb41aff56984d7723df22c5a07bbe51d
+source-git-commit: af40716070ab28001acb6f5c02f41a0ec3ad8258
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 94%
+source-wordcount: '832'
+ht-degree: 95%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 94%
 >title="プッシュメッセージの作成"
 >abstract="プッシュメッセージを追加し、パーソナライゼーションエディターを使用してパーソナライズを開始します。"
 
-モバイルデバイス（iOSおよびAndroid）と web ブラウザーのプッシュ通知を作成できます。 このページでは、ジャーニーまたはキャンペーンでプッシュ通知を設定するプロセスについて説明します。
+モバイルデバイス（iOSおよびAndroid）用のプッシュ通知を作成できます。 このページでは、ジャーニーまたはキャンペーンでプッシュ通知を設定するプロセスについて説明します。
 
 ## ジャーニーまたはキャンペーンでのプッシュ通知の作成 {#create}
 
@@ -72,7 +72,7 @@ ht-degree: 94%
 
 1. 「**[!UICONTROL アクション]**」セクションで、「**[!UICONTROL プッシュ通知]**」を選択し、新しい設定を選択または作成します。
 
-   [&#x200B; このページ &#x200B;](push-configuration.md) のモバイルおよび [&#x200B; このページ &#x200B;](push-configuration-web.md) の web 用のプッシュ設定について詳しく説明します。
+   モバイルのプッシュ設定について詳しくは、[ このページ ](push-configuration.md) を参照してください。
 
    ![](assets/push_create_3.png)
 
