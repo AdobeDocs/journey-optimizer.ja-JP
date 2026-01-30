@@ -6,7 +6,7 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: 48b3ef3d2e041ea49d1b0c91cc72ea04237a5e33
+source-git-commit: 80c652afef03b0be6d917cb4389850780c2a4379
 workflow-type: tm+mt
 source-wordcount: '1110'
 ht-degree: 98%
