@@ -18,7 +18,7 @@ ht-degree: 91%
 
 このユースケースでは、[!DNL Journey Optimizer] コードベースチャネルで決定の使用に必要なすべての手順を示します。
 
-➡️ [ ビデオでユースケースを確認する ](#video)
+➡️ [&#x200B; ビデオでユースケースを確認する &#x200B;](#video)
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ ht-degree: 91%
 
 >[!NOTE]
 >
->コードベースのエクスペリエンスで決定を使用する際のテストと重複排除の実装について詳しくは、[ このページ ](../code-based/code-based-decisioning-implementations.md) を参照してください。
+>コードベースのエクスペリエンスで決定を使用する際のテストと重複排除の実装について詳しくは、[&#x200B; このページ &#x200B;](../code-based/code-based-decisioning-implementations.md) を参照してください。
 
 ## 選択戦略の作成
 
