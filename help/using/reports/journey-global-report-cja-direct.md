@@ -69,7 +69,7 @@ ht-degree: 92%
 
 ## 除外された理由 {#exclude-reasons-directmail}
 
-[](assets/cja-direct-excluded.png)
+[&#128279;](assets/cja-direct-excluded.png)
 
 **[!UICONTROL 除外された理由]**&#x200B;のテーブルには、ターゲットオーディエンスからユーザープロファイルを除外した結果、ダイレクトメールメッセージを受信できない原因となった様々な要因を視覚的に表示します。
 
