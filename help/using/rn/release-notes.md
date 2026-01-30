@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: aaee9f7ed3ddcbf4678dacbf2e43d0410f334261
+source-git-commit: 6442512f29fd691d759375ad50cce2f95a42c402
 workflow-type: tm+mt
 source-wordcount: '1816'
-ht-degree: 21%
+ht-degree: 22%
 
 ---
 
@@ -31,11 +31,11 @@ ht-degree: 21%
 
 <!--**Release date**: January 27-28, 2026-->
 
-[&#x200B; 機能 &#x200B;](#jan-26-01-features) および [&#x200B; 改善 &#x200B;](#jan-26-01-improv) の節では、既に使用可能な機能について説明し、[&#x200B; 近日公開 &#x200B;](#jan-26-01-coming-soon) では、後の公開日にスケジュールされている項目を一覧表示しています。
+[ 機能 ](#jan-26-01-features) および [ 改善 ](#jan-26-01-improv) の節では、既に使用可能な機能について説明し、[ 近日公開 ](#jan-26-01-coming-soon) では、後の公開日にスケジュールされている項目を一覧表示しています。
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新機能 {#jan-26-01-features}
 
@@ -196,7 +196,9 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 #### AI
 
-* **AI アシスタントコンテンツ品質チェック** - ブランドの整合性に加えて、全体的な <strong> コンテンツ品質 </strong> を評価して、ブランドガイドラインに依存せずに、<strong> 読みやすさ </strong>、凝集性、有効性に関する潜在的な問題を明らかにできるようになりました。 これらの自動チェックは、メッセージングの不明確、一貫性のないトーン、構造ギャップの特定に役立ちます。 [&#x200B; 詳細情報 &#x200B;](../content-management/brands-score.md#validate-quality)。 [&#x200B; ビデオでこの機能を確認する &#x200B;](https://video.tv.adobe.com/v/3470547/?captions=jpn&learn=on)。
+* **AI アシスタントコンテンツ品質チェック** - ブランドの整合性に加えて、全体的な <strong> コンテンツ品質 </strong> を評価して、ブランドガイドラインに依存せずに、<strong> 読みやすさ </strong>、凝集性、有効性に関する潜在的な問題を明らかにできるようになりました。 これらの自動チェックは、メッセージングの不明確、一貫性のないトーン、構造ギャップの特定に役立ちます。 [詳細情報](../content-management/brands-score.md#validate-quality)
+
+  [ ビデオでこの機能を確認する ](https://video.tv.adobe.com/v/3470544/?learn=on)。
 
 #### Experience Decisioning
 
@@ -206,7 +208,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
   公開日：2026 年 1 月 27 日（PT）。
 
-* **カスタムアクションエラー応答ペイロード** - カスタムアクションにオプションの <strong> エラー応答ペイロード </strong> を定義できるようになりました。 呼び出しが失敗すると、エラーペイロードがジャーニーコンテキスト（アクションの errorResponse ノードの下）で公開され、<strong> タイムアウト/エラー分岐 </strong> で `jo_status_code` と共に使用して、より豊富なフォールバックロジックとデバッグをサポートできます。 [詳細情報](../action/action-response.md)
+* **カスタムアクションエラー応答ペイロード** - カスタムアクションにオプションの <strong> エラー応答ペイロード </strong> を定義できるようになりました。 呼び出しが失敗すると、エラーペイロードがジャーニーコンテキスト（アクションの errorResponse ノードの下）で公開され、<strong> タイムアウト/エラー分岐 </strong> で `jo_status_code` と共に使用して、より豊富なフォールバックロジックとデバッグをサポートできます。 [詳細情報](../action/about-custom-action-configuration.md#define-the-message-parameters)
 
   公開日：2026 年 1 月 27 日（PT）。
 
