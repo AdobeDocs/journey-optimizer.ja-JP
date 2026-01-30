@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
-workflow-type: ht
-source-wordcount: '619'
-ht-degree: 100%
+source-git-commit: 21de0b9616c414db204a3eafebc6a8184028a1e1
+workflow-type: tm+mt
+source-wordcount: '631'
+ht-degree: 95%
 
 ---
 
@@ -25,11 +25,13 @@ ht-degree: 100%
 
 決定は、「決定項目」と呼ばれるマーケティングオファーの一元カタログと、高度な決定エンジンを提供することで、パーソナライゼーションを簡素化します。このエンジンは、ルールとランキング条件を活用して、各個人に最も関連性の高い決定項目を選択し、提示します。
 
-これらの決定項目は、Journey Optimizer キャンペーン内でアクセス可能な[新しいコードベースのエクスペリエンスチャネル](../code-based/get-started-code-based.md)を通じて、幅広いインバウンドサーフェスにシームレスに統合されます。
+これらの決定項目は、[ のキャンペーン内でアクセスできる ](../code-based/get-started-code-based.md) コードベースのエクスペリエンスチャネル [!DNL Adobe Journey Optimizer] を通じて、幅広いインバウンドサーフェスにシームレスに統合されます。
 
 >[!IMPORTANT]
 >
 >決定の決定ポリシーは、コードベースのエクスペリエンスとメールキャンペーンでのみ使用できます。
+
+➡️ [この機能について詳しくは、ビデオを参照してください。](#video)
 
 ➡️ コードベースのエクスペリエンスチャネルを使用して決定を作成し、コンテンツ実験で使用する方法を示すエンドツーエンドのユースケースについて詳しくは、[この節](experience-decisioning-uc.md)を参照してください。
 
@@ -98,3 +100,8 @@ ht-degree: 100%
 * **[決定ガードレール](decisioning-guardrails.md)** - 決定の実装に関する重要な制限とベストプラクティスを確認します。
 * **[決定のチュートリアル](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/decision-capabilities/decisioning/introduction-to-decisioning){target="_blank"}** - 決定機能とベストプラクティスに関するステップバイステップのビデオチュートリアルを参照してください。
 
+## チュートリアルビデオ {#video}
+
+Adobe Journey Optimizerの意思決定機能について説明します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)

@@ -7,22 +7,24 @@ role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
-workflow-type: ht
-source-wordcount: '1457'
-ht-degree: 100%
+source-git-commit: 21de0b9616c414db204a3eafebc6a8184028a1e1
+workflow-type: tm+mt
+source-wordcount: '1481'
+ht-degree: 95%
 
 ---
 
 # AI 式ビルダーの使用 {#create-ranking-formulas}
 
-**ランキング式**&#x200B;を使用すると、優先度スコアを考慮するのではなく、最初に提示するオファーを決定するルールを定義できます。
+**ランキング式** を使用すると、優先度スコアを考慮するのではなく、最初に提示するオファーを決定するルールを定義できます。
 
 これらのルールを作成するために、**[!UICONTROL Adobe Journey Optimizer]** の AI 式ビルダーを使用すると、オファーのランク付け方法をより柔軟に制御できます。静的なオファーの優先度のみに依存するのではなく、ガイド付きインターフェイスを通じて、AI モデルスコア、オファーの優先度、プロファイル属性、オファー属性、コンテキストシグナルを組み合わせたカスタムランキング式を定義できるようになりました。
 
 このアプローチにより、AI 駆動型の傾向、ビジネス価値、リアルタイムのコンテキストの任意の組み合わせに基づいてオファーのランキングを動的に調整できるので、マーケティング目標と顧客ニーズの両方に合わせた決定が容易になります。AI 式ビルダーは、適用するコントロールのレベルに応じて、シンプルな式または高度な式をサポートします。
 
 ランキング式を作成したら、[選択戦略](../selection-strategies.md)に割り当てることができます。この選択戦略の使用時に実施要件を満たすオファーが複数ある場合、決定エンジンは選択した式を使用して、最初に配信するオファーを計算します。
+
+➡️ [この機能について詳しくは、ビデオを参照してください。](#video)
 
 ## ランキング式の作成 {#create-ranking-formula}
 
@@ -64,7 +66,7 @@ ht-degree: 100%
    >
    >ランキング式のネスト深度は 30 レベルに制限されています。これは、PQL 文字列内の `)` の閉じ丸括弧をカウントすることによって測定されます。UTF-8 でエンコードされた文字の場合、ルール文字列のサイズは最大 8 KB になります。これは、8,000 個の ASCII 文字（各 1 バイト）、または 2,000～4,000 個の非 ASCII 文字（各 2～4 バイト）に相当します。[詳しくは、決定ガードレールと制限を参照してください](../decisioning-guardrails.md#ranking-formulas)
 
-1. また、Adobe Experience Platform のデータを使用して、実際の条件を反映するようにランキングロジックを動的に調整することもできます。これは、製品の在庫状況やリアルタイムの価格設定など、頻繁に変更される属性の場合に特に役立ちます。
+1. また、Adobe Experience Platform のデータを使用して、実際の条件を反映するようにランキングロジックを動的に調整することもできます。これは、製品の可用性やリアルタイム価格など、頻繁に変更される属性に特に便利です。
 
    この機能は現在、パブリックベータ版としてすべてのお客様にご使用いただけます。アクセス権をご希望の場合は、アカウント担当者にお問い合わせください。[詳しくは、決定の Adobe Experience Platform データの使用方法を参照してください。](../aep-data-exd.md)
 
@@ -93,9 +95,9 @@ To leverage data from an AEP dataset, follow the steps below.
 <!--![](../assets/ranking-formula-criteria.png){width="80%"}-->
 
 1. 「**[!UICONTROL 条件 1]**」セクションで、次の手順を実行して、ランキングスコアを適用する決定項目を指定します。
-   * [決定項目属性](../items.md#attributes)を選択します。
-   * 論理演算子を選択します。
-   * 一致条件を追加します（値を入力するか、プロファイル属性または[コンテキストデータ](../context-data.md)を選択できます）。
+   * [ 決定項目属性 ](../items.md#attributes) を選択します
+   * 論理演算子を選択
+   * 一致条件を追加 – 値を入力するか、プロファイル属性または [ コンテキストデータ ](../context-data.md) を選択できます。
 
    ![](../assets/ranking-formula-criterion-1.png){width="70%"}
 
@@ -274,3 +276,9 @@ if( offer._luma.offerDetails.zipCode = _luma.zipCode,luma.annualIncome / 1000 + 
 ```
 
 +++
+
+## チュートリアルビデオ {#video}
+
+Adobe Journey Optimizer の AI 式ビルダーを使用して、カスタムオファーランキング戦略を作成する方法について説明します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3464446/?learn=on&enablevpops)

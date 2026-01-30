@@ -7,16 +7,18 @@ role: User
 level: Intermediate, Experienced
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
 version: Journey Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 21de0b9616c414db204a3eafebc6a8184028a1e1
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 96%
+source-wordcount: '880'
+ht-degree: 91%
 
 ---
 
 # コンテンツ実験によるコードベースのエクスペリエンスでの決定の使用 {#experience-decisioning-uc}
 
 このユースケースでは、[!DNL Journey Optimizer] コードベースチャネルで決定の使用に必要なすべての手順を示します。
+
+➡️ [ ビデオでユースケースを確認する ](#video)
 
 >[!NOTE]
 >
@@ -29,7 +31,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->コードベースのエクスペリエンスで決定を使用する際のテストと重複排除の実装について詳しくは、[&#x200B; このページ &#x200B;](../code-based/code-based-decisioning-implementations.md) を参照してください。
+>コードベースのエクスペリエンスで決定を使用する際のテストと重複排除の実装について詳しくは、[ このページ ](../code-based/code-based-decisioning-implementations.md) を参照してください。
 
 ## 選択戦略の作成
 
@@ -95,11 +97,7 @@ ht-degree: 96%
 
 ## コードベースのエクスペリエンスキャンペーンの作成
 
-<!--To present the best dynamic offer and experience to your visitors on your website or mobile app, add a decision policy to a code-based campaign.
-
-Define two delivery treatments each containing a different decision policy.-->
-
-2 つの選択戦略を設定したら、最も高パフォーマンスの戦略を比較するために、戦略ごとに異なる処理を定義するコードベースのエクスペリエンスキャンペーンを作成します。
+2 つの選択戦略を設定したら、コードベースのエクスペリエンスキャンペーンを作成します。このキャンペーンでは、パフォーマンスが最も高い戦略を比較するために、戦略ごとに異なる処理を定義します。
 
 1. キャンペーンを作成し、**[!UICONTROL コードベースのエクスペリエンス]**&#x200B;アクションを選択します。[詳細情報](../code-based/create-code-based.md)
 
@@ -157,3 +155,9 @@ Define two delivery treatments each containing a different decision policy.-->
 
 * 最もパフォーマンスの高いランキングで処理をすべてのお客様にプッシュできます。
 * または、最もパフォーマンスの高いランキング方法を複製する選択戦略を使用して、新しいキャンペーンを作成することもできます。
+
+## チュートリアルビデオ {#video}
+
+コードベースのエクスペリエンスで意思決定を使用する方法を示す、エンドツーエンドのチュートリアルを確認します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3451100/?learn=on&enablevpops)
