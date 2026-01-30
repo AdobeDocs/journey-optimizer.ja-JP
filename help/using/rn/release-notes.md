@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 99dfadf6ac370187fd54d87f660c36662dbcb8d3
+source-git-commit: 5a9dd033754c827960133e762628b0cf7b4c6a20
 workflow-type: tm+mt
-source-wordcount: '1709'
-ht-degree: 22%
+source-wordcount: '1636'
+ht-degree: 23%
 
 ---
 
@@ -31,11 +31,11 @@ ht-degree: 22%
 
 <!--**Release date**: January 27-28, 2026-->
 
-[&#x200B; 機能 &#x200B;](#jan-26-01-features) および [&#x200B; 改善 &#x200B;](#jan-26-01-improv) の節では、既に使用可能な機能について説明し、[&#x200B; 近日公開 &#x200B;](#jan-26-01-coming-soon) では、後の公開日にスケジュールされている項目を一覧表示しています。
+[ 機能 ](#jan-26-01-features) および [ 改善 ](#jan-26-01-improv) の節では、既に使用可能な機能について説明し、[ 近日公開 ](#jan-26-01-coming-soon) では、後の公開日にスケジュールされている項目を一覧表示しています。
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新機能 {#jan-26-01-features}
 
@@ -198,7 +198,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **AI アシスタントコンテンツ品質チェック** - ブランドの整合性に加えて、全体的な <strong> コンテンツ品質 </strong> を評価して、ブランドガイドラインに依存せずに、<strong> 読みやすさ </strong>、凝集性、有効性に関する潜在的な問題を明らかにできるようになりました。 これらの自動チェックは、メッセージングの不明確、一貫性のないトーン、構造ギャップの特定に役立ちます。 [詳細情報](../content-management/brands-score.md#validate-quality)
 
-  [&#x200B; ビデオでこの機能を確認する &#x200B;](https://video.tv.adobe.com/v/3470547/?captions=jpn&learn=on)。
+  [ ビデオでこの機能を確認する ](https://video.tv.adobe.com/v/3470544/?learn=on)。
 
 #### Experience Decisioning
 
@@ -285,22 +285,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <li>オブジェクトマッピングを使用した詳細な移行レポート</li>
 </ul>
 <p>公開日：2026年1月30日（PT）</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>Journey Agent内でのコンテンツの生成</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Adobe Experience Platform Agent Orchestratorを活用した <strong>Journey Agent</strong> はJourney Optimizerで利用でき、自然言語インターフェイスを通じてジャーニーを分析できます。 また、Journey Agentで直接 <strong> コンテンツを生成および管理 </strong>、メールやプッシュなどのチャネルのコンテンツを作成、テンプレートを適用およびプレビュー、プロンプトによるトーンとスタイルの調整、コンテキスト内編集用にコンテンツDesignerで開くこともできます。</p>
-<p>公開日：2026年2月9日（PT）</p>
 </td>
 </tr>
 </tbody>
