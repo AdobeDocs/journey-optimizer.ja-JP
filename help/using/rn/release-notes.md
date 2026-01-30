@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6442512f29fd691d759375ad50cce2f95a42c402
+source-git-commit: 99dfadf6ac370187fd54d87f660c36662dbcb8d3
 workflow-type: tm+mt
-source-wordcount: '1816'
+source-wordcount: '1709'
 ht-degree: 22%
 
 ---
@@ -31,11 +31,11 @@ ht-degree: 22%
 
 <!--**Release date**: January 27-28, 2026-->
 
-[&#x200B; 機能 &#x200B;](#jan-26-01-features) および [&#x200B; 改善 &#x200B;](#jan-26-01-improv) の節では、既に使用可能な機能について説明し、[&#x200B; 近日公開 &#x200B;](#jan-26-01-coming-soon) では、後の公開日にスケジュールされている項目を一覧表示しています。
+[ 機能 ](#jan-26-01-features) および [ 改善 ](#jan-26-01-improv) の節では、既に使用可能な機能について説明し、[ 近日公開 ](#jan-26-01-coming-soon) では、後の公開日にスケジュールされている項目を一覧表示しています。
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新機能 {#jan-26-01-features}
 
@@ -198,7 +198,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **AI アシスタントコンテンツ品質チェック** - ブランドの整合性に加えて、全体的な <strong> コンテンツ品質 </strong> を評価して、ブランドガイドラインに依存せずに、<strong> 読みやすさ </strong>、凝集性、有効性に関する潜在的な問題を明らかにできるようになりました。 これらの自動チェックは、メッセージングの不明確、一貫性のないトーン、構造ギャップの特定に役立ちます。 [詳細情報](../content-management/brands-score.md#validate-quality)
 
-  [&#x200B; ビデオでこの機能を確認する &#x200B;](https://video.tv.adobe.com/v/3470547/?captions=jpn&learn=on)。
+  [ ビデオでこの機能を確認する ](https://video.tv.adobe.com/v/3470544/?learn=on)。
 
 #### Experience Decisioning
 
@@ -293,23 +293,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <table>
 <thead>
 <tr>
-<th><strong>カスタムアクションの監視</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>新しい監視ダッシュボードと強化されたジャーニーステップイベントデータを使用して、<strong> カスタムアクションエンドポイント </strong> の正常性とパフォーマンスをより深くinsightできます。 成功した呼び出し、エラー、スループット、応答時間およびキューの待機時間を追跡して、異常値が発生したタイミング、場所、理由をすばやく把握します。</p>
-<p>この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。</p>
-<p>公開日：2026年1月29日（PT）</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>Journey Agent内でのコンテンツの生成</strong><br/></th>
 </tr>
 </thead>
@@ -317,7 +300,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Adobe Experience Platform Agent Orchestratorを活用した <strong>Journey Agent</strong> はJourney Optimizerで利用でき、自然言語インターフェイスを通じてジャーニーを分析できます。 また、Journey Agentで直接 <strong> コンテンツを生成および管理 </strong>、メールやプッシュなどのチャネルのコンテンツを作成、テンプレートを適用およびプレビュー、プロンプトによるトーンとスタイルの調整、コンテキスト内編集用にコンテンツDesignerで開くこともできます。</p>
-<p>公開日：2026年2月2日（PT）</p>
+<p>公開日：2026年2月9日（PT）</p>
 </td>
 </tr>
 </tbody>
@@ -333,7 +316,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p><strong>Decisioning</strong> を使用して、<strong> プッシュと SMS</strong> メッセージのコンテンツをパーソナライズおよび最適化できるようになりました。 優先度スコア、式または AI モデルを使用して、顧客に最適なコンテンツを表示します。</p>
-<p>公開日：2026年2月3日（PT）</p>
+<p>公開日：2026年2月9日（PT）</p>
 </td>
 </tr>
 </tbody>
@@ -350,7 +333,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <td>
 <p>ジャーニーキャンバスで新しい <strong> コンテンツ決定アクティビティ </strong> が使用できるようになり、<strong> パーソナライズされたオファー </strong> をカスタマージャーニーに直接統合できます。 このアクティビティを使用すると、決定ベースのコンテンツを配信し、ジャーニー全体でこれらのオファーを参照できます。実施要件ベースのブランチを作成する条件、外部システムにオファーデータを渡すカスタムアクション、完全にパーソナライズされたカスタマーエクスペリエンスを構築するその他のアクティビティなどです。</p>
 <p>この機能は、すべての環境で使用できるようになります（一般提供）。</p>
-<p>公開日：2026年2月3日（PT）</p>
+<p>公開日：2026年2月9日（PT）</p>
 </td>
 </tr>
 </tbody>
@@ -358,10 +341,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 ### 機能強化
 
-* **SMS Webhook** - <strong>Webhook</strong> がすべての SMS プロバイダーでサポートされるようになりました。 目的に応じて各 Webhook を設定できます。受信メッセージをキャプチャする受信 Webhook および配信の受信、ステータスの更新、その他のメッセージ関連イベントを受信するフィードバック Webhook。
-
-  公開日：2026 年 1 月 30 日（PT）。
 
 * **決定項目にフラグメントを添付** - Journey Optimizerでは、意思決定ポリシーを通じてコードベースのエクスペリエンスキャンペーンで活用できる <strong> フラグメント </strong> を <strong> 決定項目 </strong> に添付する機能が提供されるようになりました。
 
-  公開日：2026 年 2 月 3 日（PT）。
+  公開日：2026 年 2 月 9 日（PT）。
