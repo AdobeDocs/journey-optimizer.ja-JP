@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 124ff40cf7cdc0dfdaf67924ff5fb558c96e2956
+source-git-commit: 6c51328bdea0daf44b1315cf139b60d5bc2c5c76
 workflow-type: tm+mt
 source-wordcount: '1722'
 ht-degree: 23%
@@ -31,11 +31,11 @@ ht-degree: 23%
 
 <!--**Release date**: January 27-28, 2026-->
 
-[&#x200B; 機能 &#x200B;](#jan-26-01-features) および [&#x200B; 改善 &#x200B;](#jan-26-01-improv) の節では、既に使用可能な機能について説明し、[&#x200B; 近日公開 &#x200B;](#jan-26-01-coming-soon) では、後の公開日にスケジュールされている項目を一覧表示しています。
+[ 機能 ](#jan-26-01-features) および [ 改善 ](#jan-26-01-improv) の節では、既に使用可能な機能について説明し、[ 近日公開 ](#jan-26-01-coming-soon) では、後の公開日にスケジュールされている項目を一覧表示しています。
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新機能 {#jan-26-01-features}
 
@@ -179,7 +179,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **AI アシスタントコンテンツ品質チェック** - ブランドの整合性に加えて、全体的な <strong> コンテンツ品質 </strong> を評価して、ブランドガイドラインに依存せずに、<strong> 読みやすさ </strong>、凝集性、有効性に関する潜在的な問題を明らかにできるようになりました。 これらの自動チェックは、メッセージングの不明確、一貫性のないトーン、構造ギャップの特定に役立ちます。 [詳細情報](../content-management/brands-score.md#validate-quality)
 
-  [&#x200B; ビデオでこの機能を確認する &#x200B;](https://video.tv.adobe.com/v/3470547/?captions=jpn&learn=on)。
+  [ ビデオでこの機能を確認する ](https://video.tv.adobe.com/v/3470544/?learn=on)。
 
 #### Experience Decisioning
 
@@ -265,7 +265,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <li>完了した移行のロールバックサポート</li>
 <li>オブジェクトマッピングを使用した詳細な移行レポート</li>
 </ul>
-<p>公開日：2026年1月30日（PT）</p>
+<p>公開日：2026年2月11日（PT）</p>
 </td>
 </tr>
 </tbody>
@@ -281,7 +281,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p><strong>Decisioning</strong> を使用して、<strong> プッシュと SMS</strong> メッセージのコンテンツをパーソナライズおよび最適化できるようになりました。 優先度スコア、式または AI モデルを使用して、顧客に最適なコンテンツを表示します。</p>
-<p>公開日：2026年2月9日（PT）</p>
+<p>公開日：2026年2月11日（PT）</p>
 </td>
 </tr>
 </tbody>
@@ -298,7 +298,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <td>
 <p>ジャーニーキャンバスで新しい <strong> コンテンツ決定アクティビティ </strong> が使用できるようになり、<strong> パーソナライズされたオファー </strong> をカスタマージャーニーに直接統合できます。 このアクティビティを使用すると、決定ベースのコンテンツを配信し、ジャーニー全体でこれらのオファーを参照できます。実施要件ベースのブランチを作成する条件、外部システムにオファーデータを渡すカスタムアクション、完全にパーソナライズされたカスタマーエクスペリエンスを構築するその他のアクティビティなどです。</p>
 <p>この機能は、すべての環境で使用できるようになります（一般提供）。</p>
-<p>公開日：2026年2月9日（PT）</p>
+<p>公開日：2026年2月11日（PT）</p>
 </td>
 </tr>
 </tbody>
@@ -327,4 +327,4 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **決定項目にフラグメントを添付** - Journey Optimizerでは、意思決定ポリシーを通じてコードベースのエクスペリエンスキャンペーンで活用できる <strong> フラグメント </strong> を <strong> 決定項目 </strong> に添付する機能が提供されるようになりました。
 
-  公開日：2026 年 2 月 9 日（PT）。
+  公開日：2026 年 2 月 11 日（PT）。
