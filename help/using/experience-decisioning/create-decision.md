@@ -7,10 +7,10 @@ role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
-workflow-type: ht
-source-wordcount: '612'
-ht-degree: 100%
+source-git-commit: c2388c84346ed9a0409270fd96f3a1458bf8ad88
+workflow-type: tm+mt
+source-wordcount: '625'
+ht-degree: 98%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 100%
 
    カスタムの Customer Journey Analytics ダッシュボードを作成してパフォーマンスを測定し、決定ポリシーとオファーがどのように配信および関与されているかに関するインサイトを得ます。
 
-## ガードレールと制限事項
+## ガードレールと制限
 
 * **メールのミラーページ** - 現時点では、決定項目はメールのミラーページではレンダリングされません。
 * **トラッキングとリンクのタイプ** - 決定によって生成されたリンクを追跡するには、「決定アセット」としてスキーマで定義します。属性ベースのリンクは追跡できません。
@@ -85,3 +85,8 @@ ht-degree: 100%
 
 ➡️ [決定ポリシーの作成方法を学ぶ](../experience-decisioning/create-decision-policy.md)
 
+## チュートリアルビデオ {#video}
+
+Decisioning を使用して、オーディエンス向けにメールをパーソナライズする方法を説明します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
