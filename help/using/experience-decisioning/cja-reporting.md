@@ -7,10 +7,10 @@ role: User
 level: Experienced
 exl-id: 7c45cd8a-8e86-4646-ba0a-db393e92d9da
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
-workflow-type: ht
-source-wordcount: '227'
-ht-degree: 100%
+source-git-commit: 083545ff7b2dc5ce45ef3766321fdf12e1b96c5c
+workflow-type: tm+mt
+source-wordcount: '226'
+ht-degree: 90%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## 決定レポート {#campaigns}
 
-コードベースのエクスペリエンスや選択戦略を含むメールが公開されると、専用レポートにアクセスして、決定の主要業績評価指標（KPI）を監視できます。
+選択戦略を備えたジャーニーまたはキャンペーンがライブになると、専用のレポートにアクセスして、意思決定の主要業績評価指標（KPI）を監視できます。
 
 <!--Once code-based experiences are live, you can access dedicated reports to monitor Key Performance Indicators (KPIs) as an all-encompassing dashboard, delivering an analysis of essential metrics associated with your campaign.
 
