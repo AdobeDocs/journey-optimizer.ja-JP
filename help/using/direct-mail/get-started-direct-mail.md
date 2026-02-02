@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: ダイレクトメール, メッセージ, キャンペーン
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
-source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
+source-git-commit: d9534a5bbec3fdd24046a6e171f81498569f682f
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 76%
+source-wordcount: '320'
+ht-degree: 77%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 76%
 
 >[!AVAILABILITY]
 >
->ダイレクトメールメッセージは、ジャーニーおよびスケジュールされたキャンペーンのコンテキストでのみ作成できます。 オーケストレートキャンペーンや API トリガーキャンペーンでは使用できません。
+>ダイレクトメールメッセージは、ジャーニーとキャンペーンのコンテキストで作成できます。 API トリガーキャンペーンでは使用できません。
 
 ![](../rn/assets/do-not-localize/gif-dm.gif)
 
@@ -45,4 +45,4 @@ ht-degree: 76%
 
 Adobe Journey Optimizerのダイレクトメールチャネルを活用して、ジャーニー内のダイレクトメール配信を自動化し、スケジュールする方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3479163?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479162?quality=12)
