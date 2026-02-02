@@ -85,12 +85,12 @@ ht-degree: 72%
 
 Decisioning を使用して、オーディエンス向けにメールをパーソナライズする方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479211?captions=jpn&quality=12)
 
 Decisioning を使用して、オーディエンス向けにプッシュ通知をパーソナライズする方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479211?captions=jpn&quality=12)
 
 Decisioning を使用して、オーディエンス向けに SMS メッセージをパーソナライズする方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3479529?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479530?captions=jpn&quality=12)
