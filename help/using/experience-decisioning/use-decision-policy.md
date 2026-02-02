@@ -1,183 +1,143 @@
 ---
 title: メッセージでの決定ポリシーの使用
-description: メッセージで決定ポリシーを使用する方法について説明します。
+description: メッセージで決定ポリシーを使用する方法を説明します。
 feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
 mini-toc-levels: 1
 version: Journey Orchestration
-source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+source-git-commit: 2dfc9c2db5af1b9b74f7405a68e85563f633a54f
 workflow-type: tm+mt
-source-wordcount: '946'
-ht-degree: 95%
+source-wordcount: '722'
+ht-degree: 11%
 
 ---
 
 # メッセージでの決定ポリシーの使用 {#create-decision}
 
-決定ポリシーを作成すると、返された決定項目にリンクされたポリシーと属性を、コンテンツのパーソナライゼーションに利用できるようになります。これを行うには、まず、決定ポリシーに関連付けられたコードをコンテンツに挿入する必要があります。完了したら、その属性をパーソナライゼーションに活用できます。
+コンテンツに決定ポリシーを追加したら、返された決定項目の属性をパーソナライゼーションに使用できます。 これを行うには、まず決定ポリシーコードをコンテンツに挿入します。
 
-## 決定ポリシーコードの挿入 {#insert-code}
+>[!CAUTION]
+>
+>決定ポリシーは、すべてのお客様が **コードベースのエクスペリエンス**、**SMS** および **プッシュ通知** チャネルで利用できます。
+>
+>メールチャネルの決定は、限定提供（LA）で利用できます。 アクセス権をリクエストするには、Adobe担当者にお問い合わせください。 詳細情報 [ 可用性ラベル ](../rn/releases.md#availability-labels)。
+
+## 決定ポリシーコードの挿入 {#insert}
 
 >[!BEGINTABS]
 
->[!TAB コードベースのエクスペリエンス]
+>[!TAB  コードベースのエクスペリエンス ]
 
-1. パーソナライゼーションエディターを開き、**[!UICONTROL 決定ポリシー]**&#x200B;メニューにアクセスします。
+1. コードベースのエクスペリエンスを編集し、**[!UICONTROL 決定ポリシー]** に移動します。
 
-1. 「**[!UICONTROL ポリシーを挿入]**」を選択して、決定ポリシーに対応するコードを追加します。
+2. **[!UICONTROL ポリシーを挿入]** を選択して、決定ポリシーコードを追加します。
 
    ![](assets/decision-code-based-add-decision.png)
 
-   >[!NOTE]
-   >
-   >コード挿入ボタンが表示されない場合は、親コンポーネントに対して既に決定ポリシーが設定されている可能性があります。
-
-1. 決定ポリシーのコードが追加されます。このシーケンスは、決定ポリシーを返して欲しい回数だけ繰り返します。例えば、[決定を作成する](#add-decision)際に、2 つの項目を返すように選択した場合、同じシーケンスが 2 回繰り返されます。
+>[!NOTE]
+>
+>コードベースのエクスペリエンスの場合、決定ポリシーにフラグメントを含む決定項目が含まれている場合、これらのフラグメントを決定ポリシーコードで活用できます。 [ フラグメントの活用方法を学ぶ ](../experience-decisioning/fragments-decision-policies.md)
 
 >[!TAB メール]
 
-1. パーソナライゼーションエディターを開き、**[!UICONTROL 決定ポリシー]**&#x200B;メニューにアクセスします。
+1. **Personalization エディターを開き****[!UICONTROL Decision Policies]** に移動します。
 
-1. 「**[!UICONTROL 構文を挿入]**」を選択して、決定ポリシーに対応するコードを追加します。
+2. **[!UICONTROL 構文を挿入]** を選択して、決定ポリシーのコードを追加します。
 
    ![](assets/decision-policy-add.png)
 
    >[!NOTE]
    >
-   >コード挿入ボタンが表示されない場合は、親コンポーネントに対して既に決定ポリシーが設定されている可能性があります。
+   >挿入オプションが表示されない場合は、親コンポーネントに対して決定ポリシーが既に設定されている可能性があります。
 
-1. プレースメントが事前にコンポーネントに関連付けられていない場合は、リストから 1 つ選択して「**[!UICONTROL 割り当て]**」をクリックします。
+3. 構成部品にプレースメントがまだ割り当てられていない場合は、リストからプレースメントを 1 つ選択し、「**[!UICONTROL 割り当て]**」をクリックします。
 
    ![](assets/decision-policy-placement.png)
 
+>[!TAB SMS]
+
+1. **Personalization エディターを開き****[!UICONTROL Decision Policies]** に移動します。
+
+2. **[!UICONTROL 構文を挿入]** を選択して、決定ポリシーのコードを追加します。
+
+   ![](assets/decision-policy-add-sms-insert-syntax.png)
+
+>[!TAB プッシュ]
+
+1. **Personalization エディターを開き****[!UICONTROL Decision Policies]** に移動します。
+
+2. **[!UICONTROL 構文を挿入]** を選択して、決定ポリシーのコードを追加します。
+
+   ![](assets/decision-policy-add-push-insert-syntax.png)
+
+>[!IMPORTANT]
+>
+>プッシュ通知を使用した Experience Decisioning では、特定のバージョンの Mobile SDKが必要です。 この機能を実装する前に、[ リリースノート ](https://developer.adobe.com/client-sdks/home/release-notes/){target="_blank"} を確認して、必要なバージョンを特定し、それに応じてアップグレードしていることを確認します。 また、お使いのプラットフォームで利用可能なすべてのSDK バージョンを確認することもできます [ この節 ](https://developer.adobe.com/client-sdks/home/current-sdk-versions/){target="_blank"}。
+
 >[!ENDTABS]
 
-決定ポリシーのコードが追加されると、このシーケンスは、決定ポリシーを返す回数だけ繰り返されます。 例えば、[決定を作成する](#add-decision)際に、2 つの項目を返すように選択した場合、同じシーケンスが 2 回繰り返されます。
-
-## 決定項目の属性の活用 {#attributes}
-
-必要なすべての決定属性を、そのコード内に追加できるようになりました。利用可能な属性は、**[!UICONTROL オファー]**&#x200B;カタログのスキーマに保存されます。カスタム属性は、**`_<imsOrg`>** フォルダーに保存され、標準属性は **`_experience`** フォルダーに保存されます。[オファーカタログのスキーマの詳細情報](catalogs.md)
-
-![](assets/decision-code-based-decision-attributes.png)
+決定ポリシーコードが追加されます。 返された決定項目の属性を使用して、コンテンツをパーソナライズできるようになりました。
 
 >[!NOTE]
 >
->決定ポリシー項目のトラッキングでは、決定ポリシーのコンテンツに対して次のように `trackingToken` 属性を追加する必要があります。
->`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+>コードベースのエクスペリエンスおよびメールチャネルの場合は、返す決定項目ごとに 1 回、このシーケンスを繰り返します。 例えば、（決定の作成 [ 時に 2 つの項目を返すよう選択した場合は、シーケンスを 2 回繰り返します。](create-decision-policy.md) SMS およびプッシュチャネルの場合、返される決定項目は 1 つだけです。
 
-属性を追加するには、横にある「+」アイコンをクリックします。 必要な数の属性をコードに追加できます。
+## 決定項目属性を使用したパーソナライズ {#attributes}
 
-![](assets/decision-code-based-add-decision-attributes.png)
+コンテンツに決定ポリシーのコードを追加すると、返された決定項目のすべての属性をパーソナライゼーションで使用できるようになります。 [ パーソナライゼーションの操作方法を説明します ](../personalization/personalize.md)。
 
-`#each` ループを角括弧 `[ ]` で囲み、閉じ括弧 `/each` の直前にコンマを追加します。
-
-![](assets/decision-code-based-wrap-code.png)
-
-また、パーソナライゼーションエディターで使用できる他の属性（プロファイル属性など）を追加することもできます。
-
-![](assets/decision-code-based-decision-profile-attribute.png)
-
-## フラグメントの活用（コードベースのエクスペリエンス） {#fragments}
-
-決定ポリシーにフラグメントを含む決定項目が含まれている場合は、決定ポリシーコードでこれらのフラグメントを活用できます。[詳しくは、フラグメントを参照してください。](../content-management/fragments.md)
-
->[!CAUTION]
->
->この機能は、現在、コードベースのエクスペリエンスチャネルでのみ使用できます。
->
->現在、[&#x200B; 式フラグメント &#x200B;](../personalization/use-expression-fragments.md) のみを使用できます。 ネストされたフラグメント（他のフラグメントを参照するフラグメント）はサポートされていません。
-
-例えば、複数のモバイルデバイスモデルに対して異なるコンテンツを表示するとします。決定ポリシーで使用している決定項目に、これらのデバイスに対応するフラグメントが追加されていることを確認します。[方法についてはこちらを参照してください](items.md#attributes)。
-
-![](assets/item-fragments.png){width=70%}
-
-完了したら、次のいずれかの方法を使用できます。
-
->[!BEGINTABS]
-
->[!TAB コードを直接挿入する]
-
-以下のコードブロックを決定ポリシーコードにコピー＆ペーストするだけです。`variable` をフラグメント ID に、`placement` をフラグメント参照キーに置き換えます。
-
-```
-{% let variable =  get(item._experience.decisioning.offeritem.contentReferencesMap, "placement").id %}
-{{fragment id = variable}}
-```
-
->[!TAB 詳細な手順に従う]
-
-1. 「**[!UICONTROL ヘルパー関数]**」に移動し、コードパネルに **Let** 関数 `{% let variable = expression %} {{variable}}` を追加します。ここでフラグメントの変数を宣言できます。
-
-   ![](assets/decision-let-function.png)
-
-1. **Map**／**Get** 関数 `{%= get(map, string) %}` を使用して、式を作成します。マップは、決定項目で参照されるフラグメントです。文字列は、決定項目で&#x200B;**[!UICONTROL フラグメント参照キー]**&#x200B;として入力したデバイスモデルに指定できます。
-
-   ![](assets/decision-map-function.png)
-
-1. また、このデバイスモデル ID を含むコンテキスト属性を使用することもできます。
-
-   ![](assets/decision-contextual-attribute.png)
-
-1. フラグメントに選択した変数をフラグメント ID として追加します。
-
-   ![](assets/decision-fragment-id.png)
-
->[!ENDTABS]
-
-フラグメント ID と参照キーは、決定項目の「**[!UICONTROL フラグメント]**」セクションから選択されます。
-
->[!WARNING]
->
->フラグメントキーが正しくない場合や、フラグメントコンテンツが有効でない場合、レンダリングは失敗し、Edge 呼び出しでエラーが発生します。
-
-### フラグメント使用時のガードレール {#fragments-guardrails}
-
-**決定項目とコンテキストの属性**
+属性は「オファー」 [ カタログスキーマ ](catalogs.md) に保存されます。 パーソナライゼーションエディターから次のフォルダーに表示されます。
+* **カスタム属性**:`_\<imsOrg\>` フォルダー
+* **標準属性**:`_experience` フォルダー
 
 決定項目属性とコンテキスト属性は、[!DNL Journey Optimizer] フラグメントではデフォルトではサポートされていません。 ただし、以下に説明するように、代わりにグローバル変数を使用できます。
 
-例えば、フラグメントで *sport* 変数を使用するとします。
+![](assets/decision-code-based-decision-attributes.png)
 
-1. フラグメント内でこの変数を参照します。例：
+属性を追加するには、属性の横にある「**`+`**」アイコンをクリックします。 必要な数の属性を追加できます。 また、プロファイルデータなど、他のパーソナライゼーション属性を含めることもできます。
 
-   ```
-   Elevate your practice with new {{sport}} gear!
-   ```
+* **メール** および **コードベース** チャネルの場合は、角かっこ `#each` を使用して属性を `[ ]` ループ内にラップし、終了 `/each` タグの前にコンマを追加します。
 
-1. 決定ポリシーブロック内で、**Let** 関数を使用して変数を定義します。以下の例では、決定項目属性を使用して *sport* が定義されています。
+  +++例を参照
 
-   ```
-   {#each decisionPolicy.13e1d23d-b8a7-4f71-a32e-d833c51361e0.items as |item|}}
-   {% let sport = item._cjmstage.value %}
-   {{fragment id = get(item._experience.decisioning.offeritem.contentReferencesMap, "placement1").id }}
-   {{/each}}
-   ```
+  ![](assets/decision-code-based-wrap-code.png)
 
-**決定項目フラグメントコンテンツの検証**
+  +++
 
-* これらのフラグメントは動的な性質を持つため、キャンペーンで使用する場合、決定項目で参照されるフラグメントでは、キャンペーンコンテンツ作成時のメッセージ検証がスキップされます。
+* **SMS** チャネルおよび **プッシュ** チャネルの場合、決定ポリシーの構文コードの後に属性が挿入されていることを確認してください。 この構文は、常に 1 行目に配置する必要があります。
 
-* フラグメントコンテンツの検証は、フラグメントの作成中と公開中にのみ行われます。
+  +++例を参照
 
-* JSON フラグメントの場合、JSON オブジェクトの有効性は保証されません。 式フラグメントコンテンツが決定項目で使用できるように、有効な JSON であることを確認します。
+  ![](assets/decision-added-sms.png)
 
-実行時に、キャンペーンコンテンツ（決定項目のフラグメントコンテンツを含む）が検証されます。検証に失敗した場合、キャンペーンはレンダリングされません。
+  +++
+
+  >[!NOTE]
+  >SMS またはプッシュコンテンツに画像アセット属性（タイトルや本文など）を挿入する場合、属性値は URL として表示されます。 これらのフィールドでは、画像自体はレンダリングされません。
+
+* 決定項目のトラッキングを有効にするには、`trackingToken` 属性を追加します。`trackingToken: {{item._experience.decisioning.decisionitem.trackingToken}}`
+
+## コンテンツのプレビューとテスト
+
+コンテンツを作成した後、ジャーニーまたはキャンペーンをアクティブ化する前に、プレビューおよびテストします。 決定項目は、シミュレーションインターフェイスで選択したプロファイルに基づいてレンダリングされます。 [ コンテンツのプレビューとテストの方法を説明します ](../content-management/preview-test.md)。
 
 ## 次の手順 {#final-steps}
 
 コンテンツの準備が整ったら、キャンペーンまたはジャーニーをレビューして公開します。
 
 * [ジャーニーの公開](../building-journeys/publish-journey.md)
-* [キャンペーンのレビューとアクティブ化](../campaigns/review-activate-campaign.md)
-* [コードベースのエクスペリエンスの公開とアクティブ化](../code-based/publish-code-based.md)
+* [キャンペーンのレビューとアクティベーション](../campaigns/review-activate-campaign.md)
 
 コードベースのエクスペリエンスの場合、開発者が API または SDK 呼び出しを実行して、チャネル設定で定義されたサーフェスのコンテンツを取得すると、変更が web ページまたはアプリに適用されます。
 
 >[!NOTE]
 >
->現在、決定を使用して、[コードベースのエクスペリエンス](../code-based/create-code-based.md)キャンペーンまたはジャーニーのユーザーインターフェイスのコンテンツをシミュレートすることはできません。回避策について詳しくは、[この節](../code-based/code-based-decisioning-implementations.md)を参照してください。
+>現在、[ コードベースのエクスペリエンス ](../code-based/create-code-based.md) キャンペーンやジャーニーの決定ベースのコンテンツをシミュレートすることはできません。 回避策が [ こちら ](../code-based/code-based-decisioning-implementations.md) で利用できます。
 
-決定のパフォーマンスを確認するために、カスタムの [Customer Journey Analytics レポートダッシュボード](cja-reporting.md)を作成できます。
+## レポートダッシュボードの使用
 
+決定のパフォーマンスを確認するには、キャンペーンレポートやジャーニーレポートで標準の意思決定指標を表示するか、カスタム Customer Journey Analytics ダッシュボードを作成してパフォーマンスを測定し、意思決定ポリシーやオファーがどのように配信され、関与しているかに関するインサイトを得ることができます。 [ 決定レポートの詳細情報 ](cja-reporting.md)。
+
+![](../reports/assets/cja-decisioning-item-performance.png)

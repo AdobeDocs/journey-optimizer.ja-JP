@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
-source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+source-git-commit: 2dfc9c2db5af1b9b74f7405a68e85563f633a54f
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 98%
+source-wordcount: '1178'
+ht-degree: 93%
 
 ---
 
@@ -64,9 +64,9 @@ Adobe Journey Optimizer を使用して、テキスト（SMS）、リッチ通�
 
 1. 「**[!UICONTROL プロパティ]**」セクションで、キャンペーンの「**[!UICONTROL タイトル]**」と「**[!UICONTROL 説明]**」を編集します。
 
-1. 「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックして、使用可能な Adobe Experience Platform オーディエンスのリストからターゲットオーディエンスを定義します。[詳細情報](../audience/about-audiences.md)
+1. 「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックして、使用可能な Adobe Experience Platform オーディエンスのリストからターゲットオーディエンスを定義します。[詳細情報](../audience/about-audiences.md)。
 
-1. 「**[!UICONTROL ID 名前空間]**」フィールドで、選択したオーディエンスから個人を識別するために使用する名前空間を選択します。[詳細情報](../event/about-creating.md#select-the-namespace)
+1. 「**[!UICONTROL ID 名前空間]**」フィールドで、選択したオーディエンスから個人を識別するために使用する名前空間を選択します。[詳細情報](../event/about-creating.md#select-the-namespace)。
 
 1. 「**[!UICONTROL アクション]**」セクションで、「**[!UICONTROL SMS]**」を選択し、新しい設定を選択または作成します。
 
@@ -109,7 +109,7 @@ Adobe Journey Optimizer を使用して、テキスト（SMS）、リッチ通�
 
    ![](assets/sms-content.png)
 
-1. [&#x200B; テキスト生成用 AI アシスタント &#x200B;](../content-management/generative-text.md) を使用して、オーディエンスに合わせた魅力的なテキストメッセージを生成します。
+1. [ テキスト生成用 AI アシスタント ](../content-management/generative-text.md) を使用して、オーディエンスに合わせた魅力的なテキストメッセージを生成します。
 
 1. パーソナライゼーションエディターを使用して、コンテンツの定義、パーソナライゼーションと動的コンテンツの追加を行います。プロファイル名や市区町村など、任意の属性を使用できます。また、条件ルールを定義することもできます。パーソナライゼーションエディターの[パーソナライゼーション](../personalization/personalize.md)と[動的コンテンツ](../personalization/get-started-dynamic-content.md)について詳しくは、次のページを参照してください。
 
@@ -119,7 +119,7 @@ Adobe Journey Optimizer を使用して、テキスト（SMS）、リッチ通�
 
    >[!NOTE]
    >
-   > SMS サブドメインにアクセスして編集するには、実稼動サンドボックスにおける **[!UICONTROL SMS サブドメインの管理]**&#x200B;権限が必要です。権限について詳しくは、[この節](../administration/high-low-permissions.md)を参照してください。
+   > SMS サブドメインにアクセスして編集するには、本番稼働用サンドボックスにおける **[!UICONTROL SMS サブドメインの管理]**&#x200B;権限が必要です。権限について詳しくは、[この節](../administration/high-low-permissions.md)を参照してください。
 
    ![](assets/sms_tracking_1.png)
 
@@ -136,6 +136,12 @@ Adobe Journey Optimizer を使用して、テキスト（SMS）、リッチ通�
    > 短縮 URL の有効期間は 30 日に設定されています。この期間が経過すると、これらの短縮 URL にはアクセスできなくなり、`404 short-code not found` というメッセージが表示されます。
 
 1. 「**[!UICONTROL 保存]**」をクリックして、プレビューでメッセージを確認します。メッセージのコンテンツをテストして確認するには、[この節](#sms-mms-test)を参照してください。
+
+## Experience Decisioning を使用したパーソナライズ {#decisioning-sms}
+
+**Experience Decisioning** を使用して、SMS メッセージのコンテンツをパーソナライズおよび最適化できます。 この機能を使用すると、優先度スコア、式または AI モデルを使用して、最適なコンテンツを動的に選択して顧客に表示できます。
+
+SMS メッセージでの決定ポリシーの作成および使用方法について詳しくは、[ この節 ](../experience-decisioning/create-decision.md) を参照してください。
 
 ## MMS コンテンツの定義{#mms-content}
 
