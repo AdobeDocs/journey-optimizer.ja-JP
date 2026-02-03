@@ -10,10 +10,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
-source-git-commit: 419c7b3913ca4da50c69ed36ffc1a8c8520607b4
+source-git-commit: 7b075996eebd03f0aa812da3ece9cfebef8c65fc
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 8%
+source-wordcount: '392'
+ht-degree: 7%
 
 ---
 
@@ -31,9 +31,9 @@ ht-degree: 8%
 **ロイヤルティの課題に関するドキュメント：**
 
 * **ロイヤルティの課題の概要** ◀︎ **現在の状況** – 概要と次の手順
-* [&#x200B; ロイヤルティの課題について &#x200B;](get-started.md) – 機能、ワークフロー、前提条件
-* [&#x200B; 課題の作成 &#x200B;](create-challenges.md) – 課題の作成と設定
-* [&#x200B; 課題の管理 &#x200B;](manage-challenges.md) – 編集、監視、最適化
+* [ ロイヤルティの課題について ](get-started.md) – 機能、ワークフロー、前提条件
+* [ 課題の作成 ](create-challenges.md) – 課題の作成と設定
+* [ 課題の管理 ](manage-challenges.md) – 編集、監視、最適化
 
 >[!ENDSHADEBOX]
 
@@ -70,7 +70,7 @@ ht-degree: 8%
 * Journey Optimizerでの適切な権限があることを確認します。
 * Experience Platformでのターゲットオーディエンスの作成
 
-前提条件について詳しくは、[&#x200B; ロイヤルティの課題について &#x200B;](get-started.md#prerequisites) を参照してください。
+前提条件について詳しくは、[ ロイヤルティの課題について ](get-started.md#prerequisites) を参照してください。
 
 ## 重要な制限事項 {#limitations-overview}
 
@@ -94,7 +94,7 @@ ht-degree: 8%
   </td>
   <td>
     <a href="create-challenges.md">
-      <img alt="作成" src="../assets/do-not-localize/start-button.svg">
+      <!--<img alt="Create" src="../assets/do-not-localize/start-button.svg">-->
     </a>
     <div>
     <a href="create-challenges.md"><strong> 課題の作成 </strong></a>
@@ -105,7 +105,7 @@ ht-degree: 8%
   </td>
   <td>
     <a href="manage-challenges.md">
-    <img alt="管理" src="../assets/do-not-localize/monitor-button.svg">
+    <!--<img alt="Manage" src="../assets/do-not-localize/monitor-button.svg">-->
     </a>
     <div>
     <a href="manage-challenges.md"><strong> 課題の管理 </strong></a>

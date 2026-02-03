@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
-source-git-commit: 37606966f56468009aa1ef127751517eee0b3222
+source-git-commit: 7b075996eebd03f0aa812da3ece9cfebef8c65fc
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '387'
 ht-degree: 1%
 
 ---
@@ -31,9 +31,9 @@ ht-degree: 1%
 
 **ロイヤルティの課題に関するドキュメント：**
 
-* [&#x200B; ロイヤルティの課題の概要 &#x200B;](gs-loyalty-challenges.md) – 概要と次の手順
-* [&#x200B; ロイヤルティの課題について &#x200B;](get-started.md) – 機能、ワークフロー、前提条件
-* [&#x200B; 課題の作成 &#x200B;](create-challenges.md) – 課題の作成と設定
+* [ ロイヤルティの課題の概要 ](gs-loyalty-challenges.md) – 概要と次の手順
+* [ ロイヤルティの課題について ](get-started.md) – 機能、ワークフロー、前提条件
+* [ 課題の作成 ](create-challenges.md) – 課題の作成と設定
 * **課題の管理**◀︎**お客様の環境** – 編集、監視、最適化
 
 >[!ENDSHADEBOX]
@@ -49,8 +49,6 @@ ht-degree: 1%
 * **停止**：完了前に手動で停止
 * **アーカイブ済み**：組織的にアーカイブされています
 
-各ステータスと課題の管理について詳しくは、[&#x200B; メインドキュメント &#x200B;](loyalty-challenges.md#manage-challenges) を参照してください。
-
 ## 課題を編集 {#edit-challenges}
 
 現在のステータスに応じて、課題を編集できます。
@@ -60,8 +58,6 @@ ht-degree: 1%
 
 大規模な変更が必要な場合は、課題を複製し、新しいバージョンを作成します。
 
-詳しい編集ガイドラインについては、[&#x200B; メインドキュメント &#x200B;](loyalty-challenges.md#edit-challenges) を参照してください。
-
 ## 重複する課題 {#duplicate-challenges}
 
 重複する課題：
@@ -69,8 +65,6 @@ ht-degree: 1%
 * 様々なオーディエンス向けのバリエーションの作成
 * タスクの要件または報酬の更新
 * 停止または完了した課題を再アクティブ化
-
-手順について詳しくは、[&#x200B; メインドキュメント &#x200B;](loyalty-challenges.md#duplicate-challenge) を参照してください。
 
 ## パフォーマンスの監視 {#monitor-performance}
 
@@ -82,8 +76,6 @@ ht-degree: 1%
 * **エンゲージメント指標**：コンテンツカードのインプレッション数、メッセージ配信
 
 課題「パフォーマンス」タブと自動生成されたジャーニーレポートのパフォーマンスデータにアクセスします。
-
-指標とレポートについて詳しくは、[&#x200B; メインドキュメント &#x200B;](loyalty-challenges.md#monitor-performance) を参照してください。
 
 ## ベストプラクティス {#best-practices}
 
@@ -101,8 +93,6 @@ ht-degree: 1%
 * 組織に一貫したタグを適用する
 * 完了した課題をアーカイブしてインベントリを管理できるようにする
 
-包括的なベストプラクティスについては、[&#x200B; メインドキュメント &#x200B;](loyalty-challenges.md#best-practices) を参照してください。
-
 ## トラブルシューティング {#troubleshooting}
 
 一般的な問題と解決策：
@@ -112,9 +102,7 @@ ht-degree: 1%
 * **タスクがトリガーされない**：データ取り込み、イベント属性、オーディエンスの実施要件を確認します
 * **報酬が配分されない**：設定と外部システム接続を確認します
 
-詳細なトラブルシューティングガイダンスについては、[&#x200B; メインドキュメント &#x200B;](loyalty-challenges.md#troubleshooting) を参照してください。
-
 ## 次の手順 {#next-steps}
 
-* [&#x200B; 課題の作成 &#x200B;](create-challenges.md) – 新しいロイヤルティの課題を作成します
-* [&#x200B; ロイヤルティの課題について &#x200B;](get-started.md) – 機能と性能の確認
+* [ 課題の作成 ](create-challenges.md) – 新しいロイヤルティの課題を作成します
+* [ ロイヤルティの課題について ](get-started.md) – 機能と性能の確認

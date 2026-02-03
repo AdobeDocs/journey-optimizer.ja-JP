@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
-source-git-commit: 419c7b3913ca4da50c69ed36ffc1a8c8520607b4
+source-git-commit: 7b075996eebd03f0aa812da3ece9cfebef8c65fc
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1079'
 ht-degree: 1%
 
 ---
@@ -31,10 +31,10 @@ ht-degree: 1%
 
 **ロイヤルティの課題に関するドキュメント：**
 
-* [&#x200B; ロイヤルティの課題の概要 &#x200B;](gs-loyalty-challenges.md) – 概要と次の手順
-* [&#x200B; ロイヤルティの課題について &#x200B;](get-started.md) – 機能、ワークフロー、前提条件
+* [ ロイヤルティの課題の概要 ](gs-loyalty-challenges.md) – 概要と次の手順
+* [ ロイヤルティの課題について ](get-started.md) – 機能、ワークフロー、前提条件
 * **課題の作成** ◀︎ **現在の状況** – 課題の作成と設定
-* [&#x200B; 課題の管理 &#x200B;](manage-challenges.md) – 編集、監視、最適化
+* [ 課題の管理 ](manage-challenges.md) – 編集、監視、最適化
 
 >[!ENDSHADEBOX]
 
@@ -54,8 +54,6 @@ ht-degree: 1%
 * チャレンジの種類（標準、順次）
 * オーディエンスの選択
 * 日付の設定
-
-完全なガイドについては、[&#x200B; メインドキュメント &#x200B;](loyalty-challenges.md#create-challenges) を参照してください。
 
 ## タスクを追加 {#add-tasks}
 
@@ -248,16 +246,12 @@ ht-degree: 1%
 * デザインとパーソナライゼーション
 * プレビューとテスト
 
-完全なガイドについては、[&#x200B; メインドキュメント &#x200B;](loyalty-challenges.md#configure-content-cards) を参照してください。
-
 ## メッセージングの設定 {#configure-messaging}
 
 マルチチャネルメッセージの設定手順について詳しくは、以下を参照してください。
 * メッセージチャネル（アプリ内、メール、プッシュ）
 * メッセージステージ（ローンチ、進行中、完了）
 * メッセージのタイミングとトリガー
-
-完全なガイドについては、[&#x200B; メインドキュメント &#x200B;](loyalty-challenges.md#configure-messaging) を参照してください。
 
 ## レビューと公開 {#review-and-publish}
 
@@ -271,5 +265,5 @@ ht-degree: 1%
 
 ## 次の手順 {#next-steps}
 
-* [&#x200B; 課題の管理 &#x200B;](manage-challenges.md) – 課題を編集、監視、最適化する方法を説明します。
-* [&#x200B; ロイヤルティの課題について &#x200B;](get-started.md) – 機能と性能の確認
+* [ 課題の管理 ](manage-challenges.md) – 課題を編集、監視、最適化する方法を説明します。
+* [ ロイヤルティの課題について ](get-started.md) – 機能と性能の確認
