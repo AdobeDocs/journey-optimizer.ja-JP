@@ -31,13 +31,13 @@ ht-degree: 1%
 >
 >**このガイドの内容は次のとおりです。**
 >
->* [ 概要 ](#overview) - ロイヤルティの課題を理解する
->* [ 仕組み ](#how-it-works) – 設定から監視までのワークフロー手順
->* [ 前提条件 ](#prerequisites) - データ取得と権限の設定
->* [ ロイヤルティの課題へのアクセス ](#access) - メニューを開いて課題を表示します
->* [ 課題の作成 ](#create-challenges) – 新しいロイヤルティの課題を作成します
->* [ タスクの作成 ](#create-tasks) – 顧客が何をする必要があるかを定義します
->* [ 課題の管理 ](#manage-challenges) – 編集、監視、最適化
+>* [&#x200B; 概要 &#x200B;](#overview) - ロイヤルティの課題を理解する
+>* [&#x200B; 仕組み &#x200B;](#how-it-works) – 設定から監視までのワークフロー手順
+>* [&#x200B; 前提条件 &#x200B;](#prerequisites) - データ取得と権限の設定
+>* [&#x200B; ロイヤルティの課題へのアクセス &#x200B;](#access) - メニューを開いて課題を表示します
+>* [&#x200B; 課題の作成 &#x200B;](#create-challenges) – 新しいロイヤルティの課題を作成します
+>* [&#x200B; タスクの作成 &#x200B;](#create-tasks) – 顧客が何をする必要があるかを定義します
+>* [&#x200B; 課題の管理 &#x200B;](#manage-challenges) – 編集、監視、最適化
 >
 >[!ENDSHADEBOX]
 
@@ -117,7 +117,7 @@ ht-degree: 1%
 
   手順について詳しくは、以下を参照してください。
 
-   * [Experience Platform ソースのドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
+   * [Experience Platform ソースのドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
    * [Journey Optimizerでのソースコネクタの設定](../start/get-started-sources.md)
 
 * 必要な権限 {#required-permissions}
@@ -276,7 +276,7 @@ ht-degree: 1%
 
 **[!UICONTROL オーディエンスを選択]**：このチャレンジの対象となるオーディエンスを選択します。 既存のオーディエンスのみを選択できます。ロイヤルティの課題 UI から新しいオーディエンスを作成することはできません。
 
-オーディエンスを作成または調整するには、[Journey Optimizerでのオーディエンスの作成 ](../audience/about-audiences.md) を参照してください。
+オーディエンスを作成または調整するには、[Journey Optimizerでのオーディエンスの作成 &#x200B;](../audience/about-audiences.md) を参照してください。
 
 1. **[!UICONTROL ドラフトとして保存]** を選択して、課題の設定を続行します。
 
@@ -452,6 +452,7 @@ ht-degree: 1%
 
 * 点の数を入力してください（例：100）
 * ポイントは、API を介して外部のロイヤルティ管理システムに伝えられます
+
 ## コンテンツカードの設定 {#configure-content-cards}
 
 コンテンツカードは、デバイス上で顧客に課題を表示する主な方法です。 課題に合わせてコンテンツカードを設定する必要があります。
@@ -476,7 +477,7 @@ ht-degree: 1%
    * 該当する場合、進捗状況インジケーターを表示する
    * 「call-to-actionを追加」ボタン
 
-   コンテンツカードエディターは、他のJourney Optimizer チャネルと同じ機能を提供します。 詳しいガイダンスについては、[ コンテンツカードのデザイン ](../content-card/design-content-card.md) を参照してください。
+   コンテンツカードエディターは、他のJourney Optimizer チャネルと同じ機能を提供します。 詳しいガイダンスについては、[&#x200B; コンテンツカードのデザイン &#x200B;](../content-card/design-content-card.md) を参照してください。
 
 5. 「**[!UICONTROL 保存]**」を選択して、コンテンツカードの設定を保存します。
 
@@ -575,7 +576,7 @@ ht-degree: 1%
 
 自動生成されたジャーニーを表示するには：
 
-1. 左側のナビゲーションメニューで **[!UICONTROL 0}ジャーニー} に移動します。]**
+1. 左側のナビゲーションメニューで **[!UICONTROL 0&rbrace;ジャーニー&rbrace; に移動します。]**
 
 2. チャレンジ名でジャーニーを検索するか、割り当てられている場合はタグでフィルタリングします。
 
@@ -611,7 +612,7 @@ ht-degree: 1%
 
 5. 準備が整ったら、ジャーニーを公開します。
 
-ジャーニー編集のガイダンスについて詳しくは、[ ジャーニーの作成 ](../building-journeys/journey-gs.md) を参照してください。
+ジャーニー編集のガイダンスについて詳しくは、[&#x200B; ジャーニーの作成 &#x200B;](../building-journeys/journey-gs.md) を参照してください。
 
 ### ジャーニーキャンバスの考慮事項 {#journey-considerations}
 
@@ -922,7 +923,7 @@ ht-degree: 1%
    * チャネル別のメッセージパフォーマンス
    * タイミングの最適化の機会
 
-ジャーニーの監視ガイダンスについて詳しくは、[ ジャーニーの監視 ](../building-journeys/report-journey.md) を参照してください。
+ジャーニーの監視ガイダンスについて詳しくは、[&#x200B; ジャーニーの監視 &#x200B;](../building-journeys/report-journey.md) を参照してください。
 
 ### 課題の最適化 {#optimize}
 
@@ -1067,5 +1068,5 @@ ht-degree: 1%
 * [プッシュ通知の作成](../push/create-push.md)
 * [ジャーニーの作成](../building-journeys/journey-gs.md)
 * [ジャーニーの監視](../building-journeys/report-journey.md)
-* [Experience Platform ソースのドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
+* [Experience Platform ソースのドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [Journey Optimizerでのソースコネクタの設定](../start/get-started-sources.md)
