@@ -31,9 +31,9 @@ ht-degree: 7%
 **ロイヤルティの課題に関するドキュメント：**
 
 * **ロイヤルティの課題の概要** ◀︎ **現在の状況** – 概要と次の手順
-* [ ロイヤルティの課題について ](get-started.md) – 機能、ワークフロー、前提条件
-* [ 課題の作成 ](create-challenges.md) – 課題の作成と設定
-* [ 課題の管理 ](manage-challenges.md) – 編集、監視、最適化
+* [&#x200B; ロイヤルティの課題について &#x200B;](get-started.md) – 機能、ワークフロー、前提条件
+* [&#x200B; 課題の作成 &#x200B;](create-challenges.md) – 課題の作成と設定
+* [&#x200B; 課題の管理 &#x200B;](manage-challenges.md) – 編集、監視、最適化
 
 >[!ENDSHADEBOX]
 
@@ -70,7 +70,7 @@ ht-degree: 7%
 * Journey Optimizerでの適切な権限があることを確認します。
 * Experience Platformでのターゲットオーディエンスの作成
 
-前提条件について詳しくは、[ ロイヤルティの課題について ](get-started.md#prerequisites) を参照してください。
+前提条件について詳しくは、[&#x200B; ロイヤルティの課題について &#x200B;](get-started.md#prerequisites) を参照してください。
 
 ## 重要な制限事項 {#limitations-overview}
 
