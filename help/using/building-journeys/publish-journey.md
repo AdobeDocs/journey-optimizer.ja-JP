@@ -94,4 +94,4 @@ ht-degree: 95%
 
 ジャーニーの公開方法について詳しくは、次のビデオを参照してください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3427936?captions=jpn&quality=12)
