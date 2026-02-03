@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
-source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
+source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '414'
 ht-degree: 100%
 
 ---
@@ -50,6 +50,7 @@ SMS、MMS または RCS を送信する前に、Adobe Journey Optimizer 環境�
    * [Sinch](sms-configuration-sinch.md)
    * [Twilio](sms-configuration-twilio.md)
    * [カスタムプロバイダー](sms-configuration-custom.md)
+1. [Webhook の作成](sms-webhook.md)
 1. [SMS 設定の作成](sms-configuration-surface.md)
 
 これらの手順は、Adobe Journey Optimizer [システム管理者](../start/path/administrator.md)が実行する必要があります。
@@ -64,6 +65,6 @@ SMS チャネルを設定する前に、こうしたいずれかのプロバイ�
 
 >[!CAUTION]
 >
->SMS サブドメインにアクセスして編集するには、実稼動サンドボックスにおける **[!UICONTROL SMS サブドメインの管理]**&#x200B;権限が必要です。権限について詳しくは、[このページ](../administration/high-low-permissions.md#administration-permissions)を参照してください。
+>SMS サブドメインにアクセスして編集するには、本番稼働用サンドボックスにおける **[!UICONTROL SMS サブドメインの管理]**&#x200B;権限が必要です。権限について詳しくは、[このページ](../administration/high-low-permissions.md#administration-permissions)を参照してください。
 >
 

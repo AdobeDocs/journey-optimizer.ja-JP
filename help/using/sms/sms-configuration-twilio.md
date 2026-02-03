@@ -7,16 +7,25 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d6f74566-c913-4727-83b9-473a798a0158
-source-git-commit: 7b1be144776fd11cd4aa90aa315eee60b1acc40f
+source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 100%
+source-wordcount: '518'
+ht-degree: 93%
 
 ---
 
 # Twilio プロバイダーの設定 {#sms-configuration-twilio}
 
-## SMS／MMS 用の API 資格情報の設定
+Twilio をAdobe Journey Optimizerと統合すると、ジャーニーやキャンペーンの一部としてプロファイルにテキストメッセージを配信できます。
+
+Twilio を SMS プロバイダーとして設定するには、次の手順に従います。
+
+1. [API 資格情報の作成](#api-credential)
+1. [Webhook の作成](sms-webhook.md)
+1. [チャネル設定の作成](sms-configuration-surface.md)
+1. [SMS チャネルアクションを使用したジャーニーまたはキャンペーンの作成](create-sms.md)
+
+## SMS／MMS 用の API 資格情報の設定 {#api-credential}
 
 Journey Optimizer に Twilio を設定するには、Twilio 用の新しい API 資格情報を作成する必要があります。
 

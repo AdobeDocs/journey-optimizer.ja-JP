@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 223209750f1147e97d003ffb9d7231c7cef75663
+source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
 workflow-type: tm+mt
-source-wordcount: '3077'
+source-wordcount: '3074'
 ht-degree: 98%
 
 ---
@@ -328,12 +328,12 @@ ht-degree: 98%
       + [SMS サブドメインの設定](using/sms/sms-subdomains.md)
       + [SMS コスト最適化のベストプラクティス](using/sms/sms-cost-optimization.md)
       + SMS／MMS／RCS チャネルの設定 {#configure-sms}
-         + [SMS／MMS／RCS チャネルの設定](/help/rp_landing_pages/configure-sms-landing-page.md)
          + [SMS／MMS／RCS 設定の基本を学ぶ](using/sms/sms-configuration.md)
          + [Sinch プロバイダーの設定](using/sms/sms-configuration-sinch.md)
          + [Infobip プロバイダーの設定](using/sms/sms-configuration-infobip.md)
          + [Twilio プロバイダーの設定](using/sms/sms-configuration-twilio.md)
          + [カスタムプロバイダーの設定](using/sms/sms-configuration-custom.md)
+         + [Webhook の作成](using/sms/sms-webhook.md)
          + [SMS／MMS／RCS 設定の作成](using/sms/sms-configuration-surface.md)
    + ダイレクトメール {#direct-mail}
       + [ダイレクトメール](/help/rp_landing_pages/direct-mail-landing-page.md)
@@ -938,7 +938,7 @@ ht-degree: 98%
    + [プライバシー](/help/rp_landing_pages/privacy-landing-page.md)
    + [プライバシーの基本を学ぶ](using/privacy/get-started-privacy.md)
    + [プライバシーリクエスト](using/privacy/requests.md)
-   + [&#x200B; リソースに対する監査アクション](using/privacy/audit-logs.md)
+   + [ リソースに対する監査アクション](using/privacy/audit-logs.md)
    + [データライフサイクル操作の実行](using/privacy/data-hygiene.md)
    + 同意を管理 {#consent}
       + [同意を管理](/help/rp_landing_pages/consent-landing-page.md)
