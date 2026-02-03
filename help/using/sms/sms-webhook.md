@@ -87,7 +87,7 @@ SMS プロバイダーに応じて、以下のタブを参照します。
 
    ![](assets/sms_byo_7.png){zoomable="yes"}
 
-Webhook の設定を作成および設定した後、SMS メッセージ用に [ チャネル設定 ](sms-configuration-surface.md) を作成する必要があります。
+Webhook の設定を作成および設定した後、SMS メッセージ用に [&#x200B; チャネル設定 &#x200B;](sms-configuration-surface.md) を作成する必要があります。
 
 設定が完了すると、メッセージオーサリング、パーソナライゼーション、リンクトラッキング、レポートなど、すべての標準のチャネル機能を活用できます。
 
