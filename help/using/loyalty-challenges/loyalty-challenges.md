@@ -117,7 +117,7 @@ ht-degree: 1%
 
   手順について詳しくは、以下を参照してください。
 
-   * [Experience Platform ソースのドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
+   * [Experience Platform ソースのドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/home)
    * [Journey Optimizerでのソースコネクタの設定](../start/get-started-sources.md)
 
 * 必要な権限 {#required-permissions}
@@ -1068,5 +1068,5 @@ ht-degree: 1%
 * [プッシュ通知の作成](../push/create-push.md)
 * [ジャーニーの作成](../building-journeys/journey-gs.md)
 * [ジャーニーの監視](../building-journeys/report-journey.md)
-* [Experience Platform ソースのドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
+* [Experience Platform ソースのドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/home)
 * [Journey Optimizerでのソースコネクタの設定](../start/get-started-sources.md)
