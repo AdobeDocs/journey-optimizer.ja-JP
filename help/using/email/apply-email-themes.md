@@ -10,10 +10,10 @@ role: User
 level: Beginner, Intermediate
 keywords: メールテーマ, モジュール, 再利用性, ブランドの一貫性, メールデザイン, カスタム CSS, モバイルの最適化
 exl-id: e81d9634-bbff-44d0-8cd7-e86f85075c06
-source-git-commit: 365ed7f735760ee5763d0f12ea366c662a097948
-workflow-type: ht
-source-wordcount: '1604'
-ht-degree: 100%
+source-git-commit: 8caa8f8e126f062535b5276b4d96de10875a3406
+workflow-type: tm+mt
+source-wordcount: '1741'
+ht-degree: 92%
 
 ---
 
@@ -53,6 +53,12 @@ ht-degree: 100%
    * また、インポートした HTML コンテンツを引き続き変換することもできます。[詳細情報](existing-content.md)
 
   <!--To fully leverage all the capabilities of the Email Designer, including themes, you must either create a new content in Use Themes mode, or convert your imported HTML content. [Learn more](existing-content.md)-->
+
+* テーマでカスタム web フォント（Google フォントを含む）を使用する場合、多くのメールクライアントがサポートしていません。 すべてのメールクライアントで読みやすいように、テーマで適切なフォールバックフォントを常に定義します。
+
+   * Gmail と Yahoo! 外部の web フォントを読み込まないので、HTML/CSS で指定したフォントファミリーに関係なく、システムフォントにフォールバックします。
+   * Gmail でサポートされているGoogle フォントは、Roboto とGoogle Sans のみです。
+   * Web フォントをサポート *るメールクライアントには* Apple Mail、iOS Mail、Android Mail、Thunderbird、Outlook for macOSなどがあります。
 
 <!--If you apply a theme to a content using a [fragment](../content-management/fragments.md) created with Manual Styling mode, the rendering may not be optimal.-->
 
@@ -99,6 +105,10 @@ ht-degree: 100%
 1. **[!UICONTROL テキスト設定]**&#x200B;では、テーマ全体に使用するグローバルフォントを設定できます。より精度の高い制御を行うには、各見出しと段落のタイプを編集して、フォント、サイズ、スタイルなどを調整することもできます。
 
    ![](assets/theme-text.png)
+
+   >[!NOTE]
+   >
+   >カスタム web フォントを選択する場合、Gmail や Yahoo！などの多くのメールクライアントに注意が必要です。 外部の web フォントはサポートしないので、システムフォントにフォールバックします。 すべてのメールクライアントでコンテンツを正しく表示するには、フォールバックフォントを含めることを検討してください。 [詳細情報](#themes-guardrails)
 
 1. 「**[!UICONTROL 間隔]**」タブで、リストから個々の要素を選択し、様々なコンポーネント間の間隔を適切に調整します。
 
@@ -190,7 +200,7 @@ ht-degree: 100%
 
 テーマと互換性のあるフラグメントを作成するには、次の手順に従います。
 
-1. [!DNL Journey Optimizer] で、ビジュアルフラグメントを作成し、「**[!UICONTROL 作成]**」をクリックして、フラグメントのコンテンツをデザインします。[詳細情報](../content-management/create-fragments.md)
+1. [!DNL Journey Optimizer] で、ビジュアルフラグメントを作成し、「**[!UICONTROL 作成]**」をクリックして、フラグメントのコンテンツをデザインします。[方法についてはこちらを参照](../content-management/create-fragments.md)
 
 1. 「**[!UICONTROL テーマを使用]**」を選択して、定義済みのスタイルテーマから開始します。
 
@@ -246,8 +256,8 @@ ht-degree: 100%
 
 1. テーマの名前を入力します。
 
-1. カラーバリアントの追加、フォントの編集など、テーマをゼロから作成する場合と同様に、必要に応じて独自の調整を行います。[詳細情報](#create-and-edit-themes)
+1. カラーバリアントの追加、フォントの編集など、テーマをゼロから作成する場合と同様に、必要に応じて独自の調整を行います。[方法についてはこちらを参照](#create-and-edit-themes)
 
    ![](assets/generate-theme-colors.png){width=90%}
 
-1. 「**[!UICONTROL 保存]**」をクリックして、再利用のためにこの新しいテーマを保存します。これで、このテーマを他のテーマなどのコンテンツに適用できるようになりました。[詳細情報](#apply-themes-email)
+1. 「**[!UICONTROL 保存]**」をクリックして、再利用のためにこの新しいテーマを保存します。これで、このテーマを他のテーマなどのコンテンツに適用できるようになりました。[方法についてはこちらを参照](#apply-themes-email)
