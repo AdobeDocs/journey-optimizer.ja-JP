@@ -82,7 +82,7 @@ Journey Agentには、AI アシスタントで分析と作成という 2 つの�
 
 #### ジャーニー分析スキル {#journey-analyze-skill}
 
-[ジャーニー分析エージェント](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide){target="_blank"}は、自然言語分析を通じてジャーニーのパフォーマンスを最適化するのに役立ちます。
+[ジャーニー分析エージェント](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide){target="_blank"}は、自然言語分析を通じてジャーニーのパフォーマンスを最適化するのに役立ちます。
 
 +++**主な機能**
 
@@ -105,7 +105,7 @@ Journey Agentには、AI アシスタントで分析と作成という 2 つの�
 
 #### ジャーニー作成スキル {#journey-create-skill}
 
-[ジャーニー作成エージェント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"} は、自然言語プロンプトからジャーニーを作成し、目標を構造化されたジャーニー設定に変換するのに役立ちます。
+[ジャーニー作成エージェント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"} は、自然言語プロンプトからジャーニーを作成し、目標を構造化されたジャーニー設定に変換するのに役立ちます。
 
 +++**主な機能**
 
