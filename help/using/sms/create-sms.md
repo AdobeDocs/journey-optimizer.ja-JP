@@ -141,7 +141,7 @@ Adobe Journey Optimizer を使用して、テキスト（SMS）、リッチ通�
 
 **Experience Decisioning** を使用して、SMS メッセージのコンテンツをパーソナライズおよび最適化できます。 この機能を使用すると、優先度スコア、式または AI モデルを使用して、最適なコンテンツを動的に選択して顧客に表示できます。
 
-SMS メッセージでの決定ポリシーの作成および使用方法について詳しくは、[ この節 ](../experience-decisioning/create-decision.md) を参照してください。
+SMS メッセージでの決定ポリシーの作成および使用方法について詳しくは、[&#x200B; この節 &#x200B;](../experience-decisioning/create-decision.md) を参照してください。
 
 ## MMS コンテンツの定義{#mms-content}
 

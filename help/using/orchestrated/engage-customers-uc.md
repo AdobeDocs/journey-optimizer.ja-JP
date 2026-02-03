@@ -23,7 +23,7 @@ ht-degree: 98%
 * **受信者**：ターゲティングディメンションとして使用され、フィールドには `email`、`churnprop` が含まれます
 * **ウィッシュリスト**：フィールドには `description`、`priceref`、`imageurl` が含まれます
 
-➡️ [ リレーショナルスキーマの設定方法を学ぶ ](gs-schemas.md)
+➡️ [&#x200B; リレーショナルスキーマの設定方法を学ぶ &#x200B;](gs-schemas.md)
 
 >[!ENDSHADEBOX]
 

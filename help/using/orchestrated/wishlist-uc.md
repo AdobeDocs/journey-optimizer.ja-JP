@@ -25,7 +25,7 @@ ht-degree: 98%
 * **製品**：フィールドには `description`、`priceref`、`imageurl` が含まれます
 * **放棄された買い物かご**（任意）：フィールドには `lastmodified` が含まれます
 
-➡️ [ リレーショナルスキーマの設定方法を学ぶ ](gs-schemas.md)
+➡️ [&#x200B; リレーショナルスキーマの設定方法を学ぶ &#x200B;](gs-schemas.md)
 
 >[!ENDSHADEBOX]
 
