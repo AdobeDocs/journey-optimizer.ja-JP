@@ -11,7 +11,7 @@ exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
 source-git-commit: 083545ff7b2dc5ce45ef3766321fdf12e1b96c5c
 workflow-type: tm+mt
 source-wordcount: '1831'
-ht-degree: 69%
+ht-degree: 74%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 69%
 
 デバイスのプレビューセクションを使用すると、iOSとAndroidでのプッシュ通知の表示を視覚化できます。
 
-AI アシスタントを使用してコンテンツの作成を高速化し、テキスト生成用の [AI アシスタントを使用して魅力的なプッシュ通知テキストを生成するか &#x200B;](../content-management/generative-text.md) フルコンテンツ生成用の [AI アシスタント &#x200B;](../content-management/generative-full-content.md) を使用して完全なプッシュ通知を作成します。
+AI アシスタントを使用してコンテンツ作成を高速化し、[テキスト生成用の AI アシスタント](../content-management/generative-text.md)を使用して魅力的なプッシュ通知テキストを生成するか、[完全なコンテンツ生成用の AI アシスタント](../content-management/generative-full-content.md)を使用して完全なプッシュ通知を作成します。
 
 ## クリック時の動作 {#on-click-behavior}
 
@@ -45,7 +45,7 @@ AI アシスタントを使用してコンテンツの作成を高速化し、�
 
 ![](assets/title-body-push.png)
 
-* **[!UICONTROL アプリを開く]**：通知に関連付けられたアプリケーションを起動します。 アプリは [&#x200B; チャネル設定 &#x200B;](../configuration/channel-surfaces.md) （メッセージプリセットなど）で指定します。
+* **[!UICONTROL アプリを開く]**：通知に関連付けられたアプリケーションを起動します。 アプリは [ チャネル設定 ](../configuration/channel-surfaces.md) （メッセージプリセットなど）で指定します。
 * **[!UICONTROL ディープリンク]**：特定のビュー、ページセクション、タブなど、アプリ内の特定のコンテンツにユーザーを誘導します。 提供されたフィールドにディープリンク URL を入力します。
 * **[!UICONTROL Web URL]**：外部の web ページにユーザーを誘導します。 提供されたフィールドに宛先の URL を入力します。
 
@@ -68,7 +68,7 @@ Androidで追加できるのは、画像アイコンと、拡張通知用の画�
 
 メディアを追加するには、次のいずれかの方法を使用します。
 
-* **[!UICONTROL メディアを追加]** ボタン：[Adobe Experience Manager Assets](../integrations/assets.md) からアセットを選択するか、AI アシスタントにアクセスしてプッシュ通知用に [&#x200B; 魅力的な画像 &#x200B;](../content-management/generative-image.md) を生成します。
+* **[!UICONTROL メディアを追加]** ボタン：[Adobe Experience Manager Assets](../integrations/assets.md) からアセットを選択するか、AI アシスタントにアクセスしてプッシュ通知用に [ 魅力的な画像 ](../content-management/generative-image.md) を生成します。
 
 * **[!UICONTROL メディアを追加]** フィールド：メディア URL を直接入力します。 URL にはパーソナライゼーショントークンを含めることができます。
 
@@ -76,7 +76,7 @@ Androidで追加できるのは、画像アイコンと、拡張通知用の画�
 
 >[!NOTE]
 >
->プッシュ通知ペイロードにメディア添付ファイル（`adb_media` のようなカスタムデータフィールドに含まれる画像など）を含める場合、画像をデバイスにレンダリングするために、モバイルアプリケーションは特定のクライアントサイド処理を実装する必要があります。 ペイロードからの画像添付ファイルを処理するために、アプリに [&#x200B; 自動表示とトラッキングワークフロー &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/push-notification/android/automatic-display-and-tracking/){target="_blank"} を実装する必要があります。
+>プッシュ通知ペイロードにメディア添付ファイル（`adb_media` のようなカスタムデータフィールドに含まれる画像など）を含める場合、画像をデバイスにレンダリングするために、モバイルアプリケーションは特定のクライアントサイド処理を実装する必要があります。 ペイロードからの画像添付ファイルを処理するために、アプリに [ 自動表示とトラッキングワークフロー ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/push-notification/android/automatic-display-and-tracking/){target="_blank"} を実装する必要があります。
 
 >[!TAB iOS]
 
@@ -86,7 +86,7 @@ iOSの場合、通知内に表示する画像、ビデオ、GIFを追加でき�
 
 メディアを追加するには、次のいずれかの方法を使用します。
 
-* **[!UICONTROL メディアを追加]** ボタン：**[!DNL Adobe Experience Manager Assets]** からアセットを選択します。 **[!DNL Adobe Experience Manager Assets]** の使用について詳しくは、[&#x200B; このページ &#x200B;](../integrations/assets.md) を参照してください。
+* **[!UICONTROL メディアを追加]** ボタン：**[!DNL Adobe Experience Manager Assets]** からアセットを選択します。 **[!DNL Adobe Experience Manager Assets]** の使用について詳しくは、[ このページ ](../integrations/assets.md) を参照してください。
 
 * **[!UICONTROL メディアを追加]** フィールド：メディア URL を直接入力します。 URL にはパーソナライゼーショントークンを含めることができます。
 
@@ -94,7 +94,7 @@ iOSの場合、通知内に表示する画像、ビデオ、GIFを追加でき�
 
 >[!NOTE]
 >
->プッシュ通知ペイロードにメディア添付ファイル（`adb_media` のようなカスタムデータフィールドに含まれる画像など）を含める場合、画像をデバイスにレンダリングするために、モバイルアプリケーションは特定のクライアントサイド処理を実装する必要があります。 ペイロードからメディアコンテンツをダウンロードして処理するには、アプリに [&#x200B; 通知サービス拡張機能 &#x200B;](https://developer.apple.com/documentation/usernotifications/modifying_content_in_newly_delivered_notifications){target="_blank"} を実装する必要があります。 さらに、「**[!UICONTROL 詳細オプション]**」セクションで「[&#x200B; 可変コンテンツフラグを追加 &#x200B;](#advanced-options-push)」オプションを有効にする必要があります。
+>プッシュ通知ペイロードにメディア添付ファイル（`adb_media` のようなカスタムデータフィールドに含まれる画像など）を含める場合、画像をデバイスにレンダリングするために、モバイルアプリケーションは特定のクライアントサイド処理を実装する必要があります。 ペイロードからメディアコンテンツをダウンロードして処理するには、アプリに [ 通知サービス拡張機能 ](https://developer.apple.com/documentation/usernotifications/modifying_content_in_newly_delivered_notifications){target="_blank"} を実装する必要があります。 さらに、「[詳細設定オプション](#advanced-options-push)」セクションで「**[!UICONTROL 可変コンテンツフラグを追加]**」オプションを有効にする必要があります。
 
 <!--
 >[!TAB Web]
@@ -183,7 +183,7 @@ Use the **[!UICONTROL Add Button]** option to define each button's label and ass
 
 **Experience Decisioning** を使用して、プッシュ通知のコンテンツをパーソナライズおよび最適化できます。 この機能を使用すると、優先度スコア、式または AI モデルを使用して、最適なコンテンツを動的に選択して顧客に表示できます。
 
-プッシュ通知で決定ポリシーを作成および使用する方法について詳しくは、[&#x200B; この節 &#x200B;](../experience-decisioning/create-decision.md) を参照してください。
+プッシュ通知で決定ポリシーを作成および使用する方法について詳しくは、[ この節 ](../experience-decisioning/create-decision.md) を参照してください。
 
 ## 詳細オプション {#advanced-options-push}
 
@@ -202,7 +202,7 @@ Use the **[!UICONTROL Add Button]** option to define each button's label and ass
 | **[!UICONTROL 通知グループ]**（iOS のみ） | 通知グループをプッシュ通知に関連付けます。<br/>iOS 12 以降は、通知グループを使用すると、メッセージスレッドと通知トピックをスレッド ID に統合できます。例えば、あるブランドでは、1 つのグループ ID でマーケティング通知を送信すると同時に、1 つ以上の異なる ID で、より多くの運用に関する通知を送信することができます。<br/>例を挙げると、groupID：123 「セーターの新しい春のコレクションをチェックしてください」と groupID：456 「あなたのパッケージが配達されました」という通知グループを設定できます。この例では、すべての配達通知はグループ ID：456 の下にバンドルされます。 |
 | **[!UICONTROL 通知チャネル]**（Android のみ） | プッシュ通知に通知チャネルを関連付けます。<br/>Android 8.0（API レベル 26）以降では、表示するすべての通知をチャネルに割り当てる必要があります。詳しくは、[Android 開発者向けドキュメント](https://developer.android.com/guide/topics/ui/notifiers/notifications#ManageChannels)を参照してください。 |
 | **[!UICONTROL コンテンツ可用性フラグの追加]**（iOS のみ） | プッシュ通知を受け取ると（アプリがペイロードデータにアクセスできるようになると）すぐにアプリを起動し、コンテンツ利用可能フラグをプッシュペイロードで送信します。<br/>この機能は、アプリがバックグラウンドで実行されていて、ユーザーからの操作（プッシュ通知のタップなど）がない場合でも動作しますが、アプリが実行されていない場合は動作しません。詳しくは、[Apple 開発者向けドキュメント](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html)を参照してください。 |
-| **[!UICONTROL 可変コンテンツフラグの追加]**（iOS のみ） | プッシュペイロードに可変コンテンツフラグを送信し、iOS SDK で提供される通知サービスアプリケーション拡張機能によって、プッシュ通知の内容を変更できるようにします。詳しくは、[Apple 開発者向けドキュメント](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html)を参照してください。<br/>その後、モバイルアプリの拡張機能を利用して、[!DNL Journey Optimizer] から送信される着信プッシュ通知の内容や表示をさらに変更できます。このオプションを使用すると、データの復号化、通知の本文やタイトルテキストの変更、通知へのスレッド ID の追加などをおこなうことができます。<br/>**重要**：ペイロードフィールド（`adb_media` など）を介してメディア添付ファイル（画像、ビデオ）を含め、iOS デバイスでレンダリングするには、このフラグを有効にする必要があります。 また、ペイロードからメディアコンテンツをダウンロードして処理するために、アプリで通知サービス拡張機能を実装する必要もあります。 |
+| **[!UICONTROL 可変コンテンツフラグの追加]**（iOS のみ） | プッシュペイロードに可変コンテンツフラグを送信し、iOS SDK で提供される通知サービスアプリケーション拡張機能によって、プッシュ通知の内容を変更できるようにします。詳しくは、[Apple 開発者向けドキュメント](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html)を参照してください。<br/>その後、モバイルアプリの拡張機能を利用して、[!DNL Journey Optimizer] から送信される着信プッシュ通知の内容や表示をさらに変更できます。このオプションを使用すると、データの復号化、通知の本文やタイトルテキストの変更、通知へのスレッド ID の追加などをおこなうことができます。<br/>**重要**：ペイロードフィールド（`adb_media` など）を介してメディア添付ファイル（画像、ビデオ）を含める際は、iOS デバイスでレンダリングするためにこのフラグを有効にする必要があります。また、ペイロードからメディアコンテンツをダウンロードして処理するには、アプリで Notification Service Extension を実装する必要もあります。 |
 | **[!UICONTROL プッシュの有効期限の追加]**（iOS のみ） | プッシュの有効期限の&#x200B;**日時**&#x200B;を選択します。iOS では、通知の有効期限はハードストップとして適用されます。つまり、有効期限後に Apple プッシュ通知サービス（APNS）に到達したメッセージは配信されず、お客様が古い通知や無関係な通知を受信することはありません。詳しくは、[Apple 開発者向けドキュメント](https://developer.apple.com/documentation/usernotifications/sending-notification-requests-to-apns)を参照してください。 |
 | **[!UICONTROL 通知の表示]**（Android のみ） | プッシュ通知の表示を定義します。<br/><b>プライベート</b>に設定すると、すべてのロック画面に通知が表示されますが、保護されたロック画面では機密情報やプライベートな情報を非表示にします。<br/><b>パブリック</b>に設定すると、すべてのロック画面に通知全体を表示します。<br/><b>シークレット</b>に設定すると、保護されたロック画面に通知を一切表示しません。<br/>詳しくは、[Android 開発者向けドキュメント](https://developer.android.com/reference/android/app/Notification)を参照してください。 |
 | **[!UICONTROL 通知の優先度]**（Android のみ） | プッシュ通知の重要度を「低」から「最高」まで定義します。プッシュ通知が配信された際の、プッシュ通知の「割り込み」の度合いを決定します。詳しくは、[Android 開発者向けドキュメント](https://developer.android.com/guide/topics/ui/notifiers/notifications#importance)を参照してください。 |

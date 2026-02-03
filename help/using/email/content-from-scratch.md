@@ -12,7 +12,7 @@ exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
 source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
 workflow-type: tm+mt
 source-wordcount: '743'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -73,7 +73,7 @@ ht-degree: 94%
    ![](assets/email_designer.png)
 
 
-1. AI アシスタントを使用して電子メールの作成を高速化し、完全なコンテンツ生成のための [AI アシスタント &#x200B;](../content-management/generative-full-content.md) を使用して、テキストや画像を含む完全な電子メールコンテンツを生成します。
+1. AI アシスタントを使用してメール作成を高速化し、[完全なコンテンツ生成に AI アシスタント](../content-management/generative-full-content.md)を使用してテキストと画像を含む完全なメールコンテンツを生成します。
 
 1. **[!UICONTROL 構造]**&#x200B;をキャンバスにドラッグ＆ドロップしてコンテンツのデザインを開始し、メールのレイアウトを定義します。
 
@@ -127,6 +127,6 @@ ht-degree: 94%
 
    ![](assets/email_designer_simulate_content.png)
 
-1. また、コンテンツの品質を検証して、読みやすさ、有効性、コンテンツのまとまりを評価することもできます。 [&#x200B; コンテンツ品質検証の詳細情報 &#x200B;](../content-management/brands-score.md#validate-quality)
+1. また、コンテンツの品質を検証して、読みやすさ、有効性、コンテンツのまとまりを評価することもできます。 [ コンテンツ品質検証の詳細情報 ](../content-management/brands-score.md#validate-quality)
 
 1. コンテンツの準備が整ったら、「**[!UICONTROL 保存]**」をクリックします。

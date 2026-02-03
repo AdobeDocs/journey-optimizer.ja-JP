@@ -231,5 +231,5 @@ ht-degree: 96%
 * [カスタムアクションの設定](../action/about-custom-action-configuration.md) - カスタムアクションの作成および設定方法について説明します
 * [カスタムアクションの使用](../building-journeys/using-custom-actions.md) - ジャーニーでのカスタムアクションの使用方法について説明します
 * [カスタムアクションのトラブルシューティング](../action/troubleshoot-custom-action.md) - カスタムアクションのトラブルシューティング方法について説明します
-* [&#x200B; コンテキストデータの反復 &#x200B;](../personalization/iterate-contextual-data.md#arrays-in-journeys) - メッセージ式で配列を操作する方法や、ジャーニーパーソナライゼーションでカスタムアクション応答、イベントデータ、データセット検索を反復する方法を説明します
+* [ コンテキストデータの反復 ](../personalization/iterate-contextual-data.md#arrays-in-journeys) - メッセージ式で配列を操作する方法や、ジャーニーパーソナライゼーションでカスタムアクション応答、イベントデータ、データセット検索を反復する方法を説明します
 

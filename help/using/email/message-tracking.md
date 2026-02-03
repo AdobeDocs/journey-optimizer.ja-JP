@@ -12,7 +12,7 @@ exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
 source-git-commit: 60907756a261c1f672944eccefbfe2ee90d0d017
 workflow-type: tm+mt
 source-wordcount: '1370'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -99,7 +99,7 @@ ht-degree: 95%
 
 >[!CAUTION]
 >
->ボタンの **label** と **URL** の両方を [&#x200B; カスタマイズ可能なフラグメント &#x200B;](../content-management/customizable-fragments.md) で編集可能にすると、トラッキングレポートには、ボタンラベルではなく URL が表示されます。
+>ボタンの **label** と **URL** の両方を [ カスタマイズ可能なフラグメント ](../content-management/customizable-fragments.md) で編集可能にすると、トラッキングレポートには、ボタンラベルではなく URL が表示されます。
 
 ## ミラーページへのリンク {#mirror-page}
 

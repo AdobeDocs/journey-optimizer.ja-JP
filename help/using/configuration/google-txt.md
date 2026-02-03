@@ -12,7 +12,7 @@ exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
 source-git-commit: a23f13bea69d1539cc2cd27a701e20287ddba026
 workflow-type: tm+mt
 source-wordcount: '285'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -45,14 +45,14 @@ TXT レコードは、ドメインに関するテキスト情報を提供する�
 
 ## Google TXT レコードの更新 {#update-google-txt-record}
 
-既存のGoogle TXT レコードを更新するには、次の手順に従います。
+既存の Google TXT レコードを更新するには、次の手順に従います。
 
-1. **[!UICONTROL サブドメイン]** メニューからサブドメインを開きます。
+1. **[!UICONTROL サブドメイン]**&#x200B;メニューからサブドメインを開きます。
 
-1. 「**[!UICONTROL Google txt レコード]**」フィールドの既存の値をクリアし、「**[!UICONTROL 保存]** をクリックします。 この手順では、前のGoogle TXT レコード値を空の文字列に置き換えます。
+1. 「**[!UICONTROL Google TXT レコード]**」フィールドの既存の値をクリアし、「**[!UICONTROL 保存]**」をクリックします。 この手順では、前の Google TXT レコード値を空の文字列に置き換えます。
 
-1. 同じサブドメインを再度開き、新しい検証コードを入力します。
+1. 次に、同じサブドメインを再度開き、新しい確認コードを入力します。
 
-1. もう一度 **[!UICONTROL 保存]** をクリックします。
+1. もう一度「**[!UICONTROL 保存]**」をクリックします。
 
-1. [Google Workspace](https://support.google.com/a/answer/183895){target="_blank"} を使用して、更新されたレコードを検証します。
+1. [Google Workspace](https://support.google.com/a/answer/183895){target="_blank"} を通じて更新したレコードを確認します。

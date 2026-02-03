@@ -10,7 +10,7 @@ exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
 workflow-type: tm+mt
 source-wordcount: '1708'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -94,7 +94,7 @@ ht-degree: 82%
 
 **[!UICONTROL サーバータイプ]**&#x200B;として「**[!UICONTROL Amazon S3]**」を選択した場合は、サーバーの詳細と資格情報を入力します。
 
-* **AWS バケット名**:To AWS バケット名の見つけ方については、[&#x200B; こちらのページ &#x200B;](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html) を参照してください。
+* **AWS バケット名**:To：AWS バケット名を見つける場所については、[このページ](https://docs.aws.amazon.com/AmazonS3/latest/userguide/UsingBucket.html)を参照してください。
 
 * **AWS アクセスキー**：AWS アクセスキー ID を見つける場所については、[このページ](https://docs.aws.amazon.com/IAM/latest/UserGuide/security-creds.html#access-keys-and-secret-access-keys)を参照してください。
 
@@ -122,7 +122,7 @@ ht-degree: 82%
 
 >[!TIP]
 >
->SSH キー認証を使用する場合、キーは **Base64 エンコードされた OpenSSH** 秘密鍵である必要があります。 PPK 形式のファイルの場合は、PuTTY ツールを使用して OpenSSH 形式に変換します。 手順について詳しくは、[&#x200B; この節 &#x200B;](#ssh-key-generation) を参照してください。
+>SSH キー認証を使用する際、キーは **Base64 にエンコードされた OpenSSH** 秘密鍵にする必要があります。PPK 形式のファイルの場合は、PuTTY ツールを使用して OpenSSH 形式に変換します。 手順について詳しくは、[この節](#ssh-key-generation)を参照してください。
 
 >[!NOTE]
 >
@@ -170,31 +170,31 @@ ht-degree: 82%
 
 ### SFTP 認証用の SSH キーの生成 {#ssh-key-generation}
 
-SSH キー認証で SFTP を使用している場合は、Base64 にエンコードされた OpenSSH 秘密鍵が必要です。 キーが正しい形式でない場合、ファイルのルーティングを設定する際に接続エラーが発生する可能性があります。
+SSH キー認証で SFTP を使用している場合は、Base64 にエンコードされた OpenSSH 秘密鍵が必要です。キーが正しい形式でない場合、ファイルのルーティングを設定する際に接続エラーが発生することがあります。
 
 +++Base64 にエンコードされた OpenSSH 秘密鍵の生成
 
 1. PuTTYgen で、キーペアを生成します。 2048 ビット以上の RSA をお勧めします。
-1. メニューから **コンバージョン**/**OpenSSH キーを書き出し** を選択します。
-1. プロンプトが表示されたら、「」を選択して秘密鍵を保存します **パスフレーズ保護は使用しません**。
-1. 保存ダイアログで、「**すべてのファイル（*」を選択します。*）** ファイルタイプとして使用して、キーが.ppk ファイルとしてではなくプレーンテキストとして保存されるようにします。
-1. 保存したファイルをテキストエディターで開き、形式を確認します。
-   * ファイルは `-----BEGIN RSA PRIVATE KEY-----` （前後の 5 つのダッシュ）で始める必要があります。
+1. メニューから&#x200B;**コンバージョン**／**OpenSSH キーを書き出す**&#x200B;を選択します。
+1. プロンプトが表示されたら、**パスフレーズ保護なしで**&#x200B;秘密鍵を保存することを選択します。
+1. 保存ダイアログで、「**すべてのファイル (*.*)**」をファイルタイプとして選択し、キーが .ppk ファイルではなくプレーンテキストとして保存されるようにします。
+1. 保存したファイルをテキストエディターで開き、その形式を確認します。
+   * ファイルは、`-----BEGIN RSA PRIVATE KEY-----`（前後に 5 つのダッシュ）で始まる必要があります。
    * 暗号化を示す表現は使用しないでください。
-   * ファイルは、`-----END RSA PRIVATE KEY-----` （前後の 5 つのダッシュ）で終わる必要があります。
-1. **ファイルコンテンツ全体** （`-----BEGIN/END RSA PRIVATE KEY-----` マーカーを含む）をコピーし、[Base64 Encode and Decode](https://www.base64encode.org/) などのツールを使用して Base64 にエンコードします。
+   * ファイルは、`-----END RSA PRIVATE KEY-----`（前後に 5 つのダッシュ）で終わる必要があります。
+1. **ファイルコンテンツ全体**（`-----BEGIN/END RSA PRIVATE KEY-----` マーカーを含む）をコピーし、[Base64 Encode and Decode](https://www.base64encode.org/) などのツールを使用して Base64 にエンコードします。
 
    >[!NOTE]
    >
-   >Base64 エンコーディング出力で、MIME 形式を削除します。 エンコードされたキーは、単一の連続する文字列である必要があります。
+   >Base64 エンコーディング出力では、MIME 形式を削除します。 エンコードしたキーは、単一の連続した文字列にする必要があります。
 
-1. Base64 にエンコードされた SSH キーをJourney Optimizerの専用フィールドに貼り付けられるようになりました。
+1. これで、Base64 にエンコードされた SSH キーを Journey Optimizer の専用フィールドにペーストできます。
 
 >[!CAUTION]
 >
->Base64 エンコーディングの後、キーには `-----BEGIN/END RSA PRIVATE KEY-----` マーカーが含まれなくなり、改行を含めることはできません。 対応する公開鍵を SFTP サーバーの認証済みキーファイルに追加する必要があります。
+>Base64 エンコーディングの後、キーには `-----BEGIN/END RSA PRIVATE KEY-----` マーカーが含まれなくなり、改行を含めることはできません。対応する公開鍵を SFTP サーバーの承認済みキーファイルに追加する必要があります。
 
-SFTP アカウントのExperience Platformへの接続について詳しくは、[&#x200B; このドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/connectors/cloud-storage/sftp) を参照してください。
+SFTP アカウントの Experience Platform への接続について詳しくは、[このドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/connectors/cloud-storage/sftp)を参照してください。
 
 +++
 

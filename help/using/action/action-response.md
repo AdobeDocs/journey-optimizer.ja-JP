@@ -12,7 +12,7 @@ exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
 source-git-commit: 5213c60df3494c43a96d9098593a6ab539add8bb
 workflow-type: tm+mt
 source-wordcount: '844'
-ht-degree: 73%
+ht-degree: 77%
 
 ---
 
@@ -111,7 +111,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
    API が呼び出されるたびに、ペイロードの例に含まれるすべてのフィールドが取得されます。
 
-1. （オプション）エラー応答ペイロードを有効にして、呼び出しが失敗したときに返された形式を取得し、サンプルのペイロードを貼り付けます。 これを行うには、カスタムアクション設定で **エラー応答ペイロードを定義** を選択します。 ペイロードフィールドの設定について詳しくは、[&#x200B; カスタムアクションの設定 &#x200B;](../action/about-custom-action-configuration.md) を参照してください。
+1. （オプション）エラー応答ペイロードを有効にして、呼び出しが失敗したときに返された形式を取得し、サンプルのペイロードを貼り付けます。 これを行うには、カスタムアクション設定で **エラー応答ペイロードを定義** を選択します。 ペイロードフィールドの設定について詳しくは、[ カスタムアクションの設定 ](../action/about-custom-action-configuration.md) を参照してください。
 
    ```
    {
@@ -234,9 +234,9 @@ currentActionField.description == "abc"
 
 ### ネイティブチャネルでのカスタムアクション応答の使用 {#response-in-channels}
 
-カスタムアクションの応答ペイロードフィールドは、メッセージのパーソナライゼーション用にネイティブチャネル（メール、プッシュ、SMS）で使用できます。 これには、外部 API から返された配列とネストされたデータ構造を繰り返し処理する機能が含まれます。
+カスタムアクションからの応答ペイロードフィールドは、メッセージのパーソナライゼーション用にネイティブチャネル（メール、プッシュ、SMS）で使用できます。これには、外部 API によって返される配列やネストされたデータ構造を反復処理する機能が含まれます。
 
-メッセージ内のカスタムアクション応答データを繰り返す詳細な例と構文については、[Handlebars を使用したコンテキストデータの繰り返し &#x200B;](../personalization/iterate-contextual-data.md#custom-action-responses) を参照してください。
+メッセージ内のカスタムアクション応答データを繰り返す詳細な例と構文については、[Handlebars を使用したコンテキストデータの繰り返し ](../personalization/iterate-contextual-data.md#custom-action-responses) を参照してください。
 
 ## その他のリソース
 

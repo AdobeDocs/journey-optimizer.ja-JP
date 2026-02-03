@@ -10,7 +10,7 @@ exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
 source-git-commit: 780c197da342968c6dc125277f325219e0717082
 workflow-type: tm+mt
 source-wordcount: '663'
-ht-degree: 91%
+ht-degree: 95%
 
 ---
 
@@ -38,7 +38,7 @@ AEM コンテンツフラグメントについて詳しくは、Experience Manag
 
 >[!IMPORTANT]
 >
->Journey Optimizerがコンテンツフラグメント管理 API を使用してAdobe Experience Manager コンテンツフラグメントにアクセスできるようにするには、まず [Dispatcherを設定 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer#dispatcher-configuration) する必要があります。
+>Journey Optimizer が Content Fragment Management API を介して Adobe Experience Manager コンテンツフラグメントにアクセスできるようにするには、まず [Dispatcher を設定](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer#dispatcher-configuration)する必要があります。
 
 Journey Optimizer でコンテンツフラグメントを使用する前に、Journey Optimizer 専用のタグを作成する必要があります。
 

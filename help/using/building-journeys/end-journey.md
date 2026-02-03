@@ -12,7 +12,7 @@ version: Journey Orchestration
 source-git-commit: 63f7b09d8b8de578c32ba0f5d6fdd6b2f5786722
 workflow-type: tm+mt
 source-wordcount: '994'
-ht-degree: 88%
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 88%
 
 >[!TIP]
 >
->プロファイルをジャーニーから離脱させるタイミングと方法に関する実践的なガイダンスをお探しですか？ 実際の出口シナリオ、ベストプラクティス、設定ガイダンスが含まれている、アドビの [&#x200B; ジャーニーのエントリ条件と終了条件の包括的なガイド &#x200B;](entry-exit-criteria-guide.md) を参照してください。
+>プロファイルがジャーニーを終了する必要があるタイミングと方法に関する実用的なガイダンスをお探しですか？実際の終了シナリオ、ベストプラクティス、設定ガイダンスを含む、[ジャーニーのエントリ条件と終了条件に関する包括的なガイド](entry-exit-criteria-guide.md)を参照してください。
 
 ## ライブジャーニーの終了方法
 
@@ -124,7 +124,7 @@ ht-degree: 88%
 
 ## 関連トピック
 
-* [ジャーニーの入退室条件ガイド &#x200B;](entry-exit-criteria-guide.md) – 実際の例とベストプラクティスが記載された完全なガイド
-* [&#x200B; プロファイルエントリ管理 &#x200B;](entry-management.md) - プロファイルがジャーニーにエントリする方法を設定します
-* [&#x200B; 終了条件の設定 &#x200B;](journey-properties.md#exit-criteria) - ジャーニーからの自動プロファイル削除の設定
-* [&#x200B; ジャーニーを一時停止 &#x200B;](journey-pause.md) - ジャーニーの実行を一時的に停止します
+* [ジャーニーのエントリ条件と終了条件ガイド](entry-exit-criteria-guide.md) - 実際の例とベストプラクティスを含む完全なガイド
+* [プロファイルエントリ管理](entry-management.md) - プロファイルがジャーニーにエントリする方法を設定します
+* [終了条件の設定](journey-properties.md#exit-criteria) - ジャーニーからの自動プロファイル削除を設定します
+* [ジャーニーの一時停止](journey-pause.md) - ジャーニーの実行を一時的に停止します

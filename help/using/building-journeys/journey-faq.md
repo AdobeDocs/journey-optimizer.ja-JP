@@ -1,25 +1,25 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Journey Orchestration – よくある質問
-description: Adobe Journey OptimizerのJourney Orchestrationに関するよくある質問
+title: Journey Orchestration - よくある質問
+description: Adobe Journey Optimizer の Journey Orchestration に関するよくある質問
 feature: Journeys, Get Started
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-keywords: ジャーニー，質問，回答，トラブルシューティング，ヘルプ，ガイド，オーケストレーション
+keywords: ジャーニー, 質問, 回答, トラブルシューティング, ヘルプ, ガイド, オーケストレーション
 version: Journey Orchestration
 source-git-commit: bf5d018fa6c3e88cf84345e892de72ada9f2c489
 workflow-type: tm+mt
 source-wordcount: '5231'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
 
-# Journey Orchestration – よくある質問 {#faq-journeys}
+# Journey Orchestration - よくある質問 {#faq-journeys}
 
-Adobe Journey OptimizerのJourney Orchestrationに関するよくある質問への回答を示します。
+Adobe Journey Optimizer の Journey Orchestration に関するよくある質問への回答を見つけます。
 
 さらに詳細が必要ですか？このページの下部にあるフィードバックオプションを使用して、質問を入力するか、[Adobe Journey Optimizer コミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"}にアクセスしてください。
 

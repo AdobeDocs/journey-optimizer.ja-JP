@@ -10,7 +10,7 @@ version: Journey Orchestration
 source-git-commit: 21de0b9616c414db204a3eafebc6a8184028a1e1
 workflow-type: tm+mt
 source-wordcount: '880'
-ht-degree: 91%
+ht-degree: 94%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 91%
 
 このユースケースでは、[!DNL Journey Optimizer] コードベースチャネルで決定の使用に必要なすべての手順を示します。
 
-➡️ [&#x200B; ビデオでユースケースを確認する &#x200B;](#video)
+➡️ [ ビデオでユースケースを確認する ](#video)
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ ht-degree: 91%
 
 >[!NOTE]
 >
->コードベースのエクスペリエンスで決定を使用する際のテストと重複排除の実装について詳しくは、[&#x200B; このページ &#x200B;](../code-based/code-based-decisioning-implementations.md) を参照してください。
+>コードベースのエクスペリエンスで決定を使用する際のテストと重複排除の実装について詳しくは、[このページ](../code-based/code-based-decisioning-implementations.md)を参照してください。
 
 ## 選択戦略の作成
 

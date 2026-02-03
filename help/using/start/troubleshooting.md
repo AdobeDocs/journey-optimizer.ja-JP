@@ -201,7 +201,7 @@ Adobe Journey Optimizer では、ジャーニーで&#x200B;**プロファイル�
 
 この問題の解決手順について詳しくは、[このトラブルシューティング記事](https://experienceleague.adobe.com/ja/docs/experience-cloud-kcs/kbarticles/ka-26253){target="_blank"}を参照してください。
 
-詳しくは、[この Journey Optimizer コミュニティの投稿](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998?profile.language=ja){target="_blank"}を参照してください。
+詳しくは、[この Journey Optimizer コミュニティの投稿](https://experienceleaguecommunities.adobe.com/t5/real-time-customer-data-platform/profile-snapshot-and-segment-qualification-troubleshooting/ba-p/698998){target="_blank"}を参照してください。
 
 毎日のジョブがスケジュールされるタイミングを確認するには、[Adobe Experience Platform Schedules API ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/api/schedules){target="_blank"}も参照してください。
 
@@ -234,7 +234,7 @@ Adobe Journey Optimizer では、ジャーニーで&#x200B;**プロファイル�
 
 この問題を調査して解決するには、プロファイルカウントのロジックを理解し、大規模なオーディエンスをターゲティングするジャーニーとキャンペーンを調査し、オーディエンスを適切にフィルタリングし、データセットの変更を監視し、アドレス可能なオーディエンスサイズを減らす可能性があります。
 
-エンゲージメント可能なプロファイルの増加のトラブルシューティングと解決方法、および組織のライセンス使用状況の監視方法については、[&#x200B; ライセンス使用状況ダッシュボードのドキュメント &#x200B;](../audience/license-usage.md#troubleshooting-engageable-profiles) を参照してください。
+エンゲージメント可能なプロファイルの増加のトラブルシューティングと解決方法、および組織のライセンス使用状況の監視方法については、[ ライセンス使用状況ダッシュボードのドキュメント ](../audience/license-usage.md#troubleshooting-engageable-profiles) を参照してください。
 
 +++
 

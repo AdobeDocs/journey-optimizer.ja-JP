@@ -9,7 +9,7 @@ exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
 source-git-commit: 80c652afef03b0be6d917cb4389850780c2a4379
 workflow-type: tm+mt
 source-wordcount: '1110'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->`now()` 関数は、パーソナライゼーションエディターでは使用できません。 現在の日付と時刻の値には、代わりに `getCurrentZonedDateTime()` または `currentTimeInMillis()` を使用します。 [詳細情報](../../email/code-content.md#date-time-limitations)
+>`now()` 関数は、パーソナライゼーションエディターでは使用できません。現在の日時の値には、代わりに `getCurrentZonedDateTime()` または `currentTimeInMillis()` を使用します。[詳細情報](../../email/code-content.md#date-time-limitations)
 
 ## 日数を追加 {#add-days}
 

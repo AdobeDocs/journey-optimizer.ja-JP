@@ -9,7 +9,7 @@ exl-id: 9509fd67-6d12-4440-aad8-59690936be97
 source-git-commit: 22e1f08f434a3ceb4be6c539d4007178062cba9e
 workflow-type: tm+mt
 source-wordcount: '1246'
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -27,9 +27,9 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->* [!DNL Journey Optimizer] web キャンペーンは、他のチャネルでこれまでエンゲージメントがなかった新しいプロファイルをターゲットにします。これにより、合計 [&#x200B; エンゲージメント可能なプロファイル &#x200B;](../audience/license-usage.md) 数が増え、ユーザーが購入した、エンゲージメント可能なプロファイルの契約上の数を超えると、コストに影響する可能性があります。 各パッケージのライセンス指標は、[Journey Optimizer の製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}ページにリストされています。エンゲージメント可能なプロファイルの数は、[&#x200B; ライセンス使用状況ダッシュボード &#x200B;](../audience/license-usage.md) で確認できます。
+>* [!DNL Journey Optimizer] web キャンペーンは、他のチャネルでこれまでエンゲージメントがなかった新しいプロファイルをターゲットにします。これにより、合計 [ エンゲージメント可能なプロファイル ](../audience/license-usage.md) 数が増え、ユーザーが購入した、エンゲージメント可能なプロファイルの契約上の数を超えると、コストに影響する可能性があります。 各パッケージのライセンス指標は、[Journey Optimizer の製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}ページにリストされています。エンゲージメント可能なプロファイルの数は、[ ライセンス使用状況ダッシュボード ](../audience/license-usage.md) で確認できます。
 >
->* 偽名プロファイル（未認証の訪問者）を web ページのターゲットにする場合は、自動プロファイル削除の有効期間（TTL）を設定して、エンゲージメント可能なプロファイル数と関連コストを管理することを検討してください。 [詳細情報](../start/guardrails.md#profile-management-inbound)
+>* Web ページを使用して偽名プロファイル（未認証の訪問者）をターゲットにする場合は、自動プロファイル削除の有効期間（TTL）を設定することを考慮し、エンゲージメント可能なプロファイル数と関連コストを管理します。[詳細情報](../start/guardrails.md#profile-management-inbound)
 
 ## 実装の前提条件 {#implementation-prerequisites}
 
@@ -47,7 +47,7 @@ Web プロパティで web チャネルキャンペーンのオーサリング�
 >
 >サーバーサイドのみの実装は、現在、web チャネルではサポートされていません。Web ページのサーバーサイドのみの実装がある場合は、代わりに[コードベースのエクスペリエンスチャネル](../code-based/get-started-code-based.md)を使用できます。
 
-<!--If the Adobe Experience Platform Web SDK is not yet implemented on the website, a message displays in the web designer suggesting that you install the Visual Editing Helper browser extension and implement the [Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja){target="_blank"}.-->
+<!--If the Adobe Experience Platform Web SDK is not yet implemented on the website, a message displays in the web designer suggesting that you install the Visual Editing Helper browser extension and implement the [Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"}.-->
 
 ## ビジュアルオーサリングの前提条件 {#visual-authoring-prerequisites}
 
