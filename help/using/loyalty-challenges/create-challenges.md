@@ -31,10 +31,10 @@ ht-degree: 1%
 
 **ロイヤルティの課題に関するドキュメント：**
 
-* [&#x200B; ロイヤルティの課題の概要 &#x200B;](gs-loyalty-challenges.md) – 概要と次の手順
-* [&#x200B; ロイヤルティの課題について &#x200B;](get-started.md) – 機能、ワークフロー、前提条件
+* [ ロイヤルティの課題の概要 ](gs-loyalty-challenges.md) – 概要と次の手順
+* [ ロイヤルティの課題について ](get-started.md) – 機能、ワークフロー、前提条件
 * **課題の作成** ◀︎ **現在の状況** – 課題の作成と設定
-* [&#x200B; 課題の管理 &#x200B;](manage-challenges.md) – 編集、監視、最適化
+* [ 課題の管理 ](manage-challenges.md) – 編集、監視、最適化
 
 >[!ENDSHADEBOX]
 
@@ -265,5 +265,5 @@ ht-degree: 1%
 
 ## 次の手順 {#next-steps}
 
-* [&#x200B; 課題の管理 &#x200B;](manage-challenges.md) – 課題を編集、監視、最適化する方法を説明します。
-* [&#x200B; ロイヤルティの課題について &#x200B;](get-started.md) – 機能と性能の確認
+* [ 課題の管理 ](manage-challenges.md) – 課題を編集、監視、最適化する方法を説明します。
+* [ ロイヤルティの課題について ](get-started.md) – 機能と性能の確認

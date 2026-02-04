@@ -31,10 +31,10 @@ ht-degree: 2%
 
 **ロイヤルティの課題に関するドキュメント：**
 
-* [&#x200B; ロイヤルティの課題の概要 &#x200B;](gs-loyalty-challenges.md) – 概要と次の手順
+* [ ロイヤルティの課題の概要 ](gs-loyalty-challenges.md) – 概要と次の手順
 * **ロイヤルティの課題について** ◀︎ **ここにいる** – 機能、ワークフロー、前提条件
-* [&#x200B; 課題の作成 &#x200B;](create-challenges.md) – 課題の作成と設定
-* [&#x200B; 課題の管理 &#x200B;](manage-challenges.md) – 編集、監視、最適化
+* [ 課題の作成 ](create-challenges.md) – 課題の作成と設定
+* [ 課題の管理 ](manage-challenges.md) – 編集、監視、最適化
 
 >[!ENDSHADEBOX]
 
@@ -114,7 +114,7 @@ ht-degree: 2%
 
 手順について詳しくは、以下を参照してください。
 
-* [Experience Platform ソースのドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/home)
+* [Experience Platform ソースのドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [Journey Optimizerでのソースコネクタの設定](../start/get-started-sources.md)
 
 ### 必要な権限 {#required-permissions}
