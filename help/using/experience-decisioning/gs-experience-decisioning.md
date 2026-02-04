@@ -105,4 +105,4 @@ ht-degree: 93%
 
 Adobe Journey Optimizerの意思決定機能について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475864?captions=jpn&quality=12)
