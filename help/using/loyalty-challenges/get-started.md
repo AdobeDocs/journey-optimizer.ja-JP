@@ -10,7 +10,7 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
-source-git-commit: bd98e4dc77a0adde83df6251af749aa6da8c058d
+source-git-commit: 5120eb51311348b8561b0a20f982576f6c945921
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 4%
@@ -25,16 +25,16 @@ ht-degree: 4%
 **ロイヤルティの課題に関するドキュメント：**
 
 * **ロイヤルティの課題の概要** ◀︎ **概要** ワークフロー、前提条件
-* [&#x200B; ロイヤルティの課題へのアクセス &#x200B;](access-loyalty-challenges.md) – 在庫とフィルタリング
-* [&#x200B; 課題の作成 &#x200B;](create-challenges.md) – 課題の作成と設定
-* [&#x200B; タスクの作成 &#x200B;](create-tasks.md) – 課題タスクの定義
-* [&#x200B; 課題の管理 &#x200B;](manage-challenges.md) – 編集、監視、最適化
+* [ ロイヤルティの課題へのアクセス ](access-loyalty-challenges.md) – 在庫とフィルタリング
+* [ 課題の作成 ](create-challenges.md) – 課題の作成と設定
+* [ タスクの作成 ](create-tasks.md) – 課題タスクの定義
+* [ 課題の管理 ](manage-challenges.md) – 編集、監視、最適化
 
 >[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
->この機能は現在 **Private Beta** であり、お使いの環境では使用できない場合があります。アクセス権をリクエストするには、Adobe担当者にお問い合わせください。 詳細情報 [&#x200B; 可用性ラベル &#x200B;](../rn/releases.md#availability-labels)。
+>この機能は現在 **Private Beta** であり、お使いの環境では使用できない場合があります。アクセス権をリクエストするには、Adobe担当者にお問い合わせください。 詳細情報 [ 可用性ラベル ](../rn/releases.md#availability-labels)。
 
 ## 概要 {#overview}
 
@@ -58,19 +58,19 @@ ht-degree: 4%
 
 1. **データ取り込みの設定** - Experience Platform ソースコネクタ（キャピラリーコネクタなど）を設定して、顧客のアクションと進行状況を追跡するロイヤルティイベントデータを取り込みます。 このデータにより、課題の追跡とタスクの完了が強化されます。
 
-1. **チャレンジの作成** – 名前、タイプ（標準、ストリーク、順次）、オーディエンス、日付範囲など、基本的なチャレンジのプロパティを定義します。 手順について詳しくは、[&#x200B; 課題の作成 &#x200B;](create-challenges.md) を参照してください。
+1. **チャレンジの作成** – 名前、タイプ（標準、ストリーク、順次）、オーディエンス、日付範囲など、基本的なチャレンジのプロパティを定義します。 手順について詳しくは、[ 課題の作成 ](create-challenges.md) を参照してください。
 
-1. **タスクを追加** - タスクのタイプ（購入、支出、訪問、エンゲージメント、カスタムイベント）、数量、製品フィルター、報酬など、顧客が完了する必要がある特定のアクションを定義します。 手順について詳しくは、[&#x200B; タスクの作成 &#x200B;](create-tasks.md) を参照してください。
+1. **タスクを追加** - タスクのタイプ（購入、支出、訪問、エンゲージメント、カスタムイベント）、数量、製品フィルター、報酬など、顧客が完了する必要がある特定のアクションを定義します。 手順について詳しくは、[ タスクの作成 ](create-tasks.md) を参照してください。
 
-1. **コンテンツカードの設計** – お客様のデバイスに表示されるJourney Optimizer[&#x200B; コンテンツカード &#x200B;](../content-card/create-content-card.md) を使用して、課題を視覚的に表現します。 コンテンツカードには、チャレンジ情報、進行状況および報酬が表示されます。
+1. **コンテンツカードの設計** – お客様のデバイスに表示されるJourney Optimizer[ コンテンツカード ](../content-card/create-content-card.md) を使用して、課題を視覚的に表現します。 コンテンツカードには、チャレンジ情報、進行状況および報酬が表示されます。
 
-1. **メッセージの設定** （オプション） – ローンチ、処理中、完了などの主要なライフサイクルステージに対して、マルチチャネルメッセージ [&#128279;](../in-app/get-started-in-app.md) アプリ内 [、メール &#x200B;](../email/get-started-email.md)、[&#x200B; プッシュ &#x200B;](../push/get-started-push.md)）を設定します。
+1. **メッセージの設定** （オプション） – ローンチ、処理中、完了などの主要なライフサイクルステージに対して、マルチチャネルメッセージ [](../in-app/get-started-in-app.md) アプリ内 [、メール ](../email/get-started-email.md)、[ プッシュ ](../push/get-started-push.md)）を設定します。
 
-1. **レビューして公開** - [&#x200B; テストプロファイル &#x200B;](../test-approve/test-profiles.md) を使用して課題をテストし、公開して、ターゲットオーディエンスで利用できるようにします。
+1. **レビューして公開** - [ テストプロファイル ](../content-management/test-profiles.md) を使用して課題をテストし、公開して、ターゲットオーディエンスで利用できるようにします。
 
-1. **ジャーニーのアクティブ化** – 課題を公開すると、Journey Optimizerは、コンテンツカードの配信とメッセージングを調整する [&#x200B; ジャーニー &#x200B;](../building-journeys/journey-gs.md) をドラフトステータスで自動的に作成します。 ジャーニーインベントリに移動し、自動生成されたジャーニー（「チャレンジ：[ チャレンジ名 ]」という名前）を見つけて [&#x200B; アクティブ化 &#x200B;](../building-journeys/publishing-the-journey.md) し、お客様がチャレンジを使用できるようにします。
+1. **ジャーニーのアクティブ化** – 課題を公開すると、Journey Optimizerは、コンテンツカードの配信とメッセージングを調整する [ ジャーニー ](../building-journeys/journey-gs.md) をドラフトステータスで自動的に作成します。 ジャーニーインベントリに移動し、自動生成されたジャーニー（「チャレンジ：[ チャレンジ名 ]」という名前）を見つけて [ アクティブ化 ](../building-journeys/publish-journey.md) し、お客様がチャレンジを使用できるようにします。
 
-1. **パフォーマンスの監視** – 組み込みレポートとジャーニーキャンバスを通じて、パーティシペーション、完了率、報酬分布およびメッセージエンゲージメントを追跡します。 監視について詳しくは、[&#x200B; 課題の管理 &#x200B;](manage-challenges.md) を参照してください。
+1. **パフォーマンスの監視** – 組み込みレポートとジャーニーキャンバスを通じて、パーティシペーション、完了率、報酬分布およびメッセージエンゲージメントを追跡します。 監視について詳しくは、[ 課題の管理 ](manage-challenges.md) を参照してください。
 
 ## 前提条件 {#prerequisites}
 
@@ -86,7 +86,7 @@ ht-degree: 4%
 
 手順について詳しくは、以下を参照してください。
 
-* [Experience Platform ソースのドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/home)
+* [Experience Platform ソースのドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [Journey Optimizerでのソースコネクタの設定](../start/get-started-sources.md)
 
 +++
@@ -106,7 +106,7 @@ ht-degree: 4%
 
 +++ターゲットオーディエンス
 
-課題を作成する前に、Experience Platformでターゲットオーディエンスを作成します。 これらのオーディエンスは、ロイヤルティの課題に参加する資格のある顧客を定義します。 オーディエンスの作成方法について詳しくは、[&#x200B; オーディエンスの基本を学ぶ &#x200B;](../audience/about-audiences.md) を参照してください。
+課題を作成する前に、Experience Platformでターゲットオーディエンスを作成します。 これらのオーディエンスは、ロイヤルティの課題に参加する資格のある顧客を定義します。 オーディエンスの作成方法について詳しくは、[ オーディエンスの基本を学ぶ ](../audience/about-audiences.md) を参照してください。
 
 +++
 
