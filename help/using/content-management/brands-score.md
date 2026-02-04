@@ -5,9 +5,9 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner, Intermediate
 exl-id: 01e74670-7431-4791-b98c-12278e6d3332
-source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
+source-git-commit: cd85a3916735373c2cb63f0ad517ff7e5fbf001c
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '650'
 ht-degree: 40%
 
 ---
@@ -89,7 +89,7 @@ ht-degree: 40%
 
 >[!NOTE]
 >
->コンテンツ品質の評価は、ブランドに依存しません。 ドロップダウンメニューでブランドが選択されている場合でも、そのガイドラインは品質チェックに適用されません。 ブランドの選択は、ブランドのアラインメントスコアリングにのみ関連します。
+>コンテンツ品質の評価は、ブランドガイドラインとは無関係です。 ドロップダウンメニューでブランドが選択されている場合でも、そのガイドラインは品質チェックに適用されません。 ブランドの選択は、ブランドのアラインメントスコアリングにのみ関連します。
 
 ブランドの関連付けに加えて、一般的なコンテンツ品質を評価し、ブランドガイドラインに関係なく、読みやすさ、コンテンツのまとまり、有効性に関する潜在的な問題を特定できます。
 
@@ -109,7 +109,7 @@ ht-degree: 40%
 
    ![](assets/brand-score-6.png)
 
-1. 「![&#x200B; フルスクリーン」アイコンをクリックすると &#x200B;](assets/do-not-localize/Smock_FullScreen_18_N.svg " 詳細なインサイトが表示されます ") 「フルスクリーン」アイコンをクリックすると、品質スコアの詳細な表示が表示されます。
+1. 「![ フルスクリーン」アイコンをクリックすると ](assets/do-not-localize/Smock_FullScreen_18_N.svg " 詳細なインサイトが表示されます ") 「フルスクリーン」アイコンをクリックすると、品質スコアの詳細な表示が表示されます。
 
    ![](assets/brand-score-7.png)
 
@@ -134,6 +134,6 @@ ht-degree: 40%
 
 +++ こちらのビデオをご覧ください
 
->[!VIDEO](https://video.tv.adobe.com/v/3470547/?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470544/?learn=on)
 
 +++
