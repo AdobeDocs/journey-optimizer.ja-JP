@@ -43,7 +43,7 @@ ht-degree: 94%
 
 >[!NOTE]
 >
->意思決定管理から意思決定へ移行するには、[ 移行に関するドキュメント ](../experience-decisioning/migrate-to-decisioning.md) および [ 移行 API ガイド ](../experience-decisioning/decisioning-migration-api.md) を参照してください。
+>意思決定管理から意思決定へ移行するには、[&#x200B; 移行に関するドキュメント &#x200B;](../experience-decisioning/migrate-to-decisioning.md) および [&#x200B; 移行 API ガイド &#x200B;](../experience-decisioning/decisioning-migration-api.md) を参照してください。
 
 ## 意思決定管理 {#decision-management}
 
