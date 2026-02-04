@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: cd85a3916735373c2cb63f0ad517ff7e5fbf001c
+source-git-commit: f41c1ed8a2d9e74b9d8fe97e0bf9e565d326aec6
 workflow-type: tm+mt
 source-wordcount: '3091'
 ht-degree: 98%
@@ -134,10 +134,9 @@ ht-degree: 98%
       + [カスタムアクションを使用した Experience Platform のジャーニーイベントの書き込み](using/building-journeys/custom-action-aep.md)
 + ロイヤルティの課題 {#loyalty-challenges}
    + [ロイヤルティに関する課題の概要](using/loyalty-challenges/get-started.md)
-   + [ロイヤルティの課題へのアクセス](using/loyalty-challenges/access-loyalty-challenges.md)
+   + [ロイヤルティの課題へのアクセスと管理](using/loyalty-challenges/access-loyalty-challenges.md)
    + [課題の作成](using/loyalty-challenges/create-challenges.md)
    + [タスクの作成](using/loyalty-challenges/create-tasks.md)
-   + [課題の管理](using/loyalty-challenges/manage-challenges.md)
 + キャンペーン {#campaigns}
    + [キャンペーン](/help/rp_landing_pages/campaigns-landing-page.md)
    + [キャンペーンの基本を学ぶ](using/campaigns/get-started-with-campaigns.md)
@@ -945,7 +944,7 @@ ht-degree: 98%
    + [プライバシー](/help/rp_landing_pages/privacy-landing-page.md)
    + [プライバシーの基本を学ぶ](using/privacy/get-started-privacy.md)
    + [プライバシーリクエスト](using/privacy/requests.md)
-   + [&#x200B; リソースに対する監査アクション](using/privacy/audit-logs.md)
+   + [ リソースに対する監査アクション](using/privacy/audit-logs.md)
    + [データライフサイクル操作の実行](using/privacy/data-hygiene.md)
    + 同意を管理 {#consent}
       + [同意を管理](/help/rp_landing_pages/consent-landing-page.md)
