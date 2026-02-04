@@ -102,6 +102,6 @@ ht-degree: 65%
 
 +++こちらのビデオをご覧ください
 
->[!VIDEO](https://video.tv.adobe.com/v/3479541?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3479542?captions=jpn&quality=12&learn=on)
 
 +++
