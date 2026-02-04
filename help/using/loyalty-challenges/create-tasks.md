@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
-source-git-commit: dbed4ffeb63ec3c58ff61845bbdb91fd2d51e69b
+source-git-commit: fd87aeabfae1f07d8f7bea7057f0c6dd0559d024
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '845'
 ht-degree: 2%
 
 ---
@@ -24,17 +24,17 @@ ht-degree: 2%
 
 **ロイヤルティの課題に関するドキュメント：**
 
-* [&#x200B; ロイヤルティの課題の概要 &#x200B;](get-started.md) – 概要、ワークフロー、前提条件
-* [&#x200B; ロイヤルティの課題へのアクセス &#x200B;](access-loyalty-challenges.md) – 在庫とフィルタリング
-* [&#x200B; 課題の作成 &#x200B;](create-challenges.md) – 課題の作成と設定
+* [ ロイヤルティの課題の概要 ](get-started.md) – 概要、ワークフロー、前提条件
+* [ ロイヤルティの課題へのアクセス ](access-loyalty-challenges.md) – 在庫とフィルタリング
+* [ 課題の作成 ](create-challenges.md) – 課題の作成と設定
 * **タスクの作成**◀︎**ここにいる** – 課題タスクの定義
-* [&#x200B; 課題の管理 &#x200B;](manage-challenges.md) – 編集、監視、最適化
+* [ 課題の管理 ](manage-challenges.md) – 編集、監視、最適化
 
 >[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
->この機能は現在 **Private Beta** であり、お使いの環境では使用できない場合があります。アクセス権をリクエストするには、Adobe担当者にお問い合わせください。 詳細情報 [&#x200B; 可用性ラベル &#x200B;](../rn/releases.md#availability-labels)。
+>この機能は現在 **Private Beta** であり、お使いの環境では使用できない場合があります。アクセス権をリクエストするには、Adobe担当者にお問い合わせください。 詳細情報 [ 可用性ラベル ](../rn/releases.md#availability-labels)。
 
 ## 概要 {#overview}
 
@@ -60,7 +60,7 @@ ht-degree: 2%
 
 +++タスクインベントリから
 
-1. Journey Optimizerの **[!UICONTROL ロイヤルティの課題]** に移動します。
+1. Journey Optimizerの **[!UICONTROL ロイヤルティの課題（Beta）]** に移動します。
 
 1. 「**[!UICONTROL タスク]**」タブを選択します。
 
@@ -113,7 +113,7 @@ ht-degree: 2%
 次の属性を設定します。
 
 * **数量**：このタスクを完了するために購入する必要がある品目の数を入力します
-* **適格な項目と除外**：タスク完了にカウントされる項目または項目グループとカウントされない項目または項目グループを定義します。詳しくは、[&#x200B; 適格な項目と除外の定義 &#x200B;](#eligible-items-exclusions) を参照してください。
+* **適格な項目と除外**：タスク完了にカウントされる項目または項目グループとカウントされない項目または項目グループを定義します。詳しくは、[ 適格な項目と除外の定義 ](#eligible-items-exclusions) を参照してください。
 
 **オプションの属性** （「パラメーター」アイコンからを設定）:
 
@@ -128,7 +128,7 @@ ht-degree: 2%
 
 * **金額**：タスクの完了に必要な合計支出金額を入力します
 * **トランザクションの最大数**：費用要件を満たすことができるトランザクションの数を指定します。 トランザクション数を制限しない場合は、パラメーターアイコンからこの属性を非アクティブにします
-* **適格な項目と除外**:（任意）タスク完了にカウントされる項目または項目グループとカウントされない項目または項目グループを定義します。詳しくは、[&#x200B; 適格な項目と除外の定義 &#x200B;](#eligible-items-exclusions) を参照してください。
+* **適格な項目と除外**:（任意）タスク完了にカウントされる項目または項目グループとカウントされない項目または項目グループを定義します。詳しくは、[ 適格な項目と除外の定義 ](#eligible-items-exclusions) を参照してください。
 
 +++
 
@@ -170,5 +170,5 @@ ht-degree: 2%
 
 これで、タスクの作成および設定方法を理解できました。
 
-* [&#x200B; 課題の作成 &#x200B;](create-challenges.md) – 完全な課題を作成し、報酬を設定する方法を説明します
-* [&#x200B; 課題の管理 &#x200B;](manage-challenges.md) – 課題を編集、監視、最適化する方法を説明します。
+* [ 課題の作成 ](create-challenges.md) – 完全な課題を作成し、報酬を設定する方法を説明します
+* [ 課題の管理 ](manage-challenges.md) – 課題を編集、監視、最適化する方法を説明します。
