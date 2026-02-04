@@ -24,17 +24,17 @@ ht-degree: 4%
 
 **ロイヤルティの課題に関するドキュメント：**
 
-* [ ロイヤルティの課題の概要 ](get-started.md) – 概要、ワークフロー、前提条件
+* [&#x200B; ロイヤルティの課題の概要 &#x200B;](get-started.md) – 概要、ワークフロー、前提条件
 * **ロイヤルティの課題へのアクセス**◀︎**現在の状況** – 在庫とフィルタリング
-* [ 課題の作成 ](create-challenges.md) – 課題の作成と設定
-* [ タスクの作成 ](create-tasks.md) – 課題タスクの定義
-* [ 課題の管理 ](manage-challenges.md) – 編集、監視、最適化
+* [&#x200B; 課題の作成 &#x200B;](create-challenges.md) – 課題の作成と設定
+* [&#x200B; タスクの作成 &#x200B;](create-tasks.md) – 課題タスクの定義
+* [&#x200B; 課題の管理 &#x200B;](manage-challenges.md) – 編集、監視、最適化
 
 >[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
->この機能は現在 **Private Beta** であり、お使いの環境では使用できない場合があります。アクセス権をリクエストするには、Adobe担当者にお問い合わせください。 詳細情報 [ 可用性ラベル ](../rn/releases.md#availability-labels)。
+>この機能は現在 **Private Beta** であり、お使いの環境では使用できない場合があります。アクセス権をリクエストするには、Adobe担当者にお問い合わせください。 詳細情報 [&#x200B; 可用性ラベル &#x200B;](../rn/releases.md#availability-labels)。
 
 ロイヤルティの課題にアクセスするには、Journey Optimizerに移動し、「**[!UICONTROL ジャーニー管理]**」セクションで **[!UICONTROL 「ロイヤルティの課題（Beta）]** を選択します。
 
@@ -54,7 +54,7 @@ ht-degree: 4%
 表示されるキー情報：
 
 * **[!UICONTROL チャレンジ]**：チャレンジ名
-* **[!UICONTROL 状態]**：チャレンジの現在の状態（ドラフトまたは公開済み）。 [ ステータス遷移の詳細情報 ](manage-challenges.md#challenge-lifecycle)
+* **[!UICONTROL 状態]**：チャレンジの現在の状態（ドラフトまたは公開済み）。 [&#x200B; ステータス遷移の詳細情報 &#x200B;](manage-challenges.md#challenge-lifecycle)
 * **[!UICONTROL タスク]**：チャレンジで設定されたタスクの数
 * **[!UICONTROL ジャーニー]**：課題に関連付けられた自動生成ジャーニーへのリンク
 * **[!UICONTROL ステータス]**：関連付けられたジャーニーの現在のステータス（ドラフト、ライブ、停止など）
@@ -66,7 +66,7 @@ ht-degree: 4%
 * **チャレンジを複製**:![](assets/do-not-localize/Smock_More_18_N.svg) のアイコンを選択し、「**[!UICONTROL 複製]**」を選択します
 * **ドラフトチャレンジの削除**:「![](assets/do-not-localize/Smock_More_18_N.svg)」アイコンを選択し、「**[!UICONTROL 削除]**」を選択します
 
-[ 作成後に課題を管理する方法を説明します ](manage-challenges.md)。
+[&#x200B; 作成後に課題を管理する方法を説明します &#x200B;](manage-challenges.md)。
 
 ## タスクインベントリ {#tasks-tab}
 
@@ -87,12 +87,12 @@ ht-degree: 4%
 * **タスクを複製**:![](assets/do-not-localize/Smock_More_18_N.svg) のアイコンを選択し、「**[!UICONTROL 複製]**」を選択します
 * **タスクを削除**:![](assets/do-not-localize/Smock_More_18_N.svg) アイコンを選択して「**[!UICONTROL 削除]**」を選択します
 
-[ 作成後にタスクを管理する方法を説明します ](manage-challenges.md)。
+[&#x200B; 作成後にタスクを管理する方法を説明します &#x200B;](manage-challenges.md)。
 
 ## 次の手順 {#next-steps}
 
 これで、ロイヤルティ課題インベントリにアクセスしてナビゲートする方法がわかりました。
 
-* [ 課題の作成 ](create-challenges.md) – 最初の課題を作成し、タスクを設定する方法を説明します
-* [ タスクの作成 ](create-tasks.md) – 課題に対する再利用可能なタスクを定義する方法を説明します
-* [ 課題の管理 ](manage-challenges.md) – 課題を編集、監視、最適化する方法を説明します。
+* [&#x200B; 課題の作成 &#x200B;](create-challenges.md) – 最初の課題を作成し、タスクを設定する方法を説明します
+* [&#x200B; タスクの作成 &#x200B;](create-tasks.md) – 課題に対する再利用可能なタスクを定義する方法を説明します
+* [&#x200B; 課題の管理 &#x200B;](manage-challenges.md) – 課題を編集、監視、最適化する方法を説明します。

@@ -24,17 +24,17 @@ ht-degree: 1%
 
 **ロイヤルティの課題に関するドキュメント：**
 
-* [ ロイヤルティの課題の概要 ](get-started.md) – 概要、ワークフロー、前提条件
-* [ ロイヤルティの課題へのアクセス ](access-loyalty-challenges.md) – 在庫とフィルタリング
+* [&#x200B; ロイヤルティの課題の概要 &#x200B;](get-started.md) – 概要、ワークフロー、前提条件
+* [&#x200B; ロイヤルティの課題へのアクセス &#x200B;](access-loyalty-challenges.md) – 在庫とフィルタリング
 * **課題の作成** ◀︎ **現在の状況** – 課題の作成と設定
-* [ タスクの作成 ](create-tasks.md) – 課題タスクの定義
-* [ 課題の管理 ](manage-challenges.md) – 編集、監視、最適化
+* [&#x200B; タスクの作成 &#x200B;](create-tasks.md) – 課題タスクの定義
+* [&#x200B; 課題の管理 &#x200B;](manage-challenges.md) – 編集、監視、最適化
 
 >[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
->この機能は現在 **Private Beta** であり、お使いの環境では使用できない場合があります。アクセス権をリクエストするには、Adobe担当者にお問い合わせください。 詳細情報 [ 可用性ラベル ](../rn/releases.md#availability-labels)。
+>この機能は現在 **Private Beta** であり、お使いの環境では使用できない場合があります。アクセス権をリクエストするには、Adobe担当者にお問い合わせください。 詳細情報 [&#x200B; 可用性ラベル &#x200B;](../rn/releases.md#availability-labels)。
 
 ## 仕組み {#how-it-works}
 
@@ -122,7 +122,7 @@ ht-degree: 1%
 
 1. タスクインベントリが開きます。 リストから 1 つ以上のタスクを選択して、「**[!UICONTROL 追加]**」を選択します。 新しいタスクを作成するには、「**[!UICONTROL 新規]** を選択します。
 
-   [ タスクの作成および設定方法を説明します ](create-tasks.md)。
+   [&#x200B; タスクの作成および設定方法を説明します &#x200B;](create-tasks.md)。
 
 1. 「**[!UICONTROL タスク完了要件]**」セクションで、課題を完了と見なすタイミングを指定します。
 
@@ -182,7 +182,7 @@ ht-degree: 1%
 
 ## コンテンツカードの設定 {#configure-content-cards}
 
-コンテンツカードは、お客様のデバイス上の課題を視覚的に表し、課題の情報、進行状況、報酬を表示します。 [ コンテンツカードの詳細情報 ](../content-card/create-content-card.md)。
+コンテンツカードは、お客様のデバイス上の課題を視覚的に表し、課題の情報、進行状況、報酬を表示します。 [&#x200B; コンテンツカードの詳細情報 &#x200B;](../content-card/create-content-card.md)。
 
 課題に合わせてコンテンツカードを設定するには：
 
@@ -190,13 +190,13 @@ ht-degree: 1%
 
 1. コンテンツカードの **[!UICONTROL 名前]** を入力します。
 
-1. **[!UICONTROL チャネル設定]** を選択します。 チャネル設定には、ヘッダーパラメーター、サブドメイン、モバイルアプリなど、メッセージを送信するためのすべての技術的なパラメーターが含まれています。 [ 詳しくは、チャネル設定を参照してください ](../configuration/channel-surfaces.md)。
+1. **[!UICONTROL チャネル設定]** を選択します。 チャネル設定には、ヘッダーパラメーター、サブドメイン、モバイルアプリなど、メッセージを送信するためのすべての技術的なパラメーターが含まれています。 [&#x200B; 詳しくは、チャネル設定を参照してください &#x200B;](../configuration/channel-surfaces.md)。
 
 1. **[!UICONTROL コンテンツを編集]** を選択して、コンテンツカードをデザインします。
 
    ![](assets/challenge-create-content.png)
 
-[ コンテンツカードを設計およびパーソナライズする方法を説明します ](../content-card/design-content-card.md)。
+[&#x200B; コンテンツカードを設計およびパーソナライズする方法を説明します &#x200B;](../content-card/design-content-card.md)。
 
 これで、コンテンツカードが設定されました。 課題のライフサイクルを通じて顧客を引き付けるメッセージを設定できるようになりました。
 
@@ -250,9 +250,9 @@ ht-degree: 1%
 
 ![](assets/challenge-create-generate-journey.png)
 
-Journey Optimizerは、ドラフトステータスの [ ジャーニー ](../building-journeys/journey-gs.md) を自動的に作成します。 自動生成されたジャーニーは、「チャレンジ：[ チャレンジ名 ]」という名前形式でジャーニーインベントリに表示されます。
+Journey Optimizerは、ドラフトステータスの [&#x200B; ジャーニー &#x200B;](../building-journeys/journey-gs.md) を自動的に作成します。 自動生成されたジャーニーは、「チャレンジ：[ チャレンジ名 ]」という名前形式でジャーニーインベントリに表示されます。
 
-必要に応じてジャーニー設定を確認し [ ジャーニーをアクティブ化 ](../building-journeys/publish-journey.md) して、お客様が課題を利用できるようにします。
+必要に応じてジャーニー設定を確認し [&#x200B; ジャーニーをアクティブ化 &#x200B;](../building-journeys/publish-journey.md) して、お客様が課題を利用できるようにします。
 
 ジャーニーは、指定したチャレンジ開始日に自動的に開始され、設定に従ってコンテンツとメッセージが配信されます。
 
@@ -262,4 +262,4 @@ Journey Optimizerは、ドラフトステータスの [ ジャーニー ](../bui
 
 ## 次の手順 {#next-steps}
 
-* [ 課題の管理 ](manage-challenges.md) – 課題を編集、監視、最適化します。
+* [&#x200B; 課題の管理 &#x200B;](manage-challenges.md) – 課題を編集、監視、最適化します。
