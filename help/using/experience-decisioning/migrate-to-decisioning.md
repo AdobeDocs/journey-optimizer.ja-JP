@@ -26,7 +26,7 @@ Adobe Journey Optimizerの次世代の意思決定フレームワークおよび
 
 ### AI と機械学習機能
 
-* **カスタム指標**:AI モデルにカスタム最適化指標を使用する機能。 これにより、[Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"} とのレポートの相互運用性が確保され、両方のプラットフォームでレポートが標準化され、データの一貫性と信頼性が向上します。 このシームレスな統合により、パフォーマンス指標をより明確に把握でき、シンプルな指標の作成、オーディエンスの公開、Insight Builder を使用したアドホックな質問の回答、レポートのスケジュール設定などの新機能が追加されます。
+* **カスタム指標**:AI モデルにカスタム最適化指標を使用する機能。 これにより、[Customer Journey Analytics](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"} とのレポートの相互運用性が確保され、両方のプラットフォームでレポートが標準化され、データの一貫性と信頼性が向上します。 このシームレスな統合により、パフォーマンス指標をより明確に把握でき、シンプルな指標の作成、オーディエンスの公開、Insight Builder を使用したアドホックな質問の回答、レポートのスケジュール設定などの新機能が追加されます。
 
 * **リフト測定**:AI モデルでトラフィックの探索と利用を視覚化する機能。 これにより、マーケターとデータサイエンティストは、AI 探索によって長期的なモデルのパフォーマンスと、新しい勝者オファーの検出可能性を向上させる方法を定量化できます。 トラフィック配分に対する透明性は、AI の決定に対する信頼を構築し、チームが時間の経過と共に学習とパフォーマンスの両方を最適化できるようにします。 [詳細情報](ranking/auto-optimization-model.md#lift)
 
