@@ -24,10 +24,10 @@ ht-degree: 0%
 
 **ロイヤルティの課題に関するドキュメント：**
 
-* [ ロイヤルティの課題の概要 ](get-started.md) – 概要、ワークフロー、前提条件
+* [&#x200B; ロイヤルティの課題の概要 &#x200B;](get-started.md) – 概要、ワークフロー、前提条件
 * **ロイヤルティの課題へのアクセス**◀︎**現在の状況** – 在庫とフィルタリング
-* [ 課題の作成 ](create-challenges.md) – 課題の作成と設定
-* [ 課題の管理 ](manage-challenges.md) – 編集、監視、最適化
+* [&#x200B; 課題の作成 &#x200B;](create-challenges.md) – 課題の作成と設定
+* [&#x200B; 課題の管理 &#x200B;](manage-challenges.md) – 編集、監視、最適化
 
 >[!ENDSHADEBOX]
 
@@ -98,7 +98,7 @@ ht-degree: 0%
 
 2. チャレンジ作成ワークフローが開始されます。
 
-手順について詳しくは、[ 課題の作成 ](create-challenges.md) を参照してください。
+手順について詳しくは、[&#x200B; 課題の作成 &#x200B;](create-challenges.md) を参照してください。
 
 ## 「タスク」タブ {#tasks-tab}
 
@@ -148,5 +148,5 @@ ht-degree: 0%
 
 これで、ロイヤルティ課題インベントリにアクセスしてナビゲートする方法がわかりました。
 
-* [ 課題の作成 ](create-challenges.md) – 最初の課題の作成方法を説明します
-* [ 課題の管理 ](manage-challenges.md) – 課題の編集および監視方法を説明します
+* [&#x200B; 課題の作成 &#x200B;](create-challenges.md) – 最初の課題の作成方法を説明します
+* [&#x200B; 課題の管理 &#x200B;](manage-challenges.md) – 課題の編集および監視方法を説明します

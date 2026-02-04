@@ -25,9 +25,9 @@ ht-degree: 4%
 **ロイヤルティの課題に関するドキュメント：**
 
 * **ロイヤルティの課題の概要** ◀︎ **概要** ワークフロー、前提条件
-* [ ロイヤルティの課題へのアクセス ](access-loyalty-challenges.md) – 在庫とフィルタリング
-* [ 課題の作成 ](create-challenges.md) – 課題の作成と設定
-* [ 課題の管理 ](manage-challenges.md) – 編集、監視、最適化
+* [&#x200B; ロイヤルティの課題へのアクセス &#x200B;](access-loyalty-challenges.md) – 在庫とフィルタリング
+* [&#x200B; 課題の作成 &#x200B;](create-challenges.md) – 課題の作成と設定
+* [&#x200B; 課題の管理 &#x200B;](manage-challenges.md) – 編集、監視、最適化
 
 >[!ENDSHADEBOX]
 
@@ -110,7 +110,7 @@ ht-degree: 4%
 
 手順について詳しくは、以下を参照してください。
 
-* [Experience Platform ソースのドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
+* [Experience Platform ソースのドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [Journey Optimizerでのソースコネクタの設定](../start/get-started-sources.md)
 
 ### 必要な権限 {#required-permissions}
