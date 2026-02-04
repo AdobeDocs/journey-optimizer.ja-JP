@@ -86,7 +86,7 @@ ht-degree: 4%
 
 手順について詳しくは、以下を参照してください。
 
-* [Experience Platform ソースのドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
+* [Experience Platform ソースのドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/home)
 * [Journey Optimizerでのソースコネクタの設定](../start/get-started-sources.md)
 
 +++
