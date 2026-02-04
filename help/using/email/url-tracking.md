@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 設定, メール, 設定
 exl-id: 5a12280c-b937-4cd9-a1ef-563bab48e42e
-source-git-commit: ffcf4711d733dad725cbb95fd30438535c922bda
-workflow-type: ht
-source-wordcount: '397'
-ht-degree: 100%
+source-git-commit: d336684656c75af682a72b0acab071df15a79004
+workflow-type: tm+mt
+source-wordcount: '433'
+ht-degree: 91%
 
 ---
 
@@ -31,6 +31,10 @@ ht-degree: 100%
 新しい[メールチャネル設定](email-settings.md)を指定する際に、**[!UICONTROL URL トラッキングパラメーター]**&#x200B;を定義し、チャネルをまたいでマーケティング活動の有効性を測定できます。この機能のアクティブ化はオプションです。
 
 対応する節で定義したパラメーターは、メールメッセージコンテンツに含まれる URL の末尾に追加されます。その後、これらのパラメーターを Adobe Analytics や Google Analytics などの web 分析ツールで取得し、様々なパフォーマンスレポートを作成できます。
+
+>[!NOTE]
+>
+>URL に追加される URL トラッキングパラメーターの順序はランダムで、制御できません。 システムが特定の順序でパラメーターを必要とする場合は、側でパラメーターを解析して並べ替える必要があります。
 
 「**[!UICONTROL 新しいパラメーターを追加]**」ボタンを使用して最大 10 個のトラッキングパラメーターを追加できます。
 

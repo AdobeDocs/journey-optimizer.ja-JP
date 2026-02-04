@@ -5,9 +5,9 @@ feature: Decisioning
 topic: Integrations
 role: User
 level: Experienced
-source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
+source-git-commit: d336684656c75af682a72b0acab071df15a79004
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1243'
 ht-degree: 3%
 
 ---
@@ -26,7 +26,7 @@ Adobe Journey Optimizerの次世代の意思決定フレームワークおよび
 
 ### AI と機械学習機能
 
-* **カスタム指標**:AI モデルにカスタム最適化指標を使用する機能。 これにより、[Customer Journey Analytics](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"} とのレポートの相互運用性が確保され、両方のプラットフォームでレポートが標準化され、データの一貫性と信頼性が向上します。 このシームレスな統合により、パフォーマンス指標をより明確に把握でき、シンプルな指標の作成、オーディエンスの公開、Insight Builder を使用したアドホックな質問の回答、レポートのスケジュール設定などの新機能が追加されます。
+* **カスタム指標**:AI モデルにカスタム最適化指標を使用する機能。 これにより、[Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"} とのレポートの相互運用性が確保され、両方のプラットフォームでレポートが標準化され、データの一貫性と信頼性が向上します。 このシームレスな統合により、パフォーマンス指標をより明確に把握でき、シンプルな指標の作成、オーディエンスの公開、Insight Builder を使用したアドホックな質問の回答、レポートのスケジュール設定などの新機能が追加されます。
 
 * **リフト測定**:AI モデルでトラフィックの探索と利用を視覚化する機能。 これにより、マーケターとデータサイエンティストは、AI 探索によって長期的なモデルのパフォーマンスと、新しい勝者オファーの検出可能性を向上させる方法を定量化できます。 トラフィック配分に対する透明性は、AI の決定に対する信頼を構築し、チームが時間の経過と共に学習とパフォーマンスの両方を最適化できるようにします。 [詳細情報](ranking/auto-optimization-model.md#lift)
 
@@ -62,11 +62,11 @@ Adobe Journey Optimizerの次世代の意思決定フレームワークおよび
 
 ### その他の機能
 
-* **ポリシーの適用**：ビジネスユーザーの権限を強化し、Decisioning 内で [&#x200B; データ使用のラベル付けと適用（DULE） &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/overview){target="_blank"} および [&#x200B; 同意 &#x200B;](../action/consent.md) などの機能を使用し、決定ワークフロー全体でプライバシーシールド保護を有効にします。 これにより、決定がデータ使用ポリシーおよび顧客の同意環境設定に自動的に従うようにします。
+* **ポリシーの適用**：ビジネスユーザーの権限を強化し、Decisioning 内で [ データ使用のラベル付けと適用（DULE） ](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/overview){target="_blank"} および [ 同意 ](../action/consent.md) などの機能を使用し、決定ワークフロー全体でプライバシーシールド保護を有効にします。 これにより、決定がデータ使用ポリシーおよび顧客の同意環境設定に自動的に従うようにします。
 
-* **ネイティブメッセージチャネルのサポート**：複数のチャネル（[&#x200B; コードベースのエクスペリエンス &#x200B;](../code-based/get-started-code-based.md) および [&#x200B; メール &#x200B;](../email/get-started-email.md) が現在利用可能で、2026 年第 1 四半期に予定されているその他のチャネル）にわたって 1 つのフレームワーク内でメッセージングと意思決定を統合します。 直感的な UI のサポートにより、ユーザーは、メッセージオーサリングワークフローに決定コンポーネントを直接挿入できます。
+* **ネイティブメッセージチャネルのサポート**：複数のチャネル（[ コードベースのエクスペリエンス ](../code-based/get-started-code-based.md) および [ メール ](../email/get-started-email.md) が現在利用可能で、2026 年第 1 四半期に予定されているその他のチャネル）にわたって 1 つのフレームワーク内でメッセージングと意思決定を統合します。 直感的な UI のサポートにより、ユーザーは、メッセージオーサリングワークフローに決定コンポーネントを直接挿入できます。
 
-* **Experience Platform データセットのルックアップ**: オファーの選択ルール、ランキング、パーソナライズされたオファーコンテンツ内で [2&rbrace;Adobe Experience Platform データセット &rbrace; を直接アップロードおよび参照する機能。 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/overview){target="_blank"}これにより、決定ロジックで動的外部データソースを使用できるようになり、パーソナライゼーションとターゲティングの柔軟性が向上します。 [詳細情報](../data/lookup-aep-data.md)
+* **Experience Platform データセットのルックアップ**: オファーの選択ルール、ランキング、パーソナライズされたオファーコンテンツ内で [2}Adobe Experience Platform データセット } を直接アップロードおよび参照する機能。 ](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/overview){target="_blank"}これにより、決定ロジックで動的外部データソースを使用できるようになり、パーソナライゼーションとターゲティングの柔軟性が向上します。 [詳細情報](../data/lookup-aep-data.md)
 
 * **スケーラビリティとパフォーマンス**：決定計算をハブからエッジに移動させるアーキテクチャの強化。待ち時間が大幅に削減され、高トラフィックのユースケースのスループットが向上します。
 
@@ -95,12 +95,11 @@ Adobe Journey Optimizerの次世代の意思決定フレームワークおよび
 * **異なる範囲での移行** - サンドボックス、オファーまたは決定レベル
 * **ロールバック移行** 問題が検出された場合
 
-認証、エンドポイント、リクエスト/応答の例、ステップごとのワークフローなど、完全な API ドキュメントについては、[Decisioning Migration API ドキュメント &#x200B;](decisioning-migration-api.md) を参照してください。
+認証、エンドポイント、リクエスト/応答の例、ステップごとのワークフローなど、完全な API ドキュメントについては、[ このページ ](decisioning-migration-api.md) を参照してください。
 
 ## 関連トピック {#related-topics}
 
 * [決定の基本を学ぶ](gs-experience-decisioning.md)
 * [決定ガードレールと制限](decisioning-guardrails.md)
 * [Decisioning FAQ](decisioning-faq.md)
-* [Decisioning Migration API](decisioning-migration-api.md)
 
