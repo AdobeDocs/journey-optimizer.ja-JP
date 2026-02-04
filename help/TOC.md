@@ -51,7 +51,7 @@ ht-degree: 98%
       + [ジャーニーとキャンペーン](using/start/journeys-vs-campaigns.md)
 + ジャーニー {#orchestrate-journeys}
    + [ジャーニーの基本を学ぶ](using/building-journeys/journey.md)
-   + [ジャーニー入門ガイド](using/building-journeys/journey-get-started.md)
+   + [ジャーニーの基本を学ぶガイド](using/building-journeys/journey-get-started.md)
    + [ジャーニータイプと選択ガイド](using/building-journeys/journey-types-selection.md)
    + [Journey Orchestration に関する FAQ](using/building-journeys/journey-faq.md)
    + ジャーニーの作成 {#create-journey}
@@ -508,8 +508,8 @@ ht-degree: 98%
       + [自動翻訳を使用した多言語コンテンツの作成](using/content-management/multilingual-automated.md)
    + コンテンツの最適化 {#message-optimization}
       + [最適化の基本を学ぶ](using/content-management/gs-message-optimization.md)
-      + [ターゲティングを使用](using/content-management/optimization-targeting.md)
-      + [実験を使用](using/content-management/optimization-experimentation.md)
+      + [ターゲティングの使用](using/content-management/optimization-targeting.md)
+      + [実験の使用](using/content-management/optimization-experimentation.md)
       + [ターゲティングと実験を組み合わせ](using/content-management/optimization-combination.md)
    + コンテンツ実験 {#content-experiment}
       + [コンテンツ実験の基本を学ぶ](using/content-management/get-started-experiment.md)
@@ -944,7 +944,7 @@ ht-degree: 98%
    + [プライバシー](/help/rp_landing_pages/privacy-landing-page.md)
    + [プライバシーの基本を学ぶ](using/privacy/get-started-privacy.md)
    + [プライバシーリクエスト](using/privacy/requests.md)
-   + [&#x200B; リソースに対する監査アクション](using/privacy/audit-logs.md)
+   + [ リソースに対する監査アクション](using/privacy/audit-logs.md)
    + [データライフサイクル操作の実行](using/privacy/data-hygiene.md)
    + 同意を管理 {#consent}
       + [同意を管理](/help/rp_landing_pages/consent-landing-page.md)

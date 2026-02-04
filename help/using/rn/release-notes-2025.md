@@ -11,7 +11,7 @@ exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
 source-git-commit: 7ec41e5b1aa51991847ef8cf9dad428b06dfcaef
 workflow-type: tm+mt
 source-wordcount: '9009'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 99%
 <td>
 <p>画像から HTML へのコンバーターは、静的な画像デザインを完全にカスタマイズ可能なモジュール式の HTML メールコンテンツテンプレートに変換する AI を活用した機能です。このコードなしのツールを使用すると、マーケターは技術的な専門知識を必要とせずに、ビジュアルデザインをレスポンシブで編集可能なメールテンプレートに変換できます。プラットフォームの移行、迅速なテンプレート作成、再利用可能なテンプレートライブラリの作成に最適です。</p>
 <p><img src="../email/assets/email_designer_converted_img.png"/></p>
-<p>この機能は、限定提供です。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
+<p>この機能は、限定提供で使用できます。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
 <p>詳しくは、<a href="../email/image-to-html.md">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2025年10月30日（PT）</p>
 </td>
@@ -261,7 +261,7 @@ ht-degree: 99%
 <tr>
 <td>
 <p>新しい「executionMetadata」ヘルパー関数がパーソナライゼーションエディターで使用できます。これを使用すると、任意のネイティブアクションにコンテキスト情報を追加し、データセットにキャプチャして外部システムにエクスポートできます。</p>
-<p>この機能は、限定提供です。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
+<p>この機能は、限定提供で使用できます。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
 <img src="assets/do-not-localize/execution-metadata.gif">
 <p>詳しくは、<a href="../personalization/functions/helpers.md#execution-metadata">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2025年10月13日（PT）</p>
@@ -516,7 +516,7 @@ You can now use AI models to optimize the best content in your email through the
 <td>
 <p>新しい最適化ノードを使用して特定のオーディエンスにターゲットを設定するか、A/B テストを実行して、ビジネス目標に焦点を合わせた KPI を達成する最適なパスを決定します。</p>
 <p>このツールを使用すると、コミュニケーション、シーケンス、タイミングをテスト、調整、カスタマイズし、顧客に最も効果的にリーチできます。</p>
-<p>この機能は、限定提供です。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
+<p>この機能は、限定提供で使用できます。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
 <p><img src="assets/do-not-localize/optimize.gif"/></p>
 <p>詳しくは、<a href="../building-journeys/optimize.md">詳細なドキュメント</a>を参照してください</p>
 <p>公開日：2025年9月4日（PT）</p>
@@ -535,7 +535,7 @@ You can now use AI models to optimize the best content in your email through the
 <tr>
 <td>
 <p>完全なデリゲーションと CNAME メソッドに加えて、新しいサブドメイン設定メソッドとして、カスタムデリゲーションメソッドが使用できるようになりました。これにより、メッセージの配信、レンダリング、トラッキングに必要な DNS のあらゆる側面を完全に制御および管理できます。</p>
-<p>この機能は、限定提供です。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
+<p>この機能は、限定提供で使用できます。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
 <p><img src="assets/do-not-localize/custom-delegation.gif"/></p>
 <p>詳しくは、<a href="../configuration/delegate-custom-subdomain.md">詳細なドキュメント</a>を参照してください</p>
 <p>公開日：2025年9月4日（PT）</p>
@@ -727,7 +727,7 @@ You can now use AI models to optimize the best content in your email through the
 <li>組み込みのチャネルアクションに最適化を追加する機能。</li>
 <li>任意のアクションに実験オプションと多言語オプションの両方を追加する機能。</li>
 </ul>
-<p>この機能は、限定提供です。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
+<p>この機能は、限定提供で使用できます。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
 <p><img src="assets/do-not-localize/action-activity.gif"/></p>
 <p>詳しくは、<a href="../building-journeys/journey-action.md">詳細なドキュメント</a>を参照してください</p>
 </td>
@@ -750,7 +750,7 @@ You can now use AI models to optimize the best content in your email through the
 <li>各添付ファイルの最大許容ファイルサイズは 5 MB です。</li>
 <li>追加のサイズまたはボリュームについては、添付ファイルパックアドオンを購入できます。詳しくは、アドビ担当者にお問い合わせください。</li>
 </ul>
-<p>この機能は、限定提供です。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
+<p>この機能は、限定提供で使用できます。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
 <p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
 <p>詳しくは、<a href="../email/pdf-attachments.md">詳細なドキュメント</a>を参照してください</p>
 </td>
@@ -857,7 +857,7 @@ You can now use AI models to optimize the best content in your email through the
 
    * **ワンクリック登録解除 URL を使用したカスタム属性のサポート** - Journey Optimizer では、アドビ以外で同意を管理している場合、メール設定で独自のワンクリック登録解除リンクを定義して、外部カスタムエンドポイントを設定できます。受信者が登録解除リンクをクリックすると、Journey Optimizer では、同意更新イベントにいくつかのデフォルトのプロファイル固有のパラメーターが追加されます。
 
-     ワンクリック登録解除リンクをさらにパーソナライズするのに、同意イベントにも追加されるカスタム属性を定義できるようになりました。この機能は、限定提供です。[詳細情報](../email/list-unsubscribe.md#custom-attributes)
+     ワンクリック登録解除リンクをさらにパーソナライズするのに、同意イベントにも追加されるカスタム属性を定義できるようになりました。この機能は、限定提供で使用できます。[詳細情報](../email/list-unsubscribe.md#custom-attributes)
 
 * **データセット**
 
@@ -977,8 +977,8 @@ Adobe Journey Optimizer では、人物ベースのプロファイルにリン�
 <tbody>
 <tr>
 <td>
-<p>メールジャーニーとキャンペーンに決定ポリシーを追加できるようになりました。決定ポリシーは、配信する最適なコンテンツを各オーディエンスメンバーに応じて動的に返すことを目的に、決定エンジンを活用するオファーのためのコンテナです。</p>
-<p>この機能は、限定提供です。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
+<p>メールジャーニーとキャンペーンに決定ポリシーを追加できるようになりました。決定ポリシーは、各オーディエンスメンバーに配信する最適なコンテンツを動的に返すことを目的に、決定エンジンを活用するオファーのコンテナです。</p>
+<p>この機能は、限定提供で使用できます。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
 詳しくは、<a href="../experience-decisioning/create-decision.md">詳細なドキュメント</a>を参照してください</p>
 </td>
 </tr>

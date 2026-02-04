@@ -13,7 +13,7 @@ exl-id: e2506a43-e4f5-48af-bd14-ab76c54b7c90
 source-git-commit: a7d2557790054e7c6e28ca3ffa937f454c4b004c
 workflow-type: tm+mt
 source-wordcount: '1510'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -92,7 +92,7 @@ Adobe Journey Optimizer を使用すると、複数のチャネルをまたい�
 
 **キャンペーン**&#x200B;とは、1 つ以上のチャネルをまたいで特定のオーディエンスにコンテンツを配信する、調整されたマーケティングアクションです。アクションが順番に実行されるジャーニーとは異なり、キャンペーンは、アクションを即時に、または定義されたスケジュールに従って同時実行します。
 
-[!DNL Journey Optimizer] キャンペーンを使用して、次のことを行います。
+[!DNL Journey Optimizer] キャンペーンを使用すると、次の操作を実行できます。
 
 * ターゲットオーディエンスセグメントに **1 回限りのコンテンツまたは繰り返しコンテンツ**&#x200B;を配信
 * メール、プッシュ通知、SMS、アプリ内、web など、**調整されたマルチチャネル通信**&#x200B;を実行
@@ -171,7 +171,7 @@ Adobe Journey Optimizer を使用すると、複数のチャネルをまたい�
 
   | キャンペーンタイプ | 権限 |
   |-------------|---------------|
-  | **アクションキャンペーン** および **API トリガーキャンペーン** | キャンペーン管理者<br>キャンペーン承認者<br>キャンペーンマネージャー<br>キャンペーンビューアー |
+  | **アクションキャンペーン**&#x200B;および **API トリガーキャンペーン** | キャンペーン管理者<br>キャンペーン承認者<br>キャンペーンマネージャー<br>キャンペーンビューアー |
   | **オーケストレーションキャンペーン** | オーケストレーションキャンペーン管理者<br>オーケストレーションキャンペーン承認者<br>オーケストレーションキャンペーンマネージャー<br>オーケストレーションキャンペーンビューアー |
 
   +++
@@ -216,7 +216,7 @@ Adobe Journey Optimizer を使用すると、複数のチャネルをまたい�
 4. 競合管理を使用する場合は、**優先度を設定**&#x200B;します
 5. **スケジュール**（アクションキャンペーンの場合）または API の詳細（API トリガーの場合）を設定します
 
-**タイプ固有のガイド：**&#x200B;[アクションキャンペーンプロパティ](campaign-properties.md) | [API トリガーキャンペーンプロパティ](api-triggered-campaign-properties.md) | [オーケストレーションキャンペーン設定](../orchestrated/create-orchestrated-campaign.md)
+**タイプ固有のガイド：**[アクションキャンペーンプロパティ](campaign-properties.md) | [API トリガーキャンペーンプロパティ](api-triggered-campaign-properties.md) | [オーケストレーションキャンペーン設定](../orchestrated/create-orchestrated-campaign.md)
 
 +++
 
@@ -230,7 +230,7 @@ Adobe Journey Optimizer を使用すると、複数のチャネルをまたい�
 * **アプリ内**&#x200B;および **web** エクスペリエンスを作成
 * プロファイル属性とコンテキストデータを使用して&#x200B;**パーソナライゼーション**&#x200B;を追加
 
-**タイプ固有のガイド：**&#x200B;[アクションキャンペーンコンテンツ](campaign-content.md) | [API トリガーキャンペーンコンテンツ](api-triggered-campaign-content.md) | [オーケストレーションキャンペーンコンテンツ](../orchestrated/create-orchestrated-campaign.md)
+**タイプ固有のガイド：**[アクションキャンペーンコンテンツ](campaign-content.md) | [API トリガーキャンペーンコンテンツ](api-triggered-campaign-content.md) | [オーケストレーションキャンペーンコンテンツ](../orchestrated/create-orchestrated-campaign.md)
 
 +++
 
@@ -244,7 +244,7 @@ Adobe Journey Optimizer を使用すると、複数のチャネルをまたい�
 * 承認ワークフローを使用している場合は、**承認をリクエスト**
 * シードリストを使用して&#x200B;**配信品質をテスト**
 
-**タイプ固有のガイド：**&#x200B;[アクションキャンペーンのレビュー](review-activate-campaign.md) | [API トリガーキャンペーンのレビュー](review-activate-api-triggered-campaign.md) | [オーケストレーションキャンペーンのレビュー](../orchestrated/create-orchestrated-campaign.md)
+**タイプ固有のガイド：**[アクションキャンペーンのレビュー](review-activate-campaign.md) | [API トリガーキャンペーンのレビュー](review-activate-api-triggered-campaign.md) | [オーケストレーションキャンペーンのレビュー](../orchestrated/create-orchestrated-campaign.md)
 
 +++
 
@@ -258,7 +258,7 @@ Adobe Journey Optimizer を使用すると、複数のチャネルをまたい�
 
 メモ：アクティブなキャンペーンは編集できません（変更するには、複製する必要があります）
 
-**タイプ固有のガイド：**&#x200B;[アクションキャンペーンのアクティブ化](review-activate-campaign.md) | [API トリガーキャンペーンのアクティブ化](review-activate-api-triggered-campaign.md) | [オーケストレーションキャンペーンのアクティブ化](../orchestrated/create-orchestrated-campaign.md)
+**タイプ固有のガイド：**[アクションキャンペーンのアクティブ化](review-activate-campaign.md) | [API トリガーキャンペーンのアクティブ化](review-activate-api-triggered-campaign.md) | [オーケストレーションキャンペーンのアクティブ化](../orchestrated/create-orchestrated-campaign.md)
 
 +++
 
@@ -272,7 +272,7 @@ Adobe Journey Optimizer を使用すると、複数のチャネルをまたい�
 * コンバージョンと ROI を分析
 * インサイトを使用して最適化
 
-**タイプ固有のガイド：**&#x200B;[アクションキャンペーンレポート](../reports/campaign-global-report-cja.md) | [API トリガーキャンペーン監視](api-triggered-campaigns.md#monitor) | [オーケストレーションキャンペーン分析](../orchestrated/create-orchestrated-campaign.md)
+**タイプ固有のガイド：**[アクションキャンペーンレポート](../reports/campaign-global-report-cja.md) | [API トリガーキャンペーン監視](api-triggered-campaigns.md#monitor) | [オーケストレーションキャンペーン分析](../orchestrated/create-orchestrated-campaign.md)
 
 +++
 
@@ -291,7 +291,7 @@ Adobe Journey Optimizer を使用すると、複数のチャネルをまたい�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **スケジュールとタイミング**
 
@@ -301,17 +301,17 @@ Adobe Journey Optimizer を使用すると、複数のチャネルをまたい�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **レート制御**
 
-ランディングページやカスタマーケアプラットフォームなどのダウンストリームシステムでの過負荷を防ぐために、メッセージのスループットを制限します。
+ランディングページやカスタマーケアプラットフォームなどのダウンストリームシステムの過負荷を防ぐには、メッセージのスループットを制限します。
 
 [レート制御の制限](create-campaign.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **オーディエンスのターゲティング**
 
@@ -321,7 +321,7 @@ Adobe Journey Optimizer を使用すると、複数のチャネルをまたい�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **承認ワークフロー**
 
@@ -331,7 +331,7 @@ Adobe Journey Optimizer を使用すると、複数のチャネルをまたい�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **クワイエットアワー**
 
@@ -341,7 +341,7 @@ Adobe Journey Optimizer を使用すると、複数のチャネルをまたい�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **最適化**
 
