@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
-source-git-commit: 7b075996eebd03f0aa812da3ece9cfebef8c65fc
+source-git-commit: e98fe328b5a72a7091d48b5e2939a24e4ad6954c
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '360'
 ht-degree: 1%
 
 ---
@@ -20,23 +20,21 @@ ht-degree: 1%
 
 # 課題の管理 {#manage-challenges}
 
->[!CONTEXTUALHELP]
->id="ajo_loyalty_manage_challenges"
->title="ロイヤルティの課題の管理"
->abstract="ロイヤルティの課題を作成して公開した後、それらを表示、編集、監視および最適化して、ロイヤルティプログラムに望ましい結果を提供できるようにします。"
-
-ロイヤルティの課題を作成して公開した後、それらを表示、編集、監視および最適化して、ロイヤルティプログラムに望ましい結果を提供できるようにします。
-
 >[!BEGINSHADEBOX]
 
 **ロイヤルティの課題に関するドキュメント：**
 
-* [&#x200B; ロイヤルティの課題の概要 &#x200B;](gs-loyalty-challenges.md) – 概要と次の手順
-* [&#x200B; ロイヤルティの課題について &#x200B;](get-started.md) – 機能、ワークフロー、前提条件
-* [&#x200B; 課題の作成 &#x200B;](create-challenges.md) – 課題の作成と設定
+* [ ロイヤルティの課題の概要 ](get-started.md) – 概要、ワークフロー、前提条件
+* [ ロイヤルティの課題へのアクセス ](access-loyalty-challenges.md) – 在庫とフィルタリング
+* [ 課題の作成 ](create-challenges.md) – 課題の作成と設定
 * **課題の管理**◀︎**お客様の環境** – 編集、監視、最適化
 
 >[!ENDSHADEBOX]
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_manage_challenges"
+>title="ロイヤルティの課題の管理"
+>abstract="ロイヤルティの課題を作成して公開した後、それらを表示、編集、監視および最適化して、ロイヤルティプログラムに望ましい結果を提供できるようにします。"
 
 ## チャレンジのライフサイクル {#challenge-lifecycle}
 
@@ -104,5 +102,5 @@ ht-degree: 1%
 
 ## 次の手順 {#next-steps}
 
-* [&#x200B; 課題の作成 &#x200B;](create-challenges.md) – 新しいロイヤルティの課題を作成します
-* [&#x200B; ロイヤルティの課題について &#x200B;](get-started.md) – 機能と性能の確認
+* [ 課題の作成 ](create-challenges.md) – 新しいロイヤルティの課題を作成します
+* [ ロイヤルティの課題について ](get-started.md) – 機能と性能の確認

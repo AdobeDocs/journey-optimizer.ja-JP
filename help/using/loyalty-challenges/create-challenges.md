@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
-source-git-commit: 7b075996eebd03f0aa812da3ece9cfebef8c65fc
+source-git-commit: e98fe328b5a72a7091d48b5e2939a24e4ad6954c
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1055'
 ht-degree: 1%
 
 ---
@@ -20,23 +20,21 @@ ht-degree: 1%
 
 # 課題の作成 {#create-challenges}
 
->[!CONTEXTUALHELP]
->id="ajo_loyalty_create_challenge"
->title="ロイヤルティに関する課題の作成"
->abstract="ロイヤルティの課題を作成して、エンゲージメントオファーを定義し、配信のコンテンツカードを設定し、タスクを追加し、報酬を設定し、オプションでチャネル間のメッセージを設定します。"
-
-ロイヤルティの課題を作成して、エンゲージメントオファーの定義、コンテンツカードの設定、タスクの追加、報酬の設定、チャネル間でのメッセージの設定を行います。
-
 >[!BEGINSHADEBOX]
 
 **ロイヤルティの課題に関するドキュメント：**
 
-* [&#x200B; ロイヤルティの課題の概要 &#x200B;](gs-loyalty-challenges.md) – 概要と次の手順
-* [&#x200B; ロイヤルティの課題について &#x200B;](get-started.md) – 機能、ワークフロー、前提条件
+* [ ロイヤルティの課題の概要 ](get-started.md) – 概要、ワークフロー、前提条件
+* [ ロイヤルティの課題へのアクセス ](access-loyalty-challenges.md) – 在庫とフィルタリング
 * **課題の作成** ◀︎ **現在の状況** – 課題の作成と設定
-* [&#x200B; 課題の管理 &#x200B;](manage-challenges.md) – 編集、監視、最適化
+* [ 課題の管理 ](manage-challenges.md) – 編集、監視、最適化
 
 >[!ENDSHADEBOX]
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_create_challenge"
+>title="ロイヤルティに関する課題の作成"
+>abstract="ロイヤルティの課題を作成して、エンゲージメントオファーを定義し、配信のコンテンツカードを設定し、タスクを追加し、報酬を設定し、オプションでチャネル間のメッセージを設定します。"
 
 ## 事前準備 {#before-you-start}
 
@@ -265,5 +263,5 @@ ht-degree: 1%
 
 ## 次の手順 {#next-steps}
 
-* [&#x200B; 課題の管理 &#x200B;](manage-challenges.md) – 課題を編集、監視、最適化する方法を説明します。
-* [&#x200B; ロイヤルティの課題について &#x200B;](get-started.md) – 機能と性能の確認
+* [ 課題の管理 ](manage-challenges.md) – 課題を編集、監視、最適化する方法を説明します。
+* [ ロイヤルティの課題について ](get-started.md) – 機能と性能の確認
