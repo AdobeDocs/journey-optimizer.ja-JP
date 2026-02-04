@@ -10,37 +10,35 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
-source-git-commit: fd87aeabfae1f07d8f7bea7057f0c6dd0559d024
+source-git-commit: e978d075efbbcb42e7500d921bd8cc3ed1eee890
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '805'
 ht-degree: 3%
 
 ---
 
 
-# 課題の管理 {#manage-challenges}
+# 課題とタスクの管理 {#manage-challenges}
 
 >[!BEGINSHADEBOX]
 
 **ロイヤルティの課題に関するドキュメント：**
 
-* [&#x200B; ロイヤルティの課題の概要 &#x200B;](get-started.md) – 概要、ワークフロー、前提条件
-* [&#x200B; ロイヤルティの課題へのアクセス &#x200B;](access-loyalty-challenges.md) – 在庫とフィルタリング
-* [&#x200B; 課題の作成 &#x200B;](create-challenges.md) – 課題の作成と設定
-* [&#x200B; タスクの作成 &#x200B;](create-tasks.md) – 課題タスクの定義
+* [ ロイヤルティの課題の概要 ](get-started.md) – 概要、ワークフロー、前提条件
+* [ ロイヤルティの課題へのアクセス ](access-loyalty-challenges.md) – 在庫とフィルタリング
+* [ 課題の作成 ](create-challenges.md) – 課題の作成と設定
+* [ タスクの作成 ](create-tasks.md) – 課題タスクの定義
 * **課題の管理**◀︎**お客様の環境** – 編集、監視、最適化
 
 >[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
->この機能は現在 **Private Beta** であり、お使いの環境では使用できない場合があります。アクセス権をリクエストするには、Adobe担当者にお問い合わせください。 詳細情報 [&#x200B; 可用性ラベル &#x200B;](../rn/releases.md#availability-labels)。
+>この機能は現在 **Private Beta** であり、お使いの環境では使用できない場合があります。アクセス権をリクエストするには、Adobe担当者にお問い合わせください。 詳細情報 [ 可用性ラベル ](../rn/releases.md#availability-labels)。
 
 ## 課題の管理 {#manage-challenges-section}
 
-### チャレンジのライフサイクル {#challenge-lifecycle}
-
-<!-- VISUAL: Flowchart diagram showing challenge lifecycle with status transitions: Draft → Scheduled → Live → Completed/Stopped/Archived -->
+### チャレンジ状態 {#challenge-lifecycle}
 
 課題は、ライフサイクルの中で様々なステータスを通過します。
 
@@ -107,7 +105,7 @@ ht-degree: 3%
 
 <!-- SCREENSHOT: Journey report showing challenge performance data with graphs and tables -->
 
-また、[&#x200B; 自動生成されたジャーニーレポート &#x200B;](../reports/journey-global-report-cja.md) で詳細なパフォーマンスデータにアクセスすることもでき、追加のインサイトと履歴トレンドを提供します。
+また、[ 自動生成されたジャーニーレポート ](../reports/journey-global-report-cja.md) で詳細なパフォーマンスデータにアクセスすることもでき、追加のインサイトと履歴トレンドを提供します。
 
 ## タスクの管理 {#manage-tasks}
 

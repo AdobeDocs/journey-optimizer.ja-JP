@@ -10,10 +10,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
-source-git-commit: fd87aeabfae1f07d8f7bea7057f0c6dd0559d024
+source-git-commit: e978d075efbbcb42e7500d921bd8cc3ed1eee890
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 3%
+source-wordcount: '453'
+ht-degree: 4%
 
 ---
 
@@ -24,19 +24,26 @@ ht-degree: 3%
 
 **ロイヤルティの課題に関するドキュメント：**
 
-* [&#x200B; ロイヤルティの課題の概要 &#x200B;](get-started.md) – 概要、ワークフロー、前提条件
+* [ ロイヤルティの課題の概要 ](get-started.md) – 概要、ワークフロー、前提条件
 * **ロイヤルティの課題へのアクセス**◀︎**現在の状況** – 在庫とフィルタリング
-* [&#x200B; 課題の作成 &#x200B;](create-challenges.md) – 課題の作成と設定
-* [&#x200B; タスクの作成 &#x200B;](create-tasks.md) – 課題タスクの定義
-* [&#x200B; 課題の管理 &#x200B;](manage-challenges.md) – 編集、監視、最適化
+* [ 課題の作成 ](create-challenges.md) – 課題の作成と設定
+* [ タスクの作成 ](create-tasks.md) – 課題タスクの定義
+* [ 課題の管理 ](manage-challenges.md) – 編集、監視、最適化
 
 >[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
->この機能は現在 **Private Beta** であり、お使いの環境では使用できない場合があります。アクセス権をリクエストするには、Adobe担当者にお問い合わせください。 詳細情報 [&#x200B; 可用性ラベル &#x200B;](../rn/releases.md#availability-labels)。
+>この機能は現在 **Private Beta** であり、お使いの環境では使用できない場合があります。アクセス権をリクエストするには、Adobe担当者にお問い合わせください。 詳細情報 [ 可用性ラベル ](../rn/releases.md#availability-labels)。
 
 ロイヤルティの課題にアクセスするには、Journey Optimizerに移動し、「**[!UICONTROL ジャーニー管理]**」セクションで **[!UICONTROL 「ロイヤルティの課題（Beta）]** を選択します。
+
+## 概要 {#overview}
+
+ロイヤルティの課題インターフェイスは、すべての課題とタスクを一元的に表示、管理、整理する場所を提供します。 次の 2 つの主要なインベントリにアクセスできます。
+
+* **課題インベントリ**：すべてのロイヤルティの課題を表示および管理し、そのステータスを監視して、クイックアクションを実行します
+* **タスクインベントリ**：複数の課題で再利用可能なタスクを参照する
 
 ## 課題インベントリ {#challenges-tab}
 
@@ -44,27 +51,22 @@ ht-degree: 3%
 
 ![](assets/challenges-inventory.png)
 
-次の情報が表示されます。
+表示されるキー情報：
 
-* **[!UICONTROL チャレンジ]**：チャレンジに割り当てた名前
-* **[!UICONTROL 状態]**：チャレンジの現在の状態。 ステータス遷移とチャレンジライフサイクルについて詳しくは、[&#x200B; チャレンジライフサイクル &#x200B;](manage-challenges.md#challenge-lifecycle) を参照してください。
-* **[!UICONTROL 説明]**：課題の目的の簡単な説明
+* **[!UICONTROL チャレンジ]**：チャレンジ名
+* **[!UICONTROL 状態]**：チャレンジの現在の状態（ドラフトまたは公開済み）。 [ ステータス遷移の詳細情報 ](manage-challenges.md#challenge-lifecycle)
 * **[!UICONTROL タスク]**：チャレンジで設定されたタスクの数
 * **[!UICONTROL ジャーニー]**：課題に関連付けられた自動生成ジャーニーへのリンク
 * **[!UICONTROL ステータス]**：関連付けられたジャーニーの現在のステータス（ドラフト、ライブ、停止など）
-* **[!UICONTROL 開始日（UTC）]**：チャレンジがアクティブになるタイミング
-* **[!UICONTROL 終了日（UTC）]**：チャレンジの有効期限がいつ切れるか
-* **[!UICONTROL 最終変更]**：最終変更日時
-* **[!UICONTROL 作成日]**：チャレンジが作成された日付
-* **[!UICONTROL 作成者]**：課題を作成したユーザー
+* **[!UICONTROL 開始日/終了日（UTC）]**：チャレンジがアクティブになる日時と有効期限が切れる日時
 
 「課題」タブから、課題に対するクイックアクションを実行できます。
 
-* **チャレンジの詳細を表示**：チャレンジ名を選択して詳細ページを開きます
+* **チャレンジの詳細を表示**：チャレンジ名を選択して詳細ページを開いたり、チャレンジを編集したりします
 * **チャレンジを複製**:![](assets/do-not-localize/Smock_More_18_N.svg) のアイコンを選択し、「**[!UICONTROL 複製]**」を選択します
 * **ドラフトチャレンジの削除**:「![](assets/do-not-localize/Smock_More_18_N.svg)」アイコンを選択し、「**[!UICONTROL 削除]**」を選択します
 
-作成後の課題の管理について詳しくは、[&#x200B; 課題とタスクの管理 &#x200B;](manage-challenges.md) を参照してください。
+[ 作成後に課題を管理する方法を説明します ](manage-challenges.md)。
 
 ## タスクインベントリ {#tasks-tab}
 
@@ -72,29 +74,25 @@ ht-degree: 3%
 
 ![](assets/tasks-inventory.png)
 
-タスクインベントリには、次の情報が表示されます。
+表示されるキー情報：
 
 * **[!UICONTROL タスク名]**：タスクに割り当てた名前
 * **[!UICONTROL 説明]**：タスクに必要なものについての簡単な説明
 * **[!UICONTROL タスクアクティビティ]**：アクティビティのタイプ（購入、支出）
 * **[!UICONTROL SKU]**：適格または除外された項目
-* **[!UICONTROL 最終変更]**：最終変更日時
-* **[!UICONTROL 最終変更者]**: タスクを最後に変更したユーザー
-* **[!UICONTROL 作成日]**: タスクが作成された日付
-* **[!UICONTROL 作成者]**: タスクを作成したユーザー
 
 「タスク」タブから、タスクに対してクイックアクションを実行できます。
 
-* **タスクの詳細を表示**：完全な設定を表示するタスク名を選択します
+* **タスクの詳細を表示**：完全な設定を表示したり、タスクを編集したりするには、タスク名を選択します
 * **タスクを複製**:![](assets/do-not-localize/Smock_More_18_N.svg) のアイコンを選択し、「**[!UICONTROL 複製]**」を選択します
 * **タスクを削除**:![](assets/do-not-localize/Smock_More_18_N.svg) アイコンを選択して「**[!UICONTROL 削除]**」を選択します
 
-作成後のタスクの管理について詳しくは、[&#x200B; 課題とタスクの管理 &#x200B;](manage-challenges.md) を参照してください。
+[ 作成後にタスクを管理する方法を説明します ](manage-challenges.md)。
 
 ## 次の手順 {#next-steps}
 
 これで、ロイヤルティ課題インベントリにアクセスしてナビゲートする方法がわかりました。
 
-* [&#x200B; 課題の作成 &#x200B;](create-challenges.md) – 最初の課題を作成し、タスクを設定する方法を説明します
-* [&#x200B; タスクの作成 &#x200B;](create-tasks.md) – 課題に対する再利用可能なタスクを定義する方法を説明します
-* [&#x200B; 課題の管理 &#x200B;](manage-challenges.md) – 課題を編集、監視、最適化する方法を説明します。
+* [ 課題の作成 ](create-challenges.md) – 最初の課題を作成し、タスクを設定する方法を説明します
+* [ タスクの作成 ](create-tasks.md) – 課題に対する再利用可能なタスクを定義する方法を説明します
+* [ 課題の管理 ](manage-challenges.md) – 課題を編集、監視、最適化する方法を説明します。
