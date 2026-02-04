@@ -24,15 +24,15 @@ ht-degree: 3%
 
 **ロイヤルティの課題に関するドキュメント：**
 
-* [ ロイヤルティの課題の概要 ](get-started.md) – 概要、ワークフロー、前提条件
+* [&#x200B; ロイヤルティの課題の概要 &#x200B;](get-started.md) – 概要、ワークフロー、前提条件
 * **ロイヤルティの課題へのアクセス** ◀︎ **現在の状況** – 在庫、課題、タスクの管理
-* [ 課題の作成 ](create-challenges.md) – 課題の作成と設定
-* [ タスクの作成 ](create-tasks.md) – 課題タスクの定義
+* [&#x200B; 課題の作成 &#x200B;](create-challenges.md) – 課題の作成と設定
+* [&#x200B; タスクの作成 &#x200B;](create-tasks.md) – 課題タスクの定義
 
 >[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
->この機能は現在 **Private Beta** であり、お使いの環境では使用できない場合があります。アクセス権をリクエストするには、Adobe担当者にお問い合わせください。 詳細情報 [ 可用性ラベル ](../rn/releases.md#availability-labels)。
+>この機能は現在 **Private Beta** であり、お使いの環境では使用できない場合があります。アクセス権をリクエストするには、Adobe担当者にお問い合わせください。 詳細情報 [&#x200B; 可用性ラベル &#x200B;](../rn/releases.md#availability-labels)。
 
 ## 常連の課題にアクセス
 

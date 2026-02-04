@@ -25,15 +25,15 @@ ht-degree: 4%
 **ロイヤルティの課題に関するドキュメント：**
 
 * **ロイヤルティの課題の概要** ◀︎ **概要** ワークフロー、前提条件
-* [ ロイヤルティの課題へのアクセスと管理 ](access-loyalty-challenges.md) – 在庫、課題、タスクの管理
-* [ 課題の作成 ](create-challenges.md) – 課題の作成と設定
-* [ タスクの作成 ](create-tasks.md) – 課題タスクの定義
+* [&#x200B; ロイヤルティの課題へのアクセスと管理 &#x200B;](access-loyalty-challenges.md) – 在庫、課題、タスクの管理
+* [&#x200B; 課題の作成 &#x200B;](create-challenges.md) – 課題の作成と設定
+* [&#x200B; タスクの作成 &#x200B;](create-tasks.md) – 課題タスクの定義
 
 >[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
->この機能は現在 **Private Beta** であり、お使いの環境では使用できない場合があります。アクセス権をリクエストするには、Adobe担当者にお問い合わせください。 詳細情報 [ 可用性ラベル ](../rn/releases.md#availability-labels)。
+>この機能は現在 **Private Beta** であり、お使いの環境では使用できない場合があります。アクセス権をリクエストするには、Adobe担当者にお問い合わせください。 詳細情報 [&#x200B; 可用性ラベル &#x200B;](../rn/releases.md#availability-labels)。
 
 ## 概要 {#overview}
 
@@ -65,7 +65,7 @@ ht-degree: 4%
 
 1. **ジャーニーの公開** - Journey Optimizerは、課題に対応するジャーニーを自動的に生成します。 ジャーニーインベントリに移動し、自動生成されたジャーニーを公開して、お客様が課題を利用できるようにします。
 
-詳細な手順については、[ 課題の作成 ](create-challenges.md) を参照してください。
+詳細な手順については、[&#x200B; 課題の作成 &#x200B;](create-challenges.md) を参照してください。
 
 ## 前提条件 {#prerequisites}
 
@@ -81,7 +81,7 @@ ht-degree: 4%
 
 手順について詳しくは、以下を参照してください。
 
-* [Experience Platform ソースのドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
+* [Experience Platform ソースのドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 * [Journey Optimizerでのソースコネクタの設定](../start/get-started-sources.md)
 
 +++
@@ -101,7 +101,7 @@ ht-degree: 4%
 
 +++ターゲットオーディエンス
 
-ロイヤルティの課題に参加する資格のある顧客を指定するターゲットオーディエンスを定義します。 チャレンジ作成インターフェイスから既存のオーディエンスを選択することも、新しいオーディエンスを直接作成することもできます。 [ オーディエンスの操作方法を学ぶ ](../audience/about-audiences.md)。
+ロイヤルティの課題に参加する資格のある顧客を指定するターゲットオーディエンスを定義します。 チャレンジ作成インターフェイスから既存のオーディエンスを選択することも、新しいオーディエンスを直接作成することもできます。 [&#x200B; オーディエンスの操作方法を学ぶ &#x200B;](../audience/about-audiences.md)。
 
 +++
 
