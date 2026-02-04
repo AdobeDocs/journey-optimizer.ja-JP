@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
-source-git-commit: f41c1ed8a2d9e74b9d8fe97e0bf9e565d326aec6
+source-git-commit: f235c56fd06b0e6ec41d1040c2b1ac057eb872f9
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '607'
 ht-degree: 4%
 
 ---
@@ -25,15 +25,15 @@ ht-degree: 4%
 **ロイヤルティの課題に関するドキュメント：**
 
 * **ロイヤルティの課題の概要** ◀︎ **概要** ワークフロー、前提条件
-* [&#x200B; ロイヤルティの課題へのアクセスと管理 &#x200B;](access-loyalty-challenges.md) – 在庫、課題、タスクの管理
-* [&#x200B; 課題の作成 &#x200B;](create-challenges.md) – 課題の作成と設定
-* [&#x200B; タスクの作成 &#x200B;](create-tasks.md) – 課題タスクの定義
+* [ ロイヤルティの課題へのアクセスと管理 ](access-loyalty-challenges.md) – 在庫、課題、タスクの管理
+* [ 課題の作成 ](create-challenges.md) – 課題の作成と設定
+* [ タスクの作成 ](create-tasks.md) – 課題タスクの定義
 
 >[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
->この機能は現在 **Private Beta** であり、お使いの環境では使用できない場合があります。アクセス権をリクエストするには、Adobe担当者にお問い合わせください。 詳細情報 [&#x200B; 可用性ラベル &#x200B;](../rn/releases.md#availability-labels)。
+>この機能は現在 **Private Beta** であり、お使いの環境では使用できない場合があります。アクセス権をリクエストするには、Adobe担当者にお問い合わせください。 詳細情報 [ 可用性ラベル ](../rn/releases.md#availability-labels)。
 
 ## 概要 {#overview}
 
@@ -51,7 +51,7 @@ ht-degree: 4%
 
 ロイヤルティの課題の作成と開始は、次のワークフローに従います。
 
-1. **データ取り込みの設定** - Experience Platform ソースコネクタ（キャピラリーコネクタなど）を設定して、顧客のアクションと進行状況を追跡するロイヤルティイベントデータを取り込みます。 このデータにより、課題の追跡とタスクの完了が強化されます。
+1. **データ取り込みの設定** - Experience Platform ソースコネクタ（[ キャピラリコネクタ ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty) など）を設定して、顧客のアクションと進行状況を追跡するロイヤルティイベントデータを取り込みます。 このデータにより、課題の追跡とタスクの完了が強化されます。
 
 1. **ターゲットオーディエンスを選択** - Adobe Experience Platformからオーディエンスを選択して、どの顧客がチャレンジに参加できるかを定義します。
 
@@ -65,7 +65,7 @@ ht-degree: 4%
 
 1. **ジャーニーの公開** - Journey Optimizerは、課題に対応するジャーニーを自動的に生成します。 ジャーニーインベントリに移動し、自動生成されたジャーニーを公開して、お客様が課題を利用できるようにします。
 
-詳細な手順については、[&#x200B; 課題の作成 &#x200B;](create-challenges.md) を参照してください。
+詳細な手順については、[ 課題の作成 ](create-challenges.md) を参照してください。
 
 ## 前提条件 {#prerequisites}
 
@@ -75,14 +75,11 @@ ht-degree: 4%
 
 ロイヤルティの課題は、Experience Platform ソースコネクタを通じて取り込まれたデータに依存して、顧客の進捗とタスクの完了を追跡します。
 
-1. **サポートされているソースコネクタの設定**：現在、キャピラリコネクタは一般入手可能です。 今後のリリースで追加のコネクタが予定されています。
+1. **サポートされているソースコネクタの設定**：現在、キャピラリコネクタを使用できます。 今後のリリースで追加のコネクタが予定されています。 [ ロイヤルティソースコネクタについて説明します ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty)。
 
 1. **データ取り込みの検証**：ロイヤルティイベントと顧客データがExperience Platformに送られ、Journey Optimizerで利用できることを確認します。 データスキーマに、顧客のアクションと進捗を追跡するために必要なフィールドが含まれていることを確認します。
 
-手順について詳しくは、以下を参照してください。
-
-* [Experience Platform ソースのドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/home)
-* [Journey Optimizerでのソースコネクタの設定](../start/get-started-sources.md)
+手順について詳しくは、[Experience Platform ソースの概要を参照してください ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home)
 
 +++
 
@@ -101,7 +98,7 @@ ht-degree: 4%
 
 +++ターゲットオーディエンス
 
-ロイヤルティの課題に参加する資格のある顧客を指定するターゲットオーディエンスを定義します。 チャレンジ作成インターフェイスから既存のオーディエンスを選択することも、新しいオーディエンスを直接作成することもできます。 [&#x200B; オーディエンスの操作方法を学ぶ &#x200B;](../audience/about-audiences.md)。
+ロイヤルティの課題に参加する資格のある顧客を指定するターゲットオーディエンスを定義します。 チャレンジ作成インターフェイスから既存のオーディエンスを選択することも、新しいオーディエンスを直接作成することもできます。 [ オーディエンスの操作方法を学ぶ ](../audience/about-audiences.md)。
 
 +++
 
@@ -143,14 +140,14 @@ ht-degree: 4%
     </p>
   </td>
   <td>
-    <a href="manage-challenges.md">
+    <a href="access-loyalty-challenges.md">
     <!--<img alt="Manage" src="../assets/do-not-localize/monitor-button.svg">-->
     </a>
     <div>
-    <a href="manage-challenges.md"><strong> 課題の管理 </strong></a>
+    <a href="access-loyalty-challenges.md"><strong> 課題とタスクの管理 </strong></a>
     </div>
     <p>
-    <em> 課題を編集、監視、最適化 </em>
+    <em> 課題およびタスクの編集、複製、削除 </em>
     </p>
   </td>
 </tr>
