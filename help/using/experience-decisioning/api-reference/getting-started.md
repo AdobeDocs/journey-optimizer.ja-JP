@@ -7,10 +7,10 @@ role: Developer
 level: Experienced
 exl-id: 7a4b5d4e-9c1d-4f3a-b8e9-1d5f6e7a8c3a
 version: Journey Orchestration
-source-git-commit: e46ab0637a0fa4a2b4b8b6ff3b8ab3eb5d38e0f7
-workflow-type: ht
-source-wordcount: '296'
-ht-degree: 100%
+source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
+workflow-type: tm+mt
+source-wordcount: '331'
+ht-degree: 89%
 
 ---
 
@@ -60,3 +60,7 @@ Decisioning API の基本を理解したので、次の特定の操作に進む�
 * [実施要件ルールの作成](eligibility-rules/create.md)
 
 キャンペーンとジャーニーで決定を使用する方法について詳しくは、[決定ドキュメント](../gs-experience-decisioning.md)を参照してください。
+
+>[!NOTE]
+>
+>既存の意思決定管理オブジェクトを Decisioning に移行する必要がある場合は、専用の [Decisioning Migration API](../decisioning-migration-api.md) を使用します。 この専用 API は、サンドボックス間のエンティティ移行を決定するために特別に設計された、自動の依存関係の解決およびロールバック機能を提供します。

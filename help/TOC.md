@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e98fe328b5a72a7091d48b5e2939a24e4ad6954c
+source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
 workflow-type: tm+mt
-source-wordcount: '3086'
+source-wordcount: '3091'
 ht-degree: 98%
 
 ---
@@ -608,7 +608,9 @@ ht-degree: 98%
       + [決定の基本を学ぶ](using/experience-decisioning/gs-experience-decisioning.md)
       + [決定ガードレールと制限](using/experience-decisioning/decisioning-guardrails.md)
       + [Decisioning FAQ](using/experience-decisioning/decisioning-faq.md)
-      + [意思決定管理から意思決定への移行](using/experience-decisioning/migrate-to-decisioning.md)
+      + Decisioning への移行 {#migrate-to-decisioning}
+         + [Decisioning に移行するメリット](using/experience-decisioning/migrate-to-decisioning.md)
+         + [Decisioning Migration API](using/experience-decisioning/decisioning-migration-api.md)
       + API リファレンス {#experience-decisioning-api-reference}
          + [API リファレンス](/help/rp_landing_pages/experience-decisioning-api-reference-landing-page.md)
          + [Decisioning API の基本を学ぶ](using/experience-decisioning/api-reference/getting-started.md)
@@ -942,7 +944,7 @@ ht-degree: 98%
    + [プライバシー](/help/rp_landing_pages/privacy-landing-page.md)
    + [プライバシーの基本を学ぶ](using/privacy/get-started-privacy.md)
    + [プライバシーリクエスト](using/privacy/requests.md)
-   + [&#x200B; リソースに対する監査アクション](using/privacy/audit-logs.md)
+   + [ リソースに対する監査アクション](using/privacy/audit-logs.md)
    + [データライフサイクル操作の実行](using/privacy/data-hygiene.md)
    + 同意を管理 {#consent}
       + [同意を管理](/help/rp_landing_pages/consent-landing-page.md)

@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 version: Journey Orchestration
-source-git-commit: 21de0b9616c414db204a3eafebc6a8184028a1e1
+source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 95%
+source-wordcount: '647'
+ht-degree: 93%
 
 ---
 
@@ -25,13 +25,13 @@ ht-degree: 95%
 
 決定は、「決定項目」と呼ばれるマーケティングオファーの一元カタログと、高度な決定エンジンを提供することで、パーソナライゼーションを簡素化します。このエンジンは、ルールとランキング条件を活用して、各個人に最も関連性の高い決定項目を選択し、提示します。
 
-これらの決定項目は、[&#x200B; のキャンペーン内でアクセスできる &#x200B;](../code-based/get-started-code-based.md) コードベースのエクスペリエンスチャネル [!DNL Adobe Journey Optimizer] を通じて、幅広いインバウンドサーフェスにシームレスに統合されます。
+これらの決定項目は、[ のキャンペーン内でアクセスできる ](../code-based/get-started-code-based.md) コードベースのエクスペリエンスチャネル [!DNL Adobe Journey Optimizer] を通じて、幅広いインバウンドサーフェスにシームレスに統合されます。
 
 >[!IMPORTANT]
 >
 >決定の決定ポリシーは、コードベースのエクスペリエンスとメールキャンペーンでのみ使用できます。
 
-➡️ [この機能について詳しくは、ビデオを参照してください。](#video)
+➡️ [ビデオでこの機能を確認する](#video)
 
 ➡️ コードベースのエクスペリエンスチャネルを使用して決定を作成し、コンテンツ実験で使用する方法を示すエンドツーエンドのユースケースについて詳しくは、[この節](experience-decisioning-uc.md)を参照してください。
 
@@ -67,7 +67,7 @@ ht-degree: 95%
 
 1. ターゲットオーディエンスに表示する&#x200B;**決定項目を作成**&#x200B;します。
 
-   ➡️ ユーザーインターフェイス（および[&#x200B; API ドキュメント](api-reference/decisions-items/create.md)）での[決定項目の作成方法について説明します。](items.md)
+   ➡️ ユーザーインターフェイス（および[ API ドキュメント](api-reference/decisions-items/create.md)）での[決定項目の作成方法について説明します。](items.md)
 
 1. **コレクションで整理**：コレクションを使用し、属性ベースのルールに基づいて決定項目を分類します。コレクションを選択戦略に組み込んで、考慮する必要がある決定項目のコレクションを特定します。
 
@@ -83,7 +83,7 @@ ht-degree: 95%
 
 1. **選択戦略の作成**：コレクション、決定ルール、ランキング方法を活用した選択戦略を作成して、プロファイルに表示するのに適した決定項目を特定します。
 
-   ➡️ [&#128279;](selection-strategies.md)ユーザーインターフェイス（および [APIドキュメント](api-reference/selection-strategies/create.md)）での選択戦略の作成方法の詳細情報
+   ➡️ [ユーザーインターフェイス（および [APIドキュメント](api-reference/selection-strategies/create.md)）での選択戦略の作成方法の詳細情報](selection-strategies.md)
 
 1. **決定ポリシーを作成し、コードベースまたはメールのジャーニー／キャンペーンに埋め込む**：決定ポリシーは、複数の選択戦略を組み合わせて、対象のオーディエンスに表示する適格な決定項目を決定します。
 
@@ -97,6 +97,7 @@ ht-degree: 95%
 * **[選択戦略の定義](selection-strategies.md)** - 実施要件ルールとランキング方法を使用して選択戦略を作成する方法について説明します。
 * **[決定ポリシーの作成](create-decision-policy.md)** - 戦略と制約を組み合わせた決定ポリシーを作成する方法について説明します。
 * **[ランキングと AI モデル](ranking/ranking.md)** - パーソナライズされた決定用のランキング式と AI モデルを習得します。
+* **[意思決定管理からの移行](migrate-to-decisioning.md)** - Decisioning に移行するメリットを理解し、移行ツール API を使用します。
 * **[決定ガードレール](decisioning-guardrails.md)** - 決定の実装に関する重要な制限とベストプラクティスを確認します。
 * **[決定のチュートリアル](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/decision-capabilities/decisioning/introduction-to-decisioning){target="_blank"}** - 決定機能とベストプラクティスに関するステップバイステップのビデオチュートリアルを参照してください。
 
@@ -104,4 +105,4 @@ ht-degree: 95%
 
 Adobe Journey Optimizerの意思決定機能について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3475864?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)

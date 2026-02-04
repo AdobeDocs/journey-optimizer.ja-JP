@@ -9,10 +9,10 @@ role: User, Developer
 level: Experienced
 keywords: サンドボックス, ジャーニー, コピー, 環境
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
-workflow-type: ht
-source-wordcount: '1701'
-ht-degree: 100%
+source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
+workflow-type: tm+mt
+source-wordcount: '1728'
+ht-degree: 97%
 
 ---
 
@@ -31,6 +31,10 @@ ht-degree: 100%
 1. [パッケージとして書き出すオブジェクトをソースサンドボックスに追加](#export)
 1. [パッケージの公開](#publish)
 1. [ターゲットサンドボックスへのパッケージの読み込み](#import)
+
+>[!NOTE]
+>
+>意思決定管理オブジェクトを Decisioning に移行するには、専用の [Decisioning Migration API](../experience-decisioning/decisioning-migration-api.md) を使用します。この API は、意思決定エンティティの移行用に特別に設計された、自動的な依存関係の解決とロールバック機能を提供します。
 
 ## 書き出したオブジェクトとベストプラクティス {#objects}
 
@@ -93,7 +97,7 @@ Journey Optimizer では、ジャーニー、カスタムアクション、コ�
 
 * AI モデルを使用したランキング式のサンドボックスコピーは、現在サポートされていません。
 
-* キャンペーンをコピーする際、決定項目（オファー項目）は自動的にはコピーされません。「パッケージに追加」オプションを使用して、個別にコピーします。
+* キャンペーンをコピーする際、決定項目（オファー項目）は自動的にはコピーされません。「パッケージに追加」オプションを使用して、必ず個別にコピーしてください。
 
 * 決定ポリシーに選択戦略がある場合は、決定項目を別途追加する必要があります。手動／フォールバック決定項目がある場合は、直接依存関係として自動的に追加されます。
 

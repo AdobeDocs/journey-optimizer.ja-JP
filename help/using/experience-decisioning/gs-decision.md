@@ -7,10 +7,10 @@ role: User
 level: Experienced
 exl-id: 008d42c7-a523-4857-b34e-0e8dd1dfa507
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
-workflow-type: ht
-source-wordcount: '287'
-ht-degree: 100%
+source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
+workflow-type: tm+mt
+source-wordcount: '303'
+ht-degree: 94%
 
 ---
 
@@ -40,6 +40,10 @@ ht-degree: 100%
 決定は現在、コードベースのエクスペリエンスチャネルでサポートされています。
 
 ➡️ [決定の基本を学ぶ](../experience-decisioning/gs-experience-decisioning.md)
+
+>[!NOTE]
+>
+>意思決定管理から意思決定へ移行するには、[ 移行に関するドキュメント ](../experience-decisioning/migrate-to-decisioning.md) および [ 移行 API ガイド ](../experience-decisioning/decisioning-migration-api.md) を参照してください。
 
 ## 意思決定管理 {#decision-management}
 
