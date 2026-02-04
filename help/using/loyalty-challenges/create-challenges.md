@@ -24,17 +24,17 @@ ht-degree: 2%
 
 **ロイヤルティの課題に関するドキュメント：**
 
-* [ ロイヤルティの課題の概要 ](get-started.md) – 概要、ワークフロー、前提条件
-* [ ロイヤルティの課題へのアクセス ](access-loyalty-challenges.md) – 在庫とフィルタリング
+* [&#x200B; ロイヤルティの課題の概要 &#x200B;](get-started.md) – 概要、ワークフロー、前提条件
+* [&#x200B; ロイヤルティの課題へのアクセス &#x200B;](access-loyalty-challenges.md) – 在庫とフィルタリング
 * **課題の作成** ◀︎ **現在の状況** – 課題の作成と設定
-* [ タスクの作成 ](create-tasks.md) – 課題タスクの定義
-* [ 課題の管理 ](manage-challenges.md) – 編集、監視、最適化
+* [&#x200B; タスクの作成 &#x200B;](create-tasks.md) – 課題タスクの定義
+* [&#x200B; 課題の管理 &#x200B;](manage-challenges.md) – 編集、監視、最適化
 
 >[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
->この機能は現在 **Private Beta** であり、お使いの環境では使用できない場合があります。アクセス権をリクエストするには、Adobe担当者にお問い合わせください。 詳細情報 [ 可用性ラベル ](../rn/releases.md#availability-labels)。
+>この機能は現在 **Private Beta** であり、お使いの環境では使用できない場合があります。アクセス権をリクエストするには、Adobe担当者にお問い合わせください。 詳細情報 [&#x200B; 可用性ラベル &#x200B;](../rn/releases.md#availability-labels)。
 
 ## 仕組み {#how-it-works}
 
@@ -73,7 +73,7 @@ ht-degree: 2%
    * **[!UICONTROL Streak]**：お客様が同じタスクを複数回連続して完了する
    * **[!UICONTROL 順次]**：顧客が定義された順序でタスクを完了します
 
-   **ターゲットオーディエンス**：この課題に参加できるユーザーを定義するオーディエンスセグメントを選択します。 課題を作成する前に、Experience Platformでオーディエンスを作成する必要があります。 詳しくは、[ オーディエンスの基本を学ぶ ](../audience/about-audiences.md) を参照してください。
+   **ターゲットオーディエンス**：この課題に参加できるユーザーを定義するオーディエンスセグメントを選択します。 課題を作成する前に、Experience Platformでオーディエンスを作成する必要があります。 詳しくは、[&#x200B; オーディエンスの基本を学ぶ &#x200B;](../audience/about-audiences.md) を参照してください。
 
    **開始日**：顧客がチャレンジを利用できるタイミングを設定します。
 
@@ -93,13 +93,13 @@ ht-degree: 2%
 
 課題にタスクを追加するには、「タスク」セクションで **[!UICONTROL タスクを追加]** を選択し、タスクのプロパティを設定します。
 
-タスクの作成と設定について詳しくは、[ タスクの作成 ](create-tasks.md) を参照してください。
+タスクの作成と設定について詳しくは、[&#x200B; タスクの作成 &#x200B;](create-tasks.md) を参照してください。
 
 ### コンテンツカードの設定 {#configure-content-cards}
 
 <!-- SCREENSHOT: Content cards configuration section in the challenge editor -->
 
-コンテンツカードは、お客様のデバイス上の課題を視覚的に表現し、課題の情報、進行状況、報酬を表示します。 詳細情報 [ コンテンツカード ](../content-card/create-content-card.md)。
+コンテンツカードは、お客様のデバイス上の課題を視覚的に表現し、課題の情報、進行状況、報酬を表示します。 詳細情報 [&#x200B; コンテンツカード &#x200B;](../content-card/create-content-card.md)。
 
 <!-- VISUAL: Example content card designs showing different states: challenge start, in-progress with progress bar, completion with reward -->
 
@@ -111,7 +111,7 @@ ht-degree: 2%
 
 1. コンテンツカードをデザインします。
    * 画像、テキスト、ブランディング要素の追加
-   * [ パーソナライゼーショントークン ](../personalization/personalization-syntax.md) を含めて、顧客固有の情報を表示する
+   * [&#x200B; パーソナライゼーショントークン &#x200B;](../personalization/personalization-syntax.md) を含めて、顧客固有の情報を表示する
    * チャレンジ進行状況インジケーターの表示
    * 報酬とインセンティブの表示
 
@@ -124,7 +124,7 @@ ht-degree: 2%
 
 1. コンテンツカード設定を保存します。
 
-コンテンツカードのデザインとパーソナライズについて詳しくは、[ コンテンツカードのデザイン ](../content-card/design-content-card.md) を参照してください。
+コンテンツカードのデザインとパーソナライズについて詳しくは、[&#x200B; コンテンツカードのデザイン &#x200B;](../content-card/design-content-card.md) を参照してください。
 
 ### メッセージングの設定 {#configure-messaging}
 
@@ -141,7 +141,7 @@ ht-degree: 2%
 1. 各ライフサイクルステージに対するメッセージの設定：
 
    **メッセージを開始** – 課題が始まったときに顧客に通知します。
-   * チャネルを選択：[ アプリ内 ](../in-app/get-started-in-app.md)、[ メール ](../email/get-started-email.md)、[ プッシュ通知 ](../push/get-started-push.md) または [SMS](../sms/get-started-sms.md)
+   * チャネルを選択：[&#x200B; アプリ内 &#x200B;](../in-app/get-started-in-app.md)、[&#x200B; メール &#x200B;](../email/get-started-email.md)、[&#x200B; プッシュ通知 &#x200B;](../push/get-started-push.md) または [SMS](../sms/get-started-sms.md)
    * 課題の詳細とcall-to-actionを使用したメッセージのデザイン
    * タイミングを設定：チャレンジが開始されたときや、特定の時間スケジュールされたときに直ちに送信します
 
@@ -171,13 +171,13 @@ ht-degree: 2%
 
 1. **すべてのコンポーネントのレビュー**：課題のプロパティ、タスク、報酬、コンテンツカードおよびメッセージ設定を確認します。
 
-1. **エクスペリエンスのテスト**:[ テストプロファイル ](../test-approve/test-profiles.md) を使用して、コンテンツカードの表示とタスクトリガーの動作を検証します。
+1. **エクスペリエンスのテスト**:[&#x200B; テストプロファイル &#x200B;](../test-approve/test-profiles.md) を使用して、コンテンツカードの表示とタスクトリガーの動作を検証します。
 
 1. **公開**: **[!UICONTROL 公開]** を選択して、ターゲットオーディエンスがチャレンジを利用できるようにします。
 
 <!-- SCREENSHOT: Journeys inventory showing the auto-generated journey in Draft status with name format "Challenge: [Challenge Name]" -->
 
-課題を公開すると、Journey Optimizerによって自動的に [ ジャーニー ](../building-journeys/journey-gs.md) がドラフトステータスで作成されます。 自動生成されたジャーニーは、「チャレンジ：[ チャレンジ名 ]」という名前形式でジャーニーインベントリに表示されます。
+課題を公開すると、Journey Optimizerによって自動的に [&#x200B; ジャーニー &#x200B;](../building-journeys/journey-gs.md) がドラフトステータスで作成されます。 自動生成されたジャーニーは、「チャレンジ：[ チャレンジ名 ]」という名前形式でジャーニーインベントリに表示されます。
 
 課題を顧客に提供するには：
 
@@ -185,7 +185,7 @@ ht-degree: 2%
 
 1. 自動生成されたジャーニーを見つけます（名前にプレフィックスとして「Challenge:」が含まれます）。
 
-1. [ ジャーニーをアクティベート ](../building-journeys/publishing-the-journey.md) します。
+1. [&#x200B; ジャーニーをアクティベート &#x200B;](../building-journeys/publishing-the-journey.md) します。
 
 ジャーニーは、指定したチャレンジ開始日に自動的に開始します。
 
@@ -195,6 +195,6 @@ ht-degree: 2%
 
 ## 次の手順 {#next-steps}
 
-* [ 課題の管理 ](manage-challenges.md) – 課題を編集、監視、最適化する方法を説明します。
-* [ ロイヤルティの課題について ](get-started.md) – 機能と性能の確認
+* [&#x200B; 課題の管理 &#x200B;](manage-challenges.md) – 課題を編集、監視、最適化する方法を説明します。
+* [&#x200B; ロイヤルティの課題について &#x200B;](get-started.md) – 機能と性能の確認
 
