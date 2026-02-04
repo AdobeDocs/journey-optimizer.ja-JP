@@ -45,4 +45,4 @@ ht-degree: 77%
 
 Adobe Journey Optimizerのダイレクトメールチャネルを活用して、ジャーニー内のダイレクトメール配信を自動化し、スケジュールする方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3479162?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479163?captions=jpn&quality=12)
