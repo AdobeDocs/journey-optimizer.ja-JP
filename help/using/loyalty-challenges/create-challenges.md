@@ -23,7 +23,7 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->この機能は現在 **Private Beta** であり、お使いの環境では使用できない場合があります。アクセス権をリクエストするには、Adobe担当者にお問い合わせください。 詳細情報 [ 可用性ラベル ](../rn/releases.md#availability-labels)。
+>この機能は現在 **Private Beta** であり、お使いの環境では使用できない場合があります。アクセス権をリクエストするには、Adobe担当者にお問い合わせください。 詳細情報 [&#x200B; 可用性ラベル &#x200B;](../rn/releases.md#availability-labels)。
 
 >[!BEGINSHADEBOX]
 
@@ -104,7 +104,7 @@ ht-degree: 1%
 
    ![](assets/challenge-create-add-task.png)
 
-1. **[!UICONTROL タスクインベントリ]** が開きます。 リストから 1 つ以上のタスクを選択して、「**[!UICONTROL 追加]**」を選択します。 新しいタスクを作成するには、「**[!UICONTROL 新規]** を選択します。 [ タスクの作成および設定方法を説明します ](create-tasks.md)。
+1. **[!UICONTROL タスクインベントリ]** が開きます。 リストから 1 つ以上のタスクを選択して、「**[!UICONTROL 追加]**」を選択します。 新しいタスクを作成するには、「**[!UICONTROL 新規]** を選択します。 [&#x200B; タスクの作成および設定方法を説明します &#x200B;](create-tasks.md)。
 
 1. チャレンジが完了したと見なされるタイミングを指定します。 使用できる設定は、チャレンジの種類によって異なります。
 
@@ -190,15 +190,15 @@ ht-degree: 1%
 
 ## コンテンツカードの設定 {#configure-content-cards}
 
-コンテンツカードは、お客様のデバイス上の課題を視覚的に表し、課題の情報、進行状況、報酬を表示します。 [ コンテンツカードの詳細情報 ](../content-card/create-content-card.md)。
+コンテンツカードは、お客様のデバイス上の課題を視覚的に表し、課題の情報、進行状況、報酬を表示します。 [&#x200B; コンテンツカードの詳細情報 &#x200B;](../content-card/create-content-card.md)。
 
 課題に合わせてコンテンツカードを設定するには：
 
 1. 「**[!UICONTROL コンテンツ]**」タブに移動し、コンテンツカードの **[!UICONTROL 名前]** を入力します。
 
-1. **[!UICONTROL チャネル設定]** を選択します。 チャネル設定には、ヘッダーパラメーター、サブドメイン、モバイルアプリなど、メッセージを送信するためのすべての技術的なパラメーターが含まれています。 [ チャネル設定の詳細情報 ](../configuration/channel-surfaces.md)。
+1. **[!UICONTROL チャネル設定]** を選択します。 チャネル設定には、ヘッダーパラメーター、サブドメイン、モバイルアプリなど、メッセージを送信するためのすべての技術的なパラメーターが含まれています。 [&#x200B; チャネル設定の詳細情報 &#x200B;](../configuration/channel-surfaces.md)。
 
-1. **[!UICONTROL コンテンツを編集]** を選択して、コンテンツカードをデザインします。 [ コンテンツカードを設計およびパーソナライズする方法を説明します ](../content-card/design-content-card.md)。
+1. **[!UICONTROL コンテンツを編集]** を選択して、コンテンツカードをデザインします。 [&#x200B; コンテンツカードを設計およびパーソナライズする方法を説明します &#x200B;](../content-card/design-content-card.md)。
 
    ![](assets/challenge-create-content.png)
 
@@ -222,7 +222,7 @@ ht-degree: 1%
 
    ![](assets/challenge-create-messaging.png)
 
-特定のチャネルのメッセージを作成する方法については、次の節を参照してください。[ アプリ内メッセージ ](../in-app/get-started-in-app.md)- [ メールメッセージ ](../email/get-started-email.md)- [ プッシュ通知 ](../push/get-started-push.md)
+特定のチャネルのメッセージを作成する方法については、次の節を参照してください。[&#x200B; アプリ内メッセージ &#x200B;](../in-app/get-started-in-app.md)- [&#x200B; メールメッセージ &#x200B;](../email/get-started-email.md)- [&#x200B; プッシュ通知 &#x200B;](../push/get-started-push.md)
 
 メッセージの設定が完了したら、チャレンジに参加できる顧客を定義します。
 
@@ -234,7 +234,7 @@ ht-degree: 1%
 
    ![](assets/challenge-create-audience.png)
 
-1. オーディエンス選択ダイアログで、使用可能なAdobe Experience Platform オーディエンスのリストからターゲットオーディエンスを選択し、**[!UICONTROL オーディエンスを追加]** を選択します。 [ オーディエンスの操作方法を学ぶ ](../audience/about-audiences.md)。
+1. オーディエンス選択ダイアログで、使用可能なAdobe Experience Platform オーディエンスのリストからターゲットオーディエンスを選択し、**[!UICONTROL オーディエンスを追加]** を選択します。 [&#x200B; オーディエンスの操作方法を学ぶ &#x200B;](../audience/about-audiences.md)。
 
 これで、構造、コンテンツ、メッセージおよびターゲットオーディエンスで課題が完全に設定されました。 最後の手順は、ジャーニーを生成して公開することです。
 
@@ -248,11 +248,11 @@ ht-degree: 1%
 
    ![](assets/challenge-create-generate-journey.png)
 
-1. Journey Optimizerは、「ドラフト」ステータスのジャーニーを自動的に作成します。 自動生成されたジャーニーは、ジャーニーインベントリに *ジャーニー:[ チャレンジ名 ]」* という名前形式で表示されます。 [ ジャーニーインベントリの詳細情報 ](../building-journeys/journey-ui.md)。
+1. Journey Optimizerは、「ドラフト」ステータスのジャーニーを自動的に作成します。 自動生成されたジャーニーは、ジャーニーインベントリに *ジャーニー:[ チャレンジ名 ]」* という名前形式で表示されます。 [&#x200B; ジャーニーインベントリの詳細情報 &#x200B;](../building-journeys/journey-ui.md)。
 
    ![](assets/challenge-create-journey.png)
 
-1. 準備が整ったら、ジャーニーを公開して、お客様が課題を利用できるようにします。 ジャーニーは、指定したチャレンジ開始日に自動的に開始され、設定に従ってコンテンツとメッセージが配信されます。 [ ジャーニーの公開方法を学ぶ ](../building-journeys/publish-journey.md)。
+1. 準備が整ったら、ジャーニーを公開して、お客様が課題を利用できるようにします。 ジャーニーは、指定したチャレンジ開始日に自動的に開始され、設定に従ってコンテンツとメッセージが配信されます。 [&#x200B; ジャーニーの公開方法を学ぶ &#x200B;](../building-journeys/publish-journey.md)。
 
 >[!NOTE]
 >
