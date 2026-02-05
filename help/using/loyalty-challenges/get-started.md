@@ -11,7 +11,7 @@ hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
-source-git-commit: 8816b20de66c7374525731d7aaee19106aa47582
+source-git-commit: 89ce77c686e7faec2b7baba5f2c498515ddcfe0f
 workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 2%
@@ -34,7 +34,7 @@ ht-degree: 2%
 
 >[!AVAILABILITY]
 >
->この機能は現在 **プライベートベータ版** です。 詳細情報 [&#x200B; 可用性ラベル &#x200B;](../rn/releases.md#availability-labels)。
+>この機能は現在 **プライベートベータ版** です。 詳細情報 [ 可用性ラベル ](../rn/releases.md#availability-labels)。
 
 ## 概要 {#overview}
 
@@ -65,7 +65,7 @@ ht-degree: 2%
 
 ロイヤルティの課題の作成と開始は、次のワークフローに従います。
 
-1. **データ取り込みの設定** - Experience Platform ソースコネクタ（[&#x200B; キャピラリコネクタ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/home#loyalty) など）を設定して、顧客のアクションと進行状況を追跡するロイヤルティイベントデータを取り込みます。 このデータにより、課題の追跡とタスクの完了が強化されます。
+1. **データ取り込みの設定** - Experience Platform ソースコネクタ（[ キャピラリコネクタ ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty) など）を設定して、顧客のアクションと進行状況を追跡するロイヤルティイベントデータを取り込みます。 このデータにより、課題の追跡とタスクの完了が強化されます。
 
 1. **チャレンジの作成** – 名前、タイプ（標準、ストリーク、順次）、日付範囲など、基本的なチャレンジプロパティを定義します。
 
@@ -79,7 +79,7 @@ ht-degree: 2%
 
 1. **課題の開始** – 課題を公開してから、ジャーニーを生成します。 Journey Optimizerは、課題に対応するジャーニーを自動的に作成します。 自動生成されたジャーニーを公開して、顧客が課題を利用できるようにします。
 
-詳細な手順については、[&#x200B; 課題の作成 &#x200B;](create-challenges.md) を参照してください。
+詳細な手順については、[ 課題の作成 ](create-challenges.md) を参照してください。
 
 ## 前提条件 {#prerequisites}
 
@@ -89,7 +89,7 @@ ht-degree: 2%
 
 ロイヤルティの課題は、Experience Platform ソースコネクタを通じて取り込まれたデータに依存して、顧客の進捗とタスクの完了を追跡します。
 
-開始する前に、サポートされているソースコネクタを設定します。 現在、Capilary コネクタは使用可能です。 今後のリリースで追加のコネクタが予定されています。 [&#x200B; ロイヤルティソースコネクタについて説明します &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/home#loyalty)。
+開始する前に、サポートされているソースコネクタを設定します。 現在、Capilary コネクタは使用可能です。 今後のリリースで追加のコネクタが予定されています。 [ ロイヤルティソースコネクタについて説明します ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty)。
 
 +++
 
@@ -107,7 +107,7 @@ ht-degree: 2%
 
 +++ターゲットオーディエンス
 
-課題を作成する前に、必要なターゲットオーディエンスがAdobe Experience Platformに存在することを確認します。 チャレンジ設定時に、参加資格のある顧客を定義するオーディエンスを選択します。 [&#x200B; オーディエンスの操作方法を学ぶ &#x200B;](../audience/about-audiences.md)。
+課題を作成する前に、必要なターゲットオーディエンスがAdobe Experience Platformに存在することを確認します。 チャレンジ設定時に、参加資格のある顧客を定義するオーディエンスを選択します。 [ オーディエンスの操作方法を学ぶ ](../audience/about-audiences.md)。
 
 +++
 
@@ -117,7 +117,7 @@ ht-degree: 2%
 <tr style="border: 0;">
   <td>
     <a href="access-loyalty-challenges.md">
-      <img alt="アクセス" src="assets/do-not-localize/icon-access.png">
+      <img alt="アクセス" src="assets/do-not-localize/icon-access.png" width="48"/>
     </a>
     <div>
     <a href="access-loyalty-challenges.md"><strong> 課題およびタスクへのアクセスと管理 </strong></a>
@@ -128,7 +128,7 @@ ht-degree: 2%
   </td>
   <td>
     <a href="create-challenges.md">
-      <img alt="作成" src="assets/do-not-localize/icon-challenge.png">
+      <img alt="作成" src="assets/do-not-localize/icon-challenge.png" width="48"/>
     </a>
     <div>
     <a href="create-challenges.md"><strong> 課題の作成 </strong></a>
@@ -139,7 +139,7 @@ ht-degree: 2%
   </td>
   <td>
     <a href="create-tasks.md">
-      <img alt="タスク" src="assets/do-not-localize/icon-task.png">
+      <img alt="タスク" src="assets/do-not-localize/icon-task.png" width="48"/>
     </a>
     <div>
     <a href="create-tasks.md"><strong> タスクの作成 </strong></a>
