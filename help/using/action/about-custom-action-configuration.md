@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: アクション, サードパーティ, カスタム, ジャーニー, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 30241f4504ad82bf8ef9f6b58d3bb9482f572dae
+source-git-commit: c81d9e4c6339ea5637462afb87b6d81a716b22f1
 workflow-type: tm+mt
-source-wordcount: '2437'
-ht-degree: 80%
+source-wordcount: '2032'
+ht-degree: 96%
 
 ---
 
@@ -179,7 +179,7 @@ Mutual Transport Layer Security（mTLS）は、Adobe Journey Optimizer カスタ
 
    ![](assets/response-values.png){width="70%" align="left"}
 
-1. （オプション）「**[!UICONTROL エラー応答ペイロードを定義]**」を選択して、「エラー応答ペイロード」フィールドを有効にします。 有効な場合、「**[!UICONTROL エラー応答]**」セクションを使用して、呼び出しが失敗したときに返されるペイロードの例を貼り付けます。 応答ペイロード（フィールドタイプと形式）にも同じ要件が適用されます。 ジャーニーでエラー応答ペイロードを活用する方法を説明します [&#x200B; こちら &#x200B;](../action/action-response.md)。
+1. （オプション）「**[!UICONTROL エラー応答ペイロードを定義]**」を選択して、「エラー応答ペイロード」フィールドを有効にします。 有効な場合、「**[!UICONTROL エラー応答]**」セクションを使用して、呼び出しが失敗したときに返されるペイロードの例を貼り付けます。 応答ペイロード（フィールドタイプと形式）にも同じ要件が適用されます。 ジャーニーでエラー応答ペイロードを活用する方法を説明します [ こちら ](../action/action-response.md)。
 
    ![](assets/response-values.png){width="70%" align="left"}
 
@@ -207,13 +207,14 @@ Mutual Transport Layer Security（mTLS）は、Adobe Journey Optimizer カスタ
 >Null 値を許可しながらオプションパラメーターを設定すると、ジャーニー担当者によって入力されなかったパラメーターは Null として送信されます。
 >
 
-## 包括的な JSON の例 {#json-examples}
+<!--
+## Comprehensive JSON examples {#json-examples}
 
-この節では、サポートされるすべてのパラメータータイプとカスタムアクションの設定を示す完全な JSON の例を示します。
+This section provides complete JSON examples demonstrating all supported parameter types and configurations for custom actions.
 
-### 例 1：基本的なパラメータータイプ
+### Example 1: Basic parameter types
 
-この例では、カスタムアクションペイロードで様々なデータタイプを使用する方法を示します。
+This example shows how to use different data types in your custom action payload:
 
 ```json
 {
@@ -227,16 +228,16 @@ Mutual Transport Layer Security（mTLS）は、Adobe Journey Optimizer カスタ
 }
 ```
 
-アクション設定で、次の操作を行います。
-* `userId` – 変数パラメーター（String） – プロファイル firstName にマッピングします
-* `accountId` – 定数パラメーター（文字列） – 常に「ABC123」を送信します
-* `age` – 変数パラメーター（整数） – プロファイルの年齢にマッピングします
-* `isActive` – 定数パラメーター（ブール値） – 常に true を送信します
-* `loyaltyScore` – 変数パラメーター（10 進数） – カスタムプロファイルフィールドにマッピングします
+In the action configuration:
+* `userId` - Variable parameter (String) - Maps to profile firstName
+* `accountId` - Constant parameter (String) - Always sends "ABC123"
+* `age` - Variable parameter (Integer) - Maps to profile age
+* `isActive` - Constant parameter (Boolean) - Always sends true
+* `loyaltyScore` - Variable parameter (Decimal) - Maps to custom profile field
 
-### 例 2：システム定数とジャーニーコンテキストの使用
+### Example 2: Using system constants and journey context
 
-ジャーニー固有の情報とシステム値を参照できます。
+You can reference journey-specific information and system values:
 
 ```json
 {
@@ -252,22 +253,22 @@ Mutual Transport Layer Security（mTLS）は、Adobe Journey Optimizer カスタ
 }
 ```
 
-**使用可能なジャーニーコンテキスト変数：**
+**Available journey context variables:**
 
 >[!NOTE]
 >
->ジャーニーコンテキスト変数の構文をプロダクトチームで検証中です。 実際のフィールド名は、journeyUID、journeyVersionName、journeyVersion、currentNodeId、currentNodeName （ジャーニープロパティに基づくドキュメント）にすることができます。
+>Journey context variables syntax is being verified with Product team. The actual field names may be: journeyUID, journeyVersionName, journeyVersion, currentNodeId, currentNodeName based on Journey Properties documentation.
 
-* `@{journey.id}` - ジャーニーの一意の ID
-* `@{journey.name}` - ジャーニーの名前
-* `@{journey.version}` - ジャーニーのバージョン番号
-* `@{journey.startTime}` – このプロファイルでジャーニーが開始されたときのタイムスタンプ（検証が必要です）
-* `@{journey.stepId}` – 現在のステップの識別子
-* `@{journey.stepName}` – 現在のステップの名前
+* `@{journey.id}` - Unique identifier of the journey
+* `@{journey.name}` - Name of the journey
+* `@{journey.version}` - Version number of the journey
+* `@{journey.startTime}` - Timestamp when the journey started for this profile (verification needed)
+* `@{journey.stepId}` - Current step identifier
+* `@{journey.stepName}` - Name of the current step
 
-### 例 3：オプションおよび必須パラメーター
+### Example 3: Optional and required parameters
 
-ジャーニー実務担当者がオプションで入力できるパラメーターを設定します。
+Configure parameters that journey practitioners can optionally fill:
 
 ```json
 {
@@ -279,18 +280,18 @@ Mutual Transport Layer Security（mTLS）は、Adobe Journey Optimizer カスタ
 }
 ```
 
-アクション設定 UI で、次の操作を行います。
-* `email` を **必須** として設定します（「オプション」のチェックを外す）
-* `mobilePhone` を **オプション** として設定（「オプション」をオン）
-* `preferredLanguage` をデフォルト値で **オプション** として設定
+In the action configuration UI:
+* Set `email` as **required** (do not check "Is optional")
+* Set `mobilePhone` as **optional** (check "Is optional")
+* Set `preferredLanguage` as **optional** with default value
 
 >[!TIP]
 >
->パラメーターがオプションとしてマークされ、ジャーニー実務担当者によって入力されない場合、ペイロードから省略されるか、null として送信されます（「NULL 値を許可」が有効になっている場合）。
+>When a parameter is marked as optional and not filled by the journey practitioner, it will either be omitted from the payload or sent as null (if "Allow NULL values" is enabled).
 
-### 例 4：配列とコレクションの操作
+### Example 4: Working with arrays and collections
 
-データのコレクションをカスタムアクションに渡す：
+Pass collections of data to your custom actions:
 
 ```json
 {
@@ -313,11 +314,11 @@ Mutual Transport Layer Security（mTLS）は、Adobe Journey Optimizer カスタ
 
 >[!NOTE]
 >
->カスタムアクションでコレクションを渡す方法について詳しくは、[&#x200B; このページ &#x200B;](../building-journeys/collections.md) を参照してください。
+>Learn more about passing collections in custom actions on [this page](../building-journeys/collections.md).
 
-### 例 5：ネストされたオブジェクトと複雑な構造
+### Example 5: Nested objects and complex structures
 
-階層データ構造を構築します。
+Build hierarchical data structures:
 
 ```json
 {
@@ -347,9 +348,9 @@ Mutual Transport Layer Security（mTLS）は、Adobe Journey Optimizer カスタ
 }
 ```
 
-### 例 6：実際のカスタムアクションの完了
+### Example 6: Complete real-world custom action
 
-複数の概念を統合する包括的な例：
+A comprehensive example integrating multiple concepts:
 
 ```json
 {
@@ -386,26 +387,27 @@ Mutual Transport Layer Security（mTLS）は、Adobe Journey Optimizer カスタ
 }
 ```
 
-**この例の設定に関するヒント：**
-* 定数値（`eventSource`、`specialPromotion`、`sandbox`）と変数パラメーターの混在
-* トラッキングとデバッグにジャーニーコンテキストを使用
-* サードパーティシステムでのパーソナライゼーションにプロファイルデータを含める
-* オファーを使用する際に決定コンテキストを追加します
-* ルーティングおよび組織レベルのトラッキング用のシステムメタデータ
+**Configuration tips for this example:**
+* Mix of constant values (`eventSource`, `specialPromotion`, `sandbox`) and variable parameters
+* Uses journey context for tracking and debugging
+* Includes profile data for personalization in the third-party system
+* Adds decisioning context when using offers
+* System metadata for routing and organization-level tracking
 
-### 定数を設定するためのヒント
+### Tips for configuring constants
 
-**サンドボックス名：** 環境名に設定された定数パラメーター（「prod」、「dev」、「stage」など）を使用します
+**Sandbox name:** Use a constant parameter set to your environment name (e.g., "prod", "dev", "stage")
 
-**実行タイムスタンプ：**`@{journey.startTime}` を使用するか、ジャーニー実務担当者が関数にマッピングできる変数パラメーター `#{nowWithDelta()}` 作成します
+**Execution timestamp:** Use `@{journey.startTime}` or create a variable parameter that journey practitioners can map to `#{nowWithDelta()}` function
 
-**API バージョン：** API バージョン番号には定数を使用して、ジャーニー間の一貫性を確保します
+**API version:** Use a constant for API version numbers to ensure consistency across journeys
 
-**認証トークン：** ペイロードに認証トークンを入れないでください。代わりに、カスタムアクション設定の「認証」セクションを使用してください
+**Authentication tokens:** Never put authentication tokens in the payload - use the Authentication section of the custom action configuration instead
 
 >[!CAUTION]
 >
->ペイロード内のフィールド名にドット `.` 文字を含めたり、`$` 文字で始めたりすることはできません。 JSON 構造が次の命名規則に従っていることを確認します。
+>Field names in the payload cannot contain a dot `.` character, nor start with a `$` character. Ensure your JSON structure follows these naming conventions.
+-->
 
 * [カスタムアクションのトラブルシューティング](../action/troubleshoot-custom-action.md) - カスタムアクションのトラブルシューティング方法について説明します
 
