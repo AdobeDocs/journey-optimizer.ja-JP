@@ -13,7 +13,7 @@ ht-degree: 95%
 
 ---
 
-# ターゲティングを使用 {#targeting}
+# ターゲティングの使用 {#targeting}
 
 >[!CONTEXTUALHELP]
 >id="ajo_content_targeting_fallback"
