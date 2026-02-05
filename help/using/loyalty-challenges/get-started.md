@@ -10,55 +10,62 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
-source-git-commit: e683461c6adbf45cacb30692e23927175685f9fb
+mini-toc-levels: 2
+source-git-commit: f50cc244f6d5ec8b38844e8240e72502ddfe3ae0
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 4%
+source-wordcount: '665'
+ht-degree: 3%
 
 ---
 
 
 # ロイヤルティに関する課題の概要 {#get-started-loyalty-challenges}
 
+>[!AVAILABILITY]
+>
+>この機能は現在 **Private Beta** であり、お使いの環境では使用できない場合があります。アクセス権をリクエストするには、Adobe担当者にお問い合わせください。 詳細情報 [ 可用性ラベル ](../rn/releases.md#availability-labels)。
+
 >[!BEGINSHADEBOX]
 
 **ロイヤルティの課題に関するドキュメント：**
 
 * **ロイヤルティの課題の概要** ◀︎ **概要** ワークフロー、前提条件
-* [&#x200B; ロイヤルティの課題へのアクセスと管理 &#x200B;](access-loyalty-challenges.md) – 在庫、課題、タスクの管理
-* [&#x200B; 課題の作成 &#x200B;](create-challenges.md) – 課題の作成と設定
-* [&#x200B; タスクの作成 &#x200B;](create-tasks.md) – 課題タスクの定義
+* [ 課題とタスクへのアクセスと管理 ](access-loyalty-challenges.md) - インベントリ、課題、タスク管理
+* [ 課題の作成 ](create-challenges.md) – 課題の作成と設定
+* [ タスクの作成 ](create-tasks.md) – 課題タスクの定義
 
 >[!ENDSHADEBOX]
 
->[!AVAILABILITY]
->
->この機能は現在 **Private Beta** であり、お使いの環境では使用できない場合があります。アクセス権をリクエストするには、Adobe担当者にお問い合わせください。 詳細情報 [&#x200B; 可用性ラベル &#x200B;](../rn/releases.md#availability-labels)。
-
 ## 概要 {#overview}
 
-ロイヤルティの課題は、タスクとマイルストーンの定義から、チャネル全体でのコンテンツの配信とパフォーマンスの追跡まで、ロイヤルティプログラムを大規模に作成するための完全なソリューションを提供します。
+ロイヤルティの課題を使用すると、顧客の行動を促進しブランド関係を深める、魅力的でゲーミフィケーションに富んだロイヤルティプログラムを作成できます。 購入やレビューの作成から、ソーシャルメディアでのエンゲージメントや友人への紹介まで、特定のアクションに対して顧客に報酬を与える課題を作成します。
+
+ロイヤルティの課題に直面すると、次のことが可能です。
+
+* **柔軟な課題タイプの設計**：ビジネス目標に合わせて、標準、連続、または順次の課題を作成します
+* **戦略的な報酬の設定**：エンゲージメントを維持するために、タスクのマイルストーンまたは完了時にポイントを提供する
+* **エクスペリエンスのパーソナライズ**：コンテンツカードとマルチチャネルメッセージを使用して、没入感のあるブランドエクスペリエンスを作成します
+* **シームレスな統合**：既存のロイヤルティプロバイダーとつながり、Experience Platform データを活用します
+* **自動的に追跡**：カスタム開発を行わずに、自動生成されたジャーニーを通じて顧客の進行状況を監視します
 
 ![](assets/challenges-gs.png)
 
 次の 3 種類のチャレンジエクスペリエンスを作成できます。
 
-* **標準的な課題**：お客様は、任意の順序で任意の数のタスクを完了できます\
-  *例：5 つのタスクのうち 3 つを完了する*
+* **標準的な課題**：お客様は、任意の順序で任意の数のタスクを完了できます。 このタイプは、柔軟性と複数のパスを補完する場合に使用します。\
+  *例：「夏のウェルネスチャレンジ」 - 5 つのタスクのうち 3 つを完了します：健康製品の購入、ソーシャルメディアでの共有、友人への紹介、レビューの書き込み、仮想イベントへの参加*
 
-* **一連の課題**：お客様が同じタスクを複数回連続して完了する\
-  *例：7 日連続で購入する*
+* **一連の課題**：お客様が同じタスクを複数回連続して完了する。 このタイプを使用すると、時間の経過と共に一貫性のある反復的な動作が促されます。\
+  *例：「コーヒーラバーズウィーク」 - 7 日間連続でコーヒー製品を購入すると、無料の飲み物の報酬がロック解除され* す。
 
-* **順次的な課題**：顧客が定義された順序でタスクを完了する\
-  *例：購入→レビュー→共有（この順序で完了する必要があります）*
-
-ロイヤルティの課題を抱えると、外部のロイヤルティ管理システムとの統合を維持しながら、報酬の設定、主要なライフサイクル段階でのマルチチャネル通知の送信、自動生成されたジャーニーの使用などをおこなうことができます。
+* **順次的な課題**：顧客は、定義された順序でタスクを完了します。 このタイプを使用すると、特定のジャーニーやオンボーディングプロセスを通じて顧客をガイドできます。\
+  *例：「新規会員ジャーニー」 – メールに新規登録→初めての購入→商品レビューを書く→友達を紹介する（この正確な順序で完了）*
 
 ## 仕組み {#how-it-works}
 
 ロイヤルティの課題の作成と開始は、次のワークフローに従います。
 
-1. **データ取り込みの設定** - Experience Platform ソースコネクタ（[&#x200B; キャピラリコネクタ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/home#loyalty) など）を設定して、顧客のアクションと進行状況を追跡するロイヤルティイベントデータを取り込みます。 このデータにより、課題の追跡とタスクの完了が強化されます。
+1. **データ取り込みの設定** - Experience Platform ソースコネクタ（[ キャピラリコネクタ ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty) など）を設定して、顧客のアクションと進行状況を追跡するロイヤルティイベントデータを取り込みます。 このデータにより、課題の追跡とタスクの完了が強化されます。
 
 1. **チャレンジの作成** – 名前、タイプ（標準、ストリーク、順次）、日付範囲など、基本的なチャレンジプロパティを定義します。
 
@@ -72,7 +79,7 @@ ht-degree: 4%
 
 1. **ジャーニーの公開** - Journey Optimizerは、課題に対応するジャーニーを自動的に生成します。 ジャーニーインベントリに移動し、自動生成されたジャーニーを公開して、お客様が課題を利用できるようにします。
 
-詳細な手順については、[&#x200B; 課題の作成 &#x200B;](create-challenges.md) を参照してください。
+詳細な手順については、[ 課題の作成 ](create-challenges.md) を参照してください。
 
 ## 前提条件 {#prerequisites}
 
@@ -82,30 +89,23 @@ ht-degree: 4%
 
 ロイヤルティの課題は、Experience Platform ソースコネクタを通じて取り込まれたデータに依存して、顧客の進捗とタスクの完了を追跡します。
 
-1. **サポートされているソースコネクタの設定**：現在、キャピラリコネクタを使用できます。 今後のリリースで追加のコネクタが予定されています。 [&#x200B; ロイヤルティソースコネクタについて説明します &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/home#loyalty)。
-
-1. **データ取り込みの検証**：ロイヤルティイベントと顧客データがExperience Platformに送られ、Journey Optimizerで利用できることを確認します。 データスキーマに、顧客のアクションと進捗を追跡するために必要なフィールドが含まれていることを確認します。
-
-手順について詳しくは、[Experience Platform ソースの概要を参照してください &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/home)
+開始する前に、サポートされているソースコネクタを設定します。 現在、Capilary コネクタは使用可能です。 今後のリリースで追加のコネクタが予定されています。 [ ロイヤルティソースコネクタについて説明します ](https://experienceleague.adobe.com/en/docs/experience-platform/sources/home#loyalty)。
 
 +++
 
-+++必要な権限
+<!--+++Required permissions
 
-ロイヤルティの課題を使用するには、Journey Optimizerでの適切な権限が必要です。 必要な権限は次のとおりです。
+To use Loyalty Challenges, you need appropriate permissions in Journey Optimizer. Required permissions include:
 
-* **[!UICONTROL ロイヤルティの課題（Beta）]** 機能へのアクセス
-* ジャーニーを作成および管理する権限
-* コンテンツカードを作成および管理する権限
-* オーディエンスを作成および管理する権限
+TBD
 
-機能にアクセスできない場合や追加の権限が必要な場合は、管理者にお問い合わせください。
+Contact your administrator if you cannot access the feature or need additional permissions.
 
-+++
++++-->
 
 +++ターゲットオーディエンス
 
-ロイヤルティの課題に参加する資格のある顧客を指定するターゲットオーディエンスを定義します。 チャレンジ作成インターフェイスから既存のオーディエンスを選択することも、新しいオーディエンスを直接作成することもできます。 [&#x200B; オーディエンスの操作方法を学ぶ &#x200B;](../audience/about-audiences.md)。
+課題を作成する前に、必要なターゲットオーディエンスがAdobe Experience Platformに存在することを確認します。 チャレンジ設定時に、参加資格のある顧客を定義するオーディエンスを選択します。 [ オーディエンスの操作方法を学ぶ ](../audience/about-audiences.md)。
 
 +++
 
@@ -118,7 +118,7 @@ ht-degree: 4%
     <!--<img alt="Access" src="../assets/do-not-localize/learn-more-button.svg">-->
     </a>
     <div>
-    <a href="access-loyalty-challenges.md"><strong> アクセスに関するロイヤルティの課題 </strong></a>
+    <a href="access-loyalty-challenges.md"><strong> 課題およびタスクへのアクセスと管理 </strong></a>
     </div>
     <p>
     <em> 在庫へのアクセスと課題のフィルタリング方法を学ぶ </em>
@@ -132,7 +132,7 @@ ht-degree: 4%
     <a href="create-challenges.md"><strong> 課題の作成 </strong></a>
     </div>
     <p>
-    <em> ロイヤルティに関する最初の課題を作成および設定 </em>
+    <em> 最初のロイヤルティの課題を作成および設定する方法を説明します </em>
     </p>
   </td>
   <td>
@@ -143,7 +143,7 @@ ht-degree: 4%
     <a href="create-tasks.md"><strong> タスクの作成 </strong></a>
     </div>
     <p>
-    <em> 課題に対して完了すべきアクションの定義 </em>
+    <em> 課題に対してお客様が完了するアクションを設定する方法を説明します </em>
     </p>
   </td>
 </tr>
