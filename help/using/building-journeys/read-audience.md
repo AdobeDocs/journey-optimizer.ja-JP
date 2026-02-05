@@ -10,9 +10,9 @@ level: Intermediate
 keywords: アクティビティ, ジャーニー, 読み取り, オーディエンス, プラットフォーム
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 version: Journey Orchestration
-source-git-commit: 24d66f146ea3ed0e89a3b928b805bc53a70a8895
+source-git-commit: 846a831077680e1654041b05b59233c138b559fb
 workflow-type: tm+mt
-source-wordcount: '3057'
+source-wordcount: '3033'
 ht-degree: 100%
 
 ---
@@ -272,8 +272,6 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 >[!NOTE]
 >
 >**[!UICONTROL オーディエンスを読み取り]**&#x200B;アクティビティで「毎日」のスケジューラータイプを使用する場合、新しいオーディエンスデータを待機するジャーニーの時間枠を定義できます。これにより、正確なターゲティングが確保され、バッチセグメント化ジョブの遅延によって発生する問題を防ぐことができます。[詳しくは、ジャーニーのスケジュール方法を参照してください](#schedule)
->
->「**[!UICONTROL バッチオーディエンス評価の後にトリガー]**」オプションは、一連の組織でのみ使用できます（限定提供）。アクセスするには、アドビ担当者にお問い合わせください。
 
 **除外**
 
@@ -348,4 +346,4 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 「オーディエンスを読み取り」アクティビティによってトリガーされるジャーニーに適用可能なユースケースを理解します。バッチベースのジャーニーを構築する方法と適用するベストプラクティスについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430369?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)
