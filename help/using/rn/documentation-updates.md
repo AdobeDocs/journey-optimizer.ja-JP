@@ -91,7 +91,7 @@ ht-degree: 98%
 
 * 「パス実験」の節に、パス実験のメタデータを公開後に編集しないようにユーザーに警告するメモが追加されました。編集すると、実験結果の計算とレポートが中断されます。[詳細情報](../building-journeys/optimize.md#experimentation)
 
-*  選択ドロップダウンリストに表示されるストリーミング接続の要件を指定するメモが、「フォームプリセットの作成」の節に追加されました。[詳細情報](../landing-pages/lp-forms.md#create-form-preset)
+* 選択ドロップダウンリストに表示されるストリーミング接続の要件を指定するメモが、「フォームプリセットの作成」の節に追加されました。[詳細情報](../landing-pages/lp-forms.md#create-form-preset)
 
 * インプレッション数、クリック数、カスタムイベント数を追跡するためのデータ収集を設定する方法に関する新しいページが、「決定」の節で使用できるようになりました。[詳細情報](../experience-decisioning/data-collection/schema-requirement.md)
 
