@@ -179,7 +179,7 @@ Mutual Transport Layer Security（mTLS）は、Adobe Journey Optimizer カスタ
 
    ![](assets/response-values.png){width="70%" align="left"}
 
-1. （オプション）「**[!UICONTROL エラー応答ペイロードを定義]**」を選択して、「エラー応答ペイロード」フィールドを有効にします。 有効な場合、「**[!UICONTROL エラー応答]**」セクションを使用して、呼び出しが失敗したときに返されるペイロードの例を貼り付けます。 応答ペイロード（フィールドタイプと形式）にも同じ要件が適用されます。 ジャーニーでエラー応答ペイロードを活用する方法を説明します [ こちら ](../action/action-response.md)。
+1. （オプション）「**[!UICONTROL エラー応答ペイロードを定義]**」を選択して、「エラー応答ペイロード」フィールドを有効にします。 有効な場合、「**[!UICONTROL エラー応答]**」セクションを使用して、呼び出しが失敗したときに返されるペイロードの例を貼り付けます。 応答ペイロード（フィールドタイプと形式）にも同じ要件が適用されます。 ジャーニーでエラー応答ペイロードを活用する方法を説明します [&#x200B; こちら &#x200B;](../action/action-response.md)。
 
    ![](assets/response-values.png){width="70%" align="left"}
 
@@ -313,7 +313,7 @@ Mutual Transport Layer Security（mTLS）は、Adobe Journey Optimizer カスタ
 
 >[!NOTE]
 >
->カスタムアクションでコレクションを渡す方法について詳しくは、[ このページ ](../building-journeys/collections.md) を参照してください。
+>カスタムアクションでコレクションを渡す方法について詳しくは、[&#x200B; このページ &#x200B;](../building-journeys/collections.md) を参照してください。
 
 ### 例 5：ネストされたオブジェクトと複雑な構造
 
