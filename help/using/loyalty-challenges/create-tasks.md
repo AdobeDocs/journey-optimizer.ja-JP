@@ -11,9 +11,9 @@ hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
-source-git-commit: 94b553b19dbb0ba3020979fa710c2c35af237816
+source-git-commit: 5e11a0817ef6d1c7ef2e363cde48cddf932cd2c1
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '698'
 ht-degree: 2%
 
 ---
@@ -23,16 +23,16 @@ ht-degree: 2%
 
 >[!AVAILABILITY]
 >
->この機能は現在 **Private Beta** であり、お使いの環境では使用できない場合があります。アクセス権をリクエストするには、Adobe担当者にお問い合わせください。 詳細情報 [&#x200B; 可用性ラベル &#x200B;](../rn/releases.md#availability-labels)。
+>この機能は現在 **Private Beta** であり、お使いの環境では使用できない場合があります。アクセス権をリクエストするには、Adobe担当者にお問い合わせください。 詳細情報 [ 可用性ラベル ](../rn/releases.md#availability-labels)。
 
 >[!BEGINSHADEBOX]
 
 **ロイヤルティの課題に関するドキュメント：**
 
-* [&#x200B; ロイヤルティの課題の概要 &#x200B;](get-started.md) – 概要、ワークフロー、前提条件
-* [&#x200B; 課題とタスクへのアクセスと管理 &#x200B;](access-loyalty-challenges.md) - インベントリ、課題、タスク管理
-* [&#x200B; 課題の作成 &#x200B;](create-challenges.md) – 課題の作成と設定
-* **タスクの作成**◀︎**ここにいる** – 課題タスクの定義
+* [ロイヤルティに関する課題の概要](get-started.md)
+* [課題およびタスクへのアクセスと管理](access-loyalty-challenges.md)
+* [課題の作成](create-challenges.md)
+* **タスクの作成** ◀︎ **You are here**
 
 >[!ENDSHADEBOX]
 
@@ -81,7 +81,7 @@ ht-degree: 2%
 **購入** アクティビティで使用可能な属性：
 
 * **[!UICONTROL 数量]**：このタスクを完了するために購入する必要がある品目の数を入力します。
-* **[!UICONTROL 適格な項目と除外]**：タスク完了にカウントされる項目または項目グループとカウントされない項目または項目グループを定義します。[&#x200B; 実施要件を満たす項目と除外について詳しくはこちらを参照 &#x200B;](#eligible-items-exclusions)
+* **[!UICONTROL 適格な項目と除外]**：タスク完了にカウントされる項目または項目グループとカウントされない項目または項目グループを定義します。[ 実施要件を満たす項目と除外について詳しくはこちらを参照 ](#eligible-items-exclusions)
 * **[!UICONTROL 最小費用金額]**：最小購買金額要件を設定します。
 * **[!UICONTROL トランザクションの最大数]**：タスクの完了に使用できるトランザクション数を制限します。
 
@@ -92,7 +92,7 @@ ht-degree: 2%
 **費用** アクティビティで使用可能な属性：
 
 * **[!UICONTROL 金額]**：タスクの完了に必要な合計支出金額を入力します。
-* **[!UICONTROL 適格な項目と除外]**：タスク完了にカウントされる項目または項目グループとカウントされない項目または項目グループを定義します。[&#x200B; 実施要件を満たす項目と除外について詳しくはこちらを参照 &#x200B;](#eligible-items-exclusions)
+* **[!UICONTROL 適格な項目と除外]**：タスク完了にカウントされる項目または項目グループとカウントされない項目または項目グループを定義します。[ 実施要件を満たす項目と除外について詳しくはこちらを参照 ](#eligible-items-exclusions)
 * **[!UICONTROL トランザクションの最大数]**：費用要件を満たすことができるトランザクションの数を指定します。 この属性は、「パラメーター」アイコンからアクティブ化できます。
 
 ![](assets/task-create-spend.png)
