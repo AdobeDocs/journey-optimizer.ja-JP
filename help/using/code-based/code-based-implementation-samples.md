@@ -6,10 +6,10 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
-source-git-commit: cd31c50de91593348744ead8042e480a2f1164de
+source-git-commit: 30241f4504ad82bf8ef9f6b58d3bb9482f572dae
 workflow-type: tm+mt
-source-wordcount: '935'
-ht-degree: 87%
+source-wordcount: '994'
+ht-degree: 81%
 
 ---
 
@@ -105,7 +105,9 @@ ht-degree: 87%
                interact: 1
              },
              propositionAction: {
-               label: label
+               id: label,
+               label: label,
+               tokens: proposition.items?.[0]?.characteristics?.tokens || []
              },
            },
          },
@@ -113,6 +115,15 @@ ht-degree: 87%
      });
    }
    ```
+
+   >[!IMPORTANT]
+   >
+   >`tokens` の `propositionAction` フィールドは、Adobe Journey Optimizer Decisioning で正確なトラッキングとアトリビューションを行うために重要です（AJO-D）。 これらのトークンは以下を可能にします。
+   >- 決定アクティビティの適切なクリック属性
+   >- 決定されたコンテンツに対するユーザーのインタラクションを正確にレポート
+   >- ユーザーエンゲージメントに基づくオファーのパフォーマンスの最適化
+   >
+   >トークンは通常、`proposition.items[0].characteristics.tokens` にあり、決定されたコンテンツとのユーザーインタラクションをトラッキングする際には、常に含める必要があります。
 
 ### 主な所見
 
@@ -357,4 +368,4 @@ To help you get started with implementing code-based experiences, refer to the c
 
 * **Web SDK implementation**: Learn how to configure the Web SDK for decisioning and code-based experiences in [these tutorials](code-based-decisioning-implementations.md#tutorials).
 
-* **Decisioning implementation**: To learn how to implement decisioning capabilities on a code-based campaign, follow [this use case tutorial](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-uc){target="_blank"}.-->
+* **Decisioning implementation**: To learn how to implement decisioning capabilities on a code-based campaign, follow [this use case tutorial](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-uc){target="_blank"}.-->

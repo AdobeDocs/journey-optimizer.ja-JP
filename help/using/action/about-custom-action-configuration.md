@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: アクション, サードパーティ, カスタム, ジャーニー, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 5213c60df3494c43a96d9098593a6ab539add8bb
+source-git-commit: 30241f4504ad82bf8ef9f6b58d3bb9482f572dae
 workflow-type: tm+mt
-source-wordcount: '2032'
-ht-degree: 96%
+source-wordcount: '2437'
+ht-degree: 80%
 
 ---
 
@@ -115,7 +115,7 @@ Journey Optimizer では、カスタムアクションにデータガバナン�
 
      例：`https://xxx.yyy.com/somethingstatic/`
 
-     URL の動的パスは、カスタムアクションをジャーニーに追加する際に指定します。[詳細情報](../building-journeys/using-custom-actions.md)。
+     URL の動的パスは、カスタムアクションをジャーニーに追加する際に指定します。[詳細情報](../building-journeys/using-custom-actions.md)
 
    >[!NOTE]
    >
@@ -143,7 +143,7 @@ Journey Optimizer では、カスタムアクションにデータガバナン�
 
 1. フィールドのラベルまたは名前を入力します。
 
-1. タイプを選択：**[!UICONTROL 定数]**&#x200B;または&#x200B;**[!UICONTROL 変数]**。**[!UICONTROL 定数]**&#x200B;を選択した場合は、**[!UICONTROL 値]**&#x200B;フィールドに定数の値を入力します。「**[!UICONTROL 変数]**」を選択した場合は、カスタムアクションをジャーニーに追加する際に、この変数を指定します。[詳細情報](../building-journeys/using-custom-actions.md)。
+1. タイプを選択：**[!UICONTROL 定数]**&#x200B;または&#x200B;**[!UICONTROL 変数]**。**[!UICONTROL 定数]**&#x200B;を選択した場合は、**[!UICONTROL 値]**&#x200B;フィールドに定数の値を入力します。「**[!UICONTROL 変数]**」を選択した場合は、カスタムアクションをジャーニーに追加する際に、この変数を指定します。[詳細情報](../building-journeys/using-custom-actions.md)
 
    ![](assets/journeyurlconfiguration2.png)
 
@@ -163,7 +163,7 @@ Adobe Journey Optimizer は、カスタムアクションに対してデフォ�
 
 Mutual Transport Layer Security（mTLS）は、Adobe Journey Optimizer カスタムアクションへの送信接続のセキュリティを強化します。mTLS は、データが共有される前に情報を共有する両者が本人であることを確認する、相互認証のためのエンドツーエンドのセキュリティ方式です。mTLS には TLS と比較して追加の手順が含まれており、サーバーはクライアントの証明書を要求し、クライアント側でそれを検証します。
 
-カスタムアクションでは相互 TLS（mTLS）認証がサポートされています。mTLS をアクティブ化するためにカスタムアクションまたはジャーニーで追加の設定は必要ありません。mTLS 対応エンドポイントが検出されると、自動的に実行されます。[詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support)。
+カスタムアクションでは相互 TLS（mTLS）認証がサポートされています。mTLS をアクティブ化するためにカスタムアクションまたはジャーニーで追加の設定は必要ありません。mTLS 対応エンドポイントが検出されると、自動的に実行されます。[詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support)
 
 ## ペイロードパラメーターの定義 {#define-the-message-parameters}
 
@@ -179,7 +179,7 @@ Mutual Transport Layer Security（mTLS）は、Adobe Journey Optimizer カスタ
 
    ![](assets/response-values.png){width="70%" align="left"}
 
-1. （オプション）「**[!UICONTROL エラー応答ペイロードを定義]**」を選択して、「エラー応答ペイロード」フィールドを有効にします。 有効な場合、「**[!UICONTROL エラー応答]**」セクションを使用して、呼び出しが失敗したときに返されるペイロードの例を貼り付けます。 応答ペイロード（フィールドタイプと形式）にも同じ要件が適用されます。 ジャーニーでエラー応答ペイロードを活用する方法を説明します [&#x200B; こちら &#x200B;](../action/action-response.md)。
+1. （オプション）「**[!UICONTROL エラー応答ペイロードを定義]**」を選択して、「エラー応答ペイロード」フィールドを有効にします。 有効な場合、「**[!UICONTROL エラー応答]**」セクションを使用して、呼び出しが失敗したときに返されるペイロードの例を貼り付けます。 応答ペイロード（フィールドタイプと形式）にも同じ要件が適用されます。 ジャーニーでエラー応答ペイロードを活用する方法を説明します [ こちら ](../action/action-response.md)。
 
    ![](assets/response-values.png){width="70%" align="left"}
 
@@ -207,6 +207,205 @@ Mutual Transport Layer Security（mTLS）は、Adobe Journey Optimizer カスタ
 >Null 値を許可しながらオプションパラメーターを設定すると、ジャーニー担当者によって入力されなかったパラメーターは Null として送信されます。
 >
 
+## 包括的な JSON の例 {#json-examples}
+
+この節では、サポートされるすべてのパラメータータイプとカスタムアクションの設定を示す完全な JSON の例を示します。
+
+### 例 1：基本的なパラメータータイプ
+
+この例では、カスタムアクションペイロードで様々なデータタイプを使用する方法を示します。
+
+```json
+{
+  "requestData": {
+    "userId": "@{profile.person.name.firstName}",
+    "accountId": "ABC123",
+    "age": "@{profile.person.age}",
+    "isActive": true,
+    "loyaltyScore": "@{profile.customField.score}"
+  }
+}
+```
+
+アクション設定で、次の操作を行います。
+* `userId` – 変数パラメーター（String） – プロファイル firstName にマッピングします
+* `accountId` – 定数パラメーター（文字列） – 常に「ABC123」を送信します
+* `age` – 変数パラメーター（整数） – プロファイルの年齢にマッピングします
+* `isActive` – 定数パラメーター（ブール値） – 常に true を送信します
+* `loyaltyScore` – 変数パラメーター（10 進数） – カスタムプロファイルフィールドにマッピングします
+
+### 例 2：システム定数とジャーニーコンテキストの使用
+
+ジャーニー固有の情報とシステム値を参照できます。
+
+```json
+{
+  "metadata": {
+    "sandboxName": "prod",
+    "executionTimestamp": "@{journey.startTime}",
+    "journeyId": "@{journey.id}",
+    "journeyName": "@{journey.name}",
+    "journeyVersion": "@{journey.version}",
+    "stepId": "@{journey.stepId}",
+    "profileId": "@{profile.identityMap.ECID[0].id}"
+  }
+}
+```
+
+**使用可能なジャーニーコンテキスト変数：**
+
+>[!NOTE]
+>
+>ジャーニーコンテキスト変数の構文をプロダクトチームで検証中です。 実際のフィールド名は、journeyUID、journeyVersionName、journeyVersion、currentNodeId、currentNodeName （ジャーニープロパティに基づくドキュメント）にすることができます。
+
+* `@{journey.id}` - ジャーニーの一意の ID
+* `@{journey.name}` - ジャーニーの名前
+* `@{journey.version}` - ジャーニーのバージョン番号
+* `@{journey.startTime}` – このプロファイルでジャーニーが開始されたときのタイムスタンプ（検証が必要です）
+* `@{journey.stepId}` – 現在のステップの識別子
+* `@{journey.stepName}` – 現在のステップの名前
+
+### 例 3：オプションおよび必須パラメーター
+
+ジャーニー実務担当者がオプションで入力できるパラメーターを設定します。
+
+```json
+{
+  "customer": {
+    "email": "@{profile.personalEmail.address}",
+    "mobilePhone": "@{profile.mobilePhone.number}",
+    "preferredLanguage": "@{profile.preferredLanguage}"
+  }
+}
+```
+
+アクション設定 UI で、次の操作を行います。
+* `email` を **必須** として設定します（「オプション」のチェックを外す）
+* `mobilePhone` を **オプション** として設定（「オプション」をオン）
+* `preferredLanguage` をデフォルト値で **オプション** として設定
+
+>[!TIP]
+>
+>パラメーターがオプションとしてマークされ、ジャーニー実務担当者によって入力されない場合、ペイロードから省略されるか、null として送信されます（「NULL 値を許可」が有効になっている場合）。
+
+### 例 4：配列とコレクションの操作
+
+データのコレクションをカスタムアクションに渡す：
+
+```json
+{
+  "products": [
+    {
+      "id": "@{product1.id}",
+      "name": "@{product1.name}",
+      "price": "@{product1.price}"
+    },
+    {
+      "id": "@{product2.id}",
+      "name": "@{product2.name}",
+      "price": "@{product2.price}"
+    }
+  ],
+  "tags": ["premium", "loyalty", "vip"],
+  "categoryIds": ["CAT001", "CAT002"]
+}
+```
+
+>[!NOTE]
+>
+>カスタムアクションでコレクションを渡す方法について詳しくは、[ このページ ](../building-journeys/collections.md) を参照してください。
+
+### 例 5：ネストされたオブジェクトと複雑な構造
+
+階層データ構造を構築します。
+
+```json
+{
+  "customer": {
+    "personalInfo": {
+      "firstName": "@{profile.person.name.firstName}",
+      "lastName": "@{profile.person.name.lastName}",
+      "email": "@{profile.personalEmail.address}"
+    },
+    "address": {
+      "street": "@{profile.homeAddress.street1}",
+      "city": "@{profile.homeAddress.city}",
+      "postalCode": "@{profile.homeAddress.postalCode}",
+      "country": "@{profile.homeAddress.country}"
+    },
+    "preferences": {
+      "language": "@{profile.preferredLanguage}",
+      "timezone": "@{profile.timeZone}",
+      "emailOptIn": "@{profile.consents.marketing.email.val}"
+    }
+  },
+  "context": {
+    "channel": "email",
+    "campaignId": "CAMPAIGN_2025_Q1",
+    "segment": "@{segmentMembership.status}"
+  }
+}
+```
+
+### 例 6：実際のカスタムアクションの完了
+
+複数の概念を統合する包括的な例：
+
+```json
+{
+  "event": {
+    "eventType": "journey.action.triggered",
+    "eventId": "@{journey.stepId}",
+    "timestamp": "@{journey.stepTimestamp}",
+    "eventSource": "Adobe Journey Optimizer"
+  },
+  "profile": {
+    "id": "@{profile.identityMap.ECID[0].id}",
+    "email": "@{profile.personalEmail.address}",
+    "firstName": "@{profile.person.name.firstName}",
+    "lastName": "@{profile.person.name.lastName}",
+    "loyaltyTier": "@{profile.loyaltyTier}",
+    "lifetimeValue": "@{profile.lifetimeValue}"
+  },
+  "journey": {
+    "id": "@{journey.id}",
+    "name": "@{journey.name}",
+    "version": "@{journey.version}",
+    "step": "@{journey.stepName}"
+  },
+  "customData": {
+    "offerName": "@{decisioning.offerName}",
+    "offerPlacement": "@{decisioning.placementName}",
+    "specialPromotion": "WINTER2025"
+  },
+  "system": {
+    "sandbox": "prod",
+    "dataStreamId": "YOUR_DATASTREAM_ID",
+    "imsOrgId": "@{imsOrgId}"
+  }
+}
+```
+
+**この例の設定に関するヒント：**
+* 定数値（`eventSource`、`specialPromotion`、`sandbox`）と変数パラメーターの混在
+* トラッキングとデバッグにジャーニーコンテキストを使用
+* サードパーティシステムでのパーソナライゼーションにプロファイルデータを含める
+* オファーを使用する際に決定コンテキストを追加します
+* ルーティングおよび組織レベルのトラッキング用のシステムメタデータ
+
+### 定数を設定するためのヒント
+
+**サンドボックス名：** 環境名に設定された定数パラメーター（「prod」、「dev」、「stage」など）を使用します
+
+**実行タイムスタンプ：**`@{journey.startTime}` を使用するか、ジャーニー実務担当者が関数にマッピングできる変数パラメーター `#{nowWithDelta()}` 作成します
+
+**API バージョン：** API バージョン番号には定数を使用して、ジャーニー間の一貫性を確保します
+
+**認証トークン：** ペイロードに認証トークンを入れないでください。代わりに、カスタムアクション設定の「認証」セクションを使用してください
+
+>[!CAUTION]
+>
+>ペイロード内のフィールド名にドット `.` 文字を含めたり、`$` 文字で始めたりすることはできません。 JSON 構造が次の命名規則に従っていることを確認します。
 
 * [カスタムアクションのトラブルシューティング](../action/troubleshoot-custom-action.md) - カスタムアクションのトラブルシューティング方法について説明します
 
