@@ -34,7 +34,7 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->この機能は現在 **プライベートベータ版** です。 詳細情報 [ 可用性ラベル ](../rn/releases.md#availability-labels)。
+>この機能は現在 **プライベートベータ版** です。 詳細情報 [&#x200B; 可用性ラベル &#x200B;](../rn/releases.md#availability-labels)。
 
 ## 課題およびタスクへのアクセスと管理
 
