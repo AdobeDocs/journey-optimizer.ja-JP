@@ -6,10 +6,10 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+source-git-commit: dc417c88021bdb042d7a600ee13a7cbab0ceeb4a
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 100%
+source-wordcount: '682'
+ht-degree: 93%
 
 ---
 
@@ -271,9 +271,9 @@ with は、長い変数名に短い別名を付ける場合にも使用できま
 
 **制限事項**
 
-アクションごとのキーと値のペアには 2 kb の上限があります。
+アクションごとのキーと値のペアの上限は 2 kb です。 2Kb の制限を超えた場合、メッセージは引き続き配信されますが、キーと値のペアのいずれかが切り捨てられる場合があります。
 
-2Kb の制限を超えた場合、メッセージは引き続き配信されますが、キーと値のペアのいずれかが切り捨てられる場合があります。
+アクションから除外されたプロファイルのメタデータはキャプチャされません。 プロファイルがメッセージの受信から除外されている場合、そのプロファイルのメタデータエントリはデータセット内に作成されません。
 
 **例**
 
