@@ -11,19 +11,15 @@ hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
-source-git-commit: 5e11a0817ef6d1c7ef2e363cde48cddf932cd2c1
+source-git-commit: 342df0950622de1c4c246bf624d05843671e199f
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 2%
+source-wordcount: '683'
+ht-degree: 0%
 
 ---
 
 
 # タスクの作成 {#create-tasks}
-
->[!AVAILABILITY]
->
->この機能は現在 **Private Beta** であり、お使いの環境では使用できない場合があります。アクセス権をリクエストするには、Adobe担当者にお問い合わせください。 詳細情報 [&#x200B; 可用性ラベル &#x200B;](../rn/releases.md#availability-labels)。
 
 >[!BEGINSHADEBOX]
 
@@ -35,6 +31,10 @@ ht-degree: 2%
 * **タスクの作成** ◀︎ **You are here**
 
 >[!ENDSHADEBOX]
+
+>[!AVAILABILITY]
+>
+>この機能は現在 **プライベートベータ版** です。 詳細情報 [ 可用性ラベル ](../rn/releases.md#availability-labels)。
 
 タスクは、ロイヤルティの課題で報酬を獲得するために顧客が完了する必要がある特定のアクションやマイルストーンを定義します。 タスクのタイプ、数量および製品要件を設定して、魅力的でパーソナライズされたロイヤルティエクスペリエンスを作成できます。
 
@@ -81,7 +81,7 @@ ht-degree: 2%
 **購入** アクティビティで使用可能な属性：
 
 * **[!UICONTROL 数量]**：このタスクを完了するために購入する必要がある品目の数を入力します。
-* **[!UICONTROL 適格な項目と除外]**：タスク完了にカウントされる項目または項目グループとカウントされない項目または項目グループを定義します。[&#x200B; 実施要件を満たす項目と除外について詳しくはこちらを参照 &#x200B;](#eligible-items-exclusions)
+* **[!UICONTROL 適格な項目と除外]**：タスク完了にカウントされる項目または項目グループとカウントされない項目または項目グループを定義します。[ 実施要件を満たす項目と除外について詳しくはこちらを参照 ](#eligible-items-exclusions)
 * **[!UICONTROL 最小費用金額]**：最小購買金額要件を設定します。
 * **[!UICONTROL トランザクションの最大数]**：タスクの完了に使用できるトランザクション数を制限します。
 
@@ -92,7 +92,7 @@ ht-degree: 2%
 **費用** アクティビティで使用可能な属性：
 
 * **[!UICONTROL 金額]**：タスクの完了に必要な合計支出金額を入力します。
-* **[!UICONTROL 適格な項目と除外]**：タスク完了にカウントされる項目または項目グループとカウントされない項目または項目グループを定義します。[&#x200B; 実施要件を満たす項目と除外について詳しくはこちらを参照 &#x200B;](#eligible-items-exclusions)
+* **[!UICONTROL 適格な項目と除外]**：タスク完了にカウントされる項目または項目グループとカウントされない項目または項目グループを定義します。[ 実施要件を満たす項目と除外について詳しくはこちらを参照 ](#eligible-items-exclusions)
 * **[!UICONTROL トランザクションの最大数]**：費用要件を満たすことができるトランザクションの数を指定します。 この属性は、「パラメーター」アイコンからアクティブ化できます。
 
 ![](assets/task-create-spend.png)
