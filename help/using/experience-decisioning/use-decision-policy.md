@@ -7,9 +7,10 @@ role: User
 level: Experienced
 mini-toc-levels: 1
 version: Journey Orchestration
-source-git-commit: 2dfc9c2db5af1b9b74f7405a68e85563f633a54f
+exl-id: 35fc3cf2-1b91-4f30-ad71-f9d7d2a0291c
+source-git-commit: be4c0453630388d898d53feeb5f9dcfe57ad5934
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '723'
 ht-degree: 11%
 
 ---
@@ -20,9 +21,9 @@ ht-degree: 11%
 
 >[!CAUTION]
 >
->決定ポリシーは、すべてのお客様が **コードベースのエクスペリエンス**、**SMS** および **プッシュ通知** チャネルで利用できます。
+>決定ポリシーは、すべてのお客様が **コードベースのエクスペリエンス**、**SMS**、および **プッシュ通知** チャネルで利用できます。
 >
->メールチャネルの決定は、限定提供（LA）で利用できます。 アクセス権をリクエストするには、Adobe担当者にお問い合わせください。 詳細情報 [&#x200B; 可用性ラベル &#x200B;](../rn/releases.md#availability-labels)。
+>**メール** チャネルの決定は、限定提供（LA）でのみ利用できます。 アクセス権をリクエストするには、Adobe担当者にお問い合わせください。 詳細情報 [ 可用性ラベル ](../rn/releases.md#availability-labels)。
 
 ## 決定ポリシーコードの挿入 {#insert}
 
@@ -38,11 +39,11 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->コードベースのエクスペリエンスの場合、決定ポリシーにフラグメントを含む決定項目が含まれている場合、これらのフラグメントを決定ポリシーコードで活用できます。 [&#x200B; フラグメントの活用方法を学ぶ &#x200B;](../experience-decisioning/fragments-decision-policies.md)
+>コードベースのエクスペリエンスの場合、決定ポリシーにフラグメントを含む決定項目が含まれている場合、これらのフラグメントを決定ポリシーコードで活用できます。 [ フラグメントの活用方法を学ぶ ](../experience-decisioning/fragments-decision-policies.md)
 
 >[!TAB メール]
 
-1. **Personalization エディターを開き**&#x200B;**[!UICONTROL Decision Policies]** に移動します。
+1. **Personalization エディターを開き****[!UICONTROL Decision Policies]** に移動します。
 
 2. **[!UICONTROL 構文を挿入]** を選択して、決定ポリシーのコードを追加します。
 
@@ -58,7 +59,7 @@ ht-degree: 11%
 
 >[!TAB SMS]
 
-1. **Personalization エディターを開き**&#x200B;**[!UICONTROL Decision Policies]** に移動します。
+1. **Personalization エディターを開き****[!UICONTROL Decision Policies]** に移動します。
 
 2. **[!UICONTROL 構文を挿入]** を選択して、決定ポリシーのコードを追加します。
 
@@ -66,7 +67,7 @@ ht-degree: 11%
 
 >[!TAB プッシュ]
 
-1. **Personalization エディターを開き**&#x200B;**[!UICONTROL Decision Policies]** に移動します。
+1. **Personalization エディターを開き****[!UICONTROL Decision Policies]** に移動します。
 
 2. **[!UICONTROL 構文を挿入]** を選択して、決定ポリシーのコードを追加します。
 
@@ -74,7 +75,7 @@ ht-degree: 11%
 
 >[!IMPORTANT]
 >
->プッシュ通知を使用した Experience Decisioning では、特定のバージョンの Mobile SDKが必要です。 この機能を実装する前に、[&#x200B; リリースノート &#x200B;](https://developer.adobe.com/client-sdks/home/release-notes/){target="_blank"} を確認して、必要なバージョンを特定し、それに応じてアップグレードしていることを確認します。 また、お使いのプラットフォームで利用可能なすべてのSDK バージョンを確認することもできます [&#x200B; この節 &#x200B;](https://developer.adobe.com/client-sdks/home/current-sdk-versions/){target="_blank"}。
+>プッシュ通知を使用した Experience Decisioning では、特定のバージョンの Mobile SDKが必要です。 この機能を実装する前に、[ リリースノート ](https://developer.adobe.com/client-sdks/home/release-notes/){target="_blank"} を確認して、必要なバージョンを特定し、それに応じてアップグレードしていることを確認します。 また、お使いのプラットフォームで利用可能なすべてのSDK バージョンを確認することもできます [ この節 ](https://developer.adobe.com/client-sdks/home/current-sdk-versions/){target="_blank"}。
 
 >[!ENDTABS]
 
@@ -82,13 +83,13 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->コードベースのエクスペリエンスおよびメールチャネルの場合は、返す決定項目ごとに 1 回、このシーケンスを繰り返します。 例えば、（決定の作成 [&#x200B; 時に 2 つの項目を返すよう選択した場合は、シーケンスを 2 回繰り返します。](create-decision-policy.md) SMS およびプッシュチャネルの場合、返される決定項目は 1 つだけです。
+>コードベースのエクスペリエンスおよびメールチャネルの場合は、返す決定項目ごとに 1 回、このシーケンスを繰り返します。 例えば、（決定の作成 [ 時に 2 つの項目を返すよう選択した場合は、シーケンスを 2 回繰り返します。](create-decision-policy.md) SMS およびプッシュチャネルの場合、返される決定項目は 1 つだけです。
 
 ## 決定項目属性を使用したパーソナライズ {#attributes}
 
-コンテンツに決定ポリシーのコードを追加すると、返された決定項目のすべての属性をパーソナライゼーションで使用できるようになります。 [&#x200B; パーソナライゼーションの操作方法を説明します &#x200B;](../personalization/personalize.md)。
+コンテンツに決定ポリシーのコードを追加すると、返された決定項目のすべての属性をパーソナライゼーションで使用できるようになります。 [ パーソナライゼーションの操作方法を説明します ](../personalization/personalize.md)。
 
-属性は「オファー」 [&#x200B; カタログスキーマ &#x200B;](catalogs.md) に保存されます。 パーソナライゼーションエディターから次のフォルダーに表示されます。
+属性は「オファー」 [ カタログスキーマ ](catalogs.md) に保存されます。 パーソナライゼーションエディターから次のフォルダーに表示されます。
 * **カスタム属性**:`_\<imsOrg\>` フォルダー
 * **標準属性**:`_experience` フォルダー
 
@@ -121,7 +122,7 @@ ht-degree: 11%
 
 ## コンテンツのプレビューとテスト
 
-コンテンツを作成した後、ジャーニーまたはキャンペーンをアクティブ化する前に、プレビューおよびテストします。 決定項目は、シミュレーションインターフェイスで選択したプロファイルに基づいてレンダリングされます。 [&#x200B; コンテンツのプレビューとテストの方法を説明します &#x200B;](../content-management/preview-test.md)。
+コンテンツを作成した後、ジャーニーまたはキャンペーンをアクティブ化する前に、プレビューおよびテストします。 決定項目は、シミュレーションインターフェイスで選択したプロファイルに基づいてレンダリングされます。 [ コンテンツのプレビューとテストの方法を説明します ](../content-management/preview-test.md)。
 
 ## 次の手順 {#final-steps}
 
@@ -134,10 +135,10 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->現在、[&#x200B; コードベースのエクスペリエンス &#x200B;](../code-based/create-code-based.md) キャンペーンやジャーニーの決定ベースのコンテンツをシミュレートすることはできません。 回避策が [&#x200B; こちら &#x200B;](../code-based/code-based-decisioning-implementations.md) で利用できます。
+>現在、[ コードベースのエクスペリエンス ](../code-based/create-code-based.md) キャンペーンやジャーニーの決定ベースのコンテンツをシミュレートすることはできません。 回避策が [ こちら ](../code-based/code-based-decisioning-implementations.md) で利用できます。
 
 ## レポートダッシュボードの使用
 
-決定のパフォーマンスを確認するには、キャンペーンレポートやジャーニーレポートで標準の意思決定指標を表示するか、カスタム Customer Journey Analytics ダッシュボードを作成してパフォーマンスを測定し、意思決定ポリシーやオファーがどのように配信され、関与しているかに関するインサイトを得ることができます。 [&#x200B; 決定レポートの詳細情報 &#x200B;](cja-reporting.md)。
+決定のパフォーマンスを確認するには、キャンペーンレポートやジャーニーレポートで標準の意思決定指標を表示するか、カスタム Customer Journey Analytics ダッシュボードを作成してパフォーマンスを測定し、意思決定ポリシーやオファーがどのように配信され、関与しているかに関するインサイトを得ることができます。 [ 決定レポートの詳細情報 ](cja-reporting.md)。
 
 ![](../reports/assets/cja-decisioning-item-performance.png)

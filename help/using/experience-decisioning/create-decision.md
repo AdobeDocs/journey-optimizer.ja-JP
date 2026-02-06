@@ -7,10 +7,10 @@ role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 version: Journey Orchestration
-source-git-commit: fb35bc5a51421818297586b5e386aa75deb1c669
+source-git-commit: be4c0453630388d898d53feeb5f9dcfe57ad5934
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 72%
+source-wordcount: '685'
+ht-degree: 70%
 
 ---
 
@@ -49,8 +49,8 @@ ht-degree: 72%
 
 ## ガードレールと制限
 
-* **サポートされているチャネル** – 決定ポリシーは、コードベースのエクスペリエンス、メール、SMS およびプッシュ通知などのチャネルで使用できます。
-* **プッシュ通知のSDK要件** - プッシュ通知を使用した Experience Decisioning では、特定のバージョンの Mobile SDKが必要です。 この機能を実装する前に、[&#x200B; リリースノート &#x200B;](https://developer.adobe.com/client-sdks/home/release-notes/){target="_blank"} を確認して、必要なバージョンを特定し、それに応じてアップグレードしていることを確認します。 また、お使いのプラットフォームで利用可能なすべてのSDK バージョンを確認することもできます [&#x200B; この節 &#x200B;](https://developer.adobe.com/client-sdks/home/current-sdk-versions/){target="_blank"}。
+* **サポートされているチャネル** – 決定ポリシーは、すべてのお客様がコードベースのエクスペリエンス、SMS およびプッシュ通知に使用できます。 メールチャネルの決定は、限定提供（LA）でのみ使用できます。
+* **プッシュ通知のSDK要件** - プッシュ通知を使用した Experience Decisioning では、特定のバージョンの Mobile SDKが必要です。 この機能を実装する前に、[ リリースノート ](https://developer.adobe.com/client-sdks/home/release-notes/){target="_blank"} を確認して、必要なバージョンを特定し、それに応じてアップグレードしていることを確認します。 また、お使いのプラットフォームで利用可能なすべてのSDK バージョンを確認することもできます [ この節 ](https://developer.adobe.com/client-sdks/home/current-sdk-versions/){target="_blank"}。
 * **メールのミラーページ** - 現時点では、決定項目はメールのミラーページではレンダリングされません。
 * **トラッキングとリンクのタイプ** - 決定によって生成されたリンクを追跡するには、「決定アセット」としてスキーマで定義します。属性ベースのリンクは追跡できません。
 * **メールでの決定ポリシーのネスト** - 既に決定ポリシーが関連付けられている親メールコンポーネント内に複数の決定ポリシーをネストすることはできません。
@@ -85,12 +85,12 @@ ht-degree: 72%
 
 Decisioning を使用して、オーディエンス向けにメールをパーソナライズする方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3476165?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476158?quality=12)
 
 Decisioning を使用して、オーディエンス向けにプッシュ通知をパーソナライズする方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3479211?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
 
 Decisioning を使用して、オーディエンス向けに SMS メッセージをパーソナライズする方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3479530?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479529?quality=12)
