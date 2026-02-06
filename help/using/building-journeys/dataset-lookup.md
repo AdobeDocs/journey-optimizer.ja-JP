@@ -8,10 +8,11 @@ topic: Content Management
 role: User
 level: Intermediate
 version: Journey Orchestration
+badge: label="限定提供" type="Informative"
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: ht
-source-wordcount: '776'
+source-git-commit: 6e74fc363784fe4f4bae07bfe766035285c9a2ca
+workflow-type: tm+mt
+source-wordcount: '778'
 ht-degree: 100%
 
 ---
