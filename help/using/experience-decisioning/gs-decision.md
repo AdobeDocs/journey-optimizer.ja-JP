@@ -37,13 +37,13 @@ ht-degree: 83%
 * 更新された決定ポリシーと選択戦略の設定：決定コンポーネントの再利用を可能にします
 * 実験機能：他のコンテンツコンポーネントに対して決定ロジックをテストし、パフォーマンスを測定します
 
-すべてのお客様が **コードベースのエクスペリエンス**、**プッシュ通知**、**SMS** の各チャネルで決定を利用できます。 **メール** チャネルの決定は、限定提供（LA）で利用できます。 E メール判定へのアクセスをリクエストするには、Adobe担当者にお問い合わせください。 詳細情報 [ 可用性ラベル ](../rn/releases.md#availability-labels)。
+すべてのお客様が **コードベースのエクスペリエンス**、**プッシュ通知**、**SMS** の各チャネルで決定を利用できます。 **メール** チャネルの決定は、限定提供（LA）で利用できます。 E メール判定へのアクセスをリクエストするには、Adobe担当者にお問い合わせください。 詳細情報 [&#x200B; 可用性ラベル &#x200B;](../rn/releases.md#availability-labels)。
 
 ➡️ [決定の基本を学ぶ](../experience-decisioning/gs-experience-decisioning.md)
 
 >[!NOTE]
 >
->意思決定管理から意思決定へ移行するには、[ 移行に関するドキュメント ](../experience-decisioning/migrate-to-decisioning.md) および [ 移行 API ガイド ](../experience-decisioning/decisioning-migration-api.md) を参照してください。
+>意思決定管理から意思決定へ移行するには、[&#x200B; 移行に関するドキュメント &#x200B;](../experience-decisioning/migrate-to-decisioning.md) および [&#x200B; 移行 API ガイド &#x200B;](../experience-decisioning/decisioning-migration-api.md) を参照してください。
 
 ## 意思決定管理 {#decision-management}
 
