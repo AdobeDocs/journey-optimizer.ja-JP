@@ -11,13 +11,13 @@ hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
-source-git-commit: 7aeb36b88af415d59d9e7275ec3605db1a243b07
+exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
+source-git-commit: 17d7cf7ae18ff987b7a9c9bebdec44b354ed11da
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '636'
 ht-degree: 2%
 
 ---
-
 
 # ロイヤルティに関する課題の概要 {#get-started-loyalty-challenges}
 
@@ -34,7 +34,7 @@ ht-degree: 2%
 
 >[!AVAILABILITY]
 >
->この機能は現在 **プライベートベータ版** です。 詳細情報 [&#x200B; 可用性ラベル &#x200B;](../rn/releases.md#availability-labels)。
+>この機能は現在 **プライベートベータ版** です。 詳細情報 [ 可用性ラベル ](../rn/releases.md#availability-labels)。
 
 ## 概要 {#overview}
 
@@ -65,8 +65,6 @@ ht-degree: 2%
 
 ロイヤルティの課題の作成と開始は、次のワークフローに従います。
 
-1. **データ取り込みの設定** - Experience Platform ソースコネクタ（[&#x200B; キャピラリコネクタ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/home#loyalty) など）を設定して、顧客のアクションと進行状況を追跡するロイヤルティイベントデータを取り込みます。 このデータにより、課題の追跡とタスクの完了が強化されます。
-
 1. **チャレンジの作成** – 名前、タイプ（標準、ストリーク、順次）、日付範囲など、基本的なチャレンジプロパティを定義します。
 
 1. **タスクを追加** - タスクのタイプ（購入、支出）、数量、製品フィルター、報酬など、顧客が完了する必要がある特定のアクションを定義します。
@@ -79,27 +77,34 @@ ht-degree: 2%
 
 1. **課題の開始** – 課題を公開してから、ジャーニーを生成します。 Journey Optimizerは、課題に対応するジャーニーを自動的に作成します。 自動生成されたジャーニーを公開して、顧客が課題を利用できるようにします。
 
-詳細な手順については、[&#x200B; 課題の作成 &#x200B;](create-challenges.md) を参照してください。
+詳細な手順については、[ 課題の作成 ](create-challenges.md) を参照してください。
 
 ## 前提条件 {#prerequisites}
 
 ロイヤルティの課題を使用する前に、次の点を確認します。
 
-+++データ取り込み設定
-
-ロイヤルティの課題は、Experience Platform ソースコネクタを通じて取り込まれたデータに依存して、顧客の進捗とタスクの完了を追跡します。
-
-開始する前に、サポートされているソースコネクタを設定します。 現在、Capilary コネクタは使用可能です。 今後のリリースで追加のコネクタが予定されています。 [&#x200B; ロイヤルティソースコネクタについて説明します &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/home#loyalty)。
-
-+++
-
 +++必要な権限
 
-ロイヤルティの課題を使用するには、Journey Optimizerでの適切な権限が必要です。 必要な権限は次のとおりです。
+ロイヤルティの課題を使用するには、Journey OptimizerとAdobe Experience Platformで適切な権限が必要です。
 
-* 未定
-* 未定
-* 未定
+**Journey Optimizer:**
+
+* `journeys.read`
+* `journeys.write`
+* `journeys.delete`
+* `journeys.publish`
+* `journeys_events.read`
+* `journeys_events.write`
+* `journeys_events.delete`
+* `journeys_report.read`
+* `messages.read`
+* `messages_report.read`
+
+**Adobe Experience Platform:**
+
+* `segments.read`
+* `profiles.read`
+* `identity_namespace.read`
 
 機能にアクセスできない場合や追加の権限が必要な場合は、管理者にお問い合わせください。
 
@@ -107,7 +112,7 @@ ht-degree: 2%
 
 +++ターゲットオーディエンス
 
-課題を作成する前に、必要なターゲットオーディエンスがAdobe Experience Platformに存在することを確認します。 チャレンジ設定時に、参加資格のある顧客を定義するオーディエンスを選択します。 [&#x200B; オーディエンスの操作方法を学ぶ &#x200B;](../audience/about-audiences.md)。
+課題を作成する前に、必要なターゲットオーディエンスがAdobe Experience Platformに存在することを確認します。 チャレンジ設定時に、参加資格のある顧客を定義するオーディエンスを選択します。 [ オーディエンスの操作方法を学ぶ ](../audience/about-audiences.md)。
 
 +++
 
