@@ -5,10 +5,10 @@ role: User
 level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
-source-git-commit: 4ce83c9cd3f70462c977db6e872a7ac51ea0e006
+source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 95%
+source-wordcount: '713'
+ht-degree: 92%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 95%
 
 1. **[!UICONTROL 自己承認をブロック]**&#x200B;を有効にすると、ジャーニー／キャンペーン作成者が自身のオブジェクトを承認できなくなります。
 
-   ![](assets/policy_create_2.png)
+   ![ 承認ポリシーの詳細フォーム ](assets/policy_create_2.png)
 
 条件を調整して、承認リクエストを開始するユーザーと検証するユーザーを指定できるようになりました。
 
@@ -72,7 +72,7 @@ ht-degree: 95%
 * **キャンペーンタイプ**：[アクションと API トリガーキャンペーン](../campaigns/get-started-with-campaigns.md#campaign-types)に異なるルールを設定します
 * **依頼者**：キャンペーンまたはジャーニーの作成者に基づいてポリシーを定義します
 
-承認ポリシーに関連付ける条件を定義するには、次の手順に従います。
+承認ポリシーに関連付けられた条件を定義するには、次の手順に従います。
 
 1. **[!UICONTROL 承認ポリシー]**&#x200B;にアクセスします。
 
