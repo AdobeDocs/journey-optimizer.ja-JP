@@ -36,11 +36,11 @@ ht-degree: 79%
 
 1. **キャンペーン**&#x200B;リソースを追加し、ドロップダウンメニューから「**キャンペーンの承認と公開**」を選択します。
 
-   ![ キャンペーンの承認および公開権限の割り当て ](assets/permissions_approval.png){zoomable="yes"}
+   ![&#x200B; キャンペーンの承認および公開権限の割り当て &#x200B;](assets/permissions_approval.png){zoomable="yes"}
 
 1. **ジャーニー**&#x200B;リソースを追加して、ドロップダウンメニューから「**ジャーニーの承認と公開**」を選択します。
 
-   ![ジャーニーの承認および公開権限の割り当て ](assets/permissions_approval_2.png){zoomable="yes"}
+   ![ジャーニーの承認および公開権限の割り当て &#x200B;](assets/permissions_approval_2.png){zoomable="yes"}
 
 1. 「**保存**」をクリックして、変更を適用します。
 
@@ -60,7 +60,7 @@ ht-degree: 79%
 
 グローバルな承認プロセスは以下のようになります。
 
-![ 承認プロセスフロー ](assets/approval-process.png){zoomable="yes"}
+![&#x200B; 承認プロセスフロー &#x200B;](assets/approval-process.png){zoomable="yes"}
 
 1. **承認ポリシーの設定**
 
@@ -82,7 +82,7 @@ ht-degree: 79%
 
 特定のジャーニーまたはキャンペーンに対して送信されたすべての承認および変更リクエストを監視できます。これを行うには、ジャーニーキャンバスまたはキャンペーンレビュー画面の右上のセクションにある「**[!UICONTROL 監査記録を表示]**」アイコンをクリックします。
 
-![ 承認要求監査証跡 ](assets/monitor-requests.png)
+![&#x200B; 承認要求監査証跡 &#x200B;](assets/monitor-requests.png)
 
 ## その他のリソース
 

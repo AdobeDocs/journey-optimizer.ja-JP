@@ -36,11 +36,11 @@ ht-degree: 97%
 
 1. コンテンツを開き、**[!UICONTROL コンテンツをシミュレート]**／**[!UICONTROL コンテンツバリエーションをシミュレート]**&#x200B;を選択します。
 
-   ![ 「コンテンツのバリエーションをシミュレート」オプション ](assets/simulate-sample.png)
+   ![&#x200B; 「コンテンツのバリエーションをシミュレート」オプション &#x200B;](assets/simulate-sample.png)
 
 2. 「**[!UICONTROL 生成]**」ボタンをクリックします。
 
-   ![ 「バリアントを生成」ボタン ](assets/simulate-generate-variant.png)
+   ![&#x200B; 「バリアントを生成」ボタン &#x200B;](assets/simulate-generate-variant.png)
 
 3. [!DNL Journey Optimizer] では、検出された属性に基づいてバリアントを自動的に生成します。
 
