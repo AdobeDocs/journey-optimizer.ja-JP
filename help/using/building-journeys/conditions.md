@@ -12,10 +12,10 @@ hidefromtoc: true
 hide: true
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: ht
-source-wordcount: '1696'
-ht-degree: 100%
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+workflow-type: tm+mt
+source-wordcount: '1662'
+ht-degree: 95%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 100%
 
 ジャーニーの設計には、機能的な影響があることに注意してください。条件の後に複数のパスが定義された場合、最初の有効なパスのみが実行されます。つまり、パスを上下に配置することで、パスの優先順位を変更できます。
 
-最初のパスの条件「このユーザーは VIP である」と 2 番目のパスの条件「このユーザーは男性である」を例にとってみましょう。両方の条件を満たす人物（VIP の男性）がこのステップを通過した場合、最初のパスが「上」に配置されているため、この人物が 2 番目のパスに該当しても最初のパスが選択されます。この優先度を変更するには、アクティビティを別の垂直方向の順序に移動します。
+「その人はVIPである」と「その人は男性である」という 2 つの経路条件を取りましょう。 両方の条件を満たす場合は、1 つ目のパスが 2 つ目のパスより上にあるので、1 つ目のパスが選択されます。 この優先度を変更するには、アクティビティを別の垂直方向の順序に移動します。
 
 ![VIP 条件が男性条件より上であることを示すパスの優先順位の例](assets/journey48.png)
 
@@ -87,11 +87,11 @@ ht-degree: 100%
 
 ![ドラッグ＆ドロップフィールドと論理演算子を含むシンプルな式エディター](assets/journey64.png){width=80%}
 
-[Adobe Experience Platform セグメント化サービス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja){target="_blank"}を使用してオーディエンスを作成している場合は、ジャーニー条件で活用できます。詳しくは、[条件でのオーディエンスの使用](../building-journeys/condition-activity.md#using-a-segment)を参照してください。
+[[!DNL Adobe Experience Platform]  セグメント化サービス ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja){target="_blank"} を使用してオーディエンスを作成する場合は、それらのオーディエンスをジャーニー条件で利用できます。 詳しくは、[条件でのオーディエンスの使用](../building-journeys/condition-activity.md#using-a-segment)を参照してください。
 
 >[!NOTE]
 >
->単純なエディターでは、時系列（購入のリスト、メッセージの過去のクリックなど）に対してクエリを実行できません。このためには、高度なエディターを使用する必要があります。[このページ](expression/expressionadvanced.md)を参照してください。
+>単純なエディターでは、時系列（購入のリスト、メッセージの過去のクリックなど）に対してクエリを実行できません。このためには、高度なエディターを使用する必要があります。詳しくは、[このページ](expression/expressionadvanced.md)を参照してください。
 
 アクションまたは条件でエラーが発生すると、個人のジャーニーが停止します。続行するには、「**[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**」チェックボックスをオンにするだけです。[詳細情報](../building-journeys/using-the-journey-designer.md#paths)
 
@@ -188,7 +188,7 @@ ht-degree: 100%
 
 1. 左側で、**[!UICONTROL オーディエンス]**&#x200B;ノードを展開します。条件に使用するオーディエンスをドラッグ＆ドロップします。デフォルトでは、オーディエンスの条件は true です。
 
-   ![Adobe Experience Platform オーディエンスを選択するための、式エディターのオーディエンスノード](assets/segment4.png){width=80%}
+   ![[!DNL Adobe Experience Platform] しいオーディエンスを選択するための式エディターのオーディエンスノード ](assets/segment4.png){width=80%}
 
    >[!NOTE]
    >

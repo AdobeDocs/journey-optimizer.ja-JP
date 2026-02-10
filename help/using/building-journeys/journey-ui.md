@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: ジャーニーの参照とフィルタリング
-description: Adobe Journey Optimizer でのジャーニーの参照とフィルタリング
+description: ' [!DNL Adobe Journey Optimizer] の場所でジャーニーを参照およびフィルタリングします。'
 feature: Journeys, Get Started
 topic: Content Management
 role: User
@@ -10,10 +10,10 @@ level: Intermediate
 keywords: ジャーニー, 最初, 開始, クイックスタート, オーディエンス, イベント, アクション
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
-source-git-commit: 0271dfdf9578921f48001f2bdcc0dbb15f785762
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1483'
-ht-degree: 98%
+source-wordcount: '1477'
+ht-degree: 96%
 
 ---
 
@@ -128,7 +128,7 @@ ht-degree: 98%
 
 * **[!UICONTROL 単一イベント]** - 単一イベントジャーニーは、特定のプロファイルにリンクされます。イベントは、ユーザーの行動またはユーザーとリンクして発生した事象（例えば、ユーザーが 10,000 ロイヤルティポイントに到達したなど）に関連しています。[詳細情報](../event/about-events.md)
 * **[!UICONTROL ビジネスイベント]**。ビジネスイベントジャーニーは、プロファイルに関連しないイベントで開始します。イベントの設定は技術系ユーザーが実行し、編集はできません。[詳細情報](../event/about-events.md)
-* **[!UICONTROL オーディエンスの選定]** - オーディエンスの選定ジャーニーは Adobe Experience Platform オーディエンスへのプロファイルのエントリや離脱をリッスンして、個人をジャーニーにエントリさせたりジャーニー内を前進させたりすることができます。[詳細情報](audience-qualification-events.md)
+* **[!UICONTROL オーディエンスの選定]** - オーディエンスの選定ジャーニーは、プロファイルのエントリや離脱を [!DNL Adobe Experience Platform] のオーディエンスでリッスンして、個人をジャーニーにエントリさせたり、ジャーニーを先に進ませたりします。 [詳細情報](audience-qualification-events.md)
 * **[!UICONTROL オーディエンスを読み取り]** - オーディエンスを読み取りジャーニーでは、オーディエンス内のすべての個人がジャーニーにエントリし、ジャーニーに含まれるメッセージを受け取ります。[詳細情報](read-audience.md)
 
 
@@ -140,7 +140,7 @@ ht-degree: 98%
 
 * **ドラフト**：ジャーニーは最初のステージです。まだ公開されていません。
 * **ドラフト（テスト）**：「**テストモード**」ボタンを使用してテストモードがアクティブ化されています。[詳細情報](../building-journeys/testing-the-journey.md)
-* **完了**：ジャーニーは、ジャーニーのタイプと設定に基づいて、このステータスに自動的に切り替わります。 既にジャーニーにエントリしているプロファイルは、通常どおりにジャーニーを終了できます。新しいプロファイルは、そのジャーニーにエントリできなくなります。[&#x200B; ジャーニーが完了したと見なされるタイミングを説明します &#x200B;](end-journey.md#journey-finished-definition)。
+* **完了**：ジャーニーは、ジャーニーのタイプと設定に基づいて、このステータスに自動的に切り替わります。 既にジャーニーにエントリしているプロファイルは、通常どおりにジャーニーを終了できます。新しいプロファイルは、そのジャーニーにエントリできなくなります。[ ジャーニーが完了したと見なされるタイミングを説明します ](end-journey.md#journey-finished-definition)。
 * **ライブ**：ジャーニーは「**公開**」ボタンを使用して公開されています。[詳細情報](../building-journeys/publish-journey.md)
 * **一時停止済み**：ライブジャーニーは「**一時停止**」ボタンを使用して一時停止されています。[詳細情報](../building-journeys/journey-pause.md)
 * **停止済み**：「**停止**」ボタンを使用してジャーニーがオフになっています。すべての個人のジャーニーが即座に終了します。[詳細情報](../building-journeys/end-journey.md#stop-journey)

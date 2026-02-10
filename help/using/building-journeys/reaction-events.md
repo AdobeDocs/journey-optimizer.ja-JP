@@ -10,10 +10,10 @@ level: Intermediate
 keywords: ジャーニー, イベント, 反応, トラッキング, Platform
 exl-id: 235384f3-0dce-4797-8f42-1d4d01fa42d9
 version: Journey Orchestration
-source-git-commit: d8fa1c7055e4e31e393e36ba16863e0f8f95ca9b
-workflow-type: ht
-source-wordcount: '504'
-ht-degree: 100%
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+workflow-type: tm+mt
+source-wordcount: '498'
+ht-degree: 94%
 
 ---
 
@@ -22,12 +22,12 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_reaction"
 >title="反応イベント"
->abstract="このアクティビティを使用すると、同じジャーニーの中で送信したメッセージに関するトラッキングデータに反応することができます。この情報は、Adobe Experience Platform と共有した時点でリアルタイムに取り込まれます。"
+>abstract="このアクティビティを使用すると、同じジャーニーの中で送信したメッセージに関するトラッキングデータに反応することができます。この情報は、[!DNL Adobe Experience Platform] と共有された時点でリアルタイムに取り込まれます。"
 
 ## 概要 {#overview}
 
 パレットに表示される多数のイベントアクティビティの中に、ビルトインの&#x200B;**[!UICONTROL 反応]**イベントがあります。
-このアクティビティを使用すると、同じジャーニーの中で送信したメッセージに関するトラッキングデータに反応することができます。この情報は、Adobe Experience Platform と共有した時点でリアルタイムに取り込まれます。
+このアクティビティを使用すると、同じジャーニーの中で送信したメッセージに関するトラッキングデータに反応することができます。この情報は、[!DNL Adobe Experience Platform] と共有された時点でリアルタイムに取り込まれます。
 
 クリックされたメッセージや開封されたメッセージに反応することができます。例えば、個人が前回のメールを開封した場合やメール内をクリックした場合に別のメッセージを送信したり、コミュニケーションに関与しなかった場合に別のフォローアップメッセージを送信したりできます。
 

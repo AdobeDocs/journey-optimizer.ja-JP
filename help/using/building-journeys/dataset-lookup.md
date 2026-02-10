@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: ジャーニーでの Adobe Experience Platform データの使用
-description: Adobe Journey Optimizer のデータセット参照アクティビティを使用して、Adobe Experience Platform からの外部データでカスタマージャーニーを強化する方法について説明します。
+title: ジャーニ  [!DNL Adobe Experience Platform]  でのデータの使用
+description: のデータセットルックアップアクティビティを使用して、 [!DNL Adobe Journey Optimizer]  の外部データでカスタマージャーニーをエンリッチメントする方法について説明します  [!DNL Adobe Experience Platform]
 feature: Journeys, Activities
 topic: Content Management
 role: User
@@ -10,10 +10,10 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="限定提供" type="Informative"
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
-source-git-commit: 6e74fc363784fe4f4bae07bfe766035285c9a2ca
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 100%
+source-wordcount: '761'
+ht-degree: 89%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dataset_lookup"
 >title="データセット参照アクティビティ"
->abstract="**[!UICONTROL データセット参照]**&#x200B;アクティビティを使用すると、実行時に Adobe Experience Platform レコードデータセットからデータを動的に取得できます。この機能を活用することで、プロファイルやイベントペイロードに存在しない場合があるデータにアクセスできるので、顧客とのインタラクションが関連性が高く、タイムリーなものになります。"
+>abstract="**[!UICONTROL データセット検索]** アクティビティを使用すると、実行時にレコードデータセットからデータ [!DNL Adobe Experience Platform] 動的に取得できます。 この機能を活用することで、プロファイルやイベントペイロードに存在しない場合があるデータにアクセスできるので、顧客とのインタラクションが関連性が高く、タイムリーなものになります。"
 
-**[!UICONTROL データセット参照]**&#x200B;アクティビティを使用すると、実行時に Adobe Experience Platform レコードデータセットからデータを動的に取得できます。この機能を活用することで、プロファイルやイベントペイロードに存在しない場合があるデータにアクセスできるので、顧客とのインタラクションが関連性が高く、タイムリーなものになります。
+**[!UICONTROL データセット検索]** アクティビティを使用すると、実行時にレコードデータセットからデータ [!DNL Adobe Experience Platform] 動的に取得できます。 この機能を活用することで、プロファイルやイベントペイロードに存在しない場合があるデータにアクセスできるので、顧客とのインタラクションが関連性が高く、タイムリーなものになります。
 
 主な利点：
 
@@ -38,9 +38,11 @@ ht-degree: 100%
 
 ## 必読 {#must-read}
 
+データセット検索を設定する前に、これらの要件を確認してください。
+
 ### データセットのイネーブルメント
 
-Adobe Experience Platform で参照するには、データセットを有効にする必要があります。詳しくは、[Adobe Experience Platform データの使用](../data/lookup-aep-data.md)の節を参照してください。
+[!DNL Adobe Experience Platform] で参照するには、データセットを有効にする必要があります。 詳しくは、次の節を参照してください。[ 使用  [!DNL Adobe Experience Platform]  データ ](../data/lookup-aep-data.md)。
 
 ### 制限および制約事項
 
@@ -64,7 +66,7 @@ Adobe Experience Platform で参照するには、データセットを有効に
 
 1. **[!UICONTROL オーケストレーション]**&#x200B;カテゴリを展開し、**[!UICONTROL データセット参照]**&#x200B;アクティビティをキャンバスにドロップします。
 
-   ![ジャーニーの Adobe Experience Platform データセット参照アクティビティ](assets/aep-data-activity.png)
+   ジャ ![[!DNL Adobe Experience Platform] ニーのデータセットルックアップアクティビティ ](assets/aep-data-activity.png)
 
 1. ラベルと説明を追加します。
 

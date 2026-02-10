@@ -1,16 +1,16 @@
 ---
-title: ジャーニーでの補助識別子の使用
+title: ジャーニーの補足識別子の使用
 description: ジャーニーの補助識別子の使用方法について説明します。
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: ht
-source-wordcount: '1424'
-ht-degree: 100%
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+workflow-type: tm+mt
+source-wordcount: '1434'
+ht-degree: 99%
 
 ---
 
-# ジャーニーでの補助識別子の使用 {#supplemental-id}
+# ジャーニーの補足識別子の使用 {#supplemental-id}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_parameters_supplemental_identifier"
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 ➡️ [この機能について詳しくは、ビデオを参照してください](#video)。
 
-## ガードレールと制限事項 {#guardrails}
+## ガードレールと制限 {#guardrails}
 
 * **サポートされているジャーニー**：**イベントトリガー**&#x200B;ジャーニーと&#x200B;**オーディエンスを読み取り**&#x200B;ジャーニーでは、補助識別子がサポートされています。オーディエンスの選定ジャーニー（例：オーディエンスの選定アクティビティから開始するジャーニー）では&#x200B;**サポートされていません**。
 
@@ -218,6 +218,8 @@ ht-degree: 100%
 
 ## ユースケースの例
 
+これらの例は、補足的な識別子が複数の関連レコードをどのようにサポートするかを示しています。
+
 ### **ポリシー更新通知**
 
 * **シナリオ**：保険プロバイダーは、お客様が保持するアクティブなポリシーごとに更新リマインダーを送信します。
@@ -246,4 +248,4 @@ ht-degree: 100%
 
 [!DNL Adobe Journey Optimizer] で補足識別子を有効にして適用する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464793?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)

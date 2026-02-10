@@ -11,10 +11,10 @@ badge: label="限定提供" type="Informative"
 keywords: アクティビティ, 決定, コンテンツ決定, 決定ポリシー, キャンバス, ジャーニー
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
-source-git-commit: 7a83bb558559ba814ed9431bb85a68929a276ed5
-workflow-type: ht
-source-wordcount: '1120'
-ht-degree: 100%
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+workflow-type: tm+mt
+source-wordcount: '1111'
+ht-degree: 93%
 
 ---
 
@@ -80,7 +80,7 @@ ht-degree: 100%
 
 同意ポリシーの更新が有効になるまで最大 48 時間かかります。決定ポリシーが、最近更新された同意ポリシーに関連付けられた属性を参照している場合、変更は直ちに適用されません。
 
-同様に、同意ポリシーの対象となる新しいプロファイル属性が決定ポリシーに追加された場合、その属性は使用可能になりますが、関連付けられた同意ポリシーは、遅延が経過するまで適用されません。
+同様に、同意ポリシーの対象となる新しいプロファイル属性を決定ポリシーに追加して使用できます。 関連する同意ポリシーは、遅延が経過するまで適用されません。
 
 同意ポリシーは、Adobe Healthcare Shield または Privacy and Security Shield アドオンを導入している組織でのみ使用できます。
 
@@ -114,7 +114,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >決定ルールで使用されるジャーニーエクスペリエンスイベント（コンテキストデータとして）または[オファースキーマ](../experience-decisioning/catalogs.md#access-catalog-schema)のいずれかで、属性に定義された制限ラベルは、DULE または同意のポリシー違反にはなりません。データガバナンスポリシーについて詳しくは、[この節](../action/action-privacy.md)を参照してください
+   >属性に定義された制限ラベルは、DULE または同意のポリシー違反となる可能性があります。 これは、決定ルールで使用されるジャーニーエクスペリエンスイベントと、[ オファースキーマ ](../experience-decisioning/catalogs.md#access-catalog-schema) に適用されます。 データガバナンスポリシーについて詳しくは、[ この節 ](../action/action-privacy.md) を参照してください。
 
 1. ジャーニーにエントリするプロファイルに対してオファーが返されたかどうかを確認するには、構文 `listSize(@decision{ContentdecisionName.items})>0` で [listSize](functions/list-functions.md#listSize) 関数を使用します
 

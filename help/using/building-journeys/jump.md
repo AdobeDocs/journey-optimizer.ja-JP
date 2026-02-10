@@ -10,10 +10,10 @@ level: Intermediate
 keywords: ジャンプ, アクティビティ, ジャーニー, 分割
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: ht
-source-wordcount: '885'
-ht-degree: 100%
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+workflow-type: tm+mt
+source-wordcount: '896'
+ht-degree: 98%
 
 ---
 
@@ -54,7 +54,9 @@ ht-degree: 100%
 >
 >外部イベントを介してジャーニー B をトリガーすることもできます。
 
-## ベストプラクティスと制限事項 {#jump-limitations}
+## ベストプラクティスと制限 {#jump-limitations}
+
+これらのガイドラインを使用して、ジャンプ アクティビティの動作を予測可能かつ安全に保ちます。
 
 ### オーサリング {#jump-limitations-authoring}
 

@@ -9,28 +9,28 @@ role: User, Developer
 level: Intermediate, Experienced
 keywords: ジャーニー、ユースケース
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: ht
-source-wordcount: '287'
-ht-degree: 100%
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+workflow-type: tm+mt
+source-wordcount: '268'
+ht-degree: 80%
 
 ---
 
-# ユースケース：カスタムアクションを作成して Adobe Experience Platform にデータを送信する{#send-data-to-aep}
+# ユースケース：[!DNL Adobe Experience Platform] にデータを送信するためのカスタムアクションの作成{#send-data-to-aep}
 
-最近、別のメールサービスプロバイダー、IP アドレス、メールドメインまたはサブドメインに移動した場合は、送信者としての評判を確立する必要があります。そうしないと、配信がブロックされたり、受信者のメールボックスのスパムフォルダーに送られる可能性があります。IP ウォーミングを使用してメールの評判を高める方法について詳しくは、[配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=ja){target="_blank"}を参照してください。
+最近、別のメールサービスプロバイダー、IP アドレス、メールドメインまたはサブドメインに移動した場合は、送信者としての評判を確立します。 そうしないと、配信がブロックされたり、受信者のスパムフォルダーに移動されたりする可能性があります。 ガイダンスについては、[ 配信品質のベストプラクティスガイド ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=ja){target="_blank"} を参照してください。
 
 IP をウォームアップするために、配信数を徐々に増やすことができます。詳しくは、[Journey Optimizer での配信品質の最適化](../reports/deliverability.md)を参照してください。
 
 この使用例の目的は、ジャーニーを作成してメール配信を増やすことです。このジャーニーを設定するには、次の手順に従います。
 
-1. ジャーニーを作成します。[詳細情報](journey-gs.md)
+1. ジャーニーを作成します。[詳細情報](journey-gs.md)。
 
-1. **[!UICONTROL 条件]**&#x200B;アクティビティをジャーニーに追加します。[詳細情報](condition-activity.md)
+1. **[!UICONTROL 条件]**&#x200B;アクティビティをジャーニーに追加します。[詳細情報](condition-activity.md)。
 
 1. **[!UICONTROL 条件]**&#x200B;アクティビティの設定で、配信の最大受信者数を設定します。
 
-   1. **[!UICONTROL 条件]**&#x200B;アクティビティの設定で、「**[!UICONTROL タイプ]**」フィールドを&#x200B;**[!UICONTROL プロファイルキャップ]**&#x200B;に設定します。[詳細情報](condition-activity.md#profile_cap)
+   1. **[!UICONTROL 条件]**&#x200B;アクティビティの設定で、「**[!UICONTROL タイプ]**」フィールドを&#x200B;**[!UICONTROL プロファイルキャップ]**&#x200B;に設定します。[詳細情報](condition-activity.md#profile_cap)。
 
    1. 「**[!UICONTROL 制限]**」フィールドをこの配信の最大受信者数に設定します。
 

@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 公開, ジャーニー, ライブ, 有効性, 確認
 exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: ht
-source-wordcount: '546'
-ht-degree: 100%
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+workflow-type: tm+mt
+source-wordcount: '543'
+ht-degree: 96%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 ## 前提条件 {#prerequisites}
 
-ジャーニー指標を使用する前に、Adobe Experience Platform の設定／レポートで、`Commerce Details`、`Web` および `Mobile` の[フィールドグループ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja#field-group){target="_blank"}を含むデータセットを追加する必要があります。
+ジャーニー指標を使用する前に、`Commerce Details` の設定/ レポートの下で、`Web`、`Mobile`、[ ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja#field-group){target="_blank"} フィールドグループ [!DNL Adobe Experience Platform] を含むデータセットを追加する必要があります。
 
 これらのフィールドグループは、カスタムグループではなく、ビルトインのオプションから選択する必要があります。[データセットを追加](../reports/reporting-configuration.md#add-datasets)の節を参照してください。
 

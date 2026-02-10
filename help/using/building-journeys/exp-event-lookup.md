@@ -5,10 +5,10 @@ title: ジャーニーのエクスペリエンスイベント参照
 description: ジャーニーのエクスペリエンスイベント参照の使用方法について説明します
 exl-id: 35e2e347-0669-44a3-92ba-aee52e54c219
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '949'
-ht-degree: 100%
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+workflow-type: tm+mt
+source-wordcount: '914'
+ht-degree: 87%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 >
 >さらに詳細が必要ですか？[詳しくは、FAQ を参照してください](#faq-ee)。
 
-このページでは、Adobe Journey Optimizer のエクスペリエンスイベントを最大限に活用する一般的なパターンとスケーラブルなアプローチについて説明します。これらのユースケースは、オプトアウトの管理、メッセージ頻度の制御、ユーザー行動に基づくコンテンツのパーソナライズ、リアルタイムシグナルへの対応など、頻繁に発生する課題の解決に役立つように設計されています。
+このページでは、[!DNL Adobe Journey Optimizer] でエクスペリエンスイベントを最大限に活用するための一般的なパターンとスケーラブルなアプローチについて説明します。 これらのユースケースは、オプトアウトの管理、メッセージ頻度の制御、ユーザー行動に基づくコンテンツのパーソナライズ、リアルタイムシグナルへの対応など、頻繁に発生する課題の解決に役立つように設計されています。
 
 これらの戦略を活用することで、行動データを意味のあるアクションに変換し、トリガーされるイベントやプロファイルが持つ属性に基づきプロファイルを抑制、選定、除外できます。購入しきい値、放棄トリガー、バウンス処理のロジックを作成している場合でも、これらの例では、ニーズに合わせて調整できる実践的なガイダンスを提供します。
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 
 ## バウンスベースの抑制
 
-メールバウンスが発生したプロファイルを除外するには、Adobe Journey Optimizer のバウンスしたアドレスの自動抑制リストを活用します。このビルトインメカニズムにより、カスタムロジックを必要とせずに、無効なメールや未到達メールが今後の送信から除外されます。
+メールバウンスが発生したプロファイルを除外するには、バウンスアドレスに対する [!DNL Adobe Journey Optimizer] の自動抑制リストを活用します。 このビルトインメカニズムにより、カスタムロジックを必要とせずに、無効なメールや未到達メールが今後の送信から除外されます。
 
 詳細情報：
 
@@ -52,9 +52,9 @@ ht-degree: 100%
 
 詳細情報：
 
-* Adobe Experience Platform [セグメントビルダー - イベント](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* [!DNL Adobe Experience Platform][ セグメントビルダー – イベント ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* Adobe Experience Platform [セグメントビルダー - 時間制約](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* [!DNL Adobe Experience Platform][ セグメントビルダー – 時間制約 ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [条件でのオーディエンスの使用](../building-journeys/condition-activity.md#using-a-segment)
 
@@ -71,9 +71,9 @@ ht-degree: 100%
 
 オーディエンスの使用の詳細情報：
 
-* Adobe Experience Platform [セグメントビルダー - イベント](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* [!DNL Adobe Experience Platform][ セグメントビルダー – イベント ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* Adobe Experience Platform [セグメントビルダー - 時間制約](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* [!DNL Adobe Experience Platform][ セグメントビルダー – 時間制約 ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [条件でのオーディエンスの使用](../building-journeys/condition-activity.md#using-a-segment)
 
@@ -93,9 +93,9 @@ ht-degree: 100%
 
 詳細情報：
 
-* Adobe Experience Platform [セグメントビルダー - イベント](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* [!DNL Adobe Experience Platform][ セグメントビルダー – イベント ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* Adobe Experience Platform [セグメントビルダー - 時間制約](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* [!DNL Adobe Experience Platform][ セグメントビルダー – 時間制約 ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [条件でのオーディエンスの使用](../building-journeys/condition-activity.md#using-a-segment)
 
@@ -105,8 +105,8 @@ ht-degree: 100%
 
 最新の買い物かごに基づいて通信をパーソナライズしたり、複数の買い物かごタイプや製品ビューをまたいでイベントを参照するには：
 
-* [Adobe Experience Platform Data Distiller](https://experienceleague.adobe.com/ja/docs/experience-platform/query/data-distiller/overview){target="_blank"} へのアクセス権がある場合は、自動クエリを設定してイベントから必要なデータを抽出し、ユースケースに合わせて操作し、アクティブ化にプロファイル対応データセットに書き戻します。
-* スカラー属性を使用してプロファイルで放棄データをモデル化できる場合は、計算属性を使用して最新情報を取得し、ジャーニーでこれらの属性を参照して通信を構築することを考慮します。[詳しくは、Adobe Experience Platform ドキュメントを参照してください](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
+* [[!DNL Adobe Experience Platform] Data Distiller](https://experienceleague.adobe.com/ja/docs/experience-platform/query/data-distiller/overview){target="_blank"} にアクセスできる場合は、自動クエリを設定してイベントから必要なデータを抽出し、ユースケースに合わせて操作し、プロファイル対応データセットに書き戻してアクティブ化します。
+* スカラー属性を使用してプロファイルで放棄データをモデル化できる場合は、計算属性を使用して最新情報を取得し、ジャーニーでこれらの属性を参照して通信を構築することを考慮します。[ 詳しくは、ドキュメント  [!DNL Adobe Experience Platform]  参照してください ](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
 
 
 ## 行動ベースのジャーニー終了
@@ -123,7 +123,7 @@ ht-degree: 100%
 
 詳細情報：
 
-* Adobe Experience Platform [計算属性の概要](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
+* [!DNL Adobe Experience Platform][ 計算済み属性の概要 ](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
 
 
 
@@ -131,7 +131,7 @@ ht-degree: 100%
 
 ジャーニーでのエクスペリエンスイベント参照に関するよくある質問を以下に示します。
 
-さらに詳細が必要ですか？このページの下部にあるフィードバックオプションを使用して、質問を入力するか、[Adobe Journey Optimizer コミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"}にアクセスしてください。
+さらに詳細が必要ですか？このページの下部にあるフィードバックオプションを使用して、質問を提起したり、[[!DNL Adobe Journey Optimizer]  コミュニティ ](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"} とつながったりします。
 
 +++影響を受ける特定の機能は何ですか？ 
 

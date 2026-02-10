@@ -9,16 +9,16 @@ role: Developer
 level: Experienced
 exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
 version: Journey Orchestration
-source-git-commit: 7822e9662d03e6c6b2d5bc5ecb9ca85dc32f0942
-workflow-type: ht
-source-wordcount: '419'
-ht-degree: 100%
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+workflow-type: tm+mt
+source-wordcount: '398'
+ht-degree: 85%
 
 ---
 
 # カスタムアクションを使用した Experience Platform のジャーニーイベントの書き込み {#custom-action-aep}
 
-このユースケースでは、カスタムアクションと認証済みの呼び出しを使用して、ジャーニーから Adobe Experience Platform にカスタムイベントを書き込む方法について説明します。
+このユースケースでは、カスタムアクションと認証済み呼び出しを使用して、ジャーニーから [!DNL Adobe Experience Platform] にカスタムイベントを書き込む方法を説明します。
 
 ## 開発者プロジェクトの設定 {#custom-action-aep-IO}
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 1. 「**cURL コマンドを表示**」をクリックします。
 
-   ![Adobe Experience Platform アクションタイプの選択](assets/custom-action-aep-2.png)
+   ア ![[!DNL Adobe Experience Platform] ションタイプの選択 ](assets/custom-action-aep-2.png)
 
 1. cURL コマンドをコピーし、client_id、client_secret、grant_type および scope を保存します。
 
@@ -40,15 +40,15 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 >[!CAUTION]
 >
->Adobe Developer Console でプロジェクトを作成したら、開発者と API に対し、適切な権限のアクセス制御を付与してください。詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}を参照してください。
+>Adobe Developer Console でプロジェクトを作成したら、開発者と API に対し、適切な権限のアクセス制御を付与してください。詳しくは、[[!DNL Adobe Experience Platform]  ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"} を参照してください。
 
 ## HTTP API インレットを使用したソースの設定
 
-1. ジャーニーからデータを書き込むエンドポイントを Adobe Experience Platform に作成してます。
+1. ジャーニーからデータを書き込む [!DNL Adobe Experience Platform] めに、エンドポイントを作成します。
 
-1. Adobe Experience Platform で、左メニューの&#x200B;**接続**&#x200B;の下にある「**ソース**」をクリックします。**HTTP API** で「**データを追加**」をクリックします。
+1. [!DNL Adobe Experience Platform] で、左側のメニューの **接続** の下の **ソース** をクリックします。 **HTTP API** で「**データを追加**」をクリックします。
 
-   ![Adobe Experience Platform のサンドボックス選択ドロップダウン](assets/custom-action-aep-3.png)
+   ![[!DNL Adobe Experience Platform]](assets/custom-action-aep-3.png) 用サンドボックス選択ドロップダウン
 
 1. 「**新規アカウント**」を選択し、認証を有効にします。「**ソースに接続**」を選択します。
 
@@ -101,7 +101,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 この例では、次の手順に従います。
 
-1. Adobe Journey Optimizer を開き、左メニューの&#x200B;**管理**&#x200B;の下にある「**設定**」をクリックします。**アクション**&#x200B;で、「**管理**」をクリックし、「**アクションを作成**」をクリックします。
+1. [!DNL Adobe Journey Optimizer] を開き、左メニューの **管理** の下にある **設定** をクリックします。 **アクション**&#x200B;で、「**管理**」をクリックし、「**アクションを作成**」をクリックします。
 
 1. URLを設定し、POST メソッドを選択します。
 

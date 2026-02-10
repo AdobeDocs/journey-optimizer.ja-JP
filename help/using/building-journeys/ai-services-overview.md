@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 人工, AI, インテリジェント, ジャーニー, サービス
 exl-id: 20da09e1-0611-4d27-a589-30552011e06c
 version: Journey Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 100%
+source-wordcount: '162'
+ht-degree: 59%
 
 ---
 
@@ -21,14 +21,14 @@ ht-degree: 100%
 
 **[!DNL Adobe Intelligent Services]** との統合により、顧客体験のユースケースで人工知能と機械学習を活用できます。これにより、マーケティングアナリストは、データサイエンスの専門知識を必要とせずに、ビジネスレベルの設定を使用して、会社のニーズに合わせた予測を設定できます。
 
-Adobe Experience Platform 上に作成された [!DNL Intelligent Services] は、顧客体験を担当するマーケターが AI as a Service （サービスとしての AI）にアクセスできるようにします。これにより、簡単に顧客行動を予測し、キャンペーンの効果を測定したり、すべての投資に対するより良いリターンを確保したりできます。[!DNL Adobe Intelligent Services] について詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/home.html?lang=ja){target="_blank"}を参照してください。
+[!DNL Intelligent Services] 上に構築された [!DNL Adobe Experience Platform] は、カスタマーエクスペリエンスチームに AI-as-a-service を提供します。 顧客の行動を予測し、キャンペーンの影響を測定し、投資回収率を向上させるのに役立ちます。 詳しくは、[[!DNL Adobe Experience Platform]  ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/home.html?lang=ja){target="_blank"} を参照してください。
 
 [!DNL Journey Optimizer] と [!DNL Intelligent Services] の統合により、顧客の予測を活用できます。
 
-[!DNL Adobe Intelligent Services] のコンポーネントである顧客 AI は、可能性の高い顧客アクションを予測します。[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html?lang=ja){target="_blank"}を参照してください。
+[!DNL Adobe Intelligent Services] のコンポーネントである顧客 AI は、可能性の高い顧客アクションを予測します。[[!DNL Adobe Experience Platform] ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/customer-ai/overview.html?lang=ja){target="_blank"}を参照してください。
 
-顧客 AI を使用すると、ブランドは、チャーンまたはコンバージョンの機械学習に基づくスコアを作成できます。これらのスコアは、Adobe Experience Platform プロファイル（リアルタイム顧客プロファイル）のプロファイル属性として使用できます。
+顧客 AI を使用すると、ブランドは、チャーンまたはコンバージョンの機械学習に基づくスコアを作成できます。これらのスコアは、プロファイルのプロファイル属性と [!DNL Adobe Experience Platform] て使用できます（リアルタイム顧客プロファイル）。
 
-その結果、これらの属性は Journey Optimizer の条件（最適な決定を下すためのもの）、アクション、セグメントの作成において、他のプロファイル属性として使用できます。
+その結果、これらの属性は、Journey Optimizerの他のプロファイル属性と同様に使用できます。 決定、アクション、セグメントの作成の条件で使用します。
 
 ![傾向スコアおよび予測を示す顧客 AI 統合](assets/customer-ai.png)

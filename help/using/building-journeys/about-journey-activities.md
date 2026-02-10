@@ -10,22 +10,22 @@ level: Beginner, Intermediate
 keywords: ジャーニー, アクティビティ, 開始, イベント, アクション
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 version: Journey Orchestration
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '722'
-ht-degree: 100%
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+workflow-type: tm+mt
+source-wordcount: '711'
+ht-degree: 73%
 
 ---
 
 # ジャーニーのアクティビティの基本を学ぶ {#about-journey-activities}
 
-様々なイベント、オーケストレーション、アクションなどのアクティビティを組み合わせて、複数のステップから成るクロスチャネルのシナリオを構築します。
+イベント、オーケストレーション、アクションの各アクティビティを組み合わせて、複数の手順から成るクロスチャネルのシナリオを作成します。
 
 ## イベントアクティビティ {#event-activities}
 
-パーソナライズされたジャーニーは、オンライン購入などのイベントによってトリガーされます。プロファイルがジャーニーにエントリすると、それらのプロファイルは個人として移動します。異なる個人が同じ速度や同じパスを進むことはありません。イベントでジャーニーを開始する場合は、イベントを受信したときにジャーニーがトリガーされます。ジャーニーの各ユーザーは、ジャーニーで定義された次のステップを個別にたどります。
+パーソナライズされたジャーニーは、オンライン購入などのイベントから開始されます。 プロファイルは、ジャーニーにエントリすると、ジャーニー内を自然に移動します。 各プロファイルは、異なるパスとペースを取ることができます。 イベントから開始する場合は、イベントが到達するとジャーニーはトリガーになります。 各プロファイルは、ジャーニーで定義された手順に従います。
 
-技術ユーザーが設定したイベント（[このページ](../event/about-events.md)を参照）はすべて、画面左側のパレットの最初のカテゴリに表示されます。次のイベントアクティビティを使用できます。
+技術ユーザーが設定したイベント（[ このページ ](../event/about-events.md) を参照）は、パレットの最初のカテゴリに表示されます。 このカテゴリは画面の左側にあります。 次のイベントアクティビティを使用できます。
 
 * [一般イベント](../building-journeys/general-events.md)
 * [反応](../building-journeys/reaction-events.md)
@@ -39,7 +39,7 @@ ht-degree: 100%
 
 ## オーケストレーションアクティビティ {#orchestration-activities}
 
-オーケストレーションアクティビティは、ジャーニーの次のステップを決定するのに役立つ様々な条件です。これらの条件には、未完了のサポートケースがあるかどうか、現在地の天気予報、購入を完了したかどうか、10,000 ロイヤルティポイントに到達したかどうかなどが含まれます。
+オーケストレーションアクティビティは、ジャーニーの次のステップを決定するのに役立つ条件です。 これらの条件には、未解決のサポートケースがあるかどうか、購入を完了したかどうかなどが含まれます。 また、地域の天気予報や、その人物が 10,000 ロイヤルティポイントに到達したかどうかも含めることができます。
 
 画面左側にあるパレットで、次のオーケストレーションアクティビティを使用できます。
 
@@ -55,7 +55,7 @@ ht-degree: 100%
 
 アクションは、メッセージの送信など、何らかのトリガーの結果として発生させるもので、顧客が体験するジャーニーの一部です。
 
-画面左側にあるパレットの「**[!UICONTROL イベント]**」と「**[!UICONTROL オーケストレーション]**」の下には、**[!UICONTROL アクション]**&#x200B;カテゴリがあります。次のアクションアクティビティを使用できます。
+画面左側のパレットの **[!UICONTROL イベント]** と **[!UICONTROL オーケストレーション]** の下には、**[!UICONTROL アクション]** カテゴリがあります。 次のアクションアクティビティを使用できます。
 
 * [ビルトインのチャネルアクション](../building-journeys/journeys-message.md)
 * [カスタムアクション](../building-journeys/using-custom-actions.md)
@@ -69,13 +69,15 @@ ht-degree: 100%
 
 * サードパーティシステムを使用してメッセージを送信する場合は、特定のカスタムアクションを作成できます。[詳細情報](../action/action.md)
 
-* Campaign と Journey Optimizer の連携について詳しくは、次の節を参照してください。
+* [!DNL Adobe Campaign] および [!DNL Adobe Journey Optimizer] を使用する場合は、次の節を参照してください。
 
-   * [[!DNL Journey Optimizer] と Campaign v7/v8](../action/acc-action.md)
-   * [[!DNL Journey Optimizer] と Campaign Standard](../action/acs-action.md)
-   * [[!DNL Journey Optimizer] と Marketo Engage](../action/marketo-engage.md)
+   * [[!DNL Adobe Journey Optimizer] および  [!DNL Adobe Campaign] v7/v8](../action/acc-action.md)
+   * [[!DNL Adobe Journey Optimizer] and [!DNL Adobe Campaign] Standard](../action/acs-action.md)
+   * [[!DNL Adobe Journey Optimizer] と  [!DNL Adobe Marketo Engage]](../action/marketo-engage.md)
 
 ## ベストプラクティス {#best-practices}
+
+これらの推奨事項を使用して、ジャーニーを読みやすく、一貫性があり、トラブルシューティングしやすくします。
 
 ### ラベルの追加
 
@@ -109,7 +111,7 @@ ht-degree: 100%
 
 ### 代替パスの追加
 
-アクションまたは条件でエラーが発生すると、個人のジャーニーは停止します。続行するには、「**[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**」チェックボックスをオンにするだけです。[この節](../building-journeys/using-the-journey-designer.md#paths)を参照してください。
+アクションまたは条件でエラーが発生すると、個人のジャーニーが停止します。続行するには、「**[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**」チェックボックスをオンにするだけです。[この節](../building-journeys/using-the-journey-designer.md#paths)を参照してください。
 
 ![条件アクティビティプロパティの「代替パスを追加」オプション](assets/journey42.png)
 
@@ -119,4 +121,4 @@ ht-degree: 100%
 
 アクティビティとジャーニーでのエラーのトラブルシューティング方法について詳しくは、[このページ](troubleshooting.md)を参照してください。
 
-また、**[監視とトラブルシューティング](/help/rp_landing_pages/troubleshoot-journey-landing-page.md)**&#x200B;も参照してください。
+また、**[モニタリングとトラブルシューティング](../../rp_landing_pages/troubleshoot-journey-landing-page.md)**&#x200B;も参照してください。

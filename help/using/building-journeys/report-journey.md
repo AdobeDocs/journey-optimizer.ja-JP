@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 公開, ジャーニー, ライブ, 有効性, 確認
 exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
 version: Journey Orchestration
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 100%
+source-wordcount: '564'
+ht-degree: 96%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 100%
 
 ジャーニーレポートに予期されたデータが表示されない場合は、次の点を考慮します。
 
-* **ジャーニー名の同期**：Adobe Journey Optimizer のジャーニー名が、レポートデータセットに保存されている名前と一致していることを確認します。これらの名前が一致しないと、レポートデータが正しく表示されない場合があります。
+* **ジャーニー名の同期**: [!DNL Adobe Journey Optimizer] のジャーニー名がレポートデータセットに保存されている名前と一致することを確認します。 これらの名前が一致しないと、レポートデータが正しく表示されない場合があります。
 
 * **データ更新のタイミング**：ジャーニー名または設定を更新した後は、データが更新されるまで十分な時間を確保します。レポートデータは通常、数分以内に表示されますが、場合によってはそれ以上かかることがあります。
 

@@ -10,10 +10,10 @@ level: Intermediate
 keywords: ジャーニー, メッセージ, プッシュ, sms, メール, アプリ内, web, コンテンツカード, コードベースのエクスペリエンス
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: bf5d018fa6c3e88cf84345e892de72ada9f2c489
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 100%
+source-wordcount: '1045'
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->この機能は、限定提供です。アクセス権を取得するには、アドビ担当者にお問い合わせください。
+>この機能は、限定提供で使用できます。アクセス権を取得するには、アドビ担当者にお問い合わせください。
 
 [!DNL Journey Optimizer] には、単一のビルトインのチャネルアクションと複数のインバウンドアクティビティを設定できる新しい汎用&#x200B;**アクション**&#x200B;アクティビティが用意されています。
 
@@ -44,7 +44,7 @@ ht-degree: 100%
 
 ジャーニーにビルトインのチャネルアクションを追加するには、次の手順に従います。
 
-1. ジャーニーを[イベント](general-events.md)または[オーディエンスを読み取り](read-audience.md)アクティビティで開始します。
+1. ジャーニーを「[イベント](general-events.md)」または「[オーディエンスを読み取り](read-audience.md)」アクティビティで開始します。
 
 1. パレットの「**[!UICONTROL アクション]**」セクションから、**[!UICONTROL アクション]**&#x200B;アクティビティをキャンバスにドラッグ＆ドロップします。
 
@@ -104,7 +104,7 @@ ht-degree: 100%
 
 プッシュ通知の迅速配信モードを有効にする方法について詳しくは、[このページ](../push/create-push.md#rapid-delivery)を参照してください。
 
-迅速配信モードを使用する際のパフォーマンスについて詳しくは、[Adobe Journey Optimizer 製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}を参照してください。
+迅速配信モードを使用する際のパフォーマンスについて詳しくは、[[!DNL Adobe Journey Optimizer]  製品説明 ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} を参照してください。
 
 +++
 
@@ -153,7 +153,7 @@ ht-degree: 100%
 
 1 つのジャーニーアクションノードで複数のインバウンドアクションを定義するには、次の手順に従います。
 
-1. ジャーニーを[イベント](general-events.md)または[オーディエンスを読み取り](read-audience.md)アクティビティで開始します。
+1. ジャーニーを「[イベント](general-events.md)」または「[オーディエンスを読み取り](read-audience.md)」アクティビティで開始します。
 
 1. パレットの「**[!UICONTROL アクション]**」セクションから、**[!UICONTROL アクション]**&#x200B;アクティビティをキャンバスにドラッグ＆ドロップします。
 

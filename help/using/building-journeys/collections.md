@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 version: Journey Orchestration
-source-git-commit: 6976f2b1b8b95f7dc9bffe65b7a7ddcc5dab5474
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 96%
+source-wordcount: '791'
+ht-degree: 94%
 
 ---
 
@@ -142,7 +142,7 @@ ht-degree: 96%
 
 * **カスタムアクションでのネストされた配列のサポート**
 
-  Adobe Journey Optimizer は、カスタムアクション&#x200B;**応答ペイロード**&#x200B;内のオブジェクトのネストされた配列をサポートしていますが、このサポートは&#x200B;**リクエストペイロード**&#x200B;に制限されています。
+  [!DNL Adobe Journey Optimizer] は、カスタムアクション **応答ペイロード** でのオブジェクトのネストされた配列をサポートしていますが、このサポートは **リクエストペイロード** では制限されています。
 
   リクエストペイロードでは、ネストされた配列は、カスタムアクション設定で定義されているように、固定数の項目が含まれている場合にのみサポートされます。例えば、ネストされた配列に常に 3 つの項目が含まれる場合は、定数として設定できます。項目の数を動的にする必要がある場合、ネストされていない配列（下部レベルの配列）のみを変数として定義できます。
 
@@ -231,5 +231,5 @@ ht-degree: 96%
 * [カスタムアクションの設定](../action/about-custom-action-configuration.md) - カスタムアクションの作成および設定方法について説明します
 * [カスタムアクションの使用](../building-journeys/using-custom-actions.md) - ジャーニーでのカスタムアクションの使用方法について説明します
 * [カスタムアクションのトラブルシューティング](../action/troubleshoot-custom-action.md) - カスタムアクションのトラブルシューティング方法について説明します
-* [&#x200B; コンテキストデータの反復 &#x200B;](../personalization/iterate-contextual-data.md#arrays-in-journeys) - メッセージ式で配列を操作する方法や、ジャーニーパーソナライゼーションでカスタムアクション応答、イベントデータ、データセット検索を反復する方法を説明します
+* [ コンテキストデータの反復 ](../personalization/iterate-contextual-data.md#arrays-in-journeys) - メッセージ式で配列を操作する方法や、ジャーニーパーソナライゼーションでカスタムアクション応答、イベントデータ、データセット検索を反復する方法を説明します
 

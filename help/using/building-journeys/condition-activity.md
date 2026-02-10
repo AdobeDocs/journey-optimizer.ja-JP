@@ -10,14 +10,16 @@ level: Intermediate
 keywords: アクティビティ, 条件, キャンバス, ジャーニー
 exl-id: 02de069c-3009-4105-aa98-c49959d3efda
 version: Journey Orchestration
-source-git-commit: 24d66f146ea3ed0e89a3b928b805bc53a70a8895
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1804'
-ht-degree: 97%
+source-wordcount: '1788'
+ht-degree: 95%
 
 ---
 
 # 条件アクティビティ {#condition-activity}
+
+条件アクティビティを使用して、ルールとデータに基づいてプロファイルを様々なパスにルーティングします。
 
 ## 条件アクティビティの追加 {#add-condition-activity}
 
@@ -38,7 +40,7 @@ ht-degree: 97%
 * [日付条件](#date_condition)
 * [プロファイルキャップ](#profile_cap)
 
-ジャーニー条件でオーディエンスを使用することもできます。[詳細情報](#using-a-segment)。オーディエンスの生成およびターゲット設定方法について詳しくは、[&#x200B; この節 &#x200B;](../audience/about-audiences.md) を参照してください。
+ジャーニー条件でオーディエンスを使用することもできます。[詳細情報](#using-a-segment)オーディエンスを生成してターゲットにする方法について詳しくは、[この節](../audience/about-audiences.md)を参照してください。
 
 >[!NOTE]
 >
@@ -59,7 +61,7 @@ ht-degree: 97%
 
 ジャーニーの設計には、機能的な影響があることに注意してください。条件の後に複数のパスが定義された場合、最初の有効なパスのみが実行されます。つまり、パスを上下に配置することで、パスの優先順位を変更できます。
 
-最初のパスの条件「このユーザーは VIP である」と 2 番目のパスの条件「このユーザーは男性である」を例にとってみましょう。両方の条件を満たす人物（VIP の男性）がこのステップを通過した場合、最初のパスが「上」に配置されているため、この人物が 2 番目のパスに該当しても最初のパスが選択されます。この優先度を変更するには、アクティビティを別の垂直方向の順序に移動します。
+「その人はVIPである」と「その人は男性である」という 2 つの経路条件を取りましょう。 両方の条件を満たす場合は、1 つ目のパスが 2 つ目のパスより上にあるので、1 つ目のパスが選択されます。 この優先度を変更するには、アクティビティを別の垂直方向の順序に移動します。
 
 ![VIPと男性の条件を示すパスの優先順位](assets/journey48.png)
 
@@ -72,12 +74,12 @@ ht-degree: 97%
 
 ![フィールド選択と論理演算子 AND OR を示す式エディター](assets/journey64.png)
 
-[Adobe Experience Platform セグメント化サービス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja){target="_blank"}を使用してオーディエンスを作成している場合は、ジャーニー条件で活用できます。[&#x200B; 条件でのオーディエンスの使用 &#x200B;](../building-journeys/condition-activity.md#using-a-segment) を参照してください。 Journey Optimizerでオーディエンスを生成およびターゲット設定する方法について詳しくは、[&#x200B; この節 &#x200B;](../audience/about-audiences.md) を参照してください。
+[[!DNL Adobe Experience Platform]  セグメント化サービス ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja){target="_blank"} を使用してオーディエンスを作成する場合は、それらのオーディエンスをジャーニー条件で利用できます。 詳しくは、[条件でのオーディエンスの使用](../building-journeys/condition-activity.md#using-a-segment)を参照してください。Journey Optimizer でオーディエンスを生成してターゲットにする方法について詳しくは、[この節](../audience/about-audiences.md)を参照してください。
 
 
 >[!NOTE]
 >
->単純なエディターでは、時系列（購入のリスト、メッセージの過去のクリックなど）に対してクエリを実行できません。このためには、高度なエディターを使用する必要があります。[このページ](expression/expressionadvanced.md)を参照してください。
+>単純なエディターでは、時系列（購入のリスト、メッセージの過去のクリックなど）に対してクエリを実行できません。このためには、高度なエディターを使用する必要があります。詳しくは、[このページ](expression/expressionadvanced.md)を参照してください。
 
 
 
@@ -139,7 +141,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->タイムゾーンは条件に固有ではなくなり、ジャーニープロパティのジャーニーレベルで定義されるようになりました。[このページ](../building-journeys/timezone-management.md)を参照してください。
+>タイムゾーンは条件に固有ではなくなり、ジャーニープロパティのジャーニーレベルで定義されるようになりました。詳しくは、[このページ](../building-journeys/timezone-management.md)を参照してください。
 
 ![日付範囲セレクターを使用した日付条件の設定](assets/journey53.png)
 

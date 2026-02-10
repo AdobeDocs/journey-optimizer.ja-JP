@@ -2,23 +2,24 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: 平日にのみメールを送信
-description: Adobe Journey Optimizer で平日にのみメールを送信するジャーニーの設定方法について説明します
+description: で、平日にのみメールを送信するようにジャーニーを設定する方法を説明します  [!DNL Adobe Journey Optimizer]
 feature: Journeys, Use Cases, Email
 topic: Content Management
 role: User
 level: Intermediate
 keywords: ジャーニー, ユースケース, 平日, 条件, メール, スケジュール
 version: Journey Orchestration
-source-git-commit: 970712614b0d4da37d9ecbe45701f93147b1428c
+exl-id: 2f313e59-ee50-473c-9346-8859889346ec
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '1070'
-ht-degree: 100%
+source-wordcount: '1065'
+ht-degree: 90%
 
 ---
 
 # 平日にのみメールを送信 {#send-emails-only-on-weekdays}
 
-このユースケースでは、Adobe Journey Optimizer で平日（月曜日から金曜日）にのみメールを送信するジャーニーの設定方法を示します。週末（土曜日または日曜日）にジャーニーにエントリするプロファイルの場合、メールは自動的にキューに追加され、月曜日の指定した時刻に送信されます。これにより、平日にメッセージを配信することで、最適なエンゲージメントが確保されます。
+このユースケースでは、平日（月曜日から金曜日）にのみメールを送信する [!DNL Adobe Journey Optimizer] でのジャーニーの設定方法を示します。 週末（土曜日または日曜日）にジャーニーにエントリするプロファイルの場合、メールは自動的にキューに追加され、月曜日の指定した時刻に送信されます。これにより、平日にメッセージを配信することで、最適なエンゲージメントが確保されます。
 
 ## ユースケースの概要
 
@@ -32,14 +33,16 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->このユースケースを実装するには、[メールチャネルサーフェス](../configuration/channel-surfaces.md)が設定されたアクティブな Adobe Journey Optimizer インスタンス、ジャーニーをトリガーする[オーディエンス](../audience/about-audiences.md)または[イベント](../event/about-events.md)、[ジャーニー条件](condition-activity.md)と[式](expression/expressionadvanced.md)に関する基本的な理解が必要です。
+>このユースケースを実装するには、ジャーニーをトリガーし、[!DNL Adobe Journey Optimizer] ジャーニー条件 [ と ](../configuration/channel-surfaces.md) 式 [ の基本的な理解を理解するために、設定済みの ](../audience/about-audiences.md) メールチャネルサーフェス [、](../event/about-events.md) オーディエンス [ または ](condition-activity.md) イベント [ を持つアクティブな ](expression/expressionadvanced.md) インスタンスが必要です。
 
 
 ## 実装手順
 
+以下の手順を使用して、平日のみのメールフローを作成します。
+
 ### 手順 1：ジャーニーを作成
 
-1. Adobe Journey Optimizer で、**[!UICONTROL ジャーニー管理]**／**[!UICONTROL ジャーニー]**&#x200B;に移動します。
+1. **[!UICONTROL の]**&#x200B;ジャーニー管理 **[!UICONTROL /]**&#x200B;ジャーニー[!DNL Adobe Journey Optimizer] に移動します。
 
 1. 「**[!UICONTROL ジャーニーを作成]**」をクリックして、[新しいジャーニーを作成](journey-gs.md)します。
 
@@ -149,7 +152,7 @@ toDateTimeOnly(setHours(nowWithDelta(1, "days"), 9))
 
 ### 手順 6：ジャーニーをテスト
 
-公開前に、Adobe Journey Optimizer のテストモードでジャーニーロジックを徹底的にテストし、すべてが期待どおりに動作することを確認します。
+公開する前に、[!DNL Adobe Journey Optimizer] のテストモードでジャーニーロジックを十分にテストして、すべてが期待どおりに動作することを確認します。
 
 1. 右上隅の「**[!UICONTROL テスト]**」ボタンをクリックします。
 

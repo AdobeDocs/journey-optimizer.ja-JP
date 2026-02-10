@@ -10,10 +10,10 @@ level: Intermediate
 keywords: ジャーニー, メッセージ, プッシュ, sms, メール, アプリ内, web, コンテンツカード, コードベースのエクスペリエンス
 exl-id: 4db07a9e-c3dd-4873-8bd9-ac34c860694c
 version: Journey Orchestration
-source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
+source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 94%
+source-wordcount: '574'
+ht-degree: 92%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 94%
 
 ジャーニーにビルトインのチャネルアクションを追加するには、次の手順に従います。
 
-1. ジャーニーを[イベント](general-events.md)または[オーディエンスを読み取り](read-audience.md)アクティビティで開始します。
+1. ジャーニーを「[イベント](general-events.md)」または「[オーディエンスを読み取り](read-audience.md)」アクティビティで開始します。
 
 1. パレットの「**アクション**」セクションから、チャネルアクティビティをキャンバスにドラッグ＆ドロップします。
 
@@ -164,7 +164,7 @@ ht-degree: 94%
 
 * サードパーティのシステムを使用してメッセージを送信する場合は、カスタムアクションを作成できます。[詳細情報](../action/action.md)
 
-* Adobe Campaign を操作する場合は、次の節を参照してください。
+* [!DNL Adobe Campaign] を使用する場合は、次の節を参照してください。
 
    * [[!DNL Journey Optimizer] と Campaign v7/v8](../action/acc-action.md)
    * [[!DNL Journey Optimizer] と Campaign Standard](../action/acs-action.md)
