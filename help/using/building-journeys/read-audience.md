@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: ジャーニーでのオーディエンスの使用
-description: Adobe Experience Platform オーディエンスの個人をジャーニーにエントリさせるために、オーディエンスを読み取りアクティビティを設定および使用する方法について説明します。
+description: オーディエンスを読み取りアクティビティを設定および使用して、個人をジャーニーからエントリさせる方法  [!DNL Adobe Experience Platform]  説明します。
 feature: Journeys, Activities, Audiences
 topic: Content Management
 role: User
@@ -10,14 +10,16 @@ level: Intermediate
 keywords: アクティビティ, ジャーニー, 読み取り, オーディエンス, プラットフォーム
 exl-id: 7b27d42e-3bfe-45ab-8a37-c55b231052ee
 version: Journey Orchestration
-source-git-commit: 846a831077680e1654041b05b59233c138b559fb
+source-git-commit: ac7793f9ac38528fbe9252ad2f12921ca7fe0665
 workflow-type: tm+mt
-source-wordcount: '3033'
-ht-degree: 100%
+source-wordcount: '3024'
+ht-degree: 92%
 
 ---
 
 # ジャーニーでのオーディエンスの使用 {#segment-trigger-activity}
+
+オーディエンスを読み取りアクティビティを使用すると、定義済みのオーディエンスでジャーニーを開始できます。
 
 ## オーディエンスを読み取りアクティビティについて {#about-segment-trigger-actvitiy}
 
@@ -56,11 +58,13 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >また、[オーディエンス構成](../audience/get-started-audience-orchestration.md)または [CSV ファイルからアップロード済み](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#import-audience){target="_blank"}を使用して作成された [!DNL Adobe Experience Platform] オーディエンスをターゲットにすることもできます。[Journey Optimizer でオーディエンスを生成およびターゲットにする方法の詳細情報](../audience/about-audiences.md)。
+   >さらに、[!DNL Adobe Experience Platform] オーディエンスコンポジション [ を使用して作成された ](../audience/get-started-audience-orchestration.md) つのオーディエンスをターゲットにすることができます。
+   >また、オーディエンスをターゲット [CSV ファイルからアップロード ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#import-audience){target="_blank"} することもできます。
+   >[Journey Optimizer でオーディエンスを生成およびターゲットにする方法の詳細情報](../audience/about-audiences.md)。
 
    リストに表示される列は、カスタマイズして並べ替えることができます。
 
-   ![使用可能な Adobe Experience Platform オーディエンスを示すオーディエンス選択インターフェイス](assets/read-segment-selection.png)
+   ![ 使用可能なオーディエンスを表示するオーディ [!DNL Adobe Experience Platform] ンス選択インターフェイス ](assets/read-segment-selection.png)
 
    オーディエンスが追加されると、「**[!UICONTROL コピー]**」ボタンを使用して、オーディエンスの名前と ID をコピーできます。
 
@@ -186,7 +190,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->ジャーニーで[カスタムアップロードオーディエンス](../audience/about-audiences.md#about-segments)をターゲティングする場合、繰り返しジャーニーでこのオプションを有効にすると、これらのオーディエンスは固定なので、プロファイルは最初の繰り返し時にのみ取得されます。
+>ジャーニーで [ カスタムアップロードオーディエンス ](../audience/about-audiences.md#about-segments) をターゲットにしている場合、プロファイルは、繰り返しジャーニーでこのオプションが有効になっている場合の最初の繰り返し時にのみ取得されます。 これらのオーディエンスは固定されています。
 
 +++
 
@@ -194,7 +198,7 @@ ht-degree: 100%
 
 このオプションを使用すると、ジャーニーにまだ存在するすべてのプロファイルを、次回の実行時に自動的に終了させることができます。
 
-例えば、毎日繰り返されるジャーニーに 2 日間の待機時間がある場合、このオプションをアクティブ化すると、プロファイルは、次回実行されるオーディエンスに含まれているかどうかにかかわらず、常に次のジャーニー実行時（つまり翌日）に進められます。
+例えば、毎日の繰り返しジャーニーに 2 日間の待機がある場合、このオプションを有効にすると、プロファイルは次のジャーニーの実行に移動します。 これは、次回実行されるオーディエンスに含まれているかどうかに関係なく、翌日に発生します。
 
 このジャーニーでのプロファイルの存続期間が繰り返し頻度よりも長くなる可能性がある場合は、プロファイルがジャーニーを終了できるようにするために、このオプションをアクティブ化しないでください。
 
@@ -297,7 +301,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 * **バッチセグメント化ジョブの完了**：バッチオーディエンスの場合、ジャーニーを実行する前に、毎日のバッチセグメント化ジョブが完了し、スナップショットが更新されていることを確認します。バッチオーディエンスは、セグメント化ジョブの完了から約 **2 時間**&#x200B;後に使用できます。詳しくは、[オーディエンスの評価方法](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja#evaluate-segments){target="_blank"}を参照してください。
 
-* **データ取り込みのタイミング**：ジャーニーの実行前にプロファイルデータ取り込みが完全に完了していることを確認します。プロファイルがジャーニーの開始直前に取り込まれた場合、まだオーディエンスに反映されていないことがあります。詳しくは、[Adobe Experience Platform でのデータ取り込み](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ja){target="_blank"}を参照してください。
+* **データ取り込みのタイミング**：ジャーニーの実行前にプロファイルデータ取り込みが完全に完了していることを確認します。プロファイルがジャーニーの開始直前に取り込まれた場合、まだオーディエンスに反映されていないことがあります。詳しくは、[ のデータ取り込み  [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ja){target="_blank"} を参照してください。
 
 * **「バッチオーディエンス評価の後にトリガー」を使用**：バッチオーディエンスを使用する毎日のスケジュール済みジャーニーの場合は、「**[!UICONTROL バッチオーディエンス評価の後にトリガー]**」オプションを有効にすることを考慮します。これにより、ジャーニーは実行される前に最新のオーディエンスデータ（最大 6 時間）を待機するようになります。 [詳しくは、スケジュール設定を参照してください。](#schedule)
 
@@ -305,9 +309,9 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 ### データの検証と監視
 
-* **セグメント化ジョブのステータスを確認**：Adobe Experience Platform の[監視ダッシュボード](https://experienceleague.adobe.com/docs/experience-platform/dataflows/ui/monitor-segments.html?lang=ja){target="_blank"}でバッチセグメント化ジョブの完了時間を監視して、オーディエンスデータの準備が整ったことを確認します。
+* **セグメント化ジョブのステータスの確認**:[!DNL Adobe Experience Platform] [ 監視ダッシュボード ](https://experienceleague.adobe.com/docs/experience-platform/dataflows/ui/monitor-segments.html?lang=ja){target="_blank"} でバッチセグメント化ジョブの完了時間を監視します。 オーディエンスデータの準備が整ったタイミングを確認するために使用します。
 
-* **結合ポリシーを確認**：オーディエンスに対して設定された結合ポリシーが、異なるソースからのプロファイルデータを組み合わせる場合の予想される動作と一致していることを確認します。詳しくは、[Adobe Experience Platform の結合ポリシー](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=ja){target="_blank"}を参照してください。
+* **結合ポリシーを確認**：オーディエンスに対して設定された結合ポリシーが、異なるソースからのプロファイルデータを組み合わせる場合の予想される動作と一致していることを確認します。詳しくは、[ の結合ポリシー  [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=ja){target="_blank"} を参照してください。
 
 * **セグメント定義を確認**：セグメント定義が正しく設定され、予想されるすべての選定条件が含まれていることを確認します。詳しくは、[オーディエンスの作成](../audience/creating-a-segment-definition.md)を参照してください。特に注意すべき点：
    * イベントのタイムスタンプに基づいてプロファイルを除外する場合がある時間ベースの条件
@@ -332,7 +336,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 再試行は、エクスポートジョブの取得中に、オーディエンストリガージャーニー（**オーディエンスを読み取り**&#x200B;または&#x200B;**ビジネスイベント**&#x200B;で始まる）にデフォルトで適用されます。エクスポートジョブの作成中にエラーが発生した場合、最大 1 時間、10 分ごとに再試行が行われます。それ以降は失敗と見なされます。したがって、これらのタイプのジャーニーは、スケジュールされた時間から最大 1 時間後に実行できます。
 
-失敗した&#x200B;**オーディエンスを読み取り**&#x200B;トリガーはキャプチャされ、**アラート**&#x200B;に表示されます。「**オーディエンスを読み取りアラート**」は、スケジュールされた実行時間から 10 分経過しても、**オーディエンスを読み取り**&#x200B;アクティビティでプロファイルが処理されなかった場合に警告します。このエラーは、技術的な問題やオーディエンスが空であることが原因で発生する可能性があります。このエラーが技術的な問題によって発生した場合、問題のタイプに応じて、再試行が引き続き行われる可能性があります（例：エクスポートジョブの作成に失敗した場合、最大 1 時間、10 分ごとに再試行されます）。[詳細情報](../reports/alerts.md#alert-read-audiences)
+失敗した **オーディエンスを読み取り**&#x200B;トリガーはキャプチャされ、**アラート** に表示されます。 **オーディエンスを読み取り** アラートは、**オーディエンスを読み取り** アクティビティが、スケジュールされた実行時間から 10 分後にプロファイルを処理していない場合、警告を表示します。 このエラーは、技術的な問題や空のオーディエンスが原因で発生する可能性があります。 技術的な問題が原因でエラーが発生した場合でも、問題のタイプによっては、再試行が行われることがあります。 例えば、エクスポートジョブの作成に失敗した場合は、10 分ごとに最大 1 時間再試行します。 [詳細情報](../reports/alerts.md#alert-read-audiences)
 
 ## 関連トピック
 
@@ -346,4 +350,4 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 「オーディエンスを読み取り」アクティビティによってトリガーされるジャーニーに適用可能なユースケースを理解します。バッチベースのジャーニーを構築する方法と適用するベストプラクティスについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430369?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424997?quality=12)
