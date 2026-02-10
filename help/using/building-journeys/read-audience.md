@@ -58,13 +58,13 @@ ht-degree: 92%
 
    >[!NOTE]
    >
-   >さらに、[!DNL Adobe Experience Platform] オーディエンスコンポジション [ を使用して作成された ](../audience/get-started-audience-orchestration.md) つのオーディエンスをターゲットにすることができます。
-   >また、オーディエンスをターゲット [CSV ファイルからアップロード ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#import-audience){target="_blank"} することもできます。
+   >さらに、[!DNL Adobe Experience Platform] オーディエンスコンポジション [&#x200B; を使用して作成された &#x200B;](../audience/get-started-audience-orchestration.md) つのオーディエンスをターゲットにすることができます。
+   >また、オーディエンスをターゲット [CSV ファイルからアップロード &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#import-audience){target="_blank"} することもできます。
    >[Journey Optimizer でオーディエンスを生成およびターゲットにする方法の詳細情報](../audience/about-audiences.md)。
 
    リストに表示される列は、カスタマイズして並べ替えることができます。
 
-   ![ 使用可能なオーディエンスを表示するオーディ [!DNL Adobe Experience Platform] ンス選択インターフェイス ](assets/read-segment-selection.png)
+   ![&#x200B; 使用可能なオーディエンスを表示するオーディ [!DNL Adobe Experience Platform] ンス選択インターフェイス &#x200B;](assets/read-segment-selection.png)
 
    オーディエンスが追加されると、「**[!UICONTROL コピー]**」ボタンを使用して、オーディエンスの名前と ID をコピーできます。
 
@@ -190,7 +190,7 @@ ht-degree: 92%
 
 >[!CAUTION]
 >
->ジャーニーで [ カスタムアップロードオーディエンス ](../audience/about-audiences.md#about-segments) をターゲットにしている場合、プロファイルは、繰り返しジャーニーでこのオプションが有効になっている場合の最初の繰り返し時にのみ取得されます。 これらのオーディエンスは固定されています。
+>ジャーニーで [&#x200B; カスタムアップロードオーディエンス &#x200B;](../audience/about-audiences.md#about-segments) をターゲットにしている場合、プロファイルは、繰り返しジャーニーでこのオプションが有効になっている場合の最初の繰り返し時にのみ取得されます。 これらのオーディエンスは固定されています。
 
 +++
 
@@ -301,7 +301,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 * **バッチセグメント化ジョブの完了**：バッチオーディエンスの場合、ジャーニーを実行する前に、毎日のバッチセグメント化ジョブが完了し、スナップショットが更新されていることを確認します。バッチオーディエンスは、セグメント化ジョブの完了から約 **2 時間**&#x200B;後に使用できます。詳しくは、[オーディエンスの評価方法](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja#evaluate-segments){target="_blank"}を参照してください。
 
-* **データ取り込みのタイミング**：ジャーニーの実行前にプロファイルデータ取り込みが完全に完了していることを確認します。プロファイルがジャーニーの開始直前に取り込まれた場合、まだオーディエンスに反映されていないことがあります。詳しくは、[ のデータ取り込み  [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ja){target="_blank"} を参照してください。
+* **データ取り込みのタイミング**：ジャーニーの実行前にプロファイルデータ取り込みが完全に完了していることを確認します。プロファイルがジャーニーの開始直前に取り込まれた場合、まだオーディエンスに反映されていないことがあります。詳しくは、[&#x200B; のデータ取り込み  [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ja){target="_blank"} を参照してください。
 
 * **「バッチオーディエンス評価の後にトリガー」を使用**：バッチオーディエンスを使用する毎日のスケジュール済みジャーニーの場合は、「**[!UICONTROL バッチオーディエンス評価の後にトリガー]**」オプションを有効にすることを考慮します。これにより、ジャーニーは実行される前に最新のオーディエンスデータ（最大 6 時間）を待機するようになります。 [詳しくは、スケジュール設定を参照してください。](#schedule)
 
@@ -309,9 +309,9 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 ### データの検証と監視
 
-* **セグメント化ジョブのステータスの確認**:[!DNL Adobe Experience Platform] [ 監視ダッシュボード ](https://experienceleague.adobe.com/docs/experience-platform/dataflows/ui/monitor-segments.html?lang=ja){target="_blank"} でバッチセグメント化ジョブの完了時間を監視します。 オーディエンスデータの準備が整ったタイミングを確認するために使用します。
+* **セグメント化ジョブのステータスの確認**:[!DNL Adobe Experience Platform] [&#x200B; 監視ダッシュボード &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/dataflows/ui/monitor-segments.html?lang=ja){target="_blank"} でバッチセグメント化ジョブの完了時間を監視します。 オーディエンスデータの準備が整ったタイミングを確認するために使用します。
 
-* **結合ポリシーを確認**：オーディエンスに対して設定された結合ポリシーが、異なるソースからのプロファイルデータを組み合わせる場合の予想される動作と一致していることを確認します。詳しくは、[ の結合ポリシー  [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=ja){target="_blank"} を参照してください。
+* **結合ポリシーを確認**：オーディエンスに対して設定された結合ポリシーが、異なるソースからのプロファイルデータを組み合わせる場合の予想される動作と一致していることを確認します。詳しくは、[&#x200B; の結合ポリシー  [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=ja){target="_blank"} を参照してください。
 
 * **セグメント定義を確認**：セグメント定義が正しく設定され、予想されるすべての選定条件が含まれていることを確認します。詳しくは、[オーディエンスの作成](../audience/creating-a-segment-definition.md)を参照してください。特に注意すべき点：
    * イベントのタイムスタンプに基づいてプロファイルを除外する場合がある時間ベースの条件
