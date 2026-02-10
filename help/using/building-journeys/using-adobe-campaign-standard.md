@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: '[!DNL Adobe Campaign] Standard アクション'
-description: ' [!DNL Adobe Campaign]  標準アクションについて説明します'
+title: Adobe Campaign Standard のアクション
+description: Adobe Campaign Standard アクションについて学ぶ
 feature: Journeys, Actions, Custom Actions
 topic: Administration
 role: User
@@ -10,10 +10,10 @@ level: Intermediate
 keywords: ジャーニー, 統合, 標準, キャンペーン, ACS
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
 version: Journey Orchestration
-source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
+source-git-commit: 339285cbc82d5b30b221feb235ed8425a66f8802
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 74%
+source-wordcount: '937'
+ht-degree: 75%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 74%
 >
 >Journey Optimizer で使用するには、Campaign Standard トランザクションメッセージとそれに関連するイベントを公開する必要があります。イベントが公開されてもメッセージが表示されない場合、Journey Optimizer インターフェイスには表示されません。メッセージが公開されても、関連するイベントが公開されなかった場合、Journey Optimizer インターフェイスには表示されますが、使用はできません。
 
-ジャ ![[!DNL Adobe Campaign] ニーの標準アクション設定 &#x200B;](assets/journey59.png)
+ジャ ![[!DNL Adobe Campaign] ニーの標準アクション設定 ](assets/journey59.png)
 
 イベント（リアルタイムとも呼ばれます）またはプロファイルトランザクションメッセージテンプレートを使用できます。
 
@@ -55,7 +55,7 @@ ht-degree: 74%
 >[!NOTE]
 >
 >プロファイルのメール用トランザクションテンプレートを使用する場合、購読解除メカニズムは [!DNL Adobe Campaign] Standard によって自動的に処理されます。
->**[!UICONTROL トランザクションメールテンプレート]** 内に [&#x200B; 購読解除リンク &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=ja) コンテンツブロックを含めます。
+>**[!UICONTROL トランザクションメールテンプレート]** 内に [ 購読解除リンク ](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=ja) コンテンツブロックを含めます。
 >イベントベースのテンプレート（rtEvent）を使用している場合は、受信者のメールアドレスを URL パラメーターとして渡し、受信者を購読解除ランディングページに誘導するリンクをメッセージに組み込みます。
 >ランディングページを作成し、受信者の購読解除の決定がAdobeに送信されることを確認します。
 
