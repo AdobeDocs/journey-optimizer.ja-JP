@@ -21,7 +21,7 @@ ht-degree: 59%
 
 **[!DNL Adobe Intelligent Services]** との統合により、顧客体験のユースケースで人工知能と機械学習を活用できます。これにより、マーケティングアナリストは、データサイエンスの専門知識を必要とせずに、ビジネスレベルの設定を使用して、会社のニーズに合わせた予測を設定できます。
 
-[!DNL Intelligent Services] 上に構築された [!DNL Adobe Experience Platform] は、カスタマーエクスペリエンスチームに AI-as-a-service を提供します。 顧客の行動を予測し、キャンペーンの影響を測定し、投資回収率を向上させるのに役立ちます。 詳しくは、[[!DNL Adobe Experience Platform]  ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/home.html?lang=ja){target="_blank"} を参照してください。
+[!DNL Intelligent Services] 上に構築された [!DNL Adobe Experience Platform] は、カスタマーエクスペリエンスチームに AI-as-a-service を提供します。 顧客の行動を予測し、キャンペーンの影響を測定し、投資回収率を向上させるのに役立ちます。 詳しくは、[[!DNL Adobe Experience Platform]  ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/intelligent-services/home.html?lang=ja){target="_blank"} を参照してください。
 
 [!DNL Journey Optimizer] と [!DNL Intelligent Services] の統合により、顧客の予測を活用できます。
 

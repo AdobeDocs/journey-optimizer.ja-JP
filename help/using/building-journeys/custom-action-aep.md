@@ -30,7 +30,7 @@ ht-degree: 85%
 
 1. 「**cURL コマンドを表示**」をクリックします。
 
-   ア ![[!DNL Adobe Experience Platform] ションタイプの選択 ](assets/custom-action-aep-2.png)
+   ア ![[!DNL Adobe Experience Platform] ションタイプの選択 &#x200B;](assets/custom-action-aep-2.png)
 
 1. cURL コマンドをコピーし、client_id、client_secret、grant_type および scope を保存します。
 
@@ -40,7 +40,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 >[!CAUTION]
 >
->Adobe Developer Console でプロジェクトを作成したら、開発者と API に対し、適切な権限のアクセス制御を付与してください。詳しくは、[[!DNL Adobe Experience Platform]  ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"} を参照してください。
+>Adobe Developer Console でプロジェクトを作成したら、開発者と API に対し、適切な権限のアクセス制御を付与してください。詳しくは、[[!DNL Adobe Experience Platform]  ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"} を参照してください。
 
 ## HTTP API インレットを使用したソースの設定
 

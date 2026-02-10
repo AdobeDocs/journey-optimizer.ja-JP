@@ -18,7 +18,7 @@ ht-degree: 80%
 
 # ユースケース：[!DNL Adobe Experience Platform] にデータを送信するためのカスタムアクションの作成{#send-data-to-aep}
 
-最近、別のメールサービスプロバイダー、IP アドレス、メールドメインまたはサブドメインに移動した場合は、送信者としての評判を確立します。 そうしないと、配信がブロックされたり、受信者のスパムフォルダーに移動されたりする可能性があります。 ガイダンスについては、[ 配信品質のベストプラクティスガイド ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=ja){target="_blank"} を参照してください。
+最近、別のメールサービスプロバイダー、IP アドレス、メールドメインまたはサブドメインに移動した場合は、送信者としての評判を確立します。 そうしないと、配信がブロックされたり、受信者のスパムフォルダーに移動されたりする可能性があります。 ガイダンスについては、[&#x200B; 配信品質のベストプラクティスガイド &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=ja){target="_blank"} を参照してください。
 
 IP をウォームアップするために、配信数を徐々に増やすことができます。詳しくは、[Journey Optimizer での配信品質の最適化](../reports/deliverability.md)を参照してください。
 

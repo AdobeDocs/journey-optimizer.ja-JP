@@ -181,7 +181,7 @@ ht-degree: 64%
   </tr>
 </table>
 
-[ オーケストレーションをオムニチャネルエンゲージメントに拡大する  [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/scaling-orchestration-to-omnichannel-engagement/introduction){target="_blank"} のビデオチュートリアルも参照してください。6 つのレッスンを通じて、ビジネスコミュニケーションをシンプルなアウトバウンドメッセージから高度なオムニチャネルエクスペリエンスに高める方法を学びます。 実用的な例を通じて、プロアクティブなアウトリーチとレスポンシブなエンゲージメントをシームレスに組み合わせたカスタマージャーニーを作成するインサイトが得られます。
+[&#x200B; オーケストレーションをオムニチャネルエンゲージメントに拡大する  [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/scaling-orchestration-to-omnichannel-engagement/introduction){target="_blank"} のビデオチュートリアルも参照してください。6 つのレッスンを通じて、ビジネスコミュニケーションをシンプルなアウトバウンドメッセージから高度なオムニチャネルエクスペリエンスに高める方法を学びます。 実用的な例を通じて、プロアクティブなアウトリーチとレスポンシブなエンゲージメントをシームレスに組み合わせたカスタマージャーニーを作成するインサイトが得られます。
 
 
 

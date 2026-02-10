@@ -23,7 +23,7 @@ ht-degree: 96%
 
 ## 前提条件 {#prerequisites}
 
-ジャーニー指標を使用する前に、`Commerce Details` の設定/ レポートの下で、`Web`、`Mobile`、[ ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja#field-group){target="_blank"} フィールドグループ [!DNL Adobe Experience Platform] を含むデータセットを追加する必要があります。
+ジャーニー指標を使用する前に、`Commerce Details` の設定/ レポートの下で、`Web`、`Mobile`、[&#x200B; &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja#field-group){target="_blank"} フィールドグループ [!DNL Adobe Experience Platform] を含むデータセットを追加する必要があります。
 
 これらのフィールドグループは、カスタムグループではなく、ビルトインのオプションから選択する必要があります。[データセットを追加](../reports/reporting-configuration.md#add-datasets)の節を参照してください。
 

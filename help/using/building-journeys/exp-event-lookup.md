@@ -52,9 +52,9 @@ ht-degree: 87%
 
 詳細情報：
 
-* [!DNL Adobe Experience Platform][ セグメントビルダー – イベント ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* [!DNL Adobe Experience Platform][&#x200B; セグメントビルダー – イベント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* [!DNL Adobe Experience Platform][ セグメントビルダー – 時間制約 ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* [!DNL Adobe Experience Platform][&#x200B; セグメントビルダー – 時間制約 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [条件でのオーディエンスの使用](../building-journeys/condition-activity.md#using-a-segment)
 
@@ -71,9 +71,9 @@ ht-degree: 87%
 
 オーディエンスの使用の詳細情報：
 
-* [!DNL Adobe Experience Platform][ セグメントビルダー – イベント ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* [!DNL Adobe Experience Platform][&#x200B; セグメントビルダー – イベント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* [!DNL Adobe Experience Platform][ セグメントビルダー – 時間制約 ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* [!DNL Adobe Experience Platform][&#x200B; セグメントビルダー – 時間制約 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [条件でのオーディエンスの使用](../building-journeys/condition-activity.md#using-a-segment)
 
@@ -93,9 +93,9 @@ ht-degree: 87%
 
 詳細情報：
 
-* [!DNL Adobe Experience Platform][ セグメントビルダー – イベント ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* [!DNL Adobe Experience Platform][&#x200B; セグメントビルダー – イベント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* [!DNL Adobe Experience Platform][ セグメントビルダー – 時間制約 ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* [!DNL Adobe Experience Platform][&#x200B; セグメントビルダー – 時間制約 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [条件でのオーディエンスの使用](../building-journeys/condition-activity.md#using-a-segment)
 
@@ -106,7 +106,7 @@ ht-degree: 87%
 最新の買い物かごに基づいて通信をパーソナライズしたり、複数の買い物かごタイプや製品ビューをまたいでイベントを参照するには：
 
 * [[!DNL Adobe Experience Platform] Data Distiller](https://experienceleague.adobe.com/ja/docs/experience-platform/query/data-distiller/overview){target="_blank"} にアクセスできる場合は、自動クエリを設定してイベントから必要なデータを抽出し、ユースケースに合わせて操作し、プロファイル対応データセットに書き戻してアクティブ化します。
-* スカラー属性を使用してプロファイルで放棄データをモデル化できる場合は、計算属性を使用して最新情報を取得し、ジャーニーでこれらの属性を参照して通信を構築することを考慮します。[ 詳しくは、ドキュメント  [!DNL Adobe Experience Platform]  参照してください ](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
+* スカラー属性を使用してプロファイルで放棄データをモデル化できる場合は、計算属性を使用して最新情報を取得し、ジャーニーでこれらの属性を参照して通信を構築することを考慮します。[&#x200B; 詳しくは、ドキュメント  [!DNL Adobe Experience Platform]  参照してください &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
 
 
 ## 行動ベースのジャーニー終了
@@ -123,7 +123,7 @@ ht-degree: 87%
 
 詳細情報：
 
-* [!DNL Adobe Experience Platform][ 計算済み属性の概要 ](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
+* [!DNL Adobe Experience Platform][&#x200B; 計算済み属性の概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
 
 
 
@@ -131,7 +131,7 @@ ht-degree: 87%
 
 ジャーニーでのエクスペリエンスイベント参照に関するよくある質問を以下に示します。
 
-さらに詳細が必要ですか？このページの下部にあるフィードバックオプションを使用して、質問を提起したり、[[!DNL Adobe Journey Optimizer]  コミュニティ ](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"} とつながったりします。
+さらに詳細が必要ですか？このページの下部にあるフィードバックオプションを使用して、質問を提起したり、[[!DNL Adobe Journey Optimizer]  コミュニティ &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"} とつながったりします。
 
 +++影響を受ける特定の機能は何ですか？ 
 

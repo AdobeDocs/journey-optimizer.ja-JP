@@ -100,7 +100,7 @@ ht-degree: 94%
 
 **次に、エントリー条件について知っておく必要のあるすべての事項について説明します。**
 
-* **[イベントベースのトリガー](../event/about-events.md)**：「プロファイルの作成」、「トランザクションの完了」などのイベントやカスタムイベントを使用して、ジャーニーを開始します。[ 管理 ](../event/about-creating.md)/**[!UICONTROL イベント]** で **[!UICONTROL イベントを設定]** し、[ イベントスキーマとフィールド ](../event/experience-event-schema.md) を定義します。 次に、**[!UICONTROL ジャーニーデザイナー]** の [ イベント ](using-the-journey-designer.md) パレットからイベントを追加します。
+* **[イベントベースのトリガー](../event/about-events.md)**：「プロファイルの作成」、「トランザクションの完了」などのイベントやカスタムイベントを使用して、ジャーニーを開始します。[&#x200B; 管理 &#x200B;](../event/about-creating.md)/**[!UICONTROL イベント]** で **[!UICONTROL イベントを設定]** し、[&#x200B; イベントスキーマとフィールド &#x200B;](../event/experience-event-schema.md) を定義します。 次に、**[!UICONTROL ジャーニーデザイナー]** の [&#x200B; イベント &#x200B;](using-the-journey-designer.md) パレットからイベントを追加します。
 
 * **[オーディエンスベースのエントリ](read-audience.md)**：特定のオーディエンスに属するプロファイルへのジャーニーを、1 回限りのバッチとして、または繰り返しスケジュールでターゲットにします。 **[!UICONTROL オーディエンス]**&#x200B;メニューで[オーディエンスを作成](../audience/creating-a-segment-definition.md)し、**[!UICONTROL オーディエンスを読み取り]**&#x200B;アクティビティを追加して、[スケジュールを設定](journey-properties.md#schedule)します。
 
@@ -146,7 +146,7 @@ ht-degree: 94%
 
 >[!TIP]
 >
->その他のパターンと実装については、[ジャーニーユースケースライブラリ ](jo-use-cases.md) で利用可能なすべてのユースケースを参照してください。 例としては、[ 配信を増やす ](ramp-up-deliveries-uc.md)、[ エクスペリエンスイベントパターン ](exp-event-lookup.md)、[ ライブジャーニーからのプロファイルの削除 ](journey-pause.md#apply-an-exit-criteria-in-a-paused-journey) などがあります。
+>その他のパターンと実装については、[ジャーニーユースケースライブラリ &#x200B;](jo-use-cases.md) で利用可能なすべてのユースケースを参照してください。 例としては、[&#x200B; 配信を増やす &#x200B;](ramp-up-deliveries-uc.md)、[&#x200B; エクスペリエンスイベントパターン &#x200B;](exp-event-lookup.md)、[&#x200B; ライブジャーニーからのプロファイルの削除 &#x200B;](journey-pause.md#apply-an-exit-criteria-in-a-paused-journey) などがあります。
 
 ## エントリと終了を管理するためのベストプラクティス {#best-practices}
 

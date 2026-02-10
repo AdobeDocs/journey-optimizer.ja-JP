@@ -33,7 +33,7 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->このユースケースを実装するには、ジャーニーをトリガーし、[!DNL Adobe Journey Optimizer] ジャーニー条件 [ と ](../configuration/channel-surfaces.md) 式 [ の基本的な理解を理解するために、設定済みの ](../audience/about-audiences.md) メールチャネルサーフェス [、](../event/about-events.md) オーディエンス [ または ](condition-activity.md) イベント [ を持つアクティブな ](expression/expressionadvanced.md) インスタンスが必要です。
+>このユースケースを実装するには、ジャーニーをトリガーし、[!DNL Adobe Journey Optimizer] ジャーニー条件 [&#x200B; と &#x200B;](../configuration/channel-surfaces.md) 式 [&#x200B; の基本的な理解を理解するために、設定済みの &#x200B;](../audience/about-audiences.md) メールチャネルサーフェス [、](../event/about-events.md) オーディエンス [&#x200B; または &#x200B;](condition-activity.md) イベント [&#x200B; を持つアクティブな &#x200B;](expression/expressionadvanced.md) インスタンスが必要です。
 
 
 ## 実装手順
@@ -56,7 +56,7 @@ ht-degree: 90%
 
 ジャーニーの開始直後に、現在の日が土曜日か日曜日かを確認する&#x200B;**[!UICONTROL 条件]**&#x200B;アクティビティを追加します。これにより、ワークフローがそれに応じて分岐します。
 
-1. [**[!UICONTROL 条件&#x200B;]**アクティビティ](condition-activity.md)をエントリポイントの後のキャンバスにドラッグ＆ドロップします。
+1. [**[!UICONTROL 条件&#x200B;]**&#x200B;アクティビティ](condition-activity.md)をエントリポイントの後のキャンバスにドラッグ＆ドロップします。
 
 1. **[!UICONTROL 条件]**&#x200B;アクティビティをクリックして、設定パネルを開きます。
 

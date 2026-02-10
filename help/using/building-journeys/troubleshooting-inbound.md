@@ -33,7 +33,7 @@ ht-degree: 98%
 
 トラブルシューティングを開始する前に、以下を確認します。
 
-1. **Assurance** セッションを設定します。方法については、[[!DNL Adobe Experience Platform] Assurance ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} を参照してください。
+1. **Assurance** セッションを設定します。方法については、[[!DNL Adobe Experience Platform] Assurance ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} を参照してください。
 
 1. インバウンドアクションを含むジャーニーに移動して、ジャーニー名とバージョン ID を取得します。
 
