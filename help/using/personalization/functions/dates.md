@@ -6,10 +6,10 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: 80c652afef03b0be6d917cb4389850780c2a4379
+source-git-commit: 241af4304f0bed8f3addf28ed8e7bc746550d823
 workflow-type: tm+mt
-source-wordcount: '1110'
-ht-degree: 100%
+source-wordcount: '1269'
+ht-degree: 84%
 
 ---
 
@@ -408,9 +408,11 @@ The following operation gets all the values for the map `identityMap`.
 {%= formatDate(datetime, format) %}
 ```
 
-上記の 1 番目の文字列が日付属性で、2 番目の値が日付の変換および表示方法を示します。
+ここで、最初のパラメーターは日時属性で、2 番目の値は日付の変換および表示方法です。
 
 >[!NOTE]
+>
+> `formatDate` 関数には、文字列ではなく **日時フィールド型** が入力として必要です。 フィールドが XDM スキーマに文字列型として格納されている場合は、まず、`stringToDate()` や `toDateTime()` などの変換関数を使用して、日時に変換する必要があります。 以下の例を参照してください。
 >
 > 日付パターンが無効な場合、日付は ISO 標準形式にフォールバックします。
 >
@@ -418,11 +420,69 @@ The following operation gets all the values for the map `identityMap`.
 
 **例**
 
-次の操作を実行すると、MM/DD/YY の形式で日付が返されます。
++++日時フィールドの書式設定
+
+次の操作では、日時フィールドを MM/DD/YY 形式に書式設定します。
 
 ```sql
 {%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/dd/YY") %}
 ```
+
++++
+
++++文字列の日付への変換（最初）
+
+フィールドが文字列として格納されている場合は、書式設定を行う前に、`stringToDate()` を使用してフィールドを日時に変換する必要があります。
+
+```sql
+{%= formatDate(stringToDate(profile.person.birthDayAndMonth), "MM/DD/YY") %}
+```
+
++++
+
++++完全な日付形式（日名）
+
+次の操作は、日、月、日、年を含む完全な日付形式を返します。
+
+```sql
+{%= formatDate(profile.person.birthDateTime, "EEEE MMMM dd yyyy") %}
+```
+
+出力：`Wednesday January 01 2020`
+
++++
+
++++システム時間に基づく動的な日付
+
+現在のシステム時間をフォーマットして、動的な日付を生成できます。 次の操作は、現在の日付を MM/dd/YYYY 形式で返します。
+
+```sql
+{%= formatDate(getCurrentZonedDateTime(), "MM/dd/YYYY") %}
+```
+
+出力（2026 年 1 月 30 日）: `01/30/2026`
+
++++
+
++++曜日の形式
+
+曜日は簡単に抽出できます。
+
+```sql
+{%= formatDate(getCurrentZonedDateTime(), "EEE") %}
+```
+
+出力：`Sun` （日曜日）、`Mon` （月曜日）、`Tue` （火曜日）など
+
+小文字で出力する場合は、`lowerCase` の関数と組み合わせます。
+
+```sql
+{%= lowerCase(formatDate(getCurrentZonedDateTime(), "EEE")) %}
+```
+
+出力：`sun`、`mon`、`tue` など
+
++++
 
 ### パターン文字 {#pattern-characters}
 
