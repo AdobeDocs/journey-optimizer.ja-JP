@@ -42,7 +42,7 @@ ht-degree: 89%
 
 ### データセットのイネーブルメント
 
-[!DNL Adobe Experience Platform] で参照するには、データセットを有効にする必要があります。 詳しくは、次の節を参照してください。[ 使用  [!DNL Adobe Experience Platform]  データ ](../data/lookup-aep-data.md)。
+[!DNL Adobe Experience Platform] で参照するには、データセットを有効にする必要があります。 詳しくは、次の節を参照してください。[&#x200B; 使用  [!DNL Adobe Experience Platform]  データ &#x200B;](../data/lookup-aep-data.md)。
 
 ### 制限および制約事項
 
@@ -66,7 +66,7 @@ ht-degree: 89%
 
 1. **[!UICONTROL オーケストレーション]**&#x200B;カテゴリを展開し、**[!UICONTROL データセット参照]**&#x200B;アクティビティをキャンバスにドロップします。
 
-   ジャ ![[!DNL Adobe Experience Platform] ニーのデータセットルックアップアクティビティ ](assets/aep-data-activity.png)
+   ジャ ![[!DNL Adobe Experience Platform] ニーのデータセットルックアップアクティビティ &#x200B;](assets/aep-data-activity.png)
 
 1. ラベルと説明を追加します。
 
