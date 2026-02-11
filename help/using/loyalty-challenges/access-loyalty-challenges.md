@@ -11,13 +11,13 @@ hide: true
 hidefromtoc: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
-source-git-commit: 5ccbddb37c0f45b6dd004cb4b70378b300228c0c
+exl-id: 8907c18e-4623-4743-a76b-333f34e13baf
+source-git-commit: c5d7cbde6e0a9b4b835abac19d33b973f9f364e4
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
-
 
 # 課題およびタスクへのアクセスと管理 {#access-loyalty-challenges}
 
@@ -29,12 +29,13 @@ ht-degree: 0%
 * **課題およびタスクへのアクセスと管理** ◀︎ **現在の状況**
 * [課題の作成](create-challenges.md)
 * [タスクの作成](create-tasks.md)
+* [ ロイヤルティの課題 API リファレンス ](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}
 
 >[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
->この機能は現在 **プライベートベータ版** です。 詳細情報 [&#x200B; 可用性ラベル &#x200B;](../rn/releases.md#availability-labels)。
+>この機能は現在 **プライベートベータ版** です。 詳細情報 [ 可用性ラベル ](../rn/releases.md#availability-labels)。
 
 ## 課題およびタスクへのアクセスと管理
 
@@ -71,7 +72,7 @@ ht-degree: 0%
 
 * **チャレンジの編集**：チャレンジ名を選択して詳細ページを開き、必要な変更を行います。
 
-  公開済みのチャレンジを編集用に開く場合は、まずドラフト状態に戻す必要があります。 自動生成されたジャーニーに直接加えられたカスタマイズは失われます。 変更を加えた後、課題を保存して再度公開し、関連するジャーニーを公開します。 [&#x200B; チャレンジを始める方法を学ぶ &#x200B;](create-challenges.md#launch)
+  公開済みのチャレンジを編集用に開く場合は、まずドラフト状態に戻す必要があります。 自動生成されたジャーニーに直接加えられたカスタマイズは失われます。 変更を加えた後、課題を保存して再度公開し、関連するジャーニーを公開します。 [ チャレンジを始める方法を学ぶ ](create-challenges.md#launch)
 
   >[!IMPORTANT]
   >

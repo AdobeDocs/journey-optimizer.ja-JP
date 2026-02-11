@@ -12,9 +12,9 @@ hidefromtoc: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: 17d7cf7ae18ff987b7a9c9bebdec44b354ed11da
+source-git-commit: c5d7cbde6e0a9b4b835abac19d33b973f9f364e4
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '668'
 ht-degree: 2%
 
 ---
@@ -29,12 +29,13 @@ ht-degree: 2%
 * [課題およびタスクへのアクセスと管理](access-loyalty-challenges.md)
 * [課題の作成](create-challenges.md)
 * [タスクの作成](create-tasks.md)
+* [ ロイヤルティの課題 API リファレンス ](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}
 
 >[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
->この機能は現在 **プライベートベータ版** です。 詳細情報 [&#x200B; 可用性ラベル &#x200B;](../rn/releases.md#availability-labels)。
+>この機能は現在 **プライベートベータ版** です。 詳細情報 [ 可用性ラベル ](../rn/releases.md#availability-labels)。
 
 ## 概要 {#overview}
 
@@ -77,7 +78,7 @@ ht-degree: 2%
 
 1. **課題の開始** – 課題を公開してから、ジャーニーを生成します。 Journey Optimizerは、課題に対応するジャーニーを自動的に作成します。 自動生成されたジャーニーを公開して、顧客が課題を利用できるようにします。
 
-詳細な手順については、[&#x200B; 課題の作成 &#x200B;](create-challenges.md) を参照してください。
+詳細な手順については、[ 課題の作成 ](create-challenges.md) を参照してください。
 
 ## 前提条件 {#prerequisites}
 
@@ -112,7 +113,7 @@ ht-degree: 2%
 
 +++ターゲットオーディエンス
 
-課題を作成する前に、必要なターゲットオーディエンスがAdobe Experience Platformに存在することを確認します。 チャレンジ設定時に、参加資格のある顧客を定義するオーディエンスを選択します。 [&#x200B; オーディエンスの操作方法を学ぶ &#x200B;](../audience/about-audiences.md)。
+課題を作成する前に、必要なターゲットオーディエンスがAdobe Experience Platformに存在することを確認します。 チャレンジ設定時に、参加資格のある顧客を定義するオーディエンスを選択します。 [ オーディエンスの操作方法を学ぶ ](../audience/about-audiences.md)。
 
 +++
 
@@ -157,3 +158,7 @@ ht-degree: 2%
   </td>
 </tr>
 </table>
+
+## API リファレンス {#api-reference}
+
+ロイヤルティの課題をプログラムで管理するには、[ ロイヤルティの課題 API](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"} を使用します。 API を使用すると、REST エンドポイントを介して課題とタスクを作成、更新、管理できます。
