@@ -145,7 +145,7 @@ Yes. Campaign orchestration is natively integrated with:
 
 はい、特定の状況で可能です。 「**[!UICONTROL ドラフトに戻る]** オプションは、キャンペーンを非公開にして、ドラフトステータスに戻す回復メカニズムとして設計されています。
 
-このオプションは、実行待ちのスケジュール済みキャンペーンや、実行エラーのあるライブキャンペーンで使用できます。 [ ライブキャンペーンをドラフトに戻す方法を説明します ](start-monitor-campaigns.md#back-to-draft)
+このオプションは、実行待ちのスケジュール済みキャンペーンや、実行エラーのあるライブキャンペーンで使用できます。 [&#x200B; ライブキャンペーンをドラフトに戻す方法を説明します &#x200B;](start-monitor-campaigns.md#back-to-draft)
 
 +++
 
