@@ -7,24 +7,19 @@ feature: Journeys, Activities
 topic: Content Management
 role: User
 level: Intermediate
-badge: label="限定提供" type="Informative"
 keywords: アクティビティ, 決定, コンテンツ決定, 決定ポリシー, キャンバス, ジャーニー
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 67dd6b5d7e457c29795f53276755dbbb67c94a99
 workflow-type: tm+mt
-source-wordcount: '1111'
-ht-degree: 93%
+source-wordcount: '1242'
+ht-degree: 82%
 
 ---
 
 # コンテンツ決定アクティビティ {#content-decision}
 
->[!AVAILABILITY]
->
->この機能は、一連の組織でのみ使用でき（限定提供）、今後のリリースでグローバルにロールアウトされる予定です。
-
-[!DNL Journey Optimizer] を使用すると、ジャーニーキャンバスの専用の&#x200B;**コンテンツ決定**&#x200B;アクティビティを通じて、ジャーニーにオファーを含めることができます。次に、他のアクティビティ（[カスタムアクション](../action/about-custom-action-configuration.md)など）をジャーニーに追加して、パーソナライズされたオファーでオーディエンスをターゲットにすることができます。
+[!DNL Journey Optimizer] を使用すると、ジャーニーキャンバスの専用の **コンテンツ決定** アクティビティを通じて、ジャーニーにオファーを含めることができます。 次に、他のアクティビティ（[カスタムアクション](../action/about-custom-action-configuration.md)など）をジャーニーに追加して、パーソナライズされたオファーでオーディエンスをターゲットにすることができます。
 
 >[!NOTE]
 >
@@ -78,11 +73,11 @@ ht-degree: 93%
 
 **同意ポリシー**
 
-同意ポリシーの更新が有効になるまで最大 48 時間かかります。決定ポリシーが、最近更新された同意ポリシーに関連付けられた属性を参照している場合、変更は直ちに適用されません。
+* 同意ポリシーの更新が有効になるまで最大 48 時間かかります。決定ポリシーが、最近更新された同意ポリシーに関連付けられた属性を参照している場合、変更は直ちに適用されません。
 
-同様に、同意ポリシーの対象となる新しいプロファイル属性を決定ポリシーに追加して使用できます。 関連する同意ポリシーは、遅延が経過するまで適用されません。
+* 同様に、同意ポリシーの対象となる新しいプロファイル属性が決定ポリシーに追加された場合、その属性は使用可能になりますが、関連付けられた同意ポリシーは、遅延が経過するまで適用されません。
 
-同意ポリシーは、Adobe Healthcare Shield または Privacy and Security Shield アドオンを導入している組織でのみ使用できます。
+* 同意ポリシーは、Adobe Healthcare Shield または Privacy and Security Shield アドオンを導入している組織でのみ使用できます。
 
 ## コンテンツ決定アクティビティの出力の使用 {#use-content-decision-output}
 
@@ -114,7 +109,7 @@ ht-degree: 93%
 
    >[!NOTE]
    >
-   >属性に定義された制限ラベルは、DULE または同意のポリシー違反となる可能性があります。 これは、決定ルールで使用されるジャーニーエクスペリエンスイベントと、[&#x200B; オファースキーマ &#x200B;](../experience-decisioning/catalogs.md#access-catalog-schema) に適用されます。 データガバナンスポリシーについて詳しくは、[&#x200B; この節 &#x200B;](../action/action-privacy.md) を参照してください。
+   >属性に定義された制限ラベルは、DULE または同意のポリシー違反となる可能性があります。 これは、決定ルールで使用されるジャーニーエクスペリエンスイベントと、[ オファースキーマ ](../experience-decisioning/catalogs.md#access-catalog-schema) に適用されます。 データガバナンスポリシーについて詳しくは、[ この節 ](../action/action-privacy.md) を参照してください。
 
 1. ジャーニーにエントリするプロファイルに対してオファーが返されたかどうかを確認するには、構文 `listSize(@decision{ContentdecisionName.items})>0` で [listSize](functions/list-functions.md#listSize) 関数を使用します
 
@@ -152,7 +147,7 @@ ht-degree: 93%
    >
    >コンテンツ決定ノードの出力は、**[!UICONTROL 詳細設定モード]**&#x200B;でのみ使用できます。
 
-1. `items` 配列を使用して[オファーカタログスキーマ](../experience-decisioning/catalogs.md#access-catalog-schema)を参照します。例えば、最初に取得したオファーの `itemName` と、2 番目に取得したオファーの `itemName` を使用します。
+1. [ 配列を使用して ](../experience-decisioning/catalogs.md#access-catalog-schema) オファーカタログスキーマ `items` を参照します。 例えば、最初に取得したオファーの `itemName` と、2 番目に取得したオファーの `itemName` を使用します。
 
    ![決定ポリシーを含むカスタムアクションのリクエストパラメーター](assets/journey-content-decision-custom-action-param-ex.png)
 
@@ -181,3 +176,60 @@ ht-degree: 93%
 1. 1 つ以上のオファーを取得したプロファイルのみが、ジャーニーを続行します（「実施要件を満たすプロファイル」パス経由）。
 
 1. 条件が満たされると、対応するオファーがカスタムアクションを通じて外部システムに送信されます。
+
+## ステップイベントの決定データ {#decisioning-step-events}
+
+ジャーニーでコンテンツ決定アクティビティを実行すると、決定データをジャーニーステップイベントで使用できるようになります。 このデータは、取得された項目と、決定がどのように行われたかに関する詳細情報を提供します。
+
+コンテンツ決定アクティビティごとに、ステップイベントには、最上位レベルの決定データ（「**exdRequestID** および **propositionEventType** など）と **提案** の配列が含まれます。 各提案には、**id**、**scopeDetails** （決定プロバイダー、関連付け ID、決定ポリシーを含む）、および **items** 配列があります。 各項目には次が含まれます。
+
+* **id**：項目の一意の id
+* **name**：項目の名前
+* **スコア**：項目に割り当てられたスコア
+* **itemSelection**：決定が行われた方法と項目の取得方法に関連するデータ。以下が含まれます。
+   * **selectionDetail**：使用する選択戦略に関する情報
+   * **rankingDetail**：ランキングプロセス（戦略、アルゴリズム、ステップ、トラフィックタイプ）に関する情報
+
+**ステップイベントでのデータ決定の例：**
+
+```json
+"decisioning": {
+  "exdRequestID": "8079d2bb-a8b2-4ecf-b9e7-32923dd6ad4e",
+  "propositions": [
+    {
+      "id": "f475cb21-0842-44da-b0eb-70766ba53464",
+      "scopeDetails": {
+        "decisionProvider": "EXD",
+        "correlationID": "6940d1c46208f3c00dae2ab94f3cd31c601461b47bf6d29ff8af0d0806a9c204",
+        "decisionPolicy": {
+          "id": "b913f724-3747-447b-a51e-8a2f9178f0db"
+        }
+      },
+      "items": [
+        {
+          "id": "dps:14c7468e7f6271ff8023748a1146d11f05f77b7fc1368081:1bebbf0b7e0f1374",
+          "name": "My item name",
+          "score": 0.93,
+          "itemSelection": {
+            "selectionDetail": {
+              "strategyID": "dps:selection-strategy:1bebbfc9245cb35e",
+              "strategyName": "My selection strategy",
+              "selectionType": "selectionStrategy",
+              "version": "latest"
+            },
+            "rankingDetail": {
+              "strategyID": "4FyRZTmpjrbzuL7rX7gvmu",
+              "algorithmID": "RANDOM",
+              "step": "aiModel",
+              "trafficType": "random"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "propositionEventType": {
+    "decision": 1
+  }
+}
+```
