@@ -9,13 +9,13 @@ level: Beginner
 keywords: ジャーニー, キャンペーン, 調整, 比較, 選択, 決定, ワークフロー, リアルタイム, バッチ, オーケストレーション, マルチステップ, スケジュール, API トリガー, イベント駆動型
 hide: true
 hidefromtoc: true
-source-git-commit: c1efa56fc3f3c93bdc4b9c7a9f4e81b58cbcff72
+exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
+source-git-commit: 6a32a60f153ff4880ce974e77bc11eed1e20a7c7
 workflow-type: tm+mt
 source-wordcount: '1453'
 ht-degree: 85%
 
 ---
-
 
 # ジャーニーとキャンペーン：適切なアプローチを選択 {#journeys-vs-campaigns}
 
@@ -207,7 +207,7 @@ Enrich with product data → Build segments → Send personalized offers → All
 | Web | ✅ | ✅ | ❌ | ❌ |
 | コードベース | ✅ | ✅ | ❌ | ❌ |
 | コンテンツカード | ✅ | ✅ | ❌ | ❌ |
-| ダイレクトメール | ✅ | ✅ | ❌ | ❌ |
+| ダイレクトメール | ✅ | ✅ | ❌ | ✅ |
 
 ### 高度な機能
 
@@ -280,4 +280,3 @@ Enrich with product data → Build segments → Send personalized offers → All
 * [キャンペーンタイプの比較](../campaigns/get-started-with-campaigns.md#campaign-types)
 * [ジャーニーに関する FAQ](../building-journeys/journey-faq.md)
 * [オーケストレーションキャンペーンに関する FAQ](../orchestrated/orchestrated-campaigns-faq.md)
-
