@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
-source-git-commit: 780c197da342968c6dc125277f325219e0717082
+source-git-commit: 714d3dc6f0c8351e95ce4a2df2ad251c1491904b
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 95%
+source-wordcount: '665'
+ht-degree: 91%
 
 ---
 
@@ -22,7 +22,7 @@ AEM コンテンツフラグメントについて詳しくは、Experience Manag
 
 >[!AVAILABILITY]
 >
->ヘルスケアのお客様の場合、統合は Journey Optimizer Healthcare Shield および Adobe Experience Manager Enhanced Security アドオン製品のライセンスを取得した場合にのみ有効になります。
+>医療機関のお客様の場合、この統合は、Journey Optimizer Healthcare Shield およびAdobe Experience Manager Extended Security for Healthcare アドオン製品のライセンスを取得した場合にのみ有効になります。
 
 ## 制限事項 {#limitations}
 
