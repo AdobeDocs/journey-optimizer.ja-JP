@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: bb5d69d748b7283297d19f43ab0fc54c46d5d303
+source-git-commit: b414d330a25a98c11b7417beda4536c54c41fd83
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 96%
+source-wordcount: '802'
+ht-degree: 94%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 96%
 
    ![](assets/fragment-expression-type.png)
 
-1. カスタムまたはコアのデータ使用ラベルをフラグメントに割り当てるには、画面の上部セクションで「**[!UICONTROL アクセスを管理]**」ボタンをクリックします。[オブジェクトレベルのアクセス制御（OLAC）についての詳細を参照してください](../administration/object-based-access.md)。
+1. カスタムまたはコアのデータ使用ラベルをフラグメントに割り当てるには、画面の上部セクションで「**[!UICONTROL アクセスを管理]**」ボタンをクリックします。[詳しくは、オブジェクトレベルのアクセス制御（OLAC）を参照してください](../administration/object-based-access.md)。
 
 1. 「**[!UICONTROL 作成]**」をクリックして、フラグメントのコンテンツをデザインします。
 
@@ -84,6 +84,10 @@ ht-degree: 96%
 * 式フラグメントの場合は、[!DNL Journey Optimizer] パーソナライゼーションエディターのすべてのパーソナライズ機能およびオーサリング機能を活用して、フラグメントコンテンツを構築します。[詳細情報](../personalization/personalization-build-expressions.md)
 
   ![](assets/fragment-expression-editor.png)
+
+  >[!NOTE]
+  >
+  >JSON タイプの式フラグメントは、保存時に構文的に検証され、エラーが警告アラートとして表示されます。
 
 コンテンツの準備が整ったら、「**[!UICONTROL 保存]**」ボタンをクリックします。
 

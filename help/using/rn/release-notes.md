@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 9281adb50d13142ccf323ff5edb3f480b801d986
+source-git-commit: b414d330a25a98c11b7417beda4536c54c41fd83
 workflow-type: tm+mt
-source-wordcount: '1806'
-ht-degree: 87%
+source-wordcount: '1884'
+ht-degree: 85%
 
 ---
 
@@ -110,10 +110,13 @@ ht-degree: 87%
 
 ### 機能強化 {#feb-26-01-updates-improv}
 
-<!--
-* **Attach fragments to decision items** - Journey Optimizer now provides the ability to attach <strong>fragments</strong> to <strong>decision items</strong> which can be leveraged in code-based experience campaigns through decision policies.
+* **フラグメントを決定項目に添付** - Journey Optimizer では、決定ポリシーを通じてコードベースのエクスペリエンスキャンペーンで活用できる<strong>フラグメント</strong>を<strong>決定項目</strong>に添付できるようになりました。以前は限定提供でリリースされていましたが、この改善はすべての環境で利用できるようになりました（一般提供）。 [詳細情報](../experience-decisioning/fragments-decision-policies.md)
 
-  Availability date: February 11, 2026.-->
+  公開日：2026 年 2 月 12 日（PT）。
+
+* **JSON 型の式フラグメントの検証** - JSON 型の式フラグメントは、保存時に構文的に検証されるようになりました。 検証エラーは警告として扱われ、保存後にアラートとして表示されます。 [詳細情報](../content-management/create-fragments.md#content)
+
+  公開日：2026 年 2 月 12 日（PT）。
 
 * **SMS Webhook** – すべての SMS プロバイダーで Webhook がサポートされるようになりました。 目的に応じて各 Webhook を設定できます。受信メッセージをキャプチャする受信 Webhook および配信の受信、ステータスの更新、その他のメッセージ関連イベントを受信するフィードバック Webhook。 [詳細情報](../sms/sms-webhook.md)
 
@@ -127,7 +130,7 @@ ht-degree: 87%
 
 <!-- **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date. 
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 ### 新機能 {#jan-26-01-features}
 
@@ -290,7 +293,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **AI アシスタントコンテンツ品質チェック** - ブランド一致に加えて、ブランドガイドラインに依存せずに、全体的な<strong>コンテンツ品質</strong>を評価して、<strong>読みやすさ</strong>、一貫性、有効性に関する潜在的な問題を明らかにできるようになりました。これらの自動チェックは、不明確なメッセージ、一貫性のないトーン、構造上のギャップを特定するのに役立ちます。 [詳細情報](../content-management/brands-score.md#validate-quality)。
 
-  [この機能について詳しくは、ビデオを参照してください](https://video.tv.adobe.com/v/3470547/?captions=jpn&learn=on)。
+  [この機能について詳しくは、ビデオを参照してください](https://video.tv.adobe.com/v/3470544/?learn=on)。
 
 #### ジャーニー
 
