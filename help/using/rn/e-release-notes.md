@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: a9c74b396e24fec418f0556124a07d482b015825
+source-git-commit: 4b6e988d79c48d0c5417c9e7f43a8da85a7fbe28
 workflow-type: tm+mt
-source-wordcount: '1591'
-ht-degree: 41%
+source-wordcount: '1553'
+ht-degree: 42%
 
 ---
 
@@ -45,24 +45,6 @@ ht-degree: 41%
 <li>大量で時間に敏感なユースケース – 大規模なオーディエンスや、タイミングを制御する必要がある場合（コールセンターの処理能力、ランプアップ、時間限定オファーなど）に適しています。</li>
 </ul>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-11533">DOCAC JIRA タスクへのリンク</a></p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>メールのカーボンコピー（CC）</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>メールチャネルの設定で、オプションの「CC」（カーボンコピー）フィールドを設定できるようになりました。 BCC とは異なり、CC 受信者はプライマリ受信者に表示され、透過的な通信と明確な所有権が可能になります。</p>
-<p>これにより、関係管理者やアカウント所有者など、各メッセージに関する適切な関係者を自動的にコピーしながら、フォローアップのために連絡できる相手を顧客に確実に知らせることができます。</p>
-<p>CC フィールドはパーソナライゼーションをサポートしているので、1 つの設定でプロファイルデータに基づいてコピーを動的にルーティングでき、追加の設定なしで複数のユースケースに対応できます。</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14051">DOCAC JIRA タスクへのリンク</a></p>
 </td>
 </tr>
 </tbody>
@@ -246,7 +228,7 @@ ht-degree: 41%
 
 #### 設定
 
-* **エクスペリエンスイベントルックアップの廃止** - 2026 年 4 月 1 日（PT）以降、ジャーニー条件式エディターのエクスペリエンスイベントルックアップは、過去 90 日間にエクスペリエンスイベントルックアップを使用していない組織には廃止されます。 この機能は、2025 年 7 月 8 日（PT）以降、新規のお客様は使用できなくなっています。 代替手段については、[&#x200B; ジャーニーでのエクスペリエンスイベントの参照 &#x200B;](../building-journeys/exp-event-lookup.md) を参照してください。
+* **エクスペリエンスイベントルックアップの廃止** - 2026 年 4 月 1 日（PT）以降、ジャーニー条件式エディターのエクスペリエンスイベントルックアップは、過去 90 日間にエクスペリエンスイベントルックアップを使用していない組織には廃止されます。 この機能は、2025 年 7 月 8 日（PT）以降、新規のお客様は使用できなくなっています。 代替手段については、[ ジャーニーでのエクスペリエンスイベントの参照 ](../building-journeys/exp-event-lookup.md) を参照してください。
 
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14136">DOCAC JIRA タスクへのリンク </a>
 
@@ -269,6 +251,10 @@ ht-degree: 41%
 * **カスタムのFirefly モデルとサードパーティの画像生成モデルの統合** – 標準およびカスタムのFirefly モデルと、承認済みのサードパーティの画像モデル（NanoBanana など）をシームレスに統合し、画像を生成する際の柔軟性、制御、ブランドの関連付けを向上させることができます。 これにより、一般的なニーズに対応する標準Firefly、ブランドに合わせたカスタム Firefly、専門的または実験的なシナリオに対応する承認済みのサードパーティモデルなど、ユースケースごとに最適なモデルを選択できます。
 
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13918">DOCAC JIRA タスクへのリンク </a>
+
+* **サードパーティの画像生成に対するFirefly 3P モデルのサポート** - Journey Optimizerで画像を作成するために、Fireflyと共にサードパーティの画像生成モデル（OpenAI や Gemini など）を使用できるようになりました。 これにより、ユースケースごとに適切なモデルを柔軟に選択でき、Firefly 3P ゲートウェイを通じて承認済みの外部プロバイダーを統合できます。
+
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-14145">DOCAC JIRA タスクへのリンク </a>
 
 #### キャンペーン
 
@@ -313,7 +299,7 @@ ht-degree: 41%
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -491,7 +477,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-13747">Link to DOCAC JIRA task</a> | <a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
