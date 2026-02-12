@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 1b21dc3355ebbfe16dd145de929a87eeb26db826
+source-git-commit: 7b32d38ab5ac3790342b64df4ac0db46d1acf444
 workflow-type: tm+mt
-source-wordcount: '1553'
-ht-degree: 25%
+source-wordcount: '1494'
+ht-degree: 26%
 
 ---
 
@@ -228,7 +228,7 @@ ht-degree: 25%
 
 #### 設定
 
-* **エクスペリエンスイベントルックアップの廃止** - 2026 年 4 月 1 日（PT）以降、ジャーニー条件式エディターの <strong> エクスペリエンスイベントルックアップ </strong> は、過去 90 日間にエクスペリエンスイベントルックアップを使用していない組織には廃止されます。 この機能は、2025 年 7 月 8 日（PT）以降、新規のお客様は使用できなくなっています。 代替手段については、[&#x200B; ジャーニーでのエクスペリエンスイベントの参照 &#x200B;](../building-journeys/exp-event-lookup.md) を参照してください。
+* **エクスペリエンスイベントルックアップの廃止** - 2026 年 4 月 1 日（PT）以降、ジャーニー条件式エディターの <strong> エクスペリエンスイベントルックアップ </strong> は、過去 90 日間にエクスペリエンスイベントルックアップを使用していない組織には廃止されます。 この機能は、2025 年 7 月 8 日（PT）以降、新規のお客様は使用できなくなっています。 代替手段については、[ ジャーニーでのエクスペリエンスイベントの参照 ](../building-journeys/exp-event-lookup.md) を参照してください。
 
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14136">DOCAC JIRA タスクへのリンク </a>
 
@@ -251,10 +251,6 @@ ht-degree: 25%
 * **カスタムのFirefly モデルとサードパーティの画像生成モデルの統合** – 標準およびカスタムの <strong>Firefly モデル </strong> と、承認済みの <strong> サードパーティの画像モデル </strong> （NanoBanana など）をシームレスに統合し、画像を生成する際の柔軟性、制御、ブランドの整合性を向上させることができます。 これにより、一般的なニーズに対応する標準Firefly、ブランドに合わせたカスタム Firefly、専門的または実験的なシナリオに対応する承認済みのサードパーティモデルなど、ユースケースごとに最適なモデルを選択できます。
 
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13918">DOCAC JIRA タスクへのリンク </a>
-
-* **サードパーティの画像生成に対するFirefly 3P モデルのサポート** - Journey Optimizerで画像を作成するために、Fireflyと一緒に <strong> サードパーティの画像生成モデル </strong> （OpenAI や Gemini など）を使用できるようになりました。 これにより、ユースケースごとに適切なモデルを柔軟に選択でき、<strong>Firefly 3P ゲートウェイ </strong> を通じて承認済みの外部プロバイダーを統合できます。
-
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-14145">DOCAC JIRA タスクへのリンク </a>
 
 #### キャンペーン
 
@@ -299,7 +295,7 @@ ht-degree: 25%
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -477,7 +473,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-13747">Link to DOCAC JIRA task</a> | <a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
