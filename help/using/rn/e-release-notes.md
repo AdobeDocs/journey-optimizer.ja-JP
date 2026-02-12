@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 4b6e988d79c48d0c5417c9e7f43a8da85a7fbe28
+source-git-commit: 1b21dc3355ebbfe16dd145de929a87eeb26db826
 workflow-type: tm+mt
 source-wordcount: '1553'
-ht-degree: 42%
+ht-degree: 25%
 
 ---
 
@@ -37,11 +37,11 @@ ht-degree: 42%
 <tbody>
 <tr>
 <td>
-<p>キャンペーンやジャーニーからのアウトバウンドメッセージが制御されたバッチで時間の経過と共に配信されるようにスケジュールできます。</p>
+<p><strong> キャンペーン </strong> または <strong> ジャーニー </strong> からのアウトバウンドメッセージを、制御された <strong> バッチ </strong> で時間をかけて配信するようにスケジュールできます。</p>
 <p>Wave 送信には、次の利点があります。</p>
 <ul>
-<li>配信品質の向上 – 送信を時間の経過と共に拡散することで、強力な送信者の評判を維持し、スパムとしてフラグ付けされるリスクを軽減できます。</li>
-<li>読み込み制御 – 一度に送信されるメッセージの数を制限することで、ダウンストリームのシステム（コールセンター、ランディングページなど）が過剰になるのを防ぎます。</li>
+<li><strong> 配信品質 </strong> の向上 – 送信を時間の経過と共に拡散して、強力な <strong> 送信者の評判 </strong> を維持し、スパムとしてフラグが立てられるリスクを軽減します。</li>
+<li><strong> 読み込み制御 </strong> – 一度に送信するメッセージの数を制限して、ダウンストリームのシステム（コールセンター、ランディングページなど）が多くなりすぎないようにします。</li>
 <li>大量で時間に敏感なユースケース – 大規模なオーディエンスや、タイミングを制御する必要がある場合（コールセンターの処理能力、ランプアップ、時間限定オファーなど）に適しています。</li>
 </ul>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-11533">DOCAC JIRA タスクへのリンク</a></p>
@@ -59,8 +59,8 @@ ht-degree: 42%
 <tbody>
 <tr>
 <td>
-<p>数式と AI モデルを使用して、顧客プロファイル属性とコンテキスト要因に基づいてジャーニーの優先度スコアを自動的に上げ、顧客が最も関連性の高いジャーニーにエントリできるようにできるようになりました。</p>
-<p>この機能は、一連の組織でのみ使用できます（限定提供）。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
+<p><strong> 式 </strong> と <strong>AI モデル </strong> を使用して、顧客プロファイル属性とコンテキスト要因に基づいて <strong> ジャーニー優先度スコア </strong> を自動的にブーストし、顧客が最も関連性の高いジャーニーにエントリできるようになりました。</p>
+<p>この機能は、一連の組織でのみ使用できます（<strong> 限定提供 </strong>）。 アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-13976">DOCAC JIRA タスクへのリンク</a></p>
 </td>
 </tr>
@@ -76,7 +76,7 @@ ht-degree: 42%
 <tbody>
 <tr>
 <td>
-<p>Adobe Experience Platform Agent Orchestratorを活用したJourney Agentは、Journey Optimizerで使用でき、自然言語インターフェイスを通じてジャーニーを分析できます。 また、Journey エージェントで直接チャネル固有のコンテンツを生成および管理して、メールやプッシュなどのチャネルのコンテンツを作成し、テンプレートを適用してプレビューし、プロンプトを通じてトーンやスタイルを調整し、コンテキスト内での編集用にコンテンツデザイナーでコンテンツを開くことができるようになりました。</p>
+<p><strong>Adobe Experience Platform Agent Orchestrator</strong> を活用した <strong>Journey Agent</strong> はJourney Optimizerで利用でき、<strong> 自然言語インターフェイス </strong> を通じてジャーニーを分析できます。 また、Journey Agentで直接チャネル固有のコンテンツを生成および管理したり、メールやプッシュなどのチャネルのコンテンツを作成したり、テンプレートを適用およびプレビューしたり、プロンプトを使用してトーンとスタイルを調整したり、<strong> コンテンツDesigner</strong> でコンテンツを開いてコンテキスト内編集を行ったりできるようになりました。</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-13980">DOCAC JIRA タスクへのリンク</a></p>
 </td>
 </tr>
@@ -92,8 +92,8 @@ ht-degree: 42%
 <tbody>
 <tr>
 <td>
-<p>ライブアクティビティは、モバイルアプリ内でリアルタイムの更新とインタラクティブなエクスペリエンスを提供し、ユーザーが進行中のイベントやタスクに関する情報をデバイスの画面に直接表示できるようにします。 この機能は、ユーザーがアプリを開かなくても、進行状況のトラッキング、イベントの更新、インタラクティブコンテンツなどのライブ情報を配信することで、エンゲージメントを強化します。</p>
-<p>以前ベータ版でリリースされていましたが、この機能を、すべての環境で利用できるようになりました（一般提供）。</p>
+<p><strong> ライブアクティビティ </strong> モバイルアプリ内に <strong> リアルタイムの更新 </strong> とインタラクティブなエクスペリエンスを提供し、ユーザーが進行中のイベントやタスクに関する情報をデバイスの画面に直接表示できるようにします。 この機能は、ユーザーがアプリを開かなくても、進行状況のトラッキング、イベントの更新、インタラクティブコンテンツなどのライブ情報を配信することで、エンゲージメントを強化します。</p>
+<p>以前ベータ版でリリースされていましたが、この機能を、すべての環境で利用できるようになりました（<strong> 一般提供 </strong>）。</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-13588">DOCAC JIRA タスクへのリンク</a></p>
 </td>
 </tr>
@@ -109,14 +109,14 @@ ht-degree: 42%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer は、単一アクションと複数アクションのインバウンドアクショングループの両方を設定できる新しい汎用アクションアクティビティをサポートしているので、ジャーニーキャンバス内でのアクション設定を効率化できます。特に、この新機能により、次のことが可能になります。</p>
+<p>Journey Optimizerでは、新しい汎用 <strong> アクションアクティビティ </strong> をサポートしています。これにより、単一のアクションと <strong> 複数アクションのインバウンドアクショングループ </strong> の両方を設定でき、<strong> ジャーニーキャンバス </strong> 内でアクションの設定を合理化できます。 特に、この新機能により、次のことが可能になります。</p>
 <ul>
 <li>ジャーニーキャンバス内の簡素化されたネイティブアクション設定。</li>
 <li>複数アクションのインバウンドアクショングループを作成する処理能力。</li>
-<li>組み込みのチャネルアクションに最適化を追加する機能。</li>
-<li>任意のアクションに実験オプションと多言語オプションの両方を追加する機能。</li>
+<li>ビルトインのチャネルアクションに <strong> 最適化 </strong> を追加する機能。</li>
+<li>任意のアクションに <strong> 実験 </strong> オプションと <strong> 多言語 </strong> オプションの両方を追加する機能。</li>
 </ul>
-<p>この機能は、すべての環境で利用できるようになりました（一般提供）。</p>
+<p>この機能を、すべての環境で利用できるようになりました（一般提供 <strong>。</strong>。</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-13290">DOCAC JIRA タスクへのリンク</a></p>
 </td>
 </tr>
@@ -132,8 +132,8 @@ ht-degree: 42%
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer は web プッシュ通知をサポートするようになり、プッシュチャネルがモバイル以外にも拡張されました。モバイルブラウザーとデスクトップブラウザーの両方に通知をシームレスに配信できるので、アプリを必要とせずにデバイス上で直接顧客にリーチできます。この機能強化により、モバイルプッシュで既に使用可能なものと同じオーサリングワークフローとターゲティング機能を活用して、タイムリーでパーソナライズされたメッセージを用いて、リアルタイムでユーザーに関与できるようになります。</p>
-<p>以前ベータ版でリリースされていましたが、この機能を、すべての環境で利用できるようになりました（一般提供）。</p>
+<p>Adobe Journey Optimizer は <strong>web プッシュ通知</strong>をサポートするようになり、プッシュチャネルがモバイル以外にも拡張されました。モバイルブラウザーとデスクトップブラウザーの両方に通知をシームレスに配信できるので、アプリを必要とせずにデバイス上で直接顧客にリーチできます。この機能強化により、既にモバイルプッシュで使用できるのと同じ <strong> オーサリングワークフロー </strong> ターゲティング機能 <strong> を活用して、パーソナライズされたメッセージをリアルタイムでタイムリーにユーザーに提供 </strong> きます。</p>
+<p>以前ベータ版でリリースされていましたが、この機能を、すべての環境で利用できるようになりました（<strong> 一般提供 </strong>）。</p>
 <p>公開日：2026年2月12日（PT）</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-13581">DOCAC JIRA タスクへのリンク</a></p>
 </td>
@@ -150,8 +150,8 @@ ht-degree: 42%
 <tbody>
 <tr>
 <td>
-<p>ジャーニーキャンバスで新しいコンテンツ決定アクティビティを使用して、パーソナライズされたオファーをカスタマージャーニーに直接統合できるようになりました。 このアクティビティを使用すると、決定ベースのコンテンツを配信し、ジャーニー全体でこれらのオファーを参照できます。実施要件ベースのブランチを作成する条件、外部システムにオファーデータを渡すカスタムアクション、完全にパーソナライズされたカスタマーエクスペリエンスを構築するその他のアクティビティなどです。</p>
-<p>この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。</p>
+<p><strong> パーソナライズされたオファー </strong> をカスタマージャーニーに直接統合するために、<strong> ジャーニーキャンバス </strong> で新しい <strong> コンテンツ決定アクティビティ </strong> が使用できるようになりました。 このアクティビティを使用すると、決定ベースのコンテンツを配信し、ジャーニー全体でこれらのオファーを参照できます。実施要件ベースのブランチを作成する条件、外部システムにオファーデータを渡すカスタムアクション、完全にパーソナライズされたカスタマーエクスペリエンスを構築するその他のアクティビティなどです。</p>
+<p>以前は限定提供でリリースされていましたが、現在はすべての環境でこの機能を利用できます（<strong> 一般提供 </strong>）。</p>
 <p><img src="assets/do-not-localize/content-decision.gif"/></p>
 <p>詳しくは、<a href="../building-journeys/content-decision.md">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2026年2月11日（PT）</p>
@@ -170,11 +170,11 @@ ht-degree: 42%
 <tbody>
 <tr>
 <td>
-<p><strong>Migration tooling API</strong> では、プログラムで意思決定管理エンティティを決定に移行できるようになりました。機能は次のとおりです。</p>
+<p><strong> 移行ツール API</strong> が、<strong> 意思決定管理 </strong> エンティティを <strong>Decisioning</strong> にプログラムで移行できるようになりました。その特徴は次のとおりです。</p>
 <ul>
-<li>柔軟な移行範囲（サンドボックス、オファー、決定レベル）</li>
-<li>自動化された依存関係分析と検証</li>
-<li>完了した移行のロールバックサポート</li>
+<li>柔軟な移行範囲（<strong> サンドボックス </strong>、<strong> オファー </strong>、または <strong> 決定 </strong> レベル）</li>
+<li>自動 <strong> 依存関係分析 </strong> および検証</li>
+<li>完了した移行の <strong> ロールバックサポート </strong></li>
 <li>オブジェクトマッピングを含む詳細な移行レポート</li>
 </ul>
 <p>詳しくは、<a href="../experience-decisioning/decisioning-migration-api.md">詳細なドキュメント</a>を参照してください。</p>
@@ -194,8 +194,8 @@ ht-degree: 42%
 <tbody>
 <tr>
 <td>
-<p>新しい監視ダッシュボードと強化されたジャーニーステップイベントデータを使用して、<strong>カスタムアクションエンドポイント</strong>の健全性とパフォーマンスに関するより深いインサイトを得ることができます。成功した呼び出し、エラー、スループット、応答時間、キューの待機時間を追跡して、異常値が発生したタイミング、場所、理由をすばやく把握します。</p>
-<p>この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。</p>
+<p>新しい <strong> モニタリングダッシュボード </strong> と強化された <strong> ジャーニーステップイベントデータ </strong> を使用して、<strong> カスタムアクションエンドポイント </strong> の正常性とパフォーマンスをより深くinsightできます。 成功した呼び出し、エラー、スループット、応答時間、キューの待機時間を追跡して、異常値が発生したタイミング、場所、理由をすばやく把握します。</p>
+<p>以前は限定提供でリリースされていましたが、現在はすべての環境でこの機能を利用できます（<strong> 一般提供 </strong>）。</p>
 <p>詳しくは、<a href="../action/reporting.md">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2026年2月3日（PT）</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-13981">DOCAC JIRA タスクへのリンク</a></p>
@@ -213,7 +213,7 @@ ht-degree: 42%
 <tbody>
 <tr>
 <td>
-<p><strong>Decisioning</strong> を使用して、<strong>SMS メッセージ </strong> のコンテンツをパーソナライズおよび最適化できるようになりました。 優先度スコア、数式、AI モデルを使用して、顧客に最適なコンテンツを表示します。</p>
+<p><strong>Decisioning</strong> を使用して、<strong>SMS メッセージ </strong> のコンテンツをパーソナライズおよび最適化できるようになりました。 <strong> 優先度スコア </strong>、<strong> 式 </strong> または <strong>AI モデル </strong> を使用して、顧客に最適なコンテンツを表示します。</p>
 <p>詳しくは、<a href="../experience-decisioning/create-decision.md">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2026年2月2日（PT）</p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-13426">DOCAC JIRA タスクへのリンク</a></p>
@@ -228,53 +228,53 @@ ht-degree: 42%
 
 #### 設定
 
-* **エクスペリエンスイベントルックアップの廃止** - 2026 年 4 月 1 日（PT）以降、ジャーニー条件式エディターのエクスペリエンスイベントルックアップは、過去 90 日間にエクスペリエンスイベントルックアップを使用していない組織には廃止されます。 この機能は、2025 年 7 月 8 日（PT）以降、新規のお客様は使用できなくなっています。 代替手段については、[&#x200B; ジャーニーでのエクスペリエンスイベントの参照 &#x200B;](../building-journeys/exp-event-lookup.md) を参照してください。
+* **エクスペリエンスイベントルックアップの廃止** - 2026 年 4 月 1 日（PT）以降、ジャーニー条件式エディターの <strong> エクスペリエンスイベントルックアップ </strong> は、過去 90 日間にエクスペリエンスイベントルックアップを使用していない組織には廃止されます。 この機能は、2025 年 7 月 8 日（PT）以降、新規のお客様は使用できなくなっています。 代替手段については、[ ジャーニーでのエクスペリエンスイベントの参照 ](../building-journeys/exp-event-lookup.md) を参照してください。
 
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14136">DOCAC JIRA タスクへのリンク </a>
 
-* **サブドメインデリゲーション方法の切り替え** - サブドメインデリゲーション方法を別のサブドメインデリゲーション方法に切り替えられるようになりました。 これにより、CNAME 委任モードを使用してドメインをカスタムの委任方法に移行し、会社のセキュリティポリシーに従うことができます。
+* **サブドメインデリゲーション方法の切り替え** - <strong> サブドメインデリゲーション </strong> 方法を別の方法に切り替えられるようになりました。 これにより、<strong>CNAME デリゲーション </strong> モードを使用してドメインを <strong> カスタムデリゲーション </strong> メソッドに移行して、会社のセキュリティポリシーに準拠することができます。
 
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13610">DOCAC JIRA タスクへのリンク </a>
 
 #### E メールデザイナー
 
-* **ブランドテーマを使用して画像をメールテンプレートに変換** - Journey Optimizerで画像をメールテンプレートに変換する際に、テーマを入力として使用できるようになり、生成されたHTMLがブランドパラメーターに従うようになりました。 背景色、ボタンの色、フォント、行間、余白、パディングなどのスタイル設定が自動的に適用されるので、手動によるデザイン作業が軽減され、最小限の編集作業で使いやすいテンプレートが配信されます。
+* **ブランドテーマを使用して画像をメールテンプレートに変換** - Journey Optimizerで画像をメールテンプレートに変換する際に、<strong> テーマ </strong> を入力として使用して、生成されたHTMLが <strong> ブランドパラメーターに従うようになりました </strong>。 背景色、ボタンの色、フォント、行間、余白、パディングなどのスタイル設定が自動的に適用されるので、手動によるデザイン作業が軽減され、最小限の編集作業で使いやすいテンプレートが配信されます。
 
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14105">DOCAC JIRA タスクへのリンク </a>
 
-* **新しいカラータブでブランドを更新** - ブランドガイドラインは、すべてのタッチポイントをまたいでブランドを一貫して提示するのに役立ちます。新しいカラーのセクションは、ブランドのカラーシステムの標準を定義し、エクスペリエンス間でカラーを選択、整理、適用する方法を概説します。 これにより、プライマリカラー、セカンダリカラー、アクセントカラー、ニュートラルカラーの一貫性のある使用が確保され、まとまりのあるアクセス可能で認識可能なブランドアイデンティティがサポートされます。
+* **新しい「カラー」タブでブランドを更新** - <strong> ブランドガイドライン </strong> を使用すると、すべてのタッチポイントにわたってブランドを一貫して提示できます。 新しい<strong>「カラー」セクション</strong>では、ブランドのカラーシステムの標準を定義し、エクスペリエンスをまたいでカラーを選択、整理、適用する方法の概要を示します。これにより、プライマリカラー、セカンダリカラー、アクセントカラー、ニュートラルカラーの一貫性のある使用が確保され、まとまりのあるアクセス可能で認識可能なブランドアイデンティティがサポートされます。
 
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13811">DOCAC JIRA タスクへのリンク </a>
 
 #### AI
 
-* **カスタムのFirefly モデルとサードパーティの画像生成モデルの統合** – 標準およびカスタムのFirefly モデルと、承認済みのサードパーティの画像モデル（NanoBanana など）をシームレスに統合し、画像を生成する際の柔軟性、制御、ブランドの関連付けを向上させることができます。 これにより、一般的なニーズに対応する標準Firefly、ブランドに合わせたカスタム Firefly、専門的または実験的なシナリオに対応する承認済みのサードパーティモデルなど、ユースケースごとに最適なモデルを選択できます。
+* **カスタムのFirefly モデルとサードパーティの画像生成モデルの統合** – 標準およびカスタムの <strong>Firefly モデル </strong> と、承認済みの <strong> サードパーティの画像モデル </strong> （NanoBanana など）をシームレスに統合し、画像を生成する際の柔軟性、制御、ブランドの整合性を向上させることができます。 これにより、一般的なニーズに対応する標準Firefly、ブランドに合わせたカスタム Firefly、専門的または実験的なシナリオに対応する承認済みのサードパーティモデルなど、ユースケースごとに最適なモデルを選択できます。
 
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13918">DOCAC JIRA タスクへのリンク </a>
 
-* **サードパーティの画像生成に対するFirefly 3P モデルのサポート** - Journey Optimizerで画像を作成するために、Fireflyと共にサードパーティの画像生成モデル（OpenAI や Gemini など）を使用できるようになりました。 これにより、ユースケースごとに適切なモデルを柔軟に選択でき、Firefly 3P ゲートウェイを通じて承認済みの外部プロバイダーを統合できます。
+* **サードパーティの画像生成に対するFirefly 3P モデルのサポート** - Journey Optimizerで画像を作成するために、Fireflyと一緒に <strong> サードパーティの画像生成モデル </strong> （OpenAI や Gemini など）を使用できるようになりました。 これにより、ユースケースごとに適切なモデルを柔軟に選択でき、<strong>Firefly 3P ゲートウェイ </strong> を通じて承認済みの外部プロバイダーを統合できます。
 
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14145">DOCAC JIRA タスクへのリンク </a>
 
 #### キャンペーン
 
-* **ジャーニーとキャンペーンのフォルダー** - ジャーニーとキャンペーンをフォルダーに整理して、インターフェイスでのナビゲーションと管理を改善できるようになりました。
+* **ジャーニーとキャンペーンのフォルダー** - <strong> ジャーニー </strong> および <strong> キャンペーン </strong> を <strong> フォルダー </strong> に整理して、インターフェイスでのナビゲーションと管理を改善できるようになりました。
 
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14038">DOCAC JIRA タスクへのリンク </a>
 
 #### エクスペリエンス決定
 
-* **コードベースのエクスペリエンスチャネルでのエクスペリエンス決定のプレビュー** - コードベースのエクスペリエンスチャネルでエクスペリエンス決定を設定する際に、決定項目をプレビューできるようになりました。 プレビューは、運用開始前に、オーサリングインターフェイスで直接使用できます。
+* **コードベースのエクスペリエンスチャネルでのエクスペリエンス決定のプレビュー** - <strong> コードベースのエクスペリエンス </strong> チャネルを使用して <strong> エクスペリエンス決定 </strong> を設定する際に <strong> 決定項目 </strong> をプレビューできるようになりました。 プレビューは、運用開始前に、オーサリングインターフェイスで直接使用できます。
 
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14082">DOCAC JIRA タスクへのリンク </a>
 
-* **オファーランキング AI モデルの観察性** - Journey Optimizerで、意思決定における AI モデルのヘルス、トレーニングのステータス、パフォーマンスを監視できるようになりました。これにより、トレーニングの成功を確認し、失敗をトラブルシューティングして、結果への影響を理解できます。 この機能は、パーソナライズされた最適化モデルでのみ使用できます（自動最適化では使用できません）。
+* **オファーランキング AI モデルの可観測性** - Journey Optimizerでは、Decisioning で <strong>AI モデル </strong> の <strong> ヘルス </strong>、<strong> トレーニングステータス </strong> および <strong> パフォーマンス </strong> を監視できるようになりました。これにより、トレーニングの成功を検証し、失敗をトラブルシューティングして、結果に与える影響を理解できます。 この機能は、パーソナライズされた最適化モデルでのみ使用できます（自動最適化では使用できません）。
 
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14040">DOCAC JIRA タスクへのリンク </a>
 
-* **フラグメントを決定項目に添付** - Journey Optimizer では、決定ポリシーを通じてコードベースのエクスペリエンスキャンペーンで活用できるフラグメントを決定項目に添付できるようになりました。
+* **決定項目にフラグメントを添付** - Journey Optimizerでは、<strong> 決定ポリシー </strong> を通じてコードベースのエクスペリエンスキャンペーンで利用できる <strong> フラグメント </strong> を <strong> 決定項目に添付する機能を提供 </strong> ました。
 
-  **メモ**：この機能強化は、すべての環境で利用できるようになりました（一般提供）。
+  **メモ**：この機能強化は、すべての環境で利用できるようになりました（<strong> 一般提供 </strong>）。
 
   公開日：2026 年 2 月 12 日（PT）。
 
@@ -282,13 +282,13 @@ ht-degree: 42%
 
 #### ジャーニー
 
-* **ジャーニーでの複数のインバウンドアクション** - ジャーニーオーケストレーションを簡素化するために、1 つのジャーニーで複数のインバウンドアクションを定義できるようになりました。以前はキャンペーンで使用できましたが、この機能を使用すると、複数のコードベースのエクスペリエンス、アプリ内メッセージ、コンテンツカード、web アクションを異なる場所に同時に配信でき、各アクションに特定のコンテンツを含めることができます。
+* **ジャーニーでの複数のインバウンドアクション** - ジャーニーオーケストレーションを簡素化するために、1 つのジャーニーで複数の <strong> インバウンドアクション </strong> を定義できるようになりました。 以前はキャンペーンで使用できましたが、この機能を使用すると、特定のコンテンツを含んだ複数の <strong> コードベースのエクスペリエンス </strong>、<strong> アプリ内メッセージ </strong>、<strong> コンテンツカード </strong>、または <strong>web アクション </strong> を異なる場所に同時に配信できます。
 
-  **メモ**：この機能強化は、すべての環境で利用できるようになりました（一般提供）。
+  **メモ**：この機能強化は、すべての環境で利用できるようになりました（<strong> 一般提供 </strong>）。
 
   <a href="https://jira.corp.adobe.com/browse/DOCAC-13453">DOCAC JIRA タスクへのリンク </a>
 
-* **SMS Webhook** – すべての SMS プロバイダーで Webhook がサポートされるようになりました。 目的に応じて各 Webhook を設定できます。受信メッセージをキャプチャする受信 Webhook および配信の受信、ステータスの更新、その他のメッセージ関連イベントを受信するフィードバック Webhook。 [詳細情報](../sms/sms-webhook.md)
+* **SMS Webhook** - <strong>Webhook</strong> がすべての SMS プロバイダーでサポートされるようになりました。目的に応じて、各 Webhook を設定できます。<strong> インバウンド Webhook</strong> は受信メッセージをキャプチャし、<strong> フィードバック Webhook</strong> は配信の受信、ステータスの更新およびその他のメッセージ関連イベントを受信します。 [詳細情報](../sms/sms-webhook.md)
 
   公開日：2026 年 2 月 2 日（PT）。
 
@@ -299,7 +299,7 @@ ht-degree: 42%
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -477,7 +477,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-13747">Link to DOCAC JIRA task</a> | <a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
