@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: af40716070ab28001acb6f5c02f41a0ec3ad8258
+source-git-commit: 279fd366b14520daec1df7f843ed337348e145a5
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 95%
+source-wordcount: '841'
+ht-degree: 94%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 95%
 >title="プッシュメッセージの作成"
 >abstract="プッシュメッセージを追加し、パーソナライゼーションエディターを使用してパーソナライズを開始します。"
 
-モバイルデバイス（iOSおよびAndroid）用のプッシュ通知を作成できます。 このページでは、ジャーニーまたはキャンペーンでプッシュ通知を設定するプロセスについて説明します。
+モバイルデバイス（iOSおよびAndroid）と web ブラウザーのプッシュ通知を作成できます。 このページでは、ジャーニーまたはキャンペーンでプッシュ通知を設定するプロセスについて説明します。
 
 ## ジャーニーまたはキャンペーンでのプッシュ通知の作成 {#create}
 
@@ -66,13 +66,13 @@ ht-degree: 95%
 
 1. 「**[!UICONTROL プロパティ]**」セクションで、キャンペーンの「**[!UICONTROL タイトル]**」と「**[!UICONTROL 説明]**」を編集します。
 
-1. 「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックして、使用可能な Adobe Experience Platform オーディエンスのリストからターゲットオーディエンスを定義します。[詳細情報](../audience/about-audiences.md)。
+1. 「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックして、使用可能な Adobe Experience Platform オーディエンスのリストからターゲットオーディエンスを定義します。[詳細情報](../audience/about-audiences.md)
 
-1. 「**[!UICONTROL ID 名前空間]**」フィールドで、選択したオーディエンスから個人を識別するために使用する名前空間を選択します。[詳細情報](../event/about-creating.md#select-the-namespace)。
+1. 「**[!UICONTROL ID 名前空間]**」フィールドで、選択したオーディエンスから個人を識別するために使用する名前空間を選択します。[詳細情報](../event/about-creating.md#select-the-namespace)
 
 1. 「**[!UICONTROL アクション]**」セクションで、「**[!UICONTROL プッシュ通知]**」を選択し、新しい設定を選択または作成します。
 
-   モバイルのプッシュ設定について詳しくは、[&#x200B; このページ &#x200B;](push-configuration.md) を参照してください。
+   [ このページ ](push-configuration.md) のモバイルおよび [ このページ ](push-configuration-web.md) の web 用のプッシュ設定について詳しく説明します。
 
    ![](assets/push_create_3.png)
 
