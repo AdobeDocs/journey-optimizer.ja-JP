@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b53f9279a8698e99683cd6e75a7e746102e3e094
+source-git-commit: b53c28405e453be3767f05e2c7a7a1b2e69d0416
 workflow-type: tm+mt
-source-wordcount: '1534'
+source-wordcount: '1537'
 ht-degree: 29%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 29%
 
 詳しくは、[Adobe Experience Platform プレリリースノート](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}も参照してください。
 
-**リリース日**：2026年2月17日（PT）
+**リリース日**:2026 年 2 月 17～18 日
 
 ### 新機能 {#feb-26-01-features}
 
@@ -227,7 +227,7 @@ ht-degree: 29%
 
 #### 設定
 
-* **ジャーニー式でのエクスペリエンスイベントの使用** - 2026 年 4 月 1 日（PT）以降、ジャーニー式でのエクスペリエンスイベント属性の使用は、過去 90 日間にこの機能を使用していない組織ではサポートされなくなります。 この機能は、2025 年 7 月 8 日（PT）以降、新規のお客様は使用できなくなっています。 代替手段については、[&#x200B; ジャーニーでのエクスペリエンスイベントの参照 &#x200B;](../building-journeys/exp-event-lookup.md) を参照してください。
+* **ジャーニー式でのエクスペリエンスイベントの使用** - 2026 年 4 月 1 日（PT）以降、ジャーニー式でのエクスペリエンスイベント属性の使用は、過去 90 日間にこの機能を使用していない組織ではサポートされなくなります。 この機能は、2025 年 7 月 8 日（PT）以降、新規のお客様は使用できなくなっています。 代替手段については、[ ジャーニーでのエクスペリエンスイベントの参照 ](../building-journeys/exp-event-lookup.md) を参照してください。
 
 
 * **サブドメインデリゲーション方法の切り替え** - <strong> サブドメインデリゲーション </strong> 方法を別の方法に切り替えられるようになりました。 これにより、<strong>CNAME デリゲーション </strong> モードを使用してドメインを <strong> カスタムデリゲーション </strong> メソッドに移行して、会社のセキュリティポリシーに準拠することができます。
@@ -250,7 +250,7 @@ ht-degree: 29%
 
 #### エクスペリエンス決定
 
-* **Decisioning でのEdge データの使用に対するAdobe Experience Platform インバウンドサポート** - <strong>Experience Platform データルックアップの意思決定サポートに </strong>、&lbrace;edge インバウンド <strong> チャネルのユースケースが含まれ </strong> ようになりました。 この機能は引き続き限定提供です。基になるデータルックアップ機能の一般提供はまだ発表されていません（AEP/製品の依存関係）。
+* **Decisioning でのEdge データの使用に対するAdobe Experience Platform インバウンドサポート** - <strong>Experience Platform データルックアップの意思決定サポートに </strong>、{edge インバウンド <strong> チャネルのユースケースが含まれ </strong> ようになりました。 この機能は引き続き限定提供です。基になるデータルックアップ機能の一般提供はまだ発表されていません（AEP/製品の依存関係）。
 
   **注意**：この機能は一連の組織でのみ使用できます（<strong> 使用制限あり </strong>）。 アクセス権を取得するには、アドビ担当者にお問い合わせください。
 
