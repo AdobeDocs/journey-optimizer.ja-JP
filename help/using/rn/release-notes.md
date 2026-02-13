@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8c4c6212b16b411cd46450afb7e6a6515e972e13
+source-git-commit: e55cf2a7748567d79ba72c7eb8a512a4ed0e116d
 workflow-type: tm+mt
-source-wordcount: '1524'
+source-wordcount: '1457'
 ht-degree: 36%
 
 ---
@@ -89,21 +89,23 @@ ht-degree: 36%
 </tbody>
 </table>
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>モバイルライブアクティビティ</strong><br/></th>
+<th><strong>Mobile Live Activities</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p><strong> ライブアクティビティ </strong> は、モバイルアプリ内でリアルタイムの更新とインタラクティブなエクスペリエンスを提供し、ユーザーが進行中のイベントやタスクに関する情報をデバイスの画面に直接表示できるようにします。 この機能は、ユーザーがアプリを開かなくても、進行状況のトラッキング、イベントの更新、インタラクティブコンテンツなどのライブ情報を配信することで、エンゲージメントを強化します。</p>
-<p>以前ベータ版でリリースされていましたが、この機能を、すべての環境で利用できるようになりました（一般提供）。</p>
+<p><strong>Live Activities</strong> provide real-time updates and interactive experiences within mobile apps, allowing users to stay informed about ongoing events or tasks directly on their device's screen. This feature enhances engagement by delivering live information, such as progress tracking, event updates, or interactive content, without requiring users to open the app.</p>
+<p>Previously released in beta, this capability is now available to all environments (General Availability).</p>
 </td>
 </tr>
 </tbody>
 </table>
+-->
 
 <table>
 <thead>
@@ -227,7 +229,7 @@ ht-degree: 36%
 
 #### 設定
 
-* **ジャーニー式でのエクスペリエンスイベントの使用** - 2026 年 4 月 1 日（PT）以降、ジャーニー式でのエクスペリエンスイベント属性の使用は、過去 90 日間にこの機能を使用していない組織ではサポートされなくなります。 この機能は、2025 年 7 月 8 日（PT）以降、新規のお客様は使用できなくなっています。 代替手段については、[&#x200B; ジャーニーでのエクスペリエンスイベントの参照 &#x200B;](../building-journeys/exp-event-lookup.md) を参照してください。
+* **ジャーニー式でのエクスペリエンスイベントの使用** - 2026 年 4 月 1 日（PT）以降、ジャーニー式でのエクスペリエンスイベント属性の使用は、過去 90 日間にこの機能を使用していない組織ではサポートされなくなります。 この機能は、2025 年 7 月 8 日（PT）以降、新規のお客様は使用できなくなっています。 代替手段については、[ ジャーニーでのエクスペリエンスイベントの参照 ](../building-journeys/exp-event-lookup.md) を参照してください。
 
 
 * **サブドメインデリゲーション方法の切り替え** - サブドメインデリゲーション方法を別のサブドメインデリゲーション方法に切り替えられるようになりました。 これにより、CNAME 委任モードを使用してドメインをカスタムの委任方法に移行し、会社のセキュリティポリシーに従うことができます。

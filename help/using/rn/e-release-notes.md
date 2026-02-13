@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: b3f29a83912afe2f7f5810150837c8389fadcb73
+source-git-commit: e55cf2a7748567d79ba72c7eb8a512a4ed0e116d
 workflow-type: tm+mt
-source-wordcount: '1448'
-ht-degree: 25%
+source-wordcount: '39'
+ht-degree: 100%
 
 ---
 
@@ -18,31 +18,32 @@ ht-degree: 25%
 
 [!DNL Adobe Journey Optimizer] は、新機能、既存機能の強化、およびバグ修正を継続的に提供します。[リリースノート](release-notes.md)では、各月の終わりにすべての変更がまとめられます。
 
-## 2026 年 2 月プレリリースノート {#feb-26-01-rn}
+<!--
+## February '26 pre-release notes {#feb-26-01-rn}
 
-**以下のプレリリースノートの内容は、リリースの公開日まで予告なく変更される場合があります**。リンク、画面、更新済みのドキュメントは、リリース日にリリースノートに公開されます。
+**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-詳しくは、[Adobe Experience Platform プレリリースノート](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}も参照してください。
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
-**リリース日**：2026年2月17日（PT）
+**Release date**: February 17, 2026
 
-### 新機能 {#feb-26-01-features}
+### New capabilities {#feb-26-01-features}
 
 <table>
 <thead>
 <tr>
-<th><strong>送信メッセージのウェーブ送信</strong><br/></th>
+<th><strong>Wave sending of outbound messages</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p><strong> キャンペーン </strong> または <strong> ジャーニー </strong> からのアウトバウンドメッセージを、制御された <strong> バッチ </strong> で時間をかけて配信するようにスケジュールできます。</p>
-<p>Wave 送信には、次の利点があります。</p>
+<p>You can schedule outbound messages from <strong>campaigns</strong> or <strong>journeys</strong> to be delivered in controlled <strong>batches</strong> over time.</p>
+<p>Wave sending offers the following benefits:</p>
 <ul>
-<li><strong> 配信品質 </strong> の向上 – 送信を時間の経過と共に拡散して、強力な <strong> 送信者の評判 </strong> を維持し、スパムとしてフラグが立てられるリスクを軽減します。</li>
-<li><strong> 読み込み制御 </strong> – 一度に送信するメッセージの数を制限して、ダウンストリームのシステム（コールセンター、ランディングページなど）が多くなりすぎないようにします。</li>
-<li>大量で時間に敏感なユースケース – 大規模なオーディエンスや、タイミングを制御する必要がある場合（コールセンターの処理能力、ランプアップ、時間限定オファーなど）に適しています。</li>
+<li>Better <strong>deliverability</strong> – Spread sends over time to help maintain a strong <strong>sender reputation</strong> and reduce the risk of being flagged as spam.</li>
+<li><strong>Load control</strong> – Avoid overwhelming downstream systems (e.g. call centers, landing pages) by limiting how many messages go out at once.</li>
+<li>High-volume and time-sensitive use cases – Suited to large audiences or when you need to control timing (e.g. call center capacity, ramp-up, or time-bound offers).</li>
 </ul>
 </td>
 </tr>
@@ -52,14 +53,14 @@ ht-degree: 25%
 <table>
 <thead>
 <tr>
-<th><strong>ジャーニーの判別</strong><br/></th>
+<th><strong>Journey arbitration</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p><strong> 式 </strong> と <strong>AI モデル </strong> を使用して、顧客プロファイル属性とコンテキスト要因に基づいて <strong> ジャーニー優先度スコア </strong> を自動的にブーストし、顧客が最も関連性の高いジャーニーにエントリできるようになりました。</p>
-<p>この機能は、一連の組織でのみ使用できます（<strong> 限定提供 </strong>）。 アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
+<p>You can now use <strong>formulas</strong> and <strong>AI models</strong> to automatically boost <strong>journey priority scores</strong> based on customer profile attributes and contextual factors, ensuring customers enter the most relevant journeys.</p>
+<p>This capability is only available for a set of organizations (<strong>Limited Availability</strong>). To gain access, contact your Adobe representative.</p>
 </td>
 </tr>
 </tbody>
@@ -68,13 +69,13 @@ ht-degree: 25%
 <table>
 <thead>
 <tr>
-<th><strong>Journey Agent：チャネルコンテンツの作成</strong><br/></th>
+<th><strong>Journey Agent: Channel Content Create</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p><strong>Adobe Experience Platform Agent Orchestrator</strong> を活用した <strong>Journey Agent</strong> はJourney Optimizerで利用でき、<strong> 自然言語インターフェイス </strong> を通じてジャーニーを分析できます。 また、Journey Agentで直接チャネル固有のコンテンツを生成および管理したり、メールやプッシュなどのチャネルのコンテンツを作成したり、テンプレートを適用およびプレビューしたり、プロンプトを使用してトーンとスタイルを調整したり、<strong> コンテンツDesigner</strong> でコンテンツを開いてコンテキスト内編集を行ったりできるようになりました。</p>
+<p>Powered by <strong>Adobe Experience Platform Agent Orchestrator</strong>, <strong>Journey Agent</strong> is available in Journey Optimizer and enables you to analyze journeys through a <strong>natural language interface</strong>. You can now also generate and manage channel-specific content directly in Journey Agent, creating content for channels such as email and push, applying and previewing templates, refining tone and style through prompts, and opening content in <strong>Content Designer</strong> for in-context editing.</p>
 </td>
 </tr>
 </tbody>
@@ -83,14 +84,14 @@ ht-degree: 25%
 <table>
 <thead>
 <tr>
-<th><strong>モバイルライブアクティビティ</strong><br/></th>
+<th><strong>Mobile Live Activities</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p><strong> ライブアクティビティ </strong> モバイルアプリ内に <strong> リアルタイムの更新 </strong> とインタラクティブなエクスペリエンスを提供し、ユーザーが進行中のイベントやタスクに関する情報をデバイスの画面に直接表示できるようにします。 この機能は、ユーザーがアプリを開かなくても、進行状況のトラッキング、イベントの更新、インタラクティブコンテンツなどのライブ情報を配信することで、エンゲージメントを強化します。</p>
-<p>以前ベータ版でリリースされていましたが、この機能を、すべての環境で利用できるようになりました（<strong> 一般提供 </strong>）。</p>
+<p><strong>Live Activities</strong> provide <strong>real-time updates</strong> and interactive experiences within mobile apps, allowing users to stay informed about ongoing events or tasks directly on their device's screen. This feature enhances engagement by delivering live information, such as progress tracking, event updates, or interactive content, without requiring users to open the app.</p>
+<p>Previously released in beta, this capability is now available to all environments (<strong>General Availability</strong>).</p>
 </td>
 </tr>
 </tbody>
@@ -99,20 +100,20 @@ ht-degree: 25%
 <table>
 <thead>
 <tr>
-<th><strong>ジャーニーのアクションアクティビティ</strong><br/></th>
+<th><strong>Action activity in journeys</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizerでは、新しい汎用 <strong> アクションアクティビティ </strong> をサポートしています。これにより、単一のアクションと <strong> 複数アクションのインバウンドアクショングループ </strong> の両方を設定でき、<strong> ジャーニーキャンバス </strong> 内でアクションの設定を合理化できます。 特に、この新機能により、次のことが可能になります。</p>
+<p>Journey Optimizer supports a new generic <strong>Action activity</strong> that enables you to configure both single actions and <strong>multi-action inbound action groups</strong>, allowing for streamlined action configuration within the <strong>journey canvas</strong>. In particular, this new feature allows for:</p>
 <ul>
-<li>ジャーニーキャンバス内の簡素化されたネイティブアクション設定。</li>
-<li>複数アクションのインバウンドアクショングループを作成する処理能力。</li>
-<li>ビルトインのチャネルアクションに <strong> 最適化 </strong> を追加する機能。</li>
-<li>任意のアクションに <strong> 実験 </strong> オプションと <strong> 多言語 </strong> オプションの両方を追加する機能。</li>
+<li>A simplified native action configuration within the journey canvas.</li>
+<li>The capacity to create multi-action inbound action groups.</li>
+<li>The ability to add <strong>optimization</strong> to any built-in channel action.</li>
+<li>The ability to add both <strong>experimentation</strong> and <strong>multilingual</strong> options to any action.</li>
 </ul>
-<p>この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。</p>
+<p>Previously released in Limited Availability, this capability is now available to all environments (General Availability).</p>
 </td>
 </tr>
 </tbody>
@@ -121,15 +122,15 @@ ht-degree: 25%
 <table>
 <thead>
 <tr>
-<th><strong>Web プッシュ通知チャネル</strong><br/></th>
+<th><strong>Web Push notifications channel</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer は <strong>web プッシュ通知</strong>をサポートするようになり、プッシュチャネルがモバイル以外にも拡張されました。モバイルブラウザーとデスクトップブラウザーの両方に通知をシームレスに配信できるので、アプリを必要とせずにデバイス上で直接顧客にリーチできます。この機能強化により、既にモバイルプッシュで使用できるのと同じ <strong> オーサリングワークフロー </strong> ターゲティング機能 <strong> を活用して、パーソナライズされたメッセージをリアルタイムでタイムリーにユーザーに提供 </strong> きます。</p>
-<p>以前ベータ版でリリースされていましたが、この機能を、すべての環境で利用できるようになりました（<strong> 一般提供 </strong>）。</p>
-<p>公開日：2026年2月13日（PT）</p>
+<p>Adobe Journey Optimizer now supports <strong>Web Push notifications</strong>, expanding the push channel beyond mobile. You can seamlessly deliver notifications to both mobile and desktop browsers, enabling you to reach customers directly on their devices without requiring an app. This enhancement allows you to engage users with timely, personalized messages in real time, leveraging the same <strong>authoring workflows</strong> and <strong>targeting capabilities</strong> already available for mobile push.</p>
+<p>Previously released in beta, this capability is now available to all environments (<strong>General Availability</strong>).</p>
+<p>Availability date: February 13, 2026</p>
 </td>
 </tr>
 </tbody>
@@ -138,17 +139,17 @@ ht-degree: 25%
 <table>
 <thead>
 <tr>
-<th><strong>コンテンツ決定アクティビティ</strong><br/></th>
+<th><strong>Content decision activity</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p><strong> パーソナライズされたオファー </strong> をカスタマージャーニーに直接統合するために、<strong> ジャーニーキャンバス </strong> で新しい <strong> コンテンツ決定アクティビティ </strong> が使用できるようになりました。 このアクティビティを使用すると、決定ベースのコンテンツを配信し、ジャーニー全体でこれらのオファーを参照できます。実施要件ベースのブランチを作成する条件、外部システムにオファーデータを渡すカスタムアクション、完全にパーソナライズされたカスタマーエクスペリエンスを構築するその他のアクティビティなどです。</p>
-<p>以前は限定提供でリリースされていましたが、現在はすべての環境でこの機能を利用できます（<strong> 一般提供 </strong>）。</p>
+<p>A new <strong>Content decision activity</strong> is now available in the <strong>journey canvas</strong> for integrating <strong>personalized offers</strong> directly into your customer journeys. This activity enables you to deliver decision-based content and reference those offers throughout your journey—in conditions for creating eligibility-based branching, in custom actions for passing offer data to external systems, and in other activities for building fully personalized customer experiences.</p>
+<p>Previously released in Limited Availability, this capability is now available to all environments (<strong>General Availability</strong>).</p>
 <p><img src="assets/do-not-localize/content-decision.gif"/></p>
-<p>詳しくは、<a href="../building-journeys/content-decision.md">詳細なドキュメント</a>を参照してください。</p>
-<p>公開日：2026年2月11日（PT）</p>
+<p>For more information, refer to the <a href="../building-journeys/content-decision.md">detailed documentation</a>.</p>
+<p>Availability date: February 11, 2026</p>
 </td>
 </tr>
 </tbody>
@@ -157,21 +158,21 @@ ht-degree: 25%
 <table>
 <thead>
 <tr>
-<th><strong>セルフサービス移行ツール API</strong><br/></th>
+<th><strong>Self-service migration tooling APIs</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p><strong> 移行ツール API</strong> が、<strong> 意思決定管理 </strong> エンティティを <strong>Decisioning</strong> にプログラムで移行できるようになりました。その特徴は次のとおりです。</p>
+<p><strong>Migration tooling APIs</strong> are now available to programmatically migrate <strong>Decision management</strong> entities to <strong>Decisioning</strong>, featuring:</p>
 <ul>
-<li>柔軟な移行範囲（<strong> サンドボックス </strong>、<strong> オファー </strong>、または <strong> 決定 </strong> レベル）</li>
-<li>自動 <strong> 依存関係分析 </strong> および検証</li>
-<li>完了した移行の <strong> ロールバックサポート </strong></li>
-<li>オブジェクトマッピングを含む詳細な移行レポート</li>
+<li>Flexible migration scopes (<strong>sandbox</strong>, <strong>offer</strong>, or <strong>decision</strong> level)</li>
+<li>Automated <strong>dependency analysis</strong> and validation</li>
+<li><strong>Rollback support</strong> for completed migrations</li>
+<li>Detailed migration reports with object mappings</li>
 </ul>
-<p>詳しくは、<a href="../experience-decisioning/decisioning-migration-api.md">詳細なドキュメント</a>を参照してください。</p>
-<p>公開日：2026年2月3日（PT）</p>
+<p>For more information, refer to the <a href="../experience-decisioning/decisioning-migration-api.md">detailed documentation</a>.</p>
+<p>Availability date: February 3, 2026</p>
 </td>
 </tr>
 </tbody>
@@ -180,16 +181,16 @@ ht-degree: 25%
 <table>
 <thead>
 <tr>
-<th><strong>カスタムアクションの監視</strong><br/></th>
+<th><strong>Custom action monitoring</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>新しい <strong> モニタリングダッシュボード </strong> と強化された <strong> ジャーニーステップイベントデータ </strong> を使用して、<strong> カスタムアクションエンドポイント </strong> の正常性とパフォーマンスをより深くinsightできます。 成功した呼び出し、エラー、スループット、応答時間、キューの待機時間を追跡して、異常値が発生したタイミング、場所、理由をすばやく把握します。</p>
-<p>以前は限定提供でリリースされていましたが、現在はすべての環境でこの機能を利用できます（<strong> 一般提供 </strong>）。</p>
-<p>詳しくは、<a href="../action/reporting.md">詳細なドキュメント</a>を参照してください。</p>
-<p>公開日：2026年2月3日（PT）</p>
+<p>Gain deeper insight into the health and performance of your <strong>custom action endpoints</strong> with a new <strong>monitoring dashboard</strong> and enriched <strong>journey step event data</strong>. Track successful calls, errors, throughput, response times, and queue wait times to quickly understand when, where, and why anomalies occur.</p>
+<p>Previously released in Limited Availability, this capability is now available to all environments (<strong>General Availability</strong>).</p>
+<p>For more information, refer to the <a href="../action/reporting.md">detailed documentation</a>.</p>
+<p>Availability date: February 3, 2026</p>
 </td>
 </tr>
 </tbody>
@@ -198,85 +199,85 @@ ht-degree: 25%
 <table>
 <thead>
 <tr>
-<th><strong>SMS チャネルでの決定のサポート</strong><br/></th>
+<th><strong>Decisioning support in SMS channel</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p><strong>Decisioning</strong> を使用して、<strong>SMS メッセージ </strong> のコンテンツをパーソナライズおよび最適化できるようになりました。 <strong> 優先度スコア </strong>、<strong> 式 </strong> または <strong>AI モデル </strong> を使用して、顧客に最適なコンテンツを表示します。</p>
-<p>詳しくは、<a href="../experience-decisioning/create-decision.md">詳細なドキュメント</a>を参照してください。</p>
-<p>公開日：2026年2月2日（PT）</p>
+<p>You can now personalize and optimize the content of your <strong>SMS messages</strong> with <strong>Decisioning</strong>. Use <strong>Priority Scores</strong>, <strong>Formulas</strong>, or <strong>AI Models</strong> to display the best content to your customers.</p>
+<p>For more information, refer to the <a href="../experience-decisioning/create-decision.md">detailed documentation</a>.</p>
+<p>Availability date: February 2, 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-### 機能強化 {#feb-26-01-improv}
+### Improvements {#feb-26-01-improv}
 
-このリリースに含まれる機能強化を以下に示します。
+Improvements coming with this release are listed below.
 
-#### 設定
+#### Configuration
 
-* **ジャーニー式でのエクスペリエンスイベントの使用** - 2026 年 4 月 1 日（PT）以降、ジャーニー式でのエクスペリエンスイベント属性の使用は、過去 90 日間にこの機能を使用していない組織ではサポートされなくなります。 この機能は、2025 年 7 月 8 日（PT）以降、新規のお客様は使用できなくなっています。 代替手段については、[&#x200B; ジャーニーでのエクスペリエンスイベントの参照 &#x200B;](../building-journeys/exp-event-lookup.md) を参照してください。
-
-
-* **サブドメインデリゲーション方法の切り替え** - <strong> サブドメインデリゲーション </strong> 方法を別の方法に切り替えられるようになりました。 これにより、<strong>CNAME デリゲーション </strong> モードを使用してドメインを <strong> カスタムデリゲーション </strong> メソッドに移行して、会社のセキュリティポリシーに準拠することができます。
-
-  **注意**：この機能は一連の組織でのみ使用できます（<strong> 使用制限あり </strong>）。 アクセス権を取得するには、アドビ担当者にお問い合わせください。
+* **Experience event usage in journey expressions** - Starting April 1, 2026, the use of experience event attributes in journey expressions will no longer be supported for organizations that have not used this capability in the last 90 days. This capability has already been unavailable for new customer organizations since July 8, 2025. For alternatives, see [Experience event lookup in journeys](../building-journeys/exp-event-lookup.md).
 
 
-#### E メールデザイナー
+* **Subdomain delegation method switching** - You can now switch from one <strong>subdomain delegation</strong> method to another. This enables you to migrate domains using the <strong>CNAME delegation</strong> mode to the <strong>custom delegation</strong> method to adhere to your company's security policies.
 
-* **ブランドテーマを使用して画像をメールテンプレートに変換** - Journey Optimizerで画像をメールテンプレートに変換する際に、<strong> テーマ </strong> を入力として使用して、生成されたHTMLが <strong> ブランドパラメーターに従うようになりました </strong>。 背景色、ボタンの色、フォント、行間、余白、パディングなどのスタイル設定が自動的に適用されるので、手動によるデザイン作業が軽減され、最小限の編集作業で使いやすいテンプレートが配信されます。
+  **Note**: This capability is only available for a set of organizations (<strong>Limited Availability</strong>). To gain access, contact your Adobe representative.
 
 
-* **新しい「カラー」タブでブランドを更新** - <strong> ブランドガイドライン </strong> を使用すると、すべてのタッチポイントにわたってブランドを一貫して提示できます。 新しい<strong>「カラー」セクション</strong>では、ブランドのカラーシステムの標準を定義し、エクスペリエンスをまたいでカラーを選択、整理、適用する方法の概要を示します。これにより、プライマリカラー、セカンダリカラー、アクセントカラー、ニュートラルカラーの一貫性のある使用が確保され、まとまりのあるアクセス可能で認識可能なブランドアイデンティティがサポートされます。
+#### Email Designer
+
+* **Use a brand theme to convert an image to an email template** - When converting an image to an email template in Journey Optimizer, you can now use a <strong>theme</strong> as input so the generated HTML follows your <strong>brand parameters</strong>. Styling such as background color, button color, fonts, line spacing, margins, and padding is applied automatically, reducing manual design work and delivering a template that is ready to use with minimal edits.
+
+
+* **Update brands with new color tab** - <strong>Brand guidelines</strong> help ensure your brand is presented consistently across all touchpoints. The new <strong>Colors section</strong> defines the standards for your brand's color system, outlining how colors are selected, organized, and applied across experiences. It ensures consistent use of primary, secondary, accent, and neutral colors to support a cohesive, accessible, and recognizable brand identity.
 
 
 #### AI
 
-* **カスタムのFirefly モデルとサードパーティの画像生成モデルの統合** – 標準およびカスタムの <strong>Firefly モデル </strong> と、承認済みの <strong> サードパーティの画像モデル </strong> （NanoBanana など）をシームレスに統合し、画像を生成する際の柔軟性、制御、ブランドの整合性を向上させることができます。 これにより、一般的なニーズに対応する標準Firefly、ブランドに合わせたカスタム Firefly、専門的または実験的なシナリオに対応する承認済みのサードパーティモデルなど、ユースケースごとに最適なモデルを選択できます。
+* **Integration of custom Firefly models and third-party image generation models** - Enable seamless integration of standard and custom <strong>Firefly models</strong>, along with approved <strong>third-party image models</strong> (e.g., NanoBanana), to provide greater flexibility, control, and brand alignment when generating images. This allows you to select the best model for each use case: standard Firefly for general needs, custom Firefly for on-brand generation, or approved third-party models for specialized or experimental scenarios.
 
 
-#### エクスペリエンス決定
+#### Experience Decisioning
 
-* **Decisioning でのEdge データの使用に対するAdobe Experience Platform インバウンドサポート** - <strong>Experience Platform データルックアップの意思決定サポートに </strong>、&lbrace;edge インバウンド <strong> チャネルのユースケースが含まれ </strong> ようになりました。 この機能は引き続き限定提供です。基になるデータルックアップ機能の一般提供はまだ発表されていません（AEP/製品の依存関係）。
+* **Edge inbound support for using Adobe Experience Platform data in Decisioning** - Decisioning support of <strong>Experience Platform data lookup</strong> now includes <strong>edge inbound</strong> channel use cases. The capability remains in Limited Availability; General Availability of the underlying data lookup feature is not yet announced (AEP/product dependency).
 
-  **注意**：この機能は一連の組織でのみ使用できます（<strong> 使用制限あり </strong>）。 アクセス権を取得するには、アドビ担当者にお問い合わせください。
-
-
-* **コードベースのエクスペリエンスチャネルでのエクスペリエンス決定のプレビュー** - <strong> コードベースのエクスペリエンス </strong> チャネルを使用して <strong> エクスペリエンス決定 </strong> を設定する際に <strong> 決定項目 </strong> をプレビューできるようになりました。 プレビューは、運用開始前に、オーサリングインターフェイスで直接使用できます。
+  **Note**: This capability is only available for a set of organizations (<strong>Limited Availability</strong>). To gain access, contact your Adobe representative.
 
 
-* **オファーランキング AI モデルの可観測性** - Journey Optimizerでは、Decisioning で <strong>AI モデル </strong> の <strong> ヘルス </strong>、<strong> トレーニングステータス </strong> および <strong> パフォーマンス </strong> を監視できるようになりました。これにより、トレーニングの成功を検証し、失敗をトラブルシューティングして、結果に与える影響を理解できます。 この機能は、パーソナライズされた最適化モデルでのみ使用できます（自動最適化では使用できません）。
+* **Experience Decisioning preview in Code-based Experience channel** - You can now preview <strong>decision items</strong> when configuring <strong>Experience Decisioning</strong> with the <strong>Code-based Experience</strong> channel. Preview is available directly in the authoring interface before going live.
 
 
-* **決定項目にフラグメントを添付** - Journey Optimizerでは、<strong> 決定ポリシー </strong> を通じてコードベースのエクスペリエンスキャンペーンで利用できる <strong> フラグメント </strong> を <strong> 決定項目に添付する機能を提供 </strong> ました。
-
-  **注意**：以前リリースされた限定提供では、この機能はすべての環境で使用できるようになりました（一般提供）。
-
-  公開日：2026 年 2 月 12 日（PT）。
+* **Offer Ranking AI Model Observability** - Journey Optimizer now allows you to monitor the <strong>health</strong>, <strong>training status</strong>, and <strong>performance</strong> of your <strong>AI models</strong> in Decisioning—so you can verify training success, troubleshoot failures, and understand impact on your outcomes. This capability is available for personalized optimization models only (not auto-optimization).
 
 
-#### ジャーニー
+* **Attach fragments to decision items** - Journey Optimizer now provides the ability to attach <strong>fragments</strong> to <strong>decision items</strong> which can be leveraged in code-based experience campaigns through <strong>decision policies</strong>.
 
-* **ジャーニーでの複数のインバウンドアクション** - ジャーニーオーケストレーションを簡素化するために、1 つのジャーニーで複数の <strong> インバウンドアクション </strong> を定義できるようになりました。 以前はキャンペーンで使用できましたが、この機能を使用すると、特定のコンテンツを含んだ複数の <strong> コードベースのエクスペリエンス </strong>、<strong> アプリ内メッセージ </strong>、<strong> コンテンツカード </strong>、または <strong>web アクション </strong> を異なる場所に同時に配信できます。
+  **Note**: Previously released in Limited Availability, this capability is now available to all environments (General Availability).
 
-  **注意**：以前リリースされた限定提供では、この機能はすべての環境で使用できるようになりました（一般提供）。
-
-
-* **SMS Webhook** - <strong>Webhook</strong> がすべての SMS プロバイダーでサポートされるようになりました。目的に応じて、各 Webhook を設定できます。<strong> インバウンド Webhook</strong> は受信メッセージをキャプチャし、<strong> フィードバック Webhook</strong> は配信の受信、ステータスの更新およびその他のメッセージ関連イベントを受信します。 [詳細情報](../sms/sms-webhook.md)
-
-  公開日：2026 年 2 月 2 日（PT）。
+  Availability date: February 12, 2026.
 
 
+#### Journeys
+
+* **Multiple inbound actions in journeys** - To simplify your journey orchestration, you can now define several <strong>inbound actions</strong> in a single journey. Previously available in campaigns, this capability enables you to deliver multiple <strong>code-based experiences</strong>, <strong>in-app messages</strong>, <strong>content cards</strong>, or <strong>web actions</strong> to different locations at the same time, each action containing specific content.
+
+  **Note**: Previously released in Limited Availability, this capability is now available to all environments (General Availability).
+
+
+* **SMS Webhooks** - <strong>Webhooks</strong> are now supported across all SMS providers. You can configure each webhook based on its intended purpose: <strong>Inbound webhooks</strong> to capture incoming messages and <strong>Feedback webhooks</strong> to receive delivery receipts, status updates, and other message-related events. [Read more](../sms/sms-webhook.md)
+
+  Availability date: February 2, 2026.
+
+-->
 <!--
 ## January '26 pre-release notes {#jan-26-01-rn}
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -453,7 +454,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
