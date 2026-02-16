@@ -237,7 +237,7 @@ Enrich with product data → Build segments → Send personalized offers → All
 
 はい。ほとんどの組織では、次に示す 4 つの方法をすべて、異なるシナリオに対して使用しています。
 
-* 行動 **リアルタイムエンゲージメントのための**&#x200B;ジャーニー}
+* 行動 **リアルタイムエンゲージメントのための**&#x200B;ジャーニー&rbrace;
 * 予定ブロードキャスト通信用 **アクション・キャンペーン**
 * トランザクションメッセージ用の **API トリガーキャンペーン**
 * 複雑でデータ量の多いバッチキャンペーン用の **オーケストレートキャンペーン**
@@ -284,8 +284,8 @@ Enrich with product data → Build segments → Send personalized offers → All
 
 >[!MORELIKETHIS]
 >
->* [ジャーニータイプの比較 ](../building-journeys/journey.md#journey-types-comparison)
->* [ キャンペーンタイプの比較 ](../campaigns/get-started-with-campaigns.md#campaign-types)
+>* [ジャーニータイプの比較 &#x200B;](../building-journeys/journey.md#journey-types-comparison)
+>* [&#x200B; キャンペーンタイプの比較 &#x200B;](../campaigns/get-started-with-campaigns.md#campaign-types)
 >* [ジャーニーに関する FAQ](../building-journeys/journey-faq.md)
->* [ オーケストレートキャンペーンに関する FAQ](../orchestrated/orchestrated-campaigns-faq.md)
->* [ ベストプラクティス ](best-practices.md) - ガードレールを使用したリアルタイムのユースケースとスケーリング
+>* [&#x200B; オーケストレートキャンペーンに関する FAQ](../orchestrated/orchestrated-campaigns-faq.md)
+>* [&#x200B; ベストプラクティス &#x200B;](best-practices.md) - ガードレールを使用したリアルタイムのユースケースとスケーリング
