@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5349b0cf-da4e-458c-89be-c75a38e4721a
-source-git-commit: 9ceccdf1daca1745cc0610a97660b92524f732d2
+source-git-commit: 7523ee45581c9b84cd006d563d3cc04dc4214f3f
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 92%
@@ -47,7 +47,7 @@ ht-degree: 92%
 
 >[!NOTE]
 >
->サンドボックスに複数の接続が存在する場合は、[&#x200B; データビュー &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=ja){target="_blank"} が [connection](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=ja){target="_blank"} フラグの付いた **[!UICONTROL CJAで使用]** を参照していることを確認します。 そうしないと、「CJAで分析 [**ボタン** が &#x200B;](report-cja-manage.md#analyze) で無効にな [!DNL Journey Optimizer] 可能性があります。
+>サンドボックスに複数の接続が存在する場合は、[ データビュー ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=ja){target="_blank"} が [connection](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/manage-connections){target="_blank"} フラグの付いた **[!UICONTROL CJAで使用]** を参照していることを確認します。 そうしないと、「CJAで分析 [**ボタン** が ](report-cja-manage.md#analyze) で無効にな [!DNL Journey Optimizer] 可能性があります。
 
 [!DNL Journey Optimizer] と [!DNL Customer Journey Analytics] を使用する場合、次の原因により、レポートデータに何らかの相違が生じる可能性があります。
 
