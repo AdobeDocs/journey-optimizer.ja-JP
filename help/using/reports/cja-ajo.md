@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 5349b0cf-da4e-458c-89be-c75a38e4721a
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 9ceccdf1daca1745cc0610a97660b92524f732d2
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 100%
+source-wordcount: '412'
+ht-degree: 92%
 
 ---
 
@@ -34,16 +34,20 @@ ht-degree: 100%
 
 ジャーニーで [!DNL Customer Journey Analytics] を使用する前に、まずこの統合を設定する必要があります。
 
-1. Adobe Experience Platform に送信する&#x200B;**[!UICONTROL データセット]**&#x200B;を使用して、[!DNL Customer Journey Analytics] で[接続を作成](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=ja)します。
+1. Adobe Experience Platform に送信する&#x200B;**[!UICONTROL データセット]**&#x200B;を使用して、[!DNL Customer Journey Analytics] で[接続を作成](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=ja){target="_blank"}します。
 
    次の [!DNL Journey Optimizer] を設定できます。
    * [ジャーニーステップイベント](../data/datasets-query-examples.md#journey-step-event)：誰がジャーニーにエントリし、どのくらい進んだかを確認できます。
    * [メッセージフィードバック／トラッキングデータセット](../data/datasets-query-examples.md#message-feedback-event-dataset)：[!DNL Journey Optimizer] を介して送信したメッセージに関する配信情報を表示できます。
    * [エンティティデータセットおよびジャーニーデータセット](../data/datasets-query-examples.md#entity-dataset)：わかりやすい名前を検索し、レポートで使用できます。
 
-1. [データビューを作成](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=ja)して、レポートに使用するディメンションおよび指標を設定します。
+1. [データビューを作成](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=ja){target="_blank"}して、レポートに使用するディメンションおよび指標を設定します。
 
-   Journey Optimizer 固有の指標を作成して、ジャーニーのデータをよりよく反映できます。[詳細情報](https://experienceleague.adobe.com/docs/analytics-platform/using/integrations/ajo.html?lang=ja#configure-the-data-view-to-accommodate-journey-optimizer-dimensions-and-metrics)
+   Journey Optimizer 固有の指標を作成して、ジャーニーのデータをよりよく反映できます。[詳細情報](https://experienceleague.adobe.com/docs/analytics-platform/using/integrations/ajo.html?lang=ja#configure-the-data-view-to-accommodate-journey-optimizer-dimensions-and-metrics){target="_blank"}
+
+>[!NOTE]
+>
+>サンドボックスに複数の接続が存在する場合は、[ データビュー ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=ja){target="_blank"} が [connection](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-connections/create-connection.html?lang=ja){target="_blank"} フラグの付いた **[!UICONTROL CJAで使用]** を参照していることを確認します。 そうしないと、「CJAで分析 [**ボタン** が ](report-cja-manage.md#analyze) で無効にな [!DNL Journey Optimizer] 可能性があります。
 
 [!DNL Journey Optimizer] と [!DNL Customer Journey Analytics] を使用する場合、次の原因により、レポートデータに何らかの相違が生じる可能性があります。
 
