@@ -9,10 +9,10 @@ level: Intermediate
 keywords: 公開, ジャーニー, ライブ, 有効性, 確認
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: bacae861439e5869890cf3fc3f0a5c17559530b6
 workflow-type: tm+mt
-source-wordcount: '1115'
-ht-degree: 90%
+source-wordcount: '1143'
+ht-degree: 86%
 
 ---
 
@@ -124,12 +124,12 @@ ht-degree: 90%
 
 ## ガードレールと制限 {#journey-dry-run-limitations}
 
-* ドライランモードのプロファイルは、[&#x200B; エンゲージメント可能なプロファイル &#x200B;](../audience/license-usage.md) にカウントされます
+* ドライランモードのプロファイルは、[ エンゲージメント可能なプロファイル ](../audience/license-usage.md) にカウントされます
 * ドライランモードのジャーニーは、ライブジャーニーの割り当て量にカウントされます
 * ドライランのジャーニーは、ビジネスルールには影響しません
   <!--* When creating a new journey version, if a previous journey version is **Live**, then the Dry run activation is not allowed on the new version.-->
-* **ジャンプ**&#x200B;アクションは、ドライランでは有効になりません。
-ソースジャーニーが宛先ジャーニーへの&#x200B;**ジャンプ**&#x200B;イベントをトリガーした際、そのジャンプイベントはドライランのジャーニーバージョンには適用されません。例えば、ジャーニーの最新バージョンがドライランで、以前のバージョンが&#x200B;**ライブ**&#x200B;である場合、ジャンプイベントはドライランバージョンを無視し、**ライブ**&#x200B;バージョンにのみ適用されます。
+* **ジャンプ**アクションは、ドライランでは有効になりません。
+ソースジャーニーが宛先ジャーニーへの**ジャンプ**&#x200B;イベントをトリガーした際、そのジャンプイベントはドライランのジャーニーバージョンには適用されません。例えば、ジャーニーの最新バージョンがドライランで、以前のバージョンが&#x200B;**ライブ**&#x200B;である場合、ジャンプイベントはドライランバージョンを無視し、**ライブ**&#x200B;バージョンにのみ適用されます。
 
 ## ジャーニーのステップイベントとドライラン {#journey-step-events}
 
@@ -137,16 +137,16 @@ ht-degree: 90%
 
 ![ジャーニーのドライランのスキーマ属性](assets/dry-run-attributes.png)
 
-* `_experience.journeyOrchestration.stepEvents.inDryRun` は、ドライランがアクティブ化されている場合は `true` を返し、それ以外の場合は `false` を返します
-* `_experience.journeyOrchestration.stepEvents.dryRunID` は、ドライランインスタンスの ID を返します
+* `_experience.journeyOrchestration.stepEvents.inDryRun` は、ジャーニーがドライランモードの場合は `true` を返し、テストジャーニーまたはライブジャーニー（ドライラン以外）の場合は `null` を返します。
+* `_experience.journeyOrchestration.stepEvents.dryRunID` は、ドライランモードの場合、ドライランインスタンスの ID を返します。テストジャーニーまたはライブジャーニーの場合は、`null` です。
 
 
 stepEvent データを&#x200B;**外部システム**&#x200B;に書き出す場合は、`inDryRun` フラグを使用してドライラン実行をフィルタリングできます。
 
-クエリサービスを使用して **ジャーニーレポート指標** を分析 [!DNL Adobe Experience Platform] る場合は、ドライランで生成されたステップイベントを除外する必要があります。 これを実行するには、`inDryRun` フラグを `false` に設定します。
+クエリサービスを使用して **ジャーニーレポート指標** を分析 [!DNL Adobe Experience Platform] る場合は、ドライランで生成されたステップイベントを除外する必要があります。 これを行うには、`inDryRun` が `true` のステップイベントを除外します（例：`inDryRun` が `null` または `false` のイベントのみを含める）。
 
 ## チュートリアルビデオ {#dry-run-video}
 
 ジャーニーのドライラン方法について詳しくは、このビデオを参照してください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464683/?captions=jpn&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)
