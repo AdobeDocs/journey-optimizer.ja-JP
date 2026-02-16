@@ -237,7 +237,7 @@ Enrich with product data → Build segments → Send personalized offers → All
 
 はい。多くの組織では、シナリオごとに次の 4 つの方法をすべて使用しています。
 
-* 行動 **リアルタイムエンゲージメントのための**&#x200B;ジャーニー}
+* 行動 **リアルタイムエンゲージメントのための**&#x200B;ジャーニー&rbrace;
 * 予定ブロードキャスト通信用 **アクション・キャンペーン**
 * トランザクションメッセージ用の **API トリガーキャンペーン**
 * 複雑でデータ量の多いバッチキャンペーン用の **オーケストレートキャンペーン**
@@ -284,7 +284,7 @@ Enrich with product data → Build segments → Send personalized offers → All
 
 >[!MORELIKETHIS]
 >
->* [ジャーニータイプの比較 ](../building-journeys/journey.md#journey-types-comparison)
->* [ キャンペーンタイプの比較 ](../campaigns/get-started-with-campaigns.md#campaign-types)
+>* [ジャーニータイプの比較 &#x200B;](../building-journeys/journey.md#journey-types-comparison)
+>* [&#x200B; キャンペーンタイプの比較 &#x200B;](../campaigns/get-started-with-campaigns.md#campaign-types)
 >* [ジャーニーに関する FAQ](../building-journeys/journey-faq.md)
->* [ オーケストレートキャンペーンに関する FAQ](../orchestrated/orchestrated-campaigns-faq.md)
+>* [&#x200B; オーケストレートキャンペーンに関する FAQ](../orchestrated/orchestrated-campaigns-faq.md)
