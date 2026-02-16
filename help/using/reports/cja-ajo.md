@@ -47,7 +47,7 @@ ht-degree: 92%
 
 >[!NOTE]
 >
->サンドボックスに複数の接続が存在する場合は、[ データビュー ](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=ja){target="_blank"} が [connection](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/manage-connections){target="_blank"} フラグの付いた **[!UICONTROL CJAで使用]** を参照していることを確認します。 そうしないと、「CJAで分析 [**ボタン** が ](report-cja-manage.md#analyze) で無効にな [!DNL Journey Optimizer] 可能性があります。
+>サンドボックスに複数の接続が存在する場合は、[&#x200B; データビュー &#x200B;](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=ja){target="_blank"} が [connection](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/manage-connections){target="_blank"} フラグの付いた **[!UICONTROL CJAで使用]** を参照していることを確認します。 そうしないと、「CJAで分析 [**ボタン** が &#x200B;](report-cja-manage.md#analyze) で無効にな [!DNL Journey Optimizer] 可能性があります。
 
 [!DNL Journey Optimizer] と [!DNL Customer Journey Analytics] を使用する場合、次の原因により、レポートデータに何らかの相違が生じる可能性があります。
 
