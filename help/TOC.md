@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
+source-git-commit: 472bf46d7daf92860fcf208df3bf24ab3a0a029a
 workflow-type: tm+mt
-source-wordcount: '3086'
+source-wordcount: '3087'
 ht-degree: 98%
 
 ---
@@ -22,6 +22,7 @@ ht-degree: 98%
    + [最新のリリースノート](using/rn/release-notes.md)
    + 以前のリリースノート {#previous-rn-new}
       + [以前のリリースノート](/help/rp_landing_pages/previous-rn-new-landing-page.md)
+      + [2026](using/rn/release-notes-2026.md)
       + [2025](using/rn/release-notes-2025.md)
       + [2024年](using/rn/release-notes-2024.md)
       + [2023年](using/rn/release-notes-2023.md)
@@ -943,7 +944,7 @@ ht-degree: 98%
    + [プライバシー](/help/rp_landing_pages/privacy-landing-page.md)
    + [プライバシーの基本を学ぶ](using/privacy/get-started-privacy.md)
    + [プライバシーリクエスト](using/privacy/requests.md)
-   + [&#x200B; リソースに対する監査アクション](using/privacy/audit-logs.md)
+   + [ リソースに対する監査アクション](using/privacy/audit-logs.md)
    + [データライフサイクル操作の実行](using/privacy/data-hygiene.md)
    + 同意を管理 {#consent}
       + [同意を管理](/help/rp_landing_pages/consent-landing-page.md)
