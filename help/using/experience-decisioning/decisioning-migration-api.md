@@ -6,9 +6,9 @@ topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 3ec084ca-af9e-4b5e-b66f-ec390328a9d6
-source-git-commit: 7b1b79e9263aa2512cf69cb130f322a1558eecff
+source-git-commit: aca4e62faa7aa09a60eef661c0732a8b0b1fa36e
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: '1105'
 ht-degree: 5%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 5%
 
 Decisioning Migration Service API を使用すると、意思決定管理オブジェクトをサンドボックス間で移行できます。 移行プロセスは、依存関係の分析、実行、オプションのロールバック機能を含む非同期ワークフローとして実行されます。
 
-この API を使用すると、データの整合性と関係を維持しながら、環境間（開発からステージング、ステージングから実稼動へ）で意思決定コンテンツをシームレスに移行できます。
+この API を使用すると、データの整合性と関係を維持しながら <!--(e.g., from development to staging, or staging to production) --> 環境間で意思決定コンテンツをシームレスに移行できます。
 
-意思決定管理と比較した意思決定のメリットと機能については、[&#x200B; このページ &#x200B;](migrate-to-decisioning.md) を参照してください。
+意思決定管理と比較した意思決定のメリットと機能については、[ このページ ](migrate-to-decisioning.md) を参照してください。
 
 ## 機能 {#capabilities}
 
@@ -51,7 +51,7 @@ Decisioning 移行サービス API は、次の機能を提供します。
 
 >[!NOTE]
 >
->意思決定権限の割り当て方法については、[&#x200B; この節 &#x200B;](gs-experience-decisioning.md#steps) を参照してください。 権限の完全なリストについては、[&#x200B; 組み込みの権限 &#x200B;](../administration/ootb-permissions.md#ootb-permissions) ページを参照してください。
+>意思決定権限の割り当て方法については、[ この節 ](gs-experience-decisioning.md#steps) を参照してください。 権限の完全なリストについては、[ 組み込みの権限 ](../administration/ootb-permissions.md#ootb-permissions) ページを参照してください。
 
 ### ターゲットサンドボックスの準備 {#target-sandbox-preparation}
 
@@ -62,16 +62,16 @@ Decisioning 移行サービス API は、次の機能を提供します。
 * **データセット** – 移行に使用するデータセット名を特定します（`dependency.datasetName`）。
 * **データストリーム** – 移行でデータストリームを作成するかどうかを決定します（`createDataStream`）。
 
-サンドボックス管理について詳しくは、[&#x200B; サンドボックスの使用と割り当て &#x200B;](../administration/sandboxes.md) を参照してください。
+サンドボックス管理について詳しくは、[ サンドボックスの使用と割り当て ](../administration/sandboxes.md) を参照してください。
 
 ## API の基本 {#api-basics}
 
-### ベース URL {#base-urls}
+### ベース URL {#base-url}
 
-環境に応じて次のベース URL を使用します。
+次のベース URL を使用：
 
 * **実稼動**: `https://decisioning-migration.adobe.io`
-* **ステージング**: `https://decisioning-migration-stage.adobe.io`
+  <!--* **Staging**: `https://decisioning-migration-stage.adobe.io`-->
 
 ### 認証 {#authentication}
 
@@ -81,7 +81,7 @@ Decisioning 移行サービス API は、次の機能を提供します。
 * `x-gw-ims-org-id: <IMS_ORG_ID>`
 * `Content-Type: application/json`
 
-認証の設定について詳しくは、[Journey Optimizer認証ガイド &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} を参照してください。
+認証の設定について詳しくは、[Journey Optimizer認証ガイド ](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} を参照してください。
 
 ### ワークフローモデル {#workflow-model}
 
@@ -93,8 +93,8 @@ Decisioning 移行サービス API は、次の機能を提供します。
 * `status` – 現在のワークフローステータス：`New`、`Running`、`Completed` または `Failed`
 * `result` – 完了時のワークフロー出力（移行結果および警告を含む）
 * `errors` – 失敗したときの構造化エラーの詳細
-* `_etag` – 削除操作に使用されるバージョン識別子（サービスユーザーのみ）
 * `_links.self` - ステータスを取得するためのワークフロー URL
+  <!--* `_etag` - Version identifier used for delete operations (service users only)-->
 
 ## 移行ワークフロー {#migration-workflow}
 
@@ -354,21 +354,19 @@ curl --request GET \
 
 ## ワークフロークリーンアップ {#cleanup}
 
-ワークフローリソースは、サービスユーザーのみが削除できます。 削除操作には、ワークフローの `If-Match` 値を持つ `_etag` ヘッダーが必要です。
+<!--Workflow resources can be deleted by service users only. Delete operations require an `If-Match` header with the workflow's `_etag` value.
 
-**使用可能な削除操作：**
+**Available delete operations:**
 
 * `DELETE /workflows/generate-dependencies/{id}`
 * `DELETE /workflows/migration/{id}`
-* `DELETE /workflows/rollback/{id}`
+* `DELETE /workflows/rollback/{id}`-->
 
->[!NOTE]
->
->ワークフローの削除は、適切な権限を持つサービスアカウントでのみ使用できます。 ワークフローリソースを削除する必要がある場合は、システム管理者に問い合わせてください。
+ワークフローの削除は公開されていません。 ワークフローリソースを削除する必要がある場合は、システム管理者に問い合わせてください。
 
 ## 関連トピック {#related-topics}
 
-* [&#x200B; 意思決定管理から意思決定への移行 &#x200B;](migrate-to-decisioning.md) - Decisioning に移行するメリットと機能を説明します
+* [ 意思決定管理から意思決定への移行 ](migrate-to-decisioning.md) - Decisioning に移行するメリットと機能を説明します
 * [決定の基本を学ぶ](gs-experience-decisioning.md)
 * [決定ガードレールと制限](decisioning-guardrails.md)
 * [Decisioning API の基本を学ぶ](api-reference/getting-started.md)
