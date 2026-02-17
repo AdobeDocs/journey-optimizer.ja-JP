@@ -9,8 +9,8 @@ role: User
 level: Beginner, Intermediate
 keywords: メール, デザイン, Stock, アセット
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
-workflow-type: ht
+source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
+workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 100%
 
@@ -52,7 +52,7 @@ E メールデザイナーにアクセスしてメールコンテンツのデザ
 
    * ファイルまたは .zip フォルダーから&#x200B;**既存の HTML コンテンツを読み込み**&#x200B;ます。メールコンテンツの読み込み方法については、[この節](existing-content.md)を参照してください。
 
-   * AI を活用した画像から HTML へのコンバーターを使用して、**画像デザインを HTML テンプレートに変換します**。静的画像を編集可能なメールテンプレートに変換する方法について詳しくは、[この節](image-to-html.md)を参照してください。
+   * AI を活用した画像から HTML へのコンバーターを使用して、**画像デザインを HTML テンプレートに変換します**。静的画像を編集可能なメールテンプレートに変換する方法について詳しくは、[この節](../content-management/image-to-html.md)を参照してください。
 
    * ビルトインまたはカスタムテンプレートのリストから&#x200B;**既存のコンテンツを選択します**。メールテンプレートの操作方法については、[この節](../email/use-email-templates.md)を参照してください。
 
@@ -84,8 +84,8 @@ E メールデザイナーにアクセスしてメールコンテンツのデザ
 
 メッセージエディターでメールコンテンツを作成する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416418?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334150?quality=12)
 
 A/B テストを行うようにコンテンツ実験を設定し、ビジネス目標を最大限に推進するメールコンテンツを探索する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3447332?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3419893)

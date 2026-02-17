@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 279fd366b14520daec1df7f843ed337348e145a5
+source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
 workflow-type: tm+mt
 source-wordcount: '3086'
 ht-degree: 98%
@@ -273,7 +273,6 @@ ht-degree: 98%
             + [コンテンツの読み込み](using/email/existing-content.md)
             + [コンテンツを独自にコーディング](using/email/code-content.md)
             + [メールテンプレートを使用](using/email/use-email-templates.md)
-            + [HTML テンプレートへの画像の変換](using/email/image-to-html.md)
             + [メールテーマの活用](using/email/apply-email-themes.md)
             + [メールへの PDF ファイルの添付](using/email/pdf-attachments.md)
          + コンテンツのデザイン {#add-content}
@@ -457,6 +456,7 @@ ht-degree: 98%
       + [コンテンツテンプレートの基本を学ぶ](using/content-management/content-templates.md)
       + [テンプレートへのアクセスと管理](using/content-management/access-content-templates.md)
       + [コンテンツテンプレートの作成](using/content-management/create-content-templates.md)
+      + [HTML テンプレートへの画像の変換](using/content-management/image-to-html.md)
       + [メールテンプレートのコンテンツのロック](using/content-management/content-locking.md)
       + [コンテンツテンプレートのテスト](using/content-management/test-content-templates.md)
       + [コンテンツテンプレートの使用](using/content-management/use-content-templates.md)
@@ -943,7 +943,7 @@ ht-degree: 98%
    + [プライバシー](/help/rp_landing_pages/privacy-landing-page.md)
    + [プライバシーの基本を学ぶ](using/privacy/get-started-privacy.md)
    + [プライバシーリクエスト](using/privacy/requests.md)
-   + [&#x200B; リソースに対する監査アクション](using/privacy/audit-logs.md)
+   + [ リソースに対する監査アクション](using/privacy/audit-logs.md)
    + [データライフサイクル操作の実行](using/privacy/data-hygiene.md)
    + 同意を管理 {#consent}
       + [同意を管理](/help/rp_landing_pages/consent-landing-page.md)

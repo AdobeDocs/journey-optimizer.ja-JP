@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: b53c28405e453be3767f05e2c7a7a1b2e69d0416
+source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
 workflow-type: tm+mt
 source-wordcount: '9009'
 ht-degree: 100%
@@ -35,7 +35,7 @@ ht-degree: 100%
 <p>画像から HTML へのコンバーターは、静的な画像デザインを完全にカスタマイズ可能なモジュール式の HTML メールコンテンツテンプレートに変換する AI を活用した機能です。このコードなしのツールを使用すると、マーケターは技術的な専門知識を必要とせずに、ビジュアルデザインをレスポンシブで編集可能なメールテンプレートに変換できます。プラットフォームの移行、迅速なテンプレート作成、再利用可能なテンプレートライブラリの作成に最適です。</p>
 <p><img src="../email/assets/email_designer_converted_img.png"/></p>
 <p>この機能は、限定提供で使用できます。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
-<p>詳しくは、<a href="../email/image-to-html.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../content-management/image-to-html.md">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2025年10月30日（PT）</p>
 </td>
 </tr>
