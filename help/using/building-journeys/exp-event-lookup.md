@@ -5,10 +5,10 @@ title: ジャーニーのエクスペリエンスイベント参照
 description: ジャーニーのエクスペリエンスイベント参照の使用方法について説明します
 exl-id: 35e2e347-0669-44a3-92ba-aee52e54c219
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 18067694878761f3b37277dfee6f7e43987a1d42
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 87%
+source-wordcount: '960'
+ht-degree: 76%
 
 ---
 
@@ -16,7 +16,9 @@ ht-degree: 87%
 
 >[!CAUTION]
 >
->2025年7月8日（PT）以降、新しい顧客組織では、ジャーニー条件で使用される式エディターで、エクスペリエンスイベントを使用した式の作成はサポートされなくなります。その結果、[Experience Platform データソース](../datasource/adobe-experience-platform-data-source.md)のエクスペリエンスイベントは式の作成に使用できません。エクスペリエンスイベントを使用して式／ロジックを作成する別のアプローチとベストプラクティスについて詳しくは、以下を参照してください。
+>2025年7月8日（PT）以降、新しい顧客組織では、ジャーニー条件で使用される式エディターで、エクスペリエンスイベントを使用した式の作成はサポートされなくなります。その結果、[Experience Platform データソース ](../datasource/adobe-experience-platform-data-source.md) のエクスペリエンスイベントは式の作成に使用できません。
+>
+>2026 年 4 月 1 日（PT）以降、過去 90 日間にこの機能を使用していない組織では、ジャーニー式でのエクスペリエンスイベント属性の使用がサポートされなくなります。 エクスペリエンスイベントを使用して式／ロジックを作成する別のアプローチとベストプラクティスについて詳しくは、以下を参照してください。
 >
 >さらに詳細が必要ですか？[詳しくは、FAQ を参照してください](#faq-ee)。
 
@@ -52,9 +54,9 @@ ht-degree: 87%
 
 詳細情報：
 
-* [!DNL Adobe Experience Platform][&#x200B; セグメントビルダー – イベント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* [!DNL Adobe Experience Platform][ セグメントビルダー – イベント ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* [!DNL Adobe Experience Platform][&#x200B; セグメントビルダー – 時間制約 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* [!DNL Adobe Experience Platform][ セグメントビルダー – 時間制約 ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [条件でのオーディエンスの使用](../building-journeys/condition-activity.md#using-a-segment)
 
@@ -71,9 +73,9 @@ ht-degree: 87%
 
 オーディエンスの使用の詳細情報：
 
-* [!DNL Adobe Experience Platform][&#x200B; セグメントビルダー – イベント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* [!DNL Adobe Experience Platform][ セグメントビルダー – イベント ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* [!DNL Adobe Experience Platform][&#x200B; セグメントビルダー – 時間制約 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* [!DNL Adobe Experience Platform][ セグメントビルダー – 時間制約 ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [条件でのオーディエンスの使用](../building-journeys/condition-activity.md#using-a-segment)
 
@@ -93,9 +95,9 @@ ht-degree: 87%
 
 詳細情報：
 
-* [!DNL Adobe Experience Platform][&#x200B; セグメントビルダー – イベント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* [!DNL Adobe Experience Platform][ セグメントビルダー – イベント ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* [!DNL Adobe Experience Platform][&#x200B; セグメントビルダー – 時間制約 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* [!DNL Adobe Experience Platform][ セグメントビルダー – 時間制約 ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
 * [条件でのオーディエンスの使用](../building-journeys/condition-activity.md#using-a-segment)
 
@@ -106,7 +108,7 @@ ht-degree: 87%
 最新の買い物かごに基づいて通信をパーソナライズしたり、複数の買い物かごタイプや製品ビューをまたいでイベントを参照するには：
 
 * [[!DNL Adobe Experience Platform] Data Distiller](https://experienceleague.adobe.com/ja/docs/experience-platform/query/data-distiller/overview){target="_blank"} にアクセスできる場合は、自動クエリを設定してイベントから必要なデータを抽出し、ユースケースに合わせて操作し、プロファイル対応データセットに書き戻してアクティブ化します。
-* スカラー属性を使用してプロファイルで放棄データをモデル化できる場合は、計算属性を使用して最新情報を取得し、ジャーニーでこれらの属性を参照して通信を構築することを考慮します。[&#x200B; 詳しくは、ドキュメント  [!DNL Adobe Experience Platform]  参照してください &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
+* スカラー属性を使用してプロファイルで放棄データをモデル化できる場合は、計算属性を使用して最新情報を取得し、ジャーニーでこれらの属性を参照して通信を構築することを考慮します。[ 詳しくは、ドキュメント  [!DNL Adobe Experience Platform]  参照してください ](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
 
 
 ## 行動ベースのジャーニー終了
@@ -123,15 +125,15 @@ ht-degree: 87%
 
 詳細情報：
 
-* [!DNL Adobe Experience Platform][&#x200B; 計算済み属性の概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
+* [!DNL Adobe Experience Platform][ 計算済み属性の概要 ](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}
 
 
 
 ## よくある質問 {#faq-ee}
 
-ジャーニーでのエクスペリエンスイベント参照に関するよくある質問を以下に示します。
+この FAQ では、ジャーニー式でのエクスペリエンスイベントの使用状況を廃止し、影響を受けるユーザーを決定するタイムラインに焦点を当てています。 代替アプローチのガイダンスについては、上記のユースケースとベストプラクティスを参照してください。
 
-さらに詳細が必要ですか？このページの下部にあるフィードバックオプションを使用して、質問を提起したり、[[!DNL Adobe Journey Optimizer]  コミュニティ &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"} とつながったりします。
+さらに詳細が必要ですか？このページの下部にあるフィードバックオプションを使用して質問を提起したり、[[!DNL Adobe Journey Optimizer]  コミュニティ ](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"} とつながったりします。
 
 +++影響を受ける特定の機能は何ですか？ 
 
@@ -153,9 +155,9 @@ ht-degree: 87%
 
 +++
 
-+++このアップデートにより、既存のアドビ組織は影響を受けますか？ 
++++このアップデートにより、既存のアドビ組織は影響を受けますか？
 
-アドビ組織が影響を受けるのは、エクスペリエンスイベント参照をまだ使用していない場合のみです。[Experience Platform データソース](../datasource/adobe-experience-platform-data-source.md)で既にエクスペリエンスイベントを使用している場合、アドビ組織では引き続きエクスペリエンスイベント参照をサポートします。
+2025 年 7 月 8 日（PT）以降、新規顧客組織はエクスペリエンスイベント属性を使用して式を作成できなくなります。 2026 年 4 月 1 日（PT）以降、過去 90 日間にジャーニー式を使用してエクスペリエンスイベントにアクセスしていない組織は、この機能にアクセスできなくなります。
 
 +++
 

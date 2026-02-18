@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
 version: Journey Orchestration
-source-git-commit: 648c2d9d41e169b7aa64b659ee1234744805c7a8
+source-git-commit: 6c85cfa27002de17f6625447fa0b7eaaceb9f829
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '936'
 ht-degree: 100%
 
 ---
@@ -92,11 +92,7 @@ ht-degree: 100%
    * **[!UICONTROL 決定項目]** - ルールは、決定のコンテキスト内の[決定項目](#decision-rules)に適用できます。
    * **[!UICONTROL ターゲティング]** - ルールは、キャンペーンまたはジャーニーの[コンテンツ最適化](../content-management/optimization-targeting.md)の一部として、または[ジャーニーを最適化アクティビティ](../building-journeys/optimize.md#targeting)のいずれかで[ターゲティング](#targeting-rules)ルールを作成する際に使用できます。
 
-1. **[!UICONTROL 決定項目]**&#x200B;ルールを作成する場合は、「**[!UICONTROL データセット参照を有効にする]**」を選択して、Adobe Experience Platform のデータを使用して、外部データで決定ロジックを強化できます。これは、製品の在庫状況やリアルタイムの価格設定など、頻繁に変更される属性の場合に特に役立ちます。
-
-   >[!AVAILABILITY]
-   >
-   >この機能は現在、パブリックベータ版としてすべてのお客様にご使用いただけます。アクセス権をご希望の場合は、アカウント担当者にお問い合わせください。[決定の Adobe Experience Platform データの使用方法の詳細情報](../experience-decisioning/aep-data-exd.md)
+1. **[!UICONTROL 決定項目]**&#x200B;ルールを作成する場合は、「**[!UICONTROL データセット参照を有効にする]**」を選択して、Adobe Experience Platform のデータを使用して、外部データで決定ロジックを強化できます。これは、製品の在庫状況やリアルタイムの価格設定など、頻繁に変更される属性の場合に特に役立ちます。[決定の Adobe Experience Platform データの使用方法の詳細情報](../experience-decisioning/aep-data-exd.md)
 
 1. ルール作成画面が開きます。ルールに名前を付け、説明を入力します。
 
@@ -137,4 +133,4 @@ ht-degree: 100%
 
 Adobe Journey Optimizer で再利用可能な&#x200B;**ターゲティングルール**&#x200B;を作成、複製、適用し、地域、言語、行動などの顧客属性に基づいてキャンペーンを効率的にパーソナライズし、オーディエンスの精度を高めながら時間を節約する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3476128/?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476127/?quality=12)

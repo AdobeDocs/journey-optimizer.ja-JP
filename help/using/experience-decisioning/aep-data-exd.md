@@ -11,10 +11,10 @@ level: Intermediate
 keywords: 式, エディター
 exl-id: 46d868b3-01d2-49fa-852b-8c2e2f54292f
 version: Journey Orchestration
-source-git-commit: 648c2d9d41e169b7aa64b659ee1234744805c7a8
+source-git-commit: 6c85cfa27002de17f6625447fa0b7eaaceb9f829
 workflow-type: tm+mt
-source-wordcount: '1200'
-ht-degree: 100%
+source-wordcount: '1213'
+ht-degree: 95%
 
 ---
 
@@ -53,8 +53,8 @@ ht-degree: 100%
 
 ## ガードレールと制限 {#guardrails}
 
-* **サポートされているチャネル** - 決定を使用したデータセット参照は、現在、メールとジャーニーのカスタムアクションで機能します。<!--Support for code-based experience channels is coming soon.-->
-* **属性の使用状況** - 決定のデータセットルックアップ機能は、属性を追加して決定項目の定義を拡張します。プロファイルに対する属性は拡張しません。
+* **サポートされているチャネル** - Decisioning を使用したデータセットルックアップは、意思決定が使用可能なすべてのチャネル（コードベースのエクスペリエンス（インバウンド）、メール、プッシュ、SMS、ジャーニーのコンテンツ決定ノード）で機能します。
+* **属性の使用状況** - デシジョンのデータセットルックアップ機能は、属性を追加して決定項目定義を拡張しているため、属性をプロファイルに拡張していません。
 * **参照制限**：[!DNL Journey Optimizer] では、1 つの決定ポリシーあたり最大 1,000 件の参照をサポートしています。
 
 ## 前提条件

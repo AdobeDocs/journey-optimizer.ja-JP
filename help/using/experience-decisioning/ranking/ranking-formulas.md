@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 version: Journey Orchestration
-source-git-commit: 648c2d9d41e169b7aa64b659ee1234744805c7a8
+source-git-commit: 6c85cfa27002de17f6625447fa0b7eaaceb9f829
 workflow-type: tm+mt
-source-wordcount: '1481'
+source-wordcount: '1459'
 ht-degree: 95%
 
 ---
@@ -66,9 +66,7 @@ ht-degree: 95%
    >
    >ランキング式のネスト深度は 30 レベルに制限されています。これは、PQL 文字列内の `)` の閉じ丸括弧をカウントすることによって測定されます。UTF-8 でエンコードされた文字の場合、ルール文字列のサイズは最大 8 KB になります。これは、8,000 個の ASCII 文字（各 1 バイト）、または 2,000～4,000 個の非 ASCII 文字（各 2～4 バイト）に相当します。[詳しくは、決定ガードレールと制限を参照してください](../decisioning-guardrails.md#ranking-formulas)
 
-1. また、Adobe Experience Platform のデータを使用して、実際の条件を反映するようにランキングロジックを動的に調整することもできます。これは、製品の可用性やリアルタイム価格など、頻繁に変更される属性に特に便利です。
-
-   この機能は現在、パブリックベータ版としてすべてのお客様にご使用いただけます。アクセス権をご希望の場合は、アカウント担当者にお問い合わせください。[詳しくは、決定の Adobe Experience Platform データの使用方法を参照してください。](../aep-data-exd.md)
+1. また、Adobe Experience Platform のデータを使用して、実際の条件を反映するようにランキングロジックを動的に調整することもできます。これは、製品の可用性やリアルタイム価格など、頻繁に変更される属性に特に便利です。 [詳しくは、決定の Adobe Experience Platform データの使用方法を参照してください。](../aep-data-exd.md)
 
 <!--## Select an ELS dataset {#els-dataset}
 
@@ -95,9 +93,9 @@ To leverage data from an AEP dataset, follow the steps below.
 <!--![](../assets/ranking-formula-criteria.png){width="80%"}-->
 
 1. 「**[!UICONTROL 条件 1]**」セクションで、次の手順を実行して、ランキングスコアを適用する決定項目を指定します。
-   * [&#x200B; 決定項目属性 &#x200B;](../items.md#attributes) を選択します
+   * [ 決定項目属性 ](../items.md#attributes) を選択します
    * 論理演算子を選択
-   * 一致条件を追加 – 値を入力するか、プロファイル属性または [&#x200B; コンテキストデータ &#x200B;](../context-data.md) を選択できます。
+   * 一致条件を追加 – 値を入力するか、プロファイル属性または [ コンテキストデータ ](../context-data.md) を選択できます。
 
    ![](../assets/ranking-formula-criterion-1.png){width="70%"}
 

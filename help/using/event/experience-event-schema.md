@@ -9,23 +9,23 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: スキーマ, XDM, プラットフォーム, ストリーミング, 取り込み, ジャーニー
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: ht
-source-wordcount: '391'
-ht-degree: 100%
+source-git-commit: 18067694878761f3b37277dfee6f7e43987a1d42
+workflow-type: tm+mt
+source-wordcount: '387'
+ht-degree: 86%
 
 ---
 
 # [!DNL Journey Optimizer] イベントの ExperienceEvent スキーマについて {#about-experienceevent-schemas}
 
-[!DNL Journey Optimizer] イベントは、ストリーミング取得を介して Adobe Experience Platform に送信される XDM エクスペリエンスイベントです。
+[!DNL Journey Optimizer] イベントは、ストリーミング取り込みを介して Adobe Experience Platform に送信される XDM エクスペリエンスイベントです。
 
 そのため、[!DNL Journey Optimizer] のイベントを設定するための重要な前提条件は、Adobe Experience Platform のエクスペリエンスデータモデル（または XDM）と XDM エクスペリエンスイベントスキーマの作成方法、および XDM 形式のデータを Adobe Experience Platform にストリーミングする方法に精通していることです。
 
 
 >[!CAUTION]
 >
->ジャーニー条件でのエクスペリエンスイベント参照はサポートされなくなりました。詳しくは、別のベストプラクティスを参照してください。イベントトリガージャーニーのユースケースがあり、エクスペリエンスイベント参照が必要で、リストされている別の手段のいずれでもサポートできない場合は、アドビ担当者にお問い合わせください。アドビが目標の達成をお手伝いします。
+>2025 年 7 月 8 日（PT）以降、新規顧客組織は、ジャーニー条件でエクスペリエンスイベント属性を使用して式を作成できなくなります。 2026 年 4 月 1 日（PT）以降、過去 90 日間にジャーニー式を使用してエクスペリエンスイベントにアクセスしていない組織は、この機能にアクセスできなくなります。 代替アプローチとベストプラクティスについては、[ ジャーニーでのエクスペリエンスイベントの参照 ](../building-journeys/exp-event-lookup.md) を参照してください。
 >
 >ジャーニーの開始イベントからコンテキストにアクセスしても影響を受けません。
 
@@ -80,7 +80,7 @@ Here is the purchase schema with the relationship defined on the product ID fiel
 
 >[!NOTE]
 >
->Learn more about schema relationships in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=ja).
+>Learn more about schema relationships in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html).
 
 In Journey Optimizer, you can then leverage all the fields from the linked tables:
 
