@@ -20,7 +20,7 @@ Adobe Journey Optimizer のユースケースを使用して、マーケティ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
 
 ユースケースを通じて学ぶ
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer のユースケースを使用して、マーケティ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 エクスペリエンスイベント参照
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer のユースケースを使用して、マーケティ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 マルチチャネルメッセージの送信
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer のユースケースを使用して、マーケティ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 Campaign v7／v8 を使用したメッセージの送信
 
@@ -60,7 +60,7 @@ Adobe Campaign と Journey Optimizer を統合して、トランザクション�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 サブスクライバーへのメッセージの送信
 
@@ -70,7 +70,7 @@ Adobe Campaign と Journey Optimizer を統合して、トランザクション�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 カスタムアクションを使用したコレクションの動的な受け渡し
 
