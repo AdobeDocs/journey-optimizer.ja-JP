@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 version: Journey Orchestration
-source-git-commit: 21de0b9616c414db204a3eafebc6a8184028a1e1
+source-git-commit: 648c2d9d41e169b7aa64b659ee1234744805c7a8
 workflow-type: tm+mt
 source-wordcount: '1481'
 ht-degree: 95%
@@ -24,7 +24,7 @@ ht-degree: 95%
 
 ランキング式を作成したら、[選択戦略](../selection-strategies.md)に割り当てることができます。この選択戦略の使用時に実施要件を満たすオファーが複数ある場合、決定エンジンは選択した式を使用して、最初に配信するオファーを計算します。
 
-➡️ [この機能について詳しくは、ビデオを参照してください。](#video)
+➡️ [この機能をビデオで確認](#video)
 
 ## ランキング式の作成 {#create-ranking-formula}
 
@@ -95,9 +95,9 @@ To leverage data from an AEP dataset, follow the steps below.
 <!--![](../assets/ranking-formula-criteria.png){width="80%"}-->
 
 1. 「**[!UICONTROL 条件 1]**」セクションで、次の手順を実行して、ランキングスコアを適用する決定項目を指定します。
-   * [&#x200B; 決定項目属性 &#x200B;](../items.md#attributes) を選択します
+   * [ 決定項目属性 ](../items.md#attributes) を選択します
    * 論理演算子を選択
-   * 一致条件を追加 – 値を入力するか、プロファイル属性または [&#x200B; コンテキストデータ &#x200B;](../context-data.md) を選択できます。
+   * 一致条件を追加 – 値を入力するか、プロファイル属性または [ コンテキストデータ ](../context-data.md) を選択できます。
 
    ![](../assets/ranking-formula-criterion-1.png){width="70%"}
 

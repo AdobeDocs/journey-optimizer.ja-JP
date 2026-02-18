@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
 version: Journey Orchestration
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
+source-git-commit: 648c2d9d41e169b7aa64b659ee1234744805c7a8
 workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 100%
@@ -55,7 +55,7 @@ ht-degree: 100%
 * ジャーニーやキャンペーンで[コンテンツ最適化ターゲティング](../content-management/optimization-targeting.md)を作成する場合。
 * [ジャーニーパスの最適化](../building-journeys/optimize.md#targeting)を作成する場合。
 
-➡️ [この機能について詳しくは、ビデオを参照してください。](#video)
+➡️ [この機能をビデオで確認](#video)
 
 ## アクセスルール {#access}
 
@@ -65,7 +65,7 @@ ht-degree: 100%
 
 * ルールエンティティ（**[!UICONTROL 決定項目]**&#x200B;または&#x200B;**[!UICONTROL ターゲティング]** - [詳細情報](#about)）でフィルタリングできます。
 
-* ルールの名前をクリックしてルールを選択し、ルールビルダーを使用して編集します。[詳細情報](#create)
+* ルールの名前をクリックしてルールを選択し、ルールビルダーを使用して編集します。[方法についてはこちらを参照](#create)
 
 * 各項目の横にある「**[!UICONTROL その他のアクション]**」ボタンから、次の操作を実行できます。
 
@@ -110,7 +110,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >ルールを作成するために用意されているセグメントビルダーは、Adobe Experience Platform セグメント化サービスで使用されるものと比べて、特性がいくつかあります。ただし、ドキュメントで説明されているグローバルプロセスは、[!DNL Journey Optimizer] でルールを作成する場合に有効です。[詳しくは、セグメント定義の作成方法を参照してください](../audience/creating-a-segment-definition.md)
+   >ルールを作成するために用意されているセグメントビルダーは、Adobe Experience Platform セグメント化サービスで使用されるものと比べて、特性がいくつかあります。ただし、ドキュメントで説明されているグローバルプロセスは、[!DNL Journey Optimizer] でルールを作成する場合に有効です。[詳しくは、セグメント定義の作成方法を参照してください。](../audience/creating-a-segment-definition.md)
 
 1. ワークスペースに新しいフィールドを追加および設定すると、**[!UICONTROL オーディエンスのプロパティ]**&#x200B;パネルに、オーディエンスに属する推定プロファイルに関する情報が表示されます。「**[!UICONTROL 予測を更新]**」をクリックして、データを更新します。
 
@@ -137,4 +137,4 @@ ht-degree: 100%
 
 Adobe Journey Optimizer で再利用可能な&#x200B;**ターゲティングルール**&#x200B;を作成、複製、適用し、地域、言語、行動などの顧客属性に基づいてキャンペーンを効率的にパーソナライズし、オーディエンスの精度を高めながら時間を節約する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3476128/?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476127/?quality=12)
