@@ -95,9 +95,9 @@ To leverage data from an AEP dataset, follow the steps below.
 <!--![](../assets/ranking-formula-criteria.png){width="80%"}-->
 
 1. 「**[!UICONTROL 条件 1]**」セクションで、次の手順を実行して、ランキングスコアを適用する決定項目を指定します。
-   * [ 決定項目属性 ](../items.md#attributes) を選択します
+   * [&#x200B; 決定項目属性 &#x200B;](../items.md#attributes) を選択します
    * 論理演算子を選択
-   * 一致条件を追加 – 値を入力するか、プロファイル属性または [ コンテキストデータ ](../context-data.md) を選択できます。
+   * 一致条件を追加 – 値を入力するか、プロファイル属性または [&#x200B; コンテキストデータ &#x200B;](../context-data.md) を選択できます。
 
    ![](../assets/ranking-formula-criterion-1.png){width="70%"}
 
