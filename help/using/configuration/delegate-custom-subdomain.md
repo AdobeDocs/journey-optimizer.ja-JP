@@ -10,10 +10,10 @@ level: Experienced
 keywords: サブドメイン, デリゲーション, ドメイン, DNS
 badge: label="限定提供" type="Informative"
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '927'
-ht-degree: 100%
+source-git-commit: 316553be4f04e4fc0ae11bc767f7e48f64fc5ccd
+workflow-type: tm+mt
+source-wordcount: '953'
+ht-degree: 93%
 
 ---
 
@@ -21,9 +21,13 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->この機能は、限定提供です。アクセス権を取得するには、アドビ担当者にお問い合わせください。
+>この機能は、限定提供で使用できます。アクセス権を取得するには、アドビ担当者にお問い合わせください。
 
-[完全にデリゲート](about-subdomain-delegation.md#full-subdomain-delegation)された方法と [CNAME 設定](about-subdomain-delegation.md#subdomain-delegation-methods)方法の代わりに、**カスタムデリゲーション**&#x200B;方法を使用すると、Journey Optimizer 内でサブドメインの所有権を取得し、生成された証明書を完全に制御できます。
+[ 完全にデリゲート ](about-subdomain-delegation.md#full-subdomain-delegation) および [CNAME 設定 ](about-subdomain-delegation.md#subdomain-delegation-methods) 方法の代わりに、**カスタムデリゲーション** 方法を使用すると、Journey Optimizer内のサブドメインの所有権を取得し、生成された証明書を完全に制御できます。
+
+>[!NOTE]
+>
+>サブドメインが現在 CNAME で設定されている場合は、カスタムのデリゲーションに移行することもできます。 [詳細情報](custom-subdomain-migration.md)
 
 このプロセスの一部として、アドビでは、メッセージの配信、レンダリング、トラッキングに DNS が適切に設定されていることを確認する必要があります。このため、認証局から取得した [SSL 証明書をアップロード](#upload-ssl-certificate)し、ドメインの所有権を確認してメールアドレスを報告し、[フィードバックループの手順](#feedback-loop-steps)を完了する必要があります。
 
@@ -147,6 +151,8 @@ ht-degree: 100%
 1. すべてが正しく設定されている場合は、「確認しました」チェックボックスをオンにします。
 
    ![](assets/subdomain-custom-feedback-loop.png){width="85%"}
+
+## SSL CDN URL 検証レコードをコピー {#copy-ssl-cdn-url-record}
 
 1. 「**[!UICONTROL 続行]**」をクリックし、ご利用のホスティングソリューションでレコードがエラーなく生成されたことを、アドビが確認するまで待ちます。この処理には最大 2 分かかる場合があります。
 
