@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 77fdbd9ea47d20fa2b2534cc9520a9b3cd011ac5
 workflow-type: tm+mt
-source-wordcount: '859'
-ht-degree: 100%
+source-wordcount: '861'
+ht-degree: 98%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 100%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] の新しい判定機能である判定は、コードベースのエクスペリエンス、メール、SMS およびプッシュチャネルから利用できるようになりました。 [詳細情報](../experience-decisioning/gs-experience-decisioning.md)
 
-## Batch Decisioning の基本を学ぶ {#start}
+## バッチ決定の基本を学ぶ {#start}
 
 Journey Optimizer を使用すると、特定の Adobe Experience Platform オーディエンスに含まれるすべてのプロファイルにオファーの決定を配信できます。
 
