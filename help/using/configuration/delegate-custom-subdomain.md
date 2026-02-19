@@ -23,7 +23,7 @@ ht-degree: 93%
 >
 >この機能は、限定提供で使用できます。アクセス権を取得するには、アドビ担当者にお問い合わせください。
 
-[ 完全にデリゲート ](about-subdomain-delegation.md#full-subdomain-delegation) および [CNAME 設定 ](about-subdomain-delegation.md#subdomain-delegation-methods) 方法の代わりに、**カスタムデリゲーション** 方法を使用すると、Journey Optimizer内のサブドメインの所有権を取得し、生成された証明書を完全に制御できます。
+[&#x200B; 完全にデリゲート &#x200B;](about-subdomain-delegation.md#full-subdomain-delegation) および [CNAME 設定 &#x200B;](about-subdomain-delegation.md#subdomain-delegation-methods) 方法の代わりに、**カスタムデリゲーション** 方法を使用すると、Journey Optimizer内のサブドメインの所有権を取得し、生成された証明書を完全に制御できます。
 
 >[!NOTE]
 >
