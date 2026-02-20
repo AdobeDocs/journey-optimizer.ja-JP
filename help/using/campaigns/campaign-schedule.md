@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 作成, Optimizer, キャンペーン, サーフェス, メッセージ
 exl-id: b183eeb8-606f-444d-9302-274f159c3847
-source-git-commit: e6aa361229f068c475732c715160b7c644189e51
+source-git-commit: 2458a0f84aa0318f956a0a7edff20aff711159a5
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 59%
+source-wordcount: '750'
+ht-degree: 58%
 
 ---
 
@@ -42,8 +42,6 @@ ht-degree: 59%
 
 >[!AVAILABILITY]
 >
->この機能は限定提供（LA）です。 アクセス権を取得するには、アドビ担当者にお問い合わせください。
->
 >プロファイルタイムゾーンを使用したスケジュールは、メール、プッシュ、SMS、WhatsApp、LINE のアウトバウンドチャネルでのみ使用できます。
 
 プロファイルタイムゾーンスケジュールを有効にするには：
@@ -62,7 +60,9 @@ ht-degree: 59%
 
 **サポートされるタイムゾーン識別子：**
 
-Journey Optimizerは、標準の IANA タイムゾーン識別子に対して `profile.timeZone` 値を検証します。 識別子は大文字と小文字が区別され、公式の IANA 命名に一致する必要があります。 オフセットは、夏時間の規則と更新履歴により、時間の経過とともに変化する場合があります。 識別子の公式リストについては、[IANA タイムゾーンデータベース &#x200B;](https://www.iana.org/time-zones){_blank} を参照してください。
+`profile.timeZone` 形式は、IANA の命名または UTC オフセットとして定義できます。 IANA の命名は、夏時間ルールに合わせて自動的に調整されるため、推奨される形式です。
+
+IANA 命名の場合、識別子では大文字と小文字が区別され、公式の IANA 命名に一致する必要があります。 オフセットは、夏時間の規則と更新履歴により、時間の経過とともに変化する場合があります。 識別子の公式リストについては、[IANA タイムゾーンデータベース ](https://www.iana.org/time-zones){_blank} を参照してください。
 
 ## 実行頻度の設定
 
