@@ -4,11 +4,11 @@ product: journey optimizer
 title: ウェーブを使用した送信
 description: 制御されたバッチで配信されるアウトバウンドキャンペーンメッセージを、時間の経過と共にスケジュールします。 Wave 送信は、配信品質をサポートし、送信者のレピュテーションを維持するのに役立ちます。
 feature: Campaigns
-topic: Campaign scheduling
+topic: Content Management
 role: User
 level: Intermediate
 keywords: ウェーブ，バッチ，スケジュール，キャンペーン，ジャーニー，配信品質
-source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
+source-git-commit: 7df05e41b086c60724576328c5bcfee47cab65ca
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 1%
@@ -37,7 +37,7 @@ Journey Optimizerでは、ウェーブの数、サイズ（オーディエンス
 
 キャンペーンでウェーブを送信する方法とタイミングを設定するには、次の手順に従います。
 
-1. アウトバウンドアクション [&#x200B; 例：メール、SMS、プッシュ）を含む &#x200B;](create-campaign.md) アクションキャンペーン）を作成または開きます。
+1. アウトバウンドアクション [ 例：メール、SMS、プッシュ）を含む ](create-campaign.md) アクションキャンペーン）を作成または開きます。
 
 1. キャンペーンの「**[!UICONTROL スケジュール]**」タブで、「**[!UICONTROL キャンペーンアクションをウェーブで配信]**」を選択します。
 
@@ -83,7 +83,7 @@ Journey Optimizerでは、ウェーブの数、サイズ（オーディエンス
 
 >[!NOTE]
 >
->数値を使用する場合、システムでは、合計がオーディエンス全体に及ぶことは検証されません。ウェーブサイズが、送信先のオーディエンスに及ぶことを確認する必要があります。 詳しくは、[&#x200B; よくある質問 &#x200B;](#faq) を参照してください。
+>数値を使用する場合、システムでは、合計がオーディエンス全体に及ぶことは検証されません。ウェーブサイズが、送信先のオーディエンスに及ぶことを確認する必要があります。 詳しくは、[ よくある質問 ](#faq) を参照してください。
 
 ### カスタムスケジュール {#custom-schedule}
 
@@ -128,5 +128,5 @@ Wave 送信は、送信するメッセージのタイミングと数を制御す
 
 ## 次の手順 {#next}
 
-* [&#x200B; アクションキャンペーンのスケジュール &#x200B;](campaign-schedule.md) – 開始日、終了日、頻度およびレート制御を設定します。
-* [&#x200B; キャンペーンのレビューとアクティブ化 &#x200B;](review-activate-campaign.md) - キャンペーンを確認して運用を開始します。
+* [ アクションキャンペーンのスケジュール ](campaign-schedule.md) – 開始日、終了日、頻度およびレート制御を設定します。
+* [ キャンペーンのレビューとアクティブ化 ](review-activate-campaign.md) - キャンペーンを確認して運用を開始します。
