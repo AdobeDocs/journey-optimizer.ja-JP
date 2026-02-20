@@ -153,7 +153,7 @@ ht-degree: 97%
 
 ## ガードレールと制限 {#journey-pause-guardrails}
 
-* ジャーニーバージョンは最大 **14 日間**&#x200B;一時停止できます。一時停止したジャーニーでは、組織全体で最大 **1,000 万のプロファイル**が許可されます。
+* ジャーニーバージョンは最大 **14 日間**&#x200B;一時停止できます。一時停止したジャーニーでは、組織全体で最大 **1,000 万のプロファイル**&#x200B;が許可されます。
 この制限は、個別のプロファイルではなく、一時停止されたすべてのジャーニーで保持されたプロファイルの合計数をカウントします。 例えば、同じ 5M のプロファイルが 2 つの一時停止されたジャーニーに保持されている場合、10M の制限に達します。
 この制限は 30 分ごとに確認されます。つまり、一時的に 1,000 万のしきい値を超える可能性がありますが、システムが検出すると、追加のプロファイルは自動的に破棄されます。
 
@@ -202,7 +202,7 @@ ht-degree: 97%
 
 ## 一時停止したジャーニーでのプロファイル破棄のトラブルシューティング {#discards-troubleshoot}
 
-[[!DNL Adobe Experience Platform]  クエリサービス ](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ja){target="_blank"} を使用して、ステップイベントをクエリし、発生したタイミングに応じて、プロファイル破棄に関する詳細を提供できます。
+[[!DNL Adobe Experience Platform]  クエリサービス &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ja){target="_blank"} を使用して、ステップイベントをクエリし、発生したタイミングに応じて、プロファイル破棄に関する詳細を提供できます。
 
 * プロファイルがジャーニーにエントリする前に破棄が発生する場合は、次のコードを使用します。
 

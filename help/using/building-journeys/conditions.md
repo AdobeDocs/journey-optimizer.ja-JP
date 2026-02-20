@@ -87,7 +87,7 @@ ht-degree: 95%
 
 ![ドラッグ＆ドロップフィールドと論理演算子を含むシンプルな式エディター](assets/journey64.png){width=80%}
 
-[[!DNL Adobe Experience Platform]  セグメント化サービス ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja){target="_blank"} を使用してオーディエンスを作成する場合は、それらのオーディエンスをジャーニー条件で利用できます。 詳しくは、[条件でのオーディエンスの使用](../building-journeys/condition-activity.md#using-a-segment)を参照してください。
+[[!DNL Adobe Experience Platform]  セグメント化サービス &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja){target="_blank"} を使用してオーディエンスを作成する場合は、それらのオーディエンスをジャーニー条件で利用できます。 詳しくは、[条件でのオーディエンスの使用](../building-journeys/condition-activity.md#using-a-segment)を参照してください。
 
 >[!NOTE]
 >
@@ -188,7 +188,7 @@ ht-degree: 95%
 
 1. 左側で、**[!UICONTROL オーディエンス]**&#x200B;ノードを展開します。条件に使用するオーディエンスをドラッグ＆ドロップします。デフォルトでは、オーディエンスの条件は true です。
 
-   ![[!DNL Adobe Experience Platform] しいオーディエンスを選択するための式エディターのオーディエンスノード ](assets/segment4.png){width=80%}
+   ![[!DNL Adobe Experience Platform] しいオーディエンスを選択するための式エディターのオーディエンスノード &#x200B;](assets/segment4.png){width=80%}
 
    >[!NOTE]
    >
