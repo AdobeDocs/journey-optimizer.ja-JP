@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
+source-git-commit: 74a817e01765d2909e9dc3c396c5513b1c9b54b2
 workflow-type: tm+mt
-source-wordcount: '1329'
-ht-degree: 33%
+source-wordcount: '1645'
+ht-degree: 35%
 
 ---
 
@@ -29,11 +29,11 @@ ht-degree: 33%
 
 ## 2026 年 2 月リリースノート {#feb-26-01-rn}
 
-[&#x200B; 新機能 &#x200B;](#feb-26-01-features) と [&#x200B; 改善点 &#x200B;](#feb-26-01-improv) の節では、既に使用可能な機能について説明しています。 [&#x200B; 近日公開 &#x200B;](#coming-soon) のセクションには、2 月下旬にリリースが予定されている機能と改善点の一覧が表示されます。
+[ 新機能 ](#feb-26-01-features) と [ 改善点 ](#feb-26-01-improv) の節では、既に使用可能な機能について説明しています。 [ 近日公開 ](#coming-soon) のセクションには、2 月下旬にリリースが予定されている機能と改善点の一覧が表示されます。
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
@@ -164,13 +164,58 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>カスタムアクションの監視</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>新しい監視ダッシュボードと強化されたジャーニーステップイベントデータを使用して、カスタムアクションエンドポイントの正常性とパフォーマンスをより深くinsightできます。 成功した呼び出し、エラー、スループット、応答時間、キューの待機時間を追跡して、異常値が発生したタイミング、場所、理由をすばやく把握します。</p>
+<p>この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。</p>
+<p>詳しくは、<a href="../action/reporting.md">詳細なドキュメント</a>を参照してください。</p>
+<p>公開日：2026年2月3日（PT）</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>SMS チャネルでの決定のサポート</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Decisioning を使用して SMS メッセージのコンテンツをパーソナライズおよび最適化できるようになりました。 優先度スコア、数式、AI モデルを使用して、顧客に最適なコンテンツを表示します。</p>
+<p>詳しくは、<a href="../experience-decisioning/create-decision.md">詳細なドキュメント</a>を参照してください。</p>
+<p>公開日：2026年2月2日（PT）</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ### 機能強化 {#feb-26-01-improv}
 
 このリリースに含まれる機能強化を以下に示します。
 
 #### 設定
 
-* **ジャーニー式でのエクスペリエンスイベントの使用** - 2026 年 4 月 1 日（PT）以降、ジャーニー式でのエクスペリエンスイベント属性の使用は、過去 90 日間にこの機能を使用していない組織ではサポートされなくなります。 この機能は、2025 年 7 月 8 日（PT）以降、新規のお客様は使用できなくなっています。 代替手段については、[&#x200B; ジャーニーでのエクスペリエンスイベントの参照 &#x200B;](../building-journeys/exp-event-lookup.md) を参照してください。
+* **ジャーニー式でのエクスペリエンスイベントの使用** - 2026 年 4 月 1 日（PT）以降、ジャーニー式でのエクスペリエンスイベント属性の使用は、過去 90 日間にこの機能を使用していない組織ではサポートされなくなります。 この機能は、2025 年 7 月 8 日（PT）以降、新規のお客様は使用できなくなっています。 代替手段については、[ ジャーニーでのエクスペリエンスイベントの参照 ](../building-journeys/exp-event-lookup.md) を参照してください。
+
+#### コンテンツ管理
+
+* **新しいカラータブでブランドを更新** - ブランドガイドラインは、すべてのタッチポイントをまたいでブランドを一貫して提示するのに役立ちます。新しい <strong> カラー </strong> セクションでは、エクスペリエンスをまたいでカラーの選択、整理、適用の方法を概説し、ブランドのカラーシステムの標準を定義します。 これにより、プライマリー、セカンダリー、アクセント、ニュートラルカラーの一貫性のある使用が保証され、凝集してアクセス可能で認識可能なブランドアイデンティティがサポートされます。 [詳細情報](../content-management/brands.md)
+
+* **テーマを使用して画像をメールテンプレートに変換** - Journey Optimizerで画像をメールテンプレートに変換する際に、テーマを入力として使用できるようになり、生成されたHTMLがブランドパラメーターに従うようになりました。 背景色、ボタンの色、フォント、行間、余白、パディングなどのスタイル設定が自動的に適用されるので、手動によるデザイン作業が軽減され、最小限の編集作業で使いやすいテンプレートが配信されます。 [詳細情報](../content-management/image-to-html.md)
+
+  公開日：2026 年 2 月 17 日（PT）。
+
+* **フラグメントのテキストモード** - フラグメントのテキストバージョンを作成および管理して、プレーンテキストコンテンツに依存するワークフローをサポートし、メールコンテンツと同じ柔軟性を提供できるようになりました。<!--[Read more](../content-management/create-fragments.md)-->
 
 #### E メールデザイナー
 
@@ -178,25 +223,32 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
   公開日：2026 年 2 月 18 日（PT）。
 
-#### コンテンツテンプレート
-
-* **テーマを使用して画像をメールテンプレートに変換** - Journey Optimizerで画像をメールテンプレートに変換する際に、テーマを入力として使用できるようになり、生成されたHTMLがブランドパラメーターに従うようになりました。 背景色、ボタンの色、フォント、行間、余白、パディングなどのスタイル設定が自動的に適用されるので、手動によるデザイン作業が軽減され、最小限の編集作業で使いやすいテンプレートが配信されます。 [詳細情報](../content-management/image-to-html.md)
-
-  公開日：2026 年 2 月 17 日（PT）。
-
-
 #### エクスペリエンス決定
 
 * **Decisioning でのEdge データの使用に対するAdobe Experience Platform インバウンドサポート** - Decisioning でのAdobe Experience Platform データの使用で、ジャーニーでのメールおよびカスタムアクションに加えて、エッジインバウンドのユースケースがサポートされるようになりました。 [詳細情報](../experience-decisioning/aep-data-exd.md)
 
-  **注意**：この機能は一連の組織でのみ使用できます（<strong> 使用制限あり </strong>）。 アクセス権を取得するには、アドビ担当者にお問い合わせください。
+  この機能は、一連の組織でのみ使用できます（限定提供）。アクセス権を取得するには、アドビ担当者にお問い合わせください。
 
 
 * **フラグメントを決定項目に添付** - Journey Optimizer では、決定ポリシーを通じてコードベースのエクスペリエンスキャンペーンで活用できるフラグメントを決定項目に添付できるようになりました。[詳細情報](../experience-decisioning/fragments-decision-policies.md)
 
-  **注意**：以前リリースされた限定提供では、この機能はすべての環境で使用できるようになりました（一般提供）。
+  この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。
 
   公開日：2026 年 2 月 12 日（PT）。
+
+#### パーソナライゼーション
+
+* **実行メタデータヘルパー** - `executionMetadata` ヘルパー関数が、すべてのJourney Optimizer ユーザーが使用できるようになりました。 これを使用すると、任意のネイティブアクションにコンテキスト情報を動的に追加し、外部システムに書き出すためにデータセットに取り込むことができます。 [詳細情報](../personalization/functions/helpers.md#execution-metadata)
+
+  この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。
+
+  公開日：2026 年 2 月 20 日（PT）。
+
+#### SMS
+
+* **SMS Webhook** – すべての SMS プロバイダーで Webhook がサポートされるようになりました。 目的に応じて、各 Webhook を設定できます。受信メッセージをキャプチャする受信 Webhook と、配信の受信、ステータスの更新、その他のメッセージ関連イベントを受信するフィードバック Webhook。 [詳細情報](../sms/sms-webhook.md)
+
+  公開日：2026 年 2 月 2 日（PT）。
 
 ## 近日リリース予定 {#coming-soon}
 
@@ -212,7 +264,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p><strong>Adobe Experience Platform Agent Orchestrator</strong> を活用した <strong>Journey Agent</strong> はJourney Optimizerで利用でき、自然言語インターフェイスを通じてジャーニーを分析できます。 また、Journey Agentで直接チャネル固有のコンテンツを生成および管理したり、メールやプッシュなどのチャネルのコンテンツを作成したり、テンプレートを適用およびプレビューしたり、プロンプトを使用してトーンとスタイルを調整したり、<strong> コンテンツDesigner</strong> でコンテンツを開いてコンテキスト内編集を行ったりできるようになりました。</p>
-<p>公開日：2026年2月20日（PT）</p>
+<p>公開日：2026 年 3 月上旬</p>
 </td>
 </tr>
 </tbody>
@@ -284,5 +336,5 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **カスタムのFirefly モデルとサードパーティの画像生成モデルの統合** – 標準およびカスタムのFirefly モデルと、承認済みのサードパーティの画像モデル（NanoBanana など）をシームレスに統合し、画像を生成する際の柔軟性、制御、ブランドの関連付けを向上させることができます。 これにより、一般的なニーズに対応する標準Firefly、ブランドに合わせたカスタム Firefly、専門的または実験的なシナリオに対応する承認済みのサードパーティモデルなど、ユースケースごとに最適なモデルを選択できます。
 
-  公開日：2026 年 2 月 20 日（PT）。
+  公開日：2026 年 3 月上旬。
 
