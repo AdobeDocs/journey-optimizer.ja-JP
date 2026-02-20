@@ -7,12 +7,12 @@ feature: Personalization, Use Cases
 topic: Personalization
 role: Developer
 level: Intermediate
-keywords: 式, エディター, ヘルパー, ユースケース, パーソナライゼーション
+keywords: 式，エディター，ヘルパー，ユースケース，パーソナライゼーション
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
-source-git-commit: 6976f2b1b8b95f7dc9bffe65b7a7ddcc5dab5474
+source-git-commit: 58b4acf8cccfc3a5e507a738bdf6755a8decbaca
 workflow-type: tm+mt
-source-wordcount: '1068'
-ht-degree: 97%
+source-wordcount: '1238'
+ht-degree: 83%
 
 ---
 
@@ -57,26 +57,26 @@ ht-degree: 97%
 1. このイベントで開始されるジャーニーを作成します。
 1. ジャーニーに&#x200B;**メール**&#x200B;アクティビティを追加します。
 
-   ![](assets/personalization-uc-helpers-8.png)
+   ![ フロー内にイベントとメール アクティビティを含むジャーニーキャンバス ](assets/personalization-uc-helpers-8.png)
 
-## 手順 2： メールの作成{#configure-email}
+## 手順 2： メールの作成 {#configure-email}
 
 1. **メール**&#x200B;アクティビティで、「**[!UICONTROL コンテンツを編集]**」をクリックしたあと、「**[!UICONTROL E メールデザイナー]**」をクリックします。
 
-   ![](assets/personalization-uc-helpers-1.png)
+   ![ 「コンテンツを編集」および「電子メールDesigner」オプションを使用した電子メールアクティビティ ](assets/personalization-uc-helpers-1.png)
 
 1. E メールデザイナーホームページの左側のパレットから、3 つの構造コンポーネントをメッセージの本文にドラッグ＆ドロップします。
 
 1. HTML コンテンツコンポーネントを、それぞれの新規構造コンポーネントにドラッグ＆ドロップします。
 
-   ![](assets/personalization-uc-helpers-2.png)
+   ![3 つの構造コンポーネントとHTML コンテンツコンポーネントを本文内に含むメールDesigner](assets/personalization-uc-helpers-2.png)
 
 ## 手順 3： 顧客の名（大文字）の挿入 {#uppercase-function}
 
 1. E メールデザイナーのホームページで、顧客の名を追加する HTML コンポーネントをクリックします。
 1. コンテキストツールバーで、「**[!UICONTROL ソースコードを表示]**」をクリックします。
 
-   ![](assets/personalization-uc-helpers-3.png)
+   ![ 「ソースコードを表示」オプションを使用したコンテキストツールバー ](assets/personalization-uc-helpers-3.png)
 
 1. **[!UICONTROL HTML を編集]**&#x200B;ウィンドウで、`upperCase` 文字列関数を追加します。
    1. 左側のメニューで、「**[!UICONTROL ヘルパー関数]**」を選択します。
@@ -89,7 +89,7 @@ ht-degree: 97%
       {%= upperCase(string) %}
       ```
 
-      ![](assets/personalization-uc-helpers-4.png)
+      ![ ヘルパー関数で upperCase 関数を選択した式エディター ](assets/personalization-uc-helpers-4.png)
 
 1. 式から「string」プレースホルダーを削除します。
 1. 名トークンを追加します。
@@ -103,26 +103,26 @@ ht-degree: 97%
       {%= upperCase(profile.person.name.firstName) %}
       ```
 
-      ![](assets/personalization-uc-helpers-5.png)
+      ![ プロファイルの名トークンを含む upperCase を示す式エディター ](assets/personalization-uc-helpers-5.png)
 
       ユーザー名データタイプについて詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=ja){target="_blank"}を参照してください。
 
 1. 「 **[!UICONTROL 検証]**」をクリックしてから、「**[!UICONTROL 保存]**」をクリックします。
 
-   ![](assets/personalization-uc-helpers-6.png)
+   ![ 「検証」ボタンと「保存」ボタンを含むHTMLを編集ウィンドウ ](assets/personalization-uc-helpers-6.png)
 
 1. メッセージを保存します。
 
 ## 手順 4：買い物かご内の商品リストの挿入 {#each-helper}
 
-この手順では、イベントデータを繰り返し処理する方法を示します。 様々なデータソース（イベント、カスタムアクション応答、その他のコンテキストデータ）に対する反復処理の包括的な例については、[Handlebars を使用したコンテキストデータの反復処理 &#x200B;](iterate-contextual-data.md) を参照してください。
+この手順では、イベントデータを繰り返し処理する方法を示します。 様々なデータソース（イベント、カスタムアクション応答、その他のコンテキストデータ）に対する反復処理の包括的な例については、[Handlebars を使用したコンテキストデータの反復処理 ](iterate-contextual-data.md) を参照してください。
 
 1. メッセージコンテンツを再度開きます。
 
 1. E メールデザイナーのホームページで、買い物かごの内容を一覧表示する HTML コンポーネントをクリックします。
 1. コンテキストツールバーで、「**[!UICONTROL ソースコードを表示]**」をクリックします。
 
-   ![](assets/personalization-uc-helpers-3.png)
+   ![ 「ソースコードを表示」オプションを使用したコンテキストツールバー ](assets/personalization-uc-helpers-3.png)
 
 1. **[!UICONTROL HTML を編集]**&#x200B;ウィンドウで、`each` ヘルパーを追加します。
    1. 左側のメニューで、「**[!UICONTROL ヘルパー関数]**」を選択します。
@@ -135,7 +135,7 @@ ht-degree: 97%
       {{#each someArray as |variable|}} {{/each}}
       ```
 
-      ![](assets/personalization-uc-helpers-9.png)
+      ![ 各ヘルパーテンプレートを含む式エディター ](assets/personalization-uc-helpers-9.png)
 
 1. 式に `productListItems` 配列を追加します。
 
@@ -158,7 +158,7 @@ ht-degree: 97%
 
       この例では、*event_ID* はイベントの ID を表します。
 
-      ![](assets/personalization-uc-helpers-10.png)
+      ![ コンテキスト属性に productListItems を含む式エディター ](assets/personalization-uc-helpers-10.png)
 
    1. 式を次のように変更します。
       1. 「.product」文字列を削除します。
@@ -170,7 +170,7 @@ ht-degree: 97%
       {{#each context.journey.events.event_ID.productListItems as |product|}}
       ```
 
-1. 次のコードを、`{{#each}}` 開始タグと `{/each}}` 終了タグの間に貼り付けます。
+1. 次のコードを、`{{#each}}` 開始タグと `{{/each}}` 終了タグの間に貼り付けます。
 
    ```html
    <table>
@@ -212,14 +212,14 @@ ht-degree: 97%
 
 1. 「**[!UICONTROL 検証]**」をクリックしてから、「**[!UICONTROL 保存]**」をクリックします。
 
-   ![](assets/personalization-uc-helpers-11.png)
+   ![ 各ブロックの設定後に「検証」と「保存」を選択した式エディター ](assets/personalization-uc-helpers-11.png)
 
 ## 手順 5：製品固有のメモの挿入 {#if-helper}
 
 1. E メールデザイナーのホームページで、メモを挿入する HTML コンポーネントをクリックします。
 1. コンテキストツールバーで、「**[!UICONTROL ソースコードを表示]**」をクリックします。
 
-   ![](assets/personalization-uc-helpers-3.png)
+   ![ 「ソースコードを表示」オプションを使用したコンテキストツールバー ](assets/personalization-uc-helpers-3.png)
 
 1. **[!UICONTROL HTML を編集]**&#x200B;ウィンドウで、`if` ヘルパーを追加します。
    1. 左側のメニューで、「**[!UICONTROL ヘルパー関数]**」を選択します。
@@ -235,7 +235,7 @@ ht-degree: 97%
       {%/if%}
       ```
 
-      ![](assets/personalization-uc-helpers-12.png)
+      ![if ヘルパーテンプレートを使用した式エディター ](assets/personalization-uc-helpers-12.png)
 
 1. 式から次の条件を削除します。
 
@@ -269,7 +269,7 @@ ht-degree: 97%
       {%/if%}
       ```
 
-      ![](assets/personalization-uc-helpers-13.png)
+      ![if 条件に productListItems 名トークンを含む式エディター ](assets/personalization-uc-helpers-13.png)
 
 1. 式を次のように変更します。
    1. 式エディターで、`name` トークンの後に製品名を指定します。
@@ -303,7 +303,7 @@ ht-degree: 97%
    1. 式から「default_render」プレースホルダーを削除します。
 1. 「 **[!UICONTROL 検証]**」をクリックしてから、「**[!UICONTROL 保存]**」をクリックします。
 
-   ![](assets/personalization-uc-helpers-14.png)
+   ![if ブロックの設定後に「検証して保存」を使用してHTMLを編集ウィンドウ ](assets/personalization-uc-helpers-14.png)
 
 1. メッセージを保存します。
 
@@ -311,19 +311,19 @@ ht-degree: 97%
 
 1. 「**[!UICONTROL テスト]**」切替スイッチをオンにしてから、「**[!UICONTROL イベントをトリガー]**」をクリックします。
 
-   ![](assets/personalization-uc-helpers-15.png)
+   ![ 「テスト」切替スイッチがオンのジャーニーと、「イベント」ボタンをトリガー](assets/personalization-uc-helpers-15.png)
 
 1. **[!UICONTROL イベント設定]**&#x200B;ウィンドウで、入力値を入力し、「**[!UICONTROL 送信]**」をクリックします。
 
    テストモードは、テストプロファイルでのみ機能します。
 
-   ![](assets/personalization-uc-helpers-16.png)
+   ![ 入力値と「送信」ボタンを含むイベント設定ウィンドウ ](assets/personalization-uc-helpers-16.png)
 
    メールがテストプロファイルのアドレスに送信されます。
 
    この例では、Juno Jacket に関するメモがメールに含まれています。これは、この製品が買い物かごに入っているからです。
 
-   ![](assets/personalization-uc-helpers-17.png)
+   ![ メッセージ本文に Juno Jacket の配送メモを表示するサンプルメール ](assets/personalization-uc-helpers-17.png)
 
 1. エラーがないことを確認し、ジャーニーを公開します。
 
@@ -342,8 +342,8 @@ ht-degree: 97%
 
 * [決定ベースのオファーを使用したパーソナライゼーション](../offers/offers-e2e.md)
 
-## チュートリアルビデオ{#video}
+## チュートリアルビデオ {#video}
 
 ヘルパー関数の使用方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416781?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
