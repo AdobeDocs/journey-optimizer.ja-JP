@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 316553be4f04e4fc0ae11bc767f7e48f64fc5ccd
+source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
 workflow-type: tm+mt
-source-wordcount: '3093'
+source-wordcount: '3101'
 ht-degree: 98%
 
 ---
@@ -59,6 +59,7 @@ ht-degree: 98%
       + [ジャーニーの作成](/help/rp_landing_pages/create-journey-landing-page.md)
       + [最初のジャーニーを作成](using/building-journeys/journey-gs.md)
       + [ジャーニーのプロパティの設定](using/building-journeys/journey-properties.md)
+      + [ジャーニーでのウェーブを使用した送信](using/building-journeys/send-using-waves.md)
       + [ジャーニー指標の設定とトラッキング](using/building-journeys/success-metrics.md)
       + [ジャーニーのデザイン](using/building-journeys/using-the-journey-designer.md)
       + [ジャーニーのテスト](using/building-journeys/testing-the-journey.md)
@@ -150,6 +151,7 @@ ht-degree: 98%
       + [キャンペーンコンテンツの編集](using/campaigns/campaign-content.md)
       + [キャンペーンオーディエンスの定義](using/campaigns/campaign-audience.md)
       + [キャンペーンのスケジュール](using/campaigns/campaign-schedule.md)
+      + [ウェーブを使用した送信](using/campaigns/send-using-waves.md)
       + [アクションキャンペーンのレビューとアクティブ化](using/campaigns/review-activate-campaign.md)
    + API トリガーキャンペーン {#api-triggered-campaigns}
       + [API トリガーキャンペーン](/help/rp_landing_pages/api-triggered-campaigns-landing-page.md)
@@ -945,7 +947,7 @@ ht-degree: 98%
    + [プライバシー](/help/rp_landing_pages/privacy-landing-page.md)
    + [プライバシーの基本を学ぶ](using/privacy/get-started-privacy.md)
    + [プライバシーリクエスト](using/privacy/requests.md)
-   + [&#x200B; リソースに対する監査アクション](using/privacy/audit-logs.md)
+   + [ リソースに対する監査アクション](using/privacy/audit-logs.md)
    + [データライフサイクル操作の実行](using/privacy/data-hygiene.md)
    + 同意を管理 {#consent}
       + [同意を管理](/help/rp_landing_pages/consent-landing-page.md)

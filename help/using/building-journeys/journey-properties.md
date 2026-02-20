@@ -10,10 +10,10 @@ level: Intermediate
 keywords: ジャーニー、設定、プロパティ
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
 workflow-type: tm+mt
-source-wordcount: '2859'
-ht-degree: 95%
+source-wordcount: '2885'
+ht-degree: 94%
 
 ---
 
@@ -134,7 +134,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->ジャーニーを「完了」と見なすタイミングの正確な定義は、ジャーニータイプによって異なります。 [&#x200B; 詳細な条件を参照 &#x200B;](end-journey.md#journey-finished-definition)。
+>ジャーニーを「完了」と見なすタイミングの正確な定義は、ジャーニータイプによって異なります。 [ 詳細な条件を参照 ](end-journey.md#journey-finished-definition)。
 
 91 日間のジャーニータイムアウトにより、ジャーニーの再エントリが許可されていない場合、再エントリのブロックが 91 日を超えて機能することは保証できません。実際、ジャーニーにエントリしたユーザーの情報はエントリから 91 日後にすべて削除されるので、91 日前より古い日時にエントリしたユーザーが誰かを特定することはできません。
 
@@ -260,7 +260,7 @@ ht-degree: 95%
 
 ジ [!DNL Adobe Journey Optimizer] ーニー全体で使用する結合ポリシーを適用します。 したがって、1 つのジャーニーで複数のオーディエンスが使用されている場合（例：[`inAudience` 関数](functions/functioninaudience.md)内での使用）、これにより、ジャーニーで使用される結合ポリシーとの不一致が生じると、エラーが発生して、公開がブロックされます。ただし、メッセージのパーソナライゼーションで一貫性のないオーディエンスが使用されると、一貫性がないにもかかわらず、アラートは発生しません。このため、このオーディエンスをメッセージのパーソナライゼーションに使用する場合は、オーディエンスに関連付けられた結合ポリシーを確認することを強くお勧めします。
 
-結合ポリシーについて詳しくは、[[!DNL Adobe Experience Platform]  ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/merge-policies/overview){target="_blank"} を参照してください。
+結合ポリシーについて詳しくは、[[!DNL Adobe Experience Platform]  ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/merge-policies/overview){target="_blank"} を参照してください。
 
 >[!NOTE]
 >
@@ -346,12 +346,17 @@ ht-degree: 95%
 
 * [ジャーニーのエントリ条件と終了条件ガイド](entry-exit-criteria-guide.md) - 実際の例とベストプラクティスを含む完全なガイド
 * [プロファイルエントリ管理](entry-management.md) - プロファイルがジャーニーにエントリする方法を設定します
-* [&#x200B; ジャーニーの終了方法](end-journey.md) - 自然なジャーニーの完了について説明します
+* [ ジャーニーの終了方法](end-journey.md) - 自然なジャーニーの完了について説明します
 * [プロファイル属性終了条件を使用したジャーニーの一時停止](journey-pause.md#journey-exit-criteria) - ジャーニーを一時停止する際に終了条件を使用します
 
 ## ジャーニースケジュール {#schedule}
 
-「**[!UICONTROL スケジュール]**」セクションは、**[!UICONTROL オーディエンスを読み取り]**&#x200B;アクティビティがキャンバスにドロップされた場合にのみ使用できます。これにより、ジャーニーを実行する特定の日付／時刻と頻度を定義できます。[オーディエンスを読み取りジャーニーのスケジュール方法の詳細情報](../building-journeys/read-audience.md)
+「**[!UICONTROL スケジュール]**」セクションは、**[!UICONTROL オーディエンスを読み取り]**&#x200B;アクティビティがキャンバスにドロップされた場合にのみ使用できます。これにより、ジャーニーを実行する特定の日付／時刻と頻度を定義できます。[オーディエンスを読み取りジャーニーのスケジュール方法の詳細情報](read-audience.md#schedule)
+
+>[!TIP]
+>
+>ジャーニーをスケジュールする際に、ウェーブ送信を設定して、ジャーニーのアクションを一括で経時的に配信することもできます。 [ ジャーニーでウェーブを使用して送信する方法を説明します ](send-using-waves.md)
+
 
 ## 競合管理 {#conflict}
 

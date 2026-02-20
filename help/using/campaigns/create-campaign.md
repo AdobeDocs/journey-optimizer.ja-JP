@@ -10,10 +10,10 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 作成, Optimizer, キャンペーン, サーフェス, メッセージ
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
+source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 94%
+source-wordcount: '213'
+ht-degree: 92%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 94%
 
 アクションキャンペーン（またはスケジュール済みキャンペーン）を使用すると、プロモーションオファー、エンゲージメントキャンペーン、お知らせ、法律上の注意、ポリシーの更新など、マーケティングのユースケースに対するシンプルなアドホックバッチ通信が可能になります。
 
-➡️ [この機能について詳しくは、ビデオを参照してください](#video)。
+➡️ [この機能について詳しくは、ビデオを参照してください。](#video)
 
 
 >[!NOTE]
@@ -46,10 +46,10 @@ ht-degree: 94%
 1. [キャンペーンアクションの設定](campaign-action.md)
 1. [アクションキャンペーンコンテンツの編集](campaign-content.md)
 1. [アクションキャンペーンオーディエンスの定義](campaign-audience.md)
-1. [アクションキャンペーンのスケジュール](campaign-schedule.md)
+1. [ アクションキャンペーンのスケジュール設定 ](campaign-schedule.md). オプションで [ ウェーブを使用して送信 ](send-using-waves.md)、メッセージをバッチで経時的に配信します。
 1. [アクションキャンペーンのレビューとアクティブ化](review-activate-campaign.md)
 
-[&#x200B; タイプ固有のガイドを使用した、完全なキャンペーン作成ワークフロー→](get-started-with-campaigns.md#workflow) について詳しくは、こちらを参照してください
+[完全なキャンペーン作成ワークフローについて詳しくは、タイプ固有のガイドを参照してください →](get-started-with-campaigns.md#workflow)
 
 ## チュートリアルビデオ {#video}
 
