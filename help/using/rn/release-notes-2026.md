@@ -7,10 +7,11 @@ feature: Release Notes
 topic: Content Management
 role: User
 level: Beginner, Intermediate
-source-git-commit: b53c28405e453be3767f05e2c7a7a1b2e69d0416
+exl-id: 65ca94cf-8e17-4a25-90f3-238083f81477
+source-git-commit: eb1056b57e72ab1cff5e32bff31b9cba5604f695
 workflow-type: tm+mt
-source-wordcount: '1391'
-ht-degree: 88%
+source-wordcount: '1371'
+ht-degree: 87%
 
 ---
 
@@ -21,8 +22,6 @@ ht-degree: 88%
 ## 2026年1月リリースノート {#jan-26-rn}
 
 <!--**Release date**: January 27-28, 2026-->
-
-[機能](#jan-26-01-features)および[機能強化](#jan-26-01-improv)の節では、既に使用可能な機能について説明します。一方、[近日リリース予定](#jan-26-01-coming-soon)の節では、後日使用可能になる予定の項目を一覧表示します。
 
 ### 新機能 {#jan-26-01-features}
 
@@ -185,7 +184,7 @@ ht-degree: 88%
 
 * **AI アシスタントコンテンツ品質チェック** - ブランド一致に加えて、ブランドガイドラインに依存せずに、全体的な<strong>コンテンツ品質</strong>を評価して、<strong>読みやすさ</strong>、一貫性、有効性に関する潜在的な問題を明らかにできるようになりました。これらの自動チェックは、不明確なメッセージ、一貫性のないトーン、構造上のギャップを特定するのに役立ちます。 [詳細情報](../content-management/brands-score.md#validate-quality)。
 
-  [この機能について詳しくは、ビデオを参照してください](https://video.tv.adobe.com/v/3470547/?captions=jpn&learn=on)。
+  [この機能について詳しくは、ビデオを参照してください](https://video.tv.adobe.com/v/3470544/?learn=on)。
 
 #### ジャーニー
 
