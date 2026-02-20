@@ -46,7 +46,7 @@ ht-degree: 92%
 1. [キャンペーンアクションの設定](campaign-action.md)
 1. [アクションキャンペーンコンテンツの編集](campaign-content.md)
 1. [アクションキャンペーンオーディエンスの定義](campaign-audience.md)
-1. [ アクションキャンペーンのスケジュール設定 ](campaign-schedule.md). オプションで [ ウェーブを使用して送信 ](send-using-waves.md)、メッセージをバッチで経時的に配信します。
+1. [&#x200B; アクションキャンペーンのスケジュール設定 &#x200B;](campaign-schedule.md). オプションで [&#x200B; ウェーブを使用して送信 &#x200B;](send-using-waves.md)、メッセージをバッチで経時的に配信します。
 1. [アクションキャンペーンのレビューとアクティブ化](review-activate-campaign.md)
 
 [完全なキャンペーン作成ワークフローについて詳しくは、タイプ固有のガイドを参照してください →](get-started-with-campaigns.md#workflow)
