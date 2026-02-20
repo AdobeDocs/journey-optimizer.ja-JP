@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: フラグメントを管理
+title: フラグメントの管理
 description: コンテンツフラグメントの管理方法を説明します
 feature: Fragments
 topic: Content Management
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 ---
 
-# フラグメントを管理 {#manage-fragments}
+# フラグメントの管理 {#manage-fragments}
 
 ## フラグメントへのアクセス {#access-fragments}
 
@@ -179,7 +179,7 @@ ht-degree: 100%
 
    ![](assets/fragment-add-new-attribute.png){width="70%" align="left"}
 
-1. 変更を保存し、新しいフラグメントを公開します。[方法について詳しくは、こちらを参照してください](create-fragments.md#publish)
+1. 変更を保存し、新しいフラグメントを公開します。[方法についてはこちらを参照](create-fragments.md#publish)
 
 1. 新しい属性を追加した、更新済みのフラグメントを参照するように、キャンペーンまたはジャーニーを更新します。
 
@@ -198,7 +198,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->アクセスを妨げるラベルが付いているジャーニー、キャンペーン、テンプレートでフラグメントが使用されている場合、選択したタブの上部にアラートメッセージが表示されます。[オブジェクトレベルのアクセス制御（OLAC）についての詳細情報](../administration/object-based-access.md)
+>アクセスを妨げるラベルが付いているジャーニー、キャンペーン、テンプレートでフラグメントが使用されている場合、選択したタブの上部にアラートメッセージが表示されます。[詳しくは、オブジェクトレベルのアクセス制御（OLAC）を参照してください](../administration/object-based-access.md)
 
 ## フラグメントのアーカイブ {#archive-fragments}
 
@@ -218,6 +218,6 @@ ht-degree: 100%
 
 ## 別のサンドボックスへのフラグメントのエクスポート {#export}
 
-Journey Optimizer では、1 つのサンドボックスから別のサンドボックスにフラグメントをコピーできます。例えば、ステージサンドボックス環境から実稼動サンドボックスにフラグメントをコピーできます。
+Journey Optimizer では、1 つのサンドボックスから別のサンドボックスにフラグメントをコピーできます。例えば、ステージサンドボックス環境から本番稼働用サンドボックスにフラグメントをコピーできます。
 
 コピープロセスは、ソースサンドボックスとターゲットサンドボックス間の&#x200B;**パッケージのエクスポートおよびインポート**&#x200B;を介して実行されます。オブジェクトをエクスポートしてターゲットサンドボックスにインポートする方法について詳しくは、[別のサンドボックスへのオブジェクトのコピー](../configuration/copy-objects-to-sandbox.md)の節を参照してください。

@@ -10,7 +10,7 @@ level: Intermediate, Experienced
 keywords: 外部, ソース, データ, 設定, 接続, サードパーティ
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1647'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ POST または GET を使用して JSON を返す REST API がサポートされ
 
 >[!TIP]
 >
->有効期限の不一致や 401 エラーを回避するために、特にワークロードが大きい場合は、外部 API のトークンの有効期限と Journey Optimizer の [`cacheDuration` 設定](#custom-authentication-access-token)の間に 1 分以上のバッファーを残すことをお勧めします。
+>有効期限の不一致と 401 エラーを回避するために、特にワークロードが大きい場合は、外部 API のトークンの有効期限と Journey Optimizer の [`cacheDuration` 設定](#custom-authentication-access-token)の間に 1 分以上のバッファーを残すことをお勧めします。
 
 ## 外部データソースの作成と設定 {#create-ext-data-sources}
 

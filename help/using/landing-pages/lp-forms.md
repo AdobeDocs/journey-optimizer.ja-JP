@@ -13,7 +13,7 @@ exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
 source-git-commit: 13ef8ae4fa988537db192eca0b906940e51eeb28
 workflow-type: tm+mt
 source-wordcount: '1630'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -73,12 +73,12 @@ ht-degree: 96%
 
    >[!IMPORTANT]
    >
-   >HTTP API ストリーミング接続をドロップダウンリストに表示するには、Adobe Experience Platformで作成する際に次の要件を満たす必要があります。
+   >HTTP API ストリーミング接続をドロップダウンリストに表示するには、Adobe Experience Platform で作成する際に次の要件を満たしている必要があります。
    >
-   >* **データタイプ** は **XDM** に設定する必要があります（生データではありません）
-   >* **認証** は **無効** （認証されていない接続）である必要があります
+   >* **データタイプ**&#x200B;は、**XDM** に設定する必要があります（生データではありません）
+   >* **認証**&#x200B;は、**無効**（認証されていない接続）にする必要があります
    >
-   >ストリーミング接続がリストに表示されない場合は、これらの条件の両方が満たされていることを確認します。<!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
+   >ストリーミング接続がリストに表示されない場合は、これらの条件が両方とも満たされていることを確認します。<!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
 
 1. フォームにリンクする&#x200B;**[!UICONTROL データセット]**&#x200B;を選択します。ここにフォームの応答が保存および反映されます。 特定のデータセットを検索するには、入力するか、リストから選択できます。
 

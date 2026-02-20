@@ -7,7 +7,7 @@ role: User
 level: Experienced
 exl-id: 5dd46ea8-acba-4c42-a65a-c18e45cba2cd
 source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1218'
 ht-degree: 100%
 
@@ -90,7 +90,7 @@ JSON または HTML コードの一部を編集可能にするには、まず、
 
 1. 同様に、他の編集可能なフィールドを追加し、各フィールドを `{{#inline}}` タグと `{{/inline}}` タグでラップします。
 
-1. 必要に応じて、定義した編集可能なフィールドに対応する ID を含む、残りのコードを編集します。[詳細情報](create-code-based.md#edit-code)
+1. 必要に応じて、定義した編集可能なフィールドに対応する ID を含む、残りのコードを編集します。[方法についてはこちらを参照](create-code-based.md#edit-code)
 
    ![](assets/cbe-template-form-field-inline.png)
 
@@ -246,4 +246,4 @@ JSON テンプレートと HTML テンプレートの例を以下に示します
 
 コードベースのエクスペリエンスチャネルコンテンツテンプレートに編集可能なフィールドを追加する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3463992/?captions=jpn&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3463990/?learn=on&#x26;enablevpops)

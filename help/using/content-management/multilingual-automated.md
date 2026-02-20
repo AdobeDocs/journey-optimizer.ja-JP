@@ -30,7 +30,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->自動フローの場合、ユーザーには&#x200B;**[!UICONTROL 翻訳サービス]**&#x200B;機能に関連する権限が必要です。[詳しくは、権限を参照してください](../administration/permissions.md)
+>自動フローの場合、ユーザーには&#x200B;**[!UICONTROL 翻訳サービス]**&#x200B;機能に関連する権限が必要です。[詳しくは、権限を参照してください。](../administration/permissions.md)
 
 自動フローを使用して、ターゲット言語と言語プロバイダーを簡単に選択できます。その後、コンテンツは翻訳に直接送信され、完了時に最終レビューが行われます。
 
@@ -166,7 +166,7 @@ ht-degree: 98%
 
    1. Adobe Experience Platform のデータ収集で、タグのプロパティにアクセスします。
 
-   1. **[!UICONTROL ルール]**&#x200B;メニューにアクセスし、新しいルールを作成します。ルールの作成方法について詳しくは、[!DNL Adobe Experience Platform] データ収集ドキュメント [&#x200B; 参照してください &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
+   1. **[!UICONTROL ルール]**&#x200B;メニューにアクセスし、新しいルールを作成します。ルールの作成方法について詳しくは、[!DNL Adobe Experience Platform] データ収集ドキュメント [ 参照してください ](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
 
    1. ルールの「**[!UICONTROL IF]**」セクションで、次のように設定されたイベントを追加します。
 
@@ -341,7 +341,7 @@ ht-degree: 98%
 
    ![](assets/translation_review_2.png)
 
-1. 更新した翻訳を入力し、終了したら「**[!UICONTROL 確認]**」をクリックします。
+1.   更新した翻訳を入力し、終了したら「**[!UICONTROL 確認]**」をクリックします。
 
    ![](assets/translation_review_4.png)
 

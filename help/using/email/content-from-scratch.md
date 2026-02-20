@@ -12,7 +12,7 @@ exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
 source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
 workflow-type: tm+mt
 source-wordcount: '743'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -127,6 +127,6 @@ ht-degree: 97%
 
    ![](assets/email_designer_simulate_content.png)
 
-1. また、コンテンツの品質を検証して、読みやすさ、有効性、コンテンツのまとまりを評価することもできます。 [&#x200B; コンテンツ品質検証の詳細情報 &#x200B;](../content-management/brands-score.md#validate-quality)
+1. また、コンテンツの品質を検証して、読みやすさ、有効性、コンテンツのまとまりを評価することもできます。 [コンテンツ品質の検証の詳細情報](../content-management/brands-score.md#validate-quality)
 
 1. コンテンツの準備が整ったら、「**[!UICONTROL 保存]**」をクリックします。

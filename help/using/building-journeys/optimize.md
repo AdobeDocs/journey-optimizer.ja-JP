@@ -14,7 +14,7 @@ version: Journey Orchestration
 source-git-commit: fd42ff8502f03debb0bb8c6c0c286744be62c561
 workflow-type: tm+mt
 source-wordcount: '1662'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -123,7 +123,7 @@ ht-degree: 98%
 
 >[!CAUTION]
 >
->パス実験のメタデータは、一度公開したら編集しないでください。 メタデータを編集すると、実験結果の計算とレポートが中断されます。
+>パス実験のメタデータは、一度公開したら編集しないでください。メタデータを編集すると、実験結果の計算とレポートが中断されます。
 
 ### 実験のユースケース {#uc-experiment}
 

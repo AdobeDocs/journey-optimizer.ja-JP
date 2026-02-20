@@ -12,7 +12,7 @@ exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
 source-git-commit: 4188d0e321f3da79932b648e3bdf8ffcf6efa22b
 workflow-type: tm+mt
 source-wordcount: '1854'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -252,13 +252,13 @@ ht-degree: 94%
 
 ## チャネル設定の非アクティブ化 {#deactivate-a-surface}
 
-**[!UICONTROL アクティブ]** チャネル設定を新しいメッセージの作成に使用できないようにするには、その設定を非アクティブにします。<!--However, journeys' messages currently using this configuration will not be affected and will continue working.-->
+**[!UICONTROL アクティブ]**&#x200B;なチャネル設定を新しいメッセージの作成に使用できないようにするには、その設定を非アクティブ化します。<!--However, journeys' messages currently using this configuration will not be affected and will continue working.-->
 
-次の場合は、チャネル設定をディアクティベートできません。
+次の場合は、チャネル設定を非アクティブ化することはできません。
 
-* ライブジャーニーで参照されている場合。 ライブジャーニーで使用中の設定をディアクティベートしようとすると、エラーが発生します。 チャネル設定を非アクティブ化するには、この設定を使用するすべてのライブジャーニーがクローズまたは停止していることを確認してください。 [&#x200B; ジャーニーの終了方法を学ぶ &#x200B;](../building-journeys/end-journey.md)
+* ライブジャーニーで参照されている場合。 ライブジャーニーで引き続き使用中の設定を非アクティブ化しようとすると、エラーが発生します。チャネル設定を非アクティブ化するには、この設定を使用しているすべてのライブジャーニーがクローズまたは停止していることを確認します。[ジャーニーを終了する方法の詳細情報](../building-journeys/end-journey.md)
 
-* チャネル設定の更新の処理中。 更新が正常に完了するか失敗するまで待つ必要があります。[&#x200B; チャネル設定の編集 &#x200B;](#edit-channel-surface) および [&#x200B; 更新ステータス &#x200B;](#update-statuses) について説明します。
+* チャネル設定の更新の処理中。更新が正常に完了するか失敗するまで待機する必要があります。詳しくは、[チャネル設定の編集](#edit-channel-surface)および[更新ステータス](#update-statuses)を参照してください。
 
 チャネル設定を非アクティブ化するには、次の手順に従います。
 
