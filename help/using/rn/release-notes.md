@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 86717d6a218fcbaf59321412b74db4941c859333
+source-git-commit: 421429e4edc72d392f81ec3077188ce7cb300c5d
 workflow-type: tm+mt
-source-wordcount: '1647'
+source-wordcount: '1585'
 ht-degree: 35%
 
 ---
@@ -29,11 +29,11 @@ ht-degree: 35%
 
 ## 2026 年 2 月リリースノート {#feb-26-01-rn}
 
-[&#x200B; 新機能 &#x200B;](#feb-26-01-features) と [&#x200B; 改善点 &#x200B;](#feb-26-01-improv) の節では、既に使用可能な機能について説明しています。 [&#x200B; 近日公開 &#x200B;](#coming-soon) のセクションには、2 月下旬にリリースが予定されている機能と改善点の一覧が表示されます。
+[ 新機能 ](#feb-26-01-features) と [ 改善点 ](#feb-26-01-improv) の節では、既に使用可能な機能について説明しています。 [ 近日公開 ](#coming-soon) のセクションには、2 月下旬にリリースが予定されている機能と改善点の一覧が表示されます。
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
@@ -205,11 +205,13 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 #### 設定
 
-* **ジャーニー式でのエクスペリエンスイベントの使用** - 2026 年 4 月 1 日（PT）以降、ジャーニー式でのエクスペリエンスイベント属性の使用は、過去 90 日間にこの機能を使用していない組織ではサポートされなくなります。 この機能は、2025 年 7 月 8 日（PT）以降、新規のお客様は使用できなくなっています。 代替手段については、[&#x200B; ジャーニーでのエクスペリエンスイベントの参照 &#x200B;](../building-journeys/exp-event-lookup.md) を参照してください。
+* **ジャーニー式でのエクスペリエンスイベントの使用** - 2026 年 4 月 1 日（PT）以降、ジャーニー式でのエクスペリエンスイベント属性の使用は、過去 90 日間にこの機能を使用していない組織ではサポートされなくなります。 この機能は、2025 年 7 月 8 日（PT）以降、新規のお客様は使用できなくなっています。 代替手段については、[ ジャーニーでのエクスペリエンスイベントの参照 ](../building-journeys/exp-event-lookup.md) を参照してください。
 
 #### コンテンツ管理
 
-* **新しいカラータブでブランドを更新** - ブランドガイドラインは、すべてのタッチポイントをまたいでブランドを一貫して提示するのに役立ちます。新しい <strong> カラー </strong> セクションでは、エクスペリエンスをまたいでカラーの選択、整理、適用の方法を概説し、ブランドのカラーシステムの標準を定義します。 これにより、プライマリー、セカンダリー、アクセント、ニュートラルカラーの一貫性のある使用が保証され、凝集してアクセス可能で認識可能なブランドアイデンティティがサポートされます。 [詳細情報](../content-management/brands.md)
+<!--
+* **Update brands with new color tab** - Brand guidelines help ensure your brand is presented consistently across all touchpoints. The new <strong>Colors</strong> section defines the standards for your brand's color system, outlining how colors are selected, organized, and applied across experiences. It ensures consistent use of primary, secondary, accent, and neutral colors to support a cohesive, accessible, and recognizable brand identity. [Read more](../content-management/brands.md)
+-->
 
 * **テーマを使用して画像をメールテンプレートに変換** - Journey Optimizerで画像をメールテンプレートに変換する際に、テーマを入力として使用できるようになり、生成されたHTMLがブランドパラメーターに従うようになりました。 背景色、ボタンの色、フォント、行間、余白、パディングなどのスタイル設定が自動的に適用されるので、手動によるデザイン作業が軽減され、最小限の編集作業で使いやすいテンプレートが配信されます。 [詳細情報](../content-management/image-to-html.md)
 
