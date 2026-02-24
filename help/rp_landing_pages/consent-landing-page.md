@@ -14,7 +14,7 @@ ht-degree: 29%
 
 # 同意を管理{#section-overview}
 
-同意の管理は、GDPR などのプライバシー規制へのコンプライアンスを確保しながら、オーディエンスとの信頼を構築するための鍵です。 Adobe Journey Optimizerの同意は、機密フィールドがサードパーティ製システムに書き出されるのを防ぐ [ プライバシー管理 ](../using/privacy/get-started-privacy.md) ポリシー [ データリクエスト ](../using/privacy/requests.md) および [ 監査ログ ](../using/privacy/audit-logs.md) や [ データガバナンス ](../using/action/action-privacy.md) ポリシーと連携して機能します。
+同意の管理は、GDPR などのプライバシー規制へのコンプライアンスを確保しながら、オーディエンスとの信頼を構築するための鍵です。 Adobe Journey Optimizerの同意は、機密フィールドがサードパーティ製システムに書き出されるのを防ぐ [&#x200B; プライバシー管理 &#x200B;](../using/privacy/get-started-privacy.md) ポリシー [&#x200B; データリクエスト &#x200B;](../using/privacy/requests.md) および [&#x200B; 監査ログ &#x200B;](../using/privacy/audit-logs.md) や [&#x200B; データガバナンス &#x200B;](../using/action/action-privacy.md) ポリシーと連携して機能します。
 
 同意は、3 つの方法で処理できます。**オプトアウト環境設定** メール、SMS、プッシュで購読解除する）、**同意ポリシー** データの使用とマーケティングアクションを制御するためにキャンペーンとジャーニーに適用される）、および **環境設定管理** 選択した購読トピックとチャネルに基づいて顧客をターゲットにする）。 以下のトピックでは、各手順を説明します。
 
