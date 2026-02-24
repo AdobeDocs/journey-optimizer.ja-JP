@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: チャネル, サーフェス, 技術, パラメーター, Optimizer
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
-source-git-commit: 725d1d98759a721a7e2e891f0e560cd967e05f7f
+source-git-commit: d793d9eccde3b0b548e778040bdcd8817e80c90a
 workflow-type: tm+mt
 source-wordcount: '823'
 ht-degree: 85%
@@ -34,25 +34,25 @@ ht-degree: 85%
 ガイド付きチャネルの設定は、次のプラットフォームとチャネルをサポートしています。
 
 >[!BEGINTABS]
->
+
 >[!TAB iOS]
->
->**SDK:** Swift by Apple
->
->**チャネル：** モバイルのアプリ内、モバイルのプッシュメッセージ
->
+
+**SDK:** Swift by Apple
+
+**チャネル：** モバイルのアプリ内、モバイルのプッシュメッセージ
+
 >[!TAB Android]
->
->**SDK:** Kotlin
->
->**チャネル：** モバイルのアプリ内、モバイルのプッシュメッセージ
->
+
+**SDK:** Kotlin
+
+**チャネル：** モバイルのアプリ内、モバイルのプッシュメッセージ
+
 >[!TAB Web]
->
->**SDK:** JavaScript
->
->**チャネル：** Web Basic
->
+
+**SDK:** JavaScript
+
+**チャネル：** Web Basic
+
 >[!ENDTABS]
 
 設定するプラットフォームごとに、個別の設定を作成する必要があります。これは、各アプリに一意のチャネル設定が必要であり、これにより各プラットフォームに必要なチャネルを柔軟に決定できるからです。
