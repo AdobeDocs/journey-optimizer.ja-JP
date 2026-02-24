@@ -14,9 +14,9 @@ ht-degree: 41%
 
 # メールサブドメインのデリゲート{#section-overview}
 
-メールサブドメインのデリゲートは、[ チャネル設定 ](../using/configuration/get-started-configuration.md) の中核となる手順で、Journey Optimizerからメールを送信する前に必要です。 サブドメインを使用すると、トラフィックタイプ（マーケティングとトランザクションなど）を分離し、メインドメインのレピュテーションを保護し、[IP ウォームアップ ](../using/configuration/ip-warmup-gs.md) を高速化できます。 [ メールチャネル設定 ](../using/email/get-started-email-config.md) および [ 配信品質の監視 ](../using/reports/deliverability.md) と連携して、メッセージがインボックスに確実に届くようにします。
+メールサブドメインのデリゲートは、[&#x200B; チャネル設定 &#x200B;](../using/configuration/get-started-configuration.md) の中核となる手順で、Journey Optimizerからメールを送信する前に必要です。 サブドメインを使用すると、トラフィックタイプ（マーケティングとトランザクションなど）を分離し、メインドメインのレピュテーションを保護し、[IP ウォームアップ &#x200B;](../using/configuration/ip-warmup-gs.md) を高速化できます。 [&#x200B; メールチャネル設定 &#x200B;](../using/email/get-started-email-config.md) および [&#x200B; 配信品質の監視 &#x200B;](../using/reports/deliverability.md) と連携して、メッセージがインボックスに確実に届くようにします。
 
-**完全デリゲーション** （Adobeが DNS を管理）、**CNAME 設定**、**カスタムデリゲーション** （ユーザーが証明書と DNS を所有）のいずれかの設定方法を選択できます。 CNAME から開始する場合は、後で [ カスタムの委任に移行 ](../using/configuration/custom-subdomain-migration.md) して、セキュリティを強化できます。 この節では、DMARCと PTR レコード、Gmail 用のGoogle TXT レコードおよび IP プールについても説明します。 より広範な配信品質ガイダンスについては、[ 配信品質の基本を学ぶ ](../using/reports/deliverability.md) および [ メールアドレスの監視 ](monitor-reputation-landing-page.md) を参照してください。
+**完全デリゲーション** （Adobeが DNS を管理）、**CNAME 設定**、**カスタムデリゲーション** （ユーザーが証明書と DNS を所有）のいずれかの設定方法を選択できます。 CNAME から開始する場合は、後で [&#x200B; カスタムの委任に移行 &#x200B;](../using/configuration/custom-subdomain-migration.md) して、セキュリティを強化できます。 この節では、DMARCと PTR レコード、Gmail 用のGoogle TXT レコードおよび IP プールについても説明します。 より広範な配信品質ガイダンスについては、[&#x200B; 配信品質の基本を学ぶ &#x200B;](../using/reports/deliverability.md) および [&#x200B; メールアドレスの監視 &#x200B;](monitor-reputation-landing-page.md) を参照してください。
 
 ## メールサブドメインのデリゲート
 
