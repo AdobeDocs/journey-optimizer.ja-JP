@@ -9,19 +9,23 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 手順, 設定, ジャーニー, イベント, ストリーム, API
 exl-id: e0144151-6c54-4656-9650-b544d8e7be16
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: ht
-source-wordcount: '284'
-ht-degree: 100%
+source-git-commit: bfcc7b1544a0d58af8ac1ac69e777a3ff894bbdf
+workflow-type: tm+mt
+source-wordcount: '298'
+ht-degree: 95%
 
 ---
 
-# イベントを送信するための追加手順 {#additional-steps-to-send-events}
+# イベントを送信するための手順 {#additional-steps-to-send-events}
 
 イベントを&#x200B;**[!UICONTROL ストリーミング取得 API]**&#x200B;に送信し、[!DNL Journey Optimizer] で使用するように設定するには、次の手順に従う必要があります。
 
 1. Adobe Experience Platform API からインレット URL を取得します。詳しくは、[ストリーミング取得 API の概要](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=ja){target="_blank"}を参照してください。
 1. **[!UICONTROL イベント]**&#x200B;メニューのペイロードプレビューから、ペイロードをコピーします。詳しくは、[このページ](../event/about-creating.md#define-the-payload-fields)を参照してください。
+
+>[!IMPORTANT]
+>
+>イベントの要件と制限（ストリーミング、クエリサービス、バッチ取得）については、[ジャーニーガードレール – イベント ](../start/guardrails.md#events-g) を参照してください。
 
 次に、コピーしたペイロードを使用してイベントをストリーミング取得 API にプッシュするデータシステムを設定する必要があります。
 
