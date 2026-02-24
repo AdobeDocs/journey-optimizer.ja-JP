@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: チャネル, サーフェス, 技術, パラメーター, Optimizer
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
-source-git-commit: d793d9eccde3b0b548e778040bdcd8817e80c90a
+source-git-commit: 6b7fe02136a4ac7ca8012576ad8671cf70da6aeb
 workflow-type: tm+mt
 source-wordcount: '823'
 ht-degree: 85%
@@ -116,15 +116,20 @@ ht-degree: 85%
 
 * 既存の設定オプションを使用している場合は、次の Adobe Experience Platform Mobile SDK 拡張機能バージョンを使用していることを確認してください。必要な依存関係や初期化コードを含む SDK 設定について詳しくは、[次のドキュメント](https://experienceleague.adobe.com/ja/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks)を参照してください。
 
-  Android の場合
+>[!BEGINTABS]
 
-   * Mobile Core v3.1.0 以降
-   * Adobe Journey Optimizer v3.1.0 以降
+>[!TAB iOS の場合]
 
-  iOS の場合
+* Mobile Core v5.2.0 以降
+* Adobe Journey Optimizer v5.1.1 以降
 
-   * Mobile Core v5.2.0 以降
-   * Adobe Journey Optimizer v5.1.1 以降
+>[!TAB Android の場合]
+
+* Mobile Core v3.1.0 以降
+* Adobe Journey Optimizer v3.1.0 以降
+
+>[!ENDTABS]
+
 
 ## 自動作成されたリソース {#auto-create-resources}
 
