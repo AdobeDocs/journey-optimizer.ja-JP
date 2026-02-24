@@ -9,14 +9,16 @@ role: Admin, Developer
 level: Experienced
 keywords: サンドボックス, 仮想, 環境, 組織, プラットフォーム
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
-workflow-type: ht
-source-wordcount: '323'
-ht-degree: 100%
+source-git-commit: 56faee8badff99ff9a39cfd85a78c1ed272cd2ca
+workflow-type: tm+mt
+source-wordcount: '406'
+ht-degree: 79%
 
 ---
 
 # サンドボックスの使用と割り当て {#sandboxes}
+
+**サンドボックス** は、Adobe Journey Optimizer インスタンスを、開発、テストまたは実稼動用に個別の独立したワークスペースに分割する仮想環境です。 サンドボックス管理は、**管理** / **チャネル** / **システムと環境の接続** の下にあります（または、インターフェイスの右上にあるサンドボックス切り替えボタンを使用します）。 サンドボックスを使用すると、安全に実験したり、役割ごとに異なるアクセス権を割り当てたり、コンテンツを整理したりできます。 このページでは、サンドボックスの使用および割り当て方法、コンテンツアクセスの設定方法、[ 別のサンドボックスへのオブジェクトの書き出し ](../configuration/copy-objects-to-sandbox.md) 記事では、サンドボックス間でジャーニーとテンプレートをコピーする方法について説明します。
 
 ## サンドボックスの使用 {#using-sandbox}
 
@@ -68,6 +70,6 @@ ht-degree: 100%
 
 ## チュートリアルビデオ{#video}
 
-サンドボックスの概要と、開発用サンドボックスと実稼動用サンドボックスを区別する方法について説明します。サンドボックスの作成、リセット、削除方法について説明します。
+サンドボックスの概要と、開発用サンドボックスと本番稼働用サンドボックスを区別する方法について説明します。サンドボックスの作成、リセット、削除方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416784?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334355?quality=12)
