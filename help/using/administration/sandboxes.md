@@ -72,4 +72,4 @@ ht-degree: 79%
 
 サンドボックスの概要と、開発用サンドボックスと本番稼働用サンドボックスを区別する方法について説明します。サンドボックスの作成、リセット、削除方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/334355?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3416784?captions=jpn&quality=12)
