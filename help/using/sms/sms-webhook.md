@@ -7,14 +7,25 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
-source-git-commit: 2bd0048c356c668ce2611b923f126e2a4e2c8630
+source-git-commit: 6859847ad700a471dd43b2cb9b0c486e31d91c78
 workflow-type: tm+mt
-source-wordcount: '1019'
-ht-degree: 71%
+source-wordcount: '1077'
+ht-degree: 67%
 
 ---
 
 # Webhook の作成 {#webhook}
+
+>[!CONTEXTUALHELP]
+>id="ajo_channels_sms_webhook_settings_create"
+>title="SMS Webhook の作成"
+>abstract="Webhook を設定して、オプトインおよびオプトアウトの同意を管理するためのインバウンド応答をキャプチャし、利用可能な場合はレシートの読み取りを含む配信レポートを受信できます。"
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_webhook_flow_type"
+>title="Webhook タイプを選択"
+>abstract="Webhook を設定する際は、同意応答とユーザーの環境設定を取り込む **インバウンド** か、レポートと分析のために配信とエンゲージメントイベントを追跡する **[!UICONTROL フィードバック]** を選択します。"
 
 >[!BEGINSHADEBOX]
 
@@ -88,7 +99,7 @@ SMS プロバイダーに応じて、以下のタブを参照します。
 
    ![](assets/sms_byo_7.png){zoomable="yes"}
 
-Webhook の設定を作成および設定した後、SMS メッセージ用に [&#x200B; チャネル設定 &#x200B;](sms-configuration-surface.md) を作成する必要があります。
+Webhook の設定を作成および設定した後、SMS メッセージ用に [ チャネル設定 ](sms-configuration-surface.md) を作成する必要があります。
 
 設定が完了すると、メッセージオーサリング、パーソナライゼーション、リンクトラッキング、レポートなど、すべての標準のチャネル機能を活用できます。
 
@@ -241,4 +252,4 @@ Once configured, you can leverage all out-of-the-box channel capabilities such a
 
 ## チュートリアルビデオ {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3459089?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3431625)
