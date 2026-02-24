@@ -99,7 +99,7 @@ eventTypes について詳しくは、[この節](#discarded-events)を参照し
 
   **一般的な原因**：重複イベント、大量のイベント、システムリソースの制限。
 
-  **トラブルシューティング**：重複排除の実装、トラフィックスパイクの回避、ジャーニー設計の最適化 [ 持続性がある場合はサポートへのお問い合わせ ](../start/user-interface.md#support-ticket-guidelines)。
+  **トラブルシューティング**：重複排除の実装、トラフィックスパイクの回避、ジャーニー設計の最適化 [&#x200B; 持続性がある場合はサポートへのお問い合わせ &#x200B;](../start/user-interface.md#support-ticket-guidelines)。
 
 * **EVENT_WITH_NO_JOURNEY**：イベントを受信しましたが、応答するアクティブなジャーニーが設定されていません
 

@@ -139,7 +139,7 @@ ht-degree: 92%
 
 6. **必要に応じて再試行**：500 シリーズのエラーの場合、数分後にシンプルに再試行すると、一時的な問題が解決することがよくあります。
 
-7. **必要に応じてエスカレーションする**：解決手順に従ってもエラーが解決しない場合は、完全なエラーコード、リクエスト ID （使用可能な場合）、再現手順および関連する設定の詳細を記載した [Adobe サポートにお問い合わせください ](../start/user-interface.md#support-ticket-guidelines)。
+7. **必要に応じてエスカレーションする**：解決手順に従ってもエラーが解決しない場合は、完全なエラーコード、リクエスト ID （使用可能な場合）、再現手順および関連する設定の詳細を記載した [Adobe サポートにお問い合わせください &#x200B;](../start/user-interface.md#support-ticket-guidelines)。
 
 ## 一般的なエラーを回避するためのベストプラクティス {#best-practices}
 
@@ -183,12 +183,12 @@ ht-degree: 92%
 1. **情報を収集**：エラーコード、リクエスト ID、タイムスタンプ、再現手順を収集します
 2. **システムステータスを確認**：既知のサービスの問題について詳しくは、[アドビのステータス](https://status.adobe.com/ja){target="_blank"}を参照してください
 3. **ドキュメントを検索**：解決策について詳しくは、[Adobe Experience League](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=ja){target="_blank"} を参照してください。
-4. **コミュニティに参加**:[[!DNL Adobe Journey Optimizer]  コミュニティ ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} に質問を投稿する
-5. **Adobe サポートへのお問い合わせ**:[ サポートチケットを送信 ](../start/user-interface.md#support-ticket-guidelines) と、関連するすべての詳細
+4. **コミュニティに参加**:[[!DNL Adobe Journey Optimizer]  コミュニティ &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} に質問を投稿する
+5. **Adobe サポートへのお問い合わせ**:[&#x200B; サポートチケットを送信 &#x200B;](../start/user-interface.md#support-ticket-guidelines) と、関連するすべての詳細
 
 >[!NOTE]
 >
->このエラー コードの参照は、新しいコードを特定および文書化する際に継続的に更新されます。最新の情報については、定期的に [[!DNL Adobe Journey Optimizer]  コミュニティ ブログ ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs){target="_blank"} を確認してください。
+>このエラー コードの参照は、新しいコードを特定および文書化する際に継続的に更新されます。最新の情報については、定期的に [[!DNL Adobe Journey Optimizer]  コミュニティ ブログ &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs){target="_blank"} を確認してください。
 
 **関連トピック**
 

@@ -62,7 +62,7 @@ ht-degree: 94%
 
 * **ジャーニーのステータス**：レポートデータは、公開済みのジャーニーまたは[ドライランモード](journey-dry-run.md)で実行中のジャーニーでのみ使用できます。ドラフトジャーニーでは、レポートデータは生成されません。
 
-これらの項目を確認した後も問題が解決しない場合は、Adobe管理者または [Adobe サポート ](../start/user-interface.md#support-ticket-guidelines) にお問い合わせください。
+これらの項目を確認した後も問題が解決しない場合は、Adobe管理者または [Adobe サポート &#x200B;](../start/user-interface.md#support-ticket-guidelines) にお問い合わせください。
 
 >[!MORELIKETHIS]
 >
