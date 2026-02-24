@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
+source-git-commit: f1b2c1ca8c9747547c12d90f24f432f1a761d92a
 workflow-type: tm+mt
-source-wordcount: '3101'
+source-wordcount: '3090'
 ht-degree: 98%
 
 ---
@@ -215,8 +215,7 @@ ht-degree: 98%
          + [参照アクティビティによる顧客との関与](using/orchestrated/engage-customers-uc.md)
          + [製品の可用性に関するユーザーへの通知](using/orchestrated/product-availability-uc.md)
 + 競合と優先順位付け {#conflict-prioritization}
-   + [競合管理と優先順位付け](/help/rp_landing_pages/conflict-prioritization-landing-page.md)
-   + [競合管理と優先順位付けの基本を学ぶ](using/conflict-prioritization/gs-conflict-prioritization.md)
+   + [競合管理と優先順位付け](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [潜在的な競合の特定](using/conflict-prioritization/conflicts.md)
    + [優先度スコアの割り当て](using/conflict-prioritization/priority-scores.md)
    + メッセージとジャーニーのキャッピングルールの設定 {#capping-rules}
@@ -861,7 +860,6 @@ ht-degree: 98%
    + [チャネル設定の指定](using/configuration/channel-surfaces.md)
    + [メッセージコンテンツの書き出し](using/configuration/message-export.md)
    + ガイド付きチャネル設定 {#guided-setup}
-      + [ガイド付きチャネル設定](/help/rp_landing_pages/guided-setup-landing-page.md)
       + [ガイド付きチャネル設定の基本を学ぶ](using/configuration/set-mobile-config.md)
       + [チャネル設定の作成](using/configuration/create-channel-set-up.md)
    + メールサブドメインのデリゲート {#delegate-subdomains}
@@ -930,7 +928,6 @@ ht-degree: 98%
       + [ジャーニーでの Campaign v7/v8 アクション](using/action/acc-action.md)
       + [ジャーニーでの Marketo Engage アクション](using/action/marketo-engage.md)
    + サンドボックス管理 {#sandbox}
-      + [サンドボックス管理](/help/rp_landing_pages/sandbox-landing-page.md)
       + [サンドボックスの使用と割り当て](using/administration/sandboxes.md)
       + [別のサンドボックスへのオブジェクトのエクスポート](using/configuration/copy-objects-to-sandbox.md)
    + [ソースコネクタの設定](using/start/get-started-sources.md)
@@ -947,7 +944,7 @@ ht-degree: 98%
    + [プライバシー](/help/rp_landing_pages/privacy-landing-page.md)
    + [プライバシーの基本を学ぶ](using/privacy/get-started-privacy.md)
    + [プライバシーリクエスト](using/privacy/requests.md)
-   + [&#x200B; リソースに対する監査アクション](using/privacy/audit-logs.md)
+   + [ リソースに対する監査アクション](using/privacy/audit-logs.md)
    + [データライフサイクル操作の実行](using/privacy/data-hygiene.md)
    + 同意を管理 {#consent}
       + [同意を管理](/help/rp_landing_pages/consent-landing-page.md)
