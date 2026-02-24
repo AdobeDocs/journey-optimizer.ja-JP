@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: チャネル, サーフェス, 技術, パラメーター, Optimizer
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
-source-git-commit: f916d91ffd2c41261612f2127f35c41275c9d013
+source-git-commit: 7cca968a161a26d0af385a028c4404261088f033
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 100%
+source-wordcount: '816'
+ht-degree: 88%
 
 ---
 
@@ -29,9 +29,9 @@ ht-degree: 100%
 >abstract="Adobe Experience Platform Assurance は、このワークフローに組み込まれており、SDK 実装の検査や、アプリケーションイベントのシミュレートと検証に役立ちます。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/home" text="Adobe Experience Platform Assurance の概要"
 
-この設定により、マーケティングチャネルの迅速な設定が容易になり、Experience Platform、Journey Optimizer およびデータ収集内で必要なすべてのリソースがすぐに使用できるようになります。これにより、マーケティングチームはキャンペーンとジャーニーの作成を開始できます。
+**ガイド付きチャネル設定** は、Adobe Journey Optimizerの合理化されたワークフローで、モバイルマーケティングチャネルと web マーケティングチャネルをすばやく設定するのに役立ちます。 **Administration**/**Channels**/**Channel Configuration** の配下にあり、Adobe Experience Platform、Journey Optimizerおよび Data Collection 全体で、タグプロパティ、データストリーム、チャネル設定などの重要なリソースの作成を自動化します。 各コンポーネントを手動で設定する代わりに、すべてを自動的に設定するガイド付きフローに従うと、マーケティングチームは、アプリ内メッセージ、プッシュ通知、web エクスペリエンスの作成を遅延なく開始できます。
 
-ガイド付きチャネル設定は、次のプラットフォームとチャネルをサポートしています。
+ガイド付きチャネルの設定は、次のプラットフォームとチャネルをサポートしています。
 
 * プラットフォームと SDK：
 
