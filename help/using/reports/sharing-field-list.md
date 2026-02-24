@@ -1,26 +1,26 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: ステップイベントフィールドの一覧
-description: ステップイベントフィールドの一覧
+title: ステップイベントフィールドのリスト
+description: ステップイベントフィールドのリスト
 feature: Journeys, Reporting
 topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: 4f13f863a5e08cc0e92c26d782d888f0d6d2fea4
+source-git-commit: 63fb247449dfb989b191254ec6d117a403edd29d
 workflow-type: tm+mt
 source-wordcount: '649'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
-# ステップイベントフィールドの一覧 {#sharing-field-list}
+# ステップイベントフィールドのリスト {#sharing-field-list}
 
 ステップイベントフィールドはカテゴリ別に整理されています。
 
 * デバッグ情報フィールド
-* ジャーニーフィールド
+* ジャーニーのフィールド
 * プロファイルフィールド
 * サービスイベントフィールド
 
@@ -74,7 +74,7 @@ eventTypes について詳しくは、[この節](#discarded-events)を参照し
 
 ## stepEvents {#stepevents-field}
 
-このカテゴリには、元のステップイベントフィールドが含まれます。この[節](../reports/sharing-legacy-fields.md)を参照してください。
+このカテゴリには、元のステップイベントフィールドが含まれます。詳しくは、この[節](../reports/sharing-legacy-fields.md)を参照してください。
 
 
 ## ジャーニーステップイベントで破棄されたイベントタイプのトラブルシューティング  {#discarded-events}
@@ -95,11 +95,11 @@ eventTypes について詳しくは、[この節](#discarded-events)を参照し
 
   **トラブルシューティング**：1 つ以上のジャーニーがライブで、セグメントに対して設定されていることを確認し、セグメント ID を検証します。
 
-* **CUSTOMER_INSTANCE_ID_NOT_CREATED**: ジャーニーのジャーニーインスタンスを作成できませんでした。
+* **JOURNEY_INSTANCE_ID_NOT_CREATE**：システムでは、顧客のジャーニーインスタンスを作成できませんでした。
 
   **一般的な原因**：重複イベント、大量のイベント、システムリソースの制限。
 
-  **トラブルシューティング**：重複の排除を実装し、トラフィックスパイクを回避し、ジャーニーの設計を最適化します。問題が解決しない場合はサポートにお問い合わせください。
+  **トラブルシューティング**：重複排除の実装、トラフィックスパイクの回避、ジャーニー設計の最適化 [ 持続性がある場合はサポートへのお問い合わせ ](../start/user-interface.md#support-ticket-guidelines)。
 
 * **EVENT_WITH_NO_JOURNEY**：イベントを受信しましたが、応答するアクティブなジャーニーが設定されていません
 

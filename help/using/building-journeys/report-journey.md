@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 公開, ジャーニー, ライブ, 有効性, 確認
 exl-id: 186b061d-0941-48be-8917-bbdfff6dae90
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 63fb247449dfb989b191254ec6d117a403edd29d
 workflow-type: tm+mt
 source-wordcount: '564'
-ht-degree: 96%
+ht-degree: 94%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 96%
 
 * **ジャーニーのステータス**：レポートデータは、公開済みのジャーニーまたは[ドライランモード](journey-dry-run.md)で実行中のジャーニーでのみ使用できます。ドラフトジャーニーでは、レポートデータは生成されません。
 
-これらの項目を確認しても問題が解決しない場合は、アドビ管理者またはアドビサポートにお問い合わせください。
+これらの項目を確認した後も問題が解決しない場合は、Adobe管理者または [Adobe サポート ](../start/user-interface.md#support-ticket-guidelines) にお問い合わせください。
 
 >[!MORELIKETHIS]
 >

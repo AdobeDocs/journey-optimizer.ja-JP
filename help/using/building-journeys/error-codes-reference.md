@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: エラー, コード, トラブルシューティング, ジャーニー, キャンペーン, メッセージ
 exl-id: 84924153-1bb5-465a-b91c-797628fc816c
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 63fb247449dfb989b191254ec6d117a403edd29d
 workflow-type: tm+mt
-source-wordcount: '2381'
-ht-degree: 94%
+source-wordcount: '2383'
+ht-degree: 92%
 
 ---
 
@@ -139,11 +139,7 @@ ht-degree: 94%
 
 6. **必要に応じて再試行**：500 シリーズのエラーの場合、数分後にシンプルに再試行すると、一時的な問題が解決することがよくあります。
 
-7. **必要に応じてエスカレート**：解決手順に従ってもエラーが解決しない場合は、次の情報でアドビサポートにお問い合わせください。
-   * 完全なエラーコード
-   * リクエスト ID（使用可能な場合）
-   * 再現手順
-   * 関連する設定の詳細
+7. **必要に応じてエスカレーションする**：解決手順に従ってもエラーが解決しない場合は、完全なエラーコード、リクエスト ID （使用可能な場合）、再現手順および関連する設定の詳細を記載した [Adobe サポートにお問い合わせください ](../start/user-interface.md#support-ticket-guidelines)。
 
 ## 一般的なエラーを回避するためのベストプラクティス {#best-practices}
 
@@ -187,14 +183,14 @@ ht-degree: 94%
 1. **情報を収集**：エラーコード、リクエスト ID、タイムスタンプ、再現手順を収集します
 2. **システムステータスを確認**：既知のサービスの問題について詳しくは、[アドビのステータス](https://status.adobe.com/ja){target="_blank"}を参照してください
 3. **ドキュメントを検索**：解決策について詳しくは、[Adobe Experience League](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=ja){target="_blank"} を参照してください。
-4. **コミュニティに参加**:[[!DNL Adobe Journey Optimizer]  コミュニティ &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"} に質問を投稿する
-5. **アドビサポートに連絡**：関連するすべての詳細を含むサポートチケットを送信します
+4. **コミュニティに参加**:[[!DNL Adobe Journey Optimizer]  コミュニティ ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} に質問を投稿する
+5. **Adobe サポートへのお問い合わせ**:[ サポートチケットを送信 ](../start/user-interface.md#support-ticket-guidelines) と、関連するすべての詳細
 
 >[!NOTE]
 >
->このエラー コードの参照は、新しいコードを特定および文書化する際に継続的に更新されます。最新の情報については、定期的に [[!DNL Adobe Journey Optimizer]  コミュニティ ブログ &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs?profile.language=ja){target="_blank"} を確認してください。
+>このエラー コードの参照は、新しいコードを特定および文書化する際に継続的に更新されます。最新の情報については、定期的に [[!DNL Adobe Journey Optimizer]  コミュニティ ブログ ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs){target="_blank"} を確認してください。
 
 **関連トピック**
 
-* [Demystifying [!DNL Adobe Journey Optimizer]  エラーコード：パート 1](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=ja){target="_blank"}
-* [Demystifying [!DNL Adobe Journey Optimizer]  エラーコード：パート 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661?profile.language=ja){target="_blank"}
+* [Demystifying [!DNL Adobe Journey Optimizer]  エラーコード：パート 1](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884){target="_blank"}
+* [Demystifying [!DNL Adobe Journey Optimizer]  エラーコード：パート 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661){target="_blank"}
