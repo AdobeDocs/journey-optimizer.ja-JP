@@ -14,7 +14,7 @@ ht-degree: 38%
 
 # メッセージとジャーニーのキャッピングルールの設定{#section-overview}
 
-キャッピングルールは、[ 競合管理と優先順位付け ](../using/conflict-prioritization/gs-conflict-prioritization.md) の一部で、顧客が圧倒されることなく適切な量のコミュニケーションを確実に受け取れるように役立ちます。 ルールを適用する前に、[ 競合検出ツール ](../using/conflict-prioritization/conflicts.md) を使用して、重複するジャーニーとキャンペーンを特定します。 複数の通信が同じプロファイルに適合する場合、[ 優先度スコア ](../using/conflict-prioritization/priority-scores.md) によって最初に配信されるメッセージが決まります。
+キャッピングルールは、[&#x200B; 競合管理と優先順位付け &#x200B;](../using/conflict-prioritization/gs-conflict-prioritization.md) の一部で、顧客が圧倒されることなく適切な量のコミュニケーションを確実に受け取れるように役立ちます。 ルールを適用する前に、[&#x200B; 競合検出ツール &#x200B;](../using/conflict-prioritization/conflicts.md) を使用して、重複するジャーニーとキャンペーンを特定します。 複数の通信が同じプロファイルに適合する場合、[&#x200B; 優先度スコア &#x200B;](../using/conflict-prioritization/priority-scores.md) によって最初に配信されるメッセージが決まります。
 
 メッセージの送信頻度（フリークエンシーキャップ）、プロファイルがエントリできるジャーニーの数（ジャーニーキャッピング）、メッセージのブロックタイミング（処理が停止している時間）に制限を設定できます。 ルールは **ルールセット** にグループ化され、キャンペーンやジャーニーに適用されます。 外部システムからのプログラム制御については、[Capping API](../using/configuration/capping.md) を参照してください。
 
