@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 選定, イベント, オーディエンス, ジャーニー, プラットフォーム
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: be05bb72ace2e2084675f4278501a520d592e304
 workflow-type: tm+mt
-source-wordcount: '1487'
-ht-degree: 73%
+source-wordcount: '1532'
+ht-degree: 70%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 73%
    >[!NOTE]
    >
    >**[!UICONTROL Enter]** および **[!UICONTROL Exit]** は、**のオーディエンス参加ステータス** 実現 **および** 離脱 [!DNL Adobe Experience Platform] に対応します。
-   >詳しくは、[&#x200B; セグメント化サービスのドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ja#interpret-segment-results){target="_blank"} を参照してください。
+   >詳しくは、[ セグメント化サービスのドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ja#interpret-segment-results){target="_blank"} を参照してください。
 
 1. 名前空間を選択します。これは、イベントがジャーニーの最初のステップとして位置付けられている場合にのみ必要です。デフォルトでは、このフィールドには、最後に使用した名前空間が事前に入力されています。
 
@@ -104,17 +104,21 @@ ht-degree: 73%
 
 さらに、バッチオーディエンスを新しく作成してジャーニーですぐに使用した場合は、最初の計算バッチで多くのエントリを実行できます。 このスパイクを計画します。
 
+### セグメントメンバーシップの更新のタイミング {#timing-segment-membership}
+
+ジャーニーでバッチスナップショットを使用する場合、新しいセグメントメンバーシップは後続のスナップショットにのみ反映されます。 即時または当日のセグメント追加が不可欠な場合は、ストリーミングセグメント化を検討するか、セグメントの更新が次のスナップショットによって取り込まれていることを確認します。
+
 ### ストリーミングオーディエンス {#streamed-speed-segment-qualification}
 
 ストリーミングオーディエンスに対してオーディエンスの選定を使用すると、評価が継続的に行われるので、大きな入口と出口のピークのリスクが低くなります。 オーディエンス定義が一度に多くの顧客と認められた場合でも、ピークが発生する可能性があります。
 
 ストリーミングセグメント化で開くイベントや送信イベントを使用しないでください。代わりに、クリック数、購入数、ビーコンデータなどの実際のユーザーアクティビティのシグナルを使用します。頻度または抑制ロジックの場合は、送信イベントの代わりにビジネスルールを使用します。 [詳細情報](../audience/about-audiences.md)
 
-[[!DNL Adobe Experience Platform]  ストリーミングセグメント化のドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"} を参照してください。
+[[!DNL Adobe Experience Platform]  ストリーミングセグメント化のドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"} を参照してください。
 
 >[!NOTE]
 >
->ストリーミングセグメント化の場合、新しく取り込まれたデータが **内に完全に反映されてリアルタイムで使用されるまでに最大** 2 時間 [!DNL Adobe Experience Platform] かかる場合があります。 日ベースまたは時間ベースの条件（例：「今日発生したイベント」）に依存するオーディエンスでは、選定のタイミングがさらに複雑になる場合があります。ジャーニーが即時のオーディエンスの選定に依存する場合は、最初に短い [&#x200B; 待機アクティビティ &#x200B;](wait-activity.md) を追加することを検討します。 また、バッファー時間を許可して、正確な選定を確保することもできます。
+>ストリーミングセグメント化の場合、新しく取り込まれたデータが **内に完全に反映されてリアルタイムで使用されるまでに最大** 2 時間 [!DNL Adobe Experience Platform] かかる場合があります。 日ベースまたは時間ベースの条件（例：「今日発生したイベント」）に依存するオーディエンスでは、選定のタイミングがさらに複雑になる場合があります。ジャーニーが即時のオーディエンスの選定に依存する場合は、最初に短い [ 待機アクティビティ ](wait-activity.md) を追加することを検討します。 また、バッファー時間を許可して、正確な選定を確保することもできます。
 
 #### 選定されるすべてのプロファイルがジャーニーにエントリできるわけではない理由 {#streaming-entry-caveats}
 
@@ -132,7 +136,7 @@ ht-degree: 73%
 
 * ジャーニーを公開した後、プロファイルの選定をトリガーするイベントやデータを送信する前に、10 分以上待機します。これにより、ジャーニーが完全にアクティブ化され、エントリを処理する準備が整います。
 
-* すべての認定プロファイルが確実にエントリする必要がある重要なユースケースについては、代わりに [&#x200B; オーディエンスを読み取り &#x200B;](read-audience.md) アクティビティの使用を検討してください。 特定の時間に、オーディエンス内のすべてのプロファイルを処理します。
+* すべての認定プロファイルが確実にエントリする必要がある重要なユースケースについては、代わりに [ オーディエンスを読み取り ](read-audience.md) アクティビティの使用を検討してください。 特定の時間に、オーディエンス内のすべてのプロファイルを処理します。
 
 * ジャーニーの[エントリ率とスループット](entry-management.md#profile-entrance-rate)を監視し、プロファイルのフローパターンを把握します。
 
@@ -144,7 +148,7 @@ ht-degree: 73%
 
 * **[!UICONTROL オーディエンスの選定]**&#x200B;アクティビティで作成直後にバッチオーディエンスを使用しないでください。これにより、最初の計算のピークを回避できます。まだ計算されていないオーディエンスを使用しようとすると、ジャーニーキャンバスに黄色の警告が表示されます。
 
-  ![&#x200B; オーディエンスが [!DNL Adobe Experience Platform]](assets/segment-error.png) に見つからない場合のエラーメッセージ
+  ![ オーディエンスが [!DNL Adobe Experience Platform]](assets/segment-error.png) に見つからない場合のエラーメッセージ
 
 * ジャーニーで使用するデータソースとアクションのキャップルールを設定して、データソースの過負荷を避けます。詳しくは、[Journey Orchestration のドキュメント](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=ja){target="_blank"}を参照してください。キャップルールには再試行がないことに注意してください。再試行が必要な場合は、条件やアクションで「**[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**」ボックスをオンにし、ジャーニーで代替パスを使用します。
 
@@ -190,4 +194,4 @@ ht-degree: 73%
 
 オーディエンスの選定ジャーニーに当てはまるユースケースについて、このビデオで説明します。オーディエンスの選定を使用してジャーニーを構築する方法と、適用するベストプラクティスについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3446205?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
