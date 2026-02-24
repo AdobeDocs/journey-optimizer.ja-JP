@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: チャネル, サーフェス, 技術, パラメーター, Optimizer
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
-source-git-commit: 6b7fe02136a4ac7ca8012576ad8671cf70da6aeb
+source-git-commit: 21cb23fd4e7f69c2a8180150c5a7a3e52975fd9e
 workflow-type: tm+mt
-source-wordcount: '823'
-ht-degree: 85%
+source-wordcount: '822'
+ht-degree: 83%
 
 ---
 
@@ -123,10 +123,12 @@ ht-degree: 85%
 * Mobile Core v5.2.0 以降
 * Adobe Journey Optimizer v5.1.1 以降
 
+
 >[!TAB Android の場合]
 
 * Mobile Core v3.1.0 以降
 * Adobe Journey Optimizer v3.1.0 以降
+
 
 >[!ENDTABS]
 
@@ -135,7 +137,7 @@ ht-degree: 85%
 
 ガイド付きチャネル設定により、マーケティングチャネルの迅速な設定が簡単になり、Experience Platform、Journey Optimizer およびデータ収集アプリですべての重要なリソースがすぐに使用できるようになります。これにより、マーケティングチームはキャンペーンとジャーニーの作成をすぐに開始できます。ガイド付きチャネル設定の一部として自動生成および設定されるリソースのリストを以下に示します。
 
-自動生成されるすべてのリソースの包括的なリストにアクセスするには、以下のタブを参照してください。
+以下のタブを参照して、自動生成されるすべてのリソースの包括的なリストにアクセスします。
 
 >[!BEGINTABS]
 
