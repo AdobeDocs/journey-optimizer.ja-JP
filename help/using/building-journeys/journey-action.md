@@ -10,10 +10,10 @@ level: Intermediate
 keywords: ジャーニー, メッセージ, プッシュ, sms, メール, アプリ内, web, コンテンツカード, コードベースのエクスペリエンス
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: 6bef70948918be30d92c0c3a1e63d5ff8681f15f
+source-git-commit: 1455489645b208340085a9ea4d4e6e759dbcde9b
 workflow-type: tm+mt
-source-wordcount: '1031'
-ht-degree: 98%
+source-wordcount: '1068'
+ht-degree: 95%
 
 ---
 
@@ -34,7 +34,9 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->また、[!DNL Journey Optimizer] でメッセージを送信するカスタムアクションを設定することもできます。[詳細情報](#recommendation)
+>すべてのネイティブチャネルは、アクションジャーニーアクティビティからアクセスできるようになりました。 従来のネイティブチャネルアクティビティは、3 月のリリースで非推奨（廃止予定）になります。 従来のアクションを含む既存のジャーニーは、引き続きそのまま機能します。移行は不要です。
+
+また、[!DNL Journey Optimizer] でメッセージを送信するカスタムアクションを設定することもできます。[詳細情報](#recommendation)
 
 ## ジャーニーへのアクションの追加  {#add-action}
 
@@ -100,7 +102,7 @@ ht-degree: 98%
 
 プッシュ通知の迅速配信モードを有効にする方法について詳しくは、[このページ](../push/create-push.md#rapid-delivery)を参照してください。
 
-迅速配信モードを使用する際のパフォーマンスについて詳しくは、[[!DNL Adobe Journey Optimizer]  製品説明 &#x200B;](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} を参照してください。
+迅速配信モードを使用する際のパフォーマンスについて詳しくは、[[!DNL Adobe Journey Optimizer]  製品説明 ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} を参照してください。
 
 +++
 

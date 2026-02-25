@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 作成, メール, 開始, ジャーニー, キャンペーン
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 3f363a006ed25c07f3ea5b516f5fc306b230d029
+source-git-commit: 1455489645b208340085a9ea4d4e6e759dbcde9b
 workflow-type: tm+mt
 source-wordcount: '1075'
 ht-degree: 98%
@@ -32,6 +32,8 @@ ht-degree: 98%
 >[!TAB ジャーニーへのメールの追加]
 
 1. ジャーニーを開き、パレットの「**[!UICONTROL アクション]**」セクションから&#x200B;**[!UICONTROL メール]**&#x200B;アクティビティをドラッグ＆ドロップします。
+
+   <!--You can also use the **[!UICONTROL Action]** activity to add email to a journey—select the Email channel when configuring the action. The **[!UICONTROL Email]** activity will soon be deprecated. [Learn more about the Action activity](../building-journeys/journey-action.md).-->
 
 1. メッセージに関する基本情報（ラベル、説明、カテゴリ）を入力します。
 
@@ -164,7 +166,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
 メッセージコンテンツを定義したら、テストプロファイルを使用してメッセージをプレビューし、配達確認を送信し、一般的なデスクトップ、モバイルおよび web ベースのクライアントでのレンダリングを制御できます。パーソナライズされたコンテンツを挿入した場合は、そのコンテンツがメッセージにどのように表示されるかを、テストプロファイルデータを使用して確認できます。
 
-また、コンテンツの品質を検証して、読みやすさ、有効性、コンテンツのまとまりを評価することもできます。 [&#x200B; コンテンツ品質検証の詳細情報 &#x200B;](../content-management/brands-score.md#validate-quality)
+また、コンテンツの品質を検証して、読みやすさ、有効性、コンテンツのまとまりを評価することもできます。 [コンテンツ品質の検証の詳細情報](../content-management/brands-score.md#validate-quality)
 
 >[!NOTE]
 >
@@ -174,7 +176,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
 ![](assets/email_designer_edit_simulate.png)
 
-テストプロファイルの選択およびコンテンツのプレビュー方法について詳しくは、[コンテンツ管理](../content-management/preview-test.md)の節を参照してください。
+テストプロファイルの選択およびコンテンツのプレビュー方法について詳しくは、「[コンテンツ管理](../content-management/preview-test.md)」の節を参照してください。
 
 メールの準備ができたら、[ジャーニー](../building-journeys/journey-gs.md)または[キャンペーン](../campaigns/create-campaign.md)を設定し、アクティブ化して、メッセージが送信されるようにします。
 
