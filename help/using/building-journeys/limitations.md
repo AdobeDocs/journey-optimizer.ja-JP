@@ -10,7 +10,7 @@ level: Intermediate
 keywords: ジャーニー, 制限
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 91%
@@ -51,7 +51,7 @@ ht-degree: 91%
 
 ## 反応イベントの制限 {#reaction-limitations}
 
-* **[!UICONTROL 反応]**&#x200B;アクティビティは、ジャーニーキャンバスの[チャネルアクションアクティビティ](../building-journeys/journeys-message.md)の直後に配置する必要があります。チャネルアクションと&#x200B;**[!UICONTROL 反応]**&#x200B;アクティビティの間に&#x200B;**[!UICONTROL 待機]**&#x200B;アクティビティまたはその他のアクティビティを配置することはサポートされておらず、反応が期待どおりに機能しない場合があります。詳しくは、[この節](../building-journeys/reaction-events.md)を参照してください。
+* **[!UICONTROL 反応]**&#x200B;アクティビティは、ジャーニーキャンバスの[チャネルアクションアクティビティ](../building-journeys/journey-action.md)の直後に配置する必要があります。チャネルアクションと&#x200B;**[!UICONTROL 反応]**&#x200B;アクティビティの間に&#x200B;**[!UICONTROL 待機]**&#x200B;アクティビティまたはその他のアクティビティを配置することはサポートされておらず、反応が期待どおりに機能しない場合があります。詳しくは、[この節](../building-journeys/reaction-events.md)を参照してください。
 
 ## データソースの制限 {#data-sources-limitations}
 

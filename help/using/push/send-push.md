@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: aad4e08a-3369-454d-9e32-974347a3b393
-source-git-commit: 279fd366b14520daec1df7f843ed337348e145a5
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 93%
@@ -62,6 +62,6 @@ ht-degree: 93%
 * [Web 用のプッシュチャネルの設定](push-configuration-web.md)
 * [プッシュ通知レポート](../reports/journey-global-report-cja-push.md)
 * [プッシュ通知の作成](create-push.md)
-* [ジャーニーでのメッセージの追加](../building-journeys/journeys-message.md)
+* [ジャーニーでのメッセージの追加](../building-journeys/journey-action.md)
 * [キャンペーンへのメッセージの追加](../campaigns/create-campaign.md)
 

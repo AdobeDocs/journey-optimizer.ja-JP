@@ -6,10 +6,10 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: a26bb3bd-d593-466b-9852-94e194d6d2b7
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '1369'
-ht-degree: 100%
+source-wordcount: '1467'
+ht-degree: 89%
 
 ---
 
@@ -25,13 +25,25 @@ ht-degree: 100%
 
 コンテンツカードをジャーニーに追加するには、次の手順に従います。
 
-1. ジャーニーを開き、パレットの「**[!UICONTROL アクション]**」セクションから&#x200B;**[!UICONTROL カード]**&#x200B;アクティビティをドラッグ＆ドロップします。
+1. [ ジャーニー ](../building-journeys/journey-gs.md) を開き、パレットの「**[!UICONTROL アクション]**」セクションから **[!UICONTROL アクション]** アクティビティをドラッグ&amp;ドロップします。 [ アクションアクティビティ ](../building-journeys/journey-action.md) の詳細情報。
+
+   >[!IMPORTANT]
+   >
+   >すべてのネイティブチャネルにアクションアクティビティからアクセスできるようになりましたが、従来のネイティブチャネルアクティビティは 3 月のリリースで非推奨（廃止予定）になります。 従来のアクションを含む既存のジャーニーは、引き続きそのまま機能します。移行は不要です。
+
+1. アクションタイプとして **[!UICONTROL カード]** を選択します。
 
    ![](assets/content-card-jo-1.png)
 
-1. メッセージの&#x200B;**[!UICONTROL ラベル]**&#x200B;と&#x200B;**[!UICONTROL 説明]**&#x200B;を入力します。
+   >[!NOTE]
+   >
+   >**カード** はインバウンドエクスペリエンスアクティビティなので、3 日間 **待機** アクティビティが付属しています。 [詳細情報](../building-journeys/wait-activity.md#auto-wait-node)
 
-1. 使用する[コンテンツカード設定](content-card-configuration.md)を選択します。
+1. ジャーニーキャンバスでアクションを識別するための **[!UICONTROL ラベル]** を入力します。
+
+1. 「**[!UICONTROL アクションを設定]**」ボタンをクリックします。
+
+1. 「**[!UICONTROL アクション]**」タブに移動します。 ここから、使用するコンテンツカード設定を選択または作成します。 [詳細情報](content-card-configuration.md)
 
    ![](assets/content-card-jo-2.png)
 
@@ -86,11 +98,11 @@ ht-degree: 100%
 
    1. 「**[!UICONTROL グループを作成]**」をクリックして、トリガーをグループ化します。
 
-1. 必要に応じて、追加のアクションまたはイベントをドラッグ＆ドロップして、ジャーニーフローを完了します。[詳細情報](../building-journeys/about-journey-activities.md)
+1. 「**[!UICONTROL アクションを追加]**」ボタンをクリックすると、コンテンツカードに 1 つ以上のインバウンドアクションを追加できます。 [詳細情報](../building-journeys/journey-action.md#multi-action)
 
-1. コンテンツカードの準備が整ったら、設定を完了し、ジャーニーを公開してアクティブ化します。
+1. ジャーニーキャンバスに戻ります。 必要に応じて、追加のアクションまたはイベントをドラッグ＆ドロップして、ジャーニーフローを完了します。[詳細情報](../building-journeys/about-journey-activities.md)
 
-ジャーニーの設定方法について詳しくは、[このページ](../building-journeys/journey-gs.md)を参照してください。
+ジャーニーの作成、設定、公開について詳しくは、[ このページ ](../building-journeys/journey-gs.md) を参照してください。
 
 >[!TAB キャンペーンへのコンテンツカードの追加]
 
@@ -102,7 +114,7 @@ ht-degree: 100%
 
    * **[!UICONTROL Scheduled - Marketing]**：キャンペーンをすぐに実行するか、指定日に実行します。スケジュール済みキャンペーンは、**マーケティング**&#x200B;メッセージを送信することを目的としています。ユーザーインターフェイスから設定および実行します。
 
-   * **[!UICONTROL API トリガー - マーケティング／トランザクション]**：API 呼び出しを使用してキャンペーンを実行します。API トリガーキャンペーンは、**マーケティング**&#x200B;メッセージまたは&#x200B;**トランザクション**&#x200B;メッセージのいずれか、つまり、個人が実行したアクション（パスワードのリセット、買い物かごの購入など）に続いて送信されるメッセージを送信することを目的としています。[API を使用してキャンペーンをトリガーする方法についてはこちらを参照してください](../campaigns/api-triggered-campaigns.md)
+   * **[!UICONTROL API トリガー - マーケティング／トランザクション]**：API 呼び出しを使用してキャンペーンを実行します。API トリガーキャンペーンは、**マーケティング**&#x200B;メッセージまたは&#x200B;**トランザクション**&#x200B;メッセージのいずれか、つまり、個人が実行したアクション（パスワードのリセット、買い物かごの購入など）に続いて送信されるメッセージを送信することを目的としています。[詳しくは、API を使用してキャンペーンをトリガーする方法について参照してください。](../campaigns/api-triggered-campaigns.md)
 
    ![](assets/content-card-create-1.png)
 

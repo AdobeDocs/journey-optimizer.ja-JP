@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: 作成, メール, 開始, ジャーニー, キャンペーン
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: 1455489645b208340085a9ea4d4e6e759dbcde9b
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '1075'
-ht-degree: 98%
+source-wordcount: '1187'
+ht-degree: 82%
 
 ---
 
@@ -31,23 +31,35 @@ ht-degree: 98%
 
 >[!TAB ジャーニーへのメールの追加]
 
-1. ジャーニーを開き、パレットの「**[!UICONTROL アクション]**」セクションから&#x200B;**[!UICONTROL メール]**&#x200B;アクティビティをドラッグ＆ドロップします。
+1. ジャーニーを開き、パレットの「**[!UICONTROL アクション]**」セクションから **[!UICONTROL アクション]** アクティビティをドラッグ&amp;ドロップします。 [ アクションアクティビティ ](../building-journeys/journey-action.md) の詳細情報。
 
-   <!--You can also use the **[!UICONTROL Action]** activity to add email to a journey—select the Email channel when configuring the action. The **[!UICONTROL Email]** activity will soon be deprecated. [Learn more about the Action activity](../building-journeys/journey-action.md).-->
+   >[!IMPORTANT]
+   >
+   >すべてのネイティブチャネルにアクションアクティビティからアクセスできるようになりましたが、従来のネイティブチャネルアクティビティは 3 月のリリースで非推奨（廃止予定）になります。 従来のアクションを含む既存のジャーニーは、引き続きそのまま機能します。移行は不要です。
 
-1. メッセージに関する基本情報（ラベル、説明、カテゴリ）を入力します。
-
-1. [メール設定](email-settings.md)を選択または作成します。
+1. アクションタイプとして **[!UICONTROL メール]** を選択します。
 
    ![](assets/email_journey.png)
 
-   フィールドには、ユーザーがチャネルで使用した最後の設定がデフォルトで事前入力されます。
+1. ジャーニーキャンバスでアクションを識別するための **[!UICONTROL ラベル]** を入力します。
 
->[!NOTE]
->
->「送信時間の最適化」オプションを使用すると、メッセージの送信に最適な時間を予測し、過去の開封率とクリック率に基づいてエンゲージメントを最大化できます。詳しくは、[送信時間の最適化](../building-journeys/send-time-optimization.md)を参照してください。
+1. 「**[!UICONTROL アクションを設定]**」ボタンをクリックします。
 
-ジャーニーの設定方法について詳しくは、[このページ](../building-journeys/journey-gs.md)を参照してください。
+1. 「**[!UICONTROL アクション]**」タブに移動します。 ここから、使用するメール設定を選択または作成します。 [詳細情報](email-settings.md)
+
+   ![](assets/email-action-config.png)
+
+1. さらに、
+
+   * **[!UICONTROL ビジネスルール]** ドロップダウンリストでルールセットを選択すると、メールアクションにキャッピングルールを適用できます。 [詳細情報](../conflict-prioritization/channel-capping.md)
+
+   * 「**[!DNL Send time optimization]**」オプションを使用して、過去の開封率とクリック率に基づいてエンゲージメントを最大化するための、メッセージ送信の最適な時間を予測できます。 [詳細情報](../building-journeys/send-time-optimization.md)
+
+1. 「**[!UICONTROL コンテンツを編集]**」ボタンを選択し、メールDesignerを使用して必要に応じてコンテンツを作成します。 [詳細情報](#define-email-content)
+
+1. ジャーニーキャンバスに戻ります。 必要に応じて、追加のアクションまたはイベントをドラッグ＆ドロップして、ジャーニーフローを完了します。[詳細情報](../building-journeys/about-journey-activities.md)
+
+ジャーニーの作成、設定、公開について詳しくは、[ このページ ](../building-journeys/journey-gs.md) を参照してください。
 
 >[!TAB キャンペーンへのメールの追加]
 
@@ -68,8 +80,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
 ![](assets/email_campaign_tracking.png)
 -->
-
-キャンペーンの設定方法について詳しくは、[このページ](../campaigns/get-started-with-campaigns.md)を参照してください。
+キャンペーンの作成、設定、アクティブ化の方法について詳しくは、[ このページ ](../campaigns/get-started-with-campaigns.md) を参照してください。
 
 >[!ENDTABS]
 
@@ -182,7 +193,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
 >[!NOTE]
 >
->メールの開封やインタラクションを通じて受信者の行動を追跡するには、ジャーニーの[メールアクティビティ](../building-journeys/journeys-message.md)またはメール[キャンペーン](../campaigns/create-campaign.md)で「**[!UICONTROL トラッキング]**」セクションの専用オプションが有効になっていることを確認してください。<!--to move?-->
+>メールの開封やインタラクションを通じて受信者の行動を追跡するには、ジャーニーの[メールアクティビティ](../building-journeys/journey-action.md)またはメール[キャンペーン](../campaigns/create-campaign.md)で「**[!UICONTROL トラッキング]**」セクションの専用オプションが有効になっていることを確認してください。<!--to move?-->
 
 <!--
 

@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 概要, 開始, コンテンツ, 実験
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '2045'
 ht-degree: 98%
@@ -166,7 +166,7 @@ ht-degree: 98%
 
    1. Adobe Experience Platform のデータ収集で、タグのプロパティにアクセスします。
 
-   1. **[!UICONTROL ルール]**&#x200B;メニューにアクセスし、新しいルールを作成します。ルールの作成方法について詳しくは、[!DNL Adobe Experience Platform] データ収集ドキュメント [&#x200B; 参照してください &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
+   1. **[!UICONTROL ルール]**&#x200B;メニューにアクセスし、新しいルールを作成します。ルールの作成方法について詳しくは、[!DNL Adobe Experience Platform] データ収集ドキュメント [ 参照してください ](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}
 
    1. ルールの「**[!UICONTROL IF]**」セクションで、次のように設定されたイベントを追加します。
 
@@ -224,7 +224,7 @@ ht-degree: 98%
 
 翻訳プロジェクトと言語の設定を行ったら、キャンペーンまたはジャーニーを作成し、様々なロケールに対してコンテンツをカスタマイズする準備が整います。
 
-1. まず、要件に応じて、メール、SMS またはプッシュ通知[キャンペーン](../campaigns/create-campaign.md)や[ジャーニー](../building-journeys/journeys-message.md)を作成し、設定します。
+1. まず、要件に応じて、メール、SMS またはプッシュ通知[キャンペーン](../campaigns/create-campaign.md)や[ジャーニー](../building-journeys/journey-action.md)を作成し、設定します。
 
 1. プライマリコンテンツを作成したら、「**[!UICONTROL 保存]**」をクリックし、キャンペーン設定画面に戻ります。
 
@@ -341,7 +341,7 @@ ht-degree: 98%
 
    ![](assets/translation_review_2.png)
 
-1. 更新した翻訳を入力し、終了したら「**[!UICONTROL 確認]**」をクリックします。
+1.   更新した翻訳を入力し、終了したら「**[!UICONTROL 確認]**」をクリックします。
 
    ![](assets/translation_review_4.png)
 

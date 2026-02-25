@@ -8,7 +8,7 @@ feature: Push, Overview
 role: Admin
 level: Intermediate
 exl-id: 9718c4b6-2558-4dfd-9d8f-f8845def19ba
-source-git-commit: 5758c9db8b1b12367126f4adb8bd1c0bac766514
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 92%
@@ -82,5 +82,5 @@ ht-degree: 92%
 * [プッシュチャネルの設定](push-configuration.md)
 * [プッシュ通知レポート](../reports/journey-global-report-cja-push.md)
 * [プッシュ通知の作成](create-push.md)
-* [ジャーニーへのメッセージの追加](../building-journeys/journeys-message.md)
+* [ジャーニーでのメッセージの追加](../building-journeys/journey-action.md)
 * [キャンペーンへのメッセージの追加](../campaigns/create-campaign.md)

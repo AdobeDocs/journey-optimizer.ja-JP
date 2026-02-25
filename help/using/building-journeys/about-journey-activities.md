@@ -10,10 +10,10 @@ level: Beginner, Intermediate
 keywords: ジャーニー, アクティビティ, 開始, イベント, アクション
 exl-id: 239b3d72-3be0-4a82-84e6-f219e33ddca4
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '711'
-ht-degree: 73%
+source-wordcount: '717'
+ht-degree: 72%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 73%
 
 パーソナライズされたジャーニーは、オンライン購入などのイベントから開始されます。 プロファイルは、ジャーニーにエントリすると、ジャーニー内を自然に移動します。 各プロファイルは、異なるパスとペースを取ることができます。 イベントから開始する場合は、イベントが到達するとジャーニーはトリガーになります。 各プロファイルは、ジャーニーで定義された手順に従います。
 
-技術ユーザーが設定したイベント（[&#x200B; このページ &#x200B;](../event/about-events.md) を参照）は、パレットの最初のカテゴリに表示されます。 このカテゴリは画面の左側にあります。 次のイベントアクティビティを使用できます。
+技術ユーザーが設定したイベント（[ このページ ](../event/about-events.md) を参照）は、パレットの最初のカテゴリに表示されます。 このカテゴリは画面の左側にあります。 次のイベントアクティビティを使用できます。
 
 * [一般イベント](../building-journeys/general-events.md)
 * [反応](../building-journeys/reaction-events.md)
@@ -43,7 +43,7 @@ ht-degree: 73%
 
 画面左側にあるパレットで、次のオーケストレーションアクティビティを使用できます。
 
-<!--* [Optimize](optimize.md)-->
+* [最適化](optimize.md)
 * [オーディエンスを読み取り](read-audience.md)
 * [待機](wait-activity.md)
 * [コンテンツの決定](content-decision.md)
@@ -57,7 +57,7 @@ ht-degree: 73%
 
 画面左側のパレットの **[!UICONTROL イベント]** と **[!UICONTROL オーケストレーション]** の下には、**[!UICONTROL アクション]** カテゴリがあります。 次のアクションアクティビティを使用できます。
 
-* [ビルトインのチャネルアクション](../building-journeys/journeys-message.md)
+* [ アクション ](../building-journeys/journey-action.md) アクティビティから使用できる **組み込みのチャネルアクション**
 * [カスタムアクション](../building-journeys/using-custom-actions.md)
 * [ジャンプ](../building-journeys/jump.md)
 
@@ -111,7 +111,7 @@ ht-degree: 73%
 
 ### 代替パスの追加
 
-アクションまたは条件でエラーが発生すると、個人のジャーニーが停止します。続行するには、「**[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**」チェックボックスをオンにするだけです。[この節](../building-journeys/using-the-journey-designer.md#paths)を参照してください。
+アクションまたは条件でエラーが発生すると、個人のジャーニーが停止します。続行するには、「**[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**」チェックボックスをオンにするだけです。[この節](../building-journeys/using-the-journey-designer.md#paths)を参照してください
 
 ![条件アクティビティプロパティの「代替パスを追加」オプション](assets/journey42.png)
 
@@ -121,4 +121,4 @@ ht-degree: 73%
 
 アクティビティとジャーニーでのエラーのトラブルシューティング方法について詳しくは、[このページ](troubleshooting.md)を参照してください。
 
-また、**[モニタリングとトラブルシューティング](../../rp_landing_pages/troubleshoot-journey-landing-page.md)**&#x200B;も参照してください。
+[ 監視とトラブルシューティング ](../../rp_landing_pages/troubleshoot-journey-landing-page.md) も参照してください。

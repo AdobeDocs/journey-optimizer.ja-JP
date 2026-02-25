@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: アクションジャーニーアクティビティの使用
-description: 汎用アクションアクティビティを追加して、ジャーニーキャンバス内で単一アクションと複数アクションのインバウンドアクショングループを設定する方法について説明します。
+title: アクションアクティビティの使用
+description: 汎用のアクションアクティビティを追加して、ジャーニーキャンバス内で単一アクションと複数アクションのインバウンドアクショングループを設定する方法と、組み込みのチャネルアクションを追加する方法について説明します。
 feature: Journeys, Activities, Channels Activity
 topic: Content Management
 role: User
@@ -10,10 +10,10 @@ level: Intermediate
 keywords: ジャーニー, メッセージ, プッシュ, sms, メール, アプリ内, web, コンテンツカード, コードベースのエクスペリエンス
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
-source-git-commit: 1455489645b208340085a9ea4d4e6e759dbcde9b
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '1068'
-ht-degree: 95%
+source-wordcount: '1455'
+ht-degree: 86%
 
 ---
 
@@ -22,25 +22,29 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="ajo_action_activity"
 >title="アクションアクティビティ"
->abstract="汎用&#x200B;**アクション**&#x200B;アクティビティを使用すると、単一のネイティブチャネルアクションと複数のインバウンドアクティビティを設定して、ビルトインのチャネルアクションに最適化を追加できます。"
+>abstract="**アクション** アクティビティでは、1 つのネイティブチャネルアクションと複数のインバウンドアクティビティを設定し、任意の組み込みチャネルアクションに最適化を追加できます。"
 
 [!DNL Journey Optimizer] には、単一のビルトインのチャネルアクションと複数のインバウンドアクティビティを設定できる新しい汎用&#x200B;**アクション**&#x200B;アクティビティが用意されています。
 
-これにより、次の機能を実行できます。
+アクションアクティビティの機能を次に示します。
 
 * ジャーニーキャンバス内の簡素化されたネイティブアクション設定。
 * 複数アクションのインバウンドアクショングループを作成する処理能力。
 * 組み込みのチャネルアクションに最適化を追加する機能。
 
->[!NOTE]
+組み込みのチャネルアクションをジャーニーに追加するには、**アクション** アクティビティを使用します。 この統合されたアクティビティは、すべてのチャネルアクション（メール、プッシュ、SMS、アプリ内、web、コードベースのエクスペリエンスおよびコンテンツカード）を単一のアクティビティタイプに統合し、以前の個々のチャネルアクティビティに取って代わります。
+
+>[!IMPORTANT]
 >
->すべてのネイティブチャネルは、アクションジャーニーアクティビティからアクセスできるようになりました。 従来のネイティブチャネルアクティビティは、3 月のリリースで非推奨（廃止予定）になります。 従来のアクションを含む既存のジャーニーは、引き続きそのまま機能します。移行は不要です。
+>すべてのネイティブチャネルにアクションアクティビティからアクセスできるようになりましたが、従来のネイティブチャネルアクティビティは 3 月のリリースで非推奨（廃止予定）になります。 従来のアクションを含む既存のジャーニーは、引き続きそのまま機能します。移行は不要です。
 
 また、[!DNL Journey Optimizer] でメッセージを送信するカスタムアクションを設定することもできます。[詳細情報](#recommendation)
 
-## ジャーニーへのアクションの追加  {#add-action}
+## ジャーニーへのビルトインのチャネルアクションの追加  {#add-action}
 
-ジャーニーにビルトインのチャネルアクションを追加するには、次の手順に従います。
+**[!UICONTROL アクション]** アクティビティを使用して組み込みのチャネルアクションをジャーニーに追加するには、次の手順に従います。
+
+ジャーニーで使用できるチャネルについて詳しくは、[ジャーニーとキャンペーンのチャネル](../channels/gs-channels.md#channels)の節にある表を参照してください。
 
 1. ジャーニーを「[イベント](general-events.md)」または「[オーディエンスを読み取り](read-audience.md)」アクティビティで開始します。
 
@@ -62,7 +66,92 @@ ht-degree: 95%
 
 1. インバウンドチャネルを選択した場合は、複数のアクションを追加できます。[詳細情報](#multi-action)
 
-1. 選択したチャネルに従ってアクティビティを設定します。ビルトインのチャネルアクションを設定する方法について詳しくは、[この節](journeys-message.md)を参照してください。
+1. 選択したチャネルに従ってアクティビティを設定します。設定ガイドラインについて詳しくは、以下のリンクを参照してください。
+
+   * アウトバウンドアクションを作成する方法を次に説明します。
+
+     <table style="table-layout:fixed">
+      <tr style="border: 0;">
+      <td>
+      <a href="../email/create-email.md">
+      <img alt="リード" src="../assets/do-not-localize/email.jpg">
+      </a>
+      <div><a href="../email/create-email.md"><strong>メールの作成</strong>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../push/create-push.md">
+      <img alt="低頻度" src="../assets/do-not-localize/push.jpg">
+      </a>
+      <div>
+      <a href="../push/create-push.md"><strong>プッシュ通知の作成<strong></a>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../sms/create-sms.md">
+      <img alt="検証" src="../assets/do-not-localize/sms.jpg">
+      </a>
+      <div>
+      <a href="../sms/create-sms.md"><strong>テキストメッセージ（SMS／MMS）の作成</strong></a>
+      </div>
+      <p>
+      </td>
+      </tr>
+      </table>
+
+   * インバウンドアクションを作成する方法を次に説明します。
+
+     <table style="table-layout:fixed">
+      <tr style="border: 0;">
+      <td>
+      <a href="../in-app/create-in-app.md">
+      <img alt="リード" src="../assets/do-not-localize/in-app.jpg">
+      </a>
+      <div><a href="../in-app/create-in-app.md"><strong>アプリ内メッセージの作成</strong>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../web/create-web.md">
+      <img alt="リード" src="../assets/do-not-localize/web-create.jpg">
+      </a>
+      <div><a href="../web/create-web.md"><strong>Web エクスペリエンスの作成</strong>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../content-card/create-content-card.md">
+      <img alt="リード" src="../assets/do-not-localize/sms-config.jpg">
+      </a>
+      <div><a href="../content-card/create-content-card.md"><strong>コンテンツカードの作成</strong>
+      </div>
+      <p>
+      </td>
+      <td>
+      <a href="../code-based/create-code-based.md">
+      <img alt="低頻度" src="../assets/do-not-localize/web-design.jpg">
+      </a>
+      <div>
+      <a href="../code-based/create-code-based.md"><strong>コードベースのエクスペリエンスの作成<strong></a>
+      </div>
+      <p>
+      </td>
+      </tr>
+      </table>
+
+   >[!NOTE]
+   >
+   >* 各インバウンドエクスペリエンスアクションには、3 日間の **待機** アクティビティが付属しています。 [詳細情報](wait-activity.md#auto-wait-node)
+   >
+   >* メールおよびプッシュ通知の場合、送信時間の最適化を有効にできます。[詳細情報](send-time-optimization.md)
+
+1. アクティビティに応じて、選択したチャネルに固有の詳細設定パラメーターを表示し、実行アドレスなどの一部のデフォルト値を上書きできます。[詳細情報](about-journey-activities.md#advanced-parameters)
+
+   >[!NOTE]
+   >
+   >詳細設定パラメーターが非表示になっている場合は、右側のパネルの上部にある「**[!UICONTROL 読み取り専用フィールドを表示]**」ボタンをクリックします。
 
 1. 「**[!UICONTROL 最適化]**」セクションを使用すると、コンテンツ実験を実行したり、ターゲティングルールを活用したり、実験とターゲティングの両方の高度な組み合わせを使用したりすることができます。
 
@@ -102,7 +191,7 @@ ht-degree: 95%
 
 プッシュ通知の迅速配信モードを有効にする方法について詳しくは、[このページ](../push/create-push.md#rapid-delivery)を参照してください。
 
-迅速配信モードを使用する際のパフォーマンスについて詳しくは、[[!DNL Adobe Journey Optimizer]  製品説明 &#x200B;](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} を参照してください。
+迅速配信モードを使用する際のパフォーマンスについて詳しくは、[[!DNL Adobe Journey Optimizer]  製品説明 ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} を参照してください。
 
 +++
 
@@ -178,7 +267,32 @@ ht-degree: 95%
 1. 同様の手順を実行して、さらにアクションを追加します。ジャーニーアクショングループには、最大 10 個のインバウンドアクションを追加できます。
 
 ジャーニーが[ライブ](publish-journey.md)になると、すべてのアクションが同時にアクティブ化されます。
-<!--
-## Next steps {#next}
 
-Once your action is configured, you can design its content. [Learn more]-->
+## ライブコンテンツの更新 {#update-live-content}
+
+ライブジャーニーでビルトインのチャネルアクションのコンテンツを更新できます。
+
+コンテンツに加えられた変更は、アクションのプロパティを保存するまでジャーニーに反映されません。 [詳細情報](about-journey-activities.md#advanced-parameters)
+
+それには、ライブジャーニーを開き、チャネルアクティビティを選択して、「**コンテンツを編集**」をクリックします。
+
+![ ライブジャーニーの「チャネルアクティビティを編集」ボタン ](assets/email-action-edit-content.png)
+
+ただし、パーソナライゼーションで使用されている属性は、プロファイル属性であるかコンテキストデータ（イベントプロパティまたはジャーニープロパティから得られるもの）であるかにかかわらず、変更できません。
+
+* コンテキストデータを変更すると、次のエラーメッセージが表示されます：`ERR_AUTHORING_JOURNEYVERSION_201`
+
+* プロファイル属性を変更すると、次のエラーメッセージが表示されます：`ERR_AUTHORING_JOURNEYVERSION_202`
+
+アプリ内アクティビティの場合、ジャーニーのライブ中にコンテンツを変更できますが、アプリ内トリガーは変更できません。
+
+## カスタムアクションを使用した送信 {#recommendation}
+
+ビルトインのメッセージ機能を使用する代わりに、カスタムアクションを使用すると、メッセージや API 呼び出しを送信するサードパーティシステムの接続を設定できます。
+
+* サードパーティのシステムを使用してメッセージを送信する場合は、カスタムアクションを作成できます。[詳細情報](../action/action.md)
+
+* Adobe Campaign を操作する場合は、次の節を参照してください。
+
+   * [[!DNL Journey Optimizer] と Campaign v7/v8](../action/acc-action.md)
+   * [[!DNL Journey Optimizer] と Campaign Standard](../action/acs-action.md)

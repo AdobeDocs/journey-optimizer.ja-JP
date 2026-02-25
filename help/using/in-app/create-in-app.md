@@ -7,10 +7,10 @@ role: User
 level: Beginner
 keywords: アプリ内, メッセージ, 作成, 開始
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 71b12ea083d72597c65e8fb2dc3424ffafa77462
-workflow-type: ht
-source-wordcount: '2076'
-ht-degree: 100%
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+workflow-type: tm+mt
+source-wordcount: '2178'
+ht-degree: 90%
 
 ---
 
@@ -31,23 +31,31 @@ ht-degree: 100%
 
 アプリ内メッセージをジャーニーに追加するには、次の手順に従います。
 
-1. ジャーニーを開き、パレットの「**[!UICONTROL アクション]**」セクションから&#x200B;**[!UICONTROL アプリ内]**&#x200B;アクティビティをドラッグ＆ドロップします。
+1. [ ジャーニー ](../building-journeys/journey-gs.md) を開き、パレットの「**[!UICONTROL アクション]**」セクションから **[!UICONTROL アクション]** アクティビティをドラッグ&amp;ドロップします。 [ アクションアクティビティ ](../building-journeys/journey-action.md) の詳細情報。
 
-   プロファイルがジャーニーの終了に達すると、表示されたアプリ内メッセージは自動的に期限切れになります。そのため、適切なタイミングを確保するために、アプリ内アクティビティの後に待機アクティビティが自動的に追加されます。
+   >[!IMPORTANT]
+   >
+   >すべてのネイティブチャネルにアクションアクティビティからアクセスできるようになりましたが、従来のネイティブチャネルアクティビティは 3 月のリリースで非推奨（廃止予定）になります。 従来のアクションを含む既存のジャーニーは、引き続きそのまま機能します。移行は不要です。
+
+1. アクションタイプとして **[!UICONTROL アプリ内]** を選択します。
 
    ![](assets/in_app_journey_1.png)
 
-1. メッセージの&#x200B;**[!UICONTROL ラベル]**&#x200B;と&#x200B;**[!UICONTROL 説明]**&#x200B;を入力します。
+   >[!NOTE]
+   >
+   >プロファイルがジャーニーの終了に達すると、表示されたアプリ内メッセージは自動的に期限切れになります。そのため、適切なタイミングを確保するために、アプリ内アクションの後に 3 日間 **待機** アクティビティが自動的に追加されます。 [詳細情報](../building-journeys/wait-activity.md#auto-wait-node)
 
-1. 使用する[アプリ内設定](inapp-configuration.md#channel-prerequisites)を選択します。
+1. ジャーニーキャンバスでアクションを識別するための **[!UICONTROL ラベル]** を入力します。
+
+1. 「**[!UICONTROL アクションを設定]**」ボタンをクリックします。
+
+1. 「**[!UICONTROL アクション]**」タブに移動します。 ここから、使用するアプリ内設定を選択または作成します。 [詳細情報](inapp-configuration.md#channel-prerequisites)
 
    ![](assets/in_app_journey_2.png)
 
-1. これで、「**[!UICONTROL コンテンツを編集]**」ボタンでコンテンツのデザインを開始できます。[詳細情報](design-in-app.md)
+1. 「**[!UICONTROL コンテンツを編集]**」ボタンを選択し、必要に応じてコンテンツを作成します。 [詳細情報](design-in-app.md)
 
-1. 「**[!UICONTROL トリガーを編集]**」をクリックして、メッセージをトリガーするイベントと条件を選択します。ルールビルダーを使用すると、条件と値を指定して、条件が満たされた場合にアプリ内メッセージの送信などの一連のアクションをトリガーできます。
-
-   ![](assets/in_app_journey_4.png)
+1. 「**[!UICONTROL トリガーを編集]**」をクリックして、メッセージをトリガーするイベントと条件を選択します。ルールビルダーを使用すると、条件と値を指定して、条件が満たされた場合に一連のアクション（アプリ内メッセージの送信など）をトリガーできます。 [詳細情報](design-in-app.md)
 
    1. 必要に応じて、イベントのドロップダウンをクリックしてトリガーを変更します。
 
@@ -113,11 +121,11 @@ ht-degree: 100%
       * **[!UICONTROL 1 回表示]**：このメッセージは、ユーザーセッションごとに 1 回のみ表示され、閉じられるまですべてのウィンドウまたはアクティビティで表示されたままになります。特定の画面に制限したり、自動的に閉じたりするには、メッセージングデリゲートでカスタムロジックを使用します。
       * **[!UICONTROL クリックスルーまで表示]**：**[!UICONTROL モバイルアプリトリガー]**&#x200B;ドロップダウンで選択したイベントが、「クリック」アクションで SDK によって操作イベントが送信されるまでに発生した場合に、このメッセージが表示されます。
 
-1. 必要に応じて、追加のアクションまたはイベントをドラッグ＆ドロップして、ジャーニーフローを完了します。[詳細情報](../building-journeys/about-journey-activities.md)
+1. 「**[!UICONTROL アクションを追加]**」ボタンをクリックすると、アプリ内メッセージに 1 つ以上のインバウンドアクションを追加できます。 [詳細情報](../building-journeys/journey-action.md#multi-action)
 
-1. アプリ内メッセージの準備が整ったら、設定を完了し、ジャーニーを公開してアクティブ化します。
+1. ジャーニーキャンバスに戻ります。 必要に応じて、追加のアクションまたはイベントをドラッグ＆ドロップして、ジャーニーフローを完了します。[詳細情報](../building-journeys/about-journey-activities.md)
 
-ジャーニーの設定方法について詳しくは、[このページ](../building-journeys/journey-gs.md)を参照してください。
+ジャーニーの作成、設定、公開について詳しくは、[ このページ ](../building-journeys/journey-gs.md) を参照してください。
 
 >[!NOTE]
 >
@@ -228,15 +236,17 @@ ht-degree: 100%
 
    ![](assets/in_app_create_4.png)
 
+キャンペーンの作成、設定、アクティブ化の方法について詳しくは、[ このページ ](../campaigns/get-started-with-campaigns.md) を参照してください。
+
 >[!ENDTABS]
 
-## ハウツービデオ{#video}
+## チュートリアルビデオ{#video}
 
 * 以下のビデオでは、キャンペーンでアプリ内メッセージを作成、設定および公開する方法を示しています。
 
   +++こちらのビデオをご覧ください
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3451883?captions=jpn&quality=12&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
   +++
 
@@ -244,7 +254,7 @@ ht-degree: 100%
 
   +++こちらのビデオをご覧ください
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3445289/?captions=jpn&learn=on&autoplay=true)
+  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
 
   +++
 
@@ -252,7 +262,7 @@ ht-degree: 100%
 
   +++こちらのビデオをご覧ください
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3451830/?captions=jpn&learn=on&autoplay=true)
+  >[!VIDEO](https://video.tv.adobe.com/v/3423077/?learn=on&autoplay=true)
 
   +++
 

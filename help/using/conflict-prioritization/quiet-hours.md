@@ -8,13 +8,13 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: メッセージ, 頻度, ルール, プレッシャー
-source-git-commit: a7d2557790054e7c6e28ca3ffa937f454c4b004c
+exl-id: defebd53-fa80-4720-acdc-0f41ceb00214
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
 source-wordcount: '909'
 ht-degree: 81%
 
 ---
-
 
 # クワイエットアワーの設定 {#quiet-hours}
 
@@ -45,7 +45,7 @@ ht-degree: 81%
 
 ## クワイエットアワールールの作成
 
-クワイエットアワーを設定するには、カスタムルールセット内にルールを作成します。[&#x200B; ルールセットの作成方法を説明します &#x200B;](../conflict-prioritization/rule-sets.md#Create)。 次の手順に従います。
+クワイエットアワーを設定するには、カスタムルールセット内にルールを作成します。[ ルールセットの作成方法を説明します ](../conflict-prioritization/rule-sets.md#Create)。 次の手順に従います。
 
 1. **[!UICONTROL ビジネスルール]**&#x200B;に移動し、ルールセットインベントリにアクセスします。
 
@@ -123,7 +123,7 @@ ht-degree: 81%
 
 ![](assets/quiet-hours-preview.png)
 
-ルールの準備が整ったら、ルールをアクティブ化し、ルールセットの設定を完了します。 [&#x200B; ルールセットを作成してアクティブ化する方法を説明します &#x200B;](../conflict-prioritization/rule-sets.md#Create)
+ルールの準備が整ったら、ルールをアクティブ化し、ルールセットの設定を完了します。 [ ルールセットを作成してアクティブ化する方法を説明します ](../conflict-prioritization/rule-sets.md#Create)
 
 ## ジャーニーとキャンペーンへのクワイエットアワーの適用 {#apply}
 
@@ -133,7 +133,7 @@ ht-degree: 81%
 
 >[!TAB ジャーニーでのクワイエットアワーチャネルアクションの適用]
 
-1. ジャーニーを開き、[チャネルアクション](../building-journeys/journeys-message.md)を選択して、メッセージのコンテンツを編集します。
+1. ジャーニーを開き、[チャネルアクション](../building-journeys/journey-action.md)を選択して、メッセージのコンテンツを編集します。
 1. 「**[!UICONTROL ビジネスルールを追加]**」ボタンをクリックし、クワイエットアワールールを含むルールセットを選択します。
 
    ![](assets/quiet-hours-apply.png)
@@ -192,4 +192,4 @@ ht-degree: 81%
 
 Adobe Journey Optimizer でのクワイエットアワー機能の使用方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3475853?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475851?quality=12)

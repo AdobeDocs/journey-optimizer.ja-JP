@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 279fd366b14520daec1df7f843ed337348e145a5
+source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 94%
+source-wordcount: '952'
+ht-degree: 73%
 
 ---
 
@@ -32,27 +32,43 @@ ht-degree: 94%
 
 >[!TAB ジャーニーへのプッシュの追加]
 
-1. ジャーニーを開き、パレットの「アクション」セクションからプッシュアクティビティをドラッグ＆ドロップします。
+1. ジャーニーを開いて、パレットの「**[!UICONTROL アクション]**」セクションから **[!UICONTROL アクション]** アクティビティをドラッグ&amp;ドロップします。 [ アクションアクティビティ ](../building-journeys/journey-action.md) の詳細情報。
+
+   >[!IMPORTANT]
+   >
+   >すべてのネイティブチャネルにアクションアクティビティからアクセスできるようになりましたが、従来のネイティブチャネルアクティビティは 3 月のリリースで非推奨（廃止予定）になります。 従来のアクションを含む既存のジャーニーは、引き続きそのまま機能します。移行は不要です。
+
+1. アクションタイプとして **[!UICONTROL プッシュ]** を選択します。
 
    ![](assets/push_create_1.png)
 
-1. メッセージに関する基本情報（ラベル、説明、カテゴリ）を入力したあと、使用するメッセージ設定を選択します。
+1. ジャーニーキャンバスでアクションを識別するための **[!UICONTROL ラベル]** を入力します。
+
+1. 「**[!UICONTROL アクションを設定]**」ボタンをクリックします。
+
+1. 「**[!UICONTROL アクション]**」タブに移動します。 ここから、使用するプッシュ設定を選択または作成します。 [詳細情報](push-configuration.md)
 
    ![](assets/push_create_2.png)
 
+1. その他：
+
+   * 「**[!UICONTROL ビジネスルール]**」ドロップダウンリストでルールセットを選択すると、プッシュアクションにキャッピングルールを適用できます。 [詳細情報](../conflict-prioritization/channel-capping.md)
+
+   * 「**[!DNL Send time optimization]**」オプションを使用して、過去の開封率とクリック率に基づいてエンゲージメントを最大化するための、メッセージ送信の最適な時間を予測できます。 [詳細情報](../building-journeys/send-time-optimization.md)
+
+1. **[!UICONTROL 迅速配信モード]** を使用して、プッシュ通知を大量に送信します。 [詳細情報](#rapid-delivery)
+
+1. 「**[!UICONTROL コンテンツを編集]**」ボタンを選択し、必要に応じてコンテンツを作成します。 [詳細情報](design-push.md)
+
+1. メッセージコンテンツを定義したら、CSV／JSON ファイルからアップロードした、または手動で追加したテストプロファイルやサンプル入力データを使用して、そのコンテンツをプレビューできます。[詳細情報](send-push.md)
+
+1. ジャーニーキャンバスに戻ります。 必要に応じて、追加のアクションまたはイベントをドラッグ＆ドロップして、ジャーニーフローを完了します。[詳細情報](../building-journeys/about-journey-activities.md)
+
    >[!NOTE]
    >
-   >ジャーニーからプッシュ通知を送信する場合、Adobe Journey Optimizer の送信時間の最適化機能を利用して、メッセージ送信の最適な時間を予測し、過去の開封率とクリック率に基づいてエンゲージメントを最大化できます。[送信時間の最適化の操作方法を学ぶ](../building-journeys/send-time-optimization.md)
+   >プッシュの開封やインタラクションを通じて受信者の行動をトラッキングするには、トラッキングセクションの専用オプションが[メールアクティビティ](../building-journeys/journey-action.md)で有効になっていることを確認してください。
 
-   ジャーニーの設定方法について詳しくは、[このページ](../building-journeys/journey-gs.md)を参照してください。
-
-1. ジャーニー設定画面で、「**[!UICONTROL コンテンツを編集]**」ボタンをクリックして、プッシュコンテンツを設定します。[プッシュ通知のデザイン](design-push.md)
-
-1. メッセージコンテンツを定義したら、CSV／JSON ファイルからアップロードした、または手動で追加したテストプロファイルやサンプル入力データを使用して、そのコンテンツをプレビューできます。
-
-1. プッシュの準備が整ったら、[ジャーニー](../building-journeys/journey-gs.md)の設定を完了させて送信します。
-
-   プッシュの開封やインタラクションを通じて受信者の行動をトラッキングするには、トラッキングセクションの専用オプションが[メールアクティビティ](../building-journeys/journeys-message.md)で有効になっていることを確認してください。
+ジャーニーの作成、設定、公開について詳しくは、[ このページ ](../building-journeys/journey-gs.md) を参照してください。
 
 >[!TAB キャンペーンへのプッシュの追加]
 
@@ -72,7 +88,7 @@ ht-degree: 94%
 
 1. 「**[!UICONTROL アクション]**」セクションで、「**[!UICONTROL プッシュ通知]**」を選択し、新しい設定を選択または作成します。
 
-   [&#x200B; このページ &#x200B;](push-configuration.md) のモバイルおよび [&#x200B; このページ &#x200B;](push-configuration-web.md) の web 用のプッシュ設定について詳しく説明します。
+   [ このページ ](push-configuration.md) のモバイルおよび [ このページ ](push-configuration-web.md) の web 用のプッシュ設定について詳しく説明します。
 
    ![](assets/push_create_3.png)
 
@@ -89,18 +105,20 @@ ht-degree: 94%
 
 1. キャンペーンの設定画面で、「**[!UICONTROL コンテンツを編集]**」ボタンをクリックして、プッシュコンテンツを設定します。[プッシュ通知のデザイン](design-push.md)
 
-1. メッセージコンテンツを定義したら、CSV／JSON ファイルからアップロードした、または手動で追加したテストプロファイルやサンプル入力データを使用して、そのコンテンツをプレビューできます。
+1. メッセージコンテンツを定義したら、CSV／JSON ファイルからアップロードした、または手動で追加したテストプロファイルやサンプル入力データを使用して、そのコンテンツをプレビューできます。[詳細情報](send-push.md)
 
 1. プッシュの準備が整ったら、[キャンペーン](../campaigns/create-campaign.md)の設定を完了させて送信します。
 
    プッシュの開封やインタラクションを通じて受信者の行動をトラッキングするには、トラッキングセクションの専用オプションが[キャンペーン](../campaigns/create-campaign.md)で有効になっていることを確認してください。
+
+キャンペーンの作成、設定、アクティブ化の方法について詳しくは、[ このページ ](../campaigns/get-started-with-campaigns.md) を参照してください。
 
 >[!ENDTABS]
 
 **関連トピック**
 
 * [プッシュチャネルの設定](push-gs.md)
-* [ジャーニーでのメッセージの追加](../building-journeys/journeys-message.md)
+* [ジャーニーでのメッセージの追加](../building-journeys/journey-action.md)
 
 ## 迅速配信モード {#rapid-delivery}
 
