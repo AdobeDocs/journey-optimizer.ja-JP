@@ -252,4 +252,4 @@ Once configured, you can leverage all out-of-the-box channel capabilities such a
 
 ## チュートリアルビデオ {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3431625)
+>[!VIDEO](https://video.tv.adobe.com/v/3459089?captions=jpn)
