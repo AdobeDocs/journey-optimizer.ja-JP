@@ -31,7 +31,7 @@ ht-degree: 82%
 
 >[!TAB ジャーニーへのメールの追加]
 
-1. ジャーニーを開き、パレットの「**[!UICONTROL アクション]**」セクションから **[!UICONTROL アクション]** アクティビティをドラッグ&amp;ドロップします。 [ アクションアクティビティ ](../building-journeys/journey-action.md) の詳細情報。
+1. ジャーニーを開き、パレットの「**[!UICONTROL アクション]**」セクションから **[!UICONTROL アクション]** アクティビティをドラッグ&amp;ドロップします。 [&#x200B; アクションアクティビティ &#x200B;](../building-journeys/journey-action.md) の詳細情報。
 
    >[!IMPORTANT]
    >
@@ -59,7 +59,7 @@ ht-degree: 82%
 
 1. ジャーニーキャンバスに戻ります。 必要に応じて、追加のアクションまたはイベントをドラッグ＆ドロップして、ジャーニーフローを完了します。[詳細情報](../building-journeys/about-journey-activities.md)
 
-ジャーニーの作成、設定、公開について詳しくは、[ このページ ](../building-journeys/journey-gs.md) を参照してください。
+ジャーニーの作成、設定、公開について詳しくは、[&#x200B; このページ &#x200B;](../building-journeys/journey-gs.md) を参照してください。
 
 >[!TAB キャンペーンへのメールの追加]
 
@@ -80,7 +80,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
 ![](assets/email_campaign_tracking.png)
 -->
-キャンペーンの作成、設定、アクティブ化の方法について詳しくは、[ このページ ](../campaigns/get-started-with-campaigns.md) を参照してください。
+キャンペーンの作成、設定、アクティブ化の方法について詳しくは、[&#x200B; このページ &#x200B;](../campaigns/get-started-with-campaigns.md) を参照してください。
 
 >[!ENDTABS]
 

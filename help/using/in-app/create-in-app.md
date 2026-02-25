@@ -31,7 +31,7 @@ ht-degree: 90%
 
 アプリ内メッセージをジャーニーに追加するには、次の手順に従います。
 
-1. [ ジャーニー ](../building-journeys/journey-gs.md) を開き、パレットの「**[!UICONTROL アクション]**」セクションから **[!UICONTROL アクション]** アクティビティをドラッグ&amp;ドロップします。 [ アクションアクティビティ ](../building-journeys/journey-action.md) の詳細情報。
+1. [&#x200B; ジャーニー &#x200B;](../building-journeys/journey-gs.md) を開き、パレットの「**[!UICONTROL アクション]**」セクションから **[!UICONTROL アクション]** アクティビティをドラッグ&amp;ドロップします。 [&#x200B; アクションアクティビティ &#x200B;](../building-journeys/journey-action.md) の詳細情報。
 
    >[!IMPORTANT]
    >
@@ -125,7 +125,7 @@ ht-degree: 90%
 
 1. ジャーニーキャンバスに戻ります。 必要に応じて、追加のアクションまたはイベントをドラッグ＆ドロップして、ジャーニーフローを完了します。[詳細情報](../building-journeys/about-journey-activities.md)
 
-ジャーニーの作成、設定、公開について詳しくは、[ このページ ](../building-journeys/journey-gs.md) を参照してください。
+ジャーニーの作成、設定、公開について詳しくは、[&#x200B; このページ &#x200B;](../building-journeys/journey-gs.md) を参照してください。
 
 >[!NOTE]
 >
@@ -236,7 +236,7 @@ ht-degree: 90%
 
    ![](assets/in_app_create_4.png)
 
-キャンペーンの作成、設定、アクティブ化の方法について詳しくは、[ このページ ](../campaigns/get-started-with-campaigns.md) を参照してください。
+キャンペーンの作成、設定、アクティブ化の方法について詳しくは、[&#x200B; このページ &#x200B;](../campaigns/get-started-with-campaigns.md) を参照してください。
 
 >[!ENDTABS]
 

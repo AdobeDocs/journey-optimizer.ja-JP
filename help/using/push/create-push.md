@@ -32,7 +32,7 @@ ht-degree: 73%
 
 >[!TAB ジャーニーへのプッシュの追加]
 
-1. ジャーニーを開いて、パレットの「**[!UICONTROL アクション]**」セクションから **[!UICONTROL アクション]** アクティビティをドラッグ&amp;ドロップします。 [ アクションアクティビティ ](../building-journeys/journey-action.md) の詳細情報。
+1. ジャーニーを開いて、パレットの「**[!UICONTROL アクション]**」セクションから **[!UICONTROL アクション]** アクティビティをドラッグ&amp;ドロップします。 [&#x200B; アクションアクティビティ &#x200B;](../building-journeys/journey-action.md) の詳細情報。
 
    >[!IMPORTANT]
    >
@@ -68,7 +68,7 @@ ht-degree: 73%
    >
    >プッシュの開封やインタラクションを通じて受信者の行動をトラッキングするには、トラッキングセクションの専用オプションが[メールアクティビティ](../building-journeys/journey-action.md)で有効になっていることを確認してください。
 
-ジャーニーの作成、設定、公開について詳しくは、[ このページ ](../building-journeys/journey-gs.md) を参照してください。
+ジャーニーの作成、設定、公開について詳しくは、[&#x200B; このページ &#x200B;](../building-journeys/journey-gs.md) を参照してください。
 
 >[!TAB キャンペーンへのプッシュの追加]
 
@@ -88,7 +88,7 @@ ht-degree: 73%
 
 1. 「**[!UICONTROL アクション]**」セクションで、「**[!UICONTROL プッシュ通知]**」を選択し、新しい設定を選択または作成します。
 
-   [ このページ ](push-configuration.md) のモバイルおよび [ このページ ](push-configuration-web.md) の web 用のプッシュ設定について詳しく説明します。
+   [&#x200B; このページ &#x200B;](push-configuration.md) のモバイルおよび [&#x200B; このページ &#x200B;](push-configuration-web.md) の web 用のプッシュ設定について詳しく説明します。
 
    ![](assets/push_create_3.png)
 
@@ -111,7 +111,7 @@ ht-degree: 73%
 
    プッシュの開封やインタラクションを通じて受信者の行動をトラッキングするには、トラッキングセクションの専用オプションが[キャンペーン](../campaigns/create-campaign.md)で有効になっていることを確認してください。
 
-キャンペーンの作成、設定、アクティブ化の方法について詳しくは、[ このページ ](../campaigns/get-started-with-campaigns.md) を参照してください。
+キャンペーンの作成、設定、アクティブ化の方法について詳しくは、[&#x200B; このページ &#x200B;](../campaigns/get-started-with-campaigns.md) を参照してください。
 
 >[!ENDTABS]
 

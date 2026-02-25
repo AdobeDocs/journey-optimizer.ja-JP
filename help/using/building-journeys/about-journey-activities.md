@@ -25,7 +25,7 @@ ht-degree: 72%
 
 パーソナライズされたジャーニーは、オンライン購入などのイベントから開始されます。 プロファイルは、ジャーニーにエントリすると、ジャーニー内を自然に移動します。 各プロファイルは、異なるパスとペースを取ることができます。 イベントから開始する場合は、イベントが到達するとジャーニーはトリガーになります。 各プロファイルは、ジャーニーで定義された手順に従います。
 
-技術ユーザーが設定したイベント（[ このページ ](../event/about-events.md) を参照）は、パレットの最初のカテゴリに表示されます。 このカテゴリは画面の左側にあります。 次のイベントアクティビティを使用できます。
+技術ユーザーが設定したイベント（[&#x200B; このページ &#x200B;](../event/about-events.md) を参照）は、パレットの最初のカテゴリに表示されます。 このカテゴリは画面の左側にあります。 次のイベントアクティビティを使用できます。
 
 * [一般イベント](../building-journeys/general-events.md)
 * [反応](../building-journeys/reaction-events.md)
@@ -57,7 +57,7 @@ ht-degree: 72%
 
 画面左側のパレットの **[!UICONTROL イベント]** と **[!UICONTROL オーケストレーション]** の下には、**[!UICONTROL アクション]** カテゴリがあります。 次のアクションアクティビティを使用できます。
 
-* [ アクション ](../building-journeys/journey-action.md) アクティビティから使用できる **組み込みのチャネルアクション**
+* [&#x200B; アクション &#x200B;](../building-journeys/journey-action.md) アクティビティから使用できる **組み込みのチャネルアクション**
 * [カスタムアクション](../building-journeys/using-custom-actions.md)
 * [ジャンプ](../building-journeys/jump.md)
 
@@ -121,4 +121,4 @@ ht-degree: 72%
 
 アクティビティとジャーニーでのエラーのトラブルシューティング方法について詳しくは、[このページ](troubleshooting.md)を参照してください。
 
-[ 監視とトラブルシューティング ](../../rp_landing_pages/troubleshoot-journey-landing-page.md) も参照してください。
+[&#x200B; 監視とトラブルシューティング &#x200B;](../../rp_landing_pages/troubleshoot-journey-landing-page.md) も参照してください。
