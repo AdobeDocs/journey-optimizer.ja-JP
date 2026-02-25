@@ -102,7 +102,7 @@ ht-degree: 95%
 
 プッシュ通知の迅速配信モードを有効にする方法について詳しくは、[このページ](../push/create-push.md#rapid-delivery)を参照してください。
 
-迅速配信モードを使用する際のパフォーマンスについて詳しくは、[[!DNL Adobe Journey Optimizer]  製品説明 ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} を参照してください。
+迅速配信モードを使用する際のパフォーマンスについて詳しくは、[[!DNL Adobe Journey Optimizer]  製品説明 &#x200B;](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} を参照してください。
 
 +++
 
