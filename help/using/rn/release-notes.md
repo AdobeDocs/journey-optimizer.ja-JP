@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f1c324ec00aaa077c924635558170e2c352cbb41
+source-git-commit: 9922f8cfeed40e826142d8201e0a1071a1099d75
 workflow-type: tm+mt
-source-wordcount: '1562'
+source-wordcount: '1598'
 ht-degree: 36%
 
 ---
@@ -29,11 +29,11 @@ ht-degree: 36%
 
 ## 2026 年 2 月リリースノート {#feb-26-01-rn}
 
-[&#x200B; 新機能 &#x200B;](#feb-26-01-features) と [&#x200B; 改善点 &#x200B;](#feb-26-01-improv) の節では、既に使用可能な機能について説明しています。 [&#x200B; 近日公開 &#x200B;](#coming-soon) のセクションには、2 月下旬にリリースが予定されている機能と改善点の一覧が表示されます。
+[ 新機能 ](#feb-26-01-features) と [ 改善点 ](#feb-26-01-improv) の節では、既に使用可能な機能について説明しています。 [ 近日公開 ](#coming-soon) のセクションには、2 月下旬にリリースが予定されている機能と改善点の一覧が表示されます。
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
@@ -232,7 +232,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 #### 設定
 
-* **ジャーニー式でのエクスペリエンスイベントの使用** - 2026 年 4 月 1 日（PT）以降、ジャーニー式でのエクスペリエンスイベント属性の使用は、過去 90 日間にこの機能を使用していない組織ではサポートされなくなります。 この機能は、2025 年 7 月 8 日（PT）以降、新規のお客様は使用できなくなっています。 代替手段については、[&#x200B; ジャーニーでのエクスペリエンスイベントの参照 &#x200B;](../building-journeys/exp-event-lookup.md) を参照してください。
+* **ジャーニー式でのエクスペリエンスイベントの使用** - 2026 年 4 月 1 日（PT）以降、ジャーニー式でのエクスペリエンスイベント属性の使用は、過去 90 日間にこの機能を使用していない組織ではサポートされなくなります。 この機能は、2025 年 7 月 8 日（PT）以降、新規のお客様は使用できなくなっています。 代替手段については、[ ジャーニーでのエクスペリエンスイベントの参照 ](../building-journeys/exp-event-lookup.md) を参照してください。
 
 #### コンテンツ管理
 
@@ -336,11 +336,10 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 ### 機能強化 {#coming-soon-improv}
 
-<!--* **Experience Decisioning preview in Code-based Experience channel** - You can now preview decision items when configuring Experience Decisioning with the Code-based Experience channel. Preview is available directly in the authoring interface before going live.
+* **コードベースのエクスペリエンスチャネルでのエクスペリエンス決定のプレビュー** - コードベースのエクスペリエンスチャネルでエクスペリエンス決定を設定する際に、決定項目をプレビューできるようになりました。 プレビューは、運用開始前に、オーサリングインターフェイスで直接使用できます。
 
-  Availability date: early March, 2026.-->
+  公開日：2026年2月18日（PT）
 
 * **カスタムのFirefly モデルとサードパーティの画像生成モデルの統合** – 標準およびカスタムのFirefly モデルと、承認済みのサードパーティの画像モデル（NanoBanana など）をシームレスに統合し、画像を生成する際の柔軟性、制御、ブランドの関連付けを向上させることができます。 これにより、一般的なニーズに対応する標準Firefly、ブランドに合わせたカスタム Firefly、専門的または実験的なシナリオに対応する承認済みのサードパーティモデルなど、ユースケースごとに最適なモデルを選択できます。
 
   公開日：2026 年 3 月上旬。
-
