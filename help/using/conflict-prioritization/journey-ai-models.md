@@ -21,11 +21,11 @@ ht-degree: 18%
 >
 >この機能は現在、限定提供（LA）になっています。 アクセス権を取得するには、アドビ担当者にお問い合わせください。
 
-[!DNL Adobe Journey Optimizer] れは、プロファイルがシステムで許可されている量以上の対象として認定されたときに、そのプロファイルが入力できるジャーニーを制御するのに役立ちます。 これを行うには、[ ルールセット ](rule-sets.md) を使用して、ジャーニーのエントリまたは同時実行に対するキャップを定義します。 プロファイルが上限を超えるジャーニーに対して適格な場合、各ジャーニーに割り当てられる優先度によって、選択されるジャーニーが決まります。
+[!DNL Adobe Journey Optimizer] れは、プロファイルがシステムで許可されている量以上の対象として認定されたときに、そのプロファイルが入力できるジャーニーを制御するのに役立ちます。 これを行うには、[&#x200B; ルールセット &#x200B;](rule-sets.md) を使用して、ジャーニーのエントリまたは同時実行に対するキャップを定義します。 プロファイルが上限を超えるジャーニーに対して適格な場合、各ジャーニーに割り当てられる優先度によって、選択されるジャーニーが決まります。
 
 優先度やランキングの式を使用する代わりに、**AI モデル** を使用して、トレーニング済みモデルスコアに基づいてジャーニーを動的にランク付けできます。 UI の **[!UICONTROL オーケストレーションランキング]** セクションから AI モデルを作成し、ルールセットで使用してジャーニーに適用できます。
 
-[!DNL Journey Optimizer] で使用可能な AI モデルタイプの概要については、意思決定の節の [AI モデルの基本を学ぶ ](../experience-decisioning/ranking/ai-models.md#ai-model-types) を参照してください。
+[!DNL Journey Optimizer] で使用可能な AI モデルタイプの概要については、意思決定の節の [AI モデルの基本を学ぶ &#x200B;](../experience-decisioning/ranking/ai-models.md#ai-model-types) を参照してください。
 
 ## AI モデルの作成 {#create-ai-model}
 
@@ -43,7 +43,7 @@ ht-degree: 18%
 
 1. AI モデルの一意の名前と、必要に応じて説明を指定します。
 
-   ![ 名前と説明フィールドを含んだ AI モデルの詳細ペイン ](assets/journey-model-details.png){width="80%"}
+   ![&#x200B; 名前と説明フィールドを含んだ AI モデルの詳細ペイン &#x200B;](assets/journey-model-details.png){width="80%"}
 
    >[!NOTE]
    >
@@ -64,13 +64,13 @@ ht-degree: 18%
 
 1. コンバージョンイベントとインプレッションイベントが収集されるデータセットを選択します。このようなデータセットを作成する方法について詳しくは、[この節](../experience-decisioning/data-collection/create-dataset.md)を参照してください。
 
-   ![ コンバージョンイベントとインプレッションイベントのデータセット選択 ](../experience-decisioning/assets/ai-model-datasets.png){width="85%"}
+   ![&#x200B; コンバージョンイベントとインプレッションイベントのデータセット選択 &#x200B;](../experience-decisioning/assets/ai-model-datasets.png){width="85%"}
 
    >[!CAUTION]
    >
    >「**[!UICONTROL エクスペリエンスイベント - 提案インタラクション]**」フィールドグループ（以前の mixin）に関連付けられたスキーマから作成されたデータセットのみがドロップダウンリストに表示されます。
 
-1. <!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->AI モデルのトレーニングに使用するセグメントを選択します。
+1. &#x200B;<!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->AI モデルのトレーニングに使用するセグメントを選択します。
 
    >[!NOTE]
    >
