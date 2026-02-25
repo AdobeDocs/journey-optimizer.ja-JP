@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: fe6e8221201ee813251a46c6603d85f0803873c0
 workflow-type: tm+mt
-source-wordcount: '3090'
+source-wordcount: '3103'
 ht-degree: 98%
 
 ---
@@ -224,6 +224,9 @@ ht-degree: 98%
       + [ジャーニーのキャップと判別の管理](using/conflict-prioritization/journey-capping.md)
       + [チャネルとタイプ別のフリークエンシーキャップの設定](using/conflict-prioritization/channel-capping.md)
       + [クワイエットアワーの設定](using/conflict-prioritization/quiet-hours.md)
+   + ジャーニーの判別 {#journey-arbitration}
+      + [ジャーニーのランク付けに数式を使用](using/conflict-prioritization/journey-ranking-formulas.md)
+      + [AI モデルを使用したジャーニーのランク付け](using/conflict-prioritization/journey-ai-models.md)
 + テストと承認 {#test}
    + [テスト、検証、承認](/help/rp_landing_pages/test-landing-page.md)
    + コンテンツのプレビューとテスト {#preview-test}
@@ -944,7 +947,7 @@ ht-degree: 98%
    + [プライバシー](/help/rp_landing_pages/privacy-landing-page.md)
    + [プライバシーの基本を学ぶ](using/privacy/get-started-privacy.md)
    + [プライバシーリクエスト](using/privacy/requests.md)
-   + [&#x200B; リソースに対する監査アクション](using/privacy/audit-logs.md)
+   + [ リソースに対する監査アクション](using/privacy/audit-logs.md)
    + [データライフサイクル操作の実行](using/privacy/data-hygiene.md)
    + 同意を管理 {#consent}
       + [同意を管理](/help/rp_landing_pages/consent-landing-page.md)

@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 version: Journey Orchestration
-source-git-commit: 6c85cfa27002de17f6625447fa0b7eaaceb9f829
+source-git-commit: fe6e8221201ee813251a46c6603d85f0803873c0
 workflow-type: tm+mt
 source-wordcount: '1459'
 ht-degree: 95%
@@ -93,9 +93,9 @@ To leverage data from an AEP dataset, follow the steps below.
 <!--![](../assets/ranking-formula-criteria.png){width="80%"}-->
 
 1. 「**[!UICONTROL 条件 1]**」セクションで、次の手順を実行して、ランキングスコアを適用する決定項目を指定します。
-   * [&#x200B; 決定項目属性 &#x200B;](../items.md#attributes) を選択します
+   * [ 決定項目属性 ](../items.md#attributes) を選択します
    * 論理演算子を選択
-   * 一致条件を追加 – 値を入力するか、プロファイル属性または [&#x200B; コンテキストデータ &#x200B;](../context-data.md) を選択できます。
+   * 一致条件を追加 – 値を入力するか、プロファイル属性または [ コンテキストデータ ](../context-data.md) を選択できます。
 
    ![](../assets/ranking-formula-criterion-1.png){width="70%"}
 
@@ -129,7 +129,7 @@ To leverage data from an AEP dataset, follow the steps below.
 
 1. 「**[!UICONTROL 作成]**」をクリックして、ランキング式を完成させます。リストから選択して詳細を表示し、編集または削除できるようになりました。実施要件を満たす決定項目をランク付けするための[選択戦略](../selection-strategies.md)で使用する準備が整いました。
 
-### ランキング式の例
+### ランキング式の例 {#ranking-formula-example}
 
 次の例をご覧ください。
 
