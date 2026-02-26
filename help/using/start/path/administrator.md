@@ -7,10 +7,10 @@ feature: Get Started
 role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: 2d699fe8a3320400dad2d5d962028d6e2a5425f8
-workflow-type: ht
-source-wordcount: '965'
-ht-degree: 100%
+source-git-commit: fd10a600cb54b8c35e2d195be7379b0dd120b6a7
+workflow-type: tm+mt
+source-wordcount: '1036'
+ht-degree: 92%
 
 ---
 
@@ -50,9 +50,11 @@ ht-degree: 100%
 
 次の手順に従います。
 
-1. **チャネル設定を指定**&#x200B;します。メール、SMS、プッシュ通知、他のチャネルに必要なすべての技術パラメーターを定義します。
+1. **チャネル設定を指定**&#x200B;します。メール、SMS、プッシュ通知、web プッシュ、ダイレクトメール、その他のチャネルに必要なすべての技術パラメーターを定義します。
 
    * [!DNL Adobe Experience Platform] と Adobe Experience Platform Data Collection の両方で&#x200B;**プッシュ通知設定**&#x200B;を定義します。[詳細情報](../../push/push-gs.md)
+
+   * モバイルおよびデスクトップブラウザーに通知を配信するように **web プッシュ通知** を設定します。 [詳細情報](../../push/push-configuration-web.md)
 
    * **チャネル設定**&#x200B;を作成して、メール、SMS、プッシュ、アプリ内、web、他のチャネルに必要なすべての技術パラメーターを設定します。[詳細情報](../../configuration/channel-surfaces.md)
 
@@ -60,7 +62,9 @@ ht-degree: 100%
 
    * 抑制リストにメールアドレスを送信するまでに&#x200B;**再試行**&#x200B;を実行する日数を管理します。[詳細情報](../../configuration/manage-suppression-list.md)
 
-1. **サブドメインをデリゲート**：Journey Optimizer で新規サブドメインを使用する場合、最初の手順としてそのサブドメインをデリゲートします。[詳細](../../configuration/about-subdomain-delegation.md)
+   * チャネル設定レベルで **メッセージのエクスポート** を有効にして、送信されたメールと SMS コンテンツを必要に応じてアーカイブできます（アドオン機能）。 [詳細情報](../../configuration/message-export.md)
+
+1. **サブドメインをデリゲート**：Journey Optimizer で新規サブドメインを使用する場合、最初の手順としてそのサブドメインをデリゲートします。[詳細情報](../../configuration/about-subdomain-delegation.md)必要に応じて、サブドメインを CNAME からカスタムデリゲーションに移行できます。 [詳細](../../configuration/custom-subdomain-migration.md)
 
    ![](../assets/subdomain.png)
 
@@ -87,6 +91,8 @@ ht-degree: 100%
 * **データガバナンスポリシー**：データ使用ラベルとポリシーを適用して、マーケティングアクションでのデータの使用方法を制御します。[詳細情報](../../action/action-privacy.md)
 
 * **IP ウォームアッププラン**：メールの送信量を徐々に増やして、メールプロバイダーでの送信者の評判を作成します。[詳細情報](../../configuration/ip-warmup-gs.md)
+
+* **非表示時間**：特定の期間にメッセージを送信しない場合に、時間ベースの除外を設定するルールセット。 [詳細情報](../../conflict-prioritization/quiet-hours.md)
 
 ## 役割をまたいだ共同作業
 

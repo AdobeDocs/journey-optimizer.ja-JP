@@ -5,10 +5,10 @@ feature: Get Started
 role: Developer
 level: Experienced
 exl-id: 5053dd4f-d050-415f-bc74-d6d061bdcbe1
-source-git-commit: 2d699fe8a3320400dad2d5d962028d6e2a5425f8
-workflow-type: ht
-source-wordcount: '1816'
-ht-degree: 100%
+source-git-commit: fd10a600cb54b8c35e2d195be7379b0dd120b6a7
+workflow-type: tm+mt
+source-wordcount: '1918'
+ht-degree: 93%
 
 ---
 
@@ -85,7 +85,7 @@ Web ベースの実装の場合、Web SDK が主な統合ポイントです。
 
 1. **データストリームを設定**：Journey Optimizer を有効にして、[!DNL Adobe Experience Platform Data Collection] でデータストリームを作成および設定します。詳しくは、[データストリームドキュメント](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=ja){target="_blank"}を参照してください。
 
-1. **Web プッシュ通知を有効にする**（オプション）：Web SDK 設定で [pushNotifications プロパティ](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/commands/configure/pushnotifications){target="_blank"}を設定し、[sendPushSubscription コマンド](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/commands/sendpushsubscription){target="_blank"}を使用してプッシュ購読を登録します。
+1. **Web プッシュ通知を有効にする** （オプション）:web プッシュ通知が一般公開されました。 Web SDK設定で [pushNotifications プロパティ ](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/commands/configure/pushnotifications){target="_blank"} を設定し、[sendPushSubscription コマンド ](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/commands/sendpushsubscription){target="_blank"} を使用してプッシュ購読を登録します。 [Web プッシュ設定について説明します ](../../push/push-configuration-web.md)。
 
 ### コードベースのエクスペリエンスの実装（Web SDK）
 
@@ -163,9 +163,11 @@ Content-Type: application/json
 
 1. **カスタムアクションの機能を理解**：カスタムアクションは、Epsilon、Slack、Firebase などのサードパーティシステムや独自のサービスに接続できます。詳しくは、[カスタムアクション](../../action/action.md)を参照してください。
 
-1. **アクション設定を操作**：[管理者](administrator.md)または[データエンジニア](data-engineer.md)は、Journey Optimizer でカスタムアクションを設定し、API エンドポイント URL、認証方法、パラメーターを定義します。お客様は、API 仕様を管理者またはデータエンジニアに提供してください。詳しくは、[カスタムアクション設定](../../action/about-custom-action-configuration.md)を参照してください。
+1. **アクション設定を操作**：[管理者](administrator.md)または[データエンジニア](data-engineer.md)は、Journey Optimizer でカスタムアクションを設定し、API エンドポイント URL、認証方法、パラメーターを定義します。お客様は、API 仕様を管理者またはデータエンジニアに提供してください。[ カスタムアクション設定 ](../../action/about-custom-action-configuration.md) について説明します。 オプションの **エラー応答ペイロード** を定義して、タイムアウト/エラー分岐のフォールバックロジックを強化できます。
 
 1. **アクションにつながるデータを返す**：後続のジャーニーステップで使用できるデータを返すように API をデザインします。詳しくは、[アクション応答](../../action/action-response.md)を参照してください。
+
+1. **カスタムアクションの正常性の監視**：カスタムアクションの監視ダッシュボードを使用して、成功した呼び出し、エラー、スループット、応答時間、およびキューの待機時間を追跡します。 [ カスタムアクションレポート ](../../action/reporting.md) について説明します。
 
 1. **レート制限を実装**：エンドポイントが想定されるボリュームを処理できることを確認します。Journey Optimizer では、1 秒あたり 5000 回の呼び出しの制限が適用されますが、システムは回復力を備えている必要があります。詳しくは、[キャップとスロットル](../../configuration/external-systems.md)を参照してください。
 
@@ -184,6 +186,10 @@ Journey Optimizer は、プログラムによるアクセス用の包括的な R
 1. **API トリガーキャンペーン**：API トリガーキャンペーンを使用して、トランザクションメッセージを作成します。大量のシナリオ（最大 5000 TPS）の場合は、[高スループットモード](../../campaigns/api-triggered-high-throughput.md)を探索します（アドオンライセンスが必要）。
 
 1. **Decision Management API**：オファー管理と決定に専用の API を使用します。詳しくは、[Decision Management API ガイド](../../offers/api-reference/getting-started.md)を参照してください。
+
+1. **Decisioning migration API**：柔軟な範囲、自動検証、ロールバックサポートを使用して、プログラムによって意思決定管理エンティティを Decisioning に移行します。 詳しくは、[Decisioning 移行 API ガイド ](../../experience-decisioning/decisioning-migration-api.md) を参照してください。
+
+1. **SMS Webhook**：受信メッセージとフィードバック Webhook をキャプチャして配信の受信とステータスの更新を受信するための受信 Webhook を設定します。 [詳細情報](../../sms/sms-webhook.md)
 
 ## テストとデバッグ {#testing}
 
