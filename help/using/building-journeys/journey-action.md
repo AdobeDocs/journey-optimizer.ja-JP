@@ -191,7 +191,7 @@ ht-degree: 86%
 
 プッシュ通知の迅速配信モードを有効にする方法について詳しくは、[このページ](../push/create-push.md#rapid-delivery)を参照してください。
 
-迅速配信モードを使用する際のパフォーマンスについて詳しくは、[[!DNL Adobe Journey Optimizer]  製品説明 ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} を参照してください。
+迅速配信モードを使用する際のパフォーマンスについて詳しくは、[[!DNL Adobe Journey Optimizer]  製品説明 &#x200B;](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} を参照してください。
 
 +++
 
@@ -276,7 +276,7 @@ ht-degree: 86%
 
 それには、ライブジャーニーを開き、チャネルアクティビティを選択して、「**コンテンツを編集**」をクリックします。
 
-![ ライブジャーニーの「チャネルアクティビティを編集」ボタン ](assets/email-action-edit-content.png)
+![&#x200B; ライブジャーニーの「チャネルアクティビティを編集」ボタン &#x200B;](assets/email-action-edit-content.png)
 
 ただし、パーソナライゼーションで使用されている属性は、プロファイル属性であるかコンテキストデータ（イベントプロパティまたはジャーニープロパティから得られるもの）であるかにかかわらず、変更できません。
 
