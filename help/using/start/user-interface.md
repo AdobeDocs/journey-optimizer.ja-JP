@@ -28,7 +28,7 @@ Adobe Journey Optimizer にアクセスするには、Adobe ID を使用して [
 
 Journey Optimizer インターフェイスは、次の 4 つの主な領域で構成されます。
 
-![ 左側のナビゲーション、上部バー、メインのワークスペース、およびホームページ領域を表示するJourney Optimizerのホームページ ](assets/ajo-home.png)
+![&#x200B; 左側のナビゲーション、上部バー、メインのワークスペース、およびホームページ領域を表示するJourney Optimizerのホームページ &#x200B;](assets/ajo-home.png)
 
 1. **左側のナビゲーション** - 機能別に整理されたすべての機能と特長へのアクセス
 2. **上部バー** - ユニバーサル検索、ヘルプ、通知、設定
