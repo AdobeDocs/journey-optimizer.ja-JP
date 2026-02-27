@@ -10,10 +10,10 @@ level: Beginner
 keywords: ランディング, ランディングページ, 作成, ページ, フォーム
 badge: label="限定提供" type="Informative"
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: 13ef8ae4fa988537db192eca0b906940e51eeb28
+source-git-commit: 58565932ccd2ecf95bafece71bf182fa9082cec6
 workflow-type: tm+mt
-source-wordcount: '1630'
-ht-degree: 100%
+source-wordcount: '1642'
+ht-degree: 98%
 
 ---
 
@@ -78,13 +78,13 @@ ht-degree: 100%
    >* **データタイプ**&#x200B;は、**XDM** に設定する必要があります（生データではありません）
    >* **認証**&#x200B;は、**無効**（認証されていない接続）にする必要があります
    >
-   >ストリーミング接続がリストに表示されない場合は、これらの条件が両方とも満たされていることを確認します。<!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
+   >ストリーミング接続がリストに表示されない場合は、これらの条件が両方とも満たされていることを確認します。<!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
 
 1. フォームにリンクする&#x200B;**[!UICONTROL データセット]**&#x200B;を選択します。ここにフォームの応答が保存および反映されます。 特定のデータセットを検索するには、入力するか、リストから選択できます。
 
    >[!NOTE]
    >
-   >現在、選択できるのは [!DNL Adobe Experience Platform] データセットのみです。一度に 1 つのデータセットを選択できます。[詳しくは、データセットを参照してください。](../data/get-started-datasets.md)
+   >現在、**プロファイル対応** および **プロファイル非対応** の [!DNL Adobe Experience Platform] データセットのみを選択できます。 一度に 1 つのデータセットを選択できます。システムデータセットは、フォームデータの保存には使用できません。 [詳しくは、データセットを参照してください。](../data/get-started-datasets.md)
 
 1. 「**[!UICONTROL 公開]**」をクリックします。これで、プリセットをフォームで使用する準備が整いました。
 
