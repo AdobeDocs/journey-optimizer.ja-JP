@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: キャンペーンレポート
+title: キャンペーンのライブアクティビティレポート
 description: キャンペーンレポートからライブアクティビティデータを使用する方法について説明します
 feature: Reporting
 topic: Content Management
@@ -10,9 +10,9 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 58034ec4-62dc-406c-99c4-d6b7aa107140
-source-git-commit: 2fc4b1ee34b44fb6c5bcddb13f1b2b02f7094ff1
+source-git-commit: 17f86c33f56b9855fa1d0f959aac8740ff2c2c2a
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '656'
 ht-degree: 22%
 
 ---
@@ -37,11 +37,11 @@ ht-degree: 22%
 
 * **[!UICONTROL ターゲット]**：除外、抑制または同意削除が適用される前にオーディエンスに対して選定されたプロファイルの数。
 
-* **[!UICONTROL 送信数]**：ターゲットプロファイルに送信しようとしたライブアクティビティの合計数。
+* **[!UICONTROL 送信数]**：ターゲットプロファイルに送信しようとしたライブアクティビティイベントの合計数。
 
-* **[!UICONTROL 配信済み]**：送信を試みた合計数に対して、デバイスに正常に配信されたライブアクティビティの数。
+* **[!UICONTROL 配信済み]**：送信を試みた合計数に対して、デバイスに正常に配信されたライブアクティビティイベントの数。
 
-* **[!UICONTROL 送信エラー]**：エラー（無効なトークンや接続の問題など）が原因で送信できなかったライブアクティビティの合計数。
+* **[!UICONTROL 送信エラー]**：エラー（無効なトークンや接続の問題など）が原因で送信できなかったライブアクティビティイベントの合計数。
 
 * **[!UICONTROL 送信除外数]**：Adobe Journey Optimizer により送信から除外されたプロファイルの数（例：オプトアウトステータスや実施要件ルールにより）。
 
@@ -79,7 +79,7 @@ ht-degree: 22%
 
 マーケティングキャンペーンでは、ブロードキャストのユースケースに対してライブアクティビティを使用し、複数のデバイスに更新を同時に送信します。
 
-マーケティングキャンペーンのiOS ライブアクティビティの場合、レポートには、開始時に **[!UICONTROL リモート開始]** イベントと **[!UICONTROL リモート開始エラー]** のみが表示されます。 APN ではフィードバックを提供せずにすべてのデバイスに更新が配布されるので、**[!UICONTROL Updates]** および **[!UICONTROL Ends]** イベントは追跡されません。 **[!UICONTROL アップデート]** および **[!UICONTROL 終了]** イベントを表示するには、[Appleのプッシュ通知コンソール &#x200B;](https://developer.apple.com/notifications/push-notifications-console/) を使用します。
+マーケティングキャンペーンのiOS ライブアクティビティの場合、レポートには、開始時に **[!UICONTROL リモート開始]** イベントと **[!UICONTROL リモート開始エラー]** のみが表示されます。 APN ではフィードバックを提供せずにすべてのデバイスに更新が配布されるので、**[!UICONTROL Updates]** および **[!UICONTROL Ends]** イベントは追跡されません。 **[!UICONTROL アップデート]** および **[!UICONTROL 終了]** イベントを表示するには、[Appleのプッシュ通知コンソール ](https://developer.apple.com/notifications/push-notifications-console/) を使用します。
 
 +++ マーケティングキャンペーンを使用したライブアクティビティのライフサイクル指標の詳細を説明します
 
