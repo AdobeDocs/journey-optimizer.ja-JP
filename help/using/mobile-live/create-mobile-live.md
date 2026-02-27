@@ -9,10 +9,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 9864a136-e129-4279-bb09-081b72f584df
-source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
+source-git-commit: 2fc4b1ee34b44fb6c5bcddb13f1b2b02f7094ff1
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 75%
+ht-degree: 69%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 75%
 
 1. 設定が完了したら、「**[!UICONTROL レビューしてアクティブ化]**」をクリックし、「**[!UICONTROL アクティブ化]**」をクリックします。
 
-1. キャンペーンをアクティブ化したら、指定された **cURL リクエスト**&#x200B;をテンプレートとして使用して、ライブアクティビティの開始、更新、終了イベントをトリガーします。実行前に、特定のデータでサンプルペイロードを更新します。
+1. キャンペーンがアクティブ化されたら、提供された **cURL リクエスト** をライブアクティビティの開始、更新または終了イベントをトリガーするためのテンプレートとして使用します。 実行前に、特定のデータでサンプルペイロードを更新します。
 
    また、ペイロードに含める&#x200B;**[!UICONTROL キャンペーン ID]** 識別子もコピーします。
 
@@ -157,6 +157,6 @@ ht-degree: 75%
 
 ## チュートリアルビデオ
 
-iOS Live アクティビティをAdobe Journey Optimizerと連携して設定し、iPhoneのロック画面と Dynamic Island でリッチなリアルタイム更新を提供する方法について説明します。
+iOS ライブアクティビティをAdobe Journey Optimizerと連携して設定し、iPhoneのロック画面と Dynamic Island でリッチなリアルタイム更新を提供する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3479865?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3479864)

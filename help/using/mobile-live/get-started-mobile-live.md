@@ -2,17 +2,17 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: ライブアクティビティの基本を学ぶ
-description: Journey Optimizer でライブアクティビティを送信する方法について説明します
+description: Journey Optimizerでライブアクティビティを送信する方法を学ぶ
 topic: Content Management
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: c9766603-df19-4efd-8319-27e9764254b4
-source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
+source-git-commit: 2fc4b1ee34b44fb6c5bcddb13f1b2b02f7094ff1
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 100%
+ht-degree: 60%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 100%
 >
 >Journey Optimizer のライブアクティビティは、iOS とのみ互換性があります。
 
-ライブアクティビティは、モバイルアプリ内でリアルタイムの更新とインタラクティブなエクスペリエンスを提供するので、ユーザーは進行中のイベントやタスクに関する情報をデバイスの画面上で直接表示できます。
+ライブアクティビティは、モバイルアプリ内でリアルタイムの更新とインタラクティブなエクスペリエンスを提供し、ユーザーが進行中のイベントやタスクに関する情報をデバイスの画面に直接表示できるようにします。
 
 この機能は、ユーザーがアプリを開かなくても、進行状況のトラッキング、イベントの更新、インタラクティブコンテンツなどのライブ情報を配信することで、エンゲージメントを強化します。
 
-ライブアクティビティは、**API トリガー**&#x200B;キャンペーン経由で&#x200B;**のみ**開始できるので、カスタムペイロードを提供し、独自のペイロードを通じてすべてのパーソナライゼーションを実行できます。
+ライブアクティビティは **API トリガー** キャンペーンを介して **のみ** 開始でき、カスタムペイロードを提供し、独自のペイロードを介してすべてのパーソナライゼーションを実行できます。
 対象のライブアクティビティのユースケースに基づいて、適切な **API トリガー**&#x200B;キャンペーンタイプを選択する必要があります。
 
 * オーディエンスベースのキャンペーンには、「**API トリガーマーケティング**」を選択します
@@ -39,7 +39,7 @@ ht-degree: 100%
 
 ## クイックスタートガイド
 
-アプリケーションでライブアクティビティを設定して実装するには、次の操作を実行します。
+ライブアクティビティを設定してアプリケーションに実装するには、以下の手順を実行します。
 
 1. **[Adobe Journey Optimizer を設定](mobile-live-configuration.md)**
 
@@ -49,10 +49,10 @@ ht-degree: 100%
 
    Adobe Experience Platform Mobile SDK との統合により、ロック画面と Dynamic Island でリアルタイムでの動的な変更が可能になります。
 
-1. **[Journey Optimizer でライブアクティビティを作成](create-mobile-live.md)**
+1. **[Journey Optimizerでのライブアクティビティの作成](create-mobile-live.md)**
 
-   Journey Optimizer で API トリガーキャンペーンを使用して、ライブアクティビティを開始します。
+   Journey Optimizerで API トリガーキャンペーンを使用して、ライブアクティビティを開始します。
 
 1. **[キャンペーンを追跡](../reports/campaign-global-report-cja-activity.md)**
 
-   ビルトインのレポートを使用して、ライブアクティビティの影響の測定を開始します。
+   組み込みレポートを使用して、ライブ アクティビティの影響の測定を開始します。
