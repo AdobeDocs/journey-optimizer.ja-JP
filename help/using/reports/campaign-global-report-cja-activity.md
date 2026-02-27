@@ -79,7 +79,7 @@ ht-degree: 58%
 
 マーケティングキャンペーンでは、ブロードキャストのユースケースにライブアクティビティを使用し、複数のデバイスに更新を同時に送信します。
 
-マーケティングキャンペーンのiOS ライブアクティビティの場合、レポートには、開始時に **[!UICONTROL リモート開始]** イベントと **[!UICONTROL リモート開始エラー]** のみが表示されます。 APN ではフィードバックを提供せずにすべてのデバイスに更新が配布されるので、**[!UICONTROL Updates]** および **[!UICONTROL Ends]** イベントは追跡されません。 **[!UICONTROL アップデート]** および **[!UICONTROL 終了]** イベントを表示するには、[Appleのプッシュ通知コンソール ](https://developer.apple.com/notifications/push-notifications-console/) を使用します。
+マーケティングキャンペーンのiOS ライブアクティビティの場合、レポートには、開始時に **[!UICONTROL リモート開始]** イベントと **[!UICONTROL リモート開始エラー]** のみが表示されます。 APN ではフィードバックを提供せずにすべてのデバイスに更新が配布されるので、**[!UICONTROL Updates]** および **[!UICONTROL Ends]** イベントは追跡されません。 **[!UICONTROL アップデート]** および **[!UICONTROL 終了]** イベントを表示するには、[Appleのプッシュ通知コンソール &#x200B;](https://developer.apple.com/notifications/push-notifications-console/) を使用します。
 
 +++ マーケティングキャンペーンを使用したライブアクティビティのライフサイクル指標の詳細を説明します
 
