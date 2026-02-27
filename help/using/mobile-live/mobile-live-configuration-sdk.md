@@ -8,27 +8,16 @@ role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
-workflow-type: ht
-source-wordcount: '465'
+exl-id: 02ca7c8e-105a-4e77-9aad-2381904255d0
+source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
+workflow-type: tm+mt
+source-wordcount: '437'
 ht-degree: 100%
 
 ---
 
-
 # Adobe Experience Platform Mobile SDK とのライブアクティビティ統合 {#mobile-live-config-sdk}
 
->[!BEGINSHADEBOX]
-
-* [ライブアクティビティの基本を学ぶ](get-started-mobile-live.md)
-* [ライブアクティビティの設定](mobile-live-configuration.md)
-* **[Adobe Experience Platform Mobile SDK とのライブアクティビティ統合](mobile-live-configuration-sdk.md)**
-* [ライブアクティビティの作成](create-mobile-live.md)
-* [よくある質問](mobile-live-faq.md)
-* [ライブアクティビティキャンペーンレポート](../reports/campaign-global-report-cja-activity.md)
-
-
->[!ENDSHADEBOX]
 
 Adobe Experience Platform Mobile SDK は、Apple のライブアクティビティのビルトインのサポートを提供します。 これにより、アプリを開かなくても、ロック画面と Dynamic Island でリアルタイムの動的な更新を直接表示できます。
 
@@ -242,5 +231,3 @@ extension FoodDeliveryLiveActivityAttributes: LiveActivityAssuranceDebuggable {
     }
 }
 ```
-
-

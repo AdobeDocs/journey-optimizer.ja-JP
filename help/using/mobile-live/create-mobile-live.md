@@ -8,25 +8,15 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: bfd36dddb5795cd8b6eeb164f70b6cf3fdcb5750
-workflow-type: ht
-source-wordcount: '317'
-ht-degree: 100%
+exl-id: 9864a136-e129-4279-bb09-081b72f584df
+source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
+workflow-type: tm+mt
+source-wordcount: '381'
+ht-degree: 75%
 
 ---
 
 # ライブアクティビティの作成 {#create-mobile-live}
-
->[!BEGINSHADEBOX]
-
-* [ライブアクティビティの基本を学ぶ](get-started-mobile-live.md)
-* [ライブアクティビティの設定](mobile-live-configuration.md)
-* [Adobe Experience Platform Mobile SDK とのライブアクティビティ統合](mobile-live-configuration-sdk.md)
-* **[ライブアクティビティの作成](create-mobile-live.md)**
-* [よくある質問](mobile-live-faq.md)
-* [ライブアクティビティキャンペーンレポート](../reports/campaign-global-report-cja-activity.md)
-
->[!ENDSHADEBOX]
 
 モバイル設定を指定し、Adobe Experience Platform Mobile SDK を実装したら、Journey Optimizer でライブアクティビティの作成を開始できます。
 
@@ -56,6 +46,10 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL オーディエンス]**」タブから、**[!UICONTROL ID タイプ]**&#x200B;を選択します [詳細情報](../audience/about-audiences.md)
 
+   >[!NOTE]
+   >
+   >**API トリガーマーケティング** キャンペーンの場合は、API ペイロードから APN channelID サブスクリプションを確認する前に、最初のセグメント化として機能する既存のオーディエンスを選択できます。
+
 1. キャンペーンは、特定の日付に実行するか、繰り返し頻度で実行するように設計されています。キャンペーンの&#x200B;**[!UICONTROL スケジュール]**&#x200B;を設定する方法については、[この節](../campaigns/create-campaign.md#schedule)を参照してください。
 
 1. 設定が完了したら、「**[!UICONTROL レビューしてアクティブ化]**」をクリックし、「**[!UICONTROL アクティブ化]**」をクリックします。
@@ -68,9 +62,9 @@ ht-degree: 100%
 
    ![](assets/create-live-3.png)
 
-   +++ 個々のペイロードの例
+   +++ 単一のユースケースのペイロードの例（API トリガートランザクションキャンペーン）
 
-   次のペイロード例のフィールドのほとんどは必須で、`requestId`、`dismissal-date`、`alert` のみがオプションです。
+   このペイロードの例は、**API トリガートランザクション** キャンペーンタイプを使用した個々のキャンペーン用です。 次のペイロード例のフィールドのほとんどは必須で、`requestId`、`dismissal-date`、`alert` のみがオプションです。
 
    ```json
    {
@@ -116,4 +110,53 @@ ht-degree: 100%
 
    +++
 
+   +++ ブロードキャストのユースケースのペイロードの例（API トリガーマーケティングキャンペーン）
+
+   このペイロードの例は、**API トリガーマーケティング** キャンペーンタイプを使用したオーディエンスベースのキャンペーンの場合です。
+
+   ```json
+   {
+       "requestId": "123400000",
+       "campaignId": "d32e6f6c-56df-4a98-a2c0-6db6008f8f32",
+       "audience": {
+           "id": "508f9416-52d0-4898-ba47-08baaa22e9c7"
+       },
+       "context": {
+           "requestPayload": {
+               "aps": {
+                   "input-push-channel": "V+8UslywEfAAAOq9SbTrLg==",  //apns-channel-id
+                   "content-available": 1,
+                   "timestamp": 1770808339,
+                   "event": "update",   // start | update | end
+   
+                   // Fields from GameScoreLiveActivityAttributes
+                   "content-state": {
+                       "homeTeamScore": 33,
+                       "awayTeamScore": 49,
+                       "statusText": "Wingdom keeps scoring!"
+                   },
+                   "attributes-type": "GameScoreLiveActivityAttributes",
+                   "attributes": {
+                       "liveActivityData": {
+                           "channelID": "V+8UslywEfAAAOq9SbTrLg=="   //apns-channel-id, must match the "input-push-channel" value
+                       }
+                   },
+                   "alert": {
+                       "title": "This is the title for game",
+                       "body": "This is the body for body"
+                   }
+               }
+           }
+       }
+   }
+   ```
+
+   +++
+
 ライブアクティビティをデザインしたら、[ビルトインのレポート](../reports/campaign-global-report-cja-activity.md)を使用してライブアクティビティの影響の測定を追跡できます。
+
+## チュートリアルビデオ
+
+iOS Live アクティビティをAdobe Journey Optimizerと連携して設定し、iPhoneのロック画面と Dynamic Island でリッチなリアルタイム更新を提供する方法について説明します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3479864)

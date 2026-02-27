@@ -8,25 +8,15 @@ role: Admin
 level: Intermediate
 hide: true
 hidefromtoc: true
-source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
-workflow-type: ht
-source-wordcount: '533'
+exl-id: db85a563-9630-4d87-bf10-9f2515fe8a45
+source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
+workflow-type: tm+mt
+source-wordcount: '505'
 ht-degree: 100%
 
 ---
 
 # ライブアクティビティの設定の基本を学ぶ {#mobile-live-config}
-
->[!BEGINSHADEBOX]
-
-* [ライブアクティビティの基本を学ぶ](get-started-mobile-live.md)
-* **[ライブアクティビティの設定](mobile-live-configuration.md)**
-* [Adobe Experience Platform Mobile SDK とのライブアクティビティ統合](mobile-live-configuration-sdk.md)
-* [ライブアクティビティの作成](create-mobile-live.md)
-* [よくある質問](mobile-live-faq.md)
-* [ライブアクティビティキャンペーンレポート](../reports/campaign-global-report-cja-activity.md)
-
->[!ENDSHADEBOX]
 
 ライブアクティビティを送信する前に、Adobe Journey Optimizer 環境を設定する必要があります。これを実行するには、次の手順を実行します。
 

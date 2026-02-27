@@ -8,26 +8,15 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: ce6bfca78d097588b5958c10c721b29b7013b3e2
-workflow-type: ht
-source-wordcount: '278'
+exl-id: c9766603-df19-4efd-8319-27e9764254b4
+source-git-commit: 6b4e3a6c32d24861f1ea8df54fc2e4fbb19d0ce7
+workflow-type: tm+mt
+source-wordcount: '250'
 ht-degree: 100%
 
 ---
 
-
 # ライブアクティビティの基本を学ぶ {#get-started-mobile-live}
-
->[!BEGINSHADEBOX]
-
-* **[ライブアクティビティの基本を学ぶ](get-started-mobile-live.md)**
-* [ライブアクティビティの設定](mobile-live-configuration.md)
-* [Adobe Experience Platform Mobile SDK とのライブアクティビティ統合](mobile-live-configuration-sdk.md)
-* [ライブアクティビティの作成](create-mobile-live.md)
-* [よくある質問](mobile-live-faq.md)
-* [ライブアクティビティキャンペーンレポート](../reports/campaign-global-report-cja-activity.md)
-
->[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
@@ -67,7 +56,3 @@ ht-degree: 100%
 1. **[キャンペーンを追跡](../reports/campaign-global-report-cja-activity.md)**
 
    ビルトインのレポートを使用して、ライブアクティビティの影響の測定を開始します。
-
-
-
-
