@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 57916f631c0154113699ca941a635678813561fe
+source-git-commit: 4576362dc6e5cd75fa19a8d4e9403db8f1e025af
 workflow-type: tm+mt
-source-wordcount: '3111'
+source-wordcount: '3117'
 ht-degree: 97%
 
 ---
@@ -486,6 +486,7 @@ ht-degree: 97%
       + [Adobe Express の操作](using/integrations/express.md)
       + [Experience Manager テンプレートの操作](using/integrations/aem-templates.md)
       + [Experience Manager コンテンツフラグメントの操作](using/integrations/aem-fragments.md)
+      + [Experience Manager コンテンツアドバイザーの操作](using/content-management/aem-content-advisor.md)
       + [カウントダウンタイマーの挿入](using/integrations/countdown.md)
       + [Dynamic Media の操作](using/integrations/aem-dynamic.md)
       + [GenStudio for Performance Marketing の操作](using/integrations/genstudio.md)
@@ -949,7 +950,7 @@ ht-degree: 97%
    + [プライバシー](/help/rp_landing_pages/privacy-landing-page.md)
    + [プライバシーの基本を学ぶ](using/privacy/get-started-privacy.md)
    + [プライバシーリクエスト](using/privacy/requests.md)
-   + [&#x200B; リソースに対する監査アクション](using/privacy/audit-logs.md)
+   + [ リソースに対する監査アクション](using/privacy/audit-logs.md)
    + [データライフサイクル操作の実行](using/privacy/data-hygiene.md)
    + 同意を管理 {#consent}
       + [同意を管理](/help/rp_landing_pages/consent-landing-page.md)
