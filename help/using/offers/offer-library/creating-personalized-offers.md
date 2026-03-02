@@ -10,10 +10,10 @@ role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 version: Journey Orchestration
-source-git-commit: 8dcac6e63f6a38874b3aff4996fc317e3606cb9b
+source-git-commit: b90e3af955496d4fcae54b109cb1e86a8a21be43
 workflow-type: tm+mt
 source-wordcount: '839'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -83,7 +83,9 @@ ht-degree: 97%
 
    ![](../assets/offer_manage-access.png)
 
-1. 表示域を追加して、メッセージでオファーを表示する場所を定義します。[&#x200B; 詳細情報 &#x200B;](add-representations.md) 表示域コンテンツをパーソナライズする場合、特定の関数のみがサポートされます。[&#x200B; 式エディターでサポートされる関数 &#x200B;](../personalization-editor-supported-functions.md) を参照してください。
+1. 表示域を追加して、メッセージでオファーを表示する場所を定義します。[詳細情報](add-representations.md)
+
+   表示域コンテンツをパーソナライズする場合、特定の関数のみがサポートされます。[ 式エディターでサポートされる関数 ](../personalization-editor-supported-functions.md) を参照してください。
 
    ![](../assets/channel-placement.png)
 
@@ -174,4 +176,4 @@ ht-degree: 97%
 
 ## チュートリアルビデオ {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341356?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)
