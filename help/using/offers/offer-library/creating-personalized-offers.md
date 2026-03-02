@@ -85,7 +85,7 @@ ht-degree: 98%
 
 1. 表示域を追加して、メッセージでオファーを表示する場所を定義します。[詳細情報](add-representations.md)
 
-   表示域コンテンツをパーソナライズする場合、特定の関数のみがサポートされます。[ 式エディターでサポートされる関数 ](../personalization-editor-supported-functions.md) を参照してください。
+   表示域コンテンツをパーソナライズする場合、特定の関数のみがサポートされます。[&#x200B; 式エディターでサポートされる関数 &#x200B;](../personalization-editor-supported-functions.md) を参照してください。
 
    ![](../assets/channel-placement.png)
 
