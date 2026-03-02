@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4576362dc6e5cd75fa19a8d4e9403db8f1e025af
+source-git-commit: 8dcac6e63f6a38874b3aff4996fc317e3606cb9b
 workflow-type: tm+mt
-source-wordcount: '3117'
+source-wordcount: '3123'
 ht-degree: 97%
 
 ---
@@ -695,6 +695,7 @@ ht-degree: 97%
          + [意思決定管理の基本を学ぶ](/help/rp_landing_pages/get-started-decision-landing-page.md)
          + [意思決定管理について](using/offers/get-started/starting-offer-decisioning.md)
          + [意思決定管理ガードレールと制限](using/offers/decision-management-guardrails.md)
+         + [式エディターでサポートされる関数](using/offers/personalization-editor-supported-functions.md)
          + [ユーザーインターフェイス](using/offers/get-started/user-interface.md)
          + [オファーを作成および管理する主要ステップ](using/offers/offer-library/key-steps.md)
          + [決定のカスタムアップロードオーディエンスの活用](using/offers/custom-upload-decisioning.md)
@@ -950,7 +951,7 @@ ht-degree: 97%
    + [プライバシー](/help/rp_landing_pages/privacy-landing-page.md)
    + [プライバシーの基本を学ぶ](using/privacy/get-started-privacy.md)
    + [プライバシーリクエスト](using/privacy/requests.md)
-   + [&#x200B; リソースに対する監査アクション](using/privacy/audit-logs.md)
+   + [ リソースに対する監査アクション](using/privacy/audit-logs.md)
    + [データライフサイクル操作の実行](using/privacy/data-hygiene.md)
    + 同意を管理 {#consent}
       + [同意を管理](/help/rp_landing_pages/consent-landing-page.md)

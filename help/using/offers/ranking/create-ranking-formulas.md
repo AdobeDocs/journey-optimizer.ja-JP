@@ -11,10 +11,10 @@ level: Intermediate
 mini-toc-levels: 1
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 8dcac6e63f6a38874b3aff4996fc317e3606cb9b
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 100%
+source-wordcount: '636'
+ht-degree: 96%
 
 ---
 
@@ -29,6 +29,8 @@ ht-degree: 100%
 **ランキング式** を使用すると、オファーの優先度スコアを考慮するのではなく、指定されたプレースメントに対して最初に提示するオファーを決定するルールを定義できます。
 
 ランキング式は **PQL 構文**&#x200B;で表され、式中でプロファイル属性、コンテキストデータ、オファー属性を利用できます。PQL 構文の使用方法について詳しくは、[関連するドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=ja)を参照してください。
+
+意思決定管理では、ランキング式でサポートされるのは関数のサブセットのみです。 リストについては、[ 式エディターでサポートされる関数 ](../personalization-editor-supported-functions.md) を参照してください。
 
 ランキング式を作成したら、決定内のプレースメントに割り当てることができます。詳しくは、[決定でのオファーの選択設定](../offer-activities/configure-offer-selection.md)を参照してください。
 
