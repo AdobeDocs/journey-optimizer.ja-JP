@@ -30,7 +30,7 @@ ht-degree: 96%
 
 ランキング式は **PQL 構文**&#x200B;で表され、式中でプロファイル属性、コンテキストデータ、オファー属性を利用できます。PQL 構文の使用方法について詳しくは、[関連するドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=ja)を参照してください。
 
-意思決定管理では、ランキング式でサポートされるのは関数のサブセットのみです。 リストについては、[ 式エディターでサポートされる関数 ](../personalization-editor-supported-functions.md) を参照してください。
+意思決定管理では、ランキング式でサポートされるのは関数のサブセットのみです。 リストについては、[&#x200B; 式エディターでサポートされる関数 &#x200B;](../personalization-editor-supported-functions.md) を参照してください。
 
 ランキング式を作成したら、決定内のプレースメントに割り当てることができます。詳しくは、[決定でのオファーの選択設定](../offer-activities/configure-offer-selection.md)を参照してください。
 
