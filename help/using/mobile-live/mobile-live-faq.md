@@ -6,10 +6,8 @@ description: ライブアクティビティに関するよくある質問
 topic: Content Management
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 exl-id: e7e994ca-aa0c-4e86-8710-c87430b74188
-source-git-commit: 5bb1a76ac0797f5fdea36e8b7164cb139ebd40dd
+source-git-commit: 9cdd115c66c8a26a59bfb45f0f20b6c96ddb5d5d
 workflow-type: tm+mt
 source-wordcount: '1802'
 ht-degree: 47%

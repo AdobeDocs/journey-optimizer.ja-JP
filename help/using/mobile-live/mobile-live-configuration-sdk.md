@@ -6,10 +6,8 @@ description: Adobe Experience Platform Mobile SDK 統合を設定する方法に
 feature: Channel Configuration
 role: Admin
 level: Intermediate
-hide: true
-hidefromtoc: true
 exl-id: 02ca7c8e-105a-4e77-9aad-2381904255d0
-source-git-commit: 8af635a27bc37005c63050f95089a5ab65edd0e2
+source-git-commit: 9cdd115c66c8a26a59bfb45f0f20b6c96ddb5d5d
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 73%
@@ -237,8 +235,8 @@ extension FoodDeliveryLiveActivityAttributes: LiveActivityAssuranceDebuggable {
 
 包括的なSDKのドキュメントと実装の詳細については、以下を参照してください。
 
-* [&#x200B; ライブアクティビティ開発者ガイド &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities)
+* [ ライブアクティビティ開発者ガイド ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities)
 * [API リファレンス](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/api-reference/)
-* [&#x200B; ライブアクティビティチュートリアル &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/tutorial/)
-* [&#x200B; 公開の授業 &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/public-classes/live-activity-attributes/)
+* [ ライブアクティビティチュートリアル ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/tutorial/)
+* [ 公開の授業 ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/public-classes/live-activity-attributes/)
 秒
