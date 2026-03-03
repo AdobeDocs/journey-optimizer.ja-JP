@@ -77,7 +77,7 @@ ht-degree: 93%
 
 ## オファーの作成と管理 {#create-and-manage-offers}
 
-1. [ オファーを作成 ](creating-personalized-offers.md) し、そのコンテンツとプロパティを設定します。 オファーコンテンツ（表示域）をパーソナライズする場合、特定の関数のみがサポートされます。[ パーソナライゼーションエディターでサポートされる関数 ](personalization-editor-supported-functions.md) を参照してください。
+1. [&#x200B; オファーを作成 &#x200B;](creating-personalized-offers.md) し、そのコンテンツとプロパティを設定します。 オファーコンテンツ（表示域）をパーソナライズする場合、特定の関数のみがサポートされます。[&#x200B; パーソナライゼーションエディターでサポートされる関数 &#x200B;](personalization-editor-supported-functions.md) を参照してください。
 
 1. [フォールバックオファーを作成](creating-fallback-offers.md)します。これは、顧客が選択したオファーのいずれにも資格がない場合に表示する最後の手段です。
 
