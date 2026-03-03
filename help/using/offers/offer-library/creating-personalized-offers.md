@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 4a53ea96-632a-41c7-ab15-b85b99db4f3e
 version: Journey Orchestration
-source-git-commit: b90e3af955496d4fcae54b109cb1e86a8a21be43
+source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
 workflow-type: tm+mt
 source-wordcount: '839'
 ht-degree: 98%
@@ -85,7 +85,7 @@ ht-degree: 98%
 
 1. 表示域を追加して、メッセージでオファーを表示する場所を定義します。[詳細情報](add-representations.md)
 
-   表示域コンテンツをパーソナライズする場合、特定の関数のみがサポートされます。[&#x200B; 式エディターでサポートされる関数 &#x200B;](../personalization-editor-supported-functions.md) を参照してください。
+   表示域コンテンツをパーソナライズする場合、特定の関数のみがサポートされます。[ パーソナライゼーションエディターでサポートされる関数 ](personalization-editor-supported-functions.md) を参照してください。
 
    ![](../assets/channel-placement.png)
 
@@ -176,4 +176,4 @@ ht-degree: 98%
 
 ## チュートリアルビデオ {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341356?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329375?quality=12)

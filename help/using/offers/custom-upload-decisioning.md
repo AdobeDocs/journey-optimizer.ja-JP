@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: bd950410-691b-49d8-8851-8c6c448c00fd
 version: Journey Orchestration
-source-git-commit: 8dcac6e63f6a38874b3aff4996fc317e3606cb9b
+source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
 workflow-type: tm+mt
 source-wordcount: '631'
 ht-degree: 97%
@@ -77,6 +77,6 @@ ht-degree: 97%
 
 オーディエンスを制約として追加すると、その属性を使用して表示域のコンテンツをパーソナライズできます。これを行うには、「**プロファイル属性**」タブにアクセスし、カスタムアップロードオーディエンスを検索します。オーディエンスから関連属性を選択して、オファーコンテンツをパーソナライズします。
 
-意思決定管理では、コンテンツをパーソナライズする際に、特定の関数のみがサポートされます。[&#x200B; 式エディターでサポートされる関数 &#x200B;](personalization-editor-supported-functions.md) を参照してください。
+意思決定管理では、コンテンツをパーソナライズする場合に、特定の関数のみがサポートされます。[ パーソナライゼーションエディターでサポートされる関数 ](offer-library/personalization-editor-supported-functions.md) を参照してください。
 
 ![プロファイル属性パーソナライゼーションインターフェイス](assets/csv-perso.png)

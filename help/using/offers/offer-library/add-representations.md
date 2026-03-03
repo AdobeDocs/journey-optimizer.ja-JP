@@ -10,7 +10,7 @@ role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
 version: Journey Orchestration
-source-git-commit: 8dcac6e63f6a38874b3aff4996fc317e3606cb9b
+source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
 workflow-type: tm+mt
 source-wordcount: '847'
 ht-degree: 91%
@@ -74,7 +74,7 @@ ht-degree: 91%
 >
 >プレースメントのコンテンツタイプに対応するコンテンツのみ使用できます。
 >
->意思決定管理でパーソナライゼーションエディターを使用する場合、関数のサブセットのみがサポートされます。[&#x200B; 式エディターでサポートされる関数 &#x200B;](../personalization-editor-supported-functions.md) を参照してください。
+>意思決定管理でパーソナライゼーションエディターを使用する場合、関数のサブセットのみがサポートされます。[ パーソナライゼーションエディターでサポートされる関数 ](personalization-editor-supported-functions.md) を参照してください。
 
 ### 画像の追加 {#images}
 
@@ -110,13 +110,13 @@ ht-degree: 91%
 
 外部の公開場所からコンテンツを追加するには、「**[!UICONTROL URL]**」を選択してから、追加するコンテンツの URL アドレスを入力します。
 
-パーソナライゼーションエディターを使用して、URL をパーソナライズできます。詳細情報 [&#x200B; パーソナライゼーション &#x200B;](../../personalization/personalize.md#use-expression-editor)。 意思決定管理では、特定の関数のみがサポートされます。[&#x200B; 式エディターでサポートされる関数 &#x200B;](../personalization-editor-supported-functions.md) を参照してください。
+パーソナライゼーションエディターを使用して、URL をパーソナライズできます。詳細情報 [ パーソナライゼーション ](../../personalization/personalize.md#use-expression-editor)。 意思決定管理では、特定の関数のみがサポートされます。[ パーソナライゼーションエディターでサポートされる関数 ](personalization-editor-supported-functions.md) を参照してください。
 
 ![](../assets/offer-content-url.png)
 
 例えば、オファーとして表示される画像をパーソナライズする場合、都会での休暇を好むユーザーにはニューヨークのスカイラインを、ビーチでの休暇を好むユーザーにはハワイのノースショアを表示しようとします。
 
-パーソナライゼーションエディターを使用して、結合スキーマで Adobe Experience Platform に保存されているプロファイル属性を取得します。[&#x200B; 詳細 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html?lang=ja){target="_blank"} 意思決定管理でサポートされる関数については、[&#x200B; 式エディターでサポートされる関数 &#x200B;](../personalization-editor-supported-functions.md) を参照してください。
+パーソナライゼーションエディターを使用して、結合スキーマで Adobe Experience Platform に保存されているプロファイル属性を取得します。[ 詳細情報 ](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html?lang=ja){target="_blank"} 意思決定管理でサポートされている関数については、[ パーソナライゼーションエディターでサポートされている関数 ](personalization-editor-supported-functions.md) を参照してください。
 
 ![](../assets/offer-content-url-personalization.png)
 
@@ -138,7 +138,7 @@ ht-degree: 91%
 
    ![](../assets/offer-text-content.png)
 
-   パーソナライゼーションエディターを使用して、コンテンツをパーソナライズできます。詳細情報 [&#x200B; パーソナライゼーション &#x200B;](../../personalization/personalize.md#use-expression-editor)。 意思決定管理では、特定の関数のみがサポートされます。[&#x200B; 式エディターでサポートされる関数 &#x200B;](../personalization-editor-supported-functions.md) を参照してください。
+   パーソナライゼーションエディターを使用して、コンテンツをパーソナライズできます。詳細情報 [ パーソナライゼーション ](../../personalization/personalize.md#use-expression-editor)。 意思決定管理では、特定の関数のみがサポートされます。[ パーソナライゼーションエディターでサポートされる関数 ](personalization-editor-supported-functions.md) を参照してください。
 
    ![](../assets/offer-personalization.png)
 

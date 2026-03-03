@@ -10,10 +10,10 @@ role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
 version: Journey Orchestration
-source-git-commit: 8dcac6e63f6a38874b3aff4996fc317e3606cb9b
+source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 92%
+source-wordcount: '425'
+ht-degree: 100%
 
 ---
 
@@ -36,10 +36,6 @@ Adobe Experience Platform で利用可能なデータに基づいて、オファ
 * Edge 決定では、イベントを保存しない Edge プロファイルを使用するので、Edge 決定で使用するルールは無効になります。
 * 決定ルールを作成する際に、前の期間をさかのぼることはサポートされていません。例えば、過去 1 か月以内に発生したエクスペリエンスイベントをルールのコンポーネントとして指定した場合。ルールの作成中にルックバック期間を含めようとすると、保存時にトリガーが発生します。
   <!--* Decision requests that use the hub profile will look at the last 100 experience events on the profile to evaluate rules that reference historical experience events.-->
-
->[!NOTE]
->
->意思決定管理では、式関数のサブセットのみがサポートされます。 ルールで式またはプロファイル属性を使用する場合、サポートされる関数のリストについては、[&#x200B; 式エディターでサポートされる関数 &#x200B;](../personalization-editor-supported-functions.md) を参照してください。
 
 ## 決定ルールの作成 {#create}
 
@@ -85,4 +81,4 @@ Adobe Experience Platform で利用可能なデータに基づいて、オファ
 
 ## チュートリアルビデオ {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341373?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329373?quality=12)
