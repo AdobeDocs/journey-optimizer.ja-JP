@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 設定, メール, 設定
 exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '712'
-ht-degree: 100%
+source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
+workflow-type: tm+mt
+source-wordcount: '733'
+ht-degree: 97%
 
 ---
 
@@ -23,6 +23,8 @@ ht-degree: 100%
 >[!NOTE]
 >
 >メール設定の制御を高めるには、ヘッダーパラメーターをパーソナライズできます。[詳細情報](../email/surface-personalization.md#personalize-header)
+>
+>[ メール設定の編集 ](../configuration/channel-surfaces.md#edit-channel-surface) 時に、新しい [ プロファイル属性 ](../personalization/personalization-build-expressions.md#sources) をヘッダーパラメーターに追加することはできません。 新しいチャネル設定を作成する必要があります。
 
 * **[!UICONTROL 送信者名]**：送信者の名前（会社のブランド名など）。
 * **[!UICONTROL 送信者メールの接頭辞]**：コミュニケーションに使用するメールアドレス。

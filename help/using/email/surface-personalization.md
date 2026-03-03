@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 設定, メール, 設定, サブドメイン
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
 workflow-type: tm+mt
-source-wordcount: '1171'
-ht-degree: 100%
+source-wordcount: '1192'
+ht-degree: 98%
 
 ---
 
@@ -89,6 +89,10 @@ ht-degree: 100%
 ## ヘッダーのパーソナライズ {#personalize-header}
 
 また、設定で定義されているすべてのヘッダーパラメーターに対してパーソナライゼーションを使用することもできます。
+
+>[!NOTE]
+>
+>[ メール設定の編集 ](../configuration/channel-surfaces.md#edit-channel-surface) 時に、新しい [ プロファイル属性 ](../personalization/personalization-build-expressions.md#sources) をヘッダーパラメーターに追加することはできません。 新しいチャネル設定を作成する必要があります。
 
 例えば、ブランドが複数ある場合は、単一の設定を作成し、メールヘッダーにパーソナライズされた値を使用できます。これにより、様々なブランドから送信されるすべてのメールが、正しい&#x200B;**送信元**&#x200B;の名前とメールアドレスを使用して、各顧客に送信されるようになります。同様に、受信者がメールクライアントソフトウェアの「**返信**」ボタンを押した際、**返信先**&#x200B;の名前とメールアドレスが、適切なユーザーの正しいブランドに対応するようにする必要があります。
 
