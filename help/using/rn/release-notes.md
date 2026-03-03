@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4576362dc6e5cd75fa19a8d4e9403db8f1e025af
+source-git-commit: 21bab54492aec0715ec5fa9c0a1061f7b6539274
 workflow-type: tm+mt
-source-wordcount: '1637'
-ht-degree: 36%
+source-wordcount: '1713'
+ht-degree: 35%
 
 ---
 
@@ -28,6 +28,8 @@ ht-degree: 36%
 [!DNL Adobe Journey Optimizer] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}を参照してください。
 
 ## 2026 年 3 月の更新 {#march-26-rn}
+
+### 新機能 {#march-26-features}
 
 <!--
 <table>
@@ -68,13 +70,22 @@ ht-degree: 36%
 </tbody>
 </table>
 
+### 機能強化 {#march-26-improv}
+
+#### 設定
+
+* **AJOセカンダリ受信者フィードバックイベントデータセットの変更** - AJO メール BCC フィードバックイベントデータセットは、AJOセカンダリ受信者フィードバックイベントデータセットに名前が変更されます。
+   * **既存のユーザー**：表示名のみが変更されます。 基になるテーブル名は変更されません。
+   * **新しいユーザーと新しいサンドボックス**：表示名とテーブル名の両方で新しい名前を使用します。
+   * **新しいサンドボックスを使用する既存のユーザー/組織**：表示名とテーブル名の両方が新しい名前に変更されます。
+
 ## 2026 年 2 月リリースノート {#feb-26-01-rn}
 
-[&#x200B; 新機能 &#x200B;](#feb-26-01-features) と [&#x200B; 改善点 &#x200B;](#feb-26-01-improv) の節では、既に使用可能な機能について説明しています。 [&#x200B; 近日公開 &#x200B;](#coming-soon) のセクションには、2 月下旬にリリースが予定されている機能と改善点の一覧が表示されます。
+[ 新機能 ](#feb-26-01-features) と [ 改善点 ](#feb-26-01-improv) の節では、既に使用可能な機能について説明しています。 [ 近日公開 ](#coming-soon) のセクションには、2 月下旬にリリースが予定されている機能と改善点の一覧が表示されます。
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 <!--**Release date**: February 17-18, 2026-->
 
@@ -273,7 +284,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 #### 設定
 
-* **ジャーニー式でのエクスペリエンスイベントの使用** - 2026 年 4 月 1 日（PT）以降、ジャーニー式でのエクスペリエンスイベント属性の使用は、過去 90 日間にこの機能を使用していない組織ではサポートされなくなります。 この機能は、2025 年 7 月 8 日（PT）以降、新規のお客様は使用できなくなっています。 代替手段については、[&#x200B; ジャーニーでのエクスペリエンスイベントの参照 &#x200B;](../building-journeys/exp-event-lookup.md) を参照してください。
+* **ジャーニー式でのエクスペリエンスイベントの使用** - 2026 年 4 月 1 日（PT）以降、ジャーニー式でのエクスペリエンスイベント属性の使用は、過去 90 日間にこの機能を使用していない組織ではサポートされなくなります。 この機能は、2025 年 7 月 8 日（PT）以降、新規のお客様は使用できなくなっています。 代替手段については、[ ジャーニーでのエクスペリエンスイベントの参照 ](../building-journeys/exp-event-lookup.md) を参照してください。
 
 #### コンテンツ管理
 
