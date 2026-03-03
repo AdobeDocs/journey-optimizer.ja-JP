@@ -10,10 +10,10 @@ role: User
 level: Intermediate
 exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
 version: Journey Orchestration
-source-git-commit: 8dcac6e63f6a38874b3aff4996fc317e3606cb9b
+source-git-commit: 9d85361c6f177e451149baf4e2677dce56c6130c
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 92%
+source-wordcount: '360'
+ht-degree: 93%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 92%
 
 ## オファーの作成と管理 {#create-and-manage-offers}
 
-1. [&#x200B; オファーを作成 &#x200B;](creating-personalized-offers.md) し、そのコンテンツとプロパティを設定します。 オファーコンテンツ（表示域）をパーソナライズする場合、特定の式関数のみがサポートされます。[&#x200B; 式エディターでサポートされる関数 &#x200B;](../personalization-editor-supported-functions.md) を参照してください。
+1. [ オファーを作成 ](creating-personalized-offers.md) し、そのコンテンツとプロパティを設定します。 オファーコンテンツ（表示域）をパーソナライズする場合、特定の関数のみがサポートされます。[ パーソナライゼーションエディターでサポートされる関数 ](personalization-editor-supported-functions.md) を参照してください。
 
 1. [フォールバックオファーを作成](creating-fallback-offers.md)します。これは、顧客が選択したオファーのいずれにも資格がない場合に表示する最後の手段です。
 
