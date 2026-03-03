@@ -39,7 +39,7 @@ ht-degree: 98%
 
 * [ランキング式 - コンテキストデータに基づいてオファーの優先度を上げる](../offers/ranking/create-ranking-formulas.md#context-data)
 * [コンテキストデータに基づいた表示域のパーソナライズ](../offers/offer-library/add-representations.md#context-data)
-* [ パーソナライゼーションエディターでサポートされる関数 ](offer-library/personalization-editor-supported-functions.md) （意思決定管理でオファーコンテンツをパーソナライズする場合）
+* [&#x200B; パーソナライゼーションエディターでサポートされる関数 &#x200B;](offer-library/personalization-editor-supported-functions.md) （意思決定管理でオファーコンテンツをパーソナライズする場合）
 
 >[!ENDSHADEBOX]
 
