@@ -9,20 +9,22 @@ role: User
 level: Intermediate
 exl-id: d2872bd3-42f8-4744-bb5b-41c49340098a
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 90b7d9bfe40e6d68e22a9f1aa8ef6d302a1035d9
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 100%
+source-wordcount: '400'
+ht-degree: 83%
 
 ---
 
 # 意思決定管理ガードレールと制限 {#decision-management-guardrails}
 
->[!TIP]
+>[!IMPORTANT]
 >
->[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../experience-decisioning/gs-experience-decisioning.md)
+>このページでは、従来の **意思決定管理** 機能のガードレールについて説明します。 コードベースのエクスペリエンスとメールチャネルを介して利用できる **の現在の意思決定機能** Decisioning[!DNL Adobe Journey Optimizer] を使用している場合は、代わりに [ 意思決定ガードレールと制限 ](../experience-decisioning/decisioning-guardrails.md) を参照してください。
+>
+>使用している機能が不明な場合は、 [Decisioning について説明します ](../experience-decisioning/gs-experience-decisioning.md)。
 
-意思決定管理の最適な使用を確保するには、次のガードレールと制限に注意してください。
+このページは、従来の意思決定管理システムを使用しているユーザーを対象としています。 最適な使用を確保するには、次のガードレールと制限に注意してください。
 
 [!DNL Journey Optimizer] のガードレールと制限の完全なリストについて詳しくは、[この節](../start/guardrails.md)を参照してください。
 

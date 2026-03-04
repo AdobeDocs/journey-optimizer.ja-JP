@@ -10,18 +10,20 @@ role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
 version: Journey Orchestration
-source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
+source-git-commit: 90b7d9bfe40e6d68e22a9f1aa8ef6d302a1035d9
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 100%
+source-wordcount: '450'
+ht-degree: 90%
 
 ---
 
 # 決定ルールの作成 {#create-decision-rules}
 
->[!TIP]
+>[!IMPORTANT]
 >
->[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../experience-decisioning/gs-experience-decisioning.md)
+>このページでは、従来の **意思決定管理** 機能の決定ルールについて説明します。 コードベースのエクスペリエンスとメールチャネルを介して利用できる **の現在の意思決定機能である** Decisioning[!DNL Adobe Journey Optimizer] を使用している場合は、代わりに [ ルールの作成 ](../../experience-decisioning/rules.md) を参照してください。
+>
+>使用している機能が不明な場合は、 [Decisioning について説明します ](../../experience-decisioning/gs-experience-decisioning.md)。
 
 ## 決定ルールについて {#about}
 
@@ -81,4 +83,4 @@ Adobe Experience Platform で利用可能なデータに基づいて、オファ
 
 ## チュートリアルビデオ {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341373?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329373?quality=12)
