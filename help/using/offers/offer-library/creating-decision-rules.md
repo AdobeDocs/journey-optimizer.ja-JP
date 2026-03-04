@@ -21,9 +21,9 @@ ht-degree: 90%
 
 >[!IMPORTANT]
 >
->このページでは、従来の **意思決定管理** 機能の決定ルールについて説明します。 コードベースのエクスペリエンスとメールチャネルを介して利用できる **の現在の意思決定機能である** Decisioning[!DNL Adobe Journey Optimizer] を使用している場合は、代わりに [ ルールの作成 ](../../experience-decisioning/rules.md) を参照してください。
+>このページでは、従来の **意思決定管理** 機能の決定ルールについて説明します。 コードベースのエクスペリエンスとメールチャネルを介して利用できる **の現在の意思決定機能である** Decisioning[!DNL Adobe Journey Optimizer] を使用している場合は、代わりに [&#x200B; ルールの作成 &#x200B;](../../experience-decisioning/rules.md) を参照してください。
 >
->使用している機能が不明な場合は、 [Decisioning について説明します ](../../experience-decisioning/gs-experience-decisioning.md)。
+>使用している機能が不明な場合は、 [Decisioning について説明します &#x200B;](../../experience-decisioning/gs-experience-decisioning.md)。
 
 ## 決定ルールについて {#about}
 

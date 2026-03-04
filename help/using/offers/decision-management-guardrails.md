@@ -20,9 +20,9 @@ ht-degree: 83%
 
 >[!IMPORTANT]
 >
->このページでは、従来の **意思決定管理** 機能のガードレールについて説明します。 コードベースのエクスペリエンスとメールチャネルを介して利用できる **の現在の意思決定機能** Decisioning[!DNL Adobe Journey Optimizer] を使用している場合は、代わりに [ 意思決定ガードレールと制限 ](../experience-decisioning/decisioning-guardrails.md) を参照してください。
+>このページでは、従来の **意思決定管理** 機能のガードレールについて説明します。 コードベースのエクスペリエンスとメールチャネルを介して利用できる **の現在の意思決定機能** Decisioning[!DNL Adobe Journey Optimizer] を使用している場合は、代わりに [&#x200B; 意思決定ガードレールと制限 &#x200B;](../experience-decisioning/decisioning-guardrails.md) を参照してください。
 >
->使用している機能が不明な場合は、 [Decisioning について説明します ](../experience-decisioning/gs-experience-decisioning.md)。
+>使用している機能が不明な場合は、 [Decisioning について説明します &#x200B;](../experience-decisioning/gs-experience-decisioning.md)。
 
 このページは、従来の意思決定管理システムを使用しているユーザーを対象としています。 最適な使用を確保するには、次のガードレールと制限に注意してください。
 
