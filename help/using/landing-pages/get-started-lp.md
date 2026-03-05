@@ -96,4 +96,4 @@ ht-degree: 26%
 
 次のビデオでは、購読リストの作成方法、サービスのオプトインまたはオプトアウト用のランディングページの設定方法、メッセージへのオプトイン/オプトアウトオプションの統合方法および関連するジャーニーの設定方法を示します。
 
->[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/344400?captions=jpn&quality=12&learn=on)
