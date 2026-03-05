@@ -44,11 +44,11 @@ ht-degree: 5%
 
 >[!WARNING]
 >
->コンテンツテンプレートの高度なHTML エディターは、メールDesignerの **[!UICONTROL 独自にコーディング]** モードとは異なります。 [!UICONTROL  独自にコーディング ] モードでは、ビジュアルエディターに戻すことはできません。そのパスを選択すると、コードのみの編集になります。 これに対して、高度なHTML エディターでは、HTML表示とデスクトップ（ビジュアル）表示をいつでも切り替えることができます。 [詳しくは、コードエディターを参照してください](../email/code-content.md)
+>コンテンツテンプレートの高度なHTML エディターは、メールDesignerの **[!UICONTROL 独自にコーディング]** モードとは異なります。 [!UICONTROL &#x200B; 独自にコーディング &#x200B;] モードでは、ビジュアルエディターに戻すことはできません。そのパスを選択すると、コードのみの編集になります。 これに対して、高度なHTML エディターでは、HTML表示とデスクトップ（ビジュアル）表示をいつでも切り替えることができます。 [詳しくは、コードエディターを参照してください](../email/code-content.md)
 
 ## HTMLの詳細表示に切り替える {#switch-to-desktop-view}
 
-1. [ メールテンプレート ](../content-management/create-content-templates.md) を開くか作成し、[ メールDesigner](../email/get-started-email-design.md) を開いてコンテンツを編集します。
+1. [&#x200B; メールテンプレート &#x200B;](../content-management/create-content-templates.md) を開くか作成し、[&#x200B; メールDesigner](../email/get-started-email-design.md) を開いてコンテンツを編集します。
 
 1. 画面の右上隅にある「**[!UICONTROL HTML]**」ボタンをクリックします。
 
