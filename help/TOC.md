@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
+source-git-commit: 74102069afa519898149de33f890568950571f26
 workflow-type: tm+mt
-source-wordcount: '3130'
-ht-degree: 97%
+source-wordcount: '3136'
+ht-degree: 96%
 
 ---
 
@@ -461,8 +461,9 @@ ht-degree: 97%
       + [コンテンツテンプレートの基本を学ぶ](using/content-management/content-templates.md)
       + [テンプレートへのアクセスと管理](using/content-management/access-content-templates.md)
       + [コンテンツテンプレートの作成](using/content-management/create-content-templates.md)
-      + [HTML テンプレートへの画像の変換](using/content-management/image-to-html.md)
+      + [画像をメールテンプレートに変換](using/content-management/image-to-html.md)
       + [メールテンプレートのコンテンツのロック](using/content-management/content-locking.md)
+      + [エキスパートモードでのメールテンプレートの編集](using/content-management/email-template-expert-mode.md)
       + [コンテンツテンプレートのテスト](using/content-management/test-content-templates.md)
       + [コンテンツテンプレートの使用](using/content-management/use-content-templates.md)
    + 再利用可能なコンテンツフラグメント {#fragments}
@@ -952,7 +953,7 @@ ht-degree: 97%
    + [プライバシー](/help/rp_landing_pages/privacy-landing-page.md)
    + [プライバシーの基本を学ぶ](using/privacy/get-started-privacy.md)
    + [プライバシーリクエスト](using/privacy/requests.md)
-   + [&#x200B; リソースに対する監査アクション](using/privacy/audit-logs.md)
+   + [ リソースに対する監査アクション](using/privacy/audit-logs.md)
    + [データライフサイクル操作の実行](using/privacy/data-hygiene.md)
    + 同意を管理 {#consent}
       + [同意を管理](/help/rp_landing_pages/consent-landing-page.md)
