@@ -1,42 +1,40 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 許可リスト
-description: 許可リストの使用方法を学ぶ
+title: 許可リストの設定
+description: Journey Optimizerでサンドボックスを設定および管理して、許可リストレベルで信頼できるアドレスとドメインにメール送信を制限する方法を説明します。
 feature: Deliverability
-topic: Content Management
+topic: Deliverability
 role: Admin
-level: Experienced
-keywords: 許可リスト, リスト, 安全, 設定
+level: Intermediate
+keywords: 許可リスト，安全なリスト，メール，配信品質，サンドボックス，ドメイン，抑制，設定
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: e5a15a4f8bc81fb23e75edb9364f09ae6b7082ea
 workflow-type: tm+mt
-source-wordcount: '1182'
-ht-degree: 100%
+source-wordcount: '1312'
+ht-degree: 76%
 
 ---
 
 # 許可リストの設定 {#allow-list}
 
-[サンドボックス](../administration/sandboxes.md)レベルで特定の送信セーフリストを定義することが可能です。
-
-この許可リストを使用すると、個々のメールアドレスまたはドメインを指定して、これらの受信者またはドメインでのみ、特定のサンドボックスから送信するメールの受信が許可されるようにすることができます。
+許可リストは、[ サンドボックス ](../administration/sandboxes.md) レベルで定義できる送信セーフリストです。 メール送信を特定のアドレスまたはドメインに制限し、明示的にリストされている受信者のみが特定のサンドボックスからメッセージを受信できるようにします。
 
 >[!CAUTION]
 >
 >この機能はメールチャネルにのみ適用されます。これは、実稼動サンドボックスと実稼動以外のサンドボックスで使用できます。
 
-例えば、ミスが発生する可能性がある非実稼働インスタンスでは、許可リストにより、不要なメッセージを実際の顧客アドレスに送信するリスクがなくなり、テスト目的で安全な環境が提供されます。
+意図しない送信が発生する可能性がある非実稼動サンドボックスでは、許可リストは、不要なメッセージが実際の顧客アドレスに到達するのを防ぎ、テスト目的で安全な環境を提供します。
 
-また、許可リストがアクティブでも空の場合は、メールは送信されません。 したがって、何らかの重大な問題が発生した場合、この機能を使用して、問題が解決するまで [!DNL Journey Optimizer] からのすべての発信を停止できます。詳しくは、[許可リストロジック](#logic)を参照してください。
+許可リストがアクティブでも空の場合、メールは送信されません。 重要な問題が発生した場合は、空の許可リストを有効にして、問題が解決するまで [!DNL Journey Optimizer] からのすべての発信を停止できます。 詳しくは、[許可リストロジック](#logic)を参照してください。
 
-また、Journey Optimizer の **Suppression REST API** を活用して、抑制リストと許可リストを使用して送信メッセージを制御できます。[Suppression REST API の使用方法を学ぶ](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
+また、Journey Optimizer **抑制 REST API** を使用して、抑制と許可リストを通じて送信メッセージをプログラムで管理することもできます。 [Suppression REST API の使用方法を学ぶ](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
 
 ## 許可リストへのアクセス {#access-allowed-list}
 
 許可されたメールアドレスとドメインの詳細なリストにアクセスするには、**[!UICONTROL 管理]**／**[!UICONTROL チャネル]**／**[!UICONTROL メール設定]**&#x200B;に移動し、「**[!UICONTROL 許可リスト]**」を選択します。
 
-![](assets/allow-list-access.png)
+![ 許可されているメールアドレスとドメインのリストを表示する許可リストページ ](assets/allow-list-access.png)
 
 >[!CAUTION]
 >
@@ -48,21 +46,21 @@ ht-degree: 100%
 
 メールアドレスまたはドメインで検索し、**[!UICONTROL アドレスタイプ]**&#x200B;でフィルタリングできます。選択したら、リストの上部に表示されているフィルターをクリアできます。
 
-![](assets/allowed-list-filtering-example.png)
+アドレスの種類でフィルターされた ![許可リスト](assets/allowed-list-filtering-example.png)
 
 ## 許可リストをアクティブ化 {#enable-allow-list}
 
 許可リストをアクティブ化するには、次の手順に従います。
 
-1. **[!UICONTROL チャネル]**／**[!UICONTROL メール設定]**／**[!UICONTROL 許可リスト]**&#x200B;メニューにアクセスします。
+1. **[!UICONTROL チャネル]** / **[!UICONTROL メール設定]** / **[!UICONTROL 許可リスト]** メニューにアクセスします。
 
 1. 切替スイッチボタンを選択します。
 
-   ![](assets/allow-list-edit.png)
+   ![許可リストを有効にする切り替えボタン ](assets/allow-list-edit.png)
 
 1. 「**[!UICONTROL 許可リストをアクティブ化]**」を選択します。許可リストがアクティブになりました。
 
-   ![](assets/allow-list-enable.png)
+   ![許可リストがアクティブであることの確認 ](assets/allow-list-enable.png)
 
    >[!NOTE]
    >
@@ -78,15 +76,15 @@ ht-degree: 100%
 
 許可リストを非アクティブ化するには、次の手順に従います。
 
-1. **[!UICONTROL チャネル]**／**[!UICONTROL メール設定]**／**[!UICONTROL 許可リスト]**&#x200B;メニューにアクセスします。
+1. **[!UICONTROL チャネル]** / **[!UICONTROL メール設定]** / **[!UICONTROL 許可リスト]** メニューにアクセスします。
 
 1. 切替スイッチボタンを選択します。
 
-   ![](assets/allow-list-edit-active.png)
+   ![許可リストを非アクティブ化するための切り替えボタン ](assets/allow-list-edit-active.png)
 
 1. 「**[!UICONTROL 許可リストを非アクティブ化]**」を選択します。許可リストがアクティブではなくなりました。
 
-   ![](assets/allow-list-deactivate.png)
+   ![許可リストが非アクティブになったことを示す確認 ](assets/allow-list-deactivate.png)
 
    >[!NOTE]
    >
@@ -124,7 +122,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL メールまたはドメインの追加]**」ボタンを選択します。
 
-   ![](assets/allowed-list-add-email.png)
+   ![許可リストページの「メールまたはドメインを追加」ボタン ](assets/allowed-list-add-email.png)
 
 1. アドレスタイプとして、「**[!UICONTROL メールアドレス]**」または「**[!UICONTROL ドメインアドレス]**」を選択します。
 
@@ -136,11 +134,11 @@ ht-degree: 100%
 
 1. 必要に応じて理由を指定します。
 
-   ![](assets/allowed-list-add-email-address.png)
+   ![許可リストにメールアドレスまたはドメインを追加するためのフォーム（オプションの理由フィールドを含む） ](assets/allowed-list-add-email-address.png)
 
    >[!NOTE]
    >
-   >ASCII 文字はすべて 32 ～ 126 文字から成り、「**[!UICONTROL 理由]**」フィールドに入力できます。完全なリストは、例えば[このページ](https://en.wikipedia.org/wiki/ASCII#Printable_characters){target="_blank"}で確認することができます。
+   >32 ～ 126 の範囲の ASCII 文字はすべて「**[!UICONTROL 理由]**」フィールドに入力できます。 完全なリストは、例えば[このページ](https://en.wikipedia.org/wiki/ASCII#Printable_characters){target="_blank"}で確認することができます。
 
 1. 「**[!UICONTROL 送信]**」をクリックします。
 
@@ -148,7 +146,7 @@ ht-degree: 100%
 
 許可リストに入力するには、`listType` 属性に `ALLOWED` 値を指定して抑制 API を呼び出すこともできます。例：
 
-![](assets/allow-list-api.png)
+![ 抑制 API を使用して許可リストにエントリを追加する API 呼び出しの例 ](assets/allow-list-api.png)
 
 「**追加**」、「**削除**」および「**取得**」の操作を実行できます。
 
@@ -160,11 +158,11 @@ API 呼び出しについて詳しくは、[Adobe Experience Platform API](https
 
 1. 「**[!UICONTROL CSV をダウンロード]**」ボタンを選択します。 
 
-   ![](assets/allowed-list-download-csv.png)
+   ![許可リストページの「CSV をダウンロード」ボタン ](assets/allowed-list-download-csv.png)
 
 1. ファイルが生成されるまで待ちます。
 
-   ![](assets/allowed-list-download-generate.png)
+   ![CSV ファイルが生成されていることを示す通知 ](assets/allowed-list-download-generate.png)
 
    >[!NOTE]
    >
@@ -176,7 +174,7 @@ API 呼び出しについて詳しくは、[Adobe Experience Platform API](https
 
 1. 通知自体をクリックして、ファイルをダウンロードします。
 
-   ![](assets/allowed-list-download-notification.png)
+   ![ 生成された CSV ファイルのダウンロードリンクに関する通知 ](assets/allowed-list-download-notification.png)
 
    >[!NOTE]
    >
