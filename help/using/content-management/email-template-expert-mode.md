@@ -10,9 +10,9 @@ hidefromtoc: true
 hide: true
 level: Experienced
 exl-id: 0c586565-0c65-435f-986d-cd08b59de159
-source-git-commit: 1ab21ba3a656f59de748ee90f360b99c0dc2f7a5
+source-git-commit: 76bb202375cdfe1c8abacc1670ba6e794175215d
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '495'
 ht-degree: 5%
 
 ---
@@ -45,11 +45,11 @@ ht-degree: 5%
 
 >[!WARNING]
 >
->コンテンツテンプレートの高度なHTML エディターは、メールDesignerの **[!UICONTROL 独自にコーディング]** モードとは異なります。 [!UICONTROL &#x200B; 独自にコーディング &#x200B;] モードでは、ビジュアルエディターに戻すことはできません。そのパスを選択すると、コードのみの編集になります。 これに対して、高度なHTML エディターでは、HTML表示とデスクトップ（ビジュアル）表示をいつでも切り替えることができます。 [詳しくは、コードエディターを参照してください](../email/code-content.md)
+>コンテンツテンプレートの高度なHTML エディターは、メールDesignerの **[!UICONTROL 独自にコーディング]** モードとは異なります。 [!UICONTROL  独自にコーディング ] モードでは、ビジュアルエディターに戻すことはできません。そのパスを選択すると、コードのみの編集になります。 これに対して、高度なHTML エディターでは、HTML表示とデスクトップ（ビジュアル）表示をいつでも切り替えることができます。 [詳しくは、コードエディターを参照してください](../email/code-content.md)
 
 ## HTMLの詳細表示に切り替える {#switch-to-desktop-view}
 
-1. [&#x200B; メールテンプレート &#x200B;](../content-management/create-content-templates.md) を開くか作成し、[&#x200B; メールDesigner](../email/get-started-email-design.md) を開いてコンテンツを編集します。
+1. [ メールテンプレート ](../content-management/create-content-templates.md) を開くか作成し、[ メールDesigner](../email/get-started-email-design.md) を開いてコンテンツを編集します。
 
 1. 画面の右上隅にある「**[!UICONTROL HTML]**」ボタンをクリックします。
 
@@ -80,3 +80,8 @@ ht-degree: 5%
    >[!NOTE]
    >
    >コンテンツは、コンテンツの互換性の理由から、デスクトップ表示でのみ保存できます。 編集内容は、ビューを切り替えても保持されます。
+
+1. HTMLの高度な表示では、コンテンツシミュレーションは使用できません。 コンテンツをシミュレートするには、デスクトップビューに切り替えます。
+
+   ![](assets/email-template-expert-mode-simulate.png){zoomable="yes"}
+
