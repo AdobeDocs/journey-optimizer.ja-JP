@@ -298,4 +298,4 @@ ht-degree: 98%
 
 チャネル設定の概要と Adobe Journey Optimizer での使用方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3433124/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3480452/?captions=jpn&learn=on)
