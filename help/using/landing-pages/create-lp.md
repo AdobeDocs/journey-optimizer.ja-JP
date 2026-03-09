@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: ランディング, ランディングページ, 作成, 公開
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '1518'
-ht-degree: 100%
+source-git-commit: 170bdaaa13fe78ad4c47a6e091c8090156fde8f6
+workflow-type: tm+mt
+source-wordcount: '1567'
+ht-degree: 96%
 
 ---
 
@@ -23,6 +23,10 @@ ht-degree: 100%
 ランディングページを作成するための主な手順は次のとおりです。
 
 ![](assets/lp-creation-process.png)
+
+>[!NOTE]
+>
+>最初のランディングページを作成する前に、[ ランディングページの設定 ](../../rp_landing_pages/lp-configuration-landing-page.md) の設定を完了してください。 これには、ランディングページをホストするサブドメインの設定や、サブドメインおよびその他のチャネル設定を指定するプリセットの少なくとも 1 つを定義することが含まれます。 ランディングページを作成するときは、プリセットを選択する必要があります。
 
 ## ランディングページの作成 {#create-landing-page}
 
@@ -82,7 +86,7 @@ ht-degree: 100%
 >title="プライマリページ設定の定義"
 >abstract="プライマリページとは、メールや web サイトなどで、ユーザーがランディングページへのリンクをクリックした直後に表示されるページです。"
 <!--
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html?lang=ja" text="Design the landing page content"-->
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="Design the landing page content"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_settings"
@@ -186,7 +190,7 @@ ht-degree: 100%
 >id="ac_preview_lp_profiles"
 >title="ランディングページのプレビューとテスト"
 >abstract="ランディングページの設定とコンテンツを定義したら、テストプロファイルを使用してプレビューできます。"
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/profiles/creating-test-profiles.html?lang=ja" text="テストプロファイルを選択"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/audiences-profiles-identities/profiles/creating-test-profiles.html?lang=ja" text="テストプロファイルの選択"
 
 ランディングページの設定とコンテンツを定義したら、テストプロファイルを使用してプレビューできます。[パーソナライズされたコンテンツ](../personalization/personalize.md)を挿入した場合は、このコンテンツがランディングページにどのように表示されるかを、テストプロファイルデータを利用して確認できます。
 
