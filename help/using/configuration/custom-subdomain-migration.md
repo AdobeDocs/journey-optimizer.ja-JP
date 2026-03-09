@@ -9,10 +9,11 @@ role: Admin
 level: Intermediate
 keywords: サブドメイン，デリゲーション，移行，CNAME, カスタムデリゲーション
 badge: label="限定提供" type="Informative"
-source-git-commit: 3148a105551b920c4402c7b3c093aca1bb012061
+exl-id: f74139cf-640f-4b7b-a0b1-6eae9c75e7e4
+source-git-commit: 47c04f6243057ac20fd28a228e4fefb760d7fe26
 workflow-type: tm+mt
-source-wordcount: '1035'
-ht-degree: 22%
+source-wordcount: '1251'
+ht-degree: 18%
 
 ---
 
@@ -22,14 +23,14 @@ ht-degree: 22%
 >
 >この機能は、限定提供で使用できます。アクセス権を取得するには、アドビ担当者にお問い合わせください。
 
-サブドメインが現在 [CNAME](about-subdomain-delegation.md#cname-subdomain-setup) で設定されている場合は、会社のセキュリティポリシーに合わせて **[!UICONTROL カスタムデリゲーション]** 方法に移行できます。 これにより、[!DNL Journey Optimizer] 内のサブドメインと証明書の完全な所有権と制御が可能になります。 [&#x200B; 詳しくは、カスタムサブドメインを参照してください &#x200B;](delegate-custom-subdomain.md)
+サブドメインが現在 [CNAME](about-subdomain-delegation.md#cname-subdomain-setup) で設定されている場合は、会社のセキュリティポリシーに合わせて **[!UICONTROL カスタムデリゲーション]** 方法に移行できます。 これにより、[!DNL Journey Optimizer] 内のサブドメインと証明書の完全な所有権と制御が可能になります。 [ 詳しくは、カスタムサブドメインを参照してください ](delegate-custom-subdomain.md)
 
 このプロセスの一環として、次の操作をおこなう必要があります。
 
-* ホスティングソリューションから [&#x200B; 既存の DNS レコードを削除 &#x200B;](#delete-dns) します
-* 認証局から取得した [SSL 証明書をアップロード &#x200B;](#upload-ssl-certificate)
-* ドメインの所有権を確認し、メールアドレスをレポートして、[&#x200B; フィードバックループの手順 &#x200B;](#feedback-loop) を完了します
-* Adobeで生成された [SSL CDN URL 検証レコードを &#x200B;](#copy-ssl-cdn-url-record) ホスティングプラットフォームにコピーします
+* ホスティングソリューションから [ 既存の DNS レコードを削除 ](#delete-dns) します
+* 認証局から取得した [SSL 証明書をアップロード ](#upload-ssl-certificate)
+* ドメインの所有権を確認し、メールアドレスをレポートして、[ フィードバックループの手順 ](#feedback-loop) を完了します
+* Adobeで生成された [ 新しい DNS レコードセットを作成 ](#create-dns-records) ホスティングプラットフォームに導入する
 
 サブドメインを移行するには、次の手順に従います。
 
@@ -39,10 +40,15 @@ ht-degree: 22%
 
 >[!IMPORTANT]
 >
->移行できるのは、[CNAME メソッド &#x200B;](delegate-subdomain.md#cname-subdomain-setup) を使用して設定されたサブドメインのみです。
+>移行できるのは、[CNAME メソッド ](delegate-subdomain.md#cname-subdomain-setup) を使用して設定されたサブドメインのみです。
 
 * **カスタムのデリゲーション方法が有効になっている** ことを確認します（この機能は現在、限定提供です。アクセス権を取得するには、Adobe担当者にお問い合わせください）。 [詳細情報](delegate-custom-subdomain.md)
 * このサブドメインを使用しているアクティブなチャネル設定がないことを確認します。 移行プロセスによって、の機能が中断されます。
+
+  >[!NOTE]
+  >
+  >移行を開始する前にチャネル設定を非アクティブ化した場合、移行ワークフローが完了した後でチャネル設定をアクティブ状態に戻すことができます。
+
 * このサブドメインにリンクされたチャネル設定は配信を中断する可能性があるので、アクティブなキャンペーンやジャーニーが使用していないことを確認してください。
 * 移行フローに入るとすぐにダウンタイムが始まることに注意してください。 サブドメインは処理中に **[!UICONTROL ドラフト]** に移動し、設定が完了するまで使用できません。
 * したがって、SSL 証明書を準備してダウンタイムを減らすには、**移行プロセスを開始する前に移行前の手順を実行** することをお勧めします。 [詳細情報](#start-migration)
@@ -67,7 +73,7 @@ ht-degree: 22%
 
    <!--![](assets/subdomain-migrate-to-custom.png){width=90%}-->
 
-1. [&#x200B; 表示された情報 &#x200B;](#before-you-begin) を確認します。
+1. [ 表示された情報 ](#before-you-begin) を確認します。
 
    >[!WARNING]
    >
@@ -99,7 +105,7 @@ ht-degree: 22%
 
    * ただし、証明書は、単一の証明書内のサブジェクト代替名（SAN）エントリとして、data.subdomain.com と cdn.subdomain.com の両方に対応している必要があります。例えば、example.adobe.com をデリゲートしている場合、data.subdomain.com は data.example.adobe.com に対応し、cdn.subdomain.com は cdn.example.adobe.com に対応します。
 
-   * データ（data.example.adobe.com）サブドメインと CDN（cdn.example.adobe.com）サブドメインの両方を、同じ証明書のピアエントリとして追加する必要があります。
+   * データ （data.example.adobe.com）と CDN （cdn.example.adobe.com） サブドメインの両方を、同じ証明書内のピアエントリとして追加する必要があります。 この証明書には、サブドメインを追加しないでください。
 
    * ほとんどの CA では、署名プロセス中に SAN（CDN サブドメインなど）を追加できます
 
@@ -126,9 +132,9 @@ ht-degree: 22%
 
 その前に、次の点を確認してください。
 
-* [&#x200B; 移行前の手順 &#x200B;](#start-migration) の一環として CSR を既に認証局に送信している場合は、SSL 証明書を受信していることを確認してください。
+* [ 移行前の手順 ](#start-migration) の一環として CSR を既に認証局に送信している場合は、SSL 証明書を受信していることを確認してください。
 
-* まだ行っていない場合は、手順に従って [CSR を生成、ダウンロード、送信 &#x200B;](#send-csr-to-ca) します。
+* まだ行っていない場合は、手順に従って [CSR を生成、ダウンロード、送信 ](#send-csr-to-ca) します。
 
 <!--
     * Click **[!UICONTROL Regenerate CSR]** and fill the form to generate the Certificate Signing Request.
@@ -157,15 +163,41 @@ ht-degree: 22%
 
 ![](assets/subdomain-migrate-feedback-loop.png){width="75%"}
 
-プロセスは、新しいカスタムサブドメインを設定する場合と同じです。 [&#x200B; カスタムサブドメインの設定 &#x200B;](delegate-custom-subdomain.md#feedback-loop-steps) ページで説明されている手順に従います。
+プロセスは、新しいカスタムサブドメインを設定する場合と同じです。 [ カスタムサブドメインの設定 ](delegate-custom-subdomain.md#feedback-loop-steps) ページで説明されている手順に従います。
 
-## SSL CDN URL 検証レコードをコピー {#copy-ssl-cdn-url-record}
 
-移行プロセスを完了するには、Adobeで生成された SSL CDN URL 検証レコードをホスティングプラットフォームにコピーします。 プロセスは、新しいカスタムサブドメインを設定する場合と同じです。 [&#x200B; カスタムサブドメインの設定 &#x200B;](delegate-custom-subdomain.md#copy-ssl-cdn-url-record) ページで説明されている手順に従います。
+## DNS レコードの新しいセットを作成します {#create-dns-records}
+
+移行プロセスを完了するには、ホスティングプラットフォームでAdobeが生成した新しい DNS レコードセットを作成します。
+
+1. フィードバックループの手順が完了したら、画面の右上にある **[!UICONTROL 続行]** ボタンをクリックします。
+
+   この手順では、以前のレコードが削除されたこと、および SSL 証明書が正しくアップロードされたことを確認します。 エラーが発生した場合は、[ トラブルシューティングチェックリスト ](#troubleshooting) を参照してください。
+
+1. すべての検証が成功すると、「**[!UICONTROL 作成するレコード]** セクションが表示されます。
+
+   ![](assets/subdomain-migrate-records-to-create.png){width="75%"}
+
+1. ホスティングプラットフォームに、必要なレコードをすべて作成します。
+
+1. すべてのレコードを作成したら、「**[!UICONTROL 送信]**」をクリックします。
+
+   >[!NOTE]
+   >
+   >リストされたすべてのレコードが作成されない場合は、エラーが表示されます。 必要なレコードをすべて必ず作成してください。
 
 送信後、必要なチェックがAdobeで実行されるまで待つ必要があります（最大で 3 時間かかることがあります）。 [詳細情報](delegate-subdomain.md#submit-subdomain)
 
 サブドメインが再度アクティブになっても、それを使用する既存のチャネル設定に変更を加える必要はありません。以前と同様に機能します。
+
+## トラブルシューティング チェックリスト {#troubleshooting}
+
+カスタムサブドメインの送信中にエラーが発生した場合は、以下にリストされているトラブルシューティングアクションを実行します。
+
+* _リソースを検証できませんでした。 DNS がまだ存在しているので、削除する必要があります。_ - ホスティングソリューションからすべてのレコードを必ず削除してください。 [詳細情報](#delete-dns)
+* _リソースを検証できませんでした。 SSL 証明書をアップロードして、もう一度試してください。_:SSL 証明書はアップロードされませんでした。 必ずアップロードしてください。 [詳細情報](#upload-ssl-certificate)
+* _証明書のサブジェクト代替名（SAN）に予期しないドメインが含まれています。_ – 正しい SSL 証明書をアップロードしてください。 [詳細情報](#upload-ssl-certificate)
+* _証明書のサブジェクト代替名（SAN）に次の必須ドメインがありません。_ – 正しい SSL 証明書をアップロードしてください。 [詳細情報](#upload-ssl-certificate)
 
 **関連トピック**
 
