@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 exl-id: bd950410-691b-49d8-8851-8c6c448c00fd
 version: Journey Orchestration
-source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
+source-git-commit: 13ac469c33d2a580ba499bb463ac9fc63bef733c
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 97%
+source-wordcount: '626'
+ht-degree: 95%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 97%
 
 ## 必読 {#must-read}
 
-* **意思決定管理のみ** - この機能は、意思決定管理でのみサポートされ、決定（旧称「エクスペリエンス決定」）ではサポートされていません。
+* **意思決定管理のみ** – この機能は意思決定管理でのみサポートされ、意思決定ではサポートされていません。
 * **Decisioning API（Hub）のみ** - これは、Decisioning API（Hub）リクエストを通じてのみ使用でき、Edge Decisioning API または Batch Decisioning ではサポートされていません。
 * **エンリッチメントデータに必要な API フラグ** - カスタムアップロード（CSV）オーディエンスを使用し、オファーの決定応答でエンリッチメントデータを取得する際は、API リクエストペイロードに `"xdm:enrichedAudience": true` を含める必要があります。このフラグがないと、CSV でアップロードされたオーディエンスからのエンリッチメント属性は返されません。[Decisioning API の詳細情報](api-reference/offer-delivery-api/decisioning-api.md)
 
@@ -77,6 +77,6 @@ ht-degree: 97%
 
 オーディエンスを制約として追加すると、その属性を使用して表示域のコンテンツをパーソナライズできます。これを行うには、「**プロファイル属性**」タブにアクセスし、カスタムアップロードオーディエンスを検索します。オーディエンスから関連属性を選択して、オファーコンテンツをパーソナライズします。
 
-意思決定管理では、コンテンツをパーソナライズする場合に、特定の関数のみがサポートされます。[&#x200B; パーソナライゼーションエディターでサポートされる関数 &#x200B;](offer-library/personalization-editor-supported-functions.md) を参照してください。
+意思決定管理では、コンテンツをパーソナライズする場合に、特定の関数のみがサポートされます。[ パーソナライゼーションエディターでサポートされる関数 ](offer-library/personalization-editor-supported-functions.md) を参照してください。
 
 ![プロファイル属性パーソナライゼーションインターフェイス](assets/csv-perso.png)
