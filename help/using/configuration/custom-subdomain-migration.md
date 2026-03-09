@@ -23,14 +23,14 @@ ht-degree: 18%
 >
 >この機能は、限定提供で使用できます。アクセス権を取得するには、アドビ担当者にお問い合わせください。
 
-サブドメインが現在 [CNAME](about-subdomain-delegation.md#cname-subdomain-setup) で設定されている場合は、会社のセキュリティポリシーに合わせて **[!UICONTROL カスタムデリゲーション]** 方法に移行できます。 これにより、[!DNL Journey Optimizer] 内のサブドメインと証明書の完全な所有権と制御が可能になります。 [ 詳しくは、カスタムサブドメインを参照してください ](delegate-custom-subdomain.md)
+サブドメインが現在 [CNAME](about-subdomain-delegation.md#cname-subdomain-setup) で設定されている場合は、会社のセキュリティポリシーに合わせて **[!UICONTROL カスタムデリゲーション]** 方法に移行できます。 これにより、[!DNL Journey Optimizer] 内のサブドメインと証明書の完全な所有権と制御が可能になります。 [&#x200B; 詳しくは、カスタムサブドメインを参照してください &#x200B;](delegate-custom-subdomain.md)
 
 このプロセスの一環として、次の操作をおこなう必要があります。
 
-* ホスティングソリューションから [ 既存の DNS レコードを削除 ](#delete-dns) します
-* 認証局から取得した [SSL 証明書をアップロード ](#upload-ssl-certificate)
-* ドメインの所有権を確認し、メールアドレスをレポートして、[ フィードバックループの手順 ](#feedback-loop) を完了します
-* Adobeで生成された [ 新しい DNS レコードセットを作成 ](#create-dns-records) ホスティングプラットフォームに導入する
+* ホスティングソリューションから [&#x200B; 既存の DNS レコードを削除 &#x200B;](#delete-dns) します
+* 認証局から取得した [SSL 証明書をアップロード &#x200B;](#upload-ssl-certificate)
+* ドメインの所有権を確認し、メールアドレスをレポートして、[&#x200B; フィードバックループの手順 &#x200B;](#feedback-loop) を完了します
+* Adobeで生成された [&#x200B; 新しい DNS レコードセットを作成 &#x200B;](#create-dns-records) ホスティングプラットフォームに導入する
 
 サブドメインを移行するには、次の手順に従います。
 
@@ -40,7 +40,7 @@ ht-degree: 18%
 
 >[!IMPORTANT]
 >
->移行できるのは、[CNAME メソッド ](delegate-subdomain.md#cname-subdomain-setup) を使用して設定されたサブドメインのみです。
+>移行できるのは、[CNAME メソッド &#x200B;](delegate-subdomain.md#cname-subdomain-setup) を使用して設定されたサブドメインのみです。
 
 * **カスタムのデリゲーション方法が有効になっている** ことを確認します（この機能は現在、限定提供です。アクセス権を取得するには、Adobe担当者にお問い合わせください）。 [詳細情報](delegate-custom-subdomain.md)
 * このサブドメインを使用しているアクティブなチャネル設定がないことを確認します。 移行プロセスによって、の機能が中断されます。
@@ -73,7 +73,7 @@ ht-degree: 18%
 
    <!--![](assets/subdomain-migrate-to-custom.png){width=90%}-->
 
-1. [ 表示された情報 ](#before-you-begin) を確認します。
+1. [&#x200B; 表示された情報 &#x200B;](#before-you-begin) を確認します。
 
    >[!WARNING]
    >
@@ -132,9 +132,9 @@ ht-degree: 18%
 
 その前に、次の点を確認してください。
 
-* [ 移行前の手順 ](#start-migration) の一環として CSR を既に認証局に送信している場合は、SSL 証明書を受信していることを確認してください。
+* [&#x200B; 移行前の手順 &#x200B;](#start-migration) の一環として CSR を既に認証局に送信している場合は、SSL 証明書を受信していることを確認してください。
 
-* まだ行っていない場合は、手順に従って [CSR を生成、ダウンロード、送信 ](#send-csr-to-ca) します。
+* まだ行っていない場合は、手順に従って [CSR を生成、ダウンロード、送信 &#x200B;](#send-csr-to-ca) します。
 
 <!--
     * Click **[!UICONTROL Regenerate CSR]** and fill the form to generate the Certificate Signing Request.
@@ -163,7 +163,7 @@ ht-degree: 18%
 
 ![](assets/subdomain-migrate-feedback-loop.png){width="75%"}
 
-プロセスは、新しいカスタムサブドメインを設定する場合と同じです。 [ カスタムサブドメインの設定 ](delegate-custom-subdomain.md#feedback-loop-steps) ページで説明されている手順に従います。
+プロセスは、新しいカスタムサブドメインを設定する場合と同じです。 [&#x200B; カスタムサブドメインの設定 &#x200B;](delegate-custom-subdomain.md#feedback-loop-steps) ページで説明されている手順に従います。
 
 
 ## DNS レコードの新しいセットを作成します {#create-dns-records}
@@ -172,7 +172,7 @@ ht-degree: 18%
 
 1. フィードバックループの手順が完了したら、画面の右上にある **[!UICONTROL 続行]** ボタンをクリックします。
 
-   この手順では、以前のレコードが削除されたこと、および SSL 証明書が正しくアップロードされたことを確認します。 エラーが発生した場合は、[ トラブルシューティングチェックリスト ](#troubleshooting) を参照してください。
+   この手順では、以前のレコードが削除されたこと、および SSL 証明書が正しくアップロードされたことを確認します。 エラーが発生した場合は、[&#x200B; トラブルシューティングチェックリスト &#x200B;](#troubleshooting) を参照してください。
 
 1. すべての検証が成功すると、「**[!UICONTROL 作成するレコード]** セクションが表示されます。
 
