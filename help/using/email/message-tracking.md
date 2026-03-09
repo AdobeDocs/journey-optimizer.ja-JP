@@ -99,7 +99,7 @@ ht-degree: 98%
 
 >[!CAUTION]
 >
->ボタンの **label** と **URL** の両方を [ カスタマイズ可能なフラグメント ](../content-management/customizable-fragments.md) で編集可能にすると、トラッキングレポートには、ボタンラベルではなく URL が表示されます。
+>ボタンの **label** と **URL** の両方を [&#x200B; カスタマイズ可能なフラグメント &#x200B;](../content-management/customizable-fragments.md) で編集可能にすると、トラッキングレポートには、ボタンラベルではなく URL が表示されます。
 
 ## ミラーページへのリンク {#mirror-page}
 
