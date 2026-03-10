@@ -47,21 +47,21 @@ ht-degree: 7%
 
 >[!WARNING]
 >
->コンテンツテンプレートの高度なHTML エディターは、メールDesignerの **[!UICONTROL 独自にコーディング]** モードとは異なります。 [!UICONTROL  独自にコーディング ] モードでは、ビジュアルエディターに戻すことはできません。そのパスを選択すると、コードのみの編集になります。 これに対して、高度なHTML エディターでは、HTML表示とデスクトップ（ビジュアル）表示をいつでも切り替えることができます。 [詳しくは、コードエディターを参照してください](../email/code-content.md)
+>コンテンツテンプレートの高度なHTML エディターは、メールDesignerの **[!UICONTROL 独自にコーディング]** モードとは異なります。 [!UICONTROL &#x200B; 独自にコーディング &#x200B;] モードでは、ビジュアルエディターに戻すことはできません。そのパスを選択すると、コードのみの編集になります。 これに対して、高度なHTML エディターでは、HTML表示とデスクトップ（ビジュアル）表示をいつでも切り替えることができます。 [詳しくは、コードエディターを参照してください](../email/code-content.md)
 
 ## HTMLの詳細表示に切り替える {#switch-to-html-view}
 
 高度なHTML エディターを開き、テンプレートソースを編集するには、次の手順に従います。
 
-1. [ メールテンプレート ](../content-management/create-content-templates.md) を開くか作成し、[ メールDesigner](../email/get-started-email-design.md) を開いてコンテンツを編集します。
+1. [&#x200B; メールテンプレート &#x200B;](../content-management/create-content-templates.md) を開くか作成し、[&#x200B; メールDesigner](../email/get-started-email-design.md) を開いてコンテンツを編集します。
 
 1. 画面の右上隅にある「**[!UICONTROL HTML]**」ボタンをクリックします。
 
-   ![ メールDesignerツールバーの「HTML」ボタンの場所 ](assets/email-template-expert-mode-button.png)
+   ![&#x200B; メールDesignerツールバーの「HTML」ボタンの場所 &#x200B;](assets/email-template-expert-mode-button.png)
 
 1. 高度なHTML エディターを初めて開くと、警告メッセージが表示されます。 慎重に確認し、「**[!UICONTROL OK]**」をクリックして続行します。 [詳細情報](#guardrails)
 
-   ![ 高度なHTML エディターを初めて開く際の警告ダイアログ ](assets/email-template-expert-mode-warning.png){zoomable="yes"}
+   ![&#x200B; 高度なHTML エディターを初めて開く際の警告ダイアログ &#x200B;](assets/email-template-expert-mode-warning.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -69,7 +69,7 @@ ht-degree: 7%
 
 1. 高度なHTML エディターが表示されます。
 
-   ![ メールテンプレートのソースコードを表示する高度なHTML エディターインターフェイス ](assets/email-template-expert-mode.png)
+   ![&#x200B; メールテンプレートのソースコードを表示する高度なHTML エディターインターフェイス &#x200B;](assets/email-template-expert-mode.png)
 
 1. メールコンテンツに必要な変更を追加します。
 
@@ -79,7 +79,7 @@ ht-degree: 7%
 
 1. 互換性の理由から、高度なHTML ビューではコンテンツのシミュレーションと保存を使用できません。 デスクトップビューに戻ってコンテンツをプレビューし、変更を保存します。
 
-   ![ デスクトップビューに戻って変更を保存します ](assets/email-template-expert-mode-save.png){zoomable="yes"}
+   ![&#x200B; デスクトップビューに戻って変更を保存します &#x200B;](assets/email-template-expert-mode-save.png){zoomable="yes"}
 
    >[!NOTE]
    >
