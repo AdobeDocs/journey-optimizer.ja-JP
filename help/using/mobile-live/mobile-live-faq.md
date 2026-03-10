@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e7e994ca-aa0c-4e86-8710-c87430b74188
-source-git-commit: 9cdd115c66c8a26a59bfb45f0f20b6c96ddb5d5d
+source-git-commit: c1a2e098b31769945221701a075b7f9f688b274f
 workflow-type: tm+mt
-source-wordcount: '1802'
-ht-degree: 47%
+source-wordcount: '1810'
+ht-degree: 46%
 
 ---
 
@@ -238,6 +238,10 @@ OAuth トークンや API キーを含む認証要件について詳しくは、
 +++
 
 ### トラブルシューティングに関する質問
+
+>[!TIP]
+>
+>包括的なトラブルシューティングガイダンスについては、[ ライブアクティビティのトラブルシューティング ](troubleshoot-mobile-live.md) を参照してください。
 
 +++ライブアクティビティが開始するが、更新されない。 問題は何ですか？
 

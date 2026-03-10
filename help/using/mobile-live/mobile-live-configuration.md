@@ -7,10 +7,10 @@ feature: Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: db85a563-9630-4d87-bf10-9f2515fe8a45
-source-git-commit: 9cdd115c66c8a26a59bfb45f0f20b6c96ddb5d5d
+source-git-commit: c1a2e098b31769945221701a075b7f9f688b274f
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 89%
+source-wordcount: '523'
+ht-degree: 86%
 
 ---
 
@@ -85,3 +85,7 @@ ht-degree: 89%
 Adobe Experience Platform Mobile SDK との統合を開始して、ロック画面と Dynamic Island でリアルタイムの動的な更新を有効にできるようになりました。
 
 ➡️ [Adobe Experience Platform Mobile SDK 統合の詳細情報](mobile-live-configuration-sdk.md)
+
+>[!TIP]
+>
+>ライブアクティビティの設定または配信で問題が発生した場合のデバッグ手順については、[ ライブアクティビティのトラブルシューティング ](troubleshoot-mobile-live.md) を参照してください。

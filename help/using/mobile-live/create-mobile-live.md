@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 9864a136-e129-4279-bb09-081b72f584df
-source-git-commit: 9cdd115c66c8a26a59bfb45f0f20b6c96ddb5d5d
+source-git-commit: c1a2e098b31769945221701a075b7f9f688b274f
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 69%
+source-wordcount: '400'
+ht-degree: 66%
 
 ---
 
@@ -153,8 +153,12 @@ ht-degree: 69%
 
 ライブアクティビティをデザインしたら、[ビルトインのレポート](../reports/campaign-global-report-cja-activity.md)を使用してライブアクティビティの影響の測定を追跡できます。
 
+>[!TIP]
+>
+>ライブアクティビティが期待どおりに表示または更新されない場合は、[ ライブアクティビティのトラブルシューティング ](troubleshoot-mobile-live.md) の手順に従ったデバッグガイダンスを参照してください。
+
 ## チュートリアルビデオ
 
 iOS ライブアクティビティをAdobe Journey Optimizerと連携して設定し、iPhoneのロック画面と Dynamic Island でリッチなリアルタイム更新を提供する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3479865?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3479864)
