@@ -10,10 +10,10 @@ hidefromtoc: true
 hide: true
 level: Experienced
 exl-id: 0c586565-0c65-435f-986d-cd08b59de159
-source-git-commit: 9d3dd2f0a9ae5200dd3ed332420bbb08e8e9f498
+source-git-commit: 2240a4bf85d3f5f41a12d128afdc15431dbab75b
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 5%
+source-wordcount: '539'
+ht-degree: 7%
 
 ---
 
@@ -33,39 +33,43 @@ ht-degree: 5%
 
 ## ガードレール {#guardrails}
 
-高度なHTML エディターを使用する場合、コンテンツの互換性を保護し、期待値を設定するために、次のガードレールが用意されています。
+高度なHTML エディターを使用する場合、次のガードレールによってコンテンツの互換性が保護され、期待値が設定されます。
 
-* 現在、高度なHTML エディターには **検証プロセスなし** があります。 構文エラーや壊れたレイアウトはチェックされません。 保存する前に、コンテンツを慎重に確認してください。
+* コードの高度なHTML エディター **検証されません**。 構文エラーや壊れたレイアウトはチェックされません。 保存する前に、コンテンツを慎重にレビューします。
 
-* 今後のシステムアップデートにより、デフォルトのマークアップに対して行われた変更が元に戻される場合があります。 **変更内容が上書きされる場合があります**。
+* 今後、システムを更新すると、既定のマークアップに対して行った変更が上書きされる場合があります。 **変更内容が保持されない場合があります**。
 
-* カスタムコードと手動の変更によって発生した問題 **トラブルシューティングはできません**、または [!DNL Adobe] サポートチームによって解決されます。 以前のバージョンに戻す必要がある場合は、コンテンツのバックアップを作成します。
+* [!DNL Adobe] サポートチーム **カスタムコードと手動の変更が原因で発生した問題のトラブルシューティングや解決ができない** 場合。 元に戻す必要がある場合に備えて、コンテンツのバックアップを保持します。
 
-* コンテンツの互換性を確保するために、HTMLの高度な表示では **保存を使用できません**。 変更を保存する準備ができたら、デスクトップビューに戻す必要があります。
+* HTMLの詳細表示でコンテンツをシミュレートすることはできません。 デスクトップビューに切り替えて、コンテンツをプレビューします。
+
+* コンテンツの互換性を確保するには、HTMLの詳細表示で **保存することはできません**。 変更を保存する準備ができたら、デスクトップビューに戻ります。
 
 >[!WARNING]
 >
->コンテンツテンプレートの高度なHTML エディターは、メールDesignerの **[!UICONTROL 独自にコーディング]** モードとは異なります。 [!UICONTROL &#x200B; 独自にコーディング &#x200B;] モードでは、ビジュアルエディターに戻すことはできません。そのパスを選択すると、コードのみの編集になります。 これに対して、高度なHTML エディターでは、HTML表示とデスクトップ（ビジュアル）表示をいつでも切り替えることができます。 [詳しくは、コードエディターを参照してください](../email/code-content.md)
+>コンテンツテンプレートの高度なHTML エディターは、メールDesignerの **[!UICONTROL 独自にコーディング]** モードとは異なります。 [!UICONTROL  独自にコーディング ] モードでは、ビジュアルエディターに戻すことはできません。そのパスを選択すると、コードのみの編集になります。 これに対して、高度なHTML エディターでは、HTML表示とデスクトップ（ビジュアル）表示をいつでも切り替えることができます。 [詳しくは、コードエディターを参照してください](../email/code-content.md)
 
-## HTMLの詳細表示に切り替える {#switch-to-desktop-view}
+## HTMLの詳細表示に切り替える {#switch-to-html-view}
 
-1. [&#x200B; メールテンプレート &#x200B;](../content-management/create-content-templates.md) を開くか作成し、[&#x200B; メールDesigner](../email/get-started-email-design.md) を開いてコンテンツを編集します。
+高度なHTML エディターを開き、テンプレートソースを編集するには、次の手順に従います。
+
+1. [ メールテンプレート ](../content-management/create-content-templates.md) を開くか作成し、[ メールDesigner](../email/get-started-email-design.md) を開いてコンテンツを編集します。
 
 1. 画面の右上隅にある「**[!UICONTROL HTML]**」ボタンをクリックします。
 
-   ![](assets/email-template-expert-mode-button.png)
+   ![ メールDesignerツールバーの「HTML」ボタンの場所 ](assets/email-template-expert-mode-button.png)
 
 1. 高度なHTML エディターを初めて開くと、警告メッセージが表示されます。 慎重に確認し、「**[!UICONTROL OK]**」をクリックして続行します。 [詳細情報](#guardrails)
+
+   ![ 高度なHTML エディターを初めて開く際の警告ダイアログ ](assets/email-template-expert-mode-warning.png){zoomable="yes"}
 
    >[!NOTE]
    >
    >この警告は、HTMLの詳細編集を初めて開いたときに表示され、毎月リセットされます。
 
-   ![](assets/email-template-expert-mode-warning.png){zoomable="yes"}
-
 1. 高度なHTML エディターが表示されます。
 
-   ![](assets/email-template-expert-mode.png)
+   ![ メールテンプレートのソースコードを表示する高度なHTML エディターインターフェイス ](assets/email-template-expert-mode.png)
 
 1. メールコンテンツに必要な変更を追加します。
 
@@ -75,12 +79,18 @@ ht-degree: 5%
 
 1. 互換性の理由から、高度なHTML ビューではコンテンツのシミュレーションと保存を使用できません。 デスクトップビューに戻ってコンテンツをプレビューし、変更を保存します。
 
-   ![](assets/email-template-expert-mode-save.png){zoomable="yes"}
+   ![ デスクトップビューに戻って変更を保存します ](assets/email-template-expert-mode-save.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   ><!--Content can only be saved in Desktop view for content compatibility reasons. -->編集内容は、ビューを切り替えても保持されます。
-<!--
-1. Content simulation is not available in advanced HTML view. To preview your content, switch to Desktop view.
+   >編集内容は、ビューを切り替えても保持されます。
 
+<!--
     ![](assets/email-template-expert-mode-simulate.png){zoomable="yes"}-->
+
+## 関連トピック
+
+* [独自のメールコンテンツをコーディングする](../email/code-content.md)
+* [コンテンツテンプレートの作成](create-content-templates.md)
+* [E メールデザイナーの基本を学ぶ](../email/get-started-email-design.md)
+

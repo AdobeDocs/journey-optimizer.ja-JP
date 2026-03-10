@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: ランディング, ランディングページ, 開始, 開始
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
-source-git-commit: 170bdaaa13fe78ad4c47a6e091c8090156fde8f6
+source-git-commit: 2240a4bf85d3f5f41a12d128afdc15431dbab75b
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 22%
@@ -23,6 +23,15 @@ ht-degree: 22%
 [!DNL Journey Optimizer] を使用すると、ランディングページを作成およびデザインして、ユーザーはオンラインフォームにアクセスし、コミュニケーションやニュースレターなどの特定のサービスをオプトインまたはオプトアウトできます。
 
 ➡️ [購読の設定とランディングページの作成について詳しくは、このビデオを参照してください。](#video)
+
+## ランディングページを使用するタイミング {#when-to-use}
+
+ランディングページは次の場合に使用します。
+
+* ターゲットサービスの購読リストなど、マーケティングコミュニケーションや特定のサービスまたはニュースレターを、メールまたはキャンペーン内のリンクから顧客が **オプトインまたはオプトアウト** できるようにします。 [詳細情報](lp-use-cases.md#subscription-to-a-service)
+* 通信を送信する前に **同意を収集** し、オプトインまたはオプトアウト時に **確認メール** を送信します。 [詳細情報](lp-use-cases.md#send-confirmation-email)
+* **外で外部ページを作成せずに、ユーザーを** 専用の web フォーム [!DNL Journey Optimizer] にリダイレクトする
+* **のコンテンツデザイン機能を使用して** レスポンシブランディングページ [!DNL Journey Optimizer] を作成します
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
@@ -61,15 +70,6 @@ ht-degree: 22%
 </td>
 </tr></table>
 
-## ランディングページを使用するタイミング {#when-to-use}
-
-ランディングページは次の場合に使用します。
-
-* ターゲットサービスの購読リストなど、マーケティングコミュニケーションや特定のサービスまたはニュースレターを、メールまたはキャンペーン内のリンクから顧客が **オプトインまたはオプトアウト** できるようにします。 [詳細情報](lp-use-cases.md#subscription-to-a-service)
-* 通信を送信する前に **同意を収集** し、オプトインまたはオプトアウト時に **確認メール** を送信します。 [詳細情報](lp-use-cases.md#send-confirmation-email)
-* **外で外部ページを作成せずに、ユーザーを** 専用の web フォーム [!DNL Journey Optimizer] にリダイレクトする
-* **のコンテンツデザイン機能を使用して** レスポンシブランディングページ [!DNL Journey Optimizer] を作成します
-
 ## 事前準備 {#prerequisites}
 
 ランディングページを作成する前に、次の設定手順を実行します。
@@ -91,4 +91,4 @@ ht-degree: 22%
 
 次のビデオでは、購読リストの作成方法、サービスのオプトインまたはオプトアウト用のランディングページの設定方法、メッセージへのオプトイン/オプトアウトオプションの統合方法および関連するジャーニーの設定方法を示します。
 
->[!VIDEO](https://video.tv.adobe.com/v/344400?captions=jpn&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)

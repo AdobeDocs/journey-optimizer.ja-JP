@@ -9,24 +9,30 @@ role: User
 level: Intermediate, Experienced
 keywords: コード, HTML, エディター
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
-source-git-commit: 48b3ef3d2e041ea49d1b0c91cc72ea04237a5e33
+source-git-commit: 2240a4bf85d3f5f41a12d128afdc15431dbab75b
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 50%
+source-wordcount: '491'
+ht-degree: 67%
 
 ---
 
 # コンテンツを独自にコーディング {#code-content}
 
-**[!UICONTROL 独自にコーディング]**&#x200B;モードを使用すると、Raw HTML をインポートしたり、メールコンテンツをコーディングしたりできます。この方法を使用するには、HTML に関するスキルが必要です。
+**[!UICONTROL 独自のコードを作成]** Raw HTMLを書き込みまたは貼り付けて、[!DNL Journey Optimizer] Email Designerで直接メールコンテンツを作成できます。 このモードは、マークアップを完全に制御する必要がある場合や、既存のHTMLを読み込む場合に使用します。
 
-➡️ [この機能について詳しくは、ビデオを参照してください。](#video)
+HTMLのスキルが必要です。このモードを選択すると、コードエディターが表示されるので、ビジュアルエディターに切り替えることはできません。
 
->[!CAUTION]
+➡️ [この機能をビデオで確認](#video)
+
+>[!NOTE]
 >
-> [Adobe Experience Manager Assets](../integrations/assets.md) の画像は、このメソッドを使用する場合は参照できません。HTML コードで参照される画像は、公開場所に保存する必要があります。
+>**[!UICONTROL 独自にコーディング]** は、コンテンツテンプレートの高度なHTML エディターとは異なります。 高度なHTMLエディターを使用すると、コードエディターではなく、HTML ビューとビジュアル（デスクトップ）ビューをいつでも切り替えることができます。 [ 高度なHTML エディターの詳細情報 ](../content-management/email-template-expert-mode.md)。
 
-1. E メールデザイナーのホームページで、「**[!UICONTROL 独自にコーディング]**」を選択します。
+## コードエディターの使用 {#use-code-editor}
+
+コードエディターを使用してメールコンテンツを作成または編集するには、次の手順に従います。
+
+1. [ メールDesigner](get-started-email-design.md) ホームページで、「**[!UICONTROL 独自のコーディング]**」を選択します。
 
    ![](assets/code-your-own.png)
 
@@ -39,7 +45,7 @@ ht-degree: 50%
 
    >[!NOTE]
    >
-   >メールDesignerのパーソナライゼーションエディターには、ジャーニー式と比較して、いくつかの関数制限があります。 [&#x200B; 日付/時間関数の制限について詳しくはこちらを参照 &#x200B;](#date-time-limitations)
+   >E メールデザイナーのパーソナライゼーションエディターには、ジャーニー式と比較して、いくつかの関数制限があります。 [日時関数の制限の詳細情報](#date-time-limitations)
 
 1. メールの内容をクリアして新しいデザインからメールを開始する場合は、オプション メニューから「**[!UICONTROL デザインを変更]**」を選択します。
 
@@ -57,23 +63,27 @@ ht-degree: 50%
 
    ![](assets/code-editor-save.png)
 
+>[!CAUTION]
+>
+>[Adobe Experience Manager Assets](../integrations/assets.md) の画像は、独自のコードを作成するメソッドを使用している場合は参照できません。 HTML コードで参照されている画像を公開場所に保存します。
+
 ## 日時関数の制限 {#date-time-limitations}
 
-電子メールDesignerのコードエディターでパーソナライゼーションを使用する場合、`now()` 関数は動的日付計算に使用できません。
+E メールデザイナーのコードエディターでパーソナライゼーションを使用する際、`now()` 関数は動的な日付計算には使用できません。
 
 >[!IMPORTANT]
 >
->`now()` 関数は、メールビルダーの式言語では **サポートされていません**。 `now()` はジャーニー条件で使用できますが、メールコンテンツやコードエディター内では使用できません。
+>`now()` 関数は、メールビルダーの式言語では&#x200B;**サポートされていません**。`now()` はジャーニー条件で使用できますが、メールコンテンツやコードエディター内では使用できません。
 
-**代替手段：**
+**使用可能な代替手段：**
 
-次の関数を使用して、メールのパーソナライゼーションで現在の日時を操作します。
+メールのパーソナライゼーションで現在の日時を操作するには、以下の関数を使用します。
 
-* **`getCurrentZonedDateTime()`** – 現在の日付と時刻をタイムゾーン情報と共に返します。 `now()` の代わりに、この方法を使用することをお勧めします。
+* **`getCurrentZonedDateTime()`** - タイムゾーン情報を含む現在の日時を返します。`now()` の代わりに使用することをお勧めします。
 
-  例：`{%= getCurrentZonedDateTime() %}` は `2024-12-06T17:22:02.281067+05:30[Asia/Kolkata]` を返します
+  例：`{%= getCurrentZonedDateTime() %}` は、`2024-12-06T17:22:02.281067+05:30[Asia/Kolkata]` を返します
 
-* **`currentTimeInMillis()`** – 現在の時刻をエポックミリ秒単位で返します。
+* **`currentTimeInMillis()`** - 現在の時刻をエポックミリ秒単位で返します。
 
   例：`{%= currentTimeInMillis() %}`
 
@@ -81,14 +91,14 @@ ht-degree: 50%
 
 メールコンテンツで日付計算を実行する必要がある場合：
 
-* **事前計算日付フィールド** - メールを送信する前に、データパイプラインまたはプロファイル属性で必要な日付値を計算し、パーソナライゼーションでこれらの事前計算値を参照します。
+* **日付フィールドを事前計算** - メールを送信する前に、データパイプラインまたはプロファイル属性で必要な日付値を計算し、パーソナライゼーションでこれらの事前計算値を参照します。
 
   例：`{%= profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate %}`
 
-* **日付操作関数の使用** - [&#x200B; や &#x200B;](../personalization/functions/dates.md) などの `dayOfYear()` 日付/時間関数 `diffInDays()` プロファイル属性の日付値と共に使用します。
+* **日付操作関数を使用** - プロファイル属性の日付値に対して、`dayOfYear()` や `diffInDays()` などの[日時関数](../personalization/functions/dates.md)を使用します。
 
   例：`{%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/dd/YY") %}`
 
-* **計算属性の使用** – 複雑な日付計算を実行する [&#x200B; 計算属性 &#x200B;](../audience/computed-attributes.md) を作成し、結果をプロファイル属性として使用できるようにします。
+* **計算属性を使用** - 複雑な日付計算を実行する[計算属性](../audience/computed-attributes.md)を作成し、その結果をプロファイル属性として使用できるようにします。
 
-詳しくは、[&#x200B; パーソナライゼーションの日時関数 &#x200B;](../personalization/functions/dates.md) を参照してください。
+サポートされる関数の完全なリストについては、[ 日付および時刻関数 ](../personalization/functions/dates.md) を参照してください。
