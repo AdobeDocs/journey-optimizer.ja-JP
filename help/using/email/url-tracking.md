@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 設定, メール, 設定
 exl-id: 5a12280c-b937-4cd9-a1ef-563bab48e42e
-source-git-commit: d336684656c75af682a72b0acab071df15a79004
+source-git-commit: 719bd2fca82a25c356ed708819a6e7684ffbff9b
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 91%
+source-wordcount: '487'
+ht-degree: 81%
 
 ---
 
@@ -53,6 +53,10 @@ URL トラッキングパラメーターを設定するには、目的の値を&
 * **オファー ID**：メールで使用されるオファーの ID。
 
 * **ソースアクション ID**：ジャーニーまたはキャンペーンに追加されたメールアクションの ID。
+
+  >[!NOTE]
+  >
+  >商品の変更後に閉じられたジャーニーや再公開されなかったアセットは、トラッキング URL の `context.system.source.actionId` に入力できず、空のプレースホルダー（例：`cid=em-acou-adob{}`）が生じる場合があります。 トラッキングパラメーターが正しく入力されていることを確認するには、[ 影響を受けるジャーニーを再公開 ](../building-journeys/publish-journey.md#journey-create-new-version) するか、クローズ済みジャーニーのこのコンテキストフィールドへの参照を削除します。 詳しくは、[ ライブジャーニーの実行のトラブルシューティング ](../building-journeys/troubleshooting-execution.md#tracking-parameters-closed-journeys) を参照してください。
 
 * **ソースアクション名**：ジャーニーまたはキャンペーンに追加されたメールアクションの名前。
 
