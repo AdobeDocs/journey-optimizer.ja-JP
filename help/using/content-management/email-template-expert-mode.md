@@ -10,9 +10,9 @@ hidefromtoc: true
 hide: true
 level: Experienced
 exl-id: 0c586565-0c65-435f-986d-cd08b59de159
-source-git-commit: 76bb202375cdfe1c8abacc1670ba6e794175215d
+source-git-commit: 9d3dd2f0a9ae5200dd3ed332420bbb08e8e9f498
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '476'
 ht-degree: 5%
 
 ---
@@ -45,11 +45,11 @@ ht-degree: 5%
 
 >[!WARNING]
 >
->コンテンツテンプレートの高度なHTML エディターは、メールDesignerの **[!UICONTROL 独自にコーディング]** モードとは異なります。 [!UICONTROL &#x200B; 独自にコーディング &#x200B;] モードでは、ビジュアルエディターに戻すことはできません。そのパスを選択すると、コードのみの編集になります。 これに対して、高度なHTML エディターでは、HTML表示とデスクトップ（ビジュアル）表示をいつでも切り替えることができます。 [詳しくは、コードエディターを参照してください](../email/code-content.md)
+>コンテンツテンプレートの高度なHTML エディターは、メールDesignerの **[!UICONTROL 独自にコーディング]** モードとは異なります。 [!UICONTROL  独自にコーディング ] モードでは、ビジュアルエディターに戻すことはできません。そのパスを選択すると、コードのみの編集になります。 これに対して、高度なHTML エディターでは、HTML表示とデスクトップ（ビジュアル）表示をいつでも切り替えることができます。 [詳しくは、コードエディターを参照してください](../email/code-content.md)
 
 ## HTMLの詳細表示に切り替える {#switch-to-desktop-view}
 
-1. [&#x200B; メールテンプレート &#x200B;](../content-management/create-content-templates.md) を開くか作成し、[&#x200B; メールDesigner](../email/get-started-email-design.md) を開いてコンテンツを編集します。
+1. [ メールテンプレート ](../content-management/create-content-templates.md) を開くか作成し、[ メールDesigner](../email/get-started-email-design.md) を開いてコンテンツを編集します。
 
 1. 画面の右上隅にある「**[!UICONTROL HTML]**」ボタンをクリックします。
 
@@ -73,15 +73,14 @@ ht-degree: 5%
    >
    >構文の検証プロセスはなく、[!DNL Adobe] によるサポートも提供されていないので、正しいHTMLと CSS コードを入力してください。 [詳細情報](#guardrails)
 
-1. HTMLの詳細表示では、保存機能は使用できません。 デスクトップビューに戻って変更を保存します。
+1. 互換性の理由から、高度なHTML ビューではコンテンツのシミュレーションと保存を使用できません。 デスクトップビューに戻ってコンテンツをプレビューし、変更を保存します。
 
    ![](assets/email-template-expert-mode-save.png){zoomable="yes"}
 
    >[!NOTE]
    >
-   >コンテンツは、コンテンツの互換性の理由から、デスクトップ表示でのみ保存できます。 編集内容は、ビューを切り替えても保持されます。
+   ><!--Content can only be saved in Desktop view for content compatibility reasons. -->編集内容は、ビューを切り替えても保持されます。
+<!--
+1. Content simulation is not available in advanced HTML view. To preview your content, switch to Desktop view.
 
-1. HTMLの高度な表示では、コンテンツシミュレーションは使用できません。 コンテンツをシミュレートするには、デスクトップビューに切り替えます。
-
-   ![](assets/email-template-expert-mode-simulate.png){zoomable="yes"}
-
+    ![](assets/email-template-expert-mode-simulate.png){zoomable="yes"}-->
