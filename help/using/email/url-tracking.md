@@ -56,7 +56,7 @@ URL トラッキングパラメーターを設定するには、目的の値を&
 
   >[!NOTE]
   >
-  >商品の変更後に閉じられたジャーニーや再公開されなかったアセットは、トラッキング URL の `context.system.source.actionId` に入力できず、空のプレースホルダー（例：`cid=em-acou-adob{}`）が生じる場合があります。 トラッキングパラメーターが正しく入力されていることを確認するには、[ 影響を受けるジャーニーを再公開 ](../building-journeys/publish-journey.md#journey-create-new-version) するか、クローズ済みジャーニーのこのコンテキストフィールドへの参照を削除します。 詳しくは、[ ライブジャーニーの実行のトラブルシューティング ](../building-journeys/troubleshooting-execution.md#tracking-parameters-closed-journeys) を参照してください。
+  >商品の変更後に閉じられたジャーニーや再公開されなかったアセットは、トラッキング URL の `context.system.source.actionId` に入力できず、空のプレースホルダー（例：`cid=em-acou-adob{}`）が生じる場合があります。 トラッキングパラメーターが正しく入力されていることを確認するには、[&#x200B; 影響を受けるジャーニーを再公開 &#x200B;](../building-journeys/publish-journey.md#journey-create-new-version) するか、クローズ済みジャーニーのこのコンテキストフィールドへの参照を削除します。 詳しくは、[&#x200B; ライブジャーニーの実行のトラブルシューティング &#x200B;](../building-journeys/troubleshooting-execution.md#tracking-parameters-closed-journeys) を参照してください。
 
 * **ソースアクション名**：ジャーニーまたはキャンペーンに追加されたメールアクションの名前。
 
