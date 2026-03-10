@@ -161,4 +161,4 @@ ht-degree: 66%
 
 iOS ライブアクティビティをAdobe Journey Optimizerと連携して設定し、iPhoneのロック画面と Dynamic Island でリッチなリアルタイム更新を提供する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3479864)
+>[!VIDEO](https://video.tv.adobe.com/v/3479865?captions=jpn)
