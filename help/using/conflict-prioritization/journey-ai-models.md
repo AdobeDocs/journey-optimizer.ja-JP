@@ -9,10 +9,10 @@ badge: label="限定提供" type="Informative"
 hide: true
 hidefromtoc: true
 exl-id: 3e7c3069-b022-4709-936d-acaad56b5882
-source-git-commit: afc09bbcb76d53404574bb53c0a896109cd7f1da
+source-git-commit: a1b9d589773c168cc8ad0cfac0cd1ba178ae4bb6
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 16%
+source-wordcount: '643'
+ht-degree: 14%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 16%
 >
 >この機能は現在、限定提供（LA）になっています。 アクセス権を取得するには、アドビ担当者にお問い合わせください。
 
-[!DNL Adobe Journey Optimizer] れは、プロファイルがシステムで許可されている量以上の対象として認定されたときに、そのプロファイルが入力できるジャーニーを制御するのに役立ちます。 これを行うには、[&#x200B; ルールセット &#x200B;](rule-sets.md) を使用して、ジャーニーのエントリまたは同時実行に対するキャップを定義します。 プロファイルが上限を超えるジャーニーに対して適格な場合、各ジャーニーに割り当てられる優先度によって、選択されるジャーニーが決まります。
+[!DNL Adobe Journey Optimizer] れは、プロファイルがシステムで許可されている量以上の対象として認定されたときに、そのプロファイルが入力できるジャーニーを制御するのに役立ちます。 これを行うには、[ ルールセット ](rule-sets.md) を使用して、ジャーニーのエントリまたは同時実行に対するキャップを定義します。 プロファイルが上限を超えるジャーニーに対して適格な場合、各ジャーニーに割り当てられる優先度によって、選択されるジャーニーが決まります。
 
 優先度を使用する代わりに、ランキング式で **AI モデル** を使用して、トレーニング済みモデルスコアに基づいてジャーニーを動的にランク付けすることもできます。
 
@@ -43,7 +43,7 @@ ht-degree: 16%
 
 1. AI モデルの一意の名前と、必要に応じて説明を指定します。
 
-   ![&#x200B; 名前と説明フィールドを含んだ AI モデルの詳細ペイン &#x200B;](assets/journey-model-details.png){width="80%"}
+   ![ 名前および説明フィールドを示す AI モデルの詳細 ](assets/journey-model-details.png){width="85%"}
 
    >[!NOTE]
    >
@@ -55,9 +55,9 @@ ht-degree: 16%
     * **[!UICONTROL Auto-optimization]** optimizes based on past performance. [Learn more](../experience-decisioning/ranking/auto-optimization-model.md)
     * **[!UICONTROL Personalized optimization]** optimizes and personalizes based on audiences and performance. [Learn more](../experience-decisioning/ranking/personalized-optimization-model.md)-->
 
-1. **[!UICONTROL 最適化指標]** では、デフォルトの [!DNL Customer Journey Analytics] データビュー [&#x200B; のすべての指標がリスト &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} 表示されます。 モデルを最適化する指標を選択します。
+1. 「**[!UICONTROL 最適化指標]**」セクションでは、デフォルトの指標 [!DNL Customer Journey Analytics] データビュー [ のすべて ](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"} 指標がリストに表示されます。 モデルを最適化する指標を選択します。
 
-   ![&#x200B; 名前と説明フィールドを含んだ AI モデルの詳細ペイン &#x200B;](assets/journey-model-metrics.png){width="80%"}
+   ![AI モデルのCustomer Journey Analytics指標を一覧表示する最適化指標ドロップダウン ](assets/journey-model-metrics.png){width="70%"}
 
    [!DNL Journey Optimizer] は **コンバージョン率** に基づいてランク付けされます（コンバージョン率= コンバージョンイベントの合計数/インプレッションイベントの合計数）。 コンバージョン率は次を使用して計算されます。
 
@@ -68,13 +68,13 @@ ht-degree: 16%
 
 1. コンバージョンイベントとインプレッションイベントが収集されるデータセットを選択します。このようなデータセットを作成する方法について詳しくは、[この節](../experience-decisioning/data-collection/create-dataset.md)を参照してください。
 
-   ![&#x200B; コンバージョンイベントとインプレッションイベントのデータセット選択 &#x200B;](../experience-decisioning/assets/ai-model-datasets.png){width="85%"}
+   ![ コンバージョンイベントとインプレッションイベントのデータセット選択 ](../experience-decisioning/assets/ai-model-datasets.png){width="85%"}
 
    >[!CAUTION]
    >
-   >「**[!UICONTROL エクスペリエンスイベント - 提案インタラクション]**」フィールドグループ（以前の mixin）に関連付けられたスキーマから作成されたデータセットのみがドロップダウンリストに表示されます。
+   >**[!UICONTROL エクスペリエンスイベント – 提案インタラクション]** フィールドグループに関連付けられたスキーマから作成されたデータセットのみがドロップダウンリストに表示されます。 最大 5 つのデータセットを選択できます。
 
-1. &#x200B;<!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->AI モデルのトレーニングに使用するセグメントを選択します。
+1. <!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->AI モデルのトレーニングに使用するセグメントを選択します。
 
    >[!NOTE]
    >
@@ -84,52 +84,30 @@ ht-degree: 16%
 
 ランキング式を作成する際に、AI モデルを選択できるようになりました。
 
-## ランキング式の AI モデルを選択 {#select-ai-model-for-ranking-formula}
+## ジャーニーをランク付けする式で AI モデルを参照します {#reference-ai-model}
 
-これで、ランキング式を作成するための参照として AI モデルを設定できるようになりました。 次の手順に従います。
+これで、ランキング式を作成するための参照として AI モデルを設定し、その式をルールセットに割り当てて、ルールセットをジャーニーに適用できます。 これを行うには、以下の手順に従います。
 
 1. ランキング式を作成します。 [詳細情報](journey-ranking-formulas.md#create-journey-ranking-formula)
 
-1. **[!UICONTROL AI モデルを選択]** ボタンを使用して、使用する AI モデルを選択します。
+1. **[!UICONTROL AI モデルを選択]** ボタンを使用して、式に使用する AI モデルを選択します。
 
-   ![AI モデルが選択されたジャーニーランキング式の詳細ペイン &#x200B;](assets/journey-formula-ai-model.png){width="80%"}
+   ![ 「AI モデルを選択」ボタンを使用したジャーニーランキング式の詳細 ](assets/journey-formula-ai-model.png){width="80%"}
 
 1. 「**[!UICONTROL 条件]**」セクションの少なくとも 1 つで条件を定義し、ランキングメソッドとして **[!UICONTROL AI モデルスコア]** を選択します。 例えば、ジャーニーに「プロモ」タグがある場合、ランキングスコアは AI モデルスコアです。
 
-   ![&#x200B; ランキング式：プロモタグが AI モデルスコアを使用する &#x200B;](assets/journey-formula-ex-2.png){width="60%"}
+   ![ プロモタグ条件で AI モデルスコアをランキングメソッドとして使用するランキング式の例 ](assets/journey-formula-ex-2.png){width="60%"}
 
 1. 「**[!UICONTROL 作成]**」をクリックして、ランキング式を完成させます。
 
-## AI モデルをルールセットに割り当てる {#assign-ai-model-to-ruleset}
+1. 次に、ルールセットを作成し、ランキング方法として作成した式を選択します。 [詳細情報](journey-ranking-formulas.md#assign-formula-to-ruleset)
 
-AI モデルを使用してジャーニーをランク付けするには、この AI モデルを参照する式をルールセットに割り当てる必要があります。
+1. ジャーニーキャッピングルールを作成し、ルールセットを保存します。
 
-1. **[!UICONTROL ビジネスルール]** メニューから、ジャーニーの判別に使用するルールセットを作成します。 [詳細情報](rule-sets.md#Create)
-
-1. 必ず **[!UICONTROL ジャーニー]** ドメインを選択してください。
-
-1. ルールセットのプロパティで、**[!UICONTROL ランキング方法]** を **[!UICONTROL 優先度]** ではなく **[!UICONTROL 式]** に設定します。
-
-1. 作成した AI モデルを使用する式をドロップダウンリストから選択します。
-
-1. ルールセットに追加するジャーニーキャッピングルールを作成します。 [詳細情報](journey-capping.md#create-rule)
-
-1. ルールセットを保存します。
-
-これで、AI モデルを使用した数式がルールセットに割り当てられます。 その後、そのルールセットをジャーニーに適用できます。
-
-## ジャーニーへのルールセットの適用 {#assign-rule-set-to-journey}
-
-ジャーニーにルールセットを割り当てるには、次の手順に従います。
-
-1. ルールセットを割り当てるジャーニーを作成するか、開きます。 [詳しくは、ジャーニーの作成方法を参照してください。](../building-journeys/journey-gs.md)
-
-1. ジャーニーのプロパティで、ドロップダウンリストからルールセットを選択します。 [方法についてはこちらを参照してください](journey-capping.md#apply-capping)。
+1. 目的のジャーニーにルールセットを適用して保存します。 [詳細情報](journey-ranking-formulas.md#assign-rule-set-to-journey)
 
    >[!NOTE]
    >
    >ジャーニーに一度に適用できるルールセットは 1 つだけです。
 
-1. ジャーニーを保存します。
-
-このルールセットを使用するすべてのジャーニーは、キャップが適用される際に、AI モデルを使用して、選択された式でランク付けされます。
+このルールセットを使用するすべてのジャーニーは、キャップが適用されると、選択した AI モデルを参照する式でランク付けされます。
