@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 exl-id: 07679823-2288-4528-b09a-12fd76a69482
 version: Journey Orchestration
-source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
+source-git-commit: e329c221fa714747d50495e466d02e75bed2967c
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 100%
+source-wordcount: '313'
+ht-degree: 97%
 
 ---
 
@@ -57,3 +57,5 @@ AI モデルを作成して使用する主な手順は次のとおりです。
    >ランキングモデルを収集するには、フィードバックイベントをエクスペリエンスイベントとして送信する必要があります。[詳しくは、決定データ収集を参照してください](../data-collection/data-collection.md)
 
 1. 実施要件を満たすオファーをランク付けする選択戦略に AI モデルを割り当てます。[詳細情報](../selection-strategies.md#select-ranking-method)
+
+1. AI モデルのトレーニングステータスとパフォーマンスを監視します。 [詳細情報](ai-model-observability.md)

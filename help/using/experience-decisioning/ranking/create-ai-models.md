@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 exl-id: 532392d6-3637-4381-984d-f5b630f6d32d
 version: Journey Orchestration
-source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
+source-git-commit: e329c221fa714747d50495e466d02e75bed2967c
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 100%
+source-wordcount: '725'
+ht-degree: 91%
 
 ---
 
@@ -23,6 +23,10 @@ ht-degree: 100%
 >[!CAUTION]
 >
 >AI モデルを作成、編集または削除するには、**ランキング戦略を管理**&#x200B;する権限が必要です。[詳細情報](../../administration/high-low-permissions.md#manage-ranking-strategies)
+
+## AI モデルへのアクセス {#access-ai-models}
+
+AI モデルのリストにアクセスするには、**[!UICONTROL 決定]**/**[!UICONTROL 戦略の設定]** に移動し、「**[!UICONTROL AI モデル]**」を選択します。 インスタンスで作成されたすべての AI モデルが一覧表示されます。
 
 ## AI モデルの作成 {#create-ranking-strategy}
 
@@ -39,7 +43,7 @@ AI モデルを作成するには、次の手順を行います。
 
    ![](../assets/ai-model-list.png)
 
-   これまでに作成した AI モデルがすべてリストされます。
+   これまでにインスタンスで作成した AI モデルがすべて、そこに一覧表示されます。
 
 1. 「**[!UICONTROL AI モデルを作成]**」ボタンをクリックします。
 
@@ -102,7 +106,7 @@ AI モデルを作成するには、次の手順を行います。
    >
    >最大 5 個のオーディエンスを選択できます。
 
-1. AI モデルを保存して有効化します。
+1. AI モデルを保存してアクティブ化します。 モデルが実稼働したら、[ トレーニングステータスとパフォーマンスを監視 ](ai-model-observability.md) できます。
 
 <!--At this point, you must have:
 
@@ -119,4 +123,4 @@ AI モデルを作成するには、次の手順を行います。
 
 Learn how to create a personalized optimization model and how to apply it to a decision.
 
->[!VIDEO](https://video.tv.adobe.com/v/3445952?captions=jpn&quality=12)-->
+>[!VIDEO](https://video.tv.adobe.com/v/3419954?quality=12)-->

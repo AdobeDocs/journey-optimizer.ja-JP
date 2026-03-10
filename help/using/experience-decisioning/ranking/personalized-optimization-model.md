@@ -8,10 +8,10 @@ role: User
 level: Experienced
 exl-id: 1c7bcffe-5a25-444f-8a95-057b7a07f252
 version: Journey Orchestration
-source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
+source-git-commit: e329c221fa714747d50495e466d02e75bed2967c
 workflow-type: tm+mt
-source-wordcount: '943'
-ht-degree: 100%
+source-wordcount: '954'
+ht-degree: 97%
 
 ---
 
@@ -79,4 +79,4 @@ feature_1、feature_2 および response の値は 0 または 1 です。図 1 
 
 ## 再トレーニング {#re-training}
 
-最新の機能インタラクションを学習し、モデルパフォーマンスの低下を軽減するために、モデルの再トレーニングが毎週行われます。
+最新の機能インタラクションを学習し、モデルパフォーマンスの低下を軽減するために、モデルの再トレーニングが毎週行われます。 トレーニングのステータスとモデルのパフォーマンスを監視するには、[AI モデルの監視 ](ai-model-observability.md) を参照してください。
