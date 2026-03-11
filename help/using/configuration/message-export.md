@@ -12,7 +12,7 @@ exl-id: 7b50c933-9738-4b1b-acae-08f0a8d41dab
 source-git-commit: ab0f100d53cb987919eb134442bf05e64c30719a
 workflow-type: tm+mt
 source-wordcount: '695'
-ht-degree: 44%
+ht-degree: 53%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 44%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_msg_export"
 >title="送信済みコンテンツを保持および書き出し"
->abstract="このオプションを選択すると、この設定を使用して、送信されたメールまたは SMS メッセージのコンテンツを [!DNL Experience Platform] データセットに書き込むことができます。 レコードは取り込み後 7 日間保持され、その間、独自のストレージに書き出すことができます。"
+>abstract="このオプションを選択すると、この設定を使用して送信済みメールまたは SMS メッセージのコンテンツを [!DNL Experience Platform] データセットに書き込むことができます。レコードは 7 日間保持され、その間、独自のストレージに書き出すことができます。"
 
 >[!AVAILABILITY]
 >
->この機能は、メッセージ書き出しアドオン機能を購入した組織のメールおよび SMS チャネルでのみ使用できます。 詳しくは、アドビ担当者にお問い合わせください。
+>この機能は、メッセージのエクスポートのアドオン機能を購入した組織がメールおよび SMS チャネルでのみ使用できます。詳しくは、アドビ担当者にお問い合わせください。
 
 **メッセージの書き出し** を使用すると、送信されたメールと SMS メッセージのコンテンツを [!DNL Journey Optimizer] から [!DNL Adobe Experience Platform] の宛先を介して独自のストレージに転送できます。これにより、[!DNL Experience Platform] から外部エンドポイントにデータを配信できます。 [詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/home){target="_blank"}
 
@@ -60,7 +60,7 @@ ht-degree: 44%
 
 1. Experience Platform の[宛先タイプ](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/destination-types){target="_blank"}を選択します。データを受信する準備が整った、使用可能な宛先プラットフォームのリストについて詳しくは、[このページ](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/overview){target="_blank"}を参照してください。
 
-1. [!DNL Experience Platform] では、資格情報、バケット／コンテナ、パスプレフィックス、セキュリティオプションを定義して、宛先を設定します。[詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
+1. [!DNL Experience Platform] では、資格情報、バケット／コンテナ、パスプレフィックス、セキュリティオプションを定義して、宛先を設定します。[方法についてはこちらを参照](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
 
 1. 次のデータを使用して、データセット書き出しフローを作成します。
 
@@ -80,7 +80,7 @@ ht-degree: 44%
 
 1. 変更を保存し、チャネル設定を送信します。
 
-このチャネル設定を使用してキャンペーンまたはジャーニー経由でメッセージを送信すると、メールおよび SMS メッセージが **0&rbrace;AJO メッセージエクスポートデータセット &rbrace; に書き込まれます。**&#x200B;その後、データセット内の [&#x200B; レコードにアクセス &#x200B;](#access-exported-data) し、定義した書き出しデータフローに基づいて、選択したストレージ宛先に書き出すことができます。
+このチャネル設定を使用してキャンペーンまたはジャーニー経由でメッセージを送信すると、メールおよび SMS メッセージが **0}AJO メッセージエクスポートデータセット } に書き込まれます。**&#x200B;その後、データセット内の [ レコードにアクセス ](#access-exported-data) し、定義した書き出しデータフローに基づいて、選択したストレージ宛先に書き出すことができます。
 
 >[!NOTE]
 >

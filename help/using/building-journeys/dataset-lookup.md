@@ -13,7 +13,7 @@ exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
 source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
 source-wordcount: '761'
-ht-degree: 89%
+ht-degree: 91%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 89%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dataset_lookup"
 >title="データセット参照アクティビティ"
->abstract="**[!UICONTROL データセット検索]** アクティビティを使用すると、実行時にレコードデータセットからデータ [!DNL Adobe Experience Platform] 動的に取得できます。 この機能を活用することで、プロファイルやイベントペイロードに存在しない場合があるデータにアクセスできるので、顧客とのインタラクションが関連性が高く、タイムリーなものになります。"
+>abstract="**[!UICONTROL データセットルックアップ]**&#x200B;アクティビティを使用すると、実行時に [!DNL Adobe Experience Platform] レコードデータセットからデータを動的に取得できます。この機能を活用することで、プロファイルやイベントペイロードに存在しない場合があるデータにアクセスできるので、顧客とのインタラクションが関連性が高く、タイムリーなものになります。"
 
 **[!UICONTROL データセット検索]** アクティビティを使用すると、実行時にレコードデータセットからデータ [!DNL Adobe Experience Platform] 動的に取得できます。 この機能を活用することで、プロファイルやイベントペイロードに存在しない場合があるデータにアクセスできるので、顧客とのインタラクションが関連性が高く、タイムリーなものになります。
 
@@ -42,7 +42,7 @@ ht-degree: 89%
 
 ### データセットのイネーブルメント
 
-[!DNL Adobe Experience Platform] で参照するには、データセットを有効にする必要があります。 詳しくは、次の節を参照してください。[&#x200B; 使用  [!DNL Adobe Experience Platform]  データ &#x200B;](../data/lookup-aep-data.md)。
+[!DNL Adobe Experience Platform] で参照するには、データセットを有効にする必要があります。 詳しくは、次の節を参照してください。[ 使用  [!DNL Adobe Experience Platform]  データ ](../data/lookup-aep-data.md)。
 
 ### 制限および制約事項
 
@@ -66,7 +66,7 @@ ht-degree: 89%
 
 1. **[!UICONTROL オーケストレーション]**&#x200B;カテゴリを展開し、**[!UICONTROL データセット参照]**&#x200B;アクティビティをキャンバスにドロップします。
 
-   ジャ ![[!DNL Adobe Experience Platform] ニーのデータセットルックアップアクティビティ &#x200B;](assets/aep-data-activity.png)
+   ジャ ![[!DNL Adobe Experience Platform] ニーのデータセットルックアップアクティビティ ](assets/aep-data-activity.png)
 
 1. ラベルと説明を追加します。
 

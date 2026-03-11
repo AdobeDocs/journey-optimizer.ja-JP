@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
 source-wordcount: '657'
-ht-degree: 88%
+ht-degree: 92%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_update_profiles"
 >title="プロファイルアクティビティの更新"
->abstract="「プロファイルを更新」アクションアクティビティを使用すると、イベントやデータソースから得られた情報または特定の値を使用して、既存の [!DNL Adobe Experience Platform] プロファイルを更新できます。"
+>abstract="プロファイルの更新アクションアクティビティを使用すると、イベントから得られた情報やデータソース、または特定の値を使用して、既存の [!DNL Adobe Experience Platform] のプロファイルを更新できます。"
 
 「**[!UICONTROL プロファイルを更新]**」アクションアクティビティを使用すると、イベントやデータソースから得られた情報または特定の値を使用して、既存の [!DNL Adobe Experience Platform] プロファイルを更新できます。
 

@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
 workflow-type: tm+mt
 source-wordcount: '1533'
-ht-degree: 91%
+ht-degree: 93%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_disabled"
 >title="送信時間の最適化について"
->abstract="Adobeの AI サービスを活用した [!DNL Adobe Journey Optimizer] の送信時間最適化機能を使用すると、メールまたはプッシュメッセージの送信に最適な時間を予測して、過去の開封率とクリック率に基づいてエンゲージメントを最大化できます。"
+>abstract="アドビの AI サービスを利用した、[!DNL Adobe Journey Optimizer] の送信時間最適化機能は、メールまたはプッシュメッセージの送信に最適な時間を予測し、過去の開封率とクリック率に基づいてエンゲージメントを最大化できます。"
 
 >[!CONTEXTUALHELP]
 >id="jo_bestsendtime_email"
@@ -101,7 +101,7 @@ ht-degree: 91%
 
 送信時間の最適化に関するよくある質問を以下に示します。
 
-さらに詳細が必要ですか？このページの下部にあるフィードバックオプションを使用して、質問を提起したり、[[!DNL Adobe Journey Optimizer]  コミュニティ &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"} とつながったりします。
+さらに詳細が必要ですか？このページの下部にあるフィードバックオプションを使用して、質問を提起したり、[[!DNL Adobe Journey Optimizer]  コミュニティ ](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"} とつながったりします。
 
 +++送信時間の最適化を使用する前に、どのくらいの時間を待機する必要がありますか？
 

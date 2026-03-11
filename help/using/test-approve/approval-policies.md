@@ -8,7 +8,7 @@ exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
 source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
 workflow-type: tm+mt
 source-wordcount: '713'
-ht-degree: 92%
+ht-degree: 96%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="ajo_approval_policy_self_approval"
 >title="自己承認をブロック"
->abstract="このオプションを有効にすると、レビュー担当者として指定されたユーザーグループまたはロールに属している場合でも、ユーザーが独自の承認リクエストを承認できなくなります。"
+>abstract="このオプションを有効にすると、ユーザーは、レビュアーとして指定されたユーザーグループまたは役割に属している場合でも、自身の承認リクエストを承認できなくなります。"
 
 承認ポリシーを作成するには、次の手順に従います。
 
@@ -58,7 +58,7 @@ ht-degree: 92%
 
 1. **[!UICONTROL 自己承認をブロック]**&#x200B;を有効にすると、ジャーニー／キャンペーン作成者が自身のオブジェクトを承認できなくなります。
 
-   ![&#x200B; 承認ポリシーの詳細フォーム &#x200B;](assets/policy_create_2.png)
+   ![ 承認ポリシーの詳細フォーム ](assets/policy_create_2.png)
 
 条件を調整して、承認リクエストを開始するユーザーと検証するユーザーを指定できるようになりました。
 
