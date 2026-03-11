@@ -5,10 +5,10 @@ title: AND 結合アクティビティの使用
 description: 調整されたキャンペーンでの AND 結合アクティビティの使用方法について説明します。
 exl-id: 1b99313e-f131-44f7-a129-f85e1977fb05
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: a6dd5e7e4bb55c9cfb094682254d940280de0815
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 100%
+source-wordcount: '263'
+ht-degree: 97%
 
 ---
 
@@ -19,6 +19,11 @@ ht-degree: 100%
 >id="ajo_orchestration_and-join"
 >title="「AND 結合」アクティビティ"
 >abstract="**AND 結合**&#x200B;アクティビティを使用すると、調整されたキャンペーンの複数の実行分岐を同期させることができます。先行するアクティビティがすべて完了すると、トリガーされます。これにより、調整されたキャンペーンの実行を続ける前に、特定のアクティビティを確実に終了させることができます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_join"
+>title="結合アクティビティ"
+>abstract="結合アクティビティのプレースホルダー。"
 
 **[!UICONTROL AND 結合]**&#x200B;アクティビティは、**[!UICONTROL フロー制御]**&#x200B;アクティビティです。調整されたキャンペーンの複数の実行分岐を同期できます。
 
