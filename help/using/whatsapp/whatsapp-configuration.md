@@ -210,6 +210,6 @@ WhatsApp API 資格情報の設定時に HTTP 500 エラーが発生した場合
 
 +++ こちらのビデオをご覧ください
 
->[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470269/?captions=jpn&learn=on)
 
 +++
