@@ -101,7 +101,7 @@ ht-degree: 93%
 
 送信時間の最適化に関するよくある質問を以下に示します。
 
-さらに詳細が必要ですか？このページの下部にあるフィードバックオプションを使用して、質問を提起したり、[[!DNL Adobe Journey Optimizer]  コミュニティ ](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"} とつながったりします。
+さらに詳細が必要ですか？このページの下部にあるフィードバックオプションを使用して、質問を提起したり、[[!DNL Adobe Journey Optimizer]  コミュニティ &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"} とつながったりします。
 
 +++送信時間の最適化を使用する前に、どのくらいの時間を待機する必要がありますか？
 
