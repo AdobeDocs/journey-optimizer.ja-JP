@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: チャネル, サーフェス, 技術, パラメーター, Optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
+source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
 workflow-type: tm+mt
-source-wordcount: '1875'
-ht-degree: 98%
+source-wordcount: '1876'
+ht-degree: 95%
 
 ---
 
@@ -167,7 +167,7 @@ ht-degree: 98%
 >
 >**[!UICONTROL プッシュ通知設定]**&#x200B;は編集できません。チャネル設定がプッシュ通知チャネル用にのみ設定されている場合は、編集できません。
 >
->メール設定を編集する際に、新しい [&#x200B; プロファイル属性 &#x200B;](../personalization/personalization-build-expressions.md#sources) をヘッダーパラメーターに追加することはできません。 [&#x200B; 新規チャネル設定 &#x200B;](#create-channel-surface) を作成する必要があります。
+>メール設定を編集する際に、新しい [ プロファイル属性 ](../personalization/personalization-build-expressions.md#sources) をヘッダーパラメーターに追加することはできません。 [ 新規チャネル設定 ](#create-channel-surface) を作成する必要があります。
 
 1. リストでチャネル設定名をクリックして開きます。
 
@@ -177,19 +177,13 @@ ht-degree: 98%
 
    >[!NOTE]
    >
-   >チャネル設定のステータスが&#x200B;**[!UICONTROL アクティブ]**&#x200B;の場合、「**[!UICONTROL 名前]**」、「**[!UICONTROL チャネルを選択]**」および「**[!UICONTROL サブドメイン]**」フィールドは灰色表示になっており、編集できません。
+   >* 設定のステータスが **[!UICONTROL アクティブ]** の場合、「**[!UICONTROL 名前]**」、「**[!UICONTROL チャネルを選択]**」および「**[!UICONTROL サブドメイン]**」フィールドは読み取り専用であり、変更できません。
+   >* 変更はいつでもドラフトとして保存し、後で更新を再開できます。
+   >* 「**[!UICONTROL 説明]**」、「**[!UICONTROL メールタイプ]**」または「**[!UICONTROL メールの再試行パラメーター]** の各フィールドに限定された編集は、処理遅延なしで即座に有効になります。
 
 1. 「 **[!UICONTROL 送信]**」をクリックして、変更を確定します。
 
-   >[!NOTE]
-   >
-   >なお、チャネル設定をドラフトとして保存し、後で更新を再開することもできます。
-
 変更が送信されると、チャネル設定は、[チャネル設定の作成](#create-channel-surface)時と同じような検証サイクルを経ます。編集の処理時間は、最大で **3 時間**&#x200B;かかる場合があります。
-
->[!NOTE]
->
->編集するフィールドが「**[!UICONTROL 説明]**」、「**[!UICONTROL メールタイプ]**」または「**[!UICONTROL メールの再試行パラメーター]**」のみの場合、更新は即時に行われます。
 
 ### 更新の詳細 {#update-details}
 
@@ -298,4 +292,4 @@ ht-degree: 98%
 
 チャネル設定の概要と Adobe Journey Optimizer での使用方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3480452/?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433124/?learn=on)

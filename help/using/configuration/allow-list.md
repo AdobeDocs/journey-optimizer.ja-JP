@@ -8,16 +8,16 @@ role: Admin
 level: Intermediate
 keywords: 許可リスト，安全なリスト，メール，配信品質，サンドボックス，ドメイン，抑制，設定
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 56d0d176385dfbb74222fd33115c01553f50d107
+source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
 workflow-type: tm+mt
-source-wordcount: '1312'
-ht-degree: 76%
+source-wordcount: '1308'
+ht-degree: 72%
 
 ---
 
 # 許可リストの設定 {#allow-list}
 
-許可リストは、[&#x200B; サンドボックス &#x200B;](../administration/sandboxes.md) レベルで定義できる送信セーフリストです。 メール送信を特定のアドレスまたはドメインに制限し、明示的にリストされている受信者のみが特定のサンドボックスからメッセージを受信できるようにします。
+許可リストは、[ サンドボックス ](../administration/sandboxes.md) レベルで定義できる送信セーフリストです。 メール送信を特定のアドレスまたはドメインに制限し、明示的にリストされている受信者のみが特定のサンドボックスからメッセージを受信できるようにします。
 
 >[!CAUTION]
 >
@@ -33,7 +33,7 @@ ht-degree: 76%
 
 許可されたメールアドレスとドメインの詳細なリストにアクセスするには、**[!UICONTROL 管理]**／**[!UICONTROL チャネル]**／**[!UICONTROL メール設定]**&#x200B;に移動し、「**[!UICONTROL 許可リスト]**」を選択します。
 
-![&#x200B; 許可されているメールアドレスとドメインのリストを表示する許可リストページ &#x200B;](assets/allow-list-access.png)
+![ 許可されているメールアドレスとドメインのリストを表示する許可リストページ ](assets/allow-list-access.png)
 
 >[!CAUTION]
 >
@@ -55,21 +55,18 @@ ht-degree: 76%
 
 1. 切替スイッチボタンを選択します。
 
-   ![許可リストを有効にする切り替えボタン &#x200B;](assets/allow-list-edit.png)
+   ![許可リストを有効にする切り替えボタン ](assets/allow-list-edit.png)
 
 1. 「**[!UICONTROL 許可リストをアクティブ化]**」を選択します。許可リストがアクティブになりました。
 
-   ![許可リストがアクティブであることの確認 &#x200B;](assets/allow-list-enable.png)
+   ![許可リストがアクティブであることの確認 ](assets/allow-list-enable.png)
 
    >[!NOTE]
    >
-   >許可リストをアクティブ化した後、ジャーニーとキャンペーンで有効になるまでに 10 分の遅延が発生します。同様に、許可リストと抑制リストの両方の更新が反映されるまでに最大 10 分かかる場合があります。
+   >* アクティブ化の後、ジャーニーとキャンペーンで許可リストが有効になるまでに、10 分の遅延があります。 許可リストリストと抑制リストの両方が更新された場合も、反映されるまで最大 10 分かかる場合があります。
+   >* アクティブの場合、許可リストはライブジャーニーだけでなく、[ 配達確認 ](../content-management/proofs.md) ジャーニーでメッセージをテストする場合や [ テストモード ](../building-journeys/testing-the-journey.md) でジャーニーをテストする場合にも適用されます。
 
 許可リストのロジックは、この機能がアクティブな場合に適用されます。詳しくは、[この節](#logic)を参照してください。
-
->[!NOTE]
->
->有効にすると、ジャーニーの実行時に許可リスト機能がアクティブになりますが、[配達確認](../content-management/proofs.md)を使用してメッセージをテストし、[テストモード](../building-journeys/testing-the-journey.md)を使用してジャーニーをテストする場合にも機能します。
 
 ## 許可リストを非アクティブ化 {#deactivate-allow-list}
 
@@ -79,11 +76,11 @@ ht-degree: 76%
 
 1. 切替スイッチボタンを選択します。
 
-   ![許可リストを非アクティブ化するための切り替えボタン &#x200B;](assets/allow-list-edit-active.png)
+   ![許可リストを非アクティブ化するための切り替えボタン ](assets/allow-list-edit-active.png)
 
 1. 「**[!UICONTROL 許可リストを非アクティブ化]**」を選択します。許可リストがアクティブではなくなりました。
 
-   ![許可リストが非アクティブになったことを示す確認 &#x200B;](assets/allow-list-deactivate.png)
+   ![許可リストが非アクティブになったことを示す確認 ](assets/allow-list-deactivate.png)
 
    >[!NOTE]
    >
@@ -121,7 +118,7 @@ ht-degree: 76%
 
 1. 「**[!UICONTROL メールまたはドメインの追加]**」ボタンを選択します。
 
-   ![許可リストページの「メールまたはドメインを追加」ボタン &#x200B;](assets/allowed-list-add-email.png)
+   ![許可リストページの「メールまたはドメインを追加」ボタン ](assets/allowed-list-add-email.png)
 
 1. アドレスタイプとして、「**[!UICONTROL メールアドレス]**」または「**[!UICONTROL ドメインアドレス]**」を選択します。
 
@@ -133,7 +130,7 @@ ht-degree: 76%
 
 1. 必要に応じて理由を指定します。
 
-   ![許可リストにメールアドレスまたはドメインを追加するためのフォーム（オプションの理由フィールドを含む） &#x200B;](assets/allowed-list-add-email-address.png)
+   ![許可リストにメールアドレスまたはドメインを追加するためのフォーム（オプションの理由フィールドを含む） ](assets/allowed-list-add-email-address.png)
 
    >[!NOTE]
    >
@@ -145,7 +142,7 @@ ht-degree: 76%
 
 許可リストに入力するには、`listType` 属性に `ALLOWED` 値を指定して抑制 API を呼び出すこともできます。例：
 
-![&#x200B; 抑制 API を使用して許可リストにエントリを追加する API 呼び出しの例 &#x200B;](assets/allow-list-api.png)
+![ 抑制 API を使用して許可リストにエントリを追加する API 呼び出しの例 ](assets/allow-list-api.png)
 
 「**追加**」、「**削除**」および「**取得**」の操作を実行できます。
 
@@ -157,11 +154,11 @@ API 呼び出しについて詳しくは、[Adobe Experience Platform API](https
 
 1. 「**[!UICONTROL CSV をダウンロード]**」ボタンを選択します。 
 
-   ![許可リストページの「CSV をダウンロード」ボタン &#x200B;](assets/allowed-list-download-csv.png)
+   ![許可リストページの「CSV をダウンロード」ボタン ](assets/allowed-list-download-csv.png)
 
 1. ファイルが生成されるまで待ちます。
 
-   ![CSV ファイルが生成されていることを示す通知 &#x200B;](assets/allowed-list-download-generate.png)
+   ![CSV ファイルが生成されていることを示す通知 ](assets/allowed-list-download-generate.png)
 
    >[!NOTE]
    >
@@ -173,7 +170,7 @@ API 呼び出しについて詳しくは、[Adobe Experience Platform API](https
 
 1. 通知自体をクリックして、ファイルをダウンロードします。
 
-   ![&#x200B; 生成された CSV ファイルのダウンロードリンクに関する通知 &#x200B;](assets/allowed-list-download-notification.png)
+   ![ 生成された CSV ファイルのダウンロードリンクに関する通知 ](assets/allowed-list-download-notification.png)
 
    >[!NOTE]
    >
