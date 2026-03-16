@@ -10,10 +10,10 @@ level: Intermediate
 keywords: ジャーニー, 最初, 開始, クイックスタート, オーディエンス, イベント, アクション
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: 302db58525a7b2648bb9c44bc9b42da787ca9c43
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 97%
+source-wordcount: '949'
+ht-degree: 92%
 
 ---
 
@@ -85,6 +85,10 @@ ht-degree: 97%
 ## ジャーニーのデザイン {#jo-design}
 
 オムニチャネルジャーニー designer は、直感的なドラッグ&amp;ドロップインターフェイスを用いて、ターゲットオーディエンス、リアルタイムの顧客やビジネスインタラクションに基づく更新、およびオムニチャネルメッセージを使用した、複数手順のジャーニーを作成できるようユーザーを支援します。
+
+>[!TIP]
+>
+>複数のフェーズまたは多くのタッチポイントを持つジャーニーの場合は、エンドツーエンドのフローを、**[!UICONTROL ジャンプ]** アクティビティに接続される、より小さくフォーカスされたサブジャーニーに分割することを検討します。 このアプローチにより、複雑さが軽減され、各サブジャーニーを個別にテストして管理しやすくなります。 詳しくは、[ 設計戦略：一口サイズのサブジャーニー ](jump.md#jump-strategy) を参照してください。
 
 ![アクティビティパレットとキャンバスを含むジャーニーデザイナーインターフェイス](assets/journey38.png)
 
