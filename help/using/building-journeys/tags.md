@@ -92,4 +92,4 @@ Journey Optimizerの **タグカテゴリ** の方が、より優れた代替手
 
 >[!TIP]
 >
->このアプローチとその利点について詳しくは、[Journey Optimizerの高度なジャーニーのベストプラクティス &#x200B;](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"} を参照してください。
+>このアプローチとその利点について詳しくは、[Journey Optimizerの高度なジャーニーのベストプラクティス &#x200B;](https://experienceleague.adobe.com/ja/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"} を参照してください。

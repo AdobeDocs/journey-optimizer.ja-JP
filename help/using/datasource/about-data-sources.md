@@ -51,7 +51,7 @@ ht-degree: 56%
 
 ## データアクセス戦略を選択 {#data-access-strategy}
 
-データソースを設定する前に、ユースケースに最適なアプローチを検討してください。 永続性、プロファイルのエンリッチメントおよび再利用性に関して、それぞれ異なるトレードオフを持つ 3 つのオプションを使用できます。 これらのオプションについて詳しくは、[Journey Optimizerの高度なジャーニーのベストプラクティス &#x200B;](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"} を参照してください。
+データソースを設定する前に、ユースケースに最適なアプローチを検討してください。 永続性、プロファイルのエンリッチメントおよび再利用性に関して、それぞれ異なるトレードオフを持つ 3 つのオプションを使用できます。 これらのオプションについて詳しくは、[Journey Optimizerの高度なジャーニーのベストプラクティス &#x200B;](https://experienceleague.adobe.com/ja/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"} を参照してください。
 
 **オプション 1 - カスタムアクションを使用して外部データにアクセス（データレイクなし）**
 
