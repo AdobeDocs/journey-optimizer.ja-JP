@@ -49,7 +49,7 @@ Adobe Experience Platform のデータソースは、Adobe リアルタイム顧
 
    >[!NOTE]
    >
-   >[!DNL Journey Optimizer] Data Source設定では、XDM 個人プロファイルベースのスキーマのみがサポートされます。 詳しくは、[XDM Individual Profile クラス ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/individual-profile){target="_blank"} を参照してください。
+   >[!DNL Journey Optimizer] Data Source設定では、XDM 個人プロファイルベースのスキーマのみがサポートされます。 詳しくは、[XDM Individual Profile クラス &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/individual-profile){target="_blank"} を参照してください。
 
 1. 使用するフィールドを選択し、変更を保存します。
 
