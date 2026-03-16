@@ -25,7 +25,7 @@ ht-degree: 56%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
 
 意思決定管理イベントの操作
 
@@ -35,7 +35,7 @@ Adobe Experience Platform を使用して、意思決定管理イベントデー
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 DecisioningEvents XDM フィールドへのアクセスと探索
 
