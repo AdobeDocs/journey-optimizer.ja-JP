@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 待機, アクティビティ, ジャーニー, 次, キャンバス
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 version: Journey Orchestration
-source-git-commit: 58cabac978facef373c6cadee0c8fc0963785df8
+source-git-commit: 2895554bfa00ed1b4cfe2d036568ed5a112689f8
 workflow-type: tm+mt
-source-wordcount: '890'
-ht-degree: 86%
+source-wordcount: '878'
+ht-degree: 85%
 
 ---
 
@@ -90,13 +90,16 @@ Select the date for the execution of the next activity.
 
 >[!CAUTION]
 >
->`dateTimeOnly` 式を利用するか、関数を使用して `dateTimeOnly` に変換することができます。例：「`toDateTimeOnly(@event{Event.offerOpened.activity.endTime})`」の場合、イベント内のフィールドは「2023-08-12T09:46:06Z」の形式になります。 ジャーニーのプロパティには **タイムゾーン** が必要なので、UI から直接、時刻とタイムゾーンオフセットを組み合わせた完全な ISO-8601 タイムスタンプ（2023-08-12T09:46:06.982-05 など）を指定することはできません。 [詳細情報](../building-journeys/timezone-management.md)
+>`dateTimeOnly` 式を使用する場合は、次の点に注意してください。
 >
->`toDateTimeOnly()` を使用してカスタム待機式を作成する場合は、結果に「Z」やタイムゾーンオフセット（「–05:00」など）を追加しないでください。 式では、明示的なタイムゾーン識別子を使用せずに、ジャーニーで設定されたタイムゾーンを参照する有効な ISO 日付/時間構文を使用する必要があります。そうしないと、プロファイルが待機アクティビティで動かなくなる可能性があります。
+>* `dateTimeOnly` 式は、直接使用することも、関数を使用して変換することもできます。例えば、`toDateTimeOnly(@event{Event.offerOpened.activity.endTime})` のフィールド値は、フォームフ `2023-08-12T09:46:06Z` ールド内にあります。
+>* **タイムゾーン** は、ジャーニーのプロパティで定義します。 その結果、時刻とタイムゾーンのオフセットを組み合わせた、完全な ISO-8601 タイムスタンプ（`2023-08-12T09:46:06.982-05` など）を UI から指定することはできません。 [詳細情報](../building-journeys/timezone-management.md)
+>* `toDateTimeOnly()` を使用してカスタム待機式を作成する場合は、**またはタイムゾーンオフセット（例：**`Z` を追加 `-05:00` しないでください。 式は、明示的なタイムゾーン識別子を使用せずに、ジャーニーで設定されたタイムゾーンを参照する必要があります。参照しないと、プロファイルが待機アクティビティで停止する可能性があります。
 >
->**正しい例：** `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00"))`
->
->**正しくない例：** `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00Z"))` ❌（「Z」を含む）
+>| | 例 |
+>|---|---|
+>| **正解** | `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00"))` |
+>| **不正確** | `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00Z"))` ❌ （`Z` を含む） |
 
 待機アクティビティが期待どおりに動作することを検証するには、ステップイベントを使用できます。[詳細情報](../reports/query-examples.md#common-queries)
 
