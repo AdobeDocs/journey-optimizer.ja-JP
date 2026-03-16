@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: ランディング, ランディングページ, 作成, 公開
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 170bdaaa13fe78ad4c47a6e091c8090156fde8f6
+source-git-commit: 66bf475ed473f3b3d8c61f17ac0f7a36696fe962
 workflow-type: tm+mt
-source-wordcount: '1567'
-ht-degree: 96%
+source-wordcount: '1568'
+ht-degree: 95%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->最初のランディングページを作成する前に、[&#x200B; ランディングページの設定 &#x200B;](../../rp_landing_pages/lp-configuration-landing-page.md) の設定を完了してください。 これには、ランディングページをホストするサブドメインの設定や、サブドメインおよびその他のチャネル設定を指定するプリセットの少なくとも 1 つを定義することが含まれます。 ランディングページを作成するときは、プリセットを選択する必要があります。
+>最初のランディングページを作成する前に、[ ランディングページの設定 ](../../rp_landing_pages/lp-configuration-landing-page.md) の設定を完了してください。 これには、ランディングページをホストするサブドメインの設定や、サブドメインおよびその他のチャネル設定を指定するプリセットの少なくとも 1 つを定義することが含まれます。 ランディングページを作成するときは、プリセットを選択する必要があります。
 
 ## ランディングページの作成 {#create-landing-page}
 
@@ -86,7 +86,7 @@ ht-degree: 96%
 >title="プライマリページ設定の定義"
 >abstract="プライマリページとは、メールや web サイトなどで、ユーザーがランディングページへのリンクをクリックした直後に表示されるページです。"
 <!--
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html?lang=ja" text="Design the landing page content"-->
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="Design the landing page content"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_settings"
@@ -262,16 +262,12 @@ ht-degree: 96%
 
 >[!CAUTION]
 >
->ランディングページを公開するには、**[!UICONTROL メッセージを公開]**&#x200B;権限が必要です。
-
+>* ランディングページを公開するには、**[!UICONTROL メッセージを公開]** 権限が必要です。
+>* 公開する前に、すべてのアラートを確認して解決します。 [詳細情報](#check-alerts)
 
 ランディングページの準備が整ったら、ページを公開し、メッセージで使用できる状態にできます。
 
 ![](assets/lp_publish.png)
-
->[!CAUTION]
->
->公開する前に、アラートを確認して解決します。[詳細情報](#check-alerts)
 
 ランディングページが公開されると、**[!UICONTROL 公開中のアイテム]**&#x200B;ステータスでランディングページリストに追加されます。
 
