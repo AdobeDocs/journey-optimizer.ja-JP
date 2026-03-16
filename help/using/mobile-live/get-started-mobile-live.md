@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c9766603-df19-4efd-8319-27e9764254b4
-source-git-commit: 9cdd115c66c8a26a59bfb45f0f20b6c96ddb5d5d
+source-git-commit: f3c398a7164d7c83a39c4ec7c9460589309c8cae
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 60%
+source-wordcount: '276'
+ht-degree: 55%
 
 ---
 
@@ -54,3 +54,9 @@ ht-degree: 60%
 1. **[キャンペーンを追跡](../reports/campaign-global-report-cja-activity.md)**
 
    組み込みレポートを使用して、ライブ アクティビティの影響の測定を開始します。
+
+## チュートリアルビデオ
+
+iOS Live アクティビティをAdobe Journey Optimizerと連携して設定し、iPhoneのロック画面と Dynamic Island でリッチなリアルタイム更新を提供する方法について説明します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3479864/?learn=on)
