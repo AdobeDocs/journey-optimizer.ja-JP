@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 設定, メール, 設定
 exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
-source-git-commit: 5b804de873124b8ff53d55c943b3c95649dd9a7c
+source-git-commit: ef7820b0f223865dbbc85cfea2387d97d1dd717d
 workflow-type: tm+mt
-source-wordcount: '733'
-ht-degree: 97%
+source-wordcount: '732'
+ht-degree: 90%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 97%
 >
 >メール設定の制御を高めるには、ヘッダーパラメーターをパーソナライズできます。[詳細情報](../email/surface-personalization.md#personalize-header)
 >
->[&#x200B; メール設定の編集 &#x200B;](../configuration/channel-surfaces.md#edit-channel-surface) 時に、新しい [&#x200B; プロファイル属性 &#x200B;](../personalization/personalization-build-expressions.md#sources) をヘッダーパラメーターに追加することはできません。 新しいチャネル設定を作成する必要があります。
+>[ メール設定の編集 ](../configuration/channel-surfaces.md#edit-channel-surface) 時に、新しい [ プロファイル属性 ](../personalization/personalization-build-expressions.md#sources) をヘッダーパラメーターに追加することはできません。 新しいチャネル設定を作成する必要があります。
 
 * **[!UICONTROL 送信者名]**：送信者の名前（会社のブランド名など）。
 * **[!UICONTROL 送信者メールの接頭辞]**：コミュニケーションに使用するメールアドレス。
@@ -86,12 +86,9 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->サブドメインごとに転送メールアドレスを 1 つだけ指定できます。したがって、複数の設定で同じサブドメインを使用する場合は、それらすべてに同じ転送メールアドレスを使用する必要があります。
+>* サブドメインごとに 1 つの転送メールアドレスのみ指定できます。複数の設定で同じサブドメインを使用する場合は、それらすべてに同じ転送メールアドレスを使用する必要があります。
+>* 転送が有効になっていない場合、**送信元メール** アドレスに直接送信されたメールは、デフォルトで破棄されます。
 
 転送メールアドレスはアドビが設定します。これには 3～4 日かかる場合があります。
 
 完了すると、**[!UICONTROL 返信先メール]**&#x200B;および&#x200B;**エラーメール**&#x200B;アドレスで受信したすべてのメッセージと、**送信者メール**&#x200B;アドレスに送信されたすべてのメールが、指定した特定のメールアドレスに転送されます。
-
->[!NOTE]
->
->デフォルトでは、転送が有効になっていない場合、**送信者メール**&#x200B;アドレスに直接送信されたメールは破棄されます。
