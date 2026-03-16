@@ -8,10 +8,11 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: ウェーブ，バッチ，スケジュール，キャンペーン，ジャーニー，配信品質
-source-git-commit: 7df05e41b086c60724576328c5bcfee47cab65ca
+exl-id: 6d53d817-78f6-4d00-8ff0-8a848c618435
+source-git-commit: 55181db4fd8c1e6ee0f0f865dd61201be3c2df39
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 1%
+source-wordcount: '781'
+ht-degree: 2%
 
 ---
 
@@ -37,7 +38,7 @@ Journey Optimizerでは、ウェーブの数、サイズ（オーディエンス
 
 キャンペーンでウェーブを送信する方法とタイミングを設定するには、次の手順に従います。
 
-1. アウトバウンドアクション [&#x200B; 例：メール、SMS、プッシュ）を含む &#x200B;](create-campaign.md) アクションキャンペーン）を作成または開きます。
+1. アウトバウンドアクション [ 例：メール、SMS、プッシュ）を含む ](create-campaign.md) アクションキャンペーン）を作成または開きます。
 
 1. キャンペーンの「**[!UICONTROL スケジュール]**」タブで、「**[!UICONTROL キャンペーンアクションをウェーブで配信]**」を選択します。
 
@@ -73,17 +74,13 @@ Journey Optimizerでは、ウェーブの数、サイズ（オーディエンス
 
 ![](assets/campaign-wave-percentage.png){width="80%"}
 
->[!NOTE]
->
->すべてのウェーブの合計が 100% になる必要があります。 これに該当しない場合は、警告メッセージが表示されます。<!--are the waves actually sent or does the system prevent user from saving the campaign?-->
-
 **[!UICONTROL 数値]** を選択して、各ウェーブのサイズをプロファイルの絶対数として定義します（例：10,000、50,000）。
 
 ![](assets/campaign-wave-numbers.png){width="80%"}
 
 >[!NOTE]
->
->数値を使用する場合、システムでは、合計がオーディエンス全体に及ぶことは検証されません。ウェーブサイズが、送信先のオーディエンスに及ぶことを確認する必要があります。 詳しくは、[&#x200B; よくある質問 &#x200B;](#faq) を参照してください。
+>* 割合を使用する場合は、すべてのウェーブの合計が 100% である必要があります。 そうでない場合は、警告が表示されます。
+>* 数値を使用する場合、システムはカバレッジを検証しません。ウェーブサイズが対象オーディエンスをカバーしていることを確認します。 [詳細情報](#faq)
 
 ### カスタムスケジュール {#custom-schedule}
 
@@ -128,5 +125,5 @@ Wave 送信は、送信するメッセージのタイミングと数を制御す
 
 ## 次の手順 {#next}
 
-* [&#x200B; アクションキャンペーンのスケジュール &#x200B;](campaign-schedule.md) – 開始日、終了日、頻度およびレート制御を設定します。
-* [&#x200B; キャンペーンのレビューとアクティブ化 &#x200B;](review-activate-campaign.md) - キャンペーンを確認して運用を開始します。
+* [ アクションキャンペーンのスケジュール ](campaign-schedule.md) – 開始日、終了日、頻度およびレート制御を設定します。
+* [ キャンペーンのレビューとアクティブ化 ](review-activate-campaign.md) - キャンペーンを確認して運用を開始します。

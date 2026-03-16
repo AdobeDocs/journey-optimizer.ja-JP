@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: イベント, 単一, 作成, ジャーニー
 exl-id: e22e2bc7-0c15-457a-8980-97bea5da7784
-source-git-commit: b8c2eced0f517e917021e9f42a8943b4a5e4f287
+source-git-commit: ee9055c75ff122adcdeb8b9580701db8cd778d61
 workflow-type: tm+mt
-source-wordcount: '1693'
-ht-degree: 100%
+source-wordcount: '1684'
+ht-degree: 96%
 
 ---
 
@@ -95,15 +95,13 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >システム生成イベントの場合は、「オーケストレーション」フィールドグループが XDM スキーマに追加されていることを確認してください。これにより、[!DNL Journey Optimizer] と連携するために必要な情報がスキーマにすべて含まれるようになります。
+   >システム生成イベントの場合：
+   >* `orchestration` フィールドグループが XDM スキーマに追加されていることを確認します。これにより、[!DNL Journey Optimizer] を操作するために必要なすべての情報がスキーマに含まれるようになります。
+   >* **[!UICONTROL eventID]** フィールドは、選択したフィールドのリストに自動的に追加され、イベントを識別で [!DNL Journey Optimizer] るようになります。 イベントをプッシュするシステムでは ID を生成しないでください。代わりに、ペイロードプレビューにある ID を使用します。 [詳細情報](../event/about-creating.md#preview-the-payload)
 
    ![](assets/journey9.png)
 
 1. イベントから受け取るフィールドを選択します。これらは、ビジネスユーザーがジャーニーで活用するフィールドです。また、イベントに関連付けられた人物を識別するために使用するキーも含める必要があります（[この節](../event/about-creating.md#define-the-event-key)を参照）。
-
-   >[!NOTE]
-   >
-   >システム生成イベントの場合は、[!DNL Journey Optimizer] がイベントを識別できるよう、選択されたフィールドのリストに **[!UICONTROL eventID]** フィールドが自動的に追加されます。イベントをプッシュするシステムでは ID を生成しないため、ペイロードプレビューにある ID を使用する必要があります。[この節](../event/about-creating.md#preview-the-payload)を参照してください。
 
 1. 必要なフィールドの選択が完了したら、「**[!UICONTROL OK]**」をクリックするか、**[!UICONTROL Enter]** キーを押します。
 
