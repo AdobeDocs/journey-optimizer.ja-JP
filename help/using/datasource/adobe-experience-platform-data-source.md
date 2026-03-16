@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: ビルトイン, ソース, データ, Platform, 統合
 exl-id: 9083e355-15e3-4d1f-91ae-03095e08ad16
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: ht
-source-wordcount: '398'
-ht-degree: 100%
+source-git-commit: 43a4b85adb74e24c7c57fa74177795d014b88774
+workflow-type: tm+mt
+source-wordcount: '419'
+ht-degree: 94%
 
 ---
 
@@ -25,15 +25,13 @@ ht-degree: 100%
 
 Adobe Experience Platform のデータソースは、Adobe リアルタイム顧客プロファイルサービスへの接続を定義します。このデータソースはビルトインで事前に設定されているので、削除できません。このデータソースは、リアルタイム顧客プロファイルサービスからデータを取得して使用するように設計されています（例えば、ジャーニーにエントリした人物が女性かどうかを確認します）。アドビのリアルタイム顧客プロファイルサービスについて詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target="_blank"}を参照してください。
 
-リアルタイム顧客プロファイルサービスへの接続を可能にするには、人物を特定するキーと、キーを説明する名前空間前を使用する必要があります。その結果、このデータソースは、ジャーニーが、キーと名前空間を含むイベントで開始する場合にのみ使用できます。[詳細情報](../building-journeys/journey.md)。
+リアルタイム顧客プロファイルサービスへの接続を可能にするには、人物を特定するキーと、キーを説明する名前空間前を使用する必要があります。その結果、このデータソースは、ジャーニーが、キーと名前空間を含むイベントで開始する場合にのみ使用できます。[詳細情報](../building-journeys/journey.md)
 
 「ProfileFieldGroup」という名前の事前設定済みフィールドグループを編集し、新しいグループを追加して、ドラフトまたはライブジャーニーで使用されていないフィールドグループを削除できます。[詳細情報](../datasource/configure-data-sources.md#define-field-groups)
-
 
 >[!CAUTION]
 >
 >ジャーニーの式／条件でのエクスペリエンスイベントの使用はサポートされていません。ユースケースでエクスペリエンスイベントを使用する必要がある場合は、別の方法を考慮します。[詳細情報](../building-journeys/exp-event-lookup.md)
-
 
 ビルトインデータソースにフィールドグループを追加する主な手順は次のとおりです。
 
@@ -48,8 +46,12 @@ Adobe Experience Platform のデータソースは、Adobe リアルタイム顧
    ![](assets/journey24.png)
 
 1. **[!UICONTROL スキーマ]**&#x200B;ドロップダウンからスキーマを選択します。スキーマの作成は、Adobe Journey Optimizer ではなく、Adobe Experience Platform で実行されます。
-1. 使用するフィールドを選択し、変更を保存します。
 
+   >[!NOTE]
+   >
+   >[!DNL Journey Optimizer] Data Source設定では、XDM 個人プロファイルベースのスキーマのみがサポートされます。 詳しくは、[XDM Individual Profile クラス ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/classes/individual-profile){target="_blank"} を参照してください。
+
+1. 使用するフィールドを選択し、変更を保存します。
 
 >[!TIP]
 >
