@@ -93,7 +93,7 @@ ht-degree: 97%
 >[!NOTE]
 >
 >* **[!UICONTROL エラーメールプレフィックス]** フィールドを除く、すべての **[!UICONTROL ヘッダーパラメーター]** フィールドはパーソナライズできます。
->* [ メール設定の編集 ](../configuration/channel-surfaces.md#edit-channel-surface) 時に、新しい [ プロファイル属性 ](../personalization/personalization-build-expressions.md#sources) をヘッダーパラメーターに追加することはできません。代わりに新しいチャネル設定を作成する必要があります。
+>* [&#x200B; メール設定の編集 &#x200B;](../configuration/channel-surfaces.md#edit-channel-surface) 時に、新しい [&#x200B; プロファイル属性 &#x200B;](../personalization/personalization-build-expressions.md#sources) をヘッダーパラメーターに追加することはできません。代わりに新しいチャネル設定を作成する必要があります。
 
 例えば、ブランドが複数ある場合は、単一の設定を作成し、メールヘッダーにパーソナライズされた値を使用できます。これにより、様々なブランドから送信されるすべてのメールが、正しい&#x200B;**送信元**&#x200B;の名前とメールアドレスを使用して、各顧客に送信されるようになります。同様に、受信者がメールクライアントソフトウェアの「**返信**」ボタンを押した際、**返信先**&#x200B;の名前とメールアドレスが、適切なユーザーの正しいブランドに対応するようにする必要があります。
 
