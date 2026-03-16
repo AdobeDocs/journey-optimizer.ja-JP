@@ -2,14 +2,14 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: API リファレンス
-description: API リファレンス
+description: オファーライブラリ API と配信 API を使用して、意思決定管理をワークフローに統合し、パーソナライズされたオファーを大規模に配信する方法を説明します。
 redpen-status: CREATED_||_2025-08-11_21-04-46
 badge: label="レガシー" type="Informative"
 exl-id: 0b5e61d7-14a1-446e-8cb0-8861295d6e94
-source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
-workflow-type: ht
-source-wordcount: '183'
-ht-degree: 100%
+source-git-commit: 50667ff13e16344bbcc12d78e5ac31f3f8545f08
+workflow-type: tm+mt
+source-wordcount: '233'
+ht-degree: 76%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Journey Optimizer の API リファレンスの節では、顧客に合わ
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Offer Library API の基本を学ぶ
 
@@ -35,13 +35,23 @@ Offer Library API の基本を学ぶ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer API を使用したオファーの配信
 
 パーソナライズされたオファーを配信するための Decisioning、Edge Decisioning、Batch Decisioning API の実装に関する包括的なリソースについて説明します。
 
-[この節について](offer-delivery-api-landing-page.md)
+[配信 API の調査](offer-delivery-api-landing-page.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+
+API を使用したオファーの作成と管理
+
+プレースメント、決定ルール、コレクション修飾子、パーソナライズされたオファー、コレクション、フォールバックオファーおよび決定を管理するための API リファレンスにアクセスします。
+
+[オファーライブラリ API の参照](../using/offers/api-reference/getting-started.md)
 :::
 
 ::::
