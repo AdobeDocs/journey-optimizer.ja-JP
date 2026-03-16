@@ -9,10 +9,11 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 keywords: ウェーブ，バッチ，スケジュール，ジャーニー，オーディエンスを読み取り，配信品質
-source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
+exl-id: 1aaff17f-aa08-4f10-903c-8335a86ac6eb
+source-git-commit: d0bc5eff31a076b78660088d48a81d74b2391466
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 1%
+source-wordcount: '871'
+ht-degree: 2%
 
 ---
 
@@ -33,7 +34,7 @@ ht-degree: 1%
 
 ## 制限とガードレール {#limitations-guardrails}
 
-* ウェーブ送信は、**[!DNL As soon as possible]** および **[!UICONTROL 1 回]** スケジューラータイプを持つオーディエンスを読み取りジャーニーでのみ使用できます。 詳しくは、[&#x200B; ジャーニースケジュール &#x200B;](read-audience.md#schedule) を参照してください。
+* ウェーブ送信は、**[!DNL As soon as possible]** および **[!UICONTROL 1 回]** スケジューラータイプを持つオーディエンスを読み取りジャーニーでのみ使用できます。 詳しくは、[ ジャーニースケジュール ](read-audience.md#schedule) を参照してください。
 * ウェーブ送信は、繰り返しジャーニー、イベントトリガー型ジャーニー、ビジネスイベント型ジャーニー、テストモードまたはドライラン型ジャーニーでは使用できません。
 * 少なくとも **2 ウェーブ** を定義する必要があり、最大 **10 ウェーブ** を追加できます。
 * 2 つのウェーブの開始間の最小間隔は **30 分** です。
@@ -44,7 +45,7 @@ ht-degree: 1%
 
 ## ジャーニーでのウェーブ送信の設定 {#configure-wave-sending}
 
-1. [&#x200B; オーディエンスを読み取り &#x200B;](read-audience.md) アクティビティでジャーニーを開始します。
+1. [ オーディエンスを読み取り ](read-audience.md) アクティビティでジャーニーを開始します。
 
 1. **[!UICONTROL オーディエンスを読み取り]** アクティビティをダブルクリックしてプロパティを開き、「**[!UICONTROL ジャーニーアクションをウェーブで配信]**」オプションを選択します。
 
@@ -78,17 +79,13 @@ ht-degree: 1%
 
 ![](assets/journey-wave-percentage.png){width="70%"}
 
->[!NOTE]
->
->すべてのウェーブの合計が 100% になる必要があります。 これに該当しない場合は、警告メッセージが表示されます。<!--are the waves actually sent or does the system prevent user from saving the journey?-->
-
 **[!UICONTROL 数値]** を選択して、各ウェーブのサイズをプロファイルの絶対数として定義します（例：10,000、50,000）。
 
 ![](assets/journey-wave-numbers.png){width="70%"}
 
 >[!NOTE]
->
->数値を使用する場合、システムでは、合計がオーディエンス全体に及ぶことは検証されません。ウェーブサイズが、送信先のオーディエンスに及ぶことを確認する必要があります。 詳しくは、[&#x200B; よくある質問 &#x200B;](#faq) を参照してください。
+>* 割合を使用する場合は、すべてのウェーブの合計が 100% である必要があります。 そうでない場合は、警告が表示されます。
+>* 数値を使用する場合、システムはカバレッジを検証しません。ウェーブサイズが対象オーディエンスをカバーしていることを確認します。 [詳細情報](#faq)
 
 ### カスタムスケジュール {#custom-schedule}
 
@@ -133,4 +130,4 @@ Wave 送信は、送信するメッセージのタイミングと数を制御す
 
 ## 関連トピック {#see-also}
 
-* [&#x200B; ジャーニーでのオーディエンスの使用 &#x200B;](read-audience.md) - オーディエンスを読み取りアクティビティを設定します。
+* [ ジャーニーでのオーディエンスの使用 ](read-audience.md) - オーディエンスを読み取りアクティビティを設定します。
