@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 待機, アクティビティ, ジャーニー, 次, キャンバス
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 58cabac978facef373c6cadee0c8fc0963785df8
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 98%
+source-wordcount: '890'
+ht-degree: 86%
 
 ---
 
@@ -88,21 +88,15 @@ Select the date for the execution of the next activity.
 ベストプラクティスは、プロファイルに固有のカスタム日付を使用し、すべてに同じ日付を使用しないことです。例えば、`toDateTimeOnly('2024-01-01T01:11:00Z')` ではなく、各プロファイルに固有の `toDateTimeOnly(@event{Event.productDeliveryDate})` を定義します。固定日付を使用すると、ジャーニーの実行に問題が生じる可能性があります。待機アクティビティがジャーニーの処理率に与える影響について詳しくは、[この節](entry-management.md#wait-activities-impact)を参照してください。
 
 
->[!NOTE]
->
->`dateTimeOnly` 式を利用するか、関数を使用して `dateTimeOnly` に変換することができます。例えば、`toDateTimeOnly(@event{Event.offerOpened.activity.endTime})` では、イベント内のフィールドが 2023-08-12T09:46:06Z の形式になります。
->
->ジャーニーのプロパティには&#x200B;**タイムゾーン**&#x200B;が必要です。そのため、ユーザーインターフェイスから、時刻とタイムゾーンのオフセットを組み合わせた、完全な ISO-8601 タイムスタンプ（2023-08-12T09:46:06.982-05 など）を直接指定することはできません。[詳細情報](../building-journeys/timezone-management.md)
-
 >[!CAUTION]
 >
->`toDateTimeOnly()` を使用してカスタム待機式を作成する際は、式の結果に「Z」またはタイムゾーンオフセット（例：「-05:00」）の追加を回避します。式では、明示的なタイムゾーン指定子なしで、ジャーニーの設定済みタイムゾーンを参照する有効な ISO 日時構文を使用する必要があります。
+>`dateTimeOnly` 式を利用するか、関数を使用して `dateTimeOnly` に変換することができます。例：「`toDateTimeOnly(@event{Event.offerOpened.activity.endTime})`」の場合、イベント内のフィールドは「2023-08-12T09:46:06Z」の形式になります。 ジャーニーのプロパティには **タイムゾーン** が必要なので、UI から直接、時刻とタイムゾーンオフセットを組み合わせた完全な ISO-8601 タイムスタンプ（2023-08-12T09:46:06.982-05 など）を指定することはできません。 [詳細情報](../building-journeys/timezone-management.md)
+>
+>`toDateTimeOnly()` を使用してカスタム待機式を作成する場合は、結果に「Z」やタイムゾーンオフセット（「–05:00」など）を追加しないでください。 式では、明示的なタイムゾーン識別子を使用せずに、ジャーニーで設定されたタイムゾーンを参照する有効な ISO 日付/時間構文を使用する必要があります。そうしないと、プロファイルが待機アクティビティで動かなくなる可能性があります。
 >
 >**正しい例：** `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00"))`
 >
 >**正しくない例：** `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00Z"))` ❌（「Z」を含む）
->
->サポートされていないタイムゾーン指定子を使用すると、プロファイルが期待どおりに進まず、待機アクティビティで停止したままになる場合があります。
 
 待機アクティビティが期待どおりに動作することを検証するには、ステップイベントを使用できます。[詳細情報](../reports/query-examples.md#common-queries)
 
