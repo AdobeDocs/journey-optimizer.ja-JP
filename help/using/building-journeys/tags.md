@@ -34,7 +34,7 @@ Journey Optimizerの **タグカテゴリ** の方が、より優れた代替手
 * **明確さ** - ジャーニー名は、マイルストーンに焦点を当てた短い名前のままです。
 * **スケーラビリティ** – 新しいメタデータディメンションの追加は、命名規則を書き換えるのではなく、新しいタグカテゴリを作成することを意味します。
 
-推奨されるセットアップワークフローについては、以下の [ ジャーニー管理用のタグカテゴリの設定 ](#tags-setup) を参照してください。
+推奨されるセットアップワークフローについては、以下の [&#x200B; ジャーニー管理用のタグカテゴリの設定 &#x200B;](#tags-setup) を参照してください。
 
 ## ジャーニーへのタグの追加
 
@@ -92,4 +92,4 @@ Journey Optimizerの **タグカテゴリ** の方が、より優れた代替手
 
 >[!TIP]
 >
->このアプローチとその利点について詳しくは、[Journey Optimizerの高度なジャーニーのベストプラクティス ](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"} を参照してください。
+>このアプローチとその利点について詳しくは、[Journey Optimizerの高度なジャーニーのベストプラクティス &#x200B;](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"} を参照してください。
