@@ -167,7 +167,7 @@ ht-degree: 95%
 >
 >**[!UICONTROL プッシュ通知設定]**&#x200B;は編集できません。チャネル設定がプッシュ通知チャネル用にのみ設定されている場合は、編集できません。
 >
->メール設定を編集する際に、新しい [ プロファイル属性 ](../personalization/personalization-build-expressions.md#sources) をヘッダーパラメーターに追加することはできません。 [ 新規チャネル設定 ](#create-channel-surface) を作成する必要があります。
+>メール設定を編集する際に、新しい [&#x200B; プロファイル属性 &#x200B;](../personalization/personalization-build-expressions.md#sources) をヘッダーパラメーターに追加することはできません。 [&#x200B; 新規チャネル設定 &#x200B;](#create-channel-surface) を作成する必要があります。
 
 1. リストでチャネル設定名をクリックして開きます。
 

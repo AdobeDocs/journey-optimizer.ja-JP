@@ -126,7 +126,7 @@ ht-degree: 98%
     Capital letters are not allowed in subdomains. TBC by PM
 -->
 
-    >[!メモ]
+    >[ !メモ]
     >
     >DNS プロバイダーを使用して新しいサブドメインを作成したら、アドビへのデリゲーションを試みる前に DNS の生成に 24～48 時間かかります。
 
