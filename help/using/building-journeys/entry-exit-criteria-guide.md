@@ -208,7 +208,7 @@ ht-degree: 92%
 
 **チュートリアルと例**
 
-[ジャーニーのユースケース](jo-use-cases.md) | [カスタマーオンボーディングビデオ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [放棄された買い物かごビデオ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [コミュニティブログ：エントリ条件と終了条件](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958)
+[ジャーニーのユースケース](jo-use-cases.md) | [カスタマーオンボーディングビデオ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [放棄された買い物かごビデオ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [コミュニティブログ：エントリ条件と終了条件](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958?profile.language=ja)
 
 **関連機能**
 
