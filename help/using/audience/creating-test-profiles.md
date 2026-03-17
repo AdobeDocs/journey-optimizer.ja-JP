@@ -47,7 +47,7 @@ ht-degree: 91%
 1. スキーマタイプ（例：**個人プロファイル**）を選択し、「**次へ**」をクリックします。
    ![「個人プロファイル」オプションを示すスキーマタイプの選択](assets/test-profiles-1.png)
 1. スキーマの名前を入力して、「**終了**」をクリックします。
-   ![ スキーマに名前を付けて保存ダイアログ](assets/test-profiles-1-bis.png)
+   ![&#x200B; スキーマに名前を付けて保存ダイアログ](assets/test-profiles-1-bis.png)
 1. 「**フィールドグループ**」セクションの左側で、「**追加**」をクリックして、適切なフィールドグループを選択します。「**プロファイルテストの詳細**」フィールドグループを必ず追加してください。
    ![「追加」ボタンを含む「フィールドグループ」セクション](assets/test-profiles-1-ter.png)
 完了したら、「**[!UICONTROL フィールドグループを追加]**」をクリックします。フィールドグループのリストが、スキーマの概要画面に表示されます。
@@ -174,7 +174,7 @@ Your journey will be composed of a **[!UICONTROL Read Audience]** and an **[!UIC
 1. プロファイルごとに 1 行追加し、各フィールドの値を入力します。
    ![サンプルテストプロファイルデータを含む CSV ファイル](assets/test-profiles-12.png)
 1. スプレッドシートを CSV ファイルとして保存します。カンマが区切り記号として使用されていることを確認します。
-1. [!DNL Adobe Experience Platform] **ワークフロー**を参照します。
+1. [!DNL Adobe Experience Platform] **ワークフロー**&#x200B;を参照します。
    ![Adobe Experience Platform のワークフローメニュー](assets/test-profiles-14.png)
 1. 「**CSV を XDM スキーマにマッピング**」を選択し、「**開始**」をクリックします。
    ![「CSV を XDM スキーマにマッピング」ワークフローオプション](assets/test-profiles-16.png)
