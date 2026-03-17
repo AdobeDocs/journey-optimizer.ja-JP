@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: fed12f5aa6149314fcaca90c1d5b72de4a4a7616
+source-git-commit: 4d62f9eedcf50f3ebaa2236b0a3286e7490c069c
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 91%
+source-wordcount: '1299'
+ht-degree: 84%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 91%
 
 既存のデータセットに JSON ファイルをアップロードできます。詳しくは、[データ取り込みのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=ja#add-data-to-dataset){target="_blank"}を参照してください。
 
-テストプロファイルの作成は、[!DNL Adobe Experience Platform] で通常のプロファイルを作成する場合と似ています。詳しくは、[リアルタイム顧客プロファイルのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target="_blank"}を参照してください。
+テストプロファイルの作成は、[!DNL Adobe Experience Platform] で通常のプロファイルを作成する場合と似ています。 詳しくは、[リアルタイム顧客プロファイルのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target="_blank"}を参照してください。
 
 ➡️ [テストプロファイルの作成方法については、このビデオをご覧ください](#video)テスト
 
@@ -35,7 +35,7 @@ ht-degree: 91%
 
 プロファイルを作成するには、まず Adobe [!DNL Journey Optimizer] でスキーマとデータセットを作成する必要があります。
 
-### スキーマの作成
+### スキーマの作成 {#create-schema}
 
 **スキーマを作成する**&#x200B;には、次の手順に従います。
 
@@ -44,11 +44,11 @@ ht-degree: 91%
    ![「スキーマを作成」ボタンを含むスキーマメニュー](assets/test-profiles-0.png)
 
 1. スキーマ作成オプションとして「**[!UICONTROL 標準]**」を選択します。
-1. スキーマタイプ（例：**個人プロファイル**）を選択し、「**次へ**」をクリックします。
+1. スキーマタイプ（例：**[!UICONTROL 個人プロファイル]**）を選択し、「**次へ**」をクリックします。
    ![「個人プロファイル」オプションを示すスキーマタイプの選択](assets/test-profiles-1.png)
 1. スキーマの名前を入力して、「**終了**」をクリックします。
-   ![&#x200B; スキーマに名前を付けて保存ダイアログ](assets/test-profiles-1-bis.png)
-1. 「**フィールドグループ**」セクションの左側で、「**追加**」をクリックして、適切なフィールドグループを選択します。「**プロファイルテストの詳細**」フィールドグループを必ず追加してください。
+   ![ スキーマに名前を付けて保存ダイアログ](assets/test-profiles-1-bis.png)
+1. 「**フィールドグループ**」セクションの左側で、「**追加**」をクリックして、適切なフィールドグループを選択します。「**[!UICONTROL プロファイルテストの詳細]**」フィールドグループを必ず追加してください。
    ![「追加」ボタンを含む「フィールドグループ」セクション](assets/test-profiles-1-ter.png)
 完了したら、「**[!UICONTROL フィールドグループを追加]**」をクリックします。フィールドグループのリストが、スキーマの概要画面に表示されます。
    ![フィールドグループリストを含むスキーマの概要](assets/test-profiles-2.png)
@@ -65,9 +65,7 @@ ht-degree: 91%
    ![「プロファイル」オプションが有効になっているスキーマのプロパティパネル](assets/test-profiles-5.png)
 1. 「**保存**」をクリックします。
 
->[!NOTE]
->
->スキーマ作成の詳細については、[XDM のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=ja#prerequisites){target="_blank"}を参照してください。
+スキーマの作成について詳しくは、[XDM のドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=ja#prerequisites){target="_blank"} を参照してください。
 
 >[!IMPORTANT]
 >
@@ -79,7 +77,7 @@ ht-degree: 91%
 >1. プライマリ ID フィールドに、名前空間に適した ID 記述子があることを確認します（上記の手順 6～7 を参照）。
 >1. 記述子がない場合は、スキーマを更新して ID 記述子を追加し、データを再度取り込みます。
 
-### データセットの作成
+### データセットの作成 {#create-dataset}
 
 次に、プロファイルのインポート先となる&#x200B;**データセットを作成**&#x200B;する必要があります。次の手順に従います。
 
@@ -98,7 +96,7 @@ ht-degree: 91%
 >
 > データセットの作成について詳しくは、[カタログサービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ja#getting-started){target="_blank"}を参照してください。
 
-## 製品内のユースケース{#use-case-1}
+## 製品内のユースケース {#use-case-1}
 
 [!DNL Adobe Journey Optimizer] のホームページから、製品内ユースケースのテストプロファイルを活用できます。このユースケースは、公開前にジャーニーのテストに使用するテストプロファイルの作成を容易にします。
 
@@ -121,6 +119,7 @@ ht-degree: 91%
    1. **性別**：テストプロファイルの性別。指定可能な値は、**male**、**female**、**non_specified**&#x200B;です。
 
 ID 名前空間を選択し、上記の形式に基づいて CSV ファイルを指定したら、右上の「**[!UICONTROL 実行]**」ボタンを選択します。このユースケースは、完了するまで数分かかる場合があります。ユースケースがテストプロファイルの処理と作成を完了すると、ユーザーに通知が送信されます。
+
 >[!NOTE]
 >
 >テストプロファイルは、既存のプロファイルを上書きする場合があります。ユースケースを実行する前に、CSV にテストプロファイルのみが含まれ、正しいサンドボックスに対して実行されていることを確認してください。
@@ -164,19 +163,19 @@ Your journey will be composed of a **[!UICONTROL Read Audience]** and an **[!UIC
     > For more information on the **[!UICONTROL Update Profile]** activity, refer to [this section](../building-journeys/update-profiles.md).
 -->
 
-## CSV ファイルを使用したテストプロファイルの作成{#create-test-profiles-csv}
+## CSV ファイルを使用したテストプロファイルの作成 {#create-test-profiles-csv}
 
 [!DNL Adobe Experience Platform] では、様々なプロファイルフィールドを含む CSV ファイルをデータセットにアップロードして、プロファイルを作成できます。これが最も簡単なメソッドです。
 
 1. スプレッドシートソフトウェアを使用して、単純な CSV ファイルを作成します。
-1. 必要な各フィールドごとに 1 列ずつ追加します。プライマリ ID フィールド（上記の例では「personID」）を追加し、「testProfile」フィールドを「true」に設定するようにしてください。
+1. 必要な各フィールドごとに 1 列ずつ追加します。プライマリ ID フィールド（上記の例では `personID`）を追加し、`testProfile` フィールドが `true` に設定されていることを確認します。
    ![personID および testProfile を含む列ヘッダーを持つ CSV ファイル](assets/test-profiles-11.png)
 1. プロファイルごとに 1 行追加し、各フィールドの値を入力します。
    ![サンプルテストプロファイルデータを含む CSV ファイル](assets/test-profiles-12.png)
 1. スプレッドシートを CSV ファイルとして保存します。カンマが区切り記号として使用されていることを確認します。
-1. [!DNL Adobe Experience Platform] **ワークフロー**&#x200B;を参照します。
+1. [!DNL Adobe Experience Platform] **ワークフロー**を参照します。
    ![Adobe Experience Platform のワークフローメニュー](assets/test-profiles-14.png)
-1. 「**CSV を XDM スキーマにマッピング**」を選択し、「**開始**」をクリックします。
+1. 「**[!UICONTROL CSV を XDM スキーマにマッピング]**」を選択し、「**開始**」をクリックします。
    ![「CSV を XDM スキーマにマッピング」ワークフローオプション](assets/test-profiles-16.png)
 1. プロファイルの読み込み先となるデータセットを選択します。「**次へ**」をクリックします。
    ![CSV インポート用のデータセット選択画面](assets/test-profiles-17.png)
@@ -199,9 +198,10 @@ Your journey will be composed of a **[!UICONTROL Read Audience]** and an **[!UIC
 
 また、API 呼び出しを使用してテストプロファイルを作成することもできます。詳しくは、[[!DNL Adobe Experience Platform] ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target="_blank"}を参照してください。
 
-「プロファイルテストの詳細」フィールドグループを含むプロファイルスキーマを使用する必要があります。testProfile フラグは、このフィールドグループの一部です。プロファイルを作成する場合は、次の値を渡す必要があります：testProfile = true
+**[!UICONTROL プロファイルテストの詳細]** フィールドグループを含むプロファイルスキーマを使用する必要があります。 `testProfile` フラグは、このフィールドグループの一部です。
+プロファイルを作成する場合は、次の値を渡す必要があります。`testProfile = true`
 
-既存のプロファイルを更新して、testProfile フラグを「true」に変更することもできます。
+また、既存のプロファイルを更新して、`testProfile` フラグを `true` に変更することもできます。
 
 テストプロファイルを作成するための API 呼び出しの例を以下に示します。
 
@@ -251,4 +251,4 @@ curl -X POST \
 
 テストプロファイルを作成する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416426?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334236?quality=12)
