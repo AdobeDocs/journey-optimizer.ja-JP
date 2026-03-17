@@ -9,10 +9,10 @@ level: Intermediate
 keywords: エントリ, 終了, 条件, ジャーニー, プロファイル, 再エントリ, ベストプラクティス
 version: Journey Orchestration
 exl-id: e879a0f6-b969-4de0-a733-f2880d58d59b
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 8c778ff99d7d32819630d704c42199a5bfbec0f1
 workflow-type: tm+mt
-source-wordcount: '1550'
-ht-degree: 94%
+source-wordcount: '1560'
+ht-degree: 92%
 
 ---
 
@@ -100,9 +100,9 @@ ht-degree: 94%
 
 **次に、エントリー条件について知っておく必要のあるすべての事項について説明します。**
 
-* **[イベントベースのトリガー](../event/about-events.md)**：「プロファイルの作成」、「トランザクションの完了」などのイベントやカスタムイベントを使用して、ジャーニーを開始します。[&#x200B; 管理 &#x200B;](../event/about-creating.md)/**[!UICONTROL イベント]** で **[!UICONTROL イベントを設定]** し、[&#x200B; イベントスキーマとフィールド &#x200B;](../event/experience-event-schema.md) を定義します。 次に、**[!UICONTROL ジャーニーデザイナー]** の [&#x200B; イベント &#x200B;](using-the-journey-designer.md) パレットからイベントを追加します。
+* **[イベントベースのトリガー](../event/about-events.md)**：「プロファイルの作成」、「トランザクションの完了」などのイベントやカスタムイベントを使用して、ジャーニーを開始します。[ 管理 ](../event/about-creating.md)/**[!UICONTROL イベント]** で **[!UICONTROL イベントを設定]** し、[ イベントスキーマとフィールド ](../event/experience-event-schema.md) を定義します。 次に、**[!UICONTROL ジャーニーデザイナー]** の [ イベント ](using-the-journey-designer.md) パレットからイベントを追加します。
 
-* **[オーディエンスベースのエントリ](read-audience.md)**：特定のオーディエンスに属するプロファイルへのジャーニーを、1 回限りのバッチとして、または繰り返しスケジュールでターゲットにします。 **[!UICONTROL オーディエンス]**&#x200B;メニューで[オーディエンスを作成](../audience/creating-a-segment-definition.md)し、**[!UICONTROL オーディエンスを読み取り]**&#x200B;アクティビティを追加して、[スケジュールを設定](journey-properties.md#schedule)します。
+* **[オーディエンスベースのエントリ](read-audience.md)**：特定のオーディエンスに属するプロファイルへのジャーニーを、1 回限りのバッチとして、または繰り返しスケジュールでターゲットにします。 [ オーディエンスを作成 ](../audience/creating-a-segment-definition.md)**[!UICONTROL オーディエンス]** メニューで **[!UICONTROL オーディエンスを読み取り]** アクティビティを追加して [ スケジュールを設定 ](journey-properties.md#schedule) します。 エントリ後、条件を使用して [ ブランチのセグメント、除外またはマージ ](read-audience.md#audience-targeting-in-journeys) を行います。
 
 * **[オーディエンスの選定エントリ](audience-qualification-events.md)**：プロファイルが特定のオーディエンスを選定するか、特定のオーディエンスから退出した際に、リアルタイムでジャーニーをトリガーします。[ストリーミングオーディエンス](../audience/about-audiences.md)を定義し、**[!UICONTROL イベント]**&#x200B;パレットから&#x200B;**[!UICONTROL オーディエンスの選定]**&#x200B;イベントを追加して、トリガータイプを選択します。
 
@@ -146,7 +146,7 @@ ht-degree: 94%
 
 >[!TIP]
 >
->その他のパターンと実装については、[ジャーニーユースケースライブラリ &#x200B;](jo-use-cases.md) で利用可能なすべてのユースケースを参照してください。 例としては、[&#x200B; 配信を増やす &#x200B;](ramp-up-deliveries-uc.md)、[&#x200B; エクスペリエンスイベントパターン &#x200B;](exp-event-lookup.md)、[&#x200B; ライブジャーニーからのプロファイルの削除 &#x200B;](journey-pause.md#apply-an-exit-criteria-in-a-paused-journey) などがあります。
+>その他のパターンと実装については、[ジャーニーユースケースライブラリ ](jo-use-cases.md) で利用可能なすべてのユースケースを参照してください。 例としては、[ 配信を増やす ](ramp-up-deliveries-uc.md)、[ エクスペリエンスイベントパターン ](exp-event-lookup.md)、[ ライブジャーニーからのプロファイルの削除 ](journey-pause.md#apply-an-exit-criteria-in-a-paused-journey) などがあります。
 
 ## エントリと終了を管理するためのベストプラクティス {#best-practices}
 
@@ -208,7 +208,7 @@ ht-degree: 94%
 
 **チュートリアルと例**
 
-[ジャーニーのユースケース](jo-use-cases.md) | [カスタマーオンボーディングビデオ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [放棄された買い物かごビデオ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [コミュニティブログ：エントリ条件と終了条件](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958?profile.language=ja)
+[ジャーニーのユースケース](jo-use-cases.md) | [カスタマーオンボーディングビデオ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [放棄された買い物かごビデオ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [コミュニティブログ：エントリ条件と終了条件](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958)
 
 **関連機能**
 
