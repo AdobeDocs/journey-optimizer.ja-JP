@@ -21,7 +21,7 @@ ht-degree: 97%
 
 ## ガードレールと制限 {#guardrails}
 
-* **Healthcare Shield または Privacy and Security Shield** - オーディエンス構成からのオーディエンスおよび属性は現在、Healthcare Shield または Privacy and Security Shield では使用できません。[ [!DNL Journey Optimizer]](../audience/about-audiences.md#enrichment) でのオーディエンスのエンリッチメント属性の使用方法の詳細情報
+* **Healthcare Shield または Privacy and Security Shield** - オーディエンス構成からのオーディエンスおよび属性は現在、Healthcare Shield または Privacy and Security Shield では使用できません。[&#x200B; [!DNL Journey Optimizer]](../audience/about-audiences.md#enrichment) でのオーディエンスのエンリッチメント属性の使用方法の詳細情報
 
 * **カスタムアップロードと連合オーディエンス構成** - カスタムアップロードと連合オーディエンス構成オーディエンスの場合は、次のガードレールに注意してください。
 
@@ -49,7 +49,7 @@ ht-degree: 97%
 
 * ジャーニーの&#x200B;**オーディエンスを読み取り**&#x200B;オーケストレーションアクティビティを使用して、オーディエンス内のすべての個人をジャーニーにエントリさせ、ジャーニーに含まれるメッセージを受け取らせます。「シルバー顧客」オーディエンスがあるとします。このアクティビティを使用すると、すべてのシルバー顧客をジャーニーにエントリさせることができます。その後、一連のパーソナライズされたメッセージを送信できます。[詳しくは、「オーディエンスを読み取り」アクティビティの設定方法を参照してください](../building-journeys/read-audience.md#configuring-segment-trigger-activity)。
 
-  入力後に **条件** アクティビティを使用して [ 属性または動作でセグメント化、母集団の一部の除外、または分岐の結合 ](../building-journeys/read-audience.md#audience-targeting-in-journeys) します。
+  入力後に **条件** アクティビティを使用して [&#x200B; 属性または動作でセグメント化、母集団の一部の除外、または分岐の結合 &#x200B;](../building-journeys/read-audience.md#audience-targeting-in-journeys) します。
 
   オーディエンス構成またはカスタムアップロードからのオーディエンスを使用するジャーニーの場合、プロファイル属性はジャーニーエントリ時の最後のバッチ評価と同じくらい新しくなります。ただし、**待機**&#x200B;アクティビティの後、ジャーニーは統合プロファイルサービス（UPS）からプロファイル属性を更新し、使用可能な最新のデータを取得します。つまり、ジャーニーの実行中にプロファイル属性が変更される場合があります。[待機アクティビティ後のプロファイル更新の詳細情報](../building-journeys/wait-activity.md#profile-refresh)
 
