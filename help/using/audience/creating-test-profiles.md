@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: e6395120223a0e87ef3557c9f5d7e2af84462968
+source-git-commit: fed12f5aa6149314fcaca90c1d5b72de4a4a7616
 workflow-type: tm+mt
-source-wordcount: '1202'
-ht-degree: 76%
+source-wordcount: '1313'
+ht-degree: 91%
 
 ---
 
@@ -23,11 +23,11 @@ ht-degree: 76%
 >
 >[!DNL Journey Optimizer] を使用すると、CSV／JSON ファイルからアップロードした、または手動で追加したサンプル入力データを使用してコンテンツをプレビューし、配達確認を送信することで、コンテンツの様々なバリアントをテストできます。[詳しくは、サンプル入力データを使用してコンテンツをテストする方法を参照してください。](../test-approve/simulate-sample-input.md)
 
-[CSV ファイルをアップロード &#x200B;](#create-test-profiles-csv) または [API 呼び出し &#x200B;](#create-test-profiles-api) を使用して、テストプロファイルを作成できます。 [!DNL Adobe Journey Optimizer] た、テストプロファイルを容易に作成できる特定の [&#x200B; 製品内ユースケース &#x200B;](#use-case-1) も用意されています。
+[CSV ファイルをアップロード](#create-test-profiles-csv)するか、[API 呼び出し](#create-test-profiles-api)を使用して、テストプロファイルを作成できます。また、[!DNL Adobe Journey Optimizer] には、テストプロファイルの作成を容易にする特定の[製品内ユースケース](#use-case-1)も用意されています。
 
 既存のデータセットに JSON ファイルをアップロードできます。詳しくは、[データ取り込みのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=ja#add-data-to-dataset){target="_blank"}を参照してください。
 
-テストプロファイルの作成は、[!DNL Adobe Experience Platform] での通常のプロファイルの作成と似ていることに注意してください。 詳しくは、[リアルタイム顧客プロファイルのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target="_blank"}を参照してください。
+テストプロファイルの作成は、[!DNL Adobe Experience Platform] で通常のプロファイルを作成する場合と似ています。詳しくは、[リアルタイム顧客プロファイルのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target="_blank"}を参照してください。
 
 ➡️ [テストプロファイルの作成方法については、このビデオをご覧ください](#video)テスト
 
@@ -39,51 +39,60 @@ ht-degree: 76%
 
 **スキーマを作成する**&#x200B;には、次の手順に従います。
 
-1. 「データ管理」メニューセクションで、「**[!UICONTROL スキーマ]**」をクリックし、「**[!UICONTROL スキーマを作成]**」ボタンを選択します。
+1. データ管理メニューセクションで、「**[!UICONTROL スキーマ]**」をクリックし、「**[!UICONTROL スキーマを作成]**」ボタンを選択します。
 
-   ![&#x200B; 「スキーマを作成」ボタンを含むスキーマメニュー &#x200B;](assets/test-profiles-0.png)
+   ![「スキーマを作成」ボタンを含むスキーマメニュー](assets/test-profiles-0.png)
 
-1. スキーマ作成オプションとして **[!UICONTROL 標準]** を選択します。
-1. スキーマタイプ（例：**個人プロファイル** を選択し、「次へ **をクリックし** す。
-   ![&#x200B; 個々のプロファイルオプションを表示するスキーマタイプ選択 &#x200B;](assets/test-profiles-1.png)
+1. スキーマ作成オプションとして「**[!UICONTROL 標準]**」を選択します。
+1. スキーマタイプ（例：**個人プロファイル**）を選択し、「**次へ**」をクリックします。
+   ![「個人プロファイル」オプションを示すスキーマタイプの選択](assets/test-profiles-1.png)
 1. スキーマの名前を入力して、「**終了**」をクリックします。
-   ![&#x200B; スキーマに名前を付けて保存ダイアログ &#x200B;](assets/test-profiles-1-bis.png)
+   ![ スキーマに名前を付けて保存ダイアログ](assets/test-profiles-1-bis.png)
 1. 「**フィールドグループ**」セクションの左側で、「**追加**」をクリックして、適切なフィールドグループを選択します。「**プロファイルテストの詳細**」フィールドグループを必ず追加してください。
-   ![&#x200B; 「追加」ボタンを含んだ「フィールドグループ」セクション &#x200B;](assets/test-profiles-1-ter.png)
+   ![「追加」ボタンを含む「フィールドグループ」セクション](assets/test-profiles-1-ter.png)
 完了したら、「**[!UICONTROL フィールドグループを追加]**」をクリックします。フィールドグループのリストが、スキーマの概要画面に表示されます。
-   ![&#x200B; フィールドグループリストを使用したスキーマの概要 &#x200B;](assets/test-profiles-2.png)
+   ![フィールドグループリストを含むスキーマの概要](assets/test-profiles-2.png)
 
    >[!NOTE]
    >
    >スキーマの名前をクリックして、そのプロパティを更新します。
 
 1. フィールドのリストで、プライマリ ID として定義するフィールドをクリックします。
-   ![&#x200B; プライマリ ID を選択するためのスキーマフィールドリスト &#x200B;](assets/test-profiles-3.png)
+   ![プライマリ ID を選択するためのスキーマフィールドリスト](assets/test-profiles-3.png)
 1. 右の&#x200B;**[!UICONTROL フィールドのプロパティ]**&#x200B;ペインで、「**[!UICONTROL ID]**」オプションと「**[!UICONTROL メイン ID]**」オプションをオンにし、名前空間を選択します。メールアドレスをプライマリ ID にする場合は、「**[!UICONTROL メール]**」名前空間を選択します。「**[!UICONTROL 適用]**」をクリックします。
-   ![&#x200B; 「ID」オプションと「プライマリ ID」オプションを含んだフィールドプロパティパネル &#x200B;](assets/test-profiles-4bis.png)
-1. スキーマを選択し、**[!UICONTROL スキーマのプロパティ]**&#x200B;ペインで「**[!UICONTROL プロファイル]** 」オプションを有効にします。
-
-   ![&#x200B; プロファイルオプションが有効になっているスキーマプロパティペイン &#x200B;](assets/test-profiles-5.png)
+   ![「ID」オプションと「プライマリ ID」オプションを含むフィールドのプロパティパネル](assets/test-profiles-4bis.png)
+1. スキーマを選択し、**[!UICONTROL スキーマのプロパティ]**&#x200B;ペインで「**[!UICONTROL プロファイル]**」オプションを有効にします。
+   ![「プロファイル」オプションが有効になっているスキーマのプロパティパネル](assets/test-profiles-5.png)
 1. 「**保存**」をクリックします。
 
 >[!NOTE]
 >
 >スキーマ作成の詳細については、[XDM のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=ja#prerequisites){target="_blank"}を参照してください。
 
+>[!IMPORTANT]
+>
+>テストプロファイル取り込み用のデータセットを作成または置き換える場合は、目的の名前空間に適した ID 記述子（`/personID` など）がプライマリ ID フィールドに適用されていることをスキーマで確認します。 ID 記述子がない場合や正しく設定されていない場合、取り込みプロセスが正常に完了しても、このデータセットに取り込まれたプロファイルは、テストプロファイル（`testProfile = true`）としてフラグ付けされません。
+>
+>取り込み後にテストプロファイルが正しくフラグ付けされない場合：
+>
+>1. データセットに関連付けられているスキーマを確認します。
+>1. プライマリ ID フィールドに、名前空間に適した ID 記述子があることを確認します（上記の手順 6～7 を参照）。
+>1. 記述子がない場合は、スキーマを更新して ID 記述子を追加し、データを再度取り込みます。
+
 ### データセットの作成
 
 次に、プロファイルのインポート先となる&#x200B;**データセットを作成**&#x200B;する必要があります。次の手順に従います。
 
 1. **[!UICONTROL データセット]**&#x200B;を参照し、「**[!UICONTROL データセットを作成]**」をクリックします。
-   ![&#x200B; データセットを作成ボタンを含んだデータセットメニュー &#x200B;](assets/test-profiles-6.png)
+   ![「データセットを作成」ボタンを含むデータセットメニュー](assets/test-profiles-6.png)
 1. 「**[!UICONTROL スキーマからデータセットを作成]**」を選択します。
-   ![&#x200B; 「スキーマからデータセットを作成」オプション &#x200B;](assets/test-profiles-7.png)
+   ![「スキーマからデータセットを作成」オプション](assets/test-profiles-7.png)
 1. 作成済みのスキーマを選択し、「**[!UICONTROL 次へ]**」をクリックします。
-   ![&#x200B; データセット作成用のスキーマ選択画面 &#x200B;](assets/test-profiles-8.png)
+   ![データセット作成用のスキーマ選択画面](assets/test-profiles-8.png)
 1. 名前を選択し、「**[!UICONTROL 終了]**」をクリックします。
-   ![&#x200B; データセットに名前を付けて完了ダイアログ &#x200B;](assets/test-profiles-9.png)
+   ![データセットに名前を付けて終了ダイアログ](assets/test-profiles-9.png)
 1. 「**[!UICONTROL プロファイル]**」オプションを有効にします。
-   ![&#x200B; プロファイルオプションが有効なデータセット設定 &#x200B;](assets/test-profiles-10.png)
+   ![「プロファイル」オプションが有効になっているデータセット設定](assets/test-profiles-10.png)
 
 >[!NOTE]
 >
@@ -91,9 +100,9 @@ ht-degree: 76%
 
 ## 製品内のユースケース{#use-case-1}
 
-のホ [!DNL Adobe Journey Optimizer] ムページから、製品内ユースケースのテストプロファイルを活用できます。 このユースケースは、公開前にジャーニーのテストに使用するテストプロファイルの作成を容易にします。
+[!DNL Adobe Journey Optimizer] のホームページから、製品内ユースケースのテストプロファイルを活用できます。このユースケースは、公開前にジャーニーのテストに使用するテストプロファイルの作成を容易にします。
 
-![&#x200B; ホームページのテストプロファイルのユースケースカード &#x200B;](assets/use-cases-home.png)
+![ホームページのテストプロファイルのユースケースカード](assets/use-cases-home.png)
 
 「**[!UICONTROL 開始]**」ボタンをクリックして、ユースケースを開始します。
 
@@ -157,28 +166,28 @@ Your journey will be composed of a **[!UICONTROL Read Audience]** and an **[!UIC
 
 ## CSV ファイルを使用したテストプロファイルの作成{#create-test-profiles-csv}
 
-[!DNL Adobe Experience Platform] では、様々なプロファイルフィールドを含む csv ファイルをデータセットにアップロードして、プロファイルを作成できます。 これが最も簡単なメソッドです。
+[!DNL Adobe Experience Platform] では、様々なプロファイルフィールドを含む CSV ファイルをデータセットにアップロードして、プロファイルを作成できます。これが最も簡単なメソッドです。
 
 1. スプレッドシートソフトウェアを使用して、単純な CSV ファイルを作成します。
-1. 各必須フィールドに 1 列ずつ追加します。 プライマリ ID フィールド（上記の例では「personID」）を追加し、「testProfile」フィールドを「true」に設定するようにしてください。
-   ![personID および testProfile を含む列ヘッダーを含む CSV ファイル &#x200B;](assets/test-profiles-11.png)
+1. 必要な各フィールドごとに 1 列ずつ追加します。プライマリ ID フィールド（上記の例では「personID」）を追加し、「testProfile」フィールドを「true」に設定するようにしてください。
+   ![personID および testProfile を含む列ヘッダーを持つ CSV ファイル](assets/test-profiles-11.png)
 1. プロファイルごとに 1 行追加し、各フィールドの値を入力します。
-   ![&#x200B; サンプルテストプロファイルデータを含んだ CSV ファイル &#x200B;](assets/test-profiles-12.png)
+   ![サンプルテストプロファイルデータを含む CSV ファイル](assets/test-profiles-12.png)
 1. スプレッドシートを CSV ファイルとして保存します。カンマが区切り記号として使用されていることを確認します。
-1. [!DNL Adobe Experience Platform] ワークフロー **を参照** ます。
-   ![Adobe Experience Platformのワークフローメニュー &#x200B;](assets/test-profiles-14.png)
+1. [!DNL Adobe Experience Platform] **ワークフロー**を参照します。
+   ![Adobe Experience Platform のワークフローメニュー](assets/test-profiles-14.png)
 1. 「**CSV を XDM スキーマにマッピング**」を選択し、「**開始**」をクリックします。
-   ![CSV を XDM スキーマワークフローオプションにマッピング &#x200B;](assets/test-profiles-16.png)
+   ![「CSV を XDM スキーマにマッピング」ワークフローオプション](assets/test-profiles-16.png)
 1. プロファイルの読み込み先となるデータセットを選択します。「**次へ**」をクリックします。
-   ![CSV 読み込み用のデータセット選択画面 &#x200B;](assets/test-profiles-17.png)
+   ![CSV インポート用のデータセット選択画面](assets/test-profiles-17.png)
 1. 「**ファイルを選択**」をクリックし、csv ファイルを選択します。ファイルをアップロードしたら、「**次へ**」をクリックします。
-   ![&#x200B; ファイルを選択ボタンを使用したファイルアップロード画面 &#x200B;](assets/test-profiles-18.png)
-1. ソース csv フィールドをスキーマフィールドにマッピングし、「**終了**」をクリックします。
-   ![&#x200B; ソースフィールドとターゲットフィールドを表示する CSV フィールドマッピングインターフェイス &#x200B;](assets/test-profiles-19.png)
+   ![「ファイルを選択」ボタンを含むファイルアップロード画面](assets/test-profiles-18.png)
+1. ソース CSV フィールドをスキーマフィールドにマッピングし、「**終了**」をクリックします。
+   ![ソースフィールドとターゲットフィールドを示す CSV フィールドマッピングインターフェイス](assets/test-profiles-19.png)
 1. データの読み込みが開始します。ステータスが「**処理中**」から「**成功**」に変わります。右上の「**データセットのプレビュー**」をクリックします。
-   ![&#x200B; 「データセットをプレビュー」ボタンを使用した成功を示すインポートステータス &#x200B;](assets/test-profiles-20.png)
+   ![「データセットのプレビュー」ボタンを含む成功を示すインポートステータス](assets/test-profiles-20.png)
 1. テストプロファイルが正しく追加されていることを確認します。
-   ![&#x200B; 読み込まれたテストプロファイルを示すデータセットプレビュー &#x200B;](assets/test-profiles-21.png)
+   ![インポートされたテストプロファイルを示すデータセットのプレビュー](assets/test-profiles-21.png)
 
 テストプロファイルが追加され、ジャーニーのテストで使用できるようになりました。[この節](../building-journeys/testing-the-journey.md)を参照してください。
 
@@ -188,7 +197,7 @@ Your journey will be composed of a **[!UICONTROL Read Audience]** and an **[!UIC
 
 ## API 呼び出しを使用したテストプロファイルの作成{#create-test-profiles-api}
 
-また、API 呼び出しを使用してテストプロファイルを作成することもできます。詳しくは、[[!DNL Adobe Experience Platform]  ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target="_blank"} を参照してください。
+また、API 呼び出しを使用してテストプロファイルを作成することもできます。詳しくは、[[!DNL Adobe Experience Platform] ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target="_blank"}を参照してください。
 
 「プロファイルテストの詳細」フィールドグループを含むプロファイルスキーマを使用する必要があります。testProfile フラグは、このフィールドグループの一部です。プロファイルを作成する場合は、次の値を渡す必要があります：testProfile = true
 
@@ -242,4 +251,4 @@ curl -X POST \
 
 テストプロファイルを作成する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416426?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334236?quality=12)
