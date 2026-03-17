@@ -9,9 +9,9 @@ role: User
 level: Beginner, Intermediate
 keywords: リンク, トラッキング, 監視, メール
 exl-id: 689e630a-00ca-4893-8bf5-6d1ec60c52e7
-source-git-commit: df3ae62439882bd4b1f5f00e9c24d341f83b8df9
+source-git-commit: 4a78734dc7f9fafd1e8c64aab310cb130ffd928f
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1513'
 ht-degree: 89%
 
 ---
@@ -49,11 +49,11 @@ ht-degree: 89%
 * **[!UICONTROL メール開封数]**&#x200B;指標は、開封されたメッセージの数を確認します。
 * **[!UICONTROL メールのクリック数]**&#x200B;指標は、メール内のリンクのクリック数を計算します。
 
-## リンクの挿入 {#insert-links}
+### 複数のメールをまたいだトラッキング {#track-across-multiple-emails}
 
-[トラッキングが有効](#enable-tracking)になっている場合、メッセージコンテンツに含まれるすべてのリンクがトラッキングされます。
+一意のトラッキング識別子（urlID）は、**URL** と **label** の両方が一意の場合にのみ生成されます。 同じ URL を共有し、同じ有効ラベルを持つリンク（ラベルが空白の場合を含む）は、同じ urlID を再利用します。つまり、クリックされたリンクを把握できません。
 
-一意のトラッキング識別子（urlID）は、**URL** と **label** の両方が一意の場合にのみ生成されます。 同じ URL を共有し、同じ有効ラベルを持つリンク（ラベルが空白の場合を含む）は、同じ urlID を再利用します。つまり、クリックされたリンクを把握できません。 複数のメール（または 1 つのメールに複数回）で同じ URL を追跡するには、類似した URL ごとに一意のラベルを使用します。使用しない [!DNL Journey Optimizer]、クリックされたリンクを追跡できません。 メールDesigner、またはHTMLの場合は `data-label` 属性を使用して、個別のラベルを設定できます。
+複数のメール（または 1 つのメールに複数回）で同じ URL を追跡するには、類似した URL ごとに一意のラベルを使用します。使用しない [!DNL Journey Optimizer]、クリックされたリンクを追跡できません。 メールDesigner、またはHTMLの場合は `data-label` 属性を使用して、個別のラベルを設定できます。
 
 | URL | タグ | ラベル | urlID の動作 |
 |-----|-----|-------|----------------|
@@ -61,6 +61,10 @@ ht-degree: 89%
 | www.example.com | Second | (空) | urlID A を再利用 – どのリンクがクリックされたかを識別できない |
 | www.example.com | 第 3 | 最初のラベル | urlID を取得します（例：B） |
 | www.example.com | 第 4 | 2 番目のラベル | urlID を取得します（例：C） |
+
+## リンクの挿入 {#insert-links}
+
+[トラッキングが有効](#enable-tracking)になっている場合、メッセージコンテンツに含まれるすべてのリンクがトラッキングされます。
 
 >[!NOTE]
 >
@@ -108,7 +112,7 @@ ht-degree: 89%
 
 >[!CAUTION]
 >
->ボタンの **label** と **URL** の両方を [&#x200B; カスタマイズ可能なフラグメント &#x200B;](../content-management/customizable-fragments.md) で編集可能にすると、トラッキングレポートには、ボタンラベルではなく URL が表示されます。
+>ボタンの **label** と **URL** の両方を [ カスタマイズ可能なフラグメント ](../content-management/customizable-fragments.md) で編集可能にすると、トラッキングレポートには、ボタンラベルではなく URL が表示されます。
 
 ## ミラーページへのリンク {#mirror-page}
 
