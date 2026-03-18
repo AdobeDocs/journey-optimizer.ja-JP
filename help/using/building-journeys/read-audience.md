@@ -19,7 +19,7 @@ ht-degree: 61%
 
 # ジャーニーでのオーディエンスの使用 {#segment-trigger-activity}
 
-オーディエンスを読み取りアクティビティを使用すると、定義済みのオーディエンスでジャーニーを開始できます。 オーディエンスとその実行時を選択したあと、[ 条件 ](#audience-targeting-in-journeys)、タイマー、アクションを使用して、各プロファイルのパスをパーソナライズします。
+オーディエンスを読み取りアクティビティを使用すると、定義済みのオーディエンスでジャーニーを開始できます。 オーディエンスとその実行時を選択したあと、[&#x200B; 条件 &#x200B;](#audience-targeting-in-journeys)、タイマー、アクションを使用して、各プロファイルのパスをパーソナライズします。
 
 ## オーディエンスを読み取りアクティビティについて {#about-segment-trigger-activity}
 
@@ -38,11 +38,11 @@ ht-degree: 61%
 | オーディエンスはバッチ評価されます（毎日のスナップショットなど）。 | オーディエンスはストリーミングまたはイベントベースです。 |
 | オーディエンスの評価とジャーニーのエントリの間に遅延があっても問題ありません。 | プロファイルが適合したらすぐに入力する必要があります。 |
 
-**キー制限：** ジャーニーごとに 1 つの読み取りオーディエンス（最初のアクティビティである必要があります）、アクティビティごとに 1 つのオーディエンス、1 組織あたり最大 5 つの同時オーディエンスの読み取り実行、サンドボックスごとに 1 秒あたり 20,000 個のプロファイル、12 時間のジョブタイムアウト。 詳しくは、[ ガードレールと制限 ](../start/guardrails.md#read-segment-g) を参照してください。
+**キー制限：** ジャーニーごとに 1 つの読み取りオーディエンス（最初のアクティビティである必要があります）、アクティビティごとに 1 つのオーディエンス、1 組織あたり最大 5 つの同時オーディエンスの読み取り実行、サンドボックスごとに 1 秒あたり 20,000 個のプロファイル、12 時間のジョブタイムアウト。 詳しくは、[&#x200B; ガードレールと制限 &#x200B;](../start/guardrails.md#read-segment-g) を参照してください。
 
-**前提条件：** 構築および評価される [!DNL Adobe Experience Platform] オーディエンス（実現ステータス）、ジャーニー用に選択されたユーザーベースの ID 名前空間、繰り返し実行の場合 [ スケジュールとスループットの制限 ](../start/guardrails.md#read-segment-g) の理解。
+**前提条件：** 構築および評価される [!DNL Adobe Experience Platform] オーディエンス（実現ステータス）、ジャーニー用に選択されたユーザーベースの ID 名前空間、繰り返し実行の場合 [&#x200B; スケジュールとスループットの制限 &#x200B;](../start/guardrails.md#read-segment-g) の理解。
 
-例えば、`Luma app opening and checkout` オーディエンスを作成 [ ユースケースで作成した ](../audience/about-audiences.md) オーディエンスは、エントリポイントとして使用できます。 すべての認定プロファイルは、条件、タイマー、イベント、アクションを使用して、ジャーニーにエントリし、個別のパスを進めます。
+例えば、`Luma app opening and checkout` オーディエンスを作成 [&#x200B; ユースケースで作成した &#x200B;](../audience/about-audiences.md) オーディエンスは、エントリポイントとして使用できます。 すべての認定プロファイルは、条件、タイマー、イベント、アクションを使用して、ジャーニーにエントリし、個別のパスを進めます。
 
 ➡️ [この機能をビデオで確認](#video)
 
@@ -82,13 +82,13 @@ ht-degree: 61%
 
    >[!NOTE]
    >
-   >さらに、[!DNL Adobe Experience Platform] オーディエンスコンポジション [ を使用して作成された ](../audience/get-started-audience-orchestration.md) つのオーディエンスをターゲットにすることができます。
-   >また、オーディエンスをターゲット [CSV ファイルからアップロード ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#import-audience){target="_blank"} することもできます。
+   >さらに、[!DNL Adobe Experience Platform] オーディエンスコンポジション [&#x200B; を使用して作成された &#x200B;](../audience/get-started-audience-orchestration.md) つのオーディエンスをターゲットにすることができます。
+   >また、オーディエンスをターゲット [CSV ファイルからアップロード &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#import-audience){target="_blank"} することもできます。
    >[Journey Optimizer でオーディエンスを生成およびターゲットにする方法の詳細情報](../audience/about-audiences.md)。
 
    リストに表示される列は、カスタマイズして並べ替えることができます。
 
-   ![ 使用可能なオーディエンスを表示するオーディ [!DNL Adobe Experience Platform] ンス選択インターフェイス ](assets/read-segment-selection.png)
+   ![&#x200B; 使用可能なオーディエンスを表示するオーディ [!DNL Adobe Experience Platform] ンス選択インターフェイス &#x200B;](assets/read-segment-selection.png)
 
    オーディエンスが追加されると、「**[!UICONTROL コピー]**」ボタンを使用して、オーディエンスの名前と ID をコピーできます。
 
@@ -110,15 +110,15 @@ ht-degree: 61%
 
 必要に応じて、**追加の識別子を使用** を有効にして、プロファイル ID に加えて、セカンダリ識別子（注文 ID、予約 ID など）のコンテキストでジャーニーを実行できます。 これにより、追加の識別子が異なる場合に、同じプロファイルの複数のエントリが可能になります。
 
-[ ジャーニーで追加の識別子を使用する方法を説明します ](supplemental-identifier.md)。 オーディエンスを読み取りジャーニーの場合、追加の識別子はプロファイル属性である必要があります。追加の ID を使用すると、読み取り速度は 1 秒あたり 500 プロファイルに制限されます。
+[&#x200B; ジャーニーで追加の識別子を使用する方法を説明します &#x200B;](supplemental-identifier.md)。 オーディエンスを読み取りジャーニーの場合、追加の識別子はプロファイル属性である必要があります。追加の ID を使用すると、読み取り速度は 1 秒あたり 500 プロファイルに制限されます。
 
 ### ガードレールとレコメンデーション {#must-read}
 
-**オーディエンスを読み取り** アクティビティのすべてのガードレールと制限（同時実行、スループット、アクティビティごとに 1 つのオーディエンス、ジョブのタイムアウト、再試行など）は、[ ガードレールと制限 ](../start/guardrails.md#read-segment-g) に一覧表示されます。
+**オーディエンスを読み取り** アクティビティのすべてのガードレールと制限（同時実行、スループット、アクティビティごとに 1 つのオーディエンス、ジョブのタイムアウト、再試行など）は、[&#x200B; ガードレールと制限 &#x200B;](../start/guardrails.md#read-segment-g) に一覧表示されます。
 
 **レコメンデーション**
 
-* ベストプラクティスとして、信頼性が高く一貫性のあるカウントを行うには、**オーディエンスを読み取り** アクティビティでバッチオーディエンスを使用します。 「オーディエンスを読み取り」は、バッチのユースケース向けに設計されています。ユースケースにリアルタイムデータが必要な場合は、代わりに [ オーディエンスの選定 ](audience-qualification-events.md) アクティビティを使用します。
+* ベストプラクティスとして、信頼性が高く一貫性のあるカウントを行うには、**オーディエンスを読み取り** アクティビティでバッチオーディエンスを使用します。 「オーディエンスを読み取り」は、バッチのユースケース向けに設計されています。ユースケースにリアルタイムデータが必要な場合は、代わりに [&#x200B; オーディエンスの選定 &#x200B;](audience-qualification-events.md) アクティビティを使用します。
 * [CSV ファイルから読み込まれた](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#import-audience)オーディエンスや、[構成ワークフロー](../audience/get-started-audience-orchestration.md)から生成されたオーディエンスは、「**オーディエンスを読み取り**」アクティビティで選択できます。これらのオーディエンスは、「**オーディエンスの選定**」アクティビティでは使用できません。
 * バッチセグメントを使用する場合は、ジャーニーが開始する前に、取り込みと毎日のスナップショット更新が適切に完了していることを確認してください。 セグメントが同じ日に取り込まれたデータを反映する必要がある場合は、追加の待機期間を考慮します。プロファイルの即時鮮度が重要な場合は、イベントベースまたはストリーミングアプローチを使用するか、**待機** アクティビティを追加して、更新されたデータを評価前に反映させます。
 
@@ -126,7 +126,7 @@ ht-degree: 61%
 >
 >[リアルタイム顧客プロファイルデータとセグメント化のガードレール](https://experienceleague.adobe.com/docs/experience-platform/profile/guardrails.html?lang=ja){target="_blank"}は、[!DNL Adobe Journey Optimizer] にも適用されます。
 
-**次：** [ 読み取り率 ](#profile-entry-and-reading-rate) と [ スケジュール ](#schedule) を設定し、[ テストして公開 ](#testing-publishing) を設定します。
+**次：** [&#x200B; 読み取り率 &#x200B;](#profile-entry-and-reading-rate) と [&#x200B; スケジュール &#x200B;](#schedule) を設定し、[&#x200B; テストして公開 &#x200B;](#testing-publishing) を設定します。
 
 ### プロファイルのエントリと読み取り率 {#profile-entry-and-reading-rate}
 
@@ -213,7 +213,7 @@ ht-degree: 61%
 
 >[!CAUTION]
 >
->ジャーニーで [ カスタムアップロードオーディエンス ](../audience/about-audiences.md#about-segments) をターゲットにしている場合、プロファイルは、繰り返しジャーニーでこのオプションが有効になっている場合の最初の繰り返し時にのみ取得されます。 これらのオーディエンスは固定されています。
+>ジャーニーで [&#x200B; カスタムアップロードオーディエンス &#x200B;](../audience/about-audiences.md#about-segments) をターゲットにしている場合、プロファイルは、繰り返しジャーニーでこのオプションが有効になっている場合の最初の繰り返し時にのみ取得されます。 これらのオーディエンスは固定されています。
 
 +++
 
@@ -326,26 +326,26 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 | 症状 | に移動 |
 |---------|--------|
-| オーディエンスサイズよりも少ない（または多くの）プロファイルを入力 | [ タイミングとデータ伝播 ](#timing-and-data-propagation)、[ データの検証と監視 ](#data-validation-and-monitoring) |
-| 処理されたプロファイルがゼロのオーディエンスを読み取り、アラートを発生 | [ 処理済みのプロファイルがゼロ ](#zero-profiles-processed) |
-| バッチオーディエンスのエントリが遅延しているか、見つからない | [ タイミングとデータの伝播 ](#timing-and-data-propagation) |
-| セグメントジョブのステータスまたは名前空間を確認する必要があります | [ データの検証と監視 ](#data-validation-and-monitoring) |
+| オーディエンスサイズよりも少ない（または多くの）プロファイルを入力 | [&#x200B; タイミングとデータ伝播 &#x200B;](#timing-and-data-propagation)、[&#x200B; データの検証と監視 &#x200B;](#data-validation-and-monitoring) |
+| 処理されたプロファイルがゼロのオーディエンスを読み取り、アラートを発生 | [&#x200B; 処理済みのプロファイルがゼロ &#x200B;](#zero-profiles-processed) |
+| バッチオーディエンスのエントリが遅延しているか、見つからない | [&#x200B; タイミングとデータの伝播 &#x200B;](#timing-and-data-propagation) |
+| セグメントジョブのステータスまたは名前空間を確認する必要があります | [&#x200B; データの検証と監視 &#x200B;](#data-validation-and-monitoring) |
 
 ### 処理済みのプロファイルがゼロ {#zero-profiles-processed}
 
-**オーディエンスを読み取り** アクティビティでプロファイルが処理されていない場合（例：[ オーディエンスを読み取りアラート ](../reports/alerts.md#alert-read-audiences) が表示された場合）:
+**オーディエンスを読み取り** アクティビティでプロファイルが処理されていない場合（例：[&#x200B; オーディエンスを読み取りアラート &#x200B;](../reports/alerts.md#alert-read-audiences) が表示された場合）:
 
 1. **オーディエンスが空かどうかを確認** - [!DNL Adobe Experience Platform] で、オーディエンスサイズとプロファイルが **実現済み** ステータスであることを確認します。 空のオーディエンスや評価されていないオーディエンスの場合、エントリはゼロになります。
 2. **名前空間を確認** - オーディエンスを読み取りアクティビティで選択した名前空間は、オーディエンスのプロファイルに存在する必要があります。 その ID を持たないプロファイルは、ジャーニーにエントリできません。 [名前空間の詳細情報](../event/about-creating.md#select-the-namespace)。
-3. **アラートと再試行の確認** - エラーは **アラート** で報告されます。 エクスポートジョブの作成は、最大 1 時間、10 分ごとに再試行されます。 [ 再試行とアラートの詳細情報 ](#read-audience-retry)。
+3. **アラートと再試行の確認** - エラーは **アラート** で報告されます。 エクスポートジョブの作成は、最大 1 時間、10 分ごとに再試行されます。 [&#x200B; 再試行とアラートの詳細情報 &#x200B;](#read-audience-retry)。
 
-これらのチェック後も問題が解決しない場合は、バッチおよび設定の原因に関する [ タイミングとデータの伝播 ](#timing-and-data-propagation) および [ データの検証と監視 ](#data-validation-and-monitoring) を参照してください。
+これらのチェック後も問題が解決しない場合は、バッチおよび設定の原因に関する [&#x200B; タイミングとデータの伝播 &#x200B;](#timing-and-data-propagation) および [&#x200B; データの検証と監視 &#x200B;](#data-validation-and-monitoring) を参照してください。
 
 ### タイミングとデータの生成 {#timing-and-data-propagation}
 
 * **バッチセグメント化ジョブの完了**：バッチオーディエンスの場合、ジャーニーを実行する前に、毎日のバッチセグメント化ジョブが完了し、スナップショットが更新されていることを確認します。バッチオーディエンスは、セグメント化ジョブの完了から約 **2 時間**&#x200B;後に使用できます。詳しくは、[オーディエンスの評価方法](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja#evaluate-segments){target="_blank"}を参照してください。
 
-* **データ取り込みのタイミング**：ジャーニーの実行前にプロファイルデータ取り込みが完全に完了していることを確認します。プロファイルがジャーニーの開始直前に取り込まれた場合、まだオーディエンスに反映されていないことがあります。詳しくは、[ のデータ取り込み  [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ja){target="_blank"} を参照してください。
+* **データ取り込みのタイミング**：ジャーニーの実行前にプロファイルデータ取り込みが完全に完了していることを確認します。プロファイルがジャーニーの開始直前に取り込まれた場合、まだオーディエンスに反映されていないことがあります。詳しくは、[&#x200B; のデータ取り込み  [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ja){target="_blank"} を参照してください。
 
 * **「バッチオーディエンス評価の後にトリガー」を使用**：バッチオーディエンスを使用する毎日のスケジュール済みジャーニーの場合は、「**[!UICONTROL バッチオーディエンス評価の後にトリガー]**」オプションを有効にすることを考慮します。これにより、ジャーニーは実行される前に最新のオーディエンスデータ（最大 6 時間）を待機するようになります。 [詳しくは、スケジュール設定を参照してください。](#schedule)
 
@@ -353,9 +353,9 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 ### データの検証 {#data-validation-and-monitoring}
 
-* **セグメント化ジョブのステータスの確認**:[!DNL Adobe Experience Platform] [ 監視ダッシュボード ](https://experienceleague.adobe.com/docs/experience-platform/dataflows/ui/monitor-segments.html?lang=ja){target="_blank"} でバッチセグメント化ジョブの完了時間を監視します。 オーディエンスデータの準備が整ったタイミングを確認するために使用します。
+* **セグメント化ジョブのステータスの確認**:[!DNL Adobe Experience Platform] [&#x200B; 監視ダッシュボード &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/dataflows/ui/monitor-segments.html?lang=ja){target="_blank"} でバッチセグメント化ジョブの完了時間を監視します。 オーディエンスデータの準備が整ったタイミングを確認するために使用します。
 
-* **結合ポリシーを確認**：オーディエンスに対して設定された結合ポリシーが、異なるソースからのプロファイルデータを組み合わせる場合の予想される動作と一致していることを確認します。詳しくは、[ の結合ポリシー  [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=ja){target="_blank"} を参照してください。
+* **結合ポリシーを確認**：オーディエンスに対して設定された結合ポリシーが、異なるソースからのプロファイルデータを組み合わせる場合の予想される動作と一致していることを確認します。詳しくは、[&#x200B; の結合ポリシー  [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/overview.html?lang=ja){target="_blank"} を参照してください。
 
 * **セグメント定義を確認**：セグメント定義が正しく設定され、予想されるすべての選定条件が含まれていることを確認します。詳しくは、[オーディエンスの作成](../audience/creating-a-segment-definition.md)を参照してください。特に注意すべき点：
    * イベントのタイムスタンプに基づいてプロファイルを除外する場合がある時間ベースの条件
@@ -384,7 +384,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 失敗した **オーディエンスを読み取り**&#x200B;トリガーはキャプチャされ、**アラート** に表示されます。 **オーディエンスを読み取り** アラートは、**オーディエンスを読み取り** アクティビティが、スケジュールされた実行時間から 10 分後にプロファイルを処理していない場合、警告を表示します。 このエラーは、技術的な問題や空のオーディエンスが原因で発生する可能性があります。 技術的な問題が原因でエラーが発生した場合でも、問題のタイプによっては、再試行が行われることがあります。 例えば、エクスポートジョブの作成に失敗した場合は、10 分ごとに最大 1 時間再試行します。 [詳細情報](../reports/alerts.md#alert-read-audiences)
 
-オーディエンスを読み取りガードレール（再試行とスループットの制限を含む）の完全なリストについては、[ ガードレールと制限 ](../start/guardrails.md#read-segment-g) を参照してください。
+オーディエンスを読み取りガードレール（再試行とスループットの制限を含む）の完全なリストについては、[&#x200B; ガードレールと制限 &#x200B;](../start/guardrails.md#read-segment-g) を参照してください。
 
 ## 関連トピック
 

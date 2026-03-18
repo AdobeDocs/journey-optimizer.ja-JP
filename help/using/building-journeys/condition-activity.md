@@ -42,9 +42,9 @@ ht-degree: 92%
 
 また、オーディエンスメンバーシップに基づいて条件を設定することもできます。 以下の節を参照してください。
 
-* [ 条件でのオーディエンスの使用 ](#using-a-segment) - プロファイルがオーディエンスに属しているかどうかに基づいてパスを追加します。
-* [ オーディエンスの作成とターゲット設定 ](../audience/about-audiences.md) - オーディエンスメニューでオーディエンスを作成および管理します。
-* [ ジャーニーでのオーディエンスのターゲティング ](read-audience.md#audience-targeting-in-journeys) – 条件を使用して、オーディエンスを読み取りアクティビティの後、分岐をセグメント、除外または結合します。
+* [&#x200B; 条件でのオーディエンスの使用 &#x200B;](#using-a-segment) - プロファイルがオーディエンスに属しているかどうかに基づいてパスを追加します。
+* [&#x200B; オーディエンスの作成とターゲット設定 &#x200B;](../audience/about-audiences.md) - オーディエンスメニューでオーディエンスを作成および管理します。
+* [&#x200B; ジャーニーでのオーディエンスのターゲティング &#x200B;](read-audience.md#audience-targeting-in-journeys) – 条件を使用して、オーディエンスを読み取りアクティビティの後、分岐をセグメント、除外または結合します。
 
 >[!NOTE]
 >
@@ -78,7 +78,7 @@ ht-degree: 92%
 
 ![フィールド選択と論理演算子 AND OR を示す式エディター](assets/journey64.png)
 
-[[!DNL Adobe Experience Platform]  セグメント化サービス ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja){target="_blank"} を使用してオーディエンスを作成する場合は、それらのオーディエンスをジャーニー条件で利用できます。 詳しくは、[条件でのオーディエンスの使用](../building-journeys/condition-activity.md#using-a-segment)を参照してください。Journey Optimizer でオーディエンスを生成してターゲットにする方法について詳しくは、[この節](../audience/about-audiences.md)を参照してください。
+[[!DNL Adobe Experience Platform]  セグメント化サービス &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja){target="_blank"} を使用してオーディエンスを作成する場合は、それらのオーディエンスをジャーニー条件で利用できます。 詳しくは、[条件でのオーディエンスの使用](../building-journeys/condition-activity.md#using-a-segment)を参照してください。Journey Optimizer でオーディエンスを生成してターゲットにする方法について詳しくは、[この節](../audience/about-audiences.md)を参照してください。
 
 
 >[!NOTE]
