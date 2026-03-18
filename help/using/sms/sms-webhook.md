@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
-source-git-commit: 6859847ad700a471dd43b2cb9b0c486e31d91c78
+source-git-commit: cfe6fa417c81e7488a3f2f1313b08f346f1aeb03
 workflow-type: tm+mt
-source-wordcount: '1077'
-ht-degree: 67%
+source-wordcount: '2742'
+ht-degree: 7%
 
 ---
 
@@ -29,227 +29,436 @@ ht-degree: 67%
 
 >[!BEGINSHADEBOX]
 
-オプトインキーワードやオプトアウトキーワードを指定していない場合は、ユーザーのプライバシーを遵守するために標準の同意メッセージが使用されます。カスタムキーワードを追加すると、デフォルト設定が自動的に上書きされます。
+Journey Optimizerで新しい API 資格情報が作成された場合、SMS Webhook で受信キーワードと、配信やエラーなどのフィードバックイベントの両方を取り込めるようになりました。 プロバイダーごとに機能が異なるので、Webhook を有効にする手順は別個にあります。
+Webhook でカスタムプロバイダーがサポートされるようになり、Journey Optimizerで報告および処理される任意のプロバイダーからフィードバックとインバウンドキーワードの収集を収集できるようになりました。
 
-**デフォルトのキーワード：**
+* **新規のお客様：** こちらの手順に従うと、SMS Webhook を正しく設定できます。
 
-* **オプトイン**：SUBSCRIBE、YES、UNSTOP、START、CONTINUE、RESUME、BEGIN
-* **オプトアウト**：STOP、QUIT、CANCEL、END、UNSUBSCRIBE、NO
-* **ヘルプ**：HELP
+* **既存のお客様：** API 資格情報に保存されている情報から Webhook に移行できます。お客様が移行するタイムラインはありません。 SMS Webhook に移行する既存のお客様の場合は、移行ガイドに記載されているように移行手順を実行する必要があります。
 
 >[!ENDSHADEBOX]
 
-API 資格情報が正常に作成されたら、Webhook を設定して、オプトインとオプトアウトの同意を管理するインバウンド応答をキャプチャし、利用可能な場合は開封確認などの配信レポートを受信できるようになりました。
+## 概要 {#overview}
+
+API 資格情報が正常に作成されたら、Webhook を設定して、オプトインおよびオプトアウトの同意を管理するためのインバウンド応答をキャプチャし、利用可能な場合は読み取りレシートを含む配信レポートを受信できるようになりました。
 
 Webhook を設定する際に、取得するデータの種類に基づいて目的を定義できます。
 
-* **[!UICONTROL インバウンド]**：オプトインやオプトアウトなどの同意応答を取得し、ユーザーの環境設定を収集する場合は、このオプションを使用します。
+* **インバウンド**：オプトインやオプトアウトなどの同意応答を取得し、ユーザーの環境設定を収集する場合は、このオプションを使用します。
 
-* **[!UICONTROL フィードバック]**：このオプションを選択すると、レシートの読み取りやユーザーのインタラクションなど、配信およびエンゲージメントイベントをトラッキングし、レポートや分析をサポートすることができます。
+* **フィードバック**：配信、アウトバウンドエラー、レシートの読み取り（該当する場合）など、レポートと分析をサポートする配信およびエンゲージメントイベントを追跡する場合は、このオプションを選択します。
 
-SMS プロバイダーに応じて、以下のタブを参照します。
+プロバイダーによっては、SMS の実装を成功させるために設定が必要な事項について、異なる期待事項があります。
 
->[!BEGINTABS]
+* **Sinch と Sinch 会話**：インバウンドイベントとフィードバックイベントの両方を処理する 1 つの Webhook を作成します。 ペイロードの設定は不要です。
 
->[!TAB カスタム]
+* **Infobip**：インバウンドイベント用とフィードバックイベント用の 2 つの個別の Webhook を作成します。 どちらの Webhook にもペイロード設定は必要ありません。
 
-1. 左側のパネルで、**[!UICONTROL 管理]** `>` **[!UICONTROL チャネル]**&#x200B;に移動し、**[!UICONTROL SMS 設定]**&#x200B;の下にある **[!UICONTROL SMS Webhook]** メニューを選択して、「**[!UICONTROL Webhook を作成]**」ボタンをクリックします。
+* **Twilio**:Webhook は使用できません。 インバウンドデータとフィードバックデータの収集はサポートされていません。
 
-   ![](assets/sms_byo_5.png){zoomable="yes"}
+* **カスタムプロバイダー**：インバウンドイベント用とフィードバックイベント用の 2 つの個別の Webhook を作成します。 両方の Webhook が正しく機能するには、ペイロード設定が必要です。
 
-1. 以下で説明するように、Webhook 設定を指定します。
+### プロバイダーのサポート {#provider-support}
 
-   * **[!UICONTROL 名前]**：Webhook の名前を入力します。
+>[!NOTE]
+>
+>サポートされている Webhook 形式は JSON のみです。 Webhook 用のフォームデータはサポートされていません。
 
-   * **[!UICONTROL SMS ベンダーを選択]**：カスタム。
+次の表に、インバウンドおよびフィードバックの Webhook をサポートするプロバイダーと、ペイロードの作成が必要かどうかを示します。
 
-   * **[!UICONTROL タイプ]**：インバウンド。
+| プロバイダー | インバウンド Webhook | Feedback Webhook | キーワード | ペイロードの作成が必要です | Webhook が必要 | ペイロードの作成 |
+| --- | --- | --- | --- | --- | --- | --- |
+| Infobip | 設定可能 | 設定可能 | 設定可能 | 不要 | 必須 | 不要 |
+| Sinch | 設定可能 | 設定可能 | 設定可能 | 不要 | いいえ。統合 | なし |
+| Sinch 会話 | 設定可能 | 設定可能 | 設定可能 | 不要 | いいえ。統合 | なし |
+| Twilio | なし | なし | なし | なし | なし | なし |
+| カスタム | 設定可能 | 設定可能 | 設定可能 | 必須 | 必須 | 必須 |
 
-   * **[!UICONTROL API 資格情報]**：[以前に設定した API 資格情報](sms-configuration-custom.md#api-credential)をドロップダウンから選択します。
+API 資格情報から SMS Webhook に移行するお客様の場合、移行パスに関する情報は移行ガイドにあります。
 
-   * **[!UICONTROL 送信者電話番号]**：コミュニケーションに使用する送信者の電話番号を入力します。
+## Webhook の作成
 
-     ![](assets/webhook-inbound.png){zoomable="yes"}
+### Sinch および Sinch 会話用 {#create-webhook-sinch}
 
-1. 「![](assets/do-not-localize/Smock_Add_18_N.svg)」をクリックしてキーワードカテゴリを追加し、SMS プロバイダーに応じて設定します。
-
-   * **[!UICONTROL 受信キーワードカテゴリ]**：キーワードカテゴリを「**[!UICONTROL オプトイン]**」、「**[!UICONTROL オプトアウト]**」、「**[!UICONTROL ダブルオプトイン]**」、「**[!UICONTROL ヘルプ]**」または「**[!UICONTROL カスタム]**」から選択します。
-
-   * **[!UICONTROL キーワードを入力]**：メッセージを自動的にトリガーするデフォルトまたはカスタムのキーワードを入力します。「![](assets/do-not-localize/Smock_Add_18_N.svg)」をクリックして複数のキーワードを追加します。
-
-     **[!UICONTROL カスタムキーワード]**&#x200B;の場合は、ジャーニー内のバッチベースのアクションに同意以外の関連キーワードを使用します。
-
-   * **[!UICONTROL 返信メッセージ]**：自動的に送信されるカスタム応答をドロップダウンから選択します。
-
-   * **[!UICONTROL ファジーオプトアウト]**：このオプションを有効にすると、ニアマッチオプトアウトキーワードが検出された場合に自動返信が送信されます。
-
-   ![](assets/sms_byo_6.png){zoomable="yes"}
-
-1. 受信メッセージが設定されたキーワードまたはカテゴリに一致しない場合に自動的に送信される **[!UICONTROL デフォルトの返信メッセージ]** を入力します。
-
-1. 「**[!UICONTROL ペイロードエディターを表示]**」をクリックして、リクエストペイロードを検証およびカスタマイズします。
-
-   プロファイル属性を使用してペイロードを動的にパーソナライズし、ビルトインのヘルパー関数を使用して、処理と応答の生成のために正確なデータを確実に送信できます。
-
-1. Webhook の設定が完了したら、「**[!UICONTROL 送信]**」をクリックします。
-
-1. **[!UICONTROL フィードバック]** Webhook を作成するには、上記と同じ手順に従い、Webhook **[!UICONTROL タイプ]** として **[!UICONTROL フィードバック]** を選択します。
-
-1. **[!UICONTROL Webhook]** メニューから、既存の Webhook を編集または削除したり、**[!UICONTROL Webhook URL]** にアクセスしてコピーして SMS プロバイダーと統合したりできます。
-
-   ![](assets/sms_byo_7.png){zoomable="yes"}
-
-Webhook の設定を作成および設定した後、SMS メッセージ用に [&#x200B; チャネル設定 &#x200B;](sms-configuration-surface.md) を作成する必要があります。
-
-設定が完了すると、メッセージオーサリング、パーソナライゼーション、リンクトラッキング、レポートなど、すべての標準のチャネル機能を活用できます。
-
->[!TAB Infobip]
+Sinch および Sinch Conversional の場合、インバウンドイベントとフィードバックイベントの両方を処理する単一の Webhook を作成します。 カスタムペイロード設定は必要ありません。
 
 1. 左側のパネルで、**[!UICONTROL 管理]** `>` **[!UICONTROL チャネル]**&#x200B;に移動し、**[!UICONTROL SMS 設定]**&#x200B;の下にある **[!UICONTROL SMS Webhook]** メニューを選択して、「**[!UICONTROL Webhook を作成]**」ボタンをクリックします。
 
-   ![](assets/sms_byo_5.png){zoomable="yes"}
+   ![](assets/webhook-1.png)
 
-1. 以下で説明するように、Webhook 設定を指定します。
+1. 以下に説明するように、Webhook 設定を指定します。
 
-   * **[!UICONTROL 名前]**：Webhook の名前を入力します。
+   * **[!UICONTROL 名前]**:Webhook の名前を入力します。
+
+   * **[!UICONTROL SMS ベンダーを選択]**:Sinch または Sinch 会話。
+
+   * **[!UICONTROL API 資格情報]**：[以前に設定した API 資格情報](sms-configuration-sinch.md)をドロップダウンから選択します。
+
+   * **[!UICONTROL 送信者の電話番号]**：コミュニケーションに使用する送信者の電話番号を入力します。
+
+   ![](assets/webhook-2.png)
+
+1. 「**[!UICONTROL キーワードを入力]**」フィールドにキーワードを入力して、受信キーワードの設定を開始します。 複数のキーワードを追加したり削除したりできます。 キーワードでは大文字と小文字が区別されません。
+
+   ![](assets/webhook-3.png)
+
+1. **[!UICONTROL 受信キーワードカテゴリ]** ドロップダウンからキーワードカテゴリを選択して、設定します。
+
+   * 
+     +++ Opt-In
+
+      * ユーザーの同意を得てオプトインするキーワードを有効にします。 ユーザーのメッセージが設定されたキーワードと一致すると、ユーザーの電話番号は SMS メッセージの受信をオプトインします。
+
+      * デフォルトでは、Subscribe、Yes、Unstop、Continue、Resume、Begin の各キーワードが有効になっています。 「![](assets/do-not-localize/Smock_Close_18_N.svg)」をクリックして、デフォルトのキーワードを削除します。
+
+      * 「**[!UICONTROL 返信メッセージ]**」フィールドを使用すると、ユーザーのインバウンドメッセージがオプトインキーワードに一致した場合に自動的に送信されるメッセージを作成できます。
+
+   +++
+
+   * 
+     +++ オプトアウト
+
+      * ユーザーをオプトアウトし、テキストメッセージの送信に対する同意を削除するキーワードを有効にします。 ユーザーのメッセージが設定されたキーワードと一致すると、ユーザーの電話番号は SMS メッセージの受信からオプトアウトされます。
+
+      * デフォルトでは、次のキーワードが有効です。Stop、Quit、Cancel、End、Unsubscribe、No。 「![](assets/do-not-localize/Smock_Close_18_N.svg)」をクリックして、デフォルトのキーワードを削除します。
+
+      * 「**[!UICONTROL 返信メッセージ]**」フィールドを使用すると、ユーザーの受信メッセージがオプトアウトキーワードと一致した場合に自動的に送信されるメッセージを作成できます。
+
+      * **[!UICONTROL ファジーロジック]** を有効にして、設定済みのオプトアウトキーワードに類似したキーワードを検出します。 ユーザーの応答が近くても正確でない場合、「あいまい自動応答 **[!UICONTROL フィールドに入力されたメッセージが送信され]** す。 通常、このメッセージはオプトアウトが発生しなかったことを示し、登録解除に必要な正確なキーワードを指定します。
+
+   +++
+
+   * 
+     +++ ダブルオプトイン
+
+      * ダブルオプトイン要件のキーワードを有効にします。 ユーザーのメッセージが設定済みのキーワードに一致する場合、この段階では完全にオプトインされていません。 この 2 つの手順による同意ワークフローでは、ユーザーが 2 つ目のキーワードでオプトインを確認する必要があります。
+
+      * 「**[!UICONTROL 返信メッセージ]**」フィールドを使用すると、ダブルオプトインキーワードが一致した場合に自動的に送信されるメッセージを作成できます。 このメッセージは、オプトインプロセスを完了するためにオプトインキーワードを入力するようにユーザーに指示します。
+
+   +++
+
+   * 
+     +++ ヘルプ
+
+      * ヘルプが要求されたときに標準的な応答を提供するキーワードを有効にします。 ユーザーのメッセージが設定されたキーワードに一致すると、ユーザーはヘルプ返信メッセージを受け取ります。
+
+      * デフォルトでは、「Help」、「Info」、「Information」の各キーワードが有効になっています。 「![](assets/do-not-localize/Smock_Close_18_N.svg)」をクリックして、デフォルトのキーワードを削除します。
+
+      * 「**[!UICONTROL 返信メッセージ]**」フィールドを使用すると、ユーザーの受信メッセージがヘルプキーワードと一致した場合に自動的に送信されるメッセージを作成できます。
+
+   +++
+
+   * 
+     +++ カスタム
+
+      * 単一のカスタムキーワードを設定します。 ユーザーのメッセージがこのキーワードに一致すると、キーワードは、レポートとオーディエンス構築のために **[!UICONTROL メッセージフィードバックトラッキング]** データセットに書き込まれます。
+
+      * ジャーニーやキャンペーンで使用するためにこのキーワードを参照するオーディエンス（ストリーミングまたはバッチ）を作成します。
+
+   +++
+
+1. **[!UICONTROL デフォルトの返信メッセージ]** を入力します。 このメッセージは、ユーザーの応答が設定されたキーワードに一致しない場合に自動的に送信されます。
+
+   ![](assets/webhook-4.png)
+
+1. 「**[!UICONTROL 送信]**」をクリックして、Webhook 設定を保存します。
+
+1. **[!UICONTROL Webhook]** メニューから、既存の Webhook を編集または削除できます。
+
+1. 新しく作成した Webhook にアクセスし、**[!UICONTROL Webhook URL]** をコピーします。
+
+   ![](assets/webhook-5.png)
+
+1. **[!UICONTROL Webhook URL]** を使用して、**フィードバック** イベントと **インバウンド** イベントをJourney Optimizerに取り込みます。
+
+   * SMS チャネルの場合は、[Sinch ドキュメントを参照 ](https://community.sinch.com/t5/SMS/How-do-I-assign-a-callback-URL-to-an-SMS-service/ta-p/8414) てください。
+
+   * MMS チャネルの場合は、[Sinch ドキュメントを参照 ](https://developers.sinch.com/docs/conversation/getting-started#5-handle-incoming-messages) てください。
+
+   * Journey Optimizer経由で SMS を直接購入したお客様の場合は、Adobe サポートにサポートチケットを提出します。 Adobe アカウントチームが Webhook URL を設定します。
+     ![](assets/webhook-4.png)
+
+Webhook が、既存のチャネル設定に添付された API 認証情報を使用している場合、Webhook は直ちに有効になります。 それ以外の場合は、新しいチャネル設定を作成します。
+
+➡️[ 詳しくは、チャネル設定を参照してください ](sms-configuration-surface.md)
+
+### Infobip の場合 {#create-webhook-infobip}
+
+Infobip の場合、2 つの個別の Webhook を作成します。1 つはフィードバックイベント用、もう 1 つはインバウンドイベント用です。
+
+1. 左側のパネルで、**[!UICONTROL 管理]** `>` **[!UICONTROL チャネル]**&#x200B;に移動し、**[!UICONTROL SMS 設定]**&#x200B;の下にある **[!UICONTROL SMS Webhook]** メニューを選択して、「**[!UICONTROL Webhook を作成]**」ボタンをクリックします。
+
+   ![](assets/webhook-1.png)
+
+1. 以下に説明するように、Webhook 設定を指定します。
+
+   * **[!UICONTROL 名前]**:Webhook の名前を入力します。
 
    * **[!UICONTROL SMS ベンダーを選択]**:Infobip。
 
-   * **[!UICONTROL タイプ]**：インバウンド。
+   * **[!UICONTROL タイプ]**:「フィードバック」または「インバウンド」を選択します。 両方を別々に作成する必要があります。ここでは、インバウンドから始めます。
 
    * **[!UICONTROL API 資格情報]**：[以前に設定した API 資格情報](sms-configuration-infobip.md#api-credential)をドロップダウンから選択します。
 
-   * **[!UICONTROL 送信者電話番号]**：コミュニケーションに使用する送信者の電話番号を入力します。
+   * **[!UICONTROL 送信者の電話番号]**：コミュニケーションに使用する送信者の電話番号を入力します。
 
-     ![](assets/webhook-infobip-1.png){zoomable="yes"}
+   ![](assets/webhook-6.png)
 
-1. 「![](assets/do-not-localize/Smock_Add_18_N.svg)」をクリックしてキーワードカテゴリを追加し、SMS プロバイダーに応じて設定します。
+1. 「**[!UICONTROL キーワードを入力]**」フィールドにキーワードを入力して、受信キーワードの設定を開始します。 複数のキーワードを追加したり削除したりできます。 キーワードでは大文字と小文字が区別されません。
 
-   * **[!UICONTROL 受信キーワードカテゴリ]**：キーワードカテゴリを「**[!UICONTROL オプトイン]**」、「**[!UICONTROL オプトアウト]**」、「**[!UICONTROL ダブルオプトイン]**」、「**[!UICONTROL ヘルプ]**」または「**[!UICONTROL カスタム]**」から選択します。
+   ![](assets/webhook-7.png)
 
-   * **[!UICONTROL キーワードを入力]**：メッセージを自動的にトリガーするデフォルトまたはカスタムのキーワードを入力します。「![](assets/do-not-localize/Smock_Add_18_N.svg)」をクリックして複数のキーワードを追加します。
+1. **[!UICONTROL 受信キーワードカテゴリ]** ドロップダウンからキーワードカテゴリを選択して、設定します。
 
-     **[!UICONTROL カスタムキーワード]**&#x200B;の場合は、ジャーニー内のバッチベースのアクションに同意以外の関連キーワードを使用します。
+   * 
+     +++ Opt-In
 
-   * **[!UICONTROL 返信メッセージ]**：自動的に送信されるカスタム応答をドロップダウンから選択します。
+      * ユーザーの同意を得てオプトインするキーワードを有効にします。 ユーザーのメッセージが設定されたキーワードと一致すると、ユーザーの電話番号は SMS メッセージの受信をオプトインします。
 
-   * **[!UICONTROL ファジーオプトアウト]**：このオプションを有効にすると、ニアマッチオプトアウトキーワードが検出された場合に自動返信が送信されます。
+      * デフォルトでは、Subscribe、Yes、Unstop、Continue、Resume、Begin の各キーワードが有効になっています。 「![](assets/do-not-localize/Smock_Close_18_N.svg)」をクリックして、デフォルトのキーワードを削除します。
 
-   ![](assets/webhook-infobip-2.png){zoomable="yes"}
+      * 「**[!UICONTROL 返信メッセージ]**」フィールドを使用すると、ユーザーのインバウンドメッセージがオプトインキーワードに一致した場合に自動的に送信されるメッセージを作成できます。
 
-1. 受信メッセージが設定されたキーワードまたはカテゴリに一致しない場合に自動的に送信される **[!UICONTROL デフォルトの返信メッセージ]** を入力します。
+   +++
 
-1. Webhook の設定が完了したら、「**[!UICONTROL 送信]**」をクリックします。
+   * 
+     +++ オプトアウト
 
-1. **[!UICONTROL フィードバック]** Webhook を作成するには、上記と同じ手順に従い、Webhook **[!UICONTROL タイプ]** として **[!UICONTROL フィードバック]** を選択します。
+      * ユーザーをオプトアウトし、テキストメッセージの送信に対する同意を削除するキーワードを有効にします。 ユーザーのメッセージが設定されたキーワードと一致すると、ユーザーの電話番号は SMS メッセージの受信からオプトアウトされます。
 
-1. **[!UICONTROL Webhook]** メニューから、既存の Webhook を編集または削除したり、**[!UICONTROL Webhook URL]** にアクセスしてコピーして SMS プロバイダーと統合したりできます。
+      * デフォルトでは、次のキーワードが有効です。Stop、Quit、Cancel、End、Unsubscribe、No。 「![](assets/do-not-localize/Smock_Close_18_N.svg)」をクリックして、デフォルトのキーワードを削除します。
 
-   ![](assets/sms_byo_7.png){zoomable="yes"}
+      * 「**[!UICONTROL 返信メッセージ]**」フィールドを使用すると、ユーザーの受信メッセージがオプトアウトキーワードと一致した場合に自動的に送信されるメッセージを作成できます。
 
-Webhook のインバウンド設定を作成し指定したら、SMS メッセージ用の[チャネル設定](sms-configuration-surface.md)を作成する必要があります。
+      * **[!UICONTROL ファジーロジック]** を有効にして、設定済みのオプトアウトキーワードに類似したキーワードを検出します。 ユーザーの応答が近くても正確でない場合、「あいまい自動応答 **[!UICONTROL フィールドに入力されたメッセージが送信され]** す。 通常、このメッセージはオプトアウトが発生しなかったことを示し、登録解除に必要な正確なキーワードを指定します。
 
-設定が完了すると、メッセージオーサリング、パーソナライゼーション、リンクトラッキング、レポートなど、すべての標準のチャネル機能を活用できます。
+   +++
 
->[!TAB  シンチ ]
+   * 
+     +++ ダブルオプトイン
+
+      * ダブルオプトイン要件のキーワードを有効にします。 ユーザーのメッセージが設定済みのキーワードに一致する場合、この段階では完全にオプトインされていません。 この 2 つの手順による同意ワークフローでは、ユーザーが 2 つ目のキーワードでオプトインを確認する必要があります。
+
+      * 「**[!UICONTROL 返信メッセージ]**」フィールドを使用すると、ダブルオプトインキーワードが一致した場合に自動的に送信されるメッセージを作成できます。 このメッセージは、オプトインプロセスを完了するためにオプトインキーワードを入力するようにユーザーに指示します。
+
+   +++
+
+   * 
+     +++ ヘルプ
+
+      * ヘルプが要求されたときに標準的な応答を提供するキーワードを有効にします。 ユーザーのメッセージが設定されたキーワードに一致すると、ユーザーはヘルプ返信メッセージを受け取ります。
+
+      * デフォルトでは、「Help」、「Info」、「Information」の各キーワードが有効になっています。 「![](assets/do-not-localize/Smock_Close_18_N.svg)」をクリックして、デフォルトのキーワードを削除します。
+
+      * 「**[!UICONTROL 返信メッセージ]**」フィールドを使用すると、ユーザーの受信メッセージがヘルプキーワードと一致した場合に自動的に送信されるメッセージを作成できます。
+
+   +++
+
+   * 
+     +++ カスタム
+
+      * 単一のカスタムキーワードを設定します。 ユーザーのメッセージがこのキーワードに一致すると、キーワードは、レポートとオーディエンス構築のために **[!UICONTROL メッセージフィードバックトラッキング]** データセットに書き込まれます。
+
+      * ジャーニーやキャンペーンで使用するためにこのキーワードを参照するオーディエンス（ストリーミングまたはバッチ）を作成します。
+
+   +++
+
+1. **[!UICONTROL デフォルトの返信メッセージ]** を入力します。 このメッセージは、ユーザーの応答が設定されたキーワードに一致しない場合に自動的に送信されます。
+
+   ![](assets/webhook-8.png)
+
+1. 「**[!UICONTROL 送信]**」をクリックして、Webhook 設定を保存します。
+
+1. **[!UICONTROL Webhook]** メニューで、Infobip 用の **フィードバック** Webhook を作成する必要があります。
+
+1. 以下に説明するように、Webhook 設定を指定します。
+
+   * **[!UICONTROL 名前]**:Webhook の名前を入力します。
+
+   * **[!UICONTROL SMS ベンダーを選択]**:Infobip。
+
+   * **[!UICONTROL タイプ]**:「フィードバック」を選択します。
+
+   ![](assets/webhook-9.png)
+
+1. 「**[!UICONTROL 送信]**」をクリックして、フィードバック Webhook の設定を保存します。
+
+1. **[!UICONTROL Webhook]** メニューから、既存の Webhook を編集または削除できます。
+
+1. 新しく作成した Webhook にアクセスし、各 Webhook から **[!UICONTROL Webhook URL]** をコピーします。
+
+   ![](assets/webhook-10.png)
+
+1. これらの URL を使用して、両方のコールバック URL でフィードバックとインバウンドイベントをJourney Optimizerに取り込めるようになりました。
+
+Webhook が、既存のチャネル設定に添付された API 認証情報を使用している場合、Webhook は直ちに有効になります。 それ以外の場合は、新しいチャネル設定を作成します。
+
+➡️[ 詳しくは、チャネル設定を参照してください ](sms-configuration-surface.md)
+
+### カスタムプロバイダーの場合 {#create-webhook-custom}
+
+カスタム SMS プロバイダーの場合、2 つの異なる Webhook を作成します。1 つはフィードバックイベント用、もう 1 つはインバウンドイベント用です。
 
 1. 左側のパネルで、**[!UICONTROL 管理]** `>` **[!UICONTROL チャネル]**&#x200B;に移動し、**[!UICONTROL SMS 設定]**&#x200B;の下にある **[!UICONTROL SMS Webhook]** メニューを選択して、「**[!UICONTROL Webhook を作成]**」ボタンをクリックします。
 
-   ![](assets/sms_byo_5.png){zoomable="yes"}
+   ![](assets/webhook-1.png)
 
-1. 以下で説明するように、Webhook 設定を指定します。
+1. 以下に説明するように、Webhook 設定を指定します。
 
-   * **[!UICONTROL 名前]**：Webhook の名前を入力します。
+   * **[!UICONTROL 名前]**:Webhook の名前を入力します。
 
-   * **[!UICONTROL SMS ベンダーを選択]**:Sinch。
+   * **[!UICONTROL SMS ベンダーを選択]**：カスタム。
 
-   * **[!UICONTROL タイプ]**：インバウンド。
+   * **[!UICONTROL タイプ]**:「フィードバック」または「インバウンド」を選択します。 両方を別々に作成する必要があります。ここでは、インバウンドから始めます。
 
-   * **[!UICONTROL API 資格情報]**：[以前に設定した API 資格情報](sms-configuration-sinch.md#create-api)をドロップダウンから選択します。
+   * **[!UICONTROL API 資格情報]**：[以前に設定した API 資格情報](sms-configuration-custom.md)をドロップダウンから選択します。
 
-   * **[!UICONTROL 送信者電話番号]**：コミュニケーションに使用する送信者の電話番号を入力します。
+   * **[!UICONTROL 送信者の電話番号]**：コミュニケーションに使用する送信者の電話番号を入力します。
 
-     ![](assets/webhook-sinch-1.png){zoomable="yes"}
+   ![](assets/webhook-11.png)
 
-1. 「![](assets/do-not-localize/Smock_Add_18_N.svg)」をクリックしてキーワードカテゴリを追加し、SMS プロバイダーに応じて設定します。
+1. 「**[!UICONTROL キーワードを入力]**」フィールドにキーワードを入力して、受信キーワードの設定を開始します。 複数のキーワードを追加したり削除したりできます。 キーワードでは大文字と小文字が区別されません。
 
-   * **[!UICONTROL 受信キーワードカテゴリ]**：キーワードカテゴリを「**[!UICONTROL オプトイン]**」、「**[!UICONTROL オプトアウト]**」、「**[!UICONTROL ダブルオプトイン]**」、「**[!UICONTROL ヘルプ]**」または「**[!UICONTROL カスタム]**」から選択します。
+   ![](assets/webhook-12.png)
 
-   * **[!UICONTROL キーワードを入力]**：メッセージを自動的にトリガーするデフォルトまたはカスタムのキーワードを入力します。「![](assets/do-not-localize/Smock_Add_18_N.svg)」をクリックして複数のキーワードを追加します。
+1. **[!UICONTROL 受信キーワードカテゴリ]** ドロップダウンからキーワードカテゴリを選択して、設定します。
 
-     **[!UICONTROL カスタムキーワード]**&#x200B;の場合は、ジャーニー内のバッチベースのアクションに同意以外の関連キーワードを使用します。
+   * 
+     +++ Opt-In
 
-   * **[!UICONTROL 返信メッセージ]**：自動的に送信されるカスタム応答をドロップダウンから選択します。
+      * ユーザーの同意を得てオプトインするキーワードを有効にします。 ユーザーのメッセージが設定されたキーワードと一致すると、ユーザーの電話番号は SMS メッセージの受信をオプトインします。
 
-   * **[!UICONTROL ファジーオプトアウト]**：このオプションを有効にすると、ニアマッチオプトアウトキーワードが検出された場合に自動返信が送信されます。
+      * デフォルトでは、Subscribe、Yes、Unstop、Continue、Resume、Begin の各キーワードが有効になっています。 「![](assets/do-not-localize/Smock_Close_18_N.svg)」をクリックして、デフォルトのキーワードを削除します。
 
-   ![](assets/webhook-sinch-2.png){zoomable="yes"}
+      * 「**[!UICONTROL 返信メッセージ]**」フィールドを使用すると、ユーザーのインバウンドメッセージがオプトインキーワードに一致した場合に自動的に送信されるメッセージを作成できます。
 
-1. 受信メッセージが設定されたキーワードまたはカテゴリに一致しない場合に自動的に送信される **[!UICONTROL デフォルトの返信メッセージ]** を入力します。
+   +++
 
-1. Webhook の設定が完了したら、「**[!UICONTROL 送信]**」をクリックします。
+   * 
+     +++ オプトアウト
 
-1. **[!UICONTROL Webhook]** メニューで、![ごみ箱アイコン](assets/do-not-localize/Smock_Delete_18_N.svg)をクリックして、Webhook を削除します。
+      * ユーザーをオプトアウトし、テキストメッセージの送信に対する同意を削除するキーワードを有効にします。 ユーザーのメッセージが設定されたキーワードと一致すると、ユーザーの電話番号は SMS メッセージの受信からオプトアウトされます。
 
-1. 既存の設定を変更するには、目的の Webhook を見つけて、「**[!UICONTROL 編集]**」オプションをクリックして必要な変更を行います。
+      * デフォルトでは、次のキーワードが有効です。Stop、Quit、Cancel、End、Unsubscribe、No。 「![](assets/do-not-localize/Smock_Close_18_N.svg)」をクリックして、デフォルトのキーワードを削除します。
 
-1. 以前に送信した **[!UICONTROL Webhook]** から新しい **[!UICONTROL Webhook URL]** にアクセスしてコピーします。
+      * 「**[!UICONTROL 返信メッセージ]**」フィールドを使用すると、ユーザーの受信メッセージがオプトアウトキーワードと一致した場合に自動的に送信されるメッセージを作成できます。
 
-   ![](assets/sms_byo_7.png){zoomable="yes"}
+      * **[!UICONTROL ファジーロジック]** を有効にして、設定済みのオプトアウトキーワードに類似したキーワードを検出します。 ユーザーの応答が近くても正確でない場合、「あいまい自動応答 **[!UICONTROL フィールドに入力されたメッセージが送信され]** す。 通常、このメッセージはオプトアウトが発生しなかったことを示し、登録解除に必要な正確なキーワードを指定します。
 
-Webhook のインバウンド設定を作成し指定したら、SMS メッセージ用の[チャネル設定](sms-configuration-surface.md)を作成する必要があります。
+   +++
 
-設定が完了すると、メッセージオーサリング、パーソナライゼーション、リンクトラッキング、レポートなど、すべての標準のチャネル機能を活用できます。
+   * 
+     +++ ダブルオプトイン
 
-<!--
->[!TAB Twilio]
+      * ダブルオプトイン要件のキーワードを有効にします。 ユーザーのメッセージが設定済みのキーワードに一致する場合、この段階では完全にオプトインされていません。 この 2 つの手順による同意ワークフローでは、ユーザーが 2 つ目のキーワードでオプトインを確認する必要があります。
 
-1. In the left rail, navigate to **[!UICONTROL Administration]** `>` **[!UICONTROL Channels]**, select the **[!UICONTROL SMS Webhooks]** menu under **[!UICONTROL SMS settings]**, and click the **[!UICONTROL Create Webhook]** button.
+      * 「**[!UICONTROL 返信メッセージ]**」フィールドを使用すると、ダブルオプトインキーワードが一致した場合に自動的に送信されるメッセージを作成できます。 このメッセージは、オプトインプロセスを完了するためにオプトインキーワードを入力するようにユーザーに指示します。
 
-    ![](assets/sms_byo_5.png){zoomable="yes"}
+   +++
 
-1. Configure your Webhook Settings, as detailed below:
+   * 
+     +++ ヘルプ
 
-    * **[!UICONTROL Name]**: Enter a name for your Webhook.
+      * ヘルプが要求されたときに標準的な応答を提供するキーワードを有効にします。 ユーザーのメッセージが設定されたキーワードに一致すると、ユーザーはヘルプ返信メッセージを受け取ります。
 
-    * **[!UICONTROL Select SMS vendor]**: Twilio.
+      * デフォルトでは、「Help」、「Info」、「Information」の各キーワードが有効になっています。 「![](assets/do-not-localize/Smock_Close_18_N.svg)」をクリックして、デフォルトのキーワードを削除します。
 
-    * **[!UICONTROL Type]**: Inbound.
+      * 「**[!UICONTROL 返信メッセージ]**」フィールドを使用すると、ユーザーの受信メッセージがヘルプキーワードと一致した場合に自動的に送信されるメッセージを作成できます。
 
-    * **[!UICONTROL API credentials]**: Choose from the drop-down you [previously configured API credentials](sms-configuration-twilio.md#create-api).
+   +++
 
-    * **[!UICONTROL Sender Phone Number ​]**: Enter the Sender phone number ​you want to use for your communications.
-        
-1. Click ![](assets/do-not-localize/Smock_Add_18_N.svg) to add your keywords categories, then, configure them depending on your SMS provider:
+   * 
+     +++ カスタム
 
-    * **[!UICONTROL Inbound Keyword Category]**: Choose your keyword categories either **[!UICONTROL Opt-In]**, **[!UICONTROL Opt-Out]**, **[!UICONTROL Double Opt-In]**, **[!UICONTROL Help]** or **[!UICONTROL Custom]**. 
+      * 単一のカスタムキーワードを設定します。 ユーザーのメッセージがこのキーワードに一致すると、キーワードは、レポートとオーディエンス構築のために **[!UICONTROL メッセージフィードバックトラッキング]** データセットに書き込まれます。
 
-    * **[!UICONTROL Enter a keyword]**: Enter the default or custom keywords that will automatically trigger your message. Click ![](assets/do-not-localize/Smock_Add_18_N.svg) to add multiple keywords.
+      * ジャーニーやキャンペーンで使用するためにこのキーワードを参照するオーディエンス（ストリーミングまたはバッチ）を作成します。
 
-        For **[!UICONTROL Custom keyword]**, use non-consent–related keywords for batch-based actions within a journey.
+   +++
 
-    * **[!UICONTROL Reply Message]**: Select from the drop-down the custom response that is automatically sent.
+1. **[!UICONTROL デフォルトの返信メッセージ]** を入力します。 このメッセージは、ユーザーの応答が設定されたキーワードに一致しない場合に自動的に送信されます。
 
-    * **[!UICONTROL Fuzzy Opt-out]**: Enable this option to send an automatic reply when a near-match opt-out keyword is detected.
+   ![](assets/webhook-13.png)
 
-1. Enter a **[!UICONTROL Default Reply Message]** automatically sent when an inbound message does not match any configured keyword or category.
+1. プロバイダーから得られる JSON に一致するカスタムペイロードを作成します。 サポートされている Webhook 形式は JSON のみです。 Webhook 用のフォームデータはサポートされていません。
 
-1. Click **[!UICONTROL Submit]** when you finished the configuration of your Webhook.
+   インバウンド Webhook では、プロバイダーの Webhook から値を受け取るために次のフィールドが必要です。
 
-1. In the **[!UICONTROL Webhooks]** menu, click the ![bin icon](assets/do-not-localize/Smock_Delete_18_N.svg) to delete your Webhook.
+   * **InboundMessage**：ユーザーから受信した受信メッセージまたはキーワードです。
+   * **ProfileNumber**：メッセージを送信したユーザーの電話番号。
+   * **リクエスト ID**：特定のトランザクションを識別するために SMS プロバイダーが提供する一意の ID。
+   * **OriginTimestamp**：メッセージを受信した際のタイムスタンプ（UTC 形式）。
+   * **InboundNumber**：この Webhook 設定に使用される電話番号。
 
-1. To modify existing configuration, locate the desired Webhook and click the **[!UICONTROL Edit]** option to make the necessary changes.
+   +++ペイロードの例
 
-1. Access and copy your new **[!UICONTROL Webhook URL]** from your previously submitted **[!UICONTROL Webhook]**.
+       ```json
+       {
+       &quot;inboundMessage&quot;: &quot;{{inboundMessage}}&quot;,
+       &quot;profileNumber&quot;: &quot;{{profileNumber}}&quot;,
+       &quot;requestId&quot;: &quot;{{requestId}}&quot;,
+       &quot;originTimestamp&quot;: &quot;{{originTimestamp}}&quot;,
+       &quot;inboundNumber&quot;: &quot;{{inboundNumber}}&quot;
+       }
+       ```
+   +++
 
-After creating and configuring the inbound settings for the Webhook, you now need to create a [channel configuration](sms-configuration-surface.md) for SMS messages. 
+1. JSON ファイルが作成されたら、**[!UICONTROL ペイロードエディターを表示]** をクリックし、JSON ペイロードをコピーしてエディターに貼り付け、保存します。
 
-Once configured, you can leverage all out-of-the-box channel capabilities such as message authoring, personalization, link tracking, and reporting.
--->
+   ![](assets/webhook-14.png)
 
->[!ENDTABS]
+1. 「**[!UICONTROL 送信]**」をクリックして、Webhook 設定を保存します。
 
+1. **[!UICONTROL Webhook]** メニューで、カスタムプロバイダーの **フィードバック** Webhook を作成する必要があります。
 
-## チュートリアルビデオ {#video}
+1. 以下に説明するように、Webhook 設定を指定します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3459089?captions=jpn)
+   * **[!UICONTROL 名前]**:Webhook の名前を入力します。
+
+   * **[!UICONTROL SMS ベンダーを選択]**：カスタム。
+
+   * **[!UICONTROL タイプ]**:「フィードバック」を選択します。
+
+   ![](assets/webhook-15.png)
+
+1. プロバイダーの JSON 形式に一致するカスタムペイロードを作成します。 サポートされている Webhook 形式は JSON のみです。 Webhook 用のフォームデータはサポートされていません。
+
+   フィードバック Webhook には、プロバイダーの Webhook から値を受け取るために次のフィールドが必要です。
+
+   * **クライアント参照**：ログに記録するためにペイロードで返される一意の ID。
+   * **コード**:SMS プロバイダーから提供された失敗コード。
+   * **ステータス**:SMS プロバイダーから提供された失敗ステータス。
+
+   +++ペイロードの例
+
+       ```json
+       {
+       &quot;clientReference&quot;: &quot;{{client_reference}}&quot;,
+       &quot;ステータス&quot;: [
+       {
+       &quot;code&quot;: &quot;{{failureCode}}&quot;,
+       &quot;status&quot;: &quot;{{feedbackStatus}}&quot;
+       }
+       ]
+       }
+       ```
+   
+   +++
+
+1. **[!UICONTROL ペイロードエディターを表示]** をクリックし、JSON ペイロードをコピーしてエディターに貼り付け、保存します。
+
+   ![](assets/webhook-16.png)
+
+1. 「**[!UICONTROL 送信]**」をクリックして、フィードバック Webhook の設定を保存します。
+
+1. **[!UICONTROL Webhook]** メニューから、既存の Webhook を編集または削除できます。
+
+1. 新しく作成した Webhook にアクセスし、各 Webhook から **[!UICONTROL Webhook URL]** をコピーします。
+
+1. Journey Optimizerのこれらの Webhook URL に **Feedback** イベントと **Inbound** イベントを送信するように SMS プロバイダーを設定します。
+
+   設定手順は、SMS プロバイダーによって異なります。 コールバック URL の設定について詳しくは、プロバイダーのドキュメントを参照してください。
+
+Webhook が、既存のチャネル設定に添付された API 認証情報を使用している場合、Webhook は直ちに有効になります。 それ以外の場合は、新しいチャネル設定を作成します。
+
+➡️[ 詳しくは、チャネル設定を参照してください ](sms-configuration-surface.md)
