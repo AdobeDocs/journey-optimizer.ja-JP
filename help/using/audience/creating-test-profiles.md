@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
-source-git-commit: 4d62f9eedcf50f3ebaa2236b0a3286e7490c069c
+source-git-commit: c54237bba0597ecc0d4ebb6084063834e0d2ab70
 workflow-type: tm+mt
 source-wordcount: '1299'
 ht-degree: 84%
@@ -44,10 +44,10 @@ ht-degree: 84%
    ![「スキーマを作成」ボタンを含むスキーマメニュー](assets/test-profiles-0.png)
 
 1. スキーマ作成オプションとして「**[!UICONTROL 標準]**」を選択します。
-1. スキーマタイプ（例：**[!UICONTROL 個人プロファイル]**）を選択し、「**次へ**」をクリックします。
+1. スキーマタイプ（例：**個人プロファイル**）を選択し、「**次へ**」をクリックします。
    ![「個人プロファイル」オプションを示すスキーマタイプの選択](assets/test-profiles-1.png)
 1. スキーマの名前を入力して、「**終了**」をクリックします。
-   ![&#x200B; スキーマに名前を付けて保存ダイアログ](assets/test-profiles-1-bis.png)
+   ![ スキーマに名前を付けて保存ダイアログ](assets/test-profiles-1-bis.png)
 1. 「**フィールドグループ**」セクションの左側で、「**追加**」をクリックして、適切なフィールドグループを選択します。「**[!UICONTROL プロファイルテストの詳細]**」フィールドグループを必ず追加してください。
    ![「追加」ボタンを含む「フィールドグループ」セクション](assets/test-profiles-1-ter.png)
 完了したら、「**[!UICONTROL フィールドグループを追加]**」をクリックします。フィールドグループのリストが、スキーマの概要画面に表示されます。
@@ -65,7 +65,7 @@ ht-degree: 84%
    ![「プロファイル」オプションが有効になっているスキーマのプロパティパネル](assets/test-profiles-5.png)
 1. 「**保存**」をクリックします。
 
-スキーマの作成について詳しくは、[XDM のドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=ja#prerequisites){target="_blank"} を参照してください。
+スキーマの作成について詳しくは、[XDM のドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=ja#prerequisites){target="_blank"} を参照してください。
 
 >[!IMPORTANT]
 >
@@ -173,7 +173,7 @@ Your journey will be composed of a **[!UICONTROL Read Audience]** and an **[!UIC
 1. プロファイルごとに 1 行追加し、各フィールドの値を入力します。
    ![サンプルテストプロファイルデータを含む CSV ファイル](assets/test-profiles-12.png)
 1. スプレッドシートを CSV ファイルとして保存します。カンマが区切り記号として使用されていることを確認します。
-1. [!DNL Adobe Experience Platform] **ワークフロー**&#x200B;を参照します。
+1. [!DNL Adobe Experience Platform] **ワークフロー**を参照します。
    ![Adobe Experience Platform のワークフローメニュー](assets/test-profiles-14.png)
 1. 「**[!UICONTROL CSV を XDM スキーマにマッピング]**」を選択し、「**開始**」をクリックします。
    ![「CSV を XDM スキーマにマッピング」ワークフローオプション](assets/test-profiles-16.png)
@@ -251,4 +251,4 @@ curl -X POST \
 
 テストプロファイルを作成する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416426?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334236?quality=12)

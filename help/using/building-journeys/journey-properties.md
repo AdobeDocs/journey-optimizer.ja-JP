@@ -10,10 +10,10 @@ level: Intermediate
 keywords: ジャーニー、設定、プロパティ
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: 6c509ef134c4240b243d255fd1ab7ec6bb062bf0
+source-git-commit: c54237bba0597ecc0d4ebb6084063834e0d2ab70
 workflow-type: tm+mt
-source-wordcount: '2885'
-ht-degree: 94%
+source-wordcount: '3069'
+ht-degree: 88%
 
 ---
 
@@ -47,7 +47,33 @@ ht-degree: 94%
 >
 >ライブジャーニーの場合、この画面には、ジャーニーを公開した日付とユーザーの名前のみが表示されます。
 
-「**技術的な詳細をコピー**」オプションを使用すると、ジャーニーに関する技術情報をコピーでき、サポートチームはこの情報をトラブルシューティングに使用できます。`JourneyVersion UID`、`OrgID`、`orgName`、`sandboxName`、`lastDeployedBy`、`lastDeployedAt` の情報がコピーされます。
+「**技術的な詳細をコピー**」オプションを使用すると、ジャーニーに関する技術情報をコピーでき、サポートチームはこの情報をトラブルシューティングに使用できます。次の情報がコピーされます。
+
+**一般**
+
+* `JourneyVersion UID` - ジャーニーのこのバージョンの一意の ID
+* `OrgID` – 組織の（IMS）識別子
+* `orgName` – 組織名
+* `sandboxName` - ジャーニーが実行されるサンドボックスの名前
+* `lastDeployedBy` - ジャーニーを最後に公開したユーザー
+* `lastDeployedAt` – 前回の公開日時
+
+
+**一時停止と再開** （ジャーニーが少なくとも 1 回一時停止されると含まれます）
+
+* `lastPausedAt` - ジャーニーが最後に一時停止された日時
+* `lastPausedBy` – 最後に一時停止を実行したユーザーの表示名
+* `lastPausedById` – 最後の一時停止を実行したユーザーの内部識別子
+* `lastResumedAt` - ジャーニーが最後に再開された日時
+* `lastResumedBy` – 前回の再開を実行したユーザーの表示名
+* `lastResumedById` – 前回の再開を実行したユーザーの内部識別子
+
+**ジャーニーの設定を一時停止** （`pausedJourneySettings` では、ジャーニーが一時停止または一時停止されたとき）
+
+* `pauseBehavior` – 一時停止時にジャーニー内のプロファイルに起こること（プロファイルの破棄や保持など）
+* `maxPauseDurationInMinutes` – 最大一時停止時間（分）。その後ジャーニーが自動再開されます（例：20160 = 14 日）
+* `transitionStateForAutoResume` – 一時停止期間の終わりにジャーニーが自動再開するときに適用される状態（停止、続行など）
+* `pauseId` – 現在の一時停止インスタンスの一意の ID
 
 特定のプロファイルのジャーニーに関連する技術的なフィールドとその使用方法について詳しくは、[このページ](expression/journey-properties.md)を参照してください。
 
@@ -134,7 +160,7 @@ ht-degree: 94%
 
 >[!NOTE]
 >
->ジャーニーを「完了」と見なすタイミングの正確な定義は、ジャーニータイプによって異なります。 [&#x200B; 詳細な条件を参照 &#x200B;](end-journey.md#journey-finished-definition)。
+>ジャーニーを「完了」と見なすタイミングの正確な定義は、ジャーニータイプによって異なります。 [ 詳細な条件を参照 ](end-journey.md#journey-finished-definition)。
 
 91 日間のジャーニータイムアウトにより、ジャーニーの再エントリが許可されていない場合、再エントリのブロックが 91 日を超えて機能することは保証できません。実際、ジャーニーにエントリしたユーザーの情報はエントリから 91 日後にすべて削除されるので、91 日前より古い日時にエントリしたユーザーが誰かを特定することはできません。
 
@@ -260,7 +286,7 @@ ht-degree: 94%
 
 ジ [!DNL Adobe Journey Optimizer] ーニー全体で使用する結合ポリシーを適用します。 したがって、1 つのジャーニーで複数のオーディエンスが使用されている場合（例：[`inAudience` 関数](functions/functioninaudience.md)内での使用）、これにより、ジャーニーで使用される結合ポリシーとの不一致が生じると、エラーが発生して、公開がブロックされます。ただし、メッセージのパーソナライゼーションで一貫性のないオーディエンスが使用されると、一貫性がないにもかかわらず、アラートは発生しません。このため、このオーディエンスをメッセージのパーソナライゼーションに使用する場合は、オーディエンスに関連付けられた結合ポリシーを確認することを強くお勧めします。
 
-結合ポリシーについて詳しくは、[[!DNL Adobe Experience Platform]  ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/merge-policies/overview){target="_blank"} を参照してください。
+結合ポリシーについて詳しくは、[[!DNL Adobe Experience Platform]  ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/merge-policies/overview){target="_blank"} を参照してください。
 
 >[!NOTE]
 >
@@ -346,7 +372,7 @@ ht-degree: 94%
 
 * [ジャーニーのエントリ条件と終了条件ガイド](entry-exit-criteria-guide.md) - 実際の例とベストプラクティスを含む完全なガイド
 * [プロファイルエントリ管理](entry-management.md) - プロファイルがジャーニーにエントリする方法を設定します
-* [&#x200B; ジャーニーの終了方法](end-journey.md) - 自然なジャーニーの完了について説明します
+* [ ジャーニーの終了方法](end-journey.md) - 自然なジャーニーの完了について説明します
 * [プロファイル属性終了条件を使用したジャーニーの一時停止](journey-pause.md#journey-exit-criteria) - ジャーニーを一時停止する際に終了条件を使用します
 
 ## ジャーニースケジュール {#schedule}
@@ -355,7 +381,7 @@ ht-degree: 94%
 
 >[!TIP]
 >
->ジャーニーをスケジュールする際に、ウェーブ送信を設定して、ジャーニーのアクションを一括で経時的に配信することもできます。 [&#x200B; ジャーニーでウェーブを使用して送信する方法を説明します &#x200B;](send-using-waves.md)
+>ジャーニーをスケジュールする際に、ウェーブ送信を設定して、ジャーニーのアクションを一括で経時的に配信することもできます。 [ ジャーニーでウェーブを使用して送信する方法を説明します ](send-using-waves.md)
 
 
 ## 競合管理 {#conflict}
