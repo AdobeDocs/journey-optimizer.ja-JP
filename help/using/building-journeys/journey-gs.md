@@ -10,10 +10,10 @@ level: Intermediate
 keywords: ジャーニー, 最初, 開始, クイックスタート, オーディエンス, イベント, アクション
 exl-id: d940191e-8f37-4956-8482-d2df0c4274aa
 version: Journey Orchestration
-source-git-commit: 302db58525a7b2648bb9c44bc9b42da787ca9c43
+source-git-commit: 7d176d5e2fbaa26d9b4ac22e08c7a86ccea22c45
 workflow-type: tm+mt
-source-wordcount: '949'
-ht-degree: 92%
+source-wordcount: '1213'
+ht-degree: 52%
 
 ---
 
@@ -37,36 +37,44 @@ ht-degree: 92%
 
 ![ジャーニーの作成手順：作成、デザイン、テスト、公開](assets/journey-creation-process.png)
 
+このガイドでは、以下を行います。
+
+* ジャーニーエントリポイント（オーディエンスセグメントまたはリアルタイムイベント）を定義します
+* チャネル（メール、プッシュまたは SMS）をまたいだメッセージアクションの追加
+* アクティベーション前にテストプロファイルでジャーニーをテスト
+* ジャーニーを公開し、そのパフォーマンスを監視する
 
 複数の手順から成るカスタマージャーニーを作成し、チャネルをまたいでインタラクション、オファーおよびメッセージのシーケンスをリアルタイムで開始します。このアプローチにより、お客様の行動と関連するビジネスシグナルに基づいて、最適なタイミングで顧客と関与できるようになります。ターゲットオーディエンスは、行動、コンテキストデータ、ビジネスイベントに基づいて定義されます。前提条件は、ユースケースと、作成する[ジャーニーのタイプ](entry-management.md#types-of-journeys)によって異なります。
 
 プロファイルがジャーニーを通じてフローする仕組みとジャーニーの処理率について詳しくは、[この節](entry-management.md#journey-processing-rate)を参照してください。
 
-ジャーニーの作成を開始する前に、関連する設定手順が完了していることを確認します。
+<!--
+>[!TIP]
+>
+>Not sure whether to use a journey or a campaign? [Learn how to choose the right approach](../start/journeys-vs-campaigns.md).
+-->
 
-* イベントを受信した際に個別にジャーニーをトリガーする場合は、**イベントを設定**&#x200B;します。想定する情報とその情報の処理方法を定義します。[詳細情報](../event/about-events.md)。
+## 事前準備 {#prerequisites}
 
-<!--   ![](assets/jo-event7bis.png)  -->
+作成する前に設定する必要があるのは、ジャーニーがどのようにトリガーされるかによって異なります。 ほとんどのジャーニーは、次の 2 つのエントリポイントのいずれかから開始されます。
 
-* 指定された一連のプロファイルにメッセージを一括送信するのに、ジャーニーで Adobe Experience Platform オーディエンスをリッスンすることもできます。これには、**オーディエンスを作成**&#x200B;します。[詳細情報](../audience/about-audiences.md)。
+* **オーディエンスベースのエントリ** - ジャーニーは、定義された一連のプロファイルに対して、スケジュールされた時間に実行されます。 ジャーニーを構築する前に、Adobe Experience Platformで [ オーディエンスを作成 ](../audience/about-audiences.md) します。 Journey Optimizerを初めて使用する場合は、このドキュメントから開始することをお勧めします。
 
-<!--   ![](assets/segment2.png)  -->
+* **イベントベースのエントリ** – 個人が購入やサインアップなどのアクションを実行すると、ジャーニーがリアルタイムでトリガーされます。 [ イベントの設定 ](../event/about-events.md)：イベントと、トリガーに保持するデータを定義します。
 
-* システムへの接続を定義して、ジャーニーで使用する追加情報（条件など）を取得します。この接続は、**データソース**&#x200B;に基づいています。[詳細情報](../datasource/about-data-sources.md)。
+次の要素はオプションですが、ユースケースによっては必須になる場合があります。
 
-<!--   ![](assets/jo-datasource.png)  -->
+* **データソース** – 外部システムからのデータでジャーニー条件やパーソナライゼーションを強化するには、[ データソース ](../datasource/about-data-sources.md) を設定します。
 
-* Journey Optimizer には、[ビルトインのメッセージ](../building-journeys/journey-action.md)機能が含まれています。サードパーティシステムを使用してメッセージを送信する場合は、**カスタムアクションを作成**&#x200B;できます。詳しくは、[この節](../action/action.md)を参照してください。
-
-<!--    ![](assets/custom2.png)  -->
-
-
-データエンジニアとして、データソース、イベント、アクションを含むジャーニーを設定する手順について詳しくは、[この節](../configuration/about-data-sources-events-actions.md)を参照してください。
-
+* **カスタムアクション** – 組み込みチャネルではなくサードパーティシステムを使用してメッセージを配信する場合は、[ カスタムアクション ](../action/action.md) を設定します。
 
 >[!NOTE]
 >
->ジャーニーのガードレールと制限について詳しくは、[このページ](../start/guardrails.md)を参照してください
+>技術的な設定（イベント、データソース、アクション）を担当するデータエンジニアの場合は、[ この節 ](../configuration/about-data-sources-events-actions.md) を参照してください。
+
+>[!NOTE]
+>
+>ジャーニーガードレールと制限について詳しくは、[ このページ ](../start/guardrails.md) を参照してください。
 
 ## ジャーニーの作成 {#jo-build}
 
@@ -78,25 +86,33 @@ ht-degree: 92%
 
 1. ジャーニーの設定パネルを編集して、ジャーニーの名前を定義し、そのプロパティを設定します。ジャーニーのプロパティを設定する方法について詳しくは、[このページ](journey-properties.md)を参照してください。
 
+   >[!TIP]
+   >
+   >**どのジャーニータイプを選択すればよいですか？** Journey Optimizerを初めて使用する場合は、**[!UICONTROL オーディエンスを読み取り]** アクティビティを使用したオーディエンスベースのジャーニーから開始します。これは、事前のイベント設定を必要とせず、キャンバスに慣れる最も簡単な方法です。 リアルタイムのイベントトリガーエクスペリエンス（購入やフォーム送信に対する反応など）の場合は、最初にイベントを設定し、イベントベースのエントリを使用します。 詳しくは、[ジャーニータイプ](entry-management.md#types-of-journeys)を参照してください。
+
    ![設定オプションを含むジャーニーのプロパティパネル](assets/jo-properties.png)
 
 その後、ジャーニーのデザインを開始できます。
 
 ## ジャーニーのデザイン {#jo-design}
 
-オムニチャネルジャーニー designer は、直感的なドラッグ&amp;ドロップインターフェイスを用いて、ターゲットオーディエンス、リアルタイムの顧客やビジネスインタラクションに基づく更新、およびオムニチャネルメッセージを使用した、複数手順のジャーニーを作成できるようユーザーを支援します。
-
->[!TIP]
->
->複数のフェーズまたは多くのタッチポイントを持つジャーニーの場合は、エンドツーエンドのフローを、**[!UICONTROL ジャンプ]** アクティビティに接続される、より小さくフォーカスされたサブジャーニーに分割することを検討します。 このアプローチにより、複雑さが軽減され、各サブジャーニーを個別にテストして管理しやすくなります。 詳しくは、[&#x200B; 設計戦略：一口サイズのサブジャーニー &#x200B;](jump.md#jump-strategy) を参照してください。
+ジャーニーデザイナーを使用すると、直感的なドラッグ&amp;ドロップインターフェイスを使用して、複数の手順から成るジャーニーを作成できます。 左側のパレットのアクティビティは、**イベント**、**オーケストレーション**、**アクション** の 3 つのカテゴリに整理されています。 キャンバスとそのコントロールの概要については、[ このページ ](using-the-journey-designer.md) を参照してください。
 
 ![アクティビティパレットとキャンバスを含むジャーニーデザイナーインターフェイス](assets/journey38.png)
 
-1. まず、イベントまたは&#x200B;**オーディエンスを読み取り**&#x200B;アクティビティを、パレットからキャンバスにドラッグ＆ドロップします。ジャーニーのデザインについて詳しくは、[この節](using-the-journey-designer.md)を参照してください。
+ジャーニーをデザインするには、次の手順に従います。
+
+1. **エントリポイントの追加** - イベントまたは **[!UICONTROL オーディエンスを読み取り]** アクティビティを、パレットからキャンバスにドラッグします。 これにより、プロファイルがジャーニーにどのようにエントリするかを定義します。リアルタイム（イベントベース）で個別に入力することも、定義したオーディエンス（オーディエンスベース）から一度にすべて入力することもできます。
 
    ![ターゲットオーディエンスを選択するオーディエンスを読み取りアクティビティ設定](assets/read-segment.png)
 
-1. イベントまたは&#x200B;**オーディエンスを読み取り**&#x200B;アクティビティを、パレットからキャンバスにドラッグ＆ドロップします。ジャーニーのデザインについて詳しくは、[この節](using-the-journey-designer.md)を参照してください。
+1. **メッセージアクションの追加** - パレットの「**[!UICONTROL アクション]**」セクションから、チャネルアクションをキャンバスにドラッグして、ジャーニーを進むプロファイルにメッセージを送信します。 アクションは、メール、プッシュ通知、SMS などに使用できます。
+
+1. **オーケストレーションアクティビティの追加** - **[!UICONTROL 条件]** アクティビティを使用すると、プロファイル属性や動作に基づいて、ジャーニーを複数のパスに分岐できます。 **[!UICONTROL 待機]** アクティビティを使用すると、ステップ間に時間遅延を導入できます。
+
+>[!TIP]
+>
+>複数のフェーズまたは多くのタッチポイントを持つジャーニーの場合は、エンドツーエンドのフローを、**[!UICONTROL ジャンプ]** アクティビティに接続されるより小さなサブジャーニーに分割することを検討します。 これにより、複雑さが軽減され、各サブジャーニーを個別にテストしやすくなります。 詳しくは、[ 設計戦略：一口サイズのサブジャーニー ](jump.md#jump-strategy) を参照してください。
 
 ## ジャーニーのテスト {#jo-test}
 
@@ -116,6 +132,38 @@ ht-degree: 92%
 
 ジャーニーレポートについて詳しくは、[この節](../reports/live-report.md)を参照してください。
 
+## よくあるユースケース {#use-cases}
+
+どこから始めればよいかわかりませんか？ ジャーニーが最も大きな価値を提供する典型的な 3 つのシナリオを次に示します。
+
+<table style="table-layout:fixed">
+  <tr style="border: 0;">
+    <td>
+      <a href="https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding" target="_blank">
+        <img src="../assets/do-not-localize/icon-quick-start.svg">
+      </a>
+      <div><strong> ようこそシリーズ </strong><br/> 新規登録後に、一連のメッセージを使用して新しいユーザーを自動的にオンボーディングし、製品やサービスを通じてユーザーをガイドします。</div>
+    </td>
+    <td>
+      <a href="https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart" target="_blank">
+        <img src="../assets/do-not-localize/icon-campaign.svg">
+      </a>
+      <div><strong> 買い物かごの放棄 </strong><br/> パーソナライズされたコンテンツを含むタイムリーなリマインダーを送信することで、購入を完了せずに去った顧客を再び引き付けます。</div>
+    </td>
+    <td>
+      <a href="jo-use-cases.md">
+        <img src="../assets/do-not-localize/icon-content.svg">
+      </a>
+      <div><strong> 再エンゲージメント </strong><br/> 非アクティブなユーザーを取り戻し、最後に判明した行動に基づいて、ターゲット設定されたオファーや更新を提供します。</div>
+    </td>
+  </tr>
+  <tr style="border: 0;">
+    <td align="center"><a href="https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding" target="_blank"><img src="../assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart" target="_blank"><img src="../assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="jo-use-cases.md"><img src="../assets/do-not-localize/learn-more-button.svg"></a></td>
+  </tr>
+</table>
+
 ## その他のリソース
 
 * **[ジャーニーデザイナーの概要](using-the-journey-designer.md)** - ジャーニーキャンバスインターフェイスを習得して、カスタマージャーニーをデザインおよび調整します。
@@ -126,6 +174,3 @@ ht-degree: 92%
 * **[ジャーニーのトラブルシューティング](troubleshooting.md)** - 一般的なジャーニーの問題に対する解決策とデバッグのベストプラクティスについて説明します。
 * **[ジャーニーのチュートリアル](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/journeys/introduction-to-building-a-journey){target="_blank"}** - ジャーニーの作成とベストプラクティスに関するステップバイステップのビデオチュートリアルを参照してください。
 
->[!NOTE]
->
->**ライブ**&#x200B;ジャーニーを変更する必要がある場合は、ジャーニーの[新しいバージョンを作成](journey-ui.md#journey-filter)します。
