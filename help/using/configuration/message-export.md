@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 書き出し, メッセージ, HIPAA, メール, SMS, 設定
 exl-id: 7b50c933-9738-4b1b-acae-08f0a8d41dab
-source-git-commit: ab0f100d53cb987919eb134442bf05e64c30719a
+source-git-commit: e9b748591c425395e71b53c5e80f03a42ce0563d
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 53%
+source-wordcount: '701'
+ht-degree: 48%
 
 ---
 
@@ -52,7 +52,9 @@ ht-degree: 53%
 
 ### 書き出しデータフローを設定 {#set-up-export-dataflow}
 
-データを書き出す前に、[!DNL Experience Platform] の宛先と使用するデータセットを定義して、書き出しプロセスを設定する必要があります。次の手順に従います。
+データを書き出す前に、書き出し宛先とデータセット書き出しフローを定義して、書き [!DNL Experience Platform] しプロセスを設定します。
+
+手順、サポートされているクラウドの宛先、必要な権限など詳しくは、[ この節 ](../data/export-datasets.md#export-datasets) を参照してください。
 
 >[!NOTE]
 >
@@ -80,7 +82,7 @@ ht-degree: 53%
 
 1. 変更を保存し、チャネル設定を送信します。
 
-このチャネル設定を使用してキャンペーンまたはジャーニー経由でメッセージを送信すると、メールおよび SMS メッセージが **0&rbrace;AJO メッセージエクスポートデータセット &rbrace; に書き込まれます。**&#x200B;その後、データセット内の [&#x200B; レコードにアクセス &#x200B;](#access-exported-data) し、定義した書き出しデータフローに基づいて、選択したストレージ宛先に書き出すことができます。
+このチャネル設定を使用してキャンペーンまたはジャーニー経由でメッセージを送信すると、メールおよび SMS メッセージが **0}AJO メッセージエクスポートデータセット } に書き込まれます。**&#x200B;その後、データセット内の [ レコードにアクセス ](#access-exported-data) し、定義した書き出しデータフローに基づいて、選択したストレージ宛先に書き出すことができます。
 
 >[!NOTE]
 >

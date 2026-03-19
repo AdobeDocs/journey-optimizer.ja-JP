@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: データセット, Optimizer, ユースケース
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: ht
-source-wordcount: '1066'
-ht-degree: 100%
+source-git-commit: e9b748591c425395e71b53c5e80f03a42ce0563d
+workflow-type: tm+mt
+source-wordcount: '1086'
+ht-degree: 95%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 * [プッシュトラッキングエクスペリエンスイベントデータセット](#push-tracking-experience-event-dataset)
 * [ジャーニーステップイベント](#journey-step-event)
 * [意思決定イベントデータセット](#ode-decisionevents)
-* [BCC フィードバックイベントデータセット](#bcc-feedback-event-dataset)
+* [セカンダリ受信者フィードバックイベントデータセット（BCC）](#bcc-feedback-event-dataset)
 * [エンティティデータセット](#entity-dataset)
 
 各スキーマのフィールドと属性の完全なリストを表示するには、[Journey Optimizer スキーマ辞書](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja){target="_blank"}を参照してください。
@@ -336,11 +336,11 @@ select value.marketing.email.val FROM (
 ```
 -->
 
-## BCC フィードバックイベントデータセット{#bcc-feedback-event-dataset}
+## セカンダリ受信者フィードバックイベントデータセット（BCC）{#bcc-feedback-event-dataset}
 
-_インターフェイスの名前：AJO BCC フィードバックイベントデータセット（システムデータセット）_
+_インターフェイスの名前：AJOセカンダリ受信者フィードバックイベントデータセット（システムデータセット）。 クエリサービスでは、データセットテーブルの名前は引き続き `ajo_bcc_feedback_event_dataset`._ になる場合があります
 
-BCC メッセージの情報を保存するデータセット。
+BCC アーカイブが有効な場合のメール BCC （セカンダリ受信者）メッセージのデータセット。
 
 2 日以内のすべての BCC メッセージに対するクエリ（特定のキャンペーンの場合）：
 
