@@ -7,10 +7,10 @@ feature: Integrations, Data Ingestion
 role: User
 level: Beginner
 exl-id: 359ea3c6-7746-469e-8a24-624f9726f2d8
-source-git-commit: 7864012ad148c2e52bc38598016e7bd7fac9644e
-workflow-type: ht
-source-wordcount: '584'
-ht-degree: 100%
+source-git-commit: 4c7aefc3f54c26bb3d1f84bc2fcf5ed984750494
+workflow-type: tm+mt
+source-wordcount: '625'
+ht-degree: 93%
 
 ---
 
@@ -94,6 +94,10 @@ Adobe Journey Optimizer は、Adobe Experience Platform のソースフレーム
 5. **監視** - データフローを追跡し、同期に関する問題を解決します
 
 設定が完了すると、ソースはバックグラウンドで自動的に実行され、顧客データが最新の状態に保持され、ジャーニーで使用できるようになります。
+
+>[!NOTE]
+>
+>**オーケストレートキャンペーンのデータ取り込み** - オーケストレートキャンペーンで使用されるファイルベースのチェンジ データキャプチャソースの場合、`_change_request_type` フィールドは必須です。 サポートされる値は、`u` （アップサート）または `d` （削除）です。 これらの値は、大文字の `u` と `d` ではなく、小文字の `U` と `D` にする必要があります。 [ オーケストレートキャンペーンのガードレールと制限について詳しくはこちらを参照 ](../orchestrated/guardrails.md)
 
 ## 詳細情報 {#learn-more}
 

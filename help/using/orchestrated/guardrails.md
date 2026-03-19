@@ -5,10 +5,10 @@ title: 調整されたキャンペーンのガードレールと制限
 description: 調整されたキャンペーンのガードレールと制限について説明します
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
-source-git-commit: 266bf3afde663b17aedce5fb51e7c5f424fee9ad
+source-git-commit: 4c7aefc3f54c26bb3d1f84bc2fcf5ed984750494
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 97%
+source-wordcount: '519'
+ht-degree: 94%
 
 ---
 
@@ -35,13 +35,13 @@ ht-degree: 97%
 
 * Adobe Experience Platform **プロファイル**&#x200B;では、リレーショナルスキーマを有効にできません。Adobe Experience Platform **プロファイル**&#x200B;では、標準 XDM スキーマのみがサポートされています。リレーショナルスキーマは、オーケストレーションキャンペーンまたはアクションキャンペーンに対して有効にできます。[詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
 
-### データ取り込み
+### データ取り込み {#data-ingestion}
 
 * プロファイル + リレーショナルデータ取り込みが必要です。
 
 * すべての取り込みは、**変更データキャプチャ**&#x200B;ソースを通じて行う必要があります。
 
-   * **ファイルベース**&#x200B;の場合：`_change_request_type` フィールドが必要です。サポートされている値は、`U`（アップサート）または `D`（削除）です。
+   * **ファイルベース**&#x200B;の場合：`_change_request_type` フィールドが必要です。サポートされている値は、`u` （アップサート）または `d` （削除）です。 これらの値は、大文字の `u` と `d` ではなく、小文字の `U` と `D` にする必要があります。
 
    * **クラウドベース**&#x200B;の場合：テーブルログを有効にする必要があります。
 
