@@ -8,10 +8,11 @@ topic: Personalization
 role: Developer
 level: Intermediate
 keywords: 式, エディター, Handlebars, 反復, 配列, コンテキスト, パーソナライゼーション
-source-git-commit: a0e8ca1b45818014993c37ac41f25e30ee1d1bb5
-workflow-type: ht
-source-wordcount: '3008'
-ht-degree: 100%
+exl-id: 1a7c490f-6490-4785-a44d-bddd5482754d
+source-git-commit: 2dd13148d34436f8d98f04a2f9143e942d0604c3
+workflow-type: tm+mt
+source-wordcount: '3060'
+ht-degree: 98%
 
 ---
 
@@ -67,6 +68,16 @@ context.journey.events.<event_ID>.<fieldPath>
 
 * `<event_ID>`：ジャーニーで設定されたイベントの一意の ID
 * `<fieldPath>`：イベントスキーマ内のフィールドまたは配列へのパス
+
+>[!NOTE]
+>
+>**数値イベント ID にはバッククォートが必要です。** イベント ID が数値（例：`1697323153`）の場合は、式パスでバッククォート（`` ` ``）で囲みます。 バッククォートがない場合、PQL パーサーは構文エラーを発生させます。
+>
+>```handlebars
+>context.journey.events.`1697323153`.fieldName
+>```
+>
+>イベントタイムスタンプからの日付形式を含む完全な例と詳細については、[ コンテキストイベントからのタイムスタンプの形式 ](../personalization/functions/dates.md#format-date) を参照してください。
 
 ### 例：イベントからの買い物かご項目
 
@@ -1042,4 +1053,3 @@ Handlebars には、ループ内で高度な反復パターンを実行するの
 **パーソナライゼーションのユースケース：**[買い物かご放棄メール](personalization-use-case-helper-functions.md) | [注文ステータス通知](personalization-use-case.md)
 
 **メッセージデザイン：**[メールデザインの基本を学ぶ](../email/get-started-email-design.md) | [プッシュ通知の作成](../push/create-push.md) | [SMS メッセージの作成](../sms/create-sms.md) | [コンテンツのプレビューとテスト](../content-management/preview-test.md)
-

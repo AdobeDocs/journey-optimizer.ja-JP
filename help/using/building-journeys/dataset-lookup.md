@@ -10,10 +10,10 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="限定提供" type="Informative"
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 4a5a512a3e9eddaf720e857f5a250c645b2454db
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 91%
+source-wordcount: '913'
+ht-degree: 76%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 91%
 
 ### データセットのイネーブルメント
 
-[!DNL Adobe Experience Platform] で参照するには、データセットを有効にする必要があります。 詳しくは、次の節を参照してください。[&#x200B; 使用  [!DNL Adobe Experience Platform]  データ &#x200B;](../data/lookup-aep-data.md)。
+[!DNL Adobe Experience Platform] で参照するには、データセットを有効にする必要があります。 詳しくは、次の節を参照してください。[ 使用  [!DNL Adobe Experience Platform]  データ ](../data/lookup-aep-data.md)。
 
 ### 制限および制約事項
 
@@ -66,7 +66,7 @@ ht-degree: 91%
 
 1. **[!UICONTROL オーケストレーション]**&#x200B;カテゴリを展開し、**[!UICONTROL データセット参照]**&#x200B;アクティビティをキャンバスにドロップします。
 
-   ジャ ![[!DNL Adobe Experience Platform] ニーのデータセットルックアップアクティビティ &#x200B;](assets/aep-data-activity.png)
+   ジャ ![[!DNL Adobe Experience Platform] ニーのデータセットルックアップアクティビティ ](assets/aep-data-activity.png)
 
 1. ラベルと説明を追加します。
 
@@ -93,6 +93,10 @@ ht-degree: 91%
    * キーは、SKU、メール ID、その他の識別子など、ジャーニーコンテキストから派生した式にすることができます。例：`@profile.email` または `list(@event{purchase_event.products.sku})`。
 
    * **文字列**&#x200B;または&#x200B;**文字列のリスト**&#x200B;のみがサポートされます。
+
+   >[!IMPORTANT]
+   >
+   >**詳細設定モード** を使用してルックアップキーを定義する必要があります。 シンプルモードを使用してキーを設定すると、データセットルックアップアクティビティの出力はダウンストリームアクティビティのコンテキスト属性として使用できず、条件アクティビティで「データセットのルックアップが見つかりません」エラーが発生して `@datasetLookup{}` の構文が失敗します。
 
    +++例
 
@@ -191,3 +195,15 @@ ht-degree: 91%
    ```
    {{context.journey.datasetLookup.1482319411.entity.loyaltyMember.loyaltyTier}}
    ```
+
++++
+
+## トラブルシューティング {#troubleshooting}
+
+### 条件アクティビティに「データセット参照が見つかりません」エラーが発生する {#troubleshooting-not-found}
+
+**症状：** ジャーニーでデータセットルックアップアクティビティが正しく設定されている場合でも、条件アクティビティの高度な式エディターで `@datasetLookup{}` 構文を使用すると、「データセットのルックアップが見つかりません」というエラーが返されます。
+
+**原因：** データセットルックアップアクティビティのルックアップキーがシンプルモードを使用して設定されました。 キーが詳細設定モードで定義されていない場合、アクティビティの出力は、ダウンストリームアクティビティのコンテキスト属性として公開されません。
+
+**修正：** データセットルックアップアクティビティを開き、「**[!UICONTROL ルックアップキー]**」フィールドを見つけて、**詳細設定モード** に切り替えてキー式を再定義します。 アクティビティを保存し、ジャーニーを再公開します。

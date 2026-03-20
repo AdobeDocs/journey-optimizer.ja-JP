@@ -10,10 +10,10 @@ level: Intermediate
 keywords: ジャーニー、設定、プロパティ
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: c54237bba0597ecc0d4ebb6084063834e0d2ab70
+source-git-commit: fe1c75aee05606e5d9bb374e4f9a9cf7b6ca7577
 workflow-type: tm+mt
-source-wordcount: '3069'
-ht-degree: 88%
+source-wordcount: '3223'
+ht-degree: 84%
 
 ---
 
@@ -160,7 +160,7 @@ ht-degree: 88%
 
 >[!NOTE]
 >
->ジャーニーを「完了」と見なすタイミングの正確な定義は、ジャーニータイプによって異なります。 [&#x200B; 詳細な条件を参照 &#x200B;](end-journey.md#journey-finished-definition)。
+>ジャーニーを「完了」と見なすタイミングの正確な定義は、ジャーニータイプによって異なります。 [ 詳細な条件を参照 ](end-journey.md#journey-finished-definition)。
 
 91 日間のジャーニータイムアウトにより、ジャーニーの再エントリが許可されていない場合、再エントリのブロックが 91 日を超えて機能することは保証できません。実際、ジャーニーにエントリしたユーザーの情報はエントリから 91 日後にすべて削除されるので、91 日前より古い日時にエントリしたユーザーが誰かを特定することはできません。
 
@@ -274,6 +274,22 @@ ht-degree: 88%
       <p>プロファイルの TTL は、新しく再公開されたジャーニーバージョンの TTL と一致して、91 日間になります。強制的な再エントリを伴う、繰り返しジャーニーの場合、TTL は繰り返し期間と一致します。</p>
     </td>
   </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>常時稼動のオーディエンスを読み取りジャーニーは 91 日後に停止しますか？</p>
+    </td>
+    <td>
+      <p>いいえ。終了日のない繰り返しのオーディエンスを読み取りジャーニーは、公開されている限り <strong> ライブ </strong> のままです。 <strong> 最後の発生 </strong> の実行から 91 日後にのみ、<strong> 完了 </strong> ステータスに移動します。 91 日のグローバルタイムアウトは、ジャーニーのライブステータスではなく、ジャーニーを進む個々のプロファイル（プロファイルあたりの最大アクティブ時間）に適用されます。</p>
+    </td>
+  </tr>
+  <tr style="border: 1;">
+    <td>
+      <p>91 日のジャーニータイムアウトと 91 日のレポートウィンドウの違いは何ですか？</p>
+    </td>
+    <td>
+      <p>これらは 2 つの異なる概念です。 <strong> ジャーニーのグローバルタイムアウト </strong> （91 日）は、個人プロファイルがジャーニー内でアクティブな状態を維持できる最長の時間です。91 日後にプロファイルが離脱し、データは削除されます。 <strong> レポートウィンドウ </strong> （約 91 日）は、UI の表示制限です。約 91 日より古いパフォーマンスデータはレポートに表示されなくなりましたが、ジャーニー自体は引き続き実行され、新しいプロファイルが入力され続けます。</p>
+    </td>
+  </tr>
 </table>
 
 ## 結合ポリシー {#merge-policies}
@@ -286,7 +302,7 @@ ht-degree: 88%
 
 ジ [!DNL Adobe Journey Optimizer] ーニー全体で使用する結合ポリシーを適用します。 したがって、1 つのジャーニーで複数のオーディエンスが使用されている場合（例：[`inAudience` 関数](functions/functioninaudience.md)内での使用）、これにより、ジャーニーで使用される結合ポリシーとの不一致が生じると、エラーが発生して、公開がブロックされます。ただし、メッセージのパーソナライゼーションで一貫性のないオーディエンスが使用されると、一貫性がないにもかかわらず、アラートは発生しません。このため、このオーディエンスをメッセージのパーソナライゼーションに使用する場合は、オーディエンスに関連付けられた結合ポリシーを確認することを強くお勧めします。
 
-結合ポリシーについて詳しくは、[[!DNL Adobe Experience Platform]  ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/merge-policies/overview){target="_blank"} を参照してください。
+結合ポリシーについて詳しくは、[[!DNL Adobe Experience Platform]  ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/merge-policies/overview){target="_blank"} を参照してください。
 
 >[!NOTE]
 >
@@ -372,7 +388,7 @@ ht-degree: 88%
 
 * [ジャーニーのエントリ条件と終了条件ガイド](entry-exit-criteria-guide.md) - 実際の例とベストプラクティスを含む完全なガイド
 * [プロファイルエントリ管理](entry-management.md) - プロファイルがジャーニーにエントリする方法を設定します
-* [&#x200B; ジャーニーの終了方法](end-journey.md) - 自然なジャーニーの完了について説明します
+* [ ジャーニーの終了方法](end-journey.md) - 自然なジャーニーの完了について説明します
 * [プロファイル属性終了条件を使用したジャーニーの一時停止](journey-pause.md#journey-exit-criteria) - ジャーニーを一時停止する際に終了条件を使用します
 
 ## ジャーニースケジュール {#schedule}
@@ -381,7 +397,7 @@ ht-degree: 88%
 
 >[!TIP]
 >
->ジャーニーをスケジュールする際に、ウェーブ送信を設定して、ジャーニーのアクションを一括で経時的に配信することもできます。 [&#x200B; ジャーニーでウェーブを使用して送信する方法を説明します &#x200B;](send-using-waves.md)
+>ジャーニーをスケジュールする際に、ウェーブ送信を設定して、ジャーニーのアクションを一括で経時的に配信することもできます。 [ ジャーニーでウェーブを使用して送信する方法を説明します ](send-using-waves.md)
 
 
 ## 競合管理 {#conflict}

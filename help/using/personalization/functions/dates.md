@@ -6,10 +6,10 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: 241af4304f0bed8f3addf28ed8e7bc746550d823
+source-git-commit: 2dd13148d34436f8d98f04a2f9143e942d0604c3
 workflow-type: tm+mt
-source-wordcount: '1269'
-ht-degree: 84%
+source-wordcount: '1419'
+ht-degree: 75%
 
 ---
 
@@ -483,6 +483,29 @@ The following operation gets all the values for the map `identityMap`.
 出力：`sun`、`mon`、`tue` など
 
 +++
+
++++コンテキストイベントからのタイムスタンプのフォーマット
+
+ジャーニーイベントのコンテキスト属性からタイムスタンプを使用する場合は、次の 2 つの要件が適用されます。
+
+* **タイムスタンプを`toDateTime()`** でラップ – コンテキストイベントのタイムスタンプは、`formatDate()` によって日時値として自動的に認識されません。
+* **数値イベント ID をバッククォートで囲む** — イベント ID が数値の場合（例：`1697323153`）、式パスでバッククォートを使用してエスケープする必要があります。そうしないと、エディターがPQL構文エラーを生成します。
+* **`{% let %}` 割り当て構文を使用** — インライン `{%= %}` 構文はこのパターンをサポートしていません。 最初に結果を変数に割り当て、`{{varName}}` を使用してレンダリングします。
+
+```handlebars
+{% let appointmentDate = formatDate(toDateTime(context.journey.events.`1697323153`.timestamp), "dd/MM/yyyy HH:mm") %}
+{{appointmentDate}}
+```
+
+出力（例）:`18/03/2026 14:30`
+
++++
+
+>[!CAUTION]
+>
+>**一般的なエラー：「入力が一致しません」（\&lt;EOF\> を想定）&quot;**
+>
+>このPQL構文エラーは、コンテキストイベントのタイムスタンプインライン（`formatDate()`）で `{%= formatDate(...) %}` を使用すると発生します。 最も一般的な原因は、バッククォート（`` ` ``）でラップされていない数値イベント ID、または最初に `formatDate()` でラップせずに `toDateTime()` に直接渡されたタイムスタンプフィールドです。 両方の問題を修正するには、上記の例に示した `{% let %}` 割り当てパターンを使用します。
 
 ### パターン文字 {#pattern-characters}
 
