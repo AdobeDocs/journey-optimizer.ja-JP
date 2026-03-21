@@ -31,7 +31,7 @@ ht-degree: 28%
 
 **以下のプレリリースノートの内容は、リリースの公開日まで予告なく変更される場合があります**。リンク、画面、更新済みのドキュメントは、リリース日にリリースノートに公開されます。
 
-[Adobe Experience Platformのプレリリースノート ](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"} も参照してください。
+[Adobe Experience Platformのプレリリースノート &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"} も参照してください。
 
 **リリース日**:2026 年 3 月 24～25 日
 
@@ -356,7 +356,7 @@ ht-degree: 28%
 
 ## 2026 年 2 月リリースノート {#feb-26-01-rn}
 
-[ 新機能 ](#feb-26-01-features) と [ 改善点 ](#feb-26-01-improv) の節では、既に使用可能な機能について説明しています。<!--The [Coming soon](#coming-soon) section lists features and improvements scheduled for release later in February.-->
+[&#x200B; 新機能 &#x200B;](#feb-26-01-features) と [&#x200B; 改善点 &#x200B;](#feb-26-01-improv) の節では、既に使用可能な機能について説明しています。<!--The [Coming soon](#coming-soon) section lists features and improvements scheduled for release later in February.-->
 
 <!--**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
@@ -559,7 +559,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 #### 設定
 
-* **ジャーニー式でのエクスペリエンスイベントの使用** - 2026 年 4 月 1 日（PT）以降、ジャーニー式でのエクスペリエンスイベント属性の使用は、過去 90 日間にこの機能を使用していない組織ではサポートされなくなります。 この機能は、2025 年 7 月 8 日（PT）以降、新規のお客様は使用できなくなっています。 代替手段については、[ ジャーニーでのエクスペリエンスイベントの参照 ](../building-journeys/exp-event-lookup.md) を参照してください。
+* **ジャーニー式でのエクスペリエンスイベントの使用** - 2026 年 4 月 1 日（PT）以降、ジャーニー式でのエクスペリエンスイベント属性の使用は、過去 90 日間にこの機能を使用していない組織ではサポートされなくなります。 この機能は、2025 年 7 月 8 日（PT）以降、新規のお客様は使用できなくなっています。 代替手段については、[&#x200B; ジャーニーでのエクスペリエンスイベントの参照 &#x200B;](../building-journeys/exp-event-lookup.md) を参照してください。
 
 #### コンテンツ管理
 
