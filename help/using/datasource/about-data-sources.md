@@ -9,9 +9,9 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: データ, ソース, ジャーニー, プラットフォーム
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: 302db58525a7b2648bb9c44bc9b42da787ca9c43
+source-git-commit: 36f8224b33411f23f23985c55bdb6cebbcdf5712
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '616'
 ht-degree: 56%
 
 ---
@@ -49,38 +49,38 @@ ht-degree: 56%
 >
 >スキーマの関係は、データ ソースではサポートされていません。
 
-## データアクセス戦略を選択 {#data-access-strategy}
+## データアクセス戦略の選択 {#data-access-strategy}
 
-データソースを設定する前に、ユースケースに最適なアプローチを検討してください。 永続性、プロファイルのエンリッチメントおよび再利用性に関して、それぞれ異なるトレードオフを持つ 3 つのオプションを使用できます。 これらのオプションについて詳しくは、[Journey Optimizerの高度なジャーニーのベストプラクティス &#x200B;](https://experienceleague.adobe.com/ja/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"} を参照してください。
+データソースを設定する前に、自社のユースケースに最も適したアプローチを検討してください。 3つのオプションが利用可能で、それぞれ永続性、プロファイルの充実、再利用性の観点から異なるトレードオフがあります。 これらのオプションについて詳しくは、[Journey Optimizerの高度なジャーニーのベストプラクティス ](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}を参照してください。
 
-**オプション 1 - カスタムアクションを使用して外部データにアクセス（データレイクなし）**
+**オプション 1 — カスタムアクションを使用した外部データへのアクセス（データレイクなし）**
 
-Experience Platform Data Lake にデータを保持することなく、ジャーニー実行時に外部 API に直接接続します。 次の場合に最適です。
+Experience Platform Data Lakeにデータを保持することなく、ジャーニーランタイムで外部APIに直接接続できます。 次の場合に最適：
 
-* データは、ジャーニーコンテキスト内でのみ役立ち、他の場所では必要ありません。
-* 外部システムには、必要な属性を返す API エンドポイントを通じてアクセスできます。
+* データは、ジャーニーのコンテキスト内でのみ有用であり、他の場所では必要ありません。
+* 外部システムには、必要な属性を返すAPI エンドポイントを通じてアクセスできます。
 
-詳しくは、[&#x200B; カスタムアクション &#x200B;](../action/action.md) および [&#x200B; カスタムアクション応答 &#x200B;](../action/action-response.md) を参照してください。
+[ カスタムアクション ](../action/action.md)と[ カスタムアクション応答](../action/action-response.md)の詳細を説明します。
 
-**オプション 2 - データレイクのデータセットで、プロファイルに対して有効になっていない**
+**オプション 2 — データレイク内のデータセット。プロファイル**&#x200B;に対して有効になっていません
 
-リアルタイム顧客プロファイルに貢献することなく、データセットにデータを取り込み、コンテキストイベントデータに基づいてジャーニーをトリガーおよびパーソナライズします。 次の場合に最適です。
+データセットにデータを取り込み、リアルタイムの顧客プロファイルに貢献することなく、コンテキストに即したイベントデータにもとづいてジャーニーをトリガーし、パーソナライズできます。 次の場合に最適：
 
-* レコードには、Experience Platformに既に保存されているプロファイルにアクセスするために使用可能な ID フィールドが含まれています。
-* Journey Optimizer外でのオーディエンスの作成や ID のステッチには、データは必要ありません。
+* レコードには、Experience Platformに既に保存されているプロファイルにアクセスできるID フィールドが含まれています。
+* Journey Optimizerの外部でオーディエンスを作成したりIDをつなぎ合わせたりする場合、データは必要ありません。
 
-**オプション 3 - データレイクのプロファイルが有効なデータセット**
+**オプション 3 — データレイクのプロファイル対応データセット**
 
-プロファイル対応データセットにデータを取り込むことで、オーディエンスの作成、ID グラフのエンリッチメント、複数のジャーニーや RT-CDP 宛先にわたるデータの活用を行います。 次の場合に最適です。
+データを[ プロファイル対応データセット ](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}に取り込み、オーディエンスを作成し、ID グラフを充実させ、複数のジャーニーおよびRT-CDPの宛先をまたいでデータを活用します。 次の場合に最適：
 
 * このデータは、Journey Optimizer以外のチャネルで使用されるオーディエンス定義に役立ちます。
-* データには、ステッチされた豊富なプロファイルフラグメントに貢献する複数の ID が含まれています。
+* データには、より豊富でステッチされたプロファイルフラグメントに貢献する複数のIDが含まれています。
 
-| | データレイクに保持されるデータ | プロファイルに対して有効なデータセット |
+| | データはデータレイクに保持されます | プロファイルに対するデータセットの有効化 |
 | --- | --- | --- |
-| **オプション 1** - カスタムアクションを使用した外部データ | × | × |
-| **オプション 2** - プロファイルに対してデータセットが有効になっていない | ○ | × |
-| **オプション 3** - プロファイルが有効なデータセット | ○ | ○ |
+| **オプション 1** — カスタムアクションによる外部データ | × | × |
+| **オプション 2** — プロファイルでデータセットが有効になっていません | ○ | × |
+| **オプション 3** — プロファイル対応データセット | ○ | ○ |
 
 Adobe Experience Platform データソースと外部データソースの設定方法、およびデータを特定してジャーニーで使用する方法について詳しくは、この[チュートリアルビデオ](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/journey-configuration/configure-data-sources.html?lang=ja){target="_blank"}を参照してください。
 
@@ -88,5 +88,5 @@ Adobe Experience Platform データソースと外部データソースの設定
 
 データソースとは何かを理解し、Experience Platform と外部データソースを設定する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416779?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334256?quality=12)
 

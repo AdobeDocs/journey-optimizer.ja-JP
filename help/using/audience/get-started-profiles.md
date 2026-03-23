@@ -7,10 +7,10 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: be3936e4-8185-4031-9daf-95eea58077d0
-source-git-commit: 9ef761d216867c302a9c367dc509a52dc08fb06c
-workflow-type: ht
-source-wordcount: '464'
-ht-degree: 100%
+source-git-commit: 5383e0af430188dadd3e9ee259253115f7f1992d
+workflow-type: tm+mt
+source-wordcount: '486'
+ht-degree: 92%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 **リアルタイム顧客プロファイル** - オンライン、オフラインおよび偽名のソースからの顧客属性とイベントを単一の統合プロファイルに統合します。プロファイルを使用して、複数のタッチポイントでパーソナライズされたリアルタイムのエクスペリエンスを顧客にエンゲージできます。
 
-**データ取り込み** - 様々なデータソースに接続して、行動、トランザクション、財務、運用に関するデータを取り込みます。リアルタイムまたはバッチアップロードでデータを取り込んで、プロファイルを常に最新の状態に保ちます。
+**データ取り込み** - 様々なデータソースに接続して、行動、トランザクション、財務、運用に関するデータを取り込みます。データをリアルタイムまたはバッチアップロードで取り込み、プロファイルを常に最新の状態に保ちます。 プロファイルは、[!DNL Journey Optimizer] インターフェイス内で直接作成されません。データが取り込まれると、Adobe Experience Platformで自動的に作成または更新されます。
 
 >[!NOTE]
 >
@@ -58,4 +58,4 @@ ht-degree: 100%
 
 Adobe Experience Platform がリアルタイム顧客プロファイルをアセンブルおよび更新する方法、これらのプロファイルにアクセスして使用する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/31660?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27251?quality=12)
