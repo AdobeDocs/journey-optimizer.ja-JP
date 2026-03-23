@@ -24,11 +24,11 @@ ht-degree: 29%
 >title="プロファイルアクティビティの更新"
 >abstract="プロファイルの更新アクションアクティビティを使用すると、イベントから得られた情報やデータソース、または特定の値を使用して、既存の [!DNL Adobe Experience Platform] のプロファイルを更新できます。"
 
-顧客がジャーニーを進む際に、**[!UICONTROL プロファイルの更新]** アクション アクティビティを使用して、既存の[!DNL Adobe Experience Platform] プロファイルを強化または修正します。 ジャーニーイベント、設定されたデータソース、静的値から取得したフィールド値を設定することで、ジャーニーキャンバスから離れることなく、プロファイルデータを正確かつ実用的に保つことができます。 このアクティビティを設定する前に、適用される[ ガードレールと制限](#guardrails)を確認してください。
+顧客がジャーニーを進む際に、**[!UICONTROL プロファイルの更新]** アクション アクティビティを使用して、既存の[!DNL Adobe Experience Platform] プロファイルを強化または修正します。 ジャーニーイベント、設定されたデータソース、静的値から取得したフィールド値を設定することで、ジャーニーキャンバスから離れることなく、プロファイルデータを正確かつ実用的に保つことができます。 このアクティビティを設定する前に、適用される[&#x200B; ガードレールと制限](#guardrails)を確認してください。
 
 ## データセットの選択 {#dataset-selection}
 
-**[!UICONTROL プロファイルを更新]**&#x200B;アクティビティには、更新を保存する専用のデータセットが必要です。このアクティビティは[ プロファイルストア ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja#profile-data-store){target="_blank"} （データレイクではない）のみを更新するため、すべての更新は、[ プロファイルの更新](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"} アクション用に特別に指定された&#x200B;**[!UICONTROL プロファイル対応データセット]**&#x200B;に保存する必要があります。
+**[!UICONTROL プロファイルを更新]**&#x200B;アクティビティには、更新を保存する専用のデータセットが必要です。このアクティビティは[&#x200B; プロファイルストア &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja#profile-data-store){target="_blank"} （データレイクではない）のみを更新するため、すべての更新は、[&#x200B; プロファイルの更新](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"} アクション用に特別に指定された&#x200B;**[!UICONTROL プロファイル対応データセット]**&#x200B;に保存する必要があります。
 
 >[!CAUTION]
 >
@@ -72,29 +72,29 @@ ht-degree: 29%
 
      ![複雑なプロファイル更新の詳細設定モード式エディター](assets/profileupdate3.png)
 
-1. 同じアクションで追加のプロファイル属性を更新するには、**[!UICONTROL 別のフィールドを更新]**&#x200B;をクリックし、フィールドと値の選択を繰り返します。 1回の&#x200B;**[!UICONTROL プロファイルを更新]** アクションで、最大5つのフィールドと値のペアを追加できます。 [ ガードレールと制限事項](#guardrails)を参照してください。
+1. 同じアクションで追加のプロファイル属性を更新するには、**[!UICONTROL 別のフィールドを更新]**&#x200B;をクリックし、フィールドと値の選択を繰り返します。 1回の&#x200B;**[!UICONTROL プロファイルを更新]** アクションで、最大5つのフィールドと値のペアを追加できます。 [&#x200B; ガードレールと制限事項](#guardrails)を参照してください。
 
 「**[!UICONTROL プロファイルを更新]**」アクティビティが設定されました。
 
-![複数のフィールド設定を持つジャーニーのプロファイル更新アクティビティ ](assets/profileupdate1.png)
+![複数のフィールド設定を持つジャーニーのプロファイル更新アクティビティ &#x200B;](assets/profileupdate1.png)
 
 
 ## プロファイル更新のテスト {#using-the-test-mode}
 
-[ テストモード ](testing-the-journey.md)では、プロファイルの更新はテストプロファイルにすぐに反映され、シミュレートされないことに注意してください。
+[&#x200B; テストモード &#x200B;](testing-the-journey.md)では、プロファイルの更新はテストプロファイルにすぐに反映され、シミュレートされないことに注意してください。
 
 テストモードでは、テストプロファイルのみがジャーニーにエントリできます。新しいテストプロファイルを作成するか、既存のプロファイルをテストプロファイルに変換できます。 [!DNL Adobe Experience Platform]では、プロファイル属性はCSV ファイルの読み込みまたはAPI呼び出しによって更新できます。 より簡単な方法は、ジャーニー自体で&#x200B;**[!UICONTROL プロファイルの更新]** アクティビティを使用して、テストプロファイルブール値フィールドをtrueに設定することです。
 
-既存のプロファイルをテストプロファイルに変換する方法について詳しくは、この[ セクション ](../audience/creating-test-profiles.md#create-test-profiles-csv)を参照してください。
+既存のプロファイルをテストプロファイルに変換する方法について詳しくは、この[&#x200B; セクション &#x200B;](../audience/creating-test-profiles.md#create-test-profiles-csv)を参照してください。
 
 ## ガードレールと制限 {#guardrails}
 
 * **[!UICONTROL プロファイルを更新]** アクションは、[名前空間](../event/about-creating.md#select-the-namespace)を持つジャーニーでのみ使用できます。
 * アクションは既存のフィールドのみを更新します。新しいプロファイルフィールドは作成されません。
 * アクションは、単純なフィールドタイプ（文字列、数値、ブール値）のみをサポートします。 列挙、推奨値、オブジェクト配列、または複雑なコレクション（製品リストなど）として定義されたXDM フィールドはサポートされていません。
-* **[!UICONTROL プロファイルの更新]** アクションを使用して、購入などの[ エクスペリエンスイベント ](../event/about-events.md)を生成することはできません。
+* **[!UICONTROL プロファイルの更新]** アクションを使用して、購入などの[&#x200B; エクスペリエンスイベント &#x200B;](../event/about-events.md)を生成することはできません。
 * 他のアクションと同様に、エラーまたはタイムアウトの場合に[代替パスを定義できます](using-the-journey-designer.md#paths)。 2つのアクションを並行して配置することはできません。
 * プロファイルの更新は、同じジャーニーのダウンストリームですぐに利用できる保証はありません。 更新された値がまだ反映されていない可能性があるため、フィールドを書き込む&#x200B;**[!UICONTROL プロファイルを更新]** アクションの直後にフィールドを読み込むアクションを配置しないでください。
-* **[!UICONTROL プロファイルの更新]** アクティビティは、データレイクではなく、[ プロファイルストア ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja#profile-data-store){target="_blank"}のみを更新します。
+* **[!UICONTROL プロファイルの更新]** アクティビティは、データレイクではなく、[&#x200B; プロファイルストア &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja#profile-data-store){target="_blank"}のみを更新します。
 * 1回の&#x200B;**[!UICONTROL プロファイルを更新]** アクションで、最大5つのフィールド/値のペアを更新できます。 「**[!UICONTROL 別のフィールドを更新]**」ボタンを使用して、さらにペアを追加します。
 * パフォーマンスを向上させるには、属性ごとに1つのアクションを使用するのではなく、複数の属性更新を1つの&#x200B;**[!UICONTROL プロファイルを更新]** アクションにグループ化します。
