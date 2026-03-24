@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 version: Journey Orchestration
-source-git-commit: 741b39a7588ae4e1161891226d95609508b00031
+source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 82%
+source-wordcount: '684'
+ht-degree: 83%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 82%
 
 決定は、「決定項目」と呼ばれるマーケティングオファーの一元カタログと、高度な決定エンジンを提供することで、パーソナライゼーションを簡素化します。このエンジンは、ルールとランキング条件を活用して、各個人に最も関連性の高い決定項目を選択し、提示します。
 
-これらの決定項目は、[!DNL Adobe Journey Optimizer] コードベースのエクスペリエンス [、メール、SMS およびプッシュ通知な &#x200B;](../code-based/get-started-code-based.md)、様々なチャネルにわたるメッセージとエクスペリエンスにシームレスに統合されます。
+これらの決定項目は、[!DNL Adobe Journey Optimizer] コードベースのエクスペリエンス [、電子メール、SMS、プッシュ通知など、](../code-based/get-started-code-based.md)のチャネルをまたいでメッセージやエクスペリエンスにシームレスに統合されます。
 
 >[!IMPORTANT]
 >
->決定ポリシーは、すべてのお客様が **コードベースのエクスペリエンス**、**プッシュ通知**、および **SMS** チャネルで利用できます。 **メール** チャネルの決定は、限定提供（LA）でのみ利用できます。 アクセス権をリクエストするには、Adobe担当者にお問い合わせください。 詳細情報 [&#x200B; 可用性ラベル &#x200B;](../rn/releases.md#availability-labels)。
+>決定ポリシーは、**コードベースのエクスペリエンス**、**プッシュ通知**、**SMS**&#x200B;の各チャネルについてすべてのお客様が利用できます。 **電子メール** チャネルの決定は、制限付き可用性でのみ使用できます。 アクセスをリクエストするには、Adobe担当者にお問い合わせください。 リリースサイクルと可用性フェーズについて詳しくは、[Journey Optimizer リリースサイクル](../rn/releases.md)を参照してください。
 
 ➡️ [この機能をビデオで確認](#video)
 
@@ -67,7 +67,7 @@ ht-degree: 82%
 
 1. ターゲットオーディエンスに表示する&#x200B;**決定項目を作成**&#x200B;します。
 
-   ➡️ ユーザーインターフェイス（および[&#x200B; API ドキュメント](api-reference/decisions-items/create.md)）での[決定項目の作成方法について説明します。](items.md)
+   ➡️ ユーザーインターフェイス（および[ API ドキュメント](api-reference/decisions-items/create.md)）での[決定項目の作成方法について説明します。](items.md)
 
 1. **コレクションで整理**：コレクションを使用し、属性ベースのルールに基づいて決定項目を分類します。コレクションを選択戦略に組み込んで、考慮する必要がある決定項目のコレクションを特定します。
 
@@ -83,9 +83,9 @@ ht-degree: 82%
 
 1. **選択戦略の作成**：コレクション、決定ルール、ランキング方法を活用した選択戦略を作成して、プロファイルに表示するのに適した決定項目を特定します。
 
-   ➡️ [&#128279;](selection-strategies.md)ユーザーインターフェイス（および [APIドキュメント](api-reference/selection-strategies/create.md)）での選択戦略の作成方法の詳細情報
+   ➡️ [ユーザーインターフェイス（および [APIドキュメント](api-reference/selection-strategies/create.md)）での選択戦略の作成方法の詳細情報](selection-strategies.md)
 
-1. **決定ポリシーを作成してジャーニーまたはキャンペーンに埋め込む** （コードベースのエクスペリエンス、メール、SMS またはプッシュ）：決定ポリシーは、複数の選択戦略を組み合わせて、対象オーディエンスに表示する適格な決定項目を決定します。
+1. **決定ポリシーを作成し、ジャーニーまたはキャンペーンに埋め込む** （コードベースのエクスペリエンス、電子メール、SMS、プッシュ通知）：決定ポリシーは、複数の選択戦略を組み合わせて、対象オーディエンスに表示する対象となる決定項目を決定します。
 
    ➡️ [決定ポリシーの操作方法について説明します。](create-decision.md)
 ➡️コードベースのエクスペリエンスチャネルを通じてオファーを正常に配信するには、[この節](../code-based/code-based-implementation-samples.md)の実装手順に従ってください。
@@ -97,12 +97,12 @@ ht-degree: 82%
 * **[選択戦略の定義](selection-strategies.md)** - 実施要件ルールとランキング方法を使用して選択戦略を作成する方法について説明します。
 * **[決定ポリシーの作成](create-decision-policy.md)** - 戦略と制約を組み合わせた決定ポリシーを作成する方法について説明します。
 * **[ランキングと AI モデル](ranking/ranking.md)** - パーソナライズされた決定用のランキング式と AI モデルを習得します。
-* **[意思決定管理からの移行](migrate-to-decisioning.md)** - Decisioning に移行するメリットを理解し、移行ツール API を使用します。
+* **[意思決定管理からの移行](migrate-to-decisioning.md)** - Decisioningへの移行のメリットを理解し、移行ツール APIを使用します。
 * **[決定ガードレール](decisioning-guardrails.md)** - 決定の実装に関する重要な制限とベストプラクティスを確認します。
 * **[決定のチュートリアル](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/decision-capabilities/decisioning/introduction-to-decisioning){target="_blank"}** - 決定機能とベストプラクティスに関するステップバイステップのビデオチュートリアルを参照してください。
 
 ## チュートリアルビデオ {#video}
 
-Adobe Journey Optimizerの意思決定機能について説明します。
+Adobe Journey Optimizerの意思決定機能について詳しく見る。
 
->[!VIDEO](https://video.tv.adobe.com/v/3475864?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)
