@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
+source-git-commit: 83da64e7985b9fb5b723c60473db6ea743e3fe6e
 workflow-type: tm+mt
 source-wordcount: '1551'
 ht-degree: 21%
@@ -34,7 +34,7 @@ ht-degree: 21%
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 **リリース日**: 2026年3月24日～25日
 
@@ -83,6 +83,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p>2026年2月の<strong> アクションアクティビティ </strong>の一般提供に続いて、ジャーニーキャンバス内の従来のネイティブチャネルアクティビティ（メール、プッシュ、SMS、アプリ内、Web、コードベースのエクスペリエンス、コンテンツカード）が非推奨になりました。</p>
 <p>これで、単一の<strong> アクションアクティビティ </strong>を使用してすべてのチャネルアクションを設定し、チャネル固有のノードを個別に作成する必要がなくなりました。
 従来のチャネルアクティビティを使用している既存のジャーニーは、変更や移行が必要なく、引き続き機能します。</p>
+<p><img src="assets/do-not-localize/action-activity.gif"></p>
 <p>詳しくは、<a href="../building-journeys/journey-action.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
@@ -176,7 +177,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p><strong>Adobe Experience Platform Agent Orchestrator</strong>を搭載した<strong>Journey Agent</strong>は、Journey Optimizerで利用でき、自然言語インターフェイスを通じてジャーニーを分析できます。 また、Journey Agentでチャネル固有のコンテンツを直接生成および管理し、電子メールやプッシュ通知などのチャネル用のコンテンツを作成したり、テンプレートを適用およびプレビューしたり、プロンプトを通じてトーンやスタイルを調整したり、コンテキストに沿った編集のために<strong>Content Designer</strong>でコンテンツを開いたりすることもできます。</p>
 <p>この機能は、一連の組織でのみ使用できます（限定提供）。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
-<p>詳しくは、<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=ja">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2026年3月4日（PT）</p>
 </td>
 </tr>
@@ -240,7 +241,6 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 
   公開日：2026年3月2日（PT）
 
-<!--#### Orchestrated campaigns-->
 
 #### ジャーニー
 
@@ -270,7 +270,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <tbody>
 <tr>
 <td>
-<p>API経由で送信されたシグナルを介して、オーケストレーションされたキャンペーンをトリガーできるようになりました。 ターゲットキャンペーンを「シグナルによってトリガー」として設定し、公開します。 そして、API呼び出しを使用してキャンペーンを実行します。 API呼び出しには、トリガーされたキャンペーンで変数として使用できるパラメーターを含めることができます。 注：シグナルによって開始されたオーケストレーションされたキャンペーンは、まだ&#x200B;**バッチ** キャンペーンであり、API トリガーキャンペーンとは異なります。</p>
+<p>API経由で送信されたシグナルを介して、オーケストレーションされたキャンペーンをトリガーできるようになりました。 ターゲットキャンペーンを「シグナルによってトリガー」として設定し、公開します。 そして、API呼び出しを使用してキャンペーンを実行します。 API呼び出しには、トリガーされたキャンペーンで変数として使用できるパラメーターを含めることができます。 注：シグナルによって開始されたオーケストレーションされたキャンペーンは、まだ**バッチ** キャンペーンであり、API トリガーキャンペーンとは異なります。</p>
 <p><img src="assets/do-not-localize/oc-triggered.gif"></p>
 <p>ご利用いただけます：2026年4月1日</p>
 </td>
