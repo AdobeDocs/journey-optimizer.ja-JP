@@ -6,10 +6,10 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
-source-git-commit: 0cdc5dce00d2240b2de6c4cba1648b4517323cce
+source-git-commit: 2d1b74f28b355e1d3ab9a292bc1f1a7e03dadf1c
 workflow-type: tm+mt
 source-wordcount: '486'
-ht-degree: 77%
+ht-degree: 95%
 
 ---
 
@@ -19,15 +19,13 @@ ht-degree: 77%
 
 >[!CAUTION]
 >
->コードベースのエクスペリエンスチャネルでは、[!DNL Journey Optimizer][Decisioning](../experience-decisioning/gs-experience-decisioning.md) 機能のみをサポートしています。 従来の意思決定管理機能は、コードベースのエクスペリエンスでは使用できません。
+>コードベースのエクスペリエンスチャネルでは、[!DNL Journey Optimizer] [決定](../experience-decisioning/gs-experience-decisioning.md)機能のみをサポートしています。 従来の意思決定管理機能は、コードベースのエクスペリエンスでは使用できません。
 
-➡️ コードベースのエクスペリエンスと意思決定のための web SDKの設定について詳しくは、[&#x200B; これらのチュートリアル &#x200B;](#tutorials) を参照してください。
+➡️ コードベースのエクスペリエンスと決定のための Web SDK の設定について詳しくは、[これらのチュートリアル](#tutorials)を参照してください。
 
 ## 決定を使用したコードベースのエクスペリエンスのテスト {#code-based-test-decisions}
 
-<!--Currently you cannot simulate content from the user interface in a [code-based experience](create-code-based.md) campaign or journey using decisions.-->
-
-決定を使用して[コードベースのエクスペリエンス](create-code-based.md)をテストする際、`dryRun` フラグを使用して、レポートカウンターとキャップカウンターの両方のフィードバックイベントを抑制できます。
+決定機能を使用して[ コードベースのエクスペリエンス ](create-code-based.md)をテストする場合、`dryRun` フラグを使用して、レポートとキャッピングカウンターの両方のフィードバックイベントを抑制できます。
 
 キャンペーンを公開したら、クライアント実装の XDM イベント `data` ブロックに `dryRun` フラグを追加します。
 
@@ -297,10 +295,10 @@ curl --location 'https://edge-int.adobedc.net/ee/v1/interact?configId=2f21d344-b
 
 ## チュートリアル {#tutorials}
 
-[&#x200B; このチュートリアル &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/#implement-extension-in-mobile-app){target="_blank"} のAdobe Experience Platform Mobile SDK 用の [Adobe Journey Optimizer拡張機能 &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"} を使用して、コードベースのエクスペリエンスを取得、表示、トラッキングする方法を説明します。
+Adobe Experience Platform Mobile SDK の [Adobe Journey Optimizer 拡張機能](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/#implement-extension-in-mobile-app){target="_blank"}を使用して、コードベースのエクスペリエンスを取得、表示、追跡する方法について詳しくは、[このチュートリアル](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"}を参照してください。
 
-[&#x200B; このチュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/use-decisioning-to-personalize-web-offers/introduction){target="_blank"} では、Journey Optimizerの Decisioning を使用して、web SDKの設定を中心に、web サイト上のコンテンツオファーをパーソナライズする方法を説明します。
+Web SDK 設定に焦点を当てて、Journey Optimizer の決定を使用して web サイトのコンテンツオファーをパーソナライズする方法について詳しくは、[このチュートリアル](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/use-decisioning-to-personalize-web-offers/introduction){target="_blank"}を参照してください。
 
-Web SDKを設定し、コードベースのエクスペリエンスと意思決定を使用して、リアルタイムの天気データとコンテキスト情報を使用してオファーをパーソナライズする方法を説明します [&#x200B; このチュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/personalizing-offers-with-real-time-weather-data/introduction){target="_blank"}。
+Web SDK を設定し、コードベースのエクスペリエンスで決定を使用して、リアルタイムの天候データとコンテキスト情報を使用してオファーをパーソナライズする方法について詳しくは、[このチュートリアル](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/personalizing-offers-with-real-time-weather-data/introduction){target="_blank"}を参照してください。
 
 
