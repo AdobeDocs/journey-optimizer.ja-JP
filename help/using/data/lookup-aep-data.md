@@ -11,10 +11,10 @@ keywords: 式, エディター
 mini-toc-levels: 1
 badge: label="限定提供" type="Informative"
 exl-id: 44a8bc87-5ab0-45cb-baef-e9cd75432bde
-source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
+source-git-commit: 8da2bb4123394d60e397409f6401434d215fd463
 workflow-type: tm+mt
-source-wordcount: '927'
-ht-degree: 94%
+source-wordcount: '894'
+ht-degree: 93%
 
 ---
 
@@ -56,8 +56,6 @@ ht-degree: 94%
   **バッチ 3**：Sku7、Sku8、Sku9、Sku10
 
   **バッチ 1** を削除すると、Sku1、Sku2、Sku3 が検索ストアから削除されます。結果として生成される参照データには、Sku4、Sku5、Sku6、Sku7、Sku8、Sku9、Sku10 が含まれます。
-
-* **連結された参照なし** - データセット参照を連結できません。つまり、1 回目の参照の結果を変数として使用し、2 回目の参照を実行するキーにすることはできません。
 
 ### 参照サービスの使用権限
 
