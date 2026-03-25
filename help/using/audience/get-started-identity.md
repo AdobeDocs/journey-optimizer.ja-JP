@@ -35,4 +35,4 @@ ID の操作について詳しくは、[ID サービスのドキュメント](ht
 >
 >* [Journey Optimizerでのデータ管理の開始](../data/gs-data.md)
 >* [プロファイルの基本を学ぶ](get-started-profiles.md)
->* [ID サービスのドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=ja){target="_blank"}
+>* [ID サービスのドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=ja){target="_blank"}
