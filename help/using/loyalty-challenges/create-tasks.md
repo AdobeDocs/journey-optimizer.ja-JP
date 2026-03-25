@@ -12,9 +12,9 @@ hidefromtoc: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
-source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
+source-git-commit: 226b1fcb1129410781262db9e53673faffa970da
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '799'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 2%
 * [課題とタスクへのアクセスと管理](access-loyalty-challenges.md)
 * [課題の創出](create-challenges.md)
 * **タスクを作成** ◀︎ **現在のユーザー**
-* [&#x200B; ロイヤルティチャレンジ API リファレンス &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}
+* [ ロイヤルティチャレンジ API リファレンス ](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}
 
 >[!ENDSHADEBOX]
 
@@ -42,6 +42,11 @@ ht-degree: 2%
 各タスクは、課題の完了に貢献する、測定可能な行動を表します。 タスクとは、個別に作成して1つ以上の課題に追加するか、課題の中で直接作成できる、再利用可能なコンポーネントのことです。
 
 ## タスクの作成 {#create-task}
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_task_create"
+>title="タスクの作成"
+>abstract="顧客アクティビティ（購入または支出）を選択し、アクティビティ固有の属性（数量または金額、対象となるアイテムと除外、最小支出または最大トランザクションなどのオプション制限）を設定します。 プロパティ ペインで、タスク名と説明を設定します。"
 
 タスクは、2つのエントリポイントから作成できます。 設定プロセスは、どこから開始しても同じです。
 
@@ -101,6 +106,11 @@ ht-degree: 2%
 >[!ENDTABS]
 
 ## 実施要件を満たす品目と除外事項の定義 {#eligible-items-exclusions}
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_task_eligible_items_exclusion"
+>title="対象商品と除外事項"
+>abstract="購入タスクと支出タスクの購買カウントを制御します。 最初のフィールドに、コンマ区切りの項目ID、カテゴリ、または宛先IDを入力して、それらのIDのみを許可します。 すべての購入がカウントされるように空のままにするか、すべての購入を意味するアスタリスクを入力します。 2つ目のフィールドには、ギフトカードやクリアランスなど、絶対に数えるべきではないアイテムやカテゴリーをリストアップします。"
 
 <!-- SCREENSHOT: Eligible items & exclusions popup showing the two sections: "Eligible task purchases are limited to the following" and "The following are excluded from this task" with text input fields -->
 
