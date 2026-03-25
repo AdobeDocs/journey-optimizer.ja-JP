@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 2ebbcd7d-dcfc-4528-974d-6230fc0dca3d
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
 workflow-type: tm+mt
 source-wordcount: '952'
 ht-degree: 73%
@@ -22,7 +22,7 @@ ht-degree: 73%
 >title="プッシュメッセージの作成"
 >abstract="プッシュメッセージを追加し、パーソナライゼーションエディターを使用してパーソナライズを開始します。"
 
-モバイルデバイス（iOSおよびAndroid）と web ブラウザーのプッシュ通知を作成できます。 このページでは、ジャーニーまたはキャンペーンでプッシュ通知を設定するプロセスについて説明します。
+モバイルデバイス（iOSおよびAndroid）およびweb ブラウザー向けのプッシュ通知を作成できます。 このページでは、ジャーニーまたはキャンペーンでプッシュ通知を設定するプロセスについて説明します。
 
 ## ジャーニーまたはキャンペーンでのプッシュ通知の作成 {#create}
 
@@ -32,31 +32,31 @@ ht-degree: 73%
 
 >[!TAB ジャーニーへのプッシュの追加]
 
-1. ジャーニーを開いて、パレットの「**[!UICONTROL アクション]**」セクションから **[!UICONTROL アクション]** アクティビティをドラッグ&amp;ドロップします。 [&#x200B; アクションアクティビティ &#x200B;](../building-journeys/journey-action.md) の詳細情報。
+1. ジャーニーを開き、パレットの「**[!UICONTROL アクション]**」セクションから「**[!UICONTROL アクション]**」アクティビティをドラッグ&amp;ドロップします。 [ アクションアクティビティ ](../building-journeys/journey-action.md)の詳細をご覧ください。
 
    >[!IMPORTANT]
    >
-   >すべてのネイティブチャネルにアクションアクティビティからアクセスできるようになりましたが、従来のネイティブチャネルアクティビティは 3 月のリリースで非推奨（廃止予定）になります。 従来のアクションを含む既存のジャーニーは、引き続きそのまま機能します。移行は不要です。
+   >従来のネイティブチャネルアクティビティ（電子メール、プッシュ、SMS、アプリ内、web、コードベースのエクスペリエンス、コンテンツカード）は、2026年3月のリリースで廃止されました。 これらのアクティビティを使用する既存のジャーニーは、変更なしで引き続き機能します。移行は必要ありません。
 
-1. アクションタイプとして **[!UICONTROL プッシュ]** を選択します。
+1. アクションタイプとして「**[!UICONTROL プッシュ]**」を選択します。
 
    ![](assets/push_create_1.png)
 
-1. ジャーニーキャンバスでアクションを識別するための **[!UICONTROL ラベル]** を入力します。
+1. ジャーニーキャンバスでアクションを識別するには、**[!UICONTROL ラベル]**&#x200B;を入力します。
 
-1. 「**[!UICONTROL アクションを設定]**」ボタンをクリックします。
+1. 「**[!UICONTROL 設定アクション]**」ボタンをクリックします。
 
-1. 「**[!UICONTROL アクション]**」タブに移動します。 ここから、使用するプッシュ設定を選択または作成します。 [詳細情報](push-configuration.md)
+1. 「**[!UICONTROL アクション]**」タブに移動します。 そこから、使用するプッシュ設定を選択または作成します。 [詳細情報](push-configuration.md)
 
    ![](assets/push_create_2.png)
 
-1. その他：
+1. さらに：
 
    * 「**[!UICONTROL ビジネスルール]**」ドロップダウンリストでルールセットを選択すると、プッシュアクションにキャッピングルールを適用できます。 [詳細情報](../conflict-prioritization/channel-capping.md)
 
-   * 「**[!DNL Send time optimization]**」オプションを使用して、過去の開封率とクリック率に基づいてエンゲージメントを最大化するための、メッセージ送信の最適な時間を予測できます。 [詳細情報](../building-journeys/send-time-optimization.md)
+   * **[!DNL Send time optimization]** オプションを使用して、過去の開封率とクリック率に基づいて、メッセージを送信する最適な時間を予測し、エンゲージメントを最大化できます。 [詳細情報](../building-journeys/send-time-optimization.md)
 
-1. **[!UICONTROL 迅速配信モード]** を使用して、プッシュ通知を大量に送信します。 [詳細情報](#rapid-delivery)
+1. **[!UICONTROL 迅速配信モード]**&#x200B;を使用して、プッシュ通知を大量に送信します。 [詳細情報](#rapid-delivery)
 
 1. 「**[!UICONTROL コンテンツを編集]**」ボタンを選択し、必要に応じてコンテンツを作成します。 [詳細情報](design-push.md)
 
@@ -68,7 +68,7 @@ ht-degree: 73%
    >
    >プッシュの開封やインタラクションを通じて受信者の行動をトラッキングするには、トラッキングセクションの専用オプションが[メールアクティビティ](../building-journeys/journey-action.md)で有効になっていることを確認してください。
 
-ジャーニーの作成、設定、公開について詳しくは、[&#x200B; このページ &#x200B;](../building-journeys/journey-gs.md) を参照してください。
+ジャーニーの作成、設定、公開の方法について詳しくは、[このページ ](../building-journeys/journey-gs.md)を参照してください。
 
 >[!TAB キャンペーンへのプッシュの追加]
 
@@ -88,7 +88,7 @@ ht-degree: 73%
 
 1. 「**[!UICONTROL アクション]**」セクションで、「**[!UICONTROL プッシュ通知]**」を選択し、新しい設定を選択または作成します。
 
-   [&#x200B; このページ &#x200B;](push-configuration.md) のモバイルおよび [&#x200B; このページ &#x200B;](push-configuration-web.md) の web 用のプッシュ設定について詳しく説明します。
+   [このページ ](push-configuration.md)のモバイル用および[このページ ](push-configuration-web.md)のweb用のプッシュ設定について詳しく説明します。
 
    ![](assets/push_create_3.png)
 
@@ -111,7 +111,7 @@ ht-degree: 73%
 
    プッシュの開封やインタラクションを通じて受信者の行動をトラッキングするには、トラッキングセクションの専用オプションが[キャンペーン](../campaigns/create-campaign.md)で有効になっていることを確認してください。
 
-キャンペーンの作成、設定、アクティブ化の方法について詳しくは、[&#x200B; このページ &#x200B;](../campaigns/get-started-with-campaigns.md) を参照してください。
+キャンペーンの作成、設定およびアクティベート方法について詳しくは、[このページ ](../campaigns/get-started-with-campaigns.md)を参照してください。
 
 >[!ENDTABS]
 

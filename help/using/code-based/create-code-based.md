@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
 workflow-type: tm+mt
 source-wordcount: '864'
 ht-degree: 82%
@@ -31,13 +31,13 @@ ht-degree: 82%
 
 1. ジャーニーを「[イベント](../building-journeys/general-events.md)」または「[オーディエンスを読み取り](../building-journeys/read-audience.md)」アクティビティで開始します。
 
-1. パレットの「**[!UICONTROL アクション]**」セクションから **[!UICONTROL アクション]** アクティビティをドラッグ&amp;ドロップします。 [&#x200B; アクションアクティビティ &#x200B;](../building-journeys/journey-action.md) の詳細情報。
+1. パレットの&#x200B;**[!UICONTROL アクション]** セクションから&#x200B;**[!UICONTROL アクション]** アクティビティをドラッグ&amp;ドロップします。 [ アクションアクティビティ ](../building-journeys/journey-action.md)の詳細をご覧ください。
 
    >[!IMPORTANT]
    >
-   >すべてのネイティブチャネルにアクションアクティビティからアクセスできるようになりましたが、従来のネイティブチャネルアクティビティは 3 月のリリースで非推奨（廃止予定）になります。 従来のアクションを含む既存のジャーニーは、引き続きそのまま機能します。移行は不要です。
+   >従来のネイティブチャネルアクティビティ（電子メール、プッシュ、SMS、アプリ内、web、コードベースのエクスペリエンス、コンテンツカード）は、2026年3月のリリースで廃止されました。 これらのアクティビティを使用する既存のジャーニーは、変更なしで引き続き機能します。移行は必要ありません。
 
-1. アクションタイプとして **[!UICONTROL コードベースのエクスペリエンス]** を選択します。
+1. アクションタイプとして「**[!UICONTROL コードベースのエクスペリエンス]**」を選択します。
 
    ![](assets/code-based-activity-journey.png)
 
@@ -45,11 +45,11 @@ ht-degree: 82%
    >
    >**コードベースのエクスペリエンス**&#x200B;はインバウンドエクスペリエンスアクティビティなので、3 日間の&#x200B;**待機**&#x200B;アクティビティが付随しています。[詳細情報](../building-journeys/wait-activity.md#auto-wait-node)
 
-1. ジャーニーキャンバスでアクションを識別するための **[!UICONTROL ラベル]** を入力します。
+1. ジャーニーキャンバスでアクションを識別するには、**[!UICONTROL ラベル]**&#x200B;を入力します。
 
-1. 「**[!UICONTROL アクションを設定]**」ボタンをクリックします。
+1. 「**[!UICONTROL 設定アクション]**」ボタンをクリックします。
 
-1. 「**[!UICONTROL アクション]**」タブに移動します。 ここから、使用するコードベースのエクスペリエンス設定を選択または作成します。 [詳細情報](code-based-configuration.md)
+1. 「**[!UICONTROL アクション]**」タブに移動します。 そこから、使用するコードベースのエクスペリエンス設定を選択または作成します。 [詳細情報](code-based-configuration.md)
 
    ![](assets/code-based-activity-config.png)
 
@@ -61,11 +61,11 @@ ht-degree: 82%
 
    また、コードコンテンツの基礎として既存のコンテンツテンプレートを使用することもできます。選択可能なテンプレートは、事前に選択したチャネル設定に基づいて、HTML または JSON のいずれかに限定されます。[詳しくは、コンテンツテンプレートの使用方法を参照してください。](../content-management/use-content-templates.md)
 
-1. 「**[!UICONTROL アクションを追加]**」ボタンをクリックすると、コードベースのエクスペリエンスに 1 つ以上のインバウンドアクションを追加できます。 [詳細情報](../building-journeys/journey-action.md#multi-action)
+1. 「**[!UICONTROL アクションを追加]**」ボタンをクリックすると、コードベースのエクスペリエンスに1つ以上のインバウンドアクションを追加できます。 [詳細情報](../building-journeys/journey-action.md#multi-action)
 
 1. ジャーニーキャンバスに戻ります。 必要に応じて、追加のアクションまたはイベントをドラッグ＆ドロップして、ジャーニーフローを完了します。[詳細情報](../building-journeys/about-journey-activities.md)
 
-ジャーニーの作成、設定、公開について詳しくは、[&#x200B; このページ &#x200B;](../building-journeys/journey-gs.md) を参照してください。
+ジャーニーの作成、設定、公開の方法について詳しくは、[このページ ](../building-journeys/journey-gs.md)を参照してください。
 
 >[!TAB コードベースのエクスペリエンスキャンペーンの作成]
 
@@ -93,7 +93,7 @@ ht-degree: 82%
 
    <!--![](assets/code-based-campaign-edit-content.png)-->
 
-キャンペーンの作成、設定、アクティブ化の方法について詳しくは、[&#x200B; このページ &#x200B;](../campaigns/get-started-with-campaigns.md) を参照してください。
+キャンペーンの作成、設定およびアクティベート方法について詳しくは、[このページ ](../campaigns/get-started-with-campaigns.md)を参照してください。
 
 ➡️ [コードベースのエクスペリエンスキャンペーンの作成方法について詳しくは、このビデオをご覧ください](#video)
 
@@ -153,4 +153,4 @@ ht-degree: 82%
 
 以下のビデオでは、コードベースのエクスペリエンスキャンペーンの作成、プロパティの設定、テスト、公開の方法を確認できます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3449454/?captions=jpn&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3428868/?quality=12&learn=on)

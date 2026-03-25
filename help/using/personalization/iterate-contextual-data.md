@@ -9,9 +9,9 @@ role: Developer
 level: Intermediate
 keywords: 式, エディター, Handlebars, 反復, 配列, コンテキスト, パーソナライゼーション
 exl-id: 1a7c490f-6490-4785-a44d-bddd5482754d
-source-git-commit: 2dd13148d34436f8d98f04a2f9143e942d0604c3
+source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
 workflow-type: tm+mt
-source-wordcount: '3060'
+source-wordcount: '3040'
 ht-degree: 98%
 
 ---
@@ -71,13 +71,13 @@ context.journey.events.<event_ID>.<fieldPath>
 
 >[!NOTE]
 >
->**数値イベント ID にはバッククォートが必要です。** イベント ID が数値（例：`1697323153`）の場合は、式パスでバッククォート（`` ` ``）で囲みます。 バッククォートがない場合、PQL パーサーは構文エラーを発生させます。
+>**数値イベント IDにはバックティックが必要です。** イベント IDが数値（例：`1697323153`）の場合、式パスでバックティック （`` ` ``）にラップします。 バックティックを使用しない場合、PQL パーサーは構文エラーを発生させます。
 >
 >```handlebars
 >context.journey.events.`1697323153`.fieldName
 >```
 >
->イベントタイムスタンプからの日付形式を含む完全な例と詳細については、[&#x200B; コンテキストイベントからのタイムスタンプの形式 &#x200B;](../personalization/functions/dates.md#format-date) を参照してください。
+>詳細と、イベントタイムスタンプからの日付の書式設定を含む完全な例については、[ コンテキストイベントからのタイムスタンプの書式設定](../personalization/functions/dates.md#format-date)を参照してください。
 
 ### 例：イベントからの買い物かご項目
 
@@ -255,10 +255,6 @@ context.journey.actions.<actionName>.<fieldPath>
 ## データセット参照結果の反復処理 {#dataset-lookup}
 
 [データセット参照アクティビティ](../building-journeys/dataset-lookup.md)を使用すると、ジャーニーの実行中に [Adobe Experience Platform データセット](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=ja){target="_blank"}からデータを取得できます。強化されたデータは、配列として保存され、メッセージ内で反復処理できます。
-
->[!AVAILABILITY]
->
->データセット参照アクティビティは、制限された組織のみが使用できます。アクセスするには、アドビ担当者にお問い合わせください。
 
 データセット参照アクティビティの設定について詳しくは、[この節](../building-journeys/dataset-lookup.md)を参照してください。 データセット参照は、イベントデータと組み合わせると特に強力です。実用的なユースケースについて詳しくは、[例：データセット参照を使用して強化されたイベントデータ](#combine-sources)を参照してください。
 
@@ -1044,12 +1040,12 @@ Handlebars には、ループ内で高度な反復パターンを実行するの
 
 ## 関連トピック {#related-topics}
 
-**パーソナライゼーションの基本：**&#x200B;[パーソナライゼーションの基本を学ぶ](personalize.md) | [パーソナライゼーションの追加](personalization-build-expressions.md) | [パーソナライゼーション構文](personalization-syntax.md) | [ヘルパー関数](functions/helpers.md) | [条件付きルールの作成](create-conditions.md)
+**パーソナライゼーションの基本：**[パーソナライゼーションの基本を学ぶ](personalize.md) | [パーソナライゼーションの追加](personalization-build-expressions.md) | [パーソナライゼーション構文](personalization-syntax.md) | [ヘルパー関数](functions/helpers.md) | [条件付きルールの作成](create-conditions.md)
 
-**ジャーニー設定：**&#x200B;[イベントについて](../event/about-events.md) | [カスタムアクションの設定](../action/about-custom-action-configuration.md) | [カスタムアクションパラメーターへのコレクションの受け渡し](../building-journeys/collections.md#passing-collection) | [カスタムアクションでの API 呼び出し応答の使用](../action/action-response.md) | [カスタムアクションのトラブルシューティング](../action/troubleshoot-custom-action.md) | [ジャーニーでの Adobe Experience Platform データの使用](../building-journeys/dataset-lookup.md) | [ジャーニーでの補助識別子の使用](../building-journeys/supplemental-identifier.md) | [ガードレールと制限](../start/guardrails.md) | [ジャーニーのテスト](../building-journeys/testing-the-journey.md)
+**ジャーニー設定：**[イベントについて](../event/about-events.md) | [カスタムアクションの設定](../action/about-custom-action-configuration.md) | [カスタムアクションパラメーターへのコレクションの受け渡し](../building-journeys/collections.md#passing-collection) | [カスタムアクションでの API 呼び出し応答の使用](../action/action-response.md) | [カスタムアクションのトラブルシューティング](../action/troubleshoot-custom-action.md) | [ジャーニーでの Adobe Experience Platform データの使用](../building-journeys/dataset-lookup.md) | [ジャーニーでの補助識別子の使用](../building-journeys/supplemental-identifier.md) | [ガードレールと制限](../start/guardrails.md) | [ジャーニーのテスト](../building-journeys/testing-the-journey.md)
 
-**ジャーニー式関数：**&#x200B;[高度な式エディター](../building-journeys/expression/expressionadvanced.md) | [コレクション管理関数](../building-journeys/expression/collection-management-functions.md)（first、all、last） | [リスト関数](../building-journeys/functions/list-functions.md)（serializeList、filter、sort） | [配列関数](../personalization/functions/arrays-list.md)（head、tail）
+**ジャーニー式関数：**[高度な式エディター](../building-journeys/expression/expressionadvanced.md) | [コレクション管理関数](../building-journeys/expression/collection-management-functions.md)（first、all、last） | [リスト関数](../building-journeys/functions/list-functions.md)（serializeList、filter、sort） | [配列関数](../personalization/functions/arrays-list.md)（head、tail）
 
-**パーソナライゼーションのユースケース：**&#x200B;[買い物かご放棄メール](personalization-use-case-helper-functions.md) | [注文ステータス通知](personalization-use-case.md)
+**パーソナライゼーションのユースケース：**[買い物かご放棄メール](personalization-use-case-helper-functions.md) | [注文ステータス通知](personalization-use-case.md)
 
-**メッセージデザイン：**&#x200B;[メールデザインの基本を学ぶ](../email/get-started-email-design.md) | [プッシュ通知の作成](../push/create-push.md) | [SMS メッセージの作成](../sms/create-sms.md) | [コンテンツのプレビューとテスト](../content-management/preview-test.md)
+**メッセージデザイン：**[メールデザインの基本を学ぶ](../email/get-started-email-design.md) | [プッシュ通知の作成](../push/create-push.md) | [SMS メッセージの作成](../sms/create-sms.md) | [コンテンツのプレビューとテスト](../content-management/preview-test.md)

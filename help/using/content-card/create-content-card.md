@@ -6,7 +6,7 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: a26bb3bd-d593-466b-9852-94e194d6d2b7
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
 workflow-type: tm+mt
 source-wordcount: '1467'
 ht-degree: 89%
@@ -25,25 +25,25 @@ ht-degree: 89%
 
 コンテンツカードをジャーニーに追加するには、次の手順に従います。
 
-1. [&#x200B; ジャーニー &#x200B;](../building-journeys/journey-gs.md) を開き、パレットの「**[!UICONTROL アクション]**」セクションから **[!UICONTROL アクション]** アクティビティをドラッグ&amp;ドロップします。 [&#x200B; アクションアクティビティ &#x200B;](../building-journeys/journey-action.md) の詳細情報。
+1. [ ジャーニー](../building-journeys/journey-gs.md)を開き、パレットの&#x200B;**[!UICONTROL アクション]** セクションから&#x200B;**[!UICONTROL アクション]** アクティビティをドラッグ&amp;ドロップします。 [ アクションアクティビティ ](../building-journeys/journey-action.md)の詳細をご覧ください。
 
    >[!IMPORTANT]
    >
-   >すべてのネイティブチャネルにアクションアクティビティからアクセスできるようになりましたが、従来のネイティブチャネルアクティビティは 3 月のリリースで非推奨（廃止予定）になります。 従来のアクションを含む既存のジャーニーは、引き続きそのまま機能します。移行は不要です。
+   >従来のネイティブチャネルアクティビティ（電子メール、プッシュ、SMS、アプリ内、web、コードベースのエクスペリエンス、コンテンツカード）は、2026年3月のリリースで廃止されました。 これらのアクティビティを使用する既存のジャーニーは、変更なしで引き続き機能します。移行は必要ありません。
 
-1. アクションタイプとして **[!UICONTROL カード]** を選択します。
+1. アクションタイプとして「**[!UICONTROL Card]**」を選択します。
 
    ![](assets/content-card-jo-1.png)
 
    >[!NOTE]
    >
-   >**カード** はインバウンドエクスペリエンスアクティビティなので、3 日間 **待機** アクティビティが付属しています。 [詳細情報](../building-journeys/wait-activity.md#auto-wait-node)
+   >**カード**&#x200B;はインバウンドエクスペリエンス アクティビティであるため、3日間の&#x200B;**待機** アクティビティが付属しています。 [詳細情報](../building-journeys/wait-activity.md#auto-wait-node)
 
-1. ジャーニーキャンバスでアクションを識別するための **[!UICONTROL ラベル]** を入力します。
+1. ジャーニーキャンバスでアクションを識別するには、**[!UICONTROL ラベル]**&#x200B;を入力します。
 
-1. 「**[!UICONTROL アクションを設定]**」ボタンをクリックします。
+1. 「**[!UICONTROL 設定アクション]**」ボタンをクリックします。
 
-1. 「**[!UICONTROL アクション]**」タブに移動します。 ここから、使用するコンテンツカード設定を選択または作成します。 [詳細情報](content-card-configuration.md)
+1. 「**[!UICONTROL アクション]**」タブに移動します。 そこから、使用するコンテンツカード設定を選択または作成します。 [詳細情報](content-card-configuration.md)
 
    ![](assets/content-card-jo-2.png)
 
@@ -98,11 +98,11 @@ ht-degree: 89%
 
    1. 「**[!UICONTROL グループを作成]**」をクリックして、トリガーをグループ化します。
 
-1. 「**[!UICONTROL アクションを追加]**」ボタンをクリックすると、コンテンツカードに 1 つ以上のインバウンドアクションを追加できます。 [詳細情報](../building-journeys/journey-action.md#multi-action)
+1. 「**[!UICONTROL アクションを追加]**」ボタンをクリックすると、コンテンツカードに1つ以上のインバウンドアクションを追加できます。 [詳細情報](../building-journeys/journey-action.md#multi-action)
 
 1. ジャーニーキャンバスに戻ります。 必要に応じて、追加のアクションまたはイベントをドラッグ＆ドロップして、ジャーニーフローを完了します。[詳細情報](../building-journeys/about-journey-activities.md)
 
-ジャーニーの作成、設定、公開について詳しくは、[&#x200B; このページ &#x200B;](../building-journeys/journey-gs.md) を参照してください。
+ジャーニーの作成、設定、公開の方法について詳しくは、[このページ ](../building-journeys/journey-gs.md)を参照してください。
 
 >[!TAB キャンペーンへのコンテンツカードの追加]
 

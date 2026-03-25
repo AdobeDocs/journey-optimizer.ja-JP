@@ -7,7 +7,7 @@ role: User
 level: Beginner
 keywords: アプリ内, メッセージ, 作成, 開始
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
 workflow-type: tm+mt
 source-wordcount: '2178'
 ht-degree: 90%
@@ -31,31 +31,31 @@ ht-degree: 90%
 
 アプリ内メッセージをジャーニーに追加するには、次の手順に従います。
 
-1. [&#x200B; ジャーニー &#x200B;](../building-journeys/journey-gs.md) を開き、パレットの「**[!UICONTROL アクション]**」セクションから **[!UICONTROL アクション]** アクティビティをドラッグ&amp;ドロップします。 [&#x200B; アクションアクティビティ &#x200B;](../building-journeys/journey-action.md) の詳細情報。
+1. [ ジャーニー](../building-journeys/journey-gs.md)を開き、パレットの&#x200B;**[!UICONTROL アクション]** セクションから&#x200B;**[!UICONTROL アクション]** アクティビティをドラッグ&amp;ドロップします。 [ アクションアクティビティ ](../building-journeys/journey-action.md)の詳細をご覧ください。
 
    >[!IMPORTANT]
    >
-   >すべてのネイティブチャネルにアクションアクティビティからアクセスできるようになりましたが、従来のネイティブチャネルアクティビティは 3 月のリリースで非推奨（廃止予定）になります。 従来のアクションを含む既存のジャーニーは、引き続きそのまま機能します。移行は不要です。
+   >従来のネイティブチャネルアクティビティ（電子メール、プッシュ、SMS、アプリ内、web、コードベースのエクスペリエンス、コンテンツカード）は、2026年3月のリリースで廃止されました。 これらのアクティビティを使用する既存のジャーニーは、変更なしで引き続き機能します。移行は必要ありません。
 
-1. アクションタイプとして **[!UICONTROL アプリ内]** を選択します。
+1. アクションタイプとして「**[!UICONTROL アプリ内]**」を選択します。
 
    ![](assets/in_app_journey_1.png)
 
    >[!NOTE]
    >
-   >プロファイルがジャーニーの終了に達すると、表示されたアプリ内メッセージは自動的に期限切れになります。そのため、適切なタイミングを確保するために、アプリ内アクションの後に 3 日間 **待機** アクティビティが自動的に追加されます。 [詳細情報](../building-journeys/wait-activity.md#auto-wait-node)
+   >プロファイルがジャーニーの終了に達すると、表示されたアプリ内メッセージは自動的に期限切れになります。そのため、アプリ内アクションの後、適切なタイミングを確保するために、3日間の&#x200B;**待機** アクティビティが自動的に追加されます。 [詳細情報](../building-journeys/wait-activity.md#auto-wait-node)
 
-1. ジャーニーキャンバスでアクションを識別するための **[!UICONTROL ラベル]** を入力します。
+1. ジャーニーキャンバスでアクションを識別するには、**[!UICONTROL ラベル]**&#x200B;を入力します。
 
-1. 「**[!UICONTROL アクションを設定]**」ボタンをクリックします。
+1. 「**[!UICONTROL 設定アクション]**」ボタンをクリックします。
 
-1. 「**[!UICONTROL アクション]**」タブに移動します。 ここから、使用するアプリ内設定を選択または作成します。 [詳細情報](inapp-configuration.md#channel-prerequisites)
+1. 「**[!UICONTROL アクション]**」タブに移動します。 そこから、使用するアプリ内設定を選択または作成します。 [詳細情報](inapp-configuration.md#channel-prerequisites)
 
    ![](assets/in_app_journey_2.png)
 
 1. 「**[!UICONTROL コンテンツを編集]**」ボタンを選択し、必要に応じてコンテンツを作成します。 [詳細情報](design-in-app.md)
 
-1. 「**[!UICONTROL トリガーを編集]**」をクリックして、メッセージをトリガーするイベントと条件を選択します。ルールビルダーを使用すると、条件と値を指定して、条件が満たされた場合に一連のアクション（アプリ内メッセージの送信など）をトリガーできます。 [詳細情報](design-in-app.md)
+1. 「**[!UICONTROL トリガーを編集]**」をクリックして、メッセージをトリガーするイベントと条件を選択します。ルールビルダーを利用すれば、条件と値を指定して一致する場合に、アプリ内メッセージの送信などの一連のアクションをトリガーできます。 [詳細情報](design-in-app.md)
 
    1. 必要に応じて、イベントのドロップダウンをクリックしてトリガーを変更します。
 
@@ -121,11 +121,11 @@ ht-degree: 90%
       * **[!UICONTROL 1 回表示]**：このメッセージは、ユーザーセッションごとに 1 回のみ表示され、閉じられるまですべてのウィンドウまたはアクティビティで表示されたままになります。特定の画面に制限したり、自動的に閉じたりするには、メッセージングデリゲートでカスタムロジックを使用します。
       * **[!UICONTROL クリックスルーまで表示]**：**[!UICONTROL モバイルアプリトリガー]**&#x200B;ドロップダウンで選択したイベントが、「クリック」アクションで SDK によって操作イベントが送信されるまでに発生した場合に、このメッセージが表示されます。
 
-1. 「**[!UICONTROL アクションを追加]**」ボタンをクリックすると、アプリ内メッセージに 1 つ以上のインバウンドアクションを追加できます。 [詳細情報](../building-journeys/journey-action.md#multi-action)
+1. 「**[!UICONTROL アクションを追加]**」ボタンをクリックすると、アプリ内メッセージに1つ以上のインバウンドアクションを追加できます。 [詳細情報](../building-journeys/journey-action.md#multi-action)
 
 1. ジャーニーキャンバスに戻ります。 必要に応じて、追加のアクションまたはイベントをドラッグ＆ドロップして、ジャーニーフローを完了します。[詳細情報](../building-journeys/about-journey-activities.md)
 
-ジャーニーの作成、設定、公開について詳しくは、[&#x200B; このページ &#x200B;](../building-journeys/journey-gs.md) を参照してください。
+ジャーニーの作成、設定、公開の方法について詳しくは、[このページ ](../building-journeys/journey-gs.md)を参照してください。
 
 >[!NOTE]
 >
@@ -236,7 +236,7 @@ ht-degree: 90%
 
    ![](assets/in_app_create_4.png)
 
-キャンペーンの作成、設定、アクティブ化の方法について詳しくは、[&#x200B; このページ &#x200B;](../campaigns/get-started-with-campaigns.md) を参照してください。
+キャンペーンの作成、設定およびアクティベート方法について詳しくは、[このページ ](../campaigns/get-started-with-campaigns.md)を参照してください。
 
 >[!ENDTABS]
 
@@ -246,7 +246,7 @@ ht-degree: 90%
 
   +++こちらのビデオをご覧ください
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3451883?captions=jpn&quality=12&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
   +++
 
@@ -254,7 +254,7 @@ ht-degree: 90%
 
   +++こちらのビデオをご覧ください
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3445289/?captions=jpn&learn=on&autoplay=true)
+  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
 
   +++
 
@@ -262,7 +262,7 @@ ht-degree: 90%
 
   +++こちらのビデオをご覧ください
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3451830/?captions=jpn&learn=on&autoplay=true)
+  >[!VIDEO](https://video.tv.adobe.com/v/3423077/?learn=on&autoplay=true)
 
   +++
 
