@@ -7,10 +7,10 @@ feature: Get Started
 role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: fd10a600cb54b8c35e2d195be7379b0dd120b6a7
+source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
 workflow-type: tm+mt
-source-wordcount: '1036'
-ht-degree: 92%
+source-wordcount: '1058'
+ht-degree: 89%
 
 ---
 
@@ -50,11 +50,11 @@ ht-degree: 92%
 
 次の手順に従います。
 
-1. **チャネル設定を指定**&#x200B;します。メール、SMS、プッシュ通知、web プッシュ、ダイレクトメール、その他のチャネルに必要なすべての技術パラメーターを定義します。
+1. **チャネル設定を指定**&#x200B;します。電子メール、SMS、プッシュ通知、web プッシュ通知、ダイレクトメールなどのチャネルに必要な技術的なパラメーターをすべて定義します。
 
    * [!DNL Adobe Experience Platform] と Adobe Experience Platform Data Collection の両方で&#x200B;**プッシュ通知設定**&#x200B;を定義します。[詳細情報](../../push/push-gs.md)
 
-   * モバイルおよびデスクトップブラウザーに通知を配信するように **web プッシュ通知** を設定します。 [詳細情報](../../push/push-configuration-web.md)
+   * **web プッシュ通知**&#x200B;を設定して、モバイルブラウザーとデスクトップブラウザーに通知を配信します。 [詳細情報](../../push/push-configuration-web.md)
 
    * **チャネル設定**&#x200B;を作成して、メール、SMS、プッシュ、アプリ内、web、他のチャネルに必要なすべての技術パラメーターを設定します。[詳細情報](../../configuration/channel-surfaces.md)
 
@@ -62,9 +62,9 @@ ht-degree: 92%
 
    * 抑制リストにメールアドレスを送信するまでに&#x200B;**再試行**&#x200B;を実行する日数を管理します。[詳細情報](../../configuration/manage-suppression-list.md)
 
-   * チャネル設定レベルで **メッセージのエクスポート** を有効にして、送信されたメールと SMS コンテンツを必要に応じてアーカイブできます（アドオン機能）。 [詳細情報](../../configuration/message-export.md)
+   * チャネル設定レベルで&#x200B;**メッセージの書き出し**&#x200B;を有効にして、必要に応じて送信された電子メールおよびSMS コンテンツをアーカイブします（アドオンの提供）。 [詳細情報](../../configuration/message-export.md)
 
-1. **サブドメインをデリゲート**：Journey Optimizer で新規サブドメインを使用する場合、最初の手順としてそのサブドメインをデリゲートします。[詳細情報](../../configuration/about-subdomain-delegation.md)必要に応じて、サブドメインを CNAME からカスタムデリゲーションに移行できます。 [詳細](../../configuration/custom-subdomain-migration.md)
+1. **サブドメインをデリゲート**：Journey Optimizer で新規サブドメインを使用する場合、最初の手順としてそのサブドメインをデリゲートします。[詳細情報](../../configuration/about-subdomain-delegation.md)必要に応じて、サブドメインをCNAMEからカスタム委任に移行できます。 [詳細](../../configuration/custom-subdomain-migration.md)
 
    ![](../assets/subdomain.png)
 
@@ -92,7 +92,7 @@ ht-degree: 92%
 
 * **IP ウォームアッププラン**：メールの送信量を徐々に増やして、メールプロバイダーでの送信者の評判を作成します。[詳細情報](../../configuration/ip-warmup-gs.md)
 
-* **非表示時間**：特定の期間にメッセージを送信しない場合に、時間ベースの除外を設定するルールセット。 [詳細情報](../../conflict-prioritization/quiet-hours.md)
+* **サイレットアワー**：特定の期間にメッセージを送信しない場合に時間ベースの除外を行うためのルールセットを設定します。 [詳細情報](../../conflict-prioritization/quiet-hours.md)
 
 ## 役割をまたいだ共同作業
 
@@ -102,7 +102,7 @@ ht-degree: 92%
 
 >[!TAB データエンジニアのサポート]
 
-データ管理とアクセスに関する[データエンジニア](data-engineer.md)との共同作業：
+データの管理とアクセスについて、[ データエンジニア ](data-engineer.md)と共同作業をおこないます。 データエンジニアが設定する必要があるスキーマ、データセット、データソースについて、[ データ管理の基本](../../data/gs-data.md)の概要を確認してください。
 
 * データ管理およびスキーマ作成の権限を付与
 * 開発とテスト用のサンドボックスへのアクセスを承認

@@ -8,9 +8,9 @@ role: Developer, Admin
 level: Experienced
 keywords: プラットフォーム, データレイク, 作成, レイク, データセット, プロファイル
 exl-id: dcdd3c81-0f00-4259-a8a5-9062a4c40b6f
-source-git-commit: ab0f100d53cb987919eb134442bf05e64c30719a
+source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '897'
 ht-degree: 95%
 
 ---
@@ -21,7 +21,7 @@ Adobe Experience Platform に取り込まれたすべてのデータは、デー
 
 ## ガードレールと制限
 
-* 2024年11月1日（PT）以降、ストリーミングセグメント化では、[!DNL Journey Optimizer] のトラッキングデータセットとフィードバックデータセットからの送信イベントと開封イベントがサポートされなくなります。フリークエンシーキャップや疲労管理を実装する場合は、代わりにビジネスルールを使用してください。詳しくは、[この節](../conflict-prioritization/rule-sets.md)を参照してください。毎日のキャップに関するユースケースの説明などについて詳しくは、[こちら](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=ja){target="_blank"}を参照してください。
+* 2024年11月1日（PT）以降、ストリーミングセグメント化では、[!DNL Journey Optimizer] のトラッキングデータセットとフィードバックデータセットからの送信イベントと開封イベントがサポートされなくなります。フリークエンシーキャップや疲労管理を実装する場合は、代わりにビジネスルールを使用してください。詳しくは、[この節](../conflict-prioritization/rule-sets.md)を参照してください。毎日のキャップに関するユースケースの説明などについて詳しくは、[こちら](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}を参照してください。
 
 * 2025年2月以降、Journey Optimizer システム生成データセットに対して、有効期間（TTL）ガードレールがロールアウトされます。[詳細情報](datasets-ttl.md)
 
@@ -63,9 +63,9 @@ Adobe Experience Platform に取り込まれたすべてのデータは、デー
 
   _同意サービスデータセット_：プロファイルの同意情報を保存します。
 
-* メッセージの書き出し
+* メッセージのエクスポート
 
-  _AJO メッセージ書き出しデータセット_：書き出し目的で、送信済みメールおよび SMS メッセージの内容を保存します。 レコードは、取り込みから 7 カレンダー日間保持されます。 メッセージ書き出しアドオンを購入した組織でのみ使用できます。 [詳細情報](../configuration/message-export.md)
+  _AJO メッセージ書き出しデータセット_：書き出し用に送信された電子メールとSMS メッセージの内容を保存します。 レコードは、取り込みから7日間は保持されます。 メッセージ書き出しアドオンを購入した組織でのみ使用できます。 [詳細情報](../configuration/message-export.md)
 
 * インテリジェントサービス
 
@@ -83,7 +83,7 @@ Adobe Experience Platform に取り込まれたすべてのデータは、デー
 
 データセットの作成、スキーマへのマッピング、データの追加、データの取り込み確認の方法についてこのビデオで説明しています。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416782?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334293?quality=12)
 
 ## データガバナンス
 
@@ -103,6 +103,7 @@ Adobe Experience Platform に取り込まれたすべてのデータは、デー
 
 >[!MORELIKETHIS]
 >
+>* [Journey Optimizerでのデータ管理の開始](gs-data.md)
 >* [データセットのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=ja){target="_blank"}
 >* [データ取り込みのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ja){target="_blank"}
 >* [データ管理ライセンス使用権限のベストプラクティス](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/license/data-management-best-practices#data-management-best-practices){target="_blank"}

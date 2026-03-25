@@ -7,10 +7,10 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: be3936e4-8185-4031-9daf-95eea58077d0
-source-git-commit: 5383e0af430188dadd3e9ee259253115f7f1992d
+source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 92%
+source-wordcount: '494'
+ht-degree: 91%
 
 ---
 
@@ -38,6 +38,7 @@ ht-degree: 92%
 
 >[!MORELIKETHIS]
 >
+>* [Journey Optimizerでのデータ管理の開始](../data/gs-data.md)
 >* [リアルタイム顧客プロファイルのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ja){target="_blank"}
 >* [リアルタイム顧客プロファイルデータおよびセグメント化用のデフォルトガードレール](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/guardrails){target="_blank"}
 >* [データ取り込みのドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/ingestion/home){target="_blank"}
@@ -58,4 +59,4 @@ ht-degree: 92%
 
 Adobe Experience Platform がリアルタイム顧客プロファイルをアセンブルおよび更新する方法、これらのプロファイルにアクセスして使用する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/31660?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27251?quality=12)

@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: データ, ソース, ジャーニー, プラットフォーム
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: 36f8224b33411f23f23985c55bdb6cebbcdf5712
+source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 56%
+source-wordcount: '645'
+ht-degree: 54%
 
 ---
 
@@ -22,6 +22,9 @@ ht-degree: 56%
 >id="ajo_journey_data_source_list"
 >title="データソースについて"
 >abstract="データソースの設定は、常に技術ユーザーが実行します。データソースを設定すると、システムへの接続を定義して、ジャーニーで使用される（条件定義、アクションのパラメーターとパーソナライゼーションデータ、カスタム待機定義、タイムゾーン定義に対する）追加情報を取得できます。"
+
+>[!TIP]
+>Journey Optimizerを初めて利用する場合？ データ ソースを設定する前に、スキーマ、データセット、ID、データ フローを理解するには、[ データ管理の概要](../data/gs-data.md)から始めます。
 
 データソース設定を使用すると、システムへの接続を定義して、ジャーニーにおいて次の目的でジャーニーで使用される追加情報を取得できます。
 
@@ -51,7 +54,7 @@ ht-degree: 56%
 
 ## データアクセス戦略の選択 {#data-access-strategy}
 
-データソースを設定する前に、自社のユースケースに最も適したアプローチを検討してください。 3つのオプションが利用可能で、それぞれ永続性、プロファイルの充実、再利用性の観点から異なるトレードオフがあります。 これらのオプションについて詳しくは、[Journey Optimizerの高度なジャーニーのベストプラクティス &#x200B;](https://experienceleague.adobe.com/ja/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}を参照してください。
+データソースを設定する前に、自社のユースケースに最も適したアプローチを検討してください。 3つのオプションが利用可能で、それぞれ永続性、プロファイルの充実、再利用性の観点から異なるトレードオフがあります。 これらのオプションについて詳しくは、[Journey Optimizerの高度なジャーニーのベストプラクティス ](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}を参照してください。
 
 **オプション 1 — カスタムアクションを使用した外部データへのアクセス（データレイクなし）**
 
@@ -60,7 +63,7 @@ Experience Platform Data Lakeにデータを保持することなく、ジャー
 * データは、ジャーニーのコンテキスト内でのみ有用であり、他の場所では必要ありません。
 * 外部システムには、必要な属性を返すAPI エンドポイントを通じてアクセスできます。
 
-[&#x200B; カスタムアクション &#x200B;](../action/action.md)と[&#x200B; カスタムアクション応答](../action/action-response.md)の詳細を説明します。
+[ カスタムアクション ](../action/action.md)と[ カスタムアクション応答](../action/action-response.md)の詳細を説明します。
 
 **オプション 2 — データレイク内のデータセット。プロファイル**&#x200B;に対して有効になっていません
 
@@ -71,7 +74,7 @@ Experience Platform Data Lakeにデータを保持することなく、ジャー
 
 **オプション 3 — データレイクのプロファイル対応データセット**
 
-データを[&#x200B; プロファイル対応データセット &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}に取り込み、オーディエンスを作成し、ID グラフを充実させ、複数のジャーニーおよびRT-CDPの宛先をまたいでデータを活用します。 次の場合に最適：
+データを[ プロファイル対応データセット ](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}に取り込み、オーディエンスを作成し、ID グラフを充実させ、複数のジャーニーおよびRT-CDPの宛先をまたいでデータを活用します。 次の場合に最適：
 
 * このデータは、Journey Optimizer以外のチャネルで使用されるオーディエンス定義に役立ちます。
 * データには、より豊富でステッチされたプロファイルフラグメントに貢献する複数のIDが含まれています。
@@ -88,5 +91,5 @@ Adobe Experience Platform データソースと外部データソースの設定
 
 データソースとは何かを理解し、Experience Platform と外部データソースを設定する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416779?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334256?quality=12)
 
