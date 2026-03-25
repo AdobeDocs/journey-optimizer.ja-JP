@@ -12,9 +12,9 @@ hidefromtoc: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
-source-git-commit: 226b1fcb1129410781262db9e53673faffa970da
+source-git-commit: 89e1348a98596b8ecefabab571d2c1af299f1ed8
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '808'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 2%
 * [課題とタスクへのアクセスと管理](access-loyalty-challenges.md)
 * [課題の創出](create-challenges.md)
 * **タスクを作成** ◀︎ **現在のユーザー**
-* [&#x200B; ロイヤルティチャレンジ API リファレンス &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}
+* [ ロイヤルティチャレンジ API リファレンス ](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}
 
 >[!ENDSHADEBOX]
 
@@ -110,7 +110,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_task_eligible_items_exclusion"
 >title="対象商品と除外事項"
->abstract="購入タスクと支出タスクの購買カウントを制御します。 最初のフィールドに、コンマ区切りの項目ID、カテゴリ、または宛先IDを入力して、それらのIDのみを許可します。 すべての購入がカウントされるように空のままにするか、すべての購入を意味するアスタリスクを入力します。 2つ目のフィールドには、ギフトカードやクリアランスなど、絶対に数えるべきではないアイテムやカテゴリーをリストアップします。"
+>abstract="**購入**&#x200B;と&#x200B;**支出**&#x200B;の両方のアクティビティで、**[!UICONTROL 適格品目と除外]**&#x200B;属性を使用して、どの品目とグループが対象で、どの品目とグループが除外されるかを定義できます。 これにより、チャレンジ目標に沿って、特定の製品、カテゴリー、場所をターゲットにすることができます。 たとえば、支出タスクを特定の商品カテゴリーに制限したり、ギフトカードやプロモーション商品をタスク完了に向けてカウントから除外したりすることができます。"
 
 <!-- SCREENSHOT: Eligible items & exclusions popup showing the two sections: "Eligible task purchases are limited to the following" and "The following are excluded from this task" with text input fields -->
 

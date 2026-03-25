@@ -12,9 +12,9 @@ hidefromtoc: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: 226b1fcb1129410781262db9e53673faffa970da
+source-git-commit: 89e1348a98596b8ecefabab571d2c1af299f1ed8
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '719'
 ht-degree: 4%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 4%
 * [課題とタスクへのアクセスと管理](access-loyalty-challenges.md)
 * [課題の創出](create-challenges.md)
 * [タスクの作成](create-tasks.md)
-* [&#x200B; ロイヤルティチャレンジ API リファレンス &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}
+* [ ロイヤルティチャレンジ API リファレンス ](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}
 
 >[!ENDSHADEBOX]
 
@@ -42,7 +42,7 @@ ht-degree: 4%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_inventory"
 >title="ロイヤルティの課題"
->abstract="ロイヤルティの課題とは、タスクを完了した顧客に報酬を与えるゲーミフィケーションプログラムのことです。 標準、ストリーク、シーケンシャルの課題の違い、課題を作成する前に設定できる内容について説明します。"
+>abstract="ロイヤルティの課題：ゲーミフィケーションを利用して、魅力的なロイヤルティプログラムを構築し、顧客行動を促進して、ブランドとの関係を強化できます。 購入やレビューの執筆から、ソーシャルメディアへの参加、友人への紹介に至るまで、顧客の特定の行動に対して報酬を与える課題を構築します。"
 
 ロイヤルティの課題：ゲーミフィケーションを利用して、魅力的なロイヤルティプログラムを構築し、顧客行動を促進して、ブランドとの関係を強化できます。 購入やレビューの執筆から、ソーシャルメディアへの参加、友人への紹介に至るまで、顧客の特定の行動に対して報酬を与える課題を構築します。
 
@@ -118,7 +118,7 @@ ht-degree: 4%
 
 +++ターゲットオーディエンス
 
-課題を解決する前に、Adobe Experience Platformに必要なターゲットオーディエンスが存在することを確認しましょう。 チャレンジの設定中に、どの顧客が参加する資格があるかを定義するオーディエンスを選択します。 [&#x200B; オーディエンスの操作方法を学ぶ](../audience/about-audiences.md)。
+課題を解決する前に、Adobe Experience Platformに必要なターゲットオーディエンスが存在することを確認しましょう。 チャレンジの設定中に、どの顧客が参加する資格があるかを定義するオーディエンスを選択します。 [ オーディエンスの操作方法を学ぶ](../audience/about-audiences.md)。
 
 +++
 
@@ -166,4 +166,4 @@ ht-degree: 4%
 
 ## API リファレンス {#api-reference}
 
-ロイヤルティの課題をプログラムで管理するには、[&#x200B; ロイヤルティの課題API](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}を使用します。 APIを使用すると、REST エンドポイントを介して課題とタスクを作成、更新、管理できます。
+ロイヤルティの課題をプログラムで管理するには、[ ロイヤルティの課題API](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}を使用します。 APIを使用すると、REST エンドポイントを介して課題とタスクを作成、更新、管理できます。
