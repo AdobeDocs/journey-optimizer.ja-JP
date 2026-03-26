@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 80241ba0afa94d6683f0fd562bb3185876c55cac
+source-git-commit: a4d1ef8820ef3cafc4dae5d897c850b106163868
 workflow-type: tm+mt
-source-wordcount: '1537'
+source-wordcount: '1535'
 ht-degree: 19%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 19%
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 **リリース日**: 2026年3月24日～25日
 
@@ -161,7 +161,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey OptimizerのiOS Live Activityを利用して、顧客のロックScreensやダイナミックアイランドにリアルタイムの体験を直接提供できます。 ユーザーがアプリを開かなくても、注文追跡やフライト状況からイベントカウントダウン、ライブスコア、配信の進捗状況に至るまで、ライブアップデートを配信できます。 オーディエンスがどこにいても、適切なタイミングで情報を提供し、エンゲージメントを維持しましょう。</p>
+<p>Adobe Journey Optimizerの<strong>iOS ライブアクティビティ </strong>を利用して、お客様のロックScreensとダイナミックアイランドにリアルタイムのエクスペリエンスを直接提供できます。 ユーザーがアプリを開かなくても、注文追跡やフライト状況からイベントカウントダウン、ライブスコア、配信の進捗状況に至るまで、ライブアップデートを配信できます。 オーディエンスがどこにいても、適切なタイミングで情報を提供し、エンゲージメントを維持しましょう。</p>
 <p>以前はベータ版でリリースされていましたが、この機能はすべての環境で使用できるようになりました（一般提供）。</p>
 <p>詳しくは、<a href="../mobile-live/get-started-mobile-live.md">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2026年3月3日（PT）</p>
@@ -181,7 +181,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p><strong>Adobe Experience Platform Agent Orchestrator</strong>を搭載した<strong>Journey Agent</strong>は、Journey Optimizerで利用でき、自然言語インターフェイスを通じてジャーニーを分析できます。 また、Journey Agentでチャネル固有のコンテンツを直接生成および管理し、電子メールやプッシュ通知などのチャネル用のコンテンツを作成したり、テンプレートを適用およびプレビューしたり、プロンプトを通じてトーンやスタイルを調整したり、コンテキストに沿った編集のために<strong>Content Designer</strong>でコンテンツを開いたりすることもできます。</p>
 <p>この機能は、一連の組織でのみ使用できます（限定提供）。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
-<p>詳しくは、<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=ja">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html" target="_blank">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2026年3月4日（PT）</p>
 </td>
 </tr>
@@ -272,23 +272,6 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <table>
 <thead>
 <tr>
-<th><strong>シグナルを活用したトリガーオーケストレーションされたキャンペーン</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>オーケストレーションされたキャンペーンは、<strong>API シグナル </strong>を介してトリガーできるようになりました。 これを設定するには、シグナル <strong>によってトリガーされた</strong> ターゲットキャンペーンを設定して公開し、API呼び出しを使用して実行します。 API呼び出しに含まれるパラメーターは、実行中のキャンペーン内で変数として使用できます。 シグナル トリガーによるオーケストレーションされたキャンペーンは<strong> バッチ </strong>のキャンペーンのままであり、API トリガーされたキャンペーンとは異なります。</p>
-<p><img src="assets/do-not-localize/oc-triggered.gif"></p>
-<p>ご利用いただけます：2026年4月1日</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>画像をメールコンテンツテンプレートに変換</strong><br/></th>
 </tr>
 </thead>
@@ -298,6 +281,23 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p>Journey Optimizerから直接、画像をメールコンテンツテンプレートに変換できるようになりました。 AIを活用した分析により、ビジュアルリファレンスから構造化されたHTMLテンプレートを自動的に生成し、メールのデザイン時間を大幅に短縮できます。</p>
 <p>以前は制限付き可用性でリリースされていましたが、この機能はすべての環境で使用できるようになりました（一般提供）。 <a href="../content-management/image-to-html.md">詳細情報</a></p>
 <p>公開日：2026年3月26日（PT）</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>オーケストレーションされたキャンペーンのトランザクションカテゴリ</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>オーケストレーションキャンペーンで、チャネルアクティビティを<strong> トランザクション </strong> カテゴリに設定できるようになりました。 これは、そのアクティビティにトランザクションチャネル設定を適用し、ビジネスルールを適用しない場合や、顧客のオプトインが必要ない場合に役立ちます。</p>
+<p><img src="assets/do-not-localize/oc-transactional.gif"></p>
+<p>利用可能日：2026年3月26日 – この機能は、今後数日間であらゆる地域に徐々に展開されます。</p>
 </td>
 </tr>
 </tbody>
@@ -327,23 +327,6 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <table>
 <thead>
 <tr>
-<th><strong>オーケストレーションされたキャンペーンのトランザクションカテゴリ</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>オーケストレーションキャンペーンで、チャネルアクティビティを<strong> トランザクション </strong> カテゴリに設定できるようになりました。 これは、そのアクティビティにトランザクションチャネル設定を適用し、ビジネスルールを適用しない場合や、顧客のオプトインが必要ない場合に役立ちます。</p>
-<p><img src="assets/do-not-localize/oc-transactional.gif"></p>
-<p>利用可能日：2026年3月26日 – この機能は、今後数日間であらゆる地域に徐々に展開されます。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>インボックス</strong><br/></th>
 </tr>
 </thead>
@@ -352,6 +335,23 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p><strong>受信トレイ </strong>は、コンテンツカードで利用できるモバイル機能で、ユーザーがアプリまたはweb サイト内で一元的な場所を作成して、ユーザーに送信されるメッセージを表示できるようにします。 これにより、メッセージが却下された後もアクセスできるようになり、マーケティングコミュニケーションの有効期間を延長できます。</p>
 <p>公開日：2026年3月31日（PT）</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>シグナルを活用したトリガーオーケストレーションされたキャンペーン</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>オーケストレーションされたキャンペーンは、<strong>API シグナル </strong>を介してトリガーできるようになりました。 これを設定するには、シグナル <strong>によってトリガーされた</strong> ターゲットキャンペーンを設定して公開し、API呼び出しを使用して実行します。 API呼び出しに含まれるパラメーターは、実行中のキャンペーン内で変数として使用できます。 シグナル トリガーによるオーケストレーションされたキャンペーンは<strong> バッチ </strong>のキャンペーンのままであり、API トリガーされたキャンペーンとは異なります。</p>
+<p><img src="assets/do-not-localize/oc-triggered.gif"></p>
+<p>公開日：2026年4月1日（PT）</p>
 </td>
 </tr>
 </tbody>
