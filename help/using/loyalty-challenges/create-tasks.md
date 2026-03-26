@@ -15,7 +15,7 @@ exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
 source-git-commit: 89e1348a98596b8ecefabab571d2c1af299f1ed8
 workflow-type: tm+mt
 source-wordcount: '808'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 2%
 * [課題とタスクへのアクセスと管理](access-loyalty-challenges.md)
 * [課題の創出](create-challenges.md)
 * **タスクを作成** ◀︎ **現在のユーザー**
-* [&#x200B; ロイヤルティチャレンジ API リファレンス &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}
+* [ ロイヤルティチャレンジ API リファレンス ](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}
 
 >[!ENDSHADEBOX]
 
@@ -41,11 +41,11 @@ ht-degree: 2%
 
 各タスクは、課題の完了に貢献する、測定可能な行動を表します。 タスクとは、個別に作成して1つ以上の課題に追加するか、課題の中で直接作成できる、再利用可能なコンポーネントのことです。
 
-## タスクの作成 {#create-task}
+## タスクを作成 {#create-task}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_task_create"
->title="タスクの作成"
+>title="タスクを作成"
 >abstract="顧客アクティビティ（購入または支出）を選択し、アクティビティ固有の属性（数量または金額、対象となるアイテムと除外、最小支出または最大トランザクションなどのオプション制限）を設定します。 プロパティ ペインで、タスク名と説明を設定します。"
 
 タスクは、2つのエントリポイントから作成できます。 設定プロセスは、どこから開始しても同じです。
