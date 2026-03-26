@@ -38,6 +38,6 @@ ht-degree: 88%
 
 >[!NOTE]
 >
->ランディングページのコンテンツデザイナーは、E メールデザイナーと非常に似ています。詳しくは、[ [!DNL Journey Optimizer]](../email/get-started-email-design.md) でのコンテンツのデザインを参照してください。
+>ランディングページのコンテンツデザイナーは、E メールデザイナーと非常に似ています。詳しくは、[&#x200B; [!DNL Journey Optimizer]](../email/get-started-email-design.md) でのコンテンツのデザインを参照してください。
 >
 >[欧州アクセシビリティ法](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}では、すべてのデジタル通信がアクセス可能である必要があると規定しています。[!DNL Journey Optimizer] でコンテンツをデザインする際は、[このページ](../email/accessible-content.md)に記載されている特定のガイドラインに従ってください。
