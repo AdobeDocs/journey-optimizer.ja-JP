@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: ランディング, ランディングページ, 作成, 公開
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: 66bf475ed473f3b3d8c61f17ac0f7a36696fe962
+source-git-commit: d0dd382521aeb2c7e18dc547c2ec55fa1472ab8d
 workflow-type: tm+mt
-source-wordcount: '1568'
-ht-degree: 95%
+source-wordcount: '1613'
+ht-degree: 93%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->最初のランディングページを作成する前に、[&#x200B; ランディングページの設定 &#x200B;](../../rp_landing_pages/lp-configuration-landing-page.md) の設定を完了してください。 これには、ランディングページをホストするサブドメインの設定や、サブドメインおよびその他のチャネル設定を指定するプリセットの少なくとも 1 つを定義することが含まれます。 ランディングページを作成するときは、プリセットを選択する必要があります。
+>最初のランディングページを作成する前に、[ ランディングページの設定](../../rp_landing_pages/lp-configuration-landing-page.md)を完了してください。 これには、ランディングページをホストするサブドメインを設定したり、サブドメインやその他のチャネル設定を指定する少なくとも1つのプリセットを定義したりすることが含まれます。 ランディングページの作成時に、プリセットを選択する必要があります。
 
 ## ランディングページの作成 {#create-landing-page}
 
@@ -53,7 +53,7 @@ ht-degree: 95%
 
 1. タイトルを追加します。必要に応じて、説明を追加できます。
 
-   ![](assets/lp_create-lp-details.png)
+   ![](assets/lp_create-lp-details.png){width=75%}
 
 1. ランディングページにカスタムデータ使用ラベルまたはコアデータ使用ラベルを割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。[詳しくは、オブジェクトレベルのアクセス制御（OLAC）を参照してください](../administration/object-based-access.md)
 
@@ -61,7 +61,12 @@ ht-degree: 95%
 
 1. プリセットを選択します。ランディングページプリセットを作成する方法については、[この節](../landing-pages/lp-presets.md#lp-create-preset)を参照してください。
 
-   ![](assets/lp_create-lp-presets.png)
+1. 作成するランディングページのタイプを選択します。
+
+   ![](assets/lp_create-lp-data-capture.png){width=60%}
+
+   * **[!UICONTROL 購読/購読解除]**：このタイプを使用して、購読または購読解除のユースケース用のランディングページを作成します。 [詳細情報](lp-use-cases.md#subscription-to-a-service)
+   * **[!UICONTROL データキャプチャ]**：このタイプを使用して、データキャプチャのユースケース用のランディングページを作成します。 [詳細情報](get-started-lp.md#data-capture-lp)
 
 1. 「**[!UICONTROL 作成]**」をクリックします。
 
@@ -86,7 +91,7 @@ ht-degree: 95%
 >title="プライマリページ設定の定義"
 >abstract="プライマリページとは、メールや web サイトなどで、ユーザーがランディングページへのリンクをクリックした直後に表示されるページです。"
 <!--
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html?lang=ja" text="Design the landing page content"-->
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="Design the landing page content"-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_settings"
@@ -262,8 +267,8 @@ ht-degree: 95%
 
 >[!CAUTION]
 >
->* ランディングページを公開するには、**[!UICONTROL メッセージを公開]** 権限が必要です。
->* 公開する前に、すべてのアラートを確認して解決します。 [詳細情報](#check-alerts)
+>* ランディングページを公開するには、**[!UICONTROL メッセージを公開]**&#x200B;権限が必要です。
+>* 公開前に、すべてのアラートを確認して解決します。 [詳細情報](#check-alerts)
 
 ランディングページの準備が整ったら、ページを公開し、メッセージで使用できる状態にできます。
 

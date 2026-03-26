@@ -9,10 +9,10 @@ role: User
 level: Beginner
 keywords: ランディング, ランディングページ, デザイン, HTML
 exl-id: c61b8d80-17e1-4fdd-a739-efcee032dc23
-source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+source-git-commit: d0dd382521aeb2c7e18dc547c2ec55fa1472ab8d
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 90%
+source-wordcount: '235'
+ht-degree: 88%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 90%
 
 * コンテンツ designer のインターフェイスで&#x200B;**ランディングページをゼロから設計**&#x200B;し、[Adobe Experience Manager Assets](../integrations/assets.md) の画像を活用します。コンテンツ<!--or use built-in templates--> のデザイン方法については、 [この節](../email/content-from-scratch.md)を参照してください。
 
-* **AI アシスタントを使用してコンテンツを生成** AI で生成されたテキストと画像を使用して、ランディングページの作成を高速化します。 [AI アシスタントの詳細を説明します &#x200B;](../content-management/generative-full-content.md)。
+* **AI アシスタントを使用してコンテンツを生成**&#x200B;し、AI 生成のテキストと画像を使用したランディングページの作成を高速化します。[AI アシスタントの詳細情報](../content-management/generative-full-content.md)。
 
 * コンテンツ designer に直接 **Raw HTML をコーディングまたは貼り付け**&#x200B;ます。独自のコンテンツの作成方法については、[この節](../email/code-content.md)を参照してください。
 
@@ -34,8 +34,10 @@ ht-degree: 90%
 
 * [!DNL Journey Optimizer] で作成された&#x200B;**保存済みランディングページテンプレートを使用**&#x200B;します。[詳細情報](lp-templates.md)
 
+ランディングページコンテンツデザイナーで、メールと同じコンポーネントを使用し、フォームコンポーネントを使用してランディングページ固有のコンテンツを定義できます。 [詳細情報](lp-content.md)
+
 >[!NOTE]
 >
->ランディングページのコンテンツデザイナーは、E メールデザイナーと非常に似ています。詳しくは、[&#x200B; [!DNL Journey Optimizer]](../email/get-started-email-design.md) でのコンテンツのデザインを参照してください。
+>ランディングページのコンテンツデザイナーは、E メールデザイナーと非常に似ています。詳しくは、[ [!DNL Journey Optimizer]](../email/get-started-email-design.md) でのコンテンツのデザインを参照してください。
 >
 >[欧州アクセシビリティ法](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}では、すべてのデジタル通信がアクセス可能である必要があると規定しています。[!DNL Journey Optimizer] でコンテンツをデザインする際は、[このページ](../email/accessible-content.md)に記載されている特定のガイドラインに従ってください。
