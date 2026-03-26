@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3bd51b6ac69a4b1f0965259a6b3b597435bc77f1
+source-git-commit: 80241ba0afa94d6683f0fd562bb3185876c55cac
 workflow-type: tm+mt
-source-wordcount: '1552'
-ht-degree: 20%
+source-wordcount: '1537'
+ht-degree: 19%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 20%
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 **リリース日**: 2026年3月24日～25日
 
@@ -66,7 +66,8 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <tbody>
 <tr>
 <td>
-<p>ジャーニーの新しいアクティビティであるデータセット検索を使用すると、実行時にAdobe Experience Platform レコードデータセットからデータを動的に取得できます。 この機能を活用することで、プロファイルやイベントペイロードに存在しない場合があるデータにアクセスできるので、顧客とのインタラクションの関連性を高め、適切なタイミングで行えるようになります。この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。 </p>
+<p>ジャーニーの新しい<strong> データセット検索</strong> アクティビティでは、実行時にAdobe Experience Platform レコードデータセットからデータを動的に取得できるので、プロファイルやイベントペイロードに含まれていない情報にアクセスできるので、顧客とのやり取りは関連性があり、タイムリーな状態を維持できます。</p>
+<p>この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。 </p>
 <p><img src="../building-journeys/assets/aep-data-activity.png"></p>
 <p>詳しくは、<a href="../building-journeys/dataset-lookup.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
@@ -123,7 +124,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>電子メールコンテンツテンプレートの高度なHTML モードを使用すると、電子メールDesignerでコンテンツのHTML ソースを編集したり、ソースに高度な式（条件など）を追加したり、変更内容を失うことなくHTML ビューとデスクトップビューを切り替えたりできます。</p>
-<p>この機能は、メールチャネルのコンテンツテンプレートでのみ使用できます。 現在、利用制限があります。アクセスするには、Adobe担当者にお問い合わせください。</p>
+<p>この機能は、メールチャネルのコンテンツテンプレートでのみ使用できます。 現在、限定提供されています。アクセス権を取得するには、Adobe担当者にお問い合わせください。</p>
 <p><img src="assets/do-not-localize/expert-mode.gif"/></p>
 <p>詳しくは、<a href="../content-management/email-template-expert-mode.md">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2026年3月10日（PT）</p>
@@ -180,7 +181,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p><strong>Adobe Experience Platform Agent Orchestrator</strong>を搭載した<strong>Journey Agent</strong>は、Journey Optimizerで利用でき、自然言語インターフェイスを通じてジャーニーを分析できます。 また、Journey Agentでチャネル固有のコンテンツを直接生成および管理し、電子メールやプッシュ通知などのチャネル用のコンテンツを作成したり、テンプレートを適用およびプレビューしたり、プロンプトを通じてトーンやスタイルを調整したり、コンテキストに沿った編集のために<strong>Content Designer</strong>でコンテンツを開いたりすることもできます。</p>
 <p>この機能は、一連の組織でのみ使用できます（限定提供）。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
-<p>詳しくは、<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=ja">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2026年3月4日（PT）</p>
 </td>
 </tr>
@@ -277,7 +278,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <tbody>
 <tr>
 <td>
-<p>API経由で送信されたシグナルを介して、オーケストレーションされたキャンペーンをトリガーできるようになりました。 ターゲットキャンペーンを「シグナルによってトリガー」として設定し、公開します。 そして、API呼び出しを使用してキャンペーンを実行します。 API呼び出しには、トリガーされたキャンペーンで変数として使用できるパラメーターを含めることができます。 注：シグナルによって開始されたオーケストレーションされたキャンペーンは、まだ&#x200B;**バッチ** キャンペーンであり、API トリガーキャンペーンとは異なります。</p>
+<p>オーケストレーションされたキャンペーンは、<strong>API シグナル </strong>を介してトリガーできるようになりました。 これを設定するには、シグナル <strong>によってトリガーされた</strong> ターゲットキャンペーンを設定して公開し、API呼び出しを使用して実行します。 API呼び出しに含まれるパラメーターは、実行中のキャンペーン内で変数として使用できます。 シグナル トリガーによるオーケストレーションされたキャンペーンは<strong> バッチ </strong>のキャンペーンのままであり、API トリガーされたキャンペーンとは異なります。</p>
 <p><img src="assets/do-not-localize/oc-triggered.gif"></p>
 <p>ご利用いただけます：2026年4月1日</p>
 </td>
