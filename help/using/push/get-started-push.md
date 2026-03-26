@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1f16edd-efdf-41c2-a0ad-5f55009008f5
-source-git-commit: 279fd366b14520daec1df7f843ed337348e145a5
+source-git-commit: ad3b64cb0ba6af5df654b340b4524161a94297e1
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 100%
+source-wordcount: '358'
+ht-degree: 90%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->**[!DNL Journey Optimizer]** には、メールや SMS メッセージのオプトアウトを管理する方法が用意されていますが、プッシュ通知の場合は、受信者が自分のデバイスを介して登録解除できるので、ユーザー側でのアクションは不要です。例えば、アプリのダウンロード時や使用時に、通知の停止を選択できます。同様に、モバイルオペレーティングシステムや web ブラウザー設定を通じて通知設定を変更することもできます。
+>**[!DNL Journey Optimizer]** には、メールや SMS メッセージのオプトアウトを管理する方法が用意されていますが、プッシュ通知の場合は、受信者が自分のデバイスを介して登録解除できるので、ユーザー側でのアクションは不要です。例えば、アプリのダウンロード時や使用時に、通知の停止を選択できます。同様に、モバイルオペレーティングシステムまたはweb ブラウザの設定を介して通知設定を変更できます。 AEP プロファイルビューアでプロファイルのプッシュ同意状態を確認するには、[ プッシュオプトアウト状態の確認](../privacy/opt-out.md#push-opt-out-status)を参照してください。
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
