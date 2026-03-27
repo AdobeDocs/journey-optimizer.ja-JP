@@ -30,7 +30,7 @@ ht-degree: 97%
 
 1. 「**[!UICONTROL キャンペーンを作成]**」ボタンをクリックし、**[!UICONTROL オーケストレーション – マーケティングおよびトランザクション]** キャンペーンタイプを選択します。
 
-   [ チャネルアクティビティ ](../orchestrated/activities/channels.md)を追加する際に、各メッセージがマーケティング用かトランザクション用かを選択します。
+   [&#x200B; チャネルアクティビティ &#x200B;](../orchestrated/activities/channels.md)を追加する際に、各メッセージがマーケティング用かトランザクション用かを選択します。
 
    ![](assets/create-modal.png)
 
