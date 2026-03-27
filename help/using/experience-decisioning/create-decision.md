@@ -85,12 +85,12 @@ ht-degree: 70%
 
 決定機能を使用して、オーディエンスの電子メールをパーソナライズする方法を学びましょう。
 
->[!VIDEO](https://video.tv.adobe.com/v/3476158?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476165?captions=jpn&quality=12)
 
 決定機能を使用して、オーディエンスのプッシュ通知をパーソナライズする方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479211?captions=jpn&quality=12)
 
 決定機能を使用して、オーディエンスのSMS メッセージをパーソナライズする方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3479529?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479530?captions=jpn&quality=12)
