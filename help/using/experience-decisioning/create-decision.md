@@ -7,7 +7,7 @@ role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 version: Journey Orchestration
-source-git-commit: be4c0453630388d898d53feeb5f9dcfe57ad5934
+source-git-commit: 36a98c7d256f732901ece7a5abd484d72b57db6e
 workflow-type: tm+mt
 source-wordcount: '685'
 ht-degree: 70%
@@ -49,8 +49,8 @@ ht-degree: 70%
 
 ## ガードレールと制限
 
-* **サポートされているチャネル** – 決定ポリシーは、すべてのお客様がコードベースのエクスペリエンス、SMS およびプッシュ通知に使用できます。 メールチャネルの決定は、限定提供（LA）でのみ使用できます。
-* **プッシュ通知のSDK要件** - プッシュ通知を使用した Experience Decisioning では、特定のバージョンの Mobile SDKが必要です。 この機能を実装する前に、[&#x200B; リリースノート &#x200B;](https://developer.adobe.com/client-sdks/home/release-notes/){target="_blank"} を確認して、必要なバージョンを特定し、それに応じてアップグレードしていることを確認します。 また、お使いのプラットフォームで利用可能なすべてのSDK バージョンを確認することもできます [&#x200B; この節 &#x200B;](https://developer.adobe.com/client-sdks/home/current-sdk-versions/){target="_blank"}。
+* **サポートされているチャネル** – 決定ポリシーは、すべての顧客がコードベースのエクスペリエンス、SMS、プッシュ通知で利用できます。 メールチャネルの決定は、限定提供でのみ利用できます。
+* **プッシュ通知SDK要件** - プッシュ通知付きExperience Decisioningには、特定のバージョンのモバイル SDKが必要です。 この機能を実装する前に、[ リリースノート ](https://developer.adobe.com/client-sdks/home/release-notes/){target="_blank"}を確認して、必要なバージョンを特定し、それに応じてアップグレードされていることを確認してください。 また、[このセクション ](https://developer.adobe.com/client-sdks/home/current-sdk-versions/){target="_blank"}では、お使いのプラットフォームで利用可能なすべてのSDK バージョンを表示できます。
 * **メールのミラーページ** - 現時点では、決定項目はメールのミラーページではレンダリングされません。
 * **トラッキングとリンクのタイプ** - 決定によって生成されたリンクを追跡するには、「決定アセット」としてスキーマで定義します。属性ベースのリンクは追跡できません。
 * **メールでの決定ポリシーのネスト** - 既に決定ポリシーが関連付けられている親メールコンポーネント内に複数の決定ポリシーをネストすることはできません。
@@ -63,7 +63,7 @@ ht-degree: 70%
 
 * **AI ランキング** - 現時点では、決定を含むジャーニーのメールチャネルでは、AI ランキングはサポートされていません。
 
-* **コンテンツテンプレート** - コンテンツ内で設定された決定ポリシーは、テンプレートには保存されません。 テンプレートを別のアクションに適用する場合は、ポリシーを再設定する必要があります。
+* **コンテンツテンプレート** - コンテンツ内で設定された決定ポリシーは、テンプレートに保存されません。 テンプレートを別のアクションに適用する場合は、ポリシーを再設定する必要があります。
 
 ## 主な手順 {#key}
 
@@ -71,26 +71,26 @@ ht-degree: 70%
 
 1. **決定ポリシーの作成**
 
-   メッセージに決定ポリシーを追加し、返す項目数、選択戦略、フォールバックオプションを設定します。
+   メッセージに決定ポリシーを追加し、返すアイテムの数、選択戦略、フォールバックオプションを設定します。
 
    ➡️ [決定ポリシーの作成方法を学ぶ](../experience-decisioning/create-decision-policy.md)
 
-1. **コンテンツでの決定ポリシーの使用**
+1. **コンテンツで決定ポリシーを使用**
 
-   メッセージに表示する決定項目から属性を挿入して、決定ポリシーの出力を使用してコンテンツをパーソナライズします
+   メッセージに表示する決定項目の属性を挿入して、決定ポリシー出力でコンテンツをパーソナライズします
 
    ➡️[メッセージで決定ポリシーを使用する方法を学ぶ](../experience-decisioning/create-decision-policy.md)
 
 ## チュートリアルビデオ {#video}
 
-Decisioning を使用して、オーディエンス向けにメールをパーソナライズする方法を説明します。
+決定機能を使用して、オーディエンスの電子メールをパーソナライズする方法を学びましょう。
 
->[!VIDEO](https://video.tv.adobe.com/v/3476165?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476158?quality=12)
 
-Decisioning を使用して、オーディエンス向けにプッシュ通知をパーソナライズする方法を説明します。
+決定機能を使用して、オーディエンスのプッシュ通知をパーソナライズする方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3479211?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
 
-Decisioning を使用して、オーディエンス向けに SMS メッセージをパーソナライズする方法を説明します。
+決定機能を使用して、オーディエンスのSMS メッセージをパーソナライズする方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3479530?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479529?quality=12)
