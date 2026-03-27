@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 727a300a539618b61373941ad83147818cce714a
+source-git-commit: 5ca8ff7abaaf4eef33a85682370a125af6836f2f
 workflow-type: tm+mt
-source-wordcount: '1635'
+source-wordcount: '1655'
 ht-degree: 21%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 21%
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 **リリース日**: 2026年3月24日～25日
 
@@ -181,7 +181,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p><strong>Adobe Experience Platform Agent Orchestrator</strong>を搭載した<strong>Journey Agent</strong>は、Journey Optimizerで利用でき、自然言語インターフェイスを通じてジャーニーを分析できます。 また、Journey Agentでチャネル固有のコンテンツを直接生成および管理し、電子メールやプッシュ通知などのチャネル用のコンテンツを作成したり、テンプレートを適用およびプレビューしたり、プロンプトを通じてトーンやスタイルを調整したり、コンテキストに沿った編集のために<strong>Content Designer</strong>でコンテンツを開いたりすることもできます。</p>
 <p>この機能は、一連の組織でのみ使用できます（限定提供）。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
-<p>詳しくは、<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=ja" target="_blank">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html" target="_blank">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2026年3月4日（PT）</p>
 </td>
 </tr>
@@ -207,6 +207,23 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>オーケストレーションされたキャンペーンのトランザクションカテゴリ</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>オーケストレーションキャンペーンで、チャネルアクティビティを<strong> トランザクション </strong> カテゴリに設定できるようになりました。 これは、そのアクティビティにトランザクションチャネル設定を適用し、ビジネスルールを適用しない場合や、顧客のオプトインが必要ない場合に役立ちます。</p>
+<p><img src="assets/do-not-localize/oc-transactional.gif"></p>
+<p>詳しくは、<a href="../orchestrated/activities/channels.md#add">詳細なドキュメント</a>を参照してください。</p>
+<p>この機能は、今後数日間であらゆる地域に徐々に展開されます。</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ### 機能強化 {#march-26-improv}
 
@@ -281,23 +298,6 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p>Journey Optimizerから直接、画像をメールコンテンツテンプレートに変換できるようになりました。 AIを活用した分析により、ビジュアルリファレンスから構造化されたHTMLテンプレートを自動的に生成し、メールのデザイン時間を大幅に短縮できます。</p>
 <p>以前は制限付き可用性でリリースされていましたが、この機能はすべての環境で使用できるようになりました（一般提供）。 <a href="../content-management/image-to-html.md">詳細情報</a></p>
 <p>公開日：2026年3月30日（PT）</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>オーケストレーションされたキャンペーンのトランザクションカテゴリ</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>オーケストレーションキャンペーンで、チャネルアクティビティを<strong> トランザクション </strong> カテゴリに設定できるようになりました。 これは、そのアクティビティにトランザクションチャネル設定を適用し、ビジネスルールを適用しない場合や、顧客のオプトインが必要ない場合に役立ちます。</p>
-<p><img src="assets/do-not-localize/oc-transactional.gif"></p>
-<p>公開日：2026年3月31日（PT）</p>
 </td>
 </tr>
 </tbody>
