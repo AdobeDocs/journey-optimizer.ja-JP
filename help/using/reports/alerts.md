@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: システムアラートへのアクセスと購読
-description: Adobe Journey Optimizerでシステムアラートにアクセスする方法、購読する方法、管理する方法について説明します。 プロアクティブなアラート通知を使用して、ジャーニーのパフォーマンス、カスタムアクションエラー、プロファイルの問題、メールの配信品質を監視します。
+description: Adobe Journey Optimizerでシステムアラートにアクセスし、購読し、管理する方法について説明します。 プロアクティブなアラート通知により、ジャーニーのパフォーマンス、カスタムアクションエラー、プロファイルの問題、メールの配信品質を監視できます。
 feature: Journeys, Alerts, Monitoring
 topic: Administration
 role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
-source-git-commit: fb33b8ce7205e5420c09f41812cc286c2b651e26
+source-git-commit: 6184ea004448b95ba6a75139124b47cf775a0fb1
 workflow-type: tm+mt
-source-wordcount: '2693'
-ht-degree: 58%
+source-wordcount: '2876'
+ht-degree: 54%
 
 ---
 
@@ -19,149 +19,149 @@ ht-degree: 58%
 
 ## 概要
 
-アラートは、Adobe Journey Optimizerの問題の監視とトラブルシューティングに役立つ自動通知です。 ジャーニー、キャンペーン、チャネル設定の潜在的な問題をリアルタイムで認識し、カスタマーエクスペリエンスに影響が及ぶ前に修正を行うことができます。
+アラートは、Adobe Journey Optimizerの問題を監視し、トラブルシューティングするのに役立つ自動通知です。 ジャーニー、キャンペーン、チャネル設定における潜在的な問題をリアルタイムで把握し、顧客体験に影響を与える前に、是正措置を講じることができます。
 
-Adobe Journey Optimizerには、次の 2 種類のアラートが用意されています。
+Adobe Journey Optimizerには、次の2種類のアラートが用意されています。
 
-* **キャンバス内検証アラート**：ジャーニーやキャンペーンを作成する際には、公開前にキャンバスの **アラート** ボタンを使用して設定エラーを特定し、解決します。 [&#x200B; ジャーニーのトラブルシューティング &#x200B;](../building-journeys/troubleshooting.md) およびキャンペーンのレビュー方法を学ぶ：[&#x200B; アクションキャンペーン &#x200B;](../campaigns/review-activate-campaign.md) | [API トリガーキャンペーン &#x200B;](../campaigns/review-activate-api-triggered-campaign.md) | [&#x200B; キャンペーンを調整 &#x200B;](../orchestrated/start-monitor-campaigns.md).
+* **キャンバス内の検証アラート**：ジャーニーとキャンペーンを構築する場合、キャンバスの&#x200B;**アラート** ボタンを使用して、公開前に設定エラーを特定および解決します。 ジャーニーを[ トラブルシューティングし](../building-journeys/troubleshooting.md) キャンペーンを確認する方法について説明します。[ アクションキャンペーン ](../campaigns/review-activate-campaign.md) | [API トリガーキャンペーン ](../campaigns/review-activate-api-triggered-campaign.md) | [ オーケストレーションされたキャンペーン ](../orchestrated/start-monitor-campaigns.md)。
 
-* **システム監視アラート** （詳細はこのページを参照）：操作のしきい値を超えたり、ライブジャーニーおよびチャネル設定で問題が検出されたりしたときに、プロアクティブな通知を受け取ります。 システムアラートは、エラー率、プロファイル破棄、メール配信品質の問題などの指標を監視します。
+* **システム監視アラート** （このページで詳しく説明）：運用上のしきい値を超えた場合、またはライブジャーニーとチャネル設定で問題が検出された場合に、プロアクティブな通知を受け取ります。 システムアラートは、エラー率、プロファイルの破棄、メール配信品質の問題などの指標を監視します。
 
-**システムアラートの主なメリット：**
+**システムアラートの主な利点：**
 
-* お客様への影響を未然に防ぐプロアクティブな問題検出
-* ジャーニーのパフォーマンスと正常性の自動監視
-* E メール配信品質の問題に対する早期警告
-* 運用上の問題の特定と解決に要する時間を短縮
+* 顧客に影響を与える前に問題を事前に検出
+* ジャーニーのパフォーマンスと健全性の自動モニタリング
+* メール配信の問題に関する早期警告
+* 業務上の課題を特定し、解決するための時間を短縮
 
-システムアラートは、**[!UICONTROL 管理]** の下の **[!UICONTROL アラート]** メニューから使用できます。 Adobe Experience Platformには、有効にできる事前定義済みのアラートルールがいくつか用意されています（ジャーニー用の [!DNL Adobe Journey Optimizer] 固有のアラートやチャネル設定など）。
+システムアラートは、**[!UICONTROL 管理]**&#x200B;の&#x200B;**[!UICONTROL アラート]** メニューから利用できます。 Adobe Experience Platformには、ジャーニーとチャネル設定に対する[!DNL Adobe Journey Optimizer]固有のアラートなど、事前に定義されたアラートルールがいくつか用意されています。
 
 ## 前提条件
 
 アラートを操作する前に：
 
-* **権限**：アラートを表示および管理するには、特定の権限が必要です。 [Adobe Experience Platformで必要な権限 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=ja#permissions){target="_blank"} を参照してください。
+* **権限**：アラートを表示および管理するには、特定の権限が必要です。 Adobe Experience Platform[の](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html#permissions){target="_blank"}必要な権限を参照してください。
 
-* **サンドボックス認識**：アラートの購読は、サンドボックスに固有です。 アラートを購読すると、そのアラートは現在のサンドボックスにのみ適用されます。 サンドボックスがリセットされると、すべてのアラート購読もリセットされます。
+* **サンドボックス認知度**：アラートサブスクリプションはサンドボックス固有です。 アラートを購読すると、現在のサンドボックスにのみ適用されます。 サンドボックスがリセットされると、すべてのアラート購読もリセットされます。
 
-* **通知の環境設定**:[Adobe Experience Cloudの環境設定で、アラート（メールまたはアプリ内）を受信する方法を設定します &#x200B;](../start/user-interface.md#in-product-uc)。
+* **通知の環境設定**: [Adobe Experience Cloudの環境設定](../start/user-interface.md#in-product-uc)でアラート（メールやアプリ内）を受信する方法を設定します。
 
 >[!NOTE]
 >
->Journey Optimizer固有のアラートは、**ライブ** ジャーニーにのみ適用されます。 テストモードのジャーニーでは、アラートはトリガーされません。 アラートフレームワークについて詳しくは、[Adobe Experience Platformのアラートドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=ja){target="_blank"} を参照してください。
+>Journey Optimizer固有のアラートは、**ライブ** ジャーニーにのみ適用されます。 テストモードのジャーニーでは、アラートはトリガーされません。 アラートフレームワークについて詳しくは、[Adobe Experience Platform アラートのドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=ja){target="_blank"}を参照してください。
 
-## Journey Optimizerで使用可能なアラート {#available-alerts}
+## Journey Optimizerで利用可能なアラート {#available-alerts}
 
-Journey Optimizerには、ジャーニーおよびチャネル設定の特定の側面を監視する、事前設定済みのアラートルールが用意されています。 これらのアラートを作成する必要はありません。アラートは標準搭載され、購読を通じて有効にすることができます。
+Journey Optimizerには、ジャーニーとチャネル設定の特定の側面を監視する、事前設定済みのアラートルールが用意されています。 これらのアラートを作成する必要はありません。これらのアラートは、すぐに使用でき、サブスクリプションを通じて有効にすることができます。
 
-**アラートリストにアクセスするには：**
+**アラート リストにアクセスするには：**
 
-左側のメニューで **[!UICONTROL 管理]**/**[!UICONTROL アラート]** に移動します。 「**参照**」タブには、Journey Optimizerで使用可能な事前設定済みのすべてのアラートが表示されます。
+左側のメニューで&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL アラート]**&#x200B;に移動します。 「**参照**」タブには、Journey Optimizerで使用可能なすべての事前設定済みアラートが表示されます。
 
-![](assets/updated-alerts-list.png){width=50%}
+![](assets/updated-alerts-list.png){width=60%}
 
 ### アラートカテゴリ
 
-Journey Optimizerには、次の 2 つのカテゴリのシステムアラートが用意されています。
+Journey Optimizerには、システムアラートの2つのカテゴリがあります。
 
 >[!BEGINTABS]
 
 >[!TAB ジャーニーアラート ]
 
-ジャーニーの実行とパフォーマンスの監視：
+ジャーニーの実行とパフォーマンスを監視する：
 
-* [&#x200B; オーディエンスの読み取りトリガーに失敗しました &#x200B;](#alert-read-audiences) - オーディエンスを読み取りアクティビティがプロファイルを処理できない場合に警告します
-* [&#x200B; カスタムアクションエラー率を超えました &#x200B;](#alert-custom-action-error-rate) - カスタムアクション API 呼び出しで高いエラー率を検出します（以前のジャーニーのカスタムアクションエラー警告に代わるものです）
-* [&#x200B; プロファイル破棄率を超えています &#x200B;](#alert-discard-rate) - プロファイルが異常な率で破棄されるタイミングを識別します
-* [&#x200B; プロファイルエラー率を超えています &#x200B;](#alert-profile-error-rate) - ジャーニーの実行中にプロファイルでエラーが発生した場合のフラグ
-* [&#x200B; 公開されたジャーニー](#alert-journey-published) - ジャーニーが公開されたときの情報通知
-* [ジャーニー完了 &#x200B;](#alert-journey-finished) - ジャーニー完了時の情報通知
-* [&#x200B; カスタムアクションキャッピングトリガー &#x200B;](#alert-custom-action-capping) - API 呼び出しの制限に達した場合に通知します
+* [ オーディエンスの読み取りトリガーが失敗しました](#alert-read-audiences) - オーディエンスの読み取りアクティビティがプロファイルの処理に失敗すると警告します
+* [ カスタムアクションエラー率が超過](#alert-custom-action-error-rate) - カスタムアクション API呼び出しで高いエラー率を検出します（以前のジャーニーカスタムアクション失敗アラートに代わります）
+* [ プロファイル破棄レートが](#alert-discard-rate)を超えました – プロファイルが異常なレートで破棄されるタイミングを特定します
+* [ プロファイルエラー率が](#alert-profile-error-rate)を超えました – ジャーニーの実行中にプロファイルでエラーが発生した場合にフラグします
+* [ジャーニーが公開されました](#alert-journey-published) - ジャーニーが公開されたときの情報の通知
+* [ジャーニー完了](#alert-journey-finished) - ジャーニー完了時の通知
+* [ カスタムアクションの上限がトリガーされました](#alert-custom-action-capping) - API呼び出しの制限に達したときに通知します
 
 >[!TAB  チャネル設定アラート ]
 
-E メール配信品質の設定に関する問題を検出します。
+メール配信品質の設定に関する問題を検出します。
 
-* [AJO ドメイン DNS レコードが見つかりません &#x200B;](#alert-dns-record-missing) – 見つからない、または設定が正しくない DNS レコードを特定します
-* [AJO チャネル構成エラー &#x200B;](#alert-channel-config-failure) - メール構成の問題（SPF、DKIM、MX レコード）を検出します
-  <!--* the [AJO domain certificates renewal unsuccessful](#alert-certificates-renewal) alert-->
+* [AJO ドメイン DNS レコードが見つかりません](#alert-dns-record-missing) – 見つからないDNS レコードまたは誤って設定されたDNS レコードを識別します
+* [AJO チャネル設定エラー](#alert-channel-config-failure) - メール設定の問題（SPF、DKIM、MX レコード）を検出します
+* [AJO ドメイン証明書の更新に失敗しました](#alert-certificates-renewal) - カスタム委任サブドメインのリソースまたはトラッキング証明書が間もなく期限切れになるか、期限切れになったときに警告します
 
 >[!ENDTABS]
 
 >[!NOTE]
 >
->他のAdobe Experience Platform サービスからのアラート（データ取得、ID 解決、セグメント化など）については、[&#x200B; 標準アラートルールのドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=ja){target="_blank"} を参照してください。
+>他のAdobe Experience Platform サービスからのアラート（データ収集、ID解決、セグメント化など）については、[標準アラートルールのドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"}を参照してください。
 
 ## アラートの配信を登録 {#subscribe-alerts}
 
-アラート配信登録では、特定の条件（エラー率のしきい値を超えた、または設定の問題が検出されたなど）を満たした場合に通知を受け取るユーザーを決定します。 購読しているユーザーのみが、選択したアラートのアラート通知を受け取ります。
+アラートサブスクリプションは、特定の条件（エラー率のしきい値を超えている、設定の問題が検出されたなど）を満たしたときに通知を受け取るユーザーを決定します。 選択したアラートのアラート通知を受け取るのは、購読者ユーザーのみです。
 
 ### 購読方法
 
-アラートの配信は、次の 2 つの方法で登録できます。
+アラートを購読するには、次の2つの方法があります。
 
-* **[グローバル購読](#global-subscription)**：現在のサンドボックス内のすべてのジャーニーとキャンペーンに適用されます。 組織全体のすべてのジャーニーアクティビティを監視する場合は、この方法を使用します。
-* **[ジャーニー固有のサブスクリプション](#unitary-subscription)**：個々のジャーニーにのみ適用します。 この方法は、すべてのジャーニーに対するアラートを受信せずに、優先度の高い特定のジャーニーを監視する場合に使用します。
+* **[グローバルサブスクリプション](#global-subscription)**：現在のサンドボックス内のすべてのジャーニーとキャンペーンに適用します。 この方法は、組織のすべてのジャーニーアクティビティを監視する場合に使用します。
+* **[ジャーニー固有のサブスクリプション](#unitary-subscription)**：個々のジャーニーにのみ適用されます。 この方法は、すべてのジャーニーに対するアラートを受信せずに、特定の優先度の高いジャーニーを監視する場合に使用します。
 
 ### アラート通知の機能
 
 **アラートのライフサイクル：**
 
-1. **トリガー**：アラートは、特定の条件（エラー率が 20% を超えるなど）を満たすとトリガーします
-2. **通知**：購読しているすべてのユーザーが、設定されたチャネルを介して通知を受け取ります
-3. **監視**：アラートは、一定の間隔で引き続き状態を監視します
-4. **解決策**：条件が解決されると、サブスクライバーに「解決済み」通知が届きます
+1. **トリガー**：特定の条件が満たされたときのアラートトリガー（エラー率が20%を超えているなど）
+2. **通知**：購読しているすべてのユーザーは、設定したチャネルを介して通知を受け取ります
+3. **監視**：アラートは定期的に状態を監視し続けています
+4. **解決策**：条件が解決されると、サブスクライバーに「解決済み」通知が送信されます
 
-**通知配信：**
+**通知の配信：**
 
-* **配信チャネル**：アラートは、メールまたはJourney Optimizer通知センターのアプリ内通知（右上隅のベルアイコン）を介して送信されます。 [Adobe Experience Cloud環境設定 &#x200B;](../start/user-interface.md#in-product-uc) で優先配信チャネルを設定します。
+* **配信チャネル**: アラートは、Journey Optimizer通知センター（右上隅のベル アイコン）の電子メールやアプリ内通知を介して送信されます。 [Adobe Experience Cloudの環境設定](../start/user-interface.md#in-product-uc)で、希望する配信チャネルを設定します。
 
-* **アラートタイプ**:Journey Optimizerは、1 回限りのアラート（「ジャーニーの公開」などの情報イベント）と、繰り返しのアラート（しきい値の監視）の両方を提供します。 アラートの繰り返しは、条件が解決されるまで評価および通知を継続します。
+* **アラートタイプ**: Journey Optimizerは、1回限りのアラート（「ジャーニー公開」などの情報イベント）と繰り返しアラート（「しきい値の監視」）の両方を提供します。 条件が解決されるまで、アラートを繰り返して評価と通知を続けます。
 
-* **自動解決**：通知疲労の値が変動しないように、状態が持続しても 1 時間後にアラートが自動的に解決されます。 これにより、しきい値の前後に指標がマウスポインターを置いた場合に、継続的な通知が行われるのを防ぎます。
+* **自動解決**：通知の疲労が値の変動を防ぐため、条件が続く場合でも1時間後にアラートが自動的に解決されます。 これにより、指標がしきい値にカーソルを合わせたときに、継続的に通知されるのを防ぎます。
 
-**代替購読メソッド：**
+**代替サブスクリプション方法：**
 
-高度な統合の場合は、I/O イベントを介して登録し、外部システムにアラートを送信できます。 [Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=ja){target="_blank"}を参照してください。
+高度な統合を行う場合は、I/O イベントを介して購読し、外部システムにアラートを送信できます。 [Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=ja){target="_blank"}を参照してください。
 
 
 ### グローバル登録 {#global-subscription}
 
-グローバル購読を使用すると、現在のサンドボックス内のすべてのジャーニーとキャンペーンに関するアラートを受信できます。
+グローバルサブスクリプションを使用すると、現在のサンドボックス内のすべてのジャーニーとキャンペーンに関するアラートを受け取ることができます。
 
 **アラートを購読するには：**
 
-1. 左側のメニューで **[!UICONTROL 管理]**/**[!UICONTROL アラート]** に移動します。
+1. 左側のメニューで&#x200B;**[!UICONTROL 管理]** > **[!UICONTROL アラート]**&#x200B;に移動します。
 
-1. 「**[!UICONTROL 参照]**」タブで、監視するアラートを探します。
+1. 「**[!UICONTROL 参照]**」タブで、監視するアラートを見つけます。
 
-1. 目的のアラートの **[!UICONTROL 購読]** をクリックします。
+1. 目的のアラートについては、**[!UICONTROL 購入]**&#x200B;をクリックします。
 
    ![アラートの登録](assets/alert-subscribe.png){width=80%}
 
-**購読解除：**
+**登録解除：**
 
-アラートの横にある **[!UICONTROL 登録解除]** をクリックします。
+アラートの横にある「**[!UICONTROL 登録解除]**」をクリックします。
 
 >[!IMPORTANT]
 >
->アラートの購読は、サンドボックスに固有です。 通知を受信するサンドボックスごとに、アラートを個別に登録する必要があります。
+>アラートのサブスクリプションは、サンドボックス固有です。 通知を受信する各サンドボックスで、アラートを個別に購読する必要があります。
 
-**代替購読メソッド：**
+**代替サブスクリプション方法：**
 
-[I/O イベント通知 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=ja){target="_blank"} を介して購読することもできます。これにより、外部システムとの統合が可能になります。 Journey Optimizer アラートのイベント購読名は、各 [&#x200B; 以下のアラートの説明 &#x200B;](#journey-alerts) に記載されています。
+また、[I/O イベント通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=ja){target="_blank"}を介して購読することもできます。これにより、外部システムとの統合が可能になります。 Journey Optimizer アラートのイベントサブスクリプション名は、以下の各[ アラートの説明](#journey-alerts)に記載されています。
 
-### ジャーニー固有の購読 {#unitary-subscription}
+### ジャーニー固有のサブスクリプション {#unitary-subscription}
 
-ジャーニー固有の購読を使用すると、組織内のすべてのジャーニーに関するアラートを受け取ることなく、優先度の高い個々のジャーニーを監視できます。
+ジャーニー固有のサブスクリプションを使用すると、組織内のすべてのジャーニーに関するアラートを受け取ることなく、優先度の高い個々のジャーニーを監視できます。
 
 **特定のジャーニーのアラートを購読するには：**
 
-1. ジャーニーインベントリに移動します。
+1. ジャーニーのインベントリに移動します。
 
-1. 監視するジャーニーの **⋯** （その他のアクション）メニューをクリックします。
+1. 監視するジャーニーの&#x200B;**⋯** （その他のアクション）メニューをクリックします。
 
-1. **[!UICONTROL アラートを購読]** を選択します。
+1. 「**[!UICONTROL アラートを購読する]**」を選択します。
 
    ![特定のジャーニーのアラートの登録](assets/subscribe-journey-alert.png){width=75%}
 
@@ -173,17 +173,17 @@ E メール配信品質の設定に関する問題を検出します。
    * [ジャーニーが完了しました](#alert-journey-finished)
    * [カスタムアクションのキャップがトリガーされました](#alert-custom-action-capping)
 
-1. 「**[!UICONTROL 保存]**」をクリックして、購読を確定します。
+1. 「**[!UICONTROL 保存]**」をクリックして、サブスクリプションを確認します。
 
-**購読解除：**
+**登録解除：**
 
-同じダイアログを開き、アラートの選択を解除して、「**[!UICONTROL 保存]**」をクリックします。
+同じダイアログを開き、アラートの選択を解除して、**[!UICONTROL 保存]**&#x200B;をクリックします。
 
 >[!NOTE]
 >
->[&#x200B; オーディエンスの読み取りに失敗 &#x200B;](#alert-read-audiences) アラートは、グローバルトリガーを通じてのみ使用でき、ジャーニーごとの購読では使用できません。
+>[ オーディエンストリガーの読み取りに失敗しました](#alert-read-audiences) アラートは、ジャーニーごとのサブスクリプションではなく、グローバルサブスクリプションを通じてのみ利用できます。
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=ja#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## ジャーニーアラート {#journey-alerts}
 
@@ -256,7 +256,7 @@ E メール配信品質の設定に関する問題を検出します。
 
 ### ジャーニーが完了しました {#alert-journey-finished}
 
-このアラートは、ジャーニーが完了した際に通知します。「完了」の定義は、ジャーニーのタイプによって異なります。 [&#x200B; ジャーニーが完了したと見なされるタイミングの詳細を説明します &#x200B;](../building-journeys/end-journey.md#journey-finished-definition)。
+このアラートは、ジャーニーが完了した際に通知します。「完了」の定義は、ジャーニーのタイプによって異なります。 [ ジャーニーが完了したと見なされるタイミングの詳細](../building-journeys/end-journey.md#journey-finished-definition)。
 
 これは、ジャーニーの完了を追跡するのに役立つ情報アラートです。これは 1 回限りの通知なので、解決条件はありません。
 
@@ -316,7 +316,7 @@ E メール配信品質の設定に関する問題を検出します。
 
 このアラートは、システム監査によりメールチャネルの設定に関する問題が検出された場合にトリガーされます。これらの問題には、チャネル設定ミス、無効な DNS 設定、抑制リストの問題、IP の不一致、メールの配信に影響を与えることがあるその他のエラーが含まれる場合があります。
 
-このようなアラートを受信した場合の解決手順を以下に示します。
+このようなアラートを受け取った場合、解決手順は以下のとおりです。
 
 1. アラートをクリックして、[!DNL Journey Optimizer] インターフェイスで影響を受ける[メールチャネル設定](../email/get-started-email-config.md)に移動します。
 
@@ -349,9 +349,29 @@ E メール配信品質の設定に関する問題を検出します。
 * 迅速に対応 - 設定エラーが検出されたらすぐに対処し、メール配信の中断を回避します。
 * すべての設定を確認 - アラートに影響を受けるメール設定が複数示されている場合は、それぞれを確認して修正します。
 
-<!--### AJO domain certificates renewal unsuccessful {#alert-certificates-renewal}
+### AJO ドメイン証明書の更新に失敗しました {#alert-certificates-renewal-unsuccessful}
 
-This alert warns you if a domain certificate (CDN, tracking URL) renewal failed for a specific Journey Optimizer subdomain.-->
+>[!IMPORTANT]
+>
+>このアラートは、[ カスタムサブドメイン ](../configuration/delegate-custom-subdomain.md)のデリゲーション タイプを使用するチャネル設定にのみ適用されます。
+
+このアラートは、カスタム委任サブドメイン上のリソースまたはトラッキングドメイン証明書が30日以内に期限切れになっているか、すでに期限切れになっている場合に通知します。 有効な証明書がない場合、電子メールの配信品質とリンク追跡が中断される可能性があります。
+
+>[!NOTE]
+>
+>チェックは&#x200B;**週単位**&#x200B;で実行されます。
+
+このアラートがトリガーされた場合は、次の手順に従って問題を調査し、解決します。
+
+1. アラートをクリックして、影響を受ける[ サブドメイン ](../configuration/delegate-subdomain.md)を[!DNL Journey Optimizer]で開きます。
+
+1. 詳細を確認して、証明書の更新が必要かどうかを確認します。
+
+   * 有効期限が近い場合、プランの修正：アラートは最大30日間の警告を提供できます。
+   * 証明書が既に期限切れになっている場合は、すぐに対応してください。
+   * 問題が解決しない場合は、翌週に同じアラートが再びトリガーされます。
+
+1. DNS ホスティングソリューションで、サブドメインのデリゲーションに必要なすべてのレコードが、SSL検証に使用されるレコードを含め、[!DNL Journey Optimizer]に示す値にまだ一致することを確認します。
 
 ## アラートの管理 {#manage-alerts}
 
@@ -407,15 +427,15 @@ This alert warns you if a domain certificate (CDN, tracking URL) renewal failed 
 
 **ジャーニーとキャンペーンの管理：**
 
-* [&#x200B; ジャーニーのトラブルシューティング &#x200B;](../building-journeys/troubleshooting.md) - ジャーニーの一般的な問題とエラーを特定して解決します
-* [&#x200B; ジャーニーのテストと公開 &#x200B;](../building-journeys/publish-journey.md) – 公開する前にジャーニー設定を検証します
-* [&#x200B; アクションキャンペーンのレビューとアクティブ化 &#x200B;](../campaigns/review-activate-campaign.md) - スケジュール済みおよび 1 回限りのキャンペーンの公開前の検証
-* [API トリガーキャンペーンのレビューとアクティブ化 &#x200B;](../campaigns/review-activate-api-triggered-campaign.md) - API トリガーキャンペーンの検証
-* [&#x200B; オーケストレーションされたキャンペーンの監視 &#x200B;](../orchestrated/start-monitor-campaigns.md) - オーケストレーションされたキャンペーンの実行をトラッキングおよび管理します。
+* [ ジャーニーのトラブルシューティング ](../building-journeys/troubleshooting.md) – 一般的なジャーニーの問題とエラーを特定して解決します
+* [ ジャーニーのテストと公開](../building-journeys/publish-journey.md) – 公開前にジャーニー設定を検証する
+* [ アクションキャンペーンのレビューとアクティブ化](../campaigns/review-activate-campaign.md) - スケジュール済みのキャンペーンと1回限りのキャンペーンの公開前の検証
+* [API トリガーキャンペーンのレビューとアクティブ化](../campaigns/review-activate-api-triggered-campaign.md) - API トリガーキャンペーンの検証
+* [ オーケストレーションされたキャンペーンの監視](../orchestrated/start-monitor-campaigns.md) - オーケストレーションされたキャンペーンの実行の追跡と管理
 
 **アラートフレームワーク：**
 
-* [Adobe Experience Platform アラートの概要 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=ja){target="_blank"} - アラートフレームワークについて
-* [UI でのアラートの管理 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=ja){target="_blank"} - アラートを表示、購読、管理する
-* [I/O イベントを介したアラートの購読 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=ja){target="_blank"} – 高度な統合オプション
-* [&#x200B; 標準アラートルール &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=ja){target="_blank"} – 使用可能な Platform アラートの完全なリスト
+* [Adobe Experience Platform アラートの概要](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=ja){target="_blank"} - アラート フレームワークについて
+* [UIでアラートを管理](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=ja){target="_blank"} - アラートの表示、購読、管理
+* [I/O イベントを介したアラートの購読](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=ja){target="_blank"} – 高度な統合オプション
+* [標準アラートルール ](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"} – 使用可能なPlatform アラートの完全リスト
