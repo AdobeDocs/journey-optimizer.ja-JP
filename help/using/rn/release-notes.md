@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5ca8ff7abaaf4eef33a85682370a125af6836f2f
+source-git-commit: b4749b3b9a97dd295e0d46274bfe2d63ed2187b3
 workflow-type: tm+mt
-source-wordcount: '1655'
+source-wordcount: '1722'
 ht-degree: 21%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 21%
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 **リリース日**: 2026年3月24日～25日
 
@@ -98,15 +98,15 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <table>
 <thead>
 <tr>
-<th><strong>ネイティブチャネルアクションアクティビティの非推奨（廃止予定）</strong><br/></th>
+<th><strong>チャネル固有のジャーニーアクティビティに代わるアクションアクティビティ</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
 <p>2026年2月の<strong> アクションアクティビティ </strong>の一般提供に続いて、ジャーニーキャンバス内の従来のネイティブチャネルアクティビティ（メール、プッシュ、SMS、アプリ内、Web、コードベースのエクスペリエンス、コンテンツカード）が非推奨になりました。</p>
-<p>これで、単一の<strong> アクションアクティビティ </strong>を使用してすべてのチャネルアクションを設定し、チャネル固有のノードを個別に作成する必要がなくなりました。
-従来のチャネルアクティビティを使用している既存のジャーニーは、変更や移行が必要なく、引き続き機能します。</p>
+<p>これで、単一の<strong> アクションアクティビティ </strong>を使用してすべてのチャネルアクションを設定し、チャネル固有のノードを個別に作成する必要がなくなりました。</p>
+<p>従来のチャネルアクティビティを使用している既存のジャーニーは、変更や移行が必要なく、引き続き機能します。</p>
 <p><img src="assets/do-not-localize/action-activity.gif"></p>
 <p>詳しくは、<a href="../building-journeys/journey-action.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
@@ -181,7 +181,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p><strong>Adobe Experience Platform Agent Orchestrator</strong>を搭載した<strong>Journey Agent</strong>は、Journey Optimizerで利用でき、自然言語インターフェイスを通じてジャーニーを分析できます。 また、Journey Agentでチャネル固有のコンテンツを直接生成および管理し、電子メールやプッシュ通知などのチャネル用のコンテンツを作成したり、テンプレートを適用およびプレビューしたり、プロンプトを通じてトーンやスタイルを調整したり、コンテキストに沿った編集のために<strong>Content Designer</strong>でコンテンツを開いたりすることもできます。</p>
 <p>この機能は、一連の組織でのみ使用できます（限定提供）。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
-<p>詳しくは、<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=ja" target="_blank">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html" target="_blank">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2026年3月4日（PT）</p>
 </td>
 </tr>
@@ -254,6 +254,10 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 
 <!--* **Folders for journeys and campaigns** - You can now organize your journeys and campaigns into folders, enabling structured navigation and easier management for teams working with large volumes of content. This capability is only available for a set of organizations (Limited Availability). To gain access, contact your Adobe representative.-->
 
+* **AJO ドメイン証明書の更新に失敗しました** – 電子メール配信に使用するドメイン証明書の有効期限が近づいているか、有効期限が切れている場合に、電子メールまたはJourney Optimizer通知センターでシステムアラートを受け取ることができるようになりました。 [詳細情報](../reports/alerts.md#alert-certificates-renewal-unsuccessful)
+
+  公開日：2026年3月26日（PT）
+
 * **AJO セカンダリ Recipient Feedback Event Dataset rename** - `AJO Email BCC Feedback Event` データセットの名前が`AJO Secondary Recipient Feedback Event` Datasetに変更されました。 影響は、状況によって異なります。
 
    * **既存のユーザー**：表示名のみが更新されます。 基になるテーブル名は変更されません。
@@ -282,9 +286,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 
 以下の機能と機能強化は、3月後半から4月上旬にリリース予定です。 リリース日とスコープは&#x200B;**予告なく変更される可能性があります**。
 
-
 ### 機能
-
 
 <table>
 <thead>
@@ -297,6 +299,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p>Journey Optimizerから直接、画像をメールコンテンツテンプレートに変換できるようになりました。 AIを活用した分析により、ビジュアルリファレンスから構造化されたHTMLテンプレートを自動的に生成し、メールのデザイン時間を大幅に短縮できます。</p>
 <p>以前は制限付き可用性でリリースされていましたが、この機能はすべての環境で使用できるようになりました（一般提供）。 <a href="../content-management/image-to-html.md">詳細情報</a></p>
+<p><img src="assets/do-not-localize/image-converter.gif"></p>
 <p>公開日：2026年3月30日（PT）</p>
 </td>
 </tr>
@@ -370,6 +373,8 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 このツールを使用すると、コミュニケーション、シーケンス、タイミングをテスト、調整、カスタマイズし、顧客に最も効果的にリーチできます。
 </p>
 <p>以前は制限付き可用性でリリースされていましたが、この機能はすべての環境で使用できるようになりました（一般提供）。 <a href="../building-journeys/optimize.md">詳細情報</a></p>
+<p><img src="assets/do-not-localize/optimize.gif"></p>
+<p>一般提供の一環として、このリリースでは、<strong>実験タイプ </strong>の選択（A/Bまたはマルチアームドバンディット）と<strong>単一ジャーニーの勝者</strong>の拡大が導入されています。</p>
 <p>公開日：2026年4月3日（PT）</p>
 </td>
 </tr>
@@ -395,4 +400,16 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 </tbody>
 </table>
 
-<!--WAITING RELEASE DATE CONFIRMATION * **Target dimension simplification in Orchestrated Campaigns** - The active targeting dimension is now shown on the workflow canvas, so you can see which dimension is used by a channel activity. The multi-entity segmentation flow is simpler as you no longer need a separate "Change dimension" activity. Moreover, you can now choose explicitly whether messages are sent at the profile level or at a secondary dimension level.-->
+<!--
+WAITING RELEASE DATE CONFIRMATION
+* **Target dimension simplification in Orchestrated Campaigns** - The active targeting dimension is now shown on the workflow canvas, so you can see which dimension is used by a channel activity. The multi-entity segmentation flow is simpler as you no longer need a separate "Change dimension" activity. Moreover, you can now choose explicitly whether messages are sent at the profile level or at a secondary dimension level.
+
+<--
+TO ADD when Path optimization is GA:
+
+* **Experiment type** - You can now choose between A/B experiment (fixed split at the start) or Multi-armed bandit (automatic split with weekly weight updates) when configuring a path experiment.
+
+* **Path experimentation: Scale the Winner** - You can now automatically or manually roll out the winning path of an experiment to your full audience. Once a winner is determined, you can amplify its reach and effectiveness without constantly monitoring the experiment.
+This capability is available only in unitary journeys (event-triggered and Audience qualifications). It is not available for Read audience journeys.
+
+-->
