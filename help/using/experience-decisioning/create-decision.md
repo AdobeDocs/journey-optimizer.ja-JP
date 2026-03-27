@@ -50,7 +50,7 @@ ht-degree: 70%
 ## ガードレールと制限
 
 * **サポートされているチャネル** – 決定ポリシーは、すべての顧客がコードベースのエクスペリエンス、SMS、プッシュ通知で利用できます。 メールチャネルの決定は、限定提供でのみ利用できます。
-* **プッシュ通知SDK要件** - プッシュ通知付きExperience Decisioningには、特定のバージョンのモバイル SDKが必要です。 この機能を実装する前に、[ リリースノート ](https://developer.adobe.com/client-sdks/home/release-notes/){target="_blank"}を確認して、必要なバージョンを特定し、それに応じてアップグレードされていることを確認してください。 また、[このセクション ](https://developer.adobe.com/client-sdks/home/current-sdk-versions/){target="_blank"}では、お使いのプラットフォームで利用可能なすべてのSDK バージョンを表示できます。
+* **プッシュ通知SDK要件** - プッシュ通知付きExperience Decisioningには、特定のバージョンのモバイル SDKが必要です。 この機能を実装する前に、[&#x200B; リリースノート &#x200B;](https://developer.adobe.com/client-sdks/home/release-notes/){target="_blank"}を確認して、必要なバージョンを特定し、それに応じてアップグレードされていることを確認してください。 また、[このセクション &#x200B;](https://developer.adobe.com/client-sdks/home/current-sdk-versions/){target="_blank"}では、お使いのプラットフォームで利用可能なすべてのSDK バージョンを表示できます。
 * **メールのミラーページ** - 現時点では、決定項目はメールのミラーページではレンダリングされません。
 * **トラッキングとリンクのタイプ** - 決定によって生成されたリンクを追跡するには、「決定アセット」としてスキーマで定義します。属性ベースのリンクは追跡できません。
 * **メールでの決定ポリシーのネスト** - 既に決定ポリシーが関連付けられている親メールコンポーネント内に複数の決定ポリシーをネストすることはできません。
