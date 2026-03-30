@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: dbf95b20f089207128b0cb08864a2a4fc4e3bb47
+source-git-commit: 727f277b06b748cd4712c9cce62d7b4a1ad1f146
 workflow-type: tm+mt
-source-wordcount: '3142'
+source-wordcount: '3147'
 ht-degree: 96%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 96%
       + [ジャーニーの作成](/help/rp_landing_pages/create-journey-landing-page.md)
       + [最初のジャーニーを作成](using/building-journeys/journey-gs.md)
       + [ジャーニーのプロパティの設定](using/building-journeys/journey-properties.md)
-      + [ジャーニーでのウェーブを使用した送信](using/building-journeys/send-using-waves.md)
+      + [ジャーニーでウェーブを使用して送信](using/building-journeys/send-using-waves.md)
       + [ジャーニー指標の設定とトラッキング](using/building-journeys/success-metrics.md)
       + [ジャーニーのデザイン](using/building-journeys/using-the-journey-designer.md)
       + [ジャーニーのテスト](using/building-journeys/testing-the-journey.md)
@@ -92,7 +92,6 @@ ht-degree: 96%
       + [待機](using/building-journeys/wait-activity.md)
       + [コンテンツの決定](using/building-journeys/content-decision.md)
       + [データセットの参照](using/building-journeys/dataset-lookup.md)
-      + [ビルトインのチャネルアクション](using/building-journeys/journeys-message.md)
       + [アクション](using/building-journeys/journey-action.md)
       + [ジャンプ](using/building-journeys/jump.md)
       + [プロファイルを更新](using/building-journeys/update-profiles.md)
@@ -135,9 +134,9 @@ ht-degree: 96%
       + [外部データソースとカスタムアクションを使用したスループットの制限](using/building-journeys/limit-throughput.md)
       + [カスタムアクションを使用した Experience Platform のジャーニーイベントの書き込み](using/building-journeys/custom-action-aep.md)
 + ロイヤルティの課題 {#loyalty-challenges}
-   + [ロイヤルティに関する課題の概要](using/loyalty-challenges/get-started.md)
-   + [課題およびタスクへのアクセスと管理](using/loyalty-challenges/access-loyalty-challenges.md)
-   + [課題の作成](using/loyalty-challenges/create-challenges.md)
+   + [ロイヤルティに関する課題を解決](using/loyalty-challenges/get-started.md)
+   + [課題とタスクへのアクセスと管理](using/loyalty-challenges/access-loyalty-challenges.md)
+   + [課題の創出](using/loyalty-challenges/create-challenges.md)
    + [タスクの作成](using/loyalty-challenges/create-tasks.md)
 + キャンペーン {#campaigns}
    + [キャンペーン](/help/rp_landing_pages/campaigns-landing-page.md)
@@ -214,6 +213,8 @@ ht-degree: 96%
          + [ウィッシュリスト項目の更新の送信](using/orchestrated/wishlist-uc.md)
          + [参照アクティビティによる顧客との関与](using/orchestrated/engage-customers-uc.md)
          + [製品の可用性に関するユーザーへの通知](using/orchestrated/product-availability-uc.md)
+      + 高度な操作 {#orchestrated-advanced}
+         + [シグナルを活用したトリガーオーケストレーションされたキャンペーン](using/orchestrated/trigger-orchestrated-campaign.md)
 + 競合と優先順位付け {#conflict-prioritization}
    + [競合管理と優先順位付け](using/conflict-prioritization/gs-conflict-prioritization.md)
    + [潜在的な競合の特定](using/conflict-prioritization/conflicts.md)
@@ -224,9 +225,9 @@ ht-degree: 96%
       + [ジャーニーのキャップと判別の管理](using/conflict-prioritization/journey-capping.md)
       + [チャネルとタイプ別のフリークエンシーキャップの設定](using/conflict-prioritization/channel-capping.md)
       + [クワイエットアワーの設定](using/conflict-prioritization/quiet-hours.md)
-   + ジャーニーの判別 {#journey-arbitration}
-      + [ジャーニーのランク付けに数式を使用](using/conflict-prioritization/journey-ranking-formulas.md)
-      + [AI モデルを使用したジャーニーのランク付け](using/conflict-prioritization/journey-ai-models.md)
+   + ジャーニー調停 {#journey-arbitration}
+      + [数式を使用したジャーニーのランク付け](using/conflict-prioritization/journey-ranking-formulas.md)
+      + [AI モデルを使用してジャーニーをランク付けする](using/conflict-prioritization/journey-ai-models.md)
 + テストと承認 {#test}
    + [テスト、検証、承認](/help/rp_landing_pages/test-landing-page.md)
    + コンテンツのプレビューとテスト {#preview-test}
@@ -409,7 +410,7 @@ ht-degree: 96%
       + [よくある質問](using/mobile-live/mobile-live-faq.md)
       + ライブアクティビティチャネルの設定 {#configure}
          + [Journey Optimizer でのライブアクティビティの設定](using/mobile-live/mobile-live-configuration.md)
-         + [ライブアクティビティのSDK統合の設定](using/mobile-live/mobile-live-configuration-sdk.md)
+         + [ライブアクティビティの設定SDKとの統合](using/mobile-live/mobile-live-configuration-sdk.md)
 + コンテンツ管理 {#content-management}
    + [コンテンツ管理](/help/rp_landing_pages/content-management-landing-page.md)
    + パーソナライゼーション {#personalization}
@@ -487,8 +488,8 @@ ht-degree: 96%
       + [Adobe Express の操作](using/integrations/express.md)
       + [Experience Manager テンプレートの操作](using/integrations/aem-templates.md)
       + [Experience Manager コンテンツフラグメントの操作](using/integrations/aem-fragments.md)
-      + [Experience Manager コンテンツアドバイザーの操作](using/content-management/aem-content-advisor.md)
-      + [カウントダウンタイマーの挿入](using/integrations/countdown.md)
+      + [Experience Manager Content Advisorの操作](using/content-management/aem-content-advisor.md)
+      + [カウントダウンタイマーを挿入](using/integrations/countdown.md)
       + [Dynamic Media の操作](using/integrations/aem-dynamic.md)
       + [GenStudio for Performance Marketing の操作](using/integrations/genstudio.md)
       + [統合の操作](using/integrations/external-sources.md)
@@ -505,7 +506,7 @@ ht-degree: 96%
          + [ブランド](/help/rp_landing_pages/brands-landing-page.md)
          + [ブランドの作成と管理](using/content-management/brands.md)
          + [ブランドのパーソナライズ](using/content-management/brands-personalize.md)
-         + [生成モデルの作成と管理](using/content-management/generative-models.md)
+         + [生成モデルの制作と管理](using/content-management/generative-models.md)
          + [コンテンツの評価](using/content-management/brands-score.md)
    + 多言語コンテンツ {#content-multilingual}
       + [多言語コンテンツ](/help/rp_landing_pages/content-multilingual-landing-page.md)
@@ -616,9 +617,9 @@ ht-degree: 96%
       + [決定の基本を学ぶ](using/experience-decisioning/gs-experience-decisioning.md)
       + [決定ガードレールと制限](using/experience-decisioning/decisioning-guardrails.md)
       + [Decisioning FAQ](using/experience-decisioning/decisioning-faq.md)
-      + Decisioning への移行 {#migrate-to-decisioning}
-         + [Decisioning に移行するメリット](using/experience-decisioning/migrate-to-decisioning.md)
-         + [Decisioning Migration API](using/experience-decisioning/decisioning-migration-api.md)
+      + Decisioningへの移行 {#migrate-to-decisioning}
+         + [Decisioningへの移行の利点](using/experience-decisioning/migrate-to-decisioning.md)
+         + [移行APIの決定](using/experience-decisioning/decisioning-migration-api.md)
       + API リファレンス {#experience-decisioning-api-reference}
          + [API リファレンス](/help/rp_landing_pages/experience-decisioning-api-reference-landing-page.md)
          + [Decisioning API の基本を学ぶ](using/experience-decisioning/api-reference/getting-started.md)
@@ -673,7 +674,7 @@ ht-degree: 96%
             + [自動最適化モデル](using/experience-decisioning/ranking/auto-optimization-model.md)
             + [パーソナライズされた最適化モデル](using/experience-decisioning/ranking/personalized-optimization-model.md)
             + [AI モデルの作成](using/experience-decisioning/ranking/create-ai-models.md)
-            + [AI モデルのパフォーマンスの監視](using/experience-decisioning/ranking/ai-model-observability.md)
+            + [AI モデルのパフォーマンスを監視する](using/experience-decisioning/ranking/ai-model-observability.md)
       + [プレースメントの操作](using/experience-decisioning/placements.md)
       + Adobe Experience Platform データの使用 {#aep-data}
          + [Adobe Experience Platform データの使用](/help/rp_landing_pages/aep-data-landing-page.md)
@@ -684,7 +685,7 @@ ht-degree: 96%
          + [決定ポリシーの基本を学ぶ](using/experience-decisioning/create-decision.md)
          + [決定ポリシーを作成](using/experience-decisioning/create-decision-policy.md)
          + [メッセージでの決定ポリシーの使用](using/experience-decisioning/use-decision-policy.md)
-         + [決定ポリシーでのフラグメントの活用](using/experience-decisioning/fragments-decision-policies.md)
+         + [意思決定ポリシーでフラグメントを活用する](using/experience-decisioning/fragments-decision-policies.md)
       + [決定に関するレポート](using/experience-decisioning/cja-reporting.md)
       + [決定のユースケース](using/experience-decisioning/experience-decisioning-uc.md)
       + イベントデータの収集 {#experience-decisioning-collect-event-data}
@@ -876,7 +877,7 @@ ht-degree: 96%
       + [サブドメインデリゲーションの基本を学ぶ](using/configuration/about-subdomain-delegation.md)
       + [サブドメインのデリゲート](using/configuration/delegate-subdomain.md)
       + [カスタムサブドメインの設定](using/configuration/delegate-custom-subdomain.md)
-      + [CNAME からカスタム委任への移行](using/configuration/custom-subdomain-migration.md)
+      + [CNAMEからカスタム委任への移行](using/configuration/custom-subdomain-migration.md)
       + [DMARC レコードの設定](using/configuration/dmarc-record.md)
       + [Google TXT レコードの追加](using/configuration/google-txt.md)
       + [PTR レコードへのアクセスと編集](using/configuration/ptr-records.md)
@@ -896,7 +897,7 @@ ht-degree: 96%
       + [再試行](using/configuration/retries.md)
       + [許可リスト](using/configuration/allow-list.md)
    + [シードリストの使用](using/configuration/seed-lists.md)
-   + [メールアーカイブのサポート](using/configuration/archiving-support.md)
+   + [メールのアーカイブのサポート](using/configuration/archiving-support.md)
    + [メールへの CC フィールドの追加](using/configuration/cc-email-field.md)
    + [実行フィールドの管理](using/configuration/primary-email-addresses.md)
    + [フィードバック Webhook の作成](using/configuration/feedback-webhooks.md)
@@ -954,7 +955,7 @@ ht-degree: 96%
    + [プライバシー](/help/rp_landing_pages/privacy-landing-page.md)
    + [プライバシーの基本を学ぶ](using/privacy/get-started-privacy.md)
    + [プライバシーリクエスト](using/privacy/requests.md)
-   + [&#x200B; リソースに対する監査アクション](using/privacy/audit-logs.md)
+   + [ リソースに対する監査アクション](using/privacy/audit-logs.md)
    + [データライフサイクル操作の実行](using/privacy/data-hygiene.md)
    + 同意を管理 {#consent}
       + [同意を管理](/help/rp_landing_pages/consent-landing-page.md)
