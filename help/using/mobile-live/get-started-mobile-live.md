@@ -74,4 +74,4 @@ ht-degree: 20%
 
 Adobe Journey Optimizerを使用してiOSのライブアクティビティを設定し、iPhoneのロック画面とダイナミックアイランドでリッチなリアルタイム更新を配信する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3479864/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3479865/?captions=jpn&learn=on)
