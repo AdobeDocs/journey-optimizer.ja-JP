@@ -235,11 +235,11 @@ extension FoodDeliveryLiveActivityAttributes: LiveActivityAssuranceDebuggable {
 
 包括的なSDKのドキュメントと実装の詳細については、次を参照してください。
 
-* [ ライブアクティビティ開発者ガイド ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities)
+* [&#x200B; ライブアクティビティ開発者ガイド &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities)
 * [API リファレンス](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/api-reference/)
-* [ ライブアクティビティチュートリアル ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/tutorial/)
-* [公開クラス ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/public-classes/live-activity-attributes/)
+* [&#x200B; ライブアクティビティチュートリアル &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/tutorial/)
+* [公開クラス &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/public-classes/live-activity-attributes/)
 
 >[!TIP]
 >
->トークンの登録、ペイロードの調整、またはライブアクティビティの配信に関して問題が発生した場合は、詳細なデバッグガイダンスについて、[ ライブアクティビティのトラブルシューティング ](troubleshoot-mobile-live.md)を参照してください。
+>トークンの登録、ペイロードの調整、またはライブアクティビティの配信に関して問題が発生した場合は、詳細なデバッグガイダンスについて、[&#x200B; ライブアクティビティのトラブルシューティング &#x200B;](troubleshoot-mobile-live.md)を参照してください。
