@@ -8,11 +8,12 @@ topic: Content Management
 role: User
 level: Intermediate
 version: Journey Orchestration
+badge: label="限定提供" type="Informative"
 exl-id: b6f54a79-b9e7-4b3a-9a6f-72d5282c01d3
-source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
+source-git-commit: 6836d30ca7864a82a75a73b8944e43691338558e
 workflow-type: tm+mt
-source-wordcount: '891'
-ht-degree: 73%
+source-wordcount: '906'
+ht-degree: 74%
 
 ---
 
@@ -24,6 +25,10 @@ ht-degree: 73%
 >abstract="**[!UICONTROL データセット検索]** アクティビティを使用すると、実行時に[!DNL Adobe Experience Platform]個のレコードデータセットからデータを動的に取得できます。 この機能を活用することで、プロファイルやイベントペイロードに存在しない場合があるデータにアクセスできるので、顧客とのインタラクションが関連性が高く、タイムリーなものになります。"
 
 **[!UICONTROL データセット検索]** アクティビティを使用すると、実行時に[!DNL Adobe Experience Platform]個のレコードデータセットからデータを動的に取得できます。 この機能を活用することで、プロファイルやイベントペイロードに存在しない場合があるデータにアクセスできるので、顧客とのインタラクションが関連性が高く、タイムリーなものになります。
+
+>[!AVAILABILITY]
+>
+>この機能は現在、限定提供リリースとしてすべてお客様が利用できます。
 
 主な利点：
 
@@ -37,7 +42,7 @@ ht-degree: 73%
 
 ### データセットのイネーブルメント
 
-[!DNL Adobe Experience Platform]で検索するには、データセットを有効にする必要があります。 詳細については、この節「[使用 [!DNL Adobe Experience Platform]  データ &#x200B;](../data/lookup-aep-data.md)」を参照してください。
+[!DNL Adobe Experience Platform]で検索するには、データセットを有効にする必要があります。 詳細については、この節「[使用 [!DNL Adobe Experience Platform]  データ ](../data/lookup-aep-data.md)」を参照してください。
 
 ### 制限および制約事項
 
