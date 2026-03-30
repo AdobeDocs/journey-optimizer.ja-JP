@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b4749b3b9a97dd295e0d46274bfe2d63ed2187b3
+source-git-commit: 8af179b0eddc13dca3786ee5c6216a955ab9e704
 workflow-type: tm+mt
-source-wordcount: '1722'
-ht-degree: 21%
+source-wordcount: '1746'
+ht-degree: 20%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 21%
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 **リリース日**: 2026年3月24日～25日
 
@@ -87,7 +87,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>ジャーニーの新しい<strong> データセット検索</strong> アクティビティでは、実行時にAdobe Experience Platform レコードデータセットからデータを動的に取得できるので、プロファイルやイベントペイロードに含まれていない情報にアクセスできるので、顧客とのやり取りは関連性があり、タイムリーな状態を維持できます。</p>
-<p>この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。 </p>
+<p>以前は制限付き組織セットに対して限定提供でリリースされていましたが、ジャーニーのデータセット検索アクティビティは、[ データセット検索] （../data/lookup-aep-data.md）の資格を持つすべての顧客が利用できるようになりましたが、引き続き限定提供です。</p>
 <p><img src="../building-journeys/assets/aep-data-activity.png"></p>
 <p>詳しくは、<a href="../building-journeys/dataset-lookup.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
@@ -181,7 +181,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p><strong>Adobe Experience Platform Agent Orchestrator</strong>を搭載した<strong>Journey Agent</strong>は、Journey Optimizerで利用でき、自然言語インターフェイスを通じてジャーニーを分析できます。 また、Journey Agentでチャネル固有のコンテンツを直接生成および管理し、電子メールやプッシュ通知などのチャネル用のコンテンツを作成したり、テンプレートを適用およびプレビューしたり、プロンプトを通じてトーンやスタイルを調整したり、コンテキストに沿った編集のために<strong>Content Designer</strong>でコンテンツを開いたりすることもできます。</p>
 <p>この機能は、一連の組織でのみ使用できます（限定提供）。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
-<p>詳しくは、<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=ja" target="_blank">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html" target="_blank">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2026年3月4日（PT）</p>
 </td>
 </tr>
@@ -202,6 +202,23 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p><img src="assets/do-not-localize/ai-model-observability.gif"/></p>
 <p>詳しくは、<a href="../experience-decisioning/ranking/ai-model-observability.md">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2026年3月9日（PT）</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>シグナルを活用したトリガーオーケストレーションされたキャンペーン</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>オーケストレーションされたキャンペーンは、<strong>API シグナル </strong>を介してトリガーできるようになりました。 これを設定するには、シグナル <strong>によってトリガーされた</strong> ターゲットキャンペーンを設定して公開し、API呼び出しを使用して実行します。 API呼び出しに含まれるパラメーターは、実行中のキャンペーン内で変数として使用できます。 シグナル トリガーによるオーケストレーションされたキャンペーンは<strong> バッチ </strong>のキャンペーンのままであり、API トリガーされたキャンペーンとは異なります。</p>
+<p><img src="assets/do-not-localize/oc-triggered.gif"></p>
+<p>詳しくは、<a href="../orchestrated/trigger-orchestrated-campaign.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -338,23 +355,6 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p><strong>受信トレイ </strong>は、コンテンツカードで利用できるモバイル機能で、ユーザーがアプリまたはweb サイト内で一元的な場所を作成して、ユーザーに送信されるメッセージを表示できるようにします。 これにより、メッセージが却下された後もアクセスできるようになり、マーケティングコミュニケーションの有効期間を延長できます。</p>
 <p>公開日：2026年3月31日（PT）</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>シグナルを活用したトリガーオーケストレーションされたキャンペーン</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>オーケストレーションされたキャンペーンは、<strong>API シグナル </strong>を介してトリガーできるようになりました。 これを設定するには、シグナル <strong>によってトリガーされた</strong> ターゲットキャンペーンを設定して公開し、API呼び出しを使用して実行します。 API呼び出しに含まれるパラメーターは、実行中のキャンペーン内で変数として使用できます。 シグナル トリガーによるオーケストレーションされたキャンペーンは<strong> バッチ </strong>のキャンペーンのままであり、API トリガーされたキャンペーンとは異なります。</p>
-<p><img src="assets/do-not-localize/oc-triggered.gif"></p>
-<p>公開日：2026年4月1日（PT）</p>
 </td>
 </tr>
 </tbody>
