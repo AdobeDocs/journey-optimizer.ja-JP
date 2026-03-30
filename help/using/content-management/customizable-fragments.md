@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
-source-git-commit: 60907756a261c1f672944eccefbfe2ee90d0d017
+source-git-commit: 874bbd1d7235c8043e824290d748677fe30f43a9
 workflow-type: tm+mt
-source-wordcount: '1502'
-ht-degree: 98%
+source-wordcount: '1496'
+ht-degree: 94%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 98%
 
 >[!CAUTION]
 >
->ボタンコンポーネントの **label** と **URL** の両方がフラグメントで編集可能になると、トラッキングレポートには、ボタンラベルではなく URL が表示されます。 [詳しくは、トラッキングを参照してください](../email/message-tracking.md)
+>ボタンコンポーネントの&#x200B;**ラベル**&#x200B;と&#x200B;**URL**&#x200B;の両方をフラグメントで編集可能にした場合、トラッキングレポートにはボタンラベルの代わりにURLが表示されます。 [詳しくは、トラッキングを参照してください](../email/message-tracking.md)
 
 ## HTML コンポーネントと式フラグメントへの編集可能なフィールドの追加 {#expression}
 
@@ -124,7 +124,7 @@ HTML コンポーネントの場合、特定の要素のみを編集可能なフ
 
 * HTML コンポーネントの場合、変数は、E メールデザイナーの編集可能フィールドのリストに表示されます。[詳しくは、ビジュアルフラグメントの編集可能フィールドをカスタマイズする方法を参照してください](../email/use-visual-fragments.md#customize-fields)
 
-### 編集可能な式フラグメントの例{#example}
+### 例：カスタマイズ可能な式フラグメント {#example}
 
 以下の例では、新しいスポーツコレクションを紹介する式フラグメントを作成しています。デフォルトでは、フラグメントには次のコンテンツが表示されます。*他のアイテムもお探しですか？最新のスポーツコレクションをお見逃しなく。*
 
@@ -146,9 +146,9 @@ HTML コンポーネントの場合、特定の要素のみを編集可能なフ
 
 ## カスタマイズ可能なフラグメントへのリッチテキストの追加 {#rich-text}
 
-HTML コンポーネントを使用して、改行、太字、斜体などのリッチテキストを編集可能なフラグメントに追加できます。これを行うには、以下の手順に従います。
+HTML コンポーネントを使用すると、改行、太字、斜体などのリッチテキストを、カスタマイズ可能なフラグメントに追加できます。 これを行うには、以下の手順に従います。
 <!--
-➡️ [Learn how to add and use rich text to an editable fragment in this video](#video)-->
+➡️ [Learn how to add and use rich text in a customizable fragment in this video](#video)-->
 
 ### リッチテキストを含むフラグメントの作成 {#add-rich-text}
 
@@ -176,9 +176,9 @@ HTML コンポーネントを使用して、改行、太字、斜体などのリ
 
 1. フラグメントを保存して[公開](create-fragments.md#publish)します。
 
-### 編集可能なリッチテキストフラグメントの使用 {#use-rich-text}
+### カスタマイズ可能なフラグメントでのリッチテキストの使用 {#use-rich-text}
 
-フラグメントをメールコンテンツに追加する際に、ユーザーは、あなたが作成したリッチテキストコンテンツとスタイルを編集できるようになりました。マーケターが編集可能なリッチテキストフラグメントを使用するには、次の手順に従います。
+メールにフラグメントを追加する際に、作成したリッチテキストコンテンツとスタイルを編集できるようになりました。 マーケターは、次の手順に従います。
 
 1. キャンペーンまたはジャーニーで[メールを作成](../email/create-email.md)してから、[作成](#add-rich-text)したリッチテキストを含むフラグメントを追加します。
 
@@ -199,5 +199,5 @@ HTML コンポーネントを使用して、改行、太字、斜体などのリ
 
 This video shows how to make HTML components within a fragment editable, allowing for dynamic updates to both content and styling.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464369/?captions=jpn&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
 -->
