@@ -9,7 +9,7 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: 設定,メッセージ,チャネル,サンドボックス,Optimizer
-source-git-commit: 729fee98b6d9681ee0e39f091d6f44e692684b83
+source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 87%
@@ -52,7 +52,7 @@ ht-degree: 87%
     <div align="center"><a href="../content-card/content-card-configuration-prereq.md"><strong>コンテンツカード</strong></a></div></td>
     </tr></table>
 
-   その他のチャネルについては、[iOS Live Activity](../mobile-live/mobile-live-configuration.md)、[WhatsApp](../whatsapp/whatsapp-configuration.md)、[LINE](../line/line-configuration.md)を参照してください。
+   その他のチャネルについては、[iOS ライブ アクティビティ ](../mobile-live/mobile-live-configuration.md)、[WhatsApp](../whatsapp/whatsapp-configuration.md)、[LINE](../line/line-configuration.md)を参照してください。
 
    >[!NOTE]
    >
