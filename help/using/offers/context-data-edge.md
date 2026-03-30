@@ -9,10 +9,10 @@ role: Developer
 level: Experienced
 exl-id: c9e14d4d-f2e2-43f9-b1c5-4b005ce858ad
 version: Journey Orchestration
-source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
+source-git-commit: c9a5c29c685cf21fda2b5df1a3838713e054f696
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 98%
+source-wordcount: '900'
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,6 @@ ht-degree: 98%
 
 * [ランキング式 - コンテキストデータに基づいてオファーの優先度を上げる](../offers/ranking/create-ranking-formulas.md#context-data)
 * [コンテキストデータに基づいた表示域のパーソナライズ](../offers/offer-library/add-representations.md#context-data)
-* [&#x200B; パーソナライゼーションエディターでサポートされる関数 &#x200B;](offer-library/personalization-editor-supported-functions.md) （意思決定管理でオファーコンテンツをパーソナライズする場合）
 
 >[!ENDSHADEBOX]
 
