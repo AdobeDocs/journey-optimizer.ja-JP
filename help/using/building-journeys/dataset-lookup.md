@@ -42,7 +42,7 @@ ht-degree: 74%
 
 ### データセットのイネーブルメント
 
-[!DNL Adobe Experience Platform]で検索するには、データセットを有効にする必要があります。 詳細については、この節「[使用 [!DNL Adobe Experience Platform]  データ ](../data/lookup-aep-data.md)」を参照してください。
+[!DNL Adobe Experience Platform]で検索するには、データセットを有効にする必要があります。 詳細については、この節「[使用 [!DNL Adobe Experience Platform]  データ &#x200B;](../data/lookup-aep-data.md)」を参照してください。
 
 ### 制限および制約事項
 
