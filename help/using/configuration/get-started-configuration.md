@@ -9,10 +9,10 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: 設定,メッセージ,チャネル,サンドボックス,Optimizer
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: ht
-source-wordcount: '397'
-ht-degree: 100%
+source-git-commit: 729fee98b6d9681ee0e39f091d6f44e692684b83
+workflow-type: tm+mt
+source-wordcount: '452'
+ht-degree: 87%
 
 ---
 
@@ -52,6 +52,8 @@ ht-degree: 100%
     <div align="center"><a href="../content-card/content-card-configuration-prereq.md"><strong>コンテンツカード</strong></a></div></td>
     </tr></table>
 
+   その他のチャネルについては、[iOS Live Activity](../mobile-live/mobile-live-configuration.md)、[WhatsApp](../whatsapp/whatsapp-configuration.md)、[LINE](../line/line-configuration.md)を参照してください。
+
    >[!NOTE]
    >
    >モバイルチャネルの場合、[ガイド付きチャネル設定](set-mobile-config.md)によってマーケティングチャネルを迅速に設定できるようになり、Experience Platform、Journey Optimizer およびデータ収集内で必要なすべてのリソースがすぐに使用できるようになります。これにより、マーケティングチームはキャンペーンとジャーニーの作成を開始できます。
@@ -64,15 +66,15 @@ ht-degree: 100%
 
    * 最適な配信品質を実現するために、IP ウォームアッププランを設定します。[詳細情報](ip-warmup-gs.md)
 
-   * メール送信用の許可リストを定義します。[詳細](allow-list.md)
+   * メール送信用の許可リストを定義します。[詳細情報](allow-list.md)
 
-   * 抑制リストにメールアドレスを送信する前に再試行が実行される日数を管理します。[詳細](manage-suppression-list.md)
+   * 抑制リストにメールアドレスを送信する前に再試行が実行される日数を管理します。[詳細情報](manage-suppression-list.md)
 
    * **「BCC メール」オプション**&#x200B;を有効にして、個人に送信されたメッセージのコピーを保持します。[詳細情報](archiving-support.md#enable-bcc)
 
    * **ビジネスルール**&#x200B;を設定して、受信者を過度に勧誘しないようにします。[詳細情報](../conflict-prioritization/rule-sets.md)
 
-   * Adobe Experience Platform で使用可能なメールアドレス／電話番号が複数ある場合、受信者に優先して使用するメールアドレス／電話番号を決定します。([詳細情報](primary-email-addresses.md))
+   * Adobe Experience Platform で使用可能なメールアドレス／電話番号が複数ある場合、受信者に優先して使用するメールアドレス／電話番号を決定します。[詳細情報](primary-email-addresses.md)
 
 ## その他のリソース
 
@@ -81,4 +83,7 @@ ht-degree: 100%
 * **[IP ウォームアップ](ip-warmup-gs.md)** - メールの配信品質と送信者の評判を向上させるための IP アドレスウォームアップのベストプラクティスについて説明します。
 * **[抑制リストの管理](manage-suppression-list.md)** - バウンスを処理し、リストハイジーンを維持するために抑制リストを管理する方法について説明します。
 * **[モバイルアプリの設定](set-mobile-config.md)** - プッシュ通知とアプリ内メッセージ用のモバイルアプリ設定を指定します。
+* **[iOSのライブアクティビティを設定](../mobile-live/mobile-live-configuration.md)** - iPhoneのロック画面とDynamic Islandにライブアクティビティを送信する環境を設定します。
+* **[WhatsAppの設定](../whatsapp/whatsapp-configuration.md)** - キャンペーンとジャーニーに対して、Meta Cloud APIを介してWhatsApp メッセージを設定します。
+* **[LINEを設定](../line/line-configuration.md)** - キャンペーンとジャーニーにLINE メッセージを設定します。
 * **[設定チュートリアル](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/configuration/channel-configuration/configure-channels){target="_blank"}** - チャネル設定とベストプラクティスに関するステップバイステップのビデオチュートリアルを参照してください。
