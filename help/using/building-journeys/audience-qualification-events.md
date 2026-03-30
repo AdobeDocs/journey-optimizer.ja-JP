@@ -69,7 +69,7 @@ ht-degree: 61%
    >[!NOTE]
    >
    >**[!UICONTROL Enter]**&#x200B;と&#x200B;**[!UICONTROL Exit]**&#x200B;は、**からの** Realized **と** Exited[!DNL Adobe Experience Platform]のオーディエンス参加ステータスに対応しています。
-   >[ セグメント化サービスのドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ja#interpret-segment-results){target="_blank"}を参照してください。
+   >[&#x200B; セグメント化サービスのドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ja#interpret-segment-results){target="_blank"}を参照してください。
 
 1. 名前空間を選択します。これは、イベントがジャーニーの最初のステップとして位置付けられている場合にのみ必要です。デフォルトでは、このフィールドには、最後に使用した名前空間が事前に入力されています。
 
@@ -114,15 +114,15 @@ ht-degree: 61%
 
 ストリーミングセグメント化で開くイベントや送信イベントを使用しないでください。代わりに、クリック数、購入数、ビーコンデータなどの実際のユーザーアクティビティのシグナルを使用します。頻度または抑制ロジックの場合は、送信イベントの代わりにビジネスルールを使用します。 [詳細情報](../audience/about-audiences.md)
 
-[[!DNL Adobe Experience Platform]  ストリーミングセグメント化に関するドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}を参照してください。
+[[!DNL Adobe Experience Platform]  ストリーミングセグメント化に関するドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}を参照してください。
 
 >[!NOTE]
 >
 >ストリーミングセグメントメンバーシップの伝播タイミングは、メンバーシップがどのように評価され、ジャーニーのどこで使用されるかによって異なります。
 >
 >* **Audience Qualification node + streaming segment:** プロファイルがEdgeでストリーミングセグメントに適格になると、ジャーニーがアクションを実行する前に、そのメンバーシップがEdgeからHubに予測されます。 このEdgeからハブへの伝搬には、通常&#x200B;**15 ～ 30分**&#x200B;かかります（UPS SLTごとに）。 システムの負荷が大きい場合を除き、追加のジャーニー処理時間は通常5分未満です。 プロファイルが期待通りにオーディエンス選定ジャーニーに入っていない場合は、さらに調査する前に、この伝播ウィンドウを許可します。 真のリアルタイム入力を必要とするユースケースについては、代わりに単一イベントトリガーを検討してください。
->* コンディションノードの&#x200B;**`inAudience()`– 待機アクティビティの前（またはオーディエンスジャーニーの読み取り）:**&#x200B;このコンテキストで条件式でセグメントメンバーシップが評価されると、AJOはプロファイルのバッチプロジェクションから読み取ります。 この投影のデータの鮮度は、取り込み後に最大&#x200B;**2時間**&#x200B;のSLTを保持します。 日ベースまたは時間ベースの条件に依存するオーディエンスでは、さらに遅延が発生する場合があります。 ジャーニーの開始時に短い[ アクティビティ ](wait-activity.md)を追加するか、バッファー時間を許可して、最新のセグメントメンバーシップが反映されるようにします。
->* 条件ノードの&#x200B;**`inAudience()`– 待機アクティビティの後（または単一イベントジャーニーの後）:**&#x200B;このコンテキストでは、セグメントメンバーシップがストリーミング（単一）投影から読み取られます。 予想される待ち時間については、[Adobe Experience Platform ストリーミング取り込みドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/streaming/overview){target="_blank"}を参照してください。 一般的に、この経路では、最近のプロファイルの変更に反応します。
+>* コンディションノードの&#x200B;**`inAudience()`– 待機アクティビティの前（またはオーディエンスジャーニーの読み取り）:**&#x200B;このコンテキストで条件式でセグメントメンバーシップが評価されると、AJOはプロファイルのバッチプロジェクションから読み取ります。 この投影のデータの鮮度は、取り込み後に最大&#x200B;**2時間**&#x200B;のSLTを保持します。 日ベースまたは時間ベースの条件に依存するオーディエンスでは、さらに遅延が発生する場合があります。 ジャーニーの開始時に短い[&#x200B; アクティビティ &#x200B;](wait-activity.md)を追加するか、バッファー時間を許可して、最新のセグメントメンバーシップが反映されるようにします。
+>* 条件ノードの&#x200B;**`inAudience()`– 待機アクティビティの後（または単一イベントジャーニーの後）:**&#x200B;このコンテキストでは、セグメントメンバーシップがストリーミング（単一）投影から読み取られます。 予想される待ち時間については、[Adobe Experience Platform ストリーミング取り込みドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/streaming/overview){target="_blank"}を参照してください。 一般的に、この経路では、最近のプロファイルの変更に反応します。
 
 #### 選定されるすべてのプロファイルがジャーニーにエントリできるわけではない理由 {#streaming-entry-caveats}
 
@@ -140,7 +140,7 @@ ht-degree: 61%
 
 * ジャーニーを公開した後、プロファイルの選定をトリガーするイベントやデータを送信する前に、10 分以上待機します。これにより、ジャーニーが完全にアクティブ化され、エントリを処理する準備が整います。
 
-* すべての適格なプロファイルが入力されることを確認する必要がある重要なユースケースについては、代わりに[ オーディエンスを読み取り](read-audience.md) アクティビティを使用することを検討してください。 特定の時間に、オーディエンス内のすべてのプロファイルを処理します。
+* すべての適格なプロファイルが入力されることを確認する必要がある重要なユースケースについては、代わりに[&#x200B; オーディエンスを読み取り](read-audience.md) アクティビティを使用することを検討してください。 特定の時間に、オーディエンス内のすべてのプロファイルを処理します。
 
 * ジャーニーの[エントリ率とスループット](entry-management.md#profile-entrance-rate)を監視し、プロファイルのフローパターンを把握します。
 
