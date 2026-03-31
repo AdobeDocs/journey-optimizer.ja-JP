@@ -1,112 +1,112 @@
 ---
-title: Decisioning Migration API
-description: Decisioning Migration Service API を使用して、自動依存関係解決とロールバックサポートによりサンドボックス間で意思決定管理オブジェクトを移行する方法を説明します。
+title: 移行APIの決定
+description: Decisioning Migration Service APIを使用して、自動依存関係の解決とロールバックのサポートを使用してサンドボックス間で意思決定管理オブジェクトを移行する方法を説明します。
 feature: Decisioning
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 3ec084ca-af9e-4b5e-b66f-ec390328a9d6
-source-git-commit: aca4e62faa7aa09a60eef661c0732a8b0b1fa36e
+source-git-commit: 2e9a3e641a63190660badac3eeb14800eb6a6ab7
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1127'
 ht-degree: 5%
 
 ---
 
-# Decisioning Migration API {#decisioning-migration-api}
+# 移行APIの決定 {#decisioning-migration-api}
 
-Decisioning Migration Service API を使用すると、意思決定管理オブジェクトをサンドボックス間で移行できます。 移行プロセスは、依存関係の分析、実行、オプションのロールバック機能を含む非同期ワークフローとして実行されます。
+Decisioning Migration Service APIを使用すると、あるサンドボックスから別のサンドボックスに意思決定管理オブジェクトを移行できます。 移行プロセスは、依存関係の分析、実行、オプションのロールバック機能を含む非同期ワークフローとして実行されます。
 
-この API を使用すると、データの整合性と関係を維持しながら <!--(e.g., from development to staging, or staging to production) --> 環境間で意思決定コンテンツをシームレスに移行できます。
+このAPIを使用すると、データの整合性と関係を維持しながら、環境<!--(e.g., from development to staging, or staging to production) -->間で意思決定コンテンツをシームレスに移行できます。
 
-意思決定管理と比較した意思決定のメリットと機能については、[&#x200B; このページ &#x200B;](migrate-to-decisioning.md) を参照してください。
+意思決定管理と比較した意思決定の利点と機能については、[このページ ](migrate-to-decisioning.md)を参照してください。
 
 ## 機能 {#capabilities}
 
-Decisioning 移行サービス API は、次の機能を提供します。
+Decisioning Migration Service APIには、次の機能が用意されています。
 
-* **依存関係分析** – 属性、セグメント、データセット要件など、ソースサンドボックスとターゲットサンドボックスの間に必要なすべての依存関係を特定します。
-* **柔軟な移行範囲** - ニーズに基づいて、サンドボックス、オファーまたは決定レベルで移行を実行します。
-* **ロールバックサポート** – 検証中に問題が見つかった場合に、完了した移行を元に戻します。
+* **依存関係分析** – 属性、セグメント、データセット要件など、ソース サンドボックスとターゲット サンドボックス間に必要なすべての依存関係を特定します。
+* **柔軟な移行スコープ** – 必要に応じて、サンドボックス、オファー、決定レベルで移行を実行します。
+* **ロールバック サポート** – 検証中に問題が検出された場合、完了した移行を元に戻します。
 
 ## 前提条件 {#prerequisites}
 
 ### 必要な権限 {#permissions}
 
-移行 API を使用するには、ソースサンドボックスとターゲットサンドボックスの両方で適切な権限が必要です。
+移行APIを使用するには、ソースサンドボックスとターゲットサンドボックスの両方に適切な権限が必要です。
 
-**Source sandbox** – 意思決定管理オブジェクトへの読み取りアクセス
+**Source サンドボックス** – 意思決定管理オブジェクトへの読み取りアクセス
 
-**ターゲットサンドボックス** – 決定オブジェクトへのアクセスを作成および編集します
+**Target サンドボックス** - Decisioning オブジェクトへのアクセス権の作成と編集
 
-一般的な権限を次に示します。
+一般的な権限には、次のものがあります。
 
 * 決定の管理/表示
 * 決定の管理/表示
 * オファーの管理
 * ランキング戦略の管理
-* キャンペーンの管理（キャンペーン関連アーティファクトを移行する場合）
+* キャンペーンの管理（キャンペーン関連のアーティファクトを移行する場合）
 * データストリームの管理/表示（データストリームを作成する場合）
 * スキーマの管理/表示
 
 >[!NOTE]
 >
->意思決定権限の割り当て方法については、[&#x200B; この節 &#x200B;](gs-experience-decisioning.md#steps) を参照してください。 権限の完全なリストについては、[&#x200B; 組み込みの権限 &#x200B;](../administration/ootb-permissions.md#ootb-permissions) ページを参照してください。
+>[このセクション ](gs-experience-decisioning.md#steps)で決定権限を割り当てる方法について説明します。 権限の完全なリストについては、[組み込みの権限](../administration/ootb-permissions.md#ootb-permissions) ページを参照してください。
 
 ### ターゲットサンドボックスの準備 {#target-sandbox-preparation}
 
 移行を実行する前に、ターゲットサンドボックスが適切に設定されていることを確認します。
 
 * **属性** – 必要なプロファイル属性とコンテキスト属性がターゲットサンドボックスに存在することを確認するか、マッピングを準備します。
-* **セグメント** - ターゲットサンドボックスに必要なセグメントが存在することを確認するか、名前空間と ID を使用してセグメントをマッピングすることを計画します。
+* **セグメント** – 必要なセグメントがターゲットサンドボックスに存在することを確認するか、名前空間とIDを使用してセグメントをマッピングすることを計画します。
 * **データセット** – 移行に使用するデータセット名を特定します（`dependency.datasetName`）。
-* **データストリーム** – 移行でデータストリームを作成するかどうかを決定します（`createDataStream`）。
+* **データストリーム** – 移行でデータストリーム （`createDataStream`）を作成するかどうかを決定します。
 
-サンドボックス管理について詳しくは、[&#x200B; サンドボックスの使用と割り当て &#x200B;](../administration/sandboxes.md) を参照してください。
+サンドボックス管理について詳しくは、[ サンドボックスの使用と割り当て](../administration/sandboxes.md)を参照してください。
 
 ## API の基本 {#api-basics}
 
 ### ベース URL {#base-url}
 
-次のベース URL を使用：
+次のベース URLを使用します。
 
-* **実稼動**: `https://decisioning-migration.adobe.io`
+* **本番**: `https://decisioning-migration.adobe.io`
   <!--* **Staging**: `https://decisioning-migration-stage.adobe.io`-->
 
 ### 認証 {#authentication}
 
-すべての API リクエストには次のヘッダーが必要です。
+すべてのAPI リクエストには、次のヘッダーが必要です。
 
 * `Authorization: Bearer <IMS_ACCESS_TOKEN>`
 * `x-gw-ims-org-id: <IMS_ORG_ID>`
 * `Content-Type: application/json`
 
-認証の設定について詳しくは、[Journey Optimizer認証ガイド &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"} を参照してください。
+認証の設定手順について詳しくは、[Journey Optimizer認証ガイド ](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}を参照してください。
 
 ### ワークフローモデル {#workflow-model}
 
-各 API 呼び出しによって、ワークフローリソースが作成または取得されます。 ワークフローは、移行タスクの進捗と結果を追跡する非同期操作です。
+各API呼び出しは、ワークフローリソースを作成または取得します。 ワークフローは、移行タスクの進行状況と結果を追跡する非同期操作です。
 
 ワークフローには次のプロパティがあります。
 
-* `id` - ワークフローの一意の識別子（UUID）
-* `status` – 現在のワークフローステータス：`New`、`Running`、`Completed` または `Failed`
-* `result` – 完了時のワークフロー出力（移行結果および警告を含む）
-* `errors` – 失敗したときの構造化エラーの詳細
-* `_links.self` - ステータスを取得するためのワークフロー URL
+* `id` – 一意のワークフロー識別子（UUID）
+* `status` – 現在のワークフロー状態：`New`、`Running`、`Completed`または`Failed`
+* `result` – 完了時のワークフロー出力（移行結果と警告を含む）
+* `errors` – 失敗したときに構造化エラーの詳細
+* `_links.self` - ステータスを取得するためのワークフローURL
   <!--* `_etag` - Version identifier used for delete operations (service users only)-->
 
 ## 移行ワークフロー {#migration-workflow}
 
-移行プロセスは、依存関係の分析と移行の実行という 2 つの主な手順で構成されます。 移行を正常に完了させるには、次の手順に従います。
+移行プロセスは、依存関係の分析と移行の実行という2つの主な手順で構成されます。 移行を成功させるには、次の手順に従います。
 
-### 手順 1：依存関係の分析 {#analyze-dependencies}
+### 手順1：依存関係の分析 {#analyze-dependencies}
 
-移行する前に、依存関係ワークフローを使用して、ターゲットサンドボックスで意思決定管理から決定へのマッピングが必要なものを特定します。 この分析は、オブジェクト間の関係を理解し、必要なマッピングを準備するのに役立ちます。
+移行前に、依存関係ワークフローを使用して、ターゲット サンドボックスの意思決定管理から決定にマッピングする必要がある項目を特定します。 この分析は、オブジェクト間の関係を理解し、必要なマッピングを準備するのに役立ちます。
 
 #### 依存関係ワークフローの作成 {#create-dependency-workflow}
 
-次の API 呼び出しを使用して、依存関係分析ワークフローを作成します。
+次のAPI呼び出しを使用して、依存関係分析ワークフローを作成します。
 
 **API 形式**
 
@@ -116,7 +116,7 @@ POST /workflows/generate-dependencies
 
 **サンドボックスレベルの依存関係（最初に推奨）**
 
-サンドボックスレベルの分析から始めて、すべての依存関係を完全に把握します。
+サンドボックスレベルの分析から始めて、あらゆる依存関係を包括的に把握します。
 
 ```shell
 curl --request POST \
@@ -134,15 +134,15 @@ curl --request POST \
 
 **オファーレベルの依存関係**
 
-特定のオファーのみの依存関係を分析するには、`requestLevel: "offer"` を設定し、分析するオファー ID を含む `offersList` 配列を指定します。
+特定のオファーの依存関係のみを分析するには、`requestLevel: "offer"`を設定し、分析するオファーIDを`offersList`配列に指定します。
 
 **決定レベルの依存関係**
 
-特定の決定のみの依存関係を分析するには、`requestLevel: "decision"` を設定し、分析する決定 ID を含む `decisionsList` 配列を指定します。
+特定の決定の依存関係のみを分析するには、`requestLevel: "decision"`を設定し、分析する決定IDを`decisionsList`配列に指定します。
 
-#### 依存関係ワークフローステータスの確認 {#poll-dependency-status}
+#### 依存関係ワークフローの状態を確認する {#poll-dependency-status}
 
-依存関係ワークフローをポーリングして、分析が完了したことを確認します。
+依存関係ワークフローをポーリングして、分析が完了したときに確認します。
 
 **API 形式**
 
@@ -159,20 +159,20 @@ curl --request GET \
   --header "x-gw-ims-org-id: <IMS_ORG_ID>"
 ```
 
-`status` フィールドに「`Completed`」と表示されたら、依存関係分析の準備が整います。 ワークフロー出力を使用して、移行依存関係マッピングを作成します。
+`status` フィールドに`Completed`が表示されると、依存関係の分析の準備が整います。 ワークフロー出力を使用して、移行依存関係マッピングを構築します。
 
 * **profileAttributes** - ソースプロファイル属性をターゲットプロファイル属性にマッピングします
-* **contextAttributes** - ソースコンテキスト属性をターゲットコンテキスト属性にマップします
-* **セグメント** - ソースセグメントキーをターゲットセグメント識別子にマッピングします（`{namespace, id}`）
+* **contextAttributes** - ソースコンテキスト属性をターゲットコンテキスト属性にマッピングします
+* **セグメント** - ソース セグメント キーをターゲット セグメント ID （`{namespace, id}`）にマッピングします
 * **datasetName** – 移行のターゲットデータセット名を指定します
 
-### 手順 2：移行を実行する {#execute-migration}
+### 手順2：移行の実行 {#execute-migration}
 
 依存関係を分析し、マッピングを準備したら、移行を実行できます。
 
 #### 移行ワークフローの作成 {#create-migration-workflow}
 
-手順 1 の依存関係マッピングを使用して、移行を設定および実行します。
+手順1の依存関係マッピングを使用して、移行を設定および実行します。
 
 **API 形式**
 
@@ -182,7 +182,7 @@ POST /workflows/migration
 
 **サンドボックスレベルの移行**
 
-すべての決定オブジェクトをサンドボックス間で移行するには：
+すべての決定オブジェクトを1つのサンドボックスから別のサンドボックスに移行するには：
 
 ```shell
 curl --request POST \
@@ -216,7 +216,7 @@ curl --request POST \
 
 **オファーレベルの移行**
 
-特定のオファーのみを移行するには、`requestLevel: "offer"` を使用して `offersList` 配列を追加します。
+特定のオファーのみを移行するには、`requestLevel: "offer"`を使用して`offersList`配列を追加します。
 
 ```json
 "offersList": ["offer-id-1", "offer-id-2"]
@@ -224,7 +224,7 @@ curl --request POST \
 
 **決定レベルの移行**
 
-特定の決定のみを移行するには、`requestLevel: "decision"` を使用して、`decisionsList` の配列を追加します。
+特定の決定のみを移行するには、`requestLevel: "decision"`を使用して`decisionsList`配列を追加します。
 
 ```json
 "decisionsList": ["decision-id-1", "decision-id-2"]
@@ -249,13 +249,13 @@ curl --request GET \
   --header "x-gw-ims-org-id: <IMS_ORG_ID>"
 ```
 
-**移行の結果**
+**移行結果**
 
-`status` フィールドに「`Completed`」と表示されたら、移行は成功でした。 ワークフロー `result` には、次のものが含まれます。
+`status` フィールドに`Completed`が表示されている場合、移行は成功しました。 ワークフロー`result`には次のものが含まれます。
 * 移行されたオブジェクトのマッピング
 * 移行中に発生した警告
 
-`status` フィールドに `Failed` と表示されたら、`errors[]` の配列と `result.error` フィールドで、何が問題だったのかの詳細を確認します。
+`status` フィールドに`Failed`が表示されたら、`errors[]`配列と`result.error` フィールドで、問題の詳細を確認します。
 
 ## 移行の検証 {#validate-migration}
 
@@ -263,19 +263,19 @@ curl --request GET \
 
 ### 検証チェックリスト {#validation-checklist}
 
-1. **セグメント** – 参照されるすべてのセグメントが、マッピングに従ってターゲットサンドボックスで正しく解決されることを確認します。
+1. **セグメント** – 参照されているすべてのセグメントが、マッピングに従ってターゲットサンドボックスで正しく解決されていることを確認します。
 2. **属性** – すべてのプロファイル属性とコンテキスト属性がターゲットサンドボックスに存在し、正しくマッピングされていることを確認します。
-3. **オブジェクトの決定** – 移行されたオブジェクトをJourney Optimizer ユーザーインターフェイスで確認します。
+3. **オブジェクトの決定** - Journey Optimizer ユーザーインターフェイスで移行されたオブジェクトを確認します。
    * オファー（決定項目）
    * 実施要件ルール
    * ランキング式
    * 選択戦略
    * 決定ポリシー
-4. **データストリームテスト** - データストリームが作成された場合は、Edge Interact API を使用してランタイム配信をテストします。
+4. **データストリームテスト** - データストリームが作成された場合は、Edge Interact APIを使用してランタイム配信をテストします。
 
 ### 例 {#test-runtime-delivery}
 
-移行でデータストリームが作成された場合は、次の例を使用してオファー配信をテストできます。
+移行でデータストリームを作成した場合は、次の例を使用してオファー配信をテストできます。
 
 ```shell
 curl --request POST \
@@ -285,9 +285,9 @@ curl --request POST \
   --data '{ "events": [ ... ] }'
 ```
 
-## 移行をロールバックする {#rollback}
+## 移行のロールバック {#rollback}
 
-検証中に問題が見つかった場合は、完了した移行をロールバックして、ターゲットサンドボックスを以前の状態に復元できます。
+検証中に問題が発生した場合は、完了した移行をロールバックして、ターゲットサンドボックスを以前の状態に戻すことができます。
 
 ### ロールバックワークフローの作成 {#create-rollback-workflow}
 
@@ -310,7 +310,7 @@ curl --request POST \
   --data '{ "rollbackWorkflowId": "<MIGRATION_WORKFLOW_ID>" }'
 ```
 
-`<MIGRATION_WORKFLOW_ID>` を、ロールバックする移行ワークフローの ID に置き換えます。
+`<MIGRATION_WORKFLOW_ID>`を、ロールバックする移行ワークフローのIDに置き換えます。
 
 ### ロールバックステータスの監視 {#poll-rollback-status}
 
@@ -331,28 +331,30 @@ curl --request GET \
   --header "x-gw-ims-org-id: <IMS_ORG_ID>"
 ```
 
-## 同時ワークフローの処理 {#handle-concurrency}
+## 同時ワークフローへの対応 {#handle-concurrency}
 
-移行 API では、組織ごとに一度に 1 つのワークフローのみを実行できます。 別のワークフローの処理中に新しいワークフローを作成しようとすると、**409 Conflict** エラー応答（「ワークフローは既に処理中です…」）が表示されます。
+移行APIでは、組織ごとに一度に1つのワークフローのみを実行できます。 別のワークフローが進行中の間に新しいワークフローを作成しようとすると、**409 Conflict** エラー応答（「ワークフローは既に進行中です…」）が表示されます。
 
-この場合、進行中のワークフローが完了するまで待つか、ワークフロー ID を取得して、そのステータスをポーリングします。 現在のワークフローが完了したら、新しいワークフローを作成できます。
+この場合、処理中のワークフローが完了するのを待つか、ワークフローIDを取得してステータスをポーリングします。 現在のワークフローが完了したら、新しいワークフローを作成できます。
 
-## エンティティマッピングリファレンス {#entity-mapping}
+## エンティティマッピング参照 {#entity-mapping}
 
-意思決定管理から決定に移行する際、エンティティは次のようにマッピングされます。
+意思決定管理から決定に移行する場合、エンティティは次のようにマッピングされます。
 
 | 意思決定管理 | 決定 |
 |-------------------|-------------|
 | オファー | 決定項目 |
-| オファーコレクション | 項目の収集 |
+| オファーコレクション | アイテムコレクション |
 | 実施要件ルール | 実施要件ルール |
 | ランキング式 | ランキング式 |
 | 決定 | 選択戦略+決定ポリシー |
-| Campaign | Campaign *（基本コンテンツのみ）* |
+| Campaign | キャンペーン *（基本コンテンツのみ）* |
 | プレースメント | サーフェス + チャネル設定 |
 | タグ | 統合タグ |
+| オファー属性 | パーソナライズされたオファー項目スキーマの`migratedofferattributes` フィールド |
+| コンテキスト属性 | 移行中に提供されたデータセットに添付されたスキーマの`migratedcontextattributes` フィールド |
 
-## ワークフロークリーンアップ {#cleanup}
+## ワークフローのクリーンアップ {#cleanup}
 
 <!--Workflow resources can be deleted by service users only. Delete operations require an `If-Match` header with the workflow's `_etag` value.
 
@@ -362,11 +364,11 @@ curl --request GET \
 * `DELETE /workflows/migration/{id}`
 * `DELETE /workflows/rollback/{id}`-->
 
-ワークフローの削除は公開されていません。 ワークフローリソースを削除する必要がある場合は、システム管理者に問い合わせてください。
+ワークフローの削除は公開されていません。 ワークフローリソースを削除する必要がある場合は、システム管理者にお問い合わせください。
 
 ## 関連トピック {#related-topics}
 
-* [&#x200B; 意思決定管理から意思決定への移行 &#x200B;](migrate-to-decisioning.md) - Decisioning に移行するメリットと機能を説明します
+* [意思決定管理から決定](migrate-to-decisioning.md)への移行 – Decisioningへの移行のメリットと機能について説明します
 * [決定の基本を学ぶ](gs-experience-decisioning.md)
-* [決定ガードレールと制限](decisioning-guardrails.md)
+* [決定のガードレールと制限](decisioning-guardrails.md)
 * [Decisioning API の基本を学ぶ](api-reference/getting-started.md)
