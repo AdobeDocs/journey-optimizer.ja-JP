@@ -6,18 +6,18 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: cdf9eadc36d7e7b3538690a7a165bc39eccc40b5
+source-git-commit: 4519c873e3391b63d0e879d797a99d9e67f83b87
 workflow-type: tm+mt
-source-wordcount: '2458'
-ht-degree: 93%
+source-wordcount: '2479'
+ht-degree: 99%
 
 ---
 
 # ヘルパー関数の基本を学ぶ{#functions}
 
-ヘルパー関数を使用すると、パーソナライズされたコンテンツ内のデータを変換して操作できます。 これらを使用して、計算の実行、データの書式設定、条件の適用および様々な操作を実行して、顧客に合わせて動的なエクスペリエンスを作成します。
+ヘルパー関数を使用すると、パーソナライズされたコンテンツ内のデータを変換して操作できます。これらを使用して、計算、データの書式設定、条件の適用、様々な操作を実行し、顧客に合わせて動的なエクスペリエンスを作成します。
 
-これらの関数は、[!DNL Journey Optimizer] テンプレート言語を利用します。 パーソナライゼーション構文のガイドラインについて詳しくは、[&#x200B; このページ &#x200B;](../personalization-syntax.md) を参照してください。
+これらの関数は、[!DNL Journey Optimizer] テンプレート言語を活用します。パーソナライゼーション構文のガイドラインについて詳しくは、[このページ](../personalization-syntax.md)を参照してください。
 
 ➡️ [ヘルパー関数の使用方法について詳しくは、このビデオを参照してください。](#video)
 
@@ -27,22 +27,22 @@ ht-degree: 93%
 
 ![](../assets/access-helper-functions.png)
 
-関数は、ナビゲーションを容易にするために次の 3 つのカテゴリに分類されています。
+関数は、ナビゲーションを容易にするために次の 3 つのカテゴリに整理されています。
 
 * **[関数](#functions-helper)** - データ操作と変換操作
-* **[ヘルパー](#helper-helper)** – 条件付きロジックとユーティリティ関数
-* **[演算子](#operators-helper)** – 比較演算子と論理演算子
+* **[ヘルパー](#helper-helper)** - 条件付きロジックとユーティリティ関数
+* **[演算子](#operators-helper)** - 比較演算子と論理演算子
 
 **ヘルパー関数を使用するには：**
 
-1. カテゴリを選択すると、そのサブカテゴリと使用可能な関数が表示されます
-1. サブカテゴリを展開するには、`>` アイコンをクリックします
-1. 関数の横にある「`+`」アイコンをクリックして、パーソナライゼーションコードに追加します
-1. `...` アイコンをクリックして、関数の説明を表示するか、お気に入りに追加します。 [詳細情報](../personalize.md#fav)
+1. カテゴリを選択して、サブカテゴリと使用可能な関数を表示します
+1. `>` アイコンをクリックして、サブカテゴリを展開します
+1. 関数の横にある `+` アイコンをクリックして、パーソナライゼーションコードに追加します
+1. `...` アイコンをクリックして、関数の説明を表示し、お気に入りに追加さします。[詳細情報](../personalize.md#fav)
 
 >[!NOTE]
 >
->パーソナライゼーションエディターで使用できる関数と機能は、[ジャーニーの高度な式エディター &#x200B;](../../building-journeys/expression/expressionadvanced.md) で使用できる関数および機能とは異なります。 例えば、`now()` 関数は、ジャーニー式でのみ使用できます。 [詳細情報](../../email/code-content.md#date-time-limitations)
+>パーソナライゼーションエディターで使用できる関数や機能は、[ジャーニーの高度な式エディター](../../building-journeys/expression/expressionadvanced.md)で使用できる関数や機能とは異なります。例えば、`now()` 関数は、ジャーニー式でのみ使用できます。[詳細情報](../../email/code-content.md#date-time-limitations)
 
 ## 関数{#functions-helper}
 
@@ -454,8 +454,11 @@ ht-degree: 93%
     <tr>
         <td><a href="helpers.md#let">Let</a></td><td>この関数を使用すると、式を変数として保存し、後からクエリで使用できます。</td>
     </tr>
-   <tr>
+    <tr>
         <td><a href="helpers.md#unless">Unless</a></td><td>条件付きブロックの定義に使用します。式の評価が false を返した場合、ブロックがレンダリングします。</td>
+    </tr>
+    <tr>
+        <td><a href="helpers.md#url-parameter-encryption-helper">URL パラメーターの暗号化</a></td><td>サンドボックスレジストリのアクティブキーを使用して、レンダリング時にURL クエリパラメーターの式値を暗号化します </td>
     </tr>
     <tr>
         <td><a href="helpers.md#with">With</a></td><td>テンプレート部分の評価トークンを変更するために使用します。</td>
@@ -527,4 +530,4 @@ ht-degree: 93%
 
 パーソナライズ機能のヘルパー関数を使用してパーソナライゼーション値を変換する方法と、ヘルパー関数の様々なユースケースを説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416781?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

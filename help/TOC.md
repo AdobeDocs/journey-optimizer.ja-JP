@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e49528fa70225e7435683f5a63d883a0ffce29fa
+source-git-commit: 4519c873e3391b63d0e879d797a99d9e67f83b87
 workflow-type: tm+mt
-source-wordcount: '3147'
-ht-degree: 96%
+source-wordcount: '3160'
+ht-degree: 95%
 
 ---
 
@@ -420,7 +420,9 @@ ht-degree: 96%
       + [パーソナライゼーション構文](using/personalization/personalization-syntax.md)
       + [コンテキストデータの反復処理](using/personalization/iterate-contextual-data.md)
       + [式フラグメントの再利用](using/personalization/use-expression-fragments.md)
-      + [Adobe Experience Platform データをパーソナライゼーションに使用](using/personalization/aep-data-perso.md)
+      + Adobe Experience Platform データをパーソナライゼーションに使用 {#aep-data-perso}
+         + [Adobe Experience Platform データをパーソナライゼーションに使用](using/personalization/aep-data-perso.md)
+         + [トラッキングリンクのURL パラメーターを暗号化する](using/personalization/url-parameter-encryption.md)
       + ヘルパー関数リスト {#functions}
          + [ヘルパー関数リスト](/help/rp_landing_pages/functions-landing-page.md)
          + [ヘルパー関数の基本を学ぶ](using/personalization/functions/functions.md)
@@ -955,7 +957,7 @@ ht-degree: 96%
    + [プライバシー](/help/rp_landing_pages/privacy-landing-page.md)
    + [プライバシーの基本を学ぶ](using/privacy/get-started-privacy.md)
    + [プライバシーリクエスト](using/privacy/requests.md)
-   + [&#x200B; リソースに対する監査アクション](using/privacy/audit-logs.md)
+   + [ リソースに対する監査アクション](using/privacy/audit-logs.md)
    + [データライフサイクル操作の実行](using/privacy/data-hygiene.md)
    + 同意を管理 {#consent}
       + [同意を管理](/help/rp_landing_pages/consent-landing-page.md)
