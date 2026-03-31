@@ -8,13 +8,13 @@ topic: Content Management
 role: Developer
 level: Intermediate
 version: Campaign Orchestration
-source-git-commit: c9a5c29c685cf21fda2b5df1a3838713e054f696
+exl-id: d1fd072d-b143-4752-822f-23f98684ba80
+source-git-commit: ec52b62c2d0626b9047eebb54e0a44fee096ec05
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '829'
 ht-degree: 1%
 
 ---
-
 
 # シグナルを活用したトリガーオーケストレーションされたキャンペーン {#trigger-signal}
 
@@ -27,13 +27,17 @@ ht-degree: 1%
 1. [キャンペーンの構築とテスト](#build-and-test-the-campaign-build-and-test)
 1. [キャンペーンの公開とトリガー](#publish-and-trigger-the-campaign-publish)
 
+>[!NOTE]
+>
+>シグナルを使用してオーケストレーションされたキャンペーンをトリガーするには、**[!DNL Publish orchestrated campaigns]**&#x200B;権限（`orchestrated-campaign.publish`）が必要です。 [組み込み権限](../administration/ootb-permissions.md)を参照してください。
+
 ## シグナルによってトリガーされるキャンペーンをスケジュールします {#configure-signal}
 
 スケジュールではなくシグナルで開始するようにオーケストレーションされたキャンペーンを設定するには、次の手順に従います。
 
 1. シグナルを使用してトリガーするオーケストレーションキャンペーンを開きます。
 
-1. スケジュール設定を開きます。 [&#x200B; オーケストレーションされたキャンペーンをスケジュールする方法について説明します](create-orchestrated-campaign.md#schedule)。
+1. スケジュール設定を開きます。 [ オーケストレーションされたキャンペーンをスケジュールする方法について説明します](create-orchestrated-campaign.md#schedule)。
 
 1. キャンペーンがスケジュールで実行するのではなくシグナルを待つように、**[!UICONTROL シグナルによってトリガー]**&#x200B;を選択します。
 
@@ -45,9 +49,9 @@ ht-degree: 1%
 
 1. キャンペーンスケジューラーを開き、**[!UICONTROL パラメーターを追加]**&#x200B;を選択します。
 
-1. 信号ペイロードで送信する各パラメーターの名前とデータタイプを定義します。 キャンペーンをテストモードでトリガーするときに使用する&#x200B;**テスト値**&#x200B;を指定することもできます。 [&#x200B; トリガーされたキャンペーンをテストする方法を説明します](#build-and-test)。
+1. 信号ペイロードで送信する各パラメーターの名前とデータタイプを定義します。 キャンペーンをテストモードでトリガーするときに使用する&#x200B;**テスト値**&#x200B;を指定することもできます。 [ トリガーされたキャンペーンをテストする方法を説明します](#build-and-test)。
 
-   ![&#x200B; シグナルのペイロード パラメーターを定義するパラメーターを追加](assets/triggered-oc-parameter.png){zoomable="yes"}
+   ![ シグナルのペイロード パラメーターを定義するパラメーターを追加](assets/triggered-oc-parameter.png){zoomable="yes"}
 
 >[!NOTE]
 >
@@ -61,7 +65,7 @@ ht-degree: 1%
 
 1. シグナルでパラメーターを定義した場合は、キャンバスロジック（条件やターゲティングなど）にパラメーターをワイヤー接続できます。 この例では、「channel」パラメーターが&#x200B;**[!UICONTROL Test]** アクティビティの条件として使用されています。
 
-   ![&#x200B; テストアクティビティで条件として使用されるチャネルパラメーター](assets/triggered-oc-use-parameters.png)
+   ![ テストアクティビティで条件として使用されるチャネルパラメーター](assets/triggered-oc-use-parameters.png)
 
    式エディターで信号パラメーターを使用するには（例えば、**[!UICONTROL オーディエンスを作成]** アクティビティでクエリを作成するには）、「式」フィールドに「`$(vars/@<parameterName>)`」と入力します。 `<parameterName>`を、スケジューラーで定義されているパラメーター名（例：`$(vars/@channel)`）に置き換えます。 [詳しくは、式エディターの操作方法を参照してください](edit-expressions.md)。
 
@@ -69,7 +73,7 @@ ht-degree: 1%
 
    コピーされた情報には、オーケストレーションされたキャンペーン ID、サンドボックス名、組織ID、およびパラメーターのテスト値が含まれています。
 
-   ![&#x200B; スケジュール設定のAPI リクエストオプションをコピー](assets/triggered-oc-copy.png)
+   ![ スケジュール設定のAPI リクエストオプションをコピー](assets/triggered-oc-copy.png)
 
    +++パラメーターとテスト値を含むcURL リクエストのサンプル
 
@@ -98,19 +102,19 @@ ht-degree: 1%
 
 1. スケジューラーからコピーしたサンプルリクエストを使用して、トリガー API呼び出しを送信します。<!--For the complete API reference, refer to the [Journey Optimizer API documentation](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}.-->
 
-テスト結果に満足したら、[&#x200B; キャンペーンを公開](#publish)します。
+テスト結果に満足したら、[ キャンペーンを公開](#publish)します。
 
 ## キャンペーンの公開とトリガー {#publish}
 
-[&#x200B; キャンペーンを作成してテストした後](#build-and-test)、キャンペーンを公開して、アプリケーションからトリガーできるようにします。
+[ キャンペーンを作成してテストした後](#build-and-test)、キャンペーンを公開して、アプリケーションからトリガーできるようにします。
 
-1. キャンペーンキャンバスで「**[!UICONTROL 公開]**」をクリックします。 外部システムからキャンペーンをトリガーする前に、キャンペーンを公開する必要があります。 [&#x200B; キャンペーンの開始と監視の詳細](start-monitor-campaigns.md#publish)。
+1. キャンペーンキャンバスで「**[!UICONTROL 公開]**」をクリックします。 外部システムからキャンペーンをトリガーする前に、キャンペーンを公開する必要があります。 [ キャンペーンの開始と監視の詳細](start-monitor-campaigns.md#publish)。
 
 1. キャンペーンスケジューラーを開き、**[!UICONTROL API リクエストをコピー]**&#x200B;を選択し、形式（cURLまたはHTTP リクエスト）を選択します。
 
    コピーされた情報には、オーケストレーションされたキャンペーン ID、サンドボックス名、組織ID、およびパラメーターが含まれます（一部を追加した場合）。
 
-   ![&#x200B; スケジュール設定のAPI リクエストをコピー](assets/triggered-oc-copy.png)
+   ![ スケジュール設定のAPI リクエストをコピー](assets/triggered-oc-copy.png)
 
 1. システムからトリガー APIを呼び出します。
 
@@ -118,6 +122,6 @@ ht-degree: 1%
    >
    >ライブオーケストレーションされたキャンペーンの場合、スロットルガードレールにより、2つのAPIトリガーの実行の間に&#x200B;**最低1時間**&#x200B;の間隔が適用されます。 間隔が経過する前にAPIを再度呼び出すと、APIは&#x200B;**HTTP 429** エラー（リクエストが多すぎます）を返します。 このガードレールは、ドラフトバージョンをトリガーしてテストする場合は適用されません。
 
-   シグナルペイロードにパラメーターを追加した場合、API呼び出しで渡した値は、キャンペーンの実行時にキャンペーンイベント変数として公開されます。 それらを調べるには、キャンペーンキャンバスツールバーからキャンペーンログを開きます。 「**[!UICONTROL タスク]**」タブで、シグナルに対応するタスクを特定し、鉛筆アイコンをクリックして関連するイベント変数にアクセスします。 [&#x200B; ログとタスクへのアクセス方法を確認する](start-monitor-campaigns.md#logs-tasks)。
+   シグナルペイロードにパラメーターを追加した場合、API呼び出しで渡した値は、キャンペーンの実行時にキャンペーンイベント変数として公開されます。 それらを調べるには、キャンペーンキャンバスツールバーからキャンペーンログを開きます。 「**[!UICONTROL タスク]**」タブで、シグナルに対応するタスクを特定し、鉛筆アイコンをクリックして関連するイベント変数にアクセスします。 [ ログとタスクへのアクセス方法を確認する](start-monitor-campaigns.md#logs-tasks)。
 
-   ![&#x200B; キャンペーンイベント変数が使用可能なログとタスク画面](assets/trigger-events-variables.png){zoomable="yes"}
+   ![ キャンペーンイベント変数が使用可能なログとタスク画面](assets/trigger-events-variables.png){zoomable="yes"}
