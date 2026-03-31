@@ -8,10 +8,10 @@ level: Experienced
 keywords: inAudience, 関数, 式, ジャーニー, オーディエンス, セグメント化
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 version: Journey Orchestration
-source-git-commit: 4f653c0bd3f6998dd54deeae996b7b0427a1744e
-workflow-type: ht
-source-wordcount: '600'
-ht-degree: 100%
+source-git-commit: acdcd6e09f75e3d3c5184a71937d443890f378b6
+workflow-type: tm+mt
+source-wordcount: '733'
+ht-degree: 81%
 
 ---
 
@@ -110,6 +110,13 @@ inAudience("Unsubscribed") == false
 **結合ポリシーの考慮事項：**
 * `inAudience` 関数で複数のオーディエンスを使用する際、結合ポリシーとの不一致により、エラーやアラートが発生する場合があります。
 * 結合ポリシーの動作について詳しくは、[ジャーニーのプロパティ](../journey-properties.md)を参照してください
+
+**伝達タイミング：** {#propagation-timing}
+
+条件ノードで`inAudience()`を使用する場合、セグメントメンバーシップの評価タイミングは、条件がジャーニーのどこに表示されるかによって異なります。
+
+* **待機アクティビティの前（またはオーディエンスジャーニーを読み取る前）:** AJOは、プロファイルのバッチプロジェクションから読み取ります。 この投影のデータの鮮度は、取り込み後に最大&#x200B;**2時間**&#x200B;のSLTを保持します。 日ベースまたは時間ベースの条件に依存するオーディエンスでは、さらに遅延が発生する場合があります。 ジャーニーの開始時に短い[ アクティビティ ](../wait-activity.md)を追加するか、バッファー時間を許可して、最新のセグメントメンバーシップが反映されるようにします。
+* **待機アクティビティ後（または単一イベントジャーニー中）:** セグメントメンバーシップがストリーミング（単一）投影から読み取られます。 予想される待ち時間については、[Adobe Experience Platform ストリーミング取り込みドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/streaming/overview){target="_blank"}を参照してください。 一般的に、この経路では、最近のプロファイルの変更に反応します。
 
 ## 関連トピック
 
