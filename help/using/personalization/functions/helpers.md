@@ -6,10 +6,10 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 4519c873e3391b63d0e879d797a99d9e67f83b87
+source-git-commit: 8b50f0f1cc78e32ef9b3a3e918a5de82e7e16406
 workflow-type: tm+mt
-source-wordcount: '1002'
-ht-degree: 64%
+source-wordcount: '1011'
+ht-degree: 63%
 
 ---
 
@@ -283,7 +283,7 @@ with は、長い変数名に短い別名を付ける場合にも使用できま
 }
 ```
 
-## URL パラメーターの暗号化 {#url-parameter-encryption-helper}
+## 暗号化 {#url-parameter-encryption-helper}
 
 >[!AVAILABILITY]
 >
@@ -291,40 +291,49 @@ with は、長い変数名に短い別名を付ける場合にも使用できま
 >
 >この機能は現在、メールチャネルでのみ使用できます。
 
-`EncryptParam` ヘルパーを使用すると、トラッキングリンクまたはランディングページでクエリパラメーターに書き込む前に、レンダリング時に任意の式の値（通常はプロファイル属性、トークン、または式で構築する細分化されたJSON構造）を暗号化できます。
+`Encrypt`関数を使用すると、レンダリング時に任意のエクスプレッション値（通常はプロファイル属性、トークン、またはエクスプレッションで構築する細分化されたJSON構造）を暗号化してから、トラッキングリンクまたはランディングページのクエリパラメーターに書き込むことができます。
 
 URLにプレーンテキストとして表示される値（PIIまたはその他の機密データを含む）は、リンクを検査または転送する際に読み取れません。 このヘルパーでラップした値のみが暗号化され、残りのURLは変更されません。
 
-ヘルパーは、URL デザインと長さの制約に応じて、リンク内の1つのパラメーター、複数のパラメーター、またはすべてのパラメーターに適用できます。
+**ユースケース**
+
+このヘルパーを使用すると、レンダリング出力に含める前に、機密プロファイルデータ（PII）を保護できます。
 
 **前提条件**
 
-* URL パラメーターの暗号化は、組織で有効にする必要があります（制限付き可用性）。 アクセス権を取得するには、アドビ担当者にお問い合わせください。
-* 管理者は、サンドボックスレベルのキーレジストリに少なくとも1つのアクティブキーを作成する必要があります。 [&#x200B; キーの作成と管理方法について説明します](../url-parameter-encryption.md)
-
-**仕組み**
-
-1. ヘルパーリストから、`EncryptParam` ヘルパーを選択します。
-
-1. 渡す`data`：暗号化する値または式（例：`profile` フィールド、変数、構成済み文字列トークン）。
-
-1. `key`を渡す：サンドボックス キーのレジストリからアクティブ キーの識別子を渡します。
+管理者は、サンドボックスレベルのキーレジストリに少なくとも1つのアクティブキーを作成する必要があります。 [ キーの作成と管理方法について説明します](../url-parameter-encryption.md#create-keys)
 
 >[!NOTE]
 >
 >失効または非アクティブなキーを使用すると、レンダリング時にパーソナライゼーションが失敗し、無効なキーでメッセージが送信されなくなります。
 
-**例**
-
-値（JSON ペイロードまたは連結された識別子を保持する変数`stringToken`など）を定義または計算し、`token` クエリパラメーターにプレーンテキストとして表示しない場合を考えてみましょう。 最終的なURLは、次のパターンに従うことができます。`stringToken`を式に置き換え、`encrypt-key`をキーレジストリのアクティブなキーIDに置き換えます。
+**構文**
 
 ```text
-https://example.com/verify?token={{encrypt data=stringToken key="encrypt-key"}}
+{{encrypt dataPath keyName="keyName" version="version" result="variableName"}}
 ```
+
+**用途**
+
+このヘルパーは、機密データを暗号化し、その結果をテンプレート変数に保存します。<!--The encryption is performed using the AES-256-GCM algorithm.-->
+
+ヘルパーは、URL デザインと長さの制約に応じて、リンク内の1つのパラメーター、複数のパラメーター、またはすべてのパラメーターに適用できます。
+
+- **入力**: `dataPath` （文字列に解決する必要があるデータ参照）、`keyName` （暗号化キー識別子）、`version` （オプションのキーバージョン）、`result` （暗号化された出力の変数名）
+- **Output**：暗号化された値を、指定された`result`変数で使用できるようにします。
+- **結果形式**：結果変数にドット区切りの文字列が含まれています：`keyName.version.nonce.authTag.cipherText` （`keyName`と`version`を除くすべてのセグメントは、パディングなしでURL安全なBase64でエンコードされています）。
+- **静的キー要件**: `keyName`と`version`は静的文字列リテラルである必要があります（動的参照はサポートされていません）。
+- **既定のバージョン**: `version` パラメーターはオプションです。省略すると、暗号化キーサービスによって既定のバージョンが解決されます
+
+**例**
+
+| 式の例 | 結果 |
+| --- | --- |
+| `{{encrypt profile.person.email keyName="email-key" version="1" result="enc"}}{{enc}}` | `email-key.1.RkFrZU5vbmNlQUJD.T3V0cHV0QXV0aFRhZ0Fh.am9obkBleGFtcGxlLmNvbQ` |
+| `{{encrypt profile.person.name.firstName keyName="pii-key" version="2" result="encName"}}{{encName}}` | `pii-key.2.U29tZVJhbmRvbUlW.QXV0aGVudGljYXRpb25UYQ.Sm9obg` |
 
 **ガードレール**
 
-復号は、ランディングページ、アプリ、またはAPIで[!DNL Journey Optimizer]外で処理されます。 セキュリティチームと協力して、重要なライフサイクルとローテーションを計画することで、履歴ペイロードを必要に応じて復号化できます。
+* 復号は、ランディングページ、アプリ、またはAPIで[!DNL Journey Optimizer]外で処理されます。 セキュリティチームと協力して、重要なライフサイクルとローテーションを計画することで、履歴ペイロードを必要に応じて復号化できます。
 
-失効したキーを新しい暗号化に使用することはできません。 ローテーションと廃止に関するセキュリティポリシーに従ってください。
-
+* 失効したキーを新しい暗号化に使用することはできません。 ローテーションと廃止に関するセキュリティポリシーに従ってください。

@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 4519c873e3391b63d0e879d797a99d9e67f83b87
+source-git-commit: ec34ddf4862c550edb3442e6088723040a85f548
 workflow-type: tm+mt
-source-wordcount: '2479'
+source-wordcount: '2477'
 ht-degree: 99%
 
 ---
@@ -458,7 +458,7 @@ ht-degree: 99%
         <td><a href="helpers.md#unless">Unless</a></td><td>条件付きブロックの定義に使用します。式の評価が false を返した場合、ブロックがレンダリングします。</td>
     </tr>
     <tr>
-        <td><a href="helpers.md#url-parameter-encryption-helper">URL パラメーターの暗号化</a></td><td>サンドボックスレジストリのアクティブキーを使用して、レンダリング時にURL クエリパラメーターの式値を暗号化します </td>
+        <td><a href="helpers.md#url-parameter-encryption-helper">暗号化</a></td><td>サンドボックスレジストリのアクティブキーを使用して、レンダリング時にURL クエリパラメーターの式値を暗号化します </td>
     </tr>
     <tr>
         <td><a href="helpers.md#with">With</a></td><td>テンプレート部分の評価トークンを変更するために使用します。</td>
@@ -530,4 +530,4 @@ ht-degree: 99%
 
 パーソナライズ機能のヘルパー関数を使用してパーソナライゼーション値を変換する方法と、ヘルパー関数の様々なユースケースを説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416781?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
