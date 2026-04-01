@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 946df16168d780e2e2dcad178c78db0e2a68e098
+source-git-commit: 03d9f3a09683f53dc666c8ab28117b95c121868f
 workflow-type: tm+mt
-source-wordcount: '1811'
+source-wordcount: '1867'
 ht-degree: 21%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 21%
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 **リリース日**: 2026年3月24日～25日
 
@@ -222,7 +222,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p><strong>Adobe Experience Platform Agent Orchestrator</strong>を搭載した<strong>Journey Agent</strong>は、Journey Optimizerで利用でき、自然言語インターフェイスを通じてジャーニーを分析できます。 また、Journey Agentでチャネル固有のコンテンツを直接生成および管理し、電子メールやプッシュ通知などのチャネル用のコンテンツを作成したり、テンプレートを適用およびプレビューしたり、プロンプトを通じてトーンやスタイルを調整したり、コンテキストに沿った編集のために<strong>Content Designer</strong>でコンテンツを開いたりすることもできます。</p>
 <p>この機能は、一連の組織でのみ使用できます（限定提供）。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
-<p>詳しくは、<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=ja" target="_blank">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html" target="_blank">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2026年3月4日（PT）</p>
 </td>
 </tr>
@@ -287,12 +287,19 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 
 このリリースに含まれる機能強化を以下に示します。
 
+#### パーソナライゼーション
+
+* **完全/ベース URL パーソナライゼーション** - プロファイル属性（ドメインまたはパスなど）を使用して、宛先URLをパーソナライズできます。 この機能を有効にするには、Adobeに使用可能なドメインのリストを提供します。 [詳細情報](../personalization/personalization-build-expressions.md#where)
+
+  以前は、ジャーニーで使用するための限定可用性でリリースされていましたが、この機能はすべての環境で使用できるようになりました（一般提供）。
+
+  公開日：2026年4月1日（PT）
+
 #### レポート
 
 * **送信時間の最適化：更新されたコントロールの場所と新しい上昇率レポート** – 送信時間の最適化（STO）コントロールがアクション設定メニューに再配置されました。 さらに、ジャーニーレポートで新しいリフトレポートを使用できるようになりました。このレポートを使用して、キャンペーンのパフォーマンス指標に対するSTOの影響を測定できます。 [詳細情報](../reports/channel-report-cja.md#optimization-models)
 
   公開日：2026年3月27日（PT）
-
 
 <!--
 
@@ -360,7 +367,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p><strong>受信トレイ </strong>は、コンテンツカードで利用できるモバイル機能で、ユーザーがアプリまたはweb サイト内で一元的な場所を作成して、ユーザーに送信されるメッセージを表示できるようにします。 これにより、メッセージが却下された後もアクセスできるようになり、マーケティングコミュニケーションの有効期間を延長できます。</p>
-<p>公開日：2026年4月1日（PT）</p>
+<p>公開日：2026年4月3日（PT）</p>
 </td>
 </tr>
 </tbody>
