@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 300f57042131b64c1f51e890a3f14199f33c1419
+source-git-commit: 946df16168d780e2e2dcad178c78db0e2a68e098
 workflow-type: tm+mt
-source-wordcount: '1804'
-ht-degree: 20%
+source-wordcount: '1811'
+ht-degree: 21%
 
 ---
 
@@ -34,9 +34,11 @@ ht-degree: 20%
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.-->
 
 **リリース日**: 2026年3月24日～25日
+
+### 新機能 {#march-26-features}
 
 <table>
 <thead>
@@ -61,8 +63,24 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 </tbody>
 </table>
 
-### 新機能 {#march-26-features}
-
+<table>
+<thead>
+<tr>
+<th><strong>画像をメールコンテンツテンプレートに変換</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizerから直接、画像をメールコンテンツテンプレートに変換できるようになりました。 AIを活用した分析により、ビジュアルリファレンスから構造化されたHTMLテンプレートを自動的に生成し、メールのデザイン時間を大幅に短縮できます。</p>
+<p>この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。</p>
+<p><img src="assets/do-not-localize/image-converter.gif"></p>
+<p>詳しくは、<a href="../content-management/image-to-html.md">詳細なドキュメント</a>を参照してください。</p>
+<p>公開日：2026年3月31日（PT）</p>
+</td>
+</tr>
+</tbody>
+</table>
 <table>
 <thead>
 <tr>
@@ -128,7 +146,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>2026年2月の<strong> アクションアクティビティ </strong>の一般提供に続いて、ジャーニーキャンバス内の従来のネイティブチャネルアクティビティ（メール、プッシュ、SMS、アプリ内、Web、コードベースのエクスペリエンス、コンテンツカード）が非推奨になりました。</p>
-<p>これで、単一の<strong> アクションアクティビティ </strong>を使用してすべてのチャネルアクションを設定し、チャネル固有のノードを個別に作成する必要がなくなりました。</p>
+<p>これで、単一のアクション アクティビティを使用してすべてのチャネルアクションを設定し、チャネル固有のノードを個別に作成する必要がなくなりました。</p>
 <p>従来のチャネルアクティビティを使用している既存のジャーニーは、変更や移行が必要なく、引き続き機能します。</p>
 <p><img src="assets/do-not-localize/action-activity.gif"></p>
 <p>詳しくは、<a href="../building-journeys/journey-action.md">詳細なドキュメント</a>を参照してください。</p>
@@ -204,7 +222,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p><strong>Adobe Experience Platform Agent Orchestrator</strong>を搭載した<strong>Journey Agent</strong>は、Journey Optimizerで利用でき、自然言語インターフェイスを通じてジャーニーを分析できます。 また、Journey Agentでチャネル固有のコンテンツを直接生成および管理し、電子メールやプッシュ通知などのチャネル用のコンテンツを作成したり、テンプレートを適用およびプレビューしたり、プロンプトを通じてトーンやスタイルを調整したり、コンテキストに沿った編集のために<strong>Content Designer</strong>でコンテンツを開いたりすることもできます。</p>
 <p>この機能は、一連の組織でのみ使用できます（限定提供）。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
-<p>詳しくは、<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=ja" target="_blank">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html" target="_blank">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2026年3月4日（PT）</p>
 </td>
 </tr>
@@ -331,24 +349,6 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 以下の機能と機能強化は、3月後半から4月上旬にリリース予定です。 リリース日とスコープは&#x200B;**予告なく変更される可能性があります**。
 
 ### 機能
-
-<table>
-<thead>
-<tr>
-<th><strong>画像をメールコンテンツテンプレートに変換</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizerから直接、画像をメールコンテンツテンプレートに変換できるようになりました。 AIを活用した分析により、ビジュアルリファレンスから構造化されたHTMLテンプレートを自動的に生成し、メールのデザイン時間を大幅に短縮できます。</p>
-<p>以前は制限付き可用性でリリースされていましたが、この機能はすべての環境で使用できるようになりました（一般提供）。 <a href="../content-management/image-to-html.md">詳細情報</a></p>
-<p><img src="assets/do-not-localize/image-converter.gif"></p>
-<p>公開日：2026年3月31日（PT）</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
