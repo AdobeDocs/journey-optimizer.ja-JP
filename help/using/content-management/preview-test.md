@@ -34,7 +34,7 @@ ht-degree: 95%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL オーケストレーションされたキャンペーン]**&#x200B;のチャネルアクティビティから&#x200B;**コンテンツをシミュレート**&#x200B;する場合は、[ コンテンツの確認とテスト ](../orchestrated/activities/channels.md#simulate-content-test-profiles)を参照して、詳細と重要なメモを確認してください。
+>**[!UICONTROL オーケストレーションされたキャンペーン]**&#x200B;のチャネルアクティビティから&#x200B;**コンテンツをシミュレート**&#x200B;する場合は、[&#x200B; コンテンツの確認とテスト &#x200B;](../orchestrated/activities/channels.md#simulate-content-test-profiles)を参照して、詳細と重要なメモを確認してください。
 
 ## テストプロファイルデータまたはサンプル入力データを使用したテスト {#methods}
 
