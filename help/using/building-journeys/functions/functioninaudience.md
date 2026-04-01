@@ -8,9 +8,9 @@ level: Experienced
 keywords: inAudience, 関数, 式, ジャーニー, オーディエンス, セグメント化
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 version: Journey Orchestration
-source-git-commit: e71c4c20e8360006d99b12821fb9a588db5e0548
+source-git-commit: 72c6392d9d978c74c7ab2e82f654f17171d7ec55
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '726'
 ht-degree: 82%
 
 ---
@@ -115,8 +115,8 @@ inAudience("Unsubscribed") == false
 
 条件ノードで`inAudience()`を使用する場合、セグメントメンバーシップの評価タイミングは、条件がジャーニーのどこに表示されるかによって異なります。
 
-* **待機アクティビティの前（またはオーディエンスジャーニーを読み取る前）:** Journey Optimizerは、プロファイルのバッチプロジェクションから読み取ります。 この投影内のデータは、取り込み後&#x200B;**2時間**&#x200B;以内に更新されます。 日ベースまたは時間ベースの条件に依存するオーディエンスでは、さらに遅延が発生する場合があります。 ジャーニーの開始時に短い[&#x200B; アクティビティ &#x200B;](../wait-activity.md)を追加するか、バッファー時間を許可して、最新のセグメントメンバーシップが反映されるようにします。
-* **待機アクティビティ後（または単一イベントジャーニー中）:** セグメントメンバーシップがストリーミング（単一）投影から読み取られます。 予想される待ち時間については、[Adobe Experience Platform ストリーミング取り込みドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/ingestion/streaming/overview){target="_blank"}を参照してください。 一般的に、この経路では、最近のプロファイルの変更に反応します。
+* **オーディエンスの読み取りジャーニーで、待機アクティビティ：** Journey Optimizerがプロファイルのバッチプロジェクションから読み取る前。 この投影内のデータは、取り込み後&#x200B;**2時間**&#x200B;以内に更新されます。 日ベースまたは時間ベースの条件に依存するオーディエンスでは、さらに遅延が発生する場合があります。 ジャーニーの開始時に短い[ アクティビティ ](../wait-activity.md)を追加するか、バッファー時間を許可して、最新のセグメントメンバーシップが反映されるようにします。
+* **単一イベントジャーニーで、または待機アクティビティの後、** セグメントメンバーシップがストリーミング（単一）投影から読み取られます。 データは通常、**15分以内に利用できます**。 詳しくは、[Adobe Experience Platform ストリーミング取り込みに関するドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/streaming/overview){target="_blank"}を参照してください。
 
 ## 関連トピック
 
