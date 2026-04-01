@@ -285,6 +285,6 @@ Enrich with product data → Build segments → Send personalized offers → All
 >[!MORELIKETHIS]
 >
 >* [ジャーニータイプの比較](../building-journeys/journey.md#journey-types-comparison)
->* [ キャンペーンタイプの比較](../campaigns/get-started-with-campaigns.md#campaign-types)
+>* [&#x200B; キャンペーンタイプの比較](../campaigns/get-started-with-campaigns.md#campaign-types)
 >* [ジャーニーに関する FAQ](../building-journeys/journey-faq.md)
->* [ オーケストレーションされたキャンペーンに関するFAQ](../orchestrated/orchestrated-campaigns-faq.md)
+>* [&#x200B; オーケストレーションされたキャンペーンに関するFAQ](../orchestrated/orchestrated-campaigns-faq.md)
