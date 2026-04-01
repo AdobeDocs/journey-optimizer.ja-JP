@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
-source-wordcount: '9009'
-ht-degree: 100%
+source-wordcount: '9005'
+ht-degree: 99%
 
 ---
 
@@ -197,13 +197,13 @@ ht-degree: 100%
 <table>
 <thead>
 <tr>
-<th><strong>API トリガーメールキャンペーンの高スループットメッセージ</strong><br/></th>
+<th><strong>APIをトリガーにしたメールキャンペーンのスループットメッセージ</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>API トリガーキャンペーンで新しい高スループットトランザクションメッセージモードが使用できるようになりました。このモードは、大規模なリアルタイムトランザクションメッセージ向けに設計され、1 秒あたり最大 5,000 トランザクションと高い可用性を実現します。また、このモードでは、ゲストのチェックアウト、注文確認、パスワードリセット、セキュリティ通知、その他のサービス／操作に関する通知など、顧客プロファイルを参照または作成することなく、トランザクションメッセージをサポートします。</p>
+<p>新しい高スループットのトランザクションメッセージングモードは、API トリガーキャンペーンで使用できます。 このモードは、大規模なリアルタイムトランザクションメッセージ向けに設計され、1 秒あたり最大 5,000 トランザクションと高い可用性を実現します。また、このモードでは、ゲストのチェックアウト、注文確認、パスワードリセット、セキュリティ通知、その他のサービス／操作に関する通知など、顧客プロファイルを参照または作成することなく、トランザクションメッセージをサポートします。</p>
 <p>この機能は、アドビの高スループットトランザクションメッセージのアドオン機能を購入した組織がメールチャネルでのみ使用できます。詳しくは、アドビ担当者にお問い合わせください。</p>
 <p>詳しくは、<a href="../campaigns/api-triggered-high-throughput.md">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2025年10月22日（PT）</p>
@@ -570,8 +570,8 @@ You can now use AI models to optimize the best content in your email through the
 
 ### 機能強化 {#sept-25-9-improvements}
 
-* **API トリガーキャンペーンの Webhook サポート**\
-  API トリガーキャンペーンで webhook がサポートされるようになりました。Webhook の URL を設定すると、すべてのメッセージのステータス更新をリアルタイムで受信できるので、観測性が向上し、シームレスな監視と自動化が可能になります。[詳細情報](../configuration/feedback-webhooks.md)
+* **API トリガーによるキャンペーンに対するWebhookのサポート**\
+  API トリガーキャンペーンでWebhookがサポートされるようになりました。 Webhook の URL を設定すると、すべてのメッセージのステータス更新をリアルタイムで受信できるので、観測性が向上し、シームレスな監視と自動化が可能になります。[詳細情報](../configuration/feedback-webhooks.md)
 
   公開日：2025年9月29日（PT）
 

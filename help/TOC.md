@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4519c873e3391b63d0e879d797a99d9e67f83b87
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
-source-wordcount: '3160'
+source-wordcount: '3156'
 ht-degree: 95%
 
 ---
@@ -154,7 +154,7 @@ ht-degree: 95%
       + [アクションキャンペーンのレビューとアクティブ化](using/campaigns/review-activate-campaign.md)
    + API トリガーキャンペーン {#api-triggered-campaigns}
       + [API トリガーキャンペーン](/help/rp_landing_pages/api-triggered-campaigns-landing-page.md)
-      + [API トリガーキャンペーンの操作](using/campaigns/api-triggered-campaigns.md)
+      + [API トリガーによるキャンペーンの操作](using/campaigns/api-triggered-campaigns.md)
       + [キャンペーンのプロパティの定義](using/campaigns/api-triggered-campaign-properties.md)
       + [キャンペーンアクションの設定](using/campaigns/api-triggered-campaign-action.md)
       + [キャンペーンコンテンツの編集](using/campaigns/api-triggered-campaign-content.md)
@@ -162,7 +162,7 @@ ht-degree: 95%
       + [キャンペーンのスケジュール](using/campaigns/api-triggered-campaign-schedule.md)
       + [キャンペーンのレビューとアクティブ化](using/campaigns/review-activate-api-triggered-campaign.md)
       + [キャンペーン実行のトリガー](using/campaigns/trigger-campaigns.md)
-      + [API トリガーメールキャンペーンの高スループットモードのアクティブ化](using/campaigns/api-triggered-high-throughput.md)
+      + [API トリガーによるキャンペーンに高スループットモードを活用](using/campaigns/api-triggered-high-throughput.md)
    + オーケストレーションキャンペーン {#orchestrated-campaigns}
       + [オーケストレーションキャンペーン](/help/rp_landing_pages/orchestrated-campaigns-landing-page.md)
       + [オーケストレーションキャンペーンの基本を学ぶ](using/orchestrated/gs-orchestrated-campaigns.md)
@@ -957,7 +957,7 @@ ht-degree: 95%
    + [プライバシー](/help/rp_landing_pages/privacy-landing-page.md)
    + [プライバシーの基本を学ぶ](using/privacy/get-started-privacy.md)
    + [プライバシーリクエスト](using/privacy/requests.md)
-   + [&#x200B; リソースに対する監査アクション](using/privacy/audit-logs.md)
+   + [ リソースに対する監査アクション](using/privacy/audit-logs.md)
    + [データライフサイクル操作の実行](using/privacy/data-hygiene.md)
    + 同意を管理 {#consent}
       + [同意を管理](/help/rp_landing_pages/consent-landing-page.md)

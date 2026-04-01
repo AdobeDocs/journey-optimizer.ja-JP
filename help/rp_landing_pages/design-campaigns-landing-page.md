@@ -5,10 +5,10 @@ title: 調整されたキャンペーンのアクティビティ
 description: 調整されたキャンペーンのアクティビティ
 redpen-status: CREATED_||_2025-08-11_20-27-08
 exl-id: d6635d58-b618-4d92-b60f-c6fc63e473a6
-source-git-commit: 341a4dac0ae1c124559ebf552af5b3e7a35519e7
-workflow-type: ht
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+workflow-type: tm+mt
 source-wordcount: '338'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -16,21 +16,21 @@ ht-degree: 100%
 
 Adobe Journey Optimizer のオーケストレーションキャンペーンのアクティビティでは、適切なタイミングで適切なチャネルを通じてオーディエンスとつながることができる、シームレスなデータドリブン型マーケティングジャーニーを設計できます。ターゲティング、チャネル、フロー制御のアクティビティを組み合わせることで、正確なオーディエンスセグメントの定義、メッセージのパーソナライズ、複雑なワークフローの自動化が可能になります。オーディエンスの作成、キャンペーンの分岐の同期、最適なタイミングでの遅延の追加など、これらのアクティビティが連携して、キャンペーンの実行を効率化します。データ強化のためのエンリッチメントやオーディエンスのセグメント化のための分割などのツールなど、有意義でインパクトのある顧客エクスペリエンスを作成する柔軟なツールキットを利用できます。
 
-## 調整されたキャンペーンアクティビティ
+## オーケストレーションされたキャンペーンアクティビティ
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
-調整されたキャンペーンアクティビティの操作
+オーケストレーションされたキャンペーンアクティビティの操作
 
 調整されたキャンペーンをデザインおよび実行するためのターゲティング、チャネルおよびフロー制御のアクティビティについて説明します。
 
-[アクティビティの概要](../using/orchestrated/activities/about-activities.md)
+[アクティビティの基本を学ぶ](../using/orchestrated/activities/about-activities.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 AND 結合アクティビティの使用
 
@@ -40,7 +40,7 @@ AND 結合アクティビティの使用
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 オーディエンスを作成アクティビティ
 
@@ -50,7 +50,7 @@ AND 結合アクティビティの使用
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 ディメンションを変更アクティビティ
 
@@ -60,7 +60,7 @@ AND 結合アクティビティの使用
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 チャネルアクティビティ
 
@@ -70,7 +70,7 @@ AND 結合アクティビティの使用
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 結合アクティビティ
 

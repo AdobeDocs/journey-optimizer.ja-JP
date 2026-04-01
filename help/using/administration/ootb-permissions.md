@@ -9,7 +9,7 @@ role: Admin, User
 level: Intermediate
 keywords: 権限, オーサリング, メッセージ
 exl-id: 5d014017-ca7c-4206-b783-989677ec0e1c
-source-git-commit: ec52b62c2d0626b9047eebb54e0a44fee096ec05
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
 source-wordcount: '1131'
 ht-degree: 96%
@@ -41,7 +41,7 @@ ht-degree: 96%
 | Journey Optimizer ルール | **[!DNL Manage frequency rules]**：メッセージ頻度ルールへのアクセス、作成、編集、削除。</br>**[!DNL View frequency rules]**：ルールへの読み取り専用アクセス。 |
 | ジャーニー | **[!DNL Approve & publish Journeys]**：ポリシーが適用された際にジャーニーを承認および公開する権限。</br> **[!DNL Manage journeys]**: ジャーニーの読み取り、作成、編集、停止（ライブ、テストモード、ドライ実行）および削除。 ジャーニーにアクセスして管理するには、この権限を **[!DNL View journeys events, data sources and actions]** と組み合わせます。</br>**[!DNL Manage journeys events, data sources and actions]**：イベント、ソース、アクションの読み取り、作成、編集、削除。</br>**[!DNL Publish journeys]**：公開、テストモードの開始、ドライ実行の開始、ジャーニーの一時停止および再開。</br>**[!DNL View journeys]**：ジャーニーへの読み取り専用アクセス。</br>**[!DNL View journeys events, data sources and actions]**：ジャーニーイベント、ジャーニーカスタムアクション、ジャーニーデータソースへの読み取り専用アクセス。</br>**[!DNL View journeys report]**：ジャーニーレポートの読み取りと編集。</br> |
 | メッセージ | **[!DNL Manage messages]**：メッセージの読み取り、作成、編集、削除。</br>**[!DNL Manage messages preview and test]**：ポリシーが適用された際にメッセージを承認および公開する権限。</br>**[!DNL Publish messages]**：メッセージを公開する権限。</br>**[!DNL View messages]**：メッセージへの読み取り専用アクセス。</br>**[!DNL View messages report]**：メッセージレポートの読み取り、編集。 |
-| オーケストレーションキャンペーン | **[!DNL Manage orchestrated campaigns]**：調整されたキャンペーンの読み取り、作成、編集、削除。</br>**[!DNL Manage orchestrated campaigns admin]**：Adobe Experience Platform プロファイルとリレーショナルストアエンティティ間のリンクと紐付けの読み取り、作成、編集、削除。</br>**[!DNL Publish orchestrated campaigns]** （`orchestrated-campaign.publish`）: オーケストレーションされたキャンペーンを公開します。 この権限は、シグナルを使用してオーケストレーションされたキャンペーンをトリガーする場合にも必要です。 </br>**[!DNL View orchestrated campaigns admin]**：Adobe Experience Platform プロファイルとリレーショナルストアエンティティ間のリンクと紐付けの読み取り、編集。</br>**[!DNL View orchestrated campaigns]**：調整されたキャンペーンの読み取り、編集。</br>**[!DNL View orchestrated campaigns report]**：調整されたキャンペーンレポートの読み取り、編集。 |
+| オーケストレーションキャンペーン | **[!DNL Manage orchestrated campaigns]**：調整されたキャンペーンの読み取り、作成、編集、削除。</br>**[!DNL Manage orchestrated campaigns admin]**：Adobe Experience Platform プロファイルとリレーショナルストアエンティティ間のリンクと紐付けの読み取り、作成、編集、削除。</br>**[!DNL Publish orchestrated campaigns]**：調整されたキャンペーンの公開。この権限は、シグナルを使用してオーケストレーションされたキャンペーンをトリガーする場合にも必要です。 </br>**[!DNL View orchestrated campaigns admin]**：Adobe Experience Platform プロファイルとリレーショナルストアエンティティ間のリンクと紐付けの読み取り、編集。</br>**[!DNL View orchestrated campaigns]**：調整されたキャンペーンの読み取り、編集。</br>**[!DNL View orchestrated campaigns report]**：調整されたキャンペーンレポートの読み取り、編集。 |
 | プロファイル管理 | **[!DNL Evaluate a segment to an audience]**：セグメント定義を評価して、オーディエンスのプロファイルを生成します。</br>**[!DNL Export audience segments]**：評価済みのデータセットセグメントをオーディエンスセットにエクスポートします。</br>**[!DNL Import audience segments]**：セグメント化やアクティブ化での使用に、外部オーディエンスセグメントを Adobe Experience Platform に読み込みます。</br>**[!DNL Manage merge policies]**：結合ポリシーの読み取り、作成、編集、削除。</br>**[!DNL Manage profiles]**：顧客プロファイルに使用するデータセットへの読み取り、作成、編集、削除。使用可能なプロファイルへの読み取り専用アクセス&#x200B;</br>**[!DNL Manage segments]**：オーディエンスセグメント定義の読み取り、作成、編集、削除。</br>**[!DNL View merge policies]**：使用可能な結合ポリシーへの読み取り専用アクセス。</br>**[!DNL View profiles]**：使用可能なプロファイルへの読み取り専用アクセス。</br>**[!DNL View segments]**：使用可能なオーディエンスへの読み取り専用アクセス。 |
 | クエリサービス | **[!DNL Manage queries]**：Platform データの構造化 SQL クエリの読み取り、作成、編集、削除。</br>**[!DNL Manage query service integration]**：クエリサービスアクセスの有効期限が切れていない資格情報を作成、更新および削除。 |
 | レポート | **[!DNL View channel reports]**：チャネルレポートの読み取り、編集。 |

@@ -4,10 +4,11 @@ product: journey optimizer
 title: チャネル設定の指定
 description: チャネル設定の指定方法について説明します。
 version: Campaign Orchestration
-source-git-commit: 2bdabace34546bd27c2e3c19a3aee3c8a3eae5f2
+exl-id: 6793e9b8-06ca-403b-8cb0-3bcaef089837
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
 source-wordcount: '466'
-ht-degree: 82%
+ht-degree: 78%
 
 ---
 
@@ -65,21 +66,21 @@ ht-degree: 82%
 
 1. 設定したら、「**[!UICONTROL 送信]**」をクリックします。
 
-これで、チャネルを&#x200B;**調整されたキャンペーン**&#x200B;で使用する準備が整い、選択したターゲットディメンションに従ってメッセージが配信されるようになりました。
+これで、チャネルを&#x200B;**オーケストレーションされたキャンペーン**&#x200B;で使用する準備が整い、選択したターゲットディメンションに従ってメッセージが配信されます。
 
 ## URL トラッキングパラメーター {#url-tracking}
 
-チャネル設定を設定する際に、分析やレポートの目的でトラッキングするリンクにメタデータを追加することで、メールキャンペーンのパフォーマンスを監視する URL トラッキングパラメーターを定義できます。
+チャネル設定を設定する際に、分析とレポートの目的で、追跡されたリンクにメタデータを追加することで、メールキャンペーンのパフォーマンスを監視するURL トラッキングパラメーターを定義できます。
 
-これを行うには、`{{context.system.source.*}}` の構文を使用して、オーケストレーションされたキャンペーンに固有のコンテキスト属性を使用できます。
+これを行うには、オーケストレーションされたキャンペーンに固有のコンテキスト属性を`{{context.system.source.*}}`構文を使用して使用できます。
 
-* **`context.system.source.id`**：調整されたキャンペーン ID
-* **`context.system.source.name`**：調整されたキャンペーン名
-* **`context.system.source.versionId`**：調整されたキャンペーンバージョン ID
-* **`context.system.source.actionId`**：チャネルアクションノード ID
-* **`context.system.source.actionName`**：チャネルアクションノード名
-* **`context.system.source.channel`**：チャネルタイプ（メール、SMS、プッシュ）
-* **`context.system.IdentityNamespace`**：使用される ID 名前空間
+* **`context.system.source.id`**：オーケストレーションされたキャンペーン ID
+* **`context.system.source.name`**: オーケストレーションされたキャンペーン名
+* **`context.system.source.versionId`**：オーケストレーションされたキャンペーンバージョン ID
+* **`context.system.source.actionId`**: チャネルアクションノード ID
+* **`context.system.source.actionName`**: チャネルアクションノード名
+* **`context.system.source.channel`**: チャネルの種類（電子メール、SMS、プッシュ）
+* **`context.system.IdentityNamespace`**: ID名前空間が使用されました
 
 例：
 
@@ -87,4 +88,4 @@ ht-degree: 82%
 www.YourLandingURL.com?utm_source=AJO&utm_campaign={{context.system.source.id}}&utm_content={{context.system.source.actionName}}
 ```
 
-URL トラッキングパラメーターについて詳しくは、[&#x200B; この節 &#x200B;](../email/url-tracking.md) を参照してください。
+URL トラッキングパラメーターについて詳しくは、[この節](../email/url-tracking.md)を参照してください。

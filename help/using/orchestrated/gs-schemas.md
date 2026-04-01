@@ -5,10 +5,10 @@ title: 設定の手順
 description: DDL をアップロードして Adobe Experience Platform 内でリレーショナルスキーマを作成する方法について説明します。
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
 version: Campaign Orchestration
-source-git-commit: 059670c143595b9cacdf7e82a8a5c3efda78f30b
-workflow-type: ht
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+workflow-type: tm+mt
 source-wordcount: '470'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 * これらのエンティティの属性（例：顧客名、キャンペーン開始日）
 * エンティティ間の関係（例：顧客はセグメントに属している、キャンペーンはセグメントをターゲットにしている）
 
-データモデルは、論理的で概念的なもので、オーケストレーションキャンペーンの物理的な実装には結び付けられていません
+データモデルは論理的かつ概念的であり、オーケストレーションされたキャンペーンにおける物理的な実装に関連付けられていません
 
 **リレーショナルデータモデル**&#x200B;では、データは他のテーブルに関連するテーブルに整理されます。
 
@@ -74,7 +74,7 @@ ht-degree: 100%
 
 1. [オーケストレーションキャンペーンを有効にする](manual-schema.md#enable)
 
-   データセットには、取り込んだデータが保存され、Adobe Journey Optimizer でアクセスできるようにするには、オーケストレーションキャンペーンを有効にする必要があります。
+   データセットには、取り込んだデータが保存され、Adobe Journey Optimizerでアクセスできるようにオーケストレーションされたキャンペーンに対して有効にする必要があります。
 
 1. [データを取得](ingest-data.md)
 

@@ -5,10 +5,10 @@ title: 調整されたキャンペーンのガードレールと制限
 description: 調整されたキャンペーンのガードレールと制限について説明します
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
-source-git-commit: 4c7aefc3f54c26bb3d1f84bc2fcf5ed984750494
+source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
 workflow-type: tm+mt
 source-wordcount: '519'
-ht-degree: 94%
+ht-degree: 92%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 94%
 
 * 管理性とパフォーマンスを維持するために、スキーマあたりの属性の平均数は **50 列を超えないようにしてください**。
 
-* Adobe Experience Platform **プロファイル**&#x200B;では、リレーショナルスキーマを有効にできません。Adobe Experience Platform **プロファイル**&#x200B;では、標準 XDM スキーマのみがサポートされています。リレーショナルスキーマは、オーケストレーションキャンペーンまたはアクションキャンペーンに対して有効にできます。[詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
+* Adobe Experience Platform **プロファイル**&#x200B;では、リレーショナルスキーマを有効にできません。Adobe Experience Platform **プロファイル**&#x200B;では、標準 XDM スキーマのみがサポートされています。関係スキーマは、オーケストレーションされたキャンペーンまたはアクションキャンペーンに対して有効にできます。 [詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
 
 ### データ取り込み {#data-ingestion}
 
@@ -41,7 +41,7 @@ ht-degree: 94%
 
 * すべての取り込みは、**変更データキャプチャ**&#x200B;ソースを通じて行う必要があります。
 
-   * **ファイルベース**&#x200B;の場合：`_change_request_type` フィールドが必要です。サポートされている値は、`u` （アップサート）または `d` （削除）です。 これらの値は、大文字の `u` と `d` ではなく、小文字の `U` と `D` にする必要があります。
+   * **ファイルベース**&#x200B;の場合：`_change_request_type` フィールドが必要です。サポートされている値は`u` （upsert）または`d` （delete）です。 これらの値は、大文字の`u`と`d`ではなく、小文字の`U`と`D`である必要があります。
 
    * **クラウドベース**&#x200B;の場合：テーブルログを有効にする必要があります。
 
@@ -91,4 +91,4 @@ ht-degree: 94%
 
 ## チャネルの制限
 
-オーケストレートキャンペーンでは、SMS、プッシュ、メール、ダイレクトメールチャネルのみがサポートされます。
+オーケストレーションされたキャンペーンでは、SMS、プッシュ通知、電子メール、ダイレクトメールチャネルのみがサポートされます。
