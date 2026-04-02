@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 選定, イベント, オーディエンス, ジャーニー, プラットフォーム
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
-source-git-commit: f4c4cf0f9b4f197123bfcf9f1986d304695c17be
+source-git-commit: 29c591590415add30780cf5ea80964141a8fd236
 workflow-type: tm+mt
-source-wordcount: '1611'
-ht-degree: 66%
+source-wordcount: '1702'
+ht-degree: 62%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 66%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
->title="オーディエンスの選定イベント"
->abstract="このアクティビティは、[!DNL Adobe Experience Platform] オーディエンス内のプロファイルのエントリや離脱をリッスンして、個人をジャーニーに沿って進行させます。"
+>title="オーディエンスの選定"
+>abstract="プロファイルが[!DNL Adobe Experience Platform] オーディエンスに適格または離脱した場合のトリガージャーニーの開始または継続。 ストリーミングオーディエンス向けの推奨。バッチシナリオには「オーディエンスを読み取り」アクティビティを使用します。"
 
 ## オーディエンスの選定イベントについて{#about-segment-qualification}
 
@@ -43,6 +43,33 @@ ht-degree: 66%
 ## アクティビティの設定 {#configure-segment-qualification}
 
 **[!UICONTROL オーディエンスの選定]**&#x200B;アクティビティを設定するには、次の手順に従います。
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_segment_qualification_label"
+>title="ラベル"
+>abstract="レポートモードとテストモードのログでこのアクティビティを識別するためのオプションのラベルを追加します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_segment_qualification_audience"
+>title="オーディエンス"
+>abstract="活用する[!DNL Adobe Experience Platform] オーディエンスを選択します。 ジャーニーは、プロファイルの出入りをリッスンします。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_segment_qualification_behavior"
+>title="動作"
+>abstract="オーディエンスの出入りをリッスンするかどうかを選択します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_segment_qualification_identity"
+>title="ID タイプ"
+>abstract="個人の識別に使用するID タイプを選択します。 個人ベースのID名前空間のみが使用できます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_event_segment_qualification_merge_policy"
+>title="結合ポリシー"
+>abstract="結合ポリシーは、選択したオーディエンスから自動的に取得され、ジャーニー全体に適用されます。"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties#merge-policies" text="結合ポリシーについて詳しく見る"
+
 
 1. **[!UICONTROL イベント]**&#x200B;カテゴリを展開し、**[!UICONTROL オーディエンスの選定]**&#x200B;アクティビティをキャンバスにドロップします。
 
@@ -69,7 +96,7 @@ ht-degree: 66%
    >[!NOTE]
    >
    >**[!UICONTROL Enter]**&#x200B;と&#x200B;**[!UICONTROL Exit]**&#x200B;は、**からの** Realized **と** Exited[!DNL Adobe Experience Platform]のオーディエンス参加ステータスに対応しています。
-   >[&#x200B; セグメント化サービスのドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ja#interpret-segment-results){target="_blank"}を参照してください。
+   >[ セグメント化サービスのドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ja#interpret-segment-results){target="_blank"}を参照してください。
 
 1. 名前空間を選択します。これは、イベントがジャーニーの最初のステップとして位置付けられている場合にのみ必要です。デフォルトでは、このフィールドには、最後に使用した名前空間が事前に入力されています。
 
@@ -114,7 +141,7 @@ ht-degree: 66%
 
 ストリーミングセグメント化で開くイベントや送信イベントを使用しないでください。代わりに、クリック数、購入数、ビーコンデータなどの実際のユーザーアクティビティのシグナルを使用します。頻度または抑制ロジックの場合は、送信イベントの代わりにビジネスルールを使用します。 [詳細情報](../audience/about-audiences.md)
 
-[[!DNL Adobe Experience Platform]  ストリーミングセグメント化に関するドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}を参照してください。
+[[!DNL Adobe Experience Platform]  ストリーミングセグメント化に関するドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}を参照してください。
 
 >[!NOTE]
 >
@@ -138,7 +165,7 @@ ht-degree: 66%
 
 * ジャーニーを公開した後、プロファイルの選定をトリガーするイベントやデータを送信する前に、10 分以上待機します。これにより、ジャーニーが完全にアクティブ化され、エントリを処理する準備が整います。
 
-* すべての適格なプロファイルが入力されることを確認する必要がある重要なユースケースについては、代わりに[&#x200B; オーディエンスを読み取り](read-audience.md) アクティビティを使用することを検討してください。 特定の時間に、オーディエンス内のすべてのプロファイルを処理します。
+* すべての適格なプロファイルが入力されることを確認する必要がある重要なユースケースについては、代わりに[ オーディエンスを読み取り](read-audience.md) アクティビティを使用することを検討してください。 特定の時間に、オーディエンス内のすべてのプロファイルを処理します。
 
 * ジャーニーの[エントリ率とスループット](entry-management.md#profile-entrance-rate)を監視し、プロファイルのフローパターンを把握します。
 
@@ -196,4 +223,4 @@ ht-degree: 66%
 
 オーディエンスの選定ジャーニーに当てはまるユースケースについて、このビデオで説明します。オーディエンスの選定を使用してジャーニーを構築する方法と、適用するベストプラクティスについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3446205?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
