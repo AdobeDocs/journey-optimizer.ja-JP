@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: メッセージの最適化でのターゲティングの使用
-description: ターゲティングルールを活用して、パーソナライズされたコンテンツを特定のオーディエンスセグメントに配信する方法を説明します。
+title: メッセージの最適化にターゲティングを活用
+description: ターゲティングルールを活用して、特定のオーディエンスセグメントにパーソナライズされたコンテンツを配信する方法を説明します。
 role: User
 level: Intermediate
 keywords: ターゲティング，最適化，オーディエンス，パーソナライゼーション，ルール

@@ -135,7 +135,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->URL に追加される UTM パラメーターの順序はランダムで、制御できません。 システムが特定の順序でパラメーターを必要とする場合は、側でパラメーターを解析して並べ替える必要があります。
+>URLに追加されるUTM パラメーターの順序はランダムで、制御できません。 システムで特定の順序でパラメーターが必要な場合は、それを解析して並べ替える必要があります。
 
 ### 復号化 API の設定 {#configure-decrypt-api}
 
@@ -265,7 +265,7 @@ GET 呼び出しは次のとおりです。
 
    * 解析値：*v1.xyz*
 
-API の例：https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&emailParamsBody=v1.xyz
+API の例：https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSub=v1.abc&amp;emailParamsBody=v1.xyz
 
 >[!CAUTION]
 >
