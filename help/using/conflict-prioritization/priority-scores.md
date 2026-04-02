@@ -72,4 +72,4 @@ Journey Optimizer を使用すると、ジャーニーの&#x200B;**[!UICONTROL �
 
 ## チュートリアルビデオ {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3435529?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3445002?captions=jpn&quality=12)
