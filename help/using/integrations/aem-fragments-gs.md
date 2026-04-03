@@ -27,7 +27,7 @@ AEM コンテンツフラグメントについて詳しくは、Experience Manag
 
 ![](assets/do-not-localize/AEM_CF.png)
 
-コンテンツフラグメントは、存在するAdobe Experience Manager層に応じて、様々なライフサイクルステージに従います。 [詳しくは、Adobe Experience Manager ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/author-publish)を参照してください。
+コンテンツフラグメントは、存在するAdobe Experience Manager層に応じて、様々なライフサイクルステージに従います。 [詳しくは、Adobe Experience Manager ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/authoring/author-publish)を参照してください。
 
 コンテンツは&#x200B;**オーサー層**&#x200B;で作成および管理されます。フラグメントには、新規、ドラフト、公開済み、変更済み、未公開などのステータスを設定できます。 これらのステータスは、**オーサー層**&#x200B;にのみ適用され、コンテンツの作成とレビューをサポートします。
 
