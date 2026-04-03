@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 keywords: テキスト, メール, バージョン, プレーン, エディター
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
-source-git-commit: 7a3ff59bab5f0d4d8f61fa05a20f4922b83ca7f8
+source-git-commit: 43444cc8c49bd50dce54995c70b4fc8ef0976119
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1232'
 ht-degree: 11%
 
 ---
@@ -47,6 +47,18 @@ HTML コンテンツを表示できない場合に使用するため、メール
 > * 同期が無効になっている場合、**[!UICONTROL プレーンテキスト]** ビューで行われた変更は、HTML ビューに反映されません。
 >
 > * プレーンテキストの内容を更新した後にもう一度「**[!UICONTROL HTML と同期]**」オプションを有効にすると、変更は失われ、HTML バージョンから生成されたテキストの内容に置き換えられます。
+
+## AI受信箱のテキストバージョンを最適化する {#optimize-plain-text-ai}
+
+AIを活用した受信トレイ機能（[!DNL Gmail]、[!DNL Outlook]、[!DNL Apple Mail]の要約など）は、**[!UICONTROL AI受信トレイに最適化]** ボタンを使用して、主要なオファーと詳細を表示するのに役立ちます。 このアクションは、メッセージのテキスト部分から読み取りやすい情報アシスタントに焦点を当てた改善されたプレーンテキストバージョンを生成します。
+
+![ テキストバージョンビューでのAI受信トレイの最適化](../content-management/assets/text-optimizer-for-ai-button.png){zoomable="yes" width="80%"}
+
+>[!IMPORTANT]
+>
+>この機能を使用する場合、**[!UICONTROL HTMLと同期]** オプションは自動的に無効になります。
+
+完全なチュートリアルと推奨されるシナリオについては、[AI受信箱のメールテキストの最適化](../content-management/llm-email-optimizer.md)を参照してください。
 
 ## カスタムプレーンテキストバージョンの使用例 {#when-to-use}
 
