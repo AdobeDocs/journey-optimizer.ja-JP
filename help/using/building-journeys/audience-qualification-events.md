@@ -68,7 +68,7 @@ ht-degree: 62%
 >id="ajo_journey_event_segment_qualification_merge_policy"
 >title="結合ポリシー"
 >abstract="結合ポリシーは、選択したオーディエンスから自動的に取得され、ジャーニー全体に適用されます。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties#merge-policies" text="結合ポリシーについて詳しく見る"
+>additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties#merge-policies" text="結合ポリシーについて詳しく見る"
 
 
 1. **[!UICONTROL イベント]**&#x200B;カテゴリを展開し、**[!UICONTROL オーディエンスの選定]**&#x200B;アクティビティをキャンバスにドロップします。

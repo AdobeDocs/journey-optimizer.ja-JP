@@ -116,7 +116,7 @@ inAudience("Unsubscribed") == false
 条件ノードで`inAudience()`を使用する場合、セグメントメンバーシップの評価タイミングは、条件がジャーニーのどこに表示されるかによって異なります。
 
 * **オーディエンスの読み取りジャーニーで、待機アクティビティ：** Journey Optimizerがプロファイルのバッチプロジェクションから読み取る前。 この投影内のデータは、取り込み後&#x200B;**2時間**&#x200B;以内に更新されます。 日ベースまたは時間ベースの条件に依存するオーディエンスでは、さらに遅延が発生する場合があります。 ジャーニーの開始時に短い[&#x200B; アクティビティ &#x200B;](../wait-activity.md)を追加するか、バッファー時間を許可して、最新のセグメントメンバーシップが反映されるようにします。
-* **単一イベントジャーニーで、または待機アクティビティの後、** セグメントメンバーシップがストリーミング（単一）投影から読み取られます。 データは通常、**15分以内に利用できます**。 詳しくは、[Adobe Experience Platform ストリーミング取り込みに関するドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/streaming/overview){target="_blank"}を参照してください。
+* **単一イベントジャーニーで、または待機アクティビティの後、** セグメントメンバーシップがストリーミング（単一）投影から読み取られます。 データは通常、**15分以内に利用できます**。 詳しくは、[Adobe Experience Platform ストリーミング取り込みに関するドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/ingestion/streaming/overview){target="_blank"}を参照してください。
 
 ## 関連トピック
 
