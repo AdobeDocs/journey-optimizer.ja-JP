@@ -46,5 +46,5 @@ ht-degree: 0%
 ## その他のリソース
 
 * [受信トレイを取得して表示](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/displaying-inbox/): Journey Optimizerの受信トレイ メッセージを読み込み、Androidで受信トレイ UIをレンダリングします（Adobe Developer ドキュメント）。
-* [受信トレイのカスタマイズ ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/customizing-inbox/):Android アプリの受信トレイのレイアウト、スタイル、インタラクションの動作を調整します（Adobe Developer ドキュメント）。
-* [受信トレイ イベントのリッスン ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/listening-inbox-events/): Androidのユーザーアクションとライフサイクルの更新に関する受信トレイ コールバックの購読（Adobe Developer ドキュメント）。
+* [受信トレイのカスタマイズ &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/customizing-inbox/):Android アプリの受信トレイのレイアウト、スタイル、インタラクションの動作を調整します（Adobe Developer ドキュメント）。
+* [受信トレイ イベントのリッスン &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/listening-inbox-events/): Androidのユーザーアクションとライフサイクルの更新に関する受信トレイ コールバックの購読（Adobe Developer ドキュメント）。
