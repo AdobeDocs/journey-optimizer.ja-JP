@@ -6,10 +6,10 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: a26bb3bd-d593-466b-9852-94e194d6d2b7
-source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
+source-git-commit: d84cc0f4d9226876e55e37409a685550fe0c9050
 workflow-type: tm+mt
-source-wordcount: '1467'
-ht-degree: 89%
+source-wordcount: '1480'
+ht-degree: 88%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 89%
 
 コンテンツカードをジャーニーに追加するには、次の手順に従います。
 
-1. [&#x200B; ジャーニー](../building-journeys/journey-gs.md)を開き、パレットの&#x200B;**[!UICONTROL アクション]** セクションから&#x200B;**[!UICONTROL アクション]** アクティビティをドラッグ&amp;ドロップします。 [&#x200B; アクションアクティビティ &#x200B;](../building-journeys/journey-action.md)の詳細をご覧ください。
+1. [ ジャーニー](../building-journeys/journey-gs.md)を開き、パレットの&#x200B;**[!UICONTROL アクション]** セクションから&#x200B;**[!UICONTROL アクション]** アクティビティをドラッグ&amp;ドロップします。 [ アクションアクティビティ ](../building-journeys/journey-action.md)の詳細をご覧ください。
 
    >[!IMPORTANT]
    >
@@ -102,7 +102,7 @@ ht-degree: 89%
 
 1. ジャーニーキャンバスに戻ります。 必要に応じて、追加のアクションまたはイベントをドラッグ＆ドロップして、ジャーニーフローを完了します。[詳細情報](../building-journeys/about-journey-activities.md)
 
-ジャーニーの作成、設定、公開の方法について詳しくは、[このページ &#x200B;](../building-journeys/journey-gs.md)を参照してください。
+ジャーニーの作成、設定、公開の方法について詳しくは、[このページ ](../building-journeys/journey-gs.md)を参照してください。
 
 >[!TAB キャンペーンへのコンテンツカードの追加]
 
@@ -129,6 +129,10 @@ ht-degree: 89%
    ![](assets/content-card-create-2.png)
 
 1. 新しい[コンテンツカード設定](content-card-configuration.md)を選択または作成します。
+
+1. この[ コンテンツカード ](../inbox/inbox-configuration.md)の受信トレイ サーフェスを定義する&#x200B;**受信トレイ設定**&#x200B;を選択します。
+
+   ![](assets/content-card-create-2.png)
 
 1. メッセージのコンテンツをテストするには、「**[!UICONTROL 実験を作成]**」をクリックします。これにより、サンプル母集団に対して配信の複数の変数をテストし、ターゲットオーディエンスに最も大きな影響を与える処理を判断できます。[詳しくは、コンテンツ実験を参照してください](../content-management/content-experiment.md)。
 

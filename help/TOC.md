@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: fec28b40d06da6fbf880c97de11199f097727362
+source-git-commit: d84cc0f4d9226876e55e37409a685550fe0c9050
 workflow-type: tm+mt
-source-wordcount: '3168'
-ht-degree: 95%
+source-wordcount: '3185'
+ht-degree: 94%
 
 ---
 
@@ -392,6 +392,11 @@ ht-degree: 95%
          + [Web SDK でのコンテンツカードのサポート設定](using/content-card/content-card-configuration-sdk.md)
       + [コンテンツカードの作成](using/content-card/create-content-card.md)
       + [コンテンツカードのデザイン](using/content-card/design-content-card.md)
+   + インボックス {#inbox}
+      + [受信トレイの設定](using/inbox/inbox-gs.md)
+      + [Journey Optimizerでの受信トレイ チャネルの設定](using/inbox/inbox-configuration.md)
+      + [受信トレイを作成](using/inbox/inbox-create.md)
+      + [受信トレイをデザイン](using/inbox/inbox-design.md)
    + WhatsApp {#whatsapp}
       + [WhatsApp](/help/rp_landing_pages/whatsapp-landing-page.md)
       + [WhatsApp メッセージの基本を学ぶ](using/whatsapp/get-started-whatsapp.md)
@@ -960,7 +965,7 @@ ht-degree: 95%
    + [プライバシー](/help/rp_landing_pages/privacy-landing-page.md)
    + [プライバシーの基本を学ぶ](using/privacy/get-started-privacy.md)
    + [プライバシーリクエスト](using/privacy/requests.md)
-   + [&#x200B; リソースに対する監査アクション](using/privacy/audit-logs.md)
+   + [ リソースに対する監査アクション](using/privacy/audit-logs.md)
    + [データライフサイクル操作の実行](using/privacy/data-hygiene.md)
    + 同意を管理 {#consent}
       + [同意を管理](/help/rp_landing_pages/consent-landing-page.md)
