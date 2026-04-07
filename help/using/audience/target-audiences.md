@@ -21,7 +21,7 @@ ht-degree: 93%
 
 ## ガードレールと制限 {#guardrails}
 
-* **Healthcare Shield または Privacy and Security Shield** - オーディエンス構成からのオーディエンスおよび属性は現在、Healthcare Shield または Privacy and Security Shield では使用できません。[ [!DNL Journey Optimizer]](../audience/about-audiences.md#enrichment) でのオーディエンスのエンリッチメント属性の使用方法の詳細情報
+* **Healthcare Shield または Privacy and Security Shield** - オーディエンス構成からのオーディエンスおよび属性は現在、Healthcare Shield または Privacy and Security Shield では使用できません。[&#x200B; [!DNL Journey Optimizer]](../audience/about-audiences.md#enrichment) でのオーディエンスのエンリッチメント属性の使用方法の詳細情報
 
 * **カスタムアップロードと連合オーディエンス構成** - カスタムアップロードと連合オーディエンス構成オーディエンスの場合は、次のガードレールに注意してください。
 
@@ -47,9 +47,9 @@ ht-degree: 93%
 
 * **キャンペーン**&#x200B;のオーディエンスを選択します。選択したオーディエンスに属するすべての個人にメッセージが送信されます。[詳しくは、キャンペーンのオーディエンスを定義する方法を参照してください](../campaigns/create-campaign.md#define-the-audience-audience)。
 
-* ジャーニーの&#x200B;**オーディエンスを読み取り**&#x200B;オーケストレーションアクティビティを使用して、オーディエンス内のすべての個人をジャーニーにエントリさせ、ジャーニーに含まれるメッセージを受け取らせます。「シルバー顧客」オーディエンスがあるとします。このアクティビティを使用すると、すべてのシルバー顧客をジャーニーにエントリさせることができます。その後、一連のパーソナライズされたメッセージを送信できます。[ オーディエンスの読み取りアクティビティを設定する方法を説明します](../building-journeys/read-audience.md#configuring-segment-trigger-activity)。 分岐を入力した後にセグメント化、除外、または結合するには、ジャーニーの[ オーディエンスターゲティング ](../building-journeys/read-audience.md#audience-targeting-in-journeys)を参照してください。
+* ジャーニーの&#x200B;**オーディエンスを読み取り**&#x200B;オーケストレーションアクティビティを使用して、オーディエンス内のすべての個人をジャーニーにエントリさせ、ジャーニーに含まれるメッセージを受け取らせます。「シルバー顧客」オーディエンスがあるとします。このアクティビティを使用すると、すべてのシルバー顧客をジャーニーにエントリさせることができます。その後、一連のパーソナライズされたメッセージを送信できます。[&#x200B; オーディエンスの読み取りアクティビティを設定する方法を説明します](../building-journeys/read-audience.md#configuring-segment-trigger-activity)。 分岐を入力した後にセグメント化、除外、または結合するには、ジャーニーの[&#x200B; オーディエンスターゲティング &#x200B;](../building-journeys/read-audience.md#audience-targeting-in-journeys)を参照してください。
 
-  入力後、**条件** アクティビティを使用して、属性または動作で[ セグメント化したり、母集団の一部を除外したり、分岐を結合したりできます](../building-journeys/read-audience.md#audience-targeting-in-journeys)。
+  入力後、**条件** アクティビティを使用して、属性または動作で[&#x200B; セグメント化したり、母集団の一部を除外したり、分岐を結合したりできます](../building-journeys/read-audience.md#audience-targeting-in-journeys)。
 
   オーディエンス構成またはカスタムアップロードからのオーディエンスを使用するジャーニーの場合、プロファイル属性はジャーニーエントリ時の最後のバッチ評価と同じくらい新しくなります。ただし、**待機**&#x200B;アクティビティの後、ジャーニーは統合プロファイルサービス（UPS）からプロファイル属性を更新し、使用可能な最新のデータを取得します。つまり、ジャーニーの実行中にプロファイル属性が変更される場合があります。[待機アクティビティ後のプロファイル更新の詳細情報](../building-journeys/wait-activity.md#profile-refresh)
 

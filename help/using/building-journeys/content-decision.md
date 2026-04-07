@@ -109,7 +109,7 @@ ht-degree: 74%
 
    >[!NOTE]
    >
-   >属性に定義された制限されたラベルは、DULEまたは同意のポリシー違反につながる可能性があります。 これは、決定ルールで使用されるジャーニーエクスペリエンスイベントおよび[ オファースキーマ ](../experience-decisioning/catalogs.md#access-catalog-schema)に適用されます。 データガバナンスポリシーについて詳しくは、[この節](../action/action-privacy.md)を参照してください。
+   >属性に定義された制限されたラベルは、DULEまたは同意のポリシー違反につながる可能性があります。 これは、決定ルールで使用されるジャーニーエクスペリエンスイベントおよび[&#x200B; オファースキーマ &#x200B;](../experience-decisioning/catalogs.md#access-catalog-schema)に適用されます。 データガバナンスポリシーについて詳しくは、[この節](../action/action-privacy.md)を参照してください。
 
 1. ジャーニーにエントリするプロファイルに対してオファーが返されたかどうかを確認するには、構文 `listSize(@decision{ContentdecisionName.items})>0` で [listSize](functions/list-functions.md#listSize) 関数を使用します
 

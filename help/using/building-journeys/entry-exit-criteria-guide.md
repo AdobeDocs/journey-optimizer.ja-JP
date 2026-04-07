@@ -100,9 +100,9 @@ ht-degree: 91%
 
 **次に、エントリー条件について知っておく必要のあるすべての事項について説明します。**
 
-* **[イベントベースのトリガー](../event/about-events.md)**：「プロファイルの作成」、「トランザクションの完了」などのイベントやカスタムイベントを使用して、ジャーニーを開始します。[管理](../event/about-creating.md)/**[!UICONTROL イベント]**&#x200B;でイベント **[!UICONTROL を設定し、]** イベントスキーマとフィールド [を定義します。 ](../event/experience-event-schema.md)次に、**[!UICONTROL ジャーニーデザイナー]**&#x200B;の[ イベント ](using-the-journey-designer.md) パレットからイベントを追加します。
+* **[イベントベースのトリガー](../event/about-events.md)**：「プロファイルの作成」、「トランザクションの完了」などのイベントやカスタムイベントを使用して、ジャーニーを開始します。[管理](../event/about-creating.md)/**[!UICONTROL イベント]**&#x200B;でイベント **[!UICONTROL を設定し、]** イベントスキーマとフィールド [を定義します。 &#x200B;](../event/experience-event-schema.md)次に、**[!UICONTROL ジャーニーデザイナー]**&#x200B;の[&#x200B; イベント &#x200B;](using-the-journey-designer.md) パレットからイベントを追加します。
 
-* **[オーディエンスベースのエントリ](read-audience.md)**：特定のオーディエンスに属するプロファイルへのジャーニーを、1 回限りのバッチとして、または繰り返しスケジュールでターゲットにします。 [ オーディエンス ](../audience/creating-a-segment-definition.md) メニューで&#x200B;**[!UICONTROL オーディエンス]**&#x200B;を作成してから、**[!UICONTROL オーディエンスの読み取り]** アクティビティを追加し、[ スケジュールを設定](journey-properties.md#schedule)。 入力後、条件を使用して[分岐をセグメント化、除外、または結合](read-audience.md#audience-targeting-in-journeys)します。
+* **[オーディエンスベースのエントリ](read-audience.md)**：特定のオーディエンスに属するプロファイルへのジャーニーを、1 回限りのバッチとして、または繰り返しスケジュールでターゲットにします。 [&#x200B; オーディエンス &#x200B;](../audience/creating-a-segment-definition.md) メニューで&#x200B;**[!UICONTROL オーディエンス]**&#x200B;を作成してから、**[!UICONTROL オーディエンスの読み取り]** アクティビティを追加し、[&#x200B; スケジュールを設定](journey-properties.md#schedule)。 入力後、条件を使用して[分岐をセグメント化、除外、または結合](read-audience.md#audience-targeting-in-journeys)します。
 
 * **[オーディエンスの選定エントリ](audience-qualification-events.md)**：プロファイルが特定のオーディエンスを選定するか、特定のオーディエンスから退出した際に、リアルタイムでジャーニーをトリガーします。[ストリーミングオーディエンス](../audience/about-audiences.md)を定義し、**[!UICONTROL イベント]**&#x200B;パレットから&#x200B;**[!UICONTROL オーディエンスの選定]**&#x200B;イベントを追加して、トリガータイプを選択します。
 
@@ -146,7 +146,7 @@ ht-degree: 91%
 
 >[!TIP]
 >
->その他のパターンと実装については、[ジャーニーユースケースライブラリ ](jo-use-cases.md)で使用可能なすべてのユースケースを参照してください。 例としては、[配信の強化](ramp-up-deliveries-uc.md)、[ エクスペリエンスイベントパターン ](exp-event-lookup.md)、[ ライブジャーニーからのプロファイルの削除](journey-pause.md#apply-an-exit-criteria-in-a-paused-journey)などが挙げられます。
+>その他のパターンと実装については、[ジャーニーユースケースライブラリ &#x200B;](jo-use-cases.md)で使用可能なすべてのユースケースを参照してください。 例としては、[配信の強化](ramp-up-deliveries-uc.md)、[&#x200B; エクスペリエンスイベントパターン &#x200B;](exp-event-lookup.md)、[&#x200B; ライブジャーニーからのプロファイルの削除](journey-pause.md#apply-an-exit-criteria-in-a-paused-journey)などが挙げられます。
 
 ## エントリと終了を管理するためのベストプラクティス {#best-practices}
 
@@ -212,4 +212,4 @@ ht-degree: 91%
 
 **関連機能**
 
-[ オーディエンスの選定イベント ](audience-qualification-events.md) | [成功指標と目標](success-metrics.md) | [競合管理](../conflict-prioritization/conflicts.md) | [頻度の上限設定](../conflict-prioritization/rule-sets.md) | [ ジャーニー](testing-the-journey.md) | [ アクティビティの最適化](optimize.md) | [反応イベント ](reaction-events.md) | [ アクティビティの待機](wait-activity.md)
+[&#x200B; オーディエンスの選定イベント &#x200B;](audience-qualification-events.md) | [成功指標と目標](success-metrics.md) | [競合管理](../conflict-prioritization/conflicts.md) | [頻度の上限設定](../conflict-prioritization/rule-sets.md) | [&#x200B; ジャーニー](testing-the-journey.md) | [&#x200B; アクティビティの最適化](optimize.md) | [反応イベント &#x200B;](reaction-events.md) | [&#x200B; アクティビティの待機](wait-activity.md)
