@@ -6,10 +6,10 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: ec34ddf4862c550edb3442e6088723040a85f548
+source-git-commit: e8ace59ea50d35de1f1b3b9a6417e5eb7961c236
 workflow-type: tm+mt
-source-wordcount: '2477'
-ht-degree: 99%
+source-wordcount: '2496'
+ht-degree: 98%
 
 ---
 
@@ -446,6 +446,9 @@ ht-degree: 99%
         <td><a href="helpers.md#each">Each</a></td><td>配列を繰り返すために使用します。</td>
     </tr>
     <tr>
+        <td><a href="helpers.md#dataset-lookup">データセットの参照</a></td><td>このヘルパーは、ルックアップキーを使用して、レンダリング時にAdobe Experience Platform レコードデータセットからフィールドを取得します</td>
+    </tr>
+    <tr>
         <td><a href="helpers.md#execution-metadata">実行メタデータ</a></td><td>このヘルパーは、メッセージのレンダリング中にカスタムキーと値のメタデータをキャプチャし、ランタイム実行メタデータオブジェクトに保存できるようにします</td>
     </tr>
     <tr>
@@ -530,4 +533,4 @@ ht-degree: 99%
 
 パーソナライズ機能のヘルパー関数を使用してパーソナライゼーション値を変換する方法と、ヘルパー関数の様々なユースケースを説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416781?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
