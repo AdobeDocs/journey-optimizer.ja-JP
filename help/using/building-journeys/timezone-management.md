@@ -10,7 +10,7 @@ level: Intermediate
 keywords: タイムゾーン, プロパティ, ジャーニー, 条件, 時間, 日付, カスタム
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
 version: Journey Orchestration
-source-git-commit: 8197b84851817e886dd6d5b26f16730980c13a79
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 65%
@@ -31,8 +31,8 @@ ht-degree: 65%
 
 このタイムゾーンは、次のような時間要素を含むジャーニーのすべてのアクティビティで使用されます。
 
-* [時間条件](../building-journeys/condition-activity.md#time_condition)
-* [日付条件](../building-journeys/condition-activity.md#date_condition)
+* [時間条件](../building-journeys/conditions.md#time_condition)
+* [日付条件](../building-journeys/conditions.md#date_condition)
 * [カスタム待機](../building-journeys/wait-activity.md#custom)
 
 <!--
@@ -61,7 +61,7 @@ ht-degree: 65%
 
 プロファイルにタイムゾーンが定義されている場合、そのタイムゾーンが取得され、ジャーニーで使用されます。 そうでない場合は、使用されるタイムゾーンがタイムゾーンフィールドで定義されたタイムゾーンになります。
 
-![&#x200B; パーソナライズされたタイミングのデータソースでのプロファイルタイムゾーン設定](assets/journey73.png)
+![ パーソナライズされたタイミングのデータソースでのプロファイルタイムゾーン設定](assets/journey73.png)
 
 >[!NOTE]
 >

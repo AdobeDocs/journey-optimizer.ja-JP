@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
-source-git-commit: 04f6ad6d75c182c6c29744810c0461ccc947b5e5
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '797'
-ht-degree: 94%
+ht-degree: 93%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 94%
 
 ## ガードレールと制限 {#guardrails}
 
-* **Healthcare Shield または Privacy and Security Shield** - オーディエンス構成からのオーディエンスおよび属性は現在、Healthcare Shield または Privacy and Security Shield では使用できません。[&#x200B; [!DNL Journey Optimizer]](../audience/about-audiences.md#enrichment) でのオーディエンスのエンリッチメント属性の使用方法の詳細情報
+* **Healthcare Shield または Privacy and Security Shield** - オーディエンス構成からのオーディエンスおよび属性は現在、Healthcare Shield または Privacy and Security Shield では使用できません。[ [!DNL Journey Optimizer]](../audience/about-audiences.md#enrichment) でのオーディエンスのエンリッチメント属性の使用方法の詳細情報
 
 * **カスタムアップロードと連合オーディエンス構成** - カスタムアップロードと連合オーディエンス構成オーディエンスの場合は、次のガードレールに注意してください。
 
@@ -47,13 +47,13 @@ ht-degree: 94%
 
 * **キャンペーン**&#x200B;のオーディエンスを選択します。選択したオーディエンスに属するすべての個人にメッセージが送信されます。[詳しくは、キャンペーンのオーディエンスを定義する方法を参照してください](../campaigns/create-campaign.md#define-the-audience-audience)。
 
-* ジャーニーの&#x200B;**オーディエンスを読み取り**&#x200B;オーケストレーションアクティビティを使用して、オーディエンス内のすべての個人をジャーニーにエントリさせ、ジャーニーに含まれるメッセージを受け取らせます。「シルバー顧客」オーディエンスがあるとします。このアクティビティを使用すると、すべてのシルバー顧客をジャーニーにエントリさせることができます。その後、一連のパーソナライズされたメッセージを送信できます。[&#x200B; オーディエンスを読み取りアクティビティの設定方法を学びます &#x200B;](../building-journeys/read-audience.md#configuring-segment-trigger-activity)。 エントリ後に分岐をセグメント化、除外、結合するには、[&#x200B; ジャーニーでのオーディエンスのターゲティング &#x200B;](../building-journeys/read-audience.md#audience-targeting-in-journeys) を参照してください。
+* ジャーニーの&#x200B;**オーディエンスを読み取り**&#x200B;オーケストレーションアクティビティを使用して、オーディエンス内のすべての個人をジャーニーにエントリさせ、ジャーニーに含まれるメッセージを受け取らせます。「シルバー顧客」オーディエンスがあるとします。このアクティビティを使用すると、すべてのシルバー顧客をジャーニーにエントリさせることができます。その後、一連のパーソナライズされたメッセージを送信できます。[ オーディエンスの読み取りアクティビティを設定する方法を説明します](../building-journeys/read-audience.md#configuring-segment-trigger-activity)。 分岐を入力した後にセグメント化、除外、または結合するには、ジャーニーの[ オーディエンスターゲティング ](../building-journeys/read-audience.md#audience-targeting-in-journeys)を参照してください。
 
-  入力後に **条件** アクティビティを使用して [&#x200B; 属性または動作でセグメント化、母集団の一部の除外、または分岐の結合 &#x200B;](../building-journeys/read-audience.md#audience-targeting-in-journeys) します。
+  入力後、**条件** アクティビティを使用して、属性または動作で[ セグメント化したり、母集団の一部を除外したり、分岐を結合したりできます](../building-journeys/read-audience.md#audience-targeting-in-journeys)。
 
   オーディエンス構成またはカスタムアップロードからのオーディエンスを使用するジャーニーの場合、プロファイル属性はジャーニーエントリ時の最後のバッチ評価と同じくらい新しくなります。ただし、**待機**&#x200B;アクティビティの後、ジャーニーは統合プロファイルサービス（UPS）からプロファイル属性を更新し、使用可能な最新のデータを取得します。つまり、ジャーニーの実行中にプロファイル属性が変更される場合があります。[待機アクティビティ後のプロファイル更新の詳細情報](../building-journeys/wait-activity.md#profile-refresh)
 
-* ジャーニーの&#x200B;**条件**&#x200B;アクティビティを使用し、オーディエンスメンバーシップに基づいて条件を作成します。[詳しくは、条件でのオーディエンスの使用方法を参照してください](../building-journeys/condition-activity.md#using-a-segment)。
+* ジャーニーで&#x200B;**最適化** アクティビティを使用して、オーディエンスメンバーシップに基づく条件を構築します。 [詳しくは、条件でのオーディエンスの使用方法を参照してください](../building-journeys/conditions.md#using-a-segment)。
 
 * ジャーニーの&#x200B;**オーディエンスの選定**&#x200B;イベントアクティビティを使用し、Adobe Experience Platform オーディエンスのエントリと離脱に応じて、個人をジャーニーにエントリさせたりジャーニー内で進行させたりします。例えば、新規のシルバー顧客全員をジャーニーにエントリさせ、それらの顧客にメッセージを送信できます。[オーディエンスの選定アクティビティの設定方法の詳細情報](../building-journeys/audience-qualification-events.md)。
 

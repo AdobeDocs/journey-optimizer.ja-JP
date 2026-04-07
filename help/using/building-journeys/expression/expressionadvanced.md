@@ -9,8 +9,8 @@ level: Experienced
 keywords: 式エディター, データ, ジャーニー
 exl-id: 9ea6cc3a-6a1b-4e8f-82ff-f8b1812617d7
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: ht
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 100%
 
@@ -40,17 +40,17 @@ ht-degree: 100%
 
 高度な式エディターは、次の目的で使用できます。
 
-* データソースとイベント情報に関する[高度な条件](../condition-activity.md#about_condition)の作成
+* データソースとイベント情報に関する[高度な条件](../conditions.md#data_source_condition)の作成
 * カスタム[待機アクティビティ](../wait-activity.md#custom)の定義
 * アクションパラメーターのマッピングの定義
 
-可能な場合は、**[!UICONTROL 詳細設定モード]**／**[!UICONTROL シンプルモード]**&#x200B;ボタンを使用して 2 つのモードを切り替えることができます。シンプルモードについては[ここ](../condition-activity.md#about_condition)で説明されています。
+可能な場合は、**[!UICONTROL 詳細設定モード]**／**[!UICONTROL シンプルモード]**&#x200B;ボタンを使用して 2 つのモードを切り替えることができます。シンプルモードについては[ここ](../conditions.md#about_condition)で説明されています。
 
 >[!NOTE]
 >
 >* 条件は、単純な式エディターまたは高度な式エディターで定義できます。常にブール型を返します。
 >
->* アクションパラメーターは、フィールドを選択するか、高度な式エディターを使用して定義できます。式に応じて特定のデータ型を返します。
+>* アクションパラメーターは、フィールドを選択するか、高度な式エディターを使用して定義できます。式に応じて特定のデータタイプを返します。
 
 高度な式エディターには、様々な方法でアクセスできます。
 
@@ -75,7 +75,7 @@ ht-degree: 100%
   >
   >エクスペリエンスイベントを使用した式の作成はサポートされていません。エクスペリエンスイベントを使用して式／ロジックを作成する際の代替アプローチとベストプラクティスについて詳しくは、[こちら](../../building-journeys/exp-event-lookup.md)を参照してください。
 
-* **[!UICONTROL オーディエンス]**：**[!UICONTROL オーディエンスの選定]**&#x200B;イベントをドロップした場合は、式で使用するオーディエンスを選択します。[詳細情報](../condition-activity.md#using-a-segment)
+* **[!UICONTROL オーディエンス]**：**[!UICONTROL オーディエンスの選定]**&#x200B;イベントをドロップした場合は、式で使用するオーディエンスを選択します。[詳細情報](../conditions.md#using-a-segment)
 * **[!UICONTROL データソース]**：データソースのフィールドグループにあるフィールドリストから選択します。[詳細情報](../../datasource/about-data-sources.md)
 * **[!UICONTROL ジャーニーのプロパティ]**：このセクションでは、特定のプロファイルのジャーニーに関連するテクニカルフィールドが再グループ化されます。[詳細情報](journey-properties.md)
 * **[!UICONTROL 関数]**：複雑なフィルタリングを実行できるビルトインの関数のリストから選択します。関数はカテゴリ別に整理されています。[詳細情報](functions.md)

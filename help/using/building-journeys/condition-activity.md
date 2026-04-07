@@ -10,7 +10,9 @@ level: Intermediate
 keywords: アクティビティ, 条件, キャンバス, ジャーニー
 exl-id: 02de069c-3009-4105-aa98-c49959d3efda
 version: Journey Orchestration
-source-git-commit: 8e6d69fb1d6eb7d29261dd0fafdb779e57be26c7
+hidefromtoc: true
+hide: true
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '1818'
 ht-degree: 92%
@@ -40,11 +42,11 @@ ht-degree: 92%
 * [日付条件](#date_condition)
 * [プロファイルキャップ](#profile_cap)
 
-また、オーディエンスメンバーシップに基づいて条件を設定することもできます。 以下の節を参照してください。
+また、オーディエンスメンバーシップを基準とした条件を指定することもできます。 次のセクションを参照してください。
 
-* [&#x200B; 条件でのオーディエンスの使用 &#x200B;](#using-a-segment) - プロファイルがオーディエンスに属しているかどうかに基づいてパスを追加します。
-* [&#x200B; オーディエンスの作成とターゲット設定 &#x200B;](../audience/about-audiences.md) - オーディエンスメニューでオーディエンスを作成および管理します。
-* [&#x200B; ジャーニーでのオーディエンスのターゲティング &#x200B;](read-audience.md#audience-targeting-in-journeys) – 条件を使用して、オーディエンスを読み取りアクティビティの後、分岐をセグメント、除外または結合します。
+* [条件でオーディエンスを使用](#using-a-segment) - プロファイルがオーディエンスに属しているかどうかに基づいてパスを追加します。
+* [ オーディエンスの作成とターゲティング ](../audience/about-audiences.md) - オーディエンスメニューでオーディエンスを作成および管理します。
+* [ ジャーニー内のオーディエンスターゲティング ](read-audience.md#audience-targeting-in-journeys) - オーディエンスの読み取りアクティビティの後、条件を使用して分岐をセグメント、除外、または結合します。
 
 >[!NOTE]
 >
@@ -65,7 +67,7 @@ ht-degree: 92%
 
 ジャーニーの設計には、機能的な影響があることに注意してください。条件の後に複数のパスが定義された場合、最初の有効なパスのみが実行されます。つまり、パスを上下に配置することで、パスの優先順位を変更できます。
 
-「その人はVIPである」と「その人は男性である」という 2 つの経路条件を取りましょう。 両方の条件を満たす場合は、1 つ目のパスが 2 つ目のパスより上にあるので、1 つ目のパスが選択されます。 この優先度を変更するには、アクティビティを別の垂直方向の順序に移動します。
+「その人はVIPである」と「その人は男性である」という2つの条件を取りましょう。 人が両方の条件を満たす場合、最初のパスは2番目のパスを超えているため、選択されます。 この優先順位を変更するには、アクティビティを別の垂直方向に移動します。
 
 ![VIPと男性の条件を示すパスの優先順位](assets/journey48.png)
 
@@ -78,7 +80,7 @@ ht-degree: 92%
 
 ![フィールド選択と論理演算子 AND OR を示す式エディター](assets/journey64.png)
 
-[[!DNL Adobe Experience Platform]  セグメント化サービス &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja){target="_blank"} を使用してオーディエンスを作成する場合は、それらのオーディエンスをジャーニー条件で利用できます。 詳しくは、[条件でのオーディエンスの使用](../building-journeys/condition-activity.md#using-a-segment)を参照してください。Journey Optimizer でオーディエンスを生成してターゲットにする方法について詳しくは、[この節](../audience/about-audiences.md)を参照してください。
+[[!DNL Adobe Experience Platform]  セグメント化サービス ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja){target="_blank"}を使用してオーディエンスを作成している場合は、ジャーニーの条件でオーディエンスを活用できます。 詳しくは、[条件でのオーディエンスの使用](../building-journeys/condition-activity.md#using-a-segment)を参照してください。Journey Optimizer でオーディエンスを生成してターゲットにする方法について詳しくは、[この節](../audience/about-audiences.md)を参照してください。
 
 
 >[!NOTE]

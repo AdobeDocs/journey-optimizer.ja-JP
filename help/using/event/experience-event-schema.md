@@ -9,7 +9,7 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: スキーマ, XDM, プラットフォーム, ストリーミング, 取り込み, ジャーニー
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: 18067694878761f3b37277dfee6f7e43987a1d42
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 86%
@@ -25,7 +25,7 @@ ht-degree: 86%
 
 >[!CAUTION]
 >
->2025 年 7 月 8 日（PT）以降、新規顧客組織は、ジャーニー条件でエクスペリエンスイベント属性を使用して式を作成できなくなります。 2026 年 4 月 1 日（PT）以降、過去 90 日間にジャーニー式を使用してエクスペリエンスイベントにアクセスしていない組織は、この機能にアクセスできなくなります。 代替アプローチとベストプラクティスについては、[&#x200B; ジャーニーでのエクスペリエンスイベントの参照 &#x200B;](../building-journeys/exp-event-lookup.md) を参照してください。
+>2025年7月8日以降、新規顧客組織は、ジャーニー条件でエクスペリエンスイベント属性を使用して式を作成できません。 2026年4月1日以降、過去90日間にジャーニー式を介してエクスペリエンスイベントにアクセスしていない組織は、この機能にアクセスできなくなります。 別のアプローチとベストプラクティスについては、[ ジャーニー内のエクスペリエンスイベントの検索](../building-journeys/exp-event-lookup.md)に記載されています。
 >
 >ジャーニーの開始イベントからコンテキストにアクセスしても影響を受けません。
 
@@ -80,7 +80,7 @@ Here is the purchase schema with the relationship defined on the product ID fiel
 
 >[!NOTE]
 >
->Learn more about schema relationships in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html?lang=ja).
+>Learn more about schema relationships in the [Experience Platform documentation](https://experienceleague.adobe.com/docs/platform-learn/tutorials/schemas/configure-relationships-between-schemas.html).
 
 In Journey Optimizer, you can then leverage all the fields from the linked tables:
 
@@ -123,7 +123,7 @@ Add a condition in a journey, edit the expression and unfold the event node in t
 
 ![](assets/schema12.png)
 
-To learn how to define journey conditions, refer to this [page](../building-journeys/condition-activity.md).
+To learn how to define journey conditions, refer to this [page](../building-journeys/conditions.md).
 
 ### Message personalization{#message_personalization}
 

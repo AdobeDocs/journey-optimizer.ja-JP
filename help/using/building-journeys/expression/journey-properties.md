@@ -9,8 +9,8 @@ level: Experienced
 keywords: ジャーニー, 式, エディター, プロパティ
 exl-id: eb1ab0ed-90bd-4613-b63d-b28693947db2
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: ht
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 # ジャーニーのプロパティ属性 {#journey-properties}
 
-[単純な式エディター](../condition-activity.md#about_condition)と[高度な式エディター](../expression/expressionadvanced.md)では、**イベント**&#x200B;カテゴリと&#x200B;**データソース**&#x200B;カテゴリの下にある&#x200B;**ジャーニープロパティ**&#x200B;カテゴリにアクセスできます。このカテゴリには、特定のプロファイルのジャーニーに関連するテクニカルフィールドが含まれています。これは、ジャーニー ID や発生した特定のエラーなど、システムがライブジャーニーから取得した情報です。
+[単純な式エディター](../conditions.md#about_condition)と[高度な式エディター](../expression/expressionadvanced.md)では、**イベント**&#x200B;カテゴリと&#x200B;**データソース**&#x200B;カテゴリの下にある&#x200B;**ジャーニープロパティ**&#x200B;カテゴリにアクセスできます。このカテゴリには、特定のプロファイルのジャーニーに関連するテクニカルフィールドが含まれています。これは、ジャーニー ID や発生した特定のエラーなど、システムがライブジャーニーから取得した情報です。
 
 ![](../assets/journey-properties.png)
 
@@ -55,7 +55,7 @@ ht-degree: 100%
 | | organizationId | 組織識別子 | ブランドの組織 |
 | | sandboxName | サンドボックス名 | サンドボックスの名前 |
 | ID | profileId | プロファイル ID 識別子 | ジャーニー内のプロファイルの識別子 |
-| | namespace | プロファイル ID 名前空間 | ジャーニー内のプロファイルの名前空間（例：ECID） |
+| | 名前空間 | プロファイル ID 名前空間 | ジャーニー内のプロファイルの名前空間（例：ECID） |
 | 現在のノード | currentNodeId | 現在のノード識別子 | 現在のアクティビティ（ノード）の識別子 |
 | | currentNodeName | 現在のノード名 | 現在のアクティビティ（ノード）の名前 |
 | 前のノード | previousNodeId | 前のノード識別子 | 前のアクティビティ（ノード）の識別子 |

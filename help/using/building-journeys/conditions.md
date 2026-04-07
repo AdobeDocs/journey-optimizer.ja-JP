@@ -1,21 +1,19 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 条件アクティビティ
-description: 条件アクティビティについて学ぶ
+title: 条件
+description: ジャーニーパスの最適化アクティビティでの条件の設定
 feature: Journeys, Activities
 topic: Content Management
 role: User
 level: Intermediate
 keywords: アクティビティ, 条件, キャンバス, ジャーニー
-hidefromtoc: true
-hide: true
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
-source-wordcount: '1662'
-ht-degree: 95%
+source-wordcount: '1873'
+ht-degree: 89%
 
 ---
 
@@ -24,15 +22,15 @@ ht-degree: 95%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_conditions"
 >title="条件"
->abstract="条件を使用すると、特定の条件に基づいて複数のパスを作成することで、個人がジャーニーをどのように進めるかを定義できます。また、タイムアウトやエラーを処理するための代替パスを設定して、シームレスなエクスペリエンスを確保することもできます。"
+>abstract="条件を使用すると、特定の条件に基づいて複数のパスを作成することで、個人がジャーニーをどのように進めるかを定義できます。また、タイムアウトやエラーを処理するための代替パスを設定して、シームレスなエクスペリエンスを実現することもできます。 条件が最適化アクティビティで設定され、以前の条件アクティビティが置き換えられることに注意してください。"
 
 **条件**&#x200B;を使用すると、特定の条件に基づいて複数のパスを作成することで、個人がジャーニーをどのように進めるかを定義できます。また、タイムアウトやエラーを処理するための代替パスを設定して、シームレスなエクスペリエンスを確保することもできます。
 
->[!AVAILABILITY]
+>[!NOTE]
 >
->これらの条件は、限定提供でオンデマンドでアクセスできる&#x200B;**最適化**&#x200B;アクティビティを通じて使用できます。アクセス権を取得するには、アドビ担当者にお問い合わせください。
+>ジャーニーで条件付きパスを作成するための新しい手段は、[最適化](optimize.md) アクティビティです。 UIから削除された以前の&#x200B;**条件** アクティビティに置き換わります。 すべての条件付きロジックは、このページに表示されている最適化アクティビティの条件を通じて処理されるようになりました。
 >
->この処理能力へのアクセス権がない場合は、従来の[条件アクティビティ](condition-activity.md)を引き続き使用できます。
+>**[!UICONTROL 条件]** アクティビティを使用した既存のジャーニーがある場合は、以前と同様に使用できます。 これらは、**[!UICONTROL 条件]** メソッドを使用して&#x200B;**[!UICONTROL 最適化]** アクティビティとして新しいアイコンで表示されるようになりましたが、動作は変更されていません。 ノードに設定したカスタムラベルはすべて保持されます。
 
 ## 条件の追加 {#add-condition-activity}
 
@@ -55,6 +53,10 @@ ht-degree: 95%
    * [プロファイルキャップ](#profile_cap)
    * ジャーニー条件でオーディエンスを使用することもできます。[詳細情報](#using-a-segment)
 
+>[!NOTE]
+>
+>[プロファイルストア](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja#profile-data-store){target="_blank"}に 2 つを超えるクロスデバイス ID が含まれるプロファイルでは、条件評価は失敗します。
+
 ## 条件のパスの管理 {#condition_paths}
 
 >[!CONTEXTUALHELP]
@@ -70,7 +72,7 @@ ht-degree: 95%
 
 ジャーニーの設計には、機能的な影響があることに注意してください。条件の後に複数のパスが定義された場合、最初の有効なパスのみが実行されます。つまり、パスを上下に配置することで、パスの優先順位を変更できます。
 
-「その人はVIPである」と「その人は男性である」という 2 つの経路条件を取りましょう。 両方の条件を満たす場合は、1 つ目のパスが 2 つ目のパスより上にあるので、1 つ目のパスが選択されます。 この優先度を変更するには、アクティビティを別の垂直方向の順序に移動します。
+「その人はVIPである」と「その人は男性である」という2つの条件を取りましょう。 人が両方の条件を満たす場合、最初のパスは2番目のパスを超えているため、選択されます。 この優先順位を変更するには、アクティビティを別の垂直方向に移動します。
 
 ![VIP 条件が男性条件より上であることを示すパスの優先順位の例](assets/journey48.png)
 
@@ -87,7 +89,7 @@ ht-degree: 95%
 
 ![ドラッグ＆ドロップフィールドと論理演算子を含むシンプルな式エディター](assets/journey64.png){width=80%}
 
-[[!DNL Adobe Experience Platform]  セグメント化サービス &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja){target="_blank"} を使用してオーディエンスを作成する場合は、それらのオーディエンスをジャーニー条件で利用できます。 詳しくは、[条件でのオーディエンスの使用](../building-journeys/condition-activity.md#using-a-segment)を参照してください。
+[Adobe Experience Platform セグメント化サービス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja){target="_blank"}を使用してオーディエンスを作成している場合は、ジャーニー条件で活用できます。[条件でオーディエンスを使用](#using-a-segment)を参照してください。
 
 >[!NOTE]
 >
@@ -102,6 +104,14 @@ ht-degree: 95%
 **[!UICONTROL データソースの条件]**&#x200B;を使用すると、データソースのフィールドまたはジャーニー内で以前に配置されたイベントに基づいて条件を定義できます。このタイプの条件は、式エディターで定義されます。[式エディターにアクセスする方法の詳細情報](expression/expressionadvanced.md)
 
 例えば、構成ワークフローまたはカスタムアップロード（CSV ファイル）を使用して生成されたエンリッチメント属性を持つオーディエンスをターゲティングしている場合、これらのエンリッチメント属性を活用して条件を作成できます。
+
+>[!IMPORTANT]
+>
+>**欠落している属性または取り込まれていない属性の処理**
+>
+>プロファイルスキーマでスキーマフィールドが定義されているが、そのフィールドにデータが取り込まれていない場合、Journey Optimizer と基になるリアルタイム顧客プロファイルは、そのフィールドを `null` として解釈します。その結果、`isEmpty()`、`isNull()` または類似の関数をチェックする条件は、属性が一度も取り込まれていない場合でも `true` と評価されます。フィールドにデータがないことを認識していない場合、予期しないジャーニー動作につながることがあります。
+>
+>混乱を避けるために、プロファイルがジャーニーにエントリする前に、条件式で使用する属性に実際のデータが取り込まれていることを確認します。[リアルタイム顧客プロファイル](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target="_blank"}の属性値を確認して、条件で使用されるフィールドにデータが存在するかどうかを確認できます。
 
 高度な式エディターを使用すると、コレクションを操作したり、パラメーターを渡す必要があるデータソースを使用したり、より高度な条件を設定できます。[詳細情報](../datasource/external-data-sources.md)
 
@@ -188,7 +198,7 @@ ht-degree: 95%
 
 1. 左側で、**[!UICONTROL オーディエンス]**&#x200B;ノードを展開します。条件に使用するオーディエンスをドラッグ＆ドロップします。デフォルトでは、オーディエンスの条件は true です。
 
-   ![[!DNL Adobe Experience Platform] しいオーディエンスを選択するための式エディターのオーディエンスノード &#x200B;](assets/segment4.png){width=80%}
+   ![個のオーディエンスを選択するための式エディターの[!DNL Adobe Experience Platform] オーディエンスノード ](assets/segment4.png){width=80%}
 
    >[!NOTE]
    >

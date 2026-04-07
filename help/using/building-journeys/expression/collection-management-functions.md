@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: コレクション管理機能
+title: コレクション管理関数
 description: コレクション管理関数のデータタイプについて説明します
 feature: Journeys
 role: Developer
@@ -9,21 +9,21 @@ level: Experienced
 keywords: クエリ, コレクション, 関数, ペイロード, ジャーニー
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
 version: Journey Orchestration
-source-git-commit: e7693ba84d8806cf4b0dc10e8fdd18f2511e37ea
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '545'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
-# コレクション管理機能 {#collection-management-functions}
+# コレクション管理関数 {#collection-management-functions}
 
 
 ## クエリコレクション関数について
 
 式言語には、クエリコレクションに対する一連の関数も導入されています。これらの関数について以下で説明します。
 
-次の例では、「LobbyBeacon」という名前のイベントを使用して、プッシュ通知トークンのコレクションを含めています。 このページの例では、次に示すイベントペイロード構造を使用しています。
+次の例では、プッシュ通知トークンのコレクションを含む「LobbyBeacon」という名前のイベントを使用します。 このページの例では、以下に示すイベントペイロード構造を使用しています。
 
 ```json
                 { 
@@ -67,7 +67,7 @@ ht-degree: 82%
 
 >[!NOTE]
 >
->以下の例では、`@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens}` を使用してこのペイロードが参照されています。ここで、「LobbyBeacon」はイベント名で、残りのパスは上記の構造に対応しています。
+>以下の例では、このペイロードは `@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens}` を使用して参照されています。ここで、「LobbyBeacon」はイベント名で、残りのパスは上記の構造に対応しています。
 
 ## all(`<condition>`) 関数
 
@@ -77,9 +77,9 @@ ht-degree: 82%
 <listExpression>.all(<condition>)
 ```
 
-**概念例：** すべてのアプリユーザーの中から、IOS 13 を使用しているユーザーを取得できます（ブール式「app used == IOS 13」）。 この関数の結果は、ブール式に一致する項目（例：アプリユーザー 1、アプリユーザー 34、アプリユーザー 432）を含んだフィルター済みリストになります。
+**概念的な例：**&#x200B;すべてのアプリユーザーの中から、iOS 13 を使用しているユーザーを取得できます（ブール式「app used == IOS 13」）。この関数の結果は、ブール式に一致する項目（例：アプリユーザー 1、アプリユーザー 34、アプリユーザー 432）を含んだフィルター済みリストになります。
 
-「データソースの条件」アクティビティでは、**[!UICONTROL all]** 関数の結果が null かどうかを確認できます。また、この **[!UICONTROL all]** 関数を、**[!UICONTROL count]** 関数などの他の関数と組み合わせることができます。詳しくは、[「データソースの条件」アクティビティ](../condition-activity.md#data_source_condition)を参照してください。
+「データソースの条件」アクティビティでは、**[!UICONTROL all]** 関数の結果が null かどうかを確認できます。また、この **[!UICONTROL all]** 関数を、**[!UICONTROL count]** 関数などの他の関数と組み合わせることができます。詳しくは、[「データソースの条件」アクティビティ](../conditions.md#data_source_condition)を参照してください。
 
 **LobbyBeacon ペイロードを使用したコード例：**
 

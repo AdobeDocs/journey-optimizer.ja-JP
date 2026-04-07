@@ -1,246 +1,246 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: ドキュメント更新レポート（毎月）
+title: 月次ドキュメント更新レポート
 description: 新規および更新されたドキュメントページのリスト
 hide: true
 hidefromtoc: true
 exl-id: 7962189b-4135-4f88-b91d-40d21cdf6c6d
-source-git-commit: 13ac469c33d2a580ba499bb463ac9fc63bef733c
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
-source-wordcount: '1292'
+source-wordcount: '1294'
 ht-degree: 0%
 
 ---
 
-# ドキュメント更新レポート（毎月）
+# 月次ドキュメント更新レポート
 
-## レポート：2024 年 12 月 11 日～2026 年 1 月 6 日
-
-### 新規ページ
-
-- [&#x200B; トラッキングの概要 &#x200B;](help/using/start/get-started-tracking.md) - 12 月 19 日（PT）
-
-### 更新されたページ
-
-- [Journey Optimizer ガードレールと制限 &#x200B;](help/using/start/guardrails.md) - 1 月 6 日（PT）
-- [&#x200B; ダイレクトメール設定 &#x200B;](help/using/direct-mail/direct-mail-configuration.md) - 1 月 5 日
-- [Personalization構文 &#x200B;](help/using/personalization/personalization-syntax.md) - 1 月 5 日
-- [&#x200B; ジャーニーの概要 &#x200B;](help/using/building-journeys/journey.md) - 1 月 2 日（PT）
-- [&#x200B; キャンペーンの概要 &#x200B;](help/using/campaigns/get-started-with-campaigns.md) - 1 月 2 日（PT）
-- [&#x200B; キャンペーンの管理 &#x200B;](help/using/campaigns/manage-campaigns.md) - 1 月 2 日
-- [&#x200B; サブドメインのデリゲート &#x200B;](help/using/configuration/delegate-subdomain.md) - 1 月 2 日（Pt）
-- [Google TXT レコードの設定 &#x200B;](help/using/configuration/google-txt.md) - 1 月 2 日
-- [&#x200B; トラッキングの概要 &#x200B;](help/using/start/get-started-tracking.md) - 12 月 23 日（PT）
-- [&#x200B; ステップイベントフィールドの一覧 &#x200B;](help/using/reports/sharing-field-list.md) - 12 月 23 日
-- [&#x200B; 配達確認の送信 &#x200B;](help/using/content-management/proofs.md) - 12 月 23 日
-- [&#x200B; チャネルキャッピングルールセットの操作 &#x200B;](help/using/conflict-prioritization/channel-capping.md) - 12 月 23 日（PT）
-- [&#x200B; 決定にカスタムアップロードオーディエンスを使用 &#x200B;](help/using/offers/custom-upload-decisioning.md) - 12 月 23 日（PT）
-- [&#x200B; 通信チャネルの概要 &#x200B;](help/using/channels/gs-channels.md) - 12 月 22 日（PT）
-- [&#x200B; リリースノート 2025](help/using/rn/release-notes-2025.md) - 12 月 18 日
-- [AEM フラグメントの操作 &#x200B;](help/using/integrations/aem-fragments.md) - 12 月 18 日（PT）
-
-## 以前のレポート：2024 年 11 月 3 日～12 月 11 日
+## レポート：2024年12月11日 – 2026年1月6日
 
 ### 新規ページ
 
-- [ジャーニーの入退室条件ガイド &#x200B;](help/using/building-journeys/entry-exit-criteria-guide.md) - 12 月 11 日（PT）
-- [ジャーニーのユースケース &#x200B;](help/using/building-journeys/jo-use-cases.md) - 12 月 11 日
-- [&#x200B; 平日のみメールを送信 &#x200B;](help/using/building-journeys/weekday-email-uc.md) - 12 月 11 日（PT）
-- [&#x200B; コンテキストデータの反復 &#x200B;](help/using/personalization/iterate-contextual-data.md) - 12 月 11 日（PT）
-- [Journey Optimizerでの意思決定機能の概要 &#x200B;](help/using/experience-decisioning/gs-decision.md) - 11 月 18 日（PT）
-- [&#x200B; コードベースのエクスペリエンスのサーフェスを定義 &#x200B;](help/using/code-based/code-based-surface.md) - 11 月 22 日（PT）
-- [&#x200B; コードベースのエクスペリエンスの公開と管理 &#x200B;](help/using/code-based/publish-code-based.md) - 11 月 22 日
-- [&#x200B; コードベースのエクスペリエンスのテスト &#x200B;](help/using/code-based/test-code-based.md) - 11 月 22 日（PT）
+- [ トラッキングの開始](help/using/start/get-started-tracking.md) - 12月19日
 
 ### 更新されたページ
 
-- [&#x200B; パーソナライゼーションに関するAdobe Experience Platform データの参照 &#x200B;](help/using/data/lookup-aep-data.md) - 12 月 10 日
-- [&#x200B; モバイルアプリケーション設定 &#x200B;](help/using/configuration/set-mobile-config.md) - 12 月 6 日（PT）
-- [&#x200B; 手動翻訳による多言語コンテンツ &#x200B;](help/using/content-management/multilingual-provider.md) - 12 月 5 日
-- [&#x200B; コードベースのエクスペリエンスでの意思決定の使用 &#x200B;](help/using/experience-decisioning/experience-decisioning-uc.md) - 12 月 3 日（PT）
-- [&#x200B; アクションキャンペーンの作成 &#x200B;](help/using/campaigns/create-campaign.md) - 12 月 2 日
-- [IP ウォームアップの実行 &#x200B;](help/using/configuration/ip-warmup-execution.md) - 11 月 26 日（PT）
-- [&#x200B; ランディングページの作成 &#x200B;](help/using/landing-pages/create-lp.md) - 11 月 25 日
-- [&#x200B; ランディングページのライブレポート &#x200B;](help/using/reports/lp-report-live.md) - 11 月 25 日
-- [&#x200B; コードベースの設定 &#x200B;](help/using/code-based/code-based-configuration.md) - 11 月 22 日（Pt）
-- [&#x200B; コードベースの実装方法のサンプル &#x200B;](help/using/code-based/code-based-implementation-samples.md) - 11 月 22 日（PT）
-- [&#x200B; コードベースの前提条件とガードレール &#x200B;](help/using/code-based/code-based-prerequisites.md) - 11 月 22 日（PT）
-- [&#x200B; コードベースのエクスペリエンスを作成 &#x200B;](help/using/code-based/create-code-based.md) - 11 月 22 日（PT）
-- [&#x200B; コードベースのエクスペリエンスの概要 &#x200B;](help/using/code-based/get-started-code-based.md) - 11 月 22 日（PT）
-- [&#x200B; コンテンツのプレビューとテスト &#x200B;](help/using/content-management/preview.md) - 11 月 22 日
-- [web チャネル設定 &#x200B;](help/using/web/web-configuration.md) - 11 月 22 日（PT）
-- [&#x200B; テストプロファイルの作成 &#x200B;](help/using/audience/creating-test-profiles.md) - 11 月 22 日
-- [&#x200B; 配達確認の送信 &#x200B;](help/using/content-management/proofs.md) - 11 月 22 日
-- [&#x200B; コンテンツテンプレートのテスト &#x200B;](help/using/content-management/test-content-templates.md) - 11 月 22 日
-- [&#x200B; テストプロファイルを使用 &#x200B;](help/using/content-management/test-profiles.md) - 11 月 22 日
-- [&#x200B; メールの作成 &#x200B;](help/using/email/create-email.md) - 11 月 22 日（PT）
-- [&#x200B; サーフェスのパーソナライゼーション &#x200B;](help/using/email/surface-personalization.md) - 11 月 22 日
-- [&#x200B; プッシュ通知の作成 &#x200B;](help/using/push/create-push.md) - 11 月 22 日
-- [&#x200B; プッシュ通知の送信 &#x200B;](help/using/push/send-push.md) - 11 月 22 日
-- [&#x200B; テキストメッセージ（SMS/MMS）の送信 &#x200B;](help/using/sms/send-sms.md) - 11 月 22 日（PT）
-- [&#x200B; マーケターのユーザーパス &#x200B;](help/using/start/path/marketer.md) - 11 月 22 日
-- [&#x200B; 管理者のユーザーパス &#x200B;](help/using/start/path/administrator.md) - 11 月 22 日（PT）
-- [&#x200B; メッセージのプレビューとテスト &#x200B;](help/using/content-management/preview-test.md) - 11 月 22 日
-- [&#x200B; 属性ベースのアクセス制御 &#x200B;](help/using/administration/attribute-based-access.md) - 11 月 21 日（PT）
-- [&#x200B; オブジェクトレベルのアクセス制御 &#x200B;](help/using/administration/object-based-access.md) - 11 月 21 日（PT）
-- [API トリガーキャンペーンの操作 &#x200B;](help/using/campaigns/api-triggered-campaigns.md) - 11 月 21 日（PT）
-- [&#x200B; 意思決定管理の概要 &#x200B;](help/using/offers/get-started/starting-offer-decisioning.md) - 11 月 21 日（PT）
-- [IP ウォームアップキャンペーン &#x200B;](help/using/configuration/ip-warmup-campaign.md) - 11 月 20 日（PT）
-- [IP ウォームアッププラン &#x200B;](help/using/configuration/ip-warmup-plan.md) - 11 月 20 日（PT）
-- [&#x200B; 権限の概要 &#x200B;](help/using/administration/permissions-overview.md) - 11 月 15 日
-- [CJA レポートの決定 &#x200B;](help/using/experience-decisioning/cja-reporting.md) - 11 月 15 日
-- [&#x200B; フラグメント &#x200B;](help/using/content-management/fragments.md) - 11 月 15 日
-- [Adobe Experience Platform オーディエンスの概要 &#x200B;](help/using/audience/about-audiences.md) - 11 月 14 日（PT）
-- [&#x200B; 決定へのカスタムアップロードオーディエンスの使用（連合構成） &#x200B;](help/using/audience/custom-upload.md) 11 月 14 日（PT）
-- [Sinch プロバイダーの設定 &#x200B;](help/using/sms/sms-configuration-sinch.md) - 11 月 12 日（Pt）
-- [Customer Journey Analyticsのキャンペーンレポート &#x200B;](help/using/reports/channel-report-cja.md) - 11 月 12 日
-- [Customer Journey Analyticsのジャーニーレポート &#x200B;](help/using/reports/journey-global-report-cja.md) - 11 月 12 日
-- [&#x200B; 自動翻訳による多言語コンテンツ &#x200B;](help/using/content-management/multilingual-automated.md) - 11 月 12 日（PT）
-- [&#x200B; 決定カタログ &#x200B;](help/using/experience-decisioning/catalogs.md) - 11 月 7 日
-- [&#x200B; 決定項目コレクションの作成と管理 &#x200B;](help/using/experience-decisioning/collections.md) - 11 月 7 日
-- [&#x200B; コンテキストデータ &#x200B;](help/using/experience-decisioning/context-data.md) - 11 月 7 日
-- [&#x200B; 決定ポリシーの概要 &#x200B;](help/using/experience-decisioning/create-decision.md) - 11 月 7 日（PT）
-- [&#x200B; 意思決定の概要 &#x200B;](help/using/experience-decisioning/gs-experience-decisioning.md) - 11 月 7 日（PT）
-- [&#x200B; 決定項目 &#x200B;](help/using/experience-decisioning/items.md) - 11 月 7 日
-- [&#x200B; 決定ランキング方法 &#x200B;](help/using/experience-decisioning/ranking/ranking.md) - 11 月 7 日（PT）
-- [&#x200B; ルールの作成 &#x200B;](help/using/experience-decisioning/rules.md) - 11 月 7 日
-- [&#x200B; 選択戦略の作成 &#x200B;](help/using/experience-decisioning/selection-strategies.md) - 11 月 7 日
-- [&#x200B; ルールセットの操作 &#x200B;](help/using/conflict-prioritization/rule-sets.md) - 11 月 6 日
-- [&#x200B; 決定の作成 &#x200B;](help/using/offers/offer-activities/create-offer-activities.md) - 11 月 5 日（PT）
-- [&#x200B; コレクションの作成 &#x200B;](help/using/offers/offer-library/creating-collections.md) - 11 月 5 日（PT）
-- [&#x200B; パーソナライズされたオファーの作成 &#x200B;](help/using/offers/offer-library/creating-personalized-offers.md) - 11 月 5 日
-- [&#x200B; プレースメントの作成 &#x200B;](help/using/offers/offer-library/creating-placements.md) - 11 月 5 日
-- [&#x200B; ランキング戦略の作成 &#x200B;](help/using/offers/ranking/create-ranking-strategies.md) - 11 月 5 日（PT）
+- [Journey Optimizerのガードレールと制限事項](help/using/start/guardrails.md) - 1月6日
+- [ ダイレクトメール設定](help/using/direct-mail/direct-mail-configuration.md) - 1月5日
+- [Personalization構文](help/using/personalization/personalization-syntax.md) - 1月5日
+- [ ジャーニーの基本を学ぶ](help/using/building-journeys/journey.md) - 1月2日
+- [ キャンペーンの基本を学ぶ](help/using/campaigns/get-started-with-campaigns.md) - 1月2日
+- [ キャンペーンの管理](help/using/campaigns/manage-campaigns.md) - 1月2日
+- [ サブドメインのデリゲート ](help/using/configuration/delegate-subdomain.md) - 1月2日
+- [Google TXT レコードの設定](help/using/configuration/google-txt.md) - 1月2日
+- [ トラッキングの開始](help/using/start/get-started-tracking.md) - 12月23日
+- [ ステップ イベント フィールド リスト ](help/using/reports/sharing-field-list.md) - 12月23日
+- [ プルーフを送信](help/using/content-management/proofs.md) - 12月23日
+- [ チャネルキャッピングルールセットの操作](help/using/conflict-prioritization/channel-capping.md) - 12月23日
+- [決定にカスタムアップロードオーディエンスを使用](help/using/offers/custom-upload-decisioning.md) - 12月23日
+- [ コミュニケーションチャネルの基本を学ぶ](help/using/channels/gs-channels.md) - 12月22日
+- [ リリースノート 2025](help/using/rn/release-notes-2025.md) - 12月18日
+- [AEM フラグメントの操作](help/using/integrations/aem-fragments.md) - 12月18日
 
-## 以前のレポート：2024 年 10 月 1 日～11 月 3 日
+## 前回のレポート：2024年11月3日～12月11日
 
 ### 新規ページ
 
-- [Adobe Journey Optimizerの AI およびインテリジェント機能 &#x200B;](help/using/start/ai-features.md) - 10 月 31 日
-- [&#x200B; 顧客の環境設定の管理 &#x200B;](help/using/action/preference-center.md) - 10 月 24 日（PT）
-- [ジャーニーレポート &#x200B;](help/using/action/reporting.md) - 10 月 29 日
-- [&#x200B; エラーコードのリファレンス &#x200B;](help/using/building-journeys/error-codes-reference.md) - 10 月 27 日（PT）
-- [ジャーニーに関するよくある質問 &#x200B;](help/using/building-journeys/journey-faq.md) - 10 月 28 日（PT）
-- [API トリガーキャンペーンに対する高スループットモードの有効化 &#x200B;](help/using/campaigns/api-triggered-high-throughput.md) - 10 月 27 日（PT）
-- [&#x200B; クワイエットアワーの設定 &#x200B;](help/using/conflict-prioritization/quiet-hours.md) - 10 月 22 日
-- [Journey Optimizer Experimentation Accelerator](help/using/content-management/experiment-accelerator-gs.md) - 10 月 24 日
-- [&#x200B; 画像からHTMLへのコンバーターを使用して画像をHTML テンプレートに変換 &#x200B;](help/using/content-management/image-to-html.md) - 10 月 30 日
-- [&#x200B; 決定ポリシーの作成 &#x200B;](help/using/experience-decisioning/create-decision-policy.md) - 10 月 7 日
-- [&#x200B; メッセージでの決定ポリシーの使用 &#x200B;](help/using/experience-decisioning/use-decision-policy.md) - 10 月 9 日
-- [&#x200B; チャネル設定の指定 &#x200B;](help/using/orchestrated/channel-config.md) - 10 月 14 日（PT）
-- [&#x200B; ジャーニーステップイベントの操作 &#x200B;](help/using/reports/journey-step-events-overview.md) - 10 月 21 日
-- [Adobe Journey Optimizer リリースサイクル &#x200B;](help/using/rn/releases.md) - 10 月 28 日（PT）
+- [ジャーニーの入出口基準ガイド ](help/using/building-journeys/entry-exit-criteria-guide.md) - 12月11日
+- [ジャーニーユースケース ](help/using/building-journeys/jo-use-cases.md) - 12月11日
+- [平日のみメールを送信](help/using/building-journeys/weekday-email-uc.md) - 12月11日
+- [ コンテキストデータの繰り返し](help/using/personalization/iterate-contextual-data.md) - 12月11日
+- [Journey Optimizerで意思決定機能を使用する](help/using/experience-decisioning/gs-decision.md) - 11月18日
+- [ コードベースのエクスペリエンスのサーフェスを定義](help/using/code-based/code-based-surface.md) - 11月22日
+- [ コードベースのエクスペリエンスの公開と管理](help/using/code-based/publish-code-based.md) - 11月22日
+- [ コードベースのエクスペリエンスをテスト ](help/using/code-based/test-code-based.md) - 11月22日
 
 ### 更新されたページ
 
-- [Adobe Journey Optimizer ドキュメント &#x200B;](help/ajo-home.md) - 10 月 22 日
-- [&#x200B; コンテンツ管理 &#x200B;](help/rp_landing_pages/content-management-landing-page.md) - 10 月 27 日
-- [&#x200B; はじめに &#x200B;](help/rp_landing_pages/get-started-landing-page.md) - 10 月 27 日（PT）
-- [&#x200B; 以前のリリースノート &#x200B;](help/rp_landing_pages/previous-rn-new-landing-page.md) - 10 月 13 日
-- [&#x200B; テストと承認 &#x200B;](help/rp_landing_pages/test-landing-page.md) - 10 月 27 日（PT）
-- [&#x200B; トラブルシューティング &#x200B;](help/rp_landing_pages/troubleshoot-journey-landing-page.md) - 10 月 27 日
-- [&#x200B; アクションの概要 &#x200B;](help/using/action/action.md) - 10 月 13 日（PT）
-- [&#x200B; 同意ポリシーの操作 &#x200B;](help/using/action/consent.md) - 10 月 21 日
-- [&#x200B; カスタムアクションのトラブルシューティング &#x200B;](help/using/action/troubleshoot-custom-action.md) - 10 月 13 日
-- [&#x200B; テストプロファイルの作成 &#x200B;](help/using/audience/creating-test-profiles.md) - 10 月 22 日
-- [Adobe Experience Platform オーディエンスについて &#x200B;](help/using/audience/enrichment-attributes.md) - 10 月 28 日（PT）
-- [Journey Optimizerでのプロファイルの概要 &#x200B;](help/using/audience/get-started-profiles.md) - 10 月 22 日（PT）
-- [&#x200B; ジャーニーアクティビティの概要 &#x200B;](help/using/building-journeys/about-journey-activities.md) - 10 月 27 日（PT）
-- [&#x200B; コレクションをカスタムアクションパラメーターに渡す &#x200B;](help/using/building-journeys/collections.md) - 10 月 13 日
-- [&#x200B; 条件アクティビティ &#x200B;](help/using/building-journeys/condition-activity.md) - 10 月 24 日
-- [&#x200B; ジャーニーでのAdobe Experience Platform データの使用 &#x200B;](help/using/building-journeys/dataset-lookup.md) - 10 月 28 日
-- [&#x200B; ジャーニーでのエクスペリエンスイベントルックアップ &#x200B;](help/using/building-journeys/exp-event-lookup.md) - 10 月 28 日（PT）
-- [&#x200B; アクションジャーニーアクティビティの使用 &#x200B;](help/using/building-journeys/journey-action.md) - 10 月 14 日
-- [&#x200B; ジャーニーの一時停止 &#x200B;](help/using/building-journeys/journey-pause.md) - 10 月 13 日（PT）
-- [&#x200B; ジャーニーの概要 &#x200B;](help/using/building-journeys/journey.md) - 10 月 27 日（PT）
-- [&#x200B; ジャーニーへの組み込みチャネルアクションの追加 &#x200B;](help/using/building-journeys/journey-action.md) - 10 月 29 日
-- [&#x200B; アクティビティの最適化 &#x200B;](help/using/building-journeys/optimize.md) - 10 月 22 日（PT）
-- [&#x200B; ジャーニーでのオーディエンスの使用 &#x200B;](help/using/building-journeys/read-audience.md) - 10 月 17 日
-- [&#x200B; 送信時間の最適化 &#x200B;](help/using/building-journeys/send-time-optimization.md) - 10 月 28 日
-- [&#x200B; ジャーニーのテスト &#x200B;](help/using/building-journeys/testing-the-journey.md) - 10 月 28 日
-- [API トリガーキャンペーンアクションの設定 &#x200B;](help/using/campaigns/api-triggered-campaign-action.md) - 10 月 29 日（PT）
-- [API トリガーキャンペーンオーディエンスの定義 &#x200B;](help/using/campaigns/api-triggered-campaign-audience.md) - 10 月 23 日（PT）
-- [API トリガーキャンペーンコンテンツの編集 &#x200B;](help/using/campaigns/api-triggered-campaign-content.md) - 10 月 23 日（PT）
-- [API トリガーキャンペーンのプロパティの定義 &#x200B;](help/using/campaigns/api-triggered-campaign-properties.md) - 10 月 23 日（PT）
-- [API トリガーキャンペーンの操作 &#x200B;](help/using/campaigns/api-triggered-campaigns.md) - 10 月 29 日（PT）
-- [&#x200B; キャンペーンアクションの設定 &#x200B;](help/using/campaigns/campaign-action.md) - 10 月 29 日
-- [&#x200B; キャンペーンとジャーニーの最適化 &#x200B;](help/using/content-management/gs-message-optimization.md) - 10 月 22 日（PT）
-- [&#x200B; アクションキャンペーンの作成 &#x200B;](help/using/campaigns/create-campaign.md) - 10 月 29 日
-- [&#x200B; キャンペーンの概要 &#x200B;](help/using/campaigns/get-started-with-campaigns.md) - 10 月 29 日（PT）
-- [&#x200B; キャンペーンへのアクセスと管理 &#x200B;](help/using/campaigns/manage-campaigns.md) - 10 月 23 日（PT）
-- [&#x200B; クワイエットアワー &#x200B;](help/using/conflict-prioritization/quiet-hours.md) - 10 月 31 日
-- [&#x200B; キャンペーンのレビューとアクティブ化 &#x200B;](help/using/campaigns/trigger-campaigns.md) - 10 月 23 日（PT）
-- [&#x200B; の通信チャネルの概要  [!DNL Adobe Journey Optimizer]](help/using/channels/gs-channels.md) - 11 月 3 日（PT）
-- [Journey Optimizerと外部システムの統合 &#x200B;](help/using/configuration/external-systems.md) - 10 月 28 日（PT）
-- [&#x200B; 実行アドレスの変更 &#x200B;](help/using/configuration/primary-email-addresses.md) - 10 月 22 日
-- [&#x200B; ルールセットの操作 &#x200B;](help/using/conflict-prioritization/channel-capping.md) - 10 月 28 日
-- [&#x200B; ルールセットの操作 &#x200B;](help/using/conflict-prioritization/rule-sets.md) - 10 月 27 日
-- [&#x200B; コンテンツ実験の作成 &#x200B;](help/using/content-management/content-experiment.md) - 10 月 15 日
-- [&#x200B; フラグメントの作成 &#x200B;](help/using/content-management/create-fragments.md) - 10 月 7 日
-- [&#x200B; フラグメントの管理 &#x200B;](help/using/content-management/manage-fragments.md) - 10 月 7 日
-- [&#x200B; データセットクエリの例 &#x200B;](help/using/data/datasets-query-examples.md) - 10 月 17 日
-- [&#x200B; データセットの有効期間（TTL）ガードレールについて &#x200B;](help/using/data/datasets-ttl.md) - 10 月 28 日（PT）
-- [&#x200B; ダイレクトメールメッセージの作成 &#x200B;](help/using/direct-mail/create-direct-mail.md) - 10 月 15 日
-- [&#x200B; アクセシブルなコンテンツの設計 &#x200B;](help/using/email/accessible-content.md) - 10 月 25 日（PT）
-- [&#x200B; メールDesignerのコンテンツコンポーネントの使用 &#x200B;](help/using/email/content-components.md) - 10 月 25 日（PT）
-- [Journey Optimizerでのコンテンツのゼロからのデザイン &#x200B;](help/using/email/content-from-scratch.md) - 10 月 25 日
-- [&#x200B; メール設定 &#x200B;](help/using/email/email-settings.md) - 10 月 22 日（PT）
-- [&#x200B; メールコンテンツの読み込み &#x200B;](help/using/email/existing-content.md) - 10 月 30 日
-- [&#x200B; メール設定の概要 &#x200B;](help/using/email/get-started-email-config.md) - 10 月 22 日（PT）
-- [&#x200B; メールのデザイン &#x200B;](help/using/email/get-started-email-design.md) - 10 月 30 日（PT）
-- [&#x200B; メールスタイルの概要 &#x200B;](help/using/email/get-started-email-style.md) - 10 月 25 日（PT）
-- [&#x200B; リスト登録解除の設定 &#x200B;](help/using/email/list-unsubscribe.md) - 10 月 15 日（PT）
-- [&#x200B; メッセージのトラッキング &#x200B;](help/using/email/message-tracking.md) - 10 月 18 日
-- [&#x200B; メールへのPDF ファイルの添付 &#x200B;](help/using/email/pdf-attachments.md) - 10 月 6 日
-- [URL トラッキングの設定 &#x200B;](help/using/email/url-tracking.md) - 10 月 25 日
-- [&#x200B; 決定へのAdobe Experience Platform データの使用 &#x200B;](help/using/experience-decisioning/aep-data-exd.md) - 10 月 8 日
-- [&#x200B; 決定ポリシーの概要 &#x200B;](help/using/experience-decisioning/create-decision.md) - 10 月 7 日（PT）
-- [&#x200B; 決定ガードレールと制限 &#x200B;](help/using/experience-decisioning/decisioning-guardrails.md) - 10 月 25 日（PT）
-- [&#x200B; 決定項目 &#x200B;](help/using/experience-decisioning/items.md) - 10 月 8 日
-- [&#x200B; ランキング式 &#x200B;](help/using/experience-decisioning/ranking/ranking-formulas.md) - 10 月 28 日
-- [&#x200B; ルールの作成 &#x200B;](help/using/experience-decisioning/rules.md) - 10 月 23 日
-- [&#x200B; 選択戦略の作成 &#x200B;](help/using/experience-decisioning/selection-strategies.md) - 10 月 7 日
-- [Journey Optimizerでのアプリ内通知の作成 &#x200B;](help/using/in-app/create-in-app.md) - 10 月 27 日
-- [&#x200B; アプリ内チャネルの前提条件と設定 &#x200B;](help/using/in-app/inapp-configuration.md) - 10 月 23 日
-- [Dynamic Media](help/using/integrations/aem-dynamic.md) - 10 月 17 日
-- [Journey OptimizerでのAssetsの使用 &#x200B;](help/using/integrations/assets.md) - 10 月 28 日（PT）
-- [&#x200B; ランディングページの設計 &#x200B;](help/using/landing-pages/design-lp.md) - 10 月 25 日（PT）
-- [&#x200B; ランディングページ固有のコンテンツの定義 &#x200B;](help/using/landing-pages/lp-content.md) - 10 月 25 日（PT）
-- [&#x200B; ランディングページ用のフォームの作成と使用 &#x200B;](help/using/landing-pages/lp-forms.md) - 10 月 24 日（PT）
-- [&#x200B; ランディングページプリセットを定義 &#x200B;](help/using/landing-pages/lp-presets.md) - 10 月 25 日（PT）
-- [&#x200B; 意思決定管理ガードレールと制限事項 &#x200B;](help/using/offers/decision-management-guardrails.md) - 10 月 25 日（PT）
-- [&#x200B; オファーへの制約の追加 &#x200B;](help/using/offers/offer-library/add-constraints.md) - 11 月 3 日
-- [&#x200B; 複数手順キャンペーンでのチャネルアクティビティの追加 &#x200B;](help/using/orchestrated/activities/channels.md) - 10 月 14 日（PT）
-- [&#x200B; 設定手順 &#x200B;](help/using/orchestrated/file-upload-schema.md) - 10 月 8 日（PT）
-- [&#x200B; オーケストレートキャンペーンの概要 &#x200B;](help/using/orchestrated/gs-orchestrated-campaigns.md) - 10 月 29 日（PT）
-- [&#x200B; キャンペーンのガードレールと制限の調整 &#x200B;](help/using/orchestrated/guardrails.md) - 10 月 8 日（PT）
-- [&#x200B; 設定手順 &#x200B;](help/using/orchestrated/manual-schema.md) - 10 月 23 日（PT）
-- [&#x200B; ターゲティングディメンションの作成 &#x200B;](help/using/orchestrated/target-dimension.md) - 10 月 24 日
-- [&#x200B; 外部データルックアップヘルパー &#x200B;](help/using/personalization/external-data-lookup.md) - 10 月 28 日（PT）
-- [&#x200B; 配列関数ライブラリ &#x200B;](help/using/personalization/functions/arrays-list.md) - 10 月 29 日
-- [&#x200B; 日時関数ライブラリ &#x200B;](help/using/personalization/functions/dates.md) - 10 月 29 日
-- [&#x200B; パーソナライゼーションの追加 &#x200B;](help/using/personalization/personalization-build-expressions.md) - 10 月 28 日（PT）
-- [Personalization構文 &#x200B;](help/using/personalization/personalization-syntax.md) - 10 月 28 日
-- [&#x200B; プッシュ通知のデザイン &#x200B;](help/using/push/design-push.md) - 10 月 14 日（PT）
-- [&#x200B; プッシュ通知の設定 &#x200B;](help/using/push/push-configuration.md) - 10 月 23 日
-- [&#x200B; システムアラートへのアクセスと購読 &#x200B;](help/using/reports/alerts.md) - 10 月 28 日（PT）
-- [&#x200B; キャンペーンレポート &#x200B;](help/using/reports/campaign-global-report-cja-inapp.md) - 10 月 14 日
-- [&#x200B; のレポート機能の概要  [!DNL Adobe Journey Optimizer]](help/using/reports/gs-reports.md) - 10 月 23 日（PT）
-- [ジャーニーレポート &#x200B;](help/using/reports/journey-global-report-cja-inapp.md) - 10 月 14 日
-- [&#x200B; クエリの例 &#x200B;](help/using/reports/query-examples.md) - 10 月 29 日
-- [&#x200B; レポート &#x200B;](help/using/reports/report-cja-manage.md) - 10 月 13 日
-- [journeyStep イベントのアクション実行フィールド &#x200B;](help/using/reports/sharing-execution-fields.md) - 10 月 29 日（PT）
-- [&#x200B; ステップイベントフィールドの一覧 &#x200B;](help/using/reports/sharing-field-list.md) - 10 月 17 日
-- [ジャーニーステップ共有の概要 &#x200B;](help/using/reports/sharing-overview.md) - 10 月 17 日
-- [&#x200B; ドキュメントの更新 &#x200B;](help/using/rn/documentation-updates.md) - 10 月 29 日（PT）
-- [Journey Optimizerのプレリリースノート &#x200B;](help/using/rn/e-release-notes.md) - 10 月 20 日（PT）
-- [&#x200B; リリースノート 2025](help/using/rn/release-notes-2025.md) - 10 月 28 日（PT）
-- [&#x200B; リリースノート &#x200B;](help/using/rn/release-notes.md) - 10 月 30 日
-- [&#x200B; テキストメッセージ（SMS/MMS/RCS）の基本を学ぶ &#x200B;](help/using/sms/get-started-sms.md) - 10 月 17 日（PT）
-- [&#x200B; カスタムプロバイダーの設定 &#x200B;](help/using/sms/sms-configuration-custom.md) - 10 月 24 日
-- [Infobip プロバイダーの設定 &#x200B;](help/using/sms/sms-configuration-infobip.md) - 10 月 27 日
-- [Sinch プロバイダーの設定 &#x200B;](help/using/sms/sms-configuration-sinch.md) - 10 月 27 日
-- [Journey Optimizerのガードレールと制限 &#x200B;](help/using/start/guardrails.md) - 11 月 3 日（PT）
-- [Journey Optimizerのトラブルシューティング記事 &#x200B;](help/using/start/troubleshooting.md) - 10 月 27 日
-- [WhatsApp チャネルの設定 &#x200B;](help/using/whatsapp/whatsapp-configuration.md) - 10 月 22 日（PT）
+- [ パーソナライズ用Adobe Experience Platform データの検索](help/using/data/lookup-aep-data.md) - 12月10日
+- [ モバイルアプリケーション設定](help/using/configuration/set-mobile-config.md) - 12月6日
+- [手動翻訳付き多言語コンテンツ ](help/using/content-management/multilingual-provider.md) - 12月5日
+- [ コードベースのエクスペリエンスでDecisioningを使用](help/using/experience-decisioning/experience-decisioning-uc.md) - 12月3日
+- [ アクションキャンペーンの作成](help/using/campaigns/create-campaign.md) - 12月2日
+- [IP ウォームアップ実行](help/using/configuration/ip-warmup-execution.md) - 11月26日
+- [ ランディングページの作成](help/using/landing-pages/create-lp.md) - 11月25日
+- [ ランディングページのライブレポート ](help/using/reports/lp-report-live.md) - 11月25日
+- [ コードベースの設定](help/using/code-based/code-based-configuration.md) - 11月22日
+- [ コードベースの実装方法サンプル ](help/using/code-based/code-based-implementation-samples.md) - 11月22日
+- [ コードベースの前提条件とガードレール ](help/using/code-based/code-based-prerequisites.md) - 11月22日
+- [ コードベースのエクスペリエンスを作成](help/using/code-based/create-code-based.md) - 11月22日
+- [ コードベースのエクスペリエンスの基本を学ぶ](help/using/code-based/get-started-code-based.md) - 11月22日
+- [ コンテンツのプレビューとテスト ](help/using/content-management/preview.md) - 11月22日
+- [Web チャネル設定](help/using/web/web-configuration.md) - 11月22日
+- [ テストプロファイルの作成](help/using/audience/creating-test-profiles.md) - 11月22日
+- [ プルーフを送信](help/using/content-management/proofs.md) - 11月22日
+- [ コンテンツテンプレートのテスト ](help/using/content-management/test-content-templates.md) - 11月22日
+- [ テストプロファイルを使用](help/using/content-management/test-profiles.md) - 11月22日
+- [ メールの作成](help/using/email/create-email.md) - 11月22日
+- [ サーフェス パーソナライゼーション ](help/using/email/surface-personalization.md) - 11月22日
+- [ プッシュ通知の作成](help/using/push/create-push.md) - 11月22日
+- [ プッシュ通知を送信](help/using/push/send-push.md) - 11月22日
+- [ テキストメッセージ（SMS/MMS）を送信](help/using/sms/send-sms.md) - 11月22日
+- [ マーケターのユーザーパス ](help/using/start/path/marketer.md) - 11月22日
+- [管理者のユーザーパス ](help/using/start/path/administrator.md) - 11月22日
+- [ メッセージのプレビューとテスト ](help/using/content-management/preview-test.md) - 11月22日
+- [属性ベースのアクセス制御](help/using/administration/attribute-based-access.md) - 11月21日
+- [ オブジェクトレベルのアクセス制御](help/using/administration/object-based-access.md) - 11月21日
+- [API トリガーキャンペーンの操作](help/using/campaigns/api-triggered-campaigns.md) - 11月21日
+- [意思決定管理の基本](help/using/offers/get-started/starting-offer-decisioning.md) - 11月21日
+- [IP ウォームアップキャンペーン ](help/using/configuration/ip-warmup-campaign.md) - 11月20日
+- [IP ウォームアッププラン ](help/using/configuration/ip-warmup-plan.md) - 11月20日
+- [権限の概要](help/using/administration/permissions-overview.md) - 11月15日
+- [CJA レポートの決定](help/using/experience-decisioning/cja-reporting.md) - 11月15日
+- [ フラグメント ](help/using/content-management/fragments.md) - 11月15日
+- [Adobe Experience Platform オーディエンスの基本を学ぶ](help/using/audience/about-audiences.md) - 11月14日
+- [決定にカスタムアップロードオーディエンスを使用（フェデレーションコンポジション） ](help/using/audience/custom-upload.md) - 11月14日
+- [Sinch プロバイダーの設定](help/using/sms/sms-configuration-sinch.md) - 11月12日
+- [Customer Journey Analyticsのキャンペーンレポート ](help/using/reports/channel-report-cja.md) - 11月12日
+- [Customer Journey Analyticsのジャーニーレポート ](help/using/reports/journey-global-report-cja.md) - 11月12日
+- [自動翻訳を含む多言語コンテンツ ](help/using/content-management/multilingual-automated.md) - 11月12日
+- [ カタログの決定](help/using/experience-decisioning/catalogs.md) - 11月7日
+- [決定項目コレクションの作成と管理](help/using/experience-decisioning/collections.md) - 11月7日
+- [ コンテキストデータ ](help/using/experience-decisioning/context-data.md) - 11月7日
+- [意思決定ポリシーの基本を学ぶ](help/using/experience-decisioning/create-decision.md) - 11月7日
+- [決定の開始](help/using/experience-decisioning/gs-experience-decisioning.md) - 11月7日
+- [決定項目](help/using/experience-decisioning/items.md) - 11月7日
+- [ ランキング方法の決定](help/using/experience-decisioning/ranking/ranking.md) - 11月7日
+- [ ルールの作成](help/using/experience-decisioning/rules.md) - 11月7日
+- [選択戦略の作成](help/using/experience-decisioning/selection-strategies.md) - 11月7日
+- [ ルールセットの操作](help/using/conflict-prioritization/rule-sets.md) - 11月6日
+- [決定の作成](help/using/offers/offer-activities/create-offer-activities.md) - 11月5日
+- [ コレクションを作成](help/using/offers/offer-library/creating-collections.md) - 11月5日
+- [ パーソナライズされたオファーの作成](help/using/offers/offer-library/creating-personalized-offers.md) - 11月5日
+- [ プレースメントの作成](help/using/offers/offer-library/creating-placements.md) - 11月5日
+- [ ランキング戦略の作成](help/using/offers/ranking/create-ranking-strategies.md) - 11月5日
+
+## 前回のレポート：2024年10月1日～11月3日
+
+### 新規ページ
+
+- [Adobe Journey OptimizerのAIとインテリジェント機能](help/using/start/ai-features.md) - 10月31日
+- [顧客の環境設定を管理](help/using/action/preference-center.md) - 10月24日
+- [ジャーニーレポート ](help/using/action/reporting.md) - 10月29日
+- [ エラーコード参照](help/using/building-journeys/error-codes-reference.md) - 10月27日
+- [ジャーニーのよくある質問](help/using/building-journeys/journey-faq.md) - 10月28日
+- [API トリガーキャンペーンの高スループットモードの有効化](help/using/campaigns/api-triggered-high-throughput.md) - 10月27日
+- [ サイレントアワーを設定](help/using/conflict-prioritization/quiet-hours.md) - 10月22日
+- [Journey Optimizer Experimentation Accelerator](help/using/content-management/experiment-accelerator-gs.md) - 10月24日
+- [画像をHTML コンバーターでHTML テンプレートに変換](help/using/content-management/image-to-html.md) - 10月30日
+- [決定ポリシーの作成](help/using/experience-decisioning/create-decision-policy.md) - 10月7日
+- [ メッセージで決定ポリシーを使用](help/using/experience-decisioning/use-decision-policy.md) - 10月9日
+- [ チャネル設定の設定](help/using/orchestrated/channel-config.md) - 10月14日
+- [ ジャーニーステップイベントの操作](help/using/reports/journey-step-events-overview.md) - 10月21日
+- [Adobe Journey Optimizer リリースサイクル ](help/using/rn/releases.md) - 10月28日
+
+### 更新されたページ
+
+- [Adobe Journey Optimizer ドキュメント ](help/ajo-home.md) - 10月22日
+- [ コンテンツ管理](help/rp_landing_pages/content-management-landing-page.md) - 10月27日
+- [開始](help/rp_landing_pages/get-started-landing-page.md) - 10月27日
+- [以前のリリースノート ](help/rp_landing_pages/previous-rn-new-landing-page.md) - 10月13日
+- [ テストと承認](help/rp_landing_pages/test-landing-page.md) - 10月27日
+- [ トラブルシューティング ](help/rp_landing_pages/troubleshoot-journey-landing-page.md) - 10月27日
+- [ アクションの開始](help/using/action/action.md) - 10月13日
+- [同意ポリシーの使用](help/using/action/consent.md) - 10月21日
+- [ カスタムアクションのトラブルシューティング ](help/using/action/troubleshoot-custom-action.md) - 10月13日
+- [ テストプロファイルの作成](help/using/audience/creating-test-profiles.md) - 10月22日
+- [Adobe Experience Platform オーディエンスについて](help/using/audience/enrichment-attributes.md) - 10月28日
+- [Journey Optimizerのプロファイルの概要](help/using/audience/get-started-profiles.md) - 10月22日
+- [ ジャーニーアクティビティの開始](help/using/building-journeys/about-journey-activities.md) - 10月27日
+- [ コレクションをカスタムアクションパラメーターに渡す](help/using/building-journeys/collections.md) - 10月13日
+- [条件/最適化（条件メソッド） ](help/using/building-journeys/conditions.md) - 10月24日
+- [ ジャーニーでAdobe Experience Platform データを使用](help/using/building-journeys/dataset-lookup.md) - 10月28日
+- [ ジャーニーでのエクスペリエンスイベントの検索](help/using/building-journeys/exp-event-lookup.md) - 10月28日
+- [ アクションジャーニーアクティビティの使用](help/using/building-journeys/journey-action.md) - 10月14日
+- [ ジャーニーを一時停止](help/using/building-journeys/journey-pause.md) - 10月13日
+- [ ジャーニーの開始](help/using/building-journeys/journey.md) - 10月27日
+- [組み込みのチャネルアクションをジャーニーに追加](help/using/building-journeys/journey-action.md) - 10月29日
+- [ アクティビティの最適化](help/using/building-journeys/optimize.md) - 10月22日
+- [ ジャーニーでオーディエンスを使用](help/using/building-journeys/read-audience.md) - 10月17日
+- [送信時間の最適化](help/using/building-journeys/send-time-optimization.md) - 10月28日
+- [ ジャーニーのテスト ](help/using/building-journeys/testing-the-journey.md) - 10月28日
+- [API トリガーによるキャンペーンアクションの設定](help/using/campaigns/api-triggered-campaign-action.md) - 10月29日
+- [API トリガーによるキャンペーンオーディエンスの定義](help/using/campaigns/api-triggered-campaign-audience.md) - 10月23日
+- [API トリガーのキャンペーンコンテンツの編集](help/using/campaigns/api-triggered-campaign-content.md) - 10月23日
+- [API トリガーによるキャンペーンプロパティの定義](help/using/campaigns/api-triggered-campaign-properties.md) - 10月23日
+- [API トリガーキャンペーンの操作](help/using/campaigns/api-triggered-campaigns.md) - 10月29日
+- [ キャンペーンアクションの設定](help/using/campaigns/campaign-action.md) - 10月29日
+- [ キャンペーンとジャーニーの最適化](help/using/content-management/gs-message-optimization.md) - 10月22日
+- [ アクションキャンペーンの作成](help/using/campaigns/create-campaign.md) - 10月29日
+- [ キャンペーンの開始](help/using/campaigns/get-started-with-campaigns.md) - 10月29日
+- [ キャンペーンへのアクセスと管理](help/using/campaigns/manage-campaigns.md) - 10月23日
+- [休眠時間](help/using/conflict-prioritization/quiet-hours.md) - 10月31日
+- [ キャンペーンのレビューとアクティブ化](help/using/campaigns/trigger-campaigns.md) - 10月23日
+- [ [!DNL Adobe Journey Optimizer]](help/using/channels/gs-channels.md) ～ 11月3日にコミュニケーションチャネルを開始
+- [Journey Optimizerと外部システムとの統合](help/using/configuration/external-systems.md) - 10月28日
+- [実行アドレスを変更](help/using/configuration/primary-email-addresses.md) - 10月22日
+- [ ルールセットの操作](help/using/conflict-prioritization/channel-capping.md) - 10月28日
+- [ ルールセットの操作](help/using/conflict-prioritization/rule-sets.md) - 10月27日
+- [ コンテンツ実験の作成](help/using/content-management/content-experiment.md) - 10月15日
+- [ フラグメントを作成](help/using/content-management/create-fragments.md) - 10月7日
+- [ フラグメントの管理](help/using/content-management/manage-fragments.md) - 10月7日
+- [ データセットクエリの例](help/using/data/datasets-query-examples.md) - 10月17日
+- [ データセットのTTL （Time-to-Live）ガードレールについて](help/using/data/datasets-ttl.md) - 10月28日
+- [ ダイレクトメールメッセージの作成](help/using/direct-mail/create-direct-mail.md) - 10月15日
+- [ アクセス可能なコンテンツをデザイン ](help/using/email/accessible-content.md) - 10月25日
+- [ メール Designer コンテンツ コンポーネントを使用](help/using/email/content-components.md) - 10月25日
+- [Journey Optimizerでゼロからコンテンツをデザイン ](help/using/email/content-from-scratch.md) - 10月25日
+- [ メール設定の設定](help/using/email/email-settings.md) - 10月22日
+- [ メールコンテンツを読み込む](help/using/email/existing-content.md) - 10月30日
+- [ メール設定の基本を学ぶ](help/using/email/get-started-email-config.md) - 10月22日
+- [電子メールのデザイン ](help/using/email/get-started-email-design.md) - 10月30日
+- [ メールスタイルの基本を学ぶ](help/using/email/get-started-email-style.md) - 10月25日
+- [ リストの登録解除の設定](help/using/email/list-unsubscribe.md) - 10月15日
+- [ メッセージの追跡](help/using/email/message-tracking.md) - 10月18日
+- [PDF ファイルを電子メールに添付](help/using/email/pdf-attachments.md) - 10月6日
+- [URL トラッキングの設定](help/using/email/url-tracking.md) - 10月25日
+- [意思決定にAdobe Experience Platform データを使用](help/using/experience-decisioning/aep-data-exd.md) - 10月8日
+- [決定ポリシーの基本を学ぶ](help/using/experience-decisioning/create-decision.md) - 10月7日
+- [決定のガードレールと制限](help/using/experience-decisioning/decisioning-guardrails.md) - 10月25日
+- [決定項目](help/using/experience-decisioning/items.md) - 10月8日
+- [ ランキング式](help/using/experience-decisioning/ranking/ranking-formulas.md) - 10月28日
+- [ ルールの作成](help/using/experience-decisioning/rules.md) - 10月23日
+- [選択戦略の作成](help/using/experience-decisioning/selection-strategies.md) - 10月7日
+- [Journey Optimizerでアプリ内通知を作成](help/using/in-app/create-in-app.md) - 10月27日
+- [ アプリ内チャネルの前提条件と設定](help/using/in-app/inapp-configuration.md) - 10月23日
+- [ ダイナミックメディア ](help/using/integrations/aem-dynamic.md) - 10月17日
+- [Journey OptimizerでAssetsを使用](help/using/integrations/assets.md) - 10月28日
+- [ ランディングページのデザイン ](help/using/landing-pages/design-lp.md) - 10月25日
+- [ ランディングページ固有のコンテンツを定義](help/using/landing-pages/lp-content.md) - 10月25日
+- [ ランディングページのフォームの作成と使用](help/using/landing-pages/lp-forms.md) - 10月24日
+- [ ランディングページプリセットの定義](help/using/landing-pages/lp-presets.md) - 10月25日
+- [意思決定管理のガードレールと制限事項](help/using/offers/decision-management-guardrails.md) - 10月25日
+- [ オファーに制約を追加](help/using/offers/offer-library/add-constraints.md) - 11月3日
+- [ マルチステップキャンペーンでチャネルアクティビティを追加](help/using/orchestrated/activities/channels.md) - 10月14日
+- [設定手順](help/using/orchestrated/file-upload-schema.md) - 10月8日
+- [ オーケストレーションされたキャンペーンの開始](help/using/orchestrated/gs-orchestrated-campaigns.md) - 10月29日
+- [ キャンペーンのガードレールと制限の調整](help/using/orchestrated/guardrails.md) - 10月8日
+- [設定手順](help/using/orchestrated/manual-schema.md) - 10月23日
+- [ ターゲティングディメンションの作成](help/using/orchestrated/target-dimension.md) - 10月24日
+- [外部データ検索ヘルパー](help/using/personalization/external-data-lookup.md) - 10月28日
+- [配列関数ライブラリ ](help/using/personalization/functions/arrays-list.md) - 10月29日
+- [日時関数ライブラリ ](help/using/personalization/functions/dates.md) - 10月29日
+- [ パーソナライゼーションを追加](help/using/personalization/personalization-build-expressions.md) - 10月28日
+- [Personalization構文](help/using/personalization/personalization-syntax.md) - 10月28日
+- [ プッシュ通知のデザイン ](help/using/push/design-push.md) - 10月14日
+- [ プッシュ通知設定](help/using/push/push-configuration.md) - 10月23日
+- [ システムアラートへのアクセスと購読](help/using/reports/alerts.md) - 10月28日
+- [ キャンペーンレポート ](help/using/reports/campaign-global-report-cja-inapp.md) - 10月14日
+- [ レポート機能の使用を開始するには、 [!DNL Adobe Journey Optimizer]](help/using/reports/gs-reports.md) ～ 10月23日に行います
+- [ジャーニーレポート ](help/using/reports/journey-global-report-cja-inapp.md) - 10月14日
+- [ クエリの例](help/using/reports/query-examples.md) - 10月29日
+- [ レポート ](help/using/reports/report-cja-manage.md) - 10月13日
+- [journeyStep events action execution fields](help/using/reports/sharing-execution-fields.md) - 10月29日
+- [ ステップ イベント フィールド リスト ](help/using/reports/sharing-field-list.md) - 10月17日
+- [ジャーニー手順の共有の概要](help/using/reports/sharing-overview.md) - 10月17日
+- [ ドキュメント更新](help/using/rn/documentation-updates.md) - 10月29日
+- [Journey Optimizerのプレリリースノート ](help/using/rn/e-release-notes.md) - 10月20日
+- [ リリースノート 2025](help/using/rn/release-notes-2025.md) - 10月28日
+- [ リリースノート ](help/using/rn/release-notes.md) - 10月30日
+- [ テキストメッセージ（SMS/MMS/RCS）の使用を開始](help/using/sms/get-started-sms.md) - 10月17日
+- [ カスタムプロバイダーの設定](help/using/sms/sms-configuration-custom.md) - 10月24日
+- [Infobip プロバイダーの設定](help/using/sms/sms-configuration-infobip.md) - 10月27日
+- [Sinch プロバイダーの設定](help/using/sms/sms-configuration-sinch.md) - 10月27日
+- [Journey Optimizerのガードレールと制限事項](help/using/start/guardrails.md) - 11月3日
+- [Journey Optimizerのトラブルシューティング記事](help/using/start/troubleshooting.md) - 10月27日
+- [WhatsApp チャネルの設定](help/using/whatsapp/whatsapp-configuration.md) - 10月22日

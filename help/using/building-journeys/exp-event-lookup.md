@@ -5,7 +5,7 @@ title: ジャーニーのエクスペリエンスイベント参照
 description: ジャーニーのエクスペリエンスイベント参照の使用方法について説明します
 exl-id: 35e2e347-0669-44a3-92ba-aee52e54c219
 version: Journey Orchestration
-source-git-commit: 36f8224b33411f23f23985c55bdb6cebbcdf5712
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '961'
 ht-degree: 76%
@@ -16,7 +16,7 @@ ht-degree: 76%
 
 >[!CAUTION]
 >
->2025年7月8日（PT）以降、新しい顧客組織では、ジャーニー条件で使用される式エディターで、エクスペリエンスイベントを使用した式の作成はサポートされなくなります。そのため、[Experience Platform データソース &#x200B;](../datasource/adobe-experience-platform-data-source.md)のエクスペリエンスイベントは、式の作成に使用できません。
+>2025年7月8日（PT）以降、新しい顧客組織では、ジャーニー条件で使用される式エディターで、エクスペリエンスイベントを使用した式の作成はサポートされなくなります。そのため、[Experience Platform データソース ](../datasource/adobe-experience-platform-data-source.md)のエクスペリエンスイベントは、式の作成に使用できません。
 >
 >2026年4月1日（PT）以降、ジャーニー式でのエクスペリエンスイベント属性の使用は、過去90日間にこの機能を使用していない組織ではサポートされなくなります。 エクスペリエンスイベントを使用して式／ロジックを作成する別のアプローチとベストプラクティスについて詳しくは、以下を参照してください。
 >
@@ -54,11 +54,11 @@ ht-degree: 76%
 
 詳細情報：
 
-* [!DNL Adobe Experience Platform] [&#x200B; セグメントビルダー – イベント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* [!DNL Adobe Experience Platform] [ セグメントビルダー – イベント ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* [!DNL Adobe Experience Platform] [&#x200B; セグメントビルダー – 時間制約](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* [!DNL Adobe Experience Platform] [ セグメントビルダー – 時間制約](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
-* [条件でのオーディエンスの使用](../building-journeys/condition-activity.md#using-a-segment)
+* [条件でのオーディエンスの使用](../building-journeys/conditions.md#using-a-segment)
 
 * [inAudience() 関数](../building-journeys/functions/functioninaudience.md)
 
@@ -73,11 +73,11 @@ ht-degree: 76%
 
 オーディエンスの使用の詳細情報：
 
-* [!DNL Adobe Experience Platform] [&#x200B; セグメントビルダー – イベント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* [!DNL Adobe Experience Platform] [ セグメントビルダー – イベント ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* [!DNL Adobe Experience Platform] [&#x200B; セグメントビルダー – 時間制約](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* [!DNL Adobe Experience Platform] [ セグメントビルダー – 時間制約](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
-* [条件でのオーディエンスの使用](../building-journeys/condition-activity.md#using-a-segment)
+* [条件でのオーディエンスの使用](../building-journeys/conditions.md#using-a-segment)
 
 * [inAudience() 関数](../building-journeys/functions/functioninaudience.md)
 
@@ -95,11 +95,11 @@ ht-degree: 76%
 
 詳細情報：
 
-* [!DNL Adobe Experience Platform] [&#x200B; セグメントビルダー – イベント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
+* [!DNL Adobe Experience Platform] [ セグメントビルダー – イベント ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#events){target="_blank"}
 
-* [!DNL Adobe Experience Platform] [&#x200B; セグメントビルダー – 時間制約](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
+* [!DNL Adobe Experience Platform] [ セグメントビルダー – 時間制約](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder#time-constraints){target="_blank"}
 
-* [条件でのオーディエンスの使用](../building-journeys/condition-activity.md#using-a-segment)
+* [条件でのオーディエンスの使用](../building-journeys/conditions.md#using-a-segment)
 
 * [inAudience() 関数](../building-journeys/functions/functioninaudience.md)
 
@@ -107,8 +107,8 @@ ht-degree: 76%
 
 最新の買い物かごに基づいて通信をパーソナライズしたり、複数の買い物かごタイプや製品ビューをまたいでイベントを参照するには：
 
-* [[!DNL Adobe Experience Platform] Data Distiller](https://experienceleague.adobe.com/ja/docs/experience-platform/query/data-distiller/overview){target="_blank"}へのアクセス権がある場合は、イベントから必要なデータを抽出するように自動クエリを設定し、ユースケースに合わせて操作し、[&#x200B; プロファイル対応データセット &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}に書き戻してアクティベーションします。
-* スカラー属性を使用してプロファイルで放棄データをモデル化できる場合は、計算属性を使用して最新情報を取得し、ジャーニーでこれらの属性を参照して通信を構築することを考慮します。[詳細については、 [!DNL Adobe Experience Platform]  ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}を参照してください
+* [[!DNL Adobe Experience Platform] Data Distiller](https://experienceleague.adobe.com/ja/docs/experience-platform/query/data-distiller/overview){target="_blank"}へのアクセス権がある場合は、イベントから必要なデータを抽出するように自動クエリを設定し、ユースケースに合わせて操作し、[ プロファイル対応データセット ](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}に書き戻してアクティベーションします。
+* スカラー属性を使用してプロファイルで放棄データをモデル化できる場合は、計算属性を使用して最新情報を取得し、ジャーニーでこれらの属性を参照して通信を構築することを考慮します。[詳細については、 [!DNL Adobe Experience Platform]  ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/computed-attributes/overview){target="_blank"}を参照してください
 
 
 ## 行動ベースのジャーニー終了
@@ -133,7 +133,7 @@ ht-degree: 76%
 
 このFAQでは、ジャーニー式でのエクスペリエンスイベントの使用率を廃止するためのタイムラインと、影響を受けるユーザーに焦点を当てています。 代替アプローチのガイダンスについては、上記のユースケースとベストプラクティスを参照してください。
 
-さらに詳細が必要ですか？このページの下部にあるフィードバック オプションを使用して質問を提起するか、[[!DNL Adobe Journey Optimizer]  コミュニティ &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"}とつながってください。
+さらに詳細が必要ですか？このページの下部にあるフィードバック オプションを使用して質問を提起するか、[[!DNL Adobe Journey Optimizer]  コミュニティ ](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"}とつながってください。
 
 +++影響を受ける特定の機能は何ですか？ 
 

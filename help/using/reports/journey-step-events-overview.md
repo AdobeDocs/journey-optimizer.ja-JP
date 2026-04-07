@@ -8,7 +8,7 @@ role: Developer, Admin, User
 level: Intermediate, Experienced
 keywords: ジャーニー, ステップイベント, 分析, レポート, モニタリング, XDM
 exl-id: 2e7c5ea5-d8c5-416d-ab88-d2bc02043558
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 100%
@@ -34,7 +34,7 @@ ht-degree: 100%
 
 - **エントリイベント**：プロファイルが[ジャーニーにエントリ](../building-journeys/entry-management.md)する場合
 - **アクション実行**：[メッセージが送信](../building-journeys/journey-action.md)される場合や、[カスタムアクション](../building-journeys/using-custom-actions.md)が実行される場合
-- **条件評価**：プロファイルが[条件](../building-journeys/condition-activity.md)と決定ポイントを通過する場合
+- **条件評価**：プロファイルが[条件](../building-journeys/conditions.md)と決定ポイントを通過する場合
 - **待機アクティビティ**：プロファイルが[待機ノード](../building-journeys/wait-activity.md)にエントリおよび終了する場合
 - **終了イベント**：プロファイルが[ジャーニーを完了または終了](../building-journeys/end-journey.md)する場合
 - **エラー処理**：ジャーニー実行中にエラーが発生する場合

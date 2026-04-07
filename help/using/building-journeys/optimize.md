@@ -8,292 +8,60 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: アクティビティ, 条件, キャンバス, ジャーニー, 最適化
-badge: label="限定提供" type="Informative"
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: fd42ff8502f03debb0bb8c6c0c286744be62c561
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
-source-wordcount: '1662'
-ht-degree: 100%
+source-wordcount: '470'
+ht-degree: 31%
 
 ---
 
-# 最適化アクティビティ {#journey-path-optimization}
+# 最適化アクティビティの概要 {#journey-path-optimization}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_optimize"
 >title="最適化アクティビティ"
->abstract="**最適化**&#x200B;アクティビティでは、実験、ターゲティング、特定の条件など、特定の条件に基づいて複数のパスを作成することで、個人がジャーニーをどのように進めるかを定義できます。"
+>abstract="**最適化** アクティビティでは、実験、ターゲティング、特定の条件など、特定の条件に基づいて複数のパスを作成することで、個人がジャーニーをどのように進んでいるのかを定義できます。 **最適化** アクティビティは、ジャーニーで条件付きパスを作成するための新しい手段です。 元の&#x200B;**条件** アクティビティに置き換わります。"
 
->[!AVAILABILITY]
+>[!IMPORTANT]
 >
->この機能は、限定提供です。アクセス権を取得するには、アドビ担当者にお問い合わせください。
+>**最適化** アクティビティは、ジャーニーで条件付きパスを作成するための新しい手段です。 UIから削除された以前の&#x200B;**条件** アクティビティに置き換わります。 すべての条件付きロジックは保持され、**最適化** アクティビティの[条件](conditions.md)を通じて処理されるようになりました。
+>
+>**[!UICONTROL 条件]** アクティビティを使用した既存のジャーニーがある場合は、以前と同様に使用できます。 これらは、**[!UICONTROL 条件]** メソッドを使用して&#x200B;**[!UICONTROL 最適化]** アクティビティとして新しいアイコンで表示されるようになりましたが、動作は変更されていません。 ノードに設定したカスタムラベルはすべて保持されます。
 
 **最適化**&#x200B;アクティビティでは、実験、ターゲティング、特定の条件など、特定の条件に基づいて複数の&#x200B;**パス**&#x200B;を作成することで、個人がジャーニーをどのように進めるかを定義できます。これにより、最大限のエンゲージメントと成功が確保され、高度にカスタマイズされた効果的なジャーニーを作成できます。
+
+![ジャーニーアクティビティパレットの「最適化」ボタン](assets/journey-optimize.png)
+
+## ジャーニーパスとは？
 
 ジャーニー&#x200B;**パス**&#x200B;は、通信の順序、通信間の時間、通信の数またはこれら 3 つの変数の任意の組み合わせで構成できます。
 
 例えば、1 つのパスに 1 つのメールが含まれ、別のパスに 2 つの SMS メッセージが含まれ、3 番目のパスにメール、2 時間の待機ノード、SMS メッセージが含まれる可能性があります。
 
-<!--With this feature, [!DNL Journey Optimizer] empowers you with the tools to deliver personalized and optimized paths to your audience, ensuring maximum engagement and success to create highly customized and effective journeys.-->
+## カスタマージャーニーを最適化する3つの方法
 
-**最適化**&#x200B;アクティビティを通じて、結果として得られるパスに対して次のアクションを実行できます。
+「**最適化**」アクティビティを使用すると、ジャーニーパスで次のアクションを実行できます。
 
-* [パス実験](#experimentation)を実行する
-* 各ジャーニーパスでの[ターゲティング](#targeting)ルールを活用する
-* パスに[条件](#conditions)を適用する
+* [ パス実験を実行](path-experimentation.md) - ランダムな分割に基づいて異なるパスをテストし、事前に定義された成功指標（コンバージョン率、収益、エンゲージメントなど）に従って、最もパフォーマンスの高いパスを決定します。
 
-![ジャーニーアクティビティパレットの「最適化」ボタン](assets/journey-optimize.png)
+* [ ターゲティングルールを活用](path-targeting.md) - オーディエンスセグメント、プロファイル属性、コンテキストデータに基づいて、顧客がジャーニーパスのいずれかを入力する資格を得るために満たす必要がある特定のルールを定義します。 これにより、適切なオーディエンスが指定されたパスに確実に入ります。
+
+  >[!AVAILABILITY]
+  >
+  >この機能は現在限定的です。 アクセスをリクエストするには、Adobe担当者にお問い合わせください。
+
+* [条件を適用](conditions.md) - データソース、時間、日付、パーセンテージ分割、プロファイルの上限などの特定の条件に基づいて条件付きパスを作成します。 これは、以前の条件アクティビティに相当します。
+
+## 仕組み
 
 ジャーニーがライブになると、プロファイルは定義済み条件に照らして評価され、一致条件に基づいて、ジャーニーから適切なパスに送信されます。
 
-## 実験を使用 {#experimentation}
+## 次の手順
 
->[!CONTEXTUALHELP]
->id="ajo_path_experiment_success_metric"
->title="成功指標"
->abstract="成功指標は、実験で最もパフォーマンスの高い処理を追跡および評価するために使用します。"
->additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/create-journey/success-metrics" text="ジャーニー指標の設定とトラッキング"
+ユースケースに最適な最適化方法を選択します。
 
-実験を行うことで、ランダム分割に基づいて様々なパスをテストし、事前定義済みの成功指標に基づいて最もパフォーマンスが高いパスを判断できます。
-
-ジャーニーでパス実験を設定するには、次の手順に従います。
-
-次の 3 つのパスを比較するとします。
-
-* メールが 1 件の 1 番目のパス。
-* 2 日間の&#x200B;**[!UICONTROL 待機]**&#x200B;ノードと 1 件のメールの 2 番目のパス。
-* メールの後に SMS メッセージを送信する 3 番目のパス。
-
-1. 「**[!UICONTROL オーケストレーション]**」セクションから、**[!UICONTROL 最適化]**&#x200B;アクティビティをジャーニーキャンバスにドラッグ＆ドロップします。
-
-1. レポートモードとテストモードのログでアクティビティを識別するのに役立つ、オプションのラベルを追加します。
-
-1. **[!UICONTROL メソッド]**&#x200B;ドロップダウンリストから「**[!UICONTROL 実験]**」を選択します。
-
-   ![コンテンツ実験の設定パネル](assets/journey-optimize-experiment.png){width=65%}
-
-1. 「**[!UICONTROL 実験を作成]**」をクリックします。
-
-1. 実験に設定する&#x200B;**[!UICONTROL 成功指標]**&#x200B;を選択します。使用可能な指標とリストの設定方法について詳しくは、[この節](success-metrics.md)を参照してください。
-
-   ![実験のプライマリ指標と追加指標の選択](assets/journey-optimize-experiment-metrics.png){width=80%}
-
-1. 配信に&#x200B;**[!UICONTROL 除外]**&#x200B;グループを追加することを選択できます。このグループは、この実験からパスにエントリしません。
-
-   >[!NOTE]
-   >
-   >切り替えバーをオンにすると、母集団の 10％が自動的に取得されます。必要に応じて、この割合を調整できます。
-
-   <!--
-    DOES THIS APPLY TO PATH EXPERIMENT?
-    IMPORTANT: When a holdout group is used in an action for path experimentation, the holdout assignment only applies to that specific action. After the action is completed, profiles in the holdout group will continue down the journey path and can receive messages from other actions. Therefore, ensure that any subsequent messages do not rely on the receipt of a message by a profile that might be in a holdout group. If they do, you may need to remove the holdout assignment.-->
-
-1. 各&#x200B;**[!UICONTROL 処理]**&#x200B;に正確な割合を割り当てるか、**[!UICONTROL 等しく分布]**&#x200B;切り替えバーをオンにすることができます。
-
-   ![割合分布を使用した処理配分スライダー](assets/journey-optimize-experiment-treatments.png){width=80%}
-
-1. 「**[!UICONTROL 作成]**」をクリックします。
-
-1. 実験の結果として得られる各分岐に必要な要素を定義します。例：
-
-   * [メール](../email/create-email.md)アクティビティを最初の分岐（**処理 A**）にドラッグ＆ドロップします。
-
-   * 最初の分岐に 2 日間の[待機](wait-activity.md)アクティビティをドラッグ＆ドロップし、その後に[メール](../email/create-email.md)アクティビティ（**処理 B**）をドラッグ＆ドロップします。
-
-   * [メール](../email/create-email.md)アクティビティを 3 番目の分岐にドラッグ＆ドロップし、その後に [SMS](../sms/create-sms.md) アクティビティ（**処理 C**）をドラッグ＆ドロップします。
-
-   ![3 つの処理パスでのコンテンツ実験の例](assets/journey-optimize-experiment-ex.png){width=100%}
-
-1. オプションで、「**[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**」を使用して、代替アクションを定義します。[詳細情報](using-the-journey-designer.md#paths)
-
-1. チャネルアクションを選択し、「**[!UICONTROL コンテンツを編集]**」ボタンを使用して、デザインツールにアクセスします。
-
-   ![チャネルアクションアクティビティの「コンテンツを編集」ボタン](assets/journey-optimize-experiment-edit-content.png){width=70%}
-
-1. そこから、左側のパネルを使用して、実験内の各アクションに対して様々なコンテンツ間を移動できます。必要に応じて、各コンテンツを選択および設計します。
-
-   ![実験用の処理を示すコンテンツ選択パネル](assets/journey-optimize-experiment-content.png){width=100%}
-
-1. ジャーニーを[公開](publish-journey.md)します。
-
-ジャーニーがライブになると、ユーザーには異なるパスを進むようにランダムに割り当てられます。[!DNL Journey Optimizer] は、最もパフォーマンスが高いパスを追跡し、実用的なインサイトを提供します。
-
-ジャーニーパス実験レポートを使用して、ジャーニーの成功を追跡します。[詳細情報](../reports/journey-global-report-cja-experimentation.md)
-
->[!CAUTION]
->
->パス実験のメタデータは、一度公開したら編集しないでください。メタデータを編集すると、実験結果の計算とレポートが中断されます。
-
-### 実験のユースケース {#uc-experiment}
-
-次の例は、**[!UICONTROL 最適化]**&#x200B;アクティビティを&#x200B;**[!UICONTROL 実験]**&#x200B;メソッドで使用して、全体的に最も効果的なパスを決定する方法を示しています。
-
-+++チャネルの有効性
-
-最初のメッセージをメールで送信した場合と SMS で送信した場合のどちらがコンバージョン率が高くなるかをテストします。
-
-➡️ コンバージョン率を成功指標として使用します（例：購入、新規登録）。
-
-![メールと SMS を比較したチャネルの有効性の実験](assets/journey-optimize-experiment-uc-channel.png)
-
-+++
-
-+++メッセージの頻度
-
-実験を実行して、1 週間に 1 通のメールを送信した場合と 3 通のメールを送信した場合のどちらで購入が増えるかを確認します。
-
-➡️ 購入数または登録解除率を成功指標として使用します。
-
-![1 通のメールと 3 通のメールをテストするメッセージの頻度の実験](assets/journey-optimize-experiment-uc-frequency.png)
-
-+++
-
-+++通信間の待機時間
-
-フォローアップ前の 24 時間待機と 72 時間待機を比較して、エンゲージメントを最大化するタイミングを判断します。
-
-➡️ クリックスルー率または売上高を成功指標として使用します。
-
-![24 時間と 72 時間の遅延を比較した待機時間の実験](assets/journey-optimize-experiment-uc-wait.png)
-
-+++
-
-## ターゲティングを活用 {#targeting}
-
->[!CONTEXTUALHELP]
->id="ajo_path_targeting_fallback"
->title="フォールバックパスとは"
->abstract="フォールバックパスを使用すると、ターゲティングルールが選定されていない場合に、オーディエンスは代替パスにエントリできます。</br>このオプションを選択しない場合、ターゲティングルールに選定されていないオーディエンスはフォールバックパスにエントリせずにジャーニーを終了します。"
-
-ターゲティングルールを使用すると、特定のオーディエンスセグメントに基づいて、顧客がいずれかのジャーニーパスへのエントリ対象となるために満たす必要がある、特定のルールまたは選定を決定できます<!-- depending on profile attributes or contextual attributes-->。
-
-特定のパスをランダムに割り当てる実験とは異なり、ターゲティングは、適切なオーディエンスまたはプロファイルが指定されたパスに確実にエントリするという点で決定論的です。
-
-<!--With targeting, specific rules can be defined based on:
-
-* **User profile attributes** such as location (eg. geo-targeting), age, or preferences. For example, users in the US receive a "Golden Gate" promotion, while users in France receive an "Eiffel Tower" promotion.
-
-* **Contextual data** such as device type (eg. device-targeting), time of day, or session details. For example, desktop users receive desktop-optimized content, while mobile users receive mobile-optimized content.
-
-* **Audiences** which can be used to include or exclude profiles that have a particular audience membership.-->
-
-ジャーニーでターゲティングを設定するには、次の手順に従います。
-
-1. 「**[!UICONTROL オーケストレーション]**」セクションから、**[!UICONTROL 最適化]**&#x200B;アクティビティをジャーニーキャンバスにドラッグ＆ドロップします。
-
-1. レポートモードとテストモードのログでアクティビティを識別するのに役立つ、オプションのラベルを追加します。
-
-1. **[!UICONTROL メソッド]**&#x200B;ドロップダウンリストから「**[!UICONTROL ターゲティングルール]**」を選択します。
-
-   ![最適化アクティビティでのターゲティングルールの選択](assets/journey-optimize-targeting.png){width=60%}
-
-1. 「**[!UICONTROL ターゲティングルールを作成]**」をクリックします。
-
-1. **[!UICONTROL ルールを作成]**／**[!UICONTROL 新規作成]**&#x200B;をクリックし、ルールビルダーを使用して条件を定義します。
-
-   ![ターゲティング条件を作成するルールビルダーインターフェイス](assets/journey-targeting-create-rule.png){width=100%}
-
-   例えば、ロイヤルティプログラムのゴールドメンバー向けのルール（`loyalty.status.equals("Gold", false)`）と、他のメンバー向けのルール（`loyalty.status.notEqualTo("Gold", false)`）を定義します。
-
-   ![ゴールドメンバーとゴールド以外のメンバーのロイヤルティステータスターゲティングルール](assets/journey-targeting-rule.png)
-
-1. また、**[!UICONTROL ルールを作成]**／**[!UICONTROL ルールを選択]**&#x200B;をクリックして、**[!UICONTROL ルール]**&#x200B;メニューから作成した既存のターゲティングルールを選択することもできます。[詳細情報](../experience-decisioning/rules.md)
-
-   ![ルールメニューから既存のターゲティングルールを選択](assets/journey-targeting-select-rule.png){width=70%}
-
-   この場合、ルールを構成する数式がジャーニーアクティビティにシンプルにコピーされます。その後、**[!UICONTROL ルール]**&#x200B;メニューからそのルールを変更しても、ジャーニーのコピーには影響しません。
-
-   >[!AVAILABILITY]
-   >
-   >専用の [!DNL Journey Optimizer] メニューから[ターゲティングルールを作成](../experience-decisioning/rules.md#create)できるのは、現在、決定アドオン機能を購入した組織で、他の組織ではオンデマンドで使用できます（限定提供）。
-   >
-   >この機能は、すべての顧客に段階的にロールアウトされる予定です。それまでの間、アクセス権を取得するには、アドビ担当者にお問い合わせください。
-
-1. ルールを追加したら、引き続き変更できます。 ルールビルダーを使用して外出先で更新するには「**[!UICONTROL インラインで編集]**」を選択し、別の既存のルールを選択するには「**[!UICONTROL ルールを選択]**」を選択します。
-
-   ![「インラインで編集」オプションまたはターゲティングルールを変更する「ルールを選択」オプション](assets/journey-targeting-modify-rule.png){width=100%}
-
-   >[!NOTE]
-   >
-   >ルールをインラインで編集しても、そのルールの元となる既存のルールには影響しません。
-
-1. 必要に応じて、「**[!UICONTROL フォールバックパスを有効にする]**」オプションを選択します。このアクションにより、上記で定義したどのターゲティングルールも満たさないオーディエンスに対してフォールバックパスが作成されます。
-
-   >[!NOTE]
-   >
-   >このオプションを選択しない場合、ターゲティングルールに選定されていないオーディエンスはフォールバックパスにエントリせずにジャーニーを終了します。
-
-1. 「**[!UICONTROL 作成]**」をクリックして、ターゲティングルールの設定を保存します。
-
-1. ジャーニーに戻り、特定のアクションをドロップして各パスをカスタマイズします。例えば、ゴールドロイヤルティメンバー向けにパーソナライズされたオファーを含むメールを作成し、他のすべてのメンバー向けには SMS リマインダーを作成します。
-
-   ![ゴールドメンバーにはメール、他のメンバーには SMS を使用したジャーニーパス](assets/journey-targeting-paths.png)
-
-1. ルール設定を定義する際に「**[!UICONTROL フォールバックコンテンツを有効にする]**」オプションを選択した場合は、自動的に追加されたフォールバックパスに対して 1 つ以上のアクションを定義します。
-
-   ![選定されていないプロファイルのフォールバックパス設定](assets/journey-targeting-fallback.png){width=70%}
-
-1. オプションで、「**[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**」を使用して、問題が発生した場合の代替アクションを定義します。[詳細情報](using-the-journey-designer.md#paths)
-
-1. ターゲティングルールの設定で定義した各グループに対応する各アクションに適切なコンテンツを設計します。アクションごとに様々なコンテンツ間をシームレスに移動できます。
-
-   ![ターゲティングルールアクションのコンテンツデザインパネル](assets/journey-targeting-design.png)
-
-   この例では、ゴールドメンバー向けの特別オファーを含むメールと、他のメンバー向けの SMS リマインダーを設計します。
-
-1. ジャーニーを[公開](publish-journey.md)します。
-
-ジャーニーがライブになると、各セグメントに指定したパスが処理され、ゴールドメンバーはメールオファーを含むパスにエントリし、他のメンバーは SMS リマインダーを含むパスにエントリするようになります。
-
-ジャーニーレポートを使用して、ジャーニーの成功を追跡します。[詳細情報](../reports/journey-global-report-cja.md#targeting)
-
-### ターゲティングルールのユースケース {#uc-targeting}
-
-次の例は、**[!UICONTROL 最適化]**&#x200B;アクティビティを&#x200B;**[!UICONTROL ターゲティング]**&#x200B;メソッドで使用して、様々なサブオーディエンスのパスをパーソナライズする方法を示しています。
-
-+++セグメント固有のチャネル
-
-ゴールドステータスのロイヤルティメンバーは、メールでパーソナライズされたオファーを受信でき、他のすべてのメンバーは SMS リマインダーに誘導されます。
-
-<!--➡️ Use the revenue per profile or conversion rate as the optimization metric.-->
-
-![ゴールドメンバーをメール、他のメンバーを SMS を使用してターゲットにするセグメント固有のチャネル](assets/journey-optimize-targeting-uc-segment.png)
-
-+++
-
-+++行動ベースのターゲティング
-
-メールを開いたがクリックしなかった顧客にはプッシュ通知、まったく開かなかった顧客には SMS が送信されます。
-
-<!--➡️ Use the click-through rate or downstream conversions as the optimization metric.-->
-
-![プッシュまたは SMS フォールバックを使用したメールエンゲージメントの行動ベースのターゲティング](assets/journey-optimize-targeting-uc-behavior.png)
-
-+++
-
-+++購入履歴のターゲティング
-
-最近購入した顧客は短い「お礼 + クロスセル」パスに進むことができますが、購入履歴のない顧客はより長い育成ジャーニーにエントリします。
-
-<!--➡️ Use the repeat purchase rate or engagement rate as the optimization metric.-->
-
-![購入者向けのクロスセルパスと購入者以外向けの育成パスを使用した購入履歴のターゲティング](assets/journey-optimize-targeting-uc-purchase.png)
-
-+++
-
-### 条件の追加 {#conditions}
-
-条件は、特定の条件に基づいて複数のパスを作成することで、個人がジャーニーをどのように進めるかを定義できる[ターゲティング](#targeting)ルールのタイプです。
-
-![条件に基づいて複数のパスを作成するジャーニーの条件アクティビティ](assets/journey-condition.png)
-
-条件を定義する方法について詳しくは、[この節](conditions.md)を参照してください。
-
-使用可能な条件のタイプは次のとおりです。
-
-* [データソースの条件](condition-activity.md#data_source_condition)
-* [時間条件](condition-activity.md#time_condition)
-* [パーセンテージ分割](condition-activity.md#percentage_split)
-* [日付条件](condition-activity.md#date_condition)
-* [プロファイルキャップ](condition-activity.md#profile_cap)
+* どの経路が最も効果的かをテストして確認したい場合、 → [ パス実験](path-experimentation.md)に移動
+* 複数のオーディエンスを特定のパスに誘導する場合、 → [ パスのターゲット ](path-targeting.md)に移動
+* 条件付きロジック（if/then シナリオ）を作成する場合、 → [条件](conditions.md)に移動

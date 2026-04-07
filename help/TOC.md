@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d84cc0f4d9226876e55e37409a685550fe0c9050
+source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
-source-wordcount: '3185'
+source-wordcount: '3194'
 ht-degree: 94%
 
 ---
@@ -85,9 +85,11 @@ ht-degree: 94%
       + [一般イベント](using/building-journeys/general-events.md)
       + [反応イベント](using/building-journeys/reaction-events.md)
       + [オーディエンスの選定](using/building-journeys/audience-qualification-events.md)
-      + [最適化](using/building-journeys/optimize.md)
-      + [条件](using/building-journeys/conditions.md)
-      + [条件](using/building-journeys/condition-activity.md)
+      + 最適化 {#optimize-activity}
+         + [最適化アクティビティの概要](using/building-journeys/optimize.md)
+         + [パスの検証](using/building-journeys/path-experimentation.md)
+         + [パスターゲティング](using/building-journeys/path-targeting.md)
+         + [条件](using/building-journeys/conditions.md)
       + [オーディエンスを読み取り](using/building-journeys/read-audience.md)
       + [待機](using/building-journeys/wait-activity.md)
       + [コンテンツの決定](using/building-journeys/content-decision.md)
@@ -965,7 +967,7 @@ ht-degree: 94%
    + [プライバシー](/help/rp_landing_pages/privacy-landing-page.md)
    + [プライバシーの基本を学ぶ](using/privacy/get-started-privacy.md)
    + [プライバシーリクエスト](using/privacy/requests.md)
-   + [&#x200B; リソースに対する監査アクション](using/privacy/audit-logs.md)
+   + [ リソースに対する監査アクション](using/privacy/audit-logs.md)
    + [データライフサイクル操作の実行](using/privacy/data-hygiene.md)
    + 同意を管理 {#consent}
       + [同意を管理](/help/rp_landing_pages/consent-landing-page.md)
