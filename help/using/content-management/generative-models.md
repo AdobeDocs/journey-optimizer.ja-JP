@@ -24,7 +24,7 @@ ht-degree: 0%
 - Gemini 2.5 Flashを搭載した&#x200B;**[!UICONTROL パートナーモデル]**&#x200B;は、特定のユースケースに特化した機能を提供します。 AI アシスタントの画像に&#x200B;**Gemini**&#x200B;と&#x200B;**テキストオーバーレイ**&#x200B;を使用するステップバイステップのワークフローについては、[Geminiをテキストオーバーレイ画像](generative-uc.md#generative-gemini)の生成モデルとして使用するを参照してください。
 - **[!UICONTROL カスタムモデル]**&#x200B;は、自社のアセットでトレーニングし、自社が追加したブランド固有のモデルです。
 
-  **[!UICONTROL カスタムモデル]**&#x200B;の詳細については、[Adobe Firefly ドキュメント &#x200B;](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html)を参照してください
+  **[!UICONTROL カスタムモデル]**&#x200B;の詳細については、[Adobe Firefly ドキュメント &#x200B;](https://helpx.adobe.com/jp/firefly/web/work-with-enterprise-features/train-custom-models/custom-models-overview.html)を参照してください
 
 一度設定すれば、コンテンツに画像を作成する際に、任意の生成モデルを選択できます。 [画像の生成に関する詳細情報](generative-image.md)。
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 カスタムのFireflyモデルプロバイダーを作成することで、AI能力をデフォルトモデル以上に向上させ、ブランド独自のデザインと要件を一貫して反映したコンテンツを生成できます。
 
-➡️ [&#x200B; カスタムモデルのトレーニング方法を学ぶ](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/train-firefly-custom-models.html)
+➡️ [&#x200B; カスタムモデルのトレーニング方法を学ぶ](https://helpx.adobe.com/jp/firefly/web/work-with-enterprise-features/train-custom-models/train-firefly-custom-models.html)
 
 1. **[!UICONTROL ブランド]** メニューから、**[!UICONTROL 生成モデル]** タブにアクセスし、**[!UICONTROL モデルを追加]**&#x200B;をクリックします。
 
@@ -75,10 +75,10 @@ ht-degree: 0%
    +++ Firefly モデル IDの検索
 
    1. Fireflyのweb サイトにアクセスし、トレーニングしたモデルに移動します。
-   1. 「[&#x200B; プレビューとテスト &#x200B;](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/train-firefly-custom-models.html#preview-and-test)」メニューにアクセスします。
+   1. 「[&#x200B; プレビューとテスト &#x200B;](https://helpx.adobe.com/jp/firefly/web/work-with-enterprise-features/train-custom-models/train-firefly-custom-models.html#preview-and-test)」メニューにアクセスします。
    1. URLで、`customModelId=`の後の値を見つけます。 この値をコピーして、モデル IDとして使用します。
 
-   詳しくは、[Firefly カスタムモデルのドキュメント &#x200B;](https://helpx.adobe.com/firefly/web/work-with-enterprise-features/train-custom-models/manage-custom-models.html)を参照してください。
+   詳しくは、[Firefly カスタムモデルのドキュメント &#x200B;](https://helpx.adobe.com/jp/firefly/web/work-with-enterprise-features/train-custom-models/manage-custom-models.html)を参照してください。
 
    ![](assets/gen-model-manage-10.png){zoomable="yes"}
 
