@@ -7,10 +7,10 @@ role: User
 level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 version: Journey Orchestration
-source-git-commit: 36a98c7d256f732901ece7a5abd484d72b57db6e
+source-git-commit: 6697d82a5d78600638f416d4313b65023e185c9a
 workflow-type: tm+mt
-source-wordcount: '685'
-ht-degree: 70%
+source-wordcount: '658'
+ht-degree: 71%
 
 ---
 
@@ -49,9 +49,8 @@ ht-degree: 70%
 
 ## ガードレールと制限
 
-* **サポートされているチャネル** – 決定ポリシーは、すべての顧客がコードベースのエクスペリエンス、SMS、プッシュ通知で利用できます。 メールチャネルの決定は、限定提供でのみ利用できます。
-* **プッシュ通知SDK要件** - プッシュ通知付きExperience Decisioningには、特定のバージョンのモバイル SDKが必要です。 この機能を実装する前に、[&#x200B; リリースノート &#x200B;](https://developer.adobe.com/client-sdks/home/release-notes/){target="_blank"}を確認して、必要なバージョンを特定し、それに応じてアップグレードされていることを確認してください。 また、[このセクション &#x200B;](https://developer.adobe.com/client-sdks/home/current-sdk-versions/){target="_blank"}では、お使いのプラットフォームで利用可能なすべてのSDK バージョンを表示できます。
-* **メールのミラーページ** - 現時点では、決定項目はメールのミラーページではレンダリングされません。
+* **サポートされているチャネル** – 決定ポリシーは、コードベースのエクスペリエンス、SMS、プッシュ通知、電子メールで利用できます。
+* **プッシュ通知SDK要件** - プッシュ通知付きExperience Decisioningには、特定のバージョンのモバイル SDKが必要です。 この機能を実装する前に、[ リリースノート ](https://developer.adobe.com/client-sdks/home/release-notes/){target="_blank"}を確認して、必要なバージョンを特定し、それに応じてアップグレードされていることを確認してください。 また、[このセクション ](https://developer.adobe.com/client-sdks/home/current-sdk-versions/){target="_blank"}では、お使いのプラットフォームで利用可能なすべてのSDK バージョンを表示できます。
 * **トラッキングとリンクのタイプ** - 決定によって生成されたリンクを追跡するには、「決定アセット」としてスキーマで定義します。属性ベースのリンクは追跡できません。
 * **メールでの決定ポリシーのネスト** - 既に決定ポリシーが関連付けられている親メールコンポーネント内に複数の決定ポリシーをネストすることはできません。
 * **決定ポリシーを含む複製されたジャーニー／キャンペーン** - 決定ポリシーを含むジャーニーまたはキャンペーンを複製すると、複製されたバージョンは元のメールまたはコードベースのエクスペリエンスを参照するので、エラーが発生します。複製後は、常に決定ポリシーを再設定します。
@@ -85,12 +84,12 @@ ht-degree: 70%
 
 決定機能を使用して、オーディエンスの電子メールをパーソナライズする方法を学びましょう。
 
->[!VIDEO](https://video.tv.adobe.com/v/3476165?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476158?quality=12)
 
 決定機能を使用して、オーディエンスのプッシュ通知をパーソナライズする方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3479211?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
 
 決定機能を使用して、オーディエンスのSMS メッセージをパーソナライズする方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3479530?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479529?quality=12)
