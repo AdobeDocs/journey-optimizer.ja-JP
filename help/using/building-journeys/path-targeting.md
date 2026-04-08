@@ -8,13 +8,13 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: ターゲティング，ルール，ジャーニー，パス，最適化，パーソナライゼーション
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+exl-id: b30ce5c9-a0e2-4601-97a3-5bec648368e4
+source-git-commit: 9cf7479bcdb12e5d2ebadfcf977b17738a97536d
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 88%
 
 ---
-
 
 # パスのターゲティングを活用 {#targeting}
 
@@ -140,4 +140,3 @@ ht-degree: 88%
 ![購入者向けのクロスセルパスと購入者以外向けの育成パスを使用した購入履歴のターゲティング](assets/journey-optimize-targeting-uc-purchase.png)
 
 +++
-
