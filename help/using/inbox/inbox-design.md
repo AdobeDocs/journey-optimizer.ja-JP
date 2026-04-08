@@ -5,9 +5,10 @@ feature: Content Cards
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: d84cc0f4d9226876e55e37409a685550fe0c9050
+exl-id: 0ab71b21-0085-4a93-b319-3c960bd8f7dd
+source-git-commit: 2eb2e99e654516fc13a7f98125f48e7e8f672ee3
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 受信トレイ キャンペーンを作成する手順について詳しくは、[受信トレイを作成](inbox-create.md)を参照してください。
 
-1. 作成した&#x200B;**[!UICONTROL 受信トレイ キャンペーンの]** コンテンツ [&#x200B; タブを開きます](inbox-create.md)。
+1. 作成した&#x200B;**[!UICONTROL 受信トレイ キャンペーンの]** コンテンツ [ タブを開きます](inbox-create.md)。
 
 1. **[!UICONTROL コンテナタイトル]**&#x200B;を設定します。
 
@@ -52,8 +53,15 @@ ht-degree: 0%
 
    ![](assets/inbox-design-3.png)
 
+1. ![ レールアイコン ](assets/do-not-localize/Smock_Rail_18_N.svg)をクリックしてプレビューパネルを開き、空の受信トレイの表示方法を確認します。
+
+   ![](assets/inbox-design-3.png)
+
 1. **[!UICONTROL データ]** セクションで、**[!UICONTROL メタデータを追加]**&#x200B;をクリックして、ペイロードにカスタムキーと値のペアを追加します。
 
 1. ![](assets/do-not-localize/Smock_StarOutline_18_N.svg) アイコンをクリックして、受信トレイのダークモードのプレビューを開き、ダークテーマの色と画像を確認します。
 
    ![](assets/inbox-design-4.png)
+
+準備ができたら、設定を確認し、受信トレイを有効にします。 アクティブ化後は、[ コンテンツカード ](../content-card/create-content-card.md)で使用できます。
+

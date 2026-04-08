@@ -5,9 +5,10 @@ feature: Content Cards
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 337b8ed47892ef06a84884468919e32a333653f3
+exl-id: 60190d0b-d8e7-4a78-9924-d948f2769f6c
+source-git-commit: 2eb2e99e654516fc13a7f98125f48e7e8f672ee3
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 0%
 * **永続的なメッセージ**：コンテンツは、削除するか期限切れになるまで受信トレイに残ります。ユーザーは、通知を閉じたりアプリを終了したりした後でも、受信トレイに戻ることができます。
 * **一元的な場所**：関連するマーケティングメッセージ用のアプリまたはサイト内の単一のメールボックス。
 * **柔軟な実装**：既製の受信トレイ コンテナを使用するか、独自のUIでエクスペリエンスをカスタマイズします。
-* **クロスデバイス同期**：読み取りステータスとエンゲージメントは、ユーザーのデバイス間で調整されます。
+* **読み取り状態**: メッセージを開いたデバイスで読み取り済みまたは未読としてマークできます。
 
 ## クイックスタートガイド
 
@@ -46,5 +47,5 @@ ht-degree: 0%
 ## その他のリソース
 
 * [受信トレイを取得して表示](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/displaying-inbox/): Journey Optimizerの受信トレイ メッセージを読み込み、Androidで受信トレイ UIをレンダリングします（Adobe Developer ドキュメント）。
-* [受信トレイのカスタマイズ &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/customizing-inbox/):Android アプリの受信トレイのレイアウト、スタイル、インタラクションの動作を調整します（Adobe Developer ドキュメント）。
-* [受信トレイ イベントのリッスン &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/listening-inbox-events/): Androidのユーザーアクションとライフサイクルの更新に関する受信トレイ コールバックの購読（Adobe Developer ドキュメント）。
+* [受信トレイのカスタマイズ ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/customizing-inbox/):Android アプリの受信トレイのレイアウト、スタイル、インタラクションの動作を調整します（Adobe Developer ドキュメント）。
+* [受信トレイ イベントのリッスン ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/listening-inbox-events/): Androidのユーザーアクションとライフサイクルの更新に関する受信トレイ コールバックの購読（Adobe Developer ドキュメント）。
