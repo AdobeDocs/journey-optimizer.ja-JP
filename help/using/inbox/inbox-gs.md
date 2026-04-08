@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 60190d0b-d8e7-4a78-9924-d948f2769f6c
-source-git-commit: 2eb2e99e654516fc13a7f98125f48e7e8f672ee3
+source-git-commit: f7f303685e954614b44a9b62368460e9b07b26b3
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 0%
+source-wordcount: '363'
+ht-degree: 1%
 
 ---
 
@@ -46,6 +46,10 @@ ht-degree: 0%
 
 ## その他のリソース
 
+* [受信トレイ UI （iOS） ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/iOS/)：要件、公開API サーフェス、受信トレイ設定、およびAdobe Experience Platform Mobile SDK（iOS 15以降、Xcode 15以降、Swift 5.1以降）を使用してiOS アプリにJourney Optimizer インボックスを実装するためのチュートリアルへのリンク。
+
 * [受信トレイを取得して表示](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/displaying-inbox/): Journey Optimizerの受信トレイ メッセージを読み込み、Androidで受信トレイ UIをレンダリングします（Adobe Developer ドキュメント）。
-* [受信トレイのカスタマイズ &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/customizing-inbox/):Android アプリの受信トレイのレイアウト、スタイル、インタラクションの動作を調整します（Adobe Developer ドキュメント）。
-* [受信トレイ イベントのリッスン &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/listening-inbox-events/): Androidのユーザーアクションとライフサイクルの更新に関する受信トレイ コールバックの購読（Adobe Developer ドキュメント）。
+
+* [受信トレイのカスタマイズ ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/customizing-inbox/):Android アプリの受信トレイのレイアウト、スタイル、インタラクションの動作を調整します（Adobe Developer ドキュメント）。
+
+* [受信トレイ イベントのリッスン ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/inbox-ui/Android/tutorial/listening-inbox-events/): Androidのユーザーアクションとライフサイクルの更新に関する受信トレイ コールバックの購読（Adobe Developer ドキュメント）。
