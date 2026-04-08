@@ -99,7 +99,7 @@ eventTypes について詳しくは、[この節](#discarded-events)を参照し
 
   **一般的な原因**：重複イベント、大量のイベント、システムリソースの制限。
 
-  **トラブルシューティング**：重複排除の実装、トラフィックの急増の回避、ジャーニー設計の最適化、永続的な場合は[ サポート ](../start/user-interface.md#support-ticket-guidelines)にお問い合わせください。
+  **トラブルシューティング**：重複排除の実装、トラフィックの急増の回避、ジャーニー設計の最適化、永続的な場合は[&#x200B; サポート &#x200B;](../start/user-interface.md#support-ticket-guidelines)にお問い合わせください。
 
 * **maxInstanceStackEventsReached**: ジャーニーランタイムは、特定のジャーニーバージョンのプロファイルごとのイベントスタックの内部制限である10 イベントに達しました。
 
