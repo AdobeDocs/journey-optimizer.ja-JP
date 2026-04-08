@@ -8,10 +8,10 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: 63fb247449dfb989b191254ec6d117a403edd29d
+source-git-commit: ecf61997d9ab8a7fe818db15b0b70b1a8c6ad500
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 97%
+source-wordcount: '757'
+ht-degree: 84%
 
 ---
 
@@ -99,7 +99,13 @@ eventTypes について詳しくは、[この節](#discarded-events)を参照し
 
   **一般的な原因**：重複イベント、大量のイベント、システムリソースの制限。
 
-  **トラブルシューティング**：重複排除の実装、トラフィックスパイクの回避、ジャーニー設計の最適化 [&#x200B; 持続性がある場合はサポートへのお問い合わせ &#x200B;](../start/user-interface.md#support-ticket-guidelines)。
+  **トラブルシューティング**：重複排除の実装、トラフィックの急増の回避、ジャーニー設計の最適化、永続的な場合は[ サポート ](../start/user-interface.md#support-ticket-guidelines)にお問い合わせください。
+
+* **maxInstanceStackEventsReached**: ジャーニーランタイムは、特定のジャーニーバージョンのプロファイルごとのイベントスタックの内部制限である10 イベントに達しました。
+
+  **共通の原因**: プロファイルのジャーニーインスタンスは、長時間実行している手順（長い待機、低速なエンリッチメント、カスタムアクションの再試行など）でブロックされ、同じプロファイルのイベントが、そのジャーニーでも使用され、10 イベントの制限を超えて積み重ねられます。
+
+  **トラブルシューティング**：頻繁にトリガーを繰り返したり、アップストリームイベントをデバウンスまたは重複排除したり、長いシナリオを複数のジャーニーに分割したりできるパスで、長時間実行されるステップを減らします。 これは安全ガードレールであり、制限は設定できません。スタックがドレインするまで、追加のイベントは破棄されます。 詳しくは、「[maxInstanceStackEventsReached](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached)で破棄されたイベント」を参照してください。
 
 * **EVENT_WITH_NO_JOURNEY**：イベントを受信しましたが、応答するアクティブなジャーニーが設定されていません
 
