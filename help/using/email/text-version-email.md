@@ -52,7 +52,7 @@ HTML コンテンツを表示できない場合に使用するため、メール
 
 AIを活用した受信トレイ機能（[!DNL Gmail]、[!DNL Outlook]、[!DNL Apple Mail]の要約など）は、**[!UICONTROL AI受信トレイに最適化]** ボタンを使用して、主要なオファーと詳細を表示するのに役立ちます。 このアクションは、メッセージのテキスト部分から読み取りやすい情報アシスタントに焦点を当てた改善されたプレーンテキストバージョンを生成します。
 
-![ テキストバージョンビューでのAI受信トレイの最適化](assets/text-optimizer-for-ai-button.png){zoomable="yes" width="80%"}
+![&#x200B; テキストバージョンビューでのAI受信トレイの最適化](assets/text-optimizer-for-ai-button.png){zoomable="yes" width="80%"}
 
 >[!IMPORTANT]
 >
