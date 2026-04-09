@@ -2,11 +2,11 @@
 title: AIを活用した受信トレイ用にメールテキストを最適化する
 description: Journey Optimizerでメールのプレーンテキストのレイヤーを調整して、AIを活用して最適化されたメールDesignerで、AIを活用した受信トレイのクライアントがメールの要約や意図の抽出をおこなう際に、オファーやCTAを使用できるようにします。
 feature: Email Design
-topic: Email Design, Artificial Intelligence
+topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner, Intermediate
 exl-id: 0c2f95ce-28a0-480c-9829-b7e4975b6340
-source-git-commit: 6304c4db02526ca6e774792474d3a495c7180f95
+source-git-commit: 81cda1c3dbbf7310c7dfc9b00b55238e3784e1ea
 workflow-type: tm+mt
 source-wordcount: '1075'
 ht-degree: 1%
@@ -53,9 +53,9 @@ AIを活用した受信トレイのエクスペリエンスで受信者が尋ね
 
 >[!IMPORTANT]
 >
->この機能を使用する前に、関連する[&#x200B; リスクと制限事項](#inbox-ai-risks)をお読みください。
+>この機能を使用する前に、関連する[ リスクと制限事項](#inbox-ai-risks)をお読みください。
 >
->この機能にアクセスするには、[!DNL Journey Optimizer]で生成AIを初めて使用する場合に表示される使用許諾契約書に同意する必要があります。 詳しくは、[Adobe Experience Cloud生成AI ユーザーガイドライン &#x200B;](https://www.adobe.com/jp/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}を参照してください。
+>この機能にアクセスするには、[!DNL Journey Optimizer]で生成AIを初めて使用する場合に表示される使用許諾契約書に同意する必要があります。 詳しくは、[Adobe Experience Cloud生成AI ユーザーガイドライン ](https://www.adobe.com/jp/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}を参照してください。
 
 [!DNL Journey Optimizer]を含むAI受信箱のメールのプレーンテキストバージョンを最適化するには、次の手順に従います。
 
@@ -63,25 +63,25 @@ AIを活用した受信トレイのエクスペリエンスで受信者が尋ね
 
 1. **[!UICONTROL プレーンテキスト]** アイコンを選択して、メールのテキストバージョンを開きます。 [詳細情報](text-version-email.md)
 
-   ![&#x200B; プレーンテキストアイコンを選択して、メールのテキストバージョンを開きます](assets/text-optimizer-text-icon.png){zoomable="yes"}
+   ![ プレーンテキストアイコンを選択して、メールのテキストバージョンを開きます](assets/text-optimizer-text-icon.png){zoomable="yes"}
 
 1. メールのテキストバージョンが表示されます。 AIによる読み取りと要約の主要な情報を強調表示する改善されたプレーンテキストバージョンを生成するには、「**[!UICONTROL AI インボックス用に最適化]**」ボタンをクリックします。
 
-   ![&#x200B; テキストバージョンビューでのAI受信トレイの最適化](assets/text-optimizer-for-ai-button.png){zoomable="yes" width="80%"}
+   ![ テキストバージョンビューでのAI受信トレイの最適化](assets/text-optimizer-for-ai-button.png){zoomable="yes" width="80%"}
 
    >[!NOTE]
    >
    >「**[!UICONTROL AI受信トレイ用に最適化]**」ボタンをクリックすると、「**[!UICONTROL HTMLと同期]**」オプションが自動的に無効になります。 [詳細情報](text-version-email.md#plain-text-custom)
 
-1. [!DNL Journey Optimizer]で生成AIを初めて使用する場合は、使用許諾契約書に同意するよう求められます。 詳しくは、[Adobe生成AI ユーザーガイドライン &#x200B;](https://www.adobe.com/jp/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}を参照してください。
+1. [!DNL Journey Optimizer]で生成AIを初めて使用する場合は、使用許諾契約書に同意するよう求められます。 詳しくは、[Adobe生成AI ユーザーガイドライン ](https://www.adobe.com/jp/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}を参照してください。
 
-   Journey Optimizerの![生成AI ユーザー契約書ダイアログ &#x200B;](assets/text-optimizer-agreement.png){width=50%}
+   Journey Optimizerの![生成AI ユーザー契約書ダイアログ ](assets/text-optimizer-agreement.png){width=50%}
 
    「**[!UICONTROL 同意]**」をクリックして続行します。
 
 1. 生成されたテキストが表示されます。 変更を確認し、必要に応じて編集し、通常どおりメールを保存します。
 
-   ![&#x200B; テキスト バージョン ビューで生成されたテキスト &#x200B;](assets/text-optimizer-output.png){zoomable="yes" width="80%"}
+   ![ テキスト バージョン ビューで生成されたテキスト ](assets/text-optimizer-output.png){zoomable="yes" width="80%"}
 
    >[!NOTE]
    >
