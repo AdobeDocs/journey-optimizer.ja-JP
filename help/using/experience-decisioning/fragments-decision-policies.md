@@ -6,9 +6,10 @@ topic: Integrations
 role: User
 level: Experienced
 exl-id: 70f64348-092b-4350-91dc-72c3c07300f9
-source-git-commit: 559feb1d45abb287d5f4b0e2abae8f2ec663713b
+badge: label="限定提供" type="Informative"
+source-git-commit: 907dad4ab4890714da5dd8a12692c0ee7c381bf2
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '440'
 ht-degree: 86%
 
 ---
