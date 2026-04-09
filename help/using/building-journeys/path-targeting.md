@@ -9,9 +9,10 @@ role: User
 level: Intermediate
 keywords: ターゲティング，ルール，ジャーニー，パス，最適化，パーソナライゼーション
 exl-id: b30ce5c9-a0e2-4601-97a3-5bec648368e4
-source-git-commit: 9cf7479bcdb12e5d2ebadfcf977b17738a97536d
+badge: label="限定提供" type="Informative"
+source-git-commit: e61af5e3822440d5c71dfd56d86ef79f6ce2c6ca
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '801'
 ht-degree: 88%
 
 ---
@@ -31,13 +32,15 @@ ht-degree: 88%
 
 特定のパスをランダムに割り当てる実験とは異なり、ターゲティングは、適切なオーディエンスまたはプロファイルが指定されたパスに確実にエントリするという点で決定論的です。
 
-<!--With targeting, specific rules can be defined based on:
+<!--
+With targeting, specific rules can be defined based on:
 
 * **User profile attributes** such as location (eg. geo-targeting), age, or preferences. For example, users in the US receive a "Golden Gate" promotion, while users in France receive an "Eiffel Tower" promotion.
 
 * **Contextual data** such as device type (eg. device-targeting), time of day, or session details. For example, desktop users receive desktop-optimized content, while mobile users receive mobile-optimized content.
 
-* **Audiences** which can be used to include or exclude profiles that have a particular audience membership.-->
+* **Audiences** which can be used to include or exclude profiles that have a particular audience membership.
+-->
 
 ジャーニーでターゲティングを設定するには、次の手順に従います。
 
