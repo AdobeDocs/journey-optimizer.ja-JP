@@ -7,7 +7,7 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1708'
 ht-degree: 100%
@@ -210,7 +210,8 @@ SFTP アカウントの Experience Platform への接続について詳しくは
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_sort"
 >title="Define the sort order"
->abstract="If you select this option, the sort will be by profile ID, ascending or descending. If you unselect it, the sorting configuration defined when creating the direct mail message within a journey or a campaign."-->
+>abstract="If you select this option, the sort will be by profile ID, ascending or descending. If you unselect it, the sorting configuration defined when creating the direct mail message within a journey or a campaign."
+-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_split"
@@ -281,5 +282,4 @@ SFTP アカウントの Experience Platform への接続について詳しくは
     >[!NOTE]
     >
     >NOTE You can set any number between 1 and 200,000 records, meaning each file must contain at least 1 row and no more than 200,000 rows.
-
 -->
