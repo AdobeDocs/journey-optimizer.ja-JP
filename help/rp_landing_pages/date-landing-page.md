@@ -6,11 +6,10 @@ description: 日付
 redpen-status: CREATED_||_2025-08-11_20-14-40
 exl-id: 38bf1898-9de0-470d-abd6-a9240e83e87f
 hide: true
-hidefromtoc: true
-source-git-commit: 0331f8fe2439d41c08ad88a6d0bd95dd150bab90
-workflow-type: ht
-source-wordcount: '405'
-ht-degree: 100%
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +21,7 @@ Adobe Journey Optimizer の日付関数を使用すると、時間関連デー�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 currentTimeInMillis 関数リファレンス
 
@@ -32,7 +31,7 @@ currentTimeInMillis 関数リファレンス
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 inLastDays 関数
 
@@ -42,7 +41,7 @@ inLastDays 関数
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 inLastHours 関数の使用
 
@@ -52,7 +51,7 @@ inLastHours 関数の使用
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 inLastMonths 関数の使用
 
@@ -62,7 +61,7 @@ Adobe Journey Optimizer で「inLastMonths」を使用して、ある日付が�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 inLastYears 関数の使用
 
@@ -72,7 +71,7 @@ inLastYears 関数の使用
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 inNextDays 関数
 

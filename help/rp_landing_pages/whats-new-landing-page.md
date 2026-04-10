@@ -5,12 +5,11 @@ title: 新機能
 description: 新機能
 redpen-status: CREATED_||_2025-08-11_20-03-09
 hide: true
-hidefromtoc: true
 exl-id: 24460cae-3944-4ac4-9076-aca521cfddbd
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -37,7 +36,7 @@ Adobe Journey Optimizer の Adobe Express 統合により、コンテンツの�
 
 Immerse yourself in a hands-on experience with our [AI Assistant](../help/using/content-management/gs-generative.md) live feature preview, designed to let you explore its features firsthand and fully understand its capabilities.
 
-[![learn more](../using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/ja/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
+[![learn more](../using/assets/do-not-localize/try-it-button.svg)](https://experienceleague.adobe.com/en/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}
 -->
 
 >[!TAB AEM コンテンツフラグメント]
@@ -53,7 +52,7 @@ Adobe Experience Manager as a Cloud Service を Adobe Journey Optimizer と統�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Adobe Journey Optimizer の最新のリリースノート
 
@@ -63,7 +62,7 @@ Adobe Journey Optimizer の最新のリリースノート
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Adobe Journey Optimizer の以前のリリースノート
 
@@ -73,7 +72,7 @@ Adobe Journey Optimizer 全体の機能、統合、改善に関する詳細な�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Adobe Journey Optimizer ドキュメントの最新の更新
 

@@ -6,11 +6,10 @@ description: 集計
 redpen-status: CREATED_||_2025-08-11_20-12-06
 exl-id: fd46c749-c77a-4cda-94ec-58c58d136595
 hide: true
-hidefromtoc: true
-source-git-commit: 7d75abf6b428becc8b535a63421e85cca417daac
-workflow-type: ht
-source-wordcount: '271'
-ht-degree: 100%
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +21,7 @@ Adobe Journey Optimizer の集計関数を使用すると、複雑なデータ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer の avg 関数
 
@@ -32,7 +31,7 @@ Adobe Journey Optimizer の avg 関数
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 count 関数ドキュメント
 
@@ -42,7 +41,7 @@ count 関数ドキュメント
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 countOnlyNull 関数 - リストの Null 値のカウント
 
@@ -52,7 +51,7 @@ countOnlyNull 関数 - リストの Null 値のカウント
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 countWithNull 関数の概要
 
@@ -62,7 +61,7 @@ countWithNull 関数の概要
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer の distinctCount 関数
 
@@ -72,7 +71,7 @@ Adobe Journey Optimizer の distinctCount 関数
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 distinctCountWithNull 関数：一意の値（Null を含む）のカウント
 

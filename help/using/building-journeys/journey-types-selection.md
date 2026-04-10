@@ -9,9 +9,8 @@ level: Beginner
 keywords: ジャーニータイプ, 単一, オーディエンスを読み取り, オーディエンスの選定, ビジネスイベント, 比較, 決定ガイド, 選択, 選択, リアルタイム, スケジュール済み, バッチ, イベントトリガー
 version: Journey Orchestration
 hide: true
-hidefromtoc: true
 exl-id: 0c894dc1-76b6-4b33-baf8-eaf6686f7d38
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '977'
 ht-degree: 96%

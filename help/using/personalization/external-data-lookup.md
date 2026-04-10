@@ -6,13 +6,12 @@ topic: Personalization
 role: Developer
 level: Experienced
 hide: true
-hidefromtoc: true
 badge: label="限定提供" type="Informative"
 exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
-source-git-commit: c4f6b7754255ce3bf0229702b10955abf9843548
-workflow-type: ht
-source-wordcount: '1241'
-ht-degree: 100%
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

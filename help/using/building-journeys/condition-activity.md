@@ -10,9 +10,8 @@ level: Intermediate
 keywords: アクティビティ, 条件, キャンバス, ジャーニー
 exl-id: 02de069c-3009-4105-aa98-c49959d3efda
 version: Journey Orchestration
-hidefromtoc: true
 hide: true
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '1818'
 ht-degree: 92%
@@ -45,8 +44,8 @@ ht-degree: 92%
 また、オーディエンスメンバーシップを基準とした条件を指定することもできます。 次のセクションを参照してください。
 
 * [条件でオーディエンスを使用](#using-a-segment) - プロファイルがオーディエンスに属しているかどうかに基づいてパスを追加します。
-* [&#x200B; オーディエンスの作成とターゲティング &#x200B;](../audience/about-audiences.md) - オーディエンスメニューでオーディエンスを作成および管理します。
-* [&#x200B; ジャーニー内のオーディエンスターゲティング &#x200B;](read-audience.md#audience-targeting-in-journeys) - オーディエンスの読み取りアクティビティの後、条件を使用して分岐をセグメント、除外、または結合します。
+* [ オーディエンスの作成とターゲティング ](../audience/about-audiences.md) - オーディエンスメニューでオーディエンスを作成および管理します。
+* [ ジャーニー内のオーディエンスターゲティング ](read-audience.md#audience-targeting-in-journeys) - オーディエンスの読み取りアクティビティの後、条件を使用して分岐をセグメント、除外、または結合します。
 
 >[!NOTE]
 >
@@ -80,7 +79,7 @@ ht-degree: 92%
 
 ![フィールド選択と論理演算子 AND OR を示す式エディター](assets/journey64.png)
 
-[[!DNL Adobe Experience Platform]  セグメント化サービス &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja){target="_blank"}を使用してオーディエンスを作成している場合は、ジャーニーの条件でオーディエンスを活用できます。 詳しくは、[条件でのオーディエンスの使用](../building-journeys/condition-activity.md#using-a-segment)を参照してください。Journey Optimizer でオーディエンスを生成してターゲットにする方法について詳しくは、[この節](../audience/about-audiences.md)を参照してください。
+[[!DNL Adobe Experience Platform]  セグメント化サービス ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja){target="_blank"}を使用してオーディエンスを作成している場合は、ジャーニーの条件でオーディエンスを活用できます。 詳しくは、[条件でのオーディエンスの使用](../building-journeys/condition-activity.md#using-a-segment)を参照してください。Journey Optimizer でオーディエンスを生成してターゲットにする方法について詳しくは、[この節](../audience/about-audiences.md)を参照してください。
 
 
 >[!NOTE]

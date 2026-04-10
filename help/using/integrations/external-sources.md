@@ -9,10 +9,9 @@ role: User
 level: Beginner
 keywords: 統合
 hide: true
-hidefromtoc: true
 exl-id: 104f283e-f6a5-431b-919a-d97b83d19632
-source-git-commit: 26f0bdd9f67648d0a382fd67c296bf44f0ea42df
-workflow-type: ht
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 100%
 

@@ -5,15 +5,14 @@ title: コレクション管理関数
 description: コレクション管理関数のデータタイプについて説明します
 feature: Journeys
 hide: true
-hidefromtoc: true
 role: Developer
 level: Experienced
 keywords: クエリ, コレクション, 関数, ペイロード, ジャーニー
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
-source-wordcount: '739'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
