@@ -24,7 +24,7 @@ ht-degree: 54%
 
 例えば、複数のモバイルデバイスモデルに対して異なるコンテンツを表示するとします。決定ポリシーで使用している決定項目に、これらのデバイスに対応するフラグメントが追加されていることを確認します。[方法についてはこちらを参照してください](items.md#attributes)。
 
-フラグメント参照とプレースメントキーを表示する決定項目の![ フラグメントセクション。](assets/item-fragments.png){width=70%}
+フラグメント参照とプレースメントキーを表示する決定項目の![&#x200B; フラグメントセクション。](assets/item-fragments.png){width=70%}
 
 完了したら、次のいずれかの方法を使用できます。
 
@@ -43,15 +43,15 @@ ht-degree: 54%
 
 1. 「**[!UICONTROL ヘルパー関数]**」に移動し、コードパネルに **Let** 関数 `{% let variable = expression %} {{variable}}` を追加します。ここでフラグメントの変数を宣言できます。
 
-   ![ コードペインに追加されたLet ヘルパー関数を表示する決定ポリシーコードエディター。](assets/decision-let-function.png)
+   ![&#x200B; コードペインに追加されたLet ヘルパー関数を表示する決定ポリシーコードエディター。](assets/decision-let-function.png)
 
 1. **Map**／**Get** 関数 `{%= get(map, string) %}` を使用して、式を作成します。マップは、決定項目で参照されるフラグメントです。 文字列は、決定項目に&#x200B;**[!UICONTROL フラグメント参照キー]**&#x200B;として入力したデバイスモデルにすることができます。
 
-   ![ フラグメントマップとフラグメント参照キーの参照に使用されるMap関数とGet関数。](assets/decision-map-function.png)
+   ![&#x200B; フラグメントマップとフラグメント参照キーの参照に使用されるMap関数とGet関数。](assets/decision-map-function.png)
 
 1. また、このデバイスモデル ID を含むコンテキスト属性を使用することもできます。
 
-   デバイス モデル IDに![ コンテキスト属性が選択されました。](assets/decision-contextual-attribute.png)
+   デバイス モデル IDに![&#x200B; コンテキスト属性が選択されました。](assets/decision-contextual-attribute.png)
 
 1. フラグメントに選択した変数をフラグメント ID として追加します。
 
