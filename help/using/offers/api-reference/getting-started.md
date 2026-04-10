@@ -10,8 +10,8 @@ role: Developer
 level: Experienced
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
-workflow-type: ht
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 100%
 
@@ -76,9 +76,11 @@ ht-degree: 100%
 > The In-app messaging channel in Adobe Journey Optimizer uses decision management objects. If your organization uses the in-app messaging channel, then API list requests for objects will include objects created by the in-app messaging service and can be ignored for decision management use cases. Objects created for in-app messages will have `createdBy = "Mobile_Sheliak"`.
 -->
 
-<!-- ## How-to video {#video}
+<!--
+ 
+## How-to video {#video}
 
 The following video is intended to support your understanding of the components of Decision Management.
 
->[!VIDEO](https://video.tv.adobe.com/v/342831?captions=jpn&quality=12) -->
-
+>[!VIDEO](https://video.tv.adobe.com/v/329919?quality=12)
+-->

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: メッセージ, 頻度, ルール, プレッシャー
 exl-id: defebd53-fa80-4720-acdc-0f41ceb00214
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '909'
 ht-degree: 81%
@@ -36,7 +36,7 @@ ht-degree: 81%
 ## ガードレールと制限
 
 * **サポートされているチャネル** - メール、SMS、プッシュ、WhatsApp。
-* **オーケストレートキャンペーン** - オーケストレートキャンペーンでは、非表示時間はサポートされていません。
+* **オーケストレーションされたキャンペーン** - オーケストレーションされたキャンペーンでは、サイレントアワーはサポートされていません。
 * **生成の遅延** - クワイエットアワールールの更新が、既にそのルールを使用しているチャネルアクションに適用されるまでに最大 12 時間かかる場合があります。
 * **大量の通信による待ち時間** - 大量の通信が行われる場合、システムがクワイエットアワーの抑制の適用を正常に開始するまでに追加の時間がかかることがあります。
 
@@ -45,7 +45,7 @@ ht-degree: 81%
 
 ## クワイエットアワールールの作成
 
-クワイエットアワーを設定するには、カスタムルールセット内にルールを作成します。[&#x200B; ルールセットの作成方法を説明します &#x200B;](../conflict-prioritization/rule-sets.md#Create)。 次の手順に従います。
+クワイエットアワーを設定するには、カスタムルールセット内にルールを作成します。[ ルールセットの作成方法を説明](../conflict-prioritization/rule-sets.md#Create)。 次の手順に従います。
 
 1. **[!UICONTROL ビジネスルール]**&#x200B;に移動し、ルールセットインベントリにアクセスします。
 
@@ -81,9 +81,9 @@ ht-degree: 81%
 
 1. 「**[!UICONTROL 日付と時刻]**」セクションで、クワイエットアワーを適用するタイミングを定義します。
 
-   1. **[!UICONTROL タイムゾーン]** ドロップダウンで、個々のタイムゾーンに関係なく、オーディエンス内のすべての受信者に標準タイムゾーンを適用します。
+   1. 「**[!UICONTROL タイムゾーン]**」ドロップダウンで、個々のタイムゾーンに関係なく、オーディエンス内のすべての受信者に標準タイムゾーンを適用します。
 
-      各プロファイルのタイムゾーンフィールドを使用するには、「**[!UICONTROL 受信者ローカルタイムゾーンを使用]**」を選択します。 [ジャーニーでのタイムゾーン管理の詳細情報](../building-journeys/timezone-management.md#timezone-from-profiles)
+      各プロファイルのタイムゾーンフィールドを使用するには、「**[!UICONTROL 受信者のローカルタイムゾーンを使用]**」を選択します。 [ジャーニーでのタイムゾーン管理の詳細情報](../building-journeys/timezone-management.md#timezone-from-profiles)
 
       >[!IMPORTANT]
       >
@@ -91,11 +91,11 @@ ht-degree: 81%
 
    1. クワイエットアワーを適用する期間を指定します。
 
-      * **[!UICONTROL 毎週]** - 特定の曜日と時間スロットを選択します。また、ルール **[!UICONTROL 終日]** を適用することもできます。
+      * **[!UICONTROL 毎週]** - 特定の曜日と時間スロットを選択します。ルール **[!UICONTROL 終日]**&#x200B;を適用することもできます。
 
         ![](assets/quiet-hours-weekly.png)
 
-      * **[!UICONTROL カスタム日付]** - カレンダーの特定の日付と時間スロットを選択します。また、ルール **[!UICONTROL 終日]** を適用することもできます。
+      * **[!UICONTROL カスタム日付]** - カレンダーの特定の日付と時間スロットを選択します。ルール **[!UICONTROL 終日]**&#x200B;を適用することもできます。
 
         ![](assets/quiet-hours-custom.png)
 
@@ -111,19 +111,19 @@ ht-degree: 81%
 
      >[!NOTE]
      >
-     >プロファイルのキューに入った状態が 7 日以上続くメッセージは、破棄されます。
+     >メッセージが7日以上プロファイルのキューに入ったままの場合、メッセージは破棄されます。
 
-   * **[!UICONTROL メッセージの破棄]** - メッセージは送信されません。
+   * **[!UICONTROL メッセージを破棄]** - メッセージは送信されません。
 
      >[!NOTE]
      >
-     >**[!UICONTROL 破棄]** を選択し、このルールをジャーニーアクションに適用すると、プロファイルがメッセージ配信から削除され、ジャーニーから離脱します。
+     >**[!UICONTROL 破棄]**&#x200B;を選択してこのルールをジャーニーアクションに適用すると、プロファイルはメッセージ配信から削除され、ジャーニーから離脱します。
 
-ルールがルールセットに表示されます。 選択すると、プロパティペインに詳細が表示されます。
+ルールがルールセットに表示されるようになりました。 プロパティ ウィンドウに詳細を表示する場合に選択できます。
 
 ![](assets/quiet-hours-preview.png)
 
-ルールの準備が整ったら、ルールをアクティブ化し、ルールセットの設定を完了します。 [&#x200B; ルールセットを作成してアクティブ化する方法を説明します &#x200B;](../conflict-prioritization/rule-sets.md#Create)
+ルールの準備ができたら、ルールをアクティブ化して、ルールセットの設定を完了します。 [ ルールセットを作成してアクティブ化する方法を説明](../conflict-prioritization/rule-sets.md#Create)
 
 ## ジャーニーとキャンペーンへのクワイエットアワーの適用 {#apply}
 
@@ -170,7 +170,6 @@ ht-degree: 81%
 
 
 <!--
-
 >[!TAB Apply Quiet hours to custom actions]
 
 1. Open your journey and add or select a custom action in the canvas.
@@ -184,7 +183,6 @@ ht-degree: 81%
    >Only [activated](#activate-rule) rule sets display in the list.
 
 1. Activate your journey.
-
 -->
 
 
@@ -192,4 +190,4 @@ ht-degree: 81%
 
 Adobe Journey Optimizer でのクワイエットアワー機能の使用方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3475853?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3475851?quality=12)

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: af71d24d-77eb-44df-8216-b0aeaf4c4fa4
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1030'
 ht-degree: 100%
@@ -77,10 +77,12 @@ ht-degree: 100%
 >title="プロファイル制限を追加"
 >abstract="このオプションをオンに切り替えて、構成に含めるプロファイルの最大数を指定します。"
 
-<!-- [!CONTEXTUALHELP]
+<!--
+ [!CONTEXTUALHELP]
 >id="ajo_ao_control_group_text"
 >title="Control Group"
->abstract="Use control groups to isolate a portion of the profiles. This allows you to measure the impact of a marketing activity and make a comparison with the behavior of the rest of the population."-->
+>abstract="Use control groups to isolate a portion of the profiles. This allows you to measure the impact of a marketing activity and make a comparison with the behavior of the rest of the population."
+-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_split"

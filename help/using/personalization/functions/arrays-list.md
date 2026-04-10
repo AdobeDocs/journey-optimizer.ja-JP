@@ -6,8 +6,8 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: 07a582db495ecbfae97b6d299b65b06c0cdf8c14
-workflow-type: ht
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 100%
 
@@ -51,7 +51,7 @@ ht-degree: 100%
 {%= countOnlyNull([4,0,1,6,0,0]) %}
 ```
 
-「6」を返します。
+6 を返します。
 
 ## 個別{#distinct}
 
@@ -187,7 +187,8 @@ ht-degree: 100%
 ```
 
 
-<!-- ## Intersection{#intersection}
+<!--
+## Intersection{#intersection}
 
 The `intersection` function is used to determine the common members of two arrays or lists.
 
@@ -217,7 +218,7 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 ```
 
 | 引数 | 説明 |
-| --------- | ----------- | 
+| --------- | ----------- |
 | `{ARRAY}` | 並べ替えるリストまたは配列。 |
 | `{VALUE}` | 配列またはリストを並べ替えるプロパティ。 |
 | `{AMOUNT}` | 返される項目の数。 |

@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 keywords: ジャーニー, 質問, 回答, トラブルシューティング, ヘルプ, ガイド, オーケストレーション
 version: Journey Orchestration
 exl-id: cac9fc24-b78e-48d9-9c0c-f43181246f6f
-source-git-commit: 7a06b03bda6d07f00f4453397b035073ad1354a4
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '5191'
 ht-degree: 93%
@@ -21,7 +21,7 @@ ht-degree: 93%
 
 [!DNL Adobe Journey Optimizer]でのJourney Orchestrationに関するよくある質問への回答を検索します。
 
-さらに詳細が必要ですか？このページの下部にあるフィードバックオプションを使って質問を高めてください。 [[!DNL Adobe Journey Optimizer]  コミュニティ &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"}とつながることもできます。
+さらに詳細が必要ですか？このページの下部にあるフィードバックオプションを使って質問を高めてください。 [[!DNL Adobe Journey Optimizer]  コミュニティ ](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"}とつながることもできます。
 
 ## 一般概念
 
@@ -56,7 +56,7 @@ ht-degree: 93%
 * **[API トリガーキャンペーン](../campaigns/api-triggered-campaigns.md)**：API 呼び出し経由でトリガーされるキャンペーン。外部システムとの統合が可能になり、リアルタイムイベントやビジネスロジックに基づいてメッセージを送信できます。
 * **[オーケストレーションキャンペーン](../orchestrated/gs-orchestrated-campaigns.md)**：条件、待ち時間、複数のアクションを含めることができるキャンバス上に作成された、複数手順のオーディエンスベースのキャンペーンで、スケジュール済みの調整されたエクスペリエンスを作成できます。
 
-**ベストプラクティス**：高度なオーケストレーションによる複雑なイベントトリガーのエンゲージメントには、[&#x200B; ジャーニー](journey.md)を使用します。 スケジュールされたオーディエンスベースのコミュニケーションには、[&#x200B; アクションキャンペーン &#x200B;](../campaigns/create-campaign.md)を使用します。 外部システムからのプログラムによるトリガーには、[API トリガーによるキャンペーン &#x200B;](../campaigns/api-triggered-campaigns.md)を使用します。 キャンペーン固有の要件を含むマルチステップのコミュニケーションには、[&#x200B; オーケストレーションされたキャンペーン &#x200B;](../orchestrated/gs-orchestrated-campaigns.md)を使用します。
+**ベストプラクティス**：高度なオーケストレーションによる複雑なイベントトリガーのエンゲージメントには、[ ジャーニー](journey.md)を使用します。 スケジュールされたオーディエンスベースのコミュニケーションには、[ アクションキャンペーン ](../campaigns/create-campaign.md)を使用します。 外部システムからのプログラムによるトリガーには、[API トリガーによるキャンペーン ](../campaigns/api-triggered-campaigns.md)を使用します。 キャンペーン固有の要件を含むマルチステップのコミュニケーションには、[ オーケストレーションされたキャンペーン ](../orchestrated/gs-orchestrated-campaigns.md)を使用します。
 
 +++
 
@@ -553,9 +553,11 @@ Learn more about [action responses](../action/action-response.md).
 * **ジャーニーが公開されていません**：ジャーニーが引き続きドラフトモードです
 解決策：ジャーニーを公開してアクティブ化します
 
-<!-- 
+<!--
+ 
 * **Message not approved**: Message content requires approval before sending
-  Solution: Submit for approval or check approval status-->
+  Solution: Submit for approval or check approval status
+-->
 
 * **チャネル設定の問題**：メール／SMS の設定が正しくありません
 解決策：チャネル設定と認証を確認します
@@ -590,7 +592,7 @@ Learn more about [action responses](../action/action-response.md).
 
 はい。**[アクティビティの最適化](conditions.md)**&#x200B;を使用して、好みのチャネルに基づいてプロファイルをルーティングします。
 
-1. ジャーニーに[Optimize アクティビティ &#x200B;](optimize.md)を追加
+1. ジャーニーに[Optimize アクティビティ ](optimize.md)を追加
 2. 優先チャネルプロファイル属性（例：`profile.preferredChannel`）を確認して、各チャネルのパスを作成します
 3. チャネル固有のパスを設定します。
    * **メールパス**：メールに最適化されたコンテンツを含む[メールアクション](../email/create-email.md)を追加します
@@ -622,7 +624,7 @@ Learn more about [action responses](../action/action-response.md).
 
 **ジャーニー内**：
 
-* 不要なプロファイルを終了するには、ジャーニーの初期段階で[最適化アクティビティ &#x200B;](conditions.md)を追加します
+* 不要なプロファイルを終了するには、ジャーニーの初期段階で[最適化アクティビティ ](conditions.md)を追加します
 * 除外属性（例：VIP ステータス、テストアカウント）を確認します
 * プロファイルを特定するには、[オーディエンスの選定](audience-qualification-events.md)を使用します。
 

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 532392d6-3637-4381-984d-f5b630f6d32d
 version: Journey Orchestration
-source-git-commit: e329c221fa714747d50495e466d02e75bed2967c
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '725'
 ht-degree: 91%
@@ -26,7 +26,7 @@ ht-degree: 91%
 
 ## AI モデルへのアクセス {#access-ai-models}
 
-AI モデルのリストにアクセスするには、**[!UICONTROL 決定]**/**[!UICONTROL 戦略の設定]** に移動し、「**[!UICONTROL AI モデル]**」を選択します。 インスタンスで作成されたすべての AI モデルが一覧表示されます。
+AI モデルのリストにアクセスするには、**[!UICONTROL Decisioning]** > **[!UICONTROL 戦略設定]**&#x200B;に移動し、**[!UICONTROL AI モデル]**&#x200B;を選択します。 インスタンスで作成されたすべてのAI モデルがここに一覧表示されます。
 
 ## AI モデルの作成 {#create-ranking-strategy}
 
@@ -43,7 +43,7 @@ AI モデルを作成するには、次の手順を行います。
 
    ![](../assets/ai-model-list.png)
 
-   これまでにインスタンスで作成した AI モデルがすべて、そこに一覧表示されます。
+   ここには、これまでインスタンスで作成したすべてのAI モデルが一覧表示されます。
 
 1. 「**[!UICONTROL AI モデルを作成]**」ボタンをクリックします。
 
@@ -106,13 +106,15 @@ AI モデルを作成するには、次の手順を行います。
    >
    >最大 5 個のオーディエンスを選択できます。
 
-1. AI モデルを保存してアクティブ化します。 モデルが実稼働したら、[&#x200B; トレーニングステータスとパフォーマンスを監視 &#x200B;](ai-model-observability.md) できます。
+1. AI モデルを保存してアクティブ化します。 モデルがライブになると、[ トレーニングの状態とパフォーマンスを監視できます](ai-model-observability.md)。
 
-<!--At this point, you must have:
+<!--
+At this point, you must have:
 
 * created the AI model,
 * defined which type of event you want to capture - offer displayed (impression) and/or offer clicked (conversion),
-* and in which dataset you want to collect the event data.-->
+* and in which dataset you want to collect the event data.
+-->
 
 これで、オファーが表示やクリックされるたびに、対応するイベントが [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html?lang=ja#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"} または Mobile SDK を使用し、**[!UICONTROL エクスペリエンスイベント - 提案インタラクション]**&#x200B;フィールドグループによって自動的にキャプチャされるようになります。
 
@@ -123,4 +125,5 @@ AI モデルを作成するには、次の手順を行います。
 
 Learn how to create a personalized optimization model and how to apply it to a decision.
 
->[!VIDEO](https://video.tv.adobe.com/v/3445952?captions=jpn&quality=12)-->
+>[!VIDEO](https://video.tv.adobe.com/v/3419954?quality=12)
+-->

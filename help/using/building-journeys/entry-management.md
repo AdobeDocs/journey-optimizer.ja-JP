@@ -9,7 +9,7 @@ level: Intermediate
 keywords: 再エントリ, ジャーニー, プロファイル, 繰り返し
 exl-id: 8874377c-6594-4a5a-9197-ba5b28258c02
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1190'
 ht-degree: 87%
@@ -27,7 +27,7 @@ ht-degree: 87%
 
 ## ジャーニーのタイプ {#types-of-journeys}
 
-[!DNL Adobe Journey Optimizer] を使用すると、次のタイプのジャーニーを作成できます。
+[!DNL Adobe Journey Optimizer]では、次の種類のジャーニーを作成できます。
 
 * **単一イベント**&#x200B;ジャーニー：単一イベントから開始するジャーニーです。イベントを受信すると、関連付けられたプロファイルがジャーニーにエントリします。[詳細情報](#entry-unitary)
 
@@ -49,13 +49,13 @@ ht-degree: 87%
 
 プロファイルがジャーニーにエントリする方法とその予想率は、使用される最初のアクティビティに応じて異なります。
 
-* **オーディエンスを読み取り** ジャーニー（プロファイルのオーディエンスをターゲットにし、そのオーディエンス全体のジャーニーをトリガーにするバッチシナリオ）：最大は 20,000 TPS （1 秒あたりのトランザクション）です。 これは、**サンドボックスレベル** で利用できる割り当て量です。 そのサンドボックスで複数のジャーニーが同時に実行される場合は、20,000 個の TPS を達成できない可能性があります。 この最大値をベストケースのシナリオと見なしてください。
+* **オーディエンスの読み取り** ジャーニー（プロファイルのオーディエンスをターゲットにし、そのオーディエンスのジャーニーをトリガーするバッチシナリオ）：最大20,000 TPS （1秒あたりのトランザクション数）です。 これは、**サンドボックスレベル**&#x200B;で使用できる割り当て量です。 そのサンドボックスで複数のジャーニーを同時に実行すると、20,000 TPSを達成できない可能性があります。 この最大値をベストケースのシナリオとして考えます。
 
 * **オーディエンスの選定**&#x200B;ジャーニー（プロファイルがストリーミングオーディエンスとして選定または不選定された際にジャーニーをトリガーする単一シナリオ）：最大値は 5,000 TPS です。これは、イベントで開始するジャーニーで共有される制限で、**組織レベル**&#x200B;のジャーニー間でも共有されます。
 
 * **単一イベント**&#x200B;ジャーニー（プロファイルからイベントが発生した際にジャーニーをトリガーする単一シナリオ）：上記と同じで、どちらも同じ 5,000 TPS 制限を共有します。ジャーニーイベントスループットについて詳しくは、[この節](../event/about-events.md#event-thoughput)を参照してください。
 
-* **ビジネスイベント** ジャーニー（ビジネスイベントの後には常にオーディエンスを読み取りが続くという、単一からバッチへのシナリオ）：ビジネスイベントは、5,000 TPS の割り当てにカウントされます。 後続のオーディエンスを読み取りアクティビティは、オーディエンスを読み取り（20,000 TPS）で始まるジャーニーと同じ制限があります。
+* **ビジネスイベント**&#x200B;のジャーニー（ビジネスイベントの後には常に「オーディエンスを読み取り」が続くため、単一からバッチへのシナリオ）：ビジネスイベントは5,000 TPSの割り当てにカウントされます。 続く「オーディエンスを読み取り」アクティビティには、オーディエンスを読み取り（20,000 TPS）で始まるジャーニーと同じ制限があります。
 
 ### ジャーニー内のイベントとオーディエンスの選定 {#events-inside-journeys}
 
@@ -67,7 +67,7 @@ ht-degree: 87%
 
 ### アクションアクティビティ {#action-activities-impact}
 
-最後に、**アクション** アクティビティは、ジャーニーからのプロファイル読み込みの影響を受ける場合があり、処理速度にも影響を与える可能性があります。 これには、メール、SMS、プッシュなどのネイティブチャネルに加えて、カスタムアクション、他のジャーニーへのジャンプ、プロファイルアクティビティの更新などが含まれます。 例えば、応答時間が長い外部エンドポイントをターゲットにするカスタムアクションでは、ジャーニーの処理率が低下します。
+最後に、**アクション**&#x200B;のアクティビティは、ジャーニーからのプロファイル読み込みの影響を受ける可能性があり、処理速度にも影響する可能性があります。 これには、電子メール、SMS、プッシュ通知などのネイティブチャネルに加えて、カスタムアクション、他のジャーニーへのジャンプ、プロファイルアクティビティの更新などが含まれます。 例えば、応答時間が長い外部エンドポイントをターゲットにするカスタムアクションでは、ジャーニーの処理率が低下します。
 
 カスタムアクションの場合、デフォルトのキャップは 1 分あたり 300,000 回の呼び出しですが、カスタムキャップポリシーで変更できます。カスタムアクションのキャップについて詳しくは、[この節](../configuration/external-systems.md#capping)を参照してください。
 
@@ -90,7 +90,8 @@ When a journey ends, its status is **[!UICONTROL Closed]**. New individuals can 
 再エントリ期間を過ぎると、プロファイルはジャーニーに再エントリできます。これを回避し、これらのプロファイルの再エントリを完全に無効にするには、プロファイルまたはオーディエンスデータを使用して、プロファイルが既にエントリ済みかどうかをテストする条件を追加できます。
 
 <!--
-Due to the 30-day journey timeout, when journey reentrance is not allowed, we cannot make sure the reentrance blocking will work more than 91 days. Indeed, as we remove all information about persons who entered the journey 91 days after they enter, we cannot know the person entered previously, more than 91 days ago. -->
+Due to the 30-day journey timeout, when journey reentrance is not allowed, we cannot make sure the reentrance blocking will work more than 91 days. Indeed, as we remove all information about persons who entered the journey 91 days after they enter, we cannot know the person entered previously, more than 91 days ago. 
+-->
 
 ## ビジネスジャーニー {#entry-business}
 

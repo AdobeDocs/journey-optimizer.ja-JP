@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
-source-git-commit: 47280460f7b47412c348ccc75ca9afca50c34e7e
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1327'
 ht-degree: 100%
@@ -177,7 +177,8 @@ ht-degree: 100%
 
 カスタマイズされたテーブルとビジュアライゼーションツールを使用してデータを分析できるようになりました。
 
-<!--## Create a down-funnel metric {#down-funnel}
+<!--
+## Create a down-funnel metric {#down-funnel}
 
 1. Create a new journey or open an existing one. [Learn more about journey creation](../building-journeys/journey-gs.md)
 

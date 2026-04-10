@@ -8,8 +8,8 @@ role: Admin
 level: Experienced
 keywords: ランディング, ランディングページ, 設定, 環境, サブドメイン, プリセット
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 100%
 
@@ -62,7 +62,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >サブドメインを選択できるようにするには、1 つ以上のランディングページサブドメインが設定済みであることを確認します。[方法](lp-subdomains.md)
+   >サブドメインを選択できるようにするには、1 つ以上のランディングページサブドメインが設定済みであることを確認します。[方法についてはこちらを参照](lp-subdomains.md)
 
    選択したサブドメインに対応する設定が表示されます。
 
@@ -88,9 +88,10 @@ ht-degree: 100%
 <!--
 >[!NOTE]
 >
->Learn how to create channel configurations for push notifications and emails in [this section](channel-surfaces.md).-->
+>Learn how to create channel configurations for push notifications and emails in [this section](channel-surfaces.md).
+-->
 
-**関連トピック**:
+**関連トピック**：
 
 * [ランディングページの基本を学ぶ](../landing-pages/get-started-lp.md)
 * [ランディングページの作成](../landing-pages/create-lp.md#create-lp)

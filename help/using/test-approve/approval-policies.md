@@ -1,11 +1,11 @@
 ---
 title: 承認ポリシーの作成と管理
-description: 承認ポリシーを作成および管理する方法について説明します。
+description: 承認ポリシーの作成と管理方法について説明します。
 role: User
 level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
-source-git-commit: 692b539f2c7623a14192558c3eba55d90c54f22d
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 96%
@@ -58,7 +58,7 @@ ht-degree: 96%
 
 1. **[!UICONTROL 自己承認をブロック]**&#x200B;を有効にすると、ジャーニー／キャンペーン作成者が自身のオブジェクトを承認できなくなります。
 
-   ![&#x200B; 承認ポリシーの詳細フォーム &#x200B;](assets/policy_create_2.png)
+   ![承認ポリシーの詳細フォーム ](assets/policy_create_2.png)
 
 条件を調整して、承認リクエストを開始するユーザーと検証するユーザーを指定できるようになりました。
 
@@ -72,7 +72,7 @@ ht-degree: 96%
 * **キャンペーンタイプ**：[アクションと API トリガーキャンペーン](../campaigns/get-started-with-campaigns.md#campaign-types)に異なるルールを設定します
 * **依頼者**：キャンペーンまたはジャーニーの作成者に基づいてポリシーを定義します
 
-承認ポリシーに関連付けられた条件を定義するには、次の手順に従います。
+承認ポリシーに関連付けられている条件を定義するには、次の手順に従います。
 
 1. **[!UICONTROL 承認ポリシー]**&#x200B;にアクセスします。
 
@@ -142,6 +142,8 @@ ht-degree: 96%
     <td>指定された依頼者のユーザーグループの名前</td>
     </tr>
     </table>
+
+   +++
 
 1. 条件を追加するには、「**[!UICONTROL 条件を追加]**」をクリックして追加のルールを定義し、「**[!UICONTROL And]**」または「**[!UICONTROL Or]**」を選択して条件の接続方法を指定します。
 

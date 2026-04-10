@@ -8,10 +8,10 @@ role: Developer
 level: Experienced
 exl-id: ce3a2c33-c15b-436f-90b1-7373d7b2b1ca
 version: Journey Orchestration
-source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '289'
-ht-degree: 39%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 39%
 
 >[!CAUTION]
 >
->イベントタイプごとに、データセットで使用されるスキーマに、**[!UICONTROL エクスペリエンスイベント – 提案インタラクション]** フィールドグループが関連付けられていることを確認してください。<!--[Learn more](create-dataset.md)-->
+>イベントタイプごとに、データセットで使用されるスキーマに、**[!UICONTROL エクスペリエンスイベント - 提案インタラクション]**&#x200B;フィールドグループが関連付けられていることを確認してください。<!--[Learn more](create-dataset.md)-->
 
 JavaScript コードに実装する必要があるスキーマ要件は、以下のとおりです。
 
@@ -29,11 +29,11 @@ JavaScript コードに実装する必要があるスキーマ要件は、以下
 
 次のフィールドが正しく設定されていることを確認します。
 
-**エクスペリエンスイベントタイプ：** `decisioning.propositionDisplay`
+**エクスペリエンスイベントタイプ：**`decisioning.propositionDisplay`
 
-**propositionEventType:** `_experience.decisioning.propositionEventType.display`
+**propositionEventType：**`_experience.decisioning.propositionEventType.display`
 
-**Source:** Web.sdk/Alloy.js （`sendEvent command -> xdm : {eventType, interactionMixin}`）またはバッチ取得
+**ソース：** Web.sdk/Alloy.js（`sendEvent command -> xdm : {eventType, interactionMixin}`）またはバッチ取り込み
 
 +++**サンプルペイロード：**
 
@@ -96,17 +96,17 @@ JavaScript コードに実装する必要があるスキーマ要件は、以下
 
 次のフィールドが正しく設定されていることを確認します。
 
-**エクスペリエンスイベントタイプ：** `decisioning.propositionInteract`
+**エクスペリエンスイベントタイプ：**`decisioning.propositionInteract`
 
-**propositionEventType:** `_experience.decisioning.propositionEventType.interact`
+**propositionEventType：**`_experience.decisioning.propositionEventType.interact`
 
-**Source:** Web.sdk/Alloy.js （`sendEvent command -> xdm : {eventType, interactionMixin}`）またはバッチ取得
+**ソース：** Web.sdk/Alloy.js（`sendEvent command -> xdm : {eventType, interactionMixin}`）またはバッチ取り込み
 
-提案内の各オファーには、Adobeで生成される一意の ID であるトラッキングトークンが含まれます。 このトークンは、対応するクリックまたはインプレッションイベントで、受信したとおりに（変更なしで）渡す必要があります。 トラッキングトークンの照合により、Adobeでユーザーアクションを正しいオファー決定に正確に関連付け、ダウンストリームレポートと AI ベースの最適化を可能にします。
+提案内の各オファーには、アドビで生成される一意の ID であるトラッキングトークンが含まれます。このトークンは、対応するクリックイベントまたはインプレッションイベントで、受信したとおりに（変更せずに）渡す必要があります。一致するトラッキングトークンにより、アドビではユーザーアクションを正しいオファーの決定に正確に関連付けることができ、ダウンストリームレポートと AI ベースの最適化が可能になります。
 
 >[!CAUTION]
 >
->クリックのトラッキング時に `propositionAction.tokens` フィールドにトラッキングトークンを渡さない場合、クリックイベントは対応するオファーに適切に関連付けられません。 これにより、トラッキングデータが不完全になり、レポートおよび AI ベースのランキング最適化に悪影響を与えます。 クリックトラッキング実装の提案からトラッキングトークンを必ず含めてください。
+>クリックを追跡する際に `propositionAction.tokens` フィールドにトラッキングトークンを渡さないと、クリックイベントは対応するオファーに適切に関連付けられません。これにより、トラッキングデータが不完全になり、レポートや AI ベースのランキング最適化に悪影響を与えます。クリックの追跡の実装には常に、提案からのトラッキングトークンを含めてください。
 
 +++**サンプルペイロード：**
 
@@ -175,7 +175,6 @@ JavaScript コードに実装する必要があるスキーマ要件は、以下
 カスタムイベントの場合、データセットで使用されるスキーマには、**[!UICONTROL エクスペリエンスイベント - 提案インタラクション]**&#x200B;フィールドグループも関連付けられている必要がありますが、これらのイベントのタグ付けに使用する必要があるエクスペリエンスイベントタイプに関する特定の要件はありません。
 
 <!--
-
 >[!NOTE]
 >
 >To have your custom events accounted for in [capping](../items.md#capping), you need to connect the experience event to Adobe Experience Platform endpoints by sending it to either one of these two Edge data collection endpoints:
@@ -183,4 +182,5 @@ JavaScript コードに実装する必要があるスキーマ要件は、以下
 >* POST /ee/v2/interact
 >* POST /ee/v2/collect
 >
->If you are using the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja){target="_blank"} or [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=ja){target="_blank"}, the connection is made automatically.-->
+>If you are using the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"} or [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"}, the connection is made automatically.
+-->

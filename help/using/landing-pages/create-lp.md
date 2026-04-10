@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: ランディング, ランディングページ, 作成, 公開
 exl-id: 18f9bdff-f5c6-4601-919d-4f3124e484b5
-source-git-commit: d0dd382521aeb2c7e18dc547c2ec55fa1472ab8d
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1613'
 ht-degree: 93%
@@ -26,7 +26,7 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->最初のランディングページを作成する前に、[&#x200B; ランディングページの設定](../../rp_landing_pages/lp-configuration-landing-page.md)を完了してください。 これには、ランディングページをホストするサブドメインを設定したり、サブドメインやその他のチャネル設定を指定する少なくとも1つのプリセットを定義したりすることが含まれます。 ランディングページの作成時に、プリセットを選択する必要があります。
+>最初のランディングページを作成する前に、[ ランディングページの設定](../../rp_landing_pages/lp-configuration-landing-page.md)を完了してください。 これには、ランディングページをホストするサブドメインを設定したり、サブドメインやその他のチャネル設定を指定する少なくとも1つのプリセットを定義したりすることが含まれます。 ランディングページの作成時に、プリセットを選択する必要があります。
 
 ## ランディングページの作成 {#create-landing-page}
 
@@ -91,7 +91,8 @@ ht-degree: 93%
 >title="プライマリページ設定の定義"
 >abstract="プライマリページとは、メールや web サイトなどで、ユーザーがランディングページへのリンクをクリックした直後に表示されるページです。"
 <!--
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html?lang=ja" text="Design the landing page content"-->
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="Design the landing page content"
+-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_lp_access_settings"
@@ -138,9 +139,11 @@ ht-degree: 93%
 
    ![](assets/lp_expiry-date.png)
 
-<!--1. In the **[!UICONTROL Additional data]** section, define one or more keys and their corresponding parameter values. You will be able to leverage these keys in the content of your primary page and subpages using the [personalization editor](../personalization/personalization-build-expressions.md). Learn more in [this section](lp-content.md#use-additional-data).
+<!--
+1. In the **[!UICONTROL Additional data]** section, define one or more keys and their corresponding parameter values. You will be able to leverage these keys in the content of your primary page and subpages using the [personalization editor](../personalization/personalization-build-expressions.md). Learn more in [this section](lp-content.md#use-additional-data).
 
-    ![](assets/lp_create-lp-additional-data.png)-->
+    ![](assets/lp_create-lp-additional-data.png)
+-->
 
 1. [プライマリページのデザイン時に](design-lp.md) 1 つ以上の購読リストを選択した場合、「**[!UICONTROL 購読リスト]**」セクションに表示されます。
 
@@ -253,14 +256,14 @@ ht-degree: 93%
 >
 > 公開する前に、すべての&#x200B;**エラー**&#x200B;アラートを解決する必要があります。
 
-<!--The settings and elements checked by the system are listed below. You will also find information on how to adapt your configuration to resolve the corresponding issues.
+<!--
+The settings and elements checked by the system are listed below. You will also find information on how to adapt your configuration to resolve the corresponding issues.
 
 **Warnings**:
 
 * 
 
 **Errors**:
-
 -->
 
 ## ランディングページの公開 {#publish-landing-page}

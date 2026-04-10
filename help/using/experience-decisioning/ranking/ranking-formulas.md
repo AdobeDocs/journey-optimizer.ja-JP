@@ -7,7 +7,7 @@ role: User
 level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 version: Journey Orchestration
-source-git-commit: fe6e8221201ee813251a46c6603d85f0803873c0
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1459'
 ht-degree: 95%
@@ -16,7 +16,7 @@ ht-degree: 95%
 
 # AI 式ビルダーの使用 {#create-ranking-formulas}
 
-**ランキング式** を使用すると、優先度スコアを考慮するのではなく、最初に提示するオファーを決定するルールを定義できます。
+**ランキング式**&#x200B;を使用すると、優先度スコアを考慮するのではなく、どのオファーを最初に表示するかを決定するルールを定義できます。
 
 これらのルールを作成するために、**[!UICONTROL Adobe Journey Optimizer]** の AI 式ビルダーを使用すると、オファーのランク付け方法をより柔軟に制御できます。静的なオファーの優先度のみに依存するのではなく、ガイド付きインターフェイスを通じて、AI モデルスコア、オファーの優先度、プロファイル属性、オファー属性、コンテキストシグナルを組み合わせたカスタムランキング式を定義できるようになりました。
 
@@ -66,9 +66,10 @@ ht-degree: 95%
    >
    >ランキング式のネスト深度は 30 レベルに制限されています。これは、PQL 文字列内の `)` の閉じ丸括弧をカウントすることによって測定されます。UTF-8 でエンコードされた文字の場合、ルール文字列のサイズは最大 8 KB になります。これは、8,000 個の ASCII 文字（各 1 バイト）、または 2,000～4,000 個の非 ASCII 文字（各 2～4 バイト）に相当します。[詳しくは、決定ガードレールと制限を参照してください](../decisioning-guardrails.md#ranking-formulas)
 
-1. また、Adobe Experience Platform のデータを使用して、実際の条件を反映するようにランキングロジックを動的に調整することもできます。これは、製品の可用性やリアルタイム価格など、頻繁に変更される属性に特に便利です。 [詳しくは、決定の Adobe Experience Platform データの使用方法を参照してください。](../aep-data-exd.md)
+1. また、Adobe Experience Platform のデータを使用して、実際の条件を反映するようにランキングロジックを動的に調整することもできます。これは、製品の在庫状況やリアルタイムの価格設定など、頻繁に変更される属性で特に役立ちます。 [詳しくは、決定の Adobe Experience Platform データの使用方法を参照してください。](../aep-data-exd.md)
 
-<!--## Select an ELS dataset {#els-dataset}
+<!--
+## Select an ELS dataset {#els-dataset}
 
 Journey Optimizer allows you to leverage data from Adobe Experience Platform. [Learn more](../data/aep-data-perso.md)
 
@@ -82,7 +83,8 @@ To leverage data from an AEP dataset, follow the steps below.
     >
     >This action is mandatory.
 
-![](../assets/formula-els-settings.png){width="80%"-->
+![](../assets/formula-els-settings.png){width="80%"}
+-->
 
 ## 式ビルダーを使用した条件の定義 {#ranking-select-criteria}
 
@@ -93,9 +95,9 @@ To leverage data from an AEP dataset, follow the steps below.
 <!--![](../assets/ranking-formula-criteria.png){width="80%"}-->
 
 1. 「**[!UICONTROL 条件 1]**」セクションで、次の手順を実行して、ランキングスコアを適用する決定項目を指定します。
-   * [&#x200B; 決定項目属性 &#x200B;](../items.md#attributes) を選択します
+   * [決定項目属性](../items.md#attributes)を選択します
    * 論理演算子を選択
-   * 一致条件を追加 – 値を入力するか、プロファイル属性または [&#x200B; コンテキストデータ &#x200B;](../context-data.md) を選択できます。
+   * 一致する条件を追加 – 値を入力するか、プロファイル属性または[ コンテキストデータ ](../context-data.md)を選択できます
 
    ![](../assets/ranking-formula-criterion-1.png){width="70%"}
 

@@ -5,7 +5,7 @@ title: 調整されたキャンペーンに関するよくある質問
 description: Journey Optimizer の調整されたキャンペーンに関するよくある質問
 version: Campaign Orchestration
 exl-id: 6a660605-5f75-4c0c-af84-9c19d82d30a0
-source-git-commit: 82f455bf3707d3701ea602569c5bd7e3cee326fc
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1960'
 ht-degree: 87%
@@ -139,11 +139,12 @@ Yes. Campaign orchestration is natively integrated with:
 
 * **Customer Journey Analytics**: Campaign orchestration reports are available.  
 * **Real-Time CDP**: Audiences built in Campaigns can be read in Real-Time CDP.  
-* **Federated Audience Composition (FAC)**: Available as an add-on.  -->
+* **Federated Audience Composition (FAC)**: Available as an add-on.  
+-->
 
 +++ 公開前にシグナルトリガーによるオーケストレーションされたキャンペーンをテストするにはどうすればよいですか？
 
-キャンペーンが&#x200B;**ドラフト**&#x200B;にある間は、スケジュールで&#x200B;**パラメーター**&#x200B;を定義し、それぞれに&#x200B;**テスト値**&#x200B;を指定してテストできます。 ワークフローを開始し、トリガー APIを呼び出して（スケジュール設定からのサンプルリクエストまたは同じエンドポイントを使用した独自のリクエストを使用）、これらのテスト値を使用してキャンペーンを実行します。 [&#x200B; シグナル トリガーによるキャンペーンを完了してテストする方法を説明します](trigger-orchestrated-campaign.md#build-and-test)。
+キャンペーンが&#x200B;**ドラフト**&#x200B;にある間は、スケジュールで&#x200B;**パラメーター**&#x200B;を定義し、それぞれに&#x200B;**テスト値**&#x200B;を指定してテストできます。 ワークフローを開始し、トリガー APIを呼び出して（スケジュール設定からのサンプルリクエストまたは同じエンドポイントを使用した独自のリクエストを使用）、これらのテスト値を使用してキャンペーンを実行します。 [ シグナル トリガーによるキャンペーンを完了してテストする方法を説明します](trigger-orchestrated-campaign.md#build-and-test)。
 
 +++
 
@@ -151,7 +152,7 @@ Yes. Campaign orchestration is natively integrated with:
 
 はい、特定の状況では。 「**[!UICONTROL ドラフトに戻る]**」オプションは、キャンペーンを非公開にし、ドラフトステータスに戻すための回復メカニズムとして設計されています。
 
-このオプションは、スケジュールされたキャンペーンの実行を待つ場合、または実行エラーのあるライブキャンペーンの場合に使用できます。 [&#x200B; ライブキャンペーンをドラフト &#x200B;](start-monitor-campaigns.md#back-to-draft)に戻す方法を説明します
+このオプションは、スケジュールされたキャンペーンの実行を待つ場合、または実行エラーのあるライブキャンペーンの場合に使用できます。 [ ライブキャンペーンをドラフト ](start-monitor-campaigns.md#back-to-draft)に戻す方法を説明します
 
 +++
 

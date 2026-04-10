@@ -9,7 +9,7 @@ level: Intermediate
 keywords: 公開, ジャーニー, ライブ, 有効性, 確認
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
 source-wordcount: '2626'
 ht-degree: 93%
@@ -124,7 +124,7 @@ ht-degree: 93%
 * 最後の一時停止と最後の再開を実行したユーザーの表示名と識別子
 * 一時停止したジャーニーの設定（一時停止の動作、最大一時停止の時間、自動再開の状態、一時停止ID）
 
-この情報は、トラブルシューティング、監査、サポートとの共有に役立ちます。 コピーされたフィールドの完全なリストについては、[&#x200B; ジャーニーのプロパティへのアクセス &#x200B;](journey-properties.md#access-properties)を参照してください。
+この情報は、トラブルシューティング、監査、サポートとの共有に役立ちます。 コピーされたフィールドの完全なリストについては、[ ジャーニーのプロパティへのアクセス ](journey-properties.md#access-properties)を参照してください。
 
 ## 一時停止したジャーニーへの終了条件の適用 {#journey-exit-criteria}
 
@@ -162,7 +162,7 @@ ht-degree: 93%
 
 ## ガードレールと制限 {#journey-pause-guardrails}
 
-* ジャーニーバージョンは最大 **14 日間**&#x200B;一時停止できます。一時停止したジャーニーでは、組織全体で最大 **1,000 万のプロファイル**&#x200B;が許可されます。
+* ジャーニーバージョンは最大 **14 日間**&#x200B;一時停止できます。一時停止したジャーニーでは、組織全体で最大 **1,000 万のプロファイル**が許可されます。
 この制限は、個別のプロファイルではなく、一時停止したすべてのジャーニーに保持されているプロファイルの合計数をカウントします。 例えば、同じ5M プロファイルが2つの一時停止ジャーニーで保持されている場合、10Mの制限に達します。
 この制限は 30 分ごとに確認されます。つまり、一時的に 1,000 万のしきい値を超える可能性がありますが、システムが検出すると、追加のプロファイルは自動的に破棄されます。
 
@@ -211,7 +211,7 @@ ht-degree: 93%
 
 ## 一時停止したジャーニーでのプロファイル破棄のトラブルシューティング {#discards-troubleshoot}
 
-[[!DNL Adobe Experience Platform]  クエリサービス &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ja){target="_blank"}を使用して、ステップイベントをクエリできます。ステップイベントでは、プロファイルの破棄に関する詳細情報を、発生したタイミングに応じて提供できます。
+[[!DNL Adobe Experience Platform]  クエリサービス ](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ja){target="_blank"}を使用して、ステップイベントをクエリできます。ステップイベントでは、プロファイルの破棄に関する詳細情報を、発生したタイミングに応じて提供できます。
 
 * プロファイルがジャーニーにエントリする前に破棄が発生する場合は、次のコードを使用します。
 

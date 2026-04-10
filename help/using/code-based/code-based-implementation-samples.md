@@ -6,7 +6,7 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
-source-git-commit: 05f076f19a348032e5bb21d7d1682509bd5d2658
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '993'
 ht-degree: 82%
@@ -118,12 +118,12 @@ ht-degree: 82%
 
    >[!IMPORTANT]
    >
-   >`tokens` の `propositionAction` フィールドは、Adobe Journey Optimizer Decisioning で正確なトラッキングとアトリビューションを行うために重要です。 これらのトークンは以下を可能にします。
-   >* 決定アクティビティの適切なクリック属性
-   >* 決定コンテンツに対するユーザーのインタラクションの正確なレポート
-   >* ユーザーエンゲージメントに基づくオファーのパフォーマンスの最適化
+   >`tokens`の`propositionAction` フィールドは、Adobe Journey Optimizer Decisioningでの正確なトラッキングとアトリビューションに非常に重要です。 これらのトークンを使用すると、次のことが可能になります。
+   >* 意思決定アクティビティに対する適切なクリックアトリビューション
+   >* 意思決定コンテンツによる顧客インタラクションの正確なレポート
+   >* ユーザーエンゲージメントに基づくオファーパフォーマンスの最適化
    >
-   >トークンは通常、`proposition.items[0].characteristics.tokens` にあり、決定コンテンツに対するユーザーのインタラクションをトラッキングする際には常に含める必要があります。
+   >トークンは通常`proposition.items[0].characteristics.tokens`に見つかります。決定コンテンツでユーザーのインタラクションを追跡する場合は、常に含める必要があります。
 
 ### 主な所見
 
@@ -321,13 +321,13 @@ Cookie は、ユーザー ID とクラスター情報を保持するために使
 * アドビのテクニカルブログ：[Adobe Experience Platform Web SDK のハイブリッドパーソナライゼーション](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
 * SDK ドキュメント：[Web SDK と Edge Network Server API を使用したハイブリッドパーソナライゼーション](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html?lang=ja){target="_blank"}
 
-## Adobe Experience Platform Assuranceを使用したEdge ネットワーク API 呼び出しのデバッグ {#debugging-edge-api-assurance}
+## Adobe Experience Platform Assuranceを使用したEdge ネットワーク API呼び出しのデバッグ {#debugging-edge-api-assurance}
 
-（Web SDKやモバイル SDKを使用せずに）コードベースのエクスペリエンスにEdge Network API を直接使用する場合は、Assurance セッション ID を検証トークンヘッダーとして含めることで、Adobe Experience Platform Assuranceを使用して API 呼び出しをデバッグできます。
+コードベースのエクスペリエンスにEdge Network APIを直接使用する場合（Web SDKまたはモバイルSDKを使用しない場合）、Adobe Experience Platform AssuranceでAPI呼び出しをデバッグするには、Assurance セッション IDを検証トークンヘッダーとして含めます。
 
-1. アクティブなAssurance セッションからAdobe Experience Platform Assurance セッション ID を取得するか、Assurance API を使用して作成します。
+1. アクティブなAdobe Experience Platform Assurance セッションからAssurance セッション IDを取得するか、Assurance APIを使用して作成します。
 
-1. `x-adobe-aep-validation-token` ヘッダーをAssurance セッション ID に追加して、Assurance セッションを通じてEdge Network API リクエストをルーティングします。
+1. Assurance セッション IDに`x-adobe-aep-validation-token` ヘッダーを追加して、Edge Network API リクエストをAssurance セッション経由でルーティングします。
 
    **例：**
 
@@ -356,7 +356,7 @@ Cookie は、ユーザー ID とクラスター情報を保持するために使
    }'
    ```
 
-1. 設定が完了したら、Assurance セッションを開き、**[!UICONTROL Edge Delivery]** ビューを選択して、リクエストペイロード、応答コンテンツ、パーソナライゼーションの提案、エラーメッセージなど、Edge Network API のリクエストと応答をリアルタイムで表示します。
+1. 設定が完了したら、Assurance セッションを開き、**[!UICONTROL Edge Delivery]** ビューを選択して、リクエストペイロード、レスポンス内容、パーソナライズ提案、エラーメッセージなど、Edge Network API リクエストとレスポンスをリアルタイムで表示します。
 
 
 <!--
@@ -368,4 +368,5 @@ To help you get started with implementing code-based experiences, refer to the c
 
 * **Web SDK implementation**: Learn how to configure the Web SDK for decisioning and code-based experiences in [these tutorials](code-based-decisioning-implementations.md#tutorials).
 
-* **Decisioning implementation**: To learn how to implement decisioning capabilities on a code-based campaign, follow [this use case tutorial](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-uc){target="_blank"}.-->
+* **Decisioning implementation**: To learn how to implement decisioning capabilities on a code-based campaign, follow [this use case tutorial](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-uc){target="_blank"}.
+-->

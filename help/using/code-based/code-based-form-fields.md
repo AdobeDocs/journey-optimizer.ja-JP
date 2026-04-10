@@ -6,7 +6,7 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 5dd46ea8-acba-4c42-a65a-c18e45cba2cd
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1218'
 ht-degree: 100%
@@ -78,7 +78,7 @@ JSON または HTML コードの一部を編集可能にするには、まず、
     | ------- | ------- | ------- |
     |Declare an editable field containing an **image source** that needs to be published.|`assetType="image"`|`{{#inline "editableFieldID" assetType="image"}}default_value{{/inline}}`|
     |Declare an editable field containing an **URL** that needs to be tracked.br/>Note that out-of-the-box "Mirror page URL" and "Unsubscribe link" predefined blocks cannot become editable fields.>|`assetType="url"`|`{{#inline "editableFieldID" assetType="url"}}default_value{{/inline}}`|
-    -->
+-->
 
 1. 「**[!UICONTROL フォームフィールドをプレビュー]**」をクリックすると、このテンプレートを適用するコードベースのエクスペリエンスで編集可能なフォームフィールドの表示方法を確認できます。
 
@@ -246,4 +246,4 @@ JSON テンプレートと HTML テンプレートの例を以下に示します
 
 コードベースのエクスペリエンスチャネルコンテンツテンプレートに編集可能なフィールドを追加する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3463992/?captions=jpn&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3463990/?learn=on&#x26;enablevpops)

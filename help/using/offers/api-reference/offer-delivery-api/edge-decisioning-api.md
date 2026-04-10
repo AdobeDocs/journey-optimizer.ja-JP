@@ -10,10 +10,10 @@ role: Developer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '953'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -62,9 +62,9 @@ SDK を使用するには、[スキーマ](../../../data/get-started-schemas.md)
 
 >[!NOTE]
 >
->**Edge Decisioning リクエストでコンテキストデータを渡す**
+>**Edge 決定リクエストでのコンテキストデータの受け渡し**
 >
->Edge Decisioning リクエストでコンテキストデータ（デバイスタイプ、場所、ユーザーの環境設定など）を渡し、動的な実施要件ルールを作成し、リアルタイムの条件に基づいてパーソナライズされたオファーを配信できます。 [&#x200B; コンテキストデータとEdge Decisioning リクエストについて詳しくはこちらから &#x200B;](../../context-data-edge.md)
+>Edge 決定リクエストでコンテキストデータ（デバイスタイプ、場所、ユーザーの環境設定など）を渡して、動的な実施要件ルールを作成し、リアルタイムの条件に基づいてパーソナライズされたオファーを配信できます。[コンテキストデータと Edge 決定リクエストの詳細情報](../../context-data-edge.md)
 
 意思決定管理の SDK を設定するには、次の 2 つの手順に従います。
 
@@ -263,6 +263,8 @@ document.getElementById("offerDescription").innerHTML = offerDescription;
 document.getElementById('offerImage').src = offerImageURL;
 ```
 
-<!--## Limitations
+<!--
+## Limitations
 
-Some offer constraints are currently not supported with the mobile Experience Edge workflows, for example Capping. The Capping field value specifies the number of times an offer can be presented across all users. For more details, see [Add constraints to an offer](../../offer-library/add-constraints.md#capping).-->
+Some offer constraints are currently not supported with the mobile Experience Edge workflows, for example Capping. The Capping field value specifies the number of times an offer can be presented across all users. For more details, see [Add constraints to an offer](../../offer-library/add-constraints.md#capping).
+-->

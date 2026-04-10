@@ -5,7 +5,7 @@ feature: Preview
 role: User
 level: Beginner
 exl-id: 9ab43b14-41cf-49f1-bdcf-6fee58db5000
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 88%
@@ -19,7 +19,7 @@ ht-degree: 88%
 >title="メールスパムレポート"
 >abstract="スパムレポートを使用すると、メールコンテンツのスパムスコアを確認できます。このスコアは、ISP またはメールボックスプロバイダーがメッセージをスパムと見なすかどうかを示します。スコアが低いほど、より良い結果が得られます。メールコンテンツスコアが 2 を超える場合は、テストが失敗する原因である問題の修正を検討する必要があります。"
 
-専用のスパムレポートで、メールコンテンツのスパムスコアを確認できます。[SpamAssassin](https://spamassassin.apache.org/){target="_blank"} を使用すると、Adobe Journey Optimizerはメールコンテンツをテストし、ISP やメールボックスプロバイダーがスパムと見なすかどうかを示すスコアを付与できます。
+専用のスパムレポートで、メールコンテンツのスパムスコアを確認できます。[SpamAssassin](https://spamassassin.apache.org/){target="_blank"}を使用して、Adobe Journey Optimizerで電子メールの内容をテストし、ISPまたはメールプロバイダーがそれを迷惑メールと見なすかどうかを示すスコアを付与できます。
 
 メールの内容を編集またはプレビューする際に、「**[!UICONTROL スパムレポート]**」オプションでは、リストされる個々の項目のスコアを向上させるために、スコアリングとアドバイスを提供します。
 
@@ -47,7 +47,7 @@ ht-degree: 88%
 
    >[!NOTE]
    >
-   >スパムスコアは [SpamAssassin](https://spamassassin.apache.org/){target="_blank"} によって得られ、ルールはAdobeによって所有されません。 これらのルールについて詳しくは、SpamAssassin ドキュメントを参照してください。
+   >スパムスコアは[SpamAssassin](https://spamassassin.apache.org/){target="_blank"}を通じて取得されます。ルールはAdobeが所有していません。 これらのルールについて詳しくは、SpamAssassin ドキュメントを参照してください。
    >
 
 1. このスコアリングに基づいて、一部の要素を改善できると考えられる場合は、[E メールデザイナー](../email/content-from-scratch.md)でコンテンツを編集し、必要な更新を行ってください。
@@ -56,7 +56,8 @@ ht-degree: 88%
 
    ![](assets/spam-report-low-score.png)
 
-<!--You can also check the message's alerts for warnings on potential risk of spam detection. Follow the steps below.
+<!--
+You can also check the message's alerts for warnings on potential risk of spam detection. Follow the steps below.
 
 1. Click the **[!UICONTROL Alerts]** button on top right of the screen. [Learn more about email alerts](../email/create-email.md#check-email-alerts)
 

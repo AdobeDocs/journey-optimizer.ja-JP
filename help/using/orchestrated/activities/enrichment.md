@@ -5,7 +5,7 @@ title: エンリッチメントアクティビティの使用
 description: エンリッチメントアクティビティの使用方法について説明します
 exl-id: 8a0aeae8-f4f2-4f1d-9b89-28ce573fadfd
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_enrichment"
->title="エンリッチメントアクティビティ"
+>title="「エンリッチメント」アクティビティ"
 >abstract="**エンリッチメント**&#x200B;アクティビティでは、データベースからの追加情報を使用してターゲットデータを強化できます。 一般的に、セグメント化アクティビティ後のキャンペーンで使用されます。"
 
 **[!UICONTROL エンリッチメント]**&#x200B;アクティビティは、追加の属性を使用してオーディエンスデータを強化できる&#x200B;**[!UICONTROL ターゲティング]**&#x200B;アクティビティです。
@@ -270,5 +270,4 @@ If you want to to view only offers from the enrichment activity, set the number 
 >[!NOTE]
 >
 >If you choose to have more than one offer in the **[!UICONTROL Enrichment]** activity at the **[!UICONTROL Number of offers to keep]** option, all the offers are displayed when clicking on the **[!UICONTROL Propositions]** icon.
-
 -->

@@ -5,13 +5,14 @@ title: 顧客の環境設定の管理
 description: 同意ポリシーの使用を通じてユーザーの環境設定を管理する方法について説明します
 feature: Journeys, Privacy, Consent Management, Landing Pages
 topic: Administration
-role: Data Engineer, Data Architect, Admin
+role: Developer, Admin
 level: Experienced
 keywords: ポリシー, ガバナンス, プラットフォーム, 同意, Healthcare Shield
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+exl-id: a3e68015-c8f8-4b01-8171-f39d70b7e59d
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '859'
-ht-degree: 98%
+ht-degree: 93%
 
 ---
 
@@ -23,7 +24,8 @@ ht-degree: 98%
 
 最新のマーケティングオートメーションエコシステムでは、ブランドは様々なタッチポイントをまたいで顧客と関与しますが、無関係なコミュニケーションや過剰なコミュニケーションのリスクに直面し、非エンゲージメント、スパムの苦情、コンプライアンスリスクにつながります。そのため、オーディエンスに関するリアルタイムのインサイトを得て、パーソナライズされた敬意のあるコミュニケーションを実現するために、顧客の環境設定を管理する必要があります。
 
-[!DNL Adobe Journey Optimizer] では、[&#x200B; 同意ポリシー &#x200B;](consent.md) を使用して、顧客の好みに従うことができ <!-- in terms of **channels** and **topics**--> す。 これにより、[!DNL Journey Optimizer] は顧客の同意を適用しながら、顧客の選択<!-- their preferred channels and on the subscription topics-->に基づいてのみ顧客をターゲットにすることができます。
+[!DNL Adobe Journey Optimizer] では、[同意ポリシー](consent.md)の使用を通じて、顧客の環境設定<!-- in terms of **channels** and **topics**-->を適用できます。これにより、[!DNL Journey Optimizer]は顧客の同意を尊重しながら、選択に基づいてのみ顧客をターゲットにすることができます。
+<!-- their preferred channels and on the subscription topics-->
 
 [!DNL Journey Optimizer] を使用してユーザーの環境設定を管理するには、次の操作を実行します。
 
@@ -37,9 +39,10 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->同意は環境設定よりも優先されます。 例えば、顧客の 1 人が、優先チャネルはメールで、ニュースレター<!-- they are interested in yoga-->の受信に同意したことを示したとします。ただし、顧客がユーザーからのコミュニケーションの受信をオプトアウトした場合、送信するメールニュースレター<!-- on yoga-->のターゲットにすることはできません。
+>同意は環境設定よりも優先されます。 例えば、お客様の1人が、お客様の好みのチャネルが電子メールであり、ニュースレターの受信に同意したことを示しました<!-- they are interested in yoga-->。ただし、お客様からのメールの受信をオプトアウトした場合、お客様が送信する電子メールニュースレターでターゲットにすることはできません。
+<!-- on yoga-->
 
-## 設定を記録し、優先する {#manage-preferences}
+## 環境設定の記録と適用 {#manage-preferences}
 
 [!DNL Journey Optimizer] の同意ポリシーを使用すると、顧客の環境設定を一元的に管理できます。これにより、顧客の同意の選択を適用しながら、顧客が選択したトピックに基づいてのみ顧客をターゲットにすることができます。これを行うには、次の手順に従います。
 
@@ -81,13 +84,15 @@ ht-degree: 98%
 
    ![](assets/profile-preference-attributes.png){width=80%}
 
-<!--The corresponding profile dataset is updated as follows:
+<!--
+The corresponding profile dataset is updated as follows:
 
 |Attribute = Email id | Attribute = Offers_Push | Attribute = Newsletters_Email |
 |---------|----------|---------|
-| john.black@lumamail.com | Y | N |-->
+| john.black@lumamail.com | Y | N |
+-->
 
-    >[ !メモ]
+    >[!メモ]
     >
     >受信した同意イベントは顧客プロファイルにフィードされ、リアルタイムの更新が確保されます。各プロファイルには、購読環境設定をまたいで最新の選択が反映されます。
 
@@ -101,11 +106,13 @@ ht-degree: 98%
 
 1. **[!UICONTROL 同意ポリシー]**&#x200B;のタイプを選択し、次のように条件を設定します。[同意ポリシーの設定方法の詳細情報](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/user-guide.html?lang=ja#consent-policy){target="_blank"}
 
-<!--Consent policies are comprised of two logical components:
+<!--
+Consent policies are comprised of two logical components:
 
 * **If**: The condition that will trigger the policy check, based on a certain marketing action (email, SMS, push, custom action, etc.) being performed, the presence of certain data usage labels, or a combination of the two.
 
-* **Then**: The consent attribute must be present for a profile to be included in the action that triggered the policy. More than one field can also be selected.-->
+* **Then**: The consent attribute must be present for a profile to be included in the action that triggered the policy. More than one field can also be selected.
+-->
 
     例えば、メールニュースレターの受信をオプトアウトしていない顧客にのみメッセージを送信するには、カスタムポリシーを作成し、次の条件を定義します。
     
@@ -113,9 +120,9 @@ ht-degree: 98%
     
     * **[!UICONTROL Newsletter_Email]** が存在しない（**[!UICONTROL false]**）または **[!UICONTROL Newsletter_Email]** が等しくない場合（**[!UICONTROL false]**）
     
-    。[&#128279;](assets/consent-policy-email-newsletter.png){width=80%}
+    。[](assets/consent-policy-email-newsletter.png){width=80%}
     
-    >[ !ヒント]
+    >[!ヒント]
     >
     >プロファイル対応データセットには、値が `true` に設定されたプロファイル属性 **[!UICONTROL Newsletter_Email]** を含める必要があります（手順 1 で説明）。
 

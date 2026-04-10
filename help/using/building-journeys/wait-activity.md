@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 待機, アクティビティ, ジャーニー, 次, キャンバス
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 version: Journey Orchestration
-source-git-commit: 2895554bfa00ed1b4cfe2d036568ed5a112689f8
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 85%
@@ -38,7 +38,7 @@ ht-degree: 85%
 
 ## レコメンデーション {#wait-recommendations}
 
-これらの推奨事項を使用して、待ち時間を予測可能かつ安全に保ちます。
+予測可能かつ安全な待機を維持するために、これらの推奨事項を使用してください。
 
 ### 複数の待機アクティビティ {#multiple-wait-activities}
 
@@ -60,7 +60,7 @@ ht-degree: 85%
 
 ## 設定 {#wait-configuration}
 
-ここで待ち時間とタイミングを設定します。
+ここで待機時間とタイミングを設定します。
 
 ### 期間待機 {#duration}
 
@@ -74,7 +74,6 @@ ht-degree: 85%
 Select the date for the execution of the next activity.
 
 ![Wait activity configuration panel with duration and fixed date options](assets/journey56.png)
-
 -->
 
 ### カスタム待機 {#custom}
@@ -90,16 +89,16 @@ Select the date for the execution of the next activity.
 
 >[!CAUTION]
 >
->`dateTimeOnly` 式を使用する場合は、次の点に注意してください。
+>`dateTimeOnly`式を使用する場合は、次の点に注意してください。
 >
->* `dateTimeOnly` 式は、直接使用することも、関数を使用して変換することもできます。例えば、`toDateTimeOnly(@event{Event.offerOpened.activity.endTime})` のフィールド値は、フォームフ `2023-08-12T09:46:06Z` ールド内にあります。
->* **タイムゾーン** は、ジャーニーのプロパティで定義します。 その結果、時刻とタイムゾーンのオフセットを組み合わせた、完全な ISO-8601 タイムスタンプ（`2023-08-12T09:46:06.982-05` など）を UI から指定することはできません。 [詳細情報](../building-journeys/timezone-management.md)
->* `toDateTimeOnly()` を使用してカスタム待機式を作成する場合は、**またはタイムゾーンオフセット（例：**`Z` を追加 `-05:00` しないでください。 式は、明示的なタイムゾーン識別子を使用せずに、ジャーニーで設定されたタイムゾーンを参照する必要があります。参照しないと、プロファイルが待機アクティビティで停止する可能性があります。
+>* `dateTimeOnly`式を直接使用するか、関数を使用して変換できます。例：`toDateTimeOnly(@event{Event.offerOpened.activity.endTime})`。フィールド値は`2023-08-12T09:46:06Z`形式です。
+>* **タイムゾーン**&#x200B;は、ジャーニープロパティで定義されています。 その結果、時間とタイムゾーンのオフセットを組み合わせた完全なISO-8601 タイムスタンプ（`2023-08-12T09:46:06.982-05`など）をUIからポイントすることはできません。 [詳細情報](../building-journeys/timezone-management.md)
+>* `toDateTimeOnly()`でカスタム待機式を作成する場合、**not**&#x200B;に`Z`またはタイムゾーンオフセット（例：`-05:00`）を追加しないでください。 エクスプレッションは、明示的なタイムゾーン指定子なしでジャーニーの設定されたタイムゾーンを参照する必要があります。そうしないと、プロファイルが待機アクティビティで停止する可能性があります。
 >
 >| | 例 |
 >|---|---|
 >| **正解** | `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00"))` |
->| **不正確** | `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00Z"))` ❌ （`Z` を含む） |
+>| **正しくない** | `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00Z"))` ❌ （`Z`を含む） |
 
 待機アクティビティが期待どおりに動作することを検証するには、ステップイベントを使用できます。[詳細情報](../reports/query-examples.md#common-queries)
 

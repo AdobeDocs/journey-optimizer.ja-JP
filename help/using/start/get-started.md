@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '858'
 ht-degree: 99%
@@ -26,9 +26,11 @@ ht-degree: 99%
 ➡️ [Journey Optimizer の概要を確認](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction.html?lang=ja){target="_blank"}（ビデオ）
 
 
-<!-- Use [!DNL Adobe Journey Optimizer] to build multi-step customer journeys that initiate a sequence of interactions, offers, and messages across channels in real time. This approach ensures customers are engaged at the optimal moments based on their actions and relevant business signals. Learn how to build journeys in [this section](../building-journeys/journey-gs.md).
+<!--
+ Use [!DNL Adobe Journey Optimizer] to build multi-step customer journeys that initiate a sequence of interactions, offers, and messages across channels in real time. This approach ensures customers are engaged at the optimal moments based on their actions and relevant business signals. Learn how to build journeys in [this section](../building-journeys/journey-gs.md).
 
-You can also create audience-based campaigns to send messages.-->
+You can also create audience-based campaigns to send messages.
+-->
 
 
 ## ユースケース {#use-cases}
@@ -86,7 +88,7 @@ Journey Optimizer のコア機能とサービスは、リアルタイム顧客�
 >[!MORELIKETHIS]
 >
 >* [開始の主な手順](quick-start.md)
->* [&#x200B; データ管理の基本を学ぶ](../data/gs-data.md)
+>* [ データ管理の基本を学ぶ](../data/gs-data.md)
 >* [ジャーニーの設計とメッセージの送信](../building-journeys/journey-gs.md)
 >* [ライブレポート](../reports/live-report.md)
 >* [Journey Optimizer の概要チュートリアル](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction){target="_blank"}

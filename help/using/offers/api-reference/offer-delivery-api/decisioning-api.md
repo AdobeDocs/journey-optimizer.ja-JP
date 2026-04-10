@@ -10,10 +10,10 @@ role: Developer
 level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
 version: Journey Orchestration
-source-git-commit: d34dfa121f005d28c6ab8895de2bbbd0cdf71dc1
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1129'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -34,9 +34,9 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->**決定リクエストでコンテキストデータを渡す**
+>**決定リクエストでのコンテキストデータの受け渡し**
 >
->決定リクエストでコンテキストデータ（デバイスタイプ、場所、ユーザーの環境設定など）を渡して、動的な実施要件ルールを作成し、リアルタイムの条件に基づいてパーソナライズされたオファーを配信できます。 [&#x200B; コンテキストデータと決定リクエストの詳細 &#x200B;](../../context-data-decisioning.md)
+>決定リクエストでコンテキストデータ（デバイスタイプ、場所、ユーザーの環境設定など）を渡して、動的な実施要件ルールを作成し、リアルタイムの条件に基づいてパーソナライズされたオファーを配信できます。[コンテキストデータと決定リクエストの詳細情報](../../context-data-decisioning.md)
 
 ## 必須ヘッダー {#required-headers}
 
@@ -134,7 +134,7 @@ curl -X POST 'https://platform.adobe.io/data/core/ods/decisions' \
 | `xdm:allowDuplicatePropositions` | このオブジェクトは、重複除外ルールの制御構造を表します。特定のディメンションに対して同じオプションを提案できるかどうかを示す一連のフラグで構成されます。フラグを true に設定した場合は、重複が許可され、フラグで示されるカテゴリ全体で削除されません。フラグを false に設定した場合、決定エンジンはディメンション全体で同じ提案を行わず、代わりにサブデシジョンの 1 つに対して次に最適なオプションを選択する必要があります。 |  |
 | `xdm:allowDuplicatePropositions.xdm:acrossActivities` | True に設定すると、複数の決定に同じオプションが割り当てられる場合があります。 | `"xdm:acrossActivities": true` |
 | `xdm:allowDuplicatePropositions.xdm:acrossPlacements` | True に設定すると、複数のプレースメントに同じオプションが割り当てられる場合があります。 | `"xdm:acrossPlacements": true` |
-| `xdm:enrichedAudience` | カスタムアップロード（CSV）オーディエンスをターゲットにしており、オファーの決定応答でエンリッチメントデータを取得する場合は、このパラメーターを `true` に設定します。 [&#x200B; 意思決定への CSV オーディエンスの使用について詳しくは、こちらを参照してください &#x200B;](../../custom-upload-decisioning.md#must-read) | `"xdm:enrichedAudience": true` |
+| `xdm:enrichedAudience` | カスタムアップロード（CSV）オーディエンスをターゲットにしていて、オファーの決定応答でエンリッチメントデータを取得する場合は、このパラメーターを `true` に設定します。[決定用の CSV オーディエンスの使用の詳細情報](../../custom-upload-decisioning.md#must-read) | `"xdm:enrichedAudience": true` |
 | `xdm:mergePolicy.xdm:id` | プロファイルアクセスサービスが返すデータを制御する結合ポリシーを指定します。リクエストで指定されていない場合、意思決定管理はプロファイルアクセスサービスに何も渡さず、指定されている場合は呼び出し元が提供する ID を渡します。 | `"xdm:id": "5f3ed32f-eaf1-456c-b0f0-7b338c4cb18a"` |
 | `xdm:responseFormat` | 応答コンテンツをフォーマットする一連のフラグ。 |  |
 | `xdm:responseFormat.xdm:includeContent` | ブール値で、`true` に設定した場合、応答にコンテンツを含めます。 | `"xdm:includeContent": true` |
@@ -228,7 +228,9 @@ curl -X POST 'https://platform.adobe.io/data/core/ods/decisions' \
 | 500 | 内部サーバーエラー。サーバーで予期しない状況が発生し、リクエストを完了できません。 |
 | 503 | サーバー過負荷のため、サービスを利用できません。一時的な過負荷のため、サーバーは現在リクエストを処理できません。 |
 
-<!-- ## Tutorial video {#video}
+<!--
+ 
+## Tutorial video {#video}
 
 The following video is intended to support your understanding of the components of Decision Management.
 
@@ -236,7 +238,8 @@ The following video is intended to support your understanding of the components 
 >
 >This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/342831/?captions=jpn&quality=12) -->
+>[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12)
+-->
 
 ## 次の手順 {#next-steps}
 

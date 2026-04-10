@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: メッセージ, 頻度, ルール, プレッシャー
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1249'
 ht-degree: 100%
@@ -161,8 +161,9 @@ You can combine several message frequency rules, such as described in the exampl
 
 In this scenario, an individual profile:
 * can receive up to 12 marketing messages per month;
-* but will be excluded from marketing push notifications after they have received 4 push notifications.-->
+* but will be excluded from marketing push notifications after they have received 4 push notifications.
+-->
 
 ## チュートリアルビデオ {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444727?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: ランディング, ランディングページ, ユースケース
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: b1d262723b68083d1a32d259f3974a287f898579
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1184'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -151,7 +151,7 @@ ht-degree: 85%
 
    >[!WARNING]
    >
-   >メール内で購読解除リンクをクリックした場合にのみ、ランディングページが開きます。 受信者は **ランディングページのオプトアウトボタンをクリックしてフォームを送信** して、購読解除を完了し、プロファイルの同意を更新する必要があります。
+   >メール内で登録解除リンクをクリックした場合にのみ、ランディングページが開きます。 購読解除を完了し、プロファイルの同意を更新するには、受信者は、**ランディングページのオプトアウトボタンをクリックしてフォームを送信**&#x200B;する必要があります。
 
    受信者がボックスをオンにしてフォームを送信した場合：
 
@@ -179,7 +179,6 @@ ht-degree: 85%
 * [メールヘッダーのオプトアウトリンク](../email/email-opt-out.md#unsubscribe-header)
 
 <!--
-
 ### Other ways to opt out
 
 You can also enable your recipients to unsubscribe whithout using landing pages.
@@ -191,20 +190,20 @@ You can also enable your recipients to unsubscribe whithout using landing pages.
 * **Unsubscribe link in header**
 
     If the recipients' email client supports displaying an unsubscribe link in the email header, emails sent with [!DNL Journey Optimizer] automatically include this link. [Learn more](../email/email-opt-out.md#unsubscribe-header)
-
 -->
 
 ## ランディングページ送信イベントの活用 {#leverage-lp-event}
 
-ランディングページで送信された情報を使用して、追加のアクションを実行できます。 例えば、ユーザーが特定のサブスクリプションリストを購読している場合、その情報を利用して、他のサブスクリプションリストを推奨するメールをそのユーザーに送信できます。
+ランディングページで送信された情報を使用して、追加のアクションを実行できます。例えば、ユーザーが特定の購読リストに登録している場合、その情報を活用して、そのユーザーに他の購読リストを推奨するメールを送信できます。
 
-これを行うには、送信情報を含む [AJO メールトラッキングエクスペリエンスイベントスキーマに基づいて &#x200B;](../event/about-creating.md) ルールベースの単一イベント **[!UICONTROL を作成し]** ジャーニーでこのイベントを使用 [&#x200B; する必要があ &#x200B;](../building-journeys/general-events.md) ます。
+これを行うには、送信情報を含む **[!UICONTROL AJO メールトラッキングエクスペリエンスイベントスキーマ]**&#x200B;に基づいて[ルールベースの単一イベント](../event/about-creating.md)を作成し、[このイベントをジャーニーで使用](../building-journeys/general-events.md)する必要があります。
 
 >[!NOTE]
 >
->ランディングページの送信イベントを操作する場合、「イベント `interactionType`」フィールドは必ずしも特定のユーザーアクションを正確に反映しているとは限りません。 ユーザーがオプトアウト、購読、または別のアクションを実行したかどうかを正確に判断するには、イベント `interactionType` ータのみに依存するのではなく、実際のプロファイル属性（同意環境設定など）またはフォームフィールド値を常に確認します。
+>ランディングページの送信イベントを操作する際、イベントの `interactionType` フィールドが必ずしも特定のユーザーアクションを正確に反映するとは限りません。ユーザーがオプトアウト、購読または別のアクションを実行したかを正確に判断するには、イベント `interactionType` にのみ依存するのではなく、実際のプロファイル属性（同意環境設定など）またはフォームフィールドの値を常に確認します。
 
-<!--DETAILED STEPS TBC:
+<!--
+DETAILED STEPS TBC:
 
 Follow the steps below.
 
@@ -254,4 +253,5 @@ Follow the steps below.
 
     ![](assets/lp_subscription-uc-journey-email.png)
 
-///How do you use the information from the event to send an email to the users? -->
+///How do you use the information from the event to send an email to the users? 
+-->

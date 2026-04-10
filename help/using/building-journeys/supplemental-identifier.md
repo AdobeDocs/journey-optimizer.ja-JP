@@ -3,7 +3,7 @@ title: ジャーニーの補足識別子の使用
 description: ジャーニーの補助識別子の使用方法について説明します。
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1434'
 ht-degree: 99%
@@ -141,13 +141,15 @@ ht-degree: 99%
 
       ユーザー以外の ID 名前空間をスキーマに適用した後、補助識別子を使用するには、新しいフィールドグループを作成する必要があります。既存のエンティティを更新して、新しい識別子を認識することはできません。
 
-<!--1. **Add the supplemental ID field to the data source**
+<!--
+1. **Add the supplemental ID field to the data source**
 
     1. Navigate to the **[!UICONTROL Configuration]** / **[!UICONTROL Data Sources]** menu, then locate the "ExperiencePlatformDataSource" data source.
 
         ![Data source configuration with supplemental identifier mapping](assets/supplemental-ID-data-source.png)
 
-    1. Open the field selector then select the attribute you want to use as a supplemental identifier (e.g., booking ID, subscription ID).-->
+    1. Open the field selector then select the attribute you want to use as a supplemental identifier (e.g., booking ID, subscription ID).
+-->
 
 1. **ジャーニーでのオーディエンスを読み取りアクティビティの追加と設定**
 
@@ -218,7 +220,7 @@ ht-degree: 99%
 
 ## ユースケースの例
 
-これらの例は、補足的な識別子が複数の関連レコードをどのようにサポートするかを示しています。
+これらの例は、補足識別子が複数の関連レコードをどのようにサポートするかを示しています。
 
 ### **ポリシー更新通知**
 
@@ -248,4 +250,4 @@ ht-degree: 99%
 
 [!DNL Adobe Journey Optimizer] で補足識別子を有効にして適用する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464793?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)

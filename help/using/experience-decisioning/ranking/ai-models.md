@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 07679823-2288-4528-b09a-12fd76a69482
 version: Journey Orchestration
-source-git-commit: e329c221fa714747d50495e466d02e75bed2967c
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 97%
@@ -22,11 +22,13 @@ ht-degree: 97%
 
 この機能を使用すると、ビジネス目標に応じて異なる **AI モデル**&#x200B;を作成できます。決定でこれらの様々な目標ベース戦略を使用すると、様々な AI モデルが目標にどのような影響を及ぼすかを理解するうえで、トレーニング済みモデルシステムが役に立ちます。
 
-<!--For example, you can select an AI model for the email channel and another one for the push channel. For each channel, the trained model system will leverage multiple data points to determine which offer should be presented first for a given decision policy?, rather than taking into account the offers' priority scores or a [ranking formula](create-ranking-formulas.md).
+<!--
+For example, you can select an AI model for the email channel and another one for the push channel. For each channel, the trained model system will leverage multiple data points to determine which offer should be presented first for a given decision policy?, rather than taking into account the offers' priority scores or a [ranking formula](create-ranking-formulas.md).
 
 >[!IMPORTANT]
 >
->For now, ranking models are not supported in Journey Optimizer authored channels.-->
+>For now, ranking models are not supported in Journey Optimizer authored channels.
+-->
 
 ## AI モデルタイプ {#ai-model-types}
 
@@ -58,4 +60,4 @@ AI モデルを作成して使用する主な手順は次のとおりです。
 
 1. 実施要件を満たすオファーをランク付けする選択戦略に AI モデルを割り当てます。[詳細情報](../selection-strategies.md#select-ranking-method)
 
-1. AI モデルのトレーニングステータスとパフォーマンスを監視します。 [詳細情報](ai-model-observability.md)
+1. AI モデルのトレーニングのステータスとパフォーマンスを監視する。 [詳細情報](ai-model-observability.md)

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: a1daf6f7-c26c-4d70-984b-0b4eeb04a1a8
-source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '499'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -69,13 +69,13 @@ ht-degree: 92%
    >
    >キャンペーンのアクティブ化について詳しくは、[この節](../campaigns/review-activate-campaign.md)を参照してください。
 
-コードベースのキャンペーンは **[!UICONTROL ライブ]**&#x200B;[&#x200B; ステータス &#x200B;](../campaigns/manage-campaigns.md#statuses) を取り、選択したオーディエンスに表示されるようになりました。 キャンペーンの各受信者は、あなたがコンテンツに追加した変更を表示できます。
+コードベースキャンペーンの[ステータス](../campaigns/manage-campaigns.md#statuses)が「**[!UICONTROL ライブ]**」になり、選択したオーディエンスに対して表示されます。キャンペーンの各受信者は、あなたがコンテンツに追加した変更を表示できます。
 
 >[!NOTE]
 >
 >「**[!UICONTROL アクティブ化]**」をクリックした後、変更が公開されるまでに最大 15 分かかる場合があります。
 >
->コードベースのキャンペーンのスケジュールを定義した場合、開始日時に達するまで、**[!UICONTROL スケジュール済み]**&#x200B;[&#x200B; ステータス &#x200B;](../campaigns/manage-campaigns.md#statuses) になります。
+>コードベースキャンペーンのスケジュールを定義した場合、開始日時になるまで、[ステータス](../campaigns/manage-campaigns.md#statuses)は&#x200B;**[!UICONTROL スケジュール済み]**&#x200B;になります。
 
 ## コードベースのジャーニーまたはキャンペーンの停止 {#stop-code-based-experience}
 
@@ -99,13 +99,16 @@ ht-degree: 92%
 >
 >コードベースのジャーニーまたはキャンペーンが停止したら、それらを再び編集またはアクティブ化することはできません。ジャーニー／キャンペーンを複製し、複製したものをアクティブ化することがだけが可能です。
 
-<!--Reporting TBC
+<!--
+Reporting TBC
 
 ## Check the code-based experience reports {#check-code-based-reports}
 
-Once your code-based experience is live, you can check the **[!UICONTROL Code-based]** tab of the  [Journey report](../reports/journey-global-report-cja.md#web-cja) and [Campaign report](../reports/campaign-global-report-cja.md#web) to compare elements such as the number of experiences delivered to your audience, and the number of engagements with your content.-->
+Once your code-based experience is live, you can check the **[!UICONTROL Code-based]** tab of the  [Journey report](../reports/journey-global-report-cja.md#web-cja) and [Campaign report](../reports/campaign-global-report-cja.md#web) to compare elements such as the number of experiences delivered to your audience, and the number of engagements with your content.
+-->
 
-<!--## Code-based reports
+<!--
+## Code-based reports
 
 You can access code-based journey or campaign reports from the summary screen.
 
@@ -152,5 +155,4 @@ The **[!UICONTROL Code-based experience summary]** graph shows the evolution of 
 
 TBC: The **[!UICONTROL Interactions by element]** table details the main information relative to your visitors' engagement with the various elements on your apps/pages.
 +++
-
 -->

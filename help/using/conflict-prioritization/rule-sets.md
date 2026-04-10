@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: メッセージ, 頻度, ルール, プレッシャー
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
-source-git-commit: a7d2557790054e7c6e28ca3ffa937f454c4b004c
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 96%
@@ -34,7 +34,7 @@ ht-degree: 96%
 * **チャネル**&#x200B;ルールセットは、通信チャネルにルールを適用します。次の設定を行うことができます。
 
    * **フリークエンシーキャップルール** - *1 日に 1 件以上のメールまたは SMS 通信を送信できないようにします。*
-   * **通知のない時間帯のルール** - *午前 8 時～午後 9 時の時間枠外にメールメッセージを送信しない。*
+   * **サイレントアワーのルール** - *午前8時から午後9時の時間帯の外にメールメッセージを送信しないでください。*
 
 * **ジャーニー**&#x200B;ルールセットは、ジャーニーにエントリキャップルールと同時実行キャップルールを適用します。例えば、複数のジャーニーにプロファイルを同時にエントリしないようにします。
 
@@ -71,11 +71,13 @@ ht-degree: 96%
 >title="メッセージルールカテゴリの選択"
 >abstract="アクティブ化してメッセージに適用すると、選択したカテゴリに一致するすべての頻度ルールがこのメッセージに自動的に適用されます。現在、マーケティングカテゴリのみが使用可能です。"
 
-<!--NOT USED?
+<!--
+NOT USED?
 [!CONTEXTUALHELP]
 >id="ajo_rule_sets_capping"
 >title="Set the capping for your rule"
->abstract="Specify the maximum number of messages sent to a customer profile within the chosen time frame. The frequency cap will be based on the selected calendar period and will be reset at the beginning of the corresponding time frame."-->
+>abstract="Specify the maximum number of messages sent to a customer profile within the chosen time frame. The frequency cap will be based on the selected calendar period and will be reset at the beginning of the corresponding time frame."
+-->
 
 >[!CONTEXTUALHELP]
 >id="ajo_rule_type"
@@ -101,7 +103,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->チャネルドメインに最大 10 個のルールセットを作成し、ジャーニードメインに最大 10 個のルールセットを作成して、合計 20 個のルールセットを作成できます。
+>チャネルドメインには最大10個、ジャーニードメインには10個のルールセットを作成でき、合計20個のルールセットを作成できます。
 
 1. **[!UICONTROL ルールセット]**&#x200B;のリストにアクセスし、「**[!UICONTROL ルールセットを作成]**」をクリックします。
 
@@ -180,4 +182,4 @@ ht-degree: 96%
 
 ## チュートリアルビデオ {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3444727?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)

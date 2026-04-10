@@ -6,7 +6,7 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
-source-git-commit: 2d1b74f28b355e1d3ab9a292bc1f1a7e03dadf1c
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 95%
@@ -25,7 +25,7 @@ ht-degree: 95%
 
 ## 決定を使用したコードベースのエクスペリエンスのテスト {#code-based-test-decisions}
 
-決定機能を使用して[&#x200B; コードベースのエクスペリエンス &#x200B;](create-code-based.md)をテストする場合、`dryRun` フラグを使用して、レポートとキャッピングカウンターの両方のフィードバックイベントを抑制できます。
+決定機能を使用して[ コードベースのエクスペリエンス ](create-code-based.md)をテストする場合、`dryRun` フラグを使用して、レポートとキャッピングカウンターの両方のフィードバックイベントを抑制できます。
 
 キャンペーンを公開したら、クライアント実装の XDM イベント `data` ブロックに `dryRun` フラグを追加します。
 
@@ -44,7 +44,8 @@ ht-degree: 95%
 <!--
 >[!CAUTION]
 >
->Adding the `dryRun` flag to your request will prevent feedback to be captured for reporting and frequency counters from being added to.-->
+>Adding the `dryRun` flag to your request will prevent feedback to be captured for reporting and frequency counters from being added to.
+-->
 
 ## コードベースの実装での決定項目の重複排除 {#code-based-decisioning-deduplication}
 

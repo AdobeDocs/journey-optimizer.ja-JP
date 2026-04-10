@@ -7,7 +7,7 @@ feature: Accessibility
 role: User
 level: Beginner
 exl-id: d971c04c-9b37-4cd7-8a2d-b915e394079b
-source-git-commit: 95e50386d4190d0b967d133a327c25ab1681b5c1
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 100%
@@ -36,7 +36,7 @@ Adobe Experience Platform のアクセシビリティ機能について詳しく
 
 | アクション | ショートカット |
 | --- | --- |
-| ユーザインターフェイス要素、セクションおよびメニューグループ間を移動する | Tab |
+| ユーザインターフェイス要素、セクションおよびメニューグループ間を移動する | タブ |
 | ユーザインターフェイス要素、セクションおよびメニューグループ間を後方に移動する | Shift + Tab |
 | セクション内を移動して個々の要素にフォーカスを設定する | 矢印 |
 | フォーカスされている要素を選択またはクリアする | Enter またはスペースバー |
@@ -75,7 +75,7 @@ Adobe Experience Platform のアクセシビリティ機能について詳しく
   </tr>   
   <tr>
     <td>キャンバス上の次にアクションにつながる要素（最初の要素はツールバー）にフォーカスを移動</td>
-    <td>Tab</td>
+    <td>タブ</td>
   </tr>  
   <tr>
     <td>適切な設定パネルを開く（アクティビティにフォーカス）</td>
@@ -96,7 +96,7 @@ Adobe Experience Platform のアクセシビリティ機能について詳しく
 </ul>
   </td>
     <td>設定する次のフィールドに移動する</td>
-    <td>Tab</td>
+    <td>タブ</td>
   </tr>
   <tr>
     <td>変更内容を保存し設定ペインを閉じる</td>
@@ -106,7 +106,8 @@ Adobe Experience Platform のアクセシビリティ機能について詳しく
     <td>変更内容を破棄して設定ペインを閉じる</td>
     <td>Esc</td>
   </tr>
-<!-- //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
+<!--
+ //Ajouter ce raccourci quand il marchera (actuellement, le raccourci Ctrl/Cmd+F du navigateur a priorité sur celui de AJO).//
   <tr>
     <td>Page with a search bar</td>
     <td>Select the search bar</td>

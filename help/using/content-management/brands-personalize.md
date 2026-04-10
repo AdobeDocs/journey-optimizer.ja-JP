@@ -2,12 +2,12 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: ブランドの管理
-description: ブランドガイドラインをパーソナライズする方法を学ぶ
+description: ブランドガイドラインをパーソナライズする方法
 topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: e5254a1f-e256-4ec8-b165-0b5b62ae4034
-source-git-commit: df7591e337ad11cd51ec1a1c06312823a27561a2
+source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
 source-wordcount: '990'
 ht-degree: 97%
@@ -248,7 +248,7 @@ ht-degree: 97%
 
 1. 必要に応じて、更新または削除するガイドラインや除外の 1 つを選択します。
 
-1. 例を 1 つ選択して更新するか、画像を置き換えるか、![&#x200B; 画像の代替テキストを検索 &#x200B;](assets/do-not-localize/Smock_Delete_18_N.svg " 削除 ") アイコンをクリックして削除します。
+1. 例から1つを選択して更新するか、画像を置き換えるか、![画像を移動の代替テキスト ](assets/do-not-localize/Smock_Delete_18_N.svg "削除") アイコンをクリックして削除します。
 
    ![](assets/brands-14.png)
 
@@ -351,5 +351,4 @@ To personalize your **[!UICONTROL Colors]**:
 1. Click **[!UICONTROL Add group]** to define additional colors for your brand or to add a color scale group.
 
 You can now further personalize your brand or [publish your brand](brands.md#create-brand-kit).
-
 -->
