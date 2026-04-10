@@ -45,7 +45,7 @@ ht-degree: 81%
 
 ## クワイエットアワールールの作成
 
-クワイエットアワーを設定するには、カスタムルールセット内にルールを作成します。[ ルールセットの作成方法を説明](../conflict-prioritization/rule-sets.md#Create)。 次の手順に従います。
+クワイエットアワーを設定するには、カスタムルールセット内にルールを作成します。[&#x200B; ルールセットの作成方法を説明](../conflict-prioritization/rule-sets.md#Create)。 次の手順に従います。
 
 1. **[!UICONTROL ビジネスルール]**&#x200B;に移動し、ルールセットインベントリにアクセスします。
 
@@ -123,7 +123,7 @@ ht-degree: 81%
 
 ![](assets/quiet-hours-preview.png)
 
-ルールの準備ができたら、ルールをアクティブ化して、ルールセットの設定を完了します。 [ ルールセットを作成してアクティブ化する方法を説明](../conflict-prioritization/rule-sets.md#Create)
+ルールの準備ができたら、ルールをアクティブ化して、ルールセットの設定を完了します。 [&#x200B; ルールセットを作成してアクティブ化する方法を説明](../conflict-prioritization/rule-sets.md#Create)
 
 ## ジャーニーとキャンペーンへのクワイエットアワーの適用 {#apply}
 

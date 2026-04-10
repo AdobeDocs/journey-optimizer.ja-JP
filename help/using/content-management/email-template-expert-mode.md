@@ -51,7 +51,7 @@ ht-degree: 7%
 
 高度なHTML エディターを開き、テンプレートソースを編集するには、次の手順に従います。
 
-1. [電子メールテンプレート ](../content-management/create-content-templates.md)を開くか作成し、[電子メールDesigner](../email/get-started-email-design.md)を開いて内容を編集します。
+1. [電子メールテンプレート &#x200B;](../content-management/create-content-templates.md)を開くか作成し、[電子メールDesigner](../email/get-started-email-design.md)を開いて内容を編集します。
 
 1. 画面の右上隅にある「**[!UICONTROL HTML]**」ボタンをクリックします。
 
@@ -59,7 +59,7 @@ ht-degree: 7%
 
 1. HTMLの詳細エディターを初めて開くと、警告メッセージが表示されます。 それを注意深く確認し、**[!UICONTROL OK]**&#x200B;をクリックして続行します。 [詳細情報](#guardrails)
 
-   ![高度なHTML エディターを初めて開く際の警告ダイアログ ](assets/email-template-expert-mode-warning.png){zoomable="yes"}
+   ![高度なHTML エディターを初めて開く際の警告ダイアログ &#x200B;](assets/email-template-expert-mode-warning.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -67,7 +67,7 @@ ht-degree: 7%
 
 1. 高度なHTML エディターが表示されます。
 
-   ![電子メールテンプレートのソースコードを表示する高度なHTML エディターインターフェイス ](assets/email-template-expert-mode.png)
+   ![電子メールテンプレートのソースコードを表示する高度なHTML エディターインターフェイス &#x200B;](assets/email-template-expert-mode.png)
 
 1. メールコンテンツに変更を加えます。
 

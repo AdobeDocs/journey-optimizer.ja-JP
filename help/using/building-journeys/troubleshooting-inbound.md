@@ -34,7 +34,7 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 
 トラブルシューティングを開始する前に、以下を確認します。
 
-1. **Assurance** セッションを設定します。詳しくは、[[!DNL Adobe Experience Platform] Assurance ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}を参照してください。
+1. **Assurance** セッションを設定します。詳しくは、[[!DNL Adobe Experience Platform] Assurance ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}を参照してください。
 
 1. インバウンドアクションを含むジャーニーに移動して、ジャーニー名とバージョン ID を取得します。
 
