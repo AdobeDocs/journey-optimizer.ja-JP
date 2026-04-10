@@ -21,7 +21,7 @@ Adobe Journey Optimizer を使用すると、チームはメールや SMS など
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 Adobe Journey Optimizer の基本を学ぶ
 
@@ -31,7 +31,7 @@ Adobe Journey Optimizer の基本を学ぶ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 包括的なジャーニーガイド
 
@@ -41,7 +41,7 @@ Adobe Journey Optimizer の基本を学ぶ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=ja)
 
 キャンペーンの理解と管理
 
@@ -51,7 +51,7 @@ Adobe Journey Optimizer の基本を学ぶ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=ja)
 
 競合管理と優先順位付け
 
