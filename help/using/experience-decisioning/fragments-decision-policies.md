@@ -7,10 +7,10 @@ role: User
 level: Experienced
 exl-id: 70f64348-092b-4350-91dc-72c3c07300f9
 badge: label="限定提供" type="Informative"
-source-git-commit: 907dad4ab4890714da5dd8a12692c0ee7c381bf2
+source-git-commit: b579e39194f70dd3cb67577b82fa4868de36c5e2
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 86%
+source-wordcount: '564'
+ht-degree: 54%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 86%
 
 例えば、複数のモバイルデバイスモデルに対して異なるコンテンツを表示するとします。決定ポリシーで使用している決定項目に、これらのデバイスに対応するフラグメントが追加されていることを確認します。[方法についてはこちらを参照してください](items.md#attributes)。
 
-![](assets/item-fragments.png){width=70%}
+フラグメント参照とプレースメントキーを表示する決定項目の![ フラグメントセクション。](assets/item-fragments.png){width=70%}
 
 完了したら、次のいずれかの方法を使用できます。
 
@@ -34,7 +34,7 @@ ht-degree: 86%
 
 以下のコードブロックを決定ポリシーコードにコピー＆ペーストするだけです。`variable` をフラグメント ID に、`placement` をフラグメント参照キーに置き換えます。
 
-```
+```handlebars
 {% let variable =  get(item._experience.decisioning.offeritem.contentReferencesMap, "placement").id %}
 {{fragment id = variable}}
 ```
@@ -43,19 +43,19 @@ ht-degree: 86%
 
 1. 「**[!UICONTROL ヘルパー関数]**」に移動し、コードパネルに **Let** 関数 `{% let variable = expression %} {{variable}}` を追加します。ここでフラグメントの変数を宣言できます。
 
-   ![](assets/decision-let-function.png)
+   ![ コードペインに追加されたLet ヘルパー関数を表示する決定ポリシーコードエディター。](assets/decision-let-function.png)
 
-1. **Map**／**Get** 関数 `{%= get(map, string) %}` を使用して、式を作成します。マップは、決定項目で参照されるフラグメントです。文字列は、決定項目で&#x200B;**[!UICONTROL フラグメント参照キー]**&#x200B;として入力したデバイスモデルに指定できます。
+1. **Map**／**Get** 関数 `{%= get(map, string) %}` を使用して、式を作成します。マップは、決定項目で参照されるフラグメントです。 文字列は、決定項目に&#x200B;**[!UICONTROL フラグメント参照キー]**&#x200B;として入力したデバイスモデルにすることができます。
 
-   ![](assets/decision-map-function.png)
+   ![ フラグメントマップとフラグメント参照キーの参照に使用されるMap関数とGet関数。](assets/decision-map-function.png)
 
 1. また、このデバイスモデル ID を含むコンテキスト属性を使用することもできます。
 
-   ![](assets/decision-contextual-attribute.png)
+   デバイス モデル IDに![ コンテキスト属性が選択されました。](assets/decision-contextual-attribute.png)
 
 1. フラグメントに選択した変数をフラグメント ID として追加します。
 
-   ![](assets/decision-fragment-id.png)
+   ![決定ポリシーコードの決定項目から設定されたフラグメント ID変数。](assets/decision-fragment-id.png)
 
 >[!ENDTABS]
 
@@ -67,21 +67,29 @@ ht-degree: 86%
 
 ## フラグメント使用時のガードレール {#fragments-guardrails}
 
+**電子メールでコンテンツと式のフラグメントをシミュレートする**
+
+**電子メール** チャネルの場合、**[!UICONTROL プルーフを送信]**&#x200B;するか、キャンペーンがアクティブ化されたときに、決定項目に関連付けられた式フラグメントが正しく表示されます。 ただし、**[!UICONTROL コンテンツをシミュレート]**&#x200B;しても、決定項目の式フラグメントは表示されません。
+
+**電子メールのビジュアルフラグメントと決定項目**
+
+決定項目に&#x200B;**[!UICONTROL ビジュアルフラグメント]**&#x200B;を割り当てることはできません。このコンテキストでサポートされているのは&#x200B;**式フラグメント**&#x200B;のみです。
+
 **決定項目とコンテキストの属性**
 
-[!DNL Journey Optimizer] のフラグメントでは、決定項目属性とコンテキスト属性はデフォルトでサポートされていません。ただし、以下に説明するように、代わりにグローバル変数を使用できます。
+決定項目の属性とコンテキスト属性は、[!DNL Journey Optimizer] フラグメントではデフォルトでサポートされていません。 ただし、以下に説明するように、代わりにグローバル変数を使用できます。
 
 例えば、フラグメントで *sport* 変数を使用するとします。
 
 1. フラグメント内でこの変数を参照します。例：
 
-   ```
+   ```text
    Elevate your practice with new {{sport}} gear!
    ```
 
 1. 決定ポリシーブロック内で、**Let** 関数を使用して変数を定義します。以下の例では、決定項目属性を使用して *sport* が定義されています。
 
-   ```
+   ```handlebars
    {#each decisionPolicy.13e1d23d-b8a7-4f71-a32e-d833c51361e0.items as |item|}}
    {% let sport = item._cjmstage.value %}
    {{fragment id = get(item._experience.decisioning.offeritem.contentReferencesMap, "placement1").id }}
@@ -90,7 +98,7 @@ ht-degree: 86%
 
 **決定項目フラグメントコンテンツの検証**
 
-* これらのフラグメントは動的な性質を持つため、キャンペーンで使用する場合、決定項目で参照されるフラグメントでは、キャンペーンコンテンツ作成時のメッセージ検証がスキップされます。
+* これらのフラグメントの動的な性質により、キャンペーンで使用する場合、決定項目で参照されるフラグメントのキャンペーンコンテンツ作成時にメッセージ検証がスキップされます。
 
 * フラグメントコンテンツの検証は、フラグメントの作成中と公開中にのみ行われます。
 
