@@ -5,10 +5,10 @@ title: 紐付けアクティビティの使用
 description: 調整されたキャンペーンでの紐付けアクティビティの使用方法について説明します。
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: 8510004a3e1726dedc1103ff974c456155a131c8
 workflow-type: tm+mt
 source-wordcount: '538'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -99,6 +99,6 @@ ht-degree: 100%
 
 ## 例 {#example-reconciliation}
 
-この例では、Adobe Journey Optimizer の&#x200B;**[!UICONTROL 紐付け]**&#x200B;アクティビティを使用して、認識された顧客にのみメールが送信されるようにします。データは、以前の注文のあるユーザーをターゲットにする&#x200B;**[!UICONTROL オーディエンスを読み取り]**&#x200B;アクティビティを通じて流入します。次に、**[!UICONTROL 紐付け]**&#x200B;アクティビティは、メールフィールドを使用して、この受信データをデータベース内の既存のプロファイルと一致させます。
+この例では、Adobe Journey Optimizer の&#x200B;**[!UICONTROL 紐付け]**&#x200B;アクティビティを使用して、認識された顧客にのみメールが送信されるようにします。データは、以前の注文を持つユーザーをターゲットとする&#x200B;**[!UICONTROL オーディエンスを作成]** アクティビティを通じて取り込まれます。 次に、**[!UICONTROL 紐付け]**&#x200B;アクティビティは、メールフィールドを使用して、この受信データをデータベース内の既存のプロファイルと一致させます。
 
 ![](../assets/workflow-reconciliation-sample-1.0.png)
