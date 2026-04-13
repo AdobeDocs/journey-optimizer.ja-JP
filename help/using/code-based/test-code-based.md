@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 9a1c148c-a6c3-406b-8f2e-1cf8b8239e75
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: deb4ee9bb52ba1fad1f12ecc0905fa2f21028c9c
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 79%
+source-wordcount: '794'
+ht-degree: 87%
 
 ---
 
@@ -113,11 +113,11 @@ Web ページやモバイルアプリのコードベースのエクスペリエ�
 1. プレビューリンクは、選択したテストプロファイルに対して生成され、ジャーニーまたはキャンペーンで[コンテンツ実験](../content-management/content-experiment.md)を使用している場合は、選択した処理に対して生成されます。
 
    <!--
-コンテンツを変更した場合、または別の処理やテストプロファイルを選択した場合は、**[!UICONTROL デバイスでのプレビュー]** ポップアップの一番下までスクロールし、**[!UICONTROL プレビューリンクを更新]**&#x200B;をクリックして現在の状態を反映します。
+   If you have modified the content or selected a different treatment or test profile, scroll down to the bottom of the **[!UICONTROL Preview on device]** pop-up and click **[!UICONTROL Refresh preview link]** to reflect the current state.
 
-![](assets/preview-on-device-refresh.png)
-—>
+   ![](assets/preview-on-device-refresh.png)
+   -->
 
-<!--When creating a content experiment, you need to select a given treatment and click the **[!UICONTROL Simulate content]** button to obtain the link corresponding to that treatment, then select another treatment, click the **[!UICONTROL Simulate content]** button to obtain a new preview link, and so on.-->
+   <!--When creating a content experiment, you need to select a given treatment and click the **[!UICONTROL Simulate content]** button to obtain the link corresponding to that treatment, then select another treatment, click the **[!UICONTROL Simulate content]** button to obtain a new preview link, and so on.-->
 
-     コンテンツを更新するか、別のテストプロファイルまたは処理を選択すると、プレビューリンクが自動的に更新されます。 リンクを様々なブラウザータブにコピーして、エクスペリエンスを比較できます。
+   コンテンツを更新する際や、別のテストプロファイルや処理を選択する際に、プレビューリンクが自動的に更新されます。リンクを様々なブラウザータブにコピーして、エクスペリエンスを比較できます。
