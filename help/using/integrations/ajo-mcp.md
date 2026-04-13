@@ -8,7 +8,7 @@ topic: Content Management, Artificial Intelligence
 badge: label="限定提供" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: 019a4d601ecd5f6d6127ab8616de0b3ee0f77a9c
+source-git-commit: b92ef33b03e0bdcd6e615846cd7654aaab1b4a1a
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 1%
@@ -91,3 +91,4 @@ Step-by-step connection instructions to be added here, including:
 
 プロンプトを送信すると、AI アシスタントは、関連するコンテキスト（MCP サーバーから返された[!DNL Adobe Journey Optimizer] データを含む）をモデルに送信して処理する場合があります。 本番データに接続する前に、AI アシスタントプロバイダーのプライバシーポリシーとデータ処理ポリシーを確認しましょう。
 +++
+
