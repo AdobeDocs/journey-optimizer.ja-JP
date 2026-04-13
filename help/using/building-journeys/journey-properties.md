@@ -309,7 +309,7 @@ ht-degree: 76%
 
 [!DNL Adobe Journey Optimizer]は、ジャーニー全体で使用される結合ポリシーを適用します。 したがって、1 つのジャーニーで複数のオーディエンスが使用されている場合（例：[`inAudience` 関数](functions/functioninaudience.md)内での使用）、これにより、ジャーニーで使用される結合ポリシーとの不一致が生じると、エラーが発生して、公開がブロックされます。ただし、メッセージのパーソナライゼーションで一貫性のないオーディエンスが使用されると、一貫性がないにもかかわらず、アラートは発生しません。このため、このオーディエンスをメッセージのパーソナライゼーションに使用する場合は、オーディエンスに関連付けられた結合ポリシーを確認することを強くお勧めします。
 
-結合ポリシーについて詳しくは、[[!DNL Adobe Experience Platform]  ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/merge-policies/overview){target="_blank"}を参照してください。
+結合ポリシーについて詳しくは、[[!DNL Adobe Experience Platform]  ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/merge-policies/overview){target="_blank"}を参照してください。
 
 >[!NOTE]
 >
@@ -395,7 +395,7 @@ ht-degree: 76%
 
 * [ジャーニーのエントリ条件と終了条件ガイド](entry-exit-criteria-guide.md) - 実際の例とベストプラクティスを含む完全なガイド
 * [プロファイルエントリ管理](entry-management.md) - プロファイルがジャーニーにエントリする方法を設定します
-* [ ジャーニーの終了方法](end-journey.md) - 自然なジャーニーの完了について説明します
+* [&#x200B; ジャーニーの終了方法](end-journey.md) - 自然なジャーニーの完了について説明します
 * [プロファイル属性終了条件を使用したジャーニーの一時停止](journey-pause.md#journey-exit-criteria) - ジャーニーを一時停止する際に終了条件を使用します
 
 ## ジャーニースケジュール {#schedule}
@@ -404,7 +404,7 @@ ht-degree: 76%
 
 >[!TIP]
 >
->ジャーニーのスケジュールを設定する際に、ウェーブ送信を設定して、ジャーニーアクションを時間をかけて一括で配信することもできます。 [ ジャーニーでウェーブを使用して送信する方法を学ぶ](send-using-waves.md)
+>ジャーニーのスケジュールを設定する際に、ウェーブ送信を設定して、ジャーニーアクションを時間をかけて一括で配信することもできます。 [&#x200B; ジャーニーでウェーブを使用して送信する方法を学ぶ](send-using-waves.md)
 
 
 ## 競合管理 {#conflict}
@@ -421,9 +421,9 @@ ht-degree: 76%
 
 ## 関連トピック {#related-topics}
 
-* [ プロファイルのエントリ管理](entry-management.md) - プロファイルがジャーニーを入力および再入力する方法を設定します
+* [&#x200B; プロファイルのエントリ管理](entry-management.md) - プロファイルがジャーニーを入力および再入力する方法を設定します
 * [ジャーニーのエントリ条件と終了条件ガイド](entry-exit-criteria-guide.md) - 実際の例とベストプラクティスを含む完全なガイド
-* [ ジャーニーの終了方法](end-journey.md) – 自然なジャーニーの完了とプロファイルの終了について
-* [ ジャーニーを一時停止](journey-pause.md) - プロファイル属性の終了条件を使用してジャーニーを一時停止および再開する
-* [ タイムゾーン管理](timezone-management.md) - ジャーニーとプロファイルのタイムゾーンを設定します
+* [&#x200B; ジャーニーの終了方法](end-journey.md) – 自然なジャーニーの完了とプロファイルの終了について
+* [&#x200B; ジャーニーを一時停止](journey-pause.md) - プロファイル属性の終了条件を使用してジャーニーを一時停止および再開する
+* [&#x200B; タイムゾーン管理](timezone-management.md) - ジャーニーとプロファイルのタイムゾーンを設定します
 * [競合管理と優先順位付け](../conflict-prioritization/conflicts.md) - ジャーニーとキャンペーン間の競合を特定して解決します
