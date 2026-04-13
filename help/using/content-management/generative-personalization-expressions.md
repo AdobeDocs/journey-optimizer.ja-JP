@@ -8,9 +8,9 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Intermediate
 mini-toc-levels: 1
-source-git-commit: 479282547400d9a54ab4afa71b0e0b468dbe6071
+source-git-commit: 908d418e88813511d25346bae721e93da2cf1336
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '806'
 ht-degree: 5%
 
 ---
@@ -26,19 +26,19 @@ ht-degree: 5%
 
 ## 概要 {#where-available}
 
-[!UICONTROL Personalization Editor]では、[!UICONTROL AI アシスタント &#x200B;]を使用して、平易な言葉から新しいパーソナライゼーションを生成し、既存の式の機能を説明し、選択したコードの問題を修正できます。これにより、構文や手動でのフィールド検索に費やす時間を減らすことができます。 選択範囲を繰り返したり、会話の他の変更を求めたりすることもできます。
+[!UICONTROL Personalization Editor]では、[!UICONTROL AI アシスタント ]を使用して、平易な言葉から新しいパーソナライゼーションを生成し、既存の式の機能を説明し、選択したコードの問題を修正できます。これにより、構文や手動でのフィールド検索に費やす時間を減らすことができます。 選択範囲を繰り返したり、会話の他の変更を求めたりすることもできます。
 
 * より広範なAI アシスタントの設定と言語については、[AI アシスタントの基本を学ぶ](gs-generative.md)を参照してください。
-* [!DNL Journey Optimizer]でのパーソナライゼーションについて詳しくは、[&#x200B; パーソナライゼーションの基本を学ぶ](../personalization/personalize.md)を参照してください。
-* プロンプトのアイデアについては、[AI プロンプトのベストプラクティス &#x200B;](ai-assistant-prompting-guide.md)を参照してください。
+* [!DNL Journey Optimizer]でのパーソナライゼーションについて詳しくは、[ パーソナライゼーションの基本を学ぶ](../personalization/personalize.md)を参照してください。
+* プロンプトのアイデアについては、[AI プロンプトのベストプラクティス ](ai-assistant-prompting-guide.md)を参照してください。
 
-[!UICONTROL Personalization Editor]の任意の場所（件名、本文、その他のフィールドなど）で[!UICONTROL AI Assistant]を使用します。 エディターを開く場所と方法については、[&#x200B; パーソナライゼーションを追加](../personalization/personalization-build-expressions.md#where)を参照してください。
+[!UICONTROL Personalization Editor]の任意の場所（件名、本文、その他のフィールドなど）で[!UICONTROL AI Assistant]を使用します。 エディターを開く場所と方法については、[ パーソナライゼーションを追加](../personalization/personalization-build-expressions.md#where)を参照してください。
 
 キャンペーンまたはジャーニーのコンテキストに応じて、アシスタントはデータを操作し、既に公開されている[!UICONTROL Personalization Editor]を作成できます（プロファイル属性、セグメントメンバーシップ、ヘルパー関数、関連するパーソナライゼーションソースなど）。
 
 >[!NOTE]
 >
->アシスタントは、[!UICONTROL AI アシスタント &#x200B;]がそのエディターセッションで開いている間のみ、プロンプトのコンテキストを保持します。 アシスタントまたは[!UICONTROL Personalization Editor]を閉じると、会話は保存されません。次回アシスタントを開くときに、新しい会話を開始します。
+>アシスタントは、[!UICONTROL AI アシスタント ]がそのエディターセッションで開いている間のみ、プロンプトのコンテキストを保持します。 アシスタントまたは[!UICONTROL Personalization Editor]を閉じると、会話は保存されません。次回アシスタントを開くときに、新しい会話を開始します。
 
 ## パーソナライゼーション式の生成 {#generate}
 
@@ -66,13 +66,17 @@ ht-degree: 5%
 
 1. 式を生成したら、**[!UICONTROL サンプルプロファイルのプレビューを表示]**&#x200B;をクリックして、式がサンプルデータでどのように評価されるかを確認し、関連するペイロードをJSONとして表示します。 このチェックでは、アシスタントが生成する合成サンプルプロファイルのセットは限られており、組織には保存または保存されません。
 
-   さらにサンプルプロファイルが必要な場合は、アシスタントとのディスカッションで&#x200B;**Preview**&#x200B;と入力して、追加のプレビュープロファイルを生成できるようにします。
+   カスタムまたは追加のサンプルプロファイルが必要な場合は、アシスタントとのディスカッションで必要な内容を説明し、プロンプトに「**preview**」というキーワードを含めることで、チェックに適したプレビュープロファイルを生成できます。
 
    ![](assets/ai-perso-preview-button.png)
 
    +++プレビューの例
 
    ![](assets/ai-perso-preview.png)
+
+   >[!NOTE]
+   >
+   >その他のプレビューは、抜き取り用です。 アシスタントは、約1から5つのプロファイルを生成するように調整されており、非常に多くの数を要求すると、リクエストが失敗する可能性があります。
 
    +++
 
@@ -82,7 +86,7 @@ ht-degree: 5%
 
 1. パーソナライゼーション式に出力を実装するには、**[!UICONTROL 適用]**&#x200B;をクリックします。 アシスタント出力は、パーソナライゼーションエディターのカーソル位置に挿入されます。 既にあるコードを置き換えるには、まずエディターでそのコードを選択し、次に&#x200B;**[!UICONTROL AI アシスタントを使用した編集]**&#x200B;を使用します（[既存のコードの編集、修正、説明](#edit-existing)を参照）。
 
-   ![&#x200B; コピーアイコン &#x200B;](../orchestrated/assets/do-not-localize/activity-copy.svg) アイコンを使用して、出力をコピーし、必要な場所に貼り付けることもできます。
+   ![ コピーアイコン ](../orchestrated/assets/do-not-localize/activity-copy.svg) アイコンを使用して、出力をコピーし、必要な場所に貼り付けることもできます。
 
 ## 既存のコードの編集、修正、説明 {#edit-existing}
 
