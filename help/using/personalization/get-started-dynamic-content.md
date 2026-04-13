@@ -9,7 +9,7 @@ role: Developer
 level: Intermediate
 keywords: 式, エディター, 基本を学ぶ, 条件, 開始
 exl-id: be9a3f83-8e22-4efa-9d48-37bf554018fa
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
+source-git-commit: 005fb220c5593f7a6381c3413928d4f7b6a69e7b
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 100%
@@ -36,4 +36,4 @@ ht-degree: 100%
 
 条件ルールビルダーを使用して動的コンテンツを作成する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3413673?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3409815?quality=12)
