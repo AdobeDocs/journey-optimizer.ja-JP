@@ -73,7 +73,7 @@ ht-degree: 75%
    >* **データタイプ**&#x200B;は、**XDM** に設定する必要があります（生データではありません）
    >* **認証**&#x200B;は、**無効**（認証されていない接続）にする必要があります
    >
-   >ストリーミング接続がリストに表示されない場合は、これらの条件が両方とも満たされていることを確認します。<!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
+   >ストリーミング接続がリストに表示されない場合は、これらの条件が両方とも満たされていることを確認します。<!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
 
 1. フォームにリンクする&#x200B;**[!UICONTROL データセット]**&#x200B;を選択します。ここにフォームの応答が保存および反映されます。 特定のデータセットを検索するには、入力するか、リストから選択できます。
 
