@@ -9,7 +9,7 @@ role: Developer
 level: Intermediate
 keywords: 式, エディター, 構文, パーソナライゼーション
 exl-id: 5a562066-ece0-4a78-92a7-52bf3c3b2eea
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: 7296cccb6c65b3db2fc688ee57cb3d3dacaf96cc
 workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 100%

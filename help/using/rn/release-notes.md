@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4bdc4ee38dcc42af2a2a3f0d87e2f4747310b98b
+source-git-commit: f57b1f026543c5d360a0658f2028d1c543e71650
 workflow-type: tm+mt
-source-wordcount: '2210'
-ht-degree: 21%
+source-wordcount: '2305'
+ht-degree: 20%
 
 ---
 
@@ -108,6 +108,25 @@ ht-degree: 21%
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>PERSONALIZATION Expressions用AI アシスタント</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>[!DNL Adobe Journey Optimizer] PersonalizationエディターにAI アシスタントが追加されました。 パーソナライズしたい内容を平易な言葉で説明すると、アシスタントがそのまま使用できるパーソナライゼーション表現を生成したり、短いフォローアップ会話で洗練させたりします。</p>
+<p>既存のパーソナライゼーションコードを選択して、アシスタントに説明を依頼したり、修正したり、改善を提案したりすることもできます。 式を生成した後、<strong> サンプルプロファイルのプレビューを表示</strong>は、限られた合成サンプルプロファイルのセットに対してクイックチェックを実行します。</p>
+<p><img src="assets/do-not-localize/assistant-perso.gif"></p>
+<p>詳しくは、<a href="../content-management/generative-personalization-expressions.md">Personalization エクスプレッション用AI アシスタント </a>を参照してください。</p>
+<p>公開日：2026年4月13日（PT）</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ### 機能強化 {#april-26-improv}
 
 #### ジャーニーパスの最適化
@@ -148,7 +167,7 @@ ht-degree: 21%
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 **リリース日**: 2026年3月24日～25日
@@ -338,7 +357,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p><strong>Adobe Experience Platform Agent Orchestrator</strong>を搭載した<strong>Journey Agent</strong>は、Journey Optimizerで利用でき、自然言語インターフェイスを通じてジャーニーを分析できます。 また、Journey Agentでチャネル固有のコンテンツを直接生成および管理し、電子メールやプッシュ通知などのチャネル用のコンテンツを作成したり、テンプレートを適用およびプレビューしたり、プロンプトを通じてトーンやスタイルを調整したり、コンテキストに沿った編集のために<strong>Content Designer</strong>でコンテンツを開いたりすることもできます。</p>
 <p>この機能は、一連の組織でのみ使用できます（限定提供）。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
-<p>詳しくは、<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=ja" target="_blank">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html" target="_blank">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2026年3月4日（PT）</p>
 </td>
 </tr>

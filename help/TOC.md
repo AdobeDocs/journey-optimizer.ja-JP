@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 6645910a92c963ab99e786040cb4323789a95a68
+source-git-commit: a949dc4332e6f49ed0e68507a55bf27264002a84
 workflow-type: tm+mt
-source-wordcount: '3200'
+source-wordcount: '3205'
 ht-degree: 91%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 91%
 + [Journey Optimizer ドキュメント](ajo-home.md)
 + 新機能 {#whats-new}
    + [リリースサイクル](using/rn/releases.md)
-   + {hide-from-toc}[早期リリースノート &#x200B;](using/rn/e-release-notes.md)
+   + {hide-from-toc}[早期リリースノート ](using/rn/e-release-notes.md)
    + [最新のリリースノート](using/rn/release-notes.md)
    + 以前のリリースノート {#previous-rn-new}
       + {hide-from-toc}[以前のリリースノート](/help/rp_landing_pages/previous-rn-new-landing-page.md)
@@ -29,7 +29,7 @@ ht-degree: 91%
       + {hide-from-toc}[2022](using/rn/release-notes-2022.md)
       + {hide-from-toc}[2021](using/rn/release-notes-2021.md)
    + [ドキュメントの更新](using/rn/documentation-updates.md)
-   + {hide-from-toc}[&#x200B; ジャーニーキャンバスの改善](using/rn/new-canvas.md)
+   + {hide-from-toc}[ ジャーニーキャンバスの改善](using/rn/new-canvas.md)
 + 基本を学ぶ {#get-started}
    + [基本を学ぶ](/help/rp_landing_pages/get-started-landing-page.md)
    + 基本事項 {#essentials}
@@ -48,11 +48,11 @@ ht-degree: 91%
       + [検索、フィルター、整理](using/start/search-filter-categorize.md)
       + [AI とインテリジェント機能](using/start/ai-features.md)
       + [アクセシビリティ](using/start/accessibility.md)
-      + {hide-from-toc}[ジャーニーとキャンペーン &#x200B;](using/start/journeys-vs-campaigns.md)
+      + {hide-from-toc}[ジャーニーとキャンペーン ](using/start/journeys-vs-campaigns.md)
 + ジャーニー {#orchestrate-journeys}
    + [ジャーニーの基本を学ぶ](using/building-journeys/journey.md)
-   + {hide-from-toc}[ジャーニー入門ガイド &#x200B;](using/building-journeys/journey-get-started.md)
-   + {hide-from-toc}[ジャーニーの種類と選択ガイド &#x200B;](using/building-journeys/journey-types-selection.md)
+   + {hide-from-toc}[ジャーニー入門ガイド ](using/building-journeys/journey-get-started.md)
+   + {hide-from-toc}[ジャーニーの種類と選択ガイド ](using/building-journeys/journey-types-selection.md)
    + [Journey Orchestration に関する FAQ](using/building-journeys/journey-faq.md)
    + ジャーニーの作成 {#create-journey}
       + [ジャーニーの作成](/help/rp_landing_pages/create-journey-landing-page.md)
@@ -135,10 +135,10 @@ ht-degree: 91%
       + [外部データソースとカスタムアクションを使用したスループットの制限](using/building-journeys/limit-throughput.md)
       + [カスタムアクションを使用した Experience Platform のジャーニーイベントの書き込み](using/building-journeys/custom-action-aep.md)
 + ロイヤルティの課題 {#loyalty-challenges}
-   + {hide-from-toc}[&#x200B; ロイヤルティに関する課題の基本を学ぶ](using/loyalty-challenges/get-started.md)
+   + {hide-from-toc}[ ロイヤルティに関する課題の基本を学ぶ](using/loyalty-challenges/get-started.md)
    + {hide-from-toc}[課題とタスクへのアクセスと管理](using/loyalty-challenges/access-loyalty-challenges.md)
    + {hide-from-toc}[課題の作成](using/loyalty-challenges/create-challenges.md)
-   + {hide-from-toc}[&#x200B; タスクの作成](using/loyalty-challenges/create-tasks.md)
+   + {hide-from-toc}[ タスクの作成](using/loyalty-challenges/create-tasks.md)
 + キャンペーン {#campaigns}
    + {hide-from-toc}[キャンペーン](/help/rp_landing_pages/campaigns-landing-page.md)
    + [キャンペーンの基本を学ぶ](using/campaigns/get-started-with-campaigns.md)
@@ -239,7 +239,7 @@ ht-degree: 91%
       + [テストプロファイルデータを使用した本配信前確認の送信](using/content-management/proofs.md)
       + [メールのレンダリングのテスト](using/content-management/rendering.md)
       + [コンテンツバリエーションのシミュレート](using/test-approve/simulate-sample-input.md)
-      + {hide-from-toc}[&#x200B; コンテンツのバリエーションの自動生成](using/test-approve/simulate-sample-input-generated.md)
+      + {hide-from-toc}[ コンテンツのバリエーションの自動生成](using/test-approve/simulate-sample-input-generated.md)
       + [メールスパムレポート](using/content-management/spam-report.md)
    + ジャーニーとキャンペーンの承認 {#approve}
       + [ジャーニーとキャンペーンの承認](/help/rp_landing_pages/approve-landing-page.md)
@@ -272,7 +272,7 @@ ht-degree: 91%
       + [メールの作成](using/email/create-email.md)
       + メールコンテンツのデザイン {#design-email}
          + [メールコンテンツのデザイン](/help/rp_landing_pages/design-email-landing-page.md)
-         + {hide-from-toc}[&#x200B; メッセージコンテンツのデザイン &#x200B;](using/start/message-content-design.md)
+         + {hide-from-toc}[ メッセージコンテンツのデザイン ](using/start/message-content-design.md)
          + [メールデザインの基本を学ぶ](using/email/get-started-email-design.md)
          + コンテンツ作成を開始する {#start-creating-content}
             + [コンテンツ作成を開始する](/help/rp_landing_pages/start-creating-content-landing-page.md)
@@ -501,10 +501,10 @@ ht-degree: 91%
          + [Experience Manager コンテンツフラグメントの操作](using/integrations/aem-fragments.md)
          + [考慮事項とトラブルシューティング](using/integrations/aem-fragments-limitations.md)
       + {hide-from-toc}[Experience Manager Content Advisorの操作](using/content-management/aem-content-advisor.md)
-      + {hide-from-toc}[&#x200B; カウントダウンタイマーを挿入](using/integrations/countdown.md)
+      + {hide-from-toc}[ カウントダウンタイマーを挿入](using/integrations/countdown.md)
       + [Dynamic Media の操作](using/integrations/aem-dynamic.md)
       + [GenStudio for Performance Marketing の操作](using/integrations/genstudio.md)
-      + {hide-from-toc}[MCPを介したAI アシスタントの操作](using/integrations/ajo-mcp.md)
+      + {hide-from-toc}[MCP](using/integrations/ajo-mcp.md)を介したAI アシスタントの操作
       + {hide-from-toc}[統合の操作](using/integrations/external-sources.md)
    + コンテンツ生成用 AI アシスタント {#ai-assistant}
       + [コンテンツ生成用 AI アシスタント](/help/rp_landing_pages/ai-assistant-landing-page.md)
@@ -514,6 +514,7 @@ ht-degree: 91%
       + [AI を使用したテキストの生成](using/content-management/generative-text.md)
       + [AI を使用した画像の生成](using/content-management/generative-image.md)
       + [AI によるコンテンツ実験](using/content-management/generative-experimentation.md)
+      + [PERSONALIZATION Expressions用AI アシスタント](using/content-management/generative-personalization-expressions.md)
       + [AI アシスタントのユースケース](using/content-management/generative-uc.md)
       + ブランド {#brands}
          + [ブランド](/help/rp_landing_pages/brands-landing-page.md)
@@ -590,7 +591,7 @@ ht-degree: 91%
          + [メールキャンペーンレポート](using/reports/campaign-global-report-cja-email.md)
          + [実験キャンペーンレポート](using/reports/campaign-global-report-cja-experimentation.md)
          + [アプリ内キャンペーンレポート](using/reports/campaign-global-report-cja-inapp.md)
-         + {hide-from-toc}[&#x200B; ライブアクティビティキャンペーンレポート &#x200B;](using/reports/campaign-global-report-cja-activity.md)
+         + {hide-from-toc}[ ライブアクティビティキャンペーンレポート ](using/reports/campaign-global-report-cja-activity.md)
          + [プッシュ通知キャンペーンレポート](using/reports/campaign-global-report-cja-push.md)
          + [SMS キャンペーンレポート](using/reports/campaign-global-report-cja-sms.md)
          + [Web キャンペーンレポート](using/reports/campaign-global-report-cja-web.md)
@@ -702,8 +703,8 @@ ht-degree: 91%
       + [決定に関するレポート](using/experience-decisioning/cja-reporting.md)
       + [決定のユースケース](using/experience-decisioning/experience-decisioning-uc.md)
       + イベントデータの収集 {#experience-decisioning-collect-event-data}
-         + {hide-from-toc}[&#x200B; データ収集を開始する](using/experience-decisioning/data-collection/data-collection.md)
-         + {hide-from-toc}[&#x200B; イベントを収集するデータセットを作成](using/experience-decisioning/data-collection/create-dataset.md)
+         + {hide-from-toc}[ データ収集を開始する](using/experience-decisioning/data-collection/data-collection.md)
+         + {hide-from-toc}[ イベントを収集するデータセットを作成](using/experience-decisioning/data-collection/create-dataset.md)
          + [イベントキャプチャの設定](using/experience-decisioning/data-collection/schema-requirement.md)
    + 意思決定管理 {#offer-decisioning}
       + [意思決定管理](/help/rp_landing_pages/offer-decisioning-landing-page.md)
@@ -901,10 +902,10 @@ ht-degree: 91%
       + [IP ウォームアップキャンペーンを作成](using/configuration/ip-warmup-campaign.md)
       + [IP ウォームアッププランの作成](using/configuration/ip-warmup-plan.md)
       + [IP ウォームアッププランの実行](using/configuration/ip-warmup-execution.md)
-      + {hide-from-toc}[IP ウォームアッププランファイル &#x200B;](using/configuration/ip-warmup-plan-files.md)
+      + {hide-from-toc}[IP ウォームアッププランファイル ](using/configuration/ip-warmup-plan-files.md)
    + メールアドレスの監視 {#monitor-reputation}
       + [メールアドレスの監視](/help/rp_landing_pages/monitor-reputation-landing-page.md)
-      + {hide-from-toc}[&#x200B; メールエラータイプ &#x200B;](using/configuration/email-error-types.md)
+      + {hide-from-toc}[ メールエラータイプ ](using/configuration/email-error-types.md)
       + [抑制リスト](using/configuration/manage-suppression-list.md)
       + [再試行](using/configuration/retries.md)
       + [許可リスト](using/configuration/allow-list.md)
@@ -967,7 +968,7 @@ ht-degree: 91%
    + [プライバシー](/help/rp_landing_pages/privacy-landing-page.md)
    + [プライバシーの基本を学ぶ](using/privacy/get-started-privacy.md)
    + [プライバシーリクエスト](using/privacy/requests.md)
-   + [&#x200B; リソースに対する監査アクション](using/privacy/audit-logs.md)
+   + [ リソースに対する監査アクション](using/privacy/audit-logs.md)
    + [データライフサイクル操作の実行](using/privacy/data-hygiene.md)
    + 同意を管理 {#consent}
       + [同意を管理](/help/rp_landing_pages/consent-landing-page.md)
