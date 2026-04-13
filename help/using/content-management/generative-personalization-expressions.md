@@ -8,9 +8,9 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Intermediate
 mini-toc-levels: 1
-source-git-commit: 479282547400d9a54ab4afa71b0e0b468dbe6071
+source-git-commit: 908d418e88813511d25346bae721e93da2cf1336
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '806'
 ht-degree: 5%
 
 ---
@@ -66,13 +66,17 @@ ht-degree: 5%
 
 1. 式を生成したら、**[!UICONTROL サンプルプロファイルのプレビューを表示]**&#x200B;をクリックして、式がサンプルデータでどのように評価されるかを確認し、関連するペイロードをJSONとして表示します。 このチェックでは、アシスタントが生成する合成サンプルプロファイルのセットは限られており、組織には保存または保存されません。
 
-   さらにサンプルプロファイルが必要な場合は、アシスタントとのディスカッションで&#x200B;**Preview**&#x200B;と入力して、追加のプレビュープロファイルを生成できるようにします。
+   カスタムまたは追加のサンプルプロファイルが必要な場合は、アシスタントとのディスカッションで必要な内容を説明し、プロンプトに「**preview**」というキーワードを含めることで、チェックに適したプレビュープロファイルを生成できます。
 
    ![](assets/ai-perso-preview-button.png)
 
    +++プレビューの例
 
    ![](assets/ai-perso-preview.png)
+
+   >[!NOTE]
+   >
+   >その他のプレビューは、抜き取り用です。 アシスタントは、約1から5つのプロファイルを生成するように調整されており、非常に多くの数を要求すると、リクエストが失敗する可能性があります。
 
    +++
 
