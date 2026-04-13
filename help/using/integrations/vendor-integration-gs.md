@@ -53,7 +53,7 @@ Adobe Journey Optimizerで&#x200B;**Integrations**&#x200B;を使用して、各�
 以下のグループ化されたリンクを使用して、関連するベンダーパターンにすばやく移動できます。
 
 * **コンテンツとCMS:** [Contentful](#contentful)、[Sitecore](#sitecore)、[Salsify](#salsify)、[Contentstack](#contentstack)、[Akeneo](#akeneo)、[Magnolia](#magnolia)
-* **ロイヤルティと報酬：** [Voucherify](#voucherify)、[Talon.One](#talon-one)、[Antavo](#antavo)、[Salesforce ロイヤルティ ](#salesforce-loyalty)、[ キャピラリー](#capillary)
+* **ロイヤルティと報酬：** [Voucherify](#voucherify)、[Talon.One](#talon-one)、[Antavo](#antavo)、[Salesforce ロイヤルティ &#x200B;](#salesforce-loyalty)、[&#x200B; キャピラリー](#capillary)
 * **テンプレートとメッセージ：** [Stensul](#stensul)、[Marigold](#marigold)、[Adobe Target Recommendations](#adobe-target-recommendations)
 * **データ、天気、および操作：** [AccuWeather](#accuweather)、[ShipStation](#shipstation)、[RevenueCat](#revenuecat)、[Databricks](#databricks)
-* **レビュー、同意、およびソーシャル：** [Bynder](#bynder)、[Trustpilot](#trustpilot)、[Bazaarvoice](#bazaarvoice)、[OneTrust](#onetrust)、[Meta](#meta)、[Aprimo](#aprimo)、[Epsilon （Epsilon3） ](#epsilon)
+* **レビュー、同意、およびソーシャル：** [Bynder](#bynder)、[Trustpilot](#trustpilot)、[Bazaarvoice](#bazaarvoice)、[OneTrust](#onetrust)、[Meta](#meta)、[Aprimo](#aprimo)、[Epsilon （Epsilon3） &#x200B;](#epsilon)
