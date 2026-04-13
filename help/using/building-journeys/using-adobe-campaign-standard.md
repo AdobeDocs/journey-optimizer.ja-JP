@@ -55,7 +55,7 @@ ht-degree: 77%
 >[!NOTE]
 >
 >メールにプロファイルのトランザクションテンプレートを使用する場合、購読解除メカニズムは[!DNL Adobe Campaign] Standardによって自動的に処理されます。
->**[!UICONTROL トランザクションメールテンプレート]**&#x200B;内に[購読解除リンク ](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=ja) コンテンツブロックを含めます。
+>**[!UICONTROL トランザクションメールテンプレート]**&#x200B;内に[購読解除リンク &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=ja) コンテンツブロックを含めます。
 >イベントベースのテンプレート（rtEvent）を使用している場合は、受信者の電子メールをURL パラメーターとして渡し、購読解除ランディングページに誘導するリンクをメッセージに組み込みます。
 >ランディングページを作成し、受信者の配信停止の決定がAdobeに送信されるようにします。
 

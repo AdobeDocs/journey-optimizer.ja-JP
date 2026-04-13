@@ -41,7 +41,7 @@ HIPAA などの規制では、[!DNL Journey Optimizer] が個人に送信され�
 
 ### BCC メールの有効化 {#enable-bcc}
 
-**[!UICONTROL BCC メール]** オプションを有効にするには、[ チャネル設定](channel-surfaces.md)の専用フィールドに任意のメールアドレスを入力します。 アドビにデリゲートしたサブドメインで定義されたメールアドレスを除き、正しい形式で任意の外部アドレスを指定できます。例えば、*marketing.luma.com* サブドメインをアドビにデリゲートした場合、*abc@marketing.luma.com* のようなアドレスは禁止されます。
+**[!UICONTROL BCC メール]** オプションを有効にするには、[&#x200B; チャネル設定](channel-surfaces.md)の専用フィールドに任意のメールアドレスを入力します。 アドビにデリゲートしたサブドメインで定義されたメールアドレスを除き、正しい形式で任意の外部アドレスを指定できます。例えば、*marketing.luma.com* サブドメインをアドビにデリゲートした場合、*abc@marketing.luma.com* のようなアドレスは禁止されます。
 
 >[!CAUTION]
 >

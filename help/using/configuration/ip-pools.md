@@ -95,7 +95,7 @@ IP プールを編集するには、次の手順に従います。
 
 >[!NOTE]
 >
->* [ チャネル設定を作成する場合](channel-surfaces.md#create-channel-surface)、選択したサブドメインに関連付けられていない&#x200B;**[!UICONTROL 処理]**&#x200B;状態のIP プールを選択すると、設定の作成を続行できません。 [詳細情報](channel-surfaces.md#create-channel-surface)
+>* [&#x200B; チャネル設定を作成する場合](channel-surfaces.md#create-channel-surface)、選択したサブドメインに関連付けられていない&#x200B;**[!UICONTROL 処理]**&#x200B;状態のIP プールを選択すると、設定の作成を続行できません。 [詳細情報](channel-surfaces.md#create-channel-surface)
 >* IP プールが正常に更新されたら、リアルタイムメッセージに反映されるまでに数分かかるか、バッチメッセージに対して次のバッチジョブが実行されるまで待ちます。
 
 IP プールの更新ステータスを確認するには、「**[!UICONTROL その他のアクション]**」ボタンをクリックし、「**[!UICONTROL 最近の更新]**」を選択します。

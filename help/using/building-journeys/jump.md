@@ -94,7 +94,7 @@ Journey Optimizerで各フェーズを個別のジャーニーとして構築し
 
 >[!TIP]
 >
->このアプローチの詳細なチュートリアルについては、[Journey Optimizerの高度なジャーニーのベストプラクティス ](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}を参照してください。
+>このアプローチの詳細なチュートリアルについては、[Journey Optimizerの高度なジャーニーのベストプラクティス &#x200B;](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}を参照してください。
 
 ## ジャンプアクティビティの設定 {#jump-configure}
 

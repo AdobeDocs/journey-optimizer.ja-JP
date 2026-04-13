@@ -52,7 +52,7 @@ ht-degree: 87%
     <div align="center"><a href="../content-card/content-card-configuration-prereq.md"><strong>コンテンツカード</strong></a></div></td>
     </tr></table>
 
-   その他のチャネルについては、[iOS ライブ アクティビティ ](../mobile-live/mobile-live-configuration.md)、[WhatsApp](../whatsapp/whatsapp-configuration.md)、[LINE](../line/line-configuration.md)を参照してください。
+   その他のチャネルについては、[iOS ライブ アクティビティ &#x200B;](../mobile-live/mobile-live-configuration.md)、[WhatsApp](../whatsapp/whatsapp-configuration.md)、[LINE](../line/line-configuration.md)を参照してください。
 
    >[!NOTE]
    >
