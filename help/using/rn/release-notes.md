@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: f57b1f026543c5d360a0658f2028d1c543e71650
+source-git-commit: 42bd2e0e3f203784d831582416a8e92083388450
 workflow-type: tm+mt
-source-wordcount: '2305'
-ht-degree: 20%
+source-wordcount: '2386'
+ht-degree: 21%
 
 ---
 
@@ -147,15 +147,17 @@ ht-degree: 20%
 
   公開日：2026年4月7日（PT）
 
-<!--
-* **Adobe Experience Manager Content Fragment context while authoring** - Your Content Fragment selection stays active as you move between text fields and content blocks, so you can add more fragment fields without reopening **Open AEM Content advisor** each time. [Read more](../integrations/aem-fragments.md)
+* **オーサリング中のAdobe Experience Manager コンテンツフラグメントのコンテキスト** - テキストフィールドとコンテンツブロック間を移動しても、コンテンツフラグメントの選択範囲はアクティブなままなので、**AEM コンテンツアドバイザー**&#x200B;を毎回開き直さずに、さらにフラグメントフィールドを追加できます。 [詳細情報](../integrations/aem-fragments.md)
 
-  Availability date: April 1, 2026
--->
+  この機能は、一連の組織でのみ使用できます（限定提供）。アクセス権を取得するには、アドビ担当者にお問い合わせください。
+
+  公開日：2026年4月1日（PT）
 
 #### Adobe Experience Managerとの連携
 
 * **Adobe Experience Manager コンテンツフラグメントのバリエーションのサポート** - Adobe Experience Manager コンテンツフラグメントを挿入する際に、**コンテンツフラグメントのバリエーション** （言語やチャネルのバリエーションなど）を選択でき、ロケールや多言語シナリオの処理が改善されました。 [詳細情報](../integrations/aem-fragments.md#aem-variations)
+
+  この機能は、一連の組織でのみ使用できます（限定提供）。アクセス権を取得するには、アドビ担当者にお問い合わせください。
 
   公開日：2026年4月3日（PT）
 
@@ -167,7 +169,7 @@ ht-degree: 20%
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 **リリース日**: 2026年3月24日～25日
@@ -357,7 +359,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p><strong>Adobe Experience Platform Agent Orchestrator</strong>を搭載した<strong>Journey Agent</strong>は、Journey Optimizerで利用でき、自然言語インターフェイスを通じてジャーニーを分析できます。 また、Journey Agentでチャネル固有のコンテンツを直接生成および管理し、電子メールやプッシュ通知などのチャネル用のコンテンツを作成したり、テンプレートを適用およびプレビューしたり、プロンプトを通じてトーンやスタイルを調整したり、コンテキストに沿った編集のために<strong>Content Designer</strong>でコンテンツを開いたりすることもできます。</p>
 <p>この機能は、一連の組織でのみ使用できます（限定提供）。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
-<p>詳しくは、<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=ja" target="_blank">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html" target="_blank">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2026年3月4日（PT）</p>
 </td>
 </tr>
