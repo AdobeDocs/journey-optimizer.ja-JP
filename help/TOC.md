@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9c337313943b878252db0429aac61443ed1349ea
+source-git-commit: 5c2c3ae045b37c734c9cf18ad60bd92d6a98c67f
 workflow-type: tm+mt
 source-wordcount: '3213'
 ht-degree: 91%
@@ -508,7 +508,7 @@ ht-degree: 91%
       + {hide-from-toc}[&#x200B; ベンダー統合の基本を学ぶ](using/integrations/vendor-integration-gs.md)
       + {hide-from-toc}[使用可能なベンダー](using/integrations/vendor-integration.md)
       + {hide-from-toc}[FAQ](using/integrations/vendor-integration-faq.md)
-      + {hide-from-toc}[MCPを介したAI アシスタントの操作](using/integrations/ajo-mcp.md)
+      + {hide-from-toc}[MCPを介したAI アシスタントの操作](/help/using/integrations/ajo-mcp.md)
    + コンテンツ生成用 AI アシスタント {#ai-assistant}
       + [コンテンツ生成用 AI アシスタント](/help/rp_landing_pages/ai-assistant-landing-page.md)
       + [AI アシスタントの基本を学ぶ](using/content-management/gs-generative.md)
