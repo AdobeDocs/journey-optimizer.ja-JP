@@ -32,7 +32,7 @@ HTMLのスキルが必要です。このモードを選択すると、コード�
 
 コードエディターを使用してメールコンテンツを作成または編集するには、次の手順に従います。
 
-1. [ メール Designer](get-started-email-design.md)のホームページから、**[!UICONTROL 自分のコード]**&#x200B;を選択します。
+1. [&#x200B; メール Designer](get-started-email-design.md)のホームページから、**[!UICONTROL 自分のコード]**&#x200B;を選択します。
 
    ![](assets/code-your-own.png)
 
