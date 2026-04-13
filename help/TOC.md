@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 9903089f4a97ee9e427873e95fd1f0bac73b3542
+source-git-commit: 9c337313943b878252db0429aac61443ed1349ea
 workflow-type: tm+mt
-source-wordcount: '3205'
+source-wordcount: '3213'
 ht-degree: 91%
 
 ---
@@ -279,7 +279,6 @@ ht-degree: 91%
             + [コンテンツのゼロからのデザイン](using/email/content-from-scratch.md)
             + [コンテンツの読み込み](using/email/existing-content.md)
             + [コンテンツを独自にコーディング](using/email/code-content.md)
-            + [高度なHTMLエディターによる編集](using/email/email-expert-mode.md)
             + [メールテンプレートを使用](using/email/use-email-templates.md)
             + [メールテーマの活用](using/email/apply-email-themes.md)
             + [メールへの PDF ファイルの添付](using/email/pdf-attachments.md)
@@ -292,6 +291,7 @@ ht-degree: 91%
             + [テキストバージョンの管理](using/email/text-version-email.md)
             + [AIを活用した受信トレイ用にメールテキストを最適化する](using/email/llm-email-optimizer.md)
             + [メタデータを追加](using/email/email-metadata.md)
+            + [高度なHTMLエディターによる編集](using/email/email-expert-mode.md)
          + スタイルの編集 {#edit-style}
             + [スタイルの編集](/help/rp_landing_pages/edit-style-landing-page.md)
             + [メールスタイルの基本を学ぶ](using/email/get-started-email-style.md)
@@ -505,6 +505,9 @@ ht-degree: 91%
       + [Dynamic Media の操作](using/integrations/aem-dynamic.md)
       + [GenStudio for Performance Marketing の操作](using/integrations/genstudio.md)
       + {hide-from-toc}[統合の操作](using/integrations/external-sources.md)
+      + {hide-from-toc}[&#x200B; ベンダー統合の基本を学ぶ](using/integrations/vendor-integration-gs.md)
+      + {hide-from-toc}[使用可能なベンダー](using/integrations/vendor-integration.md)
+      + {hide-from-toc}[FAQ](using/integrations/vendor-integration-faq.md)
       + {hide-from-toc}[MCPを介したAI アシスタントの操作](using/integrations/ajo-mcp.md)
    + コンテンツ生成用 AI アシスタント {#ai-assistant}
       + [コンテンツ生成用 AI アシスタント](/help/rp_landing_pages/ai-assistant-landing-page.md)
