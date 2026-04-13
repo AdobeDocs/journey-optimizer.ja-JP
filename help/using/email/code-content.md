@@ -9,30 +9,30 @@ role: User
 level: Intermediate, Experienced
 keywords: コード, HTML, エディター
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
-source-git-commit: 2240a4bf85d3f5f41a12d128afdc15431dbab75b
+source-git-commit: c0dcd7f206f76d133ed2e77ef692f0ae0054a6b5
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 67%
+source-wordcount: '492'
+ht-degree: 66%
 
 ---
 
 # コンテンツを独自にコーディング {#code-content}
 
-**[!UICONTROL 独自のコードを作成]** Raw HTMLを書き込みまたは貼り付けて、[!DNL Journey Optimizer] Email Designerで直接メールコンテンツを作成できます。 このモードは、マークアップを完全に制御する必要がある場合や、既存のHTMLを読み込む場合に使用します。
+**[!UICONTROL 独自のコードを作成]**&#x200B;すると、生のHTMLを書き込んだり貼り付けたりして、[!DNL Journey Optimizer] メール Designerで直接メールコンテンツを作成できます。 このモードは、マークアップを完全に制御する必要がある場合や、既存のHTMLを読み込む場合に使用します。
 
-HTMLのスキルが必要です。このモードを選択すると、コードエディターが表示されるので、ビジュアルエディターに切り替えることはできません。
+HTMLのスキルが必要です。このモードを選択すると、コードエディターに留まり、ビジュアルエディターに切り替えることはできません。
 
 ➡️ [この機能をビデオで確認](#video)
 
 >[!NOTE]
 >
->**[!UICONTROL 独自にコーディング]** は、コンテンツテンプレートの高度なHTML エディターとは異なります。 高度なHTMLエディターを使用すると、コードエディターではなく、HTML ビューとビジュアル（デスクトップ）ビューをいつでも切り替えることができます。 [&#x200B; 高度なHTML エディターの詳細情報 &#x200B;](../content-management/email-template-expert-mode.md)。
+>**[!UICONTROL 独自の]**&#x200B;のコードは、電子メール Designerの高度なHTML エディターと同じではありません。 高度なHTML エディターを使用すると、コードエディターではなく、いつでもHTML ビューとビジュアル（デスクトップ）ビューを切り替えることができます。 [高度なHTML エディターの詳細](email-expert-mode.md)。
 
 ## コードエディターの使用 {#use-code-editor}
 
 コードエディターを使用してメールコンテンツを作成または編集するには、次の手順に従います。
 
-1. [&#x200B; メールDesigner](get-started-email-design.md) ホームページで、「**[!UICONTROL 独自のコーディング]**」を選択します。
+1. [&#x200B; メール Designer](get-started-email-design.md)のホームページから、**[!UICONTROL 自分のコード]**&#x200B;を選択します。
 
    ![](assets/code-your-own.png)
 
@@ -65,7 +65,7 @@ HTMLのスキルが必要です。このモードを選択すると、コード�
 
 >[!CAUTION]
 >
->[Adobe Experience Manager Assets](../integrations/assets.md) の画像は、独自のコードを作成するメソッドを使用している場合は参照できません。 HTML コードで参照されている画像を公開場所に保存します。
+>独自のメソッドをコードで使用する場合、[Adobe Experience Manager Assets](../integrations/assets.md)の画像を参照できません。 HTML コードで参照されている画像を公開場所に保存します。
 
 ## 日時関数の制限 {#date-time-limitations}
 
@@ -101,4 +101,4 @@ E メールデザイナーのコードエディターでパーソナライゼー
 
 * **計算属性を使用** - 複雑な日付計算を実行する[計算属性](../audience/computed-attributes.md)を作成し、その結果をプロファイル属性として使用できるようにします。
 
-サポートされる関数の完全なリストについては、[&#x200B; 日付および時刻関数 &#x200B;](../personalization/functions/dates.md) を参照してください。
+サポートされている関数の完全なリストについては、[日付と時刻の関数](../personalization/functions/dates.md)を参照してください。

@@ -5,10 +5,10 @@ title: Adobe Journey Optimizer ドキュメント
 description: Adobe Journey Optimizer ドキュメント
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: 84a44eac9171c45098b8ad40d62bcae68a610f84
+source-git-commit: e4b8ba5941c276b74608a5510d97b33786b2507c
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 100%
+source-wordcount: '537'
+ht-degree: 98%
 
 ---
 
@@ -54,9 +54,9 @@ Journey Optimizer に、ブランド主導のバッチキャンペーン専用�
 
 ## 探索を開始 {#section-explore}
 
-:::: landing-cards-container
+::::landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 最新のリリースノート
 
@@ -66,7 +66,7 @@ Adobe Journey Optimizer の最新リリースノート、新機能および機�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 基本を学ぶ
 
@@ -76,7 +76,7 @@ Adobe Journey Optimizer の最新リリースノート、新機能および機�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 包括的なジャーニーガイド
 
@@ -86,7 +86,7 @@ Adobe Journey Optimizer の最新リリースノート、新機能および機�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=ja)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=ja)
 
 キャンペーンの理解と管理
 
@@ -96,7 +96,7 @@ Adobe Journey Optimizer の最新リリースノート、新機能および機�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ja)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ja)
 
 通信チャネル
 
@@ -106,7 +106,7 @@ Adobe Journey Optimizer の最新リリースノート、新機能および機�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=ja)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=ja)
 
 競合管理と優先順位付け
 

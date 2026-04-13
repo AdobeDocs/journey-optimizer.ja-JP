@@ -10,9 +10,8 @@ level: Intermediate
 keywords: アクティビティ, 条件, キャンバス, ジャーニー
 exl-id: 02de069c-3009-4105-aa98-c49959d3efda
 version: Journey Orchestration
-hidefromtoc: true
 hide: true
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '1818'
 ht-degree: 92%

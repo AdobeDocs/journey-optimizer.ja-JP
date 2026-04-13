@@ -6,9 +6,8 @@ feature: Release Notes
 topic: Content Management
 description: 新しいジャーニーのインターフェイス
 hide: true
-hidefromtoc: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 2%

@@ -6,7 +6,8 @@ description: CO-STAR フレームワークを使用して AI を活用したコ�
 topic: Artificial Intelligence
 role: User
 level: Intermediate
-source-git-commit: 619db0a371b96fbe9480300a874839b7b919268d
+exl-id: f931372e-6cf2-4f27-b12a-ed5ca0c1b87b
+source-git-commit: df7591e337ad11cd51ec1a1c06312823a27561a2
 workflow-type: tm+mt
 source-wordcount: '2107'
 ht-degree: 100%
@@ -250,7 +251,7 @@ AI が関連性の高いコンテンツを生成できるように、常にコ�
 
 次の表を使用して、各トーンの詳細を確認します。最適なタイミングや、各スタイルに適したコンテンツの例も掲載しています。
 
-| トーン性 | 最適な対象 | コンテンツの例 |
+| トーン性 | 最適な用途 | コンテンツの例 |
 |-|-|-|
 | プロフェッショナル | B2B コミュニケーション、正式発表 | 「戦略的パートナーシップを発表できることを嬉しく思います…」 |
 | 共感的 | カスタマーサポート、機密性のあるトピック | 「これがどれほどイライラすることかを理解しています…」 |

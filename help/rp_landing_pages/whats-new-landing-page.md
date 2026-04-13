@@ -5,12 +5,11 @@ title: 新機能
 description: 新機能
 redpen-status: CREATED_||_2025-08-11_20-03-09
 hide: true
-hidefromtoc: true
 exl-id: 24460cae-3944-4ac4-9076-aca521cfddbd
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

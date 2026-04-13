@@ -8,11 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 hide: true
-hidefromtoc: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: 8907c18e-4623-4743-a76b-333f34e13baf
-source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 3%

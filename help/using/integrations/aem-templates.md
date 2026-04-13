@@ -4,17 +4,16 @@ product: journey optimizer
 title: AEM テンプレートの操作
 description: AEM でテンプレートを作成し、Journey Optimizer にエクスポートする方法を説明します。
 hide: true
-hidefromtoc: true
 feature: Overview
 topic: Content Management
 role: User
 level: Beginner
 badge: label="ベータ版" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '741'
-ht-degree: 100%
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

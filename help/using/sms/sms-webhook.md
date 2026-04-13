@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: 46c7e9bbcd26a055bf85446605b00b5536b7543b
 workflow-type: tm+mt
-source-wordcount: '2742'
+source-wordcount: '2721'
 ht-degree: 9%
 
 ---
@@ -377,15 +377,16 @@ Webhookが既存のチャネル設定に添付されたAPI資格情報を使用�
 
    +++ペイロードの例
 
-       &quot;&#39;json
-       &lbrace;
-       &quot;inboundMessage&quot;: &quot;{{inboundMessage}}&quot;,
-       &quot;profileNumber&quot;: &quot;{{profileNumber}}&quot;,
-       &quot;requestId&quot;: &quot;{{requestId}}&quot;,
-       &quot;originTimestamp&quot;: &quot;{{originTimestamp}}&quot;,
-       &quot;inboundNumber&quot;: &quot;{{inboundNumber}}&quot;
-       &rbrace;
-       &quot;&#39;
+   ```json
+   {
+   "inboundMessage": "{{inboundMessage}}",
+   "profileNumber": "{{profileNumber}}",
+   "requestId": "{{requestId}}",
+   "originTimestamp": "{{originTimestamp}}",
+   "inboundNumber": "{{inboundNumber}}"
+   }
+   ```
+
    +++
 
 1. JSON ファイルを作成したら、**[!UICONTROL ペイロードエディターの表示]**&#x200B;をクリックし、JSON ペイロードをエディターにコピー&amp;ペーストして保存します。
@@ -416,18 +417,18 @@ Webhookが既存のチャネル設定に添付されたAPI資格情報を使用�
 
    +++ペイロードの例
 
-       &quot;&#39;json
-       &lbrace;
-       &quot;clientReference&quot;: &quot;{{client_reference}}&quot;,
-       &quot;ステータス&quot;: &lbrack;
-       &lbrace;
-       &quot;code&quot;: &quot;{{failureCode}}&quot;,
-       &quot;status&quot;: &quot;{{feedbackStatus}}&quot;
-       &rbrace;
-       &rbrack;
-       &rbrace;
-       &quot;&#39;
-   
+   ```json
+   {
+   "clientReference": "{{client_reference}}",
+   "statuses": [
+       {
+           "code": "{{failureCode}}",
+           "status": "{{feedbackStatus}}"
+       }
+   ]
+   }
+   ```
+
    +++
 
 1. 「**[!UICONTROL ペイロードエディターを表示]**」をクリックし、JSON ペイロードをエディターにコピー&amp;ペーストして保存します。

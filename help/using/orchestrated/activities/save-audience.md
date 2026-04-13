@@ -5,15 +5,15 @@ title: オーディエンスを保存アクティビティの使用
 description: 調整されたキャンペーンでのオーディエンスを保存アクティビティの使用方法について説明します。
 exl-id: 7b5b03ba-fbb1-4916-8c72-10778752d8e4
 version: Campaign Orchestration
-source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+source-git-commit: 5b60213ecba97e9539ea817ab00ee1c3c8dace50
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 93%
+source-wordcount: '596'
+ht-degree: 87%
 
 ---
 
 
-# オーディエンスの保存 {#save-audience}
+# オーディエンスを保存 {#save-audience}
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_save_audience"
@@ -55,13 +55,17 @@ ht-degree: 93%
 
 1. キャンペーンが&#x200B;**[!UICONTROL ドラフトモード]**&#x200B;の間は&#x200B;**[!UICONTROL オーディエンスを保存]**&#x200B;アクティビティは実行されないので、作成または置換するオーディエンスのキャンペーンを公開します。
 
+>[!NOTE]
+>
+>公開時に、**[!UICONTROL オーディエンスを保存]** アクティビティは、常にワークフロー内のメッセージアクティビティの前に実行されます。 オーディエンスシェルが作成され、プロファイルは、チャネルアクティビティが処理を開始する前に、オーディエンスポータルへの取り込みを開始します。 [&#x200B; パブリケーション時間の実行シーケンスの詳細](../start-monitor-campaigns.md#publication-sequence)
+
 保存したオーディエンスの内容は、そのオーディエンスの詳細表示で利用できます。詳細表示には、**[!UICONTROL オーディエンス]**&#x200B;メニューからアクセスできます。また、**[!UICONTROL オーディエンスの読み取り]**&#x200B;アクティビティなどでオーディエンスをターゲットにする際に選択することもできます。
 
 ![](../assets/save-audience-4.png)
 
 >[!NOTE]
 >
->オーディエンス定義で、データ使用（DULE）でラベル付けされたExperience Platform スキーマ属性を使用する場合、これらのラベルは、保存されたオーディエンスに自動的に継承されます。 再適用する必要はありません。 [&#x200B; 詳しくは、データガバナンスを参照してください &#x200B;](../../action/action-privacy.md)
+>オーディエンス定義でデータ使用（DULE）でラベル付けされたExperience Platform スキーマ属性を使用する場合、それらのラベルは保存されたオーディエンスによって自動的に継承されます。 それらを再適用する必要はありません。 [&#x200B; データガバナンスの詳細](../../action/action-privacy.md)
 
 ## 例 {#save-audience-example}
 

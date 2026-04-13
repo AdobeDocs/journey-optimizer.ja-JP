@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: IP ウォームアップキャンペーンを作成
+title: IP ウォームアップキャンペーンの作成
 description: IP ウォームアップキャンペーンの作成方法を学ぶ
 feature: Campaigns, IP Warmup Plans
 topic: Administration
@@ -12,11 +12,11 @@ exl-id: a9995ca1-d7eb-4f8d-a9d9-fe56198ac325
 source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
 workflow-type: tm+mt
 source-wordcount: '446'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
-# IP ウォームアップキャンペーンを作成 {#create-ip-warmup-campaign}
+# IP ウォームアップキャンペーンの作成 {#create-ip-warmup-campaign}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_ip_warmup"
@@ -59,7 +59,7 @@ IP ウォームアップキャンペーンを作成するには、次の手順�
    >
    >IP ウォームアップキャンペーンで許可されるオーディエンスは、[セグメントベース](../audience/creating-a-segment-definition.md)であり、[デフォルトの結合ポリシー](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/merge-policies/overview#default-merge-policy){target="_blank"}を使用して作成する必要があります。
    >
-   >CSV アップロードオーディエンスは IP ウォームアップキャンペーンではサポートされていないので、キャンペーンのアクティベーション時にエラーが発生します。
+   >CSV アップロードオーディエンスは IP ウォームアップキャンペーンではサポートされていないので、キャンペーンのアクティブ化時にエラーが発生します。
 
    キャンペーンの設定方法について詳しくは、[このページ](../campaigns/get-started-with-campaigns.md)を参照してください。
 
@@ -81,5 +81,5 @@ IP ウォームアップキャンペーンは、1 つの IP ウォームアッ�
 
 >[!NOTE]
 >
->IP ウォームアッププランでライブキャンペーンを使用すると、プランが [&#x200B; 完了としてマーク &#x200B;](ip-warmup-execution.md#mark-as-completed) された後、そのキャンペーンの [&#x200B; ステータス &#x200B;](../campaigns/manage-campaigns.md#statuses) が **[!UICONTROL 停止済み]** に変わります。
+>ライブキャンペーンが IP ウォームアッププランで使用されている場合、プランが[完了済みとしてマーク](ip-warmup-execution.md#mark-as-completed)されると、そのキャンペーンの[ステータス](../campaigns/manage-campaigns.md#statuses)は「**[!UICONTROL 停止済み]**」に変わります。
 

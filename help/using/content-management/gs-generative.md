@@ -9,10 +9,10 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: f0555a8a77e712e3f105001997243faebfbd4b57
+source-git-commit: 479282547400d9a54ab4afa71b0e0b468dbe6071
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 96%
+source-wordcount: '921'
+ht-degree: 91%
 
 ---
 
@@ -140,9 +140,16 @@ Adobe Journey Optimizer の AI アシスタントにアクセスするには、�
 * AI アシスタントの使用は、Adobe Experience Cloud 生成 AI ユーザーガイドラインの対象となります。[詳細情報](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
 * メディア作成における生成 AI ツールの使用の透明性を促進するアドビの取り組みの一環として、アドビでは、Firefly で生成されたアセットを含むコンテンツまたはプロジェクトがダウンロードまたはエクスポートされる際に、Content Credentials を適用します。[詳細情報](https://helpx.adobe.com/jp/firefly/using/content-credentials.html)
 
+### PERSONALIZATIONエディターのAI アシスタント {#ai-assistant-personalization-editor-guardrails}
+
+次のガードレールは、[Personalization Editor](generative-personalization-expressions.md)のパーソナライゼーション式[!UICONTROL の]AI アシスタントに適用されます。
+
+* **オファーとエクスペリエンス決定** — サポートされていません。
+* **お気に入り** — サポートされていません。
+* **保存された条件** — サポートされていません。
+* **Adobe Experience Manager コンテンツフラグメント** — サポートされていません。
 
 ## AI アシスタントのコンテンツ生成機能 {#generative-features}
-
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

@@ -9,7 +9,7 @@ level: Experienced
 keywords: ランディング, ランディングページ, サブドメイン, 設定
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
 source-git-commit: 42d40abf8290bac64e142f5cf0bf595446ccb2e9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '971'
 ht-degree: 100%
 
@@ -42,9 +42,9 @@ ht-degree: 100%
 
 ランディングページのサブドメイン設定は、**すべての環境に共通**&#x200B;です。したがって、
 
-* ランディングページのサブドメインにアクセスして編集するには、実稼動サンドボックスにおける&#x200B;**[!UICONTROL ランディングページサブドメインの管理]**&#x200B;権限が必要です。
+* ランディングページのサブドメインにアクセスして編集するには、本番稼働用サンドボックスにおける&#x200B;**[!UICONTROL ランディングページサブドメインの管理]**&#x200B;権限が必要です。
 
-* ランディングページのサブドメインを変更すると、実稼動サンドボックスにも影響します。
+* ランディングページのサブドメインを変更すると、本番稼働用サンドボックスにも影響します。
 
 ## 既存のサブドメインの使用 {#lp-use-existing-subdomain}
 
@@ -80,7 +80,7 @@ ht-degree: 100%
 
    >[!CAUTION]
    >
-   >[CNAME メソッド](../configuration/delegate-subdomain.md#cname-subdomain-setup)を使用してアドビにデリゲートされたドメインを選択する場合、ホスティングプラットフォーム上に DNS レコードを作成する必要があります。DNS レコードを生成する手順は、新しいランディングページサブドメインを設定する際の手順と同じです。[この節](#lp-configure-new-subdomain)でその方法を説明します。
+   >[CNAME メソッド](../configuration/delegate-subdomain.md#cname-subdomain-setup)を使用してアドビにデリゲートされたドメインを選択する場合、ホスティングプラットフォーム上に DNS レコードを作成する必要があります。DNS レコードを生成する手順は、新しいランディングページサブドメインを設定する際の手順と同じです。[この節](#lp-configure-new-subdomain)の手順を参照してください。
 
 1. 「**[!UICONTROL 送信]**」をクリックします。
 
@@ -141,7 +141,7 @@ ht-degree: 100%
 
 ランディングページサブドメインをデリゲート解除する場合は、次の手順に従います。
 
-1. [!DNL Journey Optimizer] で、サブドメインに関連付けられているすべてのランディングページを非公開にします。[詳細情報](create-lp.md#create-landing-page)
+1. [!DNL Journey Optimizer] で、サブドメインに関連付けられているすべてのランディングページを非公開にします。[方法についてはこちらを参照](create-lp.md#create-landing-page)
 
 1. ランディングページサブドメインが CNAME レコードを指している場合は、ランディングページサブドメイン用に作成した CNAME DNS レコードをホスティングソリューションから削除できます（ただし、元のメールサブドメインがある場合は削除しないでください）。
 

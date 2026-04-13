@@ -10,7 +10,7 @@ level: Beginner, Intermediate
 keywords: コンポーネント, E メールデザイナー, エディター, メール
 exl-id: a4aaa814-3fd4-439e-8f34-faf97208378a
 source-git-commit: a5dd21377a26debb0aa3174fafb29c0532562c63
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1448'
 ht-degree: 100%
 

@@ -41,12 +41,12 @@ HIPAA などの規制では、[!DNL Journey Optimizer] が個人に送信され�
 
 ### BCC メールの有効化 {#enable-bcc}
 
-「**[!UICONTROL BCC メール]**」オプションを有効にするには、選択したメールアドレスを [&#x200B; チャネル設定 &#x200B;](channel-surfaces.md) の専用フィールドに入力します。 アドビにデリゲートしたサブドメインで定義されたメールアドレスを除き、正しい形式で任意の外部アドレスを指定できます。例えば、*marketing.luma.com* サブドメインをアドビにデリゲートした場合、*abc@marketing.luma.com* のようなアドレスは禁止されます。
+**[!UICONTROL BCC メール]** オプションを有効にするには、[&#x200B; チャネル設定](channel-surfaces.md)の専用フィールドに任意のメールアドレスを入力します。 アドビにデリゲートしたサブドメインで定義されたメールアドレスを除き、正しい形式で任意の外部アドレスを指定できます。例えば、*marketing.luma.com* サブドメインをアドビにデリゲートした場合、*abc@marketing.luma.com* のようなアドレスは禁止されます。
 
 >[!CAUTION]
 >
->* BCC に設定できるメールアドレスは 1 つだけです。現在のチャネル設定を使用して送信されたすべてのメールを保存するのに十分な受信容量があることを確認します。 その他のレコメンデーションの一覧について詳しくは、[この節](#bcc-recommendations-limitations)を参照してください。
->* Healthcare Shield アドオン機能を購入済みの場合は、BCC アドレスの ISP が TLS 1.2 プロトコルをサポートしていることを確認します。
+>* BCC に設定できるメールアドレスは 1 つだけです。現在のチャネル設定を使用して送信されたすべてのメールを保存するのに十分な受信容量があることを確認してください。 その他のレコメンデーションの一覧について詳しくは、[この節](#bcc-recommendations-limitations)を参照してください。
+>* Healthcare Shield アドオンオファーを購入した場合は、BCC アドレスのISPがTLS 1.2 プロトコルをサポートしていることを確認してください。
 
 ![](assets/preset-bcc.png)
 
@@ -84,11 +84,11 @@ BCC メールアドレスの設定は、設定レベルで直ちに保存およ�
 
 ### GDPR への準拠 {#gdpr-compliance}
 
-GDPR などの規制では、データ主体はいつでも同意を変更できると規定されています。Journey Optimizerで送信される BCC メールには個人情報（PII）が安全に含まれているので、**[!UICONTROL AJOのセカンダリ受信者フィードバックイベントスキーマを編集して]** GDPR や同様の規制に準拠してこれらの PII を管理できるようにする必要があります。
+GDPR などの規制では、データ主体はいつでも同意を変更できると規定されています。Journey Optimizerで送信するBCC メールには、安全に個人を特定できる情報（PII）が含まれているため、GDPRなどの規制に準拠してこれらのPIIを管理するには、**[!UICONTROL AJO セカンダリ Recipient Feedback Event Schema]**&#x200B;を編集する必要があります。
 
 これを行うには、次の手順に従います。
 
-1. **[!UICONTROL データ管理]**/**[!UICONTROL スキーマ]**/**[!UICONTROL 参照]** に移動し、「**[!UICONTROL AJOセカンダリ受信者フィードバックイベントスキーマ]**」を選択します。
+1. **[!UICONTROL Data management]** > **[!UICONTROL Schemas]** > **[!UICONTROL Browse]**&#x200B;に移動し、**[!UICONTROL AJO セカンダリ Recipient Feedback Event Schema]**&#x200B;を選択します。
 
    ![](assets/preset-bcc-schema.png){width="95%"}
 
@@ -112,7 +112,7 @@ GDPR などの規制では、データ主体はいつでも同意を変更でき
 
 ### BCC レポートデータ {#bcc-reporting}
 
-BCC に関するレポート自体は、ジャーニーレポートとメッセージレポートでは使用できません。ただし、その情報は、**[!UICONTROL AJOセカンダリ受信者フィードバックイベントデータセット]** と呼ばれるシステムデータセットに保存されます。 このデータセットに対してクエリを実行すると、デバッグ目的などに役立つ情報を見つけることができます。
+BCC に関するレポート自体は、ジャーニーレポートとメッセージレポートでは使用できません。ただし、情報は、**[!UICONTROL AJO セカンダリ Recipient Feedback Event Dataset]**&#x200B;というシステム データセットに保存されます。 このデータセットに対してクエリを実行すると、デバッグ目的などに役立つ情報を見つけることができます。
 
 ユーザーインターフェイスからこのデータセットにアクセスするには、**[!UICONTROL データ管理]**／**[!UICONTROL データセット]**／**[!UICONTROL 参照]**&#x200B;を選択します。データセットにアクセスする方法について詳しくは、[この節](../data/get-started-datasets.md#access-datasets)を参照してください。
 
@@ -225,7 +225,7 @@ BCC に関するレポート自体は、ジャーニーレポートとメッセ�
 
 すべてのメールメッセージに、`x-message-profile-id` というヘッダーが含まれるようになりました。このヘッダーの値は各プロファイルで異なり、送信された各メールとそれに対応する BCC メールコピーに固有です。
 
-また、`x-message-profile-id` ヘッダーは、[AJO メッセージフィードバックイベントデータセット &#x200B;](../data/datasets-query-examples.md#message-feedback-event-dataset) （送信済みメール）および [AJOセカンダリ受信者フィードバックイベントデータセット &#x200B;](#bcc-reporting) （BCC コピー）のシステムデータセットにも保存されます。 これらのデータセットに対してクエリを実行して、BCC コピーと対応する実際のメールを紐付けることができます。
+`x-message-profile-id` ヘッダーは、次のシステムデータセットにも保存されます。[AJO Message Feedback Event Dataset](../data/datasets-query-examples.md#message-feedback-event-dataset) （送信済みメール）と[AJO セカンダリ Recipient Feedback Event Dataset](#bcc-reporting) （BCC コピー）。 これらのデータセットに対してクエリを実行して、BCC コピーと対応する実際のメールを紐付けることができます。
 
 * ユーザーインターフェイスを通じてこれらのデータセットにアクセスするには、**[!UICONTROL データ管理]**／**[!UICONTROL データセット]**／**[!UICONTROL 参照]**&#x200B;を選択します。データセットにアクセスする方法について詳しくは、[この節](../data/get-started-datasets.md#access-datasets)を参照してください。
 

@@ -6,7 +6,7 @@ description: 調整されたキャンペーンでの分岐アクティビティ�
 exl-id: 52e8057b-dac1-45f5-9dd0-1b28a59adde9
 version: Campaign Orchestration
 source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 100%
 

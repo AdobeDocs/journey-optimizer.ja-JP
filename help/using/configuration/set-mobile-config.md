@@ -29,9 +29,9 @@ ht-degree: 83%
 >abstract="Adobe Experience Platform Assurance は、このワークフローに組み込まれており、SDK 実装の検査や、アプリケーションイベントのシミュレートと検証に役立ちます。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/home" text="Adobe Experience Platform Assurance の概要"
 
-**ガイド付きチャネル設定** は、Adobe Journey Optimizerの合理化されたワークフローで、モバイルマーケティングチャネルと web マーケティングチャネルをすばやく設定するのに役立ちます。 **Administration**/**Channels**/**Channel Configuration** の配下にあり、Adobe Experience Platform、Journey Optimizerおよび Data Collection 全体で、タグプロパティ、データストリーム、チャネル設定などの重要なリソースの作成を自動化します。 各コンポーネントを手動で設定する代わりに、すべてを自動的に設定するガイド付きフローに従うと、マーケティングチームは、アプリ内メッセージ、プッシュ通知、web エクスペリエンスの作成を遅延なく開始できます。
+**ガイド付きチャネル設定**&#x200B;は、Adobe Journey Optimizerの合理化されたワークフローで、モバイルおよびweb マーケティングチャネルをすばやく設定するのに役立ちます。 この機能は、**管理** > **チャネル** > **チャネル設定**&#x200B;の下にあり、Adobe Experience Platform、Journey Optimizer、Data Collection全体で、タグプロパティ、データストリーム、チャネル設定などの重要なリソースの作成を自動化します。 各コンポーネントを手動で設定する代わりに、ガイド付きのフローに従ってすべてを設定できるため、マーケティング部門はアプリ内メッセージ、プッシュ通知、web エクスペリエンスの作成を遅滞なく開始できます。
 
-ガイド付きチャネルの設定は、次のプラットフォームとチャネルをサポートしています。
+ガイド付きチャネル設定では、次のプラットフォームとチャネルをサポートしています。
 
 >[!BEGINTABS]
 
@@ -39,17 +39,17 @@ ht-degree: 83%
 
 **SDK:** Swift by Apple
 
-**チャネル：** モバイルのアプリ内、モバイルのプッシュメッセージ
+**チャネル：** モバイルアプリ内、モバイルプッシュメッセージ
 
 >[!TAB Android]
 
 **SDK:** Kotlin
 
-**チャネル：** モバイルのアプリ内、モバイルのプッシュメッセージ
+**チャネル：** モバイルアプリ内、モバイルプッシュメッセージ
 
 >[!TAB Web]
 
-**SDK:** JavaScript
+**SDK:** Javascript
 
 **チャネル：** Web Basic
 

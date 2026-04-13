@@ -1,5 +1,5 @@
 ---
-title: テストプロファイルを選択
+title: テストプロファイルの選択
 description: コンテンツをプレビューおよびテストするためのテストプロファイルの選択方法を説明します。
 feature: Preview, Proofs
 role: User
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 ---
 
-# テストプロファイルを選択 {#select-test-profiles}
+# テストプロファイルの選択 {#select-test-profiles}
 
 >[!CONTEXTUALHELP]
 >id="ajo_preview_test_profiles"

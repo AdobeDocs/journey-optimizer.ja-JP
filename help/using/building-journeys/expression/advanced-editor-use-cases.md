@@ -7,11 +7,10 @@ feature: Journeys
 role: Developer
 level: Experienced
 hide: true
-hidefromtoc: true
 keywords: 式, 条件, ユースケース, イベント
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
 version: Journey Orchestration
-source-git-commit: bc89e88baf2adfbb9bb33a60a67b74bc37f31984
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 95%
@@ -115,9 +114,9 @@ ht-degree: 95%
 
 そこから、商品がストアにない場合のために別のパスをジャーニーに追加し、エンゲージメントオファーの通知を送信することができます。メッセージを適切に設定し、パーソナライゼーションデータを使用してメッセージのターゲットを強化します。
 
-## 式でのタイムスタンプフィルタリング
+## エクスプレッションでのタイムスタンプフィルタリング
 
-複数の買い物かごアクティビティイベントを参照する場合、履歴データの取得を避けるために、開始および終了のタイムスタンプウィンドウの両方を指定します。 以下に例を示します。
+複数のカートアクティビティイベントを参照する場合は、履歴データを取得しないように、開始と終了の両方のタイムスタンプウィンドウを指定します。 以下に例を示します。
 
 ```json
 toDateTimeOnly(currentDataPackField.timestamp) >= toDateTimeOnly(@event{poc_UDXCartAddSavedCheckOutEv.timestamp})

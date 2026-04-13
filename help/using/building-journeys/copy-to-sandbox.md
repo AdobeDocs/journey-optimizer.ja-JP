@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 別のサンドボックスにジャーニーをコピー
+title: 別のサンドボックスへのジャーニーのコピー
 description: ジャーニーを別のサンドボックスにコピーする方法を説明します
 feature: Journeys, Sandboxes
 topic: Content Management
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ---
 
-# 別のサンドボックスにジャーニーをコピー {#copy-to-sandbox}
+# 別のサンドボックスへのジャーニーのコピー {#copy-to-sandbox}
 
 <!--
 >[!CONTEXTUALHELP]

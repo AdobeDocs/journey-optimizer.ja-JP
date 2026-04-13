@@ -9,10 +9,10 @@ role: Developer
 level: Beginner
 keywords: 式, エディター, 開始, パーソナライゼーション
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
+source-git-commit: 8f28414c5aa567e60975e01d66dd1725ac9fa20a
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 100%
+source-wordcount: '569'
+ht-degree: 90%
 
 ---
 
@@ -31,9 +31,7 @@ ht-degree: 100%
 
 Journey Optimizer では、ハンドルバーに基づいたインラインのパーソナライゼーション構文を使用します。この構文を使用すると、コンテンツを二重の中括弧 **`{{}}`** で囲んだ式を作成できます。
 
-Journey Optimizer は、メッセージを処理する際に、式を Experience Platform データセットに含まれるデータで置き換えます。例えば、`Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}` は動的に `Hello John Doe` になります。
-
-この構文を使用すると、メールの件名、メッセージ本文、プッシュ通知、URL など、複数のフィールドをまたいでメッセージをパーソナライズできます。
+Journey Optimizer は、メッセージを処理する際に、式を Experience Platform データセットに含まれるデータで置き換えます。例えば、`Hello {{profile.person.name.firstName}} {{profile.person.name.lastName}}`は動的に`Hello John Doe`になります。 この構文を使用すると、メールの件名、メッセージ本文、プッシュ通知、URL など、複数のフィールドをまたいでメッセージをパーソナライズできます。
 
 ## パーソナライゼーションに使用するデータ
 
@@ -52,6 +50,14 @@ Journey Optimizer は、メッセージを処理する際に、式を Experience
 ![パーソナライゼーションプレイグラウンド](assets/playground.png)
 
 ➡️ [パーソナライゼーションプレイグラウンドへのアクセス](https://experienceleague.adobe.com/ja/apps/journey-optimizer/ajo-personalization){target="_blank"}
+
+## PERSONALIZATIONエディターのAI アシスタント {#ai-personalization-expressions}
+
+**[!UICONTROL Personalization Editor]**&#x200B;では、**[!UICONTROL AI アシスタント]**&#x200B;が、自然言語から新しいエクスプレッションを生成し、既存のコードの機能を説明し、選択範囲の問題を修正し、意図に一致する場合に出力を適用するのに役立ちます。
+
+![](../content-management/assets/ai-perso-generate.png)
+
+➡️ [Personalization エクスプレッションのAI アシスタントの操作方法を学ぶ](../content-management/generative-personalization-expressions.md)
 
 ## さらに深く掘り下げましょう
 

@@ -7,9 +7,8 @@ feature: Get Started
 role: User
 level: Intermediate
 hide: true
-hidefromtoc: true
 exl-id: 271fb85d-5621-4a12-b3d1-65cf6021b174
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '982'
 ht-degree: 100%

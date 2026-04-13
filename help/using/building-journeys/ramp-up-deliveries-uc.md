@@ -8,11 +8,10 @@ topic: Content Management
 role: User, Developer
 level: Intermediate, Experienced
 hide: true
-hidefromtoc: true
 keywords: 配信品質, ジャーニー, 使用例, メール, 評価
 exl-id: 83d1b68d-011a-4109-b5f0-6ca1ade2944d
 version: Journey Orchestration
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 91%

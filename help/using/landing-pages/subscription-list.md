@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: サブスクリプションリストの作成
+title: 購読リストの作成
 description: Journey Optimizer で購読リストを設定する方法を学ぶ
 feature: Subscriptions
 topic: Content Management
@@ -12,17 +12,17 @@ exl-id: 5e5419a0-5121-4aa7-a975-b1f08e2918c9
 source-git-commit: c18f6f450bdc37f7ffbe87befb8601a920e46171
 workflow-type: tm+mt
 source-wordcount: '721'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-# サブスクリプションリスト {#create-subscription-list}
+# 購読リスト {#create-subscription-list}
 
 >[!CONTEXTUALHELP]
 >id="ajo_subscription_list"
 >title="サブスクリプションリストの設定"
 >abstract="サブスクリプションリストを作成して、特定の件名またはイベントに関するお知らせの受信をオプトインしたプロファイルを収集します。 "
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/subscription-list.html?lang=ja#define-subscription-list" text="サブスクリプションリストの作成"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/subscription-list.html?lang=ja#define-subscription-list" text="購読リストの作成"
 
 購読サービスとは、特定の対象、イベント、興味などに関するコミュニケーションの受信を選択した顧客に対して継続的に提供される、マーケティング商品やサービスを指します。[!DNL Journey Optimizer] では、これらのオプトイン済みの顧客は、購読リストに収集されます。
 
@@ -36,11 +36,11 @@ ht-degree: 93%
 
 プロファイルは、[ランディングページ](create-lp.md)から購読リストに追加できます。例については、[この節](lp-use-cases.md#subscription-to-a-service)で示します。
 
-## サブスクリプションリストの作成 {#define-subscription-list}
+## 購読リストの作成 {#define-subscription-list}
 
 >[!NOTE]
 >
->サブスクリプションリストを作成すると、関連するストリーミングセグメントがAdobe Experience Platformで自動的に生成されます。 ストリーミングセグメントを正常に作成するには、結合ポリシーで「**Edgeでアクティブ**」オプションが有効になっている必要があります。 ストリーミングセグメントの実施要件条件について詳しくは、[Adobe Experience Platform ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/methods/streaming-segmentation) を参照してください。
+>購読リストを作成する際、関連するストリーミングセグメントが Adobe Experience Platform で自動的に生成されます。ストリーミングセグメントを正常に作成するには、結合ポリシーで「**Active-On-Edge**」オプションを有効にする必要があります。ストリーミングセグメントの実施要件について詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/methods/streaming-segmentation)を参照してください。
 
 購読リストを作成するには、次の手順に従います。
 

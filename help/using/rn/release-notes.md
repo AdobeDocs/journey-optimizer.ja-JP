@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4bdc4ee38dcc42af2a2a3f0d87e2f4747310b98b
+source-git-commit: c0dcd7f206f76d133ed2e77ef692f0ae0054a6b5
 workflow-type: tm+mt
-source-wordcount: '2210'
+source-wordcount: '2482'
 ht-degree: 21%
 
 ---
@@ -108,9 +108,36 @@ ht-degree: 21%
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>PERSONALIZATION Expressions用AI アシスタント</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>[!DNL Adobe Journey Optimizer] PersonalizationエディターにAI アシスタントが追加されました。 パーソナライズしたい内容を平易な言葉で説明すると、アシスタントがそのまま使用できるパーソナライゼーション表現を生成したり、短いフォローアップ会話で洗練させたりします。</p>
+<p>既存のパーソナライゼーションコードを選択して、アシスタントに説明を依頼したり、修正したり、改善を提案したりすることもできます。 式を生成した後、<strong> サンプルプロファイルのプレビューを表示</strong>は、限られた合成サンプルプロファイルのセットに対してクイックチェックを実行します。</p>
+<p><img src="assets/do-not-localize/assistant-perso.gif"></p>
+<p>詳しくは、<a href="../content-management/generative-personalization-expressions.md">Personalization エクスプレッション用AI アシスタント </a>を参照してください。</p>
+<p>公開日：2026年4月13日（PT）</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ### 機能強化 {#april-26-improv}
 
 #### ジャーニーパスの最適化
+
+#### メールデザイン
+
+* **電子メールコンテンツ用の高度なHTML エディター** – 高度なHTML モードを使用すると、電子メール DesignerでコンテンツのHTML ソースを編集したり、ソースに高度な式（条件など）を追加したり、変更内容を失うことなくHTML ビューとデスクトップビューを切り替えたりできます。
+
+  以前はメールコンテンツテンプレートでのみ使用できましたが、この機能は、メールコンテンツテンプレートに加えて、メールDesignerの&#x200B;**メール** コンテンツ（ジャーニーやキャンペーンで作成されたメールなど）にデプロイされました。 現在、限定提供されています。アクセス権を取得するには、Adobe担当者にお問い合わせください。 [詳細情報](../email/email-expert-mode.md)
+
+  公開日：2026年4月9日（PT）
 
 * **実験タイプ** - パス実験を設定する際に、A/B実験（開始時に固定分割）またはマルチアームドバンディット（週単位の更新による自動分割）のいずれかを選択できるようになりました。 [詳細情報](../building-journeys/path-experimentation.md)
 
@@ -128,15 +155,17 @@ ht-degree: 21%
 
   公開日：2026年4月7日（PT）
 
-<!--
-* **Adobe Experience Manager Content Fragment context while authoring** - Your Content Fragment selection stays active as you move between text fields and content blocks, so you can add more fragment fields without reopening **Open AEM Content advisor** each time. [Read more](../integrations/aem-fragments.md)
+* **オーサリング中のAdobe Experience Manager コンテンツフラグメントのコンテキスト** - テキストフィールドとコンテンツブロック間を移動しても、コンテンツフラグメントの選択範囲はアクティブなままなので、**AEM コンテンツアドバイザー**&#x200B;を毎回開き直さずに、さらにフラグメントフィールドを追加できます。 [詳細情報](../integrations/aem-fragments.md)
 
-  Availability date: April 1, 2026
--->
+  この機能は、一連の組織でのみ使用できます（限定提供）。アクセス権を取得するには、アドビ担当者にお問い合わせください。
+
+  公開日：2026年4月1日（PT）
 
 #### Adobe Experience Managerとの連携
 
 * **Adobe Experience Manager コンテンツフラグメントのバリエーションのサポート** - Adobe Experience Manager コンテンツフラグメントを挿入する際に、**コンテンツフラグメントのバリエーション** （言語やチャネルのバリエーションなど）を選択でき、ロケールや多言語シナリオの処理が改善されました。 [詳細情報](../integrations/aem-fragments.md#aem-variations)
+
+  この機能は、一連の組織でのみ使用できます（限定提供）。アクセス権を取得するには、アドビ担当者にお問い合わせください。
 
   公開日：2026年4月3日（PT）
 
@@ -283,7 +312,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p>電子メールコンテンツテンプレートの高度なHTML モードを使用すると、電子メールDesignerでコンテンツのHTML ソースを編集したり、ソースに高度な式（条件など）を追加したり、変更内容を失うことなくHTML ビューとデスクトップビューを切り替えたりできます。</p>
 <p>この機能は、メールチャネルのコンテンツテンプレートでのみ使用できます。 現在、限定提供されています。アクセス権を取得するには、Adobe担当者にお問い合わせください。</p>
 <p><img src="assets/do-not-localize/expert-mode.gif"/></p>
-<p>詳しくは、<a href="../content-management/email-template-expert-mode.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../email/email-expert-mode.md">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2026年3月10日（PT）</p>
 </td>
 </tr>

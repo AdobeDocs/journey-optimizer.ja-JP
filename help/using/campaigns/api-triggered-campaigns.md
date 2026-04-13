@@ -12,7 +12,7 @@ exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
 source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
 workflow-type: tm+mt
 source-wordcount: '282'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ API トリガーキャンペーンを使用すると、適切なタイミング�
 1. [キャンペーンのレビューとアクティブ化](review-activate-api-triggered-campaign.md)
 1. [キャンペーン実行のトリガー](trigger-campaigns.md)
 
-[&#x200B; タイプ固有のガイドを使用した、完全なキャンペーン作成ワークフロー→](get-started-with-campaigns.md#workflow) について詳しくは、こちらを参照してください
+[完全なキャンペーン作成ワークフローについて詳しくは、タイプ固有のガイドを参照してください →](get-started-with-campaigns.md#workflow)
 
 ## チュートリアルビデオ {#video}
 

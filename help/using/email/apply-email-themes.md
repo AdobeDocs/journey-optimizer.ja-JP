@@ -54,11 +54,11 @@ ht-degree: 92%
 
   <!--To fully leverage all the capabilities of the Email Designer, including themes, you must either create a new content in Use Themes mode, or convert your imported HTML content. [Learn more](existing-content.md)-->
 
-* テーマでカスタム web フォント（Google フォントを含む）を使用する場合、多くのメールクライアントがサポートしていません。 すべてのメールクライアントで読みやすいように、テーマで適切なフォールバックフォントを常に定義します。
+* テーマでカスタム web フォント（Google フォントを含む）を使用する場合は、多くのメールクライアントがサポートしていないことに注意してください。 あらゆるメールクライアントで読みやすさを確保するために、テーマで適切なフォールバックフォントを常に定義します。
 
-   * Gmail と Yahoo! 外部の web フォントを読み込まないので、HTML/CSS で指定したフォントファミリーに関係なく、システムフォントにフォールバックします。
-   * Gmail でサポートされているGoogle フォントは、Roboto とGoogle Sans のみです。
-   * Web フォントをサポート *るメールクライアントには* Apple Mail、iOS Mail、Android Mail、Thunderbird、Outlook for macOSなどがあります。
+   * GmailとYahoo! HTML/CSSで指定したフォントファミリーに関係なく、外部のweb フォントを読み込まず、システムフォントにフォールバックします。
+   * GmailでサポートされているGoogle フォントは、RobotoとGoogle Sansのみです。
+   * *do*&#x200B;がWeb フォントをサポートしている電子メールクライアントには、Apple Mail、iOS Mail、Android Mail、Thunderbird、Outlook for macOSなどがあります。
 
 <!--If you apply a theme to a content using a [fragment](../content-management/fragments.md) created with Manual Styling mode, the rendering may not be optimal.-->
 
@@ -108,7 +108,7 @@ ht-degree: 92%
 
    >[!NOTE]
    >
-   >カスタム web フォントを選択する場合、Gmail や Yahoo！などの多くのメールクライアントに注意が必要です。 外部の web フォントはサポートしないので、システムフォントにフォールバックします。 すべてのメールクライアントでコンテンツを正しく表示するには、フォールバックフォントを含めることを検討してください。 [詳細情報](#themes-guardrails)
+   >カスタム web フォントを選択する場合は、GmailやYahoo！などの多くのメールクライアントに注意してください。 外部web フォントはサポートしておらず、システムフォントにフォールバックします。 あらゆるメールクライアントでコンテンツが正しく表示されるように、フォールバックフォントを含めることを検討してください。 [詳細情報](#themes-guardrails)
 
 1. 「**[!UICONTROL 間隔]**」タブで、リストから個々の要素を選択し、様々なコンポーネント間の間隔を適切に調整します。
 

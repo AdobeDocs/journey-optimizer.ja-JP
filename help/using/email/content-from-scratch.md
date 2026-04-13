@@ -127,6 +127,6 @@ ht-degree: 98%
 
    ![](assets/email_designer_simulate_content.png)
 
-1. また、コンテンツの品質を検証して、読みやすさ、有効性、コンテンツのまとまりを評価することもできます。 [コンテンツ品質の検証の詳細情報](../content-management/brands-score.md#validate-quality)
+1. また、コンテンツの品質を検証して、読みやすさ、効果、コンテンツの包括性を評価することもできます。 [コンテンツ品質の検証の詳細情報](../content-management/brands-score.md#validate-quality)
 
 1. コンテンツの準備が整ったら、「**[!UICONTROL 保存]**」をクリックします。

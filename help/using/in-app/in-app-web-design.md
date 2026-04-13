@@ -7,9 +7,8 @@ role: User
 level: Beginner
 keywords: アプリ内, メッセージ, 作成, 開始
 hide: true
-hidefromtoc: true
-source-git-commit: 722d37dc4bcb9ab7983ea336aa0b12a6a09e01dc
-workflow-type: ht
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 100%
 

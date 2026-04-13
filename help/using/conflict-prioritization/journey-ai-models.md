@@ -7,9 +7,8 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="限定提供" type="Informative"
 hide: true
-hidefromtoc: true
 exl-id: 3e7c3069-b022-4709-936d-acaad56b5882
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 14%

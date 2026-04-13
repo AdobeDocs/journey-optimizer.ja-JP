@@ -10,7 +10,7 @@ level: Experienced
 keywords: アクション, ジャーニー, メッセージ, 送信, 接続
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
 source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 100%
 
@@ -29,9 +29,9 @@ ht-degree: 100%
 
 [!DNL Journey Optimizer] には、メッセージ機能がビルトインされています。カスタムアクションを使用すると、メッセージや API 呼び出しを送信するサードパーティシステムの接続を設定できます。アクションは、JSON 形式のペイロードを使用した REST API を介して呼び出すことができる、任意のプロバイダーの任意のサービスで設定できます。
 
-* Adobe Campaign v7 または v8 を使用している場合は、リクエストに応じて統合を利用できます。詳しくは、[このページ](../action/acc-action.md)を参照してください。
+* Adobe Campaign v7 または v8 を使用している場合は、リクエストに応じて統合を利用できます。[このページ](../action/acc-action.md)を参照してください。
 
-* サードパーティシステムを使用して Epsilon、Facebook、Adobe Developer、Firebase などのメッセージを送信する場合は、カスタムアクションを作成して設定する必要があります。詳しくは、[このページ](../action/about-custom-action-configuration.md)を参照してください。
+* サードパーティシステムを使用して Epsilon、Facebook、Adobe Developer、Firebase などのメッセージを送信する場合は、カスタムアクションを作成して設定する必要があります。[このページ](../action/about-custom-action-configuration.md)を参照してください。
 
 >[!CAUTION]
 >

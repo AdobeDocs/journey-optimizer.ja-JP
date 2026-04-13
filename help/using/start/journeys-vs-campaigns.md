@@ -9,9 +9,8 @@ role: User
 level: Beginner
 keywords: ジャーニー, キャンペーン, 調整, 比較, 選択, 決定, ワークフロー, リアルタイム, バッチ, オーケストレーション, マルチステップ, スケジュール, API トリガー, イベント駆動型
 hide: true
-hidefromtoc: true
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
-source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
 workflow-type: tm+mt
 source-wordcount: '1613'
 ht-degree: 62%

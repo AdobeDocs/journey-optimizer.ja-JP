@@ -175,11 +175,11 @@ Mutual Transport Layer Security（mTLS）は、Adobe Journey Optimizer カスタ
 
    ![](assets/null-values.png){width="70%" align="left"}
 
-1. 「**[!UICONTROL 応答]**」セクションに、呼び出しが成功したときに返されるペイロードの例を貼り付けます。 このフィールドはオプションで、すべての呼び出しメソッドで使用できます。カスタムアクションで API 呼び出し応答を活用する方法について詳しくは、[このページ](../action/action-response.md)を参照してください。
+1. **[!UICONTROL 応答]** セクションに、呼び出しが成功したときに返されたペイロードの例を貼り付けます。 このフィールドはオプションで、すべての呼び出しメソッドで使用できます。カスタムアクションで API 呼び出し応答を活用する方法について詳しくは、[このページ](../action/action-response.md)を参照してください。
 
    ![](assets/response-values.png){width="70%" align="left"}
 
-1. （オプション）「**[!UICONTROL エラー応答ペイロードを定義]**」を選択して、「エラー応答ペイロード」フィールドを有効にします。 有効な場合、「**[!UICONTROL エラー応答]**」セクションを使用して、呼び出しが失敗したときに返されるペイロードの例を貼り付けます。 応答ペイロード（フィールドタイプと形式）にも同じ要件が適用されます。 ジャーニーでエラー応答ペイロードを活用する方法を説明します [&#x200B; こちら &#x200B;](../action/action-response.md)。
+1. （オプション）「**[!UICONTROL エラー応答ペイロードを定義]**」を選択して、エラー応答ペイロードフィールドを有効にします。 有効にすると、**[!UICONTROL エラー応答]** セクションを使用して、呼び出しが失敗したときに返されたペイロードの例を貼り付けます。 応答ペイロード（フィールドタイプと形式）と同じ要件が適用されます。 ジャーニー[ここ](../action/action-response.md)でエラー応答ペイロードを活用する方法について説明します。
 
    ![](assets/response-values.png){width="70%" align="left"}
 
@@ -190,7 +190,7 @@ Mutual Transport Layer Security（mTLS）は、Adobe Journey Optimizer カスタ
 
 ![](assets/customactionpayloadmessage2.png)
 
-このフィールド設定では、以下を行う必要があります。
+これらのフィールド設定では、次の操作を行う必要があります。
 
 * パラメーターのタイプ（例：文字列、整数など）を選択
 

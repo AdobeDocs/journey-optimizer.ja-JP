@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: b579e39194f70dd3cb67577b82fa4868de36c5e2
+source-git-commit: c0dcd7f206f76d133ed2e77ef692f0ae0054a6b5
 workflow-type: tm+mt
-source-wordcount: '6654'
-ht-degree: 72%
+source-wordcount: '6825'
+ht-degree: 71%
 
 ---
 
@@ -20,6 +20,14 @@ ht-degree: 72%
 このページでは、毎月のリリースの機能と改善点に関連する更新に加えて、[!DNL Journey Optimizer] ドキュメントの最新の変更点をすべて一覧表示しています。
 
 ## 2026年4月 {#april-2026}
+
+* 高度なHTML エディター&#x200B;**ページを使用した**&#x200B;電子メールコンテンツの編集が、コンテンツ管理セクションからドキュメントの&#x200B;**電子メール** セクション（「電子メールデザイン」の下）に移動され、ページファイルの名前が&#x200B;**email-expert-mode.md**&#x200B;に変更されました。 このページでは、高度なHTML エディターが電子メール メッセージと電子メールコンテンツテンプレートに対して電子メール Designerで使用できるようになりました。 [詳細情報](../email/email-expert-mode.md)
+
+* **開始および監視オーケストレーション済みキャンペーン**&#x200B;のドキュメントが更新され、内部の公開時間の実行シーケンスの詳細を示す新しいセクションと、キャンペーンライフサイクルのステータス表、公開前のチェックリスト、非定期的なキャンペーンの送信確認の警告が追加されました。 [詳細情報](../orchestrated/start-monitor-campaigns.md#publication-sequence)
+
+* **オーディエンスを保存** アクティビティのドキュメントが更新され、公開時にメッセージアクティビティが実行される前に、オーディエンスを保存アクティビティが常に実行されることが明記されました。 [詳細情報](../orchestrated/activities/save-audience.md)
+
+* **オーケストレーションキャンペーンに関するFAQ**&#x200B;に3つの新しいQ&amp;Aが追加されました。公開時に内部で何が起こるか、公開後にメッセージが送信されない理由の7 ポイントのチェックリスト、プロファイル スナップショット検索とリアルタイムのプロファイル解決の違い。 [詳細情報](../orchestrated/orchestrated-campaigns-faq.md)
 
 * ジャーニーインスタンスがブロックされたために破棄された新しい&#x200B;**[イベント](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached)** セクションが、ジャーニーのトラブルシューティングのドキュメントに追加され、`maxInstanceStackEventsReached`の破棄の理由、発生時、およびその緩和方法が説明されました。 ガードレールとステップイベントフィールドリストページも、それに応じて更新されました。
 
@@ -59,7 +67,7 @@ ht-degree: 72%
 
 * 新しい&#x200B;**AI モデルの監視** ページがDecisioning ドキュメントで利用できるようになりました。 パーソナライズされた最適化モデルの正常性、トレーニング状態、およびパフォーマンスを[!DNL Journey Optimizer]で直接追跡する方法について説明します。 [詳細情報](../experience-decisioning/ranking/ai-model-observability.md)
 
-* メールテンプレートの&#x200B;**高度なHTML エディター** （エキスパートモード）が、制限付き提供で利用可能になりました。 ドキュメントページが一般に公開されました。 この機能を使用すると、電子メールDesignerから直接メールコンテンツテンプレートの生のHTML ソースを表示および編集できます。 [詳細情報](../content-management/email-template-expert-mode.md)
+* メールテンプレートの&#x200B;**高度なHTML エディター** （エキスパートモード）が、制限付き提供で利用可能になりました。 ドキュメントページが一般に公開されました。 この機能を使用すると、電子メールDesignerから直接メールコンテンツテンプレートの生のHTML ソースを表示および編集できます。 [詳細情報](../email/email-expert-mode.md)
 
 * クローズしたジャーニーでの&#x200B;**の動作を文書化するために、** URL トラッキング **および**&#x200B;ジャーニートラブルシューティング `context.system.source.actionId`のドキュメントが更新されました。 クローズしたジャーニーまたは再公開されていないジャーニーでは、トラッキング URLに空の`{}`個のプレースホルダーが生成される場合があります。 ジャーニーを再公開するか、影響を受けるパラメーターを削除して、問題を解決する方法に関するガイダンスが追加されました。 [詳細情報](../email/url-tracking.md)
 
