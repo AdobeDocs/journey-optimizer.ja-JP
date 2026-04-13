@@ -9,7 +9,7 @@ role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
 source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1138'
 ht-degree: 100%
 
@@ -53,7 +53,7 @@ ISP には通常、受信したメッセージをスパムとしてレポート�
 
 [詳しくは、抑制リストを参照してください](suppression-list.md)
 
-## 監視ツールの使用 {#monitoring-tools}
+## モニタリングツールの使用 {#monitoring-tools}
 
 [!DNL Journey Optimizer] が提供するレポート機能を使用して、配信品質を監視します。
 

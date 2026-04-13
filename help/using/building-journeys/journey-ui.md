@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: ジャーニーの参照とフィルタリング
-description: ' [!DNL Adobe Journey Optimizer] の場所でジャーニーを参照およびフィルタリングします。'
+description: ' [!DNL Adobe Journey Optimizer]でのジャーニーの参照とフィルター'
 feature: Journeys, Get Started
 topic: Content Management
 role: User
@@ -128,7 +128,7 @@ ht-degree: 96%
 
 * **[!UICONTROL 単一イベント]** - 単一イベントジャーニーは、特定のプロファイルにリンクされます。イベントは、ユーザーの行動またはユーザーとリンクして発生した事象（例えば、ユーザーが 10,000 ロイヤルティポイントに到達したなど）に関連しています。[詳細情報](../event/about-events.md)
 * **[!UICONTROL ビジネスイベント]**。ビジネスイベントジャーニーは、プロファイルに関連しないイベントで開始します。イベントの設定は技術系ユーザーが実行し、編集はできません。[詳細情報](../event/about-events.md)
-* **[!UICONTROL オーディエンスの選定]** - オーディエンスの選定ジャーニーは、プロファイルのエントリや離脱を [!DNL Adobe Experience Platform] のオーディエンスでリッスンして、個人をジャーニーにエントリさせたり、ジャーニーを先に進ませたりします。 [詳細情報](audience-qualification-events.md)
+* **[!UICONTROL オーディエンスの選定]** - オーディエンスの選定ジャーニーは、個人がジャーニーに参加または進行できるように、[!DNL Adobe Experience Platform] オーディエンスのプロファイルの出入りをリッスンします。 [詳細情報](audience-qualification-events.md)
 * **[!UICONTROL オーディエンスを読み取り]** - オーディエンスを読み取りジャーニーでは、オーディエンス内のすべての個人がジャーニーにエントリし、ジャーニーに含まれるメッセージを受け取ります。[詳細情報](read-audience.md)
 
 
@@ -140,7 +140,7 @@ ht-degree: 96%
 
 * **ドラフト**：ジャーニーは最初のステージです。まだ公開されていません。
 * **ドラフト（テスト）**：「**テストモード**」ボタンを使用してテストモードがアクティブ化されています。[詳細情報](../building-journeys/testing-the-journey.md)
-* **完了**：ジャーニーは、ジャーニーのタイプと設定に基づいて、このステータスに自動的に切り替わります。 既にジャーニーにエントリしているプロファイルは、通常どおりにジャーニーを終了できます。新しいプロファイルは、そのジャーニーにエントリできなくなります。[&#x200B; ジャーニーが完了したと見なされるタイミングを説明します &#x200B;](end-journey.md#journey-finished-definition)。
+* **完了**: ジャーニーは、ジャーニーのタイプと設定に基づいて、このステータスに自動的に切り替わります。 既にジャーニーにエントリしているプロファイルは、通常どおりにジャーニーを終了できます。新しいプロファイルは、そのジャーニーにエントリできなくなります。[ ジャーニーが完了したと見なされるタイミングを学習します](end-journey.md#journey-finished-definition)。
 * **ライブ**：ジャーニーは「**公開**」ボタンを使用して公開されています。[詳細情報](../building-journeys/publish-journey.md)
 * **一時停止済み**：ライブジャーニーは「**一時停止**」ボタンを使用して一時停止されています。[詳細情報](../building-journeys/journey-pause.md)
 * **停止済み**：「**停止**」ボタンを使用してジャーニーがオフになっています。すべての個人のジャーニーが即座に終了します。[詳細情報](../building-journeys/end-journey.md#stop-journey)

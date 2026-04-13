@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
-title: シミュレーションを作成
+title: シミュレーションの作成
 description: 決定ロジックを検証するために、特定の場所に配信されるオファーをシミュレートする方法を説明します
 badge: label="レガシー" type="Informative"
 feature: Decision Management
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ---
 
-# シミュレーションを作成 {#create-simulations}
+# シミュレーションの作成 {#create-simulations}
 
 >[!TIP]
 >

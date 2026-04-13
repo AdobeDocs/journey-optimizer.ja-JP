@@ -175,7 +175,7 @@ SinchとSinch Conversationalの場合は、インバウンドイベントとフ�
 
 Webhookが既存のチャネル設定に添付されたAPI資格情報を使用する場合、Webhookはすぐに有効になります。 それ以外は、新しいチャネル設定を作成します。
 
-➡️[&#x200B; チャネル設定の詳細](sms-configuration-surface.md)
+➡️[ チャネル設定の詳細](sms-configuration-surface.md)
 
 ### Infobip用 {#create-webhook-infobip}
 
@@ -283,7 +283,7 @@ Infobipの場合は、フィードバックイベント用とインバウンド�
 
 Webhookが既存のチャネル設定に添付されたAPI資格情報を使用する場合、Webhookはすぐに有効になります。 それ以外は、新しいチャネル設定を作成します。
 
-➡️[&#x200B; チャネル設定の詳細](sms-configuration-surface.md)
+➡️[ チャネル設定の詳細](sms-configuration-surface.md)
 
 ### カスタムプロバイダーの場合 {#create-webhook-custom}
 
@@ -378,13 +378,13 @@ Webhookが既存のチャネル設定に添付されたAPI資格情報を使用�
    +++ペイロードの例
 
        &quot;&#39;json
-       &lbrace;
+       {
        &quot;inboundMessage&quot;: &quot;{{inboundMessage}}&quot;,
        &quot;profileNumber&quot;: &quot;{{profileNumber}}&quot;,
        &quot;requestId&quot;: &quot;{{requestId}}&quot;,
        &quot;originTimestamp&quot;: &quot;{{originTimestamp}}&quot;,
        &quot;inboundNumber&quot;: &quot;{{inboundNumber}}&quot;
-       &rbrace;
+       }
        &quot;&#39;
    +++
 
@@ -417,15 +417,15 @@ Webhookが既存のチャネル設定に添付されたAPI資格情報を使用�
    +++ペイロードの例
 
        &quot;&#39;json
-       &lbrace;
+       {
        &quot;clientReference&quot;: &quot;{{client_reference}}&quot;,
-       &quot;ステータス&quot;: &lbrack;
-       &lbrace;
+       &quot;ステータス&quot;: [
+       {
        &quot;code&quot;: &quot;{{failureCode}}&quot;,
        &quot;status&quot;: &quot;{{feedbackStatus}}&quot;
-       &rbrace;
-       &rbrack;
-       &rbrace;
+       }
+       ]
+       }
        &quot;&#39;
    
    +++
@@ -446,4 +446,4 @@ Webhookが既存のチャネル設定に添付されたAPI資格情報を使用�
 
 Webhookが既存のチャネル設定に添付されたAPI資格情報を使用する場合、Webhookはすぐに有効になります。 それ以外は、新しいチャネル設定を作成します。
 
-➡️[&#x200B; チャネル設定の詳細](sms-configuration-surface.md)
+➡️[ チャネル設定の詳細](sms-configuration-surface.md)

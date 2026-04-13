@@ -106,7 +106,7 @@ AI モデルを作成するには、次の手順を行います。
    >
    >最大 5 個のオーディエンスを選択できます。
 
-1. AI モデルを保存してアクティブ化します。 モデルがライブになると、[&#x200B; トレーニングの状態とパフォーマンスを監視できます](ai-model-observability.md)。
+1. AI モデルを保存してアクティブ化します。 モデルがライブになると、[ トレーニングの状態とパフォーマンスを監視できます](ai-model-observability.md)。
 
 <!--
 At this point, you must have:
@@ -125,5 +125,5 @@ At this point, you must have:
 
 Learn how to create a personalized optimization model and how to apply it to a decision.
 
->[!VIDEO](https://video.tv.adobe.com/v/3445952?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3419954?quality=12)
 -->

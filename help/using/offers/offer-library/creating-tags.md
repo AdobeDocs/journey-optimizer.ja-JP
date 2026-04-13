@@ -32,7 +32,7 @@ ht-degree: 100%
 
 また、コレクション修飾子を使用して、オファーをオファーコレクションにグループ化することもできます。詳しくは、[コレクションの作成](../offer-library/creating-collections.md)を参照してください。
 
-➡️ [ビデオでこの機能を確認する](#video)
+➡️ [この機能について詳しくは、ビデオを参照してください。](#video)
 
 作成されたコレクション修飾子のリストには、**[!UICONTROL コンポーネント]**&#x200B;メニューからアクセスできます。
 
@@ -52,4 +52,4 @@ ht-degree: 100%
 
 ## チュートリアルビデオ {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341372?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329374?quality=12)

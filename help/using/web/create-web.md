@@ -45,7 +45,7 @@ ht-degree: 91%
 
 1. ジャーニーを「[イベント](../building-journeys/general-events.md)」または「[オーディエンスを読み取り](../building-journeys/read-audience.md)」アクティビティで開始します。
 
-1. パレットの&#x200B;**[!UICONTROL アクション]** セクションから&#x200B;**[!UICONTROL アクション]** アクティビティをドラッグ&amp;ドロップします。 [&#x200B; アクションアクティビティ &#x200B;](../building-journeys/journey-action.md)の詳細をご覧ください。
+1. パレットの&#x200B;**[!UICONTROL アクション]** セクションから&#x200B;**[!UICONTROL アクション]** アクティビティをドラッグ&amp;ドロップします。 [ アクションアクティビティ ](../building-journeys/journey-action.md)の詳細をご覧ください。
 
    >[!IMPORTANT]
    >
@@ -73,7 +73,7 @@ ht-degree: 91%
 
 1. 「**[!UICONTROL コンテンツを編集]**」ボタンを選択し、必要に応じてコンテンツを編集します。[詳細情報](#edit-web-content)
 
-ジャーニーの作成、設定、公開の方法について詳しくは、[このページ &#x200B;](../building-journeys/journey-gs.md)を参照してください。
+ジャーニーの作成、設定、公開の方法について詳しくは、[このページ ](../building-journeys/journey-gs.md)を参照してください。
 
 >[!TAB Web キャンペーンを作成]
 
@@ -238,7 +238,7 @@ Web キャンペーンの設定を定義し、必要に応じてコンテンツ�
    >
    >キャンペーンのアクティブ化について詳しくは、[この節](../campaigns/review-activate-campaign.md)を参照してください。
 
-Web キャンペーンは&#x200B;**[!UICONTROL ライブ]**&#x200B;[ステータス](../campaigns/manage-campaigns.md#statuses)になり、選択したオーディエンスに対して表示されるようになりました。キャンペーンの各受信者は、web サイトに追加した変更を表示できます。
+Web キャンペーンは&#x200B;**[!UICONTROL ライブ]**[ステータス](../campaigns/manage-campaigns.md#statuses)になり、選択したオーディエンスに対して表示されるようになりました。キャンペーンの各受信者は、web サイトに追加した変更を表示できます。
 
 >[!NOTE]
 >
@@ -274,4 +274,4 @@ Web ジャーニーまたはキャンペーンが公開されている場合、�
 
 以下のビデオでは、web キャンペーンの作成、プロパティの設定、レビュー、公開の方法を確認できます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3449982/?captions=jpn&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)

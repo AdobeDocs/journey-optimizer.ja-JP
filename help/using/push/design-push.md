@@ -17,7 +17,7 @@ ht-degree: 71%
 
 # プッシュ通知のデザイン {#design-push-notification}
 
-プッシュ通知を作成したら、iOS、Androidおよび web プラットフォーム向けのコンテンツをデザインできます。 このページでは、メッセージの作成、クリック時の動作の設定、メディアとボタンの追加、オーディエンスの共感を得られる魅力的なプッシュ通知を作成するための詳細オプションの設定について説明します。
+プッシュ通知を作成したら、そのコンテンツをiOS、Android、およびWeb プラットフォーム用にデザインできます。 このページでは、メッセージの作成、クリック時の動作の設定、メディアとボタンの追加、高度なオプションの設定を通じて、オーディエンスの共感を呼ぶ魅力的なプッシュ通知を作成する方法を説明します。
 
 ## タイトルと本文 {#push-title-body}
 
@@ -30,7 +30,7 @@ ht-degree: 71%
 
 メッセージを作成するには、「**[!UICONTROL タイトル]**」フィールドと「**[!UICONTROL 本文]**」フィールドをクリックします。パーソナライゼーションエディターを使用して、コンテンツの定義、データのパーソナライズ、動的コンテンツの追加を行います。パーソナライゼーションエディターでの[パーソナライズ機能](../personalization/personalize.md)および[動的コンテンツ](../personalization/get-started-dynamic-content.md)の詳細情報。
 
-デバイスのプレビューセクションを使用すると、iOS、Androidおよび web でのプッシュ通知の表示を視覚化できます。
+デバイスプレビューセクションを使用して、iOS、Android、およびWebでのプッシュ通知の表示方法を視覚化します。
 
 AI アシスタントを使用してコンテンツ作成を高速化し、[テキスト生成用の AI アシスタント](../content-management/generative-text.md)を使用して魅力的なプッシュ通知テキストを生成するか、[完全なコンテンツ生成用の AI アシスタント](../content-management/generative-full-content.md)を使用して完全なプッシュ通知を作成します。
 
@@ -45,14 +45,14 @@ AI アシスタントを使用してコンテンツ作成を高速化し、[テ�
 
 ![](assets/title-body-push.png)
 
-* **[!UICONTROL アプリを開く]**：通知に関連付けられたアプリケーションを起動します。 アプリは [&#x200B; チャネル設定 &#x200B;](../configuration/channel-surfaces.md) （メッセージプリセットなど）で指定します。
-* **[!UICONTROL ディープリンク]**：特定のビュー、ページセクション、タブなど、アプリ内の特定のコンテンツにユーザーを誘導します。 提供されたフィールドにディープリンク URL を入力します。
-* **[!UICONTROL Web URL]**：外部の web ページにユーザーを誘導します。 提供されたフィールドに宛先の URL を入力します。
+* **[!UICONTROL アプリを開く]**：通知に関連付けられているアプリケーションを起動します。 アプリは、[ チャネル設定](../configuration/channel-surfaces.md) （メッセージプリセット）で指定されます。
+* **[!UICONTROL ディープリンク]**：特定のビュー、ページセクション、タブなど、アプリ内の特定のコンテンツにユーザーを誘導します。 指定されたフィールドにディープリンク URLを入力します。
+* **[!UICONTROL Web URL]**: ユーザーを外部Web ページに誘導します。 指定したフィールドに宛先URLを入力します。
 
   >[!NOTE]
   >
-  >プッシュ通知に、iOSでユニバーサルリンクとして設定された URL が含まれる場合、選択した **[!UICONTROL Web URL]** アクションに関係なく、インストールされていれば、関連するアプリが開きます。 ブラウザーを強制的に開くには、ユニバーサルリンク用に設定されていないドメインを使用するか、ドメインのユニバーサルリンク登録を削除します。
-  >Adobe SDKでのディープリンクとユニバーサルリンクの処理方法について詳しくは、[Adobe Experience Platform Mobile SDK ドキュメント &#x200B;](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/push-notifications/){target="_blank"} を参照してください。
+  >プッシュ通知に、iOSでユニバーサルリンクとして設定されたURLが含まれている場合、選択した&#x200B;**[!UICONTROL Web URL]** アクションに関係なく、インストールすると関連するアプリがプッシュで開きます。 ブラウザーを強制的に開くには、ユニバーサルリンク用に設定されていないドメインを使用するか、ドメインのユニバーサルリンク登録を削除します。
+  >Adobe SDKでのディープリンクとユニバーサルリンクの処理方法について詳しくは、[Adobe Experience Platform モバイルSDK ドキュメント ](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/push-notifications/){target="_blank"}を参照してください。
 
 ## メディアの追加 {#add-media-push}
 
@@ -61,45 +61,45 @@ AI アシスタントを使用してコンテンツ作成を高速化し、[テ�
 >title="プッシュ通知へのメディアの追加"
 >abstract="通知内に表示する画像、ビデオまたは GIF を追加できます。"
 
-ビジュアルメディアを追加して、プッシュ通知を強化します。 使用可能なメディアタイプと実装方法は、オペレーティングシステムによって異なります（以下のタブを参照）。
+ビジュアルメディアを追加して、プッシュ通知を強化しましょう。 使用可能なメディアの種類と実装方法は、以下のタブで詳しく説明しているように、オペレーティングシステムによって異なります。
 
 >[!BEGINTABS]
 
 >[!TAB Android]
 
-Androidで追加できるのは、画像アイコンと、拡張通知用の画像のみです。
+Androidの場合は、画像アイコンと、展開された通知用の画像のみを追加できます。
 
 ![](assets/push-config-add-media.png)
 
-メディアを追加するには、次のいずれかの方法を使用します。
+次のいずれかの方法を使用してメディアを追加できます。
 
-* **[!UICONTROL メディアを追加]** ボタン：[Adobe Experience Manager Assets](../integrations/assets.md) からアセットを選択するか、AI アシスタントにアクセスしてプッシュ通知用に [&#x200B; 魅力的な画像 &#x200B;](../content-management/generative-image.md) を生成します。
+* **[!UICONTROL Add media]** ボタン：[Adobe Experience Manager Assets](../integrations/assets.md)からアセットを選択するか、AI アシスタントにアクセスして、プッシュ通知用に[魅力的な画像](../content-management/generative-image.md)を生成します。
 
-* **[!UICONTROL メディアを追加]** フィールド：メディア URL を直接入力します。 URL にはパーソナライゼーショントークンを含めることができます。
+* **[!UICONTROL メディアを追加]** フィールド：メディア URLを直接入力します。 パーソナライゼーショントークンをURLに含めることができます。
 
 メディアを追加すると、通知本文の右側に表示されます。
 
 >[!NOTE]
 >
->プッシュ通知ペイロードにメディア添付ファイル（`adb_media` のようなカスタムデータフィールドに含まれる画像など）を含める場合、画像をデバイスにレンダリングするために、モバイルアプリケーションは特定のクライアントサイド処理を実装する必要があります。 ペイロードからの画像添付ファイルを処理するために、アプリに [&#x200B; 自動表示とトラッキングワークフロー &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/push-notification/android/automatic-display-and-tracking/){target="_blank"} を実装する必要があります。
+>プッシュ通知ペイロードにメディアの添付ファイル（`adb_media`などのカスタムデータフィールドの画像など）を含める場合、モバイルアプリケーションは、デバイスでレンダリングする画像に対して特定のクライアントサイド処理を実装する必要があります。 ペイロードからの画像の添付ファイルを処理するには、アプリで[自動表示および追跡ワークフロー](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/push-notification/android/automatic-display-and-tracking/){target="_blank"}を実装する必要があります。
 
 >[!TAB iOS]
 
-iOSの場合、通知内に表示する画像、ビデオ、GIFを追加できます。
+IOSの場合、通知内に表示する画像、ビデオ、GIFを追加できます。
 
 ![](assets/push-config-add-media-ios.png)
 
-メディアを追加するには、次のいずれかの方法を使用します。
+次のいずれかの方法を使用してメディアを追加できます。
 
-* **[!UICONTROL メディアを追加]** ボタン：**[!DNL Adobe Experience Manager Assets]** からアセットを選択します。 **[!DNL Adobe Experience Manager Assets]** の使用について詳しくは、[&#x200B; このページ &#x200B;](../integrations/assets.md) を参照してください。
+* **[!UICONTROL メディアを追加]** ボタン：**[!DNL Adobe Experience Manager Assets]**&#x200B;からアセットを選択します。 **[!DNL Adobe Experience Manager Assets]**&#x200B;の使用について詳しくは、[このページ ](../integrations/assets.md)を参照してください。
 
-* **[!UICONTROL メディアを追加]** フィールド：メディア URL を直接入力します。 URL にはパーソナライゼーショントークンを含めることができます。
+* **[!UICONTROL メディアを追加]** フィールド：メディア URLを直接入力します。 パーソナライゼーショントークンをURLに含めることができます。
 
 メディアを追加すると、通知本文の右側に表示されます。
 
 >[!NOTE]
 >
->プッシュ通知ペイロードにメディア添付ファイル（`adb_media` のようなカスタムデータフィールドに含まれる画像など）を含める場合、画像をデバイスにレンダリングするために、モバイルアプリケーションは特定のクライアントサイド処理を実装する必要があります。 ペイロードからメディアコンテンツをダウンロードして処理するには、アプリに [&#x200B; 通知サービス拡張機能 &#x200B;](https://developer.apple.com/documentation/usernotifications/modifying_content_in_newly_delivered_notifications){target="_blank"} を実装する必要があります。 さらに、「[詳細設定オプション](#advanced-options-push)」セクションで「**[!UICONTROL 可変コンテンツフラグを追加]**」オプションを有効にする必要があります。
+>プッシュ通知ペイロードにメディアの添付ファイル（`adb_media`などのカスタムデータフィールドの画像など）を含める場合、モバイルアプリケーションは、デバイスでレンダリングする画像に対して特定のクライアントサイド処理を実装する必要があります。 ペイロードからメディアコンテンツをダウンロードして処理するには、アプリで[通知サービス拡張機能](https://developer.apple.com/documentation/usernotifications/modifying_content_in_newly_delivered_notifications){target="_blank"}を実装する必要があります。 さらに、「[詳細設定オプション](#advanced-options-push)」セクションで「**[!UICONTROL 可変コンテンツフラグを追加]**」オプションを有効にする必要があります。
 
 >[!TAB Web]
 
@@ -118,7 +118,7 @@ iOSの場合、通知内に表示する画像、ビデオ、GIFを追加でき�
 >title="ユーザーがプッシュ通知を操作するためのボタンを追加します。"
 >abstract="このセクションから、メッセージにコールトゥアクションボタンを追加します。Apple iOS の場合は、通知カテゴリ識別子を指定します。Google Android の場合は、各ボタンにカスタムテキストとターゲットを含めることができます。"
 
-プッシュコンテンツにボタンを追加することで、アクションにつながる通知を作成できます。 お使いのオペレーティングシステムに応じて、以下のタブを参照してください。
+プッシュコンテンツにボタンを追加して、アクションにつながる通知を作成。 オペレーティングシステムに応じて、以下のタブを参照してください。
 
 デバイスの画面がロックされている場合、次のボタンは表示されません。通知の&#x200B;**タイトル**&#x200B;と&#x200B;**メッセージ**&#x200B;のみが表示されます。デバイスのロックが解除されている場合、受信者にボタンが表示されます。
 
@@ -126,7 +126,7 @@ iOSの場合、通知内に表示する画像、ビデオ、GIFを追加でき�
 
 >[!TAB Android]
 
-Androidの場合、最大 3 つのボタンを追加できます。
+Androidの場合は、最大3つのボタンを追加できます。
 
 1. 「**[!UICONTROL ボタンを追加]**」をクリックして、ラベルと関連するアクションの設定を定義します。可能なアクションは、[クリック時の動作](#on-click-behavior)の場合と同じです。
 
@@ -138,7 +138,7 @@ Androidの場合、最大 3 つのボタンを追加できます。
 
 ![](assets/push_buttons-ios.png)
 
-iOSの場合、通知カテゴリ ID が指定されます。 通知カテゴリは、iOS アプリで事前設定する必要があり、表示するボタンと実行されるアクションを定義します。詳しくは、[Apple ドキュメント](https://developer.apple.com/documentation/usernotifications/declaring_your_actionable_notification_types)を参照してください。
+IOSの場合、通知カテゴリ IDが指定されます。 通知カテゴリは、iOS アプリで事前設定する必要があり、表示するボタンと実行されるアクションを定義します。詳しくは、[Apple ドキュメント](https://developer.apple.com/documentation/usernotifications/declaring_your_actionable_notification_types)を参照してください。
 
 >[!TAB Web]
 
@@ -161,7 +161,7 @@ iOSの場合、通知カテゴリ ID が指定されます。 通知カテゴリ
 
 >[!AVAILABILITY]
 >
->Journey Optimizerの web プッシュ通知では、**サイレント通知** 機能はサポートされていません。
+>Journey OptimizerのWeb プッシュ通知は、**サイレント通知**&#x200B;機能をサポートしていません。
 
 サイレントプッシュ通知（バックグラウンド通知）は、アプリケーションに配信される非表示の命令です。これは、例えば、新しいコンテンツが利用可能であることをアプリケーションに通知したり、バックグラウンドでダウンロードを開始したりする場合に使用します。
 
@@ -178,11 +178,11 @@ iOSの場合、通知カテゴリ ID が指定されます。 通知カテゴリ
 
 **[!UICONTROL カスタムデータ]**&#x200B;セクションでは、モバイルアプリケーションの設定に応じて、ペイロードにカスタム変数を追加できます。Adobe Experience Platform でのプッシュ通知の設定方法について詳しくは、[この節](push-gs.md)を参照してください
 
-## Decisioning を使用したパーソナライズ {#decisioning-push}
+## 意思決定によるパーソナライゼーション {#decisioning-push}
 
-**Decisioning** を使用して、プッシュ通知のコンテンツをパーソナライズおよび最適化できます。 この機能を使用すると、優先度スコア、式または AI モデルを使用して、最適なコンテンツを動的に選択して顧客に表示できます。
+**Decisioning**&#x200B;を使用すると、プッシュ通知のコンテンツをパーソナライズおよび最適化できます。 この機能により、優先順位スコア、数式、AI モデルを使用して、顧客に最適なコンテンツを動的に選択して表示できます。
 
-プッシュ通知で決定ポリシーを作成および使用する方法について詳しくは、[&#x200B; この節 &#x200B;](../experience-decisioning/create-decision.md) を参照してください。
+プッシュ通知で決定ポリシーを作成および使用する方法について詳しくは、[この節](../experience-decisioning/create-decision.md)を参照してください。
 
 ## 詳細オプション {#advanced-options-push}
 

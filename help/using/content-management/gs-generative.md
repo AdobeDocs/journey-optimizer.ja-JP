@@ -78,7 +78,7 @@ Adobe Journey Optimizer の AI アシスタントを使用して、様々なメ�
 
 >[!IMPORTANT]
 >
->* この機能の使用を開始する前に、関連する[&#x200B; ガードレールと制限事項](#generative-guardrails)をお読みください。
+>* この機能の使用を開始する前に、関連する[ ガードレールと制限事項](#generative-guardrails)をお読みください。
 >
 >
 >* Adobe Journey Optimizer で AI アシスタントを使用する前に、[ユーザー契約](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}に同意する必要があります。詳しくは、アドビ担当者にお問い合わせください。

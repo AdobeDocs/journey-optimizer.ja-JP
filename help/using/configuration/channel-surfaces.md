@@ -167,7 +167,7 @@ ht-degree: 95%
 >
 >**[!UICONTROL プッシュ通知設定]**&#x200B;は編集できません。チャネル設定がプッシュ通知チャネル用にのみ設定されている場合は、編集できません。
 >
->メール設定を編集する際に、新しい [&#x200B; プロファイル属性 &#x200B;](../personalization/personalization-build-expressions.md#sources) をヘッダーパラメーターに追加することはできません。 [&#x200B; 新規チャネル設定 &#x200B;](#create-channel-surface) を作成する必要があります。
+>メール設定を編集する際に、ヘッダーパラメーターに新しい[ プロファイル属性](../personalization/personalization-build-expressions.md#sources)を追加することはできません。 [新しいチャネル設定](#create-channel-surface)を作成する必要があります。
 
 1. リストでチャネル設定名をクリックして開きます。
 
@@ -177,9 +177,9 @@ ht-degree: 95%
 
    >[!NOTE]
    >
-   >* 設定のステータスが **[!UICONTROL アクティブ]** の場合、「**[!UICONTROL 名前]**」、「**[!UICONTROL チャネルを選択]**」および「**[!UICONTROL サブドメイン]**」フィールドは読み取り専用であり、変更できません。
+   >* 設定のステータスが&#x200B;**[!UICONTROL アクティブ]**&#x200B;の場合、**[!UICONTROL 名前]**、**[!UICONTROL チャネルを選択]**、**[!UICONTROL サブドメイン]**&#x200B;のフィールドは読み取り専用であり、変更できません。
    >* 変更はいつでもドラフトとして保存し、後で更新を再開できます。
-   >* 「**[!UICONTROL 説明]**」、「**[!UICONTROL メールタイプ]**」または「**[!UICONTROL メールの再試行パラメーター]** の各フィールドに限定された編集は、処理遅延なしで即座に有効になります。
+   >* **[!UICONTROL 説明]**、**[!UICONTROL 電子メールの種類]**&#x200B;および/または&#x200B;**[!UICONTROL 電子メール再試行パラメーター]** フィールドに制限された編集は、処理遅延なしで即座に有効になります。
 
 1. 「 **[!UICONTROL 送信]**」をクリックして、変更を確定します。
 
@@ -292,4 +292,4 @@ ht-degree: 95%
 
 チャネル設定の概要と Adobe Journey Optimizer での使用方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3480452/?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433124/?learn=on)

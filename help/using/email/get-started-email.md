@@ -10,7 +10,7 @@ level: Beginner
 keywords: メール, 開始, 作成, プレビュー
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
 source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 100%
 
@@ -27,9 +27,9 @@ ht-degree: 100%
 
 メール配信を作成するには、次の手順を実行します。
 
-* **ジャーニー**&#x200B;の場合：ジャーニーに&#x200B;**[!UICONTROL メール]**&#x200B;アクティビティを追加し、基本設定を定義したら、右側の&#x200B;**[!UICONTROL アクション：メール]**&#x200B;パネルを使用して、メッセージのコンテンツを作成します。[ジャーニーの作成方法を学ぶ](../building-journeys/journey-gs.md)
+* **ジャーニー**&#x200B;の場合：ジャーニーに&#x200B;**[!UICONTROL メール]**&#x200B;アクティビティを追加し、基本設定を定義したら、右側の&#x200B;**[!UICONTROL アクション：メール]**&#x200B;パネルを使用して、メッセージのコンテンツを作成します。[ジャーニーを作成する方法の詳細情報](../building-journeys/journey-gs.md)
 
-* **Campaign** の場合：キャンペーンを作成したら、アクションとして「**[!UICONTROL メール]**」を選択し、基本設定を定義します。詳しくは、[アクションキャンペーン](../campaigns/campaign-action.md#action-campaign-action) | [API トリガーキャンペーン](../campaigns/api-triggered-campaigns.md) | [オーケストレーションキャンペーン](../orchestrated/create-orchestrated-campaign.md#create)の作成方法を参照してください
+* **Campaign** の場合：キャンペーンを作成したら、アクションとして「**[!UICONTROL メール]**」を選択し、基本設定を定義します。詳しくは、[アクションキャンペーン](../campaigns/campaign-action.md#action-campaign-action) | [API トリガーキャンペーン](../campaigns/api-triggered-campaigns.md) | [オーケストレーションキャンペーン](../orchestrated/create-orchestrated-campaign.md#create)の作成方法を参照してください。
 
 
 >[!IMPORTANT]
@@ -39,7 +39,7 @@ ht-degree: 100%
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>
 <a href="create-email.md">
-<img alt=" の作成" src="../assets/do-not-localize/email-create.jpeg">
+<img alt="作成" src="../assets/do-not-localize/email-create.jpeg">
 </a>
 <div><a href="create-email.md"><strong>メールの作成</strong>
 </div>

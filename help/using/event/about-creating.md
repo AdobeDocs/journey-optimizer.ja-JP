@@ -96,8 +96,8 @@ ht-degree: 96%
    >[!NOTE]
    >
    >システム生成イベントの場合：
-   >* `orchestration` フィールドグループが XDM スキーマに追加されていることを確認します。これにより、[!DNL Journey Optimizer] を操作するために必要なすべての情報がスキーマに含まれるようになります。
-   >* **[!UICONTROL eventID]** フィールドは、選択したフィールドのリストに自動的に追加され、イベントを識別で [!DNL Journey Optimizer] るようになります。 イベントをプッシュするシステムでは ID を生成しないでください。代わりに、ペイロードプレビューにある ID を使用します。 [詳細情報](../event/about-creating.md#preview-the-payload)
+   >* XDM スキーマに`orchestration` フィールドグループを追加したことを確認してください。これにより、スキーマに[!DNL Journey Optimizer]を操作するために必要なすべての情報が含まれるようになります。
+   >* **[!UICONTROL eventID]** フィールドは、選択したフィールドのリストに自動的に追加されるので、[!DNL Journey Optimizer]はイベントを識別できます。 イベントをプッシュするシステムはIDを生成しないでください。代わりに、ペイロードプレビューで使用可能なIDを使用してください。 [詳細情報](../event/about-creating.md#preview-the-payload)
 
    ![](assets/journey9.png)
 

@@ -23,11 +23,11 @@ ht-degree: 93%
 >
 >この機能は、限定提供で使用できます。アクセス権を取得するには、アドビ担当者にお問い合わせください。
 
-[&#x200B; 完全にデリゲート &#x200B;](about-subdomain-delegation.md#full-subdomain-delegation) および [CNAME 設定 &#x200B;](about-subdomain-delegation.md#subdomain-delegation-methods) 方法の代わりに、**カスタムデリゲーション** 方法を使用すると、Journey Optimizer内のサブドメインの所有権を取得し、生成された証明書を完全に制御できます。
+[完全にデリゲートされた](about-subdomain-delegation.md#full-subdomain-delegation)および[CNAMEが](about-subdomain-delegation.md#subdomain-delegation-methods)方式を設定する代わりに、**カスタム委任**&#x200B;方式を使用すると、Journey Optimizer内のサブドメインの所有権を取得し、生成された証明書を完全に制御できます。
 
 >[!NOTE]
 >
->サブドメインが現在 CNAME で設定されている場合は、カスタムのデリゲーションに移行することもできます。 [詳細情報](custom-subdomain-migration.md)
+>サブドメインが現在CNAMEで設定されている場合は、カスタムデリゲーションに移行することもできます。 [詳細情報](custom-subdomain-migration.md)
 
 このプロセスの一部として、アドビでは、メッセージの配信、レンダリング、トラッキングに DNS が適切に設定されていることを確認する必要があります。このため、認証局から取得した [SSL 証明書をアップロード](#upload-ssl-certificate)し、ドメインの所有権を確認してメールアドレスを報告し、[フィードバックループの手順](#feedback-loop-steps)を完了する必要があります。
 
@@ -152,7 +152,7 @@ ht-degree: 93%
 
    ![](assets/subdomain-custom-feedback-loop.png){width="85%"}
 
-## SSL CDN URL 検証レコードをコピー {#copy-ssl-cdn-url-record}
+## SSL CDN URL検証レコードのコピー {#copy-ssl-cdn-url-record}
 
 1. 「**[!UICONTROL 続行]**」をクリックし、ご利用のホスティングソリューションでレコードがエラーなく生成されたことを、アドビが確認するまで待ちます。この処理には最大 2 分かかる場合があります。
 

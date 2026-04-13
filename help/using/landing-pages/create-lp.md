@@ -26,7 +26,7 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->最初のランディングページを作成する前に、[&#x200B; ランディングページの設定](../../rp_landing_pages/lp-configuration-landing-page.md)を完了してください。 これには、ランディングページをホストするサブドメインを設定したり、サブドメインやその他のチャネル設定を指定する少なくとも1つのプリセットを定義したりすることが含まれます。 ランディングページの作成時に、プリセットを選択する必要があります。
+>最初のランディングページを作成する前に、[ ランディングページの設定](../../rp_landing_pages/lp-configuration-landing-page.md)を完了してください。 これには、ランディングページをホストするサブドメインを設定したり、サブドメインやその他のチャネル設定を指定する少なくとも1つのプリセットを定義したりすることが含まれます。 ランディングページの作成時に、プリセットを選択する必要があります。
 
 ## ランディングページの作成 {#create-landing-page}
 
@@ -91,7 +91,7 @@ ht-degree: 93%
 >title="プライマリページ設定の定義"
 >abstract="プライマリページとは、メールや web サイトなどで、ユーザーがランディングページへのリンクをクリックした直後に表示されるページです。"
 <!--
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html?lang=ja" text="Design the landing page content"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/landing-pages/landing-pages-design/design-lp.html" text="Design the landing page content"
 -->
 
 >[!CONTEXTUALHELP]

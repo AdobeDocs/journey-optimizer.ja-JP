@@ -34,7 +34,7 @@ ht-degree: 81%
 
 >[!NOTE]
 >
->URL に追加される URL トラッキングパラメーターの順序はランダムで、制御できません。 システムが特定の順序でパラメーターを必要とする場合は、側でパラメーターを解析して並べ替える必要があります。
+>URLに追加されたURL トラッキングパラメーターの順序はランダムで、制御できません。 システムで特定の順序でパラメーターが必要な場合は、それを解析して並べ替える必要があります。
 
 「**[!UICONTROL 新しいパラメーターを追加]**」ボタンを使用して最大 10 個のトラッキングパラメーターを追加できます。
 
@@ -56,7 +56,7 @@ URL トラッキングパラメーターを設定するには、目的の値を&
 
   >[!NOTE]
   >
-  >商品の変更後に閉じられたジャーニーや再公開されなかったアセットは、トラッキング URL の `context.system.source.actionId` に入力できず、空のプレースホルダー（例：`cid=em-acou-adob{}`）が生じる場合があります。 トラッキングパラメーターが正しく入力されていることを確認するには、[&#x200B; 影響を受けるジャーニーを再公開 &#x200B;](../building-journeys/publish-journey.md#journey-create-new-version) するか、クローズ済みジャーニーのこのコンテキストフィールドへの参照を削除します。 詳しくは、[&#x200B; ライブジャーニーの実行のトラブルシューティング &#x200B;](../building-journeys/troubleshooting-execution.md#tracking-parameters-closed-journeys) を参照してください。
+  >製品の変更後に閉じられたか再公開されなかったジャーニーは、トラッキング URLに`context.system.source.actionId`が入力されず、空のプレースホルダー（例：`cid=em-acou-adob{}`）になる可能性があります。 トラッキングパラメーターが正しく入力されるようにするには、[影響を受けるジャーニーを再公開するか、クローズしたジャーニーに対してこのコンテキストフィールドへの参照を削除します](../building-journeys/publish-journey.md#journey-create-new-version)。 詳しくは、[ ライブジャーニー実行のトラブルシューティング ](../building-journeys/troubleshooting-execution.md#tracking-parameters-closed-journeys)を参照してください。
 
 * **ソースアクション名**：ジャーニーまたはキャンペーンに追加されたメールアクションの名前。
 
