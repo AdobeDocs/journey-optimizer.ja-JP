@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: e13b870022fa168da4ee0643dbefad1f99f5f6fa
 workflow-type: tm+mt
-source-wordcount: '2159'
-ht-degree: 88%
+source-wordcount: '2185'
+ht-degree: 87%
 
 ---
 
@@ -53,6 +53,8 @@ Journey Optimizer では、決定項目と呼ばれるマーケティングオ�
    >[!AVAILABILITY]
    >
    >この機能は、**コードベースのエクスペリエンス**&#x200B;および&#x200B;**電子メール** チャネルの限定提供で利用できます。 アクセスをリクエストするには、Adobe担当者にお問い合わせください。
+
+   これらのフラグメントを意思決定ポリシーで使用する場合、Edgeで一時的に使用できない場合にフラグメントをスキップするように、フラグメントをオプションにすることができます。 [詳細情報](fragments-decision-policies.md#optional-fragments)
 
 1. カスタム属性を指定します（オプション）。カスタム属性は、ニーズに合わせて調整された特定の属性で、決定項目に割り当てることができます。これらは、決定項目のカタログスキーマで定義されます。[カタログの操作方法を学ぶ](catalogs.md)
 

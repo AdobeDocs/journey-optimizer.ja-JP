@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7529370ed8308dea4ab39aaf6b7f82f4982933ca
+source-git-commit: 5bf30e44d9b13fd6a1ac58e93212a84771ce1f5e
 workflow-type: tm+mt
-source-wordcount: '2482'
+source-wordcount: '2520'
 ht-degree: 21%
 
 ---
@@ -128,6 +128,12 @@ ht-degree: 21%
 </table>
 
 ### 機能強化 {#april-26-improv}
+
+#### 決定
+
+* **一時的に利用できないフラグメントがスキップされる** – 決定項目でフラグメントを使用する場合、Edgeでフラグメントが一時的に利用できない場合、そのフラグメントはスキップされ、ジャーニーまたはキャンペーンは失敗する代わりにレンダリングを続行します。 [詳細情報](../experience-decisioning/fragments-decision-policies.md#temporary-unavailable-fragments)
+
+  公開日：2026年4月14日（PT）
 
 #### メールデザイン
 
@@ -456,11 +462,6 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 * **Text mode support in fragments** - To support text-based email workflows, you can now create and manage text versions of your visual fragments for optimal use in the plain text version of emails that include that fragment.
 
   **Caution:** When using a fragment that was created before the current release, the fragment text version may be incorrectly rendered—both in the Email Designer and in the final email delivered to your recipients. For best results with older fragments, edit, save and republish each fragment.
--->
-<!--
-#### Decisioning
-
-* **Optional fragments in decision items** - When using fragments in decision items, you can now make a fragment optional so that if it is temporarily unavailable on Edge, it is skipped and the journey or campaign continues rendering instead of failing.
 -->
 
 #### 設定
