@@ -5,12 +5,13 @@ title: MCP経由でAI アシスタントと連携する
 description: MCP サーバーを使用してAdobe Journey OptimizerをAI アシスタントに接続する方法を説明します
 feature: Integrations
 topic: Content Management, Artificial Intelligence
-badge: label="限定提供" type="Informative"
+badge: label="ベータ版" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: 5c2c3ae045b37c734c9cf18ad60bd92d6a98c67f
+hide: true
+source-git-commit: 03ac391f57c271416506b1213c4b8da5f06b32d5
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '793'
 ht-degree: 1%
 
 ---
@@ -19,7 +20,9 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->[!DNL Adobe Journey Optimizer] MCP サーバーは現在、**Claude Web**&#x200B;および&#x200B;**Claude Desktop**&#x200B;でのみ利用できます。
+>[!DNL Adobe Journey Optimizer] MCP サーバーは現在、**Claude Web**&#x200B;および&#x200B;**Claude Desktop**&#x200B;でのみ利用できます。 MCP互換アプリケーションのサポートは、今後のリリースで追加される予定です。
+
+[!DNL Adobe Journey Optimizer]のMCP統合により、API呼び出しを記述したり、製品画面を移動したりすることなく、平易な言語のプロンプトを使用してキャンペーン、ジャーニー、オファーをクエリできます。 このページでは、統合がどのように機能するのか、何ができるのか、どのように始めればよいのかについて説明します。
 
 ## モデル コンテキスト プロトコルとは何ですか？ {#mcp-overview}
 
@@ -29,7 +32,7 @@ ht-degree: 1%
 
 ## 主な機能 {#mcp-capabilities}
 
-[!DNL Adobe Journey Optimizer] MCP サーバーを使用すると、[!DNL Adobe Journey Optimizer]件のジャーニー、キャンペーン、オファーをAI アシスタントから直接検査、要約、トラブルシューティングできます。 [!DNL Adobe Journey Optimizer]の取得APIは平易な言語の回答に変換されるので、次のことが可能になります。
+[!DNL Adobe Journey Optimizer] MCP サーバーでは、AI アシスタントから直接、ジャーニー、キャンペーン、オファーを検査、要約、トラブルシューティングできます。 すべての操作は&#x200B;**読み取り専用**&#x200B;です。MCP サーバーサーフェスは、APIを平易な言語の回答として取得するため、次のことが可能です。
 
 * **ジャーニーロジックを理解** – あらゆるジャーニーの分岐、条件、アクションについて、人間が理解できる要約を取得します。
 * **キャンペーンの準備状況を確認** — キャンペーンの公開を妨げるブロッカーを特定します。
@@ -61,7 +64,13 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->統合が一般公開されると、詳細な設定手順が追加されます。 早期アクセスについては、Adobe担当者にお問い合わせください。
+>この統合はBetaにあります。 詳細な設定手順は、一般公開に達したときに公開されます。 Adobeの担当者に連絡して、早期アクセスをリクエストし、設定手順を受け取る。
+
+Betaフェーズでは、Adobeの担当者が次の内容を提供します。
+
+* 組織に固有のMCP サーバーエンドポイント URL。
+* AI アシスタントを[!DNL Adobe Journey Optimizer]に接続するための認証情報。
+* Claude DesktopまたはClaude WebでのMCP サーバーの設定に関するガイダンス。
 
 <!--
 Step-by-step connection instructions to be added here, including:
@@ -90,4 +99,14 @@ Step-by-step connection instructions to be added here, including:
 +++データはAI アシスタントプロバイダーに送信されますか？
 
 プロンプトを送信すると、AI アシスタントは、関連するコンテキスト（MCP サーバーから返された[!DNL Adobe Journey Optimizer] データを含む）をモデルに送信して処理する場合があります。 本番データに接続する前に、AI アシスタントプロバイダーのプライバシーポリシーとデータ処理ポリシーを確認しましょう。
++++
+
++++[!DNL Adobe Journey Optimizer]でどのような権限が必要ですか？
+
+クエリするオブジェクト（キャンペーン、ジャーニー、オファー）に対して、最低&#x200B;**表示**&#x200B;権限が必要です。 MCP サーバーは読み取り操作のみを実行するため、書き込み権限は必要ありません。 現在のアクセス レベルが不明な場合は、[!DNL Adobe Journey Optimizer]管理者にお問い合わせください。
++++
+
++++サンドボックス環境でMCP サーバーを使用できますか？
+
+はい。 MCP サーバーは、[!DNL Adobe Journey Optimizer] サンドボックス設定を尊重します。 サンドボックス固有のデータをクエリするには、プロンプトでサンドボックスを指定するか、特定のサンドボックスにスコープ付きの資格情報で接続します。
 +++
