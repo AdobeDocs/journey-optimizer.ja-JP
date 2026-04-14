@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 hide: true
 keywords: 統合、ベンダー、サードパーティ
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 9d839f8ac20b80e4abf5bedb881908f4e24964fc
 workflow-type: tm+mt
 source-wordcount: '9157'
 ht-degree: 7%
@@ -48,6 +48,7 @@ Contentfulは、RESTまたはGraphQL経由の構造化されたエントリと�
 * 配信API アクセスと読み取り指向のAPI キーを備えたコンテンツフルスペース。
 * コンテンツタイプとフィールド IDをクリアします。Journey Optimizerの管理者アクセス権により、統合を作成できます。
 
+
 次の制限事項と除外事項が適用されます。
 
 * ブロックリストまたはページ分割されたコンテンツ APIは、このパターンに適していません。特定のエントリまたはアセットをターゲットとする取得呼び出しを優先します。
@@ -83,7 +84,7 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 +++ 統合フィールドの例
 
-統合フィールドのサンプル（お使いのスペースと環境の[&#x200B; コンテンツ配信API](https://www.contentful.com/developers/docs/references/content-delivery-api/){target="_blank"}に合わせる）:
+統合フィールドのサンプル（お使いのスペースと環境の[ コンテンツ配信API](https://www.contentful.com/developers/docs/references/content-delivery-api/){target="_blank"}に合わせる）:
 
 | フィールド | 値 |
 | -- | -- |
@@ -166,7 +167,7 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 +++ 統合フィールドの例
 
-Journey Optimizerでこのサンプル呼び出しを設定する場合は、次のフィールドを使用します。 [Sitecore ドキュメント &#x200B;](https://doc.sitecore.com/){target="_blank"}で、製品（Content Hub、XM Cloudなど）のホスト名とAPI バージョンを確認します。
+Journey Optimizerでこのサンプル呼び出しを設定する場合は、次のフィールドを使用します。 [Sitecore ドキュメント ](https://doc.sitecore.com/){target="_blank"}で、製品（Content Hub、XM Cloudなど）のホスト名とAPI バージョンを確認します。
 
 | フィールド | 値 |
 | --- | --- |
@@ -512,7 +513,7 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 +++ 統合フィールドの例
 
-パターンの例：`https://{domain}/magnoliaAuthor/.rest/delivery/...`またはパブリック配信ツアースタイルのURL。 パスは、インストール済みのモジュールによって異なります。 [Magnolia ドキュメント &#x200B;](https://docs.magnolia-cms.com/){target="_blank"}を参照してください。
+パターンの例：`https://{domain}/magnoliaAuthor/.rest/delivery/...`またはパブリック配信ツアースタイルのURL。 パスは、インストール済みのモジュールによって異なります。 [Magnolia ドキュメント ](https://docs.magnolia-cms.com/){target="_blank"}を参照してください。
 
 | フィールド | 値 |
 | --- | --- |
@@ -784,7 +785,7 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 +++ 統合フィールドの例
 
-統合フィールドのサンプルには、**ステージング** ホストが使用されます。実稼動では、Antavo スタック ホスト名が使用されます。 [Antavo ドキュメント &#x200B;](https://antavo.com/docs/){target="_blank"}を参照してください。
+統合フィールドのサンプルには、**ステージング** ホストが使用されます。実稼動では、Antavo スタック ホスト名が使用されます。 [Antavo ドキュメント ](https://antavo.com/docs/){target="_blank"}を参照してください。
 
 | フィールド | 値 |
 | --- | --- |
@@ -961,7 +962,7 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 +++ 統合フィールドの例
 
-例：`https://ushc.intouch.capillarytech.com/api/v3/rewards/{reward_id}` （ホストは地域によって異なります）。 ホストと認証スキームを[&#x200B; キャピラリー](https://capillarytech.com/){target="_blank"}で検証します。
+例：`https://ushc.intouch.capillarytech.com/api/v3/rewards/{reward_id}` （ホストは地域によって異なります）。 ホストと認証スキームを[ キャピラリー](https://capillarytech.com/){target="_blank"}で検証します。
 
 
 | フィールド | 値 |
@@ -1154,7 +1155,7 @@ Adobe Targetには、使用権限に応じて、サーバーサイドまたは�
 
 Journey Optimizerでこの統合を設定するには、次の手順を使用します。 リクエストの詳細については、**統合フィールドのサンプル**&#x200B;を参照し、これらの値を環境のベンダードキュメントで確認してください。
 
-1. [統合の操作](external-sources.md)に従います。 配信の呼び出しは、多くの場合、**POST**&#x200B;とJSON本文で行われます。 [&#x200B; ターゲット認証](https://experienceleague.adobe.com/ja/docs/target-dev/developer/api/configure-authentication){target="_blank"}ごとにOAuthを設定し、サンプル応答を貼り付け、フィールドをマッピングし、想定されるボリュームでテストします。
+1. [統合の操作](external-sources.md)に従います。 配信の呼び出しは、多くの場合、**POST**&#x200B;とJSON本文で行われます。 [ ターゲット認証](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication){target="_blank"}ごとにOAuthを設定し、サンプル応答を貼り付け、フィールドをマッピングし、想定されるボリュームでテストします。
 
 1. Journey Optimizerで、設定/管理に移動し、「統合を作成」を選択します。
 
@@ -1209,7 +1210,7 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 **認証**
 
-[Target認証設定](https://experienceleague.adobe.com/ja/docs/target-dev/developer/api/configure-authentication)を参照し、JSONをペイロードに追加してください。
+[Target認証設定](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication)を参照し、JSONをペイロードに追加してください。
 
 **要求ペイロード**
 
@@ -1592,7 +1593,7 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 +++統合フィールドの例
 
-以下の&#x200B;**GET** ジョブの例は実例です。SQL ドリブン型のパーソナライゼーションの場合は、ワークスペースがサポートする[&#x200B; ステートメント実行API](https://docs.databricks.com/api/workspace/statementexecution){target="_blank"} パターンを優先します。
+以下の&#x200B;**GET** ジョブの例は実例です。SQL ドリブン型のパーソナライゼーションの場合は、ワークスペースがサポートする[ ステートメント実行API](https://docs.databricks.com/api/workspace/statementexecution){target="_blank"} パターンを優先します。
 
 | フィールド | 値 |
 | --- | --- |
@@ -1671,7 +1672,7 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 +++ 統合フィールドの例
 
-統合フィールドのサンプル。 OAuth 2.0 ペイロードの詳細については、[Bynder API ドキュメント &#x200B;](https://developer.bynder.com/){target="_blank"}を参照してください。
+統合フィールドのサンプル。 OAuth 2.0 ペイロードの詳細については、[Bynder API ドキュメント ](https://developer.bynder.com/){target="_blank"}を参照してください。
 
 | フィールド | 値 |
 | --- | --- |
