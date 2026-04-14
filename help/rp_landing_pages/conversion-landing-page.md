@@ -6,10 +6,10 @@ description: コンバージョン
 redpen-status: CREATED_||_2025-08-11_20-13-12
 exl-id: c3b49adc-40d9-40e2-8496-e3037621f522
 hide: true
-source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '262'
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Journey Optimizer の「コンバージョン」の節では、データ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 toBool 関数
 
@@ -31,7 +31,7 @@ toBool 関数を使用して、様々なデータタイプをブール値に変�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 toDateOnly 関数
 
@@ -41,7 +41,7 @@ toDateOnly 関数を使用して、日付表現を dateOnly 型に変換しま�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 toDateTime 関数
 
@@ -51,7 +51,7 @@ toDateTime 関数を使用して、様々な入力を日時の値に変換しま
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 toDateTimeOnly 関数
 
@@ -61,7 +61,7 @@ toDateTimeOnly 関数を使用して、タイムゾーンを含まない日時�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 toDecimal 関数
 
@@ -71,7 +71,7 @@ toDecimal 関数を使用して、様々なデータタイプを小数値に変�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 toDuration 関数
 

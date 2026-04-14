@@ -6,7 +6,7 @@ description: 文字列
 redpen-status: CREATED_||_2025-08-11_20-18-34
 hide: true
 exl-id: 1085e570-10b8-4d96-912a-994979358b65
-source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 100%
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 concat 関数リファレンス
 
@@ -31,7 +31,7 @@ concat 関数リファレンス
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 「contain」関数の使用
 
@@ -41,7 +41,7 @@ concat 関数リファレンス
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 containIgnoreCase 関数
 
@@ -51,7 +51,7 @@ containIgnoreCase 関数
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 endWith 関数リファレンス
 
@@ -61,7 +61,7 @@ endWith 関数リファレンス
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 endWithIgnoreCase 関数
 
@@ -71,7 +71,7 @@ endWithIgnoreCase 関数
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 equalIgnoreCase 関数リファレンス
 

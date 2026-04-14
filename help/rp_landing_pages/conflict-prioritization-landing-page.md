@@ -6,10 +6,10 @@ description: 競合管理と優先順位付け
 hide: true
 redpen-status: CREATED_||_2025-08-11_20-29-02
 exl-id: 02176308-efeb-49dc-88a6-bc886dc8fc9b
-source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '206'
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Journey Optimizer の競合管理と優先順位付けにより、お客�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 競合管理の基本を学ぶ
 
@@ -31,7 +31,7 @@ Adobe Journey Optimizer の競合管理と優先順位付けにより、お客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 潜在的な競合の特定
 
@@ -41,7 +41,7 @@ Adobe Journey Optimizer の競合管理と優先順位付けにより、お客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 キャンペーンへの優先度スコアの割り当て
 
@@ -51,7 +51,7 @@ Adobe Journey Optimizer の競合管理と優先順位付けにより、お客�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 メッセージとジャーニーのキャッピングルールの設定
 

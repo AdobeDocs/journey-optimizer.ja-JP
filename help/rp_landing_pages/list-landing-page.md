@@ -6,7 +6,7 @@ description: リスト
 redpen-status: CREATED_||_2025-08-11_20-15-54
 exl-id: 5cb96709-c1bf-415e-bcdf-217c1ae7c34d
 hide: true
-source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 100%
@@ -21,7 +21,7 @@ Adobe Journey Optimizer の「リスト」関数を使用すると、ワーク�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer での「distinct」関数の使用
 
@@ -31,7 +31,7 @@ Adobe Journey Optimizer での「distinct」関数の使用
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 distinctWithNull 関数 - Adobe Journey Optimizer
 
@@ -41,7 +41,7 @@ null エントリを含めながら、リストから個別の値またはオブ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer での「filter」関数の使用
 
@@ -51,7 +51,7 @@ Adobe Journey Optimizer での「filter」関数の使用
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer での getListItem 関数の使用
 
@@ -61,7 +61,7 @@ Adobe Journey Optimizer での getListItem 関数の使用
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer での「in」関数の使用
 
@@ -71,7 +71,7 @@ Adobe Journey Optimizer での「in」関数の使用
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Adobe Journey Optimizer の intersect 関数
 
