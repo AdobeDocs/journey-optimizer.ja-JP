@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 hide: true
 keywords: 統合、ベンダー、サードパーティ
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 9d839f8ac20b80e4abf5bedb881908f4e24964fc
 workflow-type: tm+mt
 source-wordcount: '9157'
 ht-degree: 7%
@@ -47,6 +47,7 @@ Contentfulは、RESTまたはGraphQL経由の構造化されたエントリと�
 
 * 配信API アクセスと読み取り指向のAPI キーを備えたコンテンツフルスペース。
 * コンテンツタイプとフィールド IDをクリアします。Journey Optimizerの管理者アクセス権により、統合を作成できます。
+
 
 次の制限事項と除外事項が適用されます。
 

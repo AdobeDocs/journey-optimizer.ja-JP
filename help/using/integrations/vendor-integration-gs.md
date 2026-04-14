@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 hide: true
 keywords: 統合、ベンダー、サードパーティ
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 9d839f8ac20b80e4abf5bedb881908f4e24964fc
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 1%
@@ -29,6 +29,7 @@ ht-degree: 1%
 * [FAQ](vendor-integration-faq.md)
 
 >[!ENDSHADEBOX]
+
 
 Adobe Journey Optimizerで&#x200B;**Integrations**&#x200B;を使用して、各システムがユースケースに適した&#x200B;**API エンドポイント**&#x200B;を公開し、Integrationsがリクエストを発行し、応答を消費する方法と互換性がある場合、HTTP **経由で**&#x200B;外部システムを呼び出すことができます。 完全なワークフローについては、[統合の操作](external-sources.md)を参照してください。
 

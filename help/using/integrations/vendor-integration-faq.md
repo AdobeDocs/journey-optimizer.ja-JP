@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 統合、FAQ、外部データ、パーソナライゼーション
 hide: true
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 9d839f8ac20b80e4abf5bedb881908f4e24964fc
 workflow-type: tm+mt
 source-wordcount: '886'
 ht-degree: 1%
@@ -30,6 +30,7 @@ ht-degree: 1%
 >[!ENDSHADEBOX]
 
 以下は、Adobe Journey Optimizerの&#x200B;**統合**&#x200B;に関するよくある質問です。
+
 
 ## 基本を学ぶ
 
