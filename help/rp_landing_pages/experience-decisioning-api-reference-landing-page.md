@@ -21,7 +21,7 @@ Adobe Journey Optimizer のコードベースのエクスペリエンスチャ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 コードベースのエクスペリエンスチャネルを使用したオファーの配信
 
