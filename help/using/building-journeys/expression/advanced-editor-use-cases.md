@@ -10,7 +10,7 @@ hide: true
 keywords: 式, 条件, ユースケース, イベント
 exl-id: 753ef9f4-b39d-4de3-98ca-e69a1766a78b
 version: Journey Orchestration
-source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 95%

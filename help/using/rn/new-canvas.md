@@ -7,7 +7,7 @@ topic: Content Management
 description: 新しいジャーニーのインターフェイス
 hide: true
 exl-id: 03828fca-dde7-4b3b-b890-2c007d1245cc
-source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
 workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 2%

@@ -11,7 +11,7 @@ hide: true
 keywords: 配信品質, ジャーニー, 使用例, メール, 評価
 exl-id: 83d1b68d-011a-4109-b5f0-6ca1ade2944d
 version: Journey Orchestration
-source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 91%

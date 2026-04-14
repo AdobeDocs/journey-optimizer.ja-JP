@@ -11,7 +11,7 @@ hide: true
 keywords: CC、カーボンコピー、メール、チャネル設定、メールヘッダー、BCC
 badge: label="限定提供" type="Informative"
 exl-id: 9649cc07-3183-4510-b5d9-b1e33eff43e9
-source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
 workflow-type: tm+mt
 source-wordcount: '879'
 ht-degree: 13%

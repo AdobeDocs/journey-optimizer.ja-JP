@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 統合、FAQ、外部データ、パーソナライゼーション
 hide: true
-source-git-commit: 3733c9ab401f85b22e1d6e07dbf4db535ff8a96d
+source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
 workflow-type: tm+mt
 source-wordcount: '886'
 ht-degree: 1%

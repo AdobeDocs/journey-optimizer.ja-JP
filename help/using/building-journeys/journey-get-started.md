@@ -9,7 +9,7 @@ level: Beginner, Intermediate
 hide: true
 keywords: ジャーニー, オーケストレーション, はじめに, オンボーディング, 機能
 exl-id: 96b1d619-986d-493d-a73b-d7c63b92cca8
-source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
 workflow-type: tm+mt
 source-wordcount: '839'
 ht-degree: 93%

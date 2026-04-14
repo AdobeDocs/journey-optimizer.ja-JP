@@ -10,10 +10,10 @@ level: Intermediate
 hide: true
 exl-id: ec1af88c-7b0a-4eaf-97e1-0d9676268fed
 badge: label="ベータ版" type="Informative"
-source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '477'
+ht-degree: 100%
 
 ---
 
