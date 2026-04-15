@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: アクション, サードパーティ, カスタム, ジャーニー, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
-source-git-commit: 05f076f19a348032e5bb21d7d1682509bd5d2658
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '2022'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -153,7 +153,7 @@ Journey Optimizer では、カスタムアクションにデータガバナン�
    >
    >ヘッダーは、フィールド解析ルールに従って検証されます。詳しくは、[このドキュメント](https://tools.ietf.org/html/rfc7230#section-3.2.4){_blank}を参照してください。
 
-## Transport Security Layer {#tls}
+## 輸送セキュリティ層 {#tls}
 
 ### TLS プロトコルのサポート {#tls-protocol-support}
 

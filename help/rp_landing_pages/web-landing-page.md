@@ -5,10 +5,10 @@ title: Web チャネル
 description: Web チャネル
 redpen-status: CREATED_||_2025-08-11_20-40-58
 exl-id: 3ff0809b-2d60-477b-9a4c-c6c2324c1a10
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '213'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 100%
 
 Adobe Journey Optimizer の web チャネルを使用すると、web サイト上でパーソナライズされたエクスペリエンスを直接作成し、お客様と有意義な方法でつながるのに役立ちます。カスタマイズしたコンテンツでエンゲージメントを強化する場合でも、web キャンペーンをメール、SMS、プッシュ通知などの他のチャネルとシームレスに統合する場合でも、この機能は、マーケティング目標を達成する汎用性の高いツールキットを提供します。ビジュアルエディターや非ビジュアルエディターなどの直感的なツールをすべて使用して、web チャネルを設定し、web エクスペリエンスを定義およびカスタマイズし、その影響を監視する方法について説明します。各サブトピックは前のトピックに基づいて作成されています。この説明により、web パーソナライゼーションと最適化を自信を持って習得できます。
 
-## Web チャネルドキュメント
+## web チャネルドキュメント
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Web チャネルの基本を学ぶ
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer でパーソナライズされた web エクスペリエ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Web チャネルの設定
 
@@ -40,7 +40,7 @@ Web チャネルの設定
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 Web エクスペリエンスの作成と管理
 
@@ -50,11 +50,11 @@ Web エクスペリエンスの作成と管理
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Web ページの作成と管理
 
-SPA やクリックの追跡など、web ページを作成、編集、監視、パーソナライズするツールとベストプラクティスについて説明します。
+SPA やクリックの追跡など、web ページを作成、編集、モニタリング、パーソナライズするツールとベストプラクティスについて説明します。
 
 [オーサリングツールの探索](author-web-pages-landing-page.md)
 :::

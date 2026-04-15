@@ -5,10 +5,10 @@ title: メールコンテンツのデザイン
 description: メールコンテンツのデザイン
 redpen-status: CREATED_||_2025-08-11_20-33-11
 exl-id: 21ba6677-f158-4d9d-8b01-304c4d3841ee
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '218'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer でメールコンテンツをデザインすると、�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 メールデザインの基本を学ぶ
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer でメールコンテンツをデザインすると、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 メールコンテンツの作成と最適化
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer でメールコンテンツをデザインすると、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Adobe Journey Optimizer でのコンテンツのデザイン
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer でのコンテンツのデザイン
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 スタイルの編集：メールデザインのカスタマイズ
 

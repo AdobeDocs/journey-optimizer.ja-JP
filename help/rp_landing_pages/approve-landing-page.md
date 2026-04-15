@@ -5,7 +5,7 @@ title: ジャーニーとキャンペーンの承認
 description: ジャーニーとキャンペーンの承認
 redpen-status: CREATED_||_2025-08-11_20-30-36
 exl-id: 88c48ccd-c3b7-4235-933b-7a08f5a8f346
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 100%
@@ -20,17 +20,17 @@ Adobe Journey Optimizer でジャーニーとキャンペーンを承認する�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 ジャーニーとキャンペーンの承認の設定と管理
 
-前提条件やリクエストの監視など、ジャーニーとキャンペーンの承認プロセスを設定および管理する方法について説明します。
+前提条件やリクエストのモニタリングなど、ジャーニーとキャンペーンの承認プロセスを設定および管理する方法について説明します。
 
 [承認の詳細情報](../using/test-approve/gs-approval.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 承認ポリシーを作成および管理する方法
 
@@ -40,17 +40,17 @@ Adobe Journey Optimizer でジャーニーとキャンペーンを承認する�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 ジャーニーとキャンペーンの承認をリクエストする方法
 
 アクティブな承認ポリシーを含むワークフローまたは含まないワークフローなど、ジャーニーとキャンペーンの承認をリクエストする方法について説明します。
 
-[承認のリクエスト](../using/test-approve/request-approval.md)
+[承認をリクエスト](../using/test-approve/request-approval.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 ジャーニーとキャンペーンのリクエストのレビューと承認
 

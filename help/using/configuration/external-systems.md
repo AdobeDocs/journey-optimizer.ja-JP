@@ -8,7 +8,7 @@ role: User
 level: Beginner
 keywords: 外部, API, Optimizer, キャップ
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
-source-git-commit: b2bfbf707adc60d3f08195c1df1b969523fb87b1
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1807'
 ht-degree: 97%
@@ -19,7 +19,7 @@ ht-degree: 97%
 
 このページでは、外部システムと統合するときに Journey Optimizer が提供する、さまざまなガードレールを紹介します。また、Capping API で外部システムを最適に保護する方法、ジャーニータイムアウトを設定する方法、再試行の仕組みなどのベストプラクティスも紹介します。
 
-Journey Optimizerでは、[&#x200B; カスタムデータソース &#x200B;](../datasource/about-data-sources.md) および [&#x200B; カスタムアクション &#x200B;](../action/action.md) を使用して、外部システムへの接続を設定できます。 これにより、例えば、外部の予約システムからのデータを使用してジャーニーを充実させたり、Epsilon や Facebook などのサードパーティシステムを使用してメッセージを送信したりできます。
+Journey Optimizerでは、[ カスタムデータソース ](../datasource/about-data-sources.md)および[ カスタムアクション ](../action/action.md)を使用して、外部システムへの接続を設定できます。 これにより、例えば、外部の予約システムからのデータを使用してジャーニーを充実させたり、Epsilon や Facebook などのサードパーティシステムを使用してメッセージを送信したりできます。
 
 外部システムを統合する際には、問題がいくつも発生したり、システムが低速になったり、応答が停止したり、大量の処理を行えなくなったりする場合があります。 Journey Optimizer には、システムを過負荷から保護するためにいくつかのガードレールがあります。
 
@@ -37,7 +37,7 @@ Journey Optimizer が外部 API を呼び出すと、次のようなテクニカ
 
 ## Capping API と Throttling API {#capping}
 
-### Capping API とThrottling API について
+### キャッピングとスロットリング apiについて
 
 データソースやアクションを設定する際は、システムへの接続を確立して、ジャーニーで使用する追加情報を取得するか、メッセージや API 呼び出しを送信します。
 
@@ -132,7 +132,7 @@ Journey Optimizer と外部システムの統合に関するよくある質問�
 
 +++ エグレスプロキシとは何ですか？いつ使用すればよいですか？
 
-エグレスプロキシは、Journey Optimizer **カスタムアクション** からの外部システムへの発信呼び出しに **静的 IP アドレス** を提供します。 サードパーティのエンドポイントで IP 許可リスト登録が必要な場合に使用します。
+エグレス プロキシは、Journey Optimizer **カスタムアクション**&#x200B;から外部システムへのアウトバウンド呼び出しに&#x200B;**静的IP アドレス**&#x200B;を提供します。 サードパーティのエンドポイントで IP 許可リスト登録が必要な場合に使用します。
 
 **重要：**&#x200B;エグレスプロキシは、スループット、レート制限、同時接続数を制御しません。呼び出し量と接続制限を管理するには、[Capping API](capping.md) または [Throttling API](throttling.md) を使用します。
 

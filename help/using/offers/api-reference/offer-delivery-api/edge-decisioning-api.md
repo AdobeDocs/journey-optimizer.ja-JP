@@ -10,14 +10,14 @@ role: Developer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '953'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
-# Edge Decisioning API を使用したオファーの配信 {#edge-decisioning-api}
+# Edge Decisioning APIを使用したオファーの配信 {#edge-decisioning-api}
 
 >[!TIP]
 >
@@ -68,7 +68,7 @@ SDK を使用するには、[スキーマ](../../../data/get-started-schemas.md)
 
 意思決定管理の SDK を設定するには、次の 2 つの手順に従います。
 
-## オプション 1 - Launch を使用したタグ拡張機能と実装のインストール
+## オプション 1 - launchを使用してタグ拡張機能と実装をインストールする
 
 コーディングの経験が少ないユーザーにとって、より使いやすいオプションです。
 

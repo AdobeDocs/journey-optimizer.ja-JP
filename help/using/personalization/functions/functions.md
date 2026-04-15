@@ -6,7 +6,7 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: e8ace59ea50d35de1f1b3b9a6417e5eb7961c236
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '2496'
 ht-degree: 98%
@@ -105,7 +105,7 @@ ht-degree: 98%
     </tr>
 </table>
 
-### 日時関数{#date-functions}
+### 日付時刻関数{#date-functions}
 
 <table>
     <tr>
@@ -533,4 +533,4 @@ ht-degree: 98%
 
 パーソナライズ機能のヘルパー関数を使用してパーソナライゼーション値を変換する方法と、ヘルパー関数の様々なユースケースを説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416781?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

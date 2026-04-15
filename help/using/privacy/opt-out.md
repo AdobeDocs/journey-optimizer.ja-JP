@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: ad3b64cb0ba6af5df654b340b4524161a94297e1
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1207'
 ht-degree: 84%
@@ -74,7 +74,7 @@ Journey Optimizer のメールと SMS メッセージでオプトアウトを管
 
 顧客は、パーソナライズされたコンテンツの表示をオプトアウトすることもできます。あるプロファイルがパーソナライゼーションからオプトアウトされたら、そのデータがパーソナライゼーションに使用されていないことを確認し、パーソナライズされたコンテンツをフォールバックバリアントに置き換える必要があります。
 
-### 意思決定管理の場合 {#opt-out-decision-management}
+### 意思決定管理における {#opt-out-decision-management}
 
 オファーを活用する場合、パーソナライゼーション環境設定は、[Decisioning](../offers/api-reference/offer-delivery-api/decisioning-api.md) API リクエストまたは [Edge Decisioning](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md) API リクエストから使用される[決定範囲](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)に自動的に実装されません。この場合、パーソナライゼーションの同意を手動で実施する必要があります。これを行うには、以下の手順に従います。
 
@@ -82,7 +82,7 @@ Journey Optimizer のメールと SMS メッセージでオプトアウトを管
 >
 >[!DNL Journey Optimizer] で作成したチャネルで使用される決定範囲は、属するジャーニーまたはキャンペーンからのこの要件を満たします。
 
-1. [&#x200B; セグメント化サービス &#x200B;](../audience/about-audiences.md)を使用して[Adobe Experience Platform オーディエンス &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja){target="_blank"}を作成し、**[!UICONTROL Personalize Content = Yes （オプトイン）]**&#x200B;などのプロファイル属性を使用して、パーソナライゼーションに同意したユーザーをターゲティングします。
+1. [ セグメント化サービス ](../audience/about-audiences.md)を使用して[Adobe Experience Platform オーディエンス ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja){target="_blank"}を作成し、**[!UICONTROL Personalize Content = Yes （オプトイン）]**&#x200B;などのプロファイル属性を使用して、パーソナライゼーションに同意したユーザーをターゲティングします。
 
    ![](assets/perso-consent-od-audience.png)
 
@@ -134,7 +134,7 @@ Journey Optimizer のメールと SMS メッセージでオプトアウトを管
 
 セグメントルールビルダーを使用して、オプトアウトプロファイルを含むオーディエンスを作成できます。
 
-1. [&#x200B; セグメント化サービス &#x200B;](../audience/about-audiences.md)を使用して、[Adobe Experience Platform オーディエンス &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja){target="_blank"}を作成します。
+1. [ セグメント化サービス ](../audience/about-audiences.md)を使用して、[Adobe Experience Platform オーディエンス ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja){target="_blank"}を作成します。
 
    ![](assets/perso-consent-audience-build-rule.png)
 
@@ -172,7 +172,7 @@ Journey Optimizer のメールと SMS メッセージでオプトアウトを管
 
 1. **[!UICONTROL パス 1]** は、パーソナライズされていないオーディエンスになります。関連するラベルを選択します。
 
-1. この[&#x200B; リスト &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=ja#choice-values){target="_blank"}から適切な値を選択してください。
+1. この[ リスト ](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=ja#choice-values){target="_blank"}から適切な値を選択してください。
 
    この場合、`n` を使用して、ユーザーがパーソナライゼーションに対するデータの使用に同意していないことを示します。
 

@@ -10,14 +10,14 @@ level: Beginner
 keywords: ジャーニー, キャンペーン, 調整, 比較, 選択, 決定, ワークフロー, リアルタイム, バッチ, オーケストレーション, マルチステップ, スケジュール, API トリガー, イベント駆動型
 hide: true
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1613'
-ht-degree: 62%
+ht-degree: 61%
 
 ---
 
-# ジャーニーとキャンペーン：適切なアプローチを選択 {#journeys-vs-campaigns}
+# ジャーニーと施策：適切なアプローチの選定 {#journeys-vs-campaigns}
 
 [!DNL Adobe Journey Optimizer]では、顧客にリーチしてエンゲージするための主な2つの方法が用意されています：**キャンペーン**&#x200B;と&#x200B;**ジャーニー**。 ジャーニーは、顧客の行動にもとづいてリアルタイムでマルチステップのオーケストレーションが可能なように設計されています。一方、施策は、定義されたオーディエンスに対する1回限りの放送またはスケジュール型の放送に適しています。 キャンペーンを決定したら、ユースケースに最適なキャンペーンタイプを選択できます。
 
@@ -176,7 +176,7 @@ Enrich with product data → Build segments → Send personalized offers → All
 * **誕生日キャンペーン**：誕生日に基づいたエントリ、パーソナライズされたオファー
 * **再エンゲージメント**：オーディエンスの選定（非アクティブ）、プログレッシブアウトリーチによりトリガーされます
 
-### キャンペーンのユースケース（アクションおよび API トリガー）
+### キャンペーンのユースケース（アクションとAPI トリガー）
 
 **アクションキャンペーン：**
 * **毎月のニュースレター**：サブスクライバーセグメントに対するスケジュール済みバッチ配信
@@ -284,6 +284,6 @@ Enrich with product data → Build segments → Send personalized offers → All
 >[!MORELIKETHIS]
 >
 >* [ジャーニータイプの比較](../building-journeys/journey.md#journey-types-comparison)
->* [&#x200B; キャンペーンタイプの比較](../campaigns/get-started-with-campaigns.md#campaign-types)
+>* [ キャンペーンタイプの比較](../campaigns/get-started-with-campaigns.md#campaign-types)
 >* [ジャーニーに関する FAQ](../building-journeys/journey-faq.md)
->* [&#x200B; オーケストレーションされたキャンペーンに関するFAQ](../orchestrated/orchestrated-campaigns-faq.md)
+>* [ オーケストレーションされたキャンペーンに関するFAQ](../orchestrated/orchestrated-campaigns-faq.md)

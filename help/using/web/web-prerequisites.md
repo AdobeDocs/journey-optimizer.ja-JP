@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: d1f651eeb9401e4344f5bff12e6b706ff0080320
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1241'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 95%
 
 >[!IMPORTANT]
 >
->* [!DNL Journey Optimizer] web キャンペーンは、他のチャネルでこれまでエンゲージメントがなかった新しいプロファイルをターゲットにします。これにより、合計[&#x200B; エンゲージメント可能なプロファイル &#x200B;](../audience/license-usage.md)数が増加します。購入したエンゲージメント可能なプロファイルの契約数を超えると、コストに影響する可能性があります。 各パッケージのライセンス指標は、[Journey Optimizer の製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}ページにリストされています。エンゲージ可能なプロファイルの数は、[&#x200B; ライセンス使用状況ダッシュボード &#x200B;](../audience/license-usage.md)で確認できます。
+>* [!DNL Journey Optimizer] web キャンペーンは、他のチャネルでこれまでエンゲージメントがなかった新しいプロファイルをターゲットにします。これにより、合計[ エンゲージメント可能なプロファイル ](../audience/license-usage.md)数が増加します。購入したエンゲージメント可能なプロファイルの契約数を超えると、コストに影響する可能性があります。 各パッケージのライセンス指標は、[Journey Optimizer の製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}ページにリストされています。エンゲージ可能なプロファイルの数は、[ ライセンス使用状況ダッシュボード ](../audience/license-usage.md)で確認できます。
 >
 >* Web ページを使用して偽名プロファイル（未認証の訪問者）をターゲットにする場合は、自動プロファイル削除の有効期間（TTL）を設定することを考慮し、エンゲージメント可能なプロファイル数と関連コストを管理します。[詳細情報](../start/guardrails.md#profile-management-inbound)
 
@@ -47,7 +47,7 @@ Web プロパティで web チャネルキャンペーンのオーサリング�
 >
 >サーバーサイドのみの実装は、現在、web チャネルではサポートされていません。Web ページのサーバーサイドのみの実装がある場合は、代わりに[コードベースのエクスペリエンスチャネル](../code-based/get-started-code-based.md)を使用できます。
 
-<!--If the Adobe Experience Platform Web SDK is not yet implemented on the website, a message displays in the web designer suggesting that you install the Visual Editing Helper browser extension and implement the [Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja){target="_blank"}.-->
+<!--If the Adobe Experience Platform Web SDK is not yet implemented on the website, a message displays in the web designer suggesting that you install the Visual Editing Helper browser extension and implement the [Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"}.-->
 
 ## ビジュアルオーサリングの前提条件 {#visual-authoring-prerequisites}
 
@@ -64,7 +64,7 @@ Web プロパティで web チャネルキャンペーンのオーサリング�
 >
 >現在、[!DNL Journey Optimizer] での web ページのオーサリングをサポートしているブラウザーは、Google Chrome とMicrosoft Edge のみです。
 
-### Visual Editing Helper 拡張機能のインストール {#install-visual-editing-helper}
+### ビジュアル編集ヘルパー拡張機能のインストール {#install-visual-editing-helper}
 
 Visual Editing Helper のブラウザー拡張機能をダウンロードしてインストールするには、次の手順に従います。
 

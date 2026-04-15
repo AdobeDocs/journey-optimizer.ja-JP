@@ -6,10 +6,10 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
-workflow-type: ht
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+workflow-type: tm+mt
 source-wordcount: '1859'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -232,7 +232,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%=equals(profile.person.name,"John") %}
 ```
 
-## 等しい (大文字と小文字を区別しない){#equalsIgnoreCase}
+## 大文字と小文字を区別しない{#equalsIgnoreCase}
 
 `equalsIgnoreCase` 関数は、大文字と小文字を区別せずに、文字列が指定の文字列に等しいかどうかを判定するために使用します。
 
@@ -366,7 +366,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= indexOf("hello world","world" ) %}
 ```
 
-「6」を返します。
+6 を返します。
 
 ## 空である {#isEmpty}
 
@@ -425,7 +425,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= lastIndexOf("hello world","o" ) %}
 ```
 
-「7」を返します。
+7 を返します。
 
 ## 左トリミング {#leftTrim}
 
@@ -575,7 +575,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= notEqualTo(profile.person.name,"John") %}
 ```
 
-## 等しくない (大文字と小文字を区別しない) {#not-equal-with-ignore-case}
+## 大文字と小文字を区別しない {#not-equal-with-ignore-case}
 
 `notEqualWithIgnoreCase` 関数は、大文字と小文字を区別せずに、2 つの文字列を比較するために使用されます。
 
@@ -798,7 +798,7 @@ doesNotEndWith(person.emailAddress,".com")
 {= toBool(string) %}: boolean
 ```
 
-## 日時に {#to-date-time}
+## 終了時刻 {#to-date-time}
 
 `toDateTime` 関数は、文字列を日付型に変換するために使用されます。無効な入力に対する出力として、エポック日付を返します。
 
@@ -808,7 +808,7 @@ doesNotEndWith(person.emailAddress,".com")
 {%= toDateTime(string, string) %}: date-time
 ```
 
-## 日時のみに {#to-date-time-only}
+## 終了時刻のみ {#to-date-time-only}
 
 `toDateTimeOnly` 関数は、引数の値を日時のみの値に変換するために使用されます。無効な入力に対する出力として、エポック日付を返します。この関数は、文字列、日付、長さおよび整数のフィールドタイプを受け入れます。
 

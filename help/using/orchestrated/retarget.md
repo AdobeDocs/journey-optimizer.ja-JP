@@ -6,10 +6,10 @@ description: Adobe Journey Optimizer を使用して調整されたキャンペ�
 feature: Monitoring
 exl-id: 3c1cad30-3ed7-4df1-a46a-60394a834e79
 version: Campaign Orchestration
-source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '884'
-ht-degree: 67%
+ht-degree: 66%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 67%
 
    1. フィルタールールを選択し、ターゲットにする&#x200B;**[!UICONTROL ビヘイビアー]**&#x200B;を選択します（**[!UICONTROL メッセージ送信]**&#x200B;など）。
 
-   1. ![&#x200B; フォルダーアイコン &#x200B;](assets/do-not-localize/folder-search.svg)をクリックして、リターゲティングする特定のキャンペーンを選択します。 選択肢は次の2つです。
+   1. ![ フォルダーアイコン ](assets/do-not-localize/folder-search.svg)をクリックして、リターゲティングする特定のキャンペーンを選択します。 選択肢は次の2つです。
 
       * **[!UICONTROL 特定のキャンペーンを選択]**：リストから特定のキャンペーンを選択して、そのキャンペーンを操作した受信者をリターゲティングします。
 
@@ -135,7 +135,7 @@ ht-degree: 67%
 
       ![](assets/retarget_13.png){zoomable="yes"}
 
-   1. ![&#x200B; フォルダーアイコン &#x200B;](assets/do-not-localize/folder-search.svg)をクリックして、リターゲティングする特定のキャンペーンを選択します。 選択肢は次の2つです。
+   1. ![ フォルダーアイコン ](assets/do-not-localize/folder-search.svg)をクリックして、リターゲティングする特定のキャンペーンを選択します。 選択肢は次の2つです。
 
       * **[!UICONTROL 特定のキャンペーンを選択]**：リストから特定のキャンペーンを選択して、そのキャンペーンを操作した受信者をリターゲティングします。
 

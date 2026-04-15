@@ -9,7 +9,7 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 479282547400d9a54ab4afa71b0e0b468dbe6071
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '921'
 ht-degree: 91%
@@ -78,7 +78,7 @@ Adobe Journey Optimizer の AI アシスタントを使用して、様々なメ�
 
 >[!IMPORTANT]
 >
->* この機能の使用を開始する前に、関連する[&#x200B; ガードレールと制限事項](#generative-guardrails)をお読みください。
+>* この機能の使用を開始する前に、関連する[ ガードレールと制限事項](#generative-guardrails)をお読みください。
 >
 >
 >* Adobe Journey Optimizer で AI アシスタントを使用する前に、[ユーザー契約](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}に同意する必要があります。詳しくは、アドビ担当者にお問い合わせください。
@@ -140,7 +140,7 @@ Adobe Journey Optimizer の AI アシスタントにアクセスするには、�
 * AI アシスタントの使用は、Adobe Experience Cloud 生成 AI ユーザーガイドラインの対象となります。[詳細情報](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
 * メディア作成における生成 AI ツールの使用の透明性を促進するアドビの取り組みの一環として、アドビでは、Firefly で生成されたアセットを含むコンテンツまたはプロジェクトがダウンロードまたはエクスポートされる際に、Content Credentials を適用します。[詳細情報](https://helpx.adobe.com/jp/firefly/using/content-credentials.html)
 
-### PERSONALIZATIONエディターのAI アシスタント {#ai-assistant-personalization-editor-guardrails}
+### パーソナライゼーションエディターのAI アシスタント {#ai-assistant-personalization-editor-guardrails}
 
 次のガードレールは、[Personalization Editor](generative-personalization-expressions.md)のパーソナライゼーション式[!UICONTROL の]AI アシスタントに適用されます。
 

@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 393f02c0-f54c-4222-b668-0931b67590ce
-source-git-commit: a12494dc5b4871da54f273682a00bd437ffa04fb
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1065'
 ht-degree: 62%
@@ -143,7 +143,7 @@ Customer Journey Analytics ワークスペースと、データのフィルタ�
 
 ルールセット別&#x200B;**[!UICONTROL ジャーニーエントリ]**&#x200B;列には、ジャーニーにエントリしたプロファイルの数が表示されます。 エントランスには3つのタイプがあります。
 
-* **&#x200B;**&#x200B;[!UICONTROL 競合なし]&#x200B;**&#x200B;**: プロファイルは、ルールセットの競合なしでジャーニーにエントリしました。 アクティブなルールセットはこのエントリを妨げておらず、ジャーニーのエントリは調停ルールに関係なく発生しました。
+* ****[!UICONTROL 競合なし]****: プロファイルは、ルールセットの競合なしでジャーニーにエントリしました。 アクティブなルールセットはこのエントリを妨げておらず、ジャーニーのエントリは調停ルールに関係なく発生しました。
 
 * **優先度が高い**: プロファイルは、他の競合ジャーニーよりも優先度が高いため、ジャーニーにエントリしました。 競合（複数のジャーニーに適格なプロファイル）があったにもかかわらず、このジャーニーは、優先度スコアが高いため選択されました。
 
@@ -157,7 +157,7 @@ Customer Journey Analytics ワークスペースと、データのフィルタ�
 
 +++
 
-➡️ [&#x200B; ジャーニーの上限設定と調停について詳しく見る](../conflict-prioritization/journey-capping.md)
+➡️ [ ジャーニーの上限設定と調停について詳しく見る](../conflict-prioritization/journey-capping.md)
 
 ## 最適化モデル {#optimization-models}
 

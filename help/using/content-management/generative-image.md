@@ -8,7 +8,7 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 exl-id: f0585411-c862-45f2-9a10-d8a72497c533
-source-git-commit: d2110b995bc26df861825cdd49ca2fd39f904442
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1504'
 ht-degree: 94%
@@ -113,7 +113,7 @@ AI アシスタントを使用して、効果的なプロンプトを作成し�
    * **Web**：web キャンペーンの設定を定義し、必要に応じてコンテンツを編集したら、web キャンペーンをレビューおよびアクティブ化できます。[詳細情報](../web/create-web.md#activate-web-campaign)
    * **ランディングページ**：ランディングページの準備が整ったら、公開して、メッセージで使用できるようになります。[詳細情報](../landing-pages/create-lp.md#publish-landing-page)
 
-## モバイルチャネルの場合 {#mobile-channels}
+## モバイルチャネル向け {#mobile-channels}
 
 AI アシスタントを使用すると、プッシュ通知用の魅力的な画像を生成できるので、注目を集め、オーディエンスの共感を得る、視覚的に魅力的なモバイルコミュニケーションを作成できます。
 

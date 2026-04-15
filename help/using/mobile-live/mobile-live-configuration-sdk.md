@@ -7,10 +7,10 @@ feature: Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 02ca7c8e-105a-4e77-9aad-2381904255d0
-source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '494'
-ht-degree: 74%
+ht-degree: 70%
 
 ---
 
@@ -70,7 +70,7 @@ import AEPMessagingLiveActivity
 import ActivityKit
 ```
 
-## 手順 2：ライブアクティビティ属性を定義 {#attributes}
+## 手順2：ライブアクティビティ属性の定義 {#attributes}
 
 `LiveActivityAttributes` プロトコルに準拠する構造体を作成します。これにより、ライブアクティビティの静的データと動的コンテンツの状態の両方が定義されます。
 
@@ -148,7 +148,7 @@ if #available(iOS 16.1, *) {
 }
 ```
 
-## 手順 4：ライブアクティビティウィジェットを作成 {#widgets}
+## 手順4：ライブアクティビティウィジェットの作成 {#widgets}
 
 ライブアクティビティがウィジェットを通じて表示されます。 ウィジェットバンドルと設定を作成する必要があります。
 
@@ -187,7 +187,7 @@ struct FoodDeliveryLiveActivityWidget: Widget {
 }
 ```
 
-## 手順 5：ローカルでライブアクティビティを開始（オプション） {#local}
+## 手順5：ライブアクティビティをローカルで開始する（オプション） {#local}
 
 Journey Optimizer ではライブアクティビティをリモートで開始できますが、ローカルで開始することもできます。
 
@@ -235,11 +235,11 @@ extension FoodDeliveryLiveActivityAttributes: LiveActivityAssuranceDebuggable {
 
 包括的なSDKのドキュメントと実装の詳細については、次を参照してください。
 
-* [&#x200B; ライブアクティビティ開発者ガイド &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities)
+* [ ライブアクティビティ開発者ガイド ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities)
 * [API リファレンス](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/api-reference/)
-* [&#x200B; ライブアクティビティチュートリアル &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/tutorial/)
-* [公開クラス &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/public-classes/live-activity-attributes/)
+* [ ライブアクティビティチュートリアル ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/tutorial/)
+* [公開クラス ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/public-classes/live-activity-attributes/)
 
 >[!TIP]
 >
->トークンの登録、ペイロードの調整、またはライブアクティビティの配信に関して問題が発生した場合は、詳細なデバッグガイダンスについて、[&#x200B; ライブアクティビティのトラブルシューティング &#x200B;](troubleshoot-mobile-live.md)を参照してください。
+>トークンの登録、ペイロードの調整、またはライブアクティビティの配信に関して問題が発生した場合は、詳細なデバッグガイダンスについて、[ ライブアクティビティのトラブルシューティング ](troubleshoot-mobile-live.md)を参照してください。

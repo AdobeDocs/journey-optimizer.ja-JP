@@ -6,7 +6,7 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: e8ace59ea50d35de1f1b3b9a6417e5eb7961c236
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1124'
 ht-degree: 59%
@@ -234,7 +234,7 @@ with は、長い変数名に短い別名を付ける場合にも使用できま
 
 参照は`{{result.fieldId}}`を持つフィールドを取得しました。`result`は`result` パラメーターに渡す値です。
 
-データセットの有効化、パラメーターの詳細、例、テストについては、[&#x200B; パーソナライゼーションにAdobe Experience Platform データを使用](../aep-data-perso.md)を参照してください。
+データセットの有効化、パラメーターの詳細、例、テストについては、[ パーソナライゼーションにAdobe Experience Platform データを使用](../aep-data-perso.md)を参照してください。
 
 ## 実行メタデータ {#execution-metadata}
 
@@ -321,7 +321,7 @@ URLにプレーンテキストとして表示される値（PIIまたはその�
 
 **前提条件**
 
-管理者は、サンドボックスレベルのキーレジストリに少なくとも1つのアクティブキーを作成する必要があります。 [&#x200B; キーの作成と管理方法について説明します](../url-parameter-encryption.md#create-keys)
+管理者は、サンドボックスレベルのキーレジストリに少なくとも1つのアクティブキーを作成する必要があります。 [ キーの作成と管理方法について説明します](../url-parameter-encryption.md#create-keys)
 
 >[!NOTE]
 >

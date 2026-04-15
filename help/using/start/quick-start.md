@@ -8,10 +8,10 @@ role: Admin, Developer, User
 level: Beginner
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
-source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1867'
-ht-degree: 84%
+ht-degree: 83%
 
 ---
 
@@ -33,7 +33,7 @@ Journey Optimizer には、様々なマーケティングニーズを満たす�
 
 **重要なメモ：** Adobe Journey Optimizer では、特定の責任を持つ個別のロールを定義します。組織の構造に応じて、1 人のユーザーが複数の役割またはすべての役割を実行することができます。
 
-## 役割に基づいたクイックスタートガイド
+## 役割ベースのクイックスタートガイド
 
 実装を簡素化するには、Adobe Journey Optimizer では、専門知識に基づいてタスクを特定の役割に分類します。各役割は、シームレスなカスタマーエクスペリエンスを提供するのに必要な基本的なタスクに焦点を当てています。
 
@@ -86,7 +86,7 @@ Journey Optimizer の実装が成功すると、通常、このシーケンス�
 
 **メモ：**&#x200B;このシーケンスは一般的なものですが、一部のアクティビティが並行して実行されることがあります。例えば、開発者がアプリ統合を行っているときに、データエンジニアがスキーマを設定できます。
 
-## はじめに（役割別）
+## 各役割で始める
 
 各役割は、焦点に合わせて調整された特定のタスクから開始されます。これらの最初の手順を完了することで、オンボーディングがスムーズになり、全体的な実装プロセスとの整合性が確保されます。
 
@@ -109,7 +109,7 @@ Journey Optimizer の実装が成功すると、通常、このシーケンス�
 
 [マーケター向けの基本を学ぶ →](path/marketer.md)
 
-### データエンジニア向け {#for-data-engineers}
+### データエンジニア {#for-data-engineers}
 
 データアーキテクトまたはエンジニアは、Journey Optimizer により調整されるエクスペリエンスを強化する顧客プロファイルデータや他のデータソースを設定および管理します。
 
@@ -123,7 +123,7 @@ Journey Optimizer の実装が成功すると、通常、このシーケンス�
 * **プロファイル管理**：リアルタイム顧客プロファイル用のデータセットを有効にして、パーソナライズされたエクスペリエンスを強化します
 * **データ品質**：データ取り込みを監視し、すべてがスムーズにJourney Optimizer にフローするようにします
 
-**最初から：** [&#x200B; データ管理の概要](../data/gs-data.md)を確認して、スキーマ、データセット、ID、完全なデータ設定チェックリストを理解します。 次に、最初の顧客プロファイルスキーマをモデル化し、ソースコネクタを設定してデータの取り込みを開始します。
+**最初から：** [ データ管理の概要](../data/gs-data.md)を確認して、スキーマ、データセット、ID、完全なデータ設定チェックリストを理解します。 次に、最初の顧客プロファイルスキーマをモデル化し、ソースコネクタを設定してデータの取り込みを開始します。
 
 [データエンジニア向けの基本を学ぶ →](path/data-engineer.md)
 
@@ -210,7 +210,7 @@ Journey Optimizer を正常に実装するには、すべての役割をまた�
 
 Journey Optimizer の主な機能とペルソナについて詳しくは、紹介ビデオをご覧ください。このビデオでは、ユーザーインターフェイスを順を追って説明し、役割固有のワークフローに基づいて主な機能を重点的に説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430316?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 ## その他のリソース
 
@@ -221,7 +221,7 @@ Journey Optimizer の主な機能とペルソナについて詳しくは、紹�
 >[!TAB 学習とドキュメント]
 
 * [チュートリアルビデオ](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=ja){target="_blank"} - すべての役割に対応するステップバイステップのビデオチュートリアル
-* [&#x200B; データ管理の基本を学ぶ](../data/gs-data.md) - Journey Optimizerのスキーマ、データセット、ID、データ準備チェックリスト
+* [ データ管理の基本を学ぶ](../data/gs-data.md) - Journey Optimizerのスキーマ、データセット、ID、データ準備チェックリスト
 * [ジャーニーユースケースライブラリ](../building-journeys/jo-use-cases.md) - 実用的な例と実装パターン
 * [AI とインテリジェント機能](ai-features.md) - AI アシスタント、送信時の最適化、コンテンツ生成について説明します
 * [ユーザーインターフェイスガイド](user-interface.md) - Journey Optimizer の効果的な操作
@@ -234,7 +234,7 @@ Journey Optimizer の主な機能とペルソナについて詳しくは、紹�
 
 >[!TAB コミュニティとサポート]
 
-* [Experience League コミュニティ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"} - 他のユーザーやエキスパートとつながります
-* [製品フォーラム](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"} - 質問をしたり、知識を共有したりします
+* [Experience League コミュニティ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} - 他のユーザーやエキスパートとつながります
+* [製品フォーラム](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} - 質問をしたり、知識を共有したりします
 
 >[!ENDTABS]

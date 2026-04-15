@@ -7,7 +7,7 @@ feature: Data Management
 role: Developer, Admin, User
 level: Beginner, Intermediate
 exl-id: 25519acb-a017-446a-992b-653d3a8a3d96
-source-git-commit: 7094cb2717f36042fa0aec1c6442f8d00c593823
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '2442'
 ht-degree: 2%
@@ -29,18 +29,18 @@ ht-degree: 2%
 このガイドをデータエンジニア、管理者、マーケターと一緒に使用することで、Journey Optimizerにデータが流れ込む様子を全員が共有することができます。
 
 >[!TIP]
->Journey Optimizerを初めて利用する場合？ スキーマ、データセット、ソースの実用的で初心者向けのチュートリアルについては、[&#x200B; データ概要チュートリアルの設定](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/data-management/set-up-data-overview){target="_blank"}をご覧ください。
+>Journey Optimizerを初めて利用する場合？ スキーマ、データセット、ソースの実用的で初心者向けのチュートリアルについては、[ データ概要チュートリアルの設定](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/set-up-data-overview){target="_blank"}をご覧ください。
 
 ## Journey OptimizerでのAdobe Experience Platform データの使用方法 {#aep-data}
 
 [!DNL Adobe Journey Optimizer]は[!DNL Adobe Experience Platform]にビルドされています。 独立したデータストアは管理しません。 他のExperience Cloudアプリケーションと同じデータ基盤を使用しています。
 
-スキーマとデータセットはAdobe Experience Platformにあります。 IDと[&#x200B; リアルタイム顧客プロファイル &#x200B;](../audience/get-started-profiles.md)は、ID サービスとプロファイル サービスによって管理されます。 Journey Optimizerは、Adobe Experience Platformからプロファイルとイベントデータを読み取り、ジャーニーの条件を評価し、メッセージをパーソナライズして、オファーを選択します。 このモデルは、送信、開封、クリック、バウンスのイベントや、ジャーニーステップイベントなどのインタラクションデータをExperience Platformデータセットに書き込みます。 また、実行時に、そのデータをプロファイルにコピーすることなく、追加のデータセットを検索することもできます。
+スキーマとデータセットはAdobe Experience Platformにあります。 IDと[ リアルタイム顧客プロファイル ](../audience/get-started-profiles.md)は、ID サービスとプロファイル サービスによって管理されます。 Journey Optimizerは、Adobe Experience Platformからプロファイルとイベントデータを読み取り、ジャーニーの条件を評価し、メッセージをパーソナライズして、オファーを選択します。 このモデルは、送信、開封、クリック、バウンスのイベントや、ジャーニーステップイベントなどのインタラクションデータをExperience Platformデータセットに書き込みます。 また、実行時に、そのデータをプロファイルにコピーすることなく、追加のデータセットを検索することもできます。
 
 >[!TIP]
 >Adobe Experience Platformは中心的なデータ層として、Journey Optimizerは共有されたデータ基盤を使用してジャーニーとメッセージを調整するアプリケーションとして考えてください。
 
-➡️ [Journey Optimizer アーキテクチャの詳細](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/get-started/essentials/understanding-ajo#architecture-details){target="_blank"}
+➡️ [Journey Optimizer アーキテクチャの詳細](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/essentials/understanding-ajo#architecture-details){target="_blank"}
 
 ## Journey Optimizerの主要なデータコンセプト {#key-concepts}
 
@@ -63,28 +63,28 @@ XDMは、実際の問題を解決するために存在します。同じ概念�
 
 Journey Optimizerでは、通常、顧客属性（名前、嗜好、同意）の&#x200B;**XDM Individual Profile** スキーマと、行動イベント（購入、ページビュー、サインアップ）の&#x200B;**XDM ExperienceEvent** スキーマを使用します。
 
-➡️ [&#x200B; スキーマの詳細](get-started-schemas.md)
+➡️ [ スキーマの詳細](get-started-schemas.md)
 
 ### データセット {#dataset}
 
 データセットとは、スキーマに準拠するデータを保存および管理するための構造体です。スキーマは、列と行のセットが定義されたテーブルとして考えることができます。 Journey Optimizerで使用されるすべてのデータは、Adobe Experience Platform データセットに保存されます。 これには、プロファイルデータセット（リアルタイム顧客プロファイルに貢献）、イベントデータセット（ジャーニーと分析用の行動データの保存）、トラッキング、フィードバック、ジャーニーステップイベント用にJourney Optimizerで自動的に作成されたシステムデータセットなどが含まれます。
 
-➡️ [&#x200B; データセットの詳細](get-started-datasets.md)
+➡️ [ データセットの詳細](get-started-datasets.md)
 
 ### Source コネクタ {#source-connector}
 
 ソースコネクタ （**ソース**&#x200B;とも呼ばれます）を使用すると、Adobe Analytics、Adobe Experience Platform Web SDK、クラウドストレージ（S3、Azure Blob）、CRM データベースなど、複数のシステムからAdobe Experience Platformにデータを取り込むことができます。 コネクタを使用すると、生の取り込みだけでなく、XDM スキーマへのフィールドマッピングやデータガバナンスラベル付けなど、Experience Platform サービスを使用してデータの構造化、ラベル付けおよび強化が可能になります。
 
-➡️ [&#x200B; ソースコネクタの詳細](../start/get-started-sources.md)
+➡️ [ ソースコネクタの詳細](../start/get-started-sources.md)
 
 ### データソース（Journey Optimizer） {#data-source}
 
 Journey Optimizerのデータソースは、ジャーニーやメッセージ内で公開されるAdobe Experience Platform（または外部API）のフィールドを定義します。 Journey Optimizer UIで設定されたデータソースには、通常、組み込みのAdobe Experience Platform データソース（Real-Time Customer Profile属性を公開）と、ジャーニーランタイムに呼び出されるオプションの外部またはカスタムデータソースが含まれており、さらにエンリッチメントが行われます。 ジャーニーの条件、カスタムアクション、メッセージのパーソナライゼーションに使用されます。
 
-➡️ [&#x200B; データソースの詳細](../datasource/about-data-sources.md)
+➡️ [ データソースの詳細](../datasource/about-data-sources.md)
 
 >[!NOTE]
->[Adobe Experience Platform用語集](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/glossary){target="_blank"}では、「データソース」をデータの生成元（CRM、モバイルアプリなど）として一般的に定義しています。 Journey Optimizerでは、**データソース**&#x200B;には特定の意味があります。ジャーニーとメッセージ内で公開されるフィールドを制御するUI設定です。
+>[Adobe Experience Platform用語集](https://experienceleague.adobe.com/en/docs/experience-platform/landing/glossary){target="_blank"}では、「データソース」をデータの生成元（CRM、モバイルアプリなど）として一般的に定義しています。 Journey Optimizerでは、**データソース**&#x200B;には特定の意味があります。ジャーニーとメッセージ内で公開されるフィールドを制御するUI設定です。
 
 ### IDとリアルタイムの顧客プロファイル {#identity}
 
@@ -98,7 +98,7 @@ IDとは、Cookie ID、デバイス ID、メールアドレス、CRM IDなど、
 
 ルックアップデータセットを使用すると、Journey Optimizerは、リアルタイム顧客プロファイルにデータを保存することなく、Adobe Experience Platform データセットから実行時に参照データまたはトランザクションデータを取得できます。 これは、頻繁に変更される参照データ（価格、在庫、店舗時間）や、メッセージ時に必要ですが、プロファイルには属さないトランザクションデータに役立ちます。 Journey Optimizerは、製品IDなどのキーに基づいて、ジャーニーまたはメッセージの実行中にルックアップを実行します。
 
-➡️ [&#x200B; ルックアップデータセットの詳細](lookup-aep-data.md)
+➡️ [ ルックアップデータセットの詳細](lookup-aep-data.md)
 
 ## データ準備チェックリスト {#checklist}
 
@@ -128,7 +128,7 @@ IDとは、Cookie ID、デバイス ID、メールアドレス、CRM IDなど、
 
 **XDM個人プロファイル** スキーマを作成して、名前や連絡先情報、好みや興味、ライフサイクルステージや同意状態などの顧客属性を取得します。 **XDM ExperienceEvent** スキーマを作成して、webやアプリのイベント、購入、オフラインのインタラクションなどの行動データやトランザクションデータを取得します。 適切な場合は、正しいフィールドをIDおよびプロファイル属性としてマークします。
 
-➡️ [&#x200B; スキーマの詳細](get-started-schemas.md)
+➡️ [ スキーマの詳細](get-started-schemas.md)
 
 +++
 
@@ -136,7 +136,7 @@ IDとは、Cookie ID、デバイス ID、メールアドレス、CRM IDなど、
 
 Adobe Experience Platformでは、XDM スキーマに基づいてデータセットを作成し、リアルタイム顧客プロファイルに貢献する必要があるデータセットでプロファイルを有効にします。 Journey Optimizerで作成されたシステム生成データセットがデータセット ワークスペースに表示されていることを確認します。
 
-➡️ [&#x200B; データセットの詳細](get-started-datasets.md)
+➡️ [ データセットの詳細](get-started-datasets.md)
 
 +++
 
@@ -144,9 +144,9 @@ Adobe Experience Platformでは、XDM スキーマに基づいてデータセッ
 
 Adobe Analytics、Adobe Experience Platform Web SDK、CRMおよびPOS プラットフォームなどのエンタープライズシステム用のソースコネクタを設定し、XDM スキーマに受信フィールドをマッピングします。 データが正しいデータセットに格納され、予想される場所にリアルタイム顧客プロファイルに表示されることを検証します。
 
-➡️ [&#x200B; ソースコネクタの詳細](../start/get-started-sources.md)
+➡️ [ ソースコネクタの詳細](../start/get-started-sources.md)
 
-➡️ [&#x200B; チュートリアル：データセットの作成とデータの取り込み](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data){target="_blank"}
+➡️ [ チュートリアル：データセットの作成とデータの取り込み](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data){target="_blank"}
 
 +++
 
@@ -154,14 +154,14 @@ Adobe Analytics、Adobe Experience Platform Web SDK、CRMおよびPOS プラッ�
 
 データソースは、Journey Optimizer固有の概念です。データソースは、データが存在する場所ではなく、ジャーニーやメッセージの実行中にJourney Optimizerが読み取り可能なフィールドを宣言する場所です。 「顧客はロイヤルティメンバーか？」などの条件を評価できます 名を付けてメッセージをパーソナライズするには、関連するプロファイルフィールドをデータソース設定を通じて公開する必要があります。
 
-Journey Optimizerには、リアルタイム顧客プロファイル属性に直接アクセスできる組み込みの[Adobe Experience Platform データソース &#x200B;](../datasource/adobe-experience-platform-data-source.md)が含まれています。 パーソナライゼーションのためのプロファイル属性の読み取り、同意と環境設定フィールドのチェックなど、ほとんどのユースケースをカバーしています。 また、[外部データソース &#x200B;](../datasource/external-data-sources.md)を設定して、ジャーニーランタイムでサードパーティ APIを呼び出すことができます。例えば、リアルタイムのロイヤルティスコア、商品レコメンデーション、Adobe Experience Platformに保存されていないストア在庫レベルを取得できます。
+Journey Optimizerには、リアルタイム顧客プロファイル属性に直接アクセスできる組み込みの[Adobe Experience Platform データソース ](../datasource/adobe-experience-platform-data-source.md)が含まれています。 パーソナライゼーションのためのプロファイル属性の読み取り、同意と環境設定フィールドのチェックなど、ほとんどのユースケースをカバーしています。 また、[外部データソース ](../datasource/external-data-sources.md)を設定して、ジャーニーランタイムでサードパーティ APIを呼び出すことができます。例えば、リアルタイムのロイヤルティスコア、商品レコメンデーション、Adobe Experience Platformに保存されていないストア在庫レベルを取得できます。
 
 >[!NOTE]
->組み込みのAdobe Experience Platform データソースを介したエクスペリエンスイベントデータへのダイレクトアクセスは廃止され、段階的に無効になります。 [詳細情報](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/journey-use-cases/exp-event-lookup){target="_blank"}
+>組み込みのAdobe Experience Platform データソースを介したエクスペリエンスイベントデータへのダイレクトアクセスは廃止され、段階的に無効になります。 [詳細情報](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journey-use-cases/exp-event-lookup){target="_blank"}
 
 データソースの設定は、ジャーニー作成者とマーケターのデータレイヤー全体のロックを解除する管理タスクです。 データソースを通じてフィールドが公開されると、ジャーニー条件ビルダー、メッセージパーソナライゼーションエディター、オファー決定ルールでフィールドを使用できるようになります。ジャーニー構築時に追加のエンジニアリング作業は必要ありません。
 
-➡️ [&#x200B; データソース設定の詳細](../datasource/about-data-sources.md)
+➡️ [ データソース設定の詳細](../datasource/about-data-sources.md)
 
 +++
 
@@ -184,30 +184,30 @@ Journey Optimizer システム生成データセットがデータセットワ�
 
 Journey Optimizerは、トラッキング、フィードバック、ジャーニーステップイベント用に、システム生成データセットをいくつか作成します。 2025年2月の時点で、一部のデータセットにはTTL （Time-to-Live）ガードレールが展開されています。これは、分析とトラブルシューティングのためにデータを保持する時間に影響を与える可能性があります。
 
-➡️ [&#x200B; データセット TTL ガードレールの詳細](datasets-ttl.md)
+➡️ [ データセット TTL ガードレールの詳細](datasets-ttl.md)
 
 ### ストリーミングセグメンテーションとJourney Optimizerイベント {#streaming-segmentation}
 
-2024年11月1日（PT）をもって、ストリーミングセグメンテーションでは、Journey Optimizer トラッキングおよびフィードバックデータセットからのイベントの送信とオープンがサポートされなくなりました。 頻度の上限や疲労管理などのユースケースでは、送信/開封イベントに基づいてセグメントをストリーミングする代わりに[&#x200B; ビジネスルール &#x200B;](../conflict-prioritization/rule-sets.md)を使用します。
+2024年11月1日（PT）をもって、ストリーミングセグメンテーションでは、Journey Optimizer トラッキングおよびフィードバックデータセットからのイベントの送信とオープンがサポートされなくなりました。 頻度の上限や疲労管理などのユースケースでは、送信/開封イベントに基づいてセグメントをストリーミングする代わりに[ ビジネスルール ](../conflict-prioritization/rule-sets.md)を使用します。
 
-➡️ [&#x200B; データセットの詳細](get-started-datasets.md)
+➡️ [ データセットの詳細](get-started-datasets.md)
 
 ### データセットの検索と決定 {#lookup-guardrails}
 
 データセット検索は、頻繁に変化する属性（在庫、価格設定、天候）や、リアルタイム顧客プロファイルに保存する必要のないデータに適しています。 ルックアップ戦略を設計する前に、関連ドキュメントでデータセットのサイズ制限やクエリキャップなどの製品固有のガードレールを確認してください。
 
-➡️ [&#x200B; ルックアップデータセットの詳細](lookup-aep-data.md)
+➡️ [ ルックアップデータセットの詳細](lookup-aep-data.md)
 
 ## 例：ウェルカムジャーニーのデータの準備 {#example}
 
 次の例は、このページの概念が簡単なシナリオでどのように連携するかを示しています。
 
-1. データエンジニアは、顧客属性（名前、電子メール、ロイヤルティ層、同意）用に[XDM個人プロファイルスキーマ &#x200B;](get-started-schemas.md)を作成し、web サインアップイベント用にXDM ExperienceEvent スキーマを作成します。
-1. [&#x200B; プロファイル対応データセット &#x200B;](get-started-datasets.md)は、各スキーマに対して作成されます。CRM属性用に1つ、サインアップイベント用に1つです。
-1. Web チームとモバイル チームは、Adobe Experience Platform Web SDKを介してサインアップイベントをストリーミングします。CRM データは[&#x200B; ソースコネクタ &#x200B;](../start/get-started-sources.md)を介して取り込まれます。
-1. 管理者がJourney Optimizerの[Adobe Experience Platform データソース &#x200B;](../datasource/adobe-experience-platform-data-source.md)を設定し、`profile.person.name.firstName`、`profile.personalEmail.address`、`profile.loyaltyTier`などのフィールドを公開します。
+1. データエンジニアは、顧客属性（名前、電子メール、ロイヤルティ層、同意）用に[XDM個人プロファイルスキーマ ](get-started-schemas.md)を作成し、web サインアップイベント用にXDM ExperienceEvent スキーマを作成します。
+1. [ プロファイル対応データセット ](get-started-datasets.md)は、各スキーマに対して作成されます。CRM属性用に1つ、サインアップイベント用に1つです。
+1. Web チームとモバイル チームは、Adobe Experience Platform Web SDKを介してサインアップイベントをストリーミングします。CRM データは[ ソースコネクタ ](../start/get-started-sources.md)を介して取り込まれます。
+1. 管理者がJourney Optimizerの[Adobe Experience Platform データソース ](../datasource/adobe-experience-platform-data-source.md)を設定し、`profile.person.name.firstName`、`profile.personalEmail.address`、`profile.loyaltyTier`などのフィールドを公開します。
 1. マーケター[は、サインアップイベントをリッスンし、これらのプロファイル属性を使用して](../building-journeys/journey-gs.md) ウェルカムメールをパーソナライズするウェルカムジャーニー[を作成します](../personalization/personalize.md)。 Journey Optimizerは、送信および開くイベントをトラッキングデータセットに書き込み、ジャーニーステップイベントデータセットでジャーニーの進行状況を記録します。
-1. 開発者は[&#x200B; クエリエディター](get-started-queries.md)を使用して、イベントが正しく流れていることを確認し、パフォーマンス（開封数、クリック数、送信時間）を分析します。 Ma チームは、これらのインサイトにもとづいて、カスタマージャーニーとコンテンツを調整します。
+1. 開発者は[ クエリエディター](get-started-queries.md)を使用して、イベントが正しく流れていることを確認し、パフォーマンス（開封数、クリック数、送信時間）を分析します。 Ma チームは、これらのインサイトにもとづいて、カスタマージャーニーとコンテンツを調整します。
 
 このフローでは、スキーマ、データセット、ソース、データソース、クエリが、初心者にも使いやすい包括的なユースケースでどのように連携するのかを示しています。
 
@@ -216,7 +216,7 @@ Journey Optimizerは、トラッキング、フィードバック、ジャーニ
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **スキーマの基本を学ぶ**
 
@@ -226,7 +226,7 @@ Adobe Experience PlatformでXDM スキーマを作成する方法、適切なク
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **データセットの操作**
 
@@ -236,7 +236,7 @@ Adobe Experience PlatformでXDM スキーマを作成する方法、適切なク
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **データソースの設定**
 
@@ -246,7 +246,7 @@ Adobe Experience PlatformでXDM スキーマを作成する方法、適切なク
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **Adobe Experience Platform データ （ルックアップ）を使用**
 
@@ -256,7 +256,7 @@ AEP データセットの参照データまたはトランザクションデー�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **クエリの基本を学ぶ**
 
@@ -266,7 +266,7 @@ Adobe Experience Platform Query Serviceを使用して、Journey Optimizerのデ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **プロファイルの基本を学ぶ**
 
@@ -276,23 +276,23 @@ Journey Optimizerでのリアルタイム顧客プロファイルの仕組みと
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **データ概要チュートリアルの設定**
 
 Journey Optimizerでのデータ設定に関する初心者向けのビデオチュートリアル。スキーマ、データセット、ソースをエンドツーエンドで説明します。
 
-[&#x200B; チュートリアルを見る](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/data-management/set-up-data-overview){target="_blank"}
+[ チュートリアルを見る](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/set-up-data-overview){target="_blank"}
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **データセットの作成とデータの取り込みチュートリアル**
 
 Adobe Experience Platformでデータセットを作成し、ソースコネクタを使用してデータを取り込む方法を示す実践的なチュートリアルと、独自のサンドボックスで実行できるステップバイステップの説明です。
 
-[&#x200B; チュートリアルを見る](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data){target="_blank"}
+[ チュートリアルを見る](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/data-management/create-datasets-and-ingest-data){target="_blank"}
 :::
 
 ::::

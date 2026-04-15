@@ -7,10 +7,10 @@ topic: Artificial Intelligence
 role: User
 level: Intermediate
 exl-id: f931372e-6cf2-4f27-b12a-ed5ca0c1b87b
-source-git-commit: df7591e337ad11cd51ec1a1c06312823a27561a2
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '2107'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -297,9 +297,9 @@ AI が関連性の高いコンテンツを生成できるように、常にコ�
 | **トーンを変更** | 様々なオーディエンスに合わせてコンテンツを調整 | 「若い世代のデモグラフィック向けに、よりカジュアルなトーンに変更してください」 |
 | **トランスクリエイト** | 翻訳を超えた文化的適応 | 「このキャンペーンを日本マーケット向けにトランスクリエイトしてください」 |
 
-## シナリオベースのプロンプトの例
+## シナリオベースのプロンプト例
 
-### コンテンツタイプに基づく {#content-type-practices}
+### コンテンツの種類にもとづいて {#content-type-practices}
 
 <table style="table-layout: fixed; border: 0;">
 <thead>
@@ -328,7 +328,7 @@ AI が関連性の高いコンテンツを生成できるように、常にコ�
 </tbody>
 </table>
 
-### 業界固有のアプローチに基づく {#industry-approaches}
+### 業界固有のアプローチにもとづいて {#industry-approaches}
 
 <table style="table-layout: fixed; border-collapse: collapse; border: 0;">
 <thead>

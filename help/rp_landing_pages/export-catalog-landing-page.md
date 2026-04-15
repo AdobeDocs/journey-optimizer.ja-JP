@@ -6,8 +6,8 @@ description: オファーカタログのエクスポート
 redpen-status: CREATED_||_2025-08-11_21-03-50
 badge: label="レガシー" type="Informative"
 exl-id: b73438e0-8ebe-4188-bb63-1095dcfc4679
-source-git-commit: 0ab80fd627eb44df6a581547bb0467514d146b49
-workflow-type: ht
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 100%
 
@@ -21,11 +21,11 @@ ht-degree: 100%
 
 Adobe Journey Optimizer でオファーカタログを書き出すと、Adobe Experience Platform とのシームレスなデータ統合への扉が開かれることになります。この機能により、パーソナライズされたオファー、フォールバックオプション、プレースメント、決定が自動的に更新され、データセットに整理され、高度な分析と決定の準備が整います。書き出したデータセットをプレビューしたり、その構造を理解したり、ランキングや制約などの特定の詳細を調べたりする場合でも、プロセスは直感的で効率的になるようにデザインされています。次のトピックを探索することで、この機能を活用して、より正確なデータ駆動型のカスタマーエクスペリエンスを推進するツールを得ることができます。
 
-## オファーカタログの書き出し
+## オファーカタログのエクスポート
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 オファーカタログのエクスポートガイド
 
@@ -35,7 +35,7 @@ Adobe Journey Optimizer でオファーカタログを書き出すと、Adobe Ex
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 書き出したオファーカタログへのアクセス
 
@@ -45,7 +45,7 @@ Adobe Journey Optimizer でオファーカタログを書き出すと、Adobe Ex
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 パーソナライズされたオファーのデータセットリファレンス
 
@@ -55,7 +55,7 @@ Adobe Journey Optimizer でオファーカタログを書き出すと、Adobe Ex
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 決定データセットの概要
 
@@ -65,7 +65,7 @@ Adobe Journey Optimizer でオファーカタログを書き出すと、Adobe Ex
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 プレースメントデータセットの詳細
 
@@ -75,7 +75,7 @@ Adobe Journey Optimizer でオファーカタログを書き出すと、Adobe Ex
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 フォールバックオファーのデータセットのドキュメント
 

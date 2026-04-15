@@ -7,16 +7,16 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3e777cc5-a935-4e68-9de7-60b241e78f63
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '993'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
-# Dynamic Media の操作 {#aem-dynamic}
+# ダイナミックメディアの操作 {#aem-dynamic}
 
-## Dynamic Media の基本を学ぶ {#gs-aem-dynamic}
+## ダイナミックメディアの概要 {#gs-aem-dynamic}
 
 アセットセレクターで Dynamic Media がサポートされるようになり、承認済み Dynamic Media レンディションを Journey Optimizer 内でシームレスに選択して使用できるようになりました。Adobe Experience Manager のアセットに行った変更は Journey Optimizer コンテンツに即座に反映されるので、手動での更新が必要なく、常に最新バージョンが使用されます。
 
@@ -198,7 +198,7 @@ HTML コンポーネントを使用して、動的テンプレートをコンテ
 テストを実行してコンテンツを検証したら、メッセージをオーディエンスに送信できます。
 
 <!--
-## Personalization with Text Overlay
+## Personalization with text overlay
 
 Easily customize any dynamic media by replacing the existing text overlay with new text of your choice, allowing for seamless updates and personalization.
 
@@ -257,5 +257,5 @@ Adobe Experience Manager Dynamic Media を Adobe Journey Optimizer と統合し�
 
 このチュートリアルでは、AJO 内で画像を直接変更する方法、HTML モードを使用してテキストオーバーレイを追加する方法、AEM で高度なパーソナライゼーション用の Dynamic Media テンプレートを作成する方法、様々なオーディエンスセグメントに合わせてコンテンツを調整してキャンペーンをパーソナライズする方法について説明します。この統合により、マーケターは、アプリケーションを切り替えずに、パーソナライズされた魅力的なキャンペーンを効率的に作成できます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3463783/?captions=jpn&learn=on&enablevpops=&autoplay=true)
+>[!VIDEO](https://video.tv.adobe.com/v/3457695/?learn=on&enablevpops=&autoplay=true)
 

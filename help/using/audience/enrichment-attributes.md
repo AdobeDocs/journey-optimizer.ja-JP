@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3ec496ba-7555-49e2-992c-403c33302a90
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '550'
 ht-degree: 95%
@@ -27,7 +27,7 @@ ht-degree: 95%
 
 オーディエンスのエンリッチメント属性を使用して実行できるアクションは次のとおりです。
 
-* ターゲットオーディエンスのエンリッチメント属性を活用するルールに基づいて、**ジャーニー内に複数のパスを作成**&#x200B;します。これを行うには、[&#x200B; オーディエンスの読み取り](../building-journeys/read-audience.md) アクティビティを使用してオーディエンスをターゲットし、そのオーディエンスのエンリッチメント属性に基づいて[最適化](../building-journeys/optimize.md) アクティビティにルールを作成します。
+* ターゲットオーディエンスのエンリッチメント属性を活用するルールに基づいて、**ジャーニー内に複数のパスを作成**&#x200B;します。これを行うには、[ オーディエンスの読み取り](../building-journeys/read-audience.md) アクティビティを使用してオーディエンスをターゲットし、そのオーディエンスのエンリッチメント属性に基づいて[最適化](../building-journeys/optimize.md) アクティビティにルールを作成します。
 
   ![](assets/audience-enrichment-attribute-condition.png){width="70%" zoomable="yes"}
 

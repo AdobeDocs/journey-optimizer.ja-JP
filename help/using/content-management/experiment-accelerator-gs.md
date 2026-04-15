@@ -8,14 +8,15 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: コンテンツ, 実験, 複数, オーディエンス, 処理
-source-git-commit: 460ac269404842001f320df6404db474a34c30b7
-workflow-type: ht
+exl-id: 8913889e-3c8d-414f-8300-16fc1bd30607
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+workflow-type: tm+mt
 source-wordcount: '189'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
-# Journey Optimizer 実験アクセラレーターの基本を学ぶ {#content-experiment}
+# Journey Optimizer experimentation acceleratorの基本を学ぶ {#content-experiment}
 
 >[!AVAILABILITY]
 >
@@ -35,7 +36,7 @@ ht-degree: 100%
 
 * **よりスマートなターゲティング**：行動データとコンテンツデータを使用して、効果的な実験を優先します。
 
-* **KPI の監視**：実験をまたいで上昇率や信頼性などの指標を追跡します。
+* **KPI のモニタリング**：実験をまたいで上昇率や信頼性などの指標を追跡します。
 
 * **シームレスな共同作業**：リアルタイムアラートを使用して結果を簡単に共有し、チームの役割を管理します。
 

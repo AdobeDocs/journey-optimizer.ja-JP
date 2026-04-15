@@ -9,7 +9,7 @@ badge: label="ベータ版" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
 hide: true
-source-git-commit: 90904fa1fb27782ac1deafb09f56a9abf5ceeb6e
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 [!DNL Adobe Journey Optimizer]のMCP統合により、API呼び出しを記述したり、製品画面を移動したりすることなく、平易な言語のプロンプトを使用してキャンペーン、ジャーニー、オファーをクエリできます。 このページでは、統合がどのように機能するのか、何ができるのか、どのように始めればよいのかについて説明します。
 
-## モデル コンテキスト プロトコルとは何ですか？ {#mcp-overview}
+## モデルコンテキストプロトコルとは何ですか？ {#mcp-overview}
 
 マーケティングチームやカスタマーエクスペリエンスチームは、次第にチャットベースのアプリケーションや開発者ツール（Anthropic Claude、OpenAI ChatGPT、Cursor、Microsoft Copilot Studioなど）に依存するようになり、日常業務の合理化を進めています。 これらのアプリケーションは、**Model Context Protocol （MCP）**&#x200B;をサポートしています。これは、アプリケーションがバックエンドツールを大規模言語モデル（LLM）に統一された方法で公開できるようにするオープンスタンダードです。
 

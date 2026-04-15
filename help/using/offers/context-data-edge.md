@@ -9,14 +9,14 @@ role: Developer
 level: Experienced
 exl-id: c9e14d4d-f2e2-43f9-b1c5-4b005ce858ad
 version: Journey Orchestration
-source-git-commit: c9a5c29c685cf21fda2b5df1a3838713e054f696
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '900'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
-# コンテキストデータと Edge 決定リクエスト {#edge}
+# コンテキストデータとエッジ決定リクエスト {#edge}
 
 >[!TIP]
 >
@@ -42,7 +42,7 @@ ht-degree: 100%
 
 >[!ENDSHADEBOX]
 
-## Edge 決定リクエストでコンテキストデータを渡す前提条件 {#prerequisites}
+## Edge Decisioning リクエストでコンテキストデータを渡す前提条件 {#prerequisites}
 
 Decisioning API を使用して自由な形式でコンテキストを渡す場合とは異なり、Edge 決定コンテキストでは XDM 準拠が必要です。コンテキストペイロードは、XDM エクスペリエンスイベントに準拠している必要があります。これを行うには、データ収集に使用される「XDM エクスペリエンスイベント」の一部としてコンテキストを定義する必要があります。
 
@@ -132,7 +132,7 @@ Decisioning API を使用して自由な形式でコンテキストを渡す場�
 >
 >さらに進んで、コンテキストデータをランキング式に活用し、決定に割り当てることができます。その他の情報
 
-## Edge 決定リクエストでコンテキストデータを渡す {#request}
+## Edge Decisioning リクエストでコンテキストデータを渡します {#request}
 
 ### エンドポイント
 

@@ -7,10 +7,10 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: 19ec3410-761e-4a9c-a277-f105fc446d7a
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
@@ -22,11 +22,11 @@ Adobe Experience Platform **Privacy Service** は、顧客データのリクエ�
 
 ![](assets/requests.png)
 
-Privacy Serviceとプライバシーリクエストの作成および管理方法について詳しくは、[Adobe Experience Platform ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja){target="_blank"}を参照してください。
+Privacy Serviceとプライバシーリクエストの作成および管理方法について詳しくは、[Adobe Experience Platform ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja){target="_blank"}を参照してください。
 
 <!--
-* [Privacy Service overview](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja)
-* [Managing privacy jobs in the Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ja)
+* [Privacy Service overview](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html)
+* [Managing privacy jobs in the Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html)
 -->
 
 ## Adobe Journey Optimizer に送信できる個々のデータプライバシーリクエストの管理 {#data-privacy-requests}
@@ -60,7 +60,7 @@ Privacy Service では、**データアクセス**&#x200B;と&#x200B;**データ
 >
 >DELETE リクエストとアクセスリクエストについては、これらの個々のシステムを呼び出して、各システムでリクエストが処理されていることを確認する必要があります。[!DNL Adobe Journey Optimizer] にプライバシーリクエストを送信しても、これらのすべてのシステムからデータが削除されるわけではありません。
 
-## アクセスリクエストと削除リクエストの作成
+## アクセス要求と削除要求の作成
 
 ### 前提条件
 

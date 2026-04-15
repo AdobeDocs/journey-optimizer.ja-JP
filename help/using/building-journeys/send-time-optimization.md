@@ -10,10 +10,10 @@ level: Intermediate
 keywords: 送信時間, 送信, メッセージ, 最適化, ジャーニー, AI, インテリジェント
 exl-id: ec604e91-4c7f-459c-b6ff-d825919e7181
 version: Journey Orchestration
-source-git-commit: a12494dc5b4871da54f273682a00bd437ffa04fb
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1567'
-ht-degree: 78%
+ht-degree: 77%
 
 ---
 
@@ -73,7 +73,7 @@ AdobeのジャーニーAI サービスを活用した[!DNL Adobe Journey Optimiz
 
 ジャーニーをアクティブ化し、顧客がジャーニーのメールアクションまたはプッシュアクションに到達すると、送信時間の最適化により、指定した制限内で各ユーザーに使用できる最適な予測送信時間が選択されます。
 
-ジャーニーのパフォーマンスを監視するには、[概要ページ &#x200B;](../reports/channel-report-cja.md)を参照してください。
+ジャーニーのパフォーマンスを監視するには、[概要ページ ](../reports/channel-report-cja.md)を参照してください。
 
 ## 送信時間の最適化の仕組み {#how-send-time}
 
@@ -108,7 +108,7 @@ Send-Time Optimization モデルは、組織の[!DNL Adobe Journey Optimizer]件
 
 送信時間の最適化に関するよくある質問を以下に示します。
 
-さらに詳細が必要ですか？このページの下部にあるフィードバックオプションを使用して質問を提起するか、[[!DNL Adobe Journey Optimizer]  コミュニティ &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"}とつながってください。
+さらに詳細が必要ですか？このページの下部にあるフィードバックオプションを使用して質問を提起するか、[[!DNL Adobe Journey Optimizer]  コミュニティ ](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"}とつながってください。
 
 +++送信時間の最適化を使用する前に、どのくらいの時間を待機する必要がありますか？
 

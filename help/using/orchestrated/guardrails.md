@@ -5,10 +5,10 @@ title: 調整されたキャンペーンのガードレールと制限
 description: 調整されたキャンペーンのガードレールと制限について説明します
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
-source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '519'
-ht-degree: 92%
+ht-degree: 91%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 92%
 
 ## データフローの制限
 
-### データデザインとストレージ
+### データの設計と保存
 
 * リレーショナルデータストアは、**最大 200 個のテーブル**（スキーマ）をサポートします。
 

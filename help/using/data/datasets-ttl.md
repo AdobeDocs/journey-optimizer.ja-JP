@@ -8,7 +8,7 @@ role: Developer, Admin
 level: Experienced
 keywords: プラットフォーム, データレイク, 作成, レイク, データセット, プロファイル
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1040'
 ht-degree: 93%
@@ -26,7 +26,7 @@ ht-degree: 93%
 
 ## 影響を受けるデータセット {#datasets}
 
-次の表は、影響を受けるすべてのデータセットと、データレイクおよび[&#x200B; プロファイルストア &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja#profile-data-store){target="_blank"}内のそれぞれのTime-To-Liveを示しています。
+次の表は、影響を受けるすべてのデータセットと、データレイクおよび[ プロファイルストア ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja#profile-data-store){target="_blank"}内のそれぞれのTime-To-Liveを示しています。
 
 | データセット | データレイク TTL | プロファイルストア TTL |
 |------|-----|-----|
@@ -76,13 +76,13 @@ TTL 拡張機能は、現在サポートされていません。ただし、2025
 
 >[!NOTE]
 >
->プロファイルに保存されたデータには、合計データボリュームの使用権限が適用されます。したがって、TTL 拡張機能の結果として増加したプロファイルのデータストレージは、合計データボリュームの使用権限に対してカウントされます。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html?lang=ja){target=_blank}
+>プロファイルに保存されたデータには、合計データボリュームの使用権限が適用されます。したがって、TTL 拡張機能の結果として増加したプロファイルのデータストレージは、合計データボリュームの使用権限に対してカウントされます。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html?lang=ja){target=&quot;_blank}
 
 +++
 
 +++お客様は、データレイクの [!DNL Journey Optimizer] システムデータセットデータの TTL を増やすことができますか？ 
 
-TTL 拡張機能は、現在サポートされていません。お客様は、宛先を通じてデータをエクスポートし、データを長期間保持できます。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=ja){target=_blank}。さらに、**[!DNL Data Distiller]** 使用権限を持つお客様は、派生データセットを作成して、TTL なしでデータレイクにデータを保存できます。[詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=_blank}
+TTL 拡張機能は、現在サポートされていません。お客様は、宛先を通じてデータをエクスポートし、データを長期間保持できます。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=ja){target=&quot;_blank}。さらに、**[!DNL Data Distiller]** 使用権限を持つお客様は、派生データセットを作成して、TTL なしでデータレイクにデータを保存できます。[詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=&quot;_blank}
 
 +++
 
@@ -120,7 +120,7 @@ TTL 拡張機能は、現在サポートされていません。お客様は、�
 
 +++TTL よりも長くデータを保持するための代替手段は何ですか？
 
-より長い保持期間が必要なお客様は、TTL の有効期限が切れる前に、AJO データセットから関連データを外部ストレージにエクスポートすることを考慮する必要があります。Adobe Journey Optimizer は、様々なクラウドストレージの宛先（Amazon S3、Azure Blob、Google Cloud Storage など）へのデータセットのエクスポートをサポートしています。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=ja){target=_blank}
+より長い保持期間が必要なお客様は、TTL の有効期限が切れる前に、AJO データセットから関連データを外部ストレージにエクスポートすることを考慮する必要があります。Adobe Journey Optimizer は、様々なクラウドストレージの宛先（Amazon S3、Azure Blob、Google Cloud Storage など）へのデータセットのエクスポートをサポートしています。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=ja){target=&quot;_blank}
 
 +++
 

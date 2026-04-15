@@ -5,10 +5,10 @@ title: 全期間のレポート
 description: 全期間のレポート
 redpen-status: CREATED_||_2025-08-11_20-52-29
 exl-id: cc658ad0-79ec-4403-bdda-18f0c428d3fa
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '357'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 100%
 
 Adobe Journey Optimizer の「全期間のレポート」は、一定期間にわたるキャンペーンとジャーニーのパフォーマンスを理解するための入り口です。この機能では、Customer Journey Analytics との統合のおかげで、データをシームレスに分析できるため、メール、SMS、プッシュ通知などのチャネルをまたいで正確なインサイトが得られます。詳細な指標にアクセスする方法、レポートデータソースを設定する方法、さらにはレポートから直接オーディエンスを作成する方法について学びます。キャンペーンの効果を調べている場合や、ジャーニー分析を詳しく調べている場合のいずれであっても、相互に関連したトピックでは、レポートツールを習得し、自信を持って顧客エンゲージメントを最適化するための明確なロードマップを提供します。
 
-## 全期間のレポート機能
+## すべての時間レポート機能
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 全期間のレポートの基本を学ぶ
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer の「全期間のレポート」機能にアクセス�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 指標の包括的なリスト
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer の「全期間のレポート」機能にアクセス�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Customer Journey Analytics の手動設定
 
@@ -50,7 +50,7 @@ Customer Journey Analytics の手動設定
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 レポートの管理
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 内でレポートを分析、カスタマイズ、エ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 レポートデータソースの設定
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 内でレポートを分析、カスタマイズ、エ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 除外の理由
 

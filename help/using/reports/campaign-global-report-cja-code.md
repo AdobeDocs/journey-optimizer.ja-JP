@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
-source-git-commit: 670464cf2e6fdec6e1f74cc472fe15ad35760765
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '931'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->コードベースのエクスペリエンスは、ユーザーがサイトやアプリにアクセスしてオプトインするインバウンドインタラクションとして機能します。 その結果、アウトバウンドメッセージ配信用に選択されたプロファイルを追跡する **ターゲット** または **オーディエンス** 指標が、コードベースのキャンペーンでは増分されません。
+>コードベースのエクスペリエンスは、ユーザーがサイトやアプリにアクセスしてオプトインするインバウンドインタラクションとして機能します。したがって、アウトバウンドメッセージの配信用に選択されたプロファイルを追跡する&#x200B;**ターゲット**&#x200B;指標や&#x200B;**オーディエンス**&#x200B;指標は、コードベースのキャンペーンでは増分しません。
 
 ## 表示してクリック {#impressions-code}
 
@@ -165,7 +165,7 @@ ht-degree: 96%
 >
 >現在、[上昇率測定](../experience-decisioning/ranking/auto-optimization-model.md#lift)レポートは、[パーソナライズされた最適化](../experience-decisioning/ranking/personalized-optimization-model.md) AI モデルでのみ使用できます。上昇率測定レポートが必要な場合は、代わりにパーソナライズされた最適化モデルを使用します。
 
-### ホールドアウトトラフィックとモデル駆動型トラフィックのコンバージョン率 {#conversion-rate}
+### ホールドアウトとモデル主導のトラフィックのコンバージョン率 {#conversion-rate}
 
 >[!NOTE]
 >

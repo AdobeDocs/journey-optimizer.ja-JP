@@ -7,10 +7,10 @@ feature: Integrations, Data Ingestion
 role: User
 level: Beginner
 exl-id: 359ea3c6-7746-469e-8a24-624f9726f2d8
-source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '646'
-ht-degree: 90%
+ht-degree: 89%
 
 ---
 
@@ -97,7 +97,7 @@ Adobe Journey Optimizer は、Adobe Experience Platform のソースフレーム
 
 >[!NOTE]
 >
->**オーケストレーションされたキャンペーンのデータ取り込み** - オーケストレーションされたキャンペーンで使用されるファイルベースの変更データキャプチャソースの場合、`_change_request_type` フィールドが必要です。 サポートされている値は`u` （upsert）または`d` （delete）です。 これらの値は、大文字の`u`と`d`ではなく、小文字の`U`と`D`である必要があります。 [&#x200B; オーケストレーションされたキャンペーンのガードレールと制限事項について詳しく見る](../orchestrated/guardrails.md)
+>**オーケストレーションされたキャンペーンのデータ取り込み** - オーケストレーションされたキャンペーンで使用されるファイルベースの変更データキャプチャソースの場合、`_change_request_type` フィールドが必要です。 サポートされている値は`u` （upsert）または`d` （delete）です。 これらの値は、大文字の`u`と`d`ではなく、小文字の`U`と`D`である必要があります。 [ オーケストレーションされたキャンペーンのガードレールと制限事項について詳しく見る](../orchestrated/guardrails.md)
 
 ## 詳細情報 {#learn-more}
 
@@ -117,4 +117,4 @@ Adobe Journey Optimizer は、Adobe Experience Platform のソースフレーム
 * [ソース接続の作成](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/overview.html?lang=ja){target="_blank"}方法を学びます
 * [データマッピングと変換](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/overview.html?lang=ja){target="_blank"}について理解します
 * [インポートしたデータをジャーニーで使用](../building-journeys/journey-gs.md)する方法を確認します
-* [&#x200B; データ管理の基本](../data/gs-data.md)の概要を確認して、Journey Optimizerの完全なデータ設定にソースがどのように適合するかを理解してください
+* [ データ管理の基本](../data/gs-data.md)の概要を確認して、Journey Optimizerの完全なデータ設定にソースがどのように適合するかを理解してください

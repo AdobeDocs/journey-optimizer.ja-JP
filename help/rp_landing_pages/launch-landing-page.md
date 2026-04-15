@@ -5,10 +5,10 @@ title: 最初の調整されたキャンペーンの開始
 description: 最初の調整されたキャンペーンの開始
 redpen-status: CREATED_||_2025-08-11_20-24-42
 exl-id: 2b553e08-5a20-4efb-895e-c8984c52d6b5
-source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '235'
-ht-degree: 90%
+ht-degree: 92%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 90%
 
 Adobe Journey Optimizer で最初の調整されたキャンペーンを開始すると、各個人のジャーニーに適応するシームレスでパーソナライズされたカスタマーエクスペリエンスを作成できます。このガイドでは、キャンペーンの設定、直感的な視覚的なキャンバスを使用したフローのデザインから、テスト、開始、モニタリング、パフォーマンスの分析まで、すべての手順について順を追って説明します。アクティビティを調整する方法、タイミングを微調整する方法、実用的なインサイトを活用して結果を最適化する方法について説明します。1 回限りのメッセージをスケジュールする場合でも、高度なリターゲティング戦略を作成する場合でも、各トピックは、自信を高め、マーケティングビジョンを実現できるようにデザインされています。
 
-## 最初のオーケストレーションされたキャンペーンの開始
+## 最初の調整されたキャンペーンを開始する
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 オーケストレーションされたキャンペーンを作成するためのステップバイステップガイド
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer で最初の調整されたキャンペーンを開始�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 オーケストレーションされたキャンペーンの作成とスケジュール
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer で最初の調整されたキャンペーンを開始�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 キャンペーンアクティビティの調整
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer で最初の調整されたキャンペーンを開始�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 キャンペーンの開始と監視
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer で最初の調整されたキャンペーンを開始�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 オーケストレーションされたキャンペーンのレポート
 

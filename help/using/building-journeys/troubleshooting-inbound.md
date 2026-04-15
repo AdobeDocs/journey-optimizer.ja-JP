@@ -10,10 +10,10 @@ level: Intermediate
 keywords: インバウンドアクション, トラブルシューティング, ジャーニー, デバッグ, セルフヘルプ, チェック, エラー
 exl-id: 5c56786f-da22-4558-b2ae-01f762175a7f
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1725'
-ht-degree: 98%
+ht-degree: 95%
 
 ---
 
@@ -34,7 +34,7 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 
 トラブルシューティングを開始する前に、以下を確認します。
 
-1. **Assurance** セッションを設定します。詳しくは、[[!DNL Adobe Experience Platform] Assurance ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}を参照してください。
+1. **Assurance** セッションを設定します。詳しくは、[[!DNL Adobe Experience Platform] Assurance ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}を参照してください。
 
 1. インバウンドアクションを含むジャーニーに移動して、ジャーニー名とバージョン ID を取得します。
 
@@ -71,7 +71,7 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 
 ![インバウンドメッセージが表示されない場合のトラブルシューティングワークフロー：ジャーニー、Edge Delivery、プロファイルを確認](assets/troubleshoot-inbound-scenario-1-steps.png){width="70%" align="center"}
 
-### 手順 1：デバイス／クライアントが Edge Network からコンテンツを受信しているかどうかを確認する {#step-1}
+### 手順1：デバイス/クライアントがエッジネットワークからコンテンツを受信しているかどうかを確認する {#step-1}
 
 まず、デバイス／クライアントが期待どおりのコンテンツを取得しているかどうかを確認します。
 
@@ -99,7 +99,7 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 
 >[!ENDTABS]
 
-### 手順 2：Edge Network がコンテンツを返しているかどうかを確認する {#step-2}
+### 手順2：エッジネットワークがコンテンツを返しているかどうかを確認する {#step-2}
 
 この手順では、Edge Network がデバイス／クライアントでレンダリングされる期待どおりのインバウントコンテンツを返していることを確認します。
 
@@ -129,9 +129,9 @@ Edge Network の動作をデバッグするには、次の手順に従います�
 
    「プロファイル」セクションの **segmentsMap** 要素を開き、**joai** セグメント ID の存在を探すことで、Edge Network 配信サーバーのプロファイルのビューに **joai** セグメントが存在するかどうかを再確認できます。
 
-1. Edge Network 配信サーバーがプロファイルを関連する **joai** セグメント内にあると表示しない場合は、次の手順に進みます。<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
+1. Edge Network 配信サーバーがプロファイルを関連する **joai** セグメント内にあると表示しない場合は、次の手順に進みます。<!--use the Platform Profile viewer UI to check if the expected **joai** segment is in a realized state in the Edge profile. Learn more in the [Experience Platform Profile UI documentation](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide){target="_blank"}-->
 
-### 手順 3：「joai」オーディエンスメンバーシップが Edge Network に生成されているかどうかを確認する {#step-3}
+### 手順3:「joai」オーディエンスメンバーシップがedge networkに反映されているかどうかを確認する {#step-3}
 
 この手順では、プロファイルがインバウンドジャーニーアクションにエントリし、対応する **joai** セグメントにプロファイルが選定された際に、Edge プロファイルが正しく更新されたことを確認します。
 
@@ -165,7 +165,7 @@ Edge プロファイルの `segmentMembership` 属性に **joai** セグメン�
 
 <!--The next step is to check whether the audience segment is present in the profile on the Hub.-->
 
-### 手順 4：「joai」オーディエンスメンバーシップがハブのプロファイルに存在するかどうかを確認する {#step-4}
+### 手順4: ハブのプロファイルに「joai」オーディエンスメンバーシップが存在するかどうかを確認する {#step-4}
 
 この手順では、プロファイルがインバウンドジャーニーアクションにエントリし、対応する **joai** セグメントにプロファイルが選定された際に、ハブプロファイルが正しく更新されたことを確認します。
 
@@ -216,7 +216,7 @@ Edge プロファイルの `segmentMembership` 属性に **joai** セグメン�
 <!--
 ## Reference Section {#reference-section}
 
-- [Assurance Setup Guide](https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/tutorials/using-assurance)
+- [Assurance Setup Guide](https://experienceleague.adobe.com/en/docs/experience-platform/assurance/tutorials/using-assurance)
 - [[!DNL Adobe Experience Platform] Documentation](https://experienceleague.adobe.com/docs/experience-platform/home.html)
-- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html?lang=ja)
+- [Streaming Ingestion APIs Troubleshooting](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/troubleshooting.html)
 -->

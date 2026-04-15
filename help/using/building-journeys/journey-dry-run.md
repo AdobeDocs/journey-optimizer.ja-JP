@@ -9,10 +9,10 @@ level: Intermediate
 keywords: 公開, ジャーニー, ライブ, 有効性, 確認
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
-source-git-commit: bacae861439e5869890cf3fc3f0a5c17559530b6
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1143'
-ht-degree: 93%
+ht-degree: 92%
 
 ---
 
@@ -124,14 +124,14 @@ ht-degree: 93%
 
 ## ガードレールと制限 {#journey-dry-run-limitations}
 
-* ドライランモードのプロファイルは[&#x200B; エンゲージ可能プロファイル &#x200B;](../audience/license-usage.md)にカウントされます
+* ドライランモードのプロファイルは[ エンゲージ可能プロファイル ](../audience/license-usage.md)にカウントされます
 * ドライランモードのジャーニーは、ライブジャーニーの割り当て量にカウントされます
 * ドライランのジャーニーは、ビジネスルールには影響しません
   <!--* When creating a new journey version, if a previous journey version is **Live**, then the Dry run activation is not allowed on the new version.-->
-* **ジャンプ**&#x200B;アクションは、ドライランでは有効になりません。
-ソースジャーニーが宛先ジャーニーへの&#x200B;**ジャンプ**&#x200B;イベントをトリガーした際、そのジャンプイベントはドライランのジャーニーバージョンには適用されません。例えば、ジャーニーの最新バージョンがドライランで、以前のバージョンが&#x200B;**ライブ**&#x200B;である場合、ジャンプイベントはドライランバージョンを無視し、**ライブ**&#x200B;バージョンにのみ適用されます。
+* **ジャンプ**アクションは、ドライランでは有効になりません。
+ソースジャーニーが宛先ジャーニーへの**ジャンプ**&#x200B;イベントをトリガーした際、そのジャンプイベントはドライランのジャーニーバージョンには適用されません。例えば、ジャーニーの最新バージョンがドライランで、以前のバージョンが&#x200B;**ライブ**&#x200B;である場合、ジャンプイベントはドライランバージョンを無視し、**ライブ**&#x200B;バージョンにのみ適用されます。
 
-## ジャーニーのステップイベントとドライラン {#journey-step-events}
+## ジャーニーステップイベントとドライラン {#journey-step-events}
 
 ジャーニーのドライランでは、**stepEvents** が生成されます。これらの stepEvents には、特定のフラグとドライラン ID（`inDryRun` と `dryRunID`）があります。
 
@@ -149,4 +149,4 @@ stepEvent データを&#x200B;**外部システム**&#x200B;に書き出す場�
 
 ジャーニーのドライラン方法について詳しくは、このビデオを参照してください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464683/?captions=jpn&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)

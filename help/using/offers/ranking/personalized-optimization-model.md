@@ -9,10 +9,10 @@ role: User
 level: Experienced
 exl-id: c73b3092-e96d-4957-88e6-500e99542782
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '961'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 パーソナライズされた最適化モデルが初めてトレーニングされるまで、パーソナライズされた最適化モデルを利用した選択戦略内のオファーはランダムに提供されます。
 
-## 主なモデルの前提と制限事項 {#key}
+## 主要モデルの仮定と制限事項 {#key}
 
 パーソナライズされた最適化を使用する利点を最大限に活かすために、いくつかの主な前提と制限事項に注意する必要があります。
 

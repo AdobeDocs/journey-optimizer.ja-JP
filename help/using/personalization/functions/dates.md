@@ -6,14 +6,14 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: 2dd13148d34436f8d98f04a2f9143e942d0604c3
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1419'
-ht-degree: 75%
+ht-degree: 74%
 
 ---
 
-# 日時関数{#date-time}
+# 日付時刻関数{#date-time}
 
 日時関数を使用すると、Journey Optimizer 内の値に対して日時操作を実行できます。
 
@@ -408,11 +408,11 @@ The following operation gets all the values for the map `identityMap`.
 {%= formatDate(datetime, format) %}
 ```
 
-ここで、最初のパラメーターは日時属性で、2 番目の値は日付の変換および表示方法です。
+最初のパラメーターは日付時刻属性で、2番目の値は日付を変換して表示する方法です。
 
 >[!NOTE]
 >
-> `formatDate` 関数には、文字列ではなく **日時フィールド型** が入力として必要です。 フィールドが XDM スキーマに文字列型として格納されている場合は、まず、`stringToDate()` や `toDateTime()` などの変換関数を使用して、日時に変換する必要があります。 以下の例を参照してください。
+> `formatDate`関数には、文字列ではなく入力として&#x200B;**日時フィールドタイプ**&#x200B;が必要です。 フィールドがXDM スキーマの文字列型として保存されている場合は、最初に`stringToDate()`や`toDateTime()`などの変換関数を使用して日時に変換する必要があります。 以下の例を参照してください。
 >
 > 日付パターンが無効な場合、日付は ISO 標準形式にフォールバックします。
 >
@@ -420,9 +420,9 @@ The following operation gets all the values for the map `identityMap`.
 
 **例**
 
-+++日時フィールドの書式設定
++++日付時間フィールドの書式設定
 
-次の操作では、日時フィールドを MM/DD/YY 形式に書式設定します。
+次の操作では、日時フィールドをMM/DD/YY形式にフォーマットします。
 
 ```sql
 {%= formatDate(profile.timeSeriesEvents._mobile.hotelBookingDetails.bookingDate, "MM/dd/YY") %}
@@ -430,9 +430,9 @@ The following operation gets all the values for the map `identityMap`.
 
 +++
 
-+++文字列の日付への変換（最初）
++++文字列を最初に日付に変換
 
-フィールドが文字列として格納されている場合は、書式設定を行う前に、`stringToDate()` を使用してフィールドを日時に変換する必要があります。
+フィールドが文字列として保存されている場合は、最初に`stringToDate()`を使用して日時に変換してから書式設定する必要があります。
 
 ```sql
 {%= formatDate(stringToDate(profile.person.birthDayAndMonth), "MM/DD/YY") %}
@@ -440,9 +440,9 @@ The following operation gets all the values for the map `identityMap`.
 
 +++
 
-+++完全な日付形式（日名）
++++日付名を含む完全な日付形式
 
-次の操作は、日、月、日、年を含む完全な日付形式を返します。
+次の操作は、日名、月名、日年を含む完全な日付形式を返します。
 
 ```sql
 {%= formatDate(profile.person.birthDateTime, "EEEE MMMM dd yyyy") %}
@@ -452,21 +452,21 @@ The following operation gets all the values for the map `identityMap`.
 
 +++
 
-+++システム時間に基づく動的な日付
++++システム時間にもとづく動的な日付
 
-現在のシステム時間をフォーマットして、動的な日付を生成できます。 次の操作は、現在の日付を MM/dd/YYYY 形式で返します。
+現在のシステム時間をフォーマットして、動的な日付を生成できます。 次の操作は、現在の日付をMM/dd/YYYY形式で返します。
 
 ```sql
 {%= formatDate(getCurrentZonedDateTime(), "MM/dd/YYYY") %}
 ```
 
-出力（2026 年 1 月 30 日）: `01/30/2026`
+出力（2026年1月30日）: `01/30/2026`
 
 +++
 
 +++曜日の形式
 
-曜日は簡単に抽出できます。
+曜日を短い形式で抽出できます。
 
 ```sql
 {%= formatDate(getCurrentZonedDateTime(), "EEE") %}
@@ -474,38 +474,38 @@ The following operation gets all the values for the map `identityMap`.
 
 出力：`Sun` （日曜日）、`Mon` （月曜日）、`Tue` （火曜日）など
 
-小文字で出力する場合は、`lowerCase` の関数と組み合わせます。
+小文字の出力の場合は、`lowerCase`関数と組み合わせます。
 
 ```sql
 {%= lowerCase(formatDate(getCurrentZonedDateTime(), "EEE")) %}
 ```
 
-出力：`sun`、`mon`、`tue` など
+出力：`sun`、`mon`、`tue`など
 
 +++
 
-+++コンテキストイベントからのタイムスタンプのフォーマット
++++コンテキストイベントからのタイムスタンプの書式設定
 
-ジャーニーイベントのコンテキスト属性からタイムスタンプを使用する場合は、次の 2 つの要件が適用されます。
+ジャーニーイベントコンテキスト属性からタイムスタンプを使用する場合、次の2つの要件が適用されます。
 
-* **タイムスタンプを`toDateTime()`** でラップ – コンテキストイベントのタイムスタンプは、`formatDate()` によって日時値として自動的に認識されません。
-* **数値イベント ID をバッククォートで囲む** — イベント ID が数値の場合（例：`1697323153`）、式パスでバッククォートを使用してエスケープする必要があります。そうしないと、エディターがPQL構文エラーを生成します。
-* **`{% let %}` 割り当て構文を使用** — インライン `{%= %}` 構文はこのパターンをサポートしていません。 最初に結果を変数に割り当て、`{{varName}}` を使用してレンダリングします。
+* **タイムスタンプを`toDateTime()`**&#x200B;で折り返します – コンテキストイベントタイムスタンプは、`formatDate()`によって日時の値として自動的に認識されません。
+* **数値イベント IDをバックティック**&#x200B;で折り返します – イベント IDが数値（例：`1697323153`）の場合、エクスプレッション パスでバックティックを使用してエスケープする必要があります。そうしないと、エディターでPQL構文エラーが発生します。
+* **割り当て構文`{% let %}`を使用** — インライン `{%= %}`構文はこのパターンをサポートしていません。 最初に結果を変数に割り当ててから、`{{varName}}`を使用してレンダリングします。
 
 ```handlebars
 {% let appointmentDate = formatDate(toDateTime(context.journey.events.`1697323153`.timestamp), "dd/MM/yyyy HH:mm") %}
 {{appointmentDate}}
 ```
 
-出力（例）:`18/03/2026 14:30`
+出力（例）: `18/03/2026 14:30`
 
 +++
 
 >[!CAUTION]
 >
->**一般的なエラー：「入力が一致しません」（\&lt;EOF\> を想定）&quot;**
+>**共通エラー：「入力が一致しません&#39;（&#39;は\&lt;EOF\>&quot;**
 >
->このPQL構文エラーは、コンテキストイベントのタイムスタンプインライン（`formatDate()`）で `{%= formatDate(...) %}` を使用すると発生します。 最も一般的な原因は、バッククォート（`` ` ``）でラップされていない数値イベント ID、または最初に `formatDate()` でラップせずに `toDateTime()` に直接渡されたタイムスタンプフィールドです。 両方の問題を修正するには、上記の例に示した `{% let %}` 割り当てパターンを使用します。
+>このPQL構文エラーは、コンテキスト イベント タイムスタンプ インライン （`formatDate()`）で`{%= formatDate(...) %}`を使用すると発生します。 最も一般的な原因は、バックティック （`` ` ``）でラップされていない数値イベント ID、または`formatDate()`で最初にラップせずに`toDateTime()`に直接渡されたタイムスタンプフィールドです。 両方の問題を修正するには、上記の例に示す`{% let %}`割り当てパターンを使用します。
 
 ### パターン文字 {#pattern-characters}
 
@@ -656,7 +656,7 @@ The following operation gets all the values for the map `identityMap`.
 ```
 -->
 
-## 日時に {#to-date-time}
+## 終了時刻 {#to-date-time}
 
 `ToDateTime` 関数は、文字列を日付に変換します。無効な入力に対する出力として、エポック日付を返します。
 
@@ -693,7 +693,7 @@ The following operation gets all the values for the map `identityMap`.
 ```
 -->
 
-## 開始日に切り捨て {#truncate-day}
+## 日の先頭に切り捨てる {#truncate-day}
 
 `truncateToStartOfDay` 関数を使用すると、指定された日時を、その日の始まり（時刻：00:00）に設定して変更できます。
 
