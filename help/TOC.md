@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 5c2c3ae045b37c734c9cf18ad60bd92d6a98c67f
+source-git-commit: 97b94cfb13a9a435df2accfce34c95856b67b11b
 workflow-type: tm+mt
-source-wordcount: '3213'
+source-wordcount: '3206'
 ht-degree: 91%
 
 ---
@@ -428,9 +428,8 @@ ht-degree: 91%
       + [パーソナライゼーション構文](using/personalization/personalization-syntax.md)
       + [コンテキストデータの反復処理](using/personalization/iterate-contextual-data.md)
       + [式フラグメントの再利用](using/personalization/use-expression-fragments.md)
-      + Adobe Experience Platform データをパーソナライゼーションに使用 {#aep-data-perso}
-         + [Adobe Experience Platform データをパーソナライゼーションに使用](using/personalization/aep-data-perso.md)
-         + [トラッキングリンクのURL パラメーターを暗号化する](using/personalization/url-parameter-encryption.md)
+      + [Adobe Experience Platform データをパーソナライゼーションに使用](using/personalization/aep-data-perso.md)
+      + [トラッキングリンクのURL パラメーターを暗号化する](using/personalization/url-parameter-encryption.md)
       + ヘルパー関数リスト {#functions}
          + [ヘルパー関数リスト](/help/rp_landing_pages/functions-landing-page.md)
          + [ヘルパー関数の基本を学ぶ](using/personalization/functions/functions.md)
