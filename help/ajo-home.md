@@ -63,7 +63,7 @@ Journey Optimizer に、ブランド主導のバッチキャンペーン専用�
 
 ::::landing-cards-container
 :::
-![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 最新のリリースノート
 
@@ -73,7 +73,7 @@ Adobe Journey Optimizer の最新リリースノート、新機能および機�
 :::
 
 :::
-![アイコン](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 基本を学ぶ
 
@@ -83,7 +83,7 @@ Adobe Journey Optimizer の最新リリースノート、新機能および機�
 :::
 
 :::
-![アイコン](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 包括的なジャーニーガイド
 
@@ -93,7 +93,7 @@ Adobe Journey Optimizer の最新リリースノート、新機能および機�
 :::
 
 :::
-![アイコン](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=ja)
 
 キャンペーンの理解と管理
 
@@ -103,7 +103,7 @@ Adobe Journey Optimizer の最新リリースノート、新機能および機�
 :::
 
 :::
-![アイコン](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ja)
 
 通信チャネル
 
@@ -113,7 +113,7 @@ Adobe Journey Optimizer の最新リリースノート、新機能および機�
 :::
 
 :::
-![アイコン](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=ja)
 
 競合管理と優先順位付け
 
