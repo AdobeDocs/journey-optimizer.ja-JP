@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 version: Journey Orchestration
 exl-id: 90e71c42-94f3-4cc5-bd6e-1df29def4d39
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 110c4c9b12b085f3febb83f799f5fd0ba8a8b1fb
 workflow-type: tm+mt
 source-wordcount: '1432'
 ht-degree: 2%
@@ -104,7 +104,7 @@ ht-degree: 2%
 
 1. モデルの&#x200B;**[!UICONTROL プロパティ]**&#x200B;で選択されているデータセットを確認できます。 「**[!UICONTROL プロパティを編集]**」をクリックして、別のデータセットを選択します。 [詳細情報](create-ai-models.md)
 
-   ![](../assets/ai-model-properties-edit-dataset.png){align="left" width="45%"}
+   ![](../assets/ai-model-properties-edit-dataset.png){align="center" width="45%"}
 
 ## よくある質問 {#faq}
 
