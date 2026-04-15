@@ -1,22 +1,22 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: MCP経由でAI アシスタントと連携する
-description: MCP サーバーを使用してAdobe Journey OptimizerをAI アシスタントに接続する方法を説明します
+title: MCP クライアントの操作
+description: MCP サーバーを使用してAdobe Journey OptimizerをMCP クライアントに接続する方法について説明します
 feature: Integrations
 topic: Content Management, Artificial Intelligence
 badge: label="ベータ版" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
 hide: true
-source-git-commit: 03ac391f57c271416506b1213c4b8da5f06b32d5
+source-git-commit: 7ae497e7a0e4d1652413a5a6dbd5d617a3ec31fe
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '792'
 ht-degree: 1%
 
 ---
 
-# MCP経由でAI アシスタントと連携する {#ajo-mcp}
+# MCP クライアントの操作 {#ajo-mcp}
 
 >[!AVAILABILITY]
 >
@@ -54,7 +54,7 @@ ht-degree: 1%
 
 ## 前提条件 {#mcp-prerequisites}
 
-[!DNL Adobe Journey Optimizer] MCP サーバーをAI アシスタントに接続する前に、次の点を確認してください。
+[!DNL Adobe Journey Optimizer] MCP サーバーをMCP クライアントに接続する前に、次の点を確認してください。
 
 * アクティブな[!DNL Adobe Journey Optimizer] ライセンスがあります。
 * サポートされているMCP互換アプリケーション（現在Claude WebまたはClaude Desktop）にアクセスできます。
@@ -81,7 +81,7 @@ Step-by-step connection instructions to be added here, including:
 
 ## よくある質問 {#mcp-faq}
 
-+++どのAI アシスタントがサポートされていますか？
++++どのMCP クライアントがサポートされていますか？
 
 [!DNL Adobe Journey Optimizer] MCP サーバーは現在、**Claude Web**&#x200B;および&#x200B;**Claude Desktop**&#x200B;で利用できます。 今後のリリースで、MCP互換アプリケーションのサポートが追加される可能性があります。
 +++
@@ -93,12 +93,12 @@ Step-by-step connection instructions to be added here, including:
 
 +++[!DNL Adobe Journey Optimizer] MCP サーバーを使用するには、開発者アクセス権が必要ですか？
 
-いいえ。 MCP サーバーは、マーケティングとテクノロジーの両方のペルソナ向けに設計されています。 マーケターは、Claudeの自然言語プロンプトを使用してMCPと対話できます。また、開発者は、MCPをサポートする開発者ツールでもMCPを使用できます。
+いいえ。 MCP サーバーは、マーケティングとテクノロジーの両方のペルソナ向けに設計されています。 マーケターは、サポートされているMCP クライアントで自然言語プロンプトを使用してMCPと対話できます。また、開発者は、MCPをサポートする開発者ツールでもMCPを使用できます。
 +++
 
-+++データはAI アシスタントプロバイダーに送信されますか？
++++データはMCP クライアントプロバイダーに送信されますか？
 
-プロンプトを送信すると、AI アシスタントは、関連するコンテキスト（MCP サーバーから返された[!DNL Adobe Journey Optimizer] データを含む）をモデルに送信して処理する場合があります。 本番データに接続する前に、AI アシスタントプロバイダーのプライバシーポリシーとデータ処理ポリシーを確認しましょう。
+プロンプトを送信すると、MCP クライアントは、関連するコンテキスト（MCP サーバーから返された[!DNL Adobe Journey Optimizer] データを含む）をモデルに送信して処理する場合があります。 本番データに接続する前に、MCP クライアントプロバイダーのプライバシーおよびデータ処理ポリシーを確認してください。
 +++
 
 +++[!DNL Adobe Journey Optimizer]でどのような権限が必要ですか？
