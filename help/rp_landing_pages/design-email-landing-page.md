@@ -50,7 +50,7 @@ Adobe Journey Optimizer でのコンテンツのデザイン
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 スタイルの編集：メールデザインのカスタマイズ
 

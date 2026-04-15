@@ -30,7 +30,7 @@ Adobe Journey Optimizer のコードベースのチャネルの設定の節で�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 コードベースのエクスペリエンスサーフェス
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer のコードベースのチャネルの設定の節で�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 実装メソッドのサンプル
 

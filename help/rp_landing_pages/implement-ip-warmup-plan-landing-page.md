@@ -30,7 +30,7 @@ IP ウォームアップジャーニーを開始する前に、配信品質の�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
 
 IP ウォームアッププランの基本を学ぶ
 

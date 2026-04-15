@@ -40,7 +40,7 @@ URI サーフェスを定義し、様々なプラットフォーム用のコン�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 Mobile SDK でのコンテンツカードの設定のサポート
 
@@ -50,7 +50,7 @@ Adobe Experience Platform Mobile SDK を使用して、モバイルアプリケ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 Web SDK でのコンテンツカードの設定のサポート
 

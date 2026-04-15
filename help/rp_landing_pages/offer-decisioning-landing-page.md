@@ -35,7 +35,7 @@ Adobe Journey Optimizer の意思決定管理を使用すると、適切なオ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 決定コンポーネントの作成と管理
 
@@ -45,7 +45,7 @@ Adobe Journey Optimizer の意思決定管理を使用すると、適切なオ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 ランキングの作成と最適化
 

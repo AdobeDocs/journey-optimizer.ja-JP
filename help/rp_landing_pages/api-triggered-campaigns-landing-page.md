@@ -40,7 +40,7 @@ API トリガーキャンペーンの名前、タグ付け、アクセス制限�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 API トリガーキャンペーンアクションの設定
 
@@ -50,7 +50,7 @@ API トリガーキャンペーンアクションの設定
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 API トリガーキャンペーンコンテンツの編集とパーソナライズ
 
@@ -60,7 +60,7 @@ API トリガーキャンペーンコンテンツの編集とパーソナライ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=ja)
 
 API トリガーキャンペーンオーディエンスの定義
 
@@ -70,7 +70,7 @@ API トリガーキャンペーンオーディエンスの定義
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ja)
 
 API トリガーキャンペーンのスケジュール
 

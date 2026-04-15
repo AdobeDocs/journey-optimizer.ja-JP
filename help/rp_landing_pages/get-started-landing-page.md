@@ -155,7 +155,7 @@ AI がコンテンツの作成、送信時間の最適化、よりスマート�
 * **[ユースケースプレイブック](../using/start/ai-features.md#playbooks)** - 放棄された買い物かごの復元やウェルカムキャンペーンなどの一般的なシナリオ用の事前定義済みワークフロー
 * **[監視とトラブルシューティング](troubleshoot-journey-landing-page.md)** - パフォーマンスを追跡し、問題を特定し、迅速に解決するためのツール
 * **[新機能](../using/rn/release-notes.md)** - 最新の機能、改善点、修正点を取得します
-* **[コミュニティフォーラム](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}** - 他のユーザーとつながり、質問し、ベストプラクティスを共有します
+* **[コミュニティフォーラム](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"}** - 他のユーザーとつながり、質問し、ベストプラクティスを共有します
 * **[ドキュメントの更新](../using/rn/documentation-updates.md)** - ドキュメントの最近の変更と追加に関する最新情報を取得します
 
 ## Adobe Marketo Measureをすぐ活用するには？
@@ -165,7 +165,7 @@ AI がコンテンツの作成、送信時間の最適化、よりスマート�
 * **Journey Optimizer を初めて使用しますか？**&#x200B;まずは [Journey Optimizer とは](../using/start/get-started.md)から基本を理解します
 * **自分の役割を知っていますか？**&#x200B;自分の責務に該当する[役割固有のガイド](../using/start/quick-start.md)を参照してださい。
 * **探索しますか？**&#x200B;[AI 機能](../using/start/ai-features.md)を参照するか、[ユースケースプレイブック](../using/start/ai-features.md#playbooks)を試してください
-* **サポートが必要ですか？**&#x200B;[トラブルシューティングガイド](../using/start/troubleshooting.md)を確認するか、[コミュニティフォーラム](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}にアクセスしてください。
+* **サポートが必要ですか？**&#x200B;[トラブルシューティングガイド](../using/start/troubleshooting.md)を確認するか、[コミュニティフォーラム](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"}にアクセスしてください。
 
 ## クイックリンク {#quick-links}
 

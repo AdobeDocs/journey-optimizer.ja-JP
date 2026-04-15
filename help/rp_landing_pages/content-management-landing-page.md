@@ -50,7 +50,7 @@ Adobe Journey Optimizer のコンテンツ管理機能を使用すると、キ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 再利用可能なコンテンツフラグメント
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer のコンテンツ管理機能を使用すると、キ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 クロスソリューションのユースケース
 

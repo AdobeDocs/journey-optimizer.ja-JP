@@ -40,7 +40,7 @@ Journey Optimizer の概要
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 ジャーニーステップイベントの共通フィールド
 

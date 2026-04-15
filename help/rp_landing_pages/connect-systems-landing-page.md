@@ -30,7 +30,7 @@ Adobe Journey Optimizer が他のアドビおよびサードパーティのソ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 Adobe Journey Optimizer API の操作
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer のサンドボックスを使用して、仮想環境�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 ソースコネクタの基本を学ぶ
 

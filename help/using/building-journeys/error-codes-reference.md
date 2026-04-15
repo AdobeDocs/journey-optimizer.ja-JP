@@ -183,14 +183,14 @@ ht-degree: 92%
 1. **情報を収集**：エラーコード、リクエスト ID、タイムスタンプ、再現手順を収集します
 2. **システムステータスを確認**：既知のサービスの問題について詳しくは、[アドビのステータス](https://status.adobe.com/ja){target="_blank"}を参照してください
 3. **ドキュメントを検索**：解決策について詳しくは、[Adobe Experience League](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=ja){target="_blank"} を参照してください。
-4. **Engage コミュニティ**: [[!DNL Adobe Journey Optimizer]  コミュニティ &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}に質問を投稿します
+4. **Engage コミュニティ**: [[!DNL Adobe Journey Optimizer]  コミュニティ &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"}に質問を投稿します
 5. **Adobe サポート**&#x200B;にお問い合わせください：[関連するすべての詳細を記載したサポートチケット &#x200B;](../start/user-interface.md#support-ticket-guidelines)を送信します
 
 >[!NOTE]
 >
->このエラー コードの参照は、新しいコードを特定および文書化する際に継続的に更新されます。最新の情報については、[[!DNL Adobe Journey Optimizer]  コミュニティブログ &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs){target="_blank"}を定期的に確認してください。
+>このエラー コードの参照は、新しいコードを特定および文書化する際に継続的に更新されます。最新の情報については、[[!DNL Adobe Journey Optimizer]  コミュニティブログ &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/bg-p/journey-optimizer-blogs?profile.language=ja){target="_blank"}を定期的に確認してください。
 
 **関連トピック**
 
-* [解説中 [!DNL Adobe Journey Optimizer]  エラーコード：パート 1](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884){target="_blank"}
-* [解説中 [!DNL Adobe Journey Optimizer]  エラーコード：パート 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661){target="_blank"}
+* [解説中 [!DNL Adobe Journey Optimizer]  エラーコード：パート 1](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=ja){target="_blank"}
+* [解説中 [!DNL Adobe Journey Optimizer]  エラーコード：パート 2](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/bc-p/782661?profile.language=ja){target="_blank"}

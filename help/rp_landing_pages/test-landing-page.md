@@ -66,7 +66,7 @@ ht-degree: 99%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
 
 監視とトラブルシューティング
 
@@ -76,7 +76,7 @@ ht-degree: 99%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=ja)
 
 パーソナライゼーションプレイグラウンド
 
@@ -86,7 +86,7 @@ ht-degree: 99%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
 
 コンテンツ実験と A/B テスト
 
@@ -96,7 +96,7 @@ ht-degree: 99%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ja)
 
 関係者による監視のためのシードリスト
 

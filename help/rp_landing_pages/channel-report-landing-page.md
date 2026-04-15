@@ -30,7 +30,7 @@ Adobe Journey Optimizer の「全期間のレポート」機能にアクセス�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
 
 指標の包括的なリスト
 

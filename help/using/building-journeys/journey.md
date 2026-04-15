@@ -23,7 +23,7 @@ ht-degree: 86%
 >id="ajo_journey_canvas"
 >title="ジャーニーの作成"
 >abstract="ドラッグ&amp;ドロップ操作のキャンバスを使用して、複数のチャネルをまたいでメッセージやアクションを編成し、コンテキストデータとオーディエンスのターゲティングを活用して、効果を最大化します。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs" text="最初のジャーニーを作成"
+>additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs" text="最初のジャーニーを作成"
 
 
 [!DNL Adobe Journey Optimizer]を利用すると、オーディエンスの行動やニーズにリアルタイムで適応する、パーソナライズされたマルチステップのカスタマージャーニーを作成できます。 直感的なドラッグ＆ドロップキャンバスを使用すると、コンテキストデータとオーディエンスターゲティングを活用して、複数のチャネルをまたいでメッセージとアクションを調整し、最大限の影響を得ることができます。
@@ -84,7 +84,7 @@ ht-degree: 86%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 **エントリポイントの定義**
 
@@ -94,7 +94,7 @@ ht-degree: 86%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ja)
 
 **メッセージの送信**
 
@@ -104,7 +104,7 @@ Journey Optimizer でデザインされた、メール、プッシュ、SMS／MM
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 **ロジックと条件の追加**
 
@@ -114,7 +114,7 @@ Journey Optimizer でデザインされた、メール、プッシュ、SMS／MM
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ja)
 
 **データの活用**
 
@@ -124,7 +124,7 @@ Journey Optimizer でデザインされた、メール、プッシュ、SMS／MM
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 **外部システムの接続**
 
@@ -134,7 +134,7 @@ Journey Optimizer でデザインされた、メール、プッシュ、SMS／MM
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 **オーケストレーションアクティビティの追加**
 
@@ -225,7 +225,7 @@ Journey Optimizer でデザインされた、メール、プッシュ、SMS／MM
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ja)
 
 **新規サブスクライバーの歓迎**
 
@@ -235,7 +235,7 @@ Journey Optimizer でデザインされた、メール、プッシュ、SMS／MM
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=ja)
 
 **送信時間の最適化**
 
@@ -245,7 +245,7 @@ AI を使用して、各顧客が最も関与する可能性の高いタイミ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
 
 **配信を増やす**
 
@@ -255,7 +255,7 @@ AI を使用して、各顧客が最も関与する可能性の高いタイミ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 **平日のターゲット**
 
@@ -265,7 +265,7 @@ AI を使用して、各顧客が最も関与する可能性の高いタイミ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 **マルチチャネルキャンペーン**
 
@@ -275,7 +275,7 @@ AI を使用して、各顧客が最も関与する可能性の高いタイミ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
 
 **すべてのユースケース**
 
@@ -293,7 +293,7 @@ AI を使用して、各顧客が最も関与する可能性の高いタイミ�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
 
 **高度な式**
 
@@ -303,7 +303,7 @@ AI を使用して、各顧客が最も関与する可能性の高いタイミ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ja)
 
 **タイムゾーン管理**
 
@@ -313,7 +313,7 @@ AI を使用して、各顧客が最も関与する可能性の高いタイミ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
 
 **テストモードとドライラン**
 
@@ -323,7 +323,7 @@ AI を使用して、各顧客が最も関与する可能性の高いタイミ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ja)
 
 **サンドボックスへのコピー**
 
@@ -333,7 +333,7 @@ AI を使用して、各顧客が最も関与する可能性の高いタイミ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
 
 **タグと組織**
 
@@ -343,7 +343,7 @@ AI を使用して、各顧客が最も関与する可能性の高いタイミ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 **スループット制御**
 

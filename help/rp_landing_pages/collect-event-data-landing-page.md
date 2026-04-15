@@ -45,7 +45,7 @@ Adobe Journey Optimizer でエクスペリエンスイベントを収集する�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 意思決定管理のイベントデータキャプチャの設定
 
