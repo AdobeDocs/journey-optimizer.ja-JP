@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 97b94cfb13a9a435df2accfce34c95856b67b11b
+source-git-commit: 6d0e2aaa10e50bc514abefff13e65af9e7dc2f53
 workflow-type: tm+mt
-source-wordcount: '3206'
+source-wordcount: '3200'
 ht-degree: 91%
 
 ---
@@ -289,7 +289,6 @@ ht-degree: 91%
             + [リンクの追加とメッセージのトラッキング](using/email/message-tracking.md)
             + [パーソナライズされたオファーを挿入](using/email/add-offers-email.md)
             + [テキストバージョンの管理](using/email/text-version-email.md)
-            + [AIを活用した受信トレイ用にメールテキストを最適化する](using/email/llm-email-optimizer.md)
             + [メタデータを追加](using/email/email-metadata.md)
             + [高度なHTMLエディターによる編集](using/email/email-expert-mode.md)
          + スタイルの編集 {#edit-style}
