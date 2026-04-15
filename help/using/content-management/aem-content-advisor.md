@@ -7,14 +7,14 @@ role: User
 level: Beginner, Intermediate
 hide: true
 exl-id: 842d69e3-be7f-4a81-8161-6c6ecd571f95
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
 
 ---
 
-# Adobe Experience Manager Content Advisorの操作 {#aem-content-advisor}
+# Adobe Experience Manager content advisorの操作 {#aem-content-advisor}
 
 >[!AVAILABILITY]
 >
@@ -123,7 +123,7 @@ Adobe Experience Manager Content Advisorには、次のコンテンツフラグ�
 
 +++
 
-## Adobe Experience Manager Content Advisorへのアクセス {#access}
+## Adobe Experience Manager content advisorにアクセス {#access}
 
 Journey OptimizerでAdobe Experience Manager Content Advisorにアクセスするには、次の手順に従います。
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 9509fd67-6d12-4440-aad8-59690936be97
-source-git-commit: d1f651eeb9401e4344f5bff12e6b706ff0080320
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1241'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
@@ -64,7 +64,7 @@ Web プロパティで web チャネルキャンペーンのオーサリング�
 >
 >現在、[!DNL Journey Optimizer] での web ページのオーサリングをサポートしているブラウザーは、Google Chrome とMicrosoft Edge のみです。
 
-### Visual Editing Helper 拡張機能のインストール {#install-visual-editing-helper}
+### ビジュアル編集ヘルパー拡張機能のインストール {#install-visual-editing-helper}
 
 Visual Editing Helper のブラウザー拡張機能をダウンロードしてインストールするには、次の手順に従います。
 

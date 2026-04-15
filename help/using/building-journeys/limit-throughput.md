@@ -9,20 +9,20 @@ level: Experienced
 keywords: ジャーニー, データソース, 制限, スループット, カスタム, アクション
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '798'
-ht-degree: 95%
+ht-degree: 93%
 
 ---
 
-# ユースケース：外部データソースとカスタムアクションを使用してスループットを制限する{#limit-throughput}
+# ユースケース：外部データソースとカスタムアクションでスループットを制限する{#limit-throughput}
 
-このユースケースを使用すると、外部システムが 1 秒あたりの上限リクエスト数を処理する必要がある場合に、ジャーニーの処理をスロットリングすることができます。
+このユースケースは、外部システムが1秒あたりの上限リクエスト数を処理する必要がある場合に、ジャーニー処理をスロットリングする場合に使用します。
 
 ## ユースケースの説明
 
-[!DNL Adobe Journey Optimizer] を使用すると、実務担当者は、カスタムアクションとデータソースを使用して、外部システムに API 呼び出しを送信できます。
+[!DNL Adobe Journey Optimizer]では、実務担当者がカスタムアクションとデータソースを使用して、外部システムにAPI呼び出しを送信できます。
 
 これは以下を使用して行うことができます。
 

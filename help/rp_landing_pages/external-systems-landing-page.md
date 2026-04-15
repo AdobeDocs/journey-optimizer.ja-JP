@@ -5,7 +5,7 @@ title: ジャーニーと外部システムの統合
 description: ジャーニーと外部システムの統合
 redpen-status: CREATED_||_2025-08-11_21-16-41
 exl-id: f61a2c42-f082-4eef-b890-8224357f215f
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 100%
@@ -20,7 +20,7 @@ Adobe Journey Optimizer でジャーニーを外部システムと統合する�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 外部システム統合のベストプラクティス
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer でジャーニーを外部システムと統合する�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Capping API の概要および実装ガイド
 
@@ -40,7 +40,7 @@ Capping API を使用した外部システム統合のキャッピング設定�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Throttling API：設定および管理ガイド
 

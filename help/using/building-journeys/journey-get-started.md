@@ -9,14 +9,14 @@ level: Beginner, Intermediate
 hide: true
 keywords: ジャーニー, オーケストレーション, はじめに, オンボーディング, 機能
 exl-id: 96b1d619-986d-493d-a73b-d7c63b92cca8
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '839'
-ht-degree: 93%
+ht-degree: 92%
 
 ---
 
-# Journey Orchestration - 完全ガイド{#journey-orchestration-guide}
+# ジャーニーオーケストレーション – 完全ガイド{#journey-orchestration-guide}
 
 [!DNL Adobe Journey Optimizer]のジャーニーを利用すると、オーディエンスの行動やニーズにリアルタイムで適応する、パーソナライズされたマルチステップのカスタマージャーニーを作成できます。 直感的なドラッグ＆ドロップキャンバスを使用すると、コンテキストデータとオーディエンスターゲティングを活用して、複数のチャネルをまたいでメッセージとアクションを調整し、最大限の影響を得ることができます。
 

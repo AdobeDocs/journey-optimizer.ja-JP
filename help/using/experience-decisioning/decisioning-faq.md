@@ -7,14 +7,14 @@ role: User
 level: Intermediate
 version: Journey Orchestration
 exl-id: 7bb72527-d4e1-49f8-b2c3-c943d65903f2
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '845'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
-# 決定に関するよくある質問 {#decisioning-faq}
+# よくある質問の決定 {#decisioning-faq}
 
 このページでは、Adobe Journey Optimizer の決定機能に関するよくある質問への回答を示します。
 

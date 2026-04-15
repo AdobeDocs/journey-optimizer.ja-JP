@@ -7,10 +7,10 @@ feature: Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: db85a563-9630-4d87-bf10-9f2515fe8a45
-source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '522'
-ht-degree: 86%
+ht-degree: 84%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 86%
 
 1. 「**[!UICONTROL 送信]**」をクリックして、アプリ設定を作成します。
 
-## 手順 2：ライブアクティビティの設定を作成 {#config-live-activity}
+## 手順2：ライブアクティビティ設定の作成 {#config-live-activity}
 
 1. 左側のパネルで、**[!UICONTROL 管理]**／**[!UICONTROL チャネル]**&#x200B;を参照し、**[!UICONTROL 一般設定]**／**[!UICONTROL チャネル設定]**&#x200B;を選択します。「**[!UICONTROL チャネル設定を作成]**」ボタンをクリックします。
 

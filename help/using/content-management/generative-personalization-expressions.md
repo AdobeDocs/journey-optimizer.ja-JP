@@ -8,14 +8,14 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Intermediate
 mini-toc-levels: 1
-source-git-commit: 908d418e88813511d25346bae721e93da2cf1336
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '806'
 ht-degree: 5%
 
 ---
 
-# PERSONALIZATION Expressions用AI アシスタント{#generative-personalization-expressions}
+# パーソナライゼーション表現のためのAI アシスタント{#generative-personalization-expressions}
 
 >[!IMPORTANT]
 >

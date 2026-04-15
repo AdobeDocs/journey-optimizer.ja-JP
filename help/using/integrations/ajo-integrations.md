@@ -7,10 +7,10 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '956'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -89,14 +89,14 @@ Adobe Journey Optimizer の Adobe Express 統合により、コンテンツの�
 
 詳しくは、[Journey Optimizer + Adobe Express](../integrations/express.md) を参照してください。
 
-## パフォーマンスマーケティング用の GenStudio
+## GenStudio for performance marketing
 
 Adobe GenStudio for Performance Marketing は、マーケティングチームが独自の広告やメールを作成し、ブランド標準および企業ポリシーに準拠した、効果的でパーソナライズされたマーケティングキャンペーンを推進できるようにする生成 AI 中心のアプリケーションです。アドビの AI テクノロジーを活用することで、コンテンツの作成と管理の複雑さを軽減し、クリエイターが革新性に焦点を当てることができるようにする包括的なツールスイートを提供します。
 
 詳しくは、[Journey Optimizer + GenStudio for Performance Marketing](../integrations/genstudio.md) を参照してください。
 
 
-## Adobe インテリジェントサービス {#integration-intelligent-service}
+## Adobe intelligent services {#integration-intelligent-service}
 
 リアルタイム顧客データプラットフォームにネイティブな Adobe インテリジェントサービスを使用すると、カスタマーエクスペリエンスのユースケースで人工知能と機械学習の機能を活用できます。これにより、マーケティングアナリストは、データサイエンスの専門知識がなくても、ビジネスレベルの設定を使用して、会社のニーズに特化した予測を設定できます。
 

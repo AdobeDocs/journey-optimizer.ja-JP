@@ -6,10 +6,11 @@ description: Adobe Journey Optimizer が Adobe Experience Platform と連携し�
 feature: Get Started
 role: Admin, Developer, User
 level: Beginner
-source-git-commit: 87f714e380957b40df196652ac37d1e6cd611925
-workflow-type: ht
+exl-id: 9df179a0-a5f6-4dbd-a9db-a103731b1854
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+workflow-type: tm+mt
 source-wordcount: '753'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -42,13 +43,13 @@ Adobe Journey Optimizer は、Adobe Experience Platform からのデータとイ
 * **配信（接続）** - メール、SMS、プッシュ通知、ダイレクトメールなどのチャネルを通じてメッセージを配信し、データを外部システムにエクスポートします。[チャネルの設定](../configuration/get-started-configuration.md)
 * **測定と分析** - 継続的な改善のためにレポートで顧客エンゲージメントとキャンペーンのパフォーマンスを追跡します。[レポートの表示](../reports/campaign-global-report-cja.md)
 
-### 連続最適化サイクル {#optimization-cycle}
+### 継続的な最適化サイクル {#optimization-cycle}
 
 このエコシステムは、継続的な最適化サイクルとして機能します。データは、パーソナライズされたコンテンツと決定を提供する、お客様の理解を推進します。これらはジャーニーに調整され、チャネルをまたいで配信され、有効性を測定し、時間の経過と共に調整されます。
 
 ![](../assets/do-not-localize/get-started-flow.png)
 
-## 主要な機能領域 {#functional-areas}
+## 主な活動分野 {#functional-areas}
 
 Journey Optimizer には、シームレスに連携するいくつかの主要な機能領域が含まれています。
 
@@ -62,7 +63,7 @@ Journey Optimizer には、シームレスに連携するいくつかの主要�
 | **接続** | データソースとチャネルの接続 | ソースコネクタの設定、チャネルの設定、外部プラットフォームへの接続を行います。[詳細情報](../configuration/get-started-configuration.md) |
 | **管理とプライバシー** | 設定とコンプライアンスの制御 | ユーザーの管理、サンドボックスの設定、チャネルの設定、プライバシーリクエストの処理を行います。[詳細情報](../administration/permissions.md) |
 
-### これらの領域の連携 {#working-together}
+### 連携の仕組み {#working-together}
 
 これらの機能領域は、継続的なサイクルで動作します。
 

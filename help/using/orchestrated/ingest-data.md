@@ -5,10 +5,10 @@ title: 設定の手順
 description: SFTP、クラウドストレージ、データベースなどのサポートされているソースからデータを Adobe Experience Platform に取り込む方法について説明します。
 exl-id: 7f1e7985-b68e-43d6-9c8f-fea2469f8af9
 version: Campaign Orchestration
-source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '699'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Experience Platform を使用すると、データを外部ソースから
 
 データセットは、スキーマ（列）とフィールド（行）で構成されるデータコレクション（通常はテーブル）を格納し管理するための構造です。Experience Platform に正常に取り込まれたデータは、データレイク内にデータセットとして保存されます。
 
-## 調整されたキャンペーンでサポートされるソース {#supported}
+## オーケストレーションされたキャンペーンでサポートされるソース {#supported}
 
 調整されたキャンペーンでは、次のソースの使用がサポートされています。
 

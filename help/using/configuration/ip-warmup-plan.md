@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: IP、グループ、サブドメイン、配信品質
 exl-id: c2434086-2ed4-4cd0-aecd-2eea8f0a55f6
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1765'
 ht-degree: 82%
@@ -109,7 +109,7 @@ IP ウォームアッププランを作成するには、プランにフィー�
 
 このアイデアでは、各フェーズの実行数を減らしながら、各実行でターゲットアドレスの数を徐々に増やしていきます。
 
-### 「カスタムドメイングループ」タブ {#custom-domain-group-tab}
+### カスタムドメイングループタブ {#custom-domain-group-tab}
 
 また、カスタムドメイングループを含めることで、プランに列を追加することもできます。
 

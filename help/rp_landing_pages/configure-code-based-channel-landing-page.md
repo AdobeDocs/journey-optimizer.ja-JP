@@ -5,7 +5,7 @@ title: コードベースのチャネルの設定
 description: コードベースのチャネルの設定
 redpen-status: CREATED_||_2025-08-11_20-41-39
 exl-id: e77acb57-66a5-49cc-b98b-84886d6736e3
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 100%
@@ -20,7 +20,7 @@ Adobe Journey Optimizer のコードベースのチャネルの設定の節で�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 コードベースのエクスペリエンスの前提条件
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer のコードベースのチャネルの設定の節で�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 コードベースのエクスペリエンス実装での決定
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer のコードベースのチャネルの設定の節で�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 コードベースのエクスペリエンス設定の作成
 

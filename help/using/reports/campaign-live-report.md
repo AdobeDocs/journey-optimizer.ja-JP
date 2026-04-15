@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 925494b6-e08a-4bd3-8a2f-96a5d9cbc387
-source-git-commit: 7945ab9369498f23685aa2f727542c7367c2d830
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '3543'
 ht-degree: 98%
@@ -470,7 +470,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 +++
 
-### SMS - エラー理由 {#sms-error-reasons}
+### SMS - エラーの理由 {#sms-error-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_error_reasons"
@@ -479,7 +479,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 **[!UICONTROL 除外された理由]**&#x200B;のグラフとテーブルを使用すると、過去 24 時間以内に SMS メッセージの送信プロセス中に発生した特定のエラーを識別し、発生した問題を徹底的に分析できます。
 
-### SMS - 除外された理由 {#sms-excluded-reasons}
+### SMS – 除外された理由 {#sms-excluded-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_sms_excluded_reasons"
@@ -556,7 +556,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 キャンペーンの&#x200B;**[!UICONTROL ライブレポート]**&#x200B;の「**[!UICONTROL ダイレクトメール]**」タブには、ダイレクトメールに関連する主な情報の詳細が表示されます。
 
-### ダイレクトメール - 送信統計 {#direct-mail-sending}
+### ダイレクトメール – 統計の送信 {#direct-mail-sending}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_sending_statistics"
@@ -579,7 +579,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 +++
 
-### ダイレクトメール - エラー理由 {#direct-mail-error-reasons}
+### ダイレクトメール – エラーの理由 {#direct-mail-error-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_error_reasons"
@@ -590,7 +590,7 @@ From your Campaign **[!UICONTROL Live report]**, the **[!UICONTROL Experimentati
 
 **[!UICONTROL ダイレクトメール - エラー理由]**&#x200B;のグラフとテーブルは、ダイレクトメールメッセージの送信プロセス中に発生した特定のエラーを識別する手段を提供し、過去 24 時間に発生した問題を詳細に分析できます。
 
-### ダイレクトメール - 除外された理由 {#direct-mail-excluded-reasons}
+### ダイレクトメール – 除外された理由 {#direct-mail-excluded-reasons}
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_live_direct_excluded_reasons"

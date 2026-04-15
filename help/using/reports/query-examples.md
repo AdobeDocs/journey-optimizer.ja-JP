@@ -8,7 +8,7 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '3542'
 ht-degree: 73%
@@ -1049,7 +1049,7 @@ _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard
 
 +++
 
-## エンゲージメント可能なプロファイルのクエリ {#engageable-profiles-queries}
+## 魅力的なプロファイルのクエリ {#engageable-profiles-queries}
 
 これらのクエリは、エンゲージメント可能なプロファイル数を監視し、分析するのに役立ちます。 エンゲージメント可能なプロファイルとは、過去12 ヶ月間にジャーニーまたはキャンペーンを通じてエンゲージされた独自のプロファイルです。 [&#x200B; エンゲージ可能なプロファイルとライセンスの使用状況](../audience/license-usage.md#what-is-engageable-profile)について詳しく説明します。
 
@@ -1466,7 +1466,7 @@ ORDER BY
 
 +++
 
-## カスタムアクションのパフォーマンス指標に関連するクエリ {#query-custom-action}
+## カスタムアクションパフォーマンス指標に関連するクエリ {#query-custom-action}
 
 +++ 特定の期間での各エンドポイントの 1 秒あたりの成功した呼び出し、エラー、リクエストの合計数
 

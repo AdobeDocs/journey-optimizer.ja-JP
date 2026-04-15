@@ -8,10 +8,10 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 exl-id: 628a5d84-6a33-4ed8-84cb-e2e4c6cc2b80
-source-git-commit: 2a9587461520290899e3c70c4943e111d6af65ee
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1777'
-ht-degree: 82%
+ht-degree: 80%
 
 ---
 
@@ -33,7 +33,7 @@ AI アシスタントは、Adobe Journey Optimizer の対話型ガイドです�
 >
 >AI アシスタントを使用するには、[Adobe Experience Cloud 生成 AI ユーザーガイドライン](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/home){target="_blank"}に同意する必要があります。
 
-### AI アシスタントで実行できること
+### AI アシスタントでできること
 
 **製品知識** - Adobe Journey Optimizer の機能と概念について質問します。
 
@@ -51,7 +51,7 @@ AI アシスタントは、Adobe Journey Optimizer の対話型ガイドです�
 >
 >運用上のインサイトは現在、**ジャーニー**&#x200B;でのみ使用可能で、現在のサンドボックスのデータが反映されます。
 
-### AI アシスタントの使用方法
+### AI アシスタントの活用方法
 
 1. パネル下部のテキストフィールドに質問を入力します
 2. Enter キーを押してクエリを送信します
@@ -63,7 +63,7 @@ AI アシスタントは、Adobe Journey Optimizer の対話型ガイドです�
 
 [Experience Platform の AI アシスタントの詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/ai-assistant/home){target="_blank"}
 
-## ジャーニー最適化のための高度な AI エージェント {#ai-agents}
+## ジャーニーの最適化に役立つ高度なAI エージェント {#ai-agents}
 
 Adobe Journey Optimizer には、AI アシスタントの対話機能に基づいて、ジャーニーの最適化と実験のための詳細な分析と実用的なレコメンデーションを提供する専用の AI エージェントが用意されてします。
 
@@ -104,7 +104,7 @@ Journey AgentのAI アシスタントには、分析と作成という2つのス
 +++
 
 
-#### ジャーニー制作スキル {#journey-create-skill}
+#### ジャーニー作成スキル {#journey-create-skill}
 
 [ジャーニーのCreate Agent](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"}は、自然言語プロンプトからジャーニーを構築し、目標を構造化されたジャーニー設定に変換するのに役立ちます。
 
@@ -165,7 +165,7 @@ Journey AgentのAI アシスタントには、分析と作成という2つのス
 
 **エージェントオーケストレーター** - 複数の専門エージェントを調整して、複雑なマルチステップのマーケティング課題を解決します。オーケストレーターは、関与するエージェントを自動的に決定し、その作業を効率的に順序付けます。[エージェントオーケストレーターの詳細情報](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator){target="_blank"}
 
-## AI を活用したコンテンツ生成 {#content-generation}
+## AI技術によるコンテンツ生成 {#content-generation}
 
 生成 AI を使用して、複数のチャネルをまたいでコンテンツを作成およびパーソナライズし、ブランドの一貫性を維持しながらコンテンツ作成プロセスを高速化します。コンテンツ生成用の AI アシスタントは、[メール](../email/get-started-email.md)、[プッシュ通知](../push/get-started-push.md)、[SMS](../sms/get-started-sms.md)、[web](../web/get-started-web.md) の各エクスペリエンスで使用でき、件名、本文、画像、完全なメッセージのバリエーションを生成するのに役立ちます。
 
@@ -208,7 +208,7 @@ AI を使用して、個々の顧客行動パターンに基づいて各メッ�
 
 [送信時間の最適化の詳細情報](../building-journeys/send-time-optimization.md)
 
-## 決定の AI モデル {#ai-decisioning}
+## 意思決定のためのAI モデル {#ai-decisioning}
 
 各顧客に表示するオファーを自動的に最適化するインテリジェントなランキングモデルを作成し、ビジネス目標を最大化します。
 
@@ -247,7 +247,7 @@ AI を使用して、個々の顧客行動パターンに基づいて各メッ�
 
 ![ユースケースプレイブックのインターフェイス](assets/playbooks-filter.png)
 
-### プレイブックが機能するしくみ
+### プレイブックの仕組み
 
 1. プレイブックライブラリを&#x200B;**参照**&#x200B;して、目標に一致したユースケースを見つけます
 2. プレイブックを&#x200B;**有効**&#x200B;にして、必要なすべてのリソースを自動的に生成します
@@ -282,13 +282,13 @@ AI を活用した変換テクノロジーを使用して、静的画像デザ�
 
 [画像から HTML への変換の詳細情報](../content-management/image-to-html.md)
 
-### パフォーマンスマーケティング用の GenStudio
+### GenStudio for performance marketing
 
 Adobe GenStudio for Performance Marketingと統合し、AIを活用してメールコンテンツを作成したり、テンプレートをJourney Optimizerにインポートしてオーケストレーションを実施したりできます。 Journey OptimizerのテンプレートをGenStudioにエクスポートし、AIを活用してバリエーションを生成して、展開のために戻します。 （利用制限、メールチャネルのみ）
 
 [GenStudioについて詳しく見る](../integrations/genstudio.md)
 
-### ブランド一致スコアリング
+### ブランド整合性スコア付け
 
 トーン、声、メッセージの一貫性を測定する AI を活用したスコアリングを使用して、コンテンツがブランドガイドラインにどの程度一致しているかを評価します。
 

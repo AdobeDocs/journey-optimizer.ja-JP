@@ -9,14 +9,14 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: スキーマ, XDM, プラットフォーム, ストリーミング, 取り込み, ジャーニー
 exl-id: f19749c4-d683-4db6-bede-9360b9610eef
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '387'
-ht-degree: 86%
+ht-degree: 85%
 
 ---
 
-# [!DNL Journey Optimizer] イベントの ExperienceEvent スキーマについて {#about-experienceevent-schemas}
+# [!DNL Journey Optimizer] イベントのexperienceevent スキーマについて {#about-experienceevent-schemas}
 
 [!DNL Journey Optimizer] イベントは、ストリーミング取り込みを介して Adobe Experience Platform に送信される XDM エクスペリエンスイベントです。
 

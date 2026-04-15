@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: テスト, 検証, 承認, 品質保証, QA, テストプロファイル, パーソナライゼーション, レンダリング, スパムの確認, コンテンツ実験, A/B テスト, 競合の検出, シードリスト, 本配信前確認, サンプルデータ, 承認ワークフロー, メールテスト, 検証ワークフロー
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '2328'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 コンテンツのプレビュー、テスト、検証
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 ジャーニーおよびキャンペーンの承認ワークフロー
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 ジャーニーのテスト
 
@@ -56,7 +56,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 ジャーニーのドライラン
 
@@ -106,7 +106,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 競合の検出
 
@@ -451,7 +451,7 @@ Journey Optimizer のテスト機能と承認機能をより深く理解する�
 
 +++**Q：キャンペーンを開始する前に必要なテストは何ですか？**
 
-**最小：**テストプロファイルを使用したコンテンツプレビュー + スパムスコアの確認（メール）
+**最小：**&#x200B;テストプロファイルを使用したコンテンツプレビュー + スパムスコアの確認（メール）
 **推奨：**+ メールレンダリング + 競合の検出 + 承認ワークフロー
 **ベストプラクティス：**+ サンプル入力データのテスト + シードリスト + A/B テスト（最適化する場合）
 
@@ -467,34 +467,34 @@ Journey Optimizer のテスト機能と承認機能をより深く理解する�
 
 +++**Q：ジャーニーのテストモードとドライランの違いは何ですか？**
 
-**テストモード：**ジャーニーを通じてテストプロファイルを送信し、実際のアクションをトリガーし、テストメッセージを生成します。ドラフトジャーニー + 名前空間が必要です。
-**ドライラン：**何も送信せずに実行パスを追跡します。任意のジャーニーステータスで機能します。メッセージは送信されず、アクションは実行されません。
+**テストモード：**&#x200B;ジャーニーを通じてテストプロファイルを送信し、実際のアクションをトリガーし、テストメッセージを生成します。ドラフトジャーニー + 名前空間が必要です。
+**ドライラン：**&#x200B;何も送信せずに実行パスを追跡します。任意のジャーニーステータスで機能します。メッセージは送信されず、アクションは実行されません。
 **連携して使用：**&#x200B;メッセージテストのテストモード + ロジック検証のドライラン - 包括的なカバレッジ。
 
 +++
 
 +++**Q：ジャーニーを実稼動／ライブステータスでテストできますか？**
 
-**テストモード：**不可 - ドラフトジャーニーのみ実行できます
-**ドライラン：**可 - 任意のジャーニーステータスで機能します
-**コンテンツプレビュー：**可 - 個々のメッセージをいつでもプレビューできます
+**テストモード：**&#x200B;不可 - ドラフトジャーニーのみ実行できます
+**ドライラン：**&#x200B;可 - 任意のジャーニーステータスで機能します
+**コンテンツプレビュー：**&#x200B;可 - 個々のメッセージをいつでもプレビューできます
 **回避策：**&#x200B;ライブジャーニーをドラフトに複製して完全なテストモードを検証します
 
 +++
 
 +++**Q：外部統合が必要なテスト機能はどれですか？**
 
-**メールのレンダリング：**Litmus 統合が必須です（個別ライセンス）
-**その他すべて：**Journey Optimizer に搭載されています。追加の統合は必要ありません
+**メールのレンダリング：**&#x200B;Litmus 統合が必須です（個別ライセンス）
+**その他すべて：**&#x200B;Journey Optimizer に搭載されています。追加の統合は必要ありません
 **メモ：**&#x200B;テストプロファイルには、リアルタイム顧客プロファイルサービス（付属）が必須です
 
 +++
 
 +++**Q：API トリガーキャンペーンをテストするにはどうすればよいですか？**
 
-**オプション 1：**[Campaign Simulation API](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target-&quot;_blank&quot;} を使用してプログラムによるテストを行います
-**オプション 2：**UI でテストプロファイルを使用してコンテンツをプレビューします
-**オプション 3：**テストメールアドレスに本配信前確認を送信します
+**オプション 1：**&#x200B;[Campaign Simulation API](https://developer.adobe.com/journey-optimizer-apis/references/simulations/){target-&quot;_blank&quot;} を使用してプログラムによるテストを行います
+**オプション 2：**&#x200B;UI でテストプロファイルを使用してコンテンツをプレビューします
+**オプション 3：**&#x200B;テストメールアドレスに本配信前確認を送信します
 **ベストプラクティス：**&#x200B;包括的な検証のためにこれら 3 つを組み合わせます
 
 +++

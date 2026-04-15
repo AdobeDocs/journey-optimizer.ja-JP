@@ -7,14 +7,14 @@ feature: Get Started
 role: Admin
 level: Intermediate
 exl-id: 24f85ced-aa45-493f-b2c4-7c7b58351b38
-source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1058'
 ht-degree: 89%
 
 ---
 
-# システム管理者向けの基礎知識 {#get-started-sys-admins}
+# システム管理者向けの基本を学ぶ {#get-started-sys-admins}
 
 **システム管理者**&#x200B;は、Journey Optimizer 環境を設定し、アクセスを管理して、チームが効率的で安全に作業できるようにします。[データエンジニア](data-engineer.md)、[開発者](developer.md)、[マーケター](marketer.md)が [!DNL Adobe Journey Optimizer] の使用を開始できるように、基本的な設定手順を実行します。
 

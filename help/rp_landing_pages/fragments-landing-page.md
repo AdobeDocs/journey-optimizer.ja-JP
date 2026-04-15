@@ -5,7 +5,7 @@ title: 再利用可能なコンテンツフラグメント
 description: 再利用可能なコンテンツフラグメント
 redpen-status: CREATED_||_2025-08-12_00-39-41
 exl-id: 8ec67807-8bcb-4510-bcba-ccf6e710ceb9
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 100%
@@ -20,7 +20,7 @@ Adobe Journey Optimizer の再利用可能なコンテンツフラグメント�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 フラグメントの使用の概要
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer キャンペーンでのコンテンツ作成を効率�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 再利用可能なフラグメントの作成方法
 
@@ -40,7 +40,7 @@ Journey Optimizer で、メール、キャンペーン、ジャーニーの再�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 既存のコンテンツをフラグメントとして保存
 
@@ -50,7 +50,7 @@ E メールデザイナーやパーソナライゼーションエディターか
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 カスタマイズ可能なフラグメントの使用
 
@@ -60,7 +60,7 @@ E メールデザイナーやパーソナライゼーションエディターか
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 コンテンツフラグメントの管理
 

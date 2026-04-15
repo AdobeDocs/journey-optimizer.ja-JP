@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 書き出し, メッセージ, HIPAA, メール, SMS, 設定
 exl-id: 7b50c933-9738-4b1b-acae-08f0a8d41dab
-source-git-commit: e9b748591c425395e71b53c5e80f03a42ce0563d
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '701'
-ht-degree: 48%
+ht-degree: 47%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 48%
 * AJO メッセージ書き出しデータセットのレコードは、取り込みから7日間&#x200B;**保持されます**。
 * 以下に説明するように、メッセージの書き出しを有効にする前に送信されたメッセージでは、バックフィルはサポートされません。
 
-## メッセージの書き出しを有効化 {#enable-message-export}
+## メッセージの書き出しを有効にする {#enable-message-export}
 
 メッセージの書き出し機能のオンボーディングプロセスは、次の 2 つの手順で構成されます。
 
@@ -70,7 +70,7 @@ ht-degree: 48%
    * ファイル形式：「JSON」または「Parquet」を選択します（ダウンストリームツールに基づいていずれかを選択します）。
    * スケジュール：7日間のリテンションウィンドウ内で実行することを確認します。
 
-### チャネル設定でメッセージの書き出しを有効化 {#config-message-export}
+### チャネル設定でメッセージの書き出しを有効にする {#config-message-export}
 
 キャンペーンやジャーニーにメッセージの書き出しを適用するには、チャネル設定レベルで専用オプションを有効にする必要があります。次の手順に従います。
 

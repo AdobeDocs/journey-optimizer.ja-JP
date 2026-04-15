@@ -5,7 +5,7 @@ title: 従来のステップイベントフィールド
 description: 従来のステップイベントフィールド
 redpen-status: CREATED_||_2025-08-11_20-53-35
 exl-id: 046a5e06-a827-4194-be1c-e6546a8da747
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 100%
@@ -14,13 +14,13 @@ ht-degree: 100%
 
 # 従来のステップイベントフィールド{#section-overview}
 
-Adobe Journey Optimizer の従来のステップイベントフィールドは、カスタマージャーニーの進行状況と結果の監視および分析に不可欠です。これらのフィールドは、ID、アクション実行、データ取得、共通イベントプロパティなどのカテゴリにグループ化され、それぞれがジャーニーレポートとステップ処理で独自の目的を果たします。データ取得エラーの追跡、アクション実行時間の把握、プロファイルの識別など、これらのフィールドにより、カスタマーエクスペリエンスを最適化する強力なインサイトが得られます。各カテゴリを探索すると、どのように相互作用し、補完し合うかがわかり、ジャーニーのパフォーマンスと行動の全体像を把握できます。
+Adobe Journey Optimizer の従来のステップイベントフィールドは、カスタマージャーニーの進行状況と結果のモニタリングおよび分析に不可欠です。これらのフィールドは、ID、アクション実行、データ取得、共通イベントプロパティなどのカテゴリにグループ化され、それぞれがジャーニーレポートとステップ処理で独自の目的を果たします。データ取得エラーの追跡、アクション実行時間の把握、プロファイルの識別など、これらのフィールドにより、カスタマーエクスペリエンスを最適化する強力なインサイトが得られます。各カテゴリを探索すると、どのように相互作用し、補完し合うかがわかり、ジャーニーのパフォーマンスと行動の全体像を把握できます。
 
 ## 従来のステップイベントフィールド
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 従来のフィールドについて
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer の従来のステップイベントフィールドは�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Journey Optimizer の概要
 
@@ -50,7 +50,7 @@ Journey Optimizer の概要
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 アクション実行フィールド
 
@@ -60,7 +60,7 @@ Journey Optimizer の概要
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 データ取得フィールド
 
@@ -70,7 +70,7 @@ Journey Optimizer の概要
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 JourneyStep ID フィールド
 

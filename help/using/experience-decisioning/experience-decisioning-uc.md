@@ -7,18 +7,18 @@ role: User
 level: Intermediate, Experienced
 exl-id: 09770df2-c514-4217-a71b-e31c248df543
 version: Journey Orchestration
-source-git-commit: 21de0b9616c414db204a3eafebc6a8184028a1e1
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '880'
-ht-degree: 94%
+ht-degree: 93%
 
 ---
 
-# コンテンツ実験によるコードベースのエクスペリエンスでの決定の使用 {#experience-decisioning-uc}
+# コードベースのエクスペリエンスでコンテンツ実験に意思決定を活用する {#experience-decisioning-uc}
 
 このユースケースでは、[!DNL Journey Optimizer] コードベースチャネルで決定の使用に必要なすべての手順を示します。
 
-➡️ [&#x200B; ビデオでユースケースを確認する &#x200B;](#video)
+➡️ [動画でユースケースを見つける](#video)
 
 >[!NOTE]
 >
@@ -97,7 +97,7 @@ ht-degree: 94%
 
 ## コードベースのエクスペリエンスキャンペーンの作成
 
-2 つの選択戦略を設定したら、コードベースのエクスペリエンスキャンペーンを作成します。このキャンペーンでは、パフォーマンスが最も高い戦略を比較するために、戦略ごとに異なる処理を定義します。
+2つの選択戦略を設定したら、コードベースのエクスペリエンスキャンペーンを作成し、各戦略に対して異なる処理を定義して、最もパフォーマンスが高いものを比較します。
 
 1. キャンペーンを作成し、**[!UICONTROL コードベースのエクスペリエンス]**&#x200B;アクションを選択します。[詳細情報](../code-based/create-code-based.md)
 
@@ -158,6 +158,6 @@ ht-degree: 94%
 
 ## チュートリアルビデオ {#video}
 
-コードベースのエクスペリエンスで意思決定を使用する方法を示す、エンドツーエンドのチュートリアルを確認します。
+コードベースのエクスペリエンスでDecisioningを使用する方法を示すエンドツーエンドのチュートリアルをご覧ください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3451100/?learn=on&enablevpops)

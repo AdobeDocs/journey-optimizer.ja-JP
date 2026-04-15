@@ -10,14 +10,14 @@ role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 version: Journey Orchestration
-source-git-commit: 083545ff7b2dc5ce45ef3766321fdf12e1b96c5c
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '896'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
-# 意思決定管理の基本を学ぶ {#about-decision-management}
+# 意思決定管理の導入方法 {#about-decision-management}
 
 [!DNL Journey Optimizer] を使用すると、すべてのタッチポイントをまたいで、適切なタイミングで最高のオファーとエクスペリエンスを顧客に提供できます。デザインが完了すると、パーソナライズされたオファーを使用してオーディエンスをターゲットに設定できます。
 
@@ -74,7 +74,7 @@ ht-degree: 100%
 
   ![](../../assets/do-not-localize/call-center.png)
 
-## 意思決定管理へのアクセスの許可 {#granting-acess-to-decision-management}
+## 意思決定管理へのアクセス権の付与 {#granting-acess-to-decision-management}
 
 意思決定管理機能へのアクセス権限および使用権限は、[Adobe Admin Console](https://helpx.adobe.com/jp/enterprise/managing/user-guide.html){target="_blank"} で管理します。
 
@@ -115,7 +115,7 @@ ht-degree: 100%
 
 ## チュートリアルビデオ{#video}
 
-### 意思決定管理とは {#what-is-offer-decisioning}
+### 意思決定管理とは？ {#what-is-offer-decisioning}
 
 以下のビデオでは、 意思決定管理の主な機能、アーキテクチャおよび使用例を紹介しています。
 

@@ -6,7 +6,7 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '993'
 ht-degree: 82%
@@ -321,7 +321,7 @@ Cookie は、ユーザー ID とクラスター情報を保持するために使
 * アドビのテクニカルブログ：[Adobe Experience Platform Web SDK のハイブリッドパーソナライゼーション](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
 * SDK ドキュメント：[Web SDK と Edge Network Server API を使用したハイブリッドパーソナライゼーション](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html?lang=ja){target="_blank"}
 
-## Adobe Experience Platform Assuranceを使用したEdge ネットワーク API呼び出しのデバッグ {#debugging-edge-api-assurance}
+## Adobe Experience Platform assuranceによるエッジネットワーク API呼び出しのデバッグ {#debugging-edge-api-assurance}
 
 コードベースのエクスペリエンスにEdge Network APIを直接使用する場合（Web SDKまたはモバイルSDKを使用しない場合）、Adobe Experience Platform AssuranceでAPI呼び出しをデバッグするには、Assurance セッション IDを検証トークンヘッダーとして含めます。
 

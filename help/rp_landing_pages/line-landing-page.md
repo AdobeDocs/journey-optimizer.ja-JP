@@ -5,10 +5,10 @@ title: LINE
 description: LINE
 redpen-status: CREATED_||_2025-08-11_20-44-38
 exl-id: 5f51bbfe-37f8-4e8d-8e4e-6b9d018cd076
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -25,12 +25,12 @@ LINE メッセージは、ジャーニーまたはキャンペーンで作成し
 
 LINE メッセージを作成する前に、Journey Optimizer を使用して LINE チャネルを設定します。[詳細情報](../using/line/line-configuration.md)
 
-## LINE チャネルのドキュメント
+## LINE チャネルドキュメント
 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 LINE チャネルの設定
 
@@ -40,7 +40,7 @@ LINE チャネルを手動で設定するか、Adobe Journey Optimizer の API �
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 LINE メッセージの作成および設定
 
@@ -50,7 +50,7 @@ LINE メッセージをジャーニーやキャンペーンに追加し、コン
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 LINE メッセージの確認および送信
 

@@ -10,7 +10,7 @@ level: Experienced
 keywords: サブドメイン, デリゲーション, ドメイン, DNS
 badge: label="限定提供" type="Informative"
 exl-id: 34af1329-f0c8-4fcd-a284-f8f4214611d4
-source-git-commit: 316553be4f04e4fc0ae11bc767f7e48f64fc5ccd
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '953'
 ht-degree: 93%
@@ -123,7 +123,7 @@ ht-degree: 93%
 >Both Data and CDN subdomains must be included in the same certificate.
 -->
 
-## フィードバックループの手順の完了 {#feedback-loop-steps}
+## フィードバックループのステップを完了 {#feedback-loop-steps}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_feedback-loop"

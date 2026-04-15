@@ -7,14 +7,14 @@ feature: Get Started
 role: Developer
 level: Intermediate
 exl-id: 8beaafc2-e68d-46a1-be5c-e70892575bfb
-source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '970'
 ht-degree: 92%
 
 ---
 
-# データエンジニア向けの基礎知識 {#data-engineer}
+# データエンジニアのための入門 {#data-engineer}
 
 **データアーキテクト**&#x200B;または&#x200B;**データエンジニア**&#x200B;は、[!DNL Journey Optimizer] により調整されるエクスペリエンスを向上する顧客プロファイルデータや他のデータソースを設定および管理します。これには、web、CRM、オフラインソースなど、すべての顧客データとビジネスデータを顧客の統合された 360 度表示を統合することが含まれます。顧客プロファイルデータとビジネスデータをスキーマにモデル化し、データを取り込むソースコネクタを設定し、データがスムーズにフローするようにして、リアルタイムの顧客インサイトとエンゲージメントを実現します。[システム管理者](administrator.md)からアクセス権を付与され、環境の準備ができたら、[!DNL Adobe Journey Optimizer] での作業を開始できます。
 

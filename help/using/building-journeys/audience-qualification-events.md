@@ -10,7 +10,7 @@ level: Intermediate
 keywords: 選定, イベント, オーディエンス, ジャーニー, プラットフォーム
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1701'
 ht-degree: 62%
@@ -131,7 +131,7 @@ ht-degree: 62%
 
 さらに、バッチオーディエンスが新しく作成され、ジャーニーですぐに使用された場合、計算の最初のバッチは多くのエントリを駆動できます。 このスパイクの計画。
 
-### セグメントメンバーシップ更新のタイミング {#timing-segment-membership}
+### セグメントメンバーシップの更新時期 {#timing-segment-membership}
 
 ジャーニーでバッチスナップショットを使用する場合、新しいセグメントメンバーシップは、後続のスナップショットにのみ反映される場合があります。 即時または即日のセグメント追加が不可欠な場合は、ストリーミングセグメンテーションを検討するか、セグメント更新が次のスナップショットによって取得されることを確認することを検討してください。
 

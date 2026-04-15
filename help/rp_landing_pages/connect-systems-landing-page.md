@@ -5,7 +5,7 @@ title: システムと環境を接続する
 description: システムと環境を接続する
 redpen-status: CREATED_||_2025-08-11_21-18-12
 exl-id: fe784f79-f8a2-4091-a5f0-3e44a1838c1c
-source-git-commit: f1b2c1ca8c9747547c12d90f24f432f1a761d92a
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 100%
@@ -20,7 +20,7 @@ Adobe Journey Optimizer を使用すると、システムと環境をシーム�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Adobe Journey Optimizer と他のソリューションの統合
 
@@ -40,7 +40,7 @@ Adobe Experience Platform と統合し、API を使用してチャネルをま�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 ジャーニーと外部システムの統合
 
@@ -50,7 +50,7 @@ capping API や throttling API など、Adobe Journey Optimizer を外部シス�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 アドビソリューションを使用した送信
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer を設定して、Adobe Campaign、Marketo Engage、他�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Adobe Journey Optimizer のサンドボックス管理
 

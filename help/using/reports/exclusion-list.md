@@ -8,16 +8,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a34ba1a8-87d5-4f9c-a181-2f49e74e8f09
-source-git-commit: 8ced9477edf8a7129e974d007755e132f3079943
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '891'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
 # 除外の理由 {#exclusion-list}
 
-## キャンペーンレポートでの除外のカウント方法
+## Campaign レポートでの除外のカウント方法
 
 キャンペーンレポートを表示する際、*除外*&#x200B;指標は次のように計算されます。
 
@@ -60,7 +60,7 @@ ht-degree: 97%
 | EmailNoVariantDefined | 050026 | メール | 除外イベントは、メールメッセージでバリアントが定義されていない場合に生成されます。 |
 | EmailNoMessageFoundForTreatment | 050027 | メール | 除外イベントは、メッセージに対して実験が有効になっていて、対象となる処理に対するメッセージが見つからない場合に生成されます。 |
 | EmailMalformedAddress | 050024 | メール | 除外イベントは、メールに不正なアドレスが含まれている場合に生成されます。 |
-| UnsubscribeLinkNotValid | 050081 | メール | 除外イベントは、List-Unsubscribe mailTo の件名の長さが RFC 制限の 998 文字を超える場合に生成されます。 |
+| UnsubscribeLinkNotValid | 050081 | メール | List-Unsubscribe mailToの件名の長さがRFCの制限である998文字を超えると、除外イベントが生成されます。 |
 | InAppNoVariantDefined | 050041 | アプリ内 | 除外イベントは、アプリ内メッセージのバリアントが定義されていない場合に生成されます。 |
 | InAppNoMessageFoundForTreatment | 050042 | アプリ内 | 除外イベントは、メッセージに対して実験が有効になっていて、対象となる処理に対するメッセージが見つからない場合に生成されます。 |
 | PushNoTokenFoundInProfile | 050030 | プッシュ | 除外イベントは、プロファイルにプッシュトークンがない場合に生成されます。 |

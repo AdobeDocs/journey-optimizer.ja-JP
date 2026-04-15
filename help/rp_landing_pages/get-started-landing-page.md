@@ -5,10 +5,10 @@ title: 基本を学ぶ
 description: Adobe Journey Optimizer の基本を学ぶ
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
-source-git-commit: 5ff7987c00afda3263cb97654967c5b698f726c2
-workflow-type: ht
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+workflow-type: tm+mt
 source-wordcount: '587'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Journey Optimizer の基本と、大規模なデータ駆動型パーソ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 Journey Optimizer とは
 
@@ -34,7 +34,7 @@ Journey Optimizer とは
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 仕組みについて
 
@@ -44,7 +44,7 @@ Journey Optimizer が Adobe Experience Platform と統合される仕組みと�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list.svg)
 
 主な用語
 
@@ -61,7 +61,7 @@ Journey Optimizer を自信を持って操作するのに役立つ基本的な�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/user.svg)
 
 マーケター向け
 
@@ -71,7 +71,7 @@ Journey Optimizer を自信を持って操作するのに役立つ基本的な�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 データエンジニア向け
 
@@ -81,7 +81,7 @@ Journey Optimizer を自信を持って操作するのに役立つ基本的な�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 管理者向け
 
@@ -91,7 +91,7 @@ Journey Optimizer を自信を持って操作するのに役立つ基本的な�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 開発者向け
 
@@ -110,7 +110,7 @@ Journey Optimizer を自信を持って操作するのに役立つ基本的な�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
 
 インターフェイスの操作
 
@@ -120,7 +120,7 @@ Journey Optimizer インターフェイスの使用方法、主な機能への�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 検索と整理
 
@@ -130,7 +130,7 @@ Journey Optimizer インターフェイスの使用方法、主な機能への�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 AI とインテリジェント機能
 
@@ -143,13 +143,13 @@ AI がコンテンツの作成、送信時間の最適化、よりスマート�
 
 ## その他のリソース {#additional-resources}
 
-### 環境設定とベストプラクティス
+### リファレンスとベストプラクティス
 
 * **[ガードレールと制限](../using/start/guardrails.md)** - Journey Optimizer の機能を効果的に使用するための制約と推奨プラクティスについて説明します
 * **[アクセシビリティ機能](../using/start/accessibility.md)** - すべてのユーザーの包括性を確保するアクセシビリティ機能と WCAG コンプライアンスについて説明します
 * **[トラブルシューティングガイド](../using/start/troubleshooting.md)** - よくある質問への回答と一般的な問題の解決策を見つけます
 
-### 学習とサポートの利用
+### ラーニングとサポートの受け取り
 
 * **[チュートリアルビデオ](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=ja){target="_blank"}** - コア機能に対応するステップバイステップのビデオチュートリアル
 * **[ユースケースプレイブック](../using/start/ai-features.md#playbooks)** - 放棄された買い物かごの復元やウェルカムキャンペーンなどの一般的なシナリオ用の事前定義済みワークフロー
@@ -158,14 +158,14 @@ AI がコンテンツの作成、送信時間の最適化、よりスマート�
 * **[コミュニティフォーラム](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"}** - 他のユーザーとつながり、質問し、ベストプラクティスを共有します
 * **[ドキュメントの更新](../using/rn/documentation-updates.md)** - ドキュメントの最近の変更と追加に関する最新情報を取得します
 
-## 開始する準備は整いましたか？
+## Adobe Marketo Measureをすぐ活用するには？
 
 自分に合った次のパスを選択します。
 
 * **Journey Optimizer を初めて使用しますか？**&#x200B;まずは [Journey Optimizer とは](../using/start/get-started.md)から基本を理解します
 * **自分の役割を知っていますか？**&#x200B;自分の責務に該当する[役割固有のガイド](../using/start/quick-start.md)を参照してださい。
-* **探索しますか？**[AI 機能](../using/start/ai-features.md)を参照するか、[ユースケースプレイブック](../using/start/ai-features.md#playbooks)を試してください
-* **サポートが必要ですか？**[トラブルシューティングガイド](../using/start/troubleshooting.md)を確認するか、[コミュニティフォーラム](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"}にアクセスしてください。
+* **探索しますか？**&#x200B;[AI 機能](../using/start/ai-features.md)を参照するか、[ユースケースプレイブック](../using/start/ai-features.md#playbooks)を試してください
+* **サポートが必要ですか？**&#x200B;[トラブルシューティングガイド](../using/start/troubleshooting.md)を確認するか、[コミュニティフォーラム](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"}にアクセスしてください。
 
 ## クイックリンク {#quick-links}
 

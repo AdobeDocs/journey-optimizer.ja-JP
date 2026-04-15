@@ -5,10 +5,10 @@ title: 式の作成
 description: 式の作成
 redpen-status: CREATED_||_2025-08-11_20-19-10
 exl-id: 6ccd0bc7-fb40-48de-abcb-0cb1eb2c6303
-source-git-commit: 18697bd59466a41ffa3fa55f758222ce61415f42
-workflow-type: ht
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+workflow-type: tm+mt
 source-wordcount: '246'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 Adobe Journey Optimizer には、ジャーニー内に複雑なロジックを作成できる&#x200B;**高度な式エディター**&#x200B;が含まれており、正確なパーソナライゼーションとオーケストレーションが実現します。条件を定義し、アクションパラメーターをマッピングして、イベントや外部データをアクション可能なロジックに変換できます。この節では、演算子、データタイプ、条件付きワークフローなどの式構文と、データ集計、日付処理、文字列操作などのタスクの機能について説明します。これらのツールは、高度なユースケースをサポートし、技術ユーザーに特定のビジネスニーズに合わせてジャーニーをカスタマイズする柔軟性を提供します。
 
-## Adobe Journey Optimizer での式の作成の探索
+## Adobe Journey Optimizerの式の作成について詳しく見る
 
 :::: landing-cards-container
 :::
@@ -61,7 +61,7 @@ Journey Optimizer データセットに関するクエリのサンプルと関�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 データ分析用の SQL クエリの例
 

@@ -9,10 +9,10 @@ role: Developer, Admin
 level: Experienced
 keywords: データセット, Optimizer, ユースケース
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: e9b748591c425395e71b53c5e80f03a42ce0563d
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1086'
-ht-degree: 95%
+ht-degree: 93%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 95%
 また、一般的に使用されるいくつかの[ジャーニーステップイベントのクエリを実行する例](../reports/query-examples.md)も参照してください。
 
 
-## メールトラッキングエクスペリエンスイベントのデータセット{#email-tracking-experience-event-dataset}
+## メールトラッキングエクスペリエンスイベントデータセット{#email-tracking-experience-event-dataset}
 
 _インターフェイスの名前：AJO メールトラッキングエクスペリエンスイベントのデータセット_
 
@@ -274,7 +274,7 @@ group by
 
 詳しくは、[journey_step_events で破棄されたイベントタイプのトラブルシューティング](../reports/sharing-field-list.md#discarded-events)を参照してください。
 
-## 意思決定イベントデータセット{#ode-decisionevents}
+## イベントデータセットの決定{#ode-decisionevents}
 
 _インターフェイスの名前：ODE DecisionEvents （システムデータセット）_
 
@@ -305,7 +305,7 @@ group by proposedOffers.id, proposedOffers.name, po._experience.decisioning.rank
 ```
 
 <!--
-## Consent Service Dataset{#consent-service-dataset}
+## Consent service dataset{#consent-service-dataset}
 
 _Name in the interface: CJM Consent Service Dataset (system dataset)_
 
@@ -338,9 +338,9 @@ select value.marketing.email.val FROM (
 
 ## セカンダリ受信者フィードバックイベントデータセット（BCC）{#bcc-feedback-event-dataset}
 
-_インターフェイスの名前：AJOセカンダリ受信者フィードバックイベントデータセット（システムデータセット）。 クエリサービスでは、データセットテーブルの名前は引き続き `ajo_bcc_feedback_event_dataset`._ になる場合があります
+_インターフェイスの名前：セカンダリ受信者フィードバックイベントデータセット（システムデータセット）。 クエリサービスでは、データセット テーブルの名前は`ajo_bcc_feedback_event_dataset`のままである可能性があります。_
 
-BCC アーカイブが有効な場合のメール BCC （セカンダリ受信者）メッセージのデータセット。
+BCC アーカイブが有効になっている場合のメール BCC （セカンダリ受信者）メッセージのデータセット。
 
 2 日以内のすべての BCC メッセージに対するクエリ（特定のキャンペーンの場合）：
 

@@ -9,14 +9,14 @@ badge: label="限定提供" type="Informative"
 role: User
 level: Beginner, Intermediate
 exl-id: c22a44a8-e4e2-453a-9ca2-b80f7c0edc19
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1252'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
-# GenStudio for Performance Marketing の操作 {#ajo-genstudio}
+# GenStudio for performance marketingとの連携 {#ajo-genstudio}
 
 >[!CONTEXTUALHELP]
 >id="ajo_genstudio_button"
@@ -161,7 +161,7 @@ GenStudio でメールのバリエーションを作成したら、[!DNL Journey
 
    >[!NOTE]
    >
-   >[ [!DNL Journey Optimizer]  テンプレートから作成](#export-from-ajo-to-genstudio)した GenStudio エクスペリエンスは、完全な編集機能を備えて E メールデザイナーに直接インポートされます。[!DNL Journey Optimizer] テンプレートを使用せずに作成した GenStudio エクスペリエンスは、[互換モード](../email/existing-content.md)にインポートされますが、編集機能が制限される場合があります。
+   >[&#x200B; [!DNL Journey Optimizer]  テンプレートから作成](#export-from-ajo-to-genstudio)した GenStudio エクスペリエンスは、完全な編集機能を備えて E メールデザイナーに直接インポートされます。[!DNL Journey Optimizer] テンプレートを使用せずに作成した GenStudio エクスペリエンスは、[互換モード](../email/existing-content.md)にインポートされますが、編集機能が制限される場合があります。
 
 1. [メールコンテンツ編集ツール](../email/content-from-scratch.md)と[パーソナライゼーションフィールド](../personalization/personalize.md)を使用して、必要に応じてメールを編集します。コンテンツを保存します。
 

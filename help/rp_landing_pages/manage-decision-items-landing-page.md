@@ -5,7 +5,7 @@ title: 決定項目の管理
 description: 決定項目の管理
 redpen-status: CREATED_||_2025-08-11_20-55-07
 exl-id: b6490231-e2c8-40c0-9127-128bab76493f
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 100%
@@ -20,7 +20,7 @@ Adobe Journey Optimizer での決定項目の管理とは、適切なマーケ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 項目カタログの設定
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer での決定項目の管理とは、適切なマーケ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 決定項目の作成と管理
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer での決定項目の管理とは、適切なマーケ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 項目コレクションの管理
 

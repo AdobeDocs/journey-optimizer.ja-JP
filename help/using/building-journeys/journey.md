@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: ジャーニー, 検出, 開始, 単一, オーディエンスを読み取り, オーディエンスの選定, ビジネスイベント, リアルタイム, スケジュール済み, バッチ, イベントトリガー, ワークフロー, オーケストレーション, パーソナライゼーション, マルチチャネル
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '1470'
-ht-degree: 87%
+ht-degree: 86%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 87%
 
 ➡️ **作成を開始する準備は整っていますか？** 5 分で[最初のジャーニーを作成できます](journey-gs.md)。
 
-### ジャーニーとキャンペーン：それぞれを使用するタイミング {#journeys-vs-campaigns-intro}
+### ジャーニーと施策：それらを併用するタイミング {#journeys-vs-campaigns-intro}
 
 [!DNL Adobe Journey Optimizer]では、お客様にリーチするための3つのアプローチを提供しています：**ジャーニー** （1:1 リアルタイム オーケストレーション）、**キャンペーン** （シンプルなバッチまたはAPI トリガーの配信）、**キャンペーンのオーケストレーション** （複数エンティティティデータを含むバッチキャンバスワークフロー）。
 

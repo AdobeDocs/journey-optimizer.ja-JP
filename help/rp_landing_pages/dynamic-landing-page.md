@@ -5,10 +5,10 @@ title: 動的コンテンツ
 description: 動的コンテンツ
 redpen-status: CREATED_||_2025-08-12_00-40-11
 exl-id: 87d500e0-4a2c-4e22-a90c-611229b55d7c
-source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '191'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer の動的コンテンツを使用すると、オーデ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 動的コンテンツの基本を学ぶ
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer の動的コンテンツを使用すると、オーデ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 条件付きルールの作成と管理
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer を使用して、メッセージ内の動的なコン�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Adobe Journey Optimizer で動的コンテンツを作成する方法
 

@@ -6,10 +6,11 @@ description: Adobe Journey Optimizer の基本的な用語と概念
 feature: Get Started
 role: Admin, Developer, User
 level: Beginner
-source-git-commit: 4ae9e908d259dbd266417242cf9e65d693227061
-workflow-type: ht
+exl-id: 14e72376-87ad-4fae-bf8c-f347109d7903
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+workflow-type: tm+mt
 source-wordcount: '751'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -48,7 +49,7 @@ ht-degree: 100%
 | **エンゲージ可能なオーディエンス** | ライセンス契約に基づいて、Adobe Journey Optimizer を通じてアクティブに連絡できる顧客プロファイルの数。これは通常、過去 12 か月以内に関与したプロファイルを指します。 |
 | **テストプロファイル** | 実際の顧客に送信する前にメッセージのテストとプレビューに使用される架空のプロファイル。テストプロファイルは、パーソナライゼーション、コンテンツ、ジャーニーロジックの検証に役立ちます。[詳細情報](../audience/creating-test-profiles.md) |
 
-## コンテンツとパーソナライゼーションの用語 {#content-terms}
+## コンテンツとパーソナライゼーション条件 {#content-terms}
 
 | 用語 | 定義 |
 |------|------------|
@@ -57,7 +58,7 @@ ht-degree: 100%
 | **フラグメント** | 一貫性を確保し、一元化された更新を可能にするために、複数のメッセージをまたいで使用できる再利用可能なコンテンツブロック（ヘッダー、フッター、プロモーションバナーなど）。[詳細情報](../content-management/fragments.md) |
 | **ランディングページ** | 顧客が通信のオプトインまたはオプトアウト、サービスの購読、オンラインフォームを通じて情報の提供を行うことができるスタンドアロンの web ページ。[詳細情報](../landing-pages/get-started-lp.md) |
 
-## 決定とオファーの用語 {#decision-terms}
+## 決定とオファーの条件 {#decision-terms}
 
 | 用語 | 定義 |
 |------|------------|
@@ -65,7 +66,7 @@ ht-degree: 100%
 | **オファー** | 顧客に提示できるマーケティングメッセージ、ディスカウントまたはプロモーション。オファーには、オファーを受信できる顧客を決定する実施要件ルールが含まれています。[詳細情報](../offers/offer-library/creating-personalized-offers.md) |
 | **決定ポリシー** | 実施要件、優先度、キャッピングルールなどの制約に基づいて、どのオファーをどの顧客に何時に表示するかを決定する一連のルールと戦略。[詳細情報](../experience-decisioning/create-decision.md) |
 
-## データと設定の用語 {#data-config-terms}
+## データと設定の条件 {#data-config-terms}
 
 | 用語 | 定義 |
 |------|------------|
@@ -81,4 +82,3 @@ ht-degree: 100%
 * [Journey Optimizer の仕組みについて](understanding-ajo.md)
 * [ユーザーインターフェイスの基本を学ぶ](user-interface.md)
 * [役割と学習パスの選択](quick-start.md)
-

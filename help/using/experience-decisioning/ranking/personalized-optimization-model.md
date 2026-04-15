@@ -8,10 +8,10 @@ role: User
 level: Experienced
 exl-id: 1c7bcffe-5a25-444f-8a95-057b7a07f252
 version: Journey Orchestration
-source-git-commit: e329c221fa714747d50495e466d02e75bed2967c
+source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
 source-wordcount: '954'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 97%
 
 パーソナライズされた最適化モデルが初めてトレーニングされるまで、パーソナライズされた最適化モデルを利用した選択戦略内のオファーはランダムに提供されます。
 
-## 主なモデルの前提と制限事項 {#key}
+## 主要モデルの仮定と制限事項 {#key}
 
 パーソナライズされた最適化を使用する利点を最大限に活かすために、いくつかの主な前提と制限事項に注意する必要があります。
 
@@ -79,4 +79,4 @@ feature_1、feature_2 および response の値は 0 または 1 です。図 1 
 
 ## 再トレーニング {#re-training}
 
-最新の機能インタラクションを学習し、モデルパフォーマンスの低下を軽減するために、モデルの再トレーニングが毎週行われます。 トレーニングのステータスとモデルのパフォーマンスを監視するには、[AI モデルの監視 &#x200B;](ai-model-observability.md) を参照してください。
+モデルは、最新の機能インタラクションを学習し、モデルのパフォーマンス低下を毎週軽減するために再トレーニングされます。 トレーニングの状態とモデルのパフォーマンスを監視するには、[AI モデル監視](ai-model-observability.md)を参照してください。
