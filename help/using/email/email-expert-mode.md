@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 0c586565-0c65-435f-986d-cd08b59de159
-source-git-commit: 36fc8247844a2f6a5e9b478d9c3a31ed82a40356
+source-git-commit: 110c4c9b12b085f3febb83f799f5fd0ba8a8b1fb
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 7%
@@ -21,7 +21,7 @@ ht-degree: 7%
 >
 >この機能は、限定提供で使用できます。アクセス権を取得するには、アドビ担当者にお問い合わせください。
 
-**高度なHTML エディター**&#x200B;は、**&#x200B;**&#x200B;電子メール Designer[!DNL Journey Optimizer]で直接[電子メールコンテンツ &#x200B;](get-started-email-design.md)の生のHTML ソースを表示および編集できるエキスパートモードです。ジャーニー、キャンペーン、または[電子メールコンテンツテンプレート &#x200B;](content-from-scratch.md)の編集に[電子メール &#x200B;](../content-management/create-content-templates.md)をデザインしているかどうかに関係なく使用できます。
+**高度なHTML エディター**&#x200B;は、****&#x200B;電子メール Designer[!DNL Journey Optimizer]で直接[電子メールコンテンツ ](get-started-email-design.md)の生のHTML ソースを表示および編集できるエキスパートモードです。ジャーニー、キャンペーン、または[電子メールコンテンツテンプレート ](content-from-scratch.md)の編集に[電子メール ](../content-management/create-content-templates.md)をデザインしているかどうかに関係なく使用できます。
 
 この機能を使用すると、条件などの高度な式をソースに直接挿入できます。 ビジュアル（デスクトップ）ビューに切り替えると、コンテンツが再レンダリングされるので、どのビューでもコンテンツの外観を確認し、編集を続行できます。
 
@@ -47,7 +47,7 @@ ht-degree: 7%
 
 高度なHTML エディターを開き、HTML ソースを編集するには、次の手順に従います。
 
-1. 電子メール Designerで編集する電子メールまたはテンプレートを開きます。例えば、[&#x200B; ジャーニーまたはキャンペーンから電子メール &#x200B;](create-email.md)を作成または編集するか、[電子メールコンテンツテンプレート &#x200B;](../content-management/create-content-templates.md)を開いて、[電子メール Designer](get-started-email-design.md)で本文を編集します。
+1. 電子メール Designerで編集する電子メールまたはテンプレートを開きます。例えば、[ ジャーニーまたはキャンペーンから電子メール ](create-email.md)を作成または編集するか、[電子メールコンテンツテンプレート ](../content-management/create-content-templates.md)を開いて、[電子メール Designer](get-started-email-design.md)で本文を編集します。
 
 1. 画面の右上隅にある「**[!UICONTROL HTML]**」ボタンをクリックします。
 
@@ -55,7 +55,7 @@ ht-degree: 7%
 
 1. HTMLの詳細エディターを初めて開くと、警告メッセージが表示されます。 それを注意深く確認し、**[!UICONTROL OK]**&#x200B;をクリックして続行します。 [詳細情報](#guardrails)
 
-   ![高度なHTML エディターを初めて開く際の警告ダイアログ &#x200B;](assets/email-template-expert-mode-warning.png){zoomable="yes"}
+   ![高度なHTML エディターを初めて開く際の警告ダイアログ ](assets/email-template-expert-mode-warning.png){zoomable="yes"}
 
    >[!NOTE]
    >
@@ -63,7 +63,7 @@ ht-degree: 7%
 
 1. 高度なHTML エディターが表示されます。
 
-   ![電子メールのソースコードを表示する高度なHTML エディターインターフェイス &#x200B;](assets/email-template-expert-mode.png)
+   ![電子メールのソースコードを表示する高度なHTML エディターインターフェイス ](assets/email-template-expert-mode.png)
 
 1. メールコンテンツに変更を加えます。
 

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 version: Journey Orchestration
 exl-id: 90e71c42-94f3-4cc5-bd6e-1df29def4d39
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 110c4c9b12b085f3febb83f799f5fd0ba8a8b1fb
 workflow-type: tm+mt
 source-wordcount: '1432'
 ht-degree: 2%
@@ -26,7 +26,7 @@ ht-degree: 2%
 
 >[!AVAILABILITY]
 >
->現在、この機能は[&#x200B; パーソナライズされた最適化](personalized-optimization-model.md) モデルでのみサポートされています。
+>現在、この機能は[ パーソナライズされた最適化](personalized-optimization-model.md) モデルでのみサポートされています。
 
 ➡️ [この機能をビデオで確認](#video)
 
@@ -58,7 +58,7 @@ ht-degree: 2%
 
   また、このモデルでは現在、パーソナライズされたニューラルネットワークに対するトラフィックの40%、コンテキストに基づくバンディットに対するトラフィックの40%、ランダムな探索に対するトラフィックの20%を割り当てています。
 
-* **[!UICONTROL 前回のトレーニング ジョブ]** – このセクションには、前回のトレーニング ジョブのステータス、実行時、およびエラーメッセージが表示されます。 [&#x200B; エラー状態について詳しく見る](#check-for-error-states)
+* **[!UICONTROL 前回のトレーニング ジョブ]** – このセクションには、前回のトレーニング ジョブのステータス、実行時、およびエラーメッセージが表示されます。 [ エラー状態について詳しく見る](#check-for-error-states)
 
   ![](../assets/ai-model-last-training-job.png)
 
@@ -104,13 +104,13 @@ ht-degree: 2%
 
 1. モデルの&#x200B;**[!UICONTROL プロパティ]**&#x200B;で選択されているデータセットを確認できます。 「**[!UICONTROL プロパティを編集]**」をクリックして、別のデータセットを選択します。 [詳細情報](create-ai-models.md)
 
-   ![](../assets/ai-model-properties-edit-dataset.png){align="left" width="45%"}
+   ![](../assets/ai-model-properties-edit-dataset.png){align="center" width="45%"}
 
 ## よくある質問 {#faq}
 
 +++ どのAI モデルを監視できますか？
 
-AI モデルの監視は、現在、[&#x200B; パーソナライズされた最適化](personalized-optimization-model.md) モデルでのみサポートされています。 その他のランキングモデルタイプでは、モデルステータスレポートがまだ公開されていません。
+AI モデルの監視は、現在、[ パーソナライズされた最適化](personalized-optimization-model.md) モデルでのみサポートされています。 その他のランキングモデルタイプでは、モデルステータスレポートがまだ公開されていません。
 +++
 
 +++ モデルのトレーニングジョブが失敗した理由
@@ -120,7 +120,7 @@ AI モデルの監視は、現在、[&#x200B; パーソナライズされた最�
 
 +++ AI モデルのモニタリングは、キャンペーンレポートとジャーニーレポートにどのように関連していますか？
 
-AI モデルによるモニタリングは、キャンペーンレポートやジャーニーレポートとは異なります。 単一のAI モデルは、複数のキャンペーンまたは複数のジャーニーで使用でき、キャンペーンやジャーニーのレポートには、特定の配信に使用されたモデルが表示されません。 AI モデルのステータスの監視を使用して、モデル自体を把握および監視します。配信レベルの指標には、[&#x200B; キャンペーンレポート &#x200B;](../../reports/campaign-global-report-cja.md)と[&#x200B; ジャーニーレポート &#x200B;](../../reports/journey-global-report-cja.md)を使用します。
+AI モデルによるモニタリングは、キャンペーンレポートやジャーニーレポートとは異なります。 単一のAI モデルは、複数のキャンペーンまたは複数のジャーニーで使用でき、キャンペーンやジャーニーのレポートには、特定の配信に使用されたモデルが表示されません。 AI モデルのステータスの監視を使用して、モデル自体を把握および監視します。配信レベルの指標には、[ キャンペーンレポート ](../../reports/campaign-global-report-cja.md)と[ ジャーニーレポート ](../../reports/journey-global-report-cja.md)を使用します。
 +++
 
 +++ 最適化指標は、売上や注文額などの連続指標であり、クリック数やコンバージョンなどのバイナリ指標ではありません。 報告されたコンバージョンとコンバージョン率の値はどのように解釈できますか？
@@ -167,7 +167,7 @@ If no model has been successfully deployed yet, the "currently deployed model" s
 
 AI ランキング モデルを監視し、[!DNL Journey Optimizer]でトレーニングの状態とパフォーマンスを解釈する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3479850?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479849?quality=12)
 
 ## 関連ドキュメント {#related}
 
