@@ -7,7 +7,7 @@ role: User
 level: Experienced
 exl-id: 70f64348-092b-4350-91dc-72c3c07300f9
 badge: label="限定提供" type="Informative"
-source-git-commit: d03d69a858be99e83c563d8577847b6a60032274
+source-git-commit: 0acb0a6aa6a00acd3ba99bc9ccd36e83b9fb7b3c
 workflow-type: tm+mt
 source-wordcount: '759'
 ht-degree: 30%
@@ -123,3 +123,4 @@ ht-degree: 30%
 >[!NOTE]
 >
 >`required` フラグを`true`に設定すると、フラグメントを必須としてマークできます。 ただし、フラグメントが一時的に見つからない場合、ジャーニーまたはキャンペーンのレンダリングが失敗する可能性があります。
+

@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: bb89398ecd76b2820d4bdfb18d9dc4b649086784
+source-git-commit: 0acb0a6aa6a00acd3ba99bc9ccd36e83b9fb7b3c
 workflow-type: tm+mt
 source-wordcount: '2441'
 ht-degree: 21%
@@ -519,4 +519,3 @@ WAITING RELEASE DATE CONFIRMATION * **Target dimension simplification in Orchest
 WAITING RELEASE DATE CONFIRMATION
 * **Target dimension simplification in Orchestrated Campaigns** - The active targeting dimension is now shown on the workflow canvas, so you can see which dimension is used by a channel activity. The multi-entity segmentation flow is simpler as you no longer need a separate "Change dimension" activity. Moreover, you can now choose explicitly whether messages are sent at the profile level or at a secondary dimension level.
 -->
-
