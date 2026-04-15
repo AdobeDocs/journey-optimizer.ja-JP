@@ -167,7 +167,7 @@ If no model has been successfully deployed yet, the "currently deployed model" s
 
 AI ランキング モデルを監視し、[!DNL Journey Optimizer]でトレーニングの状態とパフォーマンスを解釈する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3479849?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479850?captions=jpn&quality=12)
 
 ## 関連ドキュメント {#related}
 
