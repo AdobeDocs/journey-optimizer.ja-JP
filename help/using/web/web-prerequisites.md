@@ -27,7 +27,7 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->* [!DNL Journey Optimizer] web キャンペーンは、他のチャネルでこれまでエンゲージメントがなかった新しいプロファイルをターゲットにします。これにより、合計[ エンゲージメント可能なプロファイル ](../audience/license-usage.md)数が増加します。購入したエンゲージメント可能なプロファイルの契約数を超えると、コストに影響する可能性があります。 各パッケージのライセンス指標は、[Journey Optimizer の製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}ページにリストされています。エンゲージ可能なプロファイルの数は、[ ライセンス使用状況ダッシュボード ](../audience/license-usage.md)で確認できます。
+>* [!DNL Journey Optimizer] web キャンペーンは、他のチャネルでこれまでエンゲージメントがなかった新しいプロファイルをターゲットにします。これにより、合計[&#x200B; エンゲージメント可能なプロファイル &#x200B;](../audience/license-usage.md)数が増加します。購入したエンゲージメント可能なプロファイルの契約数を超えると、コストに影響する可能性があります。 各パッケージのライセンス指標は、[Journey Optimizer の製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}ページにリストされています。エンゲージ可能なプロファイルの数は、[&#x200B; ライセンス使用状況ダッシュボード &#x200B;](../audience/license-usage.md)で確認できます。
 >
 >* Web ページを使用して偽名プロファイル（未認証の訪問者）をターゲットにする場合は、自動プロファイル削除の有効期間（TTL）を設定することを考慮し、エンゲージメント可能なプロファイル数と関連コストを管理します。[詳細情報](../start/guardrails.md#profile-management-inbound)
 

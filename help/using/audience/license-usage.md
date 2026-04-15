@@ -51,7 +51,7 @@ ht-degree: 17%
 
 >[!NOTE]
 >
->エンゲージメント可能なプロファイル数が急激に増加した場合は、問題の理解と解決に関する詳細なガイダンスについては、以下の[ トラブルシューティングの節](#troubleshooting-engageable-profiles)を参照してください。
+>エンゲージメント可能なプロファイル数が急激に増加した場合は、問題の理解と解決に関する詳細なガイダンスについては、以下の[&#x200B; トラブルシューティングの節](#troubleshooting-engageable-profiles)を参照してください。
 
 ## トラブルシューティング：エンゲージメント可能なプロファイル数が大幅に増加 {#troubleshooting-engageable-profiles}
 
@@ -79,7 +79,7 @@ ht-degree: 17%
 
 2. **大規模なオーディエンスを対象としたジャーニー、キャンペーン、決定の調査：**
 
-   * [ エンゲージ可能なプロファイルクエリ ](../reports/query-examples.md#engageable-profiles-queries)または[ クエリサービス ](https://experienceleague.adobe.com/ja/docs/experience-platform/query/home){target="_blank"}を使用して、多数のプロファイルをターゲットにした最近のジャーニーとキャンペーンを確認します。
+   * [&#x200B; エンゲージ可能なプロファイルクエリ &#x200B;](../reports/query-examples.md#engageable-profiles-queries)または[&#x200B; クエリサービス &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/query/home){target="_blank"}を使用して、多数のプロファイルをターゲットにした最近のジャーニーとキャンペーンを確認します。
    * プロファイル数の急増に貢献した特定のジャーニーバージョンを特定できます。
    * 新しいプロファイルを含むジャーニー、キャンペーン、意思決定は、ジャーニーデータセットのイベント数の増加につながり、エンゲージ可能なプロファイル数の増加につながります。
 
@@ -105,7 +105,7 @@ ht-degree: 17%
 
 **関連トピック：**
 
-* [ エンゲージメント可能なプロファイル クエリの例](../reports/query-examples.md#engageable-profiles-queries) - エンゲージメント可能なプロファイルを監視および分析するためのクエリのサンプル
+* [&#x200B; エンゲージメント可能なプロファイル クエリの例](../reports/query-examples.md#engageable-profiles-queries) - エンゲージメント可能なプロファイルを監視および分析するためのクエリのサンプル
 * [Adobe Experience Platform Query Serviceの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/query/home){target="_blank"}
 
 ## 関連ドキュメント {#related-documentation}

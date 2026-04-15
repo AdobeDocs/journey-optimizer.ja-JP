@@ -23,14 +23,14 @@ ht-degree: 18%
 >
 >この機能は、限定提供で使用できます。アクセス権を取得するには、アドビ担当者にお問い合わせください。
 
-サブドメインが現在[CNAMEs](about-subdomain-delegation.md#cname-subdomain-setup)で設定されている場合は、**[!UICONTROL カスタム委任]** メソッドに移行して、会社のセキュリティポリシーを満たすことができます。 これにより、[!DNL Journey Optimizer]内のサブドメインと証明書に対する完全な所有権と制御が得られます。 [ カスタムサブドメインについて詳しく見る](delegate-custom-subdomain.md)
+サブドメインが現在[CNAMEs](about-subdomain-delegation.md#cname-subdomain-setup)で設定されている場合は、**[!UICONTROL カスタム委任]** メソッドに移行して、会社のセキュリティポリシーを満たすことができます。 これにより、[!DNL Journey Optimizer]内のサブドメインと証明書に対する完全な所有権と制御が得られます。 [&#x200B; カスタムサブドメインについて詳しく見る](delegate-custom-subdomain.md)
 
 このプロセスの一環として、次のことが必要です。
 
-* [既存のDNS レコード ](#delete-dns)をホスティング ソリューションから削除する
+* [既存のDNS レコード &#x200B;](#delete-dns)をホスティング ソリューションから削除する
 * [認証局から取得したSSL証明書](#upload-ssl-certificate)をアップロードします
-* ドメインの所有権と電子メールアドレスを確認して、[ フィードバックループの手順](#feedback-loop)を完了します
-* [Adobeによって生成された新しいDNS レコードのセット ](#create-dns-records)をホスティングプラットフォームに作成します
+* ドメインの所有権と電子メールアドレスを確認して、[&#x200B; フィードバックループの手順](#feedback-loop)を完了します
+* [Adobeによって生成された新しいDNS レコードのセット &#x200B;](#create-dns-records)をホスティングプラットフォームに作成します
 
 サブドメインを移行するには、次の手順に従います。
 
@@ -40,7 +40,7 @@ ht-degree: 18%
 
 >[!IMPORTANT]
 >
->[CNAME メソッド ](delegate-subdomain.md#cname-subdomain-setup)で設定されたサブドメインのみを移行できます。
+>[CNAME メソッド &#x200B;](delegate-subdomain.md#cname-subdomain-setup)で設定されたサブドメインのみを移行できます。
 
 * お客様の組織で&#x200B;**カスタム委任方法が有効になっていることを確認してください** （この機能は現在、使用制限があります。アクセス権を取得するには、Adobe担当者にお問い合わせください）。 [詳細情報](delegate-custom-subdomain.md)
 * アクティブなチャネル設定がこのサブドメインを使用していないことを確認します。 移行プロセスは機能を中断します。
@@ -164,7 +164,7 @@ ht-degree: 18%
 
 ![](assets/subdomain-migrate-feedback-loop.png){width="75%"}
 
-このプロセスは、新しいカスタムサブドメインを設定する場合と同じです。 「[ カスタムサブドメインの設定](delegate-custom-subdomain.md#feedback-loop-steps)」ページで説明されている手順に従います。
+このプロセスは、新しいカスタムサブドメインを設定する場合と同じです。 「[&#x200B; カスタムサブドメインの設定](delegate-custom-subdomain.md#feedback-loop-steps)」ページで説明されている手順に従います。
 
 
 ## DNS レコードの新しいセットの作成 {#create-dns-records}
@@ -173,7 +173,7 @@ ht-degree: 18%
 
 1. フィードバックループの手順を完了したら、画面の右上にある「**[!UICONTROL 続行]**」ボタンをクリックします。
 
-   この手順では、以前のレコードが削除され、SSL証明書が正しくアップロードされたことが確認されます。 エラーが発生した場合は、[ トラブルシューティング チェックリスト ](#troubleshooting)を参照してください。
+   この手順では、以前のレコードが削除され、SSL証明書が正しくアップロードされたことが確認されます。 エラーが発生した場合は、[&#x200B; トラブルシューティング チェックリスト &#x200B;](#troubleshooting)を参照してください。
 
 1. すべての検証が成功すると、**[!UICONTROL 作成されるレコード]** セクションが表示されます。
 
