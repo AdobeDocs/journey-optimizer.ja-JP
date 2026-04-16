@@ -161,7 +161,7 @@ GenStudio でメールのバリエーションを作成したら、[!DNL Journey
 
    >[!NOTE]
    >
-   >[ [!DNL Journey Optimizer]  テンプレートから作成](#export-from-ajo-to-genstudio)した GenStudio エクスペリエンスは、完全な編集機能を備えて E メールデザイナーに直接インポートされます。[!DNL Journey Optimizer] テンプレートを使用せずに作成した GenStudio エクスペリエンスは、[互換モード](../email/existing-content.md)にインポートされますが、編集機能が制限される場合があります。
+   >[&#x200B; [!DNL Journey Optimizer]  テンプレートから作成](#export-from-ajo-to-genstudio)した GenStudio エクスペリエンスは、完全な編集機能を備えて E メールデザイナーに直接インポートされます。[!DNL Journey Optimizer] テンプレートを使用せずに作成した GenStudio エクスペリエンスは、[互換モード](../email/existing-content.md)にインポートされますが、編集機能が制限される場合があります。
 
 1. [メールコンテンツ編集ツール](../email/content-from-scratch.md)と[パーソナライゼーションフィールド](../personalization/personalize.md)を使用して、必要に応じてメールを編集します。コンテンツを保存します。
 
