@@ -9,7 +9,7 @@ badge: label="ベータ版" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
 hide: true
-source-git-commit: 5727d4596749099152bf0757d23a0fa1259fbfd8
+source-git-commit: 64e51368b5b099819829572ea9f7daf441fb3671
 workflow-type: tm+mt
 source-wordcount: '1370'
 ht-degree: 4%
@@ -26,11 +26,11 @@ ht-degree: 4%
 >
 >Adobe Journey Optimizer MCP Server （Beta）（「Beta」）を使用することにより、お客様は、Betaが何らの保証もなしに&#x200B;**「現状のまま」提供されることを了承するものとします**。 Adobeは、Betaを維持、修正、更新、変更、その他の方法でサポートする義務を負いません。 このようなBetaおよび/または付随資料の正しい機能や性能に依存しないように、慎重に使用することをお勧めします。 BetaはAdobeの機密情報と見なされます。 お客様がアドビに提供するあらゆる「フィードバック」（ベータ版の使用中に発生した問題や欠陥、提案、改善、レコメンデーションを含むがこれに限定されないベータ版に関する情報）は、このようなフィードバックに含まれる、およびフィードバックに対するすべての権利、所有権、利益を含め、アドビに帰属します。
 
+[!DNL Adobe Journey Optimizer]のMCP統合により、API呼び出しを記述したり、製品画面を移動したりすることなく、平易な言語のプロンプトを使用してキャンペーン、ジャーニー、オファーをクエリできます。 このページでは、統合がどのように機能するのか、何ができるのか、どのように始めればよいのかについて説明します。
+
 >[!AVAILABILITY]
 >
 >[!DNL Adobe Journey Optimizer] MCP サーバーは現在、**Claude Web**&#x200B;および&#x200B;**Claude Desktop**&#x200B;でのみ利用できます。 MCP互換アプリケーションのサポートは、今後のリリースで追加される予定です。
-
-[!DNL Adobe Journey Optimizer]のMCP統合により、API呼び出しを記述したり、製品画面を移動したりすることなく、平易な言語のプロンプトを使用してキャンペーン、ジャーニー、オファーをクエリできます。 このページでは、統合がどのように機能するのか、何ができるのか、どのように始めればよいのかについて説明します。
 
 ## モデルコンテキストプロトコルとは何ですか？ {#mcp-overview}
 
