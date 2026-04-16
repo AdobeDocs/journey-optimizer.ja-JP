@@ -2,16 +2,16 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: PERSONALIZATION Expressions用AI アシスタント
-description: Journey Optimizer PersonalizationのAI アシスタントを使用して、自然言語から新しいエクスプレッションを生成したり、既存のコードを説明したり修正したり、選択範囲を絞り込んだりする方法を説明します。
+description: Journey OptimizerのAI アシスタントを使用して、Personalizationエディターや電子メールDesignerのインラインから、自然言語からパーソナライズされたエクスプレッションを生成する方法を説明します。
 feature: Content Assistant
 topic: Content Management, Artificial Intelligence
 role: User
 level: Intermediate
 mini-toc-levels: 1
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 8a905fd7e51c2dac60f4edccb9e9dd790a0dd424
 workflow-type: tm+mt
-source-wordcount: '806'
-ht-degree: 5%
+source-wordcount: '1010'
+ht-degree: 4%
 
 ---
 
@@ -26,19 +26,18 @@ ht-degree: 5%
 
 ## 概要 {#where-available}
 
-[!UICONTROL Personalization Editor]では、[!UICONTROL AI アシスタント &#x200B;]を使用して、平易な言葉から新しいパーソナライゼーションを生成し、既存の式の機能を説明し、選択したコードの問題を修正できます。これにより、構文や手動でのフィールド検索に費やす時間を減らすことができます。 選択範囲を繰り返したり、会話の他の変更を求めたりすることもできます。
+[!UICONTROL AI アシスタント &#x200B;]は、平易な言語から新しいパーソナライゼーションを生成し、既存の式の機能を説明し、選択したコードの問題を修正するのに役立ちます。これにより、構文や手動でのフィールド検索に費やす時間を減らすことができます。 選択範囲を繰り返したり、会話の他の変更を求めたりすることもできます。 これは、次の2つのエントリポイントから利用できます。
 
-* より広範なAI アシスタントの設定と言語については、[AI アシスタントの基本を学ぶ](gs-generative.md)を参照してください。
-* [!DNL Journey Optimizer]でのパーソナライゼーションについて詳しくは、[&#x200B; パーソナライゼーションの基本を学ぶ](../personalization/personalize.md)を参照してください。
-* プロンプトのアイデアについては、[AI プロンプトのベストプラクティス &#x200B;](ai-assistant-prompting-guide.md)を参照してください。
+* **[!UICONTROL Personalization Editor]** — エディターが使用可能な場所（件名、本文、その他のフィールドが開いている場合）。 エディターを開く場所と方法については、[&#x200B; パーソナライゼーションを追加](../personalization/personalization-build-expressions.md#where)を参照してください。
+* **Designerのインラインテキスト編集を電子メールで送信** — テキストコンポーネントを編集する際に、インライン編集ポップオーバーから直接実行します。 「[&#x200B; メール Designerから生成](#generate-email-designer)」を参照してください。
 
-[!UICONTROL Personalization Editor]の任意の場所（件名、本文、その他のフィールドなど）で[!UICONTROL AI Assistant]を使用します。 エディターを開く場所と方法については、[&#x200B; パーソナライゼーションを追加](../personalization/personalization-build-expressions.md#where)を参照してください。
+より広範なAI アシスタントの設定と言語については、[AI アシスタントの基本を学ぶ](gs-generative.md)を参照してください。 パーソナライゼーションの概念については、[&#x200B; パーソナライゼーションの基本を学ぶ](../personalization/personalize.md)を参照してください。 プロンプトのアイデアについては、[AI プロンプトのベストプラクティス &#x200B;](ai-assistant-prompting-guide.md)を参照してください。
 
 キャンペーンまたはジャーニーのコンテキストに応じて、アシスタントはデータを操作し、既に公開されている[!UICONTROL Personalization Editor]を作成できます（プロファイル属性、セグメントメンバーシップ、ヘルパー関数、関連するパーソナライゼーションソースなど）。
 
 >[!NOTE]
 >
->アシスタントは、[!UICONTROL AI アシスタント &#x200B;]がそのエディターセッションで開いている間のみ、プロンプトのコンテキストを保持します。 アシスタントまたは[!UICONTROL Personalization Editor]を閉じると、会話は保存されません。次回アシスタントを開くときに、新しい会話を開始します。
+>アシスタントは、[!UICONTROL AI アシスタント &#x200B;]がそのセッションで開いている間のみ、プロンプトのコンテキストを保持します。 アシスタントまたはエディターを閉じると、会話は消去されます。次回アシスタントを開くときに、新しい会話を開始します。
 
 ## パーソナライゼーション式の生成 {#generate}
 
@@ -107,3 +106,30 @@ ht-degree: 5%
    ![](assets/ai-perso-fix.png)
 
 1. パーソナライゼーション式を生成する場合と同様に、**[!UICONTROL 適用]**&#x200B;をクリックしてアシスタント出力を実装します。 パーソナライゼーションエディターで選択したコードに置き換わります。 例えば、コードの説明を求めた場合、適用すると、式にコメントが追加され、コードの動作が説明されます。
+
+## メールDesignerから生成 {#generate-email-designer}
+
+[!UICONTROL &#x200B; パーソナライゼーション式]のAI アシスタントは、[!UICONTROL Personalization Editor]を開かずに、電子メール Designerのインライン編集エクスペリエンスから直接使用することもできます。 生成されたエクスプレッションは、テキストコンポーネント内のカーソル位置に挿入されます。
+
+1. 電子メールDesignerで、テキストコンポーネントを選択し、インライン編集を開始します。
+
+1. インラインパーソナライゼーションポップオーバーを次のいずれかの方法で開きます。
+
+   * 式を挿入する位置に「`{{`」と入力すると、ポップオーバーが自動的に開きます。
+   * 既に開いている場合は、インライン編集ポップオーバーで「**[!UICONTROL AIを使用して]**」を生成します。
+
+   ![](assets/ai-perso-email-entry.png)
+
+1. テキストフィールドに、必要なパーソナライゼーション式を平易な言語で記述し、**[!UICONTROL 生成]**&#x200B;をクリックします。
+
+1. **[!UICONTROL 式]** タブの結果を確認して、生成された式を確認します。
+
+   「**[!UICONTROL プレビュー]**」タブに切り替えて、サンプルのプロファイル値を使用して式がどのように評価されるかを確認します。これにより、出力を挿入する前に検証できます。
+
+   ![](assets/ai-perso-email-result.png)
+
+1. **[!UICONTROL 挿入]**&#x200B;をクリックして、テキストコンポーネント内のカーソル位置にエクスプレッションを適用します。 **[!UICONTROL 再生成]**&#x200B;を使用して新しい提案を生成するか、**[!UICONTROL リセット]**&#x200B;を使用して最初からやり直します。
+
+>[!NOTE]
+>
+>インラインメールDesigner ポップオーバーのパーソナライゼーション式[!UICONTROL の]AI アシスタントのセッションは、[!UICONTROL Personalization Editor]のセッションとは独立しています。 ポップオーバーを閉じると、会話が消去されます。

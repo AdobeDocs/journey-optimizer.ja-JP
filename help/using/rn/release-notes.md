@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 0acb0a6aa6a00acd3ba99bc9ccd36e83b9fb7b3c
+source-git-commit: 6c4fe0f03508068d7078d23d525f11a14ed73260
 workflow-type: tm+mt
-source-wordcount: '2441'
+source-wordcount: '2510'
 ht-degree: 21%
 
 ---
@@ -138,6 +138,10 @@ ht-degree: 21%
   公開日：2026年4月14日（PT）
 
 #### メールデザイン
+
+* **電子メールDesignerのパーソナライゼーション式のAI アシスタント** – 電子メールDesignerのインライン編集エクスペリエンスから直接、パーソナライゼーション式のAI アシスタントを利用できるようになりました。 テキストコンポーネントを編集する際は、**AIを使用してインライン編集ポップオーバーで**&#x200B;を生成をクリックし、必要なパーソナライゼーションを平易な言葉で説明し、生成された式を確認して、電子メールDesignerから離れずに挿入します。 [詳細情報](../content-management/generative-personalization-expressions.md#generate-email-designer)
+
+  公開日：2026年4月15日（PT）
 
 * **電子メールコンテンツ用の高度なHTML エディター** – 高度なHTML モードを使用すると、電子メール DesignerでコンテンツのHTML ソースを編集したり、ソースに高度な式（条件など）を追加したり、変更内容を失うことなくHTML ビューとデスクトップビューを切り替えたりできます。
 
