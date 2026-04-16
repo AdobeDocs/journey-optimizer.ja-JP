@@ -9,7 +9,7 @@ badge: label="ベータ版" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
 hide: true
-source-git-commit: 64e51368b5b099819829572ea9f7daf441fb3671
+source-git-commit: 9450ff7b477ef3ef6825eb2c2feec77ffaec389f
 workflow-type: tm+mt
 source-wordcount: '1370'
 ht-degree: 4%
@@ -148,3 +148,4 @@ Step-by-step connection instructions to be added here, including:
 
 はい。 MCP サーバーは、[!DNL Adobe Journey Optimizer] サンドボックス設定を尊重します。 サンドボックス固有のデータをクエリするには、プロンプトでサンドボックスを指定するか、特定のサンドボックスにスコープ付きの資格情報で接続します。
 +++
+
