@@ -39,7 +39,7 @@ ht-degree: 99%
 
 >[!INFO]
 >
->詳しくは、この[概要](https://business.adobe.com/jp/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"}と [!DNL Adobe GenStudio for Performance Marketing] の[デモ](https://business.adobe.com/jp/products/genstudio-for-performance-marketing.html#demo){target="_blank"}を参照してください。
+>詳しくは、この[概要](https://business.adobe.com/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"}と [!DNL Adobe GenStudio for Performance Marketing] の[デモ](https://business.adobe.com/products/genstudio-for-performance-marketing.html#demo){target="_blank"}を参照してください。
 
 ➡️ [この機能をビデオで確認](#video)
 
@@ -161,7 +161,7 @@ GenStudio でメールのバリエーションを作成したら、[!DNL Journey
 
    >[!NOTE]
    >
-   >[&#x200B; [!DNL Journey Optimizer]  テンプレートから作成](#export-from-ajo-to-genstudio)した GenStudio エクスペリエンスは、完全な編集機能を備えて E メールデザイナーに直接インポートされます。[!DNL Journey Optimizer] テンプレートを使用せずに作成した GenStudio エクスペリエンスは、[互換モード](../email/existing-content.md)にインポートされますが、編集機能が制限される場合があります。
+   >[ [!DNL Journey Optimizer]  テンプレートから作成](#export-from-ajo-to-genstudio)した GenStudio エクスペリエンスは、完全な編集機能を備えて E メールデザイナーに直接インポートされます。[!DNL Journey Optimizer] テンプレートを使用せずに作成した GenStudio エクスペリエンスは、[互換モード](../email/existing-content.md)にインポートされますが、編集機能が制限される場合があります。
 
 1. [メールコンテンツ編集ツール](../email/content-from-scratch.md)と[パーソナライゼーションフィールド](../personalization/personalize.md)を使用して、必要に応じてメールを編集します。コンテンツを保存します。
 
@@ -220,4 +220,4 @@ GenStudio では、AI を活用したブランドチェックを使用して、�
 
 Journey Optimizer から GenStudio for Performance Marketing にメールテンプレートをエクスポートし、GenStudio のテンプレートを使用してブランドに準拠したメールを作成し、Journey Optimizer にシームレスにインポートするプロセスについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3456050/?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3456038/?quality=12)
