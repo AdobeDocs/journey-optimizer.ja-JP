@@ -7,10 +7,10 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 41fc96cb43c28e823c3b927901ad01e7d15bd5ef
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 99%
+source-wordcount: '1005'
+ht-degree: 94%
 
 ---
 
@@ -137,3 +137,9 @@ Journey Optimizer と Adobe Workfront について詳しくは、[Adobe Workfron
 Journey Optimizer では、カスタムデータソースとカスタムアクションを使用して、外部システムへの接続を設定できます。 これにより、例えば、外部の予約システムからのデータでジャーニーをエンリッチメントできます。
 
 外部データ ソースを使用して、サードパーティ製システムへの接続を定義する方法については、[この節](../datasource/external-data-sources.md)を参照してください。
+
+## MCP経由のAI ツール（Beta） {#integration-mcp}
+
+[!DNL Adobe Journey Optimizer]は、Claude WebやClaude DesktopなどのMCP互換のAI ツールから、API呼び出しの記述や製品画面の操作を行うことなく、直接平易な言語のプロンプトを使用してキャンペーンやオファーのデータをクエリできるMCP サーバーを提供します。
+
+[Journey Optimizer + MCP](../integrations/ajo-mcp.md)の詳細をご覧ください。
