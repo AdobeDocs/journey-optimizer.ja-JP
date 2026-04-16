@@ -5,9 +5,9 @@ title: Adobe Journey Optimizer ドキュメント
 description: Adobe Journey Optimizer ドキュメント
 redpen-status: CREATED_||_2025-08-11_21-21-01
 exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
-source-git-commit: ae27c778a79cd8d4dddef65819b961055b476429
+source-git-commit: dbb52143912170bfb99e22d924c1395fce7ca010
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '557'
 ht-degree: 92%
 
 ---
@@ -48,12 +48,6 @@ Personalization エディターで&#x200B;**AI アシスタント**&#x200B;を�
 Journey Optimizer に、ブランド主導のバッチキャンペーン専用の新しい機能である&#x200B;**キャンペーンオーケストレーション**&#x200B;が含まれるようになりました。
 
 [![詳細情報](using/assets/do-not-localize/learn-more-button.svg)](using/orchestrated/gs-orchestrated-campaigns.md)
-
->[!TAB クワイエットアワー]
-
-クワイエットアワーでは、メール、SMS、プッシュ、WhatsApp の各チャネルについて、時間ベースの除外を定義できます。
-
-[![詳細情報](using/assets/do-not-localize/learn-more-button.svg)](using/conflict-prioritization/quiet-hours.md)
 
 
 >[!ENDTABS]
