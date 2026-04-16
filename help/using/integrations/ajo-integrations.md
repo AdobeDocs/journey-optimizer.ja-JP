@@ -7,10 +7,10 @@ feature: Integrations
 role: User
 level: Intermediate
 exl-id: 700dc66e-ae2d-418f-b75e-ece15af57ab3
-source-git-commit: 41fc96cb43c28e823c3b927901ad01e7d15bd5ef
+source-git-commit: e311344a9fd11aca5430c31b257f8433c2b9c85b
 workflow-type: tm+mt
-source-wordcount: '1005'
-ht-degree: 94%
+source-wordcount: '956'
+ht-degree: 99%
 
 ---
 
@@ -138,8 +138,10 @@ Journey Optimizer では、カスタムデータソースとカスタムアク�
 
 外部データ ソースを使用して、サードパーティ製システムへの接続を定義する方法については、[この節](../datasource/external-data-sources.md)を参照してください。
 
-## MCP経由のAI ツール（Beta） {#integration-mcp}
+<!--
+## AI tools via MCP (Beta) {#integration-mcp}
 
-[!DNL Adobe Journey Optimizer]は、Claude WebやClaude DesktopなどのMCP互換のAI ツールから、API呼び出しの記述や製品画面の操作を行うことなく、直接平易な言語のプロンプトを使用してキャンペーンやオファーのデータをクエリできるMCP サーバーを提供します。
+[!DNL Adobe Journey Optimizer] provides a Model Context Protocol (MCP) server that lets you query campaign and offer data using plain-language prompts directly from MCP-compatible AI tools such as Claude Web and Claude Desktop — without writing API calls or navigating product screens.
 
-[Journey Optimizer + MCP](../integrations/ajo-mcp.md)の詳細をご覧ください。
+Learn more about [Journey Optimizer + MCP](../integrations/ajo-mcp.md).
+-->
