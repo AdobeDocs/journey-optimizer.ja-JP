@@ -9,7 +9,7 @@ badge: label="ベータ版" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
 hide: true
-source-git-commit: 5ea79d28eb9647b43932b31bf91cb19a63ff9feb
+source-git-commit: 4b56f4531d169e224f92fd08e6e2d03f7b1365a7
 workflow-type: tm+mt
 source-wordcount: '1330'
 ht-degree: 4%
