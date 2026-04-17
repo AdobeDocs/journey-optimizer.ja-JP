@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 6983ec41e45a9a874caafd982c3f5872036565ae
+source-git-commit: 836d5c94c56bee5fcb269d6cceba84ca525f5968
 workflow-type: tm+mt
-source-wordcount: '3205'
+source-wordcount: '3207'
 ht-degree: 91%
 
 ---
@@ -78,6 +78,7 @@ ht-degree: 91%
       + [ジャーニーの終了](using/building-journeys/end-journey.md)
       + [別のサンドボックスへのジャーニーのコピー](using/building-journeys/copy-to-sandbox.md)
       + [インテリジェントサービスとの統合](using/building-journeys/ai-services-overview.md)
+      + {hide-from-toc}[ジャーニーフラグメント &#x200B;](using/building-journeys/journey-fragments.md)
    + アクティビティ {#about-journey-building}
       + [アクティビティ](/help/rp_landing_pages/about-journey-building-landing-page.md)
       + [ジャーニーのアクティビティの基本を学ぶ](using/building-journeys/about-journey-activities.md)
