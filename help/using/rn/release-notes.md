@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6c4fe0f03508068d7078d23d525f11a14ed73260
+source-git-commit: 36d6158d7983f51d1480cc3c8c769159b4c528f2
 workflow-type: tm+mt
-source-wordcount: '2510'
+source-wordcount: '2490'
 ht-degree: 21%
 
 ---
@@ -139,7 +139,7 @@ ht-degree: 21%
 
 #### メールデザイン
 
-* **電子メールDesignerのパーソナライゼーション式のAI アシスタント** – 電子メールDesignerのインライン編集エクスペリエンスから直接、パーソナライゼーション式のAI アシスタントを利用できるようになりました。 テキストコンポーネントを編集する際は、**AIを使用してインライン編集ポップオーバーで**&#x200B;を生成をクリックし、必要なパーソナライゼーションを平易な言葉で説明し、生成された式を確認して、電子メールDesignerから離れずに挿入します。 [詳細情報](../content-management/generative-personalization-expressions.md#generate-email-designer)
+* **電子メール Designerのパーソナライゼーション式のAI アシスタント** – 電子メール Designerで、コンポーネントを選択し、コンテキストツールバーの&#x200B;**式を追加**&#x200B;を使用して、必要なパーソナライゼーションを平易な言葉で説明し、生成された式を確認して、デザイナーから離れることなく挿入します。 [詳細情報](../content-management/generative-personalization-expressions.md#generate-email-designer)
 
   公開日：2026年4月15日（PT）
 

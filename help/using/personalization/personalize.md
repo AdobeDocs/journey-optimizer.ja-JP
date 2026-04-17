@@ -9,10 +9,10 @@ role: Developer
 level: Beginner
 keywords: 式, エディター, 開始, パーソナライゼーション
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: de51f967cfcdd5934d79148e9c4dc933c12808a8
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 90%
+source-wordcount: '576'
+ht-degree: 89%
 
 ---
 
@@ -51,9 +51,9 @@ Journey Optimizer は、メッセージを処理する際に、式を Experience
 
 ➡️ [パーソナライゼーションプレイグラウンドへのアクセス](https://experienceleague.adobe.com/ja/apps/journey-optimizer/ajo-personalization){target="_blank"}
 
-## パーソナライゼーションエディターのAI アシスタント {#ai-personalization-expressions}
+## パーソナライゼーション表現のためのAI アシスタント {#ai-personalization-expressions}
 
-**[!UICONTROL Personalization Editor]**&#x200B;では、**[!UICONTROL AI アシスタント]**&#x200B;が、自然言語から新しいエクスプレッションを生成し、既存のコードの機能を説明し、選択範囲の問題を修正し、意図に一致する場合に出力を適用するのに役立ちます。
+**[!UICONTROL Personalization Editor]**&#x200B;またはメール Designer ツールバー（**[!UICONTROL 式を追加]**）から、**[!UICONTROL AI アシスタント]**&#x200B;は、自然言語から新しい式を生成し、既存のコードの機能を説明し、選択範囲の問題を修正し、意図に一致したときに出力を適用するのに役立ちます。
 
 ![](../content-management/assets/ai-perso-generate.png)
 

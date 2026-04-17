@@ -2,15 +2,15 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: PERSONALIZATION Expressions用AI アシスタント
-description: Journey OptimizerのAI アシスタントを使用して、Personalizationエディターや電子メールDesignerのインラインから、自然言語からパーソナライズされたエクスプレッションを生成する方法を説明します。
+description: Journey OptimizerのAI アシスタントを使用して、Personalization エディターまたはメールDesigner ツールバーから、自然言語からパーソナライズされたエクスプレッションを生成する方法を説明します。
 feature: Content Assistant
 topic: Content Management, Artificial Intelligence
 role: User
 level: Intermediate
 mini-toc-levels: 1
-source-git-commit: 8a905fd7e51c2dac60f4edccb9e9dd790a0dd424
+source-git-commit: 36d6158d7983f51d1480cc3c8c769159b4c528f2
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '979'
 ht-degree: 4%
 
 ---
@@ -26,10 +26,10 @@ ht-degree: 4%
 
 ## 概要 {#where-available}
 
-[!UICONTROL AI アシスタント &#x200B;]は、平易な言語から新しいパーソナライゼーションを生成し、既存の式の機能を説明し、選択したコードの問題を修正するのに役立ちます。これにより、構文や手動でのフィールド検索に費やす時間を減らすことができます。 選択範囲を繰り返したり、会話の他の変更を求めたりすることもできます。 これは、次の2つのエントリポイントから利用できます。
+[!UICONTROL AI アシスタント &#x200B;]は、平易な言語から新しいパーソナライゼーションを生成し、既存の式の機能を説明し、選択したコードの問題を修正するのに役立ちます。これにより、構文や手動でのフィールド検索に費やす時間を減らすことができます。 選択範囲を繰り返したり、会話の他の変更を求めたりすることもできます。 次の2つの方法で使用できます。
 
 * **[!UICONTROL Personalization Editor]** — エディターが使用可能な場所（件名、本文、その他のフィールドが開いている場合）。 エディターを開く場所と方法については、[&#x200B; パーソナライゼーションを追加](../personalization/personalization-build-expressions.md#where)を参照してください。
-* **Designerのインラインテキスト編集を電子メールで送信** — テキストコンポーネントを編集する際に、インライン編集ポップオーバーから直接実行します。 「[&#x200B; メール Designerから生成](#generate-email-designer)」を参照してください。
+* **Designerにメールを送信** — コンポーネントを選択する場合、コンテキストツールバーの&#x200B;**[!UICONTROL 式]**&#x200B;を使用して、ツールボックスでアシスタントを開きます。 「[&#x200B; メール Designerから生成](#generate-email-designer)」を参照してください。
 
 より広範なAI アシスタントの設定と言語については、[AI アシスタントの基本を学ぶ](gs-generative.md)を参照してください。 パーソナライゼーションの概念については、[&#x200B; パーソナライゼーションの基本を学ぶ](../personalization/personalize.md)を参照してください。 プロンプトのアイデアについては、[AI プロンプトのベストプラクティス &#x200B;](ai-assistant-prompting-guide.md)を参照してください。
 
@@ -107,29 +107,27 @@ ht-degree: 4%
 
 1. パーソナライゼーション式を生成する場合と同様に、**[!UICONTROL 適用]**&#x200B;をクリックしてアシスタント出力を実装します。 パーソナライゼーションエディターで選択したコードに置き換わります。 例えば、コードの説明を求めた場合、適用すると、式にコメントが追加され、コードの動作が説明されます。
 
-## メールDesignerから生成 {#generate-email-designer}
+## 電子メールDesigner ツールバーから生成 {#generate-email-designer}
 
-[!UICONTROL &#x200B; パーソナライゼーション式]のAI アシスタントは、[!UICONTROL Personalization Editor]を開かずに、電子メール Designerのインライン編集エクスペリエンスから直接使用することもできます。 生成されたエクスプレッションは、テキストコンポーネント内のカーソル位置に挿入されます。
+電子メール Designerでは、最初に[!UICONTROL Personalization Editor]全体を開かずに、コンテキストツールバーから[!UICONTROL AI アシスタントをパーソナライゼーション式]に使用できます。
 
-1. 電子メールDesignerで、テキストコンポーネントを選択し、インライン編集を開始します。
+1. 電子メールDesignerで、パーソナライズするコンポーネントを選択し、式を挿入する場所をクリックします。
 
-1. インラインパーソナライゼーションポップオーバーを次のいずれかの方法で開きます。
+1. コンテキストツールバーで、**[!UICONTROL 式を追加]**&#x200B;をクリックします。
 
-   * 式を挿入する位置に「`{{`」と入力すると、ポップオーバーが自動的に開きます。
-   * 既に開いている場合は、インライン編集ポップオーバーで「**[!UICONTROL AIを使用して]**」を生成します。
+   ![](assets/ai-perso-add-expression.png)
 
-   ![](assets/ai-perso-email-entry.png)
+1. AI アシスタントにパーソナライゼーションの入力を求めるツールボックスが開きます。 必要な情報をわかりやすい言葉で入力すると、AI アシスタントがプロファイルフィールドやプロンプトに一致する他の属性を提案するため、エクスプレッションをより迅速に構築できます。
 
-1. テキストフィールドに、必要なパーソナライゼーション式を平易な言語で記述し、**[!UICONTROL 生成]**&#x200B;をクリックします。
+1. アシスタントは式を生成します。
 
-1. **[!UICONTROL 式]** タブの結果を確認して、生成された式を確認します。
+   ![](assets/ai-perso-add-expression-insert.png)
 
-   「**[!UICONTROL プレビュー]**」タブに切り替えて、サンプルのプロファイル値を使用して式がどのように評価されるかを確認します。これにより、出力を挿入する前に検証できます。
+   実行できる操作は、次のとおりです。
 
-   ![](assets/ai-perso-email-result.png)
+   * 式の出力をサンプル値で検証します。「**[!UICONTROL プレビュー]**」タブを使用します。
+   * 同じプロンプトから別の提案を生成する – **[!UICONTROL 再生成]**&#x200B;を使用します。
+   * ディスカッションをクリアして最初からやり直す – **[!UICONTROL リセット]**&#x200B;を使用します。
+   * フルエディターでエクスプレッションを調整します。![編集アイコン &#x200B;](assets/do-not-localize/Smock_Edit_18_N.svg "編集") アイコンをクリックして、**[!UICONTROL Personalization エディター]**&#x200B;を開きます。
 
-1. **[!UICONTROL 挿入]**&#x200B;をクリックして、テキストコンポーネント内のカーソル位置にエクスプレッションを適用します。 **[!UICONTROL 再生成]**&#x200B;を使用して新しい提案を生成するか、**[!UICONTROL リセット]**&#x200B;を使用して最初からやり直します。
-
->[!NOTE]
->
->インラインメールDesigner ポップオーバーのパーソナライゼーション式[!UICONTROL の]AI アシスタントのセッションは、[!UICONTROL Personalization Editor]のセッションとは独立しています。 ポップオーバーを閉じると、会話が消去されます。
+1. 結果に問題がなければ、**[!UICONTROL 挿入]**&#x200B;をクリックして式をコンテンツに追加します。
