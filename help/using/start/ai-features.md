@@ -8,10 +8,10 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 exl-id: 628a5d84-6a33-4ed8-84cb-e2e4c6cc2b80
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: de51f967cfcdd5934d79148e9c4dc933c12808a8
 workflow-type: tm+mt
-source-wordcount: '1777'
-ht-degree: 80%
+source-wordcount: '1785'
+ht-degree: 79%
 
 ---
 
@@ -106,7 +106,7 @@ Journey AgentのAI アシスタントには、分析と作成という2つのス
 
 #### ジャーニー作成スキル {#journey-create-skill}
 
-[ジャーニーのCreate Agent](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"}は、自然言語プロンプトからジャーニーを構築し、目標を構造化されたジャーニー設定に変換するのに役立ちます。
+[ジャーニーのCreate Agent](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"}は、自然言語プロンプトからジャーニーを構築し、目標を構造化されたジャーニー設定に変換するのに役立ちます。
 
 +++**主な機能**
 
@@ -175,13 +175,13 @@ Journey AgentのAI アシスタントには、分析と作成という2つのス
 * **テキストの生成** - ブランドの声と目標に基づいて、魅力的なコピーを作成します。[AI を使用したテキストの生成](../content-management/generative-text.md)
 * **画像の生成** - Adobe Firefly を使用してカスタム画像を生成します。[AI を使用した画像の生成](../content-management/generative-image.md)
 * **コンテンツバリエーション** - A/B テスト用に複数のバリエーションを作成します。[AI によるコンテンツ実験](../content-management/generative-experimentation.md)
-* **Personalization** - Personalization エディターで、新しい式を生成したり、既存のコードを説明したり、AI アシスタントで問題を修正したりします。 [Personalization エクスプレッション用AI アシスタント &#x200B;](../content-management/generative-personalization-expressions.md)
+* **Personalization** - Personalization エディターまたはメール Designer ツールバー（**式を追加**）から、新しい式を生成したり、既存のコードを説明したり、AI アシスタントの問題を修正したりできます。 [Personalization エクスプレッション用AI アシスタント ](../content-management/generative-personalization-expressions.md)
 * **ブランド一致** - 生成されたコンテンツがブランドガイドラインに一致していることを確認します。[ブランド一致の評価](../content-management/brands-score.md)
 * **テンプレートサポート** - 既存のメールテンプレートを活用します。[コンテンツテンプレートの操作](../content-management/content-templates.md)
 
 ### ベストプラクティス
 
-* **具体的であること** – 明確で詳細なプロンプトを入力して、より優れた結果を得ることができます。 [&#x200B; プロンプトのベストプラクティスの学習](../content-management/ai-assistant-prompting-guide.md)
+* **具体的であること** – 明確で詳細なプロンプトを入力して、より優れた結果を得ることができます。 [ プロンプトのベストプラクティスの学習](../content-management/ai-assistant-prompting-guide.md)
 * **ブランドアセットのアップロード** - ブランドの一貫性を維持するために、PDF、画像または ZIP ファイル（最大 50 MB）を使用します
 * **カスタムテンプレートの使用** - 最大 8～10 の画像を含むブランド固有のテンプレートを活用します
 * **フィードバックの提供** - AI モデルの改善に役立てるために、出力を評価します

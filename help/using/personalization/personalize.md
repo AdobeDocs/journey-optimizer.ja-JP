@@ -9,10 +9,10 @@ role: Developer
 level: Beginner
 keywords: 式, エディター, 開始, パーソナライゼーション
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: de51f967cfcdd5934d79148e9c4dc933c12808a8
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 90%
+source-wordcount: '576'
+ht-degree: 89%
 
 ---
 
@@ -51,9 +51,9 @@ Journey Optimizer は、メッセージを処理する際に、式を Experience
 
 ➡️ [パーソナライゼーションプレイグラウンドへのアクセス](https://experienceleague.adobe.com/ja/apps/journey-optimizer/ajo-personalization){target="_blank"}
 
-## パーソナライゼーションエディターのAI アシスタント {#ai-personalization-expressions}
+## パーソナライゼーション表現のためのAI アシスタント {#ai-personalization-expressions}
 
-**[!UICONTROL Personalization Editor]**&#x200B;では、**[!UICONTROL AI アシスタント]**&#x200B;が、自然言語から新しいエクスプレッションを生成し、既存のコードの機能を説明し、選択範囲の問題を修正し、意図に一致する場合に出力を適用するのに役立ちます。
+**[!UICONTROL Personalization Editor]**&#x200B;またはメール Designer ツールバー（**[!UICONTROL 式を追加]**）から、**[!UICONTROL AI アシスタント]**&#x200B;は、自然言語から新しい式を生成し、既存のコードの機能を説明し、選択範囲の問題を修正し、意図に一致したときに出力を適用するのに役立ちます。
 
 ![](../content-management/assets/ai-perso-generate.png)
 
@@ -103,14 +103,14 @@ Journey Optimizer は、メッセージを処理する際に、式を Experience
 
 ジャーニーのコンテキストイベント情報を使用してメッセージをパーソナライズする方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3448127?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334165?quality=12)
 
 プロファイルベースのパーソナライゼーションをメッセージに追加する方法と、オーディエンスメンバーシップをパーソナライゼーションブロックの前提条件として使用する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416419?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334078?quality=12)
 
 パーソナライゼーションエディタープレイグラウンドを活用し、サンプルデータを使用してパーソナライゼーションコードを記述およびテストする方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3475953?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3457868?quality=12)
 
 パーソナライゼーションの機能とベストプラクティスに関するその他のビデオチュートリアルについて詳しくは、[パーソナライゼーションチュートリアル](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/personalize-content/personalization-editor-overview){target="_blank"}を参照してください。
