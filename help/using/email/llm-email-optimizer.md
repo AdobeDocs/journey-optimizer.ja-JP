@@ -1,20 +1,19 @@
 ---
 title: AIを活用した受信トレイ用にメールテキストを最適化する
-description: Journey Optimizerでメールのプレーンテキストのレイヤーを調整して、AIを活用して最適化されたメールDesignerで、AIを活用した受信トレイのクライアントがメールの要約や意図の抽出をおこなう際に、オファーやCTAを使用できるようにします。
+description: 専用バージョンのメッセージを生成して調整することで、AIを活用して最適化されたメールDesignerで、AIを活用した受信トレイの顧客がメールの要約や意図の抽出をおこなう際に、オファーやCTAを活用できるようになります。
 feature: Email Design
 topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner, Intermediate
 exl-id: 0c2f95ce-28a0-480c-9829-b7e4975b6340
-hide: true
-source-git-commit: a807b2ccd56678ce5ef0da6f8bdf5471c9dbca16
+source-git-commit: 6983ec41e45a9a874caafd982c3f5872036565ae
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1088'
 ht-degree: 1%
 
 ---
 
-# AIを活用した受信トレイ用にメールテキストを最適化する {#email-text-optimizer}
+# AIを活用した受信トレイへの電子メールの最適化 {#email-text-optimizer}
 
 [!DNL Adobe Journey Optimizer]には、AIを活用した受信トレイのエクスペリエンスを向上させるために、特定のバージョンのメッセージを作成できるメールチャネル機能が搭載されています（[!DNL Apple Intelligence]の[!DNL Google Gemini]や[!DNL Gmail]など）。これにより、より正確に質問に答え、コンテンツに基づいてメールを要約して、より良い結果を得ることができます。
 
