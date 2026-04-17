@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 0c2f95ce-28a0-480c-9829-b7e4975b6340
 hide: true
-source-git-commit: 93e19a78dc942f8897b306f4549e971542f01c3a
+source-git-commit: a807b2ccd56678ce5ef0da6f8bdf5471c9dbca16
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1090'
 ht-degree: 1%
 
 ---
@@ -18,11 +18,13 @@ ht-degree: 1%
 
 [!DNL Adobe Journey Optimizer]には、AIを活用した受信トレイのエクスペリエンスを向上させるために、特定のバージョンのメッセージを作成できるメールチャネル機能が搭載されています（[!DNL Apple Intelligence]の[!DNL Google Gemini]や[!DNL Gmail]など）。これにより、より正確に質問に答え、コンテンツに基づいてメールを要約して、より良い結果を得ることができます。
 
-この機能を利用すれば、メッセージの専用テキストバージョンを生成して調整できるため、AIを活用した受信トレイのエクスペリエンスでは、自動生成されたテキストや無関係なコンテキストを薄く見せるのではなく、オファー、CTA、詳細を明らかにする可能性が高まります。
+この機能を利用することで、メッセージの専用バージョンを生成して改善できるので、AIを活用した受信トレイのエクスペリエンスでは、自動生成されたテキストや無関係なコンテキストではなく、オファー、CTA、詳細が表示される可能性が高まります。
 
+<!--
 >[!NOTE]
 >
->AI受信トレイ用に最適化されたこのテキストバージョンは、メッセージのデフォルトまたはカスタムプレーンテキストバージョンと同じではありません。 [詳細情報](text-version-email.md)
+>This optimized for AI inboxes text version is not the same as the default or custom plain text version of your messages. [Learn more](text-version-email.md)
+-->
 
 ## 仕組み {#how-it-works}
 
