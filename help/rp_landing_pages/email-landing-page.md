@@ -32,7 +32,7 @@ Adobe Journey Optimizer のメールチャネルを使用すると、正確で�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 メールの作成方法
 
@@ -52,7 +52,7 @@ Adobe Journey Optimizer を使用して、レスポンシブでパーソナラ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
 
 メールオプトアウトの管理
 
@@ -72,7 +72,7 @@ Adobe Journey Optimizer を使用して、レスポンシブでパーソナラ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
 
 メールの配信品質の取得
 

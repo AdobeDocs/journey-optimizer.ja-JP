@@ -20,7 +20,7 @@ Adobe Journey Optimizer のライブレポート機能を使用すると、動�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 ライブレポートの基本を学ぶ
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer のライブレポート機能を使用すると、動�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 指標のリスト
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer のライブレポート機能を使用すると、動�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
 
 ジャーニーライブレポート
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer のライブレポート機能を使用すると、動�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
 
 キャンペーンのライブレポート
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer のライブレポート機能を使用すると、動�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
 
 ランディングページライブレポート
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer のライブレポート機能を使用すると、動�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
 
 購読ライブレポート
 

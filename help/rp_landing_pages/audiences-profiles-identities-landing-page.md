@@ -30,7 +30,7 @@ Audience Management とパーソナライゼーション
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user-circle.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/user-circle.svg?lang=ja)
 
 プロファイル：顧客データの管理と最適化
 
@@ -40,7 +40,7 @@ Audience Management とパーソナライゼーション
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/fingerprint.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/fingerprint.svg?lang=ja)
 
 ID の基本を学ぶ
 

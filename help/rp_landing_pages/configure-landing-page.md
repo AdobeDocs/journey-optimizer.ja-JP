@@ -20,7 +20,7 @@ Adobe Journey Optimizer の「コンテンツカードチャネルの設定」�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 コンテンツカードのチャネル設定の前提条件
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer でコンテンツカードチャネルを有効にす�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 Journey Optimizer でのコンテンツカードチャネルの設定
 

@@ -25,7 +25,7 @@ Adobe Journey Optimizer の意思決定管理を使用すると、適切なオ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 意思決定管理の基本を学ぶ
 
@@ -55,7 +55,7 @@ Adobe Journey Optimizer の意思決定管理を使用すると、適切なオ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 オファーの作成と管理
 
@@ -65,7 +65,7 @@ Adobe Journey Optimizer で、パーソナライズされたオファー、フ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 決定の作成と管理
 
@@ -75,7 +75,7 @@ Adobe Journey Optimizer で、パーソナライズされたオファー、フ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=ja)
 
 バッチ決定の使用
 

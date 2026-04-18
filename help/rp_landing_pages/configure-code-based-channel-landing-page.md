@@ -20,7 +20,7 @@ Adobe Journey Optimizer のコードベースのチャネルの設定の節で�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 コードベースのエクスペリエンスの前提条件
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer のコードベースのチャネルの設定の節で�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 コードベースのエクスペリエンス実装での決定
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer のコードベースのチャネルの設定の節で�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 コードベースのエクスペリエンス設定の作成
 
