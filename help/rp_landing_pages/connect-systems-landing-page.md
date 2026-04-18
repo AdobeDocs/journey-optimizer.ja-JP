@@ -20,7 +20,7 @@ Adobe Journey Optimizer を使用すると、システムと環境をシーム�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 Adobe Journey Optimizer と他のソリューションの統合
 
@@ -40,7 +40,7 @@ Adobe Experience Platform と統合し、API を使用してチャネルをま�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 ジャーニーと外部システムの統合
 
@@ -50,7 +50,7 @@ capping API や throttling API など、Adobe Journey Optimizer を外部シス�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 アドビソリューションを使用した送信
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer を設定して、Adobe Campaign、Marketo Engage、他�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 Adobe Journey Optimizer のサンドボックス管理
 

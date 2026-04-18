@@ -20,7 +20,7 @@ Adobe Journey Optimizer で IP ウォームアッププランを実装すると�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=ja)
 
 IP ウォームアップ配信品質ガイド
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer でメールの配信品質を向上させる IP ウォ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 IP ウォームアップキャンペーンの作成
 
@@ -50,7 +50,7 @@ IP ウォームアッププランのキャンペーンをデザインしてア�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 IP ウォームアッププランの作成および管理方法
 
@@ -60,7 +60,7 @@ IP ウォームアッププランの作成および管理方法
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 IP ウォームアッププランの実行と管理
 

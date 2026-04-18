@@ -20,7 +20,7 @@ Adobe Journey Optimizer の API トリガーキャンペーンでは、REST API 
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 API トリガーキャンペーンの作成と管理
 
@@ -30,7 +30,7 @@ API トリガーキャンペーンの作成と管理
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 API トリガーキャンペーンプロパティの定義
 

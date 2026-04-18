@@ -26,7 +26,7 @@ ht-degree: 99%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 コンテンツのプレビュー、テスト、検証
 
@@ -36,7 +36,7 @@ ht-degree: 99%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
 
 ジャーニーおよびキャンペーンの承認ワークフロー
 
@@ -46,7 +46,7 @@ ht-degree: 99%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 ジャーニーのテスト
 
@@ -56,7 +56,7 @@ ht-degree: 99%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 ジャーニーのドライラン
 
@@ -106,7 +106,7 @@ ht-degree: 99%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=ja)
 
 競合の検出
 

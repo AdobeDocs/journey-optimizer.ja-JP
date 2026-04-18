@@ -30,7 +30,7 @@ Adobe Journey Optimizer でメール配信品質を最適化する概念、ベ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 抑制リストについて
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer でメール配信品質を最適化する概念、ベ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
 
 新しい DMARC 要件への準拠
 

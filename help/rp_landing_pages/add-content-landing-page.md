@@ -20,7 +20,7 @@ Adobe Journey Optimizer でのコンテンツのデザインとは、オーデ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 コンテンツコンポーネントの使用
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer でのコンテンツのデザインとは、オーデ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
 
 リンクの追加とメッセージのトラッキング
 
@@ -70,7 +70,7 @@ HTML コンテンツを表示できない受信者向けに、メールのプレ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=ja)
 
 AIを活用した受信トレイ用にメールテキストを最適化する
 
@@ -80,7 +80,7 @@ AIを活用した受信トレイ用にメールテキストを最適化する
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 メタデータの追加
 

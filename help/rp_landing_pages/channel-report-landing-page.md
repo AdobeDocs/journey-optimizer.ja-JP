@@ -20,7 +20,7 @@ Adobe Journey Optimizer の「全期間のレポート」は、一定期間に�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 全期間のレポートの基本を学ぶ
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer の「全期間のレポート」機能にアクセス�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 Customer Journey Analytics の手動設定
 
@@ -50,7 +50,7 @@ Customer Journey Analytics の手動設定
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 レポートの管理
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer 内でレポートを分析、カスタマイズ、エ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 レポートデータソースの設定
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer 内でレポートを分析、カスタマイズ、エ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
 
 除外の理由
 
