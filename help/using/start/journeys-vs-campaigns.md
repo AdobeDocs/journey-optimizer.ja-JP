@@ -112,9 +112,9 @@ ht-degree: 59%
 * 待機アクティビティにより、パーソナライズされたタイミングが作成されます
 * 条件分岐により、プロファイルごとに一意のパスが作成されます
 * 組み込みのアクティブリスニング：定義された期間にわたり何も実行しないことで、明示的なイベントだけでなく、次のステップをトリガーにすることもできます。 [待機アクティビティについて説明](../building-journeys/wait-activity.md)
-* 頻度の上限設定：顧客がジャーニーにエントリしたり、ジャーニーからメッセージを受信したりできる頻度を制御します。 [ ジャーニーの上限について説明します](../conflict-prioritization/journey-capping.md)
-* オーディエンスの割合による分割 – プロファイルをランダムな割合ベースのグループに分割し、ジャーニーパス全体でA/B実験を実施できます。 [ パーセンテージ分割について説明](../building-journeys/condition-activity.md)
-* テストモード：ライブ公開前に、テストプロファイルを使用してジャーニーロジックとメッセージ配信を検証します。 [ テストモードについて学ぶ](../building-journeys/testing-the-journey.md)
+* 頻度の上限設定：顧客がジャーニーにエントリしたり、ジャーニーからメッセージを受信したりできる頻度を制御します。 [&#x200B; ジャーニーの上限について説明します](../conflict-prioritization/journey-capping.md)
+* オーディエンスの割合による分割 – プロファイルをランダムな割合ベースのグループに分割し、ジャーニーパス全体でA/B実験を実施できます。 [&#x200B; パーセンテージ分割について説明](../building-journeys/condition-activity.md)
+* テストモード：ライブ公開前に、テストプロファイルを使用してジャーニーロジックとメッセージ配信を検証します。 [&#x200B; テストモードについて学ぶ](../building-journeys/testing-the-journey.md)
 
 **フローの例：**
 
@@ -290,6 +290,6 @@ Enrich with product data → Build segments → Send personalized offers → All
 >[!MORELIKETHIS]
 >
 >* [ジャーニータイプの比較](../building-journeys/journey.md#journey-types-comparison)
->* [ キャンペーンタイプの比較](../campaigns/get-started-with-campaigns.md#campaign-types)
+>* [&#x200B; キャンペーンタイプの比較](../campaigns/get-started-with-campaigns.md#campaign-types)
 >* [ジャーニーに関する FAQ](../building-journeys/journey-faq.md)
->* [ オーケストレーションされたキャンペーンに関するFAQ](../orchestrated/orchestrated-campaigns-faq.md)
+>* [&#x200B; オーケストレーションされたキャンペーンに関するFAQ](../orchestrated/orchestrated-campaigns-faq.md)
