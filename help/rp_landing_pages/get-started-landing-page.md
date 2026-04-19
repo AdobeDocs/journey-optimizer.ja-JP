@@ -5,7 +5,7 @@ title: 基本を学ぶ
 description: Adobe Journey Optimizer の基本を学ぶ
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
-source-git-commit: 5951889d9cc245488ef89b8a6fc73e515068281e
+source-git-commit: 46b1e980ebe480b19b2796c34de676935c272fb9
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 88%
@@ -54,7 +54,7 @@ Journey Optimizer を自信を持って操作するのに役立つ基本的な�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/sparkle.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 AI とインテリジェント機能
 
@@ -165,7 +165,7 @@ Journey Optimizer インターフェイスの使用方法、主な機能への�
 * **[ユースケースプレイブック](../using/start/ai-features.md#playbooks)** - 放棄された買い物かごの復元やウェルカムキャンペーンなどの一般的なシナリオ用の事前定義済みワークフロー
 * **[監視とトラブルシューティング](troubleshoot-journey-landing-page.md)** - パフォーマンスを追跡し、問題を特定し、迅速に解決するためのツール
 * **[新機能](../using/rn/release-notes.md)** - 最新の機能、改善点、修正点を取得します
-* **[コミュニティフォーラム](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"}** - 他のユーザーとつながり、質問し、ベストプラクティスを共有します
+* **[コミュニティフォーラム](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}** - 他のユーザーとつながり、質問し、ベストプラクティスを共有します
 * **[ドキュメントの更新](../using/rn/documentation-updates.md)** - ドキュメントの最近の変更と追加に関する最新情報を取得します
 
 ## Adobe Marketo Measureをすぐ活用するには？
@@ -175,7 +175,7 @@ Journey Optimizer インターフェイスの使用方法、主な機能への�
 * **Journey Optimizer を初めて使用しますか？**&#x200B;まずは [Journey Optimizer とは](../using/start/get-started.md)から基本を理解します
 * **自分の役割を知っていますか？**&#x200B;自分の責務に該当する[役割固有のガイド](../using/start/quick-start.md)を参照してださい。
 * **探索しますか？**&#x200B;[AI 機能](../using/start/ai-features.md)を参照するか、[ユースケースプレイブック](../using/start/ai-features.md#playbooks)を試してください
-* **サポートが必要ですか？**&#x200B;[トラブルシューティングガイド](../using/start/troubleshooting.md)を確認するか、[コミュニティフォーラム](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"}にアクセスしてください。
+* **サポートが必要ですか？**&#x200B;[トラブルシューティングガイド](../using/start/troubleshooting.md)を確認するか、[コミュニティフォーラム](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}にアクセスしてください。
 
 ## クイックリンク {#quick-links}
 
