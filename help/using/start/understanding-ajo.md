@@ -9,10 +9,10 @@ role: Admin, Developer, User
 level: Beginner
 keywords: journey optimizer，仕組み、アーキテクチャ、エクスペリエンスプラットフォーム、機能領域
 exl-id: 9df179a0-a5f6-4dbd-a9db-a103731b1854
-source-git-commit: 83a4b2d85866d5bbad607c6b84d0573f211fad89
+source-git-commit: 3983f5912cb0579d489af6466025551b60d6938e
 workflow-type: tm+mt
 source-wordcount: '925'
-ht-degree: 62%
+ht-degree: 61%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 62%
 
 Adobe Journey Optimizer と Adobe Experience Platform は連携して、データ駆動型の大規模なパーソナライゼーションを実現します。このページでは、これらのシステムが動作する仕組みと、主要な機能領域を組み合わせて優れたカスタマーエクスペリエンスを実現する仕組みについて説明します。[主な機能の詳細情報](get-started.md) | [主な用語について](terminology.md)
 
-## Journey Optimizer の仕組み {#how-it-works}
+## Journey Optimizerの仕組み {#how-it-works}
 
 統合されたデータ基盤がなければ、ブランドは複数のチャネル固有のツールに依存せざるを得ません。そのため、各顧客の一貫性のあるビューを維持したり、リアルタイムでのそれぞれの行動に対応することが困難になります。 Journey Optimizerなら、Adobe Experience Platformを基盤として、顧客データ、コンテンツの制作、ジャーニーオーケストレーションをつなぎ合わせ、単一の継続的なシステムを構築できます。 その結果、顧客ロイヤルティと生涯価値を高める有意義なブランド体験を創出できます。
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer は、データを収集、分析および適用する�
 
 ![Adobe Experience Platformが基盤となるデータレイヤーであり、Journey OptimizerがReal-Time CDP、Customer Journey Analytics、Adobe Mix Modelerと共に構築され、Real-Time Customer Profile、データガバナンス、ID解決などのコアサービスをすべて共有している図。](assets/ajo-aep-architecture-diagram.png)
 
-### Adobe Experience Platform：基盤 {#aep-foundation}
+### Adobe Experience Platform:the foundation {#aep-foundation}
 
 Adobe Experience Platform はバックボーンとして機能し、ブランドがお客様データを一元化し、パーソナライズされたエクスペリエンスのためにアクティブ化できるようにします。
 
@@ -44,7 +44,7 @@ Adobe Experience Platform はバックボーンとして機能し、ブランド
 Adobe Journey Optimizer は、Adobe Experience Platform からのデータとインサイトを適用し、インテリジェントでパーソナライズされたカスタマーエクスペリエンスを提供します。
 
 * **お客様の理解** - リアルタイム顧客プロファイルにより、ターゲットメッセージ用にオーディエンスをセグメント化できます。[オーディエンスの作成](../audience/about-audiences.md)
-* **コンテンツとオファー** – 組み込みのビジュアルデザイナー、再利用可能なテンプレート、一元化されたアセットライブラリにより、プラットフォームを離れることなく、あらゆるチャネル向けにメッセージを作成およびパーソナライズできます。 動的パーソナライゼーションでは、顧客の属性、行動、コンテキストにもとづいてコンテンツを調整します。 その後、リアルタイムの意思決定ロジックによって、各個人に最適なオファーが選択されます。 [&#x200B; デザインコンテンツ &#x200B;](../../rp_landing_pages/content-management-landing-page.md) | [&#x200B; アセットの管理](../integrations/assets.md) | [&#x200B; オファーの管理](../offers/get-started/starting-offer-decisioning.md)
+* **コンテンツとオファー** – 組み込みのビジュアルデザイナー、再利用可能なテンプレート、一元化されたアセットライブラリにより、プラットフォームを離れることなく、あらゆるチャネル向けにメッセージを作成およびパーソナライズできます。 動的パーソナライゼーションでは、顧客の属性、行動、コンテキストにもとづいてコンテンツを調整します。 その後、リアルタイムの意思決定ロジックによって、各個人に最適なオファーが選択されます。 [ デザインコンテンツ ](../../rp_landing_pages/content-management-landing-page.md) | [ アセットの管理](../integrations/assets.md) | [ オファーの管理](../offers/get-started/starting-offer-decisioning.md)
 * **ジャーニーとキャンペーン管理** - インタラクションのシーケンス（ジャーニー）を自動化したり、1 回限りのターゲットメッセージ（キャンペーン）をスケジュールします。[ジャーニーの作成](../building-journeys/journey-gs.md) | [キャンペーンの作成](../campaigns/get-started-with-campaigns.md)
 * **配信（接続）** - メール、SMS、プッシュ通知、ダイレクトメールなどのチャネルを通じてメッセージを配信し、データを外部システムにエクスポートします。[チャネルの設定](../configuration/get-started-configuration.md)
 * **測定と分析** - 継続的な改善のためにレポートで顧客エンゲージメントとキャンペーンのパフォーマンスを追跡します。[レポートの表示](../reports/campaign-global-report-cja.md)
@@ -85,7 +85,7 @@ Journey Optimizer には、シームレスに連携するいくつかの主要�
 
 Journey Optimizerは、Real-Time CDP、Customer Journey Analytics、Adobe Mix Modelerに加え、Adobe Experience Platform上にネイティブに構築された4つのアプリケーションのひとつです。 Adobe AEPのコアサービスであるReal-Time Customer Profile、ID グラフ、データガバナンス、クエリサービスを共有することで、別々の統合を必要とせずに、統合された顧客データ基盤を利用できます。 Journey Optimizerは、スタンドアロンアプリケーションとして動作したり、他のAEP ネイティブアプリケーションと相互運用したりできます。
 
-統合パターン、前提条件、システムデータフローなど、技術的なアーキテクチャについて詳しくは、[Adobe Journey Optimizer ブループリント &#x200B;](https://experienceleague.adobe.com/ja/docs/blueprints-learn/architecture/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}を参照してください。 実装に関する考慮事項については、[&#x200B; ガードレールと制限事項を確認](guardrails.md)してください。
+統合パターン、前提条件、システムデータフローなど、技術的なアーキテクチャについて詳しくは、[Adobe Journey Optimizer ブループリント ](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}を参照してください。 実装に関する考慮事項については、[ ガードレールと制限事項を確認](guardrails.md)してください。
 
 ## プライバシーとセキュリティ {#privacy-security}
 
