@@ -10,10 +10,10 @@ level: Beginner
 keywords: ジャーニー, キャンペーン, 調整, 比較, 選択, 決定, ワークフロー, リアルタイム, バッチ, オーケストレーション, マルチステップ, スケジュール, API トリガー, イベント駆動型
 hide: true
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 8d7d97857eb65359bee6165d43427e92a2ce4fc5
 workflow-type: tm+mt
-source-wordcount: '1613'
-ht-degree: 61%
+source-wordcount: '1696'
+ht-degree: 59%
 
 ---
 
@@ -111,6 +111,10 @@ ht-degree: 61%
 * 行動とイベントに基づいてリアルタイムで意思決定を行います
 * 待機アクティビティにより、パーソナライズされたタイミングが作成されます
 * 条件分岐により、プロファイルごとに一意のパスが作成されます
+* 組み込みのアクティブリスニング：定義された期間にわたり何も実行しないことで、明示的なイベントだけでなく、次のステップをトリガーにすることもできます。 [待機アクティビティについて説明](../building-journeys/wait-activity.md)
+* 頻度の上限設定：顧客がジャーニーにエントリしたり、ジャーニーからメッセージを受信したりできる頻度を制御します。 [ ジャーニーの上限について説明します](../conflict-prioritization/journey-capping.md)
+* オーディエンスの割合による分割 – プロファイルをランダムな割合ベースのグループに分割し、ジャーニーパス全体でA/B実験を実施できます。 [ パーセンテージ分割について説明](../building-journeys/condition-activity.md)
+* テストモード：ライブ公開前に、テストプロファイルを使用してジャーニーロジックとメッセージ配信を検証します。 [ テストモードについて学ぶ](../building-journeys/testing-the-journey.md)
 
 **フローの例：**
 
@@ -212,6 +216,8 @@ Enrich with product data → Build segments → Send personalized offers → All
 | コードベース | ✅ | ✅ | ❌ | ❌ |
 | コンテンツカード | ✅ | ✅ | ❌ | ❌ |
 | ダイレクトメール | ✅ | ✅ | ❌ | ✅ |
+| LINE | ✅ | ✅ | ✅ | ✅ |
+| WhatsApp | ✅ | ✅ | ✅ | ✅ |
 
 ### 高度な機能
 
@@ -226,7 +232,7 @@ Enrich with product data → Build segments → Send personalized offers → All
 | マルチエンティティデータ | ❌ | ❌ | ❌ | ✅ |
 | 正確な事前送信数 | ❌ | ❌ | ❌ | ✅ |
 | オンデマンドのセグメント化 | ❌ | ❌ | ❌ | ✅ |
-| 送信時間の最適化 | ✅ | ✅ | ✅ | ✅ |
+| 送信時間の最適化 | ✅ | ❌ | ❌ | ❌ |
 | A/B テスト | ✅ | ✅ | ❌ | ❌ |
 | 承認ワークフロー | ✅ | ✅ | ✅ | ❌ |
 
@@ -284,6 +290,6 @@ Enrich with product data → Build segments → Send personalized offers → All
 >[!MORELIKETHIS]
 >
 >* [ジャーニータイプの比較](../building-journeys/journey.md#journey-types-comparison)
->* [&#x200B; キャンペーンタイプの比較](../campaigns/get-started-with-campaigns.md#campaign-types)
+>* [ キャンペーンタイプの比較](../campaigns/get-started-with-campaigns.md#campaign-types)
 >* [ジャーニーに関する FAQ](../building-journeys/journey-faq.md)
->* [&#x200B; オーケストレーションされたキャンペーンに関するFAQ](../orchestrated/orchestrated-campaigns-faq.md)
+>* [ オーケストレーションされたキャンペーンに関するFAQ](../orchestrated/orchestrated-campaigns-faq.md)

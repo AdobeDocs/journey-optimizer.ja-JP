@@ -4,25 +4,31 @@ product: journey optimizer
 title: Journey Optimizer について
 description: Adobe Journey Optimizer が Adobe Experience Platform と連携して、パーソナライズされたカスタマーエクスペリエンスを提供する仕組みについて説明します。
 feature: Get Started
+topic: Content Management
 role: Admin, Developer, User
 level: Beginner
+keywords: journey optimizer，仕組み、アーキテクチャ、エクスペリエンスプラットフォーム、機能領域
 exl-id: 9df179a0-a5f6-4dbd-a9db-a103731b1854
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 8d7d97857eb65359bee6165d43427e92a2ce4fc5
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 97%
+source-wordcount: '962'
+ht-degree: 74%
 
 ---
 
 # Journey Optimizer について {#understanding-ajo}
 
+ここでは、Adobe Experience PlatformとJourney Optimizerの連携の仕組み、継続的なデータツーエクスペリエンスのサイクル、主な機能領域、アーキテクチャの詳細、統合ポイントについて説明します。
+
 Adobe Journey Optimizer と Adobe Experience Platform は連携して、データ駆動型の大規模なパーソナライゼーションを実現します。このページでは、これらのシステムが動作する仕組みと、主要な機能領域を組み合わせて優れたカスタマーエクスペリエンスを実現する仕組みについて説明します。[主な機能の詳細情報](get-started.md) | [主な用語について](terminology.md)
 
 ## Journey Optimizer の仕組み {#how-it-works}
 
+統合されたデータ基盤がなければ、ブランドは複数のチャネル固有のツールに依存せざるを得ません。そのため、各顧客の一貫性のあるビューを維持したり、リアルタイムでのそれぞれの行動に対応することが困難になります。 Journey Optimizerなら、Adobe Experience Platformを基盤として、顧客データ、コンテンツの制作、ジャーニーオーケストレーションをつなぎ合わせ、単一の継続的なシステムを構築できます。 その結果、顧客ロイヤルティと生涯価値を高める有意義なブランド体験を創出できます。
+
 Adobe Journey Optimizer は、データを収集、分析および適用する継続的なフローとして機能し、パーソナライズされたカスタマージャーニーを作成します。
 
-![](assets/ajo-aep-architecture-diagram.png)
+![Adobe Experience Platformが基盤となるデータレイヤーであり、Journey OptimizerがReal-Time CDP、Customer Journey Analytics、Adobe Mix Modelerと共に構築され、Real-Time Customer Profile、データガバナンス、ID解決などのコアサービスをすべて共有している図。](assets/ajo-aep-architecture-diagram.png)
 
 ### Adobe Experience Platform：基盤 {#aep-foundation}
 
@@ -38,7 +44,7 @@ Adobe Experience Platform はバックボーンとして機能し、ブランド
 Adobe Journey Optimizer は、Adobe Experience Platform からのデータとインサイトを適用し、インテリジェントでパーソナライズされたカスタマーエクスペリエンスを提供します。
 
 * **お客様の理解** - リアルタイム顧客プロファイルにより、ターゲットメッセージ用にオーディエンスをセグメント化できます。[オーディエンスの作成](../audience/about-audiences.md)
-* **コンテンツとオファー** - コンテンツを作成、管理およびパーソナライズするツール。各個人に最適なオファーを選択するリアルタイムロジック。 [コンテンツのデザイン](../../rp_landing_pages/content-management-landing-page.md) | [オファーの管理](../offers/get-started/starting-offer-decisioning.md)
+* **コンテンツとオファー** – 組み込みのビジュアルデザイナー、再利用可能なテンプレート、一元化されたアセットライブラリにより、プラットフォームを離れることなく、あらゆるチャネル向けにメッセージを作成およびパーソナライズできます。 動的パーソナライゼーションでは、顧客の属性、行動、コンテキストにもとづいてコンテンツを調整します。 その後、リアルタイムの意思決定ロジックによって、各個人に最適なオファーが選択されます。 [ デザインコンテンツ ](../../rp_landing_pages/content-management-landing-page.md) | [ アセットの管理](../integrations/assets.md) | [ オファーの管理](../offers/get-started/starting-offer-decisioning.md)
 * **ジャーニーとキャンペーン管理** - インタラクションのシーケンス（ジャーニー）を自動化したり、1 回限りのターゲットメッセージ（キャンペーン）をスケジュールします。[ジャーニーの作成](../building-journeys/journey-gs.md) | [キャンペーンの作成](../campaigns/get-started-with-campaigns.md)
 * **配信（接続）** - メール、SMS、プッシュ通知、ダイレクトメールなどのチャネルを通じてメッセージを配信し、データを外部システムにエクスポートします。[チャネルの設定](../configuration/get-started-configuration.md)
 * **測定と分析** - 継続的な改善のためにレポートで顧客エンゲージメントとキャンペーンのパフォーマンスを追跡します。[レポートの表示](../reports/campaign-global-report-cja.md)
@@ -47,7 +53,7 @@ Adobe Journey Optimizer は、Adobe Experience Platform からのデータとイ
 
 このエコシステムは、継続的な最適化サイクルとして機能します。データは、パーソナライズされたコンテンツと決定を提供する、お客様の理解を推進します。これらはジャーニーに調整され、チャネルをまたいで配信され、有効性を測定し、時間の経過と共に調整されます。
 
-![](../assets/do-not-localize/get-started-flow.png)
+![Journey Optimizerの継続的な最適化サイクルを示す図：データ取り込みは、コンテンツとオファーの意思決定に役立つ顧客プロファイルを提供します。このプロファイルは、ジャーニーにオーケストレーションされ、チャネルをまたいで配信され、パフォーマンスを測定し、時間の経過とともに調整されます。](../assets/do-not-localize/get-started-flow.png)
 
 ## 主な活動分野 {#functional-areas}
 

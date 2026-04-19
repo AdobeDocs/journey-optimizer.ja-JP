@@ -10,9 +10,9 @@ keywords: ジャーニータイプ, 単一, オーディエンスを読み取り
 version: Journey Orchestration
 hide: true
 exl-id: 0c894dc1-76b6-4b33-baf8-eaf6686f7d38
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 8d7d97857eb65359bee6165d43427e92a2ce4fc5
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '958'
 ht-degree: 96%
 
 ---
@@ -174,7 +174,3 @@ ht-degree: 96%
 * **[ジャーニーデザイナーについて学ぶ](using-the-journey-designer.md)** - ジャーニーキャンバスのデザイン
 * **[ジャーニー機能について](journey.md#capabilities)** - 高度な機能の確認
 * **[ジャーニーに関する FAQ の表示](journey-faq.md)** - よくある質問への回答
-
-**キャンペーンと比較する必要がありますか？**
-
-* [ジャーニーとキャンペーン比較ガイド](../start/journeys-vs-campaigns.md) - ジャーニー、アクション／API キャンペーン、オーケストレーションキャンペーンから選択します

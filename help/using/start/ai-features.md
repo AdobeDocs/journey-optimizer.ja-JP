@@ -8,10 +8,10 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 exl-id: 628a5d84-6a33-4ed8-84cb-e2e4c6cc2b80
-source-git-commit: de51f967cfcdd5934d79148e9c4dc933c12808a8
+source-git-commit: 8d7d97857eb65359bee6165d43427e92a2ce4fc5
 workflow-type: tm+mt
-source-wordcount: '1785'
-ht-degree: 79%
+source-wordcount: '1845'
+ht-degree: 77%
 
 ---
 
@@ -106,7 +106,7 @@ Journey AgentのAI アシスタントには、分析と作成という2つのス
 
 #### ジャーニー作成スキル {#journey-create-skill}
 
-[ジャーニーのCreate Agent](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"}は、自然言語プロンプトからジャーニーを構築し、目標を構造化されたジャーニー設定に変換するのに役立ちます。
+[ジャーニーのCreate Agent](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"}は、自然言語プロンプトからジャーニーを構築し、目標を構造化されたジャーニー設定に変換するのに役立ちます。
 
 +++**主な機能**
 
@@ -175,13 +175,13 @@ Journey AgentのAI アシスタントには、分析と作成という2つのス
 * **テキストの生成** - ブランドの声と目標に基づいて、魅力的なコピーを作成します。[AI を使用したテキストの生成](../content-management/generative-text.md)
 * **画像の生成** - Adobe Firefly を使用してカスタム画像を生成します。[AI を使用した画像の生成](../content-management/generative-image.md)
 * **コンテンツバリエーション** - A/B テスト用に複数のバリエーションを作成します。[AI によるコンテンツ実験](../content-management/generative-experimentation.md)
-* **Personalization** - Personalization エディターまたはメール Designer ツールバー（**式を追加**）から、新しい式を生成したり、既存のコードを説明したり、AI アシスタントの問題を修正したりできます。 [Personalization エクスプレッション用AI アシスタント &#x200B;](../content-management/generative-personalization-expressions.md)
+* **Personalization** - Personalization エディターまたはメール Designer ツールバー（**式を追加**）から、新しい式を生成したり、既存のコードを説明したり、AI アシスタントの問題を修正したりできます。 [Personalization エクスプレッション用AI アシスタント ](../content-management/generative-personalization-expressions.md)
 * **ブランド一致** - 生成されたコンテンツがブランドガイドラインに一致していることを確認します。[ブランド一致の評価](../content-management/brands-score.md)
 * **テンプレートサポート** - 既存のメールテンプレートを活用します。[コンテンツテンプレートの操作](../content-management/content-templates.md)
 
 ### ベストプラクティス
 
-* **具体的であること** – 明確で詳細なプロンプトを入力して、より優れた結果を得ることができます。 [&#x200B; プロンプトのベストプラクティスの学習](../content-management/ai-assistant-prompting-guide.md)
+* **具体的であること** – 明確で詳細なプロンプトを入力して、より優れた結果を得ることができます。 [ プロンプトのベストプラクティスの学習](../content-management/ai-assistant-prompting-guide.md)
 * **ブランドアセットのアップロード** - ブランドの一貫性を維持するために、PDF、画像または ZIP ファイル（最大 50 MB）を使用します
 * **カスタムテンプレートの使用** - 最大 8～10 の画像を含むブランド固有のテンプレートを活用します
 * **フィードバックの提供** - AI モデルの改善に役立てるために、出力を評価します
@@ -329,3 +329,11 @@ Adobe GenStudio for Performance Marketingと統合し、AIを活用してメー�
 ほとんどの AI 機能は、Adobe Journey Optimizer に含まれています。[送信時間の最適化](#send-time-optimization)や [AI エージェント](#ai-agents)などの一部の機能では、アドビによるイネーブルメントが必要になる場合があります。特定のライセンスと使用可能な機能について詳しくは、アドビ担当者にお問い合わせください。
 
 +++
+
+>[!MORELIKETHIS]
+>
+>* [Journey Optimizer とは](get-started.md) – 主な機能、ユースケース、アーキテクチャの概要。
+>* [仕組みを理解する](understanding-ajo.md) — Journey OptimizerとExperience Platformの連携の仕組み。
+>* [AI コンテンツ生成](../content-management/gs-generative.md) — AI アシスタントを使用して、電子メール、プッシュ通知、SMS、web コンテンツを生成します。
+>* [送信時間の最適化](../building-journeys/send-time-optimization.md) — メッセージ配信のタイミングを個人ごとに予測して最適化します。
+>* [決定のためのAI モデル ](../experience-decisioning/ranking/ai-models.md) — AI ランキングモデルを使用して、オファーを自動的にランク付けおよびパーソナライズします。

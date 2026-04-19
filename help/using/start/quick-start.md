@@ -4,14 +4,16 @@ product: journey optimizer
 title: 役割と責務
 description: Adobe Journey Optimizer に関連する様々な役割とその責務について説明します。
 feature: Get Started
+topic: Get Started
 role: Admin, Developer, User
 level: Beginner
+keywords: 役割，責任，マーケター，管理者，データエンジニア，開発者，クイックスタート
 exl-id: 71ab7369-fd84-46eb-95d2-941bd887d565
 redpen-status: PASS_||_2025-04-28_15-13-07
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 227dde4212a2a0caa4c46cc2151a4a5cc11d011f
 workflow-type: tm+mt
-source-wordcount: '1867'
-ht-degree: 83%
+source-wordcount: '2177'
+ht-degree: 73%
 
 ---
 
@@ -24,14 +26,34 @@ Adobe Journey Optimizer を使用すると、カスタマージャーニーを�
 * リアルタイムジャーニーとバッチキャンペーンの両方に対応する統合キャンバスと最新のメッセージデザイナーによる&#x200B;**最新のオムニチャネルオーケストレーション**
 * 意思決定管理と AI／ML 機能による&#x200B;**インテリジェントな意思決定とパーソナライゼーション**
 
-Journey Optimizer には、様々なマーケティングニーズを満たす次の 2 つのオーケストレーションアプローチが用意されています。
+Journey Optimizerでは、顧客にリーチしてエンゲージするための主なアプローチが2つあります。
 
-* **ジャーニー**：各顧客が行動やイベントにトリガーされて、自分のペースで進めるリアルタイムの 1 対 1 エンゲージメントに最適です
-* **オーケストレーションされたキャンペーン**: オーディエンスがスケジュール上のマルチステップのワークフローを通じて一緒に進行する、一対多のバッチ キャンペーンに最適です。季節ごとのプロモーション、製品の発表、アカウントベースのコミュニケーションに最適です
+* **ジャーニー** – 行動やイベントによってトリガーされ、各顧客が自分のペースで移動する、リアルタイムの1対1のオーケストレーション。 オンボーディングのシーケンス、カート放棄、ライフサイクルエンゲージメントに最適です。
+* **キャンペーン** — ユースケースに応じて3つの配信モードを持つオーディエンスベースのメッセージ：
+   * **アクションキャンペーン** – 定義済みのオーディエンスにスケジュール済みまたは定期的なメッセージを一度に配信します。 ニュースレター、プロモーションのお知らせ、製品の発売に最適です。
+   * **API トリガーキャンペーン** — API経由で外部システムによってトリガーされるオンデマンドメッセージ。 注文確認、配送アラート、アカウント通知などのトランザクションメッセージに最適です。
+   * **オーケストレーションされたキャンペーン** – 複数エンティティのセグメント化とキャンバスベースの実行を備えた複雑なバッチワークフロー。 季節ごとのプロモーション、マルチステップのバッチプログラム、正確な送信前数を必要とするキャンペーンに最適です。
 
 この統合されたエクスペリエンスにより、オーディエンスの定義やジャーニーのデザインから、パーソナライズされたコンテンツの作成や結果の分析まで、ユースケース全体を 1 か所で実装できます。このドキュメントでは、Journey Optimizer を効果的に使用する際の重要な役割と責任および使用の開始方法について説明します。
 
 **重要なメモ：** Adobe Journey Optimizer では、特定の責任を持つ個別のロールを定義します。組織の構造に応じて、1 人のユーザーが複数の役割またはすべての役割を実行することができます。
+
+>[!NOTE]
+>
+>* 環境で使用できるコンポーネントと機能は、[権限](../administration/permissions.md)と[ライセンスパッケージ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}によって異なります。ご不明な点について詳しくは、アドビカスタマーサクセスマネージャーまたはアドビ担当者までお問い合わせください。
+>
+>* Adobe Experience Cloud の一般的なプライバシーに関するガイドラインと手順は [!DNL Journey Optimizer] に適用されます。[Adobe Experience Cloud のプライバシーの詳細情報](https://www.adobe.com/jp/privacy/experience-cloud.html){target="_blank"}。
+
+## 始める前に {#before-you-begin}
+
+導入の成功は、準備から始まります。 Journey Optimizerを設定する前に、次の点についてチームの連携を図ってください。
+
+* **最初にユースケースを定義** – 対応する顧客シナリオを特定し、優先順位を付けます。 これは、[ データ管理](../data/gs-data.md)から[ チャネル設定](../configuration/get-started-configuration.md)まで、すべての設定決定を導きます。
+* **顧客体験に携わるあらゆる部門が関与する** – 通常、Journey Optimizerの導入は、マーケティング、IT、データ、オペレーションに及びます。 複数のチームをまたいだ事前の調整が、重複作業を防ぎます。
+* **共有顧客識別子を確立** – すべてのデータソースに存在する共通の識別子（CRM IDや電子メールアドレスなど）に同意します。 これは、[統合顧客プロファイル ](../audience/get-started-profiles.md)の基盤です。
+* **データプライバシーコンプライアンスの確認** – 接続する予定のすべてのデータソースが、取り込み前に該当する[ プライバシー規制](../privacy/get-started-privacy.md)に準拠していることを確認します。
+* **運用開始前にテストする計画** — [ イベントトリガー、ジャーニー条件、チャネルアクション ](../building-journeys/journey-gs.md)が開発環境またはステージングサンドボックスで期待どおりに動作することを検証します。
+* **ブランドコンテンツとアセットライブラリの準備** – チームがジャーニーやキャンペーンで使用するデジタルアセット、テンプレート、ブランドガイドラインを特定します。 ローンチ前にJourney Optimizerの[組み込みのアセットライブラリ ](../integrations/assets.md)に読み込むと、メッセージ作成が高速化され、初日からブランドの一貫性が確保されます。
 
 ## 役割ベースのクイックスタートガイド
 
@@ -123,7 +145,7 @@ Journey Optimizer の実装が成功すると、通常、このシーケンス�
 * **プロファイル管理**：リアルタイム顧客プロファイル用のデータセットを有効にして、パーソナライズされたエクスペリエンスを強化します
 * **データ品質**：データ取り込みを監視し、すべてがスムーズにJourney Optimizer にフローするようにします
 
-**最初から：** [&#x200B; データ管理の概要](../data/gs-data.md)を確認して、スキーマ、データセット、ID、完全なデータ設定チェックリストを理解します。 次に、最初の顧客プロファイルスキーマをモデル化し、ソースコネクタを設定してデータの取り込みを開始します。
+**最初から：** [ データ管理の概要](../data/gs-data.md)を確認して、スキーマ、データセット、ID、完全なデータ設定チェックリストを理解します。 次に、最初の顧客プロファイルスキーマをモデル化し、ソースコネクタを設定してデータの取り込みを開始します。
 
 [データエンジニア向けの基本を学ぶ →](path/data-engineer.md)
 
@@ -210,7 +232,7 @@ Journey Optimizer を正常に実装するには、すべての役割をまた�
 
 Journey Optimizer の主な機能とペルソナについて詳しくは、紹介ビデオをご覧ください。このビデオでは、ユーザーインターフェイスを順を追って説明し、役割固有のワークフローに基づいて主な機能を重点的に説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430316?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
 
 ## その他のリソース
 
@@ -221,7 +243,7 @@ Journey Optimizer の主な機能とペルソナについて詳しくは、紹�
 >[!TAB 学習とドキュメント]
 
 * [チュートリアルビデオ](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=ja){target="_blank"} - すべての役割に対応するステップバイステップのビデオチュートリアル
-* [&#x200B; データ管理の基本を学ぶ](../data/gs-data.md) - Journey Optimizerのスキーマ、データセット、ID、データ準備チェックリスト
+* [ データ管理の基本を学ぶ](../data/gs-data.md) - Journey Optimizerのスキーマ、データセット、ID、データ準備チェックリスト
 * [ジャーニーユースケースライブラリ](../building-journeys/jo-use-cases.md) - 実用的な例と実装パターン
 * [AI とインテリジェント機能](ai-features.md) - AI アシスタント、送信時の最適化、コンテンツ生成について説明します
 * [ユーザーインターフェイスガイド](user-interface.md) - Journey Optimizer の効果的な操作
@@ -234,7 +256,7 @@ Journey Optimizer の主な機能とペルソナについて詳しくは、紹�
 
 >[!TAB コミュニティとサポート]
 
-* [Experience League コミュニティ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"} - 他のユーザーやエキスパートとつながります
-* [製品フォーラム](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"} - 質問をしたり、知識を共有したりします
+* [Experience League コミュニティ](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} - 他のユーザーやエキスパートとつながります
+* [製品フォーラム](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"} - 質問をしたり、知識を共有したりします
 
 >[!ENDTABS]
