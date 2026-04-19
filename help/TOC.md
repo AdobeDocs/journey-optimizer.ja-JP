@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 1e42168a8eb2e5824a4054cced014b6ec57afd7f
+source-git-commit: c8eb1df8094843049077a18118d2c8f7c0b57fe3
 workflow-type: tm+mt
-source-wordcount: '3207'
+source-wordcount: '3209'
 ht-degree: 91%
 
 ---
@@ -35,18 +35,19 @@ ht-degree: 91%
    + 基本事項 {#essentials}
       + [Journey Optimizer とは](using/start/get-started.md)
       + [仕組みについて](using/start/understanding-ajo.md)
+      + [AI とインテリジェント機能](using/start/ai-features.md)
       + [主な用語](using/start/terminology.md)
       + [ガードレールと制限](using/start/guardrails.md)
    + はじめに（役割別） {#by-role}
-      + [学習パスの選択](using/start/quick-start.md)
-      + [マーケター向けの基本を学ぶ](using/start/path/marketer.md)
-      + [データエンジニア向けの基本を学ぶ](using/start/path/data-engineer.md)
+      + [役割と責務](using/start/quick-start.md)
       + [管理者向けの基本を学ぶ](using/start/path/administrator.md)
+      + [データエンジニア向けの基本を学ぶ](using/start/path/data-engineer.md)
       + [開発者向けの基本を学ぶ](using/start/path/developer.md)
+      + [マーケター向けの基本を学ぶ](using/start/path/marketer.md)
    + 効率的な作業 {#work-efficiently}
       + [インターフェイスの操作](using/start/user-interface.md)
       + [検索、フィルター、整理](using/start/search-filter-categorize.md)
-      + [AI とインテリジェント機能](using/start/ai-features.md)
+      + [&#x200B; トラブルシューティングに関するFAQ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [アクセシビリティ](using/start/accessibility.md)
       + {hide-from-toc}[ジャーニーとキャンペーン &#x200B;](using/start/journeys-vs-campaigns.md)
 + ジャーニー {#orchestrate-journeys}

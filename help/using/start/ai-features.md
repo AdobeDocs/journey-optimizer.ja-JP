@@ -8,10 +8,10 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 exl-id: 628a5d84-6a33-4ed8-84cb-e2e4c6cc2b80
-source-git-commit: de51f967cfcdd5934d79148e9c4dc933c12808a8
+source-git-commit: 8d7d97857eb65359bee6165d43427e92a2ce4fc5
 workflow-type: tm+mt
-source-wordcount: '1785'
-ht-degree: 79%
+source-wordcount: '1845'
+ht-degree: 77%
 
 ---
 
@@ -329,3 +329,11 @@ Adobe GenStudio for Performance Marketingと統合し、AIを活用してメー�
 ほとんどの AI 機能は、Adobe Journey Optimizer に含まれています。[送信時間の最適化](#send-time-optimization)や [AI エージェント](#ai-agents)などの一部の機能では、アドビによるイネーブルメントが必要になる場合があります。特定のライセンスと使用可能な機能について詳しくは、アドビ担当者にお問い合わせください。
 
 +++
+
+>[!MORELIKETHIS]
+>
+>* [Journey Optimizer とは](get-started.md) – 主な機能、ユースケース、アーキテクチャの概要。
+>* [仕組みを理解する](understanding-ajo.md) — Journey OptimizerとExperience Platformの連携の仕組み。
+>* [AI コンテンツ生成](../content-management/gs-generative.md) — AI アシスタントを使用して、電子メール、プッシュ通知、SMS、web コンテンツを生成します。
+>* [送信時間の最適化](../building-journeys/send-time-optimization.md) — メッセージ配信のタイミングを個人ごとに予測して最適化します。
+>* [決定のためのAI モデル &#x200B;](../experience-decisioning/ranking/ai-models.md) — AI ランキングモデルを使用して、オファーを自動的にランク付けおよびパーソナライズします。
