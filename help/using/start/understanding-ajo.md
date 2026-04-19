@@ -44,7 +44,7 @@ Adobe Experience Platform はバックボーンとして機能し、ブランド
 Adobe Journey Optimizer は、Adobe Experience Platform からのデータとインサイトを適用し、インテリジェントでパーソナライズされたカスタマーエクスペリエンスを提供します。
 
 * **お客様の理解** - リアルタイム顧客プロファイルにより、ターゲットメッセージ用にオーディエンスをセグメント化できます。[オーディエンスの作成](../audience/about-audiences.md)
-* **コンテンツとオファー** – 組み込みのビジュアルデザイナー、再利用可能なテンプレート、一元化されたアセットライブラリにより、プラットフォームを離れることなく、あらゆるチャネル向けにメッセージを作成およびパーソナライズできます。 動的パーソナライゼーションでは、顧客の属性、行動、コンテキストにもとづいてコンテンツを調整します。 その後、リアルタイムの意思決定ロジックによって、各個人に最適なオファーが選択されます。 [ デザインコンテンツ ](../../rp_landing_pages/content-management-landing-page.md) | [ アセットの管理](../integrations/assets.md) | [ オファーの管理](../offers/get-started/starting-offer-decisioning.md)
+* **コンテンツとオファー** – 組み込みのビジュアルデザイナー、再利用可能なテンプレート、一元化されたアセットライブラリにより、プラットフォームを離れることなく、あらゆるチャネル向けにメッセージを作成およびパーソナライズできます。 動的パーソナライゼーションでは、顧客の属性、行動、コンテキストにもとづいてコンテンツを調整します。 その後、リアルタイムの意思決定ロジックによって、各個人に最適なオファーが選択されます。 [&#x200B; デザインコンテンツ &#x200B;](../../rp_landing_pages/content-management-landing-page.md) | [&#x200B; アセットの管理](../integrations/assets.md) | [&#x200B; オファーの管理](../offers/get-started/starting-offer-decisioning.md)
 * **ジャーニーとキャンペーン管理** - インタラクションのシーケンス（ジャーニー）を自動化したり、1 回限りのターゲットメッセージ（キャンペーン）をスケジュールします。[ジャーニーの作成](../building-journeys/journey-gs.md) | [キャンペーンの作成](../campaigns/get-started-with-campaigns.md)
 * **配信（接続）** - メール、SMS、プッシュ通知、ダイレクトメールなどのチャネルを通じてメッセージを配信し、データを外部システムにエクスポートします。[チャネルの設定](../configuration/get-started-configuration.md)
 * **測定と分析** - 継続的な改善のためにレポートで顧客エンゲージメントとキャンペーンのパフォーマンスを追跡します。[レポートの表示](../reports/campaign-global-report-cja.md)
@@ -85,7 +85,7 @@ Journey Optimizer には、シームレスに連携するいくつかの主要�
 
 Journey Optimizerは、Real-Time CDP、Customer Journey Analytics、Adobe Mix Modelerに加え、Adobe Experience Platform上にネイティブに構築された4つのアプリケーションのひとつです。 Adobe AEPのコアサービスであるReal-Time Customer Profile、ID グラフ、データガバナンス、クエリサービスを共有することで、別々の統合を必要とせずに、統合された顧客データ基盤を利用できます。 Journey Optimizerは、スタンドアロンアプリケーションとして動作したり、他のAEP ネイティブアプリケーションと相互運用したりできます。
 
-統合パターン、前提条件、システムデータフローなど、技術的なアーキテクチャについて詳しくは、[Adobe Journey Optimizer ブループリント ](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}を参照してください。 実装に関する考慮事項については、[ ガードレールと制限事項を確認](guardrails.md)してください。
+統合パターン、前提条件、システムデータフローなど、技術的なアーキテクチャについて詳しくは、[Adobe Journey Optimizer ブループリント &#x200B;](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}を参照してください。 実装に関する考慮事項については、[&#x200B; ガードレールと制限事項を確認](guardrails.md)してください。
 
 ## プライバシーとセキュリティ {#privacy-security}
 
