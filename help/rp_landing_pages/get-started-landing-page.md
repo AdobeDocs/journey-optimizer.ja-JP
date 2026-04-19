@@ -24,7 +24,7 @@ Adobe Journey Optimizer の基本と、大規模なデータ駆動型パーソ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
 
 Journey Optimizer とは
 
@@ -34,7 +34,7 @@ Journey Optimizer とは
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 仕組みについて
 
@@ -44,7 +44,7 @@ Journey Optimizer が Adobe Experience Platform と統合される仕組みと�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list.svg?lang=ja)
 
 主な用語
 
@@ -54,7 +54,7 @@ Journey Optimizer を自信を持って操作するのに役立つ基本的な�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 AI とインテリジェント機能
 
@@ -71,7 +71,7 @@ AI がコンテンツの作成、送信時間の最適化、よりスマート�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/user.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/user.svg?lang=ja)
 
 マーケター向け
 
@@ -81,7 +81,7 @@ AI がコンテンツの作成、送信時間の最適化、よりスマート�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ja)
 
 データエンジニア向け
 
@@ -91,7 +91,7 @@ AI がコンテンツの作成、送信時間の最適化、よりスマート�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 管理者向け
 
@@ -101,7 +101,7 @@ AI がコンテンツの作成、送信時間の最適化、よりスマート�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=ja)
 
 開発者向け
 
@@ -120,7 +120,7 @@ AI がコンテンツの作成、送信時間の最適化、よりスマート�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/globe.svg?lang=ja)
 
 インターフェイスの操作
 
@@ -130,7 +130,7 @@ Journey Optimizer インターフェイスの使用方法、主な機能への�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 検索と整理
 
