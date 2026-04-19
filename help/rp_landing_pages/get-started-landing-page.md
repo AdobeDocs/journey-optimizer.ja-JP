@@ -5,16 +5,16 @@ title: 基本を学ぶ
 description: Adobe Journey Optimizer の基本を学ぶ
 redpen-status: CREATED_||_2025-08-11_20-05-24
 exl-id: fee218bf-8c60-442d-ac41-a3856fc71b70
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 5951889d9cc245488ef89b8a6fc73e515068281e
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 98%
+source-wordcount: '608'
+ht-degree: 88%
 
 ---
 
 # Adobe Journey Optimizer の基本を学ぶ{#get-started}
 
-Adobe Journey Optimizer を使用すると、すべてのチャネルをまたいでパーソナライズされたリアルタイムのカスタマーエクスペリエンスを提供できます。適切なメッセージを適切なタイミングで提供することで、お客様の現在の状況に対応します。
+Adobe Journey Optimizerなら、単一のアプリケーションから、あらゆるチャネルをまたいで、パーソナライズされたリアルタイムの顧客体験を大規模に提供できます。 その結果、顧客のロイヤルティと生涯価値を高める有意義なブランド体験を創出できます。
 
 Journey Optimizer を初めて使用する場合でも、スキルの拡張を目指している経験豊富なユーザーでも、この節では、すばやく効果的に開始するのに必要なすべての情報を提供します。
 
@@ -53,9 +53,19 @@ Journey Optimizer を自信を持って操作するのに役立つ基本的な�
 [用語の確認](../using/start/terminology.md)
 :::
 
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/sparkle.svg)
+
+AI とインテリジェント機能
+
+AI がコンテンツの作成、送信時間の最適化、よりスマートな意思決定に役立つ仕組みについて説明します。
+
+[AI 機能の探索](../using/start/ai-features.md)
+:::
+
 ::::
 
-## 学習パスの選択 {#by-role}
+## はじめに（役割別） {#by-role}
 
 責務と目標に合わせてカスタマイズされた役割固有のガイダンスの基本を学びます。
 
@@ -102,7 +112,7 @@ Journey Optimizer を自信を持って操作するのに役立つ基本的な�
 
 ::::
 
-[自分に合った役割がわからないですか？迅速な評価を行う →](../using/start/quick-start.md)
+[すべての役割と責任を見る→](../using/start/quick-start.md)
 
 ## 効率的な作業 {#work-efficiently}
 
@@ -130,13 +140,13 @@ Journey Optimizer インターフェイスの使用方法、主な機能への�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/help.svg)
 
-AI とインテリジェント機能
+トラブルシューティングに関する FAQ
 
-AI がコンテンツの作成、送信時間の最適化、よりスマートな意思決定に役立つ仕組みについて説明します。
+チャネルや機能をまたいで一般的な問題に関するよくある質問と解決策の回答を見つけます。
 
-[AI 機能の探索](../using/start/ai-features.md)
+[トラブルシューティングガイドを見る](../using/start/troubleshooting.md)
 :::
 
 ::::

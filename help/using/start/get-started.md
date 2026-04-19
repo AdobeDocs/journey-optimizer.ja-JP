@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: journey optimizer, ajoとは，adobe journey optimizer，入門，オムニチャネル，パーソナライゼーション，カスタマージャーニー
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: 8d7d97857eb65359bee6165d43427e92a2ce4fc5
+source-git-commit: 0a87a3c689d9b623a00f0a3a257e4fe34152945d
 workflow-type: tm+mt
 source-wordcount: '1467'
 ht-degree: 23%
@@ -162,7 +162,7 @@ Journey Optimizer のコア機能とサービスは、リアルタイム顧客�
 
 デジタルエクスペリエンスブループリントは、Adobe Experience Platform とアプリケーションの統合および実装の仕組みをより深く理解するのに役立つシステム図およびデータフローアーキテクチャ図を提供します。ブループリントは、システム間およびコンポーネントのデータとコンテンツのフロー、操作のシーケンス、依存関係を視覚的に表現し、Adobe Experience Platform とアプリケーションのユースケースのデザインおよびアーキテクチャに役立ちます。
 
-詳しくは、[Adobe Journey Optimizer ブループリント](https://experienceleague.adobe.com/ja/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}を参照してください。
+詳しくは、[Adobe Journey Optimizer ブループリント](https://experienceleague.adobe.com/ja/docs/blueprints-learn/architecture/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}を参照してください。
 
 
 >[!MORELIKETHIS]
