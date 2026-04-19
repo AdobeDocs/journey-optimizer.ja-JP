@@ -9,10 +9,10 @@ role: Admin, Developer, User
 level: Beginner
 keywords: journey optimizer，仕組み、アーキテクチャ、エクスペリエンスプラットフォーム、機能領域
 exl-id: 9df179a0-a5f6-4dbd-a9db-a103731b1854
-source-git-commit: 8d7d97857eb65359bee6165d43427e92a2ce4fc5
+source-git-commit: 83a4b2d85866d5bbad607c6b84d0573f211fad89
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 74%
+source-wordcount: '925'
+ht-degree: 62%
 
 ---
 
@@ -83,21 +83,9 @@ Journey Optimizer には、シームレスに連携するいくつかの主要�
 
 ## アーキテクチャの詳細 {#architecture-details}
 
-技術チーム向けに、Journey Optimizer と Adobe Experience Platform の統合方法を示す詳細なアーキテクチャ図を以下に示します。[インターフェイスに移動](user-interface.md)して、これらのコンポーネントを実際に参照します。
+Journey Optimizerは、Real-Time CDP、Customer Journey Analytics、Adobe Mix Modelerに加え、Adobe Experience Platform上にネイティブに構築された4つのアプリケーションのひとつです。 Adobe AEPのコアサービスであるReal-Time Customer Profile、ID グラフ、データガバナンス、クエリサービスを共有することで、別々の統合を必要とせずに、統合された顧客データ基盤を利用できます。 Journey Optimizerは、スタンドアロンアプリケーションとして動作したり、他のAEP ネイティブアプリケーションと相互運用したりできます。
 
-![Adobe Journey Optimizer アーキテクチャ](assets/ajo-architecture.png)
-
-Experience Platform には、Adobe Real-Time Customer Data Platform、Journey Optimizer、Customer Journey Analytics、Adobe Mix Modeler の 4 つのアプリケーションがネイティブに作成されています。Journey Optimizer は、これらのアプリケーションとシームレスに連携しますが、個別に機能することもできます。実装に関する考慮事項について詳しくは、[ガードレールと制限](guardrails.md)を参照してください。
-
-### 統合ポイント {#integration-points}
-
-Journey Optimizer は、次の複数のレベルで Adobe Experience Platform と統合されます。
-
-* **データレイヤー** - 同じリアルタイム顧客プロファイル、ID グラフ、データセットを共有します
-* **サービスレイヤー** - Adobe Experience Platform のガバナンス、プライバシー、クエリサービスを活用します
-* **アプリケーションレイヤー** - Adobe Experience Platform 上でジャーニーオーケストレーション、意思決定管理、コンテンツ管理を提供します
-
-詳しくは、[Adobe Journey Optimizer ブループリント](https://experienceleague.adobe.com/ja/docs/blueprints-learn/architecture/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}を参照してください。
+統合パターン、前提条件、システムデータフローなど、技術的なアーキテクチャについて詳しくは、[Adobe Journey Optimizer ブループリント &#x200B;](https://experienceleague.adobe.com/ja/docs/blueprints-learn/architecture/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}を参照してください。 実装に関する考慮事項については、[&#x200B; ガードレールと制限事項を確認](guardrails.md)してください。
 
 ## プライバシーとセキュリティ {#privacy-security}
 
