@@ -174,8 +174,8 @@ Journey Optimizer インターフェイスの使用方法、主な機能への�
 
 * **Journey Optimizer を初めて使用しますか？**&#x200B;まずは [Journey Optimizer とは](../using/start/get-started.md)から基本を理解します
 * **自分の役割を知っていますか？**&#x200B;自分の責務に該当する[役割固有のガイド](../using/start/quick-start.md)を参照してださい。
-* **探索しますか？**[AI 機能](../using/start/ai-features.md)を参照するか、[ユースケースプレイブック](../using/start/ai-features.md#playbooks)を試してください
-* **サポートが必要ですか？**[トラブルシューティングガイド](../using/start/troubleshooting.md)を確認するか、[コミュニティフォーラム](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}にアクセスしてください。
+* **探索しますか？**&#x200B;[AI 機能](../using/start/ai-features.md)を参照するか、[ユースケースプレイブック](../using/start/ai-features.md#playbooks)を試してください
+* **サポートが必要ですか？**&#x200B;[トラブルシューティングガイド](../using/start/troubleshooting.md)を確認するか、[コミュニティフォーラム](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer/ct-p/journey-optimizer){target="_blank"}にアクセスしてください。
 
 ## クイックリンク {#quick-links}
 
