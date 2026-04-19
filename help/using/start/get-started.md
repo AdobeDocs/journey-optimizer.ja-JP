@@ -162,7 +162,7 @@ Journey Optimizer のコア機能とサービスは、リアルタイム顧客�
 
 デジタルエクスペリエンスブループリントは、Adobe Experience Platform とアプリケーションの統合および実装の仕組みをより深く理解するのに役立つシステム図およびデータフローアーキテクチャ図を提供します。ブループリントは、システム間およびコンポーネントのデータとコンテンツのフロー、操作のシーケンス、依存関係を視覚的に表現し、Adobe Experience Platform とアプリケーションのユースケースのデザインおよびアーキテクチャに役立ちます。
 
-詳しくは、[Adobe Journey Optimizer ブループリント](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}を参照してください。
+詳しくは、[Adobe Journey Optimizer ブループリント](https://experienceleague.adobe.com/ja/docs/blueprints-learn/architecture/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}を参照してください。
 
 
 >[!MORELIKETHIS]
