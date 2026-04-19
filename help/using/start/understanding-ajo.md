@@ -85,7 +85,7 @@ Journey Optimizer には、シームレスに連携するいくつかの主要�
 
 Journey Optimizerは、Real-Time CDP、Customer Journey Analytics、Adobe Mix Modelerに加え、Adobe Experience Platform上にネイティブに構築された4つのアプリケーションのひとつです。 Adobe AEPのコアサービスであるReal-Time Customer Profile、ID グラフ、データガバナンス、クエリサービスを共有することで、別々の統合を必要とせずに、統合された顧客データ基盤を利用できます。 Journey Optimizerは、スタンドアロンアプリケーションとして動作したり、他のAEP ネイティブアプリケーションと相互運用したりできます。
 
-統合パターン、前提条件、システムデータフローなど、技術的なアーキテクチャについて詳しくは、[Adobe Journey Optimizer ブループリント &#x200B;](https://experienceleague.adobe.com/en/docs/blueprints-learn/architecture/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}を参照してください。 実装に関する考慮事項については、[&#x200B; ガードレールと制限事項を確認](guardrails.md)してください。
+統合パターン、前提条件、システムデータフローなど、技術的なアーキテクチャについて詳しくは、[Adobe Journey Optimizer ブループリント &#x200B;](https://experienceleague.adobe.com/ja/docs/blueprints-learn/architecture/architecture-diagrams/customer-journeys/journey-optimizer/journey-optimizer-overview){target="_blank"}を参照してください。 実装に関する考慮事項については、[&#x200B; ガードレールと制限事項を確認](guardrails.md)してください。
 
 ## プライバシーとセキュリティ {#privacy-security}
 
