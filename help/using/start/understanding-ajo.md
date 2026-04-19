@@ -9,10 +9,10 @@ role: Admin, Developer, User
 level: Beginner
 keywords: journey optimizer，仕組み、アーキテクチャ、エクスペリエンスプラットフォーム、機能領域
 exl-id: 9df179a0-a5f6-4dbd-a9db-a103731b1854
-source-git-commit: 83a4b2d85866d5bbad607c6b84d0573f211fad89
+source-git-commit: 3983f5912cb0579d489af6466025551b60d6938e
 workflow-type: tm+mt
 source-wordcount: '925'
-ht-degree: 62%
+ht-degree: 61%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 62%
 
 Adobe Journey Optimizer と Adobe Experience Platform は連携して、データ駆動型の大規模なパーソナライゼーションを実現します。このページでは、これらのシステムが動作する仕組みと、主要な機能領域を組み合わせて優れたカスタマーエクスペリエンスを実現する仕組みについて説明します。[主な機能の詳細情報](get-started.md) | [主な用語について](terminology.md)
 
-## Journey Optimizer の仕組み {#how-it-works}
+## Journey Optimizerの仕組み {#how-it-works}
 
 統合されたデータ基盤がなければ、ブランドは複数のチャネル固有のツールに依存せざるを得ません。そのため、各顧客の一貫性のあるビューを維持したり、リアルタイムでのそれぞれの行動に対応することが困難になります。 Journey Optimizerなら、Adobe Experience Platformを基盤として、顧客データ、コンテンツの制作、ジャーニーオーケストレーションをつなぎ合わせ、単一の継続的なシステムを構築できます。 その結果、顧客ロイヤルティと生涯価値を高める有意義なブランド体験を創出できます。
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer は、データを収集、分析および適用する�
 
 ![Adobe Experience Platformが基盤となるデータレイヤーであり、Journey OptimizerがReal-Time CDP、Customer Journey Analytics、Adobe Mix Modelerと共に構築され、Real-Time Customer Profile、データガバナンス、ID解決などのコアサービスをすべて共有している図。](assets/ajo-aep-architecture-diagram.png)
 
-### Adobe Experience Platform：基盤 {#aep-foundation}
+### Adobe Experience Platform:the foundation {#aep-foundation}
 
 Adobe Experience Platform はバックボーンとして機能し、ブランドがお客様データを一元化し、パーソナライズされたエクスペリエンスのためにアクティブ化できるようにします。
 

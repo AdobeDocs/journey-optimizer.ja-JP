@@ -9,18 +9,18 @@ role: User
 level: Beginner
 keywords: journey optimizer, ajoとは，adobe journey optimizer，入門，オムニチャネル，パーソナライゼーション，カスタマージャーニー
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: cccc064de7f05b6502c54ae539b4cf1cc722f212
+source-git-commit: a528fba262dccf93edb4eb2b04dba83c72793206
 workflow-type: tm+mt
 source-wordcount: '1216'
 ht-degree: 14%
 
 ---
 
-# Journey Optimizer の概要 {#cjm-gs}
+# Journey Optimizer の概要 {#ajo-gs}
 
 Adobe Journey Optimizerとは何か、それは誰のために、その主な能力と、Adobe Experience Platformアーキテクチャにどのように適合するかをご紹介します。 新規ユーザーの出発点として推奨されます。
 
-## [!DNL Adobe Journey Optimizer] とは？{#about-cjm}
+## [!DNL Adobe Journey Optimizer] とは？{#about-ajo}
 
 [!DNL Adobe Journey Optimizer]は、あらゆるチャネルと顧客接点をまたいで、連続性があり、コンテキストに即して、パーソナライズされた顧客体験を構築および提供するためのエンタープライズアプリケーションです。 [!DNL Adobe Experience Platform]上にネイティブに構築されており、統合されたリアルタイムの顧客プロファイル、API ファーストのオープンフレームワーク、一元化されたオファー決定機能、AI/マシンラーニング機能を活用しています。 Journey Optimizerなら、スケジュール型のマーケティング施策とリアルタイムのイベントトリガーによるコミュニケーションの両方を、単一のアプリケーションから大規模に編成できます。 その結果、顧客のロイヤルティと生涯価値を高める有意義なブランド体験を創出できます。
 
@@ -34,6 +34,27 @@ Adobe Journey Optimizerとは何か、それは誰のために、その主な能
 
 You can also create audience-based campaigns to send messages.
 -->
+
+
+## 主な機能 {#key-capabilities}
+
+[!DNL Adobe Journey Optimizer] は、アプリケーション、デバイス、チャネルを問わず、パーソナライズされ、接続されたタイムリーな顧客エクスペリエンスを作成して提供するための、アジャイルで拡張性の高いアプリケーションです。
+
+![Journey Optimizerの3つの主要な機能領域を示す図：Real-time Customer Insights &amp; Engagement、Modern Omnichannel Orchestration &amp; Execution、Intelligent Decisioning &amp; Personalization、すべてAdobe Experience Platform上に構築されています。](assets/ajo-capabilities.png)
+
+主な機能は次のとおりです。
+
+### リアルタイムの顧客インサイトとエンゲージメント
+
+統合プロファイルは、行動データ、トランザクションデータ、財務データ、運用データなど、あらゆるソースからの顧客接点に関するライブデータを統合し、顧客がリアルタイムでパーソナライズされたエクスペリエンスやコンテクストに即したエクスペリエンスを最適化できるようにします。 [&#x200B; プロファイルとオーディエンスについて学ぶ](../audience/get-started-profiles.md)
+
+### 最新のオムニチャネルオーケストレーションと実行
+
+単一のキャンバスで、1:1の顧客エンゲージメントとマーケティングのアウトリーチのカスタマージャーニーを調整および最適化し、顧客ライフサイクル全体でより多くの価値を提供できるよう支援します。 [!DNL Adobe Journey Optimizer]で設計されたカスタマージャーニーは、動的かつイベントベースであり、ブランドがリアルタイムのシグナルに反応し、それらのインタラクションをスケジュールされたキャンペーンと結びつけるのに役立ちます。これにより、どのコミュニケーションを、いつ、どのチャネルを通じて送信すべきかについて、適切な意思決定をおこなうことができます。 ドラッグ&amp;ドロップによるビジュアルデザイナー、再利用可能なテンプレート、コンテンツフラグメント、パーソナライゼーションエディターなどの組み込みのコンテンツ制作ツールを利用して、あらゆるチャネルに対応するメッセージを同じワークフロー内で直接作成、パーソナライズ、管理できます。 [最初のジャーニーを構築](../building-journeys/journey-gs.md) | [&#x200B; コンテンツをデザイン &#x200B;](../../rp_landing_pages/content-management-landing-page.md)
+
+### インテリジェントな意思決定とPersonalization
+
+一元化された意思決定システムを適用し、AI （人工知能）とマシンラーニング（機械学習）を組み込むことで、顧客体験全体で予測的なインサイトを設定することができます。これにより、意思決定の自動化やエクスペリエンスの大規模な最適化が容易になります。 決定機能により、[!DNL Adobe Journey Optimizer]を通じて、チャネル全体で一元化されたオファーを提供できます。 [&#x200B; オファー決定](../offers/get-started/starting-offer-decisioning.md)について| [AI機能について](ai-features.md)詳しく見る
 
 
 ## ユースケース {#use-cases}
@@ -103,27 +124,6 @@ Adobe retailerなら、店舗の駐車場にリアルタイムで来店したロ
 運用チームやカスタマーサポートなどのマーケター以外の担当者は、[!DNL Adobe Journey Optimizer]を使用して、運用通知を管理したり、オンボーディングプロセスを監視したりできます。 例えば、訪問者が体験の一環としてモバイルアプリをダウンロードするアミューズメントパーク：メンテナンススタッフは、Journey Optimizerを使用して、メンテナンスのために現在閉鎖されている乗り物を公園の訪問者に通知することができます。
 
 [最初のジャーニーの構築](../building-journeys/journey-gs.md)
-
-
-## 主な機能 {#key-capabilities}
-
-[!DNL Adobe Journey Optimizer] は、アプリケーション、デバイス、チャネルを問わず、パーソナライズされ、接続されたタイムリーな顧客エクスペリエンスを作成して提供するための、アジャイルで拡張性の高いアプリケーションです。
-
-![Journey Optimizerの3つの主要な機能領域を示す図：Real-time Customer Insights &amp; Engagement、Modern Omnichannel Orchestration &amp; Execution、Intelligent Decisioning &amp; Personalization、すべてAdobe Experience Platform上に構築されています。](assets/ajo-capabilities.png)
-
-主な機能は次のとおりです。
-
-### リアルタイムの顧客インサイトとエンゲージメント
-
-統合プロファイルは、行動データ、トランザクションデータ、財務データ、運用データなど、あらゆるソースからの顧客接点に関するライブデータを統合し、顧客がリアルタイムでパーソナライズされたエクスペリエンスやコンテクストに即したエクスペリエンスを最適化できるようにします。 [&#x200B; プロファイルとオーディエンスについて学ぶ](../audience/get-started-profiles.md)
-
-### 最新のオムニチャネルオーケストレーションと実行
-
-単一のキャンバスで、1:1の顧客エンゲージメントとマーケティングのアウトリーチのカスタマージャーニーを調整および最適化し、顧客ライフサイクル全体でより多くの価値を提供できるよう支援します。 [!DNL Adobe Journey Optimizer]で設計されたカスタマージャーニーは、動的かつイベントベースであり、ブランドがリアルタイムのシグナルに反応し、それらのインタラクションをスケジュールされたキャンペーンと結びつけるのに役立ちます。これにより、どのコミュニケーションを、いつ、どのチャネルを通じて送信すべきかについて、適切な意思決定をおこなうことができます。 ドラッグ&amp;ドロップによるビジュアルデザイナー、再利用可能なテンプレート、コンテンツフラグメント、パーソナライゼーションエディターなどの組み込みのコンテンツ制作ツールを利用して、あらゆるチャネルに対応するメッセージを同じワークフロー内で直接作成、パーソナライズ、管理できます。 [最初のジャーニーを構築](../building-journeys/journey-gs.md) | [&#x200B; コンテンツをデザイン &#x200B;](../../rp_landing_pages/content-management-landing-page.md)
-
-### インテリジェントな意思決定とPersonalization
-
-一元化された意思決定システムを適用し、AI （人工知能）とマシンラーニング（機械学習）を組み込むことで、顧客体験全体で予測的なインサイトを設定することができます。これにより、意思決定の自動化やエクスペリエンスの大規模な最適化が容易になります。 決定機能により、[!DNL Adobe Journey Optimizer]を通じて、チャネル全体で一元化されたオファーを提供できます。 [&#x200B; オファー決定](../offers/get-started/starting-offer-decisioning.md)について| [AI機能について](ai-features.md)詳しく見る
 
 
 ## 可用性とライセンス {#availability}
