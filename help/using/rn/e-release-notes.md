@@ -6,9 +6,9 @@ description: Adobe Journey Optimizer プレリリースノート
 feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 9d7475d8b0dc941fee3c0769d28c7d9c0f314f44
+source-git-commit: 3919d6514554748c4b49987fee70685a4b34b2ff
 workflow-type: tm+mt
-source-wordcount: '1729'
+source-wordcount: '1743'
 ht-degree: 20%
 
 ---
@@ -103,7 +103,7 @@ ht-degree: 20%
 <tbody>
 <tr>
 <td>
-<p>マーケターは、数式やAI モデルを活用して、特定の制約にもとづいてジャーニーの選択をインテリジェントに自動化できるようになりました。 AI モデルは、クリック率、購入率、マーケターが最適化したいと考えているその他のカスタム指標などのエンゲージメント指標にもとづいて、ジャーニーの選択を最適化することができます。</p>
+<p>ランキング式にAI モデルを使用することで、顧客プロファイルの属性と文脈要因にもとづいてジャーニーの優先順位スコアを自動的に高め、顧客が最も関連性の高いジャーニーに確実に参入できるようにしました。</p>
 <p>この機能は、一連の組織でのみ使用できます（限定提供）。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
 <p>ドキュメント JIRA タスク：<a href="https://jira.corp.adobe.com/browse/DOCAC-14295">DOCAC-14295</a></p>
 </td>
@@ -369,7 +369,7 @@ ht-degree: 20%
 
 #### 設定
 
-* **URL パラメーター暗号化に対する特定の権限** - &lt;TBC>
+* **URL パラメーター暗号化キーに対する特定の権限** - URL パラメーター暗号化キーにアクセスして管理するには、新しい権限が作成されました。 これで、**View Key Registry**&#x200B;および&#x200B;**Manage Key Registry**&#x200B;権限が付与されている必要があります。
 
   ドキュメント JIRA タスク：[DOCAC-14490](https://jira.corp.adobe.com/browse/DOCAC-14490)
 
