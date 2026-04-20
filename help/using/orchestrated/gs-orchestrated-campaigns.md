@@ -6,10 +6,10 @@ description: 調整されたキャンペーンの開始方法について説明�
 short-description: 調整されたキャンペーンの主な機能とユースケースをご確認ください。
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
-source-git-commit: 5ca8ff7abaaf4eef33a85682370a125af6836f2f
+source-git-commit: ef53fc88dfeb05b171b8aa819830c9fb771697f6
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 94%
+source-wordcount: '876'
+ht-degree: 86%
 
 ---
 
@@ -81,6 +81,13 @@ ht-degree: 94%
 
 * **ワークテーブル**：ワークテーブルには、トランジションによって実行されるすべての情報が含まれます。調整された各キャンペーンは、複数のワークテーブルを使用します。これらのテーブルで伝達されたデータは、調整されたキャンペーンのライフサイクルを通じて使用できます。
 
+典型的なエントリーレベルのオーケストレーションされたキャンペーンは、次のパターンに従います。**Fork → Channel A + Channel B**→オーディエンスを作成します。
+
+このアプローチにより、単一のキャンペーン実行で、同じオーディエンスを2つの並行した分岐でターゲティングすることができます。例えば、マーケティングメールを使用する分岐と、トランザクションメールを使用する分岐があります。 各ブランチは独立しており、異なるチャネル設定、メッセージコンテンツ、カテゴリを使用できます。
+
+➡️ [ フォークアクティビティの使用方法を学ぶ](activities/fork.md)
+
+➡️ [ マーケティングとトランザクションメッセージについて](activities/channels.md#marketing-vs-transactional)
 
 ## 概要ビデオ {#video-oc}
 
