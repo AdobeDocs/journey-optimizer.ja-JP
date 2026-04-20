@@ -6,16 +6,394 @@ description: Adobe Journey Optimizer プレリリースノート
 feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: b2098decc7e9d76163f4425c99adda6fa03ca9cf
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 100%
+source-wordcount: '1733'
+ht-degree: 21%
 
 ---
 
 # プレリリースノート {#e-release-notes}
 
 [!DNL Adobe Journey Optimizer] は、新機能、既存機能の強化、およびバグ修正を継続的に提供します。 [リリースノート](release-notes.md)では、各月の終わりにすべての変更がまとめられます。
+
+## 2026年4月プレリリースノート {#april-26-rn}
+
+**以下のプレリリースノートの内容は、リリースの公開日まで予告なく変更される場合があります**。リンク、画面、更新済みのドキュメントは、リリース日にリリースノートに公開されます。
+
+詳しくは、[Adobe Experience Platform プレリリースノート](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}も参照してください。
+
+**リリース日**: 2026年4月28日～29日
+
+### 新機能 {#april-26-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>AJO MCP Server （Beta）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>[!DNL Adobe Journey Optimizer] これで、キャンペーン、ジャーニー、ロイヤルティ、サンドボックスの操作を直接MCP互換アプリケーション内に表示する<strong>MCP （Model Context Protocol）サーバー</strong>が提供されます。 この統合により、様々なペルソナが同じオーケストレーションデータを使用して共同作業を行うことができます。 AJO REST APIに対してクエリを作成したり、複数のUI画面を移動したりする代わりに、会話形式でインテントを説明し、LLMが適切なMCP ツールを呼び出すように設定できます。 この機能は現在、Claude Webとデスクトップで利用できます。</p>
+<p>この機能は現在Betaにあります。 アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
+<p>ドキュメント JIRA タスク：<a href="https://jira.corp.adobe.com/browse/DOCAC-14509">DOCAC-14509</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>ランディングページによる新しいプロファイルの獲得</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>[!DNL Adobe Journey Optimizer] ランディングページで<strong>新しいプロファイル獲得</strong> ワークフローがサポートされるようになりました。これにより、認証を必要とせずに、公開された共有可能なランディングページを作成できます。 ニュースレターのサインアップ、ゲーテッドアセットのダウンロード、ウェビナーの登録、体験版のサインアップなど、顧客獲得のユースケースに対応するように、Adobe Experience Platformで未知の訪問者からデータを取得し、新しい顧客プロファイルを自動的に構築または拡充します。</p>
+<p>ドキュメント JIRA タスク：<a href="https://jira.corp.adobe.com/browse/DOCAC-13757">DOCAC-13757</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>電子メールのCC サポート</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>[!DNL Adobe Journey Optimizer] 現在、メールチャネルの<strong>CC （カーボンコピー） </strong>をサポートしており、既存のBCC機能を超えるメールに表示されるCC受信者を追加できます。 これにより、関係マネージャーなどの追加の関係者を、顧客とのコミュニケーションに視覚的に含めることができます。</p>
+<p>この機能は、一連の組織でのみ使用できます（限定提供）。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
+<p>ドキュメント JIRA タスク：<a href="https://jira.corp.adobe.com/browse/DOCAC-14051">DOCAC-14051</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>電子メールの動的送信者</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong>Dynamic Sender</strong>機能を使用すると、送信エンティティ （送信者）とオーサリングエンティティ （送信者）が異なるメールを送信できるようになりました。 これをサポートするメールクライアントは、通常、「送信者の代理で送信者」としてレンダリングするか、「経由」インジケーターを表示します。</p>
+<p>この機能は、一連の組織でのみ使用できます（限定提供）。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
+<p>ドキュメント JIRA タスク：<a href="https://jira.corp.adobe.com/browse/DOCAC-14458">DOCAC-14458</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>ジャーニー仲裁 – AI モデル（限定提供）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>マーケターは、数式やAI モデルを活用して、特定の制約にもとづいてジャーニーの選択をインテリジェントに自動化できるようになりました。 AI モデルは、クリック率、購入率、マーケターが最適化したいと考えているその他のカスタム指標などのエンゲージメント指標にもとづいて、ジャーニーの選択を最適化することができます。</p>
+<p>この機能は、一連の組織でのみ使用できます（限定提供）。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
+<p>ドキュメント JIRA タスク：<a href="https://jira.corp.adobe.com/browse/DOCAC-14295">DOCAC-14295</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>ジャーニーおよびキャンペーン用のフォルダー（限定提供）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>&lt;TBC&gt;</p>
+<p>この機能は、一連の組織でのみ使用できます（限定提供）。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
+<p>ドキュメント JIRA タスク：<a href="https://jira.corp.adobe.com/browse/DOCAC-14038">DOCAC-14038</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>オーケストレーションされたキャンペーンでのサンドボックスコピーのサポート</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>&lt;TBC&gt;</p>
+<p>ドキュメント JIRA タスク：<a href="https://jira.corp.adobe.com/browse/DOCAC-13760">DOCAC-13760</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>AIを活用した受信トレイ用にメールを最適化：更新されたワークフロー</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>&lt;TBC&gt;</p>
+<p>ドキュメント JIRA タスク：<a href="https://jira.corp.adobe.com/browse/DOCAC-14520">DOCAC-14520</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>オーケストレーションされたキャンペーンでの増分クエリアクティビティ</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>&lt;TBC&gt;</p>
+<p>ドキュメント JIRA タスク：<a href="https://jira.corp.adobe.com/browse/DOCAC-14262">DOCAC-14262</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>ジャーニーシミュレート</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>&lt;TBC&gt;</p>
+<p>ドキュメント JIRA タスク：<a href="https://jira.corp.adobe.com/browse/DOCAC-14050">DOCAC-14050</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>ジャーニーフラグメント（限定提供）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>ジャーニーフラグメントは、再利用可能なジャーニーノードのセットです。一度構築すれば、サンドボックスをまたいであらゆるジャーニーにドロップできます。 実施要件のチェック、好みのチャネルルーティングロジック、ウェルカムシーケンスなど、フラグメントは、同じロジックを毎回ゼロから再構築することなく、より迅速に作業し、一貫性を維持するのに役立ちます。 作成したフラグメントは、専用の[!UICONTROL フラグメントインベントリ &#x200B;]に保存され、[!UICONTROL ジャーニーフラグメント &#x200B;] アクティビティを使用して、任意のジャーニーに挿入できます。</p>
+<p>この機能は、一連の組織でのみ使用できます（限定提供）。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
+<p>ドキュメント JIRA タスク：<a href="https://jira.corp.adobe.com/browse/DOCAC-11529">DOCAC-11529</a></p>
+<p>公開日：2026年5月4日（PT）</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>AIを活用した受信トレイへの電子メールの最適化</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizerでは、GmailのApple IntelligenceやGoogle GeminiなどのAIを活用した受信トレイに合わせて電子メールを最適に構造化する、新しい機能が追加されました。 AI アシスタントが受信者のメールの読み取りや行動をますます制御するようになるこの機能は、要約、トリアージ、優先順位付け、インテント抽出など、AIによるさまざまなタスクにおいて優れたパフォーマンスを発揮するコンテンツの作成に役立ちます。</p>
+<p>詳しくは、<a href="../email/llm-email-optimizer.md">AI受信箱のメール テキストの最適化</a>を参照してください。</p>
+<p>公開日：2026年4月17日（PT）</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>PERSONALIZATION Expressions用AI アシスタント</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>[!DNL Adobe Journey Optimizer] PersonalizationエディターにAI アシスタントが追加されました。 パーソナライズしたい内容を平易な言葉で説明すると、アシスタントがそのまま使用できるパーソナライゼーション表現を生成したり、短いフォローアップ会話で洗練させたりします。 既存のパーソナライゼーションコードを選択して、アシスタントに説明を依頼したり、修正したり、改善を提案したりすることもできます。</p>
+<p>詳しくは、<a href="../content-management/generative-personalization-expressions.md">Personalization エクスプレッション用AI アシスタント </a>を参照してください。</p>
+<p>公開日：2026年4月13日（PT）</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>インボックス</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong>受信トレイ </strong>は、コンテンツカードで利用できるモバイル機能で、ユーザーがアプリまたはweb サイト内で一元的な場所を作成して、ユーザーに送信されるメッセージを表示できるようにします。 これにより、メッセージが却下された後もアクセスできるようになり、マーケティングコミュニケーションの有効期間を延長できます。</p>
+<p>詳しくは、<a href="../inbox/inbox-gs.md">詳細なドキュメント</a>を参照してください。</p>
+<p>公開日：2026年4月7日（PT）</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>ジャーニーパスの検証</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>新しい<strong>最適化</strong> ノードを使用して、A/B テストまたはマルチアームドバンディット実験を実行し、ビジネス中心のKPIを満たすのに最適なパスを決定します。 このツールを利用すれば、コミュニケーション、シーケンス、タイミングをテストし、変化させ、顧客に最もリーチできます。 この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。</p>
+<p>詳しくは、<a href="../building-journeys/path-experimentation.md">詳細なドキュメント</a>を参照してください。</p>
+<p>公開日：2026年4月7日（PT）</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>メールチャネルにおける意思決定のサポート</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong>Decisioning</strong>を使用して、メールメッセージのコンテンツをパーソナライズおよび最適化できるようになりました。 優先順位のスコア、数式、AI モデルを活用して、各受信者に最も関連性の高いオファーやコンテンツを表示します。 以前は制限付き可用性でリリースされていましたが、この機能はすべての環境で使用できるようになりました（一般提供）。 この一般提供リリースでは、ミラーページがサポートされるようになりました。</p>
+<p>詳しくは、<a href="../experience-decisioning/create-decision-policy.md">詳細なドキュメント</a>を参照してください。</p>
+<p>公開日：2026年4月6日（PT）</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 機能強化 {#april-26-improv}
+
+このリリースに含まれる機能強化を以下に示します。
+
+#### AI
+
+* Campaign ダッシュボードの&#x200B;**ブランド調整スコア** - &lt;TBC>
+
+  ドキュメント JIRA タスク：[DOCAC-14516](https://jira.corp.adobe.com/browse/DOCAC-14516)
+
+#### 決定
+
+* **決定項目にフラグメントを添付** - Journey Optimizerでは、決定項目にフラグメントを添付できるようになりました。この機能は、決定ポリシーを通じて、コードベースのエクスペリエンスおよびメールキャンペーンで活用できます。 この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。
+
+  ドキュメント JIRA タスク：[DOCAC-14452](https://jira.corp.adobe.com/browse/DOCAC-14452)
+
+* **一時的に利用できないフラグメントがスキップされる** – 決定項目でフラグメントを使用する場合、Edgeでフラグメントが一時的に利用できない場合、そのフラグメントはスキップされ、ジャーニーまたはキャンペーンは失敗する代わりにレンダリングを続行します。 [詳細情報](../experience-decisioning/fragments-decision-policies.md#temporary-unavailable-fragments)
+
+  公開日：2026年4月14日（PT）
+
+#### メールデザイン
+
+* **電子メール Designerのパーソナライゼーション式のAI アシスタント** – 電子メール Designerで、コンポーネントを選択し、コンテキストツールバーの&#x200B;**式を追加**&#x200B;を使用して、必要なパーソナライゼーションを平易な言葉で説明し、生成された式を確認して、デザイナーから離れることなく挿入します。 [詳細情報](../content-management/generative-personalization-expressions.md#generate-email-designer)
+
+  公開日：2026年4月15日（PT）
+
+* **電子メールコンテンツ用の高度なHTML エディター** – 高度なHTML モードを使用すると、電子メール DesignerでコンテンツのHTML ソースを編集したり、ソースに高度な式（条件など）を追加したり、変更内容を失うことなくHTML ビューとデスクトップビューを切り替えたりできます。 以前はメールコンテンツテンプレートでのみ使用できましたが、この機能はメールDesignerの&#x200B;**email** コンテンツにデプロイされました。 現在、限定提供されています。アクセス権を取得するには、Adobe担当者にお問い合わせください。 [詳細情報](../email/email-expert-mode.md)
+
+  公開日：2026年4月9日（PT）
+
+#### ジャーニーパスの最適化
+
+* **実験タイプ** - パス実験を設定する際に、A/B実験（開始時に固定分割）またはマルチアームドバンディット（週単位の更新による自動分割）のいずれかを選択できるようになりました。 [詳細情報](../building-journeys/path-experimentation.md)
+
+  公開日：2026年4月7日（PT）
+
+* **パス実験：勝者を拡大** – 実験の勝者パスを自動的または手動で完全なオーディエンスにロールアウトできるようになりました。 勝者を決定したら、実験を継続的に監視することなく、そのリーチと効果を増幅できます。 この機能は、単一ジャーニー（イベントトリガーおよびオーディエンスの選定）でのみ使用できます。 [詳細情報](../building-journeys/path-experimentation.md#scale-winner)
+
+  公開日：2026年4月7日（PT）
+
+* **条件** - [最適化](../building-journeys/optimize.md) アクティビティは、ジャーニーで条件付きパスを作成するための新しい手段です。 元の&#x200B;**条件** アクティビティに置き換わります。 すべての条件付きロジックは保持され、**最適化** アクティビティの条件を通じて処理されるようになりました。 以前は制限付き可用性でリリースされていましたが、この機能はすべての環境で使用できるようになりました（一般提供）。 [詳細情報](../building-journeys/conditions.md)
+
+  公開日：2026年4月7日（PT）
+
+#### Adobe Experience Managerとの連携
+
+* **コンテンツアドバイザーセレクター** - AEM Assetsおよびコンテンツフラグメントセレクターは、すべてのAEM AssetsおよびAEM コンテンツフラグメントを参照、検索、フィルタリング、アクセスできる統合モーダルである&#x200B;**コンテンツアドバイザーセレクター**&#x200B;に置き換えられました。 Dynamic Media レンディションのサポートも含まれており、Dynamic Media アセットが選択されているときにUIから画像レンディションを追加することができます。 この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。
+
+  ドキュメント JIRA タスク：[DOCAC-13802](https://jira.corp.adobe.com/browse/DOCAC-13802)
+
+* **Dynamic Mediaを使用したカウントダウンタイマーによるオープンタイムパーソナライゼーション** - &lt;TBC>
+
+  ドキュメント JIRA タスク：[DOCAC-13801](https://jira.corp.adobe.com/browse/DOCAC-13801)
+
+* **Adobe Experience Manager コンテンツフラグメントのバリエーションのサポート** - Adobe Experience Manager コンテンツフラグメントを挿入する際に、**コンテンツフラグメントのバリエーション** （言語やチャネルのバリエーションなど）を選択でき、ロケールや多言語シナリオの処理が改善されました。 この機能は、一連の組織でのみ使用できます（限定提供）。アクセスするには、アドビ担当者にお問い合わせください。[詳細情報](../integrations/aem-fragments.md#aem-variations)
+
+  公開日：2026年4月3日（PT）
+
+* **オーサリング中のAdobe Experience Manager コンテンツフラグメントのコンテキスト** - テキストフィールドとコンテンツブロック間を移動しても、コンテンツフラグメントの選択範囲はアクティブなままなので、**AEM コンテンツアドバイザー**&#x200B;を毎回開き直さずに、さらにフラグメントフィールドを追加できます。 この機能は、一連の組織でのみ使用できます（限定提供）。アクセスするには、アドビ担当者にお問い合わせください。[詳細情報](../integrations/aem-fragments.md)
+
+  公開日：2026年4月1日（PT）
+
+#### WhatsApp
+
+* **WhatsApp再販オファー** - &lt;TBC>
+
+  ドキュメント JIRA タスク：[DOCAC-13669](https://jira.corp.adobe.com/browse/DOCAC-13669)
+
+* **WhatsApp チャネル：埋め込みサインアップ** - &lt;TBC>
+
+  ドキュメント JIRA タスク：[DOCAC-13386](https://jira.corp.adobe.com/browse/DOCAC-13386)
+
+#### 設定
+
+* **URL パラメーター暗号化に対する特定の権限** - &lt;TBC>
+
+  ドキュメント JIRA タスク：[DOCAC-14490](https://jira.corp.adobe.com/browse/DOCAC-14490)
+
+#### データ管理
+
+* **統合タグのサンドボックスツールのサポート** - &lt;TBC>
+
+  ドキュメント JIRA タスク：[DOCAC-14453](https://jira.corp.adobe.com/browse/DOCAC-14453)
+
+#### オーケストレーションキャンペーン
+
+* **オーケストレーションキャンペーンのグローバル変数** - キャンペーンメニューの新しいオプションを使用して、特定のオーケストレーションキャンペーンのグローバル変数を定義できるようになりました。 これらの変数は、キャンペーンワークフロー内のすべてのアクティビティで再利用できます。
+
+  ドキュメント JIRA タスク：[DOCAC-14113](https://jira.corp.adobe.com/browse/DOCAC-14113)
+
+* **Data Modelerの機能強化** - &lt;TBC>
+
+  ドキュメント JIRA タスク：[DOCAC-14334](https://jira.corp.adobe.com/browse/DOCAC-14334)
+
+#### 外部統合
+
+* **外部データ統合** - &lt;TBC>
+
+  ドキュメント JIRA タスク：[DOCAC-13803](https://jira.corp.adobe.com/browse/DOCAC-13803)
 
 <!--
 ## March '26 pre-release notes {#march-26-rn}

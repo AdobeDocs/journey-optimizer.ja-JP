@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: journey optimizer, ajoとは，adobe journey optimizer，入門，オムニチャネル，パーソナライゼーション，カスタマージャーニー
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: a528fba262dccf93edb4eb2b04dba83c72793206
+source-git-commit: c4404de32e9a1d400273863185c1b7fa9b21eb6d
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1218'
 ht-degree: 14%
 
 ---
@@ -138,12 +138,12 @@ Adobe Experience Cloud の一般的なプライバシーに関するガイドラ
 Journey Optimizerは、Adobe Experience Platform上にネイティブに構築され、そのデータ基盤、ID グラフ、およびガバナンスサービスを共有します。これらのシステムの連携の詳細については、[Journey Optimizerについて](understanding-ajo.md)を参照してください。
 
 
->[!MORELIKETHIS]
->
->* [開始するための主な手順](quick-start.md) – 管理者、マーケター、データエンジニア向けのロールベースのクイックスタートガイド。
->* [&#x200B; データ管理の基本を学ぶ](../data/gs-data.md) — Journey Optimizerでデータを取り込み、統合し、アクティブ化する方法について説明します。
->* [&#x200B; ジャーニーをデザインしてメッセージを送信](../building-journeys/journey-gs.md) – 最初のカスタマージャーニーを構築し、チャネルアクションを設定します。
->* [&#x200B; ライブレポート &#x200B;](../reports/live-report.md) — キャンペーンとジャーニーのパフォーマンスをリアルタイムで監視します。
->* [Journey Optimizer入門チュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction){target="_blank"} — Journey Optimizerの主要な概念を説明するガイド付きビデオチュートリアルです。
->* [Journey Optimizer セキュリティの概要](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf) （PDF） – セキュリティ アーキテクチャ、データ保護、コンプライアンスの詳細。
->* [Journey Optimizer製品の説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} – 公式ライセンス条件とエディション機能の内訳。
+## 関連リソース {#related-resources}
+
+* [開始するための主な手順](quick-start.md) – 管理者、マーケター、データエンジニア向けのロールベースのクイックスタートガイド。
+* [&#x200B; データ管理の基本を学ぶ](../data/gs-data.md) — Journey Optimizerでデータを取り込み、統合し、アクティブ化する方法について説明します。
+* [&#x200B; ジャーニーをデザインしてメッセージを送信](../building-journeys/journey-gs.md) – 最初のカスタマージャーニーを構築し、チャネルアクションを設定します。
+* [&#x200B; ライブレポート &#x200B;](../reports/live-report.md) — キャンペーンとジャーニーのパフォーマンスをリアルタイムで監視します。
+* [Journey Optimizer入門チュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction){target="_blank"} — Journey Optimizerの主要な概念を説明するガイド付きビデオチュートリアルです。
+* [Journey Optimizer セキュリティの概要](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf) （PDF） – セキュリティ アーキテクチャ、データ保護、コンプライアンスの詳細。
+* [Journey Optimizer製品の説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} – 公式ライセンス条件とエディション機能の内訳。
