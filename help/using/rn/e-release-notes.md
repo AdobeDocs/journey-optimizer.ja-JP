@@ -6,10 +6,10 @@ description: Adobe Journey Optimizer プレリリースノート
 feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: b2098decc7e9d76163f4425c99adda6fa03ca9cf
+source-git-commit: 9d7475d8b0dc941fee3c0769d28c7d9c0f314f44
 workflow-type: tm+mt
-source-wordcount: '1733'
-ht-degree: 21%
+source-wordcount: '1729'
+ht-degree: 20%
 
 ---
 
@@ -36,8 +36,8 @@ ht-degree: 21%
 <tbody>
 <tr>
 <td>
-<p>[!DNL Adobe Journey Optimizer] これで、キャンペーン、ジャーニー、ロイヤルティ、サンドボックスの操作を直接MCP互換アプリケーション内に表示する<strong>MCP （Model Context Protocol）サーバー</strong>が提供されます。 この統合により、様々なペルソナが同じオーケストレーションデータを使用して共同作業を行うことができます。 AJO REST APIに対してクエリを作成したり、複数のUI画面を移動したりする代わりに、会話形式でインテントを説明し、LLMが適切なMCP ツールを呼び出すように設定できます。 この機能は現在、Claude Webとデスクトップで利用できます。</p>
-<p>この機能は現在Betaにあります。 アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
+<p>[!DNL Adobe Journey Optimizer] これで、キャンペーン、ロイヤルティ、サンドボックスの操作を直接MCP互換アプリケーション内に表示する<strong>MCP （Model Context Protocol）サーバー</strong>が提供されます。 この統合により、様々なペルソナが同じオーケストレーションデータを使用して共同作業を行うことができます。 AJO REST APIに対してクエリを作成したり、複数のUI画面を移動したりする代わりに、会話形式でインテントを説明し、LLMが適切なMCP ツールを呼び出すように設定できます。 この機能は現在、Claude Webとデスクトップで利用できます。</p>
+<p>この機能は、パブリック Betaのすべてのユーザーが利用できます。</p>
 <p>ドキュメント JIRA タスク：<a href="https://jira.corp.adobe.com/browse/DOCAC-14509">DOCAC-14509</a></p>
 </td>
 </tr>
