@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: c0dcd7f206f76d133ed2e77ef692f0ae0054a6b5
+source-git-commit: ed45338736108969831bee4317a1bc4cd40c4dc7
 workflow-type: tm+mt
-source-wordcount: '6825'
-ht-degree: 71%
+source-wordcount: '6969'
+ht-degree: 69%
 
 ---
 
@@ -21,6 +21,13 @@ ht-degree: 71%
 
 ## 2026年4月 {#april-2026}
 
+* **チャネルアクティビティ**&#x200B;のドキュメントが更新され、オプトイン要件、ビジネスルールアプリケーション、チャネル設定タイプ、推奨されるユースケースという2つのチャネルカテゴリ間の行動の違いを説明する新しい&#x200B;**マーケティングメッセージとトランザクションメッセージ**&#x200B;の節が追加されました。 [詳細情報](../orchestrated/activities/channels.md#marketing-vs-transactional)
+
+* 「**フォークアクティビティ**」ドキュメントが強化され、新しい「**例**」セクションが追加されました。このセクションでは、フォークアクティビティを使用して、1回のキャンペーン実行で、1つのマーケティングと1つのトランザクションの2つの並行したメールブランチにオーディエンスを分割する方法を示しています。 [詳細情報](../orchestrated/activities/fork.md#fork-examples)
+
+* ルールビルダーを使用してサブスクリプションプラン属性でプロファイルをフィルタリングする方法を示す新しい例で、**オーディエンスアクティビティを作成** ドキュメントが強化されました。 [詳細情報](../orchestrated/activities/build-audience.md#build-audience-examples)
+
+* 「**オーケストレーションされたキャンペーンの概要**」ページでは、エントリーレベルの&#x200B;**Fork → Channel A + Channel B** パターン→オーディエンスを構築する方法を&#x200B;**オーケストレーションされたキャンペーンの内部を説明します。**。分岐アクティビティとマーケティングとトランザクションメッセージのページへの相互参照が含まれます。 [詳細情報](../orchestrated/gs-orchestrated-campaigns.md#gs-ms-campaign-inside)
 * 高度なHTML エディター&#x200B;**ページを使用した**&#x200B;電子メールコンテンツの編集が、コンテンツ管理セクションからドキュメントの&#x200B;**電子メール** セクション（「電子メールデザイン」の下）に移動され、ページファイルの名前が&#x200B;**email-expert-mode.md**&#x200B;に変更されました。 このページでは、高度なHTML エディターが電子メール メッセージと電子メールコンテンツテンプレートに対して電子メール Designerで使用できるようになりました。 [詳細情報](../email/email-expert-mode.md)
 
 * **開始および監視オーケストレーション済みキャンペーン**&#x200B;のドキュメントが更新され、内部の公開時間の実行シーケンスの詳細を示す新しいセクションと、キャンペーンライフサイクルのステータス表、公開前のチェックリスト、非定期的なキャンペーンの送信確認の警告が追加されました。 [詳細情報](../orchestrated/start-monitor-campaigns.md#publication-sequence)

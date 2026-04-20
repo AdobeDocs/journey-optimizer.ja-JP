@@ -5,10 +5,10 @@ title: オーディエンスを作成アクティビティの使用
 description: 調整されたキャンペーンでのオーディエンスを作成アクティビティの使用方法について説明します。
 exl-id: 3959b5fa-0c47-42a5-828f-4d7ca9b7e72d
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
+source-git-commit: f8ddcd970f61018004ae1387fee2881d3a76c763
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 100%
+source-wordcount: '337'
+ht-degree: 86%
 
 ---
 
@@ -54,3 +54,7 @@ ht-degree: 100%
 2 つの&#x200B;**[!UICONTROL オーディエンスを作成]**&#x200B;アクティビティを持つ、調整されたキャンペーンの例を次に示します。最初は、買い物かごに商品があるプロファイルをターゲットにし、次にメール配信が続きます。2 番目は、ウィッシュリストがあるプロファイルをターゲットにし、次に SMS 配信が続きます。
 
 ![](../assets/build-audience-2.png)
+
+次の例では、**[!UICONTROL オーディエンスを作成]** アクティビティがルールビルダーを使用して、サブスクリプションプランでプロファイルをフィルタリングしています。 `plan`属性に条件を設定して、`plan = "basic"`のプロファイルのみを含め、オーディエンスを次のアクティビティに渡す前に基本階層のサブスクライバーに絞り込みます。
+
+![](../assets/build-audience-plan.png){width="50%" align="left"}

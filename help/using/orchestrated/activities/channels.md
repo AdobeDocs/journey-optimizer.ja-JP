@@ -5,10 +5,10 @@ title: 複数の手順のキャンペーンでのチャネルアクティビテ�
 description: 複数の手順のキャンペーンでのチャネルアクティビティの追加方法について説明します。
 exl-id: ffe1e77c-6c4f-4f23-9183-d715a4c7c402
 version: Campaign Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: ef53fc88dfeb05b171b8aa819830c9fb771697f6
 workflow-type: tm+mt
-source-wordcount: '1682'
-ht-degree: 60%
+source-wordcount: '1769'
+ht-degree: 57%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 60%
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_target"
->title="Target"
+>title="ターゲット"
 >abstract="Target セクションのプレースホルダー"
 
 <!--
@@ -90,6 +90,22 @@ UNUSED IDs in BJ
    ![メールアクティビティを含むキャンバスを示す画像](../assets/channel-edit.png)
 
 1. 「**[!UICONTROL プロパティ]**」タブで説明を入力し、「**[!UICONTROL アクション]**」タブに切り替えてアクティビティを設定します。
+
+## マーケティングとトランザクションメッセージ {#marketing-vs-transactional}
+
+適切なカテゴリを選択することで、メッセージの配信方法と適用されるルールが決まります。
+
+| | マーケティング | 取引 |
+| --- | --- | --- |
+| **オプトインが必要** | ○ | × |
+| **ビジネスルール** | 適用（頻度の上限、疲労ルール） | バイパス |
+| **チャネル設定タイプ** | マーケティングチャネル設定 | トランザクションチャネル設定 |
+| **一般的なユースケース** | プロモーション、ニュースレター、季節キャンペーン | 注文確認、パスワードリセット、中断アラート |
+| **オーディエンス** | オプトインした購読者のみ | オプトインステータスに関係なく任意のプロファイル |
+
+>[!NOTE]
+>
+>運用上または時間的制約のあるコミュニケーションにのみトランザクションを使用します。 プロモーションメッセージを「トランザクション」と誤分類すると、同意やビジネスルールが無視され、規制要件に違反する可能性があります。
 
 ## チャネル設定と設定の設定 {#configuration}
 
