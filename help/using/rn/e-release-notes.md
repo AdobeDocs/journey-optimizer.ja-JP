@@ -6,10 +6,10 @@ description: Adobe Journey Optimizer プレリリースノート
 feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 3919d6514554748c4b49987fee70685a4b34b2ff
+source-git-commit: 289a4c107ba8e4e22d285c305e11083c56a2ba24
 workflow-type: tm+mt
-source-wordcount: '1743'
-ht-degree: 20%
+source-wordcount: '2041'
+ht-degree: 17%
 
 ---
 
@@ -120,7 +120,7 @@ ht-degree: 20%
 <tbody>
 <tr>
 <td>
-<p>&lt;TBC&gt;</p>
+<p>ジャーニーとキャンペーンをフォルダーに整理して、インターフェイスのナビゲーションと管理を改善できるようになりました。</p>
 <p>この機能は、一連の組織でのみ使用できます（限定提供）。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
 <p>ドキュメント JIRA タスク：<a href="https://jira.corp.adobe.com/browse/DOCAC-14038">DOCAC-14038</a></p>
 </td>
@@ -137,7 +137,7 @@ ht-degree: 20%
 <tbody>
 <tr>
 <td>
-<p>&lt;TBC&gt;</p>
+<p>サンドボックスツールで、パッケージを介したサンドボックス間でのオーケストレーションキャンペーンの書き出しと読み込みがサポートされるようになりました。</p>
 <p>ドキュメント JIRA タスク：<a href="https://jira.corp.adobe.com/browse/DOCAC-13760">DOCAC-13760</a></p>
 </td>
 </tr>
@@ -153,7 +153,7 @@ ht-degree: 20%
 <tbody>
 <tr>
 <td>
-<p>&lt;TBC&gt;</p>
+<p>Adobe Journey Optimizerでは、GmailのApple IntelligenceやGoogle GeminiなどのAIを活用した受信トレイに合わせて電子メールを最適に構造化する、新しい機能が追加されました。 AI アシスタントが受信者のメールの読み取りや行動をますます制御するようになるこの機能は、要約、トリアージ、優先順位付け、インテント抽出など、AIによるさまざまなタスクにおいて優れたパフォーマンスを発揮するコンテンツの作成に役立ちます。</p>
 <p>ドキュメント JIRA タスク：<a href="https://jira.corp.adobe.com/browse/DOCAC-14520">DOCAC-14520</a></p>
 </td>
 </tr>
@@ -169,7 +169,7 @@ ht-degree: 20%
 <tbody>
 <tr>
 <td>
-<p>&lt;TBC&gt;</p>
+<p>増分クエリアクティビティが、オーケストレーションされたキャンペーンで使用できるようになりました。 このターゲティングアクティビティは、キャンペーンが実行されるたびにクエリを実行し、前回の実行で返されなかったレコードのみを返します。 同じプロファイルを再ターゲティングすることなく、新しいサインアップ、新しいゴールドメンバー、または他の「前回の実行後に新しい」セグメントのみをメッセージまたは書き出すことができます。</p>
 <p>ドキュメント JIRA タスク：<a href="https://jira.corp.adobe.com/browse/DOCAC-14262">DOCAC-14262</a></p>
 </td>
 </tr>
@@ -185,7 +185,7 @@ ht-degree: 20%
 <tbody>
 <tr>
 <td>
-<p>&lt;TBC&gt;</p>
+<p>これで、ジャーニーをシミュレーションに設定できます。 このモードでは、シミュレートされたユーザーを使用してロジックを検証できます。 これらはシミュレーション専用に作成された一時的なプロファイルで、Adobe Experience Platformで永続的なテストプロファイルを管理することなく、自由にテストできます。</p>
 <p>ドキュメント JIRA タスク：<a href="https://jira.corp.adobe.com/browse/DOCAC-14050">DOCAC-14050</a></p>
 </td>
 </tr>
@@ -301,7 +301,7 @@ ht-degree: 20%
 
 #### AI
 
-* Campaign ダッシュボードの&#x200B;**ブランド調整スコア** - &lt;TBC>
+* Campaign ダッシュボードの&#x200B;**ブランド調整スコア** - Campaign ダッシュボード内でブランド調整スコアを直接評価して、コンテンツがブランドに即していることを確認できるようになりました。 これにより、コンテンツデザイナーを開くことなく、ガイドラインを一目で確認できます。
 
   ドキュメント JIRA タスク：[DOCAC-14516](https://jira.corp.adobe.com/browse/DOCAC-14516)
 
@@ -345,7 +345,7 @@ ht-degree: 20%
 
   ドキュメント JIRA タスク：[DOCAC-13802](https://jira.corp.adobe.com/browse/DOCAC-13802)
 
-* **Dynamic Mediaを使用したカウントダウンタイマーによるオープンタイムパーソナライゼーション** - &lt;TBC>
+* **Dynamic Mediaを使用したカウントダウンタイマーによるオープンタイムパーソナライゼーション** - Journey OptimizerとAdobe Experience Manager Dynamic Mediaの統合により、Dynamic Media テンプレートのオープンタイムパーソナライゼーションが可能になり、詳細にパーソナライズされたユースケースが実現します。 顧客は、Adobe Experience Managerでパーソナライズされたテンプレートを作成、公開し、Journey Optimizerでデータを公開時にレンダリングして使用できます。
 
   ドキュメント JIRA タスク：[DOCAC-13801](https://jira.corp.adobe.com/browse/DOCAC-13801)
 
@@ -391,7 +391,7 @@ ht-degree: 20%
 
 #### 外部統合
 
-* **外部データ統合** - &lt;TBC>
+* **外部データ統合** – 統合機能を使用すると、サードパーティのデータソースをAdobe Journey Optimizerに直接接続できます。 この機能では、外部データやコンテンツの取り込み方法を簡素化することで、あらゆるチャネルをまたいで、パーソナライズされたダイナミックなメッセージを容易に配信することができます。
 
   ドキュメント JIRA タスク：[DOCAC-13803](https://jira.corp.adobe.com/browse/DOCAC-13803)
 
