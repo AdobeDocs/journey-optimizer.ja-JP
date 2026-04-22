@@ -24,11 +24,11 @@ Adobe Experience ManagerとJourney Optimizerの連携は、次のデータフロ
 
 1. **[Dispatcherの設定](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer#dispatcher-configuration){target="_blank"}**: Journey Optimizerがコンテンツフラグメント管理APIを介してAdobe Experience Manager コンテンツフラグメントにアクセスできるようにするには、まずDispatcherを設定する必要があります。 これは統合の前提条件です。
 
-1. **[作成およびオーサー](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#creating-a-content-fragment)**: コンテンツは、Adobe Experience Managerでコンテンツフラグメントとして作成および設定されます。
+1. **[作成およびオーサー](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#creating-a-content-fragment)**: コンテンツは、Adobe Experience Managerでコンテンツフラグメントとして作成および設定されます。
 
-1. **[タグ付け](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#manage-tags)**: コンテンツフラグメントには、Journey Optimizer固有のタグ （`ajo-enabled:{OrgId}/{SandboxName}`）を付ける必要があります。
+1. **[タグ付け](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#manage-tags)**: コンテンツフラグメントには、Journey Optimizer固有のタグ （`ajo-enabled:{OrgId}/{SandboxName}`）を付ける必要があります。
 
-1. **[公開](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#publishing-and-previewing-a-fragment)**: コンテンツフラグメントはAdobe Experience Managerで公開され、Journey Optimizerで利用できるようになります。
+1. **[公開](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#publishing-and-previewing-a-fragment)**: コンテンツフラグメントはAdobe Experience Managerで公開され、Journey Optimizerで利用できるようになります。
 
 1. **[アクセス](#aem-add)**: Journey Optimizerは、Adobe Experience Manager パブリッシュインスタンスから利用可能なコンテンツフラグメントをリアルタイムで取得して表示します。
 
@@ -175,7 +175,7 @@ Adobe Experience Managerでは、各コンテンツフラグメントは次の�
 * 別のフラグメントを作成することなく、地域のトーンを調整。
 * チャネル別メッセージ（モバイルと比較したwebなど）。
 
-➡️ [詳しくは、Adobe Experience Manager ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/content-fragments/content-fragments-variations)を参照してください
+➡️ [詳しくは、Adobe Experience Manager ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/assets/content-fragments/content-fragments-variations)を参照してください
 
 Journey Optimizerでは、フラグメントを挿入する際に使用するバリエーションを選択できるので、フラグメントを複製することなく、Adobe Experience Managerの同じソースコンテンツの異なるレンディションに依存して、様々なキャンペーンやジャーニーを作成できます。
 
