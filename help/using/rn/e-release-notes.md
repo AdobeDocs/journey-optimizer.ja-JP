@@ -6,9 +6,9 @@ description: Adobe Journey Optimizer プレリリースノート
 feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 56e01ac04baab45b3acf35f0f977ede8c8263d7c
+source-git-commit: fe8e38287939e289e04e07dfe5a2ca51172825e6
 workflow-type: tm+mt
-source-wordcount: '1715'
+source-wordcount: '1698'
 ht-degree: 17%
 
 ---
@@ -327,9 +327,11 @@ Adobe Journey Optimizerでは、新機能、既存の機能の強化、バグ修
 
 #### オーケストレーションキャンペーン
 
-* **Data Modelerの機能強化** - Orchestrated CampaignsのData Modelerで、強化された<strong>複合関係管理</strong>がサポートされるようになりました。 フィールドを同じタイプの複数のテーブルにリンクするなど、UIでコンポジット関係を直接作成および管理できます。 これらの機能強化は、前のリリースで導入された<strong>複合キー</strong>および<strong>列挙管理</strong>機能に基づいて構築されます。
+<!--* **Data Modeler enhancements** - The Data Modeler in Orchestrated Campaigns now supports enhanced <strong>composite relationship management</strong>. You can create and manage composite relationships directly in the UI, including linking a field to multiple tables of the same type. These enhancements build on the <strong>composite key</strong> and <strong>enumeration management</strong> capabilities introduced in the previous release.Documentation JIRA task: [DOCAC-14334](https://jira.corp.adobe.com/browse/DOCAC-14334)-->
 
-  ドキュメント JIRA タスク：[DOCAC-14334](https://jira.corp.adobe.com/browse/DOCAC-14334)
+* **オーケストレーションされたキャンペーンのグローバル変数** - オーケストレーションされたキャンペーンは、ワークフロー内のすべてのアクティビティで一度定義して再利用できるグローバル変数をサポートするようになり、設定を簡素化し、動的な値、式、コンテンツのパーソナライゼーションで一貫性を確保します。
+
+  ドキュメント JIRA タスク：[DOCAC-14113](https://jira.corp.adobe.com/browse/DOCAC-14113)
 
 <!--
 ## March '26 pre-release notes {#march-26-rn}
@@ -617,9 +619,6 @@ Improvements coming with this release are listed below.
   Documentation JIRA task: [DOCAC-14038](https://jira.corp.adobe.com/browse/DOCAC-14038)
 
 #### Orchestrated campaigns
-
-* **Global variables in Orchestrated Campaigns** - Orchestrated Campaigns now support global variables that can be defined once and reused across all activities within a workflow, simplifying configuration and ensuring consistency in dynamic values, expressions, and content personalization.
-  Documentation JIRA task: [DOCAC-14113](https://jira.corp.adobe.com/browse/DOCAC-14113)
 
 * **Target dimension simplification in Orchestrated Campaigns** - You can now easily select or automatically deduce the right targeting and secondary dimensions in Orchestrated campaigns for accurate, efficient audience activation.
   Documentation JIRA task: [DOCAC-13554](https://jira.corp.adobe.com/browse/DOCAC-13554)
