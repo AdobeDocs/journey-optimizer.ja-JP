@@ -6,9 +6,9 @@ description: Adobe Journey Optimizer プレリリースノート
 feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 121171b536964efef5fdb1a7f1390bf10719735e
+source-git-commit: 56e01ac04baab45b3acf35f0f977ede8c8263d7c
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1715'
 ht-degree: 17%
 
 ---
@@ -195,7 +195,8 @@ Adobe Journey Optimizerでは、新機能、既存の機能の強化、バグ修
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizerでは、<strong>Personalization エディター</strong>に<strong>AI アシスタント </strong>が追加されました。 パーソナライズする内容を平易な言葉で説明すると、アシスタントは<strong> パーソナライゼーション式</strong>を生成します。この式は、そのまま使用することも、短いフォローアップの会話で調整することもできます。 既存のパーソナライゼーションコードを選択して、アシスタントに説明を依頼したり、修正したり、改善を提案したりすることもできます。</p>
+<p>Adobe Journey Optimizerには、パーソナライゼーション表現のためのAI アシスタントが追加されました。 電子メールコンテンツのデザイン中に、Personalization エディターおよび電子メールDesigner ツールバーから開くことができます。 パーソナライズしたい内容を平易な言葉で説明すると、アシスタントがそのまま使用できるパーソナライゼーション表現を生成したり、短いフォローアップ会話で洗練させたりします。
+既存のパーソナライゼーションコードを選択して、アシスタントに説明を依頼したり、修正したり、改善を提案したりすることもできます。 エクスプレッションを生成した後、サンプルプロファイルのプレビューを表示すると、合成サンプルプロファイルの限定されたセットに対して簡単なチェックが実行されます。</p>
 <p>詳しくは、<a href="../content-management/generative-personalization-expressions.md">Personalization エクスプレッション用AI アシスタント </a>を参照してください。</p>
 <p>公開日：2026年4月13日（PT）</p>
 </td>
@@ -275,10 +276,6 @@ Adobe Journey Optimizerでは、新機能、既存の機能の強化、バグ修
   公開日：2026年4月14日（PT）
 
 #### メールデザイン
-
-* **電子メール Designerのパーソナライゼーション式のAI アシスタント** – 電子メール Designerで、コンポーネントを選択し、コンテキストツールバーの&#x200B;**式を追加**&#x200B;を使用して、必要なパーソナライゼーションを平易な言葉で説明し、生成された式を確認して、デザイナーから離れることなく挿入します。 [詳細情報](../content-management/generative-personalization-expressions.md#generate-email-designer)
-
-  公開日：2026年4月15日（PT）
 
 * **電子メールコンテンツ用の高度なHTML エディター** – 高度なHTML モードを使用すると、電子メール DesignerでコンテンツのHTML ソースを編集したり、ソースに高度な式（条件など）を追加したり、変更内容を失うことなくHTML ビューとデスクトップビューを切り替えたりできます。 以前はメールコンテンツテンプレートでのみ使用できましたが、この機能はメールDesignerの&#x200B;**email** コンテンツにデプロイされました。 現在、限定提供されています。アクセス権を取得するには、Adobe担当者にお問い合わせください。 [詳細情報](../email/email-expert-mode.md)
 
