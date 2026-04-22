@@ -84,7 +84,7 @@ AEM コンテンツフラグメントを作成およびパーソナライズし�
 
    >[!NOTE]
    >
-   > フラグメントに1つ以上の&#x200B;**公開済み** バリエーションがある場合、**[!UICONTROL バリエーション]** ドロップダウンがセレクターに表示されます。 **[!UICONTROL バリエーション]**&#x200B;が選択されていない場合、**メイン** バリエーションが自動的に使用されます。 詳しくは、[ コンテンツフラグメントのバリエーションの操作](#aem-variations)を参照してください。
+   > フラグメントに1つ以上の&#x200B;**公開済み** バリエーションがある場合、**[!UICONTROL バリエーション]** ドロップダウンがセレクターに表示されます。 **[!UICONTROL バリエーション]**&#x200B;が選択されていない場合、**メイン** バリエーションが自動的に使用されます。 詳しくは、[&#x200B; コンテンツフラグメントのバリエーションの操作](#aem-variations)を参照してください。
 
 1. 「**[!UICONTROL フィルターを表示]**」をクリックして、コンテンツフラグメントリストを微調整します。
 
@@ -175,15 +175,15 @@ Adobe Experience Managerでは、各コンテンツフラグメントは次の�
 * 別のフラグメントを作成することなく、地域のトーンを調整。
 * チャネル別メッセージ（モバイルと比較したwebなど）。
 
-➡️ [詳しくは、Adobe Experience Manager ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/content-fragments/content-fragments-variations)を参照してください
+➡️ [詳しくは、Adobe Experience Manager ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/content-fragments/content-fragments-variations)を参照してください
 
 Journey Optimizerでは、フラグメントを挿入する際に使用するバリエーションを選択できるので、フラグメントを複製することなく、Adobe Experience Managerの同じソースコンテンツの異なるレンディションに依存して、様々なキャンペーンやジャーニーを作成できます。
 
 バリエーションを選択するには：
 
-1. [ キャンペーン ](../campaigns/create-campaign.md)または[ ジャーニー](../building-journeys/journey-gs.md)を開きます。
+1. [&#x200B; キャンペーン &#x200B;](../campaigns/create-campaign.md)または[&#x200B; ジャーニー](../building-journeys/journey-gs.md)を開きます。
 
-1. 任意のテキストフィールドで![Personalization アイコン ](assets/do-not-localize/Smock_PersonalizationField_18_N.svg)をクリックするか、HTML コンテンツコンポーネントからHTML ソースを開きます。
+1. 任意のテキストフィールドで![Personalization アイコン &#x200B;](assets/do-not-localize/Smock_PersonalizationField_18_N.svg)をクリックするか、HTML コンテンツコンポーネントからHTML ソースを開きます。
 
 1. **[!UICONTROL AEM コンテンツフラグメント]**&#x200B;から、**[!UICONTROL CF セレクターを開く]**&#x200B;をクリックします。
 
@@ -195,7 +195,7 @@ Journey Optimizerでは、フラグメントを挿入する際に使用するバ
 
 1. **[!UICONTROL コンテンツフラグメント]**&#x200B;を選択します。
 
-1. ![情報アイコン ](assets/do-not-localize/info-icon.svg)をクリックして、**[!UICONTROL 詳細]** メニューを開きます。 フラグメントに1つ以上の公開済みバリエーションがある場合、フラグメントの詳細の横に「**[!UICONTROL バリエーション]**」ドロップダウンが表示されます。
+1. ![情報アイコン &#x200B;](assets/do-not-localize/info-icon.svg)をクリックして、**[!UICONTROL 詳細]** メニューを開きます。 フラグメントに1つ以上の公開済みバリエーションがある場合、フラグメントの詳細の横に「**[!UICONTROL バリエーション]**」ドロップダウンが表示されます。
 
    ![](assets/cf-variation-5.png)
 
