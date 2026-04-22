@@ -35,8 +35,8 @@ ht-degree: 4%
 
 ### 仕組み {#how-it-works}
 
-* **管理者**&#x200B;は、組織のセキュリティ ポリシーに従って、キーのレジストリを使用して[ キーを作成](#create-keys)し、[ キーを管理](#manage-keys)します。
-* **マーケター**&#x200B;は、`Encrypt` ヘルパーをパーソナライゼーションエディターに挿入し、保護する値とアクティブなキー識別子をレジストリから渡します。 構文とオプションについては、[このセクション ](functions/helpers.md#url-parameter-encryption-helper)を参照してください。
+* **管理者**&#x200B;は、組織のセキュリティ ポリシーに従って、キーのレジストリを使用して[&#x200B; キーを作成](#create-keys)し、[&#x200B; キーを管理](#manage-keys)します。
+* **マーケター**&#x200B;は、`Encrypt` ヘルパーをパーソナライゼーションエディターに挿入し、保護する値とアクティブなキー識別子をレジストリから渡します。 構文とオプションについては、[このセクション &#x200B;](functions/helpers.md#url-parameter-encryption-helper)を参照してください。
 
 >[!IMPORTANT]
 >
@@ -68,11 +68,11 @@ URL パラメーター暗号化ヘルパーを使用する前に、キーを作�
 
 1. Using the dedicated button, create keys as required for your organization.
 
-   ![ キーレジストリセクション ](assets/encryption-create-key.png){width="80%"}の「キーボタンを作成」ボタン
+   ![&#x200B; キーレジストリセクション &#x200B;](assets/encryption-create-key.png){width="80%"}の「キーボタンを作成」ボタン
 
 1. Assign them a clear label or identifier your teams can reference in the personalization editor.
 
-   ![ キーのレジストリ セクション ](assets/encryption-key-details.png){width="80%"}のキーの詳細
+   ![&#x200B; キーのレジストリ セクション &#x200B;](assets/encryption-key-details.png){width="80%"}のキーの詳細
 
 1. 「 **[!UICONTROL 送信]**」をクリックして、変更を確定します。
 
@@ -88,7 +88,7 @@ URL パラメーター暗号化ヘルパーを使用する前に、キーを作�
 
 1. 「**[!UICONTROL アクティブ]**」ステータスのキーをクリックして、キーの詳細を開きます。
 
-   ![ アクティブなキーの詳細](assets/encryption-key-active-details.png){width="80%"}
+   ![&#x200B; アクティブなキーの詳細](assets/encryption-key-active-details.png){width="80%"}
 
 1. 「**[!UICONTROL 失効]**」ボタンをクリックして、新しい暗号化のキーを完全に無効にします。
 
