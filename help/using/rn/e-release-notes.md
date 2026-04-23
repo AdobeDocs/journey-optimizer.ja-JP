@@ -6,9 +6,9 @@ description: Adobe Journey Optimizer プレリリースノート
 feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 7944c8b391a6af0c58dc6f2727270a48ab7ac347
+source-git-commit: dd17038e3bae77f9de2642d2578e5fa4cad54d43
 workflow-type: tm+mt
-source-wordcount: '2138'
+source-wordcount: '2189'
 ht-degree: 14%
 
 ---
@@ -322,6 +322,12 @@ Adobe Journey Optimizerでは、新機能、既存の機能の強化、バグ修
 
   公開日：2026年4月9日（PT）
 
+#### プッシュ
+
+* **チャネル設定でアプリ IDをパーソナライズ** - プッシュチャネル設定設定で、**アプリ ID** フィールドをパーソナライズして、各受信者がプロファイル情報に基づいて適切なブランドからプッシュ通知を受け取れるようにできるようになりました。
+
+  ドキュメント JIRA タスク：[DOCAC-14592](https://jira.corp.adobe.com/browse/DOCAC-14592)
+
 #### SMS
 
 * **文字数** - Adobe Journey Optimizerでは、文字数を使用して、SMS メッセージの長さをリアルタイムで監視できるようになりました。 メッセージがいつ複数のセグメントに分割されるかを確認し、フォーマットをより適切に管理して、送信コストの予期しない増加を回避することができます。 [詳細情報](../sms/create-sms.md)
@@ -396,7 +402,7 @@ Adobe Journey Optimizerでは、新機能、既存の機能の強化、バグ修
 
 #### オーケストレーションキャンペーン
 
-* **Data Modelerの機能強化** - オーケストレーションされたリレーショナルスキーマの場合、Data Modelerで複数のフィールドを使用した複合キーの作成がサポートされるようになりました。 DDLまたはExcel ファイルからスキーマを読み込むと、テーブル間に複合関係が作成されます。 エンティティ関係ビューでは、ファイルをアップロードした後、複合リンクにテーブル間のフィールドペアリングの完全なセットが表示されます。
+* **Data Modelerの機能強化** - オーケストレーションされたリレーショナルスキーマが、複数のフィールドにまたがる複合キーをサポートするようになりました。 DDL ファイルからスキーマを読み込むと、列挙も行われ、DDLまたはExcel ファイルから読み込むと、テーブル間に複合関係が自動的に作成されます。 エンティティ関係ビューで、ファイルのアップロード後に、テーブル間のフィールドペアリングの完全なセットが複合リンクに表示されるようになりました。
 
   ドキュメント JIRA タスク：[DOCAC-14334](https://jira.corp.adobe.com/browse/DOCAC-14334)
 
@@ -409,7 +415,7 @@ Adobe Journey Optimizerでは、新機能、既存の機能の強化、バグ修
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: March 24-25, 2026
 
@@ -700,7 +706,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: February 17, 2026
 
@@ -953,7 +959,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -1130,7 +1136,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
