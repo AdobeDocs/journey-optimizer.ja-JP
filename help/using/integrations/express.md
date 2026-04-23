@@ -5,15 +5,14 @@ title: Journey Optimizer での Adobe Express を使用したアセットの編�
 description: Adobe Express の基本を学ぶ
 feature: Assets, Integrations
 topic: Content Management, Integrations
-badge: label="限定提供" type="Informative"
 role: User
 level: Beginner
 keywords: アセット, 統合
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: d92712c7e9279d2d86a56b3d22d77adfffe11d7d
 workflow-type: tm+mt
 source-wordcount: '576'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -24,14 +23,13 @@ ht-degree: 97%
 >title="Adobe Express の統合"
 >abstract="Adobe Express の統合を使用してアセットのパーソナライゼーションを開始します。この機能を使用すると、画像のサイズ変更、背景の削除、ビジュアルの切り抜き、アセットの JPEG または PNG への変換を行うことができます。"
 
+>[!IMPORTANT]
+>
+>Adobe Expressとの連携によりデータはJourney Optimizerから離れます。 PHIやその他のヘルスデータとの統合は使用しないでください。
+
 Adobe Journey Optimizer の Adobe Express 統合により、コンテンツの作成中に Adobe Express の強力な編集ツールに簡単にアクセスできます。この統合により、ソリューションを切り替えることなく、画像のサイズ変更、背景の削除、ビジュアルの切り抜き、アセットの JPEG または PNG への変換が可能になります。
 
 <img src="../rn/assets/do-not-localize/express_resize.gif">
-
-
->[!AVAILABILITY]
->
->Adobe Journey Optimizer の Adobe Express 統合は、現在、Healthcare Shield または Privacy and Security Shield では使用できません。
 
 Adobe Express について詳しくは、[このドキュメント](https://helpx.adobe.com/jp/express/user-guide.html)を参照してください。
 
@@ -41,7 +39,7 @@ Adobe Express について詳しくは、[このドキュメント](https://help
 
 ➡️ [この機能をビデオで確認](#video)
 
-## エンタープライズライセンスでのAdobe Expressの使用 {#licence}
+## エンタープライズ版ライセンスでの Adobe Express の使用 {#licence}
 
 以下の節で説明する機能には、Adobe Express エンタープライズ版ライセンスを持たないユーザーもアクセスできます。
 
@@ -51,7 +49,7 @@ Adobe Express について詳しくは、[このドキュメント](https://help
 
 Adobe Express のエンタープライズ版ライセンスを持つユーザーが使用できるユースケースについて詳しくは、[Adobe Express web ドキュメント](https://helpx.adobe.com/jp/express/web.html)を参照してください。
 
-## エンタープライズライセンスなしでAdobe Expressを使用する  {#edit}
+## エンタープライズ版ライセンスなしでの Adobe Express の使用  {#edit}
 
 エンタープライズ版ライセンスを持たないユーザーは、Adobe Express で使用可能な次のユースケースにアクセスできます。
 
