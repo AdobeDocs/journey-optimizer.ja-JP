@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: ランディング, ランディングページ, 作成, ページ, フォーム
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
-source-git-commit: d0dd382521aeb2c7e18dc547c2ec55fa1472ab8d
+source-git-commit: 26d0fa859d1ef161ac62674cd38d7620429c24d3
 workflow-type: tm+mt
 source-wordcount: '2029'
 ht-degree: 75%
@@ -18,7 +18,7 @@ ht-degree: 75%
 
 # ランディングページでのフォームの使用 {#lp-forms}
 
-[!DNL Journey Optimizer]のランディングページでプロファイルデータを取得し、[!DNL Experience Platform]のデータセットを強化するには、ランディングページでフォームを活用します。 データキャプチャのシナリオと要件の概要については、[&#x200B; ランディングページを使用したデータキャプチャ &#x200B;](get-started-lp.md#data-capture-lp)を参照してください。
+[!DNL Journey Optimizer]のランディングページでプロファイルデータを取得し、[!DNL Experience Platform]のデータセットを強化するには、ランディングページでフォームを活用します。 データキャプチャのシナリオと要件の概要については、[ ランディングページを使用したデータキャプチャ ](get-started-lp.md#data-capture-lp)を参照してください。
 
 ## フォームプリセットの作成 {#create-form-preset}
 
@@ -33,6 +33,12 @@ ht-degree: 75%
 >title="データセットの選択"
 >abstract="フォームの応答が保存および反映されるデータセットを定義します。特定のデータセットを検索するには、入力するか、リストから選択できます。"
 
+<!--
+>[!NOTE]
+>
+>To access and edit form presets, you must have the **[!UICONTROL View form presets]**, **[!UICONTROL Manage form presets]**, and **[!UICONTROL Publish form presets]** permissions. Learn more about permissions in [this section](../administration/high-low-permissions.md#administration-permissions).
+-->
+
 フォームを作成する前に、フォーム送信データが送信される接続エンドポイントと、フォームを通じて取得したデータが保存されるデータセットを選択する専用のプリセットを作成する必要があります。
 
 データがストリーミングエンドポイントに到達すると、データセット情報とリンクされます。生成されたソース／ターゲット接続とソースフローを使用すると、データがデータセットにプッシュされます。
@@ -45,12 +51,6 @@ ht-degree: 75%
    * **ソース接続** - データの発生元。
    * **ターゲット接続** - データが保存または使用される場所。
    * **ソースフロー** - ソース接続から [!DNL Experience Platform] にデータを移動し、マッピング、変換、検証を処理するパイプライン。
-
-<!--
->[!NOTE]
->
-> To access and edit form presets, you must have the **[!UICONTROL Manage form presets]** permission on the production sandbox. Learn more about permissions in [this section](../administration/high-low-permissions.md#administration-permissions).TBC
--->
 
 フォームプリセットを作成するには、次の手順に従います。
 
@@ -73,7 +73,7 @@ ht-degree: 75%
    >* **データタイプ**&#x200B;は、**XDM** に設定する必要があります（生データではありません）
    >* **認証**&#x200B;は、**無効**（認証されていない接続）にする必要があります
    >
-   >ストリーミング接続がリストに表示されない場合は、これらの条件が両方とも満たされていることを確認します。<!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
+   >ストリーミング接続がリストに表示されない場合は、これらの条件が両方とも満たされていることを確認します。<!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
 
 1. フォームにリンクする&#x200B;**[!UICONTROL データセット]**&#x200B;を選択します。ここにフォームの応答が保存および反映されます。 特定のデータセットを検索するには、入力するか、リストから選択できます。
 
@@ -84,6 +84,12 @@ ht-degree: 75%
 1. 「**[!UICONTROL 公開]**」をクリックします。これで、プリセットをフォームで使用する準備が整いました。
 
 ## フォームへのアクセスと管理 {#access-forms}
+
+<!--
+>[!NOTE]
+>
+>To access and edit forms, you must have the **[!UICONTROL View forms]**, **[!UICONTROL Manage forms]**, and **[!UICONTROL Publish forms]** permissions. Learn more about permissions in [this section](../administration/high-low-permissions.md#administration-permissions).
+-->
 
 フォームリストにアクセスするには、左側のメニューから&#x200B;**[!UICONTROL コンテンツ管理]**／**[!UICONTROL フォーム]**&#x200B;を選択します。
 
