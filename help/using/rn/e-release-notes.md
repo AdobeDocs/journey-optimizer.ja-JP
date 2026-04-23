@@ -6,9 +6,9 @@ description: Adobe Journey Optimizer プレリリースノート
 feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 7944c8b391a6af0c58dc6f2727270a48ab7ac347
+source-git-commit: dd17038e3bae77f9de2642d2578e5fa4cad54d43
 workflow-type: tm+mt
-source-wordcount: '2138'
+source-wordcount: '2189'
 ht-degree: 14%
 
 ---
@@ -322,6 +322,12 @@ Adobe Journey Optimizerでは、新機能、既存の機能の強化、バグ修
 
   公開日：2026年4月9日（PT）
 
+#### プッシュ
+
+* **チャネル設定でアプリ IDをパーソナライズ** - プッシュチャネル設定設定で、**アプリ ID** フィールドをパーソナライズして、各受信者がプロファイル情報に基づいて適切なブランドからプッシュ通知を受け取れるようにできるようになりました。
+
+  ドキュメント JIRA タスク：[DOCAC-14592](https://jira.corp.adobe.com/browse/DOCAC-14592)
+
 #### SMS
 
 * **文字数** - Adobe Journey Optimizerでは、文字数を使用して、SMS メッセージの長さをリアルタイムで監視できるようになりました。 メッセージがいつ複数のセグメントに分割されるかを確認し、フォーマットをより適切に管理して、送信コストの予期しない増加を回避することができます。 [詳細情報](../sms/create-sms.md)
@@ -396,7 +402,7 @@ Adobe Journey Optimizerでは、新機能、既存の機能の強化、バグ修
 
 #### オーケストレーションキャンペーン
 
-* **Data Modelerの機能強化** - オーケストレーションされたリレーショナルスキーマの場合、Data Modelerで複数のフィールドを使用した複合キーの作成がサポートされるようになりました。 DDLまたはExcel ファイルからスキーマを読み込むと、テーブル間に複合関係が作成されます。 エンティティ関係ビューでは、ファイルをアップロードした後、複合リンクにテーブル間のフィールドペアリングの完全なセットが表示されます。
+* **Data Modelerの機能強化** - オーケストレーションされたリレーショナルスキーマが、複数のフィールドにまたがる複合キーをサポートするようになりました。 DDL ファイルからスキーマを読み込むと、列挙も行われ、DDLまたはExcel ファイルから読み込むと、テーブル間に複合関係が自動的に作成されます。 エンティティ関係ビューで、ファイルのアップロード後に、テーブル間のフィールドペアリングの完全なセットが複合リンクに表示されるようになりました。
 
   ドキュメント JIRA タスク：[DOCAC-14334](https://jira.corp.adobe.com/browse/DOCAC-14334)
 
