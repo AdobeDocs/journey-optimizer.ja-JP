@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: ed45338736108969831bee4317a1bc4cd40c4dc7
+source-git-commit: 2ed9e23201e2f7459609b1e387a1c5ac64af4e85
 workflow-type: tm+mt
-source-wordcount: '6969'
+source-wordcount: '7025'
 ht-degree: 69%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 69%
 このページでは、毎月のリリースの機能と改善点に関連する更新に加えて、[!DNL Journey Optimizer] ドキュメントの最新の変更点をすべて一覧表示しています。
 
 ## 2026年4月 {#april-2026}
+
+* **電子メールにCC フィールドを追加** ドキュメントのガードレールが強化されました。 これで、CC アドレスが同意または抑制に対してチェックされないことが指定され、CC アドレスに送信された電子メールの開封数とクリック数が、送信分析の開封数とクリック数の合計に含まれます。 [詳細情報](../configuration/cc-email-field.md)
 
 * **チャネルアクティビティ**&#x200B;のドキュメントが更新され、オプトイン要件、ビジネスルールアプリケーション、チャネル設定タイプ、推奨されるユースケースという2つのチャネルカテゴリ間の行動の違いを説明する新しい&#x200B;**マーケティングメッセージとトランザクションメッセージ**&#x200B;の節が追加されました。 [詳細情報](../orchestrated/activities/channels.md#marketing-vs-transactional)
 

@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d92712c7e9279d2d86a56b3d22d77adfffe11d7d
+source-git-commit: 7944c8b391a6af0c58dc6f2727270a48ab7ac347
 workflow-type: tm+mt
 source-wordcount: '2631'
 ht-degree: 21%
@@ -207,12 +207,6 @@ ht-degree: 21%
 
   公開日：2026年4月7日（PT）
 
-* **オーサリング中のAdobe Experience Manager コンテンツフラグメントのコンテキスト** - テキストフィールドとコンテンツブロック間を移動しても、コンテンツフラグメントの選択範囲はアクティブなままなので、**AEM コンテンツアドバイザー**&#x200B;を毎回開き直さずに、さらにフラグメントフィールドを追加できます。 [詳細情報](../integrations/aem-fragments.md)
-
-  この機能は、一連の組織でのみ使用できます（限定提供）。アクセス権を取得するには、アドビ担当者にお問い合わせください。
-
-  公開日：2026年4月1日（PT）
-
 #### Adobe Experience Managerとの連携
 
 * **Adobe Experience Manager コンテンツフラグメントのバリエーションのサポート** - Adobe Experience Manager コンテンツフラグメントを挿入する際に、**コンテンツフラグメントのバリエーション** （言語やチャネルのバリエーションなど）を選択でき、ロケールや多言語シナリオの処理が改善されました。 [詳細情報](../integrations/aem-fragments.md#aem-variations)
@@ -220,6 +214,12 @@ ht-degree: 21%
   この機能は、一連の組織でのみ使用できます（限定提供）。アクセス権を取得するには、アドビ担当者にお問い合わせください。
 
   公開日：2026年4月3日（PT）
+
+* **オーサリング中のAdobe Experience Manager コンテンツフラグメントのコンテキスト** - テキストフィールドとコンテンツブロック間を移動しても、コンテンツフラグメントの選択範囲はアクティブなままなので、**AEM コンテンツアドバイザー**&#x200B;を毎回開き直さずに、さらにフラグメントフィールドを追加できます。 [詳細情報](../integrations/aem-fragments.md)
+
+  この機能は、一連の組織でのみ使用できます（限定提供）。アクセス権を取得するには、アドビ担当者にお問い合わせください。
+
+  公開日：2026年4月1日（PT）
 
 
 ## 26年3月のリリースノート {#march-26-rn}

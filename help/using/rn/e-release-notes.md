@@ -6,10 +6,10 @@ description: Adobe Journey Optimizer プレリリースノート
 feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: a68397c6d77fd5b1a76bd87c340a86d9e27c2b50
+source-git-commit: 7944c8b391a6af0c58dc6f2727270a48ab7ac347
 workflow-type: tm+mt
-source-wordcount: '2023'
-ht-degree: 15%
+source-wordcount: '2138'
+ht-degree: 14%
 
 ---
 
@@ -76,6 +76,23 @@ Adobe Journey Optimizerでは、新機能、既存の機能の強化、バグ修
 <p>これにより、リレーションシップマネージャーやアカウントオーナーなど、各メッセージの適切な関係者を自動的にコピーすることができ、同時に顧客がフォローアップのために誰に連絡すべきかを確実に把握することができます。</p>
 <p>CC フィールドはパーソナライゼーションをサポートしているので、単一の設定でプロファイルデータに基づいてコピーを動的にルーティングできるため、追加の設定なしで複数のユースケースに対応できます。</p>
 <p>ドキュメント JIRA タスク：<a href="https://jira.corp.adobe.com/browse/DOCAC-14581">DOCAC-14581</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+<table>
+<thead>
+<tr>
+<th><strong>電子メールDesignerのディープリンク</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>メールDesignerの専用オプションを使用して、メールコンテンツにディープリンクを追加できるようになりました。 これにより、ユーザーはブラウザーやアプリストアにリダイレクトされずに、適切なアプリ内コンテンツに直接移動され、コンテキストとエンゲージメントが維持されます。</p>
+<p>ドキュメント JIRA タスク：<a href="https://jira.corp.adobe.com/browse/DOCAC-14582">DOCAC-14582</a></p>
 </td>
 </tr>
 </tbody>
@@ -161,7 +178,7 @@ Adobe Journey Optimizerでは、新機能、既存の機能の強化、バグ修
 <tbody>
 <tr>
 <td>
-<p><strong> ランキング式</strong>で<strong>AI モデル </strong>を使用して、顧客プロファイル属性と文脈要因に基づいて<strong> ジャーニー優先度スコア </strong>を自動的に強化し、顧客が最も関連性の高いジャーニーに確実にエントリできるようにしました。</p>
+<p>ランキング式で<strong>AI モデル </strong>を使用して、顧客プロファイル属性と文脈要因に基づいてジャーニーの優先度スコアを自動的に高め、顧客が最も関連性の高いジャーニーに確実にエントリできるようにしました。</p>
 <p>この機能は、一連の組織でのみ使用できます（限定提供）。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
 <p>ドキュメント JIRA タスク：<a href="https://jira.corp.adobe.com/browse/DOCAC-14295">DOCAC-14295</a></p>
 </td>
@@ -313,7 +330,7 @@ Adobe Journey Optimizerでは、新機能、既存の機能の強化、バグ修
 
 * **電話番号と送信者でのオプトアウトと同意** - SMSの場合、Journey Optimizerは、プロファイルの電話番号とショートコードの両方のレベルでマーケティングの同意とオプトアウトを記録するようになりました。 プロファイルの電話番号が変更された場合、前の電話番号に関連付けられた同意は新しい電話番号に転送されません。 受信者は、すべてのメッセージが特定の数と送信者レベルでの同意に沿ったものとなるように、再びオプトインする必要があります。
 
-  This capability is currently only available for Sinch SMS configurations. [詳細情報](../sms/sms-configuration-sinch.md)
+  この機能は現在、Sinch SMS設定でのみ使用できます。 [詳細情報](../sms/sms-configuration-sinch.md)
 
   ドキュメント JIRA タスク：[DOCAC-14344](https://jira.corp.adobe.com/browse/DOCAC-14344)
 
@@ -323,13 +340,13 @@ Adobe Journey Optimizerでは、新機能、既存の機能の強化、バグ修
 
 * **Webhook インターフェイスの機能強化** - SMS Webhookを設定する際に、ユーザーインターフェイスに実用的な例を含む組み込みの設定ガイドが含まれるようになり、設定フローを離れることなく、プロバイダーペイロードの調整と問題のトラブルシューティングが簡単になりました。 [詳細情報](../sms/sms-webhook.md)
 
-  Documentation JIRA task: [DOCAC-14589](https://jira.corp.adobe.com/browse/DOCAC-14589)
+  ドキュメント JIRA タスク：[DOCAC-14589](https://jira.corp.adobe.com/browse/DOCAC-14589)
 
 #### WhatsApp
 
-* **WhatsApp interactive buttons and tracking** - WhatsApp in Journey Optimizer now supports interactive buttons required by your templates and use cases, along with built-in interaction tracking so you can measure engagement and analyze performance alongside your other channel reporting.
+* **WhatsApp インタラクティブボタンとトラッキング** - Journey OptimizerのWhatsAppは、テンプレートやユースケースに必要なインタラクティブボタンと、組み込みのインタラクショントラッキングをサポートするようになりました。これにより、エンゲージメントを測定し、他のチャネルレポートと並行してパフォーマンスを分析できます。
 
-  Documentation JIRA task: [DOCAC-14590](https://jira.corp.adobe.com/browse/DOCAC-14590)
+  ドキュメント JIRA タスク：[DOCAC-14590](https://jira.corp.adobe.com/browse/DOCAC-14590)
 
 #### ジャーニーパスの最適化
 
@@ -379,7 +396,9 @@ Adobe Journey Optimizerでは、新機能、既存の機能の強化、バグ修
 
 #### オーケストレーションキャンペーン
 
-<!--* **Data Modeler enhancements** - The Data Modeler in Orchestrated Campaigns now supports enhanced <strong>composite relationship management</strong>. You can create and manage composite relationships directly in the UI, including linking a field to multiple tables of the same type. These enhancements build on the <strong>composite key</strong> and <strong>enumeration management</strong> capabilities introduced in the previous release.Documentation JIRA task: [DOCAC-14334](https://jira.corp.adobe.com/browse/DOCAC-14334)-->
+* **Data Modelerの機能強化** - オーケストレーションされたリレーショナルスキーマの場合、Data Modelerで複数のフィールドを使用した複合キーの作成がサポートされるようになりました。 DDLまたはExcel ファイルからスキーマを読み込むと、テーブル間に複合関係が作成されます。 エンティティ関係ビューでは、ファイルをアップロードした後、複合リンクにテーブル間のフィールドペアリングの完全なセットが表示されます。
+
+  ドキュメント JIRA タスク：[DOCAC-14334](https://jira.corp.adobe.com/browse/DOCAC-14334)
 
 * **オーケストレーションされたキャンペーンのグローバル変数** - オーケストレーションされたキャンペーンは、ワークフロー内のすべてのアクティビティで一度定義して再利用できるグローバル変数をサポートするようになり、設定を簡素化し、動的な値、式、コンテンツのパーソナライゼーションで一貫性を確保します。
 
