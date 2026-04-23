@@ -6,10 +6,10 @@ description: Adobe Journey Optimizer プレリリースノート
 feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
-source-git-commit: 36ccd3383eef4bed54e727a74bf0db6c7a34fe43
+source-git-commit: a68397c6d77fd5b1a76bd87c340a86d9e27c2b50
 workflow-type: tm+mt
-source-wordcount: '1817'
-ht-degree: 16%
+source-wordcount: '2023'
+ht-degree: 15%
 
 ---
 
@@ -305,6 +305,32 @@ Adobe Journey Optimizerでは、新機能、既存の機能の強化、バグ修
 
   公開日：2026年4月9日（PT）
 
+#### SMS
+
+* **文字数** - Adobe Journey Optimizerでは、文字数を使用して、SMS メッセージの長さをリアルタイムで監視できるようになりました。 メッセージがいつ複数のセグメントに分割されるかを確認し、フォーマットをより適切に管理して、送信コストの予期しない増加を回避することができます。 [詳細情報](../sms/create-sms.md)
+
+  ドキュメント JIRA タスク：[DOCAC-14346](https://jira.corp.adobe.com/browse/DOCAC-14346)
+
+* **電話番号と送信者でのオプトアウトと同意** - SMSの場合、Journey Optimizerは、プロファイルの電話番号とショートコードの両方のレベルでマーケティングの同意とオプトアウトを記録するようになりました。 プロファイルの電話番号が変更された場合、前の電話番号に関連付けられた同意は新しい電話番号に転送されません。 受信者は、すべてのメッセージが特定の数と送信者レベルでの同意に沿ったものとなるように、再びオプトインする必要があります。
+
+  This capability is currently only available for Sinch SMS configurations. [詳細情報](../sms/sms-configuration-sinch.md)
+
+  ドキュメント JIRA タスク：[DOCAC-14344](https://jira.corp.adobe.com/browse/DOCAC-14344)
+
+* **カスタムデータセットの選択をサポート** - インバウンド SMS イベントは、選択した&#x200B;**カスタムデータセット**&#x200B;に書き込むことができるため、オーディエンスとジャーニーは、デフォルトのメッセージフィードバックパスとストリーミングオーディエンスの更新を待つよりも早く、そのデータを使用できます。**双方向SMS**&#x200B;に役立ちます。 [詳細情報](../sms/sms-webhook.md)
+
+  ドキュメント JIRA タスク：[DOCAC-14356](https://jira.corp.adobe.com/browse/DOCAC-14356)
+
+* **Webhook インターフェイスの機能強化** - SMS Webhookを設定する際に、ユーザーインターフェイスに実用的な例を含む組み込みの設定ガイドが含まれるようになり、設定フローを離れることなく、プロバイダーペイロードの調整と問題のトラブルシューティングが簡単になりました。 [詳細情報](../sms/sms-webhook.md)
+
+  Documentation JIRA task: [DOCAC-14589](https://jira.corp.adobe.com/browse/DOCAC-14589)
+
+#### WhatsApp
+
+* **WhatsApp interactive buttons and tracking** - WhatsApp in Journey Optimizer now supports interactive buttons required by your templates and use cases, along with built-in interaction tracking so you can measure engagement and analyze performance alongside your other channel reporting.
+
+  Documentation JIRA task: [DOCAC-14590](https://jira.corp.adobe.com/browse/DOCAC-14590)
+
 #### ジャーニーパスの最適化
 
 * **実験タイプ** - パス実験を設定する際に、A/B実験（開始時に固定分割）またはマルチアームドバンディット（週単位の更新による自動分割）のいずれかを選択できるようになりました。 [詳細情報](../building-journeys/path-experimentation.md)
@@ -321,7 +347,7 @@ Adobe Journey Optimizerでは、新機能、既存の機能の強化、バグ修
 
 #### Adobe Experience Managerとの連携
 
-* **コンテンツアドバイザーセレクター** - AEM Assetsおよびコンテンツフラグメントセレクターは、すべてのAEM AssetsおよびAEM コンテンツフラグメントを参照、検索、フィルタリング、アクセスできる統合モーダルである&#x200B;**コンテンツアドバイザーセレクター**&#x200B;に置き換えられました。 Dynamic Media レンディションのサポートも含まれており、Dynamic Media アセットが選択されているときにUIから画像レンディションを追加することができます。 この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。
+* **コンテンツアドバイザーセレクター** - Adobe Experience Manager Assetsおよびコンテンツフラグメントセレクターは、すべてのAEM AssetsおよびAEM コンテンツフラグメントを参照、検索、フィルタリング、アクセスできる統合モーダルである&#x200B;**コンテンツアドバイザーセレクター**&#x200B;に置き換えられました。 Dynamic Media レンディションのサポートも含まれており、Dynamic Media アセットが選択されているときにUIから画像レンディションを追加することができます。 この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。
 
   ドキュメント JIRA タスク：[DOCAC-13802](https://jira.corp.adobe.com/browse/DOCAC-13802)
 
@@ -337,11 +363,13 @@ Adobe Journey Optimizerでは、新機能、既存の機能の強化、バグ修
 
   公開日：2026年4月1日（PT）
 
+<!--
 #### WhatsApp
 
-* **WhatsApp Channel：埋め込みサインアップ** - Adobe Journey Optimizerは、WhatsApp チャネル設定の<strong>埋め込みサインアップ </strong> フローでMetaをサポートするようになりました。 この合理化されたオンボーディング体験により、<strong>Meta Business Manager</strong>に移動することなく、<strong>WhatsApp Business Account</strong>と電話番号をAJO インターフェイス内で直接接続でき、セットアップ時間が大幅に短縮されます。 また、既存の電話番号と<strong>WhatsApp Business Accounts （WABA） </strong>をAdobeに転送するための移行ツールとしても機能します。
+* **WhatsApp Channel: Embedded Sign Up** - Adobe Journey Optimizer now supports Meta's <strong>Embedded Sign Up</strong> flow for WhatsApp channel configuration. This streamlined onboarding experience allows you to connect your <strong>WhatsApp Business Account</strong> and phone numbers directly within the AJO interface, without navigating to <strong>Meta Business Manager</strong>, reducing setup time significantly. It also serves as a migration tool to transfer existing phone numbers and <strong>WhatsApp Business Accounts (WABAs)</strong> to Adobe.
 
-  ドキュメント JIRA タスク：[DOCAC-13386](https://jira.corp.adobe.com/browse/DOCAC-13386)
+  Documentation JIRA task: [DOCAC-13386](https://jira.corp.adobe.com/browse/DOCAC-13386)
+-->
 
 #### 設定
 
