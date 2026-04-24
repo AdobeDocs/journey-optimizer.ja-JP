@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: b3663df6447d0f689f598f258f050891388a8729
+source-git-commit: 7284814029465a8806b78640b8ffe6c44ad030a7
 workflow-type: tm+mt
-source-wordcount: '3896'
-ht-degree: 18%
+source-wordcount: '3902'
+ht-degree: 16%
 
 ---
 
@@ -23,13 +23,13 @@ ht-degree: 18%
 
 [!DNL Adobe Journey Optimizer]は継続的な配信モデルに従い、Adobeが継続的に新しい機能、機能強化、および修正を提供できるようにします。 このアプローチにより、スケーラブルで段階的な機能のロールアウトが可能になり、すべての環境をまたいでパフォーマンスと安定性を確保できます。
 
-このモデルにより、リリースノートは毎月のリリースの間に更新されます。リリースサイクルと可用性フェーズについて詳しくは、[Journey Optimizer リリースサイクル](releases.md)を参照してください。
+このモデルにより、リリースノートは毎月のリリースの間に更新されます。 リリースサイクルと可用性フェーズについて詳しくは、[Journey Optimizer リリースサイクル](releases.md)を参照してください。
 
-[!DNL Adobe Journey Optimizer] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}を参照してください。
+[!DNL Adobe Journey Optimizer] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。 以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}を参照してください。
 
 ## 2026年4月プレリリースノート {#april-26-rn}
 
-**以下のプレリリースノートの内容は、リリースの公開日まで予告なく変更される場合があります**。リンク、画面、更新済みのドキュメントは、リリース日にリリースノートに公開されます。
+**以下のプレリリースノートの内容は、リリースの公開日まで予告なく変更される場合があります**。 リンク、画面、更新済みのドキュメントは、リリース日にリリースノートに公開されます。
 
 詳しくは、[Adobe Experience Platform プレリリースノート](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}も参照してください。
 
@@ -49,7 +49,7 @@ ht-degree: 18%
 <tr>
 <td>
 <p>これで、ジャーニーを<strong> シミュレーション </strong>に設定できます。 このモードを使用すると、<strong> シミュレートされたユーザー</strong>を使用してロジックを検証できます。 これらはシミュレーション専用に作成された一時的なプロファイルで、Adobe Experience Platformで永続的なテストプロファイルを管理することなく、自由にテストできます。</p>
-<p>この機能は、一連の組織でのみ使用できます（限定提供）。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
+<p>この機能は、一連の組織でのみ使用できます（限定提供）。 アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
 </td>
 </tr>
 </tbody>
@@ -65,7 +65,7 @@ ht-degree: 18%
 <tr>
 <td>
 <p>Journey Optimizerを使用すると、送信者（送信者）とオーサリングエンティティ（送信者）が異なるメールを送信できるようになりました。 これをサポートするメールクライアントは、通常、「送信者の代理で送信者」としてレンダリングするか、「経由」インジケーターを表示します。 この機能を設定するには、メールチャネル設定のオプションの<strong>送信者ヘッダー</strong> フィールドに入力します。</p>
-<p>この機能は、一連の組織でのみ使用できます（限定提供）。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
+<p>この機能は、一連の組織でのみ使用できます（限定提供）。 アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
 </td>
 </tr>
 </tbody>
@@ -161,7 +161,7 @@ ht-degree: 18%
 <tr>
 <td>
 <p>ランキング式で<strong>AI モデル </strong>を使用して、顧客プロファイル属性と文脈要因に基づいてジャーニーの優先度スコアを自動的に高め、顧客が最も関連性の高いジャーニーに確実にエントリできるようにしました。</p>
-<p>この機能は、一連の組織でのみ使用できます（限定提供）。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
+<p>この機能は、一連の組織でのみ使用できます（限定提供）。 アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
 </td>
 </tr>
 </tbody>
@@ -181,7 +181,7 @@ ht-degree: 18%
 <p>この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。</p>
 <p><img src="assets/do-not-localize/express_resize.gif"></p>
 <p>詳しくは、<a href="../integrations/express.md">詳細なドキュメント</a>を参照してください。</p>
-<p>公開日：2026年4月23日（PT）</p>
+<p>ご利用いただけます：2026年4月23日（PT）</p>
 </td>
 </tr>
 </tbody>
@@ -200,7 +200,7 @@ ht-degree: 18%
 <p>AI アシスタントが受信者の電子メールの読み取りや行動をますます制御するようになるなか、この機能を利用することで、要約、トリアージ、優先順位付け、インテント抽出など、さまざまなAI タスクにおいて優れたパフォーマンスを発揮するコンテンツを生成およびオーサリングできるようになります。</p>
 <p><img src="assets/do-not-localize/optimize-for-ai.gif"></p>
 <p>詳しくは、<a href="../email/llm-email-optimizer.md">AI インボックス用メールの最適化</a>を参照してください。</p>
-<p>公開日：2026年4月17日（PT）</p>
+<p>ご利用いただけます：2026年4月17日（PT）</p>
 </td>
 </tr>
 </tbody>
@@ -219,7 +219,7 @@ ht-degree: 18%
 <p>アシスタントも逆に動作します。 既存の式を選択して、ロジックの説明、問題の特定、改善の提案を依頼します。 これにより、新しいエクスプレッションのオーサリングだけでなく、チーム全体で既存のエクスプレッションをレビューおよびデバッグするのに役立ちます。</p>
 <p><img src="assets/do-not-localize/assistant-perso.gif"></p>
 <p>詳しくは、<a href="../content-management/generative-personalization-expressions.md">Personalization エクスプレッション用AI アシスタント </a>を参照してください。</p>
-<p>公開日：2026年4月13日（PT）</p>
+<p>ご利用いただけます：2026年4月13日（PT）</p>
 </td>
 </tr>
 </tbody>
@@ -240,7 +240,7 @@ ht-degree: 18%
 <p>一般提供の一環として、このリリースでは、<strong>実験タイプ </strong>の選択（A/Bまたはマルチアームドバンディット）と<strong>単一ジャーニーの勝者</strong>の拡大が導入されています。</p>
 <p><img src="assets/do-not-localize/optimize-experiment.gif"></p>
 <p>詳しくは、<a href="../building-journeys/path-experimentation.md">詳細なドキュメント</a>を参照してください。</p>
-<p>公開日：2026年4月7日（PT）</p>
+<p>ご利用いただけます：2026年4月7日（PT）</p>
 </td>
 </tr>
 </tbody>
@@ -258,7 +258,7 @@ ht-degree: 18%
 <p><strong>受信トレイ </strong>は、コンテンツカードで利用できるモバイル機能で、ユーザーがアプリまたはweb サイト内で一元的な場所を作成して、ユーザーに送信されるメッセージを表示できるようにします。 これにより、メッセージが却下された後もアクセスできるようになり、マーケティングコミュニケーションの有効期間を延長できます。</p>
 <p><img src="assets/do-not-localize/inbox.gif"/></p>
 <p>詳しくは、<a href="../inbox/inbox-gs.md">詳細なドキュメント</a>を参照してください。</p>
-<p>公開日：2026年4月7日（PT）</p>
+<p>ご利用いただけます：2026年4月7日（PT）</p>
 </td>
 </tr>
 </tbody>
@@ -295,10 +295,10 @@ ht-degree: 18%
 <tr>
 <td>
 <p><strong>Decisioning</strong>を使用して、メールメッセージのコンテンツをパーソナライズおよび最適化できるようになりました。 優先順位のスコア、数式、AI モデルを活用して、各受信者に最も関連性の高いオファーやコンテンツを表示します。</p>
-<p>以前は制限付き可用性でリリースされていましたが、この機能はすべての環境で使用できるようになりました（一般提供）。 この一般提供リリースでは、ミラーページがサポートされるようになりました。</p>
+<p>この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。 この一般提供リリースでは、ミラーページがサポートされるようになりました。</p>
 <p><img src="assets/do-not-localize/exd-email.gif"></p>
 <p>詳しくは、<a href="../experience-decisioning/create-decision-policy.md">詳細なドキュメント</a>を参照してください。</p>
-<p>公開日：2026年4月6日（PT）</p>
+<p>ご利用いただけます：2026年4月6日（PT）</p>
 </td>
 </tr>
 </tbody>
@@ -318,7 +318,7 @@ ht-degree: 18%
 
 * **一時的に利用できないフラグメントがスキップされる** – 決定項目でフラグメントを使用する場合、Edgeでフラグメントが一時的に利用できない場合、そのフラグメントはスキップされ、ジャーニーまたはキャンペーンは失敗する代わりにレンダリングを続行します。 [詳細情報](../experience-decisioning/fragments-decision-policies.md#temporary-unavailable-fragments)
 
-  公開日：2026年4月14日（PT）
+  ご利用いただけます：2026年4月14日（PT）
 
 #### プッシュ
 
@@ -342,21 +342,17 @@ ht-degree: 18%
 
 #### Adobe Experience Managerとの連携
 
-* **コンテンツアドバイザーセレクター** - Adobe Experience Manager Assetsおよびコンテンツフラグメントセレクターは、すべてのAEM AssetsおよびAEM コンテンツフラグメントを参照、検索、フィルタリング、アクセスできる統合モーダルである&#x200B;**コンテンツアドバイザーセレクター**&#x200B;に置き換えられました。 Dynamic Media レンディションのサポートも含まれており、Dynamic Media アセットが選択されているときにUIから画像レンディションを追加することができます。 この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。
-
-* **Dynamic Mediaを使用したカウントダウンタイマーによるオープンタイムパーソナライゼーション** - Journey OptimizerとAdobe Experience Manager Dynamic Mediaの統合により、Dynamic Media テンプレートのオープンタイムパーソナライゼーションが可能になり、詳細にパーソナライズされたユースケースが実現します。 顧客は、Adobe Experience Managerでパーソナライズされたテンプレートを作成、公開し、Journey Optimizerでデータを公開時にレンダリングして使用できます。
-
 * **Adobe Experience Manager コンテンツフラグメントのバリエーションのサポート** - Adobe Experience Manager コンテンツフラグメントを挿入する際に、**コンテンツフラグメントのバリエーション** （言語やチャネルのバリエーションなど）を選択でき、ロケールや多言語シナリオの処理が改善されました。 [詳細情報](../integrations/aem-fragments.md#aem-variations)
 
-  この機能は、一連の組織でのみ使用できます（限定提供）。アクセス権を取得するには、アドビ担当者にお問い合わせください。
+  この機能は、一連の組織でのみ使用できます（限定提供）。 アクセス権を取得するには、アドビ担当者にお問い合わせください。
 
-  公開日：2026年4月3日（PT）
+  ご利用いただけます：2026年4月3日（PT）
 
 * **オーサリング中のAdobe Experience Manager コンテンツフラグメントのコンテキスト** - テキストフィールドとコンテンツブロック間を移動しても、コンテンツフラグメントの選択範囲はアクティブなままなので、**AEM コンテンツアドバイザー**&#x200B;を毎回開き直さずに、さらにフラグメントフィールドを追加できます。 [詳細情報](../integrations/aem-fragments.md)
 
-  この機能は、一連の組織でのみ使用できます（限定提供）。アクセス権を取得するには、アドビ担当者にお問い合わせください。
+  この機能は、一連の組織でのみ使用できます（限定提供）。 アクセス権を取得するには、アドビ担当者にお問い合わせください。
 
-  公開日：2026年4月1日（PT）
+  ご利用いただけます：2026年4月1日（PT）
 
 #### 設定
 
@@ -374,29 +370,29 @@ ht-degree: 18%
 
   以前はメールコンテンツテンプレートでのみ使用できましたが、この機能は、メールコンテンツテンプレートに加えて、メールDesignerの&#x200B;**メール** コンテンツ（ジャーニーやキャンペーンで作成されたメールなど）にデプロイされました。 現在、限定提供されています。アクセス権を取得するには、Adobe担当者にお問い合わせください。 [詳細情報](../email/email-expert-mode.md)
 
-  公開日：2026年4月9日（PT）
+  ご利用いただけます：2026年4月9日（PT）
 
 * **電子メール Designerのパーソナライゼーション式のAI アシスタント** – 電子メール Designerで、コンポーネントを選択し、コンテキストツールバーの&#x200B;**式を追加**&#x200B;を使用して、必要なパーソナライゼーションを平易な言葉で説明し、生成された式を確認して、デザイナーから離れることなく挿入します。 [詳細情報](../content-management/generative-personalization-expressions.md#generate-email-designer)
 
-  公開日：2026年4月15日（PT）
+  ご利用いただけます：2026年4月15日（PT）
 
 #### ジャーニーパスの最適化
 
 * **実験タイプ** - パス実験を設定する際に、A/B実験（開始時に固定分割）またはマルチアームドバンディット（週単位の更新による自動分割）のいずれかを選択できるようになりました。 [詳細情報](../building-journeys/path-experimentation.md)
 
-  公開日：2026年4月7日（PT）
+  ご利用いただけます：2026年4月7日（PT）
 
 * **パス実験：勝者を拡大** – 実験の勝者パスを自動的または手動で完全なオーディエンスにロールアウトできるようになりました。 勝者を決定したら、実験を継続的に監視することなく、そのリーチと効果を増幅できます。 [詳細情報](../building-journeys/path-experimentation.md#scale-winner)
 
   この機能は、単一ジャーニー（イベントトリガーおよびオーディエンスの選定）でのみ使用できます。 オーディエンスの読み取りジャーニーには使用できません。
 
-  公開日：2026年4月7日（PT）
+  ご利用いただけます：2026年4月7日（PT）
 
 * **条件** - [最適化](../building-journeys/optimize.md) アクティビティは、ジャーニーで条件付きパスを作成するための新しい手段です。 UIから削除された以前の&#x200B;**条件** アクティビティに置き換わります。 すべての条件付きロジックは保持され、**最適化** アクティビティの条件を通じて処理されるようになりました。 [詳細情報](../building-journeys/conditions.md)
 
   この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。
 
-  公開日：2026年4月7日（PT）
+  ご利用いただけます：2026年4月7日（PT）
 
 
 ## 26年3月のリリースノート {#march-26-rn}
@@ -406,7 +402,7 @@ ht-degree: 18%
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 **リリース日**: 2026年3月24日～25日
@@ -427,10 +423,10 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <li>専用の<strong>管理</strong> レジストリに暗号化キーを登録して管理します。</li>
 <li>式で新しい「暗号化」ヘルパー関数を使用して、レンダリング時に保護するクエリパラメーターのURL内の機密データを暗号化します。</li>
 </ul>
-<p>この機能は、一連の組織でのみ使用できます（限定提供）。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
+<p>この機能は、一連の組織でのみ使用できます（限定提供）。 アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
 <p><img src="assets/do-not-localize/encrypt-helper.gif"></p>
 <p>詳しくは、<a href="../personalization/url-parameter-encryption.md">詳細なドキュメント</a>を参照してください。</p>
-<p>公開日：2026年3月31日（PT）</p>
+<p>ご利用いただけます：2026年3月31日（PT）</p>
 </td>
 </tr>
 </tbody>
@@ -449,7 +445,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p>この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。</p>
 <p><img src="assets/do-not-localize/image-converter.gif"></p>
 <p>詳しくは、<a href="../content-management/image-to-html.md">詳細なドキュメント</a>を参照してください。</p>
-<p>公開日：2026年3月31日（PT）</p>
+<p>ご利用いただけます：2026年3月31日（PT）</p>
 </td>
 </tr>
 </tbody>
@@ -465,7 +461,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>[!DNL Journey Optimizer]では、ランディングページを通じてプロファイル属性を取得できます。</p>
-<p>特定のデータセットに基づいて、ニーズに合わせてカスタマイズされたカスタムフォームを作成、デザイン、管理します。その後、ランディングページでこれらのフォームを活用して、各フォームに定義されたデータセットに選択したプロファイル属性を追加できます。</p>
+<p>特定のデータセットに基づいて、ニーズに合わせてカスタマイズされたカスタムフォームを作成、デザイン、管理します。 その後、ランディングページでこれらのフォームを活用して、各フォームに定義されたデータセットに選択したプロファイル属性を追加できます。</p>
 <p>以前は、米国およびオーストラリアのお客様に対して限定提供でリリースされていましたが、この機能はすべての環境で利用できるようになりました（一般提供）。</p>
 <p><img src="assets/do-not-localize/forms.gif"/></p>
 <p>詳しくは、<a href="../landing-pages/lp-forms.md">詳細なドキュメント</a>を参照してください。</p>
@@ -542,7 +538,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p>この機能は、メールチャネルのコンテンツテンプレートでのみ使用できます。 現在、限定提供されています。アクセス権を取得するには、Adobe担当者にお問い合わせください。</p>
 <p><img src="assets/do-not-localize/expert-mode.gif"/></p>
 <p>詳しくは、<a href="../email/email-expert-mode.md">詳細なドキュメント</a>を参照してください。</p>
-<p>公開日：2026年3月10日（PT）</p>
+<p>ご利用いただけます：2026年3月10日（PT）</p>
 </td>
 </tr>
 </tbody>
@@ -561,7 +557,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p>ニーズに適したモデルの選択：</p>
 <ul><li> <strong>Adobe モデル </strong> （Firefly Image Model 4を利用）は、追加設定なしで即座に画像を生成できます</li><li> <strong> パートナーモデル </strong> （Gemini 2.5 Flashを搭載）を使用した特殊機能</li><li>ブランドに即した生成を可能にする<strong> カスタムモデル </strong> （独自のアセットでトレーニングされたブランド固有のモデル）は、ブランドアイデンティティ、スタイル、ビジュアルガイドラインに正確に一致します。</li></ul>
 <p>詳しくは、<a href="../content-management/generative-models.md">詳細なドキュメント</a>を参照してください。</p>
-<p>公開日：2026年3月2日（PT）</p>
+<p>ご利用いただけます：2026年3月2日（PT）</p>
 </td>
 </tr>
 </tbody>
@@ -579,7 +575,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p>Adobe Journey Optimizerの<strong>iOS ライブアクティビティ </strong>を利用して、お客様のロックScreensとダイナミックアイランドにリアルタイムのエクスペリエンスを直接提供できます。 ユーザーがアプリを開かなくても、注文追跡やフライト状況からイベントカウントダウン、ライブスコア、配信の進捗状況に至るまで、ライブアップデートを配信できます。 オーディエンスがどこにいても、適切なタイミングで情報を提供し、エンゲージメントを維持しましょう。</p>
 <p>以前はベータ版でリリースされていましたが、この機能はすべての環境で使用できるようになりました（一般提供）。</p>
 <p>詳しくは、<a href="../mobile-live/get-started-mobile-live.md">詳細なドキュメント</a>を参照してください。</p>
-<p>公開日：2026年3月3日（PT）</p>
+<p>ご利用いただけます：2026年3月3日（PT）</p>
 </td>
 </tr>
 </tbody>
@@ -595,9 +591,9 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p><strong>Adobe Experience Platform Agent Orchestrator</strong>を搭載した<strong>Journey Agent</strong>は、Journey Optimizerで利用でき、自然言語インターフェイスを通じてジャーニーを分析できます。 また、Journey Agentでチャネル固有のコンテンツを直接生成および管理し、電子メールやプッシュ通知などのチャネル用のコンテンツを作成したり、テンプレートを適用およびプレビューしたり、プロンプトを通じてトーンやスタイルを調整したり、コンテキストに沿った編集のために<strong>Content Designer</strong>でコンテンツを開いたりすることもできます。</p>
-<p>この機能は、一連の組織でのみ使用できます（限定提供）。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
-<p>詳しくは、<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=ja" target="_blank">詳細なドキュメント</a>を参照してください。</p>
-<p>公開日：2026年3月4日（PT）</p>
+<p>この機能は、一連の組織でのみ使用できます（限定提供）。 アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
+<p>詳しくは、<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html" target="_blank">詳細なドキュメント</a>を参照してください。</p>
+<p>ご利用いただけます：2026年3月4日（PT）</p>
 </td>
 </tr>
 </tbody>
@@ -616,7 +612,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <p>この機能は現在、<strong> パーソナライズされた最適化</strong> モデルでのみ使用できます（自動最適化ではありません）。</p>
 <p><img src="assets/do-not-localize/ai-model-observability.gif"/></p>
 <p>詳しくは、<a href="../experience-decisioning/ranking/ai-model-observability.md">詳細なドキュメント</a>を参照してください。</p>
-<p>公開日：2026年3月9日（PT）</p>
+<p>ご利用いただけます：2026年3月9日（PT）</p>
 </td>
 </tr>
 </tbody>
@@ -631,7 +627,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <tbody>
 <tr>
 <td>
-<p>オーケストレーションされたキャンペーンは、<strong>API シグナル </strong>を介してトリガーできるようになりました。 これを設定するには、シグナル <strong>によってトリガーされた</strong> ターゲットキャンペーンを設定して公開し、API呼び出しを使用して実行します。 API呼び出しに含まれるパラメーターは、実行中のキャンペーン内で変数として使用できます。 シグナル トリガーによるオーケストレーションされたキャンペーンは<strong> バッチ </strong>のキャンペーンのままであり、API トリガーされたキャンペーンとは異なります。</p>
+<p>オーケストレーションされたキャンペーンは、<strong>API シグナル </strong>を介してトリガーできるようになりました。 これを設定するには、シグナル </strong>によってトリガーされた<strong> ターゲットキャンペーンを設定して公開し、API呼び出しを使用して実行します。 API呼び出しに含まれるパラメーターは、実行中のキャンペーン内で変数として使用できます。 シグナル トリガーによるオーケストレーションされたキャンペーンは<strong> バッチ </strong>のキャンペーンのままであり、API トリガーされたキャンペーンとは異なります。</p>
 <p><img src="assets/do-not-localize/oc-triggered.gif"></p>
 <p>詳しくは、<a href="../orchestrated/trigger-orchestrated-campaign.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
@@ -667,13 +663,13 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 
   以前は、ジャーニーで使用するための限定可用性でリリースされていましたが、この機能はすべての環境で使用できるようになりました（一般提供）。
 
-  公開日：2026年4月1日（PT）
+  ご利用いただけます：2026年4月1日（PT）
 
 #### レポート
 
 * **送信時間の最適化：更新されたコントロールの場所と新しい上昇率レポート** – 送信時間の最適化（STO）コントロールがアクション設定メニューに再配置されました。 さらに、ジャーニーレポートで新しいリフトレポートを使用できるようになりました。このレポートを使用して、キャンペーンのパフォーマンス指標に対するSTOの影響を測定できます。 [詳細情報](../reports/channel-report-cja.md#optimization-models)
 
-  公開日：2026年3月27日（PT）
+  ご利用いただけます：2026年3月27日（PT）
 
 <!--
 * **Exclude bot clicks for email and SMS reporting** - Email and SMS reporting now automatically filters out bot clicks from click metrics, providing more accurate engagement data and preventing automated traffic from inflating your performance figures.
@@ -693,7 +689,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 
 * **AJO ドメイン証明書の更新に失敗しました** – 電子メール配信に使用するドメイン証明書の有効期限が近づいているか、有効期限が切れている場合に、電子メールまたはJourney Optimizer通知センターでシステムアラートを受け取ることができるようになりました。 [詳細情報](../reports/alerts.md#alert-certificates-renewal-unsuccessful)
 
-  公開日：2026年3月26日（PT）
+  ご利用いただけます：2026年3月26日（PT）
 
 * **AJO セカンダリ Recipient Feedback Event Dataset rename** - `AJO Email BCC Feedback Event` データセットの名前が`AJO Secondary Recipient Feedback Event` Datasetに変更されました。 影響は、状況によって異なります。
 
@@ -705,7 +701,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
   >
   >新しいデータセットには、新しい名前がすぐに表示されます。 古いデータセット名の場合、バックフィルと紐付けは徐々に進められ、完了するのに数週間かかる場合があります。
 
-  公開日：2026年3月2日（PT）
+  ご利用いただけます：2026年3月2日（PT）
 
 
 #### ジャーニー
@@ -716,17 +712,17 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 
   以前は、ジャーニーで使用するための限定可用性でリリースされていましたが、この機能はすべての環境で使用できるようになりました（一般提供）。
 
-  公開日：2026年3月16日（PT）
+  ご利用いただけます：2026年3月16日（PT）
 
 * **ジャーニーの技術的な詳細**&#x200B;の一時停止と再開の詳細 – ジャーニー&#x200B;**の技術的な詳細**&#x200B;には、追加の一時停止と再開の情報（最後の一時停止と再開の日時、各アクションを実行したユーザーの表示名と内部識別子、一時停止の動作、最大一時停止の時間、自動再開の状態など）が含まれるようになりました。 [詳細情報](../building-journeys/journey-properties.md)
 
-  公開日：2026年3月2日（PT）
+  ご利用いただけます：2026年3月2日（PT）
 
 #### 決定
 
 * **Decisioning移行 – オファーおよびコンテキスト属性** – 移行API エンティティマッピングに、**オファー属性** （パーソナライズされたオファー項目スキーマの`migratedofferattributes`）と&#x200B;**コンテキスト属性** （`migratedcontextattributes`）が移行データセットスキーマにリストされるようになりました。 [詳細情報](../experience-decisioning/decisioning-migration-api.md#entity-mapping)
 
-  公開日：2026年3月31日（PT）
+  ご利用いただけます：2026年3月31日（PT）
 
 <!--
 ## Coming soon {#coming-soon}
