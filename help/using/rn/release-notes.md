@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 7944c8b391a6af0c58dc6f2727270a48ab7ac347
+source-git-commit: b3663df6447d0f689f598f258f050891388a8729
 workflow-type: tm+mt
-source-wordcount: '2631'
-ht-degree: 21%
+source-wordcount: '3896'
+ht-degree: 18%
 
 ---
 
@@ -27,9 +27,145 @@ ht-degree: 21%
 
 [!DNL Adobe Journey Optimizer] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}を参照してください。
 
-## 26年4月の更新 {#april-26-rn}
+## 2026年4月プレリリースノート {#april-26-rn}
+
+**以下のプレリリースノートの内容は、リリースの公開日まで予告なく変更される場合があります**。リンク、画面、更新済みのドキュメントは、リリース日にリリースノートに公開されます。
+
+詳しくは、[Adobe Experience Platform プレリリースノート](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}も参照してください。
+
+4月初旬にリリースされた新機能と機能強化は、リリース日とともに発表されます。
+
+**リリース日**: 2026年4月28日～29日
 
 ### 新機能 {#april-26-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>ジャーニーシミュレーション</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>これで、ジャーニーを<strong> シミュレーション </strong>に設定できます。 このモードを使用すると、<strong> シミュレートされたユーザー</strong>を使用してロジックを検証できます。 これらはシミュレーション専用に作成された一時的なプロファイルで、Adobe Experience Platformで永続的なテストプロファイルを管理することなく、自由にテストできます。</p>
+<p>この機能は、一連の組織でのみ使用できます（限定提供）。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>メールヘッダーの送信者パラメーター</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Journey Optimizerを使用すると、送信者（送信者）とオーサリングエンティティ（送信者）が異なるメールを送信できるようになりました。 これをサポートするメールクライアントは、通常、「送信者の代理で送信者」としてレンダリングするか、「経由」インジケーターを表示します。 この機能を設定するには、メールチャネル設定のオプションの<strong>送信者ヘッダー</strong> フィールドに入力します。</p>
+<p>この機能は、一連の組織でのみ使用できます（限定提供）。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>電子メールチャネル設定のCC フィールド</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>メールチャネル設定でオプションのCC （カーボンコピー）フィールドを設定できるようになりました。 BCCとは異なり、CC受信者はプライマリ受信者に対して表示されるため、透明性のあるコミュニケーションと明確なオーナーシップが可能になります。</p>
+<p>これにより、リレーションシップマネージャーやアカウントオーナーなど、各メッセージの適切な関係者を自動的にコピーすることができ、同時に顧客がフォローアップのために誰に連絡すべきかを確実に把握することができます。</p>
+<p>CC フィールドはパーソナライゼーションをサポートしているので、単一の設定でプロファイルデータに基づいてコピーを動的にルーティングできるため、追加の設定なしで複数のユースケースに対応できます。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>電子メールDesignerのディープリンク</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>メールDesignerの専用オプションを使用して、メールコンテンツにディープリンクを追加できるようになりました。 これにより、ユーザーはブラウザーやアプリストアにリダイレクトされずに、適切なアプリ内コンテンツに直接移動され、コンテキストとエンゲージメントが維持されます。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>MCPを介したJourney Optimizer AI Agentの統合</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizerは、キャンペーン、ロイヤルティ、チャネル設定、サンドボックス操作を直接MCP互換アプリケーション内に表示する<strong>MCP （Model Context Protocol）サーバー</strong>を提供するようになりました。 この統合により、様々なペルソナが同じオーケストレーションデータを使用して共同作業を行うことができます。 Adobe Journey Optimizer REST APIに対してクエリを作成したり、複数のUI画面を移動したりする代わりに、会話形式でインテントを説明し、LLMが適切なMCP ツールを呼び出すように設定できます。 この機能は現在、Claude Webとデスクトップで利用できます。</p>
+<p>この機能は、パブリック Betaのすべてのユーザーが利用できます。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>サンドボックスをまたいで調整されたキャンペーンをコピー</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>サンドボックスツールが、オーケストレーションされたキャンペーンのパッケージ化と、あるサンドボックスから別のサンドボックスへのコピーをサポートするようになりました。 これにより、各環境で施策を手作業で再構築する必要がなくなります。 キャンペーンをパッケージ化すると、結合ポリシーやメッセージなどのキャンペーンの中核的な依存オブジェクトが自動的に含まれるため、インポートしたキャンペーンは設定と検証の準備ができたままになります。 本番環境を保護するために、インポートしたすべてのキャンペーンが、ターゲットサンドボックスのドラフトステータスに置かれ、キャンペーンが公開される前にレビューと承認のステップをチームに提供します。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>オーケストレーションされたキャンペーンでの増分クエリアクティビティ</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong> オーケストレーションされたキャンペーン </strong>は、前回の実行以降に新たに対象となったプロファイルまたはイベントのみをターゲットとする<strong>増分クエリ </strong> アクティビティをサポートするようになりました。
+
+これにより、定期的なキャンペーンでは、新規オーディエンス（新規登録、新たに適格なロイヤルティメンバーなど）に重点を置きながら、クエリの作業負荷を軽減し、時間の経過に伴う冗長な送信を避けることができます。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>ジャーニー仲裁 – AI モデル</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>ランキング式で<strong>AI モデル </strong>を使用して、顧客プロファイル属性と文脈要因に基づいてジャーニーの優先度スコアを自動的に高め、顧客が最も関連性の高いジャーニーに確実にエントリできるようにしました。</p>
+<p>この機能は、一連の組織でのみ使用できます（限定提供）。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -70,6 +206,24 @@ ht-degree: 21%
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>PERSONALIZATION Expressions用AI アシスタント</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>[!DNL Adobe Journey Optimizer] 自然言語プロンプトを有効なパーソナライゼーション式と条件付きロジックに変換する<strong>AI Assistant</strong>がパーソナライゼーションエディターに直接含まれるようになりました。構文の専門知識は必要ありません。 達成したいパーソナライゼーションを記述すると、AIがすぐに適用できる使いやすいコードを生成したり、フォローアッププロンプトで改善したりできます。</p>
+<p>アシスタントも逆に動作します。 既存の式を選択して、ロジックの説明、問題の特定、改善の提案を依頼します。 これにより、新しいエクスプレッションのオーサリングだけでなく、チーム全体で既存のエクスプレッションをレビューおよびデバッグするのに役立ちます。</p>
+<p><img src="assets/do-not-localize/assistant-perso.gif"></p>
+<p>詳しくは、<a href="../content-management/generative-personalization-expressions.md">Personalization エクスプレッション用AI アシスタント </a>を参照してください。</p>
+<p>公開日：2026年4月13日（PT）</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -150,44 +304,81 @@ ht-degree: 21%
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>PERSONALIZATION Expressions用AI アシスタント</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>[!DNL Adobe Journey Optimizer] PersonalizationエディターにAI アシスタントが追加されました。 パーソナライズしたい内容を平易な言葉で説明すると、アシスタントがそのまま使用できるパーソナライゼーション表現を生成したり、短いフォローアップ会話で洗練させたりします。</p>
-<p>既存のパーソナライゼーションコードを選択して、アシスタントに説明を依頼したり、修正したり、改善を提案したりすることもできます。 式を生成した後、<strong> サンプルプロファイルのプレビューを表示</strong>は、限られた合成サンプルプロファイルのセットに対してクイックチェックを実行します。</p>
-<p><img src="assets/do-not-localize/assistant-perso.gif"></p>
-<p>詳しくは、<a href="../content-management/generative-personalization-expressions.md">Personalization エクスプレッション用AI アシスタント </a>を参照してください。</p>
-<p>公開日：2026年4月13日（PT）</p>
-</td>
-</tr>
-</tbody>
-</table>
-
 ### 機能強化 {#april-26-improv}
 
+#### AI
+
+* Campaign ダッシュボードの&#x200B;**ブランド調整スコア** - Campaign ダッシュボード内でブランド調整スコアを直接評価して、コンテンツがブランドに即していることを確認できるようになりました。 これにより、コンテンツデザイナーを開くことなく、ガイドラインを一目で確認できます。
+
+* **プロンプトアシスタントの機能強化** - プロンプトが曖昧であったり、不完全であったり、複数の目標が混在している場合、**プロンプトアシスタント**&#x200B;は、生成する前に、質問を明確にしたり、リクエストの書き換えをより明確に提案したりできるようになりました。これにより、アシスタントが応答する前に必要なものを特定できるようになり、一貫性が向上し、再試行を減らすことができます。 [詳細情報](../content-management/ai-assistant-prompting-guide.md)
+
 #### 決定
+
+* **決定項目にフラグメントを添付** - Journey Optimizerでは、決定項目にフラグメントを添付できるようになりました。この機能は、決定ポリシーを通じて、コードベースのエクスペリエンスおよびメールキャンペーンで活用できます。 この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。
 
 * **一時的に利用できないフラグメントがスキップされる** – 決定項目でフラグメントを使用する場合、Edgeでフラグメントが一時的に利用できない場合、そのフラグメントはスキップされ、ジャーニーまたはキャンペーンは失敗する代わりにレンダリングを続行します。 [詳細情報](../experience-decisioning/fragments-decision-policies.md#temporary-unavailable-fragments)
 
   公開日：2026年4月14日（PT）
 
+#### プッシュ
+
+* **チャネル設定でアプリ IDをパーソナライズ** - プッシュチャネル設定設定で、**アプリ ID** フィールドをパーソナライズして、各受信者がプロファイル情報に基づいて適切なブランドからプッシュ通知を受け取れるようにできるようになりました。
+
+#### SMS
+
+* **文字数** - Adobe Journey Optimizerでは、文字数を使用して、SMS メッセージの長さをリアルタイムで監視できるようになりました。 メッセージがいつ複数のセグメントに分割されるかを確認し、フォーマットをより適切に管理して、送信コストの予期しない増加を回避することができます。 [詳細情報](../sms/create-sms.md)
+
+* **電話番号と送信者でのオプトアウトと同意** - SMSの場合、Journey Optimizerは、プロファイルの電話番号とショートコードの両方のレベルでマーケティングの同意とオプトアウトを記録するようになりました。
+
+  この機能は現在、Sinch SMS設定でのみ使用できます。 [詳細情報](../sms/sms-configuration-sinch.md)
+
+* **SMSがカスタムデータセットにバウンドします** - **SMS API資格情報**&#x200B;で、**インバウンド SMS**&#x200B;を&#x200B;**カスタムのプロファイル対応エクスペリエンスイベントデータセット**&#x200B;にルーティングすると、デフォルトのトラッキングデータセットのみを選択する代わりに選択します。 [詳細情報](../sms/sms-webhook.md)
+
+* **Webhook インターフェイスの機能強化** - SMS Webhookを設定する際に、ユーザーインターフェイスに実用的な例を含む組み込みの設定ガイドが含まれるようになり、設定フローを離れることなく、プロバイダーペイロードの調整と問題のトラブルシューティングが簡単になりました。 [詳細情報](../sms/sms-webhook.md)
+
+#### WhatsApp
+
+* **WhatsApp インタラクティブボタンとトラッキング** - Journey OptimizerのWhatsAppは、テンプレートやユースケースに必要なインタラクティブボタンと、組み込みのインタラクショントラッキングをサポートするようになりました。これにより、エンゲージメントを測定し、他のチャネルレポートと並行してパフォーマンスを分析できます。
+
+#### Adobe Experience Managerとの連携
+
+* **コンテンツアドバイザーセレクター** - Adobe Experience Manager Assetsおよびコンテンツフラグメントセレクターは、すべてのAEM AssetsおよびAEM コンテンツフラグメントを参照、検索、フィルタリング、アクセスできる統合モーダルである&#x200B;**コンテンツアドバイザーセレクター**&#x200B;に置き換えられました。 Dynamic Media レンディションのサポートも含まれており、Dynamic Media アセットが選択されているときにUIから画像レンディションを追加することができます。 この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。
+
+* **Dynamic Mediaを使用したカウントダウンタイマーによるオープンタイムパーソナライゼーション** - Journey OptimizerとAdobe Experience Manager Dynamic Mediaの統合により、Dynamic Media テンプレートのオープンタイムパーソナライゼーションが可能になり、詳細にパーソナライズされたユースケースが実現します。 顧客は、Adobe Experience Managerでパーソナライズされたテンプレートを作成、公開し、Journey Optimizerでデータを公開時にレンダリングして使用できます。
+
+* **Adobe Experience Manager コンテンツフラグメントのバリエーションのサポート** - Adobe Experience Manager コンテンツフラグメントを挿入する際に、**コンテンツフラグメントのバリエーション** （言語やチャネルのバリエーションなど）を選択でき、ロケールや多言語シナリオの処理が改善されました。 [詳細情報](../integrations/aem-fragments.md#aem-variations)
+
+  この機能は、一連の組織でのみ使用できます（限定提供）。アクセス権を取得するには、アドビ担当者にお問い合わせください。
+
+  公開日：2026年4月3日（PT）
+
+* **オーサリング中のAdobe Experience Manager コンテンツフラグメントのコンテキスト** - テキストフィールドとコンテンツブロック間を移動しても、コンテンツフラグメントの選択範囲はアクティブなままなので、**AEM コンテンツアドバイザー**&#x200B;を毎回開き直さずに、さらにフラグメントフィールドを追加できます。 [詳細情報](../integrations/aem-fragments.md)
+
+  この機能は、一連の組織でのみ使用できます（限定提供）。アクセス権を取得するには、アドビ担当者にお問い合わせください。
+
+  公開日：2026年4月1日（PT）
+
+#### 設定
+
+* **URL パラメーター暗号化キーに対する特定の権限** - URL パラメーター暗号化キーにアクセスして管理するには、新しい権限が作成されました。 これで、**View Key Registry**&#x200B;および&#x200B;**Manage Key Registry**&#x200B;権限が付与されている必要があります。
+
+#### オーケストレーションキャンペーン
+
+* **Data Modelerの機能強化** - オーケストレーションされたリレーショナルスキーマが、複数のフィールドにまたがる複合キーをサポートするようになりました。 DDL ファイルからスキーマを読み込むと、列挙も行われ、DDLまたはExcel ファイルから読み込むと、テーブル間に複合関係が自動的に作成されます。 エンティティ関係ビューで、ファイルのアップロード後に、テーブル間のフィールドペアリングの完全なセットが複合リンクに表示されるようになりました。
+
+* **オーケストレーションされたキャンペーンのグローバル変数** - オーケストレーションされたキャンペーンは、ワークフロー内のすべてのアクティビティで一度定義して再利用できるグローバル変数をサポートするようになり、設定を簡素化し、動的な値、式、コンテンツのパーソナライゼーションで一貫性を確保します。
+
 #### メールデザイン
-
-* **電子メール Designerのパーソナライゼーション式のAI アシスタント** – 電子メール Designerで、コンポーネントを選択し、コンテキストツールバーの&#x200B;**式を追加**&#x200B;を使用して、必要なパーソナライゼーションを平易な言葉で説明し、生成された式を確認して、デザイナーから離れることなく挿入します。 [詳細情報](../content-management/generative-personalization-expressions.md#generate-email-designer)
-
-  公開日：2026年4月15日（PT）
 
 * **電子メールコンテンツ用の高度なHTML エディター** – 高度なHTML モードを使用すると、電子メール DesignerでコンテンツのHTML ソースを編集したり、ソースに高度な式（条件など）を追加したり、変更内容を失うことなくHTML ビューとデスクトップビューを切り替えたりできます。
 
   以前はメールコンテンツテンプレートでのみ使用できましたが、この機能は、メールコンテンツテンプレートに加えて、メールDesignerの&#x200B;**メール** コンテンツ（ジャーニーやキャンペーンで作成されたメールなど）にデプロイされました。 現在、限定提供されています。アクセス権を取得するには、Adobe担当者にお問い合わせください。 [詳細情報](../email/email-expert-mode.md)
 
   公開日：2026年4月9日（PT）
+
+* **電子メール Designerのパーソナライゼーション式のAI アシスタント** – 電子メール Designerで、コンポーネントを選択し、コンテキストツールバーの&#x200B;**式を追加**&#x200B;を使用して、必要なパーソナライゼーションを平易な言葉で説明し、生成された式を確認して、デザイナーから離れることなく挿入します。 [詳細情報](../content-management/generative-personalization-expressions.md#generate-email-designer)
+
+  公開日：2026年4月15日（PT）
 
 #### ジャーニーパスの最適化
 
@@ -207,29 +398,15 @@ ht-degree: 21%
 
   公開日：2026年4月7日（PT）
 
-#### Adobe Experience Managerとの連携
-
-* **Adobe Experience Manager コンテンツフラグメントのバリエーションのサポート** - Adobe Experience Manager コンテンツフラグメントを挿入する際に、**コンテンツフラグメントのバリエーション** （言語やチャネルのバリエーションなど）を選択でき、ロケールや多言語シナリオの処理が改善されました。 [詳細情報](../integrations/aem-fragments.md#aem-variations)
-
-  この機能は、一連の組織でのみ使用できます（限定提供）。アクセス権を取得するには、アドビ担当者にお問い合わせください。
-
-  公開日：2026年4月3日（PT）
-
-* **オーサリング中のAdobe Experience Manager コンテンツフラグメントのコンテキスト** - テキストフィールドとコンテンツブロック間を移動しても、コンテンツフラグメントの選択範囲はアクティブなままなので、**AEM コンテンツアドバイザー**&#x200B;を毎回開き直さずに、さらにフラグメントフィールドを追加できます。 [詳細情報](../integrations/aem-fragments.md)
-
-  この機能は、一連の組織でのみ使用できます（限定提供）。アクセス権を取得するには、アドビ担当者にお問い合わせください。
-
-  公開日：2026年4月1日（PT）
-
 
 ## 26年3月のリリースノート {#march-26-rn}
 
-[新機能](#march-26-features)および[改善点](#march-26-improv)のセクションでは、既に使用可能な機能について説明しています。 [近日リリース予定](#coming-soon)の節には、3月後半にリリース予定の機能と機能強化が一覧表示されます。
+[新機能](#march-26-features)および[改善点](#march-26-improv)のセクションでは、既に使用可能な機能について説明しています。<!--The [Coming soon](#coming-soon) section lists features and improvements scheduled for release later in March.-->
 
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 **リリース日**: 2026年3月24日～25日
@@ -419,7 +596,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p><strong>Adobe Experience Platform Agent Orchestrator</strong>を搭載した<strong>Journey Agent</strong>は、Journey Optimizerで利用でき、自然言語インターフェイスを通じてジャーニーを分析できます。 また、Journey Agentでチャネル固有のコンテンツを直接生成および管理し、電子メールやプッシュ通知などのチャネル用のコンテンツを作成したり、テンプレートを適用およびプレビューしたり、プロンプトを通じてトーンやスタイルを調整したり、コンテキストに沿った編集のために<strong>Content Designer</strong>でコンテンツを開いたりすることもできます。</p>
 <p>この機能は、一連の組織でのみ使用できます（限定提供）。アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
-<p>詳しくは、<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=ja" target="_blank">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html" target="_blank">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2026年3月4日（PT）</p>
 </td>
 </tr>
