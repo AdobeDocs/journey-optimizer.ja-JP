@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 3e2fbd4a800bdba143caaf0350026e6cd959271d
+source-git-commit: 89b884cf1feb7af9fe52b14b4ae706013ed70247
 workflow-type: tm+mt
-source-wordcount: '3944'
+source-wordcount: '3965'
 ht-degree: 16%
 
 ---
@@ -326,7 +326,7 @@ ht-degree: 16%
 
 * Campaign ダッシュボードの&#x200B;**ブランド調整スコア** - Campaign ダッシュボード内でブランド調整スコアを直接評価して、コンテンツがブランドに即していることを確認できるようになりました。 これにより、コンテンツデザイナーを開くことなく、ガイドラインを一目で確認できます。
 
-* **プロンプトアシスタントの機能強化** - プロンプトが曖昧であったり、不完全であったり、複数の目標が混在している場合、**プロンプトアシスタント**&#x200B;は、生成する前に、質問を明確にしたり、リクエストの書き換えをより明確に提案したりできるようになりました。これにより、アシスタントが応答する前に必要なものを特定できるようになり、一貫性が向上し、再試行を減らすことができます。 [詳細情報](../content-management/ai-assistant-prompting-guide.md)
+* **プロンプトアシスタントの機能強化** - プロンプトアシスタントは、ユーザープロンプトをリアルタイムで分析し、明瞭性、完全性、コンテキストのギャップを特定することで、AI コンテンツ生成を強化します。 書き換えの改善を提案し、オーディエンス、トーン、意図などの主要な詳細をプロンプトに反映するための、実用的なガイダンスを提供します。 また、この機能は、オーディエンスが生成前に入力を最適化できるように、ターゲットを絞った明確な質問をすることもできます。 これにより、より少ない反復で、より正確で高品質の出力が可能になります。 [詳細情報](../content-management/ai-assistant-prompting-guide.md)
 
 #### 決定
 
@@ -418,7 +418,7 @@ ht-degree: 16%
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 **リリース日**: 2026年3月24日～25日
@@ -608,7 +608,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p><strong>Adobe Experience Platform Agent Orchestrator</strong>を搭載した<strong>Journey Agent</strong>は、Journey Optimizerで利用でき、自然言語インターフェイスを通じてジャーニーを分析できます。 また、Journey Agentでチャネル固有のコンテンツを直接生成および管理し、電子メールやプッシュ通知などのチャネル用のコンテンツを作成したり、テンプレートを適用およびプレビューしたり、プロンプトを通じてトーンやスタイルを調整したり、コンテキストに沿った編集のために<strong>Content Designer</strong>でコンテンツを開いたりすることもできます。</p>
 <p>この機能は、一連の組織でのみ使用できます（限定提供）。 アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
-<p>詳しくは、<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=ja" target="_blank">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html" target="_blank">詳細なドキュメント</a>を参照してください。</p>
 <p>ご利用いただけます：2026年3月4日（PT）</p>
 </td>
 </tr>
