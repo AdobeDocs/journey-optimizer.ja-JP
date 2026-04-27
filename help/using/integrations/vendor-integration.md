@@ -1159,7 +1159,7 @@ Adobe Targetには、使用権限に応じて、サーバーサイドまたは�
 
 Journey Optimizerでこの統合を設定するには、次の手順を使用します。 リクエストの詳細については、**統合フィールドのサンプル**&#x200B;を参照し、これらの値を環境のベンダードキュメントで確認してください。
 
-1. [統合の操作](integrations.md)に従います。 配信の呼び出しは、多くの場合、**POST**&#x200B;とJSON本文で行われます。 [&#x200B; ターゲット認証](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication){target="_blank"}ごとにOAuthを設定し、サンプル応答を貼り付け、フィールドをマッピングし、想定されるボリュームでテストします。
+1. [統合の操作](integrations.md)に従います。 配信の呼び出しは、多くの場合、**POST**&#x200B;とJSON本文で行われます。 [&#x200B; ターゲット認証](https://experienceleague.adobe.com/ja/docs/target-dev/developer/api/configure-authentication){target="_blank"}ごとにOAuthを設定し、サンプル応答を貼り付け、フィールドをマッピングし、想定されるボリュームでテストします。
 
 1. Journey Optimizerで、**[!UICONTROL Configurations]** > **[!UICONTROL Manage]**&#x200B;に移動し、**[!UICONTROL Create Integration]**&#x200B;を選択します。
 
@@ -1212,7 +1212,7 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 **認証**
 
-[Target認証設定](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication)を参照し、JSONをペイロードに追加してください。
+[Target認証設定](https://experienceleague.adobe.com/ja/docs/target-dev/developer/api/configure-authentication)を参照し、JSONをペイロードに追加してください。
 
 **要求ペイロード**
 
