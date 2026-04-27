@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: c8eb1df8094843049077a18118d2c8f7c0b57fe3
+source-git-commit: e4c298fb1c47501920a27a93b43878327b6c5861
 workflow-type: tm+mt
-source-wordcount: '3209'
+source-wordcount: '3275'
 ht-degree: 91%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 91%
    + {hide-from-toc}[早期リリースノート &#x200B;](using/rn/e-release-notes.md)
    + [最新のリリースノート](using/rn/release-notes.md)
    + 以前のリリースノート {#previous-rn-new}
-      + {hide-from-toc}[以前のリリースノート](/help/rp_landing_pages/previous-rn-new-landing-page.md)
+      + {hide-from-toc}[以前のリリースノート &#x200B;](/help/rp_landing_pages/previous-rn-new-landing-page.md)
       + [2026](using/rn/release-notes-2026.md)
       + [2025](using/rn/release-notes-2025.md)
       + [2024年](using/rn/release-notes-2024.md)
@@ -47,7 +47,7 @@ ht-degree: 91%
    + 効率的な作業 {#work-efficiently}
       + [インターフェイスの操作](using/start/user-interface.md)
       + [検索、フィルター、整理](using/start/search-filter-categorize.md)
-      + [&#x200B; トラブルシューティングに関するFAQ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [トラブルシューティングに関する FAQ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [アクセシビリティ](using/start/accessibility.md)
       + {hide-from-toc}[ジャーニーとキャンペーン &#x200B;](using/start/journeys-vs-campaigns.md)
 + ジャーニー {#orchestrate-journeys}
@@ -505,7 +505,7 @@ ht-degree: 91%
       + {hide-from-toc}[&#x200B; カウントダウンタイマーを挿入](using/integrations/countdown.md)
       + [Dynamic Media の操作](using/integrations/aem-dynamic.md)
       + [GenStudio for Performance Marketing の操作](using/integrations/genstudio.md)
-      + {hide-from-toc}[統合の操作](using/integrations/external-sources.md)
+      + {hide-from-toc}[統合の操作](using/integrations/integrations.md)
       + {hide-from-toc}[&#x200B; ベンダー統合の基本を学ぶ](using/integrations/vendor-integration-gs.md)
       + {hide-from-toc}[使用可能なベンダー](using/integrations/vendor-integration.md)
       + {hide-from-toc}[FAQ](using/integrations/vendor-integration-faq.md)
@@ -628,7 +628,7 @@ ht-degree: 91%
          + [ID フィールド](using/reports/sharing-identity-fields.md)
       + [クエリの例](using/reports/query-examples.md)
 + 決定機能 {#decisioning}
-   + [意思決定機能](/help/rp_landing_pages/decisioning-landing-page.md)
+   + [決定機能](/help/rp_landing_pages/decisioning-landing-page.md)
    + [決定機能の基本を学ぶ](using/experience-decisioning/gs-decision.md)
    + 決定 {#experience-decisioning}
       + [決定](/help/rp_landing_pages/experience-decisioning-landing-page.md)
@@ -879,7 +879,7 @@ ht-degree: 91%
       + [データセットの有効期間（TTL）ガードレール](using/data/datasets-ttl.md)
       + [Journey Optimizer データセットのエクスポート](using/data/export-datasets.md)
       + [クエリの例](using/data/datasets-query-examples.md)
-      + [ビルトインスキーマ／](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja)
+      + [ビルトインスキーマ >](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja)
    + [Adobe Experience Platform データの使用](using/data/lookup-aep-data.md)
    + [クエリ](using/data/get-started-queries.md)
 + チャネル設定 {#configuration}
@@ -972,7 +972,7 @@ ht-degree: 91%
    + [プライバシー](/help/rp_landing_pages/privacy-landing-page.md)
    + [プライバシーの基本を学ぶ](using/privacy/get-started-privacy.md)
    + [プライバシーリクエスト](using/privacy/requests.md)
-   + [&#x200B; リソースに対する監査アクション](using/privacy/audit-logs.md)
+   + [リソースに対する監査アクション](using/privacy/audit-logs.md)
    + [データライフサイクル操作の実行](using/privacy/data-hygiene.md)
    + 同意を管理 {#consent}
       + [同意を管理](/help/rp_landing_pages/consent-landing-page.md)

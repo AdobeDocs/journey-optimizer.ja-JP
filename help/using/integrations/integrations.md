@@ -10,7 +10,7 @@ level: Beginner
 keywords: 統合
 hide: true
 exl-id: 104f283e-f6a5-431b-919a-d97b83d19632
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: e4c298fb1c47501920a27a93b43878327b6c5861
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 97%
@@ -23,7 +23,7 @@ ht-degree: 97%
 
 目次：
 
-* **[統合の操作](external-sources.md)**
+* **[統合の操作](integrations.md)**
 * [ベンダーとの連携を始める](vendor-integration-gs.md)
 * [利用可能なベンダー](vendor-integration.md)
 * [FAQ](vendor-integration-faq.md)
@@ -32,7 +32,7 @@ ht-degree: 97%
 
 ## 概要
 
-**統合**&#x200B;機能により、サードパーティのデータソースを Adobe Journey Optimizer にシームレスに統合できます。この機能により、外部データとコンテンツソースのキャンペーンへの統合が効率化され、複数のチャネルをまたいで高度にパーソナライズされた動的なメッセージを配信できます。
+**統合**&#x200B;機能により、サードパーティのデータソースを Adobe Journey Optimizer にシームレスに統合できます。 この機能により、外部データとコンテンツソースのキャンペーンへの統合が効率化され、複数のチャネルをまたいで高度にパーソナライズされた動的なメッセージを配信できます。
 
 この機能を使用して、外部データにアクセスし、次のようなサードパーティツールからコンテンツを取り込むことができます。
 
@@ -47,7 +47,7 @@ ht-degree: 97%
 
 * アウトバウンドチャネルのみがサポートされます。
 
-* API 呼び出し応答では、JSON 形式のみがサポートされます。HTML と Raw バイナリ画像の出力は使用できません。
+* API 呼び出し応答では、JSON 形式のみがサポートされます。 HTML と Raw バイナリ画像の出力は使用できません。
 
 * 特定のコンテンツをターゲットにする取得 API のみがサポートされ、リスト API は使用できません。
 
@@ -77,7 +77,7 @@ ht-degree: 97%
 
 1. GET と POST の間で **[!UICONTROL HTTP メソッド]**&#x200B;を選択します。
 
-1. 統合の必要に応じて、「**[!UICONTROL ヘッダーを追加]**」や「**[!UICONTROL クエリパラメーターを追加]**」をクリックします。各パラメーターに対して、次の詳細情報を入力します。
+1. 統合の必要に応じて、「**[!UICONTROL ヘッダーを追加]**」や「**[!UICONTROL クエリパラメーターを追加]**」をクリックします。 各パラメーターに対して、次の詳細情報を入力します。
 
    * **[!UICONTROL パラメーター]**：パラメーターの参照に内部的に使用される一意の ID。
 
@@ -95,11 +95,11 @@ ht-degree: 97%
 
    * **[!UICONTROL 認証なし]**：資格情報を必要としないオープンな API の場合。
 
-   * **[!UICONTROL API キー]**：静的 API キーを使用してリクエストを認証します。**[!UICONTROL API キー名]**、**[!UICONTROL API キー値]**&#x200B;を入力し、**[!UICONTROL 場所]**&#x200B;を指定します。
+   * **[!UICONTROL API キー]**：静的 API キーを使用してリクエストを認証します。 **[!UICONTROL API キー名]**、**[!UICONTROL API キー値]**&#x200B;を入力し、**[!UICONTROL 場所]**&#x200B;を指定します。
 
-   * **[!UICONTROL 基本認証]**：標準の HTTP 基本認証を使用します。**[!UICONTROL ユーザー名]**&#x200B;と&#x200B;**[!UICONTROL パスワード]**&#x200B;を入力します。
+   * **[!UICONTROL 基本認証]**：標準の HTTP 基本認証を使用します。 **[!UICONTROL ユーザー名]**&#x200B;と&#x200B;**[!UICONTROL パスワード]**&#x200B;を入力します。
 
-   * **[!UICONTROL OAuth 2.0]**：OAuth 2.0 プロトコルを使用して認証します。![編集](assets/do-not-localize/Smock_Edit_18_N.svg) アイコンをクリックして、**[!UICONTROL ペイロード]**&#x200B;を設定または更新します。
+   * **[!UICONTROL OAuth 2.0]**：OAuth 2.0 プロトコルを使用して認証します。 ![編集](assets/do-not-localize/Smock_Edit_18_N.svg) アイコンをクリックして、**[!UICONTROL ペイロード]**&#x200B;を設定または更新します。
 
    ![](assets/external-integration-config-4.png)
 
@@ -119,11 +119,11 @@ ht-degree: 97%
 
 ## パーソナライゼーションに対する外部統合の使用 {#personalization}
 
-マーケターは、設定済みの統合を使用してコンテンツをパーソナライズできます。次の手順に従います。
+マーケターは、設定済みの統合を使用してコンテンツをパーソナライズできます。 次の手順に従います。
 
 1. キャンペーンコンテンツにアクセスし、テキストまたは HTML **[!UICONTROL コンポーネント]**&#x200B;から「**[!UICONTROL パーソナライゼーションを追加]**」をクリックします。
 
-[コンポーネントの詳細情報](../email/content-components.md)
+   [コンポーネントの詳細情報](../email/content-components.md)
 
    ![](assets/external-integration-content-1.png)
 
