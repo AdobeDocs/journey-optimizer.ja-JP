@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 4c42f2ec6b427cf48550fc38a81d47c16a08b5fc
+source-git-commit: a5e4bc0d71ccecf9e694fe6621a9987e11178b94
 workflow-type: tm+mt
-source-wordcount: '4017'
+source-wordcount: '4016'
 ht-degree: 16%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 16%
 <tr>
 <td>
 <p>これで、ジャーニーを<strong> シミュレーション </strong>に設定できます。 このモードを使用すると、<strong> シミュレートされたユーザー</strong>を使用してロジックを検証できます。 これらはシミュレーション専用に作成された一時的なプロファイルで、Adobe Experience Platformで永続的なテストプロファイルを管理することなく、自由にテストできます。</p>
-<p>この統合は、現在、Healthcare Shield または Privacy and Security Shield では使用できません。</p>
+<p>この機能は、必須の機能を備えた限定的な可用性としてすべてのお客様が利用できます。</p>
 </td>
 </tr>
 </tbody>
@@ -434,7 +434,7 @@ ht-degree: 16%
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 **リリース日**: 2026年3月24日～25日
@@ -624,7 +624,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <td>
 <p><strong>Adobe Experience Platform Agent Orchestrator</strong>を搭載した<strong>Journey Agent</strong>は、Journey Optimizerで利用でき、自然言語インターフェイスを通じてジャーニーを分析できます。 また、Journey Agentでチャネル固有のコンテンツを直接生成および管理し、電子メールやプッシュ通知などのチャネル用のコンテンツを作成したり、テンプレートを適用およびプレビューしたり、プロンプトを通じてトーンやスタイルを調整したり、コンテキストに沿った編集のために<strong>Content Designer</strong>でコンテンツを開いたりすることもできます。</p>
 <p>この機能は、一連の組織でのみ使用できます（限定提供）。 アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
-<p>詳しくは、<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html?lang=ja" target="_blank">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="https://experienceleague.adobe.com/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent.html" target="_blank">詳細なドキュメント</a>を参照してください。</p>
 <p>ご利用いただけます：2026年3月4日（PT）</p>
 </td>
 </tr>
