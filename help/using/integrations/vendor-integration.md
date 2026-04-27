@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 hide: true
 keywords: 統合、ベンダー、サードパーティ
-source-git-commit: e4c298fb1c47501920a27a93b43878327b6c5861
+source-git-commit: eab38d6c5f07af0f2dc403abaf0deb3a09f0d392
 workflow-type: tm+mt
 source-wordcount: '9327'
 ht-degree: 7%
@@ -58,17 +58,17 @@ Contentfulは、RESTまたはGraphQL経由の構造化されたエントリと�
 
 Journey Optimizerでこの統合を設定するには、次の手順を使用します。 リクエストの詳細については、**統合フィールドのサンプル**&#x200B;を参照し、これらの値を環境のベンダードキュメントで確認してください。
 
-1. Journey Optimizerで、設定/管理に移動し、「統合を作成」を選択します。
+1. [統合の操作](integrations.md)に従います。 Content Delivery APIと配信トークンを使用して&#x200B;**GET**&#x200B;を設定し、サンプル JSONを貼り付け、フィールドをマッピングし、テストしてアクティブ化します。
+
+1. Journey Optimizerで、**[!UICONTROL Configurations]** > **[!UICONTROL Manage]**&#x200B;に移動し、**[!UICONTROL Create Integration]**&#x200B;を選択します。
 
 1. スペースなしで統合名を入力します。
 
 1. Contentful Content Delivery API （CDA） URLを使用してエンドポイントを設定します：`https://cdn.contentful.com/spaces/{space_id}/environments/{environment_id}/entries/{entry_id}`
 
-1. HTTP メソッドを選択します：GET。
+1. HTTP メソッドを選択：**GET**。
 
-1. 認証ヘッダーを追加：
-
-   認証：ベアラー&lt;CONTENTFUL_DELIVERY_TOKEN>
+1. 認証を追加します。 以下の&#x200B;**サンプル統合フィールド**&#x200B;に示すように、**`access_token`** **クエリ** パラメーターをContent Delivery API トークンに設定します。 Contentfulは、`Authorization: Bearer` ヘッダーで同じトークンを受け入れます。統合フィールドでサポートされているフィールドを使用してください。
 
 1. 必要に応じてパス変数（エントリ ID、ロケールなど）を追加します。
 
@@ -88,7 +88,7 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 | フィールド | 値 |
 | -- | -- |
-| **URL** | `https://cdn.contentful.com/spaces/{{spaceID}}/entries/environments/{{environment_id}}` |
+| **URL** | `https://cdn.contentful.com/spaces/{{spaceID}}/environments/{{environment_id}}/entries/{{entry_id}}` |
 | 応答ペイロード | API応答に基づいて、オーサリング中に使用する必要な応答フィールドを選択して設定します。 |
 | ポリシー | 必要に応じてポリシーレベルの詳細を設定します。 |
 | **HTTP メソッド** | `GET` |
@@ -99,6 +99,7 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 | --- | --- | --- |
 | `spaceID` | `spaceID` | `<YOUR_SPACE_ID>` |
 | `environment_id` | `environment_id` | `<YOUR_ENV_ID>` |
+| `entry_id` | `entry_id` | `<YOUR_ENTRY_ID>` |
 
 **ヘッダー**
 
@@ -142,14 +143,15 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 1. [統合の操作](integrations.md)に従います。 ダウンロード注文パスに&#x200B;**GET**&#x200B;を設定し、Sitecoreごとに認証ヘッダーを設定し、コンテキストから`id`をマッピングし、サンプル JSONを貼り付け、フィールドをマッピングし、アセットの遅延のタイムアウトを調整します。
 
-1. Journey Optimizerで、設定/管理に移動し、「統合を作成」を選択します。
+1. Journey Optimizerで、**[!UICONTROL Configurations]** > **[!UICONTROL Manage]**&#x200B;に移動し、**[!UICONTROL Create Integration]**&#x200B;を選択します。
 
 1. スペースなしで統合名を入力します。
 
 1. Content Hub APIを使用してエンドポイントを設定します（例：IDによるダウンロード順序）。 URL パターンの例：
 
-1. `https://xmapps-api.sitecorecloud.io/api/v1/downloadorders/{id}`
-1. 設定テーブルに表示されるHTTP メソッド（特に明記されていない限り、通常はGET）を選択します。
+   `https://xmapps-api.sitecorecloud.io/api/v1/downloadorders/{id}`
+
+1. 設定テーブルに表示されるHTTP メソッド（通常はGET）を選択します。特に指定がない限り、このメソッドを選択します。
 
 1. テーブルおよびベンダードキュメントで指定されたとおりに認証（ヘッダー、クエリパラメーター、OAuth）を正確に設定します。
 
@@ -226,14 +228,15 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 1. [統合の操作](integrations.md)に従います。 一括カタログ呼び出しよりも単一の製品取得を好み、ベアラー認証を設定し、サンプル JSONを貼り付け、フィールドをマップし、テストし、アクティベートします。
 
-1. Journey Optimizerで、設定/管理に移動し、「統合を作成」を選択します。
+1. Journey Optimizerで、**[!UICONTROL Configurations]** > **[!UICONTROL Manage]**&#x200B;に移動し、**[!UICONTROL Create Integration]**&#x200B;を選択します。
 
 1. スペースなしで統合名を入力します。
 
 1. Salsify製品APIを使用してエンドポイントを設定します。 URL パターンの例：
 
-1. `https://api.salsify.com/v1/...`
-1. 設定テーブルに表示されるHTTP メソッド（特に明記されていない限り、通常はGET）を選択します。
+   `https://api.salsify.com/v1/...`
+
+1. 設定テーブルに表示されるHTTP メソッド（通常はGET）を選択します。特に指定がない限り、このメソッドを選択します。
 
 1. テーブルおよびベンダードキュメントで指定されたとおりに認証（ヘッダー、クエリパラメーター、OAuth）を正確に設定します。
 
@@ -311,14 +314,15 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 1. [統合の操作](integrations.md)に従います。 コンテンツスタックが必要とする`api_key`と`access_token`の両方のヘッダーを追加し、`environment` クエリパラメーターを含め、サンプル JSONを貼り付け、フィールドをマップ、テスト、アクティベートします。
 
-1. Journey Optimizerで、設定/管理に移動し、「統合を作成」を選択します。
+1. Journey Optimizerで、**[!UICONTROL Configurations]** > **[!UICONTROL Manage]**&#x200B;に移動し、**[!UICONTROL Create Integration]**&#x200B;を選択します。
 
 1. スペースなしで統合名を入力します。
 
 1. Content Delivery APIを使用してエンドポイントを設定します。 URL パターンの例：
 
-1. `https://cdn.contentstack.io/v3/content_types/{content_type_uid}/entries/{entry_uid}`
-1. 設定テーブルに表示されるHTTP メソッド（特に明記されていない限り、通常はGET）を選択します。
+   `https://cdn.contentstack.io/v3/content_types/{content_type_uid}/entries/{entry_uid}`
+
+1. 設定テーブルに表示されるHTTP メソッド（通常はGET）を選択します。特に指定がない限り、このメソッドを選択します。
 
 1. テーブルおよびベンダードキュメントで指定されたとおりに認証（ヘッダー、クエリパラメーター、OAuth）を正確に設定します。
 
@@ -398,14 +402,15 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 1. [統合の操作](integrations.md)に従います。 **GET**&#x200B;をベアラートークンと共に使用し、クエリフラグに必要な属性オプションのみをリクエストし、サンプル JSONを貼り付け、最小限の属性セットをマッピングし、テストし、アクティベートします。
 
-1. Journey Optimizerで、設定/管理に移動し、「統合を作成」を選択します。
+1. Journey Optimizerで、**[!UICONTROL Configurations]** > **[!UICONTROL Manage]**&#x200B;に移動し、**[!UICONTROL Create Integration]**&#x200B;を選択します。
 
 1. スペースなしで統合名を入力します。
 
 1. Akeneo REST APIを使用してエンドポイントを設定します。 URL パターンの例：
 
-1. `https://{pim-host}/api/rest/v1/...`
-1. 設定テーブルに表示されるHTTP メソッド（特に明記されていない限り、通常はGET）を選択します。
+   `https://{pim-host}/api/rest/v1/...`
+
+1. 設定テーブルに表示されるHTTP メソッド（通常はGET）を選択します。特に指定がない限り、このメソッドを選択します。
 
 1. テーブルおよびベンダードキュメントで指定されたとおりに認証（ヘッダー、クエリパラメーター、OAuth）を正確に設定します。
 
@@ -488,14 +493,15 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 1. [統合の操作](integrations.md)に従います。 モジュールが公開するパブリック配信URL パターンを使用し、Magnolia ガイダンス（匿名の配信と保護されたコンテンツのトークン）ごとに認証し、サンプル JSONの貼り付け、フィールドのマッピング、テスト、アクティベートを行います。
 
-1. Journey Optimizerで、設定/管理に移動し、「統合を作成」を選択します。
+1. Journey Optimizerで、**[!UICONTROL Configurations]** > **[!UICONTROL Manage]**&#x200B;に移動し、**[!UICONTROL Create Integration]**&#x200B;を選択します。
 
 1. スペースなしで統合名を入力します。
 
 1. Magnolia REST （配信）を使用してエンドポイントを設定します。 URL パターンの例：
 
-1. `https://{author-or-public}/.rest/delivery/...`
-1. 設定テーブルに表示されるHTTP メソッド（特に明記されていない限り、通常はGET）を選択します。
+   `https://{author-or-public}/.rest/delivery/...`
+
+1. 設定テーブルに表示されるHTTP メソッド（通常はGET）を選択します。特に指定がない限り、このメソッドを選択します。
 
 1. テーブルおよびベンダードキュメントで指定されたとおりに認証（ヘッダー、クエリパラメーター、OAuth）を正確に設定します。
 
@@ -535,7 +541,7 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 | --- | --- | --- | --- |
 | API キー | 認証 | `<bearer_token>` | ヘッダー |
 
-注意：配信APIは、ログインを必要としないコンテンツにrest-anonymous役割を使用することです。 保護されたデータへの安全なアクセスには、API トークンやOAuth 2.0などのより堅牢な方法が推奨されます
+注意：配信APIは、ログインを必要としないコンテンツにrest-anonymous役割を使用することです。 保護されたデータへの安全なアクセスには、API トークンやOAuth 2.0などのより堅牢な方法が適しています。
 
 +++
 
@@ -570,15 +576,15 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 1. [統合の操作](integrations.md)に従います。 クラスターのベース URLの設定、必須ヘッダー（`X-APP-ID`、`X-APP-TOKEN`）の追加、フィルターまたはIDを使用したリスト エンドポイントの制約、サンプル JSONの貼り付け、フィールドのマッピング、テスト、アクティベート。
 
-1. Journey Optimizerで、設定/管理に移動し、「統合を作成」を選択します。
+1. Journey Optimizerで、**[!UICONTROL Configurations]** > **[!UICONTROL Manage]**&#x200B;に移動し、**[!UICONTROL Create Integration]**&#x200B;を選択します。
 
 1. スペースなしで統合名を入力します。
 
-1. ロイヤルティ / REST APIを使用してエンドポイントを設定します。 URL パターンの例：
+1. ロイヤルティ / REST APIを使用してエンドポイントを設定します。 [Voucherify](https://docs.voucherify.io/){target="_blank"}ごとに、お住まいの地域の&#x200B;**クラスター**&#x200B;のホストとパスを設定します。 URL パターンの例：
 
-1. お住まいの地域のVoucherify OpenAPI ベース URL
+   `https://{cluster}.voucherify.io/`
 
-1. 設定テーブルに表示されるHTTP メソッド（特に明記されていない限り、通常はGET）を選択します。
+1. 設定テーブルに表示されるHTTP メソッド（通常はGET）を選択します。特に指定がない限り、このメソッドを選択します。
 
 1. テーブルおよびベンダードキュメントで指定されたとおりに認証（ヘッダー、クエリパラメーター、OAuth）を正確に設定します。
 
@@ -669,14 +675,15 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 1. [統合の操作](integrations.md)に従います。 必要なプロファイルまたは達成パスで&#x200B;**GET**&#x200B;を使用し、`Authorization: ApiKey-v1 <key>`を文書化して設定し、サンプル JSONを貼り付け、フィールドをマップし、テストしてアクティブ化します。
 
-1. Journey Optimizerで、設定/管理に移動し、「統合を作成」を選択します。
+1. Journey Optimizerで、**[!UICONTROL Configurations]** > **[!UICONTROL Manage]**&#x200B;に移動し、**[!UICONTROL Create Integration]**&#x200B;を選択します。
 
 1. スペースなしで統合名を入力します。
 
 1. Talon.One統合APIを使用してエンドポイントを設定します。 URL パターンの例：
 
-1. `https://{your-domain}.talon.one/v1/...`
-1. 設定テーブルに表示されるHTTP メソッド（特に明記されていない限り、通常はGET）を選択します。
+   `https://{your-domain}.talon.one/v1/...`
+
+1. 設定テーブルに表示されるHTTP メソッド（通常はGET）を選択します。特に指定がない限り、このメソッドを選択します。
 
 1. テーブルおよびベンダードキュメントで指定されたとおりに認証（ヘッダー、クエリパラメーター、OAuth）を正確に設定します。
 
@@ -759,15 +766,13 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 1. [統合の操作](integrations.md)に従います。 ベンダーの認証（クエリのAPI キーなど）を使用して&#x200B;**GET**&#x200B;を設定し、ポリシーに対するPIIの公開を避け、サンプル JSONを貼り付け、フィールドをマッピングし、テストしてアクティブ化します。
 
-1. Journey Optimizerで、設定/管理に移動し、「統合を作成」を選択します。
+1. Journey Optimizerで、**[!UICONTROL Configurations]** > **[!UICONTROL Manage]**&#x200B;に移動し、**[!UICONTROL Create Integration]**&#x200B;を選択します。
 
 1. スペースなしで統合名を入力します。
 
-1. Antavo Enterprise APIを使用してエンドポイントを設定します。 URL パターンの例：
+1. Antavo Enterprise APIを使用してエンドポイントを設定します。
 
-1. テナントで文書化されたAntavo スタックベース URLごと
-
-1. 設定テーブルに表示されるHTTP メソッド（特に明記されていない限り、通常はGET）を選択します。
+1. 設定テーブルに表示されるHTTP メソッド（通常はGET）を選択します。特に指定がない限り、このメソッドを選択します。
 
 1. テーブルおよびベンダードキュメントで指定されたとおりに認証（ヘッダー、クエリパラメーター、OAuth）を正確に設定します。
 
@@ -843,14 +848,15 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 1. [統合の操作](integrations.md)に従います。 チームが承認したロイヤルティ統合エンドポイントを使用して、Salesforce OAuthを完成させ、サンプル JSONをペーストし、フィールドをマッピングし、複合APIの制限を尊重し、テストし、アクティベートします。
 
-1. Journey Optimizerで、設定/管理に移動し、「統合を作成」を選択します。
+1. Journey Optimizerで、**[!UICONTROL Configurations]** > **[!UICONTROL Manage]**&#x200B;に移動し、**[!UICONTROL Create Integration]**&#x200B;を選択します。
 
 1. スペースなしで統合名を入力します。
 
 1. Salesforce Loyalty Management RESTを使用してエンドポイントを設定します。 URL パターンの例：
 
-1. `https://{instance}.salesforce.com/services/data/vXX.X/...`
-1. 設定テーブルに表示されるHTTP メソッド（特に明記されていない限り、通常はGET）を選択します。
+   `https://{instance}.salesforce.com/services/data/vXX.X/...`
+
+1. 設定テーブルに表示されるHTTP メソッド（通常はGET）を選択します。特に指定がない限り、このメソッドを選択します。
 
 1. テーブルおよびベンダードキュメントで指定されたとおりに認証（ヘッダー、クエリパラメーター、OAuth）を正確に設定します。
 
@@ -936,15 +942,13 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 1. [統合の操作](integrations.md)に従います。 必要に応じて`CAP-API-ACCESS-TOKEN`などのヘッダーを設定し、サンプル JSONを貼り付け、フィールドをマッピングし、テストし、アクティブ化します。
 
-1. Journey Optimizerで、設定/管理に移動し、「統合を作成」を選択します。
+1. Journey Optimizerで、**[!UICONTROL Configurations]** > **[!UICONTROL Manage]**&#x200B;に移動し、**[!UICONTROL Create Integration]**&#x200B;を選択します。
 
 1. スペースなしで統合名を入力します。
 
-1. Capillary APIを使用してエンドポイントを設定します。 URL パターンの例：
+1. Capillary APIを使用してエンドポイントを設定します。
 
-1. お住まいの地域のキャピラリーごとの統合ガイド
-
-1. 設定テーブルに表示されるHTTP メソッド（特に明記されていない限り、通常はGET）を選択します。
+1. 設定テーブルに表示されるHTTP メソッド（通常はGET）を選択します。特に指定がない限り、このメソッドを選択します。
 
 1. テーブルおよびベンダードキュメントで指定されたとおりに認証（ヘッダー、クエリパラメーター、OAuth）を正確に設定します。
 
@@ -1022,11 +1026,13 @@ Stensulは、承認済みテンプレート用のメール作成プラットフ�
 
 Journey Optimizerでこの統合を設定するには、次の手順を使用します。 リクエストの詳細については、**統合フィールドのサンプル**&#x200B;を参照し、これらの値を環境のベンダードキュメントで確認してください。
 
-1. Journey Optimizerで、設定/管理に移動し、「統合を作成」を選択します。
+1. Journey Optimizerで、**[!UICONTROL Configurations]** > **[!UICONTROL Manage]**&#x200B;に移動し、**[!UICONTROL Create Integration]**&#x200B;を選択します。
 
 1. 統合名を入力します。
 
-1. Stensul テンプレート API URL （パターンの例）を使用してエンドポイントを設定します：`https://api.stensul.com/v1/templates/{template_id}`
+1. Stensul テンプレート API URLを使用してエンドポイントを設定します。 URL パターンの例：
+
+   `https://api.stensul.com/v1/templates/{template_id}`
 
 1. 認証を設定します（Stensul API ドキュメントごとのAPI キーまたはOAuth）。
 
@@ -1066,15 +1072,13 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 1. [統合の操作](integrations.md)に従います。 お住まいの地域のMarigold ホストを指定し、認証を設定します（以下のサンプルでは、キーと秘密鍵を使用して`X-Api-Key`を使用しています）。サンプル JSONを貼り付け、フィールドをマップし、テスト、アクティベートします。
 
-1. Journey Optimizerで、設定/管理に移動し、「統合を作成」を選択します。
+1. Journey Optimizerで、**[!UICONTROL Configurations]** > **[!UICONTROL Manage]**&#x200B;に移動し、**[!UICONTROL Create Integration]**&#x200B;を選択します。
 
 1. スペースなしで統合名を入力します。
 
-1. Marigold REST APIを使用してエンドポイントを設定します（統合ガイドごとのエンドポイント）。 URL パターンの例：
+1. Marigold REST APIを使用してエンドポイントを設定します。
 
-1. Marigold API ドキュメントで提供されているベース URLとパスを使用します
-
-1. 設定テーブルに表示されるHTTP メソッド（特に明記されていない限り、通常はGET）を選択します。
+1. 設定テーブルに表示されるHTTP メソッド（通常はGET）を選択します。特に指定がない限り、このメソッドを選択します。
 
 1. テーブルおよびベンダードキュメントで指定されたとおりに認証（ヘッダー、クエリパラメーター、OAuth）を正確に設定します。
 
@@ -1090,8 +1094,8 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 1. Marigoldは、顧客インスタンスがアクティブな地理的領域に基づいて2つのエンドポイントを使用します。
 
-1. ヨーロッパ：https://{{customername}}.module.slgnt.eu
-米国：https://{{customername}}.module.slgnt.us
+   * ヨーロッパ：`https://{{customername}}.module.slgnt.eu`
+   * 米国：`https://{{customername}}.module.slgnt.us`
 
 次の表に、この統合リクエストの値の例を示します。
 
@@ -1157,15 +1161,13 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 1. [統合の操作](integrations.md)に従います。 配信の呼び出しは、多くの場合、**POST**&#x200B;とJSON本文で行われます。 [&#x200B; ターゲット認証](https://experienceleague.adobe.com/ja/docs/target-dev/developer/api/configure-authentication){target="_blank"}ごとにOAuthを設定し、サンプル応答を貼り付け、フィールドをマッピングし、想定されるボリュームでテストします。
 
-1. Journey Optimizerで、設定/管理に移動し、「統合を作成」を選択します。
+1. Journey Optimizerで、**[!UICONTROL Configurations]** > **[!UICONTROL Manage]**&#x200B;に移動し、**[!UICONTROL Create Integration]**&#x200B;を選択します。
 
 1. スペースなしで統合名を入力します。
 
-1. Target Recommendations / delivery APIを使用してエンドポイントを設定します（統合パターンについてはAdobe ドキュメントに従います）。 URL パターンの例：
+1. Target Recommendations / delivery APIを使用してエンドポイントを設定します。
 
-1. ユースケースについては、Adobe Target Recommendations API ドキュメントを参照してください
-
-1. 設定テーブルに表示されるHTTP メソッド（特に明記されていない限り、通常はGET）を選択します。
+1. 設定テーブルに表示されるHTTP メソッド（通常はGET）を選択します。特に指定がない限り、このメソッドを選択します。
 
 1. テーブルおよびベンダードキュメントで指定されたとおりに認証（ヘッダー、クエリパラメーター、OAuth）を正確に設定します。
 
@@ -1298,16 +1300,17 @@ AccuWeatherは、予測および場所のREST APIを公開して、メッセー�
 
 Journey Optimizerでこの統合を設定するには、次の手順を使用します。 リクエストの詳細については、**統合フィールドのサンプル**&#x200B;を参照し、これらの値を環境のベンダードキュメントで確認してください。
 
-1. [統合の操作](integrations.md)に従います。 サブスクリプションで必要な場合を除き、**GET**&#x200B;を使用します。プロファイル/コンテキストから`apiKey` クエリパラメーター（またはドキュメントに従って）を添付し、`locationKey`およびその他の変数をマッピングし、サンプル JSONを貼り付け、フィールドをマッピングし、テストします。
+1. [統合の操作](integrations.md)に従います。 サブスクリプションで必要な場合を除き、**GET**&#x200B;を使用します。プロファイル/コンテキストから`apiKey` クエリパラメーター、マップ `locationKey`およびその他の変数を添付し、サンプル JSONを貼り付け、フィールドをマッピングしてからテストします。
 
-1. Journey Optimizerで、設定/管理に移動し、「統合を作成」を選択します。
+1. Journey Optimizerで、**[!UICONTROL Configurations]** > **[!UICONTROL Manage]**&#x200B;に移動し、**[!UICONTROL Create Integration]**&#x200B;を選択します。
 
 1. スペースなしで統合名を入力します。
 
 1. Daily Forecasts APIを使用してエンドポイントを設定します。 URL パターンの例：
 
-1. `https://dataservice.accuweather.com/forecasts/v1/daily/{days}day/{locationKey}`
-1. 設定テーブルに表示されるHTTP メソッド（特に明記されていない限り、通常はGET）を選択します。
+   `https://dataservice.accuweather.com/forecasts/v1/daily/{days}day/{locationKey}`
+
+1. 設定テーブルに表示されるHTTP メソッド（通常はGET）を選択します。特に指定がない限り、このメソッドを選択します。
 
 1. テーブルおよびベンダードキュメントで指定されたとおりに認証（ヘッダー、クエリパラメーター、OAuth）を正確に設定します。
 
@@ -1392,14 +1395,15 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 1. [統合の操作](integrations.md)に従います。 必要なリソース（注文と出荷）をターゲットにし、[ShipStation API](https://www.shipstation.com/docs/api/){target="_blank"}ごとに認証し、サンプル JSONを貼り付け、フィールドをマップし、テストし、アクティベートします。
 
-1. Journey Optimizerで、設定/管理に移動し、「統合を作成」を選択します。
+1. Journey Optimizerで、**[!UICONTROL Configurations]** > **[!UICONTROL Manage]**&#x200B;に移動し、**[!UICONTROL Create Integration]**&#x200B;を選択します。
 
 1. スペースなしで統合名を入力します。
 
 1. ShipStation REST APIを使用してエンドポイントを設定します。 URL パターンの例：
 
-1. `https://ssapi.shipstation.com/...`
-1. 設定テーブルに表示されるHTTP メソッド（特に明記されていない限り、通常はGET）を選択します。
+   `https://ssapi.shipstation.com/...`
+
+1. 設定テーブルに表示されるHTTP メソッド（通常はGET）を選択します。特に指定がない限り、このメソッドを選択します。
 
 1. テーブルおよびベンダードキュメントで指定されたとおりに認証（ヘッダー、クエリパラメーター、OAuth）を正確に設定します。
 
@@ -1482,14 +1486,15 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 1. [統合の操作](integrations.md)に従います。 以下にモデル化したREST **GET**&#x200B;を呼び出し、秘密鍵ヘッダーで認証し、サンプル JSON、マップフィールド、テスト、アクティベートを貼り付けます。
 
-1. Journey Optimizerで、設定/管理に移動し、「統合を作成」を選択します。
+1. Journey Optimizerで、**[!UICONTROL Configurations]** > **[!UICONTROL Manage]**&#x200B;に移動し、**[!UICONTROL Create Integration]**&#x200B;を選択します。
 
 1. スペースなしで統合名を入力します。
 
 1. RevenueCat REST APIを使用してエンドポイントを設定します。 URL パターンの例：
 
-1. `https://api.revenuecat.com/v1/...`
-1. 設定テーブルに表示されるHTTP メソッド（特に明記されていない限り、通常はGET）を選択します。
+   `https://api.revenuecat.com/v1/...`
+
+1. 設定テーブルに表示されるHTTP メソッド（通常はGET）を選択します。特に指定がない限り、このメソッドを選択します。
 
 1. テーブルおよびベンダードキュメントで指定されたとおりに認証（ヘッダー、クエリパラメーター、OAuth）を正確に設定します。
 
@@ -1568,14 +1573,15 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 1. [統合の操作](integrations.md)に従います。 狭い読み取りパスを優先します。**POST** ステートメントの実行を使用する場合は、APIが必要とするJSON本文を含め、マッピング用に成功レスポンスのサンプルを貼り付け、待ち時間を慎重にテストし、アクティブ化します。
 
-1. Journey Optimizerで、設定/管理に移動し、「統合を作成」を選択します。
+1. Journey Optimizerで、**[!UICONTROL Configurations]** > **[!UICONTROL Manage]**&#x200B;に移動し、**[!UICONTROL Create Integration]**&#x200B;を選択します。
 
 1. スペースなしで統合名を入力します。
 
 1. Databricks SQL ステートメント実行APIを使用してエンドポイントを設定します。 URL パターンの例：
 
-1. `https://{workspace-host}/api/2.0/sql/statements/...`
-1. 設定テーブルに表示されるHTTP メソッド（特に明記されていない限り、通常はGET）を選択します。
+   `https://{workspace-host}/api/2.0/sql/statements/...`
+
+1. 設定テーブルに表示されるHTTP メソッド（通常はGET）を選択します。特に指定がない限り、このメソッドを選択します。
 
 1. テーブルおよびベンダードキュメントで指定されたとおりに認証（ヘッダー、クエリパラメーター、OAuth）を正確に設定します。
 
@@ -1601,7 +1607,7 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 | **HTTP メソッド** | `GET` |
 | 応答ペイロード | API応答に基づいて、オーサリング中に使用する必要な応答フィールドを選択して設定します。 |
 | ポリシー | 必要に応じてポリシーレベルの詳細を設定します。 |
-| 認証 | Oauth |
+| 認証 | OAuth |
 
 **ヘッダー**
 
@@ -1647,14 +1653,15 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 1. [統合の操作](integrations.md)に従います。 選択したエンドポイントで&#x200B;**GET**&#x200B;を設定し（1つの一般的なパターンはユーザーリストです）、[Bynder](https://developer.bynder.com/){target="_blank"}ごとにOAuthを完了し、データの不要なページを引き出すのを避け、フィールドをマッピングし、テストしてからアクティベートします。
 
-1. Journey Optimizerで、設定/管理に移動し、「統合を作成」を選択します。
+1. Journey Optimizerで、**[!UICONTROL Configurations]** > **[!UICONTROL Manage]**&#x200B;に移動し、**[!UICONTROL Create Integration]**&#x200B;を選択します。
 
 1. スペースなしで統合名を入力します。
 
-1. Bynder API v4を使用してエンドポイントを設定します（例：ユーザーリストパターン）。 URL パターンの例：
+1. Bynder API v4を使用してエンドポイントを設定します。 URL パターンの例：
 
-1. `https://{your-bynder-domain}/api/v4/users/`
-1. 設定テーブルに表示されるHTTP メソッド（特に明記されていない限り、通常はGET）を選択します。
+   `https://{your-bynder-domain}/api/v4/users/`
+
+1. 設定テーブルに表示されるHTTP メソッド（通常はGET）を選択します。特に指定がない限り、このメソッドを選択します。
 
 1. テーブルおよびベンダードキュメントで指定されたとおりに認証（ヘッダー、クエリパラメーター、OAuth）を正確に設定します。
 
@@ -1797,14 +1804,15 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 1. [統合の操作](integrations.md)に従います。 必須のクエリ認証を使用して&#x200B;**GET**&#x200B;を設定し、プロファイルまたはコンテキストからIDをマッピングし、サンプル JSON、マップフィールド、テスト、アクティベートを貼り付けます。
 
-1. Journey Optimizerで、設定/管理に移動し、「統合を作成」を選択します。
+1. Journey Optimizerで、**[!UICONTROL Configurations]** > **[!UICONTROL Manage]**&#x200B;に移動し、**[!UICONTROL Create Integration]**&#x200B;を選択します。
 
 1. スペースなしで統合名を入力します。
 
 1. Trustpilot APIを使用してエンドポイントを設定します。 URL パターンの例：
 
-1. `https://api.trustpilot.com/v1/...`
-1. 設定テーブルに表示されるHTTP メソッド（特に明記されていない限り、通常はGET）を選択します。
+   `https://api.trustpilot.com/v1/...`
+
+1. 設定テーブルに表示されるHTTP メソッド（通常はGET）を選択します。特に指定がない限り、このメソッドを選択します。
 
 1. テーブルおよびベンダードキュメントで指定されたとおりに認証（ヘッダー、クエリパラメーター、OAuth）を正確に設定します。
 
@@ -1881,14 +1889,15 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 1. [統合の操作](integrations.md)に従います。 **GET**&#x200B;を`passkey`と共にConversations APIのクエリパラメーターとして使用し、`Accept: application/json`を設定し、サンプル JSONを貼り付け、フィールドをマップし、テストし、アクティベートします。
 
-1. Journey Optimizerで、設定/管理に移動し、「統合を作成」を選択します。
+1. Journey Optimizerで、**[!UICONTROL Configurations]** > **[!UICONTROL Manage]**&#x200B;に移動し、**[!UICONTROL Create Integration]**&#x200B;を選択します。
 
 1. スペースなしで統合名を入力します。
 
 1. Bazarvoice Conversations APIを使用してエンドポイントを設定します。 URL パターンの例：
 
-1. `https://api.bazaarvoice.com/...`
-1. 設定テーブルに表示されるHTTP メソッド（特に明記されていない限り、通常はGET）を選択します。
+   `https://api.bazaarvoice.com/...`
+
+1. 設定テーブルに表示されるHTTP メソッド（通常はGET）を選択します。特に指定がない限り、このメソッドを選択します。
 
 1. テーブルおよびベンダードキュメントで指定されたとおりに認証（ヘッダー、クエリパラメーター、OAuth）を正確に設定します。
 
@@ -1965,15 +1974,15 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 1. [統合の操作](integrations.md)に従います。 公開されたスキーマまたは環境設定センターのパスを使用して、サブスクリプションドキュメントを作成し、必要に応じてOAuthを完了し、サンプル JSON、マップフィールド、テスト、アクティベートを貼り付けます。
 
-1. Journey Optimizerで、設定/管理に移動し、「統合を作成」を選択します。
+1. Journey Optimizerで、**[!UICONTROL Configurations]** > **[!UICONTROL Manage]**&#x200B;に移動し、**[!UICONTROL Create Integration]**&#x200B;を選択します。
 
 1. スペースなしで統合名を入力します。
 
-1. OneTrust APIを使用してエンドポイントを設定します。 URL パターンの例：
+1. OneTrust APIを使用してエンドポイントを設定します。 テナント、製品、およびパスは、サブスクリプションの[OneTrust](https://developer.onetrust.com/){target="_blank"} ドキュメントに記載されています。 URL パターンの例：
 
-1. OneTrust デベロッパーポータルのベース URL
+   `https://{tenant}.my.onetrust.com/api/...`
 
-1. 設定テーブルに表示されるHTTP メソッド（特に明記されていない限り、通常はGET）を選択します。
+1. 設定テーブルに表示されるHTTP メソッド（通常はGET）を選択します。特に指定がない限り、このメソッドを選択します。
 
 1. テーブルおよびベンダードキュメントで指定されたとおりに認証（ヘッダー、クエリパラメーター、OAuth）を正確に設定します。
 
@@ -1997,7 +2006,7 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 | **HTTP メソッド** | `GET` |
 | **ポリシー** | 必要に応じてポリシーレベルの詳細を設定します。 |
 | **応答ペイロード** | API応答に基づいて、オーサリング中に使用する必要な応答フィールドを選択して設定します。 |
-| **認証** | Oauth |
+| **認証** | OAuth |
 
 **パスパラメーター**
 
@@ -2051,14 +2060,15 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 1. [統合の操作](integrations.md)に従います。 グラフ呼び出しは、多くの場合、**GET**&#x200B;でバージョン管理されたパスを持ちます。トークンの有効期限を処理し、サンプル JSONを貼り付け、フィールドをマップし、テストしてアクティブ化します。
 
-1. Journey Optimizerで、設定/管理に移動し、「統合を作成」を選択します。
+1. Journey Optimizerで、**[!UICONTROL Configurations]** > **[!UICONTROL Manage]**&#x200B;に移動し、**[!UICONTROL Create Integration]**&#x200B;を選択します。
 
 1. スペースなしで統合名を入力します。
 
 1. Meta Graph APIを使用してエンドポイントを設定します。 URL パターンの例：
 
-1. `https://graph.facebook.com/vXX.X/...`
-1. 設定テーブルに表示されるHTTP メソッド（特に明記されていない限り、通常はGET）を選択します。
+   `https://graph.facebook.com/vXX.X/...`
+
+1. 設定テーブルに表示されるHTTP メソッド（通常はGET）を選択します。特に指定がない限り、このメソッドを選択します。
 
 1. テーブルおよびベンダードキュメントで指定されたとおりに認証（ヘッダー、クエリパラメーター、OAuth）を正確に設定します。
 
@@ -2084,7 +2094,7 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 | **HTTP メソッド** | `GET` |
 | 応答ペイロード | API応答に基づいて、オーサリング中に使用する必要な応答フィールドを選択して設定します。 |
 | ポリシー | 必要に応じてポリシーレベルの詳細を設定します。 |
-| 認証 | Oauth |
+| 認証 | OAuth |
 
 **パスパラメーター**
 
@@ -2136,15 +2146,15 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 1. [統合の操作](integrations.md)に従います。 必要なレコードパスに&#x200B;**GET**&#x200B;を使用し、`API-VERSION`などの必須ヘッダーを送信し、サンプル JSON （返されたHALまたはJSON）を貼り付け、最小限のフィールドセットをマッピングし、テストし、アクティベートします。
 
-1. Journey Optimizerで、設定/管理に移動し、「統合を作成」を選択します。
+1. Journey Optimizerで、**[!UICONTROL Configurations]** > **[!UICONTROL Manage]**&#x200B;に移動し、**[!UICONTROL Create Integration]**&#x200B;を選択します。
 
 1. スペースなしで統合名を入力します。
 
-1. Aprimo DAM / Records APIを使用してエンドポイントを設定します。 URL パターンの例：
+1. Aprimo DAM / Records APIを使用してエンドポイントを設定します。 **テナント**&#x200B;のAPI ベース URLとレコードパスを使用します（Aprimoごとに）。 URL パターンの例：
 
-1. テナントのAprimo API ベース URLとリソースパスごとに
+   `https://{tenant}.dam.aprimo.com/`
 
-1. 設定テーブルに表示されるHTTP メソッド（特に明記されていない限り、通常はGET）を選択します。
+1. 設定テーブルに表示されるHTTP メソッド（通常はGET）を選択します。特に指定がない限り、このメソッドを選択します。
 
 1. テーブルおよびベンダードキュメントで指定されたとおりに認証（ヘッダー、クエリパラメーター、OAuth）を正確に設定します。
 
@@ -2218,15 +2228,15 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 1. [統合の操作](integrations.md)に従います。 公開URLを推測しないでください。 Epsilonの仕様を使用し、サンプル JSONを貼り付け、フィールドをマッピングし、テストし、アクティブにします。
 
-1. Journey Optimizerで、設定/管理に移動し、「統合を作成」を選択します。
+1. Journey Optimizerで、**[!UICONTROL Configurations]** > **[!UICONTROL Manage]**&#x200B;に移動し、**[!UICONTROL Create Integration]**&#x200B;を選択します。
 
 1. スペースなしで統合名を入力します。
 
-1. Epsilon APIを使用してエンドポイントを設定します（統合仕様に従います）。 URL パターンの例：
+1. Epsilon APIを使用してエンドポイントを設定します（統合仕様に従います）。 ベース URLとリソースパスは、Epsilon アカウントチームによって提供されます。 URL パターンの例：
 
-1. Epsilonによって提供されます
+   `https://{your-instance}.epsilon3.io/api/...`
 
-1. 設定テーブルに表示されるHTTP メソッド（特に明記されていない限り、通常はGET）を選択します。
+1. 設定テーブルに表示されるHTTP メソッド（通常はGET）を選択します。特に指定がない限り、このメソッドを選択します。
 
 1. テーブルおよびベンダードキュメントで指定されたとおりに認証（ヘッダー、クエリパラメーター、OAuth）を正確に設定します。
 
