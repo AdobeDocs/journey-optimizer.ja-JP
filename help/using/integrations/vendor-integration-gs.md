@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 hide: true
 keywords: 統合、ベンダー、サードパーティ
-source-git-commit: 9d839f8ac20b80e4abf5bedb881908f4e24964fc
+source-git-commit: e4c298fb1c47501920a27a93b43878327b6c5861
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '378'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 目次：
 
-* [統合の操作](external-sources.md)
+* [統合の操作](integrations.md)
 * **[ベンダー統合の基本を学ぶ](vendor-integration-gs.md)**
 * [利用可能なベンダー](vendor-integration.md)
 * [FAQ](vendor-integration-faq.md)
@@ -31,7 +31,7 @@ ht-degree: 1%
 >[!ENDSHADEBOX]
 
 
-Adobe Journey Optimizerで&#x200B;**Integrations**&#x200B;を使用して、各システムがユースケースに適した&#x200B;**API エンドポイント**&#x200B;を公開し、Integrationsがリクエストを発行し、応答を消費する方法と互換性がある場合、HTTP **経由で**&#x200B;外部システムを呼び出すことができます。 完全なワークフローについては、[統合の操作](external-sources.md)を参照してください。
+Adobe Journey Optimizerで&#x200B;**Integrations**&#x200B;を使用して、各システムがユースケースに適した&#x200B;**API エンドポイント**&#x200B;を公開し、Integrationsがリクエストを発行し、応答を消費する方法と互換性がある場合、HTTP **経由で**&#x200B;外部システムを呼び出すことができます。 完全なワークフローについては、[統合の操作](integrations.md)を参照してください。
 
 記載されているサードパーティソリューションのリストは、網羅的ではなく例示です。 その他のプラットフォームは、製品要件を満たす場合に使用できます。
 
@@ -41,7 +41,7 @@ Adobe Journey Optimizerで&#x200B;**Integrations**&#x200B;を使用して、各�
 
 * **応答形式：**&#x200B;統合は、**JSON**&#x200B;の応答からフィールドをマッピングします。 オーサリング時にマッピングに適したJSONをAPIが返すように呼び出しをデザインします。
 * **ペイロードとフィールド：**&#x200B;要求して、必要な属性のみをマッピングします。 応答が小さいほど、遅延が短縮され、機密データの公開も制限されます。
-* **エンドポイントの形状：**&#x200B;製品がターゲット検索を想定している場合、ブロックリストまたはページネーションのエンドポイントよりも、安定した&#x200B;**単一リソース**&#x200B;の取得（例えば、1つのエントリ、製品、またはメンバー）を優先します。 [制限と除外事項](#limitations-exclusions)および[統合の操作](external-sources.md)を参照してください。
+* **エンドポイントの形状：**&#x200B;製品がターゲット検索を想定している場合、ブロックリストまたはページネーションのエンドポイントよりも、安定した&#x200B;**単一リソース**&#x200B;の取得（例えば、1つのエントリ、製品、またはメンバー）を優先します。 [制限と除外事項](#limitations-exclusions)および[統合の操作](integrations.md)を参照してください。
 * **ボリュームと信頼性：** ベンダーの&#x200B;**レート制限**&#x200B;を尊重します。 チャネルの&#x200B;**タイムアウト**、**再試行**&#x200B;および&#x200B;**キャッシュ** ポリシーを設定し（バッチメールとトランザクション送信など）、読み込み中に検証します。
 * **セキュリティ：**&#x200B;組織のポリシーに従って、トークン、API キー、OAuth資格情報を保存および回転します。 メッセージコンテンツにシークレットを埋め込まないでください。
 
@@ -54,7 +54,7 @@ Adobe Journey Optimizerで&#x200B;**Integrations**&#x200B;を使用して、各�
 以下のグループ化されたリンクを使用して、関連するベンダーパターンにすばやく移動できます。
 
 * **コンテンツとCMS:** [Contentful](#contentful)、[Sitecore](#sitecore)、[Salsify](#salsify)、[Contentstack](#contentstack)、[Akeneo](#akeneo)、[Magnolia](#magnolia)
-* **ロイヤルティと報酬：** [Voucherify](#voucherify)、[Talon.One](#talon-one)、[Antavo](#antavo)、[Salesforce ロイヤルティ &#x200B;](#salesforce-loyalty)、[&#x200B; キャピラリー](#capillary)
+* **ロイヤルティと報酬：** [Voucherify](#voucherify)、[Talon.One](#talon-one)、[Antavo](#antavo)、[Salesforce ロイヤルティ ](#salesforce-loyalty)、[ キャピラリー](#capillary)
 * **テンプレートとメッセージ：** [Stensul](#stensul)、[Marigold](#marigold)、[Adobe Target Recommendations](#adobe-target-recommendations)
 * **データ、天気、および操作：** [AccuWeather](#accuweather)、[ShipStation](#shipstation)、[RevenueCat](#revenuecat)、[Databricks](#databricks)
-* **レビュー、同意、およびソーシャル：** [Bynder](#bynder)、[Trustpilot](#trustpilot)、[Bazaarvoice](#bazaarvoice)、[OneTrust](#onetrust)、[Meta](#meta)、[Aprimo](#aprimo)、[Epsilon （Epsilon3） &#x200B;](#epsilon)
+* **レビュー、同意、およびソーシャル：** [Bynder](#bynder)、[Trustpilot](#trustpilot)、[Bazaarvoice](#bazaarvoice)、[OneTrust](#onetrust)、[Meta](#meta)、[Aprimo](#aprimo)、[Epsilon （Epsilon3） ](#epsilon)

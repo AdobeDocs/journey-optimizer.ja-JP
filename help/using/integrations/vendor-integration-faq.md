@@ -9,10 +9,10 @@ role: User
 level: Intermediate
 keywords: 統合、FAQ、外部データ、パーソナライゼーション
 hide: true
-source-git-commit: 9d839f8ac20b80e4abf5bedb881908f4e24964fc
+source-git-commit: e4c298fb1c47501920a27a93b43878327b6c5861
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 1%
+source-wordcount: '892'
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 目次：
 
-* [統合の操作](external-sources.md)
+* [統合の操作](integrations.md)
 * [ベンダーとの連携を始める](vendor-integration-gs.md)
 * [利用可能なベンダー](vendor-integration.md)
 * **[FAQ](vendor-integration-faq.md)**
@@ -38,7 +38,7 @@ ht-degree: 1%
 
 外部データソースをJourney Optimizerに接続することで、サードパーティシステムからコンテンツやデータを取り込み、キャンペーンやジャーニーに取り込み、そのデータを使用してメッセージをパーソナライズできます。
 
-➡️ [統合の概要](external-sources.md)の詳細
+➡️ [統合の概要](integrations.md)の詳細
 
 +++
 
@@ -46,7 +46,7 @@ ht-degree: 1%
 
 管理者は、技術設定（**[!UICONTROL 設定]** > **[!UICONTROL 統合]** > **[!UICONTROL 管理]** > **[!UICONTROL 統合を作成]**）を作成してアクティブ化します。 マーケターは、**[!UICONTROL テキストまたはHTML コンポーネントにパーソナライゼーション]**&#x200B;を追加し、**[!UICONTROL 統合]**&#x200B;を開き、アクティブな統合を選択し、属性をマッピングします。
 
-➡️ [管理者とマーケターのワークフローについて詳しく見る](external-sources.md)
+➡️ [管理者とマーケターのワークフローについて詳しく見る](integrations.md)
 
 +++
 
@@ -54,7 +54,7 @@ ht-degree: 1%
 
 左側のメニューの「**[!UICONTROL 設定]**」セクションに移動し、**[!UICONTROL 統合]** カードから&#x200B;**[!UICONTROL 管理]**&#x200B;を開き、**[!UICONTROL 統合を作成]**&#x200B;を選択します。
 
-➡️ [統合の作成に関する詳細情報](external-sources.md#configure)
+➡️ [統合の作成に関する詳細情報](integrations.md#configure)
 
 +++
 
@@ -62,9 +62,9 @@ ht-degree: 1%
 
 例えば、ロイヤルティシステムからの報酬ポイント、製品価格情報、レコメンデーションエンジンからのレコメンデーション、配送状況などのロジスティクス更新などがあります。
 
-➡️ [&#x200B; サードパーティシステムからのサンプルデータについて詳しく見る](external-sources.md)
+➡️ [ サードパーティシステムからのサンプルデータについて詳しく見る](integrations.md)
 
-➡️ [&#x200B; ベンダー統合の例について詳しく見る](vendor-integration.md)
+➡️ [ ベンダー統合の例について詳しく見る](vendor-integration.md)
 
 +++
 
@@ -74,7 +74,7 @@ ht-degree: 1%
 
 名前と説明、API エンドポイント URL （オプションでパス変数を使用）、パステンプレート値、**[!UICONTROL GET]**&#x200B;または&#x200B;**[!UICONTROL POST]**、オプションのヘッダーとクエリパラメーター、認証方法、ポリシー設定（タイムアウトやオプションのキャッシュまたは再試行など）、フィールドをマッピングするためのサンプル JSON レスポンスを指定し、**[!UICONTROL Send test connection]**&#x200B;および&#x200B;**[!UICONTROL Activate]**&#x200B;を有効な場合に実行します。
 
-➡️ [統合設定の詳細](external-sources.md#configure)
+➡️ [統合設定の詳細](integrations.md#configure)
 
 +++
 
@@ -82,7 +82,7 @@ ht-degree: 1%
 
 次の認証タイプを使用できます。**[!UICONTROL 認証なし]**、**[!UICONTROL API キー]**、**[!UICONTROL 基本認証]**、および&#x200B;**[!UICONTROL OAuth 2.0]** （該当する場合はOAuthのペイロード設定）。
 
-➡️ [認証タイプについて詳しく見る](external-sources.md#configure)
+➡️ [認証タイプについて詳しく見る](integrations.md#configure)
 
 +++
 
@@ -90,7 +90,7 @@ ht-degree: 1%
 
 JSON応答のサンプルを貼り付けて、システムがデータタイプを検出できるようにします。また、メッセージでパーソナライゼーション用に公開するフィールドを選択できます。 オーサリング中にマーケターが使用できるフィールドを制限できます。
 
-➡️ [応答ペイロードマッピングの詳細](external-sources.md#configure)
+➡️ [応答ペイロードマッピングの詳細](integrations.md#configure)
 
 +++
 
@@ -98,7 +98,7 @@ JSON応答のサンプルを貼り付けて、システムがデータタイプ�
 
 キャンペーンまたはジャーニーコンテンツで、テキストまたはHTML コンポーネントに&#x200B;**[!UICONTROL パーソナライゼーションを追加]**&#x200B;し、**[!UICONTROL 統合]**&#x200B;に移動して、統合を選択し、保存します。 パーソナライゼーションエディターのピルモードを使用すると、設定の変数（ヘッダーやクエリパラメーター、URLのパス変数など）に値をマッピングできます。
 
-➡️ [統合によるパーソナライゼーションについて詳しく見る](external-sources.md#personalization)
+➡️ [統合によるパーソナライゼーションについて詳しく見る](integrations.md#personalization)
 
 +++
 
@@ -108,7 +108,7 @@ JSON応答のサンプルを貼り付けて、システムがデータタイプ�
 
 はい。 この機能は、現在の製品制限内で、**アウトバウンド** チャネル（電子メール、SMS、プッシュなど）のジャーニーとキャンペーンの両方で利用できます。
 
-➡️ [&#x200B; ジャーニーとキャンペーンの詳細](external-sources.md#limitations)
+➡️ [ ジャーニーとキャンペーンの詳細](integrations.md#limitations)
 
 +++
 
@@ -116,7 +116,7 @@ JSON応答のサンプルを貼り付けて、システムがデータタイプ�
 
 統合機能は、フラグメントで&#x200B;**not** サポートされています。 製品がサポートするキャンペーンおよびジャーニーメッセージコンテンツで統合を使用します。
 
-➡️ [&#x200B; フラグメントとベータ版の制限について詳しく見る](external-sources.md#limitations)
+➡️ [ フラグメントとベータ版の制限について詳しく見る](integrations.md#limitations)
 
 +++
 
@@ -126,7 +126,7 @@ JSON応答のサンプルを貼り付けて、システムがデータタイプ�
 
 **送信** チャネル（電子メール、SMS、プッシュなど）がサポートされています。
 
-➡️ [&#x200B; サポートされているチャネルについて詳しく見る](external-sources.md#limitations)
+➡️ [ サポートされているチャネルについて詳しく見る](integrations.md#limitations)
 
 +++
 
@@ -134,7 +134,7 @@ JSON応答のサンプルを貼り付けて、システムがデータタイプ�
 
 API呼び出し応答の場合、**JSON**&#x200B;はフィールドマッピングでサポートされています。 生のバイナリ画像出力とJSON以外の形式は、このワークフローでは使用できません。
 
-➡️ [JSONおよび応答形式について詳しく見る](external-sources.md#limitations)
+➡️ [JSONおよび応答形式について詳しく見る](integrations.md#limitations)
 
 +++
 
@@ -142,7 +142,7 @@ API呼び出し応答の場合、**JSON**&#x200B;はフィールドマッピン�
 
 ターゲット固有のコンテンツがサポートされている&#x200B;**取得** API。 この統合モデルでは、**リスト**&#x200B;のAPI （幅広いリストまたはページネーション パターン）はサポートされていません。
 
-➡️ [取得とリスト API](external-sources.md#limitations)の詳細
+➡️ [取得とリスト API](integrations.md#limitations)の詳細
 
 +++
 
@@ -152,7 +152,7 @@ API呼び出し応答の場合、**JSON**&#x200B;はフィールドマッピン�
 
 設定は、**[!UICONTROL 設定]** > **[!UICONTROL 統合]**&#x200B;の下の管理者ワークフローです。 正確な権限名は、組織のAdmin ConsoleとJourney Optimizerの製品プロファイルによって異なります。 管理者またはAdobe担当者にお問い合わせください。
 
-➡️ [統合が設定されている場所について詳しく見る](external-sources.md#configure)
+➡️ [統合が設定されている場所について詳しく見る](integrations.md#configure)
 
 +++
 
@@ -160,7 +160,7 @@ API呼び出し応答の場合、**JSON**&#x200B;はフィールドマッピン�
 
 いいえ。 **統合**&#x200B;は、APIからドライブするメッセージコンテンツのパーソナライゼーションフィールド用です。 **ソース**&#x200B;とその他のデータ取り込み機能は、異なる目的（バッチデータの取り込みやプロファイルの強化など）に役立ちます。 それぞれの機能を目的のスコープで使用し、
 
-➡️ [統合の詳細については、](external-sources.md)を参照してください
+➡️ [統合の詳細については、](integrations.md)を参照してください
 
 ➡️ [Experience Platform ソースについて詳しく見る](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja){target="_blank"}
 
@@ -172,7 +172,7 @@ API呼び出し応答の場合、**JSON**&#x200B;はフィールドマッピン�
 
 エンドポイント URL、HTTP メソッド、パステンプレート、ヘッダーとクエリパラメーター、認証、ポリシータイムアウトを確認します。 調整後に&#x200B;**[!UICONTROL テスト接続の送信]**&#x200B;を使用します。 ペイロードの問題の場合、サンプルに有効なJSONが反映され、選択したフィールドがAPIが返すフィールドと一致することを確認します。
 
-➡️ [&#x200B; テスト接続とペイロードの検証について詳しく見る](external-sources.md#configure)
+➡️ [ テスト接続とペイロードの検証について詳しく見る](integrations.md#configure)
 
 +++
 
@@ -180,7 +180,7 @@ API呼び出し応答の場合、**JSON**&#x200B;はフィールドマッピン�
 
 テストに成功した後は、統合を&#x200B;**アクティブ化**&#x200B;する必要があります。 マーケターが&#x200B;**[!UICONTROL 統合]**&#x200B;を開くと、アクティブな統合のみが表示されます。 統合がまだドラフトまたは非アクティブの場合は、最初にアクティベーションを完了します。
 
-➡️ [&#x200B; テスト接続とアクティブ化について詳しく見る](external-sources.md#configure)
+➡️ [ テスト接続とアクティブ化について詳しく見る](integrations.md#configure)
 
 +++
 
@@ -190,6 +190,6 @@ API呼び出し応答の場合、**JSON**&#x200B;はフィールドマッピン�
 
 互換性のあるAPI エンドポイントを公開するサードパーティプラットフォームと統合できます。 **Illustrative**&#x200B;のベンダーパターンと設定例は、互換性のあるAPIをモデル化するのに役立ちます。 エンドポイントのセキュリティを確保する責任は、サードパーティプラットフォームとマーケティング部門にあります。
 
-➡️ [&#x200B; ベンダー統合手順の詳細](vendor-integration.md)
+➡️ [ ベンダー統合手順の詳細](vendor-integration.md)
 
 +++

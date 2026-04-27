@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 hide: true
 keywords: 統合、ベンダー、サードパーティ
-source-git-commit: 9d839f8ac20b80e4abf5bedb881908f4e24964fc
+source-git-commit: e4c298fb1c47501920a27a93b43878327b6c5861
 workflow-type: tm+mt
-source-wordcount: '9157'
+source-wordcount: '9327'
 ht-degree: 7%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 7%
 
 目次：
 
-* [統合の操作](external-sources.md)
+* [統合の操作](integrations.md)
 * [ベンダーとの連携を始める](vendor-integration-gs.md)
 * **[使用可能なベンダー](vendor-integration.md)**
 * [FAQ](vendor-integration-faq.md)
@@ -68,7 +68,7 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 1. 認証ヘッダーを追加：
 
-認証：ベアラー&lt;CONTENTFUL_DELIVERY_TOKEN>
+   認証：ベアラー&lt;CONTENTFUL_DELIVERY_TOKEN>
 
 1. 必要に応じてパス変数（エントリ ID、ロケールなど）を追加します。
 
@@ -84,7 +84,7 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 +++ 統合フィールドの例
 
-統合フィールドのサンプル（お使いのスペースと環境の[&#x200B; コンテンツ配信API](https://www.contentful.com/developers/docs/references/content-delivery-api/){target="_blank"}に合わせる）:
+統合フィールドのサンプル（お使いのスペースと環境の[ コンテンツ配信API](https://www.contentful.com/developers/docs/references/content-delivery-api/){target="_blank"}に合わせる）:
 
 | フィールド | 値 |
 | -- | -- |
@@ -108,7 +108,7 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 **認証**
 
-| タイプ | API キー名 | API キー値 | 場所 |
+| タイプ | API キー名 | API キー値 | ロケーション |
 | --- | --- | --- | --- |
 | API キー | `access_token` | `<YOUR_API_KEY>` | クエリパラメーター |
 
@@ -140,7 +140,7 @@ Sitecore Content Hubと関連するCloud APIは、DAM形式のダウンロード
 
 Journey Optimizerでこの統合を設定するには、次の手順を使用します。 リクエストの詳細については、**統合フィールドのサンプル**&#x200B;を参照し、これらの値を環境のベンダードキュメントで確認してください。
 
-1. [統合の操作](external-sources.md)に従います。 ダウンロード注文パスに&#x200B;**GET**&#x200B;を設定し、Sitecoreごとに認証ヘッダーを設定し、コンテキストから`id`をマッピングし、サンプル JSONを貼り付け、フィールドをマッピングし、アセットの遅延のタイムアウトを調整します。
+1. [統合の操作](integrations.md)に従います。 ダウンロード注文パスに&#x200B;**GET**&#x200B;を設定し、Sitecoreごとに認証ヘッダーを設定し、コンテキストから`id`をマッピングし、サンプル JSONを貼り付け、フィールドをマッピングし、アセットの遅延のタイムアウトを調整します。
 
 1. Journey Optimizerで、設定/管理に移動し、「統合を作成」を選択します。
 
@@ -167,7 +167,7 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 +++ 統合フィールドの例
 
-Journey Optimizerでこのサンプル呼び出しを設定する場合は、次のフィールドを使用します。 [Sitecore ドキュメント &#x200B;](https://doc.sitecore.com/){target="_blank"}で、製品（Content Hub、XM Cloudなど）のホスト名とAPI バージョンを確認します。
+Journey Optimizerでこのサンプル呼び出しを設定する場合は、次のフィールドを使用します。 [Sitecore ドキュメント ](https://doc.sitecore.com/){target="_blank"}で、製品（Content Hub、XM Cloudなど）のホスト名とAPI バージョンを確認します。
 
 | フィールド | 値 |
 | --- | --- |
@@ -188,11 +188,11 @@ Journey Optimizerでこのサンプル呼び出しを設定する場合は、次
 | --- | --- | --- | --- | --- |
 | コンテンツタイプ（デフォルト） | Content-Type | 定数 | application/json | はい（オン） |
 | 認証 | 認証 | 定数 | ベアラー`<token>` | はい（オン） |
-| If-Modified-Since | If-Modified-Since | Variable | 2019-08-24T14:15:22Z | いいえ（オフ） |
+| If-Modified-Since | If-Modified-Since | 変数 | 2019-08-24T14:15:22Z | いいえ（オフ） |
 
 **認証**
 
-| タイプ | API キー名 | API キー値 | 場所 |
+| タイプ | API キー名 | API キー値 | ロケーション |
 | --- | --- | --- | --- |
 | API キー | X-Auth-Token | `<token>` | ヘッダー |
 
@@ -224,7 +224,7 @@ Salsifyは、商品、チャネル、デジタルアセット用のAPIを備え�
 
 Journey Optimizerでこの統合を設定するには、次の手順を使用します。 リクエストの詳細については、**統合フィールドのサンプル**&#x200B;を参照し、これらの値を環境のベンダードキュメントで確認してください。
 
-1. [統合の操作](external-sources.md)に従います。 一括カタログ呼び出しよりも単一の製品取得を好み、ベアラー認証を設定し、サンプル JSONを貼り付け、フィールドをマップし、テストし、アクティベートします。
+1. [統合の操作](integrations.md)に従います。 一括カタログ呼び出しよりも単一の製品取得を好み、ベアラー認証を設定し、サンプル JSONを貼り付け、フィールドをマップし、テストし、アクティベートします。
 
 1. Journey Optimizerで、設定/管理に移動し、「統合を作成」を選択します。
 
@@ -273,11 +273,11 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 | --- | --- | --- | --- | --- |
 | コンテンツタイプ（デフォルトのパラメーター） | Content-Type | 定数 | application/json | はい（オン） |
 | 認証 | 認証 | 定数 | `Bearer <YOUR_TOKEN_HERE>` | はい（オン） |
-| If-Modified-Since | If-Modified-Since | Variable | 2019-08-24T14:15:22Z | いいえ（オフ） |
+| If-Modified-Since | If-Modified-Since | 変数 | 2019-08-24T14:15:22Z | いいえ（オフ） |
 
 **認証**
 
-| タイプ | API キー名 | API キー値 | 場所 |
+| タイプ | API キー名 | API キー値 | ロケーション |
 | --- | --- | --- | --- |
 | API キー | `apiKey` | `<your_api_key>` | ヘッダー |
 
@@ -309,7 +309,7 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 Journey Optimizerでこの統合を設定するには、次の手順を使用します。 リクエストの詳細については、**統合フィールドのサンプル**&#x200B;を参照し、これらの値を環境のベンダードキュメントで確認してください。
 
-1. [統合の操作](external-sources.md)に従います。 コンテンツスタックが必要とする`api_key`と`access_token`の両方のヘッダーを追加し、`environment` クエリパラメーターを含め、サンプル JSONを貼り付け、フィールドをマップ、テスト、アクティベートします。
+1. [統合の操作](integrations.md)に従います。 コンテンツスタックが必要とする`api_key`と`access_token`の両方のヘッダーを追加し、`environment` クエリパラメーターを含め、サンプル JSONを貼り付け、フィールドをマップ、テスト、アクティベートします。
 
 1. Journey Optimizerで、設定/管理に移動し、「統合を作成」を選択します。
 
@@ -366,7 +366,7 @@ Contentstackでは、配信リクエストのヘッダーとして&#x200B;**両�
 
 | パラメーター | 名前 | タイプ | 値 | 必須 |
 | --- | --- | --- | --- | --- |
-| `environment` | 環境名 | Variable | `<your_environment_name>` | はい（オン） |
+| `environment` | 環境名 | 変数 | `<your_environment_name>` | はい（オン） |
 
 +++
 
@@ -396,7 +396,7 @@ Akeneo PIMは、製品、属性、メディア用にREST APIを公開してい�
 
 Journey Optimizerでこの統合を設定するには、次の手順を使用します。 リクエストの詳細については、**統合フィールドのサンプル**&#x200B;を参照し、これらの値を環境のベンダードキュメントで確認してください。
 
-1. [統合の操作](external-sources.md)に従います。 **GET**&#x200B;をベアラートークンと共に使用し、クエリフラグに必要な属性オプションのみをリクエストし、サンプル JSONを貼り付け、最小限の属性セットをマッピングし、テストし、アクティベートします。
+1. [統合の操作](integrations.md)に従います。 **GET**&#x200B;をベアラートークンと共に使用し、クエリフラグに必要な属性オプションのみをリクエストし、サンプル JSONを貼り付け、最小限の属性セットをマッピングし、テストし、アクティベートします。
 
 1. Journey Optimizerで、設定/管理に移動し、「統合を作成」を選択します。
 
@@ -449,13 +449,13 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 | パラメーター | 名前 | タイプ | 値 | 必須 |
 | --- | --- | --- | --- | --- |
-| `with_attribute_options` | 属性オプションを含める | Variable | false | いいえ（オフ） |
-| `with_quality_scores` | 品質スコアを含める | Variable | false | いいえ（オフ） |
-| `with_completenesses` | 完全性を含める | Variable | false | いいえ（オフ） |
+| `with_attribute_options` | 属性オプションを含める | 変数 | false | いいえ（オフ） |
+| `with_quality_scores` | 品質スコアを含める | 変数 | false | いいえ（オフ） |
+| `with_completenesses` | 完全性を含める | 変数 | false | いいえ（オフ） |
 
 **認証**
 
-| タイプ | API キー名 | API キー値 | 場所 |
+| タイプ | API キー名 | API キー値 | ロケーション |
 | --- | --- | --- | --- |
 | API キー | 認証 | `Bearer <YOUR_ACCESS_TOKEN>` | ヘッダー |
 
@@ -486,7 +486,7 @@ Magnoliaでは、デプロイメントに応じて、ヘッドレスエンドポ
 
 Journey Optimizerでこの統合を設定するには、次の手順を使用します。 リクエストの詳細については、**統合フィールドのサンプル**&#x200B;を参照し、これらの値を環境のベンダードキュメントで確認してください。
 
-1. [統合の操作](external-sources.md)に従います。 モジュールが公開するパブリック配信URL パターンを使用し、Magnolia ガイダンス（匿名の配信と保護されたコンテンツのトークン）ごとに認証し、サンプル JSONの貼り付け、フィールドのマッピング、テスト、アクティベートを行います。
+1. [統合の操作](integrations.md)に従います。 モジュールが公開するパブリック配信URL パターンを使用し、Magnolia ガイダンス（匿名の配信と保護されたコンテンツのトークン）ごとに認証し、サンプル JSONの貼り付け、フィールドのマッピング、テスト、アクティベートを行います。
 
 1. Journey Optimizerで、設定/管理に移動し、「統合を作成」を選択します。
 
@@ -513,7 +513,7 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 +++ 統合フィールドの例
 
-パターンの例：`https://{domain}/magnoliaAuthor/.rest/delivery/...`またはパブリック配信ツアースタイルのURL。 パスは、インストール済みのモジュールによって異なります。 [Magnolia ドキュメント &#x200B;](https://docs.magnolia-cms.com/){target="_blank"}を参照してください。
+パターンの例：`https://{domain}/magnoliaAuthor/.rest/delivery/...`またはパブリック配信ツアースタイルのURL。 パスは、インストール済みのモジュールによって異なります。 [Magnolia ドキュメント ](https://docs.magnolia-cms.com/){target="_blank"}を参照してください。
 
 | フィールド | 値 |
 | --- | --- |
@@ -531,7 +531,7 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 **認証**
 
-| タイプ | API キー名 | API キー値 | 場所 |
+| タイプ | API キー名 | API キー値 | ロケーション |
 | --- | --- | --- | --- |
 | API キー | 認証 | `<bearer_token>` | ヘッダー |
 
@@ -568,7 +568,7 @@ Voucherifyは、プロモーションとロイヤルティ REST API （キャン
 
 Journey Optimizerでこの統合を設定するには、次の手順を使用します。 リクエストの詳細については、**統合フィールドのサンプル**&#x200B;を参照し、これらの値を環境のベンダードキュメントで確認してください。
 
-1. [統合の操作](external-sources.md)に従います。 クラスターのベース URLの設定、必須ヘッダー（`X-APP-ID`、`X-APP-TOKEN`）の追加、フィルターまたはIDを使用したリスト エンドポイントの制約、サンプル JSONの貼り付け、フィールドのマッピング、テスト、アクティベート。
+1. [統合の操作](integrations.md)に従います。 クラスターのベース URLの設定、必須ヘッダー（`X-APP-ID`、`X-APP-TOKEN`）の追加、フィルターまたはIDを使用したリスト エンドポイントの制約、サンプル JSONの貼り付け、フィールドのマッピング、テスト、アクティベート。
 
 1. Journey Optimizerで、設定/管理に移動し、「統合を作成」を選択します。
 
@@ -624,18 +624,18 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 | パラメーター | 名前 | タイプ | 値 | 必須 |
 | --- | --- | --- | --- | --- |
-| `limit` | `limit` | Variable | 10 | いいえ（オフ） |
-| `page` | `page` | Variable | 1 | いいえ（オフ） |
-| `customer` | `customer` | Variable | `<customer_identifier>` | いいえ（オフ） |
-| `created_at` | `created_at` | Variable | `<iso8601_date>` | いいえ（オフ） |
-| `updated_at` | `updated_at` | Variable | `<iso8601_date>` | いいえ（オフ） |
-| `order` | `order` | Variable | `<sort_field>` | いいえ（オフ） |
-| `code` | `code` | Variable | `<loyalty_card_code>` | いいえ（オフ） |
-| `ids` | `ids` | Variable | `<array_of_ids>` | いいえ（オフ） |
+| `limit` | `limit` | 変数 | 10 | いいえ（オフ） |
+| `page` | `page` | 変数 | 1 | いいえ（オフ） |
+| `customer` | `customer` | 変数 | `<customer_identifier>` | いいえ（オフ） |
+| `created_at` | `created_at` | 変数 | `<iso8601_date>` | いいえ（オフ） |
+| `updated_at` | `updated_at` | 変数 | `<iso8601_date>` | いいえ（オフ） |
+| `order` | `order` | 変数 | `<sort_field>` | いいえ（オフ） |
+| `code` | `code` | 変数 | `<loyalty_card_code>` | いいえ（オフ） |
+| `ids` | `ids` | 変数 | `<array_of_ids>` | いいえ（オフ） |
 
 **認証**
 
-| タイプ | API キー名 | API キー値 | 場所 |
+| タイプ | API キー名 | API キー値 | ロケーション |
 | --- | --- | --- | --- |
 | API キー | X-APP-TOKEN | `<YOUR-APP-TOKEN>` | ヘッダー |
 
@@ -667,7 +667,7 @@ Talon.Oneは、セッション、エフェクト、プロファイル用のREST 
 
 Journey Optimizerでこの統合を設定するには、次の手順を使用します。 リクエストの詳細については、**統合フィールドのサンプル**&#x200B;を参照し、これらの値を環境のベンダードキュメントで確認してください。
 
-1. [統合の操作](external-sources.md)に従います。 必要なプロファイルまたは達成パスで&#x200B;**GET**&#x200B;を使用し、`Authorization: ApiKey-v1 <key>`を文書化して設定し、サンプル JSONを貼り付け、フィールドをマップし、テストしてアクティブ化します。
+1. [統合の操作](integrations.md)に従います。 必要なプロファイルまたは達成パスで&#x200B;**GET**&#x200B;を使用し、`Authorization: ApiKey-v1 <key>`を文書化して設定し、サンプル JSONを貼り付け、フィールドをマップし、テストしてアクティブ化します。
 
 1. Journey Optimizerで、設定/管理に移動し、「統合を作成」を選択します。
 
@@ -717,15 +717,15 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 | パラメーター | 名前 | タイプ | 値 | 必須 |
 | --- | --- | --- | --- | --- |
-| `progressStatus` | `progressStatus` | Variable | 進行中/完了/期限切れ | いいえ（オフ） |
-| `startDate` | `startDate` | Variable | 2024-05-29T15:04:05+07:00 | いいえ（オフ） |
-| `endDate` | `endDate` | Variable | 2024-05-29T15:04:05+07:00 | いいえ（オフ） |
-| `pageSize` | `pageSize` | Variable | `<default_page_size>` | いいえ（オフ） |
-| `skip` | `skip` | Variable | `<items_to_skip>` | いいえ（オフ） |
+| `progressStatus` | `progressStatus` | 変数 | 進行中/完了/期限切れ | いいえ（オフ） |
+| `startDate` | `startDate` | 変数 | 2024-05-29T15:04:05+07:00 | いいえ（オフ） |
+| `endDate` | `endDate` | 変数 | 2024-05-29T15:04:05+07:00 | いいえ（オフ） |
+| `pageSize` | `pageSize` | 変数 | `<default_page_size>` | いいえ（オフ） |
+| `skip` | `skip` | 変数 | `<items_to_skip>` | いいえ（オフ） |
 
 **認証**
 
-| タイプ | API キー名 | API キー値 | 場所 |
+| タイプ | API キー名 | API キー値 | ロケーション |
 | --- | --- | --- | --- |
 | API キー | 認証 | ApiKey-v1 `<YOUR_API_KEY>` | ヘッダー |
 
@@ -757,7 +757,7 @@ Antavoは、メンバー、報酬、イベント用のREST APIを備えたエン
 
 Journey Optimizerでこの統合を設定するには、次の手順を使用します。 リクエストの詳細については、**統合フィールドのサンプル**&#x200B;を参照し、これらの値を環境のベンダードキュメントで確認してください。
 
-1. [統合の操作](external-sources.md)に従います。 ベンダーの認証（クエリのAPI キーなど）を使用して&#x200B;**GET**&#x200B;を設定し、ポリシーに対するPIIの公開を避け、サンプル JSONを貼り付け、フィールドをマッピングし、テストしてアクティブ化します。
+1. [統合の操作](integrations.md)に従います。 ベンダーの認証（クエリのAPI キーなど）を使用して&#x200B;**GET**&#x200B;を設定し、ポリシーに対するPIIの公開を避け、サンプル JSONを貼り付け、フィールドをマッピングし、テストしてアクティブ化します。
 
 1. Journey Optimizerで、設定/管理に移動し、「統合を作成」を選択します。
 
@@ -785,7 +785,7 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 +++ 統合フィールドの例
 
-統合フィールドのサンプルには、**ステージング** ホストが使用されます。実稼動では、Antavo スタック ホスト名が使用されます。 [Antavo ドキュメント &#x200B;](https://antavo.com/docs/){target="_blank"}を参照してください。
+統合フィールドのサンプルには、**ステージング** ホストが使用されます。実稼動では、Antavo スタック ホスト名が使用されます。 [Antavo ドキュメント ](https://antavo.com/docs/){target="_blank"}を参照してください。
 
 | フィールド | 値 |
 | --- | --- |
@@ -809,7 +809,7 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 **認証**
 
-| タイプ | API キー名 | API キー値 | 場所 |
+| タイプ | API キー名 | API キー値 | ロケーション |
 | --- | --- | --- | --- |
 | API キー | `api_key` | `<YOUR_API_KEY>` | クエリパラメーター |
 
@@ -841,7 +841,7 @@ Salesforce Loyalty Managementは、メンバー、プログラム、トランザ
 
 Journey Optimizerでこの統合を設定するには、次の手順を使用します。 リクエストの詳細については、**統合フィールドのサンプル**&#x200B;を参照し、これらの値を環境のベンダードキュメントで確認してください。
 
-1. [統合の操作](external-sources.md)に従います。 チームが承認したロイヤルティ統合エンドポイントを使用して、Salesforce OAuthを完成させ、サンプル JSONをペーストし、フィールドをマッピングし、複合APIの制限を尊重し、テストし、アクティベートします。
+1. [統合の操作](integrations.md)に従います。 チームが承認したロイヤルティ統合エンドポイントを使用して、Salesforce OAuthを完成させ、サンプル JSONをペーストし、フィールドをマッピングし、複合APIの制限を尊重し、テストし、アクティベートします。
 
 1. Journey Optimizerで、設定/管理に移動し、「統合を作成」を選択します。
 
@@ -895,15 +895,15 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 | パラメーター | 名前 | タイプ | 値 | 必須 |
 | --- | --- | --- | --- | --- |
-| `membershipNumber` | `membershipNumber` | Variable | `<membership_number>` | いいえ（オフ） * |
-| `membershipId` | `membershipId` | Variable | `<membership_id>` | いいえ（オフ） * |
-| `posMemId` | `posMemId` | Variable | `<pos_mem_id>` | いいえ（オフ） * |
+| `membershipNumber` | `membershipNumber` | 変数 | `<membership_number>` | いいえ（オフ） * |
+| `membershipId` | `membershipId` | 変数 | `<membership_id>` | いいえ（オフ） * |
+| `posMemId` | `posMemId` | 変数 | `<pos_mem_id>` | いいえ（オフ） * |
 
 \* 3つのうち少なくとも1つは必要です。
 
 **認証**
 
-| タイプ | API キー名 | API キー値 | 場所 |
+| タイプ | API キー名 | API キー値 | ロケーション |
 | --- | --- | --- | --- |
 | API キー | 認証 | `<access_token>` | ヘッダー |
 
@@ -934,7 +934,7 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 Journey Optimizerでこの統合を設定するには、次の手順を使用します。 リクエストの詳細については、**統合フィールドのサンプル**&#x200B;を参照し、これらの値を環境のベンダードキュメントで確認してください。
 
-1. [統合の操作](external-sources.md)に従います。 必要に応じて`CAP-API-ACCESS-TOKEN`などのヘッダーを設定し、サンプル JSONを貼り付け、フィールドをマッピングし、テストし、アクティブ化します。
+1. [統合の操作](integrations.md)に従います。 必要に応じて`CAP-API-ACCESS-TOKEN`などのヘッダーを設定し、サンプル JSONを貼り付け、フィールドをマッピングし、テストし、アクティブ化します。
 
 1. Journey Optimizerで、設定/管理に移動し、「統合を作成」を選択します。
 
@@ -962,7 +962,7 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 +++ 統合フィールドの例
 
-例：`https://ushc.intouch.capillarytech.com/api/v3/rewards/{reward_id}` （ホストは地域によって異なります）。 ホストと認証スキームを[&#x200B; キャピラリー](https://capillarytech.com/){target="_blank"}で検証します。
+例：`https://ushc.intouch.capillarytech.com/api/v3/rewards/{reward_id}` （ホストは地域によって異なります）。 ホストと認証スキームを[ キャピラリー](https://capillarytech.com/){target="_blank"}で検証します。
 
 
 | フィールド | 値 |
@@ -987,7 +987,7 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 **認証**
 
-| タイプ | API キー名 | API キー値 | 場所 |
+| タイプ | API キー名 | API キー値 | ロケーション |
 | --- | --- | --- | --- |
 | API キー | CAP-API-ACCESS-TOKEN | `<YOUR_ACCESS_TOKEN>` | ヘッダー |
 
@@ -1064,7 +1064,7 @@ Marigoldは、ロイヤルティおよびエンゲージメント APIを公開�
 
 Journey Optimizerでこの統合を設定するには、次の手順を使用します。 リクエストの詳細については、**統合フィールドのサンプル**&#x200B;を参照し、これらの値を環境のベンダードキュメントで確認してください。
 
-1. [統合の操作](external-sources.md)に従います。 お住まいの地域のMarigold ホストを指定し、認証を設定します（以下のサンプルでは、キーと秘密鍵を使用して`X-Api-Key`を使用しています）。サンプル JSONを貼り付け、フィールドをマップし、テスト、アクティベートします。
+1. [統合の操作](integrations.md)に従います。 お住まいの地域のMarigold ホストを指定し、認証を設定します（以下のサンプルでは、キーと秘密鍵を使用して`X-Api-Key`を使用しています）。サンプル JSONを貼り付け、フィールドをマップし、テスト、アクティベートします。
 
 1. Journey Optimizerで、設定/管理に移動し、「統合を作成」を選択します。
 
@@ -1111,7 +1111,7 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 | パスパラメーター | 名前 | デフォルト値 |
 | --- | --- | --- |
 | `customername` | `customername` | `<your_name>` |
-| `locale` | `locale` | `eu` または `us` |
+| `locale` | `locale` | `eu` / `us` |
 | `organization` | `organization` | `<your_organization>` |
 | `api_name` | `api_name` | `<api_name>` |
 
@@ -1123,7 +1123,7 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 **認証**
 
-| タイプ | API キー名 | API キー値 | 場所 |
+| タイプ | API キー名 | API キー値 | ロケーション |
 | --- | --- | --- | --- |
 | API キー | X-Api-Key | `<apiKey>:<apiSecret>` | ヘッダー |
 
@@ -1155,7 +1155,7 @@ Adobe Targetには、使用権限に応じて、サーバーサイドまたは�
 
 Journey Optimizerでこの統合を設定するには、次の手順を使用します。 リクエストの詳細については、**統合フィールドのサンプル**&#x200B;を参照し、これらの値を環境のベンダードキュメントで確認してください。
 
-1. [統合の操作](external-sources.md)に従います。 配信の呼び出しは、多くの場合、**POST**&#x200B;とJSON本文で行われます。 [&#x200B; ターゲット認証](https://experienceleague.adobe.com/ja/docs/target-dev/developer/api/configure-authentication){target="_blank"}ごとにOAuthを設定し、サンプル応答を貼り付け、フィールドをマッピングし、想定されるボリュームでテストします。
+1. [統合の操作](integrations.md)に従います。 配信の呼び出しは、多くの場合、**POST**&#x200B;とJSON本文で行われます。 [ ターゲット認証](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication){target="_blank"}ごとにOAuthを設定し、サンプル応答を貼り付け、フィールドをマッピングし、想定されるボリュームでテストします。
 
 1. Journey Optimizerで、設定/管理に移動し、「統合を作成」を選択します。
 
@@ -1205,12 +1205,12 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 | パラメーター | 名前 | タイプ | 値 | 必須 |
 | --- | --- | --- | --- | --- |
-| クライアント | クライアント | Variable | `<customer_client_code>` | はい（オン） |
-| sessionId | sessionId | Variable | ` <session_identifier>` | はい（オン） |
+| クライアント | クライアント | 変数 | `<customer_client_code>` | はい（オン） |
+| sessionId | sessionId | 変数 | ` <session_identifier>` | はい（オン） |
 
 **認証**
 
-[Target認証設定](https://experienceleague.adobe.com/ja/docs/target-dev/developer/api/configure-authentication)を参照し、JSONをペイロードに追加してください。
+[Target認証設定](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication)を参照し、JSONをペイロードに追加してください。
 
 **要求ペイロード**
 
@@ -1298,7 +1298,7 @@ AccuWeatherは、予測および場所のREST APIを公開して、メッセー�
 
 Journey Optimizerでこの統合を設定するには、次の手順を使用します。 リクエストの詳細については、**統合フィールドのサンプル**&#x200B;を参照し、これらの値を環境のベンダードキュメントで確認してください。
 
-1. [統合の操作](external-sources.md)に従います。 サブスクリプションで必要な場合を除き、**GET**&#x200B;を使用します。プロファイル/コンテキストから`apiKey` クエリパラメーター（またはドキュメントに従って）を添付し、`locationKey`およびその他の変数をマッピングし、サンプル JSONを貼り付け、フィールドをマッピングし、テストします。
+1. [統合の操作](integrations.md)に従います。 サブスクリプションで必要な場合を除き、**GET**&#x200B;を使用します。プロファイル/コンテキストから`apiKey` クエリパラメーター（またはドキュメントに従って）を添付し、`locationKey`およびその他の変数をマッピングし、サンプル JSONを貼り付け、フィールドをマッピングし、テストします。
 
 1. Journey Optimizerで、設定/管理に移動し、「統合を作成」を選択します。
 
@@ -1351,14 +1351,14 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 | パラメーター | 名前 | タイプ | 値 | 必須 |
 | --- | --- | --- | --- | --- |
-| `format` | `format` | Variable | json | いいえ（オフ） |
-| `language` | `language` | Variable | en-US | いいえ（オフ） |
-| `details` | `details` | Variable | False | いいえ（オフ） |
-| `metric` | `metric` | Variable | False | いいえ（オフ） |
+| `format` | `format` | 変数 | json | いいえ（オフ） |
+| `language` | `language` | 変数 | en-US | いいえ（オフ） |
+| `details` | `details` | 変数 | False | いいえ（オフ） |
+| `metric` | `metric` | 変数 | False | いいえ（オフ） |
 
 **認証**
 
-| タイプ | API キー名 | API キー値 | 場所 |
+| タイプ | API キー名 | API キー値 | ロケーション |
 | --- | --- | --- | --- |
 | API キー | `apiKey` | `<YOUR_API_KEY>` | クエリパラメーター |
 
@@ -1390,7 +1390,7 @@ ShipStationでは、配送業者、ラベル、トラッキング用の配送API
 
 Journey Optimizerでこの統合を設定するには、次の手順を使用します。 リクエストの詳細については、**統合フィールドのサンプル**&#x200B;を参照し、これらの値を環境のベンダードキュメントで確認してください。
 
-1. [統合の操作](external-sources.md)に従います。 必要なリソース（注文と出荷）をターゲットにし、[ShipStation API](https://www.shipstation.com/docs/api/){target="_blank"}ごとに認証し、サンプル JSONを貼り付け、フィールドをマップし、テストし、アクティベートします。
+1. [統合の操作](integrations.md)に従います。 必要なリソース（注文と出荷）をターゲットにし、[ShipStation API](https://www.shipstation.com/docs/api/){target="_blank"}ごとに認証し、サンプル JSONを貼り付け、フィールドをマップし、テストし、アクティベートします。
 
 1. Journey Optimizerで、設定/管理に移動し、「統合を作成」を選択します。
 
@@ -1433,7 +1433,7 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 **認証**
 
-| タイプ | API キー名 | API キー値 | 場所 |
+| タイプ | API キー名 | API キー値 | ロケーション |
 | --- | --- | --- | --- |
 | API キー | apiKey | `<your_api_key>` | ヘッダー |
 
@@ -1480,7 +1480,7 @@ RevenueCatは、アプリのサブスクリプションステータスと使用�
 
 Journey Optimizerでこの統合を設定するには、次の手順を使用します。 リクエストの詳細については、**統合フィールドのサンプル**&#x200B;を参照し、これらの値を環境のベンダードキュメントで確認してください。
 
-1. [統合の操作](external-sources.md)に従います。 以下にモデル化したREST **GET**&#x200B;を呼び出し、秘密鍵ヘッダーで認証し、サンプル JSON、マップフィールド、テスト、アクティベートを貼り付けます。
+1. [統合の操作](integrations.md)に従います。 以下にモデル化したREST **GET**&#x200B;を呼び出し、秘密鍵ヘッダーで認証し、サンプル JSON、マップフィールド、テスト、アクティベートを貼り付けます。
 
 1. Journey Optimizerで、設定/管理に移動し、「統合を作成」を選択します。
 
@@ -1507,7 +1507,7 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 +++ 統合フィールドの例
 
-パターンの例：**RevenueCat ドキュメント**&#x200B;のRevenueCatの[製品](https://docs.revenuecat.com/){target="_blank"}または同等の製品/使用権限GETを、プロジェクトのベース URLとバージョンと共に使用します。
+パターンの例：[RevenueCat ドキュメント ](https://docs.revenuecat.com/){target="_blank"}のRevenueCatの&#x200B;**製品**&#x200B;または同等の製品/使用権限GETを、プロジェクトのベース URLとバージョンと共に使用します。
 
 | フィールド | 値 |
 | --- | --- |
@@ -1533,13 +1533,13 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 | パラメーター | 名前 | タイプ | 値 | 必須 |
 | --- | --- | --- | --- | --- |
-| `country` | `country` | Variable | `<iso_country_code>` | いいえ（オフ） |
-| `locale` | `locale` | Variable | `<locale_code>` | いいえ（オフ） |
-| `parentId` | `parentId` | Variable | `<parent_category_id>` | いいえ（オフ） |
+| `country` | `country` | 変数 | `<iso_country_code>` | いいえ（オフ） |
+| `locale` | `locale` | 変数 | `<locale_code>` | いいえ（オフ） |
+| `parentId` | `parentId` | 変数 | `<parent_category_id>` | いいえ（オフ） |
 
 **認証**
 
-| タイプ | API キー名 | API キー値 | 場所 |
+| タイプ | API キー名 | API キー値 | ロケーション |
 | --- | --- | --- | --- |
 | API キー | 認証 | `Bearer <token>` | ヘッダー |
 
@@ -1566,7 +1566,7 @@ Databricksは、レイクハウス データに対してSQL APIとREST APIを提
 
 Journey Optimizerでこの統合を設定するには、次の手順を使用します。 リクエストの詳細については、**統合フィールドのサンプル**&#x200B;を参照し、これらの値を環境のベンダードキュメントで確認してください。
 
-1. [統合の操作](external-sources.md)に従います。 狭い読み取りパスを優先します。**POST** ステートメントの実行を使用する場合は、APIが必要とするJSON本文を含め、マッピング用に成功レスポンスのサンプルを貼り付け、待ち時間を慎重にテストし、アクティブ化します。
+1. [統合の操作](integrations.md)に従います。 狭い読み取りパスを優先します。**POST** ステートメントの実行を使用する場合は、APIが必要とするJSON本文を含め、マッピング用に成功レスポンスのサンプルを貼り付け、待ち時間を慎重にテストし、アクティブ化します。
 
 1. Journey Optimizerで、設定/管理に移動し、「統合を作成」を選択します。
 
@@ -1593,7 +1593,7 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 +++統合フィールドの例
 
-以下の&#x200B;**GET** ジョブの例は実例です。SQL ドリブン型のパーソナライゼーションの場合は、ワークスペースがサポートする[&#x200B; ステートメント実行API](https://docs.databricks.com/api/workspace/statementexecution){target="_blank"} パターンを優先します。
+以下の&#x200B;**GET** ジョブの例は実例です。SQL ドリブン型のパーソナライゼーションの場合は、ワークスペースがサポートする[ ステートメント実行API](https://docs.databricks.com/api/workspace/statementexecution){target="_blank"} パターンを優先します。
 
 | フィールド | 値 |
 | --- | --- |
@@ -1613,7 +1613,7 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 | パラメーター | 名前 | タイプ | 値 | 必須 |
 | --- | --- | --- | --- | --- |
-| `job_id` | `job_id` | Variable | `12` | ○ |
+| `job_id` | `job_id` | 変数 | `12` | ○ |
 
 +++
 
@@ -1645,7 +1645,7 @@ BynderはREST APIを備えたDAMです。統合では、一般的に、読み取
 
 Journey Optimizerでこの統合を設定するには、次の手順を使用します。 リクエストの詳細については、**統合フィールドのサンプル**&#x200B;を参照し、これらの値を環境のベンダードキュメントで確認してください。
 
-1. [統合の操作](external-sources.md)に従います。 選択したエンドポイントで&#x200B;**GET**&#x200B;を設定し（1つの一般的なパターンはユーザーリストです）、[Bynder](https://developer.bynder.com/){target="_blank"}ごとにOAuthを完了し、データの不要なページを引き出すのを避け、フィールドをマッピングし、テストしてからアクティベートします。
+1. [統合の操作](integrations.md)に従います。 選択したエンドポイントで&#x200B;**GET**&#x200B;を設定し（1つの一般的なパターンはユーザーリストです）、[Bynder](https://developer.bynder.com/){target="_blank"}ごとにOAuthを完了し、データの不要なページを引き出すのを避け、フィールドをマッピングし、テストしてからアクティベートします。
 
 1. Journey Optimizerで、設定/管理に移動し、「統合を作成」を選択します。
 
@@ -1672,7 +1672,7 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 +++ 統合フィールドの例
 
-統合フィールドのサンプル。 OAuth 2.0 ペイロードの詳細については、[Bynder API ドキュメント &#x200B;](https://developer.bynder.com/){target="_blank"}を参照してください。
+統合フィールドのサンプル。 OAuth 2.0 ペイロードの詳細については、[Bynder API ドキュメント ](https://developer.bynder.com/){target="_blank"}を参照してください。
 
 | フィールド | 値 |
 | --- | --- |
@@ -1698,9 +1698,9 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 | パラメーター | 名前 | タイプ | 値 | 必須 |
 | --- | --- | --- | --- | --- |
-| `includeInActive` | `includeInActive` | Variable | False | いいえ（オフ） |
-| `limit` | `limit` | Variable | 100 | いいえ（オフ） |
-| `page` | `page` | Variable | 1 | いいえ（オフ） |
+| `includeInActive` | `includeInActive` | 変数 | False | いいえ（オフ） |
+| `limit` | `limit` | 変数 | 100 | いいえ（オフ） |
+| `page` | `page` | 変数 | 1 | いいえ（オフ） |
 
 **認証**
 
@@ -1795,7 +1795,7 @@ Trustpilotは、ユースケースと契約が許可するビジネスとレビ�
 
 Journey Optimizerでこの統合を設定するには、次の手順を使用します。 リクエストの詳細については、**統合フィールドのサンプル**&#x200B;を参照し、これらの値を環境のベンダードキュメントで確認してください。
 
-1. [統合の操作](external-sources.md)に従います。 必須のクエリ認証を使用して&#x200B;**GET**&#x200B;を設定し、プロファイルまたはコンテキストからIDをマッピングし、サンプル JSON、マップフィールド、テスト、アクティベートを貼り付けます。
+1. [統合の操作](integrations.md)に従います。 必須のクエリ認証を使用して&#x200B;**GET**&#x200B;を設定し、プロファイルまたはコンテキストからIDをマッピングし、サンプル JSON、マップフィールド、テスト、アクティベートを貼り付けます。
 
 1. Journey Optimizerで、設定/管理に移動し、「統合を作成」を選択します。
 
@@ -1841,13 +1841,13 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 | パラメーター | 名前 | タイプ | 値 | 必須 |
 | --- | --- | --- | --- | --- |
-| `country` | `country` | Variable | `<iso_country_code>` | いいえ（オフ） |
-| `locale` | `locale` | Variable | `<locale_code>` | いいえ（オフ） |
-| `parentId` | `parentId` | Variable | `<parent_category_id>` | いいえ（オフ） |
+| `country` | `country` | 変数 | `<iso_country_code>` | いいえ（オフ） |
+| `locale` | `locale` | 変数 | `<locale_code>` | いいえ（オフ） |
+| `parentId` | `parentId` | 変数 | `<parent_category_id>` | いいえ（オフ） |
 
 **認証**
 
-| タイプ | API キー名 | API キー値 | 場所 |
+| タイプ | API キー名 | API キー値 | ロケーション |
 | --- | --- | --- | --- |
 | API キー | apiKey | `<your_api_key>` | ヘッダー |
 
@@ -1879,7 +1879,7 @@ Bazaarvoiceは評価、レビュー、UGC APIを提供しています。
 
 Journey Optimizerでこの統合を設定するには、次の手順を使用します。 リクエストの詳細については、**統合フィールドのサンプル**&#x200B;を参照し、これらの値を環境のベンダードキュメントで確認してください。
 
-1. [統合の操作](external-sources.md)に従います。 **GET**&#x200B;を`passkey`と共にConversations APIのクエリパラメーターとして使用し、`Accept: application/json`を設定し、サンプル JSONを貼り付け、フィールドをマップし、テストし、アクティベートします。
+1. [統合の操作](integrations.md)に従います。 **GET**&#x200B;を`passkey`と共にConversations APIのクエリパラメーターとして使用し、`Accept: application/json`を設定し、サンプル JSONを貼り付け、フィールドをマップし、テストし、アクティベートします。
 
 1. Journey Optimizerで、設定/管理に移動し、「統合を作成」を選択します。
 
@@ -1923,7 +1923,7 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 **認証**
 
-| タイプ | キー値 | 場所 |
+| タイプ | キー値 | ロケーション |
 | --- | --- | --- |
 | パスキー | `<YOUR_ACCESS_TOKEN>` | クエリパラメーター |
 
@@ -1932,8 +1932,8 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 | パラメーター | 名前 | タイプ | 値 | 必須 |
 | --- | --- | --- | --- | --- |
 | `apiversion` | apiversionNumber | 定数 | 5.4 | はい（オン） |
-| `filter` | `filter` | Variable | Id:47950830 | いいえ（オフ） |
-| `stats` | `stats` | Variable | すべて | いいえ（オフ） |
+| `filter` | `filter` | 変数 | Id:47950830 | いいえ（オフ） |
+| `stats` | `stats` | 変数 | すべて | いいえ（オフ） |
 
 +++
 
@@ -1963,7 +1963,7 @@ OneTrustは、プライバシーおよび同意API （製品固有のURLとス�
 
 Journey Optimizerでこの統合を設定するには、次の手順を使用します。 リクエストの詳細については、**統合フィールドのサンプル**&#x200B;を参照し、これらの値を環境のベンダードキュメントで確認してください。
 
-1. [統合の操作](external-sources.md)に従います。 公開されたスキーマまたは環境設定センターのパスを使用して、サブスクリプションドキュメントを作成し、必要に応じてOAuthを完了し、サンプル JSON、マップフィールド、テスト、アクティベートを貼り付けます。
+1. [統合の操作](integrations.md)に従います。 公開されたスキーマまたは環境設定センターのパスを使用して、サブスクリプションドキュメントを作成し、必要に応じてOAuthを完了し、サンプル JSON、マップフィールド、テスト、アクティベートを貼り付けます。
 
 1. Journey Optimizerで、設定/管理に移動し、「統合を作成」を選択します。
 
@@ -2049,7 +2049,7 @@ Metaのグラフおよびマーケティング APIは、承認済みのビジネ
 
 Journey Optimizerでこの統合を設定するには、次の手順を使用します。 リクエストの詳細については、**統合フィールドのサンプル**&#x200B;を参照し、これらの値を環境のベンダードキュメントで確認してください。
 
-1. [統合の操作](external-sources.md)に従います。 グラフ呼び出しは、多くの場合、**GET**&#x200B;でバージョン管理されたパスを持ちます。トークンの有効期限を処理し、サンプル JSONを貼り付け、フィールドをマップし、テストしてアクティブ化します。
+1. [統合の操作](integrations.md)に従います。 グラフ呼び出しは、多くの場合、**GET**&#x200B;でバージョン管理されたパスを持ちます。トークンの有効期限を処理し、サンプル JSONを貼り付け、フィールドをマップし、テストしてアクティブ化します。
 
 1. Journey Optimizerで、設定/管理に移動し、「統合を作成」を選択します。
 
@@ -2103,8 +2103,8 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 | パラメーター | 名前 | タイプ | 値 | 必須 |
 | --- | --- | --- | --- | --- |
-| `fields` | `fields` | Variable | ID | × |
-| `filter` | `filter` | Variable | — | × |
+| `fields` | `fields` | 変数 | ID | × |
+| `filter` | `filter` | 変数 | — | × |
 
 +++
 
@@ -2134,7 +2134,7 @@ Aprimoは、レコード、アセット、メタデータのマーケティン�
 
 Journey Optimizerでこの統合を設定するには、次の手順を使用します。 リクエストの詳細については、**統合フィールドのサンプル**&#x200B;を参照し、これらの値を環境のベンダードキュメントで確認してください。
 
-1. [統合の操作](external-sources.md)に従います。 必要なレコードパスに&#x200B;**GET**&#x200B;を使用し、`API-VERSION`などの必須ヘッダーを送信し、サンプル JSON （返されたHALまたはJSON）を貼り付け、最小限のフィールドセットをマッピングし、テストし、アクティベートします。
+1. [統合の操作](integrations.md)に従います。 必要なレコードパスに&#x200B;**GET**&#x200B;を使用し、`API-VERSION`などの必須ヘッダーを送信し、サンプル JSON （返されたHALまたはJSON）を貼り付け、最小限のフィールドセットをマッピングし、テストし、アクティベートします。
 
 1. Journey Optimizerで、設定/管理に移動し、「統合を作成」を選択します。
 
@@ -2180,13 +2180,13 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 | コンテンツタイプ（デフォルト） | Content-Type | 定数 | application/json | はい（オン） |
 | API-VERSION | API-VERSION | 定数 | 1 | はい（オン） |
 | Accept | Accept | 定数 | application/hal+jsonまたはapplication/json | いいえ（オフ） |
-| select-record | select-record | Variable | `<selection_type>` | いいえ（オフ） |
-| select-record-fields | select-record-fields | Variable | `<field_list>` | いいえ（オフ） |
-| select-field | select-field | Variable | `<field_selection>` | いいえ（オフ） |
+| select-record | select-record | 変数 | `<selection_type>` | いいえ（オフ） |
+| select-record-fields | select-record-fields | 変数 | `<field_list>` | いいえ（オフ） |
+| select-field | select-field | 変数 | `<field_selection>` | いいえ（オフ） |
 
 **認証**
 
-| タイプ | API キー名 | API キー値 | 場所 |
+| タイプ | API キー名 | API キー値 | ロケーション |
 | --- | --- | --- | --- |
 | API キー | 認証 | ベアラー`<token>` | ヘッダー |
 
@@ -2216,7 +2216,7 @@ Epsilonはエンタープライズ契約ごとにAPIを公開します。ベー�
 
 Journey Optimizerでこの統合を設定するには、次の手順を使用します。 リクエストの詳細については、**統合フィールドのサンプル**&#x200B;を参照し、これらの値を環境のベンダードキュメントで確認してください。
 
-1. [統合の操作](external-sources.md)に従います。 公開URLを推測しないでください。 Epsilonの仕様を使用し、サンプル JSONを貼り付け、フィールドをマッピングし、テストし、アクティブにします。
+1. [統合の操作](integrations.md)に従います。 公開URLを推測しないでください。 Epsilonの仕様を使用し、サンプル JSONを貼り付け、フィールドをマッピングし、テストし、アクティブにします。
 
 1. Journey Optimizerで、設定/管理に移動し、「統合を作成」を選択します。
 
@@ -2269,16 +2269,16 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 | パラメーター | 名前 | タイプ | 値 | 必須 |
 | --- | --- | --- | --- | --- |
-| `start` | `start` | Variable | 2019-08-24T14:15:22Z | はい（オン） * |
-| `end` | `end` | Variable | 2019-08-24T14:15:22Z | はい（オン） * |
-| `eventType` | `eventType` | Variable | スケジュール済み/スケジュール外 | いいえ（オフ） |
-| `exclude_recurrences` | `exclude_recurrences` | Variable | true / false | いいえ（オフ） |
+| `start` | `start` | 変数 | 2019-08-24T14:15:22Z | はい（オン） * |
+| `end` | `end` | 変数 | 2019-08-24T14:15:22Z | はい（オン） * |
+| `eventType` | `eventType` | 変数 | スケジュール済み/スケジュール外 | いいえ（オフ） |
+| `exclude_recurrences` | `exclude_recurrences` | 変数 | true / false | いいえ（オフ） |
 
 \* `eventType` = `unscheduled`および`exclude_recurrences` = `true`ではオプションです。
 
 **認証**
 
-| タイプ | API キー名 | API キー値 | 場所 |
+| タイプ | API キー名 | API キー値 | ロケーション |
 | --- | --- | --- | --- |
 | API キー | `<your_username>` | `<EPSILON3_API_KEY>` | ヘッダー |
 
