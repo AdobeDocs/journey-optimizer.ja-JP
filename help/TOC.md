@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e4c298fb1c47501920a27a93b43878327b6c5861
+source-git-commit: 16eb46843d0369ae14f004a5e0f9e743cad3170b
 workflow-type: tm+mt
-source-wordcount: '3275'
-ht-degree: 91%
+source-wordcount: '3276'
+ht-degree: 90%
 
 ---
 
@@ -507,7 +507,7 @@ ht-degree: 91%
       + [GenStudio for Performance Marketing の操作](using/integrations/genstudio.md)
       + {hide-from-toc}[統合の操作](using/integrations/integrations.md)
       + {hide-from-toc}[&#x200B; ベンダー統合の基本を学ぶ](using/integrations/vendor-integration-gs.md)
-      + {hide-from-toc}[使用可能なベンダー](using/integrations/vendor-integration.md)
+      + {hide-from-toc}[&#x200B; ベンダー設定の例](using/integrations/vendor-integration.md)
       + {hide-from-toc}[FAQ](using/integrations/vendor-integration-faq.md)
       + {hide-from-toc}[MCPを介したAI ツールの操作](/help/using/integrations/ajo-mcp.md)
    + コンテンツ生成用 AI アシスタント {#ai-assistant}

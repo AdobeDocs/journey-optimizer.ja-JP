@@ -9,14 +9,14 @@ role: User
 level: Intermediate
 hide: true
 keywords: 統合、ベンダー、サードパーティ
-source-git-commit: eab38d6c5f07af0f2dc403abaf0deb3a09f0d392
+source-git-commit: 16eb46843d0369ae14f004a5e0f9e743cad3170b
 workflow-type: tm+mt
-source-wordcount: '9327'
+source-wordcount: '9348'
 ht-degree: 7%
 
 ---
 
-# 利用可能なベンダー
+# ベンダー設定の例 {#vendor-integration}
 
 >[!BEGINSHADEBOX]
 
@@ -24,8 +24,14 @@ ht-degree: 7%
 
 * [統合の操作](integrations.md)
 * [ベンダーとの連携を始める](vendor-integration-gs.md)
-* **[使用可能なベンダー](vendor-integration.md)**
+* **[ベンダー設定の例](vendor-integration.md)**
 * [FAQ](vendor-integration-faq.md)
+
+>[!ENDSHADEBOX]
+
+>[!BEGINSHADEBOX]
+
+顧客およびサードパーティプロバイダーは、セキュリティとコンプライアンスの要件に応じて、API エンドポイントを保護する責任があります。
 
 >[!ENDSHADEBOX]
 
