@@ -7,7 +7,7 @@ feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 9195a5cd0b8c76cc5a580fc89d2324786931bcfe
+source-git-commit: 6143eaf5d973d3e457b89a69ed0ec63724270f5e
 workflow-type: tm+mt
 source-wordcount: '2189'
 ht-degree: 88%
@@ -21,7 +21,6 @@ ht-degree: 88%
 >[!AVAILABILITY]
 >
 >新しい&#x200B;**モバイルオンボーディングのクイックスタートワークフロー**&#x200B;が利用できるようになりました。 この新しい製品機能を使用すると、Mobile SDK を迅速に設定し、モバイルイベント データの収集と検証を開始し、モバイルプッシュ通知を送信できます。 この機能は、パブリックベータ版としてデータ収集ホームページから入手できます。 [詳細情報](mobile-onboarding-wf.md)
->
 
 ## 開始する前に {#start-push}
 
@@ -428,4 +427,3 @@ You can use a test mobile app for this use case. For more on this, refer to this
 1. 「**[!UICONTROL 送信]**」をクリックします。
 
 イベントがトリガーされ、モバイルアプリにプッシュ通知が届きます。
-
