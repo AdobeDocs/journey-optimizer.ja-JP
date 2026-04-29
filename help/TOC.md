@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 16eb46843d0369ae14f004a5e0f9e743cad3170b
+source-git-commit: fb3a463d503b4bba4a3a1095e9dd94b5ec8e16e3
 workflow-type: tm+mt
 source-wordcount: '3276'
 ht-degree: 90%
@@ -230,7 +230,7 @@ ht-degree: 90%
       + [クワイエットアワーの設定](using/conflict-prioritization/quiet-hours.md)
    + ジャーニー調停 {#journey-arbitration}
       + [数式を使用したジャーニーのランク付け](using/conflict-prioritization/journey-ranking-formulas.md)
-      + {hide-from-toc}[AI モデルを使用してジャーニーをランク付け](using/conflict-prioritization/journey-ai-models.md)
+      + [AI モデルを使用してジャーニーをランク付けする](using/conflict-prioritization/journey-ai-models.md)
 + テストと承認 {#test}
    + [テスト、検証、承認](/help/rp_landing_pages/test-landing-page.md)
    + コンテンツのプレビューとテスト {#preview-test}
@@ -509,7 +509,7 @@ ht-degree: 90%
       + {hide-from-toc}[&#x200B; ベンダー統合の基本を学ぶ](using/integrations/vendor-integration-gs.md)
       + {hide-from-toc}[&#x200B; ベンダー設定の例](using/integrations/vendor-integration.md)
       + {hide-from-toc}[FAQ](using/integrations/vendor-integration-faq.md)
-      + {hide-from-toc}[MCPを介したAI ツールの操作](/help/using/integrations/ajo-mcp.md)
+      + [MCP経由でAI ツールを操作する](/help/using/integrations/ajo-mcp.md)
    + コンテンツ生成用 AI アシスタント {#ai-assistant}
       + [コンテンツ生成用 AI アシスタント](/help/rp_landing_pages/ai-assistant-landing-page.md)
       + [AI アシスタントの基本を学ぶ](using/content-management/gs-generative.md)
