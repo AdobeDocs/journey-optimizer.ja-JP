@@ -85,7 +85,7 @@ Web ベースの実装の場合、Web SDK が主な統合ポイントです。
 
 1. **データストリームを設定**：Journey Optimizer を有効にして、[!DNL Adobe Experience Platform Data Collection] でデータストリームを作成および設定します。 詳しくは、[データストリームドキュメント](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=ja){target="_blank"}を参照してください。
 
-1. **Web プッシュ通知を有効にする** （オプション）: Web プッシュ通知が一般公開されました。 Web SDK設定で[pushNotifications プロパティ ](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/commands/configure/pushnotifications){target="_blank"}を設定し、[sendPushSubscription コマンド ](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/commands/sendpushsubscription){target="_blank"}を使用してプッシュサブスクリプションを登録します。 [Web プッシュ設定について説明します](../../push/push-configuration-web.md)。
+1. **Web プッシュ通知を有効にする** （オプション）: Web プッシュ通知が一般公開されました。 Web SDK設定で[pushNotifications プロパティ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/commands/configure/pushnotifications){target="_blank"}を設定し、[sendPushSubscription コマンド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/commands/sendpushsubscription){target="_blank"}を使用してプッシュサブスクリプションを登録します。 [Web プッシュ設定について説明します](../../push/push-configuration-web.md)。
 
 ### コードベースのエクスペリエンスの実装（Web SDK）
 
@@ -167,7 +167,7 @@ Content-Type: application/json
 
 1. **アクションにつながるデータを返す**：後続のジャーニーステップで使用できるデータを返すように API をデザインします。 詳しくは、[アクション応答](../../action/action-response.md)を参照してください。
 
-1. **カスタムアクションの正常性を監視**：カスタムアクション監視ダッシュボードを使用して、呼び出しの成功、エラー、スループット、応答時間、キュー待ち時間を追跡します。 [ カスタムアクションレポート ](../../action/reporting.md)について説明します。
+1. **カスタムアクションの正常性を監視**：カスタムアクション監視ダッシュボードを使用して、呼び出しの成功、エラー、スループット、応答時間、キュー待ち時間を追跡します。 [&#x200B; カスタムアクションレポート &#x200B;](../../action/reporting.md)について説明します。
 
 1. **レート制限を実装**：エンドポイントが想定されるボリュームを処理できることを確認します。 Journey Optimizer では、1 秒あたり 5000 回の呼び出しの制限が適用されますが、システムは回復力を備えている必要があります。 詳しくは、[キャップとスロットル](../../configuration/external-systems.md)を参照してください。
 
@@ -187,7 +187,7 @@ Journey Optimizer は、プログラムによるアクセス用の包括的な R
 
 1. **Decision Management API**：オファー管理と決定に専用の API を使用します。 詳しくは、[Decision Management API ガイド](../../offers/api-reference/getting-started.md)を参照してください。
 
-1. **Decisioning移行API**：柔軟なスコープ、自動検証、ロールバックのサポートにより、意思決定管理エンティティをDecisioningにプログラムで移行します。 詳しくは、[Decisioning移行API ガイド ](../../experience-decisioning/decisioning-migration-api.md)を参照してください。
+1. **Decisioning移行API**：柔軟なスコープ、自動検証、ロールバックのサポートにより、意思決定管理エンティティをDecisioningにプログラムで移行します。 詳しくは、[Decisioning移行API ガイド &#x200B;](../../experience-decisioning/decisioning-migration-api.md)を参照してください。
 
 1. **SMS Webhook**：受信メッセージを取得するように受信Webhookを設定し、配信レシートとステータス更新を受信するようにフィードバック Webhookを設定します。 [詳細情報](../../sms/sms-webhook.md)
 
@@ -279,9 +279,9 @@ Journey Optimizer は、プログラムによるアクセス用の包括的な R
 
 作成を開始する準備は整っていますか？ 上記の節から最初の実装領域を選択します。
 
-1. **モバイルアプリ？** [ モバイル SDKとの統合を開始](#mobile-integration)
+1. **モバイルアプリ？** [&#x200B; モバイル SDKとの統合を開始](#mobile-integration)
 2. **Web サイト？** [Web SDKの設定](#web-implementation)から開始
 3. **API統合？** [APIの操作](#apis)に移動
-4. **カスタムシステム？** [ カスタムアクション ](#custom-actions)を確認してください
+4. **カスタムシステム？** [&#x200B; カスタムアクション &#x200B;](#custom-actions)を確認してください
 
 各節には、実装をガイドする詳細な技術ドキュメント、コードサンプル、チュートリアルへのリンクが含まれています。

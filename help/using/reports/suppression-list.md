@@ -45,7 +45,7 @@ ht-degree: 91%
 
 * **ソフトバウンス**&#x200B;では、アドレスが直ちに抑制リストに送られることはありませんが、エラーカウンターが増加します。 その後、数回の[再試行](../configuration/retries.md)が実行され、エラーカウンターがしきい値に達すると、アドレスが抑制リストに追加されます。
 
-* また、アドレスやドメイン](../configuration/manage-suppression-list.md#add-addresses-and-domains)を抑制リストに&#x200B;[**手動で**&#x200B;追加することもできます。
+* また、アドレスやドメイン[&#128279;](../configuration/manage-suppression-list.md#add-addresses-and-domains)を抑制リストに&#x200B;**手動で**&#x200B;追加することもできます。
 
 ハードバウンスとソフトバウンスについて詳しくは、[この節](#delivery-failures)を参照してください。
 
@@ -59,7 +59,7 @@ ht-degree: 91%
 >
 >「**[!UICONTROL 抑制]**」ステータスのプロファイルは、メッセージ送信プロセス中に除外されます。 したがって、**ジャーニーレポート**&#x200B;では、これらのプロファイルがジャーニー（[オーディエンスを読み取り](../building-journeys/read-audience.md)アクティビティと[メッセージアクティビティ](../building-journeys/journey-action.md)）内を移動したものとして表示されますが、これらはメール送信前に除外されるので、**メールレポート**&#x200B;では、**[!UICONTROL 送信済み]**&#x200B;指標に含まれません。
 >
->詳しくは、[ライブレポート](../reports/live-report.md)と [Customer Journey Analytics レポート](../reports/report-gs-cja.md)を参照してください。 すべての除外ケースの理由を確認するには、[Adobe Experience Platform クエリサービス ](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ja){target="_blank"}を使用します。
+>詳しくは、[ライブレポート](../reports/live-report.md)と [Customer Journey Analytics レポート](../reports/report-gs-cja.md)を参照してください。 すべての除外ケースの理由を確認するには、[Adobe Experience Platform クエリサービス &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ja){target="_blank"}を使用します。
 
 ### 配信の失敗 {#delivery-failures}
 
