@@ -47,7 +47,7 @@ ht-degree: 91%
    + 効率的な作業 {#work-efficiently}
       + [インターフェイスの操作](using/start/user-interface.md)
       + [検索、フィルター、整理](using/start/search-filter-categorize.md)
-      + [トラブルシューティングに関する FAQ](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
+      + [トラブルシューティングに関する FAQ](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/monitor/troubleshooting/troubleshooting)
       + [アクセシビリティ](using/start/accessibility.md)
       + {hide-from-toc}[ジャーニーとキャンペーン &#x200B;](using/start/journeys-vs-campaigns.md)
 + ジャーニー {#orchestrate-journeys}
