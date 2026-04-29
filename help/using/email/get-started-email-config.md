@@ -39,7 +39,7 @@ ht-degree: 84%
 
    ![](assets/surface-subdomain-ip-pool.png)
 
-   * **[!UICONTROL 送信元メールプレフィックス]**&#x200B;および&#x200B;**[!UICONTROL エラーメールプレフィックス]**&#x200B;は、現在選択されている[ デリゲートされたサブドメイン ](../configuration/about-subdomain-delegation.md)を使用しています。 オプションとして、**[!UICONTROL 送信者の名前]**&#x200B;と&#x200B;**[!UICONTROL 送信者の電子メール]**&#x200B;は、異なる送信者を識別できます（完全な&#x200B;**送信者** アドレス、そのサブドメインサフィックスに関連付けられていません）。 [詳細情報](header-parameters.md#sender-header)
+   * **[!UICONTROL 送信元メールプレフィックス]**&#x200B;および&#x200B;**[!UICONTROL エラーメールプレフィックス]**&#x200B;は、現在選択されている[&#x200B; デリゲートされたサブドメイン &#x200B;](../configuration/about-subdomain-delegation.md)を使用しています。 オプションとして、**[!UICONTROL 送信者の名前]**&#x200B;と&#x200B;**[!UICONTROL 送信者の電子メール]**&#x200B;は、異なる送信者を識別できます（完全な&#x200B;**送信者** アドレス、そのサブドメインサフィックスに関連付けられていません）。 [詳細情報](header-parameters.md#sender-header)
 
    ![](assets/preset-header.png)
 
