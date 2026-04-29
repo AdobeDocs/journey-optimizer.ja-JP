@@ -6,9 +6,9 @@ topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 3ec084ca-af9e-4b5e-b66f-ec390328a9d6
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1143'
 ht-degree: 5%
 
 ---
@@ -70,7 +70,7 @@ Decisioning Migration Service APIには、次の機能が用意されていま�
 
 次のベース URLを使用します。
 
-* **本番**: `https://decisioning-migration.adobe.io`
+* **実稼動**: `https://decisioning-migration.adobe.io`
   <!--* **Staging**: `https://decisioning-migration-stage.adobe.io`-->
 
 ### 認証 {#authentication}
@@ -81,7 +81,7 @@ Decisioning Migration Service APIには、次の機能が用意されていま�
 * `x-gw-ims-org-id: <IMS_ORG_ID>`
 * `Content-Type: application/json`
 
-認証の設定手順について詳しくは、[Journey Optimizer認証ガイド &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}を参照してください。
+認証の設定手順について詳しくは、[Journey Optimizer認証ガイド &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/authentication){target="_blank"}を参照してください。
 
 ### ワークフローモデル {#workflow-model}
 

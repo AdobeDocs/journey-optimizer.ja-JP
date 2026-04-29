@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 9864a136-e129-4279-bb09-081b72f584df
-source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 66%
+source-wordcount: '421'
+ht-degree: 63%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 66%
 
    ![](assets/create-live-2.png)
 
-1. 「**[!UICONTROL 実験を作成]**」をクリックしてコンテンツ実験の設定を開始し、パフォーマンスを測定してターゲットオーディエンスに最適なオプションを特定するための処理を作成します。[詳細情報](../content-management/content-experiment.md)
+1. 「**[!UICONTROL 実験を作成]**」をクリックしてコンテンツ実験の設定を開始し、パフォーマンスを測定してターゲットオーディエンスに最適なオプションを特定するための処理を作成します。 [詳細情報](../content-management/content-experiment.md)
 
 1. 「**[!UICONTROL オーディエンス]**」タブから、**[!UICONTROL ID タイプ]**&#x200B;を選択します [詳細情報](../audience/about-audiences.md)
 
@@ -48,7 +48,7 @@ ht-degree: 66%
    >
    >**API トリガーマーケティング** キャンペーンの場合、API ペイロードからAPNs channelID サブスクリプションを確認する前に、最初のセグメントとして機能する既存のオーディエンスを選択できます。
 
-1. キャンペーンは、特定の日付に実行するか、繰り返し頻度で実行するように設計されています。キャンペーンの&#x200B;**[!UICONTROL スケジュール]**&#x200B;を設定する方法については、[この節](../campaigns/create-campaign.md#schedule)を参照してください。
+1. キャンペーンは、特定の日付に実行するか、繰り返し頻度で実行するように設計されています。 キャンペーンの&#x200B;**[!UICONTROL スケジュール]**&#x200B;を設定する方法については、[この節](../campaigns/create-campaign.md#schedule)を参照してください。
 
 1. 設定が完了したら、「**[!UICONTROL レビューしてアクティブ化]**」をクリックし、「**[!UICONTROL アクティブ化]**」をクリックします。
 
@@ -56,7 +56,7 @@ ht-degree: 66%
 
    また、ペイロードに含める&#x200B;**[!UICONTROL キャンペーン ID]** 識別子もコピーします。
 
-   ➡️ OAuth トークンや API キーを含む認証要件について詳しくは、[API トリガーキャンペーンドキュメント](https://developer.adobe.com/journey-optimizer-apis/references/messaging/)を参照してください。
+   ➡️ OAuth トークンや API キーを含む認証要件について詳しくは、[API トリガーキャンペーンドキュメント](https://developer.adobe.com/journey-optimizer-apis/references/messaging)を参照してください。
 
    ![](assets/create-live-3.png)
 

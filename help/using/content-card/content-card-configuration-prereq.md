@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: df92e319-1e42-486f-b688-595964a762c9
-source-git-commit: 1f9841ddd039a7591f396e38d8a93ed840d6879e
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 90%
+source-wordcount: '361'
+ht-degree: 98%
 
 ---
 
@@ -19,12 +19,12 @@ Adobe Journey Optimizer でコンテンツカードを正しく表示するに�
 
 * **Adobe Experience Platform のデータ収集**
 
-  [データストリームを作成](https://experienceleague.adobe.com/ja/docs/experience-platform/datastreams/configure){target="_blank"}し、[Experience Platform サービスを追加](https://experienceleague.adobe.com/ja/docs/experience-platform/datastreams/configure#aep){target="_blank"}します。「**[!UICONTROL Edge のセグメント化]**」オプションと「**[!UICONTROL Adobe Journey Optimizer]**」オプションを有効にします。これにより、Journey Optimizer イベントが Adobe Experience Platform Edge Network で正しく処理されます。
-「**エクスペリエンスイベント - 提案インタラクション**」フィールドグループをデータセットに追加して、このデータをレポートに含めます。[詳しくは、データストリームを参照してください](https://experienceleague.adobe.com/ja/docs/experience-platform/datastreams/configure){target="_blank"}
+  [データストリームを作成](https://experienceleague.adobe.com/ja/docs/experience-platform/datastreams/configure){target="_blank"}し、[Experience Platform サービスを追加](https://experienceleague.adobe.com/ja/docs/experience-platform/datastreams/configure#aep){target="_blank"}します。 「**[!UICONTROL Edge のセグメント化]**」オプションと「**[!UICONTROL Adobe Journey Optimizer]**」オプションを有効にします。 これにより、Journey Optimizer イベントが Adobe Experience Platform Edge Network で正しく処理されます。
+「**エクスペリエンスイベント - 提案インタラクション**」フィールドグループをデータセットに追加して、このデータをレポートに含めます。 [詳しくは、データストリームを参照してください](https://experienceleague.adobe.com/ja/docs/experience-platform/datastreams/configure){target="_blank"}
 
 * **Adobe Experience Platform**
 
-  デフォルトの結合ポリシーで、**顧客**／**プロファイル**／**[!UICONTROL 結合ポリシー]** Experience Platform メニューで「**[!UICONTROL Active-On-Edge 結合ポリシー]**」がアクティブになっていることを確認します。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ja#configure){target="_blank"}
+  デフォルトの結合ポリシーで、**顧客**／**プロファイル**／**[!UICONTROL 結合ポリシー]** Experience Platform メニューで「**[!UICONTROL Active-On-Edge 結合ポリシー]**」がアクティブになっていることを確認します。 [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ja#configure){target="_blank"}
 
   >[!NOTE]
   >
@@ -32,7 +32,7 @@ Adobe Journey Optimizer でコンテンツカードを正しく表示するに�
 
 * **Adobe Experience Platform Mobile または Platform Web SDK**
 
-  モバイルアプリケーションおよび web アプリケーションの場合、web ページやモバイルアプリに変更を追加するには、[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/ja/docs/platform-learn/implement-web-sdk/overview){target="_blank"} を web サイトに実装するか、[Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/home/){target="_blank"} をモバイルアプリに実装する必要があります。
+  モバイルアプリケーションおよび web アプリケーションの場合、web ページやモバイルアプリに変更を追加するには、[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/ja/docs/platform-learn/implement-web-sdk/overview){target="_blank"} を web サイトに実装するか、[Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/home){target="_blank"} をモバイルアプリに実装する必要があります。
 
 * **Journey Optimizer**
 
@@ -40,14 +40,14 @@ Adobe Journey Optimizer でコンテンツカードを正しく表示するに�
 
 * **トラブルシューティング**
 
-  **Adobe Experience Platform Assurance** 内の **Edge Delivery** ビューを使用してモバイルエクスペリエンスのトラブルシューティングを行います。リクエストの調査、Edge 呼び出しの検証、プロファイルデータの調査を行うことができます。[詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}
+  **Adobe Experience Platform Assurance** 内の **Edge Delivery** ビューを使用してモバイルエクスペリエンスのトラブルシューティングを行います。 リクエストの調査、Edge 呼び出しの検証、プロファイルデータの調査を行うことができます。 [詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}
 
 * **コンテンツ実験**
 
-  アプリの[データストリーム](https://experienceleague.adobe.com/ja/docs/experience-platform/datastreams/overview#_blank){target="_blank"}で使用されるデータセットが、コンテンツ実験レポーティング設定にも含まれていることを確認します。データセットが一致しない場合、アプリデータはレポートに表示されません。
+  アプリの[データストリーム](https://experienceleague.adobe.com/ja/docs/experience-platform/datastreams/overview#_blank){target="_blank"}で使用されるデータセットが、コンテンツ実験レポーティング設定にも含まれていることを確認します。 データセットが一致しない場合、アプリデータはレポートに表示されません。
 
   コンテンツ実験のレポート用にデータセットを追加する方法について詳しくは、[この節](../reports/reporting-configuration.md)を参照してください。
 
 >[!CAUTION]
 >
->コンテンツカードで偽名プロファイル（未認証の訪問者）をターゲットにする場合は、自動プロファイル削除の有効期間（TTL）を設定して、エンゲージメント可能なプロファイル数と関連コストを管理することを検討してください。 [詳細情報](../start/guardrails.md#profile-management-inbound)
+>コンテンツカードを使用して偽名プロファイル（未認証の訪問者）をターゲットにする場合は、自動プロファイル削除の有効期間（TTL）を設定することを考慮し、エンゲージメント可能なプロファイル数と関連コストを管理します。 [詳細情報](../start/guardrails.md#profile-management-inbound)

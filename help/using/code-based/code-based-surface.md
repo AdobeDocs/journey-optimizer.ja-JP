@@ -6,10 +6,10 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: 07ec74fb-7fbc-48c6-a8fc-f58f24a60723
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 100%
+source-wordcount: '828'
+ht-degree: 99%
 
 ---
 
@@ -20,10 +20,10 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_uri"
 >title="コンポーネント用のサーフェス URI を追加"
->abstract="実装が web、iOS、Android 向けでない場合、または特定の URI をターゲットにする必要がある場合は、サーフェス URI を入力します。これは、エクスペリエンスを配信するエンティティを指す一意の ID です。独自の実装で使用される URI と一致するサーフェス URI を入力していることを確認します。"
+>abstract="実装が web、iOS、Android 向けでない場合、または特定の URI をターゲットにする必要がある場合は、サーフェス URI を入力します。これは、エクスペリエンスを配信するエンティティを指す一意の ID です。 独自の実装で使用される URI と一致するサーフェス URI を入力していることを確認します。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/code-based-experience/configure-code-based-channel/code-based-configuration#other" text="他のプラットフォーム用のコードベースのエクスペリエンス設定の作成"
 
-コードベースのエクスペリエンス&#x200B;**サーフェス**&#x200B;とは、ユーザーやシステムの操作用に設計されたエンティティで、[URI](#surface-uri) によって一意に識別されます。サーフェスは、[アプリケーション実装](code-based-prerequisites.md#implementation-prerequisites)で指定され、[コードベースのエクスペリエンスチャネル設定](code-based-configuration.md)で参照されるサーフェスと一致する必要があります。
+コードベースのエクスペリエンス&#x200B;**サーフェス**&#x200B;とは、ユーザーやシステムの操作用に設計されたエンティティで、[URI](#surface-uri) によって一意に識別されます。 サーフェスは、[アプリケーション実装](code-based-prerequisites.md#implementation-prerequisites)で指定され、[コードベースのエクスペリエンスチャネル設定](code-based-configuration.md)で参照されるサーフェスと一致する必要があります。
 
 サーフェスは、エンティティ（タッチポイント）が存在する階層の任意のレベルのコンテナと見なすことができます。
 
@@ -35,11 +35,11 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->同じサーフェスで実行するコードベースのエクスペリエンスアクションが複数あるとき、エンドユーザーが複数のアクションの対象となる場合に配信される内容は、キャンペーンまたはジャーニーの&#x200B;**[!UICONTROL 優先度スコア]**&#x200B;によって決まります。[優先度スコアの詳細情報](../conflict-prioritization/priority-scores.md)
+>同じサーフェスで実行するコードベースのエクスペリエンスアクションが複数あるとき、エンドユーザーが複数のアクションの対象となる場合に配信される内容は、キャンペーンまたはジャーニーの&#x200B;**[!UICONTROL 優先度スコア]**&#x200B;によって決まります。 [優先度スコアの詳細情報](../conflict-prioritization/priority-scores.md)
 
 ## サーフェス識別子 {#surface-uri}
 
-**サーフェス URI** は、アプリケーション内の個別のユーザーインターフェイス要素またはコンポーネントを指す正確な識別子として機能します。基本的に、サーフェス URI は複数のセクションで構成されます。
+**サーフェス URI** は、アプリケーション内の個別のユーザーインターフェイス要素またはコンポーネントを指す正確な識別子として機能します。 基本的に、サーフェス URI は複数のセクションで構成されます。
 
 1. **タイプ**：web、mobileapp、atm、kiosk、tvcd、service など。
 1. **プロパティ**：ページ URL またはアプリバンドル
@@ -76,7 +76,7 @@ ht-degree: 100%
 
 [!DNL Journey Optimizer] では、コードベースのエクスペリエンスチャネルが次の 2 つのタイプの顧客実装をサポートしています。
 
-* Web サイト用の [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja){target="_blank"} またはモバイルアプリ用の [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} に基づくタイプ。
+* Web サイト用の [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja){target="_blank"} またはモバイルアプリ用の [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation){target="_blank"} に基づくタイプ。
 * [AEP Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=ja){target="_blank"} を使用するサーバーサイドまたはハイブリッドに基づくタイプ。
 
 >[!NOTE]
@@ -93,6 +93,6 @@ ht-degree: 100%
 
 このため、[コードベースのエクスペリエンスチャネル設定](code-based-configuration.md)を作成する際、選択したプラットフォームに応じてサーフェスを指定するには、次の 2 つの方法があります。
 
-* **[!UICONTROL Web]**、**[!UICONTROL iOS]**、**[!UICONTROL Android]** プラットフォームの場合、サーフェスを構成するには、**URL／アプリ ID** と&#x200B;**場所またはパス**&#x200B;を入力する必要があります。コードベースのエクスペリエンスの設定について詳しくは、[web](code-based-configuration.md#web) プラットフォームおよび[モバイル](code-based-configuration.md#mobile)プラットフォームを参照してください。
+* **[!UICONTROL Web]**、**[!UICONTROL iOS]**、**[!UICONTROL Android]** プラットフォームの場合、サーフェスを構成するには、**URL／アプリ ID** と&#x200B;**場所またはパス**&#x200B;を入力する必要があります。 コードベースのエクスペリエンスの設定について詳しくは、[web](code-based-configuration.md#web) プラットフォームおよび[モバイル](code-based-configuration.md#mobile)プラットフォームを参照してください。
 
-* プラットフォームが&#x200B;**[!UICONTROL その他]**&#x200B;の場合は、[上記](#surface-uri)の例のように、完全な&#x200B;**サーフェス URI** を入力する必要があります。コードベースのエクスペリエンスの設定について詳しくは、[その他](code-based-configuration.md#other)のプラットフォームを参照してください。
+* プラットフォームが&#x200B;**[!UICONTROL その他]**&#x200B;の場合は、[上記](#surface-uri)の例のように、完全な&#x200B;**サーフェス URI** を入力する必要があります。 コードベースのエクスペリエンスの設定について詳しくは、[その他](code-based-configuration.md#other)のプラットフォームを参照してください。

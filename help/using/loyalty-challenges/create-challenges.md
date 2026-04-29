@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: ロイヤルティに関する課題の解決
-description: Adobe Journey Optimizerでロイヤルティに関する課題を作成および設定する方法について説明します。
+title: Create loyalty challenges
+description: Learn how to create and configure loyalty challenges in Adobe Journey Optimizer.
 feature: Journeys
 topic: Content Management
 role: User
@@ -11,9 +11,9 @@ hide: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '1807'
+source-wordcount: '1828'
 ht-degree: 1%
 
 ---
@@ -26,9 +26,9 @@ ht-degree: 1%
 
 * [ロイヤルティに関する課題を解決](get-started.md)
 * [課題とタスクへのアクセスと管理](access-loyalty-challenges.md)
-* **課題を作成** ◀︎ **現在の状況**
+* **Create challenges** ◀︎ **You are here**
 * [タスクの作成](create-tasks.md)
-* [&#x200B; ロイヤルティチャレンジ API リファレンス &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}
+* [ロイヤルティチャレンジ API リファレンス](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
 >[!ENDSHADEBOX]
 
@@ -36,30 +36,30 @@ ht-degree: 1%
 >
 >この機能は現在&#x200B;**プライベートベータ版**&#x200B;です。 リリースサイクルと可用性フェーズについて詳しくは、[Journey Optimizer リリースサイクル](../rn/releases.md)を参照してください。
 
-このページでは、チャレンジタイプの選択から、そのプロパティの設定、課題を顧客に提供するジャーニーの生成と公開に至るまで、ロイヤルティチャレンジを作成するプロセス全体を説明します。
+This page covers the complete process of creating a loyalty challenge, from selecting the challenge type and configuring its properties to generating and publishing the journey that will deliver the challenge to your customers.
 
-## 課題の構築 {#create-the-challenge}
+## Create the challenge {#create-the-challenge}
 
-1. Journey Optimizerの&#x200B;**[!UICONTROL ロイヤルティチャレンジ （Beta）]**&#x200B;に移動します。
+1. Navigate to **[!UICONTROL Loyalty Challenges (Beta)]** in Journey Optimizer.
 
-1. 「**[!UICONTROL チャレンジ]**」タブを選択し、「**[!UICONTROL チャレンジを作成]**」を選択します。
+1. Select the **[!UICONTROL Challenges]** tab and select **[!UICONTROL Create Challenge]**.
 
    ![](assets/challenge-create.png)
 
-1. チャレンジの種類を選択します。
+1. Choose the challenge type:
 
-   * **[!UICONTROL Standard]**：お客様は、指定された数のタスクを任意の順序で完了できます\
-     *例：使用可能な5つのタスクのうち3つを完了*
+   * **[!UICONTROL Standard]**: Customers complete any specified number of tasks in any order\
+     *Example: Complete 3 out of 5 available tasks*
 
-   * **[!UICONTROL Streak]**：顧客は同じタスクを複数回連続して完了します\
-     *例：7日連続で購入する*
+   * **[!UICONTROL Streak]**: Customers complete the same task multiple times consecutively\
+     *Example: Make a purchase on 7 consecutive days*
 
-   * **[!UICONTROL 順次]**：顧客は定義された順序でタスクを完了します\
-     *例：購入→レビュー→共有（この順序で完了する必要があります）*
+   * **[!UICONTROL Sequential]**: Customers complete tasks in a defined order\
+     *Example: Purchase → Review → Share (must be completed in this sequence)*
 
-   チャレンジタイプを選択すると、チャレンジ作成インターフェイスが開き、複数の設定タブが表示されます。 まず、チャレンジ構造を設定します。
+   After selecting a challenge type, the challenge creation interface opens with multiple configuration tabs. Start by configuring the challenge structure.
 
-## チャレンジ構造の設定 {#structure}
+## Configure the challenge structure {#structure}
 
 「**[!UICONTROL 構造]**」タブで、チャレンジの構成方法（プロパティ、スケジュール、完了するタスク、達成する報酬）を定義します。
 
@@ -221,7 +221,7 @@ ht-degree: 1%
 
 1. 「**[!UICONTROL コンテンツ]**」タブに移動し、コンテンツカードの&#x200B;**[!UICONTROL 名前]**&#x200B;を入力します。
 
-1. **[!UICONTROL チャネル設定]**&#x200B;を選択します。 チャネル設定には、ヘッダーパラメーター、サブドメイン、モバイルアプリなど、メッセージを送信するためのあらゆる技術的なパラメーターが含まれています。 [&#x200B; チャネル設定の詳細](../configuration/channel-surfaces.md)。
+1. **[!UICONTROL チャネル設定]**&#x200B;を選択します。 チャネル設定には、ヘッダーパラメーター、サブドメイン、モバイルアプリなど、メッセージを送信するためのすべての技術的なパラメーターが含まれます。[&#x200B; チャネル設定の詳細](../configuration/channel-surfaces.md)。
 
 1. 「**[!UICONTROL コンテンツを編集]**」を選択して、コンテンツカードをデザインします。 [&#x200B; コンテンツカードをデザインおよびパーソナライズする方法について説明します](../content-card/design-content-card.md)。
 

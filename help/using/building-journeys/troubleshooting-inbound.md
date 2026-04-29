@@ -10,16 +10,16 @@ level: Intermediate
 keywords: インバウンドアクション, トラブルシューティング, ジャーニー, デバッグ, セルフヘルプ, チェック, エラー
 exl-id: 5c56786f-da22-4558-b2ae-01f762175a7f
 version: Journey Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '1725'
+source-wordcount: '1809'
 ht-degree: 95%
 
 ---
 
 # ジャーニーでのインバウンドアクションのトラブルシューティング {#troubleshooting-inbound-actions}
 
-アプリ内、web、コードベースのエクスペリエンスなどのインバウンドアクションは、ユーザーのジャーニー中にパーソナライズされたエンゲージメントを可能にするので、[!DNL Journey Optimizer] の重要なコンポーネントです。ただし、インバウンドコンテンツの欠落や、プロファイルがジャーニーから離脱した後に配信が継続されるなど、予期しない動作が発生する場合があります。
+アプリ内、web、コードベースのエクスペリエンスなどのインバウンドアクションは、ユーザーのジャーニー中にパーソナライズされたエンゲージメントを可能にするので、[!DNL Journey Optimizer] の重要なコンポーネントです。 ただし、インバウンドコンテンツの欠落や、プロファイルがジャーニーから離脱した後に配信が継続されるなど、予期しない動作が発生する場合があります。
 
 このガイドでは、サポートに連絡する前に、ジャーニーでのインバウンドアクションに関連する問題をデバッグするための手順について段階的に説明し、問題を独自に特定して解決できるようにします。
 
@@ -34,7 +34,7 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 
 トラブルシューティングを開始する前に、以下を確認します。
 
-1. **Assurance** セッションを設定します。詳しくは、[[!DNL Adobe Experience Platform] Assurance ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}を参照してください。
+1. **Assurance** セッションを設定します。 詳しくは、[[!DNL Adobe Experience Platform] Assurance ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"}を参照してください。
 
 1. インバウンドアクションを含むジャーニーに移動して、ジャーニー名とバージョン ID を取得します。
 
@@ -44,11 +44,11 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 
    ![ジャーニー URL またはプロパティパネルのジャーニー ID の場所](assets/troubleshoot-inbound-retrieve-journey-id.png)
 
-1. インバウンドアクションをクリックして、その詳細を表示します。インバウンドアクションのラベルと ID を取得します。
+1. インバウンドアクションをクリックして、その詳細を表示します。 インバウンドアクションのラベルと ID を取得します。
 
    ![アクティビティ設定パネルのコードビューのアクション ID](assets/troubleshoot-inbound-retrieve-action-id.png)
 
-1. プロファイルの名前空間と ID を取得して、問題の発生したプロファイルを識別します。設定に基づいて、名前空間は ECID、メール、顧客 ID などになります。プロファイルを検索する方法について詳しくは、[Experience Platform ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}を参照してください。
+1. プロファイルの名前空間と ID を取得して、問題の発生したプロファイルを識別します。 設定に基づいて、名前空間は ECID、メール、顧客 ID などになります。 プロファイルを検索する方法について詳しくは、[Experience Platform ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/ui/user-guide#browse-identity){target="_blank"}を参照してください。
 
 ## シナリオ 1：ユーザーがインバウンドコンテンツを受信していない {#scenario-1}
 
@@ -59,11 +59,11 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 
 1. **ジャーニーインバウンドデータセットがプロファイルの取り込みに対して有効になっている**
 
-   インバウンドアクションでは、実行中にプロファイルの更新に&#x200B;**ジャーニーインバウンド**&#x200B;データセットを使用します。現在のサンドボックスのプロファイルに対してデータセットが有効になっていることを確認します。[データセットの詳細](../data/get-started-datasets.md)
+   インバウンドアクションでは、実行中にプロファイルの更新に&#x200B;**ジャーニーインバウンド**&#x200B;データセットを使用します。 現在のサンドボックスのプロファイルに対してデータセットが有効になっていることを確認します。 [データセットの詳細](../data/get-started-datasets.md)
 
 2. **Platform ID で定義された「joai」ID**
 
-   インバウンドアクションでは、インバウンドステップでプロファイルのアクティブ化にプロファイル `segmentMembership` の **joai** 名前空間を使用します。サンドボックスの Platform ID で定義されていることを確認します。詳しくは、[Experience Platform ID サービス](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/home){target="_blank"}を参照してください
+   インバウンドアクションでは、インバウンドステップでプロファイルのアクティブ化にプロファイル `segmentMembership` の **joai** 名前空間を使用します。 サンドボックスの Platform ID で定義されていることを確認します。 詳しくは、[Experience Platform ID サービス](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/home){target="_blank"}を参照してください
 
 ### デバッグ手順 {#debugging-steps}
 
@@ -85,7 +85,7 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 
    ![アプリ内メッセージ配信イベントとデータを示す Adobe Assurance ビュー](assets/troubleshoot-inbound-assurance-in-app.png){width="80%"}
 
-1. ジャーニー名の後に「- アプリ内メッセージ」が付いたメッセージを探します。このようなメッセージがあった場合、アプリ内メッセージがデバイス／クライアントに存在し、問題がアプリ内トリガーに関連している可能性があります。
+1. ジャーニー名の後に「- アプリ内メッセージ」が付いたメッセージを探します。 このようなメッセージがあった場合、アプリ内メッセージがデバイス／クライアントに存在し、問題がアプリ内トリガーに関連している可能性があります。
 
 1. メッセージが見つからない場合、アプリ内メッセージはデバイス／クライアントによって受信されませんでした。<!--Go to the [next step](#step-2) for further debugging.-->
 
@@ -95,7 +95,7 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 
 >[!TAB コードベースのエクスペリエンスチャネル]
 
-[アドビの API](https://developer.adobe.com/data-collection-apis/docs/api/) を使用して cURL リクエストを実行し、[Assurance](https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} セッションの「**[!UICONTROL Edge Delivery]**」セクションで Edge 応答ペイロードを確認します。
+[アドビの API](https://developer.adobe.com/data-collection-apis/docs/api) を使用して cURL リクエストを実行し、[Assurance](https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/tutorials/using-assurance){target="_blank"} セッションの「**[!UICONTROL Edge Delivery]**」セクションで Edge 応答ペイロードを確認します。
 
 >[!ENDTABS]
 
@@ -109,14 +109,14 @@ This guide addresses the two most common scenarios with inbound actions in a jou
 
 Edge Network の動作をデバッグするには、次の手順に従います。
 
-1. Assurance セッションで **[!UICONTROL Edge Delivery]** ビューを開きます。このビューには、Edge Network サーバーでのインバウンドアクションの実行に関する情報が表示されます。詳しくは、[Experience Platform ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}を参照してください。
+1. Assurance セッションで **[!UICONTROL Edge Delivery]** ビューを開きます。 このビューには、Edge Network サーバーでのインバウンドアクションの実行に関する情報が表示されます。 詳しくは、[Experience Platform ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/view/edge-delivery){target="_blank"}を参照してください。
 
 1. インバウンドアクションに対応する Edge アクティビティが「**[!UICONTROL 選定アクティビティ]**」セクションまたは「**[!UICONTROL 未選定アクティビティ]**」セクションにリストされているかどうかを確認します。
 
    ![プロファイルに送信されたメッセージ候補を示す Edge Delivery ログ](assets/troubleshoot-inbound-edge-delivery.png)
 
    * 「**選定アクティビティ**」セクションの場合、プロファイルはインバウンドジャーニーアクションに選定され、コンテンツを返す必要があります。
-   * 「**未選定アクティビティ**」セクションの場合、プロファイルはインバウンドジャーニーアクションに選定されません。詳しくは、除外の理由を参照してください。
+   * 「**未選定アクティビティ**」セクションの場合、プロファイルはインバウンドジャーニーアクションに選定されません。 詳しくは、除外の理由を参照してください。
    * **いずれのセクションでもない**&#x200B;場合は、Edge Network へのインバウンドジャーニーアクションの公開で問題が発生するか、リクエストしたサーフェス URI がインバウンドアクションのチャネル設定と一致しません。
 
    >[!NOTE]
@@ -143,7 +143,7 @@ Edge Network の動作をデバッグするには、次の手順に従います�
 
 Edge プロファイルの `segmentMembership` 属性に **joai** セグメントが存在するかどうかを確認するには、次の手順に従います。
 
-1. [!DNL Journey Optimizer] の左側のナビゲーションパネルにある&#x200B;**[!UICONTROL 顧客]**／**[!UICONTROL プロファイル]**&#x200B;メニューに移動し、名前空間と ID を使用してプロファイルを参照します。詳しくは、[リアルタイム顧客プロファイル](../audience/get-started-profiles.md)を参照してください
+1. [!DNL Journey Optimizer] の左側のナビゲーションパネルにある&#x200B;**[!UICONTROL 顧客]**／**[!UICONTROL プロファイル]**&#x200B;メニューに移動し、名前空間と ID を使用してプロファイルを参照します。 詳しくは、[リアルタイム顧客プロファイル](../audience/get-started-profiles.md)を参照してください
 
 1. 「**[!UICONTROL 属性]**」タブを選択し、**[!UICONTROL Edge]** ビューを選択します。
 
@@ -161,7 +161,7 @@ Edge プロファイルの `segmentMembership` 属性に **joai** セグメン�
 
 1. **joai** セグメント ID が存在しないか&#x200B;**[!UICONTROL 離脱]**&#x200B;状態の場合、Edge に（まだ）生成されていません。
 
-   `segmentMembership` の値がハブから Edge に生成されるまで 15～30 分待機します。まだ表示されない場合は、次の手順に進みます。
+   `segmentMembership` の値がハブから Edge に生成されるまで 15～30 分待機します。 まだ表示されない場合は、次の手順に進みます。
 
 <!--The next step is to check whether the audience segment is present in the profile on the Hub.-->
 
@@ -175,7 +175,7 @@ Edge プロファイルの `segmentMembership` 属性に **joai** セグメン�
 
 ハブプロファイルの `segmentMembership` 属性に **joai** セグメントが存在するかどうかを確認するには、次の手順に従います。
 
-1. [!DNL Journey Optimizer] の左側のナビゲーションパネルにある&#x200B;**[!UICONTROL 顧客]**／**[!UICONTROL プロファイル]**&#x200B;メニューに移動し、名前空間と ID を使用してプロファイルを参照します。詳しくは、[リアルタイム顧客プロファイル](../audience/get-started-profiles.md)を参照してください
+1. [!DNL Journey Optimizer] の左側のナビゲーションパネルにある&#x200B;**[!UICONTROL 顧客]**／**[!UICONTROL プロファイル]**&#x200B;メニューに移動し、名前空間と ID を使用してプロファイルを参照します。 詳しくは、[リアルタイム顧客プロファイル](../audience/get-started-profiles.md)を参照してください
 
 1. 「**[!UICONTROL 属性]**」タブを選択し、**[!UICONTROL ハブ]**&#x200B;ビューを選択します。
 
@@ -189,7 +189,7 @@ Edge プロファイルの `segmentMembership` 属性に **joai** セグメン�
 
 1. **joai** セグメント ID が存在しないか&#x200B;**[!UICONTROL 離脱済み]**&#x200B;状態の場合、プロファイルは、対応するインバウンドジャーニーアクションへのエントリ時に特別な **joai** オーディエンスセグメントに（まだ）正しく選定されていません。
 
-   `segmentMembership` の値がハブのプロファイルに取り込まれるまで 15 ～ 30 分待機します。まだ表示されない場合は、次の手順に進みます。
+   `segmentMembership` の値がハブのプロファイルに取り込まれるまで 15 ～ 30 分待機します。 まだ表示されない場合は、次の手順に進みます。
 
 ### 手順 5：クライアント／デバイスがまだ期待どおりのコンテンツを取得していない場合する {#step-5}
 

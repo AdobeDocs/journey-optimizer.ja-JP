@@ -8,9 +8,9 @@ level: Experienced
 mini-toc-levels: 1
 version: Journey Orchestration
 exl-id: 35fc3cf2-1b91-4f30-ad71-f9d7d2a0291c
-source-git-commit: 6697d82a5d78600638f416d4313b65023e185c9a
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '771'
 ht-degree: 11%
 
 ---
@@ -77,7 +77,7 @@ ht-degree: 11%
 
 >[!IMPORTANT]
 >
->プッシュ通知を使用したエクスペリエンス決定には、モバイル SDKの特定のバージョンが必要です。 この機能を実装する前に、[&#x200B; リリースノート &#x200B;](https://developer.adobe.com/client-sdks/home/release-notes/){target="_blank"}を確認して、必要なバージョンを特定し、それに応じてアップグレードされていることを確認してください。 また、[このセクション &#x200B;](https://developer.adobe.com/client-sdks/home/current-sdk-versions/){target="_blank"}では、お使いのプラットフォームで利用可能なすべてのSDK バージョンを表示できます。
+>プッシュ通知を使用したエクスペリエンス決定には、モバイル SDKの特定のバージョンが必要です。 この機能を実装する前に、[&#x200B; リリースノート &#x200B;](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"}を確認して、必要なバージョンを特定し、それに応じてアップグレードされていることを確認してください。 また、[このセクション &#x200B;](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"}では、お使いのプラットフォームで利用可能なすべてのSDK バージョンを表示できます。
 
 >[!ENDTABS]
 
@@ -101,7 +101,7 @@ ht-degree: 11%
 
 属性を追加するには、属性の横にある&#x200B;**`+`** アイコンをクリックします。 必要なだけ属性を追加できます。 プロファイルデータなど、その他のパーソナライゼーション属性を含めることもできます。
 
-* **電子メール**&#x200B;および&#x200B;**コードベースの** チャネルの場合、角括弧`#each`を使用して`[ ]` ループ内の属性をラップし、終了`/each` タグの前にコンマを追加します。
+* **電子メール**&#x200B;および&#x200B;**コードベースの** チャネルの場合、角括弧`[ ]`を使用して`#each` ループ内の属性をラップし、終了`/each` タグの前にコンマを追加します。
 
   +++例を参照
 
@@ -124,7 +124,7 @@ ht-degree: 11%
 
 ## コンテンツのプレビューとテスト
 
-コンテンツを制作したら、ジャーニーやキャンペーンをアクティブ化する前に、コンテンツをプレビューし、テストします。 決定項目は、シミュレーションインターフェイスで選択したプロファイルに基づいてレンダリングされます。 [&#x200B; コンテンツのプレビューとテストの方法について説明します](../content-management/preview-test.md)。
+コンテンツを制作したら、ジャーニーやキャンペーンをアクティブ化する前に、コンテンツをプレビューし、テストします。 決定項目は、シミュレーションインターフェイスで選択したプロファイルに基づいてレンダリングされます。 [詳しくは、コンテンツのプレビューとテストの方法を参照してください](../content-management/preview-test.md)。
 
 ## 次の手順 {#final-steps}
 

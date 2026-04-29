@@ -1,20 +1,20 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: ライブアクティビティチャネルの設定
+title: Configure the Live activities channel
 description: Adobe Experience Platform Mobile SDK 統合を設定する方法について説明します
 feature: Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 02ca7c8e-105a-4e77-9aad-2381904255d0
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 70%
+source-wordcount: '546'
+ht-degree: 65%
 
 ---
 
-# Adobe Experience Platform Mobile SDKとのライブアクティビティ統合 {#mobile-live-config-sdk}
+# Live activity integration with Adobe Experience Platform Mobile SDK {#mobile-live-config-sdk}
 
 
 Adobe Experience Platform Mobile SDK は、Apple のライブアクティビティのビルトインのサポートを提供します。 これにより、アプリを開かなくても、ロック画面と Dynamic Island でリアルタイムの動的な更新を直接表示できます。
@@ -27,7 +27,7 @@ Adobe Experience Platform Mobile SDK は、Apple のライブアクティビテ�
 
    `LiveActivityAttributes` に準拠し、`LiveActivityData` 属性と `ContentState` 属性を含めます。
 
-1. [ライブアクティビティを登録](#register)
+1. [Register Live activity](#register)
 
    SDK の初期化後に `Messaging.registerLiveActivity()` を使用します。
 
@@ -37,7 +37,7 @@ Adobe Experience Platform Mobile SDK は、Apple のライブアクティビテ�
 
 1. [ローカルでライブアクティビティを開始（オプション）](#local)
 
-   ライブアクティビティは、Journey Optimizerを通じてリモートで開始することも、アプリケーションコード内でローカルで開始することもできます。
+   Live activity can be initiated either remotely through Journey Optimizer or locally within the application code.
 
 1. [デバッグサポートを追加（オプション）](#debug)
 
@@ -56,7 +56,7 @@ Adobe Experience Platform Mobile SDK は、Apple のライブアクティビテ�
 * **Xcode：** 14.0 以降
 * **Swift：** 5.7 以降
 * **依存関係：** AEPCore、AEPMessaging、AEPMessagingLiveActivity、ActivityKit
-* **AEP Mobile SDK バージョン**:iOS Messaging 5.11.0以降
+* **AEP Mobile SDK version**: iOS Messaging 5.11.0 or later
 
 >[!ENDSHADEBOX]
 
@@ -70,9 +70,9 @@ import AEPMessagingLiveActivity
 import ActivityKit
 ```
 
-## 手順2：ライブアクティビティ属性の定義 {#attributes}
+## Step 2: define your live activity attributes {#attributes}
 
-`LiveActivityAttributes` プロトコルに準拠する構造体を作成します。これにより、ライブアクティビティの静的データと動的コンテンツの状態の両方が定義されます。
+`LiveActivityAttributes` プロトコルに準拠する構造体を作成します。 これにより、ライブアクティビティの静的データと動的コンテンツの状態の両方が定義されます。
 
 主なコンポーネントは次のとおりです。
 
@@ -82,9 +82,9 @@ import ActivityKit
 
 * 静的属性、ユースケースに固有のカスタムプロパティ（例：`restaurantName`）。
 
-* ライブアクティビティライフサイクル中に更新できる動的データを定義する **`ContentState`**。これは、`Codable` と `Hashable` に準拠する必要があります。
+* ライブアクティビティライフサイクル中に更新できる動的データを定義する **`ContentState`**。 これは、`Codable` と `Hashable` に準拠する必要があります。
 
-* `LiveActivityOrigin` 定義済みリストは、アクティビティがアプリ内でローカルで開始されたか、iOS 17.2 以降でサポートされているプッシュトゥスタート通知を通じてリモートで開始されたかを指定します。この値を使用すると、データ収集中にSDKがローカルで開始されたライブアクティビティとリモートでトリガーされたライブアクティビティを区別できます。
+* `LiveActivityOrigin` 定義済みリストは、アクティビティがアプリ内でローカルで開始されたか、iOS 17.2 以降でサポートされているプッシュトゥスタート通知を通じてリモートで開始されたかを指定します。 This value allows the SDK to differentiate between locally initiated and remotely triggered Live activity during data collection.
 
 **例**
 
@@ -132,7 +132,7 @@ if #available(iOS 16.1, *) {
 }
 ```
 
-## 手順3：ライブアクティビティの登録 {#register}
+## Step 3: register live activity {#register}
 
 SDK の初期化後に `AppDelegate` にライブアクティビティタイプを登録すると、次の操作を実行できます。
 
@@ -148,9 +148,9 @@ if #available(iOS 16.1, *) {
 }
 ```
 
-## 手順4：ライブアクティビティウィジェットの作成 {#widgets}
+## Step 4: create live activity widgets {#widgets}
 
-ライブアクティビティがウィジェットを通じて表示されます。 ウィジェットバンドルと設定を作成する必要があります。
+A Live activity is displayed through widgets. You need to create a widget bundle and configuration:
 
 **食品配送ライブアクティビティの例：**
 
@@ -187,7 +187,7 @@ struct FoodDeliveryLiveActivityWidget: Widget {
 }
 ```
 
-## 手順5：ライブアクティビティをローカルで開始する（オプション） {#local}
+## Step 5: start a live activity locally (optional) {#local}
 
 Journey Optimizer ではライブアクティビティをリモートで開始できますが、ローカルで開始することもできます。
 
@@ -233,13 +233,13 @@ extension FoodDeliveryLiveActivityAttributes: LiveActivityAssuranceDebuggable {
 
 ## その他のリソース
 
-包括的なSDKのドキュメントと実装の詳細については、次を参照してください。
+For comprehensive SDK documentation and implementation details:
 
-* [&#x200B; ライブアクティビティ開発者ガイド &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities)
-* [API リファレンス](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/api-reference/)
-* [&#x200B; ライブアクティビティチュートリアル &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/tutorial/)
-* [公開クラス &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/public-classes/live-activity-attributes/)
+* [Live activities Developer Guide](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities)
+* [API リファレンス](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/api-reference)
+* [Live activity Tutorial](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/tutorial)
+* [Public Classes](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/live-activities/public-classes/live-activity-attributes)
 
 >[!TIP]
 >
->トークンの登録、ペイロードの調整、またはライブアクティビティの配信に関して問題が発生した場合は、詳細なデバッグガイダンスについて、[&#x200B; ライブアクティビティのトラブルシューティング &#x200B;](troubleshoot-mobile-live.md)を参照してください。
+>If you are experiencing issues with token registration, payload alignment, or Live activity delivery, see [Troubleshoot Live activities](troubleshoot-mobile-live.md) for detailed debugging guidance.

@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 badge: label="ベータ版" type="Informative"
 exl-id: 364ef926-3f92-4297-acbd-a283668106ac
-source-git-commit: 9d3100389f6cfbd80ef8539db831ecc6817848c5
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '369'
 ht-degree: 98%
 
 ---
@@ -24,16 +24,16 @@ ht-degree: 98%
 
 ## 基本を学ぶ{#gs-mobile-wf}
 
-この新しいワークフローは、合計クリック数を減らし、Journey Optimizer のモバイル設定を高速化することで、データ収集の設定を自動化します。このクイックスタートワークフローでは、4 つの簡単な手順に従って、モバイル設定を[設定](#gs-mobile-wf)、[実装](#implement-mobile-wf)、[検証](#valid-mobile-wf)、[レビュー](#review-mobile-wf)できます。
+この新しいワークフローは、合計クリック数を減らし、Journey Optimizer のモバイル設定を高速化することで、データ収集の設定を自動化します。 このクイックスタートワークフローでは、4 つの簡単な手順に従って、モバイル設定を[設定](#gs-mobile-wf)、[実装](#implement-mobile-wf)、[検証](#valid-mobile-wf)、[レビュー](#review-mobile-wf)できます。
 
-新しいモバイルオンボーディングクイックスタートワークフローにアクセスするには、ソリューション切り替えツールから **[!DNL Data Collection]** を参照します。次に、ホームページで **[!DNL Start Collecting Mobile Data]** カードを選択します。
+新しいモバイルオンボーディングクイックスタートワークフローにアクセスするには、ソリューション切り替えツールから **[!DNL Data Collection]** を参照します。 次に、ホームページで **[!DNL Start Collecting Mobile Data]** カードを選択します。
 
 ![](assets/mobile-wf-home.png)
 
 一部の追加機能を以下に示します。
 
 * 4 つの簡単な手順のワークフローとユーザーインターフェイス。
-* [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation/){target="_blank"} を介してモバイルイベントデータの収集を数分で開始するための基本的な設定を提供します。
+* [Adobe Experience Platform Mobile SDK](https://developer.adobe.com/client-sdks/documentation){target="_blank"} を介してモバイルイベントデータの収集を数分で開始するための基本的な設定を提供します。
 * [Adobe Experience Platform Assurance](https://experienceleague.adobe.com/docs/experience-platform/assurance/home.html?lang=ja){target="_blank"} を活用して、基本的なモバイルプッシュイベントをテストおよび検証する機能。
 * 必要なすべてのデータ収集と Journey Optimizer アセットを自動で作成および設定します。
 * 製品ガイダンスとツールヒント。
@@ -58,14 +58,14 @@ ht-degree: 98%
 
 ## 検証{#valid-mobile-wf}
 
-実装をレビューおよび確認して、検証します。テストプッシュ通知を送信できます。
+実装をレビューおよび確認して、検証します。 テストプッシュ通知を送信できます。
 
 ![](assets/mobile-wf-valid.png)
 
 
 ## レビュー {#review-mobile-wf}
 
-自動設定が完了しました。これで、タグモバイルプロパティにアクセスしてルールまたはデータ要素を設定し、Adobe Journey Optimizer でプッシュ通知の送信を開始できます。
+自動設定が完了しました。 これで、タグモバイルプロパティにアクセスしてルールまたはデータ要素を設定し、Adobe Journey Optimizer でプッシュ通知の送信を開始できます。
 
 ![](assets/mobile-wf-done.png)
 

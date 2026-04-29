@@ -8,10 +8,10 @@ role: Developer
 level: Beginner
 keywords: 外部, API, Optimizer, キャップ
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
-source-git-commit: 0b0badfa09a24d451671f5bae9ddc437c6db2911
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 99%
+source-wordcount: '761'
+ht-degree: 98%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 99%
 
 Capping API を使用すると、キャップ設定を作成、設定および監視できます。
 
-この節では、API の使用方法に関する全体的な情報を示します。API について詳しくは、[Adobe Journey Optimizer API ドキュメント](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}を参照してください。
+この節では、API の使用方法に関する全体的な情報を示します。 API について詳しくは、[Adobe Journey Optimizer API ドキュメント](https://developer.adobe.com/journey-optimizer-apis){target="_blank"}を参照してください。
 
 ## Capping API の説明と Postman コレクション {#description}
 
-次の表に、Capping API で使用できるコマンドを示します。リクエストサンプル、パラメーター、応答形式などの情報について詳しくは、[Adobe Journey Optimizer API ドキュメント](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling/){target="_blank"}を参照してください。
+次の表に、Capping API で使用できるコマンドを示します。 リクエストサンプル、パラメーター、応答形式などの情報について詳しくは、[Adobe Journey Optimizer API ドキュメント](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling){target="_blank"}を参照してください。
 
 | メソッド | パス | 説明 |
 |---|---|---|
@@ -47,7 +47,7 @@ Capping API を使用すると、キャップ設定を作成、設定および�
 
 * `{JO_HOST}`：[!DNL Journey Optimizer]ゲートウェイ URL。
 * `{BASE_PATH}`：API のエントリポイント。
-* `{SANDBOX_NAME}`：API 操作が行われるサンドボックス名に対応するヘッダー **x-sandbox-name**（例えば、「prod」）。詳しくは、[サンドボックスの概要](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ja){target="_blank"}を参照してください。
+* `{SANDBOX_NAME}`：API 操作が行われるサンドボックス名に対応するヘッダー **x-sandbox-name**（例えば、「prod」）。 詳しくは、[サンドボックスの概要](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ja){target="_blank"}を参照してください。
 
 ## エンドポイントの設定
 
@@ -72,9 +72,9 @@ Capping API を使用すると、キャップ設定を作成、設定および�
 
 >[!IMPORTANT]
 >
->**maxHttpConnections** パラメーターは、オプションです。これを使用すると、Journey Optimizer が外部システムに対して開く接続の数を制限できます。
+>**maxHttpConnections** パラメーターは、オプションです。 これを使用すると、Journey Optimizer が外部システムに対して開く接続の数を制限できます。
 >
->設定できる最大値は 400 です。何も指定しない場合、システムは動的なスケーリングに応じて、最大で数千の接続を開く可能性があります。
+>設定できる最大値は 400 です。 何も指定しない場合、システムは動的なスケーリングに応じて、最大で数千の接続を開く可能性があります。
 >
 >キャップ設定をデプロイする際に `maxHttpConnections` 値が設定されていない場合は、デプロイ済みの設定にデフォルトの `maxHttpConnections = -1` が追加され、Journey Optimizer はデフォルトのシステム値を使用します。
 

@@ -8,28 +8,28 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1291'
 ht-degree: 84%
 
 ---
 
 # オプトアウトの管理 {#consent}
 
-ブランドからの連絡を登録解除する機能を受信者に提供することは、法的要件であり、この選択を確実に行うためにも必要です。これらの規制に準拠できないと、ブランドに法規制上のリスクが生じます。この機能を使用すると、未承諾の通信を受信者に送信して、メッセージがスパムと見なされたり、ブランドの評判が損なわれたりする危険性を避けることができます。
+ブランドからの連絡を登録解除する機能を受信者に提供することは、法的要件であり、この選択を確実に行うためにも必要です。 これらの規制に準拠できないと、ブランドに法規制上のリスクが生じます。 この機能を使用すると、未承諾の通信を受信者に送信して、メッセージがスパムと見なされたり、ブランドの評判が損なわれたりする危険性を避けることができます。
 
 該当する法律について詳しくは、[Experience Platformドキュメント](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=ja#regulations){target="_blank"}を参照してください。
 
 ## ジャーニーとキャンペーンでの購読解除の管理 {#opt-out-ajo}
 
-ジャーニーやキャンペーンからメッセージを送信する場合は、顧客が今後の通信を登録解除できるようにする必要があります。登録解除すると、プロファイルは、今後のマーケティングメッセージのオーディエンスから自動的に削除されます。
+ジャーニーやキャンペーンからメッセージを送信する場合は、顧客が今後の通信を登録解除できるようにする必要があります。 購読を解除すると、プロファイルは、今後のマーケティングメッセージのオーディエンスから自動的に削除されます。
 
-**[!DNL Journey Optimizer]** には、メールや SMS メッセージのオプトアウトを管理する方法が用意されていますが、プッシュ通知の場合は、受信者が自分のデバイスを介して登録解除できるので、ユーザー側でのアクションは不要です。例えば、アプリのダウンロード時や使用時に、通知の停止を選択できます。同様に、モバイルオペレーティングシステムから通知設定を変更することもできます。
+**[!DNL Journey Optimizer]** には、メールや SMS メッセージのオプトアウトを管理する方法が用意されていますが、プッシュ通知の場合は、受信者が自分のデバイスを介して登録解除できるので、ユーザー側でのアクションは不要です。 例えば、アプリのダウンロード時や使用時に、通知の停止を選択できます。 同様に、モバイルオペレーティングシステムから通知設定を変更することもできます。
 
 >[!NOTE]
 >
->また、Journey Optimizer の **Suppression REST API** を活用して、抑制リストと許可リストを使用して送信メッセージを制御できます。[Suppression REST API の使用方法を学ぶ](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
+>また、Journey Optimizer の **Suppression REST API** を活用して、抑制リストと許可リストを使用して送信メッセージを制御できます。 [Suppression REST API の使用方法を学ぶ](https://developer.adobe.com/journey-optimizer-apis/references/suppression){target="_blank"}
 
 ### プッシュオプトアウトステータスの確認 {#push-opt-out-status}
 
@@ -43,7 +43,7 @@ Adobe Experience Platformでプロファイルのプッシュ同意ステータ�
 
 >[!NOTE]
 >
->明示的なプッシュ同意追跡を必要とするコンプライアンスのユースケースについては、**`consents.marketing.push.val`**&#x200B;同意と環境設定フィールドグループ [の](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=ja){target="_blank"}属性を使用してください。 値`y`は明示的なオプトインを示し、`n`は明示的なオプトアウトを示します。
+>明示的なプッシュ同意追跡を必要とするコンプライアンスのユースケースについては、[同意と環境設定フィールドグループ &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=ja){target="_blank"}の&#x200B;**`consents.marketing.push.val`**&#x200B;属性を使用してください。 値`y`は明示的なオプトインを示し、`n`は明示的なオプトアウトを示します。
 
 Journey Optimizer のメールと SMS メッセージでオプトアウトを管理する方法について、以下の節で説明します。
 
@@ -68,21 +68,21 @@ Journey Optimizer のメールと SMS メッセージでオプトアウトを管
 
 >[!NOTE]
 >
->[!DNL Journey Optimizer] では、同意は Experience Platform [同意スキーマ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=ja){target="_blank"}で処理されます。デフォルトでは同意フィールドの値は空で、通信内容の受信に同意したものとして扱われます。このデフォルト値を[ここ](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=ja#choice-values){target="_blank"}に一覧表示されている値の 1 つにオンボーディングする際に変更したり、[同意ポリシー](../action/consent.md)を使用してデフォルトのロジックを上書きしたりできます。
+>[!DNL Journey Optimizer] では、同意は Experience Platform [同意スキーマ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=ja){target="_blank"}で処理されます。 デフォルトでは同意フィールドの値は空で、通信内容の受信に同意したものとして扱われます。 このデフォルト値を[ここ](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=ja#choice-values){target="_blank"}に一覧表示されている値の 1 つにオンボーディングする際に変更したり、[同意ポリシー](../action/consent.md)を使用してデフォルトのロジックを上書きしたりできます。
 
 ## パーソナライゼーションの同意の実装 {#opt-out-personalization}
 
-顧客は、パーソナライズされたコンテンツの表示をオプトアウトすることもできます。あるプロファイルがパーソナライゼーションからオプトアウトされたら、そのデータがパーソナライゼーションに使用されていないことを確認し、パーソナライズされたコンテンツをフォールバックバリアントに置き換える必要があります。
+顧客は、パーソナライズされたコンテンツの表示をオプトアウトすることもできます。 あるプロファイルがパーソナライゼーションからオプトアウトされたら、そのデータがパーソナライゼーションに使用されていないことを確認し、パーソナライズされたコンテンツをフォールバックバリアントに置き換える必要があります。
 
 ### 意思決定管理における {#opt-out-decision-management}
 
-オファーを活用する場合、パーソナライゼーション環境設定は、[Decisioning](../offers/api-reference/offer-delivery-api/decisioning-api.md) API リクエストまたは [Edge Decisioning](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md) API リクエストから使用される[決定範囲](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)に自動的に実装されません。この場合、パーソナライゼーションの同意を手動で実施する必要があります。これを行うには、以下の手順に従います。
+オファーを活用する場合、パーソナライゼーション環境設定は、[Decisioning](../offers/api-reference/offer-delivery-api/decisioning-api.md) API リクエストまたは [Edge Decisioning](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md) API リクエストから使用される[決定範囲](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)に自動的に実装されません。 この場合、パーソナライゼーションの同意を手動で実施する必要があります。 これを行うには、以下の手順に従います。
 
 >[!NOTE]
 >
 >[!DNL Journey Optimizer] で作成したチャネルで使用される決定範囲は、属するジャーニーまたはキャンペーンからのこの要件を満たします。
 
-1. [&#x200B; セグメント化サービス &#x200B;](../audience/about-audiences.md)を使用して[Adobe Experience Platform オーディエンス &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja){target="_blank"}を作成し、**[!UICONTROL Personalize Content = Yes （オプトイン）]**&#x200B;などのプロファイル属性を使用して、パーソナライゼーションに同意したユーザーをターゲティングします。
+1. [&#x200B; セグメント化サービス &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja){target="_blank"}を使用して[Adobe Experience Platform オーディエンス &#x200B;](../audience/about-audiences.md)を作成し、**[!UICONTROL Personalize Content = Yes （オプトイン）]**&#x200B;などのプロファイル属性を使用して、パーソナライゼーションに同意したユーザーをターゲティングします。
 
    ![](assets/perso-consent-od-audience.png)
 
@@ -112,7 +112,7 @@ Journey Optimizer のメールと SMS メッセージでオプトアウトを管
 
 [パーソナライゼーションエディター](../personalization/personalization-build-expressions.md)自体は、メッセージの配信に関係しないので、同意の確認や実施は行いません。
 
-ただし、権利ベースのアクセス制御ラベルを使用すると、パーソナライゼーションに使用できるフィールドを制限できます。[メッセージプレビュー](../content-management/preview.md)と[メールのレンダリングサービス](../content-management/rendering.md)は、機密情報で識別されるフィールドをマスクします。
+ただし、権利ベースのアクセス制御ラベルを使用すると、パーソナライゼーションに使用できるフィールドを制限できます。 [メッセージプレビュー](../content-management/preview.md)と[メールのレンダリングサービス](../content-management/rendering.md)は、機密情報で識別されるフィールドをマスクします。
 
 >[!NOTE]
 >
@@ -134,7 +134,7 @@ Journey Optimizer のメールと SMS メッセージでオプトアウトを管
 
 セグメントルールビルダーを使用して、オプトアウトプロファイルを含むオーディエンスを作成できます。
 
-1. [&#x200B; セグメント化サービス &#x200B;](../audience/about-audiences.md)を使用して、[Adobe Experience Platform オーディエンス &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja){target="_blank"}を作成します。
+1. [&#x200B; セグメント化サービス &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja){target="_blank"}を使用して、[Adobe Experience Platform オーディエンス &#x200B;](../audience/about-audiences.md)を作成します。
 
    ![](assets/perso-consent-audience-build-rule.png)
 
@@ -150,7 +150,7 @@ Journey Optimizer のメールと SMS メッセージでオプトアウトを管
 
 分割アクティビティを構成ワークフローに追加することで、パーソナライゼーション同意チェックをオーディエンスに追加することもできます。
 
-1. 「**[!UICONTROL オーディエンスを作成]**」オプションを使用して、オーディエンスを作成します。[詳しくは、構成ワークフローの作成を参照してください](../audience/get-started-audience-orchestration.md)
+1. 「**[!UICONTROL オーディエンスを作成]**」オプションを使用して、オーディエンスを作成します。 [詳しくは、構成ワークフローの作成を参照してください](../audience/get-started-audience-orchestration.md)
 
    ![](assets/perso-consent-audience-compose.png)
 
@@ -170,7 +170,7 @@ Journey Optimizer のメールと SMS メッセージでオプトアウトを管
 
    ![](assets/perso-consent-audience-consent-attribute.png)
 
-1. **[!UICONTROL パス 1]** は、パーソナライズされていないオーディエンスになります。関連するラベルを選択します。
+1. **[!UICONTROL パス 1]** は、パーソナライズされていないオーディエンスになります。 関連するラベルを選択します。
 
 1. この[&#x200B; リスト &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=ja#choice-values){target="_blank"}から適切な値を選択してください。
 
@@ -178,9 +178,9 @@ Journey Optimizer のメールと SMS メッセージでオプトアウトを管
 
    ![](assets/perso-consent-audience-path-1-n.png)
 
-1. 他の選択値に対しては、別のパスを作成できます。また、残りのパスを削除して、「**[!UICONTROL その他のプロファイル]**」をオンにして、選択値 `n` を持たなかった他のすべてのプロファイルを含めることもできます。
+1. 他の選択値に対しては、別のパスを作成できます。 また、残りのパスを削除して、「**[!UICONTROL その他のプロファイル]**」をオンにして、選択値 `n` を持たなかった他のすべてのプロファイルを含めることもできます。
 
-1. 完了したら、パスごとに「**[!UICONTROL オーディエンスを保存]**」をクリックして、ワークフローの結果を新しいオーディエンスに保存します。パスごとに 1 つのオーディエンスが Adobe Experience Platform に保存されます。
+1. 完了したら、パスごとに「**[!UICONTROL オーディエンスを保存]**」をクリックして、ワークフローの結果を新しいオーディエンスに保存します。 パスごとに 1 つのオーディエンスが Adobe Experience Platform に保存されます。
 
 1. 完了したら、構成ワークフローを公開します。
 
@@ -188,4 +188,4 @@ Journey Optimizer のメールと SMS メッセージでオプトアウトを管
 
 >[!NOTE]
 >
->パーソナライゼーションに同意していないオーディエンスを作成し、キャンペーンでこのオーディエンスを選択した場合でも、パーソナライゼーションツールは引き続き使用できます。パーソナライゼーションの対象とならないオーディエンスを扱う場合はパーソナライゼーションツールを使用すべきでないことを、マーケティングユーザーは理解しておく必要があります。
+>パーソナライゼーションに同意していないオーディエンスを作成し、キャンペーンでこのオーディエンスを選択した場合でも、パーソナライゼーションツールは引き続き使用できます。 パーソナライゼーションの対象とならないオーディエンスを扱う場合はパーソナライゼーションツールを使用すべきでないことを、マーケティングユーザーは理解しておく必要があります。

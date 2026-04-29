@@ -7,31 +7,31 @@ feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '1879'
-ht-degree: 99%
+source-wordcount: '1989'
+ht-degree: 97%
 
 ---
 
 # モバイルアプリプッシュ通知チャネルの設定 {#push-notification-configuration}
 
-[!DNL Journey Optimizer] では、ジャーニーを作成し、ターゲットとなるオーディエンスにメッセージを送信できます。[!DNL Journey Optimizer] でプッシュ通知の送信を開始する前に、モバイルアプリと Adobe Experience Platform のタグで設定と統合が行われていることを確認する必要があります。[!DNL Adobe Journey Optimizer] でのプッシュ通知のデータフローについては、[このページ](push-gs.md)を参照してください。
+[!DNL Journey Optimizer] では、ジャーニーを作成し、ターゲットとなるオーディエンスにメッセージを送信できます。 [!DNL Journey Optimizer] でプッシュ通知の送信を開始する前に、モバイルアプリと Adobe Experience Platform のタグで設定と統合が行われていることを確認する必要があります。 [!DNL Adobe Journey Optimizer] でのプッシュ通知のデータフローについては、[このページ](push-gs.md)を参照してください。
 
 >[!AVAILABILITY]
 >
->新しい&#x200B;**モバイルオンボーディングのクイックスタートワークフロー**&#x200B;が利用できるようになりました。この新しい製品機能を使用すると、Mobile SDK を迅速に設定し、モバイルイベント データの収集と検証を開始し、モバイルプッシュ通知を送信できます。この機能は、パブリックベータ版としてデータ収集ホームページから入手できます。[詳細情報](mobile-onboarding-wf.md)
+>新しい&#x200B;**モバイルオンボーディングのクイックスタートワークフロー**&#x200B;が利用できるようになりました。 この新しい製品機能を使用すると、Mobile SDK を迅速に設定し、モバイルイベント データの収集と検証を開始し、モバイルプッシュ通知を送信できます。 この機能は、パブリックベータ版としてデータ収集ホームページから入手できます。 [詳細情報](mobile-onboarding-wf.md)
 >
 
 ## 開始する前に {#start-push}
 
 ### 権限の設定 {#setup-permissions}
 
-モバイルアプリケーションを作成する前に、まず、Adobe Experience Platform のタグに適切なユーザー権限が既にあるか、もしくは割り当てられているかを確認する必要があります。詳しくは、[タグのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=ja){target="_blank"}を参照してください。
+モバイルアプリケーションを作成する前に、まず、Adobe Experience Platform のタグに適切なユーザー権限が既にあるか、もしくは割り当てられているかを確認する必要があります。 詳しくは、[タグのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=ja){target="_blank"}を参照してください。
 
 >[!CAUTION]
 >
->プッシュ設定は、エキスパートユーザーが実行する必要があります。実装モデルとこの実装に関わるペルソナに応じて、権限のすべてを単一の製品プロファイルに割り当てるか、アプリ開発者と **Adobe Journey Optimizer** 管理者の間で権限を共有する必要が生じる場合があります。**タグ**&#x200B;の権限について詳しくは、[このドキュメント](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=ja){target="_blank"}を参照してください。
+>プッシュ設定は、エキスパートユーザーが実行する必要があります。 実装モデルとこの実装に関わるペルソナに応じて、権限のすべてを単一の製品プロファイルに割り当てるか、アプリ開発者と **Adobe Journey Optimizer** 管理者の間で権限を共有する必要が生じる場合があります。 **タグ**&#x200B;の権限について詳しくは、[このドキュメント](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=ja){target="_blank"}を参照してください。
 
 <!--
 ou need to your have access to perform following roles :
@@ -49,13 +49,13 @@ ou need to your have access to perform following roles :
 
    ![](assets/push_product_1.png)
 
-1. 既存の&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;を選択するか、「**[!UICONTROL 新規プロファイル]**」ボタンで新しい製品プロファイルを作成します。**[!UICONTROL 新しいプロファイル]**&#x200B;を作成する方法については、[Admin Console のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html?lang=ja#ui){target="_blank"}を参照してください。
+1. 既存の&#x200B;**[!UICONTROL 製品プロファイル]**&#x200B;を選択するか、「**[!UICONTROL 新規プロファイル]**」ボタンで新しい製品プロファイルを作成します。 **[!UICONTROL 新しいプロファイル]**&#x200B;を作成する方法については、[Admin Console のドキュメント](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html?lang=ja#ui){target="_blank"}を参照してください。
 
 1. 「**[!UICONTROL 権限]**」タブで、「**[!UICONTROL プロパティ権限]**」を選択します。
 
    ![](assets/push_product_2.png)
 
-1. 「**[!UICONTROL すべて追加]**」をクリックします。これにより、製品プロファイルに次の権限が追加されます。
+1. 「**[!UICONTROL すべて追加]**」をクリックします。 これにより、製品プロファイルに次の権限が追加されます。
    * **[!UICONTROL 承認]**
    * **[!UICONTROL 開発]**
    * **[!UICONTROL 環境の管理]**
@@ -91,11 +91,11 @@ ou need to your have access to perform following roles :
 
    ![](assets/push_product_6.png)
 
-1. ユーザーの名前またはメールアドレスを入力し、ユーザーを選択します。次に、「**[!UICONTROL 保存]**」をクリックします。
+1. ユーザーの名前またはメールアドレスを入力し、ユーザーを選択します。 次に、「**[!UICONTROL 保存]**」をクリックします。
 
    >[!NOTE]
    >
-   >Admin Console でユーザーをまだ作成していない場合は、[ユーザーの追加に関するドキュメント](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users)を参照してください。
+   >ユーザーがこれまでに Admin Console で作成されていない場合は、[ユーザーの追加に関するドキュメント](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users)を参照してください。
 
    ![](assets/push_product_7.png)
 
@@ -112,7 +112,7 @@ ou need to your have access to perform following roles :
 
 >[!NOTE]
 >
->プッシュトラッキングイベントが CJM プッシュトラッキングエクスペリエンスイベントデータセットに取り込まれると、データの一部が正常に取り込まれたとしても、いくつかの失敗が発生する場合があります。これは、マッピング内の一部のフィールドが受信イベントに存在しない場合に発生する場合があります。警告はログに記録されますが、データの有効な部分の取り込みは防ぎません。これらの警告は、バッチステータスに「失敗」として表示されますが、部分的な取り込みの成功を反映しています。
+>プッシュトラッキングイベントが CJM プッシュトラッキングエクスペリエンスイベントデータセットに取り込まれると、データの一部が正常に取り込まれたとしても、いくつかの失敗が発生する場合があります。 これは、マッピング内の一部のフィールドが受信イベントに存在しない場合に発生する場合があります。警告はログに記録されますが、データの有効な部分の取り込みは防ぎません。 これらの警告は、バッチステータスに「失敗」として表示されますが、部分的な取り込みの成功を反映しています。
 >
 >各スキーマのフィールドと属性の完全なリストを表示するには、[Journey Optimizer スキーマ辞書](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja){target="_blank"}を参照してください。
 
@@ -120,18 +120,18 @@ ou need to your have access to perform following roles :
 
 ### アプリの設定 {#configure-app}
 
-技術的な設定は、アプリ開発者とビジネス管理者の緊密な共同作業を伴います。[!DNL Journey Optimizer] でプッシュ通知の送信を開始する前に、Adobe Journey Optimizer でプッシュ資格情報とプッシュチャネル設定を作成し、モバイルアプリを Adobe Experience Platform Mobile SDK と統合する必要があります。
+技術的な設定は、アプリ開発者とビジネス管理者の緊密な共同作業を伴います。 [!DNL Journey Optimizer] でプッシュ通知の送信を開始する前に、Adobe Journey Optimizer でプッシュ資格情報とプッシュチャネル設定を作成し、モバイルアプリを Adobe Experience Platform Mobile SDK と統合する必要があります。
 
 以下のリンクに記載されている実装手順に従ってください。
 
 * **Apple iOS** の場合：API でアプリを登録する方法については、[Appleドキュメント](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns){target="_blank"}を参照してください
-* **Google Android** の場合：Android に Firebase Cloud Messaging クライアントアプリをセットアップする方法については、[Googleドキュメント](https://firebase.google.com/docs/cloud-messaging/android/client){target="_blank"}を参照してください 
+* **Google Android** の場合：Android に Firebase Cloud Messaging クライアントアプリをセットアップする方法については、[Googleドキュメント](https://firebase.google.com/docs/cloud-messaging/android/client){target="_blank"}を参照してください
 
 ### モバイルアプリの Adobe Experience Platform SDK との統合 {#integrate-mobile-app}
 
-Adobe Experience Platform Mobile SDK は、Android および iOS 互換の SDK を介してモバイル用のクライアントサイド統合 API を提供します。[Adobe Experience Platform Mobile SDK のドキュメント](https://developer.adobe.com/client-sdks/documentation/getting-started/){target="_blank"}に従って、アプリで Adobe Experience Platform Mobile SDK を設定します。
+Adobe Experience Platform Mobile SDK は、Android および iOS 互換の SDK を介してモバイル用のクライアントサイド統合 API を提供します。 [Adobe Experience Platform Mobile SDK のドキュメント](https://developer.adobe.com/client-sdks/documentation/getting-started){target="_blank"}に従って、アプリで Adobe Experience Platform Mobile SDK を設定します。
 
-この作業が完了するまでに、[!DNL Adobe Experience Platform Data Collection] でモバイルプロパティも作成および設定する必要があります。通常、管理するモバイルアプリケーションごとにモバイルプロパティを作成します。モバイルプロパティを作成および設定する方法について詳しくは、[Adobe Experience Platform Mobile SDK ドキュメント](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/){target="_blank"}を参照してください。
+この作業が完了するまでに、[!DNL Adobe Experience Platform Data Collection] でモバイルプロパティも作成および設定する必要があります。 通常、管理するモバイルアプリケーションごとにモバイルプロパティを作成します。 モバイルプロパティを作成および設定する方法について詳しくは、[Adobe Experience Platform Mobile SDK ドキュメント](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property){target="_blank"}を参照してください。
 
 <!--
 To enable **Web push notifications**, ensure that the [pushNotifications property](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/pushnotifications) is properly configured within the Web SDK. Then, use [the sendPushSubscription command](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/sendpushsubscription) to register push subscriptions with Adobe Experience Platform.
@@ -141,7 +141,7 @@ To enable **Web push notifications**, ensure that the [pushNotifications propert
 
 正しいユーザー権限を付与した後、モバイルアプリケーションのプッシュ資格情報を Journey Optimizer に追加する必要があります。
 
-モバイルアプリのプッシュ資格情報の登録は、自分の代わりに Adobe がプッシュ通知を送信することを承認するために必要です。以下に説明する手順を参照してください。
+モバイルアプリのプッシュ資格情報の登録は、自分の代わりに Adobe がプッシュ通知を送信することを承認するために必要です。 以下に説明する手順を参照してください。
 
 1. **[!UICONTROL チャネル]**／**[!UICONTROL プッシュ設定]**／**[!UICONTROL プッシュ資格情報]**&#x200B;メニューにアクセスします。
 
@@ -155,21 +155,21 @@ To enable **Web push notifications**, ensure that the [pushNotifications propert
 
       1. モバイルアプリの&#x200B;**[!UICONTROL アプリ ID]** を入力します。
 
-      1. これらのプッシュ資格情報をすべてのサンドボックスで使用できるようにするには、「**[!UICONTROL すべてのサンドボックスに適用]**」オプションを有効にします。特定のサンドボックスに同じプラットフォームとアプリ ID のペアに対する独自の資格情報がある場合、これらのサンドボックス固有の資格情報が優先されます。
+      1. これらのプッシュ資格情報をすべてのサンドボックスで使用できるようにするには、「**[!UICONTROL すべてのサンドボックスに適用]**」オプションを有効にします。 特定のサンドボックスに同じプラットフォームとアプリ ID のペアに対する独自の資格情報がある場合、これらのサンドボックス固有の資格情報が優先されます。
 
       1. 資格情報を追加するには、「**[!UICONTROL プッシュ資格情報を手動で入力]**」ボタンをオンにします。
 
-      1. .p8 Apple Push Notification Authentication Key ファイルをドラッグ＆ドロップします。このキーは、**証明書**、**識別子**、**プロファイル**&#x200B;ページから取得できます。
+      1. .p8 Apple Push Notification Authentication Key ファイルをドラッグ＆ドロップします。 このキーは、**証明書**、**識別子**、**プロファイル**&#x200B;ページから取得できます。
 
          >[!NOTE]
          >
-         > .p8 Apple プッシュ通知キーのみがサポートされています。.p8 キーの制限に達した場合は、別の Apple 開発者アカウントを使用します。
+         > .p8 Apple プッシュ通知キーのみがサポートされています。 .p8 キーの制限に達した場合は、別の Apple 開発者アカウントを使用します。
          >Apple キー制限について詳しくは、[Apple 開発者向けドキュメント](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns)を参照してください。
 
 
-      1. **キー ID** を指定します。これは、p8 認証キーの作成中に割り当てられた 10 文字の文字列です。これは、**証明書**、**識別子**&#x200B;および&#x200B;**プロファイル**&#x200B;ページの「**キー**」タブにあります。
+      1. **キー ID** を指定します。 これは、p8 認証キーの作成中に割り当てられた 10 文字の文字列です。 これは、**証明書**、**識別子**&#x200B;および&#x200B;**プロファイル**&#x200B;ページの「**キー**」タブにあります。
 
-      1. **チーム ID** を指定します。これは、「メンバーシップ」タブにある文字列値です。
+      1. **チーム ID** を指定します。 これは、「メンバーシップ」タブにある文字列値です。
 
    * **Android の場合**
 
@@ -177,11 +177,11 @@ To enable **Web push notifications**, ensure that the [pushNotifications propert
 
       1. **[!UICONTROL アプリ ID]** を指定します。通常、パッケージ名は `build.gradle` ファイル内のアプリ ID です。
 
-      1. これらのプッシュ資格情報をすべてのサンドボックスで使用できるようにするには、「**[!UICONTROL すべてのサンドボックスに適用]**」オプションを有効にします。特定のサンドボックスに同じプラットフォームとアプリ ID のペアに対する独自の資格情報がある場合、これらのサンドボックス固有の資格情報が優先されます。
+      1. これらのプッシュ資格情報をすべてのサンドボックスで使用できるようにするには、「**[!UICONTROL すべてのサンドボックスに適用]**」オプションを有効にします。 特定のサンドボックスに同じプラットフォームとアプリ ID のペアに対する独自の資格情報がある場合、これらのサンドボックス固有の資格情報が優先されます。
 
       1. 資格情報を追加するには、「**[!UICONTROL プッシュ資格情報を手動で入力]**」ボタンをオンにします。
 
-      1. FCM プッシュ資格情報をドラッグ＆ドロップします。プッシュ資格情報の取得方法の詳細については、[Google ドキュメント](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}を参照してください。
+      1. FCM プッシュ資格情報をドラッグ＆ドロップします。 プッシュ資格情報の取得方法の詳細については、[Google ドキュメント](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}を参照してください。
 
 <!--
     * **For Web**
@@ -225,16 +225,16 @@ Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Ex
 
    >[!NOTE]
    >
-   > 名前は、文字（A ～ Z）で始める必要があります。使用できるのは英数字のみです。アンダースコア（`_`）、ドット（`.`）、ハイフン（`-`）も使用できます。
+   > 名前は、文字（A ～ Z）で始める必要があります。 使用できるのは英数字のみです。 アンダースコア（`_`）、ドット（`.`）、ハイフン（`-`）も使用できます。
 
 
-1. 設定にカスタムまたはコアのデータ使用ラベルを割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。[詳しくは、オブジェクトレベルのアクセス制御（OLAC）を参照してください](../administration/object-based-access.md)。
+1. 設定にカスタムまたはコアのデータ使用ラベルを割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。 [詳しくは、オブジェクトレベルのアクセス制御（OLAC）を参照してください](../administration/object-based-access.md)。
 
 1. **プッシュ**&#x200B;チャネルを選択します。
 
    ![](assets/push-config-10.png)
 
-1. この設定を使用してメッセージに同意ポリシーを関連付けるには、**[!UICONTROL マーケティングアクション]**&#x200B;を選択します。顧客の意向に従うために、そのマーケティングアクションに関連付けられているすべての同意ポリシーが活用されます。[詳細情報](../action/consent.md#surface-marketing-actions)
+1. この設定を使用してメッセージに同意ポリシーを関連付けるには、**[!UICONTROL マーケティングアクション]**&#x200B;を選択します。 顧客の意向に従うために、そのマーケティングアクションに関連付けられているすべての同意ポリシーが活用されます。 [詳細情報](../action/consent.md#surface-marketing-actions)
 
 1. **[!UICONTROL プラットフォーム]**（Android、iOS <!--and/or Web-->）を選択します。
 
@@ -248,7 +248,7 @@ Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Ex
 
 Adobe Experience Platform Mobile SDK 用 **Adobe Journey Optimizer 拡張機能**&#x200B;は、モバイルアプリに対するプッシュ通知を強化します。また、ユーザープッシュトークンの収集や、Adobe Experience Platform サービスとのインタラクション測定の管理をサポートします。
 
-Journey Optimizer 拡張機能を設定する方法について詳しくは、[Adobe Experience Platform Mobile SDK ドキュメント](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/){target="_blank"}を参照してください。
+Journey Optimizer 拡張機能を設定する方法について詳しくは、[Adobe Experience Platform Mobile SDK ドキュメント](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer){target="_blank"}を参照してください。
 
 
 <!--
@@ -318,13 +318,13 @@ To configure the `ProfileDataSource`, use the `ProfileDCInletURL` from [!DNL Ado
 
 ## 手順 4：イベントでモバイルアプリのテスト {#mobile-app-test}
 
-Adobe Experience Platform と [!DNL Adobe Experience Platform Data Collection] の両方でモバイルアプリを設定した後、プッシュ通知をテストしてからプロファイルに送信できるようになりました。このユースケースでは、モバイルアプリをターゲットにするジャーニーを作成し、プッシュ通知をトリガーするイベントを設定します。
+Adobe Experience Platform と [!DNL Adobe Experience Platform Data Collection] の両方でモバイルアプリを設定した後、プッシュ通知をテストしてからプロファイルに送信できるようになりました。 このユースケースでは、モバイルアプリをターゲットにするジャーニーを作成し、プッシュ通知をトリガーするイベントを設定します。
 
 <!--
 You can use a test mobile app for this use case. For more on this, refer to this [page](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=CJM&title=Details+of+setting+the+mobile+test+app) (internal use only).
 -->
 
-このジャーニーを機能させるには、XDM スキーマを作成する必要があります。詳しくは、[詳細なドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ja#schemas-and-data-ingestion){target="_blank"}を参照してください。
+このジャーニーを機能させるには、XDM スキーマを作成する必要があります。 詳しくは、[詳細なドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ja#schemas-and-data-ingestion){target="_blank"}を参照してください。
 
 1. 「データ管理」メニュー セクションで、「**[!UICONTROL スキーマ]**」をクリックします。
    ![](assets/test_push_1.png)
@@ -334,34 +334,33 @@ You can use a test mobile app for this use case. For more on this, refer to this
    ![](assets/test_push_3.png)
 1. 左側の「**フィールドグループ**」セクションで、「**追加**」をクリックして、「**[!UICONTROL 新しいフィールドグループを作成]**」を選択します。
 
-1. **[!UICONTROL 表示名]**&#x200B;と&#x200B;**[!UICONTROL 説明]**&#x200B;を入力します。完了したら、「**[!UICONTROL フィールドグループを追加]**」をクリックします。 フィールドグループの作成方法について詳しくは、[XDM システムのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja){target="_blank"}を参照してください。
+1. **[!UICONTROL 表示名]**&#x200B;と&#x200B;**[!UICONTROL 説明]**&#x200B;を入力します。 完了したら、「**[!UICONTROL フィールドグループを追加]**」をクリックします。 フィールドグループの作成方法について詳しくは、[XDM システムのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja){target="_blank"}を参照してください。
 
 
    ![](assets/test_push_4.png)
 
-1. 左側で、スキーマを選択します。右側のパネルで、「**[!UICONTROL プロファイル]**」のスキーマを有効にします。
+1. 左側で、スキーマを選択します。 右側のパネルで、「**[!UICONTROL プロファイル]**」のスキーマを有効にします。
 
    ![](assets/test_push_4b.png)
 
 
-1. 左側でフィールドグループを選択し、「+」アイコンをクリックして新しいフィールドを作成します。「**[!UICONTROL フィールドグループのプロパティ]**」の右側で、「**[!UICONTROL フィールド名]**」、「**[!UICONTROL 表示名]**」を入力し、「**[!UICONTROL タイプ]**」で「**[!UICONTROL 文字列]**」を選択します。
+1. 左側でフィールドグループを選択し、「+」アイコンをクリックして新しいフィールドを作成します。 「**[!UICONTROL フィールドグループのプロパティ]**」の右側で、「**[!UICONTROL フィールド名]**」、「**[!UICONTROL 表示名]**」を入力し、「**[!UICONTROL タイプ]**」で「**[!UICONTROL 文字列]**」を選択します。
 
    ![](assets/test_push_5.png)
 
 1. 「**[!UICONTROL 必須]**」をオンにし、「**[!UICONTROL 適用]**」をクリックします。
 
-1. 「**[!UICONTROL 保存]**」をクリックします。これでスキーマが作成され、イベントで使用できます。
+1. 「**[!UICONTROL 保存]**」をクリックします。 これでスキーマが作成され、イベントで使用できます。
 
 次に、イベントを設定する必要があります。
 
-1. ホームページの左側のメニューの「管理」で、「**[!UICONTROL 設定]**」を選択します。「**[!UICONTROL イベント]**」セクションの「**[!UICONTROL 管理]**」をクリックして、新しいイベントを作成します。
+1. ホームページの左側のメニューの「管理」で、「**[!UICONTROL 設定]**」を選択します。 「**[!UICONTROL イベント]**」セクションの「**[!UICONTROL 管理]**」をクリックして、新しいイベントを作成します。
 
 1. 「**[!UICONTROL イベントを作成]**」をクリックすると、画面の右側にイベント設定ペインが開きます。
 
-
    ![](assets/test_push_6.png)
 
-1. イベントの名前を入力します。説明を追加することもできます。
+1. イベントの名前を入力します。 説明を追加することもできます。
 
 1. 「**[!UICONTROL イベント ID タイプ]**」フィールドで、「**[!UICONTROL ルールベース]**」を選択します。
 
@@ -373,7 +372,7 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
    ![](assets/test_push_7b.png)
 
-1. 「**[!UICONTROL イベント ID 条件]**」フィールドで「**[!UICONTROL 編集]**」をクリックします。以前に追加したフィールドをドラッグ＆ドロップして、システムで使用される条件を定義し、ジャーニーをトリガーするイベントを識別します。
+1. 「**[!UICONTROL イベント ID 条件]**」フィールドで「**[!UICONTROL 編集]**」をクリックします。 以前に追加したフィールドをドラッグ＆ドロップして、システムで使用される条件を定義し、ジャーニーをトリガーするイベントを識別します。
 
    ![](assets/test_push_8.png)
 
@@ -391,7 +390,7 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
 1. 「**[!UICONTROL ジャーニーを作成]**」をクリックして、新規のジャーニーを作成します。
 
-1. 右側に表示される設定ペインで、ジャーニーのプロパティを編集します。詳しくは、[この節](../building-journeys/journey-properties.md)を参照してください。
+1. 右側に表示される設定ペインで、ジャーニーのプロパティを編集します。 詳しくは、[この節](../building-journeys/journey-properties.md)を参照してください。
 
 1. まず、前の手順で作成したイベントを「**[!UICONTROL イベント]**」ドロップダウンからドラッグ＆ドロップします。
 
@@ -399,7 +398,7 @@ You can use a test mobile app for this use case. For more on this, refer to this
 
 1. 「**[!UICONTROL アクション]**」ドロップダウンから、**[!UICONTROL プッシュ]**&#x200B;アクティビティをジャーニーにドラッグ＆ドロップします。
 
-1. プッシュ通知を設定します。プッシュ通知の作成方法の詳細については、この[ページ](create-push.md)を参照してください。
+1. プッシュ通知を設定します。 プッシュ通知の作成方法の詳細については、この[ページ](create-push.md)を参照してください。
 
 1. 「**[!UICONTROL テスト]**」切替スイッチをクリックしてプッシュ通知のテストを開始し、「**[!UICONTROL イベントをトリガー]**」をクリックします。
 

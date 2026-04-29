@@ -6,10 +6,10 @@ topic: Content Management
 role: Developer
 level: Experienced
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 95%
+source-wordcount: '549'
+ht-degree: 93%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 95%
 
 任意の決定リクエストに対して、設定に基づいて 1 つ以上の決定ポリシー／プレースメントを設定できます。
 
-* リクエスト内の&#x200B;**単一**&#x200B;の決定ポリシーとプレースメントの場合、応答内のすべての項目は一意になります（デフォルト）。単一のリクエスト内で 2 つの決定項目を同じにすることはできません。
+* リクエスト内の&#x200B;**単一**&#x200B;の決定ポリシーとプレースメントの場合、応答内のすべての項目は一意になります（デフォルト）。 単一のリクエスト内で 2 つの決定項目を同じにすることはできません。
 
 * リクエスト内の&#x200B;**複数**&#x200B;の決定ポリシー／プレースメントの場合：
 
@@ -69,7 +69,7 @@ ht-degree: 95%
 
 デフォルトでは、重複排除フラグは `true` に設定されています。
 
-Konductor リクエストでは、応答に一意の要素が必要な場合、重複排除フラグを渡すことができます。その場合は、`false` に設定します。
+Konductor リクエストでは、応答に一意の要素が必要な場合、重複排除フラグを渡すことができます。 その場合は、`false` に設定します。
 
 ```
 {
@@ -296,7 +296,7 @@ curl --location 'https://edge-int.adobedc.net/ee/v1/interact?configId=2f21d344-b
 
 ## チュートリアル {#tutorials}
 
-Adobe Experience Platform Mobile SDK の [Adobe Journey Optimizer 拡張機能](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/#implement-extension-in-mobile-app){target="_blank"}を使用して、コードベースのエクスペリエンスを取得、表示、追跡する方法について詳しくは、[このチュートリアル](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial/){target="_blank"}を参照してください。
+Adobe Experience Platform Mobile SDK の [Adobe Journey Optimizer 拡張機能](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/#implement-extension-in-mobile-app){target="_blank"}を使用して、コードベースのエクスペリエンスを取得、表示、追跡する方法について詳しくは、[このチュートリアル](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial){target="_blank"}を参照してください。
 
 Web SDK 設定に焦点を当てて、Journey Optimizer の決定を使用して web サイトのコンテンツオファーをパーソナライズする方法について詳しくは、[このチュートリアル](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/use-decisioning-to-personalize-web-offers/introduction){target="_blank"}を参照してください。
 
