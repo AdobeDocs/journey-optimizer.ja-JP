@@ -8,9 +8,9 @@ role: Developer
 level: Beginner
 keywords: 外部, API, Optimizer, キャップ
 exl-id: b837145b-1727-43c0-a0e2-bf0e8a35347c
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1060'
 ht-degree: 98%
 
 ---
@@ -19,20 +19,20 @@ ht-degree: 98%
 
 Throttling API を使用すると、スロットル設定を作成、設定および監視して、1 秒あたりに送信されるイベントの数を制限できます。
 
-この節では、API の使用方法に関する全体的な情報を示します。API について詳しくは、[Adobe Journey Optimizer API ドキュメント](https://developer.adobe.com/journey-optimizer-apis/){target="_blank"}を参照してください。
+この節では、API の使用方法に関する全体的な情報を示します。 API について詳しくは、[Adobe Journey Optimizer API ドキュメント](https://developer.adobe.com/journey-optimizer-apis){target="_blank"}を参照してください。
 
 ## 必読
 
-* **組織ごとに 1 つの設定：** 現在、組織ごとに 1 つの設定のみが許可されています。 設定は、（ヘッダーの `x-sandbox-name` を通じて指定される）実稼動サンドボックスで定義する必要があります。
+* **1 つの組織につき 1 つの設定：**&#x200B;現在、1 つの組織につき 1 つの設定のみを使用できます。 設定は、（ヘッダーの `x-sandbox-name` を通じて指定される）実稼動サンドボックスで定義する必要があります。
 * **組織レベルのアプリケーション：**&#x200B;設定は、組織レベルで適用されます。
-* **API 制限の処理：** API で設定された上限に達すると、それ以降のイベントは最大 6 時間キューに入れられます。この値は変更できません。
-* **`maxHttpConnections`パラメーター：**`maxHttpConnections` パラメーターは、Capping API でのみ使用できるオプションパラメーターであり、Journey Optimizer が外部システムに対して開く接続の数をキャップできます。[Capping API の使用方法の詳細情報](../configuration/capping.md)
+* **API 制限の処理：** API で設定された上限に達すると、それ以降のイベントは最大 6 時間キューに入れられます。 この値は変更できません。
+* **`maxHttpConnections`パラメーター：**`maxHttpConnections` パラメーターは、Capping API でのみ使用できるオプションパラメーターであり、Journey Optimizer が外部システムに対して開く接続の数をキャップできます。 [Capping API の使用方法の詳細情報](../configuration/capping.md)
 
-  接続数をキャップするが、外部呼び出しもスロットルする場合は、同じエンドポイントで、1 つのスロットリングと 1 つのキャップの 2 つの設定を指定できます。1 つのエンドポイントに対して、両方の設定を共存させることができます。スロットルしたエンドポイントに対して「maxHttpConnections」を設定するには、Throttling API を使用してスロットリングしきい値を設定し、Capping API を使用して「maxHttpConnections」を設定します。Capping API を呼び出す際に、キャップしきい値をスロットリングしきい値よりも高い値に設定して、キャップルールが実質的に適用されないようにすることができます。
+  接続数をキャップするが、外部呼び出しもスロットルする場合は、同じエンドポイントで、1 つのスロットリングと 1 つのキャップの 2 つの設定を指定できます。 1 つのエンドポイントに対して、両方の設定を共存させることができます。 スロットルしたエンドポイントに対して「maxHttpConnections」を設定するには、Throttling API を使用してスロットリングしきい値を設定し、Capping API を使用して「maxHttpConnections」を設定します。 Capping API を呼び出す際に、キャップしきい値をスロットリングしきい値よりも高い値に設定して、キャップルールが実質的に適用されないようにすることができます。
 
 ## スロットル API の説明とPostman コレクション {#description}
 
-次の表に、スロットル API で使用できるコマンドを示します。リクエストサンプル、パラメーター、応答形式などの情報について詳しくは、[Adobe Journey Optimizer API ドキュメント](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling/)を参照してください。
+次の表に、スロットル API で使用できるコマンドを示します。 リクエストサンプル、パラメーター、応答形式などの情報について詳しくは、[Adobe Journey Optimizer API ドキュメント](https://developer.adobe.com/journey-optimizer-apis/references/journeys-throttling)を参照してください。
 
 | メソッド | パス | 説明 |
 |---|---|---|
@@ -53,11 +53,11 @@ Throttling API を使用すると、スロットル設定を作成、設定お�
 
 * `{JO_HOST}`：[!DNL Journey Optimizer]ゲートウェイ URL。
 * `{BASE_PATH}`：API のエントリポイント。
-* `{SANDBOX_NAME}`：API 操作が行われるサンドボックス名に対応するヘッダー **x-sandbox-name**（例えば、「prod」）。詳しくは、[サンドボックスの概要](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ja){target="_blank"}を参照してください。
+* `{SANDBOX_NAME}`：API 操作が行われるサンドボックス名に対応するヘッダー **x-sandbox-name**（例えば、「prod」）。 詳しくは、[サンドボックスの概要](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=ja){target="_blank"}を参照してください。
 
-## スロットル設定{#configuration}
+## スロットル設定 {#configuration}
 
-スロットル設定の構造は次のとおりです。**name** 属性と **description** 属性はオプションです。
+スロットル設定の構造は次のとおりです。 **name** 属性と **description** 属性はオプションです。
 
 ```json
 {
@@ -106,7 +106,7 @@ Throttling API を使用すると、スロットル設定を作成、設定お�
 * **ERR_THROTTLING_CONFIG_104**：スロットル設定 : 不正な URL パターンです
 * **ERR_THROTTLING_CONFIG_105**：スロットル設定 : URL パターンのホスト部分ではワイルドカードは使用できません
 * **ERR_THROTTLING_CONFIG_106**：スロットル設定 : 無効なペイロードです
-* **THROTTLING_CONFIG_DELETE_FORBIDDEN_ERROR : 1456**、「デプロイ済みのスロットル設定は削除できません。デプロイを解除してから削除します」
+* **THROTTLING_CONFIG_DELETE_FORBIDDEN_ERROR : 1456**、「デプロイ済みのスロットル設定は削除できません。 デプロイを解除してから削除します」
 * **THROTTLING_CONFIG_DELETE_ERROR : 1457**、「スロットル設定を削除できません : 予期しないエラーが発生しました」
 * **THROTTLING_CONFIG_DEPLOY_ERROR : 1458**、「スロットル設定をデプロイできません : 予期しないエラーが発生しました」
 * **THROTTLING_CONFIG_UNDEPLOY_ERROR : 1459**、「スロットル設定のデプロイを解除できません : 予期しないエラーが発生しました」
@@ -154,11 +154,11 @@ Throttling API を使用すると、スロットル設定を作成、設定お�
 
 ## ランタイムレベルでの設定のライフサイクル {#config}
 
-設定のデプロイを解除すると、設定がランタイムレベルで非アクティブとマークされ、保留中のイベントは引き続き 24 時間処理されます。その後、ランタイムサービスで削除されます。
+設定のデプロイを解除すると、設定がランタイムレベルで非アクティブとマークされ、保留中のイベントは引き続き 24 時間処理されます。 その後、ランタイムサービスで削除されます。
 
-設定のデプロイを解除した後は、設定を更新して再デプロイできます。これにより、新しいランタイム設定が作成され、今後のアクションの実行で考慮されます。
+設定のデプロイを解除した後は、設定を更新して再デプロイできます。 これにより、新しいランタイム設定が作成され、今後のアクションの実行で考慮されます。
 
-既にデプロイされている設定を更新すると、新しい値が直ちに考慮されます。基になるシステムリソースは、自動的に適応されます。これは、設定をデプロイ解除してから再デプロイする場合に比べて最適です。
+既にデプロイされている設定を更新すると、新しい値が直ちに考慮されます。 基になるシステムリソースは、自動的に適応されます。 これは、設定をデプロイ解除してから再デプロイする場合に比べて最適です。
 
 ## 応答の例 {#responses}
 

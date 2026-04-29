@@ -11,9 +11,9 @@ hide: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '815'
 ht-degree: 3%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 3%
 * [課題とタスクへのアクセスと管理](access-loyalty-challenges.md)
 * [課題の創出](create-challenges.md)
 * **タスクを作成** ◀︎ **現在のユーザー**
-* [&#x200B; ロイヤルティチャレンジ API リファレンス &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}
+* [ロイヤルティチャレンジ API リファレンス](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
 >[!ENDSHADEBOX]
 
@@ -86,7 +86,7 @@ ht-degree: 3%
 **購入**&#x200B;活動に使用できる属性：
 
 * **[!UICONTROL 数量]**：このタスクを完了するために購入する必要がある品目の数を入力します。
-* **[!UICONTROL 対象アイテムと除外]**: タスクの完了にカウントされるアイテムまたはアイテム グループとそうでないアイテムまたはアイテム グループを定義します。[対象となる項目と除外事項について詳しく見る](#eligible-items-exclusions)
+* **[!UICONTROL 対象アイテムと除外]**: タスクの完了にカウントされるアイテムまたはアイテム グループとそうでないアイテムまたはアイテム グループを定義します。 [対象となる項目と除外事項について詳しく見る](#eligible-items-exclusions)
 * **[!UICONTROL 最低支出額]**：最低購入額の要件を設定します。
 * **[!UICONTROL 最大トランザクション数]**：タスクを完了するために使用できるトランザクション数を制限します。
 
@@ -97,7 +97,7 @@ ht-degree: 3%
 **費用**&#x200B;活動に使用できる属性：
 
 * **[!UICONTROL 金額]**: タスクを完了するために必要な合計支出額を入力します。
-* **[!UICONTROL 対象アイテムと除外]**: タスクの完了にカウントされるアイテムまたはアイテム グループとそうでないアイテムまたはアイテム グループを定義します。[対象となる項目と除外事項について詳しく見る](#eligible-items-exclusions)
+* **[!UICONTROL 対象アイテムと除外]**: タスクの完了にカウントされるアイテムまたはアイテム グループとそうでないアイテムまたはアイテム グループを定義します。 [対象となる項目と除外事項について詳しく見る](#eligible-items-exclusions)
 * **[!UICONTROL 最大トランザクション数]**：支出要件を満たすために許可されるトランザクション数を指定します。 この属性は、パラメーターアイコンからアクティブにできます。
 
 ![](assets/task-create-spend.png)
@@ -108,32 +108,32 @@ ht-degree: 3%
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_task_eligible_items_exclusion"
->title="対象商品と除外事項"
->abstract="**購入**&#x200B;と&#x200B;**支出**&#x200B;の両方のアクティビティで、**[!UICONTROL 適格品目と除外]**&#x200B;属性を使用して、どの品目とグループが対象で、どの品目とグループが除外されるかを定義できます。 これにより、チャレンジ目標に沿って、特定の製品、カテゴリー、場所をターゲットにすることができます。 たとえば、支出タスクを特定の商品カテゴリーに制限したり、ギフトカードやプロモーション商品をタスク完了に向けてカウントから除外したりすることができます。"
+>title="Eligible items &amp; exclusions"
+>abstract="For both **Purchase** and **Spend** activities, you can use the **[!UICONTROL Eligible items &amp; exclusions]** attribute to define which items and groups are eligible and which are excluded. This allows you to target specific products, categories, or locations to align with your challenge goals. For example, you can limit a spending task to specific product categories, or exclude gift cards or promotional items from counting toward task completion."
 
 <!-- SCREENSHOT: Eligible items & exclusions popup showing the two sections: "Eligible task purchases are limited to the following" and "The following are excluded from this task" with text input fields -->
 
-**購入**&#x200B;と&#x200B;**支出**&#x200B;の両方のアクティビティで、**[!UICONTROL 適格品目と除外]**&#x200B;属性を使用して、どの品目とグループが対象で、どの品目とグループが除外されるかを定義できます。 これにより、チャレンジ目標に沿って、特定の製品、カテゴリー、場所をターゲットにすることができます。
+For both **Purchase** and **Spend** activities, you can use the **[!UICONTROL Eligible items &amp; exclusions]** attribute to define which items and groups are eligible and which are excluded. This allows you to target specific products, categories, or locations to align with your challenge goals.
 
-たとえば、支出タスクを特定の商品カテゴリーに制限したり、ギフトカードやプロモーション商品をタスク完了に向けてカウントから除外したりすることができます。
+For example, you can limit a spending task to specific product categories, or exclude gift cards or promotional items from counting toward task completion.
 
 ![](assets/tasks-create-eligible.png)
 
-* 対象となる品目を定義するには、**[!UICONTROL 対象タスク購入でコンマで区切った特定の品目ID、カテゴリ、または宛先IDを入力します。次の]** フィールドに制限されます。 このフィールドを空のままにすると、すべての購入がデフォルトで有効になります。 `*`を入力して、すべての購入を明示的に対象にすることもできます。
+* To define eligible items, enter specific item IDs, categories, or destination IDs, separated by commas in the **[!UICONTROL Eligible task purchases are limited to the following]** field. If you leave this field empty, all purchases are eligible by default. You can also enter `*` to explicitly make all purchases eligible.
 
   例：`SKU001, SKU002, CategoryA`
 
-* タスクから項目を除外するには、**[!UICONTROL に特定の項目ID、カテゴリ、または宛先IDを入力します。このタスク]** フィールドには、次のものが除外されます。
+* To exclude items from the task, enter specific item IDs, categories, or destination IDs in the **[!UICONTROL The following are excluded from this task]** field.
 
   例：`CLEARANCE01, GIFTCARD, SALE_CATEGORY`
 
-## タスクのプロパティの定義 {#define-task-properties}
+## Define task properties {#define-task-properties}
 
-タスク **[!UICONTROL プロパティ]** ペインで、基本的なタスク情報を設定します。
+In the task **[!UICONTROL Properties]** pane, configure the basic task information:
 
-* **[!UICONTROL タスク名]**: タスクのわかりやすい名前を入力します。
-* **[!UICONTROL タスクの説明]**：説明は、設定されたアクティビティと属性に基づいて自動的に生成されます。 カスタムの説明を入力するには、自動生成オプションをオフにして、テキストフィールドに説明を入力します。
+* **[!UICONTROL Task name]**: Enter a descriptive name for the task.
+* **[!UICONTROL Task description]**: The description is automatically generated based on the configured activity and attributes. To enter a custom description, toggle off the automatic generation option and enter your description in the text field.
 
 ![](assets/tasks-create-properties.png)
 
-すべての属性とプロパティを設定したら、**[!UICONTROL 作成]**&#x200B;を選択してタスクを保存します。 タスクはタスクインベントリに保存され、チャレンジ内から作成された場合、そのチャレンジに自動的に追加されます。
+After configuring all attributes and properties, select **[!UICONTROL Create]** to save the task. The task is saved to your Tasks inventory and, if created from within a challenge, is automatically added to that challenge.

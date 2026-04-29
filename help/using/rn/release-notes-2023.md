@@ -9,10 +9,10 @@ hide: true
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '4377'
-ht-degree: 100%
+source-wordcount: '4441'
+ht-degree: 98%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>サンドボックスツールを使用すると、パッケージのエクスポートとインポートを活用して、複数のサンドボックス間でオブジェクトをコピーできます。パッケージは、1 つのオブジェクトまたは複数のオブジェクトで構成できます。パッケージに含まれるオブジェクトは、同じサンドボックスからのものである必要があります。</p>
+<p>サンドボックスツールを使用すると、パッケージのエクスポートとインポートを活用して、複数のサンドボックス間でオブジェクトをコピーできます。 パッケージは、1 つのオブジェクトまたは複数のオブジェクトで構成できます。 パッケージに含まれるオブジェクトは、同じサンドボックスからのものである必要があります。</p>
 <!--img src="../data/assets/dataset-export-setup.png"-->
 <p>詳しくは、<a href="../building-journeys/copy-to-sandbox.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
@@ -53,9 +53,9 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>SMS チャネルを使用すると、マルチメディアメッセージサービス（MMS）メッセージを送信して通信を強化し、画像、GIF またはビデオを顧客と共有できます。この機能は現在、Sinch でのみ使用可能です。</p>
+<p>SMS チャネルを使用すると、マルチメディアメッセージサービス（MMS）メッセージを送信して通信を強化し、画像、GIF またはビデオを顧客と共有できます。 この機能は現在、Sinch でのみ使用可能です。</p>
 <img src="assets/do-not-localize/mms.gif"/>
-<p>詳しくは、 <a href="../sms/create-sms.md#mms-content">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../sms/create-sms.md#mms-content">詳細なドキュメント</a>を参照してください。</p>
 </tr>
 </tbody>
 </table>
@@ -66,8 +66,8 @@ ht-degree: 100%
 
 **オーディエンス**
 
-* CSV ファイルからアップロードされたオーディエンスを、ジャーニーやキャンペーンにターゲットできるようになりました。[詳細情報](../audience/about-audiences.md#about-segments)
-* オーディエンス構成を通じて作成されたオーディエンスをターゲットにし、ジャーニーのエンリッチメント属性を活用できるようになりました。[詳細情報](../building-journeys/read-audience.md)
+* CSV ファイルからアップロードされたオーディエンスを、ジャーニーやキャンペーンにターゲットできるようになりました。 [詳細情報](../audience/about-audiences.md#about-segments)
+* オーディエンス構成を通じて作成されたオーディエンスをターゲットにし、ジャーニーのエンリッチメント属性を活用できるようになりました。 [詳細情報](../building-journeys/read-audience.md)
 
 >[!AVAILABILITY]
 >
@@ -82,11 +82,11 @@ ht-degree: 100%
 **キャンペーン**
 
 <!--* You can now stop a live one-time campaign, make modifications and resume it again. This improvement is available in Beta.-->
-* キャンペーンのいずれかでエラーが発生した場合、キャンペーンのステータスと共に、キャンペーンリストに警告アイコンが表示されるようになりました。[詳細情報](../campaigns/manage-campaigns.md#statuses)
+* キャンペーンのいずれかでエラーが発生した場合、キャンペーンのステータスと共に、キャンペーンリストに警告アイコンが表示されるようになりました。 [詳細情報](../campaigns/manage-campaigns.md#statuses)
 
 **ジャーニー**
 
-* 待機時間として定義できる最大期間は、30 日ではなく 29 日になりました。この改善は、待機時間がジャーニーの 30 日間を超えるのを防ぐために導入されました。これは、以下に適用されます。
+* 待機時間として定義できる最大期間は、30 日ではなく 29 日になりました。 この改善は、待機時間がジャーニーの 30 日間を超えるのを防ぐために導入されました。 これは、以下に適用されます。
 
    * [待機アクティビティ](../building-journeys/wait-activity.md)の「**時間**」フィールド
    * [ジャーニープロパティ](../building-journeys/journey-properties.md#entrance)の&#x200B;**再エントリ待機期間**
@@ -100,7 +100,7 @@ ht-degree: 100%
 
 **意思決定管理**
 
-* 意思決定管理インターフェイスのオファーキャップに関連するいくつかのラベルが更新されました。[詳細情報](../offers/offer-library/add-constraints.md#capping)
+* 意思決定管理インターフェイスのオファーキャップに関連するいくつかのラベルが更新されました。 [詳細情報](../offers/offer-library/add-constraints.md#capping)
 
 
 
@@ -119,8 +119,8 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>計算属性を使用すると、直感的なユーザーインターフェイスを通じてイベントデータをプロファイル属性に簡単に要約でき、動作ベースのセグメント化、パーソナライゼーション、アクティベーションを強化できます。この機能を使用すると、計算属性をセルフサービス方式で作成して管理し、セグメント化、リアルタイム顧客プロファイルの宛先、Journey Optimizer で使用できます。<br/><br/>
-また、計算属性を使用すると、セグメント化とジャーニーのワークフローが簡素化され、関連するエクスペリエンスをシームレスに提供できます。詳しくは、<a href="../audience/computed-attributes.md">詳細なドキュメント</a>を参照してください。</p>
+<p>計算属性を使用すると、直感的なユーザーインターフェイスを通じてイベントデータをプロファイル属性に簡単に要約でき、動作ベースのセグメント化、パーソナライゼーション、アクティベーションを強化できます。 この機能を使用すると、計算属性をセルフサービス方式で作成して管理し、セグメント化、リアルタイム顧客プロファイルの宛先、Journey Optimizer で使用できます。<br/><br/>
+さらに、計算属性を利用することで、セグメンテーションやジャーニーのワークフローを簡素化し、適切なエクスペリエンスをシームレスに提供できます。 詳しくは、<a href="../audience/computed-attributes.md">詳細なドキュメント</a>を参照してください。</p>
 <img src="assets/do-not-localize/computed-attributes.gif">
 </tr>
 </tbody>
@@ -154,7 +154,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer データセットのクラウドストレージの宛先へのエクスポートが一般提供されるようになりました。この機能を使用すると、データセットの内容をエクスポートするために、クラウドストレージの場所とのライブ接続を確立できます。</p>
+<p>Journey Optimizer データセットのクラウドストレージの宛先へのエクスポートが一般提供されるようになりました。 この機能を使用すると、データセットの内容をエクスポートするために、クラウドストレージの場所とのライブ接続を確立できます。</p>
 <img src="../data/assets/dataset-export-setup.png">
 <p>詳しくは、<a href="../data/export-datasets.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
@@ -183,54 +183,54 @@ ht-degree: 100%
 
 **意思決定管理**
 
-* 意思決定管理オブジェクトの作成と管理のための新しい API が使用できるようになりました。これらの API により、パフォーマンスの向上とユーザーエクスペリエンスの強化が実現します。従来の API は、2024年3月27日（PT）までサポートされます。[詳細情報](../offers/api-reference/getting-started.md)
+* 意思決定管理オブジェクトの作成と管理のための新しい API が使用できるようになりました。 これらの API により、パフォーマンスの向上とユーザーエクスペリエンスの強化が実現します。 従来の API は、2024年3月27日（PT）までサポートされます。 [詳細情報](../offers/api-reference/getting-started.md)
 
 **パーソナライゼーション**
 
-* ビジュアルフラグメントに加えて、Journey Optimizer インターフェイスから式エディターを通じて式フラグメントを作成、保存、再利用できるようになりました。式フラグメントは、以前に保存した式を置き換えます。[詳細情報](../personalization/use-expression-fragments.md)
+* ビジュアルフラグメントに加えて、Journey Optimizer インターフェイスから式エディターを通じて式フラグメントを作成、保存、再利用できるようになりました。 式フラグメントは、以前に保存した式を置き換えます。 [詳細情報](../personalization/use-expression-fragments.md)
 
 **アラート**
 
-* 新しいタイプのシステムアラートが導入されました。「**オーディエンスの読み取り**」アクティビティが失敗した場合に通知を受信できるようになりました。[詳細情報](../reports/alerts.md)
+* 新しいタイプのシステムアラートが導入されました。 「**オーディエンスの読み取り**」アクティビティが失敗した場合に通知を受信できるようになりました。 [詳細情報](../reports/alerts.md)
 
 **Web チャネル**
 
-* Web ビジュアルエディターで単一アプリケーション（SPA）を作成できるようになりました。これにより、web ページの変更を適用する特定のビューを選択できます。ビューは、サイト全体またはサイト上のビジュアル要素のグループ（ホームページ、製品サイト全体、すべてのチェックアウトページの配信設定フレームなど）として定義できます。Adobe Experience Platform Web SDK 実装でビューを定義するには、開発者による 1 回限りの設定が必要です。これにより、マーケターは SPA で Adobe Journey Optimizer web キャンペーンを作成して実行できるようになります。[詳細情報](../web/web-spa.md)
+* Web ビジュアルエディターで単一アプリケーション（SPA）を作成できるようになりました。これにより、web ページの変更を適用する特定のビューを選択できます。 ビューは、サイト全体またはサイト上のビジュアル要素のグループ（ホームページ、製品サイト全体、すべてのチェックアウトページの配信設定フレームなど）として定義できます。 Adobe Experience Platform Web SDK 実装でビューを定義するには、開発者による 1 回限りの設定が必要です。これにより、マーケターは SPA で Adobe Journey Optimizer web キャンペーンを作成して実行できるようになります。 [詳細情報](../web/web-spa.md)
 
-* Web designer を使用してページを編集する際、コンポーネントを選択して designer インターフェイスから編集しなくても、変更パネルから直接コンテンツに新しい変更を追加できるようになりました。[詳細情報](../web/manage-web-modifications.md#add-modifications)
+* Web designer を使用してページを編集する際、コンポーネントを選択して designer インターフェイスから編集しなくても、変更パネルから直接コンテンツに新しい変更を追加できるようになりました。 [詳細情報](../web/manage-web-modifications.md#add-modifications)
 
-* Web サブドメインを設定する際に、Adobe に既にデリゲートされているサブドメインを使用することに加えて、独自のサブドメインを追加するオプションが追加されました。[詳細情報](../web/web-delegated-subdomains.md#web-configure-new-subdomain)
+* Web サブドメインを設定する際に、Adobe に既にデリゲートされているサブドメインを使用することに加えて、独自のサブドメインを追加するオプションが追加されました。 [詳細情報](../web/web-delegated-subdomains.md#web-configure-new-subdomain)
 
 **ジャーニー**
 
-* ジャーニーを複製する際に、ジャーニーのコピーの名前を定義できるようになりました。[詳細情報](../building-journeys/journey-gs.md#duplicate-a-journey)
+* ジャーニーを複製する際に、ジャーニーのコピーの名前を定義できるようになりました。 [詳細情報](../building-journeys/journey-gs.md#duplicate-a-journey)
 
-* カスタムアクション応答のサポートは、現在一般提供（GA）されています。この機能により、カスタムアクションで API 呼び出し応答を活用し、これらの応答に基づいてジャーニーを調整できます。また、カスタムアクションの呼び出しを自動的にキャップする[新しいキャップガードレール](../start/guardrails.md#custom-actions-g)が追加されました。[詳細情報](../action/action-response.md)
+* カスタムアクション応答のサポートは、現在一般提供（GA）されています。 この機能により、カスタムアクションで API 呼び出し応答を活用し、これらの応答に基づいてジャーニーを調整できます。 また、カスタムアクションの呼び出しを自動的にキャップする[新しいキャップガードレール](../start/guardrails.md#custom-actions-g)が追加されました。 [詳細情報](../action/action-response.md)
 <!--
 * The maximum duration that you can define in the Wait activity is now 29 days instead of 30.
 -->
 
 **メールチャネル**
 
-* メールサーフェス設定の新しいオプションを使用すると、メールアドレスが Adobe [!DNL Journey Optimizer] の抑制リストに記載されている場合でも、トランザクションメッセージをプロファイルに送信することを選択できます。[詳細情報](../email/email-settings.md#send-to-suppressed-email-addresses)
+* メールサーフェス設定の新しいオプションを使用すると、メールアドレスが Adobe [!DNL Journey Optimizer] の抑制リストに記載されている場合でも、トランザクションメッセージをプロファイルに送信することを選択できます。 [詳細情報](../email/email-settings.md#send-to-suppressed-email-addresses)
 
 **SMS チャネル**
 
-* 2 つの新しいフィールド、「**オプトインメッセージ**」と「**ヘルプメッセージ**」を API 設定画面に追加し、ユーザーが受信キーワードの応答をカスタマイズできるようになりました。これは、Sinch SMS プロバイダーでのみ使用できます。[詳細情報](../sms/sms-configuration.md)
+* 2 つの新しいフィールド、「**オプトインメッセージ**」と「**ヘルプメッセージ**」を API 設定画面に追加し、ユーザーが受信キーワードの応答をカスタマイズできるようになりました。 これは、Sinch SMS プロバイダーでのみ使用できます。 [詳細情報](../sms/sms-configuration.md)
 
-* SMS のオプトアウトは、チャネルレベルでは管理されなくなりました。現在は番号に固有になっています。つまり、一部のプロファイルが特定の番号やショートコードからオプトアウトした場合でも、SMS メッセージの送信に使用している他の番号からメッセージを送信できることになります。新しいオプションを使用すると、特定のサーフェスに使用する&#x200B;**オプトアウト番号**&#x200B;を選択できます。[詳細情報](../sms/sms-configuration.md)
+* SMS のオプトアウトは、チャネルレベルでは管理されなくなりました。 現在は番号に固有になっています。つまり、一部のプロファイルが特定の番号やショートコードからオプトアウトした場合でも、SMS メッセージの送信に使用している他の番号からメッセージを送信できることになります。 新しいオプションを使用すると、特定のサーフェスに使用する&#x200B;**オプトアウト番号**&#x200B;を選択できます。 [詳細情報](../sms/sms-configuration.md)
 
 **ダイレクトメールチャネル**
 
-* ダイレクトメールプロバイダー向けのファイルをサーバーに転送する際に、ファイルを暗号化できるようになりました。これを行うには、ファイルルーティング設定画面で新しいフィールドを使用して、暗号化キーをコピー＆ペーストできます。[詳細情報](../direct-mail/direct-mail-configuration.md)
+* ダイレクトメールプロバイダー向けのファイルをサーバーに転送する際に、ファイルを暗号化できるようになりました。 これを行うには、ファイルルーティング設定画面で新しいフィールドを使用して、暗号化キーをコピー＆ペーストできます。 [詳細情報](../direct-mail/direct-mail-configuration.md)
 
 **レポーティング**
 
-* Journey Optimizer レポートを CSV ファイルとしてエクスポートできるようになりました。詳しくは、[詳細なドキュメント](../reports/report-gs-cja.md)を参照してください。
+* Journey Optimizer レポートを CSV ファイルとしてエクスポートできるようになりました。 詳しくは、[詳細なドキュメント](../reports/report-gs-cja.md)を参照してください。
 
 **Assets**
 
-* Assets の新しいオプションを使用すると、Journey Optimizer でアセットのリポジトリを選択できます。このソリューションを所有している場合は、Assets Essentials リポジトリまたは Assets as a Cloud Service リポジトリを選択できます。[詳細情報](../integrations/assets.md)
+* Assets の新しいオプションを使用すると、Journey Optimizer でアセットのリポジトリを選択できます。 このソリューションを所有している場合は、Assets Essentials リポジトリまたは Assets as a Cloud Service リポジトリを選択できます。 [詳細情報](../integrations/assets.md)
 
 <!--
 **Decision management**
@@ -253,7 +253,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <tbody>
 <tr>
 <td>
-<p>ジャーニー内で、アプリユーザーにパーソナライズされたアプリ内メッセージを送信できるようになりました。Journey Optimizer を使用して通知をデザインし、メッセージのレイアウト、表示、テキストおよびボタンをカスタマイズして、シームレスなエクスペリエンスを作成します。</p>
+<p>ジャーニー内で、アプリユーザーにパーソナライズされたアプリ内メッセージを送信できるようになりました。 Journey Optimizer を使用して通知をデザインし、メッセージのレイアウト、表示、テキストおよびボタンをカスタマイズして、シームレスなエクスペリエンスを作成します。</p>
 <img src="assets/do-not-localize/in-app-jo.gif"/>
 <p>詳しくは、<a href="../in-app/create-in-app.md">詳細なドキュメント</a>を参照してください。</p>
 </tr>
@@ -270,9 +270,9 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer でシードリストを作成および管理できるようになりました。シードリストに含む内部アドレスは、配信の実行時に実際のオーディエンスに追加でき、対象プロファイルとまったく同じメッセージを受け取ることができます。この機能を使用して、送信したやりとりを監視し、すべての表示形式、URL、画像、リンクが正しいことを確認します。</p>
+<p>Journey Optimizer でシードリストを作成および管理できるようになりました。 シードリストに含む内部アドレスは、配信の実行時に実際のオーディエンスに追加でき、対象プロファイルとまったく同じメッセージを受け取ることができます。 この機能を使用して、送信したやりとりを監視し、すべての表示形式、URL、画像、リンクが正しいことを確認します。</p>
 <img src="../configuration/assets/seed-list-details.png">
-<p>詳しくは、 <a href="../configuration/seed-lists.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../configuration/seed-lists.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -317,15 +317,15 @@ A new option is available in the email surface settings to include email address
 
 **ジャーニー**
 
-* カスタムアクションで API 呼び出し応答を活用し、これらの応答に基づいてジャーニーを調整できるようになりました。この機能は現在、ベータ版として使用可能です。[詳細情報](../action/action-response.md)
-* 新しいタイプのシステムアラートが導入されました。カスタムアクションが失敗した場合に通知を受信できるようになりました。[詳細情報](../reports/alerts.md)
+* カスタムアクションで API 呼び出し応答を活用し、これらの応答に基づいてジャーニーを調整できるようになりました。 この機能は現在、ベータ版として使用可能です。 [詳細情報](../action/action-response.md)
+* 新しいタイプのシステムアラートが導入されました。 カスタムアクションが失敗した場合に通知を受信できるようになりました。 [詳細情報](../reports/alerts.md)
   <!--* When duplicating a journey, you can now define the name of the journey copy.-->
 
 
 **ダイレクトメール**
 
-* ファイルルーティング設定で、サーバーの種類として Azure を選択できるようになりました。[詳細情報](../direct-mail/direct-mail-configuration.md#file-routing-configuration)
-* ダイレクトメールのサーフェス設定で、列区切り記号フィールドとして、アンパサンド（&amp;）を使用できるようになりました。[詳細情報](../direct-mail/direct-mail-configuration.md#direct-mail-surface)
+* ファイルルーティング設定で、サーバーの種類として Azure を選択できるようになりました。 [詳細情報](../direct-mail/direct-mail-configuration.md#file-routing-configuration)
+* ダイレクトメールのサーフェス設定で、列区切り記号フィールドとして、アンパサンド（&amp;）を使用できるようになりました。 [詳細情報](../direct-mail/direct-mail-configuration.md#direct-mail-surface)
 
 
 
@@ -343,10 +343,10 @@ A new option is available in the email surface settings to include email address
 <tbody>
 <tr>
 <td>
-<p>構成ワークフローを作成して既存の Adobe Experience Platform オーディエンスをビジュアルキャンバスに組み合わせたり、様々なアクティビティ（分割、除外など）を活用して新しいオーディエンスを作成したりできるようになりました。新しく作成したオーディエンスは、既存のオーディエンスと共に Adobe Experience Platform に保存され、顧客をターゲットにする Journey Optimizer キャンペーンで活用できます。</p>
+<p>コンポジションワークフローを作成して、既存のAdobe Experience Platform オーディエンスをビジュアルキャンバスに組み合わせ、様々なアクティビティ（分割、エンリッチなど）を活用できるようになりました。 新規オーディエンスを作成します。 新しく作成したオーディエンスは、既存のオーディエンスと共に Adobe Experience Platform に保存され、顧客をターゲットにする Journey Optimizer キャンペーンで活用できます。</p>
 <img src="assets/do-not-localize/gif-ao.gif"/>
 <p>詳しくは、<a href="../audience/get-started-audience-orchestration.md">詳細なドキュメント</a>を参照してください。</p>
-<p>オーディエンス構成は、新しい Adobe Experience Platform の「オーディエンス」メニューに完全に統合され、オーディエンスの一元化されたポータルとして機能します。セグメントのトレンドと重複を含む新しいダッシュボードを含む参照ページを使用して、新しいインサイトを見つけ、フォルダー化やタグ付けのための組織ツールを探索できるようになりました。このエクスペリエンス内には、標準化されたオーディエンスのラベル付け用のガバナンスコントロールと、アクティベーションワークフローを管理するオーディエンスのライフサイクル管理機能が組み込まれています。この新しい管理エクスペリエンスにより、1 か所から簡単かつ安全にオーディエンスを管理できるようになりました。詳しくは、<a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja" target="_blank">Adobe Experience Platform ドキュメント</a>を参照してください。</p></p>
+<p>オーディエンス構成は、新しい Adobe Experience Platform の「オーディエンス」メニューに完全に統合され、オーディエンスの一元化されたポータルとして機能します。 セグメントのトレンドと重複を含む新しいダッシュボードを含む参照ページを使用して、新しいインサイトを見つけ、フォルダー化やタグ付けのための組織ツールを探索できるようになりました。 このエクスペリエンス内には、標準化されたオーディエンスのラベル付け用のガバナンスコントロールと、アクティベーションワークフローを管理するオーディエンスのライフサイクル管理機能が組み込まれています。 この新しい管理エクスペリエンスにより、1 か所から簡単かつ安全にオーディエンスを管理できるようになりました。 詳しくは、<a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja" target="_blank">Adobe Experience Platform ドキュメント</a>を参照してください。</p></p>
 </td>
 </tr>
 </tbody>
@@ -361,8 +361,8 @@ A new option is available in the email surface settings to include email address
 <tbody>
 <tr>
 <td>
-<p>キャンペーンにダイレクトメールメッセージを追加できるようになりました。ダイレクトメールは、ダイレクトメールプロバイダーが顧客にメールを送信するために必要なファイルをパーソナライズおよび生成できるオフラインチャネルです。</p>
-<p>ダイレクトメール配信を準備すると、Journey Optimizer によって、すべてのターゲットプロファイルと選択した連絡先情報（住所など）を含むファイルが生成されます。その後、このファイルを実際の発送処理を行うダイレクトメールプロバイダーに送信できます。</p>
+<p>キャンペーンにダイレクトメールメッセージを追加できるようになりました。 ダイレクトメールは、ダイレクトメールプロバイダーが顧客にメールを送信するために必要なファイルをパーソナライズおよび生成できるオフラインチャネルです。</p>
+<p>ダイレクトメール配信を準備すると、Journey Optimizer によって、すべてのターゲットプロファイルと選択した連絡先情報（住所など）を含むファイルが生成されます。 その後、このファイルを実際の発送処理を行うダイレクトメールプロバイダーに送信できます。</p>
 <p>現時点では、Adobe Healthcare Shield アドオン製品を購入した組織では、ダイレクトメールチャネルを利用できません。</p>
 <img src="assets/do-not-localize/gif-dm.gif"/>
 <p>詳しくは、<a href="../direct-mail/get-started-direct-mail.md">詳細なドキュメント</a>を参照してください。</p>
@@ -379,7 +379,7 @@ A new option is available in the email surface settings to include email address
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer のメールエディターで、HTML コンテンツを読み込んで変換できるようになりました。コンテンツブロックは自動的に識別され、E メールデザイナーで使用できます。その強力なデザイン機能を使用して、更新やパーソナライズを行いましょう。</p>
+<p>Journey Optimizer のメールエディターで、HTML コンテンツを読み込んで変換できるようになりました。 コンテンツブロックは自動的に識別され、E メールデザイナーで使用できます。その強力なデザイン機能を使用して、更新やパーソナライズを行いましょう。</p>
 <img src="assets/html-convert.png">
 <p>詳しくは、<a href="../email/existing-content.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
@@ -397,7 +397,7 @@ A new option is available in the email surface settings to include email address
 <tbody>
 <tr>
 <td>
-<p>キャンペーンやジャーニーに加えて、Adobe Experience Platform 統合タグをランディングページ、コンテンツテンプレート、フラグメント、購読リストに割り当てることができるようになりました。これにより、簡単に分類し、すべてのリストでの検索とナビゲーションを改善できます。 </p>
+<p>キャンペーンやジャーニーに加えて、Adobe Experience Platform 統合タグをランディングページ、コンテンツテンプレート、フラグメント、購読リストに割り当てることができるようになりました。 これにより、簡単に分類し、すべてのリストでの検索とナビゲーションを改善できます。 </p>
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
 <p>詳しくは、<a href="../start/search-filter-categorize.md#tags">詳細なドキュメント</a>を参照してください。</p>
 </td>
@@ -416,7 +416,7 @@ A new option is available in the email surface settings to include email address
 <tr>
 <td>
 <p>専用 API を使用して Adobe Journey Optimizer コンテンツテンプレートを作成および管理できるようになり、既存のコンテンツシステムとシームレスに統合できます。</p>
-<p>詳しくは、 <a href="https://developer.adobe.com/journey-optimizer-apis/references/content/">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、 <a href="https://developer.adobe.com/journey-optimizer-apis/references/content">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -434,21 +434,21 @@ A new option is available in the email surface settings to include email address
 
 **オーディエンス**
 
-ジャーニーまたはキャンペーンのオーディエンスピッカーが強化され、オーディエンスの接触チャネルと更新頻度を表示する新しい列が追加されました。オーディエンス構成ポータルのリリースに伴い、Adobe Experience Platform と Adobe Journey Optimizer は、システムおよびドキュメント内での「オーディエンス」と「セグメント」の使用法を更新しました。
+ジャーニーまたはキャンペーンのオーディエンスピッカーが強化され、オーディエンスの接触チャネルと更新頻度を表示する新しい列が追加されました。 オーディエンス構成ポータルのリリースに伴い、Adobe Experience Platform と Adobe Journey Optimizer は、システムおよびドキュメント内での「オーディエンス」と「セグメント」の使用法を更新しました。
 
 * オーディエンス：共通の特徴や行動を共有する人物、アカウント、世帯、その他のエンティティのセットです。
-* セグメント定義：Adobe Experience Platform では、ターゲットオーディエンスの重要な特徴や行動の説明に使用される一連のルールです。この用語は、以前は「セグメント」と呼ばれていました。
+* セグメント定義：Adobe Experience Platform では、ターゲットオーディエンスの重要な特徴や行動の説明に使用される一連のルールです。 この用語は、以前は「セグメント」と呼ばれていました。
 
 その結果、Adobe Journey Optimizer と Adobe Experience Platform UI 内では、オーディエンスの作成と管理のこうした新しいパスを反映して、「セグメント」が「オーディエンス」に置き換えられています。
 
 **API**
 
-Adobe Journey Optimizer API 認証用のアクセストークンを生成する JWT メソッドは非推奨（廃止予定）となりました。すべての新しい統合は、OAuth サーバー間認証方法を使用して作成する必要があります。また、アドビでは、既存の統合を OAuth 方法に移行することをお勧めします。[詳細情報](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}
+Adobe Journey Optimizer API 認証用のアクセストークンを生成する JWT メソッドは非推奨（廃止予定）となりました。 すべての新しい統合は、OAuth サーバー間認証方法を使用して作成する必要があります。 また、アドビでは、既存の統合を OAuth 方法に移行することをお勧めします。 [詳細情報](https://developer.adobe.com/journey-optimizer-apis/references/authentication){target="_blank"}
 
 
 **その他の変更**
 
-クラウドストレージの宛先への Journey Optimizer データセットのエクスポートは、Public Beta 版としてすべてのお客様が利用できるようになりました。この機能を使用すると、データセットの内容をエクスポートするために、クラウドストレージの場所とのライブ接続を確立できます。[詳細情報](../data/export-datasets.md)
+クラウドストレージの宛先への Journey Optimizer データセットのエクスポートは、Public Beta 版としてすべてのお客様が利用できるようになりました。 この機能を使用すると、データセットの内容をエクスポートするために、クラウドストレージの場所とのライブ接続を確立できます。 [詳細情報](../data/export-datasets.md)
 
 
 
@@ -466,7 +466,7 @@ Adobe Journey Optimizer API 認証用のアクセストークンを生成する 
 <tr>
 <td>
 <p>API を使用して、外部システムから Adobe Journey Optimizer でマーケティングキャンペーンをトリガーできるようになりました。</p>
-<p>このリリースまでは、API トリガーキャンペーン機能は、パスワードリセットや OTP トークンなどの様々な運用およびトランザクションメッセージのニーズをカバーしていましたが、マーケティングキャンペーンの作成には使用できませんでした。API トリガーキャンペーンで使用できるチャネルは、メール、SMS およびプッシュメッセージです。</p>
+<p>このリリースまでは、API トリガーキャンペーン機能は、パスワードリセットや OTP トークンなどの様々な運用およびトランザクションメッセージのニーズをカバーしていましたが、マーケティングキャンペーンの作成には使用できませんでした。 API トリガーキャンペーンで使用できるチャネルは、メール、SMS およびプッシュメッセージです。</p>
 <img src="assets/do-not-localize/api-triggered.gif"/>
 <p>詳しくは、<a href="../campaigns/api-triggered-campaigns.md">詳細なドキュメント</a>を参照してください。
 </td>
@@ -519,7 +519,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer でキャンペーンでの実験がサポートされるようになりました。実験はランダム化試験です。オンラインテストのコンテキストでは、ランダムに選択された一部のユーザーにはメッセージの特定のバリエーションを表示し、別のランダムに選択された一連のユーザーには別のバリエーションや処理を行うことを意味します。公開後、メールの開封数、購読数、購入数など、興味のある結果指標を測定できます。</p>
+<p>Adobe Journey Optimizer でキャンペーンでの実験がサポートされるようになりました。 実験はランダム化試験です。オンラインテストのコンテキストでは、ランダムに選択された一部のユーザーにはメッセージの特定のバリエーションを表示し、別のランダムに選択された一連のユーザーには別のバリエーションや処理を行うことを意味します。 公開後、メールの開封数、購読数、購入数など、興味のある結果指標を測定できます。</p>
 <img src="assets/do-not-localize/experiment.gif"/>
 <p>詳しくは、<a href="../content-management/content-experiment.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
@@ -556,7 +556,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <tbody>
 <tr>
 <td>
-<p>フラグメントを作成、使用、管理して、メールとコンテンツテンプレートをすばやく組み立てることができるようになりました。フラグメントは、設計プロセスを改善および加速するために、Journey Optimizer キャンペーンおよびジャーニー全体にわたる複数のメールで参照できる、事前に作成された再利用可能なコンポーネントです。</p>
+<p>フラグメントを作成、使用、管理して、メールとコンテンツテンプレートをすばやく組み立てることができるようになりました。 フラグメントは、設計プロセスを改善および加速するために、Journey Optimizer キャンペーンおよびジャーニー全体にわたる複数のメールで参照できる、事前に作成された再利用可能なコンポーネントです。</p>
 <img src="assets/do-not-localize/fragments.gif"/>
 <p>詳しくは、<a href="../content-management/fragments.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
@@ -574,7 +574,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <tbody>
 <tr>
 <td>
-<p>これで、Adobe Experience Platform 統合タグをキャンペーンに割り当てることができるようになりました。これにより、キャンペーンを簡単に分類し、キャンペーンリストからの検索を改善できます。統合タグ機能は現在ベータ版です。</p>
+<p>これで、Adobe Experience Platform 統合タグをキャンペーンに割り当てることができるようになりました。 これにより、キャンペーンを簡単に分類し、キャンペーンリストからの検索を改善できます。 統合タグ機能は現在ベータ版です。</p>
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
 <p>詳しくは、<a href="../start/search-filter-categorize.md#tags">詳細なドキュメント</a>を参照してください。</p>
 </td>
@@ -593,9 +593,9 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <tbody>
 <tr>
 <td>
-<p>パーソナライズされた最適化 AI ランキングモデルが意思決定管理で一般公開されました。この新しいタイプのモデルを使用すると、オーディエンスとオファーのパフォーマンスに応じて、オファーを最適化およびパーソナライズできます。</p>
+<p>パーソナライズされた最適化 AI ランキングモデルが意思決定管理で一般公開されました。 この新しいタイプのモデルを使用すると、オーディエンスとオファーのパフォーマンスに応じて、オファーを最適化およびパーソナライズできます。</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
-<p>詳しくは、 <a href="../offers/ranking/personalized-optimization-model.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../offers/ranking/personalized-optimization-model.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -610,7 +610,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 * オーディエンスポータル機能の一般提供に備えて、Adobe Experience Platform では、システムおよびドキュメント内での「オーディエンス」と「セグメント」の使用方法を更新しています。
 
    * オーディエンス：共通の特徴や行動を共有する人物、アカウント、世帯、その他のエンティティのセットです。
-   * セグメント定義：Adobe Experience Platform では、ターゲットオーディエンスの重要な特徴や行動の説明に使用される一連のルールです。この用語は、以前は「セグメント」と呼ばれていました。
+   * セグメント定義：Adobe Experience Platform では、ターゲットオーディエンスの重要な特徴や行動の説明に使用される一連のルールです。 この用語は、以前は「セグメント」と呼ばれていました。
 
   その結果、Adobe Journey Optimizer と Adobe Experience Platform UI 内では、この新しいオーディエンスの作成と管理のパスを反映して、「セグメント」が「オーディエンス」に置き換えられるようになります。
 
@@ -624,12 +624,12 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 **SMS チャネル**
 
-* SMS チャネル設定を指定する際に、Infobip がベンダープロバイダーとして追加されました。[詳細情報](../sms/sms-configuration.md)
-* Twillio - API 資格情報のセットアップに、Twillio アカウントとシームレスに統合するためのメッセージングサービス SID を追加する機能が含まれるようになりました。[詳細情報](../sms/sms-configuration.md)
+* SMS チャネル設定を指定する際に、Infobip がベンダープロバイダーとして追加されました。 [詳細情報](../sms/sms-configuration.md)
+* Twillio - API 資格情報のセットアップに、Twillio アカウントとシームレスに統合するためのメッセージングサービス SID を追加する機能が含まれるようになりました。 [詳細情報](../sms/sms-configuration.md)
 
 **アプリ内チャネル**
 
-* Adobe Places Service に新しいメッセージトリガールールを追加しました。[詳細情報](../in-app/inapp-configuration.md)
+* Adobe Places Service に新しいメッセージトリガールールを追加しました。 [詳細情報](../in-app/inapp-configuration.md)
 * デバイスイベントをキャプチャしてトリガールールとして追加するための新しい Adobe Experience Platform Assurance 機能を追加しました。
 
 <!--
@@ -640,13 +640,13 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 **キャンペーン**
 
-* 省略記号アクションメニューを使用して、インベントリ画面からキャンペーンを複製できるようになりました。[詳細情報](../campaigns/manage-campaigns.md#duplicate)
+* 省略記号アクションメニューを使用して、インベントリ画面からキャンペーンを複製できるようになりました。 [詳細情報](../campaigns/manage-campaigns.md#duplicate)
 * ライブキャンペーンに対するドラフトの変更を削除できるようになりました。
-* キャンペーンのアクティブ化の手順を合理化しました。[詳細情報](../campaigns/manage-campaigns.md)
+* キャンペーンのアクティブ化の手順を合理化しました。 [詳細情報](../campaigns/manage-campaigns.md)
 
 **意思決定管理**
 
-* オファーのステータスが&#x200B;**[!UICONTROL ドラフト]**&#x200B;であり、これまでにフリークエンシーキャップを有効にして公開したことがない場合、そのオファーのフリークエンシーキャップを編集できるようになりました。[詳細情報](../offers/offer-library/add-constraints.md#frequency-capping)
+* オファーのステータスが&#x200B;**[!UICONTROL ドラフト]**&#x200B;であり、これまでにフリークエンシーキャップを有効にして公開したことがない場合、そのオファーのフリークエンシーキャップを編集できるようになりました。 [詳細情報](../offers/offer-library/add-constraints.md#frequency-capping)
 
 **パーソナライゼーション**
 
@@ -676,7 +676,7 @@ Information below is subject to change without prior notice until the release av
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizer は、web チャネルのサポートを追加することにより、クロスチャネル機能を拡張しています。スマートで直感的なビジュアルインターフェイスを使用して、他のチャネルと同様に web エクスペリエンスを作成、変更、プレビューし、エンドユーザーエクスペリエンスをパーソナライズできるようになりました。現在、Journey Optimizer では、キャンペーンでのみ web エクスペリエンスを作成できます。</p>
+<p>Adobe Journey Optimizer は、web チャネルのサポートを追加することにより、クロスチャネル機能を拡張しています。 スマートで直感的なビジュアルインターフェイスを使用して、他のチャネルと同様に web エクスペリエンスを作成、変更、プレビューし、エンドユーザーエクスペリエンスをパーソナライズできるようになりました。 現在、Journey Optimizer では、キャンペーンでのみ web エクスペリエンスを作成できます。</p>
 <img src="assets/do-not-localize/web-authoring.gif"/>
 <p>詳しくは、<a href="../web/get-started-web.md">詳細なドキュメント</a>を参照してください。</p>
 </tr>
@@ -692,7 +692,7 @@ Information below is subject to change without prior notice until the release av
 <tbody>
 <tr>
 <td>
-<p>新しいモバイルオンボーディングのクイックスタートワークフローが利用できるようになりました。この新しい製品機能を使用すると、Adobe Journey Optimizer で Mobile SDK を迅速に設定、モバイルイベント データの収集と検証を開始、モバイルプッシュ通知を送信できます。この機能は、パブリックベータ版としてデータ収集ホームページから入手できます。</p>
+<p>新しいモバイルオンボーディングのクイックスタートワークフローが利用できるようになりました。 この新しい製品機能を使用すると、Adobe Journey Optimizer で Mobile SDK を迅速に設定、モバイルイベント データの収集と検証を開始、モバイルプッシュ通知を送信できます。 この機能は、パブリックベータ版としてデータ収集ホームページから入手できます。</p>
 <img src="../push/assets/mobile-wf-home.png"/>
 <p>詳しくは、<a href="../push/mobile-onboarding-wf.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
@@ -714,7 +714,7 @@ Information below is subject to change without prior notice until the release av
 <li>「<strong>参照</strong>」タブを使用して、すべてのジャーニーのリストにアクセスします。</li></ul>
 <p>この機能には、パブリックベータ版としてすべてのジャーニーでアクセスできます。</p>
 <img src="assets/do-not-localize/journey-dashboard.gif"/>
-<p>詳しくは、 <a href="../building-journeys/journey-gs.md#journey-access">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../building-journeys/journey-gs.md#journey-access">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -724,19 +724,19 @@ Information below is subject to change without prior notice until the release av
 
 **ジャーニー**
 
-* ジャーニーキャンバスのメッセージアクティビティと終了タグにアクティビティ ID が表示されるようになりました。これにより、レポーティングとリターゲティングが向上します。
+* ジャーニーキャンバスのメッセージアクティビティと終了タグにアクティビティ ID が表示されるようになりました。 これにより、レポーティングとリターゲティングが向上します。
 * アクション、データソース、イベント、ジャーニーに表示される設定パネルのレイアウトが改善されました。
-* 規模の拡大を支援するための、安全対策を備えたキャンバス上のノード数に対する新しいインサイト：ジャーニーあたり最大ノード数 50 で、ジャーニーの読み取り、QA およびトラブルシューティングが常に容易になります。[詳細情報](../start/guardrails.md#journeys-guardrails-journeys)
+* 規模の拡大を支援するための、安全対策を備えたキャンバス上のノード数に対する新しいインサイト：ジャーニーあたり最大ノード数 50 で、ジャーニーの読み取り、QA およびトラブルシューティングが常に容易になります。 [詳細情報](../start/guardrails.md#journeys-guardrails-journeys)
 * ジャーニーに[メール](../email/create-email.md)、[SMS](../sms/create-sms.md)、[プッシュ](../push/create-push.md)のアクションを追加すると、デフォルトでは、現在のジャーニーのそのチャネルで前回に使用したサーフェスと共に、サーフェスが事前入力されるようになりました。
-* カスタムアクションで静的クエリパラメーターまたは動的クエリパラメーターを定義できるようになりました。[詳細情報](../action/about-custom-action-configuration.md#url-configuration)
+* カスタムアクションで静的クエリパラメーターまたは動的クエリパラメーターを定義できるようになりました。 [詳細情報](../action/about-custom-action-configuration.md#url-configuration)
 
 **レポーティング**
 
-* Journey Optimizer レポートを PDF としてエクスポートできるようになりました。[詳細情報](../reports/report-gs-cja.md)
+* Journey Optimizer レポートを PDF としてエクスポートできるようになりました。 [詳細情報](../reports/report-gs-cja.md)
 
 **コンテンツ designer**
 
-* Adobe Journey Optimizer コンテンツ designer が更新され、デザインスタイルとコンポーネントにアクセスしやすくなりました。この新しいバージョンは、ユーザーエクスペリエンスの向上を実現し、パフォーマンスの向上、ダークモードの部分互換性、新しいアクセシビリティ標準のサポートを備えています。
+* Adobe Journey Optimizer コンテンツ designer が更新され、デザインスタイルとコンポーネントにアクセスしやすくなりました。 この新しいバージョンは、ユーザーエクスペリエンスの向上を実現し、パフォーマンスの向上、ダークモードの部分互換性、新しいアクセシビリティ標準のサポートを備えています。
 
 
 
@@ -786,7 +786,7 @@ Information below is subject to change without prior notice until the release av
 <tbody>
 <tr>
 <td>
-<p>Journey Optimizer の実務担当者は、タグを使用してビジネスオブジェクトを整理できるようになりました。タグを使用すると、オブジェクトをすばやく簡単に分類でき、検索が改善されます。この機能は現在ベータ版であり、ジャーニーでのみ使用できます。</p>
+<p>Journey Optimizer の実務担当者は、タグを使用してビジネスオブジェクトを整理できるようになりました。 タグを使用すると、オブジェクトをすばやく簡単に分類でき、検索が改善されます。 この機能は現在ベータ版であり、ジャーニーでのみ使用できます。</p>
 <p>詳しくは、 <a href="../start/search-filter-categorize.md#tags">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
@@ -797,11 +797,11 @@ Information below is subject to change without prior notice until the release av
 
 **ジャーニー**
 
-* 新しい **Throttling API** では、1 秒あたりに送信されるイベントの数に制限を設定して、外部システムや API での過剰なトラフィックのスパイクを防ぐことができます。設定制限に達すると、以降のすべての API 呼び出しは、受け取った順序で、可能な限り早くキューに登録されて処理されます。この機能では、すべてのサンドボックスに対して 1 つのスロットル設定のみがサポートされることに注意してください。[詳細情報](../configuration/external-systems.md)
-* ジャーニーキャンバスが強化され、よりシンプルで改善されたユーザーエクスペリエンスが実現しました。キャンバスの各パスの最後に、空のプレースホルダーが削除されています。これで、パスの最後にあるアクティビティをドラッグするだけで、アクティビティを追加できます。
-* ジャーニーキャンバスで、**終了**&#x200B;タグは、以前のアクティビティの名前で自動的に設定されなくなりました。必要に応じて、カスタムラベルを手動で追加できます。
-* ジャーニープロパティのデフォルトのタイムアウトとエラーの時間が 5 秒から 30 秒に変更されました。[詳細情報](../configuration/external-systems.md#timeout)
-* 「オーディエンスを読み取り」アクティビティのデフォルトのスロットル率が、1 秒あたり 20,000 件から 5,000 件のメッセージに変更されました。[詳細情報](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
+* 新しい **Throttling API** では、1 秒あたりに送信されるイベントの数に制限を設定して、外部システムや API での過剰なトラフィックのスパイクを防ぐことができます。 設定制限に達すると、以降のすべての API 呼び出しは、受け取った順序で、可能な限り早くキューに登録されて処理されます。 この機能では、すべてのサンドボックスに対して 1 つのスロットル設定のみがサポートされることに注意してください。 [詳細情報](../configuration/external-systems.md)
+* ジャーニーキャンバスが強化され、よりシンプルで改善されたユーザーエクスペリエンスが実現しました。 キャンバスの各パスの最後に、空のプレースホルダーが削除されています。 これで、パスの最後にあるアクティビティをドラッグするだけで、アクティビティを追加できます。
+* ジャーニーキャンバスで、**終了**&#x200B;タグは、以前のアクティビティの名前で自動的に設定されなくなりました。 必要に応じて、カスタムラベルを手動で追加できます。
+* ジャーニープロパティのデフォルトのタイムアウトとエラーの時間が 5 秒から 30 秒に変更されました。 [詳細情報](../configuration/external-systems.md#timeout)
+* 「オーディエンスを読み取り」アクティビティのデフォルトのスロットル率が、1 秒あたり 20,000 件から 5,000 件のメッセージに変更されました。 [詳細情報](../building-journeys/read-audience.md#configuring-segment-trigger-activity)
 * インターフェイスを通じて送信されたイベントのみをリッスンするガードレールが、テストモードに追加されました。 外部ツールから送信されたイベントは考慮されません。 [詳細情報](../building-journeys/testing-the-journey.md)
 
 
@@ -821,21 +821,21 @@ Information below is subject to change without prior notice until the release av
 
   「タグ」という用語は、意思決定管理のユーザーインターフェイスでは使用されなくなりましたが、API やデータセットなどのバックエンドサービスでは引き続き使用します。
 
-* オファーのキャップカウンターを日単位、週単位または月単位でリセットできるようになりました。[詳細情報](../offers/offer-library/add-constraints.md#capping)
+* オファーのキャップカウンターを日単位、週単位または月単位でリセットできるようになりました。 [詳細情報](../offers/offer-library/add-constraints.md#capping)
 
-* また、オファー決定支援キャップのために、参照する Adobe Experience Platform イベントを選択することもできます。[詳細情報](../offers/offer-library/add-constraints.md#capping)
+* また、オファー決定支援キャップのために、参照する Adobe Experience Platform イベントを選択することもできます。 [詳細情報](../offers/offer-library/add-constraints.md#capping)
 
-* プレースメントの作成画面に追加のパラメーターが追加されました。これを使用すると、1 つのオファーを複数のプレースメントにまたがって複製できるかどうかを制御し、オファーのコンテンツとメタデータを API 応答に含めるかどうかを指定できます。[詳細情報](../offers/offer-library/creating-placements.md)
+* プレースメントの作成画面に追加のパラメーターが追加されました。 これを使用すると、1 つのオファーを複数のプレースメントにまたがって複製できるかどうかを制御し、オファーのコンテンツとメタデータを API 応答に含めるかどうかを指定できます。 [詳細情報](../offers/offer-library/creating-placements.md)
 
 **パーソナライゼーション**
 
-* 式エディターに文字列ベースのプロファイル属性に対するデフォルトの代替テキストを含めることができるようになりました。これらの値は、選択した属性が結果を返さない場合に表示されます。[詳細情報](../personalization/personalization-build-expressions.md#add)
+* 式エディターに文字列ベースのプロファイル属性に対するデフォルトの代替テキストを含めることができるようになりました。 これらの値は、選択した属性が結果を返さない場合に表示されます。 [詳細情報](../personalization/personalization-build-expressions.md#add)
 
 **レポーティング**
 
-* レポートウィジェットの機能が改善され、ユーザーによるデータの表示方法をカスタマイズできるようになりました。この改善により、グラフ、表、ドーナツグラフなど、複数のビジュアライゼーションオプションの中から選択できるようになりました。
+* レポートウィジェットの機能が改善され、ユーザーによるデータの表示方法をカスタマイズできるようになりました。 この改善により、グラフ、表、ドーナツグラフなど、複数のビジュアライゼーションオプションの中から選択できるようになりました。
 
-  最新のウィジェットにアクセスするには、異なるレポートダッシュボードをリセットする必要があることに注意してください。ダッシュボードのカスタマイズについて詳しくは、[詳細ドキュメント](../reports/report-gs-cja.md)を参照してください。
+  最新のウィジェットにアクセスするには、異なるレポートダッシュボードをリセットする必要があることに注意してください。 ダッシュボードのカスタマイズについて詳しくは、[詳細ドキュメント](../reports/report-gs-cja.md)を参照してください。
 
 ## 2023年2月リリース {#feb-2023}
 
@@ -868,10 +868,10 @@ Information below is subject to change without prior notice until the release av
 <tbody>
 <tr>
 <td>
-<p>データセットの内容をエクスポートするために、クラウドストレージの場所とのライブ接続を確立できるようになりました。使用可能な宛先は次のとおりです。Amazon S3 Cloud Storage、Azure Blob、Azure Data Lake Gen 2、Data Landing Zone、Google Cloud Storage、SFTP。</p>
+<p>データセットの内容をエクスポートするために、クラウドストレージの場所とのライブ接続を確立できるようになりました。 使用可能な宛先は次のとおりです。Amazon S3 Cloud Storage、Azure Blob、Azure Data Lake Gen 2、Data Landing Zone、Google Cloud Storage、SFTP。</p>
 <p><strong>注意</strong> - この機能は現在ベータ版です。すべての Adobe Journey Optimizer ユーザーがご利用いただけます。 アクセス権がない場合は、アドビ担当者に相談して、宛先へのアクセス権を取得してください。</p>
 <img src="assets/do-not-localize/gif-destinations.gif"/>
-<p>詳しくは、 <a href="../data/export-datasets.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../data/export-datasets.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -931,9 +931,9 @@ Note that each widget can be resized and deleted as needed.
 
 **ジャーニー**
 
-* ジャーニープロパティに「**再エントリ待機期間**」フィールドが追加されました。このフィールドでは、（イベントまたはオーディエンスの選定で始まる）単一ジャーニーで、プロファイルがジャーニーに再度エントリできるようになるまでの待機時間を定義できます。これにより、ジャーニーが同じイベントに対して誤って複数回トリガーされるのを防ぎます。デフォルトでは、このフィールドは 5 分に設定されています。[詳細情報](../building-journeys/journey-properties.md#entrance)
+* ジャーニープロパティに「**再エントリ待機期間**」フィールドが追加されました。 このフィールドでは、（イベントまたはオーディエンスの選定で始まる）単一ジャーニーで、プロファイルがジャーニーに再度エントリできるようになるまでの待機時間を定義できます。 これにより、ジャーニーが同じイベントに対して誤って複数回トリガーされるのを防ぎます。 デフォルトでは、このフィールドは 5 分に設定されています。 [詳細情報](../building-journeys/journey-properties.md#entrance)
 
-* **ジャーニーの開始日と終了日**&#x200B;が改善されました。開始日を指定していない場合は、公開時に自動的に追加されるようになりました。**オーディエンスを読み取り**&#x200B;ジャーニーで、終了日を追加できるようになりました。その日付に達したプロファイルを自動的に終了できます。[詳細情報](../building-journeys/journey-gs.md#dates)
+* **ジャーニーの開始日と終了日**&#x200B;が改善されました。 開始日を指定していない場合は、公開時に自動的に追加されるようになりました。 **オーディエンスを読み取り**&#x200B;ジャーニーで、終了日を追加できるようになりました。 その日付に達したプロファイルを自動的に終了できます。 [詳細情報](../building-journeys/journey-gs.md#dates)
 
 <!--
 * The Journey canvas has been enhanced for a simpler and improved user experience. At the end of each path in the canvas, the empty placeholders have been removed. You can now simply add your activities by dragging them anywhere between nodes. [Learn more](../building-journeys/using-the-journey-designer.md)
@@ -950,17 +950,17 @@ Note that each widget can be resized and deleted as needed.
 
 **管理**
 
-* **許可リスト** - 許可リストを .csv ファイルとしてダウンロードできるようになりました。[詳細情報](../configuration/allow-list.md#download-allowed-list)
+* **許可リスト** - 許可リストを .csv ファイルとしてダウンロードできるようになりました。 [詳細情報](../configuration/allow-list.md#download-allowed-list)
 
-* **メールサーフェス** - メールサーフェスの設定にさらにチェックが追加されました。サブドメインの MX レコードが&#x200B;**返信先（メール）アドレス**&#x200B;または **BCC メールアドレス**&#x200B;が正しく設定されていない場合、メールサーフェスを作成できなくなりました。設定するか、別の設定を使用する必要があります。 [詳細情報](../email/email-settings.md#send-to-suppressed-email-addresses)
+* **メールサーフェス** - メールサーフェスの設定にさらにチェックが追加されました。サブドメインの MX レコードが&#x200B;**返信先（メール）アドレス**&#x200B;または **BCC メールアドレス**&#x200B;が正しく設定されていない場合、メールサーフェスを作成できなくなりました。 設定するか、別の設定を使用する必要があります。 [詳細情報](../email/email-settings.md#send-to-suppressed-email-addresses)
 
-* **メールサーフェス** - メールサーフェス設定の **URLトラッキングパラメーター**&#x200B;セクションで、Adobe Analytics トラッキングとの互換性のために、各&#x200B;**値**&#x200B;フィールドの制限が 255 文字から 5 KB に更新されました。[詳細情報](../email/email-settings.md#url-tracking)
+* **メールサーフェス** - メールサーフェス設定の **URLトラッキングパラメーター**&#x200B;セクションで、Adobe Analytics トラッキングとの互換性のために、各&#x200B;**値**&#x200B;フィールドの制限が 255 文字から 5 KB に更新されました。 [詳細情報](../email/email-settings.md#url-tracking)
 
 **意思決定管理**
 
-* **プレースメント** - プレースメントの作成画面に追加のパラメーターが追加されました。これを使用すると、1 つのオファーを複数のプレースメントにまたがって複製できるかどうかを制御し、オファーのコンテンツとメタデータを API 応答に含めるかどうかを指定できます。[詳細情報](../offers/offer-library/creating-placements.md)
+* **プレースメント** - プレースメントの作成画面に追加のパラメーターが追加されました。 これを使用すると、1 つのオファーを複数のプレースメントにまたがって複製できるかどうかを制御し、オファーのコンテンツとメタデータを API 応答に含めるかどうかを指定できます。 [詳細情報](../offers/offer-library/creating-placements.md)
 
-* **URL のパーソナライゼーション** - オファーの表示域にコンテンツとして URL を追加する場合、式エディターを使用して、これらの URL をパーソナライズできるようになりました。[詳細情報](../offers/offer-library/add-representations.md)
+* **URL のパーソナライゼーション** - オファーの表示域にコンテンツとして URL を追加する場合、式エディターを使用して、これらの URL をパーソナライズできるようになりました。 [詳細情報](../offers/offer-library/add-representations.md)
 
 ## 2023年1月リリース {#jan-2023-release}
 
@@ -975,7 +975,7 @@ Note that each widget can be resized and deleted as needed.
 <tbody>
 <tr>
 <td>
-<p>Adobe Experience Platform は、消費者レコードとデータセットをプログラムで削除することで、保存されたデータを管理できる、一連のデータハイジーン機能を提供します。この機能は、Adobe Journey Optimizer で使用できるようになりました。 </p>
+<p>Adobe Experience Platform は、消費者レコードとデータセットをプログラムで削除することで、保存されたデータを管理できる、一連のデータハイジーン機能を提供します。 この機能は、Adobe Journey Optimizer で使用できるようになりました。 </p>
 <p>データストアを管理して、情報が期待どおりに使用され、必要な場合は不適切なデータの修正が更新され、組織のポリシーで必要と判断された場合は削除されるようになります。</p>
 <p><strong>注意</strong> - データハイジーン機能は、現在、<strong>Healthcare Shield</strong> および<strong>プライバシーとセキュリティシールド</strong>アドオン機能を購入した組織でのみ利用できます。</p><p>詳しくは、<a href="../privacy/data-hygiene.md">詳細なドキュメント</a>を参照してください。
 </td>
@@ -995,7 +995,7 @@ Note that each widget can be resized and deleted as needed.
 <p>ジャーニーやキャンペーン全体で活用できるスタンドアロンのコンテンツテンプレートを作成し、すばやく再利用できるようになりました。</p> 
 </p>
 <img src="assets/do-not-localize/content-template.gif"/>
-<p>コンテンツテンプレートを作成、編集、使用する方法については<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html?lang=ja">このビデオ</a>をご覧ください。 詳しくは、 <a href="../content-management/content-templates.md">詳細なドキュメント</a>を参照してください。
+<p>コンテンツテンプレートを作成、編集、使用する方法については<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html?lang=ja">このビデオ</a>をご覧ください。 詳しくは、<a href="../content-management/content-templates.md">詳細なドキュメント</a>を参照してください。
 </p>
 </td>
 </tr>
@@ -1006,27 +1006,27 @@ Note that each widget can be resized and deleted as needed.
 
 **ジャーニー**
 
-* **オーディエンスの選定**&#x200B;または&#x200B;**オーディエンスを読み取り**&#x200B;をジャーニーに追加すると、名前空間には、最後に使用した名前空間がデフォルトで事前入力されるようになりました。詳しくは、[オーディエンスの選定](../building-journeys/audience-qualification-events.md#about-segment-qualification)および[オーディエンスを読み取り](../building-journeys/read-audience.md#configuring-segment-trigger-activity)の節を参照してください。
+* **オーディエンスの選定**&#x200B;または&#x200B;**オーディエンスを読み取り**&#x200B;をジャーニーに追加すると、名前空間には、最後に使用した名前空間がデフォルトで事前入力されるようになりました。 詳しくは、[オーディエンスの選定](../building-journeys/audience-qualification-events.md#about-segment-qualification)および[オーディエンスを読み取り](../building-journeys/read-audience.md#configuring-segment-trigger-activity)の節を参照してください。
 
 * ジャーニーキャンバスのツールバーに新しいボタンが表示され、ジャーニーのスクリーンショットをダウンロードできます。
 
 **E メールデザイナー**
 
-* **HTML をエクスポート**&#x200B;メニューからメールの内容をエクスポートできるようになりました。エクスポートされたファイルは、アーカイブ（.ZIP）ファイルで使用できます。
+* **HTML をエクスポート**&#x200B;メニューからメールの内容をエクスポートできるようになりました。 エクスポートされたファイルは、アーカイブ（.ZIP）ファイルで使用できます。
 
 **管理**
 
-* 新しいサブセクションでは、**返信先（メール）**&#x200B;アドレスを作成し、適切な返信管理を行うためのレコメンデーションを説明します。[詳細情報](../email/email-settings.md#send-to-suppressed-email-addresses)
+* 新しいサブセクションでは、**返信先（メール）**&#x200B;アドレスを作成し、適切な返信管理を行うためのレコメンデーションを説明します。 [詳細情報](../email/email-settings.md#send-to-suppressed-email-addresses)
 
-* **IP プール**&#x200B;の作成または編集時に、関連付けられている PTR レコードが IP リストに表示され、選択した IP アドレスにカーソルを合わせると表示されるようになりました。[詳細情報](../configuration/ip-pools.md#create-ip-pool)
+* **IP プール**&#x200B;の作成または編集時に、関連付けられている PTR レコードが IP リストに表示され、選択した IP アドレスにカーソルを合わせると表示されるようになりました。 [詳細情報](../configuration/ip-pools.md#create-ip-pool)
 
-* チャネル設定で IP プールが選択された後、IP アドレスにカーソルを合わせると、PTR レコード情報が表示されるようになりました。[詳細情報](../email/email-settings.md#ip-pools)
+* チャネル設定で IP プールが選択された後、IP アドレスにカーソルを合わせると、PTR レコード情報が表示されるようになりました。 [詳細情報](../email/email-settings.md#ip-pools)
 
-* [PTR レコード](../configuration/ptr-records.md#edit-ptr-record)および[実行フィールド](../configuration/primary-email-addresses.md)編集用のユーザーインターフェイスが更新されました。 
+* [PTR レコード](../configuration/ptr-records.md#edit-ptr-record)および[実行フィールド](../configuration/primary-email-addresses.md)編集用のユーザーインターフェイスが更新されました。
 
 * サブドメインの作成および編集用のユーザーインターフェイスが改善されました。 [詳細情報](../configuration/delegate-subdomain.md)
 
-* 抑制リストの&#x200B;**最近のアップロード**&#x200B;画面が更新されました。[詳細情報](../configuration/manage-suppression-list.md#recent-uploads)
+* 抑制リストの&#x200B;**最近のアップロード**&#x200B;画面が更新されました。 [詳細情報](../configuration/manage-suppression-list.md#recent-uploads)
 
 **キャンペーン**
 
@@ -1035,4 +1035,4 @@ Note that each widget can be resized and deleted as needed.
 
 **パーソナライゼーション**
 
-* 新しいヘルパー関数（formatCurrency、charCodeAt、stringToDate、toString、formatNumber、toHexString）を使用できます。さらに、toDateTimeOnly 関数では、文字列、日付、長さ、整数の各フィールドタイプを受け入れるようになりました。 [詳細情報](../personalization/functions/functions.md)
+* 新しいヘルパー関数（formatCurrency、charCodeAt、stringToDate、toString、formatNumber、toHexString）を使用できます。 さらに、toDateTimeOnly 関数では、文字列、日付、長さ、整数の各フィールドタイプを受け入れるようになりました。 [詳細情報](../personalization/functions/functions.md)

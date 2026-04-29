@@ -8,85 +8,85 @@ role: Admin
 level: Intermediate
 keywords: 許可リスト, セーフリスト，メール，配信品質，サンドボックス，ドメイン，抑制，設定
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: a06360239996b21f2bd71b1ff61d759a85564c5c
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '1308'
-ht-degree: 72%
+source-wordcount: '1341'
+ht-degree: 73%
 
 ---
 
 # 許可リストの設定 {#allow-list}
 
-許可リストは、[&#x200B; サンドボックス &#x200B;](../administration/sandboxes.md) レベルで定義できる送信セーフ リストです。 特定のアドレスまたはドメインへのメール送信を制限し、明示的にリストされた受信者のみが、特定のサンドボックスからメッセージを受信できるようにします。
+許可リストは、[ サンドボックス ](../administration/sandboxes.md) レベルで定義できる送信セーフ リストです。 特定のアドレスまたはドメインへのメール送信を制限し、明示的にリストされた受信者のみが、特定のサンドボックスからメッセージを受信できるようにします。
 
 >[!CAUTION]
 >
->この機能はメールチャネルにのみ適用されます。これは、実稼動サンドボックスと実稼動以外のサンドボックスで使用できます。
+>この機能はメールチャネルにのみ適用されます。 これは、実稼動サンドボックスと実稼動以外のサンドボックスで使用できます。
 
 偶発的な送信が発生する可能性がある非実稼動用サンドボックスでは、この許可リストは、不要なメッセージが実際の顧客アドレスに到達するのを防ぎ、テスト用の安全な環境を提供します。
 
 許可リストがアクティブで空の場合、メールは送信されません。 これにより、非常に重要な問題が発生した場合、空の許可リストをアクティブ化して、問題が解決されるまで[!DNL Journey Optimizer]からすべての送信コミュニケーションを停止できます。 詳しくは、[許可リストロジック](#logic)を参照してください。
 
-Journey Optimizer **抑制REST API**&#x200B;を使用して、抑制と許可リストを通じて送信メッセージをプログラムで管理することもできます。 [Suppression REST API の使用方法を学ぶ](https://developer.adobe.com/journey-optimizer-apis/references/suppression/){target="_blank"}
+Journey Optimizer **抑制REST API**&#x200B;を使用して、抑制と許可リストを通じて送信メッセージをプログラムで管理することもできます。 [Suppression REST API の使用方法を学ぶ](https://developer.adobe.com/journey-optimizer-apis/references/suppression){target="_blank"}
 
 ## 許可リストへのアクセス {#access-allowed-list}
 
 許可されたメールアドレスとドメインの詳細なリストにアクセスするには、**[!UICONTROL 管理]**／**[!UICONTROL チャネル]**／**[!UICONTROL メール設定]**&#x200B;に移動し、「**[!UICONTROL 許可リスト]**」を選択します。
 
-許可された電子メールアドレスと許可リストのリストを表示する![&#x200B; ドメインのページ &#x200B;](assets/allow-list-access.png)
+許可された電子メールアドレスと許可リストのリストを表示する![ ドメインのページ ](assets/allow-list-access.png)
 
 >[!CAUTION]
 >
->許可リストの表示、エクスポートおよび管理を行う権限は、[ジャーニー管理者](../administration/ootb-product-profiles.md#journey-administrator)にのみ付与されます。[!DNL Journey Optimizer] ユーザーのアクセス権の管理について詳しくは、[この節](../administration/permissions-overview.md)を参照してください。
+>許可リストの表示、エクスポートおよび管理を行う権限は、[ジャーニー管理者](../administration/ootb-product-profiles.md#journey-administrator)にのみ付与されます。 [!DNL Journey Optimizer] ユーザーのアクセス権の管理について詳しくは、[この節](../administration/permissions-overview.md)を参照してください。
 
 許可リストを CSV ファイルとしてエクスポートするには、「**[!UICONTROL CSV をダウンロード]**」ボタンを選択します。
 
 エントリを完全に削除するには、「**[!UICONTROL 削除]**」ボタンを使用します。
 
-メールアドレスまたはドメインで検索し、**[!UICONTROL アドレスタイプ]**&#x200B;でフィルタリングできます。選択したら、リストの上部に表示されているフィルターをクリアできます。
+メールアドレスまたはドメインで検索し、**[!UICONTROL アドレスタイプ]**&#x200B;でフィルタリングできます。 選択したら、リストの上部に表示されているフィルターをクリアできます。
 
-アドレスの種類![で](assets/allowed-list-filtering-example.png)許可リストがフィルタリングされました
+アドレスの種類](assets/allowed-list-filtering-example.png)で![許可リストがフィルタリングされました
 
 ## 許可リストをアクティブ化 {#enable-allow-list}
 
 許可リストをアクティブ化するには、次の手順に従います。
 
-1. **[!UICONTROL チャネル]** > **[!UICONTROL 電子メール設定]** > **[!UICONTROL 許可リスト]** メニューにアクセスします。
+1. **[!UICONTROL チャネル]**／**[!UICONTROL メール設定]**／**[!UICONTROL 許可リスト]**&#x200B;メニューにアクセスします。
 
 1. 切替スイッチボタンを選択します。
 
-   ![許可リストをアクティブ化するための切り替えボタン &#x200B;](assets/allow-list-edit.png)
+   ![許可リストをアクティブ化するための切り替えボタン ](assets/allow-list-edit.png)
 
-1. 「**[!UICONTROL 許可リストをアクティブ化]**」を選択します。許可リストがアクティブになりました。
+1. 「**[!UICONTROL 許可リストをアクティブ化]**」を選択します。 許可リストがアクティブになりました。
 
    ![許可リストがアクティブになったことを確認します](assets/allow-list-enable.png)
 
    >[!NOTE]
    >
    >* アクティベーション後、ジャーニーやキャンペーンで許可リストが有効になるまでに10分の遅延が発生します。 許可リストと抑制の両方のリストの更新には、反映に最大10分かかる場合もあります。
-   >* アクティブな場合、許可リストはライブジャーニーだけでなく、[&#x200B; プルーフ &#x200B;](../content-management/proofs.md)のメッセージと[&#x200B; テストモード &#x200B;](../building-journeys/testing-the-journey.md)のジャーニーをテストする場合にも適用されます。
+   >* アクティブな場合、許可リストはライブジャーニーだけでなく、[ プルーフ ](../content-management/proofs.md)のメッセージと[ テストモード ](../building-journeys/testing-the-journey.md)のジャーニーをテストする場合にも適用されます。
 
-許可リストのロジックは、この機能がアクティブな場合に適用されます。詳しくは、[この節](#logic)を参照してください。
+許可リストのロジックは、この機能がアクティブな場合に適用されます。 詳しくは、[この節](#logic)を参照してください。
 
 ## 許可リストを非アクティブ化 {#deactivate-allow-list}
 
 許可リストを非アクティブ化するには、次の手順に従います。
 
-1. **[!UICONTROL チャネル]** > **[!UICONTROL 電子メール設定]** > **[!UICONTROL 許可リスト]** メニューにアクセスします。
+1. **[!UICONTROL チャネル]**／**[!UICONTROL メール設定]**／**[!UICONTROL 許可リスト]**&#x200B;メニューにアクセスします。
 
 1. 切替スイッチボタンを選択します。
 
    ![切り替えボタンで許可リストを無効にする](assets/allow-list-edit-active.png)
 
-1. 「**[!UICONTROL 許可リストを非アクティブ化]**」を選択します。許可リストがアクティブではなくなりました。
+1. 「**[!UICONTROL 許可リストを非アクティブ化]**」を選択します。 許可リストがアクティブではなくなりました。
 
    ![許可リストが非アクティブになったことを確認します](assets/allow-list-deactivate.png)
 
    >[!NOTE]
    >
-   >許可リストを非アクティブ化した後、ジャーニーとキャンペーンで有効になるまでに 10 分の遅延が発生します。同様に、許可リストと抑制リストの両方の更新が反映されるまでに最大 10 分かかる場合があります。
+   >許可リストを非アクティブ化した後、ジャーニーとキャンペーンで有効になるまでに 10 分の遅延が発生します。 同様に、許可リストと抑制リストの両方の更新が反映されるまでに最大 10 分かかる場合があります。
 
-許可リストロジックは、機能が非アクティブ化された場合は適用されません。詳しくは、[この節](#logic)を参照してください。
+許可リストロジックは、機能が非アクティブ化された場合は適用されません。 詳しくは、[この節](#logic)を参照してください。
 
 ## 許可リストへのエンティティの追加 {#add-entities}
 
@@ -118,7 +118,7 @@ Journey Optimizer **抑制REST API**&#x200B;を使用して、抑制と許可リ
 
 1. 「**[!UICONTROL メールまたはドメインの追加]**」ボタンを選択します。
 
-   ![許可リストページにメールまたはドメインを追加ボタン &#x200B;](assets/allowed-list-add-email.png)
+   ![許可リストページにメールまたはドメインを追加ボタン ](assets/allowed-list-add-email.png)
 
 1. アドレスタイプとして、「**[!UICONTROL メールアドレス]**」または「**[!UICONTROL ドメインアドレス]**」を選択します。
 
@@ -130,7 +130,7 @@ Journey Optimizer **抑制REST API**&#x200B;を使用して、抑制と許可リ
 
 1. 必要に応じて理由を指定します。
 
-   ![許可リストに電子メールアドレスまたはドメインを追加するためのフォーム。オプションの理由フィールド &#x200B;](assets/allowed-list-add-email-address.png)
+   ![許可リストに電子メールアドレスまたはドメインを追加するためのフォーム。オプションの理由フィールド ](assets/allowed-list-add-email-address.png)
 
    >[!NOTE]
    >
@@ -140,7 +140,7 @@ Journey Optimizer **抑制REST API**&#x200B;を使用して、抑制と許可リ
 
 ### API 呼び出しを使用したエンティティの追加 {#api-call-allowed-list}
 
-許可リストに入力するには、`listType` 属性に `ALLOWED` 値を指定して抑制 API を呼び出すこともできます。例：
+許可リストに入力するには、`listType` 属性に `ALLOWED` 値を指定して抑制 API を呼び出すこともできます。 例：
 
 ![抑制APIを使用して許可リストにエントリを追加するAPI呼び出しの例](assets/allow-list-api.png)
 
@@ -152,9 +152,9 @@ API 呼び出しについて詳しくは、[Adobe Experience Platform API](https
 
 許可リストを CSV ファイルとしてエクスポートするには、次の手順に従います。
 
-1. 「**[!UICONTROL CSV をダウンロード]**」ボタンを選択します。 
+1. 「**[!UICONTROL CSV をダウンロード]**」ボタンを選択します。
 
-   ![許可リストページの「CSVをダウンロード」ボタン &#x200B;](assets/allowed-list-download-csv.png)
+   ![許可リストページの「CSVをダウンロード」ボタン ](assets/allowed-list-download-csv.png)
 
 1. ファイルが生成されるまで待ちます。
 
@@ -181,19 +181,19 @@ API 呼び出しについて詳しくは、[Adobe Experience Platform API](https
 >[!CONTEXTUALHELP]
 >id="ajo_admin_allowed_list_logic"
 >title="許可リストの管理"
->abstract="許可リストをアクティブ化すると、許可リストに含まれる受信者にのみ、このサンドボックスからメールメッセージが届きます。非アクティブ化すると、すべての受信者にメールが届きます。"
+>abstract="許可リストをアクティブ化すると、許可リストに含まれる受信者にのみ、このサンドボックスからメールメッセージが届きます。 非アクティブ化すると、すべての受信者にメールが届きます。"
 
 許可リストが[アクティブ](#enable-allow-list)の場合、次のロジックが適用されます。
 
 * 許可リストが&#x200B;**空**&#x200B;の場合、メールは送信されません。
 
-* エンティティが&#x200B;**許可リストに登録され**、抑制リストには登録されていない場合、対応する受信者にメールが送信されます。ただし、エンティティが[抑制リスト](../reports/suppression-list.md)にも登録されている場合、対応する受信者にはメールは届きません（**[!UICONTROL 抑制されている]**&#x200B;ことが理由）。
+* エンティティが&#x200B;**許可リストに登録され**、抑制リストには登録されていない場合、対応する受信者にメールが送信されます。 ただし、エンティティが[抑制リスト](../reports/suppression-list.md)にも登録されている場合、対応する受信者にはメールは届きません（**[!UICONTROL 抑制されている]**&#x200B;ことが理由）。
 
 * エンティティが&#x200B;**許可リストに登録されていない**（かつ抑制リストにも登録されていない）場合、対応する受信者にはメールは届きません（**[!UICONTROL 許可されていない]**&#x200B;ことが理由）。
 
 >[!NOTE]
 >
->「**[!UICONTROL 許可されていない]**」のステータスを持つプロファイルは、メッセージ送信プロセス中に除外されます。したがって、**ジャーニーレポート**&#x200B;では、これらのプロファイルがジャーニー（[オーディエンスを読み取り](../building-journeys/read-audience.md)アクティビティと[メッセージアクティビティ](../building-journeys/journey-action.md)）内を移動したものとして表示されますが、これらはメール送信前に除外されるので、**メールレポート**&#x200B;では、**[!UICONTROL 送信済み]**&#x200B;指標に含まれません。
+>「**[!UICONTROL 許可されていない]**」のステータスを持つプロファイルは、メッセージ送信プロセス中に除外されます。 したがって、**ジャーニーレポート**&#x200B;では、これらのプロファイルがジャーニー（[オーディエンスを読み取り](../building-journeys/read-audience.md)アクティビティと[メッセージアクティビティ](../building-journeys/journey-action.md)）内を移動したものとして表示されますが、これらはメール送信前に除外されるので、**メールレポート**&#x200B;では、**[!UICONTROL 送信済み]**&#x200B;指標に含まれません。
 >
 >詳しくは、[ライブレポート](../reports/live-report.md)と [Customer Journey Analytics レポート](../reports/report-gs-cja.md)を参照してください。
 
@@ -201,7 +201,7 @@ API 呼び出しについて詳しくは、[Adobe Experience Platform API](https
 
 ## 除外レポート {#reporting}
 
-許可リストがアクティブな場合は、許可リスト上になかったので、送信から除外されたメールアドレスまたはドメインを取得できます。それには、[Adobe Experience Platform クエリサービス](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ja){target="_blank"}を使用して、以下の API 呼び出しを行います。
+許可リストがアクティブな場合は、許可リスト上になかったので、送信から除外されたメールアドレスまたはドメインを取得できます。 それには、[Adobe Experience Platform クエリサービス](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ja){target="_blank"}を使用して、以下の API 呼び出しを行います。
 
 受信者が許可リストに登録されていなかったので送信されなかった&#x200B;**メールの数**&#x200B;を取得するには、次のクエリを使用します。
 

@@ -6,10 +6,10 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: b83bdade-7275-4eef-9c49-fc1d157cee0d
-source-git-commit: 0ec43a204f5fcf0bddf38cfd381f0ea496c7de70
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 100%
+source-wordcount: '641'
+ht-degree: 85%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 カードのオーサリング構造は、開発者がレンダリングできる基本入力をマーケターに提供するフォームベースのオーサリングエクスペリエンスを提供します。
 
-コンテンツを定義し、パーソナライズしたら、レビューしてアクティブ化できます。設定したスケジュールに従ってキャンペーンが送信されます。[詳しくは、このページを参照してください](../campaigns/review-activate-campaign.md)。
+コンテンツを定義し、パーソナライズしたら、レビューしてアクティブ化できます。 設定したスケジュールに従ってキャンペーンが送信されます。 [詳しくは、このページを参照してください](../campaigns/review-activate-campaign.md)。
 
 ## コンテンツカードのレイアウト
 
@@ -27,15 +27,15 @@ ht-degree: 100%
 
 * **[!UICONTROL 小さい画像]**：テキストと共にコンパクトな画像を表示します。ビジュアルよりもコンテンツを優先するメッセージに最適です。
 
-  [iOS ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/smallimage-template/) および [Android](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/smallimagecarduistate/) でのレイアウトについて詳しくは、Adobe 開発者用ドキュメントを参照してください。
+  [iOS ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/smallimage-template) および [Android](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/smallimagecarduistate) でのレイアウトについて詳しくは、Adobe 開発者用ドキュメントを参照してください。
 
 * **[!UICONTROL 大きい画像]**：テキストの上部または横に目立つ画像を配置し、メッセージでビジュアルに焦点を当てます。
 
-  [iOS](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/largeimage-template/) および [Android](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/largeimagecarduistate/) でのレイアウトについて詳しくは、Adobe 開発者用ドキュメントを参照してください。
+  [iOS](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/largeimage-template) および [Android](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/largeimagecarduistate) でのレイアウトについて詳しくは、Adobe 開発者用ドキュメントを参照してください。
 
 * **[!UICONTROL 画像のみ]**：テキストを伴わない画像を表示します。ビジュアル主導のメッセージやスタンドアロン画像に最適です。
 
-  [iOS](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/imageonly-template/) および [Android](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/imageonlycarduistate/) でのレイアウトについて詳しくは、Adobe 開発者用ドキュメントを参照してください。
+  [iOS](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/imageonly-template) および [Android](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/imageonlycarduistate) でのレイアウトについて詳しくは、Adobe 開発者用ドキュメントを参照してください。
 
 ## 「コンテンツ」タブ {#content-tab}
 
@@ -47,7 +47,7 @@ ht-degree: 100%
 
 メッセージを作成するには、「**[!UICONTROL タイトル]**」フィールドと「**[!UICONTROL 本文]**」フィールドにテキストを入力します。
 
-メッセージをさらにカスタマイズする場合は、**[!UICONTROL パーソナリゼーション]**&#x200B;アイコンを使用して、パーソナライズされた要素を追加します。パーソナリゼーション機能の使用方法について詳しくは、[この節](../personalization/personalize.md)を参照してください。
+メッセージをさらにカスタマイズする場合は、**[!UICONTROL パーソナリゼーション]**&#x200B;アイコンを使用して、パーソナライズされた要素を追加します。 パーソナリゼーション機能の使用方法について詳しくは、[この節](../personalization/personalize.md)を参照してください。
 
 ### メディア {#add-media}
 
@@ -55,7 +55,7 @@ ht-degree: 100%
 
 「**[!UICONTROL メディア]**」フィールドを使用すると、メディアを追加してコンテンツカードを強化し、エンドユーザーにとってプレゼンテーションをより魅力的にすることができます。
 
-メディアを含めるには、使用するメディアの URL を入力するか、**[!UICONTROL アセットを選択]**&#x200B;アイコンをクリックして、アセットライブラリに保存されているアセットから選択します。[アセット管理の詳細情報](../integrations/assets.md)。
+メディアを含めるには、使用するメディアの URL を入力するか、**[!UICONTROL アセットを選択]**&#x200B;アイコンをクリックして、アセットライブラリに保存されているアセットから選択します。 [アセット管理の詳細情報](../integrations/assets.md)。
 
 +++詳細フォーマットを使用したその他のオプション
 
@@ -122,7 +122,7 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose 
 
 ![](assets/content-card-design-5.png)
 
-「**[!UICONTROL ターゲット URL]**」フィールドに、コンテンツカードとのやり取りの後でユーザーを目的の宛先に誘導する web URL またはディープリンクを入力します。これは、外部 web サイト、アプリ内の特定のページ、またはユーザーのインタラクションに基づいてユーザーを誘導するその他の場所です。
+「**[!UICONTROL ターゲット URL]**」フィールドに、コンテンツカードとのやり取りの後でユーザーを目的の宛先に誘導する web URL またはディープリンクを入力します。 これは、外部 web サイト、アプリ内の特定のページ、またはユーザーのインタラクションに基づいてユーザーを誘導するその他の場所です。
 
 ## 「データ」タブ
 
@@ -130,4 +130,4 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose 
 
 ![](assets/content-card-design-6.png)
 
-**[!UICONTROL カスタムデータ]**&#x200B;セクションで、「**[!UICONTROL キーと値のペアを追加]**」をクリックして、ペイロードにカスタム変数を含めます。これらのキーと値のペアを使用すると、特定の設定に応じて、追加のデータを渡すことができます。これにより、パーソナライズされたコンテンツ、動的コンテンツ、トラッキング情報または設定に関連するその他のデータを追加できます。
+**[!UICONTROL カスタムデータ]**&#x200B;セクションで、「**[!UICONTROL キーと値のペアを追加]**」をクリックして、ペイロードにカスタム変数を含めます。 これらのキーと値のペアを使用すると、特定の設定に応じて、追加のデータを渡すことができます。 これにより、パーソナライズされたコンテンツ、動的コンテンツ、トラッキング情報または設定に関連するその他のデータを追加できます。

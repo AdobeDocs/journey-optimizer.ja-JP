@@ -11,9 +11,9 @@ hide: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '719'
+source-wordcount: '742'
 ht-degree: 4%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 4%
 * [課題とタスクへのアクセスと管理](access-loyalty-challenges.md)
 * [課題の創出](create-challenges.md)
 * [タスクの作成](create-tasks.md)
-* [&#x200B; ロイヤルティチャレンジ API リファレンス &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}
+* [ロイヤルティチャレンジ API リファレンス](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
 >[!ENDSHADEBOX]
 
@@ -117,7 +117,7 @@ ht-degree: 4%
 
 +++ターゲットオーディエンス
 
-課題を解決する前に、Adobe Experience Platformに必要なターゲットオーディエンスが存在することを確認しましょう。 チャレンジの設定中に、どの顧客が参加する資格があるかを定義するオーディエンスを選択します。 [&#x200B; オーディエンスの操作方法を学ぶ](../audience/about-audiences.md)。
+課題を解決する前に、Adobe Experience Platformに必要なターゲットオーディエンスが存在することを確認しましょう。 チャレンジの設定中に、どの顧客が参加する資格があるかを定義するオーディエンスを選択します。 [ オーディエンスの操作方法を学ぶ](../audience/about-audiences.md)。
 
 +++
 
@@ -165,4 +165,4 @@ ht-degree: 4%
 
 ## API リファレンス {#api-reference}
 
-ロイヤルティの課題をプログラムで管理するには、[&#x200B; ロイヤルティの課題API](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges/){target="_blank"}を使用します。 APIを使用すると、REST エンドポイントを介して課題とタスクを作成、更新、管理できます。
+ロイヤルティの課題をプログラムで管理するには、[ ロイヤルティの課題API](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}を使用します。 APIを使用すると、REST エンドポイントを介して課題とタスクを作成、更新、管理できます。

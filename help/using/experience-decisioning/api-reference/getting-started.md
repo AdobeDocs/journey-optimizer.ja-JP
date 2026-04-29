@@ -5,26 +5,26 @@ feature: API, Decisioning
 topic: Integrations
 role: Developer
 level: Experienced
-exl-id: 7a4b5d4e-9c1d-4f3a-b8e9-1d5f6e7a8c3a
+exl-id: 78ed06a3-7787-4aab-8373-df7eb40c1727
 version: Journey Orchestration
-source-git-commit: 9ac3eaba0b4c6536c1c447df825eb5f5c0afc900
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 89%
+source-wordcount: '339'
+ht-degree: 87%
 
 ---
 
 # Decisioning API 開発者ガイド {#decisioning-api-developer-guide}
 
-Decisioning API を使用すると、パーソナライズされたオファーを顧客に配信するために使用されるコンポーネントをプログラムで作成および管理できます。これらの RESTful API では、決定項目、選択戦略、実施要件ルール、その他の決定コンポーネントに対して完全な CRUD（作成、読み取り、更新、削除）操作を提供します。
+Decisioning API を使用すると、パーソナライズされたオファーを顧客に配信するために使用されるコンポーネントをプログラムで作成および管理できます。 これらの RESTful API では、決定項目、選択戦略、実施要件ルール、その他の決定コンポーネントに対して完全な CRUD（作成、読み取り、更新、削除）操作を提供します。
 
 ## 認証 {#authentication}
 
-Decisioning API を使用する前に、API エンドポイントにアクセスするための認証を設定する必要があります。手順について詳しくは、[Journey Optimizer 認証ガイド](https://developer.adobe.com/journey-optimizer-apis/references/authentication/){target="_blank"}を参照してください。
+Decisioning API を使用する前に、API エンドポイントにアクセスするための認証を設定する必要があります。 手順について詳しくは、[Journey Optimizer 認証ガイド](https://developer.adobe.com/journey-optimizer-apis/references/authentication){target="_blank"}を参照してください。
 
 ## 使用可能な API 操作 {#available-operations}
 
-Decisioning API は、決定コンポーネントの包括的な管理機能を提供します。使用可能な操作のカテゴリは次のとおりです。
+Decisioning API は、決定コンポーネントの包括的な管理機能を提供します。 使用可能な操作のカテゴリは次のとおりです。
 
 * **決定項目** - 顧客に配信するオファーやコンテンツを表す決定項目を作成、読み取り、更新、削除、一覧表示します。
 
@@ -63,4 +63,4 @@ Decisioning API の基本を理解したので、次の特定の操作に進む�
 
 >[!NOTE]
 >
->既存の意思決定管理オブジェクトを Decisioning に移行する必要がある場合は、専用の [Decisioning Migration API](../decisioning-migration-api.md) を使用します。 この専用 API は、サンドボックス間のエンティティ移行を決定するために特別に設計された、自動の依存関係の解決およびロールバック機能を提供します。
+>If you need to migrate existing Decision management objects to Decisioning, use the dedicated [Decisioning Migration API](../decisioning-migration-api.md). This specialized API provides automated dependency resolution and rollback capabilities specifically designed for decisioning entity migration across sandboxes.

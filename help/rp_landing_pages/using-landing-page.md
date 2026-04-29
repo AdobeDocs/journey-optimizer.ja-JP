@@ -4,24 +4,24 @@ product: Journey Optimizer
 title: Adobe Journey Optimizer ヘルプ
 description: Adobe Journey Optimizer ヘルプ
 redpen-status: CREATED_||_2025-08-11_21-21-01
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 100%
+source-wordcount: '462'
+ht-degree: 95%
 
 ---
 
 
 # Adobe Journey Optimizer ヘルプ{#section-overview}
 
-Adobe Journey Optimizer を使用すると、チームはメールや SMS などのチャネル全体で、シームレスでパーソナライズされたカスタマーエクスペリエンスをデザインし、提供できるようになります。キャンペーンオーケストレーション、データ管理、意思決定の高度なツールを組み合わせることで、顧客のニーズにリアルタイムに適応するジャーニーを作成できます。このドキュメントは、最新機能や統合の探索から、オーディエンスの管理、ジャーニーの設定、パフォーマンスの分析まで、プラットフォーム操作を習得するロードマップとして参照できます。マーケター、データアナリスト、キャンペーンマネージャーのどの役割であっても、自信を持って目標を達成するのに役立つステップバイステップのガイド、ベストプラクティスおよびリソースを確認できます。
+Adobe Journey Optimizer を使用すると、チームはメールや SMS などのチャネル全体で、シームレスでパーソナライズされたカスタマーエクスペリエンスをデザインし、提供できるようになります。 キャンペーンオーケストレーション、データ管理、意思決定の高度なツールを組み合わせることで、顧客のニーズにリアルタイムに適応するジャーニーを作成できます。 このドキュメントは、最新機能や統合の探索から、オーディエンスの管理、ジャーニーの設定、パフォーマンスの分析まで、プラットフォーム操作を習得するロードマップとして参照できます。 マーケター、データアナリスト、キャンペーンマネージャーのどの役割であっても、自信を持って目標を達成するのに役立つステップバイステップのガイド、ベストプラクティスおよびリソースを確認できます。
 
 ## Adobe Journey Optimizer ヘルプ
 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Adobe Journey Optimizer の基本を学ぶ
 
@@ -31,7 +31,7 @@ Adobe Journey Optimizer の基本を学ぶ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 包括的なジャーニーガイド
 
@@ -41,7 +41,7 @@ Adobe Journey Optimizer の基本を学ぶ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 キャンペーンの理解と管理
 
@@ -51,7 +51,7 @@ Adobe Journey Optimizer の基本を学ぶ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 競合管理と優先順位付け
 
@@ -81,11 +81,11 @@ Adobe Journey Optimizer の基本を学ぶ
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>Adobe Journey Optimizer</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=ja" target="_blank">チュートリアル</a> - <a href="https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">製品の説明</a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">セキュリティの概要（PDF）</a> - <a href="https://developer.adobe.com/journey-optimizer-apis/" target="_blank">API リファレンス</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja" target="_blank">Journey Optimizer スキーマ辞書</a>
+<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=ja" target="_blank"> チュートリアル </a> - <a href="https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">製品説明</a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank"> セキュリティの概要（PDF） </a> - <a href="https://developer.adobe.com/journey-optimizer-apis" target="_blank">API リファレンス </a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja" target="_blank">Journey Optimizer スキーマ ディクショナリ </a>
 
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ja" target="_blank">ドキュメント</a> - <a href="https://www.adobe.com/jp/experience-platform/documentation-and-developer-resources.html" target="_blank">デベロッパーリソース</a>
+<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ja" target="_blank"> ドキュメント </a> - <a href="https://www.adobe.com/jp/experience-platform/documentation-and-developer-resources.html" target="_blank">開発者リソース </a>
 </td>
 </tr></table>
 
