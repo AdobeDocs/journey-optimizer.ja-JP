@@ -209,7 +209,7 @@ To get the SDKs needed for push notification to work you will need the following
 * **[!UICONTROL Adobe Experience Platform Edge]**
 * **[!UICONTROL Adobe Experience Platform Assurance]**, optional but recommended to debug the mobile implementation.
 
-Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-mobile-android-apps-with-launch/configure-launch/launch-add-extensions.html?lang=ja).
+Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-mobile-android-apps-with-launch/configure-launch/launch-add-extensions.html).
 -->
 
 ## 手順 2：プッシュ用のチャネル設定の作成{#message-preset}
@@ -237,7 +237,7 @@ Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Ex
 
 1. **[!UICONTROL プラットフォーム]**（Android、iOS <!--and/or Web-->）を選択します。
 
-1. **[!UICONTROL アプリ ID]**&#x200B;で、[&#x200B; プッシュ資格情報](#push-credentials-launch)と一致する値を選択します。 オプションで、パーソナライゼーションを使用して、単一のジャーニーまたはキャンペーンから多くのアプリを誘導します。 [詳細情報](#app-id-personalization)
+1. **[!UICONTROL アプリ ID]**&#x200B;で、[ プッシュ資格情報](#push-credentials-launch)と一致する値を選択します。 オプションで、パーソナライゼーションを使用して、単一のジャーニーまたはキャンペーンから多くのアプリを誘導します。 [詳細情報](#app-id-personalization)
 
 1. **変更内容を**&#x200B;保存します。
 
@@ -258,7 +258,7 @@ Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Ex
 
 >[!CAUTION]
 >
->[!DNL Journey Optimizer]は、式が返す可能性のあるすべての値に[&#x200B; プッシュ資格情報](#push-credentials-launch)が存在するかどうかを確認しません。 考えられるあらゆるアプリ IDに対してプッシュ認証情報を使用していることを確認し、担当者のプロファイルでテストします。 受信者の解決済みアプリ IDに一致するプッシュ資格情報がない場合、想定どおりに配信されません。
+>[!DNL Journey Optimizer]は、式が返す可能性のあるすべての値に[ プッシュ資格情報](#push-credentials-launch)が存在するかどうかを確認しません。 考えられるあらゆるアプリ IDに対してプッシュ認証情報を使用していることを確認し、担当者のプロファイルでテストします。 受信者の解決済みアプリ IDに一致するプッシュ資格情報がない場合、想定どおりに配信されません。
 
 ## 手順3：モバイルプロパティでAdobe Journey Optimizer拡張機能を設定する {#configure-journey-optimizer-extension}
 
