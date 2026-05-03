@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: 76ca2ff7ceccd333016291c9f6de269934ed544f
 workflow-type: tm+mt
-source-wordcount: '1495'
+source-wordcount: '1378'
 ht-degree: 83%
 
 ---
@@ -22,13 +22,13 @@ Adobe Journey Optimizer にアクセスするには、Adobe ID を使用して [
 >[!NOTE]
 >
 >* 環境で使用できるコンポーネントと機能は、[権限](../administration/permissions.md)と[ライセンスパッケージ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}によって異なります。
->* このドキュメントは頻繁に更新されます。一部のスクリーンショットは、お使いのユーザーインターフェイスと多少異なる場合があります。
+>* このドキュメントは頻繁に更新されます。 一部のスクリーンショットは、お使いのユーザーインターフェイスと多少異なる場合があります。
 
 ## クイックツアー {#quick-tour}
 
 Journey Optimizer インターフェイスは、次の 4 つの主な領域で構成されます。
 
-![左側のナビゲーション、上部バー、メインワークスペース、ホームページエリアを表示するJourney Optimizerのホームページ &#x200B;](assets/ajo-home.png)
+![左側のナビゲーション、上部バー、メインワークスペース、ホームページエリアを表示するJourney Optimizerのホームページ ](assets/ajo-home.png)
 
 1. **左側のナビゲーション** - 機能別に整理されたすべての機能と特長へのアクセス
 2. **上部バー** - ユニバーサル検索、ヘルプ、通知、設定
@@ -41,7 +41,7 @@ Journey Optimizer インターフェイスは、次の 4 つの主な領域で�
 
 ### ユニバーサル検索 {#universal-search}
 
-検索アイコンを使用すると、Journey Optimizer をまたいでジャーニー、キャンペーン、アセット、他のオブジェクトをすばやく検索できます。キーワードを入力すると、プラットフォームのあらゆる領域から関連結果を確認できます。 [&#x200B; ユニバーサル検索の詳細](search-filter-categorize.md#unified-search)。
+検索アイコンを使用すると、Journey Optimizer をまたいでジャーニー、キャンペーン、アセット、他のオブジェクトをすばやく検索できます。 キーワードを入力すると、プラットフォームのすべての領域から関連する結果が表示されます。 [ ユニバーサル検索の詳細](search-filter-categorize.md#unified-search)。
 
 ### ヘルプ&amp;サポート {#help}
 
@@ -82,7 +82,7 @@ Adobe サポートに連絡する際は、根本原因の分析と解決を迅�
 
 ![通知の環境設定](../rn/assets/do-not-localize/pulse-notif.png){width="60%" align="center"}
 
-### 言語の環境設定 {#language}
+### 言語環境設定 {#language}
 
 インターフェイスは、英語、フランス語、ドイツ語、イタリア語、スペイン語、ポルトガル語（ブラジル）、日本語、韓国語、繁体字中国語、簡体字中国語で使用できます。
 
@@ -116,7 +116,7 @@ Adobe サポートに連絡する際は、根本原因の分析と解決を迅�
 
 ## 左側のナビゲーション {#left-nav}
 
-左側のナビゲーションでは、Journey Optimizer の機能が機能カテゴリに整理されています。使用可能なメニュー項目は、権限とライセンスによって異なります。
+左側のナビゲーションでは、Journey Optimizer の機能が機能カテゴリに整理されています。 使用可能なメニュー項目は、権限とライセンスによって異なります。
 
 | セクション | 目的 |
 |---------|---------|
@@ -135,24 +135,24 @@ Adobe サポートに連絡する際は、根本原因の分析と解決を迅�
 
 **ジャーニー管理** - カスタマーエクスペリエンスを作成および管理します
 
-* **キャンペーン** - 特定のオーディエンスに対して 1 回限りのメッセージまたはスケジュール済みのメッセージを作成します。[キャンペーンの基本を学ぶ](../campaigns/get-started-with-campaigns.md)
-* **ジャーニー** - マルチステップのクロスチャネルのカスタマーエクスペリエンスを作成します。[初めてのジャーニーの作成](../building-journeys/journey-gs.md)
-* **レポート** - 統合された Customer Journey Analytics レポートを使用してパフォーマンスを分析します。[レポートドキュメントの表示](../reports/campaign-global-report-cja.md)
+* **キャンペーン** - 特定のオーディエンスに対して 1 回限りのメッセージまたはスケジュール済みのメッセージを作成します。 [キャンペーンの基本を学ぶ](../campaigns/get-started-with-campaigns.md)
+* **ジャーニー** - マルチステップのクロスチャネルのカスタマーエクスペリエンスを作成します。 [初めてのジャーニーの作成](../building-journeys/journey-gs.md)
+* **レポート** - 統合された Customer Journey Analytics レポートを使用してパフォーマンスを分析します。 [レポートドキュメントの表示](../reports/campaign-global-report-cja.md)
 
-**意思決定管理** - パーソナライズされたオファーを管理します。[意思決定管理の詳細情報](../offers/get-started/starting-offer-decisioning.md)
+**意思決定管理** - パーソナライズされたオファーを管理します。 [意思決定管理の詳細情報](../offers/get-started/starting-offer-decisioning.md)
 
 * **オファー** - パーソナライズされたオファーを作成および管理します
 * **コンポーネント** - オファーのプレースメント、ルールおよびタグを設定します
 
 **コンテンツ管理** - コンテンツを作成および整理します
 
-* **アセット** - 画像とメディアの一元化されたリポジトリ。[アセットの管理](../integrations/assets.md)
-* **コンテンツテンプレート** - キャンペーンやジャーニー用の再利用可能なメッセージテンプレート。[テンプレートの作成](../content-management/content-templates.md)
-* **フラグメント** - 複数のメッセージをまたいで使用できるコンテンツブロック。[フラグメントの操作](../content-management/fragments.md)
-* **ランディングページ** - 購読と環境設定用の web フォーム。[ランディングページの設計](../landing-pages/get-started-lp.md)
-* **ユースケースプレイブック** - 一般的なマーケティングシナリオ用の事前定義済みワークフロー。[プレイブックの探索](ai-features.md#playbooks)
+* **アセット** - 画像とメディアの一元化されたリポジトリ。 [アセットの管理](../integrations/assets.md)
+* **コンテンツテンプレート** - キャンペーンやジャーニー用の再利用可能なメッセージテンプレート。 [テンプレートの作成](../content-management/content-templates.md)
+* **フラグメント** - 複数のメッセージをまたいで使用できるコンテンツブロック。 [フラグメントの操作](../content-management/fragments.md)
+* **ランディングページ** - 購読と環境設定用の web フォーム。 [ランディングページの設計](../landing-pages/get-started-lp.md)
+* **ユースケースプレイブック** - 一般的なマーケティングシナリオ用の事前定義済みワークフロー。 [プレイブックの探索](ai-features.md#playbooks)
 
-**データ管理** - データ基盤を管理します。[スキーマとデータセットの詳細情報](../data/get-started-schemas.md)
+**データ管理** - データ基盤を管理します。 [スキーマとデータセットの詳細情報](../data/get-started-schemas.md)
 
 * **スキーマ** - データ構造を定義します
 * **データセット** - データ収集を保存および管理します
@@ -161,35 +161,35 @@ Adobe サポートに連絡する際は、根本原因の分析と解決を迅�
 
 **接続** - 他のシステムと統合します
 
-* **ソース** - 外部システムからデータを取り込みます。[ソースの設定](get-started-sources.md)
-* **宛先** - クラウドストレージにデータをエクスポートします。[宛先の設定](../data/export-datasets.md)
+* **ソース** - 外部システムからデータを取り込みます。 [ソースの設定](get-started-sources.md)
+* **宛先** - クラウドストレージにデータをエクスポートします。 [宛先の設定](../data/export-datasets.md)
 
 **顧客** - オーディエンスとプロファイルを管理します
 
-* **オーディエンス** - 顧客セグメントを作成および管理します。[オーディエンスの操作](../audience/about-audiences.md)
+* **オーディエンス** - 顧客セグメントを作成および管理します。 [オーディエンスの操作](../audience/about-audiences.md)
 * **購読リスト** - オプトインリストを管理します。 [購読の管理](../landing-pages/subscription-list.md)
-* **プロファイル** - 統合された顧客プロファイルを表示します。[プロファイルの探索](../audience/get-started-profiles.md)
-* **ID** - ID 解決を管理します。[ID の詳細情報](../audience/get-started-identity.md)
+* **プロファイル** - 統合された顧客プロファイルを表示します。 [プロファイルの探索](../audience/get-started-profiles.md)
+* **ID** - ID 解決を管理します。 [ID の詳細情報](../audience/get-started-identity.md)
 
-**プライバシー** - プライバシーとコンプライアンスを制御します。[プライバシーの概要](../privacy/get-started-privacy.md)
+**プライバシー** - プライバシーとコンプライアンスを制御します。 [プライバシーの概要](../privacy/get-started-privacy.md)
 
 * **ポリシー** - データガバナンスポリシーを定義します
 * **リクエスト** - プライバシーリクエスト（GDPR、CCPA）を処理します
-* **監査** - アクティビティログを確認します。[監査ログの表示](../privacy/audit-logs.md)
+* **監査** - アクティビティログを確認します。 [監査ログの表示](../privacy/audit-logs.md)
 * **データライフサイクル** - データ保持を設定します
 
-**管理** - システム設定を指定します。[アクセス制御の概要](../administration/permissions-overview.md)
+**管理** - システム設定を指定します。 [アクセス制御の概要](../administration/permissions-overview.md)
 
-* **設定** - イベント、データソース、アクションを設定します。[チャネルの設定](../configuration/get-started-configuration.md)
-* **ビジネスルール** - メッセージの頻度とジャーニーのエントリを制御します。[ビジネスルールの設定](../conflict-prioritization/rule-sets.md)
-* **アラート** - システムアラートを表示および管理します。[アラートの監視](../reports/alerts.md)
-* **サンドボックス** - 環境を管理し、サンドボックス間でオブジェクトをコピーします。[サンドボックスの操作](../administration/sandboxes.md)
-* **チャネル** - チャネル設定と配信品質を設定します。[チャネル設定の指定](../configuration/channel-surfaces.md) | [設定の基本を学ぶ](../configuration/get-started-configuration.md)
-* **タグ** - コンテンツを整理および分類します。[統合タグの操作](search-filter-categorize.md#tags)
+* **設定** - イベント、データソース、アクションを設定します。 [チャネルの設定](../configuration/get-started-configuration.md)
+* **ビジネスルール** - メッセージの頻度とジャーニーのエントリを制御します。 [ビジネスルールの設定](../conflict-prioritization/rule-sets.md)
+* **アラート** - システムアラートを表示および管理します。 [アラートの監視](../reports/alerts.md)
+* **サンドボックス** - 環境を管理し、サンドボックス間でオブジェクトをコピーします。 [サンドボックスの操作](../administration/sandboxes.md)
+* **チャネル** - チャネル設定と配信品質を設定します。 [チャネル設定の指定](../configuration/channel-surfaces.md) | [設定の基本を学ぶ](../configuration/get-started-configuration.md)
+* **タグ** - コンテンツを整理および分類します。 [統合タグの操作](search-filter-categorize.md#tags)
 
 ## AI アシスタント {#ai-assistant}
 
-AI アシスタントは、即座に役立つヘルプと運用上のインサイトを提供します。上部バーの AI アシスタントアイコンをクリックすると、次の操作を実行できます。
+AI アシスタントは、即座に役立つヘルプと運用上のインサイトを提供します。 上部バーの AI アシスタントアイコンをクリックすると、次の操作を実行できます。
 
 * 製品機能に関する回答を取得
 * ジャーニーに関する運用上のインサイトを受信
@@ -310,24 +310,24 @@ AI アシスタントは、即座に役立つヘルプと運用上のインサ�
 >[!CONTEXTUALHELP]
 >id="ajo_journey_simulation"
 >title="ジャーニーのシミュレート"
->abstract="ジャーニーシミュレーションを使用すると、ジャーニーを検証し、アクティブ化する前にジャーニーのパフォーマンスを確認できます。トレーニング済みモデルのデータを使用して、ジャーニー全体にわたる数値を提供し、実際のシナリオでのジャーニーの動作を確認します。"
+>abstract="ジャーニーシミュレーションを使用すると、ジャーニーを検証し、アクティブ化する前にジャーニーのパフォーマンスを確認できます。 トレーニング済みモデルのデータを使用して、ジャーニー全体にわたる数値を提供し、実際のシナリオでのジャーニーの動作を確認します。"
 
 <!-- WEBHOOKS -->
 
 >[!CONTEXTUALHELP]
 >id="ajo_channels_feedback_webhook_settings"
 >title="Webhook を有効にする"
->abstract="Webhook を有効にすると、メッセージの実行ステータスに関するリアルタイムのフィードバックを受信できます。このオプションをアクティブ化する前に、**管理**／**チャネル**／**フィードバック Webhook** メニューで webhook が設定されていることを確認します。"
+>abstract="Webhook を有効にすると、メッセージの実行ステータスに関するリアルタイムのフィードバックを受信できます。 このオプションをアクティブ化する前に、**管理**／**チャネル**／**フィードバック Webhook** メニューで webhook が設定されていることを確認します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channels_feedback_webhook_settings_create"
 >title="フィードバック Webhook"
->abstract="フィードバック webhook を使用すると、トランザクション API トリガーキャンペーンで送信されたメッセージの実行ステータスに関するリアルタイムのフィードバックを受信できます。組織 + サンドボックスの組み合わせごとに、1 つの webhook 設定のみが許可されます。"
+>abstract="フィードバック webhook を使用すると、トランザクション API トリガーキャンペーンで送信されたメッセージの実行ステータスに関するリアルタイムのフィードバックを受信できます。 組織 + サンドボックスの組み合わせごとに、1 つの webhook 設定のみが許可されます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channels_feedback_webhook_settings_configuration"
 >title="基本設定"
->abstract="このセクションでは、webhook を特定するためのわかりやすい名前を入力し、この webhook がフィードバックを受信するチャネル（メールや SMS）を選択します。Webhook URL フィールドに、フィードバックイベントを配信する必要がある HTTPS エンドポイントを指定します。"
+>abstract="このセクションでは、webhook を特定するためのわかりやすい名前を入力し、この webhook がフィードバックを受信するチャネル（メールや SMS）を選択します。 Webhook URL フィールドに、フィードバックイベントを配信する必要がある HTTPS エンドポイントを指定します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_channels_feedback_webhook_settings_authentication"
@@ -338,28 +338,3 @@ AI アシスタントは、即座に役立つヘルプと運用上のインサ�
 >id="ajo_channels_feedback_webhook_settings_header_parameters"
 >title="ヘッダーパラメーター"
 >abstract="このセクションでは、各 webhook リクエストと共に送信される追加のカスタムヘッダーを設定できます。"
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_incrementalquery"
->title="増分クエリ"
->abstract="増分クエリは、オーケストレートキャンペーンが実行されるたびにデータベースクエリを実行するターゲティングアクティビティです。 新しいレコードのみを返し、以前の実行に既に含まれているユーザーは除外されるので、同じユーザーを再ターゲットしたり、同じ行を再度書き出したりするのを避けることができます。"
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_incrementalquery_processeddata"
->title="処理済みデータ"
->abstract="「処理済みデータ」で、以前の実行からレコードを除外する方法を選択します。 「以前の実行の結果を除外」を使用すると、アクティビティは、以前の実行で返されたレコードのリストを保持します。各実行では、それらのレコードが除外され、新しいレコードのみが返されます。 「日付フィールドを使用」オプションでは、アクティビティは個々の ID を追跡する代わりに選択された日付フィールドを使用し、各実行は、日付が最後の実行の後にある行のみを返します。"
-
->[!CONTEXTUALHELP]
->id="ajo_orchestration_incrementalquery_history"
->title="履歴（日数）"
->abstract="この設定は、そのリストを保持する期間を制御します。 値が 0 の場合は、保持が無限であることを意味し、レコードは削除されません。"
-
->[!CONTEXTUALHELP]
->id="ajo_inbox_location"
->title="ページ上の場所"
->abstract="。"
-
->[!CONTEXTUALHELP]
->id="ajo_inbox_app_id"
->title="アプリ ID"
->abstract="。"
