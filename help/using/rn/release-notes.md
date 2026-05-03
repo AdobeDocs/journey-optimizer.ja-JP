@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 6143eaf5d973d3e457b89a69ed0ec63724270f5e
+source-git-commit: 8175f63d4e1055d285d2f3f12a498a9dbd3fa1ba
 workflow-type: tm+mt
-source-wordcount: '2038'
+source-wordcount: '2028'
 ht-degree: 20%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 20%
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 4月初旬にリリースされた新機能と機能強化は、リリース日とともに発表されます。
@@ -40,6 +40,24 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 **リリース日**: 2026年4月28日～29日
 
 ### 新機能 {#april-26-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>オーケストレーションされたキャンペーンでの増分クエリアクティビティ</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong> オーケストレーションされたキャンペーン </strong>は、前回の実行以降に新たに対象となったプロファイルまたはイベントのみをターゲットとする<strong>増分クエリ </strong> アクティビティをサポートするようになりました。
+
+これにより、定期的なキャンペーンでは、新規オーディエンス（新規登録、新たに適格なロイヤルティメンバーなど）に重点を置きながら、クエリの作業負荷を軽減し、時間の経過に伴う冗長な送信を避けることができます。</p>
+<p>詳しくは、<a href="../orchestrated/activities/incremental-query.md">詳細なドキュメント</a>を参照してください。</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -290,15 +308,11 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **Adobe Experience Manager コンテンツフラグメントのバリエーションのサポート** - Adobe Experience Manager コンテンツフラグメントを挿入する際に、**コンテンツフラグメントのバリエーション** （言語やチャネルのバリエーションなど）を選択でき、ロケールや多言語シナリオの処理が改善されました。 [詳細情報](../integrations/aem-fragments.md#aem-variations)
 
-  この機能は、一連の組織でのみ使用できます（限定提供）。 アクセスするには、アドビ担当者にお問い合わせください。
-
-  ご利用いただけます：2026年4月3日（PT）
+  この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。
 
 * **オーサリング中のAdobe Experience Manager コンテンツフラグメントのコンテキスト** - テキストフィールドとコンテンツブロック間を移動しても、コンテンツフラグメントの選択範囲はアクティブなままなので、**AEM コンテンツアドバイザー**&#x200B;を毎回開き直さずに、さらにフラグメントフィールドを追加できます。 [詳細情報](../integrations/aem-fragments.md)
 
-  この機能は、一連の組織でのみ使用できます（限定提供）。 アクセスするには、アドビ担当者にお問い合わせください。
-
-  ご利用いただけます：2026年4月1日（PT）
+  この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。
 
 #### メールデザイン
 
@@ -328,6 +342,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 #### オーケストレーションキャンペーン
 
+* **オーケストレーションされたキャンペーンのグローバル変数** - オーケストレーションされたキャンペーンは、ワークフロー内のすべてのアクティビティで一度定義して再利用できるグローバル変数をサポートするようになり、設定を簡素化し、動的な値、式、コンテンツのパーソナライゼーションで一貫性を確保します。 [詳細情報](../orchestrated/global-variables.md)
 * **Data Modelerの機能強化** - オーケストレーションされたリレーショナルスキーマが、複数のフィールドにまたがる複合キーをサポートするようになりました。 DDL ファイルからスキーマを読み込むと、列挙も行われ、DDLまたはExcel ファイルから読み込むと、テーブル間に複合関係が自動的に作成されます。 エンティティ関係ビューで、ファイルのアップロード後に、テーブル間のフィールドペアリングの完全なセットが複合リンクに表示されるようになりました。 [詳細情報](../orchestrated/gs-schemas.md)
 
 ## 近日リリース予定 {#coming-soon}
@@ -372,23 +387,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <table>
 <thead>
 <tr>
-<th><strong>オーケストレーションされたキャンペーンでの増分クエリアクティビティ</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p><strong> オーケストレーションされたキャンペーン </strong>は、前回の実行以降に新たに対象となったプロファイルまたはイベントのみをターゲットとする<strong>増分クエリ </strong> アクティビティをサポートするようになりました。
-
-これにより、定期的なキャンペーンでは、新規オーディエンス（新規登録、新たに適格なロイヤルティメンバーなど）に重点を置きながら、クエリの作業負荷を軽減し、時間の経過に伴う冗長な送信を避けることができます。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>電子メールDesignerのディープリンク</strong><br/></th>
 </tr>
 </thead>
@@ -408,8 +406,3 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 #### 設定
 
 * **URL パラメーター暗号化キーに対する特定の権限** - URL パラメーター暗号化キーにアクセスして管理するには、新しい権限が作成されました。 これで、**View Key Registry**&#x200B;および&#x200B;**Manage Key Registry**&#x200B;権限が付与されている必要があります。<!--[Read more](../personalization/url-parameter-encryption.md#create-keys)-->
-
-#### オーケストレーションキャンペーン
-
-* **オーケストレーションされたキャンペーンのグローバル変数** - オーケストレーションされたキャンペーンは、ワークフロー内のすべてのアクティビティで一度定義して再利用できるグローバル変数をサポートするようになり、設定を簡素化し、動的な値、式、コンテンツのパーソナライゼーションで一貫性を確保します。
-

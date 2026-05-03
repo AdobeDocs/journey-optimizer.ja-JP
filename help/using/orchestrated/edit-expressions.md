@@ -5,10 +5,10 @@ title: 式の編集
 description: 式の編集方法について説明します。
 exl-id: bf0a905f-00af-4ed7-9e4f-bf8cb0af9ea9
 version: Campaign Orchestration
-source-git-commit: 07ec28f7d64296bdc2020a77f50c49fa92074a83
-workflow-type: ht
-source-wordcount: '2034'
-ht-degree: 100%
+source-git-commit: 8175f63d4e1055d285d2f3f12a498a9dbd3fa1ba
+workflow-type: tm+mt
+source-wordcount: '2071'
+ht-degree: 97%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->以下の節では、式エディターを操作してルールを作成する方法について説明します。ルールの作成に使用する構文は、パーソナライゼーションの追加に使用する構文とは異なることに注意してください。
+>以下の節では、式エディターを操作してルールを作成する方法について説明します。 ルールの作成に使用する構文は、パーソナライゼーションの追加に使用する構文とは異なることに注意してください。
 
 ## 式エディターの操作 {#edit}
 
-式を編集する場合は、条件を手動で入力してルールを作成します。このモードでは、日付、文字列、数値の各フィールドの操作や並べ替えなど、具体的なクエリの実行に使用する値を操作する高度な関数を使用できます。
+式を編集する場合は、条件を手動で入力してルールを作成します。 このモードでは、日付、文字列、数値の各フィールドの操作や並べ替えなど、具体的なクエリの実行に使用する値を操作する高度な関数を使用できます。
 
 式エディターは、ルールビルダーの「**[!UICONTROL 式を編集]**」ボタンから実行できます。このボタンは、カスタム条件を設定する際に「**[!UICONTROL 属性]**」フィールドと「**[!UICONTROL 値]**」フィールドで使用できます。
 
@@ -33,15 +33,17 @@ ht-degree: 100%
 
 * 式を定義する&#x200B;**入力フィールド（1）**。
 * 式で使用でき、かつクエリのターゲティングディメンションに対応する&#x200B;**フィールド（2）**&#x200B;の一覧。
-* カテゴリ別に並べ替えられる&#x200B;**ヘルパー関数（3）**。
+* 式で使用できる使用可能な&#x200B;**変数（3）**&#x200B;のリスト。 このメニューは、**値** フィールドで使用できます。 [ オーケストレーションされたキャンペーンで変数を使用する方法を学ぶ](variables-orchestrated-campaigns.md)
 
-式を編集するには、入力フィールドに式を直接入力します。フィールドまたはヘルパー関数を追加するには、式内の追加する場所にカーソルを置き、「+」ボタンをクリックします。
+* **ヘルパー関数（4）**、カテゴリ別に並べ替え。
+
+式を編集するには、入力フィールドに式を直接入力します。 フィールド、変数またはヘルパー関数を追加するには、追加する式にカーソルを置き、「+」ボタンをクリックします。
 
 ![式エディターのインターフェイス](assets/rule-builder-expression-editor.png){zoomable="yes"}
 
 ## ヘルパー関数
 
-クエリ編集ツールを使用すると、高度な関数を使用して、目的の結果や操作対象のデータのタイプに応じて複雑なフィルタリングを実行できます。次の関数を使用できます。
+クエリ編集ツールを使用すると、高度な関数を使用して、目的の結果や操作対象のデータのタイプに応じて複雑なフィルタリングを実行できます。 次の関数を使用できます。
 
 ### 集計
 
@@ -60,7 +62,7 @@ ht-degree: 100%
 <td>Avg(&lt;値&gt;)</td>
 </tr>
 <tr>
-<td><strong>Count</strong></td>
+<td><strong>カウント</strong></td>
 <td>列の null でない値をカウントします</td>
 <td>Count(&lt;値&gt;)</td>
 </tr>
@@ -95,7 +97,7 @@ ht-degree: 100%
 <td>StringAgg(&lt;値&gt;, &lt;文字列&gt;)</td>
 </tr>
 <tr>
-<td><strong>Sum</strong></td>
+<td><strong>合計</strong></td>
 <td>数値、文字列または日付タイプの列の値の合計を返します</td>
 <td>Sum(&lt;値&gt;)</td>
 </tr>
@@ -214,7 +216,7 @@ ht-degree: 100%
 <td>MinutesDiff(&lt;終了日&gt;, &lt;開始日&gt;)</td>
 </tr>
 <tr>
-<td><strong>Month</strong></td>
+<td><strong>月</strong></td>
 <td>日付の月を表す数を返します</td>
 <td>Month(&lt;日付&gt;)</td>
 </tr>
@@ -483,12 +485,12 @@ ht-degree: 100%
   <tr> 
    <td> <strong>AESEncrypt</strong><br /> </td> 
    <td> 引数で指定された文字列を暗号化<br /> </td> 
-   <td> AESEncrypt(&lt;値&gt;)<br /> </td> 
+   <td> AESEncrypt(&lt;value&gt;)<br /> </td> 
   </tr>
   <tr> 
    <td> <strong>Case</strong><br /> </td> 
-   <td> 条件が true の場合は値 1 を返します。そうでない場合は値 2 を返します<br /> </td> 
-   <td> Case(When(&lt;条件&gt;, &lt;値 1&gt;), Else(&lt;値 2&gt;))<br /> </td> 
+   <td> 条件が true の場合は値 1 を返します。 そうでない場合は値 2 を返します<br /> </td> 
+   <td> (When(&lt;条件&gt;, &lt;値 1&gt;), Else(&lt;値 2&gt;))<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>ClearBit</strong><br /> </td> 
@@ -502,7 +504,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td> <strong>Decode</strong><br /> </td> 
-   <td> 値 1 = 値 2 の場合は値 3 を返します。そうでない場合は値 4 を返します<br /> </td> 
+   <td> 値 1 = 値 2 の場合は値 3 を返します。 そうでない場合は値 4 を返します<br /> </td> 
    <td> Decode(&lt;値 1&gt;, &lt;値 2&gt;, &lt;値 3&gt;, &lt;値 4&gt;)<br /> </td>  
   </tr>
 
@@ -523,7 +525,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td> <strong>Iif</strong><br /> </td> 
-   <td> 式が true の場合は値 1 を返します。そうでない場合は値 2 を返します<br /> </td> 
+   <td> 式が true の場合は値 1 を返します。 そうでない場合は値 2 を返します<br /> </td> 
    <td> Iif(&lt;条件&gt;, &lt;値 1&gt;, &lt;値 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -563,7 +565,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td> <strong>When</strong><br /> </td> 
-   <td> 式が true の場合は値 1 を返します。そうでない場合は値 2 を返します（case 関数のパラメーターとしてのみ使用できます）<br /> </td> 
+   <td> 式が true の場合は値 1 を返します。 そうでない場合は値 2 を返します（case 関数のパラメーターとしてのみ使用できます）<br /> </td> 
    <td> When(&lt;条件&gt;, &lt;値 1&gt;)<br /> </td>  
   </tr> 
  </tbody> 
@@ -617,7 +619,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td> <strong>IfEquals</strong><br /> </td> 
-   <td> 最初の 2 つのパラメーターが等しい場合に、3 番目のパラメーターを返します。等しくない場合は、最後のパラメーターを返します<br /> </td> 
+   <td> 最初の 2 つのパラメーターが等しい場合に、3 番目のパラメーターを返します。 等しくない場合は、最後のパラメーターを返します<br /> </td> 
    <td> IfEquals(&lt;文字列&gt;, &lt;文字列&gt;, &lt;文字列&gt;, &lt;文字列&gt;)<br /></td> 
   </tr> 
   <tr> 
@@ -627,12 +629,12 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td> <strong>JuxtWords</strong><br /> </td> 
-   <td> パラメーターとして渡された文字列を連結します。必要に応じて、文字列間にスペースを追加します.<br /> </td> 
+   <td> パラメーターとして渡された文字列を連結します。 必要に応じて、文字列間にスペースを追加します.<br /> </td> 
    <td> JuxtWords(&lt;文字列&gt;, &lt;文字列&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>JuxtWords3</strong><br /> </td> 
-   <td> パラメーターとして渡された文字列を連結します。必要に応じて、文字列間にスペースを追加します<br /> </td> 
+   <td> パラメーターとして渡された文字列を連結します。 必要に応じて、文字列間にスペースを追加します<br /> </td> 
    <td> JuxtWords3(&lt;文字列&gt;, &lt;文字列&gt;, &lt;文字列&gt;)<br /></td>  
   </tr> 
   <tr> 
@@ -648,7 +650,7 @@ ht-degree: 100%
   <tr> 
    <td> <strong>Line</strong><br /> </td> 
    <td> 文字列から n 行目を抽出<br /> </td> 
-   <td> Line(&lt;文字列&gt;,&lt;数値&gt;)<br /></td> 
+   <td> Line(&lt;string&gt;,&lt;number&gt;)<br /></td> 
   </tr>
   <tr> 
    <td> <strong>Lower</strong><br /> </td> 
@@ -683,7 +685,7 @@ ht-degree: 100%
   <tr> 
    <td> <strong>Replace</strong><br /> </td> 
    <td> 指定された文字列値のすべての発生を別の文字列値に置き換えます。<br /> </td> 
-   <td> Replace(&lt;文字列&gt;,&lt;文字列&gt;,&lt;文字列&gt;)<br /></td> 
+   <td> Replace(&lt;String&gt;,&lt;String&gt;,&lt;String&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Right</strong><br /> </td> 
@@ -753,7 +755,7 @@ ht-degree: 100%
    <td> <strong>構文</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>_Over_</strong><br /> </td> 
+   <td> <strong>_Over__</strong><br /> </td> 
    <td> 第 1 パラメーターとして入力された SQL 関数呼び出しを、第 2 パラメーターとして入力された「パーティション」または「並べ替え順」フィールドより優先して実行します<br /> </td> 
    <td> _Over_(&lt;値&gt;, &lt;値&gt;)<br /> </td>  
   </tr> 
