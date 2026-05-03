@@ -175,7 +175,7 @@ SinchとSinch Conversationalの場合は、インバウンドイベントとフ�
 
 Webhookが既存のチャネル設定に添付されたAPI資格情報を使用する場合、Webhookはすぐに有効になります。 それ以外は、新しいチャネル設定を作成します。
 
-➡️[ チャネル設定の詳細](sms-configuration-surface.md)
+➡️[&#x200B; チャネル設定の詳細](sms-configuration-surface.md)
 
 ### Infobip用 {#create-webhook-infobip}
 
@@ -283,7 +283,7 @@ Infobipの場合は、フィードバックイベント用とインバウンド�
 
 Webhookが既存のチャネル設定に添付されたAPI資格情報を使用する場合、Webhookはすぐに有効になります。 それ以外は、新しいチャネル設定を作成します。
 
-➡️[ チャネル設定の詳細](sms-configuration-surface.md)
+➡️[&#x200B; チャネル設定の詳細](sms-configuration-surface.md)
 
 ### カスタムプロバイダーの場合 {#create-webhook-custom}
 
@@ -447,4 +447,4 @@ Webhookが既存のチャネル設定に添付されたAPI資格情報を使用�
 
 Webhookが既存のチャネル設定に添付されたAPI資格情報を使用する場合、Webhookはすぐに有効になります。 それ以外は、新しいチャネル設定を作成します。
 
-➡️[ チャネル設定の詳細](sms-configuration-surface.md)
+➡️[&#x200B; チャネル設定の詳細](sms-configuration-surface.md)
