@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: aef18a41657866c5c612442c460b5c464553eaba
+source-git-commit: 8175f63d4e1055d285d2f3f12a498a9dbd3fa1ba
 workflow-type: tm+mt
-source-wordcount: '3276'
-ht-degree: 91%
+source-wordcount: '3289'
+ht-degree: 90%
 
 ---
 
@@ -206,6 +206,7 @@ ht-degree: 91%
          + [重複の除外](using/orchestrated/activities/deduplication.md)
          + [エンリッチメント](using/orchestrated/activities/enrichment.md)
          + [分岐](using/orchestrated/activities/fork.md)
+         + [増分処理クエリ](using/orchestrated/activities/incremental-query.md)
          + [オーディエンスを読み取り](using/orchestrated/activities/read-audience.md)
          + [紐付け](using/orchestrated/activities/reconciliation.md)
          + [オーディエンスの保存](using/orchestrated/activities/save-audience.md)
@@ -217,6 +218,8 @@ ht-degree: 91%
          + [参照アクティビティによる顧客との関与](using/orchestrated/engage-customers-uc.md)
          + [製品の可用性に関するユーザーへの通知](using/orchestrated/product-availability-uc.md)
       + 高度な操作 {#orchestrated-advanced}
+         + [オーケストレーションされたキャンペーンでの変数の使用](using/orchestrated/variables-orchestrated-campaigns.md)
+         + [オーケストレーションされたキャンペーンでのグローバル変数の定義](using/orchestrated/global-variables.md)
          + [シグナルを活用したトリガーオーケストレーションされたキャンペーン](using/orchestrated/trigger-orchestrated-campaign.md)
 + 競合と優先順位付け {#conflict-prioritization}
    + [競合管理と優先順位付け](using/conflict-prioritization/gs-conflict-prioritization.md)

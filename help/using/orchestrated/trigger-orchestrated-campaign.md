@@ -2,32 +2,34 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: シグナルを使用したオーケストレーションされたキャンペーンのトリガー
-description: ' [!DNL Adobe Journey Optimizer]のシグナルを使用してオーケストレーションされたキャンペーンをトリガーする方法を説明します。'
+description: シグナルを使用してオーケストレーションされたキャンペーンをトリガーし、キャンペーンで使用可能になるパラメーターを渡す方法を説明します。
 feature: Campaigns
 topic: Content Management
 role: Developer
 level: Intermediate
 version: Campaign Orchestration
 exl-id: d1fd072d-b143-4752-822f-23f98684ba80
-source-git-commit: 6bae2fd7d52dd779d272a9a39ba4dfb7e852d4a8
+source-git-commit: 8175f63d4e1055d285d2f3f12a498a9dbd3fa1ba
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '941'
 ht-degree: 1%
 
 ---
 
 # シグナルを活用したトリガーオーケストレーションされたキャンペーン {#trigger-signal}
 
-オーケストレーションされたキャンペーンをスケジュールどおりに実行するのではなく、シグナルを送ることでトリガーできます。 シグナルは、外部システムまたはアプリケーションからのAPI呼び出しを介して送信されます。 信号を使用する場合は、パラメーターを渡すことができます。 これらの変数は、オーケストレーションされたキャンペーンで実行コンテキストのイベント変数として使用できるようになり、ターゲティング、条件、式で使用できます。
+オーケストレーションされたキャンペーンをスケジュールどおりに実行するのではなく、シグナルを送ることでトリガーできます。 シグナルは、外部システムまたはアプリケーションからのAPI呼び出しを介して送信されます。 シグナルを使用する場合は、キャンペーンで変数として使用できるパラメーターを渡して、ターゲティング、条件、式で使用できます。
+
+このページでは、シグナルの設定とトリガー方法について説明します。 変数が使用可能になったら、ルールと&#x200B;**[!UICONTROL テスト]**&#x200B;条件での変数の使用方法について詳しくは、[&#x200B; オーケストレーションされたキャンペーンでの変数の使用](variables-orchestrated-campaigns.md)を参照してください。
 
 トリガーエンドポイントのREST仕様（パス、ヘッダー、本文、レスポンス、およびエラー）については、Adobe Journey Optimizer API ドキュメントの[トリガーオーケストレーションされたキャンペーン API](https://developer.adobe.com/journey-optimizer-apis/references/oc-trigger){target="_blank"}を参照してください。
 
 シグナルを使用してオーケストレーションされたキャンペーンをトリガーするエンドツーエンドのプロセス：
 
-1. [シグナルによってトリガーされるキャンペーンをスケジュールします](#set-an-orchestrated-campaign-to-wait-for-a-signal-configure-signal)
-1. [信号ペイロードのパラメーターを追加](#add-parameters-for-the-signal-payload-optional-parameters) （オプション）
-1. [キャンペーンの構築とテスト](#build-and-test-the-campaign-build-and-test)
-1. [キャンペーンの公開とトリガー](#publish-and-trigger-the-campaign-publish)
+1. [シグナルによってトリガーされるキャンペーンをスケジュールします](#configure-signal)
+1. [信号ペイロードのパラメーターを追加](#parameters) （オプション）
+1. [キャンペーンの構築とテスト](#build-and-test)
+1. [キャンペーンの公開とトリガー](#publish)
 
 >[!NOTE]
 >
@@ -57,7 +59,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->スケジューラーで定義されていないAPI呼び出しにパラメーターを渡した場合、API呼び出しは引き続き成功し、パラメーターは伝播されます。式で使用できます。 ただし、オーケストレーションされたキャンペーンインターフェイスは使用に役立ちません。例えば、テストアクティビティでは、スケジューラーで定義されていないパラメーターが一覧表示されたり、表示されたりしません。
+>スケジューラーで定義されていないAPI呼び出しにパラメーターを渡した場合、API呼び出しは引き続き成功し、パラメーターは伝播されます。式で使用できます。 ただし、オーケストレーションされたキャンペーンインターフェイスは使用に役立ちません。例えば、テストアクティビティは、スケジューラーで定義されていないパラメーターを一覧表示したり、表示したりしません。
 
 ## キャンペーンの構築とテスト {#build-and-test}
 
