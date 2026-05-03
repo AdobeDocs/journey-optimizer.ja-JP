@@ -7,10 +7,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
-source-git-commit: 1f5d5138674633b8b2da1d54b45d66a17ab30dcc
+source-git-commit: 5bbe7aa2e1acfc02fc8d6fdd571c9640d848dc76
 workflow-type: tm+mt
-source-wordcount: '1272'
-ht-degree: 34%
+source-wordcount: '1479'
+ht-degree: 35%
 
 ---
 
@@ -64,7 +64,7 @@ Journey Optimizer でコンテンツフラグメントを使用する前に、Jo
 
 このリアルタイムの連携により、コンテンツが常に最新の状態に保たれるだけでなく、公開されたフラグメントの変更が、アクティブなキャンペーンやジャーニーにすぐに影響を与えます。
 
-これで、Journey Optimizer で後で使用するためにコンテンツフラグメントの作成と設定を開始できます。詳しくは、[Experience Manager ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing){target="_blank"}を参照してください。
+これで、Journey Optimizer で後で使用するためにコンテンツフラグメントの作成と設定を開始できます。 詳しくは、[Experience Manager ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing){target="_blank"}を参照してください。
 
 ## Experience Manager コンテンツフラグメントの追加 {#aem-add}
 
@@ -96,7 +96,7 @@ AEM コンテンツフラグメントを作成およびパーソナライズし�
 
    ![](assets/aem_campaign_5.png)
 
-1. 「**[!UICONTROL フラグメントを表示]**」をクリックして、フラグメント情報を表示します。**[!UICONTROL フラグメント情報]**&#x200B;メニューを開くと、エディターは読み取り専用モードになります。
+1. 「**[!UICONTROL フラグメントを表示]**」をクリックして、フラグメント情報を表示します。 **[!UICONTROL フラグメント情報]**&#x200B;メニューを開くと、エディターは読み取り専用モードになります。
 
    Adobe Experience Manager でフラグメントを表示するには、右側のメニューから「**[!UICONTROL プレビュー]**」を選択します。
 
@@ -137,7 +137,7 @@ AEM コンテンツフラグメントを作成およびパーソナライズし�
 
    Journey Optimizerでは、これらのトークンはプレースホルダーです。 **丸薬**&#x200B;のエクスペリエンスがオンになっている状態で、右側のパネルの&#x200B;**[!UICONTROL AEM コンテンツフラグメント]** セクションにフラグメントフィールドと共に表示されます。
 
-1. リアルタイムのパーソナライゼーションを有効にするには、**[!UICONTROL コンテンツフラグメント]**&#x200B;内で使用されるすべてのプレースホルダーを、フラグメントヘルパータグ内のパラメーターとしてユーザーが明示的に宣言する必要があります。次のように、これらのプレースホルダーをプロファイル属性、コンテキスト属性、静的文字列、または定義済み変数にマッピングします。
+1. リアルタイムのパーソナライゼーションを有効にするには、**[!UICONTROL コンテンツフラグメント]**&#x200B;内で使用されるすべてのプレースホルダーを、フラグメントヘルパータグ内のパラメーターとしてユーザーが明示的に宣言する必要があります。 次のように、これらのプレースホルダーをプロファイル属性、コンテキスト属性、静的文字列、または定義済み変数にマッピングします。
 
    1. **プロファイルまたはコンテキスト属性のマッピング**：プレースホルダーをプロファイルまたはコンテキスト属性に割り当てます（例：name = profile.person.name.firstName）。
 
@@ -154,13 +154,13 @@ AEM コンテンツフラグメントを作成およびパーソナライズし�
 
    ![](assets/aem_campaign_9.png){zoomable="yes"}
 
-1. 「**[!UICONTROL 保存]**」をクリックします。メッセージのコンテンツをテストして確認するには、[この節](../content-management/preview.md)を参照してください。
+1. 「**[!UICONTROL 保存]**」をクリックします。 メッセージのコンテンツをテストして確認するには、[この節](../content-management/preview.md)を参照してください。
 
-   <!--Note that the Content Fragment you selected stays active for this message. When you open the Personalization Editor in another field or content block, you can keep working with the same fragment from the **[!UICONTROL AEM Content Fragment]** section and add more fields without reopening **[!UICONTROL Open AEM CF selector]**.-->
+   選択したコンテンツフラグメントは、このメッセージに対してアクティブなままになります。 別のフィールドまたはコンテンツブロックでPersonalization エディターを開くと、**[!UICONTROL AEM コンテンツフラグメント]** セクションの同じフラグメントを操作し続け、**[!UICONTROL AEM CF セレクターを開く]**&#x200B;を再度開かずに、さらにフィールドを追加できます。
 
 テストを実行してコンテンツを検証したら、[キャンペーンを送信](../campaigns/review-activate-campaign.md)したり、オーディエンスに[ジャーニーを公開](../building-journeys/publish-journey.md)したりできます。
 
-Adobe Experience Manager を使用すると、コンテンツフラグメントが使用されている Journey Optimizer キャンペーンまたはジャーニーを識別できます。詳しくは、[Adobe Experience Manager ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/extension-content-fragment-ajo-external-references){target="_blank"}を参照してください。
+Adobe Experience Manager を使用すると、コンテンツフラグメントが使用されている Journey Optimizer キャンペーンまたはジャーニーを識別できます。 詳しくは、[Adobe Experience Manager ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/extension-content-fragment-ajo-external-references){target="_blank"}を参照してください。
 
 ## コンテンツフラグメントのバリエーションの操作 {#aem-variations}
 
