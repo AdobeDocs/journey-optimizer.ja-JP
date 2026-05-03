@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 0980d5da677edb4cf21b7a86549ffc32d0b666a1
+source-git-commit: 3e2d661a6b06032b7d67f41324930c5a0f691221
 workflow-type: tm+mt
-source-wordcount: '7188'
+source-wordcount: '7252'
 ht-degree: 68%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 68%
 # ドキュメントの更新 {#latest-updates}
 
 このページでは、毎月のリリースの機能と改善点に関連する更新に加えて、[!DNL Journey Optimizer] ドキュメントの最新の変更点をすべて一覧表示しています。
+
+## 2026年5月 {#may-2026}
+
+* クエリの例ページに新しい&#x200B;**ビジネスルールクエリ** セクションが追加され、特定の日付以降の特定のジャーニーのジャーニー頻度の上限の除外によるすべてのプロファイルの破棄を確認するデータレイククエリが提供されました。 クエリには、`eventCodeReason` フィールドが含まれており、上限に達したか（`CAP_REACHED`）、優先度が低いか（`LOWER_PRIORITY`）が原因でプロファイルが除外されたかどうかを識別します。 [詳細情報](../reports/query-examples.md#business-rules-queries)
 
 ## 2026年4月 {#april-2026}
 

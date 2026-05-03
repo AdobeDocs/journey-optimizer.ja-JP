@@ -7,9 +7,9 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="限定提供" type="Informative"
 exl-id: b172e0e1-b78e-4d96-ab88-254507b55f48
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 07f842fbb1c495c39f4e225c1d0089667c5d6f40
 workflow-type: tm+mt
-source-wordcount: '1089'
+source-wordcount: '1131'
 ht-degree: 20%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 20%
     Selecting a formula entity specifies which type of item—such as journeys or other entities—the ranking formula will apply to. This determines the context in which the formula operates, allowing you to define rules that influence how those items are ranked.
 -->
 
-1. オプションで、「**[!UICONTROL AI モデルを選択]**」をクリックして、ランキング式を作成するための参照として使用するモデルを設定します。[詳細情報](journey-ai-models.md)
+1. オプションで、「**[!UICONTROL AI モデルを選択]**」をクリックして、ランキング式を作成するための参照として使用するモデルを設定します。 [詳細情報](journey-ai-models.md)
 
 <!--
     >[!NOTE]
@@ -89,7 +89,7 @@ ht-degree: 20%
 
    ![変数、属性、または静的値を使用してランキングスコアを割り当てる式ビルダー](assets/journey-formula-expression.png){width="70%"}
 
-1. 「**[!UICONTROL 条件を追加]**」をクリックし、必要な回数に応じて 1 つ以上の条件を追加します。ロジックは次のとおりです。
+1. 「**[!UICONTROL 条件を追加]**」をクリックし、必要な回数に応じて 1 つ以上の条件を追加します。 ロジックは次のとおりです。
    * 特定の決定項目に対して最初の条件が true である場合、その条件は次の条件よりも優先されます。
    * 最初の条件が true でない場合、決定エンジンは 2 番目の条件に進み、それ以降も同様に処理されます。
 
@@ -97,7 +97,7 @@ ht-degree: 20%
 
    条件を満たさないジャーニーの![式フィールド &#x200B;](assets/journey-formula-criteria-not-met.png){width="70%"}
 
-1. 「**[!UICONTROL 作成]**」をクリックして、ランキング式を完了します。
+1. 「**[!UICONTROL 作成]**」をクリックして、ランキング式を完成させます。
 
 リストからこの数式を選択して詳細を表示し、編集または削除できるようになりました。 このルールは、ルールセットを設定するときに使用できます。 [詳細情報](#assign-formula-to-ruleset)
 
@@ -134,7 +134,7 @@ ht-degree: 20%
 
 ### コードエディターの使用 {#journey-ranking-formula-code-editor}
 
-ランキング式を **PQL 構文**&#x200B;で表すには、画面の右上にある専用ボタンを使用してコードエディターに切り替えます。PQL 構文の使用方法について詳しくは、[関連するドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=ja)を参照してください。
+ランキング式を **PQL 構文**&#x200B;で表すには、画面の右上にある専用ボタンを使用してコードエディターに切り替えます。 PQL 構文の使用方法について詳しくは、[関連するドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=ja)を参照してください。
 
 >[!CAUTION]
 >
@@ -186,7 +186,7 @@ ht-degree: 20%
 
 このルールセットを使用するすべてのジャーニーは、キャップが適用されたときに、選択した数式でランク付けされます。
 
-ルールセットとランキング式のパフォーマンスを監視するには、概要レポートの「[ジャーニーのキャッピングと競合](../reports/channel-report-cja.md#rule-sets)」セクションを参照してください。
+ルールセットとランキング式のパフォーマンスを監視するには、概要レポートの「[ジャーニーのキャッピングと競合](../reports/channel-report-cja.md#rule-sets)」セクションを参照してください。 データレイクレベルで破棄を調査し、上限（`CAP_REACHED`）または優先度が低（`LOWER_PRIORITY`）であるためにプロファイルが除外されたかどうかを特定するには、[このセクション &#x200B;](../reports/query-examples.md#business-rules-queries)で利用可能なクエリを使用します。
 
 <!--
 ## Reporting {#reporting}
