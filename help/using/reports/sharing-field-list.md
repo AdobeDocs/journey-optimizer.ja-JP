@@ -8,10 +8,10 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
-source-git-commit: c6e38d43a682c10bbb7ceb075a0f4b72d75c62a4
+source-git-commit: 07f842fbb1c495c39f4e225c1d0089667c5d6f40
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 83%
+source-wordcount: '781'
+ht-degree: 82%
 
 ---
 
@@ -34,12 +34,12 @@ identityMap 属性の場合、プライマリ ID はデフォルトで「primary
 
 ## journey {#journey-field}
 
-このフィールドグループは、ジャーニーのスキーマで（journeyStepEvent と関連して）使用します。次のフィールドが含まれています。
+このフィールドグループは、ジャーニーのスキーマで（journeyStepEvent と関連して）使用します。 次のフィールドが含まれています。
 
 | フィールド名 | タイプ | 説明 |
 |---|---|------------|
 | ID | 文字列 | 指定されたジャーニーの識別子 |
-| VersionID | 文字列 | ジャーニーバージョンの ID。この ID はジャーニーの ID を表します。 |
+| VersionID | 文字列 | ジャーニーバージョンの ID。 この ID はジャーニーの ID を表します。 |
 | name | 文字列 | ジャーニーの名前 |
 | description | 文字列 | ジャーニーの説明 |
 | version | 文字列 | バージョン（`major`.`minor` のように表されます） |
@@ -52,12 +52,12 @@ journeyStepEvent の場合、ID に関連するフィールドも追加する必
 
 | フィールド名 | タイプ | 説明 |
 |---|---|------------|
-| ID | 文字列 | プロファイル識別子は、ジャーニーで送信／使用されたプロファイルを識別します。例：foo@adobe.com |
-| 名前空間 | 文字列 | このフィールドは、ジャーニーで使用されるプロファイルで参照される名前空間を記述します。例：Email、ECID |
+| ID | 文字列 | プロファイル識別子は、ジャーニーで送信／使用されたプロファイルを識別します。 例：foo@adobe.com |
+| 名前空間 | 文字列 | このフィールドは、ジャーニーで使用されるプロファイルで参照される名前空間を記述します。 例：Email、ECID |
 
 ## serviceEvents {#servicevents-field}
 
-この Mixin には、プロファイルエクスポートジョブに対応するすべてのフィールドが含まれています。これらのイベントは、**オーディエンスを読み取り**&#x200B;アクティビティごとに生成され、オーディエンスの書き出し操作のライフサイクル（キューに追加、開始、終了、エラー）を追跡します。通常のステップイベントとは異なり、serviceEvents は個々のプロファイルではなく、オーディエンスを読み取りノード自体に関連付けられているので、関連付けられたプロファイル識別子がない場合があります。
+この Mixin には、プロファイルエクスポートジョブに対応するすべてのフィールドが含まれています。 これらのイベントは、**オーディエンスを読み取り**&#x200B;アクティビティごとに生成され、オーディエンスの書き出し操作のライフサイクル（キューに追加、開始、終了、エラー）を追跡します。 通常のステップイベントとは異なり、serviceEvents は個々のプロファイルではなく、オーディエンスを読み取りノード自体に関連付けられているので、関連付けられたプロファイル識別子がない場合があります。
 
 | フィールド名 | タイプ | 説明 |
 |---|---|------------|
@@ -74,7 +74,7 @@ eventTypes について詳しくは、[この節](#discarded-events)を参照し
 
 ## stepEvents {#stepevents-field}
 
-このカテゴリには、元のステップイベントフィールドが含まれます。詳しくは、この[節](../reports/sharing-legacy-fields.md)を参照してください。
+このカテゴリには、元のステップイベントフィールドが含まれます。 詳しくは、この[節](../reports/sharing-legacy-fields.md)を参照してください。
 
 
 ## ジャーニーステップイベントで破棄されたイベントタイプのトラブルシューティング  {#discarded-events}
@@ -99,13 +99,13 @@ eventTypes について詳しくは、[この節](#discarded-events)を参照し
 
   **一般的な原因**：重複イベント、大量のイベント、システムリソースの制限。
 
-  **トラブルシューティング**：重複排除の実装、トラフィックの急増の回避、ジャーニー設計の最適化、永続的な場合は[&#x200B; サポート &#x200B;](../start/user-interface.md#support-ticket-guidelines)にお問い合わせください。
+  **トラブルシューティング**：重複排除の実装、トラフィックの急増の回避、ジャーニー設計の最適化、永続的な場合は[ サポート ](../start/user-interface.md#support-ticket-guidelines)にお問い合わせください。
 
 * **maxInstanceStackEventsReached**: ジャーニーランタイムは、特定のジャーニーバージョンのプロファイルごとのイベントスタックの内部制限である10 イベントに達しました。
 
   **共通の原因**: プロファイルのジャーニーインスタンスは、長時間実行している手順（長い待機、低速なエンリッチメント、カスタムアクションの再試行など）でブロックされ、同じプロファイルのイベントが、そのジャーニーでも使用され、10 イベントの制限を超えて積み重ねられます。
 
-  **トラブルシューティング**：頻繁にトリガーを繰り返したり、アップストリームイベントをデバウンスまたは重複排除したり、長いシナリオを複数のジャーニーに分割したりできるパスで、長時間実行されるステップを減らします。 これは安全ガードレールであり、制限は設定できません。スタックがドレインするまで、追加のイベントは破棄されます。 詳しくは、「[&#x200B; ジャーニーインスタンスがブロックされたために破棄されたイベント &#x200B;](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached)」を参照してください。
+  **トラブルシューティング**：頻繁にトリガーを繰り返したり、アップストリームイベントをデバウンスまたは重複排除したり、長いシナリオを複数のジャーニーに分割したりできるパスで、長時間実行されるステップを減らします。 これは安全ガードレールであり、制限は設定できません。スタックがドレインするまで、追加のイベントは破棄されます。 詳しくは、「[ ジャーニーインスタンスがブロックされたために破棄されたイベント ](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached)」を参照してください。
 
 * **EVENT_WITH_NO_JOURNEY**：イベントを受信しましたが、応答するアクティブなジャーニーが設定されていません
 
@@ -124,5 +124,6 @@ eventTypes について詳しくは、[この節](#discarded-events)を参照し
 
 * [データセットクエリサンプル - ジャーニーステップイベント](../data/datasets-query-examples.md#journey-step-event)。
 * [クエリの例 - イベントベースのクエリ](query-examples.md#event-based-queries)。
-* [ビルトインスキーマ辞書](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja)
+* [ クエリの例 – ビジネス ルール クエリ ](query-examples.md#business-rules-queries)。
+* [組み込みのスキーマディクショナリ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja)
 

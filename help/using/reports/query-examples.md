@@ -8,16 +8,16 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 26ad12c3-0a2b-4f47-8f04-d25a6f037350
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 07f842fbb1c495c39f4e225c1d0089667c5d6f40
 workflow-type: tm+mt
-source-wordcount: '3542'
-ht-degree: 73%
+source-wordcount: '3739'
+ht-degree: 71%
 
 ---
 
 # クエリの例{#query-examples}
 
-この節では、データレイクのジャーニーステップイベントに関するクエリを実行する際によく使用される例を示します。特定のユースケースに進む前に、ジャーニーイベントデータで使用される主な識別子を理解しておくことが重要です。
+この節では、データレイクのジャーニーステップイベントに関するクエリを実行する際によく使用される例を示します。 特定のユースケースに進む前に、ジャーニーイベントデータで使用される主な識別子を理解しておくことが重要です。
 
 ## 前提条件 {#prerequisites}
 
@@ -30,20 +30,21 @@ ht-degree: 73%
 
 >[!TIP]
 >
->**クエリサービスを初めて利用する場合** [Adobe Experience Platform](https://experience.adobe.com/)を開き、**Query Service > Queries**&#x200B;に移動し、以下の例を貼り付け、プレースホルダー値（`<journeyVersionID>`、`<last x hours>`など）を置き換え、**実行**&#x200B;を選択します。
+>**クエリサービスを初めて利用しますか？** [Adobe Experience Platform](https://experience.adobe.com/)を開き、**Query Service > Queries**&#x200B;に移動し、以下の例を貼り付け、プレースホルダー値（`<journeyVersionID>`、`<last x hours>`など）を置き換え、**実行**&#x200B;を選択します。
 
 ## 適切なクエリを見つける {#find-query}
 
 | 私は… | に移動 |
 |---|---|
-| ジャーニーにエントリしたプロファイルをカウント | [基本的なユースケース &#x200B;](#common-queries) |
-| 特定のプロファイルのジャーニーパスのデバッグ | [&#x200B; プロファイルベースのクエリ &#x200B;](#profile-based-queries) |
-| オーディエンスの読み取りの実行またはエラーの調査 | [&#x200B; オーディエンスクエリの読み取り](#read-segment-queries) |
-| メッセージエラーまたはアクションエラーのトラブルシューティング | [&#x200B; メッセージとアクションのエラー](#message-action-errors) |
-| オーディエンス選定の破棄の分析 | [&#x200B; オーディエンス選定クエリ &#x200B;](#segment-qualification-queries) |
-| 外部イベントまたはビジネスイベントのデバッグ | [&#x200B; イベントベースのクエリ &#x200B;](#event-based-queries) |
-| カスタムアクションエンドポイントのパフォーマンスの監視 | [&#x200B; カスタムアクションクエリ &#x200B;](#query-custom-action) |
-| 魅力的なプロファイルとライセンスの使用状況の追跡 | [&#x200B; エンゲージ可能なプロファイルクエリ &#x200B;](#engageable-profiles-queries) |
+| ジャーニーにエントリしたプロファイルをカウント | [基本的なユースケース ](#common-queries) |
+| 特定のプロファイルのジャーニーパスのデバッグ | [ プロファイルベースのクエリ ](#profile-based-queries) |
+| オーディエンスの読み取りの実行またはエラーの調査 | [ オーディエンスクエリの読み取り](#read-segment-queries) |
+| メッセージエラーまたはアクションエラーのトラブルシューティング | [ メッセージとアクションのエラー](#message-action-errors) |
+| オーディエンス選定の破棄の分析 | [ オーディエンス選定クエリ ](#segment-qualification-queries) |
+| ビジネス・ルールの破棄の調査 | [ ビジネスルールクエリ ](#business-rules-queries) |
+| 外部イベントまたはビジネスイベントのデバッグ | [ イベントベースのクエリ ](#event-based-queries) |
+| カスタムアクションエンドポイントのパフォーマンスの監視 | [ カスタムアクションクエリ ](#query-custom-action) |
+| 魅力的なプロファイルとライセンスの使用状況の追跡 | [ エンゲージ可能なプロファイルクエリ ](#engageable-profiles-queries) |
 
 クエリで使用するフィールドに、対応するスキーマに関連する値があることを確認します。
 
@@ -51,13 +52,13 @@ ht-degree: 73%
 
 +++ID、instanceID、profileID の違いとは
 
-* ID：すべてのステップイベントエントリに対して一意です。2 つの異なるステップイベントに同じ ID を割り当てることはできません。
-* instanceID：instanceID は、ジャーニー実行内のプロファイルに関連付けられるすべてのステップイベントで同一です。プロファイルがジャーニーに再エントリすると、別の instanceID が使用されます。この新しい instanceID は、再エントリされたインスタンスのすべてのステップイベント（開始から終了まで）で同じになります。
+* ID：すべてのステップイベントエントリに対して一意です。 2 つの異なるステップイベントに同じ ID を割り当てることはできません。
+* instanceID：instanceID は、ジャーニー実行内のプロファイルに関連付けられるすべてのステップイベントで同一です。 プロファイルがジャーニーに再エントリすると、別の instanceID が使用されます。 この新しい instanceID は、再エントリされたインスタンスのすべてのステップイベント（開始から終了まで）で同じになります。
 * profileID：ジャーニー名前空間に対応したプロファイルの ID です。
 
 >[!NOTE]
 >
->トラブルシューティングの目的では、ジャーニーのクエリ時に journeyVersionName ではなく journeyVersionID を使用することをお勧めします。ジャーニーのプロパティ属性について詳しくは、[この節](../building-journeys/expression/journey-properties.md#journey-properties-fields)を参照してください。
+>トラブルシューティングの目的では、ジャーニーのクエリ時に journeyVersionName ではなく journeyVersionID を使用することをお勧めします。 ジャーニーのプロパティ属性について詳しくは、[この節](../building-journeys/expression/journey-properties.md#journey-properties-fields)を参照してください。
 
 +++
 
@@ -108,7 +109,7 @@ AND
 
 +++プロファイルがジャーニーアクションを受け取らなかった原因となったルール
 
-このクエリは、ジャーニー中に破棄され、ジャーニーアクションを受け取らなかったプロファイルのステップイベントの詳細を返します。これは、クワイエットアワーの制約などのビジネスルールにより、プロファイルが破棄された理由を特定するのに役立ちます。
+このクエリは、ジャーニー中に破棄され、ジャーニーアクションを受け取らなかったプロファイルのステップイベントの詳細を返します。 これは、クワイエットアワーの制約などのビジネスルールにより、プロファイルが破棄された理由を特定するのに役立ちます。
 
 _データレイクのクエリ_
 
@@ -155,7 +156,7 @@ WHERE
 
 クエリ結果には、プロファイルの破棄の理由を特定するのに役立つ主なフィールドが表示されます。
 
-* **actionExecutionError** - `businessRuleProfileDiscarded` に設定されている場合、ビジネスルールによりプロファイルが破棄されたことを示します。「`eventType`」フィールドには、破棄の原因となった特定のビジネスルールに関する追加の詳細が示されます。
+* **actionExecutionError** - `businessRuleProfileDiscarded` に設定されている場合、ビジネスルールによりプロファイルが破棄されたことを示します。 「`eventType`」フィールドには、破棄の原因となった特定のビジネスルールに関する追加の詳細が示されます。
 
 * **eventType** - 破棄の原因となったビジネスルールのタイプを指定します。
    * `quietHours`：クワイエットアワー設定により、プロファイルは破棄されました
@@ -165,7 +166,7 @@ WHERE
 
 +++特定のジャーニーの各ノードで一定時間に発生したエラー数
 
-このクエリは、ジャーニーの各ノードでエラーが発生した個別のプロファイルを、ノード名ごとにグループ化してカウントします。これには、すべてのタイプのアクション実行エラーと取得エラーが含まれます。
+このクエリは、ジャーニーの各ノードでエラーが発生した個別のプロファイルを、ノード名ごとにグループ化してカウントします。 これには、すべてのタイプのアクション実行エラーと取得エラーが含まれます。
 
 _データレイクのクエリ_
 
@@ -191,7 +192,7 @@ GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
 
 +++特定の時間枠に特定のジャーニーから破棄されたイベントの数
 
-このクエリは、ジャーニーから破棄されたイベントの合計数をカウントします。セグメントエクスポートジョブエラー、Dispatcher による破棄、状態マシンによる破棄など、様々な破棄イベントコードに対してフィルタリングします。
+このクエリは、ジャーニーから破棄されたイベントの合計数をカウントします。 セグメントエクスポートジョブエラー、Dispatcher による破棄、状態マシンによる破棄など、様々な破棄イベントコードに対してフィルタリングします。
 
 _データレイクのクエリ_
 
@@ -242,7 +243,7 @@ ORDER BY timestamp;
 
 +++2 つのノード間の経過時間 
 
-これらのクエリは、例えば、待機アクティビティに費やされる時間の見積もりに使用できます。これにより、待機アクティビティを確実に正しく設定できます。
+これらのクエリは、例えば、待機アクティビティに費やされる時間の見積もりに使用できます。 これにより、待機アクティビティを確実に正しく設定できます。
 
 _データレイクのクエリ_
 
@@ -371,7 +372,7 @@ WHERE
 
 +++serviceEvent の詳細を確認する方法 
 
-ジャーニーステップイベントデータセットには、すべての stepEvents と serviceEvents が含まれています。stepEvents は、ジャーニー内のプロファイルのアクティビティ（イベントやアクションなど）に関連するので、レポーティングに使用されます。serviceEvents は同じデータセットに保存され、デバッグ目的（エクスペリエンスイベント破棄の理由など）での追加情報を示します。
+ジャーニーステップイベントデータセットには、すべての stepEvents と serviceEvents が含まれています。 stepEventsは、アクティビティ（イベント、アクションなど）に関連するレポートで使用されます。 プロファイルの詳細を確認できます。 serviceEvents は同じデータセットに保存され、デバッグ目的（エクスペリエンスイベント破棄の理由など）での追加情報を示します。
 
 serviceEvent の詳細を確認するクエリの例を次に示します。
 
@@ -564,7 +565,7 @@ _出力例_
 | 2024-11-22 | 1,205 |
 | 2024-11-21 | 1,167 |
 
-このクエリは、指定した期間に 1 日ごとにジャーニーにエントリしたプロファイルの数を返します。プロファイルが別の ID を使用してエントリした場合は、2 回カウントされます。再エントリが有効になっている場合、別の日にジャーニーに再エントリした場合、プロファイル数が別の日に重複する可能性があります。
+このクエリは、指定した期間に 1 日ごとにジャーニーにエントリしたプロファイルの数を返します。 プロファイルが別の ID を使用してエントリした場合は、2 回カウントされます。 再エントリが有効になっている場合、別の日にジャーニーに再エントリした場合、プロファイル数が別の日に重複する可能性があります。
 
 詳しくは、[journey_step_events で破棄されたイベントタイプのトラブルシューティング](../reports/sharing-field-list.md#discarded-events)を参照してください。
 
@@ -690,7 +691,7 @@ WHERE
     _experience.journeyOrchestration.serviceEvents.segmentExportJob.eventType = 'segmenttrigger-orchestrator'
 ```
 
-指定されたジャーニーバージョンに関連するすべてのサービスイベントを返します。次の一連の操作に従うこともできます。
+指定されたジャーニーバージョンに関連するすべてのサービスイベントを返します。 次の一連の操作に従うこともできます。
 
 * トピック作成
 * エクスポートジョブの作成
@@ -965,6 +966,60 @@ _experience.journeyOrchestration.serviceEvents.dispatcher.eventType = 'ERROR_SER
 
 +++
 
+## ビジネスルールに関連するクエリ {#business-rules-queries}
+
++++特定の日付の後の特定のジャーニーのジャーニー頻度の上限の除外によるすべての破棄を確認します
+
+このクエリは、特定のジャーニーの頻度の上限ルールによって破棄されたすべてのプロファイルについて、特定の日付から拒否されたルールセットとルールの詳細を返します。
+
+_データレイクのクエリ_
+
+```sql
+SELECT
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventType,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCodeReason,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.ID AS RULESET_ID,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.name AS RULESET_NAME,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.rejectedRules.ID AS RULE_ID,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.rejectedRules.name AS RULE_NAME
+FROM
+    journey_step_events
+WHERE
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard'
+AND
+    _experience.journeyOrchestration.stepEvents.journeyVersionID='<journeyVersionId>'
+AND
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.ID is not null
+AND
+    timestamp >= to_date('<YYYY-MM-DD>')
+```
+
+_例_
+
+```sql
+SELECT
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventType,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCodeReason,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.ID AS RULESET_ID,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.name AS RULESET_NAME,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.rejectedRules.ID AS RULE_ID,
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.rejectedRules.name AS RULE_NAME
+FROM
+    journey_step_events
+WHERE
+    _experience.journeyOrchestration.serviceEvents.dispatcher.eventCode = 'discard'
+AND
+    _experience.journeyOrchestration.stepEvents.journeyVersionID='3855072d-79c3-438a-a5c3-c77fd6843812'
+AND
+    _experience.journeyOrchestration.serviceEvents.dispatcher.rejectedRuleset.ID is not null
+AND
+    timestamp >= to_date('2025-05-16')
+```
+
+このクエリは、ルールセットが一致した場所（null以外の`rejectedRuleset.ID`）ですべての破棄を返します。 `eventCodeReason` フィールドには、破棄の副理由が示されます：`LOWER_PRIORITY` （ジャーニーの調停により破棄されたプロファイル）または`CAP_REACHED` （頻度の上限に達したため破棄されたプロファイル）。 この結果は、特定の頻度キャッピングルールセットとルールが、指定された日付の後にプロファイルをジャーニーから除外する原因となったかを示しています。
+
++++
+
 ## イベントベースのクエリ {#event-based-queries}
 
 +++ジャーニーがビジネスイベントを受け取ったかどうかを確認する
@@ -1051,15 +1106,14 @@ _experience.journeyOrchestration.serviceEvents.stateMachine.eventType = 'discard
 
 ## 魅力的なプロファイルのクエリ {#engageable-profiles-queries}
 
-これらのクエリは、エンゲージメント可能なプロファイル数を監視し、分析するのに役立ちます。 エンゲージメント可能なプロファイルとは、過去12 ヶ月間にジャーニーまたはキャンペーンを通じてエンゲージされた独自のプロファイルです。 [&#x200B; エンゲージ可能なプロファイルとライセンスの使用状況](../audience/license-usage.md#what-is-engageable-profile)について詳しく説明します。
+これらのクエリは、エンゲージメント可能なプロファイル数を監視し、分析するのに役立ちます。 エンゲージメント可能なプロファイルとは、過去12 ヶ月間にジャーニーまたはキャンペーンを通じてエンゲージされた独自のプロファイルです。 [ エンゲージ可能なプロファイルとライセンスの使用状況](../audience/license-usage.md#what-is-engageable-profile)について詳しく説明します。
 
->[!IMPORTANT]
->
->**エンゲージ可能なプロファイルのクエリに関するベストプラクティス：**
->* 各集計フィールドが`GROUP BY`句に含まれていないことを確認してください
->* サンドボックスに存在しないデータセットを参照しない – Platform UIでデータセット名を確認する
->* 一意のプロファイルをカウントする際に`distinct`を使用すると、ID名前空間間の重複を回避できます
->* `LIMIT`を使用する場合は、`ORDER BY`句の後のクエリの最後に配置します
+**エンゲージ可能なプロファイルのクエリに関するベストプラクティス：**
+
+* 各集計フィールドが`GROUP BY`句に含まれていないことを確認してください
+* サンドボックスに存在しないデータセットを参照しない – Platform UIでデータセット名を確認する
+* 一意のプロファイルをカウントする際に`distinct`を使用すると、ID名前空間間の重複を回避できます
+* `LIMIT`を使用する場合は、`ORDER BY`句の後のクエリの最後に配置します
 
 +++特定のジャーニーがエンゲージしたユニークなプロファイルを数える
 
@@ -1072,13 +1126,13 @@ WHERE _experience.journeyOrchestration.stepEvents.journeyVersionID = '<journeyVe
 AND timestamp > (now() - interval '12' month);
 ```
 
-このクエリは、過去12か月間に特定のジャーニーが[&#x200B; エンゲージ可能なプロファイル &#x200B;](../audience/license-usage.md)件に貢献した一意のプロファイル数を把握するのに役立ちます。
+このクエリは、過去12か月間に特定のジャーニーが[ エンゲージ可能なプロファイル ](../audience/license-usage.md)件に貢献した一意のプロファイル数を把握するのに役立ちます。
 
 +++
 
 +++過去12 ヶ月間にジャーニーごとにエンゲージしたプロファイルの数
 
-このクエリは、過去12か月間に組織内の各ジャーニーがエンゲージしたユニーク プロファイルの数を示し、[&#x200B; エンゲージ可能なプロファイル &#x200B;](../audience/license-usage.md)数に最も貢献しているジャーニーを特定するのに役立ちます。
+このクエリは、過去12か月間に組織内の各ジャーニーがエンゲージしたユニーク プロファイルの数を示し、[ エンゲージ可能なプロファイル ](../audience/license-usage.md)数に最も貢献しているジャーニーを特定するのに役立ちます。
 
 ```sql
 SELECT 
@@ -1111,7 +1165,7 @@ _出力例_
 
 +++過去30日間のジャーニーごとにエンゲージメントされたプロファイルを数える
 
-このクエリでは、新しくエンゲージしたプロファイルの日次の内訳を提供し、[&#x200B; エンゲージ可能なプロファイル &#x200B;](../audience/license-usage.md)数の急増を特定するのに役立ちます。
+このクエリでは、新しくエンゲージしたプロファイルの日次の内訳を提供し、[ エンゲージ可能なプロファイル ](../audience/license-usage.md)数の急増を特定するのに役立ちます。
 
 ```sql
 SELECT 
@@ -1133,13 +1187,13 @@ _出力例_
 | 2024-11-22 | 9,230 |
 | 2024-11-21 | 8,670 |
 
-このアウトプットは、日々のトレンドをモニターし、大量のプロファイルがいつエンゲージされているのかを特定するのに役立ちます。 この例では、11月23日に、典型的な毎日のエンゲージメント（約8,000個のプロファイル）と比較して、大幅なスパイク（125,340個のプロファイル）が表示されます。これは、どのジャーニーまたはキャンペーンが[&#x200B; エンゲージメントプロファイル &#x200B;](../audience/license-usage.md)数の増加を引き起こしたかを把握するための調査が必要です。
+このアウトプットは、日々のトレンドをモニターし、大量のプロファイルがいつエンゲージされているのかを特定するのに役立ちます。 この例では、11月23日に、典型的な毎日のエンゲージメント（約8,000個のプロファイル）と比較して、大幅なスパイク（125,340個のプロファイル）が表示されます。これは、どのジャーニーまたはキャンペーンが[ エンゲージメントプロファイル ](../audience/license-usage.md)数の増加を引き起こしたかを把握するための調査が必要です。
 
 +++
 
 +++最近、大規模なオーディエンスを惹きつけたジャーニーを特定
 
-このクエリは、最近多数の新しいプロファイルをエンゲージしたジャーニーを特定するのに役立ちます。これは、[&#x200B; エンゲージ可能なプロファイル &#x200B;](../audience/license-usage.md)数の急激な増加を説明します。
+このクエリは、最近多数の新しいプロファイルをエンゲージしたジャーニーを特定するのに役立ちます。これは、[ エンゲージ可能なプロファイル ](../audience/license-usage.md)数の急激な増加を説明します。
 
 ```sql
 SELECT 
@@ -1190,7 +1244,7 @@ _出力例_
 
 >[!NOTE]
 >
->このクエリでは、ジャーニーステップイベントデータセット内の個別のプロファイル IDをカウントします。 [&#x200B; ライセンス使用状況ダッシュボード &#x200B;](../audience/license-usage.md)に表示される実際のエンゲージ可能プロファイル数は、キャンペーンやジャーニー以外のJourney Optimizer機能を通じてエンゲージされたプロファイルも含まれているため、若干異なる場合があります。
+>このクエリでは、ジャーニーステップイベントデータセット内の個別のプロファイル IDをカウントします。 [ ライセンス使用状況ダッシュボード ](../audience/license-usage.md)に表示される実際のエンゲージ可能プロファイル数は、キャンペーンやジャーニー以外のJourney Optimizer機能を通じてエンゲージされたプロファイルも含まれているため、若干異なる場合があります。
 
 +++
 
@@ -1219,7 +1273,7 @@ _出力例_
 | 2024-11-22 | 11 |
 | 2024-11-21 | 13 |
 
-このクエリは、指定した期間に 1 日にトリガーされた一意のジャーニーの数を返します。1 つのジャーニーが複数日でトリガーされる場合は、1 日につき 1 回とカウントされます。
+このクエリは、指定した期間に 1 日にトリガーされた一意のジャーニーの数を返します。 1 つのジャーニーが複数日でトリガーされる場合は、1 日につき 1 回とカウントされます。
 
 
 +++
