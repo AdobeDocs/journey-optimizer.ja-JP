@@ -66,7 +66,7 @@ ht-degree: 60%
 
 >[!NOTE]
 >
->上記のケース （ジャーニー Bで既にアクティブなプロファイル）では、**サイレントスキップ**&#x200B;が発生します。エラーは発生せず、ジャーニー Aは正常に続行されます。 その他の状況では、ジャンプは&#x200B;**失敗**&#x200B;し、ジャーニー Aは標準のアクションエラー処理を適用します。 ケースの完全なリストについては、[ ランタイムエラー](#jump-troubleshoot)を参照してください。
+>上記のケース （ジャーニー Bで既にアクティブなプロファイル）では、**サイレントスキップ**&#x200B;が発生します。エラーは発生せず、ジャーニー Aは正常に続行されます。 その他の状況では、ジャンプは&#x200B;**失敗**&#x200B;し、ジャーニー Aは標準のアクションエラー処理を適用します。 ケースの完全なリストについては、[&#x200B; ランタイムエラー](#jump-troubleshoot)を参照してください。
 
 ## ベストプラクティスと制限 {#jump-limitations}
 
@@ -108,7 +108,7 @@ Journey Optimizerで各フェーズを個別のジャーニーとして構築し
 
 >[!TIP]
 >
->このアプローチの詳細なチュートリアルについては、[Journey Optimizerの高度なジャーニーのベストプラクティス ](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}を参照してください。
+>このアプローチの詳細なチュートリアルについては、[Journey Optimizerの高度なジャーニーのベストプラクティス &#x200B;](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}を参照してください。
 
 ## ジャンプアクティビティの設定 {#jump-configure}
 
