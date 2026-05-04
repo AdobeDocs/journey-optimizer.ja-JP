@@ -7,9 +7,9 @@ feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 6143eaf5d973d3e457b89a69ed0ec63724270f5e
+source-git-commit: bf5f369a5cf4341fb815928765b3cf73bf1ff204
 workflow-type: tm+mt
-source-wordcount: '2189'
+source-wordcount: '2208'
 ht-degree: 88%
 
 ---
@@ -249,6 +249,10 @@ Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Ex
 >id="ajo_surface_dynamic_app_id"
 >title="Personalize App id"
 >abstract="複数のモバイルアプリを管理する場合は、各アプリ IDをプロファイルに保存し、単一のプッシュチャネル設定を使用します。 アプリ ID フィールドの横にあるパーソナライゼーションエディターを開いて、プロファイル属性を選択します。この式は、受信者ごとに送信時に評価されます。 式が返すことができるアプリ IDごとにプッシュ資格情報が存在することを確認します。"
+
+>[!AVAILABILITY]
+>
+>この機能は、一連の組織でのみ使用できます（限定提供）。 アクセスするには、アドビ担当者にお問い合わせください。
 
 複数のブランドまたはテナントが別々のアプリを使用している場合は、各&#x200B;**[!UICONTROL アプリ ID]**&#x200B;をプロファイルに保存し、1つのチャネル設定を使用して、各受信者に対して適切なアプリにプッシュ通知を送信できます。
 
