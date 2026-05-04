@@ -7,13 +7,11 @@ feature: Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
-hide: true
 keywords: CC、カーボンコピー、メール、チャネル設定、メールヘッダー、BCC
-badge: label="限定提供" type="Informative"
 exl-id: 9649cc07-3183-4510-b5d9-b1e33eff43e9
-source-git-commit: df74a51fc8bf0336347c75b19331c80a1535fefe
+source-git-commit: 05c0fcb3283a2adb7c69e3afdd4b2d75cbc4b5b5
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '906'
 ht-degree: 12%
 
 ---
@@ -24,10 +22,6 @@ ht-degree: 12%
 >id="ajo_admin_config_cc"
 >title="CC メールアドレスの定義"
 >abstract="このチャネル設定で送信されるメールに、表示可能な CC（カーボンコピー）フィールドを追加できます。 固定メールアドレスを入力するか、パーソナライゼーション（プロファイル属性またはコンテキスト変数）を使用します。 CC の使用は、資格のあるメッセージ量にカウントされることに注意してください。"
-
->[!AVAILABILITY]
->
->この機能は、制限付き可用性を持つすべてのお客様が利用できます。 アクセス権を取得するには、アドビ担当者にお問い合わせください。
 
 ジャーニーとキャンペーンを通じて[!DNL Journey Optimizer]によって送信されたメールに、表示CC （カーボンコピー）フィールドを追加できます。 このオプション機能は、メールヘッダーパラメーターおよびBCC メールオプションと共に、[&#x200B; チャネル設定](channel-surfaces.md) レベルで設定されます。
 
