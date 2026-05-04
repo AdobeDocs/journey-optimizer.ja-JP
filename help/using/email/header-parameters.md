@@ -24,7 +24,7 @@ ht-degree: 60%
 >
 >メール設定の制御を高めるには、ヘッダーパラメーターをパーソナライズできます。 [詳細情報](../email/surface-personalization.md#personalize-header)
 >
->メール設定](../configuration/channel-surfaces.md#edit-channel-surface)を[編集する場合、ヘッダーパラメーターに新しい[ プロファイル属性](../personalization/personalization-build-expressions.md#sources)を追加することはできません。 新しいチャネル設定を作成する必要があります。
+>メール設定[&#128279;](../configuration/channel-surfaces.md#edit-channel-surface)を編集する場合、ヘッダーパラメーターに新しい[&#x200B; プロファイル属性](../personalization/personalization-build-expressions.md#sources)を追加することはできません。 新しいチャネル設定を作成する必要があります。
 
 * **[!UICONTROL 送信者名]**：送信者の名前（会社のブランド名など）。
 
@@ -76,7 +76,7 @@ ht-degree: 60%
 
 >[!NOTE]
 >
->これらのフィールドはオプションです。 他のヘッダーフィールドと同様に、[ パーソナライズ ](surface-personalization.md#personalize-header)できます。
+>これらのフィールドはオプションです。 他のヘッダーフィールドと同様に、[&#x200B; パーソナライズ &#x200B;](surface-personalization.md#personalize-header)できます。
 
 **[!UICONTROL 送信者の名前]**&#x200B;と&#x200B;**[!UICONTROL 送信者の電子メール]**&#x200B;が設定されると、[!DNL Journey Optimizer]さんが&#x200B;**送信者** SMTP ヘッダーを電子メール <!--as defined in [RFC 5322](https://datatracker.ietf.org/doc/html/rfc5322#section-3.6.2){target="_blank"}-->に追加します。 これをサポートする電子メールクライアントは、送信者&#x200B;**または**&#x200B;経由&#x200B;**インジケーターの代理で**&#x200B;送信者などの文言を表示する場合があります。
 
@@ -86,7 +86,7 @@ ht-degree: 60%
 
 注意：
 
-* **送信者** アドレスは、SPF、DKIM、またはDMARCの調整には使用されません。**形式**&#x200B;の検証のみが実行されます。 SPF、DKIMおよびDMARCは、引き続き&#x200B;**から**&#x200B;のフィールドに依存します。 設定に選択した[ デリゲート サブドメイン ](../configuration/about-subdomain-delegation.md)は、これらのチェックに使用される送信ドメインのままです。
+* **送信者** アドレスは、SPF、DKIM、またはDMARCの調整には使用されません。**形式**&#x200B;の検証のみが実行されます。 SPF、DKIMおよびDMARCは、引き続き&#x200B;**から**&#x200B;のフィールドに依存します。 設定に選択した[&#x200B; デリゲート サブドメイン &#x200B;](../configuration/about-subdomain-delegation.md)は、これらのチェックに使用される送信ドメインのままです。
 
 * **送信者**&#x200B;が設定されており、パーソナライゼーションが受信者の値に解決されない場合、メッセージはその受信者に配信されません。
 
