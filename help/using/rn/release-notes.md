@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: bf5f369a5cf4341fb815928765b3cf73bf1ff204
+source-git-commit: d975d9cd95d33ea8972cf9388e7f868009c4fb95
 workflow-type: tm+mt
-source-wordcount: '2047'
+source-wordcount: '1990'
 ht-degree: 20%
 
 ---
@@ -44,6 +44,24 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <table>
 <thead>
 <tr>
+<th><strong>統合</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><b>統合</b>機能を使用すると、サードパーティのデータソースをAdobe Journey Optimizerに直接接続できます。 この機能により、外部データと<b>構成可能なコンテンツ </b>の取り込み方法が簡素化され、あらゆるチャネルをまたいで、パーソナライズされた動的なメッセージを容易に配信できるようになります。</p>
+<p>この機能は、以前はベータ版でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。</p>
+<p>詳しくは、<a href="../integrations/integrations.md">詳細なドキュメント</a>を参照してください。</p>
+<p>ご利用いただけます：2026年5月4日（PT）</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>オーケストレーションされたキャンペーンでの増分クエリアクティビティ</strong><br/></th>
 </tr>
 </thead>
@@ -53,7 +71,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <p><strong> オーケストレーションされたキャンペーン </strong>は、前回の実行以降に新たに対象となったプロファイルまたはイベントのみをターゲットとする<strong>増分クエリ </strong> アクティビティをサポートするようになりました。
 
 これにより、定期的なキャンペーンでは、新規オーディエンス（新規登録、新たに適格なロイヤルティメンバーなど）に重点を置きながら、クエリの作業負荷を軽減し、時間の経過に伴う冗長な送信を避けることができます。</p>
-<p>詳しくは、<a href="../orchestrated/activities/incremental-query.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../orchestrated/activities/incremental-query.md#incremental-query-configuration">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -69,7 +87,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Optimizerを使用すると、送信者（送信者）とオーサリングエンティティ（送信者）が異なるメールを送信できるようになりました。 これをサポートするメールクライアントは、通常、「送信者の代理で送信者」としてレンダリングするか、「経由」インジケーターを表示します。 この機能を設定するには、メールチャネル設定のオプションの<strong>送信者ヘッダー</strong> フィールドに入力します。</p>
-<p>この機能は、一連の組織でのみ使用できます（限定提供）。 アクセスするには、アドビ担当者にお問い合わせください。</p>
 <p><img src="assets/do-not-localize/sender-headers.gif"></p>
 <p>詳しくは、<a href="../email/header-parameters.md#sender-header">詳細なドキュメント</a>を参照してください。</p>
 </td>
@@ -278,8 +295,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **チャネル設定でアプリ IDをパーソナライズ** - プッシュチャネル設定設定で、**アプリ ID** フィールドをパーソナライズして、各受信者がプロファイル情報に基づいて適切なブランドからプッシュ通知を受け取れるようにできるようになりました。 [詳細情報](../push/push-configuration.md#app-id-personalization)
 
-  この機能は、一連の組織でのみ使用できます（限定提供）。 アクセスするには、アドビ担当者にお問い合わせください。
-
 #### 決定
 
 * **決定項目にフラグメントを添付** - Journey Optimizerでは、決定項目にフラグメントを添付できるようになりました。この機能は、決定ポリシーを通じて、コードベースのエクスペリエンスおよびメールキャンペーンで活用できます。 [詳細情報](../experience-decisioning/fragments-decision-policies.md)
@@ -358,22 +373,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <table>
 <thead>
 <tr>
-<th><strong>統合</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p><b>統合</b>機能を使用すると、サードパーティのデータソースをAdobe Journey Optimizerに直接接続できます。 この機能により、外部データと<b>構成可能なコンテンツ </b>の取り込み方法が簡素化され、あらゆるチャネルをまたいで、パーソナライズされた動的なメッセージを容易に配信できるようになります。</p>
-<p>以前はベータ版でリリースされていましたが、この機能はすべての環境で使用できるようになりました（一般提供）。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>ジャーニーシミュレーション</strong><br/></th>
 </tr>
 </thead>
@@ -400,13 +399,9 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <p>メールDesignerの専用オプションを使用して、メールコンテンツにディープリンクを追加できるようになりました。</p><p>これにより、ユーザーはブラウザーやアプリストアにリダイレクトされずに、適切なアプリ内コンテンツに直接移動され、コンテキストとエンゲージメントが維持されます。</p>
 <!--<p><img src="assets/do-not-localize/forms.gif"></p>-->
 <p>詳しくは、 <a href="../email/message-tracking.md">詳細なドキュメント</a>を参照してください。</p>
+<p>ご利用いただけます：2026年5月7日（PT）</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-### 機能強化 {#comming-soon-improv}
-
-#### 設定
-
-* **URL パラメーター暗号化キーに対する特定の権限** - URL パラメーター暗号化キーにアクセスして管理するには、新しい権限が作成されました。 これで、**View Key Registry**&#x200B;および&#x200B;**Manage Key Registry**&#x200B;権限が付与されている必要があります。<!--[Read more](../personalization/url-parameter-encryption.md#create-keys)-->
