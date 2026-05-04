@@ -7,28 +7,16 @@ feature: Integrations
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
 keywords: 統合、ベンダー、サードパーティ
-source-git-commit: 16eb46843d0369ae14f004a5e0f9e743cad3170b
+source-git-commit: 4cc3c959fe08c1d574a5d041bf7721441bc96f97
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 1%
+source-wordcount: '375'
+ht-degree: 0%
 
 ---
 
 
 # ベンダーとの連携 {#vendor-integration}
-
->[!BEGINSHADEBOX]
-
-目次：
-
-* [統合の操作](integrations.md)
-* **[ベンダー統合の基本を学ぶ](vendor-integration-gs.md)**
-* [利用可能なベンダー](vendor-integration.md)
-* [FAQ](vendor-integration-faq.md)
-
->[!ENDSHADEBOX]
 
 Adobe Journey Optimizerで&#x200B;**Integrations**&#x200B;を使用して、各システムがユースケースに適した&#x200B;**API エンドポイント**&#x200B;を公開し、Integrationsがリクエストを発行し、応答を消費する方法と互換性がある場合、HTTP **経由で**&#x200B;外部システムを呼び出すことができます。 完全なワークフローについては、[統合の操作](integrations.md)を参照してください。
 
@@ -44,6 +32,7 @@ Adobe Journey Optimizerで&#x200B;**Integrations**&#x200B;を使用して、各�
 * **ボリュームと信頼性：** ベンダーの&#x200B;**レート制限**&#x200B;を尊重します。 チャネルの&#x200B;**タイムアウト**、**再試行**&#x200B;および&#x200B;**キャッシュ** ポリシーを設定し（バッチメールとトランザクション送信など）、読み込み中に検証します。
 * **セキュリティ：**&#x200B;組織のポリシーに従って、トークン、API キー、OAuth資格情報を保存および回転します。 メッセージコンテンツにシークレットを埋め込まないでください。
 
+
 ## 制限と除外事項 {#limitations-exclusions}
 
 サードパーティのソリューション リストは&#x200B;**illustrative**&#x200B;で、すべてを網羅しているわけではありません。 ベンダーAPI、ホスト、レート制限、JSONまたはHTMLのレスポンスの形状が変化する可能性があります。 エンドポイント、認証、フィールドマッピングを、ベンダーの現在のドキュメントとサブスクリプションで確認します。 このパターンは、パーソナライゼーションに適した&#x200B;**読み取り指向**&#x200B;呼び出しを想定しています。 統合では、**JSON**&#x200B;および&#x200B;**HTML**&#x200B;の応答からのマッピングのみがサポートされています。 **書き戻し**、**バッチ書き出し**、およびその他の形式の応答はサポートされていません。
@@ -52,8 +41,8 @@ Adobe Journey Optimizerで&#x200B;**Integrations**&#x200B;を使用して、各�
 
 以下のグループ化されたリンクを使用して、関連するベンダーパターンにすばやく移動できます。
 
-* **コンテンツ管理システム：** [Contentful](#contentful)、[Sitecore](#sitecore)、[Salsify](#salsify)、[Contentstack](#contentstack)、[Akeneo](#akeneo)、[Magnolia](#magnolia)
-* **ロイヤルティと報酬：** [Voucherify](#voucherify)、[Talon.One](#talon-one)、[Antavo](#antavo)、[Salesforce ロイヤルティ &#x200B;](#salesforce-loyalty)、[&#x200B; キャピラリー](#capillary)
-* **テンプレート、パーソナライズとレコメンデーション：** [Stensul](#stensul)、[Marigold](#marigold)、[Adobe Targetのレコメンデーション &#x200B;](#adobe-target-recommendations)
-* **データ、天気、および操作：** [AccuWeather](#accuweather)、[ShipStation](#shipstation)、[RevenueCat](#revenuecat)、[Databricks](#databricks)
-* **レビュー、同意、およびソーシャル：** [Bynder](#bynder)、[Trustpilot](#trustpilot)、[Bazaarvoice](#bazaarvoice)、[OneTrust](#onetrust)、[Meta](#meta)、[Aprimo](#aprimo)、[Epsilon （Epsilon3） &#x200B;](#epsilon)
+* **コンテンツ管理システム：** [Contentful](vendor-integration.md#contentful)、[Sitecore](vendor-integration.md#sitecore)、[Salsify](vendor-integration.md#salsify)、[Contentstack](vendor-integration.md#contentstack)、[Akeneo](vendor-integration.md#akeneo)、[Magnolia](vendor-integration.md#magnolia)
+* **ロイヤルティと報酬：** [Voucherify](vendor-integration.md#voucherify)、[Talon.One](vendor-integration.md#talon-one)、[Antavo](vendor-integration.md#antavo)、[Salesforce ロイヤルティ &#x200B;](vendor-integration.md#salesforce-loyalty)、[&#x200B; キャピラリー](vendor-integration.md#capillary)
+* **テンプレート、パーソナライズとレコメンデーション：** [Stensul](vendor-integration.md#stensul)、[Marigold](vendor-integration.md#marigold)、[Adobe Targetのレコメンデーション &#x200B;](vendor-integration.md#adobe-target-recommendations)
+* **データ、天気、および操作：** [AccuWeather](vendor-integration.md#accuweather)、[ShipStation](vendor-integration.md#shipstation)、[RevenueCat](vendor-integration.md#revenuecat)、[Databricks](vendor-integration.md#databricks)
+* **レビュー、同意、およびソーシャル：** [Bynder](vendor-integration.md#bynder)、[Trustpilot](vendor-integration.md#trustpilot)、[Bazaarvoice](vendor-integration.md#bazaarvoice)、[OneTrust](vendor-integration.md#onetrust)、[Meta](vendor-integration.md#meta)、[Aprimo](vendor-integration.md#aprimo)、[Epsilon （Epsilon3） &#x200B;](vendor-integration.md#epsilon)

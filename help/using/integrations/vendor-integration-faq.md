@@ -8,26 +8,14 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 統合、FAQ、外部データ、パーソナライゼーション
-hide: true
-source-git-commit: e4c298fb1c47501920a27a93b43878327b6c5861
+source-git-commit: 4cc3c959fe08c1d574a5d041bf7721441bc96f97
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 2%
+source-wordcount: '852'
+ht-degree: 1%
 
 ---
 
 # 統合に関するよくある質問 {#vendor-integration-faq}
-
->[!BEGINSHADEBOX]
-
-目次：
-
-* [統合の操作](integrations.md)
-* [ベンダーとの連携を始める](vendor-integration-gs.md)
-* [利用可能なベンダー](vendor-integration.md)
-* **[FAQ](vendor-integration-faq.md)**
-
->[!ENDSHADEBOX]
 
 以下は、Adobe Journey Optimizerの&#x200B;**統合**&#x200B;に関するよくある質問です。
 
@@ -114,9 +102,9 @@ JSON応答のサンプルを貼り付けて、システムがデータタイプ�
 
 +++ 再利用可能なフラグメントで統合機能を使用できますか？
 
-統合機能は、フラグメントで&#x200B;**not** サポートされています。 製品がサポートするキャンペーンおよびジャーニーメッセージコンテンツで統合を使用します。
+統合機能は、フラグメントでサポートされています。
 
-➡️ [&#x200B; フラグメントとベータ版の制限について詳しく見る](integrations.md#limitations)
+➡️ [&#x200B; フラグメントの詳細](aem-fragments-gs.md)
 
 +++
 
@@ -132,7 +120,7 @@ JSON応答のサンプルを貼り付けて、システムがデータタイプ�
 
 +++ サポートされているAPI応答形式は何ですか？
 
-API呼び出し応答の場合、**JSON**&#x200B;はフィールドマッピングでサポートされています。 生のバイナリ画像出力とJSON以外の形式は、このワークフローでは使用できません。
+API呼び出し応答の場合、**JSON**&#x200B;と&#x200B;**HTML**&#x200B;はフィールドマッピングでサポートされています。 生のバイナリ画像出力とJSON以外の形式は、このワークフローでは使用できません。
 
 ➡️ [JSONおよび応答形式について詳しく見る](integrations.md#limitations)
 
@@ -150,9 +138,9 @@ API呼び出し応答の場合、**JSON**&#x200B;はフィールドマッピン�
 
 +++ 統合を設定するには、どのような権限が必要ですか？
 
-設定は、**[!UICONTROL 設定]** > **[!UICONTROL 統合]**&#x200B;の下の管理者ワークフローです。 正確な権限名は、組織のAdmin ConsoleとJourney Optimizerの製品プロファイルによって異なります。 管理者またはAdobe担当者にお問い合わせください。
+統合の使用を開始するには、**[!UICONTROL AJO統合設定の管理]**&#x200B;および&#x200B;**[!UICONTROL AJO統合設定の表示]**&#x200B;権限を付与する必要があります。
 
-➡️ [統合が設定されている場所について詳しく見る](integrations.md#configure)
+➡️ [統合権限について詳しく見る](integrations.md#overview)
 
 +++
 

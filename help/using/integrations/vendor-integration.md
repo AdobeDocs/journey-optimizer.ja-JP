@@ -7,12 +7,11 @@ feature: Integrations
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
 keywords: 統合、ベンダー、サードパーティ
-source-git-commit: 16eb46843d0369ae14f004a5e0f9e743cad3170b
+source-git-commit: 4cc3c959fe08c1d574a5d041bf7721441bc96f97
 workflow-type: tm+mt
-source-wordcount: '9348'
-ht-degree: 7%
+source-wordcount: '10154'
+ht-degree: 6%
 
 ---
 
@@ -20,24 +19,27 @@ ht-degree: 7%
 
 >[!BEGINSHADEBOX]
 
-目次：
-
-* [統合の操作](integrations.md)
-* [ベンダーとの連携を始める](vendor-integration-gs.md)
-* **[ベンダー設定の例](vendor-integration.md)**
-* [FAQ](vendor-integration-faq.md)
+お客様は、AJO統合機能および関連するサードパーティベンダーまたは統合機能の使用が、HIPAAなどの適用されるすべての法律および規制に準拠していることを確認する責任があります。
 
 >[!ENDSHADEBOX]
 
->[!BEGINSHADEBOX]
+## クイックナビゲーション {#quick-navigation}
 
-顧客およびサードパーティプロバイダーは、セキュリティとコンプライアンスの要件に応じて、API エンドポイントを保護する責任があります。
+以下のグループ化されたリンクを使用して、関連するベンダーパターンにすばやく移動できます。
 
->[!ENDSHADEBOX]
+* **コンテンツ管理システム：** [Contentful](#contentful)、[Sitecore](#sitecore)、[Salsify](#salsify)、[Contentstack](#contentstack)、[Akeneo](#akeneo)、[Magnolia](#magnolia)
+* **ロイヤルティと報酬：** [Voucherify](#voucherify)、[Talon.One](#talon-one)、[Antavo](#antavo)、[Salesforce ロイヤルティ &#x200B;](#salesforce-loyalty)、[&#x200B; キャピラリー](#capillary)
+* **テンプレート、パーソナライズとレコメンデーション：** [Stensul](#stensul)、[Marigold](#marigold)、[Adobe Targetのレコメンデーション &#x200B;](#adobe-target-recommendations)
+* **データ、天気、および操作：** [AccuWeather](#accuweather)、[ShipStation](#shipstation)、[RevenueCat](#revenuecat)、[Databricks](#databricks)
+* **レビュー、同意、およびソーシャル：** [Bynder](#bynder)、[Trustpilot](#trustpilot)、[Bazaarvoice](#bazaarvoice)、[OneTrust](#onetrust)、[Meta](#meta)、[Aprimo](#aprimo)、[Epsilon （Epsilon3） &#x200B;](#epsilon)
 
 ## コンテンツとCMS {#content-and-cms}
 
 ### Contentful {#contentful}
+
+>[!IMPORTANT]
+>
+>この設定例は、サンプルパターンとしてAdobeによって個別にテストされました。 これは、Contentfulによって維持されたり、正式にサポートされたりするものではありません。 コンテンツに関するドキュメントで、現在のAPIの詳細を確認できます。
 
 >[!BEGINSHADEBOX]
 
@@ -53,7 +55,6 @@ Contentfulは、RESTまたはGraphQL経由の構造化されたエントリと�
 
 * 配信API アクセスと読み取り指向のAPI キーを備えたコンテンツフルスペース。
 * コンテンツタイプとフィールド IDをクリアします。Journey Optimizerの管理者アクセス権により、統合を作成できます。
-
 
 次の制限事項と除外事項が適用されます。
 
@@ -122,6 +123,10 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 +++
 
 ### Sitecore {#sitecore}
+
+>[!IMPORTANT]
+>
+>この設定例は、サンプルパターンとしてAdobeによって個別にテストされました。 この機能は、Sitecoreによって維持されたり、正式にサポートされたりするものではありません。 Sitecore ドキュメントで現在のAPIの詳細を確認します。
 
 >[!BEGINSHADEBOX]
 
@@ -208,6 +213,10 @@ Journey Optimizerでこのサンプル呼び出しを設定する場合は、次
 
 ### Salsify {#salsify}
 
+>[!IMPORTANT]
+>
+>この設定例は、サンプルパターンとしてAdobeによって個別にテストされました。 Salsifyによって維持または正式にサポートされていません。 Salsify ドキュメントで現在のAPIの詳細を確認します。
+
 >[!BEGINSHADEBOX]
 
 Salsifyは、商品、チャネル、デジタルアセット用のAPIを備えたPIMです。
@@ -293,6 +302,10 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 +++
 
 ### Contentstack {#contentstack}
+
+>[!IMPORTANT]
+>
+>この設定例は、サンプルパターンとしてAdobeによって個別にテストされました。 このコンポーネントは、Contentstackによって管理されたり、正式にサポートされたりするものではありません。 コンテンツスタックドキュメントで現在のAPIの詳細を確認してください。
 
 >[!BEGINSHADEBOX]
 
@@ -381,6 +394,10 @@ Contentstackでは、配信リクエストのヘッダーとして&#x200B;**両�
 +++
 
 ### アケネオ {#akeneo}
+
+>[!IMPORTANT]
+>
+>この設定例は、サンプルパターンとしてAdobeによって個別にテストされました。 これは、Akeneoによって維持または正式にサポートされていません。 AkeneoのドキュメントでAPIの詳細を確認。
 
 >[!BEGINSHADEBOX]
 
@@ -474,6 +491,10 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 ### マグノリア {#magnolia}
 
+>[!IMPORTANT]
+>
+>この設定例は、サンプルパターンとしてAdobeによって個別にテストされました。 Magnoliaによって維持または正式にサポートされていません。 Magnolia ドキュメントで現在のAPIの詳細を確認します。
+
 >[!BEGINSHADEBOX]
 
 Magnoliaでは、デプロイメントに応じて、ヘッドレスエンドポイントとREST配信エンドポイントを提供しています。
@@ -555,6 +576,10 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 ## ロイヤルティとリワード {#loyalty-and-rewards}
 
 ### Voucherify {#voucherify}
+
+>[!IMPORTANT]
+>
+>この設定例は、サンプルパターンとしてAdobeによって個別にテストされました。 Voucherifyによって維持または正式にサポートされていません。 Voucherifyのドキュメントで現在のAPIの詳細を確認できます。
 
 >[!BEGINSHADEBOX]
 
@@ -655,6 +680,10 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 ### Talon.One {#talon-one}
 
+>[!IMPORTANT]
+>
+>この設定例は、サンプルパターンとしてAdobeによって個別にテストされました。 これは、Talon.Oneによって維持または正式にサポートされていません。 Talon.One ドキュメントで現在のAPIの詳細を確認します。
+
 >[!BEGINSHADEBOX]
 
 Talon.Oneは、セッション、エフェクト、プロファイル用のREST APIを備えたプロモーションおよびロイヤルティルールエンジンです。
@@ -746,6 +775,10 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 ### アンタボ {#antavo}
 
+>[!IMPORTANT]
+>
+>この設定例は、サンプルパターンとしてAdobeによって個別にテストされました。 これは、Antavoによって維持または正式にサポートされていません。 Antavo ドキュメントで現在のAPIの詳細を確認します。
+
 >[!BEGINSHADEBOX]
 
 Antavoは、メンバー、報酬、イベント用のREST APIを備えたエンタープライズロイヤルティプラットフォームです。
@@ -827,6 +860,10 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 +++
 
 ### Salesforceロイヤルティ {#salesforce-loyalty}
+
+>[!IMPORTANT]
+>
+>この設定例は、サンプルパターンとしてAdobeによって個別にテストされました。 この機能は、Salesforceによって管理されたり、正式にサポートされたりするものではありません。 Salesforceのドキュメントで、現在のAPIの詳細を確認できます。
 
 >[!BEGINSHADEBOX]
 
@@ -923,6 +960,10 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 ### キャピラリー {#capillary}
 
+>[!IMPORTANT]
+>
+>この設定例は、サンプルパターンとしてAdobeによって個別にテストされました。 キャピラリーによって維持されたり、正式にサポートされたりすることはありません。 キャピラリーのドキュメントで現在のAPIの詳細を確認します。
+
 >[!BEGINSHADEBOX]
 
 キャピラリーは、小売スタックで一般的なロイヤルティおよびエンゲージメント APIを提供します。
@@ -1008,6 +1049,10 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 ### ステンスル {#stensul}
 
+>[!IMPORTANT]
+>
+>この設定例は、サンプルパターンとしてAdobeによって個別にテストされました。 Stensulによって維持または正式にサポートされていません。 Stensulのドキュメントで、現在のAPIの詳細を確認できます。
+
 >[!BEGINSHADEBOX]
 
 Stensulは、承認済みテンプレート用のメール作成プラットフォームです。Journey Optimizerは、APIを介してテンプレートメタデータと構造化リージョンを使用できます。
@@ -1051,6 +1096,10 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 1. 接続をテストしてアクティブ化します。
 
 ### マリゴールド {#marigold}
+
+>[!IMPORTANT]
+>
+>この設定例は、サンプルパターンとしてAdobeによって個別にテストされました。 Marigoldによって維持または正式にサポートされていません。 Marigoldのドキュメントで、現在のAPIの詳細を確認できます。
 
 >[!BEGINSHADEBOX]
 
@@ -1140,6 +1189,10 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 +++
 
 ### Adobe Targetの推奨事項 {#adobe-target-recommendations}
+
+>[!IMPORTANT]
+>
+>このコンフィギュレーションは、Adobe Journey Optimizer チームによってテストされたイラストパターンです。 Adobe Target Recommendationsは、独自のリリースサイクルとAPI バージョン管理を備えた個別のAdobe製品です。 実稼動環境にデプロイする前に、常に現在のAPIの詳細を[Adobe Target開発者向けドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/target-dev/developer/overview)で確認してください。
 
 >[!BEGINSHADEBOX]
 
@@ -1281,6 +1334,10 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 ### AccuWeather {#accuweather}
 
+>[!IMPORTANT]
+>
+>この設定例は、サンプルパターンとしてAdobeによって個別にテストされました。 AccuWeatherによって維持または正式にサポートされていません。 AccuWeatherのドキュメントで現在のAPIの詳細を確認してください。
+
 >[!BEGINSHADEBOX]
 
 AccuWeatherは、予測および場所のREST APIを公開して、メッセージに天候に応じたスニペットを含めることができます。
@@ -1375,6 +1432,10 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 ### ShipStation {#shipstation}
 
+>[!IMPORTANT]
+>
+>この設定例は、サンプルパターンとしてAdobeによって個別にテストされました。 ShipStationによって維持または正式にサポートされていません。 ShipStationのドキュメントで現在のAPIの詳細を確認します。
+
 >[!BEGINSHADEBOX]
 
 ShipStationでは、配送業者、ラベル、トラッキング用の配送APIと注文APIを提供しています。
@@ -1465,6 +1526,10 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 +++
 
 ### RevenueCat {#revenuecat}
+
+>[!IMPORTANT]
+>
+>この設定例は、サンプルパターンとしてAdobeによって個別にテストされました。 RevenueCatによって維持または正式にサポートされていません。 RevenueCat ドキュメントで現在のAPIの詳細を確認します。
 
 >[!BEGINSHADEBOX]
 
@@ -1558,6 +1623,10 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 ### Databricks {#databricks}
 
+>[!IMPORTANT]
+>
+>この設定例は、サンプルパターンとしてAdobeによって個別にテストされました。 Databricksによって維持されたり、正式にサポートされたりすることはありません。 Databricksのドキュメントで現在のAPIの詳細を確認します。
+
 >[!BEGINSHADEBOX]
 
 Databricksは、レイクハウス データに対してSQL APIとREST APIを提供します。以前のドラフトでは、結合されたステートメント実行ガイダンスと&#x200B;**jobs/get** サンプルを使用していました。
@@ -1632,6 +1701,10 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 ## レビュー、同意、ソーシャル {#reviews-consent-and-social}
 
 ### バインダー {#bynder}
+
+>[!IMPORTANT]
+>
+>この設定例は、サンプルパターンとしてAdobeによって個別にテストされました。 Bynderによって維持または正式にサポートされていません。 Bynderのドキュメントで現在のAPIの詳細を確認します。
 
 >[!BEGINSHADEBOX]
 
@@ -1784,6 +1857,10 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 ### Trustpilot {#trustpilot}
 
+>[!IMPORTANT]
+>
+>この設定例は、サンプルパターンとしてAdobeによって個別にテストされました。 Trustpilotによって維持されたり、正式にサポートされたりすることはありません。 Trustpilotのドキュメントで現在のAPIの詳細を確認してください。
+
 >[!BEGINSHADEBOX]
 
 Trustpilotは、ユースケースと契約が許可するビジネスとレビューの概要データ用のAPIを提供します。
@@ -1869,6 +1946,10 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 ### Bazaarvoice {#bazaarvoice}
 
+>[!IMPORTANT]
+>
+>この設定例は、サンプルパターンとしてAdobeによって個別にテストされました。 Bazaarvoiceによって維持または正式にサポートされていません。 Bazaarvoice ドキュメントで現在のAPIの詳細を確認します。
+
 >[!BEGINSHADEBOX]
 
 Bazaarvoiceは評価、レビュー、UGC APIを提供しています。
@@ -1953,6 +2034,10 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 +++
 
 ### OneTrust {#onetrust}
+
+>[!IMPORTANT]
+>
+>この設定例は、サンプルパターンとしてAdobeによって個別にテストされました。 OneTrustによって維持されたり、正式にサポートされたりすることはありません。 OneTrustのドキュメントで、現在のAPIの詳細を確認できます。
 
 >[!BEGINSHADEBOX]
 
@@ -2040,6 +2125,10 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 ### Meta {#meta}
 
+>[!IMPORTANT]
+>
+>この設定例は、サンプルパターンとしてAdobeによって個別にテストされました。 この機能は、Metaによって管理されたり、正式にサポートされたりするものではありません。 Metaのドキュメントで、現在のAPIの詳細を確認できます。
+
 >[!BEGINSHADEBOX]
 
 Metaのグラフおよびマーケティング APIは、承認済みのビジネス統合のために、カタログとキャンペーンオブジェクトを公開します。
@@ -2126,6 +2215,10 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 ### Aprimo {#aprimo}
 
+>[!IMPORTANT]
+>
+>この設定例は、サンプルパターンとしてAdobeによって個別にテストされました。 Aprimoによって維持または正式にサポートされていません。 AprimoのドキュメントでAPIの現在の詳細を確認できます。
+
 >[!BEGINSHADEBOX]
 
 Aprimoは、レコード、アセット、メタデータのマーケティング業務とDAM APIを組み合わせています。
@@ -2209,6 +2302,10 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 +++
 
 ### イプシロン（Epsilon3） {#epsilon}
+
+>[!IMPORTANT]
+>
+>この設定例は、サンプルパターンとしてAdobeによって個別にテストされました。 Epsilonによって維持または正式にサポートされていません。 Epsilon ドキュメントで現在のAPIの詳細を確認してください。
 
 >[!BEGINSHADEBOX]
 

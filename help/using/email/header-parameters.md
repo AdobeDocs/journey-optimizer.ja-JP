@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 設定、電子メール、設定、送信者ヘッダー、SMTP
 exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
-source-git-commit: bf5f369a5cf4341fb815928765b3cf73bf1ff204
+source-git-commit: 14aa1c3a470bfebad0632614808380bab8b953b0
 workflow-type: tm+mt
-source-wordcount: '1108'
-ht-degree: 60%
+source-wordcount: '1089'
+ht-degree: 59%
 
 ---
 
@@ -57,10 +57,6 @@ ht-degree: 60%
 >id="ajo_admin_preset_sender_header"
 >title="Sender headers"
 >abstract="送信エンティティ（送信者）がオーサリングエンティティ（送信者）と異なる場合、これらのオプションフィールドを使用します。例えば、企業の親が子ブランドのメッセージをディスパッチしたり、複数の顧客を送信する代理店などが使用します。 これをサポートするメールクライアントは、通常、「送信者の代理で送信者」としてレンダリングするか、「経由」インジケーターを表示します。"
-
->[!AVAILABILITY]
->
->この機能は、一連の組織でのみ使用できます（限定提供）。 アクセスするには、アドビ担当者にお問い合わせください。
 
 メッセージを送信するメールボックスは、**From**&#x200B;作成者とは異なる場合があります。例えば、子会社の代理で送信する親組織、複数のブランドの共有マーケティングチーム、複数のクライアントに送信する代理店などが必要です。
 
