@@ -8,26 +8,14 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 統合、FAQ、外部データ、パーソナライゼーション
-hide: true
-source-git-commit: e4c298fb1c47501920a27a93b43878327b6c5861
+source-git-commit: 4cc3c959fe08c1d574a5d041bf7721441bc96f97
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 2%
+source-wordcount: '852'
+ht-degree: 1%
 
 ---
 
 # 統合に関するよくある質問 {#vendor-integration-faq}
-
->[!BEGINSHADEBOX]
-
-目次：
-
-* [統合の操作](integrations.md)
-* [ベンダーとの連携を始める](vendor-integration-gs.md)
-* [利用可能なベンダー](vendor-integration.md)
-* **[FAQ](vendor-integration-faq.md)**
-
->[!ENDSHADEBOX]
 
 以下は、Adobe Journey Optimizerの&#x200B;**統合**&#x200B;に関するよくある質問です。
 
@@ -62,9 +50,9 @@ ht-degree: 2%
 
 例えば、ロイヤルティシステムからの報酬ポイント、製品価格情報、レコメンデーションエンジンからのレコメンデーション、配送状況などのロジスティクス更新などがあります。
 
-➡️ [&#x200B; サードパーティシステムからのサンプルデータについて詳しく見る](integrations.md)
+➡️ [ サードパーティシステムからのサンプルデータについて詳しく見る](integrations.md)
 
-➡️ [&#x200B; ベンダー統合の例について詳しく見る](vendor-integration.md)
+➡️ [ ベンダー統合の例について詳しく見る](vendor-integration.md)
 
 +++
 
@@ -108,15 +96,15 @@ JSON応答のサンプルを貼り付けて、システムがデータタイプ�
 
 はい。 この機能は、現在の製品制限内で、**アウトバウンド** チャネル（電子メール、SMS、プッシュなど）のジャーニーとキャンペーンの両方で利用できます。
 
-➡️ [&#x200B; ジャーニーとキャンペーンの詳細](integrations.md#limitations)
+➡️ [ ジャーニーとキャンペーンの詳細](integrations.md#limitations)
 
 +++
 
 +++ 再利用可能なフラグメントで統合機能を使用できますか？
 
-統合機能は、フラグメントで&#x200B;**not** サポートされています。 製品がサポートするキャンペーンおよびジャーニーメッセージコンテンツで統合を使用します。
+統合機能は、フラグメントでサポートされています。
 
-➡️ [&#x200B; フラグメントとベータ版の制限について詳しく見る](integrations.md#limitations)
+➡️ [ フラグメントの詳細](aem-fragments-gs.md)
 
 +++
 
@@ -126,13 +114,13 @@ JSON応答のサンプルを貼り付けて、システムがデータタイプ�
 
 **送信** チャネル（電子メール、SMS、プッシュなど）がサポートされています。
 
-➡️ [&#x200B; サポートされているチャネルについて詳しく見る](integrations.md#limitations)
+➡️ [ サポートされているチャネルについて詳しく見る](integrations.md#limitations)
 
 +++
 
 +++ サポートされているAPI応答形式は何ですか？
 
-API呼び出し応答の場合、**JSON**&#x200B;はフィールドマッピングでサポートされています。 生のバイナリ画像出力とJSON以外の形式は、このワークフローでは使用できません。
+API呼び出し応答の場合、**JSON**&#x200B;と&#x200B;**HTML**&#x200B;はフィールドマッピングでサポートされています。 生のバイナリ画像出力とJSON以外の形式は、このワークフローでは使用できません。
 
 ➡️ [JSONおよび応答形式について詳しく見る](integrations.md#limitations)
 
@@ -150,9 +138,9 @@ API呼び出し応答の場合、**JSON**&#x200B;はフィールドマッピン�
 
 +++ 統合を設定するには、どのような権限が必要ですか？
 
-設定は、**[!UICONTROL 設定]** > **[!UICONTROL 統合]**&#x200B;の下の管理者ワークフローです。 正確な権限名は、組織のAdmin ConsoleとJourney Optimizerの製品プロファイルによって異なります。 管理者またはAdobe担当者にお問い合わせください。
+統合の使用を開始するには、**[!UICONTROL AJO統合設定の管理]**&#x200B;および&#x200B;**[!UICONTROL AJO統合設定の表示]**&#x200B;権限を付与する必要があります。
 
-➡️ [統合が設定されている場所について詳しく見る](integrations.md#configure)
+➡️ [統合権限について詳しく見る](integrations.md#overview)
 
 +++
 
@@ -172,7 +160,7 @@ API呼び出し応答の場合、**JSON**&#x200B;はフィールドマッピン�
 
 エンドポイント URL、HTTP メソッド、パステンプレート、ヘッダーとクエリパラメーター、認証、ポリシータイムアウトを確認します。 調整後に&#x200B;**[!UICONTROL テスト接続の送信]**&#x200B;を使用します。 ペイロードの問題の場合、サンプルに有効なJSONが反映され、選択したフィールドがAPIが返すフィールドと一致することを確認します。
 
-➡️ [&#x200B; テスト接続とペイロードの検証について詳しく見る](integrations.md#configure)
+➡️ [ テスト接続とペイロードの検証について詳しく見る](integrations.md#configure)
 
 +++
 
@@ -180,7 +168,7 @@ API呼び出し応答の場合、**JSON**&#x200B;はフィールドマッピン�
 
 テストに成功した後は、統合を&#x200B;**アクティブ化**&#x200B;する必要があります。 マーケターが&#x200B;**[!UICONTROL 統合]**&#x200B;を開くと、アクティブな統合のみが表示されます。 統合がまだドラフトまたは非アクティブの場合は、最初にアクティベーションを完了します。
 
-➡️ [&#x200B; テスト接続とアクティブ化について詳しく見る](integrations.md#configure)
+➡️ [ テスト接続とアクティブ化について詳しく見る](integrations.md#configure)
 
 +++
 
@@ -190,6 +178,6 @@ API呼び出し応答の場合、**JSON**&#x200B;はフィールドマッピン�
 
 互換性のあるAPI エンドポイントを公開するサードパーティプラットフォームと統合できます。 **Illustrative**&#x200B;のベンダーパターンと設定例は、互換性のあるAPIをモデル化するのに役立ちます。 エンドポイントのセキュリティを確保する責任は、サードパーティプラットフォームとマーケティング部門にあります。
 
-➡️ [&#x200B; ベンダー統合手順の詳細](vendor-integration.md)
+➡️ [ ベンダー統合手順の詳細](vendor-integration.md)
 
 +++
