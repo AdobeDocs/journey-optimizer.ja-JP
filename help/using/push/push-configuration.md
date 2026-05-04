@@ -7,9 +7,9 @@ feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: bf5f369a5cf4341fb815928765b3cf73bf1ff204
+source-git-commit: 14aa1c3a470bfebad0632614808380bab8b953b0
 workflow-type: tm+mt
-source-wordcount: '2208'
+source-wordcount: '2189'
 ht-degree: 88%
 
 ---
@@ -209,7 +209,7 @@ To get the SDKs needed for push notification to work you will need the following
 * **[!UICONTROL Adobe Experience Platform Edge]**
 * **[!UICONTROL Adobe Experience Platform Assurance]**, optional but recommended to debug the mobile implementation.
 
-Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-mobile-android-apps-with-launch/configure-launch/launch-add-extensions.html?lang=ja).
+Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-mobile-android-apps-with-launch/configure-launch/launch-add-extensions.html).
 -->
 
 ## 手順 2：プッシュ用のチャネル設定の作成{#message-preset}
@@ -237,7 +237,7 @@ Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Ex
 
 1. **[!UICONTROL プラットフォーム]**（Android、iOS <!--and/or Web-->）を選択します。
 
-1. **[!UICONTROL アプリ ID]**&#x200B;で、[&#x200B; プッシュ資格情報](#push-credentials-launch)と一致する値を選択します。 オプションで、パーソナライゼーションを使用して、単一のジャーニーまたはキャンペーンから多くのアプリを誘導します。 [詳細情報](#app-id-personalization)
+1. **[!UICONTROL アプリ ID]**&#x200B;で、[ プッシュ資格情報](#push-credentials-launch)と一致する値を選択します。 オプションで、パーソナライゼーションを使用して、単一のジャーニーまたはキャンペーンから多くのアプリを誘導します。 [詳細情報](#app-id-personalization)
 
 1. **変更内容を**&#x200B;保存します。
 
@@ -250,10 +250,6 @@ Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Ex
 >title="Personalize App id"
 >abstract="複数のモバイルアプリを管理する場合は、各アプリ IDをプロファイルに保存し、単一のプッシュチャネル設定を使用します。 アプリ ID フィールドの横にあるパーソナライゼーションエディターを開いて、プロファイル属性を選択します。この式は、受信者ごとに送信時に評価されます。 式が返すことができるアプリ IDごとにプッシュ資格情報が存在することを確認します。"
 
->[!AVAILABILITY]
->
->この機能は、一連の組織でのみ使用できます（限定提供）。 アクセスするには、アドビ担当者にお問い合わせください。
-
 複数のブランドまたはテナントが別々のアプリを使用している場合は、各&#x200B;**[!UICONTROL アプリ ID]**&#x200B;をプロファイルに保存し、1つのチャネル設定を使用して、各受信者に対して適切なアプリにプッシュ通知を送信できます。
 
 これを行うには、**[!UICONTROL アプリ ID]** フィールドの横にあるPersonalization アイコンをクリックし、アプリ IDにマッピングされたプロファイル属性を選択して保存します。 このフィールドは、送信時に受信者ごとに評価された対応する[Handlebars式](../personalization/personalization-syntax.md)を使用します。
@@ -262,7 +258,7 @@ Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Ex
 
 >[!CAUTION]
 >
->[!DNL Journey Optimizer]は、式が返す可能性のあるすべての値に[&#x200B; プッシュ資格情報](#push-credentials-launch)が存在するかどうかを確認しません。 考えられるあらゆるアプリ IDに対してプッシュ認証情報を使用していることを確認し、担当者のプロファイルでテストします。 受信者の解決済みアプリ IDに一致するプッシュ資格情報がない場合、想定どおりに配信されません。
+>[!DNL Journey Optimizer]は、式が返す可能性のあるすべての値に[ プッシュ資格情報](#push-credentials-launch)が存在するかどうかを確認しません。 考えられるあらゆるアプリ IDに対してプッシュ認証情報を使用していることを確認し、担当者のプロファイルでテストします。 受信者の解決済みアプリ IDに一致するプッシュ資格情報がない場合、想定どおりに配信されません。
 
 ## 手順3：モバイルプロパティでAdobe Journey Optimizer拡張機能を設定する {#configure-journey-optimizer-extension}
 

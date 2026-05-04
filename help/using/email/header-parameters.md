@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 設定、電子メール、設定、送信者ヘッダー、SMTP
 exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
-source-git-commit: bf5f369a5cf4341fb815928765b3cf73bf1ff204
+source-git-commit: 14aa1c3a470bfebad0632614808380bab8b953b0
 workflow-type: tm+mt
-source-wordcount: '1108'
-ht-degree: 60%
+source-wordcount: '1089'
+ht-degree: 59%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 60%
 >
 >メール設定の制御を高めるには、ヘッダーパラメーターをパーソナライズできます。 [詳細情報](../email/surface-personalization.md#personalize-header)
 >
->メール設定[&#128279;](../configuration/channel-surfaces.md#edit-channel-surface)を編集する場合、ヘッダーパラメーターに新しい[&#x200B; プロファイル属性](../personalization/personalization-build-expressions.md#sources)を追加することはできません。 新しいチャネル設定を作成する必要があります。
+>メール設定](../configuration/channel-surfaces.md#edit-channel-surface)を[編集する場合、ヘッダーパラメーターに新しい[ プロファイル属性](../personalization/personalization-build-expressions.md#sources)を追加することはできません。 新しいチャネル設定を作成する必要があります。
 
 * **[!UICONTROL 送信者名]**：送信者の名前（会社のブランド名など）。
 
@@ -58,10 +58,6 @@ ht-degree: 60%
 >title="Sender headers"
 >abstract="送信エンティティ（送信者）がオーサリングエンティティ（送信者）と異なる場合、これらのオプションフィールドを使用します。例えば、企業の親が子ブランドのメッセージをディスパッチしたり、複数の顧客を送信する代理店などが使用します。 これをサポートするメールクライアントは、通常、「送信者の代理で送信者」としてレンダリングするか、「経由」インジケーターを表示します。"
 
->[!AVAILABILITY]
->
->この機能は、一連の組織でのみ使用できます（限定提供）。 アクセスするには、アドビ担当者にお問い合わせください。
-
 メッセージを送信するメールボックスは、**From**&#x200B;作成者とは異なる場合があります。例えば、子会社の代理で送信する親組織、複数のブランドの共有マーケティングチーム、複数のクライアントに送信する代理店などが必要です。
 
 つまり、**送信者**&#x200B;はメッセージの作成者（メールの送信者）であり、**送信者**&#x200B;はメッセージの送信を担当するエージェント（実際に送信した送信者）です。 **Sender** フィールドは、送信エンティティが作成者と異なる場合に使用することを目的としています。
@@ -76,7 +72,7 @@ ht-degree: 60%
 
 >[!NOTE]
 >
->これらのフィールドはオプションです。 他のヘッダーフィールドと同様に、[&#x200B; パーソナライズ &#x200B;](surface-personalization.md#personalize-header)できます。
+>これらのフィールドはオプションです。 他のヘッダーフィールドと同様に、[ パーソナライズ ](surface-personalization.md#personalize-header)できます。
 
 **[!UICONTROL 送信者の名前]**&#x200B;と&#x200B;**[!UICONTROL 送信者の電子メール]**&#x200B;が設定されると、[!DNL Journey Optimizer]さんが&#x200B;**送信者** SMTP ヘッダーを電子メール <!--as defined in [RFC 5322](https://datatracker.ietf.org/doc/html/rfc5322#section-3.6.2){target="_blank"}-->に追加します。 これをサポートする電子メールクライアントは、送信者&#x200B;**または**&#x200B;経由&#x200B;**インジケーターの代理で**&#x200B;送信者などの文言を表示する場合があります。
 
@@ -86,7 +82,7 @@ ht-degree: 60%
 
 注意：
 
-* **送信者** アドレスは、SPF、DKIM、またはDMARCの調整には使用されません。**形式**&#x200B;の検証のみが実行されます。 SPF、DKIMおよびDMARCは、引き続き&#x200B;**から**&#x200B;のフィールドに依存します。 設定に選択した[&#x200B; デリゲート サブドメイン &#x200B;](../configuration/about-subdomain-delegation.md)は、これらのチェックに使用される送信ドメインのままです。
+* **送信者** アドレスは、SPF、DKIM、またはDMARCの調整には使用されません。**形式**&#x200B;の検証のみが実行されます。 SPF、DKIMおよびDMARCは、引き続き&#x200B;**から**&#x200B;のフィールドに依存します。 設定に選択した[ デリゲート サブドメイン ](../configuration/about-subdomain-delegation.md)は、これらのチェックに使用される送信ドメインのままです。
 
 * **送信者**&#x200B;が設定されており、パーソナライゼーションが受信者の値に解決されない場合、メッセージはその受信者に配信されません。
 
