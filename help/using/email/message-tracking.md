@@ -112,7 +112,7 @@ ht-degree: 86%
 
 >[!CAUTION]
 >
->ボタンの&#x200B;**ラベル**&#x200B;と&#x200B;**URL**&#x200B;の両方を[ カスタマイズ可能なフラグメント ](../content-management/customizable-fragments.md)で編集可能にした場合、トラッキングレポートにはボタンラベルの代わりにURLが表示されます。
+>ボタンの&#x200B;**ラベル**&#x200B;と&#x200B;**URL**&#x200B;の両方を[&#x200B; カスタマイズ可能なフラグメント &#x200B;](../content-management/customizable-fragments.md)で編集可能にした場合、トラッキングレポートにはボタンラベルの代わりにURLが表示されます。
 
 ## ミラーページへのリンク {#mirror-page}
 
@@ -199,4 +199,4 @@ Adobe Journey Optimizer で生成されるミラーページには、すべて�
 
 ## URL トラッキングのパーソナライズ {#url-tracking}
 
-URL パーソナライゼーションに関する詳細なガイダンス（URL トラッキングパラメーターのパーソナライズ方法、完全/ベース URLのパーソナライズ方法など）については、[URL パーソナライゼーション ](url-personalization.md)を参照してください。
+URL パーソナライゼーションに関する詳細なガイダンス（URL トラッキングパラメーターのパーソナライズ方法、完全/ベース URLのパーソナライズ方法など）については、[URL パーソナライゼーション &#x200B;](url-personalization.md)を参照してください。
