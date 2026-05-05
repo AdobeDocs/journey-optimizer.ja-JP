@@ -11,7 +11,7 @@ hide: true
 keywords: フラグメント，ジャーニー，再利用，ノード，キャンバス，在庫，再利用可能
 badge: label="限定提供" type="Informative"
 version: Journey Orchestration
-source-git-commit: d18f56e2730ba4b59d2923ed0b7a00ccfff06b3f
+source-git-commit: b3eea401c9073ff7ff6c0f5397552ef037371664
 workflow-type: tm+mt
 source-wordcount: '1482'
 ht-degree: 1%
@@ -71,6 +71,7 @@ ht-degree: 1%
 1. 「**[!UICONTROL 保存]**」をクリックします。 フラグメントはドラフトとして保存されます。
 
 >[!TIP]
+>
 >ジャーニーからフラグメントを作成する場合は、選択したノードが期待どおりに動作することを確認するために、フラグメントを保存する&#x200B;**前**&#x200B;に[&#x200B; ジャーニーをテストまたはシミュレートします](testing-the-journey.md)。
 
 >[!TAB  フラグメントインベントリから]
@@ -83,6 +84,7 @@ ht-degree: 1%
 1. 完了したら、**[!UICONTROL 保存]**&#x200B;をクリックして、フラグメントをドラフトとして保存します。
 
 >[!CAUTION]
+>
 >テストモードとシミュレーションは、フラグメントエディターでは使用できません。 つまり、フラグメントがアクティブ化され、ジャーニーに挿入される前に、設定されたアクティビティの動作を検証することはできません。 ロジックの精度が重要なフラグメントの場合は、[&#x200B; フルジャーニーでノードを構築およびテストまたはシミュレートすることを検討してください](testing-the-journey.md)。その後、上記の「キャンバス」タブからフラグメントとして保存します。
 
 >[!ENDTABS]

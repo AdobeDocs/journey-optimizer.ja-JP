@@ -10,7 +10,7 @@ level: Intermediate
 keywords: テスト, ジャーニー, チェック, エラー, トラブルシューティング
 version: Journey Orchestration
 badge: label="限定提供" type="Informative"
-source-git-commit: a625989fce3e2680d4e135e3b7d2f6ee1aa21657
+source-git-commit: b858b41cf65ed28e229938102e0f44b369180da8
 workflow-type: tm+mt
 source-wordcount: '1858'
 ht-degree: 4%
