@@ -7,7 +7,7 @@ topic: Artificial Intelligence
 role: User
 level: Intermediate
 exl-id: f931372e-6cf2-4f27-b12a-ed5ca0c1b87b
-source-git-commit: f274d56a19ccc21b04452b2bca2b17e07159d819
+source-git-commit: 6bf20170e139fd1cf000a553ae677f35ba25cd6a
 workflow-type: tm+mt
 source-wordcount: '2352'
 ht-degree: 82%

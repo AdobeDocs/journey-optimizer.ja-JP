@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 626d83c872f2900de7b11337faab5012bc346e34
+source-git-commit: 2fa5933d2b4f2c44829da1927cabf1a03998889f
 workflow-type: tm+mt
-source-wordcount: '2165'
+source-wordcount: '2183'
 ht-degree: 19%
 
 ---
@@ -32,6 +32,25 @@ ht-degree: 19%
 <table>
 <thead>
 <tr>
+<th><strong>ジャーニーシミュレーション</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>これで、ジャーニーを<strong> シミュレーション </strong>に設定できます。 このモードを使用すると、<strong> シミュレートされたユーザー</strong>を使用してロジックを検証できます。 これらはシミュレーション専用に作成された一時的なプロファイルで、Adobe Experience Platformで永続的なテストプロファイルを管理することなく、自由にテストできます。</p>
+<p>この機能は、必須の機能を備えた限定的な可用性としてすべてのお客様が利用できます。</p>
+<p><img src="assets/do-not-localize/simulate-user.gif"></p>
+<p>詳しくは、 <a href="../building-journeys/simulate-journey.md">詳細なドキュメント</a>を参照してください。</p>
+<p>ご利用いただけます：2026年5月5日（PT）</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
 <th><strong>決定ルールとランキング式AI最適化</strong><br/></th>
 </tr>
 </thead>
@@ -41,6 +60,24 @@ ht-degree: 19%
 <p>[!DNL Adobe Journey Optimizer] aiを使用して、簡素化できる決定ルールとランキング式を検出できるようになりました。 インベントリでは、AIが最適化機会を特定したルールに赤いインジケーターが表示されます。 インジケーターをクリックすると、AIが提案したバージョンと一緒に元のエクスプレッションが表示されます。 そこから、ファイルをダウンロードして、シミュレートされたプロファイルが各バージョンでどのように評価されるかを確認し、それらが同じように動作することを確認してから、式を最適化された式に置き換えることができます。</p>
 <p>詳しくは、 <a href="../start/ai-features.md#decisioning-optimization">詳細なドキュメント</a>を参照してください。</p>
 <p>ご利用いただけます：2026年5月5日（PT）</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>統合</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><b>統合</b>機能を使用すると、サードパーティのデータソースをAdobe Journey Optimizerに直接接続できます。 この機能により、外部データと<b>構成可能なコンテンツ </b>の取り込み方法が簡素化され、あらゆるチャネルをまたいで、パーソナライズされた動的なメッセージを容易に配信できるようになります。</p>
+<p>この機能は、以前はベータ版でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。</p>
+<p>詳しくは、<a href="../integrations/integrations.md">詳細なドキュメント</a>を参照してください。</p>
+<p>ご利用いただけます：2026年5月4日（PT）</p>
 </td>
 </tr>
 </tbody>
@@ -63,24 +100,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <table>
 <thead>
 <tr>
-<th><strong>統合</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p><b>統合</b>機能を使用すると、サードパーティのデータソースをAdobe Journey Optimizerに直接接続できます。 この機能により、外部データと<b>構成可能なコンテンツ </b>の取り込み方法が簡素化され、あらゆるチャネルをまたいで、パーソナライズされた動的なメッセージを容易に配信できるようになります。</p>
-<p>この機能は、以前はベータ版でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。</p>
-<p>詳しくは、<a href="../integrations/integrations.md">詳細なドキュメント</a>を参照してください。</p>
-<p>ご利用いただけます：2026年5月4日（PT）</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
 <th><strong>オーケストレーションされたキャンペーンでの増分クエリアクティビティ</strong><br/></th>
 </tr>
 </thead>
@@ -91,6 +110,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 これにより、定期的なキャンペーンでは、新規オーディエンス（新規登録、新たに適格なロイヤルティメンバーなど）に重点を置きながら、クエリの作業負荷を軽減し、時間の経過に伴う冗長な送信を避けることができます。</p>
 <p>詳しくは、<a href="../orchestrated/activities/incremental-query.md#incremental-query-configuration">詳細なドキュメント</a>を参照してください。</p>
+<p>ご利用いただけます：2026年4月30日（PT）</p>
 </td>
 </tr>
 </tbody>
@@ -390,23 +410,6 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 次の機能と機能強化は、今後数日以内にリリースされる予定です。 **情報は変更される場合があります**。 更新したリンク、画面、ドキュメントは、これらの更新が実稼動環境で公開すると共有されます。
 
 ### 新機能 {#comming-soon-features}
-
-<table>
-<thead>
-<tr>
-<th><strong>ジャーニーシミュレーション</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>これで、ジャーニーを<strong> シミュレーション </strong>に設定できます。 このモードを使用すると、<strong> シミュレートされたユーザー</strong>を使用してロジックを検証できます。 これらはシミュレーション専用に作成された一時的なプロファイルで、Adobe Experience Platformで永続的なテストプロファイルを管理することなく、自由にテストできます。</p>
-<p>この機能は、必須の機能を備えた限定的な可用性としてすべてのお客様が利用できます。</p>
-<!--p><img src="assets/do-not-localize/simulate-user.gif"></p-->
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
