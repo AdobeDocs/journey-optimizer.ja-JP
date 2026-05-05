@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate, Experienced
 keywords: url、リンク、パーソナライゼーション、トラッキング、エンコード、中括弧
-source-git-commit: f9fbf3d0dd49c98d3e4d88fc97ff26f44835769c
+source-git-commit: daf07abd855079aeedf77708575a92d1ce13f66d
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 24%
@@ -25,7 +25,7 @@ ht-degree: 24%
 
 URLをパーソナライズするには、次の手順に従います。
 
-1. 電子メール Designerで、コンテンツ内の要素を選択し、コンテキストツールバーを使用して[&#x200B; リンクを挿入](message-tracking.md#insert-links)します。
+1. 電子メール Designerで、コンテンツ内の要素を選択し、コンテキストツールバーを使用して[ リンクを挿入](message-tracking.md#insert-links)します。
 
    >[!IMPORTANT]
    >
@@ -52,7 +52,7 @@ URLをパーソナライズするには、次の手順に従います。
 >
 >スペースは、URL 内で使用されるパーソナライゼーショントークンではサポートされていません。
 
-信頼性の高いレンダリングとトラッキングを行うには、以下の[&#x200B; ベストプラクティスとガードレール &#x200B;](#best-practices)に従ってください。
+信頼性の高いレンダリングとトラッキングを行うには、以下の[ ベストプラクティスとガードレール ](#best-practices)に従ってください。
 
 ## 完全/ベース URLのパーソナライズ {#personalize-complete-base-url}
 
@@ -70,9 +70,9 @@ Journey Optimizerでは、URLの&#x200B;**entire** URLまたは&#x200B;**base do
 
 ## URL トラッキングパラメーターのパーソナライズ {#personalize-url-tracking-parameters}
 
-[URL トラッキング &#x200B;](url-tracking.md)はチャネル設定レベルで管理され、メッセージコンテンツに含まれるすべてのURLに適用されます。 電子メールDesignerでは、個々のリンクのURL トラッキングパラメーターをパーソナライズすることもできます。 これにより、受信者固有のパラメーターを1つのリンクに追加できます（例えば、Web分析ツールに識別子を渡すために）。
+[URL トラッキング ](url-tracking.md)はチャネル設定レベルで管理され、メッセージコンテンツに含まれるすべてのURLに適用されます。 電子メールDesignerでは、個々のリンクのURL トラッキングパラメーターをパーソナライズすることもできます。 これにより、受信者固有のパラメーターを1つのリンクに追加できます（例えば、Web分析ツールに識別子を渡すために）。
 
-これを行うには、[&#x200B; リンクを挿入](message-tracking.md#insert-links)し、パーソナライゼーションアイコンを選択し、URL トラッキングパラメーターを追加して、[&#x200B; パーソナライゼーションエディター](../personalization/personalization-build-expressions.md)から選択したプロファイル属性を選択します。
+これを行うには、[ リンクを挿入](message-tracking.md#insert-links)し、パーソナライゼーションアイコンを選択し、URL トラッキングパラメーターを追加して、[ パーソナライゼーションエディター](../personalization/personalization-build-expressions.md)から選択したプロファイル属性を選択します。
 
 ![](assets/message-tracking-perso-parameter.png)
 
@@ -83,6 +83,7 @@ Journey Optimizerでは、URLの&#x200B;**entire** URLまたは&#x200B;**base do
 >[!NOTE]
 >
 >最終的な URL を確認するには、[配達確認を送信](../content-management/proofs.md)し、配達確認を受信したらメールのコンテンツにあるリンクをクリックします。 URL にはトラッキングパラメーターを表示する必要があります。 例：<https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number>
+
 
 <!--
 ## Best practices and guardrails {#best-practices}
