@@ -10,9 +10,9 @@ level: Intermediate
 keywords: テスト, ジャーニー, チェック, エラー, トラブルシューティング
 version: Journey Orchestration
 badge: label="限定提供" type="Informative"
-source-git-commit: b858b41cf65ed28e229938102e0f44b369180da8
+source-git-commit: 064a1e595e4b8ac532b9d9c24b0c1d490ab5e1ce
 workflow-type: tm+mt
-source-wordcount: '1858'
+source-wordcount: '1861'
 ht-degree: 4%
 
 ---
@@ -89,7 +89,7 @@ Adobe Journey Optimizerでは、ジャーニーをテストおよび検証する
 
    ![&#x200B; シミュレートされたユーザー選択パネル &#x200B;](assets/simulate-5.png)
 
-1. 「**[!UICONTROL 結果]**」タブにアクセスして、実行結果を開き、各ステップの実行方法を確認します。 詳しくは、[結果の表示](#viewing-logs)を参照してください。
+1. 「**[!UICONTROL 結果]**」タブにアクセスして実行ログを開き、各ステップの実行方法を確認します。 詳しくは、[結果の表示](#viewing-results)を参照してください。
 
 **[!UICONTROL シミュレーション]**&#x200B;でジャーニーを検証したら、**[!UICONTROL 結果]** ログを確認します。 エラーが表示された場合は、**[!UICONTROL シミュレーション]**&#x200B;を終了し、必要な変更をジャーニーに適用し、実行が正しく表示されるまで&#x200B;**[!UICONTROL シミュレーション]**&#x200B;を再度実行します。 そして、ジャーニーを公開することができます。 「[&#x200B; ジャーニーを公開する](../building-journeys/publish-journey.md)」を参照してください。
 
@@ -119,7 +119,7 @@ Adobe Journey Optimizerでは、ジャーニーをテストおよび検証する
 
    ![&#x200B; シミュレートされたユーザー選択パネル &#x200B;](assets/simulate-5.png)
 
-1. 「**[!UICONTROL ログを表示]**」をクリックして実行ログを開き、各ステップの実行方法を確認します。 詳しくは、[結果の表示](#viewing-logs)を参照してください。
+1. 「**[!UICONTROL 結果]**」タブにアクセスして実行ログを開き、各ステップの実行方法を確認します。 詳しくは、[結果の表示](#viewing-results)を参照してください。
 
 **[!UICONTROL シミュレーション]**&#x200B;でジャーニーを検証したら、**[!UICONTROL 結果]** ログを確認します。 エラーが表示された場合は、**[!UICONTROL シミュレーション]**&#x200B;を終了し、必要な変更をジャーニーに適用し、実行が正しく表示されるまで&#x200B;**[!UICONTROL シミュレーション]**&#x200B;を再度実行します。 そして、ジャーニーを公開することができます。 「[&#x200B; ジャーニーを公開する](../building-journeys/publish-journey.md)」を参照してください。
 
@@ -143,9 +143,9 @@ Adobe Journey Optimizerでは、ジャーニーをテストおよび検証する
 
    シミュレートされたユーザーがジャーニーに正常にエントリすると、`Events triggered successfully`確認メッセージが表示されます。
 
-1. 「**[!UICONTROL ログを表示]**」をクリックして実行ログを開き、各ステップの実行方法を確認します。 詳しくは、[結果の表示](#viewing-logs)を参照してください。
+1. 「**[!UICONTROL 結果]**」タブにアクセスして実行ログを開き、各ステップの実行方法を確認します。 詳しくは、[結果の表示](#viewing-results)を参照してください。
 
-## 結果の表示 {#viewing-logs}
+## 結果の表示 {#viewing-results}
 
 「**[!UICONTROL 結果]**」タブでは、テスト結果を表示できます。 ビューセレクターを使用して、ログの閲覧方法を選択します。
 
