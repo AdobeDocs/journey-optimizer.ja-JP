@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Intermediate, Experienced
 keywords: url、リンク、パーソナライゼーション、トラッキング、エンコード、中括弧
-source-git-commit: f9fbf3d0dd49c98d3e4d88fc97ff26f44835769c
+source-git-commit: daf07abd855079aeedf77708575a92d1ce13f66d
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 24%
@@ -83,6 +83,7 @@ Journey Optimizerでは、URLの&#x200B;**entire** URLまたは&#x200B;**base do
 >[!NOTE]
 >
 >最終的な URL を確認するには、[配達確認を送信](../content-management/proofs.md)し、配達確認を受信したらメールのコンテンツにあるリンクをクリックします。 URL にはトラッキングパラメーターを表示する必要があります。 例：<https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number>
+
 
 <!--
 ## Best practices and guardrails {#best-practices}
