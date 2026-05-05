@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2fa5933d2b4f2c44829da1927cabf1a03998889f
+source-git-commit: 8b1aea19f011038f159560f9ef064cf6637f4438
 workflow-type: tm+mt
-source-wordcount: '2183'
+source-wordcount: '2293'
 ht-degree: 19%
 
 ---
@@ -83,12 +83,60 @@ ht-degree: 19%
 </tbody>
 </table>
 
+
+
+## 近日リリース予定 {#coming-soon}
+
+次の機能と機能強化は、今後数日以内にリリースされる予定です。 **情報は変更される場合があります**。 更新したリンク、画面、ドキュメントは、これらの更新が実稼動環境で公開すると共有されます。
+
+### 新機能 {#comming-soon-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>電子メールDesignerのディープリンク</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>メールDesignerの専用オプションを使用して、メールコンテンツにディープリンクを追加できるようになりました。</p><p>これにより、ユーザーはブラウザーやアプリストアにリダイレクトされずに、適切なアプリ内コンテンツに直接移動され、コンテキストとエンゲージメントが維持されます。</p>
+<!--<p><img src="assets/do-not-localize/forms.gif"></p>-->
+<p>詳しくは、 <a href="../email/message-tracking.md">詳細なドキュメント</a>を参照してください。</p>
+<p>ご利用いただけます：2026年5月7日（PT）</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>ジャーニーフラグ</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizerで<strong>ジャーニーフラグメント </strong>を作成できるようになりました。 ジャーニーフラグメントは、再利用可能なジャーニーノードのセットです。一度構築すれば、サンドボックスをまたいであらゆるジャーニーにドロップできます。 実施要件のチェック、好みのチャネルルーティングロジック、ウェルカムシーケンスなど、フラグメントは、同じロジックを毎回ゼロから再構築することなく、より迅速に作業し、一貫性を維持するのに役立ちます。</p>
+<p>フラグメントを作成すると、専用の<strong> フラグメントインベントリ </strong>に保存され、<strong>ジャーニーフラグメント </strong> アクティビティを使用して、任意のジャーニーに挿入できます。</p>
+<!--<p><img src="assets/do-not-localize/journey-fragments.gif"></p>-->
+<p>この機能は、一連の組織でのみ使用できます（限定提供）。 アクセスするには、アドビ担当者にお問い合わせください。</p>
+<!--p>For more information, refer to the <a href="../building-journeys/journey-fragments.md">detailed documentation</a>.</p-->
+<p>ご利用いただけます：2026年5月12日（PT）</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+
 ## 26年4月のリリースノート {#april-26-rn}
 
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 4月初旬にリリースされた新機能と機能強化は、リリース日とともに発表されます。
@@ -127,7 +175,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <td>
 <p>Journey Optimizerを使用すると、送信者（送信者）とオーサリングエンティティ（送信者）が異なるメールを送信できるようになりました。 これをサポートするメールクライアントは、通常、「送信者の代理で送信者」としてレンダリングするか、「経由」インジケーターを表示します。 この機能を設定するには、メールチャネル設定のオプションの<strong>送信者ヘッダー</strong> フィールドに入力します。</p>
 <p><img src="assets/do-not-localize/sender-headers.gif"></p>
-<p>詳しくは、<a href="../email/header-parameters.md#sender-header">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、 <a href="../email/header-parameters.md#sender-header">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -146,7 +194,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <p>これにより、リレーションシップマネージャーやアカウントオーナーなど、各メッセージの適切な関係者を自動的にコピーすることができ、同時に顧客がフォローアップのために誰に連絡すべきかを確実に把握することができます。</p>
 <p>CC フィールドはパーソナライゼーションをサポートしているので、単一の設定でプロファイルデータに基づいてコピーを動的にルーティングできるため、追加の設定なしで複数のユースケースに対応できます。</p>
 <p><img src="../configuration/assets/email-config-cc.png"></p>
-<p>詳しくは、<a href="../configuration/cc-email-field.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、 <a href="../configuration/cc-email-field.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -163,7 +211,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <td>
 <p>サンドボックスツールが、オーケストレーションされたキャンペーンのパッケージ化と、あるサンドボックスから別のサンドボックスへのコピーをサポートするようになりました。 これにより、各環境で施策を手作業で再構築する必要がなくなります。 キャンペーンをパッケージ化すると、結合ポリシーやメッセージなどのキャンペーンの中核的な依存オブジェクトが自動的に含まれるため、インポートしたキャンペーンは設定と検証の準備ができたままになります。 本番環境を保護するために、インポートしたすべてのキャンペーンが、ターゲットサンドボックスのドラフトステータスに置かれ、キャンペーンが公開される前にレビューと承認のステップをチームに提供します。</p>
 <p><img src="assets/do-not-localize/oc-sandbox.gif"></p>
-<p>詳しくは、<a href="../configuration/copy-objects-to-sandbox.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、 <a href="../configuration/copy-objects-to-sandbox.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -198,7 +246,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <p>ランキング式で<strong>AI モデル </strong>を使用して、顧客プロファイル属性と文脈要因に基づいてジャーニーの優先度スコアを自動的に高め、顧客が最も関連性の高いジャーニーに確実にエントリできるようにしました。</p>
 <p>この機能は、一連の組織でのみ使用できます（限定提供）。 アクセスするには、アドビ担当者にお問い合わせください。</p>
 <p><img src="assets/do-not-localize/journey-arbitration-ai-models.gif"></p>
-<p>詳しくは、<a href="../conflict-prioritization/journey-ai-models.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、 <a href="../conflict-prioritization/journey-ai-models.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -217,7 +265,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 </p>
 <p>この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。</p>
 <p><img src="assets/do-not-localize/express_resize.gif"></p>
-<p>詳しくは、<a href="../integrations/express.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、 <a href="../integrations/express.md">詳細なドキュメント</a>を参照してください。</p>
 <p>ご利用いただけます：2026年4月23日（PT）</p>
 </td>
 </tr>
@@ -276,7 +324,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <p>この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。</p>
 <p>一般提供の一環として、このリリースでは、<strong>実験タイプ </strong>の選択（A/Bまたはマルチアームドバンディット）と<strong>単一ジャーニーの勝者</strong>の拡大が導入されています。</p>
 <p><img src="assets/do-not-localize/optimize-experiment.gif"></p>
-<p>詳しくは、<a href="../building-journeys/path-experimentation.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、 <a href="../building-journeys/path-experimentation.md">詳細なドキュメント</a>を参照してください。</p>
 <p>ご利用いただけます：2026年4月7日（PT）</p>
 </td>
 </tr>
@@ -294,7 +342,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <td>
 <p><strong>受信トレイ </strong>は、コンテンツカードで利用できるモバイル機能で、ユーザーがアプリまたはweb サイト内で一元的な場所を作成して、ユーザーに送信されるメッセージを表示できるようにします。 これにより、メッセージが却下された後もアクセスできるようになり、マーケティングコミュニケーションの有効期間を延長できます。</p>
 <p><img src="assets/do-not-localize/inbox.gif"/></p>
-<p>詳しくは、<a href="../inbox/inbox-gs.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、 <a href="../inbox/inbox-gs.md">詳細なドキュメント</a>を参照してください。</p>
 <p>ご利用いただけます：2026年4月7日（PT）</p>
 </td>
 </tr>
@@ -313,7 +361,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <p><strong>Decisioning</strong>を使用して、メールメッセージのコンテンツをパーソナライズおよび最適化できるようになりました。 優先順位のスコア、数式、AI モデルを活用して、各受信者に最も関連性の高いオファーやコンテンツを表示します。</p>
 <p>この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。 この一般提供リリースでは、ミラーページがサポートされるようになりました。</p>
 <p><img src="assets/do-not-localize/exd-email.gif"></p>
-<p>詳しくは、<a href="../experience-decisioning/create-decision-policy.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、 <a href="../experience-decisioning/create-decision-policy.md">詳細なドキュメント</a>を参照してください。</p>
 <p>ご利用いただけます：2026年4月6日（PT）</p>
 </td>
 </tr>
@@ -404,28 +452,3 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **オーケストレーションされたキャンペーンのグローバル変数** - オーケストレーションされたキャンペーンは、ワークフロー内のすべてのアクティビティで一度定義して再利用できるグローバル変数をサポートするようになり、設定を簡素化し、動的な値、式、コンテンツのパーソナライゼーションで一貫性を確保します。 [詳細情報](../orchestrated/global-variables.md)
 * **Data Modelerの機能強化** - オーケストレーションされたリレーショナルスキーマが、複数のフィールドにまたがる複合キーをサポートするようになりました。 DDL ファイルからスキーマを読み込むと、列挙も行われ、DDLまたはExcel ファイルから読み込むと、テーブル間に複合関係が自動的に作成されます。 エンティティ関係ビューで、ファイルのアップロード後に、テーブル間のフィールドペアリングの完全なセットが複合リンクに表示されるようになりました。 [詳細情報](../orchestrated/gs-schemas.md)
-
-## 近日リリース予定 {#coming-soon}
-
-次の機能と機能強化は、今後数日以内にリリースされる予定です。 **情報は変更される場合があります**。 更新したリンク、画面、ドキュメントは、これらの更新が実稼動環境で公開すると共有されます。
-
-### 新機能 {#comming-soon-features}
-
-<table>
-<thead>
-<tr>
-<th><strong>電子メールDesignerのディープリンク</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>メールDesignerの専用オプションを使用して、メールコンテンツにディープリンクを追加できるようになりました。</p><p>これにより、ユーザーはブラウザーやアプリストアにリダイレクトされずに、適切なアプリ内コンテンツに直接移動され、コンテキストとエンゲージメントが維持されます。</p>
-<!--<p><img src="assets/do-not-localize/forms.gif"></p>-->
-<p>詳しくは、 <a href="../email/message-tracking.md">詳細なドキュメント</a>を参照してください。</p>
-<p>ご利用いただけます：2026年5月7日（PT）</p>
-</td>
-</tr>
-</tbody>
-</table>
-
