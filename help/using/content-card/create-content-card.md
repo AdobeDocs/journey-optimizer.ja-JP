@@ -6,10 +6,10 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: a26bb3bd-d593-466b-9852-94e194d6d2b7
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+source-git-commit: e5e8e7a99e53069b5c08562414663a847c413bc9
 workflow-type: tm+mt
-source-wordcount: '1480'
-ht-degree: 88%
+source-wordcount: '1558'
+ht-degree: 86%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 88%
 
 >[!IMPORTANT]
 >
->デフォルトでは、「閉じる」ボタンをクリックすると、カードが非表示になります。さらに機能を追加するには、却下または非選定のルールを手動で定義します。
+>デフォルトでは、「閉じる」ボタンをクリックすると、カードが非表示になります。 さらに機能を追加するには、却下または非選定のルールを手動で定義します。
 
 >[!BEGINTABS]
 
@@ -25,7 +25,7 @@ ht-degree: 88%
 
 コンテンツカードをジャーニーに追加するには、次の手順に従います。
 
-1. [&#x200B; ジャーニー](../building-journeys/journey-gs.md)を開き、パレットの&#x200B;**[!UICONTROL アクション]** セクションから&#x200B;**[!UICONTROL アクション]** アクティビティをドラッグ&amp;ドロップします。 [&#x200B; アクションアクティビティ &#x200B;](../building-journeys/journey-action.md)の詳細をご覧ください。
+1. [ ジャーニー](../building-journeys/journey-gs.md)を開き、パレットの&#x200B;**[!UICONTROL アクション]** セクションから&#x200B;**[!UICONTROL アクション]** アクティビティをドラッグ&amp;ドロップします。 [ アクションアクティビティ ](../building-journeys/journey-action.md)の詳細をご覧ください。
 
    >[!IMPORTANT]
    >
@@ -47,7 +47,7 @@ ht-degree: 88%
 
    ![](assets/content-card-jo-2.png)
 
-1. これで、「**[!UICONTROL コンテンツを編集]**」ボタンでコンテンツのデザインを開始できます。[詳細情報](design-content-card.md)
+1. これで、「**[!UICONTROL コンテンツを編集]**」ボタンでコンテンツのデザインを開始できます。 [詳細情報](design-content-card.md)
 
 1. 「**[!UICONTROL 追加の配信ルールを有効にする]**」オプションを有効にし、「**[!UICONTROL ルールを編集]**」を選択して、メッセージを表示するタイミング、却下するタイミング、永続的に非表示にするタイミングを定義します。
 
@@ -55,27 +55,25 @@ ht-degree: 88%
 
    1. 「**[!UICONTROL 条件を追加]**」をクリックしてイベントを選択します。
 
-      +++使用可能なイベントを参照してください。
+      利用可能なイベント
 
       | パッケージ | トリガー | 定義 |
       |---|---|---|
-      | Platform にデータを送信 | Platform にデータを送信済み | モバイルアプリがエッジエクスペリエンスイベントを発行してデータを Adobe Experience Platform に送信するとトリガーされます。通常、API は AEP Edge 拡張機能から [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) を呼び出します。 |
+      | Platform にデータを送信 | Platform にデータを送信済み | モバイルアプリがエッジエクスペリエンスイベントを発行してデータを Adobe Experience Platform に送信するとトリガーされます。 通常、API は AEP Edge 拡張機能から [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) を呼び出します。 |
       | コアトラッキング | アクションを追跡 | モバイルコード API [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) で提供される従来の機能を呼び出すとトリガーされます。 |
       | コアトラッキング | 状態を追跡 | モバイルコード API [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate) で提供される従来の機能を呼び出すとトリガーされます。 |
       | コアトラッキング | PII を収集 | モバイルコード API [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii) で提供される従来の機能を呼び出すとトリガーされます。 |
-      | アプリケーションライフサイクル | アプリケーションの起動 | 実行のたびに（クラッシュおよびインストールを含む）トリガーされます。また、ライフサイクルセッションのタイムアウトを超えた場合に、SignatureInfo オブジェクトのバックグラウンドからの再開時にもトリガーされます。 |
+      | アプリケーションライフサイクル | アプリケーションの起動 | 実行のたびに（クラッシュおよびインストールを含む）トリガーされます。 また、ライフサイクルセッションのタイムアウトを超えた場合に、SignatureInfo オブジェクトのバックグラウンドからの再開時にもトリガーされます。 |
       | アプリケーションライフサイクル | アプリケーションのインストール | インストール後または再インストール後の最初の実行時にトリガーされます。 |
       | アプリケーションライフサイクル | アプリケーションの更新 | アップグレード後またはバージョン番号の変更時の最初の実行時にトリガーされます。 |
       | アプリケーションライフサイクル | アプリケーションのクローズ | アプリケーションをクローズするとトリガーされます。 |
-      | アプリケーションライフサイクル | アプリケーションのクラッシュ | アプリケーションが終了前にバックグラウンドにならなかった場合にトリガーされます。このイベントは、アプリケーションがクラッシュした後の起動時に送信されます。Adobe Mobile クラッシュレポートには、キャッチできないグローバルな例外ハンドラーは実装されていません。 |
-
-      +++
+      | アプリケーションライフサイクル | アプリケーションのクラッシュ | アプリケーションが終了前にバックグラウンドにならなかった場合にトリガーされます。 このイベントは、アプリケーションがクラッシュした後の起動時に送信されます。 Adobe Mobile クラッシュレポートには、キャッチできないグローバルな例外ハンドラーは実装されていません。 |
 
    1. **[!UICONTROL トリガー]**&#x200B;をさらに追加してルールをさらに拡張する場合は、**[!UICONTROL または]**&#x200B;条件を選択します。
 
    1. **[!UICONTROL 特性]**&#x200B;を追加してルールを微調整する場合は、**[!UICONTROL および]**&#x200B;条件を選択します。
 
-      +++使用可能な特性を参照してください。
+      利用可能な特性
 
       | パッケージ | 特性 | 定義 |
       |---|---|---|
@@ -94,15 +92,13 @@ ht-degree: 88%
       | アプリケーションライフサイクル | 起動回数 | 指定された起動回数に一致するとトリガーされます。 |
       | アプリケーションライフサイクル | 時刻 | 指定された時刻に一致するとトリガーされます。 |
 
-      +++
-
    1. 「**[!UICONTROL グループを作成]**」をクリックして、トリガーをグループ化します。
 
 1. 「**[!UICONTROL アクションを追加]**」ボタンをクリックすると、コンテンツカードに1つ以上のインバウンドアクションを追加できます。 [詳細情報](../building-journeys/journey-action.md#multi-action)
 
-1. ジャーニーキャンバスに戻ります。 必要に応じて、追加のアクションまたはイベントをドラッグ＆ドロップして、ジャーニーフローを完了します。[詳細情報](../building-journeys/about-journey-activities.md)
+1. ジャーニーキャンバスに戻ります。 必要に応じて、追加のアクションまたはイベントをドラッグ＆ドロップして、ジャーニーフローを完了します。 [詳細情報](../building-journeys/about-journey-activities.md)
 
-ジャーニーの作成、設定、公開の方法について詳しくは、[このページ &#x200B;](../building-journeys/journey-gs.md)を参照してください。
+ジャーニーの作成、設定、公開の方法について詳しくは、[このページ ](../building-journeys/journey-gs.md)を参照してください。
 
 >[!TAB キャンペーンへのコンテンツカードの追加]
 
@@ -112,17 +108,17 @@ ht-degree: 88%
 
 1. 実施するキャンペーンのタイプを選択します。
 
-   * **[!UICONTROL Scheduled - Marketing]**：キャンペーンをすぐに実行するか、指定日に実行します。スケジュール済みキャンペーンは、**マーケティング**&#x200B;メッセージを送信することを目的としています。ユーザーインターフェイスから設定および実行します。
+   * **[!UICONTROL Scheduled - Marketing]**：キャンペーンをすぐに実行するか、指定日に実行します。 スケジュール済みキャンペーンは、**マーケティング**&#x200B;メッセージを送信することを目的としています。 ユーザーインターフェイスから設定および実行します。
 
-   * **[!UICONTROL API トリガー - マーケティング／トランザクション]**：API 呼び出しを使用してキャンペーンを実行します。API トリガーキャンペーンは、**マーケティング**&#x200B;メッセージまたは&#x200B;**トランザクション**&#x200B;メッセージのいずれか、つまり、個人が実行したアクション（パスワードのリセット、買い物かごの購入など）に続いて送信されるメッセージを送信することを目的としています。[詳しくは、API を使用してキャンペーンをトリガーする方法について参照してください。](../campaigns/api-triggered-campaigns.md)
+   * **[!UICONTROL API トリガー - マーケティング／トランザクション]**：API 呼び出しを使用してキャンペーンを実行します。 API トリガー型のキャンペーンは、**マーケティング**&#x200B;または&#x200B;**トランザクション**&#x200B;のメッセージ、つまり個人が実行したアクションに続いて送信されるメッセージ（パスワードのリセット、買い物かごの購入など）の送信を目的としています。[APIを使用してキャンペーンをトリガーする方法を説明](../campaigns/api-triggered-campaigns.md)
 
    ![](assets/content-card-create-1.png)
 
 1. 「**[!UICONTROL プロパティ]**」セクションで、キャンペーンの名前と説明を指定します。
 
-1. 「**オーディエンス**」セクションで、「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックして、使用可能な Adobe Experience Platform オーディエンスのリストを表示します。[詳しくは、オーディエンスを参照してください](../audience/about-audiences.md)
+1. 「**オーディエンス**」セクションで、「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックして、使用可能な Adobe Experience Platform オーディエンスのリストを表示します。 [詳しくは、オーディエンスを参照してください](../audience/about-audiences.md)
 
-1. 「**[!UICONTROL ID 名前空間]**」フィールドで、選択したセグメントから個人を識別するために使用する名前空間を選択します。[詳しくは、名前空間を参照してください](../event/about-creating.md#select-the-namespace)
+1. 「**[!UICONTROL ID 名前空間]**」フィールドで、選択したセグメントから個人を識別するために使用する名前空間を選択します。 [詳しくは、名前空間を参照してください](../event/about-creating.md#select-the-namespace)
 
 1. **[!UICONTROL コンテンツカード]**&#x200B;アクションを選択します。
 
@@ -130,11 +126,11 @@ ht-degree: 88%
 
 1. 新しい[コンテンツカード設定](content-card-configuration.md)を選択または作成します。
 
-1. この[&#x200B; コンテンツカード &#x200B;](../inbox/inbox-configuration.md)の受信トレイ サーフェスを定義する&#x200B;**受信トレイ設定**&#x200B;を選択します。
+1. この&#x200B;**コンテンツカード**&#x200B;の受信トレイ サーフェスを定義する[受信トレイ設定](../inbox/inbox-configuration.md)を選択します。
 
    ![](assets/content-card-create-2.png)
 
-1. メッセージのコンテンツをテストするには、「**[!UICONTROL 実験を作成]**」をクリックします。これにより、サンプル母集団に対して配信の複数の変数をテストし、ターゲットオーディエンスに最も大きな影響を与える処理を判断できます。[詳しくは、コンテンツ実験を参照してください](../content-management/content-experiment.md)。
+1. メッセージのコンテンツをテストするには、「**[!UICONTROL 実験を作成]**」をクリックします。 これにより、サンプル母集団に対して配信の複数の変数をテストし、ターゲットオーディエンスに最も大きな影響を与える処理を判断できます。 [詳しくは、コンテンツ実験を参照してください](../content-management/content-experiment.md)。
 
 1. 「**[!UICONTROL 追加の配信ルールを有効にする]**」オプションを有効にし、「**[!UICONTROL ルールを編集]**」を選択して、メッセージを表示するタイミング、却下するタイミング、永続的に非表示にするタイミングを定義します。
 
@@ -142,27 +138,25 @@ ht-degree: 88%
 
    1. 「**[!UICONTROL 条件を追加]**」をクリックしてイベントを選択します。
 
-      +++使用可能なイベントを参照してください。
+      利用可能なイベント
 
       | パッケージ | トリガー | 定義 |
       |---|---|---|
-      | Platform にデータを送信 | Platform にデータを送信済み | モバイルアプリがエッジエクスペリエンスイベントを発行してデータを Adobe Experience Platform に送信するとトリガーされます。通常、API は AEP Edge 拡張機能から [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) を呼び出します。 |
+      | Platform にデータを送信 | Platform にデータを送信済み | モバイルアプリがエッジエクスペリエンスイベントを発行してデータを Adobe Experience Platform に送信するとトリガーされます。 通常、API は AEP Edge 拡張機能から [sendEvent](https://developer.adobe.com/client-sdks/documentation/edge-network/api-reference/#sendevent) を呼び出します。 |
       | コアトラッキング | アクションを追跡 | モバイルコード API [trackAction](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction) で提供される従来の機能を呼び出すとトリガーされます。 |
       | コアトラッキング | 状態を追跡 | モバイルコード API [trackState](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackstate) で提供される従来の機能を呼び出すとトリガーされます。 |
       | コアトラッキング | PII を収集 | モバイルコード API [collectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii) で提供される従来の機能を呼び出すとトリガーされます。 |
-      | アプリケーションライフサイクル | アプリケーションの起動 | 実行のたびに（クラッシュおよびインストールを含む）トリガーされます。また、ライフサイクルセッションのタイムアウトを超えた場合に、SignatureInfo オブジェクトのバックグラウンドからの再開時にもトリガーされます。 |
+      | アプリケーションライフサイクル | アプリケーションの起動 | 実行のたびに（クラッシュおよびインストールを含む）トリガーされます。 また、ライフサイクルセッションのタイムアウトを超えた場合に、SignatureInfo オブジェクトのバックグラウンドからの再開時にもトリガーされます。 |
       | アプリケーションライフサイクル | アプリケーションのインストール | インストール後または再インストール後の最初の実行時にトリガーされます。 |
       | アプリケーションライフサイクル | アプリケーションの更新 | アップグレード後またはバージョン番号の変更時の最初の実行時にトリガーされます。 |
       | アプリケーションライフサイクル | アプリケーションのクローズ | アプリケーションをクローズするとトリガーされます。 |
-      | アプリケーションライフサイクル | アプリケーションのクラッシュ | アプリケーションが終了前にバックグラウンドにならなかった場合にトリガーされます。このイベントは、アプリケーションがクラッシュした後の起動時に送信されます。Adobe Mobile クラッシュレポートには、キャッチできないグローバルな例外ハンドラーは実装されていません。 |
-
-      +++
+      | アプリケーションライフサイクル | アプリケーションのクラッシュ | アプリケーションが終了前にバックグラウンドにならなかった場合にトリガーされます。 このイベントは、アプリケーションがクラッシュした後の起動時に送信されます。 Adobe Mobile クラッシュレポートには、キャッチできないグローバルな例外ハンドラーは実装されていません。 |
 
    1. **[!UICONTROL トリガー]**&#x200B;をさらに追加してルールをさらに拡張する場合は、**[!UICONTROL または]**&#x200B;条件を選択します。
 
    1. **[!UICONTROL 特性]**&#x200B;を追加してルールを微調整する場合は、**[!UICONTROL および]**&#x200B;条件を選択します。
 
-      +++使用可能な特性を参照してください。
+      利用可能な特性
 
       | パッケージ | 特性 | 定義 |
       |---|---|---|
@@ -181,15 +175,13 @@ ht-degree: 88%
       | アプリケーションライフサイクル | 起動回数 | 指定された起動回数に一致するとトリガーされます。 |
       | アプリケーションライフサイクル | 時刻 | 指定された時刻に一致するとトリガーされます。 |
 
-      +++
-
    1. 「**[!UICONTROL グループを作成]**」をクリックして、トリガーをグループ化します。
 
    ![](assets/content-card-rules.png)
 
-1. キャンペーンを特定の日付にスケジュールすることや、定期的に繰り返すように設定することができます。[詳細情報](../campaigns/create-campaign.md#schedule)
+1. キャンペーンを特定の日付にスケジュールすることや、定期的に繰り返すように設定することができます。 [詳細情報](../campaigns/create-campaign.md#schedule)
 
-1. これで、「**[!UICONTROL コンテンツを編集]**」でコンテンツのデザインを開始できます。[詳細情報](design-content-card.md)
+1. これで、「**[!UICONTROL コンテンツを編集]**」でコンテンツのデザインを開始できます。 [詳細情報](design-content-card.md)
 
    ![](assets/content-card-create-4.png)
 
