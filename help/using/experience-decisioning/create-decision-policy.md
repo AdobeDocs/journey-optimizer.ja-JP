@@ -39,7 +39,7 @@ ht-degree: 62%
 1. [戦略シーケンスの設定](#strategy) - 決定ポリシーで返す項目を選択します。
 1. [フォールバックオファーの選択](#fallback) （オプション）- 適合する項目または選択戦略がない場合に表示する項目を選択します。
 1. [レビューして保存](#review)選択戦略
-1. [ プレースメントの割り当て](#placement) （電子メール チャネルのみ）
+1. [&#x200B; プレースメントの割り当て](#placement) （電子メール チャネルのみ）
 
 >[!AVAILABILITY]
 >
@@ -47,7 +47,7 @@ ht-degree: 62%
 
 ## 決定ポリシーの追加 {#add}
 
-ジャーニーまたはキャンペーンを開き、[ チャネルアクション ](../building-journeys/journey-action.md)を選択し、メッセージのコンテンツを編集します。
+ジャーニーまたはキャンペーンを開き、[&#x200B; チャネルアクション &#x200B;](../building-journeys/journey-action.md)を選択し、メッセージのコンテンツを編集します。
 
 メッセージのコンテンツを編集し、選択したチャネルに基づいて決定ポリシーを追加する方法について詳しくは、以下のタブを参照してください。
 
@@ -169,7 +169,7 @@ SMSの場合、プロパティパネルで利用可能な&#x200B;**パーソナ�
 
 >[!IMPORTANT]
 >
->プッシュ通知を使用したエクスペリエンス決定には、モバイル SDKの特定のバージョンが必要です。 この機能を実装する前に、[ リリースノート ](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"}を確認して、必要なバージョンを特定し、それに応じてアップグレードされていることを確認してください。 また、[このセクション ](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"}では、お使いのプラットフォームで利用可能なすべてのSDK バージョンを表示できます。
+>プッシュ通知を使用したエクスペリエンス決定には、モバイル SDKの特定のバージョンが必要です。 この機能を実装する前に、[&#x200B; リリースノート &#x200B;](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"}を確認して、必要なバージョンを特定し、それに応じてアップグレードされていることを確認してください。 また、[このセクション &#x200B;](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"}では、お使いのプラットフォームで利用可能なすべてのSDK バージョンを表示できます。
 
 +++
 
