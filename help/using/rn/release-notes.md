@@ -7,9 +7,9 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: d975d9cd95d33ea8972cf9388e7f868009c4fb95
+source-git-commit: f274d56a19ccc21b04452b2bca2b17e07159d819
 workflow-type: tm+mt
-source-wordcount: '1990'
+source-wordcount: '2067'
 ht-degree: 20%
 
 ---
@@ -283,13 +283,15 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 ### 機能強化 {#april-26-improv}
 
-<!--
 #### AI
 
+<!--
 * **Brand alignment score in Campaign dashboard** - You can now assess your brand alignment score directly within your Campaign dashboard to ensure content stays on-brand. This allows you to verify guidelines at a glance without having to open the content designer.
-
-* **Prompt Assistant enhancement** - Prompt Assistant enhances AI content generation by analyzing user prompts in real time and identifying gaps in clarity, completeness, and context. It suggests improved rewrites and provides actionable guidance to enrich prompts with key details like audience, tone, and intent. The feature also asks targeted clarifying questions to help users refine their inputs before generation. This results in more accurate, high-quality outputs with fewer iterations. [Learn more](../content-management/ai-assistant-prompting-guide.md)
 -->
+
+* **プロンプトアシスタントの機能強化** - プロンプトアシスタントは、ユーザープロンプトをリアルタイムで分析し、明瞭性、完全性、コンテキストのギャップを特定することで、AI コンテンツ生成を強化します。 書き換えの改善を提案し、オーディエンス、トーン、意図などの主要な詳細をプロンプトに反映するための、実用的なガイダンスを提供します。 また、この機能は、オーディエンスが生成前に入力を最適化できるように、ターゲットを絞った明確な質問をすることもできます。 これにより、より少ない反復で、より正確で高品質の出力が可能になります。 [詳細情報](../content-management/ai-assistant-prompting-guide.md#prompt-assistant)
+
+  ご利用いただけます：2026年5月5日（PT）
 
 #### プッシュ
 
