@@ -10,10 +10,10 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: 式, エディター, 説明, 開始
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 03d9f3a09683f53dc666c8ab28117b95c121868f
+source-git-commit: f9fbf3d0dd49c98d3e4d88fc97ff26f44835769c
 workflow-type: tm+mt
-source-wordcount: '1586'
-ht-degree: 96%
+source-wordcount: '1532'
+ht-degree: 95%
 
 ---
 
@@ -46,48 +46,21 @@ ht-degree: 96%
 
 +++E メールデザイナー
 
-[E メールデザイナー](../email/get-started-email-design.md)でメールコンテンツを編集する際は、コンテキストツールバーのアイコンを使用して、テキストブロックと URL にパーソナライゼーションを追加できます。
+[電子メール Designer](../email/get-started-email-design.md)で電子メールコンテンツを編集する場合、コンテキストツールバーのアイコンを使用して、ほとんどのテキスト要素にパーソナライズを追加できます。
 
 ![](assets/perso_insert.png)
 
 +++
 
-+++オファー
-
-**オファーの表示域**&#x200B;でテキストタイプのコンテンツを使用する際は、パーソナライゼーションを追加できます。 [詳しくは、パーソナライズされたオファーの作成を参照してください。](../offers/offer-library/creating-personalized-offers.md)
-
-+++
-
 +++URL
 
-Journey Optimizer では、メッセージ内の **URL** をパーソナライズすることもできます。  パーソナライズされた URL は、プロファイル属性に応じて、受信者を web サイトの特定のページに誘導するか、パーソナライズされたマイクロサイトに誘導します。 URL のパーソナライゼーションは、**外部リンク**、**購読解除リンク**、**オプトアウト**&#x200B;のリンクのタイプで使用できます。
-
-パーソナライズされた URL のサンプル：
-
-* `https://www.adobe.com/users/{{profile.person.name.lastName}}`
-* `https://www.adobe.com/users?uid={{profile.person.name.firstName}}`
-* `https://www.adobe.com/usera?uid={{context.journey.technicalProperties.journeyUID}}`
-* `https://www.adobe.com/users?uid={{profile.person.crmid}}&token={{context.token}}`
+Journey Optimizerでは、メッセージ内の&#x200B;**URL**&#x200B;をパーソナライズすることもできます。 パーソナライズされた URL は、プロファイル属性に応じて、受信者を web サイトの特定のページに誘導するか、パーソナライズされたマイクロサイトに誘導します。 [詳細情報](../email/url-personalization.md)
 
 ![](assets/perso-url.png){width="50%"}
 
 >[!NOTE]
 >
->パーソナライゼーションエディターでは、パーソナライズされた URL を編集する際、セキュリティ上の理由から、ヘルパー関数とオーディエンスメンバーシップが無効になります。
->
->スペースは、URL 内で使用されるパーソナライゼーショントークンではサポートされていません。
-
-Journey Optimizerでは、完全/ベース URL パーソナライゼーションもサポートしています。 例：
-
-```
-<a href="{{profile.social.link}}" />
-<a href="{{profile.social.baseUrl}}/profile" />
-<a href="https://{{profile.social.baseUrl}}/profile" />
-```
-
->[!NOTE]
->
->URLの完全なパーソナライズまたはベースのパーソナライズを有効にするには、Adobeに連絡し、許可されたドメインのリストを提供します。
+>URL のパーソナライゼーションは、**外部リンク**、**購読解除リンク**、**オプトアウト**&#x200B;のリンクのタイプで使用できます。
 
 +++
 
@@ -97,13 +70,19 @@ Journey Optimizerでは、完全/ベース URL パーソナライゼーション
 
 +++
 
++++オファー
+
+**オファーの表示域**&#x200B;でテキストタイプのコンテンツを使用する際は、パーソナライゼーションを追加できます。 [詳しくは、パーソナライズされたオファーの作成を参照してください。](../offers/offer-library/creating-personalized-offers.md)
+
++++
+
 ## パーソナライゼーションのソース {#sources}
 
 ナビゲーションパネルでは、パーソナライゼーションのソースを選択できます。 利用可能なソースは次のとおりです。
 
 * **[!UICONTROL プロファイル属性]**：[Adobe Experience Platform データモデル（XDM）ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target="_blank"}に記載のプロファイルスキーマに関連付けられているすべての参照をリストします。
 * **[!UICONTROL ターゲット属性]**：このフォルダーは、調整されたキャンペーンに固有です。 キャンペーンキャンバス内で直接計算された属性が含まれます。 [詳しくは、調整されたキャンペーンの追加方法を参照してください。](../orchestrated/activities/channels.md#add-personalization)
-* **[!UICONTROL オーディエンス]**：Adobe Experience Platform セグメント化サービスで作成されたすべてのオーディエンスをリストします。 セグメント化の詳細については、[こちら](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja){target="_blank"}を参照してください。
+* **[!UICONTROL オーディエンス]**：Adobe Experience Platform セグメント化サービスで作成されたすべてのオーディエンスをリストします。 詳しくは、[Adobe Experience Platformのセグメント化に関するドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja){target="_blank"}を参照してください。
 * **[!UICONTROL オファー決定]**：特定のプレースメントに関連付けられているすべてのオファーを一覧表示します。 配置を選択し、コンテンツにオファーを挿入します。 オファーの管理方法に関する詳細なドキュメントについては、[この節](../offers/get-started/starting-offer-decisioning.md)を参照してください。
 * **[!UICONTROL コンテキスト属性]**：チャネルアクションアクティビティ（メール、プッシュ、SMS）をジャーニーまたはキャンペーンで使用する場合、イベントやプロパティに関連するコンテキスト属性をパーソナライズに使用できます。 コンテキスト属性を活用したパーソナライゼーションの例について詳しくは、[この節](personalization-use-case.md)を参照してください。 また、カスタムアクション応答をパーソナライゼーションに使用できます。 [ネイティブチャネルでのカスタムアクション応答の使用方法の詳細情報](../action/action-response.md#response-in-channels)。
 
