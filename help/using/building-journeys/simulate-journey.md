@@ -10,14 +10,14 @@ level: Intermediate
 keywords: テスト, ジャーニー, チェック, エラー, トラブルシューティング
 version: Journey Orchestration
 badge: label="限定提供" type="Informative"
-source-git-commit: 064a1e595e4b8ac532b9d9c24b0c1d490ab5e1ce
+source-git-commit: 41f3c9af3116a0d41011aec0f213f15b29ce3620
 workflow-type: tm+mt
 source-wordcount: '1861'
 ht-degree: 4%
 
 ---
 
-# ジャーニーのシミュレート{#testing_the_journey}
+# ジャーニーのシミュレート{#simulate-journey}
 
 >[!IMPORTANT]
 >
