@@ -11,9 +11,9 @@ hide: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: f72950486be1dbe37b908ede8b40fee686d1a11d
+source-git-commit: 3bfc2ad5aab60ba8b1672c12268b92a424faa2a3
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '826'
 ht-degree: 4%
 
 ---
@@ -28,6 +28,7 @@ ht-degree: 4%
 * [課題とタスクへのアクセスと管理](access-loyalty-challenges.md)
 * [課題の創出](create-challenges.md)
 * [タスクの作成](create-tasks.md)
+* [ロイヤルティチャレンジのパフォーマンスを監視する](loyalty-reporting.md)
 * [ロイヤルティチャレンジ API リファレンス](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
 >[!ENDSHADEBOX]
@@ -52,10 +53,11 @@ ht-degree: 4%
 * **エクスペリエンスをパーソナライズ**: コンテンツカードとマルチチャネルメッセージを使用して、没入感のあるブランド体験を構築します
 * **シームレスな統合**：既存のロイヤルティプロバイダーとつながり、Experience Platform データを活用する
 * **自動的に追跡**: カスタム開発なしで自動生成されたジャーニーを通じて、顧客の進捗状況を監視します
+* **パフォーマンスを測定**：組み込みのレポートダッシュボードを使用して、プログラム KPI、チャレンジの結果、タスクレベルの指標を追跡します
 
 ![](assets/challenges-gs.png)
 
-チャレンジエクスペリエンスには、次の3つの種類があります。
+次のようなチャレンジエクスペリエンスを構築できます。
 
 * **標準課題**：お客様は、指定された数のタスクを任意の順序で完了できます。 このタイプは、柔軟性と複数のパスを補完する場合に使用します。\
   *例：「サマーウェルネスチャレンジ」 - 5つのタスクのうち3つを完了する：健康製品の購入、ソーシャルメディアでの共有、友人への紹介、レビューの執筆、バーチャルイベントへの参加*
@@ -65,6 +67,8 @@ ht-degree: 4%
 
 * **連続した課題**：顧客は定義された順序でタスクを完了します。 このタイプは、特定のジャーニーやオンボーディングプロセスを通じて顧客を導くために使用できます。\
   *例：「新規会員ジャーニー」 – メールに登録する→初めての購入→商品レビューを書く→友達を紹介する（正確な順序で記入）*
+
+* **独自のデータ課題を持ち込む** （制限付き可用性）: チャレンジフレームワーク（タスクと報酬）は、ロイヤルティチャレンジデータ統合から組み立てられます。 コンテンツ、メッセージ、オーディエンスは、他のチャレンジタイプと同様に設定します。
 
 ## 仕組み {#how-it-works}
 
@@ -158,6 +162,17 @@ ht-degree: 4%
     </div>
     <p>
     <em>課題に対して顧客が完了するタスクを定義する方法について説明します</em>
+    </p>
+  </td>
+  <td>
+    <a href="loyalty-reporting.md">
+      <img alt="レポート" src="assets/do-not-localize/icon-reporting.png" width="200"/>
+    </a>
+    <div>
+    <a href="loyalty-reporting.md"><strong>パフォーマンスの監視</strong></a>
+    </div>
+    <p>
+    <em>組み込みのダッシュボードを使用して、プログラムのKPI、チャレンジの結果、タスクの指標を追跡</em>
     </p>
   </td>
 </tr>

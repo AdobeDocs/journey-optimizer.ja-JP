@@ -11,9 +11,9 @@ hide: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: f72950486be1dbe37b908ede8b40fee686d1a11d
+source-git-commit: d41999da88f39a9e5bfe5e98fd5cb5d69a1893e6
 workflow-type: tm+mt
-source-wordcount: '1918'
+source-wordcount: '1937'
 ht-degree: 1%
 
 ---
@@ -28,6 +28,7 @@ ht-degree: 1%
 * [課題とタスクへのアクセスと管理](access-loyalty-challenges.md)
 * **課題を作成** ◀︎ **現在の状況**
 * [タスクの作成](create-tasks.md)
+* [ロイヤルティチャレンジのパフォーマンスを監視する](loyalty-reporting.md)
 * [ロイヤルティチャレンジ API リファレンス](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
 >[!ENDSHADEBOX]
@@ -299,7 +300,7 @@ ht-degree: 1%
 
 1. ジャーニーを開いて公開します。 ジャーニーは、指定したチャレンジ開始日に自動的に開始され、設定に従ってコンテンツとメッセージが配信されます。 [&#x200B; ジャーニーを公開する方法について説明します](../building-journeys/publish-journey.md)。
 
-1. チャレンジが開始されたら、[&#x200B; ジャーニーレポート &#x200B;](../reports/journey-global-report-cja.md)でパフォーマンスとメッセージ配信を監視します。
+1. チャレンジが開始されたら、[&#x200B; ロイヤルティチャレンジレポート &#x200B;](loyalty-reporting.md)で、プログラムのKPI、チャレンジの結果、タスクレベルの指標を監視します。 [&#x200B; ジャーニーレポート &#x200B;](../reports/journey-global-report-cja.md)でメッセージ配信を監視することもできます。
 
 >[!NOTE]
 >
