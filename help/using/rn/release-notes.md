@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 8218f868dd777345aa1415edc8ebdc97bdc31a3e
+source-git-commit: 11234e03589d1e39efc0702a3c423e017cf9b816
 workflow-type: tm+mt
 source-wordcount: '2386'
 ht-degree: 18%
@@ -83,7 +83,13 @@ ht-degree: 18%
 </tbody>
 </table>
 
+### 機能強化 {#may-26-improv}
 
+#### 決定
+
+* **移行ワークフローAPI** – 依存関係の分析と移行ワークフローを作成するためのAPI コントラクトが更新されました。リクエスト URL （`sandbox`、`offer`または`decision`）に&#x200B;**`request-level`**&#x200B;を&#x200B;**クエリパラメーター**&#x200B;として渡します。 リクエストレベルをJSON本文で送信する必要はありません。 [詳細情報](../experience-decisioning/decisioning-migration-api.md)
+
+  ご利用いただけます：2026年5月6日（PT）
 
 ## 近日リリース予定 {#coming-soon}
 
@@ -129,13 +135,7 @@ ht-degree: 18%
 </tbody>
 </table>
 
-### 機能強化 {#may-26-improv}
 
-#### 決定
-
-* **移行ワークフローAPI** – 依存関係の分析と移行ワークフローを作成するためのAPI コントラクトが更新されました。リクエスト URL （`sandbox`、`offer`または`decision`）に&#x200B;**`request-level`**&#x200B;を&#x200B;**クエリパラメーター**&#x200B;として渡します。 リクエストレベルをJSON本文で送信する必要はありません。 [詳細情報](../experience-decisioning/decisioning-migration-api.md)
-
-  ご利用いただけます：2026年5月6日（PT）
 
 ## 26年4月のリリースノート {#april-26-rn}
 
