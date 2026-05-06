@@ -11,9 +11,9 @@ hide: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: f72950486be1dbe37b908ede8b40fee686d1a11d
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '755'
 ht-degree: 4%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 4%
 
 ロイヤルティに関する課題の作成と立ち上げは、次のワークフローに従います。
 
-1. **チャレンジを作成** – 名前、タイプ（標準、ストリーク、またはシーケンシャル）、日付範囲などの基本的なチャレンジのプロパティを定義します。
+1. **チャレンジを作成** – 名前、タイプ（標準、ストリーク、シーケンシャル、または利用可能な場合は独自のデータを取り込む）、日付範囲など、基本的なチャレンジのプロパティを定義します。 [&#x200B; チャレンジの種類を選択する方法について説明します](create-challenges.md#create-the-challenge)。
 
 1. **タスクを追加** - タスクの種類（購入、支出）、数量、製品フィルター、報酬など、顧客が完了しなければならない特定のアクションを定義します。
 

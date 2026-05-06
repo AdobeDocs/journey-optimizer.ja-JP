@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: Create loyalty challenges
-description: Learn how to create and configure loyalty challenges in Adobe Journey Optimizer.
+title: ロイヤルティに関する課題の解決
+description: Adobe Journey Optimizerでロイヤルティに関する課題を作成および設定する方法について説明します。
 feature: Journeys
 topic: Content Management
 role: User
@@ -11,9 +11,9 @@ hide: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: f72950486be1dbe37b908ede8b40fee686d1a11d
 workflow-type: tm+mt
-source-wordcount: '1828'
+source-wordcount: '1918'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 1%
 
 * [ロイヤルティに関する課題を解決](get-started.md)
 * [課題とタスクへのアクセスと管理](access-loyalty-challenges.md)
-* **Create challenges** ◀︎ **You are here**
+* **課題を作成** ◀︎ **現在の状況**
 * [タスクの作成](create-tasks.md)
 * [ロイヤルティチャレンジ API リファレンス](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
@@ -36,30 +36,36 @@ ht-degree: 1%
 >
 >この機能は現在&#x200B;**プライベートベータ版**&#x200B;です。 リリースサイクルと可用性フェーズについて詳しくは、[Journey Optimizer リリースサイクル](../rn/releases.md)を参照してください。
 
-This page covers the complete process of creating a loyalty challenge, from selecting the challenge type and configuring its properties to generating and publishing the journey that will deliver the challenge to your customers.
+このページでは、チャレンジタイプの選択から、そのプロパティの設定、課題を顧客に提供するジャーニーの生成と公開に至るまで、ロイヤルティチャレンジを作成するプロセス全体を説明します。
 
-## Create the challenge {#create-the-challenge}
+## 課題の構築 {#create-the-challenge}
 
-1. Navigate to **[!UICONTROL Loyalty Challenges (Beta)]** in Journey Optimizer.
+1. Journey Optimizerの&#x200B;**[!UICONTROL ロイヤルティチャレンジ （Beta）]**&#x200B;に移動します。
 
-1. Select the **[!UICONTROL Challenges]** tab and select **[!UICONTROL Create Challenge]**.
+1. 「**[!UICONTROL チャレンジ]**」タブを選択し、「**[!UICONTROL チャレンジを作成]**」を選択します。
 
    ![](assets/challenge-create.png)
 
-1. Choose the challenge type:
+1. チャレンジの種類を選択します。
 
-   * **[!UICONTROL Standard]**: Customers complete any specified number of tasks in any order\
-     *Example: Complete 3 out of 5 available tasks*
+   * **[!UICONTROL Standard]**：お客様は、指定された数のタスクを任意の順序で完了できます\
+     *例：使用可能な5つのタスクのうち3つを完了*
 
-   * **[!UICONTROL Streak]**: Customers complete the same task multiple times consecutively\
-     *Example: Make a purchase on 7 consecutive days*
+   * **[!UICONTROL Streak]**：顧客は同じタスクを複数回連続して完了します\
+     *例：7日連続で購入する*
 
-   * **[!UICONTROL Sequential]**: Customers complete tasks in a defined order\
-     *Example: Purchase → Review → Share (must be completed in this sequence)*
+   * **[!UICONTROL 順次]**：顧客は定義された順序でタスクを完了します\
+     *例：購入→レビュー→共有（この順序で完了する必要があります）*
 
-   After selecting a challenge type, the challenge creation interface opens with multiple configuration tabs. Start by configuring the challenge structure.
+   * **[!UICONTROL 独自のデータを取り込む]**: タスクや報酬などのチャレンジフレームワークをロイヤルティチャレンジデータ統合から組み立てる場合は、**[!UICONTROL 独自のデータを取り込む]**&#x200B;を選択します。 このタイプを選択した場合、チャレンジ構造を設定する必要はなく、**[!UICONTROL コンテンツ]**、**[!UICONTROL メッセージング]**、**[!UICONTROL オーディエンス]**&#x200B;のみを他のチャレンジと同じように設定します。
 
-## Configure the challenge structure {#structure}
+     >[!AVAILABILITY]
+     >
+     >**[!UICONTROL 独自のデータを取り込む]** チャレンジの種類は、現在、制限された組織のセットで利用でき、今後のリリースでより広く利用できるようになります。
+
+   チャレンジタイプを選択すると、チャレンジ作成インターフェイスが開き、複数の設定タブが表示されます。 **[!UICONTROL 独自のデータを取り込む]**&#x200B;以外のすべてのタイプの場合は、まずチャレンジ構造を設定します。
+
+## チャレンジ構造の設定 {#structure}
 
 「**[!UICONTROL 構造]**」タブで、チャレンジの構成方法（プロパティ、スケジュール、完了するタスク、達成する報酬）を定義します。
 
