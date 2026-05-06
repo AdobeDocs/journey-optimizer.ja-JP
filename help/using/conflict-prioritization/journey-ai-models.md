@@ -6,12 +6,11 @@ role: User
 level: Intermediate
 version: Journey Orchestration
 badge: label="限定提供" type="Informative"
-hide: true
 exl-id: 3e7c3069-b022-4709-936d-acaad56b5882
-source-git-commit: 3b5bb49a1774112192d41a86d53d605618fe32e5
+source-git-commit: 70a9be0c253bbed319510058f7f249f5919bf7b8
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 14%
+source-wordcount: '661'
+ht-degree: 16%
 
 ---
 
@@ -36,7 +35,7 @@ Do you need specific permissions to create AI models?
 
 ジャーニーランキング用のAI モデルを作成するには、次の手順に従います。
 
-1. コンバージョンイベントが収集されるデータセットを作成します。[方法についてはこちらを参照](../experience-decisioning/data-collection/create-dataset.md)
+1. コンバージョンイベントが収集されるデータセットを作成します。 [方法についてはこちらを参照](../experience-decisioning/data-collection/create-dataset.md)
 
 1. 「**[!UICONTROL オーケストレーションランキング]**」セクションにアクセスし、「**[!UICONTROL AI モデル]**」タブを選択します。 以前に作成したAI モデルのリストが表示されます。
 
@@ -68,7 +67,7 @@ Do you need specific permissions to create AI models?
 
    これらのイベントは、Web SDKまたはモバイル SDKを使用して自動的にキャプチャされます。 詳しくは、[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja) 概要を参照してください。
 
-1. コンバージョンイベントとインプレッションイベントが収集されるデータセットを選択します。このようなデータセットを作成する方法について詳しくは、[この節](../experience-decisioning/data-collection/create-dataset.md)を参照してください。
+1. コンバージョンイベントとインプレッションイベントが収集されるデータセットを選択します。 このようなデータセットを作成する方法について詳しくは、[この節](../experience-decisioning/data-collection/create-dataset.md)を参照してください。
 
    コンバージョンイベントおよびインプレッションイベント用の![&#x200B; データセットの選択](../experience-decisioning/assets/ai-model-datasets.png){width="85%"}
 
@@ -80,7 +79,7 @@ Do you need specific permissions to create AI models?
 
    >[!NOTE]
    >
-   >最大 50 個のオーディエンスを選択できます。
+   >最大50個のオーディエンスを選択できます。
 
 1. AI モデルを保存して有効化します。
 
@@ -100,7 +99,7 @@ AI モデルを参照として設定してランキング式を作成し、そ�
 
    ![&#x200B; プロモーションタグ基準がAI モデルスコアをランキング方法として使用するランキング式の例](assets/journey-formula-ex-2.png){width="60%"}
 
-1. 「**[!UICONTROL 作成]**」をクリックして、ランキング式を完了します。
+1. 「**[!UICONTROL 作成]**」をクリックして、ランキング式を完成させます。
 
 1. 次に、ルールセットを作成し、ランキング方法として作成した数式を選択します。 [詳細情報](journey-ranking-formulas.md#assign-formula-to-ruleset)
 
