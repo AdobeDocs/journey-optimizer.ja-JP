@@ -7,7 +7,7 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
-source-git-commit: ea2753bd9ce7372e53fefc7816d19a7a3c73b87d
+source-git-commit: 5beaf2b7dc339cb94352cd7503dd86a97a6db6bd
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 83%
@@ -52,7 +52,7 @@ Journey Optimizer に Infobip を設定するには、次の手順に従いま�
 
    **[!UICONTROL あいまいオプトアウト]**&#x200B;は、メッセージが定義済みのオプトアウトキーワードと完全に一致しない場合でも、ユーザーが登録解除を希望していることを示す SMS メッセージを識別します。 一般的なオプトアウトフレーズや特定の攻撃用語を検出できるので、キャンペーンでユーザーの環境設定を適用し、コンプライアンスを維持するのに役立ちます。
 
-1. 「**[!UICONTROL インバウンドのカスタムデータセットを使用]**」を選択して、この資格情報のインバウンド SMSを、ドロップダウンから選択した事前作成データセットにルーティングします。 [&#x200B; データセットの作成について詳しく見る](../experience-decisioning/data-collection/create-dataset.md)
+1. 「**[!UICONTROL インバウンドのカスタムデータセットを使用]**」を選択して、この資格情報のインバウンド SMSを、ドロップダウンから選択した事前作成データセットにルーティングします。 [ データセットの作成について詳しく見る](../experience-decisioning/data-collection/create-dataset.md)
 
    >[!NOTE]
    >

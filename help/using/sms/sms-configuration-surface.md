@@ -7,7 +7,7 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 0d541520-016e-468f-b011-808712847556
-source-git-commit: ea2753bd9ce7372e53fefc7816d19a7a3c73b87d
+source-git-commit: 5beaf2b7dc339cb94352cd7503dd86a97a6db6bd
 workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 87%
@@ -71,7 +71,7 @@ SMS／MMS／RCS チャネルを設定したら、**[!DNL Journey Optimizer]** �
    >
    >デフォルトでは、[!DNL Journey Optimizer] は、サンドボックスレベルの[一般設定](../configuration/primary-email-addresses.md)で指定された電話番号を使用します。 このフィールドを更新すると、この設定を使用するジャーニーおよびキャンペーンのデフォルト値が上書きされます。
 
-1. 「**[!UICONTROL インバウンドのカスタムデータセットを使用]**」を選択して、この資格情報のインバウンド SMSを、ドロップダウンから選択した事前作成データセットにルーティングします。 [&#x200B; データセットの作成について詳しく見る](../experience-decisioning/data-collection/create-dataset.md)
+1. 「**[!UICONTROL インバウンドのカスタムデータセットを使用]**」を選択して、この資格情報のインバウンド SMSを、ドロップダウンから選択した事前作成データセットにルーティングします。 [ データセットの作成について詳しく見る](../experience-decisioning/data-collection/create-dataset.md)
 
    >[!NOTE]
    >
