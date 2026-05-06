@@ -6,9 +6,9 @@ topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 3ec084ca-af9e-4b5e-b66f-ec390328a9d6
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: 5b8c86fadb59820e2f6127f84fa205e2daf6c386
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: '1175'
 ht-degree: 5%
 
 ---
@@ -19,7 +19,7 @@ Decisioning Migration Service APIを使用すると、あるサンドボック�
 
 このAPIを使用すると、データの整合性と関係を維持しながら、環境<!--(e.g., from development to staging, or staging to production) -->間で意思決定コンテンツをシームレスに移行できます。
 
-意思決定管理と比較した意思決定の利点と機能については、[このページ &#x200B;](migrate-to-decisioning.md)を参照してください。
+意思決定管理と比較した意思決定の利点と機能については、[このページ ](migrate-to-decisioning.md)を参照してください。
 
 ## 機能 {#capabilities}
 
@@ -51,7 +51,7 @@ Decisioning Migration Service APIには、次の機能が用意されていま�
 
 >[!NOTE]
 >
->[このセクション &#x200B;](gs-experience-decisioning.md#steps)で決定権限を割り当てる方法について説明します。 権限の完全なリストについては、[組み込みの権限](../administration/ootb-permissions.md#ootb-permissions) ページを参照してください。
+>[このセクション ](gs-experience-decisioning.md#steps)で決定権限を割り当てる方法について説明します。 権限の完全なリストについては、[組み込みの権限](../administration/ootb-permissions.md#ootb-permissions) ページを参照してください。
 
 ### ターゲットサンドボックスの準備 {#target-sandbox-preparation}
 
@@ -62,7 +62,7 @@ Decisioning Migration Service APIには、次の機能が用意されていま�
 * **データセット** – 移行に使用するデータセット名を特定します（`dependency.datasetName`）。
 * **データストリーム** – 移行でデータストリーム （`createDataStream`）を作成するかどうかを決定します。
 
-サンドボックス管理について詳しくは、[&#x200B; サンドボックスの使用と割り当て](../administration/sandboxes.md)を参照してください。
+サンドボックス管理について詳しくは、[ サンドボックスの使用と割り当て](../administration/sandboxes.md)を参照してください。
 
 ## API の基本 {#api-basics}
 
@@ -81,7 +81,7 @@ Decisioning Migration Service APIには、次の機能が用意されていま�
 * `x-gw-ims-org-id: <IMS_ORG_ID>`
 * `Content-Type: application/json`
 
-認証の設定手順について詳しくは、[Journey Optimizer認証ガイド &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/authentication){target="_blank"}を参照してください。
+認証の設定手順について詳しくは、[Journey Optimizer認証ガイド ](https://developer.adobe.com/journey-optimizer-apis/references/authentication){target="_blank"}を参照してください。
 
 ### ワークフローモデル {#workflow-model}
 
@@ -120,25 +120,24 @@ POST /workflows/generate-dependencies
 
 ```shell
 curl --request POST \
-  --url "https://decisioning-migration.adobe.io/workflows/generate-dependencies" \
+  --url "https://decisioning-migration.adobe.io/workflows/generate-dependencies?request-level=sandbox" \
   --header "Authorization: Bearer <IMS_ACCESS_TOKEN>" \
   --header "x-gw-ims-org-id: <IMS_ORG_ID>" \
   --header "Content-Type: application/json" \
   --data '{
     "imsOrgId": "<IMS_ORG_ID>",
     "sourceSandboxDetails": { "sandboxName": "<SOURCE_SANDBOX_NAME>" },
-    "targetSandboxDetails": { "sandboxName": "<TARGET_SANDBOX_NAME>" },
-    "requestLevel": "sandbox"
+    "targetSandboxDetails": { "sandboxName": "<TARGET_SANDBOX_NAME>" }
   }'
 ```
 
 **オファーレベルの依存関係**
 
-特定のオファーの依存関係のみを分析するには、`requestLevel: "offer"`を設定し、分析するオファーIDを`offersList`配列に指定します。
+特定のオファーの依存関係のみを分析するには、クエリ文字列に`request-level=offer`を含む同じエンドポイントを呼び出し、分析するオファーIDを含む`offersList`配列を本文に指定します。
 
 **決定レベルの依存関係**
 
-特定の決定の依存関係のみを分析するには、`requestLevel: "decision"`を設定し、分析する決定IDを`decisionsList`配列に指定します。
+特定の決定の依存関係のみを分析するには、クエリ文字列に`request-level=decision`を使用し、分析する決定IDを持つ`decisionsList`配列を本文に指定します。
 
 #### 依存関係ワークフローの状態を確認する {#poll-dependency-status}
 
@@ -186,10 +185,10 @@ POST /workflows/migration
 
 ```shell
 curl --request POST \
-  --url "https://decisioning-migration.adobe.io/workflows/migration" \
-  --header "Authorization: Bearer <IMS_ACCESS_TOKEN>" \
-  --header "x-gw-ims-org-id: <IMS_ORG_ID>" \
-  --header "Content-Type: application/json" \
+  --url 'https://decisioning-migration.adobe.io/workflows/migration?request-level=sandbox' \
+  --header 'Authorization: Bearer <IMS_ACCESS_TOKEN>' \
+  --header 'Content-Type: application/json' \
+  --header 'x-gw-ims-org-id: <IMS_ORG_ID>' \
   --data '{
     "imsOrgId": "<IMS_ORG_ID>",
     "sourceSandboxDetails": { "sandboxName": "<SOURCE_SANDBOX_NAME>" },
@@ -209,14 +208,13 @@ curl --request POST \
         "sourceCtx1": "targetCtx1"
       },
       "datasetName": "<TARGET_DATASET_NAME>"
-    },
-    "requestLevel": "sandbox"
+    }
   }'
 ```
 
 **オファーレベルの移行**
 
-特定のオファーのみを移行するには、`requestLevel: "offer"`を使用して`offersList`配列を追加します。
+特定のオファーのみを移行するには、クエリ文字列に`request-level=offer`を使用し、本文に`offersList`配列を追加します。
 
 ```json
 "offersList": ["offer-id-1", "offer-id-2"]
@@ -224,7 +222,7 @@ curl --request POST \
 
 **決定レベルの移行**
 
-特定の決定のみを移行するには、`requestLevel: "decision"`を使用して`decisionsList`配列を追加します。
+特定の決定のみを移行するには、クエリ文字列に`request-level=decision`を使用し、本文に`decisionsList`配列を追加します。
 
 ```json
 "decisionsList": ["decision-id-1", "decision-id-2"]

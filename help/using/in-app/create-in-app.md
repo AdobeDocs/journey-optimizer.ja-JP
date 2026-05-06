@@ -7,9 +7,9 @@ role: User
 level: Beginner
 keywords: アプリ内, メッセージ, 作成, 開始
 exl-id: b3b79fe2-7db3-490d-9c3d-87267aa55eea
-source-git-commit: e5e8e7a99e53069b5c08562414663a847c413bc9
+source-git-commit: 79c7689ee40e347533bbe6e025e6846d8ef0bf8e
 workflow-type: tm+mt
-source-wordcount: '2301'
+source-wordcount: '2305'
 ht-degree: 91%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 91%
 
 アプリ内メッセージをジャーニーに追加するには、次の手順に従います。
 
-1. [&#x200B; ジャーニー](../building-journeys/journey-gs.md)を開き、パレットの&#x200B;**[!UICONTROL アクション]** セクションから&#x200B;**[!UICONTROL アクション]** アクティビティをドラッグ&amp;ドロップします。 [&#x200B; アクションアクティビティ &#x200B;](../building-journeys/journey-action.md)の詳細をご覧ください。
+1. [ ジャーニー](../building-journeys/journey-gs.md)を開き、パレットの&#x200B;**[!UICONTROL アクション]** セクションから&#x200B;**[!UICONTROL アクション]** アクティビティをドラッグ&amp;ドロップします。 [ アクションアクティビティ ](../building-journeys/journey-action.md)の詳細をご覧ください。
 
    >[!IMPORTANT]
    >
@@ -59,7 +59,7 @@ ht-degree: 91%
 
    1. 必要に応じて、イベントのドロップダウンをクリックしてトリガーを変更します。
 
-      利用可能なトリガー
+      +++ 利用可能なトリガーを見る
 
       | パッケージ | トリガー | 定義 |
       |---|---|---|
@@ -75,6 +75,8 @@ ht-degree: 91%
       | Places | POI にエントリ | 設定した目標地点（POI）に顧客がエントリすると、Places SDK によってトリガーされます。 |
       | Places | POI を終了 | 設定した目標地点（POI）を顧客が終了すると、Places SDK によってトリガーされます。 |
 
+      +++
+
    1. トリガーで複数のイベントまたは条件を考慮する場合は、「**[!UICONTROL 条件を追加]**」をクリックします。
 
    1. **[!UICONTROL トリガー]**&#x200B;をさらに追加してルールをさらに拡張する場合は、**[!UICONTROL または]**&#x200B;条件を選択します。
@@ -83,7 +85,7 @@ ht-degree: 91%
 
    1. **[!UICONTROL 特性]**&#x200B;を追加してルールを微調整する場合は、**[!UICONTROL および]**&#x200B;条件を選択します。
 
-      利用可能な特性
+      +++ 利用可能な特性を見る
 
       | パッケージ | 特性 | 定義 |
       |---|---|---|
@@ -105,6 +107,8 @@ ht-degree: 91%
       | Places | 最後にエントリした POI | 顧客が最後にエントリした目標地点（POI）に応じて、Places SDK によってトリガーされます。 |
       | Places | 前回離脱した POI | 顧客が前回離脱した目標地点（POI）に応じて、Places SDK によってトリガーされます。 |
 
+      +++
+
       ![](assets/in_app_create_8.png)
 
    1. 「**[!UICONTROL グループを作成]**」をクリックして、トリガーをグループ化します。
@@ -121,7 +125,7 @@ ht-degree: 91%
 
 1. ジャーニーキャンバスに戻ります。 必要に応じて、追加のアクションまたはイベントをドラッグ＆ドロップして、ジャーニーフローを完了します。 [詳細情報](../building-journeys/about-journey-activities.md)
 
-ジャーニーの作成、設定、公開の方法について詳しくは、[このページ &#x200B;](../building-journeys/journey-gs.md)を参照してください。
+ジャーニーの作成、設定、公開の方法について詳しくは、[このページ ](../building-journeys/journey-gs.md)を参照してください。
 
 >[!NOTE]
 >
@@ -161,7 +165,7 @@ ht-degree: 91%
 
    1. 必要に応じて、イベントのドロップダウンをクリックしてトリガーを変更します。
 
-      利用可能なトリガー
+      +++ 利用可能なトリガーを見る
 
       | パッケージ | トリガー | 定義 |
       |---|---|---|
@@ -177,6 +181,8 @@ ht-degree: 91%
       | Places | POI にエントリ | 設定した目標地点（POI）に顧客がエントリすると、Places SDK によってトリガーされます。 |
       | Places | POI を終了 | 設定した目標地点（POI）を顧客が終了すると、Places SDK によってトリガーされます。 |
 
+      +++
+
    1. トリガーで複数のイベントまたは条件を考慮する場合は、「**[!UICONTROL 条件を追加]**」をクリックします。
 
    1. **[!UICONTROL トリガー]**&#x200B;をさらに追加してルールをさらに拡張する場合は、**[!UICONTROL または]**&#x200B;条件を選択します。
@@ -185,7 +191,7 @@ ht-degree: 91%
 
    1. **[!UICONTROL 特性]**&#x200B;を追加してルールを微調整する場合は、**[!UICONTROL および]**&#x200B;条件を選択します。
 
-      利用可能な特性
+      +++ 利用可能な特性を見る
 
       | パッケージ | 特性 | 定義 |
       |---|---|---|
@@ -206,6 +212,8 @@ ht-degree: 91%
       | Places | 現在の POI | 指定された目標地点（POI）に顧客がエントリすると、Places SDK によってトリガーされます。 |
       | Places | 最後にエントリした POI | 顧客が最後にエントリした目標地点（POI）に応じて、Places SDK によってトリガーされます。 |
       | Places | 前回離脱した POI | 顧客が前回離脱した目標地点（POI）に応じて、Places SDK によってトリガーされます。 |
+
+      +++
 
       ![](assets/in_app_create_8.png)
 
@@ -228,7 +236,7 @@ ht-degree: 91%
 
    ![](assets/in_app_create_4.png)
 
-キャンペーンの作成、設定およびアクティベート方法について詳しくは、[このページ &#x200B;](../campaigns/get-started-with-campaigns.md)を参照してください。
+キャンペーンの作成、設定およびアクティベート方法について詳しくは、[このページ ](../campaigns/get-started-with-campaigns.md)を参照してください。
 
 >[!ENDTABS]
 
@@ -238,7 +246,7 @@ ht-degree: 91%
 
   +++こちらのビデオをご覧ください
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3451883?captions=jpn&quality=12&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
 
   +++
 
@@ -246,7 +254,7 @@ ht-degree: 91%
 
   +++こちらのビデオをご覧ください
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3445289/?captions=jpn&learn=on&autoplay=true)
+  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
 
   +++
 
@@ -254,7 +262,7 @@ ht-degree: 91%
 
   +++こちらのビデオをご覧ください
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3451830/?captions=jpn&learn=on&autoplay=true)
+  >[!VIDEO](https://video.tv.adobe.com/v/3423077/?learn=on&autoplay=true)
 
   +++
 
