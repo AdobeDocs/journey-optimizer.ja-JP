@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
-source-git-commit: 46c7e9bbcd26a055bf85446605b00b5536b7543b
+source-git-commit: d999f48597fab65e7239883f6b40c338532f1ef1
 workflow-type: tm+mt
-source-wordcount: '2806'
+source-wordcount: '2818'
 ht-degree: 9%
 
 ---
@@ -375,19 +375,10 @@ Webhookが既存のチャネル設定に添付されたAPI資格情報を使用�
    * **OriginTimestamp**: メッセージを受信した際のタイムスタンプ（UTC形式）。
    * **InboundNumber**：このWebhook設定に使用される電話番号。
 
-   +++ペイロードの例
+   >[!TIP]
+   >
+   > サンプル JSON ペイロードとステップバイステップのガイダンスについては、**[!UICONTROL 設定ガイド]**&#x200B;を開いてください。
 
-   ```json
-   {
-   "inboundMessage": "{{inboundMessage}}",
-   "profileNumber": "{{profileNumber}}",
-   "requestId": "{{requestId}}",
-   "originTimestamp": "{{originTimestamp}}",
-   "inboundNumber": "{{inboundNumber}}"
-   }
-   ```
-
-   +++
 
 1. JSON ファイルを作成したら、**[!UICONTROL ペイロードエディターの表示]**&#x200B;をクリックし、JSON ペイロードをエディターにコピー&amp;ペーストして保存します。
 

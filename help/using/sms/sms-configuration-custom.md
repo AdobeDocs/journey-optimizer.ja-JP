@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 4278d8c8294b1413788402cd8eac5959996ad3f5
+source-git-commit: 5beaf2b7dc339cb94352cd7503dd86a97a6db6bd
 workflow-type: tm+mt
-source-wordcount: '818'
-ht-degree: 100%
+source-wordcount: '881'
+ht-degree: 90%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_provider_url"
 >title="プロバイダー URL"
->abstract="接続する予定の外部 API の URL を指定します。この URL は、API の機能にアクセスするためのエンドポイントとして機能します。"
+>abstract="接続する予定の外部 API の URL を指定します。 この URL は、API の機能にアクセスするためのエンドポイントとして機能します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_header_parameters"
@@ -31,7 +31,7 @@ ht-degree: 100%
 >title="プロバイダーペイロード"
 >abstract="処理と応答の生成用に正しいデータの送信を確保するために、リクエストペイロードを指定します。"
 
-この機能により、独自のメッセージプロバイダーを統合および設定できるようになり、デフォルトのオプション（Sinch、Twilio、Infobip）を超える柔軟性が得られます。これにより、SMS メッセージと RCS メッセージの両方に対してシームレスなオーサリング、配信、レポート、同意管理が可能になります。
+この機能により、独自のメッセージプロバイダーを統合および設定できるようになり、デフォルトのオプション（Sinch、Twilio、Infobip）を超える柔軟性が得られます。 これにより、SMS メッセージと RCS メッセージの両方に対してシームレスなオーサリング、配信、レポート、同意管理が可能になります。
 
 カスタムプロバイダー設定を使用すると、Journey Optimizer 内でサードパーティのメッセージサービスを直接接続し、動的コンテンツのメッセージペイロードをカスタマイズし、オプトイン／オプトアウトの環境設定を管理して、SMS チャネルと RCS チャネルの両方でコンプライアンスを確保できます。
 
@@ -68,7 +68,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL mTLS サポート]**」オプションを有効にすると、安全な接続を確立する前にクライアントとサーバーの両方が相互に認証するようになります。
 
-   mTLS のみを使用するには、**[!UICONTROL 認証タイプ]**&#x200B;ドロップダウンから「**[!UICONTROL 認証なし]**」を選択し、**[!UICONTROL mTLS サポート]**&#x200B;を有効にします。
+   mTLSのみを使用するには、**[!UICONTROL 認証タイプ]** ドロップダウンから&#x200B;**[!UICONTROL 認証なし]**&#x200B;を選択し、[!UICONTROL mTLS サポート &#x200B;]&#x200B;**&#x200B;**&#x200B;有効にします。
 
 1. 「**[!UICONTROL ヘッダー]**」セクションで、「**[!UICONTROL 新しいパラメーターを追加]**」をクリックし、外部サービスに送信されるリクエストメッセージの HTTP ヘッダーを指定します。
 
@@ -82,8 +82,18 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >基本認証またはベアラー認証を使用してカスタム SMS プロバイダーを設定する際は、JSON ペイロードに `authOption` パラメーターを含める必要があります。さらに、**プロバイダーペイロード**&#x200B;は、テンプレート変数 `{{fromNumber}}`、`{{toNumber}}`、`{{message}}` を参照する必要があります。
+   >基本認証またはベアラー認証を使用してカスタム SMS プロバイダーを設定する際は、JSON ペイロードに `authOption` パラメーターを含める必要があります。 さらに、**プロバイダーペイロード**&#x200B;は、テンプレート変数 `{{fromNumber}}`、`{{toNumber}}`、`{{message}}` を参照する必要があります。
 
+1. 「**[!UICONTROL インバウンドのカスタムデータセットを使用]**」を選択して、この資格情報のインバウンド SMSを、ドロップダウンから選択した事前作成データセットにルーティングします。 [&#x200B; データセットの作成について詳しく見る](../experience-decisioning/data-collection/create-dataset.md)
+
+   >[!NOTE]
+   >
+   >データセットスキーマは&#x200B;**[!UICONTROL XDM ExperienceEvent]**&#x200B;である必要があり、少なくとも次のフィールドグループを含める必要があります。
+   >* Adobe CJM ExperienceEvent - メッセージインタラクションの詳細
+   >* Adobe CJM ExperienceEvent - Message Execution Details
+   >* Adobe CJM ExperienceEvent - メッセージプロファイル詳細
+   >
+   >プロファイルに対してスキーマとデータセットを有効にする必要があります。
 
 1. API 資格情報の設定が完了したら、「**[!UICONTROL 送信]**」をクリックします。
 
@@ -131,7 +141,7 @@ API 資格情報を作成したら、MAC 認証に必要なフィールドに入
 
 * **[!UICONTROL 名前]**：MAC 認証設定の名前を入力します。
 * **[!UICONTROL API トークン]**：SMS プロバイダーから提供された API トークンを入力します。
-* **[!UICONTROL API 秘密鍵]**：SMS プロバイダーから提供された API 秘密鍵を入力します。このは、安全な通信のための MAC（メッセージ認証コード）を生成するために使用されます。
+* **[!UICONTROL API 秘密鍵]**：SMS プロバイダーから提供された API 秘密鍵を入力します。 このは、安全な通信のための MAC（メッセージ認証コード）を生成するために使用されます。
 * **[!UICONTROL MAC 認証ハッシュ形式]**：MAC 認証のハッシュ形式を選択します。
 
 ![](assets/sms-byop-mac.png)

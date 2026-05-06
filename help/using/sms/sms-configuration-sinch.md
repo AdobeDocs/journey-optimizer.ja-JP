@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 5beaf2b7dc339cb94352cd7503dd86a97a6db6bd
 workflow-type: tm+mt
-source-wordcount: '1358'
-ht-degree: 75%
+source-wordcount: '941'
+ht-degree: 86%
 
 ---
 
@@ -20,7 +20,7 @@ Journey Optimizer で Sinch プロバイダーを使用する場合は、次の 
 
 * **SMS 設定**：SMS メッセージをシームレスに送信するための Sinch API 資格情報を設定します。
 
-* **MMS 設定**：マルチメディアメッセージ（MMS）用に Sinch MMS API 資格情報を設定します。なお、インバウンドメッセージのトラッキングと応答は、SMS 設定で処理されます。MMS セットアップは、MMS メッセージのアウトバウンド配信にのみ使用されます。
+* **MMS 設定**：マルチメディアメッセージ（MMS）用に Sinch MMS API 資格情報を設定します。 なお、インバウンドメッセージのトラッキングと応答は、SMS 設定で処理されます。 MMS セットアップは、MMS メッセージのアウトバウンド配信にのみ使用されます。
 
 * **RCS 設定**：RCS メッセージをシームレスに送信する Sinch API 資格情報を設定します。
 
@@ -33,21 +33,9 @@ Sinch プロバイダーを設定するには、次の手順に従います。
 
 ## SMS 用の API 資格情報の設定{#create-api}
 
->[!BEGINSHADEBOX]
-
-オプトインキーワードやオプトアウトキーワードを指定していない場合は、ユーザーのプライバシーを遵守するために標準の同意メッセージが使用されます。カスタムキーワードを追加すると、デフォルト設定が自動的に上書きされます。
-
-**デフォルトのキーワード：**
-
-* **オプトイン**：SUBSCRIBE、YES、UNSTOP、START、CONTINUE、RESUME、BEGIN
-* **オプトアウト**：STOP、QUIT、CANCEL、END、UNSUBSCRIBE、NO
-* **ヘルプ**：HELP
-
->[!ENDSHADEBOX]
-
 Journey Optimizer で SMS メッセージと MMS を送信するように Sinch プロバイダーを設定するには、次の手順に従います。
 
-1. 左側のパネルで、**[!UICONTROL 管理]**／**[!UICONTROL チャネル]**／`>`**[!UICONTROL SMS 設定]**&#x200B;を参照し、**[!UICONTROL API 資格情報]**&#x200B;メニューを選択します。「**[!UICONTROL 新しい API 資格情報を作成]**」ボタンをクリックします。
+1. 左側のパネルで、**[!UICONTROL 管理]**／**[!UICONTROL チャネル]**／`>`**[!UICONTROL SMS 設定]**&#x200B;を参照し、**[!UICONTROL API 資格情報]**&#x200B;メニューを選択します。 「**[!UICONTROL 新しい API 資格情報を作成]**」ボタンをクリックします。
 
 1. 以下で説明するように、SMS API 資格情報を設定します。
 
@@ -57,25 +45,31 @@ Journey Optimizer で SMS メッセージと MMS を送信するように Sinch 
    |---|---|
    | SMS ベンダー | Sinch |
    | 名前 | API 資格情報の名前を選択します。 |
-   | サービス ID および API トークン | API ページにアクセスして、「SMS」タブで資格情報を検索します。詳しくは、[Sinch のドキュメント](https://developers.sinch.com/docs/sms/getting-started/){target="_blank"}を参照してください。 |
-   | オプトインキーワード | **新しいSMS設定の場合、[Webhook メニュー](sms-webhook.md)を使用して同意キーワードを設定します。 既存の設定は、このセクションの同意キーワードを引き続き使用できます。** </br> オプトインメッセージを自動的にトリガーするデフォルトまたはカスタムキーワードを入力します。 複数のキーワードの場合は、コンマ区切り値を使用します。 |
-   | オプトインメッセージ | **新しいSMS設定の場合、[Webhook メニュー](sms-webhook.md)を使用して同意キーワードを設定します。 既存の設定は、このセクションの同意キーワードを引き続き使用できます。** </br> オプトインメッセージとして自動的に送信されるカスタム応答を入力します。 |
-   | オプトアウトキーワード | **新しいSMS設定の場合、[Webhook メニュー](sms-webhook.md)を使用して同意キーワードを設定します。 既存の設定は、このセクションの同意キーワードを引き続き使用できます。** </br> オプトアウトメッセージを自動的にトリガーするデフォルトまたはカスタムキーワードを入力します。 複数のキーワードの場合は、コンマ区切り値を使用します。 |
-   | オプトアウトメッセージ | **新しいSMS設定の場合、[Webhook メニュー](sms-webhook.md)を使用して同意キーワードを設定します。 既存の設定は、このセクションの同意キーワードを引き続き使用できます。** </br> オプトアウトメッセージとして自動的に送信されるカスタム応答を入力します。 |
-   | ヘルプキーワード | **新しいSMS設定の場合、[Webhook メニュー](sms-webhook.md)を使用して同意キーワードを設定します。 既存の設定は、このセクションの同意キーワードを引き続き使用できます。** </br> **ヘルプメッセージ**&#x200B;を自動的にトリガーするデフォルトまたはカスタムキーワードを入力します。 複数のキーワードの場合は、コンマ区切り値を使用します。 |
-   | ヘルプメッセージ | **新しいSMS設定の場合、[Webhook メニュー](sms-webhook.md)を使用して同意キーワードを設定します。 既存の設定は、このセクションの同意キーワードを引き続き使用できます。** </br>自動的に&#x200B;**ヘルプメッセージ**&#x200B;として送信されるカスタム応答を入力します。 |
-   | ダブルオプトインキーワード | **新しいSMS設定の場合、[Webhook メニュー](sms-webhook.md)を使用して同意キーワードを設定します。 既存の設定は、このセクションの同意キーワードを引き続き使用できます。** </br> ダブルオプトインプロセスをトリガーとするキーワードを入力します。 ユーザープロファイルが存在しない場合は、確認が成功すると作成されます。複数のキーワードの場合は、コンマ区切り値を使用します。[詳しくは、SMS ダブルオプトインを参照してください](https://video.tv.adobe.com/v/3440273/?captions=jpn&learn=on)。 |
-   | ダブルオプトインメッセージ | **新しいSMS設定の場合、[Webhook メニュー](sms-webhook.md)を使用して同意キーワードを設定します。 既存の設定は、このセクションの同意キーワードを引き続き使用できます。** </br> ダブルオプトインの確認に応じて自動的に送信されるカスタム応答を入力します。 |
-   | インバウンド番号 | ユニークなインバウンド番号またはショートコードを追加します。これにより、それぞれに独自のインバウンド番号またはショートコードを持つ異なるサンドボックス間で同じ API 資格情報を使用できます。 |
-   | カスタム受信キーワード | バッチベースのアクションに対して、同意に関連しない一意のキーワードを定義します（割引、オファー、登録など）。これらのキーワードはプロファイル内の属性として取得され、保存されるので、ユーザーはジャーニー内でバッチセグメントの選定をトリガーし、カスタマイズされた応答やアクションを提供できます。 |
-   | デフォルトのインバウンド返信メッセージ | 定義されたキーワードのいずれにも一致しないインバウンド SMS をエンドユーザーが送信した際に送信されるデフォルトの返信を入力します。 |
-   | 上書き URL | SMS 配信レポート、フィードバックデータ、インバウンドメッセージまたはイベント通知のデフォルトのエンドポイントを置き換えるカスタム URL を入力します。Sinch は、事前定義された更新ではなく、関連するすべての更新をこの URL に送信します。 |
+   | サービス ID および API トークン | API ページにアクセスして、「SMS」タブで資格情報を検索します。 詳しくは、[Sinch のドキュメント](https://developers.sinch.com/docs/sms/getting-started/){target="_blank"}を参照してください。 |
+   | インバウンド番号 | ユニークなインバウンド番号またはショートコードを追加します。 これにより、それぞれに独自のインバウンド番号またはショートコードを持つ異なるサンドボックス間で同じ API 資格情報を使用できます。 |
+   | 上書き URL | SMS 配信レポート、フィードバックデータ、インバウンドメッセージまたはイベント通知のデフォルトのエンドポイントを置き換えるカスタム URL を入力します。 Sinch は、事前定義された更新ではなく、関連するすべての更新をこの URL に送信します。 |
 
    +++
 
-1. 「**[!UICONTROL あいまいオプトアウト]**」オプションを有効にすると、オプトアウトキーワード（「キャンシル」など）に類似したメッセージを検出し、「**[!UICONTROL あいまい自動返信]**」フィールドで確認返信をカスタマイズできます。
+<!--
+1. Choose how user consent should be tracked for messaging:
 
-   **[!UICONTROL あいまいオプトアウト]**&#x200B;は、メッセージが定義済みのオプトアウトキーワードと完全に一致しない場合でも、ユーザーが登録解除を希望していることを示す SMS メッセージを識別します。一般的なオプトアウトフレーズや特定の攻撃用語を検出できるので、キャンペーンでユーザーの環境設定を適用し、コンプライアンスを維持するのに役立ちます。
+    * **[!UICONTROL Sender short code]**: Inbound keyword consent is keyed to your **sender short code** only. Use when one inbound number is enough to represent consent.
+
+    * **[!UICONTROL Sender short code + profile number]**: Consent is keyed to the **sender short code** and the profile **mobile number**. Use when profiles can have several numbers, or when opt-in/out must apply per sender and recipient pair.
+-->
+
+1. 「**[!UICONTROL インバウンドのカスタムデータセットを使用]**」を選択して、この資格情報のインバウンド SMSを、ドロップダウンから選択した事前作成データセットにルーティングします。 [&#x200B; データセットの作成について詳しく見る](../experience-decisioning/data-collection/create-dataset.md)
+
+   >[!NOTE]
+   >
+   >データセットスキーマは&#x200B;**[!UICONTROL XDM ExperienceEvent]**&#x200B;である必要があり、少なくとも次のフィールドグループを含める必要があります。
+   >* Adobe CJM ExperienceEvent - メッセージインタラクションの詳細
+   >* Adobe CJM ExperienceEvent - Message Execution Details
+   >* Adobe CJM ExperienceEvent - メッセージプロファイル詳細
+   >
+   >プロファイルに対してスキーマとデータセットを有効にする必要があります。
+
 
 1. API 資格情報の設定が完了したら、「**[!UICONTROL 送信]**」をクリックします。
 
@@ -103,7 +97,7 @@ API資格情報を作成して設定したら、次に[Webhook](sms-webhook.md)�
 
 Journey Optimizer で MMS を送信するように Sinch MMS を設定するには、次の手順に従います。
 
-1. 左側のパネルで、**[!UICONTROL 管理]**／**[!UICONTROL チャネル]**／`>`**[!UICONTROL SMS 設定]**&#x200B;を参照し、**[!UICONTROL API 資格情報]**&#x200B;メニューを選択します。「**[!UICONTROL 新しい API 資格情報を作成]**」ボタンをクリックします。
+1. 左側のパネルで、**[!UICONTROL 管理]**／**[!UICONTROL チャネル]**／`>`**[!UICONTROL SMS 設定]**&#x200B;を参照し、**[!UICONTROL API 資格情報]**&#x200B;メニューを選択します。 「**[!UICONTROL 新しい API 資格情報を作成]**」ボタンをクリックします。
 
 1. 以下で説明するように、MMS API 資格情報を設定します。
 
@@ -164,7 +158,7 @@ RCS（リッチ通信サービス）メッセージは、Sinch を通じて Jour
 
 1. **ブランドの RCS エージェントの設定**
 
-   Sinch ダッシュボードでブランド化された RCS エージェントを作成します。[詳しくは、ブランドの RCS エージェントを参照してください。](https://community.sinch.com/t5/RCS/Getting-Started-with-RCS-using-Conversation-API/ta-p/17844)
+   Sinch ダッシュボードでブランド化された RCS エージェントを作成します。 [詳しくは、ブランドの RCS エージェントを参照してください。](https://community.sinch.com/t5/RCS/Getting-Started-with-RCS-using-Conversation-API/ta-p/17844)
 
 1. **[カスタム API 資格情報の設定](sms-configuration-custom.md)**
 
@@ -176,7 +170,7 @@ RCS（リッチ通信サービス）メッセージは、Sinch を通じて Jour
 
 1. **RCS メッセージ用の[チャネル設定](sms-configuration-surface.md)の作成**
 
-   Sinch 資格情報をリンクし、メッセージパラメーターを定義して、Journey Optimizer でチャネルサーフェスを設定します。この設定により、Journey Optimizer から RCS メッセージを作成して送信できます。
+   Sinch 資格情報をリンクし、メッセージパラメーターを定義して、Journey Optimizer でチャネルサーフェスを設定します。 この設定により、Journey Optimizer から RCS メッセージを作成して送信できます。
 
 1. **[SMS メッセージの作成とパーソナライズ](../sms/create-sms.md)**
 
