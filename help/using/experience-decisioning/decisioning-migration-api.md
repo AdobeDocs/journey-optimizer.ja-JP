@@ -6,9 +6,9 @@ topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 3ec084ca-af9e-4b5e-b66f-ec390328a9d6
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: 8218f868dd777345aa1415edc8ebdc97bdc31a3e
 workflow-type: tm+mt
-source-wordcount: '1143'
+source-wordcount: '1175'
 ht-degree: 5%
 
 ---
@@ -120,25 +120,24 @@ POST /workflows/generate-dependencies
 
 ```shell
 curl --request POST \
-  --url "https://decisioning-migration.adobe.io/workflows/generate-dependencies" \
+  --url "https://decisioning-migration.adobe.io/workflows/generate-dependencies?request-level=sandbox" \
   --header "Authorization: Bearer <IMS_ACCESS_TOKEN>" \
   --header "x-gw-ims-org-id: <IMS_ORG_ID>" \
   --header "Content-Type: application/json" \
   --data '{
     "imsOrgId": "<IMS_ORG_ID>",
     "sourceSandboxDetails": { "sandboxName": "<SOURCE_SANDBOX_NAME>" },
-    "targetSandboxDetails": { "sandboxName": "<TARGET_SANDBOX_NAME>" },
-    "requestLevel": "sandbox"
+    "targetSandboxDetails": { "sandboxName": "<TARGET_SANDBOX_NAME>" }
   }'
 ```
 
 **オファーレベルの依存関係**
 
-特定のオファーの依存関係のみを分析するには、`requestLevel: "offer"`を設定し、分析するオファーIDを`offersList`配列に指定します。
+特定のオファーの依存関係のみを分析するには、クエリ文字列に`request-level=offer`を含む同じエンドポイントを呼び出し、分析するオファーIDを含む`offersList`配列を本文に指定します。
 
 **決定レベルの依存関係**
 
-特定の決定の依存関係のみを分析するには、`requestLevel: "decision"`を設定し、分析する決定IDを`decisionsList`配列に指定します。
+特定の決定の依存関係のみを分析するには、クエリ文字列に`request-level=decision`を使用し、分析する決定IDを持つ`decisionsList`配列を本文に指定します。
 
 #### 依存関係ワークフローの状態を確認する {#poll-dependency-status}
 
@@ -186,10 +185,10 @@ POST /workflows/migration
 
 ```shell
 curl --request POST \
-  --url "https://decisioning-migration.adobe.io/workflows/migration" \
-  --header "Authorization: Bearer <IMS_ACCESS_TOKEN>" \
-  --header "x-gw-ims-org-id: <IMS_ORG_ID>" \
-  --header "Content-Type: application/json" \
+  --url 'https://decisioning-migration.adobe.io/workflows/migration?request-level=sandbox' \
+  --header 'Authorization: Bearer <IMS_ACCESS_TOKEN>' \
+  --header 'Content-Type: application/json' \
+  --header 'x-gw-ims-org-id: <IMS_ORG_ID>' \
   --data '{
     "imsOrgId": "<IMS_ORG_ID>",
     "sourceSandboxDetails": { "sandboxName": "<SOURCE_SANDBOX_NAME>" },
@@ -209,14 +208,13 @@ curl --request POST \
         "sourceCtx1": "targetCtx1"
       },
       "datasetName": "<TARGET_DATASET_NAME>"
-    },
-    "requestLevel": "sandbox"
+    }
   }'
 ```
 
 **オファーレベルの移行**
 
-特定のオファーのみを移行するには、`requestLevel: "offer"`を使用して`offersList`配列を追加します。
+特定のオファーのみを移行するには、クエリ文字列に`request-level=offer`を使用し、本文に`offersList`配列を追加します。
 
 ```json
 "offersList": ["offer-id-1", "offer-id-2"]
@@ -224,7 +222,7 @@ curl --request POST \
 
 **決定レベルの移行**
 
-特定の決定のみを移行するには、`requestLevel: "decision"`を使用して`decisionsList`配列を追加します。
+特定の決定のみを移行するには、クエリ文字列に`request-level=decision`を使用し、本文に`decisionsList`配列を追加します。
 
 ```json
 "decisionsList": ["decision-id-1", "decision-id-2"]
