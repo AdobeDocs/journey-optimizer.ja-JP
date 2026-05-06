@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 5b8c86fadb59820e2f6127f84fa205e2daf6c386
+source-git-commit: 8218f868dd777345aa1415edc8ebdc97bdc31a3e
 workflow-type: tm+mt
 source-wordcount: '2386'
 ht-degree: 18%
@@ -142,7 +142,7 @@ ht-degree: 18%
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 4月初旬にリリースされた新機能と機能強化は、リリース日とともに発表されます。
