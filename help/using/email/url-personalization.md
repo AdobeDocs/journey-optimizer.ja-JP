@@ -25,7 +25,7 @@ ht-degree: 14%
 
 URLをパーソナライズするには、次の手順に従います。
 
-1. 電子メール Designerで、コンテンツ内の要素を選択し、コンテキストツールバーを使用して[ リンクを挿入](message-tracking.md#insert-links)します。
+1. 電子メール Designerで、コンテンツ内の要素を選択し、コンテキストツールバーを使用して[&#x200B; リンクを挿入](message-tracking.md#insert-links)します。
 
    >[!IMPORTANT]
    >
@@ -52,7 +52,7 @@ URLをパーソナライズするには、次の手順に従います。
 >
 >スペースは、URL 内で使用されるパーソナライゼーショントークンではサポートされていません。
 
-信頼性の高いレンダリングとトラッキングを行うには、以下の[ ベストプラクティスとガードレール ](#best-practices)に従ってください。
+信頼性の高いレンダリングとトラッキングを行うには、以下の[&#x200B; ベストプラクティスとガードレール &#x200B;](#best-practices)に従ってください。
 
 ## 完全/ベース URLのパーソナライズ {#personalize-complete-base-url}
 
@@ -70,9 +70,9 @@ Journey Optimizerでは、URLの&#x200B;**entire** URLまたは&#x200B;**base do
 
 ## URL トラッキングパラメーターのパーソナライズ {#personalize-url-tracking-parameters}
 
-[URL トラッキング ](url-tracking.md)はチャネル設定レベルで管理され、メッセージコンテンツに含まれるすべてのURLに適用されます。 電子メールDesignerでは、個々のリンクのURL トラッキングパラメーターをパーソナライズすることもできます。 これにより、受信者固有のパラメーターを1つのリンクに追加できます（例えば、Web分析ツールに識別子を渡すために）。
+[URL トラッキング &#x200B;](url-tracking.md)はチャネル設定レベルで管理され、メッセージコンテンツに含まれるすべてのURLに適用されます。 電子メールDesignerでは、個々のリンクのURL トラッキングパラメーターをパーソナライズすることもできます。 これにより、受信者固有のパラメーターを1つのリンクに追加できます（例えば、Web分析ツールに識別子を渡すために）。
 
-これを行うには、[ リンクを挿入](message-tracking.md#insert-links)し、パーソナライゼーションアイコンを選択し、URL トラッキングパラメーターを追加して、[ パーソナライゼーションエディター](../personalization/personalization-build-expressions.md)から選択したプロファイル属性を選択します。
+これを行うには、[&#x200B; リンクを挿入](message-tracking.md#insert-links)し、パーソナライゼーションアイコンを選択し、URL トラッキングパラメーターを追加して、[&#x200B; パーソナライゼーションエディター](../personalization/personalization-build-expressions.md)から選択したプロファイル属性を選択します。
 
 ![](assets/message-tracking-perso-parameter.png)
 
@@ -122,6 +122,6 @@ Journey Optimizerでは、URLの&#x200B;**entire** URLまたは&#x200B;**base do
 
 ジャーニーまたはキャンペーンをアクティブ化する前に、以下の推奨事項に従ってください。
 
-* [ プルーフ ](../content-management/proofs.md)を送信し、リンクをクリックして、解決されたURLが`http`/`https`で始まり、想定される構造を維持することを確認します。
+* [&#x200B; プルーフ &#x200B;](../content-management/proofs.md)を送信し、リンクをクリックして、解決されたURLが`http`/`https`で始まり、想定される構造を維持することを確認します。
 * トラッキングパラメーターが追加されている場合は、最終的なURLにそれらを含めることを確認します（設定レベルのURL トラッキングまたはリンクごとのトラッキングパラメーターを使用）。
 
