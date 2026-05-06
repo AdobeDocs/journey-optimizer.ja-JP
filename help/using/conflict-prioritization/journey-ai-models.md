@@ -20,7 +20,7 @@ ht-degree: 16%
 >
 >この機能は現在限定的です。 アクセス権を取得するには、アドビ担当者にお問い合わせください。
 
-[!DNL Adobe Journey Optimizer]を使用すると、プロファイルがシステムで許可されている以上の条件を満たす場合に入力できるジャーニーを制御できます。 これには、[ ルールセット ](rule-sets.md)を使用して、ジャーニーのエントリまたは同時実行の上限を定義できます。 プロファイルがキャップが許可する以上のジャーニーの対象となる場合、各ジャーニーに割り当てられた優先度によって、選択されるジャーニーが決まります。
+[!DNL Adobe Journey Optimizer]を使用すると、プロファイルがシステムで許可されている以上の条件を満たす場合に入力できるジャーニーを制御できます。 これには、[&#x200B; ルールセット &#x200B;](rule-sets.md)を使用して、ジャーニーのエントリまたは同時実行の上限を定義できます。 プロファイルがキャップが許可する以上のジャーニーの対象となる場合、各ジャーニーに割り当てられた優先度によって、選択されるジャーニーが決まります。
 
 優先度を使用する代わりに、ランキング式で&#x200B;**AI モデル**&#x200B;を使用して、トレーニングされたモデル スコアに基づいてジャーニーを動的にランク付けすることもできます。
 
@@ -56,9 +56,9 @@ Do you need specific permissions to create AI models?
     * **[!UICONTROL Personalized optimization]** optimizes and personalizes based on audiences and performance. [Learn more](../experience-decisioning/ranking/personalized-optimization-model.md)
 -->
 
-1. **[!UICONTROL 最適化指標]** セクションでは、デフォルトの[!DNL Customer Journey Analytics] [ データビュー](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"}のすべての指標がリストに表示されます。 モデルを最適化する指標を選択します。
+1. **[!UICONTROL 最適化指標]** セクションでは、デフォルトの[!DNL Customer Journey Analytics] [&#x200B; データビュー](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-dataviews/data-views){target="_blank"}のすべての指標がリストに表示されます。 モデルを最適化する指標を選択します。
 
-   ![AI モデルのCustomer Journey Analytics指標を一覧表示する最適化指標ドロップダウン ](assets/journey-model-metrics.png){width="70%"}
+   ![AI モデルのCustomer Journey Analytics指標を一覧表示する最適化指標ドロップダウン &#x200B;](assets/journey-model-metrics.png){width="70%"}
 
    [!DNL Journey Optimizer]は、**コンバージョン率**&#x200B;に基づいてランク付けされます（コンバージョン率= コンバージョンイベントの総数/ インプレッションイベントの総数）。 コンバージョン率は、次のように計算されます。
 
@@ -69,13 +69,13 @@ Do you need specific permissions to create AI models?
 
 1. コンバージョンイベントとインプレッションイベントが収集されるデータセットを選択します。 このようなデータセットを作成する方法について詳しくは、[この節](../experience-decisioning/data-collection/create-dataset.md)を参照してください。
 
-   コンバージョンイベントおよびインプレッションイベント用の![ データセットの選択](../experience-decisioning/assets/ai-model-datasets.png){width="85%"}
+   コンバージョンイベントおよびインプレッションイベント用の![&#x200B; データセットの選択](../experience-decisioning/assets/ai-model-datasets.png){width="85%"}
 
    >[!CAUTION]
    >
    >「**[!UICONTROL エクスペリエンスイベント – 提案インタラクション]**」フィールドグループに関連付けられたスキーマから作成されたデータセットのみが、ドロップダウンリストに表示されます。 最大5つのデータセットを選択できます。
 
-1. <!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->AI モデルのトレーニングに使用するセグメントを選択します。
+1. &#x200B;<!--If you are creating a **[!UICONTROL Personalized optimization]** AI model, -->AI モデルのトレーニングに使用するセグメントを選択します。
 
    >[!NOTE]
    >
@@ -97,7 +97,7 @@ AI モデルを参照として設定してランキング式を作成し、そ�
 
 1. **[!UICONTROL 基準]** セクションのうち少なくとも1つのセクションで、条件を定義し、ランキング方法として&#x200B;**[!UICONTROL AI モデルスコア]**&#x200B;を選択します。 たとえば、ジャーニーに「プロモーション」タグが付いている場合、ランキングスコアはAI モデルスコアです。
 
-   ![ プロモーションタグ基準がAI モデルスコアをランキング方法として使用するランキング式の例](assets/journey-formula-ex-2.png){width="60%"}
+   ![&#x200B; プロモーションタグ基準がAI モデルスコアをランキング方法として使用するランキング式の例](assets/journey-formula-ex-2.png){width="60%"}
 
 1. 「**[!UICONTROL 作成]**」をクリックして、ランキング式を完成させます。
 
