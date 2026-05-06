@@ -43,7 +43,7 @@ Journey Optimizer に Twilio を設定するには、Twilio 用の新しい API 
 
    * **[!UICONTROL インバウンド番号]**：ユニークなインバウンド番号を追加します。 これにより、それぞれに独自のインバウンド番号を持つ異なるサンドボックス間で同じ API 資格情報を使用できます。
 
-1. 「**[!UICONTROL インバウンドのカスタムデータセットを使用]**」を選択して、この資格情報のインバウンド SMSを、ドロップダウンから選択した事前作成データセットにルーティングします。 [ データセットの作成について詳しく見る](../experience-decisioning/data-collection/create-dataset.md)
+1. 「**[!UICONTROL インバウンドのカスタムデータセットを使用]**」を選択して、この資格情報のインバウンド SMSを、ドロップダウンから選択した事前作成データセットにルーティングします。 [&#x200B; データセットの作成について詳しく見る](../experience-decisioning/data-collection/create-dataset.md)
 
    >[!NOTE]
    >

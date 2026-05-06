@@ -84,7 +84,7 @@ ht-degree: 92%
    >
    >基本認証またはベアラー認証を使用してカスタム SMS プロバイダーを設定する際は、JSON ペイロードに `authOption` パラメーターを含める必要があります。 さらに、**プロバイダーペイロード**&#x200B;は、テンプレート変数 `{{fromNumber}}`、`{{toNumber}}`、`{{message}}` を参照する必要があります。
 
-1. 「**[!UICONTROL インバウンドのカスタムデータセットを使用]**」を選択して、この資格情報のインバウンド SMSを、ドロップダウンから選択した事前作成データセットにルーティングします。 [ データセットの作成について詳しく見る](../experience-decisioning/data-collection/create-dataset.md)
+1. 「**[!UICONTROL インバウンドのカスタムデータセットを使用]**」を選択して、この資格情報のインバウンド SMSを、ドロップダウンから選択した事前作成データセットにルーティングします。 [&#x200B; データセットの作成について詳しく見る](../experience-decisioning/data-collection/create-dataset.md)
 
    >[!NOTE]
    >
