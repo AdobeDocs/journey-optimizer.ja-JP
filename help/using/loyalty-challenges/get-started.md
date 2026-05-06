@@ -70,7 +70,7 @@ ht-degree: 4%
 
 ロイヤルティに関する課題の作成と立ち上げは、次のワークフローに従います。
 
-1. **チャレンジを作成** – 名前、タイプ（標準、ストリーク、シーケンシャル、または利用可能な場合は独自のデータを取り込む）、日付範囲など、基本的なチャレンジのプロパティを定義します。 [ チャレンジの種類を選択する方法について説明します](create-challenges.md#create-the-challenge)。
+1. **チャレンジを作成** – 名前、タイプ（標準、ストリーク、シーケンシャル、または利用可能な場合は独自のデータを取り込む）、日付範囲など、基本的なチャレンジのプロパティを定義します。 [&#x200B; チャレンジの種類を選択する方法について説明します](create-challenges.md#create-the-challenge)。
 
 1. **タスクを追加** - タスクの種類（購入、支出）、数量、製品フィルター、報酬など、顧客が完了しなければならない特定のアクションを定義します。
 
@@ -117,7 +117,7 @@ ht-degree: 4%
 
 +++ターゲットオーディエンス
 
-課題を解決する前に、Adobe Experience Platformに必要なターゲットオーディエンスが存在することを確認しましょう。 チャレンジの設定中に、どの顧客が参加する資格があるかを定義するオーディエンスを選択します。 [ オーディエンスの操作方法を学ぶ](../audience/about-audiences.md)。
+課題を解決する前に、Adobe Experience Platformに必要なターゲットオーディエンスが存在することを確認しましょう。 チャレンジの設定中に、どの顧客が参加する資格があるかを定義するオーディエンスを選択します。 [&#x200B; オーディエンスの操作方法を学ぶ](../audience/about-audiences.md)。
 
 +++
 
@@ -165,4 +165,4 @@ ht-degree: 4%
 
 ## API リファレンス {#api-reference}
 
-ロイヤルティの課題をプログラムで管理するには、[ ロイヤルティの課題API](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}を使用します。 APIを使用すると、REST エンドポイントを介して課題とタスクを作成、更新、管理できます。
+ロイヤルティの課題をプログラムで管理するには、[&#x200B; ロイヤルティの課題API](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}を使用します。 APIを使用すると、REST エンドポイントを介して課題とタスクを作成、更新、管理できます。
