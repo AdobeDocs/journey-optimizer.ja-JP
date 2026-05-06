@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 76ca2ff7ceccd333016291c9f6de269934ed544f
+source-git-commit: ba3ceaeebb11d62c95586be86c0f0ad8c903e39c
 workflow-type: tm+mt
-source-wordcount: '1378'
-ht-degree: 83%
+source-wordcount: '1511'
+ht-degree: 75%
 
 ---
 
@@ -28,7 +28,7 @@ Adobe Journey Optimizer にアクセスするには、Adobe ID を使用して [
 
 Journey Optimizer インターフェイスは、次の 4 つの主な領域で構成されます。
 
-![左側のナビゲーション、上部バー、メインワークスペース、ホームページエリアを表示するJourney Optimizerのホームページ &#x200B;](assets/ajo-home.png)
+![左側のナビゲーション、上部バー、メインワークスペース、ホームページエリアを表示するJourney Optimizerのホームページ ](assets/ajo-home.png)
 
 1. **左側のナビゲーション** - 機能別に整理されたすべての機能と特長へのアクセス
 2. **上部バー** - ユニバーサル検索、ヘルプ、通知、設定
@@ -41,7 +41,7 @@ Journey Optimizer インターフェイスは、次の 4 つの主な領域で�
 
 ### ユニバーサル検索 {#universal-search}
 
-検索アイコンを使用すると、Journey Optimizer をまたいでジャーニー、キャンペーン、アセット、他のオブジェクトをすばやく検索できます。 キーワードを入力すると、プラットフォームのすべての領域から関連する結果が表示されます。 [&#x200B; ユニバーサル検索の詳細](search-filter-categorize.md#unified-search)。
+検索アイコンを使用すると、Journey Optimizer をまたいでジャーニー、キャンペーン、アセット、他のオブジェクトをすばやく検索できます。 キーワードを入力すると、プラットフォームのすべての領域から関連する結果が表示されます。 [ ユニバーサル検索の詳細](search-filter-categorize.md#unified-search)。
 
 ### ヘルプ&amp;サポート {#help}
 
@@ -338,3 +338,29 @@ AI アシスタントは、即座に役立つヘルプと運用上のインサ�
 >id="ajo_channels_feedback_webhook_settings_header_parameters"
 >title="ヘッダーパラメーター"
 >abstract="このセクションでは、各 webhook リクエストと共に送信される追加のカスタムヘッダーを設定できます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_content_fragment_configuration"
+>title="「AEM設定ヘルプ"
+>abstract="設定の作成と管理について詳しく見る"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_configure_instance"
+>title="インスタンス設定"
+>abstract="設定に適したインスタンス設定タイプを選択します。 </br>作成者のみ設定：AEM オーサーインスタンスのコンテンツフラグメントを使用します。 パブリッシュインスタンス設定とライブアップデートはサポートされていません。</br> パブリッシュ インスタンスの設定：パブリッシュ インスタンスの設定を構成します。 オプションで「インスタンスを公開するトークンを送信」を有効にして、認証用のサービス資格情報を提供します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_send_token"
+>title="パブリッシュインスタンスにトークンを送信"
+>abstract="有効にすると、パブリッシュインスタンスへのリクエストを認証するためにサービス認証情報が送信されます。 以下に有効なサービス資格情報JSONを指定します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_service_credential"
+>title="サービス資格情報JSONの貼り付け"
+>abstract="AEM サービスの資格情報JSONを作成した後、公開されているテクニカルアカウントのドキュメントを参照して貼り付けます。 自動的にフォーマットされ、検証されます。"
+>additional-url=""
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_aem_custom_domain"
+>title="カスタムドメイン"
+>abstract="オプション。 組織のコンテンツの取得がブロックされ16552いる場合147195 カスタムドメインを指定します。"
