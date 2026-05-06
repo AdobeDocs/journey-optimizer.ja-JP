@@ -11,9 +11,9 @@ hide: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: f72950486be1dbe37b908ede8b40fee686d1a11d
+source-git-commit: 3bfc2ad5aab60ba8b1672c12268b92a424faa2a3
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '826'
 ht-degree: 4%
 
 ---
@@ -28,6 +28,7 @@ ht-degree: 4%
 * [課題とタスクへのアクセスと管理](access-loyalty-challenges.md)
 * [課題の創出](create-challenges.md)
 * [タスクの作成](create-tasks.md)
+* [ロイヤルティチャレンジのパフォーマンスを監視する](loyalty-reporting.md)
 * [ロイヤルティチャレンジ API リファレンス](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
 >[!ENDSHADEBOX]
@@ -52,10 +53,11 @@ ht-degree: 4%
 * **エクスペリエンスをパーソナライズ**: コンテンツカードとマルチチャネルメッセージを使用して、没入感のあるブランド体験を構築します
 * **シームレスな統合**：既存のロイヤルティプロバイダーとつながり、Experience Platform データを活用する
 * **自動的に追跡**: カスタム開発なしで自動生成されたジャーニーを通じて、顧客の進捗状況を監視します
+* **パフォーマンスを測定**：組み込みのレポートダッシュボードを使用して、プログラム KPI、チャレンジの結果、タスクレベルの指標を追跡します
 
 ![](assets/challenges-gs.png)
 
-チャレンジエクスペリエンスには、次の3つの種類があります。
+次のようなチャレンジエクスペリエンスを構築できます。
 
 * **標準課題**：お客様は、指定された数のタスクを任意の順序で完了できます。 このタイプは、柔軟性と複数のパスを補完する場合に使用します。\
   *例：「サマーウェルネスチャレンジ」 - 5つのタスクのうち3つを完了する：健康製品の購入、ソーシャルメディアでの共有、友人への紹介、レビューの執筆、バーチャルイベントへの参加*
@@ -66,11 +68,13 @@ ht-degree: 4%
 * **連続した課題**：顧客は定義された順序でタスクを完了します。 このタイプは、特定のジャーニーやオンボーディングプロセスを通じて顧客を導くために使用できます。\
   *例：「新規会員ジャーニー」 – メールに登録する→初めての購入→商品レビューを書く→友達を紹介する（正確な順序で記入）*
 
+* **独自のデータ課題を持ち込む** （制限付き可用性）: チャレンジフレームワーク（タスクと報酬）は、ロイヤルティチャレンジデータ統合から組み立てられます。 コンテンツ、メッセージ、オーディエンスは、他のチャレンジタイプと同様に設定します。
+
 ## 仕組み {#how-it-works}
 
 ロイヤルティに関する課題の作成と立ち上げは、次のワークフローに従います。
 
-1. **チャレンジを作成** – 名前、タイプ（標準、ストリーク、シーケンシャル、または利用可能な場合は独自のデータを取り込む）、日付範囲など、基本的なチャレンジのプロパティを定義します。 [&#x200B; チャレンジの種類を選択する方法について説明します](create-challenges.md#create-the-challenge)。
+1. **チャレンジを作成** – 名前、タイプ（標準、ストリーク、シーケンシャル、または利用可能な場合は独自のデータを取り込む）、日付範囲など、基本的なチャレンジのプロパティを定義します。 [ チャレンジの種類を選択する方法について説明します](create-challenges.md#create-the-challenge)。
 
 1. **タスクを追加** - タスクの種類（購入、支出）、数量、製品フィルター、報酬など、顧客が完了しなければならない特定のアクションを定義します。
 
@@ -117,7 +121,7 @@ ht-degree: 4%
 
 +++ターゲットオーディエンス
 
-課題を解決する前に、Adobe Experience Platformに必要なターゲットオーディエンスが存在することを確認しましょう。 チャレンジの設定中に、どの顧客が参加する資格があるかを定義するオーディエンスを選択します。 [&#x200B; オーディエンスの操作方法を学ぶ](../audience/about-audiences.md)。
+課題を解決する前に、Adobe Experience Platformに必要なターゲットオーディエンスが存在することを確認しましょう。 チャレンジの設定中に、どの顧客が参加する資格があるかを定義するオーディエンスを選択します。 [ オーディエンスの操作方法を学ぶ](../audience/about-audiences.md)。
 
 +++
 
@@ -160,9 +164,20 @@ ht-degree: 4%
     <em>課題に対して顧客が完了するタスクを定義する方法について説明します</em>
     </p>
   </td>
+  <td>
+    <a href="loyalty-reporting.md">
+      <img alt="レポート" src="assets/do-not-localize/icon-reporting.png" width="200"/>
+    </a>
+    <div>
+    <a href="loyalty-reporting.md"><strong>パフォーマンスの監視</strong></a>
+    </div>
+    <p>
+    <em>組み込みのダッシュボードを使用して、プログラムのKPI、チャレンジの結果、タスクの指標を追跡</em>
+    </p>
+  </td>
 </tr>
 </table>
 
 ## API リファレンス {#api-reference}
 
-ロイヤルティの課題をプログラムで管理するには、[&#x200B; ロイヤルティの課題API](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}を使用します。 APIを使用すると、REST エンドポイントを介して課題とタスクを作成、更新、管理できます。
+ロイヤルティの課題をプログラムで管理するには、[ ロイヤルティの課題API](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}を使用します。 APIを使用すると、REST エンドポイントを介して課題とタスクを作成、更新、管理できます。
