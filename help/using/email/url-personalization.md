@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Intermediate, Experienced
 keywords: url、リンク、パーソナライゼーション、トラッキング、エンコード、中括弧
-source-git-commit: daf07abd855079aeedf77708575a92d1ce13f66d
+source-git-commit: 36fad8d6c200118210794249fa12263ae70e5422
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 24%
+source-wordcount: '760'
+ht-degree: 14%
 
 ---
 
@@ -84,17 +84,15 @@ Journey Optimizerでは、URLの&#x200B;**entire** URLまたは&#x200B;**base do
 >
 >最終的な URL を確認するには、[配達確認を送信](../content-management/proofs.md)し、配達確認を受信したらメールのコンテンツにあるリンクをクリックします。 URL にはトラッキングパラメーターを表示する必要があります。 例：<https://luma.enablementadobe.com/content/luma/us/en.html?utm_contact=profile.userAccount.contactDetails.homePhone.number>
 
+## ベストプラクティスとガードレール {#best-practices}
 
-<!--
-## Best practices and guardrails {#best-practices}
+リンクを有効にし、クリック可能にし、追跡できるようにするには、以下のベストプラクティスとガードレールに従ってください。
 
-To keep links valid, clickable, and trackable, follow the best practices and guardrails below.
+### 動的URLの中括弧 {#use-braces}
 
-### Braces for dynamic URLs {#use-braces}
+パーソナライゼーションを含むURLを挿入する場合は、URLの動的な部分に3つの中括弧（`{{{ ... }}}`）を使用します。 これにより、特殊文字（`/`や`+`など）の変更によるエスケープを防ぎ、壊れたURL、誤ったリダイレクト、トラッキングの問題を回避できます。
 
-When inserting a URL that contains personalization, use three curly braces (`{{{ ... }}}`) for the dynamic portion of the URL. This prevents escaping from altering special characters (for example `/` and `+`) and helps avoid broken URLs, incorrect redirects, or tracking issues.
-
-Here is an example:
+次に例を示します。
 
 ```html
 <a href="https://example.com/path/{{{profile.person.customSlug}}}?ref={{{context.system.source.id}}}">View details</a>
@@ -102,28 +100,28 @@ Here is an example:
 
 >[!IMPORTANT]
 >
->Using raw output (`{{{ ... }}}`) means the value is inserted as-is. Only use it with values you trust and that are intended to be URL-safe (for example, values you generate or validate upstream).
+>生の出力（`{{{ ... }}}`）を使用すると、値がそのまま挿入されます。 信頼できる値で、URLが安全であることを意図した値（例えば、アップストリームで生成または検証する値）でのみ使用します。
 
-### Correct URL tracking {#enable-url-tracking}
+### 正しいURL トラッキング {#enable-url-tracking}
 
-* When using personalization to generate the URL, ensure the resolved value starts with `http`/`https` for every recipient. Otherwise, tracking may not be applied and the link may not behave as expected.
+* パーソナライゼーションを使用してURLを生成する場合、解決済みの値が受信者ごとに`http`/`https`で始まることを確認します。 そうでない場合、トラッキングが適用されず、リンクが期待どおりに動作しない可能性があります。
 
-* Do not use dynamic logic such as `let`, `each`, or `if` statements directly in the personalization editor's URL field. These are disabled for security reasons.
+* `let`、`each`、`if`などの動的ロジックを、パーソナライゼーションエディターのURL フィールドで直接使用しないでください。 セキュリティ上の理由から、これらは無効になっています。
 
-* If your scenario involves complex logic to generate personalized URLs, avoid placing that logic directly in the personalization editor's URL field. Instead:
-    * Add the necessary logic and statements in the HTML content above or near the URL field.
-    * Generate and store personalized attributes separately, then reference them in your email content.
+* シナリオでパーソナライズされたURLを生成するための複雑なロジックが含まれる場合は、そのロジックをパーソナライゼーションエディターのURL フィールドに直接配置しないでください。 代わりに：
+   * URL フィールドの上または近くのHTML コンテンツに、必要なロジックとステートメントを追加します。
+   * パーソナライズされた属性を個別に生成して保存し、メールコンテンツで参照できます。
 
-### URL encoding and length {#encoding}
+### URL エンコーディングと長さ {#encoding}
 
-* URI syntax rules ([RFC 3986 standard](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"}) apply to all URLs in your email content. However, personalized URLs are more likely to surface encoding issues because recipient-specific values can introduce reserved characters (for example in query parameters). Therefore, ensure your dynamic values are URL-encoded (especially spaces, `&`, `#`, `%`, and `+`) and avoid using `+` for query values.
+* URI構文ルール （[RFC 3986 standard](https://datatracker.ietf.org/doc/html/rfc3986){target="_blank"}）は、メールコンテンツのすべてのURLに適用されます。 ただし、パーソナライズされたURLでは、受信者固有の値によって予約文字（クエリパラメーターなど）が導入されるため、エンコードの問題が発生する可能性が高くなります。 したがって、動的な値がURL エンコードされていることを確認し（特にスペース、`&`、`#`、`%`、および`+`）、クエリ値に`+`を使用しないでください。
 
-* Very long URLs can be truncated or rejected by browsers, mail clients, or downstream systems. For example, mirror page URLs can grow significantly when runtime personalization is heavy. Keep personalized payloads small and avoid embedding large objects into URLs.
+* 非常に長いURLは、ブラウザー、メールクライアント、またはダウンストリームシステムによって切り捨てられるか、拒否される可能性があります。 例えば、ランタイムのパーソナライゼーションが重い場合、ミラーページのURLは大幅に増加する可能性があります。 パーソナライズされたペイロードを小さく抑え、大きなオブジェクトをURLに埋め込まないようにします。
 
-### Recommended validation steps {#validation}
+### 推奨される検証手順 {#validation}
 
-Before activating a journey or campaign, follow the recommendations below:
+ジャーニーまたはキャンペーンをアクティブ化する前に、以下の推奨事項に従ってください。
 
-* Send a [proof](../content-management/proofs.md) and click links to confirm the resolved URL starts with `http`/`https` and keeps the expected structure.
-* If tracking parameters are appended, confirm the final URL includes them (either via configuration-level URL tracking or per-link tracking parameters).
--->
+* [&#x200B; プルーフ &#x200B;](../content-management/proofs.md)を送信し、リンクをクリックして、解決されたURLが`http`/`https`で始まり、想定される構造を維持することを確認します。
+* トラッキングパラメーターが追加されている場合は、最終的なURLにそれらを含めることを確認します（設定レベルのURL トラッキングまたはリンクごとのトラッキングパラメーターを使用）。
+
