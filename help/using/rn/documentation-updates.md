@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 17be9168735f33a3f1417524ce6cbbc698457935
+source-git-commit: 2b5b7ded23bb14e75aecd5a412b6c372cac3f630
 workflow-type: tm+mt
-source-wordcount: '7267'
+source-wordcount: '7327'
 ht-degree: 67%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 67%
 * 新しい&#x200B;**メール内のURLのパーソナライズ** ページが追加され、動的URL パーソナライゼーション、完全/ベース URL パーソナライゼーション、URL トラッキングパラメーターのパーソナライゼーション、主要なガードレールに関するガイダンスが統合されました。 [詳細情報](../email/url-personalization.md)
 
 * クエリの例ページに新しい&#x200B;**ビジネスルールクエリ** セクションが追加され、特定の日付以降の特定のジャーニーのジャーニー頻度の上限の除外によるすべてのプロファイルの破棄を確認するデータレイククエリが提供されました。 クエリには、`eventCodeReason` フィールドが含まれており、上限に達したか（`CAP_REACHED`）、優先度が低いか（`LOWER_PRIORITY`）が原因でプロファイルが除外されたかどうかを識別します。 [詳細情報](../reports/query-examples.md#business-rules-queries)
+
+* ジャーニープロパティパネルの新しい&#x200B;**現在のジャーニーペイロードサイズ** インジケーターを文書化するために、**ジャーニープロパティ** ドキュメントが更新されました。 この読み取り専用フィールドには、設定された制限（2 MBのうち1.5 MBなど）と比較したジャーニーペイロードの現在のサイズが表示され、公開前にジャーニーの複雑さを監視し、サイズに関連する公開エラーを回避するのに役立ちます。 [詳細情報](../building-journeys/journey-properties.md#journey-payload-size)
 
 ## 2026年4月 {#april-2026}
 
