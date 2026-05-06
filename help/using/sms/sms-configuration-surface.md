@@ -7,10 +7,10 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 0d541520-016e-468f-b011-808712847556
-source-git-commit: fc12ee65fc773c70b88504a951e5f5c5b2b3b0e6
+source-git-commit: ea2753bd9ce7372e53fefc7816d19a7a3c73b87d
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 100%
+source-wordcount: '560'
+ht-degree: 87%
 
 ---
 
@@ -26,7 +26,7 @@ SMS／MMS／RCS チャネルを設定したら、**[!DNL Journey Optimizer]** �
 
 チャネル設定を作成するには、次の手順に従います。
 
-1. 左側のパネルで、**[!UICONTROL 管理]**／**[!UICONTROL チャネル]**&#x200B;を参照し、**[!UICONTROL 一般設定]**／**[!UICONTROL チャネル設定]**&#x200B;を選択します。「**[!UICONTROL チャネル設定を作成]**」ボタンをクリックします。
+1. 左側のパネルで、**[!UICONTROL 管理]**／**[!UICONTROL チャネル]**&#x200B;を参照し、**[!UICONTROL 一般設定]**／**[!UICONTROL チャネル設定]**&#x200B;を選択します。 「**[!UICONTROL チャネル設定を作成]**」ボタンをクリックします。
 
    ![](assets/preset-create.png)
 
@@ -36,7 +36,7 @@ SMS／MMS／RCS チャネルを設定したら、**[!DNL Journey Optimizer]** �
 
    >[!NOTE]
    >
-   > 名前は、文字（A ～ Z）で始める必要があります。使用できるのは英数字のみです。アンダースコア（`_`）、ドット（`.`）、ハイフン（`-`）も使用できます。
+   > 名前は、文字（A ～ Z）で始める必要があります。 使用できるのは英数字のみです。 アンダースコア（`_`）、ドット（`.`）、ハイフン（`-`）も使用できます。
 
 1. **SMS 設定**&#x200B;を定義します。
 
@@ -51,7 +51,7 @@ SMS／MMS／RCS チャネルを設定したら、**[!DNL Journey Optimizer]** �
 
    >[!CAUTION]
    >
-   >**トランザクション**&#x200B;メッセージは、アドビからのお知らせで購読を解除したプロファイルに送信できます。これらのメッセージは、特定のコンテキストでのみ送信できます。
+   >**トランザクション**&#x200B;メッセージは、アドビからのお知らせで購読を解除したプロファイルに送信できます。 これらのメッセージは、特定のコンテキストでのみ送信できます。
 
 1. 「**[!UICONTROL SMS 設定]**」を選択し、設定と関連付けます。
 
@@ -63,15 +63,26 @@ SMS／MMS／RCS チャネルを設定したら、**[!DNL Journey Optimizer]** �
 
    >[!NOTE]
    >
-   >サブドメインを選択するには、1 つ以上の SMS／MMS サブドメインを事前に設定していることを確認してください。[方法についてはこちらを参照](sms-subdomains.md)
+   >サブドメインを選択するには、1 つ以上の SMS／MMS サブドメインを事前に設定していることを確認してください。 [方法についてはこちらを参照](sms-subdomains.md)
 
-1. 「**[!UICONTROL 実行ディメンション]**」セクションで、**[!UICONTROL SMS 実行フィールド]**&#x200B;を使用して、プロファイル属性の中から、データベースで複数の番号が使用可能な場合に優先して使用する電話番号を選択します。[詳細情報](../configuration/primary-email-addresses.md#override-execution-address-channel-config)
+1. 「**[!UICONTROL 実行ディメンション]**」セクションで、**[!UICONTROL SMS 実行フィールド]**&#x200B;を使用して、プロファイル属性の中から、データベースで複数の番号が使用可能な場合に優先して使用する電話番号を選択します。 [詳細情報](../configuration/primary-email-addresses.md#override-execution-address-channel-config)
 
    >[!NOTE]
    >
-   >デフォルトでは、[!DNL Journey Optimizer] は、サンドボックスレベルの[一般設定](../configuration/primary-email-addresses.md)で指定された電話番号を使用します。このフィールドを更新すると、この設定を使用するジャーニーおよびキャンペーンのデフォルト値が上書きされます。
+   >デフォルトでは、[!DNL Journey Optimizer] は、サンドボックスレベルの[一般設定](../configuration/primary-email-addresses.md)で指定された電話番号を使用します。 このフィールドを更新すると、この設定を使用するジャーニーおよびキャンペーンのデフォルト値が上書きされます。
 
-1. すべてのパラメーターを設定したら、「**[!UICONTROL 送信]**」をクリックして確定します。なお、チャネル設定をドラフトとして保存し、後で設定を再開することもできます。
+1. 「**[!UICONTROL インバウンドのカスタムデータセットを使用]**」を選択して、この資格情報のインバウンド SMSを、ドロップダウンから選択した事前作成データセットにルーティングします。 [ データセットの作成について詳しく見る](../experience-decisioning/data-collection/create-dataset.md)
+
+   >[!NOTE]
+   >
+   >データセットスキーマは&#x200B;**[!UICONTROL XDM ExperienceEvent]**&#x200B;である必要があり、少なくとも次のフィールドグループを含める必要があります。
+   >* Adobe CJM ExperienceEvent - メッセージインタラクションの詳細
+   >* Adobe CJM ExperienceEvent - Message Execution Details
+   >* Adobe CJM ExperienceEvent - メッセージプロファイル詳細
+   >
+   >プロファイルに対してスキーマとデータセットを有効にする必要があります。
+
+1. すべてのパラメーターを設定したら、「**[!UICONTROL 送信]**」をクリックして確定します。 なお、チャネル設定をドラフトとして保存し、後で設定を再開することもできます。
 
    ![](assets/sms-submit-surface.png)
 
@@ -81,7 +92,7 @@ SMS／MMS／RCS チャネルを設定したら、**[!DNL Journey Optimizer]** �
    >
    >チェックが成功しなかった場合、考えられる失敗理由について詳しくは[この節](../configuration/channel-surfaces.md)を参照してください。
 
-1. チェックが正常に完了すると、チャネル設定のステータスが「**[!UICONTROL アクティブ]**」になります。メッセージの配信に使用する準備が整いました。
+1. チェックが正常に完了すると、チャネル設定のステータスが「**[!UICONTROL アクティブ]**」になります。 メッセージの配信に使用する準備が整いました。
 
    ![](assets/preset-active.png)
 
