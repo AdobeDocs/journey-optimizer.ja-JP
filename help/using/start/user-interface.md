@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: ba3ceaeebb11d62c95586be86c0f0ad8c903e39c
+source-git-commit: 1054bbf73dc7e37efb07cc1336c11107da27345f
 workflow-type: tm+mt
-source-wordcount: '1511'
+source-wordcount: '1524'
 ht-degree: 75%
 
 ---
@@ -28,7 +28,7 @@ Adobe Journey Optimizer にアクセスするには、Adobe ID を使用して [
 
 Journey Optimizer インターフェイスは、次の 4 つの主な領域で構成されます。
 
-![左側のナビゲーション、上部バー、メインワークスペース、ホームページエリアを表示するJourney Optimizerのホームページ &#x200B;](assets/ajo-home.png)
+![左側のナビゲーション、上部バー、メインワークスペース、ホームページエリアを表示するJourney Optimizerのホームページ ](assets/ajo-home.png)
 
 1. **左側のナビゲーション** - 機能別に整理されたすべての機能と特長へのアクセス
 2. **上部バー** - ユニバーサル検索、ヘルプ、通知、設定
@@ -41,7 +41,7 @@ Journey Optimizer インターフェイスは、次の 4 つの主な領域で�
 
 ### ユニバーサル検索 {#universal-search}
 
-検索アイコンを使用すると、Journey Optimizer をまたいでジャーニー、キャンペーン、アセット、他のオブジェクトをすばやく検索できます。 キーワードを入力すると、プラットフォームのすべての領域から関連する結果が表示されます。 [&#x200B; ユニバーサル検索の詳細](search-filter-categorize.md#unified-search)。
+検索アイコンを使用すると、Journey Optimizer をまたいでジャーニー、キャンペーン、アセット、他のオブジェクトをすばやく検索できます。 キーワードを入力すると、プラットフォームのすべての領域から関連する結果が表示されます。 [ ユニバーサル検索の詳細](search-filter-categorize.md#unified-search)。
 
 ### ヘルプ&amp;サポート {#help}
 
@@ -364,3 +364,10 @@ AI アシスタントは、即座に役立つヘルプと運用上のインサ�
 >id="ajo_admin_aem_custom_domain"
 >title="カスタムドメイン"
 >abstract="オプション。 組織のコンテンツの取得がブロックされ16552いる場合147195 カスタムドメインを指定します。"
+
+<!-- JOURNEYS - EXPRESSION ASSISTANT -->
+
+>[!CONTEXTUALHELP]
+>id="journeyExpAI"
+>title="式アシスタント"
+>abstract="式アシスタントを使用して、Journey Optimizerで式を生成および調整します。"
