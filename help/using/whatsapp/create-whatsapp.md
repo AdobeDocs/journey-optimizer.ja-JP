@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
-source-git-commit: ca98cf79f135aa7f50838a260cc6522f8baa88ad
+source-git-commit: 2dc69f4479c86f0cfee62cd345ad7b5e1618506b
 workflow-type: tm+mt
-source-wordcount: '957'
-ht-degree: 88%
+source-wordcount: '986'
+ht-degree: 86%
 
 ---
 
@@ -69,6 +69,10 @@ WhatsApp メッセージでは、次のcall-to-action オプションを使用�
    ジャーニーの設定方法について詳しくは、[このページ](../building-journeys/journey-gs.md)を参照してください。
 
    **[!UICONTROL 設定]**&#x200B;フィールドはデフォルトで、ユーザーがチャネルで最後に使用した設定で事前入力されます。
+
+1. 「**[!UICONTROL ビジネスルール]**」セクションでは、WhatsApp メッセージに対するコミュニケーションのプレッシャーを制御するためのルールセットを適用できます。
+
+   [&#x200B; ルールセット &#x200B;](../conflict-prioritization/rule-sets.md)、[&#x200B; チャネルの使用頻度の上限](../conflict-prioritization/channel-capping.md)、[&#x200B; サイレントアワー](../conflict-prioritization/quiet-hours.md)の詳細をご覧ください。
 
 これで、以下に説明するように、「**[!UICONTROL コンテンツを編集]**」ボタンから WhatsApp メッセージのコンテンツのデザインを開始できます。
 
