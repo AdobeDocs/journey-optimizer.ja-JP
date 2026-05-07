@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
-source-git-commit: 2b5b7ded23bb14e75aecd5a412b6c372cac3f630
+source-git-commit: e1b650bb5997017748875bcc4e4e33db12847658
 workflow-type: tm+mt
 source-wordcount: '2609'
 ht-degree: 17%
@@ -127,7 +127,7 @@ ht-degree: 17%
 <p>メールDesignerの専用オプションを使用して、メールコンテンツにディープリンクを追加できるようになりました。</p><p>これにより、ユーザーはブラウザーやアプリストアにリダイレクトされずに、適切なアプリ内コンテンツに直接移動され、コンテキストとエンゲージメントが維持されます。</p>
 <!--<p><img src="assets/do-not-localize/forms.gif"></p>-->
 <p>詳しくは、 <a href="../email/message-tracking.md">詳細なドキュメント</a>を参照してください。</p>
-<p>ご利用いただけます：2026年5月7日（PT）</p>
+<p>ご利用いただけます：2026年5月11日（PT）</p>
 </td>
 </tr>
 </tbody>
@@ -158,7 +158,7 @@ ht-degree: 17%
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 4月初旬にリリースされた新機能と機能強化は、リリース日とともに発表されます。
