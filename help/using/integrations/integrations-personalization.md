@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 統合
-source-git-commit: c5defc4940043753ff6c4e27d2ebafc807f8c9ba
+source-git-commit: c672ebaf4c0616a2a2bca39bb849bb835c304449
 workflow-type: tm+mt
 source-wordcount: '809'
 ht-degree: 22%
