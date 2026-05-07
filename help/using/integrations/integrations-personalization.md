@@ -1,17 +1,17 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: 外部統合を有効にする
+title: 外部統合の使用
 description: 外部統合をチャネルオーサリングプロセスに統合し、パーソナライズされた動的な情報でコンテンツを強化します。
 feature: Integrations
 topic: Content Management
 role: User
 level: Beginner
 keywords: 統合
-source-git-commit: 4cc3c959fe08c1d574a5d041bf7721441bc96f97
+source-git-commit: c5defc4940043753ff6c4e27d2ebafc807f8c9ba
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 43%
+source-wordcount: '809'
+ht-degree: 22%
 
 ---
 
@@ -73,43 +73,59 @@ ht-degree: 43%
 
 ![](assets/external-integration-content-7.png)
 
-<!--
+## あるAPI呼び出しを別のAPI呼び出しにマッピングする {#map-integration-chain}
 
-## Map one API call to another {#map-integration-chain}
+統合をチェーン化して、1つの呼び出しの結果を次の呼び出し（パスセグメント、ヘッダー、クエリパラメーターなど）にフィードできます。 呼び出しは同じメッセージ内で順番に実行され、カスタムコードなしでより豊かなパーソナライゼーションがサポートされます。
 
-You can **chain** integrations so that values returned by one active integration drive the inputs (path, headers, or query parameters) of another. That lets you build a real-time data flow in a single message without custom code.
+まず、次のことを確認してください。
 
-Before you start, make sure that:
+* 管理者は、必要なすべての統合を設定してアクティブ化しました。 [統合の設定](integrations.md)を参照してください。
+* バリアブルパスのプレースホルダー、ヘッダー、クエリパラメーターは、マーケター向けのラベルを使用した統合設定で設定されます。
+* 管理者は、各統合の&#x200B;**[!UICONTROL 応答ペイロード]**&#x200B;で必要な応答フィールドを公開して、オーサリング時に表示できるようにしました。
 
-* An administrator has configured and activated every integration you need. See [Configure your Integration](integrations.md).
-* Variable path placeholders, headers, and query parameters are set up in the integration configuration with marketer-facing labels.
-* The administrator exposed the response fields you need in each integration's **[!UICONTROL Response payload]** so they appear when authoring.
+次の例では、プロファイルの予約からフライト番号を返す予約統合を使用し、その番号をライブステータス（遅延、宛先）に使用するフライト情報統合を使用します。 2番目の統合の入力を1番目の呼び出しの応答にマッピングします。
 
-In the below example, a reservation system integration returns a flight booking reference from the profile context. A separate flight-information integration expects that reference as a **path variable**. In the personalization editor, you map the second integration's variable to a field from the first integration's response, instead of a static value or profile attribute alone.
+1. メッセージまたはフラグメントを開き、パーソナライゼーションエディターを開きます。
 
-1. Open your message or fragment and place the cursor where you want personalized content (for example, a **[!UICONTROL Text]** field).
+   ![](assets/uc-integrations-1.png)
 
-1. Open the personalization editor and go to **[!UICONTROL Integrations]** → **[!UICONTROL Open integrations]**.
+1. **[!UICONTROL 統合]**&#x200B;で、**[!UICONTROL 統合を開く]**&#x200B;をクリックします。
 
-1. Select the integration whose output will supply the downstream input (in the example, the reservation or profile API that returns the flight identifier).
+   ![](assets/uc-integrations-2.png)
 
-1. Define that integration's inputs as usual—static values, profile attributes, or other allowed mappings—then save so its response is available for chaining.
+1. フライト識別子を含む予約または予約データなど、応答が次の呼び出しをフィードする統合を追加します。
 
-    >[!NOTE]
-    >
-    > Fields must appear in the administrator-defined response payload for each integration. You cannot reference response properties that were not exposed in configuration.
+   ![](assets/uc-integrations-3.png)
 
-1. Select the **second** integration (for example, the API that needs the flight number or booking reference on the URL path).
+1. （オプション） **[!UICONTROL ヘルパー関数]** メニューを開き、予約応答に名前付き変数をバインドする場合は、`Let`関数などのヘルパーを追加します。
 
-1. For each input that must come from the first call—often a **path variable** or **variable** header/query parameter—choose the mapping source that references the **first integration's response** (for example, the flight booking reference field from the reservation payload). Do not use a static test value if you need live, profile-specific data.
+   >[!NOTE]
+   >
+   > 管理者が定義した&#x200B;**[!UICONTROL 応答ペイロード]**&#x200B;で公開されたフィールドのみが使用できます。 設定で公開されていないプロパティを参照することはできません。
 
-1. Insert the response tokens you need in the content (for example, destination name from the flight API, loyalty balance from a loyalty integration) using the ![add](assets/do-not-localize/Smock_Add_18_N.svg) control.
+1. ヘルパー変数を使用する場合は、その変数を、旅客または予約ペイロードのフライト番号など、予約統合が下流使用のために返すフィールドにマッピングします。
 
-1. Save the personalization.
+   ![](assets/uc-integrations-4.png)
 
-When you **simulate** or send, Journey Optimizer resolves integrations in order: the first call runs with the profile context you configured; its output is used to build the second request. Different integrations may run at simulation time and at send time according to your setup and channel behavior.
+1. **[!UICONTROL 統合機能を開く]** メニューから、2番目の統合機能（フライトステータスなど）を追加します。
 
--->
+   ![](assets/uc-integrations-5.png)
+
+1. 2つ目の統合で、**[!UICONTROL 統合属性]**&#x200B;を開きます。 パス変数、ヘッダー、クエリパラメーターなど、最初の呼び出しのデータを再利用する必要がある各入力について、最初の統合応答からマッピングソースを選択します。
+
+   **[!UICONTROL ピル]** エクスペリエンスでは、`Let` ステートメントを使用せずに、ファーストコール出力をセカンドコール入力に直接マッピングできます。 `Let`を使用した場合は、代わりにその変数をマッピングできます。
+
+   ![](assets/uc-integrations-6.png)
+
+1. 2つ目の統合のトークンを、![add](assets/do-not-localize/Smock_Add_18_N.svg) コントロールを使用してコンテンツに挿入します。例えば、フライト情報の応答の宛先です。
+
+   ![](assets/uc-integrations-8.png)
+
+1. コンテンツを保存します。
+
+**[!UICONTROL シミュレーション]**&#x200B;または送信時に、Journey Optimizerは次の順序で統合を実行します。最初の呼び出しは設定されたプロファイルコンテキストを使用し、その結果は2番目のリクエストをビルドします。 特定の統合がシミュレーションで実行されるか、送信時間が設定とチャネルによって異なります。
+
+![](assets/uc-integrations-7.png)
 
 ## チュートリアルビデオ {#video}
 
