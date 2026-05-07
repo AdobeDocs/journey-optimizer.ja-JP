@@ -72,7 +72,7 @@ WhatsApp メッセージでは、次のcall-to-action オプションを使用�
 
 1. 「**[!UICONTROL ビジネスルール]**」セクションでは、WhatsApp メッセージに対するコミュニケーションのプレッシャーを制御するためのルールセットを適用できます。
 
-   [ ルールセット ](../conflict-prioritization/rule-sets.md)、[ チャネルの使用頻度の上限](../conflict-prioritization/channel-capping.md)、[ サイレントアワー](../conflict-prioritization/quiet-hours.md)の詳細をご覧ください。
+   [&#x200B; ルールセット &#x200B;](../conflict-prioritization/rule-sets.md)、[&#x200B; チャネルの使用頻度の上限](../conflict-prioritization/channel-capping.md)、[&#x200B; サイレントアワー](../conflict-prioritization/quiet-hours.md)の詳細をご覧ください。
 
 これで、以下に説明するように、「**[!UICONTROL コンテンツを編集]**」ボタンから WhatsApp メッセージのコンテンツのデザインを開始できます。
 
