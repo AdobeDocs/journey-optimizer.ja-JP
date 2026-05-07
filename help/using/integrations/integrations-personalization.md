@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 統合
-source-git-commit: c5defc4940043753ff6c4e27d2ebafc807f8c9ba
+source-git-commit: c672ebaf4c0616a2a2bca39bb849bb835c304449
 workflow-type: tm+mt
 source-wordcount: '809'
 ht-degree: 22%
@@ -131,4 +131,4 @@ ht-degree: 22%
 
 このビデオでは、**統合**&#x200B;がAdobe Journey Optimizerを外部APIに接続して、ライブデータとコンテンツを&#x200B;**アウトバウンド**&#x200B;のチャネル、電子メール、SMS、プッシュ通知に取り込み、より適切なパーソナライゼーションを実現する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3484119/?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3484118/?learn=on)
