@@ -10,9 +10,9 @@ level: Intermediate
 keywords: ジャンプ, アクティビティ, ジャーニー, 分割
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
 version: Journey Orchestration
-source-git-commit: 9d9c1c4981f6429b0714e27a9df78a5f533eac72
+source-git-commit: 96b003c3e45550e89454366387a6aea20cfea9c8
 workflow-type: tm+mt
-source-wordcount: '1418'
+source-wordcount: '1405'
 ht-degree: 60%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 60%
 
 >[!NOTE]
 >
->上記のケース （ジャーニー Bで既にアクティブなプロファイル）では、**サイレントスキップ**&#x200B;が発生します。エラーは発生せず、ジャーニー Aは正常に続行されます。 その他の状況では、ジャンプは&#x200B;**失敗**&#x200B;し、ジャーニー Aは標準のアクションエラー処理を適用します。 ケースの完全なリストについては、[&#x200B; ランタイムエラー](#jump-troubleshoot)を参照してください。
+>上記のケース （ジャーニー Bで既にアクティブなプロファイル）では、**サイレントスキップ**&#x200B;が発生します。エラーは発生せず、ジャーニー Aは正常に続行されます。 その他の状況では、ジャンプは&#x200B;**失敗**&#x200B;し、ジャーニー Aは標準のアクションエラー処理を適用します。 ケースの完全なリストについては、[ ランタイムエラー](#jump-troubleshoot)を参照してください。
 
 ## ベストプラクティスと制限 {#jump-limitations}
 
@@ -108,7 +108,7 @@ Journey Optimizerで各フェーズを個別のジャーニーとして構築し
 
 >[!TIP]
 >
->このアプローチの詳細なチュートリアルについては、[Journey Optimizerの高度なジャーニーのベストプラクティス &#x200B;](https://experienceleague.adobe.com/ja/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}を参照してください。
+>複数段階のロイヤルティプログラムを使用した実際の例については、[複数段階のロイヤルティジャーニー](journeys-uc.md#multi-phase-loyalty)を参照してください。
 
 ## ジャンプアクティビティの設定 {#jump-configure}
 
