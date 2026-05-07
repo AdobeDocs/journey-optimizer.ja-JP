@@ -10,9 +10,9 @@ level: Intermediate
 keywords: テスト, ジャーニー, チェック, エラー, トラブルシューティング
 version: Journey Orchestration
 badge: label="限定提供" type="Informative"
-source-git-commit: b51ab228d4c7612f85db14f58d71d52d246c4cf0
+source-git-commit: 615c970210894c9d189f86b7ed6363593c39f6d7
 workflow-type: tm+mt
-source-wordcount: '1952'
+source-wordcount: '1900'
 ht-degree: 4%
 
 ---
@@ -147,11 +147,11 @@ Adobe Journey Optimizerでは、ジャーニーをテストおよび検証する
 
 ## 結果の表示 {#viewing-results}
 
-「**[!UICONTROL 結果]**」タブでは、テスト結果を表示できます。 ビューセレクターを使用して、ログの閲覧方法を選択します。
+「**[!UICONTROL 結果]**」タブでは、テスト結果を表示できます。 「**[!UICONTROL ユーザーをテスト]**」ドロップダウンで、実行を検査するシミュレートされたユーザーを選択します。
 
-* **すべてのシミュレーションユーザー**: **[!UICONTROL すべての]**&#x200B;を選択すると、実行中のすべてのシミュレーションユーザーで集計された結果が表示されます。 このビューでは、シミュレートされたユーザーを最初に選択することなく、シミュレーション全体を一目で確認し、アクティビティ、結果、エラーを確認できます。
-
-* **1人のシミュレートされたユーザー**:「**[!UICONTROL ユーザーをテスト]**」ドロップダウンで、実行を検査するシミュレートされたユーザーを選択します。
+<!--
+* **All simulated users**: Select **[!UICONTROL All]** to see results aggregated across every simulated user in the run. This view helps you scan the full simulation at a glance, activity, outcomes, and errors, without picking a single simulated user first.
+-->
 
 各アクティビティについて、シミュレートされたユーザーがステップにエントリしたか離脱したか、およびシミュレーション中に発生したエラーがログに表示されます。
 
