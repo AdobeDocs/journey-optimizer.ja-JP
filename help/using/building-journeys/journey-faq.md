@@ -21,7 +21,7 @@ ht-degree: 91%
 
 [!DNL Adobe Journey Optimizer]でのJourney Orchestrationに関するよくある質問への回答を検索します。
 
-さらに詳細が必要ですか？ このページの下部にあるフィードバックオプションを使って質問を高めてください。 [[!DNL Adobe Journey Optimizer]  コミュニティ ](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"}とつながることもできます。
+さらに詳細が必要ですか？ このページの下部にあるフィードバックオプションを使って質問を高めてください。 [[!DNL Adobe Journey Optimizer]  コミュニティ &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"}とつながることもできます。
 
 ## 一般概念
 
@@ -56,7 +56,7 @@ ht-degree: 91%
 * **[API トリガーキャンペーン](../campaigns/api-triggered-campaigns.md)**：API 呼び出し経由でトリガーされるキャンペーン。外部システムとの統合が可能になり、リアルタイムイベントやビジネスロジックに基づいてメッセージを送信できます。
 * **[オーケストレーションキャンペーン](../orchestrated/gs-orchestrated-campaigns.md)**：条件、待ち時間、複数のアクションを含めることができるキャンバス上に作成された、複数手順のオーディエンスベースのキャンペーンで、スケジュール済みの調整されたエクスペリエンスを作成できます。
 
-**ベストプラクティス**：高度なオーケストレーションによる複雑なイベントトリガーのエンゲージメントには、[ ジャーニー](journey.md)を使用します。 スケジュールされたオーディエンスベースのコミュニケーションには、[ アクションキャンペーン ](../campaigns/create-campaign.md)を使用します。 外部システムからのプログラムによるトリガーには、[API トリガーによるキャンペーン ](../campaigns/api-triggered-campaigns.md)を使用します。 キャンペーン固有の要件を含むマルチステップのコミュニケーションには、[ オーケストレーションされたキャンペーン ](../orchestrated/gs-orchestrated-campaigns.md)を使用します。
+**ベストプラクティス**：高度なオーケストレーションによる複雑なイベントトリガーのエンゲージメントには、[&#x200B; ジャーニー](journey.md)を使用します。 スケジュールされたオーディエンスベースのコミュニケーションには、[&#x200B; アクションキャンペーン &#x200B;](../campaigns/create-campaign.md)を使用します。 外部システムからのプログラムによるトリガーには、[API トリガーによるキャンペーン &#x200B;](../campaigns/api-triggered-campaigns.md)を使用します。 キャンペーン固有の要件を含むマルチステップのコミュニケーションには、[&#x200B; オーケストレーションされたキャンペーン &#x200B;](../orchestrated/gs-orchestrated-campaigns.md)を使用します。
 
 +++
 
@@ -592,7 +592,7 @@ Learn more about [action responses](../action/action-response.md).
 
 はい。 **[アクティビティの最適化](conditions.md)**&#x200B;を使用して、好みのチャネルに基づいてプロファイルをルーティングします。
 
-1. ジャーニーに[Optimize アクティビティ ](optimize.md)を追加
+1. ジャーニーに[Optimize アクティビティ &#x200B;](optimize.md)を追加
 2. 優先チャネルプロファイル属性（例：`profile.preferredChannel`）を確認して、各チャネルのパスを作成します
 3. チャネル固有のパスを設定します。
    * **メールパス**：メールに最適化されたコンテンツを含む[メールアクション](../email/create-email.md)を追加します
@@ -624,7 +624,7 @@ Learn more about [action responses](../action/action-response.md).
 
 **ジャーニー内**：
 
-* 不要なプロファイルを終了するには、ジャーニーの初期段階で[最適化アクティビティ ](conditions.md)を追加します
+* 不要なプロファイルを終了するには、ジャーニーの初期段階で[最適化アクティビティ &#x200B;](conditions.md)を追加します
 * 除外属性（例：VIP ステータス、テストアカウント）を確認します
 * プロファイルを特定するには、[オーディエンスの選定](audience-qualification-events.md)を使用します。
 
@@ -933,7 +933,7 @@ Journey Optimizerは、[!DNL Adobe Campaign]とネイティブに統合して、
 
 * 公開前に[テストモード](testing-the-journey.md)と[ドライラン](journey-dry-run.md)を使用してパフォーマンスを検証します
 * [カスタムアクション](using-custom-actions.md)を通じて外部 API 呼び出しを最小限に抑え、待ち時間とサードパーティシステムへの依存関係を回避します
-* 可能であれば、外部呼び出しではなく[ データセット検索](dataset-lookup.md)を使用して、[!DNL Adobe Experience Platform]に頻繁に使用されるデータを保存します
+* 可能であれば、外部呼び出しではなく[&#x200B; データセット検索](dataset-lookup.md)を使用して、[!DNL Adobe Experience Platform]に頻繁に使用されるデータを保存します
 * [メッセージ配信](journey-action.md)のパフォーマンスを確認して最適化します
 
 詳しくは、[ガードレールと制限](../start/guardrails.md)を参照してください。
