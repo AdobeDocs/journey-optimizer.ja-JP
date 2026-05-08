@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 設定, メール, 設定, サブドメイン
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: 599669d2a1c398292930d60a75b4054e59f017c6
+source-git-commit: 416b01e42d3a693573d29123e6b0c618156654fd
 workflow-type: tm+mt
-source-wordcount: '1336'
-ht-degree: 86%
+source-wordcount: '1214'
+ht-degree: 95%
 
 ---
 
@@ -93,7 +93,7 @@ ht-degree: 86%
 >[!NOTE]
 >
 >* **[!UICONTROL エラー電子メール プレフィックス]** フィールドを除き、すべての&#x200B;**[!UICONTROL ヘッダーパラメーター]**&#x200B;およびオプションの&#x200B;**[!UICONTROL 送信者ヘッダー]** フィールドをパーソナライズできます。
->* メール設定を[編集する場合](../configuration/channel-surfaces.md#edit-channel-surface)、ヘッダーパラメーターに新しい[&#x200B; プロファイル属性](../personalization/personalization-build-expressions.md#sources)を追加できません。代わりに新しいチャネル設定を作成する必要があります。
+>* メール設定を[編集する場合](../configuration/channel-surfaces.md#edit-channel-surface)、ヘッダーパラメーターに新しい[ プロファイル属性](../personalization/personalization-build-expressions.md#sources)を追加できません。代わりに新しいチャネル設定を作成する必要があります。
 
 例えば、ブランドが複数ある場合は、単一の設定を作成し、メールヘッダーにパーソナライズされた値を使用できます。 これにより、様々なブランドから送信されるすべてのメールが、正しい&#x200B;**送信元**&#x200B;の名前とメールアドレスを使用して、各顧客に送信されるようになります。 同様に、受信者がメールクライアントソフトウェアの「**返信**」ボタンを押した際、**返信先**&#x200B;の名前とメールアドレスが、適切なユーザーの正しいブランドに対応するようにする必要があります。
 
@@ -116,10 +116,10 @@ ht-degree: 86%
    例えば、顧客プロファイルに詳細が保存される関係マネージャーに代わって送信されたメールを動的に処理し、すべての顧客が関係マネージャーにリンクされるようにするとします。 [ジャーニー](../building-journeys/journey-gs.md)では、プロファイル属性から取得した関係マネージャーパラメーターを使用して、メールのヘッダー（送信者名、送信者のメール、返信先のアドレス）をパーソナライズできます。
 
    <!--
-以下の例では、現在使用できないイベントパラメーターを使用しています。
-
-     セールスアシスタントの代理として送信された動的なメールを処理する場合、セールスアシスタントはイベントまたはキャンペーンのコンテキストパラメーターから取得されます。 例えば、[journey] （../building-journeys/journey-gs.md）で、購入イベントが特定のショップのセールスアシスタントにリンクされている場合、メールヘッダー（送信者名、送信者の電子メール、返信先アドレス）を、イベント属性から取得されたセールスアシスタントパラメーターでパーソナライズできます。 セールスアシスタントによって外部で開始された[API トリガー型キャンペーン ] （../campaigns/api-triggered-campaigns.md）では、トリガー型メールをセールスアシスタントに代わって送信し、キャンペーンのコンテキストパラメーターから取得したヘッダーパーソナライゼーション値を送信できます。
--->
+    The examples below use event parameters, which are currently not available.
+    
+    Let's say you want to handle dynamically emails sent on behalf of a sales assistant, where the sales assistant is retrieved from an event or campaign contextual parameters. For example: In a [journey](../building-journeys/journey-gs.md), when a purchase event is linked to the sales assistant of a specific shop, the email header (sender name, sender email, reply to address) can be personalized with the sales assistant parameters, taken from the event attributes. In an [API-triggered campaign](../campaigns/api-triggered-campaigns.md), initiated externally by a sales assistant, the triggered email can be sent on behalf of the sales assistant and the header personalization values taken from campaign contextual parameters.
+    -->
 
 1. パーソナライゼーションを追加する各パラメーターに対して、上記の手順を繰り返します。
 
