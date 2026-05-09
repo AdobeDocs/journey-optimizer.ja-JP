@@ -101,7 +101,7 @@ Adobe Journey Optimizer を使用すると、複数のチャネルをまたい�
 
 ![](assets/gs-campaigns.png)
 
-➡️ **構築を開始する準備ができましたか？** [数分で最初のキャンペーン ](create-campaign.md)を作成します。
+➡️ **構築を開始する準備ができましたか？** [数分で最初のキャンペーン &#x200B;](create-campaign.md)を作成します。
 
 ## キャンペーンタイプの選択 {#campaign-types}
 
@@ -200,8 +200,8 @@ Adobe Journey Optimizer を使用すると、複数のチャネルをまたい�
 
 * **目標は何ですか？** （例：コンバージョンの促進、エンゲージメントの向上、顧客への通知）
 * **オーディエンスは誰ですか？** （例：Adobe Experience Platformから構築または選択）
-* **どのキャンペーンタイプが適していますか？** （[ キャンペーンタイプ ](#campaign-types)を参照）
-* **どのチャネルを使用しますか？** （電子メール、プッシュ通知、SMS、アプリ内、webなど） → [ キャンペーンの種類](../channels/gs-channels.md#channels)でサポートされているチャネルを表示
+* **どのキャンペーンタイプが適していますか？** （[&#x200B; キャンペーンタイプ &#x200B;](#campaign-types)を参照）
+* **どのチャネルを使用しますか？** （電子メール、プッシュ通知、SMS、アプリ内、webなど） → [&#x200B; キャンペーンの種類](../channels/gs-channels.md#channels)でサポートされているチャネルを表示
 * **いつ実行する必要がありますか？** （即時、スケジュール済み、またはAPI トリガー）
 
 +++
@@ -214,9 +214,9 @@ Adobe Journey Optimizer を使用すると、複数のチャネルをまたい�
 2. **キャンペーンタイプ**（アクション、API トリガー、オーケストレーション）を選択します
 3. **オーディエンスを選択します**
 4. 競合管理を使用する場合は、**優先度を設定**&#x200B;します
-5. **スケジュール**&#x200B;の設定（アクションキャンペーンの場合）またはAPIの詳細（API トリガーの場合）。 アクションキャンペーンの場合は、[ ウェーブを使用して送信](send-using-waves.md)して、メッセージを一括配信することもできます。
+5. **スケジュール**&#x200B;の設定（アクションキャンペーンの場合）またはAPIの詳細（API トリガーの場合）。 アクションキャンペーンの場合は、[&#x200B; ウェーブを使用して送信](send-using-waves.md)して、メッセージを一括配信することもできます。
 
-**タイプ固有のガイド：**[アクションキャンペーンプロパティ](campaign-properties.md) | [API トリガーキャンペーンプロパティ](api-triggered-campaign-properties.md) | [オーケストレーションキャンペーン設定](../orchestrated/create-orchestrated-campaign.md)
+**タイプ固有のガイド：**&#x200B;[アクションキャンペーンプロパティ](campaign-properties.md) | [API トリガーキャンペーンプロパティ](api-triggered-campaign-properties.md) | [オーケストレーションキャンペーン設定](../orchestrated/create-orchestrated-campaign.md)
 
 +++
 
@@ -230,7 +230,7 @@ Adobe Journey Optimizer を使用すると、複数のチャネルをまたい�
 * **アプリ内**&#x200B;および **web** エクスペリエンスを作成
 * プロファイル属性とコンテキストデータを使用して&#x200B;**パーソナライゼーション**&#x200B;を追加
 
-**タイプ固有のガイド：**[アクションキャンペーンコンテンツ](campaign-content.md) | [API トリガーキャンペーンコンテンツ](api-triggered-campaign-content.md) | [オーケストレーションキャンペーンコンテンツ](../orchestrated/create-orchestrated-campaign.md)
+**タイプ固有のガイド：**&#x200B;[アクションキャンペーンコンテンツ](campaign-content.md) | [API トリガーキャンペーンコンテンツ](api-triggered-campaign-content.md) | [オーケストレーションキャンペーンコンテンツ](../orchestrated/create-orchestrated-campaign.md)
 
 +++
 
@@ -244,7 +244,7 @@ Adobe Journey Optimizer を使用すると、複数のチャネルをまたい�
 * 承認ワークフローを使用している場合は、**承認をリクエスト**
 * シードリストを使用して&#x200B;**配信品質をテスト**
 
-**タイプ固有のガイド：**[アクションキャンペーンのレビュー](review-activate-campaign.md) | [API トリガーキャンペーンのレビュー](review-activate-api-triggered-campaign.md) | [オーケストレーションキャンペーンのレビュー](../orchestrated/create-orchestrated-campaign.md)
+**タイプ固有のガイド：**&#x200B;[アクションキャンペーンのレビュー](review-activate-campaign.md) | [API トリガーキャンペーンのレビュー](review-activate-api-triggered-campaign.md) | [オーケストレーションキャンペーンのレビュー](../orchestrated/create-orchestrated-campaign.md)
 
 +++
 
@@ -258,7 +258,7 @@ Adobe Journey Optimizer を使用すると、複数のチャネルをまたい�
 
 メモ：アクティブなキャンペーンは編集できません（変更するには、複製する必要があります）
 
-**タイプ固有のガイド：**[アクションキャンペーンのアクティブ化](review-activate-campaign.md) | [API トリガーキャンペーンのアクティブ化](review-activate-api-triggered-campaign.md) | [オーケストレーションキャンペーンのアクティブ化](../orchestrated/create-orchestrated-campaign.md)
+**タイプ固有のガイド：**&#x200B;[アクションキャンペーンのアクティブ化](review-activate-campaign.md) | [API トリガーキャンペーンのアクティブ化](review-activate-api-triggered-campaign.md) | [オーケストレーションキャンペーンのアクティブ化](../orchestrated/create-orchestrated-campaign.md)
 
 +++
 
@@ -272,7 +272,7 @@ Adobe Journey Optimizer を使用すると、複数のチャネルをまたい�
 * コンバージョンと ROI を分析
 * インサイトを使用して最適化
 
-**タイプ固有のガイド：**[アクションキャンペーンレポート](../reports/campaign-global-report-cja.md) | [API トリガーキャンペーン監視](api-triggered-campaigns.md#monitor) | [オーケストレーションキャンペーン分析](../orchestrated/create-orchestrated-campaign.md)
+**タイプ固有のガイド：**&#x200B;[アクションキャンペーンレポート](../reports/campaign-global-report-cja.md) | [API トリガーキャンペーン監視](api-triggered-campaigns.md#monitor) | [オーケストレーションキャンペーン分析](../orchestrated/create-orchestrated-campaign.md)
 
 +++
 

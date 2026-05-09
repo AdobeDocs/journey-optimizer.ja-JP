@@ -166,7 +166,7 @@ ht-degree: 98%
 
    1. Adobe Experience Platform のデータ収集で、タグのプロパティにアクセスします。
 
-   1. **[!UICONTROL ルール]**&#x200B;メニューにアクセスし、新しいルールを作成します。 ルールの作成方法について詳しくは、[!DNL Adobe Experience Platform] [ データ収集ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}を参照してください
+   1. **[!UICONTROL ルール]**&#x200B;メニューにアクセスし、新しいルールを作成します。 ルールの作成方法について詳しくは、[!DNL Adobe Experience Platform] [&#x200B; データ収集ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}を参照してください
 
    1. ルールの「**[!UICONTROL IF]**」セクションで、次のように設定されたイベントを追加します。
 

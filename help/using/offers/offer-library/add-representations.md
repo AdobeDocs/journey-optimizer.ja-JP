@@ -116,7 +116,7 @@ ht-degree: 87%
 
 例えば、オファーとして表示される画像をパーソナライズする場合、 都会での休暇を好むユーザーにはニューヨークのスカイラインを、ビーチでの休暇を好むユーザーにはハワイのノースショアを表示しようとします。
 
-パーソナライゼーションエディターを使用して、結合スキーマで Adobe Experience Platform に保存されているプロファイル属性を取得します。 [詳細を見る](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html?lang=ja){target="_blank"}意思決定管理でサポートされている関数については、[ パーソナライゼーションエディターでサポートされている関数](personalization-editor-supported-functions.md)を参照してください。
+パーソナライゼーションエディターを使用して、結合スキーマで Adobe Experience Platform に保存されているプロファイル属性を取得します。 [詳細を見る](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html?lang=ja){target="_blank"}意思決定管理でサポートされている関数については、[&#x200B; パーソナライゼーションエディターでサポートされている関数](personalization-editor-supported-functions.md)を参照してください。
 
 ![](../assets/offer-content-url-personalization.png)
 

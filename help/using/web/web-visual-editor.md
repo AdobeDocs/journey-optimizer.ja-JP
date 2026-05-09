@@ -73,7 +73,7 @@ ht-degree: 94%
 
 >[!NOTE]
 >
->Web のコンテンツデザイナーは、E メールデザイナーと非常に似ています。 詳しくは、[ [!DNL Journey Optimizer]](../email/get-started-email-design.md) でのコンテンツのデザインを参照してください。
+>Web のコンテンツデザイナーは、E メールデザイナーと非常に似ています。 詳しくは、[&#x200B; [!DNL Journey Optimizer]](../email/get-started-email-design.md) でのコンテンツのデザインを参照してください。
 
 Web コンテンツを編集したら、変更を管理できます。 [詳細情報](manage-web-modifications.md)
 

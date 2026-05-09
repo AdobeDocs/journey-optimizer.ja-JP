@@ -36,7 +36,7 @@ ht-degree: 78%
 >
 >Journey Optimizer で使用するには、Campaign Standard トランザクションメッセージとそれに関連するイベントを公開する必要があります。 イベントが公開されてもメッセージが表示されない場合、Journey Optimizer インターフェイスには表示されません。 メッセージが公開されても、関連するイベントが公開されなかった場合、Journey Optimizer インターフェイスには表示されますが、使用はできません。
 
-ジャーニー](assets/journey59.png)の![[!DNL Adobe Campaign]標準アクション設定
+ジャーニー![&#128279;](assets/journey59.png)の[!DNL Adobe Campaign]標準アクション設定
 
 イベント（リアルタイムとも呼ばれます）またはプロファイルトランザクションメッセージテンプレートを使用できます。
 
@@ -55,7 +55,7 @@ ht-degree: 78%
 >[!NOTE]
 >
 >メールにプロファイルのトランザクションテンプレートを使用する場合、購読解除メカニズムは[!DNL Adobe Campaign] Standardによって自動的に処理されます。
->[ トランザクションメールテンプレート ](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=ja)内に&#x200B;**[!UICONTROL 購読解除リンク]** コンテンツブロックを含めます。
+>[&#x200B; トランザクションメールテンプレート &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=ja)内に&#x200B;**[!UICONTROL 購読解除リンク]** コンテンツブロックを含めます。
 >イベントベースのテンプレート（rtEvent）を使用している場合は、受信者の電子メールをURL パラメーターとして渡し、購読解除ランディングページに誘導するリンクをメッセージに組み込みます。
 >ランディングページを作成し、受信者の配信停止の決定がAdobeに送信されるようにします。
 

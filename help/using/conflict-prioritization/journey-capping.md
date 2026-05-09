@@ -115,7 +115,7 @@ ht-degree: 98%
 
 ![](assets/journey-report.png)
 
-さらに、[Adobe Experience Platform クエリサービス](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ja){target="_blank"}を使用してクエリを作成し、プロファイルが特定のジャーニーにエントリしない原因となったルールを特定できます。 破棄のサブ理由（`CAP_REACHED`または`LOWER_PRIORITY`）を含むクエリの例は、[このセクション ](../reports/query-examples.md#business-rules-queries)で利用できます。
+さらに、[Adobe Experience Platform クエリサービス](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ja){target="_blank"}を使用してクエリを作成し、プロファイルが特定のジャーニーにエントリしない原因となったルールを特定できます。 破棄のサブ理由（`CAP_REACHED`または`LOWER_PRIORITY`）を含むクエリの例は、[このセクション &#x200B;](../reports/query-examples.md#business-rules-queries)で利用できます。
 
 ## チュートリアルビデオ {#video}
 

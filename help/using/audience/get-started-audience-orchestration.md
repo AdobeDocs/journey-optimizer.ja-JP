@@ -107,7 +107,7 @@ ht-degree: 96%
 
 オーディエンス構成を使用すると、**構成ワークフロー**&#x200B;を作成できます。このワークフローでは、既存のAdobe Experience Platform オーディエンスをビジュアルキャンバスに組み合わせて、さまざまなアクティビティを活用できます（分割、除外…） 新規オーディエンスを作成します。
 
-完了すると、**結果のオーディエンス**は既存のオーディエンスと共に Adobe Experience Platform に保存され、Journey Optimizer のキャンペーンやターゲット顧客へのジャーニーに活用できます。 Journey Optimizerでオーディエンスをターゲティングする方法を説明します
+完了すると、**結果のオーディエンス**&#x200B;は既存のオーディエンスと共に Adobe Experience Platform に保存され、Journey Optimizer のキャンペーンやターゲット顧客へのジャーニーに活用できます。 Journey Optimizerでオーディエンスをターゲティングする方法を説明します
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]

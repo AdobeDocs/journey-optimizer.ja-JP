@@ -18,7 +18,7 @@ ht-degree: 78%
 
 # ランディングページでのフォームの使用 {#lp-forms}
 
-[!DNL Journey Optimizer] ランディングページでプロファイルデータを取得し、[!DNL Experience Platform] データセットを強化するには、ランディングページでフォームを活用できます。 データキャプチャのシナリオと要件の概要については、[ ランディングページを使用したデータキャプチャ ](get-started-lp.md#data-capture-lp)を参照してください。
+[!DNL Journey Optimizer] ランディングページでプロファイルデータを取得し、[!DNL Experience Platform] データセットを強化するには、ランディングページでフォームを活用できます。 データキャプチャのシナリオと要件の概要については、[&#x200B; ランディングページを使用したデータキャプチャ &#x200B;](get-started-lp.md#data-capture-lp)を参照してください。
 
 ## フォームプリセットの作成 {#create-form-preset}
 

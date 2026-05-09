@@ -198,7 +198,7 @@ ht-degree: 90%
 
 1. 左側で、**[!UICONTROL オーディエンス]**&#x200B;ノードを展開します。 条件に使用するオーディエンスをドラッグ＆ドロップします。 デフォルトでは、オーディエンスの条件は true です。
 
-   [!DNL Adobe Experience Platform]個のオーディエンスを選択するための式エディターの![ オーディエンスノード ](assets/segment4.png){width=80%}
+   [!DNL Adobe Experience Platform]個のオーディエンスを選択するための式エディターの![&#x200B; オーディエンスノード &#x200B;](assets/segment4.png){width=80%}
 
    >[!NOTE]
    >

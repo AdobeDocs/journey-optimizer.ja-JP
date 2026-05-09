@@ -145,7 +145,7 @@ Journey Optimizer でデザインされた、メール、プッシュ、SMS／MM
 
 ::::
 
-➡️ **実践的な学習：**[ジャーニーデザイナーのビデオを視聴](#video)するか、[エンドツーエンドのユースケースを探索](jo-use-cases.md)します
+➡️ **実践的な学習：**&#x200B;[ジャーニーデザイナーのビデオを視聴](#video)するか、[エンドツーエンドのユースケースを探索](jo-use-cases.md)します
 
 ## ジャーニー作成ワークフロー {#workflow}
 
@@ -159,7 +159,7 @@ Journey Optimizer でデザインされた、メール、プッシュ、SMS／MM
 
 * **目標は何ですか？** （例：新規顧客のオンボーディング、非アクティブユーザーのリエンゲージメント）
 * **オーディエンスは誰ですか？** （特定セグメント、イベント主導の個人）
-* **どのジャーニータイプが適合しますか？** （[ ジャーニータイプ ](#journey-types)を参照）
+* **どのジャーニータイプが適合しますか？** （[&#x200B; ジャーニータイプ &#x200B;](#journey-types)を参照）
 * **どのチャネルを使用しますか？** （電子メール、プッシュ通知、SMSなど）
 
 ### &#x200B;2. カンバスでのデザイン {#design}
@@ -362,7 +362,7 @@ AI を使用して、各顧客が最も関与する可能性の高いタイミ�
 
 >[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
-➡️ **さらに動画を見ますか？** [ ジャーニーのビデオチュートリアルを見る](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
+➡️ **さらに動画を見ますか？** [&#x200B; ジャーニーのビデオチュートリアルを見る](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
 
 ## よくある質問 {#common-questions}
 

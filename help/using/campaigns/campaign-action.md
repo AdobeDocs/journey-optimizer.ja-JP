@@ -37,7 +37,7 @@ ht-degree: 97%
 
 1. **チャネル設定を選択**
 
-   設定は、[システム管理者](../start/path/administrator.md)によって定義されます。 ヘッダーパラメーター、サブドメイン、モバイルアプリなど、メッセージを送信するためのすべての技術的なパラメーターが含まれます。[ チャネル設定の設定方法を説明します](../configuration/channel-surfaces.md)
+   設定は、[システム管理者](../start/path/administrator.md)によって定義されます。 ヘッダーパラメーター、サブドメイン、モバイルアプリなど、メッセージを送信するためのすべての技術的なパラメーターが含まれます。[&#x200B; チャネル設定の設定方法を説明します](../configuration/channel-surfaces.md)
 
    ![](assets/create-campaign-action.png)
 

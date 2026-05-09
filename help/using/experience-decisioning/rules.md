@@ -135,7 +135,7 @@ ht-degree: 85%
 
 >[!NOTE]
 >
->AIによるルールの最適化は、**AI アシスタント**&#x200B;と同じ生成AI機能に依存し、同じアクセス制御を使用します。 ユーザーには、**[!UICONTROL AI アシスタント]** リソースに対する&#x200B;**[!UICONTROL コンテンツを生成]**&#x200B;権限を付与する必要があります。 詳しくは、[AI アシスタントへのアクセス ](../content-management/gs-generative.md#generative-access)を参照してください。
+>AIによるルールの最適化は、**AI アシスタント**&#x200B;と同じ生成AI機能に依存し、同じアクセス制御を使用します。 ユーザーには、**[!UICONTROL AI アシスタント]** リソースに対する&#x200B;**[!UICONTROL コンテンツを生成]**&#x200B;権限を付与する必要があります。 詳しくは、[AI アシスタントへのアクセス &#x200B;](../content-management/gs-generative.md#generative-access)を参照してください。
 
 ![](assets/decision-rules-ai.png)
 
