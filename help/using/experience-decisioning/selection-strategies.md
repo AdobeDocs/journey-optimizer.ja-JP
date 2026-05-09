@@ -7,9 +7,9 @@ role: User
 level: Intermediate
 exl-id: 1b73b398-050a-40bb-a8ae-1c66e3e26ce8
 version: Journey Orchestration
-source-git-commit: 0b94bfeaf694e8eaf0dd85e3c67ee97bd9b56294
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '759'
 ht-degree: 100%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_strategy_eligibility"
 >title="実施要件を満たすプロファイルの制限"
->abstract="この選択戦略では、オファーの選択を制限できます。デフォルトでは、すべてのプロファイルが実施要件を満たしていますが、オーディエンスやルールを使用すると、オファーの選択を特定のプロファイルのみに制限できます。"
+>abstract="この選択戦略では、オファーの選択を制限できます。 デフォルトでは、すべてのプロファイルが実施要件を満たしていますが、オーディエンスやルールを使用すると、オファーの選択を特定のプロファイルのみに制限できます。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="オーディエンスを使用"
 >additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="決定ルールの使用"
 
@@ -34,13 +34,13 @@ ht-degree: 100%
 
 1. **[!UICONTROL 決定]**／**[!UICONTROL 戦略設定]**／**[!UICONTROL 選択戦略]**&#x200B;に移動します。
 
-1. これまでに作成した選択戦略がすべてリストされます。ランキングメソッドに従って戦略を取得するのに役立つフィルターを使用できます。
+1. これまでに作成した選択戦略がすべてリストされます。 ランキングメソッドに従って戦略を取得するのに役立つフィルターを使用できます。
 
    ![](assets/strategy-list-filters.png)
 
 1. 選択戦略名をクリックして編集します。
 
-1. 各戦略で選択したコレクション、ランキング方法および実施要件も表示されます。各コレクション名の横にあるアイコンをクリックして、コレクションを直接編集できます。
+1. 各戦略で選択したコレクション、ランキング方法および実施要件も表示されます。 各コレクション名の横にあるアイコンをクリックして、コレクションを直接編集できます。
 
    ![](assets/strategy-list-edit-collection.png)
 
@@ -68,11 +68,11 @@ ht-degree: 100%
 
    ![](assets/strategy-create-eligibility.png)
 
-   * オファーの選択を Experience Platform オーディエンスのメンバーに制限するには、「**[!UICONTROL オーディエンス]**」を選択して、リストからオーディエンスを選択します。[オーディエンスの使用方法を学ぶ](../audience/about-audiences.md)
+   * オファーの選択を Experience Platform オーディエンスのメンバーに制限するには、「**[!UICONTROL オーディエンス]**」を選択して、リストからオーディエンスを選択します。 [オーディエンスの使用方法を学ぶ](../audience/about-audiences.md)
 
-   * 決定ルールに選択制約を追加する場合は、「**[!UICONTROL 決定ルール]**」オプションを使用し、任意のルールを選択します。[ルールの作成方法を学ぶ](rules.md)
+   * 決定ルールに選択制約を追加する場合は、「**[!UICONTROL 決定ルール]**」オプションを使用し、任意のルールを選択します。 [ルールの作成方法を学ぶ](rules.md)
 
-1. プロファイルごとに最適なオファーを選択するためのランキング方法を定義します。[詳細情報](#select-ranking-method)
+1. プロファイルごとに最適なオファーを選択するためのランキング方法を定義します。 [詳細情報](#select-ranking-method)
 
    ![](assets/strategy-create-ranking.png)
 
@@ -80,7 +80,7 @@ ht-degree: 100%
 
    * 特定の計算済みスコアを使用して配信する実施要件を満たすオファーを選択する場合は、「[数式](#ranking-formula)」または「[AI モデル](#ai-ranking)」を選択します。
 
-1. 「**[!UICONTROL 作成]**」をクリックします。これで、[決定ポリシー](create-decision.md)で使用する準備が整いました
+1. 「**[!UICONTROL 作成]**」をクリックします。 これで、[決定ポリシー](create-decision.md)で使用する準備が整いました
 
 ## ランキング方法の選択 {#select-ranking-method}
 
@@ -90,7 +90,7 @@ ht-degree: 100%
 >abstract="特定の選択戦略に対して実施要件を満たすオファーが複数ある場合、選択戦略（優先度またはランキング式）を作成する際に各プロファイルに最適なオファーを選択する方法を選べます。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/decisioning/experience-decisioning/decision-policies/create-decision.html?lang=ja" text="決定ポリシーを作成"
 
-特定の選択戦略に対して実施要件を満たすオファーが複数ある場合、選択戦略を作成する際に各プロファイルに最適なオファーを選択する方法を選べます。オファーのランク付けは、次の基準で行えます。
+特定の選択戦略に対して実施要件を満たすオファーが複数ある場合、選択戦略を作成する際に各プロファイルに最適なオファーを選択する方法を選べます。 オファーのランク付けは、次の基準で行えます。
 
 * [オファーの優先度](#offer-priority)
 * [数式](#ranking-formula)
@@ -106,17 +106,17 @@ ht-degree: 100%
 
 ### ランキング式 {#ranking-formula}
 
-Journey Optimizer では、オファーの優先度に加えて、**ランキング式**&#x200B;を作成できます。これらは、特定のプレースメントに対して最初に表示するオファーを決定する数式であり、オファーの優先度スコアを考慮するものではありません。
+Journey Optimizer では、オファーの優先度に加えて、**ランキング式**&#x200B;を作成できます。 これらは、特定のプレースメントに対して最初に表示するオファーを決定する数式であり、オファーの優先度スコアを考慮するものではありません。
 
-例えば、終了日が今から 24 時間以内のすべてのオファーの優先度を上げることもできますし、プロファイルの目標地点が「実行中」の場合は「実行中」カテゴリのオファーの優先度を上げることもできます。ランキング式を作成する方法については、 [この節](ranking/ranking-formulas.md)を参照してください。
+例えば、終了日が今から 24 時間以内のすべてのオファーの優先度を上げることもできますし、プロファイルの目標地点が「実行中」の場合は「実行中」カテゴリのオファーの優先度を上げることもできます。 ランキング式を作成する方法については、 [この節](ranking/ranking-formulas.md)を参照してください。
 
-作成したら、この数式を選択戦略で使用できます。この選択戦略の使用時に実施要件を満たすオファーが複数ある場合、決定は選択した式を使用して、最初に配信するオファーを計算します。
+作成したら、この数式を選択戦略で使用できます。 この選択戦略の使用時に実施要件を満たすオファーが複数ある場合、決定は選択した式を使用して、最初に配信するオファーを計算します。
 
 ### AI ランキング {#ai-ranking}
 
-AI モデルを選択して、特定のプロファイルに表示するオファーを自動的にランク付けする、トレーニング済みモデルシステムを使用することもできます。AI モデルの作成方法については、[この節](ranking/create-ai-models.md)を参照してください。
+AI モデルを選択して、特定のプロファイルに表示するオファーを自動的にランク付けする、トレーニング済みモデルシステムを使用することもできます。 AI モデルの作成方法については、[この節](ranking/create-ai-models.md)を参照してください。
 
-AI モデルが作成されたら、そのモデルを選択戦略で使用できます。複数のオファーが実施要件を満たす場合、トレーニング済みモデルシステムは、この選択戦略に対して最初に提示するオファーを決定します。
+AI モデルが作成されたら、そのモデルを選択戦略で使用できます。 複数のオファーが実施要件を満たす場合、トレーニング済みモデルシステムは、この選択戦略に対して最初に提示するオファーを決定します。
 
 >[!NOTE]
 >

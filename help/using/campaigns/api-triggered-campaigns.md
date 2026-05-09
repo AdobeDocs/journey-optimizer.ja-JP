@@ -9,9 +9,9 @@ role: Developer
 level: Experienced
 keywords: キャンペーン, API トリガー, REST, Optimizer, メッセージ
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
-source-git-commit: d1fd0b60ae60c2642108a1eb308564c9d04f5f9e
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '293'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ API トリガーキャンペーンを使用すると、適切なタイミング�
 
 それには、まず Journey Optimizer で API トリガーキャンペーンを作成し、次に [Interactive Message Execution REST API](https://developer.adobe.com/journey-optimizer-apis/references/messaging/#tag/execution) を使用して、API 呼び出しを通じてその実行を開始する必要があります。
 
-➡️ [この機能をビデオで確認](#video)
+➡️ [ビデオでこの機能を確認する](#video)
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ API トリガーキャンペーンを使用すると、適切なタイミング�
 
 ## API トリガーキャンペーン作成の主な手順 {#steps}
 
-キャンペーンを開始する前に、[この節](get-started-with-campaigns.md#prerequisites)に記載されている次の前提条件を確認してください。これらの前提条件が満たされたら、キャンペーンの作成を開始できます。
+キャンペーンを開始する前に、[この節](get-started-with-campaigns.md#prerequisites)に記載されている次の前提条件を確認してください。 これらの前提条件が満たされたら、キャンペーンの作成を開始できます。
 
 1. [キャンペーンのプロパティの定義](api-triggered-campaign-properties.md)
 1. [キャンペーンアクションの設定](api-triggered-campaign-action.md)

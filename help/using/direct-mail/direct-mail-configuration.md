@@ -7,10 +7,10 @@ role: User
 level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1708'
-ht-degree: 100%
+source-wordcount: '1820'
+ht-degree: 98%
 
 ---
 
@@ -18,27 +18,27 @@ ht-degree: 100%
 
 [!DNL Journey Optimizer] では、ダイレクトメールプロバイダーが顧客にメールを送信するために必要なファイルをパーソナライズおよび生成できます。
 
-[ダイレクトメールメッセージの作成](../direct-mail/create-direct-mail.md)の場合は、選択した連絡先情報（住所など）を含む、ターゲットオーディエンスデータを定義します。このデータを含むファイルが自動的に生成され、サーバーにエクスポートされます。ダイレクトメールプロバイダーは、このファイルを取得して、実際の送信処理を行うことができます。
+[ダイレクトメールメッセージの作成](../direct-mail/create-direct-mail.md)の場合は、選択した連絡先情報（住所など）を含む、ターゲットオーディエンスデータを定義します。 このデータを含むファイルが自動的に生成され、サーバーにエクスポートされます。ダイレクトメールプロバイダーは、このファイルを取得して、実際の送信処理を行うことができます。
 
 このファイルを生成する前に、以下を作成する必要があります。
 
 1. [ファイルのルーティング設定](#file-routing-configuration)：ファイルのエクスポート先となるサーバーを指定し、必要に応じてファイルを暗号化します。
 
-1. [ダイレクトメール設定](#direct-mail-configuration)：ファイルのルーティング設定を参照します。ファイルのルーティングオプションを設定していない場合、ダイレクトメール設定を作成できません。
+1. [ダイレクトメール設定](#direct-mail-configuration)：ファイルのルーティング設定を参照します。 ファイルのルーティングオプションを設定していない場合、ダイレクトメール設定を作成できません。
 
 
 >[!CAUTION]
 >
->* ファイルルーティング設定を作成するには、**[!DNL Manage file routing]** ビルトインの権限が必要です。[詳細情報](../administration/ootb-product-profiles.md#content-library-manager)
+>* ファイルルーティング設定を作成するには、**[!DNL Manage file routing]** ビルトインの権限が必要です。 [詳細情報](../administration/ootb-product-profiles.md#content-library-manager)
 >
->* ダイレクトメールファイルはエクスポート時にのみ生成され、古いエクスポートは無期限に保存されません。より長いバックアップまたは永続的なバックアップの場合は、ファイルのルーティングオプション（SFTP またはクラウドストレージ）を設定します。
+>* ダイレクトメールファイルはエクスポート時にのみ生成され、古いエクスポートは無期限に保存されません。 より長いバックアップまたは永続的なバックアップの場合は、ファイルのルーティングオプション（SFTP またはクラウドストレージ）を設定します。
 
 ## ファイルのルーティングを設定 {#file-routing-configuration}
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_details"
 >title="ファイルのルーティング設定を定義"
->abstract="ダイレクトメールメッセージを作成すると、ターゲットオーディエンスデータを含むファイルが生成され、サーバーにエクスポートされます。ダイレクトメールプロバイダーがそのファイルにアクセスして、ダイレクトメールの配信に使用できるように、サーバーの詳細を指定する必要があります。"
+>abstract="ダイレクトメールメッセージを作成すると、ターゲットオーディエンスデータを含むファイルが生成され、サーバーにエクスポートされます。 ダイレクトメールプロバイダーがそのファイルにアクセスして、ダイレクトメールの配信に使用できるように、サーバーの詳細を指定する必要があります。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/direct-mail/create-direct-mail" text="ダイレクトメールメッセージの作成"
 
 >[!CONTEXTUALHELP]
@@ -59,7 +59,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_aws_region"
 >title="AWS リージョンを選択"
->abstract="ダイレクトメールファイルのエクスポート先となる AWS サーバーのリージョンを選択します。一般的には、ダイレクトメールプロバイダーの場所に最も近いリージョンを選択することをお勧めします。"
+>abstract="ダイレクトメールファイルのエクスポート先となる AWS サーバーのリージョンを選択します。 一般的には、ダイレクトメールプロバイダーの場所に最も近いリージョンを選択することをお勧めします。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_dm_file_routing_frequency"
@@ -100,7 +100,7 @@ ht-degree: 100%
 
 * **AWS 秘密鍵**：AWS 秘密鍵を見つける場所については、[このページ](https://aws.amazon.com/jp/blogs/security/wheres-my-secret-access-key/)を参照してください。
 
-* **AWS リージョン**：サーバーインフラストラクチャを配置する **[!UICONTROL AWS リージョン]**&#x200B;を選択します。AWS リージョンは、AWS がクラウドインフラストラクチャをホストするために使用する地理的エリアです。一般的には、ダイレクトメールプロバイダーの場所に最も近いリージョンを選択することをお勧めします。
+* **AWS リージョン**：サーバーインフラストラクチャを配置する **[!UICONTROL AWS リージョン]**&#x200B;を選択します。 AWS リージョンは、AWS がクラウドインフラストラクチャをホストするために使用する地理的エリアです。 一般的には、ダイレクトメールプロバイダーの場所に最も近いリージョンを選択することをお勧めします。
 
 ![](assets/file-routing-config-aws-region.png){width="800" align="center"}
 
@@ -122,11 +122,11 @@ ht-degree: 100%
 
 >[!TIP]
 >
->SSH キー認証を使用する際、キーは **Base64 にエンコードされた OpenSSH** 秘密鍵にする必要があります。PPK 形式のファイルの場合は、PuTTY ツールを使用して OpenSSH 形式に変換します。 手順について詳しくは、[この節](#ssh-key-generation)を参照してください。
+>SSH キー認証を使用する際、キーは **Base64 にエンコードされた OpenSSH** 秘密鍵にする必要があります。 PPK 形式のファイルの場合は、PuTTY ツールを使用して OpenSSH 形式に変換します。 手順について詳しくは、[この節](#ssh-key-generation)を参照してください。
 
 >[!NOTE]
 >
->ファイルを保存するサーバー上のパスを指定するには、ダイレクトメールキャンペーンの「**[!UICONTROL ファイル名]**」フィールドを更新して、目的のパスを含めます。[詳細情報](create-direct-mail.md#extraction-file)
+>ファイルを保存するサーバー上のパスを指定するには、ダイレクトメールキャンペーンの「**[!UICONTROL ファイル名]**」フィールドを更新して、目的のパスを含めます。 [詳細情報](create-direct-mail.md#extraction-file)
 
 >[!TAB Azure]
 
@@ -144,7 +144,7 @@ ht-degree: 100%
 
   >[!NOTE]
   >
-  >ファイルを保存するコンテナ内のパスを指定するには、ダイレクトメールキャンペーンの「**[!UICONTROL ファイル名]**」フィールドを更新して、目的のパスを含めます。[詳細情報](create-direct-mail.md#extraction-file)
+  >ファイルを保存するコンテナ内のパスを指定するには、ダイレクトメールキャンペーンの「**[!UICONTROL ファイル名]**」フィールドを更新して、目的のパスを含めます。 [詳細情報](create-direct-mail.md#extraction-file)
 
   ![](assets/file-routing-config-azure-detail.png)
 
@@ -154,7 +154,7 @@ ht-degree: 100%
 
 ![](assets/file-routing-config-dlz-detail.png)
 
-[!DNL Adobe Experience Platform] のすべてのお客様には、サンドボックスごとに 1 つの Data Landing Zone コンテナがプロビジョニングされます。Data Landing Zone について詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}を参照してください。
+[!DNL Adobe Experience Platform] のすべてのお客様には、サンドボックスごとに 1 つの Data Landing Zone コンテナがプロビジョニングされます。 Data Landing Zone について詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}を参照してください。
 
 >[!ENDTABS]
 
@@ -164,20 +164,20 @@ ht-degree: 100%
 
 ![](assets/file-routing-journey.png)
 
-サーバータイプの詳細を入力したら、「**[!UICONTROL 送信]**」を選択します。ファイルのルーティング設定は、**[!UICONTROL アクティブ]**&#x200B;ステータスで作成されます。これで、[ダイレクトメール設定](#direct-mail-surface)で使用する準備が整いました。
+サーバータイプの詳細を入力したら、「**[!UICONTROL 送信]**」を選択します。 ファイルのルーティング設定は、**[!UICONTROL アクティブ]**&#x200B;ステータスで作成されます。 これで、[ダイレクトメール設定](#direct-mail-surface)で使用する準備が整いました。
 
 「**[!UICONTROL ドラフトとして保存]**」を選択してファイルのルーティング設定を作成することもできますが、**[!UICONTROL アクティブ]**&#x200B;になるまで設定で選択することはできません。
 
 ### SFTP 認証用の SSH キーの生成 {#ssh-key-generation}
 
-SSH キー認証で SFTP を使用している場合は、Base64 にエンコードされた OpenSSH 秘密鍵が必要です。キーが正しい形式でない場合、ファイルのルーティングを設定する際に接続エラーが発生することがあります。
+SSH キー認証で SFTP を使用している場合は、Base64 にエンコードされた OpenSSH 秘密鍵が必要です。 キーが正しい形式でない場合、ファイルのルーティングを設定する際に接続エラーが発生することがあります。
 
 +++Base64 にエンコードされた OpenSSH 秘密鍵の生成
 
 1. PuTTYgen で、キーペアを生成します。 2048 ビット以上の RSA をお勧めします。
 1. メニューから&#x200B;**コンバージョン**／**OpenSSH キーを書き出す**&#x200B;を選択します。
 1. プロンプトが表示されたら、**パスフレーズ保護なしで**&#x200B;秘密鍵を保存することを選択します。
-1. 保存ダイアログで、「**すべてのファイル (*.*)**」をファイルタイプとして選択し、キーが .ppk ファイルではなくプレーンテキストとして保存されるようにします。
+1. 保存ダイアログで、**すべてのファイル （*.*）**&#x200B;を選択します キーが.ppk ファイルではなくプレーンテキストとして保存されるように、ファイルの種類として保存します。
 1. 保存したファイルをテキストエディターで開き、その形式を確認します。
    * ファイルは、`-----BEGIN RSA PRIVATE KEY-----`（前後に 5 つのダッシュ）で始まる必要があります。
    * 暗号化を示す表現は使用しないでください。
@@ -192,7 +192,7 @@ SSH キー認証で SFTP を使用している場合は、Base64 にエンコー
 
 >[!CAUTION]
 >
->Base64 エンコーディングの後、キーには `-----BEGIN/END RSA PRIVATE KEY-----` マーカーが含まれなくなり、改行を含めることはできません。対応する公開鍵を SFTP サーバーの承認済みキーファイルに追加する必要があります。
+>Base64 エンコーディングの後、キーには `-----BEGIN/END RSA PRIVATE KEY-----` マーカーが含まれなくなり、改行を含めることはできません。 対応する公開鍵を SFTP サーバーの承認済みキーファイルに追加する必要があります。
 
 SFTP アカウントの Experience Platform への接続について詳しくは、[このドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/connectors/cloud-storage/sftp)を参照してください。
 
@@ -203,7 +203,7 @@ SFTP アカウントの Experience Platform への接続について詳しくは
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_settings"
 >title="ダイレクトメール設定を定義します。"
->abstract="ダイレクトメール設定には、ターゲットオーディエンスデータを含み、メールプロバイダーによって使用されるファイルの書式設定の設定が含まれています。また、ファイルのルーティング設定を選択して、ファイルのエクスポート先を定義する必要があります。"
+>abstract="ダイレクトメール設定には、ターゲットオーディエンスデータを含み、メールプロバイダーによって使用されるファイルの書式設定の設定が含まれています。 また、ファイルのルーティング設定を選択して、ファイルのエクスポート先を定義する必要があります。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/direct-mail/direct-mail-configuration#file-routing-configuration" text="ファイルのルーティングを設定"
 
 <!--
@@ -216,13 +216,13 @@ SFTP アカウントの Experience Platform への接続について詳しくは
 >[!CONTEXTUALHELP]
 >id="ajo_dm_surface_split"
 >title="ファイル分割しきい値の定義"
->abstract="オーディエンスデータを含む各ファイルの最大レコード数を設定する必要があります。1 ～ 200,000 件のレコードを選択できます。指定したしきい値に達すると、残りのレコードに別のファイルが作成されます。"
+>abstract="オーディエンスデータを含む各ファイルの最大レコード数を設定する必要があります。 1 ～ 200,000 件のレコードを選択できます。 指定したしきい値に達すると、残りのレコードに別のファイルが作成されます。"
 
 [!DNL Journey Optimizer] でダイレクトメールを配信できるようにするには、チャネル設定を作成して、メールプロバイダーが使用するファイルの書式設定の設定を定義する必要があります。
 
 ダイレクトメール設定には、ダイレクトメールファイルのエクスポート先となるサーバーを定義するファイルのルーティング設定も含める必要があります。
 
-1. 左側のパネルで、**[!UICONTROL 管理]**／**[!UICONTROL チャネル]**&#x200B;を参照し、**[!UICONTROL 一般設定]**／**[!UICONTROL チャネル設定]**&#x200B;を選択します。「**[!UICONTROL チャネル設定を作成]**」ボタンをクリックします。[詳細情報](../configuration/channel-surfaces.md)
+1. 左側のパネルで、**[!UICONTROL 管理]**／**[!UICONTROL チャネル]**&#x200B;を参照し、**[!UICONTROL 一般設定]**／**[!UICONTROL チャネル設定]**&#x200B;を選択します。 「**[!UICONTROL チャネル設定を作成]**」ボタンをクリックします。 [詳細情報](../configuration/channel-surfaces.md)
 
    ![](assets/direct-mail-config-1.png)
 
@@ -230,15 +230,15 @@ SFTP アカウントの Experience Platform への接続について詳しくは
 
    >[!NOTE]
    >
-   > 名前は、文字（A ～ Z）で始める必要があります。使用できるのは英数字のみです。アンダースコア（`_`）、ドット（`.`）、ハイフン（`-`）も使用できます。
+   > 名前は、文字（A ～ Z）で始める必要があります。 使用できるのは英数字のみです。 アンダースコア（`_`）、ドット（`.`）、ハイフン（`-`）も使用できます。
 
-1. 設定にカスタムまたはコアのデータ使用ラベルを割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。[詳しくは、オブジェクトレベルのアクセス制御（OLAC）を参照してください](../administration/object-based-access.md)。
+1. 設定にカスタムまたはコアのデータ使用ラベルを割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。 [詳しくは、オブジェクトレベルのアクセス制御（OLAC）を参照してください](../administration/object-based-access.md)。
 
 1. 「**[!UICONTROL ダイレクトメール]**」チャネルを選択します。
 
    ![](assets/direct-mail-config-2.png)
 
-1. この設定を使用してメッセージに同意ポリシーを関連付けるには、**[!UICONTROL マーケティングアクション]**&#x200B;を選択します。顧客の意向に従うために、そのマーケティングアクションに関連付けられているすべての同意ポリシーが活用されます。[詳細情報](../action/consent.md#surface-marketing-actions)
+1. この設定を使用してメッセージに同意ポリシーを関連付けるには、**[!UICONTROL マーケティングアクション]**&#x200B;を選択します。 顧客の意向に従うために、そのマーケティングアクションに関連付けられているすべての同意ポリシーが活用されます。 [詳細情報](../action/consent.md#surface-marketing-actions)
 
 1. チャネル設定の専用セクションでダイレクトメール設定を定義します。
 
@@ -252,11 +252,11 @@ SFTP アカウントの Experience Platform への接続について詳しくは
 
    ![](assets/surface-direct-mail-column-separator.png)
 
-1. 作成したものの中から「**[!UICONTROL ファイルルーティング設定]**」を選択します。これにより、ダイレクトメールプロバイダーが使用するファイルのエクスポート先が定義されます。
+1. 作成したものの中から「**[!UICONTROL ファイルルーティング設定]**」を選択します。 これにより、ダイレクトメールプロバイダーが使用するファイルのエクスポート先が定義されます。
 
    >[!CAUTION]
    >
-   >ファイルのルーティングオプションを設定していない場合、ダイレクトメール設定を作成できません。[詳細情報](#file-routing-configuration)
+   >ファイルのルーティングオプションを設定していない場合、ダイレクトメール設定を作成できません。 [詳細情報](#file-routing-configuration)
 
    ![](assets/surface-direct-mail-file-routing.png){width="800" align="center"}
 
@@ -264,7 +264,7 @@ SFTP アカウントの Experience Platform への接続について詳しくは
 
 1. ダイレクトメール設定を送信します。
 
-キャンペーン内で[ダイレクトメールメッセージの作成](../direct-mail/create-direct-mail.md)を行うことができるようになりました。キャンペーンが開始されると、ターゲットオーディエンスデータを含んだファイルが、定義したサーバーに自動的にエクスポートされます。その後、ダイレクトメールプロバイダーは、そのファイルを取得して、ダイレクトメール配信を続行できます。
+キャンペーン内で[ダイレクトメールメッセージの作成](../direct-mail/create-direct-mail.md)を行うことができるようになりました。 キャンペーンが開始されると、ターゲットオーディエンスデータを含んだファイルが、定義したサーバーに自動的にエクスポートされます。 その後、ダイレクトメールプロバイダーは、そのファイルを取得して、ダイレクトメール配信を続行できます。
 
 >[!NOTE]
 >

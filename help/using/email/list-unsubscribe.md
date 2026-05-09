@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 設定, メール, 設定
 exl-id: c6c77975-ec9c-44c8-a8d8-50ca6231fea6
-source-git-commit: d336684656c75af682a72b0acab071df15a79004
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1736'
-ht-degree: 97%
+source-wordcount: '1884'
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 97%
 
 <!--Do not modify - Legal Review Done -->
 
-[!DNL Adobe Journey Optimizer] で、新しいメールチャネル設定を指定する際に、リストから[サブドメインを選択](email-settings.md#ip-pools)すると、「**[!UICONTROL リスト登録解除を有効にする]**」オプションが表示されます。これは、デフォルトで有効です。
+[!DNL Adobe Journey Optimizer] で、新しいメールチャネル設定を指定する際に、リストから[サブドメインを選択](email-settings.md#ip-pools)すると、「**[!UICONTROL リスト登録解除を有効にする]**」オプションが表示されます。 これは、デフォルトで有効です。
 
 ![](assets/preset-list-unsubscribe.png)
 
@@ -43,18 +43,18 @@ ht-degree: 97%
 >
 >登録解除設定を管理する方法について詳しくは、以下の[この節](#enable-list-unsubscribe)を参照してください。
 
-どちらの場合も、受信者がオプトアウトリンクをクリックすると、登録解除リクエストがそれに応じて処理されます。対応するプロファイルはすぐにオプトアウトされ、この選択は [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ja){target="_blank"} で更新されます。同意処理について詳しくは、[Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=ja){target="_blank"}を参照してください。
+どちらの場合も、受信者がオプトアウトリンクをクリックすると、登録解除リクエストがそれに応じて処理されます。 対応するプロファイルはすぐにオプトアウトされ、この選択は [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ja){target="_blank"} で更新されます。 同意処理について詳しくは、[Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/landing/governance-privacy-security/consent/adobe/overview.html?lang=ja){target="_blank"}を参照してください。
 
 >[!NOTE]
 >
->場合によっては、ダウンストリームのデータ処理により、登録解除イベントがプロファイルレベルで反映されるまでに時間がかかることがあります。システムの更新に多少時間がかかる場合があります。
+>場合によっては、ダウンストリームのデータ処理により、登録解除イベントがプロファイルレベルで反映されるまでに時間がかかることがあります。 システムの更新に多少時間がかかる場合があります。
 
 ## リスト登録解除を有効にする {#enable-list-unsubscribe}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_unsubscribe"
 >title="メールへの登録解除 URL の追加"
->abstract="このオプションを有効にすると、メールヘッダーに登録解除 URL が自動的に追加されます。また、メールのコンテンツにワンクリックオプトアウトリンクを挿入することで、メッセージに登録解除 URL を設定することもできます。"
+>abstract="このオプションを有効にすると、メールヘッダーに登録解除 URL が自動的に追加されます。 また、メールのコンテンツにワンクリックオプトアウトリンクを挿入することで、メッセージに登録解除 URL を設定することもできます。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/email/email-opt-out#one-click-opt-out" text="メールコンテンツからのワンクリックオプトアウトの設定"
 
 「**[!UICONTROL リスト登録解除を有効にする]**」オプションが有効になっている場合、受信者のメールクライアントでサポートされている場合は、メールヘッダーに、受信者がメーリングリストから登録解除に使用できる宛先と URL の両方がデフォルトで含まれます。
@@ -67,19 +67,19 @@ ht-degree: 97%
 
 ![](assets/surface-list-unsubscribe.png){width="80%"}
 
-* **[!UICONTROL 宛先（登録解除）]**&#x200B;アドレスは、自動処理で登録解除リクエストがルーティングされる宛先アドレスです。[!DNL Journey Optimizer] の場合、登録解除のメールアドレスは、[選択したサブドメイン](email-settings.md#subdomains)に基づいてチャネル設定に表示される、デフォルトの&#x200B;**[!UICONTROL 宛先（登録解除）]**&#x200B;アドレスです。<!--With this method, clicking the Unsubscribe link sends a pre-filled email to the unsubscribe address specified in the email header.-->
+* **[!UICONTROL 宛先（登録解除）]**&#x200B;アドレスは、自動処理で登録解除リクエストがルーティングされる宛先アドレスです。 [!DNL Journey Optimizer] の場合、登録解除のメールアドレスは、[選択したサブドメイン](email-settings.md#subdomains)に基づいてチャネル設定に表示される、デフォルトの&#x200B;**[!UICONTROL 宛先（登録解除）]**&#x200B;アドレスです。<!--With this method, clicking the Unsubscribe link sends a pre-filled email to the unsubscribe address specified in the email header.-->
 
 * **[!UICONTROL ワンクリック登録解除 URL]** は、デフォルトでは、[選択したサブドメイン](email-settings.md#subdomains)に基づいてワンクリックオプトアウト URL で生成された、リスト登録解除ヘッダーです。<!--With this method, clicking the Unsubscribe link directly unsubscribes the user, requiring only a single action to unsubscribe.-->
 
-対応するドロップダウンリストから&#x200B;**[!UICONTROL 同意レベル]**&#x200B;を選択できます。チャネルまたはプロファイル ID に固有のものにすることができます。この設定に基づいて、ユーザーがメールのヘッダーにあるリスト登録解除 URL を使用して登録解除すると、[!DNL Adobe Journey Optimizer] においてチャネルレベルまたは ID レベルで同意が更新されます。
+対応するドロップダウンリストから&#x200B;**[!UICONTROL 同意レベル]**&#x200B;を選択できます。 チャネルまたはプロファイル ID に固有のものにすることができます。 この設定に基づいて、ユーザーがメールのヘッダーにあるリスト登録解除 URL を使用して登録解除すると、[!DNL Adobe Journey Optimizer] においてチャネルレベルまたは ID レベルで同意が更新されます。
 
 ## ガードレールとレコメンデーション {#list-unsubscribe-guardrails}
 
-ワンクリックリスト登録解除 URL 機能を使用すると、受信者は簡単に通信をオプトアウトできます。ただし、すべてのメールクライアントがメールヘッダーのこのリンクをサポートしているわけではないので、アドビでは、メールの本文に[ワンクリックオプトアウトリンク](email-opt-out.md#one-click-opt-out)または[登録解除リンク](email-opt-out.md#add-unsubscribe-link)も追加することをお勧めします。
+ワンクリックリスト登録解除 URL 機能を使用すると、受信者は簡単に通信をオプトアウトできます。 ただし、すべてのメールクライアントがメールヘッダーのこのリンクをサポートしているわけではないので、アドビでは、メールの本文に[ワンクリックオプトアウトリンク](email-opt-out.md#one-click-opt-out)または[登録解除リンク](email-opt-out.md#add-unsubscribe-link)も追加することをお勧めします。
 
 **[!UICONTROL 宛先（登録解除）]**&#x200B;機能と&#x200B;**[!UICONTROL ワンクリック登録解除 URL]** 機能はオプションです。
 
-* [メール設定](email-settings.md)で「**[!UICONTROL リスト登録解除を有効にする]**」オプションをオンにしている場合は、**宛先（登録解除）**&#x200B;と&#x200B;**ワンクリック登録解除 URL** の両方の方法を有効にすることをお勧めします。すべてのメールクライアントが HTTP メソッドをサポートしているわけではありません。代替手段を選択できる宛先リスト登録解除機能を使用すると、送信者の評判をより適切に保護でき、すべての受信者が登録解除機能を使用できます。
+* [メール設定](email-settings.md)で「**[!UICONTROL リスト登録解除を有効にする]**」オプションをオンにしている場合は、**宛先（登録解除）**&#x200B;と&#x200B;**ワンクリック登録解除 URL** の両方の方法を有効にすることをお勧めします。 すべてのメールクライアントが HTTP メソッドをサポートしているわけではありません。 代替手段を選択できる宛先リスト登録解除機能を使用すると、送信者の評判をより適切に保護でき、すべての受信者が登録解除機能を使用できます。
 
 * デフォルトで生成されたワンクリック登録解除 URL を使用しない場合は、この機能をオフにできます。
 
@@ -93,9 +93,9 @@ ht-degree: 97%
   >
   >メッセージ内の登録解除機能の管理について詳しくは、[この節](../email/email-opt-out.md#unsubscribe-header)を参照してください。
 
-[!DNL Journey Optimizer] では、同意は Experience Platform [同意スキーマ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=ja){target="_blank"}で処理されます。デフォルトでは同意フィールドの値は空で、通信内容の受信に同意したものとして扱われます。このデフォルト値を[ここ](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=ja#choice-values){target="_blank"}に一覧表示されている値の 1 つにオンボーディングする際に変更したり、[同意ポリシー](../action/consent.md)を使用してデフォルトのロジックを上書きしたりできます。
+[!DNL Journey Optimizer] では、同意は Experience Platform [同意スキーマ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=ja){target="_blank"}で処理されます。 デフォルトでは同意フィールドの値は空で、通信内容の受信に同意したものとして扱われます。 このデフォルト値を[ここ](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=ja#choice-values){target="_blank"}に一覧表示されている値の 1 つにオンボーディングする際に変更したり、[同意ポリシー](../action/consent.md)を使用してデフォルトのロジックを上書きしたりできます。
 
-現在、[!DNL Journey Optimizer] は、リスト登録解除機能によってトリガーされる登録解除イベントに特定のタグを追加しません。リスト登録解除クリックを他の登録解除アクションと区別する必要がある場合は、外部でカスタムタグ付けを実装するか、トラッキング用に外部ランディングページを活用する必要があります。
+現在、[!DNL Journey Optimizer] は、リスト登録解除機能によってトリガーされる登録解除イベントに特定のタグを追加しません。 リスト登録解除クリックを他の登録解除アクションと区別する必要がある場合は、外部でカスタムタグ付けを実装するか、トラッキング用に外部ランディングページを活用する必要があります。
 
 ## 外部での登録解除データ管理 {#custom-managed}
 
@@ -117,7 +117,7 @@ ht-degree: 97%
 
 >[!WARNING]
 >
->「**[!UICONTROL 顧客管理]**」オプションを使用している場合、アドビでは登録解除データや同意データを保存しません。「**[!UICONTROL 顧客管理]**」オプションを選択した場合、組織は外部システムを使用することを選択し、そのような外部システムで同意データを管理する責任があります。外部システムと [!DNL Journey Optimizer] の間で同意データの自動同期は行われません。[!DNL Journey Optimizer] のユーザー同意データを更新することを目的に、外部システムから行われる同意データの同期は、組織がデータ転送として開始し、同意データを [!DNL Journey Optimizer] にプッシュバックする必要があります。
+>「**[!UICONTROL 顧客管理]**」オプションを使用している場合、アドビでは登録解除データや同意データを保存しません。 「**[!UICONTROL 顧客管理]**」オプションを選択した場合、組織は外部システムを使用することを選択し、そのような外部システムで同意データを管理する責任があります。 外部システムと [!DNL Journey Optimizer] の間で同意データの自動同期は行われません。 [!DNL Journey Optimizer] のユーザー同意データを更新することを目的に、外部システムから行われる同意データの同期は、組織がデータ転送として開始し、同意データを [!DNL Journey Optimizer] にプッシュバックする必要があります。
 
 ### エンドポイントへのカスタム属性の追加 {#custom-attributes}
 
@@ -127,11 +127,11 @@ ht-degree: 97%
 
 >[!AVAILABILITY]
 >
->この機能は、限定提供で使用できます。アクセス権を取得するには、アドビ担当者にお問い合わせください。
+>この機能は、限定提供で使用できます。 アクセス権を取得するには、アドビ担当者にお問い合わせください。
 >
 >「**[!UICONTROL 宛先（登録解除）]**」オプションの場合は、[以下](#configure-decrypt-api)の「**カスタム属性（限定提供）を使用した宛先（登録解除）**」セクションに記載されている、新しいクエリパラメーターを使用する必要があります。
 
-エンドポイントのカスタム属性を定義するには、「**[!UICONTROL URL トラッキングパラメーター]**」セクションを使用します。対応するセクションで定義するすべての URL トラッキングパラメーターは、デフォルトのパラメーターに加えて、カスタムエンドポイントの末尾に追加されます。[カスタム URL トラッキングの設定方法の詳細情報](url-tracking.md)
+エンドポイントのカスタム属性を定義するには、「**[!UICONTROL URL トラッキングパラメーター]**」セクションを使用します。 対応するセクションで定義するすべての URL トラッキングパラメーターは、デフォルトのパラメーターに加えて、カスタムエンドポイントの末尾に追加されます。 [カスタム URL トラッキングの設定方法の詳細情報](url-tracking.md)
 
 >[!NOTE]
 >
@@ -139,7 +139,7 @@ ht-degree: 97%
 
 ### 復号化 API の設定 {#configure-decrypt-api}
 
-受信者がカスタム登録解除リンクをクリックすると、同意更新イベントに追加されたパラメーターが暗号化された状態でエンドポイントに送信されます。したがって、外部の同意システムは、アドビから送信されたパラメーターを復号化することを目的に、[Adobe Developer](https://developer.adobe.com){target="_blank"} を通じて特定の API を実装する必要があります。
+受信者がカスタム登録解除リンクをクリックすると、同意更新イベントに追加されたパラメーターが暗号化された状態でエンドポイントに送信されます。 したがって、外部の同意システムは、アドビから送信されたパラメーターを復号化することを目的に、[Adobe Developer](https://developer.adobe.com){target="_blank"} を通じて特定の API を実装する必要があります。
 
 これらのパラメーターを取得する GET 呼び出しは、使用しているリスト登録解除オプション（**[!UICONTROL ワンクリック登録解除 URL]** または&#x200B;**[!UICONTROL 宛先（登録解除）]**）によって異なります。
 
@@ -243,11 +243,11 @@ GET 呼び出しは次のとおりです。
 
 「**[!UICONTROL 宛先（登録解除）]**」オプションを使用して、登録解除リンクをクリックすると、事前に入力されたメールが、指定された登録解除アドレスに送信されます。
 
-2025年10月以降、**[!UICONTROL 宛先（登録解除）]**&#x200B;エンドポイントの&#x200B;**[!UICONTROL 顧客管理]**&#x200B;オプションを使用している場合は、同意イベントに追加するカスタム属性を定義できます。この場合、以下に説明するクエリパラメーターを使用する必要があります。
+2025年10月以降、**[!UICONTROL 宛先（登録解除）]**&#x200B;エンドポイントの&#x200B;**[!UICONTROL 顧客管理]**&#x200B;オプションを使用している場合は、同意イベントに追加するカスタム属性を定義できます。 この場合、以下に説明するクエリパラメーターを使用する必要があります。
 
 >[!AVAILABILITY]
 >
->この機能は、限定提供で使用できます。アクセス権を取得するには、アドビ担当者にお問い合わせください。
+>この機能は、限定提供で使用できます。 アクセス権を取得するには、アドビ担当者にお問い合わせください。
 
 GET 呼び出しは次のとおりです。
 
@@ -269,7 +269,7 @@ API の例：https://platform.adobe.io/journey/imp/consent/decrypt?emailParamsSu
 
 >[!CAUTION]
 >
->以前の実装（例：https://platform.adobe.io/journey/imp/consent/decrypt?emailParams=&lt;v1.xxx>）を使用していた場合は、**emailParams** ではなく、新しい **emailParamsSub** および **emailParamsBody** パラメーターを使用する必要があります。詳しくは、アドビ担当者にお問い合わせください。
+>以前の実装（例：https://platform.adobe.io/journey/imp/consent/decrypt?emailParams=&lt;v1.xxx>）を使用していた場合は、**emailParams** ではなく、新しい **emailParamsSub** および **emailParamsBody** パラメーターを使用する必要があります。 詳しくは、アドビ担当者にお問い合わせください。
 
 **emailParamsSub** および **emailParamsBody** パラメーターは、カスタムエンドポイントに送信される同意更新イベントに含まれます。
 

@@ -6,9 +6,9 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: 25c2c448-9380-47b0-97c5-16d9afb794c5
-source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '908'
 ht-degree: 82%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 82%
 
    >[!NOTE]
    >
-   >**コードベースのエクスペリエンス**&#x200B;はインバウンドエクスペリエンスアクティビティなので、3 日間の&#x200B;**待機**&#x200B;アクティビティが付随しています。[詳細情報](../building-journeys/wait-activity.md#auto-wait-node)
+   >**コードベースのエクスペリエンス**&#x200B;はインバウンドエクスペリエンスアクティビティなので、3 日間の&#x200B;**待機**&#x200B;アクティビティが付随しています。 [詳細情報](../building-journeys/wait-activity.md#auto-wait-node)
 
 1. ジャーニーキャンバスでアクションを識別するには、**[!UICONTROL ラベル]**&#x200B;を入力します。
 
@@ -55,15 +55,15 @@ ht-degree: 82%
 
    >[!NOTE]
    >
-   >同じチャネル設定を使用するコードベースのエクスペリエンスアクションが複数あるとき、ジャーニーの&#x200B;**[!UICONTROL 優先度スコア]**&#x200B;によって、エンドユーザーが複数のアクションの対象となった場合に配信される内容が決定されます。[優先度スコアの詳細情報](../conflict-prioritization/priority-scores.md)
+   >同じチャネル設定を使用するコードベースのエクスペリエンスアクションが複数あるとき、ジャーニーの&#x200B;**[!UICONTROL 優先度スコア]**&#x200B;によって、エンドユーザーが複数のアクションの対象となった場合に配信される内容が決定されます。 [優先度スコアの詳細情報](../conflict-prioritization/priority-scores.md)
 
-1. 「**[!UICONTROL コンテンツを編集]**」ボタンを選択し、パーソナライゼーションエディターを使用して必要に応じてコンテンツを編集します。[詳細情報](#edit-code)
+1. 「**[!UICONTROL コンテンツを編集]**」ボタンを選択し、パーソナライゼーションエディターを使用して必要に応じてコンテンツを編集します。 [詳細情報](#edit-code)
 
-   また、コードコンテンツの基礎として既存のコンテンツテンプレートを使用することもできます。選択可能なテンプレートは、事前に選択したチャネル設定に基づいて、HTML または JSON のいずれかに限定されます。[詳しくは、コンテンツテンプレートの使用方法を参照してください。](../content-management/use-content-templates.md)
+   また、コードコンテンツの基礎として既存のコンテンツテンプレートを使用することもできます。 選択可能なテンプレートは、事前に選択したチャネル設定に基づいて、HTML または JSON のいずれかに限定されます。 [詳しくは、コンテンツテンプレートの使用方法を参照してください。](../content-management/use-content-templates.md)
 
 1. 「**[!UICONTROL アクションを追加]**」ボタンをクリックすると、コードベースのエクスペリエンスに1つ以上のインバウンドアクションを追加できます。 [詳細情報](../building-journeys/journey-action.md#multi-action)
 
-1. ジャーニーキャンバスに戻ります。 必要に応じて、追加のアクションまたはイベントをドラッグ＆ドロップして、ジャーニーフローを完了します。[詳細情報](../building-journeys/about-journey-activities.md)
+1. ジャーニーキャンバスに戻ります。 必要に応じて、追加のアクションまたはイベントをドラッグ＆ドロップして、ジャーニーフローを完了します。 [詳細情報](../building-journeys/about-journey-activities.md)
 
 ジャーニーの作成、設定、公開の方法について詳しくは、[このページ &#x200B;](../building-journeys/journey-gs.md)を参照してください。
 
@@ -75,21 +75,21 @@ ht-degree: 82%
 
 1. キャンペーンのタイプとして&#x200B;**スケジュール済み - マーケティング**&#x200B;を選択します。
 
-1. キャンペーンのプロパティ、[オーディエンス](../audience/about-audiences.md)、[スケジュール](../campaigns/create-campaign.md#schedule)など、キャンペーンを作成する手順を完了します。キャンペーンの設定方法について詳しくは、[このページ](../campaigns/get-started-with-campaigns.md)を参照してください。
+1. キャンペーンのプロパティ、[オーディエンス](../audience/about-audiences.md)、[スケジュール](../campaigns/create-campaign.md#schedule)など、キャンペーンを作成する手順を完了します。 キャンペーンの設定方法について詳しくは、[このページ](../campaigns/get-started-with-campaigns.md)を参照してください。
 
 1. **[!UICONTROL コードベースのエクスペリエンス]**&#x200B;アクションを選択します。
 
-1. 使用するコードベースのエクスペリエンス設定を選択または作成します。[詳細情報](code-based-configuration.md)
+1. 使用するコードベースのエクスペリエンス設定を選択または作成します。 [詳細情報](code-based-configuration.md)
 
    ![](assets/code-based-campaign-surface.png)
 
    >[!NOTE]
    >
-   >同じチャネル設定を使用するコードベースのエクスペリエンスアクションが複数ある場合、キャンペーンの&#x200B;**[!UICONTROL 優先度スコア]**&#x200B;によって、エンドユーザーが複数のアクションの対象となる場合に配信される内容が決定されます。[優先度スコアの詳細情報](../conflict-prioritization/priority-scores.md)
+   >同じチャネル設定を使用するコードベースのエクスペリエンスアクションが複数ある場合、キャンペーンの&#x200B;**[!UICONTROL 優先度スコア]**&#x200B;によって、エンドユーザーが複数のアクションの対象となる場合に配信される内容が決定されます。 [優先度スコアの詳細情報](../conflict-prioritization/priority-scores.md)
 
-1. パーソナライゼーションエディターを使用して、必要に応じてコンテンツを編集します。[詳細情報](#edit-code)
+1. パーソナライゼーションエディターを使用して、必要に応じてコンテンツを編集します。 [詳細情報](#edit-code)
 
-   また、コードコンテンツの基礎として既存のコンテンツテンプレートを使用することもできます。選択可能なテンプレートは、事前に選択したチャネル設定に基づいて、HTML または JSON のいずれかに限定されます。[詳しくは、コンテンツテンプレートの使用方法を参照してください。](../content-management/use-content-templates.md)
+   また、コードコンテンツの基礎として既存のコンテンツテンプレートを使用することもできます。 選択可能なテンプレートは、事前に選択したチャネル設定に基づいて、HTML または JSON のいずれかに限定されます。 [詳しくは、コンテンツテンプレートの使用方法を参照してください。](../content-management/use-content-templates.md)
 
    <!--![](assets/code-based-campaign-edit-content.png)-->
 
@@ -115,9 +115,9 @@ ht-degree: 82%
 
    >[!NOTE]
    >
-   >事前定義済みの編集可能なフォームフィールドを含むコードベースのエクスペリエンスコンテンツテンプレートを使用している場合は、パーソナライゼーションエディターを開くことなく、これらのフィールドのコンテンツを管理できます。[詳細情報](code-based-form-fields.md)
+   >事前定義済みの編集可能なフォームフィールドを含むコードベースのエクスペリエンスコンテンツテンプレートを使用している場合は、パーソナライゼーションエディターを開くことなく、これらのフィールドのコンテンツを管理できます。 [詳細情報](code-based-form-fields.md)
 
-1. [パーソナライゼーションエディター](../personalization/personalization-build-expressions.md)が開きます。これは、コードを作成できる非視覚的なエクスペリエンス作成インターフェイスです。
+1. [パーソナライゼーションエディター](../personalization/personalization-build-expressions.md)が開きます。 これは、コードを作成できる非視覚的なエクスペリエンス作成インターフェイスです。
 
 1. オーサリングモードを HTML から JSON に切り替えることも、その逆も可能です。
 
@@ -127,19 +127,19 @@ ht-degree: 82%
    >
    >オーサリングモードを変更すると、現在のコードがすべて失われるので、作成を開始する前にモードを切り替えてください。
 
-1. 必要に応じてコードを入力します。[!DNL Journey Optimizer] パーソナライゼーションエディターのすべてのパーソナライズ機能およびオーサリング機能を活用できます。[詳細情報](../personalization/personalization-build-expressions.md)
+1. 必要に応じてコードを入力します。 [!DNL Journey Optimizer] パーソナライゼーションエディターのすべてのパーソナライズ機能およびオーサリング機能を活用できます。 [詳細情報](../personalization/personalization-build-expressions.md)
 
-1. 必要に応じて、HTML または JSON 式フラグメントを追加できます。[方法についてはこちらを参照](../personalization/use-expression-fragments.md)
+1. 必要に応じて、HTML または JSON 式フラグメントを追加できます。 [方法についてはこちらを参照](../personalization/use-expression-fragments.md)
 
-   また、コードコンテンツの一部をフラグメントとして保存することもできます。[方法についてはこちらを参照](../content-management/fragments.md#visual-expression)
+   また、コードコンテンツの一部をフラグメントとして保存することもできます。 [方法についてはこちらを参照](../content-management/fragments.md#visual-expression)
 
-1. コードベースのエクスペリエンスでは、決定機能を使用できます。左側のバーから&#x200B;**[!UICONTROL 決定ポリシー]**&#x200B;アイコンを選択し、「**[!UICONTROL 決定ポリシーを追加]**」をクリックします。[詳細情報](../experience-decisioning/create-decision.md#create-decision)
+1. コードベースのエクスペリエンスでは、決定機能を使用できます。 左側のバーから&#x200B;**[!UICONTROL 決定ポリシー]**&#x200B;アイコンを選択し、「**[!UICONTROL 決定ポリシーを追加]**」をクリックします。 [詳細情報](../experience-decisioning/create-decision.md#create-decision)
 
    ![](assets/code-based-campaign-create-decision.png)
 
    <!--![](../experience-decisioning/assets/decision-code-based-create.png)-->
 
-   ジャーニーまたはキャンペーン編集画面から、パーソナライゼーションエディターを開くことなく、決定ポリシーを直接追加することもできます。右側のパネルの専用アイコンを使用して、「**[!UICONTROL 決定]**」セクションを表示します。
+   ジャーニーまたはキャンペーン編集画面から、パーソナライゼーションエディターを開くことなく、決定ポリシーを直接追加することもできます。 右側のパネルの専用アイコンを使用して、「**[!UICONTROL 決定]**」セクションを表示します。
 
    <!--![](assets/code-based-campaign-show-decisioning.png)-->
 

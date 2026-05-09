@@ -10,7 +10,7 @@ level: Intermediate
 keywords: アクティビティ, 条件, キャンバス, ジャーニー, 最適化
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: 8aeb3e3769e28419982c28620e5b141778d2fa67
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 37%
@@ -22,7 +22,7 @@ ht-degree: 37%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_optimize"
 >title="最適化アクティビティ"
->abstract="**最適化**&#x200B;アクティビティでは、実験、ターゲティング、特定の条件など、特定の基準に基づいて複数のパスを作成することで、個人がジャーニーをどのように進めるかを定義できます。 **最適化** アクティビティは、ジャーニーで条件付きパスを作成するための新しい手段です。 元の&#x200B;**条件** アクティビティに置き換わります。"
+>abstract="**最適化**&#x200B;アクティビティでは、実験、ターゲティング、特定の条件など、特定の条件に基づいて複数のパスを作成することで、個人がジャーニーをどのように進めるかを定義できます。 **最適化** アクティビティは、ジャーニーで条件付きパスを作成するための新しい手段です。 元の&#x200B;**条件** アクティビティに置き換わります。"
 
 >[!IMPORTANT]
 >

@@ -9,9 +9,9 @@ role: Admin
 level: Intermediate
 keywords: 設定, 実験, レポート, Optimizer
 exl-id: 327a0c45-0805-4f64-9bab-02d67276eff8
-source-git-commit: d772ef2d98775446618bd6614a26b9f352e073bd
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '585'
+source-wordcount: '656'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_config"
 >title="レポート用のデータセットを設定"
->abstract="レポート設定では、キャンペーンレポートで使用する追加指標を取得できます。技術ユーザーが実行する必要があります。"
+>abstract="レポート設定では、キャンペーンレポートで使用する追加指標を取得できます。 技術ユーザーが実行する必要があります。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_dataset"
@@ -36,11 +36,11 @@ ht-degree: 100%
 
 この設定の場合は、レポートに使用する追加の要素を含む 1 つ以上のデータセットを追加する必要があります。 これをおこなうには、[以下](#add-datasets)の手順に従います。
 
-Web チャネル、コードベースチャネル、アプリ内チャネルの場合、データ収集用に設定された[データセット](../data/get-started-datasets.md)もこのレポーティング設定に追加していることを確認する必要があります。追加していない場合、web データとアプリ内データがコンテンツ実験レポートに表示されません。
+Web チャネル、コードベースチャネル、アプリ内チャネルの場合、データ収集用に設定された[データセット](../data/get-started-datasets.md)もこのレポーティング設定に追加していることを確認する必要があります。 追加していない場合、web データとアプリ内データがコンテンツ実験レポートに表示されません。
 
 ## 前提条件
 
-レポート設定にデータセットを追加する前に、そのデータセットを作成する必要があります。方法について詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ja#create){target="_blank"}を参照してください。
+レポート設定にデータセットを追加する前に、そのデータセットを作成する必要があります。 方法について詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=ja#create){target="_blank"}を参照してください。
 
 * イベントタイプのデータセットのみを追加できます。
 
@@ -82,7 +82,7 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
 >
 >新しく作成されたデータセットは、Customer Journey Analytics レポートでのみ使用できます。
 
-1. **[!UICONTROL 管理]**&#x200B;メニューで、「**[!UICONTROL 設定]**」を選択します。「**[!UICONTROL レポート]**」セクションで、「**[!UICONTROL 管理]**」をクリックします。
+1. **[!UICONTROL 管理]**&#x200B;メニューで、「**[!UICONTROL 設定]**」を選択します。 「**[!UICONTROL レポート]**」セクションで、「**[!UICONTROL 管理]**」をクリックします。
 
    ![](assets/reporting-config-menu.png)
 
@@ -94,13 +94,13 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
 
    >[!NOTE]
    >
-   >「**[!UICONTROL システムデータセット]**」タブを選択した場合、システムで作成されたデータセットのみが表示されます。他のデータセットを追加することはできません。
+   >「**[!UICONTROL システムデータセット]**」タブを選択した場合、システムで作成されたデータセットのみが表示されます。 他のデータセットを追加することはできません。
 
 1. **[!UICONTROL データセット]**&#x200B;ドロップダウンリストで、レポートに使用するデータセットを選択します。
 
    >[!CAUTION]
    >
-   >サポートされている[フィールドグループ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja#field-group){target="_blank"}（**アプリケーションの詳細**、**コマースの詳細**、**web の詳細**）のう 1 つ以上を含むイベントタイプのデータセットのみを選択できます。これらの条件に一致しないデータセットを選択した場合、変更を保存できません。
+   >サポートされている[フィールドグループ](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja#field-group){target="_blank"}（**アプリケーションの詳細**、**コマースの詳細**、**web の詳細**）のう 1 つ以上を含むイベントタイプのデータセットのみを選択できます。 これらの条件に一致しないデータセットを選択した場合、変更を保存できません。
 
    ![](assets/reporting-config-datasets.png)
 
@@ -114,7 +114,7 @@ The table below shows which metrics will be added to the **[!UICONTROL Objective
    >
    >レポートに使用できる ID のみが表示されます。
 
-1. 「**[!UICONTROL プライマリ ID 名前空間を使用]**」オプションはデフォルトで有効になっています。選択した&#x200B;**[!UICONTROL プロファイル ID]** が **[!UICONTROL ID マップ]**&#x200B;の場合、このオプションを無効にして、表示されるドロップダウンリストから別の名前空間を選択できます。
+1. 「**[!UICONTROL プライマリ ID 名前空間を使用]**」オプションはデフォルトで有効になっています。 選択した&#x200B;**[!UICONTROL プロファイル ID]** が **[!UICONTROL ID マップ]**&#x200B;の場合、このオプションを無効にして、表示されるドロップダウンリストから別の名前空間を選択できます。
 
    ![](assets/reporting-config-namespace.png)
 

@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: メール, メッセージ, 添付ファイル, PDF, エディター
 exl-id: 71e218d0-5b3b-4db5-8b7b-d08df8f088c4
-source-git-commit: 8be7a537781331fdc8cf198c366868ab1c886b38
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '351'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_pdf_attachments"
 >title="PDF 添付ファイルの追加"
->abstract="メールに添付する PDF ファイルを参照して選択します。</br>プロファイルごとに、年間最大 6 件の PDF 添付ファイル付きメッセージを送信できます。各添付ファイルの最大許容ファイルサイズは 5 MB です。</br>追加のサイズまたはボリュームは、添付ファイルパックアドオンを購入できます。詳しくは、アドビ担当者にお問い合わせください。"
+>abstract="メールに添付する PDF ファイルを参照して選択します。</br>プロファイルごとに、年間最大 6 件の PDF 添付ファイル付きメッセージを送信できます。 各添付ファイルの最大許容ファイルサイズは 5MB です。</br>追加のサイズまたはボリュームは、添付ファイルパックアドオンを購入できます。 詳しくは、アドビ担当者にお問い合わせください。"
 
 [!DNL Journey Optimizer] を使用して送信するメールメッセージに静的 PDF ファイルを添付できます。
 
@@ -31,11 +31,11 @@ ht-degree: 100%
 >
 >* 各添付ファイルの最大許容ファイルサイズは 5 MB です。
 >
->追加のサイズまたはボリュームについては、PDF 添付ファイルアドオンを購入できます。詳しくは、アドビ担当者にお問い合わせください。
+>追加のサイズまたはボリュームについては、PDF 添付ファイルアドオンを購入できます。 詳しくは、アドビ担当者にお問い合わせください。
 
 PDF ファイルをメールメッセージに添付するには、次の手順に従います。
 
-1. ジャーニーまたはキャンペーンでメールを作成します。[詳細情報](create-email.md)
+1. ジャーニーまたはキャンペーンでメールを作成します。 [詳細情報](create-email.md)
 
 1. ジャーニーまたはキャンペーンの「**[!UICONTROL コンテンツ]**」タブで、「**[!UICONTROL 添付ファイル]**」セクションから「**[!UICONTROL アセットを追加]**」を選択します。
 
@@ -45,7 +45,7 @@ PDF ファイルをメールメッセージに添付するには、次の手順�
 
    >[!NOTE]
    >
-   >メッセージをデザインする際は、Journey Optimizer インターフェイス内から Assets Essentials リポジトリに直接アクセスします。組み込みの [!DNL Assets Essentials] ユーザーインターフェイスについて詳しくは、[Experience Manager Assets Essentials ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=ja){target="_blank"}を参照してください。
+   >メッセージをデザインする際は、Journey Optimizer インターフェイス内から Assets Essentials リポジトリに直接アクセスします。 組み込みの [!DNL Assets Essentials] ユーザーインターフェイスについて詳しくは、[Experience Manager Assets Essentials ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=ja){target="_blank"}を参照してください。
 
 1. 「**[!UICONTROL MIME タイプ]**」セクションの **[!UICONTROL PDF]** フィルターを使用して、正しいファイル形式への選択を制限します。
 
@@ -68,4 +68,4 @@ PDF ファイルをメールメッセージに添付するには、次の手順�
 
 >[!NOTE]
 >
->メッセージを[コンテンツテンプレート](../content-management/create-content-templates.md)として保存した場合、PDF 添付ファイルはテンプレートに保持されません。保存したコンテンツテンプレートから新しいメールを作成する場合は、ファイルを再添付する必要があります。
+>メッセージを[コンテンツテンプレート](../content-management/create-content-templates.md)として保存した場合、PDF 添付ファイルはテンプレートに保持されません。 保存したコンテンツテンプレートから新しいメールを作成する場合は、ファイルを再添付する必要があります。

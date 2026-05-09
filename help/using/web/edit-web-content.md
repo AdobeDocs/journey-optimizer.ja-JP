@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1069'
-ht-degree: 100%
+source-wordcount: '1096'
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 [このビデオで web キャンペーンの作成方法について学ぶ](#video)
 
-[!DNL Journey Optimizer] の web オーサリングには、**Adobe Experience Cloud Visual Helper** の Chrome ブラウザー拡張機能が利用されています。[詳細情報](web-prerequisites.md#visual-authoring-prerequisites)
+[!DNL Journey Optimizer] の web オーサリングには、**Adobe Experience Cloud Visual Helper** の Chrome ブラウザー拡張機能が利用されています。 [詳細情報](web-prerequisites.md#visual-authoring-prerequisites)
 
 >[!CAUTION]
 >
@@ -36,7 +36,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_surface"
 >title="編集する URL の確認"
->abstract="上記で定義した web 設定に適用されるコンテンツの編集に使用する特定の web ページの URL を確認します。Web ページは、Adobe Experience Platform Web SDK を使用して実装する必要があります。"
+>abstract="上記で定義した web 設定に適用されるコンテンツの編集に使用する特定の web ページの URL を確認します。 Web ページは、Adobe Experience Platform Web SDK を使用して実装する必要があります。"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja" text="詳細情報"
 
 >[!CONTEXTUALHELP]
@@ -51,7 +51,7 @@ Web エクスペリエンスのオーサリングを開始するには、次の�
 
    ![](assets/web-campaign-edit-content.png)
 
-1. ルールに一致するページを作成した場合は、このルールに一致する URL を入力する必要があります。変更は、ルールに一致するすべてのページに適用されます。ページのコンテンツが表示されます。
+1. ルールに一致するページを作成した場合は、このルールに一致する URL を入力する必要があります。変更は、ルールに一致するすべてのページに適用されます。 ページのコンテンツが表示されます。
 
    >[!NOTE]
    >
@@ -61,17 +61,17 @@ Web エクスペリエンスのオーサリングを開始するには、次の�
 
    >[!CAUTION]
    >
-   >Web ページには、[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja){target="_blank"} を含める必要があります。[詳細情報](web-prerequisites.md#implementation-prerequisites)
+   >Web ページには、[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja){target="_blank"} を含める必要があります。 [詳細情報](web-prerequisites.md#implementation-prerequisites)
 
-1. 「**[!UICONTROL Web ページを編集]**」をクリックしてオーサリングを開始します。Web designer が表示されます。
+1. 「**[!UICONTROL Web ページを編集]**」をクリックしてオーサリングを開始します。 Web designer が表示されます。
 
    ![](assets/web-designer.png)
 
    >[!NOTE]
    >
-   >読み込みに失敗した web サイトを読み込もうとすると、[Visual Editing Helper のブラウザー拡張機能](#install-visual-editing-helper)のインストールを勧めるメッセージが表示されます。トラブルシューティングのヒントについては、[こちらのセクション](web-prerequisites.md#troubleshooting)をご覧ください。
+   >読み込みに失敗した web サイトを読み込もうとすると、[Visual Editing Helper のブラウザー拡張機能](#install-visual-editing-helper)のインストールを勧めるメッセージが表示されます。 トラブルシューティングのヒントについては、[こちらのセクション](web-prerequisites.md#troubleshooting)をご覧ください。
 
-1. キャンバスから要素（画像、ボタン、段落、テキスト、コンテナ、見出し、リンクなど）を選択します。[詳細情報](#content-components)
+1. 画像、ボタン、段落、テキスト、コンテナ、見出し、リンクなど、キャンバスから任意の要素を選択します。[詳細情報](#content-components)
 
 1. 用途：
 
@@ -89,7 +89,7 @@ Web エクスペリエンスのオーサリングを開始するには、次の�
 
 >[!NOTE]
 >
->Web のコンテンツデザイナーは、E メールデザイナーと非常に似ています。詳しくは、[ [!DNL Journey Optimizer]](../email/get-started-email-design.md) でのコンテンツのデザインを参照してください。
+>Web のコンテンツデザイナーは、E メールデザイナーと非常に似ています。 詳しくは、[&#x200B; [!DNL Journey Optimizer]](../email/get-started-email-design.md) でのコンテンツのデザインを参照してください。
 
 ## コンポーネントの使用 {#content-components}
 
@@ -98,13 +98,13 @@ Web エクスペリエンスのオーサリングを開始するには、次の�
 >title="Web ページへのコンポーネントの追加"
 >abstract="Web ページに多数のコンポーネントを追加し、必要に応じて編集できます。"
 
-1. 左側の&#x200B;**[!UICONTROL コンポーネント]**&#x200B;パネルで、項目を選択します。Web ページに以下のコンポーネントを追加し、必要に応じて編集できます。
+1. 左側の&#x200B;**[!UICONTROL コンポーネント]**&#x200B;パネルで、項目を選択します。 Web ページに以下のコンポーネントを追加し、必要に応じて編集できます。
 
    * [ディバイダー](../email/content-components.md#divider)
    * [HTML](../email/content-components.md#HTML)
    * [画像](../email/content-components.md#image)
-   * 見出し - このコンポーネントを使用することは、E メールデザイナーで&#x200B;**[!UICONTROL テキスト]**&#x200B;コンポーネントを使用することに似ています。[詳細情報](../email/content-components.md#text)
-   * 段落 - このコンポーネントを使用することは、E メールデザイナーで&#x200B;**[!UICONTROL テキスト]**&#x200B;コンポーネントを使用することに似ています。[詳細情報](../email/content-components.md#text)
+   * 見出し - このコンポーネントを使用することは、E メールデザイナーで&#x200B;**[!UICONTROL テキスト]**&#x200B;コンポーネントを使用することに似ています。 [詳細情報](../email/content-components.md#text)
+   * 段落 - このコンポーネントを使用することは、E メールデザイナーで&#x200B;**[!UICONTROL テキスト]**&#x200B;コンポーネントを使用することに似ています。 [詳細情報](../email/content-components.md#text)
    * リンク
 
    ![](assets/web-designer-components.png)
@@ -121,19 +121,19 @@ Web エクスペリエンスのオーサリングを開始するには、次の�
 
    ![](assets/web-designer-edit-header.png)
 
-1. 右側のコンテキストパネルに表示されるスタイル（背景、テキストカラー、境界線、サイズ、位置など）を調整します。- 選択したコンポーネントによって異なります。
+1. 選択したコンポーネントに応じて、背景、テキストカラー、境界線、サイズ、位置など、右側のコンテキストパネルから表示されるスタイルを調整します。
 
    ![](assets/web-designer-header-style.png)
 
 ## パーソナライゼーションの追加
 
-パーソナライゼーションを追加するには、コンテナを選択し、表示されるコンテキストメニューバーからパーソナライゼーションアイコンを選択します。 パーソナライゼーションエディターを使用して、変更を追加します。[詳細情報](../personalization/personalization-build-expressions.md)
+パーソナライゼーションを追加するには、コンテナを選択し、表示されるコンテキストメニューバーからパーソナライゼーションアイコンを選択します。 パーソナライゼーションエディターを使用して、変更を追加します。 [詳細情報](../personalization/personalization-build-expressions.md)
 
 ![](assets/web-designer-personalization.png)
 
 ## Web designer 内での移動 {#navigate-web-designer}
 
-この節では、web designer での様々なナビゲーション方法について説明します。Web エクスペリエンスに追加された変更の表示および管理について詳しくは、[こちらの節](manage-web-modifications.md)を参照してください。
+この節では、web designer での様々なナビゲーション方法について説明します。 Web エクスペリエンスに追加された変更の表示および管理について詳しくは、[こちらの節](manage-web-modifications.md)を参照してください。
 
 ### パンくずリストの使用 {#breadcrumbs}
 
@@ -160,9 +160,9 @@ Web エクスペリエンスのオーサリングを開始するには、次の�
 
 **[!UICONTROL 参照]**&#x200B;モードでは、パーソナライズする選択した設定から該当するページに移動できます。
 
-これは、認証の後のページや、特定の URL で最初から使用できないページを処理する場合に特に便利です。例えば、認証を行い、アカウントページや買い物かごページに移動して、**[!UICONTROL デザイン]**&#x200B;モードに戻り、目的のページで変更を実行できます。
+これは、認証の後のページや、特定の URL で最初から使用できないページを処理する場合に特に便利です。 例えば、認証を行い、アカウントページや買い物かごページに移動して、**[!UICONTROL デザイン]**&#x200B;モードに戻り、目的のページで変更を実行できます。
 
-**[!UICONTROL 参照]**&#x200B;モードを使用すると、単一ページアプリケーションを作成する際に、web サイトのすべてのビューをナビゲートできます。[詳細情報](web-spa.md)
+**[!UICONTROL 参照]**&#x200B;モードを使用すると、単一ページアプリケーションを作成する際に、web サイトのすべてのビューをナビゲートできます。 [詳細情報](web-spa.md)
 
 ### デバイスサイズの変更 {#change-device-size}
 
@@ -172,13 +172,13 @@ Web designer のディスプレイのデバイスサイズは、**[!UICONTROL �
 
 ![](assets/web-designer-device.png)
 
-デバイスサイズを変更する機能は、様々なデバイス、ウィンドウ、画面のサイズに適切にレンダリングされるレスポンシブサイト用に設計されています。レスポンシブサイトは、デスクトップ、ノートパソコン、タブレット、携帯電話を含む、あらゆる画面サイズに自動的に調整および適応します。
+デバイスサイズを変更する機能は、様々なデバイス、ウィンドウ、画面のサイズに適切にレンダリングされるレスポンシブサイト用に設計されています。 レスポンシブサイトは、デスクトップ、ノートパソコン、タブレット、携帯電話を含む、あらゆる画面サイズに自動的に調整および適応します。
 
 >[!CAUTION]
 >
->特定のデバイスサイズで web エクスペリエンスを編集できます。ただし、セレクターが同じである限り、これらの変更は作業中のデバイスサイズだけでなく、すべてのサイズとデバイスに適用されます。同様に、通常のデスクトップビューでのエクスペリエンスの編集は、そのデスクトップビューだけでなく、すべての画面サイズに適用されます。
+>特定のデバイスサイズで web エクスペリエンスを編集できます。 ただし、セレクターが同じである限り、これらの変更は作業中のデバイスサイズだけでなく、すべてのサイズとデバイスに適用されます。 同様に、通常のデスクトップビューでのエクスペリエンスの編集は、そのデスクトップビューだけでなく、すべての画面サイズに適用されます。
 >
->現在、[!DNL Journey Optimizer] は、デバイスサイズに固有のページの変更をサポートしていません。例えば、個別のサイト構造を持つ別のモバイル web サイトがある場合は、別のキャンペーンでそのモバイルサイトに固有の変更を行う必要があります。
+>現在、[!DNL Journey Optimizer] は、デバイスサイズに固有のページの変更をサポートしていません。 例えば、個別のサイト構造を持つ別のモバイル web サイトがある場合は、別のキャンペーンでそのモバイルサイトに固有の変更を行う必要があります。
 
 ## チュートリアルビデオ{#video}
 

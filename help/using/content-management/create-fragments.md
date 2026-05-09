@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
-source-git-commit: 449e8c9c1df7942346bcc94195aee89f2ecbc8f6
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '832'
 ht-degree: 94%
 
 ---
@@ -26,12 +26,12 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="ajo_create_expression_fragment"
 >title="式タイプの選択"
->abstract="スタンドアロン式のフラグメントを作成して、複数のジャーニーやキャンペーンでコンテンツを再利用できるようにします。パーソナライゼーションエディターを使用すると、現在のサンドボックスで作成されたすべての式フラグメントを活用できます。"
+>abstract="スタンドアロン式のフラグメントを作成して、複数のジャーニーやキャンペーンでコンテンツを再利用できるようにします。 パーソナライゼーションエディターを使用すると、現在のサンドボックスで作成されたすべての式フラグメントを活用できます。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/personalization/personalization-build-expressions" text="パーソナライゼーションエディターの操作"
 
-フラグメントは、左側のメニューの&#x200B;**[!UICONTROL フラグメント]**&#x200B;からゼロから作成できます。さらに、コンテンツをデザインする際に、既存のコンテンツの一部をフラグメントとして保存することもできます。[方法についてはこちらを参照](save-fragments.md#)
+フラグメントは、左側のメニューの&#x200B;**[!UICONTROL フラグメント]**&#x200B;からゼロから作成できます。 さらに、コンテンツをデザインする際に、既存のコンテンツの一部をフラグメントとして保存することもできます。 [方法についてはこちらを参照](save-fragments.md#)
 
-保存すると、フラグメントをジャーニー、キャンペーンまたはテンプレートで使用できるようになります。このフラグメントは、ジャーニーとキャンペーン内でコンテンツを作成する際に使用できます。[ビジュアルフラグメントの追加](../email/use-visual-fragments.md)および[式フラグメントの活用](../personalization/use-expression-fragments.md)を参照してください。
+保存すると、フラグメントをジャーニー、キャンペーンまたはテンプレートで使用できるようになります。 このフラグメントは、ジャーニーとキャンペーン内でコンテンツを作成する際に使用できます。 [ビジュアルフラグメントの追加](../email/use-visual-fragments.md)および[式フラグメントの活用](../personalization/use-expression-fragments.md)を参照してください。
 
 フラグメントを作成するには、次の手順に従います。
 
@@ -43,9 +43,9 @@ ht-degree: 94%
 
    ![](assets/fragment-details.png)
 
-1. 「**[!UICONTROL タグ]**」フィールドから Adobe Experience Platform タグを選択または作成してフラグメントを分類し、検索の向上を図ります。[詳しくは、統合タグの操作方法を参照してください](../start/search-filter-categorize.md#tags)
+1. 「**[!UICONTROL タグ]**」フィールドから Adobe Experience Platform タグを選択または作成してフラグメントを分類し、検索の向上を図ります。 [詳しくは、統合タグの操作方法を参照してください](../start/search-filter-categorize.md#tags)
 
-1. フラグメントタイプ（**ビジュアルフラグメント**&#x200B;または&#x200B;**式フラグメント**）を選択します。[詳細情報](../content-management/fragments.md#visual-expression)
+1. フラグメントタイプ（**ビジュアルフラグメント**&#x200B;または&#x200B;**式フラグメント**）を選択します。 [詳細情報](../content-management/fragments.md#visual-expression)
 
    >[!NOTE]
    >
@@ -55,7 +55,7 @@ ht-degree: 94%
 
    ![](assets/fragment-expression-type.png)
 
-1. カスタムまたはコアのデータ使用ラベルをフラグメントに割り当てるには、画面の上部セクションで「**[!UICONTROL アクセスを管理]**」ボタンをクリックします。[詳しくは、オブジェクトレベルのアクセス制御（OLAC）を参照してください](../administration/object-based-access.md)。
+1. カスタムまたはコアのデータ使用ラベルをフラグメントに割り当てるには、画面の上部セクションで「**[!UICONTROL アクセスを管理]**」ボタンをクリックします。 [詳しくは、オブジェクトレベルのアクセス制御（OLAC）を参照してください](../administration/object-based-access.md)。
 
 1. 「**[!UICONTROL 作成]**」をクリックして、フラグメントのコンテンツをデザインします。
 
@@ -67,9 +67,9 @@ ht-degree: 94%
 >
 >[コンテキスト属性](../personalization/personalization-build-expressions.md)は、フラグメント内ではサポートされていません。
 >
->ジャーニーまたはキャンペーンでトラッキングが有効になっている場合、フラグメントにリンクを追加し、このフラグメントがメッセージで使用されていると、メッセージに含まれる他のすべてのリンクなど、これらのリンクを追跡します。[リンクとトラッキングの詳細情報](../email/message-tracking.md)
+>ジャーニーまたはキャンペーンでトラッキングが有効になっている場合、フラグメントにリンクを追加し、このフラグメントがメッセージで使用されていると、メッセージに含まれる他のすべてのリンクなど、これらのリンクを追跡します。 [リンクとトラッキングの詳細情報](../email/message-tracking.md)
 
-* ビジュアルフラグメントの場合は、ジャーニーやキャンペーン内のメールと同じ方法で、必要に応じてコンテンツを編集します。[詳細情報](../email/get-started-email-design.md)
+* ビジュアルフラグメントの場合は、ジャーニーやキャンペーン内のメールと同じ方法で、必要に応じてコンテンツを編集します。 [詳細情報](../email/get-started-email-design.md)
 
   ![](assets/fragment-designer.png)
 
@@ -79,9 +79,9 @@ ht-degree: 94%
 
   >[!CAUTION]
   >
-  >フラグメントには、テーマを使用モードと手動スタイルモード間で相互互換性がありません。メールコンテンツでフラグメントを使用する際は、このフラグメント用に定義したテーマを適用してください。[詳細情報](../email/apply-email-themes.md#leverage-themes-fragment)
+  >フラグメントには、テーマを使用モードと手動スタイルモード間で相互互換性がありません。 メールコンテンツでフラグメントを使用する際は、このフラグメント用に定義したテーマを適用してください。 [詳細情報](../email/apply-email-themes.md#leverage-themes-fragment)
 
-* 式フラグメントの場合は、[!DNL Journey Optimizer] パーソナライゼーションエディターのすべてのパーソナライズ機能およびオーサリング機能を活用して、フラグメントコンテンツを構築します。[詳細情報](../personalization/personalization-build-expressions.md)
+* 式フラグメントの場合は、[!DNL Journey Optimizer] パーソナライゼーションエディターのすべてのパーソナライズ機能およびオーサリング機能を活用して、フラグメントコンテンツを構築します。 [詳細情報](../personalization/personalization-build-expressions.md)
 
   ![](assets/fragment-expression-editor.png)
 
@@ -93,9 +93,9 @@ ht-degree: 94%
 
 >[!NOTE]
 >
->ビジュアルフラグメントは、100 KB を超えることはできません。式フラグメントは、200 KB を超えることはできません。
+>ビジュアルフラグメントは、100 KB を超えることはできません。 式フラグメントは、200 KB を超えることはできません。
 
-フラグメントが作成され、**[!UICONTROL ドラフト]**&#x200B;ステータスでフラグメントリストに追加されます。追加されたフラグメントをプレビューして公開し、ジャーニーとキャンペーンで使用できます。
+フラグメントが作成され、**[!UICONTROL ドラフト]**&#x200B;ステータスでフラグメントリストに追加されます。 追加されたフラグメントをプレビューして公開し、ジャーニーとキャンペーンで使用できます。
 
 ## フラグメントのプレビューと公開 {#publish}
 
@@ -103,17 +103,17 @@ ht-degree: 94%
 >
 >フラグメントを公開するには、[フラグメントを公開](../administration/ootb-product-profiles.md#content-library-manager)するユーザー権限が必要です。
 
-フラグメントを公開する準備が整ったら、プレビューして公開し、ジャーニーやキャンペーンで使用できます。これを行うには、以下の手順に従います。
+フラグメントを公開する準備が整ったら、プレビューして公開し、ジャーニーやキャンペーンで使用できます。 これを行うには、以下の手順に従います。
 
 1. コンテンツをデザインした後にフラグメントの作成画面に戻るか、フラグメントのリストから開きます。
 
-1. フラグメントのプレビューは、「**[!UICONTROL タグ]**」フィールドで利用でき、レンダリングを確認できます。変更を行う必要がある場合は、画面の上部セクションで「**[!UICONTROL 編集]**」ボタンをクリックして、フラグメントのタイプに応じて E メールデザイナーまたはパーソナライゼーションエディターを開きます。[詳細情報](manage-fragments.md#edit-fragments)
+1. フラグメントのプレビューは、「**[!UICONTROL タグ]**」フィールドで利用でき、レンダリングを確認できます。 変更を行う必要がある場合は、画面の上部セクションで「**[!UICONTROL 編集]**」ボタンをクリックして、フラグメントのタイプに応じて E メールデザイナーまたはパーソナライゼーションエディターを開きます。 [詳細情報](manage-fragments.md#edit-fragments)
 
    ![](assets/fragment-preview.png)
 
 1. 右上隅の「**[!UICONTROL 公開]**」ボタンをクリックして、フラグメントを公開します。
 
-1. フラグメントがライブジャーニーまたはキャンペーンで使用されている場合は、通知するメッセージが開きます。「**[!UICONTROL さらに表示]**」リンクをクリックすると、参照先のジャーニーやキャンペーンのリストにアクセスできます。[詳しくは、フラグメントの参照の探索方法を参照してください](../content-management/manage-fragments.md#explore-references)
+1. フラグメントがライブジャーニーまたはキャンペーンで使用されている場合は、通知するメッセージが開きます。 「**[!UICONTROL さらに表示]**」リンクをクリックすると、参照先のジャーニーやキャンペーンのリストにアクセスできます。 [詳しくは、フラグメントの参照の探索方法を参照してください](../content-management/manage-fragments.md#explore-references)
 
    ![](assets/fragment-publish.png){width="70%" align="center"}
 

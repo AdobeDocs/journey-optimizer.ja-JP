@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: チャネル, サーフェス, 技術, パラメーター, Optimizer
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
-source-git-commit: 21cb23fd4e7f69c2a8180150c5a7a3e52975fd9e
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '858'
 ht-degree: 83%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_name"
 >title="モバイルと web の設定名"
->abstract="モバイルまたは web 設定の名前を入力します。この名前は、ガイド付きチャネル設定で自動的に作成されるすべてのリソースに使用されます。"
+>abstract="モバイルまたは web 設定の名前を入力します。 この名前は、ガイド付きチャネル設定で自動的に作成されるすべてのリソースに使用されます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_validate_assurance"
@@ -55,7 +55,7 @@ ht-degree: 83%
 
 >[!ENDTABS]
 
-設定するプラットフォームごとに、個別の設定を作成する必要があります。これは、各アプリに一意のチャネル設定が必要であり、これにより各プラットフォームに必要なチャネルを柔軟に決定できるからです。
+設定するプラットフォームごとに、個別の設定を作成する必要があります。 これは、各アプリに一意のチャネル設定が必要であり、これにより各プラットフォームに必要なチャネルを柔軟に決定できるからです。
 
 ## 前提条件 {#prereq}
 
@@ -114,7 +114,7 @@ ht-degree: 83%
 
   +++
 
-* 既存の設定オプションを使用している場合は、次の Adobe Experience Platform Mobile SDK 拡張機能バージョンを使用していることを確認してください。必要な依存関係や初期化コードを含む SDK 設定について詳しくは、[次のドキュメント](https://experienceleague.adobe.com/ja/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks)を参照してください。
+* 既存の設定オプションを使用している場合は、次の Adobe Experience Platform Mobile SDK 拡張機能バージョンを使用していることを確認してください。 必要な依存関係や初期化コードを含む SDK 設定について詳しくは、[次のドキュメント](https://experienceleague.adobe.com/ja/docs/platform-learn/implement-mobile-sdk/app-implementation/install-sdks)を参照してください。
 
 >[!BEGINTABS]
 
@@ -135,7 +135,7 @@ ht-degree: 83%
 
 ## 自動作成されたリソース {#auto-create-resources}
 
-ガイド付きチャネル設定により、マーケティングチャネルの迅速な設定が簡単になり、Experience Platform、Journey Optimizer およびデータ収集アプリですべての重要なリソースがすぐに使用できるようになります。これにより、マーケティングチームはキャンペーンとジャーニーの作成をすぐに開始できます。ガイド付きチャネル設定の一部として自動生成および設定されるリソースのリストを以下に示します。
+ガイド付きチャネル設定により、マーケティングチャネルの迅速な設定が簡単になり、Experience Platform、Journey Optimizer およびデータ収集アプリですべての重要なリソースがすぐに使用できるようになります。 これにより、マーケティングチームはキャンペーンとジャーニーの作成をすぐに開始できます。 ガイド付きチャネル設定の一部として自動生成および設定されるリソースのリストを以下に示します。
 
 以下のタブを参照して、自動生成されるすべてのリソースの包括的なリストにアクセスします。
 

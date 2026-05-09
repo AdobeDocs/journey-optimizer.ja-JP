@@ -5,10 +5,10 @@ title: 分岐アクティビティの使用
 description: 調整されたキャンペーンでの分岐アクティビティの使用方法について説明します。
 exl-id: 52e8057b-dac1-45f5-9dd0-1b28a59adde9
 version: Campaign Orchestration
-source-git-commit: 4ba956e83c4e28a6d578ffa093d8b8e5fbd2c50b
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 55%
+source-wordcount: '256'
+ht-degree: 54%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 55%
 
 1. **[!UICONTROL ラベル]**&#x200B;を定義します。
 
-1. 各アウトバウンドトランジションにラベルを割り当てます。デフォルトでは、2 つのトランジションが指定されています。
+1. 各アウトバウンドトランジションにラベルを割り当てます。 デフォルトでは、2 つのトランジションが指定されています。
 
 1. トランジションを削除するには、「![](../assets/do-not-localize/Smock_Delete_18_N.svg)」アイコンをクリックします。
 

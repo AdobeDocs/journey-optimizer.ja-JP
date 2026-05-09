@@ -10,7 +10,7 @@ level: Intermediate
 keywords: ジャンプ, アクティビティ, ジャーニー, 分割
 exl-id: 46d8950b-8b02-4160-89b4-1c492533c0e2
 version: Journey Orchestration
-source-git-commit: 96b003c3e45550e89454366387a6aea20cfea9c8
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '1405'
 ht-degree: 60%

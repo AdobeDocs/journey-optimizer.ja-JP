@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: アーカイブ, メッセージ, HIPAA, BCC, メール
 exl-id: 186a5044-80d5-4633-a7a7-133e155c5e9f
-source-git-commit: 63b5f1504679deb8e7a912341b7a2b470033de13
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1334'
+source-wordcount: '1363'
 ht-degree: 88%
 
 ---
@@ -20,43 +20,43 @@ ht-degree: 88%
 
 ## メッセージのアーカイブ方法 {#about-archiving}
 
-HIPAA などの規制では、[!DNL Journey Optimizer] が個人に送信されたメッセージをアーカイブする方法を提供する必要があります。実際、顧客が申し立てを行った場合、確認のために送信されたメッセージのコピーを取得できる必要があります。
+HIPAA などの規制では、[!DNL Journey Optimizer] が個人に送信されたメッセージをアーカイブする方法を提供する必要があります。 実際、顧客が申し立てを行った場合、確認のために送信されたメッセージのコピーを取得できる必要があります。
 
-* メールチャネルの場合、[!DNL Journey Optimizer] には、ビルトインの BCC メール機能が用意されています。[詳細情報](#bcc-email)
+* メールチャネルの場合、[!DNL Journey Optimizer] には、ビルトインの BCC メール機能が用意されています。 [詳細情報](#bcc-email)
 
-* さらに、すべてのチャネルの場合、パーソナライズされていないメッセージテンプレートの詳細を含む&#x200B;**エンティティデータセット**&#x200B;の「テンプレート」フィールドを使用できます。このフィールドを使用してデータセットをエクスポートすると、メッセージの送信者、送信先および送信時間などのメタデータを保存できます。パーソナライズされたデータはエクスポートされず、テンプレート （メッセージの形式と構造）のみが考慮されます。[詳細情報](../data/datasets-query-examples.md#entity-dataset)
+* さらに、すべてのチャネルの場合、パーソナライズされていないメッセージテンプレートの詳細を含む&#x200B;**エンティティデータセット**&#x200B;の「テンプレート」フィールドを使用できます。 このフィールドを使用してデータセットをエクスポートすると、メッセージの送信者、送信先および送信時間などのメタデータを保存できます。 パーソナライズされたデータはエクスポートされず、テンプレート （メッセージの形式と構造）のみが考慮されます。 [詳細情報](../data/datasets-query-examples.md#entity-dataset)
 
 >[!NOTE]
 >
->[!DNL Journey Optimizer] は、SMS アーカイブ要件を独自にサポートしていません。専用のアーカイブサポートについては、SMS ベンダー（Synch、Infobip または Twilio）と協力してください。
+>[!DNL Journey Optimizer] は、SMS アーカイブ要件を独自にサポートしていません。 専用のアーカイブサポートについては、SMS ベンダー（Synch、Infobip または Twilio）と協力してください。
 
 ## メールに BCC を使用する方法 {#bcc-email}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_bcc"
 >title="BCC メールアドレスの定義"
->abstract="BCC インボックスに送信することで、送信済みメールのコピーを保持できます。送信されたすべてのメールがこの BCC アドレスにブラインドコピーされるように、目的のメールアドレスを入力します。BCC アドレスのドメインは、アドビにデリゲートされたサブドメインとは異なる必要があります。この機能はオプションです。"
+>abstract="BCC インボックスに送信することで、送信済みメールのコピーを保持できます。 送信されたすべてのメールがこの BCC アドレスにブラインドコピーされるように、目的のメールアドレスを入力します。 BCC アドレスのドメインは、アドビにデリゲートされたサブドメインとは異なる必要があります。 この機能はオプションです。"
 
-[!DNL Journey Optimizer] から送信されたメールのブラインドカーボンコピー（BCC）を専用の BCC アドレスに送信できます。このオプション機能を使用すると、ユーザーに送信するメール通信のコピーをコンプライアンスやアーカイブの目的で保持できます。BCC アドレスは、メッセージの他の受信者には表示されません。
+[!DNL Journey Optimizer] から送信されたメールのブラインドカーボンコピー（BCC）を専用の BCC アドレスに送信できます。 このオプション機能を使用すると、ユーザーに送信するメール通信のコピーをコンプライアンスやアーカイブの目的で保持できます。 BCC アドレスは、メッセージの他の受信者には表示されません。
 
 ### BCC メールの有効化 {#enable-bcc}
 
-**[!UICONTROL BCC メール]** オプションを有効にするには、[&#x200B; チャネル設定](channel-surfaces.md)の専用フィールドに任意のメールアドレスを入力します。 アドビにデリゲートしたサブドメインで定義されたメールアドレスを除き、正しい形式で任意の外部アドレスを指定できます。例えば、*marketing.luma.com* サブドメインをアドビにデリゲートした場合、*abc@marketing.luma.com* のようなアドレスは禁止されます。
+**[!UICONTROL BCC メール]** オプションを有効にするには、[&#x200B; チャネル設定](channel-surfaces.md)の専用フィールドに任意のメールアドレスを入力します。 アドビにデリゲートしたサブドメインで定義されたメールアドレスを除き、正しい形式で任意の外部アドレスを指定できます。 例えば、*marketing.luma.com* サブドメインをアドビにデリゲートした場合、*abc@marketing.luma.com* のようなアドレスは禁止されます。
 
 >[!CAUTION]
 >
->* BCC に設定できるメールアドレスは 1 つだけです。現在のチャネル設定を使用して送信されたすべてのメールを保存するのに十分な受信容量があることを確認してください。 その他のレコメンデーションの一覧について詳しくは、[この節](#bcc-recommendations-limitations)を参照してください。
+>* BCC に設定できるメールアドレスは 1 つだけです。 現在のチャネル設定を使用して送信されたすべてのメールを保存するのに十分な受信容量があることを確認してください。 その他のレコメンデーションの一覧について詳しくは、[この節](#bcc-recommendations-limitations)を参照してください。
 >* Healthcare Shield アドオンオファーを購入した場合は、BCC アドレスのISPがTLS 1.2 プロトコルをサポートしていることを確認してください。
 
 ![](assets/preset-bcc.png)
 
-設定が完了すると、この設定に基づくすべてのメールメッセージは、入力した BCC メールアドレスにブラインドコピーされます。そこから、外部システムを使用してメッセージを処理およびアーカイブできます。
+設定が完了すると、この設定に基づくすべてのメールメッセージは、入力した BCC メールアドレスにブラインドコピーされます。 そこから、外部システムを使用してメッセージを処理およびアーカイブできます。
 
 >[!CAUTION]
 >
->BCC 機能の使用状況は、ライセンスを取得したメッセージ数に照らしてカウントされます。したがって、アーカイブする重要な通信に使用される設定内でのみ有効にします。ライセンスを取得したボリュームを契約書で確認します。
+>BCC 機能の使用状況は、ライセンスを取得したメッセージ数に照らしてカウントされます。 したがって、アーカイブする重要な通信に使用される設定内でのみ有効にします。 ライセンスを取得したボリュームを契約書で確認します。
 
-BCC メールアドレスの設定は、設定レベルで直ちに保存および処理されます。この設定を使用して新しいメッセージを作成すると、BCC メールアドレスが自動的に表示されます。
+BCC メールアドレスの設定は、設定レベルで直ちに保存および処理されます。 この設定を使用して新しいメッセージを作成すると、BCC メールアドレスが自動的に表示されます。
 
 ![](assets/preset-bcc-in-msg.png)
 
@@ -68,9 +68,9 @@ BCC メールアドレスの設定は、設定レベルで直ちに保存およ�
 
 * メッセージには、個人を特定できる情報（PII）などの機密データや非公開データを含めることができるので、BCC アドレスが正しいことを確認し、メッセージへのアクセスを保護します。
 
-* BCC に使用するインボックスは、領域と配信について適切に管理される必要があります。インボックスがバウンスを返した場合、一部のメールが受信されないのでアーカイブに失敗する可能性があります。
+* BCC に使用するインボックスは、領域と配信について適切に管理される必要があります。 インボックスがバウンスを返した場合、一部のメールが受信されないのでアーカイブに失敗する可能性があります。
 
-* メッセージは、ターゲット受信者よりも前に、BCC メールアドレスに配信される場合があります。BCC メッセージは、元のメッセージが[バウンス](../reports/suppression-list.md#delivery-failures)された場合でも送信できます。
+* メッセージは、ターゲット受信者よりも前に、BCC メールアドレスに配信される場合があります。 BCC メッセージは、元のメッセージが[バウンス](../reports/suppression-list.md#delivery-failures)された場合でも送信できます。
 
   <!--OR: Only successfully sent emails are taken in account. [Bounces](../reports/suppression-list.md#delivery-failures) are not. TO CHECK -->
 
@@ -84,9 +84,9 @@ BCC メールアドレスの設定は、設定レベルで直ちに保存およ�
 
 ### GDPR への準拠 {#gdpr-compliance}
 
-GDPR などの規制では、データ主体はいつでも同意を変更できると規定されています。Journey Optimizerで送信するBCC メールには、安全に個人を特定できる情報（PII）が含まれているため、GDPRなどの規制に準拠してこれらのPIIを管理するには、**[!UICONTROL AJO セカンダリ Recipient Feedback Event Schema]**&#x200B;を編集する必要があります。
+GDPR などの規制では、データ主体はいつでも同意を変更できると規定されています。 Journey Optimizerで送信するBCC メールには、安全に個人を特定できる情報（PII）が含まれているため、GDPRなどの規制に準拠してこれらのPIIを管理するには、**[!UICONTROL AJO セカンダリ Recipient Feedback Event Schema]**&#x200B;を編集する必要があります。
 
-これを行うには、次の手順に従います。
+それには、次の手順に従います。
 
 1. **[!UICONTROL Data management]** > **[!UICONTROL Schemas]** > **[!UICONTROL Browse]**&#x200B;に移動し、**[!UICONTROL AJO セカンダリ Recipient Feedback Event Schema]**&#x200B;を選択します。
 
@@ -112,19 +112,19 @@ GDPR などの規制では、データ主体はいつでも同意を変更でき
 
 ### BCC レポートデータ {#bcc-reporting}
 
-BCC に関するレポート自体は、ジャーニーレポートとメッセージレポートでは使用できません。ただし、情報は、**[!UICONTROL AJO セカンダリ Recipient Feedback Event Dataset]**&#x200B;というシステム データセットに保存されます。 このデータセットに対してクエリを実行すると、デバッグ目的などに役立つ情報を見つけることができます。
+BCC に関するレポート自体は、ジャーニーレポートとメッセージレポートでは使用できません。 ただし、情報は、**[!UICONTROL AJO セカンダリ Recipient Feedback Event Dataset]**&#x200B;というシステム データセットに保存されます。 このデータセットに対してクエリを実行すると、デバッグ目的などに役立つ情報を見つけることができます。
 
-ユーザーインターフェイスからこのデータセットにアクセスするには、**[!UICONTROL データ管理]**／**[!UICONTROL データセット]**／**[!UICONTROL 参照]**&#x200B;を選択します。データセットにアクセスする方法について詳しくは、[この節](../data/get-started-datasets.md#access-datasets)を参照してください。
+ユーザーインターフェイスからこのデータセットにアクセスするには、**[!UICONTROL データ管理]**／**[!UICONTROL データセット]**／**[!UICONTROL 参照]**&#x200B;を選択します。 データセットにアクセスする方法について詳しくは、[この節](../data/get-started-datasets.md#access-datasets)を参照してください。
 
 ![](assets/preset-bcc-dataset.png){width="85%"}
 
-このデータセットに対してクエリを実行するには、[Adobe Experience Platform クエリサービス](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ja){target="_blank"}で提供されるクエリエディターを使用できます。これにアクセスするには、**[!UICONTROL データ管理]**／**[!UICONTROL クエリ]**&#x200B;を選択し、「**[!UICONTROL クエリを作成]**」をクリックします。[詳細情報](../data/get-started-queries.md)
+このデータセットに対してクエリを実行するには、[Adobe Experience Platform クエリサービス](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ja){target="_blank"}で提供されるクエリエディターを使用できます。 これにアクセスするには、**[!UICONTROL データ管理]**／**[!UICONTROL クエリ]**&#x200B;を選択し、「**[!UICONTROL クエリを作成]**」をクリックします。 [詳細情報](../data/get-started-queries.md)
 
 ![](assets/preset-bcc-queries.png){width="100%"}
 
 どの情報を探しているかに応じて、次のクエリを実行できます。
 
-1. 以下に示すその他すべてのクエリには、ジャーニーアクション ID が必要です。このクエリを実行して、過去 2 日間に特定のジャーニーバージョン ID に関連付けられたすべてのアクション ID を取得します。
+1. 以下に示すその他すべてのクエリには、ジャーニーアクション ID が必要です。 このクエリを実行して、過去 2 日間に特定のジャーニーバージョン ID に関連付けられたすべてのアクション ID を取得します。
 
    ```
    SELECT
@@ -143,7 +143,7 @@ BCC に関するレポート自体は、ジャーニーレポートとメッセ�
 
    >[!NOTE]
    >
-   >`<journey version id>` パラメーターを取得するには、**[!UICONTROL ジャーニー管理]**／**[!UICONTROL ジャーニー]**&#x200B;メニューから、対応するジャーニーバージョンを選択します。ジャーニーバージョン ID は、web ブラウザーに表示される URL の末尾に表示されます。[ジャーニーバージョンの詳細情報](../building-journeys/publish-journey.md#journey-versions)
+   >`<journey version id>` パラメーターを取得するには、**[!UICONTROL ジャーニー管理]**／**[!UICONTROL ジャーニー]**&#x200B;メニューから、対応するジャーニーバージョンを選択します。 ジャーニーバージョン ID は、web ブラウザーに表示される URL の末尾に表示されます。 [ジャーニーバージョンの詳細情報](../building-journeys/publish-journey.md#journey-versions)
    >
    >![](assets/preset-bcc-action-id.png){width="85%"}
 
@@ -173,7 +173,7 @@ BCC に関するレポート自体は、ジャーニーレポートとメッセ�
 
    >[!NOTE]
    >
-   >`<journey action id>` パラメーターを取得するには、上記の最初のクエリを、ジャーニーバージョン ID を使用して実行します。`<recipient email address>` パラメーターは、ターゲットとなる、または実際の受信者のメールアドレスです。
+   >`<journey action id>` パラメーターを取得するには、上記の最初のクエリを、ジャーニーバージョン ID を使用して実行します。 `<recipient email address>` パラメーターは、ターゲットとなる、または実際の受信者のメールアドレスです。
 
 1. このクエリを実行すると、過去 2 日間に特定のユーザーをターゲットとした特定のメッセージに対して生成されたすべての BCC メッセージフィードバックイベントを取得できます。
 
@@ -223,13 +223,13 @@ BCC に関するレポート自体は、ジャーニーレポートとメッセ�
 
 例えば、メールの BCC コピーが外部システムにアーカイブされている場合、メッセージに含まれるヘッダーを使用して、対応する送信済みメールに関する情報を取得できます。
 
-すべてのメールメッセージに、`x-message-profile-id` というヘッダーが含まれるようになりました。このヘッダーの値は各プロファイルで異なり、送信された各メールとそれに対応する BCC メールコピーに固有です。
+すべてのメールメッセージに、`x-message-profile-id` というヘッダーが含まれるようになりました。 このヘッダーの値は各プロファイルで異なり、送信された各メールとそれに対応する BCC メールコピーに固有です。
 
 `x-message-profile-id` ヘッダーは、次のシステムデータセットにも保存されます。[AJO Message Feedback Event Dataset](../data/datasets-query-examples.md#message-feedback-event-dataset) （送信済みメール）と[AJO セカンダリ Recipient Feedback Event Dataset](#bcc-reporting) （BCC コピー）。 これらのデータセットに対してクエリを実行して、BCC コピーと対応する実際のメールを紐付けることができます。
 
-* ユーザーインターフェイスを通じてこれらのデータセットにアクセスするには、**[!UICONTROL データ管理]**／**[!UICONTROL データセット]**／**[!UICONTROL 参照]**&#x200B;を選択します。データセットにアクセスする方法について詳しくは、[この節](../data/get-started-datasets.md#access-datasets)を参照してください。
+* ユーザーインターフェイスを通じてこれらのデータセットにアクセスするには、**[!UICONTROL データ管理]**／**[!UICONTROL データセット]**／**[!UICONTROL 参照]**&#x200B;を選択します。 データセットにアクセスする方法について詳しくは、[この節](../data/get-started-datasets.md#access-datasets)を参照してください。
 
-* [Adobe Experience Platform クエリサービス](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ja){target="_blank"}で提供されるクエリエディターを使用します。これにアクセスするには、**[!UICONTROL データ管理]**／**[!UICONTROL クエリ]**&#x200B;を選択し、「**[!UICONTROL クエリを作成]**」をクリックします。[詳細情報](../data/get-started-queries.md)
+* [Adobe Experience Platform クエリサービス](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ja){target="_blank"}で提供されるクエリエディターを使用します。 これにアクセスするには、**[!UICONTROL データ管理]**／**[!UICONTROL クエリ]**&#x200B;を選択し、「**[!UICONTROL クエリを作成]**」をクリックします。 [詳細情報](../data/get-started-queries.md)
 
 以下に、BCC コピーに対応する情報の取得に実行できるサンプルクエリを示します。
 

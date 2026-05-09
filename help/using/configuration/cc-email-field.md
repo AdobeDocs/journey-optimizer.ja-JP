@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: CC、カーボンコピー、メール、チャネル設定、メールヘッダー、BCC
 exl-id: 9649cc07-3183-4510-b5d9-b1e33eff43e9
-source-git-commit: 05c0fcb3283a2adb7c69e3afdd4b2d75cbc4b5b5
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '906'
 ht-degree: 12%

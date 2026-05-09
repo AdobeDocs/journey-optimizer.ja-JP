@@ -8,7 +8,7 @@ role: Admin
 level: Intermediate
 keywords: 許可リスト, セーフリスト，メール，配信品質，サンドボックス，ドメイン，抑制，設定
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '1341'
 ht-degree: 73%

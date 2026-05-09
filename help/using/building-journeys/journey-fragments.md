@@ -11,7 +11,7 @@ hide: true
 keywords: フラグメント，ジャーニー，再利用，ノード，キャンバス，在庫，再利用可能
 badge: label="限定提供" type="Informative"
 version: Journey Orchestration
-source-git-commit: b3eea401c9073ff7ff6c0f5397552ef037371664
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '1482'
 ht-degree: 1%

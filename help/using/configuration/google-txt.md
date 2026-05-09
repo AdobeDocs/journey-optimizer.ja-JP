@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 keywords: サブドメイン, google, txt, レコード, gmail, 配信品質
 exl-id: 311eb2d1-e445-43e6-bc2c-c6288b637f47
-source-git-commit: a23f13bea69d1539cc2cd27a701e20287ddba026
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '297'
 ht-degree: 100%
 
 ---
@@ -29,7 +29,7 @@ TXT レコードは、ドメインに関するテキスト情報を提供する�
 
 >[!CAUTION]
 >
-> この操作は、サブドメインのステータスが&#x200B;**[!UICONTROL 成功]**&#x200B;の場合にのみ実行できます。サブドメインのステータスについて詳しくは、[この節](delegate-subdomain.md#access-delegated-subdomains)を参照してください。
+> この操作は、サブドメインのステータスが&#x200B;**[!UICONTROL 成功]**&#x200B;の場合にのみ実行できます。 サブドメインのステータスについて詳しくは、[この節](delegate-subdomain.md#access-delegated-subdomains)を参照してください。
 
 ## Google TXT レコードの追加 {#add-google-txt-record}
 
@@ -41,7 +41,7 @@ TXT レコードは、ドメインに関するテキスト情報を提供する�
 
    ![](assets/subdomain-google-txt.png)
 
-1. TXT レコードを追加したら、Google で検証する必要があります。これを行うには、[Google Workspace](https://support.google.com/a/answer/183895){target="_blank"}<!--G Suite Admin tools--> に移動し、検証手順を開始します。
+1. TXT レコードを追加したら、Google で検証する必要があります。 これを行うには、[Google Workspace](https://support.google.com/a/answer/183895){target="_blank"}<!--G Suite Admin tools--> に移動し、検証手順を開始します。
 
 ## Google TXT レコードの更新 {#update-google-txt-record}
 

@@ -10,10 +10,10 @@ role: User
 level: Intermediate
 exl-id: 718af505-7b7c-495e-8974-bd9c35d796bb
 version: Journey Orchestration
-source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '847'
-ht-degree: 91%
+source-wordcount: '900'
+ht-degree: 87%
 
 ---
 
@@ -21,14 +21,14 @@ ht-degree: 91%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。 [詳細情報](../../experience-decisioning/gs-experience-decisioning.md)
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_representation"
 >title="表示域"
->abstract="表示域を追加して、メッセージでオファーを表示する場所を定義します。オファーの表示域が多いほど、異なるプレースメントコンテキストでオファーを使用する機会が多くなります。"
+>abstract="表示域を追加して、メッセージでオファーを表示する場所を定義します。 オファーの表示域が多いほど、異なるプレースメントコンテキストでオファーを使用する機会が多くなります。"
 
-オファーは、メッセージの様々な場所に表示できます（画像付きトップバナー、段落内のテキスト、HTML ブロックなど）。オファーの表示域が多いほど、異なるプレースメントコンテキストでオファーを使用する機会が多くなります。
+オファーは、メッセージ内のさまざまな場所に表示できます。画像を含むトップバナー、段落内のテキスト、HTML ブロックなど。オファーの表示域が多ければ多いほど、様々なプレースメントコンテキストでオファーを使用する機会が増えます。
 
 ## オファーの表示域の設定 {#representations}
 
@@ -48,11 +48,11 @@ ht-degree: 91%
 
    ![](../assets/browse-button-placements.png)
 
-   そこからさらに、チャネルやコンテンツタイプに従ってプレースメントをフィルタリングすることもできます。プレースメントを選択し、「**[!UICONTROL 選択]**」をクリックします。
+   そこからさらに、チャネルやコンテンツタイプに従ってプレースメントをフィルタリングすることもできます。 プレースメントを選択し、「**[!UICONTROL 選択]**」をクリックします。
 
    ![](../assets/browse-placements.png)
 
-1. 表示域にコンテンツを追加します。[この節](#content)の手順を参照してください。
+1. 表示域にコンテンツを追加します。 [この節](#content)の手順を参照してください。
 
 1. 画像や URL などのコンテンツを追加する際は、**[!UICONTROL 宛先リンク]**&#x200B;を指定できます。オファーをクリックしたユーザーは、対応するページに移動します。
 
@@ -82,7 +82,7 @@ ht-degree: 91%
 
 >[!NOTE]
 >
-> [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=ja){target="_blank"} と連携するには、組織に [!DNL Assets Essentials] をデプロイし、ユーザーが **Assets Essentials コンシューマーユーザー**&#x200B;または **Assets Essentials ユーザー**&#x200B;の製品プロファイルに登録されていることを確認する必要があります。詳しくは、[このページ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=ja){target="_blank"}を参照してください。
+> [Adobe Experience Manager Assets Essentials](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=ja){target="_blank"} と連携するには、組織に [!DNL Assets Essentials] をデプロイし、ユーザーが **Assets Essentials コンシューマーユーザー**&#x200B;または **Assets Essentials ユーザー**&#x200B;の製品プロファイルに登録されていることを確認する必要があります。 詳しくは、[このページ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=ja){target="_blank"}を参照してください。
 
 1. 「**[!UICONTROL アセットライブラリ]**」オプションを選択します。
 
@@ -100,7 +100,7 @@ ht-degree: 91%
 
 選択したプレースメントが HTML タイプの場合、[Adobe Experience Cloud アセットライブラリ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=ja){target="_blank"}）から HTML または JSON コンテンツを取得して追加することもできます。
 
-例えば、[Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html?lang=ja){target="_blank"} で HTML メールテンプレートを作成し、オファーコンテンツにそのファイルを使用したいとします。新しいファイルを作成する代わりに、テンプレートを&#x200B;**アセットライブラリ**&#x200B;にアップロードするだけで、オファーの表示域でテンプレートを再利用できます。
+例えば、[Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager.html?lang=ja){target="_blank"} で HTML メールテンプレートを作成し、オファーコンテンツにそのファイルを使用したいとします。 新しいファイルを作成する代わりに、テンプレートを&#x200B;**アセットライブラリ**&#x200B;にアップロードするだけで、オファーの表示域でテンプレートを再利用できます。
 
 表示域でコンテンツを再利用するには、[この節](#images)の説明に従って&#x200B;**アセットライブラリ**&#x200B;を参照し、選択した HTML または JSON ファイルを選択します。
 
@@ -110,13 +110,13 @@ ht-degree: 91%
 
 外部の公開場所からコンテンツを追加するには、「**[!UICONTROL URL]**」を選択してから、追加するコンテンツの URL アドレスを入力します。
 
-パーソナライゼーションエディターを使用して、URL をパーソナライズできます。[&#x200B; パーソナライゼーション &#x200B;](../../personalization/personalize.md#use-expression-editor)の詳細をご覧ください。 意思決定管理では、特定の関数のみがサポートされます。パーソナライゼーションエディターでサポートされている関数[を参照してください](personalization-editor-supported-functions.md)。
+パーソナライゼーションエディターを使用して、URL をパーソナライズできます。 詳しくは、[パーソナライゼーション](../../personalization/personalize.md#use-expression-editor)を参照してください。 意思決定管理では、特定の関数のみがサポートされます。パーソナライゼーションエディターでサポートされている関数[を参照してください](personalization-editor-supported-functions.md)。
 
 ![](../assets/offer-content-url.png)
 
-例えば、オファーとして表示される画像をパーソナライズする場合、都会での休暇を好むユーザーにはニューヨークのスカイラインを、ビーチでの休暇を好むユーザーにはハワイのノースショアを表示しようとします。
+例えば、オファーとして表示される画像をパーソナライズする場合、 都会での休暇を好むユーザーにはニューヨークのスカイラインを、ビーチでの休暇を好むユーザーにはハワイのノースショアを表示しようとします。
 
-パーソナライゼーションエディターを使用して、結合スキーマで Adobe Experience Platform に保存されているプロファイル属性を取得します。[詳細を見る](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html?lang=ja){target="_blank"}意思決定管理でサポートされている関数については、[&#x200B; パーソナライゼーションエディターでサポートされている関数](personalization-editor-supported-functions.md)を参照してください。
+パーソナライゼーションエディターを使用して、結合スキーマで Adobe Experience Platform に保存されているプロファイル属性を取得します。 [詳細を見る](https://experienceleague.adobe.com/docs/experience-platform/profile/union-schemas/union-schemas-overview.html?lang=ja){target="_blank"}意思決定管理でサポートされている関数については、[&#x200B; パーソナライゼーションエディターでサポートされている関数](personalization-editor-supported-functions.md)を参照してください。
 
 ![](../assets/offer-content-url-personalization.png)
 
@@ -138,7 +138,7 @@ ht-degree: 91%
 
    ![](../assets/offer-text-content.png)
 
-   パーソナライゼーションエディターを使用して、コンテンツをパーソナライズできます。[&#x200B; パーソナライゼーション &#x200B;](../../personalization/personalize.md#use-expression-editor)の詳細をご覧ください。 意思決定管理では、特定の関数のみがサポートされます。パーソナライゼーションエディターでサポートされている関数[を参照してください](personalization-editor-supported-functions.md)。
+   パーソナライゼーションエディターを使用して、コンテンツをパーソナライズできます。 詳しくは、[パーソナライゼーション](../../personalization/personalize.md#use-expression-editor)を参照してください。 意思決定管理では、特定の関数のみがサポートされます。パーソナライゼーションエディターでサポートされている関数[を参照してください](personalization-editor-supported-functions.md)。
 
    ![](../assets/offer-personalization.png)
 
@@ -148,7 +148,7 @@ ht-degree: 91%
 
 ## コンテキストデータに基づいた表示域のパーソナライズ{#context-data}
 
-[Edge 決定](../api-reference/offer-delivery-api/edge-decisioning-api.md)呼び出しでコンテキストデータが渡されると、これらのデータを活用して表示域を動的にパーソナライズできます。例えば、決定が行われた時点の現在の気象状況などのリアルタイムの要因に基づいて、オファーの表示域を調整できます。
+[Edge 決定](../api-reference/offer-delivery-api/edge-decisioning-api.md)呼び出しでコンテキストデータが渡されると、これらのデータを活用して表示域を動的にパーソナライズできます。 例えば、決定が行われた時点の現在の気象状況などのリアルタイムの要因に基づいて、オファーの表示域を調整できます。
 
 オファー表示域でコンテキストデータを使用するには、`profile.timeSeriesEvents.` 名前空間を使用して、コンテキストデータ変数を表示域コンテンツ内に直接組み込みます。
 

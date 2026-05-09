@@ -7,16 +7,16 @@ feature: Whatsapp, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: 8b042e4750dd7f7d841717f648afe120d0bdfc4a
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1130'
-ht-degree: 90%
+source-wordcount: '1196'
+ht-degree: 91%
 
 ---
 
 # WhatsApp 設定の基本を学ぶ {#whatsapp-config}
 
-WhatsApp メッセージを送信する前に、Adobe Journey Optimizer 環境を設定し、WhatsApp アカウントに関連付ける必要があります。これを実行するには、次の手順を実行します。
+WhatsApp メッセージを送信する前に、Adobe Journey Optimizer 環境を設定し、WhatsApp アカウントに関連付ける必要があります。 これを実行するには、次の手順を実行します。
 
 1. [WhatsApp API 資格情報を作成します](#WhatsApp-credentials)
 1. [WhatsApp Webhook を作成します](#WhatsApp-webhook)
@@ -26,12 +26,12 @@ WhatsApp メッセージを送信する前に、Adobe Journey Optimizer 環境�
 
 ## WhatsApp API 資格情報の作成 {#whatsapp-credentials}
 
-1. 左側のパネルで、**[!UICONTROL 管理]** `>` **[!UICONTROL チャネル]**&#x200B;を参照し、**[!UICONTROL API 資格情報]**&#x200B;メニューを選択します。「**[!UICONTROL 新しい API 資格情報を作成]**」ボタンをクリックします。
+1. 左側のパネルで、**[!UICONTROL 管理]** `>` **[!UICONTROL チャネル]**&#x200B;を参照し、**[!UICONTROL API 資格情報]**&#x200B;メニューを選択します。 「**[!UICONTROL 新しい API 資格情報を作成]**」ボタンをクリックします。
 
 1. 以下で説明するように、API 資格情報を設定します。
 
-   * **API トークン**：API トークンを入力します。詳しくは、[Meta ドキュメント](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)を参照してください。
-   * **ビジネスアカウント ID**：ビジネスポートフォリオに関連する一意の番号を入力します。詳しくは、[Meta ドキュメント](https://www.facebook.com/business/help/1181250022022158?id=180505742745347)を参照してください。
+   * **API トークン**：API トークンを入力します。 詳しくは、[Meta ドキュメント](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)を参照してください。
+   * **ビジネスアカウント ID**：ビジネスポートフォリオに関連する一意の番号を入力します。 詳しくは、[Meta ドキュメント](https://www.facebook.com/business/help/1181250022022158?id=180505742745347)を参照してください。
 
    ![](assets/whatsapp-api.png)
 
@@ -56,19 +56,19 @@ WhatsApp メッセージを送信する前に、Adobe Journey Optimizer 環境�
 
 1. API 資格情報の設定が完了したら、「**[!UICONTROL 送信]**」をクリックします。
 
-API 資格情報を作成および設定したら、WhatsApp メッセージ用の Webhook を作成する必要があります。[詳細情報](#whatsapp-webhook)
+API 資格情報を作成および設定したら、WhatsApp メッセージ用の Webhook を作成する必要があります。 [詳細情報](#whatsapp-webhook)
 
 ## Webhook の作成 {#WhatsApp-webhook}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_inbound_keyword_category"
 >title="インバウンドキーワードカテゴリ"
->abstract="<b>オプトイン</b>：ユーザーが登録すると、定義済みの自動応答が送信されます。<br/><b>オプトアウト</b>：ユーザーが登録解除すると、定義済みの自動応答が送信されます。 <br/><b>ヘルプ</b>：ユーザーがヘルプまたはサポートをリクエストすると、定義済みの自動応答が送信されます。<br/><b>デフォルト</b>：一致するキーワードがない場合に、フォールバック自動応答が送信されます。"
+>abstract="<b>オプトイン</b>：ユーザーが登録すると、定義済みの自動応答が送信されます。 <br/><b>オプトアウト</b>：ユーザーが登録解除すると、定義済みの自動応答が送信されます。 <br/><b>ヘルプ</b>：ユーザーがヘルプまたはサポートをリクエストすると、定義済みの自動応答が送信されます。 <br/><b>デフォルト</b>：一致するキーワードがない場合に、フォールバック自動応答が送信されます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_inbound_keyword"
 >title="キーワードの入力"
->abstract="ユーザーのテキストに基づいて特定の自動応答をトリガーするキーワードを定義できます。キーワードでは大文字と小文字は区別されません。例えば、stop と STOP は同じものとして処理されます。"
+>abstract="ユーザーのテキストに基づいて特定の自動応答をトリガーするキーワードを定義できます。 キーワードでは大文字と小文字は区別されません。例えば、stop と STOP は同じものとして処理されます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_whatsapp_webhook_webhook_url"
@@ -144,7 +144,7 @@ Webhook が設定されたので、WhatsApp 設定を作成できます。
 
 ## WhatsApp 設定の作成 {#whatsapp-configuration}
 
-1. 左側のパネルで、**[!UICONTROL 管理]**／**[!UICONTROL チャネル]**&#x200B;を参照し、**[!UICONTROL 一般設定]**／**[!UICONTROL チャネル設定]**&#x200B;を選択します。「**[!UICONTROL チャネル設定を作成]**」ボタンをクリックします。
+1. 左側のパネルで、**[!UICONTROL 管理]**／**[!UICONTROL チャネル]**&#x200B;を参照し、**[!UICONTROL 一般設定]**／**[!UICONTROL チャネル設定]**&#x200B;を選択します。 「**[!UICONTROL チャネル設定を作成]**」ボタンをクリックします。
 
    ![](assets/whatsapp-config-1.png)
 
@@ -152,13 +152,13 @@ Webhook が設定されたので、WhatsApp 設定を作成できます。
 
    >[!NOTE]
    >
-   > 名前は、文字（A ～ Z）で始める必要があります。使用できるのは英数字のみです。アンダースコア（`_`）、ドット（`.`）、ハイフン（`-`）も使用できます。
+   > 名前は、文字（A ～ Z）で始める必要があります。 使用できるのは英数字のみです。 アンダースコア（`_`）、ドット（`.`）、ハイフン（`-`）も使用できます。
 
 1. チャネルとして **[!DNL WhatsApp]** を選択します。
 
    ![](assets/whatsapp-config-2.png){width=80%}
 
-1. この設定を使用してメッセージに同意ポリシーを関連付けるには、**[!UICONTROL マーケティングアクション]**&#x200B;を選択します。顧客の意向に従うために、そのマーケティングアクションに関連付けられているすべての同意ポリシーが活用されます。[詳細情報](../action/consent.md#surface-marketing-actions)
+1. この設定を使用してメッセージに同意ポリシーを関連付けるには、**[!UICONTROL マーケティングアクション]**&#x200B;を選択します。 顧客の意向に従うために、そのマーケティングアクションに関連付けられているすべての同意ポリシーが活用されます。 [詳細情報](../action/consent.md#surface-marketing-actions)
 
 1. 「**[!UICONTROL WhatsApp 設定]**」セクションで、以前に作成した **[!UICONTROL WhatsApp 設定]**&#x200B;を選択します。
 
@@ -166,13 +166,13 @@ Webhook が設定されたので、WhatsApp 設定を作成できます。
 
 1. コミュニケーションに使用する&#x200B;**[!UICONTROL 送信者電話番号]**&#x200B;を入力します。
 
-1. **[!UICONTROL WhatsApp 実行フィールド]**&#x200B;を使用して、プロファイル属性の中から、データベースで複数の番号が使用可能な場合に優先して使用する電話番号を選択します。[詳細情報](../configuration/primary-email-addresses.md#override-execution-address-channel-config)
+1. **[!UICONTROL WhatsApp 実行フィールド]**&#x200B;を使用して、プロファイル属性の中から、データベースで複数の番号が使用可能な場合に優先して使用する電話番号を選択します。 [詳細情報](../configuration/primary-email-addresses.md#override-execution-address-channel-config)
 
    >[!NOTE]
    >
-   >デフォルトでは、[!DNL Journey Optimizer] は、サンドボックスレベルの[一般設定](../configuration/primary-email-addresses.md)で指定された電話番号を使用します。このフィールドを更新すると、この設定を使用するジャーニーおよびキャンペーンのデフォルト値が上書きされます。
+   >デフォルトでは、[!DNL Journey Optimizer] は、サンドボックスレベルの[一般設定](../configuration/primary-email-addresses.md)で指定された電話番号を使用します。 このフィールドを更新すると、この設定を使用するジャーニーおよびキャンペーンのデフォルト値が上書きされます。
 
-1. すべてのパラメーターを設定したら、「**[!UICONTROL 送信]**」をクリックして確定します。なお、チャネル設定をドラフトとして保存し、後で設定を再開することもできます。
+1. すべてのパラメーターを設定したら、「**[!UICONTROL 送信]**」をクリックして確定します。 なお、チャネル設定をドラフトとして保存し、後で設定を再開することもできます。
 
 1. チャネル設定が作成されると、リストに「**[!UICONTROL 処理中]**」のステータスで表示されます。
 
@@ -180,7 +180,7 @@ Webhook が設定されたので、WhatsApp 設定を作成できます。
    >
    >チェックが成功しなかった場合、考えられる失敗理由について詳しくは[この節](../configuration/channel-surfaces.md)を参照してください。
 
-1. チェックが正常に完了すると、チャネル設定のステータスが「**[!UICONTROL アクティブ]**」になります。メッセージの配信に使用する準備が整いました。
+1. チェックが正常に完了すると、チャネル設定のステータスが「**[!UICONTROL アクティブ]**」になります。 メッセージの配信に使用する準備が整いました。
 
 設定が完了すると、メッセージオーサリング、パーソナライゼーション、リンクトラッキング、レポートなど、すべての標準のチャネル機能を活用できます。
 
@@ -192,11 +192,11 @@ Webhook が設定されたので、WhatsApp 設定を作成できます。
 
 WhatsApp API 資格情報の設定時に HTTP 500 エラーが発生した場合は、次のトラブルシューティング手順に従います。
 
-1. **使用権限を確認**：組織に `cjm_whatsapp` の使用権限がプロビジョニングされていることを確認します。この使用権限がないと、WhatsApp チャネルを設定できません。
+1. **使用権限を確認**：組織に `cjm_whatsapp` の使用権限がプロビジョニングされていることを確認します。 この使用権限がないと、WhatsApp チャネルを設定できません。
 
 1. **ビジネスアカウントフィールドを検証**：すべての必須フィールドが正しく入力されていることを確認します。
-   * **API トークン**：適切な権限を持つ有効な Meta アクセストークンにする必要があります。[詳細情報](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)
-   * **ビジネスアカウント ID**：Meta ビジネスアカウント ID と正確に一致する必要があります。[詳細情報](https://www.facebook.com/business/help/1181250022022158?id=180505742745347)
+   * **API トークン**：適切な権限を持つ有効な Meta アクセストークンにする必要があります。 [詳細情報](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)
+   * **ビジネスアカウント ID**：Meta ビジネスアカウント ID と正確に一致する必要があります。 [詳細情報](https://www.facebook.com/business/help/1181250022022158?id=180505742745347)
 
 1. **資格情報を外部でテスト**：Meta API を使用して資格情報を直接確認し、問題が資格情報によるものか、Journey Optimizer の資格情報処理によるものかを確認します。
 

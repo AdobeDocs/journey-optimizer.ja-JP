@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: アセット, 統合
 exl-id: c74156bb-4f00-4325-b416-6fe36cb755d1
-source-git-commit: d92712c7e9279d2d86a56b3d22d77adfffe11d7d
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '584'
 ht-degree: 96%
 
 ---
@@ -21,13 +21,13 @@ ht-degree: 96%
 >[!CONTEXTUALHELP]
 >id="ajo_express_menu"
 >title="Adobe Express の統合"
->abstract="Adobe Express の統合を使用してアセットのパーソナライゼーションを開始します。この機能を使用すると、画像のサイズ変更、背景の削除、ビジュアルの切り抜き、アセットの JPEG または PNG への変換を行うことができます。"
+>abstract="Adobe Express の統合を使用してアセットのパーソナライゼーションを開始します。 この機能を使用すると、画像のサイズ変更、背景の削除、ビジュアルの切り抜き、アセットの JPEG または PNG への変換を行うことができます。"
 
 >[!IMPORTANT]
 >
 >Adobe Expressとの連携によりデータはJourney Optimizerから離れます。 PHIやその他のヘルスデータとの統合は使用しないでください。
 
-Adobe Journey Optimizer の Adobe Express 統合により、コンテンツの作成中に Adobe Express の強力な編集ツールに簡単にアクセスできます。この統合により、ソリューションを切り替えることなく、画像のサイズ変更、背景の削除、ビジュアルの切り抜き、アセットの JPEG または PNG への変換が可能になります。
+Adobe Journey Optimizer の Adobe Express 統合により、コンテンツの作成中に Adobe Express の強力な編集ツールに簡単にアクセスできます。 この統合により、ソリューションを切り替えることなく、画像のサイズ変更、背景の削除、ビジュアルの切り抜き、アセットの JPEG または PNG への変換が可能になります。
 
 <img src="../rn/assets/do-not-localize/express_resize.gif">
 
@@ -74,7 +74,7 @@ Adobe Express のエンタープライズ版ライセンスを持つユーザー
 
 1. 「**[!UICONTROL リセット]**」をクリックして、アセットを元の状態に復元します。
 
-1. 画像を適切にサイズ変更したら、「**[!UICONTROL 適用]**」をクリックします。次に、変更したアセットを&#x200B;**[!UICONTROL 保存]**&#x200B;します。
+1. 画像を適切にサイズ変更したら、「**[!UICONTROL 適用]**」をクリックします。 次に、変更したアセットを&#x200B;**[!UICONTROL 保存]**&#x200B;します。
 
 1. **[!UICONTROL 画像をアップロード]**&#x200B;ウィンドウで、「**[!UICONTROL 次へ]**」をクリックし、変更したアセットを保存するフォルダーを選択します。
 
@@ -112,7 +112,7 @@ Adobe Express のエンタープライズ版ライセンスを持つユーザー
 
    ![](assets/express-crop-2.png)
 
-1. コンテンツで使用するには、「**[!UICONTROL 適用]**」をクリックします。次に、変更したアセットを&#x200B;**[!UICONTROL 保存]**&#x200B;します。
+1. コンテンツで使用するには、「**[!UICONTROL 適用]**」をクリックします。 次に、変更したアセットを&#x200B;**[!UICONTROL 保存]**&#x200B;します。
 
 1. **[!UICONTROL 画像をアップロード]**&#x200B;ウィンドウで、「**[!UICONTROL 次へ]**」をクリックし、変更したアセットを保存するフォルダーを選択します。
 
@@ -132,7 +132,7 @@ Adobe Express のエンタープライズ版ライセンスを持つユーザー
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-1. 形式を変更すると、別の名前で新規画像として保存できます。**[!UICONTROL 名前]**&#x200B;を更新し、「**[!UICONTROL 保存]**」をクリックします。
+1. 形式を変更すると、別の名前で新規画像として保存できます。 **[!UICONTROL 名前]**&#x200B;を更新し、「**[!UICONTROL 保存]**」をクリックします。
 
    ![](assets/express-convert-3.png)
 

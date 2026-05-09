@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 keywords: ランディング, ランディングページ, 設定, 環境, サブドメイン, プリセット
 exl-id: 7cf1f083-bef0-40b5-8ddd-920a9d108eca
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '414'
 ht-degree: 100%
 
 ---
@@ -24,9 +24,9 @@ ht-degree: 100%
 
 ## ランディングページプリセットの基本を学ぶ {#gs-lp-presets}
 
-[ランディングページの作成](../landing-pages/create-lp.md#create-lp)を行う場合は、ランディングページを作成し、**[!DNL Journey Optimizer]** を介して活用できるように、ランディングページプリセットを選択する必要があります。プリセットには、このプリセットに基づいてランディングページに使用するサブドメインが含まれています。
+[ランディングページの作成](../landing-pages/create-lp.md#create-lp)を行う場合は、ランディングページを作成し、**[!DNL Journey Optimizer]** を介して活用できるように、ランディングページプリセットを選択する必要があります。 プリセットには、このプリセットに基づいてランディングページに使用するサブドメインが含まれています。
 
-プリセットを作成する前に、1 つ以上のランディングページサブドメインが設定済みであることを確認します。[ランディングページサブドメインの作成方法の詳細情報](lp-subdomains.md)
+プリセットを作成する前に、1 つ以上のランディングページサブドメインが設定済みであることを確認します。 [ランディングページサブドメインの作成方法の詳細情報](lp-subdomains.md)
 
 ## ランディングページプリセットへのアクセス {#access-lp-presets}
 
@@ -62,11 +62,11 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >サブドメインを選択できるようにするには、1 つ以上のランディングページサブドメインが設定済みであることを確認します。[方法についてはこちらを参照](lp-subdomains.md)
+   >サブドメインを選択できるようにするには、1 つ以上のランディングページサブドメインが設定済みであることを確認します。 [方法についてはこちらを参照](lp-subdomains.md)
 
    選択したサブドメインに対応する設定が表示されます。
 
-1. 「**[!UICONTROL ランディングページサブドメインと同じ]**」オプションをオンにすると、**[!UICONTROL トラッキング URL]** のランディングページサブドメインを選択できます。[詳しくは、トラッキングを参照してください](../email/message-tracking.md)
+1. 「**[!UICONTROL ランディングページサブドメインと同じ]**」オプションをオンにすると、**[!UICONTROL トラッキング URL]** のランディングページサブドメインを選択できます。 [詳しくは、トラッキングを参照してください](../email/message-tracking.md)
 
    ![](assets/lp_preset-subdomain-settings-same.png)
 
@@ -82,7 +82,7 @@ ht-degree: 100%
 
    <!--![](assets/lp_preset-subdomain-settings-submit.png)-->
 
-1. ランディングページプリセットが作成されると、リストに「**[!UICONTROL アクティブ]**」のステータスで表示されます。これで、ランディングページで使用する準備が整いました。
+1. ランディングページプリセットが作成されると、リストに「**[!UICONTROL アクティブ]**」のステータスで表示されます。 これで、ランディングページで使用する準備が整いました。
 
 これで、[!DNL Journey Optimizer] で[ランディングページの作成](../landing-pages/create-lp.md)を行う準備が整いました。
 <!--

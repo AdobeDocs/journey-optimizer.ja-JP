@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: 69742163-7378-49ab-929e-86213d6e65e3
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '339'
 ht-degree: 100%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 「**[!UICONTROL 実験]**」タブには、各バリアントのパフォーマンスに関する主要なインサイトが表示され、最も成功したものを特定します。
 
-最もパフォーマンスの高い処理の判定には時間がかかる場合があります。実験が成功しなかった場合は、**決定的でない**&#x200B;に設定されます。
+最もパフォーマンスの高い処理の判定には時間がかかる場合があります。 実験が成功しなかった場合は、**決定的でない**&#x200B;に設定されます。
 
 ![](assets/cja-experimentation-1.png)
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 
 * **[!UICONTROL 上昇率]**：ベースラインに対する特定の処理のコンバージョン率の向上率を測定します。
 
-* **[!UICONTROL 信頼性]**：ある処理がベースライン処理と同じであることを示す証拠。[詳細情報](../content-management/experiment-calculations.md#adobes-statistical-methodology-any-time-valid-confidence-sequences)
+* **[!UICONTROL 信頼性]**：ある処理がベースライン処理と同じであることを示す証拠。 [詳細情報](../content-management/experiment-calculations.md#adobes-statistical-methodology-any-time-valid-confidence-sequences)
 
 +++
 
@@ -64,7 +64,7 @@ ht-degree: 100%
 
 * **[!UICONTROL 信頼下限]**：選択した信頼区間内での、処理とベースライン間のコンバージョン率の差の最小推定値。
 
-* **[!UICONTROL 信頼性]**：ある処理がベースライン処理と同じであることを示す証拠。[詳細情報](../content-management/experiment-calculations.md#adobes-statistical-methodology-any-time-valid-confidence-sequences)
+* **[!UICONTROL 信頼性]**：ある処理がベースライン処理と同じであることを示す証拠。 [詳細情報](../content-management/experiment-calculations.md#adobes-statistical-methodology-any-time-valid-confidence-sequences)
 
 * **[!UICONTROL 信頼上限]**：選択した信頼区間内での、処理とベースライン間のコンバージョン率の差の最高推定値。
 
@@ -75,4 +75,4 @@ ht-degree: 100%
 ![](assets/cja-experimentation-conversion.png)
 
 
-**[!UICONTROL 信頼区間]**&#x200B;グラフには、選択した成功指標に対してベースラインと最もパフォーマンスの高い処理を比較し、改善の可能性のある範囲が表示されます。[詳細情報](../content-management/experiment-calculations.md#adobes-statistical-methodology-any-time-valid-confidence-sequences)
+**[!UICONTROL 信頼区間]**&#x200B;グラフには、選択した成功指標に対してベースラインと最もパフォーマンスの高い処理を比較し、改善の可能性のある範囲が表示されます。 [詳細情報](../content-management/experiment-calculations.md#adobes-statistical-methodology-any-time-valid-confidence-sequences)

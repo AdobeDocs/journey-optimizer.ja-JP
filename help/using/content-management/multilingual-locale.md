@@ -9,7 +9,7 @@ role: User
 level: Beginner
 keywords: 概要, 開始, コンテンツ, 実験
 exl-id: 0b0e9344-f1ca-4aed-b143-facaa74c9b29
-source-git-commit: f5df65a0225754ab66fb2ffa33c5130f7137b644
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 100%

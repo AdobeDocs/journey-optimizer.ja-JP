@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: a205539b-b7ea-4832-92b0-49637c4dac47
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '633'
 ht-degree: 100%
 
 ---
@@ -24,11 +24,11 @@ ht-degree: 100%
 
 コンテンツテンプレートを作成するには、次の 2 つの方法があります。
 
-* 左側のパネルの&#x200B;**[!UICONTROL コンテンツテンプレート]**&#x200B;メニューを使用して、コンテンツテンプレートをゼロから作成します。[方法についてはこちらを参照](#create-template-from-scratch)
+* 左側のパネルの&#x200B;**[!UICONTROL コンテンツテンプレート]**&#x200B;メニューを使用して、コンテンツテンプレートをゼロから作成します。 [方法についてはこちらを参照](#create-template-from-scratch)
 
-* キャンペーンまたはジャーニー内でコンテンツをデザインする際に、テンプレートとして保存する。[方法についてはこちらを参照](#save-as-template)
+* キャンペーンまたはジャーニー内でコンテンツをデザインする際に、テンプレートとして保存する。 [方法についてはこちらを参照](#save-as-template)
 
-保存すると、コンテンツテンプレートをキャンペーンやジャーニーで使用できるようになります。 ゼロから作成した場合でも、以前のコンテンツから作成した場合でも、[!DNL Journey Optimizer] 内でコンテンツを作成する際にこのテンプレートを使用できます。[方法についてはこちらを参照](#use-content-templates)
+保存すると、コンテンツテンプレートをキャンペーンやジャーニーで使用できるようになります。 ゼロから作成した場合でも、以前のコンテンツから作成した場合でも、[!DNL Journey Optimizer] 内でコンテンツを作成する際にこのテンプレートを使用できます。 [詳細情報](#use-content-templates)
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->2025年3月以降、HTML タイプのコンテンツテンプレートは非推奨（廃止予定）です。[!DNL Journey Optimizer] で以前作成した既存の HTML コンテンツテンプレートは、引き続き使用できます。
+>2025年3月以降、HTML タイプのコンテンツテンプレートは非推奨（廃止予定）です。 [!DNL Journey Optimizer] で以前作成した既存の HTML コンテンツテンプレートは、引き続き使用できます。
 
 コンテンツテンプレートをゼロから作成するには、次の手順に従います。
 
@@ -56,9 +56,9 @@ ht-degree: 100%
    >
    >現在、web を除くすべてのチャネルを使用できます。
 
-1. 「**[!UICONTROL タグ]**」フィールドから Adobe Experience Platform タグを選択または作成してテンプレートを分類し、検索の向上を図ります。[詳細情報](../start/search-filter-categorize.md#tags)
+1. 「**[!UICONTROL タグ]**」フィールドから Adobe Experience Platform タグを選択または作成してテンプレートを分類し、検索の向上を図ります。 [詳細情報](../start/search-filter-categorize.md#tags)
 
-1. テンプレートにカスタムまたはコアのデータ使用ラベルを割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。[詳しくは、オブジェクトレベルのアクセス制御（OLAC）を参照してください](../administration/object-based-access.md)。
+1. テンプレートにカスタムまたはコアのデータ使用ラベルを割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。 [詳しくは、オブジェクトレベルのアクセス制御（OLAC）を参照してください](../administration/object-based-access.md)。
 
 1. 「**[!UICONTROL 作成]**」をクリックし、選択したチャネルに従って、ジャーニーやキャンペーン内のコンテンツと同じ方法で、必要に応じてコンテンツをデザインします。
 
@@ -75,9 +75,9 @@ ht-degree: 100%
 
      >[!NOTE]
      >
-     >決定ポリシーをコードベースのエクスペリエンスコンテンツテンプレートに追加できます。[詳細情報](../experience-decisioning/create-decision.md#create-decision)
+     >決定ポリシーをコードベースのエクスペリエンスコンテンツテンプレートに追加できます。 [詳細情報](../experience-decisioning/create-decision.md#create-decision)
 
-1. コンテンツをテストできます。[方法についてはこちらを参照](#test-template)
+1. コンテンツをテストできます。 [方法についてはこちらを参照](#test-template)
 
 1. テンプレートの準備が整ったら、「**[!UICONTROL 保存]**」をクリックします。
 
@@ -85,15 +85,15 @@ ht-degree: 100%
 
    ![](assets/content-template-back.png)
 
-このテンプレートを、[!DNL Journey Optimizer] 内でコンテンツを作成する際に使用できるようになりました。[方法についてはこちらを参照](#use-content-templates)
+このテンプレートを、[!DNL Journey Optimizer] 内でコンテンツを作成する際に使用できるようになりました。 [詳細情報](#use-content-templates)
 
 >[!NOTE]
 >
->メールコンテンツテンプレートを作成する際に、コンテンツにテーマを適用することで、ブランドやデザインに合った特定のスタイルをすばやく適用できます。[詳細情報](../email/apply-email-themes.md)
+>メールコンテンツテンプレートを作成する際に、コンテンツにテーマを適用することで、ブランドやデザインに合った特定のスタイルをすばやく適用できます。 [詳細情報](../email/apply-email-themes.md)
 
 ## コンテンツをコンテンツテンプレートとして保存 {#save-as-template}
 
-キャンペーンやジャーニーでコンテンツをデザインする際、保存しておくと、後で再利用できます。これを行うには、次の手順に従います。
+キャンペーンやジャーニーでコンテンツをデザインする際、保存しておくと、後で再利用できます。 これを行うには、次の手順に従います。
 
 1. メッセージの&#x200B;**[!UICONTROL コンテンツを編集]**&#x200B;画面で、「**[!UICONTROL コンテンツテンプレート]**」ボタンをクリックします。
 
@@ -113,17 +113,17 @@ ht-degree: 100%
    >
    >現在のチャネルは自動的に入力されており、編集できません。
 
-1. 「**タグ**」フィールドから Adobe Experience Platform タグを選択または作成して、テンプレートを分類します。[詳細情報](../start/search-filter-categorize.md#tags)
+1. 「**タグ**」フィールドから Adobe Experience Platform タグを選択または作成して、テンプレートを分類します。 [詳細情報](../start/search-filter-categorize.md#tags)
 
-1. テンプレートにカスタムまたはコアのデータ使用ラベルを割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。[詳細情報](../administration/object-based-access.md)
+1. テンプレートにカスタムまたはコアのデータ使用ラベルを割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。 [詳細情報](../administration/object-based-access.md)
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-1. テンプレートは&#x200B;**[!UICONTROL コンテンツテンプレート]**&#x200B;リストに保存され、[!DNL Journey Optimizer] 専用メニューからアクセスできます。このテンプレートは、そのリストの他の項目と同様に、アクセス、編集、削除できるスタンドアロンのコンテンツテンプレートになります。[詳細情報](#access-manage-templates)
+1. テンプレートは&#x200B;**[!UICONTROL コンテンツテンプレート]**&#x200B;リストに保存され、[!DNL Journey Optimizer] 専用メニューからアクセスできます。 このテンプレートは、そのリストの他の項目と同様に、アクセス、編集、削除できるスタンドアロンのコンテンツテンプレートになります。 [詳細情報](#access-manage-templates)
 
-[!DNL Journey Optimizer] 内でコンテンツを作成する際に、このテンプレートを使用できるようになりました。[方法についてはこちらを参照](#use-content-templates)
+[!DNL Journey Optimizer] 内でコンテンツを作成する際に、このテンプレートを使用できるようになりました。 [詳細情報](#use-content-templates)
 
 >[!NOTE]
 >
->新しいテンプレートに対する変更は、元のコンテンツには生成されません。同様に、元のコンテンツを編集しても、新しいテンプレートは変更されません。
+>新しいテンプレートに対する変更は、元のコンテンツには生成されません。 同様に、元のコンテンツを編集しても、新しいテンプレートは変更されません。
 

@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: メッセージ, 頻度, ルール, プレッシャー
 exl-id: 80bd5a61-1368-435c-9a9a-dd84b9e4c208
-source-git-commit: c05665beac8e479bcae124b70318bcc48ebf548b
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '1280'
 ht-degree: 93%

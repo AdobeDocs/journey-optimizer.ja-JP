@@ -9,7 +9,7 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: データ, ソース, ジャーニー, プラットフォーム
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: f79d37ff0d1e73fb415985ae918cd28e438e3b3f
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 42%

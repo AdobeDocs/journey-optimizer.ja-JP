@@ -9,10 +9,10 @@ role: Admin
 level: Experienced
 keywords: 書き出し, メッセージ, HIPAA, メール, SMS, 設定
 exl-id: 7b50c933-9738-4b1b-acae-08f0a8d41dab
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 47%
+source-wordcount: '737'
+ht-degree: 49%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 47%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_msg_export"
 >title="送信済みコンテンツを保持および書き出し"
->abstract="このオプションを選択すると、この設定を使用して送信済みメールまたは SMS メッセージのコンテンツを [!DNL Experience Platform] データセットに書き込むことができます。レコードは 7 日間保持され、その間、独自のストレージに書き出すことができます。"
+>abstract="このオプションを選択すると、この設定を使用して送信済みメールまたは SMS メッセージのコンテンツを [!DNL Experience Platform] データセットに書き込むことができます。 レコードは 7 日間保持され、その間、独自のストレージに書き出すことができます。"
 
 >[!AVAILABILITY]
 >
->この機能は、メッセージのエクスポートのアドオン機能を購入した組織がメールおよび SMS チャネルでのみ使用できます。詳しくは、アドビ担当者にお問い合わせください。
+>この機能は、メッセージのエクスポートのアドオン機能を購入した組織がメールおよび SMS チャネルでのみ使用できます。 詳しくは、アドビ担当者にお問い合わせください。
 
 **メッセージ書き出し**&#x200B;を使用すると、送信された電子メールやSMS メッセージのコンテンツを[!DNL Journey Optimizer]から[!DNL Adobe Experience Platform]の宛先を介して自分のストレージに転送できます。これにより、[!DNL Experience Platform]から外部エンドポイントにデータを配信できます。 [詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/home){target="_blank"}
 
@@ -48,7 +48,7 @@ ht-degree: 47%
 
 >[!WARNING]
 >
->書き出しを有効にしてメッセージを送信した後の新しいレコードのみが表示されます。書き出しプロセスを設定し、「メッセージの書き出し」オプションを有効にする前のコンテンツのバックフィルはサポートされていません。
+>書き出しを有効にしてメッセージを送信した後の新しいレコードのみが表示されます。 書き出しプロセスを設定し、「メッセージの書き出し」オプションを有効にする前のコンテンツのバックフィルはサポートされていません。
 
 ### 書き出しデータフローを設定 {#set-up-export-dataflow}
 
@@ -60,9 +60,9 @@ ht-degree: 47%
 >
 >この設定は、サンドボックスごとに設定する必要があります。
 
-1. Experience Platform の[宛先タイプ](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/destination-types){target="_blank"}を選択します。データを受信する準備が整った、使用可能な宛先プラットフォームのリストについて詳しくは、[このページ](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/overview){target="_blank"}を参照してください。
+1. Experience Platform の[宛先タイプ](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/destination-types){target="_blank"}を選択します。 データを受信する準備が整った、使用可能な宛先プラットフォームのリストについて詳しくは、[このページ](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/catalog/overview){target="_blank"}を参照してください。
 
-1. [!DNL Experience Platform] では、資格情報、バケット／コンテナ、パスプレフィックス、セキュリティオプションを定義して、宛先を設定します。[方法についてはこちらを参照](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
+1. [!DNL Experience Platform] では、資格情報、バケット／コンテナ、パスプレフィックス、セキュリティオプションを定義して、宛先を設定します。 [方法についてはこちらを参照](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/ui/activate/export-datasets){target="_blank"}
 
 1. 次のデータを使用して、データセット書き出しフローを作成します。
 
@@ -72,7 +72,7 @@ ht-degree: 47%
 
 ### チャネル設定でメッセージの書き出しを有効にする {#config-message-export}
 
-キャンペーンやジャーニーにメッセージの書き出しを適用するには、チャネル設定レベルで専用オプションを有効にする必要があります。次の手順に従います。
+キャンペーンやジャーニーにメッセージの書き出しを適用するには、チャネル設定レベルで専用オプションを有効にする必要があります。 次の手順に従います。
 
 1. [!DNL Journey Optimizer] で、目的のメールまたは SMS [チャネル設定](channel-surfaces.md#create-channel-surface)を編集または作成します。
 
@@ -86,7 +86,7 @@ ht-degree: 47%
 
 >[!NOTE]
 >
->**[!UICONTROL メッセージの書き出しの有効化]**&#x200B;切替スイッチを無効にすると、このチャネル設定の新しいレコードがデータセットに取り込まれなくなります。既存のレコードは保持が期限切れになるまで残ります。
+>**[!UICONTROL メッセージの書き出しの有効化]**&#x200B;切替スイッチを無効にすると、このチャネル設定の新しいレコードがデータセットに取り込まれなくなります。 既存のレコードは保持が期限切れになるまで残ります。
 
 ## 書き出されたメッセージデータへのアクセス {#access-exported-data}
 
