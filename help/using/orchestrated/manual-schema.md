@@ -5,7 +5,7 @@ title: 設定の手順
 description: ユーザーインターフェイスを通じてリレーショナルスキーマを直接作成する方法について説明します。
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
 version: Campaign Orchestration
-source-git-commit: ae8892498c23965056241b87d361e46567000ce4
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '932'
 ht-degree: 87%

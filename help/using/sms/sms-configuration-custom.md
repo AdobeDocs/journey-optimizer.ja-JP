@@ -7,7 +7,7 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: fd713864-96b9-4687-91bd-84e3533273ff
-source-git-commit: 5beaf2b7dc339cb94352cd7503dd86a97a6db6bd
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 90%
@@ -68,7 +68,7 @@ ht-degree: 90%
 
 1. 「**[!UICONTROL mTLS サポート]**」オプションを有効にすると、安全な接続を確立する前にクライアントとサーバーの両方が相互に認証するようになります。
 
-   mTLSのみを使用するには、**[!UICONTROL 認証タイプ]** ドロップダウンから&#x200B;**[!UICONTROL 認証なし]**&#x200B;を選択し、[!UICONTROL mTLS サポート &#x200B;]&#x200B;**&#x200B;**&#x200B;有効にします。
+   mTLSのみを使用するには、**[!UICONTROL 認証タイプ]** ドロップダウンから&#x200B;**[!UICONTROL 認証なし]**&#x200B;を選択し、[!UICONTROL mTLS サポート ]****有効にします。
 
 1. 「**[!UICONTROL ヘッダー]**」セクションで、「**[!UICONTROL 新しいパラメーターを追加]**」をクリックし、外部サービスに送信されるリクエストメッセージの HTTP ヘッダーを指定します。
 
@@ -84,7 +84,7 @@ ht-degree: 90%
    >
    >基本認証またはベアラー認証を使用してカスタム SMS プロバイダーを設定する際は、JSON ペイロードに `authOption` パラメーターを含める必要があります。 さらに、**プロバイダーペイロード**&#x200B;は、テンプレート変数 `{{fromNumber}}`、`{{toNumber}}`、`{{message}}` を参照する必要があります。
 
-1. 「**[!UICONTROL インバウンドのカスタムデータセットを使用]**」を選択して、この資格情報のインバウンド SMSを、ドロップダウンから選択した事前作成データセットにルーティングします。 [&#x200B; データセットの作成について詳しく見る](../experience-decisioning/data-collection/create-dataset.md)
+1. 「**[!UICONTROL インバウンドのカスタムデータセットを使用]**」を選択して、この資格情報のインバウンド SMSを、ドロップダウンから選択した事前作成データセットにルーティングします。 [ データセットの作成について詳しく見る](../experience-decisioning/data-collection/create-dataset.md)
 
    >[!NOTE]
    >
@@ -176,5 +176,5 @@ API 資格情報を作成したら、JWT 認証に必要なフィールドに入
 
 ## チュートリアルビデオ {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3459089?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3431625)
 

@@ -6,10 +6,10 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
-source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1619'
-ht-degree: 91%
+source-wordcount: '1646'
+ht-degree: 89%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 91%
 
 1. ジャーニーを「[イベント](../building-journeys/general-events.md)」または「[オーディエンスを読み取り](../building-journeys/read-audience.md)」アクティビティで開始します。
 
-1. パレットの&#x200B;**[!UICONTROL アクション]** セクションから&#x200B;**[!UICONTROL アクション]** アクティビティをドラッグ&amp;ドロップします。 [&#x200B; アクションアクティビティ &#x200B;](../building-journeys/journey-action.md)の詳細をご覧ください。
+1. パレットの&#x200B;**[!UICONTROL アクション]** セクションから&#x200B;**[!UICONTROL アクション]** アクティビティをドラッグ&amp;ドロップします。 [ アクションアクティビティ ](../building-journeys/journey-action.md)の詳細をご覧ください。
 
    >[!IMPORTANT]
    >
@@ -57,7 +57,7 @@ ht-degree: 91%
 
    >[!NOTE]
    >
-   >**Web** はインバウンドエクスペリエンスアクティビティなので、3 日間の&#x200B;**待機**&#x200B;アクティビティが付随しています。[詳細情報](../building-journeys/wait-activity.md#auto-wait-node)
+   >**Web** はインバウンドエクスペリエンスアクティビティなので、3 日間の&#x200B;**待機**&#x200B;アクティビティが付随しています。 [詳細情報](../building-journeys/wait-activity.md#auto-wait-node)
 
 1. ジャーニーキャンバスでアクションを識別するには、**[!UICONTROL ラベル]**&#x200B;を入力します。
 
@@ -69,11 +69,11 @@ ht-degree: 91%
 
 1. 「**[!UICONTROL アクションを追加]**」ボタンをクリックすると、web エクスペリエンスに1つ以上のインバウンドアクションを追加できます。 [詳細情報](../building-journeys/journey-action.md#multi-action)
 
-1. ジャーニーキャンバスに戻ります。 必要に応じて、追加のアクションまたはイベントをドラッグ＆ドロップして、ジャーニーフローを完了します。[詳細情報](../building-journeys/about-journey-activities.md)
+1. ジャーニーキャンバスに戻ります。 必要に応じて、追加のアクションまたはイベントをドラッグ＆ドロップして、ジャーニーフローを完了します。 [詳細情報](../building-journeys/about-journey-activities.md)
 
-1. 「**[!UICONTROL コンテンツを編集]**」ボタンを選択し、必要に応じてコンテンツを編集します。[詳細情報](#edit-web-content)
+1. 「**[!UICONTROL コンテンツを編集]**」ボタンを選択し、必要に応じてコンテンツを編集します。 [詳細情報](#edit-web-content)
 
-ジャーニーの作成、設定、公開の方法について詳しくは、[このページ &#x200B;](../building-journeys/journey-gs.md)を参照してください。
+ジャーニーの作成、設定、公開の方法について詳しくは、[このページ ](../building-journeys/journey-gs.md)を参照してください。
 
 >[!TAB Web キャンペーンを作成]
 
@@ -83,19 +83,19 @@ ht-degree: 91%
 
 1. 実施するキャンペーンのタイプを選択します。
 
-   * **Scheduled - Marketing**：キャンペーンをすぐに実行するか、指定日に実行します。スケジュール済みキャンペーンは、マーケティングメッセージを送信することを目的としています。ユーザーインターフェイスから設定および実行します。
+   * **Scheduled - Marketing**：キャンペーンをすぐに実行するか、指定日に実行します。 スケジュール済みキャンペーンは、マーケティングメッセージを送信することを目的としています。 ユーザーインターフェイスから設定および実行します。
 
-   * **API トリガー - マーケティング／トランザクション**：API 呼び出しを使用してキャンペーンを実行します。API トリガーキャンペーンは、マーケティングメッセージまたはトランザクションメッセージのいずれかを送信することを目的としています。これらのメッセージには、個人が実行したアクション（パスワードのリセット、買い物かごの購入など）に続いて送信されるメッセージを指します。[詳しくは、API を使用してキャンペーンをトリガーする方法について参照してください。](../campaigns/api-triggered-campaigns.md)
+   * **API トリガー - マーケティング／トランザクション**：API 呼び出しを使用してキャンペーンを実行します。 API トリガー型のキャンペーンは、マーケティングメッセージまたはトランザクションメッセージ（個人が実行したアクションに続いて送信されるメッセージ）の送信を目的としています。パスワードのリセット、買い物かごの購入など[APIを使用してキャンペーンをトリガーする方法を説明](../campaigns/api-triggered-campaigns.md)
 
 1. キャンペーンのプロパティ、[オーディエンス](../audience/about-audiences.md)、[スケジュール](../campaigns/create-campaign.md#schedule)など、web キャンペーンを作成する手順を完了します。
 
 1. **[!UICONTROL Web]** アクションを選択します。
 
-1. Web 設定を選択または作成します。[詳しくは、web 設定を参照してください](web-configuration.md)
+1. Web 設定を選択または作成します。 [詳しくは、web 設定を参照してください](web-configuration.md)
 
    ![](assets/web-campaign-steps.png)
 
-1. 「**[!UICONTROL コンテンツを編集]**」ボタンをクリックし、必要に応じてコンテンツを編集します。[詳細情報](#edit-web-content)
+1. 「**[!UICONTROL コンテンツを編集]**」ボタンをクリックし、必要に応じてコンテンツを編集します。 [詳細情報](#edit-web-content)
 
    <!--![](assets/web-campaign-edit-content.png)-->
 
@@ -110,7 +110,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="ajo_web_url_to_edit_surface"
 >title="編集する URL の確認"
->abstract="上記で定義した web 設定に適用されるコンテンツの編集に使用する特定の web ページの URL を確認します。Web ページは、Adobe Experience Platform Web SDK を使用して実装する必要があります。"
+>abstract="上記で定義した web 設定に適用されるコンテンツの編集に使用する特定の web ページの URL を確認します。 Web ページは、Adobe Experience Platform Web SDK を使用して実装する必要があります。"
 >additional-url="https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja" text="詳細情報"
 
 >[!CONTEXTUALHELP]
@@ -130,13 +130,13 @@ Web エクスペリエンスのオーサリングを開始するには、次の�
 
    ![](assets/web-campaign-edit-content.png)
 
-1. 編集画面が表示されます。以下のいずれかを実行できます。
+1. 編集画面が表示されます。 以下のいずれかを実行できます。
 
-   * 「**[!UICONTROL Web ページを編集]**」ボタンをクリックして、web designer でコンテンツを作成し視覚的なエクスペリエンスを開始します。[詳細情報](web-visual-editor.md)
+   * 「**[!UICONTROL Web ページを編集]**」ボタンをクリックして、web designer でコンテンツを作成し視覚的なエクスペリエンスを開始します。 [詳細情報](web-visual-editor.md)
 
      ![](assets/web-campaign-edit-web-page.png)
 
-   * 「**[!UICONTROL ビジュアルエディター]**」オプションの選択を解除して、代わりに非ビジュアル編集モードを使用し、「**[!UICONTROL 変更を追加]**」をクリックして、ビジュアルエディターを読み込まずに web コンテンツの編集を開始します。[詳細情報](web-non-visual-editor.md)
+   * 「**[!UICONTROL ビジュアルエディター]**」オプションの選択を解除して、代わりに非ビジュアル編集モードを使用し、「**[!UICONTROL 変更を追加]**」をクリックして、ビジュアルエディターを読み込まずに web コンテンツの編集を開始します。 [詳細情報](web-non-visual-editor.md)
 
      ![](assets/web-campaign-add-modification.png)
 
@@ -147,13 +147,13 @@ Web エクスペリエンスのオーサリングを開始するには、次の�
 >title="Web エクスペリエンスのプレビュー"
 >abstract="Web エクスペリエンスがどのように表示されるかをシミュレーションで確認します。"
 
-Web designer を使用して [web エクスペリエンスを作成](web-visual-editor.md)したら、テストプロファイルを使用して、変更した web ページをプレビューできます。パーソナライズされたコンテンツを挿入した場合は、そのコンテンツがどのように表示されるかを、テストプロファイルデータを使用して確認できます。
+Web designer を使用して [web エクスペリエンスを作成](web-visual-editor.md)したら、テストプロファイルを使用して、変更した web ページをプレビューできます。 パーソナライズされたコンテンツを挿入した場合は、そのコンテンツがどのように表示されるかを、テストプロファイルデータを使用して確認できます。
 
 これを行うには、ジャーニーまたはキャンペーンのコンテンツ編集画面から「**[!UICONTROL コンテンツをシミュレート]**」をクリックし、テストプロファイルを追加し、テストプロファイルデータを使用して web ページを確認します。
 
 ![](assets/web-designer-preview.png)
 
-また、デフォルトのブラウザーで開くことも、テスト URL をコピーして任意のブラウザーに貼り付けることもできます。これにより、キャンペーンの実施前に任意のブラウザーで新しい web エクスペリエンスをプレビューできるチームや関係者とリンクを共有できます。
+また、デフォルトのブラウザーで開くことも、テスト URL をコピーして任意のブラウザーに貼り付けることもできます。 これにより、キャンペーンの実施前に任意のブラウザーで新しい web エクスペリエンスをプレビューできるチームや関係者とリンクを共有できます。
 
 >[!NOTE]
 >
@@ -176,7 +176,7 @@ Web エクスペリエンスを作成する際に、web designer で新しいバ
 
 * **処理 A** では、ターゲット母集団の半分に対して web designer を使用して web エクスペリエンスを作成します。
 
-* **処理 B** では、ターゲット母集団の残りの半分に対して「**[!UICONTROL URL にリダイレクト]**」オプションを選択します。[!DNL Journey Optimizer] 以外で作成した代替デザインを含むページの URL を入力します。
+* **処理 B** では、ターゲット母集団の残りの半分に対して「**[!UICONTROL URL にリダイレクト]**」オプションを選択します。 [!DNL Journey Optimizer] 以外で作成した代替デザインを含むページの URL を入力します。
 
   ![](assets/web-campaign-redirect-to-url.png)
 
@@ -184,17 +184,17 @@ Web エクスペリエンスを作成する際に、web designer で新しいバ
   >
   >Web サイトのプレビューは表示されなくなり、**[!UICONTROL ビジュアルエディター]**&#x200B;の切替スイッチボタンが無効になります。
 
-Web キャンペーンがライブになったら、ページ訪問者と外部ランディングページにリダイレクトされた訪問者に対する、[!DNL Journey Optimizer] で作成した web エクスペリエンスのパフォーマンスを追跡できます。方法について詳しくは、[実験キャンペーンレポート](../reports/campaign-global-report-cja-experimentation.md)を参照してください
+Web キャンペーンがライブになったら、ページ訪問者と外部ランディングページにリダイレクトされた訪問者に対する、[!DNL Journey Optimizer] で作成した web エクスペリエンスのパフォーマンスを追跡できます。 方法について詳しくは、[実験キャンペーンレポート](../reports/campaign-global-report-cja-experimentation.md)を参照してください
 
 ## Web エクスペリエンスの公開 {#web-experience-live}
 
 >[!IMPORTANT]
 >
-> キャンペーンが承認ポリシーの対象となっている場合、web エクスペリエンスをアクティベートできるようにするには、承認をリクエストする必要があります。[詳細情報](../test-approve/gs-approval.md)
+> キャンペーンが承認ポリシーの対象となっている場合、web エクスペリエンスをアクティベートできるようにするには、承認をリクエストする必要があります。 [詳細情報](../test-approve/gs-approval.md)
 
 Web エクスペリエンスを定義し、必要に応じてコンテンツを編集したら、ジャーニーまたはキャンペーンをアクティブ化して、変更をオーディエンスに表示できます。
 
-公開する前に web エクスペリエンスのコンテンツをプレビューすることもできます。[詳細情報](#test-web-experience)
+公開する前に web エクスペリエンスのコンテンツをプレビューすることもできます。 [詳細情報](#test-web-experience)
 
 >[!NOTE]
 >
@@ -206,7 +206,7 @@ Web エクスペリエンスを定義し、必要に応じてコンテンツを�
 
 ジャーニーから web エクスペリエンスを公開するには、次の手順に従います。
 
-1. ジャーニーが有効で、エラーがないことを確認します。[詳細情報](../building-journeys/troubleshooting.md#activity-errors)
+1. ジャーニーが有効で、エラーがないことを確認します。 [詳細情報](../building-journeys/troubleshooting.md#activity-errors)
 
 1. ジャーニーから、右上のドロップダウンメニューにある「**[!UICONTROL 公開]**」オプションを選択します。
 
@@ -216,7 +216,7 @@ Web エクスペリエンスを定義し、必要に応じてコンテンツを�
    >
    >ジャーニーの公開について詳しくは、[この節](../building-journeys/publish-journey.md)を参照してください。
 
-Web ジャーニーが「**[!UICONTROL ライブ]**」ステータスになり、読み取り専用になります。ジャーニーの各受信者は、web サイトに追加した変更を表示できます。
+Web ジャーニーが「**[!UICONTROL ライブ]**」ステータスになり、読み取り専用になります。 ジャーニーの各受信者は、web サイトに追加した変更を表示できます。
 
 >[!NOTE]
 >
@@ -224,7 +224,7 @@ Web ジャーニーが「**[!UICONTROL ライブ]**」ステータスになり�
 
 ### Web キャンペーンのアクティブ化 {#activate-web-campaign}
 
-Web キャンペーンの設定を定義し、必要に応じてコンテンツを編集したら、web キャンペーンをレビューおよびアクティブ化できます。次の手順に従います。
+Web キャンペーンの設定を定義し、必要に応じてコンテンツを編集したら、web キャンペーンをレビューおよびアクティブ化できます。 次の手順に従います。
 
 1. Web キャンペーンから、「**[!UICONTROL アクティブ化するレビュー]**」を選択します。
 
@@ -238,7 +238,7 @@ Web キャンペーンの設定を定義し、必要に応じてコンテンツ�
    >
    >キャンペーンのアクティブ化について詳しくは、[この節](../campaigns/review-activate-campaign.md)を参照してください。
 
-Web キャンペーンは&#x200B;**[!UICONTROL ライブ]**&#x200B;[ステータス](../campaigns/manage-campaigns.md#statuses)になり、選択したオーディエンスに対して表示されるようになりました。キャンペーンの各受信者は、web サイトに追加した変更を表示できます。
+Web キャンペーンは&#x200B;**[!UICONTROL ライブ]**[ステータス](../campaigns/manage-campaigns.md#statuses)になり、選択したオーディエンスに対して表示されるようになりました。 キャンペーンの各受信者は、web サイトに追加した変更を表示できます。
 
 >[!NOTE]
 >
@@ -246,11 +246,11 @@ Web キャンペーンは&#x200B;**[!UICONTROL ライブ]**&#x200B;[ステータ
 >
 >Web キャンペーンのスケジュールを定義した場合、開始日時に達するまで、「**[!UICONTROL スケジュール済み]**」[ステータス](../campaigns/manage-campaigns.md#statuses)になります。
 
-エクスペリエンスが公開されたら、web ジャーニーとキャンペーンを監視できます。[詳細情報](monitor-web-experiences.md)
+エクスペリエンスが公開されたら、web ジャーニーとキャンペーンを監視できます。 [詳細情報](monitor-web-experiences.md)
 
 ## Web ジャーニーまたはキャンペーンの停止 {#stop-web-experience}
 
-Web ジャーニーまたはキャンペーンが公開されている場合、停止して、オーディエンスに変更が表示されないようにすることができます。次の手順に従います。
+Web ジャーニーまたはキャンペーンが公開されている場合、停止して、オーディエンスに変更が表示されないようにすることができます。 次の手順に従います。
 
 1. それぞれのリストから公開中のジャーニーまたはキャンペーンを選択します。
 
@@ -268,10 +268,10 @@ Web ジャーニーまたはキャンペーンが公開されている場合、�
 
 >[!NOTE]
 >
->Web ジャーニーまたはキャンペーンが停止した後は、再び編集またはアクティブ化することはできません。ジャーニー／キャンペーンを複製し、複製したものをアクティブ化することがだけが可能です。
+>Web ジャーニーまたはキャンペーンが停止した後は、再び編集またはアクティブ化することはできません。 ジャーニー／キャンペーンを複製し、複製したものをアクティブ化することがだけが可能です。
 
 ## チュートリアルビデオ{#video}
 
 以下のビデオでは、web キャンペーンの作成、プロパティの設定、レビュー、公開の方法を確認できます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3449982/?captions=jpn&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)

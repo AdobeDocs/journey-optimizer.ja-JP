@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 version: Journey Orchestration
-source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 83%
+source-wordcount: '717'
+ht-degree: 80%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 83%
 >[!CONTEXTUALHELP]
 >id="ajo_email_enable_experience_decisioning"
 >title="決定とは"
->abstract="決定とは、決定エンジンから最適な項目を選択して各個人に配信する、意思決定管理以外の新しいツールです。使用するには、追加の設定が必要です。"
+>abstract="決定とは、決定エンジンから最適な項目を選択して各個人に配信する、意思決定管理以外の新しいツールです。 使用するには、追加の設定が必要です。"
 
 ## 決定とは {#about}
 
-決定は、「決定項目」と呼ばれるマーケティングオファーの一元カタログと、高度な決定エンジンを提供することで、パーソナライゼーションを簡素化します。このエンジンは、ルールとランキング条件を活用して、各個人に最も関連性の高い決定項目を選択し、提示します。
+決定は、「決定項目」と呼ばれるマーケティングオファーの一元カタログと、高度な決定エンジンを提供することで、パーソナライゼーションを簡素化します。 このエンジンは、ルールとランキング条件を活用して、各個人に最も関連性の高い決定項目を選択し、提示します。
 
-これらの決定項目は、[!DNL Adobe Journey Optimizer] コードベースのエクスペリエンス [、電子メール、SMS、プッシュ通知など、](../code-based/get-started-code-based.md)のチャネルをまたいでメッセージやエクスペリエンスにシームレスに統合されます。
+これらの決定項目は、[ コードベースのエクスペリエンス ](../code-based/get-started-code-based.md)、電子メール、SMS、プッシュ通知など、[!DNL Adobe Journey Optimizer]のチャネルをまたいでメッセージやエクスペリエンスにシームレスに統合されます。
 
 >[!IMPORTANT]
 >
@@ -39,7 +39,7 @@ ht-degree: 83%
 
 決定を操作する主な手順は次のとおりです。
 
-1. **適切な権限を割り当て**&#x200B;ます。決定は、決定マネージャーなど、決定関連の&#x200B;**[!UICONTROL 役割]**&#x200B;へのアクセス権を持つユーザーのみが使用できます。決定にアクセスできない場合は、権限を拡張する必要があります。
+1. **適切な権限を割り当て**&#x200B;ます。 決定は、決定マネージャーなど、決定関連の&#x200B;**[!UICONTROL 役割]**&#x200B;へのアクセス権を持つユーザーのみが使用できます。 決定にアクセスできない場合は、権限を拡張する必要があります。
 
    +++決定マネージャーの役割の割り当て方法について説明します。
 
@@ -67,9 +67,9 @@ ht-degree: 83%
 
 1. ターゲットオーディエンスに表示する&#x200B;**決定項目を作成**&#x200B;します。
 
-   ➡️ ユーザーインターフェイス（および[&#x200B; API ドキュメント](api-reference/decisions-items/create.md)）での[決定項目の作成方法について説明します。](items.md)
+   ➡️ ユーザーインターフェイス（および[ API ドキュメント](api-reference/decisions-items/create.md)）での[決定項目の作成方法について説明します。](items.md)
 
-1. **コレクションで整理**：コレクションを使用し、属性ベースのルールに基づいて決定項目を分類します。コレクションを選択戦略に組み込んで、考慮する必要がある決定項目のコレクションを特定します。
+1. **コレクションで整理**：コレクションを使用し、属性ベースのルールに基づいて決定項目を分類します。 コレクションを選択戦略に組み込んで、考慮する必要がある決定項目のコレクションを特定します。
 
    ➡️ ユーザーインターフェース（および [API ドキュメント](api-reference/items-collections/create.md)）[での項目コレクションの管理方法の詳細情報](collections.md)
 
@@ -83,12 +83,12 @@ ht-degree: 83%
 
 1. **選択戦略の作成**：コレクション、決定ルール、ランキング方法を活用した選択戦略を作成して、プロファイルに表示するのに適した決定項目を特定します。
 
-   ➡️ [&#128279;](selection-strategies.md)ユーザーインターフェイス（および [APIドキュメント](api-reference/selection-strategies/create.md)）での選択戦略の作成方法の詳細情報
+   ➡️ [ユーザーインターフェイス（および [APIドキュメント](api-reference/selection-strategies/create.md)）での選択戦略の作成方法の詳細情報](selection-strategies.md)
 
 1. **決定ポリシーを作成し、ジャーニーまたはキャンペーンに埋め込む** （コードベースのエクスペリエンス、電子メール、SMS、プッシュ通知）：決定ポリシーは、複数の選択戦略を組み合わせて、対象オーディエンスに表示する対象となる決定項目を決定します。
 
-   ➡️ [決定ポリシーの操作方法について説明します。](create-decision.md)
-➡️コードベースのエクスペリエンスチャネルを通じてオファーを正常に配信するには、[この節](../code-based/code-based-implementation-samples.md)の実装手順に従ってください。
+   ➡️ [決定ポリシーの操作方法を説明します](create-decision.md)
+➡️ コードベースのエクスペリエンスチャネルを介してオファーを正常に配信するには、[このセクション ](../code-based/code-based-implementation-samples.md)の実装手順に従います。
 
 ## その他のリソース
 
@@ -105,4 +105,4 @@ ht-degree: 83%
 
 Adobe Journey Optimizerの意思決定機能について詳しく見る。
 
->[!VIDEO](https://video.tv.adobe.com/v/3475864?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)

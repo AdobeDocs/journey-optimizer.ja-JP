@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: チャネル, サーフェス, 技術, パラメーター, Optimizer
 exl-id: 9038528f-3da0-4e0e-9b82-b72c67b42391
-source-git-commit: 599669d2a1c398292930d60a75b4054e59f017c6
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '1898'
 ht-degree: 94%
@@ -167,7 +167,7 @@ ht-degree: 94%
 >
 >**[!UICONTROL プッシュ通知設定]**&#x200B;は編集できません。 チャネル設定がプッシュ通知チャネル用にのみ設定されている場合は、編集できません。
 >
->メール設定を編集する際に、ヘッダーパラメーターに新しい[&#x200B; プロファイル属性](../personalization/personalization-build-expressions.md#sources)を追加することはできません。 [新しいチャネル設定](#create-channel-surface)を作成する必要があります。
+>メール設定を編集する際に、ヘッダーパラメーターに新しい[ プロファイル属性](../personalization/personalization-build-expressions.md#sources)を追加することはできません。 [新しいチャネル設定](#create-channel-surface)を作成する必要があります。
 
 1. リストでチャネル設定名をクリックして開きます。
 
@@ -292,4 +292,4 @@ ht-degree: 94%
 
 チャネル設定の概要と Adobe Journey Optimizer での使用方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3480452/?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3433124/?learn=on)

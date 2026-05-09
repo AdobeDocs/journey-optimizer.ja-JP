@@ -10,9 +10,9 @@ role: User
 level: Intermediate
 exl-id: da9e898b-8e5d-43da-9226-5c9ccb78e174
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '912'
 ht-degree: 100%
 
 ---
@@ -21,12 +21,12 @@ ht-degree: 100%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。 [詳細情報](../../experience-decisioning/gs-experience-decisioning.md)
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_simulation"
 >title="オファーの決定をシミュレート"
->abstract="シミュレーションを使用すると、特定のプレースメントのテストプロファイルに配信されるオファーをシミュレートできます。これにより、ターゲットの受信者に影響を与えずに、オファーの様々なバージョンをテストして改良できます。"
+>abstract="シミュレーションを使用すると、特定のプレースメントのテストプロファイルに配信されるオファーをシミュレートできます。 これにより、ターゲットの受信者に影響を与えずに、オファーの様々なバージョンをテストして改良できます。"
 
 ## シミュレーションについて {#about-simulation}
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->この機能は、[!DNL Decisioning] API への単一のリクエストをシミュレートします。詳しくは、[Decisioning API を使用したオファーの配信](../api-reference/offer-delivery-api/decisioning-api.md)を参照してください。
+>この機能は、[!DNL Decisioning] API への単一のリクエストをシミュレートします。 詳しくは、[Decisioning API を使用したオファーの配信](../api-reference/offer-delivery-api/decisioning-api.md)を参照してください。
 
 この機能にアクセスするには、**[!UICONTROL 意思決定管理]**／**[!UICONTROL オファー]**&#x200B;メニューから「**[!UICONTROL シミュレーション]**」タブを選択します。
 
@@ -57,23 +57,23 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_simulation_test_profile"
 >title="テストプロファイルの追加"
->abstract="ID 名前空間とそれに対応する ID 値を選択することで、テストプロファイルを追加できます。シミュレーションで使用するには、既に使用可能なテストプロファイルが必要です。"
+>abstract="ID 名前空間とそれに対応する ID 値を選択することで、テストプロファイルを追加できます。 シミュレーションで使用するには、既に使用可能なテストプロファイルが必要です。"
 
 まず、シミュレーションに使用するテストプロファイルを選択する必要があります。
 
 >[!CAUTION]
 >
->どのオファーが配信されるかをシミュレートするには、使用可能なテストプロファイルがある必要があります。詳細は、[テストプロファイルを作成](../../audience/creating-test-profiles.md)する方法を参照してください。
+>どのオファーが配信されるかをシミュレートするには、使用可能なテストプロファイルがある必要があります。 詳細は、[テストプロファイルを作成](../../audience/creating-test-profiles.md)する方法を参照してください。
 
 1. 「**[!UICONTROL プロファイルを管理]**」をクリックします。
 
    ![](../assets/offers_simulation-manage-profile.png)
 
-1. テストプロファイルの識別に使用する ID 名前空間を選択します。以下の例では、**Email** 名前空間を使用します。
+1. テストプロファイルの識別に使用する ID 名前空間を選択します。 以下の例では、**Email** 名前空間を使用します。
 
    >[!NOTE]
    >
-   >ID 名前空間は、メールアドレスや CRM ID などの識別情報のコンテキストを定義します。Adobe Experience Platform の ID 名前空間については、[この節](../../audience/get-started-identity.md){target="_blank"}を参照してください。
+   >ID 名前空間は、メールアドレスや CRM ID などの識別情報のコンテキストを定義します。 Adobe Experience Platform の ID 名前空間については、[この節](../../audience/get-started-identity.md){target="_blank"}を参照してください。
 
 1. ID 値を入力し、「**[!UICONTROL 表示]**」をクリックして、使用可能なプロファイルを一覧表示します。
 
@@ -83,7 +83,7 @@ ht-degree: 100%
 
    ![](../assets/offers_simulation-save-profiles.png)
 
-1. 追加すると、すべてのプロファイルが「**[!UICONTROL テストプロファイル]**」ドロップダウンリストに一覧表示されます。保存したテストプロファイルを切り替えて、選択したプロファイルごとに結果を表示できます。
+1. 追加すると、すべてのプロファイルが「**[!UICONTROL テストプロファイル]**」ドロップダウンリストに一覧表示されます。 保存したテストプロファイルを切り替えて、選択したプロファイルごとに結果を表示できます。
 
    ![](../assets/offers_simulation-saved-profiles.png)
 
@@ -108,7 +108,7 @@ ht-degree: 100%
 1. 使用可能な決定が表示されます。
 
    * 検索フィールドを使用して、選択を絞り込むことができます。
-   * 「**[!UICONTROL オファー決定を開く]**」リンクをクリックして、作成したすべての決定のリストを開きます。詳しくは、[決定](create-offer-activities.md)を参照してください。
+   * 「**[!UICONTROL オファー決定を開く]**」リンクをクリックして、作成したすべての決定のリストを開きます。 詳しくは、[決定](create-offer-activities.md)を参照してください。
 
    任意の決定を選択し、「**[!UICONTROL 追加]**」をクリックします。
 
@@ -116,7 +116,7 @@ ht-degree: 100%
 
 1. 定義した決定範囲は、メインワークスペースに表示されます。
 
-   リクエストするオファーの数を調整できます。例えば、2 を選択した場合、この決定範囲では最適な 2 つのオファーが表示されます。
+   リクエストするオファーの数を調整できます。 例えば、2 を選択した場合、この決定範囲では最適な 2 つのオファーが表示されます。
 
    ![](../assets/offers_simulation-request-offer.png)
 
@@ -140,15 +140,15 @@ ht-degree: 100%
 
    ![](../assets/offers_simulation-settings.png)
 
-1. 「**[!UICONTROL 重複排除]**」セクションで、決定や配置をまたいだ重複オファーを許可するように選択できます。つまり、複数の決定や配置に同じオファーを割り当てることができます。
+1. 「**[!UICONTROL 重複排除]**」セクションで、決定や配置をまたいだ重複オファーを許可するように選択できます。 つまり、複数の決定や配置に同じオファーを割り当てることができます。
 
    ![](../assets/offers_simulation-settings-deduplication.png)
 
    >[!NOTE]
    >
-   >デフォルトでは、すべての重複排除フラグがシミュレーションに対して有効になっています。つまり、決定エンジンでは重複が許可されているので、複数の決定／配置をまたいで同じ提案を行うことができます。[!DNL Decisioning] API リクエストのプロパティについて詳しくは、[この節](../api-reference/offer-delivery-api/decisioning-api.md)を参照してください。
+   >デフォルトでは、すべての重複排除フラグがシミュレーションに対して有効になっています。つまり、決定エンジンでは重複が許可されているので、複数の決定／配置をまたいで同じ提案を行うことができます。 [!DNL Decisioning] API リクエストのプロパティについて詳しくは、[この節](../api-reference/offer-delivery-api/decisioning-api.md)を参照してください。
 
-1. 「**[!UICONTROL 応答の形式]**」セクションで、コードビューにメタデータを含めるように選択できます。対応するオプションのチェックをオンにし、目的のメタデータを選択します。これらは、「**[!UICONTROL コードを表示]**」を選択すると、リクエストペイロードと応答ペイロードに表示されます。詳しくは、「[シミュレーション結果の表示](#simulation-results) 」セクションを参照してください。
+1. 「**[!UICONTROL 応答の形式]**」セクションで、コードビューにメタデータを含めるように選択できます。 対応するオプションのチェックをオンにし、目的のメタデータを選択します。 これらは、「**[!UICONTROL コードを表示]**」を選択すると、リクエストペイロードと応答ペイロードに表示されます。 詳しくは、「[シミュレーション結果の表示](#simulation-results) 」セクションを参照してください。
 
    ![](../assets/offers_simulation-settings-response-format.png)
 
@@ -190,7 +190,7 @@ For instance, let's say the customer has an offer for a discount on ice cream. I
 
    ![](../assets/offers_simulation-offer-details.png)
 
-1. 「**[!UICONTROL コードを表示]**」をクリックして、リクエストと応答のペイロードを表示します。[詳細情報](#view-code)
+1. 「**[!UICONTROL コードを表示]**」をクリックして、リクエストと応答のペイロードを表示します。 [詳細情報](#view-code)
 
 1. リストから別のプロファイルを選択して、別のテストプロファイルに対するオファー決定の結果を表示します。
 
@@ -206,7 +206,7 @@ For instance, let's say the customer has an offer for a discount on ice cream. I
 
    ![](../assets/offers_simulation-view-code.png)
 
-   コードビューには、現在のユーザーの開発者情報が表示されます。デフォルトでは、**[!UICONTROL 応答ペイロード]**&#x200B;が表示されます。
+   コードビューには、現在のユーザーの開発者情報が表示されます。 デフォルトでは、**[!UICONTROL 応答ペイロード]**&#x200B;が表示されます。
 
    ![](../assets/offers_simulation-request-payload.png)
 
@@ -222,5 +222,5 @@ For instance, let's say the customer has an offer for a discount on ice cream. I
 
    >[!NOTE]
    >
-   >リクエストペイロードまたは応答ペイロードを独自のコードにコピーする場合は、{USER_TOKEN} と {API_KEY} を有効な値に置き換えます。これらの値を取得する方法について詳しくは、[Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=ja){target="_blank"} ドキュメントを参照してください。
+   >リクエストペイロードまたは応答ペイロードを独自のコードにコピーする場合は、{USER_TOKEN} と {API_KEY} を有効な値に置き換えます。 これらの値を取得する方法について詳しくは、[Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html?lang=ja){target="_blank"} ドキュメントを参照してください。
 

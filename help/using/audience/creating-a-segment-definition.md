@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 289aac5d-6cdb-411f-985e-3acef58050a8
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1127'
 ht-degree: 100%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 ## セグメント定義の作成 {#create}
 
-この例では、アトランタ、サンフランシスコまたはシアトルに住み、1980 年以降に生まれたすべての顧客をターゲットするオーディエンスを作成します。これらのお客様は全員、過去 7 日以内に購入を行っている必要があります。
+この例では、アトランタ、サンフランシスコまたはシアトルに住み、1980 年以降に生まれたすべての顧客をターゲットするオーディエンスを作成します。 これらのお客様は全員、過去 7 日以内に購入を行っている必要があります。
 
 ➡️ [オーディエンスの作成方法については、このビデオをご覧ください](#video-segment)
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
    ![](assets/create-segment.png)
 
-   セグメント定義画面では、必須フィールドをすべて設定してオーディエンスを定義できます。オーディエンスの設定方法については、[セグメント化サービスのドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/methods/overview){target="_blank"}を参照してください。
+   セグメント定義画面では、必須フィールドをすべて設定してオーディエンスを定義できます。 オーディエンスの設定方法については、[セグメント化サービスのドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/methods/overview){target="_blank"}を参照してください。
 
    ![](assets/segment-builder.png)
 
@@ -42,11 +42,11 @@ ht-degree: 100%
 
 1. 必要なフィールドを左ペインから中央のワークスペースにドラッグ＆ドロップし、必要に応じて設定します。
 
-   セグメント定義の基本的な構成要素は、**属性**&#x200B;と&#x200B;**イベント**&#x200B;です。また、既存のオーディエンスに含まれる属性とイベントを、新しい定義のコンポーネントとして使用することもできます。[セグメント化サービスのドキュメントの詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder){target="_blank"}
+   セグメント定義の基本的な構成要素は、**属性**&#x200B;と&#x200B;**イベント**&#x200B;です。 また、既存のオーディエンスに含まれる属性とイベントを、新しい定義のコンポーネントとして使用することもできます。 [セグメント化サービスのドキュメントの詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/segment-builder){target="_blank"}
 
    >[!NOTE]
    >
-   >左側のペインに表示されるフィールドは、組織での **XDM 個人プロファイル**&#x200B;と **XDM ExperienceEvent** スキーマの設定方法によって異なります。詳しくは、[Adobe エクスペリエンスデータモデル（XDM）ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target="_blank"}を参照してください。
+   >左側のペインに表示されるフィールドは、組織での **XDM 個人プロファイル**&#x200B;と **XDM ExperienceEvent** スキーマの設定方法によって異なります。  詳しくは、[Adobe エクスペリエンスデータモデル（XDM）ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target="_blank"}を参照してください。
 
    ![](assets/drag-fields.png)
 
@@ -58,7 +58,7 @@ ht-degree: 100%
 
      >[!NOTE]
      >
-     >`frequencyMap` 属性はセグメント定義での使用はサポートされておらず、オーディエンスのセグメント化条件の一部として使用できません。頻度ベースのターゲティングの場合は、ビジネスルールに基づいてフリークエンシーキャップルールを使用することを考慮してください。
+     >`frequencyMap` 属性はセグメント定義での使用はサポートされておらず、オーディエンスのセグメント化条件の一部として使用できません。 頻度ベースのターゲティングの場合は、ビジネスルールに基づいてフリークエンシーキャップルールを使用することを考慮してください。
 
    * **イベント**：過去 7 日以内に購入を行ったプロファイル。
 
@@ -68,9 +68,9 @@ ht-degree: 100%
 
    ![](assets/segment-estimate.png)
 
-1. オーディエンスの準備が整ったら、「**[!UICONTROL 保存]**」をクリックします。オーディエンスが Adobe Experience Platform オーディエンスのリストに表示されます。なお、リストで特定のオーディエンスを検索する際に役立つ検索バーが用意されています。
+1. オーディエンスの準備が整ったら、「**[!UICONTROL 保存]**」をクリックします。 オーディエンスが Adobe Experience Platform オーディエンスのリストに表示されます。 なお、リストで特定のオーディエンスを検索する際に役立つ検索バーが用意されています。
 
-これで、オーディエンスをジャーニーで使用できるようになりました。詳しくは、[この節](../audience/about-audiences.md)を参照してください。
+これで、オーディエンスをジャーニーで使用できるようになりました。 詳しくは、[この節](../audience/about-audiences.md)を参照してください。
 
 ## オーディエンスの評価方法 {#evaluation-method-in-journey-optimizer}
 
@@ -80,7 +80,7 @@ Adobe Journey Optimizer では、オーディエンスは、次の 3 つの評�
 
 新規データがシステムに流入するのに応じて、オーディエンスのプロファイルリストがリアルタイムで最新の状態に保たれます。
 
-ストリーミングセグメント化は、ユーザーのアクティビティに応じてオーディエンスを更新する継続的なデータ選択プロセスです。セグメント定義を作成して、結果のオーディエンスを保存すると、Journey Optimizer への受信データに対してセグメント定義が適用されます。つまり、個人は、プロファイルデータの変更に応じてオーディエンスに追加またはオーディエンスから削除され、ターゲットオーディエンスが常に関連性の高いものとなります。[詳しくは、Adobe Experience Platform ドキュメントを参照してください](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=ja){target="_blank"}。
+ストリーミングセグメント化は、ユーザーのアクティビティに応じてオーディエンスを更新する継続的なデータ選択プロセスです。 セグメント定義を作成して、結果のオーディエンスを保存すると、Journey Optimizer への受信データに対してセグメント定義が適用されます。 つまり、個人は、プロファイルデータの変更に応じてオーディエンスに追加またはオーディエンスから削除され、ターゲットオーディエンスが常に関連性の高いものとなります。 [詳しくは、Adobe Experience Platform ドキュメントを参照してください](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/streaming-segmentation.html?lang=ja){target="_blank"}。
 
 >[!IMPORTANT]
 >
@@ -88,8 +88,8 @@ Adobe Journey Optimizer では、オーディエンスは、次の 3 つの評�
 >
 >* この変更は、すべてのお客様のサンドボックスと組織に適用されます。
 >* 影響を受けるのは、送信イベントと開封イベントのみです。クリックやその他のトラッキングイベントは、引き続きストリーミングセグメント化で使用できます。
->* この変更は、ストリーミングセグメント化にのみ適用されます。送信イベントと開封イベントは、引き続きバッチセグメントでも使用できますが、ストリーミングセグメントに含まれている場合は、バッチ方式で評価されます。さらに、送信イベントから生じる除外イベントとバウンス／遅延イベントもこの変更により影響を受けます。
->* トラッキングデータ収集は影響を受けません。送信イベントと開封イベントは引き続き通常どおりに収集されます。
+>* この変更は、ストリーミングセグメント化にのみ適用されます。 送信イベントと開封イベントは、引き続きバッチセグメントでも使用できますが、ストリーミングセグメントに含まれている場合は、バッチ方式で評価されます。 さらに、送信イベントから生じる除外イベントとバウンス／遅延イベントもこの変更により影響を受けます。
+>* トラッキングデータ収集は影響を受けません。 送信イベントと開封イベントは引き続き通常どおりに収集されます。
 >* この変更は、ジャーニーの反応イベントには影響しません。
 
 +++
@@ -98,7 +98,7 @@ Adobe Journey Optimizer では、オーディエンスは、次の 3 つの評�
 
 オーディエンスのプロファイルリストが 24 時間ごとに評価されます。
 
-バッチセグメント化では、セグメント定義を通じてすべてのプロファイルデータを一度に処理します。これにより、オーディエンスのスナップショットが作成され、作成されたスナップショットを保存して使用するためにエクスポートできます。ストリーミングセグメント化とは異なり、バッチセグメント化ではオーディエンスリストがリアルタイムで更新され続けるわけではありません。バッチ処理の後に入ってきた新しいデータは、次のバッチ処理までオーディエンスに反映されません。即時更新を適用しようとしても、毎日のサイクルは上書きされません。即時の増分更新を行う場合は、ストリーミングまたはオンデマンドのセグメント化オプションの使用を検討してください。
+バッチセグメント化では、セグメント定義を通じてすべてのプロファイルデータを一度に処理します。これにより、オーディエンスのスナップショットが作成され、作成されたスナップショットを保存して使用するためにエクスポートできます。 ストリーミングセグメント化とは異なり、バッチセグメント化ではオーディエンスリストがリアルタイムで更新され続けるわけではありません。 バッチ処理の後に入ってきた新しいデータは、次のバッチ処理までオーディエンスに反映されません。 即時更新を適用しようとしても、毎日のサイクルは上書きされません。 即時の増分更新を行う場合は、ストリーミングまたはオンデマンドのセグメント化オプションの使用を検討してください。
 
 詳しくは、[Adobe Experience Platform セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja#batch){target="_blank"}を参照してください
 
@@ -106,11 +106,11 @@ Adobe Journey Optimizer では、オーディエンスは、次の 3 つの評�
 
 +++ エッジセグメント化
 
-エッジセグメント化は、Adobe Experience Platform のセグメントを[エッジで](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja){target="_blank"}瞬時に評価する機能で、同じページおよび次のページのパーソナライゼーションのユースケースを可能にします。現在、エッジセグメント化で評価できるのは、選択されたクエリタイプのみです。詳しくは、[Adobe Experience Platform セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html?lang=ja#query-types){target="_blank"}を参照してください
+エッジセグメント化は、Adobe Experience Platform のセグメントを[エッジで](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja){target="_blank"}瞬時に評価する機能で、同じページおよび次のページのパーソナライゼーションのユースケースを可能にします。 現在、エッジセグメント化で評価できるのは、選択されたクエリタイプのみです。 詳しくは、[Adobe Experience Platform セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/edge-segmentation.html?lang=ja#query-types){target="_blank"}を参照してください
 
 +++
 
-使用する評価方法がわかっている場合は、ドロップダウンリストを使用して選択します。また、虫眼鏡の付いた参照アイコンフォルダーアイコンをクリックして、使用可能なセグメント定義の評価方法のリストを表示することもできます。詳しくは、[Adobe Experience Platform セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja#segment-properties){target="_blank"}を参照してください。
+使用する評価方法がわかっている場合は、ドロップダウンリストを使用して選択します。 また、虫眼鏡の付いた参照アイコンフォルダーアイコンをクリックして、使用可能なセグメント定義の評価方法のリストを表示することもできます。 詳しくは、[Adobe Experience Platform セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja#segment-properties){target="_blank"}を参照してください。
 
 ![](assets/evaluation-methods.png)
 
@@ -124,7 +124,7 @@ The determination between batch segmentation and streaming segmentation is made 
 >If the **[!UICONTROL Evaluation method]** column does not display, you  need to add it using configuration button on the top right of the list.
 -->
 
-まずオーディエンスを定義した後、プロファイルは認定されるたびにオーディエンスに追加されます。以前のデータからオーディエンスをバックフィルするには、最大 24 時間かかる場合があります。 オーディエンスがバックフィルされた後も、オーディエンスは常に最新の状態に保たれ、常にターゲティングの準備ができています。
+まずオーディエンスを定義した後、プロファイルは認定されるたびにオーディエンスに追加されます。 以前のデータからオーディエンスをバックフィルするには、最大 24 時間かかる場合があります。 オーディエンスがバックフィルされた後も、オーディエンスは常に最新の状態に保たれ、常にターゲティングの準備ができています。
 
 ## 柔軟なオーディエンス評価 {#flexible}
 
@@ -133,13 +133,13 @@ Adobe Experience Platform オーディエンスポータルを使用すると、
 柔軟なオーディエンス評価を使用すると、次の操作を実行できます。
 
 1. 最新のデータに基づいて、新しいセグメントを作成する。
-1. 精度を確保することを目的に、オーディエンスをリアルタイムで評価する。これを行うには、評価するオーディエンスを選択し、特定の条件（人物ベース、セグメント化サービスのオリジンなど）を満たしている場合は、「オーディエンスを評価」を選択します。
+1. 精度を確保することを目的に、オーディエンスをリアルタイムで評価する。 これを行うには、評価するオーディエンスを選択し、特定の条件（人物ベース、セグメント化サービスのオリジンなど）を満たしている場合は、「オーディエンスを評価」を選択します。
 1. 正確にターゲティングを行う目的で、評価済みオーディエンスを Adobe Journey Optimizer キャンペーンまたはジャーニーで使用します。
 
-一度に最大 20 のオーディエンスを評価でき、不適格なオーディエンスは自動的に除外されます。詳しくは、[Adobe Experience Platform セグメント化サービスのドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/audience-portal#flexible-audience-evaluation)を参照してください。
+一度に最大 20 のオーディエンスを評価でき、不適格なオーディエンスは自動的に除外されます。 詳しくは、[Adobe Experience Platform セグメント化サービスのドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/audience-portal#flexible-audience-evaluation)を参照してください。
 
 ## チュートリアルビデオ{#video-segment}
 
 Journey Optimizer がルールを使用してオーディエンスを生成する方法の概要と、属性、イベント、既存のオーディエンスを使用してオーディエンスを作成する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430329?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425020?quality=12)

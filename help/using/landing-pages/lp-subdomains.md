@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 keywords: ランディング, ランディングページ, サブドメイン, 設定
 exl-id: dd1af8dc-3920-46cb-ae4d-a8f4d4c26e89
-source-git-commit: 42d40abf8290bac64e142f5cf0bf595446ccb2e9
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '971'
+source-wordcount: '1013'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_lp"
 >title="ランディングページのサブドメインをデリゲート"
->abstract="ランディングページプリセットを作成するにはこのサブドメインが必要なので、ランディングページで使用するサブドメインを設定する必要があります。既にアドビにデリゲートされているサブドメインを使用するか、新しいサブドメインを設定できます。"
+>abstract="ランディングページプリセットを作成するにはこのサブドメインが必要なので、ランディングページで使用するサブドメインを設定する必要があります。 既にアドビにデリゲートされているサブドメインを使用するか、新しいサブドメインを設定できます。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/content-management/landing-pages/lp-configuration/lp-presets.html?lang=ja#lp-create-preset" text="ランディングページプリセットの作成"
 
 >[!CONTEXTUALHELP]
@@ -38,9 +38,9 @@ ht-degree: 100%
 
 [ランディングページプリセットの作成](lp-presets.md)を可能にするには、ランディングページに使用するサブドメインを設定する必要があります。
 
-既にアドビにデリゲートされているサブドメインを使用するか、別のサブドメインを設定できます。サブドメインのアドビへのデリゲートについて詳しくは、[この節](../configuration/delegate-subdomain.md)を参照してください。
+既にアドビにデリゲートされているサブドメインを使用するか、別のサブドメインを設定できます。 サブドメインのアドビへのデリゲートについて詳しくは、[この節](../configuration/delegate-subdomain.md)を参照してください。
 
-ランディングページのサブドメイン設定は、**すべての環境に共通**&#x200B;です。したがって、
+ランディングページのサブドメイン設定は、**すべての環境に共通**&#x200B;です。 したがって、
 
 * ランディングページのサブドメインにアクセスして編集するには、本番稼働用サンドボックスにおける&#x200B;**[!UICONTROL ランディングページサブドメインの管理]**&#x200B;権限が必要です。
 
@@ -52,7 +52,7 @@ ht-degree: 100%
 
 1. **[!UICONTROL 管理]**／**[!UICONTROL チャネル]**&#x200B;メニューにアクセスして、**[!UICONTROL ランディングページ設定]**／**[!UICONTROL ランディングページのサブドメイン]**&#x200B;を選択します。
 
-1. 「**[!UICONTROL サブドメインを設定]**」をクリックします。
+1. **[!UICONTROL サブドメインを設定]**&#x200B;をクリックします。
 
    ![](assets/lp_set-up-subdomain.png)
 
@@ -66,7 +66,7 @@ ht-degree: 100%
 
    >[!CAUTION]
    >
-   >`cdn` または `data` プレフィックスは内部使用のために予約されているので、使用しないでください。`dmarc` や `spf` など、他の制限または予約済みのプレフィックスも使用を避ける必要があります。
+   >`cdn` または `data` プレフィックスは内部使用のために予約されているので、使用しないでください。 `dmarc` や `spf` など、他の制限または予約済みのプレフィックスも使用を避ける必要があります。
 
 1. リストからデリゲートされたサブドメインを選択します。
 
@@ -76,28 +76,28 @@ ht-degree: 100%
 
    ![](assets/lp_prefix-and-subdomain.png)
 
-   同じ親ドメインの複数のデリゲートされたサブドメインを使用することはできないことに注意してください。 例えば、「marketing1.yourcompany.com」が既にランディングページ用にアドビにデリゲートされている場合、「marketing2.yourcompany.com」を使用することはできません。ただし、ランディングページ用に複数レベルのサブドメインがサポートされている場合は、「marketing1.yourcompany.com」のサブドメイン（「email.marketing1.yourcompany.com」など）または別の親ドメインを使用して続行できます。
+   同じ親ドメインの複数のデリゲートされたサブドメインを使用することはできないことに注意してください。 例えば、「marketing1.yourcompany.com」が既にランディングページ用にアドビにデリゲートされている場合、「marketing2.yourcompany.com」を使用することはできません。 ただし、ランディングページ用に複数レベルのサブドメインがサポートされている場合は、「marketing1.yourcompany.com」のサブドメイン（「email.marketing1.yourcompany.com」など）または別の親ドメインを使用して続行できます。
 
    >[!CAUTION]
    >
-   >[CNAME メソッド](../configuration/delegate-subdomain.md#cname-subdomain-setup)を使用してアドビにデリゲートされたドメインを選択する場合、ホスティングプラットフォーム上に DNS レコードを作成する必要があります。DNS レコードを生成する手順は、新しいランディングページサブドメインを設定する際の手順と同じです。[この節](#lp-configure-new-subdomain)の手順を参照してください。
+   >[CNAME メソッド](../configuration/delegate-subdomain.md#cname-subdomain-setup)を使用してアドビにデリゲートされたドメインを選択する場合、ホスティングプラットフォーム上に DNS レコードを作成する必要があります。 DNS レコードを生成する手順は、新しいランディングページサブドメインを設定する際の手順と同じです。 [この節](#lp-configure-new-subdomain)の手順を参照してください。
 
 1. 「**[!UICONTROL 送信]**」をクリックします。
 
-1. 送信されると、サブドメインは&#x200B;**[!UICONTROL 処理中]**&#x200B;ステータスでリストに表示されます。サブドメインのステータスについて詳しくは、[この節](../configuration/delegate-subdomain.md#access-delegated-subdomains)を参照してください。<!--Same statuses?-->
+1. 送信されると、サブドメインは&#x200B;**[!UICONTROL 処理中]**&#x200B;ステータスでリストに表示されます。 サブドメインのステータスについて詳しくは、[この節](../configuration/delegate-subdomain.md#access-delegated-subdomains)を参照してください。<!--Same statuses?-->
 
    ![](assets/lp_subdomain-processing.png)
 
    そのサブドメインを使用してメッセージを送信できるようになるには、必要なチェックがアドビで実行されるまで待つ必要があります（**最大で 4 時間**&#x200B;かかることがあります）。<!--Learn more in [this section](../configuration/delegate-subdomain.md#subdomain-validation).-->
 
-1. チェックが正常に完了すると、サブドメインのステータスが「**[!UICONTROL 成功]**」になります。ランディングページプリセットの作成に使用する準備が整いました。
+1. チェックが正常に完了すると、サブドメインのステータスが「**[!UICONTROL 成功]**」になります。 ランディングページプリセットの作成に使用する準備が整いました。
 
 ## 新しいサブドメインを設定 {#lp-configure-new-subdomain}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_lp_subdomain_dns"
 >title="一致する DNS レコードを生成"
->abstract="新しいランディングページのサブドメインを設定するには、Journey Optimizer インターフェイスに表示されるアドビのネームサーバー情報をコピーし、ドメインホストソリューションに貼り付けて、一致する DNS レコードを生成する必要があります。チェックが正常に完了すると、ランディングページプリセットの作成にサブドメインを使用する準備が整います。"
+>abstract="新しいランディングページのサブドメインを設定するには、Journey Optimizer インターフェイスに表示されるアドビのネームサーバー情報をコピーし、ドメインホストソリューションに貼り付けて、一致する DNS レコードを生成する必要があります。 チェックが正常に完了すると、ランディングページプリセットの作成にサブドメインを使用する準備が整います。"
 
 新しいサブドメインを設定するには、次の手順に従います。
 
@@ -117,23 +117,23 @@ ht-degree: 100%
    >
    >* サブドメインでは大文字は使用できません。
 
-   無効なサブドメインをアドビにデリゲートすることはできません。組織が所有する有効なサブドメイン（marketing.yourcompany.com など）を入力してください。
+   無効なサブドメインをアドビにデリゲートすることはできません。 組織が所有する有効なサブドメイン（marketing.yourcompany.com など）を入力してください。
 
    ランディングページでは、複数レベルのサブドメインがサポートされています。 例えば、「email.marketing.yourcompany.com」を使用できます。
 
-1. DNS サーバーに配置するレコードが表示されます。このレコードをコピーするか、CSV ファイルをダウンロードしてから、ドメインをホストするソリューションに移動し、一致する DNS レコードを生成します。
+1. DNS サーバーに配置するレコードが表示されます。 このレコードをコピーするか、CSV ファイルをダウンロードしてから、ドメインをホストするソリューションに移動し、一致する DNS レコードを生成します。
 
-1. DNS レコードがドメインホスティングソリューションに生成されていることを確認します。すべてが正しく設定されている場合は、「確認しました」チェックボックスをオンにし、「**[!UICONTROL 送信]**」をクリックします。
+1. DNS レコードがドメインホスティングソリューションに生成されていることを確認します。 すべてが正しく設定されている場合は、「確認しました」チェックボックスをオンにし、「**[!UICONTROL 送信]**」をクリックします。
 
    ![](assets/lp_add-your-own-subdomain-confirm.png)
 
    新しいランディングページサブドメインを設定すると、常に CNAME レコードを指すようになります。
 
-1. サブドメインのデリゲーションが送信されると、そのサブドメインは「**[!UICONTROL 処理中]**」ステータスでリストに表示されます。サブドメインのステータスについて詳しくは、[この節](../configuration/delegate-subdomain.md#access-delegated-subdomains)を参照してください。<!--Same statuses?-->
+1. サブドメインのデリゲーションが送信されると、そのサブドメインは「**[!UICONTROL 処理中]**」ステータスでリストに表示されます。 サブドメインのステータスについて詳しくは、[この節](../configuration/delegate-subdomain.md#access-delegated-subdomains)を参照してください。<!--Same statuses?-->
 
    そのサブドメインをランディングページに使用できるようになるには、必要なチェックがアドビで実行されるまで待つ必要があります（**最大で 4 時間**&#x200B;かかることがあります）。<!--Learn more in [this section](#subdomain-validation).-->
 
-1. チェックが正常に完了すると、サブドメインのステータスが「**[!UICONTROL 成功]**」になります。ランディングページプリセットの作成に使用する準備が整いました。
+1. チェックが正常に完了すると、サブドメインのステータスが「**[!UICONTROL 成功]**」になります。 ランディングページプリセットの作成に使用する準備が整いました。
 
    ホスティングソリューションで検証レコードを作成できなかった場合、サブドメインは「**[!UICONTROL 失敗]**」とマークされます。
 
@@ -141,7 +141,7 @@ ht-degree: 100%
 
 ランディングページサブドメインをデリゲート解除する場合は、次の手順に従います。
 
-1. [!DNL Journey Optimizer] で、サブドメインに関連付けられているすべてのランディングページを非公開にします。[方法についてはこちらを参照](create-lp.md#create-landing-page)
+1. [!DNL Journey Optimizer] で、サブドメインに関連付けられているすべてのランディングページを非公開にします。 [方法についてはこちらを参照](create-lp.md#create-landing-page)
 
 1. ランディングページサブドメインが CNAME レコードを指している場合は、ランディングページサブドメイン用に作成した CNAME DNS レコードをホスティングソリューションから削除できます（ただし、元のメールサブドメインがある場合は削除しないでください）。
 

@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: 作成, メール, 開始, ジャーニー, キャンペーン
 exl-id: c77dc420-a375-4376-ad86-ac740e214c3c
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1187'
+source-wordcount: '1196'
 ht-degree: 82%
 
 ---
@@ -25,13 +25,13 @@ ht-degree: 82%
 
 ## メールアクションの追加 {#email-action}
 
-[!DNL Journey Optimizer] でメールを作成するには、**[!UICONTROL メール]**&#x200B;アクションをジャーニーまたはキャンペーンに追加します。次に、ケースに応じて、次の手順に従います。
+[!DNL Journey Optimizer] でメールを作成するには、**[!UICONTROL メール]**&#x200B;アクションをジャーニーまたはキャンペーンに追加します。 次に、ケースに応じて、次の手順に従います。
 
 >[!BEGINTABS]
 
 >[!TAB ジャーニーへのメールの追加]
 
-1. ジャーニーを開き、パレットの「**[!UICONTROL アクション]**」セクションから「**[!UICONTROL アクション]**」アクティビティをドラッグ&amp;ドロップします。 [&#x200B; アクションアクティビティ &#x200B;](../building-journeys/journey-action.md)の詳細をご覧ください。
+1. ジャーニーを開き、パレットの「**[!UICONTROL アクション]**」セクションから「**[!UICONTROL アクション]**」アクティビティをドラッグ&amp;ドロップします。 [ アクションアクティビティ ](../building-journeys/journey-action.md)の詳細をご覧ください。
 
    >[!IMPORTANT]
    >
@@ -57,9 +57,9 @@ ht-degree: 82%
 
 1. 「**[!UICONTROL コンテンツを編集]**」ボタンを選択し、電子メールDesignerを使用して必要に応じてコンテンツを作成します。 [詳細情報](#define-email-content)
 
-1. ジャーニーキャンバスに戻ります。 必要に応じて、追加のアクションまたはイベントをドラッグ＆ドロップして、ジャーニーフローを完了します。[詳細情報](../building-journeys/about-journey-activities.md)
+1. ジャーニーキャンバスに戻ります。 必要に応じて、追加のアクションまたはイベントをドラッグ＆ドロップして、ジャーニーフローを完了します。 [詳細情報](../building-journeys/about-journey-activities.md)
 
-ジャーニーの作成、設定、公開の方法について詳しくは、[このページ &#x200B;](../building-journeys/journey-gs.md)を参照してください。
+ジャーニーの作成、設定、公開の方法について詳しくは、[このページ ](../building-journeys/journey-gs.md)を参照してください。
 
 >[!TAB キャンペーンへのメールの追加]
 
@@ -71,7 +71,7 @@ ht-degree: 82%
 
 1. **[!UICONTROL メール]**&#x200B;アクションを選択します。
 
-1. メール設定を選択または作成します。[詳細情報](email-settings.md)
+1. メール設定を選択または作成します。 [詳細情報](email-settings.md)
 
    ![](assets/email_campaign.png)
 
@@ -80,7 +80,7 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
 ![](assets/email_campaign_tracking.png)
 -->
-キャンペーンの作成、設定およびアクティベート方法について詳しくは、[このページ &#x200B;](../campaigns/get-started-with-campaigns.md)を参照してください。
+キャンペーンの作成、設定およびアクティベート方法について詳しくは、[このページ ](../campaigns/get-started-with-campaigns.md)を参照してください。
 
 >[!ENDTABS]
 
@@ -91,35 +91,35 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 >[!CONTEXTUALHELP]
 >id="test_id"
 >title="メールコンテンツの設定"
->abstract="メールのコンテンツを作成します。件名を定義してから、E メールデザイナーを活用してメールの本文を作成およびパーソナライズします。"
+>abstract="メールのコンテンツを作成します。 件名を定義してから、E メールデザイナーを活用してメールの本文を作成およびパーソナライズします。"
 
-ジャーニーやキャンペーンにメールアクションを追加したら、E メールデザイナーを使用して、件名、送信者情報、メール本文などのメールコンテンツを定義する必要があります。次の手順に従います。
+ジャーニーやキャンペーンにメールアクションを追加したら、E メールデザイナーを使用して、件名、送信者情報、メール本文などのメールコンテンツを定義する必要があります。 次の手順に従います。
 
-1. ジャーニーまたはキャンペーンの設定画面で、「**[!UICONTROL コンテンツを編集]**」ボタンをクリックして、メールコンテンツを設定します。[詳細情報](get-started-email-design.md)
+1. ジャーニーまたはキャンペーンの設定画面で、「**[!UICONTROL コンテンツを編集]**」ボタンをクリックして、メールコンテンツを設定します。 [詳細情報](get-started-email-design.md)
 
    ![](assets/email_campaign_edit_content.png)
 
 1. メールに決定ポリシーを追加する場合は、**[!UICONTROL 決定を有効にする]**&#x200B;を切り替えます。
 
-   決定ポリシーは、各オーディエンスメンバーに配信する最適なコンテンツを動的に返すことを目的に、決定エンジンを活用するオファーのコンテナです。[メールでの決定ポリシーの作成方法の詳細情報](../experience-decisioning/create-decision.md#create-decision)
+   決定ポリシーは、各オーディエンスメンバーに配信する最適なコンテンツを動的に返すことを目的に、決定エンジンを活用するオファーのコンテナです。 [メールでの決定ポリシーの作成方法の詳細情報](../experience-decisioning/create-decision.md#create-decision)
 
    ![](assets/../../experience-decisioning/assets/decision-policy-enable.png)
 
    >[!AVAILABILITY]
    >
-   >現時点では、メールでの決定ポリシー作成は限定提供で使用できます。アクセス権を取得するには、アドビ担当者にお問い合わせください。
+   >現時点では、メールでの決定ポリシー作成は限定提供で使用できます。 アクセス権を取得するには、アドビ担当者にお問い合わせください。
 
-1. 「**[!UICONTROL ヘッダー]**」セクションで、「**[!UICONTROL 送信者名]**」、「**[!UICONTROL 送信元メール]**」および「**[!UICONTROL BCC]**」の各フィールドを確認します。これらは、選択したメール設定で指定されます。 [詳細情報](email-settings.md) <!--check if same for journey-->
+1. 「**[!UICONTROL ヘッダー]**」セクションで、「**[!UICONTROL 送信者名]**」、「**[!UICONTROL 送信元メール]**」および「**[!UICONTROL BCC]**」の各フィールドを確認します。 これらは、選択したメール設定で指定されます。 [詳細情報](email-settings.md) <!--check if same for journey-->
 
    ![](assets/email_designer_edit_content_header.png)
 
-1. メッセージの件名を追加します。パーソナライゼーションエディターを使用して件名を設定およびパーソナライズするには、「**[!UICONTROL パーソナライゼーションダイアログを開く]**」アイコンをクリックします。[詳細情報](../personalization/personalization-build-expressions.md)
+1. メッセージの件名を追加します。 パーソナライゼーションエディターを使用して件名を設定およびパーソナライズするには、「**[!UICONTROL パーソナライゼーションダイアログを開く]**」アイコンをクリックします。 [詳細情報](../personalization/personalization-build-expressions.md)
 
    >[!NOTE]
    >
-   >件名は必須です。改行を含めることはできません。
+   >件名は必須です。 改行を含めることはできません。
 
-1. 「**[!UICONTROL メール本文を編集]**」ボタンをクリックしてE メールデザイナーにアクセスし、コンテンツの作成を開始します。[詳細情報](get-started-email-design.md)
+1. 「**[!UICONTROL メール本文を編集]**」ボタンをクリックしてE メールデザイナーにアクセスし、コンテンツの作成を開始します。 [詳細情報](get-started-email-design.md)
 
    ![](assets/email_designer_edit_email_body.png)
 
@@ -141,33 +141,33 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 >
 >このボタンが表示されない場合、アラートは検出されていません。
 
-システムでチェックされる設定と要素は以下のとおりです。また、設定を調整して対応する問題を解決する方法に関する情報もあります。
+システムでチェックされる設定と要素は以下のとおりです。 また、設定を調整して対応する問題を解決する方法に関する情報もあります。
 
 次の 2 種類のアラートが発生する可能性があります。
 
 * **警告**&#x200B;は、次のようなレコメンデーションやベストプラクティスを示しています。
 
-   * **[!UICONTROL メール本文にオプトアウトンクがありません]**：購読解除リンクをメール本文に追加するのがベストプラクティスです。設定方法について詳しくは、[この節](../privacy/opt-out.md#opt-out-decision-management)を参照してください。
+   * **[!UICONTROL メール本文にオプトアウトンクがありません]**：購読解除リンクをメール本文に追加するのがベストプラクティスです。 設定方法について詳しくは、[この節](../privacy/opt-out.md#opt-out-decision-management)を参照してください。
 
      >[!NOTE]
      >
-     >マーケティングタイプのメールメッセージには、オプトアウトリンクを含める必要があります。これはトランザクションメッセージには必要ありません。メッセージカテゴリ（**[!UICONTROL マーケティング]**&#x200B;または&#x200B;**[!UICONTROL トランザクション]**）は、[チャネル設定](email-settings.md#email-type)レベルで、ジャーニーまたはキャンペーンから[メッセージの作成](#create-email-journey-campaign)時に定義されます。
+     >マーケティングタイプのメールメッセージには、オプトアウトリンクを含める必要があります。これはトランザクションメッセージには必要ありません。 メッセージカテゴリ（**[!UICONTROL マーケティング]**&#x200B;または&#x200B;**[!UICONTROL トランザクション]**）は、[チャネル設定](email-settings.md#email-type)レベルで、ジャーニーまたはキャンペーンから[メッセージの作成](#create-email-journey-campaign)時に定義されます。
 
-   * **[!UICONTROL HTML のテキストバージョンが空です]**：メール本文のテキストバージョンを必ず定義してください。このバージョンは、HTML コンテンツを表示できない場合に使用されます。テキストバージョンの作成方法については、[この節](text-version-email.md)を参照してください。
+   * **[!UICONTROL HTML のテキストバージョンが空です]**：メール本文のテキストバージョンを必ず定義してください。このバージョンは、HTML コンテンツを表示できない場合に使用されます。 テキストバージョンの作成方法については、[この節](text-version-email.md)を参照してください。
 
-   * **[!UICONTROL メールの本文に空のリンクが存在します]**：メール内のすべてのリンクが正しいことを確認します。コンテンツとリンクの管理方法については、[この節](content-from-scratch.md)を参照してください。
+   * **[!UICONTROL メールの本文に空のリンクが存在します]**：メール内のすべてのリンクが正しいことを確認します。 コンテンツとリンクの管理方法については、[この節](content-from-scratch.md)を参照してください。
 
-   * **[!UICONTROL メールのサイズが 100KB の制限を超えています]**：配信を最適化するには、メールのサイズが 100KB を超えないようにしてください。メールコンテンツの編集方法については、[この節](content-from-scratch.md)を参照してください。
+   * **[!UICONTROL メールのサイズが 100KB の制限を超えています]**：配信を最適化するには、メールのサイズが 100KB を超えないようにしてください。 メールコンテンツの編集方法については、[この節](content-from-scratch.md)を参照してください。
 
 * **エラー**（例えば次のようなもの）が解決されない限り、ジャーニー／キャンペーンのテストやアクティブ化はできません。
 
-   * **[!UICONTROL 件名行がありません]**：電子メールの件名は必須です。定義およびパーソナライズの方法については、[この節](create-email.md)で説明します。
+   * **[!UICONTROL 件名行がありません]**：電子メールの件名は必須です。 定義およびパーソナライズの方法については、[この節](create-email.md)で説明します。
 
   <!--HTML is empty when Amp HTML is present-->
 
-   * **[!UICONTROL メッセージの電子メールバージョンが空です]**：このエラーは、電子メールのコンテンツが設定されていない場合に表示されます。メールコンテンツの設計方法については、[この節](get-started-email-design.md)を参照してください。
+   * **[!UICONTROL メッセージの電子メールバージョンが空です]**：このエラーは、電子メールのコンテンツが設定されていない場合に表示されます。 メールコンテンツの設計方法については、[この節](get-started-email-design.md)を参照してください。
 
-   * **[!UICONTROL 設定が存在しません]**：選択した設定がメッセージの作成後に削除された場合は、メッセージを使用できません。このエラーが発生した場合は、メッセージ&#x200B;**[!UICONTROL プロパティ]**&#x200B;で別の設定を選択します。チャネル設定について詳しくは、[この節](../configuration/channel-surfaces.md)を参照してください。
+   * **[!UICONTROL 設定が存在しません]**：選択した設定がメッセージの作成後に削除された場合は、メッセージを使用できません。 このエラーが発生した場合は、メッセージ&#x200B;**[!UICONTROL プロパティ]**&#x200B;で別の設定を選択します。 チャネル設定について詳しくは、[この節](../configuration/channel-surfaces.md)を参照してください。
 
 >[!CAUTION]
 >
@@ -175,13 +175,13 @@ From the **[!UICONTROL Action]** section, specify if you want to track how your 
 
 ## メールの確認および送信
 
-メッセージコンテンツを定義したら、テストプロファイルを使用してメッセージをプレビューし、配達確認を送信し、一般的なデスクトップ、モバイルおよび web ベースのクライアントでのレンダリングを制御できます。パーソナライズされたコンテンツを挿入した場合は、そのコンテンツがメッセージにどのように表示されるかを、テストプロファイルデータを使用して確認できます。
+メッセージコンテンツを定義したら、テストプロファイルを使用してメッセージをプレビューし、配達確認を送信し、一般的なデスクトップ、モバイルおよび web ベースのクライアントでのレンダリングを制御できます。 パーソナライズされたコンテンツを挿入した場合は、そのコンテンツがメッセージにどのように表示されるかを、テストプロファイルデータを使用して確認できます。
 
 また、コンテンツの品質を検証して、読みやすさ、効果、コンテンツの包括性を評価することもできます。 [コンテンツ品質の検証の詳細情報](../content-management/brands-score.md#validate-quality)
 
 >[!NOTE]
 >
->テストプロファイルに加えて、[!DNL Journey optimizer] を使用すると、CSV／JSON ファイルからアップロードした、または手動で追加したサンプル入力データを使用してコンテンツをプレビューし、本配信前確認を送信することで、コンテンツの様々なバリアントをテストできます。[コンテンツバリエーションのシミュレート方法を学ぶ](../test-approve/simulate-sample-input.md)
+>テストプロファイルに加えて、[!DNL Journey optimizer] を使用すると、CSV／JSON ファイルからアップロードした、または手動で追加したサンプル入力データを使用してコンテンツをプレビューし、本配信前確認を送信することで、コンテンツの様々なバリアントをテストできます。 [コンテンツバリエーションのシミュレート方法を学ぶ](../test-approve/simulate-sample-input.md)
 
 これを行うには、「**[!UICONTROL コンテンツをシミュレート]**」をクリックし、テストプロファイルを追加し、テストプロファイルデータを使用してメッセージを確認します。
 

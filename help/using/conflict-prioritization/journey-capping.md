@@ -4,7 +4,7 @@ description: ジャーニーのキャップルールを作成する方法と、�
 role: User
 level: Beginner
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
-source-git-commit: 07f842fbb1c495c39f4e225c1d0089667c5d6f40
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 98%
@@ -115,8 +115,8 @@ ht-degree: 98%
 
 ![](assets/journey-report.png)
 
-さらに、[Adobe Experience Platform クエリサービス](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ja){target="_blank"}を使用してクエリを作成し、プロファイルが特定のジャーニーにエントリしない原因となったルールを特定できます。 破棄のサブ理由（`CAP_REACHED`または`LOWER_PRIORITY`）を含むクエリの例は、[このセクション &#x200B;](../reports/query-examples.md#business-rules-queries)で利用できます。
+さらに、[Adobe Experience Platform クエリサービス](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ja){target="_blank"}を使用してクエリを作成し、プロファイルが特定のジャーニーにエントリしない原因となったルールを特定できます。 破棄のサブ理由（`CAP_REACHED`または`LOWER_PRIORITY`）を含むクエリの例は、[このセクション ](../reports/query-examples.md#business-rules-queries)で利用できます。
 
 ## チュートリアルビデオ {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3447613?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)

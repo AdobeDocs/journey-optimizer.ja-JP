@@ -10,10 +10,10 @@ level: Intermediate
 keywords: ターゲティング，ルール，ジャーニー，パス，最適化，パーソナライゼーション
 exl-id: b30ce5c9-a0e2-4601-97a3-5bec648368e4
 badge: label="限定提供" type="Informative"
-source-git-commit: e61af5e3822440d5c71dfd56d86ef79f6ce2c6ca
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 88%
+source-wordcount: '812'
+ht-degree: 90%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 88%
 >[!CONTEXTUALHELP]
 >id="ajo_path_targeting_fallback"
 >title="フォールバックパスとは"
->abstract="フォールバックパスを使用すると、ターゲティングルールが選定されていない場合に、オーディエンスは代替パスにエントリできます。</br>このオプションを選択しない場合、ターゲティングルールに選定されていないオーディエンスはフォールバックパスにエントリせずにジャーニーを終了します。"
+>abstract="フォールバックパスを使用すると、ターゲティングルールが選定されていない場合に、オーディエンスは代替パスにエントリできます。 </br>このオプションを選択しない場合、ターゲティングルールに選定されていないオーディエンスはフォールバックパスにエントリせずにジャーニーを終了します。"
 
 >[!AVAILABILITY]
 >
@@ -62,17 +62,17 @@ With targeting, specific rules can be defined based on:
 
    ![ゴールドメンバーとゴールド以外のメンバーのロイヤルティステータスターゲティングルール](assets/journey-targeting-rule.png)
 
-1. また、**[!UICONTROL ルールを作成]**／**[!UICONTROL ルールを選択]**&#x200B;をクリックして、**[!UICONTROL ルール]**&#x200B;メニューから作成した既存のターゲティングルールを選択することもできます。[詳細情報](../experience-decisioning/rules.md)
+1. また、**[!UICONTROL ルールを作成]**／**[!UICONTROL ルールを選択]**&#x200B;をクリックして、**[!UICONTROL ルール]**&#x200B;メニューから作成した既存のターゲティングルールを選択することもできます。 [詳細情報](../experience-decisioning/rules.md)
 
    ![ルールメニューから既存のターゲティングルールを選択](assets/journey-targeting-select-rule.png){width=70%}
 
-   この場合、ルールを構成する数式がジャーニーアクティビティにシンプルにコピーされます。その後、**[!UICONTROL ルール]**&#x200B;メニューからそのルールを変更しても、ジャーニーのコピーには影響しません。
+   この場合、ルールを構成する数式がジャーニーアクティビティにシンプルにコピーされます。 その後、**[!UICONTROL ルール]**&#x200B;メニューからそのルールを変更しても、ジャーニーのコピーには影響しません。
 
    >[!AVAILABILITY]
    >
    >専用の [!DNL Journey Optimizer] メニューから[ターゲティングルールを作成](../experience-decisioning/rules.md#create)できるのは、現在、決定アドオン機能を購入した組織で、他の組織ではオンデマンドで使用できます（限定提供）。
    >
-   >この機能は、すべての顧客に段階的にロールアウトされる予定です。それまでの間、アクセス権を取得するには、アドビ担当者にお問い合わせください。
+   >この機能は、すべての顧客に段階的にロールアウトされる予定です。 それまでの間、アクセス権を取得するには、アドビ担当者にお問い合わせください。
 
 1. ルールを追加したら、引き続き変更できます。 ルールビルダーを使用して外出先で更新するには「**[!UICONTROL インラインで編集]**」を選択し、別の既存のルールを選択するには「**[!UICONTROL ルールを選択]**」を選択します。
 
@@ -82,7 +82,7 @@ With targeting, specific rules can be defined based on:
    >
    >ルールをインラインで編集しても、そのルールの元となる既存のルールには影響しません。
 
-1. 必要に応じて、「**[!UICONTROL フォールバックパスを有効にする]**」オプションを選択します。このアクションにより、上記で定義したどのターゲティングルールも満たさないオーディエンスに対してフォールバックパスが作成されます。
+1. 必要に応じて、「**[!UICONTROL フォールバックパスを有効にする]**」オプションを選択します。 このアクションにより、上記で定義したどのターゲティングルールも満たさないオーディエンスに対してフォールバックパスが作成されます。
 
    >[!NOTE]
    >
@@ -90,7 +90,7 @@ With targeting, specific rules can be defined based on:
 
 1. 「**[!UICONTROL 作成]**」をクリックして、ターゲティングルールの設定を保存します。
 
-1. ジャーニーに戻り、特定のアクションをドロップして各パスをカスタマイズします。例えば、ゴールドロイヤルティメンバー向けにパーソナライズされたオファーを含むメールを作成し、他のすべてのメンバー向けには SMS リマインダーを作成します。
+1. ジャーニーに戻り、特定のアクションをドロップして各パスをカスタマイズします。 例えば、ゴールドロイヤルティメンバー向けにパーソナライズされたオファーを含むメールを作成し、他のすべてのメンバー向けには SMS リマインダーを作成します。
 
    ![ゴールドメンバーにはメール、他のメンバーには SMS を使用したジャーニーパス](assets/journey-targeting-paths.png)
 
@@ -100,7 +100,7 @@ With targeting, specific rules can be defined based on:
 
 1. オプションとして、**[!UICONTROL タイムアウトまたはエラーが発生した場合に代替パスを追加]**&#x200B;し、問題が発生した場合に代替アクションを定義します。 [詳細情報](using-the-journey-designer.md#paths)
 
-1. ターゲティングルール設定で定義された各グループに対応する各アクションに対して、適切なコンテンツをデザインします。
+1. ターゲティングルールの設定で定義した各グループに対応する各アクションに適切なコンテンツを設計します。
 
    この例では、ゴールド メンバーの特別オファーと、他のメンバーのSMS リマインダーを含むメールをデザインします。<!--You can seamlessly navigate between the different contents for each action. ![Content design panel for targeting rule actions](assets/journey-targeting-design.png)-->
 
@@ -108,7 +108,7 @@ With targeting, specific rules can be defined based on:
 
 ジャーニーがライブになると、各セグメントに指定したパスが処理され、ゴールドメンバーはメールオファーを含むパスにエントリし、他のメンバーは SMS リマインダーを含むパスにエントリするようになります。
 
-ジャーニーレポートを使用して、ジャーニーの成功を追跡します。[詳細情報](../reports/journey-global-report-cja.md#targeting)
+ジャーニーレポートを使用して、ジャーニーの成功を追跡します。 [詳細情報](../reports/journey-global-report-cja.md#targeting)
 
 ## ターゲティングルールのユースケース {#uc-targeting}
 

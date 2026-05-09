@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 keywords: 設定, メール, 設定, サブドメイン
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
-source-git-commit: 416b01e42d3a693573d29123e6b0c618156654fd
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '1214'
 ht-degree: 95%
@@ -93,7 +93,7 @@ ht-degree: 95%
 >[!NOTE]
 >
 >* **[!UICONTROL エラー電子メール プレフィックス]** フィールドを除き、すべての&#x200B;**[!UICONTROL ヘッダーパラメーター]**&#x200B;およびオプションの&#x200B;**[!UICONTROL 送信者ヘッダー]** フィールドをパーソナライズできます。
->* メール設定を[編集する場合](../configuration/channel-surfaces.md#edit-channel-surface)、ヘッダーパラメーターに新しい[&#x200B; プロファイル属性](../personalization/personalization-build-expressions.md#sources)を追加できません。代わりに新しいチャネル設定を作成する必要があります。
+>* メール設定を[編集する場合](../configuration/channel-surfaces.md#edit-channel-surface)、ヘッダーパラメーターに新しい[ プロファイル属性](../personalization/personalization-build-expressions.md#sources)を追加できません。代わりに新しいチャネル設定を作成する必要があります。
 
 例えば、ブランドが複数ある場合は、単一の設定を作成し、メールヘッダーにパーソナライズされた値を使用できます。 これにより、様々なブランドから送信されるすべてのメールが、正しい&#x200B;**送信元**&#x200B;の名前とメールアドレスを使用して、各顧客に送信されるようになります。 同様に、受信者がメールクライアントソフトウェアの「**返信**」ボタンを押した際、**返信先**&#x200B;の名前とメールアドレスが、適切なユーザーの正しいブランドに対応するようにする必要があります。
 

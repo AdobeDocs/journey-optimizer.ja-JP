@@ -7,7 +7,7 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
-source-git-commit: d999f48597fab65e7239883f6b40c338532f1ef1
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '2818'
 ht-degree: 9%
@@ -175,7 +175,7 @@ SinchとSinch Conversationalの場合は、インバウンドイベントとフ�
 
 Webhookが既存のチャネル設定に添付されたAPI資格情報を使用する場合、Webhookはすぐに有効になります。 それ以外は、新しいチャネル設定を作成します。
 
-➡️[&#x200B; チャネル設定の詳細](sms-configuration-surface.md)
+➡️[ チャネル設定の詳細](sms-configuration-surface.md)
 
 ### Infobip用 {#create-webhook-infobip}
 
@@ -283,7 +283,7 @@ Infobipの場合は、フィードバックイベント用とインバウンド�
 
 Webhookが既存のチャネル設定に添付されたAPI資格情報を使用する場合、Webhookはすぐに有効になります。 それ以外は、新しいチャネル設定を作成します。
 
-➡️[&#x200B; チャネル設定の詳細](sms-configuration-surface.md)
+➡️[ チャネル設定の詳細](sms-configuration-surface.md)
 
 ### カスタムプロバイダーの場合 {#create-webhook-custom}
 
@@ -438,4 +438,4 @@ Webhookが既存のチャネル設定に添付されたAPI資格情報を使用�
 
 Webhookが既存のチャネル設定に添付されたAPI資格情報を使用する場合、Webhookはすぐに有効になります。 それ以外は、新しいチャネル設定を作成します。
 
-➡️[&#x200B; チャネル設定の詳細](sms-configuration-surface.md)
+➡️[ チャネル設定の詳細](sms-configuration-surface.md)

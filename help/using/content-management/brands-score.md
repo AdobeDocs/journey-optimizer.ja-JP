@@ -5,10 +5,10 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner, Intermediate
 exl-id: 01e74670-7431-4791-b98c-12278e6d3332
-source-git-commit: cd85a3916735373c2cb63f0ad517ff7e5fbf001c
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 40%
+source-wordcount: '667'
+ht-degree: 43%
 
 ---
 
@@ -36,9 +36,9 @@ ht-degree: 40%
 
 >[!AVAILABILITY]
 >
->Adobe Journey Optimizer で AI アシスタントを使用する前に、[ユーザー契約](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}に同意する必要があります。詳しくは、アドビ担当者にお問い合わせください。
+>Adobe Journey Optimizer で AI アシスタントを使用する前に、[ユーザー契約](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}に同意する必要があります。 詳しくは、アドビ担当者にお問い合わせください。
 
-ブランド一致機能は、ブランドガイドラインに準拠したコンテンツの作成、レビュー、管理に役立ちます。この機能を使用すると、メールキャンペーン全体のトーン、メッセージ、ビジュアルアイデンティティの一貫性を確保するだけでなく、コンテンツ公開前に品質チェックを行うことができます。
+ブランド一致機能は、ブランドガイドラインに準拠したコンテンツの作成、レビュー、管理に役立ちます。 この機能を使用すると、メールキャンペーン全体のトーン、メッセージ、ビジュアルアイデンティティの一貫性を確保するだけでなく、コンテンツ公開前に品質チェックを行うことができます。
 
 ## ブランド一致を使用したコンテンツの検証 {#validate-content}
 
@@ -48,7 +48,7 @@ ht-degree: 40%
 
 1. E メールデザイナーで&#x200B;**[!UICONTROL ブランド一致]**&#x200B;メニューを開きます。
 
-   コンテンツは、デフォルトのブランドに対して自動的に評価されます。[詳しくは、デフォルトのブランドの割り当て方法を参照してください](brands.md)。
+   コンテンツは、デフォルトのブランドに対して自動的に評価されます。 [詳しくは、デフォルトのブランドの割り当て方法を参照してください](brands.md)。
 
    ![](assets/brand-score-1.png)
 
@@ -64,7 +64,7 @@ ht-degree: 40%
 
    ![](assets/brand-score-5.png)
 
-1. フラグ付きのガイドラインを選択して、特定のフィードバックと提案を表示します。 ブランドの整合性では、次のカテゴリが評価されます。
+1. フラグ付けされたガイドラインを選択して、特定のフィードバックと提案を表示します。 ブランドの整合性では、次のカテゴリが評価されます。
 
    * **[!UICONTROL 書き方]**:
       * **[!UICONTROL ブランドコミュニケーションスタイル]**：すべてのチャネルで一貫したブランドボイスを確保するために、個性と感情のトーンを定義します。
@@ -134,6 +134,6 @@ ht-degree: 40%
 
 +++ こちらのビデオをご覧ください
 
->[!VIDEO](https://video.tv.adobe.com/v/3470547/?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470544/?learn=on)
 
 +++

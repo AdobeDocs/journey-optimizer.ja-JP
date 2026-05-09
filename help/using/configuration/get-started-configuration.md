@@ -9,10 +9,10 @@ exl-id: 0964a484-f957-4aae-a571-61b2a1615026
 feature: Application Settings
 topic: Administration
 keywords: 設定,メッセージ,チャネル,サンドボックス,Optimizer
-source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 87%
+source-wordcount: '471'
+ht-degree: 88%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 87%
 
 メッセージを送信するには、次の設定手順を実行する必要があります。
 
-1. [Adobe Journey Optimizer システム管理者](../start/path/administrator.md)として、チャネル固有の設定を定義します。これらの設定を行う方法について詳しくは、次のページを参照してください。
+1. [Adobe Journey Optimizer システム管理者](../start/path/administrator.md)として、チャネル固有の設定を定義します。 これらの設定を行う方法について詳しくは、次のページを参照してください。
 
    <table style="table-layout:fixed"><tr style="border: 0;">
     <td><a href="../email/get-started-email-config.md"><img alt="メール" src="../channels/assets/do-not-localize/email.png"></a>
@@ -52,29 +52,29 @@ ht-degree: 87%
     <div align="center"><a href="../content-card/content-card-configuration-prereq.md"><strong>コンテンツカード</strong></a></div></td>
     </tr></table>
 
-   その他のチャネルについては、[iOS ライブ アクティビティ &#x200B;](../mobile-live/mobile-live-configuration.md)、[WhatsApp](../whatsapp/whatsapp-configuration.md)、[LINE](../line/line-configuration.md)を参照してください。
+   その他のチャネルについては、[iOS ライブ アクティビティ ](../mobile-live/mobile-live-configuration.md)、[WhatsApp](../whatsapp/whatsapp-configuration.md)、[LINE](../line/line-configuration.md)を参照してください。
 
    >[!NOTE]
    >
-   >モバイルチャネルの場合、[ガイド付きチャネル設定](set-mobile-config.md)によってマーケティングチャネルを迅速に設定できるようになり、Experience Platform、Journey Optimizer およびデータ収集内で必要なすべてのリソースがすぐに使用できるようになります。これにより、マーケティングチームはキャンペーンとジャーニーの作成を開始できます。
+   >モバイルチャネルの場合、[ガイド付きチャネル設定](set-mobile-config.md)によってマーケティングチャネルを迅速に設定できるようになり、Experience Platform、Journey Optimizer およびデータ収集内で必要なすべてのリソースがすぐに使用できるようになります。 これにより、マーケティングチームはキャンペーンとジャーニーの作成を開始できます。
 
-1. 完了したら、**チャネル設定**&#x200B;を作成して、メッセージの配信に必要なすべての技術パラメーターを設定する必要があります。[詳しくは、チャネル設定を参照してください](channel-surfaces.md)
+1. 完了したら、**チャネル設定**&#x200B;を作成して、メッセージの配信に必要なすべての技術パラメーターを設定する必要があります。 [詳しくは、チャネル設定を参照してください](channel-surfaces.md)
 
 1. 使用しているチャネル、環境、ニーズに応じて、次の手順も実行する必要があります。
 
    * [メール](about-subdomain-delegation.md)、[SMS](../sms/sms-subdomains.md)、[ランディングページ](../landing-pages/lp-subdomains.md)、[web エクスペリエンス](../web/web-delegated-subdomains.md)などのチャネルのサブドメイン設定とデリゲーション。
 
-   * 最適な配信品質を実現するために、IP ウォームアッププランを設定します。[詳細情報](ip-warmup-gs.md)
+   * 最適な配信品質を実現するために、IP ウォームアッププランを設定します。 [詳細情報](ip-warmup-gs.md)
 
-   * メール送信用の許可リストを定義します。[詳細情報](allow-list.md)
+   * メール送信用の許可リストを定義します。 [詳細情報](allow-list.md)
 
-   * 抑制リストにメールアドレスを送信する前に再試行が実行される日数を管理します。[詳細情報](manage-suppression-list.md)
+   * 抑制リストにメールアドレスを送信する前に再試行が実行される日数を管理します。 [詳細情報](manage-suppression-list.md)
 
-   * **「BCC メール」オプション**&#x200B;を有効にして、個人に送信されたメッセージのコピーを保持します。[詳細情報](archiving-support.md#enable-bcc)
+   * **「BCC メール」オプション**&#x200B;を有効にして、個人に送信されたメッセージのコピーを保持します。 [詳細情報](archiving-support.md#enable-bcc)
 
-   * **ビジネスルール**&#x200B;を設定して、受信者を過度に勧誘しないようにします。[詳細情報](../conflict-prioritization/rule-sets.md)
+   * **ビジネスルール**&#x200B;を設定して、受信者を過度に勧誘しないようにします。 [詳細情報](../conflict-prioritization/rule-sets.md)
 
-   * Adobe Experience Platform で使用可能なメールアドレス／電話番号が複数ある場合、受信者に優先して使用するメールアドレス／電話番号を決定します。[詳細情報](primary-email-addresses.md)
+   * Adobe Experience Platform で使用可能なメールアドレス／電話番号が複数ある場合、受信者に優先して使用するメールアドレス／電話番号を決定します。 [詳細情報](primary-email-addresses.md)
 
 ## その他のリソース
 

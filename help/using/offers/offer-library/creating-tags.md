@@ -10,9 +10,9 @@ role: User
 level: Intermediate
 exl-id: fe2b7ce4-dc63-477a-a64f-f3828c6a232e
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '205'
 ht-degree: 100%
 
 ---
@@ -21,16 +21,16 @@ ht-degree: 100%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。 [詳細情報](../../experience-decisioning/gs-experience-decisioning.md)
 
 >[!CONTEXTUALHELP]
 >id="ajo_decisioning_offer_tags"
 >title="コレクション修飾子"
->abstract="1 つまたは複数のコレクション修飾子をオファーに関連付けて、オファーライブラリを整理し、オファーを見つけやすくします。コレクション修飾子は、「コンポーネント」メニューから作成します。"
+>abstract="1 つまたは複数のコレクション修飾子をオファーに関連付けて、オファーライブラリを整理し、オファーを見つけやすくします。 コレクション修飾子は、「コンポーネント」メニューから作成します。"
 
-コレクション修飾子（旧称：「タグ」）をオファーに関連付けると、オファーを整理しやすくなります。 例えば、ブラックフライデーのオファーに「ブラックフライデー」コレクション修飾子のラベルを付けることができます。オファーライブラリの検索機能を使用すると、そのコレクション修飾子を持つすべてのオファーを簡単に見つけることができます。
+コレクション修飾子（旧称：「タグ」）をオファーに関連付けると、オファーを整理しやすくなります。 例えば、ブラックフライデーのオファーに「ブラックフライデー」コレクション修飾子のラベルを付けることができます。 オファーライブラリの検索機能を使用すると、そのコレクション修飾子を持つすべてのオファーを簡単に見つけることができます。
 
-また、コレクション修飾子を使用して、オファーをオファーコレクションにグループ化することもできます。詳しくは、[コレクションの作成](../offer-library/creating-collections.md)を参照してください。
+また、コレクション修飾子を使用して、オファーをオファーコレクションにグループ化することもできます。 詳しくは、[コレクションの作成](../offer-library/creating-collections.md)を参照してください。
 
 ➡️ [この機能について詳しくは、ビデオを参照してください。](#video)
 
@@ -46,10 +46,10 @@ ht-degree: 100%
 
    ![](../assets/tags_create.png)
 
-1. コレクション修飾子が作成されると、リストに表示されます。タグを選択してプロパティを表示できます。また、タグを編集したり抑制したりできます。
+1. コレクション修飾子が作成されると、リストに表示されます。 タグを選択してプロパティを表示できます。また、タグを編集したり抑制したりできます。
 
    ![](../assets/tags_created.png)
 
 ## チュートリアルビデオ {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341372?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329374?quality=12)

@@ -5,7 +5,7 @@ title: ディメンションを変更アクティビティの使用
 description: ディメンションの変更アクティビティの使用方法を説明します
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
 version: Campaign Orchestration
-source-git-commit: 0980d5da677edb4cf21b7a86549ffc32d0b666a1
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 63%

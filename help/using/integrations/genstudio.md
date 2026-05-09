@@ -9,9 +9,9 @@ badge: label="限定提供" type="Informative"
 role: User
 level: Beginner, Intermediate
 exl-id: c22a44a8-e4e2-453a-9ca2-b80f7c0edc19
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1334'
 ht-degree: 99%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 99%
 
 ## GenStudio の基本を学ぶ {#gs-genstudio}
 
-[Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/home){target="_blank"} は、マーケティングチームが独自の広告やメールを作成し、ブランド標準および企業ポリシーに準拠した、効果的でパーソナライズされたマーケティングキャンペーンを推進できるようにする生成 AI 中心のアプリケーションです。アドビの AI テクノロジーを活用することで、コンテンツの作成と管理の複雑さを軽減し、クリエイターが革新性に焦点を当てることができるようにする包括的なツールスイートを提供します。
+[Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/home){target="_blank"} は、マーケティングチームが独自の広告やメールを作成し、ブランド標準および企業ポリシーに準拠した、効果的でパーソナライズされたマーケティングキャンペーンを推進できるようにする生成 AI 中心のアプリケーションです。 アドビの AI テクノロジーを活用することで、コンテンツの作成と管理の複雑さを軽減し、クリエイターが革新性に焦点を当てることができるようにする包括的なツールスイートを提供します。
 
 >[!AVAILABILITY]
 >
@@ -33,13 +33,13 @@ ht-degree: 99%
 >
 >* この機能は、メールチャネルでのみ使用できます。
 
-マーケティング効率を高め、ブランドの一貫性を維持するには、[!DNL **GenStudio for Performance Marketing**] エクスペリエンスを [!DNL **Adobe Journey Optimizer**] とシームレスに統合できます。これにより、[!DNL GenStudio] の AI を活用したコンテンツ作成と [!DNL Journey Optimizer] の高度なオーケストレーション機能を活用できるようになります。
+マーケティング効率を高め、ブランドの一貫性を維持するには、[!DNL **GenStudio for Performance Marketing**] エクスペリエンスを [!DNL **Adobe Journey Optimizer**] とシームレスに統合できます。 これにより、[!DNL GenStudio] の AI を活用したコンテンツ作成と [!DNL Journey Optimizer] の高度なオーケストレーション機能を活用できるようになります。
 
 ![Adobe Journey Optimizer への GenStudio コンテンツのインポート](../rn/assets/do-not-localize/genstudio.gif)
 
 >[!INFO]
 >
->詳しくは、この[概要](https://business.adobe.com/jp/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"}と [!DNL Adobe GenStudio for Performance Marketing] の[デモ](https://business.adobe.com/jp/products/genstudio-for-performance-marketing.html#demo){target="_blank"}を参照してください。
+>詳しくは、この[概要](https://business.adobe.com/products/genstudio-for-performance-marketing.html#watch-overview){target="_blank"}と [!DNL Adobe GenStudio for Performance Marketing] の[デモ](https://business.adobe.com/products/genstudio-for-performance-marketing.html#demo){target="_blank"}を参照してください。
 
 ➡️ [この機能をビデオで確認](#video)
 
@@ -51,7 +51,7 @@ ht-degree: 99%
 
 * [!DNL GenStudio for Performance Marketing] と [!DNL Adobe Journey Optimizer] の両方が同じ IMS 組織に属している必要があります。
 
-* 統合機能を利用するには、ユーザーは [!DNL GenStudio for Performance Marketing] で少なくとも&#x200B;**共同作業者**&#x200B;の役割またはそれ以上の役割を持っている必要があります。[GenStudio のユーザーの役割の詳細情報](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles){target="_blank"}
+* 統合機能を利用するには、ユーザーは [!DNL GenStudio for Performance Marketing] で少なくとも&#x200B;**共同作業者**&#x200B;の役割またはそれ以上の役割を持っている必要があります。 [GenStudio のユーザーの役割の詳細情報](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles){target="_blank"}
 
 <!--
 To access the GenStudio integration in [!DNL Adobe Journey Optimizer] feature, users need to be granted the **xxx** permission. [Learn more](../administration/permissions.md)
@@ -111,9 +111,9 @@ The following limitations apply to GenStudio integration in [!DNL Adobe Journey 
 
 ### Journey Optimizer から GenStudio への HTML テンプレートの書き出し {#export-from-ajo-to-genstudio}
 
-まず、ブランドのガイドラインを含む [!DNL Journey Optimizer] の HTML テンプレートを [!DNL GenStudio for Performance Marketing] に書き出します。次の手順に従います。
+まず、ブランドのガイドラインを含む [!DNL Journey Optimizer] の HTML テンプレートを [!DNL GenStudio for Performance Marketing] に書き出します。 次の手順に従います。
 
-1. [!DNL Journey Optimizer] で、ジャーニーまたはキャンペーンのメールのコンテンツにアクセスします。[方法についてはこちらを参照](../email/get-started-email-design.md#key-steps)
+1. [!DNL Journey Optimizer] で、ジャーニーまたはキャンペーンのメールのコンテンツにアクセスします。 [方法についてはこちらを参照](../email/get-started-email-design.md#key-steps)
 
 1. E メールデザイナーで、「**[!UICONTROL 詳細]**」ボタンから「**[!UICONTROL HTML をエクスポート]**」を選択します。
 
@@ -133,17 +133,17 @@ The following limitations apply to GenStudio integration in [!DNL Adobe Journey 
 
 ### Journey Optimizer での GenStudio エクスペリエンスの活用 {#leverage-genstudio-experiences}
 
-GenStudio でメールのバリエーションを作成したら、[!DNL Journey Optimizer] にインポートしてキャンペーンで使用します。次の手順に従います。
+GenStudio でメールのバリエーションを作成したら、[!DNL Journey Optimizer] にインポートしてキャンペーンで使用します。 次の手順に従います。
 
 1. [!DNL Journey Optimizer] で、キャンペーンに[メールを追加](../email/create-email.md)します。
 
-1. キャンペーンの設定画面で、[コンテンツを編集画面](../email/create-email.md#define-email-content)に移動し、「**[!UICONTROL メール本文を編集]**」をクリックして、E メールデザイナーを開きます。[方法についてはこちらを参照](../email/get-started-email-design.md#key-steps)
+1. キャンペーンの設定画面で、[コンテンツを編集画面](../email/create-email.md#define-email-content)に移動し、「**[!UICONTROL メール本文を編集]**」をクリックして、E メールデザイナーを開きます。 [方法についてはこちらを参照](../email/get-started-email-design.md#key-steps)
 
 1. E メールデザイナーのホームページで、「**[!UICONTROL HTML をインポート]**」を選択し、「**[!UICONTROL Adobe GenStudio for Performance Marketing]**」ボタンをクリックします。
 
    ![](assets/genstudio-pem-import-email.png){zoomable="yes"}
 
-1. GenStudio エクスペリエンスを参照して、コンテンツの作成を開始します。製品、ペルソナ、ブランド、カラーなど、複数の条件でエクスペリエンスをフィルタリングできます。
+1. GenStudio エクスペリエンスを参照して、コンテンツの作成を開始します。 製品、ペルソナ、ブランド、カラーなど、複数の条件でエクスペリエンスをフィルタリングできます。
 
    <!--![](assets/genstudio-filter-experiences.png){zoomable="yes"}-->
 
@@ -161,11 +161,11 @@ GenStudio でメールのバリエーションを作成したら、[!DNL Journey
 
    >[!NOTE]
    >
-   >[&#x200B; [!DNL Journey Optimizer]  テンプレートから作成](#export-from-ajo-to-genstudio)した GenStudio エクスペリエンスは、完全な編集機能を備えて E メールデザイナーに直接インポートされます。[!DNL Journey Optimizer] テンプレートを使用せずに作成した GenStudio エクスペリエンスは、[互換モード](../email/existing-content.md)にインポートされますが、編集機能が制限される場合があります。
+   >[ [!DNL Journey Optimizer]  テンプレートから作成](#export-from-ajo-to-genstudio)した GenStudio エクスペリエンスは、完全な編集機能を備えて E メールデザイナーに直接インポートされます。 [!DNL Journey Optimizer] テンプレートを使用せずに作成した GenStudio エクスペリエンスは、[互換モード](../email/existing-content.md)にインポートされますが、編集機能が制限される場合があります。
 
-1. [メールコンテンツ編集ツール](../email/content-from-scratch.md)と[パーソナライゼーションフィールド](../personalization/personalize.md)を使用して、必要に応じてメールを編集します。コンテンツを保存します。
+1. [メールコンテンツ編集ツール](../email/content-from-scratch.md)と[パーソナライゼーションフィールド](../personalization/personalize.md)を使用して、必要に応じてメールを編集します。 コンテンツを保存します。
 
-1. キャンペーンの概要ページに戻り、「**[!UICONTROL 実験を作成]**」をクリックして、実験を使用します。[詳しくは、コンテンツ実験の作成方法を参照してください](../content-management/content-experiment.md)
+1. キャンペーンの概要ページに戻り、「**[!UICONTROL 実験を作成]**」をクリックして、実験を使用します。 [詳しくは、コンテンツ実験の作成方法を参照してください](../content-management/content-experiment.md)
 
    <!--![](assets/genstudio-create-experiment.png){zoomable="yes"}-->
 
@@ -175,7 +175,7 @@ GenStudio でメールのバリエーションを作成したら、[!DNL Journey
 
 1. 変更を保存し、キャンペーンを[アクティベート](../campaigns/review-activate-campaign.md)します。
 
-1. 実験を実行した後、[実験キャンペーンレポート](../reports/campaign-global-report-cja-experimentation.md)を使用して、キャンペーン処理のパフォーマンスを追跡します。その後、実験の結果を解釈できます。[方法についてはこちらを参照](../content-management/get-started-experiment.md#interpret-results)
+1. 実験を実行した後、[実験キャンペーンレポート](../reports/campaign-global-report-cja-experimentation.md)を使用して、キャンペーン処理のパフォーマンスを追跡します。 その後、実験の結果を解釈できます。 [方法についてはこちらを参照](../content-management/get-started-experiment.md#interpret-results)
 
 ## よくある質問 {#genstudio-faq}
 
@@ -183,7 +183,7 @@ GenStudio でメールのバリエーションを作成したら、[!DNL Journey
 
 +++メール以外のチャネルに GenStudio 統合を使用できますか？
 
-現在、[!DNL GenStudio for Performance Marketing] 統合はメールチャネルでのみ使用できます。その他のチャネルのサポートは、今後のリリースで追加される場合があります。
+現在、[!DNL GenStudio for Performance Marketing] 統合はメールチャネルでのみ使用できます。 その他のチャネルのサポートは、今後のリリースで追加される場合があります。
 +++
 
 +++GenStudio 統合は、すべての Journey Optimizer の顧客が使用できますか？
@@ -198,7 +198,7 @@ GenStudio でメールのバリエーションを作成したら、[!DNL Journey
 
 +++Journey Optimizer テンプレートを使用せずに作成した GenStudio エクスペリエンスはどうなりますか？
 
-[!DNL Journey Optimizer] テンプレートから作成した GenStudio エクスペリエンスは、E メールデザイナーに直接インポートされます。[!DNL Journey Optimizer] テンプレートを使用せずに作成した GenStudio エクスペリエンスは、[互換モード](../email/existing-content.md)に読み込まれます。
+[!DNL Journey Optimizer] テンプレートから作成した GenStudio エクスペリエンスは、E メールデザイナーに直接インポートされます。 [!DNL Journey Optimizer] テンプレートを使用せずに作成した GenStudio エクスペリエンスは、[互換モード](../email/existing-content.md)に読み込まれます。
 +++
 
 +++Journey Optimizer で複数の GenStudio メールのバリエーションをテストできますか？
@@ -208,7 +208,7 @@ GenStudio でメールのバリエーションを作成したら、[!DNL Journey
 
 +++GenStudio では、ブランドの一貫性をどのように確保していますか？
 
-GenStudio では、AI を活用したブランドチェックを使用して、生成されたすべてのコンテンツがブランドの標準とガイドラインに準拠していることを確認します。ブランド要素を含むテンプレートをアップロードすると、GenStudio では、プラットフォーム内で作成されたすべてのコンテンツのバリエーションにこれらの標準を適用します。
+GenStudio では、AI を活用したブランドチェックを使用して、生成されたすべてのコンテンツがブランドの標準とガイドラインに準拠していることを確認します。 ブランド要素を含むテンプレートをアップロードすると、GenStudio では、プラットフォーム内で作成されたすべてのコンテンツのバリエーションにこれらの標準を適用します。
 +++
 
 +++GenStudio エクスペリエンスで他のチームメンバーと共同作業できますか？
@@ -220,4 +220,4 @@ GenStudio では、AI を活用したブランドチェックを使用して、�
 
 Journey Optimizer から GenStudio for Performance Marketing にメールテンプレートをエクスポートし、GenStudio のテンプレートを使用してブランドに準拠したメールを作成し、Journey Optimizer にシームレスにインポートするプロセスについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3456050/?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3456038/?quality=12)

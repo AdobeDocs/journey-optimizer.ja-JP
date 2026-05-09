@@ -10,7 +10,7 @@ level: Intermediate
 keywords: ジャーニー、設定、プロパティ
 exl-id: 6c21371c-6cbc-4d39-8fe6-39f1b8b13280
 version: Journey Orchestration
-source-git-commit: 18984a14c6831c6476be18bd48266f3f265a7456
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '3633'
 ht-degree: 73%
@@ -41,7 +41,7 @@ ht-degree: 73%
 * ジャーニーとプロファイルの[タイムゾーン](#timezone)を選択します
 * カスタムの[開始日と終了日](#dates)を選択します
 * ジャーニーアクティビティの[タイムアウト期間](#timeout)を定義します（管理者ユーザーのみ）
-* 公開エラーを回避するために、[現在のジャーニーペイロードサイズ &#x200B;](#journey-payload-size)を監視します
+* 公開エラーを回避するために、[現在のジャーニーペイロードサイズ ](#journey-payload-size)を監視します
 * [競合管理ツール](#conflict)を使用して、競合を監視し、ジャーニーに優先順位を付けます
 
 ![一般設定と詳細設定オプションを含むジャーニープロパティ設定パネル](assets/new-journey-properties.png){width="80%"}{zoomable="yes"}
@@ -123,13 +123,13 @@ ht-degree: 73%
 
 ジャーニープロパティパネルの&#x200B;**[!UICONTROL 現在のジャーニーペイロードサイズ]** フィールドには、設定された制限に関するジャーニーのペイロードの現在のサイズが表示されます（例：*1.5 MB （2 MB中）*）。 この読み取り専用インジケーターは、ジャーニーオーサリングのどの段階でも表示されます。
 
-![&#x200B; ジャーニープロパティパネルの現在のジャーニーペイロードサイズインジケーター](assets/journey-payload-size.png){width="50%" zoomable="yes"}
+![ ジャーニープロパティパネルの現在のジャーニーペイロードサイズインジケーター](assets/journey-payload-size.png){width="50%" zoomable="yes"}
 
 この情報を使用して、公開前にジャーニーの複雑さを監視します。 ペイロードのサイズが制限に近づいているか、制限を超えている場合、ジャーニーの公開は失敗します。 サイズを小さくするには、ジャーニーロジックを簡素化するか、アクティビティの数を減らすことを検討してください。
 
 デフォルトの制限は2 MBです。 お客様の組織の上限を引き上げる必要がある場合は、Adobe カスタマーケアにお問い合わせください。
 
-しきい値、警告とエラーメッセージ、およびトラブルシューティング手順の詳細については、[ジャーニーペイロードサイズの検証](../start/guardrails.md#journey-payload-size)および[一般的なジャーニーガードレール &#x200B;](../start/guardrails.md#journeys-guardrails-journeys)を参照してください。
+しきい値、警告とエラーメッセージ、およびトラブルシューティング手順の詳細については、[ジャーニーペイロードサイズの検証](../start/guardrails.md#journey-payload-size)および[一般的なジャーニーガードレール ](../start/guardrails.md#journeys-guardrails-journeys)を参照してください。
 
 ## ジャーニーとプロファイルのタイムゾーン {#timezone}
 
@@ -327,7 +327,7 @@ ht-degree: 73%
 
 [!DNL Adobe Journey Optimizer]は、ジャーニー全体で使用される結合ポリシーを適用します。 したがって、1 つのジャーニーで複数のオーディエンスが使用されている場合（例：[`inAudience` 関数](functions/functioninaudience.md)内での使用）、これにより、ジャーニーで使用される結合ポリシーとの不一致が生じると、エラーが発生して、公開がブロックされます。 ただし、メッセージのパーソナライゼーションで一貫性のないオーディエンスが使用されると、一貫性がないにもかかわらず、アラートは発生しません。 このため、このオーディエンスをメッセージのパーソナライゼーションに使用する場合は、オーディエンスに関連付けられた結合ポリシーを確認することを強くお勧めします。
 
-結合ポリシーについて詳しくは、[[!DNL Adobe Experience Platform]  ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/merge-policies/overview){target="_blank"}を参照してください。
+結合ポリシーについて詳しくは、[[!DNL Adobe Experience Platform]  ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/merge-policies/overview){target="_blank"}を参照してください。
 
 >[!NOTE]
 >
@@ -413,7 +413,7 @@ ht-degree: 73%
 
 * [ジャーニーのエントリ条件と終了条件ガイド](entry-exit-criteria-guide.md) - 実際の例とベストプラクティスを含む完全なガイド
 * [プロファイルエントリ管理](entry-management.md) - プロファイルがジャーニーにエントリする方法を設定します
-* [&#x200B; ジャーニーの終了方法](end-journey.md) - 自然なジャーニーの完了について説明します
+* [ ジャーニーの終了方法](end-journey.md) - 自然なジャーニーの完了について説明します
 * [プロファイル属性終了条件を使用したジャーニーの一時停止](journey-pause.md#journey-exit-criteria) - ジャーニーを一時停止する際に終了条件を使用します
 
 ## ジャーニースケジュール {#schedule}
@@ -422,7 +422,7 @@ ht-degree: 73%
 
 >[!TIP]
 >
->ジャーニーのスケジュールを設定する際に、ウェーブ送信を設定して、ジャーニーアクションを時間をかけて一括で配信することもできます。 [&#x200B; ジャーニーでウェーブを使用して送信する方法を学ぶ](send-using-waves.md)
+>ジャーニーのスケジュールを設定する際に、ウェーブ送信を設定して、ジャーニーアクションを時間をかけて一括で配信することもできます。 [ ジャーニーでウェーブを使用して送信する方法を学ぶ](send-using-waves.md)
 
 
 ## 競合管理 {#conflict}
@@ -439,9 +439,9 @@ ht-degree: 73%
 
 ## 関連トピック {#related-topics}
 
-* [&#x200B; プロファイルのエントリ管理](entry-management.md) - プロファイルがジャーニーを入力および再入力する方法を設定します
+* [ プロファイルのエントリ管理](entry-management.md) - プロファイルがジャーニーを入力および再入力する方法を設定します
 * [ジャーニーのエントリ条件と終了条件ガイド](entry-exit-criteria-guide.md) - 実際の例とベストプラクティスを含む完全なガイド
-* [&#x200B; ジャーニーの終了方法](end-journey.md) – 自然なジャーニーの完了とプロファイルの終了について
-* [&#x200B; ジャーニーを一時停止](journey-pause.md) - プロファイル属性の終了条件を使用してジャーニーを一時停止および再開する
-* [&#x200B; タイムゾーン管理](timezone-management.md) - ジャーニーとプロファイルのタイムゾーンを設定します
+* [ ジャーニーの終了方法](end-journey.md) – 自然なジャーニーの完了とプロファイルの終了について
+* [ ジャーニーを一時停止](journey-pause.md) - プロファイル属性の終了条件を使用してジャーニーを一時停止および再開する
+* [ タイムゾーン管理](timezone-management.md) - ジャーニーとプロファイルのタイムゾーンを設定します
 * [競合管理と優先順位付け](../conflict-prioritization/conflicts.md) - ジャーニーとキャンペーン間の競合を特定して解決します

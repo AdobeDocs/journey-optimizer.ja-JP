@@ -8,7 +8,7 @@ role: Admin
 level: Intermediate
 keywords: 許可リスト, セーフリスト，メール，配信品質，サンドボックス，ドメイン，抑制，設定
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '1341'
 ht-degree: 73%
@@ -17,7 +17,7 @@ ht-degree: 73%
 
 # 許可リストの設定 {#allow-list}
 
-許可リストは、[&#x200B; サンドボックス &#x200B;](../administration/sandboxes.md) レベルで定義できる送信セーフ リストです。 特定のアドレスまたはドメインへのメール送信を制限し、明示的にリストされた受信者のみが、特定のサンドボックスからメッセージを受信できるようにします。
+許可リストは、[ サンドボックス ](../administration/sandboxes.md) レベルで定義できる送信セーフ リストです。 特定のアドレスまたはドメインへのメール送信を制限し、明示的にリストされた受信者のみが、特定のサンドボックスからメッセージを受信できるようにします。
 
 >[!CAUTION]
 >
@@ -33,7 +33,7 @@ Journey Optimizer **抑制REST API**&#x200B;を使用して、抑制と許可リ
 
 許可されたメールアドレスとドメインの詳細なリストにアクセスするには、**[!UICONTROL 管理]**／**[!UICONTROL チャネル]**／**[!UICONTROL メール設定]**&#x200B;に移動し、「**[!UICONTROL 許可リスト]**」を選択します。
 
-許可された電子メールアドレスと許可リストのリストを表示する![&#x200B; ドメインのページ &#x200B;](assets/allow-list-access.png)
+許可された電子メールアドレスと許可リストのリストを表示する![ ドメインのページ ](assets/allow-list-access.png)
 
 >[!CAUTION]
 >
@@ -45,7 +45,7 @@ Journey Optimizer **抑制REST API**&#x200B;を使用して、抑制と許可リ
 
 メールアドレスまたはドメインで検索し、**[!UICONTROL アドレスタイプ]**&#x200B;でフィルタリングできます。 選択したら、リストの上部に表示されているフィルターをクリアできます。
 
-アドレスの種類![&#128279;](assets/allowed-list-filtering-example.png)で許可リストがフィルタリングされました
+アドレスの種類](assets/allowed-list-filtering-example.png)で![許可リストがフィルタリングされました
 
 ## 許可リストをアクティブ化 {#enable-allow-list}
 
@@ -55,7 +55,7 @@ Journey Optimizer **抑制REST API**&#x200B;を使用して、抑制と許可リ
 
 1. 切替スイッチボタンを選択します。
 
-   ![許可リストをアクティブ化するための切り替えボタン &#x200B;](assets/allow-list-edit.png)
+   ![許可リストをアクティブ化するための切り替えボタン ](assets/allow-list-edit.png)
 
 1. 「**[!UICONTROL 許可リストをアクティブ化]**」を選択します。 許可リストがアクティブになりました。
 
@@ -64,7 +64,7 @@ Journey Optimizer **抑制REST API**&#x200B;を使用して、抑制と許可リ
    >[!NOTE]
    >
    >* アクティベーション後、ジャーニーやキャンペーンで許可リストが有効になるまでに10分の遅延が発生します。 許可リストと抑制の両方のリストの更新には、反映に最大10分かかる場合もあります。
-   >* アクティブな場合、許可リストはライブジャーニーだけでなく、[&#x200B; プルーフ &#x200B;](../content-management/proofs.md)のメッセージと[&#x200B; テストモード &#x200B;](../building-journeys/testing-the-journey.md)のジャーニーをテストする場合にも適用されます。
+   >* アクティブな場合、許可リストはライブジャーニーだけでなく、[ プルーフ ](../content-management/proofs.md)のメッセージと[ テストモード ](../building-journeys/testing-the-journey.md)のジャーニーをテストする場合にも適用されます。
 
 許可リストのロジックは、この機能がアクティブな場合に適用されます。 詳しくは、[この節](#logic)を参照してください。
 
@@ -118,7 +118,7 @@ Journey Optimizer **抑制REST API**&#x200B;を使用して、抑制と許可リ
 
 1. 「**[!UICONTROL メールまたはドメインの追加]**」ボタンを選択します。
 
-   ![許可リストページにメールまたはドメインを追加ボタン &#x200B;](assets/allowed-list-add-email.png)
+   ![許可リストページにメールまたはドメインを追加ボタン ](assets/allowed-list-add-email.png)
 
 1. アドレスタイプとして、「**[!UICONTROL メールアドレス]**」または「**[!UICONTROL ドメインアドレス]**」を選択します。
 
@@ -130,7 +130,7 @@ Journey Optimizer **抑制REST API**&#x200B;を使用して、抑制と許可リ
 
 1. 必要に応じて理由を指定します。
 
-   ![許可リストに電子メールアドレスまたはドメインを追加するためのフォーム。オプションの理由フィールド &#x200B;](assets/allowed-list-add-email-address.png)
+   ![許可リストに電子メールアドレスまたはドメインを追加するためのフォーム。オプションの理由フィールド ](assets/allowed-list-add-email-address.png)
 
    >[!NOTE]
    >
@@ -154,7 +154,7 @@ API 呼び出しについて詳しくは、[Adobe Experience Platform API](https
 
 1. 「**[!UICONTROL CSV をダウンロード]**」ボタンを選択します。
 
-   ![許可リストページの「CSVをダウンロード」ボタン &#x200B;](assets/allowed-list-download-csv.png)
+   ![許可リストページの「CSVをダウンロード」ボタン ](assets/allowed-list-download-csv.png)
 
 1. ファイルが生成されるまで待ちます。
 

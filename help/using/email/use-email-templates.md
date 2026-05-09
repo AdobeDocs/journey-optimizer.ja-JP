@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: メール, テンプレート, デザイン
 exl-id: 94d5e615-a7d6-468c-bee8-1ae5fcd4a694
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '271'
 ht-degree: 100%
 
 ---
@@ -31,23 +31,23 @@ ht-degree: 100%
 
 * **サンプルテンプレート**. この [!DNL Journey Optimizer] インターフェイスには、20 個の標準メールテンプレートが用意されており、このテンプレートから選択できます。
 
-* **保存済みテンプレート**.また、次のいずれかの方法でカスタムテンプレートを使用することもできます。
+* **保存済みテンプレート**. また、次のいずれかの方法でカスタムテンプレートを使用することもできます。
 
-   * 「**[!UICONTROL コンテンツテンプレート]**」メニューを使用してゼロから作成する。[詳細情報](../content-management/content-templates.md#content-templates)
+   * 「**[!UICONTROL コンテンツテンプレート]**」メニューを使用してゼロから作成する。 [詳細情報](../content-management/content-templates.md#content-templates)
 
-   * 「**[!UICONTROL コンテンツテンプレートとして保存]**」オプションを使用して、ジャーニーまたはキャンペーンの電子メールから保存する。[詳細情報](../content-management/content-templates.md#video-templates)
+   * 「**[!UICONTROL コンテンツテンプレートとして保存]**」オプションを使用して、ジャーニーまたはキャンペーンの電子メールから保存する。 [詳細情報](../content-management/content-templates.md#video-templates)
 
 サンプルまたは保存済みのテンプレートの 1 つを使用してコンテンツの作成を開始するには、次の手順に従います。
 
 1. メール「**[!UICONTROL コンテンツを編集]**」画面から [E メールデザイナーへアクセス](get-started-email-design.md)します。
 
-1. 「**[!UICONTROL 電子メールを作成]**」画面では、「**[!UICONTROL サンプルテンプレート]**」タブがデフォルトで選択されています。 
+1. 「**[!UICONTROL 電子メールを作成]**」画面では、「**[!UICONTROL サンプルテンプレート]**」タブがデフォルトで選択されています。
 
 1. カスタムテンプレートを使用するには、「**[!UICONTROL 保存済みのテンプレート]**」タブに移動します。
 
    ![](assets/email_designer-saved-templates-tab.png)
 
-1. 現在のサンドボックスに作成されたすべての[コンテンツテンプレート](../content-management/content-templates.md#content-templates)のリストが表示されます。**[!UICONTROL 名前別]**、**[!UICONTROL 最終変更日]**&#x200B;および&#x200B;**[!UICONTROL 最終作成日]**&#x200B;で並べ替え可能です。
+1. 現在のサンドボックスに作成されたすべての[コンテンツテンプレート](../content-management/content-templates.md#content-templates)のリストが表示されます。 **[!UICONTROL 名前別]**、**[!UICONTROL 最終変更日]**&#x200B;および&#x200B;**[!UICONTROL 最終作成日]**&#x200B;で並べ替え可能です。
 
    ![](assets/email_designer-saved-templates-filter.png)
 

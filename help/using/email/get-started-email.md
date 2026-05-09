@@ -9,9 +9,9 @@ role: User
 level: Beginner
 keywords: メール, 開始, 作成, プレビュー
 exl-id: 621c4256-449d-4376-96cd-02cbdcd4de05
-source-git-commit: de418dc4feefd99231155c550ad3a51e4850ee66
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '312'
 ht-degree: 100%
 
 ---
@@ -21,20 +21,20 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card4"
 >title="メールのデザイン"
->abstract="**Adobe Journey Optimizer** を使用して顧客にメールメッセージを送信します。E メールデザイナーで、メッセージの作成、パーソナライズ、プレビューを行うことができます。"
+>abstract="**Adobe Journey Optimizer** を使用して顧客にメールメッセージを送信します。 E メールデザイナーで、メッセージの作成、パーソナライズ、プレビューを行うことができます。"
 
-[!DNL Journey Optimizer] を使用して、メールメッセージを顧客に送信します。E メールデザイナーで、メッセージの作成、パーソナライズ、プレビューを行うことができます。
+[!DNL Journey Optimizer] を使用して、メールメッセージを顧客に送信します。 E メールデザイナーで、メッセージの作成、パーソナライズ、プレビューを行うことができます。
 
 メール配信を作成するには、次の手順を実行します。
 
-* **ジャーニー**&#x200B;の場合：ジャーニーに&#x200B;**[!UICONTROL メール]**&#x200B;アクティビティを追加し、基本設定を定義したら、右側の&#x200B;**[!UICONTROL アクション：メール]**&#x200B;パネルを使用して、メッセージのコンテンツを作成します。[ジャーニーを作成する方法の詳細情報](../building-journeys/journey-gs.md)
+* **ジャーニー**&#x200B;の場合：ジャーニーに&#x200B;**[!UICONTROL メール]**&#x200B;アクティビティを追加し、基本設定を定義したら、右側の&#x200B;**[!UICONTROL アクション：メール]**&#x200B;パネルを使用して、メッセージのコンテンツを作成します。 [ジャーニーを作成する方法の詳細情報](../building-journeys/journey-gs.md)
 
-* **Campaign** の場合：キャンペーンを作成したら、アクションとして「**[!UICONTROL メール]**」を選択し、基本設定を定義します。詳しくは、[アクションキャンペーン](../campaigns/campaign-action.md#action-campaign-action) | [API トリガーキャンペーン](../campaigns/api-triggered-campaigns.md) | [オーケストレーションキャンペーン](../orchestrated/create-orchestrated-campaign.md#create)の作成方法を参照してください。
+* **Campaign** の場合：キャンペーンを作成したら、アクションとして「**[!UICONTROL メール]**」を選択し、基本設定を定義します。 詳しくは、[アクションキャンペーン](../campaigns/campaign-action.md#action-campaign-action) | [API トリガーキャンペーン](../campaigns/api-triggered-campaigns.md) | [オーケストレーションキャンペーン](../orchestrated/create-orchestrated-campaign.md#create)の作成方法を参照してください。
 
 
 >[!IMPORTANT]
 >
->メールを初めて作成する場合は、メールチャネルが設定されていることを確認してください。[詳細情報](email-settings.md)
+>メールを初めて作成する場合は、メールチャネルが設定されていることを確認してください。 [詳細情報](email-settings.md)
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

@@ -9,10 +9,10 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 5c1d6606524d2dd0105bcf746178b6bd98895aa7
+source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 91%
+source-wordcount: '999'
+ht-degree: 92%
 
 ---
 
@@ -21,17 +21,17 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_settings"
 >title="Journey Optimizer の AI アシスタント"
->abstract="配信を作成しパーソナライズしたら、Journey Optimizer の AI アシスタントを使用してコンテンツを強化できます。この機能により、何を生成するかを記述することで、コンテンツを微調整できるので、パーソナライゼーションとコンテンツの改善のプロセスが簡素化されます。"
+>abstract="配信を作成しパーソナライズしたら、Journey Optimizer の AI アシスタントを使用してコンテンツを強化できます。 この機能により、何を生成するかを記述することで、コンテンツを微調整できるので、パーソナライゼーションとコンテンツの改善のプロセスが簡素化されます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_context"
 >title="ブランドアセットをアップロード"
->abstract="ブランドアセットをアップロードメニューを使用すると、Journey Optimizer の AI アシスタントに追加のコンテキストを提供できるコンテンツを含むブランドアセットを追加するか、以前にアップロードしたアセットを選択することができます。このオプションにより、AI アシスタントは機能と関連性を高めるために必要なすべての資料にアクセスできます。"
+>abstract="ブランドアセットをアップロードメニューを使用すると、Journey Optimizer の AI アシスタントに追加のコンテキストを提供できるコンテンツを含むブランドアセットを追加するか、以前にアップロードしたアセットを選択することができます。 このオプションにより、AI アシスタントは機能と関連性を高めるために必要なすべての資料にアクセスできます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_generation_start"
 >title="Adobe 生成 AI 用語"
->abstract="この機能にアクセスするには、Adobe Experience Cloud 生成 AI ユーザーガイドラインに同意する必要があります。この機能からの出力の正確性を確認し、ユースケースに適していることを確認してください。"
+>abstract="この機能にアクセスするには、Adobe Experience Cloud 生成 AI ユーザーガイドラインに同意する必要があります。 この機能からの出力の正確性を確認し、ユースケースに適していることを確認してください。"
 >additional-url="https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html" text="Adobe 生成 AI ユーザーガイドライン"
 
 >[!INFO]
@@ -39,9 +39,9 @@ ht-degree: 91%
 >[ライブ機能プレビュー](https://experienceleague.adobe.com/ja/apps/journey-optimizer/ai-assistant-content-accelerator){target="_blank"}では、実際に体験して、その機能を直接探索し、その機能を完全に理解できるように設計されています。
 
 
-Microsoft Azure OpenAI と Adobe Firefly を活用した Adobe Journey Optimizer の AI アシスタントは、テキストと画像に対するプロアクティブなコンテンツバリエーションの提案を提供します。この新しい機能を使用して、**プロンプトベースのテキストおよび画像を生成**&#x200B;できます。画像の生成は、Adobe Firefly で管理されます。
+Microsoft Azure OpenAI と Adobe Firefly を活用した Adobe Journey Optimizer の AI アシスタントは、テキストと画像に対するプロアクティブなコンテンツバリエーションの提案を提供します。 この新しい機能を使用して、**プロンプトベースのテキストおよび画像を生成**&#x200B;できます。 画像の生成は、Adobe Firefly で管理されます。
 
-AI アシスタントは、**複数言語**&#x200B;での生成をサポートし、ユーザーが多様なグローバルオーディエンスにリーチしてエンゲージできるようにします。AI アシスタントは、次の言語で使用できます。
+AI アシスタントは、**複数言語**&#x200B;での生成をサポートし、ユーザーが多様なグローバルオーディエンスにリーチしてエンゲージできるようにします。 AI アシスタントは、次の言語で使用できます。
 
 <table style="table-layout:fixed; margin-top: 0px; margin-bottom: 0px;">
   <tbody>
@@ -74,18 +74,18 @@ AI アシスタントは、**複数言語**&#x200B;での生成をサポート�
   </tbody>
 </table>
 
-Adobe Journey Optimizer の AI アシスタントを使用して、様々なメインタイトルや画像を試すことで、メッセージの影響を最適化します。複数のバリアントを生成し、それらを比較する実験を作成します。**Journey Optimizer のコンテンツ実験**&#x200B;を活用して、どのメッセージがターゲットオーディエンスに対して最も効果的であるかを測定するために、複数のメッセージ処理を定義できます。配信コンテンツまたは件名を変更できます。メッセージオーディエンスが各処理にランダムに割り当てられて、指定の指標に関して最も効果が高い処理が判断されます。コンテンツ実験について詳しくは、[この節](../content-management/content-experiment.md)を参照してください。
+Adobe Journey Optimizer の AI アシスタントを使用して、様々なメインタイトルや画像を試すことで、メッセージの影響を最適化します。 複数のバリアントを生成し、それらを比較する実験を作成します。 **Journey Optimizer のコンテンツ実験**&#x200B;を活用して、どのメッセージがターゲットオーディエンスに対して最も効果的であるかを測定するために、複数のメッセージ処理を定義できます。 配信コンテンツまたは件名を変更できます。 メッセージオーディエンスが各処理にランダムに割り当てられて、指定の指標に関して最も効果が高い処理が判断されます。 コンテンツ実験について詳しくは、[この節](../content-management/content-experiment.md)を参照してください。
 
 >[!IMPORTANT]
 >
->* この機能の使用を開始する前に、関連する[&#x200B; ガードレールと制限事項](#generative-guardrails)をお読みください。
+>* この機能の使用を開始する前に、関連する[ ガードレールと制限事項](#generative-guardrails)をお読みください。
 >
 >
->* Adobe Journey Optimizer で AI アシスタントを使用する前に、[ユーザー契約](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}に同意する必要があります。詳しくは、アドビ担当者にお問い合わせください。
+>* Adobe Journey Optimizer で AI アシスタントを使用する前に、[ユーザー契約](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}に同意する必要があります。 詳しくは、アドビ担当者にお問い合わせください。
 
 ## AI アシスタントへのアクセス {#generative-access}
 
-Adobe Journey Optimizer の AI アシスタントにアクセスするには、ユーザーに&#x200B;**コンテンツを生成**&#x200B;権限を付与する必要があります。[詳細情報](../administration/permissions.md)
+Adobe Journey Optimizer の AI アシスタントにアクセスするには、ユーザーに&#x200B;**コンテンツを生成**&#x200B;権限を付与する必要があります。 [詳細情報](../administration/permissions.md)
 
 +++  コンテンツ生成関連の権限を割り当てる方法について説明します。
 
@@ -121,28 +121,28 @@ Adobe Journey Optimizer の AI アシスタントにアクセスするには、�
 
 ### コンテンツの品質、プロンプト、フィードバック
 
-* 生成されるコンテンツの品質は、定義したマーケティング目標／プロンプトに強く影響されます。生成 AI モデルが正確に解釈できるように、明確に定義されたプロンプトを使用します。 
+* 生成されるコンテンツの品質は、定義したマーケティング目標／プロンプトに強く影響されます。 生成 AI モデルが正確に解釈できるように、明確に定義されたプロンプトを使用します。 
 * 生成 AI コンテンツは必ずしも正確ではない可能性があります。エンジニアがモデルを改良できるよう、フィードバックをお寄せください。
 * バリアントを選択する際は、サムアップ、サムダウンまたはフラグのアイコンを使用して、問題のある出力を報告する必要があります。
 
 ### ブランドアセット
 
-* 正確な情報が得られるように、ブランドコンテンツでブランドアセットをアップロードします。それ以外の場合、コンテンツは、公開されている情報に基づきます。アップロードされるコンテンツの形式は、PDF、JPEG、PNG、ZIP ファイル（サポートされているファイル形式を含む）のいずれかです。
-* アップロードされるブランドアセットの最大サイズは 50 MB です。サイズの大きいファイルや多数の画像を処理できますが、処理時間は長くなります。
+* 正確な情報が得られるように、ブランドコンテンツでブランドアセットをアップロードします。 それ以外の場合、コンテンツは、公開されている情報に基づきます。 アップロードされるコンテンツの形式は、PDF、JPEG、PNG、ZIP ファイル（サポートされているファイル形式を含む）のいずれかです。
+* アップロードされるブランドアセットの最大サイズは 50 MB です。 サイズの大きいファイルや多数の画像を処理できますが、処理時間は長くなります。
 * 複数のブランドアセットをアップロードできますが、特定の世代に活用できるのは 1 つだけです。
 
 ### メールテンプレートと画像
 
-* ブランド固有またはカスタムテンプレートを使用して、Adobe Journey Optimizer の AI アシスタントを使用してメールコンテンツを作成します。最大 8〜10 個の画像を含むメールテンプレートをお勧めします。
+* ブランド固有またはカスタムテンプレートを使用して、Adobe Journey Optimizer の AI アシスタントを使用してメールコンテンツを作成します。 最大 8〜10 個の画像を含むメールテンプレートをお勧めします。
 
 ### 法的利用と透明性
 
-* AI アシスタントの使用は、Adobe Experience Cloud 生成 AI ユーザーガイドラインの対象となります。[詳細情報](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
-* メディア作成における生成 AI ツールの使用の透明性を促進するアドビの取り組みの一環として、アドビでは、Firefly で生成されたアセットを含むコンテンツまたはプロジェクトがダウンロードまたはエクスポートされる際に、Content Credentials を適用します。[詳細情報](https://helpx.adobe.com/jp/firefly/using/content-credentials.html)
+* AI アシスタントの使用は、Adobe Experience Cloud 生成 AI ユーザーガイドラインの対象となります。 [詳細情報](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
+* メディア作成における生成 AI ツールの使用の透明性を促進するアドビの取り組みの一環として、アドビでは、Firefly で生成されたアセットを含むコンテンツまたはプロジェクトがダウンロードまたはエクスポートされる際に、Content Credentials を適用します。 [詳細情報](https://helpx.adobe.com/jp/firefly/using/content-credentials.html)
 
 ### パーソナライゼーション表現のためのAI アシスタント {#ai-assistant-personalization-editor-guardrails}
 
-次のガードレールは、[Personalization Editor](generative-personalization-expressions.md)およびメール Designerのパーソナライゼーション式[!UICONTROL の]AI アシスタントに適用されます。
+次のガードレールは、[!UICONTROL Personalization Editor]およびメール Designerのパーソナライゼーション式](generative-personalization-expressions.md)の[AI アシスタントに適用されます。
 
 * **オファーとエクスペリエンス決定** — サポートされていません。
 * **お気に入り** — サポートされていません。
