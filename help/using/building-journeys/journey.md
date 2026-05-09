@@ -360,7 +360,7 @@ AI を使用して、各顧客が最も関与する可能性の高いタイミ�
 
 ジャーニーコンポーネントを視覚的に紹介し、キャンバスでジャーニーを作成するための基本について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430350?captions=jpn&quality=12)
 
 ➡️ **さらに動画を見ますか？** [&#x200B; ジャーニーのビデオチュートリアルを見る](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
 
