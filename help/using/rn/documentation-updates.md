@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 2b5b7ded23bb14e75aecd5a412b6c372cac3f630
+source-git-commit: 751514af18e4d8e36ac7d9bc4c64e95a0514446d
 workflow-type: tm+mt
-source-wordcount: '7327'
-ht-degree: 67%
+source-wordcount: '7393'
+ht-degree: 66%
 
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 67%
 このページでは、毎月のリリースの機能と改善点に関連する更新に加えて、[!DNL Journey Optimizer] ドキュメントの最新の変更点をすべて一覧表示しています。
 
 ## 2026年5月 {#may-2026}
+
+* **メッセージの書き出しコンテンツ**&#x200B;のドキュメントが拡張され、**メッセージの書き出しFAQ** （パーソナライズされたコンテンツ、画像とメディア、追跡されたリンク、PII、保持、ユースケースなど）、および&#x200B;**SMSとメール用の書き出されたJSON**&#x200B;の例が追加されました。 [詳細情報](../configuration/message-export.md)
+
+* 新しい&#x200B;**AJO メッセージ書き出しスキーマ** ページは、AJO メッセージ書き出しデータセットのすべてのフィールドを、書き出された電子メールとSMS ペイロードのデータタイプと階層を含むドキュメントです。 [詳細情報](../configuration/message-export-schema.md)
 
 * 新しい&#x200B;**メール内のURLのパーソナライズ** ページが追加され、動的URL パーソナライゼーション、完全/ベース URL パーソナライゼーション、URL トラッキングパラメーターのパーソナライゼーション、主要なガードレールに関するガイダンスが統合されました。 [詳細情報](../email/url-personalization.md)
 
