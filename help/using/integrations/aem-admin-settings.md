@@ -9,7 +9,7 @@ role: Admin
 level: Experienced
 hide: true
 keywords: AEM, コンテンツフラグメント，管理，リポジトリ，認証，著者，公開
-source-git-commit: edea85366fb6f3a031c0eaec321e6d37bb41dd18
+source-git-commit: acbc63b37802bfe27a24246d4701efb00ac95940
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 0%
@@ -52,15 +52,15 @@ Journey Optimizerには、組織、サンドボックス、Adobe Experience Mana
 
 1. 設定の選択：
 
-   >[!BEGINTABS]
-
-   >[!TAB 作成者のみ設定]
+   +++ 作成者専用の設定
 
    Journey OptimizerがAdobe Experience Manager **author**&#x200B;環境からのみコンテンツフラグメントを読み取る必要がある場合、「**[!UICONTROL オーサー専用セットアップ]**」を選択します。 オーサーからパブリッシュおよびライブパブリッシュの更新へのレプリケーションはサポートされていません。
 
    ![](assets/aem-admin-settings-3.png)
 
-   >[!TAB  インスタンス設定の公開]
+   +++
+
+   +++ インスタンス設定の公開
 
    1. 「**[!UICONTROL パブリッシュインスタンス設定]**」を選択して、パブリッシュインスタンス設定を有効にします。
 
@@ -74,7 +74,7 @@ Journey Optimizerには、組織、サンドボックス、Adobe Experience Mana
 
       ![](assets/aem-admin-settings-5.png)
 
-   >[!ENDTABS]
+   +++
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
