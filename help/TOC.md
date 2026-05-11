@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: d41999da88f39a9e5bfe5e98fd5cb5d69a1893e6
+source-git-commit: 23191f22b6314f9d08cb12da8027bfbbf9550c34
 workflow-type: tm+mt
-source-wordcount: '3306'
+source-wordcount: '3312'
 ht-degree: 90%
 
 ---
@@ -505,6 +505,7 @@ ht-degree: 90%
       + {hide-from-toc}[Experience Manager テンプレートの操作](using/integrations/aem-templates.md)
       + Experience Manager コンテンツフラグメント {#aem}
          + [Experience Manager コンテンツフラグメントの基本を学ぶ](using/integrations/aem-fragments-gs.md)
+         + {hide-from-toc}[&#x200B; コンテンツフラグメント用にリポジトリを設定](using/integrations/aem-admin-settings.md)
          + [Experience Manager コンテンツフラグメントの操作](using/integrations/aem-fragments.md)
          + [考慮事項とトラブルシューティング](using/integrations/aem-fragments-limitations.md)
       + {hide-from-toc}[Experience Manager Content Advisorの操作](using/content-management/aem-content-advisor.md)
