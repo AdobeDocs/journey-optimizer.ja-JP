@@ -33,7 +33,7 @@ ht-degree: 17%
 
 スキーマは、取り込んだデータに適用される構造と検証ルールを定義します。 以下に示す既存のフィールドグループを追加して、インバウンドキーワード収集用のエクスペリエンスイベントスキーマを作成します。
 
-➡️ [ スキーマ作成の詳細については、Adobe Experience Platform ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/schema/composition)を参照してください
+➡️ [&#x200B; スキーマ作成の詳細については、Adobe Experience Platform ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/schema/composition)を参照してください
 
 1. Adobe Experience Platformで、**[!UICONTROL Data management]**&#x200B;から&#x200B;**[!UICONTROL Schemas]**&#x200B;にアクセスし、**[!UICONTROL Create schema]**&#x200B;を選択します。
 
