@@ -9,9 +9,15 @@ role: Admin
 level: Experienced
 keywords: 書き出し, メッセージ, HIPAA, メール, SMS, 設定
 exl-id: 7b50c933-9738-4b1b-acae-08f0a8d41dab
-source-git-commit: 180d6a3ab3a6a7aaaea60dfff6fb30172a697509
+TQID: https://experienceleague.adobe.com/4i6dFByqNizhrMeQrr32twEPVrg4Jz8J-rgA-sR70Ho
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: cc84ad59f4233967c484c99651edb0558518c58c
 workflow-type: tm+mt
-source-wordcount: '1398'
+source-wordcount: 1398
 ht-degree: 26%
 
 ---
@@ -29,11 +35,11 @@ ht-degree: 26%
 
 **メッセージ書き出し**&#x200B;を使用すると、送信された電子メールやSMS メッセージのコンテンツを[!DNL Journey Optimizer]から[[!DNL Adobe Experience Platform] 宛先](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/home){target="_blank"}経由で自分のストレージに転送できます。これにより、[!DNL Experience Platform]から外部エンドポイントにデータを配信できます。
 
-この機能を使用すると、書き出し用にマークされた[!DNL Journey Optimizer]経由で送信された電子メールとSMS メッセージの内容が[!DNL Experience Platform] [AJO メッセージ書き出しデータセット &#x200B;](message-export-schema.md)に書き込まれます。
+この機能を使用すると、書き出し用にマークされた[!DNL Journey Optimizer]経由で送信された電子メールとSMS メッセージの内容が[!DNL Experience Platform] [AJO メッセージ書き出しデータセット ](message-export-schema.md)に書き込まれます。
 
 その後、レコードは取り込みから7日間データセットに保持され、その間、任意の外部システムに書き出すことができます。
 
-➡️一般的な質問と回答については、[&#x200B; メッセージ書き出しに関するFAQ](#message-export-faq)を参照してください。
+➡️一般的な質問と回答については、[ メッセージ書き出しに関するFAQ](#message-export-faq)を参照してください。
 
 ## ガードレール
 
@@ -84,7 +90,7 @@ ht-degree: 26%
 
 1. 変更を保存し、チャネル設定を送信します。
 
-このチャネル設定を使用してキャンペーンまたはジャーニーを介してメッセージを送信すると、電子メールおよびSMS メッセージが&#x200B;**AJO メッセージ書き出しデータセット**&#x200B;に書き込まれます。 次に、[&#x200B; データセット内のレコード &#x200B;](#access-exported-data)にアクセスし、定義した書き出しデータフローに基づいて、選択したストレージ宛先に書き出すことができます。
+このチャネル設定を使用してキャンペーンまたはジャーニーを介してメッセージを送信すると、電子メールおよびSMS メッセージが&#x200B;**AJO メッセージ書き出しデータセット**&#x200B;に書き込まれます。 次に、[ データセット内のレコード ](#access-exported-data)にアクセスし、定義した書き出しデータフローに基づいて、選択したストレージ宛先に書き出すことができます。
 
 >[!NOTE]
 >
@@ -110,7 +116,7 @@ ht-degree: 26%
 
 データセットには、メッセージの書き出しが有効になっているチャネル設定を介して送信される各メッセージの包括的な情報が含まれます。これには、件名、メッセージ本文、受信者のメールアドレスまたは電話番号、送信者のアドレスまたは電話番号、送信日時、パーソナライゼーションデータなどが含まれます。
 
-➡️ データセット構造と使用可能なすべてのフィールドの全体像については、[AJO メッセージ書き出しスキーマ &#x200B;](message-export-schema.md)を参照してください。
+➡️ データセット構造と使用可能なすべてのフィールドの全体像については、[AJO メッセージ書き出しスキーマ ](message-export-schema.md)を参照してください。
 
 データセット内のすべてのレコードは、取り込みから&#x200B;**7暦日**&#x200B;間保持されます。 この保存期間中は、コンプライアンス監査、法的問い合わせ、または設定されたExperience Platformの宛先を介して独自のストレージシステムに書き出すデータにアクセスできます。
 
@@ -414,3 +420,4 @@ ht-degree: 26%
 * Adobeの外部にメッセージを自動的にアーカイブ
 
 +++
+
