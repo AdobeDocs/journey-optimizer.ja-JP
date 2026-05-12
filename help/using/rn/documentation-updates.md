@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 1d60e27225dbcbc3ccfc8cf4f5a2c024e0e80422
+source-git-commit: 8d00060a8801a0d29a86894494b9fd7a69f30d88
 workflow-type: tm+mt
-source-wordcount: '7393'
+source-wordcount: '7447'
 ht-degree: 66%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 66%
 このページでは、毎月のリリースの機能と改善点に関連する更新に加えて、[!DNL Journey Optimizer] ドキュメントの最新の変更点をすべて一覧表示しています。
 
 ## 2026年5月 {#may-2026}
+
+* **データセットの基本を学ぶ** ページが更新され、システムデータセットセクションに新しい&#x200B;**インバウンド** エントリが追加されました。_AJO インバウンドアクティビティイベントデータセット_。 受信メッセージがこのデータセットに取り込まれる前に、プロファイルに少なくとも1つのメッセージを[!DNL Journey Optimizer]から送信する必要があることを明確にするメモが追加されました。 [詳細情報](../data/get-started-datasets.md#system-datasets)
 
 * **メッセージの書き出しコンテンツ**&#x200B;のドキュメントが拡張され、**メッセージの書き出しFAQ** （パーソナライズされたコンテンツ、画像とメディア、追跡されたリンク、PII、保持、ユースケースなど）、および&#x200B;**SMSとメール用の書き出されたJSON**&#x200B;の例が追加されました。 [詳細情報](../configuration/message-export.md)
 

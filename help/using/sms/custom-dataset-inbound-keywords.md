@@ -6,16 +6,20 @@ description: Experience Platform スキーマ、データセット、およびSM
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: bf0a24751458660c510997650b9a79fdf1881181
+source-git-commit: 8d00060a8801a0d29a86894494b9fd7a69f30d88
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 17%
+source-wordcount: '518'
+ht-degree: 16%
 
 ---
 
 # インバウンドキーワードにカスタムデータセットを使用する {#custom-dataset-inbound-keywords}
 
 インバウンド SMS キーワードは、プロファイル対応のカスタムデータセットに保存できます。 この設定は、Adobe Experience Platform スキーマ、そのスキーマから作成されたデータセット、インバウンドメッセージのデータセットを参照するJourney Optimizer SMS API資格情報で構成されます。
+
+>[!NOTE]
+>
+>カスタムデータセットが設定されていない場合、インバウンドキーワードはデフォルトでシステム _AJO Inbound Activity Event Dataset_&#x200B;に保存されます。 受信メッセージがこのデータセットに取り込まれる前に、プロファイルに[!DNL Journey Optimizer]から送信されたメッセージが少なくとも1つ必要です。 [&#x200B; システムデータセットの詳細](../data/get-started-datasets.md#system-datasets)
 
 スキーマ、フィールドグループ、データセットの背景については、次のAdobe Experience Platform ドキュメントを参照してください。
 
