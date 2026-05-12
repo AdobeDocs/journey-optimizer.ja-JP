@@ -7,10 +7,17 @@ feature: Whatsapp, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/Csk1JNk8W6SGjoga5chRRE7-LUzUKK-X8sZcwszCxRE
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 8d00060a8801a0d29a86894494b9fd7a69f30d88
 workflow-type: tm+mt
-source-wordcount: '1196'
-ht-degree: 91%
+source-wordcount: 1230
+ht-degree: 88%
 
 ---
 
@@ -89,6 +96,10 @@ WhatsApp API資格情報が正常に作成されたら、Webhookを次のよう�
 * オプトインおよびオプトアウトの同意を管理するための&#x200B;**受信レスポンスの取得**
 * **読み取りレシート （利用可能な場合）やメッセージ配信ステータスなど、配信レポート**&#x200B;を受信する
 * Adobe Experience Platform データセットの分析とレポートに対して&#x200B;**トラッキングイベント**&#x200B;を有効にする
+
+>[!NOTE]
+>
+>インバウンド WhatsApp メッセージは、_AJO Inbound Activity Event データセット_ システム データセットに取り込まれます。 受信メッセージがこのデータセットに取り込まれる前に、プロファイルに[!DNL Journey Optimizer]から送信されたメッセージが少なくとも1つ必要です。 [詳細情報](../data/get-started-datasets.md#system-datasets)
 
 Webhookは、MetaのWhatsApp Business PlatformとAdobe Journey Optimizer間のコミュニケーションブリッジとして機能し、メッセージイベントやユーザーインタラクションに関するリアルタイムの通知を受け取ることができます。
 
@@ -210,6 +221,6 @@ WhatsApp API 資格情報の設定時に HTTP 500 エラーが発生した場合
 
 +++ こちらのビデオをご覧ください
 
->[!VIDEO](https://video.tv.adobe.com/v/3470269/?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++

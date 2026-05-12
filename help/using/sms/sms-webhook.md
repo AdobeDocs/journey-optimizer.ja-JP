@@ -7,9 +7,9 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+source-git-commit: 8d00060a8801a0d29a86894494b9fd7a69f30d88
 workflow-type: tm+mt
-source-wordcount: '2818'
+source-wordcount: '2855'
 ht-degree: 9%
 
 ---
@@ -47,6 +47,10 @@ Webhook を設定する際に、取得するデータの種類に基づいて目
 * **インバウンド**：オプトインやオプトアウトなどの同意応答を取得し、ユーザーの環境設定を収集する場合は、このオプションを使用します。
 
 * **フィードバック**：配信、送信エラー、読み取りレシート （該当する場合）などの配信およびエンゲージメントイベントを追跡して、レポートと分析をサポートするには、このオプションを選択します。
+
+>[!NOTE]
+>
+>受信キーワードデータは、カスタムデータセットが設定されていない限り、_AJO Inbound Activity Event Dataset_ システムデータセットに保存されます。 受信メッセージをキャプチャするには、プロファイルに[!DNL Journey Optimizer]から少なくとも1つのメッセージを送信する必要があります。 [詳細情報](../data/get-started-datasets.md#system-datasets)
 
 SMSの実装を成功させるために設定する必要がある機能については、プロバイダーによって異なります。
 
@@ -175,7 +179,7 @@ SinchとSinch Conversationalの場合は、インバウンドイベントとフ�
 
 Webhookが既存のチャネル設定に添付されたAPI資格情報を使用する場合、Webhookはすぐに有効になります。 それ以外は、新しいチャネル設定を作成します。
 
-➡️[&#x200B; チャネル設定の詳細](sms-configuration-surface.md)
+➡️[ チャネル設定の詳細](sms-configuration-surface.md)
 
 ### Infobip用 {#create-webhook-infobip}
 
@@ -283,7 +287,7 @@ Infobipの場合は、フィードバックイベント用とインバウンド�
 
 Webhookが既存のチャネル設定に添付されたAPI資格情報を使用する場合、Webhookはすぐに有効になります。 それ以外は、新しいチャネル設定を作成します。
 
-➡️[&#x200B; チャネル設定の詳細](sms-configuration-surface.md)
+➡️[ チャネル設定の詳細](sms-configuration-surface.md)
 
 ### カスタムプロバイダーの場合 {#create-webhook-custom}
 
@@ -438,4 +442,4 @@ Webhookが既存のチャネル設定に添付されたAPI資格情報を使用�
 
 Webhookが既存のチャネル設定に添付されたAPI資格情報を使用する場合、Webhookはすぐに有効になります。 それ以外は、新しいチャネル設定を作成します。
 
-➡️[&#x200B; チャネル設定の詳細](sms-configuration-surface.md)
+➡️[ チャネル設定の詳細](sms-configuration-surface.md)
