@@ -8,9 +8,9 @@ topic: Content Management
 role: User, Developer
 level: Intermediate
 keywords: ディープリンク、ディープリンク、ユニバーサルリンク、アプリリンク、電子メール
-source-git-commit: bdf9528e298bd8e348d59a660a4cbceb35660625
+source-git-commit: 850b97c292679353e5e5f429f9703d31b773c10b
 workflow-type: tm+mt
-source-wordcount: '1177'
+source-wordcount: '1182'
 ht-degree: 1%
 
 ---
@@ -50,57 +50,6 @@ ht-degree: 1%
       * 委任されたサブドメイン
       * アプリバンドル ID
       * SHA-256証明書のフィンガープリント
-
-<!--
-Adobe is hosting these files internally so not on customer's side.
-
-1. Validate the URLs below and ensure the content matches the expected format such as in the examples below.
-
-    * **For iOS (AASA)**: `https://data.<delegated_subdomain>/.well-known/apple-app-site-association`
-
-      +++ Example:
-
-      ```json
-      {
-        "applinks": {
-          "apps": [],
-          "details": [
-            {
-              "appID": "<app_bundle_id>",
-              "paths": [
-                "NOT /ee/v1/click/*",
-                "/ee/v1/mclick/*"
-              ]
-            }
-          ]
-        }
-      }
-      ```
-      
-      +++
-
-    * **For Android (assetLinks.json)**: `https://data.<delegated_subdomain>/.well-known/assetlinks.json`
-
-      +++ Example:
-
-      ```json
-      [
-        {
-          "relation": ["delegate_permission/common.handle_all_urls"],
-          "target": {
-            "namespace": "android_app",
-            "package_name": "<app_bundle_id>",
-            "sha256_cert_fingerprints": [
-              "12:34:56:78:90:AB:CD:EF:12:34:56:78:90:AB:CD:EF:12:34:56:78:90:AB:CD:EF:12:34"
-            ]
-          }
-        }
-      ]
-      ```
-
-      +++
-
--->
 
 >[!IMPORTANT]
 >
@@ -293,7 +242,7 @@ Adobe is hosting these files internally so not on customer's side.
 * **ディープリンクをテスト**：プルーフを送信し、アプリがインストールされているデバイスでディープリンクをクリックします。
 * **実際のデバイスでの検証**：ユニバーサルリンクとトラッキングリンクの解決動作は、シミュレーターではなく物理デバイスでの検証の方が信頼性が高くなります。
 * **アプリ側のルーティングを検証**: ディープリンクが予想される画面を開かない場合は、アプリ側のルーティングとURL形式（ホスト/パス/クエリおよびURL エンコーディング）を検証します。
-* アプリリンク / ユニバーサルリンクの動作は、アプリがインストールされ、少なくとも1回開かれた後に最も信頼性が高くなります。
+* **アプリの初期化を念頭に置いてください**: アプリのリンクとユニバーサルリンクの動作は、アプリがインストールされ、少なくとも1回開かれた後に最も信頼性が高くなります。
 
 ## トラブルシューティングとFAQ {#troubleshooting-faq}
 
