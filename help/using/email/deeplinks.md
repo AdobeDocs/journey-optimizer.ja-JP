@@ -20,7 +20,7 @@ ht-degree: 1%
 
 メールのディープリンクは、メールの受信者をモバイルアプリの特定の画面やコンテンツに誘導するのに役立ちます。 web ブラウザーやアプリストアを経由することなく、オーディエンスを意図したアプリ内エクスペリエンスに直接つなげることができます。これにより、ジャーニーを通じて、顧客のニーズに即し、ブランド基準を維持できます。
 
-メールにディープリンクを追加するには、[ リンクトラッキングが有効になっていることを確認してください](message-tracking.md#enable-tracking)。 リンクする要素（テキスト、ボタン、画像）を電子メールDesignerで選択し、コンテキストツールバーの「**[!UICONTROL リンクを挿入]**」をクリックし、**[!UICONTROL Deeplink]**」を選択してディープリンク URLを入力します。 [ リンクの挿入の詳細](message-tracking.md#insert-links)
+メールにディープリンクを追加するには、[&#x200B; リンクトラッキングが有効になっていることを確認してください](message-tracking.md#enable-tracking)。 リンクする要素（テキスト、ボタン、画像）を電子メールDesignerで選択し、コンテキストツールバーの「**[!UICONTROL リンクを挿入]**」をクリックし、**[!UICONTROL Deeplink]**」を選択してディープリンク URLを入力します。 [&#x200B; リンクの挿入の詳細](message-tracking.md#insert-links)
 
 受信者がディープリンクをクリックすると、このページで詳細に説明されている設定手順&#x200B;**を完了すると、受信者は意図したアプリ内コンテンツに直接移動します。**
 
@@ -41,7 +41,7 @@ ht-degree: 1%
 
 1. Journey Optimizerで、ディープリンクが有効になっているサブドメインをデリゲートします。 [詳細情報](../configuration/delegate-subdomain.md)
 
-1. IOSのAASA ファイルとAndroidのassetLinks.json ファイルをサブドメインにホストします。 詳しくは、[Adobe カスタマーケア ](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}またはAdobe担当者にお問い合わせください。
+1. IOSのAASA ファイルとAndroidのassetLinks.json ファイルをサブドメインにホストします。 詳しくは、[Adobe カスタマーケア &#x200B;](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}またはAdobe担当者にお問い合わせください。
 
    * **iOS （AASA）**&#x200B;の場合：
       * 委任されたサブドメイン
@@ -104,7 +104,7 @@ Adobe is hosting these files internally so not on customer's side.
 
 >[!IMPORTANT]
 >
->[ リンクトラッキングが有効になっている場合](message-tracking.md#enable-tracking)は、Adobe メールインフラストラクチャを通じてディープリンクが適用されます。 トラッキングされたディープリンクのクリックは、Adobeがホストおよび解決する`/ee/v1/mclick/*`の下のURLを使用します。
+>[&#x200B; リンクトラッキングが有効になっている場合](message-tracking.md#enable-tracking)は、Adobe メールインフラストラクチャを通じてディープリンクが適用されます。 トラッキングされたディープリンクのクリックは、Adobeがホストおよび解決する`/ee/v1/mclick/*`の下のURLを使用します。
 >
 >トラッキングされていない&#x200B;**リンク**&#x200B;の場合、URLはAdobe システムで書き換えられません。 独自のドメインとホスティングでユニバーサルリンクまたはアプリリンクを設定し、それらのリンクが意図したとおりにアプリを開くように設定する必要があります。
 
@@ -115,7 +115,7 @@ Adobe is hosting these files internally so not on customer's side.
 * アプリがインストールされたときに、モバイルアプリ内の特定の画面を開く、または
 * アプリがインストールされていない場合は、Web サイトをフォールバックとして開きます。
 
-メッセージで[ リンクトラッキングが有効になっている](message-tracking.md#enable-tracking)場合、[!DNL Journey Optimizer]はこれらのクリックを引き続き追跡し、レポートに含め、メッセージで実行する場合は[ コンテンツ実験](../content-management/content-experiment.md)でそれらを使用できます。
+メッセージで[&#x200B; リンクトラッキングが有効になっている](message-tracking.md#enable-tracking)場合、[!DNL Journey Optimizer]はこれらのクリックを引き続き追跡し、レポートに含め、メッセージで実行する場合は[&#x200B; コンテンツ実験](../content-management/content-experiment.md)でそれらを使用できます。
 
 このセクションでは、ディープリンクの一般的な実装パターンを提供します。 正確な設定は、アプリアーキテクチャとルーティングフレームワークによって異なります。
 
