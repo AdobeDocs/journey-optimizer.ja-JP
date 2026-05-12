@@ -32,7 +32,7 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 2248fe8ed733afa359477cc3f4d80a3cf7732800
+source-git-commit: f00bb7373065f199346326b3b3e85c542dcd56d8
 workflow-type: tm+mt
 source-wordcount: 1461
 ht-degree: 80%
@@ -231,3 +231,4 @@ Adobe Journey Optimizer で生成されるミラーページには、すべて�
 ## URL トラッキングのパーソナライズ {#url-tracking}
 
 URL パーソナライゼーションに関する詳細なガイダンス（URL トラッキングパラメーターのパーソナライズ方法、完全/ベース URLのパーソナライズ方法など）については、[URL パーソナライゼーション &#x200B;](url-personalization.md)を参照してください。
+
