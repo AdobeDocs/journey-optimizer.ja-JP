@@ -8,7 +8,7 @@ topic: Content Management
 role: User, Developer
 level: Intermediate
 keywords: ディープリンク、ディープリンク、ユニバーサルリンク、アプリリンク、電子メール
-source-git-commit: f00bb7373065f199346326b3b3e85c542dcd56d8
+source-git-commit: 8efe5aaf0ebf24aa61decf40651c2ecc198ab0bc
 workflow-type: tm+mt
 source-wordcount: '1182'
 ht-degree: 1%
@@ -307,3 +307,4 @@ URL エンコードクエリパラメーター値。 これにより、配信と
 リンクは、このページで説明されている`mclick` フローを介してアプリのディープリンクとして処理されるのではなく、デバイスのデフォルトのweb ブラウザー（標準のクリック追跡動作）で開きます。
 
 +++
+
