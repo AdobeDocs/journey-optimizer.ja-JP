@@ -426,6 +426,6 @@ ht-degree: 0%
 
 意思決定管理でオファーアクティビティを作成する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/329606?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/346695?captions=jpn&quality=12)
 
 

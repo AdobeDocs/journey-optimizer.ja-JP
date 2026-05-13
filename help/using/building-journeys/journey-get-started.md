@@ -274,7 +274,7 @@ AIを活用した送信時間の最適化により、各顧客がエンゲージ
 
 ジャーニーのコンポーネントを確認し、キャンバスでジャーニーを構築するための基本的な方法を理解します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430350?captions=jpn&quality=12)
 
 ### 関連資料
 

@@ -296,4 +296,4 @@ Web ジャーニーまたはキャンペーンが公開されている場合、�
 
 以下のビデオでは、web キャンペーンの作成、プロパティの設定、レビュー、公開の方法を確認できます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3449982/?captions=jpn&quality=12&learn=on)

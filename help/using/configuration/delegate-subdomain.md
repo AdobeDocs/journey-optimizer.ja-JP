@@ -298,4 +298,4 @@ CNAME を使用してサブドメインを設定するには、次の手順に�
 
 CNAME を使用してサブドメインを作成しアドビ固有のレコードを指すようにする方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/339484?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/342236?captions=jpn&quality=12)

@@ -265,7 +265,7 @@ ht-degree: 0%
 
   +++ビデオを見る
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3410430?quality=12&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3451883?captions=jpn&quality=12&learn=on)
 
   +++
 
@@ -273,7 +273,7 @@ ht-degree: 0%
 
   +++ビデオを見る
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3419898/?learn=on&autoplay=true)
+  >[!VIDEO](https://video.tv.adobe.com/v/3445289/?captions=jpn&learn=on&autoplay=true)
 
   +++
 
@@ -281,7 +281,7 @@ ht-degree: 0%
 
   +++ビデオを見る
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3423077/?learn=on&autoplay=true)
+  >[!VIDEO](https://video.tv.adobe.com/v/3451830/?captions=jpn&learn=on&autoplay=true)
 
   +++
 
