@@ -7,14 +7,331 @@ feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+source-git-commit: f561e5c548964d380ba7884c1e872e86db8409f3
 workflow-type: tm+mt
-source-wordcount: 12
-ht-degree: 100%
+source-wordcount: 1700
+ht-degree: 12%
 
 ---
+
+
+## 26年5月のプレリリースノート {#may-26-rn}
+
+**以下のプレリリースノートの内容は、リリースの公開日まで予告なく変更される場合があります**。 リンク、画面、更新済みのドキュメントは、リリース日にリリースノートに公開されます。
+
+詳しくは、[Adobe Experience Platform プレリリースノート](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}も参照してください。
+
+**リリース日**: 2026年5月19日～20日
+
+### 新機能 {#may-26-features}
+
+<table>
+<thead>
+<tr>
+<th><strong>ジャーニー式エージェント</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>[!DNL Adobe Journey Optimizer] ジャーニー式エディターに<strong>式エージェント </strong>が直接含まれるようになりました。 AIを活用すると、自然言語インターフェイスを通じて<strong>式を生成および最適化できます</strong>。必要なロジックを平易な言語で記述し、エージェントはすぐに使用できる式を生成します。 また、既存の式を選択して、担当者に説明を依頼したり、修正したり、改善を提案したりすることもできます。</p>
+<p>この機能は、パブリックベータ版のすべてのユーザーが使用できます。</p>
+<p>ドキュメント JIRA タスク：<a href="https://jira.corp.adobe.com/browse/DOCAC-14692">DOCAC-14692</a></p>
+<p>ご利用いただけます：2026年5月19日（PT）</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>ジャーニーとキャンペーン用のフォルダー</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>ジャーニーやキャンペーンを<strong>フォルダー</strong>に整理できるようになり、インターフェイスのナビゲーションと管理が向上しました。</p>
+<p>この機能は、一連の組織でのみ使用できます（限定提供）。 アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
+<p>ドキュメント JIRA タスク：<a href="https://jira.corp.adobe.com/browse/DOCAC-14038">DOCAC-14038</a></p>
+<p>ご利用いただけます：2026年5月19日（PT）</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>ダイレクトメールチャネルでの意思決定のサポート</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>ダイレクトメールジャーニーおよびキャンペーンに<strong>決定ポリシー</strong>を追加できるようになりました。 決定ポリシーは、各オーディエンスメンバーに配信する最適なコンテンツを動的に返すことを目的に、決定エンジンを活用するオファーのコンテナです。</p>
+<p>この機能は、一連の組織でのみ使用できます（限定提供）。 アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
+<p>ドキュメント JIRA タスク：<a href="https://jira.corp.adobe.com/browse/DOCAC-13429">DOCAC-13429</a></p>
+<p>ご利用いただけます：2026年5月19日（PT）</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>ワンショットジャーニーの自動終了</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>非繰り返し<strong> オーディエンスの読み取り</strong> ジャーニーが、最後にアクティブなプロファイルが終了すると自動的に閉じるようになりました。 以前は、これらのジャーニーは、プロファイルがフローしなくなった場合でも、91日間のグローバルタイムアウトが期限切れになるまでライブのままでした。 この改善により、ワンショットジャーニーは、実行が完了するとすぐに<strong>終了</strong> ステータスに移行され、手作業なしでジャーニーインベントリを正確に保つことができます。</p>
+<p>ドキュメント JIRA タスク：<a href="https://jira.corp.adobe.com/browse/DOCAC-14542">DOCAC-14542</a></p>
+<p>ご利用いただけます：2026年5月19日（PT）</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>エンドアクティビティからキャンペーンをトリガーオーケストレーション</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong> オーケストレーションされたキャンペーン </strong>を、ソースキャンペーンの<strong>終了アクティビティ </strong>から直接トリガーできるようになりました。 ソースキャンペーンで、「終了」アクティビティを選択し、トリガーするターゲットキャンペーンを選択します。 必要に応じて、ターゲットワークフローにパラメーターを渡して、動的で連鎖したキャンペーン実行を可能にすることができます。</p>
+<p>ドキュメント JIRA タスク：<a href="https://jira.corp.adobe.com/browse/DOCAC-14116">DOCAC-14116</a></p>
+<p>ご利用いただけます：2026年5月19日（PT）</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>ジャーニーパスの最適化 – ターゲティング</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong>最適化</strong> ノードを使用して、特定のオーディエンスをターゲットにして、ビジネス中心のKPIを満たすのに最適なパスを決定します。 このツールを活用すれば、一対一のレベルで共感を呼ぶ可能性が高い、より効果的なマーケティング施策を展開し、顧客のマーケティングパーソナライゼーション施策を改善して、コンバージョンや収益などの重要な顧客エンゲージメント KPIを強化できます。</p>
+<p>以前は制限付き可用性で使用されていましたが、この機能はすべての環境で使用できるようになりました（一般提供）。</p>
+<p>ドキュメント JIRA タスク：<a href="https://jira.corp.adobe.com/browse/DOCAC-14720">DOCAC-14720</a></p>
+<p>ご利用いただけます：2026年5月19日（PT）</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>ジャーニー仲裁 – ランキング式</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong>式</strong>を使用して、顧客プロファイル属性と文脈要因に基づいてジャーニーの優先順位スコアを自動的に高め、顧客が最も関連性の高いジャーニーに確実にエントリできるようにできるようになりました。</p>
+<p>以前は制限付き可用性で使用されていましたが、この機能はすべての環境で使用できるようになりました（一般提供）。</p>
+<p>ドキュメント JIRA タスク：<a href="https://jira.corp.adobe.com/browse/DOCAC-14719">DOCAC-14719</a></p>
+<p>ご利用いただけます：2026年5月19日（PT）</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Adobe Experience Managerのコンテンツフラグメント機能</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Experience Manager コンテンツフラグメントを、ネイティブのHTML フラグメントおよびエクスプレッションフラグメントと同じくらい容易に管理できるようになりました。</p>
+<p>ドキュメント JIRA タスク：<a href="https://jira.corp.adobe.com/browse/DOCAC-14686">DOCAC-14686</a></p>
+<p>ご利用いただけます：2026年5月19日（PT）</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Adobe Experience Manager リポジトリ設定</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey OptimizerからAdobe Experience Manager コンテンツへのアクセス方法を柔軟に設定できるようになりました。 このリリースでは、ジャーニーやキャンペーンで使用するコンテンツフラグメントのソースリポジトリを切り替える機能が導入されました。</p>
+<p>ドキュメント JIRA タスク：<a href="https://jira.corp.adobe.com/browse/DOCAC-14684">DOCAC-14684</a></p>
+<p>ご利用いただけます：2026年5月19日（PT）</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>RCS メッセージ</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>RCSの追加をサポートするために、モバイルメッセージングワークフローが更新されました。 SMS、MMS、RCSは、Adobe Journey Optimizerの単一のモバイルメッセージチャネルの下に簡単にグループ化できるようになりました。</p>
+<p>ドキュメント JIRA タスク：<a href="https://jira.corp.adobe.com/browse/DOCAC-12288">DOCAC-12288</a></p>
+<p>ご利用いただけます：2026年5月19日（PT）</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>オーケストレーションされたキャンペーンのファイルからのターゲット</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>未定</p>
+<p>この機能は、一連の組織でのみ使用できます（限定提供）。 アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
+<p>ドキュメント JIRA タスク：<a href="https://jira.corp.adobe.com/browse/DOCAC-14704">DOCAC-14704</a></p>
+<p>ご利用いただけます：2026年5月28日（PT）</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+### 機能強化 {#may-26-improv}
+
+このリリースに含まれる機能強化を以下に示します。
+
+#### AI
+
+* **Journey Agent - Analyze** - Journey Agentに新しい分析スキルが追加され、ジャーニーのホーム画面にAIの推奨事項が表示されるようになりました。 カードは、実用的なインサイトや関連するジャーニーへのリンクを提供し、実務担当者が最適化の機会を迅速に特定し、行動するのに役立ちます。 この機能は現在、一部のお客様の利用は制限されており、AIが有効なSKUをお持ちの場合は、1か月以内に一般公開に移行する予定です。
+
+  ドキュメント JIRA タスク：[DOCAC-14540](https://jira.corp.adobe.com/browse/DOCAC-14540)
+
+  ご利用いただけます：2026年5月19日（PT）
+
+#### キャンペーン
+
+* **キャンペーンライフサイクルイベントに関する顧客アラート** - 7つのライフサイクルアラートがリリースされ、サンドボックスレベルおよび特定のアラートに関しては個々のキャンペーンレベルで通知を購読できます。
+
+  ドキュメント JIRA タスク：[DOCAC-14539](https://jira.corp.adobe.com/browse/DOCAC-14539)
+
+  ご利用いただけます：2026年5月19日（PT）
+
+* **キャンペーンのデフォルトの実行フィールドを上書き** – 以前はジャーニーレベルで使用されていましたが、キャンペーンのパラメーターで、メール、SMS、WhatsApp配信にグローバルに設定されているデフォルトの実行フィールドを上書きできるようになりました。
+
+  ドキュメント JIRA タスク：[DOCAC-14718](https://jira.corp.adobe.com/browse/DOCAC-14718)
+
+  ご利用いただけます：2026年5月19日（PT）
+
+#### 設定
+
+* ハイスループット プッシュ **の** パフォーマンス アドオン – ハイスループット パフォーマンス アドオンは、**プッシュ** チャネルでも使用できるようになりました。 以前は、このキャパシティはメールチャネルでのみ利用可能でした。
+
+  ドキュメント JIRA タスク：[DOCAC-14717](https://jira.corp.adobe.com/browse/DOCAC-14717)
+
+  ご利用いただけます：2026年5月19日（PT）
+
+#### 決定
+
+* Decisioningの&#x200B;**Adobe Experience Manager コンテンツフラグメント** - Experience Decisioningのオファー項目属性に&#x200B;**Adobe Experience Manager コンテンツフラグメント**&#x200B;をマッピングできるようになりました。 Adobe Experience Managerで作成されたパーソナライズされたコンテンツは、意思決定モデル、式、ランキングによって選択および最適化できます。 1つのオファー項目につき、最大5つのAEM コンテンツフラグメントを追加できます。 AEMで&#x200B;**AJO有効**&#x200B;としてタグ付けされたコンテンツフラグメントのみが選択できます。
+
+  この機能は、一連の組織でのみ使用できます（限定提供）。 アクセス権を取得するには、アドビ担当者にお問い合わせください。
+
+  ドキュメント JIRA タスク：[DOCAC-14529](https://jira.corp.adobe.com/browse/DOCAC-14529)
+
+  ご利用いただけます：2026年5月19日（PT）
+
+#### E メールデザイナー
+
+* **編集可能なフラグメントフィールドのリッチテキスト** - テキストコンポーネントを編集可能なフラグメントとして使用する場合、ハイパーリンクや太字/斜体の書式設定など、編集可能なフィールドに&#x200B;**リッチテキスト**&#x200B;を追加できるようになりました。
+
+  ドキュメント JIRA タスク：[DOCAC-14715](https://jira.corp.adobe.com/browse/DOCAC-14715)
+
+  ご利用いただけます：2026年5月19日（PT）
+
+* **フラグメントの継承の解除を制限** - フラグメントを作成または編集する際に、継承を解除できるかどうかを選択できるようになりました。これにより、メールで使用する際にロックを解除できないフラグメントを作成できます。 これにより、一元的に管理、規制されたコンテンツブロックに対してガバナンスを適用し、ブランドの一貫性を維持しながら、コンプライアンス要件に対応できます。
+
+  ドキュメント JIRA タスク：[DOCAC-14716](https://jira.corp.adobe.com/browse/DOCAC-14716)
+
+  ご利用いただけます：2026年5月19日（PT）
+
+* **ランディングページのコンテンツロック** - メールテンプレートで既に使用できる機能と同様に、**ランディングページテンプレート**&#x200B;のコンテンツの一部をロックできるようになりました。 編集可能な構造とコンポーネントを選択し、次の3つのロックタイプのいずれかを適用します。**ロックデザイン** （テキスト、画像、URLのみ編集できます。デザイン設定は無効です）、**ロックデザインとコンテンツ** （すべてがロックされています）、または&#x200B;**ロックポジション**。
+
+  ドキュメント JIRA タスク：[DOCAC-14714](https://jira.corp.adobe.com/browse/DOCAC-14714)
+
+  ご利用いただけます：2026年5月19日（PT）
+
+* **統合シェルでのメールDesigner** - メールDesignerは、フルスクリーンで直接起動するのではなく、Journey Optimizer統合シェルインターフェイスに統合されるようになりました。
+
+  ドキュメント JIRA タスク：[DOCAC-14254](https://jira.corp.adobe.com/browse/DOCAC-14254)
+
+  ご利用いただけます：2026年5月19日（PT）
+
+#### ジャーニー
+
+* カスタムアクションの&#x200B;**証明書ベースのカスタム認証** - カスタムアクションで&#x200B;**証明書ベースのカスタム認証**&#x200B;がサポートされるようになりました。 カスタム認証設定に`subType: "certificateCredential"`を追加することで、Journey OptimizerはAdobeのマネージド証明書を使用してJWT クライアントアサーションに署名し、アクセストークンと交換します。クライアントシークレットは必要ありません。 Azure Entra IDなど、証明書ベースのID確認を強制するエンタープライズ API向けに設計されています。
+
+  ドキュメント JIRA タスク：[DOCAC-14543](https://jira.corp.adobe.com/browse/DOCAC-14543)
+
+  ご利用いただけます：2026年5月19日（PT）
+
+* **外部オーディエンスに対する追加識別子のサポート** – 追加識別子のサポートは、**外部オーディエンス**&#x200B;に拡張されます。これには、CSV ファイルから読み込まれたオーディエンスや、Federated Audience Compositionで作成されたオーディエンスが含まれます。 すべてのオーディエンスタイプで、ID以外の属性（または個人ではないID）を補足IDとして使用できるようになりました。
+
+  ドキュメント JIRA タスク：[DOCAC-14541](https://jira.corp.adobe.com/browse/DOCAC-14541)
+
+  ご利用いただけます：2026年5月19日（PT）
+
+#### オーケストレーションキャンペーン
+
+* **エンリッチメントアクティビティでリンクを追加** - オーケストレーションされたキャンペーンのエンリッチメントアクティビティで、「リンクを追加」機能を使用できるようになりました。 これにより、作業用テーブルデータと既存のデータベーステーブルとの間に直接関係を作成できます。
+
+  ドキュメント JIRA タスク：[DOCAC-14762](https://jira.corp.adobe.com/browse/DOCAC-14762)
+
+  ご利用いただけます：2026年5月26日（PT）
+
+* **パーソナライゼーションでのエンリッチメントコレクションのループ** - オーケストレーションされたキャンペーンのパーソナライゼーションエディターで、エンリッチメントアクティビティのコレクションを繰り返すループ構成がサポートされるようになりました。
+
+  ドキュメント JIRA タスク：[DOCAC-14703](https://jira.corp.adobe.com/browse/DOCAC-14703)
+
+  ご利用いただけます：2026年5月28日（PT）
+
+#### メール
+
+* **受信者とのメールヘッダーのパーソナライゼーション** - パーソナライゼーションパラメーターでグローバルチャネル設定を上書きすることで、オーケストレーションされたキャンペーンレベルでメールヘッダーをカスタマイズできるようになりました。
+
+  ドキュメント JIRA タスク：[DOCAC-13761](https://jira.corp.adobe.com/browse/DOCAC-13761)
+
+  ご利用いただけます：2026年5月29日（PT）
+
+#### レポート
+
+* **電子メールとSMS レポートのボットクリックを除外** – 電子メールとSMS レポートから人間ではない（ボット）インタラクションを除外するための新しい見積もり指標が利用可能になりました。 これには、推定クリック数、クリックスルー率（CTR）、クリックして開く率（CTOR）などが含まれ、実際の顧客エンゲージメントをより正確に把握することができます。 既存の指標は変更されず、これらの新しい指標を現在のレポートと併用することで、分析を改善できます。
+
+  ドキュメント JIRA タスク：[DOCAC-14354](https://jira.corp.adobe.com/browse/DOCAC-14354)
+
+  ご利用いただけます：2026年5月19日（PT）
 
 <!--
 # Pre-release notes {#e-release-notes}
@@ -28,7 +345,7 @@ Adobe Journey Optimizer continuously delivers new features, enhancements to exis
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: April 28-29, 2026
 
@@ -420,7 +737,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: March 24-25, 2026
 
@@ -711,7 +1028,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: February 17, 2026
 
@@ -964,7 +1281,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -1141,7 +1458,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
