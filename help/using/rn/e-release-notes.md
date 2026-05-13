@@ -7,12 +7,11 @@ feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: e5f5922ae2c7afaeab2ebdccae564471579faa75
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+source-git-commit: 9a63887c9bb55aac622c16f71130e8e2c9a6cb18
 workflow-type: tm+mt
-source-wordcount: 1730
-ht-degree: 12%
+source-wordcount: 1986
+ht-degree: 13%
 
 ---
 
@@ -30,14 +29,14 @@ ht-degree: 12%
 <table>
 <thead>
 <tr>
-<th><strong>ジャーニー式エージェント</strong><br/></th>
+<th><strong>ジャーニー式のAI アシスタント</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizerでは、ジャーニーの高度な式エディター内に式アシスタントが直接含まれるようになりました。 AIを活用して、平易な言語の説明から新しい式を生成できます。</p>
-<p>この機能は、パブリックベータ版のすべてのユーザーが使用できます。</p>
+<p>Adobe Journey Optimizerでは、ジャーニーの高度なエクスプレッションエディター内に、ジャーニー式</strong>用の<strong>AI アシスタントが直接含まれるようになりました。 AIを活用して、平易な言語の説明から新しい式を生成できます。</p>
+<p>この機能は、パブリック Betaとしてすべてのお客様が利用できます。</p>
 <p>ドキュメント JIRA タスク：<a href="https://jira.corp.adobe.com/browse/DOCAC-14692">DOCAC-14692</a></p>
 <p>ご利用いただけます：2026年5月19日（PT）</p>
 </td>
@@ -54,8 +53,7 @@ ht-degree: 12%
 <tbody>
 <tr>
 <td>
-<p>決定ポリシーをダイレクトメールジャーニーおよびキャンペーンに追加できるようになりました。 決定ポリシーは、各オーディエンスメンバーに配信する最適なコンテンツを動的に返すことを目的に、決定エンジンを活用するオファーのコンテナです。</p>
-<p>この機能は、一連の組織でのみ使用できます（限定提供）。 アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
+<p>ダイレクトメールジャーニーおよびキャンペーンに<strong>決定ポリシー</strong>を追加できるようになりました。 決定ポリシーは、各オーディエンスメンバーに配信する最適なコンテンツを動的に返すことを目的に、決定エンジンを活用するオファーのコンテナです。</p>
 <p>ドキュメント JIRA タスク：<a href="https://jira.corp.adobe.com/browse/DOCAC-13429">DOCAC-13429</a></p>
 <p>ご利用いただけます：2026年5月19日（PT）</p>
 </td>
@@ -66,13 +64,13 @@ ht-degree: 12%
 <table>
 <thead>
 <tr>
-<th><strong>ワンショットジャーニーの自動終了</strong><br/></th>
+<th><strong>繰り返し以外のオーディエンスに対する自動ジャーニー閉鎖</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>最後にアクティブなプロファイルが終了すると、非繰り返しの「オーディエンスを読み取り」ジャーニーが自動的に閉じるようになりました。 以前は、これらのジャーニーは、プロファイルがフローしなくなった場合でも、91日間のグローバルタイムアウトが期限切れになるまでライブのままでした。 この改善により、ワンショットジャーニーは、実行が完了するとすぐにクローズド状態に移行され、手作業なしにジャーニーインベントリを正確に保つことができます。</p>
+<p>非繰り返し<strong> オーディエンスの読み取り</strong> ジャーニーが、最後にアクティブなプロファイルが終了すると自動的に閉じるようになりました。 以前は、これらのジャーニーは、プロファイルがフローしなくなった場合でも、91日間のグローバルタイムアウトが期限切れになるまで<strong> ライブ </strong>のままでした。 この改善により、これらのジャーニーは、実行が完了するとすぐに<strong>終了</strong> ステータスに移行され、手作業なしでジャーニーインベントリを正確に保つことができます。</p>
 <p>ドキュメント JIRA タスク：<a href="https://jira.corp.adobe.com/browse/DOCAC-14542">DOCAC-14542</a></p>
 <p>ご利用いただけます：2026年5月19日（PT）</p>
 </td>
@@ -106,7 +104,7 @@ ht-degree: 12%
 <tbody>
 <tr>
 <td>
-<p>新しい「最適化」ノードを使用して、特定のオーディエンスをターゲットにして、ビジネス中心のKPIを満たすのに最適なパスを決定します。</p>
+<p>新しい<strong>Optimize</strong> ノードを使用して、特定のオーディエンスをターゲットにして、ビジネス中心のKPIを満たすのに最適なパスを決定します。</p>
 <p>このツールを活用すれば、一対一のレベルで共感を呼ぶ可能性が高い、より効果的なマーケティング施策を策定し、顧客のマーケティングパーソナライゼーション活動を改善して、コンバージョンや収益などの重要な顧客エンゲージメント KPIを強化できます。</p>
 <p>以前は制限付き可用性で使用されていましたが、この機能はすべての環境で使用できるようになりました（一般提供）。</p>
 <p>ドキュメント JIRA タスク：<a href="https://jira.corp.adobe.com/browse/DOCAC-14720">DOCAC-14720</a></p>
@@ -137,13 +135,14 @@ ht-degree: 12%
 <table>
 <thead>
 <tr>
-<th><strong>Adobe Experience Managerのコンテンツフラグメント機能</strong><br/></th>
+<th><strong>強化されたAdobe Experience Manager コンテンツフラグメントのサポート</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Experience Manager コンテンツフラグメントを、ネイティブのHTML フラグメントおよびエクスプレッションフラグメントと同じくらい容易に管理できるようになりました。</p>
+<p>このリリースでは、Journey Optimizer オーサリングワークフロー内で、Adobe Experience Manager コンテンツフラグメントをより使いやすく、より制御しやすく、より実稼動対応にするための機能強化がいくつか追加されました。</p>
+<p>Journey Optimizerでは、コンテンツフラグメントをAdobe Experience Manager オーサリング層から直接取得できるようになりました。コンテンツフラグメントを最初に公開する必要はありません。 フラグメントのコンテキストはメッセージ全体で維持されるため、作成者はフラグメントのフィールドを再選択することなく、後のコンテンツブロックで再利用できます。 このリリースでは、無効または期限切れのコンテンツフラグメントのライフサイクル処理も改善され、ロケールとバリエーションのサポートが追加されているため、マーケターは同じコンテンツフラグメントの代替バージョンをより意図的に操作できます。</p>
 <p>ドキュメント JIRA タスク：<a href="https://jira.corp.adobe.com/browse/DOCAC-14686">DOCAC-14686</a></p>
 <p>ご利用いただけます：2026年5月19日（PT）</p>
 </td>
@@ -177,7 +176,7 @@ ht-degree: 12%
 <tbody>
 <tr>
 <td>
-<p>RCSの追加をサポートするために、モバイルメッセージングワークフローが更新されました。 SMS、MMS、RCSは、Adobe Journey Optimizerの単一のモバイルメッセージチャネルの下に簡単にグループ化できるようになりました。</p>
+<p>RCSの追加をサポートするために、<strong> モバイルメッセージングワークフロー</strong>が更新されました。 SMS、MMS、およびRCSは、Adobe Journey Optimizerの単一の<strong> モバイルメッセージ </strong> チャネルの下に簡単にグループ化できるようになりました。</p>
 <p>ドキュメント JIRA タスク：<a href="https://jira.corp.adobe.com/browse/DOCAC-12288">DOCAC-12288</a></p>
 <p>ご利用いただけます：2026年5月19日（PT）</p>
 </td>
@@ -203,6 +202,24 @@ ht-degree: 12%
 </tbody>
 </table>
 
+<table>
+<thead>
+<tr>
+<th><strong>ジャーニーシミュレーション</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>これで、ジャーニーを<strong>シミュレーション</strong>に設定できます。 このモードを使用すると、<strong>シミュレートされたユーザー</strong>を使用してロジックを検証できます。 これらはシミュレーション専用に作成された一時的なプロファイルで、Adobe Experience Platform で永続的なテストプロファイルを管理することなく、自由にテストできます。</p>
+<p>以前は限定提供でリリースされていましたが、この機能はすべての環境（一般提供）で使用できるようになりました。一般提供リリースでは、Journey Agentを使用して、シミュレーションユーザーとイベントをシミュレーションメニューで直接生成できるようになりました。</p>
+<p>ドキュメント JIRA タスク：<a href="https://jira.corp.adobe.com/browse/DOCAC-14492">DOCAC-14492</a></p>
+<p>ご利用いただけます：2026年5月28日（PT）</p>
+</td>
+</tr>
+</tbody>
+</table>
+
 ### 機能強化 {#may-26-improv}
 
 このリリースに含まれる機能強化を以下に示します。
@@ -210,6 +227,8 @@ ht-degree: 12%
 #### AI
 
 * **Journey Agent - Analyze** - Journey Agentに新しいAnalyze スキルが追加されました。 ジャーニーのホーム画面に移動すると、右側に新しいAI レコメンデーションパネルが表示され、カードに実用的なインサイトが表示されます。 カードをクリックすると、関連するジャーニーに直接移動し、ジャーニーのパフォーマンスを最適化するための詳細なレコメンデーションが表示される右側のパネルが開きます。
+
+  この機能は、一連の組織でのみ使用できます（限定提供）。 アクセス権を取得するには、アドビ担当者にお問い合わせください。
 
   ドキュメント JIRA タスク：[DOCAC-14540](https://jira.corp.adobe.com/browse/DOCAC-14540)
 
@@ -325,6 +344,14 @@ ht-degree: 12%
 
   ご利用いただけます：2026年5月19日（PT）
 
+#### 統合
+
+* **Dynamic Mediaを使用したカウントダウンタイマーによるオープンタイムパーソナライゼーション**- Journey OptimizerとAdobe Experience Manager Dynamic Mediaの統合により、Dynamic Media テンプレートのオープンタイムパーソナライゼーションが可能になり、詳細にパーソナライズされたユースケースが実現します。 顧客は、Adobe Experience Managerでパーソナライズされたテンプレートを作成、公開し、Journey Optimizerでデータを公開時にレンダリングして使用できます。
+
+  ドキュメント JIRA タスク：[DOCAC-13801](https://jira.corp.adobe.com/browse/DOCAC-13801)
+
+  ご利用いただけます：2026年5月19日（PT）
+
 <!--
 # Pre-release notes {#e-release-notes}
 
@@ -337,7 +364,7 @@ Adobe Journey Optimizer continuously delivers new features, enhancements to exis
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: April 28-29, 2026
 
@@ -729,7 +756,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: March 24-25, 2026
 
@@ -1020,7 +1047,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: February 17, 2026
 
@@ -1273,7 +1300,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -1450,7 +1477,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
