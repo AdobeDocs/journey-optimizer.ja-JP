@@ -58,7 +58,7 @@ ht-degree: 0%
 
 ### 仕組み – Web SDK {#client-side-how}
 
-1. [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"}がこのページに含まれています。
+1. [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja){target="_blank"}がこのページに含まれています。
 
 1. パーソナライゼーションコンテンツを取得するには、`sendEvent` コマンドを使用し、[&#x200B; サーフェス URI](code-based-surface.md)<!--( or location/path)-->を指定する必要があります。
 
@@ -175,7 +175,7 @@ Adobe Experience Platform APIへのリクエストは、提案を取得し、表
 ### 仕組み
 
 1. Web ページが要求され、`kndctr_`が先頭に付けられたブラウザーによって以前に保存されたCookieが含まれます。
-1. ページがアプリサーバーから要求されると、パーソナライゼーションコンテンツを取得するためのイベントが[&#x200B; インタラクティブデータ収集エンドポイント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html)に送信されます。 このサンプルアプリでは、いくつかのヘルパーメソッドを使用して、APIへのリクエストの作成と送信を簡素化します（[aepEdgeClient.js](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/common/aepEdgeClient.js){target="_blank"}を参照）。 しかし、リクエストは単なる`POST`で、イベントとクエリを含むペイロードがあります。 前の手順のCookie （使用可能な場合）は、`meta>state>entries`配列のリクエストに含まれます。
+1. ページがアプリサーバーから要求されると、パーソナライゼーションコンテンツを取得するためのイベントが[&#x200B; インタラクティブデータ収集エンドポイント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=ja)に送信されます。 このサンプルアプリでは、いくつかのヘルパーメソッドを使用して、APIへのリクエストの作成と送信を簡素化します（[aepEdgeClient.js](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/common/aepEdgeClient.js){target="_blank"}を参照）。 しかし、リクエストは単なる`POST`で、イベントとクエリを含むペイロードがあります。 前の手順のCookie （使用可能な場合）は、`meta>state>entries`配列のリクエストに含まれます。
 
    ```javascript
    fetch(
@@ -336,7 +336,7 @@ Adobe Experience Platform APIへのリクエストは、提案を取得し、表
 ハイブリッド実装を使用している場合は、以下のリンクを参照してください。
 
 * Adobe Tech ブログ：[Adobe Experience Platform Web SDKのハイブリッド Personalization](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
-* SDK ドキュメント：[Web SDKとEdge Network Server APIを使用したハイブリッドパーソナライゼーション &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html){target="_blank"}
+* SDK ドキュメント：[Web SDKとEdge Network Server APIを使用したハイブリッドパーソナライゼーション &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html?lang=ja){target="_blank"}
 
 ## Adobe Experience Platform assuranceによるエッジネットワーク API呼び出しのデバッグ {#debugging-edge-api-assurance}
 
@@ -385,5 +385,5 @@ To help you get started with implementing code-based experiences, refer to the c
 
 * **Web SDK implementation**: Learn how to configure the Web SDK for decisioning and code-based experiences in [these tutorials](code-based-decisioning-implementations.md#tutorials).
 
-* **Decisioning implementation**: To learn how to implement decisioning capabilities on a code-based campaign, follow [this use case tutorial](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-uc){target="_blank"}.
+* **Decisioning implementation**: To learn how to implement decisioning capabilities on a code-based campaign, follow [this use case tutorial](https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/decisioning/experience-decisioning/experience-decisioning-uc){target="_blank"}.
 -->

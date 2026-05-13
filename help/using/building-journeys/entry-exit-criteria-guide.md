@@ -157,11 +157,11 @@ ht-degree: 0%
 
 完全な技術的詳細を含むステップバイステップの実装ガイダンスについては、次の文書化されたユースケースを検討してください。
 
-* **[顧客オンボーディングジャーニー](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding)** - オーディエンスの選定、イベントのタイムアウト、目標ベースの終了を使用して、パーソナライズされたウェルカムエクスペリエンスを構築します
+* **[顧客オンボーディングジャーニー](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding)** - オーディエンスの選定、イベントのタイムアウト、目標ベースの終了を使用して、パーソナライズされたウェルカムエクスペリエンスを構築します
 
-* **[カート放棄の回復](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart)** - イベントをトリガーにしたジャーニー、プレイブック、チャネル ルーティングを使用して、失われたセールスを回復します
+* **[カート放棄の回復](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart)** - イベントをトリガーにしたジャーニー、プレイブック、チャネル ルーティングを使用して、失われたセールスを回復します
 
-* **[リエンゲージメントキャンペーン &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/use-cases/personalization-insights-engagement/use-cases-luma)** – 行動ターゲティングと有料メディアのアクティベーションにより、非アクティブな顧客を取り戻します
+* **[リエンゲージメントキャンペーン &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/use-cases/personalization-insights-engagement/use-cases-luma)** – 行動ターゲティングと有料メディアのアクティベーションにより、非アクティブな顧客を取り戻します
 
 * **[購読者にメッセージを送信](message-to-subscribers-uc.md)** – 購読オーディエンスとパーソナライズされたコンテンツで購読リストをターゲットにする
 
@@ -233,7 +233,7 @@ ht-degree: 0%
 
 **チュートリアルと例**
 
-[ジャーニーユースケース &#x200B;](jo-use-cases.md) | [お客様のオンボーディングビデオ &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [&#x200B; カート放棄ビデオ &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [&#x200B; コミュニティブログ：入口と出口の条件](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958)
+[ジャーニーユースケース &#x200B;](jo-use-cases.md) | [お客様のオンボーディングビデオ &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [&#x200B; カート放棄ビデオ &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [&#x200B; コミュニティブログ：入口と出口の条件](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958?profile.language=ja)
 
 **関連する機能**
 

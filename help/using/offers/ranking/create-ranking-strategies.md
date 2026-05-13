@@ -76,7 +76,7 @@ AI モデルを作成するには、次の手順に従います。
    >* **インプレッションイベント** （表示されるオファー）
    >* **コンバージョンイベント** （電子メールまたはweb経由でクリックされるオファー）。
    >
-   >これらのイベントは、提供されたWeb SDKまたはモバイルSDKを使用して自動的にキャプチャされます。 詳しくは、[Adobe Experience Platform Web SDKの概要](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)を参照してください。
+   >これらのイベントは、提供されたWeb SDKまたはモバイルSDKを使用して自動的にキャプチャされます。 詳しくは、[Adobe Experience Platform Web SDKの概要](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja)を参照してください。
 
 1. コンバージョンイベントとインプレッションイベントが収集されるデータセットを選択します。 このようなデータセットを作成する方法については、[このセクション &#x200B;](../data-collection/create-dataset.md)を参照してください。<!--This dataset needs to be associated with a schema that must have the **[!UICONTROL Proposition Interactions]** field group (previously known as mixin) associated with it.-->
 
@@ -108,7 +108,7 @@ At this point, you must have:
 * and in which dataset you want to collect the event data.
 -->
 
-これで、オファーが表示されたり、クリックされたりするたびに、対応するイベントを、[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"}またはモバイル SDKを使用して&#x200B;**[!UICONTROL Experience Event - Proposition Interactions]** フィールドグループによって自動的にキャプチャされるようにします。
+これで、オファーが表示されたり、クリックされたりするたびに、対応するイベントを、[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html?lang=ja#what-is-adobe-experience-platform-web-sdk%3F){target="_blank"}またはモバイル SDKを使用して&#x200B;**[!UICONTROL Experience Event - Proposition Interactions]** フィールドグループによって自動的にキャプチャされるようにします。
 
 イベントタイプ（表示されたオファーまたはクリックされたオファー）で送信できるようにするには、Adobe Experience Platformに送信されるエクスペリエンスイベントのイベントタイプごとに正しい値を設定する必要があります。 [方法を学ぶ](../data-collection/schema-requirement.md)
 

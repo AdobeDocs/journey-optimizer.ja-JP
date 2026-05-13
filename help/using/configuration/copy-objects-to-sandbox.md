@@ -47,7 +47,7 @@ ht-degree: 0%
 
 パッケージの書き出しおよび読み込み機能を使用して、ジャーニー、キャンペーン、カスタムアクション、コンテンツテンプレート、フラグメントなどのオブジェクトを複数のサンドボックス間でコピーできます。 パッケージは、1つのオブジェクトまたは複数のオブジェクトで構成できます。 パッケージに含まれるオブジェクトはすべて、同じサンドボックスから取得する必要があります。
 
-このページでは、Journey Optimizerのコンテキストでのサンドボックスツールのユースケースについて説明します。 機能自体について詳しくは、Adobe Experience Platform [&#x200B; サンドボックスツールガイド &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects){target="_blank"}を参照してください。
+このページでは、Journey Optimizerのコンテキストでのサンドボックスツールのユースケースについて説明します。 機能自体について詳しくは、Adobe Experience Platform [&#x200B; サンドボックスツールガイド &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=ja#abobe-journey-optimizer-objects){target="_blank"}を参照してください。
 
 >[!NOTE]
 >
@@ -77,7 +77,7 @@ Journey Optimizerを使用すると、ジャーニー、キャンペーン（ア
 
 +++ ジャーニー
 
-* **コピーされた依存関係** - ジャーニーを書き出す際に、ジャーニー自体に加えて、Journey Optimizerは、ジャーニーが依存するオブジェクト（オーディエンス、カスタムアクション、スキーマ、イベント、アクション）のほとんどもコピーします。 コピーされたオブジェクトについて詳しくは、Adobe Experience Platform [&#x200B; サンドボックスツールガイド &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html#abobe-journey-optimizer-objects){target="_blank"}を参照してください。
+* **コピーされた依存関係** - ジャーニーを書き出す際に、ジャーニー自体に加えて、Journey Optimizerは、ジャーニーが依存するオブジェクト（オーディエンス、カスタムアクション、スキーマ、イベント、アクション）のほとんどもコピーします。 コピーされたオブジェクトについて詳しくは、Adobe Experience Platform [&#x200B; サンドボックスツールガイド &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/sandbox-tooling.html?lang=ja#abobe-journey-optimizer-objects){target="_blank"}を参照してください。
 
 * **手動での検証を推奨** – すべてのリンクされた要素が宛先サンドボックスにコピーされることを保証するものではありません。 ジャーニーを公開する前などに、詳細なチェックを実行することを強くお勧めします。 これにより、欠落している可能性のあるオブジェクトを特定できます。
 

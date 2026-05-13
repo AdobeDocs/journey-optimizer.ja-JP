@@ -37,7 +37,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >XDM スキーマとフィールドグループについて詳しくは、[XDM システム概要ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}を参照してください。
+   >XDM スキーマとフィールドグループについて詳しくは、[XDM システム概要ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target="_blank"}を参照してください。
 
 1. スキーマの名前と説明を入力し、**終了**&#x200B;をクリックします。
    ![](../../offers/assets/ai-ranking-xdm-event-2.png)
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->スキーマの構築について詳しくは、[&#x200B; スキーマ構成の基本](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#understanding-schemas){target="_blank"}を参照してください。
+>スキーマの構築について詳しくは、[&#x200B; スキーマ構成の基本](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ja#understanding-schemas){target="_blank"}を参照してください。
 
 これで、このスキーマを使用してデータセットを作成する準備が整いました。 これを行うには、次の手順に従います。
 

@@ -70,7 +70,7 @@ Journey Optimizerのジャーニーデザイナーは、マーケターやジャ
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 **リアルタイムおよびバッチ配信**
 
@@ -80,7 +80,7 @@ Journey Optimizerのジャーニーデザイナーは、マーケターやジャ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ja)
 
 **コンテキストデータ**
 
@@ -90,7 +90,7 @@ Journey Optimizerのジャーニーデザイナーは、マーケターやジャ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ja)
 
 **組み込みアクション**
 
@@ -100,7 +100,7 @@ Journey Optimizerのジャーニーデザイナーは、マーケターやジャ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 **カスタムアクション**
 
@@ -110,7 +110,7 @@ Journey Optimizerのジャーニーデザイナーは、マーケターやジャ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 **ビジュアルジャーニーデザイナー**
 
@@ -120,7 +120,7 @@ Journey Optimizerのジャーニーデザイナーは、マーケターやジャ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
 
 **テストと最適化**
 
@@ -141,7 +141,7 @@ Journey Optimizerのジャーニーデザイナーは、マーケターやジャ
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
 
 **ユースケースを通じて学習**
 
@@ -151,7 +151,7 @@ Journey Optimizerのジャーニーデザイナーは、マーケターやジャ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ja)
 
 **新規登録者を歓迎**
 
@@ -161,7 +161,7 @@ Journey Optimizerのジャーニーデザイナーは、マーケターやジャ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=ja)
 
 **メール送信時間の最適化**
 
@@ -171,7 +171,7 @@ AIを活用した送信時間の最適化により、各顧客がエンゲージ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
 
 **配信を増やす**
 
@@ -181,7 +181,7 @@ AIを活用した送信時間の最適化により、各顧客がエンゲージ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 **平日ごとの目標**
 
@@ -191,7 +191,7 @@ AIを活用した送信時間の最適化により、各顧客がエンゲージ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=ja)
 
 **ジャーニーに関するFAQ**
 
@@ -209,7 +209,7 @@ AIを活用した送信時間の最適化により、各顧客がエンゲージ
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 **ジャーニーの作成と管理**
 
@@ -219,7 +219,7 @@ AIを活用した送信時間の最適化により、各顧客がエンゲージ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 **ジャーニーアクティビティ**
 
@@ -229,7 +229,7 @@ AIを活用した送信時間の最適化により、各顧客がエンゲージ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 **式と条件**
 
@@ -239,7 +239,7 @@ AIを活用した送信時間の最適化により、各顧客がエンゲージ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=ja)
 
 **トラブルシューティングと監視**
 
@@ -249,7 +249,7 @@ AIを活用した送信時間の最適化により、各顧客がエンゲージ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
 
 **ジャーニーデザイナーの概要**
 
@@ -259,7 +259,7 @@ AIを活用した送信時間の最適化により、各顧客がエンゲージ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
 
 **テストと公開**
 
@@ -281,5 +281,5 @@ AIを活用した送信時間の最適化により、各顧客がエンゲージ
 * **[エラーコード参照](error-codes-reference.md)** - ジャーニーエラーコードとトラブルシューティング手順
 * **[アラート](../reports/alerts.md)** - ジャーニー監視のアラートを設定します
 * **[トラブルシューティング](troubleshooting.md)** – 一般的なジャーニーの問題と解決策
-* **[ジャーニーチュートリアル &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}** – 実践的なビデオチュートリアルを通じてジャーニー構築を学ぶ
+* **[ジャーニーチュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}** – 実践的なビデオチュートリアルを通じてジャーニー構築を学ぶ
 * **[ジャーニーのガードレールと制限事項](../start/guardrails.md)** - [!DNL Adobe Journey Optimizer]を使用する際のガードレールと制限事項を確認する

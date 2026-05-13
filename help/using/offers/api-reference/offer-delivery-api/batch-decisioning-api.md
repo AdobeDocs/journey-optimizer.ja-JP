@@ -50,7 +50,7 @@ ht-degree: 0%
 
 * データセットをメッセージ配信ベンダーAPIに書き出します。
 
-<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html) to learn more about exporting audiences.) -->
+<!-- (Refer to the [export jobs endpoint documentation](https://experienceleague.adobe.com/docs/experience-platform/segmentation/api/export-jobs.html?lang=ja) to learn more about exporting audiences.) -->
 
 >[!NOTE]
 >

@@ -27,7 +27,7 @@ ht-degree: 0%
 
 >[!BEGINSHADEBOX]
 
-このユースケースは、Experience Platformにすでに存在するオーディエンス、特に閲覧中のアクティビティを収集するリアルタイムのweb ビヘイビアーオーディエンスから始まります。 [Adobe Experience Platformの詳細](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
+このユースケースは、Experience Platformにすでに存在するオーディエンス、特に閲覧中のアクティビティを収集するリアルタイムのweb ビヘイビアーオーディエンスから始まります。 [Adobe Experience Platformの詳細](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
 
 **この使用例に必要なスキーマ：**
 

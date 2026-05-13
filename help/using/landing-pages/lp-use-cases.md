@@ -119,7 +119,7 @@ ht-degree: 0%
 
 ### オプトアウト管理 {#opt-out-management}
 
-受信者に、ブランドからのコミュニケーションの受信を登録解除する機能を提供することは、法的要件です。 該当する法律について詳しくは、[Experience Platform ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html#regulations){target="_blank"}を参照してください。
+受信者に、ブランドからのコミュニケーションの受信を登録解除する機能を提供することは、法的要件です。 該当する法律について詳しくは、[Experience Platform ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=ja#regulations){target="_blank"}を参照してください。
 
 したがって、受信者に送信されるすべての電子メールには、常に&#x200B;**登録解除リンク**&#x200B;を含める必要があります。
 
@@ -178,7 +178,7 @@ ht-degree: 0%
 
    * プロファイルデータは更新され、再度購読しない限り、ブランドからのコミュニケーションは受け取りません。
 
-対応するプロファイルの選択が更新されたことを確認するには、Experience Platformに移動し、ID名前空間と対応するID値を選択してプロファイルにアクセスします。 詳しくは、[Experience Platform ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html#getting-started){target="_blank"}を参照してください。
+対応するプロファイルの選択が更新されたことを確認するには、Experience Platformに移動し、ID名前空間と対応するID値を選択してプロファイルにアクセスします。 詳しくは、[Experience Platform ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ja#getting-started){target="_blank"}を参照してください。
 
 ![](assets/lp_opt-out-profile-choice.png)
 
@@ -188,7 +188,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->デフォルトの[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html){target="_blank"} **[!UICONTROL Profiles]**&#x200B;結合ポリシーの結合メソッドが&#x200B;**[!UICONTROL Dataset Precedence]**&#x200B;である場合は、**[!UICONTROL AJO Consent Service Dataset]**&#x200B;を有効にし、結合ポリシーで優先順位を付けてください。 [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html#dataset-precedence-profile){target="_blank"}
+>デフォルトの[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target="_blank"} **[!UICONTROL Profiles]**&#x200B;結合ポリシーの結合メソッドが&#x200B;**[!UICONTROL Dataset Precedence]**&#x200B;である場合は、**[!UICONTROL AJO Consent Service Dataset]**&#x200B;を有効にし、結合ポリシーで優先順位を付けてください。 [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ja#dataset-precedence-profile){target="_blank"}
 >
 >このデータセットにバッチが追加されていない場合でも、オプトイン/オプトアウト情報が含まれます。
 

@@ -39,7 +39,7 @@ ht-degree: 0%
 >id="ac_lp_components"
 >title="コンテンツコンポーネントの使用"
 >abstract="コンテンツコンポーネントは、ランディングページのレイアウトの作成に使用できる、空のコンテンツプレースホルダーです。 ユーザーが選択肢を選択して送信できる特定のコンテンツを定義するには、フォームコンポーネントを使用します。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/add-content/content-components#add-content-components" text="コンテンツコンポーネントを追加"
+>additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/email/design-email/add-content/content-components#add-content-components" text="コンテンツコンポーネントを追加"
 
 ランディングページコンテンツをデザインするには、メールと同じコンポーネントを使用できます。 [詳細情報](../email/content-components.md#add-content-components)
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 >id="ac_lp_formfield"
 >title="フォームコンポーネントフィールドの設定"
 >abstract="受信者がランディングページの選択内容をどのように表示および送信するかを定義します。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content#lp-form-styles" text="ランディングページのフォームスタイルの定義"
+>additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/landing-pages/landing-pages-design/lp-content#lp-form-styles" text="ランディングページのフォームスタイルの定義"
 
 >[!CONTEXTUALHELP]
 >id="ac_lp_submission"

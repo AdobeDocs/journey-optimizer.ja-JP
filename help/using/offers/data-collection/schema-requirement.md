@@ -126,4 +126,4 @@ JavaScript コードに実装する必要があるスキーマ要件を以下に
 >* POST /ee/v2/interact
 >* POST /ee/v2/collect
 >
->[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"}または[Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html){target="_blank"}を使用している場合、接続は自動的に行われます。
+>[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja){target="_blank"}または[Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/platform-learn/data-collection/mobile-sdk/overview.html?lang=ja){target="_blank"}を使用している場合、接続は自動的に行われます。

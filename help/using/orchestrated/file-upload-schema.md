@@ -36,7 +36,7 @@ ht-degree: 0%
 
 1. [&#x200B; サポートされているソースからデータセットにデータ &#x200B;](ingest-data.md)を取り込みます。
 
-➡️ [&#x200B; リレーショナルスキーマについて詳しくは、Adobe Experience Platform ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational)を参照してください
+➡️ [&#x200B; リレーショナルスキーマについて詳しくは、Adobe Experience Platform ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/schema/relational)を参照してください
 
 ## DDL ファイルのアップロード{#ddl-upload}
 
@@ -70,7 +70,7 @@ Excel ベースのスキーマファイルのアップロードがサポート�
   DDLまたはExcel ファイルからスキーマを読み込むと、テーブル間の複合関係が自動的に作成されます。 エンティティ関係ビューでは、各複合リンクに、リンクされたテーブル間のフィールドペアリングの完全なセットが表示されます。
 
 * データガバナンス用&#x200B;**スキーマラベル**\
-  ラベル付けは、アクセス制御や使用制限などのデータガバナンスポリシーを適用するために、スキーマフィールドレベルでサポートされています。 詳しくは、[Adobe Experience Platform ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)を参照してください。
+  ラベル付けは、アクセス制御や使用制限などのデータガバナンスポリシーを適用するために、スキーマフィールドレベルでサポートされています。 詳しくは、[Adobe Experience Platform ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja)を参照してください。
 
 +++
 

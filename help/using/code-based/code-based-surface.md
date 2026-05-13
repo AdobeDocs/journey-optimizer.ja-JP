@@ -33,7 +33,7 @@ ht-degree: 0%
 >id="ajo_admin_surface_uri"
 >title="コンポーネントのサーフェス URIを追加します"
 >abstract="実装がWeb、iOS、Android向けでない場合、または特定のURIをターゲットにする必要がある場合は、エクスペリエンスを配信するエンティティに向かう一意のIDであるサーフェス URIを入力します。 独自の実装で使用されているものと一致するサーフェス URIを入力してください。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/code-based-experience/configure-code-based-channel/code-based-configuration#other" text="他のプラットフォーム用のコードベースのエクスペリエンス設定の作成"
+>additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/code-based-experience/configure-code-based-channel/code-based-configuration#other" text="他のプラットフォーム用のコードベースのエクスペリエンス設定の作成"
 
 コードベースのエクスペリエンス **サーフェス**&#x200B;は、[URI](#surface-uri)によって一意に識別される、ユーザーまたはシステムの操作のために設計された任意のエンティティです。 サーフェスは[&#x200B; アプリケーション実装](code-based-prerequisites.md#implementation-prerequisites)で指定されており、[&#x200B; コードベースのエクスペリエンスチャネル設定](code-based-configuration.md)で参照されているサーフェスと一致する必要があります。
 
@@ -88,8 +88,8 @@ ht-degree: 0%
 
 [!DNL Journey Optimizer]では、コードベースのエクスペリエンスチャネルは、次の2種類の顧客実装をサポートしています。
 
-* お客様のWeb サイトの[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html){target="_blank"}またはモバイルアプリの[Adobe Experience Platform モバイルSDK](https://developer.adobe.com/client-sdks/documentation){target="_blank"}に基づきます。
-* [AEP Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html){target="_blank"}を使用したサーバーサイドまたはハイブリッド。
+* お客様のWeb サイトの[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/implement-web-sdk/overview.html?lang=ja){target="_blank"}またはモバイルアプリの[Adobe Experience Platform モバイルSDK](https://developer.adobe.com/client-sdks/documentation){target="_blank"}に基づきます。
+* [AEP Edge Network Server API](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=ja){target="_blank"}を使用したサーバーサイドまたはハイブリッド。
 
 >[!NOTE]
 >

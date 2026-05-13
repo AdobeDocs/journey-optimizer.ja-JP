@@ -41,7 +41,7 @@ ht-degree: 0%
 >[!INFO]
 >
 >Appleでは、ネイティブメールアプリの新しいプライバシー保護機能（メールプライバシー保護を含む）が導入されたため、送信者は、Appleのメールプライバシー保護を有効にしたプロファイルのデータを収集するためにトラッキングピクセルを使用できなくなります。 その結果、トラッキングピクセルを使用してメールの開封率を追跡するAdobe Journey Optimizer機能が影響を受ける可能性があります。
-> [Apple iOSのプライバシー変更がメールマーケティングに与える影響について](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780)の詳細をご覧ください。
+> [Apple iOSのプライバシー変更がメールマーケティングに与える影響について](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780?profile.language=ja)の詳細をご覧ください。
 > 
 > より正確なインサイトを得るには、開封率ではなく、クリック数とコンバージョン指標に焦点を当てることをお勧めします。
 
