@@ -10,9 +10,14 @@ role: User
 level: Intermediate
 exl-id: 851d988a-2582-4c30-80f3-b881d90771be
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+TQID: https://experienceleague.adobe.com/m5tujeeveBXer8JDWUhe3-QmJhQMV9czOWC-8StyaT0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: c132d929-fa62-4271-803e-b823be07b914id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: 1128
 ht-degree: 100%
 
 ---
@@ -21,7 +26,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。 [詳細情報](../experience-decisioning/gs-experience-decisioning.md)
 
 この節では、以前に作成した決定に基づいてオファーを設定し、メールで使用する方法を示すエンドツーエンドの例を示します。
 
@@ -65,15 +70,13 @@ ht-degree: 100%
 
 電子メールでオファーを使用する全体的な意思決定管理プロセスは、次のように説明できます。
 
-
 ![](assets/offers-e2e-process.png)
 
 ## コンポーネントの定義 {#define-components}
 
 オファーの作成を開始する前に、オファーで使用する複数のコンポーネントを定義する必要があります。
 
-これらは、**[!UICONTROL 意思決定管理]**／**[!UICONTROL コンポーネントメニュー]**の下に表示されます。
-
+これらは、**[!UICONTROL 意思決定管理]**／**[!UICONTROL コンポーネントメニュー]**&#x200B;の下に表示されます。
 
 1. 最初に、オファーの&#x200B;**プレースメント**&#x200B;を作成します。
 
@@ -88,7 +91,6 @@ ht-degree: 100%
    ![](assets/offers-e2e-placements.png)
 
    プレースメントを作成する詳細な手順については、[この節](../../using/offers/offer-library/creating-placements.md)で説明します。
-
 
 1. **決定ルール**&#x200B;を作成します。
 
@@ -119,15 +121,15 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >この例では、優先度スコアのみを使用します。詳しくは、[実施要件ルールと制約](../../using/offers/offer-library/add-constraints.md#eligibility)を参照してください。
+   >この例では、優先度スコアのみを使用します。 詳しくは、[実施要件ルールと制約](../../using/offers/offer-library/add-constraints.md#eligibility)を参照してください。
 
 ## オファーの設定 {#configure-offers}
 
-これで、オファーを作成および設定できます。この例では、特定のプロファイルごとに表示する 4 つのオファーを作成します。
+これで、オファーを作成および設定できます。 この例では、特定のプロファイルごとに表示する 4 つのオファーを作成します。
 
-1. オファーの作成.詳しくは、[この節](../../using/offers/offer-library/creating-personalized-offers.md#create-offer)を参照してください。
+1. オファーの作成. 詳しくは、[この節](../../using/offers/offer-library/creating-personalized-offers.md#create-offer)を参照してください。
 
-1. このオファーでは、3 つの表示域を作成します。各表示域は、以前に作成したプレースメントとアセットの組み合わせにする必要があります。
+1. このオファーでは、3 つの表示域を作成します。 各表示域は、以前に作成したプレースメントとアセットの組み合わせにする必要があります。
 
    * 「*Web - 画像*」プレースメントに対応するもの
    * 「*メール - 画像*」プレースメントに対応するもの
@@ -139,7 +141,7 @@ ht-degree: 100%
 
    表示域について詳しくは、[この節](../../using/offers/offer-library/add-representations.md#representations)を参照してください。
 
-1. 最初の 2 つのプレースメントに適切な画像を選択します。「*非デジタル - テキスト*」プレースメントのカスタムテキストを入力します。
+1. 最初の 2 つのプレースメントに適切な画像を選択します。 「*非デジタル - テキスト*」プレースメントのカスタムテキストを入力します。
 
    ![](assets/offers-e2e-representations.png)
 
@@ -147,13 +149,13 @@ ht-degree: 100%
 
    ![](assets/offers-e2e-eligibility.png)
 
-1. **[!UICONTROL 優先度]**&#x200B;を入力します。この例では、*25* を追加します。
+1. **[!UICONTROL 優先度]**&#x200B;を入力します。 この例では、*25* を追加します。
 
 1. オファーを確認し、「**[!UICONTROL 保存して承認]**」をクリックします。
 
    ![](assets/offers-e2e-review.png)
 
-1. この例では、同じ表示域で異なるアセットを持つ 3 つのオファーを作成します。次のような様々なルールと優先度を割り当てます。
+1. この例では、同じ表示域で異なるアセットを持つ 3 つのオファーを作成します。 次のような様々なルールと優先度を割り当てます。
 
    * 最初のオファー - 決定ルール：*女性の顧客*、優先度：*25*
    * 2 番目のオファー - 決定ルール：*女性の顧客*、優先度：*15*
@@ -206,7 +208,7 @@ ht-degree: 100%
 
 オファー決定を作成および設定するには、次の主な手順に従います。
 
-1. 決定を作成します。詳しくは、[この節](../../using/offers/offer-activities/create-offer-activities.md#create-activity)を参照してください。
+1. 決定を作成します。 詳しくは、[この節](../../using/offers/offer-activities/create-offer-activities.md#create-activity)を参照してください。
 
 1. 「*Web - 画像*」、「*メール - 画像*」および「*非デジタル - テキスト*」のプレースメントを選択します。
 
@@ -216,12 +218,11 @@ ht-degree: 100%
 
    ![](assets/offers-e2e-decision-collection.png)
 
-1. [コンポーネントの構築](#define-components)時にランキングを定義した場合は、それを決定のプレースメントに割り当てることができます。このプレースメントで複数のオファーを提示できる場合、決定はこの式を使用して、どのオファーを最初に配信するかを計算します。
+1. [コンポーネントの構築](#define-components)時にランキングを定義した場合は、それを決定のプレースメントに割り当てることができます。 このプレースメントで複数のオファーを提示できる場合、決定はこの式を使用して、どのオファーを最初に配信するかを計算します。
 
    ランキング式をプレースメントに割り当てる詳細な手順については、[この節](../../using/offers/offer-activities/configure-offer-selection.md#assign-ranking-formula)で説明します。
 
-1. 作成したフォールバックオファーを選択します。これは、選択した 3 つのプレースメントに対して使用可能なフォールバックオファーとして表示されます。
-
+1. 作成したフォールバックオファーを選択します。 これは、選択した 3 つのプレースメントに対して使用可能なフォールバックオファーとして表示されます。
 
    ![](assets/offers-e2e-decision-fallback.png)
 
@@ -235,6 +236,6 @@ ht-degree: 100%
 
 ## メールへの決定の挿入 {#insert-decision-in-email}
 
-これで決定が有効になったので、メールメッセージに挿入できます。それには、[このページ](../../using/email/add-offers-email.md)で詳細に説明されている手順に従ってください。
+これで決定が有効になったので、メールメッセージに挿入できます。 それには、[このページ](../../using/email/add-offers-email.md)で詳細に説明されている手順に従ってください。
 
 ![](assets/offers-e2e-offers-displayed.png)

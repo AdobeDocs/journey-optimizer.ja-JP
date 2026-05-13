@@ -9,9 +9,15 @@ role: Admin
 level: Experienced
 keywords: IP, プール, グループ, サブドメイン, 配信品質
 exl-id: 606334c3-e3e6-41c1-a10e-63508a3ed747
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/z-91TIrSp9KXlFcJRG9wmTRNRA2RU-AaEoMtaLcmNWM
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: d2e8a157-b3b0-4143-9ff3-809bf400be56id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: 699
 ht-degree: 81%
 
 ---
@@ -95,7 +101,7 @@ IP プールを編集するには、次の手順に従います。
 
 >[!NOTE]
 >
->* [&#x200B; チャネル設定を作成する場合](channel-surfaces.md#create-channel-surface)、選択したサブドメインに関連付けられていない&#x200B;**[!UICONTROL 処理]**&#x200B;状態のIP プールを選択すると、設定の作成を続行できません。 [詳細情報](channel-surfaces.md#create-channel-surface)
+>* [ チャネル設定を作成する場合](channel-surfaces.md#create-channel-surface)、選択したサブドメインに関連付けられていない&#x200B;**[!UICONTROL 処理]**&#x200B;状態のIP プールを選択すると、設定の作成を続行できません。 [詳細情報](channel-surfaces.md#create-channel-surface)
 >* IP プールが正常に更新されたら、リアルタイムメッセージに反映されるまでに数分かかるか、バッチメッセージに対して次のバッチジョブが実行されるまで待ちます。
 
 IP プールの更新ステータスを確認するには、「**[!UICONTROL その他のアクション]**」ボタンをクリックし、「**[!UICONTROL 最近の更新]**」を選択します。

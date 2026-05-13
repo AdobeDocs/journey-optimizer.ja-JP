@@ -9,9 +9,14 @@ role: Developer
 level: Experienced
 keywords: キャンペーン, API トリガー, REST, Optimizer, メッセージ
 exl-id: bda7e337-a246-4f01-b935-4a234d4c4baa
-source-git-commit: d93b7ce225294257f49caee6ac08cfb575611a93
-workflow-type: ht
-source-wordcount: '297'
+TQID: https://experienceleague.adobe.com/qUWCJifjUbLmapOtZlk9elkRZLcr-XGXNzuy0rayx-8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+workflow-type: tm+mt
+source-wordcount: 301
 ht-degree: 100%
 
 ---
@@ -30,13 +35,13 @@ ht-degree: 100%
 
      +++高スループットモード
 
-     トランザクション API トリガーキャンペーンの場合は、**[!UICONTROL 高スループット]**&#x200B;モードを有効にすることができます。このモードは、大規模なリアルタイムメッセージ（1 秒あたり最大 5000 トランザクション）向けに設計され、少ない待ち時間でより高い可用性を実現します。[高スループットモードの操作方法の詳細情報](../campaigns/api-triggered-high-throughput.md)
+     トランザクション API トリガーキャンペーンの場合は、**[!UICONTROL 高スループット]**&#x200B;モードを有効にすることができます。 このモードは、大規模なリアルタイムメッセージ（1 秒あたり最大 5000 トランザクション）向けに設計され、少ない待ち時間でより高い可用性を実現します。 [高スループットモードの操作方法の詳細情報](../campaigns/api-triggered-high-throughput.md)
 
      >[!AVAILABILITY]
      >
      >現在、高スループットモードは、メールチャネルと米国地域でのみ使用できます。
      >
-     >この機能は、アドビの&#x200B;**高スループットトランザクションメッセージ**&#x200B;のアドオン機能を購入した組織でのみ使用できます。詳しくは、アドビ担当者にお問い合わせください。
+     >この機能は、アドビの&#x200B;**高スループットトランザクションメッセージ**&#x200B;のアドオン機能を購入した組織でのみ使用できます。 詳しくは、アドビ担当者にお問い合わせください。
 
      +++
 
@@ -46,10 +51,10 @@ ht-degree: 100%
 
    ![](assets/create-campaign-properties.png)
 
-1. 「**タグ**」フィールドを使用して、Adobe Experience Platform 統合タグをキャンペーンに割り当てます。これにより、キャンペーンを簡単に分類し、キャンペーンリストからの検索を改善できます。[詳しくは、タグの操作方法を参照してください](../start/search-filter-categorize.md#tags)。
+1. 「**タグ**」フィールドを使用して、Adobe Experience Platform 統合タグをキャンペーンに割り当てます。 これにより、キャンペーンを簡単に分類し、キャンペーンリストからの検索を改善できます。 [詳しくは、タグの操作方法を参照してください](../start/search-filter-categorize.md#tags)。
 
-1. アクセスラベルに基づいて、このキャンペーンへのアクセスを制限できます。アクセス制限を追加するには、このページの上部にある「**[!UICONTROL アクセスを管理]**」ボタンを参照します。権限のあるラベルのみを選択します。[詳しくは、オブジェクトレベルのアクセス制御を参照してください](../administration/object-based-access.md)。
+1. アクセスラベルに基づいて、このキャンペーンへのアクセスを制限できます。 アクセス制限を追加するには、このページの上部にある「**[!UICONTROL アクセスを管理]**」ボタンを参照します。 権限のあるラベルのみを選択します。 [詳しくは、オブジェクトレベルのアクセス制御を参照してください](../administration/object-based-access.md)。
 
 ## 次の手順 {#next}
 
-キャンペーンの設定とコンテンツの準備が整ったら、このアクションを設定できます。[詳細情報](api-triggered-campaign-action.md)
+キャンペーンの設定とコンテンツの準備が整ったら、このアクションを設定できます。 [詳細情報](api-triggered-campaign-action.md)

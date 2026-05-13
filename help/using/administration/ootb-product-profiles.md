@@ -9,16 +9,23 @@ role: Admin, User
 level: Intermediate
 keywords: 権限, オーサリング, メッセージ
 exl-id: 5a968bd8-cf76-4242-aa80-3cfb3d551511
-source-git-commit: a91d5c6a22f81411d7a9acbe2bbc8e86c1a4da13
+TQID: https://experienceleague.adobe.com/LkOCFOSH-AzwWMoteNN-XI3R2yYkO5iBrVwMtobd4iI
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: baecb07f-ce89-4ebb-9cd9-0f7c053f944fid: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d2e8a157-b3b0-4143-9ff3-809bf400be56id: dd51b532-b93f-4bcf-8dbf-0d007f593acaid: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '2031'
-ht-degree: 96%
+source-wordcount: 2107
+ht-degree: 97%
 
 ---
 
 # ビルトインの役割 {#ootb-product-profiles}
 
-ビルトインの役割は、ユーザーがインターフェイス内の特定の機能やオブジェクトにアクセスできるようにするための、一連の単一権限です。役割を構築するために利用可能な権限のリストについては、[このページ](ootb-permissions.md)を参照してください。
+ビルトインの役割は、ユーザーがインターフェイス内の特定の機能やオブジェクトにアクセスできるようにするための、一連の単一権限です。 役割を構築するために利用可能な権限のリストについては、[このページ](ootb-permissions.md)を参照してください。
 
 
 ## [!DNL Campaign Administrator] {#campaign-administrator}
@@ -36,7 +43,7 @@ ht-degree: 96%
 
 ## [!DNL Campaign Approver] {#campaign-approver}
 
-**[!DNL Campaign Approver]** の役割を使用すると、ユーザーは配信を承認および公開できます。後から **[!DNL Campaigns]** レポートで配信の成功を確認できます。
+**[!DNL Campaign Approver]** の役割を使用すると、ユーザーは配信を承認および公開できます。 後から **[!DNL Campaigns]** レポートで配信の成功を確認できます。
 
 | リソース | 権限 |
 |-|-|
@@ -74,7 +81,7 @@ ht-degree: 96%
 
 ## [!DNL Content Library Manager] {#content-library-manager}
 
-**[!DNL Content Library Manager]** の役割では、**[!UICONTROL コンテンツテンプレート]**&#x200B;メニューへのアクセスのみが許可されます。この役割に割り当てられたユーザーは、ジャーニーやキャンペーンにアクセスせずにコンテンツを作成するテンプレートライブラリにのみアクセスできます。
+**[!DNL Content Library Manager]** の役割では、**[!UICONTROL コンテンツテンプレート]**&#x200B;メニューへのアクセスのみが許可されます。 この役割に割り当てられたユーザーは、ジャーニーやキャンペーンにアクセスせずにコンテンツを作成するテンプレートライブラリにのみアクセスできます。
 
 この権限には、次の権限が含まれます。
 
@@ -86,7 +93,7 @@ ht-degree: 96%
 
 ## [!DNL Decisioning manager] {#decisioning-manager}
 
-**[!DNL Decisioning manager]** の役割では、**[!UICONTROL 意思決定管理]**&#x200B;メニューへのアクセスのみが許可されます。この役割に割り当てられたユーザーは、決定の管理、表示および公開のみを実行できます。
+**[!DNL Decisioning manager]** の役割では、**[!UICONTROL 意思決定管理]**&#x200B;メニューへのアクセスのみが許可されます。 この役割に割り当てられたユーザーは、決定の管理、表示および公開のみを実行できます。
 
 この権限には、次の権限が含まれます。
 
@@ -106,12 +113,12 @@ ht-degree: 96%
 | チャネル設定 | <ul> <li>**[!DNL Manage alerts]**：ジャーニーおよび使用権限に関するアラートの有効化／無効化。</li> <li>**[!DNL Manage IP pools]**：IP プールの読み取り、作成、編集、削除。</li> <li>**[!DNL Manage Landing page settings]**：ランディングページのサブドメインとランディングページのプリセットの作成、編集、削除。</li> <li>**[!DNL Manage messages general settings]**：メッセージの一般設定の読み取り、作成、編集、削除。</li> <li>**[!DNL Manage messages presets]**：コンテンツのブランディングの読み取り、作成、編集、削除。</li> <li>**[!DNL Manage PTR records]**：PTR レコードの読み取りと編集。</li> <li>**[!DNL Manage SMS settings]**：SMS チャネルを有効にする必要な API 資格情報と SMS チャネル設定の作成、編集、削除。</li> <li>**[!DNL Manage subdomains delegation]**：サブドメインデリゲーションの読み取り、作成、編集、削除。</li> <li>**[!DNL Manage suppression rules]**：抑制ルールの読み取り、作成、編集、削除へのアクセス。</li> <li>**[!DNL View PTR records]**：PTR レコードへの読み取り専用アクセス。</li> <li>**[!DNL View suppression list]**：ローカル抑制リストの読み取り、エクスポート。</li> </ul> |
 | データガバナンス | <ul> <li>**[!DNL Manage data usage policies]**：データ使用ポリシーの読み取り、作成、編集、削除。</li> <li>**[!DNL Manage usage label]**：使用ラベルの読み取り、作成、削除</li> <li>**[!DNL View data usage policies]**：データ使用ポリシーへの読み取り専用アクセス。</li> <li>**[!DNL View user activity log]**：Experience Platform のアクティビティを記録した監査ログを表示する読み取り専用アクセス。</li> </ul> |
 | 意思決定管理 | <ul> <li>**[!DNL Manage decisions]**：決定の読み取り、作成、編集、削除。</li> <li>**[!DNL Manage ranking strategies]**：ランキング戦略を読み取り、作成、編集および削除します。</li> </ul> |
-| ジャーニー | <ul> <li>**[!DNL Manage journeys]**：ジャーニーの読み取り、作成、編集、停止（ライブ、テストモード、ドライラン）および削除。 </li> <li>**[!DNL Manage journeys events, data sources and actions]**：イベント、ソース、アクションの読み取り、作成、編集、削除。</li> <li>**[!DNL Publish journeys]**：公開、テストモードの開始、ドライランの開始、ジャーニーの一時停止と再開をおこなう。 </li> <li>**[!DNL View journeys report]**：ジャーニーレポートの読み取り、編集。</li> </ul> |
+| ジャーニー | <ul> <li>**[!DNL Manage journeys]**: ジャーニーの読み取り、作成、編集、停止（ライブ、テストモード、ドライ実行）および削除。 </li> <li>**[!DNL Manage journeys events, data sources and actions]**：イベント、ソース、アクションの読み取り、作成、編集、削除。</li> <li>**[!DNL Publish journeys]**：公開、テストモードの開始、ドライ実行の開始、ジャーニーの一時停止および再開。 </li> <li>**[!DNL View journeys report]**：ジャーニーレポートの読み取り、編集。</li> </ul> |
 | Journey Optimizer ライブラリ | <ul> <li>**[!DNL Manage Library Items]**：[!DNL Journey Optimizer] ライブラリ内の保存済み式の追加、削除。</li> </ul> |
 
 ## [!DNL Journey Approver] {#journey-approver}
 
-**[!DNL Journey Approver]** の役割を使用すると、ユーザーは配信を承認および公開できます。後から **[!DNL Journey]** レポートで配信の成功を確認できます。
+**[!DNL Journey Approver]** の役割を使用すると、ユーザーは配信を承認および公開できます。 後から **[!DNL Journey]** レポートで配信の成功を確認できます。
 
 この役割には、次の権限が含まれます。
 
@@ -120,7 +127,7 @@ ht-degree: 96%
 | Adobe Experience Platform | <ul><li>**[!DNL Manage merge policies]**：結合ポリシーの読み取り、作成、編集、削除。</li><li>**[!DNL Manage profiles]**：プロファイルの読み取り、作成、編集、削除。</li><li>**[!DNL Manage segments]**：セグメント定義の読み取り、作成、編集、削除。</li><li>**[!DNL View datasets]**：データセットへの読み取り専用アクセス。</li><li>**[!DNL View schemas]**：スキーマへの読み取り専用アクセス。</li></ul> |
 | チャネル設定 | <ul><li>**[!DNL View channel configurations]**：チャネル設定への読み取り専用アクセス。</li></ul> |
 | 意思決定管理 | <ul><li>**[!DNL Manage decisions]**：決定エンティティの読み取り、作成、編集、削除。</li><li>**[!DNL Manage ranking strategies]**：カスタムレポートの読み取り、作成、編集および削除、アクション機能の使用。</li></ul> |
-| ジャーニー | <ul><li>**[!DNL Manage journeys]**：ジャーニーの読み取り、作成、編集、停止（ライブ、テストモード、ドライラン）および削除。 </li><li>**[!DNL Publish journey]**：公開、テストモードの開始、ドライランの開始、ジャーニーの一時停止と再開をおこなう。 </li><li>**[!DNL View journeys events, data sources and actions]**：ジャーニーイベント、ジャーニーカスタムアクション、ジャーニーデータソースへの読み取り専用アクセス。</li><li>**[!DNL View journeys report]**:ジャーニーレポートの読み取り、編集。</li></ul> |
+| ジャーニー | <ul><li>**[!DNL Manage journeys]**: ジャーニーの読み取り、作成、編集、停止（ライブ、テストモード、ドライ実行）および削除。 </li><li>**[!DNL Publish journey]**：公開、テストモードの開始、ドライ実行の開始、ジャーニーの一時停止および再開。 </li><li>**[!DNL View journeys events, data sources and actions]**：ジャーニーイベント、ジャーニーカスタムアクション、ジャーニーデータソースへの読み取り専用アクセス。</li><li>**[!DNL View journeys report]**:ジャーニーレポートの読み取り、編集。</li></ul> |
 
 ## [!DNL Journey Manager] {#journey-manager}
 
@@ -133,7 +140,7 @@ ht-degree: 96%
 | Adobe Experience Platform | <ul><li>**[!DNL Manage merge policies]**：結合ポリシーの読み取り、作成、編集、削除。</li><li>**[!DNL Manage profiles]**：プロファイルの読み取り、作成、編集、削除。</li><li> **[!DNL Manage segments]**：セグメント定義の読み取り、作成、編集、削除。</li><li>**[!DNL View datasets]**：データセットへの読み取り専用アクセス。</li><li>**[!DNL View schemas]**：スキーマへの読み取り専用アクセス。</li></ul> |
 | チャネル設定 | <ul><li>**[!DNL View channel configurations]**：チャネル設定への読み取り専用アクセス。</li></ul> |
 | 意思決定管理 | <ul><li>**[!DNL Manage decisions]**：決定エンティティの読み取り、作成、編集、削除。</li><li>**[!DNL Manage ranking strategies]**：カスタムレポートの読み取り、作成、編集および削除、アクション機能の使用。</li></ul> |
-| ジャーニー | <ul><li>**[!DNL Manage journeys]**：ジャーニーの読み取り、作成、編集、停止（ライブ、テストモード、ドライラン）および削除。</li><li>**[!DNL View journeys events]**：ジャーニーイベント、ジャーニーカスタムアクション、ジャーニーデータソースへの読み取り専用アクセス。</li><li>**[!DNL View journeys report]**：ジャーニーレポートの読み取り、編集。</li></ul> |
+| ジャーニー | <ul><li>**[!DNL Manage journeys]**: ジャーニーの読み取り、作成、編集、停止（ライブ、テストモード、ドライ実行）および削除。</li><li>**[!DNL View journeys events]**：ジャーニーイベント、ジャーニーカスタムアクション、ジャーニーデータソースへの読み取り専用アクセス。</li><li>**[!DNL View journeys report]**：ジャーニーレポートの読み取り、編集。</li></ul> |
 
 ## [!DNL Journey Viewer] {#journey-viewer}
 

@@ -5,13 +5,16 @@ title: 式の編集
 description: 式の編集方法について説明します。
 exl-id: bf0a905f-00af-4ed7-9e4f-bf8cb0af9ea9
 version: Campaign Orchestration
-source-git-commit: 8175f63d4e1055d285d2f3f12a498a9dbd3fa1ba
+TQID: https://experienceleague.adobe.com/LELPFd6kbbQdGOEFmWKqXcCEL2CFdPWMuonlDVotYRg
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe338112-e2ce-4876-8989-fc4d497613f1
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '2071'
+source-wordcount: 2071
 ht-degree: 97%
 
 ---
-
 
 # 式の編集 {#edit-expressions}
 
@@ -33,7 +36,7 @@ ht-degree: 97%
 
 * 式を定義する&#x200B;**入力フィールド（1）**。
 * 式で使用でき、かつクエリのターゲティングディメンションに対応する&#x200B;**フィールド（2）**&#x200B;の一覧。
-* 式で使用できる使用可能な&#x200B;**変数（3）**&#x200B;のリスト。 このメニューは、**値** フィールドで使用できます。 [&#x200B; オーケストレーションされたキャンペーンで変数を使用する方法を学ぶ](variables-orchestrated-campaigns.md)
+* 式で使用できる使用可能な&#x200B;**変数（3）**&#x200B;のリスト。 このメニューは、**値** フィールドで使用できます。 [ オーケストレーションされたキャンペーンで変数を使用する方法を学ぶ](variables-orchestrated-campaigns.md)
 
 * **ヘルパー関数（4）**、カテゴリ別に並べ替え。
 

@@ -9,9 +9,16 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: 手順, 設定, ジャーニー, イベント, ストリーム, API
 exl-id: e0144151-6c54-4656-9650-b544d8e7be16
-source-git-commit: bfcc7b1544a0d58af8ac1ac69e777a3ff894bbdf
+TQID: https://experienceleague.adobe.com/SiUXmerz2D-TYmIEXvaYk4usjRq67Y0v7V7sGVN-4vo
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: dd51b532-b93f-4bcf-8dbf-0d007f593acaid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: 318
 ht-degree: 95%
 
 ---
@@ -20,20 +27,20 @@ ht-degree: 95%
 
 イベントを&#x200B;**[!UICONTROL ストリーミング取得 API]**&#x200B;に送信し、[!DNL Journey Optimizer] で使用するように設定するには、次の手順に従う必要があります。
 
-1. Adobe Experience Platform API からインレット URL を取得します。詳しくは、[ストリーミング取得 API の概要](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=ja){target="_blank"}を参照してください。
-1. **[!UICONTROL イベント]**&#x200B;メニューのペイロードプレビューから、ペイロードをコピーします。詳しくは、[このページ](../event/about-creating.md#define-the-payload-fields)を参照してください。
+1. Adobe Experience Platform API からインレット URL を取得します。 詳しくは、[ストリーミング取得 API の概要](https://experienceleague.adobe.com/docs/experience-platform/ingestion/streaming/overview.html?lang=ja){target="_blank"}を参照してください。
+1. **[!UICONTROL イベント]**&#x200B;メニューのペイロードプレビューから、ペイロードをコピーします。 詳しくは、[このページ](../event/about-creating.md#define-the-payload-fields)を参照してください。
 
 >[!IMPORTANT]
 >
->イベントの要件と制限（ストリーミング、クエリサービス、バッチ取得）については、[ジャーニーガードレール – イベント &#x200B;](../start/guardrails.md#events-g) を参照してください。
+>イベントの要件と制限（ストリーミング、クエリサービス、バッチ取り込み）については、[ジャーニーガードレール – イベント ](../start/guardrails.md#events-g)を参照してください。
 
 次に、コピーしたペイロードを使用してイベントをストリーミング取得 API にプッシュするデータシステムを設定する必要があります。
 
 1. ストリーミング取得 API URL（インレットと呼びます) に対する POST API 呼び出しを設定します。
-1. ストリーミング取得 API への API 呼び出しの本文（&quot;data section&quot;）で、[!DNL Journey Optimizer] からコピーしたペイロードを使用します。以下に例を示します
-1. ペイロードに存在するすべての変数を取得する場所を決定します。例：イベントがアドレスを伝えることになっている場合、貼り付けられたペイロードには &quot;address&quot;: &quot;string&quot; と表示されます。&quot;string&quot; は、正しい値（メッセージを送信する相手のメール）を自動的に入力する変数に置き換える必要があります。ペイロードプレビューの&#x200B;**[!UICONTROL ヘッダー]**&#x200B;セクションでは、作業を容易にするために多くの値が自動的に入力されます。
+1. ストリーミング取得 API への API 呼び出しの本文（&quot;data section&quot;）で、[!DNL Journey Optimizer] からコピーしたペイロードを使用します。 以下に例を示します
+1. ペイロードに存在するすべての変数を取得する場所を決定します。 例：イベントがアドレスを伝えることになっている場合、貼り付けられたペイロードには &quot;address&quot;: &quot;string&quot; と表示されます。 &quot;string&quot; は、正しい値（メッセージを送信する相手のメール）を自動的に入力する変数に置き換える必要があります。 ペイロードプレビューの&#x200B;**[!UICONTROL ヘッダー]**&#x200B;セクションでは、作業を容易にするために多くの値が自動的に入力されます。
 1. 本文タイプとして &quot;application/json&quot; を選択します。
-1. 「x-gw-ims-org-id」キーを使用して、ヘッダーに組織 ID を渡します。値には、組織 ID（「XXX@AdobeOrg」）を使用します。
+1. 「x-gw-ims-org-id」キーを使用して、ヘッダーに組織 ID を渡します。 値には、組織 ID（「XXX@AdobeOrg」）を使用します。
 
 以下にストリーミング取得 API イベントの例を示します。
 

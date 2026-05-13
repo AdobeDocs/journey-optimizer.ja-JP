@@ -7,10 +7,14 @@ role: Developer
 level: Experienced
 exl-id: a2b7779d-8c2e-4ff9-8cc3-90846f100c98
 version: Journey Orchestration
-source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
+TQID: https://experienceleague.adobe.com/qYudO0NFgw9zjq843wK8zVMwr-nk29HPdXAHLBUc7qg
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: 133
+ht-degree: 100%
 
 ---
 
@@ -58,7 +62,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/item-collections/itemColl
 | --------- | ----------- |
 | `value` | パラメーターの更新に使用する新しい値。 |
 | `path` | 更新するパラメーターのパス。 |
-| `op` | 接続の更新に必要なアクションを定義するのに使用される操作呼び出し。操作には、`add`、`replace`、`remove`、`copy` および `test` があります。 |
+| `op` | 接続の更新に必要なアクションを定義するのに使用される操作呼び出し。 操作には、`add`、`replace`、`remove`、`copy` および `test` があります。 |
 
 **応答**
 

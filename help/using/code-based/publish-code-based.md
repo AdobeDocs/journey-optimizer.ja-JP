@@ -6,9 +6,15 @@ topic: Content Management
 role: User
 level: Experienced
 exl-id: a1daf6f7-c26c-4d70-984b-0b4eeb04a1a8
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+TQID: https://experienceleague.adobe.com/7obMSbnxBNQoGUsf-g-v1dDipisLUw0ulGpx5UiUHxw
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: bc543dba-f0db-4234-b5da-877a5c1664e2id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: 522
 ht-degree: 100%
 
 ---
@@ -19,25 +25,25 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
-> キャンペーンが承認ポリシーの対象となっている場合、コードベースのエクスペリエンスをアクティベートできるようにするには、承認をリクエストする必要があります。[詳細情報](../test-approve/gs-approval.md)
+> キャンペーンが承認ポリシーの対象となっている場合、コードベースのエクスペリエンスをアクティベートできるようにするには、承認をリクエストする必要があります。 [詳細情報](../test-approve/gs-approval.md)
 
 コードベースのエクスペリエンスを定義し、[コードベースのエディター](create-code-based.md#edit-code)を使用して必要に応じてコンテンツを編集したら、ジャーニーまたはキャンペーンをアクティブ化して、変更をオーディエンスに表示できます。
 
-公開する前にコードベースのエクスペリエンスのコンテンツをプレビューすることもできます。[詳細情報](test-code-based.md)
+公開する前にコードベースのエクスペリエンスのコンテンツをプレビューすることもできます。 [詳細情報](test-code-based.md)
 
 >[!NOTE]
 >
 >すでに公開されている別のジャーニーまたはキャンペーンと同じページに影響するコードベースのジャーニー／キャンペーンをアクティブ化すると、すべての変更がコンテンツに適用されます。
 >
->複数のコードベースのジャーニーまたはキャンペーンが、コンテンツの同じ要素を更新する場合は、最も優先度の高いジャーニー／キャンペーンが優先されます。[優先度スコアの詳細情報](../conflict-prioritization/priority-scores.md)
+>複数のコードベースのジャーニーまたはキャンペーンが、コンテンツの同じ要素を更新する場合は、最も優先度の高いジャーニー／キャンペーンが優先されます。 [優先度スコアの詳細情報](../conflict-prioritization/priority-scores.md)
 
-コードベースのジャーニーまたはキャンペーンを公開すると、アプリ実装チームは、明示的な API または SDK 呼び出しを行って、選択した[コードベースのエクスペリエンス設定](code-based-configuration.md)で定義されたサーフェスのコンテンツを取得する責任があります。様々な顧客の実装について詳しくは、[この節](code-based-implementation-samples.md)を参照してください。
+コードベースのジャーニーまたはキャンペーンを公開すると、アプリ実装チームは、明示的な API または SDK 呼び出しを行って、選択した[コードベースのエクスペリエンス設定](code-based-configuration.md)で定義されたサーフェスのコンテンツを取得する責任があります。 様々な顧客の実装について詳しくは、[この節](code-based-implementation-samples.md)を参照してください。
 
 ### コードベースのジャーニーの公開 {#publish-code-based-journey}
 
 ジャーニーからコードベースのエクスペリエンスを公開するには、次の手順に従います。
 
-1. ジャーニーが有効で、エラーがないことを確認します。[詳細情報](../building-journeys/troubleshooting.md#activity-errors)
+1. ジャーニーが有効で、エラーがないことを確認します。 [詳細情報](../building-journeys/troubleshooting.md#activity-errors)
 
 1. ジャーニーから、右上のドロップダウンメニューにある「**[!UICONTROL 公開]**」オプションを選択します。
 
@@ -47,7 +53,7 @@ ht-degree: 100%
    >
    >ジャーニーの公開について詳しくは、[この節](../building-journeys/publish-journey.md)を参照してください。
 
-コードベースのジャーニーのステータスが「**[!UICONTROL ライブ]**」になり、選択したオーディエンスに対して表示されます。ジャーニーの各受信者に、変更内容が表示されます。
+コードベースのジャーニーのステータスが「**[!UICONTROL ライブ]**」になり、選択したオーディエンスに対して表示されます。 ジャーニーの各受信者に、変更内容が表示されます。
 
 >[!NOTE]
 >
@@ -69,7 +75,7 @@ ht-degree: 100%
    >
    >キャンペーンのアクティブ化について詳しくは、[この節](../campaigns/review-activate-campaign.md)を参照してください。
 
-コードベースキャンペーンの[ステータス](../campaigns/manage-campaigns.md#statuses)が「**[!UICONTROL ライブ]**」になり、選択したオーディエンスに対して表示されます。キャンペーンの各受信者は、あなたがコンテンツに追加した変更を表示できます。
+コードベースキャンペーンの[ステータス](../campaigns/manage-campaigns.md#statuses)が「**[!UICONTROL ライブ]**」になり、選択したオーディエンスに対して表示されます。 キャンペーンの各受信者は、あなたがコンテンツに追加した変更を表示できます。
 
 >[!NOTE]
 >
@@ -79,7 +85,7 @@ ht-degree: 100%
 
 ## コードベースのジャーニーまたはキャンペーンの停止 {#stop-code-based-experience}
 
-コードベースのエクスペリエンスがライブの場合、オーディエンスに変更が表示されないように停止することができます。次の手順に従います。
+コードベースのエクスペリエンスがライブの場合、オーディエンスに変更が表示されないように停止することができます。 次の手順に従います。
 
 1. それぞれのリストから公開中のジャーニーまたはキャンペーンを選択します。
 
@@ -97,7 +103,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->コードベースのジャーニーまたはキャンペーンが停止したら、それらを再び編集またはアクティブ化することはできません。ジャーニー／キャンペーンを複製し、複製したものをアクティブ化することがだけが可能です。
+>コードベースのジャーニーまたはキャンペーンが停止したら、それらを再び編集またはアクティブ化することはできません。 ジャーニー／キャンペーンを複製し、複製したものをアクティブ化することがだけが可能です。
 
 <!--
 Reporting TBC

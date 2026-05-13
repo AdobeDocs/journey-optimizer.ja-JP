@@ -10,9 +10,14 @@ role: Developer
 level: Experienced
 exl-id: 97dc9af3-ca31-4512-aad2-f959dfc9ad0b
 version: Journey Orchestration
-source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
+TQID: https://experienceleague.adobe.com/t21EEquJRIgwQQ-YzlcnqDeQMGvYvEjReAFX3YlLuaY
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: c132d929-fa62-4271-803e-b823be07b914id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: 180
 ht-degree: 100%
 
 ---
@@ -21,7 +26,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。 [詳細情報](../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
 パーソナライズされたオファーは、実施要件ルールおよび制約に基づいてカスタマイズできるマーケティングメッセージです。
@@ -103,7 +108,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/offers?offer-type=personal
 
 **応答**
 
-応答が成功すると、ID を含む新規作成されたパーソナライズされたオファーの詳細が返されます。後の手順で、`id` を使用してパーソナライズされたオファーを更新または削除できます。
+応答が成功すると、ID を含む新規作成されたパーソナライズされたオファーの詳細が返されます。 後の手順で、`id` を使用してパーソナライズされたオファーを更新または削除できます。
 
 ```json
 {
@@ -121,4 +126,4 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/offers?offer-type=personal
 
 ## 制限事項 {#limitations}
 
-`Capping` など、オファー表示域および一部のオファー制約は現在、モバイル [!DNL Experience Edge] ワークフローではサポートされていません。`Capping` フィールド値は、1 つのオファーをすべてのユーザーに対して提示できる回数を指定します。詳しくは、[オファーの実施要件ルールと制約に関するドキュメント](../../../../offers/offer-library/creating-personalized-offers.md)を参照してください。
+`Capping` など、オファー表示域および一部のオファー制約は現在、モバイル [!DNL Experience Edge] ワークフローではサポートされていません。 `Capping` フィールド値は、1 つのオファーをすべてのユーザーに対して提示できる回数を指定します。 詳しくは、[オファーの実施要件ルールと制約に関するドキュメント](../../../../offers/offer-library/creating-personalized-offers.md)を参照してください。

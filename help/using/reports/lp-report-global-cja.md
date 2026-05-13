@@ -8,10 +8,17 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: e73cdca9-3e83-4642-a2bb-d5453afa77fe
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/CLklJ8KR1LXAke4v5J0kjjQQSfyIRoJnl6gHQUaY8PQ
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: b19d9237-76be-466d-a869-aacf2d72205fid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 99%
+source-wordcount: 796
+ht-degree: 100%
 
 ---
 
@@ -49,7 +56,7 @@ Customer Journey Analytics ワークスペースと、データのフィルタ�
 
 * **[!UICONTROL ランディングページの表示回数]**：ジャーニーや外部ソースからユーザーがランディングページを訪問した合計回数（1 つのプロファイルによる複数回の訪問を含む）。
 
-## 独自のランディングページビュー {#lp-unique-views}
+## ユニークランディングページビュー数 {#lp-unique-views}
 
 ![](assets/cja-lp-unique-views.png)
 
@@ -87,7 +94,7 @@ Customer Journey Analytics ワークスペースと、データのフィルタ�
 
 ## ジャーニー {#lp-journeys}
 
-**[!UICONTROL ジャーニー]**&#x200B;のテーブルでは、ユーザーのジャーニーのコンテキスト内でのランディングページへのアクセス頻度の詳細を示す、包括的な概要を提供します。この表示域では多くのインサイトを得ることができるのに加え、ユーザーインタラクションに関する貴重なデータを提供、訪問者がサイト内をどのように移動、コンテンツとどのようにエンゲージしているかを理解できます。
+**[!UICONTROL ジャーニー]**&#x200B;のテーブルでは、ユーザーのジャーニーのコンテキスト内でのランディングページへのアクセス頻度の詳細を示す、包括的な概要を提供します。 この表示域では多くのインサイトを得ることができるのに加え、ユーザーインタラクションに関する貴重なデータを提供、訪問者がサイト内をどのように移動、コンテンツとどのようにエンゲージしているかを理解できます。
 
 * **[!UICONTROL ランディングページの表示回数]**：ジャーニーや外部ソースからユーザーがランディングページを訪問した合計回数（1 つのプロファイルによる複数回の訪問を含む）。
 

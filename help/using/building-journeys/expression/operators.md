@@ -9,16 +9,20 @@ level: Experienced
 keywords: 式, 構文, 演算子, エディター, ジャーニー
 exl-id: 706e2e02-9bd9-46e7-a73d-dda3c9ae4ba8
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: ht
-source-wordcount: '551'
+TQID: https://experienceleague.adobe.com/sK2GNHkkiJ4M5V99Uucc-b68iESNW7kCNBjHVNT-dMs
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+workflow-type: tm+mt
+source-wordcount: 549
 ht-degree: 100%
 
 ---
 
 # 演算子 {#operators}
 
-演算子には、単項演算子と二項演算子の 2 種類があります。左単項演算子と右単項演算子があります。
+演算子には、単項演算子と二項演算子の 2 種類があります。 左単項演算子と右単項演算子があります。
 
 ```json
 // left-hand unary operators
@@ -39,11 +43,11 @@ not (@event{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
 
 ## 重要な注意事項{#important-notes}
 
-* 乗算（`*`）の場合、両方の演算フィールドのタイプは整数または 10 進数で同じにする必要があります。例：
+* 乗算（`*`）の場合、両方の演算フィールドのタイプは整数または 10 進数で同じにする必要があります。 例：
    * 以下の例は正しいです。`3.0 * 4.0`
    * `3 * 4.0` はエラーを引き起こします
 
-* `+` 演算子を使用する場合、式を括弧で囲む必要があります。例：
+* `+` 演算子を使用する場合、式を括弧で囲む必要があります。 例：
    * `toDateTimeOnly(toDateTime((currentTimeInMillis()) + 1))` は正しいです
    * `toDateTimeOnly(toDateTime(currentTimeInMillis() + 1))` はエラーを引き起こします
 
@@ -55,7 +59,7 @@ not (@event{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
 <expression1> and <expression2>
 ```
 
-&lt;expression1> と &lt;expression2> は両方ともブール値である必要があります。結果はブール値です。
+&lt;expression1> と &lt;expression2> は両方ともブール値である必要があります。 結果はブール値です。
 
 例：
 
@@ -69,7 +73,7 @@ not (@event{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
 <expression1> or <expression2>
 ```
 
-&lt;expression1> と &lt;expression2> は両方ともブール値である必要があります。結果はブール値です。
+&lt;expression1> と &lt;expression2> は両方ともブール値である必要があります。 結果はブール値です。
 
 例：
 
@@ -83,7 +87,7 @@ not (@event{LobbyBeacon.endUserIDs._experience.emailid.id}=="example@adobe.com")
 not <expression>
 ```
 
-&lt;expression> はブール値である必要があります。結果はブール値です。
+&lt;expression> はブール値である必要があります。 結果はブール値です。
 
 例：
 
@@ -131,7 +135,7 @@ null は、式に評価値がないことを意味します。
 <expression> has null
 ```
 
-&lt;expression> はリストである必要があります。結果はブール値です。
+&lt;expression> はリストである必要があります。 結果はブール値です。
 
 リストに少なくとも 1 つの null 値が含まれているかどうかを識別するのに役立ちます。
 
@@ -169,7 +173,7 @@ true を返します
 "foo" == "bar"
 ```
 
-### ! =
+### !=
 
 ```json
 <expression1> != <expression2>

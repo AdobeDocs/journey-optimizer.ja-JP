@@ -10,9 +10,16 @@ level: Intermediate, Experienced
 keywords: ジャーニー, ユースケース, メッセージ, 購読者, リスト, 読み取り
 exl-id: 2540938f-8ac7-43fa-83ff-fed59f6bc417
 version: Journey Orchestration
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+TQID: https://experienceleague.adobe.com/sDhncesYlIjsj2zjB-QmjWqP--0KDyp-5x5-UGLSjRc
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fae48155-b23f-40d2-a252-a25bce350b4did: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: 355
 ht-degree: 100%
 
 ---
@@ -21,21 +28,21 @@ ht-degree: 100%
 
 このユースケースの目的は、ジャーニーを作成してリスト上の購読者にメッセージを送信することです。
 
-この例では、[!DNL Adobe Experience Platform] の「**[!UICONTROL 同意と環境設定の詳細]**」フィールドグループを使用します。このフィールドグループを見つけるには、 **[!UICONTROL データ管理]**&#x200B;メニューから「**[!UICONTROL スキーマ]**」を選択します。「**[!UICONTROL フィールドグループ]**」タブで、検索フィールドにフィールドグループの名前を入力します。
+この例では、[!DNL Adobe Experience Platform] の「**[!UICONTROL 同意と環境設定の詳細]**」フィールドグループを使用します。 このフィールドグループを見つけるには、 **[!UICONTROL データ管理]**&#x200B;メニューから「**[!UICONTROL スキーマ]**」を選択します。 「**[!UICONTROL フィールドグループ]**」タブで、検索フィールドにフィールドグループの名前を入力します。
 
 ![このフィールドグループにはサブスクリプション要素が含まれています](assets/consent-and-preference-details-field-group.png)
 
 このジャーニーを設定するには、次の手順に従います。
 
-1. **[!UICONTROL 読み取り]**&#x200B;アクティビティで始まるジャーニーを作成します。詳しくは、[初めてのジャーニーの作成](journey-gs.md)を参照してください。
-1. **[!UICONTROL メール]**&#x200B;アクションアクティビティをジャーニーに追加します。詳しくは、[チャネルアクションの操作](journey-action.md)を参照してください。
+1. **[!UICONTROL 読み取り]**&#x200B;アクティビティで始まるジャーニーを作成します。 詳しくは、[初めてのジャーニーの作成](journey-gs.md)を参照してください。
+1. **[!UICONTROL メール]**&#x200B;アクションアクティビティをジャーニーに追加します。 詳しくは、[チャネルアクションの操作](journey-action.md)を参照してください。
 1. **[!UICONTROL メール]**&#x200B;アクティビティ設定の「**[!UICONTROL メールパラメーター]**」セクションで、デフォルトのメールアドレス（`PersonalEmail.adress`）をリスト上の購読者のメールアドレスに置き換えます。
 
    1. 「**[!UICONTROL アドレス]**」フィールドの右側にある「 **[!UICONTROL パラメーターの上書きを有効にする]**」アイコンをクリックしたあと、**[!UICONTROL 編集]**&#x200B;アイコンをクリックします。
 
       ![購読者リストのターゲティングに対するオーディエンスの読み取りが含まれるジャーニーフロー](assets/message-to-subscribers-uc-1.png)
 
-   1. 式エディターで、購読者のメールアドレスを取得する式を入力します。[詳細情報](expression/expressionadvanced.md)
+   1. 式エディターで、購読者のメールアドレスを取得する式を入力します。 [詳細情報](expression/expressionadvanced.md)
 
       この例では、マップフィールドへの参照を含む式を示しています。
 
@@ -50,7 +57,7 @@ ht-degree: 100%
       | `entry` | 選択した名前空間に従ってマップ要素を参照します | 特定のサブスクリプションリストを参照します |
       | `firstEntryKey` | マップの最初のエントリキーを取得します | 購読者の最初のメールアドレスを取得します |
 
-      この例では、サブスクリプションリストの名前は `daily-email` です。メールアドレスは、`subscribers` マップでキーとして定義されています。このマップはサブスクリプションリストマップにリンクされています。
+      この例では、サブスクリプションリストの名前は `daily-email` です。 メールアドレスは、`subscribers` マップでキーとして定義されています。このマップはサブスクリプションリストマップにリンクされています。
 
       式におけるフィールドへの参照について詳しくは、[こちら](expression/field-references.md)を参照してください。
 
@@ -60,4 +67,4 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->メールアドレスの上書きは、特定のユースケースに対してのみ使用してください。ほとんどの場合、**[!UICONTROL 実行フィールド]**&#x200B;でプライマリアドレスとして定義されている値を使用する必要があるため、メールアドレスを変更する必要はありません。[詳細情報](../configuration/primary-email-addresses.md)
+>メールアドレスの上書きは、特定のユースケースに対してのみ使用してください。 ほとんどの場合、**[!UICONTROL 実行フィールド]**&#x200B;でプライマリアドレスとして定義されている値を使用する必要があるため、メールアドレスを変更する必要はありません。 [詳細情報](../configuration/primary-email-addresses.md)

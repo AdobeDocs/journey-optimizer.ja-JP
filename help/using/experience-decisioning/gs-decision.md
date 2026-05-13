@@ -7,16 +7,21 @@ role: User
 level: Experienced
 exl-id: 008d42c7-a523-4857-b34e-0e8dd1dfa507
 version: Journey Orchestration
-source-git-commit: 5d646a7c87daea27e6fbca8f754fc835dc82b494
+TQID: https://experienceleague.adobe.com/y5aC7N-3FKFf9RQLHV40YtOR4EwHi3EWil-QFVL2tEI
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e0eb8757-182f-49f3-94a4-1587d16f5094id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: 347
 ht-degree: 85%
 
 ---
 
 # [!DNL Journey Optimizer] の決定機能の基本を学ぶ {#gs-decision}
 
-[!DNL Journey Optimizer] の決定機能を使用すると、すべてのタッチポイントにわたって最適なタイミングで最高のオファーとパーソナライズされたエクスペリエンスを顧客に提供できます。これらの機能により、マーケティングオファーの一元化されたカタログと、ルールとランキング条件を使用して各個人に最も関連性の高いコンテンツを提供する高度な決定エンジンを通じて、パーソナライゼーションが簡素化されます。
+[!DNL Journey Optimizer] の決定機能を使用すると、すべてのタッチポイントにわたって最適なタイミングで最高のオファーとパーソナライズされたエクスペリエンスを顧客に提供できます。 これらの機能により、マーケティングオファーの一元化されたカタログと、ルールとランキング条件を使用して各個人に最も関連性の高いコンテンツを提供する高度な決定エンジンを通じて、パーソナライゼーションが簡素化されます。
 
 主な利点：
 
@@ -30,7 +35,7 @@ ht-degree: 85%
 
 ![](assets/gs-decisioning.png)
 
-既存の Journey Optimizer ワークフローを統合し、追加のコンテンツカタログを管理するための基盤を築くように設計された、当社の次世代の決定フレームワークです。決定オファーは次のとおりです。
+既存の Journey Optimizer ワークフローを統合し、追加のコンテンツカタログを管理するための基盤を築くように設計された、当社の次世代の決定フレームワークです。 決定オファーは次のとおりです。
 
 * スキーマベースの項目カタログ管理：カスタマイズしたメタデータを各オファーに関連付けることで、柔軟性を向上させます
 * 柔軟なコレクションルール：様々な条件に基づいて、今後の評価のオファーを簡単にグループ化します
@@ -43,7 +48,7 @@ ht-degree: 85%
 
 >[!NOTE]
 >
->意思決定管理からDecisioningに移行するには、[移行ドキュメント &#x200B;](../experience-decisioning/migrate-to-decisioning.md)および[移行API ガイド &#x200B;](../experience-decisioning/decisioning-migration-api.md)を参照してください。
+>意思決定管理からDecisioningに移行するには、[移行ドキュメント ](../experience-decisioning/migrate-to-decisioning.md)および[移行API ガイド ](../experience-decisioning/decisioning-migration-api.md)を参照してください。
 
 ## 意思決定管理 {#decision-management}
 

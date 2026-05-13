@@ -5,16 +5,20 @@ title: チャネル設定の指定
 description: チャネル設定の指定方法について説明します。
 version: Campaign Orchestration
 exl-id: 6793e9b8-06ca-403b-8cb0-3bcaef089837
-source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
+TQID: https://experienceleague.adobe.com/unthUbZA8ZMksa2MlgVDbuON-lpr70-v21JZVGyIc3U
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: 467
 ht-degree: 78%
 
 ---
 
 # チャネル設定の指定 {#channel-configuration}
 
-[ターゲットディメンション](target-dimension.md)を設定したら、**[!UICONTROL チャネル設定]**&#x200B;を指定し、適切な&#x200B;**[!UICONTROL 実行の詳細]**&#x200B;を定義する必要があります。次の項目を定義できます。
+[ターゲットディメンション](target-dimension.md)を設定したら、**[!UICONTROL チャネル設定]**&#x200B;を指定し、適切な&#x200B;**[!UICONTROL 実行の詳細]**&#x200B;を定義する必要があります。 次の項目を定義できます。
 
 * **メッセージ配信のレベル**：例えば、個人ごとに 1 つのメールなど、受信者ごとに 1 つのメッセージを送信します。
 
@@ -58,7 +62,7 @@ ht-degree: 78%
 
    * **[!UICONTROL セカンダリディメンション]**：配信方法として&#x200B;**[!UICONTROL ターゲット + セカンダリディメンション]**&#x200B;を使用する場合は、以前に設定した関連する&#x200B;**[!UICONTROL セカンダリディメンション]**&#x200B;を選択します。
 
-     例えば、セカンダリディメンションが予約またはサブスクリプションを表す場合、メールなどの実行アドレスはそのレベルから取得できます。これは、サービスの予約や登録時にプロファイルで異なる連絡先の詳細を使用する場合に便利です。
+     例えば、セカンダリディメンションが予約またはサブスクリプションを表す場合、メールなどの実行アドレスはそのレベルから取得できます。 これは、サービスの予約や登録時にプロファイルで異なる連絡先の詳細を使用する場合に便利です。
 
 1. 「**[!UICONTROL 配信アドレス]**」フィールドで ![編集アイコン](assets/do-not-localize/edit.svg) をクリックし、メッセージの配信に使用する特定のフィールドを選択します。
 

@@ -8,9 +8,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a2b4ef74-96a9-4907-ba70-7aee69e45f20
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '388'
+TQID: https://experienceleague.adobe.com/oN7VFQvhQlwNa2U5CmcAYkGbKb0Vnxc7yA5rCLDjQw4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+workflow-type: tm+mt
+source-wordcount: 391
 ht-degree: 100%
 
 ---
@@ -23,7 +30,7 @@ Journey Optimizer では、ジャーニー実験は次の 2 つのタイプに�
 
 * [コンテンツ実験](../content-management/content-experiment.md)
 
-  コンテンツ実験に関して詳細に示される表と KPI は、パス実験と同じです。コンテンツ実験を設定している場合は、[以下のドキュメント](#experimentation)を参照してください。
+  コンテンツ実験に関して詳細に示される表と KPI は、パス実験と同じです。 コンテンツ実験を設定している場合は、[以下のドキュメント](#experimentation)を参照してください。
 
 * [パス実験](../building-journeys/optimize.md)
 
@@ -33,7 +40,7 @@ Journey Optimizer では、ジャーニー実験は次の 2 つのタイプに�
 
 ![](assets/journey-report-experiment-1.png)
 
-**実験の概要**&#x200B;には、実験のパフォーマンスに関する主要なインサイトが表示され、最も成功した実験が特定されます。最もパフォーマンスの高い処理の判定には時間がかかる場合があります。実験が成功しなかった場合は、**決定的でない**&#x200B;に設定されます。
+**実験の概要**&#x200B;には、実験のパフォーマンスに関する主要なインサイトが表示され、最も成功した実験が特定されます。 最もパフォーマンスの高い処理の判定には時間がかかる場合があります。 実験が成功しなかった場合は、**決定的でない**&#x200B;に設定されます。
 
 **実験の主要業績評価指標（KPI）**&#x200B;は包括的なダッシュボードとして機能し、実験に関連する重要な指標の分析を提供します。
 
@@ -41,7 +48,7 @@ Journey Optimizer では、ジャーニー実験は次の 2 つのタイプに�
 
 * **[!UICONTROL 上昇率]**：ベースラインに対する特定の処理のコンバージョン率の向上率を測定します。
 
-* **[!UICONTROL 信頼性]**：ある処理がベースライン処理と同じであることを示す証拠。[詳細情報](../content-management/experiment-calculations.md#adobes-statistical-methodology-any-time-valid-confidence-sequences)
+* **[!UICONTROL 信頼性]**：ある処理がベースライン処理と同じであることを示す証拠。 [詳細情報](../content-management/experiment-calculations.md#adobes-statistical-methodology-any-time-valid-confidence-sequences)
 
 +++
 
@@ -66,7 +73,7 @@ Journey Optimizer では、ジャーニー実験は次の 2 つのタイプに�
 
 * **[!UICONTROL 信頼下限]**：選択した信頼区間内での、処理とベースライン間のコンバージョン率の差の最小推定値。
 
-* **[!UICONTROL 信頼性]**：ある処理がベースライン処理と同じであることを示す証拠。[詳細情報](../content-management/experiment-calculations.md#adobes-statistical-methodology-any-time-valid-confidence-sequences)
+* **[!UICONTROL 信頼性]**：ある処理がベースライン処理と同じであることを示す証拠。 [詳細情報](../content-management/experiment-calculations.md#adobes-statistical-methodology-any-time-valid-confidence-sequences)
 
 * **[!UICONTROL 信頼上限]**：選択した信頼区間内での、処理とベースライン間のコンバージョン率の差の最高推定値。
 
@@ -76,4 +83,4 @@ Journey Optimizer では、ジャーニー実験は次の 2 つのタイプに�
 
 ![](assets/cja-experimentation-conversion.png)
 
-**[!UICONTROL 信頼区間]**&#x200B;グラフには、選択した成功指標に対してベースラインと最もパフォーマンスの高い処理を比較し、改善の可能性のある範囲が表示されます。[詳細情報](../content-management/experiment-calculations.md#adobes-statistical-methodology-any-time-valid-confidence-sequences)
+**[!UICONTROL 信頼区間]**&#x200B;グラフには、選択した成功指標に対してベースラインと最もパフォーマンスの高い処理を比較し、改善の可能性のある範囲が表示されます。 [詳細情報](../content-management/experiment-calculations.md#adobes-statistical-methodology-any-time-valid-confidence-sequences)

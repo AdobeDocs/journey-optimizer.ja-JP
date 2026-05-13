@@ -10,10 +10,17 @@ level: Intermediate
 keywords: アクティビティ, 条件, キャンバス, ジャーニー
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 version: Journey Orchestration
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/8gtrjnNNob-iRXdjSytSYOMyDswVxsrd8knipi4i1gI
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1921'
-ht-degree: 90%
+source-wordcount: 1921
+ht-degree: 91%
 
 ---
 
@@ -28,7 +35,7 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->ジャーニーで条件付きパスを作成するための新しい手段は、[最適化](optimize.md) アクティビティです。 UIから削除された以前の&#x200B;**条件** アクティビティに置き換わります。 すべての条件付きロジックは、このページに表示されている最適化アクティビティの条件を通じて処理されるようになりました。
+>ジャーニーで条件付きパスを作成するための新しい手段は、[最適化](optimize.md) アクティビティです。 UI から削除された以前の&#x200B;**条件**&#x200B;アクティビティに置き換わります。 すべての条件付きロジックは、このページに表示されている最適化アクティビティの条件を通じて処理されるようになりました。
 >
 >**[!UICONTROL 条件]** アクティビティを使用した既存のジャーニーがある場合は、以前と同様に使用できます。 これらは、**[!UICONTROL 条件]** メソッドを使用して&#x200B;**[!UICONTROL 最適化]** アクティビティとして新しいアイコンで表示されるようになりましたが、動作は変更されていません。 ノードに設定したカスタムラベルはすべて保持されます。
 
@@ -198,7 +205,7 @@ ht-degree: 90%
 
 1. 左側で、**[!UICONTROL オーディエンス]**&#x200B;ノードを展開します。 条件に使用するオーディエンスをドラッグ＆ドロップします。 デフォルトでは、オーディエンスの条件は true です。
 
-   [!DNL Adobe Experience Platform]個のオーディエンスを選択するための式エディターの![&#x200B; オーディエンスノード &#x200B;](assets/segment4.png){width=80%}
+   [!DNL Adobe Experience Platform]個のオーディエンスを選択するための式エディターの![ オーディエンスノード ](assets/segment4.png){width=80%}
 
    >[!NOTE]
    >

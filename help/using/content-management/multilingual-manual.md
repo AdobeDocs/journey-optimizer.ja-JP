@@ -9,9 +9,16 @@ role: User
 level: Beginner
 keywords: 概要, 開始, コンテンツ, 実験
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+TQID: https://experienceleague.adobe.com/CO90KA9aqX6vclGmYWk6Z3LQJmewlylQvJA36yx44eI
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: ea4139d9-3405-4b34-ad6e-c3ca120cc269id: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: 965
 ht-degree: 97%
 
 ---
@@ -22,7 +29,7 @@ ht-degree: 97%
 >
 >手動フローの場合、ユーザーに&#x200B;**[!UICONTROL 言語設定の管理]**&#x200B;権限を付与する必要があります。
 
-手動フローを使用すると、多言語メッセージへの正確な制御とカスタマイズのオプションで、キャンペーンやジャーニーで直接コンテンツを簡単に翻訳できます。さらに、「HTML を読み込む」オプションを使用すると、既存の多言語コンテンツを簡単に読み込むことができます。
+手動フローを使用すると、多言語メッセージへの正確な制御とカスタマイズのオプションで、キャンペーンやジャーニーで直接コンテンツを簡単に翻訳できます。 さらに、「HTML を読み込む」オプションを使用すると、既存の多言語コンテンツを簡単に読み込むことができます。
 
 手動翻訳を使用して多言語コンテンツを作成するには、次の手順に従います。
 
@@ -36,7 +43,7 @@ ht-degree: 97%
 
 ## 言語設定の作成 {#language-settings}
 
-このセクションでは、多言語コンテンツを管理するための様々なロケールを設定できます。また、プロファイル言語に関連する情報の検索に使用する属性を選択することもできます
+このセクションでは、多言語コンテンツを管理するための様々なロケールを設定できます。 また、プロファイル言語に関連する情報の検索に使用する属性を選択することもできます
 
 1. **[!UICONTROL 管理]**&#x200B;メニューから、**[!UICONTROL チャネル]**／**[!UICONTROL 一般設定]**&#x200B;にアクセスします。
 
@@ -46,9 +53,9 @@ ht-degree: 97%
 
 1. **[!UICONTROL 言語設定]**&#x200B;の名前を入力し、「**[!UICONTROL 手動翻訳]**」を選択します。
 
-1. この設定に関連付けられている&#x200B;**[!UICONTROL ロケール]**&#x200B;を選択します。最大 50 個のロケールを追加できます。
+1. この設定に関連付けられている&#x200B;**[!UICONTROL ロケール]**&#x200B;を選択します。 最大 50 個のロケールを追加できます。
 
-   **[!UICONTROL ロケール]**&#x200B;が見つからない場合は、**[!UICONTROL 翻訳]**&#x200B;メニューから、または API を使用して、事前に手動で作成できます。[新しいロケールの作成](multilingual-locale.md)を参照してください。
+   **[!UICONTROL ロケール]**&#x200B;が見つからない場合は、**[!UICONTROL 翻訳]**&#x200B;メニューから、または API を使用して、事前に手動で作成できます。 [新しいロケールの作成](multilingual-locale.md)を参照してください。
 
    ![](assets/multilingual-settings-2.png)
 
@@ -65,7 +72,7 @@ ht-degree: 97%
 
    ![](assets/multilingual-settings-3.png)
 
-1. 「**[!UICONTROL カスタムイベントルールを作成]**」を選択した場合は、条件を作成するロケールを選択します。次に、ユーザーの場所、言語設定、その他のコンテキスト要素などの要因に基づいてルールを作成します。
+1. 「**[!UICONTROL カスタムイベントルールを作成]**」を選択した場合は、条件を作成するロケールを選択します。 次に、ユーザーの場所、言語設定、その他のコンテキスト要素などの要因に基づいてルールを作成します。
 
    ![](assets/multilingual-settings-4.png)
 
@@ -73,19 +80,19 @@ ht-degree: 97%
 
    >[!IMPORTANT]
    >
-   >コンテキストデータは、web、アプリ内、コードベースのエクスペリエンスおよびコンテンツカードの各チャネルでのみ使用できます。メール、SMS、プッシュ通知、ダイレクトメールチャネルに使用すると、追加属性なしで、キャンペーンまたはジャーニーがリストの最初のオプション言語で送信されます。
+   >コンテキストデータは、web、アプリ内、コードベースのエクスペリエンスおよびコンテンツカードの各チャネルでのみ使用できます。 メール、SMS、プッシュ通知、ダイレクトメールチャネルに使用すると、追加属性なしで、キャンペーンまたはジャーニーがリストの最初のオプション言語で送信されます。
 
    ![](assets/multilingual-settings-6.png)
 
    +++条件でコンテキストイベントを使用するための前提条件
 
-   ユーザーがコンテンツを表示すると、パーソナライゼーションリクエストがエクスペリエンスイベントと共に送信されます。条件でコンテキストデータを活用するには、パーソナライゼーションリクエストペイロードに追加データを添付する必要があります。これを行うには、Adobe Experience Platform のデータ収集でルールを作成して、パーソナライゼーションリクエストが送信された場合（IF）は、スキーマの言語フィールドと一致する属性を定義して、リクエストに追加データを添付する必要があります（THEN）。
+   ユーザーがコンテンツを表示すると、パーソナライゼーションリクエストがエクスペリエンスイベントと共に送信されます。 条件でコンテキストデータを活用するには、パーソナライゼーションリクエストペイロードに追加データを添付する必要があります。 これを行うには、Adobe Experience Platform のデータ収集でルールを作成して、パーソナライゼーションリクエストが送信された場合（IF）は、スキーマの言語フィールドと一致する属性を定義して、リクエストに追加データを添付する必要があります（THEN）。
 
    >[!NOTE]
    >
    >これらの前提条件は、アプリ内およびコンテンツカードチャネルにのみ必要です。
 
-   1. Adobe Experience Platform のデータ収集で、**[!UICONTROL ルール]**&#x200B;メニューにアクセスし、新しいルールを作成します。ルールの作成方法について詳しくは、[!DNL Adobe Experience Platform] [&#x200B; データ収集ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}を参照してください
+   1. Adobe Experience Platform のデータ収集で、**[!UICONTROL ルール]**&#x200B;メニューにアクセスし、新しいルールを作成します。 ルールの作成方法について詳しくは、[!DNL Adobe Experience Platform] [ データ収集ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}を参照してください
 
    2. ルールの「**[!UICONTROL IF]**」セクションで、次のように設定されたイベントを追加します。
 
@@ -155,7 +162,7 @@ ht-degree: 97%
 
    ![](assets/multilingual-campaign-2.png)
 
-1. 「**[!UICONTROL 言語を追加]**」をクリックし、以前に作成した&#x200B;**[!UICONTROL 言語設定]**&#x200B;を選択します。[詳細情報](#language-settings)
+1. 「**[!UICONTROL 言語を追加]**」をクリックし、以前に作成した&#x200B;**[!UICONTROL 言語設定]**&#x200B;を選択します。 [詳細情報](#language-settings)
 
    ![](assets/multilingual-campaign-3.png)
 
@@ -185,11 +192,11 @@ ht-degree: 97%
 
    ![](assets/multilingual-campaign-8.png)
 
-これで、キャンペーンまたはジャーニーをアクティブ化できます。送信後は、レポート内で多言語ジャーニーまたはキャンペーンの影響を測定できます。
+これで、キャンペーンまたはジャーニーをアクティブ化できます。 送信後は、レポート内で多言語ジャーニーまたはキャンペーンの影響を測定できます。
 
 >[!IMPORTANT]
 >
-> キャンペーンが承認ポリシーの対象となっている場合、多言語キャンペーンまたはジャーニーを送信できるようにするには、承認をリクエストする必要があります。[詳細情報](../test-approve/gs-approval.md)
+> キャンペーンが承認ポリシーの対象となっている場合、多言語キャンペーンまたはジャーニーを送信できるようにするには、承認をリクエストする必要があります。 [詳細情報](../test-approve/gs-approval.md)
 
 <!--
 # Create a multilingual journey {#create-multilingual-journey}

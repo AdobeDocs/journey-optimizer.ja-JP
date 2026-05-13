@@ -8,9 +8,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: a34ba1a8-87d5-4f9c-a181-2f49e74e8f09
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/Fz8Ld7Ga9jq9VNQx1RBoZSH0JonnXhy-0fBv7-zmWsw
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: 892
 ht-degree: 96%
 
 ---
@@ -23,7 +30,7 @@ ht-degree: 96%
 
 **除外 = 一意の除外 + 重複除外イベント**
 
-つまり、プロファイルを複数回除外した場合（例：同じプロファイルに対する複数の除外イベントが原因）、各イベントは除外の合計数にカウントされます。 その結果、*配信済み*&#x200B;と&#x200B;*除外*&#x200B;の合計が、元のターゲットオーディエンスサイズを超える場合があります。この動作は予期される動作で、システムでの除外イベントの追跡方法を反映しています。
+つまり、プロファイルを複数回除外した場合（例：同じプロファイルに対する複数の除外イベントが原因）、各イベントは除外の合計数にカウントされます。 その結果、*配信済み*&#x200B;と&#x200B;*除外*&#x200B;の合計が、元のターゲットオーディエンスサイズを超える場合があります。 この動作は予期される動作で、システムでの除外イベントの追跡方法を反映しています。
 
 **例：**
 
@@ -64,7 +71,7 @@ ht-degree: 96%
 | InAppNoVariantDefined | 050041 | アプリ内 | 除外イベントは、アプリ内メッセージのバリアントが定義されていない場合に生成されます。 |
 | InAppNoMessageFoundForTreatment | 050042 | アプリ内 | 除外イベントは、メッセージに対して実験が有効になっていて、対象となる処理に対するメッセージが見つからない場合に生成されます。 |
 | PushNoTokenFoundInProfile | 050030 | プッシュ | 除外イベントは、プロファイルにプッシュトークンがない場合に生成されます。 |
-| PushNoValidTokenFoundForApps | 050031 | プッシュ | 除外イベントは、設定でターゲットアプリの有効なトークンが見つからない場合に生成されます。**重要：**&#x200B;実稼動環境での証明書を使用する際は、ユーザープロファイルの`pushNotificationDetails.platform` 属性を `apns` に設定する必要があります。サンドボックス証明書を使用する場合は、`apnsSandbox` に設定します。プラットフォーム属性と証明書タイプが一致しない場合、この除外はトリガーされます。 |
+| PushNoValidTokenFoundForApps | 050031 | プッシュ | 除外イベントは、設定でターゲットアプリの有効なトークンが見つからない場合に生成されます。 **重要：**&#x200B;実稼動環境での証明書を使用する際は、ユーザープロファイルの`pushNotificationDetails.platform` 属性を `apns` に設定する必要があります。 サンドボックス証明書を使用する場合は、`apnsSandbox` に設定します。 プラットフォーム属性と証明書タイプが一致しない場合、この除外はトリガーされます。 |
 | PushMalformedProfile | 050034 | プッシュ | 除外イベントは、プロファイルの pushNotificationDetails の形式が正しくない場合に生成されます。 |
 | PushNoConsent | 050111 | プッシュ | 除外イベントは、ユーザーがマーケティングプッシュ通知をオプトアウトした場合に生成されます。 |
 | PushNoApplicationDefinedInPreset | 050033 | プッシュ | 除外イベントは、設定にターゲットとなるアプリケーションが含まれていない場合に生成されます。 |

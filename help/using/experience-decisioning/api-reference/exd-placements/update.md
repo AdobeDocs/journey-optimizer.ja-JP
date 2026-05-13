@@ -6,9 +6,14 @@ topic: Integrations
 role: Developer
 level: Experienced
 version: Journey Orchestration
-source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
+exl-id: 74e090e1-4dbe-484b-a482-ef43e082e7b1
+TQID: https://experienceleague.adobe.com/6RpNeMQUn2qEfAzQ-Q7f7PgBRJCLqp7WnsoKx0xr12s
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: 151
 ht-degree: 100%
 
 ---
@@ -58,7 +63,7 @@ curl --location --request PUT 'https://platform-stage.adobe.io/data/core/dps/exd
 | --------- | ----------- |
 | `value` | パラメーターの更新に使用する新しい値。 |
 | `path` | 更新するパラメーターのパス。 |
-| `op` | 接続の更新に必要なアクションを定義するのに使用される操作呼び出し。操作には、`add`、`replace`、`remove`、`copy` および `test` があります。 |
+| `op` | 接続の更新に必要なアクションを定義するのに使用される操作呼び出し。 操作には、`add`、`replace`、`remove`、`copy` および `test` があります。 |
 
 **応答**
 

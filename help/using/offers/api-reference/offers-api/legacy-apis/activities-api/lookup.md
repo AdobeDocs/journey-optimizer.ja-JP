@@ -2,7 +2,7 @@
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: 決定の検索
-description: 決定には、オファーの選択を通知するロジックが含まれています。
+description: 決定には、オファーの選択に役立つロジックが含まれます。
 feature: Decision Management, API
 badge: label="レガシー" type="Informative"
 topic: Integrations
@@ -10,10 +10,14 @@ role: Developer
 level: Experienced
 exl-id: 99159704-fa39-47ff-b445-0cd6b325007d
 version: Journey Orchestration
-source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
+TQID: https://experienceleague.adobe.com/UwFOIpfuJbo4x80iXItfzzZt58RGnZcyOtYSdwEiJKk
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 100%
+source-wordcount: 170
+ht-degree: 0%
 
 ---
 
@@ -21,24 +25,24 @@ ht-degree: 100%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../../../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer]の新しい決定機能である決定機能が、コードベースのエクスペリエンスとメールチャネルで利用できるようになりました。 [詳細情報](../../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
-[!DNL Offer Library] API に対してリクエストパスに決定 `@id` または決定の名前を含める GET リクエストを実行することで、特定の決定を検索できます。
+決定`@id`またはリクエストパス内の決定の名前を含む[!DNL Offer Library] APIに対してGET リクエストを行うことで、特定の決定を検索できます。
 
-**API 形式**
+**API形式**
 
 ```http
 GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ACTIVITIES}&{QUERY_PARAMS}
 ```
 
-| パラメーター | 説明 | 例 |
+| パラメーター | 効果 | 例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | リポジトリ API のエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 決定が配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{ENDPOINT_PATH}` | リポジトリ APIのエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | 決定が配置されるコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_ACTIVITIES}` | 決定に関連付けられたスキーマを定義します。 | `https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5` |
-| `id` | エンティティの `@id` プロパティとマッチするために使用される文字列。文字列は完全にマッチされます。パラメーター `id` と `name` は一緒に使用できません。 | `xcore:offer-activity:124527ab00b2ebbc` |
-| `name` | エンティティの xdm:name プロパティと一致させるのに使用される文字列。文字列は大文字と小文字を区別して完全にマッチされますが、ワイルドカード文字を使用することもできます。パラメーター「id」と「name」は一緒に使用できません。 | `LBAR` |
+| `id` | エンティティの`@id` プロパティに一致するために使用される文字列。 文字列が正確に一致します。 パラメーター`id`と`name`は同時に使用できません。 | `xcore:offer-activity:124527ab00b2ebbc` |
+| `name` | エンティティのxdm:name プロパティに一致するために使用される文字列。 文字列は大文字と小文字が正確に一致しますが、ワイルドカード文字を使用できます。 パラメーター「id」と「name」は一緒に使用できません | `LBAR` |
 
 **リクエスト**
 
@@ -54,7 +58,7 @@ curl -X GET \
 
 **応答**
 
-応答が成功すると、プレースメントに関する詳細（コンテナ ID、インスタンス ID、一意の決定 `@id` に関する情報を含む）が返されます。
+応答が成功すると、コンテナ ID、インスタンス ID、一意の決定`@id`に関する情報を含む、プレースメントの詳細が返されます。
 
 ```json
 {

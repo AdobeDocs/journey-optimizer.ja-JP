@@ -10,9 +10,13 @@ role: Developer
 level: Experienced
 exl-id: 5c7301f6-95d3-4720-81fe-5f2602cd30ec
 version: Journey Orchestration
-source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
+TQID: https://experienceleague.adobe.com/OUu84msLg8qY3cX2ZW-2Q0JttJnbmxnoTtC6bs5Kzn4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: 153
 ht-degree: 100%
 
 ---
@@ -21,7 +25,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../../../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。 [詳細情報](../../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
 コンテナ ID を提供しながら [!DNL Offer Library] API に対して POST リクエストを実行することで、プレースメントを作成できます。
@@ -67,7 +71,7 @@ curl -X POST \
 
 **応答**
 
-正常な応答では、新たに作成されたプレースメントに関する情報（一意のインスタンス ID とプレースメント `@id` を含む）が返されます。後の手順で、このインスタンス ID を使用してプレースメントを更新または削除できます。後のチュートリアルでは独自のプレースメント `@id` を使用して、アクティビティ、決定ルール、フォールバックオファーを作成できます。
+正常な応答では、新たに作成されたプレースメントに関する情報（一意のインスタンス ID とプレースメント `@id` を含む）が返されます。 後の手順で、このインスタンス ID を使用してプレースメントを更新または削除できます。 後のチュートリアルでは独自のプレースメント `@id` を使用して、アクティビティ、決定ルール、フォールバックオファーを作成できます。
 
 ```json
 {

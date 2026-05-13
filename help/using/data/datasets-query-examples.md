@@ -9,9 +9,15 @@ role: Developer, Admin
 level: Experienced
 keywords: データセット, Optimizer, ユースケース
 exl-id: 26ba8093-8b6d-4ba7-becf-b41c9a06e1e8
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/bbZLNKJ3wg--z3PcVQ4tTvMtuyR7LMsh7qJjrlZ6L7Y
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1086'
+source-wordcount: 1094
 ht-degree: 93%
 
 ---
@@ -151,12 +157,12 @@ SELECT _experience.customerjourneymanagement.messagedeliveryfeedback.messagefail
 
 >[!NOTE]
 >
->一部のジャーニーでは、`messageID` は個々の配信ごとに一意ではない場合があります。ジャーニーで同じアクションを同じプロファイルに再送信する場合は、同じ `messageID` を再利用できます。したがって、個々の送信レベルでイベントを正確に追跡したり属性を設定したりするには、`journeyVersionID`、`journeyActionID`、`batchInstanceID`（バッチジャーニーの場合）または `identityMap` フィールドを組み合わせて、より正確な一意性を実現します。
+>一部のジャーニーでは、`messageID` は個々の配信ごとに一意ではない場合があります。 ジャーニーで同じアクションを同じプロファイルに再送信する場合は、同じ `messageID` を再利用できます。 したがって、個々の送信レベルでイベントを正確に追跡したり属性を設定したりするには、`journeyVersionID`、`journeyActionID`、`batchInstanceID`（バッチジャーニーの場合）または `identityMap` フィールドを組み合わせて、より正確な一意性を実現します。
 
 
 ### ISP のサービス停止後に強制隔離されたアドレスの識別{#isp-outage-query}
 
-インターネットサービスプロバイダー（ISP）のサービス停止が発生した場合は、特定のドメインに対してバウンス（強制隔離）と誤ってマークされたメールアドレスを、一定期間識別する必要があります。これらのアドレスを取得するには、次のクエリを使用します。
+インターネットサービスプロバイダー（ISP）のサービス停止が発生した場合は、特定のドメインに対してバウンス（強制隔離）と誤ってマークされたメールアドレスを、一定期間識別する必要があります。 これらのアドレスを取得するには、次のクエリを使用します。
 
 ```sql
 SELECT
@@ -174,11 +180,11 @@ ORDER BY timestamp DESC;
 
 日付の形式は、`YYYY-MM-DD HH:MM:SS` です。
 
-識別したら、これらのアドレスを Journey Optimizer 抑制リストから削除します。[詳細情報](../configuration/manage-suppression-list.md#remove-from-suppression-list)
+識別したら、これらのアドレスを Journey Optimizer 抑制リストから削除します。 [詳細情報](../configuration/manage-suppression-list.md#remove-from-suppression-list)。
 
 >[!NOTE]
 >
->メッセージフィードバックイベントデータセット内の identityMap を参照すると、実行時に使用される ID のみが反映されます。プッシュ通知の場合、「送信」イベントは、この通知の送信に使用されるプッシュトークンにリンクされた ECID のみに依存しますが、「除外」イベントはカスタム ID に依存する可能性があります。例えば、プッシュトークンが見つからなかったことにより、プロファイルが除外された場合、このイベントを登録するために、ジャーニーまたはアクションキャンペーンレベルで使用される ID が選択されます。追加の名前空間（例：カスタム ID）が必要な場合は、これらのフィードバックレコードをプロファイル関連のデータセット（例：profile_snapshot）と結合して、完全な ID リストを取得します。
+>メッセージフィードバックイベントデータセット内の identityMap を参照すると、実行時に使用される ID のみが反映されます。 プッシュ通知の場合、「送信」イベントは、この通知の送信に使用されるプッシュトークンにリンクされた ECID のみに依存しますが、「除外」イベントはカスタム ID に依存する可能性があります。 例えば、プッシュトークンが見つからなかったことにより、プロファイルが除外された場合、このイベントを登録するために、ジャーニーまたはアクションキャンペーンレベルで使用される ID が選択されます。 追加の名前空間（例：カスタム ID）が必要な場合は、これらのフィードバックレコードをプロファイル関連のデータセット（例：profile_snapshot）と結合して、完全な ID リストを取得します。
 
 
 
@@ -225,7 +231,7 @@ group by
     _experience.journeyOrchestration.stepEvents.actionName;   
 ```
 
-このクエリは、特定のジャーニーの nodeId および nodeLabel ごとに、エントリしたステップ数の分類を表示します。異なるジャーニーノードに対して nodeLabel を同じにできるので、nodeId はここに含まれます。
+このクエリは、特定のジャーニーの nodeId および nodeLabel ごとに、エントリしたステップ数の分類を表示します。 異なるジャーニーノードに対して nodeLabel を同じにできるので、nodeId はここに含まれます。
 
 ```sql
 select
@@ -381,13 +387,13 @@ WHERE
 
 ## エンティティデータセット{#entity-dataset}
 
-_インターフェイスでの名前：ajo_entity_dataset（システムデータセット）_
+_インターフェイスでの名前：ajo_ entity_dataset（システムデータセット）_
 
 エンドユーザーに送信されるメッセージのエンティティメタデータを保存するデータセット。
 
 関連するスキーマは AJO エンティティスキーマです。
 
-このデータセットを使用すると、マーケターが定義したメタデータにアクセスし、外部ツールでレポート視覚化するために Journey Optimizer がデータセットをエクスポートした際に、レポートに関するより優れたインサイトを得ることができます。messageID 属性を使用することで、メッセージフィードバックデータセットやエクスペリエンスイベントトラッキングデータセットなどの様々なデータセットをつなぎ合わせて、プロファイルレベルでの送信からトラッキングまでのメッセージ配信の詳細を取得することができます。
+このデータセットを使用すると、マーケターが定義したメタデータにアクセスし、外部ツールでレポート視覚化するために Journey Optimizer がデータセットをエクスポートした際に、レポートに関するより優れたインサイトを得ることができます。 messageID 属性を使用することで、メッセージフィードバックデータセットやエクスペリエンスイベントトラッキングデータセットなどの様々なデータセットをつなぎ合わせて、プロファイルレベルでの送信からトラッキングまでのメッセージ配信の詳細を取得することができます。
 
 **重要な注意事項**
 
@@ -397,9 +403,9 @@ _インターフェイスでの名前：ajo_entity_dataset（システムデー�
 
 >[!NOTE]
 >
->将来の互換性に備え、当面の間、エンティティデータセット内の各メッセージの公開には 2 つのエントリが存在します。このことは、必要に応じてデータセット間で結合クエリを使用して目的の情報を取得する機能には影響しません。
+>将来の互換性に備え、当面の間、エンティティデータセット内の各メッセージの公開には 2 つのエントリが存在します。 このことは、必要に応じてデータセット間で結合クエリを使用して目的の情報を取得する機能には影響しません。
 
-レポートで、特定のジャーニーで送信されたメールを送信元のアクションに従って並べ替える場合は、メッセージフィードバックデータセットをエンティティデータセットと結合できます。使用するフィールドは `_experience.decisioning.propositions.scopeDetails.correlationID` と `_id field in entity dataset` です。
+レポートで、特定のジャーニーで送信されたメールを送信元のアクションに従って並べ替える場合は、 メッセージフィードバックデータセットをエンティティデータセットと結合できます。 使用するフィールドは `_experience.decisioning.propositions.scopeDetails.correlationID` と `_id field in entity dataset` です。
 
 特定のキャンペーンに関連するメッセージテンプレートを取得するのに役立つクエリは次のとおりです。
 

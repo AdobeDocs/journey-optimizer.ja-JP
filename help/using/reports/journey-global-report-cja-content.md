@@ -8,9 +8,16 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: f68df6ee-d74e-46b4-a53f-b0eb50101e85
-source-git-commit: b6fd60b23b1a744ceb80a97fb092065b36847a41
+TQID: https://experienceleague.adobe.com/4om6z28QizixDY9Nu08niR3cBTLP3V13F-4wGf2bXhU
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: 345
 ht-degree: 100%
 
 ---
@@ -19,7 +26,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-コンテンツカードジャーニーレポートにアクセスするには、ジャーニー内の「**[!UICONTROL レポートを表示]**」ボタンをクリックします。[詳細情報](report-gs-cja.md)
+コンテンツカードジャーニーレポートにアクセスするには、ジャーニー内の「**[!UICONTROL レポートを表示]**」ボタンをクリックします。 [詳細情報](report-gs-cja.md)
 
 ![](assets/report-access-jo.png)
 
@@ -67,7 +74,7 @@ ht-degree: 100%
 
 ## トラッキング対象リンクラベル {#track-link-content}
 
-**[!UICONTROL トラッキング対象リンクラベル]**&#x200B;テーブルには、コンテンツカード内のリンクラベルの包括的な概要が表示され、最も多くの訪問者トラフィックを生成するリンクラベルがハイライト表示されます。この機能を使用すると、一番人気のリンクを識別し、優先順位を付けることができます。
+**[!UICONTROL トラッキング対象リンクラベル]**&#x200B;テーブルには、コンテンツカード内のリンクラベルの包括的な概要が表示され、最も多くの訪問者トラフィックを生成するリンクラベルがハイライト表示されます。 この機能を使用すると、一番人気のリンクを識別し、優先順位を付けることができます。
 
 +++ 詳しくは、トラッキング対象リンクラベル指標を参照してください
 

@@ -5,13 +5,16 @@ title: 調整されたキャンペーンのガードレールと制限
 description: 調整されたキャンペーンのガードレールと制限について説明します
 exl-id: 82744db7-7358-4cc6-a9dd-03001759fef7
 version: Campaign Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/ViPJaOPo-AT-naQqq-PaPw-BI5YupYuYAEy56AUEp2A
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+topic_v2: id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12bid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 91%
+source-wordcount: 534
+ht-degree: 94%
 
 ---
-
 
 # ガードレールと制限 {#guardrails}
 
@@ -33,7 +36,7 @@ ht-degree: 91%
 
 * 管理性とパフォーマンスを維持するために、スキーマあたりの属性の平均数は **50 列を超えないようにしてください**。
 
-* Adobe Experience Platform **プロファイル**&#x200B;では、リレーショナルスキーマを有効にできません。Adobe Experience Platform **プロファイル**&#x200B;では、標準 XDM スキーマのみがサポートされています。関係スキーマは、オーケストレーションされたキャンペーンまたはアクションキャンペーンに対して有効にできます。 [詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
+* Adobe Experience Platform **プロファイル**&#x200B;では、リレーショナルスキーマを有効にできません。 Adobe Experience Platform **プロファイル**&#x200B;では、標準 XDM スキーマのみがサポートされています。 関係スキーマは、オーケストレーションされたキャンペーンまたはアクションキャンペーンに対して有効にできます。 [詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/user-guide#enable-profile)
 
 ### データ取り込み {#data-ingestion}
 
@@ -41,7 +44,7 @@ ht-degree: 91%
 
 * すべての取り込みは、**変更データキャプチャ**&#x200B;ソースを通じて行う必要があります。
 
-   * **ファイルベース**&#x200B;の場合：`_change_request_type` フィールドが必要です。サポートされている値は`u` （upsert）または`d` （delete）です。 これらの値は、大文字の`u`と`d`ではなく、小文字の`U`と`D`である必要があります。
+   * **ファイルベース**&#x200B;の場合：`_change_request_type` フィールドが必要です。 サポートされている値は、`u`（アップサート）または `d`（削除）です。 これらの値は、大文字の `U` と `D` ではなく、小文字の `u` と `d` にする必要があります。
 
    * **クラウドベース**&#x200B;の場合：テーブルログを有効にする必要があります。
 
@@ -57,7 +60,7 @@ ht-degree: 91%
 
    * 操作のタイプ（例：挿入は更新よりも高速です）
 
-* **データフローとデータセットの関係は一対一です**。つまり、特定の時間に 1 つのデータセットをフィードできるソースは 1 つだけです。ソースを切り替えるには、既存のデータフローを削除し、新しいソースを使用して新しいデータフローを作成する必要があります。
+* **データフローとデータセットの関係は一対一です**。 つまり、特定の時間に 1 つのデータセットをフィードできるソースは 1 つだけです。 ソースを切り替えるには、既存のデータフローを削除し、新しいソースを使用して新しいデータフローを作成する必要があります。
 
 ### データモデリング
 
@@ -75,7 +78,7 @@ ht-degree: 91%
 
 * オーディエンス定義では、**スカラー属性のみがサポートされます**。**マッピングと配列は許可されません**。
 
-* **セグメント化アクティビティは主にリレーショナルデータに依存します**。プロファイルデータを含めることができますが、大きなプロファイルデータセットを使用すると、パフォーマンスに影響を与える場合があります。
+* **セグメント化アクティビティは主にリレーショナルデータに依存します**。 プロファイルデータを含めることができますが、大きなプロファイルデータセットを使用すると、パフォーマンスに影響を与える場合があります。
 
 * システム効率を維持するために、バッチオーディエンスとストリーミングオーディエンスの両方で使用できる&#x200B;**プロファイル属性の数には制限が適用されます**。
 

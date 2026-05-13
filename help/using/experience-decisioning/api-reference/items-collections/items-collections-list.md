@@ -7,16 +7,20 @@ role: Developer
 level: Experienced
 exl-id: cc9f0d7a-6166-4736-8cb7-1989816708ad
 version: Journey Orchestration
-source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
+TQID: https://experienceleague.adobe.com/dZoAhprkoCZ3zkecMZcDeJF3m9aYP4-8GCEtTmlsILQ
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: 210
 ht-degree: 100%
 
 ---
 
 # 項目コレクションのリスト {#list-decision-items}
 
-コレクション（項目コレクションとも呼ばれる）を使用すると、好みに応じて決定項目を分類およびグループ化できます。これらのカテゴリは、決定項目の属性を活用するルールを策定することで作成されます。
+コレクション（項目コレクションとも呼ばれる）を使用すると、好みに応じて決定項目を分類およびグループ化できます。 これらのカテゴリは、決定項目の属性を活用するルールを策定することで作成されます。
 
 オファーライブラリ API に対して単一の GET リクエストを実行することで、すべての項目コレクションのリストを表示できます。
 
@@ -42,7 +46,7 @@ GET /{ENDPOINT_PATH}/item-collections?{QUERY_PARAMS}
 | パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
 | `property` | オプションのプロパティフィルターは次のとおりです。 <ul><li>プロパティは AND 演算でグループ化されます。</li><li>パラメーターは、property={PROPERTY_EXPR}[&amp;property={PROPERTY_EXPR2}...] または property={PROPERTY_EXPR1}[,{PROPERTY_EXPR2}...] のように繰り返すことができます。</li><li>プロパティ式は `[!]field[op]value` の形式を使用（`[==,!=,<=,>=,<,>,~]` に `op`）し、正規表現をサポートします。</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
-| `orderBy` | 特定のプロパティで結果を並べ替えます。名前の前に - を追加すると（orderby=-name）、名前の降順（Z ～ A）で項目が並べ替えられます。パス式は、ドット区切りのパスの形式です。このパラメーターは、`orderby=field1[,-fields2,field3,...]` のように繰り返すことができます。 | `orderby=id`、`-name` |
+| `orderBy` | 特定のプロパティで結果を並べ替えます。 名前の前に - を追加すると（orderby=-name）、名前の降順（Z ～ A）で項目が並べ替えられます。 パス式は、ドット区切りのパスの形式です。 このパラメーターは、`orderby=field1[,-fields2,field3,...]` のように繰り返すことができます。 | `orderby=id`、`-name` |
 | `limit` | 返されるエンティティの数を制限します。 | `limit=5` |
 
 **リクエスト**

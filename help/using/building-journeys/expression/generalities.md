@@ -9,10 +9,14 @@ level: Experienced
 keywords: 構文, エディター, ジャーニー
 exl-id: c9434b28-2750-4a53-985e-c4a3f940472c
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: ht
-source-wordcount: '249'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/-PTYUf-njT3-LsI-A5IKEMDGOl4JecZ-ayM0rU4f2HI
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+workflow-type: tm+mt
+source-wordcount: 250
+ht-degree: 96%
 
 ---
 
@@ -22,9 +26,9 @@ ht-degree: 100%
 
 ## 括弧と式の優先度 {#parentheses-and-expression-priority}
 
-括弧を使用すると、複雑な式が読みやすくなります。_(&lt;expression>)_ は _&lt;expression>_&#x200B;と同等です。括弧を使用して、評価順序と結合規則を定義することもできます。
+括弧を使用すると、複雑な式が読みやすくなります。 _(&lt;expression>)_ は _&lt;expression>_&#x200B;と同等です。 括弧を使用して、評価順序と結合規則を定義することもできます。
 
-式は左から右に評価されます。演算子の結合規則を適用する必要があります。乗算と除算は、加算と減算よりも優先されます。特定の順序を強制するには、括弧を追加して演算を区切る必要があります。例：
+式は左から右に評価されます。 演算子の結合規則を適用する必要があります。乗算と除算は、加算と減算よりも優先されます。 特定の順序を強制するには、括弧を追加して演算を区切る必要があります。 例：
 
 <!--```5 + 2 * 10 = 25, and (5 + 2) * 10 = 70```-->
 
@@ -37,8 +41,8 @@ ht-degree: 100%
 
 大文字と小文字の区別に関する様々なルールを次に示します。
 
-* すべての演算子（and、or など）は小文字で記述する必要があります。例： _`<expression1>`and`<expression2>`_ は有効な式であるのに対して、_`<expression1>`AND`<expression2>`_ は有効な式ではありません。
-* すべての関数名では大文字と小文字が区別されます。例：_inAudience()_ は有効なのに対して、_INAUDIENCE()_ 関数は有効ではありません。
+* すべての演算子（および、またはなど） 小文字にする必要があります。 例： _`<expression1>`and`<expression2>`_ は有効な式であるのに対して、_`<expression1>`AND`<expression2>`_ は有効な式ではありません。
+* すべての関数名では大文字と小文字が区別されます。 例：_inAudience()_ は有効なのに対して、_INAUDIENCE()_ 関数は有効ではありません。
 * フィールド参照と定数値は、大文字と小文字が区別されます。（演算子や関数とは異なり）これらは言語のビルトインの要素ではなく、エンドユーザーが作成します。
 
 ## 式の戻り値のタイプ {#returned-expression-type}
@@ -48,5 +52,5 @@ ht-degree: 100%
 | 高度な式エディターでの使用法 | 式の戻り値として想定されるタイプ |
 |--- |--- |
 | 条件（データソース条件、日付条件） | ブール値 |
-| カスタムタイマー | 日時のみ |
+| カスタムタイマー | dateTimeOnly |
 | アクションパラメーターのマッピング | 任意 |

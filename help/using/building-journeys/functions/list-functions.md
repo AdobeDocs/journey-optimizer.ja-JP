@@ -7,16 +7,22 @@ role: Developer
 level: Experienced
 keywords: リスト, 関数, 式, ジャーニー, 配列, コレクション
 version: Journey Orchestration
-source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
-workflow-type: ht
-source-wordcount: '1158'
+exl-id: b17245ba-4ffa-4f5b-914e-4c0972e9c7c4
+TQID: https://experienceleague.adobe.com/XWWixhfBVKw-kdgO4WPWrtiIqA8sFt0ql0IVZ-2QsUI
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+workflow-type: tm+mt
+source-wordcount: 1158
 ht-degree: 100%
 
 ---
 
 # リスト関数 {#list-functions}
 
-リスト関数を使用すると、ジャーニー式内で値のコレクションを操作して作業できます。これらの関数は、カスタマージャーニーでの配列やリストのフィルタリング、並べ替え、変換、分析に不可欠です。
+リスト関数を使用すると、ジャーニー式内で値のコレクションを操作して作業できます。 これらの関数は、カスタマージャーニーでの配列やリストのフィルタリング、並べ替え、変換、分析に不可欠です。
 
 リスト関数は、次の操作が必要な場合に使用します。
 
@@ -32,7 +38,7 @@ ht-degree: 100%
 
 ## distinct {#distinct}
 
-指定されたリストのユニークな値またはオブジェクトを返します。null エントリは無視されます。
+指定されたリストのユニークな値またはオブジェクトを返します。 null エントリは無視されます。
 
 +++構文
 
@@ -44,8 +50,8 @@ ht-degree: 100%
 
 | パラメーター | タイプ | 説明 |
 |-----------|------------------|------------------|
-| listToProcess | lilistString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly、listObject のいずれか | 処理するリスト。listObject の場合は、フィールド参照にする必要があります。 |
-| keyAttributeName | 文字列 | このパラメーターはオプションで、listObject に対してのみ使用できます。パラメーターを指定しないと、すべての属性の値が同じ場合、オブジェクトは重複していると見なされます。パラメーターを指定していて、指定された属性が同じ値を持つ場合、オブジェクトは重複していると見なされます。 |
+| listToProcess | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly、listObject のいずれか | 処理するリスト。 listObject の場合は、フィールド参照にする必要があります。 |
+| keyAttributeName | 文字列 | このパラメーターはオプションで、listObject に対してのみ使用できます。 パラメーターを指定しないと、すべての属性の値が同じ場合、オブジェクトは重複していると見なされます。 パラメーターを指定していて、指定された属性が同じ値を持つ場合、オブジェクトは重複していると見なされます。 |
 
 +++
 
@@ -101,7 +107,7 @@ ht-degree: 100%
 
 ## distinctWithNull {#distinctWithNull}
 
-指定されたリストのユニークな値またはオブジェクトを返します。リストに null エントリが少なくとも 1 つ含まれる場合、返されるリストに null エントリが含まれます。
+指定されたリストのユニークな値またはオブジェクトを返します。 リストに null エントリが少なくとも 1 つ含まれる場合、返されるリストに null エントリが含まれます。
 
 +++構文
 
@@ -305,7 +311,7 @@ filter(
 
 `getListItem([10, 2, 3], 1)`
 
-「2」を返します。
+「2」を返します
 
 `getListItem(["A", "B", "C"], 2)`
 
@@ -325,9 +331,9 @@ filter(
 
 ## in {#in}
 
-最初の引数値がリストに含まれているかどうかを確認します。確認は、各引数値に対して Equal を使用して実行されます。引数の値が見つかった場合は true を返し、それ以外の場合は false を返します。
+最初の引数値がリストに含まれているかどうかを確認します。 確認は、各引数値に対して Equal を使用して実行されます。 引数の値が見つかった場合は true を返し、それ以外の場合は false を返します。
 
-`<expression>` のタイプは、リストの項目と一致する必要があります。なお、リストの項目のタイプは互いに一致する必要があります。
+`<expression>` のタイプは、リストの項目と一致する必要があります。 なお、リストの項目のタイプは互いに一致する必要があります。
 
 +++構文
 
@@ -340,8 +346,8 @@ filter(
 | パラメーター | タイプ |
 |-----------|------------------|
 | 文字列 | 文字列 |
-| ブール値 | ブール値 |
-| Integer | Integer |
+| ブール | ブール |
+| 整数 | 整数 |
 | 小数 | 小数 |
 | 期間 | 期間 |
 | 日時 | 日時 |
@@ -395,7 +401,7 @@ false を返します。
 
 ## intersect {#intersect}
 
-2 つの入力リストで共通する値を返します。2 つのリストのいずれかが null の場合、空のリストを返します。
+2 つの入力リストで共通する値を返します。 2 つのリストのいずれかが null の場合、空のリストを返します。
 
 +++構文
 
@@ -479,9 +485,9 @@ intersect(
 
 | パラメーター | タイプ | 説明 |
 |-----------|------------------|------------------|
-| listToProcess | lilistString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly、listObject のいずれか | 考慮するリスト。listObject の場合は、フィールド参照にする必要があります。 |
+| listToProcess | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly、listObject のいずれか | 考慮するリスト。 listObject の場合は、フィールド参照にする必要があります。 |
 | numberOfItems | 整数 | 指定されたリストから返される項目の数。 |
-| firstOrLastItems | ブール値 | このパラメーターはオプションです（デフォルトは true）。true の場合は、先頭の項目を返します。false の場合は、末尾の項目を返します。 |
+| firstOrLastItems | ブール値 | このパラメーターはオプションです（デフォルトは true）。 true の場合は、先頭の項目を返します。 false の場合は、末尾の項目を返します。 |
 
 +++
 
@@ -569,7 +575,7 @@ intersect(
 
 | パラメーター | タイプ | 説明 |
 |-----------|------------------|------------------|
-| listToProcess | lilistString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly、listObject のいずれか | 処理するリスト。listObject の場合、フィールド参照である必要があります。listObject に null オブジェクトを含めることはできません。 |
+| listToProcess | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly、listObject のいずれか | 処理するリスト。 listObject の場合は、フィールド参照にする必要があります。 listObject に null オブジェクトを含めることはできません。 |
 
 +++
 
@@ -623,7 +629,7 @@ intersect(
 
 | パラメーター | タイプ | 説明 |
 |-----------|------------------|------------------|
-| listToProcess | stString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly | 文字列に変換するリスト。 |
+| listToProcess | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly | 文字列に変換するリスト。 |
 | 区切り記号 | 文字列 | 出力文字列内の各リスト要素間の区切り記号。 |
 | addQuotes | ブール値 | このパラメーターは、出力文字列の各要素に引用符を含める（true）か、含まない（false）かを示します。 |
 
@@ -659,7 +665,7 @@ intersect(
 
 `serializeList(["Hello", "World"], ",", true)`
 
-「&quot;Hello&quot;,&quot;World&quot;」を返します。
+「&amp;quot;Hello&amp;quot;,&amp;quot;World&amp;quot;」を返します。
 
 +++
 
@@ -677,8 +683,8 @@ intersect(
 
 | パラメーター | タイプ | 説明 |
 |-----------|------------------|------------------|
-| listToSort | lilistString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly、listObject のいずれか | 並べ替えるリスト。listObject の場合は、フィールド参照にする必要があります。 |
-| keyAttributeName | 文字列 | このパラメーターは listObject に対してのみ使用します。指定されたリストのオブジェクト内の属性名は、並べ替えのキーとして使用されます。 |
+| listToSort | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly、listObject のいずれか | 並べ替えるリスト。 listObject の場合は、フィールド参照にする必要があります。 |
+| keyAttributeName | 文字列 | このパラメーターは listObject に対してのみ使用します。 指定されたリストのオブジェクト内の属性名は、並べ替えのキーとして使用されます。 |
 | sortingOrder | ブール値 | 昇順（true）または降順（false） |
 
 +++
@@ -734,4 +740,3 @@ intersect(
 SKU 属性で並べ替えられた listObject を返します（昇順）
 
 +++
-

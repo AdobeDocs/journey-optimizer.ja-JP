@@ -9,10 +9,16 @@ role: User
 level: Intermediate
 exl-id: 810c05b3-2bae-4368-bf12-3ea8c2f31c01
 version: Journey Orchestration
-source-git-commit: 77fdbd9ea47d20fa2b2534cc9520a9b3cd011ac5
+TQID: https://experienceleague.adobe.com/N679HgdAi1Y-T2B7EYQtZoutJ-UeigNFza9fycFKCdA
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: a37e4ecd-c740-426a-addf-cb1b483c5c5aid: b3538224-471e-4c63-a444-9b19d89ae29cid: c132d929-fa62-4271-803e-b823be07b914id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b784da9a-7978-4766-bf1f-5ab2b23d894a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 98%
+source-wordcount: 884
+ht-degree: 97%
 
 ---
 
@@ -20,29 +26,29 @@ ht-degree: 98%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] の新しい判定機能である判定は、コードベースのエクスペリエンス、メール、SMS およびプッシュチャネルから利用できるようになりました。 [詳細情報](../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer]の新しい決定機能である決定機能が、コードベースのエクスペリエンス、電子メール、SMS、プッシュチャネルで利用できるようになりました。 [詳細情報](../experience-decisioning/gs-experience-decisioning.md)
 
 ## バッチ決定の基本を学ぶ {#start}
 
 Journey Optimizer を使用すると、特定の Adobe Experience Platform オーディエンスに含まれるすべてのプロファイルにオファーの決定を配信できます。
 
-それには、ターゲットとするオーディエンスと使用するオファーの決定に関する情報を含んだジョブリクエストを Journey Optimizer で作成する必要があります。オーディエンス内の各プロファイルに対するオファーコンテンツは、Adobe Experience Platform データセットに配置され、カスタムバッチワークフローで使用できます。
+それには、ターゲットとするオーディエンスと使用するオファーの決定に関する情報を含んだジョブリクエストを Journey Optimizer で作成する必要があります。 オーディエンス内の各プロファイルに対するオファーコンテンツは、Adobe Experience Platform データセットに配置され、カスタムバッチワークフローで使用できます。
 
-バッチ配信は、API を使用して実行することもできます。詳しくは、[Batch Decisioning API ドキュメント](api-reference/offer-delivery-api/batch-decisioning-api.md)を参照してください。
+バッチ配信は、API を使用して実行することもできます。 詳しくは、[Batch Decisioning API ドキュメント](api-reference/offer-delivery-api/batch-decisioning-api.md)を参照してください。
 
 ## 前提条件 {#prerequisites}
 
 ジョブリクエストを設定する前に、以下が作成されていることを確認します。
 
-* Adobe Experience Platform の&#x200B;**データセット**。このデータセットは、&quot;ODE DecisionEvents&quot; スキーマを使用して決定結果を保存するために使用されます。詳しくは、[データセットドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=ja)を参照してください。
+* Adobe Experience Platform の&#x200B;**データセット**。 このデータセットは、&quot;ODE DecisionEvents&quot; スキーマを使用して決定結果を保存するために使用されます。 詳しくは、[データセットドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=ja)を参照してください。
 
-* Adobe Experience Platform の&#x200B;**オーディエンス**。オーディエンスは、評価してから更新してください。オーディエンスメンバーシップの評価を更新する方法については、[セグメント化サービスのドキュメント](https://www.adobe.com/go/segmentation-overview-en_jp)を参照してください
+* Adobe Experience Platform の&#x200B;**オーディエンス**。 オーディエンスは、評価してから更新してください。 オーディエンスメンバーシップの評価を更新する方法については、[セグメント化サービスのドキュメント](https://www.adobe.com/go/segmentation-overview-en_jp)を参照してください
 
   >[!NOTE]
   >
-  >1 日に 1 回発生するプロファイルスナップショットからバッチジョブが実行されます。Batch Decisioning では頻度をキャップし、常に最新のスナップショットからプロファイルを読み込みます。オーディエンスの作成後、最大 24 時間待ってから Batch Decisioning API を試すことをお勧めします。
+  >1 日に 1 回発生するプロファイルスナップショットからバッチジョブが実行されます。 Batch Decisioning では頻度をキャップし、常に最新のスナップショットからプロファイルを読み込みます。 オーディエンスの作成後、最大 24 時間待ってから Batch Decisioning API を試すことをお勧めします。
 
-* Adobe Journey Optimizer の&#x200B;**決定**。[決定の作成方法を学ぶ](offer-activities/create-offer-activities.md)
+* Adobe Journey Optimizer の&#x200B;**決定**。 [決定の作成方法を学ぶ](offer-activities/create-offer-activities.md)
 
 <!-- in API doc, remove these info and add ref here-->
 
@@ -60,24 +66,24 @@ Journey Optimizer を使用すると、特定の Adobe Experience Platform オ�
 
 1. オーディエンスにオファーを配信する際に使用する 1 つまたは複数のオファー決定範囲を選択します。
    1. リストからプレースメントを選択します。
-   1. 選択したプレースメントで使用可能な決定が表示されます。任意の決定を選択し、「**[!UICONTROL 追加]**」をクリックします。
+   1. 選択したプレースメントで使用可能な決定が表示されます。 任意の決定を選択し、「**[!UICONTROL 追加]**」をクリックします。
    1. 操作を繰り返して、必要な数の決定範囲を追加します。
 
    ![](assets/batch-decision.png)
 
-1. デフォルトでは、決定範囲のオファーが各プロファイルに対して 1 つ返されます。返されるオファーの数は、「**[!UICONTROL プロファイルごとにオファーをリクエスト]**」オプションを使用して調整できます。例えば、「2」を選択した場合、選択した決定範囲に最適な 2 つのオファーが表示されます。
+1. デフォルトでは、決定範囲のオファーが各プロファイルに対して 1 つ返されます。 返されるオファーの数は、「**[!UICONTROL プロファイルごとにオファーをリクエスト]**」オプションを使用して調整できます。 例えば、「2」を選択した場合、選択した決定範囲に最適な 2 つのオファーが表示されます。
 
    >[!NOTE]
    >
    >1 つの決定範囲につき最大 30 のオファーをリクエストできます。
 
-1. オファーコンテンツをデータセットに含める場合は、「**[!UICONTROL コンテンツを含める]**」オプションをオンに切り替えます。このオプションはデフォルトでは無効です。
+1. オファーコンテンツをデータセットに含める場合は、「**[!UICONTROL コンテンツを含める]**」オプションをオンに切り替えます。 このオプションはデフォルトでは無効です。
 
 1. 「**[!UICONTROL 作成]**」をクリックして、ジョブリクエストを実行します。
 
 ## バッチジョブの監視
 
-リクエストされたすべてのバッチジョブは、「**[!UICONTROL Batch Decisioning]**」タブからアクセスできます。さらに、リストを絞り込むのに役立つ検索ツールとフィルタリングツールを使用できます。
+リクエストされたすべてのバッチジョブは、「**[!UICONTROL Batch Decisioning]**」タブからアクセスできます。 さらに、リストを絞り込むのに役立つ検索ツールとフィルタリングツールを使用できます。
 
 ![](assets/batch-list.png)
 
@@ -89,7 +95,7 @@ Journey Optimizer を使用すると、特定の Adobe Experience Platform オ�
 >
 >ジョブリクエストのステータスに関する最新の情報を取得するには、ジョブの横にある「...」ボタンを使用して、ジョブを更新します。
 
-1. **[!UICONTROL 待機中]**：ジョブリクエストが作成され、処理キューに入っています。1 つのデータセットにつき、一度に最大 5 つのバッチジョブを実行できます。同じ出力データセットを持つその他のバッチリクエストがキューに追加されます。前のジョブの実行が完了したら、キュー内のジョブがピックアップされ処理されます。
+1. **[!UICONTROL 待機中]**：ジョブリクエストが作成され、処理キューに入っています。 1 つのデータセットにつき、一度に最大 5 つのバッチジョブを実行できます。 同じ出力データセットを持つその他のバッチリクエストがキューに追加されます。 前のジョブの実行が完了したら、キュー内のジョブがピックアップされ処理されます。
 1. **[!UICONTROL 処理中]**：ジョブリクエストを処理中です
 1. **[!UICONTROL 取り込み中]**：ジョブリクエストが実行され、結果データが選択したデータセットに取り込まれています。
 1. **[!UICONTROL 完了]**：ジョブリクエストが実行され、結果データが選択したデータセットに保存されます。
@@ -98,13 +104,13 @@ Journey Optimizer を使用すると、特定の Adobe Experience Platform オ�
    >
    >ジョブリスト内のジョブの名前をクリックすると、ジョブの結果が保存されているデータセットにアクセスできます。
 
-ジョブリクエストの実行中にエラーが発生した場合、リクエストのステータスが&#x200B;**[!UICONTROL エラー]**&#x200B;になります。新しいリクエストを作成するには、バッチジョブを複製してみてください。バッチジョブの複製方法については、[こちら](#duplicate)を参照してください。
+ジョブリクエストの実行中にエラーが発生した場合、リクエストのステータスが&#x200B;**[!UICONTROL エラー]**&#x200B;になります。 新しいリクエストを作成するには、バッチジョブを複製してみてください。 バッチジョブの複製方法については、[こちら](#duplicate)を参照してください。
 
 ### バッチジョブ処理時間
 
 各バッチジョブのエンドツーエンド時間は、ワークロードが作成されてから出力データセットで決定結果が使用可能になるまでの期間です。
 
-エンドツーエンドのバッチ決定時間に影響を与える主な要因は、オーディエンスサイズです。実施要件を満たすオファーでグローバルなフリークエンシーキャップが有効になっている場合、バッチ決定の完了にはさらに時間がかかります。実施要件を満たすオファーに対してフリークエンシーキャップを有効にする場合と有効にしない場合の両方で、それぞれのオーディエンスサイズに対するエンドツーエンドの処理時間の概算を以下に示します。
+エンドツーエンドのバッチ決定時間に影響を与える主な要因は、オーディエンスサイズです。 実施要件を満たすオファーでグローバルなフリークエンシーキャップが有効になっている場合、バッチ決定の完了にはさらに時間がかかります。 実施要件を満たすオファーに対してフリークエンシーキャップを有効にする場合と有効にしない場合の両方で、それぞれのオーディエンスサイズに対するエンドツーエンドの処理時間の概算を以下に示します。
 
 実施要件を満たすオファーに対してフリークエンシーキャップを有効にする場合：
 

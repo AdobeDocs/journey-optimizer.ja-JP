@@ -9,16 +9,20 @@ level: Experienced
 keywords: 式, データ, データタイプ, ジャーニー
 exl-id: fdfc3287-d733-45fb-ad11-b4238398820a
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: ht
-source-wordcount: '616'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/0UKY3G4hyMnSkzh8wlMx-yQ1yymKjs6FuIBdGo1SJqc
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+workflow-type: tm+mt
+source-wordcount: 671
+ht-degree: 98%
 
 ---
 
 # データタイプ {#data-types}
 
-厳密に言えば、定数には常にデータタイプが含まれています。リテラル式では、値のみを指定します。このデータタイプは、値（文字列、整数、小数など）から推測できます。 日時などの特定のケースでは、表現に専用の関数を使用します。
+厳密に言えば、定数には常にデータタイプが含まれています。 リテラル式では、値のみを指定します。 このデータタイプは、値（文字列、整数、小数など）から推測できます。 日時などの特定のケースでは、表現に専用の関数を使用します。
 
 以降の節では、様々なデータタイプ式とその表現方法について説明します。
 
@@ -26,7 +30,7 @@ ht-degree: 100%
 
 **説明**
 
-文字の一般的なシーケンス。使用可能なメモリ量など、環境に起因する暗黙のサイズを除き、特定のサイズはありません。
+文字の一般的なシーケンス。 使用可能なメモリ量など、環境に起因する暗黙のサイズを除き、特定のサイズはありません。
 
 JSON 形式：文字列
 
@@ -84,7 +88,7 @@ JSON 形式：数値
 
 JSON 形式：数値
 
-シリアル化形式：「.」を小数点として使用します。
+シリアル化形式：小数点区切り文字として「。」を使用します。
 
 **リテラル表現**
 
@@ -122,7 +126,7 @@ false
 true
 ```
 
-## 日付のみ{#date-only}
+## 日付のみ {#date-only}
 
 **説明**
 
@@ -136,7 +140,7 @@ JSON 形式：文字列
 
 toDateOnly 関数でカプセル化できます。
 
-値の逆シリアル化とシリアル化に DateTimeFormatter ISO_LOCAL_DATE_TIME を使用します。[詳細情報](https://datatracker.ietf.org/doc/html/rfc3339#section-5.6)
+値の逆シリアル化とシリアル化に DateTimeFormatter ISO_LOCAL_DATE_TIME を使用します。 [詳細情報](https://datatracker.ietf.org/doc/html/rfc3339#section-5.6)
 
 **リテラル表現**
 
@@ -150,7 +154,7 @@ date("<dateOnly in ISO-8601 format>")
 date("2021-02-19")
 ```
 
-## 日時のみ{#date-time-only}
+## 日時のみ {#date-time-only}
 
 **説明**
 
@@ -158,7 +162,7 @@ date("2021-02-19")
 
 JSON 形式：文字列
 
-タイムゾーンは保存も表現もされません。代わりに、生年月日に使用される日付と、壁掛け時計に表示される現地時間を結合した記述になります。
+タイムゾーンは保存も表現もされません。 代わりに、生年月日に使用される日付と、壁掛け時計に表示される現地時間を結合した記述になります。
 
 オフセットやタイムゾーンなどの追加情報がなければ、タイムライン上の瞬間を表現できません。
 
@@ -166,7 +170,7 @@ toDateTimeOnly 関数でカプセル化できます。
 
 シリアル化形式：ISO-8601 拡張オフセット日時形式。
 
-値の逆シリアル化とシリアル化に DateTimeFormatter ISO_LOCAL_DATE_TIME を使用します。[詳細情報](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME"){_blank}
+値の逆シリアル化とシリアル化に DateTimeFormatter ISO_LOCAL_DATE_TIME を使用します。 [詳細情報](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_LOCAL_DATE_TIME"){_blank}
 
 **リテラル表現**
 
@@ -185,9 +189,9 @@ date("2024-02-19T00.00")
 
 **説明**
 
-タイムゾーンも考慮した日時定数。UTC からのオフセットを持つ日時を表します。
+タイムゾーンも考慮した日時定数。 UTC からのオフセットを持つ日時を表します。
 
-オフセットの追加情報を含んだある瞬間と見なすことができます。世界のある場所での特定の「瞬間」を表す手段になります。
+オフセットの追加情報を含んだある瞬間と見なすことができます。 世界のある場所での特定の「瞬間」を表す手段になります。
 
 JSON 形式：文字列
 
@@ -195,9 +199,9 @@ toDateTime 関数でカプセル化できます。
 
 シリアル化形式：ISO-8601 拡張オフセット日時形式。
 
-値の逆シリアル化とシリアル化に DateTimeFormatter ISO_OFFSET_DATE_TIME を使用します。[詳細情報](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME){_blank}
+値の逆シリアル化とシリアル化に DateTimeFormatter ISO_OFFSET_DATE_TIME を使用します。 [詳細情報](https://docs.oracle.com/javase/8/docs/api/java/time/format/DateTimeFormatter.html#ISO_OFFSET_DATE_TIME){_blank}
 
-エポック値を表す整数を渡すこともできます。[詳細情報](https://www.epochconverter.com){_blank}
+エポック値を表す整数を渡すこともできます。 [詳細情報](https://www.epochconverter.com){_blank}。
 
 タイムゾーンは、オフセットまたはタイムゾーンコード（例：Europe/Paris、Z は UTC を意味）で指定できます。
 
@@ -249,9 +253,9 @@ toDateTime(1560762190189)
 
 **説明**
 
-「34.5 秒」といった時間的間隔を表します。時間の長さをミリ秒単位でモデル化します。
+「34.5 秒」といった時間的間隔を表します。 時間の長さをミリ秒単位でモデル化します。
 
-サポートされている時間単位は、ミリ秒、秒、分、時間、日です（日は 24 時間に等しい）。年と月は一定の時間ではないので、サポートされていません。
+サポートされている時間単位は、ミリ秒、秒、分、時間、日です（日は 24 時間に等しい）。 年と月は一定の時間ではないので、サポートされていません。
 
 JSON 形式：文字列
 
@@ -259,7 +263,7 @@ toDuration 関数でカプセル化する必要があります。
 
 シリアル化形式：タイムゾーン ID を逆シリアル化するには、java 関数の java.time を使用します。
 
-Duration.parse：許可される形式は、ISO-8601 期間形式 PnDTnHnMn.nS に基づいており、日は正確に 24 時間と見なされます。[詳細情報](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-){_blank}
+Duration.parse：許可される形式は、ISO-8601 期間形式 PnDTnHnMn.nS に基づいており、日は正確に 24 時間と見なされます。 [詳細情報](https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html#parse-java.lang.CharSequence-){_blank}
 
 **リテラル表現**
 

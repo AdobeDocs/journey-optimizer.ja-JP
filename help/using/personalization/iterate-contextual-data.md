@@ -9,9 +9,16 @@ role: Developer
 level: Intermediate
 keywords: 式, エディター, Handlebars, 反復, 配列, コンテキスト, パーソナライゼーション
 exl-id: 1a7c490f-6490-4785-a44d-bddd5482754d
-source-git-commit: b6b74e357029f4924f9699c05af3a0fcd7fcefd6
+TQID: https://experienceleague.adobe.com/fOnI9VWpgrFCfUhnvkaiK-Ecsa-LOn8YJpdWZNnQilY
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '3040'
+source-wordcount: 3075
 ht-degree: 98%
 
 ---
@@ -22,7 +29,7 @@ Handlebars 反復構文を使用して、イベント、カスタムアクショ
 
 ## 概要 {#overview}
 
-Journey Optimizer では、[メッセージのパーソナライゼーション](personalize.md)中に複数のソースからのコンテキストデータにアクセスできます。ネイティブチャネル（[メール](../email/get-started-email-design.md)、[プッシュ](../push/create-push.md)、[SMS](../sms/create-sms.md)）で Handlebars 構文を使用して、これらのソースからの配列を反復処理し、製品リスト、レコメンデーション、その他の繰り返し要素などの動的コンテンツを表示できます。
+Journey Optimizer では、[メッセージのパーソナライゼーション](personalize.md)中に複数のソースからのコンテキストデータにアクセスできます。 ネイティブチャネル（[メール](../email/get-started-email-design.md)、[プッシュ](../push/create-push.md)、[SMS](../sms/create-sms.md)）で Handlebars 構文を使用して、これらのソースからの配列を反復処理し、製品リスト、レコメンデーション、その他の繰り返し要素などの動的コンテンツを表示できます。
 
 **使用可能なコンテキストソース：**
 
@@ -32,11 +39,11 @@ Journey Optimizer では、[メッセージのパーソナライゼーション]
 * **[技術プロパティ](#technical-properties)**：ジャーニー ID や補足識別子などのジャーニーメタデータ
 * **[ジャーニーコンテキスト](#other-contexts)**：実行中にアクセス可能なその他のジャーニー関連データ
 
-このガイドでは、メッセージ内の各ソースからの配列を反復処理する方法と、ジャーニーアクティビティを設定する際に配列を操作する方法について説明します。メッセージのパーソナライゼーションの基本を理解するには、[Handlebars 反復構文](#syntax)から始めるか、[ジャーニー式での配列の操作](#arrays-in-journeys)を参照して、配列データをカスタムアクションやデータセット参照に渡す方法を学んでください。
+このガイドでは、メッセージ内の各ソースからの配列を反復処理する方法と、ジャーニーアクティビティを設定する際に配列を操作する方法について説明します。 メッセージのパーソナライゼーションの基本を理解するには、[Handlebars 反復構文](#syntax)から始めるか、[ジャーニー式での配列の操作](#arrays-in-journeys)を参照して、配列データをカスタムアクションやデータセット参照に渡す方法を学んでください。
 
 ## Handlebars 反復構文 {#syntax}
 
-Handlebars には、配列を反復処理する `{{#each}}` [ヘルパー](functions/helpers.md)が用意されています。基本構文は次のとおりです。
+Handlebars には、配列を反復処理する `{{#each}}` [ヘルパー](functions/helpers.md)が用意されています。 基本構文は次のとおりです。
 
 ```handlebars
 {{#each arrayPath as |item|}}
@@ -54,11 +61,11 @@ Handlebars には、配列を反復処理する `{{#each}}` [ヘルパー](funct
 
 ## イベントデータの反復処理 {#event-data}
 
-イベントデータは、ジャーニーが[イベント](../event/about-events.md)によりトリガーされた際に使用できます。これは、買い物かごの内容、注文項目、フォームの送信など、ジャーニーが開始された時点でキャプチャされたデータを表示するのに役立ちます。
+イベントデータは、ジャーニーが[イベント](../event/about-events.md)によりトリガーされた際に使用できます。 これは、買い物かごの内容、注文項目、フォームの送信など、ジャーニーが開始された時点でキャプチャされたデータを表示するのに役立ちます。
 
 >[!TIP]
 >
->イベントデータを他のソースと組み合わせることができます。例について詳しくは、[複数のコンテキストソースの組み合わせ](#combine-sources)を参照してください。
+>イベントデータを他のソースと組み合わせることができます。 例について詳しくは、[複数のコンテキストソースの組み合わせ](#combine-sources)を参照してください。
 
 ### イベントのコンテキストパス
 
@@ -71,13 +78,13 @@ context.journey.events.<event_ID>.<fieldPath>
 
 >[!NOTE]
 >
->**数値イベント IDにはバックティックが必要です。** イベント IDが数値（例：`1697323153`）の場合、式パスでバックティック （`` ` ``）にラップします。 バックティックを使用しない場合、PQL パーサーは構文エラーを発生させます。
+>**数値イベント IDにはバックティックが必要です。** イベント IDが数値（例：`1697323153`）の場合は、式パスのバックティック （`` ` ``）でイベント IDをラップします。 バックティックを使用しない場合、PQL パーサーは構文エラーを発生させます。
 >
 >```handlebars
 >context.journey.events.`1697323153`.fieldName
 >```
 >
->詳細と、イベントタイムスタンプからの日付の書式設定を含む完全な例については、[&#x200B; コンテキストイベントからのタイムスタンプの書式設定](../personalization/functions/dates.md#format-date)を参照してください。
+>詳細と、イベントタイムスタンプからの日付の書式設定を含む完全な例については、[ コンテキストイベントからのタイムスタンプの書式設定](../personalization/functions/dates.md#format-date)を参照してください。
 
 ### 例：イベントからの買い物かご項目
 
@@ -120,11 +127,11 @@ context.journey.events.<event_ID>.<fieldPath>
 
 ## カスタムアクション応答の反復処理 {#custom-action-responses}
 
-[カスタムアクション](../action/about-custom-action-configuration.md)応答には、外部 API 呼び出しから返されたデータが含まれます。これは、ロイヤルティポイント、製品レコメンデーション、在庫ステータス、パーソナライズされたオファーなど、システムからのリアルタイム情報を表示するのに役立ちます。
+[カスタムアクション](../action/about-custom-action-configuration.md)応答には、外部 API 呼び出しから返されたデータが含まれます。 これは、ロイヤルティポイント、製品レコメンデーション、在庫ステータス、パーソナライズされたオファーなど、システムからのリアルタイム情報を表示するのに役立ちます。
 
 >[!NOTE]
 >
->この機能を使用するには、応答ペイロードを使用してカスタムアクションを設定する必要があります。詳しくは、[この節](../action/action-response.md#config-response)を参照してください。また、カスタムアクション応答をイベントデータやデータセット参照と組み合わせることもできます。例について詳しくは、[複数のコンテキストソースの組み合わせ](#combine-sources)を参照してください。
+>この機能を使用するには、応答ペイロードを使用してカスタムアクションを設定する必要があります。 詳しくは、[この節](../action/action-response.md#config-response)を参照してください。 また、カスタムアクション応答をイベントデータやデータセット参照と組み合わせることもできます。例について詳しくは、[複数のコンテキストソースの組み合わせ](#combine-sources)を参照してください。
 
 ### カスタムアクションのコンテキストパス
 
@@ -181,7 +188,7 @@ context.journey.actions.<actionName>.<fieldPath>
 
 ### 例：カスタムアクションからのネストされた配列
 
-ネストされた配列（各オブジェクトに別の配列が含まれるオブジェクトの配列）を含むカスタムアクション応答を反復処理するには、以下の例を参照してください。これは、ネストされた `{{#each}}` ループを使用して複数のレベルのデータにアクセスする方法を示しています。
+ネストされた配列（各オブジェクトに別の配列が含まれるオブジェクトの配列）を含むカスタムアクション応答を反復処理するには、以下の例を参照してください。 これは、ネストされた `{{#each}}` ループを使用して複数のレベルのデータにアクセスする方法を示しています。
 
 +++ サンプルコードを表示
 
@@ -254,7 +261,7 @@ context.journey.actions.<actionName>.<fieldPath>
 
 ## データセット参照結果の反復処理 {#dataset-lookup}
 
-[データセット参照アクティビティ](../building-journeys/dataset-lookup.md)を使用すると、ジャーニーの実行中に [Adobe Experience Platform データセット](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=ja){target="_blank"}からデータを取得できます。強化されたデータは、配列として保存され、メッセージ内で反復処理できます。
+[データセット参照アクティビティ](../building-journeys/dataset-lookup.md)を使用すると、ジャーニーの実行中に [Adobe Experience Platform データセット](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=ja){target="_blank"}からデータを取得できます。 強化されたデータは、配列として保存され、メッセージ内で反復処理できます。
 
 データセット参照アクティビティの設定について詳しくは、[この節](../building-journeys/dataset-lookup.md)を参照してください。 データセット参照は、イベントデータと組み合わせると特に強力です。実用的なユースケースについて詳しくは、[例：データセット参照を使用して強化されたイベントデータ](#combine-sources)を参照してください。
 
@@ -306,7 +313,7 @@ context.journey.datasetLookup.<activityID>.entities
 
 ### 例：データセットデータを使用してフィルタリングされた反復
 
-反復中にデータセット参照結果をフィルタリングし、特定の条件に一致する項目（例：特定のカテゴリからの製品）のみを表示するには、`{{#each}}` ループ内で条件付き `{{#if}}` ステートメントを使用します。以下の例を参照してください。
+反復中にデータセット参照結果をフィルタリングし、特定の条件に一致する項目（例：特定のカテゴリからの製品）のみを表示するには、`{{#each}}` ループ内で条件付き `{{#if}}` ステートメントを使用します。 以下の例を参照してください。
 
 +++ サンプルコードを表示
 
@@ -347,7 +354,7 @@ context.journey.datasetLookup.<activityID>.entities
 
 ## ジャーニーの技術プロパティの使用 {#technical-properties}
 
-ジャーニーの技術プロパティには、ジャーニー ID や補足識別子など、ジャーニー実行に関するメタデータへのアクセス権が用意されてします。これらは、反復パターンと組み合わせると、特に特定のジャーニーインスタンスに基づいて配列をフィルタリングする際に役立つ場合があります。
+ジャーニーの技術プロパティには、ジャーニー ID や補足識別子など、ジャーニー実行に関するメタデータへのアクセス権が用意されてします。 これらは、反復パターンと組み合わせると、特に特定のジャーニーインスタンスに基づいて配列をフィルタリングする際に役立つ場合があります。
 
 ### 使用可能な技術プロパティ
 
@@ -358,7 +365,7 @@ context.journey.technicalProperties.supplementalId
 
 ### 例：補足識別子を使用した配列項目のフィルタリング
 
-配列を含むイベントトリガージャーニーで補足識別子を使用する際は、フィルタリングして、現在のジャーニーインスタンスに関連する項目のみを表示できます。補足識別子について詳しくは、[このガイド](../building-journeys/supplemental-identifier.md)を参照してください。
+配列を含むイベントトリガージャーニーで補足識別子を使用する際は、フィルタリングして、現在のジャーニーインスタンスに関連する項目のみを表示できます。 補足識別子について詳しくは、[このガイド](../building-journeys/supplemental-identifier.md)を参照してください。
 
 **シナリオ**：複数の予約でジャーニーがトリガーされますが、このジャーニーインスタンスをトリガーした特定の予約（補足 ID で識別）の情報のみを表示する必要があります。
 
@@ -394,7 +401,7 @@ context.journey.technicalProperties.supplementalId
 
 ## 複数のコンテキストソースの組み合わせ {#combine-sources}
 
-様々なソースからのデータを同じメッセージに組み合わせて、リッチでパーソナライズされたエクスペリエンスを作成できます。この節では、複数のコンテキストソースを組み合わせて使用する実用的な例を示します。
+様々なソースからのデータを同じメッセージに組み合わせて、リッチでパーソナライズされたエクスペリエンスを作成できます。 この節では、複数のコンテキストソースを組み合わせて使用する実用的な例を示します。
 
 **組み合わせることができるコンテキストソース：**
 
@@ -500,7 +507,7 @@ context.journey.technicalProperties.supplementalId
 
 ## その他のコンテキストタイプ {#other-contexts}
 
-このガイドでは配列の反復処理に焦点を当てていますが、通常は反復を必要としないその他のコンテキストタイプもパーソナライゼーションに使用できます。これらは、ループ処理ではなく直接アクセスされます。
+このガイドでは配列の反復処理に焦点を当てていますが、通常は反復を必要としないその他のコンテキストタイプもパーソナライゼーションに使用できます。 これらは、ループ処理ではなく直接アクセスされます。
 
 * **[プロファイル属性](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target="_blank"}**（`profile.*`）：Adobe Experience Platform の個々のプロファイルフィールド
 * **[オーディエンス](../audience/about-audiences.md)**（`inAudience()`）：オーディエンスメンバーシップの確認
@@ -515,15 +522,15 @@ context.journey.technicalProperties.supplementalId
 
 ## ジャーニー式での配列の操作 {#arrays-in-journeys}
 
-前の節では、Handlebars を使用したメッセージのパーソナライゼーションでの配列の反復処理に焦点を当てていますが、ジャーニーアクティビティを設定する際にも配列を操作します。この節では、特にカスタムアクションにデータを渡す場合やデータセット参照で配列を使用する際に、ジャーニー式のイベントからの配列データを使用する方法について説明します。
+前の節では、Handlebars を使用したメッセージのパーソナライゼーションでの配列の反復処理に焦点を当てていますが、ジャーニーアクティビティを設定する際にも配列を操作します。 この節では、特にカスタムアクションにデータを渡す場合やデータセット参照で配列を使用する際に、ジャーニー式のイベントからの配列データを使用する方法について説明します。
 
 >[!IMPORTANT]
 >
->ジャーニー式では、Handlebars のパーソナライゼーションとは異なる構文が使用されます。ジャーニー設定（カスタムアクションのパラメーターや条件など）では、`first`、`all`、`serializeList` などの関数を含む[ジャーニー式エディター](../building-journeys/expression/expressionadvanced.md)を使用します。メッセージコンテンツでは、`{{#each}}` ループを含む Handlebars 構文を使用します。
+>ジャーニー式では、Handlebars のパーソナライゼーションとは異なる構文が使用されます。 ジャーニー設定（カスタムアクションのパラメーターや条件など）では、`first`、`all`、`serializeList` などの関数を含む[ジャーニー式エディター](../building-journeys/expression/expressionadvanced.md)を使用します。 メッセージコンテンツでは、`{{#each}}` ループを含む Handlebars 構文を使用します。
 
 ### カスタムアクションパラメーターへの配列値の受け渡し {#arrays-to-custom-actions}
 
-[カスタムアクション](../action/about-custom-action-configuration.md)を設定する際、多くの場合、イベント配列から値を抽出し、パラメーターとして渡す必要があります。この節では、一般的なパターンについて説明します。
+[カスタムアクション](../action/about-custom-action-configuration.md)を設定する際、多くの場合、イベント配列から値を抽出し、パラメーターとして渡す必要があります。 この節では、一般的なパターンについて説明します。
 
 コレクションを渡す方法について詳しくは、[カスタムアクションパラメーターへのコレクションの受け渡し](../building-journeys/collections.md#passing-collection)を参照してください。
 
@@ -605,8 +612,8 @@ serializeList(
 
 詳細情報：
 
-* [`all`](../building-journeys/expression/collection-management-functions.md)
-* [`serializeList`](../building-journeys/functions/list-functions.md#serializeList)
+* [`all` 関数](../building-journeys/expression/collection-management-functions.md)
+* [`serializeList` 関数](../building-journeys/functions/list-functions.md#serializeList)
 
 カスタムアクションのコレクション処理について詳しくは、[カスタムアクションパラメーターへのコレクションの受け渡し](../building-journeys/collections.md#passing-collection)を参照してください。
 
@@ -659,7 +666,7 @@ Journey Optimizer は、アクションペイロード構造に一致するオ�
 
 >[!NOTE]
 >
->イベント配列を操作する場合は、`currentEventField` を使用して各項目を参照します。データソースコレクション（Adobe Experience Platform）には、`currentDataPackField` を使用します。カスタムアクション応答コレクションには、`currentActionField` を使用します。
+>イベント配列を操作する場合は、`currentEventField` を使用して各項目を参照します。 データソースコレクション（Adobe Experience Platform）には、`currentDataPackField` を使用します。 カスタムアクション応答コレクションには、`currentActionField` を使用します。
 
 詳しくは、[カスタムアクションパラメーターへのコレクションの受け渡し](../building-journeys/collections.md#passing-collection)を参照してください。
 
@@ -681,7 +688,7 @@ Journey Optimizer は、アクションペイロード構造に一致するオ�
 list(@event{purchaseEvent.productListItems.SKU})
 ```
 
-これにより、データセットで参照するすべての SKU 値のリストが作成されます。結果は、`context.journey.datasetLookup.<activityID>.entities` の配列として使用でき、メッセージ内で反復処理できます（[データセット参照結果の反復処理](#dataset-lookup)を参照）。
+これにより、データセットで参照するすべての SKU 値のリストが作成されます。 結果は、`context.journey.datasetLookup.<activityID>.entities` の配列として使用でき、メッセージ内で反復処理できます（[データセット参照結果の反復処理](#dataset-lookup)を参照）。
 
 +++
 
@@ -691,7 +698,7 @@ list(@event{purchaseEvent.productListItems.SKU})
 
 #### ジャーニーフローで配列に動的なループはない
 
-ジャーニーでは、配列内の各項目に対して 1 つのアクションノードが複数回実行される動的なループを作成できません。これは、制御できないパフォーマンスの問題を防ぐことを目的としています。
+ジャーニーでは、配列内の各項目に対して 1 つのアクションノードが複数回実行される動的なループを作成できません。 これは、制御できないパフォーマンスの問題を防ぐことを目的としています。
 
 **実行できない内容**：
 
@@ -700,13 +707,13 @@ list(@event{purchaseEvent.productListItems.SKU})
 
 **代わりに推奨されるパターン**：
 
-1. **すべての項目を一度に送信**：配列全体またはシリアル化されたリストを、すべての項目を処理する単一のカスタムアクションに渡します。[配列からの値のリストの作成](#arrays-to-custom-actions)を参照してください。
+1. **すべての項目を一度に送信**：配列全体またはシリアル化されたリストを、すべての項目を処理する単一のカスタムアクションに渡します。 [配列からの値のリストの作成](#arrays-to-custom-actions)を参照してください。
 
 2. **外部集計を使用**：外部 API で複数の ID を受け入れ、1 回の呼び出しで組み合わされた結果を返すようにします。
 
 3. **AEP で事前計算**：[計算属性](../audience/computed-attributes.md)を使用して、プロファイルレベルで配列から値を事前計算します。
 
-4. **単一値の抽出**：必要な値が 1 つのみの場合は、`first` または `head` を使用して抽出します。詳しくは、[配列からの 1 つの値の抽出](#arrays-to-custom-actions)を参照してください。
+4. **単一値の抽出**：必要な値が 1 つのみの場合は、`first` または `head` を使用して抽出します。 詳しくは、[配列からの 1 つの値の抽出](#arrays-to-custom-actions)を参照してください。
 
 詳しくは、[ガードレールと制限](../start/guardrails.md)を参照してください。
 
@@ -826,7 +833,7 @@ list(@event{purchaseEvent.productListItems.SKU})
 
 ### わかりやすい変数名の使用
 
-反復処理している内容を明確に示す変数名を選択します。これにより、コードの読みやすさが向上し、維持が容易になります。詳しくは、[パーソナライゼーション構文](personalization-syntax.md)を参照してください。
+反復処理している内容を明確に示す変数名を選択します。 これにより、コードの読みやすさが向上し、維持が容易になります。 詳しくは、[パーソナライゼーション構文](personalization-syntax.md)を参照してください。
 
 +++ サンプルコードを表示
 
@@ -845,7 +852,7 @@ list(@event{purchaseEvent.productListItems.SKU})
 
 ### ループ内の式フラグメント
 
-`{{#each}}` ループ内で[式フラグメント](use-expression-fragments.md)を使用する際は、ループ範囲の変数をフラグメントパラメーターとして渡すことができないことに注意してください。ただし、フラグメントは、フラグメント外部のメッセージコンテンツで定義されているグローバル変数にアクセスできます。
+`{{#each}}` ループ内で[式フラグメント](use-expression-fragments.md)を使用する際は、ループ範囲の変数をフラグメントパラメーターとして渡すことができないことに注意してください。 ただし、フラグメントは、フラグメント外部のメッセージコンテンツで定義されているグローバル変数にアクセスできます。
 
 +++ サンプルコードを表示
 
@@ -883,7 +890,7 @@ list(@event{purchaseEvent.productListItems.SKU})
 
 ### 空の配列の処理
 
-配列が空の場合にフォールバックコンテンツを指定するには、 `{{else}}` 句を使用します。詳しくは、[ヘルパー関数](functions/helpers.md)を参照してください。
+配列が空の場合にフォールバックコンテンツを指定するには、 `{{else}}` 句を使用します。 詳しくは、[ヘルパー関数](functions/helpers.md)を参照してください。
 
 +++ サンプルコードを表示
 
@@ -958,11 +965,11 @@ Handlebars には、ループ内で高度な反復パターンを実行するの
 
 >[!NOTE]
 >
->これらの Handlebars 変数（`@index`、`@first`、`@last`）は、メッセージのパーソナライゼーションの `{{#each}}` ループ内でのみ使用できます。ジャーニー式で配列を操作する場合（カスタムアクションに渡す前に配列から最初の項目を取得するなど）は、[`head`](../personalization/functions/arrays-list.md#head)、[`first`](../building-journeys/expression/collection-management-functions.md)、[`all`](../building-journeys/expression/collection-management-functions.md) などの配列関数を使用します。詳しくは、[ジャーニー式での配列の操作](#arrays-in-journeys)を参照してください。
+>これらの Handlebars 変数（`@index`、`@first`、`@last`）は、メッセージのパーソナライゼーションの `{{#each}}` ループ内でのみ使用できます。 ジャーニー式で配列を操作する場合（カスタムアクションに渡す前に配列から最初の項目を取得するなど）は、[`head`](../personalization/functions/arrays-list.md#head)、[`first`](../building-journeys/expression/collection-management-functions.md)、[`all`](../building-journeys/expression/collection-management-functions.md) などの配列関数を使用します。 詳しくは、[ジャーニー式での配列の操作](#arrays-in-journeys)を参照してください。
 
 ## トラブルシューティング {#troubleshooting}
 
-反復に問題がありますか？この節では、一般的な問題と解決策について説明します。
+反復に問題がありますか？ この節では、一般的な問題と解決策について説明します。
 
 ### 配列に表示されない
 
@@ -977,7 +984,7 @@ Handlebars には、ループ内で高度な反復パターンを実行するの
    * [カスタムアクション](#custom-action-responses)の場合：`context.journey.actions.<actionName>.<fieldPath>`
    * [データセット参照](#dataset-lookup)の場合：`context.journey.datasetLookup.<activityID>.entities`
 
-2. **配列が空である**：`{{else}}` 句を追加して、配列にデータがないかどうかを確認します。例について詳しくは、[ベストプラクティス](#best-practices)を参照してください。
+2. **配列が空である**：`{{else}}` 句を追加して、配列にデータがないかどうかを確認します。 例について詳しくは、[ベストプラクティス](#best-practices)を参照してください。
 
 3. **データがまだ使用できない**：ジャーニーフロー内のメッセージアクティビティの前に、カスタムアクション、イベント、データセット参照アクティビティが実行されていることを確認します。
 
@@ -991,8 +998,8 @@ Handlebars には、ループ内で高度な反復パターンを実行するの
 
 **一般的なミス**：
 
-* 終了タグが欠落している：すべての `{{#each}}` には `{{/each}}` が必要です。適切な構造について詳しくは、[Handlebars 反復構文](#syntax)を参照してください。
-* 変数名が正しくない：ブロック全体で変数名を一貫して使用します。命名規則について詳しくは、[ベストプラクティス](#best-practices)を参照してください。
+* 終了タグが欠落している：すべての `{{#each}}` には `{{/each}}` が必要です。 適切な構造について詳しくは、[Handlebars 反復構文](#syntax)を参照してください。
+* 変数名が正しくない：ブロック全体で変数名を一貫して使用します。 命名規則について詳しくは、[ベストプラクティス](#best-practices)を参照してください。
 * パス区切り文字が正しくない：スラッシュやその他の文字ではなく、ドット（`.`）を使用します
 
 +++
@@ -1005,7 +1012,7 @@ Handlebars には、ループ内で高度な反復パターンを実行するの
 
 **考えられる原因と解決策**：
 
-1. **ループ変数をパラメーターとして渡そうとしている**：式フラグメントは、ループ範囲の変数（現在の反復項目など）をパラメーターとして受け取ることができません。これは既知の制限です。
+1. **ループ変数をパラメーターとして渡そうとしている**：式フラグメントは、ループ範囲の変数（現在の反復項目など）をパラメーターとして受け取ることができません。 これは既知の制限です。
 
    **解決策**：次のいずれかの回避策を使用します。
 
@@ -1015,7 +1022,7 @@ Handlebars には、ループ内で高度な反復パターンを実行するの
 
 2. **フラグメントが使用できないパラメーターを想定している**：フラグメントが特定の入力パラメーターを受け取るようにデザインされた場合、これらのパラメーターをループ内から渡すことができないと、フラグメントは正しく動作しません。
 
-   **解決策**：フラグメントがアクセスできるグローバル変数を使用するようにアプローチを再構築します。例について詳しくは、[ベストプラクティス - ループ内の式フラグメント](#best-practices)を参照してください。
+   **解決策**：フラグメントがアクセスできるグローバル変数を使用するようにアプローチを再構築します。 例について詳しくは、[ベストプラクティス - ループ内の式フラグメント](#best-practices)を参照してください。
 
 3. **変数範囲が正しくない**：フラグメントが、ループ範囲内にのみ存在する変数を参照しようとしている可能性があります。
 
@@ -1040,12 +1047,12 @@ Handlebars には、ループ内で高度な反復パターンを実行するの
 
 ## 関連トピック {#related-topics}
 
-**パーソナライゼーションの基本：**&#x200B;[パーソナライゼーションの基本を学ぶ](personalize.md) | [パーソナライゼーションの追加](personalization-build-expressions.md) | [パーソナライゼーション構文](personalization-syntax.md) | [ヘルパー関数](functions/helpers.md) | [条件付きルールの作成](create-conditions.md)
+**パーソナライゼーションの基本：**[パーソナライゼーションの基本を学ぶ](personalize.md) | [パーソナライゼーションの追加](personalization-build-expressions.md) | [パーソナライゼーション構文](personalization-syntax.md) | [ヘルパー関数](functions/helpers.md) | [条件付きルールの作成](create-conditions.md)
 
-**ジャーニー設定：**&#x200B;[イベントについて](../event/about-events.md) | [カスタムアクションの設定](../action/about-custom-action-configuration.md) | [カスタムアクションパラメーターへのコレクションの受け渡し](../building-journeys/collections.md#passing-collection) | [カスタムアクションでの API 呼び出し応答の使用](../action/action-response.md) | [カスタムアクションのトラブルシューティング](../action/troubleshoot-custom-action.md) | [ジャーニーでの Adobe Experience Platform データの使用](../building-journeys/dataset-lookup.md) | [ジャーニーでの補助識別子の使用](../building-journeys/supplemental-identifier.md) | [ガードレールと制限](../start/guardrails.md) | [ジャーニーのテスト](../building-journeys/testing-the-journey.md)
+**ジャーニー設定：**[イベントについて](../event/about-events.md) | [カスタムアクションの設定](../action/about-custom-action-configuration.md) | [カスタムアクションパラメーターへのコレクションの受け渡し](../building-journeys/collections.md#passing-collection) | [カスタムアクションでの API 呼び出し応答の使用](../action/action-response.md) | [カスタムアクションのトラブルシューティング](../action/troubleshoot-custom-action.md) | [ジャーニーでの Adobe Experience Platform データの使用](../building-journeys/dataset-lookup.md) | [ジャーニーでの補助識別子の使用](../building-journeys/supplemental-identifier.md) | [ガードレールと制限](../start/guardrails.md) | [ジャーニーのテスト](../building-journeys/testing-the-journey.md)
 
-**ジャーニー式関数：**&#x200B;[高度な式エディター](../building-journeys/expression/expressionadvanced.md) | [コレクション管理関数](../building-journeys/expression/collection-management-functions.md)（first、all、last） | [リスト関数](../building-journeys/functions/list-functions.md)（serializeList、filter、sort） | [配列関数](../personalization/functions/arrays-list.md)（head、tail）
+**ジャーニー式関数：**[高度な式エディター](../building-journeys/expression/expressionadvanced.md) | [コレクション管理関数](../building-journeys/expression/collection-management-functions.md)（first、all、last） | [リスト関数](../building-journeys/functions/list-functions.md)（serializeList、filter、sort） | [配列関数](../personalization/functions/arrays-list.md)（head、tail）
 
-**パーソナライゼーションのユースケース：**&#x200B;[買い物かご放棄メール](personalization-use-case-helper-functions.md) | [注文ステータス通知](personalization-use-case.md)
+**パーソナライゼーションのユースケース：**[買い物かご放棄メール](personalization-use-case-helper-functions.md) | [注文ステータス通知](personalization-use-case.md)
 
-**メッセージデザイン：**&#x200B;[メールデザインの基本を学ぶ](../email/get-started-email-design.md) | [プッシュ通知の作成](../push/create-push.md) | [SMS メッセージの作成](../sms/create-sms.md) | [コンテンツのプレビューとテスト](../content-management/preview-test.md)
+**メッセージデザイン：**[メールデザインの基本を学ぶ](../email/get-started-email-design.md) | [プッシュ通知の作成](../push/create-push.md) | [SMS メッセージの作成](../sms/create-sms.md) | [コンテンツのプレビューとテスト](../content-management/preview-test.md)

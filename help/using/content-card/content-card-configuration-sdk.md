@@ -1,23 +1,29 @@
 ---
 title: コンテンツカード設定 Web SDK
-description: Web SDK でのコンテンツカードのサポートの設定
+description: Web SDK でのコンテンツカードのサポート設定
 feature: Channel Configuration, Content Cards
 topic: Content Management
 role: Admin
 level: Experienced
 exl-id: bb67b55f-2eac-4775-a9f5-78288009477e
-source-git-commit: 37862682a25843ce138c076e443f6d9b6229ece3
+TQID: https://experienceleague.adobe.com/g6SvbQdYTKgvcbEggw4RmjGY-25x7Abm-byZ4UqT4NE
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: bc543dba-f0db-4234-b5da-877a5c1664e2id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: 509
 ht-degree: 100%
 
 ---
 
-# Web SDK でのコンテンツカードのサポートの設定 {#content-card-configuration-sdk}
+# Web SDK でのコンテンツカードのサポート設定 {#content-card-configuration-sdk}
 
-このサンプルでは、Adobe Experience Platform を使用して Adobe Journey Optimizer（AJO）からコンテンツカードを取得する方法を示します。[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/home) を活用すると、パーソナリゼーションコンテンツが取得され、完全にクライアントサイドでレンダリングされます。
+このサンプルでは、Adobe Experience Platform を使用して Adobe Journey Optimizer（AJO）からコンテンツカードを取得する方法を示します。 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/home) を活用すると、パーソナリゼーションコンテンツが取得され、完全にクライアントサイドでレンダリングされます。
 
-ページの初回読み込み時に、ページにはデフォルトの状態が表示されます。ただし、「**入金**」または「**ソーシャルメディアで共有**」ボタンを操作すると、追加のコンテンツカードが表示されます。これらのカードはクライアントサイドの条件によってトリガーされ、特定のアクションが実行された場合にのみ表示されます。
+ページの初回読み込み時に、ページにはデフォルトの状態が表示されます。 ただし、「**入金**」または「**ソーシャルメディアで共有**」ボタンを操作すると、追加のコンテンツカードが表示されます。 これらのカードはクライアントサイドの条件によってトリガーされ、特定のアクションが実行された場合にのみ表示されます。
 
 ![](assets/content-card-web-1.png)
 
@@ -25,10 +31,10 @@ ht-degree: 100%
 
 >[!PREREQUISITES]
 >
->node と npm をインストールする必要があります。[詳しくは、このドキュメントを参照してください。](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+>node と npm をインストールする必要があります。 [詳しくは、このドキュメントを参照してください。](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
 
-1. HTTPS 用のローカル SSL 証明書を設定します。これらのサンプルでは、HTTPS 経由でのコンテンツの提供に、ローカルに署名された SSL 証明書が必要です。
+1. HTTPS 用のローカル SSL 証明書を設定します。 これらのサンプルでは、HTTPS 経由でのコンテンツの提供に、ローカルに署名された SSL 証明書が必要です。
 
    1. コンピューターに `mkcert` をインストールします。
 
@@ -72,7 +78,7 @@ ht-degree: 100%
    });
    ```
 
-1. `subscribeRulesetItems` コマンドを使用して、特定のサーフェスのコンテンツカードをサブスクライブします。ルールセットが評価されるたびに、コールバックで結果オブジェクトを処理します。その中にはコンテンツカードデータとともに `propositions` が含まれます。
+1. `subscribeRulesetItems` コマンドを使用して、特定のサーフェスのコンテンツカードをサブスクライブします。 ルールセットが評価されるたびに、コールバックで結果オブジェクトを処理します。その中にはコンテンツカードデータとともに `propositions` が含まれます。
 
    ```
    const contentCardManager = createContentCardManager("content-cards");
@@ -87,7 +93,7 @@ ht-degree: 100%
    });
    ```
 
-1. コンテンツカードのレンダリングを管理し、`script.js` にある `contentCardsManager` オブジェクトを使用して `interact` および `display` イベントを送信します。受信した提案からコンテンツカードを抽出、並べ替え、処理します。
+1. コンテンツカードのレンダリングを管理し、`script.js` にある `contentCardsManager` オブジェクトを使用して `interact` および `display` イベントを送信します。 受信した提案からコンテンツカードを抽出、並べ替え、処理します。
 
    ```
    const createContentCard = (proposition, item) => {
@@ -129,7 +135,7 @@ ht-degree: 100%
    const contentCards = extractContentCards(propositions);
    ```
 
-1. キャンペーンごとに定義された詳細に基づいてコンテンツカードをレンダリングします。各カードには、`title`、`body`、`imageUrl` およびその他のカスタムデータ値が含まれます。
+1. キャンペーンごとに定義された詳細に基づいてコンテンツカードをレンダリングします。 各カードには、`title`、`body`、`imageUrl` およびその他のカスタムデータ値が含まれます。
 
    ```
    const renderContentCards = () => {
@@ -164,7 +170,7 @@ ht-degree: 100%
    };
    ```
 
-1. `subscribeRulesetItems` コールバックが呼び出されると、`collectEvent` という便利な関数も提供されます。この関数は、Experience Edge イベントを送信して、インタラクション、ディスプレイ、その他のユーザーアクションをトラッキングするのに使用されます。この例では、コンテンツカードがクリックされた際に collectEvent が追跡します。さらに、コンテンツカードのボタンがクリックされると、キャンペーンで指定された `actionUrl` にブラウザーが移動します。
+1. `subscribeRulesetItems` コールバックが呼び出されると、`collectEvent` という便利な関数も提供されます。 この関数は、Experience Edge イベントを送信して、インタラクション、ディスプレイ、その他のユーザーアクションをトラッキングするのに使用されます。 この例では、コンテンツカードがクリックされた際に collectEvent が追跡します。 さらに、コンテンツカードのボタンがクリックされると、キャンペーンで指定された `actionUrl` にブラウザーが移動します。
 
    ```
    const handleContentCardClick = (evt) => {
@@ -198,11 +204,11 @@ ht-degree: 100%
 
 ### personalizationStorageEnabled
 
-`configure` コマンドで `personalizationStorageEnabled` オプションを `true` に設定します。これにより、以前に認定されたコンテンツカードが確実に保存され、ユーザーセッションをまたいで引き続き表示されます。
+`configure` コマンドで `personalizationStorageEnabled` オプションを `true` に設定します。 これにより、以前に認定されたコンテンツカードが確実に保存され、ユーザーセッションをまたいで引き続き表示されます。
 
 ### トリガー
 
-コンテンツカードは、クライアントサイドで評価されるカスタムトリガーをサポートします。トリガーのルールが満たされると、追加のコンテンツカードが表示されます。このサンプルでは、4 つの異なるキャンペーン（コンテンツカードごとに 1 つ）を使用し、すべて同じサーフェスを共有します：`web://alloy-samples.adobe.com/#content-cards-sample`。次の表に、各キャンペーンのトリガールールとそれを満たす方法の概要を示します。
+コンテンツカードは、クライアントサイドで評価されるカスタムトリガーをサポートします。 トリガーのルールが満たされると、追加のコンテンツカードが表示されます。 このサンプルでは、4 つの異なるキャンペーン（コンテンツカードごとに 1 つ）を使用し、すべて同じサーフェスを共有します：`web://alloy-samples.adobe.com/#content-cards-sample`。 次の表に、各キャンペーンのトリガールールとそれを満たす方法の概要を示します。
 
 <table>
     <tr>
@@ -213,12 +219,12 @@ ht-degree: 100%
     <tr>
         <td>なし</td>
         <td><img src="assets/content-card-web-2.png"></td>
-        <td>sendEvent コマンド。満たすクライアントサイドのルールがありません。</td>
+        <td>sendEvent コマンド。 満たすクライアントサイドのルールがありません。</td>
     </tr>
     <tr>
         <td>なし</td>
         <td><img src="assets/content-card-web-3.png"></td>
-        <td>sendEvent コマンド。満たすクライアントサイドのルールがありません。</td>
+        <td>sendEvent コマンド。 満たすクライアントサイドのルールがありません。</td>
     </tr>
     <tr>
         <td><img src="assets/content-card-web-4.png"></td>
@@ -232,7 +238,7 @@ ht-degree: 100%
     </tr>
 </table>
 
-「入金」および「ソーシャルメディアで共有」ボタンをクリックすると、`evaluateRulesets` コマンドがトリガーされます。各ボタンは、キャンペーンごとに定義されたルールを満たすのに関連する `decisionContext` を指定します。
+「入金」および「ソーシャルメディアで共有」ボタンをクリックすると、`evaluateRulesets` コマンドがトリガーされます。 各ボタンは、キャンペーンごとに定義されたルールを満たすのに関連する `decisionContext` を指定します。
 
 ```
 document.getElementById("action-button-1").addEventListener("click", () => {

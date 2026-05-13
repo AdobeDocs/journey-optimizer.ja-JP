@@ -10,9 +10,16 @@ level: Intermediate
 keywords: ジャーニー, 統合, 標準, キャンペーン, ACS
 exl-id: 50565cd9-7415-4c6a-9651-24fefeded3f5
 version: Journey Orchestration
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/spxxZT-JH5yzziL8-oSkJdBcKEppm-4ZzeLC2-laCaM
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: 981
 ht-degree: 78%
 
 ---
@@ -36,7 +43,7 @@ ht-degree: 78%
 >
 >Journey Optimizer で使用するには、Campaign Standard トランザクションメッセージとそれに関連するイベントを公開する必要があります。 イベントが公開されてもメッセージが表示されない場合、Journey Optimizer インターフェイスには表示されません。 メッセージが公開されても、関連するイベントが公開されなかった場合、Journey Optimizer インターフェイスには表示されますが、使用はできません。
 
-ジャーニー![&#128279;](assets/journey59.png)の[!DNL Adobe Campaign]標準アクション設定
+ジャーニー](assets/journey59.png)の![[!DNL Adobe Campaign]標準アクション設定
 
 イベント（リアルタイムとも呼ばれます）またはプロファイルトランザクションメッセージテンプレートを使用できます。
 
@@ -55,7 +62,7 @@ ht-degree: 78%
 >[!NOTE]
 >
 >メールにプロファイルのトランザクションテンプレートを使用する場合、購読解除メカニズムは[!DNL Adobe Campaign] Standardによって自動的に処理されます。
->[&#x200B; トランザクションメールテンプレート &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=ja)内に&#x200B;**[!UICONTROL 購読解除リンク]** コンテンツブロックを含めます。
+>[ トランザクションメールテンプレート ](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/transactional-messaging/getting-started-with-transactional-msg.html?lang=ja)内に&#x200B;**[!UICONTROL 購読解除リンク]** コンテンツブロックを含めます。
 >イベントベースのテンプレート（rtEvent）を使用している場合は、受信者の電子メールをURL パラメーターとして渡し、購読解除ランディングページに誘導するリンクをメッセージに組み込みます。
 >ランディングページを作成し、受信者の配信停止の決定がAdobeに送信されるようにします。
 

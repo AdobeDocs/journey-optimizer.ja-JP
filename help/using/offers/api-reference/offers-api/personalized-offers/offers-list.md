@@ -2,7 +2,7 @@
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: パーソナライズされたオファーのリスト
-description: パーソナライズされたオファーは、実施要件ルールおよび制約に基づいてカスタマイズできるマーケティングメッセージです。
+description: パーソナライズされたオファーとは、適格性ルールと制約にもとづいてカスタマイズ可能なマーケティングメッセージです。
 feature: Decision Management, API
 badge: label="レガシー" type="Informative"
 topic: Integrations
@@ -10,35 +10,38 @@ role: Developer
 level: Experienced
 exl-id: 45d51918-1106-4b6b-b383-8ab4d9a4f7af
 version: Journey Orchestration
-source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
+TQID: https://experienceleague.adobe.com/C-mqINvpBXkibO7Tl8VNg0iuufoXlpqEdij4kPkpQmo
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: c132d929-fa62-4271-803e-b823be07b914id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 100%
+source-wordcount: 299
+ht-degree: 0%
 
 ---
-
 
 # パーソナライズされたオファーのリスト {#list-personalized-offers}
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer]の新しい決定機能である決定機能が、コードベースのエクスペリエンスとメールチャネルで利用できるようになりました。 [詳細情報](../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
-パーソナライズされたオファーは、実施要件ルールおよび制約に基づいてカスタマイズできるマーケティングメッセージです。
+パーソナライズされたオファーとは、適格性ルールと制約にもとづいてカスタマイズ可能なマーケティングメッセージです。
 
-[!DNL Offer Library] API に対して単一の GET リクエストを実行することで、すべてのパーソナライズされたオファーのリストを表示できます。
+[!DNL Offer Library] APIに対して1回のGET リクエストを実行すると、すべてのパーソナライズされたオファーのリストを表示できます。
 
-**API 形式**
+**API形式**
 
 ```http
 GET /{ENDPOINT_PATH}/offers?offer-type=personalized&{QUERY_PARAMS}
 ```
 
-| パラメーター | 説明 | 例 |
+| パラメーター | 効果 | 例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 永続性 API のエンドポイントパス。 | `https://platform.adobe.io/data/core/dps` |
-| `{QUERY_PARAMS}` | 結果をフィルタリングする条件となるクエリパラメーター（オプション）。 | `limit=2` |
+| `{ENDPOINT_PATH}` | 永続性APIのエンドポイントパス。 | `https://platform.adobe.io/data/core/dps` |
+| `{QUERY_PARAMS}` | 結果をフィルタリングするオプションのクエリパラメーター。 | `limit=2` |
 
 **リクエスト**
 
@@ -53,21 +56,21 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offers?offer-type=personali
 
 ## クエリパラメーターの使用 {#using-query-parameters}
 
-リソースを一覧表示する際に、クエリパラメーターを使用して結果をページングおよびフィルタリングできます。
+クエリパラメーターを使用すると、リソースのリスト時に結果をページ化およびフィルタリングできます。
 
 ### ページング {#paging}
 
-ページングに最も一般的なクエリパラメーターは次のとおりです。
+ページングの最も一般的なクエリパラメーターは次のとおりです。
 
-| パラメーター | 説明 | 例 |
+| パラメーター | 効果 | 例 |
 | --------- | ----------- | ------- |
-| `property` | オプションのプロパティフィルターは次のとおりです。 <ul><li>プロパティは AND 演算でグループ化されます。</li><li>パラメーターは、property={PROPERTY_EXPR}[&amp;property={PROPERTY_EXPR2}...] または property={PROPERTY_EXPR1}[,{PROPERTY_EXPR2}...] のように繰り返すことができます。</li><li>プロパティ式は `[!]field[op]value` の形式を使用（`[==,!=,<=,>=,<,>,~]` に `op`）し、正規表現をサポートします。</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
-| `orderBy` | 特定のプロパティで結果を並べ替えます。名前の前に - を追加すると（orderby=-name）、名前の降順（Z ～ A）で項目が並べ替えられます。パス式は、ドット区切りのパスの形式です。このパラメーターは、`orderby=field1[,-fields2,field3,...]` のように繰り返すことができます。 | `orderby=id`、`-name` |
+| `property` | オプションのプロパティフィルター： <ul><li>プロパティはAND操作でグループ化されます。</li><li>パラメーターは、次のように繰り返すことができます。property={PROPERTY_EXPR}[&amp;property={PROPERTY_EXPR2}...]、property={PROPERTY_EXPR1}[,{PROPERTY_EXPR2}...]</li><li>プロパティ式の形式は`[!]field[op]value`で、正規表現をサポートする`[==,!=,<=,>=,<,>,~]`の`op`です。</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
+| `orderBy` | 特定のプロパティで結果を並べ替えます。 名前の前に – を追加すると（orderby=-name）、項目が名前で降順に並べ替えられます（Z-A）。 パス式は、ドット区切りのパスの形式です。 このパラメーターは次のように繰り返すことができます。`orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name` |
 | `limit` | 返されるプレースメントの数を制限します。 | `limit=5` |
 
 **応答**
 
-応答が成功すると、存在するアクセス可能なパーソナライズされたオファーのリストが返されます。
+応答が成功すると、現在のパーソナライズされたオファーと、アクセス可能なオファーのリストが返されます。
 
 ```json
 {
@@ -137,7 +140,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offers?offer-type=personali
 }
 ```
 
-応答に複数のパーソナライズされたオファーがない場合、ページネーションを実行します。
+複数のパーソナライズされたオファーが応答に含まれていない場合は、ページ分割を実行します。
 
 **応答**
 
@@ -159,14 +162,14 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offers?offer-type=personali
     }
 ```
 
-| 指標 | 説明 |
+| 指標 | 効果 |
 |---------|-------------|
 | `total` | パーソナライズされたオファーの数。 |
-| `count` | この応答で返されたオファーの数。 |
+| `count` | この応答で返されるオファーの数。 |
 
-`/offers?orderby=-modified&limit=2&start={TIMESTAMP}&offer-type=PERSONALIZED` などのエンドポイントを `_links.next.href` から取得し、API に追加します。
+`/offers?orderby=-modified&limit=2&start={TIMESTAMP}&offer-type=PERSONALIZED`など`_links.next.href`からエンドポイントを取得し、APIに追加します。
 
-**API 形式**
+**API形式**
 
 ```http
 GET /{ENDPOINT_PATH}/offers?orderby=-modified&limit=2&start={TIMESTAMP}&offer-type=PERSONALIZED
@@ -187,7 +190,7 @@ GET /{ENDPOINT_PATH}/offers?orderby=-modified&limit=2&start={TIMESTAMP}&offer-ty
 }
 ```
 
-同様に、最初のページではなく、パーソナライズされたオファーの前のページを取得する必要がある場合は、`_links.prev` の `href` 値を使用します。次の例に示すように、URL にリクエストを送信して、以前の結果セットを取得します。
+同様に、最初のページにアクセスしておらず、パーソナライズされたオファーの前のページを取得する必要がある場合は、`_links.prev`から`href`値を使用します。 次の例に示すように、URLにリクエストを実行して、以前の結果セットを取得します。
 
 **応答**
 

@@ -5,13 +5,15 @@ title: 重複排除 - 重複アクティビティの使用
 description: 重複排除 - 重複アクティビティの使用方法について説明します
 exl-id: 4aa79448-f75a-48d5-8819-f4cb4baad5c7
 version: Campaign Orchestration
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/JyOhHRf04YYgLLtThIu6oK68UGmztfgiKhXME-cYJ6c
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: 614
 ht-degree: 100%
 
 ---
-
 
 # 重複の除外 {#deduplication}
 

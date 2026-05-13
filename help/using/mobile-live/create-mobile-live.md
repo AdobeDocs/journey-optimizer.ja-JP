@@ -7,10 +7,17 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 9864a136-e129-4279-bb09-081b72f584df
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+TQID: https://experienceleague.adobe.com/orXAhry8onHXUejP5pzOyHdKbAcD8fiDmvRk-s74xLo
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 63%
+source-wordcount: 421
+ht-degree: 69%
 
 ---
 
@@ -155,10 +162,10 @@ ht-degree: 63%
 
 >[!TIP]
 >
->ライブ アクティビティが期待どおりに表示されない、または更新されない場合は、ステップバイステップのデバッグガイダンスについては、[&#x200B; ライブ アクティビティのトラブルシューティング &#x200B;](troubleshoot-mobile-live.md)を参照してください。
+>ライブ アクティビティが期待どおりに表示されない、または更新されない場合は、ステップバイステップのデバッグガイダンスについては、[ ライブ アクティビティのトラブルシューティング ](troubleshoot-mobile-live.md)を参照してください。
 
 ## チュートリアルビデオ
 
-Adobe Journey Optimizerを使用してiOSのライブアクティビティを設定し、iPhoneのロック画面とダイナミックアイランドでリッチなリアルタイム更新を配信する方法を説明します。
+iOS ライブアクティビティを Adobe Journey Optimizer と連携して設定し、iPhone のロック画面と Dynamic Island でリッチなリアルタイム更新を提供する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3479865?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3479864)

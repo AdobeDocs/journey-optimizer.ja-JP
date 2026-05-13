@@ -6,9 +6,14 @@ role: User
 level: Intermediate
 exl-id: 73548973-ff8d-4d6c-b383-dd3679fa159a
 version: Journey Orchestration
-source-git-commit: 5be6ecd85b0b45e01f7a27e0ffc55a2c6a22bcea
+TQID: https://experienceleague.adobe.com/oTljriepwffzR-LIAc2kWjTQx9Oj0QMgJpbghkSEsmY
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: d556b755-390a-43f0-be32-a08cf6236126
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: 265
 ht-degree: 83%
 
 ---
@@ -31,23 +36,23 @@ ht-degree: 83%
 
 | ガードレール | 上限 |
 | ------- | ------- |
-| 決定項目の合計 | 10K |
-| 属性を含む項目の最大サイズ （1 KB）、最大 30 属性 | 1KB |
-| 頻度ルール – 決定項目あたりのキャッピングルールの最大数 | 10 |
+| 決定項目合計 | 10K |
+| 属性を含む最大アイテム数（1KB）、最大30個の属性 | 1KB |
+| 頻度ルール – 決定項目ごとのキャッピングルールの最大数 | 10 |
 
 ## 項目コレクション {#item-collections}
 
 | ガードレール | 上限 |
 | ------- | ------- |
 | 項目コレクション | 10K |
-| コレクションあたりの決定項目総数 | 500 |
+| コレクションごとの決定項目の合計 | 500 |
 
 ## 決定ポリシー {#decision-policy}
 
 | ガードレール | 上限 |
 | ------- | ------- |
 | 決定ポリシーごとの選択戦略と手動項目の数 | 10 |
-| 決定ポリシーごとに返される決定項目の最大数 | 30 |
+| 決定ポリシーごとに返される最大決定項目 | 30 |
 
 ## 実施要件ルール {#eligibility-rules}
 
@@ -72,11 +77,11 @@ ht-degree: 83%
 
 | ガードレール | 上限 |
 | ------- | ------- |
-| 項目カタログスキーマあたりのカスタム属性の数 | 100 |
+| アイテム カタログ スキーマごとのカスタム属性の数 | 100 |
 | プレースメントの合計 | 1K |
 | AI ランキングモデル | 5 |
 
-## 設定  {#configurations}
+## 設定 {#configurations}
 
 決定がサポートする設定の合計数は、20,000 を超えることはできません。
 

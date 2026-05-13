@@ -8,13 +8,18 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 327de13a-1c99-4d5e-86cf-8180fb7aaf23
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+TQID: https://experienceleague.adobe.com/c-4sdq-7wSKY9acayaNE3RO5fTO7yqX-Ve3eZhR0qqs
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a653cc2e-bc85-4353-a306-399e5b247978id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: d595a60b-bcf5-4a63-a189-66a0be755cc7id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: 232
 ht-degree: 96%
 
 ---
-
 
 # コンテンツテンプレートの基本を学ぶ {#content-templates}
 
@@ -48,4 +53,4 @@ ht-degree: 96%
 
 [!DNL Journey Optimizer] でコンテンツテンプレートを作成、編集、使用する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3418587/?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3413743/?quality=12)

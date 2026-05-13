@@ -8,26 +8,32 @@ level: Experienced
 keywords: inAudience, 関数, 式, ジャーニー, オーディエンス, セグメント化
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 version: Journey Orchestration
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+TQID: https://experienceleague.adobe.com/DU8HtduB2-GmakiaHBMFU1vzBBPoVTNvrOCPWQrr5SU
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 80%
+source-wordcount: 754
+ht-degree: 79%
 
 ---
 
 # inAudience 関数 {#inAudience}
 
-`inAudience` 関数は、ジャーニー内の個人が特定のオーディエンスに属しているかどうかを確認できる Adobe Experience Platform 関数です。この強力な関数により、オーディエンスメンバーシップに基づいてパーソナライズされたジャーニーパスを作成し、カスタマーエクスペリエンス内での高度なセグメント化とターゲティングが可能になります。
+`inAudience` 関数は、ジャーニー内の個人が特定のオーディエンスに属しているかどうかを確認できる Adobe Experience Platform 関数です。 この強力な関数により、オーディエンスメンバーシップに基づいてパーソナライズされたジャーニーパスを作成し、カスタマーエクスペリエンス内での高度なセグメント化とターゲティングが可能になります。
 
 `inAudience` 関数は、次の操作が必要な場合に使用します。
 
-* オーディエンスメンバーシップに基づいてジャーニーパスを分岐。[詳細情報](../conditions.md#using-a-segment)
+* オーディエンスメンバーシップに基づいてジャーニーパスを分岐。 [詳細情報](../conditions.md#using-a-segment)
 * プロファイルが特定のセグメントに属しているかどうかに応じて条件付きロジックを適用
 * パーソナライズされたエクスペリエンスで特定の顧客グループをターゲット
 * ジャーニー条件内でリアルタイムのオーディエンスのパーティシペーションを評価
 * 複数のオーディエンスチェックを組み合わせて、複雑なターゲティングルールを作成
 
-この関数は、オーディエンスメンバーシップをリアルタイムで評価し、ブール値を返すので、決定ノードや条件式に最適です。オーディエンスは [Adobe Experience Platform](https://platform.adobe.com/audience/overview){target="_blank"} で定義および管理され（詳しくは、Journey Optimizer での[オーディエンスの操作](../../audience/about-audiences.md)を参照）、式エディターでは、オーディエンスを正確に参照できるようにオートコンプリートの候補が表示されます。
+この関数は、オーディエンスメンバーシップをリアルタイムで評価し、ブール値を返すので、決定ノードや条件式に最適です。 オーディエンスは [Adobe Experience Platform](https://platform.adobe.com/audience/overview){target="_blank"} で定義および管理され（詳しくは、Journey Optimizer での[オーディエンスの操作](../../audience/about-audiences.md)を参照）、式エディターでは、オーディエンスを正確に参照できるようにオートコンプリートの候補が表示されます。
 
 **オーディエンスステータス：**
 
@@ -36,7 +42,7 @@ ht-degree: 80%
 * **実現済み**：個人がオーディエンス定義を選定し、アクティブなメンバーです
 * **退出済み**：個人がオーディエンスから退出し、選定しなくなりました
 
-**実現済み**&#x200B;ステータスの個人のみがアクティブなオーディエンスメンバーと見なされます。関数が `true` を返す場合、個人がステータスを実現したことが確認され、`false` を返す場合、退出済みステータスが示されます。オーディエンス評価について詳しくは、[セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ja#interpret-segment-results){target="_blank"}を参照してください。
+**実現済み**&#x200B;ステータスの個人のみがアクティブなオーディエンスメンバーと見なされます。 関数が `true` を返す場合、個人がステータスを実現したことが確認され、`false` を返す場合、退出済みステータスが示されます。 オーディエンス評価について詳しくは、[セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ja#interpret-segment-results){target="_blank"}を参照してください。
 
 +++構文
 
@@ -115,8 +121,8 @@ inAudience("Unsubscribed") == false
 
 条件ノードで`inAudience()`を使用する場合、セグメントメンバーシップの評価タイミングは、条件がジャーニーのどこに表示されるかによって異なります。
 
-* **オーディエンスの読み取りジャーニーで、待機アクティビティ：** Journey Optimizerがプロファイルのバッチプロジェクションから読み取る前。 この投影内のデータは、取り込み後&#x200B;**2時間**&#x200B;以内に更新されます。 日ベースまたは時間ベースの条件に依存するオーディエンスでは、さらに遅延が発生する場合があります。 ジャーニーの開始時に短い[&#x200B; アクティビティ &#x200B;](../wait-activity.md)を追加するか、バッファー時間を許可して、最新のセグメントメンバーシップが反映されるようにします。
-* **単一イベントジャーニーで、または待機アクティビティの後、** セグメントメンバーシップがストリーミング（単一）投影から読み取られます。 データは通常、**15分以内に利用できます**。 詳しくは、[Adobe Experience Platform ストリーミング取り込みに関するドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/ingestion/streaming/overview){target="_blank"}を参照してください。
+* **オーディエンスの読み取りジャーニーで、待機アクティビティ：** Journey Optimizerがプロファイルのバッチプロジェクションから読み取る前。 この投影内のデータは、取り込み後&#x200B;**2時間**&#x200B;以内に更新されます。 日ベースまたは時間ベースの条件に依存するオーディエンスでは、さらに遅延が発生する場合があります。 ジャーニーの開始時に短い[ アクティビティ ](../wait-activity.md)を追加するか、バッファー時間を許可して、最新のセグメントメンバーシップが反映されるようにします。
+* **単一イベントジャーニーで、または待機アクティビティの後、** セグメントメンバーシップがストリーミング（単一）投影から読み取られます。 データは通常、**15分以内に利用できます**。 詳しくは、[Adobe Experience Platform ストリーミング取り込みに関するドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/streaming/overview){target="_blank"}を参照してください。
 
 ## 関連トピック
 

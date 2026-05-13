@@ -10,13 +10,18 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 作成, Optimizer, キャンペーン, サーフェス, メッセージ
 exl-id: 617d623c-e038-4b5b-a367-5254116b7815
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/ntMHR5n0EgM9QaGV1JtwBxKHNpeibCQ8b4krEeFtlO4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: 216
 ht-degree: 92%
 
 ---
-
 
 # アクションキャンペーンの操作 {#gs-action-campaigns}
 
@@ -46,7 +51,7 @@ ht-degree: 92%
 1. [キャンペーンアクションの設定](campaign-action.md)
 1. [アクションキャンペーンコンテンツの編集](campaign-content.md)
 1. [アクションキャンペーンオーディエンスの定義](campaign-audience.md)
-1. [&#x200B; アクションキャンペーンをスケジュール &#x200B;](campaign-schedule.md)。 オプションとして、[&#x200B; ウェーブを使用して送信](send-using-waves.md)し、メッセージを一括で送信します。
+1. [ アクションキャンペーンをスケジュール ](campaign-schedule.md)。 オプションとして、[ ウェーブを使用して送信](send-using-waves.md)し、メッセージを一括で送信します。
 1. [アクションキャンペーンのレビューとアクティブ化](review-activate-campaign.md)
 
 [完全なキャンペーン作成ワークフローについて詳しくは、タイプ固有のガイドを参照してください →](get-started-with-campaigns.md#workflow)

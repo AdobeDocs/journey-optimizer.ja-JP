@@ -8,16 +8,22 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 177b4a97-c757-40ca-a190-fbd88169e5e2
-source-git-commit: 6961a07e2874f9beb76a9beaebb29997d114d8e7
+TQID: https://experienceleague.adobe.com/dpQ6PEm-afX4PZuWSPrpAWDH7yBhUKZHZRF134VehAg
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 60%
+source-wordcount: 130
+ht-degree: 100%
 
 ---
 
 # ジャーニーのフィールド {#sharing-journey-fields}
 
-このフィールドグループは、**ジャーニー**&#x200B;のスキーマで（**journeyStepEvent** と関連して）使用します。以下に示すフィールドが含まれます。
+このフィールドグループは、**ジャーニー**&#x200B;のスキーマで（**journeyStepEvent** と関連して）使用します。 以下に示すフィールドが含まれます。
 
 
 >[!NOTE]
@@ -33,7 +39,7 @@ ht-degree: 60%
 
 ## journeyVersionID {#journeyversionid-field}
 
-ジャーニーバージョンの ID。この ID はジャーニーを表します。
+ジャーニーバージョンの ID。 この ID はジャーニーを表します。
 
 型：文字列
 
@@ -45,7 +51,7 @@ ht-degree: 60%
 
 >[!NOTE]
 >
->ジャーニー名は、ジャーニー実行データをレポートデータセットにリンクするために使用されます。 ジャーニーの名前を変更する場合は、正確なレポートを維持するために、新しい名前がレポートデータセットの名前と一致することを確認してください。 不一致により、レポートデータが期待どおりに表示されない場合があります。 詳しくは、[&#x200B; レポートデータが見つからないトラブルシューティング &#x200B;](../building-journeys/report-journey.md#troubleshooting-missing-data) を参照してください。
+>ジャーニー名は、ジャーニー実行データをレポートデータセットにリンクするために使用されます。 ジャーニーを名前変更する場合は、正確なレポートを維持するために、新しい名前がレポートデータセットの名前と一致していることを確認します。 不一致により、レポートデータが期待どおりに表示されない場合があります。 詳しくは、[レポートデータが欠落している場合のトラブルシューティング](../building-journeys/report-journey.md#troubleshooting-missing-data)を参照してください。
 
 ## description {#description-field}
 
@@ -53,8 +59,8 @@ ht-degree: 60%
 
 型：文字列
 
-## バージョン {#version-field}
+## version {#version-field}
 
-バージョン。`major` `minor` で表します。
+バージョン。`major``minor` で表します。
 
 型：文字列

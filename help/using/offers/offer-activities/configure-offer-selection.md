@@ -10,9 +10,14 @@ role: User
 level: Intermediate
 exl-id: 8c7135d7-bf5a-4671-afdf-afec60907a56
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+TQID: https://experienceleague.adobe.com/cuderynmp3lamdVZiG5A5Lo9ZSBym46mw0hhiVp88uU
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: c132d929-fa62-4271-803e-b823be07b914id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: 467
 ht-degree: 100%
 
 ---
@@ -21,9 +26,9 @@ ht-degree: 100%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。 [詳細情報](../../experience-decisioning/gs-experience-decisioning.md)
 
-指定のプレースメントに対して実施要件を満たすオファーが複数ある場合、決定を設定する際に各プロファイルに最適なオファーを選択する方法を選べます。オファーのランク付けは、次の基準で行えます。
+指定のプレースメントに対して実施要件を満たすオファーが複数ある場合、決定を設定する際に各プロファイルに最適なオファーを選択する方法を選べます。 オファーのランク付けは、次の基準で行えます。
 
 * オファーの優先度
 * ランキング式
@@ -37,23 +42,23 @@ ht-degree: 100%
 
 ![](../assets/offer-priority.png)
 
-オファーの優先度スコアは、オファーの作成時に割り当てられます。パーソナライズされたオファーを作成する方法については、[この節](../offer-library/creating-personalized-offers.md)を参照してください。
+オファーの優先度スコアは、オファーの作成時に割り当てられます。 パーソナライズされたオファーを作成する方法については、[この節](../offer-library/creating-personalized-offers.md)を参照してください。
 
 ## ランキング式 {#assign-ranking-formula}
 
-Journey Optimizer では、オファーの優先度に加えて、**ランキング式**&#x200B;を作成できます。これらは、特定のプレースメントに対して最初に表示するオファーを決定する数式であり、オファーの優先度スコアを考慮するものではありません。
+Journey Optimizer では、オファーの優先度に加えて、**ランキング式**&#x200B;を作成できます。 これらは、特定のプレースメントに対して最初に表示するオファーを決定する数式であり、オファーの優先度スコアを考慮するものではありません。
 
 例えば、終了日が今から 24 時間以内のすべてのオファーの優先度を上げることもできますし、プロファイルの目標地点が「実行中」の場合は「実行中」カテゴリのオファーの優先度を上げることもできます。
 
 ランキング式を作成する方法については、 [この節](../ranking/create-ranking-formulas.md)を参照してください。
 
-式を作成したら、決定内のプレースメントに割り当てることができます。これを行うには、以下の手順に従います。
+式を作成したら、決定内のプレースメントに割り当てることができます。 これを行うには、以下の手順に従います。
 
-1. 決定を作成するか、既存の決定を編集します。詳しくは、[決定の作成](../offer-activities/create-offer-activities.md)を参照してください。
+1. 決定を作成するか、既存の決定を編集します。 詳しくは、[決定の作成](../offer-activities/create-offer-activities.md)を参照してください。
 
-1. オファーを含むプレースメントを追加します。[プレースメントの作成](../offer-library/creating-placements.md)を参照してください。
+1. オファーを含むプレースメントを追加します。 [プレースメントの作成](../offer-library/creating-placements.md)を参照してください。
 
-1. 各プレースメントに対して、コレクションを追加します。[コレクションの作成](../offer-library/creating-collections.md)を参照してください。
+1. 各プレースメントに対して、コレクションを追加します。 [コレクションの作成](../offer-library/creating-collections.md)を参照してください。
 
 1. ランキング方法として「**[!UICONTROL 式]**」を選択し、「**[!UICONTROL ランキングを追加]**」をクリックします。
 
@@ -69,27 +74,27 @@ Journey Optimizer では、オファーの優先度に加えて、**ランキン
 
 ## AI ランキング {#use-ranking-strategy}
 
-<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ja){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
+<!--If you are an [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target="_blank"} user leveraging the **Offer Decisioning** application service,-->
 
-AI モデルを選択して、特定のプロファイルに表示するオファーを自動的にランク付けする、トレーニング済みモデルシステムを使用することもできます。AI モデルの作成方法については、[この節](../ranking/create-ranking-strategies.md)を参照してください。
+AI モデルを選択して、特定のプロファイルに表示するオファーを自動的にランク付けする、トレーニング済みモデルシステムを使用することもできます。 AI モデルの作成方法については、[この節](../ranking/create-ranking-strategies.md)を参照してください。
 
-AI モデルを作成したら、決定内のプレースメントに割り当てることができます。これを行うには、次の手順に従います。
+AI モデルを作成したら、決定内のプレースメントに割り当てることができます。 これを行うには、次の手順に従います。
 
-1. 決定を作成するか、既存の決定を編集します。詳しくは、[決定の作成](../offer-activities/create-offer-activities.md)を参照してください。
+1. 決定を作成するか、既存の決定を編集します。 詳しくは、[決定の作成](../offer-activities/create-offer-activities.md)を参照してください。
 
-1. オファーを含むプレースメントを追加します。[プレースメントの作成](../offer-library/creating-placements.md)を参照してください。
+1. オファーを含むプレースメントを追加します。 [プレースメントの作成](../offer-library/creating-placements.md)を参照してください。
 
-1. 各プレースメントに対して、コレクションを追加します。[コレクションの作成](../offer-library/creating-collections.md)を参照してください。
+1. 各プレースメントに対して、コレクションを追加します。 [コレクションの作成](../offer-library/creating-collections.md)を参照してください。
 
 1. オファーのランキング方法として「**[!UICONTROL AI ランキング]** 」をドロップダウンリストから選択して、「**[!UICONTROL ランキングを追加]**」をクリックします。
 
    ![](../assets/ranking-selection-ai-ranking.png)
 
-1. 作成した AI モデルを選択します。モデルの詳細がすべて表示されます。
+1. 作成した AI モデルを選択します。 モデルの詳細がすべて表示されます。
 
    ![](../assets/ranking-selection-ai-ranking-selected.png)
 
-1. 「**[!UICONTROL 選択]**」をクリックします。これで、AI モデルがプレースメントに関連付けられました。
+1. 「**[!UICONTROL 選択]**」をクリックします。 これで、AI モデルがプレースメントに関連付けられました。
 
 複数のオファーが適格な場合、トレーニング済みモデルシステムは、特定のプレースメントに対して最初に提示するオファーを決定します。
 

@@ -10,14 +10,21 @@ level: Intermediate
 keywords: アクティビティ, 条件, キャンバス, ジャーニー, 最適化
 exl-id: f6618de4-7861-488e-90c0-f299ef5897ca
 version: Journey Orchestration
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/hbDoGEHdCBcOe-e9h06kGY2Rvb129cIzto6jJAuGkX4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 37%
+source-wordcount: 470
+ht-degree: 41%
 
 ---
 
-# 最適化アクティビティの概要 {#journey-path-optimization}
+# 最適化アクティビティの基本を学ぶ {#journey-path-optimization}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_optimize"
@@ -26,7 +33,7 @@ ht-degree: 37%
 
 >[!IMPORTANT]
 >
->**最適化** アクティビティは、ジャーニーで条件付きパスを作成するための新しい手段です。 UIから削除された以前の&#x200B;**条件** アクティビティに置き換わります。 すべての条件付きロジックは保持され、**最適化** アクティビティの[条件](conditions.md)を通じて処理されるようになりました。
+>**最適化** アクティビティは、ジャーニーで条件付きパスを作成するための新しい手段です。 UI から削除された以前の&#x200B;**条件**&#x200B;アクティビティに置き換わります。 すべての条件付きロジックは保持され、**最適化** アクティビティの[条件](conditions.md)を通じて処理されるようになりました。
 >
 >**[!UICONTROL 条件]** アクティビティを使用した既存のジャーニーがある場合は、以前と同様に使用できます。 これらは、**[!UICONTROL 条件]** メソッドを使用して&#x200B;**[!UICONTROL 最適化]** アクティビティとして新しいアイコンで表示されるようになりましたが、動作は変更されていません。 ノードに設定したカスタムラベルはすべて保持されます。
 
@@ -44,9 +51,9 @@ ht-degree: 37%
 
 「**最適化**」アクティビティを使用すると、ジャーニーパスで次のアクションを実行できます。
 
-* [&#x200B; パス実験を実行](path-experimentation.md) - ランダムな分割に基づいて異なるパスをテストし、事前に定義された成功指標（コンバージョン率、収益、エンゲージメントなど）に従って、最もパフォーマンスの高いパスを決定します。
+* [ パス実験を実行](path-experimentation.md) - ランダムな分割に基づいて異なるパスをテストし、事前に定義された成功指標（コンバージョン率、収益、エンゲージメントなど）に従って、最もパフォーマンスの高いパスを決定します。
 
-* [&#x200B; ターゲティングルールを活用](path-targeting.md) - オーディエンスセグメント、プロファイル属性、コンテキストデータに基づいて、顧客がジャーニーパスのいずれかを入力する資格を得るために満たす必要がある特定のルールを定義します。 これにより、適切なオーディエンスが指定されたパスに確実に入ります。
+* [ ターゲティングルールを活用](path-targeting.md) - オーディエンスセグメント、プロファイル属性、コンテキストデータに基づいて、顧客がジャーニーパスのいずれかを入力する資格を得るために満たす必要がある特定のルールを定義します。 これにより、適切なオーディエンスが指定されたパスに確実に入ります。
 
   >[!AVAILABILITY]
   >
@@ -62,6 +69,6 @@ ht-degree: 37%
 
 ユースケースに最適な最適化方法を選択します。
 
-* どの経路が最も効果的かをテストして確認したい場合、 → [&#x200B; パス実験](path-experimentation.md)に移動
-* 複数のオーディエンスを特定のパスに誘導する場合、 → [&#x200B; パスのターゲット &#x200B;](path-targeting.md)に移動
+* どの経路が最も効果的かをテストして確認したい場合、 → [ パス実験](path-experimentation.md)に移動
+* 複数のオーディエンスを特定のパスに誘導する場合、 → [ パスのターゲット ](path-targeting.md)に移動
 * 条件付きロジック（if/then シナリオ）を作成する場合、 → [条件](conditions.md)に移動

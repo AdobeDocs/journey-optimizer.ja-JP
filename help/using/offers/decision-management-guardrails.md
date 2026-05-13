@@ -9,9 +9,15 @@ role: User
 level: Intermediate
 exl-id: d2872bd3-42f8-4744-bb5b-41c49340098a
 version: Journey Orchestration
-source-git-commit: 90b7d9bfe40e6d68e22a9f1aa8ef6d302a1035d9
+TQID: https://experienceleague.adobe.com/teZQ3GKXJoj05ZD7bCCzKSzwLdUbgF8DXp8csDostOw
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: a37e4ecd-c740-426a-addf-cb1b483c5c5aid: ad78185d-8f79-40ad-9bad-cbde74af74eeid: c132d929-fa62-4271-803e-b823be07b914id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: e5ae22e3-a3b0-46ed-804f-9abf1bbe3e74
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: 402
 ht-degree: 83%
 
 ---
@@ -20,11 +26,11 @@ ht-degree: 83%
 
 >[!IMPORTANT]
 >
->このページでは、従来の **意思決定管理** 機能のガードレールについて説明します。 コードベースのエクスペリエンスとメールチャネルを介して利用できる **の現在の意思決定機能** Decisioning[!DNL Adobe Journey Optimizer] を使用している場合は、代わりに [&#x200B; 意思決定ガードレールと制限 &#x200B;](../experience-decisioning/decisioning-guardrails.md) を参照してください。
+>このページでは、従来の&#x200B;**意思決定管理**&#x200B;機能のガードレールについて説明します。 **Decisioning**&#x200B;を使用している場合 – [!DNL Adobe Journey Optimizer]の現在の意思決定機能は、コードベースのエクスペリエンスとメールチャネルを介して利用できます。代わりに、[ ガードレールと制限](../experience-decisioning/decisioning-guardrails.md)を参照してください。
 >
->使用している機能が不明な場合は、 [Decisioning について説明します &#x200B;](../experience-decisioning/gs-experience-decisioning.md)。
+>どの機能を使用しているか不明な場合は、 [決定について学ぶ](../experience-decisioning/gs-experience-decisioning.md)。
 
-このページは、従来の意思決定管理システムを使用しているユーザーを対象としています。 最適な使用を確保するには、次のガードレールと制限に注意してください。
+このページは、従来の意思決定管理システムを引き続き使用しているユーザーに適用されます。 最適な使用を確実にするために、次のガードレールと制限を念頭に置いてください。
 
 [!DNL Journey Optimizer] のガードレールと制限の完全なリストについて詳しくは、[この節](../start/guardrails.md)を参照してください。
 
@@ -99,8 +105,8 @@ ht-degree: 83%
 | AI ランキングモデル | 5 |
 | フリークエンシーキャップ - オファーごとのキャッピングルールの最大数 | 10 |
 
-## 設定  {#configurations}
+## 設定 {#configurations}
 
 意思決定管理がサポートする設定の合計数は、20,000 を超えることはできません。
 
-合計設定数は、サンドボックス内に存在する[キャッピングルール](offer-library/add-constraints.md#capping)の合計数です。すべての[プレースメント](offer-library/creating-placements.md)をまたいで適用されるキャッピングルールごとに、指定したオファーに関連付けられているすべてのプレースメントをまたいでそのルールを乗算する必要があります。
+合計設定数は、サンドボックス内に存在する[キャッピングルール](offer-library/add-constraints.md#capping)の合計数です。 すべての[プレースメント](offer-library/creating-placements.md)をまたいで適用されるキャッピングルールごとに、指定したオファーに関連付けられているすべてのプレースメントをまたいでそのルールを乗算する必要があります。

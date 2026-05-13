@@ -10,9 +10,16 @@ level: Intermediate
 keywords: アクティビティ, 決定, コンテンツ決定, 決定ポリシー, キャンバス, ジャーニー
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/1tZd4-NYBxu1iuUZGMKQ6DIXFxRpX0FARTEPpWqxzjY
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: 1262
 ht-degree: 74%
 
 ---
@@ -29,7 +36,7 @@ ht-degree: 74%
 
 次に、コンテンツ決定アクティビティの出力は、以下の用途で使用できます。
 
-* 取得したオファーに基づいてプロファイルを特定のパスに移動する条件[を持つ](#add-condition-activity)Optimize アクティビティ。
+* 取得したオファーに基づいてプロファイルを特定のパスに移動する条件](#add-condition-activity)を持つ[Optimize アクティビティ。
 
 * [カスタムアクション](#add-custom-action)：これらのオファーを外部システムに送信できます。
 
@@ -47,21 +54,21 @@ ht-degree: 74%
 
 1. オプションで、アクティビティにラベルと説明を追加します。
 
-1. 「**[!UICONTROL 決定ポリシーを追加]**」をクリックします。[決定ルールの詳細情報](../experience-decisioning/create-decision.md)
+1. 「**[!UICONTROL 決定ポリシーを追加]**」をクリックします。 [決定ルールの詳細情報](../experience-decisioning/create-decision.md)
 
    >[!NOTE]
    >
-   >決定ポリシーを作成するには、決定権限が必要です。[詳細情報](../experience-decisioning/gs-experience-decisioning.md#steps)
+   >決定ポリシーを作成するには、決定権限が必要です。 [詳細情報](../experience-decisioning/gs-experience-decisioning.md#steps)
 
-1. 返される項目の数を選択します。例えば、「2」を選択した場合、最適な 2 つの実施要件を満たすオファーが表示されます。「**[!UICONTROL 次へ]**」をクリックします。
+1. 返される項目の数を選択します。 例えば、「2」を選択した場合、最適な 2 つの実施要件を満たすオファーが表示されます。 「**[!UICONTROL 次へ]**」をクリックします。
 
-1. 「**[!UICONTROL 戦略シーケンス]**」セクションでは、決定ポリシーと共に提示する決定項目や選択戦略を選択します。[詳細情報](../experience-decisioning/create-decision.md#create-decision)
+1. 「**[!UICONTROL 戦略シーケンス]**」セクションでは、決定ポリシーと共に提示する決定項目や選択戦略を選択します。 [詳細情報](../experience-decisioning/create-decision.md#create-decision)
 
 1. 必要に応じて、評価順序を並べ替えます。
 
-   複数の決定項目や戦略を追加すると、順番に評価され、各オブジェクトまたはオブジェクトのグループの左側に数字で示されます。デフォルトのシーケンスを変更するには、オブジェクトやグループをドラッグ＆ドロップして、任意の順序に並べ替えることができます。[詳細情報](../experience-decisioning/create-decision.md#create-decision)
+   複数の決定項目や戦略を追加すると、順番に評価され、各オブジェクトまたはオブジェクトのグループの左側に数字で示されます。 デフォルトのシーケンスを変更するには、オブジェクトやグループをドラッグ＆ドロップして、任意の順序に並べ替えることができます。 [詳細情報](../experience-decisioning/create-decision.md#create-decision)
 
-1. （オプション）フォールバックオファーを追加します。[詳細情報](../experience-decisioning/create-decision.md#create-decision)
+1. （オプション）フォールバックオファーを追加します。 [詳細情報](../experience-decisioning/create-decision.md#create-decision)
 
 1. 決定ポリシーをレビューして保存します。
 
@@ -73,7 +80,7 @@ ht-degree: 74%
 
 **同意ポリシー**
 
-* 同意ポリシーの更新が有効になるまで最大 48 時間かかります。決定ポリシーが、最近更新された同意ポリシーに関連付けられた属性を参照している場合、変更は直ちに適用されません。
+* 同意ポリシーの更新が有効になるまで最大 48 時間かかります。 決定ポリシーが、最近更新された同意ポリシーに関連付けられた属性を参照している場合、変更は直ちに適用されません。
 
 * 同様に、同意ポリシーの対象となる新しいプロファイル属性が決定ポリシーに追加された場合、その属性は使用可能になりますが、関連付けられた同意ポリシーは、遅延が経過するまで適用されません。
 
@@ -81,13 +88,13 @@ ht-degree: 74%
 
 ## コンテンツ決定アクティビティの出力の使用 {#use-content-decision-output}
 
-コンテンツ決定の出力は、複数のジャーニーアクティビティで使用できます。例えば、条件[を含む](#add-condition-activity)最適化アクティビティを使用して、取得されたオファー数に基づいて、プロファイルをジャーニーの特定の分岐に移動できます。
+コンテンツ決定の出力は、複数のジャーニーアクティビティで使用できます。 例えば、条件](#add-condition-activity)を含む[最適化アクティビティを使用して、取得されたオファー数に基づいて、プロファイルをジャーニーの特定の分岐に移動できます。
 
 また、コンテンツ決定アクティビティからのオファーを外部システムと共有することを目的に、[カスタムアクション](#add-custom-action)をジャーニーに追加することもできます。
 
 ### 最適化アクティビティで（条件付きメソッド） {#add-condition-activity}
 
-コンテンツ決定アクティビティの出力を活用するには、**[!UICONTROL 最適化]** アクティビティを追加し、**[!UICONTROL 条件]** メソッドを選択し、それらのオファーのデータを使用してプロファイルを特定のパスに移動する式を定義します。 以下の手順に従います。 その他の条件タイプとオプションについては、[条件](conditions.md)を参照してください。
+コンテンツ決定アクティビティの出力を活用するには、**[!UICONTROL 最適化]** アクティビティを追加し、**[!UICONTROL 条件]** メソッドを選択し、それらのオファーのデータを使用してプロファイルを特定のパスに移動する式を定義します。 次の手順に従います。 その他の条件タイプとオプションについては、[条件](conditions.md)を参照してください。
 
 1. **[!UICONTROL オーケストレーション]** カテゴリから、**[!UICONTROL 最適化]** アクティビティをキャンバスにドロップします。 [詳細情報](optimize.md)
 
@@ -109,7 +116,7 @@ ht-degree: 74%
 
    >[!NOTE]
    >
-   >属性に定義された制限されたラベルは、DULEまたは同意のポリシー違反につながる可能性があります。 これは、決定ルールで使用されるジャーニーエクスペリエンスイベントおよび[&#x200B; オファースキーマ &#x200B;](../experience-decisioning/catalogs.md#access-catalog-schema)に適用されます。 データガバナンスポリシーについて詳しくは、[この節](../action/action-privacy.md)を参照してください。
+   >属性に定義された制限されたラベルは、DULEまたは同意のポリシー違反につながる可能性があります。 これは、決定ルールで使用されるジャーニーエクスペリエンスイベントおよび[ オファースキーマ ](../experience-decisioning/catalogs.md#access-catalog-schema)に適用されます。 データガバナンスポリシーについて詳しくは、[この節](../action/action-privacy.md)を参照してください。
 
 1. ジャーニーにエントリするプロファイルに対してオファーが返されたかどうかを確認するには、構文 `listSize(@decision{ContentdecisionName.items})>0` で [listSize](functions/list-functions.md#listSize) 関数を使用します
 
@@ -129,7 +136,7 @@ ht-degree: 74%
 
 ### カスタムアクションの場合 {#add-custom-action}
 
-コンテンツ決定アクティビティの出力を活用するには、定義したオファーを外部システムと共有するカスタムアクションをジャーニーに追加します。次の手順に従います。
+コンテンツ決定アクティビティの出力を活用するには、定義したオファーを外部システムと共有するカスタムアクションをジャーニーに追加します。 次の手順に従います。
 
 1. カスタムアクションをジャーニーに追加します。 [詳細情報](../action/about-custom-action-configuration.md)
 
@@ -141,13 +148,13 @@ ht-degree: 74%
 
    ![カスタムアクションのリクエストパラメーターを編集](assets/journey-content-decision-custom-action-param.png)
 
-1. 開いたポップアップウィンドウで、**[!UICONTROL 詳細設定モード]**&#x200B;に切り替えます。[高度な式エディター](expression/expressionadvanced.md)で、**[!UICONTROL コンテキスト]**&#x200B;ノードを展開して、すべての決定ポリシー項目を表示します。
+1. 開いたポップアップウィンドウで、**[!UICONTROL 詳細設定モード]**&#x200B;に切り替えます。 [高度な式エディター](expression/expressionadvanced.md)で、**[!UICONTROL コンテキスト]**&#x200B;ノードを展開して、すべての決定ポリシー項目を表示します。
 
    >[!CAUTION]
    >
    >コンテンツ決定ノードの出力は、**[!UICONTROL 詳細設定モード]**&#x200B;でのみ使用できます。
 
-1. [配列を使用して、](../experience-decisioning/catalogs.md#access-catalog-schema) オファーカタログスキーマ `items`を参照します。 例えば、最初に取得したオファーの `itemName` と、2 番目に取得したオファーの `itemName` を使用します。
+1. `items`配列を使用して、[ オファーカタログスキーマ ](../experience-decisioning/catalogs.md#access-catalog-schema)を参照します。 例えば、最初に取得したオファーの `itemName` と、2 番目に取得したオファーの `itemName` を使用します。
 
    ![決定ポリシーを含むカスタムアクションのリクエストパラメーター](assets/journey-content-decision-custom-action-param-ex.png)
 

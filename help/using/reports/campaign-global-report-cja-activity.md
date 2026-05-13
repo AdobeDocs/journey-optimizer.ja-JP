@@ -9,9 +9,16 @@ role: User
 level: Intermediate
 hide: true
 exl-id: 58034ec4-62dc-406c-99c4-d6b7aa107140
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+TQID: https://experienceleague.adobe.com/NBJkyh9TCAPxD0u3EpwaZth7-ePjEWdg2roQ7J2-RuY
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: 663
 ht-degree: 22%
 
 ---
@@ -20,7 +27,7 @@ ht-degree: 22%
 
 >[!BEGINSHADEBOX]
 
-ライブアクティビティキャンペーンレポートにアクセスするには、キャンペーンの「**[!UICONTROL レポート]**」ボタンをクリックし、「**[!UICONTROL 全期間のレポートを表示]**」を選択します。[詳細情報](report-gs-cja.md)
+ライブアクティビティキャンペーンレポートにアクセスするには、キャンペーンの「**[!UICONTROL レポート]**」ボタンをクリックし、「**[!UICONTROL 全期間のレポートを表示]**」を選択します。 [詳細情報](report-gs-cja.md)
 
 ![](assets/report-access.png)
 
@@ -64,7 +71,7 @@ ht-degree: 22%
 
 * **[!UICONTROL ローカル開始]**: ユーザーのデバイスでローカルに開始されたライブアクティビティ開始イベントの合計数。多くの場合、ユーザーの操作またはクライアントサイドのトリガーに起因します。
 
-* **[!UICONTROL アップデート数]**：デバイスに送信されたライブアクティビティのアップデートの合計数。アップデートには、ステータスの変更、新しいコンテンツ、進行状況の通知を含めることができます。
+* **[!UICONTROL アップデート数]**：デバイスに送信されたライブアクティビティのアップデートの合計数。 アップデートには、ステータスの変更、新しいコンテンツ、進行状況の通知を含めることができます。
 
 * **[!UICONTROL 終了]**: デバイスに送信されたライブアクティビティ終了イベントの合計数。
 
@@ -78,7 +85,7 @@ ht-degree: 22%
 
 マーケティングキャンペーンでは、ブロードキャストのユースケースにライブアクティビティを使用し、複数のデバイスに同時にアップデートを送信します。
 
-Marketing CampaignsのiOS Live アクティビティの場合、レポートには、開始時に&#x200B;**[!UICONTROL Remote Starts]**&#x200B;件のイベントと&#x200B;**[!UICONTROL Remote starts errors]**&#x200B;件のみが表示されます。 APNがフィードバックを提供せずにすべてのデバイスにアップデートを配信するため、**[!UICONTROL 更新]**&#x200B;および&#x200B;**[!UICONTROL 終了]**&#x200B;のイベントは追跡されません。 **[!UICONTROL 更新]**&#x200B;および&#x200B;**[!UICONTROL 終了]** イベントを表示するには、[Apple プッシュ通知コンソール &#x200B;](https://developer.apple.com/notifications/push-notifications-console/)を使用します。
+Marketing CampaignsのiOS Live アクティビティの場合、レポートには、開始時に&#x200B;**[!UICONTROL Remote Starts]**&#x200B;件のイベントと&#x200B;**[!UICONTROL Remote starts errors]**&#x200B;件のみが表示されます。 APNがフィードバックを提供せずにすべてのデバイスにアップデートを配信するため、**[!UICONTROL 更新]**&#x200B;および&#x200B;**[!UICONTROL 終了]**&#x200B;のイベントは追跡されません。 **[!UICONTROL 更新]**&#x200B;および&#x200B;**[!UICONTROL 終了]** イベントを表示するには、[Apple プッシュ通知コンソール ](https://developer.apple.com/notifications/push-notifications-console/)を使用します。
 
 +++ マーケティングキャンペーンのライブアクティビティライフサイクル指標の詳細
 

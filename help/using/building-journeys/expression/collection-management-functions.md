@@ -9,10 +9,15 @@ level: Experienced
 keywords: クエリ, コレクション, 関数, ペイロード, ジャーニー
 exl-id: 09b38179-9ace-4921-985b-ddd17eb64681
 version: Journey Orchestration
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+TQID: https://experienceleague.adobe.com/sNFI7l-UMGmRV2wRcvYa56tILLoWFxXeG3N5txgrUiw
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 100%
+source-wordcount: 545
+ht-degree: 92%
 
 ---
 
@@ -21,7 +26,7 @@ ht-degree: 100%
 
 ## クエリコレクション関数について
 
-式言語には、クエリコレクションに対する一連の関数も導入されています。これらの関数について以下で説明します。
+式言語には、クエリコレクションに対する一連の関数も導入されています。 これらの関数について以下で説明します。
 
 次の例では、プッシュ通知トークンのコレクションを含む「LobbyBeacon」という名前のイベントを使用します。 このページの例では、以下に示すイベントペイロード構造を使用しています。
 
@@ -77,9 +82,9 @@ ht-degree: 100%
 <listExpression>.all(<condition>)
 ```
 
-**概念的な例：**&#x200B;すべてのアプリユーザーの中から、iOS 13 を使用しているユーザーを取得できます（ブール式「app used == IOS 13」）。この関数の結果は、ブール式に一致する項目（例：アプリユーザー 1、アプリユーザー 34、アプリユーザー 432）を含んだフィルター済みリストになります。
+**概念的な例：**&#x200B;すべてのアプリユーザーの中から、iOS 13 を使用しているユーザーを取得できます（ブール式「app used == IOS 13」）。 この関数の結果は、ブール式に一致する項目（例：アプリユーザー 1、アプリユーザー 34、アプリユーザー 432）を含んだフィルター済みリストになります。
 
-「データソースの条件」アクティビティでは、**[!UICONTROL all]** 関数の結果が null かどうかを確認できます。また、この **[!UICONTROL all]** 関数を、**[!UICONTROL count]** 関数などの他の関数と組み合わせることができます。詳しくは、[「データソースの条件」アクティビティ](../conditions.md#data_source_condition)を参照してください。
+「データソースの条件」アクティビティでは、**[!UICONTROL all]** 関数の結果が null かどうかを確認できます。 また、この **[!UICONTROL all]** 関数を、**[!UICONTROL count]** 関数などの他の関数と組み合わせることができます。 詳しくは、[「データソースの条件」アクティビティ](../conditions.md#data_source_condition)を参照してください。
 
 **LobbyBeacon ペイロードを使用したコード例：**
 
@@ -88,11 +93,11 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->ジャーニーの式／条件でのエクスペリエンスイベントの使用はサポートされていません。ユースケースでエクスペリエンスイベントを使用する必要がある場合は、別の方法を考慮します。[詳細情報](../exp-event-lookup.md)
+>ジャーニーの式／条件でのエクスペリエンスイベントの使用はサポートされていません。 ユースケースでエクスペリエンスイベントを使用する必要がある場合は、別の方法を考慮します。 [詳細情報](../exp-event-lookup.md)
 
 ### 例 1
 
-ユーザーが特定のバージョンのアプリケーションをインストールしてあるかどうかを確認します。この目的のために、バージョンが 1.0 のモバイルアプリケーションに関連付けられたすべてのプッシュ通知トークンを取得します。その後、**[!UICONTROL count]** 関数で条件分けをして、返されたトークンリストに少なくとも 1 つの要素が含まれているかどうかを確認します。
+ユーザーが特定のバージョンのアプリケーションをインストールしてあるかどうかを確認します。 このために、バージョンが1.0のモバイルアプリケーションに関連付けられたすべてのプッシュ通知トークンを取得します。 次に、**[!UICONTROL count]**&#x200B;関数を使用して条件を実行し、返されるトークンのリストに少なくとも1つの要素が含まれていることを確認します。
 
 ```json
 count(@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all(currentEventField.application.version == "1.0").token}) > 0
@@ -121,11 +126,11 @@ count(@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTo
 
 >[!NOTE]
 >
->* **all()** 関数のフィルター条件に何も指定していない場合、フィルターはリスト内のすべての要素を返します。**ただし、コレクションの要素数をカウントするためには、all 関数は不要です。**
+>* **all()** 関数のフィルター条件に何も指定していない場合、フィルターはリスト内のすべての要素を返します。 **ただし、コレクションの要素数をカウントするためには、all 関数は不要です。**
 >
 >* `currentEventField` はイベントコレクションを操作する場合、`currentDataPackField` はデータソースコレクションを操作する場合、`currentActionField` はカスタムアクションの応答コレクションを操作する場合にのみ使用できます。
 >
->  `all`、`first`、`last` でコレクションを処理する場合、コレクションの各要素を 1 つずつループします。`currentEventField`、`currentDataPackField`、`currentActionField` は、ループする要素に対応します。
+>  `all`、`first`、`last` でコレクションを処理する場合、コレクションの各要素を 1 つずつループします。 `currentEventField`、`currentDataPackField`、`currentActionField` は、ループする要素に対応します。
 
 
 ## first(`<condition>`) 関数と last(`<condition>`) 関数

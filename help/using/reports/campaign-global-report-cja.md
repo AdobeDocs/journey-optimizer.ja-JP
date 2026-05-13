@@ -8,10 +8,17 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: b74d3137-2dd9-4302-a56e-73503d318d18
-source-git-commit: 27de3d2171e6f6575eb66ada20f951f6cb3abc98
+TQID: https://experienceleague.adobe.com/-1IfHcdK07JLG54DYR1GNNN-sU0VyHjfBjCLbNdKA-8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '610'
-ht-degree: 100%
+source-wordcount: 612
+ht-degree: 96%
 
 ---
 
@@ -19,7 +26,7 @@ ht-degree: 100%
 
 >[!BEGINSHADEBOX]
 
-キャンペーンレポートにアクセスするには、キャンペーンの「**[!UICONTROL レポート]**」ボタンをクリックし、「**[!UICONTROL 全期間のレポートを表示]**」を選択します。[詳細情報](report-gs-cja.md)
+キャンペーンレポートにアクセスするには、キャンペーンの「**[!UICONTROL レポート]**」ボタンをクリックし、「**[!UICONTROL 全期間のレポートを表示]**」を選択します。 [詳細情報](report-gs-cja.md)
 
 ![](assets/report-access.png)
 
@@ -29,7 +36,7 @@ ht-degree: 100%
 
 ![](assets/cja-email-kpis.png)
 
-**[!UICONTROL キャンペーン]**&#x200B;の主要業績評価指標（KPI）は、キャンペーンに関連する重要な指標の分析を提供する、包括的なダッシュボードとして機能します。これには、クリック数や配信されたメッセージ数などの詳細が含まれ、キャンペーンの効果とエンゲージメントのレベルを包括的に把握できます。
+**[!UICONTROL キャンペーン]**&#x200B;の主要業績評価指標（KPI）は、キャンペーンに関連する重要な指標の分析を提供する、包括的なダッシュボードとして機能します。 これには、クリック数や配信されたメッセージ数などの詳細が含まれ、キャンペーンの効果とエンゲージメントのレベルを包括的に把握できます。
 
 KPI は、キャンペーンで使用されるチャネルによって異なります。
 
@@ -46,13 +53,13 @@ KPI は、キャンペーンで使用されるチャネルによって異なり�
 +++
 
 >[!AVAILABILITY]
->調整されたキャンペーンでは、SMS、メール、プッシュの各チャネルのみがサポートされます。の他のチャネル（アプリ内、web、ダイレクトメールなど）は、調整されたキャンペーンでは使用できず、レポートには表示されません。
+>調整されたキャンペーンでは、SMS、メール、プッシュの各チャネルのみがサポートされます。 その他のチャネル（アプリ、web、ダイレクトメールなど） はオーケストレーションされたキャンペーンでは使用できず、レポートには表示されません。
 
 ### キャンペーンの概要 {#delivery-global}
 
 ![](assets/cja-campaign-overview.png)
 
-**[!UICONTROL キャンペーンの概要]**&#x200B;のテーブルは、キャンペーンに関連する主要指標の詳細な分類が表示さる、包括的なダッシュボードとして機能します。これには、配信されたプロファイル数やアクション数など、キャンペーンのパフォーマンスとエンゲージメントを完全に把握できる重要な情報が含まれます。
+**[!UICONTROL キャンペーンの概要]**&#x200B;のテーブルは、キャンペーンに関連する主要指標の詳細な分類が表示さる、包括的なダッシュボードとして機能します。 これには、配信されたプロファイル数やアクション数など、キャンペーンのパフォーマンスとエンゲージメントを完全に把握できる重要な情報が含まれます。
 
 指標は、キャンペーンで使用されるチャネルによって異なります。
 
@@ -72,7 +79,7 @@ KPI は、キャンペーンで使用されるチャネルによって異なり�
 
 * **[!UICONTROL アウトバウンドエラー数]**：送信プロセス中に発生し、プロファイルにメッセージを送信できなかったエラーの合計数。
 
-* **[!UICONTROL アウトバウンド除外数]**：Adobe Journey Optimizer によって除外されたプロファイルの数。[除外のカウント方法の詳細情報](exclusion-list.md#exclusion-list)。
+* **[!UICONTROL アウトバウンド除外数]**：Adobe Journey Optimizer によって除外されたプロファイルの数。 [除外のカウント方法の詳細情報](exclusion-list.md#exclusion-list)。
 
 * **[!UICONTROL 表示数]**：メッセージが開封された回数。
 
