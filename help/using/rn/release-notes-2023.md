@@ -12,7 +12,7 @@ exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
 source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
 source-wordcount: '4441'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 98%
 <td>
 <p>SMS チャネルを使用すると、マルチメディアメッセージサービス（MMS）メッセージを送信して通信を強化し、画像、GIF またはビデオを顧客と共有できます。 この機能は現在、Sinch でのみ使用可能です。</p>
 <img src="assets/do-not-localize/mms.gif"/>
-<p>詳しくは、<a href="../sms/create-sms.md#mms-content">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、 <a href="../sms/create-sms.md#mms-content">詳細なドキュメント</a>を参照してください。</p>
 </tr>
 </tbody>
 </table>
@@ -120,7 +120,7 @@ ht-degree: 98%
 <tr>
 <td>
 <p>計算属性を使用すると、直感的なユーザーインターフェイスを通じてイベントデータをプロファイル属性に簡単に要約でき、動作ベースのセグメント化、パーソナライゼーション、アクティベーションを強化できます。 この機能を使用すると、計算属性をセルフサービス方式で作成して管理し、セグメント化、リアルタイム顧客プロファイルの宛先、Journey Optimizer で使用できます。<br/><br/>
-さらに、計算属性を利用することで、セグメンテーションやジャーニーのワークフローを簡素化し、適切なエクスペリエンスをシームレスに提供できます。 詳しくは、<a href="../audience/computed-attributes.md">詳細なドキュメント</a>を参照してください。</p>
+また、計算属性を使用すると、セグメント化とジャーニーのワークフローが簡素化され、関連するエクスペリエンスをシームレスに提供できます。 詳しくは、<a href="../audience/computed-attributes.md">詳細なドキュメント</a>を参照してください。</p>
 <img src="assets/do-not-localize/computed-attributes.gif">
 </tr>
 </tbody>
@@ -272,7 +272,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <td>
 <p>Journey Optimizer でシードリストを作成および管理できるようになりました。 シードリストに含む内部アドレスは、配信の実行時に実際のオーディエンスに追加でき、対象プロファイルとまったく同じメッセージを受け取ることができます。 この機能を使用して、送信したやりとりを監視し、すべての表示形式、URL、画像、リンクが正しいことを確認します。</p>
 <img src="../configuration/assets/seed-list-details.png">
-<p>詳しくは、<a href="../configuration/seed-lists.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、 <a href="../configuration/seed-lists.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -343,7 +343,7 @@ A new option is available in the email surface settings to include email address
 <tbody>
 <tr>
 <td>
-<p>コンポジションワークフローを作成して、既存のAdobe Experience Platform オーディエンスをビジュアルキャンバスに組み合わせ、様々なアクティビティ（分割、エンリッチなど）を活用できるようになりました。 新規オーディエンスを作成します。 新しく作成したオーディエンスは、既存のオーディエンスと共に Adobe Experience Platform に保存され、顧客をターゲットにする Journey Optimizer キャンペーンで活用できます。</p>
+<p>構成ワークフローを作成できるようになりました。これを実行するには、既存の Adobe Experience Platform オーディエンスをビジュアルキャンバスに組み合わせ、様々なアクティビティ（分割、強化...）を活用して 新規オーディエンスを作成します。 新しく作成したオーディエンスは、既存のオーディエンスと共に Adobe Experience Platform に保存され、顧客をターゲットにする Journey Optimizer キャンペーンで活用できます。</p>
 <img src="assets/do-not-localize/gif-ao.gif"/>
 <p>詳しくは、<a href="../audience/get-started-audience-orchestration.md">詳細なドキュメント</a>を参照してください。</p>
 <p>オーディエンス構成は、新しい Adobe Experience Platform の「オーディエンス」メニューに完全に統合され、オーディエンスの一元化されたポータルとして機能します。 セグメントのトレンドと重複を含む新しいダッシュボードを含む参照ページを使用して、新しいインサイトを見つけ、フォルダー化やタグ付けのための組織ツールを探索できるようになりました。 このエクスペリエンス内には、標準化されたオーディエンスのラベル付け用のガバナンスコントロールと、アクティベーションワークフローを管理するオーディエンスのライフサイクル管理機能が組み込まれています。 この新しい管理エクスペリエンスにより、1 か所から簡単かつ安全にオーディエンスを管理できるようになりました。 詳しくは、<a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja" target="_blank">Adobe Experience Platform ドキュメント</a>を参照してください。</p></p>
@@ -595,7 +595,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <td>
 <p>パーソナライズされた最適化 AI ランキングモデルが意思決定管理で一般公開されました。 この新しいタイプのモデルを使用すると、オーディエンスとオファーのパフォーマンスに応じて、オファーを最適化およびパーソナライズできます。</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
-<p>詳しくは、<a href="../offers/ranking/personalized-optimization-model.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、 <a href="../offers/ranking/personalized-optimization-model.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -714,7 +714,7 @@ Information below is subject to change without prior notice until the release av
 <li>「<strong>参照</strong>」タブを使用して、すべてのジャーニーのリストにアクセスします。</li></ul>
 <p>この機能には、パブリックベータ版としてすべてのジャーニーでアクセスできます。</p>
 <img src="assets/do-not-localize/journey-dashboard.gif"/>
-<p>詳しくは、<a href="../building-journeys/journey-gs.md#journey-access">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、 <a href="../building-journeys/journey-gs.md#journey-access">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -871,7 +871,7 @@ Information below is subject to change without prior notice until the release av
 <p>データセットの内容をエクスポートするために、クラウドストレージの場所とのライブ接続を確立できるようになりました。 使用可能な宛先は次のとおりです。Amazon S3 Cloud Storage、Azure Blob、Azure Data Lake Gen 2、Data Landing Zone、Google Cloud Storage、SFTP。</p>
 <p><strong>注意</strong> - この機能は現在ベータ版です。すべての Adobe Journey Optimizer ユーザーがご利用いただけます。 アクセス権がない場合は、アドビ担当者に相談して、宛先へのアクセス権を取得してください。</p>
 <img src="assets/do-not-localize/gif-destinations.gif"/>
-<p>詳しくは、<a href="../data/export-datasets.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、 <a href="../data/export-datasets.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>

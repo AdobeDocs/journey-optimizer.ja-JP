@@ -10,21 +10,26 @@ role: User
 level: Intermediate
 exl-id: 659984cb-b232-47ba-9f5a-604bf97a5e92
 version: Journey Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/-drNPR5XmWbTe050ZO3s-tymLiQXjT4gjth7-QTv01c
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: c132d929-fa62-4271-803e-b823be07b914id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 98%
+source-wordcount: 914
+ht-degree: 100%
 
 ---
 
-# 意思決定管理の導入方法 {#about-decision-management}
+# 意思決定管理の基本を学ぶ {#about-decision-management}
 
-[!DNL Journey Optimizer] を使用すると、すべてのタッチポイントをまたいで、適切なタイミングで最高のオファーとエクスペリエンスを顧客に提供できます。デザインが完了すると、パーソナライズされたオファーを使用してオーディエンスをターゲットに設定できます。
+[!DNL Journey Optimizer] を使用すると、すべてのタッチポイントをまたいで、適切なタイミングで最高のオファーとエクスペリエンスを顧客に提供できます。 デザインが完了すると、パーソナライズされたオファーを使用してオーディエンスをターゲットに設定できます。
 
 意思決定管理では、マーケティングオファーの一元化されたライブラリと、Adobe Experience Platform が作成するリッチなリアルタイムプロファイルにルールと制約を適用する意思決定エンジンを使用して、的確なオファーを適切なタイミングで顧客に送信します。
 
 意思決定管理の機能は、2 つの主要コンポーネントで構成されています。
-
 
 * **一元化されたオファーライブラリ**&#x200B;は、オファーを構成する様々な要素を作成および管理し、それらの規則と制約を定義するインターフェイスです。
 * **Offer Decisioning エンジン**&#x200B;は、Adobe Experience Platform のデータとリアルタイム顧客プロファイルをオファーライブラリとともに活用し、オファーの配信に適切な時間、顧客およびチャネルを選択します。
@@ -59,7 +64,6 @@ ht-degree: 98%
 
 意思決定管理の機能および Adobe Experience Platform との統合により、多くのユースケースが対象となり、顧客エンゲージメントやコンバージョンを向上できます。
 
-
 * Adobe Experience Platform のデータに基づいて、訪問した顧客の目標地点に一致するオファーを web サイトのホームページに表示します。
 
   ![](../assets/website.png)
@@ -68,17 +72,15 @@ ht-degree: 98%
 
   ![](../assets/push_sample.png)
 
-* 意思決定管理は、顧客がサポートチームに連絡する際のエクスペリエンスを向上できるようサポートします。
-意思決定管理 API を使用すると、顧客が取り消したオファーと次善のオファーに関する情報を、コールセンター担当者のポータルに表示することができます。
-
+* 意思決定管理は、顧客がサポートチームに連絡する際のエクスペリエンスを向上できるようサポートします。 意思決定管理 API を使用すると、顧客が取り消したオファーと次善のオファーに関する情報を、コールセンター担当者のポータルに表示することができます。
 
   ![](../../assets/do-not-localize/call-center.png)
 
-## 意思決定管理へのアクセス権の付与 {#granting-acess-to-decision-management}
+## 意思決定管理へのアクセス権限の付与 {#granting-acess-to-decision-management}
 
 意思決定管理機能へのアクセス権限および使用権限は、[Adobe Admin Console](https://helpx.adobe.com/jp/enterprise/managing/user-guide.html){target="_blank"} で管理します。
 
-意思決定管理機能へのアクセス権を付与するには、**[!UICONTROL 製品プロファイル]**&#x200B;を作成し、対応する権限をユーザーに割り当てる必要があります。[!DNL Journey Optimizer] のユーザーと権限の管理について詳しくは、[この節](../../administration/permissions.md)を参照してください。
+意思決定管理機能へのアクセス権を付与するには、**[!UICONTROL 製品プロファイル]**&#x200B;を作成し、対応する権限をユーザーに割り当てる必要があります。 [!DNL Journey Optimizer] のユーザーと権限の管理について詳しくは、[この節](../../administration/permissions.md)を参照してください。
 
 意思決定管理に特有の権限の一覧については、[この節](../../administration/high-low-permissions.md#decisions-permissions)を参照してください。
 
@@ -86,8 +88,7 @@ ht-degree: 98%
 
 意思決定管理を使用する際の主な概念のリストを以下に示します。
 
-
-* **キャッピング**&#x200B;または&#x200B;**フリークエンシーキャップ**：キャッピングは、オファーの提示回数を定義する制約として使用されます。キャップには、組み合わせターゲットオーディエンスでオファーを何回提案できるか（「合計キャップ数」と）と、同じエンドユーザーにオファーを提案できる回数（「プロファイルキャップ」）の 2 つがあります。
+* **キャッピング**&#x200B;または&#x200B;**フリークエンシーキャップ**：キャッピングは、オファーの提示回数を定義する制約として使用されます。 キャップには、組み合わせターゲットオーディエンスでオファーを何回提案できるか（「合計キャップ数」と）と、同じエンドユーザーにオファーを提案できる回数（「プロファイルキャップ」）の 2 つがあります。
 
 * **コレクション**：マーケターが事前に定義した条件（オファーのカテゴリなど）に基づくオファーのサブセットです。
 
@@ -115,18 +116,16 @@ ht-degree: 98%
 
 ## チュートリアルビデオ{#video}
 
-### 意思決定管理とは？ {#what-is-offer-decisioning}
+### 意思決定管理とは {#what-is-offer-decisioning}
 
-以下のビデオでは、 意思決定管理の主な機能、アーキテクチャおよび使用例を紹介しています。
+以下のビデオでは、意思決定管理の主な機能、アーキテクチャおよび使用例を紹介しています。
 
-
->[!VIDEO](https://video.tv.adobe.com/v/340416?captions=jpn&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/326961?quality=12&learn=on)
 
 ### オファーの定義と管理 {#use-offer-decisioning}
 
 次のビデオでは、意思決定管理を使用してオファーを定義および管理し、リアルタイムの顧客データを活用する方法を示します。
 
-
->[!VIDEO](https://video.tv.adobe.com/v/340470?captions=jpn&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/326841?quality=12&learn=on)
 
 

@@ -8,16 +8,22 @@ role: Developer, Admin
 level: Experienced
 keywords: スキーマ, Platform, データ, 構造
 exl-id: c2a8df2e-ff94-4f9a-a53e-bbf9f663cc81
-source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
+TQID: https://experienceleague.adobe.com/fWsW9Rvyd8L4nphczzc7GF1rbO7HuYsjqDBBpy3uoGU
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 98%
+source-wordcount: 440
+ht-degree: 100%
 
 ---
 
 # スキーマの基本を学ぶ {#schemas-gs}
 
-[!DNL Adobe Journey Optimizer] では、**Adobe Experience Platform スキーマ**&#x200B;に依存して、一貫性のある再利用可能な方法でデータの構造を記述します。スキーマは、現実のオブジェクト（人物など）の概念上の定義を提供し、そのオブジェクトの各インスタンスに含める必要があるデータ（名前や誕生日など）の概要を説明します。データが Experience Platform に取り込まれると、常に **XDM スキーマ**&#x200B;に応じて構造化されます。
+[!DNL Adobe Journey Optimizer] では、**Adobe Experience Platform スキーマ**&#x200B;に依存して、一貫性のある再利用可能な方法でデータの構造を記述します。 スキーマは、現実のオブジェクト（人物など）の概念上の定義を提供し、そのオブジェクトの各インスタンスに含める必要があるデータ（名前や誕生日など）の概要を説明します。 データが Experience Platform に取り込まれると、常に **XDM スキーマ**&#x200B;に応じて構造化されます。
 
 ## 標準スキーマとリレーショナルスキーマ
 
@@ -34,7 +40,7 @@ Adobe Experience Platform には、2 つのタイプのスキーマがありま�
 
   ➡️ [標準スキーマの作成と設定の方法について詳しくは、このビデオを参照してください。](#video-schema)（ビデオ）
 
-* **リレーショナルスキーマ**&#x200B;は、クラスやフィールドグループを使用しないフラットな非階層スキーマです。これらはリレーショナルエンティティのレコードデータを取得することを目的に使用され、主に [!DNL Journey Optimizer] **オーケストレーションキャンペーン**&#x200B;で使用されます。
+* **リレーショナルスキーマ**&#x200B;は、クラスやフィールドグループを使用しないフラットな非階層スキーマです。 これらはリレーショナルエンティティのレコードデータを取得することを目的に使用され、主に [!DNL Journey Optimizer] **オーケストレーションキャンペーン**&#x200B;で使用されます。
 
   リレーショナルエンティティの例を次に示します。
    * 予約、契約または購読
@@ -49,18 +55,18 @@ Adobe Experience Platform には、2 つのタイプのスキーマがありま�
    1. **スキーマをリンク**&#x200B;して、エンティティと人物の関係を定義します（例：メンバーにリンクされたロイヤルティトランザクション、ブランドにリンクされた報酬）。
    1. サポートされているソースからデータセットに&#x200B;**データを取得**&#x200B;します。
 
-  ➡️ [リレーショナルスキーマとデータセットの管理方法について説明します。](../orchestrated/gs-schemas.md)
-➡️[オーケストレーションキャンペーンの基本を学ぶ](../orchestrated/gs-schemas.md)
+  ➡️ [リレーショナルスキーマとデータセットの管理方法を学ぶ](../orchestrated/gs-schemas.md)
+➡️ [オーケストレーションキャンペーンの基本を学ぶ](../orchestrated/gs-schemas.md)
 
 ## チュートリアルビデオ{#video-schema}
 
 標準スキーマの作成、フィールドグループの追加、カスタムフィールドグループの作成および設定の方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3417458?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334461?quality=12)
 
 >[!MORELIKETHIS]
 >
->* [Journey Optimizerでのデータ管理の開始](gs-data.md)
+>* [Journey Optimizer におけるデータ管理の基本を学ぶ](gs-data.md)
 >* [スキーマとデータセットの作成およびデータの取り込みによる Journey Optimizer へのテストプロファイルの追加](../audience/creating-test-profiles.md)
 >* [XDM システムの概要](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target="_blank"}
 >* [データモデリングのベストプラクティス](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/best-practices.html?lang=ja){target="_blank"}

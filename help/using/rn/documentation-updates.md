@@ -11,7 +11,7 @@ exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
 source-git-commit: 8d00060a8801a0d29a86894494b9fd7a69f30d88
 workflow-type: tm+mt
 source-wordcount: '7447'
-ht-degree: 66%
+ht-degree: 96%
 
 ---
 
@@ -35,131 +35,131 @@ ht-degree: 66%
 
 ## 2026年4月 {#april-2026}
 
-* **ディメンションの変更** アクティビティのドキュメントが更新され、アクティビティが外部結合を使用し、ディメンション変更ステップですべてのレコードを保持する一方で、新しいターゲティングディメンションで一致するプロファイルを持たないレコードは、メッセージの配信時にサイレントに除外されることが明確になりました。 [詳細情報](../orchestrated/activities/change-dimension.md)
+* **ディメンションを変更**&#x200B;アクティビティのドキュメントが更新され、このアクティビティは外部結合を使用し、ディメンション変更ステップですべてのレコードを保持する一方で、新しいターゲットディメンションに一致するプロファイルを持たないレコードは、メッセージ配信時に暗黙的に除外されることが明確になりました。 [詳細情報](../orchestrated/activities/change-dimension.md)
 
-* **電子メールにCC フィールドを追加** ドキュメントのガードレールが強化されました。 これで、CC アドレスが同意または抑制に対してチェックされないことが指定され、CC アドレスに送信された電子メールの開封数とクリック数が、送信分析の開封数とクリック数の合計に含まれます。 [詳細情報](../configuration/cc-email-field.md)
+* **メールへの CC フィールドの追加**&#x200B;ドキュメントのガードレールが強化されました。 CC アドレスは同意や抑制に対してチェックされないことと、CC アドレスに送信されたメールの開封数とクリック数が送信分析の開封数とクリック数の合計に含まれることが指定されるようになりました。 [詳細情報](../configuration/cc-email-field.md)
 
-* **チャネルアクティビティ**&#x200B;のドキュメントが更新され、オプトイン要件、ビジネスルールアプリケーション、チャネル設定タイプ、推奨されるユースケースという2つのチャネルカテゴリ間の行動の違いを説明する新しい&#x200B;**マーケティングメッセージとトランザクションメッセージ**&#x200B;の節が追加されました。 [詳細情報](../orchestrated/activities/channels.md#marketing-vs-transactional)
+* **チャネルアクティビティ**&#x200B;ドキュメントが更新され、**マーケティングメッセージとトランザクションメッセージ**&#x200B;という新しい節が追加されました。この節では、オプトイン要件、ビジネスルールの適用、チャネル設定タイプ、推奨されるユースケースなど、2 つのチャネルカテゴリ間の動作上の違いについて説明します。 [詳細情報](../orchestrated/activities/channels.md#marketing-vs-transactional)
 
-* 「**フォークアクティビティ**」ドキュメントが強化され、新しい「**例**」セクションが追加されました。このセクションでは、フォークアクティビティを使用して、1回のキャンペーン実行で、1つのマーケティングと1つのトランザクションの2つの並行したメールブランチにオーディエンスを分割する方法を示しています。 [詳細情報](../orchestrated/activities/fork.md#fork-examples)
+* **分岐アクティビティ**&#x200B;ドキュメントが強化され、**例**&#x200B;という新しい節が追加されました。この節では、分岐アクティビティを使用して、単一のキャンペーン実行でオーディエンスをマーケティング用とトランザクション用の 2 つの並行したメール分岐に分割する方法について説明します。 [詳細情報](../orchestrated/activities/fork.md#fork-examples)
 
-* ルールビルダーを使用してサブスクリプションプラン属性でプロファイルをフィルタリングする方法を示す新しい例で、**オーディエンスアクティビティを作成** ドキュメントが強化されました。 [詳細情報](../orchestrated/activities/build-audience.md#build-audience-examples)
+* **オーディエンスを作成アクティビティ**&#x200B;ドキュメントが強化され、ルールビルダーを使用してサブスクリプションプラン属性でプロファイルをフィルタリングする方法を示す新しい例が追加されました。 [詳細情報](../orchestrated/activities/build-audience.md#build-audience-examples)
 
-* 「**オーケストレーションされたキャンペーンの基本を学ぶ**」ページでは、エントリーレベルの&#x200B;**Fork → Channel A + Channel B** パターンのオーディエンス→構築について、**オーケストレーションされたキャンペーンの内部にあるものは？**&#x200B;で説明し、Fork アクティビティとMarketing vs Transactional メッセージページを相互参照します。 [詳細情報](../orchestrated/gs-orchestrated-campaigns.md#gs-ms-campaign-inside)
+* **オーケストレーションキャンペーンの基本を学ぶ**&#x200B;ページでは、**オーケストレーションキャンペーンの内部とは**&#x200B;でエントリレベルの&#x200B;**オーディエンスの作成／分岐／チャネル A + チャネル B** パターンを文書化し、分岐アクティビティページおよびマーケティングメッセージとトランザクションメッセージページへの相互参照を提供しています。 [詳細情報](../orchestrated/gs-orchestrated-campaigns.md#gs-ms-campaign-inside)
 
-* 高度なHTML エディター&#x200B;**ページを使用した**&#x200B;電子メールコンテンツの編集が、コンテンツ管理セクションからドキュメントの&#x200B;**電子メール** セクションに移動されました。 このページでは、高度なHTML エディターが電子メール メッセージと電子メールコンテンツテンプレートに対して電子メール Designerで使用できるようになりました。 [詳細情報](../email/email-expert-mode.md)
+* 高度なHTML エディター&#x200B;**ページを使用した**&#x200B;電子メールコンテンツの編集が、コンテンツ管理セクションからドキュメントの&#x200B;**電子メール** セクションに移動されました。 このページでは、高度な HTML エディターが E メールデザイナーで、メールメッセージとメールコンテンツテンプレートに使用できることを文書化しています。 [詳細情報](../email/email-expert-mode.md)
 
-* **開始および監視オーケストレーション済みキャンペーン**&#x200B;のドキュメントが更新され、内部の公開時間の実行シーケンスの詳細を示す新しいセクションと、キャンペーンライフサイクルのステータス表、公開前のチェックリスト、非定期的なキャンペーンの送信確認の警告が追加されました。 [詳細情報](../orchestrated/start-monitor-campaigns.md#publication-sequence)
+* **オーケストレーションキャンペーンの開始と監視**&#x200B;ドキュメントが更新され、内部の公開時の実行シーケンスの詳細を説明する新しい節、キャンペーンライフサイクルステータステーブル、公開前チェックリスト、繰り返し以外のキャンペーンの送信確認警告が追加されました。 [詳細情報](../orchestrated/start-monitor-campaigns.md#publication-sequence)
 
-* **オーディエンスを保存** アクティビティのドキュメントが更新され、公開時にメッセージアクティビティが実行される前に、オーディエンスを保存アクティビティが常に実行されることが明記されました。 [詳細情報](../orchestrated/activities/save-audience.md)
+* **オーディエンスを保存**&#x200B;アクティビティドキュメントが更新され、オーディエンスを保存アクティビティは公開時にメッセージアクティビティよりも常に前に実行されることを明確にするメモが追加されました。 [詳細情報](../orchestrated/activities/save-audience.md)
 
-* **オーケストレーションキャンペーンに関するFAQ**&#x200B;に3つの新しいQ&amp;Aが追加されました。公開時に内部で何が起こるか、公開後にメッセージが送信されない理由の7 ポイントのチェックリスト、プロファイル スナップショット検索とリアルタイムのプロファイル解決の違い。 [詳細情報](../orchestrated/orchestrated-campaigns-faq.md)
+* **オーケストレーションキャンペーンに関する FAQ** に、新しい 3 つの Q&amp;A（公開時に内部で発生する内容、公開後にメッセージが送信されない理由の 7 つのポイントのチェックリスト、プロファイルスナップショット検索とリアルタイムのプロファイル解決の違い）が追加されました。 [詳細情報](../orchestrated/orchestrated-campaigns-faq.md)
 
-* ジャーニーインスタンスがブロックされたために破棄された新しい&#x200B;**[イベント](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached)** セクションが、ジャーニーのトラブルシューティングのドキュメントに追加され、`maxInstanceStackEventsReached`の破棄の理由、発生時、およびその緩和方法が説明されました。 ガードレールとステップイベントフィールドリストページも、それに応じて更新されました。
+* ジャーニーのトラブルシューティングドキュメントに、**[ブロックされたジャーニーインスタンスによって破棄されるイベント](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached)**&#x200B;という新しい節が追加されました。この節では、`maxInstanceStackEventsReached` が破棄される理由、発生するタイミング、その軽減方法について説明します。 ガードレールとステップイベントフィールドリストページもそれに応じて更新されました。
 
-* 決定ポリシー&#x200B;**ドキュメントの** レバレッジフラグメントには、**電子メール** チャネルのガードレールのメモが含まれるようになりました。**[!UICONTROL コンテンツのシミュレーション]**&#x200B;では、決定項目のエクスプレッションフラグメントは表示されません。一方、**[!UICONTROL プルーフの送信]**&#x200B;およびアクティブ化されたキャンペーンでは表示されます。 また、このページでは、**[!UICONTROL ビジュアルフラグメント]**&#x200B;を決定項目に割り当てることができません。このコンテキストでは、**式フラグメント**&#x200B;のみがサポートされています。 [詳細情報](../experience-decisioning/fragments-decision-policies.md)
+* **決定ポリシーでのフラグメントの活用**&#x200B;ドキュメントに、**メール**&#x200B;チャネルに関するガードレールメモが追加されました。**[!UICONTROL コンテンツをシミュレート]**&#x200B;では決定項目の式フラグメントは表示されませんが、**[!UICONTROL 本配信前確認を送信]**&#x200B;とアクティブ化されたキャンペーンでは表示されます。 また、このページには、**[!UICONTROL ビジュアルフラグメント]**&#x200B;は決定項目に割り当てることができず、このコンテキストでは&#x200B;**式フラグメント**&#x200B;のみがサポートされているとも記載されています。 [詳細情報](../experience-decisioning/fragments-decision-policies.md)
 
 ## 2026 年 3 月 {#march-2026}
 
-* Experience Decisioning **でコードベースのエクスペリエンスを** プレビューする際のドキュメントでは、**[!UICONTROL コンテンツのシミュレーション]**&#x200B;がコンテンツのプレビューのみであることが明確になりました。 Edgeのライブリクエストのコンテキストデータは、オーサリングプレビューではシミュレートされません。 [詳細情報](../code-based/test-code-based.md#preview-code-based)
+* **エクスペリエンス決定を使用したコードベースのエクスペリエンスのプレビュー**&#x200B;に関するドキュメントで、**[!UICONTROL コンテンツをシミュレート]**&#x200B;はコンテンツのプレビューのみであることが明確になりました。 オーサリングプレビューでは、ライブの Edge リクエストからのコンテキストデータはシミュレートされません。 [詳細情報](../code-based/test-code-based.md#preview-code-based)
 
-* **Adobe Experience Platform データを使用** ドキュメントが更新されました。ガードレールには、現在の製品動作を反映して、データセット検索を連鎖できないという記述は表示されなくなりました。 [詳細情報](../data/lookup-aep-data.md)
+* **Adobe Experience Platform データの使用**&#x200B;ドキュメントが更新されました。ガードレールには、現在の製品動作を反映して、データセット参照を連結できないという記述が削除されました。 [詳細情報](../data/lookup-aep-data.md)
 
-* 1回のアクションで最大5つのプロファイル属性を更新するためのドキュメント サポートとして、**プロファイルの更新** アクティビティ ドキュメントが更新されました。 [詳細情報](../building-journeys/update-profiles.md)
+* **プロファイルを更新**&#x200B;アクティビティドキュメントが更新され、1 回のアクションで最大 5 つのプロファイル属性を更新するためのサポートが文書化されました。 [詳細情報](../building-journeys/update-profiles.md)
 
-* 常時稼働の定期的なジャーニーの91日間のジャーニーライフサイクルを明確にするために、**オーディエンスの読み取り** アクティビティと&#x200B;**ジャーニープロパティ** ドキュメントが更新されました。 「スケジュール」セクションで、終了日のない定期的なジャーニーが過去91日間ライブのままであることが明示的に確認されるようになりました。また、91日間のプロファイル TTLを91日間のレポートウィンドウから区別するように、グローバルタイムアウト FAQが拡張されました。 [詳細情報](../building-journeys/read-audience.md#schedule)
+* **オーディエンスを読み取り**&#x200B;アクティビティと&#x200B;**ジャーニープロパティ**&#x200B;のドキュメントが更新され、常時稼動の繰り返しジャーニーでの 91 日間のライフサイクルが明確になりました。 スケジュールの節では、終了日が設定されていない繰り返しジャーニーは 91 日を過ぎてもライブのままであることが明示的に確認されるようになり、グローバルタイムアウトに関する FAQ が拡張され、91 日間のプロファイル TTL と 91 日間のレポートウィンドウが区別されるようになりました。 [詳細情報](../building-journeys/read-audience.md#schedule)
 
-* **データセット検索** アクティビティのドキュメントが更新され、`@datasetLookup{}`構文が下流の条件アクティビティで機能するには、検索キーを高度なモードで設定する必要があることが明確になりました。 「データセットの参照が見つかりません」エラーの解決に関するガイダンスを含むトラブルシューティングの節が追加されました。 [詳細情報](../building-journeys/dataset-lookup.md#troubleshooting)
+* **データセット参照**&#x200B;アクティビティのドキュメントが更新され、ダウンストリームの条件アクティビティで `@datasetLookup{}` 構文が機能するには、参照キーを詳細設定モードで設定する必要があることが明確になりました。 「データセット参照が見つかりません」エラーの解決に関するガイダンスを含むトラブルシューティングの節が追加されました。 [詳細情報](../building-journeys/dataset-lookup.md#troubleshooting)
 
-* **日付時刻関数**&#x200B;のドキュメントが更新され、`toDateTime()`要件、数値イベント IDのバックティック構文、PQLの「入力が一致しない」エラーの一般的なエラーコールアウトなど、コンテキストイベント属性からタイムスタンプを書式設定する方法を示す新しい例が追加されました。 [詳細情報](../personalization/functions/dates.md#format-date)
+* **日時関数**&#x200B;ドキュメントが更新され、コンテキストイベント属性からタイムスタンプを書式設定する方法を示す新しい例が追加されました。これには、`toDateTime()` の要件、数値イベント ID のバックティック構文、PQL の「入力が一致しません」エラーに対する一般的なエラーコールアウトが含まれています。 [詳細情報](../personalization/functions/dates.md#format-date)
 
-* **オーケストレーションされたキャンペーンのガードレールと制限**&#x200B;および&#x200B;**ソースコネクタの基本を学ぶ** ドキュメントが更新され、ファイルベースの変更データキャプチャでは、`_change_request_type` フィールドが必須であり、その値は大文字ではなく小文字`u` （upsert）または`d` （delete）である必要があることが明確になりました。 [詳細情報](../orchestrated/guardrails.md)
+* **オーケストレーションキャンペーンのガードレールと制限**&#x200B;ドキュメントと&#x200B;**ソースコネクタの基本を学ぶ**&#x200B;ドキュメントが更新され、ファイルベースのデータキャプチャを変更の場合、「`_change_request_type`」フィールドが必須で、その値は大文字ではなく小文字の `u`（アップサート）または `d`（削除）にする必要があることが明確になりました。 [詳細情報](../orchestrated/guardrails.md)
 
-* トラッキング ID （urlID）の生成方法に関するガイダンスとして、**リンクを追加およびメッセージを追跡** ドキュメントが更新されました。URLとラベルの両方が一意である場合にのみ、一意のurlIDが割り当てられます。 同じURLを複数の電子メールで（または1つの電子メールで複数回）追跡するには、ユーザーは類似のURLごとに一意のラベルを使用する必要があります。そうでない場合、[!DNL Journey Optimizer]はどのリンクがクリックされたかを判断できません。 [詳細情報](../email/message-tracking.md#track-across-multiple-emails)
+* **リンクの追加とメッセージのトラッキング**&#x200B;ドキュメントが更新され、トラッキング識別子（urlID）の生成方法に関するガイダンスが追加されました。一意の urlID は、URL とラベルの両方が一意の場合にのみ割り当てられます。 複数のメール（または 1 つのメール内で複数回）をまたいで同じ URL を追跡するには、類似する URL ごとに一意のラベルを使用する必要があります。それ以外の場合、[!DNL Journey Optimizer] はクリックされたリンクを判断できません。 [詳細情報](../email/message-tracking.md#track-across-multiple-emails)
 
-* **テストプロファイルの作成** ドキュメントが更新され、ID記述子の要件に関する重要なメモが追加されました。データセットが削除され、再作成された場合、スキーマはプライマリ ID フィールドに正しいID記述子を保持する必要があります。 これを使用しない場合、取り込みが正常に完了しても、取り込んだプロファイルは`testProfile = true`としてフラグ付けされません。 トラブルシューティング チェックリストが追加されました。 [詳細情報](../audience/creating-test-profiles.md)
+* **テストプロファイルの作成**&#x200B;ドキュメントが更新され、ID 記述子の要件に関する重要なメモが追加されました。データセットが削除および再作成される場合、スキーマはプライマリ ID フィールドに正しい ID 記述子を保持する必要があります。 これがないと、取り込みが正常に完了しても、取り込まれたプロファイルは `testProfile = true` としてフラグ付けされません。 トラブルシューティングチェックリストが追加されました。 [詳細情報](../audience/creating-test-profiles.md)
 
-* **オーディエンスの読み取り** アクティビティのドキュメントが更新され、**ビジネスイベント** アクティビティが、ジャーニーの最初のアクティビティである必要があるルールの例外であることが明確になりました。 オーディエンスのターゲティングを制御するための高度な代替手段として、**最適化** アクティビティを参照するメモも追加されました。 [詳細情報](../building-journeys/read-audience.md)
+* **オーディエンスを読み取り**&#x200B;アクティビティドキュメントが更新され、**ビジネスイベント**&#x200B;アクティビティは、オーディエンスを読み取りをジャーニーの最初のアクティビティにする必要があるルールに対する例外であることが明確になりました。 また、オーディエンスターゲティングを制御するための高度な代替手段として、**最適化**&#x200B;アクティビティを参照するメモも追加されました。 [詳細情報](../building-journeys/read-audience.md)
 
-* ジャーニーで&#x200B;**ウェーブ**&#x200B;を使用した送信が一般公開されました。 使用制限フラグがドキュメントから削除されました。 [詳細情報](../building-journeys/send-using-waves.md)
+* ジャーニーでの&#x200B;**ウェーブを使用した送信**&#x200B;が一般提供されるようになりました。 限定提供フラグがドキュメントから削除されました。 [詳細情報](../building-journeys/send-using-waves.md)
 
-* **ジャンプ**&#x200B;のアクティビティドキュメントが強化され、新しいデザイン戦略セクション「**Bite サイズのサブジャーニー**」が追加されました。このセクションでは、複雑なエンドツーエンドのフローを、ジャンプ アクティビティを介して接続された、より小さく焦点を絞ったサブジャーニーに分割する方法を説明しています。 [詳細情報](../building-journeys/jump.md#jump-strategy)
+* **ジャンプ**&#x200B;アクティビティドキュメントが強化され、新しいデザイン戦略の節の&#x200B;**バイトサイズのサブジャーニー**&#x200B;が追加されました。この節では、複雑なエンドツーエンドのフローを、ジャンプアクティビティ経由で接続された、より小さく焦点を当てたサブジャーニーに分割する方法を説明します。 [詳細情報](../building-journeys/jump.md#jump-strategy)
 
-* 複雑な命名規則の代わりにタグカテゴリを使用する方法について、**タグ**&#x200B;のドキュメントが更新されました。 新しいセクションでは、スケーラブルなジャーニー管理のためのタグカテゴリの設定方法について説明します。 [詳細情報](../building-journeys/tags.md)
+* **タグ**&#x200B;ドキュメントが更新され、複雑な命名規則の代替手段としてタグカテゴリの使用に関するガイダンスが追加されました。 新しい節では、スケーラブルなジャーニー管理用のタグカテゴリの設定方法について説明します。 [詳細情報](../building-journeys/tags.md)
 
-* **データソースについて**&#x200B;のドキュメントに、実務担当者が3つのデータアクセス戦略から選択できる新しいセクションが追加されました。カスタムアクションによる外部データへのアクセス、プロファイルに対して有効になっていないデータセットの使用、プロファイルが有効になっているデータセットの使用です。 各オプションについては、トレードオフと推奨されるユースケースを用いて説明します。 [詳細情報](../datasource/about-data-sources.md#data-access-strategy)
+* **データソースについて**&#x200B;ドキュメントに、実務担当者が 3 つのデータアクセス戦略（カスタムアクション経由の外部データへのアクセス、プロファイルが有効になっていないデータセットの使用、プロファイル対応データセットの使用）から選択するのに役立つ新しい節が追加されました。 各オプションについては、トレードオフと推奨されるユースケースを使用して説明します。 [詳細情報](../datasource/about-data-sources.md#data-access-strategy)
 
-* **プッシュ通知デザイン**&#x200B;のドキュメントが更新され、iOSでのユニバーサルリンクの動作が明確になりました。通知URLがユニバーサルリンクとして登録されている場合、選択したWeb URL アクションに関係なく、関連するアプリが開きます。 ブラウザーを強制的に開く方法に関するガイダンスが追加されました。 [詳細情報](../push/design-push.md)
+* **プッシュ通知デザイン**&#x200B;ドキュメントが更新され、iOS でのユニバーサルリンクの動作を明確にするメモが追加されました。通知 URL がユニバーサルリンクとして登録されている場合、選択された Web URL アクションに関係なく、関連付けられたアプリが開きます。 ブラウザーを強制的に開く方法に関するガイダンスが追加されました。 [詳細情報](../push/design-push.md)
 
-* 新しい&#x200B;**AI モデルの監視** ページがDecisioning ドキュメントで利用できるようになりました。 パーソナライズされた最適化モデルの正常性、トレーニング状態、およびパフォーマンスを[!DNL Journey Optimizer]で直接追跡する方法について説明します。 [詳細情報](../experience-decisioning/ranking/ai-model-observability.md)
+* 決定ドキュメントに、新しい **AI モデルの監視**&#x200B;ページが追加されました。 [!DNL Journey Optimizer] で、パーソナライズされた最適化モデルの健全性、トレーニングステータス、パフォーマンスを直接追跡する方法について説明します。 [詳細情報](../experience-decisioning/ranking/ai-model-observability.md)
 
-* メールテンプレートの&#x200B;**高度なHTML エディター** （エキスパートモード）が、制限付き提供で利用可能になりました。 ドキュメントページが一般に公開されました。 この機能を使用すると、電子メールDesignerから直接メールコンテンツテンプレートの生のHTML ソースを表示および編集できます。 [詳細情報](../email/email-expert-mode.md)
+* メールテンプレート用の&#x200B;**高度な HTML エディター**（エキスパートモード）が、限定提供で使用できるようになりました。 ドキュメントページが一般公開されました。 この機能を使用すると、E メールデザイナーからメールコンテンツテンプレートの生の HTML ソースを直接表示および編集できます。 [詳細情報](../email/email-expert-mode.md)
 
-* クローズしたジャーニーでの`context.system.source.actionId`の動作を文書化するために、**URL トラッキング**&#x200B;および&#x200B;**ジャーニートラブルシューティング**&#x200B;のドキュメントが更新されました。 クローズしたジャーニーまたは再公開されていないジャーニーでは、トラッキング URLに空の`{}`個のプレースホルダーが生成される場合があります。 ジャーニーを再公開するか、影響を受けるパラメーターを削除して、問題を解決する方法に関するガイダンスが追加されました。 [詳細情報](../email/url-tracking.md)
+* **URL トラッキング**&#x200B;と&#x200B;**ジャーニーのトラブルシューティング**&#x200B;ドキュメントが更新され、クローズ済みのジャーニーでの `context.system.source.actionId` の動作が文書化されました。 クローズ済みまたは再公開されていないジャーニーでは、トラッキング URL に空の `{}` プレースホルダーが生成される場合があります。 ジャーニーを再公開するか、影響を受けるパラメーターを削除して問題を解決する方法に関するガイダンスが追加されました。 [詳細情報](../email/url-tracking.md)
 
-* **Adobe Experience Platform データソース**&#x200B;のドキュメントが更新され、Data Source設定でサポートされているのはXDM Individual Profile ベースのスキーマのみであることに注意しました。 [詳細情報](../datasource/adobe-experience-platform-data-source.md)
+* **Adobe Experience Platform データソース**&#x200B;ドキュメントが更新され、データソース設定では XDM 個人プロファイルベースのスキーマのみがサポートされているというメモが追加されました。 [詳細情報](../datasource/adobe-experience-platform-data-source.md)
 
-* **データセットの有効期間（TTL）ガードレール**&#x200B;のドキュメントが強化され、TTLの対象となるデータセットを明確に識別するための新しいFAQ エントリが追加されました。 TTLは時系列データセットにのみ適用されます。エンティティデータセット、分類データセット、決定オブジェクトリポジトリなどのレコードタイプのデータセットはTTLの対象ではなく、ガードレールのロールアウトの影響を受けません。 [詳細情報](../data/datasets-ttl.md)
+* **データセットの有効期間（TTL）ガードレール**&#x200B;ドキュメントが強化され、TTL の対象となるデータセットを明確に特定するための新しい FAQ エントリが追加されました。 TTL は、時系列データセットにのみ適用されます。エンティティデータセット、分類データセット、決定オブジェクトリポジトリなどのレコードタイプデータセットは TTL の対象外で、ガードレールのロールアウトによる影響を受けません。 [詳細情報](../data/datasets-ttl.md)
 
-* **ジャーニーのプロパティ**&#x200B;および&#x200B;**ジャーニーの一時停止**&#x200B;のドキュメントが更新され、ジャーニーの技術情報で新しい一時停止フィールドと再開フィールドが使用できるようになりました。 **技術的な詳細をコピー** ボタンには、既存の`pausedJourneySettings` ブロックに加えて、`lastPausedAt`、`lastPausedBy`、`lastPausedById`、`lastResumedAt`、`lastResumedBy`および`lastResumedById`が含まれるようになりました。 ジャーニープロパティから一時停止と再開のタイムスタンプを直接表示する方法を説明する「**ジャーニーを一時停止**」ページに新しいセクションも追加されました。 [詳細情報](../building-journeys/journey-properties.md)
+* **ジャーニーのプロパティ**&#x200B;および&#x200B;**ジャーニーの一時停止**&#x200B;ドキュメントが更新され、ジャーニーの技術的な詳細で使用可能になった新しい一時停止フィールドと再開フィールドが文書化されました。 「**技術的な詳細をコピー**」ボタンには、既存の `pausedJourneySettings` ブロックに加えて、`lastPausedAt`、`lastPausedBy`、`lastPausedById`、`lastResumedAt`、`lastResumedBy`、`lastResumedById` が含まれるようになりました。 **ジャーニーの一時停止**&#x200B;ページに、ジャーニープロパティから一時停止と再開のタイムスタンプを直接表示する方法を説明する新しい節が追加されました。 [詳細情報](../building-journeys/journey-properties.md)
 
 ## 2026年2月 {#february-2026}
 
-* 新しいページが意思決定管理で使用できるようになりました。 パーソナライゼーションエディターを使用してオファーコンテンツ（表現）をパーソナライズする際にサポートされるすべての演算子、ヘルパー、および関数が一覧表示されます。 ランタイムエラーを回避するには、このリストを使用します。 Offer Decisioningでコンテンツをパーソナライズする場合は、文書化された関数のみがサポートされます。 [詳細情報](../offers/offer-library/personalization-editor-supported-functions.md)
+* 意思決定管理用の新しいページが使用できるようになりました。 パーソナライズエディターを使用してオファーコンテンツ（表示域）をパーソナライズする際にサポートされているすべての演算子、ヘルパー、関数を一覧表示します。 ランタイムエラーを回避するには、このリストを使用します。 Offer Decisioning でコンテンツをパーソナライズする際、文書化された関数のみがサポートされます。 [詳細情報](../offers/offer-library/personalization-editor-supported-functions.md)
 
-* 電子メールの「**決定ポリシーを作成**&#x200B;および&#x200B;**メッセージで決定ポリシーを使用する**」ドキュメントが更新されました。メモでは、電子メール本文で複数の決定ポリシーで同じオファーを選択できる場合、エンジンがオファーを重複排除することが説明されるようになりました（各プレースメントは異なるオファーを受け取ります）。 同じオファーを複数のプレースメント（ヘッダーやフッターなど）で表示するには、**決定出力を再利用**&#x200B;します。 [詳細情報](../experience-decisioning/create-decision-policy.md)
+* メールの&#x200B;**決定ポリシーを作成**&#x200B;および&#x200B;**メッセージでの決定ポリシーの使用**&#x200B;ドキュメントが更新されました。メール本文で同じオファーが複数の決定ポリシーにより選択できる場合、エンジンがオファーを重複排除する（各プレースメントに異なるオファーが渡される）というメモが追加されました。 同じオファーを複数のレースメント（例えば、ヘッダーとフッター）に表示するには、**決定出力を再利用**&#x200B;を使用します。 [詳細情報](../experience-decisioning/create-decision-policy.md)
 
-* 決定項目ページが更新され、プッシュチャネルとカスタムイベントの上限に関する情報が表示されました。 [詳細情報](../experience-decisioning/items.md#capping)
+* 決定項目ページが更新され、プッシュチャネルとカスタムイベントキャップに関する情報が追加されました。 [詳細情報](../experience-decisioning/items.md#capping)
 
-* ジャーニー&#x200B;**の** エクスペリエンスイベントのルックアップが非推奨タイムラインで更新されました。2026年4月1日（PT）以降、過去90日間にジャーニー式でエクスペリエンスイベント属性を使用していない組織は、この機能にアクセスできなくなります。 FAQでは、退職のタイムラインと影響を受ける人々に焦点を当てており、体験イベントスキーマページは、代替アプローチへの直接リンクに沿って調整されています。 [詳細情報](../building-journeys/exp-event-lookup.md)
+* **ジャーニーのエクスペリエンスイベント参照**&#x200B;ドキュメントが更新され、非推奨（廃止予定）タイムラインが追加されました。2026年4月1日（PT）以降、過去 90 日間にジャーニー式でエクスペリエンスイベント属性を使用していない組織は、この機能へのアクセス権が付与されなくなります。 FAQ では、廃止タイムラインと影響を受ける対象者に焦点を当て、エクスペリエンスイベントスキーマページには、代替アプローチへの直接リンクが追加されました。 [詳細情報](../building-journeys/exp-event-lookup.md)
 
-* Adobe Experience Platform dataを使用した&#x200B;**データセット検索**&#x200B;について、**Decisioning** ドキュメントが更新されました。サポートされているチャンネルガードレールでは、Decisioningが利用可能なすべてのチャネル（コードベースのエクスペリエンス、電子メール、プッシュ、SMS、ジャーニーのContent Decision アクティビティ）でデータセット検索が機能するようになりました。 制限付き可用性とパブリックベータ版のメモが、決定ルール、ランキング式、決定項目のページから削除されました。 [詳細情報](../experience-decisioning/aep-data-exd.md)
+* **決定**&#x200B;ドキュメントが、Adobe Experience Platform データを使用した&#x200B;**データセットの参照**&#x200B;について更新されました。サポートされているチャネルのガードレールには、決定が使用可能なすべてのチャネル（コードベースのエクスペリエンス、メール、プッシュ、SMS、ジャーニーのコンテンツ決定アクティビティ）でデータセットの参照が機能することが記載されています。 限定提供およびパブリックベータ版のメモは、決定ルール、ランキング式、決定項目ページから削除されました。 [詳細情報](../experience-decisioning/aep-data-exd.md)
 
-* 外部システム統合ページが更新され、カスタムデータソースとカスタムアクションへのリンクが追加されました。また、出力プロキシが&#x200B;**カスタムアクション**&#x200B;から外部システムへのアウトバウンドコールに対して静的IPを提供することを明確にします。 [詳細情報](../configuration/external-systems.md)
+* 外部システム統合ページが更新され、カスタムデータソースとカスタムアクションへのリンクが追加されました。また、エグレスプロキシが、**カスタムアクション**&#x200B;から外部システムへのアウトバウンド呼び出しに対して静的 IP アドレスを提供することが明確になりました。 [詳細情報](../configuration/external-systems.md)
 
-* ジャーニーのドライランのドキュメントが明確になりました。ステップイベント属性`inDryRun`と`dryRunID`は、ドライランモードの場合は`true`/インスタンス IDを、テストまたはライブジャーニーの場合は`null`を返すようになりました。 レポートクエリでドライランステップイベントを除外するためのガイダンスが、それに応じて更新されました。 [詳細情報](../building-journeys/journey-dry-run.md)
+* ジャーニーのドライランドキュメントが明確になりました。ステップイベント属性の `inDryRun` と `dryRunID` は、ドライランモードの場合は `true`インスタンス ID を返し、テストまたはライブジャーニーの場合は `null` を返すことが文書化されました。 レポートクエリでドライランステップイベントを除外するためのガイダンスが、それに応じて更新されました。 [詳細情報](../building-journeys/journey-dry-run.md)
 
-* **Web プッシュ**&#x200B;が一般公開されました。 プッシュ通知ドキュメントが再構築され、それに応じて更新されました（開始、デザイン、送信、作成）。 [詳細情報](../push/get-started-push.md)
+* **Web プッシュ**&#x200B;が一般提供されるようになりました。 プッシュ通知ドキュメントが再作成され、それに応じて更新されました（開始、デザイン、送信、作成）。 [詳細情報](../push/get-started-push.md)
 
-* Web プッシュ設定ページがドキュメントで使用できるようになりました。 [詳細情報](../push/push-configuration-web.md)
+* Web プッシュ設定ページがドキュメントに追加されました。 [詳細情報](../push/push-configuration-web.md)
 
-* Decisioningでのフラグメントの使用に関するドキュメントが更新されました。「フラグメントと決定」セクションにメモが追加され、決定ポリシーページのフラグメントが更新されました。 [詳細情報](../experience-decisioning/fragments-decision-policies.md)
+* 決定でのフラグメントの使用に関するドキュメントが更新されました。フラグメントと決定の節にメモが追加され、決定ポリシーでのフラグメントのページが更新されました。 [詳細情報](../experience-decisioning/fragments-decision-policies.md)
 
-* SMS Webhook ドキュメントが更新されました：Twilio Webhook コンテンツが削除されました。 [詳細情報](../sms/sms-webhook.md)
+* SMS webhook ドキュメントが更新されました。Twilio webhook コンテンツが削除されました。 [詳細情報](../sms/sms-webhook.md)
 
-* **画像をコンテンツテンプレートに変換** ドキュメントが強化され、ガードレールと推奨事項の拡張、一般的なユースケース、画像デザインを編集可能なHTML コンテンツテンプレートに変換するためのより明確なガイダンスが追加されました。 また、コンバージョンの入力としてテーマを使用できるようになったことも記載されています。 [詳細情報](../content-management/image-to-html.md)
+* **コンテンツテンプレートへの画像の変換**&#x200B;ドキュメントが強化され、ガードレールとレコメンデーション、一般的なユースケース、画像デザインを編集可能な HTML コンテンツテンプレートに変換するためのより明確なガイダンスが追加されました。 また、コンバージョンの入力としてテーマを使用できるようになったことも記載されています。 [詳細情報](../content-management/image-to-html.md)
 
-* Decisioning移行API ドキュメントが更新されました。 [詳細情報](../experience-decisioning/decisioning-migration-api.md)
+* Decisioning migration API ドキュメントが更新されました。 [詳細情報](../experience-decisioning/decisioning-migration-api.md)
 
-* **コンテンツ決定** アクティビティが一般公開されました。 コンテンツ決定アクティビティページが更新され、ステップイベントで使用可能なデータの決定に関するセクションが追加されました。 [詳細情報](../building-journeys/content-decision.md)
+* **コンテンツ決定**&#x200B;アクティビティが一般提供されるようになりました。 コンテンツ決定アクティビティページが更新され、ステップイベントで使用可能な決定データに関する節が追加されました。 [詳細情報](../building-journeys/content-decision.md)
 
-* ロイヤルティチャレンジ API ドキュメントへのリンクが「ロイヤルティチャレンジ」セクションに追加されました（開始、課題の作成、タスクの作成、ロイヤルティチャレンジへのアクセス）。 [詳細情報](../loyalty-challenges/get-started.md)
+* ロイヤルティの課題の API ドキュメントへのリンクが、ロイヤルティの課題の節（開始、課題の作成、タスクの作成、ロイヤルティの課題へのアクセス）に追加されました。 [詳細情報](../loyalty-challenges/get-started.md)
 
-* キャンペーン作成ウィザードのドキュメントでサポートされているチャネル情報が修正されました。 チャネルとオーケストレーションキャンペーンに関するFAQ ページが、それに応じて更新されました。 [詳細情報](../campaigns/get-started-with-campaigns.md)
+* キャンペーン作成ウィザードのドキュメントでサポートされているチャネル情報が修正されました。 チャネルとオーケストレーションキャンペーンの基本を学ぶに関する FAQ ページが、それに応じて更新されました。 [詳細情報](../campaigns/get-started-with-campaigns.md)
 
-* **ジャーニー管理**&#x200B;および&#x200B;**承認**&#x200B;権限に関する権限ドキュメントが修正されました。 [詳細情報](../administration/ootb-permissions.md)
+* **ジャーニーの管理**&#x200B;および&#x200B;**承認**&#x200B;権限に関する権限ドキュメントが修正されました。 [詳細情報](../administration/ootb-permissions.md)
 
-* AEM（Adobe Experience Manager）統合ドキュメントが更新され、名前が変更されました（AEM動的コンテンツとAEM フラグメント）。 [詳細情報](../integrations/aem-fragments.md)
+* AEM（Adobe Experience Manager）統合ドキュメントが更新され、名前が変更されました（AEM 動的コンテンツと AEM フラグメント）。 [詳細情報](../integrations/aem-fragments.md)
 
-* 除外リストに新しい除外理由が追加されました：**UnsubscribeLinkNotValid** （エラーコード 050081）。 この除外は、List-Unsubscribe mailToの件名の長さがRFCの制限である998文字を超える場合に生成されます。 [詳細情報](../reports/exclusion-list.md)
+* 除外リストに新しい除外理由 **UnsubscribeLinkNotValid**（エラーコード 050081）が追加されました。 この除外は、リスト登録解除の宛先の件名の長さが RFC の制限である 998 文字の制限を超える場合に生成されます。 [詳細情報](../reports/exclusion-list.md)
 
-* formatDate ヘルパー関数のドキュメントが強化され、関数には日時フィールドタイプ（文字列ではなく）が必要であり、日付フィールドの書式設定、文字列を最初の日付に変換、日付名を持つ完全な日付、システム時刻からの動的な日付、小文字の出力を含む曜日の形式など、複数の例が含まれています。 [詳細情報](../personalization/functions/dates.md#format-date)
+* formatDate ヘルパー関数ドキュメントが強化され、この関数は日時フィールドタイプ（文字列ではない）を必要とするというメモと、日時フィールドの書式設定、文字列を最初に日付に変換する方法、曜日名を含む完全な日付、システム時刻からの動的な日付、小文字出力を含む曜日の書式設定など、複数の例が追加されました。 [詳細情報](../personalization/functions/dates.md#format-date)
 
-* テキスト版のメールドキュメントは、カスタムプレーンテキストと自動同期の使用条件、実際のシナリオでの実用的な例、よくある質問を含むFAQ セクションなど、包括的なユースケースのガイダンスで強化されています。 [詳細情報](../email/text-version-email.md#when-to-use)
+* テキストバージョンのメールドキュメントが強化され、カスタムプレーンテキストと自動同期のどちらを使用するかの判断条件、実際のシナリオを使用した実用的な例、よくある質問を含む FAQ の節など、包括的なユースケースのガイダンスが追加されました。 [詳細情報](../email/text-version-email.md#when-to-use)
 
-* Web フォントのサポート制限とフォールバックフォントの重要性に関する情報を記載したメール Designer テーマドキュメントが更新されました。 [詳細情報](../email/apply-email-themes.md#themes-guardrails)
+* E メールデザイナーのテーマドキュメントが更新され、Web Fonts のサポート制限と代替フォントの重要性に関する情報が追加されました。 [詳細情報](../email/apply-email-themes.md#themes-guardrails)
 
-* 実行メタデータヘルパードキュメントに制限が追加され、アクションから除外されたプロファイルに対してメタデータがキャプチャされないことが明確になりました。 [詳細情報](../personalization/functions/helpers.md#execution-metadata)
+* 実行メタデータヘルパードキュメントに制限が追加され、アクションから除外されたプロファイルのメタデータはキャプチャされないことが明確になりました。 [詳細情報](../personalization/functions/helpers.md#execution-metadata)
 
-* コードベースの実装サンプルドキュメントが更新され、決定における正確な追跡とアトリビューションのために、propositionActionにトークンフィールドが含まれるようになりました。 [詳細情報](../code-based/code-based-implementation-samples.md#client-side-how)
+* コードベースの実装サンプルドキュメントが更新され、決定での正確なトラッキングとアトリビューションのために、propositionAction に tokens フィールドが含まれるようになりました。 [詳細情報](../code-based/code-based-implementation-samples.md#client-side-how)
 
-* URL トラッキングおよびリストの登録解除ドキュメントにメモが追加され、URLに追加されたURL トラッキングパラメーターの順序がランダムであり、制御できないことが明確になりました。 [詳細情報](../email/url-tracking.md)
+* RLトラッキングおよびリスト登録解除ドキュメントにメモが追加され、URL に追加される URL トラッキングパラメーターの順序はランダムで、制御できないことが明確になりました。 [詳細情報](../email/url-tracking.md)
 
 ## 2026年1月 {#january-2026}
 
-* ライセンス使用状況ダッシュボードのドキュメントが、定義の詳細とトラブルシューティングのガイダンスを含む、**エンゲージ可能プロファイル**&#x200B;に関する更新されたガイダンスで明確になりました。 [詳細情報](../audience/license-usage.md#what-is-engageable-profile)
+* ライセンス使用状況ダッシュボードドキュメントが、**エンゲージメント可能なプロファイル**&#x200B;に関する最新のガイダンス（定義の詳細やトラブルシューティングのガイダンスを含む）により明確になりました。 [詳細情報](../audience/license-usage.md#what-is-engageable-profile)
 
-* Web フォントのサポート制限を明確にするために、メール Designerのテーマのドキュメントにメモが追加されました。 [詳細情報](../email/apply-email-themes.md#themes-guardrails)
+* E メールデザイナーのテーマドキュメントにメモが追加され、Web Fonts のサポート制限が明確になりました。 [詳細情報](../email/apply-email-themes.md#themes-guardrails)
 
 * 警告とエラーのしきい値、ジャーニーを最適化する方法に関するガイダンスなど、ジャーニーのペイロードサイズの検証を文書化する新しいガードレールの節が追加されました。 [詳細情報](../start/guardrails.md#journey-payload-size)
 
@@ -602,7 +602,7 @@ ht-degree: 66%
 * Information has been added regarding the behavior of timeouts on event activities in journeys. When no event is received during the specified timeout period, individuals will continue the journey if no timeout path is defined. [Read more](../building-journeys/general-events.md#events-specific-time)
 * In-app channel configuration prerequisites have been updated with a note about the usage of a custom Dataset preference merge policy. [Read more](../in-app/inapp-configuration.md)
 * More details have been added about how to manipulate collections in a custom action response. [Read more](../action/action-response.md#exp-syntax).
-* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja) has been added to the home page.
+* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html) has been added to the home page.
 * An outdated reference to the AJO Message resource has been removed from the list of resources available in the Audit Log. When an update is done on a message in a journey, a **Journey** log is created. [Read more](../privacy/audit-logs.md)
 * Additional recommendations have been added about the usage of the **Read Audience** activity. [Read more](../building-journeys/read-audience.md#must-read)
 * The Get started with Adobe Experience Platform audiences page has been improved with a list of audience generation methods. [Read more](../audience/about-audiences.md)
@@ -632,7 +632,7 @@ ht-degree: 66%
 * Decision management guardrails have been added to the Guardrails and limitations page. [Read more](../start/guardrails.md#decision-management)
 * The Header parameters section has been updated to reflect how out-of-office notifications and challenge responses are handled (they are received on the **[!UICONTROL Error email]**). [Read more](../email/email-settings.md#email-header)
 * A new section on how to preview and test your content has been created. [Read more](../content-management/preview-test.md)
-* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=ja){target="_blank"}
+* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
 * The Capping section has been updated to reflect the label changes relating to offer capping in the Decision management interface. [Read more](../offers/offer-library/add-constraints.md#capping)
 * The Add dynamic content into emails has been updated with details on how to delete a variant. [Read more](../personalization/dynamic-content.md#emails)
 * The example for capping & throttling configurations has been updated. [Read more](../configuration/external-systems.md)
@@ -707,7 +707,7 @@ ht-degree: 66%
 
 ## March 2023 {#march-2023}
 
-* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja)
+* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
 * All new features and improvements coming with [!DNL Journey Optimizer] March '23 release have been detailed in the documentation. [Read more](release-notes.md)
 * Added a step to enable Adobe Analytics events in your journeys. [Read more](../event/about-analytics.md)
 * A new section has been created in the Decision management guide on how to collect offer decisioning feedback in Adobe Experience Platform, including which offers are displayed and how users interact with them. [Read more](../offers/data-collection/data-collection.md)
@@ -835,7 +835,7 @@ ht-degree: 66%
 * The **reactions** event documentation page has been updated. [Read more](../building-journeys/reaction-events.md)
 * Videos for Decision management capabilities have been updated to reflect Journey Optimizer user interface. [Read more](../offers/get-started/starting-offer-decisioning.md)
 * The **Get Started with Datasets** section has been improved to detail how to access and create datasets. [Read more](../data/get-started-datasets.md)
-* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=ja)
+* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html)
 * The **Create message presets** section now specifies that you cannot proceed with preset creation while the selected IP pool is under edition (**[!UICONTROL Processing]** status) and has never been associated with the selected subdomain. [Read more](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * The message presets **URL tracking** section has been updated to reflect minor changes in the user interface. [Read more](../configuration/channel-surfaces.md#url-tracking)
 

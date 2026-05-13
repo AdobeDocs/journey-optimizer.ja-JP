@@ -2,31 +2,37 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: ジャーニーの基本を学ぶ
-description: ジャーニーの基本を学ぶ –  [!DNL Adobe Journey Optimizer]でパーソナライズされた顧客体験を作成するためのジャーニーの種類、ワークフロー、機能、ベストプラクティスについて説明します
+description: ジャーニーの基本を学ぶ -  [!DNL Adobe Journey Optimizer] でパーソナライズされたカスタマーエクスペリエンスを作成するジャーニーのタイプ、ワークフロー、機能、ベストプラクティスについて説明します。
 feature: Journeys, Get Started, Overview
 role: User
 level: Beginner, Intermediate
 keywords: ジャーニー, 検出, 開始, 単一, オーディエンスを読み取り, オーディエンスの選定, ビジネスイベント, リアルタイム, スケジュール済み, バッチ, イベントトリガー, ワークフロー, オーケストレーション, パーソナライゼーション, マルチチャネル
 exl-id: 73cfd48b-72e6-4b72-bbdf-700a32a34bda
 version: Journey Orchestration
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/FsZLMlzVj6CcTqVp9BPUmiCf2piZL8zaj2WfWv8FMSQ
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: baecb07f-ce89-4ebb-9cd9-0f7c053f944fid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4id: b9d00d1b-a371-4a75-a52a-3f8ea2029020id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d2e8a157-b3b0-4143-9ff3-809bf400be56id: ead8d40a-1b24-451e-a7c4-b2f1acb19f2eid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1615'
-ht-degree: 80%
+source-wordcount: 1615
+ht-degree: 100%
 
 ---
-
 
 # ジャーニーの基本を学ぶ {#jo-general-principle}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_canvas"
 >title="ジャーニーの作成"
->abstract="ドラッグ&amp;ドロップ操作のキャンバスを使用して、複数のチャネルをまたいでメッセージやアクションを編成し、コンテキストデータとオーディエンスのターゲティングを活用して、効果を最大化します。"
+>abstract="ドラッグ＆ドロップキャンバスを使用すると、コンテキストデータとオーディエンスターゲティングを活用して、複数のチャネルをまたいでメッセージとアクションを調整し、最大限の影響を得ることができます。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-gs" text="最初のジャーニーを作成"
 
 
-[!DNL Adobe Journey Optimizer]を利用すると、オーディエンスの行動やニーズにリアルタイムで適応する、パーソナライズされたマルチステップのカスタマージャーニーを作成できます。 直感的なドラッグ＆ドロップキャンバスを使用すると、コンテキストデータとオーディエンスターゲティングを活用して、複数のチャネルをまたいでメッセージとアクションを調整し、最大限の影響を得ることができます。
+[!DNL Adobe Journey Optimizer] を使用すると、オーディエンスの行動やニーズにリアルタイムで適応する、パーソナライズされた複数手順のカスタマージャーニーを作成できます。 直感的なドラッグ＆ドロップキャンバスを使用すると、コンテキストデータとオーディエンスターゲティングを活用して、複数のチャネルをまたいでメッセージとアクションを調整し、最大限の影響を得ることができます。
 
 このガイドでは、ジャーニーの基本を理解し、ユースケースに適したジャーニータイプを選択し、有意義でタイムリーなカスタマーエクスペリエンスを提供するジャーニーを自信を持ってデザインするのに役立つ明確なロードマップについて説明します。
 
@@ -42,17 +48,17 @@ ht-degree: 80%
 
 ![パレット、キャンバス、プロパティパネルを含むジャーニーデザイナーインターフェイス](assets/journey38.png)
 
-➡️ **構築を開始する準備ができましたか？** [最初のジャーニー](journey-gs.md)を5分で作成します。
+➡️ **作成を開始する準備は整っていますか？** 5 分で[最初のジャーニーを作成できます](journey-gs.md)。
 
-### ジャーニーと施策：それらを併用するタイミング {#journeys-vs-campaigns-intro}
+### ジャーニーとキャンペーン：それぞれを使用するタイミング {#journeys-vs-campaigns-intro}
 
-[!DNL Adobe Journey Optimizer]では、お客様にリーチするための3つのアプローチを提供しています：**ジャーニー** （1:1 リアルタイム オーケストレーション）、**キャンペーン** （シンプルなバッチまたはAPI トリガーの配信）、**キャンペーンのオーケストレーション** （複数エンティティティデータを含むバッチキャンバスワークフロー）。
+[!DNL Adobe Journey Optimizer] では、顧客にリーチするには、**ジャーニー**（1:1 のリアルタイムオーケストレーション）、**キャンペーン**（シンプルなバッチまたは API トリガーによる配信）、**オーケストレーションキャンペーン**（複数のエンティティデータを含むバッチキャンバスワークフロー）の 3 つのアプローチが用意されています。
 
 **クイック決定：**
 
 * 各顧客が自身のペースで進む、マルチステップの行動駆動型エクスペリエンスを実現するには、**ジャーニー**&#x200B;を使用します
-* **アクションおよびAPI トリガーによるキャンペーン**&#x200B;を使用して、シンプル、スケジュールまたはトリガーされたメッセージをオーディエンスに配信します
-* 複数のエンティティのセグメント化と正確な事前送信数を必要とする複雑なバッチワークフローに対して、**オーケストレーションされたキャンペーン**&#x200B;を使用します
+* オーディエンスに対するシンプルなメッセージ配信、スケジュールメッセージ配信、トリガーメッセージ配信を実現するには、**アクションおよび API トリガーキャンペーン**&#x200B;を使用します
+* マルチエンティティのセグメント化と正確な事前送信数を必要とする複雑なバッチワークフローを実現するには、**オーケストレーションキャンペーン**&#x200B;を使用します
 
 <!--
  waiting for DOCAC-13912
@@ -61,7 +67,7 @@ ht-degree: 80%
 
 ## ジャーニータイプの選択 {#journey-types}
 
-[!DNL Adobe Journey Optimizer]は4つのジャーニータイプをサポートしており、それぞれ異なるエントリメカニズムとビジネスシナリオ用に設計されています。
+[!DNL Adobe Journey Optimizer] では、それぞれ異なるエントリメカニズムとビジネスシナリオ向けにデザインされた、次の 4 つのジャーニータイプをサポートしています。
 
 * **単一ジャーニー**：リアルタイムのイベントトリガーエクスペリエンス（注文確認、ウェルカムメール）
 * **オーディエンスを読み取りジャーニー**：オーディエンスセグメントに対するスケジュール済みバッチ通信（ニュースレター、プロモーションキャンペーン）
@@ -84,7 +90,7 @@ ht-degree: 80%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **エントリポイントの定義**
 
@@ -94,7 +100,7 @@ ht-degree: 80%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **メッセージの送信**
 
@@ -104,7 +110,7 @@ Journey Optimizer でデザインされた、メール、プッシュ、SMS／MM
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **ロジックと条件の追加**
 
@@ -114,17 +120,17 @@ Journey Optimizer でデザインされた、メール、プッシュ、SMS／MM
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **データの活用**
 
-イベント、[!DNL Adobe Experience Platform]、またはサードパーティ API サービスからのコンテキストデータを使用します。
+イベント、[!DNL Adobe Experience Platform]、サードパーティの API サービスからのコンテキストデータを使用します。
 
 [データソースの操作](../datasource/about-data-sources.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **外部システムの接続**
 
@@ -134,7 +140,7 @@ Journey Optimizer でデザインされた、メール、プッシュ、SMS／MM
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **オーケストレーションアクティビティの追加**
 
@@ -145,7 +151,7 @@ Journey Optimizer でデザインされた、メール、プッシュ、SMS／MM
 
 ::::
 
-➡️ **実践的な学習：**&#x200B;[ジャーニーデザイナーのビデオを視聴](#video)するか、[エンドツーエンドのユースケースを探索](jo-use-cases.md)します
+➡️ **実践的な学習：**[ジャーニーデザイナーのビデオを視聴](#video)するか、[エンドツーエンドのユースケースを探索](jo-use-cases.md)します
 
 ## ジャーニー作成ワークフロー {#workflow}
 
@@ -153,16 +159,16 @@ Journey Optimizer でデザインされた、メール、プッシュ、SMS／MM
 
 **1. 計画** → **2. デザイン** → **3. テスト** → **4. 公開** → **5. 監視** → **6. 最適化**
 
-### &#x200B;1. ジャーニーの計画 {#plan}
+### &#x200B;1. ジャーニーを計画 {#plan}
 
 デザイナーを開く前に、目的を明確にします。
 
-* **目標は何ですか？** （例：新規顧客のオンボーディング、非アクティブユーザーのリエンゲージメント）
-* **オーディエンスは誰ですか？** （特定セグメント、イベント主導の個人）
-* **どのジャーニータイプが適合しますか？** （[&#x200B; ジャーニータイプ &#x200B;](#journey-types)を参照）
-* **どのチャネルを使用しますか？** （電子メール、プッシュ通知、SMSなど）
+* **目標は何ですか？** （例：新規顧客をオンボード、非アクティブユーザーを再び関与）
+* **オーディエンスは誰ですか？** （特定のセグメント、イベント駆動型の個人）
+* **適合するジャーニータイプはどれですか？** （上記の[ジャーニータイプ](#journey-types)を参照）
+* **使用するチャネルは何ですか？** （メール、プッシュ、SMS など）
 
-### &#x200B;2. カンバスでのデザイン {#design}
+### &#x200B;2. キャンバスでデザイン {#design}
 
 ジャーニーデザイナーを使用してフローを作成します。
 
@@ -174,7 +180,7 @@ Journey Optimizer でデザインされた、メール、プッシュ、SMS／MM
 
 [ジャーニーデザイナーの使用の詳細情報 →](using-the-journey-designer.md)
 
-### &#x200B;3. 本番稼働前にテスト {#test}
+### &#x200B;3. 公開前にテスト {#test}
 
 顧客に問題が発生する前に、常にジャーニーをテストして問題を検出します。
 
@@ -216,7 +222,7 @@ Journey Optimizer でデザインされた、メール、プッシュ、SMS／MM
 
 [ジャーニーの最適化 →](optimize.md) | [送信時間の最適化 →](send-time-optimization.md)
 
-➡️ **開始する準備ができましたか？** [今すぐ最初のジャーニーを作成する→](journey-gs.md)
+➡️ **開始する準備は整っていますか？** [今すぐ最初のジャーニーを作成できます →](journey-gs.md)
 
 ## 実際のユースケース {#use-cases}
 
@@ -225,7 +231,7 @@ Journey Optimizer でデザインされた、メール、プッシュ、SMS／MM
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **新規サブスクライバーの歓迎**
 
@@ -235,7 +241,7 @@ Journey Optimizer でデザインされた、メール、プッシュ、SMS／MM
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **送信時間の最適化**
 
@@ -245,7 +251,7 @@ AI を使用して、各顧客が最も関与する可能性の高いタイミ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **配信を増やす**
 
@@ -255,7 +261,7 @@ AI を使用して、各顧客が最も関与する可能性の高いタイミ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **平日のターゲット**
 
@@ -265,7 +271,7 @@ AI を使用して、各顧客が最も関与する可能性の高いタイミ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **マルチチャネルキャンペーン**
 
@@ -275,7 +281,7 @@ AI を使用して、各顧客が最も関与する可能性の高いタイミ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **すべてのユースケース**
 
@@ -293,7 +299,7 @@ AI を使用して、各顧客が最も関与する可能性の高いタイミ�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **高度な式**
 
@@ -303,7 +309,7 @@ AI を使用して、各顧客が最も関与する可能性の高いタイミ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 **タイムゾーン管理**
 
@@ -313,7 +319,7 @@ AI を使用して、各顧客が最も関与する可能性の高いタイミ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **テストモードとドライラン**
 
@@ -323,7 +329,7 @@ AI を使用して、各顧客が最も関与する可能性の高いタイミ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **サンドボックスへのコピー**
 
@@ -333,7 +339,7 @@ AI を使用して、各顧客が最も関与する可能性の高いタイミ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **タグと組織**
 
@@ -343,7 +349,7 @@ AI を使用して、各顧客が最も関与する可能性の高いタイミ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **スループット制御**
 
@@ -360,23 +366,23 @@ AI を使用して、各顧客が最も関与する可能性の高いタイミ�
 
 ジャーニーコンポーネントを視覚的に紹介し、キャンバスでジャーニーを作成するための基本について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430350?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
-➡️ **さらに動画を見ますか？** [&#x200B; ジャーニーのビデオチュートリアルを見る](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
+➡️ **さらにビデオを視聴しますか？** [ジャーニーのビデオチュートリアルをご覧ください](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/journeys/journey-designer-overview){target="_blank"}
 
 ## よくある質問 {#common-questions}
 
 +++ ジャーニーとキャンペーンの違いは何ですか？
 
-[!DNL Adobe Journey Optimizer]には、次の3つのアプローチがあります。
+[!DNL Adobe Journey Optimizer] には、次の 3 つのアプローチが用意されています。
 
 * **ジャーニー** - 1:1 のリアルタイムオーケストレーションで、各プロファイルがそれぞれのペースで異なるステップを進んでいきます。 条件付きロジックを使用した、行動駆動型のマルチステップエクスペリエンス（例：オンボーディング、買い物かごの放棄）に最適です。
 
 * **キャンペーン（アクションおよび API トリガー）**：スケジュールに従って、または API トリガーを通じてすべてのプロファイルに同時に実行される、オーディエンスへのシンプルなメッセージ配信。 プロモーションキャンペーン、ニュースレター、トランザクションメッセージに最適です。
 
-* **オーケストレーションされたキャンペーン**：関係データ（プロファイル +製品/ストア/予約）を使用した複雑なセグメンテーションを含むマルチステップのバッチワークフロー。 すべてのプロファイルは、正確な事前送信数と共に処理されます。 季節のプロモーション、製品のローンチ、マルチエンティティデータを必要とするキャンペーンに最適です。
+* **オーケストレーションキャンペーン**：リレーショナルデータ（プロファイル + 製品／店舗／予約）を使用した、複雑なセグメント化を含むマルチステップのバッチワークフロー。 すべてのプロファイルは、正確な事前送信数と共に処理されます。 季節のプロモーション、製品のローンチ、マルチエンティティデータを必要とするキャンペーンに最適です。
 
-**重要な違い**:ジャーニーは、リアルタイムのアクションに対して個々の顧客の状態を維持します。アクションとAPI トリガーのキャンペーンは、シンプルなメッセージを一括で配信します。オーケストレーションされたキャンペーンは、複数エンティティのセグメント化機能を備えたバッチワークフローキャンバスを提供します。
+**主な違い**：ジャーニーは、リアルタイムのアクションに対して個々の顧客の状態を維持します。アクションおよび API トリガーキャンペーンは、シンプルなメッセージをバッチで配信します。オーケストレーションキャンペーンは、マルチエンティティのセグメント化機能を含むバッチワークフローキャンバスを提供します。
 
 <!-- waiting for DOCAC-13912 - [See detailed comparison](#journeys-vs-campaigns) -->
 [オーケストレーションキャンペーンの詳細情報](../orchestrated/gs-orchestrated-campaigns.md)
@@ -398,7 +404,7 @@ Use the [decision guide](#decision-guide) or [comparison table](#journey-types-c
 
 +++
 
-➡️ **さらに質問がありますか？** [40以上の詳細な回答を含む完全なジャーニー FAQ](journey-faq.md)を表示します
+➡️ **その他の質問がありますか？** 40 以上の詳細な回答を含む[ジャーニーに関する完全な FAQ をご覧ください](journey-faq.md)
 
 ## サポートが必要な場合 {#help}
 
@@ -423,4 +429,4 @@ Use the [decision guide](#decision-guide) or [comparison table](#journey-types-c
 * **[実行の問題のトラブルシューティング](troubleshooting-execution.md)** - ジャーニー実行に関する問題のデバッグ
 * **[インバウンドアクティビティのトラブルシューティング](troubleshooting-inbound.md)** - エントリと選定に関する問題の修正
 
-**最初のジャーニーを構築する準備ができましたか？** [今すぐ始める→](journey-gs.md)
+**最初のジャーニーを作成する準備は整っていますか？** [今すぐ始めましょう →](journey-gs.md)

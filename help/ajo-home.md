@@ -8,7 +8,7 @@ exl-id: 3a1b6c61-82df-421c-98d8-2af4f2a5e0de
 source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
 workflow-type: tm+mt
 source-wordcount: '638'
-ht-degree: 85%
+ht-degree: 99%
 
 ---
 
@@ -29,9 +29,9 @@ Journey Optimizer の最新機能と改善点について詳しくは、リリ�
 [![詳細情報](using/assets/do-not-localize/learn-more-button.svg)](using/rn/release-notes.md)
 
 
->[!TAB  パーソナライゼーション用AI アシスタント ]
+>[!TAB パーソナライゼーション用 AI アシスタント]
 
-Personalization エディターまたは電子メール Designer ツールバー（**式**）の&#x200B;**AI アシスタント**&#x200B;を使用して、必要な内容を平易な言葉で記述したり、パーソナライゼーション式を取得したり、既存のコードを選択して説明、問題の修正、改善点を提案したりします。
+パーソナライゼーションエディターまたは E メールデザイナーツールバー（**式を追加**）の **AI アシスタント**&#x200B;を使用して、必要な内容をプレーンな言語で説明し、パーソナライゼーション式を取得することや、既存のコードを選択して説明することや、問題を修正することや、改善を提案します。
 
 [![詳細情報](using/assets/do-not-localize/learn-more-button.svg)](using/content-management/generative-personalization-expressions.md)
 
@@ -57,7 +57,7 @@ Journey Optimizer に、ブランド主導のバッチキャンペーン専用�
 
 ::::landing-cards-container
 :::
-![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 最新のリリースノート
 
@@ -67,7 +67,7 @@ Adobe Journey Optimizer の最新リリースノート、新機能および機�
 :::
 
 :::
-![アイコン](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 基本を学ぶ
 
@@ -77,7 +77,7 @@ Adobe Journey Optimizer の最新リリースノート、新機能および機�
 :::
 
 :::
-![アイコン](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 包括的なジャーニーガイド
 
@@ -87,7 +87,7 @@ Adobe Journey Optimizer の最新リリースノート、新機能および機�
 :::
 
 :::
-![アイコン](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg?lang=ja)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/bullhorn.svg)
 
 キャンペーンの理解と管理
 
@@ -97,7 +97,7 @@ Adobe Journey Optimizer の最新リリースノート、新機能および機�
 :::
 
 :::
-![アイコン](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ja)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 通信チャネル
 
@@ -107,7 +107,7 @@ Adobe Journey Optimizer の最新リリースノート、新機能および機�
 :::
 
 :::
-![アイコン](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg?lang=ja)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/scale-balanced.svg)
 
 競合管理と優先順位付け
 
@@ -136,11 +136,11 @@ Adobe Journey Optimizer の最新リリースノート、新機能および機�
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td><strong>Adobe Journey Optimizer</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=ja" target="_blank"> チュートリアル </a> - <a href="https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">製品説明</a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank"> セキュリティの概要（PDF） </a> - <a href="https://developer.adobe.com/journey-optimizer-apis" target="_blank">API リファレンス </a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja" target="_blank">Journey Optimizer スキーマ ディクショナリ </a>
+<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/overview.html?lang=ja" target="_blank">チュートリアル</a> - <a href="https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html" target="_blank">製品の説明</a> - <a href="https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf" target="_blank">セキュリティの概要（PDF）</a> - <a href="https://developer.adobe.com/journey-optimizer-apis" target="_blank">API リファレンス</a> - <a href="https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja" target="_blank">Journey Optimizer スキーマ辞書</a>
 
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ja" target="_blank"> ドキュメント </a> - <a href="https://www.adobe.com/jp/experience-platform/documentation-and-developer-resources.html" target="_blank">開発者リソース </a>
+<a href="https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ja" target="_blank">ドキュメント</a> - <a href="https://www.adobe.com/jp/experience-platform/documentation-and-developer-resources.html" target="_blank">開発者リソース</a>
 </td>
 </tr></table>
 

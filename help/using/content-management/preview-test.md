@@ -8,7 +8,7 @@ exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
 source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '545'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 92%
 
 >[!IMPORTANT]
 >
->**オーケストレーションされたキャンペーン**&#x200B;のチャネルアクティビティから&#x200B;**[!UICONTROL コンテンツをシミュレート]**&#x200B;する場合は、[&#x200B; コンテンツの確認とテスト &#x200B;](../orchestrated/activities/channels.md#simulate-content-test-profiles)を参照して、詳細と重要なメモを確認してください。
+>**オーケストレーションキャンペーン**&#x200B;のチャネルアクティビティから&#x200B;**[!UICONTROL コンテンツをシミュレート]**&#x200B;する場合は、[コンテンツの確認とテスト](../orchestrated/activities/channels.md#simulate-content-test-profiles)を参照して、詳細と重要な注意事項を確認してください。
 
 ## テストプロファイルデータまたはサンプル入力データを使用したテスト {#methods}
 
@@ -44,11 +44,11 @@ Journey Optimizer には、コンテンツをテストするための次の 2 �
 
   テストプロファイルを使用すると、コンテンツをプレビューしたり、メール本配信前確認を送信したり、メールのレンダリングを確認したりできます。 パーソナライズされたフィールドを追加した場合は、テストプロファイルデータを使用して、その表示方法を確認できます。 詳しくは、次の節を参照してください。
 
-  ➡️ [&#x200B; テストプロファイルを選択](test-profiles.md)
-➡️ [&#x200B; テストプロファイルを使用したプレビュー](preview.md)
-➡️ [電子メールのプルーフを送信](proofs.md)
-➡️ [&#x200B; メールのレンダリングを確認する](rendering.md)
-➡️ [電子メールのプレビューと校正（ビデオ） &#x200B;](#video-preview)
+  ➡️ [テストプロファイルの選択](test-profiles.md)
+➡️ [テストプロファイルを使用したプレビュー](preview.md)
+➡️ [メール本配信前確認を送信](proofs.md)
+➡️ [メールのレンダリングを確認](rendering.md)
+➡️ [メール（ビデオ）のプレビューと本配信前確認](#video-preview)
 
 * **サンプル入力データを使用したコンテンツバリエーションのテスト**
 
@@ -72,4 +72,4 @@ Journey Optimizer には、コンテンツをテストするための次の 2 �
 
 テストプロファイルを使用して、複数のインボックスにわたってメールのレンダリングをテストする方法、パーソナライズされたメールをテストプロファイルに対してプレビューする方法、配達確認を送信する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430339?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425026?quality=12)

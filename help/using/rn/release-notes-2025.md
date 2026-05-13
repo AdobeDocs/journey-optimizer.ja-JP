@@ -73,7 +73,7 @@ ht-degree: 99%
 <p>特定のデータセットに基づいて、ニーズに合わせてカスタマイズされたカスタムフォームを作成、デザイン、管理します。 その後、ランディングページでこれらのフォームを活用して、各フォームに定義されたデータセットに選択したプロファイル属性を追加できます。</p>
 <p>この機能は現在、米国およびオーストラリアのお客様を対象に限定提供されています。 アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
 <p><img src="assets/do-not-localize/forms.gif"/></p>
-<p>詳しくは、<a href="../landing-pages/lp-forms.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、 <a href="../landing-pages/lp-forms.md">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2025年10月23日（PT）</p>
 </td>
 </tr>
@@ -209,13 +209,13 @@ table>
 <table>
 <thead>
 <tr>
-<th><strong>High throughput messaging for API-triggered email campaigns</strong><br/></th>
+<th><strong>API トリガーメールキャンペーンの高スループットメッセージ</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>A new high throughput transactional messaging mode is available in API-triggered campaigns. このモードは、大規模なリアルタイムトランザクションメッセージ向けに設計され、1 秒あたり最大 5,000 トランザクションと高い可用性を実現します。 また、このモードでは、ゲストのチェックアウト、注文確認、パスワードリセット、セキュリティ通知、その他のサービス／操作に関する通知など、顧客プロファイルを参照または作成することなく、トランザクションメッセージをサポートします。</p>
+<p>API トリガーキャンペーンで新しい高スループットトランザクションメッセージモードが使用できるようになりました。 このモードは、大規模なリアルタイムトランザクションメッセージ向けに設計され、1 秒あたり最大 5,000 トランザクションと高い可用性を実現します。 また、このモードでは、ゲストのチェックアウト、注文確認、パスワードリセット、セキュリティ通知、その他のサービス／操作に関する通知など、顧客プロファイルを参照または作成することなく、トランザクションメッセージをサポートします。</p>
 <p>この機能は、アドビの高スループットトランザクションメッセージのアドオン機能を購入した組織がメールチャネルでのみ使用できます。 詳しくは、アドビ担当者にお問い合わせください。</p>
 <p>詳しくは、<a href="../campaigns/api-triggered-high-throughput.md">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2025年10月22日（PT）</p>
@@ -316,7 +316,7 @@ table>
 </ul>
 <p>この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。</p>
 <p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
-<p>詳しくは、<a href="../email/pdf-attachments.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、 <a href="../email/pdf-attachments.md">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2025年9月30日（PT）</p>
 </td>
 </tr>
@@ -529,7 +529,7 @@ You can now use AI models to optimize the best content in your email through the
 <p>このツールを使用すると、コミュニケーション、シーケンス、タイミングをテスト、調整、カスタマイズし、顧客に最も効果的にリーチできます。</p>
 <p>この機能は、限定提供で使用できます。 アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
 <p><img src="assets/do-not-localize/optimize.gif"/></p>
-<p>詳しくは、<a href="../building-journeys/optimize.md">詳細なドキュメント</a>を参照してください</p>
+<p>詳しくは、<a href="../building-journeys/optimize.md">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2025年9月4日（PT）</p>
 </td>
 </tr>
@@ -548,7 +548,7 @@ You can now use AI models to optimize the best content in your email through the
 <p>完全なデリゲーションと CNAME メソッドに加えて、新しいサブドメイン設定メソッドとして、カスタムデリゲーションメソッドが使用できるようになりました。これにより、メッセージの配信、レンダリング、トラッキングに必要な DNS のあらゆる側面を完全に制御および管理できます。</p>
 <p>この機能は、限定提供で使用できます。 アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
 <p><img src="assets/do-not-localize/custom-delegation.gif"/></p>
-<p>詳しくは、<a href="../configuration/delegate-custom-subdomain.md">詳細なドキュメント</a>を参照してください</p>
+<p>詳しくは、<a href="../configuration/delegate-custom-subdomain.md">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2025年9月4日（PT）</p>
 </td>
 </tr>
@@ -581,13 +581,13 @@ You can now use AI models to optimize the best content in your email through the
 
 ### 機能強化 {#sept-25-9-improvements}
 
-* **Webhook support for API-triggered campaigns**\
-  API-triggered campaigns now support webhooks. Webhook の URL を設定すると、すべてのメッセージのステータス更新をリアルタイムで受信できるので、観測性が向上し、シームレスな監視と自動化が可能になります。 [詳細情報](../configuration/feedback-webhooks.md)
+* **API トリガーキャンペーンの Webhook サポート**\
+  API トリガーキャンペーンで webhook がサポートされるようになりました。 Webhook の URL を設定すると、すべてのメッセージのステータス更新をリアルタイムで受信できるので、観測性が向上し、シームレスな監視と自動化が可能になります。 [詳細情報](../configuration/feedback-webhooks.md)
 
   公開日：2025年9月29日（PT）
 
-* SMS チャネルの&#x200B;**mTLS サポート**
-When setting up a custom SMS provider, you now have the option to enable mutual TLS (mTLS) authentication, which requires both the client and the server to confirm each other&#39;s identities before a secure connection is established. [詳細情報](../sms/sms-configuration-custom.md) - 公開日：2025年9月23日（PT）
+* **SMS チャネルの mTLS サポート**
+カスタム SMS プロバイダーを設定する際に、相互 TLS（mTLS）認証を有効にするオプションが追加されました。このオプションでは、安全な接続を確立する前に、クライアントとサーバーの両方が相互の ID を確認する必要があります。 [詳細情報](../sms/sms-configuration-custom.md) - 公開日：2025年9月23日（PT）
 
 * **リレーショナルスキーマ**\
   リレーショナルスキーマを使用して、オーケストレーションキャンペーンでのリレーショナルモデリングのニーズに対応できるようになりました。 [詳細情報](../orchestrated/gs-schemas.md) - 公開日：2025年9月23日（PT）
@@ -742,7 +742,7 @@ table>
 </ul>
 <p>この機能は、限定提供で使用できます。 アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
 <p><img src="assets/do-not-localize/action-activity.gif"/></p>
-<p>詳しくは、<a href="../building-journeys/journey-action.md">詳細なドキュメント</a>を参照してください</p>
+<p>詳しくは、<a href="../building-journeys/journey-action.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -765,7 +765,7 @@ table>
 </ul>
 <p>この機能は、限定提供で使用できます。 アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
 <p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
-<p>詳しくは、<a href="../email/pdf-attachments.md">詳細なドキュメント</a>を参照してください</p>
+<p>詳しくは、<a href="../email/pdf-attachments.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -975,7 +975,7 @@ Adobe Journey Optimizer では、人物ベースのプロファイルにリン�
 <p>独自のブランドを作成およびカスタマイズして、コミュニケーション全体で視覚的および言語的なアイデンティティを明確に定義できるようになりました。 ブランドのアラインメントスコアを使用すると、コンテンツがブランドのトーン、スタイル、ガイドラインをどの程度反映しているかに関するリアルタイムのフィードバックを受け取ることができ、送信するすべてのメッセージで一貫してブランドらしさを確保するのに役立ちます。</p>
 <p>この機能は、以前はベータ版でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。</p>
 <p><img src="assets/do-not-localize/brand-score.gif"/></p>
-<p>詳しくは、<a href="../content-management/brands.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、 <a href="../content-management/brands.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -1997,7 +1997,7 @@ table>
 <td>
 <p>以前は一連の組織（LA）に対して提供されていましたが、柔軟なオーディエンス評価はすべてのユーザー（GA）対して提供されるようになりました。 この機能を使用すると、選択したオーディエンスに対してオンデマンドでセグメント化ジョブを実行できるので、Journey Optimizer のジャーニーやキャンペーンにオーディエンスをターゲティングする前に、常に最新のオーディエンスデータを確保できます。</p>
 <img src="assets/do-not-localize/flexible-audience.gif">
-<p>詳しくは、<a href="../audience/creating-a-segment-definition.md#flexible">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、 <a href="../audience/creating-a-segment-definition.md#flexible">詳細なドキュメント</a>を参照してください。</p>
 </tr>
 </tbody>
 </table>

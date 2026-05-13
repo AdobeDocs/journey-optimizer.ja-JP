@@ -8,26 +8,33 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: c1027268-0bbe-4e35-a5a6-2aef78083dd3
-source-git-commit: 97fa287d94efb7fb95817fc15268e736517cb629
+TQID: https://experienceleague.adobe.com/Ev0xJ86fpweQxgf-VjGUEl4ebk6BdzhVof2BgiMR9EM
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c13ff12d-60f1-49cd-833a-d43359628223id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: 857
 ht-degree: 100%
 
 ---
 
 # テキストメッセージの基本を学ぶ {#get-started-sms}
 
-[!DNL Journey Optimizer] を使用すると、顧客のモバイルデバイスにテキストメッセージ（SMS／MMS／RCS）を送信できます。SMS／MMS／RCS エディターで、テキスト形式のメッセージの作成、パーソナライズおよびプレビューを行うことができます。
+[!DNL Journey Optimizer] を使用すると、顧客のモバイルデバイスにテキストメッセージ（SMS／MMS／RCS）を送信できます。 SMS／MMS／RCS エディターで、テキスト形式のメッセージの作成、パーソナライズおよびプレビューを行うことができます。
 
-テキストメッセージは、ジャーニーまたはキャンペーンで作成して送信できます。SMS、MMS、RCS の場合は、SMS アクションを使用します。
+テキストメッセージは、ジャーニーまたはキャンペーンで作成して送信できます。 SMS、MMS、RCS の場合は、SMS アクションを使用します。
 
-* **ジャーニー**&#x200B;の場合：ジャーニーを作成し、SMS アクティビティを追加し、基本設定を定義します。次に、右側の SMS アクションパネルを参照して、SMS、MMS または RCS メッセージのコンテンツを作成します。[ジャーニーを作成する方法について説明します](../building-journeys/journey-gs.md)
+* **ジャーニー**&#x200B;の場合： ジャーニーを作成し、SMS アクティビティを追加し、基本設定を定義します。 次に、右側の SMS アクションパネルを参照して、SMS、MMS または RCS メッセージのコンテンツを作成します。 [ジャーニーを作成する方法について説明します](../building-journeys/journey-gs.md)
 
-* **キャンペーン**&#x200B;の場合：キャンペーンを作成し、アクションとして SMS を選択し、基本設定を定義します。次に、メッセージコンテンツを編集して、送信する SMS、MMS または RCS メッセージを定義します。詳しくは、[アクションキャンペーン](../campaigns/campaign-action.md#action-campaign-action) | [API トリガーキャンペーン](../campaigns/api-triggered-campaigns.md) | [オーケストレーションキャンペーン](../orchestrated/create-orchestrated-campaign.md#create)を作成する方法を参照してください
+* **キャンペーン**&#x200B;の場合： キャンペーンを作成し、アクションとして SMS を選択し、基本設定を定義します。 次に、メッセージコンテンツを編集して、送信する SMS、MMS または RCS メッセージを定義します。 詳しくは、[アクションキャンペーン](../campaigns/campaign-action.md#action-campaign-action) | [API トリガーキャンペーン](../campaigns/api-triggered-campaigns.md) | [オーケストレーションキャンペーン](../orchestrated/create-orchestrated-campaign.md#create)を作成する方法を参照してください
 
 >[!IMPORTANT]
 >
->テキストメッセージを初めて作成する場合は、SMS チャネルが設定済みであることを確認してください。[詳細情報](sms-configuration.md)
+>テキストメッセージを初めて作成する場合は、SMS チャネルが設定済みであることを確認してください。 [詳細情報](sms-configuration.md)
 
 ## テキストメッセージ機能 {#sms-capabilities}
 
@@ -35,21 +42,21 @@ Adobe Journey Optimizer には、複数のチャネルをまたいで顧客と�
 
 **SMS（ショートメッセージサービス）**
 
-最大 160 文字のテキストのみのメッセージを送信します。SMS は、すべてのモバイルデバイスで最も広くサポートされているテキストメッセージ形式です。
+最大 160 文字のテキストのみのメッセージを送信します。 SMS は、すべてのモバイルデバイスで最も広くサポートされているテキストメッセージ形式です。
 
 **MMS（マルチメディアメッセージサービス）**
 
-ビデオ、画像、オーディオクリップ、GIF などのマルチメディアコンテンツを使用して通信を強化します。MMS メッセージでは、メディアファイルに加えて最大 1600 文字のテキストを使用できます。[MMS の制限の詳細情報](../start/guardrails.md#sms-guardrails)
+ビデオ、画像、オーディオクリップ、GIF などのマルチメディアコンテンツを使用して通信を強化します。 MMS メッセージでは、メディアファイルに加えて最大 1600 文字のテキストを使用できます。 [MMS の制限の詳細情報](../start/guardrails.md#sms-guardrails)
 
 **RCS（リッチ通信サービス）**
 
-カルーセル、リッチカード、推奨アクション、拡張メディアサポートなどの高度な機能を使用して、ブランド化されたインタラクティブなメッセージを送信します。RCS は、サポート対象のデバイスでよりリッチなメッセージエクスペリエンスを提供します。
+カルーセル、リッチカード、推奨アクション、拡張メディアサポートなどの高度な機能を使用して、ブランド化されたインタラクティブなメッセージを送信します。 RCS は、サポート対象のデバイスでよりリッチなメッセージエクスペリエンスを提供します。
 
 ## 主な特長 {#key-features}
 
 **パーソナライゼーションと動的コンテンツ**
 
-パーソナライゼーションエディターを使用して、パーソナライズされたテキストメッセージを作成します。プロファイル属性、条件付きコンテンツ、動的データを追加して、個々の受信者に合わせてメッセージをカスタマイズします。[パーソナライゼーションの詳細情報](../personalization/personalize.md)
+パーソナライゼーションエディターを使用して、パーソナライズされたテキストメッセージを作成します。 プロファイル属性、条件付きコンテンツ、動的データを追加して、個々の受信者に合わせてメッセージをカスタマイズします。 [パーソナライゼーションの詳細情報](../personalization/personalize.md)
 
 **複数のプロバイダーのサポート**
 
@@ -58,19 +65,19 @@ Adobe Journey Optimizer は、次の主要な SMS サービスプロバイダー
 * **Sinch** - [設定ガイド](sms-configuration-sinch.md)
 * **Twilio** - [設定ガイド](sms-configuration-twilio.md)
 * **Infobip** - [設定ガイド](sms-configuration-infobip.md)
-* **カスタムプロバイダー** - カスタム API 統合を使用して他の SMS プロバイダーを設定します。[詳細情報](sms-configuration-custom.md)
+* **カスタムプロバイダー** - カスタム API 統合を使用して他の SMS プロバイダーを設定します。 [詳細情報](sms-configuration-custom.md)
 
 **URL 短縮とトラッキング**
 
-エンゲージメントを監視するために、追跡可能な短縮 URL をメッセージに追加します。URL 短縮機能には、サブドメインの設定が必須です。[SMS サブドメインの設定方法の詳細情報](sms-subdomains.md)
+エンゲージメントを監視するために、追跡可能な短縮 URL をメッセージに追加します。 URL 短縮機能には、サブドメインの設定が必須です。 [SMS サブドメインの設定方法の詳細情報](sms-subdomains.md)
 
 **オプトアウト管理**
 
-組み込みのオプトアウト管理を通じて、業界標準および規制への準拠を確保します。Journey Optimizer は、Sinch および Infobip プロバイダーの標準のオプトアウトキーワード（STOP、QUIT、CANCEL など）を自動的に処理します。[オプトアウト管理の詳細情報](sms-opt-out.md)
+組み込みのオプトアウト管理を通じて、業界標準および規制への準拠を確保します。 Journey Optimizer は、Sinch および Infobip プロバイダーの標準のオプトアウトキーワード（STOP、QUIT、CANCEL など） を自動的に処理します。 [オプトアウト管理の詳細情報](sms-opt-out.md)
 
 **プレビューとテスト**
 
-テストプロファイルとサンプルデータを使用して、テキストメッセージを送信する前にテストします。パーソナライゼーション、コンテンツ、書式設定をプレビューして、メッセージが正しく表示されることを確認します。[メッセージの送信方法の詳細情報](send-sms.md)
+テストプロファイルとサンプルデータを使用して、テキストメッセージを送信する前にテストします。 パーソナライゼーション、コンテンツ、書式設定をプレビューして、メッセージが正しく表示されることを確認します。 [メッセージの送信方法の詳細情報](send-sms.md)
 
 **レポートと分析**
 
@@ -88,7 +95,7 @@ Adobe Journey Optimizer は、次の主要な SMS サービスプロバイダー
 3. **チャネル設定を作成** - マーケティングメッセージとトランザクションメッセージ用の SMS 設定を指定します
 4. **サブドメインを設定（オプション）** - メッセージで URL 短縮を使用する予定がある場合にのみ必須です
 
-これらの設定手順は通常、システム管理者が実行します。[SMS 設定の基本を学ぶ](sms-configuration.md)
+これらの設定手順は通常、システム管理者が実行します。 [SMS 設定の基本を学ぶ](sms-configuration.md)
 
 ## クイックスタートガイド {#quick-start}
 
@@ -202,7 +209,7 @@ SMS メッセージを設定、作成およびカスタマージャーニーに�
 
 +++こちらのビデオをご覧ください
 
->[!VIDEO](https://video.tv.adobe.com/v/3422696?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3420509?learn=on)
 
 +++
 
@@ -212,7 +219,7 @@ Adobe Journey Optimizer がマーケターに提供する包括的なモバイ�
 
 +++こちらのビデオをご覧ください
 
->[!VIDEO](https://video.tv.adobe.com/v/3430376?captions=jpn&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3426021?quality=12&learn=on)
 
 +++
 
@@ -222,7 +229,7 @@ Adobe Journey Optimizer がマーケターに提供する包括的なモバイ�
 
 +++こちらのビデオをご覧ください
 
->[!VIDEO](https://video.tv.adobe.com/v/3464756?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3464755)
 
 +++
 

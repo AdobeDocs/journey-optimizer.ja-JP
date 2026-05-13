@@ -2,16 +2,23 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: インターフェイスの操作
-description: Adobe Journey Optimizer インターフェイスを操作し、トップバー、ホームページ、左ナビゲーションなどの主要機能にアクセスする方法について説明します。
+description: Adobe Journey Optimizer インターフェイスの操作方法と、上部バー、ホームページ、左側のナビゲーションなどの主な機能へのアクセス方法について説明します。
 feature: Overview, Get Started
 topic: Content Management
 role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/RqIzgHdwFqBmYLPKbMkAvscFopYMF-lt2gY4Vl34GKA
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944fid: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b19d9237-76be-466d-a869-aacf2d72205fid: b2044d1a-3b9b-4bf9-af40-0a221e7e1e53id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: b856530c-d60b-42d8-a19d-df2dfd7fe62aid: c6e980f5-2d4f-494f-beef-186b9ecf1513id: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: d2e8a157-b3b0-4143-9ff3-809bf400be56id: d595a60b-bcf5-4a63-a189-66a0be755cc7id: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: e5fe9ec6-65e8-420b-8dfd-f088fffaf90cid: f550d0f2-143d-4093-9463-467fbec95fccid: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebbid: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1524'
-ht-degree: 75%
+source-wordcount: 1524
+ht-degree: 90%
 
 ---
 
@@ -28,22 +35,22 @@ Adobe Journey Optimizer にアクセスするには、Adobe ID を使用して [
 
 Journey Optimizer インターフェイスは、次の 4 つの主な領域で構成されます。
 
-![左側のナビゲーション、上部バー、メインワークスペース、ホームページエリアを表示するJourney Optimizerのホームページ &#x200B;](assets/ajo-home.png)
+![左側のナビゲーション、上部バー、メインワークスペース、ホームページ領域を示す Journey Optimizer ホームページ](assets/ajo-home.png)
 
 1. **左側のナビゲーション** - 機能別に整理されたすべての機能と特長へのアクセス
 2. **上部バー** - ユニバーサル検索、ヘルプ、通知、設定
 3. **ホームページ** - 最近作成した項目や役立つリソースへのクイックアクセス
 4. **主なワークスペース** - コンテンツを作成および管理する場所
 
-**ヒント：**&#x200B;新規ユーザーは、**ホーム** ページから開始して、最近のアイテムとユースケースにアクセスするか、上部バーの&#x200B;**ヘルプ** アイコンを使用してコンテキストガイダンスを得ることができます。
+**ヒント：**&#x200B;新規ユーザーは、**ホーム**&#x200B;ページから最近の項目やユースケースにアクセスしたり、上部バーにある&#x200B;**ヘルプ**&#x200B;アイコンを使用してコンテキストガイダンスを参照したりできます。
 
 ## 上部バーの機能 {#top-bar}
 
 ### ユニバーサル検索 {#universal-search}
 
-検索アイコンを使用すると、Journey Optimizer をまたいでジャーニー、キャンペーン、アセット、他のオブジェクトをすばやく検索できます。 キーワードを入力すると、プラットフォームのすべての領域から関連する結果が表示されます。 [&#x200B; ユニバーサル検索の詳細](search-filter-categorize.md#unified-search)。
+検索アイコンを使用すると、Journey Optimizer をまたいでジャーニー、キャンペーン、アセット、他のオブジェクトをすばやく検索できます。 キーワードを入力すると、プラットフォームのすべての領域から関連する結果が表示されます。 [ユニバーサル検索の詳細情報](search-filter-categorize.md#unified-search)。
 
-### ヘルプ&amp;サポート {#help}
+### ヘルプとサポート {#help}
 
 **ヘルプ**&#x200B;アイコンをクリックすると、次の操作を実行できます。
 
@@ -56,15 +63,15 @@ Journey Optimizer インターフェイスは、次の 4 つの主な領域で�
 
 ![コンテキストヘルプの例](assets/do-not-localize/Context-help.gif)
 
-#### サポートチケットのガイドライン {#support-ticket-guidelines}
+#### サポートチケットガイドライン {#support-ticket-guidelines}
 
-Adobe サポートに連絡する際は、根本原因の分析と解決を迅速に進めるために、次の情報を含めてください。
+アドビサポートにお問い合わせいただく際は、根本原因の分析と解決を迅速化するために、次の情報を含めてください。
 
-* **環境の詳細** - サンドボックス名、組織ID、および製品領域（例：ジャーニー、キャンペーン、決定）
-* **影響レベル** – 問題の重要度（例：実稼動がブロックされている、機能が制限されている、化粧品）
-* **レプリケーション手順** – 問題を再現するための明確な手順の手順
-* **ログまたはスクリーンショット** – 関連するエラーメッセージ、リクエスト ID、または問題を示すスクリーンショット
-* **関連ID** - ジャーニー ID、キャンペーン ID、オーディエンス ID、または問題に関連するその他のオブジェクト ID
+* **環境の詳細** - サンドボックス名、組織 ID、製品領域（例：ジャーニー、キャンペーン、決定）
+* **影響レベル** - 問題の重要度（例：本番環境がブロックされている、機能が制限されている、コスメティック）
+* **レプリケーション手順** - 問題を再現するための明確な手順
+* **ログまたはスクリーンショット** - 関連するエラーメッセージ、リクエスト ID、問題を示すスクリーンショット
+* **関連 ID** - ジャーニー ID、キャンペーン ID、オーディエンス ID、問題に関連するその他のオブジェクト識別子
 
 ### 通知 {#in-product-uc}
 
@@ -93,7 +100,7 @@ Adobe サポートに連絡する際は、根本原因の分析と解決を迅�
 3. オプションで、フォールバックとして第 2 言語を選択します
 4. 「**保存**」をクリックします。
 
-キーボードショートカットとアクセシビリティ機能を利用できます。 [詳細情報](accessibility.md)
+キーボードショートカットとアクセシビリティ機能が使用できます。 [詳細情報](accessibility.md)
 
 ## ホームページ {#home-page}
 
@@ -122,14 +129,14 @@ Adobe サポートに連絡する際は、根本原因の分析と解決を迅�
 |---------|---------|
 | Journey Management | キャンペーン、ジャーニー、レポート |
 | 意思決定管理 | オファーとパーソナライゼーション |
-| コンテンツ管理 | Assets、テンプレート、フラグメント、ランディングページ |
+| コンテンツ管理 | アセット、テンプレート、フラグメント、ランディングページ |
 | データ管理 | スキーマ、データセット、クエリ |
 | 接続 | ソースと宛先 |
 | 顧客 | オーディエンス、プロファイル、ID |
 | プライバシー | ポリシー、リクエスト、監査 |
 | 管理 | 設定、チャネル、サンドボックス |
 
-### メインセクション {#main-sections}
+### 主なセクション {#main-sections}
 
 **ホーム** - 最近作成した項目や役立つリソースへのクイックアクセスを含む開始点
 
