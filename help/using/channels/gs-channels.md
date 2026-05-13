@@ -6,23 +6,42 @@ description: ' [!DNL Adobe Journey Optimizer]  通信チャネルの操作方法
 role: User
 level: Beginner
 exl-id: 5779bcee-49c0-4ffa-9b17-329ef458c96a
-source-git-commit: 016d905840a3ccc05ca1d2a934130b53c1108e7c
+TQID: https://experienceleague.adobe.com/XJ8i9eeM9AIlEiMMNAPyzjqIGJi2EXlxEMj0K6KseUM
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: c618a0dc-1818-4c6d-9916-0d92e6796f24
+  - id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
+  - id: e240d5e8-8393-4b76-8a3d-9e53a2f7306c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e9001ce2-5245-4a8e-8601-dd958009072f
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 84%
+source-wordcount: 676
+ht-degree: 100%
 
 ---
 
-
 # [!DNL Adobe Journey Optimizer] チャネルの基本を学ぶ {#get-started-email}
 
-今日の動的なマーケティング環境では、様々なプラットフォーム間で効果的にオーディエンスにリーチすることは、永続的な関係を作成し、エンゲージメントを推進するために不可欠です。この節では、[!DNL Adobe Journey Optimizer] 内で使用可能な通信チャネルの包括的な概要について説明します。これは、マーケティング戦略で各チャネルを効果的に利用する方法を理解するのに役立ちます。
+今日の動的なマーケティング環境では、様々なプラットフォーム間で効果的にオーディエンスにリーチすることは、永続的な関係を作成し、エンゲージメントを推進するために不可欠です。 この節では、[!DNL Adobe Journey Optimizer] 内で使用可能な通信チャネルの包括的な概要について説明します。これは、マーケティング戦略で各チャネルを効果的に利用する方法を理解するのに役立ちます。
 
-Adobe Journey Optimizer には、オーディエンスと効果的にエンゲージするための様々なネイティブチャネルが用意されています。アウトバウンドメッセージ配信とインバウンドエクスペリエンスを組み合わせることができます。
+Adobe Journey Optimizer には、オーディエンスと効果的にエンゲージするための様々なネイティブチャネルが用意されています。 アウトバウンドメッセージ配信とインバウンドエクスペリエンスを組み合わせることができます。
 
 ## メッセージ配信用のアウトバウンドチャネル {#outbound-channels}
 
-アウトバウンドメッセージ配信チャネルには、事前のインタラクションなしに顧客にメッセージを送信することが含まれます。例えば、オーディエンスに積極的にリーチするメールキャンペーンやプッシュ通知があります。[!DNL Adobe Journey Optimizer] でサポートされているアウトバウンドチャネルは次のとおりです。
+アウトバウンドメッセージ配信チャネルには、事前のインタラクションなしに顧客にメッセージを送信することが含まれます。 例えば、オーディエンスに積極的にリーチするメールキャンペーンやプッシュ通知があります。 [!DNL Adobe Journey Optimizer] でサポートされているアウトバウンドチャネルは次のとおりです。
 
 :::: landing-cards-container
 
@@ -49,11 +68,11 @@ Adobe Journey Optimizer には、オーディエンスと効果的にエンゲ�
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=ja)
 
-iOS Live アクティビティ
+iOS ライブアクティビティ
 
-IPhoneのロック画面とDynamic Islandで、永続的なリアルタイム更新を直接配信できます。 個々のユースケース（注文追跡、乗り物のステータス）またはブロードキャストユースケース（スポーツスコア、フライトステータス）向けに、API トリガーによるキャンペーンからライブアクティビティを強化します。
+IPhone のロック画面と Dynamic Island で、永続的なリアルタイム更新を直接配信できます。 個別のユースケース（注文トラッキング、ライドステータス）またはブロードキャストユースケース（スポーツのスコア、フライトステータス）向けに、API トリガーキャンペーンからライブアクティビティを強化します。
 
-[IOSのライブアクティビティについて詳しく見る](../mobile-live/get-started-mobile-live.md)
+[iOS ジャーニーアクティビティの詳細情報](../mobile-live/get-started-mobile-live.md)
 :::
 
 :::
@@ -79,28 +98,28 @@ SMS／MMS／RCS メッセージ
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=ja)
 
-WhatsApp メッセージ
+WhatsApp Messaging
 
-Meta Cloud APIを介してWhatsApp メッセージを統合および使用し、パーソナライズされたコンプライアンスに準拠したコミュニケーション施策とジャーニーを実現する方法をご確認ください。
+パーソナライズされた準拠した通信キャンペーンおよびジャーニーに対して、Meta の Cloud API を介して WhatsApp メッセージを統合および使用する方法について説明します。
 
-[WhatsApp メッセージの詳細](../../rp_landing_pages/whatsapp-landing-page.md)
+[WhatsApp messaging の詳細情報](../../rp_landing_pages/whatsapp-landing-page.md)
 :::
 
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/comment.svg?lang=ja)
 
-LINE メッセージング
+LINE メッセージ
 
-キャンペーンやジャーニーで効果的なコミュニケーションを行うために、LINE メッセージを設定、作成、パーソナライズする方法について説明します。
+キャンペーンやジャーニーで効果的な通信を実現する、LINE メッセージの設定、作成、パーソナライズ方法について説明します。
 
-[LINE メッセージの詳細](../../rp_landing_pages/line-landing-page.md)
+[LINE メッセージの詳細情報](../../rp_landing_pages/line-landing-page.md)
 :::
 
 ::::
 
 ## モバイルアプリと web エクスペリエンス {#inbound-channels}
 
-モバイルアプリと web インバウンドエクスペリエンスを使用して、顧客はインタラクションを開始します。例えば、ユーザーが自分の条件でコンテンツをエンゲージするアプリ内メッセージングや web ベースのインタラクションがあります。[!DNL Adobe Journey Optimizer] でサポートされているインバウンドチャネルは次のとおりです。
+モバイルアプリと web インバウンドエクスペリエンスを使用して、顧客はインタラクションを開始します。 例えば、ユーザーが自分の条件でコンテンツをエンゲージするアプリ内メッセージングや web ベースのインタラクションがあります。 [!DNL Adobe Journey Optimizer] でサポートされているインバウンドチャネルは次のとおりです。
 
 :::: landing-cards-container
 
@@ -151,9 +170,9 @@ SDK と API を使用して、デジタルプラットフォーム全体でパ�
 
 Adobe Journey Optimizer では、次の 2 つのプライマリコンテキストで通信チャネルを活用できます。
 
-- **ジャーニー**：複数のタッチポイント間でシームレスな顧客体験を作成します。ユーザーの行動と好みに基づいてインタラクションを自動化し、ブランドとのジャーニーを通じてユーザーをガイドする、タイムリーで関連する通信を確保します。[詳しくは、ジャーニーの作成および実行方法を参照してください](../building-journeys/journey-gs.md)。
+- **ジャーニー**：複数のタッチポイント間でシームレスな顧客体験を作成します。 ユーザーの行動と好みに基づいてインタラクションを自動化し、ブランドとのジャーニーを通じてユーザーをガイドする、タイムリーで関連する通信を確保します。 [詳しくは、ジャーニーの作成および実行方法を参照してください](../building-journeys/journey-gs.md)。
 
-- **キャンペーン**：特定のチャネルを利用する特定のマーケティングキャンペーンをデプロイし、ターゲット目標を達成します。新製品のプロモーションや季節的な販売の推進にかかわらず、キャンペーンを使用すると、オーディエンスに合わせて焦点を当てたメッセージング戦略を作成できます。[詳しくは、キャンペーンの作成と実行方法を参照してください](../campaigns/get-started-with-campaigns.md)。
+- **キャンペーン**：特定のチャネルを利用する特定のマーケティングキャンペーンをデプロイし、ターゲット目標を達成します。 新製品のプロモーションや季節的な販売の推進にかかわらず、キャンペーンを使用すると、オーディエンスに合わせて焦点を当てたメッセージング戦略を作成できます。 [詳しくは、キャンペーンの作成と実行方法を参照してください](../campaigns/get-started-with-campaigns.md)。
 
 以下の表は、様々なジャーニーとキャンペーンをまたいだ各チャネルの利用可能性と、サポートの対象となる内容を示したものです。
 
@@ -162,7 +181,7 @@ Adobe Journey Optimizer では、次の 2 つのプライマリコンテキス�
 | メール | ✅ | ✅ | ✅ | ✅ | ✅ |
 | SMS | ✅ | ✅ | ✅ | ✅ | ✅ |
 | プッシュ通知 | ✅ | ✅ | ✅ | ✅ | ✅ |
-| iOS Live アクティビティ | — | — | — | ✅ | — |
+| iOS ライブアクティビティ | — | — | — | ✅ | — |
 | アプリ内 | ✅ | ✅ | — | — | — |
 | ダイレクトメール | ✅ | ✅ | — | — | ✅ |
 | Web | ✅ | ✅ | — | — | — |

@@ -9,10 +9,27 @@ role: User
 level: Beginner
 mini-toc-levels: 1
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/lACM3Joa-M9aAfD0YOX4jOndjrcoiLMDAEBdFxgjt8o
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '999'
-ht-degree: 92%
+source-wordcount: 999
+ht-degree: 100%
 
 ---
 
@@ -78,7 +95,7 @@ Adobe Journey Optimizer の AI アシスタントを使用して、様々なメ�
 
 >[!IMPORTANT]
 >
->* この機能の使用を開始する前に、関連する[&#x200B; ガードレールと制限事項](#generative-guardrails)をお読みください。
+>* この機能の使用を開始する前に、関連する[ガードレールと制限](#generative-guardrails)を参照してください。
 >
 >
 >* Adobe Journey Optimizer で AI アシスタントを使用する前に、[ユーザー契約](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}に同意する必要があります。 詳しくは、アドビ担当者にお問い合わせください。
@@ -140,14 +157,14 @@ Adobe Journey Optimizer の AI アシスタントにアクセスするには、�
 * AI アシスタントの使用は、Adobe Experience Cloud 生成 AI ユーザーガイドラインの対象となります。 [詳細情報](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)
 * メディア作成における生成 AI ツールの使用の透明性を促進するアドビの取り組みの一環として、アドビでは、Firefly で生成されたアセットを含むコンテンツまたはプロジェクトがダウンロードまたはエクスポートされる際に、Content Credentials を適用します。 [詳細情報](https://helpx.adobe.com/jp/firefly/using/content-credentials.html)
 
-### パーソナライゼーション表現のためのAI アシスタント {#ai-assistant-personalization-editor-guardrails}
+### パーソナライゼーション式用 AI アシスタント {#ai-assistant-personalization-editor-guardrails}
 
-次のガードレールは、[!UICONTROL Personalization Editor]およびメール Designerのパーソナライゼーション式[&#128279;](generative-personalization-expressions.md)のAI アシスタントに適用されます。
+次のガードレールは、[!UICONTROL パーソナライゼーションエディター]および E メールデザイナーでの[パーソナライゼーション式用 AI アシスタント](generative-personalization-expressions.md)に適用されます。
 
-* **オファーとエクスペリエンス決定** — サポートされていません。
-* **お気に入り** — サポートされていません。
-* **保存された条件** — サポートされていません。
-* **Adobe Experience Manager コンテンツフラグメント** — サポートされていません。
+* **オファーとエクスペリエンス決定** - サポートされていません。
+* **お気に入り** - サポートされていません。
+* **保存された条件** - サポートされていません。
+* **Adobe Experience Manager コンテンツフラグメント** - サポートされていません。
 
 ## AI アシスタントのコンテンツ生成機能 {#generative-features}
 

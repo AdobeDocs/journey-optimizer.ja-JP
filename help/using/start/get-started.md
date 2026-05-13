@@ -7,24 +7,51 @@ feature: Get Started
 topic: Content Management
 role: User
 level: Beginner
-keywords: journey optimizer, ajoとは，adobe journey optimizer，入門，オムニチャネル，パーソナライゼーション，カスタマージャーニー
+keywords: Journey Optimizer, AJO とは, Adobe Journey Optimizer, 基本を学ぶ, オムニチャネル, パーソナライゼーション, カスタマージャーニー
 exl-id: 956178c0-9985-4ff8-a29e-17dd367ce4d4
-source-git-commit: c4404de32e9a1d400273863185c1b7fa9b21eb6d
+TQID: https://experienceleague.adobe.com/HYykJIqT1bcoN1oXrG6uvfNuhDNOGLfPtOAf-Y3hzsQ
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: addf009e-030a-4310-8534-776a3e62ed48
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1218'
-ht-degree: 14%
+source-wordcount: 1296
+ht-degree: 100%
 
 ---
 
-# Journey Optimizer の概要 {#ajo-gs}
+# Journey Optimizer の基本を学ぶ {#ajo-gs}
 
-Adobe Journey Optimizerとは何か、それは誰のために、その主な能力と、Adobe Experience Platformアーキテクチャにどのように適合するかをご紹介します。 新規ユーザーの出発点として推奨されます。
+このページでは、Adobe Journey Optimizer の概要、対象ユーザー、主な機能、Adobe Experience Platform アーキテクチャに適合する仕組みについて説明します。 これは、新規ユーザーに対して推奨される開始点です。
 
 ## [!DNL Adobe Journey Optimizer] とは？{#about-ajo}
 
-[!DNL Adobe Journey Optimizer]は、あらゆるチャネルと顧客接点をまたいで、連続性があり、コンテキストに即して、パーソナライズされた顧客体験を構築および提供するためのエンタープライズアプリケーションです。 [!DNL Adobe Experience Platform]上にネイティブに構築されており、統合されたリアルタイムの顧客プロファイル、API ファーストのオープンフレームワーク、一元化されたオファー決定機能、AI/マシンラーニング機能を活用しています。 Journey Optimizerなら、スケジュール型のマーケティング施策とリアルタイムのイベントトリガーによるコミュニケーションの両方を、単一のアプリケーションから大規模に編成できます。 その結果、顧客のロイヤルティと生涯価値を高める有意義なブランド体験を創出できます。
+[!DNL Adobe Journey Optimizer] は、すべてのチャネルとタッチポイントをまたいで、つながりがあり、コンテキストに応じて、パーソナライズされたカスタマーエクスペリエンスを作成および提供するエンタープライズアプリケーションです。 これは [!DNL Adobe Experience Platform] 上にネイティブに作成され、統合されたリアルタイム顧客プロファイル、API ファーストのオープンなフレームワーク、一元化されたオファー決定支援、AI／ML 機能を活用します。 Journey Optimizer により、ブランドがスケジュール済みのマーケティングキャンペーンとリアルタイムのイベントトリガー通信の両方を、単一のアプリケーションから大規模に調整できます。 その結果、顧客の忠誠度とライフタイム値を向上させる、有意義なブランドエクスペリエンスが実現します。
 
-このガイドは、Journey Optimizerを初めて利用するマーケター、オペレーションチーム、管理者に適用されます。
+このガイドは、Journey Optimizer を初めて使用するマーケター、運用チーム、管理者に適用されます。
 
 ➡️ [Journey Optimizer の概要を確認](https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction.html?lang=ja){target="_blank"}（ビデオ）
 
@@ -40,110 +67,110 @@ You can also create audience-based campaigns to send messages.
 
 [!DNL Adobe Journey Optimizer] は、アプリケーション、デバイス、チャネルを問わず、パーソナライズされ、接続されたタイムリーな顧客エクスペリエンスを作成して提供するための、アジャイルで拡張性の高いアプリケーションです。
 
-![Journey Optimizerの3つの主要な機能領域を示す図：Real-time Customer Insights &amp; Engagement、Modern Omnichannel Orchestration &amp; Execution、Intelligent Decisioning &amp; Personalization、すべてAdobe Experience Platform上に構築されています。](assets/ajo-capabilities.png)
+![Journey Optimizer の 3 つのコア機能領域（リアルタイムの顧客インサイトとエンゲージメント、最新のオムニチャネルオーケストレーションと実行、インテリジェントな意思決定とパーソナライゼーション）を示す図。これらのすべてが Adobe Experience Platform 上に作成されています。](assets/ajo-capabilities.png)
 
 主な機能は次のとおりです。
 
 ### リアルタイムの顧客インサイトとエンゲージメント
 
-統合プロファイルは、行動データ、トランザクションデータ、財務データ、運用データなど、あらゆるソースからの顧客接点に関するライブデータを統合し、顧客がリアルタイムでパーソナライズされたエクスペリエンスやコンテクストに即したエクスペリエンスを最適化できるようにします。 [&#x200B; プロファイルとオーディエンスについて学ぶ](../audience/get-started-profiles.md)
+統合されたプロファイルは、行動データ、トランザクションデータ、財務データ、運用データなど、顧客のタッチポイントを横断するすべてのソースからのライブデータを融合し、顧客の個人的およびコンテキストに応じたエクスペリエンスを最適化します。 [プロファイルとオーディエンスの詳細情報](../audience/get-started-profiles.md)
 
 ### 最新のオムニチャネルオーケストレーションと実行
 
-単一のキャンバスで、1:1の顧客エンゲージメントとマーケティングのアウトリーチのカスタマージャーニーを調整および最適化し、顧客ライフサイクル全体でより多くの価値を提供できるよう支援します。 [!DNL Adobe Journey Optimizer]で設計されたカスタマージャーニーは、動的かつイベントベースであり、ブランドがリアルタイムのシグナルに反応し、それらのインタラクションをスケジュールされたキャンペーンと結びつけるのに役立ちます。これにより、どのコミュニケーションを、いつ、どのチャネルを通じて送信すべきかについて、適切な意思決定をおこなうことができます。 ドラッグ&amp;ドロップによるビジュアルデザイナー、再利用可能なテンプレート、コンテンツフラグメント、パーソナライゼーションエディターなどの組み込みのコンテンツ制作ツールを利用して、あらゆるチャネルに対応するメッセージを同じワークフロー内で直接作成、パーソナライズ、管理できます。 [最初のジャーニーを構築](../building-journeys/journey-gs.md) | [&#x200B; コンテンツをデザイン &#x200B;](../../rp_landing_pages/content-management-landing-page.md)
+1:1 の顧客エンゲージメントとマーケティングアウトリーチのために、カスタマージャーニーを調和させ、最適化できる単一のキャンバスです。これによってブランドは、カスタマーライフサイクルを通じてより多くの価値を提供できるようになります。 [!DNL Adobe Journey Optimizer] で設計されたカスタマージャーニーは、イベントベースの動的なものにすることができます。これにより、ブランドは状況にリアルタイムに反応し、これらのやり取りをスケジュールされたキャンペーンと結び付け、顧客に送信するコミュニケーション、タイミング、チャネルに関して適切な決定を下すことができます。 ドラッグ＆ドロップによるビジュアルデザイナー、再利用可能なテンプレート、コンテンツフラグメント、パーソナライゼーションエディターなどの組み込みのコンテンツ制作ツールにより、チームはすべてのチャネル向けメッセージを同じワークフロー内で直接作成、パーソナライズ、管理できます。 [最初のジャーニーの作成](../building-journeys/journey-gs.md) | [コンテンツのデザイン](../../rp_landing_pages/content-management-landing-page.md)
 
-### インテリジェントな意思決定とPersonalization
+### インテリジェントな意思決定とパーソナライゼーション
 
-一元化された意思決定システムを適用し、AI （人工知能）とマシンラーニング（機械学習）を組み込むことで、顧客体験全体で予測的なインサイトを設定することができます。これにより、意思決定の自動化やエクスペリエンスの大規模な最適化が容易になります。 決定機能により、[!DNL Adobe Journey Optimizer]を通じて、チャネル全体で一元化されたオファーを提供できます。 [&#x200B; オファー決定](../offers/get-started/starting-offer-decisioning.md)について| [AI機能について](ai-features.md)詳しく見る
+ブランドは、一元的な決定を適用し、人工知能と機械学習を組み込んで、顧客体験全体で予測インサイトを設定できます。これにより、意思決定の自動化や、規模に合わせたエクスペリエンスの最適化が容易になります。 決定では、[!DNL Adobe Journey Optimizer] を通じ、複数のチャネルをまたぐ大規模な一元的なオファーを支援します。 [オファー決定支援の探索](../offers/get-started/starting-offer-decisioning.md) | [AI 機能の確認](ai-features.md)
 
 
 ## ユースケース {#use-cases}
 
-これらの例は、Journey Optimizerの能力がさまざまな役割、業界、チャネルでどのように連携しているかを示しています。
+これらの例は、Journey Optimizer の機能が様々な役割、業界、チャネルをまたいで連携する仕組みを示しています。
 
-### 出荷回収の遅延 {#uc-delayed-shipment}
+### 遅延した出荷の復元 {#uc-delayed-shipment}
 
-**役割：** マーケター| **コア機能：** [統合プロファイル + オーディエンスの除外](../audience/get-started-profiles.md)
+**役割：**&#x200B;マーケター | **コア機能：**[統合プロファイル + オーディエンスの除外](../audience/get-started-profiles.md)
 
-通常、衣料品店は、先週、商品を購入したあらゆる顧客に購入後のアンケートを送信します。 悪天候のため商品の出荷が遅れている場合は、衣料品店は、商品をまだ受け取っていない顧客を調べ、スケジュールされた顧客満足度の送信からそれらの顧客を除外することができます。その代わりに、顧客の購入履歴に基づいて、遅延を謝罪し、割引コードと商品レコメンデーション情報を提供する、パーソナライズされたメールを送信できます。
+衣料品店では通常、先週製品を購入したすべての顧客に、購入後の調査を送信できます。 悪天候のため商品の出荷が遅れている場合は、 衣料品店は、商品をまだ受け取っていない顧客を調べ、スケジュールされた顧客満足度の送信からそれらの顧客を除外することができます。その代わりに、顧客の購入履歴に基づいて、遅延を謝罪し、割引コードと商品レコメンデーション情報を提供する、パーソナライズされたメールを送信できます。
 
 [キャンペーンの基本を学ぶ](../campaigns/get-started-with-campaigns.md)
 
 ### リアルタイムの店舗内エンゲージメント {#uc-instore}
 
-**役割：** マーケター| **コア機能：** [&#x200B; ジオフェンス トリガー+ プッシュ &#x200B;](../push/get-started-push.md)
+**役割：**&#x200B;マーケター | **コア機能：**[ジオフェンストリガー + プッシュ](../push/get-started-push.md)
 
-Adobe retailerなら、店舗の駐車場にリアルタイムで来店したロイヤル顧客と同様に、顧客サイズで再入荷しているセーターに関するプッシュ通知を送信して、エンゲージメントを促進できます。
+同じ小売業者は、顧客のサイズの在庫が復活した、セーターに関するプッシュ通知を送信することで、店舗の駐車場に到着した常連客をリアルタイムで惹きつけることができます。
 
 [プッシュ通知の基本を学ぶ](../push/get-started-push.md)
 
-### カート放棄の回復 {#uc-cart}
+### 買い物かご放棄の回復 {#uc-cart}
 
-**役割：** マーケター| **コア機能：** [&#x200B; イベントトリガーのマルチステップジャーニー](../building-journeys/journey-gs.md)
+**役割：**&#x200B;マーケター | **コア機能：**[イベントトリガーのマルチステップジャーニー](../building-journeys/journey-gs.md)
 
-顧客がオンラインカートに商品を追加したものの、購入を完了することなくカートを離れた場合、Journey Optimizerはそのイベントをリアルタイムで検出し、自動的にリカバリージャーニーを開始します。 顧客には、残されたアイテムについてリマインドするパーソナライズされたメールが送信されます。 24時間以内にクリックしない場合、閲覧履歴やロイヤルティステータスにもとづいてパーソナライズされたフォローアッププッシュ通知が送信されます。
+顧客がオンライン買い物かごに商品を追加したものの購入を完了せずに離脱した場合、Journey Optimizer はそのイベントをリアルタイムで検出し、自動的にリカバリージャーニーを開始します。 顧客には、残された商品についてリマインドするパーソナライズされたメールが送信されます。 24 時間以内にクリックスルーしない場合、閲覧履歴とロイヤルティステータスに基づいてパーソナライズされたフォローアップのプッシュ通知が送信されます。
 
-[最初のジャーニーの構築](../building-journeys/journey-gs.md)
+[最初のジャーニーの作成](../building-journeys/journey-gs.md)
 
-### Streaming service ウェルカムシリーズ {#uc-welcome}
+### ストリーミングサービスウェルカムシリーズ {#uc-welcome}
 
-**役割：** マーケター| **コア機能：** [&#x200B; イベントをトリガーにしたウェルカムジャーニー](../building-journeys/journey-gs.md)
+**役割：**&#x200B;マーケター | **コア機能：**[イベントトリガーのウェルカムジャーニー](../building-journeys/journey-gs.md)
 
-顧客がストリーミングサービスに登録すると、Journey Optimizerが登録イベントを検出し、すぐにマルチステップのウェルカムジャーニーを開始します。 顧客には、アプリを初めて開くように促すウェルカムメールが届きます。 48時間以内にログインアクティビティが検出されない場合、サインアップ時に、ユーザーの興味に基づいてパーソナライズされたコンテンツレコメンデーションを含むフォローアッププッシュ通知が送信されます。これにより、消極的な購読者がアクティブでエンゲージメントの高いユーザーへと変わります。
+顧客がストリーミングサービスに登録すると、Journey Optimizer は登録イベントを検出し、すぐにマルチステップのウェルカムジャーニーを開始します。 顧客には、アプリを初めて開くように促すウェルカムメールが送信されます。 48 時間以内にログインアクティビティが検出されない場合、新規登録時に表明された興味に基づいてパーソナライズされたコンテンツレコメンデーションを含むフォローアップのプッシュ通知が送信されます。これにより、受動的な登録者を初日からアクティブでエンゲージメントの高いユーザーに変えることができます。
 
-[最初のジャーニーの構築](../building-journeys/journey-gs.md)
+[最初のジャーニーの作成](../building-journeys/journey-gs.md)
 
-### 道順を知らせる予約リマインダー {#uc-reservation}
+### 道順を含む予約リマインダー {#uc-reservation}
 
-**役割：** マーケター| **コア機能：** [&#x200B; スケジュール済み+場所に応じたメッセージ &#x200B;](../campaigns/get-started-with-campaigns.md)
+**役割：**&#x200B;マーケター | **コア機能：**[スケジュール済み + 場所に応じたメッセージ](../campaigns/get-started-with-campaigns.md)
 
-ホスピタリティブランドは、各顧客に予約の1時間前にタイムリーなリマインダーを送信します。 この通知には、ゲストの名前、予約時間、会場への位置情報が含まれます。マーケティングチームの手作業なしに、顧客プロファイルと予約データから自動的に組み立てられます。
+あるホスピタリティブランドは、予約時間の 1 時間前に各ゲストにタイムリーなリマインダーを送信します。 この通知には、ゲストの名前、予約時間、位置に基づいた会場までの道順が含まれます。これらの情報は、マーケティングチームの手作業なしに、顧客プロファイルと予約データから自動的に組み立てられます。
 
 [キャンペーンの基本を学ぶ](../campaigns/get-started-with-campaigns.md)
 
-### プロアクティブなサービス停止通知 {#uc-outage}
+### サービス停止時のプロアクティブな通知 {#uc-outage}
 
-**役割：**&#x200B;操作| **コア機能：** [大規模なオーディエンス選択の自動化](../audience/about-audiences.md)
+**役割：**&#x200B;運用 | **コア機能：**[大規模な自動オーディエンス選択](../audience/about-audiences.md)
 
-サービスの中断が発生すると、Journey Optimizerは、アカウントデータと使用パターンにもとづいて、影響を受ける顧客を自動的に特定します。 そのような顧客には、問題を把握し、次のステップを説明する積極的な通知が届きます。これにより、ネガティブな体験を透明性と信頼の瞬間に変え、大規模に提供することができます。
+サービスの中断が発生すると、Journey Optimizer はアカウントデータと使用状況パターンに基づいて影響を受ける顧客を自動的に特定します。 このような顧客には、問題が発生したことを伝え、次のステップを説明するプロアクティブな通知が送信されます。これにより、潜在的に否定的なエクスペリエンスが、透明性と信頼に満ちた瞬間へと変わり、大規模に提供されます。
 
-[最初のジャーニーの構築](../building-journeys/journey-gs.md)
+[最初のジャーニーの作成](../building-journeys/journey-gs.md)
 
-### AIを活用したプロモーションキャンペーン {#uc-ai-campaign}
+### AI を活用したプロモーションキャンペーン {#uc-ai-campaign}
 
-**役割：** マーケター| **コア機能：** [AI コンテンツ生成+実験](ai-features.md)
+**役割：**&#x200B;マーケター | **コア機能：**[AI コンテンツ生成 + 実験](ai-features.md)
 
-新製品発売を計画している小売企業は、Journey OptimizerのAI アシスタントを活用して、自然言語のプロンプトとアップロードされたブランドガイドラインに従って、複数の件名と本文のバリエーションを数分で生成します。 ビルトインのコンテンツ実験機能により、最初のオーディエンスサンプルの中で最もパフォーマンスの高いバリエーションを自動的に特定します。 勝者メッセージは残りの受信者にデプロイされ、コピーライティングの作業を増やすことなくエンゲージメントが最大化されます。
+新製品ローンチを計画中の小売ブランドは、Journey Optimizer の AI アシスタントを使用し、自然言語によるプロンプトとアップロード済みのブランドガイドラインに従って、数分で複数の件名と本文のバリエーションを生成します。 組み込みのコンテンツ実験機能により、初期オーディエンスサンプルの中から最もパフォーマンスの高いバリアントが自動的に特定されます。 勝利メッセージは残りの受信者にデプロイされ、追加のコピーライティング作業なしでエンゲージメントが最大化されます。
 
-[AIとインテリジェント機能について詳しく見る](ai-features.md) | [&#x200B; コンテンツの実験について詳しく見る](../content-management/experiment-accelerator-gs.md)
+[AI とインテリジェント機能の探索](ai-features.md) | [コンテンツ実験の詳細情報](../content-management/experiment-accelerator-gs.md)
 
 ### モバイルアプリ経由のメンテナンスアラート {#uc-maintenance}
 
-**役割：**&#x200B;操作| **コア機能：** [&#x200B; マーケティング以外のジャーニーオーケストレーション &#x200B;](../building-journeys/journey-gs.md)
+**役割：**&#x200B;運用 | **コア機能：**[マーケティング以外のジャーニーオーケストレーション](../building-journeys/journey-gs.md)
 
-運用チームやカスタマーサポートなどのマーケター以外の担当者は、[!DNL Adobe Journey Optimizer]を使用して、運用通知を管理したり、オンボーディングプロセスを監視したりできます。 例えば、訪問者が体験の一環としてモバイルアプリをダウンロードするアミューズメントパーク：メンテナンススタッフは、Journey Optimizerを使用して、メンテナンスのために現在閉鎖されている乗り物を公園の訪問者に通知することができます。
+運用チームやカスタマーサポートなどのマーケター以外は、[!DNL Adobe Journey Optimizer] を使用して、運用に関する通知を管理したり、オンボーディングプロセスを監視したりできます。 例えば、訪問者がエクスペリエンスの一部としてモバイルアプリをダウンロードするアミューズメントパークでは、メンテナンススタッフが Journey Optimizer を使用して、メンテナンスにより現在閉鎖されている乗り物を訪問者に通知できます。
 
-[最初のジャーニーの構築](../building-journeys/journey-gs.md)
+[最初のジャーニーの作成](../building-journeys/journey-gs.md)
 
 
 ## 可用性とライセンス {#availability}
 
-このドキュメントでは、Journey Optimizerの最新リリースについて説明し、特に明記されていない限り、B2CとB2B editionの両方のユーザーに適用されます。 環境で使用できるコンポーネントと機能は、[権限](../administration/permissions.md)と[ライセンスパッケージ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}によって異なります。ご不明な点について詳しくは、アドビカスタマーサクセスマネージャーまたはアドビ担当者までお問い合わせください。
+このドキュメントは、Journey Optimizer の最新リリースを対象とし、特に明記されていない限り、B2C Edition と B2B Edition の両方のユーザーに適用されます。 環境で使用できるコンポーネントと機能は、[権限](../administration/permissions.md)と[ライセンスパッケージ](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"}によって異なります。 ご不明な点について詳しくは、アドビカスタマーサクセスマネージャーまたはアドビ担当者までお問い合わせください。
 
-Adobe Experience Cloud の一般的なプライバシーに関するガイドラインと手順は [!DNL Journey Optimizer] に適用されます。[Adobe Experience Cloud のプライバシーの詳細情報](https://www.adobe.com/jp/privacy/experience-cloud.html){target="_blank"}。
+Adobe Experience Cloud の一般的なプライバシーに関するガイドラインと手順は [!DNL Journey Optimizer] に適用されます。 [Adobe Experience Cloud のプライバシーの詳細情報](https://www.adobe.com/jp/privacy/experience-cloud.html){target="_blank"}。
 
 
 ## アーキテクチャ {#architecture}
 
-Journey Optimizerは、Adobe Experience Platform上にネイティブに構築され、そのデータ基盤、ID グラフ、およびガバナンスサービスを共有します。これらのシステムの連携の詳細については、[Journey Optimizerについて](understanding-ajo.md)を参照してください。
+Journey Optimizer は、Adobe Experience Platform 上にネイティブに作成され、そのデータ基盤、ID グラフ、ガバナンスサービスを共有します。これらのシステムの連携の仕組みについて詳しくは、[Journey Optimizer について](understanding-ajo.md)を参照してください。
 
 
 ## 関連リソース {#related-resources}
 
-* [開始するための主な手順](quick-start.md) – 管理者、マーケター、データエンジニア向けのロールベースのクイックスタートガイド。
-* [&#x200B; データ管理の基本を学ぶ](../data/gs-data.md) — Journey Optimizerでデータを取り込み、統合し、アクティブ化する方法について説明します。
-* [&#x200B; ジャーニーをデザインしてメッセージを送信](../building-journeys/journey-gs.md) – 最初のカスタマージャーニーを構築し、チャネルアクションを設定します。
-* [&#x200B; ライブレポート &#x200B;](../reports/live-report.md) — キャンペーンとジャーニーのパフォーマンスをリアルタイムで監視します。
-* [Journey Optimizer入門チュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction){target="_blank"} — Journey Optimizerの主要な概念を説明するガイド付きビデオチュートリアルです。
-* [Journey Optimizer セキュリティの概要](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf) （PDF） – セキュリティ アーキテクチャ、データ保護、コンプライアンスの詳細。
-* [Journey Optimizer製品の説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} – 公式ライセンス条件とエディション機能の内訳。
+* [開始するための主な手順](quick-start.md) - 管理者、マーケター、データエンジニア向けの役割ベースのクイックスタートガイド。
+* [データ管理の基本を学ぶ](../data/gs-data.md) - Journey Optimizer でデータを取り込み、統合し、アクティブ化する方法について説明します。
+* [ジャーニーのデザインとメッセージの送信](../building-journeys/journey-gs.md) - 最初のカスタマージャーニーを作成し、チャネルアクションを設定します。
+* [ライブレポート](../reports/live-report.md) - キャンペーンとジャーニーのパフォーマンスをリアルタイムで監視します。
+* [Journey Optimizer の概要チュートリアル ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/introduction-to-journey-optimizer/introduction){target="_blank"} - Journey Optimizer のコア概念のガイド付きビデオチュートリアル。
+* [Journey Optimizer セキュリティの概要](https://www.adobe.com/content/dam/cc/en/security/pdfs/AJO_SecurityOverview.pdf)（PDF）- セキュリティアーキテクチャ、データ保護、コンプライアンスの詳細。
+* [Journey Optimizer 製品説明](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer.html){target="_blank"} - 公式ライセンス用語と各エディションの機能の分類。

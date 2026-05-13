@@ -7,10 +7,27 @@ feature: Integrations, Data Ingestion
 role: User
 level: Beginner
 exl-id: 359ea3c6-7746-469e-8a24-624f9726f2d8
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/vlCiIs-yHeTzHxkij1OTVljHm07GI-jLtS-RKFV5nKs
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 89%
+source-wordcount: 691
+ht-degree: 100%
 
 ---
 
@@ -18,13 +35,13 @@ ht-degree: 89%
 
 ## ソースとは {#what-is-source}
 
-**ソース**&#x200B;とは、外部データを Adobe Journey Optimizer に取り込むコネクタです。ソースを使用すると、CRM プラットフォーム、クラウドストレージ、データベースなど、既に使用しているシステムから顧客情報をインポートし、そのデータをパーソナライズされたカスタマージャーニーの作成に使用できます。
+**ソース**&#x200B;とは、外部データを Adobe Journey Optimizer に取り込むコネクタです。 ソースを使用すると、CRM プラットフォーム、クラウドストレージ、データベースなど、既に使用しているシステムから顧客情報をインポートし、そのデータをパーソナライズされたカスタマージャーニーの作成に使用できます。
 
-ソースは、Journey Optimizer と外部データシステム間の橋渡しと考えてください。データが自動的に同期されるので、常に最新の顧客情報を入手し、マーケティングキャンペーンを強化できます。
+ソースは、Journey Optimizer と外部データシステム間の橋渡しと考えてください。 データが自動的に同期されるので、常に最新の顧客情報を入手し、マーケティングキャンペーンを強化できます。
 
 ## ソースが重要な理由 {#why-sources-matter}
 
-Journey Optimizer で、パーソナライズされたデータ駆動型のカスタマーエクスペリエンスを作成するには、ソースが不可欠です。理由は次のとおりです。
+Journey Optimizer で、パーソナライズされたデータ駆動型のカスタマーエクスペリエンスを作成するには、ソースが不可欠です。 理由は次のとおりです。
 
 * **統合顧客ビュー** - 複数のシステムからデータを組み合わせて、各顧客の全体像を確認します
 * **リアルタイムパーソナライゼーション** - 新しいデータを使用して、ジャーニーにおいてタイムリーで関連性の高いメッセージを配信します
@@ -85,7 +102,7 @@ Journey Optimizer では、既存のシステムに接続するための様々�
 
 ## ソースの仕組み {#how-sources-work}
 
-Adobe Journey Optimizer は、Adobe Experience Platform のソースフレームワークを使用します。基本ワークフローを次に示します。
+Adobe Journey Optimizer は、Adobe Experience Platform のソースフレームワークを使用します。 基本ワークフローを次に示します。
 
 1. **接続** - 外部データシステムへの認証を設定します
 2. **データを選択** - インポートするデータと同期する頻度を選択します
@@ -97,13 +114,13 @@ Adobe Journey Optimizer は、Adobe Experience Platform のソースフレーム
 
 >[!NOTE]
 >
->**オーケストレーションされたキャンペーンのデータ取り込み** - オーケストレーションされたキャンペーンで使用されるファイルベースの変更データキャプチャソースの場合、`_change_request_type` フィールドが必要です。 サポートされている値は`u` （upsert）または`d` （delete）です。 これらの値は、大文字の`u`と`d`ではなく、小文字の`U`と`D`である必要があります。 [&#x200B; オーケストレーションされたキャンペーンのガードレールと制限事項について詳しく見る](../orchestrated/guardrails.md)
+>**オーケストレーションキャンペーンのデータ取り込み** - オーケストレーションキャンペーンで使用されるファイルベースのデータキャプチャを変更ソースの場合、`_change_request_type` フィールドは必須です。 サポートされている値は、`u`（アップサート）または `d`（削除）です。 これらの値は、大文字の `U` と `D` ではなく、小文字の `u` と `d` にする必要があります。 [オーケストレーションキャンペーンのガードレールと制限の詳細情報](../orchestrated/guardrails.md)
 
 ## 詳細情報 {#learn-more}
 
 ![](assets/sources-home.png)
 
-ソースコネクタの概要、および Journey Optimizer でのソースコネクタの設定方法について詳しくは、次のビデオをご覧ください。
+ソースコネクタの概要、および Journey Optimizer でのソースコネクタの設定方法について詳しくは、次のビデオを参照してください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/335919?quality=12)
 
@@ -117,4 +134,4 @@ Adobe Journey Optimizer は、Adobe Experience Platform のソースフレーム
 * [ソース接続の作成](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/overview.html?lang=ja){target="_blank"}方法を学びます
 * [データマッピングと変換](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/overview.html?lang=ja){target="_blank"}について理解します
 * [インポートしたデータをジャーニーで使用](../building-journeys/journey-gs.md)する方法を確認します
-* [&#x200B; データ管理の基本](../data/gs-data.md)の概要を確認して、Journey Optimizerの完全なデータ設定にソースがどのように適合するかを理解してください
+* Journey Optimizer の完全なデータ設定にソースが適合する仕組みについて詳しくは、[データ管理の基本を学ぶ](../data/gs-data.md)を参照してください。

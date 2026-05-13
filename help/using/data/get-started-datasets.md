@@ -32,7 +32,7 @@ topic_v2:
 source-git-commit: 8d00060a8801a0d29a86894494b9fd7a69f30d88
 workflow-type: tm+mt
 source-wordcount: 1032
-ht-degree: 91%
+ht-degree: 96%
 
 ---
 
@@ -86,7 +86,7 @@ Adobe Experience Platform に取り込まれたすべてのデータは、デー
 
 * メッセージのエクスポート
 
-  _AJO メッセージ書き出しデータセット_：書き出し用に送信された電子メールとSMS メッセージの内容を保存します。 レコードは、取り込みから7日間は保持されます。 メッセージ書き出しアドオンを購入した組織でのみ使用できます。 [詳細情報](../configuration/message-export.md)
+  _AJO メッセージエクスポートデータセット_：エクスポート用に送信されたメールと SMS メッセージのコンテンツを保存します。 レコードは、取り込みから 7 日間保持されます。 メッセージのエクスポートのアドオンを購入した組織でのみ使用できます。 [詳細情報](../configuration/message-export.md)
 
 * インテリジェントサービス
 
@@ -109,7 +109,7 @@ Adobe Experience Platform に取り込まれたすべてのデータは、デー
 * [既存スキーマからのデータセットの作成](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/user-guide#schema){target="_blank"}
 * [既存の XDM スキーマへの CSV ファイルのマッピング](https://experienceleague.adobe.com/ja/docs/experience-platform/ingestion/tutorials/map-csv/existing-schema){target="_blank"}
 
-データセットの作成、スキーマへのマッピング、データの追加、データの取り込み確認の方法についてこのビデオで説明しています。
+このビデオでは、データセットの作成、スキーマへのマッピング、データの追加、データの取り込み確認の方法について説明しています。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3416782?captions=jpn&quality=12)
 
@@ -125,13 +125,13 @@ Adobe Experience Platform に取り込まれたすべてのデータは、デー
 
 ## サンプルとユースケース {#samples}
 
-* [チュートリアル - Adobe Experience Platformへのデータの取り込み](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=ja){target="_blank"}
+* [チュートリアル - Adobe Experience Platform へのデータの取り込み](https://experienceleague.adobe.com/docs/experience-platform/ingestion/tutorials/ingest-batch-data.html?lang=ja){target="_blank"}
 * [エンドツーエンドのユースケース](../audience/creating-test-profiles.md) - スキーマ、データセットの作成とデータの取り込みによる [!DNL Adobe Journey Optimizer] へのテストプロファイルの追加
 * [クエリ例](../data/datasets-query-examples.md) - [!DNL Adobe Journey Optimizer] データセットと関連するユースケース。
 
 >[!MORELIKETHIS]
 >
->* [Journey Optimizerでのデータ管理の開始](gs-data.md)
+>* [Journey Optimizer におけるデータ管理の基本を学ぶ](gs-data.md)
 >* [データセットのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html?lang=ja){target="_blank"}
 >* [データ取り込みのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ja){target="_blank"}
 >* [データ管理ライセンス使用権限のベストプラクティス](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/license/data-management-best-practices#data-management-best-practices){target="_blank"}

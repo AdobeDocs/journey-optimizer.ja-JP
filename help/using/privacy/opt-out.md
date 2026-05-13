@@ -8,10 +8,30 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: c5bae757-a109-45f8-bf8d-182044a73cca
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+TQID: https://experienceleague.adobe.com/aZO-1xrS-34tIqadKDzZQBr-1x3W3tKgkQAM7q3FhLM
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: a653cc2e-bc85-4353-a306-399e5b247978
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1291'
-ht-degree: 84%
+source-wordcount: 1291
+ht-degree: 99%
 
 ---
 
@@ -33,17 +53,17 @@ ht-degree: 84%
 
 ### プッシュオプトアウトステータスの確認 {#push-opt-out-status}
 
-モバイルアプリのプッシュオプトアウトは、デバイスレベルで処理されます。ユーザーがデバイスで通知を無効にすると、プッシュトークンがプロファイルから削除されます。 したがって、プロファイルにプッシュトークン **が**&#x200B;存在することは、暗黙的なプッシュ同意の指標となります。
+モバイルアプリのプッシュオプトアウトは、デバイスレベルで処理されます。ユーザーがデバイスで通知を無効にすると、プッシュトークンがプロファイルから削除されます。 したがって、プロファイルに&#x200B;**プッシュトークンが存在する**&#x200B;ことは、暗黙的なプッシュ通知への同意の指標となります。
 
-Adobe Experience Platformでプロファイルのプッシュ同意ステータスを確認するには：
+Adobe Experience Platform でプロファイルのプッシュ同意ステータスを確認するには：
 
-1. Adobe Experience Platformの&#x200B;**[!UICONTROL プロファイル]** セクションでプロファイルを開きます。
-1. **[!UICONTROL 属性]** タブに移動し、**[!UICONTROL プッシュ通知の詳細]** フィールドグループを探します。
+1. Adobe Experience Platform の「**[!UICONTROL プロファイル]**」セクションでプロファイルを開きます。
+1. 「**[!UICONTROL 属性]**」タブに移動し、**[!UICONTROL プッシュ通知の詳細]**&#x200B;フィールドグループを探します。
 1. プッシュトークンが存在する場合、プロファイルはプッシュ通知の受信に暗黙的に同意しています。 トークンが見つからない場合、ユーザーはデバイスレベルでオプトアウトしています。
 
 >[!NOTE]
 >
->明示的なプッシュ同意追跡を必要とするコンプライアンスのユースケースについては、[同意と環境設定フィールドグループ &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=ja){target="_blank"}の&#x200B;**`consents.marketing.push.val`**&#x200B;属性を使用してください。 値`y`は明示的なオプトインを示し、`n`は明示的なオプトアウトを示します。
+>明示的なプッシュ同意トラッキングを必要とするコンプライアンスのユースケースについては、[同意と環境設定フィールドグループ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=ja){target="_blank"}の **`consents.marketing.push.val`** 属性を使用してください。 値が`y` の場合は明示的なオプトイン、`n` の場合は明示的なオプトアウトを示します。
 
 Journey Optimizer のメールと SMS メッセージでオプトアウトを管理する方法について、以下の節で説明します。
 
@@ -74,7 +94,7 @@ Journey Optimizer のメールと SMS メッセージでオプトアウトを管
 
 顧客は、パーソナライズされたコンテンツの表示をオプトアウトすることもできます。 あるプロファイルがパーソナライゼーションからオプトアウトされたら、そのデータがパーソナライゼーションに使用されていないことを確認し、パーソナライズされたコンテンツをフォールバックバリアントに置き換える必要があります。
 
-### 意思決定管理における {#opt-out-decision-management}
+### 意思決定管理において {#opt-out-decision-management}
 
 オファーを活用する場合、パーソナライゼーション環境設定は、[Decisioning](../offers/api-reference/offer-delivery-api/decisioning-api.md) API リクエストまたは [Edge Decisioning](../offers/api-reference/offer-delivery-api/edge-decisioning-api.md) API リクエストから使用される[決定範囲](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)に自動的に実装されません。 この場合、パーソナライゼーションの同意を手動で実施する必要があります。 これを行うには、以下の手順に従います。
 
@@ -82,7 +102,7 @@ Journey Optimizer のメールと SMS メッセージでオプトアウトを管
 >
 >[!DNL Journey Optimizer] で作成したチャネルで使用される決定範囲は、属するジャーニーまたはキャンペーンからのこの要件を満たします。
 
-1. [&#x200B; セグメント化サービス &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja){target="_blank"}を使用して[Adobe Experience Platform オーディエンス &#x200B;](../audience/about-audiences.md)を作成し、**[!UICONTROL Personalize Content = Yes （オプトイン）]**&#x200B;などのプロファイル属性を使用して、パーソナライゼーションに同意したユーザーをターゲティングします。
+1. [セグメント化サービス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja){target="_blank"}を使用して [Adobe Experience Platform オーディエンス](../audience/about-audiences.md)を作成し、**[!UICONTROL コンテンツをパーソナライズ = はい（オプトイン）]**&#x200B;などのプロファイル属性を使用して、パーソナライゼーションに同意したユーザーをターゲットにします。
 
    ![](assets/perso-consent-od-audience.png)
 
@@ -134,7 +154,7 @@ Journey Optimizer のメールと SMS メッセージでオプトアウトを管
 
 セグメントルールビルダーを使用して、オプトアウトプロファイルを含むオーディエンスを作成できます。
 
-1. [&#x200B; セグメント化サービス &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja){target="_blank"}を使用して、[Adobe Experience Platform オーディエンス &#x200B;](../audience/about-audiences.md)を作成します。
+1. [セグメント化サービス](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja){target="_blank"}を使用して、[Adobe Experience Platform オーディエンス](../audience/about-audiences.md)を作成します。
 
    ![](assets/perso-consent-audience-build-rule.png)
 
@@ -172,7 +192,7 @@ Journey Optimizer のメールと SMS メッセージでオプトアウトを管
 
 1. **[!UICONTROL パス 1]** は、パーソナライズされていないオーディエンスになります。 関連するラベルを選択します。
 
-1. この[&#x200B; リスト &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=ja#choice-values){target="_blank"}から適切な値を選択してください。
+1. この[リスト](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/consents.html?lang=ja#choice-values){target="_blank"}から適切な値を選択します。
 
    この場合、`n` を使用して、ユーザーがパーソナライゼーションに対するデータの使用に同意していないことを示します。
 

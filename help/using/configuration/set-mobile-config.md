@@ -9,10 +9,25 @@ role: Admin
 level: Experienced
 keywords: チャネル, サーフェス, 技術, パラメーター, Optimizer
 exl-id: 846e0d11-798b-4f3b-80db-848a17d32830
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/wZkMADPKflUPDtBaSa0eEdHESX-0X0MQCqmk98fZn9k
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2:
+  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 83%
+source-wordcount: 858
+ht-degree: 100%
 
 ---
 
@@ -29,29 +44,29 @@ ht-degree: 83%
 >abstract="Adobe Experience Platform Assurance は、このワークフローに組み込まれており、SDK 実装の検査や、アプリケーションイベントのシミュレートと検証に役立ちます。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/experience-platform/assurance/home" text="Adobe Experience Platform Assurance の概要"
 
-**ガイド付きチャネル設定**&#x200B;は、Adobe Journey Optimizerの合理化されたワークフローで、モバイルおよびweb マーケティングチャネルをすばやく設定するのに役立ちます。 この機能は、**管理** > **チャネル** > **チャネル設定**&#x200B;の下にあり、Adobe Experience Platform、Journey Optimizer、Data Collection全体で、タグプロパティ、データストリーム、チャネル設定などの重要なリソースの作成を自動化します。 各コンポーネントを手動で設定する代わりに、ガイド付きのフローに従ってすべてを設定できるため、マーケティング部門はアプリ内メッセージ、プッシュ通知、web エクスペリエンスの作成を遅滞なく開始できます。
+**ガイド付きチャネル設定**&#x200B;は、Adobe Journey Optimizer の効率的なワークフローで、モバイルおよび web マーケティングチャネルをすばやく設定するのに役立ちます。 これは、**管理**／**チャネル**／**チャネル設定**&#x200B;の下にあり、Adobe Experience Platform、Journey Optimizer、データ収集をまたいで、タグプロパティ、データストリーム、チャネル設定などの重要なリソースの作成を自動処理します。 各コンポーネントを手動で設定する代わりに、ガイド付きのフローに従ってすべてが自動的に設定されるので、マーケティングチームはアプリ内メッセージ、プッシュ通知、web エクスペリエンスの作成を遅延なく開始できます。
 
-ガイド付きチャネル設定では、次のプラットフォームとチャネルをサポートしています。
+ガイド付きチャネル設定は、次のプラットフォームとチャネルをサポートしています。
 
 >[!BEGINTABS]
 
 >[!TAB iOS]
 
-**SDK:** Swift by Apple
+**SDK：** Apple の Swift
 
-**チャネル：** モバイルアプリ内、モバイルプッシュメッセージ
+**チャネル：**&#x200B;モバイルアプリ内、モバイルプッシュメッセージ
 
 >[!TAB Android]
 
-**SDK:** Kotlin
+**SDK：** Kotlin
 
-**チャネル：** モバイルアプリ内、モバイルプッシュメッセージ
+**チャネル：**&#x200B;モバイルアプリ内、モバイルプッシュメッセージ
 
 >[!TAB Web]
 
-**SDK:** Javascript
+**SDK：** JavaScript
 
-**チャネル：** Web Basic
+**チャネル：** Web 基本
 
 >[!ENDTABS]
 
@@ -137,7 +152,7 @@ ht-degree: 83%
 
 ガイド付きチャネル設定により、マーケティングチャネルの迅速な設定が簡単になり、Experience Platform、Journey Optimizer およびデータ収集アプリですべての重要なリソースがすぐに使用できるようになります。 これにより、マーケティングチームはキャンペーンとジャーニーの作成をすぐに開始できます。 ガイド付きチャネル設定の一部として自動生成および設定されるリソースのリストを以下に示します。
 
-以下のタブを参照して、自動生成されるすべてのリソースの包括的なリストにアクセスします。
+自動生成されるすべてのリソースの包括的なリストにアクセスするには、以下のタブを参照してください。
 
 >[!BEGINTABS]
 
