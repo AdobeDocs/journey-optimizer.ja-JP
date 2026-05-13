@@ -7,11 +7,10 @@ feature: Journeys
 topic: Content Management
 role: User
 level: Intermediate
-hide: true
 keywords: フラグメント，ジャーニー，再利用，ノード，キャンバス，在庫，再利用可能
 badge: label="限定提供" type="Informative"
 version: Journey Orchestration
-source-git-commit: 4b514dea522be3648542a868be7c26b63715a1ff
+source-git-commit: 289d8b669530198d3e2722b9cc10a6bcc84980f6
 workflow-type: tm+mt
 source-wordcount: '1482'
 ht-degree: 1%
