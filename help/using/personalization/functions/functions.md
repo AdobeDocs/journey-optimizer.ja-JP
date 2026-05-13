@@ -6,18 +6,18 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 258d22c6b95db138e927d96f04215c0623e53913
 workflow-type: tm+mt
-source-wordcount: '2496'
-ht-degree: 98%
+source-wordcount: '2536'
+ht-degree: 97%
 
 ---
 
 # ヘルパー関数の基本を学ぶ{#functions}
 
-ヘルパー関数を使用すると、パーソナライズされたコンテンツ内のデータを変換して操作できます。これらを使用して、計算、データの書式設定、条件の適用、様々な操作を実行し、顧客に合わせて動的なエクスペリエンスを作成します。
+ヘルパー関数を使用すると、パーソナライズされたコンテンツ内のデータを変換して操作できます。 これらを使用して、計算、データの書式設定、条件の適用、様々な操作を実行し、顧客に合わせて動的なエクスペリエンスを作成します。
 
-これらの関数は、[!DNL Journey Optimizer] テンプレート言語を活用します。パーソナライゼーション構文のガイドラインについて詳しくは、[このページ](../personalization-syntax.md)を参照してください。
+これらの関数は、[!DNL Journey Optimizer] テンプレート言語を活用します。 パーソナライゼーション構文のガイドラインについて詳しくは、[このページ](../personalization-syntax.md)を参照してください。
 
 ➡️ [ヘルパー関数の使用方法について詳しくは、このビデオを参照してください。](#video)
 
@@ -38,11 +38,11 @@ ht-degree: 98%
 1. カテゴリを選択して、サブカテゴリと使用可能な関数を表示します
 1. `>` アイコンをクリックして、サブカテゴリを展開します
 1. 関数の横にある `+` アイコンをクリックして、パーソナライゼーションコードに追加します
-1. `...` アイコンをクリックして、関数の説明を表示し、お気に入りに追加さします。[詳細情報](../personalize.md#fav)
+1. `...` アイコンをクリックして、関数の説明を表示し、お気に入りに追加さします。 [詳細情報](../personalize.md#fav)
 
 >[!NOTE]
 >
->パーソナライゼーションエディターで使用できる関数や機能は、[ジャーニーの高度な式エディター](../../building-journeys/expression/expressionadvanced.md)で使用できる関数や機能とは異なります。例えば、`now()` 関数は、ジャーニー式でのみ使用できます。[詳細情報](../../email/code-content.md#date-time-limitations)
+>パーソナライゼーションエディターで使用できる関数や機能は、[ジャーニーの高度な式エディター](../../building-journeys/expression/expressionadvanced.md)で使用できる関数や機能とは異なります。 例えば、`now()` 関数は、ジャーニー式でのみ使用できます。 [詳細情報](../../email/code-content.md#date-time-limitations)
 
 ## 関数{#functions-helper}
 
@@ -136,7 +136,7 @@ ht-degree: 98%
         <td><a href="dates.md#age-months">月数</a></td><td>この関数は、指定された日付を月数で、つまり指定された日付と現在の日付の間の経過月数を計算します。将来の日付の場合は負の数、過去の日付の場合は正の数になります。</td>
     </tr>
     <tr>
-        <td><a href="dates.md#compare-dates">日付を比較</a></td><td>この関数は、最初の入力日付を他の入力日付と比較します。date1 が date2 と等しい場合は 0 を返し、date1 が date2 より前の場合は -1 を返し、date1 が date2 より後の場合は 1 を返します。</td>
+        <td><a href="dates.md#compare-dates">日付を比較</a></td><td>この関数は、最初の入力日と他の入力日を比較します。 date1 が date2 と等しい場合は 0 を返し、date1 が date2 より前の場合は -1 を返し、date1 が date2 より後の場合は 1 を返します。</td>
     </tr>
     <tr>
         <td><a href="dates.md#convert-zoned-date-time">ZonedDateTime を変換</a></td><td>この関数は、日時を指定されたタイムゾーンに変換します。</td>
@@ -196,7 +196,7 @@ ht-degree: 98%
         <td><a href="dates.md#set-hours">時間を設定</a></td><td>この関数は、日時の時間を設定します。</td>
     </tr>
     <tr>
-        <td><a href="dates.md#to-date-time">日時に</a></td><td>この関数は、文字列を日付に変換します。無効な入力に対する出力として、エポック日付を返します。</td>
+        <td><a href="dates.md#to-date-time">日時に</a></td><td>この関数は、文字列を日付に変換します。 無効な入力に対する出力として、エポック日付を返します。</td>
     </tr>
     <tr>
         <td><a href="dates.md#to-utc">UTC に</a></td><td>この関数は、日時を UTC に変換します。</td>
@@ -335,7 +335,7 @@ ht-degree: 98%
         <td><a href="string.md#get-url-protocol">URL プロトコルを取得</a></td><td>この関数は、URL プロトコルの取得に使用されます。</td>
     </tr>
     <tr>
-        <td><a href="string.md#index-of">インデックス</a></td><td>この関数は 2 番目のパラメーターが最初に現れる（最初の引数内の）位置を返します。一致するものがない場合は「-1」を返します。</td>
+        <td><a href="string.md#index-of">インデックス</a></td><td>この関数は 2 番目のパラメーターが最初に現れる（最初の引数内の）位置を返します。 一致するものがない場合は「-1」を返します。</td>
     </tr>
     <tr>
         <td><a href="string.md#isEmpty">IsEmpty</a></td><td>文字列や式が空かどうかを確認するために使用します。</td>
@@ -344,7 +344,7 @@ ht-degree: 98%
         <td><a href="string.md#is-not-empty">空でない</a></td><td>この関数はパラメーター内の文字列が空でない場合、true を返します。</td>
     </tr>
     <tr>
-        <td><a href="string.md#last-index-of">最後のインデックス</a></td><td>この関数は 2 番目のパラメーターが最後に現れる（最初の引数内の）位置を返します。一致するものがない場合は「-1」を返します。</td>
+        <td><a href="string.md#last-index-of">最後のインデックス</a></td><td>この関数は 2 番目のパラメーターが最後に現れる（最初の引数内の）位置を返します。 一致するものがない場合は「-1」を返します。</td>
     </tr>
     <tr>
         <td><a href="string.md#leftTrim">左トリミング</a></td><td>文字列の先頭から空白を削除します。</td>
@@ -395,13 +395,13 @@ ht-degree: 98%
         <td><a href="string.md#startsWith">次で始まる</a></td><td>この関数は、文字列が指定の部分文字列で始まるかどうかを判定するために使用されます</td>
     </tr>
     <tr>
-        <td><a href="string.md#string-to-date">文字列を日付に</a></td><td>この関数は、文字列値を日時値に変換します。 </td>
+        <td><a href="string.md#string-to-date">文字列を日付に</a></td><td>この関数は、文字列値を日時値に変換します。</td>
     </tr>
     <tr>
         <td><a href="string.md#string-to-integer">文字列を整数に</a></td><td>この関数は、文字列値を整数値に変換します。</td>
     </tr>
     <tr>
-        <td><a href="string.md#string-to-number">文字列から数値へ</a></td><td>この関数は、文字列を数値に変換するために使用されます。無効な入力の出力と同じ文字列を返します。</td>
+        <td><a href="string.md#string-to-number">文字列から数値へ</a></td><td>この関数は、文字列を数値に変換するために使用されます。 無効な入力の出力と同じ文字列を返します。</td>
     </tr>
     <tr>
         <td><a href="string.md#sub-string">部分文字列</a></td><td>この関数は文字列式の開始インデックスと終了インデックスの間にある部分文字列を返します。</td>
@@ -413,10 +413,10 @@ ht-degree: 98%
         <td><a href="string.md#to-bool">ブール値に</a></td><td>この関数雨は引数の値をタイプに応じてブール値に変換します。</td>
     </tr>
     <tr>
-        <td><a href="string.md#to-date-time">日時に</a></td><td>この関数は、文字列を日付に変換するために使用されます。無効な入力に対する出力として、エポック日付を返します。</td>
+        <td><a href="string.md#to-date-time">日時に</a></td><td>この関数は、文字列を日付に変換するために使用されます。 無効な入力に対する出力として、エポック日付を返します。</td>
     </tr>
     <tr>
-        <td><a href="string.md#to-date-time-only">日時のみに</a></td><td>この関数は、引数値を日時のみの値に変換します。無効な入力に対する出力として、エポック日付を返します。</td>
+        <td><a href="string.md#to-date-time-only">日時のみに</a></td><td>この関数は、引数値を日時のみの値に変換します。 無効な入力に対する出力として、エポック日付を返します。</td>
     </tr>
     <tr>
         <td><a href="string.md#trim">トリミング</a></td><td>文字列の先頭と末尾の空白を削除します</td>
@@ -462,6 +462,9 @@ ht-degree: 98%
     </tr>
     <tr>
         <td><a href="helpers.md#url-parameter-encryption-helper">暗号化</a></td><td>サンドボックスレジストリのアクティブキーを使用して、レンダリング時にURL クエリパラメーターの式値を暗号化します </td>
+    </tr>
+    <tr>
+        <td><a href="helpers.md#url-function">Url</a></td><td>この関数は、SMS メッセージ コンテンツのURLを処理します。URLを<code>originalUrl</code>で短縮し、ディープリンクを挿入するには<code>type='DEEPLINK'</code>で使用します</td>
     </tr>
     <tr>
         <td><a href="helpers.md#with">With</a></td><td>テンプレート部分の評価トークンを変更するために使用します。</td>
@@ -533,4 +536,4 @@ ht-degree: 98%
 
 パーソナライズ機能のヘルパー関数を使用してパーソナライゼーション値を変換する方法と、ヘルパー関数の様々なユースケースを説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416781?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
