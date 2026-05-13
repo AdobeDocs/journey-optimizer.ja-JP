@@ -11,10 +11,19 @@ level: Experienced
 exl-id: 773bee50-849f-4b07-9423-67de5279ad28
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/LZVllKIbmPvNnT0wCskFj3mcNYcKRmvAT85UqWlsztA
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2: id: c132d929-fa62-4271-803e-b823be07b914id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: c132d929-fa62-4271-803e-b823be07b914
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 447
@@ -47,17 +56,17 @@ ht-degree: 0%
 このガイドでは、Adobe Experience Platformの次のコンポーネントについて理解する必要があります。
 
 * [[!DNL Experience Data Model (XDM) System]](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}: [!DNL Experience Platform]が顧客体験データを整理するための標準化されたフレームワークです。
-   * [ スキーマ構成の基本](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html){target="_blank"}: XDM スキーマの基本的な構成要素について説明します。
+   * [&#x200B; スキーマ構成の基本](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html){target="_blank"}: XDM スキーマの基本的な構成要素について説明します。
 * [意思決定管理](../../../using/offers/get-started/starting-offer-decisioning.md)：一般的な意思決定に使用される概念とコンポーネント、特に意思決定管理について説明します。 顧客体験中に提示する最適なオプションを選択するために使用される戦略を示します。
 * [[!DNL Profile Query Language (PQL)]](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html){target="_blank"}: PQLは、XDM インスタンス上でエクスプレッションを書き込むための強力な言語です。 PQLは、意思決定ルールを定義するために使用されます。
 
 ## サンプル API呼び出しの読み取り {#reading-sample-api-calls}
 
-このガイドでは、リクエストのフォーマット方法を示すAPI呼び出しの例を示します。 これには、パス、必要なヘッダー、適切な形式のリクエストペイロードが含まれます。 また、API応答で返されるサンプル JSONも提供されます。 サンプル API呼び出しに関するドキュメントで使用される規則について詳しくは、[!DNL Experience Platform] トラブルシューティングガイドの[ サンプル API呼び出しの読み方](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html#how-do-i-format-an-api-request){target="_blank"}の節を参照してください。
+このガイドでは、リクエストのフォーマット方法を示すAPI呼び出しの例を示します。 これには、パス、必要なヘッダー、適切な形式のリクエストペイロードが含まれます。 また、API応答で返されるサンプル JSONも提供されます。 サンプル API呼び出しに関するドキュメントで使用される規則について詳しくは、[!DNL Experience Platform] トラブルシューティングガイドの[&#x200B; サンプル API呼び出しの読み方](https://experienceleague.adobe.com/docs/experience-platform/landing/troubleshooting.html#how-do-i-format-an-api-request){target="_blank"}の節を参照してください。
 
 ## 必要なヘッダーの値を収集する {#gather-values-for-required-headers}
 
-[!DNL Adobe Experience Platform]個のAPIを呼び出すには、まず[認証チュートリアル ](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html){target="_blank"}を完了する必要があります。 認証チュートリアルを完了すると、以下に示すように、すべての[!DNL Experience Platform] API呼び出しで必要な各ヘッダーの値が提供されます。
+[!DNL Adobe Experience Platform]個のAPIを呼び出すには、まず[認証チュートリアル &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/landing/platform-apis/api-authentication.html){target="_blank"}を完了する必要があります。 認証チュートリアルを完了すると、以下に示すように、すべての[!DNL Experience Platform] API呼び出しで必要な各ヘッダーの値が提供されます。
 
 * `Authorization: Bearer {ACCESS_TOKEN}`
 * `x-api-key: {API_KEY}`

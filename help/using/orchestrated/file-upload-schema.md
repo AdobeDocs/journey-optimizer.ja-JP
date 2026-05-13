@@ -6,9 +6,13 @@ description: DDLをアップロードして、Adobe Experience Platform内でリ
 exl-id: 88eb1438-0fe5-4a19-bfb6-2968a427e9e8
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/0ffs03Mz3RCUtHmd66tQxonSm-P7tB5WMmKjVXsAi0g
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126
-topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1222
@@ -24,21 +28,21 @@ ht-degree: 0%
 
 この節では、DDL （Data Definition Language）ファイルをアップロードしてAdobe Experience Platform内にリレーショナルスキーマを作成する手順を説明します。 DDL ファイルを使用すると、テーブル、属性、キー、関係など、データモデルの構造を事前に定義できます。
 
-1. [DDL ファイル ](#ddl-upload)をアップロードして、リレーショナルスキーマを作成し、それらの構造を定義します。
+1. [DDL ファイル &#x200B;](#ddl-upload)をアップロードして、リレーショナルスキーマを作成し、それらの構造を定義します。
 
 1. データモデル内のテーブル間の[関係](#relationships)を定義します。
 
-1. [ スキーマ ](#link-schema)をリンクして、関係データを受信者やブランドなどの既存のプロファイルエンティティに接続します。
+1. [&#x200B; スキーマ &#x200B;](#link-schema)をリンクして、関係データを受信者やブランドなどの既存のプロファイルエンティティに接続します。
 
-1. [ サポートされているソースからデータセットにデータ ](ingest-data.md)を取り込みます。
+1. [&#x200B; サポートされているソースからデータセットにデータ &#x200B;](ingest-data.md)を取り込みます。
 
-➡️ [ リレーショナルスキーマについて詳しくは、Adobe Experience Platform ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational)を参照してください
+➡️ [&#x200B; リレーショナルスキーマについて詳しくは、Adobe Experience Platform ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/schema/relational)を参照してください
 
 ## DDL ファイルのアップロード{#ddl-upload}
 
 DDL ファイルをアップロードすることで、テーブル、属性、キー、関係など、データモデルの構造を事前に定義できます。
 
-Excel ベースのスキーマファイルのアップロードがサポートされています。 [が提供するテンプレート ](assets/template.zip)をダウンロードして、スキーマ定義を簡単に準備できます。
+Excel ベースのスキーマファイルのアップロードがサポートされています。 [が提供するテンプレート &#x200B;](assets/template.zip)をダウンロードして、スキーマ定義を簡単に準備できます。
 
 +++Adobe Experience Platformでリレーショナルスキーマを作成する場合は、次の機能がサポートされています
 
@@ -66,7 +70,7 @@ Excel ベースのスキーマファイルのアップロードがサポート�
   DDLまたはExcel ファイルからスキーマを読み込むと、テーブル間の複合関係が自動的に作成されます。 エンティティ関係ビューでは、各複合リンクに、リンクされたテーブル間のフィールドペアリングの完全なセットが表示されます。
 
 * データガバナンス用&#x200B;**スキーマラベル**\
-  ラベル付けは、アクセス制御や使用制限などのデータガバナンスポリシーを適用するために、スキーマフィールドレベルでサポートされています。 詳しくは、[Adobe Experience Platform ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)を参照してください。
+  ラベル付けは、アクセス制御や使用制限などのデータガバナンスポリシーを適用するために、スキーマフィールドレベルでサポートされています。 詳しくは、[Adobe Experience Platform ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)を参照してください。
 
 +++
 
@@ -192,7 +196,7 @@ Excel ベースのスキーマファイルのアップロードがサポート�
 
    ![](assets/schema_2.png)
 
-1. 現在のスキーマ ]**の**[!UICONTROL &#x200B;関係名と、参照スキーマ ]**の**[!UICONTROL &#x200B;関係名を入力します。
+1. 現在のスキーマ **の**&#x200B;[!UICONTROL &#x200B;関係名と、参照スキーマ &#x200B;]&#x200B;**の**&#x200B;関係名を入力します。
 
 1. **[!UICONTROL 適用]**&#x200B;をクリックして変更を保存します。
 

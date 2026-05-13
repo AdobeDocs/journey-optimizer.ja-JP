@@ -7,11 +7,20 @@ role: User
 level: Experienced
 exl-id: 5dd46ea8-acba-4c42-a65a-c18e45cba2cd
 TQID: https://experienceleague.adobe.com/4VLqDy1BM5TnpvvuQb-fmATJ35hMzTjPCOwtiIIXir0
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2: id: d595a60b-bcf5-4a63-a189-66a0be755cc7id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2:
+  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1245
@@ -44,7 +53,7 @@ HTMLまたはJSON コードペイロードの一部を編集可能にするに�
 >title="フォームフィールドのレンダリングを確認する"
 >abstract="JSONやHTMLのコンテンツテンプレートでは、編集可能な特定のフィールドを定義できます。これにより、技術的な知識がなくても、コードを操作することなく、コードベースのエクスペリエンスでコンテンツを簡単に編集できます。 専用の構文を使用してこれらのフィールドを作成し、このボタンを使用してプレビューします。"
 
-JSONまたはHTML コードの一部を編集可能にするには、まず、特定のフォームフィールドを定義できるコードベースのエクスペリエンス [ コンテンツテンプレート ](../content-management/content-templates.md)を作成することから始めます。
+JSONまたはHTML コードの一部を編集可能にするには、まず、特定のフォームフィールドを定義できるコードベースのエクスペリエンス [&#x200B; コンテンツテンプレート &#x200B;](../content-management/content-templates.md)を作成することから始めます。
 
 >[!NOTE]
 >
@@ -52,7 +61,7 @@ JSONまたはHTML コードの一部を編集可能にするには、まず、�
 
 ➡️ [編集可能なフィールドをコードベースのエクスペリエンステンプレートに追加する方法については、このビデオをご覧ください](#video)
 
-1. コンテンツテンプレートを作成し、**[!UICONTROL コードベースのエクスペリエンス]** チャネルを選択します。 [ テンプレートの作成方法を学ぶ](../content-management/create-content-templates.md)
+1. コンテンツテンプレートを作成し、**[!UICONTROL コードベースのエクスペリエンス]** チャネルを選択します。 [&#x200B; テンプレートの作成方法を学ぶ](../content-management/create-content-templates.md)
 
 1. オーサリングモードとして、HTMLまたはJSONを選択します。
 
@@ -60,7 +69,7 @@ JSONまたはHTML コードの一部を編集可能にするには、まず、�
    >
    >オーサリングモードを変更すると、現在のすべてのコードが失われます。 このテンプレートに基づくコードベースのエクスペリエンスは、同じオーサリングモードを使用する必要があります。
 
-1. [ パーソナライゼーションエディター](../personalization/personalization-build-expressions.md)を開いて、コードコンテンツを編集します。
+1. [&#x200B; パーソナライゼーションエディター](../personalization/personalization-build-expressions.md)を開いて、コードコンテンツを編集します。
 
 1. 編集可能なフォームフィールド <!--To declare the variable you want users to edit-->を定義するには、左側のナビゲーションパネルの&#x200B;**[!UICONTROL ヘルパー関数]** メニューに移動し、**インライン**&#x200B;属性を追加します。 変数を宣言して呼び出す構文は、コンテンツに自動的に追加されます。
 
@@ -236,7 +245,7 @@ JSONおよびHTML テンプレートの例を以下に示します。その一�
 
    ![](assets/cbe-campaign-form-fields-edit.png){width="60%"}
 
-   * パーソナライゼーションアイコンをクリックして、[ コードエディター](../personalization/personalization-build-expressions.md)を使用して各フィールドを編集します。
+   * パーソナライゼーションアイコンをクリックして、[&#x200B; コードエディター](../personalization/personalization-build-expressions.md)を使用して各フィールドを編集します。
 
    ![](assets/cbe-campaign-form-fields-edit-perso.png){width="70%"}
 
@@ -244,7 +253,7 @@ JSONおよびHTML テンプレートの例を以下に示します。その一�
    >
    >どちらの場合も、一度に1つのフィールドのみを編集でき、残りのコードベースのエクスペリエンスコンテンツは編集できません。
 
-1. [決定ポリシーがコンテンツテンプレートに](#decision-policy-in-form-fields)追加された場合、[ オファーカタログスキーマ ](../experience-decisioning/catalogs.md)で使用可能なすべての属性が付属します。 決定項目は、インラインまたは式エディターを使用して編集できます。
+1. [決定ポリシーがコンテンツテンプレートに](#decision-policy-in-form-fields)追加された場合、[&#x200B; オファーカタログスキーマ &#x200B;](../experience-decisioning/catalogs.md)で使用可能なすべての属性が付属します。 決定項目は、インラインまたは式エディターを使用して編集できます。
 
 1. 残りのコードを編集するには、「**[!UICONTROL コードを編集]**」ボタンをクリックし、編集可能なフォームフィールドを含む、コードベースのエクスペリエンスコンテンツ全体を更新します。 [詳細情報](create-code-based.md#edit-code)
 

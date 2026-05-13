@@ -9,11 +9,21 @@ role: User
 level: Beginner
 exl-id: a205539b-b7ea-4832-92b0-49637c4dac47
 TQID: https://experienceleague.adobe.com/E9gFX9CtjkzhDBeVqcaOE-7kNWygH2CVIikDLZ3ZqR8
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: a653cc2e-bc85-4353-a306-399e5b247978id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2: id: d595a60b-bcf5-4a63-a189-66a0be755cc7id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: a653cc2e-bc85-4353-a306-399e5b247978
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
+  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 633
@@ -64,7 +74,7 @@ ht-degree: 0%
 
 1. 「**[!UICONTROL タグ]**」フィールドからAdobe Experience Platform タグを選択または作成して、検索を向上させるためにテンプレートを分類します。 [詳細情報](../start/search-filter-categorize.md#tags)
 
-1. カスタムまたはコアのデータ使用ラベルをテンプレートに割り当てるには、**[!UICONTROL アクセスの管理]**&#x200B;を選択します。 [ オブジェクトレベルのアクセス制御（OLAC）の詳細](../administration/object-based-access.md)です。
+1. カスタムまたはコアのデータ使用ラベルをテンプレートに割り当てるには、**[!UICONTROL アクセスの管理]**&#x200B;を選択します。 [&#x200B; オブジェクトレベルのアクセス制御（OLAC）の詳細](../administration/object-based-access.md)です。
 
 1. 「**[!UICONTROL 作成]**」をクリックし、選択したチャネルに従って、ジャーニーまたはキャンペーン内の任意のコンテンツと同じように、必要に応じてコンテンツをデザインします。
 

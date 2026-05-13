@@ -11,10 +11,18 @@ level: Experienced
 exl-id: 1ed01a6b-5e42-47c8-a436-bdb388f50b4e
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/2FrtFGbl169aXj29ltmUKS23eXFns1cG8TPojw3TwCY
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2: id: c132d929-fa62-4271-803e-b823be07b914id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: c132d929-fa62-4271-803e-b823be07b914
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 749
@@ -46,7 +54,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->バッチ判定は、Journey Optimizerインターフェイスを使用して実行することもできます。 詳細については、[このセクション ](../../batch-delivery.md)を参照してください。このセクションでは、バッチ決定を使用する際に考慮すべきグローバルな前提条件と制限について説明しています。
+>バッチ判定は、Journey Optimizerインターフェイスを使用して実行することもできます。 詳細については、[このセクション &#x200B;](../../batch-delivery.md)を参照してください。このセクションでは、バッチ決定を使用する際に考慮すべきグローバルな前提条件と制限について説明しています。
 
 * **データセットごとに実行中のバッチジョブの数**：データセットごとに最大5つのバッチジョブを同時に実行できます。 同じ出力データセットを持つ他のバッチリクエストは、キューに追加されます。 前のジョブの実行が完了すると、キューに入れられたジョブが処理されます。
 * **頻度の上限**: 1日に1回実行されるプロファイル スナップショットからバッチが実行されます。 [!DNL Batch Decisioning] APIは頻度に上限を設定し、常に最新のスナップショットからプロファイルを読み込みます。
@@ -57,11 +65,11 @@ ht-degree: 0%
 
 ### 決定の準備 {#prepare-decision}
 
-1つ以上の意思決定を準備するには、データセット、オーディエンス、意思決定を作成していることを確認します。 これらの前提条件について詳しくは、[このセクション ](../../batch-delivery.md)を参照してください。
+1つ以上の意思決定を準備するには、データセット、オーディエンス、意思決定を作成していることを確認します。 これらの前提条件について詳しくは、[このセクション &#x200B;](../../batch-delivery.md)を参照してください。
 
 ### APIの要件 {#api-requirements}
 
-すべての[!DNL Batch Decisioning]要求には、[意思決定管理API開発者ガイド ](../getting-started.md)で参照されているものに加えて、次のヘッダーが必要です。
+すべての[!DNL Batch Decisioning]要求には、[意思決定管理API開発者ガイド &#x200B;](../getting-started.md)で参照されているものに加えて、次のヘッダーが必要です。
 
 * `Content-Type`: `application/json`
 * `x-request-id`：リクエストを識別する一意の文字列。
@@ -122,7 +130,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dwm/workloads/decisions' \
 | `xdm:propositionRequests` | `placementId`と`activityId`を含むラッパー |  |
 | `xdm:segmentIds` | 値は、オーディエンスの一意のIDを含む配列です。 1つの値のみを含めることができます。 | `609028e4-e66c-4776-b0d9-c782887e2273` |
 
-主な概念とプロパティの概要については、[意思決定管理ドキュメント ](../../get-started/starting-offer-decisioning.md)を参照してください。
+主な概念とプロパティの概要については、[意思決定管理ドキュメント &#x200B;](../../get-started/starting-offer-decisioning.md)を参照してください。
 
 **応答**
 

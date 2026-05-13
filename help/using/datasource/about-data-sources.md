@@ -10,12 +10,23 @@ level: Intermediate, Experienced
 keywords: データ, ソース, ジャーニー, プラットフォーム
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
 TQID: https://experienceleague.adobe.com/eG1QcfpHtxpabUt5e7RZiMIpSAJD6Z6bjO-4wtZEUOg
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2: id: dd51b532-b93f-4bcf-8dbf-0d007f593acaid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2:
+  - id: dd51b532-b93f-4bcf-8dbf-0d007f593aca
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 917
@@ -31,7 +42,7 @@ ht-degree: 43%
 >abstract="データソースの設定は、常に技術ユーザーが実行します。 データソースを設定すると、システムへの接続を定義して、ジャーニーで使用される（条件定義、アクションのパラメーターとパーソナライゼーションデータ、カスタム待機定義、タイムゾーン定義に対する）追加情報を取得できます。"
 
 >[!TIP]
->Journey Optimizer のデータ管理を初めて使用しますか？ データ ソースを設定する前に、スキーマ、データセット、ID、データ フローを理解するには、[ データ管理の概要](../data/gs-data.md)から始めます。
+>Journey Optimizer のデータ管理を初めて使用しますか？ データ ソースを設定する前に、スキーマ、データセット、ID、データ フローを理解するには、[&#x200B; データ管理の概要](../data/gs-data.md)から始めます。
 
 データソース設定を使用すると、システムへの接続を定義して、ジャーニーにおいて次の目的でジャーニーで使用される追加情報を取得できます。
 
@@ -61,7 +72,7 @@ ht-degree: 43%
 
 ## データアクセス戦略の選択 {#data-access-strategy}
 
-データソースを設定する前に、自社のユースケースに最も適したアプローチを検討してください。 3つのオプションが利用可能で、それぞれ永続性、プロファイルの充実、再利用性の観点から異なるトレードオフがあります。 これらのオプションについて詳しくは、[Journey Optimizerの高度なジャーニーのベストプラクティス ](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}を参照してください。
+データソースを設定する前に、自社のユースケースに最も適したアプローチを検討してください。 3つのオプションが利用可能で、それぞれ永続性、プロファイルの充実、再利用性の観点から異なるトレードオフがあります。 これらのオプションについて詳しくは、[Journey Optimizerの高度なジャーニーのベストプラクティス &#x200B;](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}を参照してください。
 
 **オプション 1 — カスタムアクションを使用した外部データへのアクセス（データレイクなし）**
 
@@ -70,7 +81,7 @@ Experience Platform Data Lakeにデータを保持することなく、ジャー
 * データは、ジャーニーのコンテキスト内でのみ有用であり、他の場所では必要ありません。
 * 外部システムには、必要な属性を返すAPI エンドポイントを通じてアクセスできます。
 
-[ カスタムアクション ](../action/action.md)と[ カスタムアクション応答](../action/action-response.md)の詳細を説明します。
+[&#x200B; カスタムアクション &#x200B;](../action/action.md)と[&#x200B; カスタムアクション応答](../action/action-response.md)の詳細を説明します。
 
 >[!TIP]
 >
@@ -93,7 +104,7 @@ Experience Platform Data Lakeにデータを保持することなく、ジャー
 
 **オプション 3 — データレイクのプロファイル対応データセット**
 
-データを[ プロファイル対応データセット ](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}に取り込み、オーディエンスを作成し、ID グラフを充実させ、複数のジャーニーおよびRT-CDPの宛先をまたいでデータを活用します。 次の場合に最適：
+データを[&#x200B; プロファイル対応データセット &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}に取り込み、オーディエンスを作成し、ID グラフを充実させ、複数のジャーニーおよびRT-CDPの宛先をまたいでデータを活用します。 次の場合に最適：
 
 * このデータは、Journey Optimizer以外のチャネルで使用されるオーディエンス定義に役立ちます。
 * データには、より豊富でステッチされたプロファイルフラグメントに貢献する複数のIDが含まれています。
@@ -102,7 +113,7 @@ Experience Platform Data Lakeにデータを保持することなく、ジャー
 >
 >**プロファイル**&#x200B;のデータセットを有効にする前に、次の領域を評価します。
 >* **データ同期** – 取り込みエラーを識別するためのアラートを配置して、外部データベースを同期する必要があります。
->* **[プロファイルガードレール ](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/guardrails){target="_blank"}** — Experience Platformの[一般的なデータ取り込みガードレール ](https://experienceleague.adobe.com/ja/docs/experience-platform/ingestion/guardrails){target="_blank"}に加えて、プロファイル固有のガードレールが適用されます。
+>* **[プロファイルガードレール &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/guardrails){target="_blank"}** — Experience Platformの[一般的なデータ取り込みガードレール &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/ingestion/guardrails){target="_blank"}に加えて、プロファイル固有のガードレールが適用されます。
 >* **IDの整合性** — ソースシステム内のID データは、健全なID グラフを維持するために慎重に計画する必要があります。
 >* **データレイクの使用率** – 取り込み前に、全体的なストレージ消費、テーブル関係、およびアドレス可能なプロファイルを評価する必要があります。
 

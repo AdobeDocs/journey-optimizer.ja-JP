@@ -11,10 +11,19 @@ level: Intermediate
 exl-id: 7a217c97-57e1-4f04-a92c-37632f8dfe91
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/30rooSeteomQEDdTg97LiJDU6-YUiRA0Au3DJp-LQH0
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: c132d929-fa62-4271-803e-b823be07b914id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: c132d929-fa62-4271-803e-b823be07b914
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 2569
@@ -30,7 +39,7 @@ ht-degree: 0%
 
 決定とは、配信のターゲットに応じて、配信する最適なオファーを選択するために、オファー決定エンジンを活用するオファーのコンテナです。
 
-➡️ [ オファーアクティビティの作成方法については、このビデオをご覧ください](#video)
+➡️ [&#x200B; オファーアクティビティの作成方法については、このビデオをご覧ください](#video)
 
 決定のリストには、**[!UICONTROL オファー]** メニュー/**[!UICONTROL 決定]** タブからアクセスできます。 フィルターを使用すると、ステータスまたは開始日と終了日に応じて決定を取得できます。
 
@@ -58,7 +67,7 @@ ht-degree: 0%
 
    ![](../assets/activities-name.png)
 
-1. カスタムまたはコアのデータ使用ラベルを決定に割り当てるには、**[!UICONTROL アクセスの管理]**&#x200B;を選択します。 [ オブジェクトレベルのアクセス制御（OLAC）について詳しく見る](../../administration/object-based-access.md)
+1. カスタムまたはコアのデータ使用ラベルを決定に割り当てるには、**[!UICONTROL アクセスの管理]**&#x200B;を選択します。 [&#x200B; オブジェクトレベルのアクセス制御（OLAC）について詳しく見る](../../administration/object-based-access.md)
 
 ## 決定範囲の定義 {#add-decision-scopes}
 
@@ -105,7 +114,7 @@ ht-degree: 0%
 
 1. このプレースメントのオファーの選択を制限するには、**[!UICONTROL 実施要件]** フィールドを使用します。
 
-   この制約は、**決定ルール**、または1つまたは複数の&#x200B;**Adobe Experience Platform オーディエンス**&#x200B;を使用して適用できます。 両方について詳しくは、[このセクション ](../offer-library/add-constraints.md#segments-vs-decision-rules)を参照してください。
+   この制約は、**決定ルール**、または1つまたは複数の&#x200B;**Adobe Experience Platform オーディエンス**&#x200B;を使用して適用できます。 両方について詳しくは、[このセクション &#x200B;](../offer-library/add-constraints.md#segments-vs-decision-rules)を参照してください。
 
    * オファーの選択範囲をExperience Platform オーディエンスのメンバーに限定するには、「**[!UICONTROL オーディエンス]**」を選択し、「**[!UICONTROL オーディエンスを追加]**」をクリックします。
 
@@ -115,13 +124,13 @@ ht-degree: 0%
 
      ![](../assets/activity_constraint_segment2.png)
 
-     [このセクション ](../../audience/about-audiences.md)で、オーディエンスの操作方法について説明します。
+     [このセクション &#x200B;](../../audience/about-audiences.md)で、オーディエンスの操作方法について説明します。
 
    * 決定ルールで選択制約を追加する場合は、**[!UICONTROL 決定ルール]** オプションを使用して、選択したルールを選択します。
 
      ![](../assets/activity_constraint_rule.png)
 
-     決定ルールの作成方法については、[このセクション ](../offer-library/creating-decision-rules.md)を参照してください。
+     決定ルールの作成方法については、[このセクション &#x200B;](../offer-library/creating-decision-rules.md)を参照してください。
 
 1. オーディエンスまたは決定ルールを選択すると、推定された適格プロファイルに関する情報が表示されます。 「**[!UICONTROL 更新]**」をクリックしてデータを更新します。
 
@@ -159,9 +168,9 @@ ht-degree: 0%
 
    >[!CAUTION]
    >
-   >* [AI モデル ](../ranking/ai-models.md)が評価基準グループで使用されている場合、そのグループ内のすべての評価基準でAI ランキング方法を使用する必要があり、同じ特定のAI モデルを使用する必要があります。
+   >* [AI モデル &#x200B;](../ranking/ai-models.md)が評価基準グループで使用されている場合、そのグループ内のすべての評価基準でAI ランキング方法を使用する必要があり、同じ特定のAI モデルを使用する必要があります。
    >
-   >* AI モデルを使用できる評価基準グループは1つだけです。 決定範囲内のその他のグループは、他のランキング方法（優先度または数式）を使用する必要があります。 [ ランキング方法について詳しく見る](../offer-activities/configure-offer-selection.md)
+   >* AI モデルを使用できる評価基準グループは1つだけです。 決定範囲内のその他のグループは、他のランキング方法（優先度または数式）を使用する必要があります。 [&#x200B; ランキング方法について詳しく見る](../offer-activities/configure-offer-selection.md)
 
 1. この決定の一環としてオファーに別のプレースメントを追加するには、**[!UICONTROL 新しい範囲]** ボタンを使用します。 各決定範囲について、上記の手順を繰り返します。
 
@@ -271,7 +280,7 @@ ht-degree: 0%
 選択範囲は次のとおりです。
 
 1. スコープ 1の残りの上位2つの実施要件を満たすオファーが返されます（オファー2、オファー4）。
-1. スコープ 2の対象となる残りのオファーはないため、[ フォールバックオファー](#add-fallback)が返されます。
+1. スコープ 2の対象となる残りのオファーはないため、[&#x200B; フォールバックオファー](#add-fallback)が返されます。
 
 +++
 
@@ -324,7 +333,7 @@ ht-degree: 0%
 >title="フォールバックオファーの追加"
 >abstract="決定範囲を定義したら、オファーの実施要件ルールと制約に一致しない顧客に対する最後の手段として表示されるフォールバックオファーを定義します。"
 
-決定範囲を定義したら、オファーの実施要件ルールと制約に一致しない顧客に対する最後の手段として表示される[ フォールバックオファー](../offer-library/creating-fallback-offers.md)を定義します。
+決定範囲を定義したら、オファーの実施要件ルールと制約に一致しない顧客に対する最後の手段として表示される[&#x200B; フォールバックオファー](../offer-library/creating-fallback-offers.md)を定義します。
 
 これを行うには、決定で定義されたプレースメントに対して使用可能なフォールバックオファーのリストから選択します。
 
@@ -367,7 +376,7 @@ ht-degree: 0%
 
 ![](../assets/decision_created.png)
 
-**[!UICONTROL 編集]** ボタンを選択して、決定の[詳細](#create-activity)、[決定範囲](#add-decision-scopes)および[ フォールバックオファー](#add-fallback)を変更できる決定編集モードに戻ります。
+**[!UICONTROL 編集]** ボタンを選択して、決定の[詳細](#create-activity)、[決定範囲](#add-decision-scopes)および[&#x200B; フォールバックオファー](#add-fallback)を変更できる決定編集モードに戻ります。
 
 >[!IMPORTANT]
 >

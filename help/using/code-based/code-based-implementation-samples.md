@@ -7,11 +7,22 @@ role: Developer
 level: Experienced
 exl-id: e5ae8b4e-7cd2-4a1d-b2c0-8dafd5c4cdfd
 TQID: https://experienceleague.adobe.com/YJlONn7IigQAhIQJLvX58tmAYzvaTCnRdModuGJTeB0
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2:
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1114
@@ -29,9 +40,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->[このリンク ](https://github.com/adobe/alloy-samples/tree/main/ajo){target="_blank"}に従って、様々なパーソナライゼーションと実験のユースケースのサンプル実装を確認してください。 必要な実装ステップと、エンドツーエンドのパーソナライゼーションフローの仕組みをより深く理解するために、これらのステップを確認して実行します。
+>[このリンク &#x200B;](https://github.com/adobe/alloy-samples/tree/main/ajo){target="_blank"}に従って、様々なパーソナライゼーションと実験のユースケースのサンプル実装を確認してください。 必要な実装ステップと、エンドツーエンドのパーソナライゼーションフローの仕組みをより深く理解するために、これらのステップを確認して実行します。
 
-➡️ コードベースのエクスペリエンスと決定のためのWeb SDKの設定について詳しくは、[これらのチュートリアル ](code-based-decisioning-implementations.md#tutorials)を参照してください
+➡️ コードベースのエクスペリエンスと決定のためのWeb SDKの設定について詳しくは、[これらのチュートリアル &#x200B;](code-based-decisioning-implementations.md#tutorials)を参照してください
 
 ## クライアントサイド実装 {#client-side-implementation}
 
@@ -39,17 +50,17 @@ ht-degree: 0%
 
 * 以下の手順[は、サンプル **Web SDK**&#x200B;の実装で、エッジで公開されたコンテンツをコードベースのエクスペリエンスジャーニーおよびキャンペーンによって取得し、パーソナライズされたコンテンツを表示するプロセスを示しています。](#client-side-how)
 
-* **モバイル SDK**&#x200B;を使用してコードベースのチャネルを実装する手順については、[このチュートリアル ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial){target="_blank"}で説明します。
+* **モバイル SDK**&#x200B;を使用してコードベースのチャネルを実装する手順については、[このチュートリアル &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial){target="_blank"}で説明します。
 
   >[!NOTE]
   >
-  >モバイルのユースケース向けの実装の例は、[iOS アプリ ](https://github.com/adobe/aepsdk-messaging-ios/tree/main/TestApps/MessagingDemoAppSwiftUI){target="_blank"}および[Android アプリ ](https://github.com/adobe/aepsdk-messaging-android/tree/main/code/testapp){target="_blank"}で利用できます。
+  >モバイルのユースケース向けの実装の例は、[iOS アプリ &#x200B;](https://github.com/adobe/aepsdk-messaging-ios/tree/main/TestApps/MessagingDemoAppSwiftUI){target="_blank"}および[Android アプリ &#x200B;](https://github.com/adobe/aepsdk-messaging-android/tree/main/code/testapp){target="_blank"}で利用できます。
 
 ### 仕組み – Web SDK {#client-side-how}
 
 1. [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target="_blank"}がこのページに含まれています。
 
-1. パーソナライゼーションコンテンツを取得するには、`sendEvent` コマンドを使用し、[ サーフェス URI](code-based-surface.md)<!--( or location/path)-->を指定する必要があります。
+1. パーソナライゼーションコンテンツを取得するには、`sendEvent` コマンドを使用し、[&#x200B; サーフェス URI](code-based-surface.md)<!--( or location/path)-->を指定する必要があります。
 
    ```javascript
    alloy("sendEvent", {
@@ -164,7 +175,7 @@ Adobe Experience Platform APIへのリクエストは、提案を取得し、表
 ### 仕組み
 
 1. Web ページが要求され、`kndctr_`が先頭に付けられたブラウザーによって以前に保存されたCookieが含まれます。
-1. ページがアプリサーバーから要求されると、パーソナライゼーションコンテンツを取得するためのイベントが[ インタラクティブデータ収集エンドポイント ](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html)に送信されます。 このサンプルアプリでは、いくつかのヘルパーメソッドを使用して、APIへのリクエストの作成と送信を簡素化します（[aepEdgeClient.js](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/common/aepEdgeClient.js){target="_blank"}を参照）。 しかし、リクエストは単なる`POST`で、イベントとクエリを含むペイロードがあります。 前の手順のCookie （使用可能な場合）は、`meta>state>entries`配列のリクエストに含まれます。
+1. ページがアプリサーバーから要求されると、パーソナライゼーションコンテンツを取得するためのイベントが[&#x200B; インタラクティブデータ収集エンドポイント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html)に送信されます。 このサンプルアプリでは、いくつかのヘルパーメソッドを使用して、APIへのリクエストの作成と送信を簡素化します（[aepEdgeClient.js](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/common/aepEdgeClient.js){target="_blank"}を参照）。 しかし、リクエストは単なる`POST`で、イベントとクエリを含むペイロードがあります。 前の手順のCookie （使用可能な場合）は、`meta>state>entries`配列のリクエストに含まれます。
 
    ```javascript
    fetch(
@@ -325,7 +336,7 @@ Adobe Experience Platform APIへのリクエストは、提案を取得し、表
 ハイブリッド実装を使用している場合は、以下のリンクを参照してください。
 
 * Adobe Tech ブログ：[Adobe Experience Platform Web SDKのハイブリッド Personalization](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
-* SDK ドキュメント：[Web SDKとEdge Network Server APIを使用したハイブリッドパーソナライゼーション ](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html){target="_blank"}
+* SDK ドキュメント：[Web SDKとEdge Network Server APIを使用したハイブリッドパーソナライゼーション &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html){target="_blank"}
 
 ## Adobe Experience Platform assuranceによるエッジネットワーク API呼び出しのデバッグ {#debugging-edge-api-assurance}
 

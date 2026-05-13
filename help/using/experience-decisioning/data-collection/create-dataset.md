@@ -10,9 +10,12 @@ hide: true
 exl-id: 96c1326f-be40-4738-8997-a67dc14872bb
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/U-4AWTYWPOzBhtT3gxE6ORtMI8jNKOZGns-0P3t7-lE
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 270
@@ -34,9 +37,9 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >XDM スキーマとフィールドグループについて詳しくは、[XDM システム概要ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}を参照してください。
+   >XDM スキーマとフィールドグループについて詳しくは、[XDM システム概要ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}を参照してください。
 
-1. スキーマの名前と説明を入力し、**終了**をクリックします。
+1. スキーマの名前と説明を入力し、**終了**&#x200B;をクリックします。
    ![](../../offers/assets/ai-ranking-xdm-event-2.png)
 
 1. 左側の&#x200B;**[!UICONTROL フィールドグループ]** セクションから、**[!UICONTROL 追加]**&#x200B;を選択します。
@@ -57,7 +60,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->スキーマの構築について詳しくは、[ スキーマ構成の基本](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#understanding-schemas){target="_blank"}を参照してください。
+>スキーマの構築について詳しくは、[&#x200B; スキーマ構成の基本](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html#understanding-schemas){target="_blank"}を参照してください。
 
 これで、このスキーマを使用してデータセットを作成する準備が整いました。 これを行うには、次の手順に従います。
 
@@ -75,4 +78,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->このデータセットを選択して、[AI モデル ](../ranking/create-ai-models.md)の作成時にイベントデータを収集できるようになりました。
+>このデータセットを選択して、[AI モデル &#x200B;](../ranking/create-ai-models.md)の作成時にイベントデータを収集できるようになりました。

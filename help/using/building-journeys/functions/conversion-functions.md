@@ -9,9 +9,12 @@ keywords: 変換，関数，式，ジャーニー，タイプ，キャスト
 version: Journey Orchestration
 exl-id: f1267c9e-200c-43ae-8b98-3c5951a2f2d7
 TQID: https://experienceleague.adobe.com/CoDxFCoJOwwmPHOG6pxMxmSASUbATkUoguBjNkrMKeQ
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1271
@@ -110,7 +113,7 @@ falseを返します。
 
 ## toDateOnly {#toDateOnly}
 
-引数をdateOnly タイプの値に変換します。 データ型について詳しくは、この[ セクション ](../expression/data-types.md)を参照してください。
+引数をdateOnly タイプの値に変換します。 データ型について詳しくは、この[&#x200B; セクション &#x200B;](../expression/data-types.md)を参照してください。
 
 +++構文
 
@@ -225,7 +228,7 @@ Unix タイムスタンプをミリ秒単位でdateTime値に変換します。
 
 >[!NOTE]
 >
->タイムゾーン IDは文字列定数である必要があります。 フィールド参照または式にすることはできません。 データ型について詳しくは、[このページ ](../expression/data-types.md)を参照してください。
+>タイムゾーン IDは文字列定数である必要があります。 フィールド参照または式にすることはできません。 データ型について詳しくは、[このページ &#x200B;](../expression/data-types.md)を参照してください。
 
 ## toDateTimeOnly {#toDateTimeOnly}
 
@@ -311,7 +314,7 @@ Unix タイムスタンプをミリ秒単位でdateTime値に変換します。
 
 ## toDuration {#toDuration}
 
-引数の値をデュレーションに変換します。 データ型について詳しくは、[このページ ](../expression/data-types.md)を参照してください。
+引数の値をデュレーションに変換します。 データ型について詳しくは、[このページ &#x200B;](../expression/data-types.md)を参照してください。
 
 +++構文
 
@@ -405,7 +408,7 @@ Unix タイムスタンプをミリ秒単位でdateTime値に変換します。
 
 ## toString {#toString}
 
-引数の値を、タイプに応じて文字列値に変換します。 データ型について詳しくは、[このページ ](../expression/data-types.md)を参照してください。
+引数の値を、タイプに応じて文字列値に変換します。 データ型について詳しくは、[このページ &#x200B;](../expression/data-types.md)を参照してください。
 
 +++構文
 

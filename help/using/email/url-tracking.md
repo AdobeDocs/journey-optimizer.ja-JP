@@ -10,11 +10,19 @@ level: Experienced
 keywords: 設定、電子メール、設定
 exl-id: 5a12280c-b937-4cd9-a1ef-563bab48e42e
 TQID: https://experienceleague.adobe.com/q1T-efX3vK77d1PfKA8mWU73w6Cj4-H95RynkHHg16U
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2: id: fae48155-b23f-40d2-a252-a25bce350b4d
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: fae48155-b23f-40d2-a252-a25bce350b4d
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 489
@@ -34,7 +42,7 @@ ht-degree: 0%
 >title="URL トラッキングパラメーターのプレビュー"
 >abstract="メールコンテンツに存在するURLにトラッキングパラメーターを追加する方法を確認します。"
 
-新しい[ メールチャネル設定](email-settings.md)を設定する際に、**[!UICONTROL URL トラッキングパラメーター]**&#x200B;を定義して、チャネル全体のマーケティング活動の効果を測定できます。 この機能の有効化はオプションです。
+新しい[&#x200B; メールチャネル設定](email-settings.md)を設定する際に、**[!UICONTROL URL トラッキングパラメーター]**&#x200B;を定義して、チャネル全体のマーケティング活動の効果を測定できます。 この機能の有効化はオプションです。
 
 対応するセクションで定義されたパラメーターは、メールメッセージのコンテンツに含まれるURLの末尾に追加されます。 その後、Adobe AnalyticsやGoogle Analyticsなどのweb分析ツールでこれらのパラメーターを取得し、様々なパフォーマンスレポートを作成できます。
 
@@ -48,7 +56,7 @@ ht-degree: 0%
 
 URL トラッキングパラメーターを設定するには、**[!UICONTROL 名前]**&#x200B;および&#x200B;**[!UICONTROL 値]** フィールドに目的の値を直接入力できます。
 
-[ パーソナライゼーションエディター](../personalization/personalization-build-expressions.md)を使用して、各&#x200B;**[!UICONTROL 値]** フィールドを編集することもできます。 編集アイコンをクリックしてエディターを開きます。 そこから、使用可能なコンテキスト属性を選択したり、テキストを直接編集したりできます。
+[&#x200B; パーソナライゼーションエディター](../personalization/personalization-build-expressions.md)を使用して、各&#x200B;**[!UICONTROL 値]** フィールドを編集することもできます。 編集アイコンをクリックしてエディターを開きます。 そこから、使用可能なコンテキスト属性を選択したり、テキストを直接編集したりできます。
 
 ![](assets/preset-url-tracking-editor.png)
 
@@ -62,7 +70,7 @@ URL トラッキングパラメーターを設定するには、**[!UICONTROL �
 
   >[!NOTE]
   >
-  >製品の変更後に閉じられたか再公開されなかったジャーニーは、トラッキング URLに`context.system.source.actionId`が入力されず、空のプレースホルダー（例：`cid=em-acou-adob{}`）になる可能性があります。 トラッキングパラメーターが正しく入力されるようにするには、[影響を受けるジャーニーを再公開するか、クローズしたジャーニーに対してこのコンテキストフィールドへの参照を削除します](../building-journeys/publish-journey.md#journey-create-new-version)。 詳しくは、[ ライブジャーニー実行のトラブルシューティング ](../building-journeys/troubleshooting-execution.md#tracking-parameters-closed-journeys)を参照してください。
+  >製品の変更後に閉じられたか再公開されなかったジャーニーは、トラッキング URLに`context.system.source.actionId`が入力されず、空のプレースホルダー（例：`cid=em-acou-adob{}`）になる可能性があります。 トラッキングパラメーターが正しく入力されるようにするには、[影響を受けるジャーニーを再公開するか、クローズしたジャーニーに対してこのコンテキストフィールドへの参照を削除します](../building-journeys/publish-journey.md#journey-create-new-version)。 詳しくは、[&#x200B; ライブジャーニー実行のトラブルシューティング &#x200B;](../building-journeys/troubleshooting-execution.md#tracking-parameters-closed-journeys)を参照してください。
 
 * **Source アクション名**: ジャーニーまたはキャンペーンに追加された電子メールアクションの名前。
 

@@ -7,11 +7,17 @@ role: Admin
 level: Experienced
 exl-id: 07ec74fb-7fbc-48c6-a8fc-f58f24a60723
 TQID: https://experienceleague.adobe.com/pwEZHMppLlVIPYRsb0ZAg69tSUh0Qyia-pvqJTAmU6I
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2:
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 828
@@ -29,7 +35,7 @@ ht-degree: 0%
 >abstract="実装がWeb、iOS、Android向けでない場合、または特定のURIをターゲットにする必要がある場合は、エクスペリエンスを配信するエンティティに向かう一意のIDであるサーフェス URIを入力します。 独自の実装で使用されているものと一致するサーフェス URIを入力してください。"
 >additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/code-based-experience/configure-code-based-channel/code-based-configuration#other" text="他のプラットフォーム用のコードベースのエクスペリエンス設定の作成"
 
-コードベースのエクスペリエンス **サーフェス**&#x200B;は、[URI](#surface-uri)によって一意に識別される、ユーザーまたはシステムの操作のために設計された任意のエンティティです。 サーフェスは[ アプリケーション実装](code-based-prerequisites.md#implementation-prerequisites)で指定されており、[ コードベースのエクスペリエンスチャネル設定](code-based-configuration.md)で参照されているサーフェスと一致する必要があります。
+コードベースのエクスペリエンス **サーフェス**&#x200B;は、[URI](#surface-uri)によって一意に識別される、ユーザーまたはシステムの操作のために設計された任意のエンティティです。 サーフェスは[&#x200B; アプリケーション実装](code-based-prerequisites.md#implementation-prerequisites)で指定されており、[&#x200B; コードベースのエクスペリエンスチャネル設定](code-based-configuration.md)で参照されているサーフェスと一致する必要があります。
 
 サーフェスは、存在するエンティティ（タッチポイント）を持つ階層の任意のレベルのコンテナと見なすことができます。
 
@@ -89,7 +95,7 @@ ht-degree: 0%
 >
 >実装の前提条件について詳しくは、[この節](code-based-prerequisites.md#implementation-prerequisites)を参照してください。
 
-コードベースのエクスペリエンスを使用すると、[ サーフェス URI](#surface-uri)を使用して、[!DNL Journey Optimizer]によって一意に識別される詳細な場所<!--(such as a specific location on a page, or inside a mobile native app)-->のコンテンツを変更できます。
+コードベースのエクスペリエンスを使用すると、[&#x200B; サーフェス URI](#surface-uri)を使用して、[!DNL Journey Optimizer]によって一意に識別される詳細な場所<!--(such as a specific location on a page, or inside a mobile native app)-->のコンテンツを変更できます。
 
 これらのサーフェス URIは、実装方法に応じて構成および処理されます。
 
@@ -97,7 +103,7 @@ ht-degree: 0%
 
 * **Edge Network API**：完全なURIがこのタイプの実装では必要であるため、アプリ/ページ開発者は、コンテンツが消費されるフルパスと場所を含む完全なサーフェス URIを定義する必要があります。
 
-そのため、[ コードベースのエクスペリエンスチャネル設定](code-based-configuration.md)を作成する場合、選択したプラットフォームに応じてサーフェスを指定する2つの方法があります。
+そのため、[&#x200B; コードベースのエクスペリエンスチャネル設定](code-based-configuration.md)を作成する場合、選択したプラットフォームに応じてサーフェスを指定する2つの方法があります。
 
 * **[!UICONTROL Web]**、**[!UICONTROL iOS]**、**[!UICONTROL Android]** プラットフォームの場合、サーフェスを構成するには、**URL/アプリ ID**&#x200B;と&#x200B;**場所またはパス**&#x200B;を入力する必要があります。 [web](code-based-configuration.md#web)および[mobile](code-based-configuration.md#mobile) プラットフォームのコードベースのエクスペリエンスの設定について詳しく説明します
 

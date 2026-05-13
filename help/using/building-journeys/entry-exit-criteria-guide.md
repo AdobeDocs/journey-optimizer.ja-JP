@@ -10,12 +10,30 @@ keywords: 入口、出口、基準、ジャーニー、プロファイル、再�
 version: Journey Orchestration
 exl-id: e879a0f6-b969-4de0-a733-f2880d58d59b
 TQID: https://experienceleague.adobe.com/6OJQsorJ9p7gtO1ep-rIss60J2TmKzqiNS3Btfhh8Gs
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: bb359667-ec7d-4d4b-8663-5850fc219d32id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2: id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
+  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
+  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1670
@@ -31,7 +49,7 @@ ht-degree: 0%
 
 ## 入口と出口の基準は？ {#what-are-criteria}
 
-**エントリ条件**&#x200B;は、[顧客プロファイル ](../audience/get-started-profiles.md)が特定のジャーニーにエントリする条件を決定します。 プロファイルは次の基準で入力できます。
+**エントリ条件**&#x200B;は、[顧客プロファイル &#x200B;](../audience/get-started-profiles.md)が特定のジャーニーにエントリする条件を決定します。 プロファイルは次の基準で入力できます。
 
 * **[顧客行動](../event/about-events.md)** – 購入、カートの放棄、モバイルアプリの起動など、トリガージャーニーをリアルタイムで入力する顧客の行動。
 
@@ -43,15 +61,15 @@ ht-degree: 0%
 
 **離脱条件**&#x200B;は、プロファイルがいつ、どのようにジャーニーから離脱するか、またはジャーニーから削除されるかを定義します。
 
-* **ジャーニー完了** - プロファイルがすべてのジャーニーパス ](end-journey.md)の[末尾に到達すると、自動的に終了し、設計されたエクスペリエンスが完了します。
+* **ジャーニー完了** - プロファイルがすべてのジャーニーパス [&#128279;](end-journey.md)の末尾に到達すると、自動的に終了し、設計されたエクスペリエンスが完了します。
 
-* **成功指標の達成** - プロファイルは、購入やアプリのダウンロードなど、[ ジャーニー目標](success-metrics.md)を完了すると終了し、不要なフォローアップコミュニケーションは不要になります。
+* **成功指標の達成** - プロファイルは、購入やアプリのダウンロードなど、[&#x200B; ジャーニー目標](success-metrics.md)を完了すると終了し、不要なフォローアップコミュニケーションは不要になります。
 
 * **条件ベース** - [特定の条件](conditions.md)が満たされると、プロファイルは終了します。これは、設定された期間の非アクティブ化やプロファイル属性の変更など同様です。
 
 * **イベントベースの** - [特定のイベント（](../event/about-events.md)）が発生した場合、サブスクリプションの解約や製品返品など）にプロファイルが終了します。
 
-* **オーディエンスの失格** - プロファイルは、[ ターゲットオーディエンスの条件](../audience/about-audiences.md)を満たさなくなると終了し、メッセージの関連性が維持されます。
+* **オーディエンスの失格** - プロファイルは、[&#x200B; ターゲットオーディエンスの条件](../audience/about-audiences.md)を満たさなくなると終了し、メッセージの関連性が維持されます。
 
 ## 入口と出口の基準が重要な理由 {#why-they-matter}
 
@@ -107,15 +125,15 @@ ht-degree: 0%
 
 **入学条件について知っておくべきことを、ここで説明します。**
 
-* **[イベントベースのトリガー](../event/about-events.md)**:「プロファイル作成」、「トランザクション完了」、カスタムイベントなどのイベントを使用して、ジャーニーを開始します。 [管理&#x200B;]**/**[!UICONTROL  イベント ]**でイベント ](../event/about-creating.md)を設定し、[ イベントスキーマとフィールド ](../event/experience-event-schema.md)を定義します。**[!UICONTROL &#x200B;次に、[ ジャーニーデザイナー](using-the-journey-designer.md)の&#x200B;**[!UICONTROL イベント]** パレットからイベントを追加します。
+* **[イベントベースのトリガー](../event/about-events.md)**:「プロファイル作成」、「トランザクション完了」、カスタムイベントなどのイベントを使用して、ジャーニーを開始します。 [管理&#x200B;]&#x200B;**/**&#x200B;[!UICONTROL &#x200B; イベント &#x200B;]&#x200B;**でイベント (../event/about-creating.md)を設定し、[&#x200B; イベントスキーマとフィールド &#x200B;](../event/experience-event-schema.md)を定義します。**&#x200B;次に、[&#x200B; ジャーニーデザイナー](using-the-journey-designer.md)の&#x200B;**[!UICONTROL イベント]** パレットからイベントを追加します。
 
-* **[オーディエンスベースのエントリ](read-audience.md)**：ジャーニーを、1回限りのバッチまたは定期的なスケジュールのいずれかで、特定のオーディエンスに属するプロファイルにターゲティングします。 **[!UICONTROL オーディエンス]** メニューで[ オーディエンス ](../audience/creating-a-segment-definition.md)を作成してから、**[!UICONTROL オーディエンスの読み取り]** アクティビティを追加し、[ スケジュールを設定](journey-properties.md#schedule)。 入力後、条件を使用して[分岐をセグメント化、除外、または結合](read-audience.md#audience-targeting-in-journeys)します。
+* **[オーディエンスベースのエントリ](read-audience.md)**：ジャーニーを、1回限りのバッチまたは定期的なスケジュールのいずれかで、特定のオーディエンスに属するプロファイルにターゲティングします。 **[!UICONTROL オーディエンス]** メニューで[&#x200B; オーディエンス &#x200B;](../audience/creating-a-segment-definition.md)を作成してから、**[!UICONTROL オーディエンスの読み取り]** アクティビティを追加し、[&#x200B; スケジュールを設定](journey-properties.md#schedule)。 入力後、条件を使用して[分岐をセグメント化、除外、または結合](read-audience.md#audience-targeting-in-journeys)します。
 
-* **[オーディエンス選定エントリ](audience-qualification-events.md)**: プロファイルが特定のトリガーに対してリアルタイムで選定または離脱する場合のオーディエンスジャーニー。 [ ストリーミングオーディエンス ](../audience/about-audiences.md)を定義し、**[!UICONTROL イベント]** パレットから&#x200B;**[!UICONTROL オーディエンス選定]**&#x200B;トリガーを追加して、イベントの種類を選択します。
+* **[オーディエンス選定エントリ](audience-qualification-events.md)**: プロファイルが特定のトリガーに対してリアルタイムで選定または離脱する場合のオーディエンスジャーニー。 [&#x200B; ストリーミングオーディエンス &#x200B;](../audience/about-audiences.md)を定義し、**[!UICONTROL イベント]** パレットから&#x200B;**[!UICONTROL オーディエンス選定]**&#x200B;トリガーを追加して、イベントの種類を選択します。
 
-* **[属性フィルター](conditions.md)**:AND/OR ロジックを使用して、イベントまたはオーディエンスをプロファイル属性およびコンテキストと組み合わせてエントリ条件を調整します。 [条件](conditions.md)を使用して、[ プロファイル属性](../audience/get-started-profiles.md)、イベント、または[外部データ ](../datasource/about-data-sources.md)を参照します。
+* **[属性フィルター](conditions.md)**:AND/OR ロジックを使用して、イベントまたはオーディエンスをプロファイル属性およびコンテキストと組み合わせてエントリ条件を調整します。 [条件](conditions.md)を使用して、[&#x200B; プロファイル属性](../audience/get-started-profiles.md)、イベント、または[外部データ &#x200B;](../datasource/about-data-sources.md)を参照します。
 
-* **[時間枠とスケジュール](journey-properties.md#schedule)**: ジャーニーをタイムリーかつ関連性のある状態に保つために、時間的制約を設定します。 読み取りオーディエンスアクティビティ ](read-audience.md)で[ スケジュールを設定し、[待機アクティビティ ](wait-activity.md)を使用し、[時間ベースの条件](conditions.md)を追加してタイミングを制御します。
+* **[時間枠とスケジュール](journey-properties.md#schedule)**: ジャーニーをタイムリーかつ関連性のある状態に保つために、時間的制約を設定します。 読み取りオーディエンスアクティビティ [&#128279;](read-audience.md)で スケジュールを設定し、[待機アクティビティ &#x200B;](wait-activity.md)を使用し、[時間ベースの条件](conditions.md)を追加してタイミングを制御します。
 
 >[!ENDSHADEBOX]
 
@@ -127,9 +145,9 @@ ht-degree: 0%
 
 * **[ジャーニー完了](end-journey.md)**: プロファイルは、ジャーニーの最後のステップに到達すると自動的に終了します。 **[!UICONTROL 終了]** アクティビティで終了するジャーニーパスをデザインします。
 
-* **[成功指標の達成](journey-properties.md#exit-criteria)**：成功指標（購入やサブスクリプションなど）を定義し、完了時にプロファイルを終了します。 **[!UICONTROL 離脱条件を表示]** アイコンをクリックし、**[!UICONTROL 離脱条件を追加]**&#x200B;を選択し、離脱トリガーとして[ イベント ](../event/about-events.md)または[ オーディエンス ](../audience/about-audiences.md)を選択します。
+* **[成功指標の達成](journey-properties.md#exit-criteria)**：成功指標（購入やサブスクリプションなど）を定義し、完了時にプロファイルを終了します。 **[!UICONTROL 離脱条件を表示]** アイコンをクリックし、**[!UICONTROL 離脱条件を追加]**&#x200B;を選択し、離脱トリガーとして[&#x200B; イベント &#x200B;](../event/about-events.md)または[&#x200B; オーディエンス &#x200B;](../audience/about-audiences.md)を選択します。
 
-* **[非アクティビティタイムアウト](wait-activity.md)**：設定された時間枠内にエンゲージメントが発生しない場合は、プロファイルを終了します。 最後のエンゲージメント日を確認するオーディエンスで[終了条件](journey-properties.md#exit-criteria)を使用し、定義された期間で[ アクティビティ ](wait-activity.md)を設定し、[条件](conditions.md)を使用してアクティビティを確認します。
+* **[非アクティビティタイムアウト](wait-activity.md)**：設定された時間枠内にエンゲージメントが発生しない場合は、プロファイルを終了します。 最後のエンゲージメント日を確認するオーディエンスで[終了条件](journey-properties.md#exit-criteria)を使用し、定義された期間で[&#x200B; アクティビティ &#x200B;](wait-activity.md)を設定し、[条件](conditions.md)を使用してアクティビティを確認します。
 
 * **[再入力ルール](entry-management.md)**: キャンペーン戦略に応じて、プロファイルがジャーニーに複数回または1回だけ再入力できるかどうかを決定します。 ジャーニー&#x200B;**[!UICONTROL プロパティ]**&#x200B;で&#x200B;**[!UICONTROL 再エントリ]**&#x200B;設定を構成して、待機期間を設定するか、強制的な再エントリを有効にするか、コンテキスト固有の再エントリに[補足識別子](supplemental-identifier.md)を使用します。
 
@@ -143,7 +161,7 @@ ht-degree: 0%
 
 * **[カート放棄の回復](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart)** - イベントをトリガーにしたジャーニー、プレイブック、チャネル ルーティングを使用して、失われたセールスを回復します
 
-* **[リエンゲージメントキャンペーン ](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/use-cases/personalization-insights-engagement/use-cases-luma)** – 行動ターゲティングと有料メディアのアクティベーションにより、非アクティブな顧客を取り戻します
+* **[リエンゲージメントキャンペーン &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/use-cases/personalization-insights-engagement/use-cases-luma)** – 行動ターゲティングと有料メディアのアクティベーションにより、非アクティブな顧客を取り戻します
 
 * **[購読者にメッセージを送信](message-to-subscribers-uc.md)** – 購読オーディエンスとパーソナライズされたコンテンツで購読リストをターゲットにする
 
@@ -153,7 +171,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
->その他のパターンと実装については、[ジャーニーユースケースライブラリ ](jo-use-cases.md)で使用可能なすべてのユースケースを参照してください。 例としては、[配信の強化](ramp-up-deliveries-uc.md)、[ エクスペリエンスイベントパターン ](exp-event-lookup.md)、[ ライブジャーニーからのプロファイルの削除](journey-pause.md#apply-an-exit-criteria-in-a-paused-journey)などが挙げられます。
+>その他のパターンと実装については、[ジャーニーユースケースライブラリ &#x200B;](jo-use-cases.md)で使用可能なすべてのユースケースを参照してください。 例としては、[配信の強化](ramp-up-deliveries-uc.md)、[&#x200B; エクスペリエンスイベントパターン &#x200B;](exp-event-lookup.md)、[&#x200B; ライブジャーニーからのプロファイルの削除](journey-pause.md#apply-an-exit-criteria-in-a-paused-journey)などが挙げられます。
 
 ## 入口と出口の管理に関するベストプラクティス {#best-practices}
 
@@ -165,25 +183,25 @@ ht-degree: 0%
 * 入口ポイント、ジャーニーパス、出口条件を示すフローチャートを作成します
 * ビジネスルールを明確に定義する：「Xが発生したとき、またはY日後にプロファイルが離脱する」
 * 記述的なラベルを使用する：「終了 – 購入完了」ではなく「終了1」
-* レポートとフィルタリング用に一貫して[ ジャーニー](../start/search-filter-categorize.md#tags)をタグ付け
+* レポートとフィルタリング用に一貫して[&#x200B; ジャーニー](../start/search-filter-categorize.md#tags)をタグ付け
 
 **重複するジャーニーを避ける**
 
 キャンペーンをまたいでジャーニー戦略を連携することで、顧客の混乱やメッセージの競合を防ぐことができます。
 
-* 競合を防ぐために、類似のジャーニーを起動する前に[ アクティブなジャーニー](journey-ui.md)を監査します
-* [競合管理](../conflict-prioritization/conflicts.md)および[優先度スコア ](../conflict-prioritization/priority-scores.md)を活用して、重複を解決し、ジャーニーの優先順位を決定します
+* 競合を防ぐために、類似のジャーニーを起動する前に[&#x200B; アクティブなジャーニー](journey-ui.md)を監査します
+* [競合管理](../conflict-prioritization/conflicts.md)および[優先度スコア &#x200B;](../conflict-prioritization/priority-scores.md)を活用して、重複を解決し、ジャーニーの優先順位を決定します
 * 互いに競争するのではなく、補完し合うジャーニーをデザインします
 
 >[!NOTE]
 >
->より優先度の高いジャーニーに適格な場合にプロファイルを自動的に削除するような高度なシナリオの場合は、出口条件の代わりに[ ジャーニーの上限設定と調停](../conflict-prioritization/journey-capping.md)を使用します。
+>より優先度の高いジャーニーに適格な場合にプロファイルを自動的に削除するような高度なシナリオの場合は、出口条件の代わりに[&#x200B; ジャーニーの上限設定と調停](../conflict-prioritization/journey-capping.md)を使用します。
 
 **監視と最適化**
 
 ジャーニーのパフォーマンスを継続的に評価し、実際の顧客の行動にもとづいて入出口基準を調整します。
 
-* [ ジャーニーレポート ](../reports/journey-global-report-cja.md)を使用して、各ジャーニーの開封率、離脱率、完了率を追跡します
+* [&#x200B; ジャーニーレポート &#x200B;](../reports/journey-global-report-cja.md)を使用して、各ジャーニーの開封率、離脱率、完了率を追跡します
 * [成功指標](success-metrics.md)の監視：成功指標の完了率とタイムアウト率の比較
 * [開始する前に、様々なプロファイルシナリオを使用して入出口基準](testing-the-journey.md)をテストします
 * データに基づく調整：高い早期離脱の場合は、エントリ基準の関連性を確認します。成功指標の完了率が低い場合は、コンテンツとタイミングを分析します
@@ -194,12 +212,12 @@ ht-degree: 0%
 あらゆるジャーニーのコミュニケーションをまたいでメッセージ頻度を制御することで、顧客の信頼とエンゲージメントを維持します。
 
 * 適切な[再エントリ待機期間](entry-management.md)を設定するか、1回限りのジャーニーの再エントリを無効にします
-* [頻度の上限ルール ](../conflict-prioritization/rule-sets.md)を使用して、通信が過剰になるのを防ぎます
+* [頻度の上限ルール &#x200B;](../conflict-prioritization/rule-sets.md)を使用して、通信が過剰になるのを防ぎます
 * コンプライアンスを確保するために、レポートで頻度の指標を監視する
 
 >[!NOTE]
 >
->複数のジャーニーをまたいで頻度制限とジャーニー入力上限を管理するには、[ ジャーニーの上限と調停](../conflict-prioritization/journey-capping.md)および[ チャネルごとの頻度上限](../conflict-prioritization/channel-capping.md)を使用します。
+>複数のジャーニーをまたいで頻度制限とジャーニー入力上限を管理するには、[&#x200B; ジャーニーの上限と調停](../conflict-prioritization/journey-capping.md)および[&#x200B; チャネルごとの頻度上限](../conflict-prioritization/channel-capping.md)を使用します。
 
 ## まとめ {#conclusion}
 
@@ -211,12 +229,12 @@ ht-degree: 0%
 
 **技術ドキュメント**
 
-[Profile entrance management](entry-management.md) | [ジャーニープロパティと終了条件](journey-properties.md) | [ ジャーニーの終了方法](end-journey.md) | [補足識別子](supplemental-identifier.md) | [ジャーニーデザイナー](using-the-journey-designer.md)
+[Profile entrance management](entry-management.md) | [ジャーニープロパティと終了条件](journey-properties.md) | [&#x200B; ジャーニーの終了方法](end-journey.md) | [補足識別子](supplemental-identifier.md) | [ジャーニーデザイナー](using-the-journey-designer.md)
 
 **チュートリアルと例**
 
-[ジャーニーユースケース ](jo-use-cases.md) | [お客様のオンボーディングビデオ ](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [ カート放棄ビデオ ](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [ コミュニティブログ：入口と出口の条件](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958)
+[ジャーニーユースケース &#x200B;](jo-use-cases.md) | [お客様のオンボーディングビデオ &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [&#x200B; カート放棄ビデオ &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [&#x200B; コミュニティブログ：入口と出口の条件](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958)
 
 **関連する機能**
 
-[ オーディエンスの選定イベント ](audience-qualification-events.md) | [成功指標と目標](success-metrics.md) | [競合管理](../conflict-prioritization/conflicts.md) | [頻度の上限設定](../conflict-prioritization/rule-sets.md) | [ ジャーニー](testing-the-journey.md) | [ アクティビティの最適化](optimize.md) | [反応イベント ](reaction-events.md) | [ アクティビティの待機](wait-activity.md)
+[&#x200B; オーディエンスの選定イベント &#x200B;](audience-qualification-events.md) | [成功指標と目標](success-metrics.md) | [競合管理](../conflict-prioritization/conflicts.md) | [頻度の上限設定](../conflict-prioritization/rule-sets.md) | [&#x200B; ジャーニー](testing-the-journey.md) | [&#x200B; アクティビティの最適化](optimize.md) | [反応イベント &#x200B;](reaction-events.md) | [&#x200B; アクティビティの待機](wait-activity.md)

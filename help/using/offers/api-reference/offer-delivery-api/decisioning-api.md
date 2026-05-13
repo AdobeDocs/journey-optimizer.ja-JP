@@ -11,10 +11,19 @@ level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/jhf2EpgMU35YmRWeatijWUFz3KwwjFfKP8lHtX8eyEU
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: c132d929-fa62-4271-803e-b823be07b914id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: c132d929-fa62-4271-803e-b823be07b914
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1153
@@ -32,13 +41,13 @@ ht-degree: 0%
 
 [!DNL Decisioning] APIにPOST リクエストを行うことで、オファーを作成および配信できます。
 
-このチュートリアルでは、特に意思決定管理に関するAPIに関する実用的な理解が必要です。 詳しくは、[意思決定管理API開発者ガイド ](../getting-started.md)を参照してください。 このチュートリアルでは、一意のプレースメント IDと決定IDの値を使用できる必要もあります。 これらの値を取得していない場合は、[ プレースメントの作成](../offers-api/placements/create.md)および[決定の作成](../activities-api/activities/create.md)のチュートリアルを参照してください。
+このチュートリアルでは、特に意思決定管理に関するAPIに関する実用的な理解が必要です。 詳しくは、[意思決定管理API開発者ガイド &#x200B;](../getting-started.md)を参照してください。 このチュートリアルでは、一意のプレースメント IDと決定IDの値を使用できる必要もあります。 これらの値を取得していない場合は、[&#x200B; プレースメントの作成](../offers-api/placements/create.md)および[決定の作成](../activities-api/activities/create.md)のチュートリアルを参照してください。
 
 >[!NOTE]
 >
 >**Decisioning リクエストでコンテキストデータを渡す**
 >
->Decisioning リクエストにコンテキストデータ（デバイスタイプ、場所、ユーザー設定など）を渡して、動的な適格性ルールを作成し、リアルタイムの条件にもとづいてパーソナライズされたオファーを配信できます。 [ コンテキストデータと決定リクエストについて詳しく見る](../../context-data-decisioning.md)
+>Decisioning リクエストにコンテキストデータ（デバイスタイプ、場所、ユーザー設定など）を渡して、動的な適格性ルールを作成し、リアルタイムの条件にもとづいてパーソナライズされたオファーを配信できます。 [&#x200B; コンテキストデータと決定リクエストについて詳しく見る](../../context-data-decisioning.md)
 
 ## 必須ヘッダー {#required-headers}
 
@@ -131,7 +140,7 @@ curl -X POST 'https://platform.adobe.io/data/core/ods/decisions' \
 | `xdm:propositionRequests.xdm:activityId` | 一意の意思決定識別子。 | `"xdm:activityId": "dps:offer-activity:ffed0123"` |
 | `xdm:itemCount` | 返されるオファーの数。 最大数は30です。 | `"xdm:itemCount": 2` |
 | `xdm:profiles` | このオブジェクトは、決定が要求されるプロファイルに関する情報を保持します。 API リクエストの場合、これには1つのプロファイルが含まれます。 |  |
-| `xdm:profiles.xdm:identityMap` | このオブジェクトは、IDの名前空間統合コードに基づくエンドユーザーIDのセットを保持します。 ID マップは、各名前空間の複数のIDを持つことができます。 名前空間について詳しくは、[このページ ](../../../audience/get-started-identity.md)を参照してください。 | `Email: [{"xdm:id": "123@abc.com"}]` |
+| `xdm:profiles.xdm:identityMap` | このオブジェクトは、IDの名前空間統合コードに基づくエンドユーザーIDのセットを保持します。 ID マップは、各名前空間の複数のIDを持つことができます。 名前空間について詳しくは、[このページ &#x200B;](../../../audience/get-started-identity.md)を参照してください。 | `Email: [{"xdm:id": "123@abc.com"}]` |
 | `xdm:profiles.xdm:decisionRequestId` | プロファイル決定リクエストを一意に識別するために使用できる、クライアントによって生成されたID。 このIDは応答にエコーされ、決定の結果には影響しません。 | `"xdm:decisionRequestId": "0AA00002-0000-1224-c0de-cjf98Csj43"` |
 | `xdm:allowDuplicatePropositions` | このオブジェクトは、重複排除ルールの制御構造です。 特定のディメンションにわたって同じオプションを提案できるかどうかを示す一連のフラグで構成されています。 trueに設定されているフラグは、重複を許可し、フラグで示されるカテゴリ全体で削除しないでください。 falseに設定されたフラグは、ディメンション全体で決定エンジンが同じ提案を行わず、代わりにサブディシジョンの1つに対する次善のオプションを選択することを意味します。 |  |
 | `xdm:allowDuplicatePropositions.xdm:acrossActivities` | trueに設定すると、複数の決定に同じオプションが割り当てられる場合があります。 | `"xdm:acrossActivities": true` |
@@ -212,7 +221,7 @@ curl -X POST 'https://platform.adobe.io/data/core/ods/decisions' \
 | `xdm:propositions.xdm:content` | 応答コンテンツの形式。 | 応答コンテンツには、`text`、`html block`または`image link`を指定できます |
 | `xdm:score` | オプションまたは決定に関連付けられたランキング関数の結果として計算されるオプションのスコア。 ランキング関数がランキング中のオファーのスコアの決定に関与している場合、このフィールドはAPIによって返されます。 | `"xdm:score": 45.65` |
 | `xdm:propositions.xdm:fallback` | このオブジェクトには、一意のIDを含む1つのフォールバックオファーが含まれます。 | `"xdm:id": "dps:fallback:ccc0222"` |
-| `xdm:propositions.xdm:fallback.dc:format` | リソースの物理的またはデジタル表現。 通常、形式にはリソースのメディアタイプを含める必要があります。 この形式は、リソースの表示または操作に必要なソフトウェア、ハードウェアまたはその他の機器を決定するために使用できます。 コンピューターのメディア形式を定義する[ インターネットメディアタイプ ](https://www.iana.org/assignments/media-types/)のリストなど、制御されている語彙から値を選択することをお勧めします。 | `"dc:format": "image/png"`または`"image/jpeg"` |
+| `xdm:propositions.xdm:fallback.dc:format` | リソースの物理的またはデジタル表現。 通常、形式にはリソースのメディアタイプを含める必要があります。 この形式は、リソースの表示または操作に必要なソフトウェア、ハードウェアまたはその他の機器を決定するために使用できます。 コンピューターのメディア形式を定義する[&#x200B; インターネットメディアタイプ &#x200B;](https://www.iana.org/assignments/media-types/)のリストなど、制御されている語彙から値を選択することをお勧めします。 | `"dc:format": "image/png"`または`"image/jpeg"` |
 | `xdm:propositions.xdm:fallback.xdm:deliveryURL` | コンテンツ配信ネットワークまたはサービスエンドポイントからアセットを読み取るためのオプションのURL。 このURLは、ユーザーエージェントからアセットに公開でアクセスするために使用されます。 | `https://d37yhxrr0p3l3l.cloudfront.net/0fd0f090-a148-11ea-89e3-f1f2ad52f7e8/urn:aaid:sc:US:a68c86a6-9295-4940-a083-11916b665500/0/40d78a12-f8b6-3f07-8e67-7cb8ae2cc7ec` |
 | `ode:createDate` | 決定応答メッセージが作成された時刻。 これはエポック時間として表されます。 | `"ode:createDate": 1566497582038` |
 

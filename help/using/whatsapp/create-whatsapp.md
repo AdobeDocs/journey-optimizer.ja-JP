@@ -9,12 +9,23 @@ role: User
 level: Beginner
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
 TQID: https://experienceleague.adobe.com/fio2Etyk9FdkyTiHwRMkadrJ4bbsFz7--KvzQvUQrbc
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2:
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 986
@@ -72,13 +83,13 @@ WhatsApp メッセージでは、次のcall-to-action オプションを使用�
 
 1. メッセージに関する基本情報（ラベル、説明、カテゴリ）を入力し、使用するメッセージ設定を選択します。
 
-   ジャーニーの設定方法について詳しくは、[このページ ](../building-journeys/journey-gs.md)を参照してください
+   ジャーニーの設定方法について詳しくは、[このページ &#x200B;](../building-journeys/journey-gs.md)を参照してください
 
    **[!UICONTROL 設定]** フィールドには、デフォルトで、そのチャネルに最後に使用された設定がユーザーによって事前入力されます。
 
 1. 「**[!UICONTROL ビジネスルール]**」セクションでは、WhatsApp メッセージに対するコミュニケーションのプレッシャーを制御するためのルールセットを適用できます。
 
-   [ ルールセット ](../conflict-prioritization/rule-sets.md)、[ チャネルの使用頻度の上限](../conflict-prioritization/channel-capping.md)、[ サイレントアワー](../conflict-prioritization/quiet-hours.md)の詳細をご覧ください。
+   [&#x200B; ルールセット &#x200B;](../conflict-prioritization/rule-sets.md)、[&#x200B; チャネルの使用頻度の上限](../conflict-prioritization/channel-capping.md)、[&#x200B; サイレントアワー](../conflict-prioritization/quiet-hours.md)の詳細をご覧ください。
 
 次の詳細に従って、**[!UICONTROL コンテンツを編集]** ボタンからWhatsApp メッセージのコンテンツのデザインを開始できるようになりました。
 
@@ -96,7 +107,7 @@ WhatsApp メッセージでは、次のcall-to-action オプションを使用�
 
 1. **[!UICONTROL アクション]** セクションで、**[!UICONTROL WhatsApp]**&#x200B;を選択し、新しい設定を選択または作成します。
 
-   WhatsApp設定の詳細については、[このページ ](whatsapp-configuration.md)を参照してください。
+   WhatsApp設定の詳細については、[このページ &#x200B;](whatsapp-configuration.md)を参照してください。
 
    ![](assets/whatsapp-campaign-1.png)
 
@@ -104,7 +115,7 @@ WhatsApp メッセージでは、次のcall-to-action オプションを使用�
 
 1. 「**[!UICONTROL アクションの追跡]**」セクションで、WhatsApp メッセージのリンクのクリックを追跡するかどうかを指定します。
 
-1. キャンペーンは、特定の日付または定期的な頻度で実行するように設計されています。 キャンペーンの&#x200B;**[!UICONTROL スケジュール]**&#x200B;を[このセクション ](../campaigns/create-campaign.md#schedule)で設定する方法について説明します。
+1. キャンペーンは、特定の日付または定期的な頻度で実行するように設計されています。 キャンペーンの&#x200B;**[!UICONTROL スケジュール]**&#x200B;を[このセクション &#x200B;](../campaigns/create-campaign.md#schedule)で設定する方法について説明します。
 
 1. **[!UICONTROL アクショントリガー]** メニューから、WhatsApp メッセージの&#x200B;**[!UICONTROL 頻度]**&#x200B;を選択します。
 
@@ -155,13 +166,13 @@ WhatsApp テンプレートをJourney Optimizerで使用する前に、まずMet
 
 1. パーソナライゼーションエディターを使用して、テンプレートにパーソナライゼーションを追加します。 プロファイル名や市区町村など、任意の属性を使用できます。
 
-   [ パーソナライゼーション ](../personalization/personalize.md)の詳細については、次のページを参照してください。
+   [&#x200B; パーソナライゼーション &#x200B;](../personalization/personalize.md)の詳細については、次のページを参照してください。
 
    ![](assets/whatsapp-design-4.png)
 
 1. 「**[!UICONTROL コンテンツをシミュレート]**」ボタンを使用して、WhatsApp メッセージコンテンツ、短縮URL、パーソナライズされたコンテンツをプレビューします。 [詳細情報](send-whatsapp.md)
 
-テストを実行してコンテンツを検証したら、[WhatsApp メッセージ ](send-whatsapp.md)をオーディエンスに送信し、[ レポート ](../reports/campaign-global-report-cja.md)を通じてそのパフォーマンスを監視できます。
+テストを実行してコンテンツを検証したら、[WhatsApp メッセージ &#x200B;](send-whatsapp.md)をオーディエンスに送信し、[&#x200B; レポート &#x200B;](../reports/campaign-global-report-cja.md)を通じてそのパフォーマンスを監視できます。
 
 <!--
 * **[!UICONTROL Template message]**: Predefined message imported from Meta into Journey Optimizer. These are intended for sending notifications, alerts, or updates to your customers.
