@@ -10,10 +10,10 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: 式, エディター, 説明, 開始
 exl-id: 1ac2a376-a3a8-41ae-9b04-37886697f0fc
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+source-git-commit: ec0232dc13c259941e85d8e5d520e6ea523aacd8
 workflow-type: tm+mt
-source-wordcount: '1532'
-ht-degree: 95%
+source-wordcount: '1563'
+ht-degree: 93%
 
 ---
 
@@ -82,7 +82,7 @@ Journey Optimizerでは、メッセージ内の&#x200B;**URL**&#x200B;をパー�
 
 * **[!UICONTROL プロファイル属性]**：[Adobe Experience Platform データモデル（XDM）ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target="_blank"}に記載のプロファイルスキーマに関連付けられているすべての参照をリストします。
 * **[!UICONTROL ターゲット属性]**：このフォルダーは、調整されたキャンペーンに固有です。 キャンペーンキャンバス内で直接計算された属性が含まれます。 [詳しくは、調整されたキャンペーンの追加方法を参照してください。](../orchestrated/activities/channels.md#add-personalization)
-* **[!UICONTROL オーディエンス]**：Adobe Experience Platform セグメント化サービスで作成されたすべてのオーディエンスをリストします。 詳しくは、[Adobe Experience Platformのセグメント化に関するドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja){target="_blank"}を参照してください。
+* **[!UICONTROL オーディエンス]**：Adobe Experience Platform セグメント化サービスで作成されたすべてのオーディエンスをリストします。 詳しくは、[Adobe Experience Platformのセグメント化に関するドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja){target="_blank"}を参照してください。
 * **[!UICONTROL オファー決定]**：特定のプレースメントに関連付けられているすべてのオファーを一覧表示します。 配置を選択し、コンテンツにオファーを挿入します。 オファーの管理方法に関する詳細なドキュメントについては、[この節](../offers/get-started/starting-offer-decisioning.md)を参照してください。
 * **[!UICONTROL コンテキスト属性]**：チャネルアクションアクティビティ（メール、プッシュ、SMS）をジャーニーまたはキャンペーンで使用する場合、イベントやプロパティに関連するコンテキスト属性をパーソナライズに使用できます。 コンテキスト属性を活用したパーソナライゼーションの例について詳しくは、[この節](personalization-use-case.md)を参照してください。 また、カスタムアクション応答をパーソナライゼーションに使用できます。 [ネイティブチャネルでのカスタムアクション応答の使用方法の詳細情報](../action/action-response.md#response-in-channels)。
 
@@ -155,6 +155,10 @@ Journey Optimizerでは、メッセージ内の&#x200B;**URL**&#x200B;をパー�
 * **[!UICONTROL 条件]** - ライブラリで作成した条件付きルールを活用して、メッセージに動的コンテンツを追加します。 これにより、条件に基づいてメッセージの複数のバリアントを作成できます。 [動的コンテンツの作成方法についてはこちらを参照](../personalization/get-started-dynamic-content.md)
 
 * **[!UICONTROL フラグメント]** - 現在のサンドボックスに作成または保存された式フラグメントを活用します。 フラグメントは、[!DNL Journey Optimizer] キャンペーンおよびジャーニー全体で参照できる、再利用可能なコンポーネントです。 この機能を使用すると、複数のカスタムコンテンツブロックを事前に構築し、マーケティングユーザーはそのコンテンツブロックを使用して、改善されたデザインプロセスでコンテンツを迅速に組み立てることができます。 [式フラグメントをパーソナライゼーションに使用する方法についてはこちらを参照](../personalization/use-expression-fragments.md)
+
+>[!TIP]
+>
+>すぐに使えるエクスプレッションをお探しですか？ **[Personalization レシピ](personalization-recipes.md)** ページには、最も一般的な使用例である日付の書式設定、カウントダウンタイマー、条件付きフォールバック、時間制限表示などのコピー&amp;ペーストのパターンが用意されています。
 
 パーソナライゼーション式を準備できたら、パーソナライゼーションエディターで検証する必要があります。 詳しくは、[この節](../personalization/personalization-build-expressions.md)を参照してください。
 
