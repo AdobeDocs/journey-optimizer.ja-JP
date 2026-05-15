@@ -7,11 +7,10 @@ feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: 94e82065c51a925c73eb4a759a39f65737382fdc
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+source-git-commit: 80b94c6727529c9b7ade847ec78c38368ab4eb88
 workflow-type: tm+mt
-source-wordcount: 1847
+source-wordcount: 1888
 ht-degree: 11%
 
 ---
@@ -231,13 +230,13 @@ ht-degree: 11%
 <table>
 <thead>
 <tr>
-<th><strong>ジャーニー式のAI アシスタント</strong><br/></th>
+<th><strong>ジャーニー式のためのAI アシスタント</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizerでは、ジャーニーの高度なエクスプレッションエディター内に、ジャーニー式</strong>用の<strong>AI アシスタントが直接含まれるようになりました。 AIを活用して、平易な言語の説明から新しい式を生成できます。</p>
+<p>AI アシスタントがジャーニーの高度な式エディターで動作し、自然言語プロンプトを有効な式や条件付きロジックに変換できるようになりました。 構築したい式を記述すると、AI アシスタントがすぐに適用できる使いやすいコードを生成したり、フォローアッププロンプトで微調整したりできます。</p>
 <p>この機能は、パブリック Betaとしてすべてのお客様が利用できます。</p>
 <p>ドキュメント JIRA タスク：<a href="https://jira.corp.adobe.com/browse/DOCAC-14692">DOCAC-14692</a></p>
 <p>ご利用いただけます：2026年5月19日（PT）</p>
@@ -351,7 +350,7 @@ ht-degree: 11%
 
   ご利用いただけます：2026年5月26日（PT）
 
-* **パーソナライゼーションでのエンリッチメントコレクションのループ** - オーケストレーションされたキャンペーンのパーソナライゼーションエディターで、エンリッチメントアクティビティのコレクションを繰り返すループ構成がサポートされるようになりました。
+* **関係データのループベースのパーソナライゼーション** - パーソナライゼーションエディターで、注文、アカウント、予約などの関係コレクションを繰り返し処理し、1つのレコードにつき1つのコンテンツブロックを1つの電子メールまたはSMS内にレンダリングするループブロックがサポートされるようになりました。 コレクションは、パーソナライゼーショントークンを使用してデータピッカーを通じて設定され、式の書き込みは必要ありません。
 
   ドキュメント JIRA タスク：[DOCAC-14703](https://jira.corp.adobe.com/browse/DOCAC-14703)
 
@@ -395,7 +394,7 @@ Adobe Journey Optimizer continuously delivers new features, enhancements to exis
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: April 28-29, 2026
 
@@ -787,7 +786,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: March 24-25, 2026
 
@@ -1078,7 +1077,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: February 17, 2026
 
@@ -1331,7 +1330,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -1508,7 +1507,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
