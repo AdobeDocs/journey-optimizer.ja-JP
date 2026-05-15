@@ -10,11 +10,21 @@ level: Intermediate
 keywords: 式，エディター，ライブラリ，パーソナライゼーション
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
 TQID: https://experienceleague.adobe.com/0N5waBGElHBnlsk1pHhKT8roaly-A6srIjb3UPIDNqY
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: a653cc2e-bc85-4353-a306-399e5b247978id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: a653cc2e-bc85-4353-a306-399e5b247978
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1313
@@ -26,7 +36,7 @@ ht-degree: 0%
 
 **パーソナライゼーションエディター**&#x200B;を使用する場合は、現在のサンドボックスに作成または保存されたすべての式フラグメントを活用できます。
 
-フラグメントは、[!DNL Journey Optimizer]個のキャンペーンとジャーニーをまたいで参照できる再利用可能なコンポーネントです。 この機能により、マーケティングユーザーが使用できる複数のカスタムコンテンツブロックを事前に構築し、デザインプロセスを改善してコンテンツをすばやく組み立てることができます。 [ フラグメントの詳細](../content-management/fragments.md)
+フラグメントは、[!DNL Journey Optimizer]個のキャンペーンとジャーニーをまたいで参照できる再利用可能なコンポーネントです。 この機能により、マーケティングユーザーが使用できる複数のカスタムコンテンツブロックを事前に構築し、デザインプロセスを改善してコンテンツをすばやく組み立てることができます。 [&#x200B; フラグメントの詳細](../content-management/fragments.md)
 
 ➡️ [このビデオでフラグメントを管理、作成、使用する方法を説明します](../content-management/fragments.md#video-fragments)
 
@@ -38,9 +48,9 @@ ht-degree: 0%
 >
 >1つの配信に最大30個のフラグメントを追加できます。 フラグメントは、最大1 レベルまでネストできます。
 
-1. [ パーソナライゼーションエディター](personalization-build-expressions.md)を開き、左側のペインで「**[!UICONTROL フラグメント]**」ボタンを選択します。
+1. [&#x200B; パーソナライゼーションエディター](personalization-build-expressions.md)を開き、左側のペインで「**[!UICONTROL フラグメント]**」ボタンを選択します。
 
-   リストには、現在のサンドボックスでフラグメントとして作成または保存されたすべてのエクスプレッションフラグメントが表示されます。 [ フラグメントの作成方法を学ぶ](../content-management/create-fragments.md)
+   リストには、現在のサンドボックスでフラグメントとして作成または保存されたすべてのエクスプレッションフラグメントが表示されます。 [&#x200B; フラグメントの作成方法を学ぶ](../content-management/create-fragments.md)
 作成日で並べ替えられます。最近追加された式フラグメントは、リストの最初に表示されます。
 
    ![](assets/expression-fragments-pane.png)
@@ -65,11 +75,11 @@ ht-degree: 0%
 
    ![](assets/expression-fragment-view.png)
 
-1. エクスプレッションフラグメントを別のウィンドウで開いて、そのコンテンツとプロパティを編集できます。コンテキストメニューの「**[!UICONTROL フラグメントを開く]**」オプションを使用するか、**[!UICONTROL フラグメント情報]** ペインから使用します。 [ フラグメントの編集方法を学ぶ](../content-management/manage-fragments.md#edit-fragments)
+1. エクスプレッションフラグメントを別のウィンドウで開いて、そのコンテンツとプロパティを編集できます。コンテキストメニューの「**[!UICONTROL フラグメントを開く]**」オプションを使用するか、**[!UICONTROL フラグメント情報]** ペインから使用します。 [&#x200B; フラグメントの編集方法を学ぶ](../content-management/manage-fragments.md#edit-fragments)
 
    ![](assets/expression-fragment-open.png)
 
-1. その後、[ パーソナライゼーションエディター](personalization-build-expressions.md)のすべてのパーソナライゼーション機能とオーサリング機能を使用して、通常どおりコンテンツをカスタマイズして検証できます。
+1. その後、[&#x200B; パーソナライゼーションエディター](personalization-build-expressions.md)のすべてのパーソナライゼーション機能とオーサリング機能を使用して、通常どおりコンテンツをカスタマイズして検証できます。
 
 1. 場合によっては、変数のみを計算する必要があるので、式フラグメントのコンテンツを非表示にすることができます。 これを行うには、`render`属性を使用して`false`に設定します。 例：
 
@@ -79,7 +89,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->複数の改行を含む式フラグメントを作成し、[SMS](../sms/create-sms.md#sms-content)または[ プッシュ ](../push/design-push.md)のコンテンツで使用すると、改行は保持されます。 したがって、[SMS](../sms/send-sms.md)または[ プッシュ ](../push/send-push.md) メッセージを送信する前に、必ずテストしてください。
+>複数の改行を含む式フラグメントを作成し、[SMS](../sms/create-sms.md#sms-content)または[&#x200B; プッシュ &#x200B;](../push/design-push.md)のコンテンツで使用すると、改行は保持されます。 したがって、[SMS](../sms/send-sms.md)または[&#x200B; プッシュ &#x200B;](../push/send-push.md) メッセージを送信する前に、必ずテストしてください。
 
 ## 暗黙的な変数の使用 {#implicit-variables}
 
@@ -195,11 +205,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->コンテキストデータの繰り返しとループの操作については、[ コンテキストデータの繰り返しに関する包括的なガイド ](iterate-contextual-data.md)を参照してください。これには、ベストプラクティス、トラブルシューティングのヒント、高度なパターンが含まれます。
+>コンテキストデータの繰り返しとループの操作については、[&#x200B; コンテキストデータの繰り返しに関する包括的なガイド &#x200B;](iterate-contextual-data.md)を参照してください。これには、ベストプラクティス、トラブルシューティングのヒント、高度なパターンが含まれます。
 
 ## 編集可能フィールドをカスタマイズ {#customize-fields}
 
-式フラグメントの特定の部分が変数を使用して編集可能になっている場合は、特定の構文を使用してデフォルト値を上書きできます。 [ フラグメントをカスタマイズする方法について説明します](../content-management/customizable-fragments.md)
+式フラグメントの特定の部分が変数を使用して編集可能になっている場合は、特定の構文を使用してデフォルト値を上書きできます。 [&#x200B; フラグメントをカスタマイズする方法について説明します](../content-management/customizable-fragments.md)
 
 フィールドをカスタマイズするには、次の手順に従います。
 
@@ -211,7 +221,7 @@ ht-degree: 0%
 
    ![](../content-management/assets/fragment-expression-use.png)
 
-式フラグメントに編集可能なフィールドを追加し、メール作成時にその値を上書きする方法を示す例は、[このセクション ](../content-management/customizable-fragments.md#example)で利用できます。
+式フラグメントに編集可能なフィールドを追加し、メール作成時にその値を上書きする方法を示す例は、[このセクション &#x200B;](../content-management/customizable-fragments.md#example)で利用できます。
 
 ## 継承を解除 {#break-inheritance}
 

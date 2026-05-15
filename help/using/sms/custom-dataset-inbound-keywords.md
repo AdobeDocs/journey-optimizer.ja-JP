@@ -19,7 +19,7 @@ ht-degree: 16%
 
 >[!NOTE]
 >
->カスタムデータセットが設定されていない場合、インバウンドキーワードはデフォルトでシステム _AJO Inbound Activity Event Dataset_&#x200B;に保存されます。 受信メッセージがこのデータセットに取り込まれる前に、プロファイルに[!DNL Journey Optimizer]から送信されたメッセージが少なくとも1つ必要です。 [ システムデータセットの詳細](../data/get-started-datasets.md#system-datasets)
+>カスタムデータセットが設定されていない場合、インバウンドキーワードはデフォルトでシステム _AJO Inbound Activity Event Dataset_&#x200B;に保存されます。 受信メッセージがこのデータセットに取り込まれる前に、プロファイルに[!DNL Journey Optimizer]から送信されたメッセージが少なくとも1つ必要です。 [&#x200B; システムデータセットの詳細](../data/get-started-datasets.md#system-datasets)
 
 スキーマ、フィールドグループ、データセットの背景については、次のAdobe Experience Platform ドキュメントを参照してください。
 
@@ -37,7 +37,7 @@ ht-degree: 16%
 
 スキーマは、取り込んだデータに適用される構造と検証ルールを定義します。 以下に示す既存のフィールドグループを追加して、インバウンドキーワード収集用のエクスペリエンスイベントスキーマを作成します。
 
-➡️ [ スキーマ作成の詳細については、Adobe Experience Platform ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/schema/composition)を参照してください
+➡️ [&#x200B; スキーマ作成の詳細については、Adobe Experience Platform ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/schema/composition)を参照してください
 
 1. Adobe Experience Platformで、**[!UICONTROL Data management]**&#x200B;から&#x200B;**[!UICONTROL Schemas]**&#x200B;にアクセスし、**[!UICONTROL Create schema]**&#x200B;を選択します。
 
