@@ -9,7 +9,7 @@ exl-id: 2eb3ca65-f9f2-4483-ac6a-7bd896b0e516
 version: Journey Orchestration
 source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '110'
 ht-degree: 100%
 
 ---
@@ -76,7 +76,7 @@ curl -X POST 'https://platform.adobe.io/data/core/dps/ranking-formulas' \
 
 **応答**
 
-応答が成功すると、`id` を含む、新規作成したランキング式の詳細が返されます。後の手順で `id` を使用して、ランキング式を更新または削除できます。
+応答が成功すると、`id` を含む、新規作成したランキング式の詳細が返されます。 後の手順で `id` を使用して、ランキング式を更新または削除できます。
 
 ```json
 {
