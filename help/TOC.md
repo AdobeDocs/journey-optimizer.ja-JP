@@ -141,8 +141,8 @@ ht-degree: 98%
    + {hide-from-toc}[ロイヤルティの課題の基本を学ぶ](using/loyalty-challenges/get-started.md)
    + {hide-from-toc}[課題とタスクへのアクセスと管理](using/loyalty-challenges/access-loyalty-challenges.md)
    + {hide-from-toc}[課題の作成](using/loyalty-challenges/create-challenges.md)
-   + {hide-from-toc}[ タスクの作成](using/loyalty-challenges/create-tasks.md)
-   + {hide-from-toc}[ ロイヤルティチャレンジのパフォーマンスを監視](using/loyalty-challenges/loyalty-reporting.md)
+   + {hide-from-toc}[&#x200B; タスクの作成](using/loyalty-challenges/create-tasks.md)
+   + {hide-from-toc}[&#x200B; ロイヤルティチャレンジのパフォーマンスを監視](using/loyalty-challenges/loyalty-reporting.md)
 + キャンペーン {#campaigns}
    + {hide-from-toc}[キャンペーン](/help/rp_landing_pages/campaigns-landing-page.md)
    + [キャンペーンの基本を学ぶ](using/campaigns/get-started-with-campaigns.md)
@@ -507,7 +507,7 @@ ht-degree: 98%
       + {hide-from-toc}[Experience Manager テンプレートの操作](using/integrations/aem-templates.md)
       + Experience Manager コンテンツフラグメント {#aem}
          + [Experience Manager コンテンツフラグメントの基本を学ぶ](using/integrations/aem-fragments-gs.md)
-         + {hide-from-toc}[ コンテンツフラグメント用にリポジトリを設定](using/integrations/aem-admin-settings.md)
+         + {hide-from-toc}[&#x200B; コンテンツフラグメント用にリポジトリを設定](using/integrations/aem-admin-settings.md)
          + [Experience Manager コンテンツフラグメントの操作](using/integrations/aem-fragments.md)
          + [考慮事項とトラブルシューティング](using/integrations/aem-fragments-limitations.md)
       + {hide-from-toc}[Experience Manager コンテンツアドバイザーの操作](using/content-management/aem-content-advisor.md)
@@ -520,7 +520,7 @@ ht-degree: 98%
          + [よくある質問](using/integrations/vendor-integration-faq.md)
          + サンプルベンダー {#vendors}
             + [ベンダーとの連携を始める](using/integrations/vendor-integration-gs.md)
-            + [ ベンダー設定の例](using/integrations/vendor-integration.md)
+            + [&#x200B; ベンダー設定の例](using/integrations/vendor-integration.md)
       + [MCP経由でAI ツールを操作する](/help/using/integrations/ajo-mcp.md)
    + コンテンツ生成用 AI アシスタント {#ai-assistant}
       + [コンテンツ生成用 AI アシスタント](/help/rp_landing_pages/ai-assistant-landing-page.md)
@@ -899,7 +899,7 @@ ht-degree: 98%
    + [チャネル設定の基本を学ぶ](using/configuration/get-started-configuration.md)
    + [チャネル設定の指定](using/configuration/channel-surfaces.md)
    + [メッセージコンテンツの書き出し](using/configuration/message-export.md)
-   + {hide-from-toc}[AJO メッセージ書き出しスキーマ ](using/configuration/message-export-schema.md)
+   + {hide-from-toc}[AJO メッセージ書き出しスキーマ &#x200B;](using/configuration/message-export-schema.md)
    + ガイド付きチャネル設定 {#guided-setup}
       + [ガイド付きチャネル設定の基本を学ぶ](using/configuration/set-mobile-config.md)
       + [チャネル設定の作成](using/configuration/create-channel-set-up.md)
