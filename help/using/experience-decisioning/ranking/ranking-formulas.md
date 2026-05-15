@@ -8,17 +8,11 @@ level: Intermediate
 exl-id: 35d7488b-e7d8-402f-b337-28a0c869bff0
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/WycI0aO1o4KFH1gNieayuhpyNZuoVxL6zhGJBNOht8g
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1731
@@ -42,8 +36,8 @@ ht-degree: 64%
 
 ランキング式を作成する前に、次の制約を考慮してください。
 
-* AI式ビルダーは、連続指標を使用する[&#x200B; パーソナライズされた最適化モデル &#x200B;](personalized-optimization-model.md)をサポートしていません。
-* AI モデルがランキング式で使用されている場合、データはホールドアウトおよびモデル駆動型トラフィックの[&#x200B; コンバージョン率](../../reports/campaign-global-report-cja-code.md#conversion-rate) レポートに反映されません。
+* AI式ビルダーは、連続指標を使用する[ パーソナライズされた最適化モデル ](personalized-optimization-model.md)をサポートしていません。
+* AI モデルがランキング式で使用されている場合、データはホールドアウトおよびモデル駆動型トラフィックの[ コンバージョン率](../../reports/campaign-global-report-cja-code.md#conversion-rate) レポートに反映されません。
 * ランキング式のネストの深さは、PQL文字列内の`)`をカウントして測定される30 レベルに制限されています。
 * ランキング式の文字列は、UTF-8でエンコードされた文字（8,000 ASCII文字または2,000～4,000非ASCII文字）に対して最大8 KBにすることができます。
 * ルックバック期間は、ランキング式（先月以降のエクスペリエンスイベントなど）ではサポートされていません。 このような数式を保存しようとすると、エラーがトリガーします。
@@ -75,7 +69,7 @@ ht-degree: 64%
 1. 一致する決定項目のランキングスコアを決定する条件を定義します。 実行できる操作は、次のとおりです。
 
    * [数式ビルダー](#ranking-select-criteria)を使用して&#x200B;**[!UICONTROL 条件]** セクションに入力するか、または
-   * 「**[!UICONTROL コードエディターに切り替え]**」をクリックして、コードエディター[&#128279;](#ranking-code-editor)でPQLを使用してランキングロジックを定義または調整します。
+   * 「**[!UICONTROL コードエディターに切り替え]**」をクリックして、コードエディター](#ranking-code-editor)で[PQLを使用してランキングロジックを定義または調整します。
 
 ## Adobe Experience Platform データの使用 {#aep-data}
 
@@ -93,7 +87,7 @@ ht-degree: 64%
 
 <!--![](../assets/ranking-formula-criteria.png){width="80%"}-->
 
-1. 必要に応じて、**[!UICONTROL コードエディターに切り替え]**&#x200B;をクリックし、数式ビルダーと共に&#x200B;**PQL構文**&#x200B;を使用する式を追加します。 このオプションは、次の手順でユーザーインターフェイスフィールドを補完するので、同じランキング式で両方のアプローチを組み合わせることができます。 PQL構文の使用方法について詳しくは、[専用ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=ja)を参照してください。 決定項目属性とコピー&amp;ペーストの例の構文については、[&#x200B; コードエディターの使用](#ranking-code-editor) セクションを参照してください。
+1. 必要に応じて、**[!UICONTROL コードエディターに切り替え]**&#x200B;をクリックし、数式ビルダーと共に&#x200B;**PQL構文**&#x200B;を使用する式を追加します。 このオプションは、次の手順でユーザーインターフェイスフィールドを補完するので、同じランキング式で両方のアプローチを組み合わせることができます。 PQL構文の使用方法について詳しくは、[専用ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=ja)を参照してください。 決定項目属性とコピー&amp;ペーストの例の構文については、[ コードエディターの使用](#ranking-code-editor) セクションを参照してください。
 
    ![](../assets/ranking-formula-code-editor-button.png)
 
@@ -104,7 +98,7 @@ ht-degree: 64%
 1. 「**[!UICONTROL 条件 1]**」セクションで、次の手順を実行して、ランキングスコアを適用する決定項目を指定します。
    * [決定項目属性](../items.md#attributes)を選択します
    * 論理演算子を選択
-   * 一致する条件を追加 – 値を入力するか、プロファイル属性または[&#x200B; コンテキストデータ &#x200B;](../context-data.md)を選択できます
+   * 一致する条件を追加 – 値を入力するか、プロファイル属性または[ コンテキストデータ ](../context-data.md)を選択できます
 
    ![](../assets/ranking-formula-criterion-1.png){width="70%"}
 
@@ -158,7 +152,7 @@ ht-degree: 64%
 >
 >このアクションは、この式のデフォルトのビルダー表示に戻るのを防ぎます。
 
-プロファイル属性、[&#x200B; コンテキストデータ &#x200B;](../context-data.md)および[決定項目属性](../items.md#attributes)を利用できます。
+プロファイル属性、[ コンテキストデータ ](../context-data.md)および[決定項目属性](../items.md#attributes)を利用できます。
 
 例えば、実際の気温が高い場合に、「hot」属性を持つすべてのオファーの優先度を上げるとします。 そのために、決定の呼び出し時に **contextData.weather=hot** を渡しています。
 
@@ -290,7 +284,7 @@ if( offer._luma.offerDetails.zipCode = _luma.zipCode,luma.annualIncome / 1000 + 
 
 >[!NOTE]
 >
->AIを活用した数式最適化は、**AI アシスタント**&#x200B;と同じ生成AI機能に依存し、同じアクセス制御を使用します。 ユーザーには、**[!UICONTROL AI アシスタント]** リソースに対する&#x200B;**[!UICONTROL コンテンツを生成]**&#x200B;権限を付与する必要があります。 詳しくは、[AI アシスタントへのアクセス &#x200B;](../../content-management/gs-generative.md#generative-access)を参照してください。
+>AIを活用した数式最適化は、**AI アシスタント**&#x200B;と同じ生成AI機能に依存し、同じアクセス制御を使用します。 ユーザーには、**[!UICONTROL AI アシスタント]** リソースに対する&#x200B;**[!UICONTROL コンテンツを生成]**&#x200B;権限を付与する必要があります。 詳しくは、[AI アシスタントへのアクセス ](../../content-management/gs-generative.md#generative-access)を参照してください。
 
 ランキング式を最適化するには、次の手順に従います。
 

@@ -5,48 +5,42 @@ description: 日付関数について説明します
 feature: Journeys
 role: Developer
 level: Experienced
-keywords: 日付、関数、式、ジャーニー、時間
+keywords: 日付, 関数, 式, ジャーニー, 時間
 version: Journey Orchestration
 exl-id: 68c102c1-f1c7-44b7-893f-9a3b7e0854b6
 TQID: https://experienceleague.adobe.com/C2Z5SufckUxCNf9TsloziZS-Q3KPzmgMVNGJGiwDQ08
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 834
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # 日付関数 {#date-functions}
 
-日付関数を使用すると、ジャーニー式の中で日付と時刻の値を操作して操作できます。 これらの関数は、カスタマージャーニーにおける時間ベースの条件、スケジュール設定、時間的計算に不可欠です。
+日付関数を使用すると、ジャーニー式内で日時の値を操作して作業できます。 これらの関数は、カスタマージャーニーでの時間ベースの条件、スケジュール、時間計算に不可欠です。
 
-必要に応じて、日付関数を使用します。
+日付関数は、次の操作が必要な場合に使用します。
 
-* 特定のタイムゾーン処理（[now](#now), [nowWithDelta](#nowWithDelta), [currentTimeInMillis](#currentTimeInMillis)）を使用して、現在の時間または日付を取得します
-* 日付が特定の時間範囲内（[inLastDays](#inLastDays)、[inLastHours](#inLastHours)、[inLastMonths](#inLastMonths)、[inLastYears](#inLastYears)、[inNextDays](#inNextDays)、[inNextHours](#inNextHours)、[inNextMonths](#inNextMonths)、[inNextYears](#inNextYears)）に該当するかどうかを確認します
-* 日付と時刻のコンポーネントを変更（[setHours](#setHours)、[setDays](#setDays)、[updateTimeZone](#updateTimeZone)）
-* 時間ベースの計算と比較の実行
-* 異なる時間形式と表現間の変換
+* 特定のタイムゾーン処理（[now](#now)、[nowWithDelta](#nowWithDelta)、[currentTimeInMillis](#currentTimeInMillis)）を使用して現在の時刻または日付を取得
+* 日付が特定の時間範囲（[inLastDays](#inLastDays)、[inLastHours](#inLastHours)、[inLastMonths](#inLastMonths)、[inLastYears](#inLastYears)、[inNextDays](#inNextDays)、[inNextHours](#inNextHours)、[inNextMonths](#inNextMonths)、[inNextYears](#inNextYears)）に該当するかどうかを確認
+* 日時コンポーネント（[setHours](#setHours)、[setDays](#setDays)、[updateTimeZone](#updateTimeZone)）を変更
+* 時間ベースの計算と比較を実行
+* 異なる時間形式と表示域間を変換
 
-日付関数は、時系列論理を正確に制御するため、特定の時間枠やスケジュールに応答する、時間に敏感なジャーニーパスと条件を作成することができます。
+日付関数は、時間ロジックを正確に制御し、特定の期間とスケジュールに応答する、時間依存のジャーニーパスと条件を作成できます。
 
 >[!NOTE]
 >
->このページの関数は、ジャーニー式で使用できます。 `now()`などの一部の関数は、メールコンテンツのパーソナライゼーションエディターでは使用できません。 [詳細情報](../../personalization/functions/dates.md)
+>このページの関数は、ジャーニー式で使用できます。 `now()` などの一部の関数は、メールコンテンツのパーソナライゼーションエディターでは使用できません。 [詳細情報](../../personalization/functions/dates.md)
 
 ## currentTimeInMillis {#currentTimeInMillis}
 
-現在の時間をエポックミリ秒単位で返します。
+現在の時刻をエポックミリ秒単位で返します。
 
 +++構文
 
@@ -56,11 +50,11 @@ ht-degree: 0%
 
 +++パラメーター
 
-この関数はパラメーターを使用しません。
+この関数にパラメーターはありません。
 
 +++
 
-+++署名と返されたタイプ
++++シグネチャと戻り値のタイプ
 
 `currentTimeInMillis()`
 
@@ -78,7 +72,7 @@ ht-degree: 0%
 
 ## inLastDays {#inLastDays}
 
-指定されたdateTimeが現在と現在の間（デルタ日）の場合にtrueを返します。
+指定された dateTime が現在の日時とその delta 日前の間にある場合、true を返します。
 
 +++構文
 
@@ -90,12 +84,12 @@ ht-degree: 0%
 
 | パラメーター | タイプ |
 |-----------|------------------|
-| 日時 | dateTime |
+| 日時 | 日時 |
 | delta | 整数 |
 
 +++
 
-+++署名と返されたタイプ
++++シグネチャと戻り値のタイプ
 
 `inLastDays(<dateTime>,<integer>)`
 
@@ -107,13 +101,13 @@ ht-degree: 0%
 
 `inLastDays(toDateTime('2023-12-12T01:11:00Z'), 4)`
 
-trueを返します。
+true を返します。
 
 +++
 
 ## inLastHours {#inLastHours}
 
-指定された日時が現在と現在の間（デルタ時間）の場合にtrueを返します。
+指定された日時が現在の日時とその delta 時間前の間にある場合、true を返します。
 
 +++構文
 
@@ -125,12 +119,12 @@ trueを返します。
 
 | パラメーター | タイプ |
 |-----------|------------------|
-| 日時 | dateTime |
+| 日時 | 日時 |
 | delta | 整数 |
 
 +++
 
-+++署名と返されたタイプ
++++シグネチャと戻り値のタイプ
 
 `inLastHours(<dateTime>,<integer>)`
 
@@ -142,17 +136,17 @@ trueを返します。
 
 `inLastHours(toDateTime('2023-12-12T01:11:00Z'), 4)`
 
-trueを返します。
+true を返します。
 
 `inLastHours(@event{MyEvent.timestamp}, 4)`
 
-trueを返します。
+true を返します。
 
 +++
 
 ## inLastMonths {#inLastMonths}
 
-指定された日付または日時が現在と現在の間（デルタ月）である場合にtrueを返します。
+指定された日付または日時が現在の日時とその delta か月前の間にある場合、true を返します。
 
 +++構文
 
@@ -164,12 +158,12 @@ trueを返します。
 
 | パラメーター | タイプ |
 |-----------|------------------|
-| 日時 | dateTime |
+| 日時 | 日時 |
 | delta | 整数 |
 
 +++
 
-+++署名と返されたタイプ
++++シグネチャと戻り値のタイプ
 
 `inLastMonths(<dateTime>,<integer>)`
 
@@ -181,13 +175,13 @@ trueを返します。
 
 `inLastMonths(toDateTime('2023-12-12T01:11:00Z'), 4)`
 
-trueを返します。
+true を返します。
 
 +++
 
 ## inLastYears {#inLastYears}
 
-指定された日付または日時が現在と現在の間（デルタ年）の場合、trueを返します。
+指定された日付または日時が現在の日時とその delta 年前の間にある場合、true を返します。
 
 +++構文
 
@@ -199,12 +193,12 @@ trueを返します。
 
 | パラメーター | タイプ |
 |-----------|------------------|
-| 日時 | dateTime |
+| 日時 | 日時 |
 | delta | 整数 |
 
 +++
 
-+++署名と返されたタイプ
++++シグネチャと戻り値のタイプ
 
 `inLastYears(<dateTime>,<integer>)`
 
@@ -216,13 +210,13 @@ trueを返します。
 
 `inLastYears(toDateTime('2023-12-12T01:11:00Z'), 4)`
 
-trueを返します。
+true を返します。
 
 +++
 
 ## inNextDays {#inNextDays}
 
-指定された日付または日時が現在と現在の間にある場合はtrueを返します。
+指定された日付または日時が現在の日時とその delta 日後の間にある場合、true を返します。
 
 +++構文
 
@@ -234,12 +228,12 @@ trueを返します。
 
 | パラメーター | タイプ |
 |-----------|------------------|
-| 日時 | dateTime |
+| 日時 | 日時 |
 | delta | 整数 |
 
 +++
 
-+++署名と返されたタイプ
++++シグネチャと戻り値のタイプ
 
 `inNextDays(<dateTime>,<integer>)`
 
@@ -251,13 +245,13 @@ trueを返します。
 
 `inNextDays(toDateTime('2023-12-12T01:11:00Z'), 4)`
 
-trueを返します。
+true を返します。
 
 +++
 
 ## inNextHours {#inNextHours}
 
-指定された日付または日時が現在と現在の間にある場合はtrueを返します。
+指定された日付または日時が現在と現在 + デルタ時間の間にある場合、true を返します。
 
 +++構文
 
@@ -269,12 +263,12 @@ trueを返します。
 
 | パラメーター | タイプ |
 |-----------|------------------|
-| 日時 | dateTime |
+| 日時 | 日時 |
 | delta | 整数 |
 
 +++
 
-+++署名と返されたタイプ
++++シグネチャと戻り値のタイプ
 
 `inNextHours(<dateTime>,<integer>)`
 
@@ -286,13 +280,13 @@ trueを返します。
 
 `inNextHours(toDateTime('2023-12-12T01:11:00Z'), 4)`
 
-trueを返します。
+true を返します。
 
 +++
 
 ## inNextMonths {#inNextMonths}
 
-指定された日付または日時が現在から現在+差分月の間にある場合、trueを返します。
+指定された日付または日時が現在の日時とその delta か月後の間にある場合、true を返します。
 
 +++構文
 
@@ -304,12 +298,12 @@ trueを返します。
 
 | パラメーター | タイプ |
 |-----------|------------------|
-| 日時 | dateTime |
+| 日時 | 日時 |
 | delta | 整数 |
 
 +++
 
-+++署名と返されたタイプ
++++シグネチャと戻り値のタイプ
 
 `inNextMonths(<dateTime>,<integer>)`
 
@@ -321,13 +315,13 @@ trueを返します。
 
 `inNextMonths(toDateTime('2023-01-12T01:11:00Z'), 4)`
 
-trueを返します。
+true を返します。
 
 +++
 
 ## inNextYears {#inNextYears}
 
-指定された日付または日時が現在と現在の差分年の間にある場合は、trueを返します。
+指定された日付または日時が現在の日時とその delta 年後の間にある場合、true を返します。
 
 +++構文
 
@@ -339,12 +333,12 @@ trueを返します。
 
 | パラメーター | タイプ |
 |-----------|------------------|
-| 日時 | dateTime |
+| 日時 | 日時 |
 | delta | 整数 |
 
 +++
 
-+++署名と返されたタイプ
++++シグネチャと戻り値のタイプ
 
 `inNextYears(<dateTime>,<integer>)`
 
@@ -356,17 +350,17 @@ trueを返します。
 
 `inNextYears(toDateTime('2021-12-12T01:11:00Z'), 4)`
 
-trueを返します。
+true を返します。
 
 +++
 
 ## now {#now}
 
-現在の日付を日付形式で返します。 データ型について詳しくは、[このページ &#x200B;](../expression/data-types.md)を参照してください。
+現在の日付を日時形式で返します。 データタイプについて詳しくは、[このページ](../expression/data-types.md)を参照してください。
 
 >[!NOTE]
 >
->この関数は、ジャーニー式でのみ使用できます。 メールのパーソナライゼーションやその他のコンテンツには、代わりに`getCurrentZonedDateTime()`を使用してください。 [詳細情報](../../personalization/functions/dates.md#get-current-zoned-date-time)
+>この関数は、ジャーニー式でのみ使用できます。 メールのパーソナライゼーションやその他のコンテンツには、代わりに `getCurrentZonedDateTime()` を使用します。 [詳細情報](../../personalization/functions/dates.md#get-current-zoned-date-time)
 
 +++構文
 
@@ -376,19 +370,19 @@ trueを返します。
 
 +++パラメーター
 
-| パラメーター | 効果 |
+| パラメーター | 説明 |
 |--- |--- |
 | 文字列 | タイムゾーン識別子（オプション） |
 
 +++
 
-+++署名と返されたタイプ
++++シグネチャと戻り値のタイプ
 
 `now()`
 
 `now("<timeZone id>")`
 
-dateTimeを返します。
+日時を返します。
 
 +++
 
@@ -396,21 +390,21 @@ dateTimeを返します。
 
 `now()`
 
-2023-06-03T06:30Zを返します。
+2023-06-03T06:30Z を返します。
 
 `toString(now())`
 
-「2023-06-03T06:30Z」を返します
+&quot;2023-06-03T06:30Z&quot; を返します。
 
 `now("Europe/Paris")`
 
-2023-06-03T08:30+02:00を返します。
+2023-06-03T08:30+02:00 を返します。
 
 +++
 
 ## nowWithDelta {#nowWithDelta}
 
-オフセットを含む現在の日時を返します。 タイムゾーン IDを指定すると、タイムゾーンオフセットが適用されます。 データ型について詳しくは、[このページ &#x200B;](../expression/data-types.md)を参照してください。
+オフセットを含んだ現在の日時を返します。 タイムゾーン ID を指定した場合は、タイムゾーンオフセットが適用されます。 データタイプについて詳しくは、[このページ](../expression/data-types.md)を参照してください。
 
 +++構文
 
@@ -420,21 +414,21 @@ dateTimeを返します。
 
 +++パラメーター
 
-| パラメーター | 効果 |
+| パラメーター | 説明 |
 |--- |--- |
 | delta | 正または負の整数値 |
-| 日付部分 | 年、月、日、時間、分、秒を文字列として指定します |
-| タイムゾーン id | タイムゾーン値の文字列表現。 詳しくは、[&#x200B; データタイプ &#x200B;](../expression/data-types.md)を参照してください。 タイムゾーン IDは文字列定数である必要があります。 フィールド参照または式にすることはできません。 |
+| 日時の構成要素 | 「years」、「months」、「days」、「hours」、「minutes」、「seconds」のいずれかを文字列として指定します |
+| タイムゾーン ID | タイムゾーン値の文字列表現。 詳しくは、[データタイプ](../expression/data-types.md)を参照してください。 タイムゾーン ID は文字列定数である必要があります。 フィールド参照や式は使用できません。 |
 
 +++
 
-+++署名と返されたタイプ
++++シグネチャと戻り値のタイプ
 
 `nowWithDelta(<delta>,<date part>`
 
 `nowWithDelta(<delta>,<date part>,"<timeZone id>")`
 
-dateTimeを返します。
+日時を返します。
 
 +++
 
@@ -444,13 +438,13 @@ dateTimeを返します。
 
 `nowWithDelta(-2, "hours", "Europe/Paris")`
 
-正確に2時間前のdateTimeを返します。
+正確に 2 時間前の日時を返します。
 
 +++
 
 ## setHours {#setHours}
 
-日時または日時のみの時間を設定します。 たとえば、明日の特定の時間まで待ちたい場合は、時間を強制できます。
+日時または日時のみの時を設定します。 例えば、明日の特定の正時まで待つ場合に、その正時を強制的に指定できます。
 
 +++構文
 
@@ -462,13 +456,13 @@ dateTimeを返します。
 
 | パラメーター | タイプ |
 |--- |--- |
-| 日時 | dateTime |
+| 日時 | 日時 |
 | タイムゾーンを考慮しない日時 | dateTimeOnly |
-| 時間 | 整数 |
+| 時 | 整数 |
 
 +++
 
-+++署名と返されたタイプ
++++シグネチャと戻り値のタイプ
 
 `setHours(<dateTime>,<hours>)`
 
@@ -476,7 +470,7 @@ dateTimeを返します。
 
 `setHours(<dateTimeOnly>,<hours>)`
 
-タイムゾーンを考慮せずに日時を返します。
+タイムゾーンを無視して日時を返します。
 
 +++
 
@@ -484,17 +478,17 @@ dateTimeを返します。
 
 `setHours(toDateTime('2023-12-12T01:11:00Z'), 4)`
 
-2023-12-12T04:11:00Zを返します。
+2023-12-12T04:11:00Z を返します。
 
 `setHours(nowWithDelta(1, "days"), 20)`
 
-明日を午後8:XY時に返します。XYは、現在の時間評価の時点の分です。 評価が午前2:45時に行われた場合、返される時間は午後8:45時になります。
+明日の午後 8:XY を返します（XY は現在時刻の分）。 評価が午前 2:45 に行われた場合、返される時刻は午後 8:45 になります。
 
 +++
 
 ## setDays {#setDays}
 
-日時または日時のみの日を設定します。 例えば、月の特定の日まで待ちたい場合は、その日を強制できます。
+日時または日時のみの日を設定します。 例えば、その月の特定の日まで待つ場合に、その日を強制的に指定できます。
 
 +++構文
 
@@ -506,13 +500,13 @@ dateTimeを返します。
 
 | パラメーター | タイプ |
 |--- |--- |
-| 日時 | dateTime |
+| 日時 | 日時 |
 | タイムゾーンを考慮しない日時 | dateTimeOnly |
-| 日数 | 整数 |
+| 日 | 整数 |
 
 +++
 
-+++署名と返されたタイプ
++++シグネチャと戻り値のタイプ
 
 `setDays(<dateTime>,<days>)`
 
@@ -520,7 +514,7 @@ dateTimeを返します。
 
 `setDays(<dateTimeOnly>,<days>)`
 
-タイムゾーンを考慮せずに日時を返します。
+タイムゾーンを無視して日時を返します。
 
 +++
 
@@ -528,7 +522,7 @@ dateTimeを返します。
 
 `setDays(toDateTime('2023-12-12T01:11:00Z'), 25)`
 
-2023-12-25T01:11:00Zを返します。
+2023-12-25T01:11:00Z を返します。
 
 `setDays(toDateTimeOnly(@event{MyEvent.registrationDate}), 1)`
 
@@ -536,7 +530,7 @@ dateTimeを返します。
 
 ## updateTimeZone {#updateTimeZone}
 
-同じインスタントに新しいタイムゾーンを持つ新しい日時を返します。
+新しいタイムゾーンで、同じ瞬間の新しい日時を返します。
 
 +++構文
 
@@ -546,12 +540,12 @@ dateTimeを返します。
 
 +++パラメーター
 
-* タイムゾーン id：文字列
-* dateTime
+* タイムゾーン ID：文字列
+* 日時
 
 +++
 
-+++署名と返された型
++++シグネチャと戻り値のタイプ
 
 `updateTimeZone(<dateTime>,<timeZone id>)`
 
@@ -563,10 +557,10 @@ dateTimeを返します。
 
 `updateTimeZone( toDateTime("2023-08-28T08:15:30.123-07:00"), "Europe/Paris"))`
 
-2023-08-28T17:15:30.123+02:00を返します。
+2023-08-28T17:15:30.123+02:00 を返します。
 
 `updateTimeZone(@event{MyExpEvent.timestamp}, "Australia/Sydney")`
 
-タイムスタンプフィールドの値が`2021-11-16T16:55:12.939318+01:00`の場合、関数は`2021-11-17T02:55:12.942115+11:00`を返します。
+「timestamp」フィールドの値が `2021-11-16T16:55:12.939318+01:00` の場合、この関数は `2021-11-17T02:55:12.942115+11:00` を返します。
 
 +++

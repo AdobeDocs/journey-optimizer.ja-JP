@@ -9,20 +9,12 @@ role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
 TQID: https://experienceleague.adobe.com/kqNGPnCDU-yeMvOX-L55POHs1-vmQCEcq4Psky8wSfs
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1360
@@ -62,10 +54,10 @@ ht-degree: 83%
 1. スキーマタイプ（例：**個人プロファイル**）を選択し、「**次へ**」をクリックします。
    ![「個人プロファイル」オプションを示すスキーマタイプの選択](assets/test-profiles-1.png)
 1. スキーマの名前を入力して、「**終了**」をクリックします。
-   ![&#x200B; スキーマに名前を付けて保存ダイアログ](assets/test-profiles-1-bis.png)
+   ![ スキーマに名前を付けて保存ダイアログ](assets/test-profiles-1-bis.png)
 1. 「**フィールドグループ**」セクションの左側で、「**追加**」をクリックして、適切なフィールドグループを選択します。 「**[!UICONTROL プロファイルテストの詳細]**」フィールドグループを必ず追加してください。
-   追加ボタン付きの![&#x200B; フィールドグループセクション](assets/test-profiles-1-ter.png)
-完了したら、**[!UICONTROL フィールドグループを追加]**&#x200B;をクリックします。フィールドグループのリストがスキーマの概要画面に表示されます。
+   追加ボタン付きの![ フィールドグループセクション](assets/test-profiles-1-ter.png)
+完了したら、**[!UICONTROL フィールドグループを追加]**をクリックします。フィールドグループのリストがスキーマの概要画面に表示されます。
    ![フィールドグループリストを含むスキーマの概要](assets/test-profiles-2.png)
 
    >[!NOTE]
@@ -80,7 +72,7 @@ ht-degree: 83%
    ![「プロファイル」オプションが有効になっているスキーマのプロパティパネル](assets/test-profiles-5.png)
 1. 「**保存**」をクリックします。
 
-スキーマ作成について詳しくは、[XDM ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=ja#prerequisites){target="_blank"}を参照してください。
+スキーマ作成について詳しくは、[XDM ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=ja#prerequisites){target="_blank"}を参照してください。
 
 >[!IMPORTANT]
 >
@@ -189,7 +181,7 @@ Your journey will be composed of a **[!UICONTROL Read Audience]** and an **[!UIC
 1. プロファイルごとに 1 行追加し、各フィールドの値を入力します。
    ![サンプルテストプロファイルデータを含む CSV ファイル](assets/test-profiles-12.png)
 1. スプレッドシートを CSV ファイルとして保存します。 カンマが区切り記号として使用されていることを確認します。
-1. [!DNL Adobe Experience Platform] **ワークフロー**&#x200B;を参照します。
+1. [!DNL Adobe Experience Platform] **ワークフロー**を参照します。
    ![Adobe Experience Platform のワークフローメニュー](assets/test-profiles-14.png)
 1. 「**[!UICONTROL CSV を XDM スキーマにマッピング]**」を選択し、「**開始**」をクリックします。
    ![「CSV を XDM スキーマにマッピング」ワークフローオプション](assets/test-profiles-16.png)
@@ -267,4 +259,4 @@ curl -X POST \
 
 テストプロファイルを作成する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416426?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334236?quality=12)
