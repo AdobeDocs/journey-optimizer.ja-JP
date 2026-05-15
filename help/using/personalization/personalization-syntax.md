@@ -45,7 +45,7 @@ ht-degree: 0%
 | 条件付きブロック | `{%#if profile.loyalty.tier = "gold"%}...{%/if%}` |
 | 配列のループ | `{{#each profile.orders}}...{{/each}}` |
 
-属性構造は、Adobe Experience Platform XDM スキーマで定義されます。 [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}。
+属性構造は、Adobe Experience Platform XDM スキーマで定義されます。 [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target="_blank"}。
 
 >[!TIP]
 >
@@ -146,7 +146,7 @@ PQLは強く型付けされています。 値を比較または渡す場合、�
 
 * **プロファイル**
 
-  この名前空間を使用すると、[Adobe Experience Platform Data Model （XDM） ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html){target="_blank"}で説明されているプロファイルスキーマで定義されているすべての属性を参照できます。
+  この名前空間を使用すると、[Adobe Experience Platform Data Model （XDM） ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target="_blank"}で説明されているプロファイルスキーマで定義されているすべての属性を参照できます。
 
   属性は、[!DNL Journey Optimizer] パーソナライゼーションブロックで参照する前に、スキーマで定義する必要があります。
 
@@ -166,7 +166,7 @@ PQLは強く型付けされています。 値を比較または渡す場合、�
 
 * **オーディエンス**
 
-  セグメント化サービスについて詳しくは、[このドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html){target="_blank"}を参照してください。
+  セグメント化サービスについて詳しくは、[このドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja){target="_blank"}を参照してください。
 
 * **オファー**
 
