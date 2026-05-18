@@ -8,32 +8,16 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 4c76084f6e13d8428071d68d41d46c59b5f095d0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: b76b3a00d97f28a622ef402c1c96292398b91b80
 workflow-type: tm+mt
-source-wordcount: 2625
-ht-degree: 80%
+source-wordcount: 2624
+ht-degree: 78%
 
 ---
 
@@ -52,7 +36,7 @@ ht-degree: 80%
 
 >[!NOTE]
 >
->近日公開される予定の？ 今後の機能が正式にリリースされる前に、[&#x200B; プレリリースノート &#x200B;](e-release-notes.md)を参照してください。
+>近日公開される予定の？ 今後の機能が正式にリリースされる前に、[ プレリリースノート ](e-release-notes.md)を参照してください。
 
 ## 26年5月の更新 {#may-26-rn}
 
@@ -369,7 +353,7 @@ The following capabilities and enhancements are scheduled for release in the nex
 <tbody>
 <tr>
 <td>
-<p>新しい<strong>最適化</strong>ノードを使用して A/B テストまたはマルチアームバンディット実験を実行して、ビジネス目標に焦点を合わせた KPI を達成する最適なパスを決定します。 このツールを使用すると、コミュニケーション、シーケンス、タイミングをテスト、調整、カスタマイズし、顧客に最も効果的にリーチできます。
+<p>新しい<strong>最適化</strong>ノードを使用して A/B テストまたはマルチアームバンディット実験を実行して、ビジネス目標に焦点を合わせた KPI を達成する最適なパスを決定します。 このツールを利用すれば、コミュニケーション、シーケンス、タイミングをテスト、変更、カスタマイズし、顧客に最もリーチできます。
 </p>
 <p>この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。</p>
 <p>一般提供の一部として、このリリースでは、<strong>実験タイプ</strong>の選択（A/B テストまたはマルチアームバンディット）と、単一ジャーニーの<strong>勝者をスケール</strong>が導入されています。</p>
@@ -452,7 +436,7 @@ The following capabilities and enhancements are scheduled for release in the nex
 
 #### Adobe Experience Manager の統合
 
-* **Adobe Experience Manager コンテンツフラグメントのバリエーションのサポート** - Adobe Experience Manager コンテンツフラグメントを挿入する際に、**コンテンツフラグメントのバリエーション**（例：言語やチャネルのバリアント）を選択できるようになりました。ロケールや多言語のシナリオに対する処理が改善されました。 [詳細情報](../integrations/aem-fragments.md#aem-variations)
+* **Adobe Experience Manager コンテンツフラグメントのバリエーションのサポート** - Adobe Experience Manager コンテンツフラグメントを挿入する際に、**コンテンツフラグメントのバリエーション** （言語やチャネルのバリエーションなど）を選択でき、ロケールや多言語シナリオの処理が改善されました。 [詳細情報](../integrations/aem-fragments.md#aem-variations)
 
   この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。
 
