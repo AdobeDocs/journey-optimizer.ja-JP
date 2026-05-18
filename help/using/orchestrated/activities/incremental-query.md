@@ -11,7 +11,7 @@ version: Campaign Orchestration
 source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '518'
-ht-degree: 21%
+ht-degree: 23%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_incrementalquery_history"
 >title="履歴（日数）"
->abstract="この設定は、そのリストを保持する期間を制御します。 値が0の場合は無期限の保持を意味し、レコードは削除されません。"
+>abstract="この設定は、そのリストを保持する期間を制御します。 値が 0 の場合は、保持が無限であることを意味し、レコードは削除されません。"
 
 **[!UICONTROL 増分クエリ]** アクティビティは、オーケストレーションされたキャンペーンが実行されるたびにデータベースクエリを実行する&#x200B;**[!UICONTROL ターゲティング]** アクティビティです。 重要なのは、常に&#x200B;**新しい** レコードのみが出力されることです。 以前の実行ですでにピックアップされたユーザーは除外されるので、同じユーザーを再ターゲティングしたり、同じ行を再エクスポートしたりすることは避けられます。
 
@@ -50,17 +50,17 @@ ht-degree: 21%
 
 1. **[!UICONTROL 増分クエリ]** アクティビティをオーケストレーション済みキャンペーンにドロップします。
 
-1. **[!UICONTROL オーディエンス]**&#x200B;で、**[!UICONTROL ターゲティングディメンション]**&#x200B;を選択し（例：受信者、購読者）、**[!UICONTROL 続行]**&#x200B;をクリックします。 詳しくは、[&#x200B; ディメンションのターゲティング &#x200B;](../target-dimension.md)を参照してください。
+1. **[!UICONTROL オーディエンス]**&#x200B;で、**[!UICONTROL ターゲティングディメンション]**&#x200B;を選択し（例：受信者、購読者）、**[!UICONTROL 続行]**&#x200B;をクリックします。 詳しくは、[ ディメンションのターゲティング ](../target-dimension.md)を参照してください。
 
    ![](../assets/incremental-query.png)
 
-1. 「**[!UICONTROL 条件を追加]**」をクリックして、クエリを定義します。 [&#x200B; ルールビルダー](../orchestrated-rule-builder.md)の使用方法を説明します。
+1. 「**[!UICONTROL 条件を追加]**」をクリックして、クエリを定義します。 [ ルールビルダー](../orchestrated-rule-builder.md)の使用方法を説明します。
 
    ![](../assets/incremental-query-2.png)
 
 1. 「**[!UICONTROL 処理済みデータ]**」で、日付フィールドへの&#x200B;**[!UICONTROL パス]**&#x200B;を選択します。 属性には、**日付時刻**&#x200B;形式を使用する必要があります。 各実行は、最後の実行後の日付の行のみを返します。
 
-   ![&#x200B; オーケストレーションされたキャンペーンキャンバスでの増分クエリアクティビティ設定](../assets/incremental-query-3.png)
+   ![ オーケストレーションされたキャンペーンキャンバスでの増分クエリアクティビティ設定](../assets/incremental-query-3.png)
 
 <!--
    * **[!UICONTROL Exclude results of previous execution]**: The activity maintains a list of records returned in prior runs. Each run excludes those records and returns only new ones. **[!UICONTROL History in days]** controls the retention period for that list. 0 indicates indefinite retention, no records are removed.
@@ -78,5 +78,5 @@ ht-degree: 21%
 * **[!UICONTROL 増分クエリ]**：ゴールド メンバーを選択します。 初回：現在のゴールドメンバー。 後の実行：前の実行以降にゴールドメンバーになったプロファイルのみ。
 * **[!UICONTROL メール配信]**: クエリで出力されたプロファイルにウェルカムメールを送信します。
 
-![&#x200B; オーケストレーションされたキャンペーンキャンバスでの増分クエリアクティビティ設定](../assets/incremental-query-example.png)
+![ オーケストレーションされたキャンペーンキャンバスでの増分クエリアクティビティ設定](../assets/incremental-query-example.png)
 

@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: パスの検証
+title: パス実験
 description: ジャーニーでパス実験を使用する方法を説明します
 feature: Journeys, Activities
 topic: Content Management
@@ -12,11 +12,11 @@ exl-id: 7241ade3-577c-4bb3-b0c3-017133871ca5
 source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '1147'
-ht-degree: 77%
+ht-degree: 78%
 
 ---
 
-# パスの検証の使用 {#experimentation}
+# パス実験を使用 {#experimentation}
 
 >[!CONTEXTUALHELP]
 >id="ajo_path_experiment_success_metric"
@@ -40,7 +40,7 @@ ht-degree: 77%
 
 1. **[!UICONTROL メソッド]**&#x200B;ドロップダウンリストから「**[!UICONTROL 実験]**」を選択します。
 
-   ![&#x200B; パス実験設定パネル &#x200B;](assets/journey-optimize-experiment.png){width=65%}
+   ![ パス実験設定パネル ](assets/journey-optimize-experiment.png){width=65%}
 
 1. 「**[!UICONTROL 実験を作成]**」をクリックします。
 
@@ -54,7 +54,7 @@ ht-degree: 77%
 
    * **[!UICONTROL マルチアームドバンディット]** – 処理間のトラフィックの分割は自動的に処理されます。 7 日ごとに、プライマリ指標のパフォーマンスが確認され、それに応じて重み付けが調整されます。 A/B テストと同様に、レポートには上昇率が引き続き示されています。
 
-   ![&#x200B; パス実験の実験タイプのドロップダウン &#x200B;](assets/journey-path-experiment-type.png){width=80%}
+   ![ パス実験の実験タイプのドロップダウン ](assets/journey-path-experiment-type.png){width=80%}
 
    ➡️ [A/B実験とマルチアームドバンディット実験の違いについて詳しく見る](../content-management/mab-vs-ab.md)
 
@@ -153,7 +153,7 @@ REMOVED WITH GA
 >
 >パス実験の場合、勝者のスケール機能は、単一ジャーニー（イベントトリガーおよびオーディエンスの選定）でのみ使用できます。
 >
->オーディエンスの読み取りジャーニーには使用できません。
+>オーディエンスを読み取りジャーニーでは使用できません。
 
 「勝者をスケール」を使用すると、実験の勝利バリエーションをすべてのオーディエンスに自動または手動でロールアウトできます。 この機能により、勝者が決定したら、実験を常に監視することなく、そのリーチと効果を増幅できます。
 
@@ -175,7 +175,7 @@ REMOVED WITH GA
 
 1. 実験を設定する際は、自動スケールオプションを有効にします。
 
-   ![&#x200B; パス実験の自動スケールオプション &#x200B;](assets/journey-optimize-autoscale.png)
+   ![ パス実験の自動スケールオプション ](assets/journey-optimize-autoscale.png)
 
 1. 勝者のスケールを設定するタイミングを以下から選択します。
 
@@ -184,7 +184,7 @@ REMOVED WITH GA
 
    自動スケール時間は、実験の終了日より前にスケジュールする必要があります。 終了日の後の時間に設定されている場合、検証警告が表示され、ジャーニーは公開されません。
 
-   ![&#x200B; パス実験](assets/journey-optimize-autoscale-time.png)での時間の自動選択の拡大・縮小
+   ![ パス実験](assets/journey-optimize-autoscale-time.png)での時間の自動選択の拡大・縮小
 
 1. スケール時間で勝者が見つからない場合のフォールバック動作を以下から選択します。
 
@@ -209,7 +209,7 @@ REMOVED WITH GA
 
    **[!UICONTROL パス実験]** ビューの結果を確認して、最もパフォーマンスの高い処理を特定します。
 
-   ![&#x200B; パス実験の手動スケール勝者](assets/journey-optimize-manual-scale-winner.png)
+   ![ パス実験の手動スケール勝者](assets/journey-optimize-manual-scale-winner.png)
 
 1. 「**[!UICONTROL 処理をスケール]**」をクリックして、勝利の処理を残りのオーディエンスにプッシュします。
 
@@ -217,6 +217,6 @@ REMOVED WITH GA
 
 1. ドロップダウンメニューから拡大する処理を選択し、「**[!UICONTROL スケール]**」をクリックします。
 
-   ![&#x200B; パス実験でのスケール処理の選択](assets/journey-optimize-scale-treatment.png){width=80%}
+   ![ パス実験でのスケール処理の選択](assets/journey-optimize-scale-treatment.png){width=80%}
 
 処理のスケーリングには最大 1 時間かかる場合があります。 手動スケーリングプロセスが完了すると、通知が届きます。

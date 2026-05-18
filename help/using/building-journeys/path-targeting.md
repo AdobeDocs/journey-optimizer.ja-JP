@@ -13,11 +13,11 @@ badge: label="限定提供" type="Informative"
 source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '812'
-ht-degree: 90%
+ht-degree: 91%
 
 ---
 
-# パスのターゲティングを活用 {#targeting}
+# パスターゲティングを活用 {#targeting}
 
 >[!CONTEXTUALHELP]
 >id="ajo_path_targeting_fallback"
