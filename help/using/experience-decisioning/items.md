@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+source-git-commit: dfffbdc916a2ea6082d747927c28486e51fb381e
 workflow-type: tm+mt
-source-wordcount: '2199'
-ht-degree: 87%
+source-wordcount: '2247'
+ht-degree: 86%
 
 ---
 
@@ -33,6 +33,16 @@ Journey Optimizer では、決定項目と呼ばれるマーケティングオ�
 >id="ajo_exd_item_priority"
 >title="決定項目の優先度を定義"
 >abstract="プロファイルが複数の項目に該当する場合、優先度によって、この決定項目を他の項目と比較できるようになります。 優先度が高い項目は、他の項目よりも優先されます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_ajo_fragment"
+>title="Journey Optimizer コンテンツフラグメントをこの決定項目にマッピングする"
+>abstract="Journey Optimizerフラグメントライブラリからコンテンツフラグメントを添付します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_aem_fragment"
+>title="AEM コンテンツフラグメントをこの決定項目にマッピングする"
+>abstract="この決定事項にコンテンツフラグメントを添付することで、Adobe Experience Managerから直接コンテンツを活用できます。"
 
 まず、決定項目の標準属性とカスタム属性を定義します。
 
