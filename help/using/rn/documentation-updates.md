@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 258d22c6b95db138e927d96f04215c0623e53913
+source-git-commit: e2ec3d856f115befc34d435e26696c4cb4e13301
 workflow-type: tm+mt
-source-wordcount: '7777'
-ht-degree: 92%
+source-wordcount: '7859'
+ht-degree: 91%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 92%
 このページでは、毎月のリリースの機能と改善点に関連する更新に加えて、[!DNL Journey Optimizer] ドキュメントの最新の変更点をすべて一覧表示しています。
 
 ## 2026年5月 {#may-2026}
+
+* **主要な用語** ページが新しい&#x200B;**用語が追加され、よく混同される4つの用語のペア（決定管理と決定管理のレガシーステータスを含む）、3つのキャンペーンタイプ（アクション、API トリガー、オーケストレーション）、頻度の上限とジャーニーの調停、コンテンツカードとアプリ内メッセージ）を含む曖昧さ回避ガイド**&#x200B;が追加されました。 **Campaign**&#x200B;の定義と&#x200B;**決定とオファーの条件**&#x200B;の表も更新されました。決定は、レガシーとして明示的にマークされている意思決定管理と共に一覧表示されるようになりました。 [詳細情報](../start/terminology.md#disambiguation)
 
 * **Deeplinks** ドキュメントが拡張され、新しい&#x200B;**Authoring deeplinks** セクションに、メールで使用できる2つのオプション（メール Designer UIとPersonalization エディターコード）とSMSのURL関数構文の詳細が追加されました。 **SMS メッセージの作成** ページに、コンテンツ作成フローの詳細ステップが含まれるようになりました。 [詳細情報](../email/deeplinks.md)
 
