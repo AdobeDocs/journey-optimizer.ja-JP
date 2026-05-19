@@ -8,9 +8,9 @@ role: User
 level: Beginner
 hide: true
 exl-id: 4c1d39c4-3154-4bec-ac3c-c2ead7164d69
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+source-git-commit: ce865fbef0217b437aa41508a7f11ea706bd65de
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '364'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 2%
 * 24時間後に開封した受信者に「残り23時間」と表示
 * セール終了後に開封した受信者には、「タイムズアップ！」と表示されます。
 
-Adobe Experience ManagerのDynamic Media テンプレートにカウントダウンタイマーを追加する方法について詳しくは、[このドキュメント &#x200B;](assets/do-not-localize/countdown.pdf)を参照してください。
+Adobe Experience ManagerのDynamic Media テンプレートにカウントダウンタイマーを追加する方法について詳しくは、[このドキュメント ](assets/do-not-localize/countdown.pdf)を参照してください。
 
 
 1. **[!DNL Adobe Experience Manager]**&#x200B;で、Dynamic Media テンプレートを作成し、カウントダウンタイマーコンポーネントを追加します。

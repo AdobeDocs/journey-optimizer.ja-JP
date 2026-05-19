@@ -5,32 +5,29 @@ title: Adobe Experience Manager Content Advisorへのアクセス
 description: Adobe Experience Manager Content Advisorにアクセスして、Adobe Journey OptimizerのAIを利用したセマンティック検索を使用して、アセットとコンテンツフラグメントを検索する方法を説明します。
 role: User
 level: Beginner, Intermediate
-hide: true
 exl-id: 842d69e3-be7f-4a81-8161-6c6ecd571f95
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 71c8f61c8d4d63ec07c08e1d5b4338b990fafde3
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '789'
 ht-degree: 0%
 
 ---
 
-# Adobe Experience Manager content advisorの操作 {#aem-content-advisor}
+# Adobe Experience Manager Content Advisorの操作 {#aem-content-advisor}
 
->[!AVAILABILITY]
->
->Adobe Experience Manager Content Advisorは、チャネルオーサリングワークフローでのみ使用できます。
+Adobe Experience Manager Content Advisorは、決定論的な発見を、統一されたサーフェスからの標準化された意図に基づく発見に置き換えます。 これにより、AIを利用して、Assets、ダイナミックメディア、コンテンツフラグメントをJourney Optimizerのオーサリングワークフロー内で直接発見でき、マーケターの生産性とキャンペーンの効率性を向上させることができます。
 
-Adobe Experience Manager Content Advisorは、決定論的な発見を、統一されたサーフェスからの標準化された意図に基づく発見に置き換えます。 これにより、AIを利用して、AssetsとコンテンツフラグメントをJourney Optimizerのオーサリングワークフロー内で直接発見でき、マーケターの生産性とキャンペーンの効率性を向上させることができます。
+➡️ [Adobe Experience Manager Content Advisorについて詳しくは、Adobe Experience Manager ドキュメント ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/content-advisor/integrate-adobe-non-adobe-applications)を参照してください
 
-## 使用可能な機能
+## 利用可能な機能
 
 ### Assetsの場合 {#asset-features}
 
-Adobe Experience Manager Content Advisorには、次のアセット機能が用意されています。
+Adobe Experience Manager Content Advisorには、次のアセット機能があります。
 
 +++ AI セマンティック検索
 
-正確なキーワードやファイル名ではなく、自然言語を使用してアセットを検索できます。 「山の中のコーヒー」など、必要なものを平易な言葉で説明すると、AIはテキストの一致だけでなく、意味や内容にもとづいて文脈的に関連性の高いアセットを見つけます。
+正確なキーワードやファイル名ではなく、自然言語を使用してアセットを検索できます。 「山の中のコーヒー」のように、必要なものを平易な言葉で説明すると、AIはテキストの一致だけでなく、意味やコンテンツにもとづいて、文脈的に関連性の高いアセットを表示します。 多言語検索もサポートされているので、タグ付けや名前の付いた言語に関係なく、好みの言語でクエリを実行して、適切なアセットを見つけることができます。
 
 ![](assets/content-advisor-2.png){zoomable="yes"}
 
@@ -74,7 +71,7 @@ Dynamic Mediaの可用性は、リポジトリ設定によって異なります�
 
 * **Scene7**：公開されたアセットで使用できます（ビデオとPDFを除く）。 [Dynamic Media Scene7修飾子の詳細](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-is-http-modifiers.html){target="_blank"}
 
-* **OpenAPI**：承認済みアセットで利用できます（ビデオを除く）。 [OpenAPI修飾子を使用したDynamic Mediaについて詳しく見る](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html?lang=ja){target="_blank"}
+* **OpenAPI**：承認済みアセットで利用できます（ビデオを除く）。 [OpenAPI修飾子を使用したDynamic Mediaについて詳しく見る](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html){target="_blank"}
 
 * **Scene7とOpenAPI**：両方の設定が存在し、アセットが条件を満たす場合に使用できます。
 

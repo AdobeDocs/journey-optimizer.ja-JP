@@ -6,10 +6,11 @@ description: Journey OptimizerのAEM コンテンツフラグメントに関す�
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 4f7e36a6cc19e4138e867950e34c5a5e6452b364
+exl-id: de4f441e-c3a3-4759-a634-bc9029328ebb
+source-git-commit: 2402f60dbde4f79909ca8cc832a8d5de735c9c46
 workflow-type: tm+mt
-source-wordcount: '733'
-ht-degree: 0%
+source-wordcount: '764'
+ht-degree: 3%
 
 ---
 
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 ## 重要な考慮事項 {#considerations}
 
-[!DNL Adobe Experience Manager]で[!DNL Journey Optimizer]のコンテンツフラグメントを使用する場合は、次の点に注意してください。
+[!DNL Journey Optimizer]で[!DNL Adobe Experience Manager]のコンテンツフラグメントを使用する場合は、次の点に注意してください。
 
 * **コンテンツフラグメントタイプ**
    * シンプルなコンテンツフラグメント、ネストされたコンテンツフラグメント、および&#x200B;**コンテンツフラグメントのバリエーション**&#x200B;がサポートされています。 [!DNL Journey Optimizer]にフラグメントを挿入するときに、バリエーションを選択します。 バリエーションを選択しない場合、**Main** バリエーション（[!DNL Adobe Experience Manager]のフラグメントのプライマリコンテンツ）が使用されます。
@@ -32,7 +33,7 @@ ht-degree: 0%
 
 * **コンテンツフラグメントの状態**
    * フラグメントでは、**[!UICONTROL 公開済み]**&#x200B;または&#x200B;**[!UICONTROL 変更済み]**&#x200B;のステータスを表示できます。[!DNL Journey Optimizer]では、常に&#x200B;**最新の公開済みバージョン**&#x200B;が使用されます。
-   * 公開後に行われた変更は、フラグメントが[!DNL Journey Optimizer]で再公開されるまで[!DNL Adobe Experience Manager]に反映されません。 2つの製品間に自動バージョン調整はありません。
+   * 公開後に行われた変更は、フラグメントが[!DNL Adobe Experience Manager]で再公開されるまで[!DNL Journey Optimizer]に反映されません。 2つの製品間に自動バージョン調整はありません。
 
 * **パーソナライゼーション**
    * サポートされているプロファイル属性、コンテキスト属性、静的文字列、事前定義済み変数。
@@ -41,11 +42,11 @@ ht-degree: 0%
 * **更新とバージョン管理**
    * 更新するには、[!DNL Adobe Experience Manager]から手動で再公開する必要があります。 自動バージョン紐付けはありません。
    * コンテンツフラグメントが[!DNL Adobe Experience Manager]で公開または再公開されると、[!DNL Journey Optimizer]はそのフラグメントを更新し、**アクティブなキャンペーンまたはジャーニーで参照されているそのフラグメントのすべてのバリエーション**&#x200B;を更新します。
-   * [!DNL Adobe Experience Manager] [公開アクション &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/manage/manage-publication)を遅延させることができます。 完了すると、[!DNL Journey Optimizer]はイベントを受け取り、コンテンツを更新します。
+   * [!DNL Adobe Experience Manager] [公開アクション ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-publication)を遅延させることができます。 完了すると、[!DNL Journey Optimizer]はイベントを受け取り、コンテンツを更新します。
    * 更新が正常に完了すると、通常、単一ジャーニーの場合は約&#x200B;**5分以内**&#x200B;に、バッチのユースケースの場合は&#x200B;**次のバッチ**&#x200B;に変更を利用できます。
 
 * **キャッシュとプルーフ**
-   * フラグメントがキャンペーンまたはジャーニーに最初に追加されると、[!DNL Journey Optimizer]はそれをキャッシュします。 **[!UICONTROL AEM CF セレクターを開く]**&#x200B;を通じてすでに他の場所で使用されているフラグメントを選択した場合は、[!DNL Journey Optimizer] キャッシュから読み込まれます。
+   * フラグメントがキャンペーンまたはジャーニーに最初に追加されると、[!DNL Journey Optimizer]はそれをキャッシュします。 **[!UICONTROL Open AEM Content Advisor]**&#x200B;を通じて既に他の場所で使用されているフラグメントを選択した場合、[!DNL Journey Optimizer] キャッシュから読み込まれます。
    * 変更されたフラグメントを[!DNL Adobe Experience Manager]で再公開すると、[!DNL Journey Optimizer]はイベントをリッスンし、キャッシュを更新します。
    * プルーフは常に&#x200B;**直近に公開された** バージョンを反映します。プルーフ用に履歴バージョンをロックすることはできません。
 
