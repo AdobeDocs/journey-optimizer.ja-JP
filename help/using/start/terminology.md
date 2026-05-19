@@ -29,10 +29,10 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: b4ce14492d56e7121f827cf6a46abc5c222180e5
+source-git-commit: 26ebbdc6d51ee9ad7c47ce26e7df04064b90268f
 workflow-type: tm+mt
-source-wordcount: 1760
-ht-degree: 43%
+source-wordcount: 1576
+ht-degree: 33%
 
 ---
 
@@ -42,20 +42,11 @@ ht-degree: 43%
 
 よく混同される類似する用語のペア（**Decisioning vs Decision Management**&#x200B;または&#x200B;**コンテンツカード vs アプリ内メッセージ**&#x200B;など）については、このページの下部にある[用語が類似している場合](#disambiguation)を参照してください。
 
->[!TIP]
+>[!NOTE]
 >
->機能とワークフローの説明について詳しくは、このガイド全体にリンクされている特定のドキュメントの節を参照してください。
+>Adobe Journey Optimizerは&#x200B;**Adobe Experience Platform**&#x200B;上に構築されています。 リアルタイムの顧客プロファイル、サンドボックス、スキーマ、データセットなど、遭遇する多くの基本的な概念は、Journey Optimizerに特化した概念ではなく、Adobe Experience Platformの概念です。 これらの用語の定義については、[Adobe Experience Platform用語集](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=ja){target="_blank"}を参照してください。
 
-## コアプラットフォームの用語 {#core-terms}
-
-| 用語 | 定義 |
-|------|------------|
-| **Adobe Journey Optimizer** | チャネル（メール、SMS、プッシュ通知、web）をまたいで顧客にパーソナライズされたメッセージを作成および配信するためのアプリケーション。 これにより、リアルタイム顧客アクションに対応するカスタマージャーニーを設計できます。 |
-| **Adobe Experience Platform** | すべての顧客データを 1 か所に収集および整理する Adobe Journey Optimizer の基盤。 Journey Optimizer がパーソナライゼーションに使用する統合顧客プロファイルを作成します。 [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ja){target="_blank"} |
-| **リアルタイム顧客プロファイル** | オンライン、オフライン、CRM、サードパーティデータなど、複数のチャネルのデータを組み合わせた、各顧客の統合されたリアルタイムビュー。 顧客がブランドとやり取りすると、各プロファイルは動的に更新されます。 [詳細情報](../audience/get-started-profiles.md) |
-| **サンドボックス** | 実際のお客様とのコミュニケーションに影響を与えずに、テストや実験を行う独立したワークスペース。 Adobe Journey Optimizer には、開発環境、テスト環境、実稼動環境用の複数のサンドボックスが用意されています。 [詳細情報](../administration/sandboxes.md) |
-
-## ジャーニーとキャンペーンの用語 {#journey-campaign-terms}
+## ジャーニーとキャンペーンの条件 {#journey-campaign-terms}
 
 | 用語 | 定義 |
 |------|------------|
@@ -64,7 +55,7 @@ ht-degree: 43%
 | **イベント** | ジャーニーをトリガーまたは進行させるアクションまたは発生内容。 イベントには、顧客アクション（購入の実行、買い物かごの放棄）またはシステムイベント（日時、データの変更）があります。 [詳細情報](../event/about-events.md) |
 | **チャネル** | 顧客との通信に使用する方法：メール、SMS、プッシュ通知、アプリ内メッセージ、web またはダイレクトメール。 各チャネルには、特定の設定が必要です。 [詳細情報](../configuration/get-started-configuration.md) |
 
-## 顧客とオーディエンスの用語 {#customer-audience-terms}
+## 顧客/オーディエンス条件 {#customer-audience-terms}
 
 | 用語 | 定義 |
 |------|------------|
@@ -97,8 +88,6 @@ ht-degree: 43%
 
 | 用語 | 定義 |
 |------|------------|
-| **スキーマ** | フィールド名、データタイプ、関係など、Adobe Experience Platform でのデータの整理方法を定義する構造。 スキーマは、システムをまたいでデータの一貫性を確保します。 [詳細情報](../data/get-started-schemas.md) |
-| **データセット** | 特定のスキーマに従うデータのコレクション（通常はテーブル）。 データセットには、お客様データ、インタラクションイベントおよびパーソナライゼーションに使用されるその他の情報が保存されます。 [詳細情報](../data/get-started-datasets.md) |
 | **チャネル設定** | 送信者の詳細、サブドメイン、IP プール、メッセージタイプ（マーケティングまたはトランザクション）など、特定のチャネルに対するメッセージの配信方法を定義する設定。 以前は、古いドキュメントでは「サーフェス」または「プリセット」と呼ばれていました。 [詳細情報](../configuration/channel-surfaces.md) |
 | **抑制リスト** | ハードバウンス、スパムの苦情、手動による追加などが原因で、メッセージ配信から自動的に除外されるメールアドレスとドメインのリスト。 除外されたアドレスへの送信は、配信品質と送信者のレピュテーションを保護するためにブロックされます。 [詳細情報](../reports/suppression-list.md) |
 
@@ -108,10 +97,6 @@ ht-degree: 43%
 |------|------------|
 | **ルール セット** | メッセージの動作を管理するために、ジャーニーとキャンペーンに適用されるビジネスルールの名前付きグループ。 ルールセットでは、頻度の上限、ジャーニー入力制限、サイレントアワーを組み合わせて、単一の再利用可能なポリシーにすることができます。 [詳細情報](../conflict-prioritization/rule-sets.md) |
 | **頻度の上限** | チャネルまたはコミュニケーションの種類（セールス、プロモーションなど）ごとに、プロファイルが特定の期間内に受信できるメッセージの数を制限するルールセット内のルール。 上限を超えるプロファイルは、配信から自動的に除外されます。 [詳細情報](../conflict-prioritization/channel-capping.md) |
-
->[!NOTE]
->
->Adobe Experience Platform の用語の包括的な用語集について詳しくは、[Adobe Experience Platform 用語集](https://experienceleague.adobe.com/docs/experience-platform/landing/glossary.html?lang=ja){target="_blank"}を参照してください。
 
 ## 用語が似ている場合：曖昧さ回避ガイド {#disambiguation}
 
@@ -157,7 +142,7 @@ Journey Optimizerでは、アクティベート方法が異なり、それぞれ
 | **で構成** | 頻度の上限→設定するルール | ルールセット → ジャーニーの上限設定と調停 |
 | **詳細情報** | [&#x200B; チャネル別に頻度の上限を設定](../conflict-prioritization/channel-capping.md) | [&#x200B; ジャーニーの上限設定と調停の管理](../conflict-prioritization/journey-capping.md) |
 
-### コンテンツカードとアプリ内メッセージの比較 {#content-cards-vs-in-app}
+### コンテンツカードとアプリ内メッセージの違い {#content-cards-vs-in-app}
 
 どちらのチャネルも、モバイルまたはweb アプリケーション内でメッセージを配信しますが、レンダリングモデルと永続性動作が異なります。
 

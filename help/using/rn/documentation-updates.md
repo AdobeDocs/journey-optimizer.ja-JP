@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: e2ec3d856f115befc34d435e26696c4cb4e13301
+source-git-commit: 8f23da537097fa514b19f9d6e8be025ba86f8a05
 workflow-type: tm+mt
-source-wordcount: '7859'
+source-wordcount: '7833'
 ht-degree: 91%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 91%
 
 ## 2026年5月 {#may-2026}
 
-* **主要な用語** ページが新しい&#x200B;**用語が追加され、よく混同される4つの用語のペア（決定管理と決定管理のレガシーステータスを含む）、3つのキャンペーンタイプ（アクション、API トリガー、オーケストレーション）、頻度の上限とジャーニーの調停、コンテンツカードとアプリ内メッセージ）を含む曖昧さ回避ガイド**&#x200B;が追加されました。 **Campaign**&#x200B;の定義と&#x200B;**決定とオファーの条件**&#x200B;の表も更新されました。決定は、レガシーとして明示的にマークされている意思決定管理と共に一覧表示されるようになりました。 [詳細情報](../start/terminology.md#disambiguation)
+* **主要な用語** ページが見直されました。6つの新しい用語が追加され、新しい&#x200B;**競合と優先順位付けの用語** セクションが導入され、新しい&#x200B;**用語が似ているときに**&#x200B;曖昧さ回避ガイドが4つの一般的に混同される用語ペアに追加されました。 Adobe Experience Platform固有の用語が削除され、Adobe Experience Platform用語集にリンクするメモに置き換えられました。 [詳細情報](../start/terminology.md)
 
 * **Deeplinks** ドキュメントが拡張され、新しい&#x200B;**Authoring deeplinks** セクションに、メールで使用できる2つのオプション（メール Designer UIとPersonalization エディターコード）とSMSのURL関数構文の詳細が追加されました。 **SMS メッセージの作成** ページに、コンテンツ作成フローの詳細ステップが含まれるようになりました。 [詳細情報](../email/deeplinks.md)
 
