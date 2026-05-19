@@ -58,7 +58,7 @@ Journey Optimizer では、決定項目と呼ばれるマーケティングオ�
 
 1. 「**タグ**」フィールドを使用すると、Adobe Experience Platform 統合タグを決定項目に割り当てることができます。 これにより、簡単に分類し、検索を改善できます。 [タグの操作方法について詳しくは、こちらを参照してください](../start/search-filter-categorize.md#tags)
 
-1. [ フラグメント ](../content-management/fragments.md)を使用して、決定項目に複数のコンテンツを追加します。例えば、複数のモバイルデバイスモデルに対して異なるコンテンツを表示する場合などです。 その後、これらのフラグメントを意思決定ポリシーで活用できます。 [詳細情報](fragments-decision-policies.md)
+1. [&#x200B; フラグメント &#x200B;](../content-management/fragments.md)を使用して、決定項目に複数のコンテンツを追加します。例えば、複数のモバイルデバイスモデルに対して異なるコンテンツを表示する場合などです。 その後、これらのフラグメントを意思決定ポリシーで活用できます。 [詳細情報](fragments-decision-policies.md)
 
    >[!AVAILABILITY]
    >
