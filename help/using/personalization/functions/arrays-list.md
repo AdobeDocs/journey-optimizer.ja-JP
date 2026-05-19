@@ -7,9 +7,12 @@ role: Developer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
 TQID: https://experienceleague.adobe.com/CUiT5GFH9o4q-oOSWuKC8ZyLbRbH9lj88M92LhMIX9E
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c5ecc28ec44a9c608f4fe5011e061cad62d92e2b
 workflow-type: tm+mt
 source-wordcount: 742
@@ -300,7 +303,7 @@ Handlebars `{{#each}}` ブロックヘルパーを使用して、配列をルー
 
 >[!NOTE]
 >
->`{{#each}}`は、**パーソナライゼーションエディター**&#x200B;でのみ利用できます（メール本文、SMS、プッシュコンテンツ）。 ジャーニー条件アクティビティでは&#x200B;**not**&#x200B;がサポートされています。 ジャーニー条件内の配列から項目をフィルタリングまたは一致させるには、代わりに[ コレクション管理関数](../../building-journeys/expression/collection-management-functions.md)を使用します。
+>`{{#each}}`は、**パーソナライゼーションエディター**&#x200B;でのみ利用できます（メール本文、SMS、プッシュコンテンツ）。 ジャーニー条件アクティビティでは&#x200B;**not**&#x200B;がサポートされています。 ジャーニー条件内の配列から項目をフィルタリングまたは一致させるには、代わりに[&#x200B; コレクション管理関数](../../building-journeys/expression/collection-management-functions.md)を使用します。
 
 **構文**
 

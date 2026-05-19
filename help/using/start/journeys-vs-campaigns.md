@@ -11,12 +11,24 @@ keywords: ジャーニー, キャンペーン, 調整, 比較, 選択, 決定, �
 hide: true
 exl-id: 8b4d010e-4278-49fd-a7d3-dcc706829577
 TQID: https://experienceleague.adobe.com/RWLVSULVO0idnCs5OVQR1yVvNv1G0JwP3y-3sNXQg50
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: addf009e-030a-4310-8534-776a3e62ed48id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: addf009e-030a-4310-8534-776a3e62ed48
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1816
@@ -119,9 +131,9 @@ ht-degree: 59%
 * 待機アクティビティにより、パーソナライズされたタイミングが作成されます
 * 条件分岐により、プロファイルごとに一意のパスが作成されます
 * 組み込みのアクティブリスニング：定義された期間にわたり何も実行しないことで、明示的なイベントだけでなく、次のステップをトリガーにすることもできます。 [待機アクティビティについて説明](../building-journeys/wait-activity.md)
-* 頻度の上限設定：顧客がジャーニーにエントリしたり、ジャーニーからメッセージを受信したりできる頻度を制御します。 [ ジャーニーの上限について説明します](../conflict-prioritization/journey-capping.md)
-* オーディエンスの割合による分割 – プロファイルをランダムな割合ベースのグループに分割し、ジャーニーパス全体でA/B実験を実施できます。 [ パーセンテージ分割について説明](../building-journeys/condition-activity.md)
-* テストモード：ライブ公開前に、テストプロファイルを使用してジャーニーロジックとメッセージ配信を検証します。 [ テストモードについて学ぶ](../building-journeys/testing-the-journey.md)
+* 頻度の上限設定：顧客がジャーニーにエントリしたり、ジャーニーからメッセージを受信したりできる頻度を制御します。 [&#x200B; ジャーニーの上限について説明します](../conflict-prioritization/journey-capping.md)
+* オーディエンスの割合による分割 – プロファイルをランダムな割合ベースのグループに分割し、ジャーニーパス全体でA/B実験を実施できます。 [&#x200B; パーセンテージ分割について説明](../building-journeys/condition-activity.md)
+* テストモード：ライブ公開前に、テストプロファイルを使用してジャーニーロジックとメッセージ配信を検証します。 [&#x200B; テストモードについて学ぶ](../building-journeys/testing-the-journey.md)
 
 **フローの例：**
 
@@ -297,6 +309,6 @@ Enrich with product data → Build segments → Send personalized offers → All
 >[!MORELIKETHIS]
 >
 >* [ジャーニータイプの比較](../building-journeys/journey.md#journey-types-comparison)
->* [ キャンペーンタイプの比較](../campaigns/get-started-with-campaigns.md#campaign-types)
+>* [&#x200B; キャンペーンタイプの比較](../campaigns/get-started-with-campaigns.md#campaign-types)
 >* [ジャーニーに関する FAQ](../building-journeys/journey-faq.md)
->* [ オーケストレーションされたキャンペーンに関するFAQ](../orchestrated/orchestrated-campaigns-faq.md)
+>* [&#x200B; オーケストレーションされたキャンペーンに関するFAQ](../orchestrated/orchestrated-campaigns-faq.md)

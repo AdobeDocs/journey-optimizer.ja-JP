@@ -9,12 +9,21 @@ role: User
 level: Intermediate
 exl-id: 908f553a-6d2b-45e5-bdb2-eb685f5e1165
 TQID: https://experienceleague.adobe.com/LhxU-3DQ-FDIENfVtadz5nURxZideeUFE9K5MciA93w
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2:
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 659
@@ -37,7 +46,7 @@ ht-degree: 64%
 
 ![](assets/monitor-1.png)
 
-➡️ [ カスタムアクション設定の詳細](../action/about-custom-action-configuration.md)
+➡️ [&#x200B; カスタムアクション設定の詳細](../action/about-custom-action-configuration.md)
 
 **[!UICONTROL カスタムアクション]**&#x200B;レポートページに加えて、**[!DNL Adobe Experience Platform Query Service]** を使用して、カスタムアクションのパフォーマンス指標に関するレポートに対してクエリを作成できます。 クエリの例について詳しくは、[この節](../reports/query-examples.md)を参照してください。
 
@@ -85,7 +94,7 @@ ht-degree: 64%
 
 **[!UICONTROL 時間の遅延]** グラフは、選択した期間の遅延メトリックの傾向を視覚化します。 この時系列ビューでは、パフォーマンスパターンを追跡し、ピーク時の待ち時間を特定し、時間の経過に伴う最適化やシステムの変更の影響を監視することができます。
 
-➡️[ レイテンシ指標の説明については、「KPI」セクションを参照してください](#kpis)
+➡️[&#x200B; レイテンシ指標の説明については、「KPI」セクションを参照してください](#kpis)
 
 
 ## 呼び出し分類 {#breakdown}
@@ -102,7 +111,7 @@ ht-degree: 64%
 
 **[!UICONTROL 待ち時間の内訳]** テーブルには、カスタムアクションの待ち時間の指標の詳細な内訳が表示されます。 このビューにより、パフォーマンスの問題が発生している特定のエンドポイントやアクションを特定し、遅延のボトルネックを効果的に特定して対処できます。
 
-➡️[ レイテンシ指標の説明については、「KPI」セクションを参照してください](#kpis)
+➡️[&#x200B; レイテンシ指標の説明については、「KPI」セクションを参照してください](#kpis)
 
 ## チュートリアルビデオ {#video}
 
