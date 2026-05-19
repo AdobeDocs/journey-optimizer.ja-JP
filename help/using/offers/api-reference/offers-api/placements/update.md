@@ -2,7 +2,7 @@
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: プレースメントの更新
-description: プレースメントは、オファーを表示するために使用されるコンテナです。
+description: プレースメントは、オファーの表示に使用するコンテナです。
 feature: Decision Management, API
 badge: label="レガシー" type="Informative"
 topic: Integrations
@@ -11,19 +11,13 @@ level: Experienced
 exl-id: 6990918c-e736-4f28-9ac6-9ac3101b069f
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/0Oy4Xd0F9lDuDC6A6IiTIp50LhJCfgCMgYcP4o4w8DQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2:
-  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: ed0d8d0e-04b9-4326-be72-a0fbca265377id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 166
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -31,31 +25,31 @@ ht-degree: 0%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer]の新しい決定機能である決定機能が、コードベースのエクスペリエンスとメールチャネルで利用できるようになりました。 [詳細情報](../../../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。 [詳細情報](../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
-プレースメントを変更または更新するには、[!DNL Offer Library] APIに対してPATCH リクエストを行います。
+[!DNL Offer Library] API に対して PATCH リクエストを実行することで、プレースメントを変更または更新できます。
 
-使用可能な操作を含むJSON パッチについて詳しくは、公式の[JSON パッチドキュメント &#x200B;](https://jsonpatch.com/)を参照してください。
+使用可能な操作など、JSON パッチの詳細については、[JSON パッチの公式ドキュメント](https://jsonpatch.com/)を参照してください。
 
-## 受け入れるヘッダーとコンテンツタイプのヘッダー {#accept-and-content-type-headers}
+## Accept ヘッダーと Content-Type ヘッダー {#accept-and-content-type-headers}
 
-次の表は、リクエストヘッダーの&#x200B;*Content-Type* フィールドを構成する有効な値を示しています。
+次の表に、リクエストヘッダーの「*Content-Type*」フィールドを構成する有効な値を示します。
 
 | ヘッダー名 | 値 |
 | ----------- | ----- |
-| コンテンツタイプ | `application/json` |
+| Content-Type | `application/json` |
 
-**API形式**
+**API 形式**
 
 ```http
 PATCH /{ENDPOINT_PATH}/placements/{ID}
 ```
 
-| パラメーター | 効果 | 例 |
+| パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 永続性APIのエンドポイントパス。 | `https://platform.adobe.io/data/core/dps/` |
-| `{ID}` | 更新するエンティティのID。 | `offerPlacement1234` |
+| `{ENDPOINT_PATH}` | 永続性 API のエンドポイントパス。 | `https://platform.adobe.io/data/core/dps/` |
+| `{ID}` | 更新するエンティティの ID。 | `offerPlacement1234` |
 
 **リクエスト**
 
@@ -80,15 +74,15 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/placements/offerPlacement
 ]'
 ```
 
-| パラメーター | 効果 |
+| パラメーター | 説明 |
 | --------- | ----------- |
-| `op` | 接続の更新に必要なアクションを定義するために使用される操作呼び出し。 操作には、`add`、`replace`、`remove`、`copy`および`test`が含まれます。 |
+| `op` | 接続の更新に必要なアクションを定義するのに使用される操作呼び出し。 操作には、`add`、`replace`、`remove`、`copy` および `test` があります。 |
 | `path` | 更新するパラメーターのパス。 |
-| `value` | パラメーターを更新する新しい値。 |
+| `value` | パラメーターの更新に使用する新しい値。 |
 
 **応答**
 
-応答が成功すると、プレースメントの更新された詳細（一意のプレースメント `id`を含む）が返されます。
+正常な応答の場合は、一意のプレースメント`id`など、プレースメントの最新の詳細が返されます。
 
 ```json
 {

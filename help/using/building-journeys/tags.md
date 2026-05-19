@@ -11,21 +11,12 @@ keywords: ジャーニー、タグ
 exl-id: 44c255d1-121c-47d4-b407-161626ca3cb4
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/O8Igbj-JJGr0aej8xbSvZ51xkcJq8LeJ9JiveyBjBqQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebbid: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 642
@@ -50,7 +41,7 @@ Journey Optimizerの&#x200B;**タグカテゴリー**&#x200B;は、より優れ�
 * **明瞭度** — ジャーニー名は短く、マイルストーンに焦点を当てています。
 * **スケーラビリティ** – 新しいメタデータディメンションを追加することは、命名規則を書き換えるのではなく、新しいタグカテゴリを作成することを意味します。
 
-推奨される設定ワークフローについては、以下の「[&#x200B; ジャーニー管理用のタグカテゴリの設定](#tags-setup)」を参照してください。
+推奨される設定ワークフローについては、以下の「[ ジャーニー管理用のタグカテゴリの設定](#tags-setup)」を参照してください。
 
 ## ジャーニーへのタグの追加
 
@@ -108,4 +99,4 @@ Journey Optimizerの&#x200B;**タグカテゴリー**&#x200B;は、より優れ�
 
 >[!TIP]
 >
->このアプローチとその大規模なメリットについて詳しくは、[Journey Optimizerの高度なジャーニーのベストプラクティス &#x200B;](https://experienceleague.adobe.com/ja/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}を参照してください。
+>このアプローチとその大規模なメリットについて詳しくは、[Journey Optimizerの高度なジャーニーのベストプラクティス ](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}を参照してください。

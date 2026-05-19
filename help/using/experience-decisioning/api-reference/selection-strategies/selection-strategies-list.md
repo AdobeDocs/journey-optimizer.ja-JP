@@ -8,12 +8,9 @@ level: Experienced
 exl-id: be0f683d-1d39-47f6-b565-1cc7ee06ee71
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/u90FzwxAaE8VS3wt0ArcZq0ibha1-1Rn0btxbRfniyA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 219

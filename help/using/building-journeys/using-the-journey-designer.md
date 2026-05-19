@@ -11,31 +11,12 @@ keywords: デザイン, キャンバス, ジャーニー, インターフェイ�
 exl-id: 1998f6fc-60fd-4038-8669-39cd55bc02d1
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/Mn8oR-jsUTbkXoohAgCulA-SBY8xRVy75z6H7j9ETvE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: e57d1da4-32c2-4cc6-945c-9feb219156ff
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d2e8a157-b3b0-4143-9ff3-809bf400be56id: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: e57d1da4-32c2-4cc6-945c-9feb219156ffid: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 82c3ff093eef40fa31fc0f3bb7baa32c857ff6ea
 workflow-type: tm+mt
 source-wordcount: 1770
@@ -169,7 +150,7 @@ ht-degree: 92%
 1. マウスをクリックしながら動かし、コピーするアクティビティを選択します。 **Ctrl / Command** キーを押しながら各アクティビティをクリックすることもできます。 すべてのアクティビティを選択する場合は、**Ctrl / Command + A** を使用します。
    ![コピーするジャーニーでの複数のアクティビティの選択](assets/copy-paste1.png)
 1. **Ctrl / Command + C** を押します。
-1 つのアクティビティのみをコピーする場合は、そのアクティビティをクリックし、設定ペインの左上にある&#x200B;**コピー**&#x200B;アイコンを使用します。
+1 つのアクティビティのみをコピーする場合は、そのアクティビティをクリックし、設定ペインの左上にある**コピー**アイコンを使用します。
    ![アクティビティ設定パネルのコピーアイコン](assets/copy-paste2.png)
-1. 任意のジャーニーで、アクティビティを既存のノードにリンクせずに貼り付ける場合は、**Ctrl / Command + V** を押します。 貼り付けたアクティビティは同じ順序で配置されます。 貼り付け後も、アクティビティは選択されたままなので、簡単に移動できます。 空のプレースホルダーにカーソルを置き、**Ctrl/Command + V**&#x200B;を押すこともできます。貼り付けたアクティビティはノードにリンクされます。
+1. 任意のジャーニーで、アクティビティを既存のノードにリンクせずに貼り付ける場合は、**Ctrl / Command + V** を押します。 貼り付けたアクティビティは同じ順序で配置されます。 貼り付け後も、アクティビティは選択されたままなので、簡単に移動できます。 空のプレースホルダーにカーソルを置き、**Ctrl/Command + V**を押すこともできます。貼り付けたアクティビティはノードにリンクされます。
    ![接続する準備が整ったジャーニーキャンバスに貼り付けたアクティビティ](assets/copy-paste3.png)

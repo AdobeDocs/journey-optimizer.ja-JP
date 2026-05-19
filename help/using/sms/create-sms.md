@@ -9,24 +9,12 @@ role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 TQID: https://experienceleague.adobe.com/xgPlWorA3lsIF8ZBPHdg2UAK8cLKUsJO-2ONc7ZG8AU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 2b865f11ee97d976b6bb1ad8232d8227d86fe093
 workflow-type: tm+mt
 source-wordcount: 1379
@@ -57,7 +45,7 @@ Adobe Journey Optimizer を使用して、テキスト（SMS）、リッチ通�
 
 >[!TAB ジャーニーへのテキストメッセージの追加]
 
-1. ジャーニーを開き、パレットの「**[!UICONTROL アクション]**」セクションから「**[!UICONTROL アクション]**」アクティビティをドラッグ&amp;ドロップします。 [&#x200B; アクションアクティビティ &#x200B;](../building-journeys/journey-action.md)の詳細をご覧ください。
+1. ジャーニーを開き、パレットの「**[!UICONTROL アクション]**」セクションから「**[!UICONTROL アクション]**」アクティビティをドラッグ&amp;ドロップします。 [ アクションアクティビティ ](../building-journeys/journey-action.md)の詳細をご覧ください。
 
    >[!IMPORTANT]
    >
@@ -81,7 +69,7 @@ Adobe Journey Optimizer を使用して、テキスト（SMS）、リッチ通�
 
 1. ジャーニーキャンバスに戻ります。 必要に応じて、追加のアクションまたはイベントをドラッグ＆ドロップして、ジャーニーフローを完了します。 [詳細情報](../building-journeys/about-journey-activities.md)
 
-ジャーニーの作成、設定、公開の方法について詳しくは、[このページ &#x200B;](../building-journeys/journey-gs.md)を参照してください。
+ジャーニーの作成、設定、公開の方法について詳しくは、[このページ ](../building-journeys/journey-gs.md)を参照してください。
 
 >[!TAB キャンペーンへのテキストメッセージの追加]
 
@@ -120,7 +108,7 @@ Adobe Journey Optimizer を使用して、テキスト（SMS）、リッチ通�
 
 これで、以下に説明するように、「**[!UICONTROL コンテンツを編集]**」ボタンからテキストメッセージのコンテンツのデザインを開始できます。
 
-キャンペーンの作成、設定およびアクティベート方法について詳しくは、[このページ &#x200B;](../campaigns/get-started-with-campaigns.md)を参照してください。
+キャンペーンの作成、設定およびアクティベート方法について詳しくは、[このページ ](../campaigns/get-started-with-campaigns.md)を参照してください。
 
 >[!ENDTABS]
 
@@ -162,7 +150,7 @@ Adobe Journey Optimizer を使用して、テキスト（SMS）、リッチ通�
    >
    > 短縮 URL の有効期間は 30 日に設定されています。 この期間が経過すると、これらの短縮 URL にはアクセスできなくなり、`404 short-code not found` というメッセージが表示されます。
 
-1. モバイルアプリで特定の画面を開くディープリンクを追加するには、`DEEPLINK`型のURL ヘルパーを使用します。 [&#x200B; ディープリンクについて詳しく見る](../email/deeplinks.md)
+1. モバイルアプリで特定の画面を開くディープリンクを追加するには、`DEEPLINK`型のURL ヘルパーを使用します。 [ ディープリンクについて詳しく見る](../email/deeplinks.md)
 
    ```
    {{url originalUrl='<<deeplink_url>>' type='DEEPLINK' action='CLICK'}}
@@ -170,7 +158,7 @@ Adobe Journey Optimizer を使用して、テキスト（SMS）、リッチ通�
 
    >[!IMPORTANT]
    >
-   >ディープリンクを使用する前に、Journey Optimizerで対応する[設定手順](../email/deeplinks.md#configuration)を完了し、モバイルアプリに[&#x200B; ディープリンク処理](../email/deeplinks.md#mobile-implementation)を実装していることを確認してください。 そうしていない場合、ディープリンクはユーザーを意図したアプリ内コンテンツに誘導しません。
+   >ディープリンクを使用する前に、Journey Optimizerで対応する[設定手順](../email/deeplinks.md#configuration)を完了し、モバイルアプリに[ ディープリンク処理](../email/deeplinks.md#mobile-implementation)を実装していることを確認してください。 そうしていない場合、ディープリンクはユーザーを意図したアプリ内コンテンツに誘導しません。
    >
    >また、URLがAdobe システムを通じて書き換えられるように、ジャーニーまたはキャンペーンの&#x200B;**[!UICONTROL アクション]** セクションでリンクトラッキングが有効になっていることを確認してください。
 

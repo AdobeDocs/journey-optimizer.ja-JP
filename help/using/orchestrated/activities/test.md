@@ -6,14 +6,9 @@ description: テストアクティビティの使用方法について説明し�
 exl-id: edd70849-0a21-45f2-91f3-4774a0cad9dd
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/OzqcBFe2GTNsnrphPL-osBkMUsjQZBJ5DO1GHO13oBg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 412
@@ -49,7 +44,7 @@ ht-degree: 28%
 
    * **ラベル**: キャンバス上でトランジションを識別できるように、トランジションの名前。
 
-   * **条件の種類**：既定で母集団数を評価するデータ。  変数（グローバル変数またはトリガー信号から来る）もここにリストされ、変数値に基づいて条件を選択できます。 [&#x200B; オーケストレーションされたキャンペーンで変数を使用する方法を学ぶ](../variables-orchestrated-campaigns.md)
+   * **条件の種類**：既定で母集団数を評価するデータ。  変数（グローバル変数またはトリガー信号から来る）もここにリストされ、変数値に基づいて条件を選択できます。 [ オーケストレーションされたキャンペーンで変数を使用する方法を学ぶ](../variables-orchestrated-campaigns.md)
 
    * **演算子**：適用する比較（例：次と等しい、より大きい、より小さい）。 演算子のリストは、条件タイプのデータタイプによって異なります。
 

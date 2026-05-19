@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: ダイレクトメールの設定
 description: Journey Optimizer でダイレクトメールチャネルを設定する方法を学ぶ
 feature: Direct Mail, Surface
@@ -8,27 +10,15 @@ level: Experienced
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: ae5cc885-ade1-4683-b97e-eda1f2142041
 TQID: https://experienceleague.adobe.com/3eyBGqw-gCAWi-SYSq5DoyDiFos5HUIIfMFKH3aZBo8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62aid: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 114f184e73298bf79d666ef7b17755498c93df83
 workflow-type: tm+mt
-source-wordcount: 1820
-ht-degree: 98%
+source-wordcount: 1964
+ht-degree: 92%
 
 ---
 
@@ -96,15 +86,17 @@ ht-degree: 98%
 
 1. **[!UICONTROL 管理]**／**[!UICONTROL チャネル]**／**[!UICONTROL ダイレクトメール設定]**／**[!UICONTROL ファイルのルーティング]**&#x200B;メニューにアクセスし、「**[!UICONTROL ファイルルーティング設定を作成]**」をクリックします。
 
-   ![](assets/file-routing-config-button.png){width="800" align="center"}
+   ![ ダイレクトメール設定で「ファイルのルーティング設定を作成」ボタン ](assets/file-routing-config-button.png){width="800" align="center"}
 
 1. 設定の名前を設定します。
 
 1. ダイレクトメールファイルのエクスポートに使用するサーバーのタイプ（Amazon S3、SFTP、Azure または Data Landing Zone）を選択します。
 
-   ![](assets/file-routing-config-type.png){width="800" align="center"}
+   ![ ダイレクトメールファイルのルーティング設定のサーバータイプの選択](assets/file-routing-config-type.png){width="800" align="center"}
 
 1. 以下のタブの説明に従って、各サーバータイプに固有のフィールドに入力します。
+
+### サーバーの種類を選択 {#server-type}
 
 >[!BEGINTABS]
 
@@ -120,7 +112,7 @@ ht-degree: 98%
 
 * **AWS リージョン**：サーバーインフラストラクチャを配置する **[!UICONTROL AWS リージョン]**&#x200B;を選択します。 AWS リージョンは、AWS がクラウドインフラストラクチャをホストするために使用する地理的エリアです。 一般的には、ダイレクトメールプロバイダーの場所に最も近いリージョンを選択することをお勧めします。
 
-![](assets/file-routing-config-aws-region.png){width="800" align="center"}
+![Amazon S3 ファイルのルーティング設定に使用するAWS リージョンの選択](assets/file-routing-config-aws-region.png){width="800" align="center"}
 
 >[!TAB SFTP]
 
@@ -136,7 +128,7 @@ ht-degree: 98%
 
 * **[!UICONTROL パスワード]**／**[!UICONTROL SSH キー]**：SFTP サーバーへの接続に使用するパスワードまたは SSH キー。
 
-![](assets/file-routing-config-sftp-detail.png)
+![ ファイルルーティング設定のSFTP サーバー接続の詳細](assets/file-routing-config-sftp-detail.png)
 
 >[!TIP]
 >
@@ -164,13 +156,13 @@ ht-degree: 98%
   >
   >ファイルを保存するコンテナ内のパスを指定するには、ダイレクトメールキャンペーンの「**[!UICONTROL ファイル名]**」フィールドを更新して、目的のパスを含めます。 [詳細情報](create-direct-mail.md#extraction-file)
 
-  ![](assets/file-routing-config-azure-detail.png)
+  ![ ファイルルーティング設定のAzure ストレージ接続の詳細](assets/file-routing-config-azure-detail.png)
 
 >[!TAB Data Landing Zone]
 
 **[!UICONTROL サーバータイプ]**&#x200B;として「**[!UICONTROL Data Landing Zone]**」を選択した場合は、特定の詳細は必要ありません。
 
-![](assets/file-routing-config-dlz-detail.png)
+![追加のサーバーフィールドを含まないデータランディングゾーンファイルのルーティング設定](assets/file-routing-config-dlz-detail.png)
 
 [!DNL Adobe Experience Platform] のすべてのお客様には、サンドボックスごとに 1 つの Data Landing Zone コンテナがプロビジョニングされます。 Data Landing Zone について詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/connectors/cloud-storage/data-landing-zone){target="_blank"}を参照してください。
 
@@ -180,7 +172,7 @@ ht-degree: 98%
 
 ファイルのルーティング設定がジャーニーを使用して送信される場合、ファイルがサーバーに送信される頻度を指定できます。
 
-![](assets/file-routing-journey.png)
+![ ファイルのルーティング設定の書き出し頻度の設定をジャーニー](assets/file-routing-journey.png)
 
 サーバータイプの詳細を入力したら、「**[!UICONTROL 送信]**」を選択します。 ファイルのルーティング設定は、**[!UICONTROL アクティブ]**&#x200B;ステータスで作成されます。 これで、[ダイレクトメール設定](#direct-mail-surface)で使用する準備が整いました。
 
@@ -242,7 +234,7 @@ SFTP アカウントの Experience Platform への接続について詳しくは
 
 1. 左側のパネルで、**[!UICONTROL 管理]**／**[!UICONTROL チャネル]**&#x200B;を参照し、**[!UICONTROL 一般設定]**／**[!UICONTROL チャネル設定]**&#x200B;を選択します。 「**[!UICONTROL チャネル設定を作成]**」ボタンをクリックします。 [詳細情報](../configuration/channel-surfaces.md)
 
-   ![](assets/direct-mail-config-1.png)
+   ![管理](assets/direct-mail-config-1.png)でのチャネル設定画面の作成
 
 1. 設定の名前と説明（オプション）を入力し、設定するチャネルを選択します。
 
@@ -254,13 +246,13 @@ SFTP アカウントの Experience Platform への接続について詳しくは
 
 1. 「**[!UICONTROL ダイレクトメール]**」チャネルを選択します。
 
-   ![](assets/direct-mail-config-2.png)
+   チャネル設定の作成時に![ ダイレクトメールチャネルが選択されました](assets/direct-mail-config-2.png)
 
 1. この設定を使用してメッセージに同意ポリシーを関連付けるには、**[!UICONTROL マーケティングアクション]**&#x200B;を選択します。 顧客の意向に従うために、そのマーケティングアクションに関連付けられているすべての同意ポリシーが活用されます。 [詳細情報](../action/consent.md#surface-marketing-actions)
 
 1. チャネル設定の専用セクションでダイレクトメール設定を定義します。
 
-   ![](assets/surface-direct-mail-settings.png){width="800" align="center"}
+   ![ ファイル形式とルーティングを含むダイレクトメールサーフェス設定](assets/surface-direct-mail-settings.png){width="800" align="center"}
 
    <!--![](assets/surface-direct-mail-settings-with-insertion.png)-->
 
@@ -268,7 +260,7 @@ SFTP アカウントの Experience Platform への接続について詳しくは
 
 1. **[!UICONTROL テキスト区切り]**&#x200B;を選択した場合は、選択した列区切り記号（タブ、セミコロン、パイプ、アンパサンド）を定義します。
 
-   ![](assets/surface-direct-mail-column-separator.png)
+   ![ ダイレクトメール書き出しファイルのテキスト区切り列のオプション ](assets/surface-direct-mail-column-separator.png)
 
 1. 作成したものの中から「**[!UICONTROL ファイルルーティング設定]**」を選択します。 これにより、ダイレクトメールプロバイダーが使用するファイルのエクスポート先が定義されます。
 
@@ -276,7 +268,7 @@ SFTP アカウントの Experience Platform への接続について詳しくは
    >
    >ファイルのルーティングオプションを設定していない場合、ダイレクトメール設定を作成できません。 [詳細情報](#file-routing-configuration)
 
-   ![](assets/surface-direct-mail-file-routing.png){width="800" align="center"}
+   ![ ダイレクトメールチャネル設定でファイルのルーティング設定が選択されました](assets/surface-direct-mail-file-routing.png){width="800" align="center"}
 
    <!--![](assets/surface-direct-mail-file-routing-with-insertion.png)-->
 
@@ -301,3 +293,12 @@ SFTP アカウントの Experience Platform への接続について詳しくは
     >
     >NOTE You can set any number between 1 and 200,000 records, meaning each file must contain at least 1 row and no more than 200,000 rows.
 -->
+
+## 関連トピック {#related-topics}
+
+* [ダイレクトメールの基本を学ぶ](get-started-direct-mail.md)
+* [ダイレクトメールメッセージの作成](create-direct-mail.md)
+* [ダイレクトメールのテストと送信](test-send-direct-mail.md)
+* [チャネル設定](../configuration/channel-surfaces.md)
+
+ダイレクトメールに関するよくある質問については、[ ダイレクトメールの基本を学ぶ](get-started-direct-mail.md)を参照してください。

@@ -11,14 +11,10 @@ level: Intermediate
 keywords: 式, エディター
 exl-id: 2fc10fdd-ca9e-46f0-94ed-2d7ea4de5baf
 TQID: https://experienceleague.adobe.com/DRnUwE5hO6ysGY9D9NeqgAHESjd8HHsCpiHDeqHLiJo
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 728
@@ -81,7 +77,7 @@ Journey Optimizer を使用すると、パーソナライゼーションエデ�
    * ルックアップデータセットとの結合に使用するフィールドは、*profile.upcomingFlightId* です。
    * 「フライト」参照の下のすべてのフィールド値を含めるようにします。
 
-1. Adobe Experience Platform データセットで呼び出す構文が設定されたら、取得するフィールドを指定できます。 構文は以下の通りです。
+1. Adobe Experience Platform データセットで呼び出す構文が設定されたら、取得するフィールドを指定できます。 構文は以下のとおりです。
 
    ```
    {{result.fieldId}}

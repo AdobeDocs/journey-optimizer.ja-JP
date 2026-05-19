@@ -10,23 +10,12 @@ level: Intermediate
 keywords: 式，エディター，ヘルパー，ユースケース，パーソナライゼーション
 exl-id: 9c9598c0-6fb1-4e2f-b610-ccd1a80e516e
 TQID: https://experienceleague.adobe.com/93bIkfyck5u-tQNGr7jGRORQiTa3gaMHn4H5RP-dpYo
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: d08afb72-92f6-4856-88e3-11ec34313c2fid: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1263
@@ -75,13 +64,13 @@ ht-degree: 83%
 1. このイベントで開始されるジャーニーを作成します。
 1. ジャーニーに&#x200B;**メール**&#x200B;アクティビティを追加します。
 
-   ![&#x200B; フロー内のイベントとメールアクティビティを含むジャーニーキャンバス &#x200B;](assets/personalization-uc-helpers-8.png)
+   ![ フロー内のイベントとメールアクティビティを含むジャーニーキャンバス ](assets/personalization-uc-helpers-8.png)
 
 ## 手順 2： メールの作成 {#configure-email}
 
 1. **メール**&#x200B;アクティビティで、「**[!UICONTROL コンテンツを編集]**」をクリックしたあと、「**[!UICONTROL E メールデザイナー]**」をクリックします。
 
-   ![&#x200B; コンテンツの編集およびDesignerの電子メール オプションを使用した電子メールアクティビティ &#x200B;](assets/personalization-uc-helpers-1.png)
+   ![ コンテンツの編集およびDesignerの電子メール オプションを使用した電子メールアクティビティ ](assets/personalization-uc-helpers-1.png)
 
 1. E メールデザイナーホームページの左側のパレットから、3 つの構造コンポーネントをメッセージの本文にドラッグ＆ドロップします。
 
@@ -94,7 +83,7 @@ ht-degree: 83%
 1. E メールデザイナーのホームページで、顧客の名を追加する HTML コンポーネントをクリックします。
 1. コンテキストツールバーで、「**[!UICONTROL ソースコードを表示]**」をクリックします。
 
-   ![&#x200B; ソースコードを表示オプション付きのコンテキストツールバー](assets/personalization-uc-helpers-3.png)
+   ![ ソースコードを表示オプション付きのコンテキストツールバー](assets/personalization-uc-helpers-3.png)
 
 1. **[!UICONTROL HTML を編集]**&#x200B;ウィンドウで、`upperCase` 文字列関数を追加します。
    1. 左側のメニューで、「**[!UICONTROL ヘルパー関数]**」を選択します。
@@ -107,7 +96,7 @@ ht-degree: 83%
       {%= upperCase(string) %}
       ```
 
-      ![&#x200B; ヘルパー関数でupperCase関数が選択された式エディター](assets/personalization-uc-helpers-4.png)
+      ![ ヘルパー関数でupperCase関数が選択された式エディター](assets/personalization-uc-helpers-4.png)
 
 1. 式から「string」プレースホルダーを削除します。
 1. 名トークンを追加します。
@@ -121,7 +110,7 @@ ht-degree: 83%
       {%= upperCase(profile.person.name.firstName) %}
       ```
 
-      ![&#x200B; プロファイル名トークンを含むupperCaseを表示する式エディター](assets/personalization-uc-helpers-5.png)
+      ![ プロファイル名トークンを含むupperCaseを表示する式エディター](assets/personalization-uc-helpers-5.png)
 
       ユーザー名データタイプについて詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/data-types/person-name.html?lang=ja){target="_blank"}を参照してください。
 
@@ -140,7 +129,7 @@ ht-degree: 83%
 1. E メールデザイナーのホームページで、買い物かごの内容を一覧表示する HTML コンポーネントをクリックします。
 1. コンテキストツールバーで、「**[!UICONTROL ソースコードを表示]**」をクリックします。
 
-   ![&#x200B; ソースコードを表示オプション付きのコンテキストツールバー](assets/personalization-uc-helpers-3.png)
+   ![ ソースコードを表示オプション付きのコンテキストツールバー](assets/personalization-uc-helpers-3.png)
 
 1. **[!UICONTROL HTML を編集]**&#x200B;ウィンドウで、`each` ヘルパーを追加します。
    1. 左側のメニューで、「**[!UICONTROL ヘルパー関数]**」を選択します。
@@ -176,7 +165,7 @@ ht-degree: 83%
 
       この例では、*event_ID* はイベントの ID を表します。
 
-      ![&#x200B; コンテクスト属性にproductListItemsが含まれる式エディター](assets/personalization-uc-helpers-10.png)
+      ![ コンテクスト属性にproductListItemsが含まれる式エディター](assets/personalization-uc-helpers-10.png)
 
    1. 式を次のように変更します。
       1. 「.product」文字列を削除します。
@@ -237,7 +226,7 @@ ht-degree: 83%
 1. E メールデザイナーのホームページで、メモを挿入する HTML コンポーネントをクリックします。
 1. コンテキストツールバーで、「**[!UICONTROL ソースコードを表示]**」をクリックします。
 
-   ![&#x200B; ソースコードを表示オプション付きのコンテキストツールバー](assets/personalization-uc-helpers-3.png)
+   ![ ソースコードを表示オプション付きのコンテキストツールバー](assets/personalization-uc-helpers-3.png)
 
 1. **[!UICONTROL HTML を編集]**&#x200B;ウィンドウで、`if` ヘルパーを追加します。
    1. 左側のメニューで、「**[!UICONTROL ヘルパー関数]**」を選択します。
@@ -329,19 +318,19 @@ ht-degree: 83%
 
 1. 「**[!UICONTROL テスト]**」切替スイッチをオンにしてから、「**[!UICONTROL イベントをトリガー]**」をクリックします。
 
-   ![&#x200B; テスト トグルをオンにしてジャーニー ボタンをトリガーするイベントボタン &#x200B;](assets/personalization-uc-helpers-15.png)
+   ![ テスト トグルをオンにしてジャーニー ボタンをトリガーするイベントボタン ](assets/personalization-uc-helpers-15.png)
 
 1. **[!UICONTROL イベント設定]**&#x200B;ウィンドウで、入力値を入力し、「**[!UICONTROL 送信]**」をクリックします。
 
    テストモードは、テストプロファイルでのみ機能します。
 
-   入力値と送信ボタンを含む![&#x200B; イベント設定ウィンドウ &#x200B;](assets/personalization-uc-helpers-16.png)
+   入力値と送信ボタンを含む![ イベント設定ウィンドウ ](assets/personalization-uc-helpers-16.png)
 
    メールがテストプロファイルのアドレスに送信されます。
 
    この例では、Juno Jacket に関するメモがメールに含まれています。これは、この製品が買い物かごに入っているからです。
 
-   ![&#x200B; メッセージ本文にJuno Jacketの配送伝票が表示されているメールの例](assets/personalization-uc-helpers-17.png)
+   ![ メッセージ本文にJuno Jacketの配送伝票が表示されているメールの例](assets/personalization-uc-helpers-17.png)
 
 1. エラーがないことを確認し、ジャーニーを公開します。
 
@@ -364,4 +353,4 @@ ht-degree: 83%
 
 ヘルパー関数の使用方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416781?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

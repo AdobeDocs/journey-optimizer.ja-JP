@@ -139,7 +139,7 @@ ht-degree: 99%
 <p>チャネルレポート機能は、チャネルレベルでのトラフィックとエンゲージメント指標の包括的な概要をアナリストやマーケターに提供します。</p>
 <p><b>レポート</b>メニューにアクセスするには、<b>チャネルレポートを表示</b>する権限が必要です。</p>
 <img src="assets/channel-reports.png"/>
-<p>詳しくは、<a href="../reports/channel-report-cja.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、 <a href="../reports/channel-report-cja.md">詳細なドキュメント</a>を参照してください。</p>
 </tr>
 </tbody>
 </table>
@@ -156,7 +156,7 @@ ht-degree: 99%
 <td>
 <p>Journey Optimizer データセットのクラウドストレージの宛先へのエクスポートが一般提供されるようになりました。 この機能を使用すると、データセットの内容をエクスポートするために、クラウドストレージの場所とのライブ接続を確立できます。</p>
 <img src="../data/assets/dataset-export-setup.png">
-<p>詳しくは、<a href="../data/export-datasets.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、 <a href="../data/export-datasets.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -255,7 +255,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <td>
 <p>ジャーニー内で、アプリユーザーにパーソナライズされたアプリ内メッセージを送信できるようになりました。 Journey Optimizer を使用して通知をデザインし、メッセージのレイアウト、表示、テキストおよびボタンをカスタマイズして、シームレスなエクスペリエンスを作成します。</p>
 <img src="assets/do-not-localize/in-app-jo.gif"/>
-<p>詳しくは、<a href="../in-app/create-in-app.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、 <a href="../in-app/create-in-app.md">詳細なドキュメント</a>を参照してください。</p>
 </tr>
 </tbody>
 </table>
@@ -345,7 +345,7 @@ A new option is available in the email surface settings to include email address
 <td>
 <p>構成ワークフローを作成できるようになりました。これを実行するには、既存の Adobe Experience Platform オーディエンスをビジュアルキャンバスに組み合わせ、様々なアクティビティ（分割、強化...）を活用して 新規オーディエンスを作成します。 新しく作成したオーディエンスは、既存のオーディエンスと共に Adobe Experience Platform に保存され、顧客をターゲットにする Journey Optimizer キャンペーンで活用できます。</p>
 <img src="assets/do-not-localize/gif-ao.gif"/>
-<p>詳しくは、<a href="../audience/get-started-audience-orchestration.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、 <a href="../audience/get-started-audience-orchestration.md">詳細なドキュメント</a>を参照してください。</p>
 <p>オーディエンス構成は、新しい Adobe Experience Platform の「オーディエンス」メニューに完全に統合され、オーディエンスの一元化されたポータルとして機能します。 セグメントのトレンドと重複を含む新しいダッシュボードを含む参照ページを使用して、新しいインサイトを見つけ、フォルダー化やタグ付けのための組織ツールを探索できるようになりました。 このエクスペリエンス内には、標準化されたオーディエンスのラベル付け用のガバナンスコントロールと、アクティベーションワークフローを管理するオーディエンスのライフサイクル管理機能が組み込まれています。 この新しい管理エクスペリエンスにより、1 か所から簡単かつ安全にオーディエンスを管理できるようになりました。 詳しくは、<a href="https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja" target="_blank">Adobe Experience Platform ドキュメント</a>を参照してください。</p></p>
 </td>
 </tr>
@@ -365,7 +365,7 @@ A new option is available in the email surface settings to include email address
 <p>ダイレクトメール配信を準備すると、Journey Optimizer によって、すべてのターゲットプロファイルと選択した連絡先情報（住所など）を含むファイルが生成されます。 その後、このファイルを実際の発送処理を行うダイレクトメールプロバイダーに送信できます。</p>
 <p>現時点では、Adobe Healthcare Shield アドオン製品を購入した組織では、ダイレクトメールチャネルを利用できません。</p>
 <img src="assets/do-not-localize/gif-dm.gif"/>
-<p>詳しくは、<a href="../direct-mail/get-started-direct-mail.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、 <a href="../direct-mail/get-started-direct-mail.md">詳細なドキュメント</a>を参照してください。</p>
 </tr>
 </tbody>
 </table>
@@ -381,7 +381,7 @@ A new option is available in the email surface settings to include email address
 <td>
 <p>Journey Optimizer のメールエディターで、HTML コンテンツを読み込んで変換できるようになりました。 コンテンツブロックは自動的に識別され、E メールデザイナーで使用できます。その強力なデザイン機能を使用して、更新やパーソナライズを行いましょう。</p>
 <img src="assets/html-convert.png">
-<p>詳しくは、<a href="../email/existing-content.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、 <a href="../email/existing-content.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -399,7 +399,7 @@ A new option is available in the email surface settings to include email address
 <td>
 <p>キャンペーンやジャーニーに加えて、Adobe Experience Platform 統合タグをランディングページ、コンテンツテンプレート、フラグメント、購読リストに割り当てることができるようになりました。 これにより、簡単に分類し、すべてのリストでの検索とナビゲーションを改善できます。 </p>
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
-<p>詳しくは、<a href="../start/search-filter-categorize.md#tags">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、 <a href="../start/search-filter-categorize.md#tags">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -468,7 +468,7 @@ Adobe Journey Optimizer API 認証用のアクセストークンを生成する 
 <p>API を使用して、外部システムから Adobe Journey Optimizer でマーケティングキャンペーンをトリガーできるようになりました。</p>
 <p>このリリースまでは、API トリガーキャンペーン機能は、パスワードリセットや OTP トークンなどの様々な運用およびトランザクションメッセージのニーズをカバーしていましたが、マーケティングキャンペーンの作成には使用できませんでした。 API トリガーキャンペーンで使用できるチャネルは、メール、SMS およびプッシュメッセージです。</p>
 <img src="assets/do-not-localize/api-triggered.gif"/>
-<p>詳しくは、<a href="../campaigns/api-triggered-campaigns.md">詳細なドキュメント</a>を参照してください。
+<p>詳しくは、 <a href="../campaigns/api-triggered-campaigns.md">詳細なドキュメント</a>を参照してください。
 </td>
 </tr>
 </tbody>
@@ -521,7 +521,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <td>
 <p>Adobe Journey Optimizer でキャンペーンでの実験がサポートされるようになりました。 実験はランダム化試験です。オンラインテストのコンテキストでは、ランダムに選択された一部のユーザーにはメッセージの特定のバリエーションを表示し、別のランダムに選択された一連のユーザーには別のバリエーションや処理を行うことを意味します。 公開後、メールの開封数、購読数、購入数など、興味のある結果指標を測定できます。</p>
 <img src="assets/do-not-localize/experiment.gif"/>
-<p>詳しくは、<a href="../content-management/content-experiment.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、 <a href="../content-management/content-experiment.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -558,7 +558,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <td>
 <p>フラグメントを作成、使用、管理して、メールとコンテンツテンプレートをすばやく組み立てることができるようになりました。 フラグメントは、設計プロセスを改善および加速するために、Journey Optimizer キャンペーンおよびジャーニー全体にわたる複数のメールで参照できる、事前に作成された再利用可能なコンポーネントです。</p>
 <img src="assets/do-not-localize/fragments.gif"/>
-<p>詳しくは、<a href="../content-management/fragments.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、 <a href="../content-management/fragments.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -576,7 +576,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <td>
 <p>これで、Adobe Experience Platform 統合タグをキャンペーンに割り当てることができるようになりました。 これにより、キャンペーンを簡単に分類し、キャンペーンリストからの検索を改善できます。 統合タグ機能は現在ベータ版です。</p>
 <img src="assets/do-not-localize/campaigns-tag.gif"/>
-<p>詳しくは、<a href="../start/search-filter-categorize.md#tags">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、 <a href="../start/search-filter-categorize.md#tags">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -678,7 +678,7 @@ Information below is subject to change without prior notice until the release av
 <td>
 <p>Adobe Journey Optimizer は、web チャネルのサポートを追加することにより、クロスチャネル機能を拡張しています。 スマートで直感的なビジュアルインターフェイスを使用して、他のチャネルと同様に web エクスペリエンスを作成、変更、プレビューし、エンドユーザーエクスペリエンスをパーソナライズできるようになりました。 現在、Journey Optimizer では、キャンペーンでのみ web エクスペリエンスを作成できます。</p>
 <img src="assets/do-not-localize/web-authoring.gif"/>
-<p>詳しくは、<a href="../web/get-started-web.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、 <a href="../web/get-started-web.md">詳細なドキュメント</a>を参照してください。</p>
 </tr>
 </tbody>
 </table>
@@ -694,7 +694,7 @@ Information below is subject to change without prior notice until the release av
 <td>
 <p>新しいモバイルオンボーディングのクイックスタートワークフローが利用できるようになりました。 この新しい製品機能を使用すると、Adobe Journey Optimizer で Mobile SDK を迅速に設定、モバイルイベント データの収集と検証を開始、モバイルプッシュ通知を送信できます。 この機能は、パブリックベータ版としてデータ収集ホームページから入手できます。</p>
 <img src="../push/assets/mobile-wf-home.png"/>
-<p>詳しくは、<a href="../push/mobile-onboarding-wf.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、 <a href="../push/mobile-onboarding-wf.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -755,7 +755,7 @@ Information below is subject to change without prior notice until the release av
 <td>
 <p>キャンペーン内で、アプリユーザーにパーソナライズされたアプリ内メッセージを送信できるようになりました。 Journey Optimizer を使用して通知をデザインし、メッセージのレイアウト、表示、テキストおよびボタンをカスタマイズして、シームレスなエクスペリエンスを作成します。</p>
 <img src="assets/do-not-localize/in-app.gif"/>
-<p>詳しくは、<a href="../../rp_landing_pages/in-app-landing-page.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、 <a href="../../rp_landing_pages/in-app-landing-page.md">詳細なドキュメント</a>を参照してください。</p>
 </tr>
 </tbody>
 </table>
@@ -771,7 +771,7 @@ Information below is subject to change without prior notice until the release av
 <td>
 <p>SMS のクリックの追跡を使用すると、短縮 URL のパフォーマンスを監視し、短縮 URL をクリックしたユーザーを特定し、このデータを使用して、後続のキャンペーンでこれらの顧客を再度ターゲットに設定できます。</p>
 <img src="assets/do-not-localize/sms-tracking.gif"/>
-<p>詳しくは、<a href="../sms/create-sms.md#sms-content">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、 <a href="../sms/create-sms.md#sms-content">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -853,7 +853,7 @@ Information below is subject to change without prior notice until the release av
 <p>キャンペーン内で、アプリユーザーにパーソナライズされたアプリ内メッセージを送信できるようになりました。 Journey Optimizer を使用して通知をデザインし、メッセージのレイアウト、表示、テキストおよびボタンをカスタマイズして、シームレスなエクスペリエンスを作成します。</p>
 <p><strong>注意</strong> - この機能は現在ベータ版です。ベータ版のユーザーのみがご利用いただけます。 ベータ版プログラムに参加するには、アドビカスタマーケアにお問い合わせください。</p>
 <img src="assets/do-not-localize/in-app.gif"/>
-<p>詳しくは、<a href="../../rp_landing_pages/in-app-landing-page.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、 <a href="../../rp_landing_pages/in-app-landing-page.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>

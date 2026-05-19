@@ -6,15 +6,10 @@ level: Beginner
 feature: Approval
 exl-id: 75dafecd-805d-4aa2-86c6-99e6da4d378b
 TQID: https://experienceleague.adobe.com/UQ-5ddCbDJsF6muK1Am74fpx4ptRvHvB5VKwiIxd9d4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 477
@@ -50,11 +45,11 @@ ht-degree: 90%
 
 「**[!UICONTROL 承認をリクエスト]**」ペインが開きます。 必要に応じて承認者にメッセージを入力し、「**[!UICONTROL 送信]**」をクリックしてリクエストを送信します。
 
-![承認要求ダイアログ &#x200B;](assets/approval-request.png)
+![承認要求ダイアログ ](assets/approval-request.png)
 
 キャンペーンまたはジャーニーが「**[!UICONTROL レビュー中]**」状態の間は、承認リクエストをキャンセルするオプションがあります。 「**[!UICONTROL リクエストをキャンセル]**」ボタンをクリックすると、キャンペーンまたはジャーニーがドラフトステージに戻り、リクエストがキャンセルされたことを知らせる通知がレビュー担当者に送信されます。 その後、必要な編集を行い、キャンペーンまたはジャーニーを再送信して承認を得ることができます。
 
-![承認要求のキャンセル ボタン &#x200B;](assets/approval-cancel.png)
+![承認要求のキャンセル ボタン ](assets/approval-cancel.png)
 
 ## 承認要求の管理
 

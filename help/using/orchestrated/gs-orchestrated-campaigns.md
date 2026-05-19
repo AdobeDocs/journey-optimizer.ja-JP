@@ -7,23 +7,14 @@ short-description: 調整されたキャンペーンの主な機能とユース�
 exl-id: 611dd06d-aa18-4fa3-a477-8a910cec21d8
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/ePbw3PWwBuZl5A3bdBzM0gb4koCEH09WUX0P-g8z3VM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 1e0a06dddba6c5ca4c53e4b143eb7fa7763ded6b
 workflow-type: tm+mt
-source-wordcount: 909
-ht-degree: 100%
+source-wordcount: 963
+ht-degree: 94%
 
 ---
 
@@ -151,3 +142,6 @@ ht-degree: 100%
 * **[ガードレールと制限](guardrails.md)** - 最適なキャンペーンのパフォーマンスを確保するために、重要なガードレール、制限、ベストプラクティスを確認します。
 * **[よくある質問](orchestrated-campaigns-faq.md)** - オーケストレーションキャンペーンの特長、機能、ユースケースに関するよくある質問への回答を見つけます。
 * **[オーケストレーションキャンペーンのチュートリアル](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/create-campaigns/orchestrated-campaigns/introduction-to-orchestrated-campaigns){target="_blank"}** - 機能とベストプラクティスを対象としたステップバイステップのビデオチュートリアルを参照してください。
+* **[アクティビティを参照して顧客をエンゲージ](engage-customers-uc.md)** - マルチステップのオーケストレーションされたキャンペーンを使用して、閲覧したが購入しなかったプロファイルをリエンゲージします。
+* **[製品の在庫状況をユーザーに通知](product-availability-uc.md)** – 顧客が興味を示した製品が再入荷したことを顧客に通知します。
+* **[ウィッシュリストのアイテム更新を送信](wishlist-uc.md)** - ウィッシュリストのアイテムが販売中または利用開始時に、パーソナライズされたメッセージをトリガーします。

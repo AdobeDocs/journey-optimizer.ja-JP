@@ -9,32 +9,12 @@ role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
 TQID: https://experienceleague.adobe.com/W7M7wDP69oM-fT5nbS2YqVIK9QhBgJhNGy-G0ontmQ4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: fae48155-b23f-40d2-a252-a25bce350b4d
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: fa683eda-48de-4558-af32-2673edcd44feid: fae48155-b23f-40d2-a252-a25bce350b4did: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 2971
@@ -50,7 +30,7 @@ ht-degree: 53%
 
 Adobe Journey Optimizerには、次の2種類のアラートが用意されています。
 
-* **キャンバス内の検証アラート**：ジャーニーとキャンペーンを構築する場合、キャンバスの&#x200B;**アラート** ボタンを使用して、公開前に設定エラーを特定および解決します。 ジャーニーを[&#x200B; トラブルシューティングし](../building-journeys/troubleshooting.md) キャンペーンを確認する方法について説明します。[&#x200B; アクションキャンペーン &#x200B;](../campaigns/review-activate-campaign.md) | [API トリガーキャンペーン &#x200B;](../campaigns/review-activate-api-triggered-campaign.md) | [&#x200B; オーケストレーションされたキャンペーン &#x200B;](../orchestrated/start-monitor-campaigns.md)。
+* **キャンバス内の検証アラート**：ジャーニーとキャンペーンを構築する場合、キャンバスの&#x200B;**アラート** ボタンを使用して、公開前に設定エラーを特定および解決します。 ジャーニーを[ トラブルシューティングし](../building-journeys/troubleshooting.md) キャンペーンを確認する方法について説明します。[ アクションキャンペーン ](../campaigns/review-activate-campaign.md) | [API トリガーキャンペーン ](../campaigns/review-activate-api-triggered-campaign.md) | [ オーケストレーションされたキャンペーン ](../orchestrated/start-monitor-campaigns.md)。
 
 * **システム監視アラート** （このページで詳しく説明）：運用上のしきい値を超えた場合、またはライブジャーニーとチャネル設定で問題が検出された場合に、プロアクティブな通知を受け取ります。 システムアラートは、エラー率、プロファイルの破棄、メール配信品質の問題などの指標を監視します。
 
@@ -67,7 +47,7 @@ Adobe Journey Optimizerには、次の2種類のアラートが用意されて�
 
 アラートを操作する前に：
 
-* **権限**：アラートを表示および管理するには、特定の権限が必要です。 Adobe Experience Platform[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=ja#permissions){target="_blank"}の必要な権限を参照してください。
+* **権限**：アラートを表示および管理するには、特定の権限が必要です。 Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html#permissions){target="_blank"}の[必要な権限を参照してください。
 
 * **サンドボックス認知度**：アラートサブスクリプションはサンドボックス固有です。 アラートを購読すると、現在のサンドボックスにのみ適用されます。 サンドボックスがリセットされると、すべてのアラート購読もリセットされます。
 
@@ -75,7 +55,7 @@ Adobe Journey Optimizerには、次の2種類のアラートが用意されて�
 
 >[!NOTE]
 >
->Journey Optimizer固有のアラートは、**ライブ** ジャーニーにのみ適用されます。 テストモードのジャーニーでは、アラートはトリガーされません。 アラートフレームワークについて詳しくは、[Adobe Experience Platform アラートのドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=ja){target="_blank"}を参照してください。
+>Journey Optimizer固有のアラートは、**ライブ** ジャーニーにのみ適用されます。 テストモードのジャーニーでは、アラートはトリガーされません。 アラートフレームワークについて詳しくは、[Adobe Experience Platform アラートのドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=ja){target="_blank"}を参照してください。
 
 ## Journey Optimizerで利用可能なアラート {#available-alerts}
 
@@ -97,13 +77,13 @@ Journey Optimizerには、システムアラートの2つのカテゴリがあ�
 
 ジャーニーの実行とパフォーマンスを監視する：
 
-* [&#x200B; オーディエンスの読み取りトリガーが失敗しました](#alert-read-audiences) - オーディエンスの読み取りアクティビティがプロファイルの処理に失敗すると警告します
-* [&#x200B; カスタムアクションエラー率が超過](#alert-custom-action-error-rate) - カスタムアクション API呼び出しで高いエラー率を検出します（以前のジャーニーカスタムアクション失敗アラートに代わります）
-* [&#x200B; プロファイル破棄レートが](#alert-discard-rate)を超えました – プロファイルが異常なレートで破棄されるタイミングを特定します
-* [&#x200B; プロファイルエラー率が](#alert-profile-error-rate)を超えました – ジャーニーの実行中にプロファイルでエラーが発生した場合にフラグします
+* [ オーディエンスの読み取りトリガーが失敗しました](#alert-read-audiences) - オーディエンスの読み取りアクティビティがプロファイルの処理に失敗すると警告します
+* [ カスタムアクションエラー率が超過](#alert-custom-action-error-rate) - カスタムアクション API呼び出しで高いエラー率を検出します（以前のジャーニーカスタムアクション失敗アラートに代わります）
+* [ プロファイル破棄レートが](#alert-discard-rate)を超えました – プロファイルが異常なレートで破棄されるタイミングを特定します
+* [ プロファイルエラー率が](#alert-profile-error-rate)を超えました – ジャーニーの実行中にプロファイルでエラーが発生した場合にフラグします
 * [ジャーニーが公開されました](#alert-journey-published) - ジャーニーが公開されたときの情報の通知
 * [ジャーニー完了](#alert-journey-finished) - ジャーニー完了時の通知
-* [&#x200B; カスタムアクションの上限がトリガーされました](#alert-custom-action-capping) - API呼び出しの制限に達したときに通知します
+* [ カスタムアクションの上限がトリガーされました](#alert-custom-action-capping) - API呼び出しの制限に達したときに通知します
 
 >[!TAB  チャネル設定アラート ]
 
@@ -117,7 +97,7 @@ Journey Optimizerには、システムアラートの2つのカテゴリがあ�
 
 >[!NOTE]
 >
->他のAdobe Experience Platform サービスからのアラート（データ収集、ID解決、セグメント化など）については、[標準アラートルールのドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=ja){target="_blank"}を参照してください。
+>他のAdobe Experience Platform サービスからのアラート（データ収集、ID解決、セグメント化など）については、[標準アラートルールのドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"}を参照してください。
 
 ## アラートの配信を登録 {#subscribe-alerts}
 
@@ -176,7 +156,7 @@ Journey Optimizerには、システムアラートの2つのカテゴリがあ�
 
 **代替サブスクリプション方法：**
 
-また、[I/O イベント通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=ja){target="_blank"}を介して購読することもできます。これにより、外部システムとの統合が可能になります。 Journey Optimizer アラートのイベントサブスクリプション名は、以下の各[&#x200B; アラートの説明](#journey-alerts)に記載されています。
+また、[I/O イベント通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=ja){target="_blank"}を介して購読することもできます。これにより、外部システムとの統合が可能になります。 Journey Optimizer アラートのイベントサブスクリプション名は、以下の各[ アラートの説明](#journey-alerts)に記載されています。
 
 ### ジャーニー固有のサブスクリプション {#unitary-subscription}
 
@@ -208,9 +188,9 @@ Journey Optimizerには、システムアラートの2つのカテゴリがあ�
 
 >[!NOTE]
 >
->[&#x200B; オーディエンストリガーの読み取りに失敗しました](#alert-read-audiences) アラートは、ジャーニーごとのサブスクリプションではなく、グローバルサブスクリプションを通じてのみ利用できます。
+>[ オーディエンストリガーの読み取りに失敗しました](#alert-read-audiences) アラートは、ジャーニーごとのサブスクリプションではなく、グローバルサブスクリプションを通じてのみ利用できます。
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=ja#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
 
 ## ジャーニーアラート {#journey-alerts}
 
@@ -283,7 +263,7 @@ Journey Optimizerには、システムアラートの2つのカテゴリがあ�
 
 ### ジャーニーが完了しました {#alert-journey-finished}
 
-このアラートは、ジャーニーが完了した際に通知します。 「完了」の定義は、ジャーニーのタイプによって異なります。 [&#x200B; ジャーニーが完了したと見なされるタイミングの詳細](../building-journeys/end-journey.md#journey-finished-definition)。
+このアラートは、ジャーニーが完了した際に通知します。 「完了」の定義は、ジャーニーのタイプによって異なります。 [ ジャーニーが完了したと見なされるタイミングの詳細](../building-journeys/end-journey.md#journey-finished-definition)。
 
 これは、ジャーニーの完了を追跡するのに役立つ情報アラートです。 これは 1 回限りの通知なので、解決条件はありません。
 
@@ -380,7 +360,7 @@ Journey Optimizerには、システムアラートの2つのカテゴリがあ�
 
 >[!IMPORTANT]
 >
->このアラートは、[&#x200B; カスタムサブドメイン &#x200B;](../configuration/delegate-custom-subdomain.md)のデリゲーション タイプを使用するチャネル設定にのみ適用されます。
+>このアラートは、[ カスタムサブドメイン ](../configuration/delegate-custom-subdomain.md)のデリゲーション タイプを使用するチャネル設定にのみ適用されます。
 
 このアラートは、カスタム委任サブドメイン上のリソースまたはトラッキングドメイン証明書が30日以内に期限切れになっているか、すでに期限切れになっている場合に通知します。 有効な証明書がない場合、電子メールの配信品質とリンク追跡が中断される可能性があります。
 
@@ -390,7 +370,7 @@ Journey Optimizerには、システムアラートの2つのカテゴリがあ�
 
 このアラートがトリガーされた場合は、次の手順に従って問題を調査し、解決します。
 
-1. アラートをクリックして、影響を受ける[&#x200B; サブドメイン &#x200B;](../configuration/delegate-subdomain.md)を[!DNL Journey Optimizer]で開きます。
+1. アラートをクリックして、影響を受ける[ サブドメイン ](../configuration/delegate-subdomain.md)を[!DNL Journey Optimizer]で開きます。
 
 1. 詳細を確認して、証明書の更新が必要かどうかを確認します。
 
@@ -454,15 +434,15 @@ Journey Optimizerには、システムアラートの2つのカテゴリがあ�
 
 **ジャーニーとキャンペーンの管理：**
 
-* [&#x200B; ジャーニーのトラブルシューティング &#x200B;](../building-journeys/troubleshooting.md) – 一般的なジャーニーの問題とエラーを特定して解決します
-* [&#x200B; ジャーニーのテストと公開](../building-journeys/publish-journey.md) – 公開前にジャーニー設定を検証する
-* [&#x200B; アクションキャンペーンのレビューとアクティブ化](../campaigns/review-activate-campaign.md) - スケジュール済みのキャンペーンと1回限りのキャンペーンの公開前の検証
+* [ ジャーニーのトラブルシューティング ](../building-journeys/troubleshooting.md) – 一般的なジャーニーの問題とエラーを特定して解決します
+* [ ジャーニーのテストと公開](../building-journeys/publish-journey.md) – 公開前にジャーニー設定を検証する
+* [ アクションキャンペーンのレビューとアクティブ化](../campaigns/review-activate-campaign.md) - スケジュール済みのキャンペーンと1回限りのキャンペーンの公開前の検証
 * [API トリガーキャンペーンのレビューとアクティブ化](../campaigns/review-activate-api-triggered-campaign.md) - API トリガーキャンペーンの検証
-* [&#x200B; オーケストレーションされたキャンペーンの監視](../orchestrated/start-monitor-campaigns.md) - オーケストレーションされたキャンペーンの実行の追跡と管理
+* [ オーケストレーションされたキャンペーンの監視](../orchestrated/start-monitor-campaigns.md) - オーケストレーションされたキャンペーンの実行の追跡と管理
 
 **アラートフレームワーク：**
 
 * [Adobe Experience Platform アラートの概要](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=ja){target="_blank"} - アラート フレームワークについて
 * [UIでアラートを管理](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=ja){target="_blank"} - アラートの表示、購読、管理
 * [I/O イベントを介したアラートの購読](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=ja){target="_blank"} – 高度な統合オプション
-* [標準アラートルール &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=ja){target="_blank"} – 使用可能なPlatform アラートの完全リスト
+* [標準アラートルール ](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"} – 使用可能なPlatform アラートの完全リスト
