@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: ded80e8d1293462687404d67045bdccde2cb96ed
+source-git-commit: 6f5d3c09cb360cd0211b9f8db0aef926b8e2d9a2
 workflow-type: tm+mt
 source-wordcount: '3326'
 ht-degree: 97%
@@ -18,7 +18,7 @@ ht-degree: 97%
 + [Journey Optimizer ドキュメント](ajo-home.md)
 + 新機能 {#whats-new}
    + [リリースサイクル](using/rn/releases.md)
-   + [プレリリースノート](using/rn/e-release-notes.md)
+   + {hide-from-toc}[プレリリースノート](using/rn/e-release-notes.md)
    + [最新のリリースノート](using/rn/release-notes.md)
    + 以前のリリースノート {#previous-rn-new}
       + {hide-from-toc}[以前のリリースノート](/help/rp_landing_pages/previous-rn-new-landing-page.md)
@@ -511,7 +511,7 @@ ht-degree: 97%
          + {hide-from-toc}[&#x200B; コンテンツフラグメント用にリポジトリを設定](using/integrations/aem-admin-settings.md)
          + [Experience Manager コンテンツフラグメントの操作](using/integrations/aem-fragments.md)
          + [考慮事項とトラブルシューティング](using/integrations/aem-fragments-limitations.md)
-      + [Experience Manager Content Advisorの操作](using/content-management/aem-content-advisor.md)
+      + [Experience Manager Content Advisorの操作](using/integrations/aem-content-advisor.md)
       + [Dynamic Media の操作](using/integrations/aem-dynamic.md)
       + {hide-from-toc}[カウントダウンタイマーの挿入](using/integrations/countdown.md)
       + [GenStudio for Performance Marketing の操作](using/integrations/genstudio.md)
