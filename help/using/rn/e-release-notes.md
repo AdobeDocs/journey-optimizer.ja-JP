@@ -9,10 +9,10 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: 94d84469a30e1e93b7e74a81d3ef19f588f521cc
+source-git-commit: 7198657c414313e614aab539c827038ae53820c3
 workflow-type: tm+mt
-source-wordcount: 1131
-ht-degree: 6%
+source-wordcount: 955
+ht-degree: 8%
 
 ---
 
@@ -117,21 +117,6 @@ ht-degree: 6%
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>非繰り返しオーディエンス読み取りジャーニーの自動補完</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>最後にアクティブなプロファイルが終了すると、非繰り返しの<strong> オーディエンスの読み取り</strong> ジャーニーが自動的に<strong>停止</strong> ステータスに移行するようになりました。 以前は、これらのジャーニーは、プロファイルがフローしなくなった場合でも、91日間のグローバルタイムアウトが期限切れになるまで<strong> ライブ </strong>のままでした。 この改善により、ジャーニーのステータスは、完了するとすぐに実際の実行ステータスを反映するようになり、手作業なしでジャーニーインベントリを正確に保つことができます。</p>
-<p>この動作は、待機期間を引き起こすノード（待機ノード、リアクションノード、イベントトリガーのトランジションなど）を含むジャーニーには適用されません。 これらのジャーニーは、標準の91日間のグローバルタイムアウトの対象のままです。</p>
-<p>ご利用いただけます：2026年5月19日（PT）</p>
-</tr>
-</tbody>
-</table>
 
 <!--
 <table>
@@ -265,11 +250,6 @@ FEEDBACK FROM TYSON WAI - TW: Remove this release, it is not ready for May 19th-
   -->
 
 #### ジャーニー
-
-* **カスタムアクションでの証明書ベースのカスタム認証** - カスタムアクションで、証明書ベースのカスタム認証がサポートされるようになりました。 カスタム認証コンフィギュレーションにsubType: &quot;certificateCredential&quot;を追加することで、Journey OptimizerはAdobeのマネージド証明書を使用してJWT クライアントアサーションに署名し、アクセストークンと交換します。クライアントシークレットは必要ありません。 Azure Entra IDなど、証明書ベースのID確認を強制するエンタープライズ API向けに設計されています。
-
-
-  ご利用いただけます：2026年5月19日（PT）
 
 * **外部オーディエンスの補足識別子のサポート** - ジャーニーの補足識別子が、CSV ファイルから読み込まれたオーディエンスやFederated Audience Compositionで作成されたオーディエンスなど、外部オーディエンスでサポートされるようになりました。 オーディエンスからID以外の属性または個人ではないID属性を補足IDとして指定できます。スキーマのラベル付けは必要ありません。
 
