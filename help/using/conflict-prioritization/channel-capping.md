@@ -187,4 +187,4 @@ In this scenario, an individual profile:
 
 >[!VIDEO](https://video.tv.adobe.com/v/3435531?quality=12)
 
-➡️ **実際に見る：**&#x200B;このコミュニティのユースケースでは、[日次の頻度キャップをAdobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510){target="_blank"}に実装する方法を説明します。
+➡️ **実際に見る：**&#x200B;このコミュニティのユースケースでは、[日次の頻度キャップをAdobe Journey Optimizer](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/elevate-customer-experience-with-daily-frequency-capping-in-ajo/ba-p/761510?profile.language=ja){target="_blank"}に実装する方法を説明します。
