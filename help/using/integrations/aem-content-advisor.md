@@ -6,7 +6,7 @@ description: Adobe Experience Manager Content Advisorにアクセスして、Ado
 role: User
 level: Beginner, Intermediate
 exl-id: 842d69e3-be7f-4a81-8161-6c6ecd571f95
-source-git-commit: afc31ee91979eacf9514fd483d2757c3b14442f0
+source-git-commit: a9be72c0fe115e44a6cf9ef9e877c0eb97b9cc00
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 0%
