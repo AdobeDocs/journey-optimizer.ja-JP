@@ -2,7 +2,7 @@
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: プレースメントのリスト
-description: プレースメントは、オファーを表示するために使用されるコンテナです。
+description: プレースメントは、オファーの表示に使用するコンテナです。
 feature: Decision Management, API
 badge: label="レガシー" type="Informative"
 topic: Integrations
@@ -25,7 +25,7 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 229
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -33,35 +33,35 @@ ht-degree: 0%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer]の新しい決定機能である決定機能が、コードベースのエクスペリエンスとメールチャネルで利用できるようになりました。 [詳細情報](../../../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。 [詳細情報](../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
-プレースメントは、オファーを表示するために使用されるコンテナです。 プレースメントは、メッセージ内の適切な場所に適切なオファーコンテンツを表示するのに役立ちます。 オファーにコンテンツを追加すると、そのコンテンツを表示できるプレースメントを選択するように求められます。
+プレースメントは、オファーの表示に使用するコンテナです。 プレースメントを使用すると、メッセージ内の適切な場所に適切なオファーコンテンツが表示されます。 オファーにコンテンツを追加すると、そのコンテンツを表示できるプレースメントを選択するように求められます。
 
-[!DNL Offer Library] APIに対して1回のGET リクエストを実行すると、すべてのプレースメントのリストを表示できます。
+[!DNL Offer Library] API に対して単一の GET リクエストを実行することで、すべてのプレースメントのリストを表示できます。
 
-**API形式**
+**API 形式**
 
 ```http
 GET /{ENDPOINT_PATH}/placements?{QUERY_PARAMS}
 ```
 
-| パラメーター | 効果 | 例 |
+| パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | リポジトリ APIのエンドポイントパス。 | `https://platform.adobe.io/data/core/dps` |
+| `{ENDPOINT_PATH}` | リポジトリ API のエンドポイントパス。 | `https://platform.adobe.io/data/core/dps` |
 
 ## クエリパラメーターの使用 {#using-query-parameters}
 
-クエリパラメーターを使用すると、リソースのリスト時に結果をページ化およびフィルタリングできます。
+リソースを一覧表示する際に、クエリパラメーターを使用して結果をページングおよびフィルタリングできます。
 
 ### ページング {#paging}
 
-ページングの最も一般的なクエリパラメーターは次のとおりです。
+ページングに最も一般的なクエリパラメーターは次のとおりです。
 
-| パラメーター | 効果 | 例 |
+| パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
-| `property` | オプションのプロパティフィルター： <ul><li>プロパティはAND操作でグループ化されます。</li><li>パラメーターは、次のように繰り返すことができます。property={PROPERTY_EXPR}[&amp;property={PROPERTY_EXPR2}...]、property={PROPERTY_EXPR1}[,{PROPERTY_EXPR2}...]</li><li>プロパティ式の形式は`[ !]field[op]value`で、正規表現をサポートする`[==,!=,<=,>=,<,>,~]`の`op`です。</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
-| `orderBy` | 特定のプロパティで結果を並べ替えます。 名前の前に – を追加すると（orderby=-name）、項目が名前で降順に並べ替えられます（Z-A）。 パス式は、ドット区切りのパスの形式です。 このパラメーターは次のように繰り返すことができます。`orderby=field1[,-fields2,field3,...]` | `orderby=id`,`-name` |
+| `property` | オプションのプロパティフィルターは次のとおりです。 <ul><li>プロパティは AND 演算でグループ化されます。</li><li>パラメーターは、property={PROPERTY_EXPR}[&amp;property={PROPERTY_EXPR2}...] または property={PROPERTY_EXPR1}[,{PROPERTY_EXPR2}...] のように繰り返すことができます。</li><li>プロパティ式は `[!]field[op]value` の形式を使用（`[==,!=,<=,>=,<,>,~]` に `op`）し、正規表現をサポートします。</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
+| `orderBy` | 特定のプロパティで結果を並べ替えます。 名前の前に - を追加すると（orderby=-name）、名前の降順（Z ～ A）で項目が並べ替えられます。 パス式は、ドット区切りのパスの形式です。 このパラメーターは、`orderby=field1[,-fields2,field3,...]` のように繰り返すことができます。 | `orderby=id`、`-name` |
 
 **リクエスト**
 
@@ -76,7 +76,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/placements?limit=2' \
 
 **応答**
 
-応答が成功すると、存在するプレースメントとアクセス可能なプレースメントのリストが返されます。
+応答が成功すると、存在するアクセス可能なプレースメントのリストが返されます。
 
 ```json
 {

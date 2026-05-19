@@ -2,7 +2,7 @@
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: コレクションのリスト
-description: コレクションは、オファーのカテゴリなど、マーケターが定義した定義済みの条件に基づくオファーのサブセットです。
+description: コレクションは、マーケターが事前に定義した条件（オファーのカテゴリなど）に基づくオファーのサブセットです。
 feature: Decision Management, API, Collections
 badge: label="レガシー" type="Informative"
 topic: Integrations
@@ -23,7 +23,7 @@ role_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 291
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -31,26 +31,26 @@ ht-degree: 0%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer]の新しい決定機能である決定機能が、コードベースのエクスペリエンスとメールチャネルで利用できるようになりました。 [詳細情報](../../../../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。 [詳細情報](../../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
-コレクションは、オファーのカテゴリなど、マーケターが定義した定義済みの条件に基づくオファーのサブセットです。
+コレクションは、マーケターが事前に定義した条件（オファーのカテゴリなど）に基づくオファーのサブセットです。
 
-[!DNL Offer Library] APIに対して1回のGET リクエストを実行すると、コンテナ内のすべてのコレクションのリストを表示できます。
+[!DNL Offer Library] API に対して単一の GET リクエストを実行することで、コンテナ内のすべてのコレクションのリストを表示できます。
 
-**API形式**
+**API 形式**
 
 ```http
 GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FILTER}&{QUERY_PARAMS}
 ```
 
-| パラメーター | 効果 | 例 |
+| パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | リポジトリ APIのエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{QUERY_PARAMS}` | 結果をフィルタリングするオプションのクエリパラメーター。 | `limit=2` |
+| `{ENDPOINT_PATH}` | リポジトリ API のエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{QUERY_PARAMS}` | 結果をフィルタリングする条件となるクエリパラメーター（オプション）。 | `limit=2` |
 | `{CONTAINER_ID}` | コレクションが配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_FILTER}` | コレクションに関連付けられたスキーマを定義します。<https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1> |  |
-| `{QUERY_PARAMS}` | 結果をフィルタリングするオプションのクエリパラメーター。 | `limit=1` |
+| `{QUERY_PARAMS}` | 結果をフィルタリングする条件となるクエリパラメーター（オプション）。 | `limit=1` |
 
 **リクエスト**
 
@@ -66,23 +66,23 @@ curl -X GET \
 
 ## クエリパラメーターの使用 {#using-query-parameters}
 
-クエリパラメーターを使用すると、リソースのリスト時に結果をページ化およびフィルタリングできます。
+リソースを一覧表示する際に、クエリパラメーターを使用して結果をページングおよびフィルタリングできます。
 
 ### ページング {#paging}
 
-ページングの最も一般的なクエリパラメーターは次のとおりです。
+ページングに最も一般的なクエリパラメーターは次のとおりです。
 
-| パラメーター | 効果 | 例 |
+| パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
-| `q` | 選択したフィールドで検索するオプションのクエリ文字列。 クエリ文字列は小文字にする必要があり、トークン化されないようにしたり、特殊文字をエスケープしたりするために、二重引用符で囲むことができます。 文字`+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /`は特別な意味を持つため、クエリ文字列に表示される場合はバックスラッシュでエスケープする必要があります。 | `demo collection` |
-| `qop` | Q クエリ文字列パラメーターの値にAND演算子またはOR演算子を適用します。 | `AND` / `OR` |
-| `field` | 検索を制限するフィールドのオプションのリスト。 このパラメーターは、次のように繰り返すことができます。field=field1[、field=field2,...]および（パス式は、_instance.xdm:nameなどのドット区切りパスの形式です） | `_instance.xdm:name` |
-| `orderBy` | 特定のプロパティで結果を並べ替えます。 タイトル （`orderby=-title`）の前に`-`を追加すると、タイトルでアイテムが降順に並べ替えられます（Z-A）。 | `-repo:createdDate` |
+| `q` | 選択したフィールドで検索するオプションのクエリ文字列。 クエリ文字列は小文字にする必要があり、二重引用符で囲むことで、トークン化を防ぎ、特殊文字をエスケープできます。 次の文字 `+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` は特別な意味を持ち、クエリ文字列に出現する場合はバックスラッシュでエスケープする必要があります。 | `demo collection` |
+| `qop` | 「q」クエリ文字列パラメーターの値に AND または OR 演算子を適用します。 | `AND` / `OR` |
+| `field` | 検索を制限するフィールドのリスト（オプション）。 このパラメーターは、field=field1[,field=field2,…] のように繰り返すことができます（パス式は「_instance.xdm:name」などのドット区切りパスの形式です）。 | `_instance.xdm:name` |
+| `orderBy` | 特定のプロパティで結果を並べ替えます。 タイトルの前に `-` を追加すると（`orderby=-title`）、アイテムがタイトルの降順（Z-A）に並べ替えられます。 | `-repo:createdDate` |
 | `limit` | 返されるコレクションの数を制限します。 | `limit=5` |
 
 **応答**
 
-応答が成功すると、アクセス権のあるコンテナ内に存在するコレクションのリストが返されます。
+正常な応答では、アクセス可能なコンテナ内に存在するコレクションのリストが返されます。
 
 ```json
 {

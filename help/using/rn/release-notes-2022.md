@@ -113,7 +113,7 @@ ht-degree: 100%
 <p>動的コンテンツを作成して、条件ルールに基づいてメッセージのコンテンツを適応させられるようになりました。</p> 
 <p>条件ルールは、式エディター内のビジュアルルールビルダーで作成し、ジャーニーやキャンペーンで後から再利用するために保存できます。</p>
 <img src="assets/do-not-localize/dynamic-content.gif"/>
-<p>詳しくは、<a href="../personalization/get-started-dynamic-content.md">詳細なドキュメント</a>を参照してください。
+<p>詳しくは、 <a href="../personalization/get-started-dynamic-content.md">詳細なドキュメント</a>を参照してください。
 </td>
 </tr>
 </tbody>
@@ -131,7 +131,7 @@ ht-degree: 100%
 <p>既存のスケジュール済みキャンペーンに加えて、Journey Optimizer で API トリガーキャンペーンを作成し、API を使用して外部システムから呼び出すことができるようになりました。</p>
 <p>これにより、パスワードのリセットや OTP トークンなど、運用上のメッセージおよびトランザクションメッセージの様々なニーズに対応できます。</p>
 <img src="assets/do-not-localize/api-triggered.gif"/>
-<p>詳しくは、<a href="../campaigns/api-triggered-campaigns.md">詳細なドキュメント</a>を参照してください。
+<p>詳しくは、 <a href="../campaigns/api-triggered-campaigns.md">詳細なドキュメント</a>を参照してください。
 </td>
 </tr>
 </tbody>
@@ -149,7 +149,7 @@ ht-degree: 100%
 <p>属性ベースのアクセス制御により、管理者は特定の属性に基づいて、特定のオブジェクトへのアクセスを制御できます。 これらの属性は、オブジェクトに追加されるメタデータ（ラベルなど）にすることができます。 このリリース以降、管理者は、特定のフィールドやオブジェクト、およびそれらのフィールドやオブジェクトに対応するデータのみにアクセスできるユーザーの役割を定義することもできます。</p>
 <p> 属性ベースのアクセス制御の使用は、現在、選択した顧客に限定されており、将来のリリースですべての環境にデプロイされます。</p>
 <img src="assets/do-not-localize/olac.gif"/>
-<p>詳しくは、<a href="../administration/object-based-access.md">詳細なドキュメント</a>を参照してください。
+<p>詳しくは、 <a href="../administration/object-based-access.md">詳細なドキュメント</a>を参照してください。
 </td>
 </tr>
 </tbody>

@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: WhatsApp メッセージの作成
-description: Journey OptimizerでWhatsApp メッセージを作成する方法を説明します
+description: Journey Optimizer で WhatsApp メッセージを作成する方法について説明します
 feature: Whatsapp
 topic: Content Management
 role: User
@@ -29,39 +29,39 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 986
-ht-degree: 0%
+ht-degree: 86%
 
 ---
 
 # WhatsApp メッセージの作成 {#create-whatsapp}
 
-Adobe Journey Optimizerなら、WhatsAppで魅力的なメッセージをデザインして配信できます。 WhatsApp アクションをジャーニーやキャンペーンに追加し、以下に詳しく説明するようにメッセージコンテンツを作成するだけです。 Adobe Journey Optimizerでは、WhatsApp メッセージを送信する前に、すべての設定を適切にレンダリング、正確なパーソナライゼーション、および適切に設定して、テストすることもできます。
+Adobe Journey Optimizer を使用すると、WhatsApp で魅力的なメッセージをデザインして送信できます。 ジャーニーまたはキャンペーンに WhatsApp アクションを追加し、以下に説明するようにメッセージコンテンツを作成するだけです。 また、Adobe Journey Optimizer を使用すると、WhatsApp メッセージを送信する前にテストして、完全なレンダリング、正確なパーソナライゼーション、すべての設定の適切な設定を確保することもできます。
 
-Journey Optimizerでは、アウトバウンドメッセージ要素のみがサポートされていることに注意してください。
+Journey Optimizer では、アウトバウンドメッセージ要素のみがサポートされています。
 
 +++ サポートされているメッセージ要素とインタラクティブボタンについて詳しく見る
 
-WhatsAppでは、次のメッセージタイプがサポートされています。
+WhatsApp では、次のメッセージタイプがサポートされています。
 
-| メッセージ機能 | 効果 |
+| メッセージ機能 | 説明 |
 |-|-|
-| Headers | メッセージの本文の上に表示されるオプションのテキスト。 |
-| テキスト | パラメーターによる動的コンテンツのサポート。 |
-| 画像（JPEG、PNG） | 8 ビットのRGBまたはRGBA形式で、サイズが5 MB未満である必要があります。 |
-| ビデオ | 3GPPまたはMP4で、16 MB未満で、URL経由でホストされている必要があります。 |
-| オーディオ | 応答メッセージでのみ使用できます。 AAC、AMR、MP3、MP4 オーディオ、またはOGG形式で、URLでホストされ、16 MB未満である必要があります。 |
-| 文書 | 100 MB未満で、URLにホストされ、次のいずれかの形式である必要があります。.txt、.xls/.xlsx、.doc/.docx、.ppt/.pptx、または.pdf。 |
-| Body Text | パラメーターによる動的コンテンツのサポート。 |
-| フッターテキスト | パラメーターによる動的コンテンツのサポート。 |
+| ヘッダー | メッセージの本文の上に表示されるオプションのテキスト。 |
+| テキスト | パラメーターを通じて動的コンテンツをサポートします。 |
+| 画像（JPEG、PNG） | 8 ビット RGB または RGBA 形式で、サイズが 5 MB 未満である必要があります。 |
+| ビデオ | 3GPP または MP4、16 MB 未満、URL 経由でホストされている必要があります。 |
+| オーディオ | 応答メッセージにのみ使用できます。 AAC、AMR、MP3、MP4 オーディオまたは OGG 形式で、URL でホストされ、16 MB 未満である必要があります。 |
+| ドキュメント | 100 MB 未満で、URL でホストされ、.txt、.xls／.xlsx、.doc／.docx、.ppt／.pptx または .pdf のいずれかの形式である必要があります。 |
+| 本文 | パラメーターを通じて動的コンテンツをサポートします。 |
+| フッターテキスト | パラメーターを通じて動的コンテンツをサポートします。 |
 
 WhatsApp メッセージでは、次のcall-to-action オプションを使用できます。
 
-| コールトゥアクション | 効果 |
+| コールトゥアクション | 説明 |
 |-|-|
 | クイック返信 | ショートプリセットは、ユーザーがタップしてメッセージに応答できる応答です。 |
-| web サイトを訪問 | 変数パラメーターを含むボタンは1つのみ許可されます。 |
-| WhatsAppに電話する | メッセージから直接指定された電話番号でWhatsApp チャットを開くボタンを提供します。 |
-| 電話番号に電話 | ユーザーがタップすると、指定した番号への電話を開始するボタンを提供します。 |
+| Web サイトに訪問 | 変数パラメーターを含むボタンは、1 つのみ許可されます。 |
+| WhatsApp で通話 | メッセージから直接、指定された電話番号との WhatsApp チャットを開くボタンを提供します。 |
+| 電話番号に通話 | ユーザーがタップすると、指定された番号への通話を開始するボタンを提供します。 |
 | CALL TO ACTION - URL | URLを開きます（**Web サイトにアクセス**）。 変数パラメーターを含むURL ボタンは1つのみ許可されます。 |
 | Call to action – 電話 | テンプレートの電話番号を使用します。例えば、**電話番号に電話** （通話を行う）または&#x200B;**WhatsApp**&#x200B;に電話する（WhatsAppでその番号のチャットを開く）ことができます。 |
 
@@ -69,72 +69,72 @@ WhatsApp メッセージでは、次のcall-to-action オプションを使用�
 
 +++
 
-## WhatsApp メッセージの追加 {#create-whatsapp-journey-campaign}
+## WhatsApp メッセージを追加 {#create-whatsapp-journey-campaign}
 
-キャンペーンまたはジャーニーにWhatsApp メッセージを追加する方法については、以下のタブを参照してください。
+キャンペーンまたはジャーニーに WhatsApp メッセージを追加する方法については、以下のタブを参照してください。
 
 >[!BEGINTABS]
 
->[!TAB WhatsApp メッセージをジャーニーに追加]
+>[!TAB ジャーニーへの WhatsApp メッセージの追加]
 
-1. ジャーニーを開き、パレットの&#x200B;**アクション** セクションから&#x200B;**WhatsApp アクティビティ**&#x200B;をドラッグ&amp;ドロップします。
+1. ジャーニーを開き、パレットの「**アクション**」セクションから **WhatsApp アクティビティ**&#x200B;をドラッグ＆ドロップします。
 
    ![](assets/whatsapp-create-jo.png)
 
-1. メッセージに関する基本情報（ラベル、説明、カテゴリ）を入力し、使用するメッセージ設定を選択します。
+1. メッセージに関する基本情報（ラベル、説明、カテゴリ）を入力したあと、使用するメッセージ設定を選択します。
 
-   ジャーニーの設定方法について詳しくは、[このページ &#x200B;](../building-journeys/journey-gs.md)を参照してください
+   ジャーニーの設定方法について詳しくは、[このページ](../building-journeys/journey-gs.md)を参照してください。
 
-   **[!UICONTROL 設定]** フィールドには、デフォルトで、そのチャネルに最後に使用された設定がユーザーによって事前入力されます。
+   **[!UICONTROL 設定]**&#x200B;フィールドはデフォルトで、ユーザーがチャネルで最後に使用した設定で事前入力されます。
 
 1. 「**[!UICONTROL ビジネスルール]**」セクションでは、WhatsApp メッセージに対するコミュニケーションのプレッシャーを制御するためのルールセットを適用できます。
 
    [&#x200B; ルールセット &#x200B;](../conflict-prioritization/rule-sets.md)、[&#x200B; チャネルの使用頻度の上限](../conflict-prioritization/channel-capping.md)、[&#x200B; サイレントアワー](../conflict-prioritization/quiet-hours.md)の詳細をご覧ください。
 
-次の詳細に従って、**[!UICONTROL コンテンツを編集]** ボタンからWhatsApp メッセージのコンテンツのデザインを開始できるようになりました。
+これで、以下に説明するように、「**[!UICONTROL コンテンツを編集]**」ボタンから WhatsApp メッセージのコンテンツのデザインを開始できます。
 
->[!TAB  キャンペーンにWhatsApp メッセージを追加]
+>[!TAB キャンペーンへの WhatsApp メッセージの追加]
 
-1. **[!UICONTROL キャンペーン]** メニューにアクセスし、**[!UICONTROL キャンペーンの作成]**&#x200B;をクリックします。
+1. **[!UICONTROL キャンペーン]**&#x200B;メニューにアクセスし、「**[!UICONTROL キャンペーンを作成]**」をクリックします。
 
-1. 「**スケジュール済み – マーケティング**」キャンペーンのタイプを選択します。
+1. キャンペーンのタイプとして&#x200B;**スケジュール済み - マーケティング**&#x200B;を選択します。
 
-1. **[!UICONTROL プロパティ]** セクションから、キャンペーンの&#x200B;**[!UICONTROL タイトル]**&#x200B;と&#x200B;**[!UICONTROL 説明]**&#x200B;を編集します。
+1. 「**[!UICONTROL プロパティ]**」セクションで、キャンペーンの「**[!UICONTROL タイトル]**」と「**[!UICONTROL 説明]**」を編集します。
 
-1. 「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックして、利用可能なAdobe Experience Platform オーディエンスのリストからターゲットとするオーディエンスを定義します。 [詳細情報](../audience/about-audiences.md)。
+1. 「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックして、使用可能な Adobe Experience Platform オーディエンスのリストからターゲットオーディエンスを定義します。 [詳細情報](../audience/about-audiences.md)。
 
-1. 「**[!UICONTROL ID名前空間]**」フィールドで、選択したオーディエンスから個人を識別するために使用する名前空間を選択します。 [詳細情報](../event/about-creating.md#select-the-namespace)。
+1. 「**[!UICONTROL ID 名前空間]**」フィールドで、選択したオーディエンスから個人を識別するために使用する名前空間を選択します。 [詳細情報](../event/about-creating.md#select-the-namespace)
 
-1. **[!UICONTROL アクション]** セクションで、**[!UICONTROL WhatsApp]**&#x200B;を選択し、新しい設定を選択または作成します。
+1. 「**[!UICONTROL アクション]**」セクションで、「**[!UICONTROL WhatsApp]**」を選択し、新しい設定を選択または作成します。
 
-   WhatsApp設定の詳細については、[このページ &#x200B;](whatsapp-configuration.md)を参照してください。
+   WhatsApp 設定について詳しくは、[このページ](whatsapp-configuration.md)を参照してください。
 
    ![](assets/whatsapp-campaign-1.png)
 
-1. 「**[!UICONTROL 実験を作成]**」をクリックして、コンテンツ実験の設定を開始し、パフォーマンスを測定し、ターゲットオーディエンスに最適なオプションを特定する処理を作成します。 [詳細情報](../content-management/content-experiment.md)
+1. 「**[!UICONTROL 実験を作成]**」をクリックしてコンテンツ実験の設定を開始し、パフォーマンスを測定してターゲットオーディエンスに最適なオプションを特定するための処理を作成します。 [詳細情報](../content-management/content-experiment.md)
 
-1. 「**[!UICONTROL アクションの追跡]**」セクションで、WhatsApp メッセージのリンクのクリックを追跡するかどうかを指定します。
+1. 「**[!UICONTROL アクションのトラッキング]**」セクションで、WhatsApp メッセージ内のリンクのクリック数を追跡するかどうかを指定します。
 
-1. キャンペーンは、特定の日付または定期的な頻度で実行するように設計されています。 キャンペーンの&#x200B;**[!UICONTROL スケジュール]**&#x200B;を[このセクション &#x200B;](../campaigns/create-campaign.md#schedule)で設定する方法について説明します。
+1. キャンペーンは、特定の日付に実行するか、繰り返し頻度で実行するように設計されています。 キャンペーンの&#x200B;**[!UICONTROL スケジュール]**&#x200B;を設定する方法については、[この節](../campaigns/create-campaign.md#schedule)を参照してください。
 
-1. **[!UICONTROL アクショントリガー]** メニューから、WhatsApp メッセージの&#x200B;**[!UICONTROL 頻度]**&#x200B;を選択します。
+1. **[!UICONTROL アクショントリガー]**&#x200B;メニューから、WhatsApp メッセージの「**[!UICONTROL 頻度]**」を選択します。
 
-   * 1回
-   * 日別
+   * 1 回
+   * 毎日
    * 毎週
    * 月
 
-次の詳細に従って、**[!UICONTROL コンテンツを編集]** ボタンからWhatsApp メッセージのコンテンツのデザインを開始できるようになりました。
+これで、以下に説明するように、「**[!UICONTROL コンテンツを編集]**」ボタンから WhatsApp メッセージのコンテンツのデザインを開始できます。
 
 >[!ENDTABS]
 
-## WhatsApp コンテンツを定義する{#whatsapp-content}
+## WhatsApp コンテンツの定義{#whatsapp-content}
 
 >[!BEGINSHADEBOX]
 
-Journey OptimizerでWhatsApp メッセージをデザインする前に、まずMetaでテンプレートを作成してデザインする必要があります。 [詳細情報](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
+Journey Optimizer で WhatsApp メッセージをデザインする前に、まず Meta でテンプレートを作成およびデザインする必要があります。 [詳細情報](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
 
-WhatsApp テンプレートをJourney Optimizerで使用する前に、まずMetaで承認されている必要があります。 このプロセスには通常数時間かかりますが、最大で24時間かかる場合があります。 [詳細情報](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/#approval-process)
+WhatsApp テンプレートは、Journey Optimizer で使用する前に、まず Meta で承認される必要があります。 この処理には通常数時間かかりますが、最大 24 時間かかる場合があります。 [詳細情報](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/#approval-process)
 
 >[!ENDSHADEBOX]
 
@@ -144,9 +144,9 @@ WhatsApp テンプレートをJourney Optimizerで使用する前に、まずMet
 1. Select **[!UICONTROL Template message]**.
 -->
 
-1. **テンプレートカテゴリ**&#x200B;を選択します。
+1. 「**テンプレートカテゴリ**」を選択します。
 
-   * マーケター
+   * マーケティング
    * ユーティリティ
    * 認証
 
@@ -154,25 +154,25 @@ WhatsApp テンプレートをJourney Optimizerで使用する前に、まずMet
 
    ![](assets/whatsapp-design-1.png)
 
-1. **WhatsApp テンプレート** ドロップダウンから、Metaでデザインした以前に作成したテンプレートを選択します。
+1. **WhatsApp テンプレート**&#x200B;ドロップダウンから、Meta でデザインした、作成済みのテンプレートを選択します。
 
    [Whatsapp テンプレートの作成方法について詳しく見る](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)
 
    ![](assets/whatsapp-design-2.png)
 
-1. 「**[!UICONTROL 画像URL]**」フィールドにメディア URLを追加して、テンプレート内のプレースホルダーを置き換えます。 Metaのテンプレートメディアは、プレースホルダーのみです。 画像、音声、またはビデオを正しく表示するには、Adobe Experience Managerまたはその他のソースの外部URLを使用する必要があります。
+1. 「**[!UICONTROL 画像 URL]**」フィールドに、テンプレート内のプレースホルダーを置き換えるメディア URL を追加します。 Meta のテンプレートメディアは、プレースホルダーのみです。 画像、オーディオ、ビデオを正しく表示するには、Adobe Experience Manager またはその他のソースからの外部 URL を使用する必要があります。
 
    ![](assets/whatsapp-design-3.png)
 
 1. パーソナライゼーションエディターを使用して、テンプレートにパーソナライゼーションを追加します。 プロファイル名や市区町村など、任意の属性を使用できます。
 
-   [&#x200B; パーソナライゼーション &#x200B;](../personalization/personalize.md)の詳細については、次のページを参照してください。
+   [パーソナライゼーション](../personalization/personalize.md)について詳しくは、次のページを参照してください。
 
    ![](assets/whatsapp-design-4.png)
 
-1. 「**[!UICONTROL コンテンツをシミュレート]**」ボタンを使用して、WhatsApp メッセージコンテンツ、短縮URL、パーソナライズされたコンテンツをプレビューします。 [詳細情報](send-whatsapp.md)
+1. 「**[!UICONTROL コンテンツをシミュレート]**」ボタンを使用して、WhatsApp メッセージコンテンツ、短縮 URL、パーソナライズされたコンテンツをプレビューします。 [詳細情報](send-whatsapp.md)
 
-テストを実行してコンテンツを検証したら、[WhatsApp メッセージ &#x200B;](send-whatsapp.md)をオーディエンスに送信し、[&#x200B; レポート &#x200B;](../reports/campaign-global-report-cja.md)を通じてそのパフォーマンスを監視できます。
+テストを実行してコンテンツを検証したら、オーディエンスに [WhatsApp メッセージを送信](send-whatsapp.md)し、[レポート](../reports/campaign-global-report-cja.md)を通じてパフォーマンスを監視できます。
 
 <!--
 * **[!UICONTROL Template message]**: Predefined message imported from Meta into Journey Optimizer. These are intended for sending notifications, alerts, or updates to your customers.
@@ -217,9 +217,9 @@ Once you have performed your tests and validated the content, you can send your 
 
 ## チュートリアルビデオ {#video}
 
-次のビデオは、Adobe Journey Optimizerを使用してマルチステップのWhatsApp ジャーニーを作成する方法を示しています。
+次のビデオでは、Adobe Journey Optimizer を使用して複数ステップの WhatsApp ジャーニーを作成する方法について説明します。
 
-+++ ビデオを見る
++++ こちらのビデオをご覧ください
 
 >[!VIDEO](https://video.tv.adobe.com/v/3470283/?captions=jpn&learn=on")
 

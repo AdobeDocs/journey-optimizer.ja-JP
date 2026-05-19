@@ -2,7 +2,7 @@
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: 決定の更新
-description: 決定には、オファーの選択に役立つロジックが含まれます。
+description: 決定には、オファーの選択を通知するロジックが含まれています。
 feature: Decision Management, API
 badge: label="レガシー" type="Informative"
 topic: Integrations
@@ -24,7 +24,7 @@ role_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 167
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -32,31 +32,31 @@ ht-degree: 0%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer]の新しい決定機能である決定機能が、コードベースのエクスペリエンスとメールチャネルで利用できるようになりました。 [詳細情報](../../../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。 [詳細情報](../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
-PATCH リクエストを[!DNL Offer Library] APIに行うことで、決定を変更または更新できます。
+[!DNL Offer Library] API に対して PATCH リクエストを実行することで、決定を変更または更新できます。
 
-使用可能な操作を含むJSON パッチについて詳しくは、公式の[JSON パッチドキュメント &#x200B;](https://jsonpatch.com/)を参照してください。
+使用可能な操作など、JSON パッチの詳細については、[JSON パッチの公式ドキュメント](https://jsonpatch.com/)を参照してください。
 
-## 受け入れるヘッダーとコンテンツタイプのヘッダー {#accept-and-content-type-headers}
+## Accept ヘッダーと Content-Type ヘッダー {#accept-and-content-type-headers}
 
-次の表は、リクエストヘッダーの&#x200B;*Content-Type*&#x200B;および&#x200B;*Accept* フィールドを構成する有効な値を示しています。
+次の表に、リクエストヘッダーの *Content-Type* フィールドと *Accept* フィールドを構成する有効な値を示します。
 
 | ヘッダー名 | 値 |
 | ----------- | ----- |
-| コンテンツタイプ | `application/json` |
+| Content-Type | `application/json` |
 
-**API形式**
+**API 形式**
 
 ```http
 PATCH /{ENDPOINT_PATH}/offer-decisions/{ID}
 ```
 
-| パラメーター | 効果 | 例 |
+| パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 永続性APIのエンドポイントパス。 | `https://platform.adobe.io/data/core/dps/` |
-| `{ID}` | 更新するエンティティのID。 | `offerDecision1234` |
+| `{ENDPOINT_PATH}` | 永続性 API のエンドポイントパス。 | `https://platform.adobe.io/data/core/dps/` |
+| `{ID}` | 更新するエンティティの ID。 | `offerDecision1234` |
 
 **リクエスト**
 
@@ -81,15 +81,15 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offer-decisions/offerDeci
 ]'
 ```
 
-| パラメーター | 効果 |
+| パラメーター | 説明 |
 | --------- | ----------- |
-| `op` | 接続の更新に必要なアクションを定義するために使用される操作呼び出し。 操作には、`add`、`replace`、`remove`、`copy`および`test`が含まれます。 |
+| `op` | 接続の更新に必要なアクションを定義するのに使用される操作呼び出し。 操作には、`add`、`replace`、`remove`、`copy` および `test` があります。 |
 | `path` | 更新するパラメーターのパス。 |
-| `value` | パラメーターを更新する新しい値。 |
+| `value` | パラメーターの更新に使用する新しい値。 |
 
 **応答**
 
-応答が成功すると、決定`id`を含む、決定の更新された詳細が返されます。
+正常な応答の場合は、決定 `id` など、決定の最新の詳細が返されます。
 
 ```json
 {

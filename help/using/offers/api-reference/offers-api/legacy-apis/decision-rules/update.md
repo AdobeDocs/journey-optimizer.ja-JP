@@ -2,7 +2,7 @@
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: 決定ルールの更新
-description: 決定ルールは、パーソナライズされたオファーに追加され、適格性を判断するためにプロファイルに適用される制約です。
+description: 決定ルールは、パーソナライズされたオファーに追加される制約で、実施要件を決定するためにプロファイルに適用されます。
 feature: Decision Management, API
 badge: label="レガシー" type="Informative"
 topic: Integrations
@@ -24,7 +24,7 @@ role_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 143
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -32,29 +32,29 @@ ht-degree: 0%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer]の新しい決定機能である決定機能が、コードベースのエクスペリエンスとメールチャネルで利用できるようになりました。 [詳細情報](../../../../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。 [詳細情報](../../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
-コンテナ IDを指定しながら[!DNL Offer Library] APIにPOST リクエストを行うことで、フォールバックオファーを作成できます。
+コンテナ ID を提供しながら [!DNL Offer Library] API に POST リクエストを実行することで、フォールバックオファーを作成できます。
 
-## 受け入れるヘッダーとコンテンツタイプのヘッダー {#accept-and-content-type-headers}
+## Accept ヘッダーと Content-Type ヘッダー {#accept-and-content-type-headers}
 
-次の表は、リクエストヘッダーの&#x200B;*Content-Type*&#x200B;および&#x200B;*Accept* フィールドを構成する有効な値を示しています。
+次の表に、リクエストヘッダーの *Content-Type* フィールドと *Accept* フィールドを構成する有効な値を示します。
 
 | ヘッダー名 | 値 |
 | ----------- | ----- |
-| 承認 | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
-| コンテンツタイプ | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3"` |
+| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Content-Type | `application/vnd.adobe.platform.xcore.patch.hal+json; version=1; schema="https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3"` |
 
-**API形式**
+**API 形式**
 
 ```http
 PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 ```
 
-| パラメーター | 効果 | 例 |
+| パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | リポジトリ APIのエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | リポジトリ API のエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | 決定ルールが配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{INSTANCE_ID}` | 更新する決定ルールのインスタンス ID。 | `eaa5af90-13d9-11eb-9472-194dee6dc381` |
 
@@ -80,7 +80,7 @@ curl -X PATCH \
 
 **応答**
 
-応答が成功すると、一意のインスタンス IDと決定ルール `@id`を含む、決定ルールの更新された詳細が返されます。
+正常な応答では、決定ルールの更新された詳細（一意のインスタンス ID と決定ルール `@id` を含む）が返されます。
 
 
 ```json

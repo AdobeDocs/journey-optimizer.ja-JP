@@ -36,10 +36,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 1e0a06dddba6c5ca4c53e4b143eb7fa7763ded6b
 workflow-type: tm+mt
-source-wordcount: 3612
-ht-degree: 63%
+source-wordcount: 3767
+ht-degree: 60%
 
 ---
 
@@ -426,13 +426,15 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 
 ## 関連トピック
 
-* [オーディエンスを作成](../audience/about-audiences.md)
-* [オーディエンスの選定アクティビティ](audience-qualification-events.md)
-* [ジャーニーの補足識別子の使用](supplemental-identifier.md)
-* [ガードレールと制限](../start/guardrails.md#read-segment-g)
-* [ジャーニー処理率とエントリ管理](entry-management.md)
-* [ジャーニーのテスト](testing-the-journey.md)
-* [ジャーニーの公開](../building-journeys/publish-journey.md)
+* [&#x200B; オーディエンスの作成](../audience/about-audiences.md) - オーディエンスの読み取りジャーニーでターゲットにするオーディエンスセグメントを作成および管理します。
+* [&#x200B; オーディエンス選定アクティビティ &#x200B;](audience-qualification-events.md) - プロファイルがオーディエンスに出入りするたびに、トリガージャーニーがリアルタイムで処理されます。
+* [&#x200B; ジャーニーで補足的なIDを使用](supplemental-identifier.md) - プロファイルにリンクされた予約、契約、サブスクリプションなどのセカンダリエンティティをターゲットにして、読み取りオーディエンスジャーニーを拡張します。
+* [&#x200B; ガードレールと制限事項](../start/guardrails.md#read-segment-g) - スループットの制限、再試行動作、オーディエンスサイズのしきい値を確認してから、大規模にローンチしてください。
+* [ジャーニーの処理速度とエントリ管理](entry-management.md) - プロファイルがジャーニーにどのように挿入され、何がエントリと再エントリを制御するかを理解します。
+* [&#x200B; ジャーニーのテスト &#x200B;](testing-the-journey.md) – 本番稼働前に、テストプロファイルを使用してジャーニーロジックを検証します。
+* [&#x200B; ジャーニーを公開](../building-journeys/publish-journey.md) - ジャーニーをアクティブ化し、その最初の実行を監視します。
+* [購読者にメッセージを送信](message-to-subscribers-uc.md) - エンドツーエンドのユースケース：設定から配信まで、オーディエンスの読み取りジャーニーで購読リストをターゲティングします。
+* [&#x200B; オーディエンスジャーニーの読み取りに関するベストプラクティス &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445?profile.language=ja){target="_blank"} – 一般的な落とし穴、カウントの不一致、実績のあるベストプラクティスを取り上げたコミュニティブログ。
 
 ## チュートリアルビデオ {#video}
 

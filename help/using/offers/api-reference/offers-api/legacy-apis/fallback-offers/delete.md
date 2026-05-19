@@ -2,7 +2,7 @@
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: フォールバックオファーの削除
-description: 他のオファーの対象ではない場合は、フォールバックオファーが顧客に送信されます
+description: フォールバックオファーは、他のオファーの対象とならない顧客に送信されます。
 feature: Decision Management, API
 badge: label="レガシー" type="Informative"
 topic: Integrations
@@ -23,7 +23,7 @@ role_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 174
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -31,21 +31,21 @@ ht-degree: 0%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer]の新しい決定機能である決定機能が、コードベースのエクスペリエンスとメールチャネルで利用できるようになりました。 [詳細情報](../../../../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。 [詳細情報](../../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
-（DELETE）フォールバックオファーを削除する必要がある場合があります。 テナントコンテナで作成したフォールバックオファーのみが削除されます。 これは、削除するフォールバックオファーの$idを使用して、[!DNL Offer Library] APIに対してDELETE リクエストを実行することで実行されます。
+場合によっては、フォールバックオファーを削除（DELETE）する必要があります。 テナントコンテナで作成したフォールバックオファーのみを削除できます。 これは、削除するフォールバックオファーの $id を使用して [!DNL Offer Library] API に対する DELETE リクエストを実行することでおこないます。
 
-**API形式**
+**API 形式**
 
 ```http
 DELETE /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 ```
 
-| パラメーター | 効果 | 例 |
+| パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | リポジトリ APIのエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | フォールバックオファーが配置されるコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{ENDPOINT_PATH}` | リポジトリ API のエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | フォールバックオファーが配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{INSTANCE_ID}` | フォールバックオファーのインスタンス ID。 | `b3966680-13ec-11eb-9c20-8323709cfc65` |
 
 **リクエスト**
@@ -62,6 +62,6 @@ curl -X DELETE \
 
 **応答**
 
-応答が成功すると、HTTP ステータス 202 （コンテンツなし）と空白の本文が返されます。
+リクエストが成功した場合は、HTTP ステータス 202（コンテンツなし）が空白の本文とともに返されます。
 
-フォールバックオファーに対してルックアップ（GET）リクエストを試行することで、削除を確定できます。 リクエストにAccept ヘッダーを含める必要がありますが、フォールバックオファーがコンテナから削除されたため、HTTP ステータス 404 （見つかりません）を受け取る必要があります。
+フォールバックオファーに対して検索（GET）リクエストを実行することで、削除を確認できます。 リクエストには Accept ヘッダーを含める必要がありますが、フォールバックオファーがコンテナから削除されたので、HTTP ステータス 404（見つかりません）を受け取ります。

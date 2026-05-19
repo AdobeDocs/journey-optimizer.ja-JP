@@ -2,7 +2,7 @@
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: 決定の作成
-description: 決定には、オファーの選択に役立つロジックが含まれます。
+description: 決定には、オファーの選択を通知するロジックが含まれています。
 feature: Decision Management, API
 badge: label="レガシー" type="Informative"
 topic: Integrations
@@ -24,7 +24,7 @@ role_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 129
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -32,29 +32,29 @@ ht-degree: 0%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer]の新しい決定機能である決定機能が、コードベースのエクスペリエンスとメールチャネルで利用できるようになりました。 [詳細情報](../../../../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。 [詳細情報](../../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
-コンテナ IDを指定しながら、[!DNL Offer Library] APIにPOST リクエストを行うことで、決定を作成できます。
+コンテナ ID を提供しながら [!DNL Offer Library] API に対して POST リクエストを実行することで、決定を作成できます。
 
-## 受け入れるヘッダーとコンテンツタイプのヘッダー {#accept-and-content-type-headers}
+## Accept ヘッダーと Content-Type ヘッダー {#accept-and-content-type-headers}
 
-次の表は、リクエストヘッダーの&#x200B;*Content-Type*&#x200B;および&#x200B;*Accept* フィールドを構成する有効な値を示しています。
+次の表に、リクエストヘッダーの *Content-Type* フィールドと *Accept* フィールドを構成する有効な値を示します。
 
 | ヘッダー名 | 値 |
 | ----------- | ----- |
-| コンテンツタイプ | `application/json` |
+| Content-Type | `application/json` |
 
-**API形式**
+**API 形式**
 
 ```http
 POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 ```
 
-| パラメーター | 効果 | 例 |
+| パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | リポジトリ APIのエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 決定が配置されるコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{ENDPOINT_PATH}` | リポジトリ API のエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | 決定が配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **リクエスト**
 
@@ -91,7 +91,7 @@ curl -X POST \
 
 **応答**
 
-応答が成功すると、一意の`id`を含む、新しく作成された決定に関する情報が返されます。 後の手順で`id`を使用して、決定を更新または削除できます。
+応答が成功すると、一意の `id` を含む新規作成された決定に関する情報が返されます。 後の手順で `id` を使用して、決定を更新または削除できます。
 
 ```json
 {

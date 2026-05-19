@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: ダイレクトメールメッセージの作成
 description: Journey Optimizer でダイレクトメールメッセージを作成する方法について説明します。
 feature: Direct Mail
@@ -24,10 +26,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 114f184e73298bf79d666ef7b17755498c93df83
 workflow-type: tm+mt
-source-wordcount: 975
-ht-degree: 92%
+source-wordcount: 1069
+ht-degree: 84%
 
 ---
 
@@ -66,17 +68,17 @@ ht-degree: 92%
 
 1. ダイレクトメールプロバイダーに送信する抽出ファイルを設定します。 これを行うには、「**[!UICONTROL コンテンツを編集]**」ボタンをクリックします。
 
-   ![](assets/direct-mail-add-journey.png)
+   ![&#x200B; アクション パレットからジャーニーにダイレクトメール アクティビティが追加されました](assets/direct-mail-add-journey.png)
 
 1. ファイル名や表示する列など、抽出ファイルのプロパティを調整します。 抽出ファイルのプロパティの設定方法について詳しくは、[ダイレクトメールメッセージの作成](../direct-mail/create-direct-mail.md#extraction-file)の節を参照してください。
 
-   ![](assets/direct-mail-journey-content.png)
+   ![&#x200B; ダイレクトメールジャーニーアクティビティ用の抽出ファイルコンテンツエディター](assets/direct-mail-journey-content.png)
 
 1. 抽出ファイルの内容を定義したら、テストプロファイルを使用して内容をプレビューできます。 パーソナライズされたコンテンツを挿入した場合は、そのコンテンツがメッセージにどのように表示されるかを、テストプロファイルデータを使用して確認できます。
 
    これを行うには、「**[!UICONTROL コンテンツをシミュレート]**」をクリックして、テストプロファイルを追加し、テストプロファイルデータを使用した抽出ファイルのレンダリング方法を確認します。 テストプロファイルの選択およびコンテンツのプレビュー方法について詳しくは、[コンテンツ管理](../content-management/preview-test.md)の節を参照してください。
 
-   ![](assets/direct-mail-simulate.png){width="800" align="center"}
+   ![&#x200B; ダイレクトメール抽出ファイルのコンテンツプレビューのシミュレーション &#x200B;](assets/direct-mail-simulate.png){width="800" align="center"}
 
 抽出ファイルの準備が整ったら、[ジャーニー](../building-journeys/journey-gs.md)の設定を完了させて送信します。
 
@@ -100,7 +102,7 @@ ht-degree: 92%
 
 1. 使用する&#x200B;**[!UICONTROL ダイレクトメール設定]**&#x200B;を選択または作成します。 [ダイレクトメール設定の作成方法について詳しくは、こちらを参照してください](direct-mail-configuration.md#direct-mail-surface)。
 
-   ![](assets/direct-mail-campaign.png){width="800" align="center"}
+   ![&#x200B; スケジュールされたマーケティングキャンペーンで設定されたダイレクトメールアクション &#x200B;](assets/direct-mail-campaign.png){width="800" align="center"}
 
    >[!AVAILABILITY]
    >
@@ -140,7 +142,7 @@ ht-degree: 92%
 
    1. 抽出ファイルの先頭または末尾に情報を追加することが必要になる場合があります。 その場合は、「**[!UICONTROL メモ]**」フィールドを使用して、メモをヘッダーまたはフッターとして含めるかどうかを指定します。
 
-      ![](assets/direct-mail-properties.png){width="800" align="center"}
+      ![&#x200B; ファイル名、タイムスタンプ、ヘッダーまたはフッターのメモを含む抽出ファイルのプロパティ &#x200B;](assets/direct-mail-properties.png){width="800" align="center"}
 
 1. 抽出ファイルに表示する列と情報を設定します。
 
@@ -152,10 +154,19 @@ ht-degree: 92%
 
    1. 列を使用して抽出ファイルを並べ替えるには、列を選択し、「**[!UICONTROL 並べ替え基準]**」オプションの切替スイッチをオンにします。 「**[!UICONTROL データフィールド]**」セクションで、列のラベルの横に&#x200B;**[!UICONTROL 並べ替え基準]**&#x200B;アイコンが表示されます。
 
-      ![](assets/direct-mail-content.png){width="800" align="center"}
+      ![&#x200B; ダイレクトメール抽出ファイルエディターのデータフィールドと列の書式設定](assets/direct-mail-content.png){width="800" align="center"}
 
    1. これらの手順を繰り返して、抽出ファイルに必要な数の列を追加します。 なお、追加できる列数は最大 50 です。
 
       列の位置を変更するには、「**[!UICONTROL データフィールド]**」セクションで、目的の位置に列をドラッグ＆ドロップします。 列を削除するには、列を選択し、**[!UICONTROL フォーマット]**&#x200B;パネルの「**[!UICONTROL 削除]**」ボタンをクリックします。
 
 これで、ダイレクトメールメッセージをテストし、オーディエンスに送信できるようになりました。 [ダイレクトメールメッセージのテストおよび送信の方法についてはこちらを参照](test-send-direct-mail.md)
+
+## 関連トピック {#related-topics}
+
+* [ダイレクトメールの基本を学ぶ](get-started-direct-mail.md)
+* [ダイレクトメールチャネルの設定](direct-mail-configuration.md)
+* [ダイレクトメールのテストと送信](test-send-direct-mail.md)
+* [コンテンツのプレビューとテスト](../content-management/preview-test.md)
+
+ダイレクトメールに関するよくある質問については、[&#x200B; ダイレクトメールの基本を学ぶ](get-started-direct-mail.md)を参照してください。

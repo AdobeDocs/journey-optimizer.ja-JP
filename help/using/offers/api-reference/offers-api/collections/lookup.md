@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
-title: コレクションを検索
-description: コレクションは、オファーのカテゴリなど、マーケターが定義した定義済みの条件に基づくオファーのサブセットです。
+title: コレクションの検索
+description: コレクションは、マーケターが事前に定義した条件（オファーのカテゴリなど）に基づくオファーのサブセットです。
 feature: Decision Management, API, Collections
 badge: label="レガシー" type="Informative"
 topic: Integrations
@@ -23,31 +23,31 @@ role_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 125
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# コレクションを検索 {#look-up-collection}
+# コレクションの検索 {#look-up-collection}
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer]の新しい決定機能である決定機能が、コードベースのエクスペリエンスとメールチャネルで利用できるようになりました。 [詳細情報](../../../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。 [詳細情報](../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
-コレクションは、オファーのカテゴリなど、マーケターが定義した定義済みの条件に基づくオファーのサブセットです。
+コレクションは、マーケターが事前に定義した条件（オファーのカテゴリなど）に基づくオファーのサブセットです。
 
-コレクション `id`をリクエストパスに含む[!DNL Offer Library] APIにGET リクエストを行うことで、特定のコレクションを検索できます。
+リクエストパスにコレクション `id` を含む GET リクエストを [!DNL Offer Library] API に対して実行することで、特定のコレクションを検索できます。
 
-**API形式**
+**API 形式**
 
 ```http
 GET /{ENDPOINT_PATH}/offer-collections/{ID}
 ```
 
-| パラメーター | 効果 | 例 |
+| パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | 永続性APIのエンドポイントパス。 | `https://platform.adobe.io/data/core/dps/` |
-| `{ID}` | 検索するエンティティのID。 | `offerCollection1234` |
+| `{ENDPOINT_PATH}` | 永続性 API のエンドポイントパス。 | `https://platform.adobe.io/data/core/dps/` |
+| `{ID}` | 参照するエンティティの ID。 | `offerCollection1234` |
 
 **リクエスト**
 
@@ -62,7 +62,7 @@ curl -X GET 'https://platform.adobe.io/data/core/dps/offer-collections/offerColl
 
 **応答**
 
-応答が成功すると、一意のコレクション `id`に関する情報を含むコレクションの詳細が返されます。
+正常な応答の場合は、一意のコレクション `id` に関する情報など、コレクションの詳細が返されます。
 
 ```json
 {

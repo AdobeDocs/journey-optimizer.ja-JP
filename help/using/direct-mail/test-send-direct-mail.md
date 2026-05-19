@@ -1,4 +1,6 @@
 ---
+solution: Journey Optimizer
+product: journey optimizer
 title: ダイレクトメールメッセージの確認および送信
 description: Journey Optimizer でダイレクトメールメッセージをテストおよび送信する方法を学ぶ
 feature: Direct Mail, Test Profiles, Preview
@@ -25,14 +27,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 114f184e73298bf79d666ef7b17755498c93df83
 workflow-type: tm+mt
-source-wordcount: 478
-ht-degree: 86%
+source-wordcount: 582
+ht-degree: 73%
 
 ---
 
 # ダイレクトメールメッセージの確認および送信 {#direct-mail-test-send}
+
+Journey Optimizerで抽出ファイルをプレビューし、ダイレクトメールキャンペーンまたはジャーニーを検証してアクティブ化し、郵便メールの同意を管理する方法について説明します。
+
+## 事前準備 {#before-you-start}
+
+ダイレクトメールメッセージをテストして送信する前に、[&#x200B; メッセージを作成し、抽出ファイルを設定します](create-direct-mail.md)。 [&#x200B; ダイレクトメールチャネル設定](direct-mail-configuration.md)も完了していることを確認してください。
 
 ## 抽出ファイルのプレビュー {#preview-dm}
 
@@ -40,7 +48,7 @@ ht-degree: 86%
 
 これを行うには、「**[!UICONTROL コンテンツをシミュレート]**」をクリックして、テストプロファイルを追加して、テストプロファイルデータを使用した抽出ファイルのレンダリング方法を確認します。
 
-![](assets/direct-mail-simulate.png){width="800" align="center"}
+![&#x200B; ダイレクトメール抽出ファイルのコンテンツプレビューのシミュレーション &#x200B;](assets/direct-mail-simulate.png){width="800" align="center"}
 
 テストプロファイルの選択およびコンテンツのプレビュー方法について詳しくは、「[コンテンツ管理](../content-management/preview-test.md)」の節を参照してください。
 
@@ -58,7 +66,7 @@ ht-degree: 86%
 
 * **エラー**&#x200B;が解決されない限り、キャンペーンを公開できません。 例えば、件名がない場合は、それを警告するエラーメッセージが表示されます。
 
-![](assets/direct-mail-review.png){width="800" align="center"}
+![&#x200B; ダイレクトメールキャンペーンの検証アラートを表示する画面のレビューとアクティベート &#x200B;](assets/direct-mail-review.png){width="800" align="center"}
 
 ダイレクトメールキャンペーンの準備ができたら、[&#x200B; ジャーニー](../building-journeys/journey-gs.md)または[&#x200B; キャンペーン &#x200B;](../campaigns/create-campaign.md)の設定を完了して送信します。
 
@@ -81,3 +89,12 @@ ht-degree: 86%
 プロファイルの属性を管理するには、Experience Platform に移動し、ID 名前空間と対応する ID 値を選択して、プロファイルにアクセスします。 詳しくは、[Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ja#getting-started){target="_blank"}を参照してください。
 
 Journey Optimizer でのオプトアウトの管理について詳しくは、[この節](../privacy/opt-out.md)を参照してください。
+
+## 関連トピック {#related-topics}
+
+* [ダイレクトメールの基本を学ぶ](get-started-direct-mail.md)
+* [ダイレクトメールメッセージの作成](create-direct-mail.md)
+* [ダイレクトメールチャネルの設定](direct-mail-configuration.md)
+* [コンテンツのプレビューとテスト](../content-management/preview-test.md)
+
+ダイレクトメールに関するよくある質問については、[&#x200B; ダイレクトメールの基本を学ぶ](get-started-direct-mail.md)を参照してください。

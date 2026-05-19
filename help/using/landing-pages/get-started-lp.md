@@ -25,10 +25,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 1e0a06dddba6c5ca4c53e4b143eb7fa7763ded6b
 workflow-type: tm+mt
-source-wordcount: 712
-ht-degree: 100%
+source-wordcount: 735
+ht-degree: 96%
 
 ---
 
@@ -130,3 +130,5 @@ ht-degree: 100%
 次のビデオでは、サブスクリプションリストの作成方法、サービスのオプトインまたはオプトアウトを行うためのランディングページの設定方法、メッセージへのオプトイン／オプトアウトのオプションの統合方法、関連するジャーニーの設定方法について説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/344400?captions=jpn&quality=12&learn=on)
+
+➡️ **実際に見る：** サブスクリプション管理、確認メール、データキャプチャのシナリオをカバーするステップバイステップの例については、[&#x200B; ランディングページのユースケース &#x200B;](lp-use-cases.md)を確認してください。

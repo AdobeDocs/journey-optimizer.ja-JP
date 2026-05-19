@@ -392,7 +392,7 @@ ht-degree: 99%
 <td>
 <p>承認ポリシーでは、Journey Optimizer 内で承認プロセスを設定できるようになりました。これにより、マーケティングチームは、キャンペーンとジャーニーが運用開始前に適切な関係者によってレビュー、およびサインオフされていると確かめられます。</p>
 <p>承認ポリシーは現在、一連の組織でのみ使用できます（限定提供）。 アクセスするには、アドビ担当者にお問い合わせください。</p>
-<p>詳しくは、<a href="../test-approve/gs-approval.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、 <a href="../test-approve/gs-approval.md">詳細なドキュメント</a>を参照してください。</p>
 <img src="assets/do-not-localize/approval.gif"/>
 </td>
 </tr>
@@ -674,7 +674,7 @@ ht-degree: 99%
 <td>
 <p>デフォルトのプロバイダーである Sinch、Infobip、Twilio に加えて、Journey Optimizer 内で追加の SMS プロバイダーを設定できるようになりました。</p>
 <img src="assets/do-not-localize/byo_sms.gif"/>
-<p>詳しくは、<a href="../sms/sms-configuration-custom.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、 <a href="../sms/sms-configuration-custom.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -725,7 +725,7 @@ ht-degree: 99%
 <td>
 <p>フラグメントをキャンペーンまたはジャーニーに追加する際に編集できる、フラグメント内に特定のフィールドを定義できるようになりました。 これにより、使用時にコンテンツ部分を調整でき、コンテキスト固有の詳細でデフォルト値を柔軟に上書きできます。</p>
 <img src="../content-management/assets/do-not-localize/gif-fragments.gif"/>
-<p>詳しくは、<a href="../content-management/customizable-fragments.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、 <a href="../content-management/customizable-fragments.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -743,7 +743,7 @@ ht-degree: 99%
 <td>
 <p>Journey Optimizer レポートでは、Customer Journey Analytics 機能との相互運用性が改善され、両方のプラットフォーム間でレポートが標準化され、データの一貫性と信頼性が向上します。 Journey Optimizer と Customer Journey Analytics のシームレスな統合により、パフォーマンス指標がより明確に表示され、ユーザーはより多くの情報に基づいて意思決定を行うことができます。</p>
 <img src="assets/do-not-localize/ajo-cja.gif"/>
-<p>詳しくは、<a href="../reports/report-gs-cja.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、 <a href="../reports/report-gs-cja.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -904,7 +904,7 @@ table>
 <p>これらの決定項目は、Journey Optimizer キャンペーン内でアクセス可能になった新しいコードベースのエクスペリエンスチャネルを通じて、幅広いインバウンド設定にシームレスに統合されます。 エクスペリエンス決定ポリシーは、コードベースのエクスペリエンスキャンペーンでのみ使用できます。</p>
 <p>エクスペリエンス決定は、現在一連の組織でのみ利用可能です（限定提供）。 アクセスするには、アドビ担当者にお問い合わせください。</p>
 <img src="assets/do-not-localize/gif-exd.gif"/>
-<p>詳しくは、<a href="../experience-decisioning/gs-experience-decisioning.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、 <a href="../experience-decisioning/gs-experience-decisioning.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>

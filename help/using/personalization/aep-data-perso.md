@@ -81,7 +81,7 @@ Journey Optimizer を使用すると、パーソナライゼーションエデ�
    * ルックアップデータセットとの結合に使用するフィールドは、*profile.upcomingFlightId* です。
    * 「フライト」参照の下のすべてのフィールド値を含めるようにします。
 
-1. Adobe Experience Platform データセットで呼び出す構文が設定されたら、取得するフィールドを指定できます。 構文は以下の通りです。
+1. Adobe Experience Platform データセットで呼び出す構文が設定されたら、取得するフィールドを指定できます。 構文は以下のとおりです。
 
    ```
    {{result.fieldId}}

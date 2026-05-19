@@ -2,7 +2,7 @@
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: フォールバックオファーの更新
-description: 他のオファーの対象ではない場合は、フォールバックオファーが顧客に送信されます
+description: フォールバックオファーは、他のオファーの対象とならない顧客に送信されます。
 feature: Decision Management, API
 badge: label="レガシー" type="Informative"
 topic: Integrations
@@ -23,7 +23,7 @@ role_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 186
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -31,31 +31,31 @@ ht-degree: 0%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer]の新しい決定機能である決定機能が、コードベースのエクスペリエンスとメールチャネルで利用できるようになりました。 [詳細情報](../../../../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。 [詳細情報](../../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
-PATCH リクエストを[!DNL Offer Library] APIに行うことで、コンテナ内のフォールバックオファーを変更または更新できます。
+[!DNL Offer Library] API に対して PATCH リクエストを実行することで、コンテナ内のフォールバックオファーを変更または更新できます。
 
-使用可能な操作を含むJSON パッチについて詳しくは、公式の[JSON パッチドキュメント &#x200B;](https://jsonpatch.com/)を参照してください。
+使用可能な操作など、JSON パッチの詳細については、[JSON パッチの公式ドキュメント](https://jsonpatch.com/)を参照してください。
 
-## 受け入れるヘッダーとコンテンツタイプのヘッダー {#accept-and-content-type-headers}
+## Accept ヘッダーと Content-Type ヘッダー {#accept-and-content-type-headers}
 
-次の表は、リクエストヘッダーの&#x200B;*Content-Type*&#x200B;および&#x200B;*Accept* フィールドを構成する有効な値を示しています。
+次の表に、リクエストヘッダーの *Content-Type* フィールドと *Accept* フィールドを構成する有効な値を示します。
 
 | ヘッダー名 | 値 |
 | ----------- | ----- |
-| コンテンツタイプ | `application/json` |
+| Content-Type | `application/json` |
 
-**API形式**
+**API 形式**
 
 ```http
 PATCH /{ENDPOINT_PATH}/{CONTAINER_ID}/instances/{INSTANCE_ID}
 ```
 
-| パラメーター | 効果 | 例 |
+| パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | リポジトリ APIのエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | フォールバックオファーが配置されるコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{ENDPOINT_PATH}` | リポジトリ API のエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | フォールバックオファーが配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{INSTANCE_ID}` | フォールバックオファーのインスタンス ID。 | `b3966680-13ec-11eb-9c20-8323709cfc65` |
 
 **リクエスト**
@@ -81,15 +81,15 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offers/fallbackOffer1234?
 ]'
 ```
 
-| パラメーター | 効果 |
+| パラメーター | 説明 |
 | --------- | ----------- |
-| `op` | 接続の更新に必要なアクションを定義するために使用される操作呼び出し。 操作には、`add`、`replace`および`remove`が含まれます。 |
+| `op` | 接続の更新に必要なアクションを定義するのに使用される操作呼び出し。 操作には、`add`、`replace`、`remove` があります。 |
 | `path` | 更新するパラメーターのパス。 |
-| `value` | パラメーターを更新する新しい値。 |
+| `value` | パラメーターの更新に使用する新しい値。 |
 
 **応答**
 
-応答が成功すると、一意のインスタンス `id`を含む、フォールバックオファーの更新された詳細が返されます。
+応答が成功すると、一意のインスタンス `id` を含む、フォールバックオファーの更新された詳細が返されます。
 
 ```json
 {

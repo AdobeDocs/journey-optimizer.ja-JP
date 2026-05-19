@@ -1,6 +1,6 @@
 ---
 title: コードベースの実装サンプル
-description: このページでは、Journey Optimizer コードベース機能の実装方法のサンプルを示します
+description: このページでは、Journey Optimizer のコードベース機能の実装方法のサンプルを紹介します。
 feature: Code-based Experiences
 topic: Content Management
 role: Developer
@@ -26,13 +26,13 @@ topic_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 1114
-ht-degree: 0%
+ht-degree: 82%
 
 ---
 
 # コードベースの実装方法のサンプル {#implementation-samples}
 
-コードベースのエクスペリエンスは、あらゆるタイプの顧客実装に対応します。 このページでは、各実装方法のサンプルを見つけることができます。
+コードベースのエクスペリエンスは、あらゆるタイプの顧客実装をサポートします。 このページでは、各実装方法のサンプルを確認できます。
 
 * [クライアントサイド](#client-side-implementation)
 * [サーバーサイド](#server-side-implementation)
@@ -40,27 +40,27 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->[このリンク &#x200B;](https://github.com/adobe/alloy-samples/tree/main/ajo){target="_blank"}に従って、様々なパーソナライゼーションと実験のユースケースのサンプル実装を確認してください。 必要な実装ステップと、エンドツーエンドのパーソナライゼーションフローの仕組みをより深く理解するために、これらのステップを確認して実行します。
+>[このリンク](https://github.com/adobe/alloy-samples/tree/main/ajo){target="_blank"}から、様々なパーソナライゼーションや実験のユースケースのサンプル実装を確認できます。 必要な実装手順とエンドツーエンドのパーソナライゼーションフローの仕組みをより深く理解するには、これらを確認および実行してください。
 
-➡️ コードベースのエクスペリエンスと決定のためのWeb SDKの設定について詳しくは、[これらのチュートリアル &#x200B;](code-based-decisioning-implementations.md#tutorials)を参照してください
+➡️ コードベースのエクスペリエンスと決定のための Web SDK の設定について詳しくは、[これらのチュートリアル](code-based-decisioning-implementations.md#tutorials)を参照してください
 
-## クライアントサイド実装 {#client-side-implementation}
+## クライアントサイドの実装 {#client-side-implementation}
 
-クライアントサイド実装がある場合は、AEP クライアント SDKの1つであるAEP Web SDKまたはAEP Mobile SDKを使用できます。
+クライアントサイドの実装がある場合、AEP Web SDK または AEP Mobile SDK のいずれかの AEP クライアント SDK を使用できます。
 
-* 以下の手順[は、サンプル **Web SDK**&#x200B;の実装で、エッジで公開されたコンテンツをコードベースのエクスペリエンスジャーニーおよびキャンペーンによって取得し、パーソナライズされたコンテンツを表示するプロセスを示しています。](#client-side-how)
+* [以下](#client-side-how)の手順では、サンプル **Web SDK** 実装のコードベースのエクスペリエンスジャーニーとキャンペーンによってエッジに公開されたコンテンツを取得し、パーソナライズされたコンテンツを表示するプロセスについて説明します。
 
-* **モバイル SDK**&#x200B;を使用してコードベースのチャネルを実装する手順については、[このチュートリアル &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial){target="_blank"}で説明します。
+* **Mobile SDK** を使用してコードベースのチャネルを実装する手順について詳しくは、[このチュートリアル](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/code-based/tutorial){target="_blank"}を参照してください。
 
   >[!NOTE]
   >
-  >モバイルのユースケース向けの実装の例は、[iOS アプリ &#x200B;](https://github.com/adobe/aepsdk-messaging-ios/tree/main/TestApps/MessagingDemoAppSwiftUI){target="_blank"}および[Android アプリ &#x200B;](https://github.com/adobe/aepsdk-messaging-android/tree/main/code/testapp){target="_blank"}で利用できます。
+  >モバイルユースケースのサンプル実装は、[iOS アプリ](https://github.com/adobe/aepsdk-messaging-ios/tree/main/TestApps/MessagingDemoAppSwiftUI){target="_blank"}と [Android アプリ](https://github.com/adobe/aepsdk-messaging-android/tree/main/code/testapp){target="_blank"}で利用できます。
 
-### 仕組み – Web SDK {#client-side-how}
+### 仕組み - Web SDK {#client-side-how}
 
-1. [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja){target="_blank"}がこのページに含まれています。
+1. [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja){target="_blank"} がページに含まれています。
 
-1. パーソナライゼーションコンテンツを取得するには、`sendEvent` コマンドを使用し、[&#x200B; サーフェス URI](code-based-surface.md)<!--( or location/path)-->を指定する必要があります。
+1. `sendEvent` コマンドを使用して[サーフェス URI](code-based-surface.md)<!--( or location/path)--> を指定し、パーソナライゼーションコンテンツを取得する必要があります。
 
    ```javascript
    alloy("sendEvent", {
@@ -71,9 +71,9 @@ ht-degree: 0%
    }).then(applyPersonalization("#sample-json-content"));
    ```
 
-1. コードベースのエクスペリエンス項目は、決定に基づいてDOMを更新するために、（[`applyPersonalization`](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/ajo/personalization-client-side/public/script.js){target="_blank"} メソッドを使用して）実装コードによって手動で適用する必要があります。
+1. コードベースのエクスペリエンス項目は、実装コード（[`applyPersonalization`](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/ajo/personalization-client-side/public/script.js){target="_blank"} メソッドを使用）により手動で適用され、決定に基づいて DOM を更新する必要があります。
 
-1. コードベースのエクスペリエンスジャーニーおよびキャンペーンの場合、コンテンツがいつ表示されたかを示すために、表示イベントを手動で送信する必要があります。 これは、`sendEvent` コマンドを使用して実行します。
+1. コードベースのエクスペリエンスジャーニーとキャンペーンの場合、コンテンツがいつ表示されたかを示すために、表示イベントを手動で送信する必要があります。 これは、`sendEvent` コマンドを使用して行われます。
 
    ```javascript
    function sendDisplayEvent(decision) {
@@ -99,7 +99,7 @@ ht-degree: 0%
    }
    ```
 
-1. コードベースのエクスペリエンスジャーニーおよびキャンペーンの場合、ユーザーがいつコンテンツを操作したかを示すために、インタラクションイベントを手動で送信する必要があります。 これは、`sendEvent` コマンドを使用して実行します。
+1. コードベースのエクスペリエンスジャーニーとキャンペーンの場合、ユーザーがいつコンテンツを操作したかを示すために、インタラクションイベントを手動で送信する必要があります。 これは、`sendEvent` コマンドを使用して行われます。
 
    ```javascript
    function sendInteractEvent(label, proposition) {
@@ -142,25 +142,25 @@ ht-degree: 0%
    >
    >トークンは通常`proposition.items[0].characteristics.tokens`に見つかります。決定コンテンツでユーザーのインタラクションを追跡する場合は、常に含める必要があります。
 
-### 重要な観察
+### 主な所見
 
 **Cookie**
 
-Cookieは、ユーザーIDとクラスター情報を保持するために使用されます。 クライアントサイド実装を使用する場合、Web SDKは、リクエストライフサイクル中にこれらのCookieの保存と送信を自動的に処理します。
+Cookie は、ユーザー ID とクラスター情報を保持するために使用されます。 クライアントサイドの実装を使用する場合、Web SDK は、リクエストのライフサイクル中にこれらの Cookie の保存と送信を自動処理します。
 
 | Cookie | 目的 | 保存者 | 送信者 |
 | ------------------------ | -------------------------------------------------------------------------- | --------- | ------- |
-| kndctr_AdobeOrg_identity | ユーザーIDの詳細が含まれます | Web SDK | Web SDK |
-| kndctr_AdobeOrg_cluster | リクエストを処理するために使用するエクスペリエンス エッジ クラスターを示します | Web SDK | Web SDK |
+| kndctr_AdobeOrg_identity | ユーザー ID の詳細を含む | Web SDK | Web SDK |
+| kndctr_AdobeOrg_cluster | リクエストを満たすために使用すべきエクスペリエンスエッジクラスターを示します。 | Web SDK | Web SDK |
 
-**プレースメントをリクエスト**
+**リクエストの配置**
 
-Adobe Experience Platform APIへのリクエストは、提案を取得し、表示通知を送信するために必要です。 クライアントサイド実装を使用する場合、`sendEvent` コマンドを使用すると、Web SDKはこれらのリクエストを行います。
+提案を取得し、表示通知を送信するには、Adobe Experience Platform API へのリクエストが必要です。 クライアントサイドの実装を使用する場合、Web SDK は `sendEvent` コマンドの使用時にこれらのリクエストを作成します。
 
 | リクエスト | 作成者 |
 | ---------------------------------------------- | ----------------------------------- |
-| 提案を取得するためのインタラクションリクエスト | sendEvent コマンドを使用したWeb SDK |
-| 表示通知を送信するためのインタラクションリクエスト | sendEvent コマンドを使用したWeb SDK |
+| 提案を取得するためのインタラクションリクエスト | sendEvent コマンドを使用する Web SDK |
+| 表示通知を送信するためのインタラクションリクエスト | sendEvent コマンドを使用する Web SDK |
 
 **フロー図**
 
@@ -168,14 +168,14 @@ Adobe Experience Platform APIへのリクエストは、提案を取得し、表
 
 ## サーバーサイド実装 {#server-side-implementation}
 
-サーバーサイド実装がある場合は、AEP Edge Network APIのいずれかを使用できます。
+サーバーサイド実装がある場合は、いずれかの AEP Edge Network API を使用できます。
 
-次の手順では、web ページのサンプル Edge Network API実装でコードベースのエクスペリエンスジャーニーとキャンペーンによってエッジに公開されたコンテンツを取得し、パーソナライズされたコンテンツを表示するプロセスについて説明します。
+次の手順では、web ページのサンプルの Edge Network API 実装で、コードベースのエクスペリエンスジャーニーとキャンペーンによってエッジに公開されたコンテンツを取得し、パーソナライズされたコンテンツを表示するプロセスについて説明します。
 
 ### 仕組み
 
-1. Web ページが要求され、`kndctr_`が先頭に付けられたブラウザーによって以前に保存されたCookieが含まれます。
-1. ページがアプリサーバーから要求されると、パーソナライゼーションコンテンツを取得するためのイベントが[&#x200B; インタラクティブデータ収集エンドポイント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=ja)に送信されます。 このサンプルアプリでは、いくつかのヘルパーメソッドを使用して、APIへのリクエストの作成と送信を簡素化します（[aepEdgeClient.js](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/common/aepEdgeClient.js){target="_blank"}を参照）。 しかし、リクエストは単なる`POST`で、イベントとクエリを含むペイロードがあります。 前の手順のCookie （使用可能な場合）は、`meta>state>entries`配列のリクエストに含まれます。
+1. Web ページがリクエストされ、ブラウザーによって以前に保存された `kndctr_` 接頭辞付きの Cookie が含まれます。
+1. アプリサーバーからページがリクエストされると、[インタラクティブデータ収集エンドポイント](https://experienceleague.adobe.com/docs/experience-platform/edge-network-server-api/data-collection/interactive-data-collection.html?lang=ja)にイベントが送信され、パーソナライゼーションコンテンツが取得されます。 このサンプルアプリでは、ヘルパーメソッドをいくつか使用して、API へのリクエストの作成と送信を簡素化します（[aepEdgeClient.js](https://github.com/adobe/alloy-samples/blob/ac83b6927d007dc456caad2c6ce0b324c99c26c9/common/aepEdgeClient.js){target="_blank"} を参照）。 ただし、このリクエストはイベントとクエリを含むペイロード付きの単なる `POST` です。 前の手順の Cookie（使用可能な場合）は、`meta>state>entries` 配列内のリクエストに含まれます。
 
    ```javascript
    fetch(
@@ -256,9 +256,9 @@ Adobe Experience Platform APIへのリクエストは、提案を取得し、表
    ).then((res) => res.json());
    ```
 
-1. コードベースのエクスペリエンスジャーニーおよびキャンペーンからのJSON エクスペリエンスは、レスポンスから読み取られ、HTML レスポンスの生成時に使用されます。
+1. コードベースのエクスペリエンスジャーニーとキャンペーンの JSON エクスペリエンスは、応答から読み取られ、HTML 応答の生成時に使用されます。
 
-1. コードベースのエクスペリエンスジャーニーおよびキャンペーンの場合、ジャーニーまたはキャンペーンコンテンツがいつ表示されたかを示すために、実装で表示イベントを手動で送信する必要があります。 この例では、通知はリクエストライフサイクル中にサーバーサイドで送信されます。
+1. コードベースのエクスペリエンスジャーニーとキャンペーンの場合、ジャーニーまたはキャンペーンのコンテンツがいつ表示されたかを示すために、実装内で表示イベントを手動で送信する必要があります。 この例では、通知はリクエストのライフサイクル中にサーバーサイドで送信されます。
 
    ```javascript
    function sendDisplayEvent(aepEdgeClient, req, propositions, cookieEntries) {
@@ -305,27 +305,27 @@ Adobe Experience Platform APIへのリクエストは、提案を取得し、表
    }
    ```
 
-1. HTML応答が返されると、IDおよびクラスタークッキーは、アプリケーションサーバーによって応答に設定されます。
+1. HTML 応答が返されると、ID とクラスターの Cookie がアプリケーションサーバーによって応答に設定されます。
 
-### 重要な観察
+### 主な所見
 
 **Cookie**
 
-Cookieは、ユーザーIDとクラスター情報を保持するために使用されます。 サーバーサイド実装を使用する場合、アプリケーションサーバーは、リクエストライフサイクル中にこれらのCookieの保存と送信を処理する必要があります。
+Cookie は、ユーザー ID とクラスター情報を保持するために使用されます。 サーバーサイド実装を使用する場合、アプリケーションサーバーは、リクエストのライフサイクル中にこれらの Cookie の保存と送信を処理する必要があります。
 
 | Cookie | 目的 | 保存者 | 送信者 |
 | ------------------------ | -------------------------------------------------------------------------- | ------------------ | ------------------ |
-| kndctr_AdobeOrg_identity | ユーザーIDの詳細が含まれます | アプリケーションサーバー | アプリケーションサーバー |
-| kndctr_AdobeOrg_cluster | リクエストを処理するために使用するエクスペリエンス エッジ クラスターを示します | アプリケーションサーバー | アプリケーションサーバー |
+| kndctr_AdobeOrg_identity | ユーザー ID の詳細を含む | アプリケーションサーバー | アプリケーションサーバー |
+| kndctr_AdobeOrg_cluster | リクエストを満たすために使用すべきエクスペリエンスエッジクラスターを示します。 | アプリケーションサーバー | アプリケーションサーバー |
 
-**プレースメントをリクエスト**
+**リクエストの配置**
 
-Adobe Experience Platform APIへのリクエストは、提案を取得し、表示通知を送信するために必要です。 クライアントサイド実装を使用する場合、`sendEvent` コマンドを使用すると、Web SDKはこれらのリクエストを行います。
+提案を取得し、表示通知を送信するには、Adobe Experience Platform API へのリクエストが必要です。 クライアントサイドの実装を使用する場合、Web SDK は `sendEvent` コマンドの使用時にこれらのリクエストを作成します。
 
 | リクエスト | 作成者 |
 | ---------------------------------------------- | ------------------------------------------------------------ |
-| 提案を取得するためのインタラクションリクエスト | Adobe Experience Platform APIを呼び出すアプリケーションサーバー |
-| 表示通知を送信するためのインタラクションリクエスト | Adobe Experience Platform APIを呼び出すアプリケーションサーバー |
+| 提案を取得するためのインタラクションリクエスト | Adobe Experience Platform API を呼び出すアプリケーションサーバー |
+| 表示通知を送信するためのインタラクションリクエスト | Adobe Experience Platform API を呼び出すアプリケーションサーバー |
 
 **フロー図**
 
@@ -333,10 +333,10 @@ Adobe Experience Platform APIへのリクエストは、提案を取得し、表
 
 ## ハイブリッド実装 {#hybrid-implementation}
 
-ハイブリッド実装を使用している場合は、以下のリンクを参照してください。
+ハイブリッド実装を使用している場合は、以下のリンクを確認してください。
 
-* Adobe Tech ブログ：[Adobe Experience Platform Web SDKのハイブリッド Personalization](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
-* SDK ドキュメント：[Web SDKとEdge Network Server APIを使用したハイブリッドパーソナライゼーション &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html?lang=ja){target="_blank"}
+* アドビのテクニカルブログ：[Adobe Experience Platform Web SDK のハイブリッドパーソナライゼーション](https://blog.developer.adobe.com/hybrid-personalization-in-the-adobe-experience-platform-web-sdk-6a1bb674bf41){target="_blank"}
+* SDK ドキュメント：[Web SDK と Edge Network Server API を使用したハイブリッドパーソナライゼーション](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/hybrid-personalization.html?lang=ja){target="_blank"}
 
 ## Adobe Experience Platform assuranceによるエッジネットワーク API呼び出しのデバッグ {#debugging-edge-api-assurance}
 

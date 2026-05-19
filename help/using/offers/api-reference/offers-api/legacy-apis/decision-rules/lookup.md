@@ -2,7 +2,7 @@
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: 決定ルールの検索
-description: 決定ルールは、パーソナライズされたオファーに追加され、適格性を判断するためにプロファイルに適用される制約です。
+description: 決定ルールは、パーソナライズされたオファーに追加される制約で、実施要件を決定するためにプロファイルに適用されます。
 feature: Decision Management, API
 badge: label="レガシー" type="Informative"
 topic: Integrations
@@ -24,7 +24,7 @@ role_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 183
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -32,24 +32,24 @@ ht-degree: 0%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer]の新しい決定機能である決定機能が、コードベースのエクスペリエンスとメールチャネルで利用できるようになりました。 [詳細情報](../../../../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。 [詳細情報](../../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
-デシジョンルール `@id`またはリクエストパス内のデシジョンルールの名前のいずれかを含む[!DNL Offer Library] APIにGET リクエストを行うことで、特定のデシジョンルールを検索できます。
+[!DNL Offer Library] API に対してリクエストパスに決定ルールの `@id` または名前を含める GET リクエストを実行することで、特定の決定ルールを検索できます。
 
-**API形式**
+**API 形式**
 
 ```http
 GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ELIGIBILITY_RULE}&{QUERY_PARAMS}
 ```
 
-| パラメーター | 効果 | 例 |
+| パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | リポジトリ APIのエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | リポジトリ API のエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | 決定ルールが配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_ELIGIBILITY_RULE}` | 決定ルールに関連付けられたスキーマを定義します。 | `https://ns.adobe.com/experience/offer-management/eligibility-rule;version=0.3` |
-| `id` | エンティティの`@id` プロパティに一致するために使用される文字列。 文字列が正確に一致します。 パラメーター`id`と`name`は同時に使用できません。 | `xcore:eligibility-rule:124e0faf5b8ee89b` |
-| `name` | エンティティのxdm:name プロパティに一致するために使用される文字列。 文字列は大文字と小文字が正確に一致しますが、ワイルドカード文字を使用できます。 パラメーター`id`と`name`は同時に使用できません | `Sales rule` |
+| `id` | エンティティの `@id` プロパティとマッチするために使用される文字列。 文字列は完全にマッチされます。 パラメーター `id` と `name` は一緒に使用できません。 | `xcore:eligibility-rule:124e0faf5b8ee89b` |
+| `name` | エンティティの xdm:name プロパティと一致させるのに使用される文字列。 文字列は大文字と小文字を区別して完全にマッチされますが、ワイルドカード文字を使用することもできます。 パラメーター `id` と `name` は一緒に使用できません。 | `Sales rule` |
 
 **リクエスト**
 
@@ -65,7 +65,7 @@ curl -X GET \
 
 **応答**
 
-応答が成功すると、一意の決定ルール `id`に関する情報を含め、検索した特定の決定ルールの詳細が返されます。
+正常な応答の場合は、一意の決定ルール `id` に関する情報など、検索した特定の決定ルールの詳細が返されます。
 
 ```json
   {

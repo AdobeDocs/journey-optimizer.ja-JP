@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
-title: コレクションを検索
-description: コレクションは、オファーのカテゴリなど、マーケターが定義した定義済みの条件に基づくオファーのサブセットです。
+title: コレクションの検索
+description: コレクションは、マーケターが事前に定義した条件（オファーのカテゴリなど）に基づくオファーのサブセットです。
 feature: Decision Management, API, Collections
 badge: label="レガシー" type="Informative"
 topic: Integrations
@@ -23,34 +23,34 @@ role_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 194
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# コレクションを検索 {#look-up-collection}
+# コレクションの検索 {#look-up-collection}
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer]の新しい決定機能である決定機能が、コードベースのエクスペリエンスとメールチャネルで利用できるようになりました。 [詳細情報](../../../../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。 [詳細情報](../../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
-コレクションは、オファーのカテゴリなど、マーケターが定義した定義済みの条件に基づくオファーのサブセットです。
+コレクションは、マーケターが事前に定義した条件（オファーのカテゴリなど）に基づくオファーのサブセットです。
 
-コレクション `@id`またはリクエストパス内のコレクションの名前を含む[!DNL Offer Library] APIにGET リクエストを行うことで、特定のコレクションを検索できます。
+[!DNL Offer Library] API に対してリクエストパスにコレクションの `@id` または名前を含む GET リクエストを実行することで、特定のコレクションを検索できます。
 
-**API形式**
+**API 形式**
 
 ```http
 GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FILTER}&{QUERY_PARAMS}
 ```
 
-| パラメーター | 効果 | 例 |
+| パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | リポジトリ APIのエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | リポジトリ API のエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | コレクションが配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_FILTER}` | コレクションに関連付けられたスキーマを定義します。 | `https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1` |
-| `id` | エンティティの`@id` プロパティに一致するために使用される文字列。 文字列が正確に一致します。 パラメーター`id`と`name`は同時に使用できません。 | `xcore:offer-filter:124bd44648f17ec1` |
-| `name` | エンティティのxdm:name プロパティに一致するために使用される文字列。 文字列は大文字と小文字が正確に一致しますが、ワイルドカード文字を使用できます。 パラメーター`id`と`name`は同時に使用できません | `Mobile demo` |
+| `id` | エンティティの `@id` プロパティとマッチするために使用される文字列。 文字列は完全にマッチされます。 パラメーター `id` と `name` は一緒に使用できません。 | `xcore:offer-filter:124bd44648f17ec1` |
+| `name` | エンティティの xdm:name プロパティと一致させるのに使用される文字列。 文字列は大文字と小文字を区別して完全にマッチされますが、ワイルドカード文字を使用することもできます。 パラメーター `id` と `name` は一緒に使用できません。 | `Mobile demo` |
 
 **リクエスト**
 
@@ -66,7 +66,7 @@ curl -X GET \
 
 **応答**
 
-応答が成功すると、コンテナ ID、インスタンス ID、一意のコレクション `@id`に関する情報を含む、プレースメントの詳細が返されます。
+正常な応答では、コレクションに関するプレースメントの詳細（コンテナ ID、インスタンス ID、一意のコレクション `@id` に関する情報を含む）が返されます。
 
 ```json
 {

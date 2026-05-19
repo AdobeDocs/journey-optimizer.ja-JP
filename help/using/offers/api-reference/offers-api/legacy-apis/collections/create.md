@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
-title: コレクションを作成
-description: コレクションは、オファーのカテゴリなど、マーケターが定義した定義済みの条件に基づくオファーのサブセットです。
+title: コレクションの作成
+description: コレクションは、マーケターが事前に定義した条件（オファーのカテゴリなど）に基づくオファーのサブセットです。
 feature: Decision Management, API, Collections
 badge: label="レガシー" type="Informative"
 topic: Integrations
@@ -23,39 +23,39 @@ role_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 177
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# コレクションを作成 {#create-collection}
+# コレクションの作成 {#create-collection}
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer]の新しい決定機能である決定機能が、コードベースのエクスペリエンスとメールチャネルで利用できるようになりました。 [詳細情報](../../../../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。 [詳細情報](../../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
-コレクションは、オファーのカテゴリなど、マーケターが定義した定義済みの条件に基づくオファーのサブセットです。
+コレクションは、マーケターが事前に定義した条件（オファーのカテゴリなど）に基づくオファーのサブセットです。
 
-コンテナ IDを指定しながら、[!DNL Offer Library] APIにPOST リクエストを行うことで、コレクションを作成できます。
+コンテナ ID を提供しながら [!DNL Offer Library] API に対して POST リクエストを実行して、コレクションを作成できます。
 
-## 受け入れるヘッダーとコンテンツタイプのヘッダー {#accept-and-content-type-headers}
+## Accept ヘッダーと Content-Type ヘッダー {#accept-and-content-type-headers}
 
-次の表は、リクエストヘッダーの&#x200B;*Content-Type*&#x200B;および&#x200B;*Accept* フィールドを構成する有効な値を示しています。
+次の表に、リクエストヘッダーの *Content-Type* フィールドと *Accept* フィールドを構成する有効な値を示します。
 
 | ヘッダー名 | 値 |
 | ----------- | ----- |
-| 承認 | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
-| コンテンツタイプ | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1"` |
+| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1"` |
 
-**API形式**
+**API 形式**
 
 ```http
 POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 ```
 
-| パラメーター | 効果 | 例 |
+| パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | リポジトリ APIのエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | リポジトリ API のエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | コレクションが配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **リクエスト**
@@ -80,7 +80,7 @@ curl -X POST \
 
 **応答**
 
-応答が成功すると、一意のインスタンス IDとプレースメント `@id`を含む、新しく作成されたコレクションに関する情報が返されます。 後の手順でインスタンス IDを使用して、コレクションを更新または削除できます。 後のチュートリアルで独自のコレクション `@id`を使用して、決定を作成できます。
+正常な応答では、新たに作成されたコレクションに関する情報（一意のインスタンス ID とプレースメント `@id` を含む）が返されます。 後の手順で、このインスタンス ID を使用してコレクションを更新または削除できます。 後のチュートリアルで、独自のコレクション`@id` を使用して決定を作成できます。
 
 ```json
 {
