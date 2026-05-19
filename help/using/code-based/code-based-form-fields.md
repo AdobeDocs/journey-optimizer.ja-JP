@@ -21,7 +21,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: a1d8b80ef06ab981d509c0f914bd37b588e684a7
 workflow-type: tm+mt
 source-wordcount: 1245
 ht-degree: 100%
@@ -93,7 +93,7 @@ JSON または HTML コードの一部を編集可能にするには、まず、
     | ------- | ------- | ------- |
     |Declare an editable field containing an **image source** that needs to be published.|`assetType="image"`|`{{#inline "editableFieldID" assetType="image"}}default_value{{/inline}}`|
     |Declare an editable field containing an **URL** that needs to be tracked.br/>Note that out-of-the-box "Mirror page URL" and "Unsubscribe link" predefined blocks cannot become editable fields.>|`assetType="url"`|`{{#inline "editableFieldID" assetType="url"}}default_value{{/inline}}`|
--->
+    -->
 
 1. 「**[!UICONTROL フォームフィールドをプレビュー]**」をクリックすると、このテンプレートを適用するコードベースのエクスペリエンスで編集可能なフォームフィールドの表示方法を確認できます。
 
