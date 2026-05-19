@@ -9,7 +9,7 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: db584aa8f95121d04a5fdb45b324a9677dbf123f
+source-git-commit: 94d84469a30e1e93b7e74a81d3ef19f588f521cc
 workflow-type: tm+mt
 source-wordcount: 1131
 ht-degree: 6%
@@ -48,7 +48,7 @@ ht-degree: 6%
 <table>
 <thead>
 <tr>
-<th><strong>リンクされたオーケストレーション施策</strong><br/></th>
+<th><strong>キャンペーンを連携</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -56,6 +56,7 @@ ht-degree: 6%
 <td>
 <p>オーケストレーションされたキャンペーンを、別のオーケストレーションされたキャンペーンの<strong>終了アクティビティ </strong>から直接、オーケストレーションされたキャンペーンをトリガーすることで、リンクできるようになりました。</p>
 <p>これにより、複雑なオーケストレーションロジックを、毎回再構築するのではなく、複数の親キャンペーンから呼び出すことができる、小さく再利用可能なフローに分割することができます。 実行時に渡されたペイロードは、ダウンストリームキャンペーンでセグメント化とパーソナライゼーションに使用できるため、リンクされた各キャンペーンは、受信したコンテキストに基づいて動作できます。</p>
+<!--<p><img src="assets/do-not-localize/oc-trigger.gif"></p>-->
 <p>ご利用いただけます：2026年5月19日（PT）</p>
 </td>
 </tr>
