@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 3d3218e24074ffb8ec36f1ec14ff8a6c45950d90
+source-git-commit: 9ad454186eced1eeb56fef8019b6c1c48db513b7
 workflow-type: tm+mt
 source-wordcount: '3326'
 ht-degree: 97%
@@ -511,9 +511,9 @@ ht-degree: 97%
          + {hide-from-toc}[&#x200B; コンテンツフラグメント用にリポジトリを設定](using/integrations/aem-admin-settings.md)
          + [Experience Manager コンテンツフラグメントの操作](using/integrations/aem-fragments.md)
          + [考慮事項とトラブルシューティング](using/integrations/aem-fragments-limitations.md)
-      + {hide-from-toc}[Experience Manager コンテンツアドバイザーの操作](using/content-management/aem-content-advisor.md)
-      + {hide-from-toc}[カウントダウンタイマーの挿入](using/integrations/countdown.md)
+      + [Experience Manager Content Advisorの操作](using/content-management/aem-content-advisor.md)
       + [Dynamic Media の操作](using/integrations/aem-dynamic.md)
+      + {hide-from-toc}[カウントダウンタイマーの挿入](using/integrations/countdown.md)
       + [GenStudio for Performance Marketing の操作](using/integrations/genstudio.md)
       + 統合 {#integrations}
          + [統合の操作](using/integrations/integrations.md)

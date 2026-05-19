@@ -32,12 +32,13 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 2402f60dbde4f79909ca8cc832a8d5de735c9c46
 workflow-type: tm+mt
 source-wordcount: 2307
 ht-degree: 74%
 
 ---
+
 
 # ジャーニーのテスト{#testing_the_journey}
 
