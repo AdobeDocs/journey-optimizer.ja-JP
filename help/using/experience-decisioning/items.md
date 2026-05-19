@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+source-git-commit: dfffbdc916a2ea6082d747927c28486e51fb381e
 workflow-type: tm+mt
-source-wordcount: '2199'
-ht-degree: 87%
+source-wordcount: '2247'
+ht-degree: 86%
 
 ---
 
@@ -34,6 +34,16 @@ Journey Optimizer では、決定項目と呼ばれるマーケティングオ�
 >title="決定項目の優先度を定義"
 >abstract="プロファイルが複数の項目に該当する場合、優先度によって、この決定項目を他の項目と比較できるようになります。 優先度が高い項目は、他の項目よりも優先されます。"
 
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_ajo_fragment"
+>title="Journey Optimizer コンテンツフラグメントをこの決定項目にマッピングする"
+>abstract="Journey Optimizerフラグメントライブラリからコンテンツフラグメントを添付します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_exd_item_aem_fragment"
+>title="AEM コンテンツフラグメントをこの決定項目にマッピングする"
+>abstract="この決定事項にコンテンツフラグメントを添付することで、Adobe Experience Managerから直接コンテンツを活用できます。"
+
 まず、決定項目の標準属性とカスタム属性を定義します。
 
 ![](assets/item-attributes.png)
@@ -48,7 +58,7 @@ Journey Optimizer では、決定項目と呼ばれるマーケティングオ�
 
 1. 「**タグ**」フィールドを使用すると、Adobe Experience Platform 統合タグを決定項目に割り当てることができます。 これにより、簡単に分類し、検索を改善できます。 [タグの操作方法について詳しくは、こちらを参照してください](../start/search-filter-categorize.md#tags)
 
-1. [&#x200B; フラグメント &#x200B;](../content-management/fragments.md)を使用して、決定項目に複数のコンテンツを追加します。例えば、複数のモバイルデバイスモデルに対して異なるコンテンツを表示する場合などです。 その後、これらのフラグメントを意思決定ポリシーで活用できます。 [詳細情報](fragments-decision-policies.md)
+1. [ フラグメント ](../content-management/fragments.md)を使用して、決定項目に複数のコンテンツを追加します。例えば、複数のモバイルデバイスモデルに対して異なるコンテンツを表示する場合などです。 その後、これらのフラグメントを意思決定ポリシーで活用できます。 [詳細情報](fragments-decision-policies.md)
 
    >[!AVAILABILITY]
    >
@@ -68,8 +78,8 @@ Journey Optimizer では、決定項目と呼ばれるマーケティングオ�
 >abstract="デフォルトでは、すべてのプロファイルが決定項目を受け取る資格を持ちますが、オーディエンスまたはルールを使用すると、項目を特定のプロファイルのみに制限できます。"
 
 <!--
->"additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 
