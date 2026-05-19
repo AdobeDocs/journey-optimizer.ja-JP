@@ -30,14 +30,20 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: da3860b0-d637-47df-bef0-273751180266
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 5b85708af07883e4690a0234399344012091844e
 workflow-type: tm+mt
-source-wordcount: 1198
-ht-degree: 100%
+source-wordcount: 1252
+ht-degree: 95%
 
 ---
 
 # [!DNL Experience Manager Assets] を使用したアセットの作成と管理{#experience-manager-assets}
+
+>[!BEGINSHADEBOX]
+
+Adobe Journey Optimizer ワークフローの既存の&#x200B;**アセットセレクター**&#x200B;および&#x200B;**コンテンツフラグメントセレクター**&#x200B;のエクスペリエンスは、**コンテンツアドバイザー**&#x200B;に置き換えられています。 Content Advisorは、AJOのオーサリングワークフロー内で、Assets、コンテンツフラグメント、Dynamic Mediaを直接検索して選択するための、AIを活用した統合インターフェイスを提供します。 既存の統合は、移行期間中も引き続き機能します。
+
+>[!ENDSHADEBOX]
 
 ## [!DNL Experience Manager Assets] の基本を学ぶ {#get-started-assets}
 
