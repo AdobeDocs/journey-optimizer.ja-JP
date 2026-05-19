@@ -88,13 +88,6 @@ JSONまたはHTML コードの一部を編集可能にするには、まず、�
    | **デフォルト値**&#x200B;を持つ編集可能なフィールドを宣言します。 テンプレートをコンテンツに追加する場合、このデフォルト値は、テンプレートをカスタマイズしない場合に使用されます。 | インラインタグ間にデフォルト値を追加します。 | `{{#inline "editableFieldID"}}default_value{{/inline}}` |
    | 編集可能なフィールドに&#x200B;**label**&#x200B;を定義します。 このラベルは、テンプレートのフィールドを編集するときにコードエディターに表示されます。 | `name="title"` | `{{#inline "editableFieldID" name="title"}}default_value{{/inline}}` |
 
-   <!--
-    | Action | Parameter| Example |
-    | ------- | ------- | ------- |
-    |Declare an editable field containing an **image source** that needs to be published.|`assetType="image"`|`{{#inline "editableFieldID" assetType="image"}}default_value{{/inline}}`|
-    |Declare an editable field containing an **URL** that needs to be tracked.br/>Note that out-of-the-box "Mirror page URL" and "Unsubscribe link" predefined blocks cannot become editable fields.>|`assetType="url"`|`{{#inline "editableFieldID" assetType="url"}}default_value{{/inline}}`|
-—>
-
 1. 「**[!UICONTROL フォームフィールドをプレビュー]**」をクリックして、このテンプレートを適用するコードベースのエクスペリエンスで編集可能なフォームフィールドがどのように表示されるかを確認します。
 
    ![](assets/cbe-template-form-field-preview.png){width="85%"}
