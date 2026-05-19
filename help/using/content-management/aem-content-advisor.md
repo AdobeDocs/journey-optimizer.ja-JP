@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Adobe Experience Manager Content Advisorは、決定論的な発見を、統一されたサーフェスからの標準化された意図に基づく発見に置き換えます。 これにより、AIを利用して、Assets、ダイナミックメディア、コンテンツフラグメントをJourney Optimizerのオーサリングワークフロー内で直接発見でき、マーケターの生産性とキャンペーンの効率性を向上させることができます。
 
-➡️ [Adobe Experience Manager Content Advisorについて詳しくは、Adobe Experience Manager ドキュメント ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/content-advisor/integrate-adobe-non-adobe-applications)を参照してください
+➡️ [Adobe Experience Manager Content Advisorについて詳しくは、Adobe Experience Manager ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/content-advisor/integrate-adobe-non-adobe-applications)を参照してください
 
 ## 利用可能な機能
 
