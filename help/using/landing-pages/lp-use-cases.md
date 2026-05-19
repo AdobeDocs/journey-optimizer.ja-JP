@@ -9,9 +9,28 @@ role: User
 level: Intermediate
 keywords: ランディング, ランディングページ, ユースケース
 exl-id: 8c00d783-54a3-45d9-bd8f-4dc58804d922
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+TQID: https://experienceleague.adobe.com/2NYDW7eFKVVHVzD-GFZkylilJp6AvzEm0r2Conlecss
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b19d9237-76be-466d-a869-aacf2d72205f
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1184'
+source-wordcount: 1238
 ht-degree: 100%
 
 ---
@@ -22,17 +41,17 @@ ht-degree: 100%
 
 ## サービスの購読 {#subscription-to-a-service}
 
-最も一般的な使用例の 1 つは、ランディングページを通じて（ニュースレターやイベントなどの）[サービスを購読する](subscription-list.md)ように顧客を招待することです。主な手順は次のグラフに示します。
+最も一般的な使用例の 1 つは、ランディングページを通じて（ニュースレターやイベントなどの）[サービスを購読する](subscription-list.md)ように顧客を招待することです。 主な手順は次のグラフに示します。
 
 ![](assets/lp_subscription-uc.png)
 
-例えば、来月イベントを開催し、<!--to keep your customers that are interested updated on that event-->イベント登録キャンペーンを開始するとします。これを行うには、受信者がこのイベントに登録できる、ランディングページへのリンクを含むメールを送信します。登録したユーザーは、この目的で作成したサブスクリプションリストに追加されます。
+例えば、来月イベントを開催し、<!--to keep your customers that are interested updated on that event-->イベント登録キャンペーンを開始するとします。 これを行うには、受信者がこのイベントに登録できる、ランディングページへのリンクを含むメールを送信します。 登録したユーザーは、この目的で作成したサブスクリプションリストに追加されます。
 
 ### ランディングページの設定 {#set-up-lp}
 
-イベント登録用のランディングページを設定するには、サブスクリプションリストを作成し、登録フォームを含むランディングページをデザインして、必要なページと設定を指定します。次の手順に従います。
+イベント登録用のランディングページを設定するには、サブスクリプションリストを作成し、登録フォームを含むランディングページをデザインして、必要なページと設定を指定します。 次の手順に従います。
 
-1. イベント登録の購読リストを作成します。このリストには、登録済みユーザーが格納されます。購読リストの作成方法については、[こちら](subscription-list.md#define-subscription-list)を参照してください。
+1. イベント登録の購読リストを作成します。このリストには、登録済みユーザーが格納されます。 購読リストの作成方法については、[こちら](subscription-list.md#define-subscription-list)を参照してください。
 
    ![](assets/lp_subscription-uc-list.png)
 
@@ -46,7 +65,7 @@ ht-degree: 100%
 
    ![](assets/lp_subscription-uc-lp-list.png)
 
-1. 受信者が登録フォームを送信したときに、受信者に表示される「ありがとうございました」ページを作成します。ランディングサブページの設定方法については、[こちら](create-lp.md#configure-subpages)を参照してください。
+1. 受信者が登録フォームを送信したときに、受信者に表示される「ありがとうございました」ページを作成します。 ランディングサブページの設定方法については、[こちら](create-lp.md#configure-subpages)を参照してください。
 
    ![](assets/lp_subscription-uc-thanks.png)
 
@@ -58,25 +77,25 @@ ht-degree: 100%
 
 1. イベントの登録が開始されたことを通知する[メールをデザイン](../email/get-started-email-design.md)します。
 
-1. メッセージコンテンツに[リンクを挿入](../email/message-tracking.md#insert-links)します。「**[!UICONTROL ランディングページ]**」を&#x200B;**[!UICONTROL リンクタイプ]**&#x200B;として選択し、登録用に作成した[ランディングページ](create-lp.md#configure-primary-page)を選択します。
+1. メッセージコンテンツに[リンクを挿入](../email/message-tracking.md#insert-links)します。 「**[!UICONTROL ランディングページ]**」を&#x200B;**[!UICONTROL リンクタイプ]**&#x200B;として選択し、登録用に作成した[ランディングページ](create-lp.md#configure-primary-page)を選択します。
 
    ![](assets/lp_subscription-uc-link.png)
 
    >[!NOTE]
    >
-   >メッセージを送信するには、選択したランディングページがまだ期限切れでないことを確認します。有効期限の更新方法について詳しくは、[この節](create-lp.md#configure-primary-page)を参照してください。
+   >メッセージを送信するには、選択したランディングページがまだ期限切れでないことを確認します。 有効期限の更新方法について詳しくは、[この節](create-lp.md#configure-primary-page)を参照してください。
 
    メールを受信した受信者がランディングページへのリンクをクリックすると、「ありがとうございました」ページに移動し、購読リストに追加されます。
 
 ### 確認メールの送信 {#send-confirmation-email}
 
-さらに、イベントに登録した受信者に確認メールを送信できます。これを行うには、以下の手順に従います。
+さらに、イベントに登録した受信者に確認メールを送信できます。 これを行うには、以下の手順に従います。
 
-1. 別の[ジャーニー](../building-journeys/journey.md)を作成します。「**[!UICONTROL ジャーニーの作成]**」ボタンをクリックすると、ランディングページから直接実行できます。[詳細情報](create-lp.md#configure-primary-page)
+1. 別の[ジャーニー](../building-journeys/journey.md)を作成します。 「**[!UICONTROL ジャーニーの作成]**」ボタンをクリックすると、ランディングページから直接実行できます。 [詳細情報](create-lp.md#configure-primary-page)
 
    ![](assets/lp_subscription-uc-create-journey.png)
 
-1. **[!UICONTROL イベント]**&#x200B;カテゴリを展開し、**[!UICONTROL オーディエンスの選定]**&#x200B;アクティビティをキャンバスにドロップします。[詳細情報](../building-journeys/audience-qualification-events.md)
+1. **[!UICONTROL イベント]**&#x200B;カテゴリを展開し、**[!UICONTROL オーディエンスの選定]**&#x200B;アクティビティをキャンバスにドロップします。 [詳細情報](../building-journeys/audience-qualification-events.md)
 
 1. 「**[!UICONTROL オーディエンス]**」フィールドをクリックし、作成した購読リストを選択します。
 
@@ -100,7 +119,7 @@ ht-degree: 100%
 
 ### オプトアウト管理 {#opt-out-management}
 
-ブランドからの連絡を登録解除する機能を受信者に提供することは、法的要件です。該当する法律について詳しくは、[Experience Platformドキュメント](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=ja#regulations){target="_blank"}を参照してください。
+ブランドからの連絡を登録解除する機能を受信者に提供することは、法的要件です。 該当する法律について詳しくは、[Experience Platformドキュメント](https://experienceleague.adobe.com/docs/experience-platform/privacy/regulations/overview.html?lang=ja#regulations){target="_blank"}を参照してください。
 
 したがって、受信者に送信されるすべての メールに、**登録解除リンク**&#x200B;を必ず含める必要があります。
 
@@ -111,9 +130,9 @@ ht-degree: 100%
 
 メールの受信者がランディングページを通じてコミュニケーションを登録解除するには、次の手順に従います。
 
-1. ランディングページを作成します。[詳細情報](create-lp.md)
+1. ランディングページを作成します。 [詳細情報](create-lp.md)
 
-1. プライマリページを定義します。[詳細情報](create-lp.md#configure-primary-page)
+1. プライマリページを定義します。 [詳細情報](create-lp.md#configure-primary-page)
 
 1. プライマリページコンテンツの[デザイン](design-lp.md)：ランディングページ固有の&#x200B;**[!UICONTROL フォーム]**&#x200B;コンポーネントを使用して、「**[!UICONTROL オプトアウト]**」チェックボックスを定義し、**[!UICONTROL チャネル（メール）]**&#x200B;の更新を選択します。ランディングページでオプトアウトボックスをオンにしたプロファイルは、すべてのお知らせからオプトアウトされます。
 
@@ -127,13 +146,13 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >必ずプライマリページの&#x200B;**[!UICONTROL フォーム]**&#x200B;コンポーネントの「**[!UICONTROL コールトゥアクション]**」セクションにあるサブページを参照してください。[詳細情報](design-lp.md)
+   >必ずプライマリページの&#x200B;**[!UICONTROL フォーム]**&#x200B;コンポーネントの「**[!UICONTROL コールトゥアクション]**」セクションにあるサブページを参照してください。 [詳細情報](design-lp.md)
 
 1. ページのコンテンツを設定して定義したら、ランディングページを[公開](create-lp.md#publish-landing-page)します。
 
 1. ジャーニーで[メールメッセージを作成します](../email/get-started-email-design.md)。
 
-1. コンテンツ内のテキストを選択し、コンテキストツールバーを使用して[リンクを挿入](../email/message-tracking.md#insert-links)します。ボタンにリンクを使用することもできます。
+1. コンテンツ内のテキストを選択し、コンテキストツールバーを使用して[リンクを挿入](../email/message-tracking.md#insert-links)します。 ボタンにリンクを使用することもできます。
 
 1. **[!UICONTROL リンクタイプ]**&#x200B;ドロップダウンリストから「**[!UICONTROL ランディングページ]**」を選択し、オプトアウト用に作成した[ランディングページ](create-lp.md#configure-primary-page)を選択します。
 
@@ -141,9 +160,9 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >メッセージを送信するには、選択したランディングページがまだ期限切れでないことを確認します。有効期限の更新方法について詳しくは、[この節](create-lp.md#configure-primary-page)を参照してください。
+   >メッセージを送信するには、選択したランディングページがまだ期限切れでないことを確認します。 有効期限の更新方法について詳しくは、[この節](create-lp.md#configure-primary-page)を参照してください。
 
-1. ジャーニーを公開して実行します。[詳細情報](../building-journeys/journey.md)。
+1. ジャーニーを公開して実行します。 [詳細情報](../building-journeys/journey.md)。
 
 1. メッセージを受け取った受信者がメールの登録解除リンクをクリックすると、ランディングページが表示されます。
 
@@ -159,17 +178,17 @@ ht-degree: 100%
 
    * プロファイルデータは更新され、再度登録しない限り、ブランドからのお知らせは届きません。
 
-対応するプロファイルの選択が更新されたことを確認するには、Experience Platform に移動し、ID 名前空間と対応する ID 値を選択してプロファイルにアクセスします。詳しくは、[Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ja#getting-started){target="_blank"}を参照してください。
+対応するプロファイルの選択が更新されたことを確認するには、Experience Platform に移動し、ID 名前空間と対応する ID 値を選択してプロファイルにアクセスします。 詳しくは、[Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ja#getting-started){target="_blank"}を参照してください。
 
 ![](assets/lp_opt-out-profile-choice.png)
 
 「**[!UICONTROL 属性]**」タブで、**[!UICONTROL choice]** の値が **[!UICONTROL no]** に変更されたことを確認できます。
 
-オプトアウト情報は、**同意サービスデータセット**&#x200B;に保存されます。[詳しくは、データセットを参照してください](../data/get-started-datasets.md)
+オプトアウト情報は、**同意サービスデータセット**&#x200B;に保存されます。 [詳しくは、データセットを参照してください](../data/get-started-datasets.md)
 
 >[!NOTE]
 >
->デフォルトの [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target="_blank"} **[!UICONTROL プロファイル]**&#x200B;結合ポリシーの結合方法が&#x200B;**[!UICONTROL データセットの優先順位]**&#x200B;である場合は、必ず **[!UICONTROL AJO 同意サービスデータセット]**&#x200B;を有効にし、結合ポリシーで優先順位を付けます。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ja#dataset-precedence-profile){target="_blank"}
+>デフォルトの [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target="_blank"} **[!UICONTROL プロファイル]**&#x200B;結合ポリシーの結合方法が&#x200B;**[!UICONTROL データセットの優先順位]**&#x200B;である場合は、必ず **[!UICONTROL AJO 同意サービスデータセット]**&#x200B;を有効にし、結合ポリシーで優先順位を付けます。 [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ja#dataset-precedence-profile){target="_blank"}
 >
 >このデータセットにバッチが追加されていない場合でも、オプトイン／オプトアウト情報は含まれます。
 
@@ -194,13 +213,13 @@ You can also enable your recipients to unsubscribe whithout using landing pages.
 
 ## ランディングページ送信イベントの活用 {#leverage-lp-event}
 
-ランディングページで送信された情報を使用して、追加のアクションを実行できます。例えば、ユーザーが特定の購読リストに登録している場合、その情報を活用して、そのユーザーに他の購読リストを推奨するメールを送信できます。
+ランディングページで送信された情報を使用して、追加のアクションを実行できます。 例えば、ユーザーが特定の購読リストに登録している場合、その情報を活用して、そのユーザーに他の購読リストを推奨するメールを送信できます。
 
 これを行うには、送信情報を含む **[!UICONTROL AJO メールトラッキングエクスペリエンスイベントスキーマ]**&#x200B;に基づいて[ルールベースの単一イベント](../event/about-creating.md)を作成し、[このイベントをジャーニーで使用](../building-journeys/general-events.md)する必要があります。
 
 >[!NOTE]
 >
->ランディングページの送信イベントを操作する際、イベントの `interactionType` フィールドが必ずしも特定のユーザーアクションを正確に反映するとは限りません。ユーザーがオプトアウト、購読または別のアクションを実行したかを正確に判断するには、イベント `interactionType` にのみ依存するのではなく、実際のプロファイル属性（同意環境設定など）またはフォームフィールドの値を常に確認します。
+>ランディングページの送信イベントを操作する際、イベントの `interactionType` フィールドが必ずしも特定のユーザーアクションを正確に反映するとは限りません。 ユーザーがオプトアウト、購読または別のアクションを実行したかを正確に判断するには、イベント `interactionType` にのみ依存するのではなく、実際のプロファイル属性（同意環境設定など）またはフォームフィールドの値を常に確認します。
 
 <!--
 DETAILED STEPS TBC:

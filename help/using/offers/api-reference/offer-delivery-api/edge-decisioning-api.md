@@ -10,10 +10,39 @@ role: Developer
 level: Experienced
 exl-id: 4e2dc0d6-4610-4a2f-8388-bc58182b227f
 version: Journey Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/R67mn2Jcjy0AMa7KwnQ3p9AXihTCjoWlLPJlvBOJwNQ
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: c132d929-fa62-4271-803e-b823be07b914
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: daec7ead-f475-492a-a3b3-02ae08565d6f
+  - id: e08599ea-8888-4294-ba74-3ba0a7762a46
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2:
+  - id: abc02dd6-664f-446a-9aaa-675bc0f2fe4a
+  - id: acc16deb-1d7f-4ec9-9ce3-6cdf355afde6
+  - id: ae2cba0e-54f2-464b-a3b3-ad371e8a886a
+  - id: ca3d6bf4-a4af-4944-936b-8de1eb09f149
+  - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+  - id: d9830f6f-ceb6-4faa-9744-f281fe4439f9
+  - id: de9975b2-c43a-4287-9698-4f4cad92b83f
+  - id: f6ff4d13-7b5c-4533-8556-95e76673d4cb
+  - id: f9a2105e-7a47-4e85-9193-31a519a2cb83
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 98%
+source-wordcount: 1068
+ht-degree: 97%
 
 ---
 
@@ -21,15 +50,15 @@ ht-degree: 98%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。 [詳細情報](../../../experience-decisioning/gs-experience-decisioning.md)
 
 ## 概要と前提条件 {#edge-overview-and-prerequisites}
 
 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja#video-overview) は、Adobe Experience Cloud のお客様が Experience Platform Edge Network を通じて Experience Cloud の様々なサービスを操作できるようにする、クライアントサイド JavaScript ライブラリです。
 
- Experience Platform Web SDK では、意思決定管理を含む Adobe のパーソナライゼーションソリューションのクエリをサポートしており、API またはオファーライブラリを使用して作成した、パーソナライズされたオファーを取得およびレンダリングできます。詳しい手順については、[オファーの作成](../../get-started/starting-offer-decisioning.md)についてのドキュメントを参照してください。
+Experience Platform Web SDK では、意思決定管理を含む Adobe のパーソナライゼーションソリューションのクエリをサポートしており、API またはオファーライブラリを使用して作成した、パーソナライズされたオファーを取得およびレンダリングできます。 詳しい手順については、[オファーの作成](../../get-started/starting-offer-decisioning.md)についてのドキュメントを参照してください。
 
-[Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja#video-overview) を使用して 意思決定管理を実装するには、2 つの方法があります。1 つ目は、開発者が対象の、web サイトやプログラミングに関する知識を必要とする方法です。もう 1 つは、Adobe Experience Platform のユーザーインターフェイスを使用して、HTML ページのヘッダーで参照する小さなスクリプトのみを必要とするオファーを設定する方法です。
+[Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ja#video-overview) を使用して 意思決定管理を実装するには、2 つの方法があります。 1 つ目は、開発者が対象の、web サイトやプログラミングに関する知識を必要とする方法です。 もう 1 つは、Adobe Experience Platform のユーザーインターフェイスを使用して、HTML ページのヘッダーで参照する小さなスクリプトのみを必要とするオファーを設定する方法です。
 
 Adobe Experience Platform Web SDK を使用してパーソナライズされたオファーを配信する方法について詳しくは、[意思決定管理](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/offer-decisioning/offer-decisioning-overview.html?lang=ja#enabling-offer-decisioning)に関する Adobe Experience Platform のドキュメントを参照してください。
 
@@ -42,7 +71,7 @@ Platform Web SDK は、次の SDK を置き換えます。
 * AT.js
 * DIL.js
 
-SDK は、これらのライブラリを組み合わせることができず、最初から新しく実装されます。これを使用するには、まず次の手順に従う必要があります。
+SDK は、これらのライブラリを組み合わせることができず、最初から新しく実装されます。 これを使用するには、まず次の手順に従う必要があります。
 
 1. 組織が SDK を使用するための適切な権限を持っていることと、権限を正しく設定していることを確認します。
 
@@ -50,7 +79,7 @@ SDK は、これらのライブラリを組み合わせることができず、�
 
 1. Adobe Experience Cloud のアカウントにある「データ収集」タブで[データストリームを設定](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html?lang=ja)します。
 
-1. SDK をインストールします。[SDK ページのインストール](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=ja)に記載されているように、複数の方法があります。このページでは、様々な実装方法を使用して説明を続けます。
+1. SDK をインストールします。 [SDK ページのインストール](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=ja)に記載されているように、複数の方法があります。 このページでは、様々な実装方法を使用して説明を続けます。
 
 SDK を使用するには、[スキーマ](../../../data/get-started-schemas.md)および[データストリーム](../../../data/get-started-datasets.md)を定義する必要があります。
 
@@ -64,7 +93,7 @@ SDK を使用するには、[スキーマ](../../../data/get-started-schemas.md)
 >
 >**Edge 決定リクエストでのコンテキストデータの受け渡し**
 >
->Edge 決定リクエストでコンテキストデータ（デバイスタイプ、場所、ユーザーの環境設定など）を渡して、動的な実施要件ルールを作成し、リアルタイムの条件に基づいてパーソナライズされたオファーを配信できます。[コンテキストデータと Edge 決定リクエストの詳細情報](../../context-data-edge.md)
+>Edge 決定リクエストでコンテキストデータ（デバイスタイプ、場所、ユーザーの環境設定など）を渡して、動的な実施要件ルールを作成し、リアルタイムの条件に基づいてパーソナライズされたオファーを配信できます。 [コンテキストデータと Edge 決定リクエストの詳細情報](../../context-data-edge.md)
 
 意思決定管理の SDK を設定するには、次の 2 つの手順に従います。
 
@@ -76,13 +105,13 @@ SDK を使用するには、[スキーマ](../../../data/get-started-schemas.md)
 
 1. [埋め込みコードの追加](https://experienceleague.adobe.com/docs/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch-add-embed.html?lang=ja)
 
-1. 「データストリーム」ドロップダウンから設定を選択し、作成したデータストリームを使用して、Adobe Experience Platform Web SDK 拡張機能をインストールして設定します。詳しくは、[拡張機能](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=ja)に関するドキュメントを参照してください。
+1. 「データストリーム」ドロップダウンから設定を選択し、作成したデータストリームを使用して、Adobe Experience Platform Web SDK 拡張機能をインストールして設定します。 詳しくは、[拡張機能](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/overview.html?lang=ja)に関するドキュメントを参照してください。
 
    ![Adobe Experience Platform Web SDK](../../assets/installed-catalog-web-sdk.png)
 
    ![拡張機能の設定](../../assets/configure-sdk-extension.png)
 
-1. 必要な[データ要素](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=ja)を作成します。少なくとも、Platform Web SDK ID マップおよび Platform Web SDK XDM オブジェクトデータ要素を作成する必要があります。
+1. 必要な[データ要素](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=ja)を作成します。 少なくとも、Platform Web SDK ID マップおよび Platform Web SDK XDM オブジェクトデータ要素を作成する必要があります。
 
    ![ID マップ](../../assets/sdk-identity-map.png)
 
@@ -100,7 +129,7 @@ SDK を使用するには、[スキーマ](../../../data/get-started-schemas.md)
 
 ## オプション 2 - 事前にビルドされたスタンドアロンバージョンを使用して手動で実装
 
-Web SDK のビルド済みスタンドアロンインストールを使用して意思決定管理を使用するために必要な手順は次のとおりです。このガイドは、SDK を初めて実装する場合を想定しています。そのため、すべての手順が当てはまるとは限りません。このガイドは、ある程度の開発経験も前提としています。
+Web SDK のビルド済みスタンドアロンインストールを使用して意思決定管理を使用するために必要な手順は次のとおりです。 このガイドは、SDK を初めて実装する場合を想定しています。そのため、すべての手順が当てはまるとは限りません。 このガイドは、ある程度の開発経験も前提としています。
 
 オプション 2 から次の JavaScript スニペットを含める：HTML ページの「`<head>` 」セクションに表示される[このページ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=ja)のビルド済みスタンドアロンバージョン。
 
@@ -115,11 +144,11 @@ javascript
     <script src="https://cdn1.adoberesources.net/alloy/2.6.4/alloy.js" async></script>
 ```
 
-SDK 設定をセットアップするには、アドビアカウント内から 2 つの ID（edgeConfigId および orgId）が必要です。edgeConfigId は、前提条件で設定する必要があるデータストリーム ID と同じです。
+SDK 設定をセットアップするには、アドビアカウント内から 2 つの ID（edgeConfigId および orgId）が必要です。 edgeConfigId は、前提条件で設定する必要があるデータストリーム ID と同じです。
 
-edgeConfigID やデータストリーム ID の検索には、データ収集に移動し、「データストリーム」を選択します。orgId を検索するには、自分のプロファイルに移動します。
+edgeConfigID やデータストリーム ID の検索には、データ収集に移動し、「データストリーム」を選択します。 orgId を検索するには、自分のプロファイルに移動します。
 
-このページの手順に従って、JavaScript で SDK を設定します。設定関数では、必ず edgeConfigId と orgId を使用します。このドキュメントでは、設定に存在するオプションのパラメーターについても説明します。最終的な設定は、次のようになります。
+このページの手順に従って、JavaScript で SDK を設定します。 設定関数では、必ず edgeConfigId と orgId を使用します。 このドキュメントでは、設定に存在するオプションのパラメーターについても説明します。 最終的な設定は、次のようになります。
 
 ```
 javascript
@@ -135,9 +164,9 @@ javascript
     });
 ```
 
-デバッグで使用する Debugger Chrome 拡張機能をインストールします。詳細はこちら <https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob> をご覧ください。
+デバッグで使用する Debugger Chrome 拡張機能をインストールします。 詳細はこちら <https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob> をご覧ください。
 
-次に、デバッガー内でアカウントにログインします。次に、ログに移動し、正しいワークスペースに接続されていることを確認します。次に、オファーから base64 エンコードされたバージョンの決定範囲をコピーします。
+次に、デバッガー内でアカウントにログインします。 次に、ログに移動し、正しいワークスペースに接続されていることを確認します。 次に、オファーから base64 エンコードされたバージョンの決定範囲をコピーします。
 
 Web サイトの編集時に、設定および `sendEvent` 関数と共にスクリプトを使用して、決定範囲を Adobe に送信します。
 
@@ -175,7 +204,7 @@ javascript
 >
 >ログの Edge への接続が表示されない場合は、広告ブロッカーを無効にする必要がある可能性があります。
 
-オファーの作成方法および使用している書式に戻ります。決定で満たされた条件に基づいて、オファーが、Adobe Experience Platform 内で作成する際に指定した情報を含むユーザーに返されます。
+オファーの作成方法および使用している書式に戻ります。 決定で満たされた条件に基づいて、オファーが、Adobe Experience Platform 内で作成する際に指定した情報を含むユーザーに返されます。
 
 この例では、返される JSON は次のようになります。
 
@@ -189,7 +218,7 @@ json
 }
 ```
 
-応答オブジェクトを処理し、必要なデータを解析します。複数の決定範囲を 1 回の `sendEvent` 呼び出しで送信できるため、応答が若干異なって見える場合があります。
+応答オブジェクトを処理し、必要なデータを解析します。 複数の決定範囲を 1 回の `sendEvent` 呼び出しで送信できるため、応答が若干異なって見える場合があります。
 
 ```
 json

@@ -10,10 +10,26 @@ level: Intermediate
 keywords: タイムゾーン, プロパティ, ジャーニー, 条件, 時間, 日付, カスタム
 exl-id: 3bcc08d6-1210-4ff9-92f4-edee8285b469
 version: Journey Orchestration
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/PdwGEuWqJcncbkokE0eOhMaEk9L0AmCJ--VZBxxtDDU
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2:
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 65%
+source-wordcount: 378
+ht-degree: 78%
 
 ---
 
@@ -21,7 +37,7 @@ ht-degree: 65%
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_time_zone"
->title="ジャーニータイムゾーン"
+>title="ジャーニーのタイムゾーン"
 >abstract="ジャーニーのタイムゾーンを選択します。 固定タイムゾーンを使用すると、ジャーニーにエントリするすべての個人のタイムゾーンは同じになります。"
 
 
@@ -54,7 +70,7 @@ ht-degree: 65%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_profile_time_zone"
 >title="プロファイルのタイムゾーンを使用"
->abstract="**待機**&#x200B;および&#x200B;**条件** アクティビティでリアルタイム プロファイル タイム ゾーンを使用するには、このオプションをオンにします。 プロファイルにタイムゾーンが定義されている場合、そのタイムゾーンは取得され、ジャーニーで使用されます。 そうでない場合、タイムゾーンは、上記のタイムゾーンフィールドで定義されたタイムゾーンです。"
+>abstract="**待機**&#x200B;および&#x200B;**条件**&#x200B;アクティビティでリアルタイムのプロファイルタイムゾーンを使用するには、このオプションをオンにします。 プロファイルのタイムゾーンが定義されている場合、そのタイムゾーンが取得され、ジャーニーで使用されます。 そうでない場合、タイムゾーンは上記のタイムゾーンフィールドで定義されたタイムゾーンになります。"
 
 ジャーニーのエントリイベントに名前空間がある場合（ジャーニーが[!DNL Adobe Experience Platform]のリアルタイム顧客プロファイルサービスに到達できる場合）、プロファイルレベルで定義されたタイムゾーンを使用できます。 これを行うには、**プロパティ**&#x200B;で、「**タイマーと条件でプロファイルのタイムゾーンを使用する**」のチェックをオンにします。 このオプションは、デフォルトではオンになっていません。
 

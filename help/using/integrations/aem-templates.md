@@ -10,9 +10,29 @@ role: User
 level: Beginner
 badge: label="ベータ版" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+TQID: https://experienceleague.adobe.com/VniMggDTid9M3NPQakAMWLIeAXT8hlHolGknjeb91Dg
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2:
+  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
+  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: 774
 ht-degree: 100%
 
 ---
@@ -21,7 +41,7 @@ ht-degree: 100%
 
 ## Adobe Experience Manager テンプレートの基本を学ぶ {#gs-aem-templates}
 
-Adobe Journey Optimizer を使用すると、Adobe Experience Manager サイトを介してカスタマイズしたメッセージを作成できます。まず、Adobe Experience Manager のコンテンツソースを使用してテンプレートをデザインし、それらを Adobe Journey Optimizer に送信します。 共有した後は、これらのテンプレートは Adobe Journey Optimizer の E メールデザイナーでアクセスできるようになり、目的のオーディエンスにメッセージを簡単に作成して送信できます。
+Adobe Journey Optimizer を使用すると、Adobe Experience Manager サイトを介してカスタマイズしたメッセージを作成できます。 まず、Adobe Experience Manager のコンテンツソースを使用してテンプレートをデザインし、それらを Adobe Journey Optimizer に送信します。 共有した後は、これらのテンプレートは Adobe Journey Optimizer の E メールデザイナーでアクセスできるようになり、目的のオーディエンスにメッセージを簡単に作成して送信できます。
 
 >[!AVAILABILITY]
 >
@@ -41,17 +61,17 @@ Adobe Journey Optimizer を使用すると、Adobe Experience Manager サイト�
 
 * **権限**
 
-  コンテンツテンプレートを Adobe Journey Optimizerで 作成、編集および削除するには、**[!DNL Content Library Manager]** 製品プロファイルに含まれる **[!DNL Manage Library Items]** 権限を付与されている必要があります。[詳細情報](../administration/ootb-product-profiles.md#content-library-manager)
+  コンテンツテンプレートを Adobe Journey Optimizerで 作成、編集および削除するには、**[!DNL Content Library Manager]** 製品プロファイルに含まれる **[!DNL Manage Library Items]** 権限を付与されている必要があります。 [詳細情報](../administration/ootb-product-profiles.md#content-library-manager)
 
 ### ガードレールと制限{#aem-templates-limitations}
 
 Adobe Journey Optimizer で Adobe Experience Manager の使用をさらに最適化するには、次の追加のガードレールおよび制限事項に注意する必要があります。
 
-* Experience Manager テンプレートのパーソナライゼーションを有効にするには、適切な Journey Optimizer 構文が必要です。[詳細情報](../personalization/personalization-syntax.md)
+* Experience Manager テンプレートのパーソナライゼーションを有効にするには、適切な Journey Optimizer 構文が必要です。 [詳細情報](../personalization/personalization-syntax.md)
 
 * 一括テンプレートのエクスポートは現在サポートされていません。テンプレートは個別にエクスポートする必要があります。
 
-* Experience Manager および Journey Optimizer の同期は現在使用できません。Journey Optimizer にテンプレートを送信した後に Experience Manager テンプレートに変更を加えた場合、ユーザーはテンプレートを再度エクスポート、Journey Optimizer に再送信する必要があります。
+* Experience Manager および Journey Optimizer の同期は現在使用できません。 Journey Optimizer にテンプレートを送信した後に Experience Manager テンプレートに変更を加えた場合、ユーザーはテンプレートを再度エクスポート、Journey Optimizer に再送信する必要があります。
 
 ## テンプレートを Journey Optimizer に送信する{#aem-templates-send}
 
@@ -61,9 +81,9 @@ Adobe Experience Manager テンプレートを Adobe Journey Optimizer にエク
 
    ![](assets/aem-outbound-menu.png)
 
-1. コンテンツライブラリから、事前に設定したテンプレートを使用することも、最初から作成することもできます。[詳細情報](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html?lang=ja#creating-a-new-page)
+1. コンテンツライブラリから、事前に設定したテンプレートを使用することも、最初から作成することもできます。 [詳細情報](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/managing-pages.html?lang=ja#creating-a-new-page)
 
-1. Journey Optimizer のパーソナライゼーション構文をテンプレートに組み込むことで、カスタマイズ機能を強化できます。[詳細情報](../personalization/personalization-syntax.md)
+1. Journey Optimizer のパーソナライゼーション構文をテンプレートに組み込むことで、カスタマイズ機能を強化できます。 [詳細情報](../personalization/personalization-syntax.md)
 
    ![](assets/aem_ajo_4.png)
 
@@ -75,7 +95,7 @@ Adobe Experience Manager テンプレートを Adobe Journey Optimizer にエク
 
    ![](assets/aem-send-template-settings.png)
 
-1. 「**[!UICONTROL 送信]**」ボタンをクリックした後、エクスポート処理が開始されます。エクスポートが完了すると、ユーザーインターフェイスに「（テンプレート名）が AJO に正常に送信されました」というメッセージが表示されます。
+1. 「**[!UICONTROL 送信]**」ボタンをクリックした後、エクスポート処理が開始されます。 エクスポートが完了すると、ユーザーインターフェイスに「（テンプレート名）が AJO に正常に送信されました」というメッセージが表示されます。
 
 テンプレートは、選択したサンドボックスの Adobe Journey Optimizer コンテンツテンプレートに追加されます。
 
@@ -87,13 +107,13 @@ Journey Optimizer で Experience Manager テンプレートをコンテンツテ
 
    ![](assets/aem_ajo_1.png)
 
-1. **[!UICONTROL アラート]**&#x200B;ボタンをクリックすると、重要な設定がもれてないかどうかをすばやく確認できます。これにより、メッセージが正しく設定され、潜在的なエラーや問題を防ぐことができます。
+1. **[!UICONTROL アラート]**&#x200B;ボタンをクリックすると、重要な設定がもれてないかどうかをすばやく確認できます。 これにより、メッセージが正しく設定され、潜在的なエラーや問題を防ぐことができます。
 
    ![](assets/aem_ajo_2.png)
 
 1. **[!UICONTROL テンプレートのプロパティ]**&#x200B;ウィンドウで、「**[!UICONTROL アクセスを管理]**」ボタンを使用して、カスタムまたはコアのデータ使用ラベルをテンプレートに割り当てます。 [詳しくは、オブジェクトレベルのアクセス制御（OLAC）を参照してください](../administration/object-based-access.md)
 
-1. Experience Manager テンプレートをさらにパーソナライズし、コンテンツにカスタムパーソナライゼーションを追加するには、「**[!UICONTROL コンテンツを編集]**」をクリックします。こうすることで、簡単に変更を加えたり、特定のニーズに合わせてテンプレートを調整したりできます。[詳細情報](../email/get-started-email-design.md)
+1. Experience Manager テンプレートをさらにパーソナライズし、コンテンツにカスタムパーソナライゼーションを追加するには、「**[!UICONTROL コンテンツを編集]**」をクリックします。 こうすることで、簡単に変更を加えたり、特定のニーズに合わせてテンプレートを調整したりできます。 [詳細情報](../email/get-started-email-design.md)
 
    >[!WARNING]
    >
@@ -101,17 +121,17 @@ Journey Optimizer で Experience Manager テンプレートをコンテンツテ
 
 1. コンテンツテンプレートの準備が整ったら、[テストして検証します](../content-management/content-templates.md#content-templates)。
 
-1. コンテンツが定義されると、**[!UICONTROL 保存済みのテンプレート]**&#x200B;コレクションを参照して、メールの新規作成時に使用できます。次に、「**[!UICONTROL このテンプレートを使用]**」を選択します。
+1. コンテンツが定義されると、**[!UICONTROL 保存済みのテンプレート]**&#x200B;コレクションを参照して、メールの新規作成時に使用できます。 次に、「**[!UICONTROL このテンプレートを使用]**」を選択します。
 
    ![](assets/aem_ajo_3.png)
 
-1. これで、コンテンツを編集してパーソナライズできるようになりました。メールコンテンツの作成方法について詳しくは、この[ページ](../email/content-from-scratch.md)を参照してください。
+1. これで、コンテンツを編集してパーソナライズできるようになりました。 メールコンテンツの作成方法について詳しくは、この[ページ](../email/content-from-scratch.md)を参照してください。
 
    ![](assets/aem_ajo_5.png)
 
 1. パーソナライズしたコンテンツを Experience Manager のテンプレートに追加した場合は、「**[!UICONTROL コンテンツをシミュレート]**」をクリックし、テストプロファイルを使用して、メッセージでの表示をプレビューします。
 
-[詳しくは、プレビューとテストプロファイルを参照してください](../content-management/preview-test.md)
+   [詳しくは、プレビューとテストプロファイルを参照してください](../content-management/preview-test.md)
 
    ![](assets/aem_ajo_6.png)
 

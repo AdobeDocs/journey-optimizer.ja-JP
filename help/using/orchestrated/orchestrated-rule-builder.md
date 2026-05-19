@@ -5,17 +5,19 @@ title: ルールビルダーの操作
 description: 調整されたキャンペーンのルールの作成方法について説明します。
 exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
 version: Campaign Orchestration
-source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+TQID: https://experienceleague.adobe.com/-qNlZ2dLqShJwhcIlEe3a9W8eJ-JCoTt8AzT-DU-vJA
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: 340
 ht-degree: 90%
 
 ---
 
-
 # ルールビルダーの操作 {#orchestrated-rule-builder}
 
-調整されたキャンペーンには、様々な条件に基づいてデータベースをフィルタリングするプロセスを簡素化するルールビルダーが付属しています。ルールビルダーは非常に複雑で長いクエリを効率的に管理し、柔軟性と精度を向上させます。
+調整されたキャンペーンには、様々な条件に基づいてデータベースをフィルタリングするプロセスを簡素化するルールビルダーが付属しています。 ルールビルダーは非常に複雑で長いクエリを効率的に管理し、柔軟性と精度を向上させます。
 
 また、条件内で定義済みフィルターをサポートしているので、包括的なオーディエンスのターゲティングとセグメント化戦略に高度な式と演算子を利用しながら、クエリを簡単に絞り込むことができます。
 
@@ -25,8 +27,8 @@ ht-degree: 90%
 
 | 用途 | 例 |
 |  ---  |  ---  |
-| **オーディエンスを作成**：**[!UICONTROL オーディエンスを作成]**&#x200B;アクティビティを使用して、調整されたキャンペーンのターゲットとして設定する母集団を指定し、ニーズに合わせて新しいオーディエンスを簡単に作成します。[詳しくは、オーディエンスの作成方法を参照してください。](../orchestrated/activities/build-audience.md) | ![オーディエンス作成インターフェイスへのアクセス方法を示す画像](assets/query-access-audience.png){width="200" align="center" zoomable="yes"} |
-| **キャンペーンキャンバスで条件を作成**：特定の要件に合わせて、**[!UICONTROL 分割]**&#x200B;アクティビティを使用してキャンペーンキャンバス内でルールを適用します。[分割アクティビティの使用方法の詳細情報](../orchestrated/activities/split.md) | ![ワークフローのカスタマイズオプションへのアクセス方法を示す画像](assets/query-access-split.png){width="200" align="center" zoomable="yes"} |
+| **オーディエンスを作成**：**[!UICONTROL オーディエンスを作成]**&#x200B;アクティビティを使用して、調整されたキャンペーンのターゲットとして設定する母集団を指定し、ニーズに合わせて新しいオーディエンスを簡単に作成します。 [詳しくは、オーディエンスの作成方法を参照してください。](../orchestrated/activities/build-audience.md) | ![オーディエンス作成インターフェイスへのアクセス方法を示す画像](assets/query-access-audience.png){width="200" align="center" zoomable="yes"} |
+| **キャンペーンキャンバスで条件を作成**：特定の要件に合わせて、**[!UICONTROL 分割]**&#x200B;アクティビティを使用してキャンペーンキャンバス内でルールを適用します。 [分割アクティビティの使用方法の詳細情報](../orchestrated/activities/split.md) | ![ワークフローのカスタマイズオプションへのアクセス方法を示す画像](assets/query-access-split.png){width="200" align="center" zoomable="yes"} |
 | **詳細フィルターを作成**：キャンペーンログやターゲティングディメンションなどのリストに表示されるデータをフィルターするルールを作成します。 | ![リストフィルターのカスタマイズ方法を示す画像](assets/query-access-advanced-filters.png){width="200" align="center" zoomable="yes"} |
 
 ## ルールビルダーインターフェイス {#interface}
@@ -35,12 +37,12 @@ ht-degree: 90%
 
 ![ルールモデラーインターフェイスを示す画像](assets/rule-builder-interface.png)
 
-* **中央のキャンバス**&#x200B;では、ルールを作成する様々なコンポーネントを追加して組み合わせます。[詳しくは、クエリの作成方法を参照してください。](../orchestrated/build-query.md)
+* **中央のキャンバス**&#x200B;では、ルールを作成する様々なコンポーネントを追加して組み合わせます。 [詳しくは、クエリの作成方法を参照してください。](../orchestrated/build-query.md)
 
-* **[!UICONTROL ルールのプロパティ]**&#x200B;パネルには、ルールに関する情報が表示されます。これにより、様々な操作を実行してルールを確認し、ニーズに合うことを確認できます。
+* **[!UICONTROL ルールのプロパティ]**&#x200B;パネルには、ルールに関する情報が表示されます。 これにより、様々な操作を実行してルールを確認し、ニーズに合うことを確認できます。
 
-  このパネルは、オーディエンスを作成するクエリを作成する際に表示されます。[クエリを確認および検証する方法を学ぶ](build-query.md#check-and-validate-your-query)
+  このパネルは、オーディエンスを作成するクエリを作成する際に表示されます。 [クエリを確認および検証する方法を学ぶ](build-query.md#check-and-validate-your-query)
 
 ## 定義済みフィルターの操作
 
-定義済みフィルターを使用すると、パラメーターを含むバージョンを始め、ルールビルダーで保存済みのクエリを再利用できます。 定義済みフィルターの保存、適用、管理に関する詳細な手順については、「[&#x200B; 定義済みフィルターの操作 &#x200B;](predefined-filters.md) を参照してください。
+定義済みのフィルターを使用すると、パラメーターを含むバージョンを含む、ルールビルダーで保存されたクエリを再利用できます。 定義済みフィルターの保存、適用、および管理の完全なチュートリアルについては、[定義済みフィルターの操作](predefined-filters.md)を参照してください。

@@ -7,9 +7,16 @@ role: Developer
 level: Experienced
 exl-id: 0fd608e0-df71-4e2d-8304-d7d5561c7c7a
 version: Journey Orchestration
-source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
+TQID: https://experienceleague.adobe.com/OkPIse7NFATcyTdTT0pzNhjPMenbrvigSG2lSRatb-M
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: 112
 ht-degree: 100%
 
 ---
@@ -45,4 +52,4 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/offer-items/offerItem123
 
 正常な応答の場合は、HTTP ステータス 200 と空白の本文が返されます。
 
-決定項目に対して参照（GET）リクエストを試行することで、削除を確認できます。決定項目が削除されたので、HTTP ステータス 404（見つかりません）が表示されます。
+決定項目に対して参照（GET）リクエストを試行することで、削除を確認できます。 決定項目が削除されたので、HTTP ステータス 404（見つかりません）が表示されます。

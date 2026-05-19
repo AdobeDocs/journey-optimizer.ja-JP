@@ -6,18 +6,27 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 832b0bfa-ec74-4b1d-ad85-d4e4ea2f8863
-source-git-commit: 6f7b9bfb65617ee1ace3a2faaebdb24fa068d74f
-workflow-type: ht
-source-wordcount: '131'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/fZtkkz9pvdZ3G7ojmHlNhasxawVbXmBHX-uznq6hseY
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+workflow-type: tm+mt
+source-wordcount: 131
+ht-degree: 81%
 
 ---
 
 # 医療保険処方箋のメール {#plan-prescription}
 
-プロファイルには医療保険が含まれ、各保険には処方箋が含まれます。処方箋には、「準備完了」、「リコール」、「受け取り済み」など、様々な状態があります。
+プロファイルには医療保険が含まれ、各保険には処方箋が含まれます。 処方箋には、「準備完了」、「リコール」、「受け取り済み」など、様々な状態があります。
 
-このユースケースでは、受け取りの準備が整っている処方箋やリコールされた処方箋をすべて含めて、各プロファイルに 1 通のメールを送信します。このユースケースの実装に使用する構文について詳しくは、以下の各タブをクリックしてください。
+このユースケースでは、受け取りの準備が整っている処方箋やリコールされた処方箋をすべて含めて、各プロファイルに 1 通のメールを送信します。 このユースケースの実装に使用する構文について詳しくは、以下の各タブをクリックしてください。
 
 >[!BEGINTABS]
 
@@ -31,15 +40,15 @@ ht-degree: 100%
 <ul>
 
 <li>
-      <strong>処方箋 ID：</strong> pres1<br>
-      <strong>名前：</strong> Medication A<br>
-      <strong>状態：</strong> 準備完了
+      <strong>処方箋ID:</strong> pres1<br>
+      <strong>名前：</strong>薬A<br>
+      <strong>状態：</strong>準備完了
    </li>
 
 <li>
-      <strong>処方箋 ID：</strong> pres2<br>
-      <strong>名前：</strong> Medication B<br>
-      <strong>状態：</strong> リコール
+      <strong>処方箋ID:</strong> pres2<br>
+      <strong>名前：</strong>薬B<br>
+      <strong>状態：</strong>のリコール
    </li>
 
 </ul>
@@ -49,9 +58,9 @@ ht-degree: 100%
 <ul>
 
 <li>
-      <strong> 処方箋 ID：</strong> pres4<br>
-      <strong>名前：</strong> Medication D<br>
-      <strong>状態：</strong> 準備完了
+      <strong>処方箋ID:</strong> pres4<br>
+      <strong>名前：</strong>薬D<br>
+      <strong>状態：</strong>準備完了
    </li>
 
 </ul>

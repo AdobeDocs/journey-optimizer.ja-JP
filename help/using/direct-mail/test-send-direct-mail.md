@@ -7,10 +7,28 @@ role: User
 level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
-source-git-commit: 916239c98c982acf9c6f999316e46036d36b2098
+TQID: https://experienceleague.adobe.com/4GZKFKOx-D-RT1mssiV5vpmZQSJGVbGMro8Q-suhtPE
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 85%
+source-wordcount: 478
+ht-degree: 86%
 
 ---
 
@@ -18,13 +36,13 @@ ht-degree: 85%
 
 ## 抽出ファイルのプレビュー {#preview-dm}
 
-抽出ファイルの内容を定義したら、テストプロファイルを使用して内容をプレビューできます。パーソナライズされたコンテンツを挿入した場合は、そのコンテンツがメッセージにどのように表示されるかを、テストプロファイルデータを使用して確認できます。
+抽出ファイルの内容を定義したら、テストプロファイルを使用して内容をプレビューできます。 パーソナライズされたコンテンツを挿入した場合は、そのコンテンツがメッセージにどのように表示されるかを、テストプロファイルデータを使用して確認できます。
 
 これを行うには、「**[!UICONTROL コンテンツをシミュレート]**」をクリックして、テストプロファイルを追加して、テストプロファイルデータを使用した抽出ファイルのレンダリング方法を確認します。
 
 ![](assets/direct-mail-simulate.png){width="800" align="center"}
 
-テストプロファイルの選択およびコンテンツのプレビュー方法について詳しくは、[コンテンツ管理](../content-management/preview-test.md)の節を参照してください。
+テストプロファイルの選択およびコンテンツのプレビュー方法について詳しくは、「[コンテンツ管理](../content-management/preview-test.md)」の節を参照してください。
 
 ファイルの内容を送信する準備が整ったら、シミュレート画面を閉じて、「**[!UICONTROL アクティブ化するレビュー]**」ボタンをクリックします。
 
@@ -32,34 +50,34 @@ ht-degree: 85%
 
 >[!IMPORTANT]
 >
-> キャンペーンが承認ポリシーの対象となっている場合、ダイレクトメールキャンペーンを送信できるようにするには、承認をリクエストする必要があります。[詳細情報](../test-approve/gs-approval.md)
+> キャンペーンが承認ポリシーの対象となっている場合、ダイレクトメールキャンペーンを送信できるようにするには、承認をリクエストする必要があります。 [詳細情報](../test-approve/gs-approval.md)
 
-ダイレクトメールキャンペーンをアクティブ化する前に、キャンペーンまたはジャーニーと抽出ファイルが正しく設定されていることを確認します。 それには、エディターの上部セクションでアラートを確認します。単純な警告もありますが、メッセージの送信を妨げる可能性のある警告もあります。発生する可能性のあるアラートには、警告とエラーの 2 種類があります。
+ダイレクトメールキャンペーンをアクティブ化する前に、キャンペーンまたはジャーニーと抽出ファイルが正しく設定されていることを確認します。 それには、エディターの上部セクションでアラートを確認します。 単純な警告もありますが、メッセージの送信を妨げる可能性のある警告もあります。 発生する可能性のあるアラートには、警告とエラーの 2 種類があります。
 
-* **警告**&#x200B;は、レコメンデーションとベストプラクティスを指します。例えば、SMS メッセージが空の場合は警告メッセージが表示されます。
+* **警告**&#x200B;は、レコメンデーションとベストプラクティスを指します。 例えば、SMS メッセージが空の場合は警告メッセージが表示されます。
 
-* **エラー**&#x200B;が解決されない限り、キャンペーンを公開できません。例えば、件名がない場合は、それを警告するエラーメッセージが表示されます。
+* **エラー**&#x200B;が解決されない限り、キャンペーンを公開できません。 例えば、件名がない場合は、それを警告するエラーメッセージが表示されます。
 
 ![](assets/direct-mail-review.png){width="800" align="center"}
 
-ダイレクトメールキャンペーンの準備が整ったら、[&#x200B; ジャーニー &#x200B;](../building-journeys/journey-gs.md) または [&#x200B; キャンペーン &#x200B;](../campaigns/create-campaign.md) の設定を完了して送信します。
+ダイレクトメールキャンペーンの準備ができたら、[&#x200B; ジャーニー](../building-journeys/journey-gs.md)または[&#x200B; キャンペーン &#x200B;](../campaigns/create-campaign.md)の設定を完了して送信します。
 
 >[!NOTE]
 >
->デフォルトでは、エクスポートされたファイルは改行で終わります。これにより、標準のデータ処理ツールとの互換性が確保されます。
+>デフォルトでは、エクスポートされたファイルは改行で終わります。 これにより、標準のデータ処理ツールとの互換性が確保されます。
 
-送信後は、レポート内で、ダイレクトメールキャンペーンまたはジャーニーの影響を測定できます。 ダイレクトメールレポートについて詳しくは、次の節を参照してください。
+送信したデータは、レポート内でダイレクトメールキャンペーンやジャーニーの影響を測定できます。 ダイレクトメールレポートについて詳しくは、次の節を参照してください。
 * [ダイレクトメールキャンペーンレポート](../reports/campaign-global-report-cja-direct.md)
 * [ダイレクトメールジャーニーレポート](../reports/journey-global-report-cja-direct.md)
 
 ## ダイレクトメールへの同意の管理 {#dm-consent-management}
 
-[!DNL Journey Optimizer] では、同意は Experience Platform [同意スキーマ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=ja){target="_blank"}で処理されます。デフォルトでは同意フィールドの値は空で、通信内容の受信に対する同意として扱われます。
+[!DNL Journey Optimizer] では、同意は Experience Platform [同意スキーマ](https://experienceleague.adobe.com/docs/experience-platform/xdm/field-groups/profile/consents.html?lang=ja){target="_blank"}で処理されます。 デフォルトでは同意フィールドの値は空で、通信内容の受信に同意したものとして扱われます。
 
 プロファイルがダイレクトメールの受信をオプトアウトした場合、対応する Experience Platform プロファイル属性で、`consents.marketing.postalMail.val` は `n` となり、対応するプロファイルは後続の配信から除外されます。
 
 再度有効にするには、プロファイル属性を `consents.marketing.postalMail.val` : `y` に戻す必要があります。
 
-プロファイルの属性を管理するには、Experience Platform に移動し、ID 名前空間と対応する ID 値を選択して、プロファイルにアクセスします。詳しくは、[Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ja#getting-started){target="_blank"}を参照してください。
+プロファイルの属性を管理するには、Experience Platform に移動し、ID 名前空間と対応する ID 値を選択して、プロファイルにアクセスします。 詳しくは、[Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ja#getting-started){target="_blank"}を参照してください。
 
 Journey Optimizer でのオプトアウトの管理について詳しくは、[この節](../privacy/opt-out.md)を参照してください。

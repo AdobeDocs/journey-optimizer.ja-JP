@@ -9,10 +9,24 @@ role: User
 level: Intermediate
 exl-id: bd950410-691b-49d8-8851-8c6c448c00fd
 version: Journey Orchestration
-source-git-commit: 13ac469c33d2a580ba499bb463ac9fc63bef733c
+TQID: https://experienceleague.adobe.com/ffeoNY5SR6RmhqfGzpDwryo0Ss7XL4td-9gnQm15Sik
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: c132d929-fa62-4271-803e-b823be07b914
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 95%
+source-wordcount: 641
+ht-degree: 93%
 
 ---
 
@@ -20,9 +34,9 @@ ht-degree: 95%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。 [詳細情報](../experience-decisioning/gs-experience-decisioning.md)
 
-[!DNL Journey Optimizer] を使用すると、カスタムアップロード（CSV ファイル）を使用して作成されたオーディエンスのデータを [!DNL Adobe Experience Platform] に活用できます。このデータは、意思決定管理ワークフローをサポートします。 これは、データがプロファイルには必要ないものの、意思決定には依然として不可欠な場合に、特に便利です。
+[!DNL Journey Optimizer] を使用すると、カスタムアップロード（CSV ファイル）を使用して作成されたオーディエンスのデータを [!DNL Adobe Experience Platform] に活用できます。 このデータは、意思決定管理ワークフローをサポートします。 これは、データがプロファイルには必要ないものの、意思決定には依然として不可欠な場合に、特に便利です。
 
 カスタムアップロードオーディエンスのデータは、意思決定管理で次の目的で活用できます。
 
@@ -32,27 +46,27 @@ ht-degree: 95%
 カスタムアップロードオーディエンスについて詳しくは、次の節を参照してください。
 
 * [オーディエンスと Journey Optimizer の概要](../audience/about-audiences.md)
-* [Adobe Experience Platform でのオーディエンスの読み込み](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
+* [Adobe Experience Platformでのオーディエンスのインポート](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/ui/audience-portal#import-audience){target="_blank"}
 
 ## 必読 {#must-read}
 
-* **意思決定管理のみ** – この機能は意思決定管理でのみサポートされ、意思決定ではサポートされていません。
+* **意思決定管理のみ** – この機能は、意思決定管理でのみサポートされており、決定ではサポートされていません。
 * **Decisioning API（Hub）のみ** - これは、Decisioning API（Hub）リクエストを通じてのみ使用でき、Edge Decisioning API または Batch Decisioning ではサポートされていません。
-* **エンリッチメントデータに必要な API フラグ** - カスタムアップロード（CSV）オーディエンスを使用し、オファーの決定応答でエンリッチメントデータを取得する際は、API リクエストペイロードに `"xdm:enrichedAudience": true` を含める必要があります。このフラグがないと、CSV でアップロードされたオーディエンスからのエンリッチメント属性は返されません。[Decisioning API の詳細情報](api-reference/offer-delivery-api/decisioning-api.md)
+* **エンリッチメントデータに必要な API フラグ** - カスタムアップロード（CSV）オーディエンスを使用し、オファーの決定応答でエンリッチメントデータを取得する際は、API リクエストペイロードに `"xdm:enrichedAudience": true` を含める必要があります。 このフラグがないと、CSV でアップロードされたオーディエンスからのエンリッチメント属性は返されません。 [Decisioning API の詳細情報](api-reference/offer-delivery-api/decisioning-api.md)
 
 ## カスタムアップロードオーディエンスを実施要件条件として使用 {#eligibilty}
 
-カスタムアップロードオーディエンスは、オファーと決定の両方のレベルで実施要件条件として使用できます。これらの条件を追加すると、実施要件からオファーまたはオファーのコレクションを除外できます。カスタムアップロードオーディエンスを活用して、オファーや決定の実施要件を絞り込むことができる様々な場所を次に示します。
+カスタムアップロードオーディエンスは、オファーと決定の両方のレベルで実施要件条件として使用できます。 これらの条件を追加すると、実施要件からオファーまたはオファーのコレクションを除外できます。 カスタムアップロードオーディエンスを活用して、オファーや決定の実施要件を絞り込むことができる様々な場所を次に示します。
 
 * カスタムアップロードオーディエンスを使用して決定ルールを作成します。
 
-   1. ルールをオーサリングする際は、「**オーディエンス**」タブにアクセスし、一覧で CSV オーディエンスを検索します。オーディエンスをルールキャンバスにドラッグ＆ドロップします。
-   1. 「**属性**」タブを使用して、選択したオーディエンスにリンクされたエンリッチメントスキーマに移動します。これにより、CSV ファイルのすべてのデータにアクセスし、ルールで使用できます。[決定ルールの作成方法を学ぶ](../offers/offer-library/creating-decision-rules.md)
-   1. ルールを保存します。ルールを作成したら、オファーと決定の両方のレベルで使用して実施要件を絞り込むことができます。
+   1. ルールをオーサリングする際は、「**オーディエンス**」タブにアクセスし、一覧で CSV オーディエンスを検索します。 オーディエンスをルールキャンバスにドラッグ＆ドロップします。
+   1. 「**属性**」タブを使用して、選択したオーディエンスにリンクされたエンリッチメントスキーマに移動します。 これにより、CSV ファイルのすべてのデータにアクセスし、ルールで使用できます。 [決定ルールの作成方法を学ぶ](../offers/offer-library/creating-decision-rules.md)
+   1. ルールを保存します。 ルールを作成したら、オファーと決定の両方のレベルで使用して実施要件を絞り込むことができます。
 
   ![決定ルールキャンバスの CSV オーディエンス](assets/csv-rule.png)
 
-* カスタムアップロードオーディエンスをオファーの制約として使用します。[オファーに制約を追加する方法を学ぶ](../offers/offer-library/add-constraints.md)
+* カスタムアップロードオーディエンスをオファーの制約として使用します。 [オファーに制約を追加する方法を学ぶ](../offers/offer-library/add-constraints.md)
 
   オファーのオーサリング時に、**制約を追加**&#x200B;手順で次のいずれかを実行できます。
 
@@ -63,20 +77,20 @@ ht-degree: 95%
 
 * 決定レベルでカスタムアップロードオーディエンスを使用します。
 
-  決定を設定する際の&#x200B;**決定範囲を追加**&#x200B;手順では、カスタムアップロードオーディエンスを、オファーのコレクションに対する評価条件として使用できます。[決定範囲の定義方法を学ぶ](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
+  決定を設定する際の&#x200B;**決定範囲を追加**&#x200B;手順では、カスタムアップロードオーディエンスを、オファーのコレクションに対する評価条件として使用できます。 [決定範囲の定義方法を学ぶ](../offers/offer-activities/create-offer-activities.md#add-decision-scopes)
 
   ![決定レベルでのカスタムアップロードオーディエンス](assets/csv-decision.png)
 
 ## カスタムアップロードオーディエンスを使用したオファー表示域のパーソナライズ
 
-カスタムアップロードオーディエンスを使用して、CSV ファイルのデータを参照してオファー表示域のコンテンツをパーソナライズすることもできます。[オファーに表示域を追加する方法を学ぶ](../offers/offer-library/add-representations.md)
+カスタムアップロードオーディエンスを使用して、CSV ファイルのデータを参照してオファー表示域のコンテンツをパーソナライズすることもできます。 [オファーに表示域を追加する方法を学ぶ](../offers/offer-library/add-representations.md)
 
-カスタムアップロードオーディエンスの属性を活用してパーソナライズするには、まずカスタムオーディエンスを制約として追加する必要があります。これを行うには、オファーのオーサリング時に、**制約を追加**&#x200B;手順で、オーディエンスを制約として追加するか、カスタムアップロードオーディエンスを活用したルールを選択します。
+カスタムアップロードオーディエンスの属性を活用してパーソナライズするには、まずカスタムオーディエンスを制約として追加する必要があります。 これを行うには、オファーのオーサリング時に、**制約を追加**&#x200B;手順で、オーディエンスを制約として追加するか、カスタムアップロードオーディエンスを活用したルールを選択します。
 
 ![カスタムアップロードオーディエンス制約オプション](assets/csv-offer.png)
 
-オーディエンスを制約として追加すると、その属性を使用して表示域のコンテンツをパーソナライズできます。これを行うには、「**プロファイル属性**」タブにアクセスし、カスタムアップロードオーディエンスを検索します。オーディエンスから関連属性を選択して、オファーコンテンツをパーソナライズします。
+オーディエンスを制約として追加すると、その属性を使用して表示域のコンテンツをパーソナライズできます。 これを行うには、「**プロファイル属性**」タブにアクセスし、カスタムアップロードオーディエンスを検索します。 オーディエンスから関連属性を選択して、オファーコンテンツをパーソナライズします。
 
-意思決定管理では、コンテンツをパーソナライズする場合に、特定の関数のみがサポートされます。[&#x200B; パーソナライゼーションエディターでサポートされる関数 &#x200B;](offer-library/personalization-editor-supported-functions.md) を参照してください。
+意思決定管理では、コンテンツのパーソナライズ時に特定の関数のみがサポートされます。パーソナライゼーションエディターでサポートされている関数[を参照してください](offer-library/personalization-editor-supported-functions.md)。
 
 ![プロファイル属性パーソナライゼーションインターフェイス](assets/csv-perso.png)

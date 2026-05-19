@@ -30,10 +30,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2f18acd2f3164432260e1a45bc6a9ff567b1ebe9
+source-git-commit: ec8cf345e0860d8cc1ca9d8b4f76a9cb46a878fe
 workflow-type: tm+mt
-source-wordcount: 2579
-ht-degree: 82%
+source-wordcount: 2770
+ht-degree: 74%
 
 ---
 
@@ -50,8 +50,13 @@ ht-degree: 82%
 
 [!DNL Adobe Journey Optimizer] が [!DNL Adobe Experience Platform] でネイティブに構築され、最新のイノベーションや改善点を引き継いでいます。 以下の変更点について詳しくは、[Adobe Experience Platform リリースノート](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ja){target="_blank"}を参照してください。
 
+>[!NOTE]
+>
+>近日公開される予定の？ 今後の機能が正式にリリースされる前に、[&#x200B; プレリリースノート &#x200B;](e-release-notes.md)を参照してください。
+
 ## 26年5月の更新 {#may-26-rn}
 
+2026年5月にリリースされた機能と改善点は次のとおりです。
 
 <table>
 <thead>
@@ -65,14 +70,13 @@ ht-degree: 82%
 <p>Adobe Journey Optimizerで<strong>ジャーニーフラグメント </strong>を作成できるようになりました。 ジャーニーフラグメントは、再利用可能なジャーニーノードのセットです。一度構築すれば、サンドボックスをまたいであらゆるジャーニーにドロップできます。 実施要件のチェック、好みのチャネルルーティングロジック、ウェルカムシーケンスなど、フラグメントは、同じロジックを毎回ゼロから再構築することなく、より迅速に作業し、一貫性を維持するのに役立ちます。</p>
 <p>フラグメントを作成すると、専用の<strong> フラグメントインベントリ </strong>に保存され、<strong>ジャーニーフラグメント </strong> アクティビティを使用して、任意のジャーニーに挿入できます。</p>
 <!--<p><img src="assets/do-not-localize/journey-fragments.gif"></p>-->
-<p>この機能は、一連の組織でのみ使用できます（制限付き可用性）。 アクセスするには、アドビ担当者にお問い合わせください。</p>
-<p>詳しくは、<a href="../building-journeys/journey-fragments.md">詳細なドキュメント</a>を参照してください。</p>
+<p>この機能は、一連の組織でのみ使用できます（限定提供）。 アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
+<p>詳しくは、 <a href="../building-journeys/journey-fragments.md">詳細なドキュメント</a>を参照してください。</p>
 <p>ご利用いただけます：2026年5月13日（PT）</p>
 </td>
 </tr>
 </tbody>
 </table>
-
 
 <table>
 <thead>
@@ -148,6 +152,8 @@ ht-degree: 82%
 
 ### 機能強化 {#may-26-improv}
 
+2026年5月には以下の改善もリリースされました。
+
 #### 決定
 
 * **移行ワークフローAPI** – 依存関係の分析と移行ワークフローを作成するためのAPI コントラクトが更新されました。リクエスト URL （`sandbox`、`offer`または`decision`）に&#x200B;**`request-level`**&#x200B;を&#x200B;**クエリパラメーター**&#x200B;として渡します。 リクエストレベルをJSON本文で送信する必要はありません。 [詳細情報](../experience-decisioning/decisioning-migration-api.md)
@@ -172,6 +178,27 @@ ht-degree: 82%
 
 * **WhatsApp ボタンのサポートとトラッキング** - WhatsApp テンプレートは&#x200B;**クイック返信**、**Call to action - URL**、**Call to action - phone**、**コピーコード**&#x200B;をサポートしていません。 Journey Optimizerは、サポートされているボタンを送信し、インタラクションを他のチャネルレポートと並行して追跡します。
 
+* **WhatsApp チャネルコンテキストデータ** - Journey Optimizerは、WhatsApp チャネルから返された追加のインタラクションデータを取得し、`whatsAppChannelContext` フィールドグループの&#x200B;**AJO EmailTrackingExperienceEvent データセット**&#x200B;に保存するようになりました。
+
+  +++ 次のフィールドがキャプチャされ、オーディエンスの構築やWhatsApp エンゲージメントの分析に使用できます
+
+   * **`messageType`** - WhatsApp メッセージの種類（例：`templateBased`、`response`）
+   * **`inboundMessage`** - インバウンド返信コンテンツ （例：`stop`、`start`、`subscribe`）
+   * **`inboundNumber`** – 受信メッセージを受信した送信者ID
+   * **`channelType`** - チャネルカテゴリ （`Utility`、`Marketing`または`Promotional`）
+   * **`profileNumber`** – 受信メッセージを受信した電話番号
+   * **`origTimestamp`** - Meta / WhatsAppの元のタイムスタンプ
+   * **`status`** – 標準化されたプロバイダーのフィードバック （`sent`、`delivered`、`bounce`、`error`、`delay`、`duplicate`、`denylist`、`exclude`または`unknown`）と生のプロバイダーのステータスメッセージを含む配信ステータス
+   * **`reactionEvent`** - ユーザー応答のコンテンツ：反応の絵文字、または特定のメッセージへの返信のメッセージテキスト
+   * **`reactionMessageID`** – 応答する元のメッセージのID
+   * **`reactionActionName`** – 応答アクションの種類（`react`、`unreact`または`reply`）
+   * **`interactiveSelectedTitle`** - WhatsApp インタラクティブメッセージからユーザーが選択したタイトル
+   * **`interactiveType`** - インタラクティブ メッセージの種類（`list reply`、`button reply`、または`button`）
+   * **`interactiveSelectedDescription`** – 選択したWhatsApp インタラクティブオプションの説明
+   * **`interactiveSelectedID`** - WhatsAppから選択したオプションのID
+
+  +++
+
 <!-- 
 ## Coming soon {#coming-soon}
 
@@ -182,17 +209,12 @@ The following capabilities and enhancements are scheduled for release in the nex
 
 ## 26年4月のリリースノート {#april-26-rn}
 
-<!--
-**The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
-
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
--->
-
-4 月初旬にリリースされた新機能と機能強化は、提供開始日とともに発表します。
 
 **リリース日**：2026年4月28〜29日（PT）
 
 ### 新機能 {#april-26-features}
+
+2026年4月にリリースされた機能は次のとおりです。
 
 <table>
 <thead>
@@ -368,7 +390,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tbody>
 <tr>
 <td>
-<p>新しい<strong>最適化</strong>ノードを使用して A/B テストまたはマルチアームバンディット実験を実行して、ビジネス目標に焦点を合わせた KPI を達成する最適なパスを決定します。 このツールを使用すると、コミュニケーション、シーケンス、タイミングをテスト、調整、カスタマイズし、顧客に最も効果的にリーチできます。
+<p>新しい<strong>最適化</strong>ノードを使用して A/B テストまたはマルチアームバンディット実験を実行して、ビジネス目標に焦点を合わせた KPI を達成する最適なパスを決定します。 このツールを利用すれば、コミュニケーション、シーケンス、タイミングをテスト、変更、カスタマイズし、顧客に最もリーチできます。
 </p>
 <p>この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。</p>
 <p>一般提供の一部として、このリリースでは、<strong>実験タイプ</strong>の選択（A/B テストまたはマルチアームバンディット）と、単一ジャーニーの<strong>勝者をスケール</strong>が導入されています。</p>
@@ -419,6 +441,8 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 ### 機能強化 {#april-26-improv}
 
+2026年4月には以下の改善もリリースされました。
+
 #### AI
 
 <!--
@@ -449,7 +473,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 #### Adobe Experience Manager の統合
 
-* **Adobe Experience Manager コンテンツフラグメントのバリエーションのサポート** - Adobe Experience Manager コンテンツフラグメントを挿入する際に、**コンテンツフラグメントのバリエーション**（例：言語やチャネルのバリアント）を選択できるようになりました。ロケールや多言語のシナリオに対する処理が改善されました。 [詳細情報](../integrations/aem-fragments.md#aem-variations)
+* **Adobe Experience Manager コンテンツフラグメントのバリエーションのサポート** - Adobe Experience Manager コンテンツフラグメントを挿入する際に、**コンテンツフラグメントのバリエーション** （言語やチャネルのバリエーションなど）を選択でき、ロケールや多言語シナリオの処理が改善されました。 [詳細情報](../integrations/aem-fragments.md#aem-variations)
 
   この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。
 
@@ -467,7 +491,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 #### ジャーニー
 
-* **ジャーニープロパティに表示される現在のジャーニーペイロードサイズ** - ジャーニープロパティパネルに、設定された制限と比較したジャーニーペイロードの現在のサイズが表示されるようになりました（例：*1.5 MB （2 MB中）*）。 この読み取り専用インジケーターは、公開前にジャーニーの複雑さを監視し、ペイロードサイズの制限を超えることに起因するエラーを回避するのに役立ちます。 [詳細情報](../building-journeys/journey-properties.md#journey-payload-size)
+* **ジャーニープロパティに表示される現在のジャーニーペイロードサイズ** - ジャーニープロパティパネルに、設定された制限と比較したジャーニーペイロードの現在のサイズが表示されるようになりました（例：*1.5 MB （4 MB中）*）。 この読み取り専用インジケーターは、公開前にジャーニーの複雑さを監視し、ペイロードサイズの制限を超えることに起因するエラーを回避するのに役立ちます。 [詳細情報](../building-journeys/journey-properties.md#journey-payload-size)
 
   ご利用いただけます：2026年4月30日（PT）
 
@@ -493,4 +517,3 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 
 * **オーケストレーションキャンペーンのグローバル変数** - オーケストレーションキャンペーンでは、一度定義すればワークフロー内のすべてのアクティビティで再利用できるグローバル変数がサポートされるようになりました。これにより、設定がシンプル化され、動的な値、式、コンテンツのパーソナライゼーションで一貫性が確保されます。 [詳細情報](../orchestrated/global-variables.md)
 * **データモデラーの機能強化** - 調整されたリレーショナルスキーマで、複数のフィールドにまたがる複合キーがサポートされるようになりました。 また、DDLファイルからスキーマを読み込むと定義済みリストも取り込まれ、DDL ファイルまたは Excel ファイルのいずれかから読み込むと、テーブル間の複合関係が自動的に作成されます。 エンティティ関係ビューでは、ファイルのアップロード後、複合リンクにテーブル間のフィールドペアリングの完全なセットが表示されるようになりました。 [詳細情報](../orchestrated/gs-schemas.md)
-

@@ -9,9 +9,25 @@ role: User
 level: Intermediate, Experienced
 keywords: コード, HTML, エディター
 exl-id: 5fb79300-08c6-4c06-a77c-d0420aafca31
-source-git-commit: c0dcd7f206f76d133ed2e77ef692f0ae0054a6b5
+TQID: https://experienceleague.adobe.com/8CR92GEP0qQqj2h-JqzUdu9oq07Ahedcs1xh8rINvkY
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
+  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: 496
 ht-degree: 66%
 
 ---
@@ -22,7 +38,7 @@ ht-degree: 66%
 
 HTMLのスキルが必要です。このモードを選択すると、コードエディターに留まり、ビジュアルエディターに切り替えることはできません。
 
-➡️ [この機能をビデオで確認](#video)
+➡️ [ビデオでこの機能を確認する](#video)
 
 >[!NOTE]
 >
@@ -38,8 +54,7 @@ HTMLのスキルが必要です。このモードを選択すると、コード�
 
 1. Raw HTML コードを入力または貼り付けます。
 
-1. 左側のペインを使用して、[!DNL Journey Optimizer] パーソナライゼーション機能を利用します。
-[詳細情報](../personalization/personalize.md)
+1. 左側のペインを使用して、[!DNL Journey Optimizer] パーソナライゼーション機能を利用します。 [詳細情報](../personalization/personalize.md)
 
    ![](assets/code-editor.png)
 
@@ -53,9 +68,9 @@ HTMLのスキルが必要です。このモードを選択すると、コード�
 
    >[!NOTE]
    >
-   >このアクションにより、E メールデザイナーで選択したテンプレートが開きます。ここから、メールのデザインを完成させるか、「**[!UICONTROL コードエディターに切り替え]**」オプションを使用してコードエディターに戻ることができます。
+   >このアクションにより、E メールデザイナーで選択したテンプレートが開きます。 ここから、メールのデザインを完成させるか、「**[!UICONTROL コードエディターに切り替え]**」オプションを使用してコードエディターに戻ることができます。
 
-1. 「**[!UICONTROL プレビュー]**」ボタンをクリックし、テストプロファイルを使用したメッセージデザインとパーソナライゼーションを確認します。[詳細情報](../content-management/preview-test.md)
+1. 「**[!UICONTROL プレビュー]**」ボタンをクリックし、テストプロファイルを使用したメッセージデザインとパーソナライゼーションを確認します。 [詳細情報](../content-management/preview-test.md)
 
    ![](assets/code-editor-preview.png)
 
@@ -73,13 +88,13 @@ E メールデザイナーのコードエディターでパーソナライゼー
 
 >[!IMPORTANT]
 >
->`now()` 関数は、メールビルダーの式言語では&#x200B;**サポートされていません**。`now()` はジャーニー条件で使用できますが、メールコンテンツやコードエディター内では使用できません。
+>`now()` 関数は、メールビルダーの式言語では&#x200B;**サポートされていません**。 `now()` はジャーニー条件で使用できますが、メールコンテンツやコードエディター内では使用できません。
 
 **使用可能な代替手段：**
 
 メールのパーソナライゼーションで現在の日時を操作するには、以下の関数を使用します。
 
-* **`getCurrentZonedDateTime()`** - タイムゾーン情報を含む現在の日時を返します。`now()` の代わりに使用することをお勧めします。
+* **`getCurrentZonedDateTime()`** - タイムゾーン情報を含む現在の日時を返します。 `now()` の代わりに使用することをお勧めします。
 
   例：`{%= getCurrentZonedDateTime() %}` は、`2024-12-06T17:22:02.281067+05:30[Asia/Kolkata]` を返します
 

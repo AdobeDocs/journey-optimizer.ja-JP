@@ -10,22 +10,43 @@ level: Intermediate
 keywords: 公開, ジャーニー, ライブ, 有効性, 確認
 exl-id: 95d0267e-fab4-4057-8ab5-6f7c9c866b0f
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+TQID: https://experienceleague.adobe.com/iHr0CFVSDz-4tOxNKyCyPZdwva3nfDyuU0Y5XHZEdjk
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2:
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: 595
 ht-degree: 96%
 
 ---
 
 # ジャーニー指標の設定とトラッキング {#success-metrics}
 
-ジャーニー指標を使用して、カスタマージャーニーの有効性を明確に可視化します。この機能を使用すると、定義済みの KPI に対するパフォーマンスを追跡し、機能している項目に関するインサイトを得て、最適化の領域を特定できます。影響をリアルタイムで測定することで、継続的な改善を推進し、データに基づいた意思決定を行って顧客エンゲージメントを高めることができます。
+ジャーニー指標を使用して、カスタマージャーニーの有効性を明確に可視化します。 この機能を使用すると、定義済みの KPI に対するパフォーマンスを追跡し、機能している項目に関するインサイトを得て、最適化の領域を特定できます。 影響をリアルタイムで測定することで、継続的な改善を推進し、データに基づいた意思決定を行って顧客エンゲージメントを高めることができます。
 
 ## 前提条件 {#prerequisites}
 
-ジャーニー指標を使用する前に、`Commerce Details` の設定/ レポートの下で、`Web`、`Mobile`、[&#x200B; &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja#field-group){target="_blank"} フィールドグループ [!DNL Adobe Experience Platform] を含むデータセットを追加する必要があります。
+ジャーニー指標を使用する前に、`Commerce Details`、`Web`および`Mobile`の[&#x200B; フィールドグループ &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/tutorials/create-schema-ui.html?lang=ja#field-group){target="_blank"}を含むデータセットを、[!DNL Adobe Experience Platform]の設定/レポートに追加する必要があります。
 
-これらのフィールドグループは、カスタムグループではなく、ビルトインのオプションから選択する必要があります。[データセットを追加](../reports/reporting-configuration.md#add-datasets)の節を参照してください。
+これらのフィールドグループは、カスタムグループではなく、ビルトインのオプションから選択する必要があります。 [データセットを追加](../reports/reporting-configuration.md#add-datasets)の節を参照してください。
 
 ## 使用可能な指標 {#metrics}
 
@@ -33,7 +54,7 @@ ht-degree: 96%
 
 データセットが設定されていない場合は、**[!UICONTROL クリック]**、**[!UICONTROL ユニーククリック]**、**[!UICONTROL クリックスルー率]**&#x200B;および&#x200B;**[!UICONTROL 開封率]**&#x200B;の指標のみが使用可能になります。
 
-Customer Journey Analytics ライセンスを使用すると、カスタム成功指標を作成できます。[詳細情報](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/participation-metric)
+Customer Journey Analytics ライセンスを使用すると、カスタム成功指標を作成できます。 [詳細情報](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/participation-metric)
 
 
 | 指標 | 関連フィールドグループ |
@@ -62,7 +83,7 @@ Customer Journey Analytics ライセンスを使用すると、カスタム成�
 
 * **Journey Optimizer ライセンスを使用した指標アトリビューション**：
 
-  Journey Optimizer ライセンスのみを使用した場合、選択した指標に対して使用可能な最大ルックバックウィンドウは 7 日間に設定されます。これらの指標の場合、アトリビューションモデルは、デフォルトで&#x200B;**ラストタッチ**、つまりコンバージョン前の最新のインタラクションに設定されます。
+  Journey Optimizer ライセンスのみを使用した場合、選択した指標に対して使用可能な最大ルックバックウィンドウは 7 日間に設定されます。 これらの指標の場合、アトリビューションモデルは、デフォルトで&#x200B;**ラストタッチ**、つまりコンバージョン前の最新のインタラクションに設定されます。
 
   例えば、過去 7 日以内に顧客がジャーニーにインタラクションを行った後に購入が行われたかどうかを追跡できます。
 
@@ -82,7 +103,7 @@ Customer Journey Analytics ライセンスを使用すると、カスタム成�
 
 1. **[!UICONTROL ジャーニー]**&#x200B;メニューから、「**[!UICONTROL ジャーニーを作成]**」をクリックします。
 
-1. ジャーニーの設定パネルを編集して、ジャーニーの名前を定義し、そのプロパティを設定します。ジャーニーのプロパティを設定する方法について詳しくは、[このページ](../building-journeys/journey-properties.md)を参照してください。
+1. ジャーニーの設定パネルを編集して、ジャーニーの名前を定義し、そのプロパティを設定します。 ジャーニーのプロパティを設定する方法について詳しくは、[このページ](../building-journeys/journey-properties.md)を参照してください。
 
 1. ジャーニーの効果を測定するために使用する&#x200B;**[!UICONTROL ジャーニー指標]**&#x200B;を選択します。
 

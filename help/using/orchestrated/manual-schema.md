@@ -5,10 +5,19 @@ title: 設定の手順
 description: ユーザーインターフェイスを通じてリレーショナルスキーマを直接作成する方法について説明します。
 exl-id: 8c785431-9a00-46b8-ba54-54a10e288141
 version: Campaign Orchestration
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/vSXJMXYZECaVuB8PkrEB4Y9AXgJBHMq0bGd8Nb-BGh4
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '932'
-ht-degree: 87%
+source-wordcount: 932
+ht-degree: 90%
 
 ---
 
@@ -148,15 +157,15 @@ ht-degree: 87%
 
 オーケストレーションされたキャンペーンのデータセットを有効にする必要があります。
 
-## オーケストレーションされたキャンペーンのデータセットを有効にする {#enable}
+## オーケストレーションキャンペーンのデータセットを有効にする {#enable}
 
 >[!CONTEXTUALHELP]
 >id="ajo_oc_enable_dataset_for_oc"
 >title="オーケストレーションキャンペーン"
->abstract="データセットを作成したら、オーケストレーションされたキャンペーンに対してデータセットを明示的に有効にする必要があります。 この手順により、データセットを Adobe Journey Optimizer 内でリアルタイムのオーケストレーションとパーソナライゼーションに使用できるようになります。"
+>abstract="データセットを作成したら、オーケストレーションキャンペーン用に明示的に有効にする必要があります。 この手順により、データセットを Adobe Journey Optimizer 内でリアルタイムのオーケストレーションとパーソナライゼーションに使用できるようになります。"
 
 
-データセットを作成したら、オーケストレーションされたキャンペーンに対してデータセットを明示的に有効にする必要があります。 この手順により、データセットを Adobe Journey Optimizer 内でリアルタイムのオーケストレーションとパーソナライゼーションに使用できるようになります。
+データセットを作成したら、オーケストレーションキャンペーン用に明示的に有効にする必要があります。 この手順により、データセットを Adobe Journey Optimizer 内でリアルタイムのオーケストレーションとパーソナライゼーションに使用できるようになります。
 
 データセットでオーケストレーションキャンペーン拡張機能を検証または有効にする方法について詳しくは、[Adobe 開発者用ドキュメント](https://developer.adobe.com/journey-optimizer-apis/references/orchestrated-campaign-dataset/#tag/DatasetEnablement)を参照してください。
 

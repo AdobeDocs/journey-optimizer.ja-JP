@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 4b514dea522be3648542a868be7c26b63715a1ff
+source-git-commit: 3d3218e24074ffb8ec36f1ec14ff8a6c45950d90
 workflow-type: tm+mt
-source-wordcount: '3322'
-ht-degree: 98%
+source-wordcount: '3326'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 98%
 + [Journey Optimizer ドキュメント](ajo-home.md)
 + 新機能 {#whats-new}
    + [リリースサイクル](using/rn/releases.md)
-   + {hide-from-toc}[早期リリースノート](using/rn/e-release-notes.md)
+   + [プレリリースノート](using/rn/e-release-notes.md)
    + [最新のリリースノート](using/rn/release-notes.md)
    + 以前のリリースノート {#previous-rn-new}
       + {hide-from-toc}[以前のリリースノート](/help/rp_landing_pages/previous-rn-new-landing-page.md)
@@ -80,7 +80,6 @@ ht-degree: 98%
       + [ジャーニーの終了](using/building-journeys/end-journey.md)
       + [別のサンドボックスへのジャーニーのコピー](using/building-journeys/copy-to-sandbox.md)
       + [インテリジェントサービスとの統合](using/building-journeys/ai-services-overview.md)
-      + {hide-from-toc}[ジャーニーフラグメント](using/building-journeys/journey-fragments.md)
    + アクティビティ {#about-journey-building}
       + [アクティビティ](/help/rp_landing_pages/about-journey-building-landing-page.md)
       + [ジャーニーのアクティビティの基本を学ぶ](using/building-journeys/about-journey-activities.md)
@@ -94,6 +93,7 @@ ht-degree: 98%
          + [条件](using/building-journeys/conditions.md)
       + [オーディエンスを読み取り](using/building-journeys/read-audience.md)
       + [待機](using/building-journeys/wait-activity.md)
+      + [ジャーニーフラグ](using/building-journeys/journey-fragments.md)
       + [コンテンツの決定](using/building-journeys/content-decision.md)
       + [データセットの参照](using/building-journeys/dataset-lookup.md)
       + [アクション](using/building-journeys/journey-action.md)
@@ -105,6 +105,7 @@ ht-degree: 98%
    + 式の作成 {#building-advanced-conditions-journeys}
       + [式の作成](/help/rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
       + [高度な式エディターの操作](using/building-journeys/expression/expressionadvanced.md)
+      + {hide-from-toc}[式アシスタント &#x200B;](using/building-journeys/expression/expression-agent.md)
       + 構文 {#syntax}
          + [構文](/help/rp_landing_pages/syntax-landing-page.md)
          + [高度な式エディターの構文](using/building-journeys/expression/generalities.md)
@@ -277,19 +278,19 @@ ht-degree: 98%
       + [メールの基本を学ぶ](using/email/get-started-email.md)
       + [メールの作成](using/email/create-email.md)
       + メールコンテンツのデザイン {#design-email}
-         + [メールコンテンツのデザイン](/help/rp_landing_pages/design-email-landing-page.md)
+         + {hide-from-toc}[&#x200B; メールコンテンツをデザイン &#x200B;](/help/rp_landing_pages/design-email-landing-page.md)
          + {hide-from-toc}[メッセージコンテンツのデザイン](using/start/message-content-design.md)
          + [メールデザインの基本を学ぶ](using/email/get-started-email-design.md)
          + コンテンツ作成を開始する {#start-creating-content}
-            + [コンテンツ作成を開始する](/help/rp_landing_pages/start-creating-content-landing-page.md)
+            + {hide-from-toc}[&#x200B; コンテンツの作成を開始](/help/rp_landing_pages/start-creating-content-landing-page.md)
             + [コンテンツのゼロからのデザイン](using/email/content-from-scratch.md)
             + [コンテンツの読み込み](using/email/existing-content.md)
             + [コンテンツを独自にコーディング](using/email/code-content.md)
             + [メールテンプレートを使用](using/email/use-email-templates.md)
             + [メールテーマの活用](using/email/apply-email-themes.md)
             + [メールへの PDF ファイルの添付](using/email/pdf-attachments.md)
-         + コンテンツをデザイン {#add-content}
-            + [コンテンツをデザイン](/help/rp_landing_pages/add-content-landing-page.md)
+         + コンテンツの作成 {#add-content}
+            + {hide-from-toc}[&#x200B; コンテンツをデザイン &#x200B;](/help/rp_landing_pages/add-content-landing-page.md)
             + [コンテンツコンポーネントの使用](using/email/content-components.md)
             + [ビジュアルフラグメントを活用](using/email/use-visual-fragments.md)
             + [リンクの追加とメッセージのトラッキング](using/email/message-tracking.md)
@@ -300,7 +301,7 @@ ht-degree: 98%
             + [メタデータを追加](using/email/email-metadata.md)
             + [高度な HTML エディターでの編集](using/email/email-expert-mode.md)
          + スタイルの編集 {#edit-style}
-            + [スタイルの編集](/help/rp_landing_pages/edit-style-landing-page.md)
+            + {hide-from-toc}[&#x200B; スタイルを編集](/help/rp_landing_pages/edit-style-landing-page.md)
             + [メールスタイルの基本を学ぶ](using/email/get-started-email-style.md)
             + [背景設定の編集](using/email/backgrounds.md)
             + [垂直方向の整列とパディングの調整](using/email/alignment-and-padding.md)
@@ -308,16 +309,16 @@ ht-degree: 98%
             + [カスタム CSS を追加](using/email/custom-css.md)
             + [ダークモードコンテンツの管理](using/email/dark-mode.md)
          + [アクセス可能なコンテンツの作成](using/email/accessible-content.md)
-      + [メールオプトアウトの管理](using/email/email-opt-out.md)
       + メールチャネルの設定 {#configure-email}
-         + [メールチャネルの設定](/help/rp_landing_pages/configure-email-landing-page.md)
+         + {hide-from-toc}[メールチャネルの設定](/help/rp_landing_pages/configure-email-landing-page.md)
          + [メール設定の基本を学ぶ](using/email/get-started-email-config.md)
          + [メール設定の定義](using/email/email-settings.md)
          + [リスト登録解除を有効にする](using/email/list-unsubscribe.md)
          + [ヘッダーパラメーター](using/email/header-parameters.md)
          + [URL トラッキング](using/email/url-tracking.md)
          + [メール設定のパーソナライズ](using/email/surface-personalization.md)
-         + [メールでのディープリンクの設定](using/email/deeplinks.md)
+      + [ディープリンクの使用と設定](using/email/deeplinks.md)
+      + [メールオプトアウトの管理](using/email/email-opt-out.md)
    + アプリ内チャネル {#in-app}
       + [アプリ内チャネル](/help/rp_landing_pages/in-app-landing-page.md)
       + [アプリ内の基本を学ぶ](using/in-app/get-started-in-app.md)
@@ -455,6 +456,7 @@ ht-degree: 98%
          + [文字列関数](using/personalization/functions/string.md)
       + パーソナライゼーションのユースケース {#personalization-use-cases}
          + [パーソナライゼーションのユースケース](/help/rp_landing_pages/personalization-use-cases-landing-page.md)
+         + [Personalizationレシピ](using/personalization/personalization-recipes.md)
          + [注文ステータスの通知](using/personalization/personalization-use-case.md)
          + [買い物かご放棄に関するメール](using/personalization/personalization-use-case-helper-functions.md)
          + [医療保険処方箋のメール](using/personalization/perso-uc-plan-prescriptions.md)
@@ -993,3 +995,4 @@ ht-degree: 98%
       + [顧客の環境設定の管理](using/action/preference-center.md)
    + [データガバナンス](using/action/action-privacy.md)
    + [顧客管理キーの設定と管理](using/privacy/cmk.md)
+

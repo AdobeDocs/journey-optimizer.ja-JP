@@ -9,22 +9,40 @@ topic: Administration
 role: Admin
 level: Intermediate
 keywords: 製品, プロファイル, サンドボックス
-source-git-commit: 25b1e6050e0cec3ae166532f47626d99ed68fe80
+TQID: https://experienceleague.adobe.com/Fni-bz0ax4B4q2wm87B7bfNXmybwfAyCu-ewclLwSCw
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+  - id: cfdf3a89-7087-4a5c-a6d2-2f4eb64a3470
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: 762
 ht-degree: 100%
 
 ---
 
 # ユーザーと役割の管理 {#manage-permissions}
 
-**[!UICONTROL 役割]**&#x200B;は、同じ権限とサンドボックスを共有するユーザーのコレクションを指します。これらの役割を使用すると、組織内の様々なユーザーグループのアクセスと権限を簡単に管理できます。
+**[!UICONTROL 役割]**&#x200B;は、同じ権限とサンドボックスを共有するユーザーのコレクションを指します。 これらの役割を使用すると、組織内の様々なユーザーグループのアクセスと権限を簡単に管理できます。
 
-[!DNL Journey Optimizer] 製品を使用すると、権限レベルの異なる既存の様々な&#x200B;**[!UICONTROL 役割]**&#x200B;から選択して、ユーザーに割り当てることができます。使用可能な&#x200B;**[!UICONTROL 役割]**&#x200B;について詳しくは、[このページ](ootb-product-profiles.md)を参照してください。
+[!DNL Journey Optimizer] 製品を使用すると、権限レベルの異なる既存の様々な&#x200B;**[!UICONTROL 役割]**&#x200B;から選択して、ユーザーに割り当てることができます。 使用可能な&#x200B;**[!UICONTROL 役割]**&#x200B;について詳しくは、[このページ](ootb-product-profiles.md)を参照してください。
 
 ユーザーがある&#x200B;**[!UICONTROL 役割]**&#x200B;に属する場合、その製品に含まれるアドビのアプリやサービスに対するアクセス権が付与されます。
 
-既存の役割が組織の固有のニーズを満たさない場合は、カスタムの&#x200B;**[!UICONTROL 役割]**&#x200B;を作成して、インターフェイス内の特定の機能やオブジェクトへのアクセスを微調整することもできます。こうして、各ユーザーが、タスクを効率的に実行するために必要なリソースとツールのみにアクセスできるようにします。
+既存の役割が組織の固有のニーズを満たさない場合は、カスタムの&#x200B;**[!UICONTROL 役割]**&#x200B;を作成して、インターフェイス内の特定の機能やオブジェクトへのアクセスを微調整することもできます。 こうして、各ユーザーが、タスクを効率的に実行するために必要なリソースとツールのみにアクセスできるようにします。
 
 
 >[!IMPORTANT]
@@ -58,7 +76,7 @@ ht-degree: 100%
 
 ユーザー管理について詳しくは、[アクセス制御ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/access-control/home.html?lang=ja){target="_blank"}を参照してください。
 
-インスタンスにアクセスすると、**[!UICONTROL 役割]**&#x200B;に割り当てられた権限に応じて、特定のビューが表示されます。ユーザーが、ある機能にアクセスする権限を持っていない場合は、次のメッセージが表示されます。
+インスタンスにアクセスすると、**[!UICONTROL 役割]**&#x200B;に割り当てられた権限に応じて、特定のビューが表示されます。 ユーザーが、ある機能にアクセスする権限を持っていない場合は、次のメッセージが表示されます。
 
 `You do not have permission to access this feature. Permission needed: XX.`
 
@@ -66,7 +84,7 @@ ht-degree: 100%
 
 ビルトインのまたはカスタムの&#x200B;**[!UICONTROL 役割]**&#x200B;については、いつでも権限を追加または削除できます。
 
-次の例では、ジャーニー閲覧者の&#x200B;**[!UICONTROL 役割]**&#x200B;を割り当てられたユーザーに対して、**[!UICONTROL ジャーニー]**&#x200B;リソースに関連する&#x200B;**[!UICONTROL 権限]**&#x200B;を追加します。すると、ユーザーはジャーニーを公開できるようになります。
+次の例では、ジャーニー閲覧者の&#x200B;**[!UICONTROL 役割]**&#x200B;を割り当てられたユーザーに対して、**[!UICONTROL ジャーニー]**&#x200B;リソースに関連する&#x200B;**[!UICONTROL 権限]**&#x200B;を追加します。 すると、ユーザーはジャーニーを公開できるようになります。
 
 >[!IMPORTANT]
 >
@@ -79,7 +97,7 @@ ht-degree: 100%
 
    ![](assets/do-not-localize/access_control_6.png)
 
-1. **[!UICONTROL リソース]**&#x200B;メニューには、**[!UICONTROL Experience Cloud／Platform を利用したアプリケーション]**&#x200B;製品に適用されるリソースのリストが表示されます。リソースをドラッグ＆ドロップして、権限を割り当てます。
+1. **[!UICONTROL リソース]**&#x200B;メニューには、**[!UICONTROL Experience Cloud／Platform を利用したアプリケーション]**&#x200B;製品に適用されるリソースのリストが表示されます。 リソースをドラッグ＆ドロップして、権限を割り当てます。
 
    ここでは、**[!UICONTROL ジャーニー]**&#x200B;リソースのドロップダウンから、ジャーニーの公開&#x200B;**[!UICONTROL 権限]**&#x200B;を選択します。
 
@@ -93,11 +111,11 @@ ht-degree: 100%
 
 ## 新しい役割の作成 {#create-product-profile}
 
-[!DNL Journey Optimizer] では、独自の&#x200B;**[!UICONTROL 役割]**&#x200B;を作成し、ユーザーに一連の権限とサンドボックスを割り当てることができます。**[!UICONTROL 役割]**&#x200B;を使用すると、インターフェイス内の特定の機能やオブジェクトへのアクセスを許可または拒否できます。
+[!DNL Journey Optimizer] では、独自の&#x200B;**[!UICONTROL 役割]**&#x200B;を作成し、ユーザーに一連の権限とサンドボックスを割り当てることができます。 **[!UICONTROL 役割]**&#x200B;を使用すると、インターフェイス内の特定の機能やオブジェクトへのアクセスを許可または拒否できます。
 
 サンドボックスの作成および管理方法について詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=ja){target="_blank"}を参照してください。
 
-この例では、**ジャーニー読み取り専用**&#x200B;という名前の役割を作成し、ジャーニー機能への読み取り専用権限を付与します。ユーザーはジャーニーにアクセスして表示できますが、[!DNL Journey Optimizer] の **[!DNL Decision management]** など、他の機能にはアクセスできません。
+この例では、**ジャーニー読み取り専用**&#x200B;という名前の役割を作成し、ジャーニー機能への読み取り専用権限を付与します。 ユーザーはジャーニーにアクセスして表示できますが、[!DNL Journey Optimizer] の **[!DNL Decision management]** など、他の機能にはアクセスできません。
 
 **ジャーニー読み取り専用****[!UICONTROL 役割]**&#x200B;を作成するには：
 
@@ -105,11 +123,11 @@ ht-degree: 100%
 
    ![](assets/do-not-localize/access_control_9.png)
 
-1. 新しい&#x200B;**[!UICONTROL 役割]**&#x200B;に、「**[!UICONTROL 名前]**」と「**[!UICONTROL 説明]**」を追加します。次に、「**[!UICONTROL 確認]**」をクリックします。
+1. 新しい&#x200B;**[!UICONTROL 役割]**&#x200B;に、「**[!UICONTROL 名前]**」と「**[!UICONTROL 説明]**」を追加します。 次に、「**[!UICONTROL 確認]**」をクリックします。
 
    ![](assets/do-not-localize/access_control_10.png)
 
-1. **[!UICONTROL サンドボックス]**&#x200B;リソースのドロップダウンで、**[!UICONTROL 役割]**&#x200B;に割り当てるサンドボックスを選択します。[サンドボックスの詳細情報](sandboxes.md)。
+1. **[!UICONTROL サンドボックス]**&#x200B;リソースのドロップダウンで、**[!UICONTROL 役割]**&#x200B;に割り当てるサンドボックスを選択します。 [サンドボックスの詳細情報](sandboxes.md)。
 
    ![](assets/do-not-localize/access_control_13.png)
 
@@ -127,6 +145,6 @@ ht-degree: 100%
 
 1. 終了したら、「**[!UICONTROL 保存]**」をクリックします。
 
-これで、**[!UICONTROL 役割]**&#x200B;の作成と設定が完了しました。次に、この役割をユーザーに割り当てる必要があります。
+これで、**[!UICONTROL 役割]**&#x200B;の作成と設定が完了しました。 次に、この役割をユーザーに割り当てる必要があります。
 
 役割の作成と管理について詳しくは、[Adobe Admin Console ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/roles.html?lang=ja){target="_blank"}を参照してください。

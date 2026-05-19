@@ -6,10 +6,20 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 8674ef9e-261b-49d9-800e-367f9f7ef979
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/idwoj9f3zFS64ifjzcSASPaUQTaNYtyS-HI6c3-7AI0
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c5ecc28ec44a9c608f4fe5011e061cad62d92e2b
 workflow-type: tm+mt
-source-wordcount: '1859'
-ht-degree: 99%
+source-wordcount: 1955
+ht-degree: 95%
 
 ---
 
@@ -37,7 +47,7 @@ ht-degree: 99%
 
 ## 次の場所の文字コード {#char-code-at}
 
-`charCodeAt` 関数は、JavaScript の charCodeAt 関数と同様に、文字の ASCII 値を返します。文字列と整数（文字の位置を定義する）を入力引数として受け取り、対応する ASCII 値を返します。
+`charCodeAt` 関数は、JavaScript の charCodeAt 関数と同様に、文字の ASCII 値を返します。 文字列と整数（文字の位置を定義する）を入力引数として受け取り、対応する ASCII 値を返します。
 
 **構文**
 
@@ -85,11 +95,11 @@ ht-degree: 99%
 | --------- | ----------- |
 | `STRING_1` | チェックの実行対象となる文字列です。 |
 | `STRING_2` | 最初の文字列内で検索する文字列です。 |
-| `CASE_SENSITIVE` | チェックで大文字と小文字が区別されるかどうかを指定するオプションのパラメーターです。使用可能な値：true（デフォルト）または false。 |
+| `CASE_SENSITIVE` | チェックで大文字と小文字が区別されるかどうかを指定するオプションのパラメーターです。 使用可能な値：true（デフォルト）または false。 |
 
 **例**
 
-* 次の関数は、プロファイルの名に A （大文字または小文字）が含まれているかどうかを確認します。この場合は「true」が返され、そうでない場合は「false」が返されます。
+* 次の関数は、プロファイルの名に A （大文字または小文字）が含まれているかどうかを確認します。 この場合は「true」が返され、そうでない場合は「false」が返されます。
 
   ```sql
   {%= contains(profile.person.name.firstName, "A", false) %}
@@ -115,7 +125,7 @@ ht-degree: 99%
 | --------- | ----------- |
 | `STRING_1` | チェックの実行対象となる文字列です。 |
 | `STRING_2` | 最初の文字列内で検索する文字列です。 |
-| `CASE_SENSITIVE` | チェックで大文字と小文字が区別されるかどうかを指定するオプションのパラメーターです。使用可能な値：true（デフォルト）または false。 |
+| `CASE_SENSITIVE` | チェックで大文字と小文字が区別されるかどうかを指定するオプションのパラメーターです。 使用可能な値：true（デフォルト）または false。 |
 
 **例**
 
@@ -140,7 +150,7 @@ ht-degree: 99%
 | --------- | ----------- |
 | `{STRING_1}` | チェックの実行対象となる文字列です。 |
 | `{STRING_2}` | 最初の文字列内で検索する文字列です。 |
-| `{CASE_SENSITIVE}` | チェックで大文字と小文字が区別されるかどうかを指定するオプションのパラメーターです。使用可能な値：true（デフォルト）または false。 |
+| `{CASE_SENSITIVE}` | チェックで大文字と小文字が区別されるかどうかを指定するオプションのパラメーターです。 使用可能な値：true（デフォルト）または false。 |
 
 **例**
 
@@ -164,7 +174,7 @@ doesNotEndWith(person.emailAddress,".com")
 | --------- | ----------- |
 | `{STRING_1}` | チェックの実行対象となる文字列です。 |
 | `{STRING_2}` | 最初の文字列内で検索する文字列です。 |
-| `{CASE_SENSITIVE}` | チェックで大文字と小文字が区別されるかどうかを指定するオプションのパラメーターです。使用可能な値：true（デフォルト）または false。 |
+| `{CASE_SENSITIVE}` | チェックで大文字と小文字が区別されるかどうかを指定するオプションのパラメーターです。 使用可能な値：true（デフォルト）または false。 |
 
 **例**
 
@@ -198,7 +208,7 @@ doesNotEndWith(person.emailAddress,".com")
 | --------- | ----------- |
 | `{STRING_1}` | チェックの実行対象となる文字列です。 |
 | `{STRING_2}` | 最初の文字列内で検索する文字列です。 |
-| `{CASE_SENSITIVE}` | チェックで大文字と小文字が区別されるかどうかを指定するオプションのパラメーターです。使用可能な値：true（デフォルト）または false。 |
+| `{CASE_SENSITIVE}` | チェックで大文字と小文字が区別されるかどうかを指定するオプションのパラメーターです。 使用可能な値：true（デフォルト）または false。 |
 
 **例**
 
@@ -347,7 +357,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## インデックス {#index-of}
 
-`indexOf` 関数は、2 番目のパラメーターが最初に現れる（最初の引数内の）位置を返すために使用されます。一致するものがない場合は「-1」を返します。
+`indexOf` 関数は、2 番目のパラメーターが最初に現れる（最初の引数内の）位置を返すために使用されます。 一致するものがない場合は「-1」を返します。
 
 **構文**
 
@@ -380,7 +390,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 **例**
 
-次の関数は、プロファイルの携帯電話番号が空の場合、「true」を返します。それ以外の場合は、「false」を返します。
+次の関数は、プロファイルの携帯電話番号が空の場合、「true」を返します。 それ以外の場合は、「false」を返します。
 
 ```sql
 {%= isEmpty(profile.mobilePhone.number) %}
@@ -398,7 +408,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 **例**
 
-次の関数は、プロファイルの携帯電話番号が空の場合、「true」を返します。それ以外の場合は、「false」を返します。
+次の関数は、プロファイルの携帯電話番号が空の場合、「true」を返します。 それ以外の場合は、「false」を返します。
 
 ```sql
 {%= isNotEmpty(profile.mobilePhone.number) %}
@@ -406,7 +416,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 最後のインデックス {#last-index-of}
 
-`lastIndexOf` 関数は、2 番目のパラメーターが最後に現れる（最初の引数内の）位置を返すために使用されます。一致するものがない場合は「-1」を返します。
+`lastIndexOf` 関数は、2 番目のパラメーターが最後に現れる（最初の引数内の）位置を返すために使用されます。 一致するものがない場合は「-1」を返します。
 
 **構文**
 
@@ -468,7 +478,7 @@ doesNotEndWith(person.emailAddress,".com")
 | 引数 | 説明 |
 | --------- | ----------- |
 | `{STRING_1}` | チェックの実行対象となる文字列です。 |
-| `{STRING_2}` | 最初の文字列列と照合される式です。式の作成に使用できる特殊文字として、`%` と `_` の 2 つがサポートされています。 <ul><li>`%` は、0 個以上の文字を表すために使用されます。</li><li>`_` は、1 文字を表すために使用されます。</li></ul> |
+| `{STRING_2}` | 最初の文字列列と照合される式です。 式の作成に使用できる特殊文字として、`%` と `_` の 2 つがサポートされています。 <ul><li>`%` は、0 個以上の文字を表すために使用されます。</li><li>`_` は、1 文字を表すために使用されます。</li></ul> |
 
 **例**
 
@@ -498,7 +508,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 一致{#matches}
 
-`matches` 関数は、文字列が特定の正規表現と一致するかどうかを判定するために使用されます。正規表現でのパターンマッチングについて詳しくは、[こちらのドキュメント](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html)を参照してください。
+`matches` 関数は、文字列が特定の正規表現と一致するかどうかを判定するために使用されます。 正規表現でのパターンマッチングについて詳しくは、[こちらのドキュメント](https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html)を参照してください。
 
 **構文**
 
@@ -648,7 +658,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## すべて置換{#replaceAll}
 
-`replaceAll` 関数は、「regex」式に一致するテキストのすべてのサブ文字列を、指定されたリテラルの「replacement」文字列に置き換えるために使用します。正規表現には「\」と「+」の特別な処理があり、すべての正規表現は PQL エスケープ戦略に従います。置換は、文字列の先頭から末尾に向かって行われます。例えば、文字列「aaa」の「aa」を「b」に置き換えると、「ab」ではなく「ba」になります。
+`replaceAll` 関数は、「regex」式に一致するテキストのすべてのサブ文字列を、指定されたリテラルの「replacement」文字列に置き換えるために使用します。 正規表現には「\」と「+」の特別な処理があり、すべての正規表現は PQL エスケープ戦略に従います。 置換は、文字列の先頭から末尾に向かって行われます。例えば、文字列「aaa」の「aa」を「b」に置き換えると、「ab」ではなく「ba」になります。
 
 **構文**
 
@@ -658,10 +668,34 @@ doesNotEndWith(person.emailAddress,".com")
 
 >[!NOTE]
 >
-> 2 番目の引数として使用される式が特殊な正規表現文字である場合は、2 つのバックスラッシュ（`//`）を使用します。特殊な正規表現文字は次のとおりです：[.、+、*、?、^、$、(、)、[、]、{、}、|、\]
+> 2 番目の引数として使用される式が特殊な正規表現文字である場合は、2 つのバックスラッシュ（`//`）を使用します。  特殊な正規表現文字は次のとおりです：[.、+、*、?、^、$、(、)、[、]、{、}、|、\]
 > 
 > 詳しくは、[Oracle ドキュメント](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html){_blank}を参照してください。
 >
+
++++例 – 基本的な置換
+
+```sql
+{%= replaceAll("Hello World","World","AJO") %}
+```
+
+`Hello AJO` を返します。
+
++++
+
++++実際の例 – replaceAll後の変数の再割り当て
+
+`replaceAll`は新しい文字列を返しますが、元の値は変更しません。 クリーニングされた文字列を複数回再利用するには、`{% let %}`を使用して結果を変数に割り当てます。
+
+```handlebars
+{% let cleanName = replaceAll(profile.person.name.firstName, "[^a-zA-Z]", "") %}
+Hello {{cleanName}}, your personalized offer is ready.
+Your code: WELCOME-{%= upperCase(cleanName) %}
+```
+
+`{% let %}`割り当てには`replaceAll`の結果が保存されるため、関数を再度呼び出さずに`{{cleanName}}`として参照できます。 これは正しいパターンです。自分自身の内部で`replaceAll`を連鎖させたり、同じプロファイル変数に再割り当てしようとしたりすることはサポートされていません。
+
++++
 
 ## 右トリミング {#rightTrim}
 
@@ -715,7 +749,7 @@ doesNotEndWith(person.emailAddress,".com")
 | --------- | ----------- |
 | `{STRING_1}` | チェックの実行対象となる文字列です。 |
 | `{STRING_2}` | 最初の文字列内で検索する文字列です。 |
-| `{CASE_SENSITIVE}` | チェックで大文字と小文字が区別されるかどうかを指定するオプションのパラメーターです。デフォルトでは true に設定されています。 |
+| `{CASE_SENSITIVE}` | チェックで大文字と小文字が区別されるかどうかを指定するオプションのパラメーターです。 デフォルトでは true に設定されています。 |
 
 **例**
 
@@ -753,7 +787,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 文字列から数値へ {#string-to-number}
 
-`stringToNumber` 関数は、文字列を数値に変換するために使用されます。無効な入力の出力と同じ文字列を返します。
+`stringToNumber` 関数は、文字列を数値に変換するために使用されます。 無効な入力の出力と同じ文字列を返します。
 
 **構文**
 
@@ -800,7 +834,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 終了時刻 {#to-date-time}
 
-`toDateTime` 関数は、文字列を日付型に変換するために使用されます。無効な入力に対する出力として、エポック日付を返します。
+`toDateTime` 関数は、文字列を日付型に変換するために使用されます。 無効な入力に対する出力として、エポック日付を返します。
 
 **構文**
 
@@ -810,7 +844,7 @@ doesNotEndWith(person.emailAddress,".com")
 
 ## 終了時刻のみ {#to-date-time-only}
 
-`toDateTimeOnly` 関数は、引数の値を日時のみの値に変換するために使用されます。無効な入力に対する出力として、エポック日付を返します。この関数は、文字列、日付、長さおよび整数のフィールドタイプを受け入れます。
+`toDateTimeOnly` 関数は、引数の値を日時のみの値に変換するために使用されます。 無効な入力に対する出力として、エポック日付を返します。 この関数は、文字列、日付、長さおよび整数のフィールドタイプを受け入れます。
 
 **構文**
 

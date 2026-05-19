@@ -9,9 +9,29 @@ role: User
 level: Beginner, Intermediate
 keywords: メール, デザイン, Stock, アセット
 exl-id: e4f91870-f06a-4cd3-98b7-4c413233e310
-source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
+TQID: https://experienceleague.adobe.com/fyUHQD4jpIUI2KdyrGbgktEhNNc4OWYRJ8AkgZhrIoQ
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+  - id: f550d0f2-143d-4093-9463-467fbec95fcc
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: 738
 ht-degree: 100%
 
 ---
@@ -20,15 +40,15 @@ ht-degree: 100%
 
 E メールデザイナーにアクセスしてメールコンテンツのデザインを開始するには、まずジャーニーまたはキャンペーンで[メールを作成](create-email.md)する必要があります。
 
-その後、[!DNL Journey Optimizer] **メールデザイン機能**&#x200B;を使用して既存のコンテンツを読み込んだり、レスポンシブなメールをゼロから作成したりできます。[詳細情報](content-from-scratch.md)
+その後、[!DNL Journey Optimizer] **メールデザイン機能**&#x200B;を使用して既存のコンテンツを読み込んだり、レスポンシブなメールをゼロから作成したりできます。 [詳細情報](content-from-scratch.md)
 
 また、E メールデザイナーでは、次の操作も実行できます。
 
-* **Adobe Experience Manager Assets Essentials** を活用してメールを強化し、独自のアセットデータベースを作成および管理します。[詳細情報](../integrations/assets.md)
+* **Adobe Experience Manager Assets Essentials** を活用してメールを強化し、独自のアセットデータベースを作成および管理します。 [詳細情報](../integrations/assets.md)
 
-* **Adobe Stock の写真**&#x200B;を検索しコンテンツを作成し、メールデザインを向上します。[詳細情報](../integrations/stock.md)
+* **Adobe Stock の写真**&#x200B;を検索しコンテンツを作成し、メールデザインを向上します。 [詳細情報](../integrations/stock.md)
 
-* プロファイル属性に基づいてパーソナライズされたメッセージと動的メッセージを作成し、カスタマーエクスペリエンスを強化します。[パーソナライズ機能](../personalization/personalize.md)および[動的コンテンツ](../personalization/get-started-dynamic-content.md)の詳細をご覧ください。
+* プロファイル属性に基づいてパーソナライズされたメッセージと動的メッセージを作成し、カスタマーエクスペリエンスを強化します。 [パーソナライズ機能](../personalization/personalize.md)および[動的コンテンツ](../personalization/get-started-dynamic-content.md)の詳細をご覧ください。
 
 ➡️ [この機能をビデオで確認](#video)
 
@@ -36,25 +56,25 @@ E メールデザイナーにアクセスしてメールコンテンツのデザ
 
 メールを作成したら、メールコンテンツのデザインを開始できます。
 
-1. ジャーニーまたはキャンペーンの設定画面から、**[!UICONTROL コンテンツを編集]**&#x200B;画面に進み、E メールデザイナーにアクセスします。[詳細情報](create-email.md#define-email-content)
+1. ジャーニーまたはキャンペーンの設定画面から、**[!UICONTROL コンテンツを編集]**&#x200B;画面に進み、E メールデザイナーにアクセスします。 [詳細情報](create-email.md#define-email-content)
 
    ![](assets/email_designer_edit_email_body.png)
 
 1. E メールデザイナーのホームページで、次のオプションからメールのデザイン方法を選択します。
 
-   * E メールデザイナーのインターフェイスで&#x200B;**メールをゼロから設計**&#x200B;し、[Adobe Experience Manager Assets](../integrations/assets.md) の画像を活用します。メールコンテンツのデザイン方法については、[この節](content-from-scratch.md)を参照してください。
+   * E メールデザイナーのインターフェイスで&#x200B;**メールをゼロから設計**&#x200B;し、[Adobe Experience Manager Assets](../integrations/assets.md) の画像を活用します。 メールコンテンツのデザイン方法については、[この節](content-from-scratch.md)を参照してください。
 
-   * E メールデザイナーで直接 **Raw HTML をコーディングまたは貼り付け**&#x200B;ます。独自のコンテンツのコーディング方法については、[この節](code-content.md)を参照してください。
+   * E メールデザイナーで直接 **Raw HTML をコーディングまたは貼り付け**&#x200B;ます。 独自のコンテンツのコーディング方法については、[この節](code-content.md)を参照してください。
 
      >[!NOTE]
      >
-     >キャンペーンでは、**[!UICONTROL コンテンツを編集]**&#x200B;画面から「**[!UICONTROL コードエディター]**」ボタンを選択することもできます。[詳細情報](create-email.md#define-email-content)
+     >キャンペーンでは、**[!UICONTROL コンテンツを編集]**&#x200B;画面から「**[!UICONTROL コードエディター]**」ボタンを選択することもできます。 [詳細情報](create-email.md#define-email-content)
 
-   * ファイルまたは .zip フォルダーから&#x200B;**既存の HTML コンテンツを読み込み**&#x200B;ます。メールコンテンツの読み込み方法については、[この節](existing-content.md)を参照してください。
+   * ファイルまたは .zip フォルダーから&#x200B;**既存の HTML コンテンツを読み込み**&#x200B;ます。 メールコンテンツの読み込み方法については、[この節](existing-content.md)を参照してください。
 
-   * AI を活用した画像から HTML へのコンバーターを使用して、**画像デザインを HTML テンプレートに変換します**。静的画像を編集可能なメールテンプレートに変換する方法について詳しくは、[この節](../content-management/image-to-html.md)を参照してください。
+   * AI を活用した画像から HTML へのコンバーターを使用して、**画像デザインを HTML テンプレートに変換します**。 静的画像を編集可能なメールテンプレートに変換する方法について詳しくは、[この節](../content-management/image-to-html.md)を参照してください。
 
-   * ビルトインまたはカスタムテンプレートのリストから&#x200B;**既存のコンテンツを選択します**。メールテンプレートの操作方法については、[この節](../email/use-email-templates.md)を参照してください。
+   * ビルトインまたはカスタムテンプレートのリストから&#x200B;**既存のコンテンツを選択します**。 メールテンプレートの操作方法については、[この節](../email/use-email-templates.md)を参照してください。
 
    ![](assets/email_designer_create_options.png)
 
@@ -62,13 +82,13 @@ E メールデザイナーにアクセスしてメールコンテンツのデザ
 
    ![](assets/email_designer_export.png)
 
-1. また、コンテンツ品質を検証して、読みやすさ、コンテンツのまとまり、有効性に関する潜在的な問題を特定することもできます。[コンテンツ品質の検証の詳細情報](../content-management/brands-score.md#validate-quality)
+1. また、コンテンツ品質を検証して、読みやすさ、コンテンツのまとまり、有効性に関する潜在的な問題を特定することもできます。 [コンテンツ品質の検証の詳細情報](../content-management/brands-score.md#validate-quality)
 
 ## メールデザインのベストプラクティス {#best-practices}
 
-メールを送信する際は、受信者がメールを転送する可能性があることを考慮することが重要です。これにより、メールのレンダリングで問題が発生する可能性があります。これは、転送に使用されるメールプロバイダーでサポートされていない可能性がある CSS クラスを使用する場合に特に当てはまります。例えば、モバイルデバイスで画像を非表示にするのに「is-desktop-hidden」CSS クラスを使用している場合などです。
+メールを送信する際は、受信者がメールを転送する可能性があることを考慮することが重要です。これにより、メールのレンダリングで問題が発生する可能性があります。 これは、転送に使用されるメールプロバイダーでサポートされていない可能性がある CSS クラスを使用する場合に特に当てはまります。例えば、モバイルデバイスで画像を非表示にするのに「is-desktop-hidden」CSS クラスを使用している場合などです。
 
-こうしたレンダリングの問題を最小限にするために、メールのデザイン構造をできるだけ簡単に保つことをお勧めします。デスクトップデバイスとモバイルデバイスの両方で適切に機能する単一のデザインを使用し、複雑な CSS クラスや、すべてのメールクライアントで完全にはサポートされない他のデザイン要素を使用しないようにします。これらのベストプラクティスに従うと、受信者による表示や転送の方法に関係なく、一貫して正しくメールをレンダリングできます。
+こうしたレンダリングの問題を最小限にするために、メールのデザイン構造をできるだけ簡単に保つことをお勧めします。 デスクトップデバイスとモバイルデバイスの両方で適切に機能する単一のデザインを使用し、複雑な CSS クラスや、すべてのメールクライアントで完全にはサポートされない他のデザイン要素を使用しないようにします。 これらのベストプラクティスに従うと、受信者による表示や転送の方法に関係なく、一貫して正しくメールをレンダリングできます。
 
 メールデザインのベストプラクティスについては、以下の表を参照してください。
 
@@ -78,7 +98,7 @@ E メールデザイナーにアクセスしてメールコンテンツのデザ
 
 >[!NOTE]
 >
->[欧州アクセシビリティ法](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}では、すべてのデジタル通信がアクセス可能である必要があると規定しています。この節に示すメールデザインのベストプラクティスに加えて、[このページ](accessible-content.md)に記載されている、E メールデザイナーを使用してアクセシブルなコンテンツを作成する際に固有のガイドラインにも必ず従ってください。
+>[欧州アクセシビリティ法](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}では、すべてのデジタル通信がアクセス可能である必要があると規定しています。 この節に示すメールデザインのベストプラクティスに加えて、[このページ](accessible-content.md)に記載されている、E メールデザイナーを使用してアクセシブルなコンテンツを作成する際に固有のガイドラインにも必ず従ってください。
 
 ## チュートリアルビデオ {#video}
 

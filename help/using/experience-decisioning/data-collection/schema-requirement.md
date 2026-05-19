@@ -8,9 +8,19 @@ role: Developer
 level: Experienced
 exl-id: ce3a2c33-c15b-436f-90b1-7373d7b2b1ca
 version: Journey Orchestration
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+TQID: https://experienceleague.adobe.com/VWYByDMrFX9Siqx2nYcMM49JimP-HTY6eKNo-hQZ-aU
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: 291
 ht-degree: 100%
 
 ---
@@ -102,11 +112,11 @@ JavaScript コードに実装する必要があるスキーマ要件は、以下
 
 **ソース：** Web.sdk/Alloy.js（`sendEvent command -> xdm : {eventType, interactionMixin}`）またはバッチ取り込み
 
-提案内の各オファーには、アドビで生成される一意の ID であるトラッキングトークンが含まれます。このトークンは、対応するクリックイベントまたはインプレッションイベントで、受信したとおりに（変更せずに）渡す必要があります。一致するトラッキングトークンにより、アドビではユーザーアクションを正しいオファーの決定に正確に関連付けることができ、ダウンストリームレポートと AI ベースの最適化が可能になります。
+提案内の各オファーには、アドビで生成される一意の ID であるトラッキングトークンが含まれます。 このトークンは、対応するクリックイベントまたはインプレッションイベントで、受信したとおりに（変更せずに）渡す必要があります。 一致するトラッキングトークンにより、アドビではユーザーアクションを正しいオファーの決定に正確に関連付けることができ、ダウンストリームレポートと AI ベースの最適化が可能になります。
 
 >[!CAUTION]
 >
->クリックを追跡する際に `propositionAction.tokens` フィールドにトラッキングトークンを渡さないと、クリックイベントは対応するオファーに適切に関連付けられません。これにより、トラッキングデータが不完全になり、レポートや AI ベースのランキング最適化に悪影響を与えます。クリックの追跡の実装には常に、提案からのトラッキングトークンを含めてください。
+>クリックを追跡する際に `propositionAction.tokens` フィールドにトラッキングトークンを渡さないと、クリックイベントは対応するオファーに適切に関連付けられません。 これにより、トラッキングデータが不完全になり、レポートや AI ベースのランキング最適化に悪影響を与えます。 クリックの追跡の実装には常に、提案からのトラッキングトークンを含めてください。
 
 +++**サンプルペイロード：**
 

@@ -2,7 +2,7 @@
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: パーソナライズされたオファーの作成
-description: パーソナライズされたオファーは、実施要件ルールおよび制約に基づいてカスタマイズできるマーケティングメッセージです。
+description: パーソナライズされたオファーとは、適格性ルールと制約にもとづいてカスタマイズ可能なマーケティングメッセージです。
 feature: Decision Management, API
 badge: label="レガシー" type="Informative"
 topic: Integrations
@@ -10,10 +10,22 @@ role: Developer
 level: Experienced
 exl-id: 234bee17-c830-4bc0-b258-182804df4cb3
 version: Journey Orchestration
-source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
+TQID: https://experienceleague.adobe.com/q4y24bn8nU-h-f2n2UQfh1aGWTDH2GYP8eblqo0HLCQ
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 100%
+source-wordcount: 202
+ht-degree: 0%
 
 ---
 
@@ -21,32 +33,32 @@ ht-degree: 100%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../../../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer]の新しい決定機能である決定機能が、コードベースのエクスペリエンスとメールチャネルで利用できるようになりました。 [詳細情報](../../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
-パーソナライズされたオファーは、実施要件ルールおよび制約に基づいてカスタマイズできるマーケティングメッセージです。
+パーソナライズされたオファーとは、適格性ルールと制約にもとづいてカスタマイズ可能なマーケティングメッセージです。
 
-コンテナ ID を提供しながら [!DNL Offer Library] API に対して POST リクエストを実行することで、パーソナライズされたオファーを作成できます。
+パーソナライズされたオファーを作成するには、コンテナ IDを指定しながら[!DNL Offer Library] APIにPOST リクエストを行います。
 
-## Accept ヘッダーと Content-Type ヘッダー {#accept-and-content-type-headers}
+## 受け入れるヘッダーとコンテンツタイプのヘッダー {#accept-and-content-type-headers}
 
-次の表に、リクエストヘッダーの *Content-Type* フィールドと *Accept* フィールドを構成する有効な値を示します。
+次の表は、リクエストヘッダーの&#x200B;*Content-Type*&#x200B;および&#x200B;*Accept* フィールドを構成する有効な値を示しています。
 
 | ヘッダー名 | 値 |
 | ----------- | ----- |
-| Accept | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
-| Content-Type | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5"` |
+| 承認 | `application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1` |
+| コンテンツタイプ | `application/schema-instance+json; version=1;  schema="https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5"` |
 
-**API 形式**
+**API形式**
 
 ```http
 POST /{ENDPOINT_PATH}/{CONTAINER_ID}/instances
 ```
 
-| パラメーター | 説明 | 例 |
+| パラメーター | 効果 | 例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | リポジトリ API のエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | パーソナライズされたオファーが配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{ENDPOINT_PATH}` | リポジトリ APIのエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | パーソナライズされたオファーが配置されるコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 
 **リクエスト**
 
@@ -95,7 +107,7 @@ curl -X POST \
 
 **応答**
 
-正常な応答では、新たに作成されたパーソナライズされたオファーに関する情報（一意のインスタンス ID とプレースメント `@id` を含む）が返されます。後の手順で、このインスタンス ID を使用してパーソナライズされたオファーを更新または削除できます。
+応答が成功すると、新しく作成されたパーソナライズされたオファーに関する情報（一意のインスタンス IDとプレースメント `@id`を含む）が返されます。 後の手順でインスタンス IDを使用して、パーソナライズされたオファーを更新または削除できます。
 
 ```json
 {
@@ -111,6 +123,6 @@ curl -X POST \
 }
 ```
 
-## 制限事項 {#limitations}
+## 制限 {#limitations}
 
-`Capping` など、オファー表示域および一部のオファー制約は現在、モバイル [!DNL Experience Edge] ワークフローではサポートされていません。`Capping` フィールド値は、1 つのオファーをすべてのユーザーに対して提示できる回数を指定します。詳しくは、[オファーの実施要件ルールと制約に関するドキュメント](../../../../offer-library/creating-personalized-offers.md)を参照してください。
+オファー表示域と一部のオファー制約は、現在、モバイル [!DNL Experience Edge] ワークフロー（例：`Capping`）ではサポートされていません。 `Capping` フィールド値は、すべてのユーザーに対してオファーを表示できる回数を指定します。 詳しくは、[&#x200B; オファーの実施要件ルールと制約に関するドキュメント &#x200B;](../../../../offer-library/creating-personalized-offers.md)を参照してください。

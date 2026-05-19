@@ -6,10 +6,17 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: dfe611fb-9c50-473c-9eb7-b983e1e6f01e
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/CUiT5GFH9o4q-oOSWuKC8ZyLbRbH9lj88M92LhMIX9E
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c5ecc28ec44a9c608f4fe5011e061cad62d92e2b
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 99%
+source-wordcount: 742
+ht-degree: 79%
 
 ---
 
@@ -101,7 +108,7 @@ ht-degree: 99%
 
 **例**
 
-次の操作は、最も金額が高い注文の上位 5 件のうち最初の項目を返します。`topN` 関数の詳細については、[配列の最初の `n`](#first-n)の節を参照してください 。
+次の操作は、最も金額が高い注文の上位 5 件のうち最初の項目を返します。 `topN` 関数の詳細については、[配列の最初の `n`](#first-n)の節を参照してください 。
 
 ```sql
 {%= head(topN(orders,price, 5)) %}
@@ -109,7 +116,7 @@ ht-degree: 99%
 
 ## 配列の最初の N 個を並べ替えて取得 {#first-n}
 
-`topN` 関数は、指定した数値式に基づいて配列を降順に並べ替えて、最初の `N` 個の項目を返します。配列のサイズが `N` 個未満の場合は、並べ替えられた配列全体を返します。
+`topN` 関数は、指定した数値式に基づいて配列を降順に並べ替えて、最初の `N` 個の項目を返します。 配列のサイズが `N` 個未満の場合は、並べ替えられた配列全体を返します。
 
 この関数
 **構文**
@@ -209,7 +216,7 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 
 ## 配列の最後の N 個を並べ替えて取得 {#last-n}
 
-`bottomN` 関数は、指定した数値式に基づいて配列を昇順に並べ替えて、最初の `N` 個の項目を返します。配列のサイズが `N` 個未満の場合は、並べ替えられた配列全体を返します。
+`bottomN` 関数は、指定した数値式に基づいて配列を昇順に並べ替えて、最初の `N` 個の項目を返します。 配列のサイズが `N` 個未満の場合は、並べ替えられた配列全体を返します。
 
 **構文**
 
@@ -237,7 +244,7 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 
 >[!NOTE]
 >
->この`notIn` 関数は&#x200B;*また*、どの値も NULL ではないことを保証します。したがって、結果は `in` 関数の完全な否定ではありません。
+>この`notIn` 関数は&#x200B;*また*、どの値も NULL ではないことを保証します。 したがって、結果は `in` 関数の完全な否定ではありません。
 
 **構文**
 
@@ -256,7 +263,7 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 
 ## サブセット{#subset}
 
-`subsetOf` 関数は、特定の配列（配列 A）が別の配列（配列 B）のサブセットであるかを判断するために使用されます。つまり、配列 A 内のすべての要素が配列 B の要素であるということです。
+`subsetOf` 関数は、特定の配列（配列 A）が別の配列（配列 B）のサブセットであるかを判断するために使用されます。 つまり、配列 A 内のすべての要素が配列 B の要素であるということです。
 
 **構文**
 
@@ -274,7 +281,7 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 
 ## スーパーセット{#superset}
 
-`supersetOf` 関数は、特定の配列（配列 A）が別の配列（配列 B）のスーパーセットであるかを判断するために使用されます。つまり、その配列 Aには配列 B のすべての要素が含まれます。
+`supersetOf` 関数は、特定の配列（配列 A）が別の配列（配列 B）のスーパーセットであるかを判断するために使用されます。 つまり、その配列 Aには配列 B のすべての要素が含まれます。
 
 **構文**
 
@@ -289,3 +296,77 @@ intersection(person1.favoriteColors,person2.favoriteColors) = ["red", "blue", "g
 ```sql
 {%= supersetOf(person.eatenFoods,["sushi", "pizza"]) %}
 ```
+
+## 配列の繰り返し {#each-loop}
+
+Handlebars `{{#each}}` ブロックヘルパーを使用して、配列をループし、**パーソナライズされたコンテンツ** （電子メール、SMS、プッシュ）の各項目のコンテンツをレンダリングします。
+
+>[!NOTE]
+>
+>`{{#each}}`は、**パーソナライゼーションエディター**&#x200B;でのみ利用できます（メール本文、SMS、プッシュコンテンツ）。 ジャーニー条件アクティビティでは&#x200B;**not**&#x200B;がサポートされています。 ジャーニー条件内の配列から項目をフィルタリングまたは一致させるには、代わりに[&#x200B; コレクション管理関数](../../building-journeys/expression/collection-management-functions.md)を使用します。
+
+**構文**
+
+```handlebars
+{{#each arrayAttribute}}
+  {{this}}
+{{/each}}
+```
+
++++例 – 配列内のすべての項目のリスト
+
+```handlebars
+{{#each profile.purchases.items}}
+  - {{this.name}}: {{this.price}}€
+{{/each}}
+```
+
+出力（例）:
+
+```
+- Running shoes: 89€
+- Water bottle: 15€
+- Gym bag: 45€
+```
+
++++
+
++++例 – ループインデックスへのアクセス
+
+`@index`を使用して、現在のループ位置（0 ベース）にアクセスします。
+
+```handlebars
+{{#each profile.preferences.languages}}
+  {{@index}}: {{this}}
+{{/each}}
+```
+
+出力（例）:
+
+```
+0: English
+1: French
+2: Spanish
+```
+
++++
+
++++例 – ループ内の条件付きレンダリング
+
+条件が満たされたときにのみコンテンツをレンダリングするには、`{{#each}}`内の`{%#if%}` ブロックを使用します。
+
+>[!NOTE]
+>
+>`{% if %}` / `{% endif %}`はサポートされていません。 代わりに`{%#if%}` / `{%/if%}`を使用してください。 また、`this.<field>`はPQL条件式では機能しません。属性名（`order.status`など）を使用してフィールドを直接参照してください。
+
+```handlebars
+{{#each profile.orders as |order|}}
+  {%#if order.status = "pending"%}
+  Your order {{order.id}} is still pending.
+  {%/if%}
+{{/each}}
+```
+
+これは、「条件付きブレーク」をシミュレートするために推奨されるパターンです。条件に一致する項目のみが出力を生成します。
+
++++

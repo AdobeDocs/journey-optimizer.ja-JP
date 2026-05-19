@@ -9,9 +9,23 @@ role: User
 level: Beginner
 keywords: Stock, 画像, 統合, 写真
 exl-id: 0715f65f-04bd-4dc2-a152-98111f4c42e6
-source-git-commit: ccfc0870a8d59d16c7f5b6b02856785aa28dd307
+TQID: https://experienceleague.adobe.com/vTlX-g-0KOflNFEE82-eaivCmII6bqdYyGHtzDvYylc
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2:
+  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: 597
 ht-degree: 100%
 
 ---
@@ -22,9 +36,9 @@ ht-degree: 100%
 
 [!DNL Adobe Stock] と [!DNL Adobe Journey Optimizer] E メールデザイナーの統合プラグインを使用すると、メッセージオーサリングで使用する画像のナビゲーション、ライセンス取得および保存を簡単に行うことができます。
 
-[Adobe Stock](https://helpx.adobe.com/jp/stock/get-started.html){target="_blank"} では、数百万もの厳選された高品質な、ロイヤリティフリーの写真、ビデオ、イラスト、ベクターグラフィックを利用できます。クレジットパックを購入してアセットのライセンスを取得するか、必要なアセットに対して通常ライセンスまたは強化ライセンスを 1 つだけ購入するかどうかを選択できます。Adobe Stock はまた、アセットの無料コレクションを提供しています。
+[Adobe Stock](https://helpx.adobe.com/jp/stock/get-started.html){target="_blank"} では、数百万もの厳選された高品質な、ロイヤリティフリーの写真、ビデオ、イラスト、ベクターグラフィックを利用できます。 クレジットパックを購入してアセットのライセンスを取得するか、必要なアセットに対して通常ライセンスまたは強化ライセンスを 1 つだけ購入するかどうかを選択できます。 Adobe Stock はまた、アセットの無料コレクションを提供しています。
 
-[!DNL Adobe Journey Optimizer] を使用すると、[!DNL Adobe Stock] からメールに画像を直接アップロードし、「**[!UICONTROL Adobe Stock フォトを検索]**」オプションを使用して&#x200B;**[!UICONTROL アセット]**&#x200B;フォルダーに追加できます。「**[!UICONTROL 類似のストックフォトを検索]**」オプションを使用すると、配信で使用されるアセットのコンテンツ、カラー、構成に一致する画像を検索することができます。
+[!DNL Adobe Journey Optimizer] を使用すると、[!DNL Adobe Stock] からメールに画像を直接アップロードし、「**[!UICONTROL Adobe Stock フォトを検索]**」オプションを使用して&#x200B;**[!UICONTROL アセット]**&#x200B;フォルダーに追加できます。 「**[!UICONTROL 類似のストックフォトを検索]**」オプションを使用すると、配信で使用されるアセットのコンテンツ、カラー、構成に一致する画像を検索することができます。
 
 ## 権限{#stock-permissions}
 
@@ -52,7 +66,7 @@ ht-degree: 100%
 
 ## 類似フォトの検索 {#similar-stock-image}
 
-メールコンテンツ内の既存の画像を [!DNL Adobe Stock] のフォトに置き換えることができます。このオプションは、ライセンス済み／未ライセンスのストック画像、アセットフォルダー内の画像などすべての画像に対して使用できます。
+メールコンテンツ内の既存の画像を [!DNL Adobe Stock] のフォトに置き換えることができます。 このオプションは、ライセンス済み／未ライセンスのストック画像、アセットフォルダー内の画像などすべての画像に対して使用できます。
 
 類似フォトを参照するには、次の手順に従います。
 
@@ -67,11 +81,11 @@ ht-degree: 100%
 
    選択した画像がライセンス済みでない場合は、[ライセンスを取得](#license-stock-image)する必要があります。
 
-1. 必要に応じて、「**[!UICONTROL 設定]**」タブと「**[!UICONTROL スタイル]**」タブで画像をカスタマイズします。[コンポーネント設定の詳細情報](../email/content-components.md)。
+1. 必要に応じて、「**[!UICONTROL 設定]**」タブと「**[!UICONTROL スタイル]**」タブで画像をカスタマイズします。 [コンポーネント設定の詳細情報](../email/content-components.md)。
 
 ## [!DNL Adobe Stock] からのライセンスの取得 {#license-stock-image}
 
-画像がライセンス済みの場合は、![](assets/stock_10.png) アイコンによって表示されます。そうでない場合は、ライセンスが必要です。
+画像がライセンス済みの場合は、![](assets/stock_10.png) アイコンによって表示されます。 そうでない場合は、ライセンスが必要です。
 
 画像のライセンスを取得してダウンロードするには、次の手順に従います。
 
@@ -85,7 +99,7 @@ ht-degree: 100%
 
 1. [!DNL Adobe Stock] web サイトで、画像をダウンロードして透かしを削除するには、アセットを購入する必要があります。
 
-   購入価格は、Adobe Stock のプランまたはサブスクリプションによって異なります。複数の Adobe Stock アカウントがある場合は、最後に使用した Stock ID にリダイレクトされます。 この場合、アセットのライセンスを取得する前に、正しいアカウントにサインインしていることを確認してください。
+   購入価格は、Adobe Stock のプランまたはサブスクリプションによって異なります。 複数の Adobe Stock アカウントがある場合は、最後に使用した Stock ID にリダイレクトされます。 この場合、アセットのライセンスを取得する前に、正しいアカウントにサインインしていることを確認してください。
 
    Adobe Stock のプランと価格について詳しくは、[Adobe Stock ドキュメント](https://stock.adobe.com/jp/plans){target="_blank"}を参照してください。
 
@@ -96,7 +110,7 @@ ht-degree: 100%
 
    ![](assets/stock_6.png)
 
-1. アセットを保存するフォルダーを選択します。[!DNL Experience Manager Assets] について詳しくは、[この節](assets.md#get-started-assets)を参照してください。
+1. アセットを保存するフォルダーを選択します。 [!DNL Experience Manager Assets] について詳しくは、[この節](assets.md#get-started-assets)を参照してください。
 
 ## 関連トピック{#stock-related-topics}
 

@@ -7,10 +7,26 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: be3936e4-8185-4031-9daf-95eea58077d0
-source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
+TQID: https://experienceleague.adobe.com/QpLGV-y5qbtmksC-99GU5PtaV-mUA-imew8JDj7-weA
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 91%
+source-wordcount: 537
+ht-degree: 77%
 
 ---
 
@@ -18,27 +34,27 @@ ht-degree: 91%
 
 ## プロファイルについて
 
-[!DNL Adobe Journey Optimizer] のリアルタイム顧客プロファイルを活用すると、オンライン、オフライン、CRM、サードパーティデータなど、複数のチャネルのデータを組み合わせて、個々の顧客の全体像を確認できます。**プロファイル**&#x200B;を使用すると、顧客データを統合ビューにまとめて、顧客インタラクションごとにアクションにつながるタイムスタンプ付きアカウントを提供できます。
+[!DNL Adobe Journey Optimizer] のリアルタイム顧客プロファイルを活用すると、オンライン、オフライン、CRM、サードパーティデータなど、複数のチャネルのデータを組み合わせて、個々の顧客の全体像を確認できます。 **プロファイル**&#x200B;を使用すると、顧客データを統合ビューにまとめて、顧客インタラクションごとにアクションにつながるタイムスタンプ付きアカウントを提供できます。
 
 ➡️ [この機能をビデオで確認](#video)
 
-**リアルタイム顧客プロファイル** - オンライン、オフラインおよび偽名のソースからの顧客属性とイベントを単一の統合プロファイルに統合します。プロファイルを使用して、複数のタッチポイントでパーソナライズされたリアルタイムのエクスペリエンスを顧客にエンゲージできます。
+**リアルタイム顧客プロファイル&#x200B;** - オンライン、オフライン、匿名のソースからの顧客属性とイベントを、単一の統合プロファイルに統合します。 &#x200B;プロファイルを活用して、複数の顧客接点をまたいで、パーソナライズされたリアルタイムのエクスペリエンスで顧客を惹きつけましょう。 &#x200B;
 
-**データ取り込み** - 様々なデータソースに接続して、行動、トランザクション、財務、運用に関するデータを取り込みます。データをリアルタイムまたはバッチアップロードで取り込み、プロファイルを常に最新の状態に保ちます。 プロファイルは、[!DNL Journey Optimizer] インターフェイス内で直接作成されません。データが取り込まれると、Adobe Experience Platformで自動的に作成または更新されます。
+**データ取り込み** - 様々なデータソースに接続して、行動、トランザクション、財務、運用に関するデータを取り込みます。 リアルタイムまたはバッチアップロードでデータを取り込んで、プロファイルを常に最新の状態に保ちます。 プロファイルは、[!DNL Journey Optimizer] インターフェイス内で直接作成されません。データが取り込まれると、Adobe Experience Platformで自動的に作成または更新されます。
 
 >[!NOTE]
 >
->データを取り込む際、メールでは大文字と小文字が区別されます。つまり、重複したプロファイル（例えば、John.Greene@luma.com のプロファイルと john.greene@luma.com の別のプロファイル）が作成され、[!DNL Journey Optimizer] ジャーニーとキャンペーンで対応する受信者をターゲティングする際に使用される場合があります。
+>データを取り込む際、メールでは大文字と小文字が区別されます。 つまり、重複したプロファイル（例えば、John.Greene@luma.com のプロファイルと john.greene@luma.com の別のプロファイル）が作成され、[!DNL Journey Optimizer] ジャーニーとキャンペーンで対応する受信者をターゲティングする際に使用される場合があります。
 
-**ID グラフ** - ロイヤルティ ID や CRM システム ID などの顧客 ID を使用して、様々なソースからのデータを組み合わせます。ブランドのデータセット内の様々な ID 間の関係をマッピングして、顧客の包括的なビューを作成します。
+**ID グラフ** - ロイヤルティ IDやCRM システム IDなどの顧客IDを使用して、様々なソースからのデータを結合します。 &#x200B;ブランドのデータセット内のさまざまなID間の関係をマッピングすることで、顧客の包括的な全体像を構築できます。 &#x200B;
 
-**顧客エンゲージメント** - リアルタイム顧客プロファイルを使用して、ターゲットオファーやメッセージなど、コンテキストに応じてパーソナライズされたエクスペリエンスを提供します。マーケティングキャンペーン、カスタマーサポート、トランザクションの更新など、様々なチャネルで顧客をエンゲージします。
+**顧客エンゲージメント** - リアルタイム顧客プロファイルを使用して、ターゲットを絞ったオファーやメッセージなど、コンテキストに即してパーソナライズされたエクスペリエンスを配信します。 &#x200B;マーケティング施策、カスタマーサポート、トランザクションアップデートなど、様々なチャネルをまたいで顧客をエンゲージします。 &#x200B;
 
-**データ共有** - Amazon Web Services、Microsoft Azure、Google Cloud などの大手クラウドストレージプロバイダーと顧客プロファイルを共有します。共有プロファイルを使用して、ビジネスインテリジェンスツールによるレポート、データのアーカイブ、詳細な分析を行います。
+**データ共有** - Amazon Web Services、Microsoft Azure、Google Cloud などの大手クラウドストレージプロバイダーと顧客プロファイルを共有します。 共有プロファイルを使用して、ビジネスインテリジェンスツールによるレポート、データのアーカイブ、詳細な分析を行います。
 
 >[!MORELIKETHIS]
 >
->* [Journey Optimizerでのデータ管理の開始](../data/gs-data.md)
+>* [Journey Optimizer におけるデータ管理の基本を学ぶ](../data/gs-data.md)
 >* [リアルタイム顧客プロファイルのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/query/home.html?lang=ja){target="_blank"}
 >* [リアルタイム顧客プロファイルデータおよびセグメント化用のデフォルトガードレール](https://experienceleague.adobe.com/ja/docs/experience-platform/profile/guardrails){target="_blank"}
 >* [データ取り込みのドキュメント](https://experienceleague.adobe.com/ja/docs/experience-platform/ingestion/home){target="_blank"}
@@ -49,9 +65,9 @@ ht-degree: 91%
 
 >[!NOTE]
 >
->[!DNL Adobe Journey Optimizer] を初めて使用する組織で、アクティブなプロファイルデータセットや結合ポリシーが作成されていない場合は、**プロファイル**&#x200B;ダッシュボードは表示されません。代わりに、「**概要**」タブに、リアルタイム顧客プロファイルを初めて使用する際に役立つ Adobe Experience Platform ドキュメントへのリンクが表示されます。**プロファイルダッシュボード**&#x200B;の操作方法と、ダッシュボードに表示される指標について詳しくは、[この節](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ja){target="_blank"}を参照してください。
+>[!DNL Adobe Journey Optimizer] を初めて使用する組織で、アクティブなプロファイルデータセットや結合ポリシーが作成されていない場合は、**プロファイル**&#x200B;ダッシュボードは表示されません。 代わりに、「**概要**」タブに、リアルタイム顧客プロファイルを初めて使用する際に役立つ Adobe Experience Platform ドキュメントへのリンクが表示されます。 **プロファイルダッシュボード**&#x200B;の操作方法と、ダッシュボードに表示される指標について詳しくは、[この節](https://experienceleague.adobe.com/docs/experience-platform/profile/ui/user-guide.html?lang=ja){target="_blank"}を参照してください。
 
-複数のソースからのデータフラグメントをまとめ、それらを組み合わせて、個々の顧客の全体像を把握できます。このデータを統合する際には、データの優先順位を設定する方法と統合ビューの作成に組み合わせるデータを決定するルールとして、結合ポリシーを使用します。**結合ポリシー**&#x200B;について詳しくは、この[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ja){target="_blank"}を参照してください。
+複数のソースからのデータフラグメントをまとめ、それらを組み合わせて、個々の顧客の全体像を把握できます。 このデータを統合する際には、データの優先順位を設定する方法と統合ビューの作成に組み合わせるデータを決定するルールとして、結合ポリシーを使用します。 **結合ポリシー**&#x200B;について詳しくは、この[ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ja){target="_blank"}を参照してください。
 
 ![](assets/profiles-home.png)
 

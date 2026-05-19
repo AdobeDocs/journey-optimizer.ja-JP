@@ -10,10 +10,24 @@ role: User
 level: Intermediate
 exl-id: e375fd3a-b10d-45f4-a95b-ceb48116e841
 version: Journey Orchestration
-source-git-commit: 9d85361c6f177e451149baf4e2677dce56c6130c
+TQID: https://experienceleague.adobe.com/26dKfdb1fhdF0bGpilYam-2bzuJZPjFYGeKy3ni0dzE
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: c132d929-fa62-4271-803e-b823be07b914
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 93%
+source-wordcount: 364
+ht-degree: 95%
 
 ---
 
@@ -21,7 +35,7 @@ ht-degree: 93%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。 [詳細情報](../../experience-decisioning/gs-experience-decisioning.md)
 
 オファーを作成、設定、管理し、決定に使用するための主な手順を以下に示します。
 
@@ -33,7 +47,7 @@ ht-degree: 93%
 
 オファーの作成を開始する前に、オファーで使用する複数のコンポーネントを定義する必要があります。
 
-1. [プレースメントを作成](creating-placements.md)します。プレースメントは、オファーを紹介するためのコンテナです。例えば、画像形式のオファー専用で、メッセージの上部に配置するプレースメントを作成できます。
+1. [プレースメントを作成](creating-placements.md)します。プレースメントは、オファーを紹介するためのコンテナです。 例えば、画像形式のオファー専用で、メッセージの上部に配置するプレースメントを作成できます。
 
 1. オファーを表示する条件を指定する[決定ルールを作成](creating-decision-rules.md)します。
 
@@ -77,7 +91,7 @@ ht-degree: 93%
 
 ## オファーの作成と管理 {#create-and-manage-offers}
 
-1. [&#x200B; オファーを作成 &#x200B;](creating-personalized-offers.md) し、そのコンテンツとプロパティを設定します。 オファーコンテンツ（表示域）をパーソナライズする場合、特定の関数のみがサポートされます。[&#x200B; パーソナライゼーションエディターでサポートされる関数 &#x200B;](personalization-editor-supported-functions.md) を参照してください。
+1. [オファーを作成](creating-personalized-offers.md)し、そのコンテンツとプロパティを設定します。 オファーのコンテンツ（表示域）をパーソナライズする場合は、特定の関数のみがサポートされます。パーソナライゼーションエディターでサポートされている関数[を参照してください](personalization-editor-supported-functions.md)。
 
 1. [フォールバックオファーを作成](creating-fallback-offers.md)します。これは、顧客が選択したオファーのいずれにも資格がない場合に表示する最後の手段です。
 
@@ -113,9 +127,9 @@ ht-degree: 93%
 
 ## 決定の作成と設定 {#create-and-configure-decisions}
 
-1. パーソナライズされたオファーおよびフォールバックオファーとプレースメントを組み合わせる[決定を作成](../offer-activities/create-offer-activities.md)します。この組み合わせは、意思決定エンジンが特定のプロファイルに最適なオファーを見つけるために使用されます。
+1. パーソナライズされたオファーおよびフォールバックオファーとプレースメントを組み合わせる[決定を作成](../offer-activities/create-offer-activities.md)します。 この組み合わせは、意思決定エンジンが特定のプロファイルに最適なオファーを見つけるために使用されます。
 
-1. [決定を設定します](../offer-activities/create-offer-activities.md#add-decision-scopes)。そのためには、プレースメントを選択し、各プレースメントに対してコレクションとフォールバックを選択します。
+1. [決定を設定します](../offer-activities/create-offer-activities.md#add-decision-scopes)。 そのためには、プレースメントを選択し、各プレースメントに対してコレクションとフォールバックを選択します。
 
 1. 必要に応じて、決定を設定する際に、プレースメントに[ランキング式](../offer-activities/configure-offer-selection.md#assign-ranking-formula)または [AI ランキング](../offer-activities/configure-offer-selection.md#use-ranking-strategy)を割り当てることができます。
 

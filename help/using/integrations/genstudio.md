@@ -9,14 +9,39 @@ badge: label="限定提供" type="Informative"
 role: User
 level: Beginner, Intermediate
 exl-id: c22a44a8-e4e2-453a-9ca2-b80f7c0edc19
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/yMcftppDHaPWoP51PuYrV9OrzZxyrUcRwgoOvnlcbho
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2:
+  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1334'
-ht-degree: 99%
+source-wordcount: 1334
+ht-degree: 100%
 
 ---
 
-# GenStudio for performance marketingとの連携 {#ajo-genstudio}
+# GenStudio for Performance Marketing の操作 {#ajo-genstudio}
 
 >[!CONTEXTUALHELP]
 >id="ajo_genstudio_button"
@@ -161,7 +186,7 @@ GenStudio でメールのバリエーションを作成したら、[!DNL Journey
 
    >[!NOTE]
    >
-   >[&#x200B; [!DNL Journey Optimizer]  テンプレートから作成](#export-from-ajo-to-genstudio)した GenStudio エクスペリエンスは、完全な編集機能を備えて E メールデザイナーに直接インポートされます。 [!DNL Journey Optimizer] テンプレートを使用せずに作成した GenStudio エクスペリエンスは、[互換モード](../email/existing-content.md)にインポートされますが、編集機能が制限される場合があります。
+   >[ [!DNL Journey Optimizer]  テンプレートから作成](#export-from-ajo-to-genstudio)した GenStudio エクスペリエンスは、完全な編集機能を備えて E メールデザイナーに直接インポートされます。 [!DNL Journey Optimizer] テンプレートを使用せずに作成した GenStudio エクスペリエンスは、[互換モード](../email/existing-content.md)にインポートされますが、編集機能が制限される場合があります。
 
 1. [メールコンテンツ編集ツール](../email/content-from-scratch.md)と[パーソナライゼーションフィールド](../personalization/personalize.md)を使用して、必要に応じてメールを編集します。 コンテンツを保存します。
 

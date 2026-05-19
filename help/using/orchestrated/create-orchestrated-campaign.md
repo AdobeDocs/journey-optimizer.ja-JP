@@ -5,13 +5,20 @@ title: Journey Optimizer を使用して調整されたキャンペーンの作�
 description: Adobe Journey Optimizer を使用して調整されたキャンペーンの作成とスケジュール方法について説明します。
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
 version: Campaign Orchestration
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/XTfDLZwNybfdayTfXFtHy-4fstRzPUZ-lSJ4cXkLNyE
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: 1183
 ht-degree: 94%
 
 ---
-
 
 # 調整されたキャンペーンの作成とスケジュール {#create-first-campaign}
 

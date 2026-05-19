@@ -10,9 +10,27 @@ role: User
 level: Beginner, Intermediate
 exl-id: 722f9c3b-b505-48c0-b126-31a7a841c245
 version: Journey Orchestration
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/FVJLylzuMC26anLVrWdBeU2RFrM6EFquGJN6e2ZAuP8
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: c132d929-fa62-4271-803e-b823be07b914
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: 658
 ht-degree: 99%
 
 ---
@@ -21,7 +39,7 @@ ht-degree: 99%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。 [詳細情報](../../experience-decisioning/gs-experience-decisioning.md)
 
 左側のパネルの「**[!UICONTROL 意思決定管理]**」セクションには、意思決定管理機能にアクセスできる次の 2 つのメニューが表示されます。
 
@@ -30,29 +48,29 @@ ht-degree: 99%
 
 ![](../assets/offers_menu.png)
 
-* **[!UICONTROL 概要]**：[!DNL decision management] を使用するのは初めてですか？画面上の手順に従って、プレースメント、オファーおよびコレクションの設定を開始します。[!DNL decision management] について既に熟知している場合は、最新のオファー、コレクションおよび決定の概要を把握します。[詳細情報](#overview)
-* **[!UICONTROL オファー]**：パーソナライズされたオファーとフォールバックオファーを作成してアクセスします。[オファー](../offer-library/creating-personalized-offers.md)と[フォールバックオファー](../offer-library/creating-fallback-offers.md)の作成方法を学習
-* **[!UICONTROL コレクション]**：オファーを静的なコレクションと動的なコレクションに整理します。[詳細情報](../offer-library/creating-collections.md)
-* **[!UICONTROL 決定]**：オファーを提供するための決定を作成および管理します。[詳細情報](../offer-activities/create-offer-activities.md)
-* **[!UICONTROL バッチ決定]**：特定の Adobe Experience Platform オーディエンスに含まれるすべてのプロファイルにオファーの決定を配信します。[詳細情報](../batch-delivery.md)
-* **[!UICONTROL シミュレーション]**：特定のプレースメントのテストプロファイルに配信されるオファーをシミュレートして、意思決定のロジックを検証します。[詳細情報](../offer-activities/simulation.md)
+* **[!UICONTROL 概要]**：[!DNL decision management] を使用するのは初めてですか？ 画面上の手順に従って、プレースメント、オファーおよびコレクションの設定を開始します。 [!DNL decision management] について既に熟知している場合は、最新のオファー、コレクションおよび決定の概要を把握します。 [詳細情報](#overview)
+* **[!UICONTROL オファー]**：パーソナライズされたオファーとフォールバックオファーを作成してアクセスします。 [オファー](../offer-library/creating-personalized-offers.md)と[フォールバックオファー](../offer-library/creating-fallback-offers.md)の作成方法を学習
+* **[!UICONTROL コレクション]**：オファーを静的なコレクションと動的なコレクションに整理します。 [詳細情報](../offer-library/creating-collections.md)
+* **[!UICONTROL 決定]**：オファーを提供するための決定を作成および管理します。 [詳細情報](../offer-activities/create-offer-activities.md)
+* **[!UICONTROL バッチ決定]**：特定の Adobe Experience Platform オーディエンスに含まれるすべてのプロファイルにオファーの決定を配信します。 [詳細情報](../batch-delivery.md)
+* **[!UICONTROL シミュレーション]**：特定のプレースメントのテストプロファイルに配信されるオファーをシミュレートして、意思決定のロジックを検証します。 [詳細情報](../offer-activities/simulation.md)
 
 **[!UICONTROL コンポーネント]**&#x200B;メニューを使用して、オファーと意思決定の作成に必要なコンポーネントを作成および管理します。
 
 ![](../assets/offer_activities.png)
 
-* **[!UICONTROL プレースメント]**：オファーを表示するプレースメントを作成および管理します。[詳細情報](../offer-library/creating-placements.md)
-* **[!UICONTROL コレクション修飾子]**：コレクション修飾子（旧称「タグ」）を作成および管理して、オファーを整理およびフィルタリングします。[詳細情報](../offer-library/creating-tags.md)
-* **[!UICONTROL ルール]**：オファーを提示する条件を管理します。[詳細情報](../offer-library/creating-decision-rules.md)
-* **[!UICONTROL ランキング]**：ランキング式を作成および管理して、特定のプレースメントに対して最初に提示するオファーを決定します。[詳細情報](../ranking/create-ranking-formulas.md)
+* **[!UICONTROL プレースメント]**：オファーを表示するプレースメントを作成および管理します。 [詳細情報](../offer-library/creating-placements.md)
+* **[!UICONTROL コレクション修飾子]**：コレクション修飾子（旧称「タグ」）を作成および管理して、オファーを整理およびフィルタリングします。 [詳細情報](../offer-library/creating-tags.md)
+* **[!UICONTROL ルール]**：オファーを提示する条件を管理します。 [詳細情報](../offer-library/creating-decision-rules.md)
+* **[!UICONTROL ランキング]**：ランキング式を作成および管理して、特定のプレースメントに対して最初に提示するオファーを決定します。 [詳細情報](../ranking/create-ranking-formulas.md)
 
 >[!NOTE]
 >
->意思決定管理またはその機能の一部へのアクセスで問題が発生した場合は、必要な権限が付与されているかどうかを管理者に確認してください。[意思決定管理へのアクセスの許可](starting-offer-decisioning.md#granting-acess-to-decision-management)を参照してください。
+>意思決定管理またはその機能の一部へのアクセスで問題が発生した場合は、必要な権限が付与されているかどうかを管理者に確認してください。 [意思決定管理へのアクセスの許可](starting-offer-decisioning.md#granting-acess-to-decision-management)を参照してください。
 
 ## 概要 {#overview}
 
-[!DNL decision management] を初めて使用する場合は、初めてのオファー決定の作成を開始するために必要な主な手順を「**[!UICONTROL 概要]**」タブで確認します。画面上の手順に従って、プレースメント、オファーおよびコレクションの作成を開始します。これらの最初の手順が完了したら、オファーの決定を作成するよう求められます。
+[!DNL decision management] を初めて使用する場合は、初めてのオファー決定の作成を開始するために必要な主な手順を「**[!UICONTROL 概要]**」タブで確認します。 画面上の手順に従って、プレースメント、オファーおよびコレクションの作成を開始します。 これらの最初の手順が完了したら、オファーの決定を作成するよう求められます。
 
 >[!NOTE]
 >
@@ -70,14 +88,13 @@ ht-degree: 99%
 
 **検索バー**&#x200B;を使用して、特定の項目を検索します。
 
-**フィルター**&#x200B;にアクセスするには、リストの左上にあるフィルターアイコンをクリックすることもできます。使用すると、様々な条件に従って表示される要素をフィルターできます。例えば、メール通信チャネル用に作成したプレースメントや画像タイプのコンテンツをフィルターできます。
+**フィルター**&#x200B;にアクセスするには、リストの左上にあるフィルターアイコンをクリックすることもできます。 使用すると、様々な条件に従って表示される要素をフィルターできます。 例えば、メール通信チャネル用に作成したプレースメントや画像タイプのコンテンツをフィルターできます。
 
 ![](../assets/filters.png)
 
 ## 表示情報のカスタマイズ {#customize-displayed-information}
 
 意思決定管理メニューのリストは、リストの右上にある設定ボタンを使用してパーソナライズできます。
-
 
 これにより、表示する情報を必要に応じて選択できます。
 
@@ -91,11 +108,10 @@ ht-degree: 99%
 
 ![](../assets/information-pane.png)
 
-オファーと決定リストを使用して、複数の要素に対して一括アクションを実行することもできます。これを行うには、目的のオファーまたは決定を選択し、情報ペインから実行するアクションを選択します。
+オファーと決定リストを使用して、複数の要素に対して一括アクションを実行することもできます。 これを行うには、目的のオファーまたは決定を選択し、情報ペインから実行するアクションを選択します。
 
-
-また、既存のオファーや決定を複製して、 **[!UICONTROL ドラフト]**&#x200B;ステータスのコピーを作成することもできます。これは、情報ペイン、オファーまたは決定の詳細表示から実行できます。
+また、既存のオファーや決定を複製して、 **[!UICONTROL ドラフト]**&#x200B;ステータスのコピーを作成することもできます。 これは、情報ペイン、オファーまたは決定の詳細表示から実行できます。
 
 ## オファーと決定の変更ログ {#changes-logs}
 
-[!DNL Journey Optimizer] を使用すると、オファーまたは決定に対して実行されたすべての変更を表示できます。これを行うには、左メニューから&#x200B;**[!UICONTROL 監査]**&#x200B;メニューにアクセスします。[リソースに対するアクションを監査する方法を説明します](../../privacy/audit-logs.md)
+[!DNL Journey Optimizer] を使用すると、オファーまたは決定に対して実行されたすべての変更を表示できます。 これを行うには、左メニューから&#x200B;**[!UICONTROL 監査]**&#x200B;メニューにアクセスします。 [リソースに対するアクションを監査する方法を説明します](../../privacy/audit-logs.md)

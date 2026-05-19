@@ -11,7 +11,7 @@ version: Campaign Orchestration
 source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '518'
-ht-degree: 21%
+ht-degree: 23%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_incrementalquery_history"
 >title="履歴（日数）"
->abstract="この設定は、そのリストを保持する期間を制御します。 値が0の場合は無期限の保持を意味し、レコードは削除されません。"
+>abstract="この設定は、そのリストを保持する期間を制御します。 値が 0 の場合は、保持が無限であることを意味し、レコードは削除されません。"
 
 **[!UICONTROL 増分クエリ]** アクティビティは、オーケストレーションされたキャンペーンが実行されるたびにデータベースクエリを実行する&#x200B;**[!UICONTROL ターゲティング]** アクティビティです。 重要なのは、常に&#x200B;**新しい** レコードのみが出力されることです。 以前の実行ですでにピックアップされたユーザーは除外されるので、同じユーザーを再ターゲティングしたり、同じ行を再エクスポートしたりすることは避けられます。
 

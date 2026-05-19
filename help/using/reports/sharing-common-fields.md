@@ -8,10 +8,25 @@ topic: Content Management
 role: Developer, Admin
 level: Experienced
 exl-id: 42aec986-2352-456a-a725-7f1585ae01f8
-source-git-commit: b8d56578aae90383092978446cb3614a4a033f80
-workflow-type: ht
-source-wordcount: '634'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/MWcV6FkgtiFJd9Y7q8CvTXQsL68cD5JcvqjmoEyiYhI
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2:
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+workflow-type: tm+mt
+source-wordcount: 634
+ht-degree: 96%
 
 ---
 
@@ -19,9 +34,9 @@ ht-degree: 100%
 
 このフィールドグループは、**journeyStepEvent** と **journeyStepProfileEvent** で共有されます。
 
-[!DNL Journey Optimizer] が Adobe Experience Platform に送信する一般的な XDM フィールドです。共通フィールドは、ジャーニーで処理される各ステップに対して送信されます。カスタムアクションやカスタムエンリッチメントには、より具体的なフィールドが使用されます。
+[!DNL Journey Optimizer] が Adobe Experience Platform に送信する一般的な XDM フィールドです。 共通フィールドは、ジャーニーで処理される各ステップに対して送信されます。 カスタムアクションやカスタムエンリッチメントには、より具体的なフィールドが使用されます。
 
-イベントのサイズを制限するため、これらのフィールドの一部は、特定の処理パターン（アクションの実行、データの取得など）でのみ使用できます。
+これらのフィールドの中には、特定の処理パターン（アクション実行、データ取得など）でのみ使用できるものもあります。 イベントのサイズを制限できます。
 
 
 >[!NOTE]
@@ -31,7 +46,7 @@ ht-degree: 100%
 
 ## エントリ {#entrance-field}
 
-ユーザーがジャーニーにエントリしたかどうかを示します。存在しない場合、値は false とみなします。
+ユーザーがジャーニーにエントリしたかどうかを示します。 存在しない場合、値は false とみなします。
 
 型：ブール型
 
@@ -39,7 +54,7 @@ ht-degree: 100%
 
 ## 再エントリ {#reentrance-field}
 
-ユーザーが同じインスタンスでジャーニーに再度エントリしたかどうかを示します。存在しない場合、値は false とみなします。
+ユーザーが同じインスタンスでジャーニーに再度エントリしたかどうかを示します。 存在しない場合、値は false とみなします。
 
 型：ブール型
 
@@ -53,7 +68,7 @@ ht-degree: 100%
 
 ## eventID {#eventid-field}
 
-ステップ処理など、処理中のイベント ID。イベントが外部イベントの場合、値は eventId です。イベントが内部イベントの場合、値は内部 eventId（scheduledNotificationReceived、executedAction など）です。
+ステップ処理など、処理中のイベント ID。 イベントが外部イベントの場合、値は eventId です。 イベントが内部イベントの場合、値は内部 eventId（scheduledNotificationReceived、executedAction など）です。
 
 型：文字列
 
@@ -111,13 +126,13 @@ ht-degree: 100%
 
 ## journeyVersionID {#journeyversionid-field}
 
-ジャーニーバージョンの ID。この ID は、journeyStepEvent においてジャーニーを参照する ID です。
+ジャーニーバージョンの ID。 この ID は、journeyStepEvent においてジャーニーを参照する ID です。
 
 型：文字列
 
 >[!NOTE]
 >
->トラブルシューティングのためには、ジャーニーのクエリ時に journeyVersionName ではなく journeyVersionID を使用することをお勧めします。
+>トラブルシューティングの目的では、ジャーニーのクエリ時に journeyVersionName ではなく journeyVersionID を使用することをお勧めします。
 
 ## journeyVersionName {#journeyversionname-field}
 
@@ -127,7 +142,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->トラブルシューティングのためには、ジャーニーのクエリ時に journeyVersionName ではなく journeyVersionID を使用することをお勧めします。
+>トラブルシューティングの目的では、ジャーニーのクエリ時に journeyVersionName ではなく journeyVersionID を使用することをお勧めします。
 
 ## journeyVersion {#journeyversion-field}
 

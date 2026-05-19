@@ -2,19 +2,19 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: パーソナライゼーションのユースケース
-description: パーソナライゼーションのユースケース
+description: Adobe Journey Optimizerでパーソナライズされたメッセージを作成するためのステップバイステップのユースケース。注文状況の通知、カート放棄メール、医療保険プランの処方箋のアラートなどをカバーしています。
 redpen-status: CREATED_||_2025-08-12_00-35-09
 exl-id: 1b351130-3caa-4389-9caf-1a56e263f085
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 22ee2215c9f7793aedb7e0d63d310a15051ea534
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 100%
+source-wordcount: '245'
+ht-degree: 16%
 
 ---
 
 # パーソナライゼーションのユースケース{#section-overview}
 
-オーディエンスが毎回カスタムメイドのように感じられるほど、オーディエンスに合わせてカスタマイズされたコミュニケーションを作成することを想像してみてください。Adobe Journey Optimizer のパーソナライゼーションユースケースを活用すると、顧客プロファイル、リアルタイムのコンテキスト、決定に基づくオファーを組み合わせ、真に共感を得られるメッセージを作成できます。この節では、注文ステータスの更新を送信する場合、買い物かご放棄メールで買い物客に再度関与する場合、ヘルス関連の通知をパーソナライズする場合の手順について説明します。各ユースケースでは、ヘルパー関数や動的テンプレートなどのデータとツールを組み合わせて、オーディエンスにとって関連性があり魅力的なメッセージを配信する方法について説明します。これらのテクニックがキャンペーンにもたらす変化について詳しく説明します。
+このセクションでは、Adobe Journey Optimizerでパーソナライズされたメッセージを構築するためのステップバイステップのユースケースを提供します。 それぞれの例は、実際のシナリオにもとづいており、プロファイル属性、コンテキストデータ、ヘルパー関数、オファー決定事項を組み合わせて、ターゲットを絞った関連性の高いコンテンツをオーディエンスに配信する方法を示しています。
 
 ## パーソナライゼーションのユースケース
 
@@ -22,31 +22,41 @@ ht-degree: 100%
 :::
 ![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
-注文ステータス通知のパーソナライゼーションチュートリアル
+注文ステータスの通知
 
-プロファイル、コンテキスト、オファー決定支援データを使用して、注文ステータスの更新に関するパーソナライズされたプッシュ通知を作成する方法について説明します。
+プロファイル属性、リアルタイムのコンテキストデータ、オファー決定機能を組み合わせた包括的なシナリオにより、顧客の注文状況を確認または更新するパーソナライズされたプッシュ通知を送信することができます。
 
-[チュートリアルの開始](../using/personalization/personalization-use-case.md)
+[チュートリアルを読む](../using/personalization/personalization-use-case.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ja)
 
-買い物かご放棄メールのパーソナライゼーションガイド
+買い物かご放棄に関するメール
 
-ヘルパー関数を使用して顧客固有および製品固有の詳細を追加し、買い物かご放棄メールをパーソナライズする方法について説明します。
+ヘルパー機能を使用して、顧客固有の詳細と製品情報をカート放棄メールに動的に入力する方法を学び、関連性のあるタイムリーなメッセージで失った販売を回復するのに役立ちます。
 
-[ガイドの探索](../using/personalization/personalization-use-case-helper-functions.md)
+[ガイドを読む](../using/personalization/personalization-use-case-helper-functions.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
-ヘルスプラン処方箋メールのパーソナライゼーションの例
+ヘルスプラン処方箋アラート
 
-ヘルスプラン登録者向けにパーソナライズされたメールを作成し、受け取り準備完了やリコールなどの処方箋のステータスを強調します。
+条件付きロジックとテンプレート式を使用して、購読者の処方箋をすべて「受け取り準備完了」または「リコール済み」ステータスでリストする、単一のパーソナライズされたメールを作成します。
 
-[結果の表示](../using/personalization/perso-uc-plan-prescriptions.md)
+[事例を読む](../using/personalization/perso-uc-plan-prescriptions.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+
+Personalizationレシピ
+
+日付、プロファイル属性、条件付きロジックなどに関する、すぐに使用できるパーソナライゼーションパターンのライブラリを参照できます。 各レシピには、電子メール、SMS、プッシュコンテンツに直接コピーできる、動作する構文スニペットが含まれています。
+
+[レシピを参照](../using/personalization/personalization-recipes.md)
 :::
 
 ::::

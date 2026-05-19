@@ -2,7 +2,7 @@
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: 決定のリスト
-description: 決定には、オファーの選択を通知するロジックが含まれています。
+description: 決定には、オファーの選択に役立つロジックが含まれます。
 feature: Decision Management, API
 badge: label="レガシー" type="Informative"
 topic: Integrations
@@ -10,10 +10,22 @@ role: Developer
 level: Experienced
 exl-id: e9bd7602-8945-4768-8a56-dc13ade32a0b
 version: Journey Orchestration
-source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
+TQID: https://experienceleague.adobe.com/-QsG7rzICxULvvVarkve6ZfwjxJP6fpdocdnmlEynso
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: c132d929-fa62-4271-803e-b823be07b914
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 100%
+source-wordcount: 245
+ht-degree: 0%
 
 ---
 
@@ -21,25 +33,25 @@ ht-degree: 100%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../../../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer]の新しい決定機能である決定機能が、コードベースのエクスペリエンスとメールチャネルで利用できるようになりました。 [詳細情報](../../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
-決定には、オファーの選択を通知するロジックが含まれています。
+決定には、オファーの選択に役立つロジックが含まれます。
 
-[!DNL Offer Library] API に対して単一の GET リクエストを実行することで、コンテナ内のすべての決定のリストを表示できます。
+[!DNL Offer Library] APIに対して1回のGET リクエストを実行すると、コンテナ内のすべての決定のリストを表示できます。
 
-**API 形式**
+**API形式**
 
 ```http
 GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_ACTIVITIES}&{QUERY_PARAMS}
 ```
 
-| パラメーター | 説明 | 例 |
+| パラメーター | 効果 | 例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | リポジトリ API のエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | 決定が配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{ENDPOINT_PATH}` | リポジトリ APIのエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | 決定が配置されるコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_ACTIVITIES}` | 決定に関連付けられたスキーマを定義します。 | `https://ns.adobe.com/experience/offer-management/offer-activity;version=0.5` |
-| `{QUERY_PARAMS}` | 結果をフィルタリングする条件となるクエリパラメーター（オプション）。 | `limit=2` |
+| `{QUERY_PARAMS}` | 結果をフィルタリングするオプションのクエリパラメーター。 | `limit=2` |
 
 **リクエスト**
 
@@ -53,17 +65,17 @@ curl -X GET \
 -H 'x-sandbox-name: {SANDBOX_NAME}'
 ```
 
-| パラメーター | 説明 | 例 |
+| パラメーター | 効果 | 例 |
 | --------- | ----------- | ------- |
-| `q` | 選択したフィールドで検索するオプションのクエリ文字列。クエリ文字列は小文字にする必要があり、二重引用符で囲むことで、トークン化を防ぎ、特殊文字をエスケープできます。次の文字 `+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /` は特別な意味を持ち、クエリ文字列に出現する場合はバックスラッシュでエスケープする必要があります。 | `default` |
-| `qop` | 「q」クエリ文字列パラメーターの値に AND または OR 演算子を適用します。 | `AND` または `OR` |
-| `field` | 検索を制限するフィールドのリスト（オプション）。このパラメーターは、field=field1[,field=field2,…] のように繰り返すことができます（パス式は「_instance.xdm:name」などのドット区切りパスの形式です）。 | `_instance.xdm:name` |
-| `orderBy` | 特定のプロパティで結果を並べ替えます。タイトルの前に `-` を追加すると（`orderby=-title`）、アイテムがタイトルの降順（Z-A）に並べ替えられます。 | `-repo:createdDate` |
-| `limit` | 返す決定の数を制限します。 | `limit=5` |
+| `q` | 選択したフィールドで検索するオプションのクエリ文字列。 クエリ文字列は小文字にする必要があり、トークン化されないようにしたり、特殊文字をエスケープしたりするために、二重引用符で囲むことができます。 文字`+ - = && \|\| > < ! ( ) { } [ ] ^ \" ~ * ? : \ /`は特別な意味を持つため、クエリ文字列に表示される場合はバックスラッシュでエスケープする必要があります。 | `default` |
+| `qop` | Q クエリ文字列パラメーターの値にAND演算子またはOR演算子を適用します。 | `AND` / `OR` |
+| `field` | 検索を制限するフィールドのオプションのリスト。 このパラメーターは、次のように繰り返すことができます。field=field1[、field=field2,...]および（パス式は、_instance.xdm:nameなどのドット区切りパスの形式です） | `_instance.xdm:name` |
+| `orderBy` | 特定のプロパティで結果を並べ替えます。 タイトル （`orderby=-title`）の前に`-`を追加すると、タイトルでアイテムが降順に並べ替えられます（Z-A）。 | `-repo:createdDate` |
+| `limit` | 返される決定の数を制限します。 | `limit=5` |
 
 **応答**
 
-正常な応答では、アクセス可能なコンテナ内に存在する決定のリストが返されます。
+応答が成功すると、アクセス権のあるコンテナ内に存在する決定のリストが返されます。
 
 ```json
 {

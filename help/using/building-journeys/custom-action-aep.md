@@ -9,16 +9,34 @@ role: Developer
 level: Experienced
 exl-id: 890a194f-f54d-4230-863a-fb2b924d716a
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+TQID: https://experienceleague.adobe.com/TbX3usHKfEM6WQPjFRjo2jCSb78rcbYEWWmV0tpGdj4
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2:
+  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: 418
 ht-degree: 85%
 
 ---
 
 # カスタムアクションを使用した Experience Platform のジャーニーイベントの書き込み {#custom-action-aep}
 
-このユースケースでは、カスタムアクションと認証済み呼び出しを使用して、ジャーニーから [!DNL Adobe Experience Platform] にカスタムイベントを書き込む方法を説明します。
+このユースケースでは、カスタムアクションと認証済み呼び出しを使用して、ジャーニーから[!DNL Adobe Experience Platform]にカスタムイベントを書き込む方法について説明します。
 
 ## 開発者プロジェクトの設定 {#custom-action-aep-IO}
 
@@ -30,7 +48,7 @@ ht-degree: 85%
 
 1. 「**cURL コマンドを表示**」をクリックします。
 
-   ア ![[!DNL Adobe Experience Platform] ションタイプの選択 &#x200B;](assets/custom-action-aep-2.png)
+   ![[!DNL Adobe Experience Platform] アクションタイプの選択](assets/custom-action-aep-2.png)
 
 1. cURL コマンドをコピーし、client_id、client_secret、grant_type および scope を保存します。
 
@@ -40,25 +58,25 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 >[!CAUTION]
 >
->Adobe Developer Console でプロジェクトを作成したら、開発者と API に対し、適切な権限のアクセス制御を付与してください。詳しくは、[[!DNL Adobe Experience Platform]  ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"} を参照してください。
+>Adobe Developer Console でプロジェクトを作成したら、開発者と API に対し、適切な権限のアクセス制御を付与してください。 詳しくは、[[!DNL Adobe Experience Platform]  ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/platform-apis/api-authentication#grant-developer-and-api-access-control){target="_blank"}を参照してください
 
 ## HTTP API インレットを使用したソースの設定
 
-1. ジャーニーからデータを書き込む [!DNL Adobe Experience Platform] めに、エンドポイントを作成します。
+1. ジャーニーからデータを書き込むエンドポイントを[!DNL Adobe Experience Platform]に作成します。
 
-1. [!DNL Adobe Experience Platform] で、左側のメニューの **接続** の下の **ソース** をクリックします。 **HTTP API** で「**データを追加**」をクリックします。
+1. [!DNL Adobe Experience Platform]で、左側のメニューの&#x200B;**接続**&#x200B;の下にある&#x200B;**ソース**&#x200B;をクリックします。 **HTTP API** で「**データを追加**」をクリックします。
 
-   ![[!DNL Adobe Experience Platform]](assets/custom-action-aep-3.png) 用サンドボックス選択ドロップダウン
+   [!DNL Adobe Experience Platform]![&#128279;](assets/custom-action-aep-3.png)の サンドボックス選択ドロップダウン
 
-1. 「**新規アカウント**」を選択し、認証を有効にします。「**ソースに接続**」を選択します。
+1. 「**新規アカウント**」を選択し、認証を有効にします。 「**ソースに接続**」を選択します。
 
    ![ストリーミングデータのデータセット選択インターフェイス](assets/custom-action-aep-4.png)
 
-1. 「**次へ**」を選択し、データを書き込むデータセットを選択します。「**次へ**」、「**終了**」の順にクリックします。
+1. 「**次へ**」を選択し、データを書き込むデータセットを選択します。 「**次へ**」、「**終了**」の順にクリックします。
 
    ![アクションパラメーターにマッピングされる XDM スキーマフィールド](assets/custom-action-aep-5.png)
 
-1. 新しく作成したデータフローを開きます。スキーマペイロードをコピーして、メモ帳に保存します。
+1. 新しく作成したデータフローを開きます。 スキーマペイロードをコピーして、メモ帳に保存します。
 
 ```
 {
@@ -101,7 +119,7 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 
 この例では、次の手順に従います。
 
-1. [!DNL Adobe Journey Optimizer] を開き、左メニューの **管理** の下にある **設定** をクリックします。 **アクション**&#x200B;で、「**管理**」をクリックし、「**アクションを作成**」をクリックします。
+1. [!DNL Adobe Journey Optimizer]を開き、左側のメニューの&#x200B;**管理**&#x200B;の下にある&#x200B;**設定**&#x200B;をクリックします。 **アクション**&#x200B;で、「**管理**」をクリックし、「**アクションを作成**」をクリックします。
 
 1. URLを設定し、POST メソッドを選択します。
 

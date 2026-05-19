@@ -5,9 +5,20 @@ title: 参照アクティビティによる顧客との関与
 description: 参照アクティビティによる顧客との関与
 feature: Use Cases
 version: Campaign Orchestration
-source-git-commit: e486aae3a6635d8eec0c398bfe03b6a63a007ef1
+exl-id: 915ebafe-935b-49b6-8b8c-0e7a8bf546a4
+TQID: https://experienceleague.adobe.com/q30GcOzIEJ0HUjEauFfp1CaP-oQdSGiBFSRcfNgdap8
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: 590
 ht-degree: 98%
 
 ---
@@ -16,24 +27,24 @@ ht-degree: 98%
 
 >[!BEGINSHADEBOX]
 
-このユースケースは、Experience Platform に既に存在するオーディエンス、特に、発生した参照アクティビティを収集するリアルタイムの web 行動オーディエンスから始まります。[Adobe Experience Platform の詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
+このユースケースは、Experience Platform に既に存在するオーディエンス、特に、発生した参照アクティビティを収集するリアルタイムの web 行動オーディエンスから始まります。 [Adobe Experience Platform の詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/intro/rtcdp-intro/get-started#audiences)
 
 **このユースケースに必要なスキーマ：**
 
 * **受信者**：ターゲティングディメンションとして使用され、フィールドには `email`、`churnprop` が含まれます
 * **ウィッシュリスト**：フィールドには `description`、`priceref`、`imageurl` が含まれます
 
-➡️ [&#x200B; リレーショナルスキーマの設定方法を学ぶ &#x200B;](gs-schemas.md)
+➡️ [&#x200B; リレーショナルスキーマの設定方法を学ぶ](gs-schemas.md)
 
 >[!ENDSHADEBOX]
 
 ![](assets/uc-interest-14.png){zoomable="yes"}
 
-このキャンペーンは、運動器具カテゴリを参照した顧客をターゲットにしています。オーディエンスは重複排除され、チャーンリスク（エンゲージメントや購入を停止する可能性）ごとにセグメント化されます。
+このキャンペーンは、運動器具カテゴリを参照した顧客をターゲットにしています。 オーディエンスは重複排除され、チャーンリスク（エンゲージメントや購入を停止する可能性）ごとにセグメント化されます。
 
 高リスクの顧客は、後で特定の通信に使用される別の新しいオーディエンスに収集され、一方、低リスクと中リスクの顧客は、パーソナライズされたメールとフォローアップによるマルチステップのジャーニーを進めます。
 
-1. まず、**ウィッシュリストの再エンゲージメント**&#x200B;を目的とした新しいキャンペーンを設定します。これにより、製品をウィッシュリストに保存して、既に購入意図を示している顧客に焦点を当てたメッセージが届きます。
+1. まず、**ウィッシュリストの再エンゲージメント**&#x200B;を目的とした新しいキャンペーンを設定します。 これにより、製品をウィッシュリストに保存して、既に購入意図を示している顧客に焦点を当てたメッセージが届きます。
 
    ![](assets/uc-reengagement-1.png){zoomable="yes"}
 
@@ -84,7 +95,7 @@ ht-degree: 98%
 
 ## 高リスクセグメント {#high-risk}
 
-チャーンリスクが高いと特定された顧客に対しては、専用のオーディエンスセグメントを作成します。このオーディエンスは、後で個別のターゲット通信に使用されます。
+チャーンリスクが高いと特定された顧客に対しては、専用のオーディエンスセグメントを作成します。 このオーディエンスは、後で個別のターゲット通信に使用されます。
 
 1. **[!UICONTROL オーディエンスを保存]**&#x200B;を追加します。
 

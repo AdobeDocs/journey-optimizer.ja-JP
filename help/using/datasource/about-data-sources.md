@@ -9,10 +9,28 @@ role: Developer, Admin
 level: Intermediate, Experienced
 keywords: データ, ソース, ジャーニー, プラットフォーム
 exl-id: e0cb261f-7cf7-42de-8e56-576492e3b5cc
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/eG1QcfpHtxpabUt5e7RZiMIpSAJD6Z6bjO-4wtZEUOg
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2:
+  - id: dd51b532-b93f-4bcf-8dbf-0d007f593aca
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 42%
+source-wordcount: 917
+ht-degree: 43%
 
 ---
 
@@ -24,7 +42,7 @@ ht-degree: 42%
 >abstract="データソースの設定は、常に技術ユーザーが実行します。 データソースを設定すると、システムへの接続を定義して、ジャーニーで使用される（条件定義、アクションのパラメーターとパーソナライゼーションデータ、カスタム待機定義、タイムゾーン定義に対する）追加情報を取得できます。"
 
 >[!TIP]
->Journey Optimizerを初めて利用する場合？ データ ソースを設定する前に、スキーマ、データセット、ID、データ フローを理解するには、[&#x200B; データ管理の概要](../data/gs-data.md)から始めます。
+>Journey Optimizer のデータ管理を初めて使用しますか？ データ ソースを設定する前に、スキーマ、データセット、ID、データ フローを理解するには、[&#x200B; データ管理の概要](../data/gs-data.md)から始めます。
 
 データソース設定を使用すると、システムへの接続を定義して、ジャーニーにおいて次の目的でジャーニーで使用される追加情報を取得できます。
 
@@ -44,7 +62,7 @@ ht-degree: 42%
 
 >[!NOTE]
 >
->応答がサポートされるようになったので、外部データソースのユースケースでは、データソースの代わりにカスタムアクションを使用する必要があります。 応答について詳しくは、この[節](../action/action-response.md)を参照してください。
+>応答がサポートされるようになったので、外部データソースのユースケースでは、データ ソースの代わりにカスタムアクションを使用する必要があります。 応答について詳しくは、この[節](../action/action-response.md)を参照してください。
 
 各データソースについて、フィールドグループを使用して取得する情報を定義します。 フィールドグループは、データソースから取得できるフィールドのセットです。 [このページ](../datasource/configure-data-sources.md#define-field-groups)を参照してください。
 

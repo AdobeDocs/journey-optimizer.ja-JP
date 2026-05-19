@@ -9,10 +9,26 @@ role: Admin
 level: Experienced
 keywords: 設定、電子メール、設定、送信者ヘッダー、SMTP
 exl-id: e1556c25-9c79-4362-a5a9-0a46425fa8d9
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/SKYkdRHCsbMq6sD1phQHt0TCqy2kLUb26dT-BZHSWEA
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+  - id: fae48155-b23f-40d2-a252-a25bce350b4d
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1089'
-ht-degree: 59%
+source-wordcount: 1089
+ht-degree: 64%
 
 ---
 
@@ -51,12 +67,12 @@ ht-degree: 59%
 >
 >**[!UICONTROL 電子メールプレフィックス]**&#x200B;および&#x200B;**[!UICONTROL 電子メールプレフィックス]**&#x200B;から取得する場合、値は文字（A ～ Z）で始まる必要があり、英数字のみを含めることができます。 アンダースコア `_`、ドット `.`、ハイフン `-`文字も使用できます。
 
-## Sender headers {#sender-header}
+## 送信者のヘッダー {#sender-header}
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_preset_sender_header"
->title="Sender headers"
->abstract="送信エンティティ（送信者）がオーサリングエンティティ（送信者）と異なる場合、これらのオプションフィールドを使用します。例えば、企業の親が子ブランドのメッセージをディスパッチしたり、複数の顧客を送信する代理店などが使用します。 これをサポートするメールクライアントは、通常、「送信者の代理で送信者」としてレンダリングするか、「経由」インジケーターを表示します。"
+>title="送信者のヘッダー"
+>abstract="送信エンティティ（送信者）とオーサリングエンティティ（送信元）が異なる場合、例えば、親会社が子ブランド向けにメッセージをディスパッチする場合や、代理店が複数の顧客向けにメッセージを送信する場合などに、これらのオプションフィールドを使用します。 これをサポートするメールクライアントは通常、「送信元の代理の送信者」としてレンダリングするか、「経由」インジケーターを表示します。"
 
 メッセージを送信するメールボックスは、**From**&#x200B;作成者とは異なる場合があります。例えば、子会社の代理で送信する親組織、複数のブランドの共有マーケティングチーム、複数のクライアントに送信する代理店などが必要です。
 

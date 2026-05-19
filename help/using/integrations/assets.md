@@ -9,9 +9,30 @@ role: User
 level: Beginner
 keywords: アセット, Experience Manager, 統合
 exl-id: d4fde14b-e2da-40bf-a387-ee9f2f7ff204
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/Sy-GvPP4hQgCvYvwJX6mEodMLIuCmHsd4utqI33SjJ4
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2:
+  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
+  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
+  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: da3860b0-d637-47df-bef0-273751180266
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: 1198
 ht-degree: 100%
 
 ---
@@ -20,19 +41,19 @@ ht-degree: 100%
 
 ## [!DNL Experience Manager Assets] の基本を学ぶ {#get-started-assets}
 
-**[!DNL Adobe Experience Manager Assets]** を使用してマーケティングワークフローとクリエイティブワークフローを統合します。**[!DNL Adobe Journey Optimizer]** とネイティブに統合され、**[!DNL Assets Essentials]** または **[!DNL Assets as a Cloud Service]** へアクセスして、デジタルアセットの保存、管理、検出、配布を行います。メッセージの入力に使用できる、アセットの一元的なリポジトリを提供します。
+**[!DNL Adobe Experience Manager Assets]** を使用してマーケティングワークフローとクリエイティブワークフローを統合します。 **[!DNL Adobe Journey Optimizer]** とネイティブに統合され、**[!DNL Assets Essentials]** または **[!DNL Assets as a Cloud Service]** へアクセスして、デジタルアセットの保存、管理、検出、配布を行います。 メッセージの入力に使用できる、アセットの一元的なリポジトリを提供します。
 
 **[!DNL Adobe Experience Manager Assets]** は、クリエイティブシステムを拡張し、デジタルアセットをエクスペリエンス配信に統合するために共同作業できる、一元化された 2 つのアセットワークスペースを提供します。
 
-* **[!DNL Assets as a Cloud Service]**：Adobe Experience Manager Assets as a Cloud Service は、効率的なデジタルアセット管理と Dynamic Media 操作のための使いやすいクラウドソリューションを提供します。人工知能や機械学習などの高度な機能がシームレスに組み込まれています。
+* **[!DNL Assets as a Cloud Service]**：Adobe Experience Manager Assets as a Cloud Service は、効率的なデジタルアセット管理と Dynamic Media 操作のための使いやすいクラウドソリューションを提供します。 人工知能や機械学習などの高度な機能がシームレスに組み込まれています。
 
   詳しくは、[Adobe Experience Manager Assets as a Cloud Service ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/overview.html?lang=ja){target="_blank"}を参照してください。
 
-* **[!DNL Assets Essentials]**：Experience Manager Assets Essentials は、統合されたアセット管理と共同作業のための Assets as a Cloud Service の軽量ソリューションです。最新の簡素化されたインターフェイスにより、クリエイティブチームやマーケティングチームがデジタルアセットを簡単に保存、検出および配布できます。
+* **[!DNL Assets Essentials]**：Experience Manager Assets Essentials は、統合されたアセット管理と共同作業のための Assets as a Cloud Service の軽量ソリューションです。 最新の簡素化されたインターフェイスにより、クリエイティブチームやマーケティングチームがデジタルアセットを簡単に保存、検出および配布できます。
 
   詳しくは、[Adobe Experience Manager Assets Essentials ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/introduction.html?lang=ja){target="_blank"}を参照してください。
 
-契約に応じて、**[!DNL Adobe Experience Manager Assets Essentials]** または **[!DNL Adobe Experience Manager Assets as a Cloud Service]** には、左側のメニューの「**[!UICONTROL アセット]**」セクションを使用して **[!DNL Adobe Journey Optimizer]** から直接アクセスできます。また、[メールのコンテンツをデザイン](../email/get-started-email-design.md)する際に、アセットやフォルダーにアクセスすることもできます。
+契約に応じて、**[!DNL Adobe Experience Manager Assets Essentials]** または **[!DNL Adobe Experience Manager Assets as a Cloud Service]** には、左側のメニューの「**[!UICONTROL アセット]**」セクションを使用して **[!DNL Adobe Journey Optimizer]** から直接アクセスできます。 また、[メールのコンテンツをデザイン](../email/get-started-email-design.md)する際に、アセットやフォルダーにアクセスすることもできます。
 
 ## 前提条件{#assets-prerequisites}
 
@@ -40,26 +61,26 @@ ht-degree: 100%
 
 >[!TAB Adobe Experience Manager Assets Essentials]
 
-[!DNL Adobe Experience Manager Assets Essentials] を使用する前に、ユーザーを **Assets Essentials コンシューマーユーザー**&#x200B;または **Assets Essentials ユーザー**&#x200B;の製品プロファイルに追加する必要があります。詳しくは、[Assets Essentials ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=ja#add-user-groups){target="_blank"}を参照してください。
+[!DNL Adobe Experience Manager Assets Essentials] を使用する前に、ユーザーを **Assets Essentials コンシューマーユーザー**&#x200B;または **Assets Essentials ユーザー**&#x200B;の製品プロファイルに追加する必要があります。 詳しくは、[Assets Essentials ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/get-started-admins/deploy-administer.html?lang=ja#add-user-groups){target="_blank"}を参照してください。
 
 >[!NOTE]
->2022年1月6日（PT）より前に入手した Journey Optimizer 製品の場合、組織に **[!DNL Adobe Experience Manager Assets Essentials]** をデプロイする必要があります。詳しくは、[Assets Essentials のデプロイ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=ja){target="_blank"}の節を参照してください。
+>2022年1月6日（PT）より前に入手した Journey Optimizer 製品の場合、組織に **[!DNL Adobe Experience Manager Assets Essentials]** をデプロイする必要があります。 詳しくは、[Assets Essentials のデプロイ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/deploy-administer.html?lang=ja){target="_blank"}の節を参照してください。
 
 >[!TAB Adobe Experience Manager Assets as a Cloud Service]
 
-**[!DNL Adobe Experience Manager Assets as a Cloud Service]** を使用する前に、ユーザーを Assets Cloud Services に追加する必要があります。詳しくは、[Adobe Experience Manager Assets as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/security/ims-support.html?lang=ja) を参照してください。
+**[!DNL Adobe Experience Manager Assets as a Cloud Service]** を使用する前に、ユーザーを Assets Cloud Services に追加する必要があります。 詳しくは、[Adobe Experience Manager Assets as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/security/ims-support.html?lang=ja) を参照してください。
 
 >[!ENDTABS]
 
 ## アセットのアップロードと挿入{#add-asset}
 
-ファイルを **[!DNL Assets Essentials]** または **[!DNL Assets as a Cloud Service]** に読み込むには、まず保存先のフォルダーを参照または作成する必要があります。その後、メールコンテンツに挿入できます。
+ファイルを **[!DNL Assets Essentials]** または **[!DNL Assets as a Cloud Service]** に読み込むには、まず保存先のフォルダーを参照または作成する必要があります。 その後、メールコンテンツに挿入できます。
 
 1. [!DNL Adobe Journey Optimizer] のホームページで、**[!UICONTROL コンテンツ管理]**&#x200B;メニューから「**[!UICONTROL Assets]**」タブを選択して **[!DNL Assets Essentials]** または **[!DNL Assets as a Cloud Service]** にアクセスします。
 
    ![](assets/media_library_1.png)
 
-1. Journey Optimizer でアセットのリポジトリを選択します。このソリューションを所有している場合は、**[!DNL Assets Essentials]** または **[!DNL Assets as a Cloud Service]** リポジトリを選択できます。
+1. Journey Optimizer でアセットのリポジトリを選択します。 このソリューションを所有している場合は、**[!DNL Assets Essentials]** または **[!DNL Assets as a Cloud Service]** リポジトリを選択できます。
 
    ![](assets/media_library_4.png)
 
@@ -83,9 +104,9 @@ ht-degree: 100%
 
 1. **[!UICONTROL ファイルをアップロード]**&#x200B;画面で「**[!UICONTROL 参照]**」をクリックして、**[!UICONTROL ファイルを参照]**&#x200B;するか&#x200B;**[!UICONTROL フォルダーを参照]**&#x200B;するかを選択します。
 
-1. アップロードするファイルを選択します。完了したら、「**[!UICONTROL アップロード]**」をクリックします。アセットの管理方法について詳しくは、この[ページ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html?lang=ja)を参照してください。
+1. アップロードするファイルを選択します。 完了したら、「**[!UICONTROL アップロード]**」をクリックします。 アセットの管理方法について詳しくは、この[ページ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html?lang=ja)を参照してください。
 
-1. Adobe Photoshop Express でアセットをさらに編集するには、アセットをダブルクリックします。次に、右側のメニューから、「**[!UICONTROL 編集モード]**」アイコンを選択します。[詳細情報](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html?lang=ja){target="_blank"}
+1. Adobe Photoshop Express でアセットをさらに編集するには、アセットをダブルクリックします。 次に、右側のメニューから、「**[!UICONTROL 編集モード]**」アイコンを選択します。 [詳細情報](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html?lang=ja){target="_blank"}。
 
    ![](assets/media_library_12.png)
 
@@ -93,13 +114,13 @@ ht-degree: 100%
 
    ![](assets/media_library_5.png)
 
-1. 以前に作成した **[!UICONTROL Assets]** フォルダーを選択します。検索バーで、アセットやフォルダーを検索することもできます。
+1. 以前に作成した **[!UICONTROL Assets]** フォルダーを選択します。 検索バーで、アセットやフォルダーを検索することもできます。
 
 1. アセットをメールコンテンツにドラッグ＆ドロップします。
 
    ![](assets/media_library_6.png)
 
-1. 「**[!UICONTROL 設定]**」タブと「**[!UICONTROL スタイル]**」を使用して、外部リンクやテキストを追加するなど、アセットをさらにカスタマイズすることができます。詳しくは、[コンポーネント設定](../email/content-components.md)を参照してください。
+1. 「**[!UICONTROL 設定]**」タブと「**[!UICONTROL スタイル]**」を使用して、外部リンクやテキストを追加するなど、アセットをさらにカスタマイズすることができます。 詳しくは、[コンポーネント設定](../email/content-components.md)を参照してください。
 
    ![](assets/media_library_13.png)
 
@@ -116,23 +137,23 @@ ht-degree: 100%
 
 Adobe Experience Manager Assets に関するよくある質問を以下に示します。
 
-さらに詳細が必要ですか？このページの下部にあるフィードバックオプションを使用して、質問を入力するか、[Adobe Journey Optimizer コミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"}にアクセスしてください。
+さらに詳細が必要ですか？ このページの下部にあるフィードバックオプションを使用して、質問を入力するか、[Adobe Journey Optimizer コミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-journey-optimizer/ct-p/journey-optimizer?profile.language=ja){target="_blank"}にアクセスしてください。
 
 +++ Journey Optimizer 内でバンドルされた Assets Essentials リポジトリを引き続き使用できますか？
 
-**[!DNL Adobe Experience Manager Assets as a Cloud Service]** でプロビジョニングされている場合、ユーザーに適切な権限があれば、**[!DNL Adobe Experience Manager Assets Essentials]** と **[!DNL Adobe Experience Manager Assets as a Cloud Service]** の両方のリポジトリへのアクセス権が付与されます。これらのリポジトリは個別に存在し、同期していません。Journey Optimizer のユーザーは、ステージ、開発などの使用権限のある他の環境を含む両方のリポジトリを表示でき、リポジトリセレクターを使用してシームレスに切り替えることができます。
+**[!DNL Adobe Experience Manager Assets as a Cloud Service]** でプロビジョニングされている場合、ユーザーに適切な権限があれば、**[!DNL Adobe Experience Manager Assets Essentials]** と **[!DNL Adobe Experience Manager Assets as a Cloud Service]** の両方のリポジトリへのアクセス権が付与されます。 これらのリポジトリは個別に存在し、同期していません。 Journey Optimizer のユーザーは、ステージ、開発などの使用権限のある他の環境を含む両方のリポジトリを表示でき、リポジトリセレクターを使用してシームレスに切り替えることができます。
 
 +++
 
-+++ アセットを管理するにはどうすればよいですか？Assets as a Cloud Service の変更は Journey Optimizer に反映されますか？
++++ アセットを管理するにはどうすればよいですか？ Assets as a Cloud Service の変更は Journey Optimizer に反映されますか？
 
-**[!DNL Adobe Experience Manager Assets as a Cloud Service]** は、**[!DNL Adobe Experience Manager Assets Essentials]** と同様に Journey Optimizer と統合されます。アセットを変更すると、バイナリコピーが生成されます。**[!DNL Assets as a Cloud Service]** の更新は、ライブメールキャンペーンに自動的には反映されません。アセットと継続中のメールキャンペーン間の同期を確保するには、変更を E メールデザイナーで手動で再選択する必要があります。
+**[!DNL Adobe Experience Manager Assets as a Cloud Service]** は、**[!DNL Adobe Experience Manager Assets Essentials]** と同様に Journey Optimizer と統合されます。 アセットを変更すると、バイナリコピーが生成されます。 **[!DNL Assets as a Cloud Service]** の更新は、ライブメールキャンペーンに自動的には反映されません。 アセットと継続中のメールキャンペーン間の同期を確保するには、変更を E メールデザイナーで手動で再選択する必要があります。
 
 +++
 
 +++ Journey Optimizer でのメールの作成中に Dynamic Media URL を使用できますか？
 
-はい、Journey Optimizer のメール作成内で Dynamic Media URL を使用できます。アセットセレクターから選択する代わりに、URL をペーストするだけです。
+はい、Journey Optimizer のメール作成内で Dynamic Media URL を使用できます。 アセットセレクターから選択する代わりに、URL をペーストするだけです。
 
 +++
 
@@ -144,11 +165,11 @@ Journey Optimizer ユーザーが資格のある **[!DNL Adobe Experience Manage
 
 +++ Journey Optimizer から送信されたメールで画像が読み込まれないことがあるのはなぜですか？
 
-アセット（画像など）が Adobe Experience Manager 経由で管理され、Journey Optimizer で使用される場合、アセットは有効期間（TTL）を指定したアセットライフサイクルポリシーの対象となります。TTL 期間が終了すると、アセットがストレージ（CDN）から削除される場合があり、その結果、これらのアセットを参照するメール内の画像が破損することがあります。
+アセット（画像など）が Adobe Experience Manager 経由で管理され、Journey Optimizer で使用される場合、アセットは有効期間（TTL）を指定したアセットライフサイクルポリシーの対象となります。 TTL 期間が終了すると、アセットがストレージ（CDN）から削除される場合があり、その結果、これらのアセットを参照するメール内の画像が破損することがあります。
 
 >[!NOTE]
 >
-> アセットの TTL は、Adobe Journey Optimizer バックエンドサービスで管理され、現在、顧客が設定することはできません。現在の TTL 期間は、すべての Journey Optimizer 組織に対して 730 日に設定されています。
+>アセットの TTL は、Adobe Journey Optimizer バックエンドサービスで管理され、現在、顧客が設定することはできません。 現在の TTL 期間は、すべての Journey Optimizer 組織に対して 730 日に設定されています。
 
 +++
 
@@ -167,13 +188,13 @@ Journey Optimizer ユーザーが資格のある **[!DNL Adobe Experience Manage
 
 >[!CAUTION]
 >
->再公開の要件は、すべての環境（実稼動、ステージ、開発）に適用されます。アセットのライフサイクルを適切に管理して、アセットが常に使用可能であることを確保します。
+>再公開の要件は、すべての環境（実稼動、ステージ、開発）に適用されます。 アセットのライフサイクルを適切に管理して、アセットが常に使用可能であることを確保します。
 
 +++
 
 +++ アセットの有効期限ロジックは今後改善されますか？
 
-はい、アドビではアセットの有効期限とライフサイクル管理ロジックを調整するための機能強化にアクティブに取り組んでいます。これらの改善は、アセットのライフサイクルステータスの表示を向上させ、ライブキャンペーンで画像が破損するリスクを軽減することを目標としています。
+はい、アドビではアセットの有効期限とライフサイクル管理ロジックを調整するための機能強化にアクティブに取り組んでいます。 これらの改善は、アセットのライフサイクルステータスの表示を向上させ、ライブキャンペーンで画像が破損するリスクを軽減することを目標としています。
 
 最新のアップデートについて詳しくは、アドビのアカウントチームにお問い合わせいただくか、Adobe Journey Optimizer のリリースノートをモニターしてください。
 

@@ -5,17 +5,24 @@ title: Adobe Journey Optimizer を使用して調整されたキャンペーン�
 description: Adobe Journey Optimizer を使用して調整されたキャンペーンに関するレポートへのアクセス方法について説明します。
 exl-id: 8cb569a2-a4a0-45a5-b7f9-f5a591e44335
 version: Campaign Orchestration
-source-git-commit: 266bf3afde663b17aedce5fb51e7c5f424fee9ad
+TQID: https://experienceleague.adobe.com/CBzmimp3EJmRg1Padmfgpvw6cG4bsoOIwCDgIk-n1A4
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: 191
 ht-degree: 98%
 
 ---
 
-
 # 調整されたキャンペーンレポート {#report-campaigns}
 
-調整されたキャンペーンでは、堅牢なレポート機能を通じて実用的なインサイトを提供します。これらのインサイトは、オーディエンスの行動をより深く理解し、カスタマージャーニーの各ステップのパフォーマンスを測定し、データ駆動型の決定を行って今後のキャンペーンを最適化するのに役立ちます。詳細な指標とビジュアライゼーションにより、エンゲージメントを追跡し、ターゲティング戦略を微調整して最大限の効果を得ることができます。
+調整されたキャンペーンでは、堅牢なレポート機能を通じて実用的なインサイトを提供します。 これらのインサイトは、オーディエンスの行動をより深く理解し、カスタマージャーニーの各ステップのパフォーマンスを測定し、データ駆動型の決定を行って今後のキャンペーンを最適化するのに役立ちます。 詳細な指標とビジュアライゼーションにより、エンゲージメントを追跡し、ターゲティング戦略を微調整して最大限の効果を得ることができます。
 
 ![](assets/report-orchestrated.png)
 
@@ -26,14 +33,14 @@ ht-degree: 98%
     <tr>
       <td><a href="../reports/live-report.md"><img alt="ライブレポート" src="assets/last-24hours.png"></a></td>
       <td>
-        <b>ライブレポート</b>を使用し、ビルトインダッシュボードで、調整されたキャンペーンの影響とパフォーマンスをリアルタイムで測定および視覚化します。調整されたキャンペーンを<b>過去 24 時間のレポートを表示</b>メニューから実行するとすぐに、<b>ライブレポート</b>でデータを入手できます。ライブレポートについて詳しくは、<a href="../reports/live-report.md">この節</a>を参照してください。
+        <b>ライブレポート</b>を使用し、ビルトインダッシュボードで、調整されたキャンペーンの影響とパフォーマンスをリアルタイムで測定および視覚化します。 調整されたキャンペーンを<b>過去 24 時間のレポートを表示</b>メニューから実行するとすぐに、<b>ライブレポート</b>でデータを入手できます。 ライブレポートについて詳しくは、<a href="../reports/live-report.md">この節</a>を参照してください。
       </td>
         </br>
     </tr>
     <tr style="background-color: #FFFFFF;">
       <td><a href="../reports/report-gs-cja.md"><img alt="全期間のレポート" src="assets/all-time-report.png"></a></td>
       <td>
-        <b>全期間のレポート</b>は Customer Journey Analytics 機能と完全に統合されています。これにより、両方のプラットフォームをまたいでレポートが標準化され、データの一貫性と信頼性が向上します。全期間のレポートについて詳しくは、<a href="../reports/report-gs-cja.md">この節</a>を参照してください。
+        <b>全期間のレポート</b>は Customer Journey Analytics 機能と完全に統合されています。これにより、両方のプラットフォームをまたいでレポートが標準化され、データの一貫性と信頼性が向上します。 全期間のレポートについて詳しくは、<a href="../reports/report-gs-cja.md">この節</a>を参照してください。
       </td>
     </tr>
   </tbody>

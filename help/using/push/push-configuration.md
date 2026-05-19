@@ -7,10 +7,37 @@ feature: Push, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/-siREKyRJBnjClebGdA0XNIf9sm7m3YqTwoC5q3-3yg
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2:
+  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
+  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '2189'
-ht-degree: 88%
+source-wordcount: 2189
+ht-degree: 91%
 
 ---
 
@@ -243,12 +270,12 @@ Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Ex
 
 プッシュ通知を作成する際に、設定を選択できるようになりました。
 
-### アプリ IDのパーソナライズ （オプション） {#app-id-personalization}
+### アプリ ID をパーソナライズ （オプション） {#app-id-personalization}
 
 >[!CONTEXTUALHELP]
 >id="ajo_surface_dynamic_app_id"
->title="Personalize App id"
->abstract="複数のモバイルアプリを管理する場合は、各アプリ IDをプロファイルに保存し、単一のプッシュチャネル設定を使用します。 アプリ ID フィールドの横にあるパーソナライゼーションエディターを開いて、プロファイル属性を選択します。この式は、受信者ごとに送信時に評価されます。 式が返すことができるアプリ IDごとにプッシュ資格情報が存在することを確認します。"
+>title="アプリ ID をパーソナライズ"
+>abstract="複数のモバイルアプリを管理する際は、各アプリ ID をプロファイルに保存し、単一のプッシュチャネル設定を使用します。 アプリ ID フィールドの横にあるパーソナライゼーションエディターを開き、プロファイル属性を選択します。式は、送信時に各受信者に対して評価されます。 式が返す場合があるすべてのアプリ ID に対して、プッシュ資格情報が存在することを確認します。"
 
 複数のブランドまたはテナントが別々のアプリを使用している場合は、各&#x200B;**[!UICONTROL アプリ ID]**&#x200B;をプロファイルに保存し、1つのチャネル設定を使用して、各受信者に対して適切なアプリにプッシュ通知を送信できます。
 

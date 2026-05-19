@@ -6,32 +6,45 @@ description: ' [!DNL Adobe Journey Optimizer]  レポートへのアクセス方
 role: User
 level: Beginner
 exl-id: 7961dc5c-7918-4ae3-8361-0ed4bc4f145b
-source-git-commit: b495462aed9a67ff25c2563288bb2ca57e9b7db7
+TQID: https://experienceleague.adobe.com/Zpz0yKyYrpflNhiGCIYQPELCCFp7A4CkbrJphwxuz70
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 95%
+source-wordcount: 489
+ht-degree: 100%
 
 ---
 
 # レポート機能の基本を学ぶ {#get-started-report}
 
-Adobe Journey Optimizer では、堅牢なレポート機能を通じて実用的なインサイトを提供します。レポートは、キャンペーン、ジャーニー、ランディングページ、購読リストなどに使用できます。使用可能なレポートは次のとおりです。
+Adobe Journey Optimizer では、堅牢なレポート機能を通じて実用的なインサイトを提供します。 レポートは、キャンペーン、ジャーニー、ランディングページ、購読リストなどに使用できます。 使用可能なレポートは次のとおりです。
 
 さらに、[!DNL Journey Optimizer] エクスペリエンスの配信品質を最適化するには、[この節](deliverability.md)に示すベストプラクティスを使用することをお勧めします。
 
 
 ## レポートのタイプ {#reporting-types}
 
-* **過去 24 時間のライブレポート** - **[!UICONTROL ライブレポート]**&#x200B;を使用し、ビルトインダッシュボードで、ジャーニーとメッセージの影響とパフォーマンスをリアルタイムで測定および視覚化します。配信が送信されるか、「**[!UICONTROL 過去 24 時間]**」タブからジャーニーが実行されるとすぐに、**[!UICONTROL ライブレポート]**&#x200B;でデータを入手できます。ライブレポートについて詳しくは、[この節](live-report.md)を参照してください。
+* **過去 24 時間のライブレポート** - **[!UICONTROL ライブレポート]**&#x200B;を使用し、ビルトインダッシュボードで、ジャーニーとメッセージの影響とパフォーマンスをリアルタイムで測定および視覚化します。 配信が送信されるか、「**[!UICONTROL 過去 24 時間]**」タブからジャーニーが実行されるとすぐに、**[!UICONTROL ライブレポート]**&#x200B;でデータを入手できます。 ライブレポートについて詳しくは、[この節](live-report.md)を参照してください。
 
   ![](assets/report_journey.png)
 
 
-* **Customer Journey Analytics を使用した全期間レポート** - Journey Optimizer レポートが Customer Journey Analytics 機能と完全に統合され、両方のプラットフォームでレポートが標準化され、データの一貫性と信頼性が向上します。Journey Optimizer と Customer Journey Analytics のシームレスな統合により、パフォーマンス指標がより明確に表示され、ユーザーはより多くの情報に基づいて意思決定を行うことができます。全期間レポートについて詳しくは、[この節](report-gs-cja.md)を参照してください。
+* **Customer Journey Analytics を使用した全期間レポート** - Journey Optimizer レポートが Customer Journey Analytics 機能と完全に統合され、両方のプラットフォームでレポートが標準化され、データの一貫性と信頼性が向上します。 Journey Optimizer と Customer Journey Analytics のシームレスな統合により、パフォーマンス指標がより明確に表示され、ユーザーはより多くの情報に基づいて意思決定を行うことができます。 全期間レポートについて詳しくは、[この節](report-gs-cja.md)を参照してください。
 
   ![](assets/gs-cja-report-1.png)
 
-  Adobe Customer Journey Analytics ライセンスを所有している場合は、Journey Optimizer レポートをCustomer Journey Analyticsに分析できます。 この強力なオプションにより、Customer Journey Analytics 環境にシームレスにリダイレクトされ、レポートを幅広くカスタマイズできるようになります。専用の Customer Journey Analytics 指標を使用してウィジェットを強化し、まったく新しいレベルのインサイトを得ることができます。[詳細情報](report-cja-manage.md)
+  Adobe Customer Journey Analytics ライセンスを所有している場合は、Journey Optimizer レポートを Customer Journey Analytics で分析できます。 この強力なオプションにより、Customer Journey Analytics 環境にシームレスにリダイレクトされ、レポートを幅広くカスタマイズできるようになります。 専用の Customer Journey Analytics 指標を使用してウィジェットを強化し、まったく新しいレベルのインサイトを得ることができます。 [詳細情報](report-cja-manage.md)
 
 
 ## さらに深く掘り下げましょう
@@ -102,7 +115,7 @@ Adobe Journey Optimizer では、堅牢なレポート機能を通じて実用�
 </tr></table>
 
 
-全期間グローバルレポートは、すべてのチャネルで使用できます。詳細を取得する必要があるチャネルのレポートを選択します。
+全期間グローバルレポートは、すべてのチャネルで使用できます。 詳細を取得する必要があるチャネルのレポートを選択します。
 
 ### アウトバウンドチャネルのレポート
 

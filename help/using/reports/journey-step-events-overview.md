@@ -8,20 +8,56 @@ role: Developer, Admin, User
 level: Intermediate, Experienced
 keywords: ジャーニー, ステップイベント, 分析, レポート, モニタリング, XDM
 exl-id: 2e7c5ea5-d8c5-416d-ab88-d2bc02043558
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+TQID: https://experienceleague.adobe.com/PSXSN-31GNlM0zBKcCvdKPciHt5zhQPPCffFrUoIxUs
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2:
+  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
+  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: ba62ad25-65cb-4ea9-b7aa-0fa87c4a9fa0
+  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 100%
+source-wordcount: 937
+ht-degree: 98%
 
 ---
 
 # ジャーニーステップイベントの操作 {#work-with-journey-step-events}
 
-ジャーニーステップイベントは、Adobe Journey Optimizer での[ジャーニー](../building-journeys/journey.md)の進行状況に合わせて[プロファイル](../audience/get-started-profiles.md)が実行する各ステップに関する詳細情報をキャプチャする、自動的に生成されたイベントです。これらのイベントにより、[ジャーニーのパフォーマンス](../building-journeys/report-journey.md)を包括的に表示でき、強力な分析機能が有効になります。
+ジャーニーステップイベントは、Adobe Journey Optimizer での[ジャーニー](../building-journeys/journey.md)の進行状況に合わせて[プロファイル](../audience/get-started-profiles.md)が実行する各ステップに関する詳細情報をキャプチャする、自動的に生成されたイベントです。 これらのイベントにより、[ジャーニーのパフォーマンス](../building-journeys/report-journey.md)を包括的に表示でき、強力な分析機能が有効になります。
 
 ## ジャーニーステップイベントとは {#what-are-step-events}
 
-ジャーニーステップイベントは、システムにより生成される [XDM（エクスペリエンスデータモデル）](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target="_blank"}イベントです。ジャーニー内でプロファイルがノード間を移動するたびに、Adobe Journey Optimizer により自動的に作成され、[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ja){target="_blank"} に送信されます。各イベントは、顧客のジャーニーエクスペリエンスでの特定の[ジャーニーアクティビティ](../building-journeys/about-journey-activities.md)やトランジションに対応します。
+ジャーニーステップイベントは、システムにより生成される [XDM（エクスペリエンスデータモデル）](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target="_blank"}イベントです。ジャーニー内でプロファイルがノード間を移動するたびに、Adobe Journey Optimizer により自動的に作成され、[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ja){target="_blank"} に送信されます。 各イベントは、顧客のジャーニーエクスペリエンスでの特定の[ジャーニーアクティビティ](../building-journeys/about-journey-activities.md)やトランジションに対応します。
 
 ジャーニーステップイベントには、主に次の 2 つのタイプがあります。
 
@@ -41,7 +77,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->ジャーニーステップイベントは、すべてのインスタンスでデフォルトでアクティブ化されます。ステップイベントのプロビジョニング時に作成された[スキーマやデータセット](sharing-overview.md)は、変更も更新もできません。これらのスキーマとデータセットは読み取り専用モードです。
+>ジャーニーステップイベントは、すべてのインスタンスでデフォルトでアクティブ化されます。 ステップイベントのプロビジョニング時に作成された[スキーマやデータセット](sharing-overview.md)は、変更も更新もできません。 これらのスキーマとデータセットは読み取り専用モードです。
 
 詳しくは、[ジャーニーステップイベントスキーマ](sharing-field-list.md)を参照してください。
 
@@ -165,8 +201,8 @@ GROUP BY _experience.journeyOrchestration.stepEvents.nodeName;
 
 ### 高度な分析機能 {#advanced-analytics}
 
-**Customer Journey Analytics の統合**
-[Customer Journey Analytics](cja-ajo.md) を使用して、ジャーニーステップイベントを分析することで、次の目的に対応できます。
+**Customer Journey Analyticsとの連携**
+ジャーニーステップイベントは、[Customer Journey Analytics](cja-ajo.md)を使用して分析できます。
 
 - 高度なアトリビューションモデリング
 - クロスチャネルジャーニーのビジュアライゼーション

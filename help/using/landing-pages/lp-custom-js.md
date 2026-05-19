@@ -9,28 +9,41 @@ role: Developer
 level: Experienced
 keywords: ランディング, ランディングページ, JavaScript, コード
 exl-id: 2a7ebead-5f09-4ea5-8f00-8b5625963290
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+TQID: https://experienceleague.adobe.com/h-F683Mfa0y21OXjFHlow5FHQA-EOgFanOyMP7R7jug
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: b19d9237-76be-466d-a869-aacf2d72205f
+  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: 568
 ht-degree: 100%
 
 ---
 
 # ランディングページでのカスタム JavaScript の使用 {#lp-custom-js}
 
-カスタム JavaScript を使用してランディングページのコンテンツを定義できます。例えば、高度なスタイル設定を実行する必要がある場合や、ランディングページにカスタム動作を追加する場合は、[!DNL Journey Optimizer] で独自のコントロールを作成し、実行することができます。
+カスタム JavaScript を使用してランディングページのコンテンツを定義できます。 例えば、高度なスタイル設定を実行する必要がある場合や、ランディングページにカスタム動作を追加する場合は、[!DNL Journey Optimizer] で独自のコントロールを作成し、実行することができます。
 
 ## ランディングページへの JavaScript コードの挿入
 
 ランディングページコンテンツにカスタム JavaScript を挿入するには、次のいずれかを実行します。
 
-* コンテンツの作成を開始する際に既存の HTML コンテンツを読み込み、カスタム JavaScript コードを含むファイルを選択します。コンテンツの読み込み方法については、[この節](../email/existing-content.md)を参照してください。
+* コンテンツの作成を開始する際に既存の HTML コンテンツを読み込み、カスタム JavaScript コードを含むファイルを選択します。 コンテンツの読み込み方法については、[この節](../email/existing-content.md)を参照してください。
 
-* ランディングページを最初から、または保存済みのテンプレートから設計します。**[!UICONTROL HTML]** コンテンツコンポーネントをキャンバスにドラッグ＆ドロップし、JavaSCript をコンポーネントに追加するためのソースコードを表示します。HTML コンポーネントの使用方法については、[この節](../email/content-components.md#HTML)を参照してください。<!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
+* ランディングページを最初から、または保存済みのテンプレートから設計します。 **[!UICONTROL HTML]** コンテンツコンポーネントをキャンバスにドラッグ＆ドロップし、JavaSCript をコンポーネントに追加するためのソースコードを表示します。 HTML コンポーネントの使用方法については、[この節](../email/content-components.md#HTML)を参照してください。<!--You can also simply switch the whole landing page content to code view and enter or paste your JavaScript code.-->
 
   ![](assets/lp_designer-html-component.png)
 
-* JavaScript コードをコンテンツ designer に直接入力または貼り付けます。独自のコンテンツの作成方法については、[この節](../email/code-content.md)を参照してください。
+* JavaScript コードをコンテンツ designer に直接入力または貼り付けます。 独自のコンテンツの作成方法については、[この節](../email/code-content.md)を参照してください。
 
 >[!NOTE]
 >
@@ -40,9 +53,9 @@ ht-degree: 100%
 
 ## コードの初期化
 
-JavaScript コードを初期化するには、`lpRuntimeReady` イベントを使用する必要があります。このイベントは、ライブラリの初期化が成功した後にトリガーされます。コールバックは、`lpRuntime` オブジェクトを使用して実行され、ライブラリのメソッドとフックを公開します。
+JavaScript コードを初期化するには、`lpRuntimeReady` イベントを使用する必要があります。 このイベントは、ライブラリの初期化が成功した後にトリガーされます。 コールバックは、`lpRuntime` オブジェクトを使用して実行され、ライブラリのメソッドとフックを公開します。
 
-`LpRuntime` は、「ランディングページランタイム」を意味します。このオブジェクトは、メインライブラリ識別子です。カスタム JavaScript で使用できるフック、フォーム送信メソッドおよびその他のユーティリティメソッドが公開されます。
+`LpRuntime` は、「ランディングページランタイム」を意味します。 このオブジェクトは、メインライブラリ識別子です。 カスタム JavaScript で使用できるフック、フォーム送信メソッドおよびその他のユーティリティメソッドが公開されます。
 
 **例：**
 
@@ -62,13 +75,13 @@ function init(lpRuntime){
 
 ## フック
 
-フックを使用すると、フォーム送信のライフサイクル中にメソッドを添付できます。例えば、フックを使用して、フォームが実際に送信される前にフォームの検証を実行できます。
+フックを使用すると、フォーム送信のライフサイクル中にメソッドを添付できます。 例えば、フックを使用して、フォームが実際に送信される前にフォームの検証を実行できます。
 
 使用できるフックは次のとおりです。
 
 | 名前 | 説明 |
 |--- |--- |
-| addBeforeSubmitHook | フォーム送信前に呼び出されるカスタムフック。送信を続行する場合は true を返し、送信をブロックする場合は false を返します。 |
+| addBeforeSubmitHook | フォーム送信前に呼び出されるカスタムフック。 送信を続行する場合は true を返し、送信をブロックする場合は false を返します。 |
 | addOnFailureHook | 失敗したフォーム送信時に呼び出されるカスタムフック。 |
 | addOnSuccessHook | フォーム送信が成功したときに呼び出されるカスタムフック。 |
 
@@ -92,7 +105,7 @@ lpRuntime.hooks.addBeforeSubmitHook(function(){
 | 名前 | 説明 |
 |--- |--- |
 | submitForm | このメソッドは、フォームを送信し、送信後のフローを処理します。 |
-| submitFormPartial | このメソッドもフォームを送信しますが、送信後のフローはスキップします。例えば、送信が成功した後に成功ページへのリダイレクトを設定した場合、部分的なフォーム送信の場合にはリダイレクトは発生しません。 |
+| submitFormPartial | このメソッドもフォームを送信しますが、送信後のフローはスキップします。 例えば、送信が成功した後に成功ページへのリダイレクトを設定した場合、部分的なフォーム送信の場合にはリダイレクトは発生しません。 |
 
 **例：**
 
@@ -113,7 +126,7 @@ lpRuntime.submitFormPartial(formSubmissionData,{   // This will not trigger the 
 
 | 名前 | 説明 |
 |--- |--- |
-| getFormData | このメソッドを使用すると、`formData` を JSON オブジェクトの形式で取得できます。このオブジェクトはフォーム送信用に `submitForm` に渡すことができます。 |
+| getFormData | このメソッドを使用すると、`formData` を JSON オブジェクトの形式で取得できます。 このオブジェクトはフォーム送信用に `submitForm` に渡すことができます。 |
 
 **例：**
 
@@ -162,7 +175,7 @@ lpRuntime.submitForm(formData);
 
 ### ユースケース 2：部分的なフォーム送信
 
-例えば、ページ上に複数のチェックボックスを備えたフォームがあるとします。任意のチェックボックスをオンにすると、ユーザーが送信ボタンをクリックするのを待たずに、このデータをバックエンドに保存する必要があります。
+例えば、ページ上に複数のチェックボックスを備えたフォームがあるとします。 任意のチェックボックスをオンにすると、ユーザーが送信ボタンをクリックするのを待たずに、このデータをバックエンドに保存する必要があります。
 
 ```
 <html>

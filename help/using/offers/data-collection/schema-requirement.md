@@ -9,10 +9,23 @@ role: Developer
 level: Experienced
 exl-id: f70ba749-f517-4e09-a381-243b21713b48
 version: Journey Orchestration
-source-git-commit: 8732a73118b807eaa7f57cfdad60355b535282ff
+TQID: https://experienceleague.adobe.com/DhaXO7sS2zR9iewgoQjrN5ptYNpYSt97e-hflU2iq7c
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: e08599ea-8888-4294-ba74-3ba0a7762a46
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: acc16deb-1d7f-4ec9-9ce3-6cdf355afde6
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 100%
+source-wordcount: 307
+ht-degree: 94%
 
 ---
 
@@ -20,13 +33,13 @@ ht-degree: 100%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。 [詳細情報](../../experience-decisioning/gs-experience-decisioning.md)
 
 決定イベントタイプ以外のイベントタイプに関するフィードバックを取得できるようにするには、Adobe Experience Platform に送信される&#x200B;**エクスペリエンスイベント**&#x200B;で、各イベントタイプに正しい値を設定する必要があります。
 
 >[!CAUTION]
 >
->イベントタイプごとに、データセットで使用されるスキーマに、**[!UICONTROL エクスペリエンスイベント - 提案インタラクション]**&#x200B;フィールドグループが関連付けられていることを確認してください。[詳細情報](create-dataset.md)
+>イベントタイプごとに、データセットで使用されるスキーマに、**[!UICONTROL エクスペリエンスイベント - 提案インタラクション]**&#x200B;フィールドグループが関連付けられていることを確認してください。 [詳細情報](create-dataset.md)
 
 JavaScript コードに実装する必要があるスキーマ要件は、以下のとおりです。
 
@@ -38,8 +51,8 @@ JavaScript コードに実装する必要があるスキーマ要件は、以下
 
 イベントタイプとソースが次のようになっていることを確認します。
 
-**エクスペリエンスイベントタイプ：** `decisioning.propositionDisplay`
-**ソース：** Web.sdk/Alloy.js（`sendEvent command -> xdm : {eventType, interactionMixin}`）またはバッチ取り込み
+**エクスペリエンスイベントの種類：** `decisioning.propositionDisplay`
+**Source:** Web.sdk/Alloy.js （`sendEvent command -> xdm : {eventType, interactionMixin}`）またはバッチ取得
 +++**サンプルペイロード：**
 
 ```
@@ -72,8 +85,8 @@ JavaScript コードに実装する必要があるスキーマ要件は、以下
 
 イベントタイプとソースが次のようになっていることを確認します。
 
-**エクスペリエンスイベントタイプ：** `decisioning.propositionInteract`
-**ソース：** Web.sdk/Alloy.js（`sendEvent command -> xdm : {eventType, interactionMixin}`）またはバッチ取り込み
+**エクスペリエンスイベントの種類：** `decisioning.propositionInteract`
+**Source:** Web.sdk/Alloy.js （`sendEvent command -> xdm : {eventType, interactionMixin}`）またはバッチ取得
 +++**サンプルペイロード：**
 
 ```

@@ -7,10 +7,17 @@ role: Developer
 level: Experienced
 exl-id: b924b7d0-bbed-409e-8173-0685fc41d7de
 version: Journey Orchestration
-source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
+TQID: https://experienceleague.adobe.com/5hMZmGEl--fCOFYxhy-wRRFh4JG7o-CHWDMKfA7rD78
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: 138
+ht-degree: 100%
 
 ---
 
@@ -59,11 +66,11 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offer-items/offerItem1234
 | --------- | ----------- |
 | `value` | パラメーターの更新に使用する新しい値。 |
 | `path` | 更新するパラメーターのパス。 |
-| `op` | 実行する操作のタイプ。操作には、`add`、`replace`、`remove`、`copy` および `test` があります。 |
+| `op` | 実行する操作のタイプ。 操作には、`add`、`replace`、`remove`、`copy` および `test` があります。 |
 
 **応答**
 
-応答が成功すると、ID を含む更新した項目の詳細が返されます。後の手順で ID を使用して、決定項目を更新または削除できます。
+応答が成功すると、ID を含む更新した項目の詳細が返されます。 後の手順で ID を使用して、決定項目を更新または削除できます。
 
 ```json
 {

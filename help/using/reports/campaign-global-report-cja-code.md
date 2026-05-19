@@ -8,9 +8,25 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d35a0e1c-2376-4cc5-88fc-5f8dfcfae666
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/dWz8XhbrYGbKdl79WrxLjRZvB-E2E-f-WS2RaFGFLW4
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2:
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: 945
 ht-degree: 99%
 
 ---
@@ -19,7 +35,7 @@ ht-degree: 99%
 
 >[!BEGINSHADEBOX]
 
-コードベースのキャンペーンレポートにアクセスするには、キャンペーンの「**[!UICONTROL レポート]**」ボタンをクリックし、「**[!UICONTROL 全期間のレポートを表示]**」を選択します。[詳細情報](report-gs-cja.md)
+コードベースのキャンペーンレポートにアクセスするには、キャンペーンの「**[!UICONTROL レポート]**」ボタンをクリックし、「**[!UICONTROL 全期間のレポートを表示]**」を選択します。 [詳細情報](report-gs-cja.md)
 
 ![](assets/report-access.png)
 
@@ -27,7 +43,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->コードベースのエクスペリエンスは、ユーザーがサイトやアプリにアクセスしてオプトインするインバウンドインタラクションとして機能します。したがって、アウトバウンドメッセージの配信用に選択されたプロファイルを追跡する&#x200B;**ターゲット**&#x200B;指標や&#x200B;**オーディエンス**&#x200B;指標は、コードベースのキャンペーンでは増分しません。
+>コードベースのエクスペリエンスは、ユーザーがサイトやアプリにアクセスしてオプトインするインバウンドインタラクションとして機能します。 したがって、アウトバウンドメッセージの配信用に選択されたプロファイルを追跡する&#x200B;**ターゲット**&#x200B;指標や&#x200B;**オーディエンス**&#x200B;指標は、コードベースのキャンペーンでは増分しません。
 
 ## 表示してクリック {#impressions-code}
 
@@ -71,7 +87,7 @@ ht-degree: 99%
 
 ## トラッキング対象リンクラベル {#track-link-code}
 
-**[!UICONTROL トラッキング対象リンクラベル]**&#x200B;テーブルには、コードベースエクスペリエンス内のリンクラベルの包括的な概要が表示され、最も多くの訪問者トラフィックを生成するリンクラベルがハイライト表示されます。この機能を使用すると、一番人気のリンクを識別し、優先順位を付けることができます。
+**[!UICONTROL トラッキング対象リンクラベル]**&#x200B;テーブルには、コードベースエクスペリエンス内のリンクラベルの包括的な概要が表示され、最も多くの訪問者トラフィックを生成するリンクラベルがハイライト表示されます。 この機能を使用すると、一番人気のリンクを識別し、優先順位を付けることができます。
 
 +++ 詳しくは、トラッキング対象リンクラベル指標を参照してください
 
@@ -115,7 +131,7 @@ ht-degree: 99%
 
 ![](assets/cja-top-decisions-ctr.png)
 
-**[!UICONTROL CTR 別の上位の決定項目]**&#x200B;の表には、クリックスルー率に基づく個々の項目のパフォーマンスがハイライト表示されます。この指標は、どの項目がユーザーを引き付け、インタラクションを促進する上で最も効果的かを評価するのに役立ちます。
+**[!UICONTROL CTR 別の上位の決定項目]**&#x200B;の表には、クリックスルー率に基づく個々の項目のパフォーマンスがハイライト表示されます。 この指標は、どの項目がユーザーを引き付け、インタラクションを促進する上で最も効果的かを評価するのに役立ちます。
 
 * **[!UICONTROL クリックスルー率（CTR）]**：リンク、広告、レコメンデーションをクリックしたユーザーの割合と、それが表示された回数との比較。
 
@@ -163,7 +179,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->現在、[上昇率測定](../experience-decisioning/ranking/auto-optimization-model.md#lift)レポートは、[パーソナライズされた最適化](../experience-decisioning/ranking/personalized-optimization-model.md) AI モデルでのみ使用できます。上昇率測定レポートが必要な場合は、代わりにパーソナライズされた最適化モデルを使用します。
+>現在、[上昇率測定](../experience-decisioning/ranking/auto-optimization-model.md#lift)レポートは、[パーソナライズされた最適化](../experience-decisioning/ranking/personalized-optimization-model.md) AI モデルでのみ使用できます。 上昇率測定レポートが必要な場合は、代わりにパーソナライズされた最適化モデルを使用します。
 
 ### ホールドアウトとモデル主導のトラフィックのコンバージョン率 {#conversion-rate}
 

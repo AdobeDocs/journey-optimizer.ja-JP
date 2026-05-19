@@ -39,7 +39,7 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: c5ecc28ec44a9c608f4fe5011e061cad62d92e2b
 workflow-type: tm+mt
 source-wordcount: 4226
 ht-degree: 99%
@@ -349,6 +349,7 @@ Adobe Experience Platform では、API ベースのプロファイルの作成�
 
 * エクスペリエンスイベントフィールドグループは、「オーディエンスを読み取り」アクティビティや、オーディエンスの選定またはビジネスイベントアクティビティで始まるジャーニーでは使用できません。 新しいオーディエンスを作成し、ジャーニーで `inaudience` 条件を使用する必要があります。
 * `timeSeriesEvents` 属性は式エディターで使用できません。 プロファイルレベルでエクスペリエンスイベントにアクセスするには、`XDM ExperienceEvent` スキーマに基づいて新しいフィールドグループを作成してください。
+  <!--* A single condition expression cannot contain more than **200 values** in an `in` list (e.g. `field in ["val1","val2",...]`). Expressions exceeding this limit will fail validation. To work around this limit, split the values across multiple conditions combined with `or`.-->
 
 ### ジャーニーアクティビティ {#activities}
 

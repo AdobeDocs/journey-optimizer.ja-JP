@@ -9,10 +9,25 @@ role: User
 level: Beginner
 keywords: コンテンツ, 実験, 複数, オーディエンス, 処理
 exl-id: 8913889e-3c8d-414f-8300-16fc1bd30607
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/0zeotvAI7G4FBX8g4qdt-clFuKRFKwQ-ENefBpNf-ts
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2:
+  - id: f29a52db-c90c-4345-902e-b586d1406d8d
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 95%
+source-wordcount: 202
+ht-degree: 96%
 
 ---
 
@@ -24,7 +39,7 @@ ht-degree: 95%
 
 ![](../rn/assets/do-not-localize/experimentation-accelerator.gif)
 
-**Journey Optimizer 実験アクセラレーター**&#x200B;は、実験プロセスの効率化および強化を目的に設計された強力なツールです。Adobe Target および Adobe Journey Optimizer と統合することで、実験を管理、分析、最適化する一元化されたプラットフォームを提供します。Journey Optimizer 実験アクセラレーターは、AI 駆動型のインサイトとアダプティブテストを活用し、データ主導の決定、マーケティング戦略の改善、測定可能な結果の推進を実現します。
+**Journey Optimizer 実験アクセラレーター**&#x200B;は、実験プロセスの効率化および強化を目的に設計された強力なツールです。 Adobe Target および Adobe Journey Optimizer と統合することで、実験を管理、分析、最適化する一元化されたプラットフォームを提供します。 Journey Optimizer 実験アクセラレーターは、AI 駆動型のインサイトとアダプティブテストを活用し、データ主導の決定、マーケティング戦略の改善、測定可能な結果の推進を実現します。
 
 主なメリットは次のとおりです。
 

@@ -9,9 +9,22 @@ role: User
 level: Beginner
 keywords: ランディング, ランディングページ, 作成, テンプレート
 exl-id: 393b36ad-0a37-46d9-b455-ae6684e0acbd
-source-git-commit: 8579acfa881f29ef3947f6597dc11d4c740c3d68
+TQID: https://experienceleague.adobe.com/xLbYVVCKMtUM1l8SoL-UAn15SY44PgWcqi2uDQ8FDhc
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2:
+  - id: b19d9237-76be-466d-a869-aacf2d72205f
+  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: 198
 ht-degree: 100%
 
 ---
@@ -20,7 +33,7 @@ ht-degree: 100%
 
 ## テンプレートとしてのページの保存 {#save-as-template}
 
-[ランディングページコンテンツ](lp-content.md)をデザインしたら、後日再利用するために保存できます。それには、次の手順に従います。
+[ランディングページコンテンツ](lp-content.md)をデザインしたら、後日再利用するために保存できます。 これを行うには、次の手順に従います。
 
 1. 画面の右上にある省略記号をクリックします。
 
@@ -34,13 +47,13 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-次回ランディングページを作成する際には、このテンプレートを使用してコンテンツを作成できます。詳しくは、以下の[節](#use-saved-template)を参照してください。
+次回ランディングページを作成する際には、このテンプレートを使用してコンテンツを作成できます。 詳しくは、以下の[節](#use-saved-template)を参照してください。
 
 ![](assets/lp_designer-saved-template.png)
 
 ## 保存済みコンテンツテンプレートの使用 {#use-saved-template}
 
-1. [ランディングページコンテンツ designer](design-lp.md) を開きます。以前に保存したすべてのテンプレートのリストが表示されます。
+1. [ランディングページコンテンツ designer](design-lp.md) を開きます。 以前に保存したすべてのテンプレートのリストが表示されます。
 
 1. **[!UICONTROL 名前別]**、**[!UICONTROL 最終変更日]**&#x200B;および&#x200B;**[!UICONTROL 最終作成日]**&#x200B;で並べ替え可能です。
 

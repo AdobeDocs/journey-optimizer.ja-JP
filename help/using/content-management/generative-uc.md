@@ -8,10 +8,28 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
-source-git-commit: d2110b995bc26df861825cdd49ca2fd39f904442
+TQID: https://experienceleague.adobe.com/VAyIDrwFJtWtOd0h8nr9LK5F21Oe9wIWwvV-zFvCHtM
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: f29a52db-c90c-4345-902e-b586d1406d8d
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1277'
-ht-degree: 51%
+source-wordcount: 1287
+ht-degree: 52%
 
 ---
 
@@ -39,7 +57,7 @@ ht-degree: 51%
 
 1. 使用可能な&#x200B;**[!UICONTROL バリエーション]**&#x200B;を参照し、「**[!UICONTROL プレビュー]**」をクリックして、選択したバリエーションを全画面で表示します。
 
-コンテンツ、オーディエンスおよびスケジュールを定義したら、メールキャンペーンの準備が整います。[詳細情報](../campaigns/review-activate-campaign.md)
+コンテンツ、オーディエンスおよびスケジュールを定義したら、メールキャンペーンの準備が整います。 [詳細情報](../campaigns/review-activate-campaign.md)
 
 ## バリエーションの絞り込み {#refine}
 
@@ -131,7 +149,7 @@ ht-degree: 51%
 
 1. **[!UICONTROL AI アシスタント]**&#x200B;メニューを開きます。
 
-1. フランス語、スペイン語、ドイツ語、イタリア語、日本語、スウェーデン語、オランダ語またはノルウェー語の&#x200B;**[!UICONTROL プロンプト]** ボックスに希望するリクエストを入力して、コンテンツを調整します。
+1. フランス語、スペイン語、ドイツ語、イタリア語、日本語、スウェーデン語、オランダ語、またはノルウェー語で、「**[!UICONTROL プロンプト]**」ボックスにリクエストを入力し、コンテンツを調整します。
 
 1. 「**[!UICONTROL テキスト設定]**」オプションでプロンプトをカスタマイズし、生成されたコンテンツに使用する「**[!UICONTROL 言語]**」を選択します。
 

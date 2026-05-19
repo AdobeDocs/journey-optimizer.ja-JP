@@ -8,9 +8,29 @@ role: Admin
 level: Intermediate
 keywords: 許可リスト, セーフリスト，メール，配信品質，サンドボックス，ドメイン，抑制，設定
 exl-id: 70ab8f57-c132-4de1-847b-11f0ab14f422
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/Q33GwgA8mJ4JPHuIb7mT8l5bKkzICX32-EXxtI5ug9Q
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+  - id: fae48155-b23f-40d2-a252-a25bce350b4d
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: 1341
 ht-degree: 73%
 
 ---

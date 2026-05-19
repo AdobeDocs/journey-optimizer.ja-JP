@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: パスの検証
+title: パス実験
 description: ジャーニーでパス実験を使用する方法を説明します
 feature: Journeys, Activities
 topic: Content Management
@@ -12,11 +12,11 @@ exl-id: 7241ade3-577c-4bb3-b0c3-017133871ca5
 source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
 workflow-type: tm+mt
 source-wordcount: '1147'
-ht-degree: 77%
+ht-degree: 78%
 
 ---
 
-# パスの検証の使用 {#experimentation}
+# パス実験を使用 {#experimentation}
 
 >[!CONTEXTUALHELP]
 >id="ajo_path_experiment_success_metric"
@@ -153,7 +153,7 @@ REMOVED WITH GA
 >
 >パス実験の場合、勝者のスケール機能は、単一ジャーニー（イベントトリガーおよびオーディエンスの選定）でのみ使用できます。
 >
->オーディエンスの読み取りジャーニーには使用できません。
+>オーディエンスを読み取りジャーニーでは使用できません。
 
 「勝者をスケール」を使用すると、実験の勝利バリエーションをすべてのオーディエンスに自動または手動でロールアウトできます。 この機能により、勝者が決定したら、実験を常に監視することなく、そのリーチと効果を増幅できます。
 

@@ -9,10 +9,10 @@ role: Developer
 level: Beginner
 keywords: 式, エディター, 開始, パーソナライゼーション
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+source-git-commit: 6d62604f975fce76860eba000a09870806d54934
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 90%
+source-wordcount: '608'
+ht-degree: 91%
 
 ---
 
@@ -51,7 +51,7 @@ Journey Optimizer は、メッセージを処理する際に、式を Experience
 
 ➡️ [パーソナライゼーションプレイグラウンドへのアクセス](https://experienceleague.adobe.com/ja/apps/journey-optimizer/ajo-personalization){target="_blank"}
 
-## パーソナライゼーション表現のためのAI アシスタント {#ai-personalization-expressions}
+## パーソナライゼーション式用 AI アシスタント {#ai-personalization-expressions}
 
 **[!UICONTROL Personalization Editor]**&#x200B;またはメール Designer ツールバー（**[!UICONTROL 式を追加]**）から、**[!UICONTROL AI アシスタント]**&#x200B;は、自然言語から新しい式を生成し、既存のコードの機能を説明し、選択範囲の問題を修正し、意図に一致したときに出力を適用するのに役立ちます。
 
@@ -87,6 +87,14 @@ Journey Optimizer は、メッセージを処理する際に、式を Experience
 </a>
 <div>
 <a href="../personalization/functions/functions.md"><strong>ヘルパー関数リスト</strong></a>
+</div>
+<p></td>
+<td>
+<a href="../personalization/personalization-recipes.md">
+<img alt="低頻度" src="assets/do-not-localize/uc.png">
+</a>
+<div>
+<a href="../personalization/personalization-recipes.md"><strong>Personalization レシピ </strong></a>
 </div>
 <p></td>
 <td>

@@ -7,9 +7,28 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: e7e994ca-aa0c-4e86-8710-c87430b74188
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+TQID: https://experienceleague.adobe.com/gV4buzcc5mqsvceDj1O-5XZ3eJHtfD26h1c5g3h81Ps
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2:
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1850'
+source-wordcount: 1850
 ht-degree: 44%
 
 ---
@@ -137,46 +156,46 @@ Appleでは、優先度の高い`(priority: 10)` ライブアクティビティ�
 
 ### マーケターに関する質問
 
-+++Can I personalize Live activity content for each user in a broadcast campaign?
++++ブロードキャストキャンペーンのユーザーごとにライブアクティビティコンテンツをパーソナライズできますか？
 
 ブロードキャストキャンペーンでは、オーディエンスのすべてのユーザーに同じコンテンツが送信されます。 パーソナライズされたコンテンツの場合は、個々のユーザーをターゲットにした単一（トランザクション）キャンペーンを使用します。
 +++
 
-+++How do I know if my Live activity was successfully delivered?
++++ライブアクティビティが正常に配信されたかどうかを確認するにはどうすればよいですか？
 
 Adobe Journey Optimizer で[キャンペーン分析を監視します](../reports/campaign-global-report-cja-activity.md)。 配信率、エラー、エンゲージメント指標を追跡できます。 また、アプリにカスタム分析イベントを実装することも考慮します。
 +++
 
-+++Can I schedule Live activities in advance?
++++事前にライブアクティビティをスケジュールできますか？
 
-The API call triggers the Live activity immediately. ただし、バックエンドシステムを通じて API 呼び出しをスケジュールしたり、Journey Optimizer のオーケストレーション機能を使用して適切なタイミングで呼び出しを行ったりできます。
+API呼び出しにより、ライブアクティビティが即座にトリガーされます。 ただし、バックエンドシステムを通じて API 呼び出しをスケジュールしたり、Journey Optimizer のオーケストレーション機能を使用して適切なタイミングで呼び出しを行ったりできます。
 +++
 
-+++What happens if I send a &quot;start&quot; event for a Live activity that already exists?
++++既に存在するライブアクティビティの「開始」イベントを送信するとどうなりますか？
 
-When remotely starting a Live activity through Adobe&#39;s Execution APIs:
+Adobe Execution APIを使用してライブアクティビティをリモートで開始する場合：
 
-* リクエストに `x-request-id` ヘッダーを含めることができます。 理想的には、各 `liveActivityID` とこれに対応する `x-request-id` は 1 対 1 の関係になる必要があります。 This ensures that if multiple requests are made with the same `x-request-id` and `liveActivityID` combination, only one Live activity instance will be started on the device, and duplicate requests will be ignored.
+* リクエストに `x-request-id` ヘッダーを含めることができます。 理想的には、各 `liveActivityID` とこれに対応する `x-request-id` は 1 対 1 の関係になる必要があります。 これにより、同じ`x-request-id`と`liveActivityID`の組み合わせで複数のリクエストが行われた場合、デバイスで1つのライブアクティビティインスタンスのみが開始され、重複したリクエストは無視されます。
 
-* If the `x-request-id` header is omitted, each request is treated independently, which can result in multiple Live activity instances being created with the same `liveActivityID`. このような場合、今後の更新は失敗するか、アクティブなインスタンスの 1 つにのみ適用されることがあります。
+* `x-request-id` ヘッダーが省略された場合、各リクエストは個別に処理され、同じ`liveActivityID`で複数のライブアクティビティインスタンスが作成される可能性があります。 このような場合、今後の更新は失敗するか、アクティブなインスタンスの 1 つにのみ適用されることがあります。
 
 * `x-request-id` 値は、別々の API リクエスト内の異なる `liveActivityIDs` 間で再利用しないでください。
 
 +++
 
-+++Can I A/B test different Live activity experiences?
++++別のライブアクティビティエクスペリエンスをA/B テストできますか？
 
 はい。 異なるコンテンツ構造を持つ複数のキャンペーンを作成し、Adobe Journey Optimizer の実験機能を使用して、どのキャンペーンのパフォーマンスが優れているかをテストします。 アプリがすべてのコンテンツ状態のバリエーションをサポートしていることを確認します。
 
 +++
 
-+++How often should I update a Live activity?
++++ライブアクティビティはどのくらいの頻度で更新すべきですか？
 
 頻繁に更新するとバッテリーが消耗し、ユーザーエクスペリエンスの品質が低下する可能性があるので、意味のある情報が変更された場合にのみ更新してください。 配信トラッキングなどのリアルタイムシナリオでは、通常 30～60 秒間隔に設定できます。 スポーツのスコアなど、変化の遅いコンテンツの場合は、重要なイベントについてのみ更新します。
 
 +++
 
-+++Can I target users based on whether they have Live activities enabled?
++++ライブアクティビティが有効になっているかどうかに基づいてユーザーをターゲティングできますか？
 
 開発チームと連携して、この環境設定をユーザー属性として追跡し、Adobe Experience Platform に渡して、その属性に基づいてセグメント化する必要があります。
 
@@ -187,7 +206,7 @@ When remotely starting a Live activity through Adobe&#39;s Execution APIs:
 +++`timestamp` と `dismissal-date` の違いは何ですか？
 
 * `timestamp`：イベントが発生した現在のエポック時間（すべてのイベントに必要）。
-* `dismissal-date`: A future epoch time when the Live activity should auto-dismiss, required only for &quot;end&quot; events.
+* `dismissal-date`: ライブ アクティビティを自動却下する今後の経過時間です。「終了」イベントにのみ必要です。
 
 +++
 
@@ -225,9 +244,9 @@ OAuth トークンや API キーを含む認証要件について詳しくは、
 
 +++
 
-+++Can I send Live activity updates from my own backend servers?
++++自分のバックエンドサーバーからライブアクティビティの更新を送信できますか？
 
-はい、それが意図された動作です。 Your backend calls the Adobe Journey Optimizer Headless API to trigger Live activity events when your business logic requires it.
+はい、それが意図された動作です。 バックエンドでAdobe Journey Optimizer ヘッドレス APIを呼び出して、ビジネスロジックで必要な場合にライブアクティビティイベントをトリガーします。
 
 +++
 
@@ -241,17 +260,17 @@ OAuth トークンや API キーを含む認証要件について詳しくは、
 
 >[!TIP]
 >
->For comprehensive troubleshooting guidance, see [Troubleshoot Live activities](troubleshoot-mobile-live.md).
+>包括的なトラブルシューティングのガイダンスについては、[&#x200B; ライブアクティビティのトラブルシューティング &#x200B;](troubleshoot-mobile-live.md)を参照してください。
 
-+++My Live activity starts but does not update. 問題は何ですか？
++++ライブアクティビティが開始されますが、更新されません。 問題は何ですか？
 
 一般的な原因：
 
 * 開始呼び出しと更新呼び出し間の `liveActivityID` または `channelID` が一致しません。
 * `content-state` フィールドが `ContentState` 構造体と一致しません。
-* The Live activity has already ended.
+* ライブアクティビティは既に終了しています。
 * デバイスのネットワーク接続の問題。
-* The epoch time used as timestamp is not up-to-date.
+* タイムスタンプとして使用されるエポック時間が最新ではありません。
 
 +++
 
@@ -260,23 +279,23 @@ OAuth トークンや API キーを含む認証要件について詳しくは、
 * クラス名が Swift 構造体名と&#x200B;**正確**&#x200B;に一致している（大文字と小文字が区別される）ことを確認します
 * 構造体が適切に定義され、登録されていることを確認します
 * JSON ペイロードの入力ミスを確認します
-* Confirm the app version installed has the Live activity implementation
+* インストールされたアプリのバージョンにライブアクティビティの実装があることを確認します
 
 +++
 
-+++Users only see the Live activity update and not the alert notification, is this a known issue?
++++ユーザーにはライブアクティビティの更新のみが表示され、アラート通知は表示されません。これは既知の問題ですか？
 
-いいえ。 `alert` フィールドはオプションで、特定の条件（例：Do Not Disturb モード）では iOS で抑制される場合があります。 A Live activity can update silently, which is often the intended behavior. リモートスタートを送信するには、アラートフィールドが必須です。そうでない場合、Apple はサイレントバックグラウンド通知のように処理します。
-
-+++
-
-+++Can I delete or clear all Live activity instances for a user?
-
-You need to send an &quot;end&quot; event for each active Live activity instance. Track which Live activity instances are active for each user in your systems so you can properly clean them up.
+いいえ。 `alert` フィールドはオプションで、特定の条件（例：Do Not Disturb モード）では iOS で抑制される場合があります。 ライブアクティビティはサイレントに更新できます。これは、多くの場合、意図された動作です。 リモートスタートを送信するには、アラートフィールドが必須です。そうでない場合、Apple はサイレントバックグラウンド通知のように処理します。
 
 +++
 
-+++My widget shows &quot;No data&quot; even though I sent an update. 問題は何ですか？
++++ユーザーのすべてのライブアクティビティインスタンスを削除または消去できますか？
+
+アクティブなライブアクティビティインスタンスごとに「終了」イベントを送信する必要があります。 システム内の各ユーザーに対してアクティブなライブアクティビティインスタンスを追跡して、適切にクリーンアップできるようにします。
+
++++
+
++++更新を送信したにもかかわらず、ウィジェットに「データがありません」と表示される。 問題は何ですか？
 
 * ウィジェットの実装が `context.state` と `context.attributes` に適切にアクセスしていることを確認します。
 * ウィジェットインターフェイスでデフォルト値またはエラー状態が処理されていることを確認します。

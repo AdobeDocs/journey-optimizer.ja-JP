@@ -7,32 +7,39 @@ feature: Profiles, Identities
 role: User
 level: Beginner
 exl-id: 90e892e9-33c2-4da5-be1d-496b42572897
-source-git-commit: a422cad5349de0ad87aa3a11ce923e04e862a63c
+TQID: https://experienceleague.adobe.com/gPZkvVDsQKRuXgVRwyj-kMHQYpLBX2MKfECxBZvPRKU
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 94%
+source-wordcount: 228
+ht-degree: 98%
 
 ---
 
 # ID の基本を学ぶ {#identities-gs}
 
-ID は、エンティティ（通常は個人、ハードウェアデバイス、web ブラウザーなどの実際のオブジェクト）に一意のデータです。完全修飾 ID は、次の 2 つの要素で構成されます。
+ID は、エンティティ（通常は個人、ハードウェアデバイス、web ブラウザーなどの実際のオブジェクト）に一意のデータです。 完全修飾 ID は、次の 2 つの要素で構成されます。
 
 * **ID 名前空間**&#x200B;は、ID の関連先コンテキストのインジケーターとして機能します。
 * **ID 値**&#x200B;は、エンティティを表す文字列です。
 
-例えば、電話番号 555-555-1234 について考えます。この場合、文字列「555-555-1234」は **ID 値**&#x200B;で、「電話」**ID 名前空間**&#x200B;に分類できます。
+例えば、電話番号 555-555-1234 について考えます。 この場合、文字列「555-555-1234」は **ID 値**&#x200B;で、「電話」**ID 名前空間**&#x200B;に分類できます。
 
 [!DNL Adobe Journey Optimizer] の **ID** メニューでは、データベース内の顧客を構成する様々な ID を効率的に参照できます。
 
 ![](assets/identities-home.png)
 
-このメニューは、特定の顧客の異なる ID 間の関係のマップである **ID グラフ**&#x200B;を提供します。このグラフは、顧客が様々なチャネルでブランドとどのようにやり取りするかを視覚的に表現します。すべての顧客 ID グラフは、顧客のアクティビティに応じて、Adobe Experience Platform ID サービスによって一括管理および更新されます。
+このメニューは、特定の顧客の異なる ID 間の関係のマップである **ID グラフ**&#x200B;を提供します。 このグラフは、顧客が様々なチャネルでブランドとどのようにやり取りするかを視覚的に表現します。 すべての顧客 ID グラフは、顧客のアクティビティに応じて、Adobe Experience Platform ID サービスによって一括管理および更新されます。
 
 ID の操作について詳しくは、[ID サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=ja){target="_blank"}を参照してください。
 
 >[!MORELIKETHIS]
 >
->* [Journey Optimizerでのデータ管理の開始](../data/gs-data.md)
+>* [Journey Optimizer におけるデータ管理の基本を学ぶ](../data/gs-data.md)
 >* [プロファイルの基本を学ぶ](get-started-profiles.md)
 >* [ID サービスのドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=ja){target="_blank"}

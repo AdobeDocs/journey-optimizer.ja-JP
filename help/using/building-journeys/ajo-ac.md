@@ -10,22 +10,44 @@ level: Intermediate, Experienced
 keywords: ジャーニー, メッセージ, キャンペーン, 統合
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
 version: Journey Orchestration
-source-git-commit: 70653bafbbe8f1ece409e3005256d9dff035b518
+TQID: https://experienceleague.adobe.com/btOUMO8tgvwLD7kjVdgpj6I6QXRrj1iTD3P8AUrqJFM
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2:
+  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
+  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: 472
 ht-degree: 85%
 
 ---
 
 # Campaign v7／v8 を使用したメッセージの送信 {#campaign-v7-v8-use-case}
 
-このユースケースでは、[!DNL Adobe Campaign] v7 および [!DNL Adobe Campaign] v8 との統合を使用してメールを送信するために必要なすべての手順を説明します。
+このユースケースでは、[!DNL Adobe Campaign] v7および[!DNL Adobe Campaign] v8との統合を使用してメールを送信するために必要なすべての手順について説明します。
 
 >[!NOTE]
 >
 >この統合を使用するには、Campaign v7/v8 ビルド 9125 以降が必要です。
 
-まず、Campaign でトランザクションメールテンプレートを作成します。次に、Journey Optimizer で、イベント、アクションを作成し、ジャーニーをデザインします。
+まず、Campaign でトランザクションメールテンプレートを作成します。 次に、Journey Optimizer で、イベント、アクションを作成し、ジャーニーをデザインします。
 
 Campaign の統合について詳しくは、次のページを参照してください。
 
@@ -34,13 +56,13 @@ Campaign の統合について詳しくは、次のページを参照してく�
 
 **[!DNL Adobe Campaign]**
 
-Campaign インスタンスをこの統合用にプロビジョニングする必要があります。トランザクションメッセージ機能を設定する必要があります。
+Campaign インスタンスをこの統合用にプロビジョニングする必要があります。 トランザクションメッセージ機能を設定する必要があります。
 
 1. Campaign コントロールインスタンスにログインします。
 
-1. **管理**／**プラットフォーム**／**列挙**&#x200B;で、**イベントタイプ**（eventType）列挙を選択します。新しいイベントタイプ（この例では「journey-event」）を作成します。イベントタイプの内部名は、後で JSON ファイルを書き込む際に使用します。
+1. **管理**／**プラットフォーム**／**列挙**&#x200B;で、**イベントタイプ**（eventType）列挙を選択します。 新しいイベントタイプ（この例では「journey-event」）を作成します。 イベントタイプの内部名は、後で JSON ファイルを書き込む際に使用します。
 
-   ![&#x200B; スキーマとフィールドの選択を使用した [!DNL Adobe Journey Optimizer] でのイベントの設定 &#x200B;](assets/accintegration-uc-1.png)
+   ![&#x200B; スキーマとフィールド選択](assets/accintegration-uc-1.png)を使用して[!DNL Adobe Journey Optimizer]のイベントを設定します
 
 1. 作成を有効にするには、インスタンスを切断して、再接続します。
 
@@ -48,7 +70,7 @@ Campaign インスタンスをこの統合用にプロビジョニングする�
 
    ![名前空間とプロファイル識別子の設定を示すイベント設定](assets/accintegration-uc-2.png)
 
-1. テンプレートをデザインします。この例では、プロファイルの名と注文番号にパーソナライゼーションを適用します。名は [!DNL Adobe Experience Platform] データソースにあり、注文番号はJourney Optimizer イベントのフィールドにあります。 Campaign で正しいフィールド名を使用していることを確認します。
+1. テンプレートをデザインします。 この例では、プロファイルの名と注文番号にパーソナライゼーションを適用します。 名は[!DNL Adobe Experience Platform] データソースにあり、注文番号はJourney Optimizer イベントのフィールドです。 Campaign で正しいフィールド名を使用していることを確認します。
 
    ![プロファイルとイベントデータを含む JSON 構造を示すイベントペイロードプレビュー](assets/accintegration-uc-3.png)
 
@@ -76,13 +98,13 @@ Campaign インスタンスをこの統合用にプロビジョニングする�
 
 **Journey Optimizer**
 
-1. イベントを作成します。「purchaseOrderNumber」フィールドを含めます。
+1. イベントを作成します。 「purchaseOrderNumber」フィールドを含めます。
 
-   ![[!DNL Adobe Campaign] Classic 統合のカスタムアクション設定画面 &#x200B;](assets/accintegration-uc-5.png)
+   [!DNL Adobe Campaign] Classic統合![&#128279;](assets/accintegration-uc-5.png)の カスタムアクション設定画面
 
-1. Journey Optimizer で、Campaign テンプレートに対応するアクションを作成します。**アクションタイプ** ドロップダウンで、**[!DNL Adobe Campaign]Classic** を選択します。
+1. Journey Optimizer で、Campaign テンプレートに対応するアクションを作成します。 「**アクションタイプ**」ドロップダウンで、「**[!DNL Adobe Campaign]Classic**」を選択します。
 
-   ![&#x200B; 「クラシック」オプションが表示され [!DNL Adobe Campaign] いるアクションタイプの選択 &#x200B;](assets/accintegration-uc-6.png)
+   [!DNL Adobe Campaign] クラシック オプション ![&#128279;](assets/accintegration-uc-6.png)を表示する アクションタイプの選択
 
 1. 「**ペイロードフィールド**」をクリックし、以前に作成した JSON を貼り付けます。
 

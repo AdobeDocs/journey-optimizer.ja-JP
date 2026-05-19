@@ -9,23 +9,36 @@ role: User
 level: Intermediate
 keywords: メール, 読み込み, コンテンツ, html, zip, css
 exl-id: 52011299-0c65-49c3-9edd-ba7bed5d7205
-source-git-commit: 7cfeabc85b9645be9d61ed6458e57e42ea319619
+TQID: https://experienceleague.adobe.com/R0Csd9gbvY-iyW81G-clHoXozEBYWBfjb0y9PWq4zZA
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: 260
 ht-degree: 100%
 
 ---
 
 # メールコンテンツのインポート {#existing-content}
 
-[!DNL Journey Optimizer] では、既存の HTML コンテンツをインポートしてメールをデザインできます。このコンテンツには次のようなものがあります。
+[!DNL Journey Optimizer] では、既存の HTML コンテンツをインポートしてメールをデザインできます。 このコンテンツには次のようなものがあります。
 
 * スタイルシートが組み込まれた **HTML ファイル**
 * HTML ファイル、スタイルシート（.css）および画像を含んだ **.zip フォルダー**
 
   >[!NOTE]
   >
-  >.zip ファイル構造に制限はありません。ただし、.zip フォルダーのツリー構造に合わせて、相対参照を指定する必要があります。
+  >.zip ファイル構造に制限はありません。 ただし、.zip フォルダーのツリー構造に合わせて、相対参照を指定する必要があります。
 
 
 >[!TIP]
@@ -54,7 +67,7 @@ HTML コンテンツを含んだファイルをインポートするには、次
    >
    > `<table>` タグを HTML ファイルの最初のレイヤーとして使用すると、上部レイヤータグの背景や幅の設定などのスタイルが失われる可能性があります。
 
-1. これで、E メールデザイナーの機能を使用して、読み込んだファイルを必要に応じてパーソナライズできるようになりました。[詳細情報](content-from-scratch.md)
+1. これで、E メールデザイナーの機能を使用して、読み込んだファイルを必要に応じてパーソナライズできるようになりました。 [詳細情報](content-from-scratch.md)
 
 ## チュートリアルビデオ {#video}
 

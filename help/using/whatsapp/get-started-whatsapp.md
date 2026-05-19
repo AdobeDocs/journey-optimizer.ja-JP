@@ -8,20 +8,33 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
-source-git-commit: 73a347c104fe28799c264f9a8b6c3e5e12c8d892
-workflow-type: ht
-source-wordcount: '340'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/uHzRC9X6rB9EXH4gIFiRxFaeNcrTD0-40RrxZkN4XFg
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2:
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+workflow-type: tm+mt
+source-wordcount: 409
+ht-degree: 94%
 
 ---
 
 # WhatsApp メッセージの基本を学ぶ {#get-started-whatsapp}
 
-Meta の [Cloud API](https://developers.facebook.com/docs/whatsapp/cloud-api/) 経由で、Journey Optimizer を通じて WhatsApp メッセージを直接送信できるようになりました。この機能を使用すると、ジャーニーとキャンペーンへの WhatsApp のシームレスな統合を実現し、受信者との通信とエンゲージメントを強化できます。
+Meta の [Cloud API](https://developers.facebook.com/docs/whatsapp/cloud-api/) 経由で、Journey Optimizer を通じて WhatsApp メッセージを直接送信できるようになりました。 この機能を使用すると、ジャーニーとキャンペーンへの WhatsApp のシームレスな統合を実現し、受信者との通信とエンゲージメントを強化できます。
 
-* **ジャーニー**&#x200B;の場合：ジャーニーを作成し、**WhatsApp** アクティビティを追加し、基本設定を定義してから、右側の&#x200B;**[!UICONTROL アクション：WhatsApp]** パネルを参照して WhatsApp メッセージのコンテンツを作成します。ジャーニーを作成する方法について詳しくは、[このページ](../building-journeys/journey-gs.md)を参照してください。
+* **ジャーニー**&#x200B;の場合： ジャーニーを作成し、**WhatsApp** アクティビティを追加し、基本設定を定義してから、右側の&#x200B;**[!UICONTROL アクション：WhatsApp]** パネルを参照して WhatsApp メッセージのコンテンツを作成します。 ジャーニーを作成する方法について詳しくは、[このページ](../building-journeys/journey-gs.md)を参照してください。
 
-* **キャンペーン**&#x200B;の場合：キャンペーンを作成し、アクションとして「**WhatsApp**」を選択し、基本設定を定義してから、メッセージのコンテンツを編集して送信する WhatsApp メッセージを定義します。詳しくは、[アクションキャンペーン](../campaigns/campaign-action.md#action-campaign-action) | [API トリガーキャンペーン](../campaigns/api-triggered-campaigns.md) | [オーケストレーションキャンペーン](../orchestrated/create-orchestrated-campaign.md#create)の作成方法を参照してください
+* **キャンペーン**&#x200B;の場合： キャンペーンを作成し、アクションとして「**WhatsApp**」を選択し、基本設定を定義してから、メッセージのコンテンツを編集して送信する WhatsApp メッセージを定義します。 詳しくは、[アクションキャンペーン](../campaigns/campaign-action.md#action-campaign-action) | [API トリガーキャンペーン](../campaigns/api-triggered-campaigns.md) | [オーケストレーションキャンペーン](../orchestrated/create-orchestrated-campaign.md#create)を作成する方法を参照してください
 
 ![](assets/do-not-localize/whatsapp-beta.png){zoomable="yes"}
 
@@ -30,25 +43,25 @@ Meta の [Cloud API](https://developers.facebook.com/docs/whatsapp/cloud-api/) �
 WhatsApp を Journey Optimizer と統合するには、次が必要です。
 
 * Meta Business Manager アカウント
-* [送信者名と電話番号が認証された WhatsApp Business アカウント](https://developers.facebook.com/docs/whatsapp/overview/business-accounts/)
+* [確認済みの送信者名と電話番号を持つWhatsApp ビジネスアカウント](https://developers.facebook.com/docs/whatsapp/overview/business-accounts/)
 * [適切な権限を持つユーザー認証トークン](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)
-* [承認済み Meta テンプレート](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/)
+* [承認済みMeta テンプレート](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/)
 
 統合を進める前に、次も確認する必要があります。
 
 * [WhatsApp コンテンツルール](https://www.whatsapp.com/legal/messaging-guidelines)
-* [Meta ポリシーへの準拠](https://www.whatsapp.com/legal)
-* [24 時間の会話の制限](https://developers.facebook.com/docs/whatsapp/messaging-limits/)
+* [Meta ポリシーの準拠](https://www.whatsapp.com/legal)
+* [24時間の会話の制限](https://developers.facebook.com/docs/whatsapp/messaging-limits/)
 
 ## 制限事項 {#limitations}
 
 次の制限が WhatsApp チャネルに適用されます。
 
-* Adobe Journey Optimizer の WhatsApp チャネルは HIPAA に対応していますが、サードパーティベンダーはアドビの BAA の対象ではありません。顧客は、独自のコンプライアンスとベンダー検証に責任を負います。
+* Adobe Journey Optimizer の WhatsApp チャネルは HIPAA に対応していますが、サードパーティベンダーはアドビの BAA の対象ではありません。 顧客は、独自のコンプライアンスとベンダー検証に責任を負います。
 
 * 自動応答メッセージまたは定義済み応答メッセージはまだサポートされていません。
 
-* 2025年4月以降、米国の電話番号（+1 ダイヤルコードと米国の市外局番で構成される番号）を持つ WhatsApp ユーザーに対するすべてのマーケティングテンプレートメッセージの配信が一時的に停止されました。[詳しくは、Meta ドキュメントを参照してください](https://developers.facebook.com/docs/whatsapp/cloud-api/guides/send-message-templates#per-user-marketing-template-message-limits)。
+* 2025年4月以降、米国の電話番号（+1 ダイヤルコードと米国の市外局番で構成される番号）を持つ WhatsApp ユーザーに対するすべてのマーケティングテンプレートメッセージの配信が一時的に停止されました。 [詳しくは、Meta ドキュメントを参照してください](https://developers.facebook.com/docs/whatsapp/cloud-api/guides/send-message-templates#per-user-marketing-template-message-limits)。
 
 * ネイティブ統合機能では、サードパーティのビジネスサービスプロバイダー（BSP）との統合は許可されていません。
 

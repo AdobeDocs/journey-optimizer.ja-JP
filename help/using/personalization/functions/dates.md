@@ -6,10 +6,19 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: edc040de-dfb3-4ebc-91b4-239e10c2260b
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+TQID: https://experienceleague.adobe.com/J-aZtYitBu8T4oSwTwKNNDeA-7tA4l8Wi5YZ1WLcT3E
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c5ecc28ec44a9c608f4fe5011e061cad62d92e2b
 workflow-type: tm+mt
-source-wordcount: '1419'
-ht-degree: 74%
+source-wordcount: 1762
+ht-degree: 64%
 
 ---
 
@@ -19,7 +28,7 @@ ht-degree: 74%
 
 >[!NOTE]
 >
->`now()` 関数は、パーソナライゼーションエディターでは使用できません。現在の日時の値には、代わりに `getCurrentZonedDateTime()` または `currentTimeInMillis()` を使用します。[詳細情報](../../email/code-content.md#date-time-limitations)
+>`now()` 関数は、パーソナライゼーションエディターでは使用できません。 現在の日時の値には、代わりに `getCurrentZonedDateTime()` または `currentTimeInMillis()` を使用します。 [詳細情報](../../email/code-content.md#date-time-limitations)
 
 ## 日数を追加 {#add-days}
 
@@ -183,7 +192,7 @@ currentDate = 2025-01-07T12:22:46.993748+05:30（アジア／コルカタ）
 
 ## 日付を比較 {#compare-dates}
 
-`compareDates` 関数は、最初の入力日付を他の入力日付と比較します。date1 が date2 と等しい場合は 0 を返し、date1 が date2 より前の場合は -1 を返し、date1 が date2 より後の場合は 1 を返します。
+`compareDates` 関数は、最初の入力日付を他の入力日付と比較します。 date1 が date2 と等しい場合は 0 を返し、date1 が date2 より前の場合は -1 を返し、date1 が date2 より後の場合は 1 を返します。
 
 **構文**
 
@@ -245,15 +254,32 @@ The following operation gets all the keys for the map `identityMap`.
 {%= dateDiff(datetime,datetime) %}
 ```
 
-<!--
-**Example**
++++例 – イベントまでの残り日数
 
-The following operation gets all the values for the map `identityMap`.
+次の操作は、今日からプロファイルに保存されている将来の日付（サブスクリプション終了日やイベント日など）までの日数を返します。
 
 ```sql
-{%= values(identityMap) %}
+{%= dateDiff(getCurrentZonedDateTime(), stringToDate(profile.events.subscriptionEndDate)) %}
 ```
--->
+
++++
+
++++実例：件名のカウントダウン
+
+`dateDiff`を使用して、メールの件名またはコンテンツの動的カウントダウンを構築します。
+
+```handlebars
+{% let daysLeft = dateDiff(getCurrentZonedDateTime(), stringToDate(profile.loyalty.expiryDate)) %}
+{%#if daysLeft > 0%}
+Your points expire in {{daysLeft}} day{%#if daysLeft > 1%}s{%/if%} — use them before they're gone!
+{%else%}
+Your points have expired.
+{%/if%}
+```
+
+出力（例）: `Your points expire in 7 days — use them before they're gone!`
+
++++
 
 ## ある月の日付 {#day-month}
 
@@ -275,7 +301,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## 曜日 {#day-week}
 
-`dayOfWeek` 関数を使用すると、曜日を取得できます。
+`dayOfWeek` 関数を使用すると、曜日を取得できます。 ISO-8601規格に従って、1 （月曜日）から7 （日曜日）までの整数を返します。
 
 **構文**
 
@@ -283,15 +309,33 @@ The following operation gets all the values for the map `identityMap`.
 {%= dayOfWeek(datetime) %}
 ```
 
-<!--
-**Example**
++++例：パーソナライズされたコンテンツでの週末の検出
 
-The following operation gets all the values for the map `identityMap`.
+メールやコンテンツでこの機能を利用して、日に応じてメッセージを適応させます。 PQLの比較演算子は`=`です（`==`ではなく1と等しい）:
 
-```sql
-{%= values(identityMap) %}
+```handlebars
+{%#if dayOfWeek(getCurrentZonedDateTime()) = 6 or dayOfWeek(getCurrentZonedDateTime()) = 7%}
+We're closed on weekends — your request will be processed on the next business day.
+{%else%}
+Our team will get back to you within 24 hours.
+{%/if%}
 ```
--->
+
+| Day | 返された値 |
+|-----|----------------|
+| 月曜日 | 1 |
+| 火曜日 | 2 |
+| 水曜日 | 3 |
+| 木曜日 | 4 |
+| 金曜日 | 5 |
+| 土曜日 | 6 |
+| 日曜日 | 7 |
+
++++
+
+>[!NOTE]
+>
+>`dayOfWeek()`は、**コンテンツのパーソナライゼーション**&#x200B;用に設計されています（例：日に基づいてメール本文テキストを適応させる）。 週の曜日に基づいてジャーニー&#x200B;**でプロファイルを異なる方法で** ルーティングする必要がある場合（待機アクティビティの週末をスキップするなど）、ジャーニーの条件アクティビティで直接利用可能な組み込みの&#x200B;**時間条件→曜日** オプションを使用します。 [詳細情報](../../building-journeys/condition-activity.md#date_condition)
 
 ## 年間通算日{#day-year}
 
@@ -303,15 +347,12 @@ The following operation gets all the values for the map `identityMap`.
 {%= dayOfYear(datetime) %}
 ```
 
-<!--
-**Example**
++++例
 
-The following operation gets all the values for the map `identityMap`.
+* 入力：`{%= dayOfYear(stringToDate("2024-03-15T00:00:00Z")) %}`
+* 出力：`75`
 
-```sql
-{%= values(identityMap) %}
-```
--->
++++
 
 ## 秒数の差異 {#diff-seconds}
 
@@ -364,6 +405,22 @@ The following operation gets all the values for the map `identityMap`.
 
 +++
 
++++実例：現在の時間をHH:MMとしてのみ表示
+
+`extractHours`と`extractMinutes`を組み合わせて、日付、日、年を指定せずに時間部分だけをレンダリングします。
+
+```handlebars
+{% let h = extractHours(getCurrentZonedDateTime()) %}
+{% let m = extractMinutes(getCurrentZonedDateTime()) %}
+Your appointment is confirmed for {{h}}:{%#if m < 10%}0{%/if%}{{m}}.
+```
+
+出力（例）: `Your appointment is confirmed for 14:05.`
+
+先頭のゼロガード （`{%#if m < 10%}0{%/if%}`）は、10分を下回る分を2桁で表示します（例：`9`ではなく`09`）。
+
++++
+
 ## 月数を抽出 {#extract-months}
 
 `extractMonth` 関数は、指定されたタイムスタンプから月コンポーネントを抽出します。
@@ -400,7 +457,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ## 日付を書式設定{#format-date}
 
-`formatDate` 関数を使用すると、日時値を書式設定できます。書式は、有効な Java DateTimeFormat パターンである必要があります。
+`formatDate` 関数を使用すると、日時値を書式設定できます。 書式は、有効な Java DateTimeFormat パターンである必要があります。
 
 **構文**
 
@@ -490,7 +547,7 @@ The following operation gets all the values for the map `identityMap`.
 
 * **タイムスタンプを`toDateTime()`**&#x200B;で折り返します – コンテキストイベントタイムスタンプは、`formatDate()`によって日時の値として自動的に認識されません。
 * **数値イベント IDをバックティック**&#x200B;で折り返します – イベント IDが数値（例：`1697323153`）の場合、エクスプレッション パスでバックティックを使用してエスケープする必要があります。そうしないと、エディターでPQL構文エラーが発生します。
-* **割り当て構文`{% let %}`を使用** — インライン `{%= %}`構文はこのパターンをサポートしていません。 最初に結果を変数に割り当ててから、`{{varName}}`を使用してレンダリングします。
+* **使用`{% let %}`または`{%= %}`構文** – 結果を`{% let %}`の変数に割り当てて`{{varName}}`でレンダリングするか、インライン `{%= %}`構文を直接使用できます。
 
 ```handlebars
 {% let appointmentDate = formatDate(toDateTime(context.journey.events.`1697323153`.timestamp), "dd/MM/yyyy HH:mm") %}
@@ -503,9 +560,9 @@ The following operation gets all the values for the map `identityMap`.
 
 >[!CAUTION]
 >
->**共通エラー：「入力が一致しません&#39;（&#39;は\&lt;EOF\>&quot;**
+>**共通エラー：「入力が一致しません&#39;（&#39;は\&lt;EOF\>&quot;**&#x200B;を必要としています」
 >
->このPQL構文エラーは、コンテキスト イベント タイムスタンプ インライン （`formatDate()`）で`{%= formatDate(...) %}`を使用すると発生します。 最も一般的な原因は、バックティック （`` ` ``）でラップされていない数値イベント ID、または`formatDate()`で最初にラップせずに`toDateTime()`に直接渡されたタイムスタンプフィールドです。 両方の問題を修正するには、上記の例に示す`{% let %}`割り当てパターンを使用します。
+>このPQL構文エラーは、コンテキスト イベント タイムスタンプ インライン （`{%= formatDate(...) %}`）で`formatDate()`を使用すると発生します。 最も一般的な原因は、バックティック （`` ` ``）でラップされていない数値イベント ID、または`toDateTime()`で最初にラップせずに`formatDate()`に直接渡されたタイムスタンプフィールドです。 両方の問題を修正するには、上記の例に示す`{% let %}`割り当てパターンを使用します。
 
 ### パターン文字 {#pattern-characters}
 
@@ -514,7 +571,7 @@ The following operation gets all the values for the map `identityMap`.
 | パターン | 意味 | 例（`2023-12-31T10:15:30Z` の場合） |
 |---------|---------|--------------------------------------|
 | `y` | 暦年（標準年） | `2023` |
-| `Y` | 週ベースの年（ISO 8601）。年の境界で異なる場合があります。 | `2024`（2023年12月31日（PT）は 2024年の最初の週であるので） |
+| `Y` | 週ベースの年（ISO 8601）。 年の境界で異なる場合があります。 | `2024`（2023年12月31日（PT）は 2024年の最初の週であるので） |
 | `M` | 年間通算月（1～12 または `Jan`、`January` のようなテキスト） | `12` または `Dec` |
 | `m` | 分（時間）（0～59） | `15` |
 | `d` | 月間通算日（1～31） | `31` |
@@ -522,7 +579,7 @@ The following operation gets all the values for the map `identityMap`.
 
 ### 日付をロケールサポートの形式にします{#format-date-locale}
 
-`formatDate` 関数は、日付と時刻の値を、目的のロケールなどの対応する言語に依存する表現にフォーマットするのに使用できます。書式は、有効な Java DateTimeFormat パターンである必要があります。
+`formatDate` 関数は、日付と時刻の値を、目的のロケールなどの対応する言語に依存する表現にフォーマットするのに使用できます。 書式は、有効な Java DateTimeFormat パターンである必要があります。
 
 **構文**
 
@@ -626,15 +683,14 @@ The following operation gets all the values for the map `identityMap`.
 {%= setDays(datetime, day) %}
 ```
 
-<!--
-**Example**
++++例
 
-The following operation gets all the values for the map `identityMap`.
+月の日付を1日に設定します。
 
-```sql
-{%= values(identityMap) %}
-```
--->
+* 入力：`{%= setDays(stringToDate("2024-11-15T17:19:51Z"), 1) %}`
+* 出力：`2024-11-01T17:19:51Z`
+
++++
 
 ## 時間を設定{#set-hours}
 
@@ -646,19 +702,32 @@ The following operation gets all the values for the map `identityMap`.
 {%= setHours(datetime, hour) %}
 ```
 
-<!--
-**Example**
++++例 – 日時を特定の時間に設定する
 
-The following operation gets all the values for the map `identityMap`.
+* 入力：`{%= setHours(stringToDate("2024-11-01T17:19:51Z"), 0) %}`
+* 出力：`2024-11-01T00:19:51Z`
+
++++
+
++++実際の例：動的な終了日のX日前
+
+プロファイルに保存されている日付（サブスクリプションの有効期限など）のX日前にプロファイルをターゲットにするには、負の値の`addDays`を使用します。
 
 ```sql
-{%= values(identityMap) %}
+{%= addDays(stringToDate(profile.subscription.endDate), -7) %}
 ```
--->
+
+時間を固定時間（例：午前9時）に標準化するには、`setHours`と組み合わせます。
+
+```sql
+{%= setHours(addDays(stringToDate(profile.subscription.endDate), -7), 9) %}
+```
+
++++
 
 ## 終了時刻 {#to-date-time}
 
-`ToDateTime` 関数は、文字列を日付に変換します。無効な入力に対する出力として、エポック日付を返します。
+`ToDateTime` 関数は、文字列を日付に変換します。 無効な入力に対する出力として、エポック日付を返します。
 
 **構文**
 
@@ -771,15 +840,12 @@ The following operation gets all the values for the map `identityMap`.
 {%= weekOfYear(datetime) %}
 ```
 
-<!--
-**Example**
++++例
 
-The following operation gets all the values for the map `identityMap`.
+* 入力：`{%= weekOfYear(stringToDate("2024-11-01T17:19:51Z")) %}`
+* 出力：`44`
 
-```sql
-{%= values(identityMap) %}
-```
--->
++++
 
 ## 年数の差異 {#diff-years}
 

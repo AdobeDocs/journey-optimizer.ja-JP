@@ -10,10 +10,37 @@ level: Intermediate
 keywords: 選定, イベント, オーディエンス, ジャーニー, プラットフォーム
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+TQID: https://experienceleague.adobe.com/u7riiGWgaQFuiWARJL-Wqh9CcaZ-yH3N6ZRtsvfyN8Y
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2:
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
+  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
+  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
+  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
+  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
+  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1767'
-ht-degree: 63%
+source-wordcount: 1767
+ht-degree: 70%
 
 ---
 
@@ -22,7 +49,7 @@ ht-degree: 63%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
 >title="オーディエンスの選定"
->abstract="プロファイルが[!DNL Adobe Experience Platform] オーディエンスに適格または離脱した場合のトリガージャーニーの開始または継続。 ストリーミングオーディエンス向けの推奨。バッチシナリオには「オーディエンスを読み取り」アクティビティを使用します。"
+>abstract="プロファイルが [!DNL Adobe Experience Platform] オーディエンスに適合または離脱した際に、ジャーニーの開始または継続をトリガーします。 ストリーミングのオーディエンス向けに推奨されます。バッチシナリオの場合は、オーディエンスを読み取りアクティビティを使用します。"
 
 ## オーディエンスの選定イベントについて{#about-segment-qualification}
 
@@ -47,28 +74,28 @@ ht-degree: 63%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_label"
 >title="ラベル"
->abstract="レポートモードとテストモードのログでこのアクティビティを識別するためのオプションのラベルを追加します。"
+>abstract="レポートモードとテストモードのログでアクティビティを識別するオプションのラベルを追加します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_audience"
 >title="オーディエンス"
->abstract="活用する[!DNL Adobe Experience Platform] オーディエンスを選択します。 ジャーニーは、プロファイルの出入りをリッスンします。"
+>abstract="活用する [!DNL Adobe Experience Platform] オーディエンスを選択します。 ジャーニーは、プロファイルのエントリや離脱をリッスンします。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_behavior"
 >title="動作"
->abstract="オーディエンスの出入りをリッスンするかどうかを選択します。"
+>abstract="オーディエンスへのエントリ、離脱またはその両方をリッスンするかどうかを選択します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_identity"
 >title="ID タイプ"
->abstract="個人の識別に使用するID タイプを選択します。 個人ベースのID名前空間のみが使用できます。"
+>abstract="個人の識別に使用される ID タイプを選択します。 人物ベースの ID 名前空間のみを使用できます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_merge_policy"
 >title="結合ポリシー"
->abstract="結合ポリシーは、選択したオーディエンスから自動的に取得され、ジャーニー全体に適用されます。"
->additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties#merge-policies" text="結合ポリシーについて詳しく見る"
+>abstract="結合ポリシーは、選択したオーディエンスから自動的に取得され、ジャーニー全体を通じて適用されます。"
+>additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-properties#merge-policies" text="詳しくは、結合ポリシーを参照してください"
 
 
 1. **[!UICONTROL イベント]**&#x200B;カテゴリを展開し、**[!UICONTROL オーディエンスの選定]**&#x200B;アクティビティをキャンバスにドロップします。

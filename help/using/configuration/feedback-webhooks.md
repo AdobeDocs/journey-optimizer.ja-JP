@@ -7,17 +7,29 @@ feature: Channel Configuration
 topic: Administration
 role: Admin
 level: Experienced
-source-git-commit: be07b0dfec31d23f741bfc2a9f89fe1a7891ef0b
+exl-id: a46f29a4-5115-4feb-8b2c-751765be2b36
+TQID: https://experienceleague.adobe.com/RPopgwZfOcaw-uHvqVnforixMTAH57urwF2ViaZQemQ
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: 302
 ht-degree: 100%
 
 ---
 
-
 # API トリガーキャンペーン用のフィードバック Webhook の作成 {#webhooks}
 
-フィードバック Webhook を使用すると、トランザクション API トリガーキャンペーンを通じて送信されたメッセージに対して、リアルタイムのステータス更新を受け取ることができます。Webhook を設定すると、配信の結果をシステムに直接自動的に受信できるようになり、監視、ログ記録、自動処理が可能になります。
+フィードバック Webhook を使用すると、トランザクション API トリガーキャンペーンを通じて送信されたメッセージに対して、リアルタイムのステータス更新を受け取ることができます。 Webhook を設定すると、配信の結果をシステムに直接自動的に受信できるようになり、モニタリング、ログ記録、自動処理が可能になります。
 
 Webhook 設定は、**[!UICONTROL 管理]**／**[!UICONTROL チャネル]**／**[!UICONTROL フィードバック Webhook 設定]**&#x200B;メニューから管理できます。
 
@@ -57,7 +69,7 @@ Webhook を作成するには、次の手順に従います。
 
 >[!NOTE]
 >
->Webhook はいつでも編集できます。これを行うには、インベントリから開き、「**[!UICONTROL 編集]**」ボタンをクリックします。
+>Webhook はいつでも編集できます。 これを行うには、インベントリから開き、「**[!UICONTROL 編集]**」ボタンをクリックします。
 
 ## Webhook ペイロード構造
 
@@ -115,4 +127,4 @@ Webhook は、次のイベントをキャプチャできます。
 
 ## 次の手順 {#next}
 
-フィードバック Webhook が作成されると、**トランザクション API トリガーキャンペーン**&#x200B;オーディエンスを設定する際にそれを有効にすることができます。詳しくは、[Webhook の有効化](../campaigns/api-triggered-campaign-audience.md#webhook)の節を参照してください
+フィードバック Webhook が作成されると、**トランザクション API トリガーキャンペーン**&#x200B;オーディエンスを設定する際にそれを有効にすることができます。 詳しくは、[Webhook の有効化](../campaigns/api-triggered-campaign-audience.md#webhook)の節を参照してください

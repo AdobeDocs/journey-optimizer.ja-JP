@@ -9,24 +9,35 @@ level: Experienced
 keywords: ジャーニー, フィールド, 式, イベント
 exl-id: 2348646a-b205-4b50-a08f-6625e92f44d7
 version: Journey Orchestration
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: ht
-source-wordcount: '558'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/G8ooc1R2PwL06V89EBs-jH8Lf43F6q5xj3I4Wl6hDHk
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+workflow-type: tm+mt
+source-wordcount: 557
+ht-degree: 98%
 
 ---
 
 # フィールド参照 {#field-references}
 
-フィールド参照は、イベントまたはフィールドグループに添付できます。意味のある情報は、フィールドの名前とパスだけです。
+フィールド参照は、イベントまたはフィールドグループに添付できます。 意味のある情報は、フィールドの名前とパスだけです。
 
-フィールドに特殊文字を使用する場合は、二重または一重の引用符を使用する必要があります。次のような場合には引用符が必要です。
+フィールドに特殊文字を使用する場合は、二重または一重の引用符を使用する必要があります。 次のような場合には引用符が必要です。
 
 * フィールドが数字で始まる
 * フィールドが「-」文字で始まる
 * フィールドに _a_～_z_、_A_～_Z_、_0_～_9_、_、_-_ 以外の文字が含まれる
 
-例えば、フィールドが _3h_: _#{OpenWeather.weatherData.rain.&#39;3h&#39;} > 0_ の場合
+例えば、フィールドが&#x200B;_3h_&#x200B;の場合：_#{OpenWeather.weatherData.rain.&#39;3h&#39;} > 0_
 
 ```json
 // event field
@@ -44,7 +55,7 @@ ht-degree: 100%
 
 ## フィールド参照のデフォルト値 {#default-value}
 
-デフォルト値をフィールド名に関連付けることができます。構文は以下のとおりです。
+デフォルト値をフィールド名に関連付けることができます。 構文は以下のとおりです。
 
 ```json
 // event field
@@ -57,7 +68,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->フィールドとデフォルト値のタイプは同じにする必要があります。例えば、想定される値が文字列であるのに対し、デフォルト値が整数であるため、`@event{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2}` は無効になります。
+>フィールドとデフォルト値のタイプは同じにする必要があります。 例えば、想定される値が文字列であるのに対し、デフォルト値が整数であるため、`@event{LobbyBeacon.endUserIDs._experience.emailid.id, defaultValue : 2}` は無効になります。
 
 例：
 
@@ -91,7 +102,7 @@ expression examples:
 - #{ACP.Profile.person.age}                      -> null
 ```
 
-任意の種類の式をデフォルト値として追加できます。唯一の制約は、期待されるデータ型を、式が返す必要があるということです。関数を使用する場合は、() で関数をカプセル化する必要があります。
+任意の種類の式をデフォルト値として追加できます。 唯一の制約は、期待されるデータタイプを、式が返す必要があるということです。 関数を使用する場合は、() で関数をカプセル化する必要があります。
 
 ```
 #{ExperiencePlatform.Subscriptions.profile.consents.marketing.any.time, defaultValue : (now())} 
@@ -100,7 +111,7 @@ expression examples:
 
 ## コレクション内のフィールドへの参照
 
-コレクション内で定義された要素は、特定の関数 `all`、`first` および `last` を使用して参照します。詳しくは、[このページ](../expression/collection-management-functions.md)を参照してください。
+コレクション内で定義された要素は、特定の関数 `all`、`first` および `last` を使用して参照します。 詳しくは、[このページ](../expression/collection-management-functions.md)を参照してください。
 
 例：
 
@@ -112,13 +123,13 @@ expression examples:
 
 ### `entry` 関数
 
-マップ内の要素を取得するには、指定のキーで entry 関数を使用します。例えば、イベントのキーを定義する際に、選択した名前空間に応じて使用します。詳しくは、[このページ](../../event/about-creating.md#select-the-namespace)を参照してください。
+マップ内の要素を取得するには、指定のキーで entry 関数を使用します。 例えば、イベントのキーを定義する際に、選択した名前空間に応じて使用します。 詳しくは、[このページ](../../event/about-creating.md#select-the-namespace)を参照してください。
 
 ```json
 @event{MyEvent.identityMap.entry('Email').first().id}
 ```
 
-この式では、イベントの「IdentityMap」フィールドの「Email」キーのエントリを取得しています。「Email」エントリはコレクションであり、そこから「first()」を使用して最初の要素の「id」を取得します。詳しくは、[このページ](../expression/collection-management-functions.md)を参照してください。
+この式では、イベントの「IdentityMap」フィールドの「Email」キーのエントリを取得しています。 「Email」エントリはコレクションであり、そこから「first()」を使用して最初の要素の「id」を取得します。 詳しくは、[このページ](../expression/collection-management-functions.md)を参照してください。
 
 ### `firstEntryKey` 関数
 
@@ -130,7 +141,7 @@ expression examples:
 #{ExperiencePlatform.Subscriptions.profile.consents.marketing.email.subscriptions.entry('daily-email').subscribers.firstEntryKey()}
 ```
 
-この例では、サブスクリプションリストの名前は `daily-email` です。メールアドレスは `subscribers` マップのキーとして定義され、サブスクリプションリストマップにリンクされています。
+この例では、サブスクリプションリストの名前は `daily-email` です。 メールアドレスは、`subscribers` マップでキーとして定義されています。このマップはサブスクリプションリストマップにリンクされています。
 
 ### `keys` 関数
 
@@ -144,9 +155,9 @@ expression examples:
 
 ## データソースのパラメーター値（データソースの動的な値）
 
-パラメーターの呼び出しが必要な外部データソースからフィールドを選択すると、新しいタブが右側に表示され、そのパラメーターを指定できます。[このページ](../expression/expressionadvanced.md)を参照してください。
+パラメーターの呼び出しが必要な外部データソースからフィールドを選択すると、新しいタブが右側に表示され、そのパラメーターを指定できます。 [このページ](../expression/expressionadvanced.md)を参照してください。
 
-より複雑なユースケースの場合、データソースのパラメーターをメイン式に含めるには、_params_ キーワードを使用して、そのパラメーター値を定義できます。パラメーターは有効な式であれば、別のパラメーターも含む別のデータソースの式でも構いません。
+より複雑なユースケースの場合、データソースのパラメーターをメイン式に含めるには、_params_ キーワードを使用して、そのパラメーター値を定義できます。 パラメーターは有効な式であれば、別のパラメーターも含む別のデータソースの式でも構いません。
 
 >[!NOTE]
 >
@@ -159,7 +170,7 @@ expression examples:
 ```
 
 * **`<params-1-name>`**：データソースに存在する最初のパラメーターの正確な名前。
-* **`<params-1-value>`**：最初のパラメーターの値。任意の有効な式を指定できます。
+* **`<params-1-value>`**：最初のパラメーターの値。 任意の有効な式を指定できます。
 
 例：
 

@@ -5,10 +5,11 @@ feature: Content Cards
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: d84cc0f4d9226876e55e37409a685550fe0c9050
+exl-id: 7d650278-4a62-4666-b8d7-f0b79ec527ea
+source-git-commit: e53edd0f6f17f5b764075f61600294b91a020421
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 44%
+source-wordcount: '288'
+ht-degree: 31%
 
 ---
 
@@ -22,9 +23,9 @@ ht-degree: 44%
 
 1. 実行するキャンペーンのタイプを選択します。
 
-   * **[!UICONTROL Scheduled - Marketing]**：キャンペーンをすぐに実行するか、指定日に実行します。スケジュール済みキャンペーンは、**マーケティング**&#x200B;メッセージを送信することを目的としています。ユーザーインターフェイスから設定および実行します。
+   * **[!UICONTROL Scheduled - Marketing]**：キャンペーンをすぐに実行するか、指定日に実行します。 スケジュール済みキャンペーンは、**マーケティング**&#x200B;メッセージを送信することを目的としています。 ユーザーインターフェイスから設定および実行します。
 
-   * **[!UICONTROL API トリガー - マーケティング／トランザクション]**：API 呼び出しを使用してキャンペーンを実行します。API トリガーキャンペーンは、**マーケティング**&#x200B;メッセージまたは&#x200B;**トランザクション**&#x200B;メッセージのいずれか、つまり、個人が実行したアクション（パスワードのリセット、買い物かごの購入など）に続いて送信されるメッセージを送信することを目的としています。[詳しくは、API を使用してキャンペーンをトリガーする方法について参照してください。](../campaigns/api-triggered-campaigns.md)
+   * **[!UICONTROL API トリガー - マーケティング／トランザクション]**：API 呼び出しを使用してキャンペーンを実行します。 API トリガー型のキャンペーンは、**マーケティング**&#x200B;または&#x200B;**トランザクション**&#x200B;のメッセージ、つまり個人が実行したアクションに続いて送信されるメッセージ（パスワードのリセット、買い物かごの購入など）の送信を目的としています。[APIを使用してキャンペーンをトリガーする方法を説明](../campaigns/api-triggered-campaigns.md)
 
 1. 「**[!UICONTROL プロパティ]**」タブで、キャンペーンの名前と説明を指定します。
 
@@ -40,9 +41,9 @@ ht-degree: 44%
 
 1. 「**[!UICONTROL オーディエンス]**」タブで、「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックして、使用可能なAdobe Experience Platform オーディエンスのリストを表示します。 [詳しくは、オーディエンスを参照してください](../audience/about-audiences.md)
 
-1. 「**[!UICONTROL ID 名前空間]**」フィールドで、選択したセグメントから個人を識別するために使用する名前空間を選択します。[詳しくは、名前空間を参照してください](../event/about-creating.md#select-the-namespace)
+1. 「**[!UICONTROL ID 名前空間]**」フィールドで、選択したセグメントから個人を識別するために使用する名前空間を選択します。 [詳しくは、名前空間を参照してください](../event/about-creating.md#select-the-namespace)
 
-1. キャンペーンを特定の日付にスケジュールすることや、定期的に繰り返すように設定することができます。[詳細情報](../campaigns/create-campaign.md#schedule)
+1. キャンペーンを特定の日付にスケジュールすることや、定期的に繰り返すように設定することができます。 [詳細情報](../campaigns/create-campaign.md#schedule)
 
 1. キャンペーンを確認し、アクティブ化して、受信トレイにメッセージを送信します。
 

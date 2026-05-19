@@ -9,16 +9,35 @@ role: Developer, Admin
 level: Intermediate
 keywords: Marketo、Marketo Engage 統合
 exl-id: 70d1ef5a-743b-4362-bb65-93a8c996209f
-source-git-commit: bdf857c010854b7f0f6ce4817012398e74a068d5
-workflow-type: ht
-source-wordcount: '325'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/-aRINahKmp9bI1tyW-XA-LzZOFeoEPXpWoH8JydG6Rk
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+workflow-type: tm+mt
+source-wordcount: 326
+ht-degree: 96%
 
 ---
 
 # Marketo Engage との統合 {#integrating-with-marketo-engage}
 
-Marketo Engage とのシームレスなデータ統合のジャーニーを開始しましょう。Adobe Journey Optimizer と Marketo Engage を統合するための特定のカスタムアクションがジャーニーで使用できます。このカスタムアクションは、次の 2 つの主要なデータタイプの取り込みをサポートしています。
+Marketo Engage とのシームレスなデータ統合のジャーニーを開始しましょう。 Adobe Journey Optimizer と Marketo Engage を統合するための特定のカスタムアクションがジャーニーで使用できます。 このカスタムアクションは、次の 2 つの主要なデータタイプの取り込みをサポートしています。
 
 * **ユーザー**（プロファイル）：Marketo では、プロファイルを実用的なインサイトに変換します。
 * **カスタムオブジェクト**：製品などのカスタムオブジェクトをデータを調整し、パーソナライズされたマーケティングアプローチを実現します。
@@ -34,11 +53,11 @@ Marketo Engage とのシームレスなデータ統合のジャーニーを開�
 ## アクションの設定 {#configure-marketo-action}
 
 
-Journey Optimizer では、Marketo Engage のカスタムアクションを設定する必要があります。次の手順に従います。
+Journey Optimizer では、Marketo Engage のカスタムアクションを設定する必要があります。 次の手順に従います。
 
 1. 「管理」メニューセクションで「**[!UICONTROL 設定]**」を選択します。
-1. 「**[!UICONTROL アクション]**」セクションで、「**[!UICONTROL アクションを作成]**」をクリックします。画面の右側にアクション設定パネルが開きます。
-1. 名前、説明を入力し、**アクションタイプ**&#x200B;として「**Adobe Marketo Engage**」を選択します。
+1. 「**[!UICONTROL アクション]**」セクションで、「**[!UICONTROL アクションを作成]**」をクリックします。 画面の右側にアクション設定パネルが開きます。
+1. 名前、説明を入力し、**Adobe Marketo Engage**&#x200B;を&#x200B;**アクションタイプとして選択します**
    ![](assets/engage-customaction-creation.png){width="40%" align="left"}
 1. **リクエスト**&#x200B;および&#x200B;**応答**&#x200B;ペイロードの&#x200B;**ペイロードを編集**&#x200B;アイコンをクリックします。
 1. どちらの場合も、ペイロードを作成し、専用のポップアップに貼り付けます。

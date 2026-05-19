@@ -8,10 +8,27 @@ topic: Content Management
 role: User
 level: Intermediate
 exl-id: d2ff175a-8bca-4b62-931c-a909cfd9308d
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+TQID: https://experienceleague.adobe.com/xxARWBrCc61gvHReQfoliwB378PrDbsxM8ONSHrg9a4
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2:
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '1327'
-ht-degree: 100%
+source-wordcount: 1441
+ht-degree: 99%
 
 ---
 
@@ -27,9 +44,9 @@ ht-degree: 100%
 
 すべてのレポートで利用できる **[!UICONTROL CJA での分析]**&#x200B;を活用することで、**[!DNL Customer Journey Analytics]** ライセンスを使用したデータ分析エクスペリエンスを強化します。
 
-この強力なオプションにより、**[!DNL Customer Journey Analytics]** 環境にシームレスにリダイレクトされ、レポートを幅広くカスタマイズできるようになります。専用の Customer Journey Analytics 指標を使用してウィジェットを強化し、まったく新しいレベルのインサイトを得ることができます。
+この強力なオプションにより、**[!DNL Customer Journey Analytics]** 環境にシームレスにリダイレクトされ、レポートを幅広くカスタマイズできるようになります。 専用の Customer Journey Analytics 指標を使用してウィジェットを強化し、まったく新しいレベルのインサイトを得ることができます。
 
-[詳しくは、Customer Journey Analytics インターフェイスを参照してください。](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-getting-started)
+[Customer Journey Analyticsインターフェイスについて詳しく見る。](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-getting-started)
 
 ## レポート期間の定義 {#report-period}
 
@@ -37,7 +54,7 @@ ht-degree: 100%
 
 レポートにアクセスする際に、レポートの右上隅にある期間フィルターを適用できます。
 
-デフォルトでは、キャンペーンまたはジャーニーのフィルター期間は、開始日と終了日に設定されています。終了日がない場合、フィルターはデフォルトで現在の日付になります。
+デフォルトでは、キャンペーンまたはジャーニーのフィルター期間は、開始日と終了日に設定されています。 終了日がない場合、フィルターはデフォルトで現在の日付になります。
 
 フィルターを変更するには、カスタムの開始日と期間を選択するか、先週または 2 か月前などのプリセットオプションから選択します。
 
@@ -45,7 +62,7 @@ ht-degree: 100%
 
 ## レポートをエクスポート {#export-reports}
 
-様々なレポートを PDF 形式または CSV 形式で簡単にエクスポートして、共有したり印刷したりできます。レポートのエクスポート手順について詳しくは、次のタブを参照してください。
+様々なレポートを PDF 形式または CSV 形式で簡単にエクスポートして、共有したり印刷したりできます。 レポートのエクスポート手順について詳しくは、次のタブを参照してください。
 
 >[!BEGINTABS]
 
@@ -78,7 +95,7 @@ ht-degree: 100%
 
 ## エクスポートのスケジュール {#schedule-export}
 
-**エクスポートのスケジュール**&#x200B;を使用すると、最大 10 件のレポートを毎週、毎月、毎年の間隔で自動配信できます。また、定期エクスポートを更新、編集、キャンセル、削除するオプションを使用して、定期レポートを簡単に管理することもできます。
+**エクスポートのスケジュール**&#x200B;を使用すると、最大 10 件のレポートを毎週、毎月、毎年の間隔で自動配信できます。 また、定期エクスポートを更新、編集、キャンセル、削除するオプションを使用して、定期レポートを簡単に管理することもできます。
 
 1. レポートで、「**[!UICONTROL 共有]**」をクリックし、「**[!UICONTROL エクスポートのスケジュール]**」を選択します。
 
@@ -123,21 +140,21 @@ ht-degree: 100%
 
 ## シンプルな指標の作成 {#create-simple-metric}
 
-カスタム計算指標をレポート内に直接作成できます。特定のレポートニーズに合わせて 2 つの既存の指標を組み合わせることで、よりカスタマイズされたインサイトを生成し、データをより適切に分析できます。
+カスタム計算指標をレポート内に直接作成できます。 特定のレポートニーズに合わせて 2 つの既存の指標を組み合わせることで、よりカスタマイズされたインサイトを生成し、データをより適切に分析できます。
 
 1. まず、新しい指標を追加するレポートにアクセスします。
 
-1. レポート内のテーブルで、`Shift` キーまたは `CTRL/CMD` キーを押しながらクリックして、必要な指標を選択します。次に、右クリックして「**[!UICONTROL 選択から指標を作成]**」を選択します。
+1. レポート内のテーブルで、`Shift` キーまたは `CTRL/CMD` キーを押しながらクリックして、必要な指標を選択します。 次に、右クリックして「**[!UICONTROL 選択から指標を作成]**」を選択します。
 
    2 つ以上の指標を選択した場合、指標ビルダーでは最初の 2 つのみが使用されます。
 
    ![](assets/cja-create-metric_2.png)
 
-1. 計算指標ビルダーから、「**[!UICONTROL タイトル]**」フィールドに入力して、新しい指標に名前を付けます。また、**[!UICONTROL 説明]**&#x200B;を追加することもできます。
+1. 計算指標ビルダーから、「**[!UICONTROL タイトル]**」フィールドに入力して、新しい指標に名前を付けます。 また、**[!UICONTROL 説明]**&#x200B;を追加することもできます。
 
    >[!NOTE]
    >
-   >Customer Journey Analytics を所有する場合は、追加オプションを使用して、指標をさらにパーソナライズできます。[詳細情報](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-build-metrics#areas-of-the-calculated-metrics-builder)
+   >Customer Journey Analytics を所有する場合は、追加オプションを使用して、指標をさらにパーソナライズできます。 [詳細情報](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-build-metrics#areas-of-the-calculated-metrics-builder)
 
 1. 適切な&#x200B;**[!UICONTROL 小数点以下の桁数]**&#x200B;を選択し、目的の指標の表示方法に応じて、**[!UICONTROL 形式]**（小数、時間、割合、通貨）を選択します。
 
@@ -153,11 +170,11 @@ ht-degree: 100%
 
    ![](assets/cja-create-metric_3.png)
 
-新しく作成した指標は、レポートを PDF または CSV としてエクスポートする際に含まれます。ただし、終了すると、レポートから削除されます。
+新しく作成した指標は、レポートを PDF または CSV としてエクスポートする際に含まれます。 ただし、終了すると、レポートから削除されます。
 
 ## インサイトビルダーによるデータの探索 {#exploratory}
 
-インサイトビルダーツールを使用すると、選択した&#x200B;**[!UICONTROL ディメンション]**&#x200B;と&#x200B;**[!UICONTROL 指標]**&#x200B;からテーブルとビジュアライゼーションを簡単に作成できます。このツールは、データの探索を効率化し、情報を自動的にカスタマイズして、簡単に分析できるようにします。詳しくは、[このドキュメント](https://experienceleague.adobe.com/ja/docs/analytics/analyze/analysis-workspace/panels/quickinsight)を参照してください。
+インサイトビルダーツールを使用すると、選択した&#x200B;**[!UICONTROL ディメンション]**&#x200B;と&#x200B;**[!UICONTROL 指標]**&#x200B;からテーブルとビジュアライゼーションを簡単に作成できます。 このツールは、データの探索を効率化し、情報を自動的にカスタマイズして、簡単に分析できるようにします。 詳しくは、[このドキュメント](https://experienceleague.adobe.com/ja/docs/analytics/analyze/analysis-workspace/panels/quickinsight)を参照してください。
 
 1. まず、インサイトビルダーを使用するレポートにアクセスします。
 
@@ -165,11 +182,11 @@ ht-degree: 100%
 
    ![](assets/exploratory_analysis_1.png)
 
-1. ドロップダウンメニューを使用して&#x200B;**[!UICONTROL ディメンション]**&#x200B;と&#x200B;**[!UICONTROL 指標]**&#x200B;を選択して、クエリを作成します。必要に応じて、**[!UICONTROL セグメント]**&#x200B;を選択することもできます。
+1. ドロップダウンメニューを使用して&#x200B;**[!UICONTROL ディメンション]**&#x200B;と&#x200B;**[!UICONTROL 指標]**&#x200B;を選択して、クエリを作成します。 必要に応じて、**[!UICONTROL セグメント]**&#x200B;を選択することもできます。
 
    ![](assets/exploratory_analysis_2.png)
 
-1. 分析の日付範囲を定義して、焦点を当てる期間を指定します。デフォルトでは、日付範囲はレポートパネルで使用される範囲に設定されます。
+1. 分析の日付範囲を定義して、焦点を当てる期間を指定します。 デフォルトでは、日付範囲はレポートパネルで使用される範囲に設定されます。
 
 1. 「**[!UICONTROL 分類を追加]**」オプションまたは「**[!UICONTROL 指標を追加]**」オプションを使用して追加のディメンションを含めると、より詳細なデータの分類ができるようになります。
 
@@ -193,8 +210,8 @@ d. Open the report for the journey that you added the metric to and ensure that 
 
 >[!IMPORTANT]
 >
->各組織では、オーディエンスの公開が 25 個に制限されています。また、ユーザーは 1 時間あたり最大 5 個、1 日あたり最大 20 個のオーディエンスを公開できます。
-> 1 回限りのオーディエンスの有効期間は 48 時間です。したがって、その期間内に 25 個のオーディエンスが公開された場合、追加のオーディエンスは、48 時間が経過した後でのみ公開できます。
+>各組織では、オーディエンスの公開が 25 個に制限されています。 また、ユーザーは 1 時間あたり最大 5 個、1 日あたり最大 20 個のオーディエンスを公開できます。
+> 1 回限りのオーディエンスの有効期間は 48 時間です。 したがって、その期間内に 25 個のオーディエンスが公開された場合、追加のオーディエンスは、48 時間が経過した後でのみ公開できます。
 
 テーブル内の特定のデータを選択し、これらの選択からオーディエンスを直接作成できるので、オーディエンス作成プロセスが効率化および簡素化されました。
 
@@ -208,17 +225,17 @@ d. Open the report for the journey that you added the metric to and ensure that 
 
    >[!NOTE]
    >
-   >Customer Journey Analytics を所有する場合は、追加オプションを使用して、指標をさらにパーソナライズできます。[詳細情報](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-components/audiences/publish)
+   >Customer Journey Analytics を所有する場合は、追加オプションを使用して、指標をさらにパーソナライズできます。 [詳細情報](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-components/audiences/publish)
 
    ![](assets/audience_1.png)
 
-1. 「**[!UICONTROL 作成]**」ボタンをクリックして、オーディエンスの作成を完了します。このプロセスは、完了するまでに時間がかかる場合があります。
+1. 「**[!UICONTROL 作成]**」ボタンをクリックして、オーディエンスの作成を完了します。 このプロセスは、完了するまでに時間がかかる場合があります。
 
 新しく作成したオーディエンスをジャーニーまたはキャンペーンで使用できるようになりました。
 
 ## テンプレートの管理 {#cja-template}
 
-Customer Journey Analytics テンプレートを活用して Journey Optimizer レポートを強化するオプションが追加されました。[Customer Journey Analytics テンプレートについての詳細情報](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/templates/use-templates#use-reports)
+Customer Journey Analytics テンプレートを活用して Journey Optimizer レポートを強化するオプションが追加されました。 [Customer Journey Analytics テンプレートについての詳細情報](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/templates/use-templates#use-reports)
 
 レポートにアクセスする際は、**[!UICONTROL テンプレートを選択]**&#x200B;ドロップダウンから次の 2 つのテンプレートタイプを選択できます。
 
@@ -231,23 +248,23 @@ Customer Journey Analytics テンプレートを活用して Journey Optimizer �
 
 テンプレートを作成するには、次の手順に従います。
 
-1. [!DNL Customer Journey Analytics] で、**[!UICONTROL ワークスペース]**&#x200B;メニューに移動し、「**[!UICONTROL Adobe テンプレート]**」を選択します。[詳しくは、使用可能なテンプレートを参照してください](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/templates/use-templates#available-templates)
+1. [!DNL Customer Journey Analytics] で、**[!UICONTROL ワークスペース]**&#x200B;メニューに移動し、「**[!UICONTROL Adobe テンプレート]**」を選択します。 [詳しくは、使用可能なテンプレートを参照してください](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/templates/use-templates#available-templates)
 
 1. 使用可能な事前定義済みテンプレートを参照し、「**[!UICONTROL テンプレートを使用]**」をクリックして選択します。
 
    ![](assets/cja_template_1.png)
 
-1. ニーズに合わせてレポートを調整します。[Customer Journey Analytics ドキュメント](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/home)を参照してください。
+1. ニーズに合わせてレポートを調整します。 [Customer Journey Analytics ドキュメント](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/home)を参照してください。
 
 1. カスタムテンプレートが完成したら、**[!UICONTROL プロジェクト]**&#x200B;メニューにアクセスし、「**[!UICONTROL テンプレートとして保存]**」を選択します。
 
    ![](assets/cja_template_2.png)
 
-1. テンプレートに必要な詳細を入力します。詳しくは、[Customer Journey Analytics ドキュメント](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/templates/create-templates#edit-or-delete-a-template)を参照してください。
+1. テンプレートに必要な詳細を入力します。 詳しくは、[Customer Journey Analytics ドキュメント](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/templates/create-templates#edit-or-delete-a-template)を参照してください。
 
    >[!IMPORTANT]
    >
-   > 必ず、**[!UICONTROL ユースケース]**&#x200B;の下で「**Journey Optimizer**」を選択し、対応する **Journey Optimizer アクティビティタイプ**&#x200B;と&#x200B;**アクティビティ**&#x200B;を指定してください。これにより、Journey Optimizer でレポートを表示できます。
+   > 必ず、**[!UICONTROL ユースケース]**&#x200B;の下で「**Journey Optimizer**」を選択し、対応する **Journey Optimizer アクティビティタイプ**&#x200B;と&#x200B;**アクティビティ**&#x200B;を指定してください。 これにより、Journey Optimizer でレポートを表示できます。
 
    ![](assets/cja_template_3.png)
 

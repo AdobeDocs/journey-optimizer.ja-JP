@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
-title: コレクションの検索
-description: コレクションは、マーケターが事前に定義した条件（オファーのカテゴリなど）に基づくオファーのサブセットです。
+title: コレクションを検索
+description: コレクションは、オファーのカテゴリなど、マーケターが定義した定義済みの条件に基づくオファーのサブセットです。
 feature: Decision Management, API, Collections
 badge: label="レガシー" type="Informative"
 topic: Integrations
@@ -10,37 +10,47 @@ role: Developer
 level: Experienced
 exl-id: 91317c46-d8b6-456e-8282-aef1169941af
 version: Journey Orchestration
-source-git-commit: 0b6d41fad9715985ec6418cdda27760f977bbc47
+TQID: https://experienceleague.adobe.com/xrPunLrH7qiFNVM4mznVAIJS6rBTIQ0q1iiEwvQgbX4
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 100%
+source-wordcount: 194
+ht-degree: 0%
 
 ---
 
-# コレクションの検索 {#look-up-collection}
+# コレクションを検索 {#look-up-collection}
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../../../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer]の新しい決定機能である決定機能が、コードベースのエクスペリエンスとメールチャネルで利用できるようになりました。 [詳細情報](../../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
-コレクションは、マーケターが事前に定義した条件（オファーのカテゴリなど）に基づくオファーのサブセットです。
+コレクションは、オファーのカテゴリなど、マーケターが定義した定義済みの条件に基づくオファーのサブセットです。
 
-[!DNL Offer Library] API に対してリクエストパスにコレクションの `@id` または名前を含む GET リクエストを実行することで、特定のコレクションを検索できます。
+コレクション `@id`またはリクエストパス内のコレクションの名前を含む[!DNL Offer Library] APIにGET リクエストを行うことで、特定のコレクションを検索できます。
 
-**API 形式**
+**API形式**
 
 ```http
 GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_FILTER}&{QUERY_PARAMS}
 ```
 
-| パラメーター | 説明 | 例 |
+| パラメーター | 効果 | 例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | リポジトリ API のエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{ENDPOINT_PATH}` | リポジトリ APIのエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
 | `{CONTAINER_ID}` | コレクションが配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_FILTER}` | コレクションに関連付けられたスキーマを定義します。 | `https://ns.adobe.com/experience/offer-management/offer-filter;version=0.1` |
-| `id` | エンティティの `@id` プロパティとマッチするために使用される文字列。文字列は完全にマッチされます。パラメーター `id` と `name` は一緒に使用できません。 | `xcore:offer-filter:124bd44648f17ec1` |
-| `name` | エンティティの xdm:name プロパティと一致させるのに使用される文字列。文字列は大文字と小文字を区別して完全にマッチされますが、ワイルドカード文字を使用することもできます。パラメーター `id` と `name` は一緒に使用できません。 | `Mobile demo` |
+| `id` | エンティティの`@id` プロパティに一致するために使用される文字列。 文字列が正確に一致します。 パラメーター`id`と`name`は同時に使用できません。 | `xcore:offer-filter:124bd44648f17ec1` |
+| `name` | エンティティのxdm:name プロパティに一致するために使用される文字列。 文字列は大文字と小文字が正確に一致しますが、ワイルドカード文字を使用できます。 パラメーター`id`と`name`は同時に使用できません | `Mobile demo` |
 
 **リクエスト**
 
@@ -56,7 +66,7 @@ curl -X GET \
 
 **応答**
 
-正常な応答では、コレクションに関するプレースメントの詳細（コンテナ ID、インスタンス ID、一意のコレクション `@id` に関する情報を含む）が返されます。
+応答が成功すると、コンテナ ID、インスタンス ID、一意のコレクション `@id`に関する情報を含む、プレースメントの詳細が返されます。
 
 ```json
 {

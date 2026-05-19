@@ -8,10 +8,10 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 4b514dea522be3648542a868be7c26b63715a1ff
+source-git-commit: 258d22c6b95db138e927d96f04215c0623e53913
 workflow-type: tm+mt
-source-wordcount: '7447'
-ht-degree: 96%
+source-wordcount: '7777'
+ht-degree: 92%
 
 ---
 
@@ -20,6 +20,20 @@ ht-degree: 96%
 このページでは、毎月のリリースの機能と改善点に関連する更新に加えて、[!DNL Journey Optimizer] ドキュメントの最新の変更点をすべて一覧表示しています。
 
 ## 2026年5月 {#may-2026}
+
+* **Deeplinks** ドキュメントが拡張され、新しい&#x200B;**Authoring deeplinks** セクションに、メールで使用できる2つのオプション（メール Designer UIとPersonalization エディターコード）とSMSのURL関数構文の詳細が追加されました。 **SMS メッセージの作成** ページに、コンテンツ作成フローの詳細ステップが含まれるようになりました。 [詳細情報](../email/deeplinks.md)
+
+* **Url** ヘルパー参照が更新され、Personalization ドキュメントの専用セクションが追加されました。 [詳細情報](../personalization/functions/helpers.md#url)
+
+* 新しい&#x200B;**Personalization レシピ** ページが追加され、Journey Optimizerの最も一般的なユースケースに、すぐに使用できるパーソナライゼーションパターンが提供されました。 日付と時刻のレシピ（現在の日付の書式設定、有効期限までのカウントダウン、日前の計算、時間のみの表示、週末と平日の検出の比較）、文字列のレシピ（変数の割り当てで`replaceAll`を使用）、条件付きフォールバックレシピ（`isEmpty`を使用した空のフィールドフォールバック）について説明します。 [詳細情報](../personalization/personalization-recipes.md)
+
+* **Personalization構文** ドキュメントが更新され、使用テーブル、リテラル二重引用符のエスケープに関するガイダンス、予約キーワード、ハイフネーション属性キー、および数値イベント IDをカバーする特殊属性キー&#x200B;**セクションの新しい** PQL構文ルールなど、Handlebars （`{{...}}`）とPQL （`{%= ... %}`）構文の違いを明確にする概要が追加されました。 バックティックエスケープに関するメモも修正されました。ハイフネーションされたフィールド名は`{{...}}` ブロックで直接参照できます。バックティック構文のみが失敗します。 [詳細情報](../personalization/personalization-syntax.md)
+
+* **日付時刻関数** ドキュメントは、新しい実例で強化されました。`dateDiff`のカウントダウンパターン、`dayOfWeek`の週末と平日の条件（ルーティングのユースケースにジャーニー条件アクティビティを使用することに関するメモ付き）、`extractHours`と`extractMinutes`を先頭のゼロガードと組み合わせた時間限定の表示パターンです。 [詳細情報](../personalization/functions/dates.md)
+
+* **文字列関数** ドキュメントが更新され、同じテンプレート内の複数の式で再利用するために結果を`{% let %}`変数に割り当てる方法を`replaceAll`の新しい例で示しました。 [詳細情報](../personalization/functions/string.md#replace-all)
+
+* **配列関数** ドキュメントが更新され、`{{#each}}`はパーソナライゼーションエディターでのみサポートされており、ジャーニー条件アクティビティ内では使用できないことを示すメモを含む、Handlebars `{{#each}}` ブロックヘルパーを文書化した新しい&#x200B;**配列** セクションを繰り返し使用できるようになりました。 [詳細情報](../personalization/functions/arrays-list.md#each-loop)
 
 * **データセットの基本を学ぶ** ページが更新され、システムデータセットセクションに新しい&#x200B;**インバウンド** エントリが追加されました。_AJO インバウンドアクティビティイベントデータセット_。 受信メッセージがこのデータセットに取り込まれる前に、プロファイルに少なくとも1つのメッセージを[!DNL Journey Optimizer]から送信する必要があることを明確にするメモが追加されました。 [詳細情報](../data/get-started-datasets.md#system-datasets)
 

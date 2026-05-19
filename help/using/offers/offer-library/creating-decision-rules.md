@@ -10,9 +10,25 @@ role: User
 level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
 version: Journey Orchestration
-source-git-commit: 90b7d9bfe40e6d68e22a9f1aa8ef6d302a1035d9
+TQID: https://experienceleague.adobe.com/TMWU9R07fDaJpqQHKLt2yOFAdu8dlJhtqXIgv7e8oaU
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: a37e4ecd-c740-426a-addf-cb1b483c5c5a
+  - id: c132d929-fa62-4271-803e-b823be07b914
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2:
+  - id: d1823595-9241-4128-8a33-e4ac3bf08773
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: 469
 ht-degree: 90%
 
 ---
@@ -21,13 +37,13 @@ ht-degree: 90%
 
 >[!IMPORTANT]
 >
->このページでは、従来の **意思決定管理** 機能の決定ルールについて説明します。 コードベースのエクスペリエンスとメールチャネルを介して利用できる **の現在の意思決定機能である** Decisioning[!DNL Adobe Journey Optimizer] を使用している場合は、代わりに [&#x200B; ルールの作成 &#x200B;](../../experience-decisioning/rules.md) を参照してください。
+>このページでは、従来の&#x200B;**意思決定管理**&#x200B;機能の決定ルールについて説明します。 **Decisioning**&#x200B;を使用している場合 – コードベースのエクスペリエンスとメールチャネルを介して利用可能な[!DNL Adobe Journey Optimizer]の現在の意思決定機能については、代わりに[&#x200B; ルールを作成](../../experience-decisioning/rules.md)を参照してください。
 >
->使用している機能が不明な場合は、 [Decisioning について説明します &#x200B;](../../experience-decisioning/gs-experience-decisioning.md)。
+>どの機能を使用しているか不明な場合は、 [決定について学ぶ](../../experience-decisioning/gs-experience-decisioning.md)。
 
 ## 決定ルールについて {#about}
 
-Adobe Experience Platform で利用可能なデータに基づいて、オファーの決定ルールを作成できます。決定ルールは、オファーを表示する対象を決定します。
+Adobe Experience Platform で利用可能なデータに基づいて、オファーの決定ルールを作成できます。 決定ルールは、オファーを表示する対象を決定します。
 
 例えば、性別が女性で地域が北東部の場合にのみ「婦人冬服」オファーを表示するように指定できます。
 
@@ -36,7 +52,7 @@ Adobe Experience Platform で利用可能なデータに基づいて、オファ
 決定ルールを使用する際に考慮すべき制限事項のリストを以下に示します。
 
 * Edge 決定では、イベントを保存しない Edge プロファイルを使用するので、Edge 決定で使用するルールは無効になります。
-* 決定ルールを作成する際に、前の期間をさかのぼることはサポートされていません。例えば、過去 1 か月以内に発生したエクスペリエンスイベントをルールのコンポーネントとして指定した場合。ルールの作成中にルックバック期間を含めようとすると、保存時にトリガーが発生します。
+* 決定ルールを作成する際に、前の期間をさかのぼることはサポートされていません。 例えば、過去 1 か月以内に発生したエクスペリエンスイベントをルールのコンポーネントとして指定した場合。 ルールの作成中にルックバック期間を含めようとすると、保存時にトリガーが発生します。
   <!--* Decision requests that use the hub profile will look at the last 100 experience events on the profile to evaluate rules that reference historical experience events.-->
 
 ## 決定ルールの作成 {#create}
@@ -53,7 +69,7 @@ Adobe Experience Platform で利用可能なデータに基づいて、オファ
 
 1. ルールに名前を付け、説明を入力したあと、ルールを必要に応じて設定します。
 
-   それには、ルールの条件の作成に役立つ Adobe Experience Platform **セグメントビルダー**&#x200B;を使用できます。[詳しくは、セグメント定義の作成方法を参照してください](../../audience/creating-a-segment-definition.md)
+   それには、ルールの条件の作成に役立つ Adobe Experience Platform **セグメントビルダー**&#x200B;を使用できます。 [詳しくは、セグメント定義の作成方法を参照してください](../../audience/creating-a-segment-definition.md)
 
    <!--In this example, the rule will target customers that have the "Gold" loyalty level.-->
 
@@ -61,25 +77,25 @@ Adobe Experience Platform で利用可能なデータに基づいて、オファ
 
    >[!NOTE]
    >
-   >決定ルールを作成するために用意されているセグメントビルダーは、**[!UICONTROL Segmentation]** サービスで使用されるものと比較して、異なる点がいくつかあります。ただし、[セグメントビルダー](../../audience/creating-a-segment-definition.md)のドキュメントで説明されているグローバルプロセスは、オファーの決定ルールを作成する場合にも有効です。詳しくは、[Adobe Experience Platform セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja)を参照してください。
+   >決定ルールを作成するために用意されているセグメントビルダーは、**[!UICONTROL Segmentation]** サービスで使用されるものと比較して、異なる点がいくつかあります。 ただし、[セグメントビルダー](../../audience/creating-a-segment-definition.md)のドキュメントで説明されているグローバルプロセスは、オファーの決定ルールを作成する場合にも有効です。 詳しくは、[Adobe Experience Platform セグメント化サービスのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja)を参照してください。
 
-1. ワークスペースに新しいフィールドを追加および設定すると、**[!UICONTROL オーディエンスのプロパティ]**&#x200B;パネルに、オーディエンスに属する推定プロファイルに関する情報が表示されます。「**[!UICONTROL 予測を更新]**」をクリックして、データを更新します。
+1. ワークスペースに新しいフィールドを追加および設定すると、**[!UICONTROL オーディエンスのプロパティ]**&#x200B;パネルに、オーディエンスに属する推定プロファイルに関する情報が表示されます。 「**[!UICONTROL 予測を更新]**」をクリックして、データを更新します。
 
    ![](../assets/offers_decision_rule_creation_estimate.png)
 
    >[!NOTE]
    >
-   >プロファイルの予測は、ルールパラメーターにコンテキストデータなど、プロファイルに含まれていないデータが含まれている場合は使用できません。例えば、現在の気温が 80 ℃以上であることを条件とする実施要件ルールがあります。
+   >プロファイルの予測は、ルールパラメーターにコンテキストデータなど、プロファイルに含まれていないデータが含まれている場合は使用できません。 例えば、現在の気温が 80 ℃以上であることを条件とする実施要件ルールがあります。
 
 1. 「**[!UICONTROL 保存]**」をクリックして確認します。
 
-1. ルールを作成すると、**[!UICONTROL ルール]**&#x200B;リストに表示されます。選択するとプロパティが表示され、編集することも削除することもできます。
+1. ルールを作成すると、**[!UICONTROL ルール]**&#x200B;リストに表示されます。 選択するとプロパティが表示され、編集することも削除することもできます。
 
    ![](../assets/rule_created.png)
 
 >[!CAUTION]
 >
->イベントベースのオファーは、現在 [!DNL Journey Optimizer] ではサポートされていません。[イベント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja#events){target="_blank"}に基づいて決定ルールを作成しても、それをオファーで活用することはできません。
+>イベントベースのオファーは、現在 [!DNL Journey Optimizer] ではサポートされていません。 [イベント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/segment-builder.html?lang=ja#events){target="_blank"}に基づいて決定ルールを作成しても、それをオファーで活用することはできません。
 
 ## チュートリアルビデオ {#video}
 

@@ -11,9 +11,23 @@ level: Intermediate
 mini-toc-levels: 1
 exl-id: 8bc808da-4796-4767-9433-71f1f2f0a432
 version: Journey Orchestration
-source-git-commit: c15bae97ea52243d65aa59fdd4e924dc4e1852d8
+TQID: https://experienceleague.adobe.com/-brGlrDOgI1E9-L4Mflz2AAPfa2eV2aRyk3LrJGs6pg
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: c132d929-fa62-4271-803e-b823be07b914
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: 621
 ht-degree: 100%
 
 ---
@@ -22,19 +36,19 @@ ht-degree: 100%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。 [詳細情報](../../experience-decisioning/gs-experience-decisioning.md)
 
 ## ランキング式について {#about-ranking-formulas}
 
-**ランキング式**&#x200B;を使用すると、オファーの優先度スコアを考慮するのではなく、指定されたプレースメントに対して最初に提示するオファーを決定するルールを定義できます。ランキング式は **PQL 構文**&#x200B;で表され、式中でプロファイル属性、コンテキストデータ、オファー属性を利用できます。PQL 構文の使用方法について詳しくは、[関連するドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=ja)を参照してください。
+**ランキング式** を使用すると、オファーの優先度スコアを考慮するのではなく、指定されたプレースメントに対して最初に提示するオファーを決定するルールを定義できます。 ランキング式は **PQL 構文**&#x200B;で表され、式中でプロファイル属性、コンテキストデータ、オファー属性を利用できます。 PQL 構文の使用方法について詳しくは、[関連するドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/pql/overview.html?lang=ja)を参照してください。
 
-ランキング式を作成したら、決定内のプレースメントに割り当てることができます。詳しくは、[決定でのオファーの選択設定](../offer-activities/configure-offer-selection.md)を参照してください。
+ランキング式を作成したら、決定内のプレースメントに割り当てることができます。 詳しくは、[決定でのオファーの選択設定](../offer-activities/configure-offer-selection.md)を参照してください。
 
 ## ランキング式の作成 {#create-ranking-formula}
 
 ランキング式を作成するには、次の手順に従います。
 
-1. **[!UICONTROL コンポーネント]**&#x200B;メニューにアクセスし、「**[!UICONTROL ランキング]**」タブを選択します。「**[!UICONTROL 式]**」タブがデフォルトで選択されています。以前に作成した式のリストが表示されます。
+1. **[!UICONTROL コンポーネント]**&#x200B;メニューにアクセスし、「**[!UICONTROL ランキング]**」タブを選択します。 「**[!UICONTROL 式]**」タブがデフォルトで選択されています。 以前に作成した式のリストが表示されます。
 
    ![](../assets/rankings-list.png)
 
@@ -44,15 +58,15 @@ ht-degree: 100%
 
 1. 式の名前、説明、式を指定します。
 
-   この例では、実際の気温が高い場合に、「hot」属性を持つすべてのオファーの優先度を上げます。そのために、決定の呼び出し時に **contextData.weather=hot** を渡しています。[詳しくは、コンテキストデータの操作方法を参照してください](../context-data.md)
+   この例では、実際の気温が高い場合に、「hot」属性を持つすべてのオファーの優先度を上げます。 そのために、決定の呼び出し時に **contextData.weather=hot** を渡しています。 [詳しくは、コンテキストデータの操作方法を参照してください](../context-data.md)
 
    ![](../assets/ranking-syntax.png)
 
    >[!IMPORTANT]
    >
-   >ランキング式を作成する場合、前の期間の参照はサポートされません。例えば、先月内に発生したエクスペリエンスイベントを数式のコンポーネントとして指定した場合です。数式の作成中にルックバック期間を含めようとすると、保存時にエラーがトリガーされます。
+   >ランキング式を作成する場合、前の期間の参照はサポートされません。 例えば、先月内に発生したエクスペリエンスイベントを数式のコンポーネントとして指定した場合です。 数式の作成中にルックバック期間を含めようとすると、保存時にエラーがトリガーされます。
 
-1. 「**[!UICONTROL 保存]**」をクリックします。ランキング式が作成されたら、リストからその式を選択して詳細を取得し、式を編集または削除したりできます。
+1. 「**[!UICONTROL 保存]**」をクリックします。 ランキング式が作成されたら、リストからその式を選択して詳細を取得し、式を編集または削除したりできます。
 
    これで、ランキング式を決定で使用して、プレースメントに対する実施要件を満たすオファーをランク付けする準備が整いました（「 [決定でのオファー選択の設定](../offer-activities/configure-offer-selection.md)」を参照してください）。
 
@@ -60,7 +74,7 @@ ht-degree: 100%
 
 ## ランキング式の例 {#ranking-formula-examples}
 
-必要に応じて、様々なランキング式を作成できます。以下に例を示します。
+必要に応じて、様々なランキング式を作成できます。 以下に例を示します。
 
 <!--
 Boost by offer ID
@@ -142,7 +156,7 @@ if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.p
 
 ### コンテキストデータに基づいてオファーの優先度を上げる {#context-data}
 
-[!DNL Journey Optimizer] を使用すると、呼び出しで渡されるコンテキストデータに基づいて、特定のオファーの優先度を上げることができます。例えば、`contextData.weather=hot` が渡される場合は、`attribute=hot` を含んだすべてのオファーの優先度を上げる必要があります。**Edge Decisioning** API および **Decisioning** API を使用してコンテキストデータを渡す方法について詳しくは、[この節](../context-data.md)を参照してください。
+[!DNL Journey Optimizer] を使用すると、呼び出しで渡されるコンテキストデータに基づいて、特定のオファーの優先度を上げることができます。 例えば、`contextData.weather=hot` が渡される場合は、`attribute=hot` を含んだすべてのオファーの優先度を上げる必要があります。 **Edge Decisioning** API および **Decisioning** API を使用してコンテキストデータを渡す方法について詳しくは、[この節](../context-data.md)を参照してください。
 
 **Decisioning** API を使用する場合は、次の例のように、コンテキストデータをリクエスト本文のプロファイル要素に追加します。
 
@@ -168,7 +182,7 @@ if( offer.selectionConstraint.endDate occurs <= 24 hours after now, offer.rank.p
 }],
 ```
 
-ランキング式でコンテキストデータを使用してオファーの優先度を上げる方法を示す例を次に示します。各セクションを展開すると、ランキング式の構文の詳細が表示されます。
+ランキング式でコンテキストデータを使用してオファーの優先度を上げる方法を示す例を次に示します。 各セクションを展開すると、ランキング式の構文の詳細が表示されます。
 
 >[!NOTE]
 >

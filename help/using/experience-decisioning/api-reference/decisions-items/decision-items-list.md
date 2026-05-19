@@ -7,16 +7,23 @@ role: Developer
 level: Experienced
 exl-id: ac618861-276f-4f9c-95d3-7df0b5132be9
 version: Journey Orchestration
-source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
+TQID: https://experienceleague.adobe.com/zm94km1cb3RJkR2fe0-I-AL8ODrdo919-hFjzEyk-qA
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: 244
 ht-degree: 100%
 
 ---
 
 # 決定項目のリスト {#list-decision-items}
 
-Journey Optimizer では、決定項目と呼ばれるマーケティングオファーを作成し、一元化されたカタログとコレクションを作成して整理できます。これらは、ニーズに正確に合わせて設計された標準属性とカスタム属性で構成されています。さらに、決定項目を表示可能なユーザーを定義できる、プロファイル制約が組み込まれています。
+Journey Optimizer では、決定項目と呼ばれるマーケティングオファーを作成し、一元化されたカタログとコレクションを作成して整理できます。 これらは、ニーズに正確に合わせて設計された標準属性とカスタム属性で構成されています。 さらに、決定項目を表示可能なユーザーを定義できる、プロファイル制約が組み込まれています。
 
 オファーライブラリ API に対して単一の GET リクエストを実行することで、すべての決定項目のリストを表示できます。
 
@@ -42,7 +49,7 @@ GET /{ENDPOINT_PATH}/offer-items?{QUERY_PARAMS}
 | パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
 | `property` | オプションのプロパティフィルターは次のとおりです。 <ul><li>プロパティは AND 演算でグループ化されます。</li><li>パラメーターは、property={PROPERTY_EXPR}[&amp;property={PROPERTY_EXPR2}...] または property={PROPERTY_EXPR1}[,{PROPERTY_EXPR2}...] のように繰り返すことができます。</li><li>プロパティ式は `[!]field[op]value` の形式を使用（`[==,!=,<=,>=,<,>,~]` に `op`）し、正規表現をサポートします。</li></ul> | `property=name!=abc&property=id~.*1234.*&property=description equivalent with property=name!=abc,id~.*1234.*,description.` |
-| `orderBy` | 特定のプロパティで結果を並べ替えます。名前の前に - を追加すると（orderby=-name）、名前の降順（Z ～ A）で項目が並べ替えられます。パス式は、ドット区切りのパスの形式です。このパラメーターは、`orderby=field1[,-fields2,field3,...]` のように繰り返すことができます。 | `orderby=id`、`-name` |
+| `orderBy` | 特定のプロパティで結果を並べ替えます。 名前の前に - を追加すると（orderby=-name）、名前の降順（Z ～ A）で項目が並べ替えられます。 パス式は、ドット区切りのパスの形式です。 このパラメーターは、`orderby=field1[,-fields2,field3,...]` のように繰り返すことができます。 | `orderby=id`、`-name` |
 | `limit` | 返されるエンティティの数を制限します。 | `limit=5` |
 
 **リクエスト**
@@ -59,7 +66,7 @@ curl -X GET '<https://platform.adobe.io/data/core/dps/offer-items?limit=2>' \
 
 **応答**
 
-応答が成功すると、自身がアクセス権を持っているオファー項目のリストが返されます。`_<imsOrg>` ノードには、カスタムの決定項目属性が格納されています。
+応答が成功すると、自身がアクセス権を持っているオファー項目のリストが返されます。 `_<imsOrg>` ノードには、カスタムの決定項目属性が格納されています。
 
 ```json
 {

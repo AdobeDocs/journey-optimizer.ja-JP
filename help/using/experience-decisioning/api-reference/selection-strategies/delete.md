@@ -7,16 +7,23 @@ role: Developer
 level: Experienced
 exl-id: 774f3773-bc39-46c4-b32c-143abbd45696
 version: Journey Orchestration
-source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
+TQID: https://experienceleague.adobe.com/KnyhVoNWfjSIIMw2q7OZkBG--wgaBU4JXn7A9i41Vf8
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: 121
 ht-degree: 100%
 
 ---
 
 # 選択戦略の削除 {#delete-selection-strategy}
 
-場合によっては、選択戦略を削除（DELETE）する必要があります。これを行うには、削除する選択戦略の ID を使用して、オファーライブラリ API に対して DELETE リクエストを実行します。
+場合によっては、選択戦略を削除（DELETE）する必要があります。 これを行うには、削除する選択戦略の ID を使用して、オファーライブラリ API に対して DELETE リクエストを実行します。
 
 **API 形式**
 
@@ -44,4 +51,4 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/selection-strategies/sel
 
 正常な応答の場合は、HTTP ステータス 200 と空白の本文が返されます。
 
-選択戦略に対して参照（GET）リクエストを実行することで、削除を確認できます。選択戦略が削除されたので、HTTP ステータス 404（見つかりません）が表示されます。
+選択戦略に対して参照（GET）リクエストを実行することで、削除を確認できます。 選択戦略が削除されたので、HTTP ステータス 404（見つかりません）が表示されます。
