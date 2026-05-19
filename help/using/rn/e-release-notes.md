@@ -7,12 +7,11 @@ feature: Release Notes
 hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: 94d84469a30e1e93b7e74a81d3ef19f588f521cc
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+source-git-commit: 7198657c414313e614aab539c827038ae53820c3
 workflow-type: tm+mt
-source-wordcount: 1131
-ht-degree: 6%
+source-wordcount: 955
+ht-degree: 8%
 
 ---
 
@@ -117,21 +116,6 @@ ht-degree: 6%
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>非繰り返しオーディエンス読み取りジャーニーの自動補完</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>最後にアクティブなプロファイルが終了すると、非繰り返しの<strong> オーディエンスの読み取り</strong> ジャーニーが自動的に<strong>停止</strong> ステータスに移行するようになりました。 以前は、これらのジャーニーは、プロファイルがフローしなくなった場合でも、91日間のグローバルタイムアウトが期限切れになるまで<strong> ライブ </strong>のままでした。 この改善により、ジャーニーのステータスは、完了するとすぐに実際の実行ステータスを反映するようになり、手作業なしでジャーニーインベントリを正確に保つことができます。</p>
-<p>この動作は、待機期間を引き起こすノード（待機ノード、リアクションノード、イベントトリガーのトランジションなど）を含むジャーニーには適用されません。 これらのジャーニーは、標準の91日間のグローバルタイムアウトの対象のままです。</p>
-<p>ご利用いただけます：2026年5月19日（PT）</p>
-</tr>
-</tbody>
-</table>
 
 <!--
 <table>
@@ -266,11 +250,6 @@ FEEDBACK FROM TYSON WAI - TW: Remove this release, it is not ready for May 19th-
 
 #### ジャーニー
 
-* **カスタムアクションでの証明書ベースのカスタム認証** - カスタムアクションで、証明書ベースのカスタム認証がサポートされるようになりました。 カスタム認証コンフィギュレーションにsubType: &quot;certificateCredential&quot;を追加することで、Journey OptimizerはAdobeのマネージド証明書を使用してJWT クライアントアサーションに署名し、アクセストークンと交換します。クライアントシークレットは必要ありません。 Azure Entra IDなど、証明書ベースのID確認を強制するエンタープライズ API向けに設計されています。
-
-
-  ご利用いただけます：2026年5月19日（PT）
-
 * **外部オーディエンスの補足識別子のサポート** - ジャーニーの補足識別子が、CSV ファイルから読み込まれたオーディエンスやFederated Audience Compositionで作成されたオーディエンスなど、外部オーディエンスでサポートされるようになりました。 オーディエンスからID以外の属性または個人ではないID属性を補足IDとして指定できます。スキーマのラベル付けは必要ありません。
 
 
@@ -307,7 +286,7 @@ Adobe Journey Optimizer continuously delivers new features, enhancements to exis
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: April 28-29, 2026
 
@@ -674,7 +653,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: March 24-25, 2026
 
@@ -940,7 +919,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: February 17, 2026
 
@@ -1193,7 +1172,7 @@ Improvements coming with this release are listed below.
 
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
 **Release date**: January 27, 2026
 
@@ -1370,7 +1349,7 @@ See also [Adobe Experience Platform Pre-release notes](https://experienceleague.
 <tr>
 <td>
 <p>Journey Create Agent enables Journey Optimizer users to build and configure marketing journeys using a natural language interface. With Journey Create Agent, practitioners can quickly create journeys by describing their requirements in conversational prompts. The agent streamlines journey creation, allowing marketers to focus on strategy rather than technical configuration.</p>
-<p><a href="https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
+<p><a href="https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-create-agent-skill-overview-and-user-guide" target="_blank">Learn more</a></p>
 <p><a href="https://jira.corp.adobe.com/browse/CJM-95142">Link to PRODUCT JIRA task</a></p>
 <p>Availability date: January 12, 2026</p>
 </td>
