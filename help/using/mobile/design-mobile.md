@@ -7,7 +7,7 @@ feature: SMS
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 9a68782b0ca1a9a65db621209cf4f39ea5ce911d
+source-git-commit: 7b5244e8bdbbe7458f283ac883cfaf1d695b332e
 workflow-type: tm+mt
 source-wordcount: '1377'
 ht-degree: 30%
@@ -127,7 +127,7 @@ RCS メッセージコンテンツを定義するには、次の手順に従い�
 
    ![](assets/sms-content.png)
 
-1. テキスト生成に[AI アシスタント &#x200B;](../content-management/generative-text.md)を使用して、オーディエンスに合わせた魅力的なモバイルメッセージを生成します。
+1. テキスト生成に[AI アシスタント ](../content-management/generative-text.md)を使用して、オーディエンスに合わせた魅力的なモバイルメッセージを生成します。
 
 1. パーソナライゼーションエディターを使用して、コンテンツの定義、パーソナライゼーションと動的コンテンツの追加を行います。 プロファイル名や市区町村など、任意の属性を使用できます。 また、条件ルールを定義することもできます。 パーソナライゼーションエディターの[パーソナライゼーション](../personalization/personalize.md)と[動的コンテンツ](../personalization/get-started-dynamic-content.md)について詳しくは、次のページを参照してください。
 
@@ -169,7 +169,7 @@ RCS メッセージコンテンツを定義するには、次の手順に従い�
 
 MMS コンテンツを作成するには、次の手順に従います。
 
-1. [このセクション &#x200B;](#create-sms-journey-campaign)の説明に従って、モバイルメッセージを作成します。
+1. [このセクション ](#create-sms-journey-campaign)の説明に従って、モバイルメッセージを作成します。
 
 1. [この節](#sms-content)の説明に従って、SMS コンテンツを編集します。
 
