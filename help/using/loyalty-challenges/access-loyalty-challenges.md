@@ -11,7 +11,7 @@ hide: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: 8907c18e-4623-4743-a76b-333f34e13baf
-source-git-commit: d41999da88f39a9e5bfe5e98fd5cb5d69a1893e6
+source-git-commit: e66628ab1d9df497226ab625947aa18a2a3b6f48
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 3%
@@ -29,6 +29,7 @@ ht-degree: 3%
 * [課題の創出](create-challenges.md)
 * [タスクの作成](create-tasks.md)
 * [ロイヤルティチャレンジのパフォーマンスを監視する](loyalty-reporting.md)
+<!-- * [Configure the loyalty program](loyalty-admin.md) -->
 * [ロイヤルティチャレンジ API リファレンス](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
 >[!ENDSHADEBOX]
@@ -72,7 +73,7 @@ ht-degree: 3%
 
 * **チャレンジを編集**: チャレンジ名を選択して詳細ページを開き、必要な変更を加えます。
 
-  公開済みチャレンジを編集のために開く場合は、まずドラフト状態に戻す必要があります。 自動生成されたジャーニーに対して直接行ったカスタマイズは、すべて失われます。 変更を加えた後、課題を保存して再度公開してから、関連するジャーニーを公開します。 [&#x200B; チャレンジを開始する方法を学ぶ](create-challenges.md#launch)
+  公開済みチャレンジを編集のために開く場合は、まずドラフト状態に戻す必要があります。 自動生成されたジャーニーに対して直接行ったカスタマイズは、すべて失われます。 変更を加えた後、課題を保存して再度公開してから、関連するジャーニーを公開します。 [ チャレンジを開始する方法を学ぶ](create-challenges.md#launch)
 
   >[!IMPORTANT]
   >
