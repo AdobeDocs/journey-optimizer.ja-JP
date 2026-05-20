@@ -9,9 +9,9 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: 7198657c414313e614aab539c827038ae53820c3
+source-git-commit: f8fa72eadbc8381486290379f98025a10001f997
 workflow-type: tm+mt
-source-wordcount: 955
+source-wordcount: 883
 ht-degree: 8%
 
 ---
@@ -100,23 +100,6 @@ ht-degree: 8%
 </table>
 
 
-<table>
-<thead>
-<tr>
-<th><strong>ダイレクトメールチャネルでの意思決定のサポート</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>決定ポリシーをダイレクトメールジャーニーおよびキャンペーンに追加できるようになりました。 決定ポリシーは、決定エンジンを活用して、各オーディエンスメンバーに最適なコンテンツを動的に返すオファーのコンテナです。 ダイレクトメール決定は、バッチ決定のユースケースもサポートしており、特定のAdobe Experience Platform オーディエンス内の各プロファイルに対応するオファー項目を書き出すことができます。</p>
-<!--<p><img src="assets/do-not-localize/exd-dm.gif"></p>-->
-<p>ご利用いただけます：2026年5月19日（PT）</p>
-</td>
-</tr>
-</tbody>
-</table>
-
 
 <!--
 <table>
@@ -200,7 +183,7 @@ ht-degree: 8%
 * **キャンペーンのデフォルトの実行フィールドを上書き** – 以前はジャーニーレベルで使用されていましたが、キャンペーンのパラメーターで、メール、SMS、WhatsApp配信にグローバルに設定されているデフォルトの実行フィールドを上書きできるようになりました。
 
 
-  ご利用いただけます：2026年5月19日（PT）
+  ご利用いただけます：2026年5月29日（PT）
 
 <!--
 #### Configuration
@@ -227,12 +210,12 @@ ht-degree: 8%
 * **編集可能なフラグメントフィールドのリッチテキスト** - メールコンテンツで使用されるカスタマイズ可能なフラグメントにリッチテキストを追加できるようになりました。 例えば、電子メールDesignerでテキストコンポーネントを編集可能フィールドとして使用する場合、コンテンツの書式（太字や斜体など）を直接設定し、ハイパーリンクを挿入できます。
 
 
-  ご利用いただけます：2026年5月19日（PT）
+  ご利用いただけます：2026年5月28日（PT）
 
 * **フラグメントの継承の改ざんを制限** - フラグメントを作成または編集する際に、メールで使用するときに変更できるかどうかを選択できるようになりました。 フラグメントをロックすることで、ファイルが表示されるあらゆる場所で同期を維持し、ブランド基準やコンプライアンス要件に違反する可能性のあるローカル編集を防ぐことができます。 この設定は後で更新でき、今後の使用に適用されます。
 
 
-  ご利用いただけます：2026年5月19日（PT）
+  ご利用いただけます：2026年5月20日（PT）
 
 <!--
 FEEDBACK FROM TYSON WAI - * **Content locking in landing pages** - You can now lock portions of landing page templates, similar to the locking controls available for email templates. You can define which structures, components, and properties are editable — including options to lock design, content, position, and restrict content by limiting the number and/or types of components allowed.
