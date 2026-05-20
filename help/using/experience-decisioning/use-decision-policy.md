@@ -9,24 +9,14 @@ mini-toc-levels: 1
 version: Journey Orchestration
 exl-id: 35fc3cf2-1b91-4f30-ad71-f9d7d2a0291c
 TQID: https://experienceleague.adobe.com/zKV67LEfRVmEk9Fac-D45qdHLqbuVCS3rUt6Rt0HB7w
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: ede238f1b1acd119cc201639488dd12fbcd518cf
 workflow-type: tm+mt
-source-wordcount: 771
-ht-degree: 11%
+source-wordcount: 853
+ht-degree: 10%
 
 ---
 
@@ -52,7 +42,7 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->コードベースのエクスペリエンスの場合、決定ポリシーにフラグメントを含む決定項目が含まれている場合は、決定ポリシーコードでこれらのフラグメントを活用できます。 [&#x200B; フラグメントの活用方法について](fragments-decision-policies.md)
+>コードベースのエクスペリエンスの場合、決定ポリシーにフラグメントを含む決定項目が含まれている場合は、決定ポリシーコードでこれらのフラグメントを活用できます。 [ フラグメントの活用方法について](fragments-decision-policies.md)
 
 >[!TAB メール]
 
@@ -74,6 +64,16 @@ ht-degree: 11%
    >
    >同じ電子メールで複数の決定ポリシー（例えば、ヘッダーに1つ、フッターに1つ）を使用する場合、同じオファーがプレースメント間で重複が排除されます。2回レンダリングされません。 2番目の決定ポリシーでは、フォールバックオファーを設定していない限り、コンテンツは返されず、空白のスペースが表示されます。この場合、フォールバックが代わりに表示されます。
 
+電子メールDesignerで&#x200B;**[!UICONTROL 独自の]** モードを使用する場合は、決定ポリシーコードを挿入することもできます。 **[!UICONTROL 決定ポリシー]**&#x200B;に移動し、**[!UICONTROL 構文を挿入]**&#x200B;を選択します。プレースメント選択UIが表示され、プレースメントを直接割り当てることができます。 [独自のメールコンテンツをコーディングする方法について説明します](../email/code-content.md)。
+
+>[!AVAILABILITY]
+>
+>**[!UICONTROL 独自の]** モードをコード化して決定ポリシーを挿入すると、使用制限があります。
+
+>[!NOTE]
+>
+>**[!UICONTROL 独自の]** モードをコード化すると、**[!UICONTROL 繰り返しグリッド]** コンポーネントが使用できないため、ポリシーごとに1つの決定項目のみを返すことができます。
+
 >[!TAB SMS]
 
 1. **Personalization Editor**&#x200B;を開き、**[!UICONTROL Decision policies]**&#x200B;に移動します。
@@ -92,7 +92,7 @@ ht-degree: 11%
 
 >[!IMPORTANT]
 >
->プッシュ通知を使用したエクスペリエンス決定には、モバイル SDKの特定のバージョンが必要です。 この機能を実装する前に、[&#x200B; リリースノート &#x200B;](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"}を確認して、必要なバージョンを特定し、それに応じてアップグレードされていることを確認してください。 また、[このセクション &#x200B;](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"}では、お使いのプラットフォームで利用可能なすべてのSDK バージョンを表示できます。
+>プッシュ通知を使用したエクスペリエンス決定には、モバイル SDKの特定のバージョンが必要です。 この機能を実装する前に、[ リリースノート ](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"}を確認して、必要なバージョンを特定し、それに応じてアップグレードされていることを確認してください。 また、[このセクション ](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"}では、お使いのプラットフォームで利用可能なすべてのSDK バージョンを表示できます。
 
 >[!ENDTABS]
 
@@ -104,9 +104,9 @@ ht-degree: 11%
 
 ## 決定項目属性によるパーソナライズ {#attributes}
 
-コンテンツに決定ポリシーのコードを追加すると、返された決定項目のすべての属性がパーソナライゼーションに使用できるようになります。 [&#x200B; パーソナライゼーションの使用方法を説明](../personalization/personalize.md)。
+コンテンツに決定ポリシーのコードを追加すると、返された決定項目のすべての属性がパーソナライゼーションに使用できるようになります。 [ パーソナライゼーションの使用方法を説明](../personalization/personalize.md)。
 
-属性は、「オファー」の[&#x200B; カタログスキーマ &#x200B;](catalogs.md)に保存されます。 パーソナライゼーションエディターの次のフォルダーに表示されます。
+属性は、「オファー」の[ カタログスキーマ ](catalogs.md)に保存されます。 パーソナライゼーションエディターの次のフォルダーに表示されます。
 * **カスタム属性**: `_\<imsOrg\>` フォルダー
 * **標準属性**: `_experience` フォルダー
 

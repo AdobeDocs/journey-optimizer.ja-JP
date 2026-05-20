@@ -6,16 +6,13 @@ description: 調整されたキャンペーンアクティビティの操作方�
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/OUKBJeSTaPJKav-NNCCxKZ8esY-62JkdRMmcwoJpZJ0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: ede238f1b1acd119cc201639488dd12fbcd518cf
 workflow-type: tm+mt
-source-wordcount: 413
-ht-degree: 100%
+source-wordcount: 471
+ht-degree: 78%
 
 ---
 
@@ -66,12 +63,12 @@ Adobe Journey Optimizer を使用すると、複数のチャネル間でマー�
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_end"
 >title="終了アクティビティ"
->abstract="**終了**&#x200B;アクティビティを使用すると、調整されたキャンペーンの終了をグラフィカルに示すことができます。 このアクティビティは、機能上の影響はないので、省略可能です。"
+>abstract="**End** アクティビティは、キャンバス上のブランチの終わりを示します。 オプションで、**外部信号**&#x200B;を使用して、下流のオーケストレーションされたキャンペーンを開始し、ブランチが完了したときにパラメーターを渡します。 [詳細情報](../trigger-orchestrated-campaign.md#signal-end)"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_signal"
 >title="外部シグナル"
->abstract="外部シグナル"
+>abstract="このブランチが終了したときに開始する下流のオーケストレーションキャンペーンを選択し、シグナルで送信するパラメーター名と値をマッピングします。 このキャンペーンが終了アクティビティに達する前に、ダウンストリームキャンペーンを&#x200B;**シグナルによってトリガーされ**&#x200B;公開する必要があります。 [詳細情報](../trigger-orchestrated-campaign.md#signal-end)"
 
 次のアクティビティは、オーケストレーションキャンペーンの整理と実行に固有です。 主なタスクは、他のアクティビティの調整です。
 
@@ -84,5 +81,4 @@ Adobe Journey Optimizer を使用すると、複数のチャネル間でマー�
 * [待機](wait.md)：調整されたキャンペーンの一部の実行を一時的に中断します。
   <!--* [Test](test.md): Enable transitions based on specified conditions.-->
 
->[!NOTE]
->**終了**&#x200B;アクティビティは、調整されたキャンペーンの終了をグラフィカルに示します。 このアクティビティは、機能上の影響はないので、省略可能です。
+* **[!UICONTROL 終了]**: キャンバス上のブランチの末尾をマークします。 オプションで、シグナルで始まる別のオーケストレーションキャンペーンにシグナルを送信するために使用できます。 [詳細情報](../trigger-orchestrated-campaign.md#signal-end)
