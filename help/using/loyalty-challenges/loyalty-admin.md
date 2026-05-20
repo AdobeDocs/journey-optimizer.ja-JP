@@ -11,7 +11,7 @@ hide: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
-source-git-commit: e66628ab1d9df497226ab625947aa18a2a3b6f48
+source-git-commit: aea783bd8f2351d4a5d8aa6b84c24a713a6c0306
 workflow-type: tm+mt
 source-wordcount: '1221'
 ht-degree: 2%
@@ -38,7 +38,7 @@ ht-degree: 2%
 >
 >この機能は現在&#x200B;**プライベートベータ版**&#x200B;です。 リリースサイクルと可用性フェーズについて詳しくは、[Journey Optimizer リリースサイクル](../rn/releases.md)を参照してください。
 
-**[!UICONTROL ロイヤルティ管理者]** セクションでは、管理者がJourney Optimizerをロイヤルティプログラムのバックエンドに接続する方法を設定します。 マーケターは&#x200B;**[!UICONTROL ロイヤルティチャレンジ（Beta）]**&#x200B;を使用して、課題、タスク、コンテンツ、メッセージをデザインします。ロイヤルティ管理者は、報酬のフルフィルメントとイベントマッピングを個別に1回設定します。
+**[!UICONTROL ロイヤルティ管理者]** セクションでは、Journey Optimizerをロイヤルティプログラムのバックエンドに接続する方法を設定します。 マーケターは&#x200B;**[!UICONTROL ロイヤルティチャレンジ（Beta）]**&#x200B;を使用して、課題、タスク、コンテンツ、メッセージをデザインします。ロイヤルティ管理者は、報酬のフルフィルメントとイベントマッピングを個別に1回設定します。
 
 お客様がチャレンジを完了した場合（または報酬のマイルストーンに到達した場合）、Journey Optimizerは、ここで設定した報酬プロバイダーを呼び出して、ポイントやその他の報酬を提供します。 課題&#x200B;**[!UICONTROL コンテンツ]**、**[!UICONTROL メッセージング]**、**[!UICONTROL オーディエンス]**&#x200B;の設定は、ロイヤルティ管理者設定の影響を受けません。
 
