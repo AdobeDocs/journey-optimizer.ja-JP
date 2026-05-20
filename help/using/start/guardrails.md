@@ -9,40 +9,16 @@ level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 TQID: https://experienceleague.adobe.com/k4DqGogrTZ9QrnqyFGwdgDeUI9ivpOd1iSI0c5comuU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: cce82f05-fc3c-4af7-85ff-8bba603861a7
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: e240d5e8-8393-4b76-8a3d-9e53a2f7306c
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-  - id: e57d1da4-32c2-4cc6-945c-9feb219156ff
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: c5ecc28ec44a9c608f4fe5011e061cad62d92e2b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: cce82f05-fc3c-4af7-85ff-8bba603861a7id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d2e8a157-b3b0-4143-9ff3-809bf400be56id: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: e240d5e8-8393-4b76-8a3d-9e53a2f7306cid: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: e57d1da4-32c2-4cc6-945c-9feb219156ffid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 45054647f14fdf4b073825b4db2715a323f2a7a0
 workflow-type: tm+mt
-source-wordcount: 4226
-ht-degree: 99%
+source-wordcount: 4262
+ht-degree: 98%
 
 ---
 
@@ -212,7 +188,10 @@ Journey Optimizer のサブドメインデリゲーションに適用される�
 
 ### 一般的なジャーニーのガードレール {#journeys-guardrails-journeys}
 
-* ジャーニー 1 つあたりのアクティビティ数は 50 に制限されます。 アクティビティの数は、ジャーニーキャンバスの左上に表示されます。 これは、読みやすさ、QA およびトラブルシューティングに役立ちます。
+* ジャーニー 1 つあたりのアクティビティ数は 50 に制限されます。 アクティビティの数は、ジャーニーキャンバスの左上に表示されます。
+
+  この制限に近いジャーニーでは、編集と公開のパフォーマンスが低下し、保存または検証のエラーが発生する可能性があります。 この場合、[ ジャンプアクティビティ ](../building-journeys/jump.md)を使用してジャーニーを小さなサブジャーニーに分割するか、新しいバージョンで再作成します。 アクティビティ制限を増やすことはできません。
+
 * デフォルトでは、一度に実行できるライブ／一時停止／ドライランのジャーニーの数は 100 に制限されています。  ジャーニーの現在の数は、ジャーニーキャンバスの上に表示されます。
 * ジャーニーを公開すると、最大のスループットと安定性を確保するために自動的にスケールと調整が行われます。 一度に 100 のライブジャーニーというマイルストーンに近づくと、この達成に関する通知が UI に表示されるのがわかります。 この通知が表示され、一度に 100 のライブジャーニーを超えてジャーニーを拡張する必要がある場合は、カスタマーケアのチケットを作成してください。アドビが目標の達成をお手伝いします。
 * ジャーニーでオーディエンスの選定を使用すると、そのオーディエンスの選定アクティビティがアクティブになってオーディエンスにエントリまたは離脱するプロファイルをリッスンするのに、最大 10 分かかる場合があります。
@@ -248,7 +227,7 @@ Journey Optimizer のサブドメインデリゲーションに適用される�
 * 必要に応じて、ジャーニーをより小さいジャーニーに分割することを考慮します。
 * 組織でより高い制限が必要だと思われる場合は、アドビ担当者にお問い合わせください。
 
-公開前にジャーニーの現在のペイロードサイズを監視するには、ジャーニープロパティパネルの「**[!UICONTROL 現在のジャーニーペイロードサイズ]**」インジケーターを使用します。 [&#x200B; ジャーニーペイロードのサイズを確認する方法について説明します](../building-journeys/journey-properties.md#journey-payload-size)
+公開前にジャーニーの現在のペイロードサイズを監視するには、ジャーニープロパティパネルの「**[!UICONTROL 現在のジャーニーペイロードサイズ]**」インジケーターを使用します。 [ ジャーニーペイロードのサイズを確認する方法について説明します](../building-journeys/journey-properties.md#journey-payload-size)
 
 ### 単一ジャーニーのパッケージ制限の選択 {#select-package-limitations}
 
