@@ -8,32 +8,16 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f8fa72eadbc8381486290379f98025a10001f997
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 14ef040a093ce08b84ed4ed50a899bdac6881167
 workflow-type: tm+mt
-source-wordcount: 1922
-ht-degree: 31%
+source-wordcount: 2010
+ht-degree: 30%
 
 ---
 
@@ -57,6 +41,25 @@ ht-degree: 31%
 ### 新機能 {#may-26-features}
 
 2026年5月にリリースされた機能は次のとおりです。
+
+<table>
+<thead>
+<tr>
+<th><strong>キャンペーンを連携</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>オーケストレーションされたキャンペーンを、別のオーケストレーションされたキャンペーンの<strong>終了アクティビティ </strong>から直接、オーケストレーションされたキャンペーンをトリガーすることで、リンクできるようになりました。</p>
+<p>これにより、複雑なオーケストレーションロジックを、毎回再構築するのではなく、複数の親キャンペーンから呼び出すことができる、小さく再利用可能なフローに分割することができます。 実行時に渡されたペイロードは、ダウンストリームキャンペーンでセグメント化とパーソナライゼーションに使用できるため、リンクされた各キャンペーンは、受信したコンテキストに基づいて動作できます。</p>
+<p><img src="assets/do-not-localize/oc-trigger.gif"></p>
+<p>詳しくは、 <a href="../orchestrated/trigger-orchestrated-campaign.md#signal-end">詳細なドキュメント</a>を参照してください。</p>
+<p>ご利用いただけます：2026年5月20日（PT）</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 <table>
 <thead>
@@ -178,6 +181,13 @@ ht-degree: 31%
 
 2026年5月には以下の改善もリリースされました。
 
+#### オーケストレーションキャンペーン
+
+* **エンリッチメントアクティビティでリンクを追加** - オーケストレーションされたキャンペーンのエンリッチメントアクティビティで、「リンクを追加」機能を使用できるようになりました。 これにより、作業用テーブルデータと既存のデータベーステーブルとの間に直接関係を作成できます。
+
+
+  ご利用いただけます：2026年5月20日（PT）
+
 #### 決定
 
 * **移行ワークフローAPI** – 依存関係の分析と移行ワークフローを作成するためのAPI コントラクトが更新されました。リクエスト URL （`sandbox`、`offer`または`decision`）に&#x200B;**`request-level`**&#x200B;を&#x200B;**クエリパラメーター**&#x200B;として渡します。 リクエストレベルをJSON本文で送信する必要はありません。 [詳細情報](../experience-decisioning/decisioning-migration-api.md)
@@ -189,14 +199,14 @@ ht-degree: 31%
 <!--
 * **Opt-out and consent at phone number and sender** - For SMS, Journey Optimizer now records marketing consent and opt-out at the level of both the profile's phone number and short code. 
 
-  This capability is currently only available for Sinch SMS configurations. [Read more](../sms/sms-configuration-sinch.md)
+  This capability is currently only available for Sinch SMS configurations. [Read more](../mobile/mobile-configuration-sinch.md)
 -->
 
-* **文字カウント** - Adobe Journey Optimizer では、文字カウントを使用して SMS メッセージの長さをリアルタイムで監視できるようになりました。 メッセージが複数のセグメントに分割されるタイミングを確認できるので、書式設定をより適切に管理し、送信コストの予期しない増加を回避できます。 [詳細情報](../sms/create-sms.md)
+* **文字カウント** - Adobe Journey Optimizer では、文字カウントを使用して SMS メッセージの長さをリアルタイムで監視できるようになりました。 メッセージが複数のセグメントに分割されるタイミングを確認できるので、書式設定をより適切に管理し、送信コストの予期しない増加を回避できます。 [詳細情報](../mobile/create-mobile-message.md)
 
-* **カスタムデータセットに対する SMS インバウンド** - **SMS API 資格情報**&#x200B;で、デフォルトのトラッキングデータセットだけでなく、選択した&#x200B;**カスタムのプロファイル対応エクスペリエンスイベントデータセット**&#x200B;に&#x200B;**インバウンド SMS** をルーティングします。 [詳細情報](../sms/sms-webhook.md)
+* **カスタムデータセットに対する SMS インバウンド** - **SMS API 資格情報**&#x200B;で、デフォルトのトラッキングデータセットだけでなく、選択した&#x200B;**カスタムのプロファイル対応エクスペリエンスイベントデータセット**&#x200B;に&#x200B;**インバウンド SMS** をルーティングします。 [詳細情報](../mobile/mobile-webhook.md)
 
-* **Webhook インターフェイスの機能強化** - SMS webhook を設定する際に、ユーザーインターフェイスに実用的な例を含む組み込みの設定ガイドが含まれるようになりました。これにより、設定フローを離れることなく、プロバイダーのペイロードを調整し、問題のトラブルシューティングを行うことが簡単になります。 [詳細情報](../sms/sms-webhook.md)
+* **Webhook インターフェイスの機能強化** - SMS webhook を設定する際に、ユーザーインターフェイスに実用的な例を含む組み込みの設定ガイドが含まれるようになりました。これにより、設定フローを離れることなく、プロバイダーのペイロードを調整し、問題のトラブルシューティングを行うことが簡単になります。 [詳細情報](../mobile/mobile-webhook.md)
 
 #### WhatsApp
 
@@ -330,13 +340,6 @@ ht-degree: 31%
 
 
   ご利用いただけます：2026年5月21日（PT）
-
-#### オーケストレーションキャンペーン
-
-* **エンリッチメントアクティビティでリンクを追加** - オーケストレーションされたキャンペーンのエンリッチメントアクティビティで、「リンクを追加」機能を使用できるようになりました。 これにより、作業用テーブルデータと既存のデータベーステーブルとの間に直接関係を作成できます。
-
-
-  ご利用いただけます：2026年5月26日（PT）
 
 * **関係データのループベースのパーソナライゼーション** - パーソナライゼーションエディターで、注文、アカウント、予約などの関係コレクションを繰り返し処理し、1つのレコードにつき1つのコンテンツブロックを1つの電子メールまたはSMS内にレンダリングするループブロックがサポートされるようになりました。 コレクションは、パーソナライゼーショントークンを使用してデータピッカーを通じて設定され、式の書き込みは必要ありません。
 
