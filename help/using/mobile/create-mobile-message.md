@@ -9,28 +9,16 @@ role: User
 level: Beginner
 exl-id: 1f88626a-b491-4b36-8e3f-57f2b7567dd0
 TQID: https://experienceleague.adobe.com/xgPlWorA3lsIF8ZBPHdg2UAK8cLKUsJO-2ONc7ZG8AU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: 747
-ht-degree: 49%
+source-wordcount: 748
+ht-degree: 36%
 
 ---
 
@@ -38,26 +26,26 @@ ht-degree: 49%
 
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
->title="テキストメッセージの作成"
+>title="モバイルメッセージの作成"
 >abstract="モバイルメッセージを作成するには、ジャーニーまたはキャンペーンにSMS アクションを追加し、パーソナライゼーションエディターを使用してパーソナライズを開始します。"
 
 >[!AVAILABILITY]
 >
 >RCS は HIPAA 対応サービスではないので、組織が Journey Optimizer で処理することを許可されている場合がある、許可されたヘルスデータ（個人ヘルス情報など）を含むセンシティブな個人データの収集、保存、処理に使用できません。
 
-Adobe Journey Optimizer を使用して、テキスト（SMS）、リッチ通信（RCS）およびマルチメディア（MMS）メッセージををデザインして送信できます。 最初に、ジャーニーまたはキャンペーンにモバイルメッセージアクションを追加し、次に詳細に説明するように、テキストメッセージのコンテンツを定義する必要があります。 また、Adobe Journey Optimizer には、送信前にテキストメッセージをテストする機能も用意されているので、レンダリング、パーソナライゼーション属性、その他すべての設定を確認できます。
+Adobe Journey Optimizer を使用して、テキスト（SMS）、リッチ通信（RCS）およびマルチメディア（MMS）メッセージををデザインして送信できます。 最初に、ジャーニーまたはキャンペーンにモバイルメッセージアクションを追加し、次に詳細に説明するように、モバイルメッセージのコンテンツを定義する必要があります。 Adobe Journey Optimizerでは、送信前にモバイルメッセージをテストする機能も提供されています。これにより、レンダリング、パーソナライゼーション属性、その他すべての設定を確認できます。
 
-業界標準と規制に従って、すべての SMS／MMS マーケティングメッセージには、受信者が簡単に登録解除できる方法を含める必要があります。 SMS 受信者は、オプトインおよびオプトアウトのキーワードで返信ですることでこれを実行できます。 [オプトアウトの管理方法について学ぶ](../privacy/opt-out.md#opt-out-decision-management)
+業界標準や規制に従って、すべてのSMS/RCS/MMS マーケティングメッセージには、受信者が簡単に購読を解除できる方法が含まれている必要があります。 SMS 受信者は、オプトインおよびオプトアウトのキーワードで返信ですることでこれを実行できます。 [オプトアウトの管理方法について学ぶ](../privacy/opt-out.md#opt-out-decision-management)
 
-## テキストメッセージの追加 {#create-sms-journey-campaign}
+## モバイルメッセージの追加 {#create-sms-journey-campaign}
 
 キャンペーンまたはジャーニーにモバイルメッセージを追加する方法については、以下のタブを参照してください。
 
 >[!BEGINTABS]
 
->[!TAB ジャーニーへのテキストメッセージの追加]
+>[!TAB ジャーニーにモバイルメッセージを追加]
 
-1. ジャーニーを開き、パレットの「**[!UICONTROL アクション]**」セクションから「**[!UICONTROL アクション]**」アクティビティをドラッグ&amp;ドロップします。 [&#x200B; アクションアクティビティ &#x200B;](../building-journeys/journey-action.md)の詳細をご覧ください。
+1. ジャーニーを開き、パレットの「**[!UICONTROL アクション]**」セクションから「**[!UICONTROL アクション]**」アクティビティをドラッグ&amp;ドロップします。 [ アクションアクティビティ ](../building-journeys/journey-action.md)の詳細をご覧ください。
 
    >[!IMPORTANT]
    >
@@ -81,9 +69,9 @@ Adobe Journey Optimizer を使用して、テキスト（SMS）、リッチ通�
 
 1. ジャーニーキャンバスに戻ります。 必要に応じて、追加のアクションまたはイベントをドラッグ＆ドロップして、ジャーニーフローを完了します。 [詳細情報](../building-journeys/about-journey-activities.md)
 
-ジャーニーの作成、設定、公開の方法について詳しくは、[このページ &#x200B;](../building-journeys/journey-gs.md)を参照してください。
+ジャーニーの作成、設定、公開の方法について詳しくは、[このページ ](../building-journeys/journey-gs.md)を参照してください。
 
->[!TAB キャンペーンへのテキストメッセージの追加]
+>[!TAB  モバイルメッセージをキャンペーンに追加]
 
 1. **[!UICONTROL キャンペーン]**&#x200B;メニューにアクセスし、「**[!UICONTROL キャンペーンを作成]**」をクリックします。
 
@@ -97,7 +85,7 @@ Adobe Journey Optimizer を使用して、テキスト（SMS）、リッチ通�
 
 1. 「**[!UICONTROL アクション]**」タブで、**[!UICONTROL アクションを追加]**&#x200B;をクリックし、**[!UICONTROL モバイルメッセージ]**&#x200B;を選択します。 次に、新しい設定を選択または作成します。
 
-   モバイルメッセージの設定について詳しくは、[このページ &#x200B;](mobile-configuration.md)を参照してください。
+   モバイルメッセージの設定について詳しくは、[このページ ](mobile-configuration.md)を参照してください。
 
    ![](assets/sms_create_3.png)
 
@@ -118,9 +106,9 @@ Adobe Journey Optimizer を使用して、テキスト（SMS）、リッチ通�
    * 毎週
    * 月
 
-これで、以下に説明するように、「**[!UICONTROL コンテンツを編集]**」ボタンからテキストメッセージのコンテンツのデザインを開始できます。 [詳細情報](design-mobile.md)
+次の詳細に従って、「**[!UICONTROL コンテンツを編集]**」ボタンからモバイルメッセージのコンテンツのデザインを開始できるようになりました。 [詳細情報](design-mobile.md)
 
-キャンペーンの作成、設定およびアクティベート方法について詳しくは、[このページ &#x200B;](../campaigns/get-started-with-campaigns.md)を参照してください。
+キャンペーンの作成、設定およびアクティベート方法について詳しくは、[このページ ](../campaigns/get-started-with-campaigns.md)を参照してください。
 
 >[!ENDTABS]
 
@@ -128,7 +116,7 @@ Adobe Journey Optimizer を使用して、テキスト（SMS）、リッチ通�
 
 * [モバイルメッセージのデザイン](design-mobile.md)
 * [キャンペーンへのメッセージの追加](../campaigns/create-campaign.md)
-* [テキストメッセージのプレビュー、テスト、送信](send-mobile-message.md)
+* [モバイルメッセージのプレビュー、テスト、送信](send-mobile-message.md)
 * [モバイルメッセージチャネルの設定](mobile-configuration.md)
 * [モバイルメッセージレポート](../reports/journey-global-report-cja-sms.md)
 

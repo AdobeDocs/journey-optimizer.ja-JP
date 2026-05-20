@@ -2,36 +2,28 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Infobip プロバイダーの設定
-description: Infobip を使用して Journey Optimizer でテキストメッセージおよび MMS を送信するように環境を設定する方法を説明します
+description: Journey OptimizerとInfobipを使用して、モバイルメッセージやMMSを送信する環境を設定する方法について説明します
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: 7b6dc89a-1a81-49c2-b2a7-bf24b9d215e3
 TQID: https://experienceleague.adobe.com/hkloRlDuOO-lNSezWvOcD3dtsHrhDqCJGo3cHq5pWog
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-subfeature_v2:
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126
+subfeature_v2: id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
 source-wordcount: 769
-ht-degree: 83%
+ht-degree: 81%
 
 ---
 
 # Infobip プロバイダーの設定 {#sms-configuration-infobip}
 
-InfobipとAdobe Journey Optimizerを統合することで、ジャーニーやキャンペーンの一環として、プロファイルにテキストメッセージを配信できます。
+InfobipとAdobe Journey Optimizerを統合することで、ジャーニーやキャンペーンの一環として、プロファイルにモバイルメッセージを配信できます。
 
 InfobipをSMS プロバイダーとして設定するには、次の手順に従います。
 
@@ -67,7 +59,7 @@ Journey Optimizer に Infobip を設定するには、次の手順に従いま�
 
    **[!UICONTROL あいまいオプトアウト]**&#x200B;は、メッセージが定義済みのオプトアウトキーワードと完全に一致しない場合でも、ユーザーが登録解除を希望していることを示す SMS メッセージを識別します。 一般的なオプトアウトフレーズや特定の攻撃用語を検出できるので、キャンペーンでユーザーの環境設定を適用し、コンプライアンスを維持するのに役立ちます。
 
-1. 「**[!UICONTROL インバウンドのカスタムデータセットを使用]**」を選択して、この資格情報のインバウンド SMSを、ドロップダウンから選択した事前作成データセットにルーティングします。 [&#x200B; インバウンドキーワードのカスタムデータセットの使用について詳しく見る](custom-dataset-inbound-keywords.md)
+1. 「**[!UICONTROL インバウンドのカスタムデータセットを使用]**」を選択して、この資格情報のインバウンド SMSを、ドロップダウンから選択した事前作成データセットにルーティングします。 [ インバウンドキーワードのカスタムデータセットの使用について詳しく見る](custom-dataset-inbound-keywords.md)
 
    >[!NOTE]
    >

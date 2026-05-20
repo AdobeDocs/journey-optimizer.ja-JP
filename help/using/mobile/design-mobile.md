@@ -1,16 +1,16 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: SMS／MMS メッセージの作成
-description: Journey Optimizer で SMS／MMS メッセージを作成する方法を学ぶ
+title: SMS/RCS/MMS メッセージの作成
+description: Journey OptimizerでSMS/RCS/MMS メッセージを作成する方法を説明します
 feature: SMS
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: '1377'
-ht-degree: 30%
+source-wordcount: '1380'
+ht-degree: 29%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 30%
 
 Adobe Journey Optimizerを使用すれば、テキスト（SMS）、リッチコミュニケーション（RCS）、マルチメディア（MMS）メッセージをデザインして送信できます。 最初に、ジャーニーまたはキャンペーンにモバイルメッセージアクションを追加し、次に詳細に説明するように、モバイルメッセージのコンテンツを定義する必要があります。 Adobe Journey Optimizerでは、送信前にモバイルメッセージをテストする機能も提供されています。これにより、レンダリング、パーソナライゼーション属性、その他すべての設定を確認できます。
 
-業界標準や規制に従って、すべてのSMS/MMS マーケティングメッセージには、プロファイルが簡単に購読を解除できる方法が含まれている必要があります。 これを行うには、SMS プロファイルはオプトインキーワードとオプトアウトキーワードで返信できます。 [オプトアウトの管理方法について学ぶ](../privacy/opt-out.md#opt-out-decision-management)
+業界標準や規制に従って、すべてのSMS/RCS/MMS マーケティングメッセージには、プロファイルが簡単に購読を解除できる方法が含まれている必要があります。 これを行うには、SMS プロファイルはオプトインキーワードとオプトアウトキーワードで返信できます。 [オプトアウトの管理方法について学ぶ](../privacy/opt-out.md#opt-out-decision-management)
 
 ## RCS コンテンツの定義{#rcs-content}
 
@@ -127,7 +127,7 @@ RCS メッセージコンテンツを定義するには、次の手順に従い�
 
    ![](assets/sms-content.png)
 
-1. テキスト生成に[AI アシスタント &#x200B;](../content-management/generative-text.md)を使用して、オーディエンスに合わせた魅力的なモバイルメッセージを生成します。
+1. テキスト生成に[AI アシスタント ](../content-management/generative-text.md)を使用して、オーディエンスに合わせた魅力的なモバイルメッセージを生成します。
 
 1. パーソナライゼーションエディターを使用して、コンテンツの定義、パーソナライゼーションと動的コンテンツの追加を行います。 プロファイル名や市区町村など、任意の属性を使用できます。 また、条件ルールを定義することもできます。 パーソナライゼーションエディターの[パーソナライゼーション](../personalization/personalize.md)と[動的コンテンツ](../personalization/get-started-dynamic-content.md)について詳しくは、次のページを参照してください。
 
@@ -169,7 +169,7 @@ RCS メッセージコンテンツを定義するには、次の手順に従い�
 
 MMS コンテンツを作成するには、次の手順に従います。
 
-1. [このセクション &#x200B;](#create-sms-journey-campaign)の説明に従って、モバイルメッセージを作成します。
+1. [このセクション ](#create-sms-journey-campaign)の説明に従って、モバイルメッセージを作成します。
 
 1. [この節](#sms-content)の説明に従って、SMS コンテンツを編集します。
 
