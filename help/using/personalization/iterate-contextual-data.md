@@ -33,7 +33,7 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 3075
 ht-degree: 98%
@@ -46,7 +46,7 @@ Handlebars 反復構文を使用して、イベント、カスタムアクショ
 
 ## 概要 {#overview}
 
-Journey Optimizer では、[メッセージのパーソナライゼーション](personalize.md)中に複数のソースからのコンテキストデータにアクセスできます。 ネイティブチャネル（[メール](../email/get-started-email-design.md)、[プッシュ](../push/create-push.md)、[SMS](../sms/create-sms.md)）で Handlebars 構文を使用して、これらのソースからの配列を反復処理し、製品リスト、レコメンデーション、その他の繰り返し要素などの動的コンテンツを表示できます。
+Journey Optimizer では、[メッセージのパーソナライゼーション](personalize.md)中に複数のソースからのコンテキストデータにアクセスできます。 ネイティブチャネル（[メール](../email/get-started-email-design.md)、[プッシュ](../push/create-push.md)、[SMS](../mobile/create-mobile-message.md)）で Handlebars 構文を使用して、これらのソースからの配列を反復処理し、製品リスト、レコメンデーション、その他の繰り返し要素などの動的コンテンツを表示できます。
 
 **使用可能なコンテキストソース：**
 
@@ -1072,4 +1072,4 @@ Handlebars には、ループ内で高度な反復パターンを実行するの
 
 **パーソナライゼーションのユースケース：**&#x200B;[買い物かご放棄メール](personalization-use-case-helper-functions.md) | [注文ステータス通知](personalization-use-case.md)
 
-**メッセージデザイン：**&#x200B;[メールデザインの基本を学ぶ](../email/get-started-email-design.md) | [プッシュ通知の作成](../push/create-push.md) | [SMS メッセージの作成](../sms/create-sms.md) | [コンテンツのプレビューとテスト](../content-management/preview-test.md)
+**メッセージデザイン：**&#x200B;[メールデザインの基本を学ぶ](../email/get-started-email-design.md) | [プッシュ通知の作成](../push/create-push.md) | [SMS メッセージの作成](../mobile/create-mobile-message.md) | [コンテンツのプレビューとテスト](../content-management/preview-test.md)

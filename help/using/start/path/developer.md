@@ -33,7 +33,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 2079
 ht-degree: 97%
@@ -217,7 +217,7 @@ Journey Optimizer は、プログラムによるアクセス用の包括的な R
 
 1. **Decisioning 移行 API**：柔軟なスコープ、自動検証、ロールバックのサポートにより、意思決定管理エンティティを Decisioning にプログラムで移行します。 詳しくは、[Decision 移行 API ガイド](../../experience-decisioning/decisioning-migration-api.md)を参照してください。
 
-1. **SMS Webhook**：受信メッセージを取得するように受信 Webhook を設定し、配信レシートとステータス更新を受信するようにフィードバック Webhook を設定します。 [詳細情報](../../sms/sms-webhook.md)
+1. **SMS Webhook**：受信メッセージを取得するように受信 Webhook を設定し、配信レシートとステータス更新を受信するようにフィードバック Webhook を設定します。 [詳細情報](../../mobile/mobile-webhook.md)
 
 ## テストとデバッグ {#testing}
 

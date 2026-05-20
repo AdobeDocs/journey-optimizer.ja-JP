@@ -21,10 +21,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: ede238f1b1acd119cc201639488dd12fbcd518cf
 workflow-type: tm+mt
-source-wordcount: 2257
-ht-degree: 62%
+source-wordcount: 2285
+ht-degree: 61%
 
 ---
 
@@ -131,9 +131,13 @@ ht-degree: 62%
 
    +++
 
-電子メールDesignerで&#x200B;**[!UICONTROL 独自の]**&#x200B;をコード化するモードを使用する場合は、意思決定ポリシーを追加することもできます。 これを行うには、**[!UICONTROL 決定ポリシー]**&#x200B;に移動して、決定ポリシーコードを挿入します。 [独自のメールコンテンツをコーディングする方法について説明します](../email/code-content.md)。
+電子メールDesignerで&#x200B;**[!UICONTROL 独自の]**&#x200B;をコード化するモードを使用する場合は、意思決定ポリシーを追加することもできます。 これを行うには、**[!UICONTROL 決定ポリシー]**&#x200B;に移動して、決定ポリシーコードを挿入します。プレースメント選択UIが表示され、決定ポリシーのプレースメントを選択できます。 [独自のメールコンテンツをコーディングする方法について説明します](../email/code-content.md)。
 
 ![](assets/decision-policy-add-code-your-own.png)
+
+>[!AVAILABILITY]
+>
+>**[!UICONTROL 独自の]** モードをコード化して決定ポリシーを挿入すると、使用制限があります。
 
 >[!NOTE]
 >

@@ -8,7 +8,7 @@ topic: Content Management
 role: User, Developer
 level: Intermediate
 keywords: ディープリンク、ディープリンク、ユニバーサルリンク、アプリリンク、電子メール、sms
-source-git-commit: 3d3218e24074ffb8ec36f1ec14ff8a6c45950d90
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: '1277'
 ht-degree: 1%
@@ -48,7 +48,7 @@ ht-degree: 1%
 
 ### SMS {#authoring-sms}
 
-SMSの場合、ディープリンクは、パーソナライゼーションエディターの&#x200B;**Url** ヘルパー関数を使用して作成されます。 SMS コンテンツへのリンクの追加について詳しくは、[この節](../sms/create-sms.md#sms-content)を参照してください。
+SMSの場合、ディープリンクは、パーソナライゼーションエディターの&#x200B;**Url** ヘルパー関数を使用して作成されます。 SMS コンテンツへのリンクの追加について詳しくは、[この節](../mobile/create-mobile-message.md#sms-content)を参照してください。
 
 SMS コンテンツにディープリンクを挿入するには、次の構文を使用します。
 

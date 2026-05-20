@@ -13,10 +13,10 @@ feature_v2:
   - id: d556b755-390a-43f0-be32-a08cf6236126
 subfeature_v2:
   - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: ede238f1b1acd119cc201639488dd12fbcd518cf
 workflow-type: tm+mt
-source-wordcount: 1183
-ht-degree: 94%
+source-wordcount: 1227
+ht-degree: 85%
 
 ---
 
@@ -63,17 +63,17 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_scheduler"
 >title="スケジューラー"
->abstract="キャンペーンマネージャーは、キャンペーンを特定の時間に自動的に開始するようにスケジュールできるので、マーケティングコミュニケーション用の正確なタイミングと正確なターゲティングデータが可能になります。"
+>abstract="キャンペーンマネージャーは、キャンペーンを特定の時間に自動的に開始するようにスケジュールしたり、REST APIまたは別のオーケストレーションされたキャンペーンの&#x200B;**終了** アクティビティから呼び出されたときに開始するように、**シグナルによってトリガー**&#x200B;を設定したりできます。 [詳細情報](trigger-orchestrated-campaign.md)"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_schedule_validity"
 >title="スケジューラーの有効性"
->abstract="スケジューラーの有効期間を定義できます。 永続的（デフォルト）にすることも、特定の日付まで有効にすることもできます。"
+>abstract="スケジュールされたキャンペーンの場合は、スケジューラーの有効期間を定義します。 この値は永続的（デフォルト）にすることも、特定の日付まで有効にすることもできます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_schedule_options"
 >title="スケジューラーオプション"
->abstract="スケジューラーの頻度を定義します。 特定の時点で、1 日、1 週間、1 か月に 1 回または数回実行できます。"
+>abstract="キャンペーンの開始方法を選択します。1回限りのスケジュールまたは定期的なスケジュール（1回、毎日、毎週、毎月など）、または&#x200B;**シグナルによってトリガー**&#x200B;され、API呼び出しまたはアップストリームキャンペーンの&#x200B;**終了** アクティビティを待機します。 シグナルトリガー型キャンペーンの場合は、ペイロードに渡すパラメーターを定義できます。 [詳細情報](trigger-orchestrated-campaign.md)"
 
 デフォルトでは、調整されたキャンペーンは手動でアクティブ化する際に開始され、関連するアクティビティを実行すると終了します。 実行を遅らせたり、キャンペーンを繰り返し実行したりする場合は、キャンペーンのスケジュールを定義できます。
 

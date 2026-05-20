@@ -28,7 +28,7 @@ topic_v2:
   - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 1291
 ht-degree: 99%
@@ -77,11 +77,11 @@ Journey Optimizer のメールと SMS メッセージでオプトアウトを管
 <p>
 </td>
 <td>
-<a href="../sms/sms-opt-out.md">
+<a href="../mobile/mobile-opt-out.md">
 <img alt="低頻度" src="../assets/do-not-localize/privacy-sms-opt-out.jpeg" width="50%">
 </a>
 <div>
-<a href="../sms/sms-opt-out.md"><strong>SMS オプトアウトの管理</strong></a>
+<a href="../mobile/mobile-opt-out.md"><strong>SMS オプトアウトの管理</strong></a>
 </div>
 <p></td>
 </tr></table>

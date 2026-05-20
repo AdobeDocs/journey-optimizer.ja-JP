@@ -30,7 +30,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 1898
 ht-degree: 94%
@@ -55,7 +55,7 @@ ht-degree: 94%
 >
 > * チャネル設定を作成、編集、削除するには、[メッセージプリセットを管理](../administration/high-low-permissions.md#administration-permissions)権限が必要です。
 >
-> * チャネル設定を作成する前に、[メール設定](../email/get-started-email-config.md)、[プッシュ設定](../push/push-configuration.md)、[SMS 設定](../sms/sms-configuration.md)、[アプリ内設定](../in-app/inapp-configuration.md)、[コードベースの設定](../code-based/code-based-configuration.md)、[web 設定](../web/web-configuration.md)、[ダイレクトメール設定](../direct-mail/direct-mail-configuration.md)の手順を実行する必要があります。
+> * チャネル設定を作成する前に、[メール設定](../email/get-started-email-config.md)、[プッシュ設定](../push/push-configuration.md)、[SMS 設定](../mobile/mobile-configuration.md)、[アプリ内設定](../in-app/inapp-configuration.md)、[コードベースの設定](../code-based/code-based-configuration.md)、[web 設定](../web/web-configuration.md)、[ダイレクトメール設定](../direct-mail/direct-mail-configuration.md)の手順を実行する必要があります。
 
 チャネル設定を設定すると、ジャーニーまたはキャンペーンからメッセージを作成する際にチャネル設定を選択できるようになります。
 

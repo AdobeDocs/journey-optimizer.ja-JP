@@ -32,7 +32,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 1296
 ht-degree: 5%
@@ -91,7 +91,7 @@ Funnelの主な要素に対する意思決定項目と選択戦略のパフォ�
 
 * **ポリシーの適用**: Decisioning内で[&#x200B; データ使用ラベル付けと適用（DULE） &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/overview){target="_blank"}および[同意](../action/consent.md)などの機能を使用するためのビジネスユーザーの権限を付与し、Decisioning ワークフロー全体でプライバシーシールド保護を有効にします。 これにより、意思決定において、データ使用ポリシーと顧客の同意設定が自動的に尊重されるようになります。
 
-* **ネイティブメッセージングチャネルのサポート**：複数のチャネルにまたがる単一のフレームワーク内での統合されたメッセージと決定：[&#x200B; コードベースのエクスペリエンス &#x200B;](../code-based/get-started-code-based.md)、[電子メール &#x200B;](../email/get-started-email.md) （限定提供）、[SMS](../sms/get-started-sms.md)、[&#x200B; プッシュ通知](../push/get-started-push.md)。 直感的なUI サポートにより、ユーザーはメッセージ作成ワークフローに意思決定コンポーネントを直接挿入できます。
+* **ネイティブメッセージングチャネルのサポート**：複数のチャネルにまたがる単一のフレームワーク内での統合されたメッセージと決定：[&#x200B; コードベースのエクスペリエンス &#x200B;](../code-based/get-started-code-based.md)、[電子メール &#x200B;](../email/get-started-email.md) （限定提供）、[SMS](../mobile/get-started-mobile.md)、[&#x200B; プッシュ通知](../push/get-started-push.md)。 直感的なUI サポートにより、ユーザーはメッセージ作成ワークフローに意思決定コンポーネントを直接挿入できます。
 
 * **Experience Platform データセット ルックアップ**: [Adobe Experience Platform データセット &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/overview){target="_blank"}を、オファーの選択ルール、ランキング、パーソナライズされたオファーコンテンツ内に直接アップロードして参照する機能。 これにより、意思決定ロジックで動的な外部データソースを使用できるようになり、パーソナライゼーションとターゲティングの柔軟性が向上します。 [詳細情報](../data/lookup-aep-data.md)
 

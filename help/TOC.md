@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a9be72c0fe115e44a6cf9ef9e877c0eb97b9cc00
+source-git-commit: 7b5244e8bdbbe7458f283ac883cfaf1d695b332e
 workflow-type: tm+mt
-source-wordcount: '3326'
-ht-degree: 97%
+source-wordcount: '3318'
+ht-degree: 96%
 
 ---
 
@@ -339,23 +339,23 @@ ht-degree: 97%
          + [プッシュ通知チャネルの設定](using/push/push-configuration.md)
          + [Web プッシュ通知チャネルの設定](using/push/push-configuration-web.md)
          + [モバイルオンボーディングのクイックスタートワークフロー](using/push/mobile-onboarding-wf.md)
-   + SMS／MMS／RCS チャネル {#sms}
-      + [SMS／MMS／RCS チャネル](/help/rp_landing_pages/sms-landing-page.md)
-      + [テキストメッセージの基本を学ぶ](using/sms/get-started-sms.md)
-      + [SMS／MMS／RCS メッセージの作成](using/sms/create-sms.md)
-      + [テキストメッセージの確認および送信](using/sms/send-sms.md)
-      + [テキストメッセージのオプトアウトの管理](using/sms/sms-opt-out.md)
-      + [SMS サブドメインの設定](using/sms/sms-subdomains.md)
-      + [SMS コスト最適化のベストプラクティス](using/sms/sms-cost-optimization.md)
-      + SMS／MMS／RCS チャネルの設定 {#configure-sms}
-         + [SMS／MMS／RCS 設定の基本を学ぶ](using/sms/sms-configuration.md)
-         + [Sinch プロバイダーの設定](using/sms/sms-configuration-sinch.md)
-         + [Infobip プロバイダーの設定](using/sms/sms-configuration-infobip.md)
-         + [Twilio プロバイダーの設定](using/sms/sms-configuration-twilio.md)
-         + [カスタムプロバイダーの設定](using/sms/sms-configuration-custom.md)
-         + [Webhook の作成](using/sms/sms-webhook.md)
-         + [SMS／MMS／RCS 設定の作成](using/sms/sms-configuration-surface.md)
-         + [インバウンドキーワードにカスタムデータセットを使用する](using/sms/custom-dataset-inbound-keywords.md)
+   + SMS／MMS／RCS チャネル {#mobile}
+      + [モバイルメッセージの基本を学ぶ](using/mobile/get-started-mobile.md)
+      + [モバイルメッセージの作成](using/mobile/create-mobile-message.md)
+      + [モバイルメッセージのデザイン](using/mobile/design-mobile.md)
+      + [モバイルメッセージの確認と送信](using/mobile/send-mobile-message.md)
+      + [モバイルメッセージのオプトアウトの管理](using/mobile/mobile-opt-out.md)
+      + [SMS サブドメインの設定](using/mobile/mobile-subdomains.md)
+      + [SMS コスト最適化のベストプラクティス](using/mobile/mobile-cost-optimization.md)
+      + モバイルチャネルの設定 {#configure-mobile}
+         + [モバイル設定の基本を学ぶ](using/mobile/mobile-configuration.md)
+         + [Sinch プロバイダーの設定](using/mobile/mobile-configuration-sinch.md)
+         + [Infobip プロバイダーの設定](using/mobile/mobile-configuration-infobip.md)
+         + [Twilio プロバイダーの設定](using/mobile/mobile-configuration-twilio.md)
+         + [カスタムプロバイダーの設定](using/mobile/mobile-configuration-custom.md)
+         + [Webhook の作成](using/mobile/mobile-webhook.md)
+         + [モバイル設定の作成](using/mobile/mobile-configuration-surface.md)
+         + [インバウンドキーワードにカスタムデータセットを使用する](using/mobile/custom-dataset-inbound-keywords.md)
    + ダイレクトメール {#direct-mail}
       + [ダイレクトメール](/help/rp_landing_pages/direct-mail-landing-page.md)
       + [ダイレクトメールの基本を学ぶ](using/direct-mail/get-started-direct-mail.md)

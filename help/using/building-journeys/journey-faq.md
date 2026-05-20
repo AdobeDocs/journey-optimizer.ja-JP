@@ -52,7 +52,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 82c3ff093eef40fa31fc0f3bb7baa32c857ff6ea
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 5499
 ht-degree: 87%
@@ -661,7 +661,7 @@ Learn more about [action responses](../action/action-response.md).
 2. 優先チャネルプロファイル属性（例：`profile.preferredChannel`）を確認して、各チャネルのパスを作成します
 3. チャネル固有のパスを設定します。
    * **メールパス**：メールに最適化されたコンテンツを含む[メールアクション](../email/create-email.md)を追加します
-   * **SMS パス**：簡潔なメッセージを含む [SMS アクション](../sms/create-sms.md)を追加します
+   * **SMS パス**：簡潔なメッセージを含む [SMS アクション](../mobile/create-mobile-message.md)を追加します
    * **プッシュパス**：アクションにつながる短いコンテンツを含む[プッシュ通知アクション](../push/create-push.md)を追加します
    * **アプリ内パス**：関与したアプリユーザーに対する[アプリ内メッセージアクション](../in-app/create-in-app.md)を追加します
 4. 環境設定のないプロファイルにデフォルトパスを追加し、プライマリチャネルにルーティングします

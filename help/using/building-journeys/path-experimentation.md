@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 keywords: 実験、実験、ジャーニー、パス、最適化、A/B テスト、マルチアームドバンディット、勝者を拡大
 exl-id: 7241ade3-577c-4bb3-b0c3-017133871ca5
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: '1147'
 ht-degree: 78%
@@ -83,7 +83,7 @@ ht-degree: 78%
 
    * 最初の分岐に 2 日間の[待機](wait-activity.md)アクティビティをドラッグ＆ドロップし、その後に[メール](../email/create-email.md)アクティビティ（**処理 B**）をドラッグ＆ドロップします。
 
-   * [メール](../email/create-email.md)アクティビティを 3 番目の分岐にドラッグ＆ドロップし、その後に [SMS](../sms/create-sms.md) アクティビティ（**処理 C**）をドラッグ＆ドロップします。
+   * [メール](../email/create-email.md)アクティビティを 3 番目の分岐にドラッグ＆ドロップし、その後に [SMS](../mobile/create-mobile-message.md) アクティビティ（**処理 C**）をドラッグ＆ドロップします。
 
    ![3つの処理パスを使用したパスの実験例](assets/journey-optimize-experiment-ex.png){width=100%}
 

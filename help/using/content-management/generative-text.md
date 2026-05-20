@@ -27,7 +27,7 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 1625
 ht-degree: 99%
@@ -145,13 +145,13 @@ AI アシスタントは、プッシュ通知や SMS メッセージ用の魅力
 
 1. モバイルキャンペーンを作成および設定します。
    * **プッシュ通知**：プッシュ通知キャンペーンを作成および設定したら、「**[!UICONTROL コンテンツを編集]**」をクリックします。 [詳細情報](../push/create-push.md)
-   * **SMS**：SMS キャンペーンを作成および設定したら、「**[!UICONTROL コンテンツを編集]**」をクリックします。 [詳細情報](../sms/create-sms.md)
+   * **SMS**：SMS キャンペーンを作成および設定したら、「**[!UICONTROL コンテンツを編集]**」をクリックします。 [詳細情報](../mobile/create-mobile-message.md)
 
 1. キャンペーンの&#x200B;**[!UICONTROL 基本的な詳細]**&#x200B;を入力します。 完了したら、「**[!UICONTROL コンテンツを編集]**」をクリックします。
 
 1. 必要に応じて、メッセージをパーソナライズします。
    * **プッシュ通知**：[詳細情報](../push/design-push.md)
-   * **SMS**：[詳細情報](../sms/create-sms.md)
+   * **SMS**：[詳細情報](../mobile/create-mobile-message.md)
 
 1. AI アシスタントへのアクセス：
    * **プッシュ通知の場合**：「**[!UICONTROL タイトル]**」フィールドまたは「**[!UICONTROL メッセージ]**」フィールドの横にある&#x200B;**[!UICONTROL AI アシスタントでテキストを編集]**&#x200B;メニューをクリックします。 また、**AI アシスタント**&#x200B;メニューに直接アクセスすることもできます。

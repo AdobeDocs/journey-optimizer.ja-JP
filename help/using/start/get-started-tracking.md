@@ -42,7 +42,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 1962
 ht-degree: 97%
@@ -193,9 +193,9 @@ SMS トラッキングには、最小限の設定が必要です。Journey Optim
 
 **仕組み：**
 
-* **自動リンクトラッキング** - URL ヘルパー機能を使用して、SMS コンテンツに任意の URL を追加します。 Journey Optimizer は、追加の設定なしで、リンクを自動的に短縮し、クリック数を追跡します。 URL 短縮を使用するには、最初に SMS サブドメインを設定する必要があります。 [詳細情報](../sms/sms-subdomains.md)
+* **自動リンクトラッキング** - URL ヘルパー機能を使用して、SMS コンテンツに任意の URL を追加します。 Journey Optimizer は、追加の設定なしで、リンクを自動的に短縮し、クリック数を追跡します。 URL 短縮を使用するには、最初に SMS サブドメインを設定する必要があります。 [詳細情報](../mobile/mobile-subdomains.md)
 
-* **インバウンドメッセージトラッキング** - 受信者からの返信は自動的にキャプチャされるので、双方向の対話と応答パターンを監視できます。 [詳細情報](../sms/sms-opt-out.md#sms-native-keywords)
+* **インバウンドメッセージトラッキング** - 受信者からの返信は自動的にキャプチャされるので、双方向の対話と応答パターンを監視できます。 [詳細情報](../mobile/mobile-opt-out.md#sms-native-keywords)
 
 **指標の表示：**&#x200B;レポートでリンククリックデータ、インバウンドメッセージの量、メッセージタイプのパフォーマンスにアクセスします。 [キャンペーンレポート](../reports/campaign-global-report-cja-sms.md) | [ジャーニーレポート](../reports/journey-global-report-cja-sms.md)
 

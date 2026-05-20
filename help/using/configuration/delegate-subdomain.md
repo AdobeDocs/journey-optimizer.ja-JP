@@ -26,7 +26,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 1963
 ht-degree: 97%
@@ -273,7 +273,7 @@ CNAME を使用してサブドメインを設定するには、次の手順に�
 
 1. このサブドメインに関連付けられているランディングページサブドメイン、SMS サブドメインおよび web サブドメインをデリゲート解除します。
 
-   [ランディングページ](../landing-pages/lp-subdomains.md#undelegate-subdomain)、[SMS](../sms/sms-subdomains.md#undelegate-subdomain) または [web サブドメイン](../web/web-delegated-subdomains.md#undelegate-subdomain)ごとに専用のリクエストを作成する必要があります。
+   [ランディングページ](../landing-pages/lp-subdomains.md#undelegate-subdomain)、[SMS](../mobile/mobile-subdomains.md#undelegate-subdomain) または [web サブドメイン](../web/web-delegated-subdomains.md#undelegate-subdomain)ごとに専用のリクエストを作成する必要があります。
 
 1. サブドメインに関連付けられているアクティブなキャンペーンを停止します。 [方法についてはこちらを参照](../campaigns/manage-campaigns.md#stop)
 

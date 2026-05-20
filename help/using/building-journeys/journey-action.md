@@ -36,7 +36,7 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 1569
 ht-degree: 80%
@@ -128,11 +128,11 @@ ht-degree: 80%
       <p>
       </td>
       <td>
-      <a href="../sms/create-sms.md">
+      <a href="../mobile/create-mobile-message.md">
       <img alt="検証" src="../assets/do-not-localize/sms.jpg">
       </a>
       <div>
-      <a href="../sms/create-sms.md"><strong>テキストメッセージ（SMS／MMS）の作成</strong></a>
+      <a href="../mobile/create-mobile-message.md"><strong>テキストメッセージ（SMS／MMS）の作成</strong></a>
       </div>
       <p>
       </td>

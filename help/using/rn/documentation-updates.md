@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 8f23da537097fa514b19f9d6e8be025ba86f8a05
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: '7833'
 ht-degree: 91%
@@ -141,7 +141,7 @@ ht-degree: 91%
 
 * 決定でのフラグメントの使用に関するドキュメントが更新されました。フラグメントと決定の節にメモが追加され、決定ポリシーでのフラグメントのページが更新されました。 [詳細情報](../experience-decisioning/fragments-decision-policies.md)
 
-* SMS webhook ドキュメントが更新されました。Twilio webhook コンテンツが削除されました。 [詳細情報](../sms/sms-webhook.md)
+* SMS webhook ドキュメントが更新されました。Twilio webhook コンテンツが削除されました。 [詳細情報](../mobile/mobile-webhook.md)
 
 * **コンテンツテンプレートへの画像の変換**&#x200B;ドキュメントが強化され、ガードレールとレコメンデーション、一般的なユースケース、画像デザインを編集可能な HTML コンテンツテンプレートに変換するためのより明確なガイダンスが追加されました。 また、コンバージョンの入力としてテーマを使用できるようになったことも記載されています。 [詳細情報](../content-management/image-to-html.md)
 
@@ -453,9 +453,9 @@ ht-degree: 91%
 * ダイレクトメール設定ページに、出力ファイルの一時的な保存に関するメモが追加されました。 [詳細情報](../direct-mail/direct-mail-configuration.md)
 * ジャーニーの高度な式エディターの節に、条件形式のガイドラインに関するヒントが追加されました。 [詳細情報](../building-journeys/expression/expressionadvanced.md)
 * `inAudience` 関数の節に、オーディエンスの名前を変更した際の影響とベストプラクティスに関する注意事項が追加されました。 [詳細情報](../building-journeys/functions/functioninaudience.md)
-* 双方向 SMS を使用する際のネイティブキーワードの使用に関するレコメンデーションが追加されました。 [詳細情報](../sms/sms-opt-out.md)
+* 双方向 SMS を使用する際のネイティブキーワードの使用に関するレコメンデーションが追加されました。 [詳細情報](../mobile/mobile-opt-out.md)
 * 使用するイベントに ID 名前空間を含める必要があることに関するメモが追加され、ジャーニーテストページが更新されました。 [詳細情報](../building-journeys/testing-the-journey.md)
-* 現在、[!UICONTROL Journey Optimizer] ユーザーインターフェイスからサブドメインのデリゲートを解除することはできません。アドビ担当者にお問い合わせください。 [メール](../configuration/delegate-subdomain.md#undelegate-subdomain)、[SMS](../sms/sms-subdomains.md#undelegate-subdomain)、[web エクスペリエンス](../web/web-delegated-subdomains.md#undelegate-subdomain)、[ランディングページ](../landing-pages/lp-subdomains.md#undelegate-subdomain)について、サブドメインのデリゲートを解除する手順が詳しく説明されるようになりました。<!--[Read more](../configuration/delegate-subdomain.md#undelegate-subdomain)-->
+* 現在、[!UICONTROL Journey Optimizer] ユーザーインターフェイスからサブドメインのデリゲートを解除することはできません。アドビ担当者にお問い合わせください。 [メール](../configuration/delegate-subdomain.md#undelegate-subdomain)、[SMS](../mobile/mobile-subdomains.md#undelegate-subdomain)、[web エクスペリエンス](../web/web-delegated-subdomains.md#undelegate-subdomain)、[ランディングページ](../landing-pages/lp-subdomains.md#undelegate-subdomain)について、サブドメインのデリゲートを解除する手順が詳しく説明されるようになりました。<!--[Read more](../configuration/delegate-subdomain.md#undelegate-subdomain)-->
 * 同じエンドポイントに対するスロットル設定と共に使用する方法に関するガイダンスなど、ジャーニーの Capping API のオプションの `maxHttpConnections` パラメーターに関する説明が追加されました。 [詳細情報](../configuration/throttling.md)
 * 「決定」の節に、承認済みオファー項目はコレクションまたは決定で使用する場合は削除できないことを説明するガイダンスが追加されました。 「**[!UICONTROL 承認を取り消し]**」オプションを使用してステータスを「ドラフト」に変更する手順が追加されました。 [詳細情報](../experience-decisioning/items.md#manage)
 * サンドボックスに関する情報が、新しい「サンドボックスの管理」の節にグループ化されました。 この新しい節では、サンドボックスの使用および割り当て方法と、パッケージのエクスポート機能とインポート機能を使用して、ジャーニー、コンテンツテンプレート、フラグメントなどのオブジェクトを複数のサンドボックス間でコピーする方法について説明します。 [詳細情報](../administration/sandboxes.md)
@@ -764,7 +764,7 @@ ht-degree: 91%
 
     * [Email channel](../email/get-started-email.md)
     * [Push notification channel](../../rp_landing_pages/push-landing-page.md)
-    * [SMS channel](../sms/get-started-sms.md)
+    * [SMS channel](../mobile/get-started-mobile.md)
 
 * The Configuration guide has been reorganized for improved readability. [Read more](../configuration/get-started-configuration.md)
 

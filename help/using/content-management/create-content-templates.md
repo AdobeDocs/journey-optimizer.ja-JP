@@ -24,7 +24,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 633
 ht-degree: 100%
@@ -83,7 +83,7 @@ ht-degree: 100%
    様々なチャネル用のコンテンツを作成する方法については、次の節を参照してください。
    * [メールコンテンツの定義](../email/get-started-email-design.md)
    * [プッシュコンテンツの定義](../push/design-push.md)
-   * [SMS コンテンツの定義](../sms/create-sms.md#sms-content)
+   * [SMS コンテンツの定義](../mobile/create-mobile-message.md#sms-content)
    * [ダイレクトメールコンテンツの定義](../direct-mail/create-direct-mail.md)
    * [アプリ内コンテンツの定義](../in-app/design-in-app.md)
    * [Web コンテンツの定義](../web/create-web.md#edit-web-content)

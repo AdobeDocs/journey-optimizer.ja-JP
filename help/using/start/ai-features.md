@@ -41,7 +41,7 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 2177
 ht-degree: 70%
@@ -200,7 +200,7 @@ Journey AgentのAI アシスタントには、分析と作成という2つのス
 
 ## AI技術によるコンテンツ生成 {#content-generation}
 
-生成 AI を使用して、複数のチャネルをまたいでコンテンツを作成およびパーソナライズし、ブランドの一貫性を維持しながらコンテンツ作成プロセスを高速化します。 コンテンツ生成用の AI アシスタントは、[メール](../email/get-started-email.md)、[プッシュ通知](../push/get-started-push.md)、[SMS](../sms/get-started-sms.md)、[web](../web/get-started-web.md) の各エクスペリエンスで使用でき、件名、本文、画像、完全なメッセージのバリエーションを生成するのに役立ちます。
+生成 AI を使用して、複数のチャネルをまたいでコンテンツを作成およびパーソナライズし、ブランドの一貫性を維持しながらコンテンツ作成プロセスを高速化します。 コンテンツ生成用の AI アシスタントは、[メール](../email/get-started-email.md)、[プッシュ通知](../push/get-started-push.md)、[SMS](../mobile/get-started-mobile.md)、[web](../web/get-started-web.md) の各エクスペリエンスで使用でき、件名、本文、画像、完全なメッセージのバリエーションを生成するのに役立ちます。
 
 ### 主な特長
 

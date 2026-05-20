@@ -46,7 +46,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 3645
 ht-degree: 100%
@@ -167,7 +167,7 @@ ht-degree: 100%
 <td>
 <p>Data Usage Labeling and Enforcement（DULE）ガバナンスフレームワークにより、Journey Optimizer は Adobe Experience Platform ガバナンスポリシーを活用して、機密フィールドがカスタムアクションを通じてサードパーティのシステムにエクスポートされるのを防ぐことができるようになりました。 制限されたフィールドがカスタムアクションパラメーターで特定されると、エラーが表示され、ジャーニーの公開ができなくなります。</p>
 <p>Data Usage Labeling and Enforcement（DULE）の使用は、現在、選択した顧客に限定されており、将来のリリースですべての環境にデプロイされます。</p>
-<p>詳しくは、<a href="../action/action-privacy.md">詳細なドキュメント</a>を参照してください。
+<p>詳しくは、 <a href="../action/action-privacy.md">詳細なドキュメント</a>を参照してください。
 </td>
 </tr>
 </tbody>
@@ -184,7 +184,7 @@ ht-degree: 100%
 <td>
 <p>Adobe Experience Platform では、顧客の同意設定に従ってマーケティングポリシーを簡単に採用および実施できます。 同意ポリシーは、Adobe Experience Platform で定義されます。 Journey Optimizer では、これらの同意ポリシーをカスタムアクションに適用できます。 例えば、メール、プッシュまたは SMS 通信の受信に同意しない顧客を除外する同意ポリシーを定義できます。
 <p>自動同意適用は、現在、Healthcare Shield アドオン機能を購入した組織でのみ利用できます。</p>
-<p>詳しくは、<a href="../action/consent.md">詳細なドキュメント</a>を参照してください。
+<p>詳しくは、 <a href="../action/consent.md">詳細なドキュメント</a>を参照してください。
 </td>
 </tr>
 </tbody>
@@ -201,7 +201,7 @@ ht-degree: 100%
 <td>
 <p>Journey Optimizer では、機能およびオブジェクトの権限を管理するためのユーザーの役割およびアクセスポリシーの定義をサポートしています。 <strong>Adobe Experience Cloud の権限</strong>を通じて、役割を作成および管理すると共に、それらの役割に対して必要なリソース権限を割り当てることができます。 また、権限では、特定の役割に関連付けられたラベル、サンドボックス、ユーザーを管理することもできます。</p>
 <p> 権限の使用は、現在、選択したユーザーに限定されており、将来のリリースですべての環境にデプロイされます。</p>
-<p>詳しくは、<a href="../administration/attribute-based-access.md">詳細なドキュメント</a>を参照してください。
+<p>詳しくは、 <a href="../administration/attribute-based-access.md">詳細なドキュメント</a>を参照してください。
 </td>
 </tr>
 </tbody>
@@ -314,7 +314,7 @@ table>
 <td>
 <p><b>Sinch</b> または <b>Twilio</b> との統合を使用して、Journey Optimizer で SMS の作成、パーソナライズおよび送信ができるようになりました。</p>
 <img src="assets/do-not-localize/SMS.gif"/>
-<p>SMS の作成および送信方法については、こちらの<a href="../sms/create-sms.md">詳細ドキュメント</a>を参照してください。</p>
+<p>SMS の作成および送信方法については、こちらの<a href="../mobile/create-mobile-message.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -469,7 +469,7 @@ table>
 <p><b>Sinch</b> または <b>Twilio</b> との統合を使用して、Journey Optimizer で SMS の作成、パーソナライズおよび送信ができるようになりました。</p>
 <!--img src="assets/do-not-localize/SMS.gif"/-->
 <p>SMS チャネルは現在、一連の組織でのみ使用できます（使用制限があります）。 詳しくは、アドビ担当者にお問い合わせください。</p>
-<p>SMS の作成および送信方法については、この<a href="../sms/create-sms.md">詳細なドキュメント</a>を参照してください。</p>
+<p>SMS の作成および送信方法については、この<a href="../mobile/create-mobile-message.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -538,7 +538,7 @@ table>
 <tr>
 <td>
 <p>Journey Optimizer サンドボックスから別のサンドボックスに（例：非実稼動サンドボックスから実稼動サンドボックスに）、エクスペリエンスを再作成できるようになりました。 この新しい機能では、ジャーニーが正しく実行されるために必要なオブジェクトを含め、ジャーニー全体が一方の環境からもう一方の環境にコピーされます。 ジャーニーに加えて、オファー、メッセージ、スキーマ、データセット、データソース、イベント、アクションなど、他のコンポーネントもコピーできます。</p>
-<p>詳しくは、<a href="../building-journeys/copy-to-sandbox.md">詳細なドキュメント</a>を参照してください。
+<p>詳しくは、 <a href="../building-journeys/copy-to-sandbox.md">詳細なドキュメント</a>を参照してください。
 </td>
 </tr>
 </tbody>
@@ -848,7 +848,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 <tr>
 <td>
 <p><strong>増分読み取り</strong>オプションが、繰り返しの<strong>オーディエンスを読み取り</strong>アクティビティに追加されました。 このオプションを使用すると、ジャーニーの最後の実行以降にオーディエンスにエントリした個人のみをターゲットにすることができます。 最初の実行では、常にすべてのオーディエンスメンバーがターゲットになります。</p>
-<p>詳しくは、<a href="../building-journeys/read-audience.md#configuring-segment-trigger-activity">詳細なドキュメント</a>を参照してください。
+<p>詳しくは、 <a href="../building-journeys/read-audience.md#configuring-segment-trigger-activity">詳細なドキュメント</a>を参照してください。
 </td>
 </tr>
 </tbody>
