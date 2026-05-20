@@ -5,7 +5,7 @@ title: 同意を管理
 description: 同意を管理
 redpen-status: CREATED_||_2025-08-11_21-19-40
 exl-id: ea8d895d-ec7e-40d9-814d-32135bcb8a2e
-source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 31%
@@ -58,4 +58,4 @@ ht-degree: 31%
 - **[プライバシーの基本を学ぶ](../using/privacy/get-started-privacy.md)** - データリクエストと監査ログを含む、Journey Optimizerでのプライバシー管理の概要。
 - **[データガバナンス](../using/action/action-privacy.md)** - カスタムアクションを通じて、機密性の高いフィールドをサードパーティのシステムに書き出さないようにします。
 - **[メール オプトアウトの管理](../using/email/email-opt-out.md)** - メール固有のオプトアウトと購読解除の処理を設定します。
-- **[テキストメッセージのオプトアウトの管理](../using/mobile/mobile-opt-out.md)** - SMS/MMS/RCSのオプトアウトと購読解除の処理を設定します。
+- **[モバイルメッセージのオプトアウトの管理](../using/mobile/mobile-opt-out.md)** - SMS/MMS/RCSのオプトアウトと購読解除の処理を設定します。

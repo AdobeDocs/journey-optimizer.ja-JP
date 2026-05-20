@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: SMS チャネルの設定
-description: Journey Optimizer でテキストメッセージを送信するように環境を設定する方法を学ぶ
+description: Journey Optimizerでモバイルメッセージを送信するように設定する方法について説明します
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
@@ -22,10 +22,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: 429
-ht-degree: 85%
+source-wordcount: 432
+ht-degree: 60%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 85%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"
 >title="Journey Optimizer での SMS プロバイダーの設定"
->abstract="Adobe Journey Optimizer では、SMS サービスプロバイダーを通じてテキストメッセージを送信します。 プロバイダーを選択し、API 資格情報を入力します。"
+>abstract="Adobe Journey Optimizerは、SMS サービスプロバイダーを通じてモバイルメッセージを送信します。 プロバイダーを選択し、API 資格情報を入力します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_mms_api_header"
@@ -43,8 +43,8 @@ ht-degree: 85%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api"
->title="Journey Optimizer での SMS／MMS プロバイダーの設定"
->abstract="テキストメッセージ（SMS／MMS）を送信する前に、プロバイダー設定を Journey Optimizer と統合する必要があります。 完了したら、SMS／MMS 設定を作成する必要があります。 これらの手順は、Adobe Journey Optimizer システム管理者が実行する必要があります。"
+>title="Journey Optimizerを使用したSMS/RCS/MMS プロバイダーの設定"
+>abstract="モバイルメッセージ（SMS/RCS/MMS）を送信する前に、プロバイダー設定をJourney Optimizerと統合する必要があります。 完了したら、SMS/RCS/MMS設定を作成する必要があります。 これらの手順は、Adobe Journey Optimizer システム管理者が実行する必要があります。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="SMS チャネル設定の作成"
 
 >[!CONTEXTUALHELP]
@@ -72,11 +72,11 @@ SMS、MMS または RCS を送信する前に、Adobe Journey Optimizer 環境�
 
 ## 前提条件{#sms-prerequisites}
 
-Adobe Journey Optimizer は現在、Adobe Journey Optimizer とは独立してテキストメッセージングサービスを提供する、サードパーティプロバイダーと統合されています。 テキストメッセージと MMS でサポートされているプロバイダーは、**Sinch**、**Twilio** および **Infobip** です。 [カスタムプロバイダー設定](mobile-configuration-custom.md)を使用して、追加のメッセージプロバイダーを設定できます。
+Adobe Journey Optimizerは現在、Adobe Journey Optimizerとは別にモバイルメッセージングサービスを提供するサードパーティプロバイダーと統合されています。 モバイルメッセージおよびMMSでサポートされているプロバイダーは、**Sinch**、**Twilio**、**Infobip**&#x200B;です。 [カスタムプロバイダー設定](mobile-configuration-custom.md)を使用して、追加のメッセージプロバイダーを設定できます。
 
 モバイルチャネルの設定を行う前に、これらのプロバイダーのいずれかを使用してアカウントを作成し、**API トークン**&#x200B;および&#x200B;**サービス ID**&#x200B;を取得する必要があります。これには、Adobe Journey Optimizerと該当するプロバイダーとの間の接続を設定する必要があります。
 
-テキストメッセージサービスと MMS サービスを使用した場合、該当するプロバイダーが定める追加の利用条件に同意したと見なされます。 Adobe Journey Optimizer ユーザーは、サードパーティソリューションとして、統合を通じて Sinch、Twilio、Infobip を利用できます。 サードパーティ製品について、アドビは一切関係せず、責任も負いません。 モバイルメッセージングサービスに関連する問題やサポートのリクエストについては、プロバイダーにお問い合わせください。
+お客様によるモバイルメッセージングおよびMMS サービスの使用には、該当するプロバイダーの追加条件が適用されます。 Adobe Journey Optimizer ユーザーは、サードパーティソリューションとして、統合を通じて Sinch、Twilio、Infobip を利用できます。 サードパーティ製品について、アドビは一切関係せず、責任も負いません。 モバイルメッセージングサービスに関連する問題やサポートのリクエストについては、プロバイダーにお問い合わせください。
 
 >[!CAUTION]
 >

@@ -29,10 +29,10 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: 1035
-ht-degree: 93%
+source-wordcount: 1036
+ht-degree: 90%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 93%
 
 ## SMS サブドメインの基本を学ぶ {#gs-sms-mms-subdomains}
 
-SMS／MMS メッセージに追加された URL を短縮できるようにするには、[SMS 設定を作成](mobile-configuration.md#sms-prerequisites)する際に選択するサブドメインを設定する必要があります。
+SMS/RCS/MMS メッセージに追加されたURLを短縮するには、[SMS設定の作成時に選択するサブドメインを設定する必要があります](mobile-configuration.md#sms-prerequisites)。
 
 既にアドビにデリゲートされているサブドメインを使用するか、別のサブドメインを設定できます。 サブドメインのアドビへのデリゲートについて詳しくは、[この節](../configuration/delegate-subdomain.md)を参照してください。
 

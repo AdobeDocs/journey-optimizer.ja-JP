@@ -33,10 +33,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
 source-wordcount: 618
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -72,7 +72,7 @@ iOS および Android 向けの魅力的なプッシュ通知を作成し、タ�
 
 SMS および MMS メッセージのデザイン
 
-SMS を使用してパーソナライズされたテキストメッセージを作成し、MMS を使用してマルチメディアコンテンツとのコミュニケーションを強化し、ターゲットメッセージに動的コンテンツを活用します。
+SMSを使用してパーソナライズされたモバイルメッセージを作成し、MMSを使用してマルチメディアコンテンツでコミュニケーションを強化し、ターゲットメッセージに動的コンテンツを活用します。
 
 [テキストメッセージの作成](../mobile/create-mobile-message.md)
 :::

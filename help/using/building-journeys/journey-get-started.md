@@ -41,10 +41,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
-source-wordcount: 941
-ht-degree: 91%
+source-wordcount: 943
+ht-degree: 85%
 
 ---
 
@@ -94,7 +94,7 @@ Journey Optimizer ジャーニーデザイナーには、マーケターやジ�
 
 **ビルトインアクション**
 
-**ビルトインのチャネルアクション**&#x200B;を使用して、[!DNL Journey Optimizer] でデザインしたメッセージをメール、プッシュ、SMS／MMS などをまたいで送信します。
+**組み込みのチャネルアクション**&#x200B;を使用して、電子メール、プッシュ通知、SMS/RCS/MMSなどで[!DNL Journey Optimizer]にデザインされたメッセージを送信します。
 
 [ジャーニーでのメッセージの送信](journey-action.md)
 :::
@@ -135,7 +135,7 @@ Journey Optimizer ジャーニーデザイナーには、マーケターやジ�
 
 ジャーニーデザイナー内から、マーケターはイベントが発生した際に、任意のチャネルを通じてリアルタイムでトリガーされる 1:1 メッセージを送信できます。 例えば、お客様がサービスを購読する際に、[ウェルカムメールがトリガー](message-to-subscribers-uc.md)され、初めてアプリにログインして環境設定を行うように促すことができます。 購入の完了、メールの開封、アプリへのログインなどのアクションを使用して、新規顧客をジャーニーに進めることができます。
 
-[ジャーニー designer](using-the-journey-designer.md) には、メール、プッシュ通知、SMS／MMS などのアウトバウンドメッセージと、モバイルアプリ、web サイト、Journey Optimizer 内で直接作成されたコードベースのエクスペリエンスなどのインバウンドチャネルをサポートする[組み込みのチャネルアクション](journey-action.md)が用意されています。 また、サードパーティシステムを使用してメッセージを送信することもできます。Journey Optimizer には、これらのシステムをジャーニーデザイナーから直接ジャーニーに統合できるようにする[カスタムアクション](using-custom-actions.md)が含まれています。
+[&#x200B; ジャーニーデザイナー](using-the-journey-designer.md)は、電子メール、プッシュ通知、SMS/RCS/MMSなどのアウトバウンドメッセージと、Journey Optimizer内で直接構築されたモバイルアプリ、web サイト、コードベースのエクスペリエンスなどのインバウンドチャネルをサポートする[組み込みのチャネルアクション &#x200B;](journey-action.md)を提供します。 また、サードパーティシステムを使用してメッセージを送信することもできます。Journey Optimizer には、これらのシステムをジャーニーデザイナーから直接ジャーニーに統合できるようにする[カスタムアクション](using-custom-actions.md)が含まれています。
 
 
 :::: landing-cards-container

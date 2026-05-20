@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: Infobip プロバイダーの設定
-description: Infobip を使用して Journey Optimizer でテキストメッセージおよび MMS を送信するように環境を設定する方法を説明します
+description: Journey OptimizerとInfobipを使用して、モバイルメッセージやMMSを送信する環境を設定する方法について説明します
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
@@ -22,16 +22,16 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
+source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
 workflow-type: tm+mt
 source-wordcount: 769
-ht-degree: 83%
+ht-degree: 81%
 
 ---
 
 # Infobip プロバイダーの設定 {#sms-configuration-infobip}
 
-InfobipとAdobe Journey Optimizerを統合することで、ジャーニーやキャンペーンの一環として、プロファイルにテキストメッセージを配信できます。
+InfobipとAdobe Journey Optimizerを統合することで、ジャーニーやキャンペーンの一環として、プロファイルにモバイルメッセージを配信できます。
 
 InfobipをSMS プロバイダーとして設定するには、次の手順に従います。
 
