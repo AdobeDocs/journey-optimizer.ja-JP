@@ -11,7 +11,7 @@ hide: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
-source-git-commit: e66628ab1d9df497226ab625947aa18a2a3b6f48
+source-git-commit: aea783bd8f2351d4a5d8aa6b84c24a713a6c0306
 workflow-type: tm+mt
 source-wordcount: '1221'
 ht-degree: 2%
@@ -38,7 +38,7 @@ ht-degree: 2%
 >
 >この機能は現在&#x200B;**プライベートベータ版**&#x200B;です。 リリースサイクルと可用性フェーズについて詳しくは、[Journey Optimizer リリースサイクル](../rn/releases.md)を参照してください。
 
-**[!UICONTROL ロイヤルティ管理者]** セクションでは、管理者がJourney Optimizerをロイヤルティプログラムのバックエンドに接続する方法を設定します。 マーケターは&#x200B;**[!UICONTROL ロイヤルティチャレンジ（Beta）]**&#x200B;を使用して、課題、タスク、コンテンツ、メッセージをデザインします。ロイヤルティ管理者は、報酬のフルフィルメントとイベントマッピングを個別に1回設定します。
+**[!UICONTROL ロイヤルティ管理者]** セクションでは、Journey Optimizerをロイヤルティプログラムのバックエンドに接続する方法を設定します。 マーケターは&#x200B;**[!UICONTROL ロイヤルティチャレンジ（Beta）]**&#x200B;を使用して、課題、タスク、コンテンツ、メッセージをデザインします。ロイヤルティ管理者は、報酬のフルフィルメントとイベントマッピングを個別に1回設定します。
 
 お客様がチャレンジを完了した場合（または報酬のマイルストーンに到達した場合）、Journey Optimizerは、ここで設定した報酬プロバイダーを呼び出して、ポイントやその他の報酬を提供します。 課題&#x200B;**[!UICONTROL コンテンツ]**、**[!UICONTROL メッセージング]**、**[!UICONTROL オーディエンス]**&#x200B;の設定は、ロイヤルティ管理者設定の影響を受けません。
 
@@ -111,7 +111,7 @@ ht-degree: 2%
 
 <!-- SCREENSHOT: Reward provider creation form with definitions, proxy, and auth token sections -->
 
-作成後、プロバイダは報酬プロバイダ リストに表示されます。 マーケターは、[&#x200B; チャレンジ報酬の設定時](create-challenges.md#rewards)にこのプロバイダーを選択します。
+作成後、プロバイダは報酬プロバイダ リストに表示されます。 マーケターは、[ チャレンジ報酬の設定時](create-challenges.md#rewards)にこのプロバイダーを選択します。
 
 ### 報酬プロバイダーの編集 {#edit-reward-provider}
 
@@ -183,12 +183,12 @@ ht-degree: 2%
 
 1. Loyalty Adminで&#x200B;**[!UICONTROL グローバル設定]**&#x200B;と少なくとも1つの&#x200B;**[!UICONTROL 報酬プロバイダー]**&#x200B;を設定します。
 1. プログラムでカスタムイベントまたはCSV ベースの製品グループを使用している場合は、オプションで&#x200B;**[!UICONTROL イベント定義]**&#x200B;と&#x200B;**[!UICONTROL 製品インベントリ]**&#x200B;を追加します。
-1. **[!UICONTROL ロイヤルティチャレンジ（Beta）]**&#x200B;で[&#x200B; タスク &#x200B;](create-tasks.md)と[課題](create-challenges.md)を作成し、設定した報酬プロバイダーと定義を選択します。
+1. **[!UICONTROL ロイヤルティチャレンジ（Beta）]**&#x200B;で[ タスク ](create-tasks.md)と[課題](create-challenges.md)を作成し、設定した報酬プロバイダーと定義を選択します。
 
 Adobe Journey Optimizerでは、顧客が特典を獲得すると、プロバイダーにフルフィルメントコールが送信されます。ロイヤルティプラットフォームは、会員のアカウントのクレジットを所有します。
 
 ## 前提条件 {#prerequisites}
 
-ロイヤルティ管理者は、組織内の少数の管理者を対象としています。 [&#x200B; ロイヤルティチャレンジ &#x200B;](get-started.md#prerequisites)に必要な権限に加えて、組織レベルのロイヤルティ設定を設定するためのアクセス権が必要です。
+ロイヤルティ管理者は、組織内の少数の管理者を対象としています。 [ ロイヤルティチャレンジ ](get-started.md#prerequisites)に必要な権限に加えて、組織レベルのロイヤルティ設定を設定するためのアクセス権が必要です。
 
 **[!UICONTROL ロイヤルティ管理者]**&#x200B;が左側のナビゲーションに表示されない場合、またはグローバル設定や報酬プロバイダーを保存できない場合は、管理者にお問い合わせください。
