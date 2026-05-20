@@ -6,9 +6,9 @@ description: Adobe Experience Manager Content Advisorにアクセスして、Ado
 role: User
 level: Beginner, Intermediate
 exl-id: 842d69e3-be7f-4a81-8161-6c6ecd571f95
-source-git-commit: a9be72c0fe115e44a6cf9ef9e877c0eb97b9cc00
+source-git-commit: 90ee52450c3103b43f2b280fb5bcb97005bed78a
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '837'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,12 @@ Adobe Experience Manager Content Advisorには、次のアセット機能があ�
 **情報** アイコンを使用して、任意のアセットの詳細なメタデータとプロパティを表示します。 これには、アセットのディメンション、ファイルサイズ、作成日、タグ、その他の関連情報が含まれ、情報にもとづいた意思決定に役立ちます。
 
 ![](assets/content-advisor-6.png){zoomable="yes"}
+
++++
+
++++ 組織間のリポジトリアクセス
+
+アクセス権のある組織のリポジトリからアセットを検索して選択します。 この機能を使用すると、異なる組織に属するリポジトリに保存されているアセットを参照して使用できるようになり、Journey Optimizer オーサリングワークフローを離れることなく、利用可能なアセットライブラリに幅広くアクセスできるようになります。
 
 +++
 
