@@ -26,10 +26,10 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ded80e8d1293462687404d67045bdccde2cb96ed
+source-git-commit: f816ee04639846ffd18c3d6723f4616ada24892d
 workflow-type: tm+mt
-source-wordcount: 1534
-ht-degree: 33%
+source-wordcount: 1722
+ht-degree: 29%
 
 ---
 
@@ -65,7 +65,7 @@ Adobe Experience ManagerとJourney Optimizerの連携は、次のデータフロ
 >
 >ヘルスケアのお客様の場合、統合は、Journey Optimizer Healthcare ShieldおよびAdobe Experience Manager Extended Security for Healthcare アドオン製品のライセンスを取得した場合にのみ有効になります。
 
-## Experience Manager でのタグの作成と割り当て
+## Experience Manager でのタグの作成と割り当て {#create-tag}
 
 >[!IMPORTANT]
 >
@@ -186,6 +186,31 @@ AEM コンテンツフラグメントを作成およびパーソナライズし�
 テストを実行してコンテンツを検証したら、[キャンペーンを送信](../campaigns/review-activate-campaign.md)したり、オーディエンスに[ジャーニーを公開](../building-journeys/publish-journey.md)したりできます。
 
 Adobe Experience Manager を使用すると、コンテンツフラグメントが使用されている Journey Optimizer キャンペーンまたはジャーニーを識別できます。 詳しくは、[Adobe Experience Manager ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/extension-content-fragment-ajo-external-references){target="_blank"}を参照してください。
+
+## Experience DecisioningでのAEM コンテンツフラグメントの使用 {#aem-decisioning}
+
+>[!AVAILABILITY]
+>
+>この機能は、Decisioningをサポートするアウトバウンドチャネルの制限付き可用性で利用できます。 アクセスをリクエストするには、Adobe担当者にお問い合わせください。
+
+AEM コンテンツフラグメントは、**Experience Decisioning**&#x200B;のオファー項目属性としても使用できます。 コンテンツフラグメントフィールドを決定項目属性にマッピングすることで、Journey Optimizerの決定モデル、式、ランキング基準を使用して、各プロファイルに提供するフラグメントを最適化できます。
+
+### 前提条件とガードレール
+
+* コンテンツフラグメントは、決定セレクターに表示される前に、Adobe Experience Managerで`ajo-enabled:{OrgId}/{SandboxName}` タグを付ける必要があります。 [&#x200B; タグの作成と割り当て方法について説明します](#create-tag)
+* **公開済み**&#x200B;状態のコンテンツフラグメントのみが使用できます。
+* 1つの決定項目に最大&#x200B;**five**&#x200B;個のAEM コンテンツフラグメントを追加できます。
+
+### 意思決定におけるAEM コンテンツフラグメントの活用
+
+AEM コンテンツフラグメントを作成して公開したら、次の操作を行う必要があります。
+
+1. 決定項目の属性で選択して、決定項目に関連付けます。
+1. 意思決定ポリシーに活用し、適切なコンテンツを的確な顧客に提供。
+
+➡️ [AEM コンテンツフラグメントを決定項目に関連付ける](../experience-decisioning/items.md#aem-fragments)
+
+➡️ [決定ポリシーでAEM コンテンツフラグメントを活用](../experience-decisioning/fragments-decision-policies.md#aem-fragments-decisioning)
 
 ## コンテンツフラグメントのバリエーションの操作 {#aem-variations}
 

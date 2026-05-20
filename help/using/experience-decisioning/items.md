@@ -7,10 +7,10 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-source-git-commit: dfffbdc916a2ea6082d747927c28486e51fb381e
+source-git-commit: f816ee04639846ffd18c3d6723f4616ada24892d
 workflow-type: tm+mt
-source-wordcount: '2247'
-ht-degree: 86%
+source-wordcount: '2347'
+ht-degree: 82%
 
 ---
 
@@ -58,13 +58,19 @@ Journey Optimizer では、決定項目と呼ばれるマーケティングオ�
 
 1. 「**タグ**」フィールドを使用すると、Adobe Experience Platform 統合タグを決定項目に割り当てることができます。 これにより、簡単に分類し、検索を改善できます。 [タグの操作方法について詳しくは、こちらを参照してください](../start/search-filter-categorize.md#tags)
 
-1. [&#x200B; フラグメント &#x200B;](../content-management/fragments.md)を使用して、決定項目に複数のコンテンツを追加します。例えば、複数のモバイルデバイスモデルに対して異なるコンテンツを表示する場合などです。 その後、これらのフラグメントを意思決定ポリシーで活用できます。 [詳細情報](fragments-decision-policies.md)
+1. 決定項目にフラグメントを追加して、コンテンツを充実させます。 サポートされているフラグメントは次の2種類です。
 
-   >[!AVAILABILITY]
-   >
-   >この機能は、**コードベースのエクスペリエンス**&#x200B;および&#x200B;**電子メール** チャネルの限定提供で利用できます。 アクセスをリクエストするには、Adobe担当者にお問い合わせください。
+   * **Journey Optimizer コンテンツフラグメント** — Journey Optimizerで作成された再利用可能なエクスプレッションフラグメントを使用して、コンテキストに応じて異なるコンテンツを表示します（複数のモバイルデバイスモデルなど）。 これらのフラグメントは、Decisioningが利用可能なすべてのチャネル（コードベースのエクスペリエンス、電子メール、プッシュ通知、SMS、ジャーニー）で意思決定ポリシーで活用できます。 [方法についてはこちらを参照](fragments-decision-policies.md#ajo-fragments)
 
-   これらのフラグメントを意思決定ポリシーで使用する場合、Edgeで一時的に使用できない場合にフラグメントをスキップするように、フラグメントをオプションにすることができます。 [詳細情報](fragments-decision-policies.md#optional-fragments)
+     これらのフラグメントを意思決定ポリシーで使用する場合、Edgeで一時的に使用できない場合にフラグメントをスキップするように、フラグメントをオプションにすることができます。 [詳細情報](fragments-decision-policies.md#temporary-unavailable-fragments)
+
+   * **AEM コンテンツフラグメント** — Adobe Experience Manager コンテンツフラグメントを決定項目の属性に直接マッピングします。 **フラグメント参照キー** フィールドに入力し、**値** フィールドでフラグメントを選択します。 マッピングが完了すると、決定ポリシーでコンテンツフラグメントフィールドを選択でき、Journey Optimizerでは、各プロファイルに提供されるフラグメントを最適化できます。 [詳細情報](fragments-decision-policies.md#aem-fragments-decisioning)
+
+     >[!AVAILABILITY]
+     >
+     >この機能は、Decisioningをサポートするアウトバウンドチャネルの制限付き可用性で利用できます。 アクセスをリクエストするには、Adobe担当者にお問い合わせください。
+
+     前提条件とガードレールについては、[Experience DecisioningでのAEM コンテンツフラグメントの使用](../integrations/aem-fragments.md#aem-decisioning)を参照してください。
 
 1. カスタム属性を指定します（オプション）。 カスタム属性は、ニーズに合わせて調整された特定の属性で、決定項目に割り当てることができます。 これらは、決定項目のカタログスキーマで定義されます。 [カタログの操作方法を学ぶ](catalogs.md)
 

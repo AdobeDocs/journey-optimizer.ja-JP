@@ -16,10 +16,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: f816ee04639846ffd18c3d6723f4616ada24892d
 workflow-type: tm+mt
-source-wordcount: 265
-ht-degree: 83%
+source-wordcount: 275
+ht-degree: 80%
 
 ---
 
@@ -44,6 +44,7 @@ ht-degree: 83%
 | 決定項目合計 | 10K |
 | 属性を含む最大アイテム数（1KB）、最大30個の属性 | 1KB |
 | 頻度ルール – 決定項目ごとのキャッピングルールの最大数 | 10 |
+| 決定項目あたりのAEM コンテンツフラグメントの最大数 | 5 |
 
 ## 項目コレクション {#item-collections}
 
