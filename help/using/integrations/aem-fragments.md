@@ -8,28 +8,16 @@ role: User
 level: Beginner
 exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
 TQID: https://experienceleague.adobe.com/QFZt5R2bGJMIwT9okjkcGWxN9cj56Mi77XdCgddCleU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ded80e8d1293462687404d67045bdccde2cb96ed
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a653cc2e-bc85-4353-a306-399e5b247978id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: c6e980f5-2d4f-494f-beef-186b9ecf1513id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f816ee04639846ffd18c3d6723f4616ada24892d
 workflow-type: tm+mt
-source-wordcount: 1534
-ht-degree: 33%
+source-wordcount: 1722
+ht-degree: 29%
 
 ---
 
@@ -49,11 +37,11 @@ Adobe Experience ManagerとJourney Optimizerの連携は、次のデータフロ
 
 1. **[Dispatcherの設定](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer#dispatcher-configuration){target="_blank"}**: Journey Optimizerがコンテンツフラグメント管理APIを介してAdobe Experience Manager コンテンツフラグメントにアクセスできるようにするには、まずDispatcherを設定する必要があります。 これは統合の前提条件です。
 
-1. **[作成およびオーサー](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#creating-a-content-fragment)**: コンテンツは、Adobe Experience Managerでコンテンツフラグメントとして作成および設定されます。
+1. **[作成およびオーサー](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#creating-a-content-fragment)**: コンテンツは、Adobe Experience Managerでコンテンツフラグメントとして作成および設定されます。
 
-1. **[タグ付け](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#manage-tags)**: コンテンツフラグメントには、Journey Optimizer固有のタグ （`ajo-enabled:{OrgId}/{SandboxName}`）を付ける必要があります。
+1. **[タグ付け](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#manage-tags)**: コンテンツフラグメントには、Journey Optimizer固有のタグ （`ajo-enabled:{OrgId}/{SandboxName}`）を付ける必要があります。
 
-1. **[公開](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#publishing-and-previewing-a-fragment)**: コンテンツフラグメントはAdobe Experience Managerで公開され、Journey Optimizerで利用できるようになります。
+1. **[公開](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#publishing-and-previewing-a-fragment)**: コンテンツフラグメントはAdobe Experience Managerで公開され、Journey Optimizerで利用できるようになります。
 
 1. **[アクセス](#aem-add)**: Journey Optimizerは、Adobe Experience Manager パブリッシュインスタンスから利用可能なコンテンツフラグメントをリアルタイムで取得して表示します。
 
@@ -65,7 +53,7 @@ Adobe Experience ManagerとJourney Optimizerの連携は、次のデータフロ
 >
 >ヘルスケアのお客様の場合、統合は、Journey Optimizer Healthcare ShieldおよびAdobe Experience Manager Extended Security for Healthcare アドオン製品のライセンスを取得した場合にのみ有効になります。
 
-## Experience Manager でのタグの作成と割り当て
+## Experience Manager でのタグの作成と割り当て {#create-tag}
 
 >[!IMPORTANT]
 >
@@ -109,7 +97,7 @@ AEM コンテンツフラグメントを作成およびパーソナライズし�
 
    >[!NOTE]
    >
-   > フラグメントに1つ以上の&#x200B;**公開済み** バリエーションがある場合、**[!UICONTROL バリエーション]** ドロップダウンがセレクターに表示されます。 **[!UICONTROL バリエーション]**&#x200B;が選択されていない場合、**メイン** バリエーションが自動的に使用されます。 詳しくは、[&#x200B; コンテンツフラグメントのバリエーションの操作](#aem-variations)を参照してください。
+   > フラグメントに1つ以上の&#x200B;**公開済み** バリエーションがある場合、**[!UICONTROL バリエーション]** ドロップダウンがセレクターに表示されます。 **[!UICONTROL バリエーション]**&#x200B;が選択されていない場合、**メイン** バリエーションが自動的に使用されます。 詳しくは、[ コンテンツフラグメントのバリエーションの操作](#aem-variations)を参照してください。
 
 1. 「**[!UICONTROL フィルターを表示]**」をクリックして、コンテンツフラグメントリストを微調整します。
 
@@ -187,6 +175,31 @@ AEM コンテンツフラグメントを作成およびパーソナライズし�
 
 Adobe Experience Manager を使用すると、コンテンツフラグメントが使用されている Journey Optimizer キャンペーンまたはジャーニーを識別できます。 詳しくは、[Adobe Experience Manager ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/extension-content-fragment-ajo-external-references){target="_blank"}を参照してください。
 
+## Experience DecisioningでのAEM コンテンツフラグメントの使用 {#aem-decisioning}
+
+>[!AVAILABILITY]
+>
+>この機能は、Decisioningをサポートするアウトバウンドチャネルの制限付き可用性で利用できます。 アクセスをリクエストするには、Adobe担当者にお問い合わせください。
+
+AEM コンテンツフラグメントは、**Experience Decisioning**&#x200B;のオファー項目属性としても使用できます。 コンテンツフラグメントフィールドを決定項目属性にマッピングすることで、Journey Optimizerの決定モデル、式、ランキング基準を使用して、各プロファイルに提供するフラグメントを最適化できます。
+
+### 前提条件とガードレール
+
+* コンテンツフラグメントは、決定セレクターに表示される前に、Adobe Experience Managerで`ajo-enabled:{OrgId}/{SandboxName}` タグを付ける必要があります。 [ タグの作成と割り当て方法について説明します](#create-tag)
+* **公開済み**&#x200B;状態のコンテンツフラグメントのみが使用できます。
+* 1つの決定項目に最大&#x200B;**five**&#x200B;個のAEM コンテンツフラグメントを追加できます。
+
+### 意思決定におけるAEM コンテンツフラグメントの活用
+
+AEM コンテンツフラグメントを作成して公開したら、次の操作を行う必要があります。
+
+1. 決定項目の属性で選択して、決定項目に関連付けます。
+1. 意思決定ポリシーに活用し、適切なコンテンツを的確な顧客に提供。
+
+➡️ [AEM コンテンツフラグメントを決定項目に関連付ける](../experience-decisioning/items.md#aem-fragments)
+
+➡️ [決定ポリシーでAEM コンテンツフラグメントを活用](../experience-decisioning/fragments-decision-policies.md#aem-fragments-decisioning)
+
 ## コンテンツフラグメントのバリエーションの操作 {#aem-variations}
 
 Adobe Experience Managerでは、各コンテンツフラグメントは次の要素で構成されています。
@@ -200,15 +213,15 @@ Adobe Experience Managerでは、各コンテンツフラグメントは次の�
 * 別のフラグメントを作成することなく、地域のトーンを調整。
 * チャネル別メッセージ（モバイルと比較したwebなど）。
 
-➡️ [詳しくは、Adobe Experience Manager ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/assets/content-fragments/content-fragments-variations)を参照してください
+➡️ [詳しくは、Adobe Experience Manager ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/content-fragments/content-fragments-variations)を参照してください
 
 Journey Optimizerでは、フラグメントを挿入する際に使用するバリエーションを選択できるので、フラグメントを複製することなく、Adobe Experience Managerの同じソースコンテンツの異なるレンディションに依存して、様々なキャンペーンやジャーニーを作成できます。
 
 バリエーションを選択するには：
 
-1. [&#x200B; キャンペーン &#x200B;](../campaigns/create-campaign.md)または[&#x200B; ジャーニー](../building-journeys/journey-gs.md)を開きます。
+1. [ キャンペーン ](../campaigns/create-campaign.md)または[ ジャーニー](../building-journeys/journey-gs.md)を開きます。
 
-1. 任意のテキストフィールドで![Personalization アイコン &#x200B;](assets/do-not-localize/Smock_PersonalizationField_18_N.svg)をクリックするか、HTML コンテンツコンポーネントからHTML ソースを開きます。
+1. 任意のテキストフィールドで![Personalization アイコン ](assets/do-not-localize/Smock_PersonalizationField_18_N.svg)をクリックするか、HTML コンテンツコンポーネントからHTML ソースを開きます。
 
 1. **[!UICONTROL AEM コンテンツフラグメント]**&#x200B;から、**[!UICONTROL AEM コンテンツアドバイザーを開く]**&#x200B;をクリックします。
 
@@ -220,7 +233,7 @@ Journey Optimizerでは、フラグメントを挿入する際に使用するバ
 
 1. **[!UICONTROL コンテンツフラグメント]**&#x200B;を選択します。
 
-1. ![情報アイコン &#x200B;](assets/do-not-localize/info-icon.svg)をクリックして、**[!UICONTROL 詳細]** メニューを開きます。 フラグメントに1つ以上の公開済みバリエーションがある場合、フラグメントの詳細の横に「**[!UICONTROL バリエーション]**」ドロップダウンが表示されます。
+1. ![情報アイコン ](assets/do-not-localize/info-icon.svg)をクリックして、**[!UICONTROL 詳細]** メニューを開きます。 フラグメントに1つ以上の公開済みバリエーションがある場合、フラグメントの詳細の横に「**[!UICONTROL バリエーション]**」ドロップダウンが表示されます。
 
    ![](assets/cf-variation-5.png)
 
