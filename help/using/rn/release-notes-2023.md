@@ -9,7 +9,7 @@ hide: true
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: '4441'
 ht-degree: 99%
@@ -55,7 +55,7 @@ ht-degree: 99%
 <td>
 <p>SMS チャネルを使用すると、マルチメディアメッセージサービス（MMS）メッセージを送信して通信を強化し、画像、GIF またはビデオを顧客と共有できます。 この機能は現在、Sinch でのみ使用可能です。</p>
 <img src="assets/do-not-localize/mms.gif"/>
-<p>詳しくは、 <a href="../sms/create-sms.md#mms-content">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、 <a href="../mobile/create-mobile-message.md#mms-content">詳細なドキュメント</a>を参照してください。</p>
 </tr>
 </tbody>
 </table>
@@ -216,9 +216,9 @@ ht-degree: 99%
 
 **SMS チャネル**
 
-* 2 つの新しいフィールド、「**オプトインメッセージ**」と「**ヘルプメッセージ**」を API 設定画面に追加し、ユーザーが受信キーワードの応答をカスタマイズできるようになりました。 これは、Sinch SMS プロバイダーでのみ使用できます。 [詳細情報](../sms/sms-configuration.md)
+* 2 つの新しいフィールド、「**オプトインメッセージ**」と「**ヘルプメッセージ**」を API 設定画面に追加し、ユーザーが受信キーワードの応答をカスタマイズできるようになりました。 これは、Sinch SMS プロバイダーでのみ使用できます。 [詳細情報](../mobile/mobile-configuration.md)
 
-* SMS のオプトアウトは、チャネルレベルでは管理されなくなりました。 現在は番号に固有になっています。つまり、一部のプロファイルが特定の番号やショートコードからオプトアウトした場合でも、SMS メッセージの送信に使用している他の番号からメッセージを送信できることになります。 新しいオプションを使用すると、特定のサーフェスに使用する&#x200B;**オプトアウト番号**&#x200B;を選択できます。 [詳細情報](../sms/sms-configuration.md)
+* SMS のオプトアウトは、チャネルレベルでは管理されなくなりました。 現在は番号に固有になっています。つまり、一部のプロファイルが特定の番号やショートコードからオプトアウトした場合でも、SMS メッセージの送信に使用している他の番号からメッセージを送信できることになります。 新しいオプションを使用すると、特定のサーフェスに使用する&#x200B;**オプトアウト番号**&#x200B;を選択できます。 [詳細情報](../mobile/mobile-configuration.md)
 
 **ダイレクトメールチャネル**
 
@@ -624,8 +624,8 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 
 **SMS チャネル**
 
-* SMS チャネル設定を指定する際に、Infobip がベンダープロバイダーとして追加されました。 [詳細情報](../sms/sms-configuration.md)
-* Twillio - API 資格情報のセットアップに、Twillio アカウントとシームレスに統合するためのメッセージングサービス SID を追加する機能が含まれるようになりました。 [詳細情報](../sms/sms-configuration.md)
+* SMS チャネル設定を指定する際に、Infobip がベンダープロバイダーとして追加されました。 [詳細情報](../mobile/mobile-configuration.md)
+* Twillio - API 資格情報のセットアップに、Twillio アカウントとシームレスに統合するためのメッセージングサービス SID を追加する機能が含まれるようになりました。 [詳細情報](../mobile/mobile-configuration.md)
 
 **アプリ内チャネル**
 
@@ -727,7 +727,7 @@ Information below is subject to change without prior notice until the release av
 * ジャーニーキャンバスのメッセージアクティビティと終了タグにアクティビティ ID が表示されるようになりました。 これにより、レポーティングとリターゲティングが向上します。
 * アクション、データソース、イベント、ジャーニーに表示される設定パネルのレイアウトが改善されました。
 * 規模の拡大を支援するための、安全対策を備えたキャンバス上のノード数に対する新しいインサイト：ジャーニーあたり最大ノード数 50 で、ジャーニーの読み取り、QA およびトラブルシューティングが常に容易になります。 [詳細情報](../start/guardrails.md#journeys-guardrails-journeys)
-* ジャーニーに[メール](../email/create-email.md)、[SMS](../sms/create-sms.md)、[プッシュ](../push/create-push.md)のアクションを追加すると、デフォルトでは、現在のジャーニーのそのチャネルで前回に使用したサーフェスと共に、サーフェスが事前入力されるようになりました。
+* ジャーニーに[メール](../email/create-email.md)、[SMS](../mobile/create-mobile-message.md)、[プッシュ](../push/create-push.md)のアクションを追加すると、デフォルトでは、現在のジャーニーのそのチャネルで前回に使用したサーフェスと共に、サーフェスが事前入力されるようになりました。
 * カスタムアクションで静的クエリパラメーターまたは動的クエリパラメーターを定義できるようになりました。 [詳細情報](../action/about-custom-action-configuration.md#url-configuration)
 
 **レポーティング**
@@ -771,7 +771,7 @@ Information below is subject to change without prior notice until the release av
 <td>
 <p>SMS のクリックの追跡を使用すると、短縮 URL のパフォーマンスを監視し、短縮 URL をクリックしたユーザーを特定し、このデータを使用して、後続のキャンペーンでこれらの顧客を再度ターゲットに設定できます。</p>
 <img src="assets/do-not-localize/sms-tracking.gif"/>
-<p>詳しくは、 <a href="../sms/create-sms.md#sms-content">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、 <a href="../mobile/create-mobile-message.md#sms-content">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -977,7 +977,7 @@ Note that each widget can be resized and deleted as needed.
 <td>
 <p>Adobe Experience Platform は、消費者レコードとデータセットをプログラムで削除することで、保存されたデータを管理できる、一連のデータハイジーン機能を提供します。 この機能は、Adobe Journey Optimizer で使用できるようになりました。 </p>
 <p>データストアを管理して、情報が期待どおりに使用され、必要な場合は不適切なデータの修正が更新され、組織のポリシーで必要と判断された場合は削除されるようになります。</p>
-<p><strong>注意</strong> - データハイジーン機能は、現在、<strong>Healthcare Shield</strong> および<strong>プライバシーとセキュリティシールド</strong>アドオン機能を購入した組織でのみ利用できます。</p><p>詳しくは、<a href="../privacy/data-hygiene.md">詳細なドキュメント</a>を参照してください。
+<p><strong>注意</strong> - データハイジーン機能は、現在、<strong>Healthcare Shield</strong> および<strong>プライバシーとセキュリティシールド</strong>アドオン機能を購入した組織でのみ利用できます。</p><p>詳しくは、 <a href="../privacy/data-hygiene.md">詳細なドキュメント</a>を参照してください。
 </td>
 </tr>
 </tbody>
@@ -995,7 +995,7 @@ Note that each widget can be resized and deleted as needed.
 <p>ジャーニーやキャンペーン全体で活用できるスタンドアロンのコンテンツテンプレートを作成し、すばやく再利用できるようになりました。</p> 
 </p>
 <img src="assets/do-not-localize/content-template.gif"/>
-<p>コンテンツテンプレートを作成、編集、使用する方法については<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html?lang=ja">このビデオ</a>をご覧ください。 詳しくは、<a href="../content-management/content-templates.md">詳細なドキュメント</a>を参照してください。
+<p>コンテンツテンプレートを作成、編集、使用する方法については<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html?lang=ja">このビデオ</a>をご覧ください。 詳しくは、 <a href="../content-management/content-templates.md">詳細なドキュメント</a>を参照してください。
 </p>
 </td>
 </tr>

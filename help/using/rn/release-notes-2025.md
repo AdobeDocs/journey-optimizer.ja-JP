@@ -8,7 +8,7 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: '9308'
 ht-degree: 99%
@@ -92,7 +92,7 @@ ht-degree: 99%
 <p>クワイエットアワーでは、メール、SMS、プッシュ、WhatsApp の各チャネルについて、時間ベースの除外を定義できます。 これにより、特定の期間中にメッセージが送信されなくなり、顧客の環境設定やコンプライアンス要件を適用できます。</p>
 <p>クワイエットアワーは、キャンペーンやジャーニー内の個々のアクションに割り当てて、正確な制御を行うことができるルールセットを通じて適用できます。</p>
 <p>クワイエットアワールールは現在、一連の組織でのみ使用できます（限定提供）。  今後のリリースで、すべてのお客様が段階的に利用できるようになります。</p>
-<p>詳しくは、<a href="../conflict-prioritization/quiet-hours.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、 <a href="../conflict-prioritization/quiet-hours.md">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2025年10月22日（PT）</p>
 </td>
 </tr>
@@ -217,7 +217,7 @@ table>
 <td>
 <p>API トリガーキャンペーンで新しい高スループットトランザクションメッセージモードが使用できるようになりました。 このモードは、大規模なリアルタイムトランザクションメッセージ向けに設計され、1 秒あたり最大 5,000 トランザクションと高い可用性を実現します。 また、このモードでは、ゲストのチェックアウト、注文確認、パスワードリセット、セキュリティ通知、その他のサービス／操作に関する通知など、顧客プロファイルを参照または作成することなく、トランザクションメッセージをサポートします。</p>
 <p>この機能は、アドビの高スループットトランザクションメッセージのアドオン機能を購入した組織がメールチャネルでのみ使用できます。 詳しくは、アドビ担当者にお問い合わせください。</p>
-<p>詳しくは、<a href="../campaigns/api-triggered-high-throughput.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、 <a href="../campaigns/api-triggered-high-throughput.md">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2025年10月22日（PT）</p>
 </td>
 </tr>
@@ -587,7 +587,7 @@ You can now use AI models to optimize the best content in your email through the
   公開日：2025年9月29日（PT）
 
 * **SMS チャネルの mTLS サポート**
-カスタム SMS プロバイダーを設定する際に、相互 TLS（mTLS）認証を有効にするオプションが追加されました。このオプションでは、安全な接続を確立する前に、クライアントとサーバーの両方が相互の ID を確認する必要があります。 [詳細情報](../sms/sms-configuration-custom.md) - 公開日：2025年9月23日（PT）
+カスタム SMS プロバイダーを設定する際に、相互 TLS（mTLS）認証を有効にするオプションが追加されました。このオプションでは、安全な接続を確立する前に、クライアントとサーバーの両方が相互の ID を確認する必要があります。 [詳細情報](../mobile/mobile-configuration-custom.md) - 公開日：2025年9月23日（PT）
 
 * **リレーショナルスキーマ**\
   リレーショナルスキーマを使用して、オーケストレーションキャンペーンでのリレーショナルモデリングのニーズに対応できるようになりました。 [詳細情報](../orchestrated/gs-schemas.md) - 公開日：2025年9月23日（PT）
@@ -620,13 +620,13 @@ You can now use AI models to optimize the best content in your email through the
 
 * **Webhook** - このリリースでは、カスタム SMS プロバイダーを設定する際の Webhook に関して、以下の機能強化が導入されています。
 
-   * 取得するデータのタイプに応じて、Webhook の目的（インバウンドまたはフィードバック）を定義できるようになりました。 [詳細情報](../sms/sms-configuration-custom.md#webhook) - 公開日：2025年9月23日（PT）
+   * 取得するデータのタイプに応じて、Webhook の目的（インバウンドまたはフィードバック）を定義できるようになりました。 [詳細情報](../mobile/mobile-configuration-custom.md#webhook) - 公開日：2025年9月23日（PT）
 
-   * 設定を容易にするために、キーワード設定用のインターフェイスを改善しました。 [詳細情報](../sms/sms-configuration-custom.md#webhook) - 公開日：2025年9月23日（PT）
+   * 設定を容易にするために、キーワード設定用のインターフェイスを改善しました。 [詳細情報](../mobile/mobile-configuration-custom.md#webhook) - 公開日：2025年9月23日（PT）
 
 * **SMS**
 
-   * カスタム SMS プロバイダーを設定する際に、受信 SMS に認識できないキーワードが含まれている場合に使用する&#x200B;**デフォルト**&#x200B;キーワードを定義できるようになりました。 特定のアクションに対して&#x200B;**カスタム**&#x200B;キーワードを作成することもできます。 [詳細情報](../sms/sms-configuration-custom.md) - 公開日：2025年9月23日（PT）
+   * カスタム SMS プロバイダーを設定する際に、受信 SMS に認識できないキーワードが含まれている場合に使用する&#x200B;**デフォルト**&#x200B;キーワードを定義できるようになりました。 特定のアクションに対して&#x200B;**カスタム**&#x200B;キーワードを作成することもできます。 [詳細情報](../mobile/mobile-configuration-custom.md) - 公開日：2025年9月23日（PT）
 
    * 設定で明示的に定義されていない入力ミス、単語、文など、SMS メッセージで送信される未定義の受信キーワードの応答にアクセスできるようになりました。 これらは、**InboundMessage** の **AJO メールトラッキングエクスペリエンスイベント**&#x200B;のデータセットに 13 か月間保存されます。 Sinch、Infobip、カスタム SMS プロバイダーでのみ使用できます。 - 公開日：2025年9月23日（PT）
 
@@ -858,13 +858,13 @@ table>
 
 * **チャネル - SMS**
 
-   * **ファジーオプトアウト** - 有効にすると、「**ファジーオプトアウト**」オプションは、定義済みのオプトアウトキーワード（「CANCIL」など）に非常に類似したインバウンドメッセージを検出し、ユーザーの登録解除の意図を検証する確認返信を自動的に送信します。 定義済みのプロンプトを通じてユーザーが確認すると、登録解除されます。 [詳細情報](../sms/sms-configuration-sinch.md)
+   * **ファジーオプトアウト** - 有効にすると、「**ファジーオプトアウト**」オプションは、定義済みのオプトアウトキーワード（「CANCIL」など）に非常に類似したインバウンドメッセージを検出し、ユーザーの登録解除の意図を検証する確認返信を自動的に送信します。 定義済みのプロンプトを通じてユーザーが確認すると、登録解除されます。 [詳細情報](../mobile/mobile-configuration-sinch.md)
 
      >[!NOTE]
      >
      >**あいまいオプトアウト**&#x200B;は、Sinch と Infobip でのみ使用できます。
 
-   * **SMS 接続を検証** - 指定されたデバイスにサンプルメッセージを送信して、Adobe Journey Optimizer 内で SMS API 資格情報を簡単にテストおよび検証できるようになりました。 [詳細情報](../sms/sms-configuration-sinch.md)
+   * **SMS 接続を検証** - 指定されたデバイスにサンプルメッセージを送信して、Adobe Journey Optimizer 内で SMS API 資格情報を簡単にテストおよび検証できるようになりました。 [詳細情報](../mobile/mobile-configuration-sinch.md)
 
 * **設定**
 
@@ -1155,7 +1155,7 @@ Journey Optimizer 製品リリースに関する&#x200B;**メールおよび製�
 <tr>
 <td>
 <p>カスタム SMS プロバイダーソリューションと統合することで、サードパーティプロバイダーを通じてリッチ通信サービス（RCS）メッセージを設定、カスタマイズ、配信できるようになりました。</p>
-<p>詳しくは、<a href="../sms/sms-configuration-custom.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../mobile/mobile-configuration-custom.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -1401,7 +1401,7 @@ li>Create offers by directly selecting an AEM Content Fragment.</li>
 </br>
 <img src="assets/do-not-localize/dynamic_media_template_html.gif">
 <p>この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。</p>
-<p>詳しくは、<a href="../integrations/aem-dynamic.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、 <a href="../integrations/aem-dynamic.md">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2025年5月23日（PT）</p>
 </td>
 </tr>
@@ -1418,7 +1418,7 @@ li>Create offers by directly selecting an AEM Content Fragment.</li>
 <tr>
 <td>
 <p>プロファイル ID と、注文 ID、サブスクリプション ID、処方箋 ID などの別の識別子を使用してジャーニーをトリガーできるようになりました。これにより、同じプロファイルを同じジャーニーに複数回同時に含めることができます。 これにより、各インスタンスがジャーニーを通じて独自のパスに従いながら、複数の注文やサブスクリプションを並行して管理するなどのシナリオが可能になります。</p>
-<p>詳しくは、<a href="../building-journeys/supplemental-identifier.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、 <a href="../building-journeys/supplemental-identifier.md">詳細なドキュメント</a>を参照してください。</p>
 <p>この機能は、一連の組織でのみ使用できます（限定提供）。 アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
 <p>公開日：2025年5月23日（PT）</p>
 </td>
@@ -1474,7 +1474,7 @@ li>Create offers by directly selecting an AEM Content Fragment.</li>
 <tr>
 <td>
 <p>Journey Optimizer では、デフォルトのオプションに加えて、Sinch、Infobip、Twilio などの追加の SMS プロバイダーを設定できるようになりました。 カスタム SMS プロバイダー設定を使用すると、サードパーティプロバイダーを直接統合し、動的メッセージ用の高度なペイロードカスタマイズを活用し、同意設定（オプトイン／オプトアウト）を管理してコンプライアンスを確保できます。</p>
-<p>詳しくは、<a href="../sms/sms-configuration-custom.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../mobile/mobile-configuration-custom.md">詳細なドキュメント</a>を参照してください。</p>
 <p>この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。</p>
 <p>リリース日：2025年5月20日（PT）</p>
 </td>
@@ -1671,7 +1671,7 @@ table>
 <tr>
 <td>
 <p>Adobe Journey Optimizer now supports custom SMS providers, allowing you to integrate your preferred SMS services for enhanced communication flexibility.</p>
-<p>For more information, refer to the <a href="../sms/sms-configuration-custom.md">detailed documentation</a>.</p></td>
+<p>For more information, refer to the <a href="../mobile/mobile-configuration-custom.md">detailed documentation</a>.</p></td>
 </tr>
 </tbody>
 -->
@@ -1781,7 +1781,7 @@ table>
 <tr>
 <td>
 <p>ブランド一致スコア機能は、明確なフィードバックを E メールデザイナーで直接提供し、コンテンツがブランドのトーン、スタイル、ガイドラインと一致しているかどうかを確認するのに役立ちます。 この機能はベータ版で使用可能です。</p>
-<p>詳しくは、<a href="../content-management/brands-score.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、 <a href="../content-management/brands-score.md">詳細なドキュメント</a>を参照してください。</p>
 <img src="assets/do-not-localize/brand-score.gif">
 </td>
 </tr>
@@ -1979,7 +1979,7 @@ table>
 <td>
 <p>マーケティング効率を高め、ブランドの一貫性を維持するために、パフォーマンスマーケティングエクスペリエンス用の GenStudio を Journey Optimizer とシームレスに統合できるようになりました。 これにより、GenStudio の AI を活用したコンテンツ作成と Journey Optimizer の高度なオーケストレーション機能を活用できるようになります。<p>
 <p>Journey Optimizer での GenStudio 統合は、現在、Healthcare Shield またはプライバシーとセキュリティシールド（限定提供）では使用できません。</p>
-<p>詳しくは、<a href="../integrations/genstudio.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、 <a href="../integrations/genstudio.md">詳細なドキュメント</a>を参照してください。</p>
 <img src="assets/do-not-localize/genstudio.gif"/>
 </td>
 </tr>
@@ -2193,7 +2193,7 @@ You can now choose to have your emails relayed to your SMTP servers instead of b
 
 * **ダイレクトメール** - ダイレクトメールチャネル設定でのファイルルーティングに、新しいサーバータイプである Data Landing Zone がサポートされるようになりました。 [詳細情報](../direct-mail/direct-mail-configuration.md#file-routing-configuration)
 
-* **SMS** - 配信、フィードバック、インバウンド、コールバックの URL を上書きして、複数の地域のエンドポイントからの SMS メッセージ配信を管理できるようになりました。 これをサポートすることを目的に、API 資格情報設定に新しい「上書き URL」フィールドが追加されました。 この変更は、Sinch プロバイダーでのみ使用できます。 [詳細情報](../sms/sms-configuration-sinch.md)
+* **SMS** - 配信、フィードバック、インバウンド、コールバックの URL を上書きして、複数の地域のエンドポイントからの SMS メッセージ配信を管理できるようになりました。 これをサポートすることを目的に、API 資格情報設定に新しい「上書き URL」フィールドが追加されました。 この変更は、Sinch プロバイダーでのみ使用できます。 [詳細情報](../mobile/mobile-configuration-sinch.md)
 
 * **パーソナライゼーション**（公開日：2025年1月29日（PT））- パーソナライゼーションエディターで新しい日付／時刻ヘルパー関数が使用できるようになりました。 [詳細情報](../personalization/functions/dates.md)
 

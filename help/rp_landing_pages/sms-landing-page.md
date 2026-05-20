@@ -5,78 +5,78 @@ title: SMS／MMS／RCS チャネル
 description: SMS／MMS／RCS チャネル
 redpen-status: CREATED_||_2025-08-11_20-38-50
 exl-id: 1e59db2e-087f-4ce8-9d9e-99ff872c0062
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 79%
+source-wordcount: '282'
+ht-degree: 80%
 
 ---
 
 # SMS／MMS／RCS チャネル{#section-overview}
 
-Adobe Journey Optimizer の SMS／MMS／RCS チャネルを使用すると、パーソナライズされたテキストメッセージを通じてモバイルデバイス上でお客様と直接関与できます。SMSによるシンプルなアップデート、MMSによるリッチマルチメディアコンテンツ、RCSによるインタラクティブなブランドメッセージなど、様々な方法でつながることができます。 サービスプロバイダーの設定、メッセージの作成とパーソナライゼーション、キャンペーンやジャーニーへの統合方法、オプトアウト管理によるコンプライアンスの徹底について解説します。 この過程で、コミュニケーションをテスト、送信、管理して最大限の影響力を上げる方法について説明します。これにより、オーディエンスの共感を得られるタイムリーで関連性の高いメッセージを簡単に配信できます。
+Adobe Journey Optimizer の SMS／MMS／RCS チャネルを使用すると、パーソナライズされたテキストメッセージを通じてモバイルデバイス上でお客様と直接関与できます。 SMSによるシンプルなアップデート、MMSによるリッチマルチメディアコンテンツ、RCSによるインタラクティブなブランドメッセージなど、様々な方法でつながることができます。 サービスプロバイダーの設定、メッセージの作成とパーソナライゼーション、キャンペーンやジャーニーへの統合方法、オプトアウト管理によるコンプライアンスの徹底について解説します。 この過程で、コミュニケーションをテスト、送信、管理して最大限の影響力を上げる方法について説明します。これにより、オーディエンスの共感を得られるタイムリーで関連性の高いメッセージを簡単に配信できます。
 
 ## SMS/MMS/RCS チャネルの概要
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 テキストメッセージの基本を学ぶ
 
 Adobe Journey Optimizer で SMS、MMS、RCS メッセージを設定、作成、管理する方法について説明します。
 
-[今すぐ開始](../using/sms/get-started-sms.md)
+[今すぐ開始](../using/mobile/get-started-mobile.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 SMS、MMS、RCS メッセージの作成方法
 
 ジャーニーまたはキャンペーンの一部として、パーソナライズされたテキストメッセージをデザイン、設定、送信する手順について説明します。
 
-[詳細情報](../using/sms/create-sms.md)
+[詳細情報](../using/mobile/create-mobile-message.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 テキストメッセージの確認および送信
 
 配信の成功とベストプラクティスの遵守を確保しながら、メッセージをプレビュー、検証および送信します。
 
-[詳細を取得](../using/sms/send-sms.md)
+[詳細を取得](../using/mobile/send-mobile-message.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 テキストメッセージのオプトアウトの管理
 
 SMS、MMS、RCS 通信のオプトアウトプロセスを管理することで、業界標準へのコンプライアンスを確保します。
 
-[ガイドを読む](../using/sms/sms-opt-out.md)
+[ガイドを読む](../using/mobile/mobile-opt-out.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 SMS サブドメインの設定
 
 セットアップ、デリゲーション、管理を含む、メッセージ配信用の SMS サブドメインを設定します。
 
-[今すぐ設定](../using/sms/sms-subdomains.md)
+[今すぐ設定](../using/mobile/mobile-subdomains.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 SMS／MMS／RCS チャネルの設定
 
 サポートされるプロバイダー、カスタム設定、カスタマイズされたオプションを使用したメッセージチャネルの設定に関する包括的なガイダンス。
 
-[設定の探索](../using/sms/sms-configuration.md)
+[設定の探索](../using/mobile/mobile-configuration.md)
 :::
 
 ::::
