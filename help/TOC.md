@@ -5,10 +5,10 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
+source-git-commit: e66628ab1d9df497226ab625947aa18a2a3b6f48
 workflow-type: tm+mt
-source-wordcount: '3318'
-ht-degree: 96%
+source-wordcount: '3330'
+ht-degree: 95%
 
 ---
 
@@ -144,6 +144,8 @@ ht-degree: 96%
    + {hide-from-toc}[課題の作成](using/loyalty-challenges/create-challenges.md)
    + {hide-from-toc}[&#x200B; タスクの作成](using/loyalty-challenges/create-tasks.md)
    + {hide-from-toc}[&#x200B; ロイヤルティチャレンジのパフォーマンスを監視](using/loyalty-challenges/loyalty-reporting.md)
+   + {hide-from-toc}[&#x200B; ロイヤルティプログラムの設定](using/loyalty-challenges/loyalty-admin.md)
+   + {hide-from-toc}[&#x200B; ロイヤルティチャレンジ API リファレンス &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges)
 + キャンペーン {#campaigns}
    + {hide-from-toc}[キャンペーン](/help/rp_landing_pages/campaigns-landing-page.md)
    + [キャンペーンの基本を学ぶ](using/campaigns/get-started-with-campaigns.md)
@@ -530,7 +532,6 @@ ht-degree: 96%
       + [AI を使用した完全なコンテンツの生成](using/content-management/generative-full-content.md)
       + [AI を使用したテキストの生成](using/content-management/generative-text.md)
       + [AI を使用した画像の生成](using/content-management/generative-image.md)
-      + [AI によるコンテンツ実験](using/content-management/generative-experimentation.md)
       + [パーソナライゼーション式用 AI アシスタント](using/content-management/generative-personalization-expressions.md)
       + [AI アシスタントのユースケース](using/content-management/generative-uc.md)
       + ブランド {#brands}
