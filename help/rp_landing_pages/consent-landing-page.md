@@ -22,7 +22,7 @@ ht-degree: 31%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
 
 オプトアウトとパーソナライゼーションの同意の管理
 
@@ -32,7 +32,7 @@ ht-degree: 31%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 同意ポリシーの操作
 
@@ -42,7 +42,7 @@ ht-degree: 31%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 顧客のプリファレンスの管理
 
