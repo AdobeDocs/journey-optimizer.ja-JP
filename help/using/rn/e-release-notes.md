@@ -9,10 +9,10 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: d8fca628ab6f521f868ce26345126cc4245588a5
+source-git-commit: 1f569e7426dfce589f80d3d426a5644a5e553a90
 workflow-type: tm+mt
-source-wordcount: 578
-ht-degree: 9%
+source-wordcount: 289
+ht-degree: 18%
 
 ---
 
@@ -44,43 +44,6 @@ ht-degree: 9%
 </tr>
 </tbody>
 </table>
-
-
-<table>
-<thead>
-<tr>
-<th><strong>ジャーニーパスの最適化 – ターゲティング</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>新しい<strong>Optimize</strong> ノードを使用して、特定のオーディエンスをターゲットにして、ビジネス中心のKPIを満たすのに最適なパスを決定します。</p>
-<p>このツールを活用すれば、一対一のレベルで共感を呼ぶ可能性が高い、より効果的なマーケティング施策を策定し、顧客のマーケティングパーソナライゼーション活動を改善して、コンバージョンや収益などの重要な顧客エンゲージメント KPIを強化できます。</p>
-<p>以前は制限付き可用性で使用されていましたが、この機能はすべての環境で使用できるようになりました（一般提供）。</p>
-<p>ご利用いただけます：2026年5月19日（PT）</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>ジャーニー仲裁 – ランキング式</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>式を使用して、顧客プロファイルの属性と文脈要因にもとづいて、ジャーニーの優先順位スコアを自動的に高め、顧客が最も関連性の高いジャーニーに確実に参入できるようにしました。</p>
-<p>以前は制限付き可用性で使用されていましたが、この機能はすべての環境で使用できるようになりました（一般提供）。</p>
-<p>ご利用いただけます：2026年5月19日（PT）</p>
-</td>
-</tr>
-</tbody>
-</table>
-
 
 
 <!--
@@ -139,10 +102,6 @@ ht-degree: 9%
 
 -->
 
-* **キャンペーンのデフォルトの実行フィールドを上書き** – 以前はジャーニーレベルで使用されていましたが、キャンペーンのパラメーターで、メール、SMS、WhatsApp配信にグローバルに設定されているデフォルトの実行フィールドを上書きできるようになりました。
-
-
-  ご利用いただけます：2026年5月29日（PT）
 
 <!--
 #### Configuration
@@ -154,18 +113,6 @@ ht-degree: 9%
 -->
 
 
-
-#### E メールデザイナー
-
-* **編集可能なフラグメントフィールドのリッチテキスト** - メールコンテンツで使用されるカスタマイズ可能なフラグメントにリッチテキストを追加できるようになりました。 例えば、電子メールDesignerでテキストコンポーネントを編集可能フィールドとして使用する場合、コンテンツの書式（太字や斜体など）を直接設定し、ハイパーリンクを挿入できます。
-
-
-  ご利用いただけます：2026年5月28日（PT）
-
-* **フラグメントの継承の改ざんを制限** - フラグメントを作成または編集する際に、メールで使用するときに変更できるかどうかを選択できるようになりました。 フラグメントをロックすることで、ファイルが表示されるあらゆる場所で同期を維持し、ブランド基準やコンプライアンス要件に違反する可能性のあるローカル編集を防ぐことができます。 この設定は後で更新でき、今後の使用に適用されます。
-
-
-  ご利用いただけます：2026年5月20日（PT）
 
 <!--
 FEEDBACK FROM TYSON WAI - * **Content locking in landing pages** - You can now lock portions of landing page templates, similar to the locking controls available for email templates. You can define which structures, components, and properties are editable — including options to lock design, content, position, and restrict content by limiting the number and/or types of components allowed.
