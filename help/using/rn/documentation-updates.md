@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
+source-git-commit: e232ccfded6b522d99a93d8368cb8085231ccac7
 workflow-type: tm+mt
-source-wordcount: '7833'
+source-wordcount: '7851'
 ht-degree: 91%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 91%
 このページでは、毎月のリリースの機能と改善点に関連する更新に加えて、[!DNL Journey Optimizer] ドキュメントの最新の変更点をすべて一覧表示しています。
 
 ## 2026年5月 {#may-2026}
+
+* **オーケストレーション キャンペーンのガードレールと制限** ページは、オーケストレーション キャンペーンごとに&#x200B;**チャネルアクティビティ**&#x200B;の制限を文書化するようになりました。 [詳細情報](../orchestrated/guardrails.md#activities-limitations)
 
 * **主要な用語** ページが見直されました。6つの新しい用語が追加され、新しい&#x200B;**競合と優先順位付けの用語** セクションが導入され、新しい&#x200B;**用語が似ているときに**&#x200B;曖昧さ回避ガイドが4つの一般的に混同される用語ペアに追加されました。 Adobe Experience Platform固有の用語が削除され、Adobe Experience Platform用語集にリンクするメモに置き換えられました。 [詳細情報](../start/terminology.md)
 
