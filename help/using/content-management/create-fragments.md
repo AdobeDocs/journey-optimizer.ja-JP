@@ -9,29 +9,16 @@ role: User
 level: Beginner, Intermediate
 exl-id: da3ffe9c-a244-4246-b4b5-a3a1d0508676
 TQID: https://experienceleague.adobe.com/NlC-JLidAL9r-1-8rX4hX-WxCkr-Nv1e6YKSisx1n28
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a653cc2e-bc85-4353-a306-399e5b247978id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c6e980f5-2d4f-494f-beef-186b9ecf1513id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: e7a784445f135c53fe1de127ea74f03d28029282
 workflow-type: tm+mt
-source-wordcount: 832
-ht-degree: 94%
+source-wordcount: 980
+ht-degree: 80%
 
 ---
 
@@ -116,6 +103,30 @@ ht-degree: 94%
 >ビジュアルフラグメントは、100 KB を超えることはできません。 式フラグメントは、200 KB を超えることはできません。
 
 フラグメントが作成され、**[!UICONTROL ドラフト]**&#x200B;ステータスでフラグメントリストに追加されます。 追加されたフラグメントをプレビューして公開し、ジャーニーとキャンペーンで使用できます。
+
+### ビジュアルフラグメントのロック {#lock-visual-fragment}
+
+ビジュアルフラグメントを作成または編集する場合は、ビジュアルフラグメントをロックして、電子メールで使用するときに編集者がビジュアルフラグメントを変更または削除できないようにすることができます。
+
+このオプションを選択すると、フラグメントが使用される場所で同期が維持され、ブランドの適用、一貫性の維持、法的要件の遵守に役立ちます。
+
+ビジュアルフラグメントをロックするには、次の手順に従います。
+
+1. フラグメントコンテンツ編集画面で、「**[!UICONTROL 設定]**」タブに移動します。
+
+1. デフォルトでは、フラグメントのロックは解除されます。 「**[!UICONTROL 継承が破損するのを防ぐ]**」を選択して、フラグメントをロックします。
+
+1. 「**[!UICONTROL 確認]**」をクリックします。
+
+   >[!NOTE]
+   >
+   >この設定はいつでも更新できます。 ただし、変更は将来の使用にのみ適用されます。 このフラグメントを使用する既存のメールは変更されません。
+
+![](assets/fragment-lock.png){width="70%" align="center"}
+
+このフラグメントをメールで使用する場合、そのフラグメントはロックされ、元のフラグメントから切り離せなくなりました。 [詳細情報](../email/use-visual-fragments.md#locked-fragments)
+
+元のロックされたフラグメントに対する新しい更新は、それを使用するすべての電子メールに自動的に反映されます。
 
 ## フラグメントのプレビューと公開 {#publish}
 
