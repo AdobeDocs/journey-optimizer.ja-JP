@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e66628ab1d9df497226ab625947aa18a2a3b6f48
+source-git-commit: 8351afe4875fb3115bfe15cc90d005900c0d8e89
 workflow-type: tm+mt
-source-wordcount: '3330'
+source-wordcount: '3332'
 ht-degree: 95%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 95%
    + [リリースサイクル](using/rn/releases.md)
    + {hide-from-toc}[プレリリースノート](using/rn/e-release-notes.md)
    + [最新のリリースノート](using/rn/release-notes.md)
+   + {hide-from-toc}[リリースノート](using/rn/release-notes-2.md)
    + 以前のリリースノート {#previous-rn-new}
       + {hide-from-toc}[以前のリリースノート](/help/rp_landing_pages/previous-rn-new-landing-page.md)
       + [2026](using/rn/release-notes-2026.md)
@@ -105,7 +106,7 @@ ht-degree: 95%
    + 式の作成 {#building-advanced-conditions-journeys}
       + [式の作成](/help/rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
       + [高度な式エディターの操作](using/building-journeys/expression/expressionadvanced.md)
-      + {hide-from-toc}[式アシスタント &#x200B;](using/building-journeys/expression/expression-agent.md)
+      + {hide-from-toc}[式アシスタント ](using/building-journeys/expression/expression-agent.md)
       + 構文 {#syntax}
          + [構文](/help/rp_landing_pages/syntax-landing-page.md)
          + [高度な式エディターの構文](using/building-journeys/expression/generalities.md)
@@ -142,10 +143,10 @@ ht-degree: 95%
    + {hide-from-toc}[ロイヤルティの課題の基本を学ぶ](using/loyalty-challenges/get-started.md)
    + {hide-from-toc}[課題とタスクへのアクセスと管理](using/loyalty-challenges/access-loyalty-challenges.md)
    + {hide-from-toc}[課題の作成](using/loyalty-challenges/create-challenges.md)
-   + {hide-from-toc}[&#x200B; タスクの作成](using/loyalty-challenges/create-tasks.md)
-   + {hide-from-toc}[&#x200B; ロイヤルティチャレンジのパフォーマンスを監視](using/loyalty-challenges/loyalty-reporting.md)
-   + {hide-from-toc}[&#x200B; ロイヤルティプログラムの設定](using/loyalty-challenges/loyalty-admin.md)
-   + {hide-from-toc}[&#x200B; ロイヤルティチャレンジ API リファレンス &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges)
+   + {hide-from-toc}[ タスクの作成](using/loyalty-challenges/create-tasks.md)
+   + {hide-from-toc}[ ロイヤルティチャレンジのパフォーマンスを監視](using/loyalty-challenges/loyalty-reporting.md)
+   + {hide-from-toc}[ ロイヤルティプログラムの設定](using/loyalty-challenges/loyalty-admin.md)
+   + {hide-from-toc}[ ロイヤルティチャレンジ API リファレンス ](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges)
 + キャンペーン {#campaigns}
    + {hide-from-toc}[キャンペーン](/help/rp_landing_pages/campaigns-landing-page.md)
    + [キャンペーンの基本を学ぶ](using/campaigns/get-started-with-campaigns.md)
@@ -280,11 +281,11 @@ ht-degree: 95%
       + [メールの基本を学ぶ](using/email/get-started-email.md)
       + [メールの作成](using/email/create-email.md)
       + メールコンテンツのデザイン {#design-email}
-         + {hide-from-toc}[&#x200B; メールコンテンツをデザイン &#x200B;](/help/rp_landing_pages/design-email-landing-page.md)
+         + {hide-from-toc}[ メールコンテンツをデザイン ](/help/rp_landing_pages/design-email-landing-page.md)
          + {hide-from-toc}[メッセージコンテンツのデザイン](using/start/message-content-design.md)
          + [メールデザインの基本を学ぶ](using/email/get-started-email-design.md)
          + コンテンツ作成を開始する {#start-creating-content}
-            + {hide-from-toc}[&#x200B; コンテンツの作成を開始](/help/rp_landing_pages/start-creating-content-landing-page.md)
+            + {hide-from-toc}[ コンテンツの作成を開始](/help/rp_landing_pages/start-creating-content-landing-page.md)
             + [コンテンツのゼロからのデザイン](using/email/content-from-scratch.md)
             + [コンテンツの読み込み](using/email/existing-content.md)
             + [コンテンツを独自にコーディング](using/email/code-content.md)
@@ -292,7 +293,7 @@ ht-degree: 95%
             + [メールテーマの活用](using/email/apply-email-themes.md)
             + [メールへの PDF ファイルの添付](using/email/pdf-attachments.md)
          + コンテンツの作成 {#add-content}
-            + {hide-from-toc}[&#x200B; コンテンツをデザイン &#x200B;](/help/rp_landing_pages/add-content-landing-page.md)
+            + {hide-from-toc}[ コンテンツをデザイン ](/help/rp_landing_pages/add-content-landing-page.md)
             + [コンテンツコンポーネントの使用](using/email/content-components.md)
             + [ビジュアルフラグメントを活用](using/email/use-visual-fragments.md)
             + [リンクの追加とメッセージのトラッキング](using/email/message-tracking.md)
@@ -303,7 +304,7 @@ ht-degree: 95%
             + [メタデータを追加](using/email/email-metadata.md)
             + [高度な HTML エディターでの編集](using/email/email-expert-mode.md)
          + スタイルの編集 {#edit-style}
-            + {hide-from-toc}[&#x200B; スタイルを編集](/help/rp_landing_pages/edit-style-landing-page.md)
+            + {hide-from-toc}[ スタイルを編集](/help/rp_landing_pages/edit-style-landing-page.md)
             + [メールスタイルの基本を学ぶ](using/email/get-started-email-style.md)
             + [背景設定の編集](using/email/backgrounds.md)
             + [垂直方向の整列とパディングの調整](using/email/alignment-and-padding.md)
@@ -510,7 +511,7 @@ ht-degree: 95%
       + {hide-from-toc}[Experience Manager テンプレートの操作](using/integrations/aem-templates.md)
       + Experience Manager コンテンツフラグメント {#aem}
          + [Experience Manager コンテンツフラグメントの基本を学ぶ](using/integrations/aem-fragments-gs.md)
-         + {hide-from-toc}[&#x200B; コンテンツフラグメント用にリポジトリを設定](using/integrations/aem-admin-settings.md)
+         + {hide-from-toc}[ コンテンツフラグメント用にリポジトリを設定](using/integrations/aem-admin-settings.md)
          + [Experience Manager コンテンツフラグメントの操作](using/integrations/aem-fragments.md)
          + [考慮事項とトラブルシューティング](using/integrations/aem-fragments-limitations.md)
       + [Experience Manager Content Advisorの操作](using/integrations/aem-content-advisor.md)
@@ -523,7 +524,7 @@ ht-degree: 95%
          + [よくある質問](using/integrations/vendor-integration-faq.md)
          + サンプルベンダー {#vendors}
             + [ベンダーとの連携を始める](using/integrations/vendor-integration-gs.md)
-            + [&#x200B; ベンダー設定の例](using/integrations/vendor-integration.md)
+            + [ ベンダー設定の例](using/integrations/vendor-integration.md)
       + [MCP経由でAI ツールを操作する](/help/using/integrations/ajo-mcp.md)
    + コンテンツ生成用 AI アシスタント {#ai-assistant}
       + [コンテンツ生成用 AI アシスタント](/help/rp_landing_pages/ai-assistant-landing-page.md)
@@ -901,7 +902,7 @@ ht-degree: 95%
    + [チャネル設定の基本を学ぶ](using/configuration/get-started-configuration.md)
    + [チャネル設定の指定](using/configuration/channel-surfaces.md)
    + [メッセージコンテンツの書き出し](using/configuration/message-export.md)
-   + {hide-from-toc}[AJO メッセージ書き出しスキーマ &#x200B;](using/configuration/message-export-schema.md)
+   + {hide-from-toc}[AJO メッセージ書き出しスキーマ ](using/configuration/message-export-schema.md)
    + ガイド付きチャネル設定 {#guided-setup}
       + [ガイド付きチャネル設定の基本を学ぶ](using/configuration/set-mobile-config.md)
       + [チャネル設定の作成](using/configuration/create-channel-set-up.md)

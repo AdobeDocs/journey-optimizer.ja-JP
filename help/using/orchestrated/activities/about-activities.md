@@ -6,16 +6,13 @@ description: 調整されたキャンペーンアクティビティの操作方�
 exl-id: 02f986b2-8200-4e0e-8918-44e528a6a3ec
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/OUKBJeSTaPJKav-NNCCxKZ8esY-62JkdRMmcwoJpZJ0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: ede238f1b1acd119cc201639488dd12fbcd518cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: e232ccfded6b522d99a93d8368cb8085231ccac7
 workflow-type: tm+mt
-source-wordcount: 471
-ht-degree: 78%
+source-wordcount: 530
+ht-degree: 68%
 
 ---
 
@@ -31,13 +28,17 @@ ht-degree: 78%
 
 ![キャンバスで使用できるアクティビティのリスト](../assets/orchestrated-activities.png){width="80%" align="left"}
 
-
 >[!NOTE]
 >
->* ライセンスモデル、権限、実装に応じて、使用可能なアクティビティが異なる場合があります。
->
->* オーケストレーションキャンペーンのアクティビティ数は 500 に制限されます。
+>ライセンスモデル、権限、実装に応じて、使用可能なアクティビティが異なる場合があります。
 
+## ガードレールと制限 {#activity-guardrails}
+
+* **チャネルアクティビティ制限** - オーケストレーションされたキャンペーンは、公開時に最大10個のチャネルアクティビティ（メール、SMS、プッシュ、ダイレクトメール）をサポートします。 ターゲティングおよびフロー制御アクティビティは、この制限にカウントされません。
+
+* **キャンバスアクティビティの制限** - キャンバス上のアクティビティの数は500に制限されています。 メンテナンス性とパフォーマンスを確保するために、ワークフローを実際には100 アクティビティ未満に抑えます。
+
+オーケストレーションされたすべてのキャンペーンのガードレールと制限事項については、[ ガードレールと制限事項](../guardrails.md)を参照してください。
 
 ## ターゲティングアクティビティ {#targeting}
 
