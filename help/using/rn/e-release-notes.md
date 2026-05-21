@@ -9,44 +9,49 @@ exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-source-git-commit: 5f32fb17a6738f2be1e883484276f1fd7ffcd44a
+source-git-commit: 8ab2054698179fb23abf1c16915fe166afaf1e3f
 workflow-type: tm+mt
-source-wordcount: 188
-ht-degree: 27%
+source-wordcount: 81
+ht-degree: 35%
 
 ---
+
 
 
 ## 26年5月のプレリリースノート {#may-26-rn}
 
 **以下のプレリリースノートの内容は、リリースの公開日まで予告なく変更される場合があります**。 変更が本番環境で公開されると、リンク、スクリーン、更新されたドキュメントが公開されます。 ほとんどの変更はリリース日に配信されますが、一部の変更は後でロールアウトされる場合があります。詳細については、各エントリに記載されている利用可能日を参照してください。
 
-詳しくは、[Adobe Experience Platform プレリリースノート](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}も参照してください。
 
-**リリース日**: 2026年5月19日～20日
+5月リリースノートが公開されました。 [こちら](release-notes.md)を参照
 
-### 新機能 {#may-26-features}
+<!--
+See also [Adobe Experience Platform Pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 
-このリリースでは、次の機能が対象となります。
+**Release date**: May 19–20, 2026
+
+### New capabilities {#may-26-features}
+
+The following capabilities are targeted for this release.
 
 <table>
 <thead>
 <tr>
-<th><strong>新しいモバイルメッセージチャネルと強化されたRCS メッセージ</strong><br/></th>
+<th><strong>New Mobile Message channel and Enhanced RCS messaging</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>SMS、MMS、およびRCSは、Adobe Journey Optimizerで1つの<strong> モバイルメッセージ </strong> アクションに統合されるようになりました。これにより、1か所からすべてのモバイルメッセージタイプを簡単に管理できるようになりました。 このアップデートの一環として、新しいネイティブオーサリングエクスペリエンスを通じて、画像、カルーセル、推奨アクションなどのリッチメディア RCS メッセージをJourney Optimizerで直接作成できるようになりました。</p>
-<p>ご利用いただけます：2026年5月19日（PT）</p>
+<p>SMS, MMS, and RCS are now unified under a single <strong>Mobile Message</strong> action in Adobe Journey Optimizer, making it easier to manage all mobile message types from one place. As part of this update, you can now author rich media RCS messages, including images, carousels, and suggested actions, directly in Journey Optimizer through a new native authoring experience.</p>
+<p>Availability date: May 19, 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
 
 
-<!--
+
 <table>
 <thead>
 <tr>
@@ -84,13 +89,13 @@ ht-degree: 27%
 
 
 
-
-
-### 機能強化 {#may-26-improv}
-
-このリリースでは、次の機能強化が対象です。
-
 <!--
+
+### Improvements {#may-26-improv}
+
+The following improvements are targeted for this release.
+
+
 #### AI
 
 * **Journey Agent – Analyze** - Journey Agent now includes new Analyze skills. When navigating to the Journey home screen, a new AI recommendations panel appears on the right side, surfacing cards with actionable insights. Clicking a card takes you directly to the relevant journey and opens the right panel with a detailed recommendation to help optimize journey performance.
