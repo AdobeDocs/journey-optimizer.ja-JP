@@ -33,10 +33,10 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: e7a784445f135c53fe1de127ea74f03d28029282
 workflow-type: tm+mt
-source-wordcount: 1029
-ht-degree: 93%
+source-wordcount: 1104
+ht-degree: 87%
 
 ---
 
@@ -169,3 +169,17 @@ ht-degree: 93%
    ![](assets/fragment-break-inheritance.png)
 
 1. そのフラグメントは、元のフラグメントにリンクされなくなったスタンドアロン要素になります。 コンテンツ内の他のコンテンツコンポーネントと同様に編集します。 [詳細情報](content-components.md)
+
+### ロックされたフラグメント {#locked-fragments}
+
+フラグメントが作成者によってロックされている場合、ロック解除アイコンはグレー表示され、継承の解除に使用できません。
+
+![](assets/fragment-locked.png)
+
+ロックされたフラグメントはどこに現れても同期されたままであり、ブランド基準やコンプライアンス要件に違反する可能性のあるローカル編集が行われるのを防ぎます。
+
+フラグメントをロックする方法については、[このセクション &#x200B;](../content-management/create-fragments.md#lock-visual-fragment)を参照してください。
+
+>[!NOTE]
+>
+>フラグメント作成者は、フラグメント設定で&#x200B;**[!UICONTROL 継承を解除できるようにする]**&#x200B;に動作をリセットすることで、後で将来の使用のために設定を変更できます。
