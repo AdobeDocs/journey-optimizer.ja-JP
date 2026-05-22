@@ -8,32 +8,16 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 47ed60f4f8d9e45fa6e692335610537ec340c807
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f7524e295032c5ac4bb230a0f4c4965a764ee2c8
 workflow-type: tm+mt
-source-wordcount: 2771
-ht-degree: 23%
+source-wordcount: 2581
+ht-degree: 25%
 
 ---
 
@@ -353,7 +337,7 @@ ht-degree: 23%
 <p>新しい<strong>Optimize</strong> ノードを使用して、特定のオーディエンスをターゲットにして、ビジネス中心のKPIを満たすのに最適なパスを決定します。</p>
 <p>このツールを活用すれば、一対一のレベルで共感を呼ぶ可能性が高い、より効果的なマーケティング施策を策定し、顧客のマーケティングパーソナライゼーション活動を改善して、コンバージョンや収益などの重要な顧客エンゲージメント KPIを強化できます。</p>
 <p>以前は制限付き可用性で使用されていましたが、この機能はすべての環境で使用できるようになりました（一般提供）。</p>
-<p>ご利用いただけます：2026年5月22日（PT）</p>
+<p>ご利用いただけます：2026年6月1日（PT）</p>
 </td>
 </tr>
 </tbody>
@@ -370,7 +354,7 @@ ht-degree: 23%
 <td>
 <p>式を使用して、顧客プロファイルの属性と文脈要因にもとづいて、ジャーニーの優先順位スコアを自動的に高め、顧客が最も関連性の高いジャーニーに確実に参入できるようにしました。</p>
 <p>以前は制限付き可用性で使用されていましたが、この機能はすべての環境で使用できるようになりました（一般提供）。</p>
-<p>ご利用いただけます：2026年5月22日（PT）</p>
+<p>ご利用いただけます：2026年6月1日（PT）</p>
 </td>
 </tr>
 </tbody>
@@ -410,41 +394,6 @@ ht-degree: 23%
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>ジャーニーパスの最適化 – ターゲティング</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>新しい<strong>Optimize</strong> ノードを使用して、特定のオーディエンスをターゲットにして、ビジネス中心のKPIを満たすのに最適なパスを決定します。</p>
-<p>このツールを活用すれば、一対一のレベルで共感を呼ぶ可能性が高い、より効果的なマーケティング施策を策定し、顧客のマーケティングパーソナライゼーション活動を改善して、コンバージョンや収益などの重要な顧客エンゲージメント KPIを強化できます。</p>
-<p>以前は制限付き可用性で使用されていましたが、この機能はすべての環境で使用できるようになりました（一般提供）。</p>
-<p>ご利用いただけます：2026年5月22日（PT）</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>ジャーニー仲裁 – ランキング式</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>式を使用して、顧客プロファイルの属性と文脈要因にもとづいて、ジャーニーの優先順位スコアを自動的に高め、顧客が最も関連性の高いジャーニーに確実に参入できるようにしました。</p>
-<p>以前は制限付き可用性で使用されていましたが、この機能はすべての環境で使用できるようになりました（一般提供）。</p>
-<p>ご利用いただけます：2026年5月22日（PT）</p>
-</td>
-</tr>
-</tbody>
-</table>
-
 
 ### 機能強化 {#coming-soon-improvements}
 
@@ -470,11 +419,15 @@ ht-degree: 23%
 
   ご利用いただけます：2026年6月1日
 
-#### E メールデザイナー
+<!--
 
-* **編集可能なフラグメントフィールドのリッチテキスト** - メールコンテンツで使用されるカスタマイズ可能なフラグメントにリッチテキストを追加できるようになりました。 例えば、電子メールDesignerでテキストコンポーネントを編集可能フィールドとして使用する場合、コンテンツの書式（太字や斜体など）を直接設定し、ハイパーリンクを挿入できます。
+#### Email Designer
 
-  ご利用いただけます：2026年6月1日（PT）
+* **Rich text in editable fragment fields** - You can now add rich text to customizable fragments that are used in your email content. For example, when using the Text component as an editable field in the Email Designer, you can directly format the content (for example, bold and italics) and insert hyperlinks.
+
+  Availability date: June 1, 2026
+  
+-->
 
 #### キャンペーン
 
