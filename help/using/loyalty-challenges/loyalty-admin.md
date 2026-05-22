@@ -55,7 +55,7 @@ Adobe Journey Optimizerでは、顧客が特典を獲得すると、特典プロ
 
 ## 前提条件 {#prerequisites}
 
-**[!UICONTROL ロイヤルティ管理者]**&#x200B;は、組織ごとの少数の管理者を対象としています。 [&#x200B; ロイヤルティチャレンジ &#x200B;](get-started.md#prerequisites)に必要な権限に加えて、Journey Optimizer インスタンスに対する管理者レベルのアクセス権が必要です。 アクセスをリクエストするには、Adobe管理者にお問い合わせください。
+**[!UICONTROL ロイヤルティ管理者]**&#x200B;は、組織ごとの少数の管理者を対象としています。 [ ロイヤルティチャレンジ ](get-started.md#prerequisites)に必要な権限に加えて、Journey Optimizer インスタンスに対する管理者レベルのアクセス権が必要です。 アクセスをリクエストするには、Adobe管理者にお問い合わせください。
 
 ## ロイヤルティ管理者へのアクセス {#access-loyalty-admin}
 
@@ -125,7 +125,7 @@ Adobe Journey Optimizerでは、顧客が特典を獲得すると、特典プロ
 
 <!-- SCREENSHOT: Reward provider creation form with definitions, proxy, and auth token sections -->
 
-保存すると、プロバイダーが報酬プロバイダーのリストに表示されます。 マーケターは、[&#x200B; チャレンジ報酬の設定時](create-challenges.md#rewards)にこのプロバイダーを選択します。
+保存すると、プロバイダーが報酬プロバイダーのリストに表示されます。 マーケターは、[ チャレンジ報酬の設定時](create-challenges.md#rewards)にこのプロバイダーを選択します。
 
 既存の報酬プロバイダーを編集するには、「**[!UICONTROL 報酬プロバイダー]**」タブを開き、プロバイダーを選択して、フィールドを更新します。 子リソース（報酬定義、プロキシ、認証トークンジェネレーター）の変更は、更新すると保存されます。
 
