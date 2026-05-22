@@ -11,9 +11,9 @@ hide: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
-source-git-commit: 3ed592e5a9a0671ddd09d648f7407a391cc9684f
+source-git-commit: 9383220dd57f6a3ebfe67d0d1081b8834b524293
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1349'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 1%
 
 * **Global settings** — プログラムのExperience Platform ID名前空間を選択します。 [&#x200B; グローバル設定の設定方法について説明します](#global-settings)
 * **報酬プロバイダー** – 顧客が進行状況を確認したり、課題を完了したりすると、報酬を実現するAPIを接続します。 [報酬プロバイダーの設定方法について](#reward-providers)
-* **イベント定義** – 受信エクスペリエンスイベントを&#x200B;**[!UICONTROL カスタムイベント]** タスクで使用されるアクティビティにマッピングします。 [&#x200B; イベント定義の設定方法を学ぶ](#event-definitions)
+* **イベント定義** – 受信エクスペリエンスイベントを、**[!UICONTROL カスタム AEP イベント]** タスクで使用されるアクティビティにマッピングします。 [&#x200B; イベント定義の設定方法を学ぶ](#event-definitions)
 * **製品在庫** — タスクの実施要件ルールで使用するアイテムからグループへのマッピングをアップロードします。 [製品インベントリの設定方法について](#product-inventory)
 * **除外** — タスク設定用に、組織全体のアイテムおよびグループの除外をアップロードします。 [除外の設定方法について](#exclusions)
 
@@ -100,12 +100,16 @@ ht-degree: 1%
 
    +++報酬プロキシ
 
-   フルフィルメント呼び出しをエンドポイントに直接送信するのではなく、中間サーバーを介してルーティングします。
+   フルフィルメント呼び出しをエンドポイントに直接送信するのではなく、中間サーバーを介してルーティングします。 報酬プロバイダーと&#x200B;**[!UICONTROL プロキシを作成]**&#x200B;画面で、プロキシ認証に&#x200B;**[!UICONTROL 資格情報]** フィールドを使用します。
 
    * **[!UICONTROL 名前]**&#x200B;と&#x200B;**[!UICONTROL 説明]**&#x200B;を入力します。
    * **[!UICONTROL ホスト]**&#x200B;と&#x200B;**[!UICONTROL ポート]**&#x200B;を入力します。
    * プロキシが&#x200B;**[!UICONTROL 有効]**&#x200B;かどうかを指定します。
-   * プロキシ **[!UICONTROL 資格情報]**&#x200B;を追加します。
+   * **[!UICONTROL 資格情報]**&#x200B;に、プロキシのユーザー名とパスワードをJSONとして入力します。 資格情報の値は通常、次のようになります。
+
+     ```json
+     { "userName": "test", "password": "xxxx" }
+     ```
 
    ![](assets/admin-reward-proxies.png)
 
@@ -140,7 +144,7 @@ ht-degree: 1%
 
 ## イベント定義 {#event-definitions}
 
-**[!UICONTROL イベント定義]**&#x200B;は、処理する受信エクスペリエンスイベントを[!DNL Journey Optimizer]に通知します。 たとえば、購入やホテルのチェックインなどです。 マーケターは、**[!UICONTROL カスタムイベント]** タスクでこれらの定義を参照します。 どの定義にも一致しないイベントは無視されます。
+**[!UICONTROL イベント定義]**&#x200B;は、[!DNL Journey Optimizer]に対して、どのAdobe Experience Platform エクスペリエンスイベントを処理するかを指示します。 たとえば、購入やホテルのチェックインなどです。 マーケターは、**[!UICONTROL カスタム AEP イベント]** タスクを作成する際に、これらの定義を参照します。 どの定義にも一致しないイベントは無視されます。
 
 組織が独自のJSON形式でイベントを送信すると、**[!UICONTROL Schema]**&#x200B;と&#x200B;**[!UICONTROL Transformer]**&#x200B;が[!DNL Journey Optimizer]がペイロードを検証し、それを解析して、アクティビティを追跡するかどうかを決定するのに役立ちます。
 
@@ -150,7 +154,7 @@ ht-degree: 1%
 
    ![](assets/admin-event-definition.png)
 
-1. イベントの&#x200B;**[!UICONTROL 名前]**&#x200B;を入力します（例：`Coffee purchase`）。 マーケターが&#x200B;**[!UICONTROL カスタムイベント]** タスクを設定する際にこの名前が表示されます。
+1. イベントの&#x200B;**[!UICONTROL 名前]**&#x200B;を入力します（例：`Coffee purchase`）。 **[!UICONTROL カスタム AEP イベント]** タスクを設定する際にこの名前が表示されます。
 
 1. 受信ペイロードで[!DNL Journey Optimizer]がイベントを認識する方法を指定します。 **[!UICONTROL 識別子パス]**、**[!UICONTROL XDM スキーマ ID]**、またはその両方を指定します。
 
@@ -163,7 +167,7 @@ ht-degree: 1%
    * **[!UICONTROL スキーマ]** – 受信ペイロードの検証文字列。
    * **[!UICONTROL Transformer]** — ペイロードをロイヤルティチャレンジが期待する形式にマッピングする変換式（JSONataなど）。
 
-1. イベント定義を保存します。 これは、**[!UICONTROL イベント定義]** リストに表示され、マーケターが課題を作成する際に使用できます。 [課題の作成方法を学ぶ](create-challenges.md)
+1. イベント定義を保存します。 これは、**[!UICONTROL イベント定義]** リストに表示され、マーケターが&#x200B;**[!UICONTROL カスタム AEP イベント]** タスクを作成すると使用できます。 [&#x200B; タスクの作成方法を学ぶ](create-tasks.md#choose-activity)
 
 ## 製品インベントリ {#product-inventory}
 
