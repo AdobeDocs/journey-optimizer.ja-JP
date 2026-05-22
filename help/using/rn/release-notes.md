@@ -30,10 +30,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 47ed60f4f8d9e45fa6e692335610537ec340c807
+source-git-commit: f7524e295032c5ac4bb230a0f4c4965a764ee2c8
 workflow-type: tm+mt
-source-wordcount: 2771
-ht-degree: 23%
+source-wordcount: 2581
+ht-degree: 25%
 
 ---
 
@@ -353,7 +353,7 @@ ht-degree: 23%
 <p>新しい<strong>Optimize</strong> ノードを使用して、特定のオーディエンスをターゲットにして、ビジネス中心のKPIを満たすのに最適なパスを決定します。</p>
 <p>このツールを活用すれば、一対一のレベルで共感を呼ぶ可能性が高い、より効果的なマーケティング施策を策定し、顧客のマーケティングパーソナライゼーション活動を改善して、コンバージョンや収益などの重要な顧客エンゲージメント KPIを強化できます。</p>
 <p>以前は制限付き可用性で使用されていましたが、この機能はすべての環境で使用できるようになりました（一般提供）。</p>
-<p>ご利用いただけます：2026年5月22日（PT）</p>
+<p>ご利用いただけます：2026年6月1日（PT）</p>
 </td>
 </tr>
 </tbody>
@@ -370,7 +370,7 @@ ht-degree: 23%
 <td>
 <p>式を使用して、顧客プロファイルの属性と文脈要因にもとづいて、ジャーニーの優先順位スコアを自動的に高め、顧客が最も関連性の高いジャーニーに確実に参入できるようにしました。</p>
 <p>以前は制限付き可用性で使用されていましたが、この機能はすべての環境で使用できるようになりました（一般提供）。</p>
-<p>ご利用いただけます：2026年5月22日（PT）</p>
+<p>ご利用いただけます：2026年6月1日（PT）</p>
 </td>
 </tr>
 </tbody>
@@ -410,41 +410,6 @@ ht-degree: 23%
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>ジャーニーパスの最適化 – ターゲティング</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>新しい<strong>Optimize</strong> ノードを使用して、特定のオーディエンスをターゲットにして、ビジネス中心のKPIを満たすのに最適なパスを決定します。</p>
-<p>このツールを活用すれば、一対一のレベルで共感を呼ぶ可能性が高い、より効果的なマーケティング施策を策定し、顧客のマーケティングパーソナライゼーション活動を改善して、コンバージョンや収益などの重要な顧客エンゲージメント KPIを強化できます。</p>
-<p>以前は制限付き可用性で使用されていましたが、この機能はすべての環境で使用できるようになりました（一般提供）。</p>
-<p>ご利用いただけます：2026年5月22日（PT）</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-<table>
-<thead>
-<tr>
-<th><strong>ジャーニー仲裁 – ランキング式</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>式を使用して、顧客プロファイルの属性と文脈要因にもとづいて、ジャーニーの優先順位スコアを自動的に高め、顧客が最も関連性の高いジャーニーに確実に参入できるようにしました。</p>
-<p>以前は制限付き可用性で使用されていましたが、この機能はすべての環境で使用できるようになりました（一般提供）。</p>
-<p>ご利用いただけます：2026年5月22日（PT）</p>
-</td>
-</tr>
-</tbody>
-</table>
-
 
 ### 機能強化 {#coming-soon-improvements}
 
@@ -470,11 +435,15 @@ ht-degree: 23%
 
   ご利用いただけます：2026年6月1日
 
-#### E メールデザイナー
+<!--
 
-* **編集可能なフラグメントフィールドのリッチテキスト** - メールコンテンツで使用されるカスタマイズ可能なフラグメントにリッチテキストを追加できるようになりました。 例えば、電子メールDesignerでテキストコンポーネントを編集可能フィールドとして使用する場合、コンテンツの書式（太字や斜体など）を直接設定し、ハイパーリンクを挿入できます。
+#### Email Designer
 
-  ご利用いただけます：2026年6月1日（PT）
+* **Rich text in editable fragment fields** - You can now add rich text to customizable fragments that are used in your email content. For example, when using the Text component as an editable field in the Email Designer, you can directly format the content (for example, bold and italics) and insert hyperlinks.
+
+  Availability date: June 1, 2026
+  
+-->
 
 #### キャンペーン
 
