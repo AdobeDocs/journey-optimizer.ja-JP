@@ -8,29 +8,13 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f7524e295032c5ac4bb230a0f4c4965a764ee2c8
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: ee5bb250-0884-4d71-86eb-d8489e8bcadd
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 11de3921d586d1a62d6e89be65a35fbd0fba7e53
 workflow-type: tm+mt
 source-wordcount: 2581
 ht-degree: 25%
@@ -87,7 +71,7 @@ ht-degree: 25%
 <p>オーケストレーションされたキャンペーンを、別のオーケストレーションされたキャンペーンの<strong>終了アクティビティ </strong>から直接、オーケストレーションされたキャンペーンをトリガーすることで、リンクできるようになりました。</p>
 <p>これにより、複雑なオーケストレーションロジックを、毎回再構築するのではなく、複数の親キャンペーンから呼び出すことができる、小さく再利用可能なフローに分割することができます。 実行時に渡されたペイロードは、ダウンストリームキャンペーンでセグメント化とパーソナライゼーションに使用できるため、リンクされた各キャンペーンは、受信したコンテキストに基づいて動作できます。</p>
 <p><img src="assets/do-not-localize/oc-trigger.gif"></p>
-<p>詳しくは、 <a href="../orchestrated/trigger-orchestrated-campaign.md#signal-end">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../orchestrated/trigger-orchestrated-campaign.md#signal-end">詳細ドキュメント</a>を参照してください。</p>
 <p>ご利用いただけます：2026年5月20日（PT）</p>
 </td>
 </tr>
@@ -148,7 +132,7 @@ ht-degree: 25%
 <td>
 <p>E メールデザイナーの専用オプションを使用して、メールコンテンツにディープリンクを追加できるようになりました。</p><p>これにより、ユーザーはブラウザーやアプリストアにリダイレクトされずに、アプリ内の適切なコンテンツに直接アクセスでき、コンテキストとエンゲージメントが維持されます。</p>
 <p><img src="assets/do-not-localize/deeplinks.gif"></p>
-<p>詳しくは、 <a href="../email/deeplinks.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../email/deeplinks.md">詳細ドキュメント</a>を参照してください。</p>
 <p>ご利用いただけます：2026年5月12日（PT）</p>
 </td>
 </tr>
@@ -167,7 +151,7 @@ ht-degree: 25%
 <p>これで、ジャーニーを<strong>シミュレーション</strong>に設定できます。 このモードを使用すると、<strong>シミュレートされたユーザー</strong>を使用してロジックを検証できます。 これらはシミュレーション専用に作成された一時的なプロファイルで、Adobe Experience Platform で永続的なテストプロファイルを管理することなく、自由にテストできます。</p>
 <p>この機能は現在、基本機能を備えた限定提供として、すべてのお客様にご利用いただけます。</p>
 <p><img src="assets/do-not-localize/simulate-user.gif"></p>
-<p>詳しくは、 <a href="../building-journeys/simulate-journey.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../building-journeys/simulate-journey.md">詳細ドキュメント</a>を参照してください。</p>
 <p>ご利用いただけます：2026年5月5日（PT）</p>
 </td>
 </tr>
@@ -185,7 +169,7 @@ ht-degree: 25%
 <td>
 <p>[!DNL Adobe Journey Optimizer] aiを使用して、簡素化できる決定ルールとランキング式を検出できるようになりました。 インベントリでは、AIが最適化機会を特定したルールに赤いインジケーターが表示されます。 インジケーターをクリックすると、AIが提案したバージョンと一緒に元のエクスプレッションが表示されます。 そこから、ファイルをダウンロードして、シミュレートされたプロファイルが各バージョンでどのように評価されるかを確認し、それらが同じように動作することを確認してから、式を最適化された式に置き換えることができます。</p>
 <p><img src="assets/do-not-localize/rule-ai.gif"></p>
-<p>詳しくは、 <a href="../start/ai-features.md#decisioning-optimization">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../start/ai-features.md#decisioning-optimization">詳細ドキュメント</a>を参照してください。</p>
 <p>ご利用いただけます：2026年5月5日（PT）</p>
 </td>
 </tr>
@@ -301,7 +285,7 @@ ht-degree: 25%
 <p>AI アシスタントがジャーニーの高度な式エディターで動作し、自然言語プロンプトを有効な式や条件付きロジックに変換できるようになりました。 構築したい式を記述すると、AI アシスタントがすぐに適用できる使いやすいコードを生成したり、フォローアッププロンプトで微調整したりできます。</p>
 <p>この機能は、パブリック Betaとしてすべてのお客様が利用できます。</p>
 <!--<p><img src="assets/do-not-localize/expression-assistant.gif"></p>-->
-<p>ご利用いただけます：2026年5月22日（PT）</p>
+<p>ご利用いただけます：2026年6月2日（PT）</p>
 </td>
 </tr>
 </tbody>
@@ -318,7 +302,7 @@ ht-degree: 25%
 <td>
 <p>最後にアクティブなプロファイルが終了すると、非繰り返しの<strong> オーディエンスの読み取り</strong> ジャーニーが自動的に<strong>停止</strong> ステータスに移行するようになりました。 以前は、これらのジャーニーは、プロファイルがフローしなくなった場合でも、91日間のグローバルタイムアウトが期限切れになるまで<strong> ライブ </strong>のままでした。 この改善により、ジャーニーのステータスは、完了するとすぐに実際の実行ステータスを反映するようになり、手作業なしでジャーニーインベントリを正確に保つことができます。</p>
 <p>この動作は、待機期間を引き起こすノード（待機ノード、リアクションノード、イベントトリガーのトランジションなど）を含むジャーニーには適用されません。 これらのジャーニーは、標準の91日間のグローバルタイムアウトの対象のままです。</p>
-<p>ご利用いただけます：2026年5月22日（PT）</p>
+<p>ご利用いただけます：2026年6月2日（PT）</p>
 </tr>
 </tbody>
 </table>
@@ -423,7 +407,7 @@ ht-degree: 25%
 
 * **カスタムアクションでの証明書ベースのカスタム認証** - カスタムアクションで、証明書ベースのカスタム認証がサポートされるようになりました。 カスタム認証コンフィギュレーションにsubType: &quot;certificateCredential&quot;を追加することで、Journey OptimizerはAdobeのマネージド証明書を使用してJWT クライアントアサーションに署名し、アクセストークンと交換します。クライアントシークレットは必要ありません。 Azure Entra IDなど、証明書ベースのID確認を強制するエンタープライズ API向けに設計されています。
 
-  ご利用いただけます：2026年5月22日（PT）
+  ご利用いただけます：2026年6月2日（PT）
 
 * **外部オーディエンスの補足識別子のサポート** - ジャーニーの補足識別子が、CSV ファイルから読み込まれたオーディエンスやFederated Audience Compositionで作成されたオーディエンスなど、外部オーディエンスでサポートされるようになりました。 オーディエンスからID以外の属性または個人ではないID属性を補足IDとして指定できます。スキーマのラベル付けは必要ありません。
 
