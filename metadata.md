@@ -7,11 +7,12 @@ product: Journey Optimizer
 solution: Journey Optimizer
 product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+usetq: true
 feature-set: Journey Optimizer
 landing-page-name: journey-optimizer
 landing-page-breadcrumb-title: Journey Optimizer
 solution-title: Journey Optimizer Documentation
-source-git-commit: e254eeaa6299ee42b419eeaba30ce304cbd14ae0
+source-git-commit: 33751376024706553ab43e96db118404ab92bf5d
 workflow-type: tm+mt
 source-wordcount: 148
 ht-degree: 100%
