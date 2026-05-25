@@ -29,9 +29,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0b129e622e0172233b9513c580627530573ed8ee
+source-git-commit: 8fa02f51c6b9bb9c98b7f20264c677d065ef0b75
 workflow-type: tm+mt
-source-wordcount: 2958
+source-wordcount: 2937
 ht-degree: 18%
 
 ---
@@ -462,7 +462,7 @@ ht-degree: 18%
 
 #### コンテンツ作成
 
-* **インラインプロファイル属性編集** – 完全なパーソナライゼーションエディターを開かずに、プロファイル属性式をメールDesignerに直接挿入できるようになりました。 任意のテキストフィールドに「`{{`」と入力してインライン自動補完ドロップダウンを開き、必要な属性を参照して選択します。属性はカーソルの位置にすぐに挿入されます。 この機能は、プッシュチャネルエディターでも使用できます。 [詳細情報](../personalization/personalize.md#inline-personalization)
+* **インラインプロファイル属性編集** - メールDesignerでのインラインプロファイル属性編集は、当初4月にリリースされました。 5月のリリースの一環として、この機能はAI アシスタントから切り離され、プッシュチャネルエディターに拡張されました。 [詳細情報](../personalization/personalize.md#inline-personalization)
 
   ![](../personalization/assets/inline-profile-attributes.png)
 
