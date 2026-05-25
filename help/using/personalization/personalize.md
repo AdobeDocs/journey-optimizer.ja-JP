@@ -9,10 +9,10 @@ role: Developer
 level: Beginner
 keywords: 式, エディター, 開始, パーソナライゼーション
 exl-id: f448780b-91bc-455e-bf10-9a9aee0a0b24
-source-git-commit: 6d62604f975fce76860eba000a09870806d54934
+source-git-commit: 124dbfa4f2798aa7839dd9215b96207f43fac3d6
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 91%
+source-wordcount: '681'
+ht-degree: 82%
 
 ---
 
@@ -58,6 +58,18 @@ Journey Optimizer は、メッセージを処理する際に、式を Experience
 ![](../content-management/assets/ai-perso-generate.png)
 
 ➡️ [Personalization エクスプレッションのAI アシスタントの操作方法を学ぶ](../content-management/generative-personalization-expressions.md)
+
+## プロファイル属性のインライン編集 {#inline-personalization}
+
+**電子メール Designer**&#x200B;または&#x200B;**プッシュチャネル** エディターでコンテンツを編集する際に、完全なパーソナライゼーションエディターを開かずに、プロファイル属性式を直接挿入できます。
+
+それには、次の手順に従います。
+
+1. 任意のテキストフィールドに`{{`と入力します。 インライン自動補完ドロップダウンがカーソル位置で開きます。
+1. 入力を開始して、使用可能なプロファイル属性をフィルタリングします。
+1. 必要な属性を選択します。カーソル位置にパーソナライゼーショントークンとして挿入されます。
+
+![](assets/inline-profile-attributes.png)
 
 ## さらに深く掘り下げましょう
 

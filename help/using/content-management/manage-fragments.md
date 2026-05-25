@@ -28,10 +28,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 227ca2be701298a14103a08c8114d79104e16ea2
 workflow-type: tm+mt
-source-wordcount: 1456
-ht-degree: 100%
+source-wordcount: 1523
+ht-degree: 95%
 
 ---
 
@@ -72,6 +72,12 @@ ht-degree: 100%
 * フラグメントをフォルダーに移動します。 [詳細情報](#folders)
 
 ![](assets/fragment-list-more-actions.png)
+
+### 一括アクション {#bulk-actions-fragments}
+
+一度に複数のフラグメントを選択し、すべてのフラグメントに一括操作を適用できます。 利用可能な操作には、アイテムのパッケージへの追加、アイテムのフォルダーへの移動、タグの編集、アクセスの管理、アーカイブなどがあります。 [一括アクションの詳細→](../start/search-filter-categorize.md#bulk-actions)
+
+また、任意の列ヘッダーをクリックしてフラグメントリストを並べ替え、必要なデータに合わせて列の境界線をドラッグして列のサイズを変更することもできます。
 
 ## フォルダーを使用したフラグメントの管理 {#folders}
 

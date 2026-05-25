@@ -21,10 +21,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 74203348941e21c5491877d9553114fe81955f2f
 workflow-type: tm+mt
-source-wordcount: 833
-ht-degree: 70%
+source-wordcount: 900
+ht-degree: 65%
 
 ---
 
@@ -114,6 +114,12 @@ ht-degree: 70%
 >[!NOTE]
 >
 >テンプレートを編集または削除しても、このテンプレートを使用して作成されたコンテンツを含むキャンペーンやジャーニーは影響を受けません。
+
+## 一括アクション {#bulk-actions-templates}
+
+一度に複数のテンプレートを選択し、すべてのテンプレートに一括操作を適用できます。 利用可能な操作には、アイテムのパッケージへの追加、アイテムのフォルダーへの移動、タグの編集、アクセスの管理、アーカイブなどがあります。 [一括アクションの詳細→](../start/search-filter-categorize.md#bulk-actions)
+
+ほとんどの列見出しをクリックしてテンプレートリストを並べ替えたり、必要なデータに合わせて列見出しをドラッグして列のサイズを変更したりすることもできます。
 
 ## [!BADGE 使用制限]{type=Informative}は、テンプレートをサムネールとして表示します {#template-thumbnails}
 
