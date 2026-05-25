@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: ロイヤルティプログラムの設定
-description: Adobe [!DNL Journey Optimizer]でロイヤルティプログラムの報酬プロバイダー、イベント定義、商品インベントリ、除外、組織レベルの設定を行う方法について説明します。
+title: ロイヤルティに関する課題の設定
+description: Adobe [!DNL Journey Optimizer]でロイヤルティチャレンジの報酬プロバイダー、イベント定義、商品インベントリ、除外、組織レベルの設定を行う方法について説明します。
 feature: Journeys
 topic: Content Management
 role: Admin
@@ -11,26 +11,39 @@ hide: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
-source-git-commit: 863c3405e5509938cb6b9180c16d5c89fb439814
+source-git-commit: dfeaa32ed3b216fdf63806356e1e5750db0c80cb
 workflow-type: tm+mt
-source-wordcount: '1631'
+source-wordcount: '1636'
 ht-degree: 1%
 
 ---
 
-# ロイヤルティプログラムの設定 {#loyalty-admin}
+# ロイヤルティに関する課題の設定 {#loyalty-admin}
+
+<!-- Unpublished draft: Loyalty Admin UI documentation is not validated for Experience League. This page uses hide: true until review. -->
 
 >[!BEGINSHADEBOX]
 
-**ロイヤルティの課題に関するドキュメント：**
+**ロイヤルティの課題に関するドキュメント**
 
-* [ロイヤルティに関する課題を解決](get-started.md)
+[ロイヤルティに関する課題を解決](get-started.md)
+
++++課題の創出と管理
+
 * [課題とタスクへのアクセスと管理](access-loyalty-challenges.md)
 * [課題の創出](create-challenges.md)
 * [タスクの作成](create-tasks.md)
 * [ロイヤルティチャレンジのパフォーマンスを監視する](loyalty-reporting.md)
-* **ロイヤルティプログラムの設定** ◀︎ **現在地**
+
++++
+
++++設定と統合
+
+* **ロイヤルティに関する課題を設定** ◀︎ **現在地**
+* [ロイヤルティデータとデータセット](loyalty-data-and-datasets.md)
 * [ロイヤルティチャレンジ API リファレンス](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
+
++++
 
 >[!ENDSHADEBOX]
 
@@ -40,11 +53,11 @@ ht-degree: 1%
 
 ## 概要 {#access-loyalty-admin}
 
-ロイヤルティプログラム設定は、マーケターが課題を作成する前に、報酬フルフィルメント、イベントマッピング、製品インベントリ、除外を設定することで、[!DNL Journey Optimizer]を外部のロイヤルティシステムに接続します。
+ロイヤルティチャレンジの設定は、マーケターがチャレンジを作成する前に、報酬フルフィルメント、イベントマッピング、製品インベントリ、除外を設定することで、[!DNL Journey Optimizer]を外部のロイヤルティシステムに接続します。
 
 >[!NOTE]
 >
->ロイヤルティプログラムの設定には、ロイヤルティチャレンジに必要な権限に加えて、[!DNL Journey Optimizer] インスタンスへの管理者アクセス権が必要です。 Adobe管理者に連絡してアクセス権を取得してください。
+>ロイヤルティチャレンジの設定には、ロイヤルティチャレンジに必要な権限に加えて、[!DNL Journey Optimizer] インスタンスへの管理者アクセス権が必要です。 Adobe管理者に連絡してアクセス権を取得してください。
 
 設定インターフェイスを開くには、**[!UICONTROL ロイヤルティ]**&#x200B;に移動し、**[!UICONTROL ロイヤルティ管理者]**&#x200B;を選択します。 インターフェイスはタブで構成されています。
 
@@ -59,9 +72,9 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_global_settings"
 >title="グローバル設定"
->abstract="グローバル設定イベントや課題をまたいでメンバーを識別するために使用するID名前空間など、ロイヤルティプログラムの組織レベルの設定を定義します。"
+>abstract="グローバル設定は、イベントや課題をまたいでメンバーを識別するために使用されるID名前空間など、ロイヤルティ課題の組織レベルの設定を定義します。"
 
-「**[!UICONTROL グローバル設定]**」タブを開き、**[!UICONTROL 名前空間]** ドロップダウンで、ロイヤルティプログラムのAdobe Experience Platform [ID名前空間](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/features/namespaces)を選択します。 この名前空間は、データ内のメンバープロファイルの識別方法と一致する必要があります。
+「**[!UICONTROL グローバル設定]**」タブを開き、**[!UICONTROL 名前空間]** ドロップダウンで「[Adobe Experience Platform ID名前空間](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/features/namespaces) for Loyalty Challenges」を選択します。 この名前空間は、データ内のメンバープロファイルの識別方法と一致する必要があります。
 
 ![](assets/admin-global-settings.png)
 

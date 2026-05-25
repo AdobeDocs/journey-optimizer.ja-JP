@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 04e549fa4e51f22cdf53b5666b43e09f729a97b4
+source-git-commit: dfeaa32ed3b216fdf63806356e1e5750db0c80cb
 workflow-type: tm+mt
 source-wordcount: '3330'
 ht-degree: 95%
@@ -144,7 +144,7 @@ ht-degree: 95%
    + {hide-from-toc}[課題の作成](using/loyalty-challenges/create-challenges.md)
    + {hide-from-toc}[&#x200B; タスクの作成](using/loyalty-challenges/create-tasks.md)
    + {hide-from-toc}[&#x200B; ロイヤルティチャレンジのパフォーマンスを監視](using/loyalty-challenges/loyalty-reporting.md)
-   + {hide-from-toc}[&#x200B; ロイヤルティプログラムの設定](using/loyalty-challenges/loyalty-admin.md)
+   + {hide-from-toc}[&#x200B; ロイヤルティデータとデータセット &#x200B;](using/loyalty-challenges/loyalty-data-and-datasets.md)
    + {hide-from-toc}[&#x200B; ロイヤルティチャレンジ API リファレンス &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges)
 + キャンペーン {#campaigns}
    + {hide-from-toc}[キャンペーン](/help/rp_landing_pages/campaigns-landing-page.md)
