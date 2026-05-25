@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: ロイヤルティプログラムの設定
-description: Adobe [!DNL Journey Optimizer]でロイヤルティプログラムの報酬プロバイダー、イベント定義、商品インベントリ、除外、組織レベルの設定を行う方法について説明します。
+title: ロイヤルティに関する課題の設定
+description: Adobe [!DNL Journey Optimizer]でロイヤルティチャレンジの報酬プロバイダー、イベント定義、商品インベントリ、除外、組織レベルの設定を行う方法について説明します。
 feature: Journeys
 topic: Content Management
 role: Admin
@@ -11,46 +11,59 @@ hide: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
-source-git-commit: 863c3405e5509938cb6b9180c16d5c89fb439814
+source-git-commit: dfeaa32ed3b216fdf63806356e1e5750db0c80cb
 workflow-type: tm+mt
-source-wordcount: '1631'
+source-wordcount: '1636'
 ht-degree: 1%
 
 ---
 
-# ロイヤルティプログラムの設定 {#loyalty-admin}
+# ロイヤルティに関する課題の設定 {#loyalty-admin}
+
+<!-- Unpublished draft: Loyalty Admin UI documentation is not validated for Experience League. This page uses hide: true until review. -->
 
 >[!BEGINSHADEBOX]
 
-**ロイヤルティの課題に関するドキュメント：**
+**ロイヤルティの課題に関するドキュメント**
 
-* [ロイヤルティに関する課題を解決](get-started.md)
+[ロイヤルティに関する課題を解決](get-started.md)
+
++++課題の創出と管理
+
 * [課題とタスクへのアクセスと管理](access-loyalty-challenges.md)
 * [課題の創出](create-challenges.md)
 * [タスクの作成](create-tasks.md)
 * [ロイヤルティチャレンジのパフォーマンスを監視する](loyalty-reporting.md)
-* **ロイヤルティプログラムの設定** ◀︎ **現在地**
+
++++
+
++++設定と統合
+
+* **ロイヤルティに関する課題を設定** ◀︎ **現在地**
+* [ロイヤルティデータとデータセット](loyalty-data-and-datasets.md)
 * [ロイヤルティチャレンジ API リファレンス](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
+
++++
 
 >[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
->この機能は現在&#x200B;**プライベートベータ版**&#x200B;です。 [!DNL Journey Optimizer]のリリースサイクルと可用性フェーズについて詳しくは、[&#x200B; リリースサイクル &#x200B;](../rn/releases.md)を参照してください。
+>この機能は現在&#x200B;**プライベートベータ版**&#x200B;です。 [!DNL Journey Optimizer]のリリースサイクルと可用性フェーズについて詳しくは、[ リリースサイクル ](../rn/releases.md)を参照してください。
 
 ## 概要 {#access-loyalty-admin}
 
-ロイヤルティプログラム設定は、マーケターが課題を作成する前に、報酬フルフィルメント、イベントマッピング、製品インベントリ、除外を設定することで、[!DNL Journey Optimizer]を外部のロイヤルティシステムに接続します。
+ロイヤルティチャレンジの設定は、マーケターがチャレンジを作成する前に、報酬フルフィルメント、イベントマッピング、製品インベントリ、除外を設定することで、[!DNL Journey Optimizer]を外部のロイヤルティシステムに接続します。
 
 >[!NOTE]
 >
->ロイヤルティプログラムの設定には、ロイヤルティチャレンジに必要な権限に加えて、[!DNL Journey Optimizer] インスタンスへの管理者アクセス権が必要です。 Adobe管理者に連絡してアクセス権を取得してください。
+>ロイヤルティチャレンジの設定には、ロイヤルティチャレンジに必要な権限に加えて、[!DNL Journey Optimizer] インスタンスへの管理者アクセス権が必要です。 Adobe管理者に連絡してアクセス権を取得してください。
 
 設定インターフェイスを開くには、**[!UICONTROL ロイヤルティ]**&#x200B;に移動し、**[!UICONTROL ロイヤルティ管理者]**&#x200B;を選択します。 インターフェイスはタブで構成されています。
 
-* **Global settings** — プログラムのExperience Platform ID名前空間を選択します。 [&#x200B; グローバル設定の設定方法について説明します](#global-settings)
+* **Global settings** — プログラムのExperience Platform ID名前空間を選択します。 [ グローバル設定の設定方法について説明します](#global-settings)
 * **報酬プロバイダー** – 顧客が進行状況を確認したり、課題を完了したりすると、報酬を実現するAPIを接続します。 [報酬プロバイダーの設定方法について](#reward-providers)
-* **イベント定義** – 受信エクスペリエンスイベントを&#x200B;**[!UICONTROL カスタムイベント]** タスクで使用されるアクティビティにマッピングします。 [&#x200B; イベント定義の設定方法を学ぶ](#event-definitions)
+* **イベント定義** – 受信エクスペリエンスイベントを&#x200B;**[!UICONTROL カスタムイベント]** タスクで使用されるアクティビティにマッピングします。 [ イベント定義の設定方法を学ぶ](#event-definitions)
 * **製品在庫** — タスクの実施要件ルールで使用するアイテムからグループへのマッピングをアップロードします。 [製品インベントリの設定方法について](#product-inventory)
 * **除外** — タスク設定用に、組織全体のアイテムおよびグループの除外をアップロードします。 [除外の設定方法について](#exclusions)
 
@@ -59,9 +72,9 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_global_settings"
 >title="グローバル設定"
->abstract="グローバル設定イベントや課題をまたいでメンバーを識別するために使用するID名前空間など、ロイヤルティプログラムの組織レベルの設定を定義します。"
+>abstract="グローバル設定は、イベントや課題をまたいでメンバーを識別するために使用されるID名前空間など、ロイヤルティ課題の組織レベルの設定を定義します。"
 
-「**[!UICONTROL グローバル設定]**」タブを開き、**[!UICONTROL 名前空間]** ドロップダウンで、ロイヤルティプログラムのAdobe Experience Platform [ID名前空間](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/features/namespaces)を選択します。 この名前空間は、データ内のメンバープロファイルの識別方法と一致する必要があります。
+「**[!UICONTROL グローバル設定]**」タブを開き、**[!UICONTROL 名前空間]** ドロップダウンで「[Adobe Experience Platform ID名前空間](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/features/namespaces) for Loyalty Challenges」を選択します。 この名前空間は、データ内のメンバープロファイルの識別方法と一致する必要があります。
 
 ![](assets/admin-global-settings.png)
 
@@ -154,7 +167,7 @@ ht-degree: 1%
 
 1. **[!UICONTROL 報酬プロバイダーの作成]**&#x200B;を選択します。 プロバイダーとすべての設定済みリソースは一緒に保存されます。
 
-保存すると、プロバイダーが報酬プロバイダーのリストに表示されます。 マーケターは、チャレンジ報酬を設定する際にそれを選択できます。 [&#x200B; チャレンジ報酬の設定方法を学ぶ](create-challenges.md#rewards)
+保存すると、プロバイダーが報酬プロバイダーのリストに表示されます。 マーケターは、チャレンジ報酬を設定する際にそれを選択できます。 [ チャレンジ報酬の設定方法を学ぶ](create-challenges.md#rewards)
 
 報酬プロバイダーを編集するには、「**[!UICONTROL 報酬プロバイダー]**」タブを開き、プロバイダーを選択し、フィールドを更新します。 報酬定義、プロキシ、認証トークンジェネレーターの変更は、更新すると自動的に保存されます。
 
@@ -202,7 +215,7 @@ ht-degree: 1%
    * **[!UICONTROL スキーマ]** – 受信ペイロードの検証文字列。
    * **[!UICONTROL Transformer]** — ペイロードをロイヤルティチャレンジが期待する形式にマッピングする変換式（JSONataなど）。
 
-1. イベント定義を保存します。 **[!UICONTROL イベント定義]** リストに表示され、マーケターが&#x200B;**[!UICONTROL カスタムイベント]** タスクを作成すると使用できます。 [&#x200B; タスクの作成方法を学ぶ](create-tasks.md#choose-activity)
+1. イベント定義を保存します。 **[!UICONTROL イベント定義]** リストに表示され、マーケターが&#x200B;**[!UICONTROL カスタムイベント]** タスクを作成すると使用できます。 [ タスクの作成方法を学ぶ](create-tasks.md#choose-activity)
 
 ## 製品インベントリ {#product-inventory}
 
@@ -211,7 +224,7 @@ ht-degree: 1%
 >title="製品インベントリ"
 >abstract="商品識別子を商品グループにマッピングするCSV ファイルをアップロードします。 マーケターは、購入と支出のタスクに適格な品目を設定する際に、すべての品目IDを入力することなく、これらのグループを参照できます。"
 
-**[!UICONTROL 製品在庫]** タブには、カタログ項目がグループ化されているため、マーケターは各項目IDを入力しなくてもタスクでそれらをターゲットにできます。 各項目識別子を1つ以上の&#x200B;**製品グループ**&#x200B;にマッピングする&#x200B;**CSV ファイル**&#x200B;をアップロードします（同じ項目を複数のグループに属させることができます）。 タスクの実施要件を設定する際に、インポートしたグループを使用できます。 [&#x200B; タスクの作成方法を学ぶ](create-tasks.md)
+**[!UICONTROL 製品在庫]** タブには、カタログ項目がグループ化されているため、マーケターは各項目IDを入力しなくてもタスクでそれらをターゲットにできます。 各項目識別子を1つ以上の&#x200B;**製品グループ**&#x200B;にマッピングする&#x200B;**CSV ファイル**&#x200B;をアップロードします（同じ項目を複数のグループに属させることができます）。 タスクの実施要件を設定する際に、インポートしたグループを使用できます。 [ タスクの作成方法を学ぶ](create-tasks.md)
 
 商品インベントリファイルをアップロードするには、次の手順に従います。
 
@@ -229,11 +242,11 @@ ht-degree: 1%
 
    ![](assets/admin-inventory-upload.png)
 
-1. インベントリリストで読み込んだデータを確認します。 リストには、項目ごとに1行が表示されます。 **列に含まれる** グループは、そのアイテムのすべての製品グループをピルとして表示するか、アイテムが複数のグループに属する場合は複数のピルを表示します。
+1. インベントリリストで読み込んだデータを確認します。 リストには、項目ごとに1行が表示されます。 ]**列に含まれる**[!UICONTROL  グループは、そのアイテムのすべての製品グループをピルとして表示するか、アイテムが複数のグループに属する場合は複数のピルを表示します。
 
    ![](assets/admin-inventory-imported.png)
 
-1. 製品グループ内のすべてのアイテムを表示するには、任意の行の&#x200B;**列に含まれる** グループで、そのグループのピルを選択します。 グループの詳細ビューには、グループ内のすべての項目が一覧表示されます。
+1. 製品グループ内のすべてのアイテムを表示するには、任意の行の&#x200B;]**列に含まれる**[!UICONTROL  グループで、そのグループのピルを選択します。 グループの詳細ビューには、グループ内のすべての項目が一覧表示されます。
 
    ![](assets/admin-inventory-group.png)
 
@@ -248,7 +261,7 @@ ht-degree: 1%
 
 「**[!UICONTROL 除外]**」タブでは、プログラム全体で除外されるカタログ項目とグループが定義されるため、マーケターは、すべてのタスクで同じ除外をリストする必要はありません。 各項目識別子を1つ以上の&#x200B;**除外グループ**&#x200B;にマッピングする&#x200B;**CSV ファイル**&#x200B;をアップロードします（同じ項目を複数のグループに属させることができます）。
 
-インポート後、マーケターが&#x200B;**[!UICONTROL 対象アイテムと除外]**&#x200B;を設定すると、除外されたアイテムとグループがタスクビルダーに表示されます。 [&#x200B; タスクに対する適格項目と除外項目を定義する方法を説明します](create-tasks.md#eligible-items-exclusions)
+インポート後、マーケターが&#x200B;**[!UICONTROL 対象アイテムと除外]**&#x200B;を設定すると、除外されたアイテムとグループがタスクビルダーに表示されます。 [ タスクに対する適格項目と除外項目を定義する方法を説明します](create-tasks.md#eligible-items-exclusions)
 
 除外をアップロードするには、次の手順に従います。
 
@@ -266,11 +279,11 @@ ht-degree: 1%
 
    ![](assets/admin-exclusions-upload.png)
 
-1. 除外リストで読み込んだデータを確認します。 リストには、項目ごとに1行が表示されます。 **列に含まれる** グループは、そのアイテムのすべての除外グループをピルとして表示するか、アイテムが複数のグループに属する場合は複数のピルを表示します。
+1. 除外リストで読み込んだデータを確認します。 リストには、項目ごとに1行が表示されます。 ]**列に含まれる**[!UICONTROL  グループは、そのアイテムのすべての除外グループをピルとして表示するか、アイテムが複数のグループに属する場合は複数のピルを表示します。
 
 <!-- SCREENSHOT: Exclusions list after CSV upload -->
 
-1. 除外グループ内のすべてのアイテムを表示するには、任意の行の&#x200B;**列に含まれる** グループで、そのグループのピルを選択します。 グループの詳細ビューには、グループ内のすべての項目が一覧表示されます。
+1. 除外グループ内のすべてのアイテムを表示するには、任意の行の&#x200B;]**列に含まれる**[!UICONTROL  グループで、そのグループのピルを選択します。 グループの詳細ビューには、グループ内のすべての項目が一覧表示されます。
 
 <!-- SCREENSHOT: Exclusion group details -->
 

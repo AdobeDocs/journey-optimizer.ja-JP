@@ -11,9 +11,9 @@ hide: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: a1b2c3d4-e5f6-7890-abcd-ef1234567890
-source-git-commit: e66628ab1d9df497226ab625947aa18a2a3b6f48
+source-git-commit: dfeaa32ed3b216fdf63806356e1e5750db0c80cb
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '540'
 ht-degree: 3%
 
 ---
@@ -22,15 +22,26 @@ ht-degree: 3%
 
 >[!BEGINSHADEBOX]
 
-**ロイヤルティの課題に関するドキュメント：**
+**ロイヤルティの課題に関するドキュメント**
 
-* [ロイヤルティに関する課題を解決](get-started.md)
+[ロイヤルティに関する課題を解決](get-started.md)
+
++++課題の創出と管理
+
 * [課題とタスクへのアクセスと管理](access-loyalty-challenges.md)
 * [課題の創出](create-challenges.md)
 * [タスクの作成](create-tasks.md)
 * **ロイヤルティチャレンジのパフォーマンスを監視** ◀︎ **現在地**
-<!-- * [Configure the loyalty program](loyalty-admin.md) -->
+
++++
+
++++設定と統合
+
+<!-- * [Configure loyalty challenges](loyalty-admin.md) -->
+* [ロイヤルティデータとデータセット](loyalty-data-and-datasets.md)
 * [ロイヤルティチャレンジ API リファレンス](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
+
++++
 
 >[!ENDSHADEBOX]
 
