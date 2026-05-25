@@ -7,10 +7,10 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 hide: true
-source-git-commit: 53a6074756eac6b8009ebf3948a21c67862ee3c9
+source-git-commit: e6a0079c3bdc9760bd149bb487520214f0a4e877
 workflow-type: tm+mt
-source-wordcount: '2734'
-ht-degree: 20%
+source-wordcount: '2957'
+ht-degree: 18%
 
 ---
 
@@ -427,6 +427,28 @@ ht-degree: 20%
 </table>
 
 * **Adobe Experience Managerセレクターでの組織間のリポジトリアクセス** - Assetsアセットセレクター内で、複数の組織のリポジトリから直接アセットをシームレスに選択できるようになりました。
+
+### ユーザビリティ {#may-26-usability}
+
+このリリースでは、次のユーザビリティの改善が追加されました。
+
+#### Lists
+
+* **バルクアクション** - **キャンペーン**、**フラグメント**、**テンプレート**&#x200B;のリストで複数のアイテムを一度に選択し、1つのアクションバーから一括操作を実行できるようになりました。これには、アイテムのパッケージへの追加、フォルダーへの移動、タグの編集、アクセスの管理、アーカイブまたは削除などが含まれます。 [詳細情報](../start/search-filter-categorize.md#bulk-actions)
+
+  ![](../start/assets/bulk-actions-campaigns.png)
+
+* **並べ替えと列のサイズ変更** - **キャンペーン**、**フラグメント**、**テンプレート**&#x200B;のリストで、列ヘッダーをクリックして並べ替えがサポートされるようになりました。 キャンペーン フォルダー表示では、**[!UICONTROL 優先度]**&#x200B;および&#x200B;**[!UICONTROL チャネル設定]**&#x200B;による並べ替えとフィルタリングも使用できます。 **フラグメント**&#x200B;および&#x200B;**テンプレート** リストの列幅もサイズ変更可能です。最も関心のあるデータに合わせて、列の境界線をドラッグします。 [詳細情報](../start/search-filter-categorize.md#filter-lists)
+
+#### コンテンツ作成
+
+* **インラインプロファイル属性編集** – 完全なパーソナライゼーションエディターを開かずに、プロファイル属性式をメールDesignerに直接挿入できるようになりました。 任意のテキストフィールドに「`{{`」と入力してインライン自動補完ドロップダウンを開き、必要な属性を参照して選択します。属性はカーソルの位置にすぐに挿入されます。 この機能は、プッシュチャネルエディターでも使用できます。 [詳細情報](../personalization/personalize.md#inline-personalization)
+
+  ![](../personalization/assets/inline-profile-attributes.png)
+
+* **プッシュチャネルエディターのリンク URL ツールチップ** – 任意のリンクまたはメディアフィールドのURLが長すぎて表示できない場合、ツールチップアイコンがフィールドの横に常に表示されます。URL全体を表示するには、そのフィールドにカーソルを合わせてください。 [詳細情報](../push/design-push.md#on-click-behavior)
+
+  ![](../rn/assets/do-not-localize/push-link-tooltip.png)
 
 ### 管理 {#may-26-admin}
 
