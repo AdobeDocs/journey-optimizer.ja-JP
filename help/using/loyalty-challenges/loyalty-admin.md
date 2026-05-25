@@ -11,9 +11,9 @@ hide: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
-source-git-commit: 9383220dd57f6a3ebfe67d0d1081b8834b524293
+source-git-commit: 863c3405e5509938cb6b9180c16d5c89fb439814
 workflow-type: tm+mt
-source-wordcount: '1349'
+source-wordcount: '1631'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 1%
 
 * **Global settings** — プログラムのExperience Platform ID名前空間を選択します。 [&#x200B; グローバル設定の設定方法について説明します](#global-settings)
 * **報酬プロバイダー** – 顧客が進行状況を確認したり、課題を完了したりすると、報酬を実現するAPIを接続します。 [報酬プロバイダーの設定方法について](#reward-providers)
-* **イベント定義** – 受信エクスペリエンスイベントを、**[!UICONTROL カスタム AEP イベント]** タスクで使用されるアクティビティにマッピングします。 [&#x200B; イベント定義の設定方法を学ぶ](#event-definitions)
+* **イベント定義** – 受信エクスペリエンスイベントを&#x200B;**[!UICONTROL カスタムイベント]** タスクで使用されるアクティビティにマッピングします。 [&#x200B; イベント定義の設定方法を学ぶ](#event-definitions)
 * **製品在庫** — タスクの実施要件ルールで使用するアイテムからグループへのマッピングをアップロードします。 [製品インベントリの設定方法について](#product-inventory)
 * **除外** — タスク設定用に、組織全体のアイテムおよびグループの除外をアップロードします。 [除外の設定方法について](#exclusions)
 
@@ -59,7 +59,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_global_settings"
 >title="グローバル設定"
->abstract="ロイヤルティプログラム用にAdobe Experience Platform ID名前空間を選択します。"
+>abstract="グローバル設定イベントや課題をまたいでメンバーを識別するために使用するID名前空間など、ロイヤルティプログラムの組織レベルの設定を定義します。"
 
 「**[!UICONTROL グローバル設定]**」タブを開き、**[!UICONTROL 名前空間]** ドロップダウンで、ロイヤルティプログラムのAdobe Experience Platform [ID名前空間](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/features/namespaces)を選択します。 この名前空間は、データ内のメンバープロファイルの識別方法と一致する必要があります。
 
@@ -68,6 +68,26 @@ ht-degree: 1%
 ➡️ [ID名前空間の操作方法について説明します](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/features/namespaces){target="_blank"}
 
 ## ポイントプロバイダー {#reward-providers}
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_admin_reward_providers"
+>title="ポイントプロバイダー"
+>abstract="報酬プロバイダーは、顧客が課題を完了したときに[!DNL Journey Optimizer]さんが報酬を実現するために呼び出す外部システムを定義します。 プロバイダーエンドポイント、報酬定義、プロキシ設定、各統合の認証を設定します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_admin_reward_providers_connection"
+>title="ポイントプロバイダー接続"
+>abstract="プロバイダー名、説明、エンドポイント URL、およびフルフィルメント呼び出しに必要なHTTP ヘッダーなど、[!DNL Journey Optimizer]が報酬APIに接続する方法を設定します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_admin_reward_providers_details"
+>title="報酬の定義"
+>abstract="報酬の定義は、このプロバイダーが発行できる各報酬タイプ （ポイントや星など）を指定し、報酬が満たされたときにペイロード [!DNL Journey Optimizer]が送信します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_admin_reward_providers_proxy"
+>title="報酬プロキシ"
+>abstract="オプションで、フルフィルメント呼び出しを報酬API エンドポイントに直接送信する代わりに、プロキシサーバーを介してルーティングします。 ホスト、ポート、資格情報、およびプロキシが有効かどうかを設定します。 資格情報の値は通常、`{ "userName": "test", "password": "xxxx" }`のようになります。"
 
 **報酬プロバイダー**&#x200B;は、[!DNL Journey Optimizer]に、チャレンジの進行状況が記録されたり、チャレンジが完了したりしたときに、フルフィルメント呼び出しを送信する場所を伝えます。 例えば、ロイヤルティポイントや星を会員アカウントに付与するAPIです。
 
@@ -144,7 +164,22 @@ ht-degree: 1%
 
 ## イベント定義 {#event-definitions}
 
-**[!UICONTROL イベント定義]**&#x200B;は、[!DNL Journey Optimizer]に対して、どのAdobe Experience Platform エクスペリエンスイベントを処理するかを指示します。 たとえば、購入やホテルのチェックインなどです。 マーケターは、**[!UICONTROL カスタム AEP イベント]** タスクを作成する際に、これらの定義を参照します。 どの定義にも一致しないイベントは無視されます。
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_admin_event_definitions"
+>title="イベント定義"
+>abstract="イベント定義は、外部ソースからの受信イベントデータを識別および解釈する方法を[!DNL Journey Optimizer]に伝えます。 各定義は、購入やチェックインなど、特定のイベントタイプをマッピングするため、システムは顧客の課題タスクへの進捗状況を追跡できます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_admin_event_schema"
+>title="イベントスキーマとトランスフォーマ"
+>abstract="組織がカスタム JSON形式でイベントを送信する場合は、**[!UICONTROL スキーマ]**&#x200B;を使用してペイロードを検証し、**[!UICONTROL トランスフォーマ]** （JSONata式など）を使用して、フィールドをロイヤルティチャレンジが期待する形式にマッピングします。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_admin_event_identification"
+>title="イベントの特定"
+>abstract="識別子パス、識別子の値、XDM スキーマ ID、またはこれらのフィールドの組み合わせを使用して、受信ペイロードのイベントを[!DNL Journey Optimizer]が認識する方法を指定します。"
+
+**[!UICONTROL イベント定義]**&#x200B;は、[!DNL Journey Optimizer]に対して、どのAdobe Experience Platform エクスペリエンスイベントを処理するかを指示します。 たとえば、購入やホテルのチェックインなどです。 マーケターは、**[!UICONTROL カスタムイベント]** タスクを作成する際に、これらの定義を参照します。 どの定義にも一致しないイベントは無視されます。
 
 組織が独自のJSON形式でイベントを送信すると、**[!UICONTROL Schema]**&#x200B;と&#x200B;**[!UICONTROL Transformer]**&#x200B;が[!DNL Journey Optimizer]がペイロードを検証し、それを解析して、アクティビティを追跡するかどうかを決定するのに役立ちます。
 
@@ -154,7 +189,7 @@ ht-degree: 1%
 
    ![](assets/admin-event-definition.png)
 
-1. イベントの&#x200B;**[!UICONTROL 名前]**&#x200B;を入力します（例：`Coffee purchase`）。 **[!UICONTROL カスタム AEP イベント]** タスクを設定する際にこの名前が表示されます。
+1. イベントの&#x200B;**[!UICONTROL 名前]**&#x200B;を入力します（例：`Coffee purchase`）。 マーケターが&#x200B;**[!UICONTROL カスタムイベント]** タスクを設定する際にこの名前が表示されます。
 
 1. 受信ペイロードで[!DNL Journey Optimizer]がイベントを認識する方法を指定します。 **[!UICONTROL 識別子パス]**、**[!UICONTROL XDM スキーマ ID]**、またはその両方を指定します。
 
@@ -167,9 +202,14 @@ ht-degree: 1%
    * **[!UICONTROL スキーマ]** – 受信ペイロードの検証文字列。
    * **[!UICONTROL Transformer]** — ペイロードをロイヤルティチャレンジが期待する形式にマッピングする変換式（JSONataなど）。
 
-1. イベント定義を保存します。 これは、**[!UICONTROL イベント定義]** リストに表示され、マーケターが&#x200B;**[!UICONTROL カスタム AEP イベント]** タスクを作成すると使用できます。 [&#x200B; タスクの作成方法を学ぶ](create-tasks.md#choose-activity)
+1. イベント定義を保存します。 **[!UICONTROL イベント定義]** リストに表示され、マーケターが&#x200B;**[!UICONTROL カスタムイベント]** タスクを作成すると使用できます。 [&#x200B; タスクの作成方法を学ぶ](create-tasks.md#choose-activity)
 
 ## 製品インベントリ {#product-inventory}
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_admin_product_inventory"
+>title="製品インベントリ"
+>abstract="商品識別子を商品グループにマッピングするCSV ファイルをアップロードします。 マーケターは、購入と支出のタスクに適格な品目を設定する際に、すべての品目IDを入力することなく、これらのグループを参照できます。"
 
 **[!UICONTROL 製品在庫]** タブには、カタログ項目がグループ化されているため、マーケターは各項目IDを入力しなくてもタスクでそれらをターゲットにできます。 各項目識別子を1つ以上の&#x200B;**製品グループ**&#x200B;にマッピングする&#x200B;**CSV ファイル**&#x200B;をアップロードします（同じ項目を複数のグループに属させることができます）。 タスクの実施要件を設定する際に、インポートしたグループを使用できます。 [&#x200B; タスクの作成方法を学ぶ](create-tasks.md)
 
@@ -200,6 +240,11 @@ ht-degree: 1%
 1. **[!UICONTROL アップロード履歴]**&#x200B;を開いて、以前のCSV アップロードを表示します。
 
 ## 除外 {#exclusions}
+
+>[!CONTEXTUALHELP]
+>id="ajo_loyalty_admin_exclusions"
+>title="除外"
+>abstract="プログラム全体で除外されたカタログ項目とグループを定義するCSV ファイルをアップロードします。 インポートされた除外グループは、マーケターがタスクに対して適格な項目と除外を設定すると表示されます。"
 
 「**[!UICONTROL 除外]**」タブでは、プログラム全体で除外されるカタログ項目とグループが定義されるため、マーケターは、すべてのタスクで同じ除外をリストする必要はありません。 各項目識別子を1つ以上の&#x200B;**除外グループ**&#x200B;にマッピングする&#x200B;**CSV ファイル**&#x200B;をアップロードします（同じ項目を複数のグループに属させることができます）。
 
