@@ -11,7 +11,7 @@ hide: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: 8907c18e-4623-4743-a76b-333f34e13baf
-source-git-commit: 894dd7f811e87a8551f92654e5b913a459c1382e
+source-git-commit: 0104f7b79145d7defee673fc6c9cd7d86fef3201
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 3%
@@ -22,18 +22,16 @@ ht-degree: 3%
 
 >[!BEGINSHADEBOX]
 
-**ロイヤルティの課題に関するドキュメント**
+**目次**
 
 [ロイヤルティに関する課題を解決](get-started.md)
 
-+++課題の創出と管理
+**課題の作成と管理**
 
 * **課題とタスクへのアクセスと管理** ◀︎ **現在のユーザー**
 * [課題の創出](create-challenges.md)
 * [タスクの作成](create-tasks.md)
 * [ロイヤルティチャレンジのパフォーマンスを監視する](loyalty-reporting.md)
-
-+++
 
 +++設定と統合
 
