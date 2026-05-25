@@ -10,10 +10,10 @@ level: Intermediate
 keywords: テスト, ジャーニー, チェック, エラー, トラブルシューティング
 version: Journey Orchestration
 badge: label="限定提供" type="Informative"
-source-git-commit: 8600c70ad6cd8db0322c17b3f255530a39bf56ed
+source-git-commit: b8e3b2cbda83edece62a32555068f8519271a3eb
 workflow-type: tm+mt
-source-wordcount: '1900'
-ht-degree: 4%
+source-wordcount: '1912'
+ht-degree: 5%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
-> この機能は、必須の機能を備えた限定的な可用性としてすべてのお客様が利用できます。
+> この機能は現在、基本機能を備えた限定提供として、すべてのお客様にご利用いただけます。
 
 ジャーニーは、**ドラフト**、**テストモード**、**ライブ**&#x200B;に加えて、**[!UICONTROL シミュレーション]**&#x200B;に設定できます。 Simulationでは、**simulated users**&#x200B;でテストを行います。Adobe Experience Platformで永続的なテストプロファイルを使用せずに、追加した一時的なプロファイルのようなエンティティです。
 
@@ -39,7 +39,7 @@ Adobe Journey Optimizerでは、ジャーニーをテストおよび検証する
 
 >[!IMPORTANT]
 >
->**[!UICONTROL シミュレーション]**&#x200B;機能にアクセスするには、**ジャーニーをシミュレート**&#x200B;権限が必要です。 [詳細情報](../administration/permissions.md)
+>**[!UICONTROL シミュレーション]**&#x200B;機能にアクセスするには、少なくとも次のいずれかの権限が必要です：**ジャーニーをシミュレート**、**ジャーニーを公開**&#x200B;または&#x200B;**ジャーニーを承認して公開**。 [詳細情報](../administration/permissions.md)
 
 シミュレートされたユーザーは、**[!UICONTROL シミュレーション設定]**&#x200B;で定義した一時的なプロファイルのようなエンティティです。 この節では、UIまたはJSON ファイルから、それらを作成し、再利用のために保存し、リストから調整または削除して、ジャーニーに送信する方法について説明します。
 
