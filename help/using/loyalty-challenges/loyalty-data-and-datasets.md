@@ -51,7 +51,7 @@ ht-degree: 6%
 
 ロイヤルティの課題は、ID、プロファイル属性、エクスペリエンスイベント、オーディエンスをAdobe Adobe Experience Platformに依存します。 このページでは、課題を作成したり、ロイヤルティチャレンジ APIを使用したりする前に、**有効期間（TTL）**&#x200B;がリテンションにどのように影響するかを説明します。
 
-Journey Optimizer プログラムの設定（報酬フルフィルメントとイベントマッピング）については、Adobe管理者にお問い合わせください。 REST エンドポイントと認証については、[ ロイヤルティチャレンジ API リファレンス ](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}を参照してください。
+Journey Optimizer プログラムの設定（報酬フルフィルメントとイベントマッピング）については、Adobe管理者にお問い合わせください。 REST エンドポイントと認証については、[&#x200B; ロイヤルティチャレンジ API リファレンス &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}を参照してください。
 
 ## Adobe Experience Platform data {#aep-data}
 
@@ -61,7 +61,7 @@ Journey Optimizer プログラムの設定（報酬フルフィルメントと�
 
 プロファイル（ポイント、階層、プログラム、ステータス、および関連フィールド）の標準ロイヤルティ属性の場合は、Experience Platform **[ロイヤルティの詳細](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}** スキーマフィールドグループを使用します。 このフィールドグループは、`loyalty` オブジェクトとそのプロパティ （例：`points`、`tier`、`program`、および`status`）を定義します。
 
-➡️ [ ロイヤルティの詳細スキーマフィールドグループ ](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
+➡️ [&#x200B; ロイヤルティの詳細スキーマフィールドグループ &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
 
 ### エクスペリエンスイベント {#experience-events}
 
@@ -71,7 +71,7 @@ Journey Optimizer プログラムの設定（報酬フルフィルメントと�
 
 ### オーディエンスとレポート {#audiences-reporting}
 
-マーケターは、チャレンジの実施要件を設定する際に、プラットフォーム [ オーディエンス ](../audience/about-audiences.md)を選択します。 ロイヤルティレポートダッシュボードでは、Adobe Customer Journey Analyticsを使用します。 [ ロイヤルティチャレンジのパフォーマンスを監視する方法について説明します](loyalty-reporting.md)
+マーケターは、チャレンジの実施要件を設定する際に、プラットフォーム [&#x200B; オーディエンス &#x200B;](../audience/about-audiences.md)を選択します。 ロイヤルティレポートダッシュボードでは、Adobe Customer Journey Analyticsを使用します。 [&#x200B; ロイヤルティチャレンジのパフォーマンスを監視する方法について説明します](loyalty-reporting.md)
 
 ## データセットの有効期間（TTL） {#dataset-ttl}
 
@@ -79,7 +79,7 @@ Journey Optimizer プログラムの設定（報酬フルフィルメントと�
 
 Journey Optimizerでは、システム生成の多くのデータセットにTTL ガードレールを適用します。 ロイヤルティ関連のデータセットは、サンドボックスと同じプラットフォーム維持モデルに従います。
 
-➡️ [Journey Optimizerのデータセットの有効期間（TTL）ガードレール ](../data/datasets-ttl.md)
+➡️ [Journey Optimizerのデータセットの有効期間（TTL）ガードレール &#x200B;](../data/datasets-ttl.md)
 
 >[!NOTE]
 >
