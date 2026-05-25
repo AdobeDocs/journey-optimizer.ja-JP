@@ -5,7 +5,7 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 57dd0b345a5191a3fcace1a0df7fb0963f32b9b7
+source-git-commit: 894dd7f811e87a8551f92654e5b913a459c1382e
 workflow-type: tm+mt
 source-wordcount: '3333'
 ht-degree: 95%
