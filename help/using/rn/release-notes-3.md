@@ -7,7 +7,7 @@ role: User
 level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 hide: true
-source-git-commit: e6a0079c3bdc9760bd149bb487520214f0a4e877
+source-git-commit: 60ff16ebd1889e1f53ef47f56f33f3ff4f0b0000
 workflow-type: tm+mt
 source-wordcount: '2957'
 ht-degree: 18%

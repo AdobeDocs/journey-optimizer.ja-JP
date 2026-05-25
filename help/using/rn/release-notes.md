@@ -30,10 +30,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 11de3921d586d1a62d6e89be65a35fbd0fba7e53
+source-git-commit: 60ff16ebd1889e1f53ef47f56f33f3ff4f0b0000
 workflow-type: tm+mt
-source-wordcount: 2581
-ht-degree: 25%
+source-wordcount: 2807
+ht-degree: 22%
 
 ---
 
@@ -126,7 +126,7 @@ ht-degree: 25%
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey Optimizerで<strong>ジャーニーフラグメント </strong>を作成できるようになりました。 ジャーニーフラグメントは、再利用可能なジャーニーノードのセットです。一度構築すれば、サンドボックスをまたいであらゆるジャーニーにドロップできます。 実施要件のチェック、好みのチャネルルーティングロジック、ウェルカムシーケンスなど、フラグメントは、同じロジックを毎回ゼロから再構築することなく、より迅速に作業し、一貫性を維持するのに役立ちます。</p>
+<p>Adobe Journey Optimizerで<strong>ジャーニーフラグメント </strong>を作成できるようになりました。 ジャーニーフラグメントは、再利用可能なジャーニーノードのセットです。一度構築すれば、サンドボックスをまたいであらゆるジャーニーにドロップできます。 実施要件チェック、好みのチャネルルーティングロジック、ウェルカムシーケンスなど、フラグメントは、毎回同じロジックをゼロから再構築することなく、より迅速に行動し、一貫性を維持するのに役立ちます。</p>
 <p>フラグメントを作成すると、専用の<strong> フラグメントインベントリ </strong>に保存され、<strong>ジャーニーフラグメント </strong> アクティビティを使用して、任意のジャーニーに挿入できます。</p>
 <!--<p><img src="assets/do-not-localize/journey-fragments.gif"></p>-->
 <p>この機能は、一連の組織でのみ使用できます（限定提供）。 アクセスするには、アドビ担当者にお問い合わせください。</p>
@@ -140,13 +140,14 @@ ht-degree: 25%
 <table>
 <thead>
 <tr>
-<th><strong>E メールデザイナーのディープリンク</strong><br/></th>
+<th><strong>メールDesignerのディープリンク</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>E メールデザイナーの専用オプションを使用して、メールコンテンツにディープリンクを追加できるようになりました。</p><p>これにより、ユーザーはブラウザーやアプリストアにリダイレクトされずに、アプリ内の適切なコンテンツに直接アクセスでき、コンテキストとエンゲージメントが維持されます。</p>
+<p>メールDesignerの専用オプションを使用して、メール内容にディープリンクを追加できるようになりました。</p>
+<p>これにより、ユーザーはブラウザーやアプリストアにリダイレクトされずに、アプリ内の適切なコンテンツに直接アクセスでき、コンテキストとエンゲージメントが維持されます。</p>
 <p><img src="assets/do-not-localize/deeplinks.gif"></p>
 <p>詳しくは、<a href="../email/deeplinks.md">詳細ドキュメント</a>を参照してください。</p>
 <p>ご利用いただけます：2026年5月12日（PT）</p>
@@ -282,6 +283,35 @@ ht-degree: 25%
 
   +++
 
+### ユーザビリティの向上 {#may-26-usability}
+
+2026年5月には、以下のユーザビリティの改善もリリースされました。
+
+#### Lists
+
+* **バルクアクション** - **キャンペーン**、**フラグメント**、**テンプレート**&#x200B;のリストで複数のアイテムを一度に選択し、1つのアクションバーから一括操作を実行できるようになりました。これには、アイテムのパッケージへの追加、フォルダーへの移動、タグの編集、アクセスの管理、アーカイブまたは削除などが含まれます。 [詳細情報](../start/search-filter-categorize.md#bulk-actions)
+
+  ![](../start/assets/bulk-actions-campaigns.png)
+
+* **並べ替えと列のサイズ変更** - **キャンペーン**、**フラグメント**、**テンプレート**&#x200B;のリストで、列ヘッダーをクリックして並べ替えがサポートされるようになりました。 キャンペーン フォルダー表示では、**[!UICONTROL 優先度]**&#x200B;および&#x200B;**[!UICONTROL チャネル設定]**&#x200B;による並べ替えとフィルタリングも使用できます。 **フラグメント**&#x200B;および&#x200B;**テンプレート** リストの列幅もサイズ変更可能です。最も関心のあるデータに合わせて、列の境界線をドラッグします。 [詳細情報](../start/search-filter-categorize.md#filter-lists)
+
+#### コンテンツ作成
+
+* **インラインプロファイル属性編集** – 完全なパーソナライゼーションエディターを開かずに、プロファイル属性式をメールDesignerに直接挿入できるようになりました。 任意のテキストフィールドに「`{{`」と入力してインライン自動補完ドロップダウンを開き、必要な属性を参照して選択します。属性はカーソルの位置にすぐに挿入されます。 この機能は、プッシュチャネルエディターでも使用できます。 [詳細情報](../personalization/personalize.md#inline-personalization)
+
+  ![](../personalization/assets/inline-profile-attributes.png)
+
+* **プッシュチャネルエディターのリンク URL ツールチップ** – 任意のリンクまたはメディアフィールドのURLが長すぎて表示できない場合、ツールチップアイコンがフィールドの横に常に表示されます。URL全体を表示するには、そのフィールドにカーソルを合わせてください。 [詳細情報](../push/design-push.md#on-click-behavior)
+
+  ![](../rn/assets/do-not-localize/push-link-tooltip.png)
+
+<!--
+#### Simulation & Preview
+
+* **Redesigned preview experience** - The content preview screen has been redesigned with a side-by-side layout that lets you compare how your content renders across multiple profiles at a glance, enabling quicker and more confident reviews before sending. [Learn more](../test-approve/simulate-sample-input.md#preview)
+
+  ![](../test-approve/assets/simulation-preview-redesign.png)
+-->
 
 ## 近日リリース予定 {#coming-soon}
 
