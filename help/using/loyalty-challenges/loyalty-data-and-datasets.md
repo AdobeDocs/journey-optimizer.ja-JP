@@ -59,9 +59,9 @@ Journey Optimizer プログラムの設定（報酬フルフィルメントと�
 
 **[!DNL XDM Individual Profile]** クラスのプロファイルを使用して、オーディエンス、パーソナライゼーション、レポートに挑戦します。 ロイヤルティの課題に使用するID [名前空間](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/features/namespaces){target="_blank"}と、プロファイルデータ内のメンバーの識別方法を一致させます。
 
-プロファイル（ポイント、階層、プログラム、ステータス、および関連フィールド）の標準ロイヤルティ属性の場合は、Experience Platform **[ロイヤルティの詳細](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}** スキーマフィールドグループを使用します。 このフィールドグループは、`loyalty` オブジェクトとそのプロパティ （例：`points`、`tier`、`program`、および`status`）を定義します。
+プロファイル（ポイント、階層、プログラム、ステータス、および関連フィールド）の標準ロイヤルティ属性の場合は、Experience Platform **[ロイヤルティの詳細](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}** スキーマフィールドグループを使用します。 このフィールドグループは、`loyalty` オブジェクトとそのプロパティ （例：`points`、`tier`、`program`、および`status`）を定義します。
 
-➡️ [&#x200B; ロイヤルティの詳細スキーマフィールドグループ &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
+➡️ [&#x200B; ロイヤルティの詳細スキーマフィールドグループ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/field-groups/profile/loyalty-details){target="_blank"}
 
 ### エクスペリエンスイベント {#experience-events}
 
