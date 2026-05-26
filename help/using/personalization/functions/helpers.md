@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 1f64b250a6bf7352d510b4097ee21fc395e11eec
+source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
 workflow-type: tm+mt
-source-wordcount: '1184'
+source-wordcount: '1185'
 ht-degree: 55%
 
 ---
@@ -218,7 +218,7 @@ with は、長い変数名に短い別名を付ける場合にも使用できま
 
 ## Url {#url}
 
-`url` ヘルパーは、リンクの追跡、URLの短縮、SMS メッセージのコンテンツへの[&#x200B; ディープリンク &#x200B;](../../email/deeplinks.md)の挿入に使用されます。
+`url` ヘルパーは、リンクの追跡、URLの短縮、SMS メッセージのコンテンツへの[ ディープリンク ](../../email/deeplinks.md)の挿入に使用されます。
 
 **構文**
 
@@ -258,7 +258,7 @@ with は、長い変数名に短い別名を付ける場合にも使用できま
 
 参照は`{{result.fieldId}}`を持つフィールドを取得しました。`result`は`result` パラメーターに渡す値です。
 
-データセットの有効化、パラメーターの詳細、例、テストについては、[&#x200B; パーソナライゼーションにAdobe Experience Platform データを使用](../aep-data-perso.md)を参照してください。
+データセットの有効化、パラメーターの詳細、例、テストについては、[ パーソナライゼーションにAdobe Experience Platform データを使用](../aep-data-perso.md)を参照してください。
 
 ## 実行メタデータ {#execution-metadata}
 
@@ -345,7 +345,7 @@ URLにプレーンテキストとして表示される値（PIIまたはその�
 
 **前提条件**
 
-管理者は、サンドボックスレベルのキーレジストリに少なくとも1つのアクティブキーを作成する必要があります。 [&#x200B; キーの作成と管理方法について説明します](../url-parameter-encryption.md#create-keys)
+管理者は、サンドボックスレベルのキーレジストリに少なくとも1つのアクティブキーを作成する必要があります。 [ キーの作成と管理方法について説明します](../url-parameter-encryption.md#create-keys)
 
 >[!NOTE]
 >

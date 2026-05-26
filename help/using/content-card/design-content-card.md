@@ -6,10 +6,10 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: b83bdade-7275-4eef-9c49-fc1d157cee0d
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 85%
+source-wordcount: '643'
+ht-degree: 78%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 85%
 
 * **[!UICONTROL 小さい画像]**：テキストと共にコンパクトな画像を表示します。ビジュアルよりもコンテンツを優先するメッセージに最適です。
 
-  [iOS &#x200B;](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/smallimage-template) および [Android](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/smallimagecarduistate) でのレイアウトについて詳しくは、Adobe 開発者用ドキュメントを参照してください。
+  [iOS ](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/iOS/templates/smallimage-template) および [Android](https://developer.adobe.com/client-sdks/edge/adobe-journey-optimizer/content-card-ui/Android/public-classes/state/smallimagecarduistate) でのレイアウトについて詳しくは、Adobe 開発者用ドキュメントを参照してください。
 
 * **[!UICONTROL 大きい画像]**：テキストの上部または横に目立つ画像を配置し、メッセージでビジュアルに焦点を当てます。
 
@@ -75,7 +75,7 @@ ht-degree: 85%
 
 1. 「**[!UICONTROL インタラクトイベント]**」を選択して、ユーザーがボタンをクリックまたは操作したときにトリガーされるアクションを定義します。
 
-1. 「**[!UICONTROL ターゲット]**」フィールドに、ユーザーがボタンを操作した後に遷移する web URL またはディープリンクを入力します。
+1. 「**[!UICONTROL ターゲット]**」フィールドに、ユーザーがボタンを操作した後に誘導されるweb URLまたはディープリンクを入力します。
 
 <!--
 +++More options with advanced formatting
@@ -122,7 +122,7 @@ If the **[!UICONTROL Advanced formatting mode]** is switched on, you can choose 
 
 ![](assets/content-card-design-5.png)
 
-「**[!UICONTROL ターゲット URL]**」フィールドに、コンテンツカードとのやり取りの後でユーザーを目的の宛先に誘導する web URL またはディープリンクを入力します。 これは、外部 web サイト、アプリ内の特定のページ、またはユーザーのインタラクションに基づいてユーザーを誘導するその他の場所です。
+「**[!UICONTROL ターゲット URL]**」フィールドに、ユーザーがコンテンツカードを操作した後に目的の宛先にユーザーを誘導するweb URLまたはディープリンクを入力します。 これは、外部 web サイト、アプリ内の特定のページ、またはユーザーのインタラクションに基づいてユーザーを誘導するその他の場所です。
 
 ## 「データ」タブ
 
