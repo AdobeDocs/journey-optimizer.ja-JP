@@ -10,7 +10,7 @@ level: Intermediate
 keywords: テスト, ジャーニー, チェック, エラー, トラブルシューティング
 version: Journey Orchestration
 hide: true
-source-git-commit: 2083a5043bbb48085a83260086a9bdd5ac1f0953
+source-git-commit: 779f87fbf56ea69f1128dc9507fefa9abba65b79
 workflow-type: tm+mt
 source-wordcount: '1028'
 ht-degree: 4%
