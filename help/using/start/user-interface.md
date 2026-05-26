@@ -51,10 +51,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 96221256a5733f40470c4b1210f1d40eaacab184
 workflow-type: tm+mt
-source-wordcount: 1524
-ht-degree: 90%
+source-wordcount: 1587
+ht-degree: 87%
 
 ---
 
@@ -414,3 +414,11 @@ AI アシスタントは、即座に役立つヘルプと運用上のインサ�
 >id="journeyExpAI"
 >title="式アシスタント"
 >abstract="式アシスタントを使用して、Journey Optimizerで式を生成および調整します。"
+
+
+<!-- OC - LOAD FILE ACTIVITY -->
+
+>[!CONTEXTUALHELP]
+>id="ajo_orchestration_load_file"
+>title="ファイルを読み込みアクティビティ"
+>abstract="**ファイルの読み込み** アクティビティは&#x200B;**ターゲット** アクティビティです。 オーケストレーションされたキャンペーンキャンバスにCSVまたはTXT ファイルをアップロードし、キャンペーンオーディエンスとして使用します。 ファイルデータは実行時に消費され、Adobe Experience Platform データセットとして保持されません。 行は、ID列とターゲティングディメンションを使用して、既存の受信者に紐付けられます。"
