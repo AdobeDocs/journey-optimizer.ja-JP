@@ -9,52 +9,16 @@ role: User
 level: Intermediate
 exl-id: 681532f8-1149-465e-92c8-2b5366abc3aa
 TQID: https://experienceleague.adobe.com/RqIzgHdwFqBmYLPKbMkAvscFopYMF-lt2gY4Vl34GKA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b19d9237-76be-466d-a869-aacf2d72205f
-  - id: b2044d1a-3b9b-4bf9-af40-0a221e7e1e53
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-  - id: e5fe9ec6-65e8-420b-8dfd-f088fffaf90c
-  - id: f550d0f2-143d-4093-9463-467fbec95fcc
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944fid: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: dc22c819-3f29-4e91-8b7d-5c6719831141id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b19d9237-76be-466d-a869-aacf2d72205fid: b2044d1a-3b9b-4bf9-af40-0a221e7e1e53id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: b856530c-d60b-42d8-a19d-df2dfd7fe62aid: c6e980f5-2d4f-494f-beef-186b9ecf1513id: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: d2e8a157-b3b0-4143-9ff3-809bf400be56id: d595a60b-bcf5-4a63-a189-66a0be755cc7id: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: e5fe9ec6-65e8-420b-8dfd-f088fffaf90cid: f550d0f2-143d-4093-9463-467fbec95fccid: fa683eda-48de-4558-af32-2673edcd44feid: fb9a80eb-bebc-492f-a0e9-584595621ebbid: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 96221256a5733f40470c4b1210f1d40eaacab184
 workflow-type: tm+mt
 source-wordcount: 1587
-ht-degree: 87%
+ht-degree: 96%
 
 ---
 
@@ -384,36 +348,36 @@ AI アシスタントは、即座に役立つヘルプと運用上のインサ�
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_content_fragment_configuration"
->title="「AEM設定ヘルプ"
->abstract="設定の作成と管理について詳しく見る"
+>title="&quot;AEM 設定ヘルプ"
+>abstract="設定の作成と管理の詳細情報"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_configure_instance"
 >title="インスタンス設定"
->abstract="設定に適したインスタンス設定タイプを選択します。 </br>作成者のみ設定：AEM オーサーインスタンスのコンテンツフラグメントを使用します。 パブリッシュインスタンス設定とライブアップデートはサポートされていません。</br> パブリッシュ インスタンスの設定：パブリッシュ インスタンスの設定を構成します。 オプションで「インスタンスを公開するトークンを送信」を有効にして、認証用のサービス資格情報を提供します。"
+>abstract="設定に適したインスタンス設定タイプを選択します。 </br>オーサーのみ設定：AEM オーサーインスタンスのコンテンツフラグメントを使用します。 パブリッシュインスタンス設定とライブアップデートはサポートされていません。</br>パブリッシュインスタンス設定：パブリッシュインスタンス設定を指定します。 オプションで「パブリッシュインスタンスにトークンを送信」を有効にして、認証用のサービス資格情報を指定します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_send_token"
 >title="パブリッシュインスタンスにトークンを送信"
->abstract="有効にすると、パブリッシュインスタンスへのリクエストを認証するためにサービス認証情報が送信されます。 以下に有効なサービス資格情報JSONを指定します。"
+>abstract="有効にすると、パブリッシュインスタンスへのリクエストを認証するサービス資格情報が送信されます。 以下に有効なサービス資格情報 JSON を指定します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_service_credential"
->title="サービス資格情報JSONの貼り付け"
->abstract="AEM サービスの資格情報JSONを作成した後、公開されているテクニカルアカウントのドキュメントを参照して貼り付けます。 自動的にフォーマットされ、検証されます。"
+>title="サービス資格情報 JSON をペースト"
+>abstract="公開テクニカルアカウントドキュメントを参照して、AEM サービス資格情報を作成した後にペーストします。 自動的に書式設定および検証されます。"
 >additional-url=""
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_custom_domain"
 >title="カスタムドメイン"
->abstract="オプション。 組織のコンテンツの取得がブロックされ16552いる場合147195 カスタムドメインを指定します。"
+>abstract="オプション。 publish-p16552-e147195.adobeaemcloud.com が組織のコンテンツ取得をブロックしている場合は、カスタムドメインを指定します。"
 
 <!-- JOURNEYS - EXPRESSION ASSISTANT -->
 
 >[!CONTEXTUALHELP]
 >id="journeyExpAI"
 >title="式アシスタント"
->abstract="式アシスタントを使用して、Journey Optimizerで式を生成および調整します。"
+>abstract="式アシスタントを使用すると、Journey Optimizer で式を生成および調整できます。"
 
 
 <!-- OC - LOAD FILE ACTIVITY -->
