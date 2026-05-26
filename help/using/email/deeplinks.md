@@ -8,9 +8,9 @@ topic: Content Management
 role: User, Developer
 level: Intermediate
 keywords: ディープリンク、ディープリンク、ユニバーサルリンク、アプリリンク、電子メール、sms
-source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
+source-git-commit: a3b48494fe64842121c5c3711cdd7117b30747a4
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1327'
 ht-degree: 1%
 
 ---
@@ -31,6 +31,10 @@ ht-degree: 1%
 >[!DNL Adobe Journey Optimizer]は、トラッキングされたURL （`/ee/v1/mclick/*`）を使用して、iOSとAndroidの両方でディープリンクをサポートし、互換性とクリックのトラッキングを確保します。
 
 ## ディープリンクのオーサリング {#authoring}
+
+>[!CAUTION]
+>
+>このページの[設定](#configuration)および[&#x200B; モバイルアプリ実装](#mobile-implementation)の手順を完了しない限り、ディープリンクは機能しません。
 
 ### メール {#authoring-email}
 
