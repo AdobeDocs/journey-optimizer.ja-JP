@@ -6,9 +6,13 @@ description: 「ファイルを読み込み」アクティビティを使用し�
 hide: true
 exl-id: a7c3e891-4f2d-4b8e-9c1a-6e8f0d3b2a41
 version: Campaign Orchestration
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: abac7d8c49e2dc7af9fde91b0e8305ce10a406ce
 workflow-type: tm+mt
 source-wordcount: 1511
@@ -27,7 +31,7 @@ ht-degree: 2%
 
 >[!AVAILABILITY]
 >
->**ファイルの読み込み** アクティビティは、組織のセットに対して&#x200B;**可用性の制限**&#x200B;で利用できます。 アクセスをリクエストするには、Adobe担当者にお問い合わせください。 可用性フェーズについては、[Journey Optimizer リリースサイクル ](../../rn/releases.md)を参照してください。
+>**ファイルの読み込み** アクティビティは、組織のセットに対して&#x200B;**可用性の制限**&#x200B;で利用できます。 アクセスをリクエストするには、Adobe担当者にお問い合わせください。 可用性フェーズについては、[Journey Optimizer リリースサイクル &#x200B;](../../rn/releases.md)を参照してください。
 >
 >アクティビティは現在、**Healthcare Shield**&#x200B;または&#x200B;**Privacy and Security Shield**&#x200B;で使用できません。
 
@@ -40,13 +44,13 @@ ht-degree: 2%
 * アップロードされたデータは、キャンペーンの実行時に使用され、Adobe Experience Platform データセットとして保存されません。
 * 各行は、選択したターゲットディメンションの既存の受信者と一致する必要があります。 ファイルの読み込みアクティビティでは、ファイルから新しいプロファイルは作成されません。
 
-チャネルとキャンバスのアクティビティに関する制限については、[ ガードレールと制限](../guardrails.md#activities-limitations)を参照してください。
+チャネルとキャンバスのアクティビティに関する制限については、[&#x200B; ガードレールと制限](../guardrails.md#activities-limitations)を参照してください。
 
 ## 前提条件 {#prerequisites}
 
 **[!UICONTROL ファイルの読み込み]** アクティビティを設定する前に：
 
-1. 調整に必要な&#x200B;**[!UICONTROL ターゲティングディメンション]**&#x200B;を作成します（例：受信者）。 [ ターゲティングディメンションの作成方法を説明](../target-dimension.md)
+1. 調整に必要な&#x200B;**[!UICONTROL ターゲティングディメンション]**&#x200B;を作成します（例：受信者）。 [&#x200B; ターゲティングディメンションの作成方法を説明](../target-dimension.md)
 
 1. ファイル内のID値がそのディメンションの既存のレコードと一致することを確認します。 アップロードされたファイルの行は既存の受信者に紐付けられます。アクティビティでは、ファイルから新しいプロファイルは作成されません。
 
