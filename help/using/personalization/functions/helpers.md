@@ -6,7 +6,7 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
-source-git-commit: 258d22c6b95db138e927d96f04215c0623e53913
+source-git-commit: 1f64b250a6bf7352d510b4097ee21fc395e11eec
 workflow-type: tm+mt
 source-wordcount: '1184'
 ht-degree: 55%
@@ -134,7 +134,7 @@ Some edu specific content
 ## Each{#each}
 
 `each` ヘルパーを使用して、配列に対して反復処理を行います。
-ヘルパーの構文は```{{#each ArrayName}}``` YourContentです `{{/each}}`
+ヘルパーの構文は`{{#each ArrayName}}` YourContent `{{/each}}`です。
 ブロック内のキーワード **this**&#x200B;を使用して、個々の配列項目を参照できます。 配列の要素のインデックスは、`{{@index}}` を使用してレンダリングできます。
 
 **構文**

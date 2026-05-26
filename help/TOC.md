@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 894dd7f811e87a8551f92654e5b913a459c1382e
+source-git-commit: ec68c8b2a1bf559fa1d428cc83fb160d5b3a9078
 workflow-type: tm+mt
-source-wordcount: '3333'
+source-wordcount: '3341'
 ht-degree: 95%
 
 ---
@@ -63,6 +63,8 @@ ht-degree: 95%
       + [ジャーニー指標の設定とトラッキング](using/building-journeys/success-metrics.md)
       + [ジャーニーのデザイン](using/building-journeys/using-the-journey-designer.md)
       + [ジャーニーのシミュレート](using/building-journeys/simulate-journey.md)
+      + {hide-from-toc}[ジャーニーシミュレーションの開始](using/building-journeys/simulate-journey-gs.md)
+      + {hide-from-toc}[&#x200B; ジャーニーのシミュレーション &#x200B;](using/building-journeys/simulate-journey-2.md)
       + [ジャーニーのテスト](using/building-journeys/testing-the-journey.md)
       + [ジャーニーのドライラン](using/building-journeys/journey-dry-run.md)
       + [ジャーニーの公開](using/building-journeys/publish-journey.md)
