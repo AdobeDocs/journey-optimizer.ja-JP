@@ -42,10 +42,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
+source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
 workflow-type: tm+mt
-source-wordcount: 1962
-ht-degree: 97%
+source-wordcount: 1964
+ht-degree: 95%
 
 ---
 
@@ -155,9 +155,9 @@ Web ページを作成する際に、追跡する特定の要素（ボタン、�
 
 **追跡する要素の設定：**
 
-* **本文クリックの動作** - ユーザーが通知をタップした際の動作（アプリを開く、ディープリンクに移動する、web URL を開く）を設定します。 各アクションは自動的に追跡されます。 [詳細情報](../push/design-push.md#on-click-behavior)
+* **ボディクリックの動作** - ユーザーが通知をタップしたときに何が起こるかを設定します。アプリを開く、ディープリンクに移動する、またはweb URLを開きます。 各アクションは自動的に追跡されます。 [詳細情報](../push/design-push.md#on-click-behavior)
 
-* **アクションボタンを追加** - 各ボタンのアクション（アプリを開く、ディープリンク、web URL）に個別のトラッキングを使用して、最大 3 つのボタン（Android）または複数のボタン（iOS）を含めます。 [詳細情報](../push/design-push.md#add-buttons-push)
+* **アクションボタンを追加** – 各ボタンアクションに対する個別のトラッキングを含む最大3つのボタン（Android）または複数のボタン（iOS）を含めます（アプリを開く、ディープリンク、web URL）。 [詳細情報](../push/design-push.md#add-buttons-push)
 
 * **トラッキングを有効にする** - プッシュジャーニーアクティビティまたはキャンペーントラッキング設定でトラッキングが有効になっていることを確認します。 [詳細情報](../push/create-push.md#create)
 

@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: 04e549fa4e51f22cdf53b5666b43e09f729a97b4
+source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
 workflow-type: tm+mt
-source-wordcount: '7894'
+source-wordcount: '7897'
 ht-degree: 90%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 90%
 
 * **主要な用語** ページが見直されました。6つの新しい用語が追加され、新しい&#x200B;**競合と優先順位付けの用語** セクションが導入され、新しい&#x200B;**用語が似ているときに**&#x200B;曖昧さ回避ガイドが4つの一般的に混同される用語ペアに追加されました。 Adobe Experience Platform固有の用語が削除され、Adobe Experience Platform用語集にリンクするメモに置き換えられました。 [詳細情報](../start/terminology.md)
 
-* **Deeplinks** ドキュメントが拡張され、新しい&#x200B;**Authoring deeplinks** セクションに、メールで使用できる2つのオプション（メール Designer UIとPersonalization エディターコード）とSMSのURL関数構文の詳細が追加されました。 **SMS メッセージの作成** ページに、コンテンツ作成フローの詳細ステップが含まれるようになりました。 [詳細情報](../email/deeplinks.md)
+* **ディープリンク** ドキュメントが拡張され、新しい&#x200B;**オーサリングディープリンク** セクションに、メールで使用できる2つのオプション（メールDesigner UIとPersonalization エディターコード）とSMSのURL関数構文の詳細が追加されました。 **SMS メッセージの作成** ページに、コンテンツ作成フローのディープリンク手順が含まれるようになりました。 [詳細情報](../email/deeplinks.md)
 
 * **Url** ヘルパー参照が更新され、Personalization ドキュメントの専用セクションが追加されました。 [詳細情報](../personalization/functions/helpers.md#url)
 

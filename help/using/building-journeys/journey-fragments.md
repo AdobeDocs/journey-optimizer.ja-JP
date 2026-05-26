@@ -13,7 +13,7 @@ version: Journey Orchestration
 source-git-commit: 5e806bf6931a5c067adde232f61ff446bee18cca
 workflow-type: tm+mt
 source-wordcount: '1484'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -146,7 +146,7 @@ ht-degree: 9%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_fragment_add"
 >title="ジャーニーフラグメントを追加"
->abstract="ピッカーで使用できるのは、**[!UICONTROL アクティブ]**&#x200B;なフラグメントのみです。 フラグメントを挿入すると、ノードの&#x200B;**静的コピー**&#x200B;が作成されます。元のフラグメントの更新は、ジャーニーに反映されません。"
+>abstract="ピッカーで使用できるのは、**[!UICONTROL アクティブ]**&#x200B;なフラグメントのみです。 フラグメントを挿入すると、そのノードの&#x200B;**静的コピー**&#x200B;が作成されます。元のフラグメントに対する更新は、ジャーニーに反映されません。"
 
 ジャーニーにフラグメントを挿入するには：
 

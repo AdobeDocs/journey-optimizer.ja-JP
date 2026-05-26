@@ -7,10 +7,10 @@ feature: SMS
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
+source-git-commit: e9ef94bf9797c536a140be444b586a3dc0940e4e
 workflow-type: tm+mt
-source-wordcount: '1380'
-ht-degree: 29%
+source-wordcount: '1448'
+ht-degree: 24%
 
 ---
 
@@ -133,25 +133,31 @@ RCS メッセージコンテンツを定義するには、次の手順に従い�
 
 1. コンテンツを定義したら、追跡する URL をメッセージに追加できます。 これを行うには、**[!UICONTROL ヘルパー関数]**&#x200B;メニューにアクセスし、「**[!UICONTROL ヘルパー]**」を選択します。
 
-   URL 短縮機能を使用するには、最初にサブドメインを設定する必要があります。このサブドメインはその後、設定にリンクされます。 [詳細情報](mobile-subdomains.md)
-
-   >[!NOTE]
-   >
-   > SMS サブドメインにアクセスして編集するには、実稼動サンドボックスにおける **[!UICONTROL SMS サブドメインの管理]**&#x200B;権限が必要です。 権限について詳しくは、[この節](../administration/high-low-permissions.md)を参照してください。
-
    ![](assets/sms_tracking_1.png)
 
-1. **[!UICONTROL ヘルパー関数]**&#x200B;メニュー内で、「**[!UICONTROL URL 関数]**」をクリックし、「**[!UICONTROL URL を追加]**」を選択します。
+1. **[!UICONTROL Url]**&#x200B;を選択し、**[!UICONTROL URLを追加]**&#x200B;をクリックします。
 
    ![](assets/sms_tracking_2.png)
 
-   <!--The URL shortening function cannot be used within a fragment. TBC-->
-
-1. `originalUrl` フィールドに、短縮する URL をペーストし、「**[!UICONTROL 保存]**」をクリックします。
+1. URLを短縮するには、`originalUrl` フィールドにURLを貼り付け、**[!UICONTROL 保存]**&#x200B;をクリックします。
 
    >[!CAUTION]
    >
+   >URL 短縮機能を使用するには、最初にサブドメインを設定する必要があります。このサブドメインはその後、設定にリンクされます。 [詳細情報](mobile-subdomains.md)
+   >
    > 短縮 URL の有効期間は 30 日に設定されています。 この期間が経過すると、これらの短縮 URL にはアクセスできなくなり、`404 short-code not found` というメッセージが表示されます。
+
+1. モバイルアプリで特定の画面を開くディープリンクを追加するには、以下の例のように、`DEEPLINK`型の&#x200B;**[!UICONTROL Url]** ヘルパー関数を使用します。 [&#x200B; ディープリンクについて詳しく見る](../email/deeplinks.md)
+
+   ```
+   {{url originalUrl='<<deeplink_url>>' type='DEEPLINK' action='CLICK'}}
+   ```
+
+   >[!IMPORTANT]
+   >
+   >ディープリンクを使用する前に、Journey Optimizerで対応する[設定手順](../email/deeplinks.md#configuration)を完了し、モバイルアプリに[&#x200B; ディープリンク処理](../email/deeplinks.md#mobile-implementation)を実装していることを確認してください。 そうしていない場合、ディープリンクは意図したアプリ内コンテンツにユーザーを誘導しません。
+   >
+   >また、URLがAdobe システムを通じて書き換えられるように、ジャーニーまたはキャンペーンの&#x200B;**[!UICONTROL アクション]** セクションでリンクトラッキングが有効になっていることを確認してください。
 
 1. **[!UICONTROL Decisioning]** メニューから、**Decisioning**&#x200B;を使用して、モバイルメッセージのコンテンツをパーソナライズおよび最適化できます。 この機能により、優先順位スコア、数式、AI モデルを使用して、顧客に最適なコンテンツを動的に選択して表示できます。
 

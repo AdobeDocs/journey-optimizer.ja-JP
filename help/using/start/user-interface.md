@@ -54,7 +54,7 @@ topic_v2:
 source-git-commit: 96221256a5733f40470c4b1210f1d40eaacab184
 workflow-type: tm+mt
 source-wordcount: 1587
-ht-degree: 87%
+ht-degree: 96%
 
 ---
 
@@ -384,36 +384,36 @@ AI アシスタントは、即座に役立つヘルプと運用上のインサ�
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_content_fragment_configuration"
->title="「AEM設定ヘルプ"
->abstract="設定の作成と管理について詳しく見る"
+>title="&quot;AEM 設定ヘルプ"
+>abstract="設定の作成と管理の詳細情報"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_configure_instance"
 >title="インスタンス設定"
->abstract="設定に適したインスタンス設定タイプを選択します。 </br>作成者のみ設定：AEM オーサーインスタンスのコンテンツフラグメントを使用します。 パブリッシュインスタンス設定とライブアップデートはサポートされていません。</br> パブリッシュ インスタンスの設定：パブリッシュ インスタンスの設定を構成します。 オプションで「インスタンスを公開するトークンを送信」を有効にして、認証用のサービス資格情報を提供します。"
+>abstract="設定に適したインスタンス設定タイプを選択します。 </br>オーサーのみ設定：AEM オーサーインスタンスのコンテンツフラグメントを使用します。 パブリッシュインスタンス設定とライブアップデートはサポートされていません。</br>パブリッシュインスタンス設定：パブリッシュインスタンス設定を指定します。 オプションで「パブリッシュインスタンスにトークンを送信」を有効にして、認証用のサービス資格情報を指定します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_send_token"
 >title="パブリッシュインスタンスにトークンを送信"
->abstract="有効にすると、パブリッシュインスタンスへのリクエストを認証するためにサービス認証情報が送信されます。 以下に有効なサービス資格情報JSONを指定します。"
+>abstract="有効にすると、パブリッシュインスタンスへのリクエストを認証するサービス資格情報が送信されます。 以下に有効なサービス資格情報 JSON を指定します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_service_credential"
->title="サービス資格情報JSONの貼り付け"
->abstract="AEM サービスの資格情報JSONを作成した後、公開されているテクニカルアカウントのドキュメントを参照して貼り付けます。 自動的にフォーマットされ、検証されます。"
+>title="サービス資格情報 JSON をペースト"
+>abstract="公開テクニカルアカウントドキュメントを参照して、AEM サービス資格情報を作成した後にペーストします。 自動的に書式設定および検証されます。"
 >additional-url=""
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_aem_custom_domain"
 >title="カスタムドメイン"
->abstract="オプション。 組織のコンテンツの取得がブロックされ16552いる場合147195 カスタムドメインを指定します。"
+>abstract="オプション。 publish-p16552-e147195.adobeaemcloud.com が組織のコンテンツ取得をブロックしている場合は、カスタムドメインを指定します。"
 
 <!-- JOURNEYS - EXPRESSION ASSISTANT -->
 
 >[!CONTEXTUALHELP]
 >id="journeyExpAI"
 >title="式アシスタント"
->abstract="式アシスタントを使用して、Journey Optimizerで式を生成および調整します。"
+>abstract="式アシスタントを使用すると、Journey Optimizer で式を生成および調整できます。"
 
 
 <!-- OC - LOAD FILE ACTIVITY -->

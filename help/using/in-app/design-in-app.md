@@ -23,9 +23,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
 workflow-type: tm+mt
-source-wordcount: 1272
+source-wordcount: 1273
 ht-degree: 98%
 
 ---
@@ -169,7 +169,7 @@ ht-degree: 98%
 
 1. ユーザーが操作した後のボタンのアクションを定義する「**[!UICONTROL インタラクトイベント]**」を選択します。
 
-1. Web URL またはディープリンクを「**[!UICONTROL ターゲット]**」フィールドに入力します。
+1. Web URLまたはディープリンクを&#x200B;**[!UICONTROL ターゲット]** フィールドに入力します。
 
 1. 複数のボタンを追加するには、「**[!UICONTROL ボタンを追加]**」をクリックします。
 

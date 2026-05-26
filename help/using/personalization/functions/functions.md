@@ -6,9 +6,9 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-source-git-commit: 258d22c6b95db138e927d96f04215c0623e53913
+source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
 workflow-type: tm+mt
-source-wordcount: '2536'
+source-wordcount: '2537'
 ht-degree: 97%
 
 ---
@@ -464,7 +464,7 @@ ht-degree: 97%
         <td><a href="helpers.md#url-parameter-encryption-helper">暗号化</a></td><td>サンドボックスレジストリのアクティブキーを使用して、レンダリング時にURL クエリパラメーターの式値を暗号化します </td>
     </tr>
     <tr>
-        <td><a href="helpers.md#url-function">Url</a></td><td>この関数は、SMS メッセージ コンテンツのURLを処理します。URLを<code>originalUrl</code>で短縮し、ディープリンクを挿入するには<code>type='DEEPLINK'</code>で使用します</td>
+        <td><a href="helpers.md#url-function">Url</a></td><td>この関数は、SMS メッセージ コンテンツのURLを処理します。URLを<code>originalUrl</code>で短縮し、ディープリンクを挿入するには<code>type='DEEPLINK'</code>を使用します</td>
     </tr>
     <tr>
         <td><a href="helpers.md#with">With</a></td><td>テンプレート部分の評価トークンを変更するために使用します。</td>
