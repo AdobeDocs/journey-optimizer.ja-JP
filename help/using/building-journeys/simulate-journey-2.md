@@ -10,9 +10,9 @@ level: Intermediate
 keywords: テスト, ジャーニー, チェック, エラー, トラブルシューティング
 version: Journey Orchestration
 hide: true
-source-git-commit: 1d63f476bb7f82d1c67a0d464afcc960edc5bc50
+source-git-commit: fa0145b495c840f9dd838672c5dfb7e5e52b6f0e
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1319'
 ht-degree: 4%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL シミュレーション]**&#x200B;機能にアクセスするには、**ジャーニーをシミュレート**&#x200B;権限が必要です。 [詳細情報](../administration/permissions.md)
+>**[!UICONTROL シミュレーション]**&#x200B;機能にアクセスするには、少なくとも次のいずれかの権限が必要です：**ジャーニーをシミュレート**、**ジャーニーを公開**&#x200B;または&#x200B;**ジャーニーを承認して公開**。 [詳細情報](../administration/permissions.md)
 
 シミュレートされたユーザーは、**[!UICONTROL シミュレーション設定]**&#x200B;で定義した一時的なプロファイルのようなエンティティです。 この節では、それらを作成し、再利用するために保存し、リストから調整または削除して、ジャーニーに送信する方法について説明します。
 
@@ -115,7 +115,7 @@ ht-degree: 4%
 
    +++
 
-1. 作成したシミュレートされたユーザーは、**[!UICONTROL ユーザーのテスト]** リストに表示されます。 各エントリについて、オプションメニューを開き、次のいずれかを選択します。
+1. 作成したシミュレートされたユーザーは、**[!UICONTROL ユーザーのテスト]** リストに表示されます。 各エントリについて、次のいずれかを選択します。
 
    * ![編集アイコン &#x200B;](assets/do-not-localize/Smock_Edit_18_N.svg)：シミュレートされたユーザーの詳細を更新します。
    * ![送信アイコン &#x200B;](assets/do-not-localize/Smock_Send_18_N.svg)：このシミュレートされたユーザーのみのシミュレーションを実行します。
@@ -129,7 +129,7 @@ ht-degree: 4%
 
 1. ジャーニーに&#x200B;**[!UICONTROL 待機]** アクティビティが含まれる場合は、「**[!UICONTROL テスト設定]**」タブを開いて、シミュレーション中に待機時間を微調整します。 例えば、ライブ **[!UICONTROL 待機]** アクティビティが数日間設定されている場合、それを10秒に上書きして、シミュレートされたユーザーが次のアクティビティに移動する前にノードでその長さを費やすようにすることができます。
 
-1. **[!UICONTROL すべてを送信]**&#x200B;をクリックして、リスト内のすべてのシミュレートされたユーザーをジャーニーに送信するか、行の![送信アイコン &#x200B;](assets/do-not-localize/Smock_Send_18_N.svg)をクリックして、そのユーザーのみを送信します。 シミュレートされたユーザーがジャーニーに正常にエントリすると、`Simulated users have been sent successfully.`確認メッセージが表示されます。
+1. **[!UICONTROL すべてを送信]**&#x200B;をクリックして、リスト内のすべてのシミュレートされたユーザーをジャーニーに送信するか、行の![送信アイコン &#x200B;](assets/do-not-localize/Smock_Send_18_N.svg)をクリックして、そのユーザーのみを送信します。 シミュレートされたユーザーがジャーニーに正常にエントリすると、`Simulated users have entered the journey successfully.`確認メッセージが表示されます。
 
    ![&#x200B; シミュレートされたユーザー選択パネル &#x200B;](assets/simulate-5-2.png)
 
