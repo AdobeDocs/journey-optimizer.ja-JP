@@ -9,9 +9,9 @@ role: Admin
 level: Experienced
 hide: true
 keywords: AEM, コンテンツフラグメント，管理，リポジトリ，認証，著者，公開
-source-git-commit: acbc63b37802bfe27a24246d4701efb00ac95940
+source-git-commit: 9da185872d2742799f1a2a2c85a840c84cb8b329
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,10 @@ Journey Optimizerには、組織、サンドボックス、Adobe Experience Mana
 1. 「**[!UICONTROL 統合を作成]**」をクリックします。
 
    ![](assets/aem-admin-settings-1.png)
+
+1. **[!DNL Adobe Experience Manager Managed Services]**&#x200B;を使用する場合は、**[!UICONTROL カスタム AMS リポジトリ ID]** フィールドに`adobecqms.net`で終わるリポジトリホスト名を入力します。
+
+   ![](assets/aem-admin-settings-6.png)
 
 1. 設定するリポジトリを選択し、**[!UICONTROL 次へ]**&#x200B;をクリックします。
 
@@ -76,9 +80,19 @@ Journey Optimizerには、組織、サンドボックス、Adobe Experience Mana
 
    +++
 
+1. インスタンスの設定が完了したら、コンテンツフラグメントを選択して、統合が機能することを確認します。
+
+   ![](assets/aem-admin-settings-7.png)
+
+1. **Content Advisor** ウィンドウで、テストするフラグメントを選択し、**[!UICONTROL 選択]**&#x200B;をクリックします。
+
 1. 「**[!UICONTROL 保存]**」をクリックします。
+
+1. テストコンテンツフラグメントを選択して保存すると、検証が自動的に実行されます。 検証が失敗した場合は、エラーリストが表示され、設定を修正できます。
+
+   ![](assets/aem-admin-settings-8.png)
 
 1. このリポジトリ統合を編集または無効にするには、**[!UICONTROL AEM統合]** メニューから以前に作成した設定にアクセスします。
 
-保存すると、そのサンドボックスはコンテンツフラグメントセレクターと&#x200B;**Adobe Experience Manager Content Advisor**&#x200B;のリポジトリを使用します。
+この設定を保存すると、Journey Optimizerはその設定を現在のサンドボックスに保存します。 その後、**Content Advisor** セレクターでコンテンツを参照して選択する際に、そのリポジトリとその設定を使用できます。
 
