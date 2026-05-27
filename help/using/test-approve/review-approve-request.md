@@ -6,17 +6,11 @@ level: Beginner
 feature: Approval
 exl-id: 8f4260b5-98df-4350-bd9b-680c3986ffe6
 TQID: https://experienceleague.adobe.com/I7beoyvv-vzc39XjLlPl8iIpxtxOmSkD5AtxW0bCCwA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 362
@@ -47,7 +41,7 @@ ht-degree: 60%
 
 表示されるウィンドウで、「**[!UICONTROL 承認してアクティブ化]**」をクリックして、ジャーニー／キャンペーンを公開します。
 
-![承認リクエストダイアログ &#x200B;](assets/approve-request.png)
+![承認リクエストダイアログ ](assets/approve-request.png)
 
 ## ジャーニー／キャンペーンへの変更のリクエスト {#changes}
 
@@ -55,7 +49,7 @@ ht-degree: 60%
 
 それには、「**[!UICONTROL 変更をリクエスト]**」ボタンをクリックします。 開いたペインで、リクエストの詳細を示すメッセージを入力し、**[!UICONTROL 送信]**&#x200B;をクリックしてリクエストを送信します。
 
-![変更を依頼ダイアログ &#x200B;](assets/request-changes.png)
+![変更を依頼ダイアログ ](assets/request-changes.png)
 
 リクエストを送信すると、メールと Journey Optimizer アラートでジャーニー／キャンペーン作成者に通知されます。 キャンペーンは「ドラフト」ステータスに戻ります。 変更を統合したら、ジャーニー/キャンペーン作成者は、承認のために変更を再送信できます。
 

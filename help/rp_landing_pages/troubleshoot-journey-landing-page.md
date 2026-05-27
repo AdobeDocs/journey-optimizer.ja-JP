@@ -7,14 +7,14 @@ redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
 source-git-commit: b8d580eb6928f073934a33ede1d9c166d5370809
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 94%
+source-wordcount: '574'
+ht-degree: 95%
 
 ---
 
 # トラッキング、監視、トラブルシューティング {#section-overview}
 
-カスタマージャーニーを効果的に管理するには、まず包括的なトラッキングを行い、プロアクティブな監視、インサイトに満ちたレポート、効率的なトラブルシューティングを有効にします。Adobe Journey Optimizer には、顧客インタラクションやシステムイベントをキャプチャし、パフォーマンス指標を分析し、問題が発生した際にすばやく解決するための完全なフレームワークが用意されています。
+カスタマージャーニーを効果的に管理するには、まず包括的なトラッキングを行い、プロアクティブな監視、インサイトに満ちたレポート、効率的なトラブルシューティングを有効にします。 Adobe Journey Optimizer には、顧客インタラクションやシステムイベントをキャプチャし、パフォーマンス指標を分析し、問題が発生した際にすばやく解決するための完全なフレームワークが用意されています。
 
 メール、web、プッシュ、アプリ内、SMS など、すべてのチャネルをまたいで顧客インタラクションの&#x200B;**トラッキング**&#x200B;を行い、開封数、クリック数、コンバージョン率、カスタムイベント数をキャプチャし、顧客がコンテンツにどのように関与しているかを明らかにします。
 
@@ -26,9 +26,9 @@ ht-degree: 94%
 
 ## トラッキングの基本を学ぶ
 
-監視とトラブルシューティングに取り組む前に、トラッキングの強固な基盤があることを確認します。Journey Optimizer には、すべてのチャネルをまたいで、顧客インタラクション、配信パフォーマンス、システムの健全性をキャプチャする包括的なトラッキング機能が用意されています。
+監視とトラブルシューティングに取り組む前に、トラッキングの強固な基盤があることを確認します。 Journey Optimizer には、すべてのチャネルをまたいで、顧客インタラクション、配信パフォーマンス、システムの健全性をキャプチャする包括的なトラッキング機能が用意されています。
 
-カスタム指標の設定方法、URL パラメーターの設定方法、ビルトインレポートを介したトラッキングデータへのアクセス方法など、メール、web エクスペリエンス、プッシュ通知、アプリ内メッセージなどのトラッキングを実装する方法について説明します。[トラッキングの基本を学ぶ](../using/start/get-started-tracking.md)
+カスタム指標の設定方法、URL パラメーターの設定方法、ビルトインレポートを介したトラッキングデータへのアクセス方法など、メール、web エクスペリエンス、プッシュ通知、アプリ内メッセージなどのトラッキングを実装する方法について説明します。 [トラッキングの基本を学ぶ](../using/start/get-started-tracking.md)
 
 ## レポートと監視
 
@@ -49,7 +49,7 @@ ht-degree: 94%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 システムアラートへのアクセスと登録
 
@@ -59,7 +59,7 @@ ht-degree: 94%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 エラーコードの参照
 
@@ -69,7 +69,7 @@ Adobe Journey Optimizer の一般的なエラーコードを理解し、ジャ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 ジャーニーをテストまたは公開する前のエラーのトラブルシューティング
 
@@ -79,7 +79,7 @@ Adobe Journey Optimizer の一般的なエラーコードを理解し、ジャ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 ライブジャーニー実行のトラブルシューティング
 
@@ -89,7 +89,7 @@ Adobe Journey Optimizer の一般的なエラーコードを理解し、ジャ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 ジャーニーでのインバウンドアクションのトラブルシューティング
 
@@ -99,7 +99,7 @@ Adobe Journey Optimizer の一般的なエラーコードを理解し、ジャ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 カスタムアクションのトラブルシューティング
 
@@ -109,11 +109,11 @@ Adobe Journey Optimizer の一般的なエラーコードを理解し、ジャ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
 
-サポートチケットガイドライン
+サポートチケットのガイドライン
 
-Adobe サポートに問い合わせる際に含めるべき内容（環境の詳細、影響レベル、レプリケーション手順、ログまたはスクリーンショット、関連する ID）を説明します。これにより、迅速な解決が可能になります。
+Adobe サポートに連絡する際に含めるべき内容（環境の詳細、影響レベル、レプリケーション手順、ログまたはスクリーンショット、関連ID）を確認して、解決を迅速化します。
 
 [サポートチケットガイドライン](../using/start/user-interface.md#support-ticket-guidelines)
 :::
