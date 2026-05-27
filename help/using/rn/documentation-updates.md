@@ -8,9 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
+source-git-commit: 9baa78e1449e43b269fdb271c1f6c9d611d454cb
 workflow-type: tm+mt
-source-wordcount: '7897'
+source-wordcount: '7927'
 ht-degree: 90%
 
 ---
@@ -30,6 +30,8 @@ ht-degree: 90%
 * **ディープリンク** ドキュメントが拡張され、新しい&#x200B;**オーサリングディープリンク** セクションに、メールで使用できる2つのオプション（メールDesigner UIとPersonalization エディターコード）とSMSのURL関数構文の詳細が追加されました。 **SMS メッセージの作成** ページに、コンテンツ作成フローのディープリンク手順が含まれるようになりました。 [詳細情報](../email/deeplinks.md)
 
 * **Url** ヘルパー参照が更新され、Personalization ドキュメントの専用セクションが追加されました。 [詳細情報](../personalization/functions/helpers.md#url)
+
+* **実行メタデータ** ヘルパードキュメントに制限が追加されました。この関数は、インバウンドチャネル（Web、コードベースのエクスペリエンス、アプリ内メッセージ、コンテンツカード）ではサポートされていません。 [詳細情報](../personalization/functions/helpers.md#execution-metadata)
 
 * 新しい&#x200B;**Personalization レシピ** ページが追加され、Journey Optimizerの最も一般的なユースケースに、すぐに使用できるパーソナライゼーションパターンが提供されました。 日付と時刻のレシピ（現在の日付の書式設定、有効期限までのカウントダウン、日前の計算、時間のみの表示、週末と平日の検出の比較）、文字列のレシピ（変数の割り当てで`replaceAll`を使用）、条件付きフォールバックレシピ（`isEmpty`を使用した空のフィールドフォールバック）について説明します。 [詳細情報](../personalization/personalization-recipes.md)
 
