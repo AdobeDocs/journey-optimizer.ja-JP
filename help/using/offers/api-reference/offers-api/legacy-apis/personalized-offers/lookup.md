@@ -2,7 +2,7 @@
 solution: Journey Optimizer, Experience Platform
 product: Journey Optimizer
 title: パーソナライズされたオファーの検索
-description: パーソナライズされたオファーとは、適格性ルールと制約にもとづいてカスタマイズ可能なマーケティングメッセージです。
+description: パーソナライズされたオファーは、実施要件ルールおよび制約に基づいてカスタマイズできるマーケティングメッセージです。
 feature: Decision Management, API
 badge: label="レガシー" type="Informative"
 topic: Integrations
@@ -23,7 +23,7 @@ role_v2:
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 196
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -31,26 +31,26 @@ ht-degree: 0%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer]の新しい決定機能である決定機能が、コードベースのエクスペリエンスとメールチャネルで利用できるようになりました。 [詳細情報](../../../../../experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。 [詳細情報](../../../../../experience-decisioning/gs-experience-decisioning.md)
 
 
-パーソナライズされたオファーとは、適格性ルールと制約にもとづいてカスタマイズ可能なマーケティングメッセージです。
+パーソナライズされたオファーは、実施要件ルールおよび制約に基づいてカスタマイズできるマーケティングメッセージです。
 
-パーソナライズされたオファー`@id`またはリクエストパス内のパーソナライズされたオファーの名前を含む&#x200B;**Offer Library** APIにGET リクエストを行うことで、特定のパーソナライズされたオファーを検索できます。
+**オファーライブラリー** API に対して、リクエストパスにパーソナライズされたオファーまたはパーソナライズされたオファーの名前を含む GET リクエストを実行することで、特定のパーソナライズされたオファー`@id`を検索できます。
 
-**API形式**
+**API 形式**
 
 ```http
 GET /{ENDPOINT_PATH}/{CONTAINER_ID}/queries/core/search?schema={SCHEMA_PERSONALIZED_OFFER}&{QUERY_PARAMS}
 ```
 
-| パラメーター | 効果 | 例 |
+| パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
-| `{ENDPOINT_PATH}` | リポジトリ APIのエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
-| `{CONTAINER_ID}` | パーソナライズされたオファーが配置されるコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
+| `{ENDPOINT_PATH}` | リポジトリ API のエンドポイントパス。 | `https://platform.adobe.io/data/core/xcore/` |
+| `{CONTAINER_ID}` | パーソナライズされたオファーが配置されているコンテナ。 | `e0bd8463-0913-4ca1-bd84-6309134ca1f6` |
 | `{SCHEMA_PERSONALIZED_OFFER}` | パーソナライズされたオファーに関連付けられたスキーマを定義します。 | `https://ns.adobe.com/experience/offer-management/personalized-offer;version=0.5` |
-| `id` | エンティティの`@id` プロパティに一致するために使用される文字列。 文字列が正確に一致します。 パラメーター「id」と「name」を同時に使用することはできません。 | `xcore:personalized-offer:124cc332095cfa74` |
-| `name` | エンティティのxdm:name プロパティに一致するために使用される文字列。 文字列は大文字と小文字が正確に一致しますが、ワイルドカード文字を使用できます。 パラメーター`id`と`name`は同時に使用できません | `Discount offer` |
+| `id` | エンティティの `@id` プロパティとマッチするために使用される文字列。 文字列は完全にマッチされます。 パラメーター「id」と「name」は一緒に使用できません。 | `xcore:personalized-offer:124cc332095cfa74` |
+| `name` | エンティティの xdm:name プロパティと一致させるのに使用される文字列。 文字列は大文字と小文字を区別して完全にマッチされますが、ワイルドカード文字を使用することもできます。 パラメーター `id` と `name` は一緒に使用できません。 | `Discount offer` |
 
 **リクエスト**
 
@@ -66,7 +66,7 @@ curl -X GET \
 
 **応答**
 
-応答が成功すると、コンテナ ID、インスタンス ID、一意のパーソナライズされたオファー`@id`に関する情報を含む、プレースメントの詳細が返されます。
+正常な応答では、パーソナライズされたオファーに関するプレースメントの詳細（コンテナ ID とインスタンス ID に関する情報と一意のパーソナライズされたオファー `@id` を含む）が返されます。
 
 ```json
 {
