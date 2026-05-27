@@ -8,7 +8,7 @@ level: Intermediate
 exl-id: f0f83bd2-7c2b-4d9b-b455-e1df12dfa175
 source-git-commit: e16888953e73ac04f366790117065489b12ae0c7
 workflow-type: tm+mt
-source-wordcount: '4523'
+source-wordcount: '4607'
 ht-degree: 1%
 
 ---
@@ -106,7 +106,7 @@ APIはHTTP 200を返しますが、Live アクティビティは表示されま�
 
 * iOS アプリの要件：
    * iOS 16.1以降
-   * `NSSupportsLiveActivities`が`YES`で`Info.plist`に設定されました
+   * `NSSupportsLiveActivities`が`Info.plist`で`YES`に設定されました
    * `ActivityAttributes`が正しく実装されました。
 * モバイルSDKとの連携：
    * Adobe Experience Platform Mobile SDK（メッセージング SDK 5.11.0以降）
@@ -142,7 +142,7 @@ Adobe Experience Platformのプロフィールもご覧いただけます。
 
 +++
 
-+++ &#x200B;3. プロファイル上のトークンの詳細の検証
++++ &#x200B;3. プロファイルのトークン詳細の検証
 
 1. **プロファイル**&#x200B;から、**属性** タブにアクセスします。
 1. `liveActivityPushNotificationDetails`を探します。
@@ -190,7 +190,7 @@ Adobe Experience Platformのプロフィールもご覧いただけます。
 * `content-state`と`attributes`はiOS `ActivityAttributes`の実装と一致しません。
 * 古い`timestamp` （更新/終了に重要）。
 
-**ブロードキャストのユースケースに関する注意**: キャンペーンは&#x200B;**API トリガーのマーケティング** （トランザクションではない）である必要があります。 ペイロードは、個別の`audience`ではなく`profile`を使用します。 ブロードキャスト固有のペイロード構造については[このセクション &#x200B;](#broadcast-config)を参照し、完全なAPI仕様については[Adobe Developer ドキュメント &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/messaging#operation/postIMAudienceMessageExecution)を参照してください。
+**ブロードキャストのユースケースに関する注意**: キャンペーンは&#x200B;**API トリガーのマーケティング** （トランザクションではない）である必要があります。 ペイロードは、個別の`profile`ではなく`audience`を使用します。 ブロードキャスト固有のペイロード構造については[このセクション &#x200B;](#broadcast-config)を参照し、完全なAPI仕様については[Adobe Developer ドキュメント &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/messaging#operation/postIMAudienceMessageExecution)を参照してください。
 
 #### 事前確認
 
@@ -202,8 +202,8 @@ Adobe Experience Platformのプロフィールもご覧いただけます。
 +++ &#x200B;1. キャンペーンサーフェス設定の確認
 
 1. Journey Optimizerで&#x200B;**キャンペーン**&#x200B;を開き、**アクション** メニューに移動します。
-1. **ライブアクティビティ設定**&#x200B;を確認します。 IOS アプリのサーフェスは、プロファイルの`appId`の`liveActivityPushNotificationDetails`と一致するバンドル IDで設定する必要があります。 例えば、プロファイルに`"appId": "com.example.myapp"`がある場合、サーフェスは同じアプリをターゲットにする必要があります。
-1. キャンペーン設定の&#x200B;**アクティビティタイプ**&#x200B;が、プロファイルの`attributeType`の`liveActivityPushNotificationDetails`と正確に一致することを確認します。 例えば、プロファイルに`"attributeType": "FoodDeliveryLiveActivityAttributes"`がある場合、キャンペーンはこの同じアクティビティタイプを指定する必要があります。
+1. **ライブアクティビティ設定**&#x200B;を確認します。 IOS アプリのサーフェスは、プロファイルの`liveActivityPushNotificationDetails`の`appId`と一致するバンドル IDで設定する必要があります。 例えば、プロファイルに`"appId": "com.example.myapp"`がある場合、サーフェスは同じアプリをターゲットにする必要があります。
+1. キャンペーン設定の&#x200B;**アクティビティタイプ**&#x200B;が、プロファイルの`liveActivityPushNotificationDetails`の`attributeType`と正確に一致することを確認します。 例えば、プロファイルに`"attributeType": "FoodDeliveryLiveActivityAttributes"`がある場合、キャンペーンはこの同じアクティビティタイプを指定する必要があります。
 
 +++
 
@@ -245,7 +245,7 @@ API経由でキャンペーンを実行する場合は、ペイロードが正�
 | `content-available` | `1`でなければなりません | 値が見つからないか間違っています |
 | `event` | `"start"`、`"update"`または`"end"`である必要があります | 無効なイベントタイプ |
 | `timestamp` | 常に最新のUnixのエポックタイムを秒単位にする必要があります | 古い/キャッシュされたタイムスタンプの使用 |
-| `userId` または `namespace` | AEPの既存のプロファイルと一致する必要があります | プロファイル IDが一致しません |
+| `userId` / `namespace` | AEPの既存のプロファイルと一致する必要があります | プロファイル IDが一致しません |
 
 **重要：常に最新のタイムスタンプを使用**
 
@@ -270,7 +270,7 @@ API経由でキャンペーンを実行する場合は、ペイロードが正�
 
 +++
 
-+++ &#x200B;3. ペイロードとiOSの導入の整合性
++++ &#x200B;3. ペイロードとiOSの実装の整合
 
 API ペイロードがiOS アプリの`ActivityAttributes`実装と一致していることを確認します。 Adobe SDKの`LiveActivityAttributes` プロトコルは、iOS `ActivityAttributes`を拡張し、`liveActivityData` プロパティを必要とします。
 
@@ -343,7 +343,7 @@ API ペイロードがiOS アプリの`ActivityAttributes`実装と一致して�
 
 +++
 
-+++ &#x200B;4. Assuranceでのテスト
++++ &#x200B;4. Assuranceでテスト
 
 Assuranceを使用して、APIの実行とペイロードの配信を検証します。
 
@@ -400,7 +400,7 @@ Assuranceを使用して、APIの実行とペイロードの配信を検証し�
 
       | 指標 | 意味 | ビジネスの成長を促進するための |
       |-|-|-|
-      | ターゲット | オーディエンスに適格なプロファイルの数 | テストプロファイルを含める必要があります |
+      | ターゲティング | オーディエンスに適格なプロファイルの数 | テストプロファイルを含める必要があります |
       | 送信数 | 試行されたプッシュ通知の合計 | API呼び出しと一致する必要があります |
       | 配信済み | デバイスへの正常な配信 | 送信数と比較して成功率を確認する |
       | 送信エラー | 送信できなかったプッシュ通知 | 大きい数値 |
@@ -438,7 +438,7 @@ Assuranceを使用して、APIの実行とペイロードの配信を検証し�
 
    | フィールド | 使用可能な値 | 意味 |
    |---|---|---|
-   | `feedbackStatus` | `sent`、`error`、`denylist` | サービスプロバイダーからの配信の結果 |
+   | `feedbackStatus` | `sent`, `error`, `denylist` | サービスプロバイダーからの配信の結果 |
    | `serviceProvider` | `apns/apnsSandbox` | IOS Live アクティビティのAPNであるべき |
    | `errorCode` | 数値コードまたは`null` | 失敗した場合のAPNs固有のエラーコード |
    | `errorMessage` | エラーの説明または`null` | 人間が判読可能なエラーメッセージ |
@@ -453,7 +453,7 @@ Assuranceを使用して、APIの実行とペイロードの配信を検証し�
 
 +++
 
-+++ &#x200B;3. AssuranceのAPNへのライブアクティビティ配信の検証
++++ &#x200B;3. AssuranceのAPNへのライブアクティビティ配信を確認する
 
 1. Assurance セッションを開きます。API呼び出し中にアクティブにする必要があります。
 1. API呼び出しを実行します（開始、更新、終了）。
@@ -475,7 +475,7 @@ Assuranceを使用して、APIの実行とペイロードの配信を検証し�
 
 +++
 
-+++ &#x200B;4. 追加の診断チェックに進む
++++ &#x200B;4. 追加の診断チェックに進みます
 
 1. Campaign レポートのライブアクティビティライフサイクル指標を確認します。
 
@@ -681,7 +681,7 @@ Assuranceを使用して、APIの実行とペイロードの配信を検証し�
 |-|-|-|
 | `campaignId` | アクティブなマーケティングキャンペーン IDと一致する必要があります | 間違ったキャンペーン IDまたはトランザクションキャンペーンの使用 |
 | `audience.id` | AEPの既存オーディエンスと一致する必要があります | 間違ったオーディエンス IDまたはオーディエンスが存在しない |
-| `input-push-channel` | ブロードキャストに必須 – このブロードキャストインスタンスの一意の識別子 | `channelID`の`liveActivityData`が見つからないか、一致しません |
+| `input-push-channel` | ブロードキャストに必須 – このブロードキャストインスタンスの一意の識別子 | `liveActivityData`の`channelID`が見つからないか、一致しません |
 | `timestamp` | 常に最新のUnixのエポックタイムを秒単位にする必要があります | 古い/キャッシュされたタイムスタンプの使用 |
 | `event` | `"start"`、`"update"`または`"end"`である必要があります | 無効なイベントタイプ |
 | `attributes-type` | キャンペーンアクティビティタイプに一致する必要があります | 不一致またはタイプミス |
@@ -689,15 +689,15 @@ Assuranceを使用して、APIの実行とペイロードの配信を検証し�
 
 **重要なブロードキャスト固有のフィールド：**
 
-* **`input-push-channel`**：
+* **`input-push-channel`**:
    * すべてのブロードキャストライブアクティビティに必要です。
    * この特定のブロードキャストインスタンスの一意の識別子として機能します。
    * オーディエンス内のすべてのプロファイルは、このチャネルにリンクされたライブアクティビティを受け取ります。
-   * `channelID`の`liveActivityData.channelID`と一致する必要があります（手順3を参照）。
+   * `liveActivityData.channelID`の`channelID`と一致する必要があります（手順3を参照）。
    * クライアントがApple Developer Portal上の`appID`用に作成する必要があります。
    * 特定の`appID`用に作成されたチャネルのみを、そのアプリのライブアクティビティのブロードキャストに使用できます。
 
-* **`audience.id`**：
+* **`audience.id`**:
    * Adobe Experience Platformで作成された有効なオーディエンスセグメントを参照する必要があります。
    * このオーディエンス内のすべてのプロファイルは、ライブアクティビティを対象としています。
    * オーディエンスをアクティブ化し、有効な`liveActivityPushNotificationDetails`のプロファイルを含める必要があります。
@@ -718,9 +718,9 @@ Assuranceを使用して、APIの実行とペイロードの配信を検証し�
 
 +++
 
-+++ &#x200B;3. iOSの導入により、content-state、attributes、input-push-channelを連携
++++ &#x200B;3. IOSを活用して、content-state、attributes、input-push-channelの連携を強化
 
-ペイロードフィールドがiOS アプリの`ActivityAttributes`実装と一致していること、および`input-push-channel`が`channelID`の`liveActivityData`と一致していることを確認してください。
+ペイロードフィールドがiOS アプリの`ActivityAttributes`実装と一致していること、および`input-push-channel`が`liveActivityData`の`channelID`と一致していることを確認してください。
 
 1. IOS ActivityAttributesの定義を確認します。
 
@@ -770,15 +770,15 @@ struct AirplaneTrackingAttributes: LiveActivityAttributes {
 
 **重要：`input-push-channel`は`channelID`**&#x200B;と一致する必要があります
 
-* `input-push-channel`のルートの`aps`値は、`channelID`の`liveActivityData`と完全に一致する必要があります。
+* `aps`のルートの`input-push-channel`値は、`liveActivityData`の`channelID`と完全に一致する必要があります。
 * 上記の例では、両方の値は`"FEt0NgvLEfEAAOqA6AXdIQ=="`です。
 * このマッチングにより、ブロードキャストインスタンスがライブアクティビティデータにリンクされます。
 * 不一致が発生すると、配信エラーが発生します。
 
 **主要な検証ポイント：**
 
-* すべてのイベントタイプに対して、`ContentState`にすべての`content-state` フィールドを含めます。
-* 開始イベントに対してのみ、`LiveActivityAttributes`にすべてのカスタム `attributes` フィールドを含めます。
+* すべてのイベントタイプに対して、`content-state`にすべての`ContentState` フィールドを含めます。
+* 開始イベントに対してのみ、`attributes`にすべてのカスタム `LiveActivityAttributes` フィールドを含めます。
 * 開始イベントの場合、`liveActivityData.channelID`は`input-push-channel`と一致する必要があります。
 * フィールド名は大文字と小文字が区別され、正確に一致する必要があります。
 * データ型は一致する必要があります（String、Int、Bool、ネストされたオブジェクトなど）。
@@ -798,7 +798,7 @@ struct AirplaneTrackingAttributes: LiveActivityAttributes {
 
 +++
 
-+++ &#x200B;4. Assuranceでのテスト
++++ &#x200B;4. Assuranceでテスト
 
 Assuranceを使用して、APIの実行とペイロードの配信を検証します。
 
@@ -844,7 +844,7 @@ Adobe Experience Platformでは、プロファイルの更新がオーディエ�
 
 #### デバッグ手順
 
-+++ &#x200B;1. プロファイルがオーディエンスにあることを確認する
++++ &#x200B;1. プロファイルがオーディエンスにあることを確認
 
 まず、ライブアクティビティを受け取るプロファイルが実際にオーディエンスの一部であるかどうかを確認します。
 
@@ -861,7 +861,7 @@ Adobe Experience Platformでは、プロファイルの更新がオーディエ�
 
 +++
 
-+++ &#x200B;2. オーディエンスの評価方法とスケジュールの確認
++++ &#x200B;2. オーディエンスの評価の種類とスケジュールを確認する
 
 オーディエンスがバッチ評価とストリーミング評価のどちらを使用しているかを特定し、データの鮮度を判断します。
 
