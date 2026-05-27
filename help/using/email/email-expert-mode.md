@@ -10,7 +10,7 @@ level: Experienced
 exl-id: 0c586565-0c65-435f-986d-cd08b59de159
 source-git-commit: 110c4c9b12b085f3febb83f799f5fd0ba8a8b1fb
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '567'
 ht-degree: 7%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 7%
 
 >[!AVAILABILITY]
 >
->この機能は、限定提供で使用できます。アクセス権を取得するには、アドビ担当者にお問い合わせください。
+>この機能は、限定提供で使用できます。 アクセス権を取得するには、アドビ担当者にお問い合わせください。
 
-**高度なHTML エディター**&#x200B;は、**&#x200B;**&#x200B;電子メール Designer[!DNL Journey Optimizer]で直接[電子メールコンテンツ &#x200B;](get-started-email-design.md)の生のHTML ソースを表示および編集できるエキスパートモードです。ジャーニー、キャンペーン、または[電子メールコンテンツテンプレート &#x200B;](content-from-scratch.md)の編集に[電子メール &#x200B;](../content-management/create-content-templates.md)をデザインしているかどうかに関係なく使用できます。
+**高度なHTML エディター**&#x200B;は、[!DNL Journey Optimizer] [電子メール Designer](get-started-email-design.md)で直接&#x200B;**電子メールコンテンツ**&#x200B;の生のHTML ソースを表示および編集できるエキスパートモードです。ジャーニー、キャンペーン、または[電子メールコンテンツテンプレート &#x200B;](../content-management/create-content-templates.md)の編集に[電子メール &#x200B;](content-from-scratch.md)をデザインしているかどうかに関係なく使用できます。
 
 この機能を使用すると、条件などの高度な式をソースに直接挿入できます。 ビジュアル（デスクトップ）ビューに切り替えると、コンテンツが再レンダリングされるので、どのビューでもコンテンツの外観を確認し、編集を続行できます。
 
