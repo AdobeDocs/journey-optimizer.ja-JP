@@ -37,7 +37,7 @@ Adobe Journey Optimizerのライブアクティビティにより、iOSのロッ
 * プッシュトークン登録
 * ライブアクティビティライフサイクルイベント
 
-Assuranceの設定方法については、[Adobe Experience Platform Assurance ドキュメント ](https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance)を参照してください。
+Assuranceの設定方法については、[Adobe Experience Platform Assurance ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance)を参照してください。
 
 **メモ**: iOS Live アクティビティの場合、アプリが物理的なiOS デバイス（iOS 16.1以降）またはXcode Simulator （iOS 16.1以降）で動作していることを確認します。
 
@@ -72,7 +72,7 @@ API リクエストから、次を取得します。
 * プロファイル名前空間（例：ECID、電子メール、顧客ID）
 * API呼び出しで使用されるプロファイル ID
 
-Adobe Experience Platformでこのプロファイルを検索できることを確認します。 プロファイルを[検索する方法については、Experience Platform ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide.html)を参照してください。
+Adobe Experience Platformでこのプロファイルを検索できることを確認します。 プロファイルを[検索する方法については、Experience Platform ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/profile/ui/user-guide.html)を参照してください。
 
 +++
 
@@ -190,12 +190,12 @@ Adobe Experience Platformのプロフィールもご覧いただけます。
 * `content-state`と`attributes`はiOS `ActivityAttributes`の実装と一致しません。
 * 古い`timestamp` （更新/終了に重要）。
 
-**ブロードキャストのユースケースに関する注意**: キャンペーンは&#x200B;**API トリガーのマーケティング** （トランザクションではない）である必要があります。 ペイロードは、個別の`profile`ではなく`audience`を使用します。 ブロードキャスト固有のペイロード構造については[このセクション ](#broadcast-config)を参照し、完全なAPI仕様については[Adobe Developer ドキュメント ](https://developer.adobe.com/journey-optimizer-apis/references/messaging#operation/postIMAudienceMessageExecution)を参照してください。
+**ブロードキャストのユースケースに関する注意**: キャンペーンは&#x200B;**API トリガーのマーケティング** （トランザクションではない）である必要があります。 ペイロードは、個別の`profile`ではなく`audience`を使用します。 ブロードキャスト固有のペイロード構造については[このセクション &#x200B;](#broadcast-config)を参照し、完全なAPI仕様については[Adobe Developer ドキュメント &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/messaging#operation/postIMAudienceMessageExecution)を参照してください。
 
 #### 事前確認
 
 * Campaignは&#x200B;**API トリガーのトランザクション** （単一）または&#x200B;**API トリガーのマーケティング** （ブロードキャスト）であり、**高スループット** オプションは&#x200B;**not**&#x200B;有効にする必要があります。ライブアクティビティと互換性がありません。
-* プロファイルが存在し、上記の[ シナリオ ](#profile-issue)を使用してトークンが正しく同期されていることを確認します。
+* プロファイルが存在し、上記の[&#x200B; シナリオ &#x200B;](#profile-issue)を使用してトークンが正しく同期されていることを確認します。
 
 #### デバッグ手順
 
@@ -339,7 +339,7 @@ API ペイロードがiOS アプリの`ActivityAttributes`実装と一致して�
 | 更新/終了に`attributes`を含む | 不要だが、通常は無視される | 開始イベントに`attributes`のみを含める |
 | 更新/終了時の古いタイムスタンプ | デバイスで更新/終了が無視されました | 常に新しいタイムスタンプを生成 |
 
-詳細な例については、[ ライブアクティビティページの作成](create-mobile-live.md)を参照してください。
+詳細な例については、[&#x200B; ライブアクティビティページの作成](create-mobile-live.md)を参照してください。
 
 +++
 
@@ -366,7 +366,7 @@ Assuranceを使用して、APIの実行とペイロードの配信を検証し�
 
 このシナリオでは、以前のすべてのチェックに合格しました。
 
-* プロファイルは[有効なライブアクティビティプッシュトークン ](#profile-issue)で存在します
+* プロファイルは[有効なライブアクティビティプッシュトークン &#x200B;](#profile-issue)で存在します
 * Campaignは適切なペイロードで正しく[設定されています](#payload-issues)
 * [更新トークンが同期されます](#token-not-synced) （更新/終了イベントの場合、単一ユースケースのみ）
 
@@ -423,7 +423,7 @@ Assuranceを使用して、APIの実行とペイロードの配信を検証し�
       | トークンをブロックリストに加える | 無効としてマークされたトークン | トークンの再登録またはブロックリストステータスの確認 |
       | プロファイルは対象外です | プロファイルがキャンペーン条件を満たしていません | キャンペーンオーディエンスのルールの確認 |
 
-詳しくは、[ ライブアクティビティキャンペーンレポートページ ](../reports/campaign-global-report-cja-activity.md)を参照してください。
+詳しくは、[&#x200B; ライブアクティビティキャンペーンレポートページ &#x200B;](../reports/campaign-global-report-cja-activity.md)を参照してください。
 
 +++
 
@@ -547,7 +547,7 @@ Assuranceを使用して、APIの実行とペイロードの配信を検証し�
 **プリチェック：**
 
 * **ユーザー権限**: デバイスでライブアクティビティが初めて開始されると、iOSにシステムプロンプト「[ アプリ名]でライブアクティビティの更新を提供しますか？」が表示されます。 更新トークンを生成して同期するには、ユーザー&#x200B;**が「許可」をタップする必要があります**。 ユーザーが「許可しない」をタップした場合、更新トークンは作成されず、更新/終了リクエストは失敗します。 これはアプリごとに1回限りの権限です。
-* **プロファイルとキャンペーンの検証**: プロファイル、トークン、キャンペーン設定が正しいことを確認するために、[ シナリオ 1](#profile-issue)と[ シナリオ 2](#payload-issues)のチェックを完了します。
+* **プロファイルとキャンペーンの検証**: プロファイル、トークン、キャンペーン設定が正しいことを確認するために、[&#x200B; シナリオ 1](#profile-issue)と[&#x200B; シナリオ 2](#payload-issues)のチェックを完了します。
 
 #### デバッグ手順
 
@@ -629,7 +629,7 @@ Assuranceを使用して、APIの実行とペイロードの配信を検証し�
 * **キャンペーンタイプ**:
    * キャンペーンがAPI トリガーマーケティングとして作成されていることを確認します（ブロードキャスト/オーディエンスベースのキャンペーンに必要）。
    * キャンペーン設定でオーディエンスが定義されていることを確認します。
-* **プロファイルとトークンの検証**：オーディエンスから複数のプロファイルをサンプルして、有効な`liveActivityPushNotificationDetails`を持っていることを確認します。 詳細な検証手順については、[ シナリオ 1](#profile-issue)に従ってください。
+* **プロファイルとトークンの検証**：オーディエンスから複数のプロファイルをサンプルして、有効な`liveActivityPushNotificationDetails`を持っていることを確認します。 詳細な検証手順については、[&#x200B; シナリオ 1](#profile-issue)に従ってください。
 
 #### デバッグ手順
 
@@ -714,7 +714,7 @@ Assuranceを使用して、APIの実行とペイロードの配信を検証し�
 * `dismissal-date`：自動却下のUnixのエポックタイム（`end` イベントにのみ関連）
 * `alert`：通知用に`title`と`body`を含むオブジェクト
 
-完全なAPI仕様については、[Adobe Journey Optimizer Messaging API ドキュメント ](https://developer.adobe.com/journey-optimizer-apis/references/messaging)を参照してください。
+完全なAPI仕様については、[Adobe Journey Optimizer Messaging API ドキュメント &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/messaging)を参照してください。
 
 +++
 
@@ -838,7 +838,7 @@ Adobe Experience Platformでは、プロファイルの更新がオーディエ�
 **プリチェック：**
 
 * **キャンペーンとペイロードの検証**:
-   * [このシナリオ ](#broadcast-config)のチェックを完了して、キャンペーンとペイロードが正しいことを確認します。
+   * [このシナリオ &#x200B;](#broadcast-config)のチェックを完了して、キャンペーンとペイロードが正しいことを確認します。
    * API ペイロードの`audience.id`がキャンペーン設定と一致することを確認します。
 * **プロファイルが存在します**：有効な`liveActivityPushNotificationDetails`のプロファイルがAEPに存在することを確認します。
 

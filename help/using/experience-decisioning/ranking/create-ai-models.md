@@ -10,11 +10,18 @@ level: Intermediate
 exl-id: 532392d6-3637-4381-984d-f5b630f6d32d
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/Mmplq31zfIn3ieSWbe4Kc3EeJoMJ45vjI51t8GsgGgs
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: fe338112-e2ce-4876-8989-fc4d497613f1
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 771
@@ -112,7 +119,7 @@ AI モデルを作成するには、次の手順を行います。
    >
    >最大 5 個のオーディエンスを選択できます。
 
-1. AI モデルを保存して有効化します。 モデルがライブになると、[ トレーニングの状態とパフォーマンスを監視できます](ai-model-observability.md)。
+1. AI モデルを保存して有効化します。 モデルがライブになると、[&#x200B; トレーニングの状態とパフォーマンスを監視できます](ai-model-observability.md)。
 
 <!--
 At this point, you must have:
