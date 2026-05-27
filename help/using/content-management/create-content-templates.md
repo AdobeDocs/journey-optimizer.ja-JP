@@ -131,7 +131,7 @@ ht-degree: 100%
 
 1. 「**タグ**」フィールドから Adobe Experience Platform タグを選択または作成して、テンプレートを分類します。 [詳細情報](../start/search-filter-categorize.md#tags)
 
-1. テンプレートにカスタムまたはコアのデータ使用ラベルを割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。 [詳細情報](../administration/object-based-access.md)
+1. テンプレートにカスタムまたはコアのデータ使用ラベルを割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。 [学習を増やす](../administration/object-based-access.md)。
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 

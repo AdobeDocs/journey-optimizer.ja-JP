@@ -91,7 +91,7 @@ ht-degree: 100%
 
    * チャネル設定レベルで&#x200B;**メッセージのエクスポート**&#x200B;を有効にして、必要に応じて送信済みメールや SMS コンテンツをアーカイブします（アドオン機能）。 [詳細情報](../../configuration/message-export.md)
 
-1. **サブドメインをデリゲート**：Journey Optimizer で新規サブドメインを使用する場合、最初の手順としてそのサブドメインをデリゲートします。 [詳細情報](../../configuration/about-subdomain-delegation.md) 必要に応じて、サブドメインを CNAME からカスタムデリゲーションに移行できます。 [詳細情報](../../configuration/custom-subdomain-migration.md)
+1. **サブドメインをデリゲート**：Journey Optimizer で新規サブドメインを使用する場合、最初の手順としてそのサブドメインをデリゲートします。 [学習を増やす](../../configuration/about-subdomain-delegation.md)。 必要に応じて、サブドメインを CNAME からカスタムデリゲーションに移行できます。 [詳細情報](../../configuration/custom-subdomain-migration.md)
 
    ![](../assets/subdomain.png)
 
