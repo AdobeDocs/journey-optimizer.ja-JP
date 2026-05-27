@@ -12,8 +12,8 @@ badge: label="限定提供" type="Informative"
 exl-id: f74139cf-640f-4b7b-a0b1-6eae9c75e7e4
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
-source-wordcount: '1251'
-ht-degree: 18%
+source-wordcount: '1258'
+ht-degree: 20%
 
 ---
 
@@ -21,16 +21,16 @@ ht-degree: 18%
 
 >[!AVAILABILITY]
 >
->この機能は、限定提供で使用できます。アクセス権を取得するには、アドビ担当者にお問い合わせください。
+>この機能は、限定提供で使用できます。 アクセス権を取得するには、アドビ担当者にお問い合わせください。
 
-サブドメインが現在[CNAMEs](about-subdomain-delegation.md#cname-subdomain-setup)で設定されている場合は、**[!UICONTROL カスタム委任]** メソッドに移行して、会社のセキュリティポリシーを満たすことができます。 これにより、[!DNL Journey Optimizer]内のサブドメインと証明書に対する完全な所有権と制御が得られます。 [&#x200B; カスタムサブドメインについて詳しく見る](delegate-custom-subdomain.md)
+サブドメインが現在[CNAMEs](about-subdomain-delegation.md#cname-subdomain-setup)で設定されている場合は、**[!UICONTROL カスタム委任]** メソッドに移行して、会社のセキュリティポリシーを満たすことができます。 これにより、[!DNL Journey Optimizer]内のサブドメインと証明書に対する完全な所有権と制御が得られます。 [ カスタムサブドメインについて詳しく見る](delegate-custom-subdomain.md)
 
 このプロセスの一環として、次のことが必要です。
 
-* [既存のDNS レコード &#x200B;](#delete-dns)をホスティング ソリューションから削除する
+* [既存のDNS レコード ](#delete-dns)をホスティング ソリューションから削除する
 * [認証局から取得したSSL証明書](#upload-ssl-certificate)をアップロードします
-* ドメインの所有権と電子メールアドレスを確認して、[&#x200B; フィードバックループの手順](#feedback-loop)を完了します
-* [Adobeによって生成された新しいDNS レコードのセット &#x200B;](#create-dns-records)をホスティングプラットフォームに作成します
+* ドメインの所有権と電子メールアドレスを確認して、[ フィードバックループの手順](#feedback-loop)を完了します
+* [Adobeによって生成された新しいDNS レコードのセット ](#create-dns-records)をホスティングプラットフォームに作成します
 
 サブドメインを移行するには、次の手順に従います。
 
@@ -40,7 +40,7 @@ ht-degree: 18%
 
 >[!IMPORTANT]
 >
->[CNAME メソッド &#x200B;](delegate-subdomain.md#cname-subdomain-setup)で設定されたサブドメインのみを移行できます。
+>[CNAME メソッド ](delegate-subdomain.md#cname-subdomain-setup)で設定されたサブドメインのみを移行できます。
 
 * お客様の組織で&#x200B;**カスタム委任方法が有効になっていることを確認してください** （この機能は現在、使用制限があります。アクセス権を取得するには、Adobe担当者にお問い合わせください）。 [詳細情報](delegate-custom-subdomain.md)
 * アクティブなチャネル設定がこのサブドメインを使用していないことを確認します。 移行プロセスは機能を中断します。
@@ -99,13 +99,13 @@ ht-degree: 18%
 
 1. 「**[!UICONTROL CSR をダウンロード]**」をクリックして、フォームをローカルコンピュータに保存します。
 
-1. これを認証局（CA）に送信して、SSL 証明書を取得します。この CSR を署名のために CA に送信する前に、考慮すべき重要な点がいくつかあります。
+1. これを認証局（CA）に送信して、SSL 証明書を取得します。 この CSR を署名のために CA に送信する前に、考慮すべき重要な点がいくつかあります。
 
    * 手順 3 でダウンロードした CSR は、data.subdomain.com 専用です。
 
-   * ただし、証明書は、単一の証明書内のサブジェクト代替名（SAN）エントリとして、data.subdomain.com と cdn.subdomain.com の両方に対応している必要があります。例えば、example.adobe.com をデリゲートしている場合、data.subdomain.com は data.example.adobe.com に対応し、cdn.subdomain.com は cdn.example.adobe.com に対応します。
+   * ただし、証明書は、単一の証明書内のサブジェクト代替名（SAN）エントリとして、data.subdomain.com と cdn.subdomain.com の両方に対応している必要があります。 例えば、example.adobe.com をデリゲートしている場合、data.subdomain.com は data.example.adobe.com に対応し、cdn.subdomain.com は cdn.example.adobe.com に対応します。
 
-   * データ（data.example.adobe.com）とCDN （cdn.example.adobe.com）の両方のサブドメインを、同じ証明書のピアエントリとして追加する必要があります。 この証明書に追加のサブドメインを追加する必要はありません。
+   * データ（data.example.adobe.com）サブドメインと CDN（cdn.example.adobe.com）サブドメインの両方を、同じ証明書のピアエントリとして追加する必要があります。 この証明書に追加のサブドメインを追加する必要はありません。
 
    * ほとんどの CA では、署名プロセス中に SAN（CDN サブドメインなど）を追加できます
 
@@ -164,7 +164,7 @@ ht-degree: 18%
 
 ![](assets/subdomain-migrate-feedback-loop.png){width="75%"}
 
-このプロセスは、新しいカスタムサブドメインを設定する場合と同じです。 「[&#x200B; カスタムサブドメインの設定](delegate-custom-subdomain.md#feedback-loop-steps)」ページで説明されている手順に従います。
+このプロセスは、新しいカスタムサブドメインを設定する場合と同じです。 「[ カスタムサブドメインの設定](delegate-custom-subdomain.md#feedback-loop-steps)」ページで説明されている手順に従います。
 
 
 ## DNS レコードの新しいセットの作成 {#create-dns-records}
@@ -173,7 +173,7 @@ ht-degree: 18%
 
 1. フィードバックループの手順を完了したら、画面の右上にある「**[!UICONTROL 続行]**」ボタンをクリックします。
 
-   この手順では、以前のレコードが削除され、SSL証明書が正しくアップロードされたことが確認されます。 エラーが発生した場合は、[&#x200B; トラブルシューティング チェックリスト &#x200B;](#troubleshooting)を参照してください。
+   この手順では、以前のレコードが削除され、SSL証明書が正しくアップロードされたことが確認されます。 エラーが発生した場合は、[ トラブルシューティング チェックリスト ](#troubleshooting)を参照してください。
 
 1. すべての検証が成功すると、**[!UICONTROL 作成されるレコード]** セクションが表示されます。
 
@@ -195,12 +195,12 @@ ht-degree: 18%
 
 カスタムサブドメインの送信中にエラーが発生した場合は、以下にリストされているトラブルシューティングアクションを実行します。
 
-* _リソースを検証できませんでした。 DNSは引き続き存在し、削除する必要があります。_ — ホスティングソリューションからすべてのレコードを削除してください。 [詳細情報](#delete-dns)
+* _リソースを検証できませんでした。 DNSはまだ存在し、削除する必要があります。_  – 必ず、ホスティングソリューションからすべてのレコードを削除してください。 [詳細情報](#delete-dns)
 * _リソースを検証できませんでした。 SSL証明書をアップロードして、もう一度やり直してください。_ — SSL証明書がアップロードされませんでした。 必ずアップロードしてください。 [詳細情報](#upload-ssl-certificate)
-* _証明書のサブジェクト代替名（SAN）に予期しないドメインが含まれています。_ – 正しいSSL証明書をアップロードしてください。 [詳細情報](#upload-ssl-certificate)
-* _証明書のサブジェクト代替名（SAN）に、次の必須ドメインがありません。_ – 正しいSSL証明書をアップロードしてください。 [詳細情報](#upload-ssl-certificate)
+* _証明書のサブジェクト代替名（SAN）に予期しないドメインが含まれています。_  – 正しいSSL証明書をアップロードしてください。 [詳細情報](#upload-ssl-certificate)
+* _証明書のサブジェクト代替名（SAN）に、次の必須ドメインがありません。_  – 正しいSSL証明書をアップロードしてください。 [詳細情報](#upload-ssl-certificate)
 
-**関連トピック**
+**関連項目**
 
 * [カスタムサブドメインの設定](delegate-custom-subdomain.md)
 * [サブドメインのデリゲーション方法](about-subdomain-delegation.md#subdomain-delegation-methods)
