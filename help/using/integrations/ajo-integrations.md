@@ -44,7 +44,7 @@ Adobe Journey Optimizer を使用すると、このデータを簡単に管理�
 
 >[!NOTE]
 >
-> Adobe Experience Platform 上に構築された Adobe Journey Optimizer は、[Adobe リアルタイム顧客プロファイル](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target="_blank"}にネイティブに接続されています。 この組み込みのデータソースは事前に設定されており、リアルタイム顧客プロファイルからデータを取得して使用するように設計されています（例えば、ジャーニーにエントリしたユーザーがクライアントであるかどうかを確認します）。 これにより、プロファイルデータを使用できます。 [詳細情報](../datasource/adobe-experience-platform-data-source.md)
+> Adobe Experience Platform 上に構築された Adobe Journey Optimizer は、[Adobe リアルタイム顧客プロファイル](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target="_blank"}にネイティブに接続されています。 この組み込みのデータソースは事前に設定されており、リアルタイム顧客プロファイルからデータを取得して使用するように設計されています（例えば、ジャーニーにエントリしたユーザーがクライアントであるかどうかを確認します）。 これにより、プロファイルデータを使用できます。 [学習を増やす](../datasource/adobe-experience-platform-data-source.md)。
 
 
 ## Adobe Customer Journey Analytics {#integration-cja}

@@ -136,7 +136,7 @@ Adobe Journey Optimizer ワークフローの既存の&#x200B;**アセットセ�
     Note that this option is available for licensed/unlicensed Stock images and images from your Assets folder. 
 
     ![](assets/media_library_14.png)
--->
+   -->
 
 
 ## よくある質問 {#faq-assets}

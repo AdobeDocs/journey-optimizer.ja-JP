@@ -55,7 +55,7 @@ Adobe Experience Manager as a Cloud Service の Dynamic Media を Journey Optimi
 
 >[!IMPORTANT]
 >
->OpenAPI 搭載 Dynamic Media が Adobe Experience Manager as a Cloud Service で有効になっていることを確認します。 [詳細情報](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview#enable-dynamic-media-open-apis){target="_blank"}
+>OpenAPI 搭載 Dynamic Media が Adobe Experience Manager as a Cloud Service で有効になっていることを確認します。 [学習を増やす](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview#enable-dynamic-media-open-apis){target="_blank"}。
 
 Dynamic Media と Adobe Journey Optimizer の統合は、Dynamic Media [Scene7 モード](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"}と [OpenAPI 搭載](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}の両方で使用できます。
 
