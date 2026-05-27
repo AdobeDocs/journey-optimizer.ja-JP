@@ -26,10 +26,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 1ed76bda056ea59a11a6133e83934bfc47ccb4e9
 workflow-type: tm+mt
-source-wordcount: 986
-ht-degree: 86%
+source-wordcount: 1036
+ht-degree: 81%
 
 ---
 
@@ -115,6 +115,8 @@ WhatsApp メッセージでは、次のcall-to-action オプションを使用�
 
 1. 「**[!UICONTROL アクションのトラッキング]**」セクションで、WhatsApp メッセージ内のリンクのクリック数を追跡するかどうかを指定します。
 
+   Journey Optimizerは、サポートされているWhatsApp テンプレートボタン、**クイック返信**、**Call to action - URL**、**Call to action - phone**&#x200B;でのインタラクションも、他のチャネルレポートと並行して追跡します。 **コピーコード** ボタンはサポートされておらず、そのインタラクションは追跡されません。
+
 1. キャンペーンは、特定の日付に実行するか、繰り返し頻度で実行するように設計されています。 キャンペーンの&#x200B;**[!UICONTROL スケジュール]**&#x200B;を設定する方法については、[この節](../campaigns/create-campaign.md#schedule)を参照してください。
 
 1. **[!UICONTROL アクショントリガー]**&#x200B;メニューから、WhatsApp メッセージの「**[!UICONTROL 頻度]**」を選択します。
@@ -172,7 +174,7 @@ WhatsApp テンプレートは、Journey Optimizer で使用する前に、ま�
 
 1. 「**[!UICONTROL コンテンツをシミュレート]**」ボタンを使用して、WhatsApp メッセージコンテンツ、短縮 URL、パーソナライズされたコンテンツをプレビューします。 [詳細情報](send-whatsapp.md)
 
-テストを実行してコンテンツを検証したら、オーディエンスに [WhatsApp メッセージを送信](send-whatsapp.md)し、[レポート](../reports/campaign-global-report-cja.md)を通じてパフォーマンスを監視できます。
+テストを実行してコンテンツを検証したら、オーディエンスに [WhatsApp メッセージを送信](send-whatsapp.md)し、[レポート](../reports/campaign-global-report-cja.md)を通じてパフォーマンスを監視できます。 Experience Platformに保存されているWhatsApp インタラクションデータについては、[WhatsApp インタラクションの分析](send-whatsapp.md#whatsapp-channel-context)を参照してください。
 
 <!--
 * **[!UICONTROL Template message]**: Predefined message imported from Meta into Journey Optimizer. These are intended for sending notifications, alerts, or updates to your customers.

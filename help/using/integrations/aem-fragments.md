@@ -26,10 +26,10 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f816ee04639846ffd18c3d6723f4616ada24892d
+source-git-commit: 00834e22246c16b199b66449f45235e0e785a1ac
 workflow-type: tm+mt
-source-wordcount: 1722
-ht-degree: 29%
+source-wordcount: 1696
+ht-degree: 30%
 
 ---
 
@@ -40,10 +40,6 @@ ht-degree: 29%
 Adobe Journey Optimizer ワークフローの既存の&#x200B;**アセットセレクター**&#x200B;および&#x200B;**コンテンツフラグメントセレクター**&#x200B;のエクスペリエンスは、**コンテンツアドバイザー**&#x200B;に置き換えられています。 Content Advisorは、AJOのオーサリングワークフロー内で、Assets、コンテンツフラグメント、Dynamic Mediaを直接検索して選択するための、AIを活用した統合インターフェイスを提供します。 既存の統合は、移行期間中も引き続き機能します。
 
 >[!ENDSHADEBOX]
-
->[!AVAILABILITY]
->
->この統合は、**コンテンツフラグメント**&#x200B;に対してのみ、**Adobe Experience Manager as a Cloud Service Sites**&#x200B;に適用されます。 Journey Optimizerは、**パブリッシュ**&#x200B;層からフラグメントを読み取ります（オーサーではありません）。
 
 Adobe Experience ManagerとJourney Optimizerの連携は、次のデータフローに従います。
 

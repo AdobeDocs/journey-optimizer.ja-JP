@@ -23,10 +23,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 1ed76bda056ea59a11a6133e83934bfc47ccb4e9
 workflow-type: tm+mt
-source-wordcount: 242
-ht-degree: 100%
+source-wordcount: 420
+ht-degree: 58%
 
 ---
 
@@ -55,3 +55,28 @@ ht-degree: 100%
 > キャンペーンが承認ポリシーの対象となっている場合、テキストメッセージを送信できるようにするには、承認をリクエストする必要があります。 [詳細情報](../test-approve/gs-approval.md)
 
 WhatsApp メッセージの準備が整ったら、[ジャーニー](../building-journeys/publish-journey.md)または[キャンペーン](../campaigns/review-activate-campaign.md)の設定を完了して送信します。
+
+## WhatsApp インタラクションの分析 {#whatsapp-channel-context}
+
+Journey Optimizerは、WhatsApp チャネルから返された追加のインタラクションデータを取得し、`whatsAppChannelContext` フィールドグループの&#x200B;**レポート – メールトラッキングエクスペリエンスイベントデータセット**&#x200B;に保存します。 これらのフィールドを使用して、[&#x200B; オーディエンス &#x200B;](../audience/about-audiences.md)を作成し、[&#x200B; クエリ &#x200B;](../data/get-started-queries.md)を実行し、WhatsApp エンゲージメントを分析します。 [&#x200B; システムデータセットの詳細](../data/get-started-datasets.md#system-datasets)。
+
+次のフィールドがキャプチャされます。
+
+| フィールド | 説明 |
+|-|-|
+| `messageType` | WhatsApp メッセージの種類（例：`templateBased`、`response`）。 |
+| `inboundMessage` | インバウンド返信コンテンツ （例：`stop`、`start`、`subscribe`） |
+| `inboundNumber` | インバウンドメッセージを受信した送信者ID。 |
+| `channelType` | チャネルカテゴリ （`Utility`、`Marketing`または`Promotional`）。 |
+| `profileNumber` | インバウンドメッセージを受信した電話番号。 |
+| `origTimestamp` | Meta / WhatsAppの元のタイムスタンプ。 |
+| `status` | 標準化されたプロバイダーのフィードバック （`sent`、`delivered`、`bounce`、`error`、`delay`、`duplicate`、`denylist`、`exclude`または`unknown`）と生のプロバイダーのステータスメッセージを含む配信ステータス。 |
+| `reactionEvent` | ユーザー応答のコンテンツ：反応の絵文字、または特定のメッセージへの返信のメッセージテキスト。 |
+| `reactionMessageID` | 応答する元のメッセージのID。 |
+| `reactionActionName` | 応答アクションの種類（`react`、`unreact`または`reply`）。 |
+| `interactiveSelectedTitle` | WhatsApp インタラクティブメッセージからユーザーが選択したタイトル。 |
+| `interactiveType` | インタラクティブ メッセージの種類（`list reply`、`button reply`または`button`）。 |
+| `interactiveSelectedDescription` | 選択したWhatsApp インタラクティブオプションの説明。 |
+| `interactiveSelectedID` | WhatsAppから選択したオプションのID。 |
+
+このデータセットをクエリするには、クエリサービスの`ajo_email_tracking_experience_event_dataset` テーブルを使用します。 クエリパターンと関連するユースケースについては、[&#x200B; データセットのクエリ例](../data/datasets-query-examples.md)を参照してください。
