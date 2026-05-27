@@ -26,10 +26,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 59d843037ed63ac2d474f29125eba4f0cef5c61b
 workflow-type: tm+mt
-source-wordcount: 1503
-ht-degree: 94%
+source-wordcount: 1627
+ht-degree: 87%
 
 ---
 
@@ -163,6 +163,17 @@ HTML コンポーネントの場合、特定の要素のみを編集可能なフ
    ![](assets/fragment-expression-use.png)
 
 ## カスタマイズ可能なフラグメントへのリッチテキストの追加 {#rich-text}
+
+>[!CONTEXTUALHELP]
+>id="ajo_editable_fragment_compatibility"
+>title="レガシーフラグメント"
+>abstract="このフラグメントの編集可能なフィールドは、テキストのみのモードです。 変換しない限り、このフラグメントをメールで編集する際には、プレーンテキストのみを入力できます。太字、斜体、ハイパーリンク、改行などのリッチテキストはサポートされていません。 コンポーネントの<b>Convert</b>をクリックして、HTML互換モードにアップグレードします。"
+
+>[!CONTEXTUALHELP]
+>id="ac_editable_fragment_compatibility"
+>title="レガシーフラグメント"
+>abstract="このカスタマイズ可能なフラグメントの編集可能なフィールドは、テキストのみです。 リッチテキスト形式（太字、斜体、ハイパーリンク、改行など） フラグメント作成者がフラグメントエディターの「<b>変換</b>」ボタンを使用してフラグメントをHTML互換モードにアップグレードするまで、メールDesignerでは利用できません。"
+>additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="フラグメントの編集可能フィールドをカスタマイズする"
 
 HTML コンポーネントを使用すると、改行、太字、斜体などのリッチテキストを、カスタマイズ可能なフラグメントに追加できます。 これを行うには、以下の手順に従います。
 <!--

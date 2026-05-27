@@ -8,7 +8,7 @@ topic: Content Management
 role: User, Developer
 level: Intermediate
 keywords: ディープリンク、ディープリンク、ユニバーサルリンク、アプリリンク、電子メール、sms
-source-git-commit: a3b48494fe64842121c5c3711cdd7117b30747a4
+source-git-commit: 30eecc21809cf818ae7530187782b370240830e7
 workflow-type: tm+mt
 source-wordcount: '1327'
 ht-degree: 1%
@@ -48,11 +48,14 @@ ht-degree: 1%
   <a class="arc-link" data-nl-type="DEEPLINK" href="<<deeplink_url>>" id="acr-link-7821368" style="text-decoration:underline;" target="_blank" data-tracking-type="DEEPLINK">Click Here</a>
   ```
 
-  `<<deeplink_url>>`を実際のディープリンク URLに置き換え、各ブロックに一意の`id`を使用して競合を回避します。
+  >[!TIP]
+  >
+  >`<<deeplink_url>>`を実際のディープリンク URLに置き換え、各ブロックに一意の`id`を使用して競合を回避します。
+
 
 ### SMS {#authoring-sms}
 
-SMSの場合、ディープリンクは、パーソナライゼーションエディターの&#x200B;**Url** ヘルパー関数を使用して作成されます。 SMS コンテンツへのリンクの追加について詳しくは、[この節](../mobile/design-mobile.md#sms-content)を参照してください。
+SMSの場合、ディープリンクは、パーソナライゼーションエディターの[Url](../personalization/functions/helpers.md#url) ヘルパー関数を使用して作成されます。 SMS コンテンツにリンクを追加する方法については、[このセクション &#x200B;](../mobile/design-mobile.md#sms-content)を参照してください。
 
 SMS コンテンツにディープリンクを挿入するには、次の構文を使用します。
 
@@ -60,7 +63,9 @@ SMS コンテンツにディープリンクを挿入するには、次の構文�
 {{url originalUrl='<<url>>' type='DEEPLINK' action='CLICK'}}
 ```
 
-`<<url>>`を実際のディープリンク URLに置き換えます。
+>[!TIP]
+>
+>`<<url>>`を実際のディープリンク URLに置き換えます。
 
 ## Journey Optimizerの設定 {#configuration}
 
@@ -72,7 +77,7 @@ SMS コンテンツにディープリンクを挿入するには、次の構文�
 
 1. Journey Optimizerで、ディープリンクが有効になっているサブドメインをデリゲートします。 [詳細情報](../configuration/delegate-subdomain.md)
 
-1. IOSのAASA ファイルとAndroidのassetLinks.json ファイルをサブドメインにホストします。 詳しくは、[Adobe カスタマーケア &#x200B;](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html){target="_blank"}またはAdobe担当者にお問い合わせください。
+1. IOSのAASA ファイルとAndroidのassetLinks.json ファイルをサブドメインにホストします。 詳しくは、[Adobe カスタマーケア &#x200B;](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}またはAdobe担当者にお問い合わせください。
 
    * **iOS （AASA）**&#x200B;の場合：
       * 委任されたサブドメイン
@@ -338,3 +343,4 @@ URL エンコードクエリパラメーター値。 これにより、配信と
 リンクは、このページで説明されている`mclick` フローを介してアプリのディープリンクとして処理されるのではなく、デバイスのデフォルトのweb ブラウザー（標準のクリック追跡動作）で開きます。
 
 +++
+
