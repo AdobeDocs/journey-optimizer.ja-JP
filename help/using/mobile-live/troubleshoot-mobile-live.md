@@ -37,7 +37,7 @@ Adobe Journey Optimizerのライブアクティビティにより、iOSのロッ
 * プッシュトークン登録
 * ライブアクティビティライフサイクルイベント
 
-Assuranceの設定方法については、[Adobe Experience Platform Assurance ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance)を参照してください。
+Assuranceの設定方法については、[Adobe Experience Platform Assurance ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance)を参照してください。
 
 **メモ**: iOS Live アクティビティの場合、アプリが物理的なiOS デバイス（iOS 16.1以降）またはXcode Simulator （iOS 16.1以降）で動作していることを確認します。
 
