@@ -73,7 +73,7 @@ ht-degree: 99%
 <p>特定のデータセットに基づいて、ニーズに合わせてカスタマイズされたカスタムフォームを作成、デザイン、管理します。 その後、ランディングページでこれらのフォームを活用して、各フォームに定義されたデータセットに選択したプロファイル属性を追加できます。</p>
 <p>この機能は現在、米国およびオーストラリアのお客様を対象に限定提供されています。 アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
 <p><img src="assets/do-not-localize/forms.gif"/></p>
-<p>詳しくは、 <a href="../landing-pages/lp-forms.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../landing-pages/lp-forms.md">詳細ドキュメント</a>を参照してください。</p>
 <p>公開日：2025年10月23日（PT）</p>
 </td>
 </tr>
@@ -316,7 +316,7 @@ table>
 </ul>
 <p>この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。</p>
 <p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
-<p>詳しくは、 <a href="../email/pdf-attachments.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../email/pdf-attachments.md">詳細ドキュメント</a>を参照してください。</p>
 <p>公開日：2025年9月30日（PT）</p>
 </td>
 </tr>
@@ -975,7 +975,7 @@ Adobe Journey Optimizer では、人物ベースのプロファイルにリン�
 <p>独自のブランドを作成およびカスタマイズして、コミュニケーション全体で視覚的および言語的なアイデンティティを明確に定義できるようになりました。 ブランドのアラインメントスコアを使用すると、コンテンツがブランドのトーン、スタイル、ガイドラインをどの程度反映しているかに関するリアルタイムのフィードバックを受け取ることができ、送信するすべてのメッセージで一貫してブランドらしさを確保するのに役立ちます。</p>
 <p>この機能は、以前はベータ版でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。</p>
 <p><img src="assets/do-not-localize/brand-score.gif"/></p>
-<p>詳しくは、 <a href="../content-management/brands.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../content-management/brands.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -1997,7 +1997,7 @@ table>
 <td>
 <p>以前は一連の組織（LA）に対して提供されていましたが、柔軟なオーディエンス評価はすべてのユーザー（GA）対して提供されるようになりました。 この機能を使用すると、選択したオーディエンスに対してオンデマンドでセグメント化ジョブを実行できるので、Journey Optimizer のジャーニーやキャンペーンにオーディエンスをターゲティングする前に、常に最新のオーディエンスデータを確保できます。</p>
 <img src="assets/do-not-localize/flexible-audience.gif">
-<p>詳しくは、 <a href="../audience/creating-a-segment-definition.md#flexible">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../audience/creating-a-segment-definition.md#flexible">詳細ドキュメント</a>を参照してください。</p>
 </tr>
 </tbody>
 </table>
@@ -2207,4 +2207,4 @@ You can now choose to have your emails relayed to your SMTP servers instead of b
 
   ![](../email/assets/surface-list-unsubscribe-custom.png){width="80%"}
 
-* **決定**（公開日：2025年1月28日（PT））- 決定では、項目カタログのスキーマを編集する際に、オブジェクトデータタイプがサポートされるようになりました。 [詳細情報](../experience-decisioning/catalogs.md)
+* **決定**（公開日：2025年1月28日（PT））- 決定では、項目カタログのスキーマを編集する際に、オブジェクトデータタイプがサポートされるようになりました。 [詳細を表示](../experience-decisioning/catalogs.md)

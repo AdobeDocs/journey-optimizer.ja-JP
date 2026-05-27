@@ -55,7 +55,7 @@ ht-degree: 99%
 <td>
 <p>SMS チャネルを使用すると、マルチメディアメッセージサービス（MMS）メッセージを送信して通信を強化し、画像、GIF またはビデオを顧客と共有できます。 この機能は現在、Sinch でのみ使用可能です。</p>
 <img src="assets/do-not-localize/mms.gif"/>
-<p>詳しくは、 <a href="../mobile/create-mobile-message.md#mms-content">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../mobile/create-mobile-message.md#mms-content">詳細ドキュメント</a>を参照してください。</p>
 </tr>
 </tbody>
 </table>
@@ -272,7 +272,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <td>
 <p>Journey Optimizer でシードリストを作成および管理できるようになりました。 シードリストに含む内部アドレスは、配信の実行時に実際のオーディエンスに追加でき、対象プロファイルとまったく同じメッセージを受け取ることができます。 この機能を使用して、送信したやりとりを監視し、すべての表示形式、URL、画像、リンクが正しいことを確認します。</p>
 <img src="../configuration/assets/seed-list-details.png">
-<p>詳しくは、 <a href="../configuration/seed-lists.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../configuration/seed-lists.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -317,8 +317,8 @@ A new option is available in the email surface settings to include email address
 
 **ジャーニー**
 
-* カスタムアクションで API 呼び出し応答を活用し、これらの応答に基づいてジャーニーを調整できるようになりました。 この機能は現在、ベータ版として使用可能です。 [詳細情報](../action/action-response.md)
-* 新しいタイプのシステムアラートが導入されました。 カスタムアクションが失敗した場合に通知を受信できるようになりました。 [詳細情報](../reports/alerts.md)
+* カスタムアクションで API 呼び出し応答を活用し、これらの応答に基づいてジャーニーを調整できるようになりました。 この機能は現在、ベータ版として使用可能です。 [学習を増やす](../action/action-response.md)。
+* 新しいタイプのシステムアラートが導入されました。 カスタムアクションが失敗した場合に通知を受信できるようになりました。 [詳細情報](../reports/alerts.md)。
   <!--* When duplicating a journey, you can now define the name of the journey copy.-->
 
 
@@ -443,7 +443,7 @@ A new option is available in the email surface settings to include email address
 
 **API**
 
-Adobe Journey Optimizer API 認証用のアクセストークンを生成する JWT メソッドは非推奨（廃止予定）となりました。 すべての新しい統合は、OAuth サーバー間認証方法を使用して作成する必要があります。 また、アドビでは、既存の統合を OAuth 方法に移行することをお勧めします。 [詳細情報](https://developer.adobe.com/journey-optimizer-apis/references/authentication){target="_blank"}
+Adobe Journey Optimizer API 認証用のアクセストークンを生成する JWT メソッドは非推奨（廃止予定）となりました。 すべての新しい統合は、OAuth サーバー間認証方法を使用して作成する必要があります。 また、アドビでは、既存の統合を OAuth 方法に移行することをお勧めします。 [学習を増やす](https://developer.adobe.com/journey-optimizer-apis/references/authentication){target="_blank"}。
 
 
 **その他の変更**
@@ -595,7 +595,7 @@ Enhancements have been made to the audience picker in journeys or campaigns, wit
 <td>
 <p>パーソナライズされた最適化 AI ランキングモデルが意思決定管理で一般公開されました。 この新しいタイプのモデルを使用すると、オーディエンスとオファーのパフォーマンスに応じて、オファーを最適化およびパーソナライズできます。</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
-<p>詳しくは、 <a href="../offers/ranking/personalized-optimization-model.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../offers/ranking/personalized-optimization-model.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -714,7 +714,7 @@ Information below is subject to change without prior notice until the release av
 <li>「<strong>参照</strong>」タブを使用して、すべてのジャーニーのリストにアクセスします。</li></ul>
 <p>この機能には、パブリックベータ版としてすべてのジャーニーでアクセスできます。</p>
 <img src="assets/do-not-localize/journey-dashboard.gif"/>
-<p>詳しくは、 <a href="../building-journeys/journey-gs.md#journey-access">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../building-journeys/journey-gs.md#journey-access">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -871,7 +871,7 @@ Information below is subject to change without prior notice until the release av
 <p>データセットの内容をエクスポートするために、クラウドストレージの場所とのライブ接続を確立できるようになりました。 使用可能な宛先は次のとおりです。Amazon S3 Cloud Storage、Azure Blob、Azure Data Lake Gen 2、Data Landing Zone、Google Cloud Storage、SFTP。</p>
 <p><strong>注意</strong> - この機能は現在ベータ版です。すべての Adobe Journey Optimizer ユーザーがご利用いただけます。 アクセス権がない場合は、アドビ担当者に相談して、宛先へのアクセス権を取得してください。</p>
 <img src="assets/do-not-localize/gif-destinations.gif"/>
-<p>詳しくは、 <a href="../data/export-datasets.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../data/export-datasets.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
