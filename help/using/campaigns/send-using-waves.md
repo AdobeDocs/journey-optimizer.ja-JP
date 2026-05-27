@@ -11,7 +11,7 @@ keywords: ウェーブ、バッチ、スケジュール、キャンペーン、�
 exl-id: 6d53d817-78f6-4d00-8ff0-8a848c618435
 source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '786'
 ht-degree: 2%
 
 ---
@@ -39,7 +39,7 @@ Journey Optimizerでは、ウェーブの数、サイズ（オーディエンス
 
 キャンペーンでウェーブを送信する方法とタイミングを設定するには、次の手順に従います。
 
-1. アウトバウンドアクション（電子メール、SMS、プッシュなど）を含む[&#x200B; アクションキャンペーン &#x200B;](create-campaign.md)を作成または開きます。
+1. アウトバウンドアクション（電子メール、SMS、プッシュなど）を含む[ アクションキャンペーン ](create-campaign.md)を作成または開きます。
 
 1. キャンペーンの「**[!UICONTROL スケジュール]**」タブで、「**[!UICONTROL キャンペーンアクションをウェーブで配信]**」を選択します。
 
@@ -126,5 +126,5 @@ Wave送信は、送信するメッセージの数とタイミングを制御す�
 
 ## 次の手順 {#next}
 
-* [&#x200B; アクションキャンペーンのスケジュール &#x200B;](campaign-schedule.md) – 開始日、終了日、頻度、レート制御を設定します。
-* [&#x200B; キャンペーンをレビューしてアクティブ化](review-activate-campaign.md) – キャンペーンを確認し、公開します。
+* [ アクションキャンペーンのスケジュール ](campaign-schedule.md) – 開始日、終了日、頻度、レート制御を設定します。
+* [ キャンペーンをレビューしてアクティブ化](review-activate-campaign.md) – キャンペーンを確認し、公開します。
