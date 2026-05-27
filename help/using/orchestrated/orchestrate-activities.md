@@ -6,8 +6,12 @@ description: Adobe Journey Optimizer を使用して調整されたキャンペ�
 exl-id: d1d64125-cf00-49c2-a71d-1494ede16f61
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/tQGWupMvnX9-uFruIQg1dMuXd9PZNxPDYg6RlGdK3hA
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
 source-git-commit: ede238f1b1acd119cc201639488dd12fbcd518cf
 workflow-type: tm+mt
 source-wordcount: 937
@@ -107,7 +111,7 @@ ht-degree: 94%
 * **[!UICONTROL 結合]**&#x200B;アクティビティは、50 未満のロイヤルティポイントを持つ顧客を除外します。
 * **[!UICONTROL メール配信]**&#x200B;アクティビティは、結果の顧客にメールを送信します。
 
-ブランチの末尾に到達したら、**[!UICONTROL End]** アクティビティを追加して、キャンバスの完了をマークできます。 また、**[!UICONTROL End]** アクティビティを設定して、シグナルによってトリガーされる&#x200B;**[!UICONTROL 別のオーケストレーションされたキャンペーンにシグナルを送信し、ペイロードにパラメーターを渡すこともできます。]**[学習を増やす](trigger-orchestrated-campaign.md#signal-end)。
+ブランチの末尾に到達したら、**[!UICONTROL End]** アクティビティを追加して、キャンバスの完了をマークできます。 また、**[!UICONTROL End]** アクティビティを設定して、シグナルによってトリガーされる&#x200B;**[!UICONTROL 別のオーケストレーションされたキャンペーンにシグナルを送信し、ペイロードにパラメーターを渡すこともできます。]**&#x200B;[学習を増やす](trigger-orchestrated-campaign.md#signal-end)。
 
 ## 次の手順 {#next}
 
