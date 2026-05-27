@@ -24,7 +24,7 @@ ht-degree: 1%
 
 * Journey Optimizerの[設定手順](#configuration)
 
-* モバイルアプリでのiOSとAndroidの[ モバイルアプリの実装](#mobile-implementation)手順。
+* モバイルアプリでのiOSとAndroidの[&#x200B; モバイルアプリの実装](#mobile-implementation)手順。
 
 >[!NOTE]
 >
@@ -34,13 +34,13 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->このページの[設定](#configuration)および[ モバイルアプリ実装](#mobile-implementation)の手順を完了しない限り、ディープリンクは機能しません。
+>このページの[設定](#configuration)および[&#x200B; モバイルアプリ実装](#mobile-implementation)の手順を完了しない限り、ディープリンクは機能しません。
 
 ### メール {#authoring-email}
 
 メールメッセージの場合、ディープリンクを挿入するには、次の2つのオプションがあります。
 
-* **メール Designer**: [ リンク トラッキングが有効になっていることを確認してください](message-tracking.md#enable-tracking)。 リンクする要素（テキスト、ボタン、画像）を選択し、コンテキストツールバーの「**[!UICONTROL リンクを挿入]**」をクリックし、**[!UICONTROL ディープリンク]**」を選択してディープリンク URLを入力します。 [ リンクの挿入の詳細](message-tracking.md#insert-links)
+* **メール Designer**: [&#x200B; リンク トラッキングが有効になっていることを確認してください](message-tracking.md#enable-tracking)。 リンクする要素（テキスト、ボタン、画像）を選択し、コンテキストツールバーの「**[!UICONTROL リンクを挿入]**」をクリックし、**[!UICONTROL ディープリンク]**」を選択してディープリンク URLを入力します。 [&#x200B; リンクの挿入の詳細](message-tracking.md#insert-links)
 
 * **Personalization エディター（コード）**：次のスニペットを使用して、ディープリンクをHTMLに直接挿入します。
 
@@ -55,7 +55,7 @@ ht-degree: 1%
 
 ### SMS {#authoring-sms}
 
-SMSの場合、ディープリンクは、パーソナライゼーションエディターの[Url](../personalization/functions/helpers.md#url) ヘルパー関数を使用して作成されます。 SMS コンテンツにリンクを追加する方法については、[このセクション ](../mobile/design-mobile.md#sms-content)を参照してください。
+SMSの場合、ディープリンクは、パーソナライゼーションエディターの[Url](../personalization/functions/helpers.md#url) ヘルパー関数を使用して作成されます。 SMS コンテンツにリンクを追加する方法については、[このセクション &#x200B;](../mobile/design-mobile.md#sms-content)を参照してください。
 
 SMS コンテンツにディープリンクを挿入するには、次の構文を使用します。
 
@@ -77,7 +77,7 @@ SMS コンテンツにディープリンクを挿入するには、次の構文�
 
 1. Journey Optimizerで、ディープリンクが有効になっているサブドメインをデリゲートします。 [詳細情報](../configuration/delegate-subdomain.md)
 
-1. IOSのAASA ファイルとAndroidのassetLinks.json ファイルをサブドメインにホストします。 詳しくは、[Adobe カスタマーケア ](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}またはAdobe担当者にお問い合わせください。
+1. IOSのAASA ファイルとAndroidのassetLinks.json ファイルをサブドメインにホストします。 詳しくは、[Adobe カスタマーケア &#x200B;](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}またはAdobe担当者にお問い合わせください。
 
    * **iOS （AASA）**&#x200B;の場合：
       * 委任されたサブドメイン
@@ -89,7 +89,7 @@ SMS コンテンツにディープリンクを挿入するには、次の構文�
 
 >[!IMPORTANT]
 >
->Adobe インフラストラクチャを介したディープリンクは、メッセージに対してリンクトラッキングが有効になっている場合（[ メールトラッキング設定](message-tracking.md#enable-tracking)または&#x200B;**[!UICONTROL アクションのトラッキング]**）のSMS キャンペーンのセクション）に適用されます。 トラッキングされたディープリンクのクリックは、Adobeがホストし解決する`/ee/v1/mclick/*`の下のURLを使用します。
+>Adobe インフラストラクチャを介したディープリンクは、メッセージに対してリンクトラッキングが有効になっている場合（[&#x200B; メールトラッキング設定](message-tracking.md#enable-tracking)または&#x200B;**[!UICONTROL アクションのトラッキング]**）のSMS キャンペーンのセクション）に適用されます。 トラッキングされたディープリンクのクリックは、Adobeがホストし解決する`/ee/v1/mclick/*`の下のURLを使用します。
 >
 >トラッキングされていない&#x200B;**リンク**&#x200B;の場合、URLはAdobe システムで書き換えられません。 独自のドメインとホスティングでユニバーサルリンクまたはアプリリンクを設定し、それらのリンクが意図したとおりにアプリを開くように設定する必要があります。
 
@@ -100,7 +100,7 @@ SMS コンテンツにディープリンクを挿入するには、次の構文�
 * アプリがインストールされたときに、モバイルアプリ内の特定の画面を開く、または
 * アプリがインストールされていない場合は、Web サイトをフォールバックとして開きます。
 
-メッセージでリンクトラッキングが有効になっている場合、[!DNL Journey Optimizer]はこれらのクリックを引き続き追跡し、レポートに含め、メッセージで実行する場合は[ コンテンツ実験](../content-management/content-experiment.md)でそれらを使用できます。
+メッセージでリンクトラッキングが有効になっている場合、[!DNL Journey Optimizer]はこれらのクリックを引き続き追跡し、レポートに含め、メッセージで実行する場合は[&#x200B; コンテンツ実験](../content-management/content-experiment.md)でそれらを使用できます。
 
 このセクションでは、ディープリンクの一般的な実装パターンを提供します。 正確な設定は、アプリアーキテクチャとルーティングフレームワークによって異なります。
 
