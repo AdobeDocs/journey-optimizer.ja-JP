@@ -505,7 +505,7 @@ ht-degree: 97%
         <td><a href="operators.md#and">および</a></td><td>この演算子は論理積を作成します。</td>
     </tr>
     <tr>
-        <td><a href="operators.md#or">または</a></td><td>この演算子は論理和を作成します。</td>
+        <td><a href="operators.md#or">Or</a></td><td>この演算子は論理和を作成します。</td>
     </tr>
 </table>
 

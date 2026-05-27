@@ -40,19 +40,19 @@ ht-degree: 83%
 
 次のタイプのヘルパー関数を使用します。
 
-* `upperCase` 文字列関数：顧客の名を大文字で挿入します。 [詳細情報](functions/string.md#upper)。
-* `each` ヘルパー：買い物かごに入っている商品をリストします。 [詳細情報](functions/helpers.md#each)。
-* `if`ヘルパー：関連製品が買い物かごに入っている場合に製品固有のメモを挿入します。 [詳細情報](functions/helpers.md#if-function)。
+* `upperCase` 文字列関数：顧客の名を大文字で挿入します。 [学習を増やす](functions/string.md#upper)。
+* `each` ヘルパー：買い物かごに入っている商品をリストします。 [学習を増やす](functions/helpers.md#each)。
+* `if`ヘルパー：関連製品が買い物かごに入っている場合に製品固有のメモを挿入します。 [学習を増やす](functions/helpers.md#if-function)。
 <!-- **Context**: personalization based on contextual data from the journey -->
 
 ➡️ [ヘルパー関数の使用方法について詳しくは、このビデオを参照してください。](#video)
 
 開始する前に、次の要素の設定方法を理解しておく必要があります。
 
-* 単一のイベント。 [詳細情報](../event/about-events.md)。
-* イベントで開始されるジャーニー。 [詳細情報](../building-journeys/using-the-journey-designer.md)。
+* 単一のイベント。 [学習を増やす](../event/about-events.md)。
+* イベントで開始されるジャーニー。 [学習を増やす](../building-journeys/using-the-journey-designer.md)。
 * ジャーニーでのメールメッセージ。 [詳細情報](../email/create-email.md)
-* メールの本文。 [詳細情報](../email/content-from-scratch.md)。
+* メールの本文。 [学習を増やす](../email/content-from-scratch.md)。
 
 次の手順に従います。
 
