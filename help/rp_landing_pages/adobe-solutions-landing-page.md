@@ -2,19 +2,19 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: アドビソリューションを使用した送信
-description: カスタムアクションを使用してJourney Optimizer ジャーニーからAdobe Campaign Standard、Campaign v7/v8、Marketo Engageを通じてメッセージを送信する方法を説明します。
+description: カスタムアクションを使用して、Adobe Campaign Standard、Campaign v7/v8、Marketo Engageを通じてJourney Optimizer ジャーニーからメッセージを送信する方法を説明します。
 redpen-status: CREATED_||_2025-08-11_21-17-09
 exl-id: a8d34150-32f1-4c58-8728-ba73b7e90ec4
 source-git-commit: a0ea5aef7616520bbc2792ba33e85ff72724a28e
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 86%
+source-wordcount: '241'
+ht-degree: 87%
 
 ---
 
 # アドビソリューションを使用した送信{#section-overview}
 
-Adobe Journey Optimizer は、**Adobe Campaign Standard**、**Campaign v7／v8**、**Marketo Engage**（取得済みの場合）などの他のアドビソリューションを通じてメッセージを送信することもできます。これらの統合は、ビルトインメッセージの代替手段を提供し、高度な制御や特定のお客様データへのアクセス権を必要とするユースケースに適しています。Campaign Standard ではリアルタイムトリガーによるトランザクションメッセージをサポートし、Campaign v7／v8 では詳細なペイロード設定を行うことができ、Marketo Engage ではリッチなプロファイルデータを使用したターゲットアウトリーチが実現します。この節では、これらの統合を設定および使用し、クロスプラットフォームのデータ駆動型メッセージ戦略をサポートする方法について説明します。
+Adobe Journey Optimizer は、**Adobe Campaign Standard**、**Campaign v7／v8**、**Marketo Engage**（取得済みの場合）などの他のアドビソリューションを通じてメッセージを送信することもできます。 これらの統合は、ビルトインメッセージの代替手段を提供し、高度な制御や特定のお客様データへのアクセス権を必要とするユースケースに適しています。 Campaign Standard ではリアルタイムトリガーによるトランザクションメッセージをサポートし、Campaign v7／v8 では詳細なペイロード設定を行うことができ、Marketo Engage ではリッチなプロファイルデータを使用したターゲットアウトリーチが実現します。 この節では、これらの統合を設定および使用し、クロスプラットフォームのデータ駆動型メッセージ戦略をサポートする方法について説明します。
 
 ## アドビソリューションを使用した送信
 
@@ -36,7 +36,7 @@ Adobe Journey Optimizer と Adobe Campaign v7／v8 の統合
 
 Adobe Journey Optimizer を Adobe Campaign v7／v8 に接続して、メール、SMS、プッシュ通知を通じてトランザクションメッセージを送信する方法について説明します。
 
-[Campaign v7/v8 との統合](../using/action/acc-action.md)
+[Campaign v7/v8との統合](../using/action/acc-action.md)
 :::
 
 :::
