@@ -7,18 +7,18 @@ redpen-status: CREATED_||_2025-08-11_21-10-00
 exl-id: 4cd5f097-1c17-4cc5-90c4-bc540dc6acf4
 source-git-commit: 63669282e76672958f29f6d4a7be085cc7036ac4
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 77%
+source-wordcount: '343'
+ht-degree: 100%
 
 ---
 
 # チャネル設定{#section-overview}
 
-Adobe Journey Optimizerのチャネル設定を使用すれば、電子メールやSMS、プッシュ通知、webなどのさまざまなチャネルをまたいで、メッセージの配信方法を管理し、カスタマイズされた効果的なコミュニケーションを実現できます。
+Adobe Journey Optimizer のチャネル設定により、メール、SMS、プッシュ通知、web など、様々なチャネルにメッセージを配信する方法を管理し、カスタマイズされた効果的なコミュニケーションを実現できます。
 
-技術的なパラメーターの設定、サブドメインの設定、IP ウォームアッププランによるメール配信品質の最適化など、あらゆるステップは、メッセージのパフォーマンスとコンプライアンスの向上を目的として設計されています。
+技術的なパラメーターを設定する場合、サブドメインを設定する場合、IP ウォームアッププランを使用してメールの配信品質を最適化する場合、各手順はメッセージのパフォーマンスとコンプライアンスを強化するようにデザインされています。
 
-また、メールのレピュテーションを監視するツール、抑制リストを管理するツール、監査目的でメッセージをアーカイブするツールもあります。
+また、メールの評判を監視したり、抑制リストを管理したり、監査目的でメッセージをアーカイブしたりするツールもあります。
 
 次のトピックでさらに深く掘り下げ、これらの設定がどのように連携し、シームレスで効果的な顧客体験を作成するのに役立つかを確認します。
 
@@ -26,7 +26,7 @@ Adobe Journey Optimizerのチャネル設定を使用すれば、電子メール
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 チャネル設定の基本を学ぶ
 
@@ -36,7 +36,7 @@ Adobe Journey Optimizerのチャネル設定を使用すれば、電子メール
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 チャネル設定の指定と管理
 
@@ -46,7 +46,7 @@ Adobe Journey Optimizerのチャネル設定を使用すれば、電子メール
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 ガイド付きチャネル設定
 
@@ -56,7 +56,7 @@ Adobe Journey Optimizerのチャネル設定を使用すれば、電子メール
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 メールサブドメインのデリゲートと管理
 
@@ -66,7 +66,7 @@ Adobe Journey Optimizerのチャネル設定を使用すれば、電子メール
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 IP ウォームアッププランの実装
 
@@ -76,7 +76,7 @@ IP ウォームアッププランを作成および実行し、送信者の評�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 メールの配信品質と評判の監視
 

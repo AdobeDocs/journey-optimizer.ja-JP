@@ -7,20 +7,20 @@ redpen-status: CREATED_||_2025-08-12_00-41-19
 exl-id: df3c6e57-9f76-4ce4-ad0d-c1e3c16daa8f
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '348'
 ht-degree: 100%
 
 ---
 
 # クロスソリューションのユースケース{#section-overview}
 
-Adobe Journey Optimizer のクロスソリューションのユースケースでは、他の Adobe ツールとシームレスに統合し、今までなかったような方法でコンテンツを作成、管理およびパーソナライズできます。Adobe Stock から魅力的なビジュアルを入手したり、Adobe Express でアセットを編集したり、あるいは AI を活用してGenStudio で動的なキャンペーンを作成したりする際に、これらのツールを統合することで、ワークフローを合理化し、マーケティング活動を強化できます。コンテンツフラグメントを管理する Experience Manager やパーソナライズされたビジュアルを配信する Dynamic Media などの各ツールが戦略にどのように適合しているかを確認し、すべてのチャネルをまたいで効果的かつ一貫性のあるカスタマーエクスペリエンスを提供できるようにします。ソリューションを 1 つずつ試しながら、新たな可能性を解き放ちましょう。
+Adobe Journey Optimizer のクロスソリューションのユースケースでは、他の Adobe ツールとシームレスに統合し、今までなかったような方法でコンテンツを作成、管理およびパーソナライズできます。 Adobe Stock から魅力的なビジュアルを入手したり、Adobe Express でアセットを編集したり、あるいは AI を活用してGenStudio で動的なキャンペーンを作成したりする際に、これらのツールを統合することで、ワークフローを合理化し、マーケティング活動を強化できます。 コンテンツフラグメントを管理する Experience Manager やパーソナライズされたビジュアルを配信する Dynamic Media などの各ツールが戦略にどのように適合しているかを確認し、すべてのチャネルをまたいで効果的かつ一貫性のあるカスタマーエクスペリエンスを提供できるようにします。 ソリューションを 1 つずつ試しながら、新たな可能性を解き放ちましょう。
 
 ## クロスソリューションのユースケース
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Adobe ソリューションを組み合わせたコンテンツ管理
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer を Experience Manager、Stock、Express、GenStudio な
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 Adobe Experience Manager Assets の使用
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer で Adobe Experience Manager Assets からアセット�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/images.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/images.svg)
 
 Adobe Stock 画像の操作
 
@@ -50,7 +50,7 @@ Adobe Stock 画像の操作
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/pencil-ruler.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/pencil-ruler.svg)
 
 Adobe Express を使用したアセットの編集
 
@@ -60,7 +60,7 @@ Adobe Express を Adobe Journey Optimizer に統合して、アセットから�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 AEM コンテンツフラグメントの操作
 
@@ -70,7 +70,7 @@ AEM コンテンツフラグメントを Adobe Journey Optimizer と統合して
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Dynamic Media の操作
 

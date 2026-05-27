@@ -7,14 +7,14 @@ redpen-status: CREATED_||_2025-08-11_20-28-34
 exl-id: 630e252a-aab2-4a27-ad46-d4dbfbc3f3a4
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 36%
+source-wordcount: '292'
+ht-degree: 39%
 
 ---
 
 # メッセージとジャーニーのキャッピングルールの設定{#section-overview}
 
-キャッピングルールは、[競合管理と優先順位付け](../using/conflict-prioritization/gs-conflict-prioritization.md)の一部です。これにより、顧客は負担を感じることなく、適切な量のコミュニケーションを受け取ることができます。 ルールを適用する前に、[競合検出ツール &#x200B;](../using/conflict-prioritization/conflicts.md)を使用して、重複するジャーニーとキャンペーンを特定します。 複数のコミュニケーションが同じプロファイルに適格である場合、[優先スコア &#x200B;](../using/conflict-prioritization/priority-scores.md)は、どのメッセージが最初に配信されるかを判断します。
+キャッピングルールは、[競合管理と優先順位付け](../using/conflict-prioritization/gs-conflict-prioritization.md)の一部です。これにより、顧客は負担を感じることなく、適切な量のコミュニケーションを受け取ることができます。 ルールを適用する前に、[競合検出ツール ](../using/conflict-prioritization/conflicts.md)を使用して、重複するジャーニーとキャンペーンを特定します。 複数のコミュニケーションが同じプロファイルに適格である場合、[優先スコア ](../using/conflict-prioritization/priority-scores.md)は、どのメッセージが最初に配信されるかを判断します。
 
 メッセージの送信頻度（頻度の上限）、プロファイルが入力できるジャーニー数（ジャーニーの上限）、メッセージがブロックされる時間（サイレントアワー）に制限を設定できます。 ルールは&#x200B;**ルールセット**&#x200B;にグループ化され、キャンペーンまたはジャーニーに適用されます。 外部システムからのプログラム制御については、[Capping API](../using/configuration/capping.md)を参照してください。
 
@@ -22,7 +22,7 @@ ht-degree: 36%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 ルールセットの操作
 
@@ -32,7 +32,7 @@ Adobe Journey Optimizer で、メッセージの頻度とジャーニーエン�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 ジャーニーのキャップと判別
 
@@ -42,7 +42,7 @@ Adobe Journey Optimizer で、メッセージの頻度とジャーニーエン�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 チャネル別のフリークエンシーキャップ
 
@@ -52,7 +52,7 @@ Adobe Journey Optimizer で、メッセージの頻度とジャーニーエン�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 サイレントアワーを設定
 

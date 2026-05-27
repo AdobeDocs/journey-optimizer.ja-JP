@@ -7,20 +7,20 @@ redpen-status: CREATED_||_2025-08-11_20-32-57
 exl-id: c4269d5d-95fa-4b00-add5-42a26ab0de9f
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '193'
 ht-degree: 98%
 
 ---
 
 # スタイルの編集{#section-overview}
 
-Adobe Journey Optimizer の E メールデザイナーには、視覚的に魅力的でレスポンシブなメールを作成する強力なスタイル設定ツールが含まれています。レイアウトをカスタマイズしたり、整列や間隔を調整したり、背景をパーソナライズしたり、個々のコンテンツブロックの外観を微調整したりできます。これらの機能により、デザインを正確に制御できるので、ブランドを反映し、オーディエンスの共感を得られる、洗練されたメールを作成できます。
+Adobe Journey Optimizer の E メールデザイナーには、視覚的に魅力的でレスポンシブなメールを作成する強力なスタイル設定ツールが含まれています。 レイアウトをカスタマイズしたり、整列や間隔を調整したり、背景をパーソナライズしたり、個々のコンテンツブロックの外観を微調整したりできます。 これらの機能により、デザインを正確に制御できるので、ブランドを反映し、オーディエンスの共感を得られる、洗練されたメールを作成できます。
 
 ## スタイル機能の編集
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 メールスタイルのカスタマイズ
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer を使用して、メールの本文、構造、コン�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 メールの背景のパーソナライズ
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer の E メールデザイナーで、メール構造の�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 垂直方向の整列とパディングの調整
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer の E メールデザイナーで、メール構造の�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 インラインスタイル属性の追加
 

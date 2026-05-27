@@ -8,7 +8,7 @@ badge: label="レガシー" type="Informative"
 exl-id: fa55faae-1258-49c7-884f-83d1c33db969
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '230'
 ht-degree: 100%
 
 ---
@@ -17,15 +17,15 @@ ht-degree: 100%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../using/experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。 [詳細情報](../using/experience-decisioning/gs-experience-decisioning.md)
 
-Adobe Journey Optimizer でイベントデータを収集すると、決定数、インプレッション数、クリック数、カスタムイベント数などの主なインタラクションを追跡できるので、オファーをカスタマイズして効果的にすることができます。このデータにより、Adobe Experience Platform とシームレスに統合して、レポート、フリークエンシーキャップ、AI モデル作成などの重要なプロセスが強化されます。自動的にトリガーされるイベントタイプやカスタム定義のイベントタイプなど、様々なイベントタイプが連携して実用的なフィードバックを提供する仕組みについて説明します。データセットの作成からスキーマの設定まで、各手順でインサイトをキャプチャして活用する基盤が作成されるので、十分な情報に基づいた決定を行い、自信を持ってカスタマーエクスペリエンスを最適化できます。
+Adobe Journey Optimizer でイベントデータを収集すると、決定数、インプレッション数、クリック数、カスタムイベント数などの主なインタラクションを追跡できるので、オファーをカスタマイズして効果的にすることができます。 このデータにより、Adobe Experience Platform とシームレスに統合して、レポート、フリークエンシーキャップ、AI モデル作成などの重要なプロセスが強化されます。 自動的にトリガーされるイベントタイプやカスタム定義のイベントタイプなど、様々なイベントタイプが連携して実用的なフィードバックを提供する仕組みについて説明します。 データセットの作成からスキーマの設定まで、各手順でインサイトをキャプチャして活用する基盤が作成されるので、十分な情報に基づいた決定を行い、自信を持ってカスタマーエクスペリエンスを最適化できます。
 
 ## イベントデータの収集
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 意思決定管理データ収集の基本を学ぶ
 
@@ -35,7 +35,7 @@ Adobe Journey Optimizer でイベントデータを収集すると、決定数�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 エクスペリエンスイベントを収集するデータセットの作成方法
 
@@ -45,7 +45,7 @@ Adobe Journey Optimizer でエクスペリエンスイベントを収集する�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 意思決定管理のイベントデータキャプチャの設定
 

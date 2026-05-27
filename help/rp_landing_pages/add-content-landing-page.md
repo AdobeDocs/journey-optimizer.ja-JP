@@ -7,20 +7,20 @@ redpen-status: CREATED_||_2025-08-11_20-32-28
 exl-id: 407918ea-abc5-45b4-96b5-3afbdfa89238
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 87%
+source-wordcount: '319'
+ht-degree: 88%
 
 ---
 
 # コンテンツのデザイン{#section-overview}
 
-Adobe Journey Optimizer でのコンテンツのデザインとは、オーディエンスとつながるパーソナライズされた影響力のあるメールエクスペリエンスを作成することです。動的なレイアウト、再利用可能なビジュアルフラグメント、カスタマイズされたリンクなどを追加する場合でも、各ツールが連携してメールのデザインを完全に制御できます。また、アクセシビリティのためにメタデータを統合する方法、関連性を高めるためにオファーをパーソナライズする方法、さらにはカスタム CSS を使用して高度なスタイルを適用する方法についても説明します。これらの機能を順を追って説明することで、視覚的に美しいだけでなく、目標やオーディエンスのニーズに合わせてカスタマイズされたメールを作成できます。
+Adobe Journey Optimizer でのコンテンツのデザインとは、オーディエンスとつながるパーソナライズされた影響力のあるメールエクスペリエンスを作成することです。 動的なレイアウト、再利用可能なビジュアルフラグメント、カスタマイズされたリンクなどを追加する場合でも、各ツールが連携してメールのデザインを完全に制御できます。 また、アクセシビリティのためにメタデータを統合する方法、関連性を高めるためにオファーをパーソナライズする方法、さらにはカスタム CSS を使用して高度なスタイルを適用する方法についても説明します。 これらの機能を順を追って説明することで、視覚的に美しいだけでなく、目標やオーディエンスのニーズに合わせてカスタマイズされたメールを作成できます。
 
-## コンテンツのデザイン
+## コンテンツをデザイン
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 コンテンツコンポーネントの使用
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer でのコンテンツのデザインとは、オーデ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg)
 
 ビジュアルフラグメントの活用
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer でのコンテンツのデザインとは、オーデ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 リンクの追加とメッセージのトラッキング
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer でのコンテンツのデザインとは、オーデ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 パーソナライズされたオファーの挿入
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer でのコンテンツのデザインとは、オーデ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg)
 
 テキストバージョンの生成
 
@@ -70,7 +70,7 @@ HTML コンテンツを表示できない受信者向けに、メールのプレ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
 AIを活用した受信トレイ用にメールテキストを最適化する
 
@@ -80,7 +80,7 @@ AIを活用した受信トレイ用にメールテキストを最適化する
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 メタデータの追加
 

@@ -7,20 +7,20 @@ redpen-status: CREATED_||_2025-08-11_20-34-10
 exl-id: c9377c3c-d716-4fae-adc8-458cbe7213dd
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '285'
 ht-degree: 100%
 
 ---
 
 # メールチャネルの設定{#section-overview}
 
-Adobe Journey Optimizer でメールチャネルを設定することは、効果的にオーディエンスに関与する、影響力のあるパーソナライズされたメールエクスペリエンスを作成するゲートウェイです。この節では、配信品質のサブドメインのデリゲーション、評判管理の IP プールの作成、コンプライアンスを確保する抑制リストの処理などの基本的な手順について説明します。また、メールヘッダーの設定方法、複数のブランド向けの設定のパーソナライズ方法、分析用の URL トラッキングを有効にする方法、ユーザーの利便性を考慮したワンクリック登録解除リンクを追加する方法についても説明します。各トピックは前のトピックに基づいて作成されています。これにより、制御と精度を維持しながらメール戦略を微調整するツールが提供されます。
+Adobe Journey Optimizer でメールチャネルを設定することは、効果的にオーディエンスに関与する、影響力のあるパーソナライズされたメールエクスペリエンスを作成するゲートウェイです。 この節では、配信品質のサブドメインのデリゲーション、評判管理の IP プールの作成、コンプライアンスを確保する抑制リストの処理などの基本的な手順について説明します。 また、メールヘッダーの設定方法、複数のブランド向けの設定のパーソナライズ方法、分析用の URL トラッキングを有効にする方法、ユーザーの利便性を考慮したワンクリック登録解除リンクを追加する方法についても説明します。 各トピックは前のトピックに基づいて作成されています。これにより、制御と精度を維持しながらメール戦略を微調整するツールが提供されます。
 
 ## メールチャネルの設定
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 メール設定の基本を学ぶ
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer でメールチャネルを設定することは、効�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 メール設定の定義
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer でメールチャネルを設定することは、効�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 リストの登録解除の有効化と設定
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer でメールチャネルを設定することは、効�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 メールヘッダーパラメーターの設定
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer でメールチャネルを設定することは、効�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 メールチャネル用の URL トラッキングの設定
 
@@ -70,7 +70,7 @@ URL トラッキングパラメーターを設定して、メールキャンペ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 パーソナライズされたメール設定
 

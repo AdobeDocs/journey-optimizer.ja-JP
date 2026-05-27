@@ -7,20 +7,20 @@ redpen-status: CREATED_||_2025-08-11_20-49-35
 exl-id: 01d60382-ea80-4ebd-9918-7e7821083cb9
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '346'
 ht-degree: 100%
 
 ---
 
 # キャンペーンレポート{#section-overview}
 
-Adobe Journey Optimizer のキャンペーンレポートを使用すると、様々なチャネルをまたいでマーケティング活動に関する実用的なインサイトを得ることができます。これらのレポートは、メールのパフォーマンスや SMS エンゲージメントから web インタラクションやプッシュ通知まで、オーディエンスがキャンペーンに反応する仕組みを明確に示します。 各レポートは、クリックスルー率、配信ステータス、キャンペーンタイプに合わせてカスタマイズされたトラッキングリンクなど、特定の指標に焦点を当てており、トレンドの特定、戦略の最適化、ユーザーエクスペリエンスの強化に役立ちます。ファネル結果を分析する場合でも、AI 駆動型パーソナライゼーションを微調整する場合でも、これらのツールはキャンペーンの成功をさらに高める手順を示すガイドとなります。
+Adobe Journey Optimizer のキャンペーンレポートを使用すると、様々なチャネルをまたいでマーケティング活動に関する実用的なインサイトを得ることができます。 これらのレポートは、メールのパフォーマンスや SMS エンゲージメントから web インタラクションやプッシュ通知まで、オーディエンスがキャンペーンに反応する仕組みを明確に示します。 各レポートは、クリックスルー率、配信ステータス、キャンペーンタイプに合わせてカスタマイズされたトラッキングリンクなど、特定の指標に焦点を当てており、トレンドの特定、戦略の最適化、ユーザーエクスペリエンスの強化に役立ちます。 ファネル結果を分析する場合でも、AI 駆動型パーソナライゼーションを微調整する場合でも、これらのツールはキャンペーンの成功をさらに高める手順を示すガイドとなります。
 
 ## Adobe Journey Optimizer のキャンペーンレポート
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 キャンペーンレポートの概要
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer のキャンペーンレポートを使用すると、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 コードベースのキャンペーンレポート
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer のキャンペーンレポートを使用すると、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 コンテンツカードキャンペーンレポート
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer のキャンペーンレポートを使用すると、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 ダイレクトメールキャンペーンレポート
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer のキャンペーンレポートを使用すると、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open-text.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open-text.svg)
 
 メールキャンペーンレポート
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer のキャンペーンレポートを使用すると、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/vial.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/vial.svg)
 
 実験キャンペーンレポート
 

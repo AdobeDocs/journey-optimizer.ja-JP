@@ -7,20 +7,20 @@ redpen-status: CREATED_||_2025-08-12_00-40-11
 exl-id: 87d500e0-4a2c-4e22-a90c-611229b55d7c
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '204'
 ht-degree: 98%
 
 ---
 
 # 動的コンテンツ{#section-overview}
 
-Adobe Journey Optimizer の動的コンテンツを使用すると、オーディエンスにシームレスに適応するパーソナライズされたメッセージを作成できます。条件付きルールを使用すると、プロファイル属性、オーディエンスメンバーシップまたはリアルタイムイベントに基づいて、メール、SMS、プッシュ通知をカスタマイズできます。特定の条件が満たされない場合のフォールバックメッセージを作成する場合でも、一貫性を保つために再利用可能なルールを保存する場合でも、パーソナライゼーションエディターと E メールデザイナーは、アイデアを実現する直感的なツールを提供します。この節では、動的コンテンツの作成、管理、適用の手順について説明します。これにより、影響力のあるコンテキスト認識型のコミュニケーションを常に提供するのに役立ちます。
+Adobe Journey Optimizer の動的コンテンツを使用すると、オーディエンスにシームレスに適応するパーソナライズされたメッセージを作成できます。 条件付きルールを使用すると、プロファイル属性、オーディエンスメンバーシップまたはリアルタイムイベントに基づいて、メール、SMS、プッシュ通知をカスタマイズできます。 特定の条件が満たされない場合のフォールバックメッセージを作成する場合でも、一貫性を保つために再利用可能なルールを保存する場合でも、パーソナライゼーションエディターと E メールデザイナーは、アイデアを実現する直感的なツールを提供します。 この節では、動的コンテンツの作成、管理、適用の手順について説明します。これにより、影響力のあるコンテキスト認識型のコミュニケーションを常に提供するのに役立ちます。
 
 ## 動的コンテンツの機能
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 動的コンテンツの基本を学ぶ
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer の動的コンテンツを使用すると、オーデ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 条件付きルールの作成と管理
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer を使用して、メッセージ内の動的なコン�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Adobe Journey Optimizer で動的コンテンツを作成する方法
 

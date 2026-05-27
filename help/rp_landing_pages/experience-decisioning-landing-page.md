@@ -6,21 +6,21 @@ description: 決定
 redpen-status: CREATED_||_2025-08-11_20-57-38
 exl-id: cbfaffdc-79a5-4e61-b307-b670ed1e4835
 source-git-commit: 59e85eb7a14f88d95b2ef97e3ace11a65f115b75
-workflow-type: ht
-source-wordcount: '354'
+workflow-type: tm+mt
+source-wordcount: '383'
 ht-degree: 100%
 
 ---
 
 # 決定{#section-overview}
 
-Adobe Journey Optimizer の決定機能を使用すると、一元化された決定項目のカタログと強力な決定エンジンを組み合わせることで、パーソナライズされたマーケティングオファーを配信できます。個々のオーディエンス向けにコンテンツをカスタマイズする場合でも、AI を活用したランキングで戦略を最適化する場合でも、決定は大規模なデータ駆動型の決定を行うツールを提供します。決定項目、ルール、ポリシーなどの主な概念を掘り下げ、これらの要素が連携してキャンペーンに最適なコンテンツを選択し、優先順位を付ける仕組みについて説明します。コレクションとプレースメントの管理から Adobe Experience Platform データの活用まで、この包括的なガイドは、よりスマートなパーソナライゼーションを実現し、影響力のあるカスタマーエクスペリエンスを推進するのに役立ちます。
+Adobe Journey Optimizer の決定機能を使用すると、一元化された決定項目のカタログと強力な決定エンジンを組み合わせることで、パーソナライズされたマーケティングオファーを配信できます。 個々のオーディエンス向けにコンテンツをカスタマイズする場合でも、AI を活用したランキングで戦略を最適化する場合でも、決定は大規模なデータ駆動型の決定を行うツールを提供します。 決定項目、ルール、ポリシーなどの主な概念を掘り下げ、これらの要素が連携してキャンペーンに最適なコンテンツを選択し、優先順位を付ける仕組みについて説明します。 コレクションとプレースメントの管理から Adobe Experience Platform データの活用まで、この包括的なガイドは、よりスマートなパーソナライゼーションを実現し、影響力のあるカスタマーエクスペリエンスを推進するのに役立ちます。
 
 ## 決定機能
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 決定の概要
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer の決定機能を使用すると、一元化された�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 決定のガードレールと制限
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer で決定を効果的に使用する制約とベスト�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
 
 よくある質問
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer で決定を効果的に使用する制約とベスト�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 API リファレンス：オファーの配信
 
@@ -60,7 +60,7 @@ API リファレンス：オファーの配信
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 決定項目とカタログの管理
 
@@ -70,7 +70,7 @@ API リファレンス：オファーの配信
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 決定ルールの作成
 
@@ -80,7 +80,7 @@ API リファレンス：オファーの配信
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 AI モデルを使用したランキングの作成
 

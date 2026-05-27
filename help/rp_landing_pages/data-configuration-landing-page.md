@@ -2,25 +2,25 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: データ設定
-description: Journey Optimizerで調整されたキャンペーンを強化するために、リレーショナルスキーマ、データセット、ターゲティングディメンション、チャネル設定を設定する方法について説明します。
+description: Journey Optimizerのオーケストレーションされたキャンペーンを強化するために、リレーショナルスキーマ、データセット、ターゲティングディメンション、チャネル設定を設定する方法を説明します。
 redpen-status: CREATED_||_2025-08-11_20-24-01
 exl-id: e1c20d14-4d0e-4ef9-9745-ca8ffe706f0b
 source-git-commit: 487dac21011f951bedc6f9f71c39faf549859d79
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 78%
+source-wordcount: '221'
+ht-degree: 79%
 
 ---
 
 # データ設定{#section-overview}
 
-Adobe Journey Optimizer のデータ設定とは、データを整理して接続することで、効果的なカスタマージャーニーの基盤を設定することです。リレーショナルスキーマを定義してデータを構造化する場合でも、パーソナライゼーションにデータを顧客プロファイルにリンクする場合でも、正確なメッセージ配信にチャネルを設定する場合でも、このプロセスにより、明確で実用的なインサイトに基づいたキャンペーンが実現します。手動やファイルのアップロードでスキーマを作成する方法、データセットを設定する方法、ターゲットコミュニケーション用にプロファイルをマッピングする方法について説明します。各手順は、調整されたリアルタイムのカスタマーエクスペリエンスを可能にし、生のデータを有意義なインタラクションに変換するツールを提供することに向かって作成されています。
+Adobe Journey Optimizer のデータ設定とは、データを整理して接続することで、効果的なカスタマージャーニーの基盤を設定することです。 リレーショナルスキーマを定義してデータを構造化する場合でも、パーソナライゼーションにデータを顧客プロファイルにリンクする場合でも、正確なメッセージ配信にチャネルを設定する場合でも、このプロセスにより、明確で実用的なインサイトに基づいたキャンペーンが実現します。 手動やファイルのアップロードでスキーマを作成する方法、データセットを設定する方法、ターゲットコミュニケーション用にプロファイルをマッピングする方法について説明します。 各手順は、調整されたリアルタイムのカスタマーエクスペリエンスを可能にし、生のデータを有意義なインタラクションに変換するツールを提供することに向かって作成されています。
 
 ## データ設定
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 リレーショナルスキーマとデータセットの管理
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer のデータ設定とは、データを整理して接�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 ターゲティングディメンションの設定方法
 
@@ -40,11 +40,11 @@ Adobe Journey Optimizer のデータ設定とは、データを整理して接�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
-チャネル設定の指定
+チャネル設定の設定
 
-メールやその他のサポート対象チャネルを含む、オーケストレートキャンペーンで使用するチャネル設定をセットアップおよび設定する方法について説明します。
+電子メールやその他のサポート対象チャネルなど、オーケストレーションされたキャンペーンで使用するためのチャネル設定を設定および設定する方法について説明します。
 
 [チャネルの設定](../using/orchestrated/channel-config.md)
 :::

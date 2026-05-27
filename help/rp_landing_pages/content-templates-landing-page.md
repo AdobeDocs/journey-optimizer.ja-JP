@@ -7,20 +7,20 @@ redpen-status: CREATED_||_2025-08-12_00-38-47
 exl-id: a745742a-61c4-420e-bbd8-b3d72d782fb3
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '269'
 ht-degree: 100%
 
 ---
 
 # コンテンツテンプレート{#section-overview}
 
-Adobe Journey Optimizer のコンテンツテンプレートは、キャンペーンやジャーニーの再利用可能なコンテンツの作成方法を簡素化および効率化する強力なツールです。メール、SMS、プッシュ通知などを作成する場合でも、テンプレートを使用すると、事前に設計された構造を簡単にカスタマイズしてプロジェクト間で共有できるので、時間を節約できます。この節では、テンプレートの作成、管理、適用方法について説明し、ガバナンスのコンテンツのロック機能や、テンプレートの正確性を確認するテスト機能など、さまざまな機能について解説します。また、これらのテンプレートをチャネルやワークフロー間で統合し、一貫性のある効果的なメッセージを簡単に作成できるようにする方法についても説明します。
+Adobe Journey Optimizer のコンテンツテンプレートは、キャンペーンやジャーニーの再利用可能なコンテンツの作成方法を簡素化および効率化する強力なツールです。 メール、SMS、プッシュ通知などを作成する場合でも、テンプレートを使用すると、事前に設計された構造を簡単にカスタマイズしてプロジェクト間で共有できるので、時間を節約できます。 この節では、テンプレートの作成、管理、適用方法について説明し、ガバナンスのコンテンツのロック機能や、テンプレートの正確性を確認するテスト機能など、さまざまな機能について解説します。 また、これらのテンプレートをチャネルやワークフロー間で統合し、一貫性のある効果的なメッセージを簡単に作成できるようにする方法についても説明します。
 
 ## コンテンツテンプレート
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 コンテンツテンプレートの基本を学ぶ
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer のコンテンツテンプレートは、キャンペ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 テンプレートへのアクセスと管理
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer のコンテンツテンプレートは、キャンペ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 コンテンツテンプレートの作成
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer のコンテンツテンプレートは、キャンペ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 メールテンプレートのコンテンツのロック
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer のコンテンツテンプレートは、キャンペ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 コンテンツテンプレートのテスト
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer のコンテンツテンプレートは、キャンペ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 コンテンツテンプレートの使用
 
