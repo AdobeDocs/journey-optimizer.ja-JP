@@ -7,20 +7,20 @@ redpen-status: CREATED_||_2025-08-11_20-47-56
 exl-id: 08fa046a-4610-4923-a84e-db54e5ad7402
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '273'
 ht-degree: 98%
 
 ---
 
 # ライブレポート{#section-overview}
 
-Adobe Journey Optimizer のライブレポート機能を使用すると、動的でカスタマイズ可能なダッシュボード内で、キャンペーン、ジャーニー、メッセージのリアルタイムのパフォーマンスを追跡および分析できます。メールエンゲージメント、SMS 配信率、ランディングページのコンバージョンなどを監視する場合でも、ライブレポートは結果を最適化するのに役立つ明確なインサイトを提供します。ダッシュボードをニーズに合わせてカスタマイズする方法、より深い分析のためにデータを書き出す方法、様々な通信チャネルをまたいで詳細な指標を探索する方法について説明します。ジャーニーやキャンペーンレポートなどの子トピックについて説明します。これにより、実用的なトレンドを明らかにし、問題を特定し、自信を持ってデータ駆動型の意思決定を行うことができます。
+Adobe Journey Optimizer のライブレポート機能を使用すると、動的でカスタマイズ可能なダッシュボード内で、キャンペーン、ジャーニー、メッセージのリアルタイムのパフォーマンスを追跡および分析できます。 メールエンゲージメント、SMS 配信率、ランディングページのコンバージョンなどを監視する場合でも、ライブレポートは結果を最適化するのに役立つ明確なインサイトを提供します。 ダッシュボードをニーズに合わせてカスタマイズする方法、より深い分析のためにデータを書き出す方法、様々な通信チャネルをまたいで詳細な指標を探索する方法について説明します。 ジャーニーやキャンペーンレポートなどの子トピックについて説明します。これにより、実用的なトレンドを明らかにし、問題を特定し、自信を持ってデータ駆動型の意思決定を行うことができます。
 
 ## ライブレポート機能
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 ライブレポートの基本を学ぶ
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer のライブレポート機能を使用すると、動�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 指標のリスト
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer のライブレポート機能を使用すると、動�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 ジャーニーライブレポート
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer のライブレポート機能を使用すると、動�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 キャンペーンのライブレポート
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer のライブレポート機能を使用すると、動�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 ランディングページライブレポート
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer のライブレポート機能を使用すると、動�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 購読ライブレポート
 
