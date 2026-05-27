@@ -8,23 +8,12 @@ role: User
 level: Beginner
 exl-id: 3e777cc5-a935-4e68-9de7-60b241e78f63
 TQID: https://experienceleague.adobe.com/bgBuZlYcuJ1VpBZIlpGA4WIYZ6ufqNMnxlBoUvPpVqg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: c6e980f5-2d4f-494f-beef-186b9ecf1513id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: ded80e8d1293462687404d67045bdccde2cb96ed
 workflow-type: tm+mt
 source-wordcount: 1134
@@ -55,7 +44,7 @@ Adobe Experience Manager as a Cloud Service の Dynamic Media を Journey Optimi
 
 >[!IMPORTANT]
 >
->OpenAPI 搭載 Dynamic Media が Adobe Experience Manager as a Cloud Service で有効になっていることを確認します。 [詳細情報](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview#enable-dynamic-media-open-apis){target="_blank"}
+>OpenAPI 搭載 Dynamic Media が Adobe Experience Manager as a Cloud Service で有効になっていることを確認します。 [学習を増やす](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview#enable-dynamic-media-open-apis){target="_blank"}。
 
 Dynamic Media と Adobe Journey Optimizer の統合は、Dynamic Media [Scene7 モード](https://experienceleague.adobe.com/ja/docs/experience-manager-65/content/assets/dynamic/config-dms7){target="_blank"}と [OpenAPI 搭載](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media-open-apis/dynamic-media-open-apis-overview){target="_blank"}の両方で使用できます。
 
@@ -221,5 +210,5 @@ Adobe Experience Manager Dynamic Media を Adobe Journey Optimizer と統合し�
 
 このチュートリアルでは、AJO 内で画像を直接変更する方法、HTML モードを使用してテキストオーバーレイを追加する方法、AEM で高度なパーソナライゼーション用の Dynamic Media テンプレートを作成する方法、様々なオーディエンスセグメントに合わせてコンテンツを調整してキャンペーンをパーソナライズする方法について説明します。 この統合により、マーケターは、アプリケーションを切り替えずに、パーソナライズされた魅力的なキャンペーンを効率的に作成できます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3463783/?captions=jpn&learn=on&enablevpops=&autoplay=true)
+>[!VIDEO](https://video.tv.adobe.com/v/3457695/?learn=on&enablevpops=&autoplay=true)
 

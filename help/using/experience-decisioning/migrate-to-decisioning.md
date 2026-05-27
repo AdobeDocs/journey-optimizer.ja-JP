@@ -7,31 +7,11 @@ role: User
 level: Experienced
 exl-id: aedd7845-3d8d-457a-a7f3-03897846b241
 TQID: https://experienceleague.adobe.com/DQI-YSVEdN4ffTgnj-LG4U59-dbVxB-wnBOqjOiWoS4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: d2e8a157-b3b0-4143-9ff3-809bf400be56id: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
 workflow-type: tm+mt
 source-wordcount: 1296
@@ -53,7 +33,7 @@ Adobe Journey Optimizerの次世代意思決定フレームワークと機能セ
 
 ### AIおよびマシンラーニング能力
 
-* **カスタム指標**: AI モデルにカスタム最適化指標を使用する機能。 これにより、[Customer Journey Analytics](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}とのレポートの相互運用性が向上し、両方のプラットフォームでレポートを標準化し、データの一貫性と信頼性を向上させます。 シームレスな統合により、パフォーマンス指標をより明確に把握できます。また、シンプルな指標の作成、オーディエンスの公開、Insight Builderを使用した高度な質問、レポートのスケジュール設定などの新機能も追加されます。
+* **カスタム指標**: AI モデルにカスタム最適化指標を使用する機能。 これにより、[Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-overview){target="_blank"}とのレポートの相互運用性が向上し、両方のプラットフォームでレポートを標準化し、データの一貫性と信頼性を向上させます。 シームレスな統合により、パフォーマンス指標をより明確に把握できます。また、シンプルな指標の作成、オーディエンスの公開、Insight Builderを使用した高度な質問、レポートのスケジュール設定などの新機能も追加されます。
 
 * **上昇率の測定**:AI モデルで探索と悪用トラフィックを視覚化する機能。 これにより、マーケターやデータサイエンティストは、AIを利用して、長期的なモデルのパフォーマンスや新しい顧客オファーの見つけやすさを向上させる方法を定量化できます。 トラフィック配分の透明性により、AIによる意思決定に対する信頼を構築し、学習とパフォーマンスの両方に向けて長期的に最適化できるようになります。 [詳細情報](ranking/auto-optimization-model.md#lift)
 
@@ -89,11 +69,11 @@ Funnelの主な要素に対する意思決定項目と選択戦略のパフォ�
 
 ### その他の機能
 
-* **ポリシーの適用**: Decisioning内で[&#x200B; データ使用ラベル付けと適用（DULE） &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/overview){target="_blank"}および[同意](../action/consent.md)などの機能を使用するためのビジネスユーザーの権限を付与し、Decisioning ワークフロー全体でプライバシーシールド保護を有効にします。 これにより、意思決定において、データ使用ポリシーと顧客の同意設定が自動的に尊重されるようになります。
+* **ポリシーの適用**: Decisioning内で[ データ使用ラベル付けと適用（DULE） ](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/overview){target="_blank"}および[同意](../action/consent.md)などの機能を使用するためのビジネスユーザーの権限を付与し、Decisioning ワークフロー全体でプライバシーシールド保護を有効にします。 これにより、意思決定において、データ使用ポリシーと顧客の同意設定が自動的に尊重されるようになります。
 
-* **ネイティブメッセージングチャネルのサポート**：複数のチャネルにまたがる単一のフレームワーク内での統合されたメッセージと決定：[&#x200B; コードベースのエクスペリエンス &#x200B;](../code-based/get-started-code-based.md)、[電子メール &#x200B;](../email/get-started-email.md) （限定提供）、[SMS](../mobile/get-started-mobile.md)、[&#x200B; プッシュ通知](../push/get-started-push.md)。 直感的なUI サポートにより、ユーザーはメッセージ作成ワークフローに意思決定コンポーネントを直接挿入できます。
+* **ネイティブメッセージングチャネルのサポート**：複数のチャネルにまたがる単一のフレームワーク内での統合されたメッセージと決定：[ コードベースのエクスペリエンス ](../code-based/get-started-code-based.md)、[電子メール ](../email/get-started-email.md) （限定提供）、[SMS](../mobile/get-started-mobile.md)、[ プッシュ通知](../push/get-started-push.md)。 直感的なUI サポートにより、ユーザーはメッセージ作成ワークフローに意思決定コンポーネントを直接挿入できます。
 
-* **Experience Platform データセット ルックアップ**: [Adobe Experience Platform データセット &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/overview){target="_blank"}を、オファーの選択ルール、ランキング、パーソナライズされたオファーコンテンツ内に直接アップロードして参照する機能。 これにより、意思決定ロジックで動的な外部データソースを使用できるようになり、パーソナライゼーションとターゲティングの柔軟性が向上します。 [詳細情報](../data/lookup-aep-data.md)
+* **Experience Platform データセット ルックアップ**: [Adobe Experience Platform データセット ](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/overview){target="_blank"}を、オファーの選択ルール、ランキング、パーソナライズされたオファーコンテンツ内に直接アップロードして参照する機能。 これにより、意思決定ロジックで動的な外部データソースを使用できるようになり、パーソナライゼーションとターゲティングの柔軟性が向上します。 [詳細情報](../data/lookup-aep-data.md)
 
 * **スケーラビリティとパフォーマンス**：意思決定計算をハブからエッジに移動させるアーキテクチャの強化により、トラフィックの多いユースケースの遅延を大幅に減らし、スループットを向上させます。
 
@@ -122,7 +102,7 @@ Funnelの主な要素に対する意思決定項目と選択戦略のパフォ�
 * **異なるスコープでの移行** - サンドボックス、オファー、または決定レベル
 * 問題が検出された場合、**ロールバック移行**
 
-認証、エンドポイント、リクエスト/レスポンスの例、ステップバイステップのワークフローなど、完全なAPI ドキュメントについては、[このページ &#x200B;](decisioning-migration-api.md)を参照してください。
+認証、エンドポイント、リクエスト/レスポンスの例、ステップバイステップのワークフローなど、完全なAPI ドキュメントについては、[このページ ](decisioning-migration-api.md)を参照してください。
 
 ## 関連トピック {#related-topics}
 

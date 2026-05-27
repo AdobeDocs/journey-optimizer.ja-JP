@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Adobe Experience Manager Content Advisorは、決定論的な発見を、統一されたサーフェスからの標準化された意図に基づく発見に置き換えます。 これにより、AIを利用して、Assets、ダイナミックメディア、コンテンツフラグメントをJourney Optimizerのオーサリングワークフロー内で直接発見でき、マーケターの生産性とキャンペーンの効率性を向上させることができます。
 
-➡️ [Adobe Experience Manager Content Advisorについて詳しくは、Adobe Experience Manager ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/content-advisor/integrate-adobe-non-adobe-applications)を参照してください
+➡️ [Adobe Experience Manager Content Advisorについて詳しくは、Adobe Experience Manager ドキュメント ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/content-advisor/integrate-adobe-non-adobe-applications)を参照してください
 
 ## 利用可能な機能
 
@@ -77,7 +77,7 @@ Dynamic Mediaの可用性は、リポジトリ設定によって異なります�
 
 * **Scene7**：公開されたアセットで使用できます（ビデオとPDFを除く）。 [Dynamic Media Scene7修飾子の詳細](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-is-http-modifiers.html){target="_blank"}
 
-* **OpenAPI**：承認済みアセットで利用できます（ビデオを除く）。 [OpenAPI修飾子を使用したDynamic Mediaについて詳しく見る](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html?lang=ja){target="_blank"}
+* **OpenAPI**：承認済みアセットで利用できます（ビデオを除く）。 [OpenAPI修飾子を使用したDynamic Mediaについて詳しく見る](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/image-profiles.html){target="_blank"}
 
 * **Scene7とOpenAPI**：両方の設定が存在し、アセットが条件を満たす場合に使用できます。
 
