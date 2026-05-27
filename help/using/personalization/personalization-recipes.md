@@ -16,11 +16,11 @@ ht-degree: 0%
 
 このページでは、Adobe Journey Optimizerの最も一般的なユースケース向けに、すぐに使用できるパーソナライゼーションパターンを提供します。 あらゆる例でパーソナライゼーションエディターの構文を使用しており、電子メール、SMS、プッシュコンテンツに直接コピーできます。
 
-使用可能な関数の完全な参照については、[&#x200B; ヘルパー関数](functions/helpers.md)、[日付/時刻関数](functions/dates.md)、[文字列関数](functions/string.md)、および[配列関数](functions/arrays-list.md)を参照してください。
+使用可能な関数の完全な参照については、[ ヘルパー関数](functions/helpers.md)、[日付/時刻関数](functions/dates.md)、[文字列関数](functions/string.md)、および[配列関数](functions/arrays-list.md)を参照してください。
 
 >[!TIP]
 >
->例をコピーする前に、[Personalizationのベストプラクティス &#x200B;](personalization-syntax.md#best-practices)を確認して、最も一般的な構文エラーを回避します。
+>例をコピーする前に、[Personalizationのベストプラクティス ](personalization-syntax.md#best-practices)を確認して、最も一般的な構文エラーを回避します。
 
 ## 日付と時刻のレシピ {#date-time-recipes}
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->年の境界で予期しない結果を避けるには、`Y` （週ベースの年）ではなく小文字の`y` （暦年）を使用します。 完全な参照については、[&#x200B; パターン文字](functions/dates.md#pattern-characters)を参照してください。
+>年の境界で予期しない結果を避けるには、`Y` （週ベースの年）ではなく小文字の`y` （暦年）を使用します。 完全な参照については、[ パターン文字](functions/dates.md#pattern-characters)を参照してください。
 
 ### レシピ 2 – 有効期限またはイベント日までのカウントダウン {#recipe-countdown}
 
@@ -128,7 +128,7 @@ Our team will get back to you within 24 hours.
 
 >[!NOTE]
 >
->ジャーニー条件アクティビティでは`{{#each}}`はサポートされていません。 条件の配列フィルタリングには、[&#x200B; コレクション管理関数](../building-journeys/expression/collection-management-functions.md)を使用します。
+>ジャーニー条件アクティビティでは`{{#each}}`はサポートされていません。 条件の配列フィルタリングには、[ コレクション管理関数](../building-journeys/expression/collection-management-functions.md)を使用します。
 
 ### レシピ 7 – 価格で配列から上位N個の項目を表示します {#recipe-first-n}
 

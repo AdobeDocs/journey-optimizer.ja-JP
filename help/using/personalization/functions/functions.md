@@ -505,7 +505,7 @@ ht-degree: 97%
         <td><a href="operators.md#and">および</a></td><td>この演算子は論理積を作成します。</td>
     </tr>
     <tr>
-        <td><a href="operators.md#or">または</a></td><td>この演算子は論理和を作成します。</td>
+        <td><a href="operators.md#or">Or</a></td><td>この演算子は論理和を作成します。</td>
     </tr>
 </table>
 
@@ -536,4 +536,4 @@ ht-degree: 97%
 
 パーソナライズ機能のヘルパー関数を使用してパーソナライゼーション値を変換する方法と、ヘルパー関数の様々なユースケースを説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416781?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)

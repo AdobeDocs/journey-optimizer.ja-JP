@@ -82,7 +82,7 @@ Journey Optimizerでは、メッセージ内の&#x200B;**URL**&#x200B;をパー�
 
 * **[!UICONTROL プロファイル属性]**：[Adobe Experience Platform データモデル（XDM）ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target="_blank"}に記載のプロファイルスキーマに関連付けられているすべての参照をリストします。
 * **[!UICONTROL ターゲット属性]**：このフォルダーは、調整されたキャンペーンに固有です。 キャンペーンキャンバス内で直接計算された属性が含まれます。 [詳しくは、調整されたキャンペーンの追加方法を参照してください。](../orchestrated/activities/channels.md#add-personalization)
-* **[!UICONTROL オーディエンス]**：Adobe Experience Platform セグメント化サービスで作成されたすべてのオーディエンスをリストします。 詳しくは、[Adobe Experience Platformのセグメント化に関するドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja){target="_blank"}を参照してください。
+* **[!UICONTROL オーディエンス]**：Adobe Experience Platform セグメント化サービスで作成されたすべてのオーディエンスをリストします。 詳しくは、[Adobe Experience Platformのセグメント化に関するドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja){target="_blank"}を参照してください。
 * **[!UICONTROL オファー決定]**：特定のプレースメントに関連付けられているすべてのオファーを一覧表示します。 配置を選択し、コンテンツにオファーを挿入します。 オファーの管理方法に関する詳細なドキュメントについては、[この節](../offers/get-started/starting-offer-decisioning.md)を参照してください。
 * **[!UICONTROL コンテキスト属性]**：チャネルアクションアクティビティ（メール、プッシュ、SMS）をジャーニーまたはキャンペーンで使用する場合、イベントやプロパティに関連するコンテキスト属性をパーソナライズに使用できます。 コンテキスト属性を活用したパーソナライゼーションの例について詳しくは、[この節](personalization-use-case.md)を参照してください。 また、カスタムアクション応答をパーソナライゼーションに使用できます。 [ネイティブチャネルでのカスタムアクション応答の使用方法の詳細情報](../action/action-response.md#response-in-channels)。
 
