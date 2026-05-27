@@ -11,7 +11,7 @@ keywords: ウェーブ、バッチ、スケジュール、キャンペーン、�
 exl-id: 6d53d817-78f6-4d00-8ff0-8a848c618435
 source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '786'
 ht-degree: 2%
 
 ---

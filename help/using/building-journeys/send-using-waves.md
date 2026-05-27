@@ -1,7 +1,7 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: ジャーニーでウェーブを使用して送信
+title: ジャーニーでのウェーブを使用した送信
 description: アウトバウンドジャーニーメッセージの配信を、管理されたバッチ（ウェーブ）で時間をかけてスケジュールします。 オーディエンスを読み込むジャーニーでウェーブ送信をおこなうことで、負荷とサポートの配信品質のバランスを取ることができます。
 feature: Journeys, Activities, Audiences
 topic: Content Management
@@ -12,12 +12,12 @@ keywords: ウェーブ、バッチ、スケジュール、ジャーニー、オ�
 exl-id: 1aaff17f-aa08-4f10-903c-8335a86ac6eb
 source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 1%
+source-wordcount: '868'
+ht-degree: 2%
 
 ---
 
-# ジャーニーでウェーブを使用して送信 {#send-using-waves-journeys}
+# ジャーニーでのウェーブを使用した送信 {#send-using-waves-journeys}
 
 ジャーニーからのアウトバウンドメッセージを、一度にではなくバッチ（ウェーブ）で送信できます。 ウェーブ送信は、負荷のバランスを取り、ダウンストリームの圧倒的なシステム（コールセンターやランディングページなど）を回避し、配信品質と送信者のレピュテーション（特に大量の読み取りオーディエンスジャーニー）をサポートするのに役立ちます。
 

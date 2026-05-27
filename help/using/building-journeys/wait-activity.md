@@ -119,7 +119,7 @@ Select the date for the execution of the next activity.
 >| **正解** | `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00"))` |
 >| **正しくない** | `toDateTimeOnly(concat(toString(toDateOnly(nowWithDelta(2, "days"))),"T10:00:00Z"))` ❌ （`Z`を含む） |
 
-待機アクティビティが期待どおりに動作することを検証するには、ステップイベントを使用できます。 [詳細情報](../reports/query-examples.md#common-queries)
+待機アクティビティが期待どおりに動作することを検証するには、ステップイベントを使用できます。 [学習を増やす](../reports/query-examples.md#common-queries)。
 
 ## 待機後のプロファイルの更新 {#profile-refresh}
 
