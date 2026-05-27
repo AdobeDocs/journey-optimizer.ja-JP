@@ -2,13 +2,13 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: コンテンツのプレビューとテスト
-description: ローンチ前にメッセージの精度を検証します。テストプロファイルを使用してパーソナライズされたコンテンツをプレビューし、関係者に本配信前確認を送信し、クライアント間でのメールのレンダリングを確認し、スパムスコアを評価し、複数のコンテンツバリエーションを効率的にテストします。
+description: ローンチ前にメッセージの精度を検証します。 テストプロファイルを使用してパーソナライズされたコンテンツをプレビューし、関係者に本配信前確認を送信し、クライアント間でのメールのレンダリングを確認し、スパムスコアを評価し、複数のコンテンツバリエーションを効率的にテストします。
 redpen-status: CREATED_||_2025-08-11_20-30-05
 exl-id: bd78e0af-573b-4880-a9f1-44467c9db159
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 100%
+source-wordcount: '690'
+ht-degree: 89%
 
 ---
 
@@ -22,13 +22,13 @@ ht-degree: 100%
 
 >[!ENDSHADEBOX]
 
-メッセージが顧客に到達する前にエラーを検出することで、完璧なメッセージ配信を確保します。プレビューコンテンツでは、様々な顧客プロファイルをまたいでパーソナライゼーションの精度が検証されます。一方、テストツールでは、エンゲージメントに影響を与える可能性のあるレンダリングの問題、スパムのリスク、コンテンツバリエーションが判明します。包括的な機能にアクセスして、関係者に本配信前確認を送信したり、サンプルデータを使用してパーソナライゼーションをシミュレートしたり、クライアント間でのメールのレンダリングを確認したり、配信品質指標を評価したり、すべてアクティベーション前に実行できます。これらの検証手法を習得して、ブランドの評判を保護し、インボックスへの到達率を最大化し、一貫して優れたカスタマーエクスペリエンスを提供します。
+メッセージが顧客に到達する前にエラーを検出することで、完璧なメッセージ配信を確保します。 プレビューコンテンツでは、様々な顧客プロファイルをまたいでパーソナライゼーションの精度が検証されます。一方、テストツールでは、エンゲージメントに影響を与える可能性のあるレンダリングの問題、スパムのリスク、コンテンツバリエーションが判明します。 包括的な機能にアクセスして、関係者に本配信前確認を送信したり、サンプルデータを使用してパーソナライゼーションをシミュレートしたり、クライアント間でのメールのレンダリングを確認したり、配信品質指標を評価したり、すべてアクティベーション前に実行できます。 これらの検証手法を習得して、ブランドの評判を保護し、インボックスへの到達率を最大化し、一貫して優れたカスタマーエクスペリエンスを提供します。
 
 ## コンテンツのプレビューとテスト
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 コンテンツのプレビューとテストの方法
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 テストプロファイルの選択方法
 
@@ -48,7 +48,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 テストプロファイルを使用したコンテンツのプレビュー
 
@@ -58,7 +58,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 テストプロファイルデータを使用した本配信前確認の送信
 
@@ -68,7 +68,7 @@ ht-degree: 100%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg)
 
 Litmus を使用したメールのレンダリングのテスト方法
 
@@ -78,7 +78,7 @@ Litmus を統合して、一般的なメールクライアント全体のメー�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 コンテンツバリエーションのシミュレートとテストの方法
 
@@ -122,14 +122,14 @@ Litmus を統合して、一般的なメールクライアント全体のメー�
 
 **コンテキスト：**&#x200B;一般的なユースケースでテストツールを適用する方法を示す実際の例。
 
-**シナリオ 1：マルチセグメントキャンペーン用にパーソナライズされたメールのテスト**
-→ [サンプル入力データ](../using/test-approve/simulate-sample-input.md)を使用して、20 ～ 30 のバリエーションをテストします。個々のテストプロファイルを作成する必要はありません。様々な顧客属性を含む CSV をアップロードし、すべてを一度にプレビューします。
+**シナリオ 1：マルチセグメントキャンペーン用のパーソナライズされたメールのテスト**
+→ [ サンプル入力データ ](../using/test-approve/simulate-sample-input.md)を使用して、個々のテストプロファイルを作成せずに20～30のバリエーションをテストします。 様々な顧客属性を含む CSV をアップロードし、すべてを一度にプレビューします。
 
-**シナリオ 2：主要な送信の前のメールのレンダリングの検証**
-→ [Litmus テスト](../using/content-management/rendering.md)を実行して上位のメールクライアントをまたいだ表示を確認し、[スパムレポート](../using/content-management/spam-report.md)でインボックスに到達したことを確認します。
+**シナリオ 2: メジャーセンドの前にメールのレンダリングを検証しています**
+→ [Litmus テスト ](../using/content-management/rendering.md)を実行して、上位のメールクライアントの表示を確認し、[ スパムレポート ](../using/content-management/spam-report.md)を確認して、受信トレイの配置を確認します。
 
-**シナリオ 3：関係者のサインオフの取得**
-→ 内部レビュアーにテストプロファイルデータを含む[本配信前確認を送信](../using/content-management/proofs.md)し、顧客が受信する内容を正確に確認できるようにします。
+**シナリオ 3：関係者の承認を取得する**
+→ [ テストプロファイルデータを使用して社内レビュー担当者にプルーフ ](../using/content-management/proofs.md)を送信し、顧客が受け取る内容を正確に確認します。
 
 ## 重要な留意点
 

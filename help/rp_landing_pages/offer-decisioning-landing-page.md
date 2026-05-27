@@ -8,7 +8,7 @@ badge: label="レガシー" type="Informative"
 exl-id: 5262df0e-201b-45bc-8234-e5acb7ff8af9
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '378'
 ht-degree: 99%
 
 ---
@@ -17,15 +17,15 @@ ht-degree: 99%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../using/experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。 [詳細情報](../using/experience-decisioning/gs-experience-decisioning.md)
 
-Adobe Journey Optimizer の意思決定管理を使用すると、適切なオーディエンスに適切なオファーを最適なタイミングで提供できます。パーソナライズされたオファーを作成するツールを組み合わせ、AI やカスタムルールを使用してインテリジェントにオファーをランキングし、リアルタイムのフィードバックを分析することで、チャネル全体でシームレスなデータ駆動型のカスタマーエクスペリエンスを作成できます。この節では、プレースメントや決定ルールなどの基本的なコンポーネントの構築、正確なターゲティングを行うコンテキストデータとイベントデータの統合、高度なワークフローを実現する API の活用について説明します。メールキャンペーンをデザインしたり、web インタラクションを最適化したりする際に、実用的なインサイトと戦略を得て、決定能力を向上させることができます。
+Adobe Journey Optimizer の意思決定管理を使用すると、適切なオーディエンスに適切なオファーを最適なタイミングで提供できます。 パーソナライズされたオファーを作成するツールを組み合わせ、AI やカスタムルールを使用してインテリジェントにオファーをランキングし、リアルタイムのフィードバックを分析することで、チャネル全体でシームレスなデータ駆動型のカスタマーエクスペリエンスを作成できます。 この節では、プレースメントや決定ルールなどの基本的なコンポーネントの構築、正確なターゲティングを行うコンテキストデータとイベントデータの統合、高度なワークフローを実現する API の活用について説明します。 メールキャンペーンをデザインしたり、web インタラクションを最適化したりする際に、実用的なインサイトと戦略を得て、決定能力を向上させることができます。
 
 ## 意思決定管理の機能
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 意思決定管理の基本を学ぶ
 
@@ -35,7 +35,7 @@ Adobe Journey Optimizer の意思決定管理を使用すると、適切なオ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 決定コンポーネントの作成と管理
 
@@ -45,7 +45,7 @@ Adobe Journey Optimizer の意思決定管理を使用すると、適切なオ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 ランキングの作成と最適化
 
@@ -55,7 +55,7 @@ Adobe Journey Optimizer の意思決定管理を使用すると、適切なオ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 オファーの作成と管理
 
@@ -65,7 +65,7 @@ Adobe Journey Optimizer で、パーソナライズされたオファー、フ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 決定の作成と管理
 
@@ -75,7 +75,7 @@ Adobe Journey Optimizer で、パーソナライズされたオファー、フ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 バッチ決定の使用
 

@@ -8,7 +8,7 @@ badge: label="レガシー" type="Informative"
 exl-id: 4578e8fe-341e-4678-b21f-d344f0a9a63d
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '217'
 ht-degree: 100%
 
 ---
@@ -17,15 +17,15 @@ ht-degree: 100%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../using/experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。 [詳細情報](../using/experience-decisioning/gs-experience-decisioning.md)
 
-Adobe Journey Optimizer の「オファーの作成と管理」の節では、適切なタイミングで適切なオーディエンスに届く、カスタマイズされた影響力のあるオファーを作成できます。パーソナライズされたオファーを作成する場合でも、より幅広いアピールのフォールバックオプションを作成する場合でも、シームレスに管理するオファーを動的または静的なコレクションに整理する場合でも、この節では、明確で実用的なガイダンスが提供されます。プレースメント、制約、優先度などの戦略的設定を通じてオファーを最適化し、すべてのインタラクションが有意義であることを確保する方法について説明します。これらのコンポーネントが連携して、よりスマートで魅力的なエクスペリエンスを顧客に提供できる仕組みについて詳しく説明します。
+Adobe Journey Optimizer の「オファーの作成と管理」の節では、適切なタイミングで適切なオーディエンスに届く、カスタマイズされた影響力のあるオファーを作成できます。 パーソナライズされたオファーを作成する場合でも、より幅広いアピールのフォールバックオプションを作成する場合でも、シームレスに管理するオファーを動的または静的なコレクションに整理する場合でも、この節では、明確で実用的なガイダンスが提供されます。 プレースメント、制約、優先度などの戦略的設定を通じてオファーを最適化し、すべてのインタラクションが有意義であることを確保する方法について説明します。 これらのコンポーネントが連携して、よりスマートで魅力的なエクスペリエンスを顧客に提供できる仕組みについて詳しく説明します。
 
 ## オファーの作成と管理
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Adobe Journey Optimizer のオファーの設定
 
@@ -35,7 +35,7 @@ Adobe Journey Optimizer のオファーの設定
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 フォールバックオファーの作成方法
 
@@ -45,7 +45,7 @@ Adobe Journey Optimizer のオファーの設定
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 オファーコレクションの作成および管理方法
 

@@ -7,20 +7,20 @@ redpen-status: CREATED_||_2025-08-11_20-51-07
 exl-id: 1feffdeb-2bdc-4197-8c04-e4ae48879401
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '314'
 ht-degree: 100%
 
 ---
 
 # ジャーニーレポート{#section-overview}
 
-Adobe Journey Optimizer のジャーニーレポートは、メール、SMS、web、プッシュ通知などの様々なチャネルをまたいで、顧客がキャンペーンとどのように関わっているかを分析する強力なツールになります。これらのレポートでは、エンゲージメント、除外、エラー、クリックの傾向などの指標が分類されているため、何が機能していて、何を改善する必要があるかを簡単に把握できます。パフォーマンスグラフやジャーニーキャンバスなどの視覚的なツールを使用すると、ユーザーパスを簡単にトレースして戦略を微調整できます。メールの開封率、SMS の配信統計、web のクリックスルーを調査する際に、各レポートから、特定のチャネルに焦点を置いたカスタマイズされたインサイトが得られるため、すべてのタッチポイントを自信を持って最適化できます。
+Adobe Journey Optimizer のジャーニーレポートは、メール、SMS、web、プッシュ通知などの様々なチャネルをまたいで、顧客がキャンペーンとどのように関わっているかを分析する強力なツールになります。 これらのレポートでは、エンゲージメント、除外、エラー、クリックの傾向などの指標が分類されているため、何が機能していて、何を改善する必要があるかを簡単に把握できます。 パフォーマンスグラフやジャーニーキャンバスなどの視覚的なツールを使用すると、ユーザーパスを簡単にトレースして戦略を微調整できます。 メールの開封率、SMS の配信統計、web のクリックスルーを調査する際に、各レポートから、特定のチャネルに焦点を置いたカスタマイズされたインサイトが得られるため、すべてのタッチポイントを自信を持って最適化できます。
 
 ## ジャーニーレポート
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 ジャーニーレポートの分析
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer のジャーニーレポートは、メール、SMS、we
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 コードベースのジャーニーレポート
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer のジャーニーレポートは、メール、SMS、we
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 コンテンツカードのエンゲージメント
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer のジャーニーレポートは、メール、SMS、we
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 ダイレクトメールの指標
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer のジャーニーレポートは、メール、SMS、we
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope-open.svg)
 
 メールのジャーニーレポート
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer のジャーニーレポートは、メール、SMS、we
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 アプリ内メッセージのインサイト
 

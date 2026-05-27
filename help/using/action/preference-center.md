@@ -10,26 +10,11 @@ level: Experienced
 keywords: ポリシー, ガバナンス, プラットフォーム, 同意, Healthcare Shield
 exl-id: a3e68015-c8f8-4b01-8171-f39d70b7e59d
 TQID: https://experienceleague.adobe.com/TPg5xSOHgXIBE4trUJiI3MoKjSGqvT1NtGI2Cg7ynFo
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
 workflow-type: tm+mt
 source-wordcount: 941
@@ -113,7 +98,7 @@ The corresponding profile dataset is updated as follows:
 | john.black@lumamail.com | Y | N |
 -->
 
-    >[ !メモ]
+    >[!メモ]
     >
     >受信した同意イベントは顧客プロファイルにフィードされ、リアルタイムの更新が確保されます。 各プロファイルには、購読環境設定をまたいで最新の選択が反映されます。
 
@@ -137,16 +122,15 @@ Consent policies are comprised of two logical components:
 
     例えば、メールニュースレターの受信をオプトアウトしていない顧客にのみコミュニケーションを送信するには、カスタムポリシーを作成し、次の条件を定義します。
     
-    * **[!UICONTROL &#x200B; マーケティングアクション &#x200B;]**&#x200B;が&#x200B;**[!UICONTROL &#x200B; メール &#x200B;]**
+    * **[!UICONTROL  マーケティングアクション ]**が**[!UICONTROL  メール ]**
     
-    *の場合、**[!UICONTROL Newsletter_Email]**&#x200B;が存在しません&#x200B;**[!UICONTROL false]**&#x200B;または&#x200B;**[!UICONTROL Newsletter_Email]** **[!UICONTROL false]**
+    *の場合、**[!UICONTROL Newsletter_Email]**が存在しません**[!UICONTROL false]**または**[!UICONTROL Newsletter_Email]** **[!UICONTROL false]**
     
     ![] （assets/consent-policy-email-newsletter.png） {width=80%}
     
     >[!TIP]
     >
-    > プロファイル対応データセットには、値が「true」に設定されたプロファイル属性&#x200B;**[!UICONTROL Newsletter_Email]**&#x200B;を含める必要があります（手順1で説明したように） 
-
+    > プロファイル対応データセットには、値が「true」に設定されたプロファイル属性**[!UICONTROL Newsletter_Email]**を含める必要があります（手順1で説明したように） 
 。
 1. 同意ポリシーを作成したら、[チャネル設定](consent.md#surface-marketing-actions)または[ジャーニーのカスタムアクション](consent.md#journey-custom-actions)を使用して、[!DNL Journey Optimizer] で活用します。
 

@@ -7,20 +7,20 @@ redpen-status: CREATED_||_2025-08-12_00-39-41
 exl-id: 8ec67807-8bcb-4510-bcba-ccf6e710ceb9
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '272'
 ht-degree: 100%
 
 ---
 
 # 再利用可能なコンテンツフラグメント{#section-overview}
 
-Adobe Journey Optimizer の再利用可能なコンテンツフラグメントを使用すると、複数のメールキャンペーンやカスタマージャーニーで使用できるモジュール式のコンテンツ（テキストブロック、画像、動的な式など）を作成できるので、時間を節約し、一貫性を確保できます。新しいマーケティングメールを作成する場合でも、パーソナライズされたメッセージをカスタマイズする場合でも、これらのフラグメントを使用すると、ブランド一致を維持しながらワークフローを簡素化できます。この節では、様々なタイプのフラグメント（ビジュアルと式）、フラグメントの作成方法と保存方法、さらに特定のユースケースに合わせてカスタマイズする方法について説明します。また、フラグメントを効果的に管理、整理、再利用してコンテンツ戦略を効率化するヒントについても説明します。
+Adobe Journey Optimizer の再利用可能なコンテンツフラグメントを使用すると、複数のメールキャンペーンやカスタマージャーニーで使用できるモジュール式のコンテンツ（テキストブロック、画像、動的な式など）を作成できるので、時間を節約し、一貫性を確保できます。 新しいマーケティングメールを作成する場合でも、パーソナライズされたメッセージをカスタマイズする場合でも、これらのフラグメントを使用すると、ブランド一致を維持しながらワークフローを簡素化できます。 この節では、様々なタイプのフラグメント（ビジュアルと式）、フラグメントの作成方法と保存方法、さらに特定のユースケースに合わせてカスタマイズする方法について説明します。 また、フラグメントを効果的に管理、整理、再利用してコンテンツ戦略を効率化するヒントについても説明します。
 
 ## 再利用可能なコンテンツフラグメント
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 フラグメントの使用の概要
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer キャンペーンでのコンテンツ作成を効率�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 再利用可能なフラグメントの作成方法
 
@@ -40,7 +40,7 @@ Journey Optimizer で、メール、キャンペーン、ジャーニーの再�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 既存のコンテンツをフラグメントとして保存
 
@@ -50,7 +50,7 @@ E メールデザイナーやパーソナライゼーションエディターか
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 カスタマイズ可能なフラグメントの使用
 
@@ -60,7 +60,7 @@ E メールデザイナーやパーソナライゼーションエディターか
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 コンテンツフラグメントの管理
 

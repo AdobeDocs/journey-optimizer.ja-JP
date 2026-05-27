@@ -26,7 +26,7 @@ ht-degree: 89%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 コンテンツのプレビュー、テスト、検証
 
@@ -36,7 +36,7 @@ ht-degree: 89%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 ジャーニーおよびキャンペーンの承認ワークフロー
 
@@ -46,7 +46,7 @@ ht-degree: 89%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 ジャーニーのテスト
 
@@ -56,7 +56,7 @@ ht-degree: 89%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 ジャーニーのドライラン
 
@@ -66,7 +66,7 @@ ht-degree: 89%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 監視とトラブルシューティング
 
@@ -76,7 +76,7 @@ ht-degree: 89%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code.svg)
 
 パーソナライゼーションプレイグラウンド
 
@@ -86,7 +86,7 @@ ht-degree: 89%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 コンテンツ実験と A/B テスト
 
@@ -96,7 +96,7 @@ ht-degree: 89%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 関係者による監視のためのシードリスト
 
@@ -106,7 +106,7 @@ ht-degree: 89%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 競合の検出
 
@@ -447,34 +447,34 @@ Journey Optimizer のテスト機能と承認機能をより深く理解する�
 
 ### 質問：多数のテストプロファイルを作成せずにパーソナライゼーションをテストするにはどうすればよいですか？
 
-**プライマリソリューション：** [&#x200B; サンプル入力データ &#x200B;](../using/test-approve/simulate-sample-input.md)をCSV/JSON ファイルと共に使用します（最大30 バリアントをサポート）
-**代替案：**&#x200B;主要セグメントをカバーする3 ～ 5人の担当者を作成する[&#x200B; テストプロファイル &#x200B;](../using/audience/creating-test-profiles.md)
-**学習ツール：** [&#x200B; パーソナライゼーションの遊び場](../using/personalization/personalize.md#playground)で最初に実験を行う
+**プライマリソリューション：** [ サンプル入力データ ](../using/test-approve/simulate-sample-input.md)をCSV/JSON ファイルと共に使用します（最大30 バリアントをサポート）
+**代替案：**&#x200B;主要セグメントをカバーする3 ～ 5人の担当者を作成する[ テストプロファイル ](../using/audience/creating-test-profiles.md)
+**学習ツール：** [ パーソナライゼーションの遊び場](../using/personalization/personalize.md#playground)で最初に実験を行う
 
 ### Q: ジャーニーのテストモードとドライランの違いは何ですか？
 
-**テストモード：**&#x200B;ジャーニーを通じてテストプロファイルを送信し、実際のアクションをトリガーし、テストメッセージを生成します。 ドラフトジャーニー + 名前空間が必要です。
-**ドライラン：**&#x200B;何も送信せずに実行パスを追跡します。 任意のジャーニーステータスで機能します。 メッセージは送信されず、アクションは実行されません。
+**テストモード：**ジャーニーを通じてテストプロファイルを送信し、実際のアクションをトリガーし、テストメッセージを生成します。 ドラフトジャーニー + 名前空間が必要です。
+**ドライラン：**何も送信せずに実行パスを追跡します。 任意のジャーニーステータスで機能します。 メッセージは送信されず、アクションは実行されません。
 **連携して使用：**&#x200B;メッセージテストのテストモード + ロジック検証のドライラン - 包括的なカバレッジ。
 
 ### Q：実稼動/ライブステータスでジャーニーをテストできますか？
 
-**テストモード：**&#x200B;いいえ – ドラフトジャーニーのみ
-**ドライラン：**&#x200B;はい – どのジャーニーステータスでも機能します
-**コンテンツのプレビュー：**&#x200B;はい – いつでも個々のメッセージをプレビューできます
+**テストモード：**いいえ – ドラフトジャーニーのみ
+**ドライラン：**はい – どのジャーニーステータスでも機能します
+**コンテンツのプレビュー：**はい – いつでも個々のメッセージをプレビューできます
 **回避策：** ライブジャーニーをドラフトに複製して、完全なテストモードの検証を行います
 
 ### 質問：外部統合が必要なテスト機能はどれですか？
 
-**メールのレンダリング：**&#x200B;にはLitmus統合が必要です（個別ライセンス）
-**その他：**&#x200B;Journey Optimizerに組み込まれています。他の統合は必要ありません
+**メールのレンダリング：**にはLitmus統合が必要です（個別ライセンス）
+**その他：**Journey Optimizerに組み込まれています。他の統合は必要ありません
 **注：** テスト プロファイルには、Real-time Customer Profile Service （付属）が必要です
 
 ### 質問：API トリガーキャンペーンをテストするにはどうすればよいですか？
 
 **オプション 1:** プログラマティック テストに[Campaign Simulation API](https://developer.adobe.com/journey-optimizer-apis/references/simulations){target-&quot;_blank&quot;}を使用する
 **オプション 2:** UIでテストプロファイルを使用してコンテンツをプレビュー
-**オプション 3:**&#x200B;電子メールアドレスをテストするためのプルーフの送信
+**オプション 3:**電子メールアドレスをテストするためのプルーフの送信
 **ベストプラクティス：**&#x200B;包括的な検証のために3つすべてを組み合わせる
 
 >[!ENDTABS]

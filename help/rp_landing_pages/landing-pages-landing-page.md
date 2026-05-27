@@ -7,20 +7,20 @@ redpen-status: CREATED_||_2025-08-12_00-37-59
 exl-id: 94ad5ecb-b1f1-4fd7-8ef4-5fdbae25ae36
 source-git-commit: 2b907a3be8b11ac6308d0b563e122c88478d1d37
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '297'
 ht-degree: 100%
 
 ---
 
 # ランディングページ{#section-overview}
 
-Adobe Journey Optimizer のランディングページを使用すると、ニュースレターの購読、コミュニケーションのオプトアウト、メールの確認など、オーディエンスに関与し、特定のアクションを推進する、カスタマイズされたスタンドアロンの web ページを作成できます。購読リストの管理、インタラクティブコンテンツのデザイン、パフォーマンスのトラッキングなど、ランディングページはカスタマージャーニーを強化する汎用性の高いツールです。この節では、ページの設定とデザインからリアルタイムのデータとレポートの使用まですべてを分類し、影響力のある使いやすいエクスペリエンスを作成するツールについて説明します。各機能がどのように目標につながり、シームレスな顧客インタラクションを作成するかについて詳しく説明します。
+Adobe Journey Optimizer のランディングページを使用すると、ニュースレターの購読、コミュニケーションのオプトアウト、メールの確認など、オーディエンスに関与し、特定のアクションを推進する、カスタマイズされたスタンドアロンの web ページを作成できます。 購読リストの管理、インタラクティブコンテンツのデザイン、パフォーマンスのトラッキングなど、ランディングページはカスタマージャーニーを強化する汎用性の高いツールです。 この節では、ページの設定とデザインからリアルタイムのデータとレポートの使用まですべてを分類し、影響力のある使いやすいエクスペリエンスを作成するツールについて説明します。 各機能がどのように目標につながり、シームレスな顧客インタラクションを作成するかについて詳しく説明します。
 
 ## Adobe Journey Optimizer のランディングページ
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 ランディングページの概要
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer のランディングページを使用すると、ニ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 ランディングページの作成と公開
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer のランディングページを使用すると、ニ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 ランディングページの管理
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer のランディングページを使用すると、ニ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 ランディングページのコンテンツのデザイン
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer のランディングページを使用すると、ニ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 購読リストの作成と管理
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer のランディングページを使用すると、ニ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 ランディングページのユースケース
 

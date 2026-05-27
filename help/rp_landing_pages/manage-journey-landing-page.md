@@ -7,20 +7,20 @@ redpen-status: CREATED_||_2025-08-11_20-08-03
 exl-id: 9f74019a-9a29-40f3-8f94-253814b984c0
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '322'
 ht-degree: 100%
 
 ---
 
 # ジャーニーの管理{#section-overview}
 
-Adobe Journey Optimizer におけるジャーニーの管理とは、カスタマーエクスペリエンスがチャネルをまたいでどのように展開されるかを整理および調整するツールを提供することです。この節では、ジャーニーのタイプ、ステータス、フィルター条件などの主要な概念を取り上げ、ジャーニーを開始、進行および終了する様々な方法を説明します。スケジュールの視覚化、送信時間の最適化および環境間のジャーニーの転送の方法について説明します。パーソナライズされたエクスペリエンスを構築したり、より効果的なエンゲージメントのために AI を活用したりする場合に、このガイドを参照して、自信を持ってジャーニーを設計および管理するのに役立つ実用的な手順とインサイトを確認できます。
+Adobe Journey Optimizer におけるジャーニーの管理とは、カスタマーエクスペリエンスがチャネルをまたいでどのように展開されるかを整理および調整するツールを提供することです。 この節では、ジャーニーのタイプ、ステータス、フィルター条件などの主要な概念を取り上げ、ジャーニーを開始、進行および終了する様々な方法を説明します。 スケジュールの視覚化、送信時間の最適化および環境間のジャーニーの転送の方法について説明します。 パーソナライズされたエクスペリエンスを構築したり、より効果的なエンゲージメントのために AI を活用したりする場合に、このガイドを参照して、自信を持ってジャーニーを設計および管理するのに役立つ実用的な手順とインサイトを確認できます。
 
 ## ジャーニーの管理
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 ジャーニーの参照とフィルタリング
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer におけるジャーニーの管理とは、カスタ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 ジャーニーのプロファイルエントリ
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer におけるジャーニーの管理とは、カスタ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 ジャーニーでの補助識別子の使用
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer におけるジャーニーの管理とは、カスタ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 タイムゾーンの管理
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer におけるジャーニーの管理とは、カスタ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 送信時間の最適化
 
@@ -70,7 +70,7 @@ AI 駆動モデルを使用して最適な送信時間を予測することで�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 ジャーニーの終了
 
