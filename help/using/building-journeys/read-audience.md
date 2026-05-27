@@ -434,7 +434,7 @@ To activate this mode, click the **Segment Filters** toggle. Two fields are disp
 * [&#x200B; ジャーニーのテスト &#x200B;](testing-the-journey.md) – 本番稼働前に、テストプロファイルを使用してジャーニーロジックを検証します。
 * [&#x200B; ジャーニーを公開](../building-journeys/publish-journey.md) - ジャーニーをアクティブ化し、その最初の実行を監視します。
 * [購読者にメッセージを送信](message-to-subscribers-uc.md) - エンドツーエンドのユースケース：設定から配信まで、オーディエンスの読み取りジャーニーで購読リストをターゲティングします。
-* [&#x200B; オーディエンスジャーニーの読み取りに関するベストプラクティス &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445){target="_blank"} – 一般的な落とし穴、カウントの不一致、実績のあるベストプラクティスを取り上げたコミュニティブログ。
+* [&#x200B; オーディエンスジャーニーの読み取りに関するベストプラクティス &#x200B;](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-read-audience-journeys-in-adobe-journey-optimizer-a/ba-p/761445?profile.language=ja){target="_blank"} – 一般的な落とし穴、カウントの不一致、実績のあるベストプラクティスを取り上げたコミュニティブログ。
 
 ## チュートリアルビデオ {#video}
 
