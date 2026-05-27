@@ -1,5 +1,5 @@
 ---
-title: AIを活用した受信トレイへの電子メールの最適化
+title: AI インボックス用のメールの最適化
 description: 専用バージョンのメッセージを生成して調整することで、AIを活用して最適化されたメールDesignerで、AIを活用した受信トレイの顧客がメールの要約や意図の抽出をおこなう際に、オファーやCTAを活用できるようになります。
 feature: Email Design
 topic: Content Management, Artificial Intelligence
@@ -8,14 +8,14 @@ level: Beginner, Intermediate
 exl-id: 0c2f95ce-28a0-480c-9829-b7e4975b6340
 source-git-commit: 0d0999b831d01442c46015361018d6e646abc33c
 workflow-type: tm+mt
-source-wordcount: '1069'
-ht-degree: 1%
+source-wordcount: '1115'
+ht-degree: 3%
 
 ---
 
-# AIを活用した受信トレイへの電子メールの最適化 {#email-text-optimizer}
+# AI インボックス用のメールの最適化 {#email-text-optimizer}
 
-[!DNL Adobe Journey Optimizer]には、AIを活用した受信トレイのエクスペリエンスを向上させるために、特定のバージョンのメッセージを作成できるメールチャネル機能が搭載されています（[!DNL Apple Intelligence]の[!DNL Google Gemini]や[!DNL Gmail]など）。これにより、より正確に質問に答え、コンテンツに基づいてメールを要約して、より良い結果を得ることができます。
+[!DNL Adobe Journey Optimizer]には、AIを活用した受信トレイのエクスペリエンスを向上させるために、特定のバージョンのメッセージを作成できるメールチャネル機能が搭載されています（[!DNL Gmail]の[!DNL Apple Intelligence]や[!DNL Google Gemini]など）。これにより、より正確に質問に答え、コンテンツに基づいてメールを要約して、より良い結果を得ることができます。
 
 この機能を利用することで、メッセージの専用バージョンを生成して改善できるので、AIを活用した受信トレイのエクスペリエンスでは、自動生成されたテキストや無関係なコンテキストではなく、オファー、CTA、詳細が表示される可能性が高まります。
 
@@ -27,7 +27,7 @@ ht-degree: 1%
 
 ## 仕組み {#how-it-works}
 
-AIを活用した受信トレイのエクスペリエンスで受信者が尋ねる一般的な質問は、*このメールの内容は何ですか？*&#x200B;または&#x200B;*これらのオファーは何ですか？*。
+受信者がAIを利用した受信トレイで尋ねる一般的な質問は、*このメールの内容*&#x200B;です。 または&#x200B;*これらのオファーは何ですか？*
 
 * これらのAI アシスタントが提供する回答は、短い要約です（例えば、メッセージがプロモーションであること、VIPへの早期アクセスとセールに言及していること、商品カテゴリへのリンクが含まれているなど）。 しかし、アシスタントが効果的に表示されるテキストから推測しているため、マーケターが気にかけていた目標は省略されています。必ずしも、意図したストーリー全体を把握しているわけではありません。
 
@@ -57,9 +57,9 @@ AIを活用した受信トレイのエクスペリエンスで受信者が尋ね
 
 >[!IMPORTANT]
 >
->この機能を使用する前に、関連する[&#x200B; リスクと制限事項](#inbox-ai-risks)をお読みください。
+>この機能を使用する前に、関連する[ リスクと制限事項](#inbox-ai-risks)をお読みください。
 >
->この機能にアクセスするには、[!DNL Journey Optimizer]で生成AIを初めて使用する場合に表示される使用許諾契約書に同意する必要があります。 詳しくは、[Adobe Experience Cloud生成AI ユーザーガイドライン &#x200B;](https://www.adobe.com/jp/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}を参照してください。
+>この機能にアクセスするには、[!DNL Journey Optimizer]で生成AIを初めて使用する場合に表示される使用許諾契約書に同意する必要があります。 詳しくは、[Adobe Experience Cloud生成AI ユーザーガイドライン ](https://www.adobe.com/jp/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}を参照してください。
 
 [!DNL Journey Optimizer]でのAI インボックス エクスペリエンス用にメールのコンテンツを最適化するには、次の手順に従います。
 
@@ -67,11 +67,11 @@ AIを活用した受信トレイのエクスペリエンスで受信者が尋ね
 
 1. AIによる読み取りと要約の主要な情報を強調表示する改善バージョンを生成するには、**[!UICONTROL AI インボックス用に最適化]** ボタンをクリックします。
 
-   ![電子メールDesignerの「AI受信トレイ用に最適化」ボタン &#x200B;](assets/optimize-for-ai-button.png){zoomable="yes" width="80%"}
+   ![電子メールDesignerの「AI受信トレイ用に最適化」ボタン ](assets/optimize-for-ai-button.png){zoomable="yes" width="80%"}
 
-1. [!DNL Journey Optimizer]で生成AIを初めて使用する場合は、使用許諾契約書に同意するよう求められます。 詳しくは、[Adobe生成AI ユーザーガイドライン &#x200B;](https://www.adobe.com/jp/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}を参照してください。
+1. [!DNL Journey Optimizer]で生成AIを初めて使用する場合は、使用許諾契約書に同意するよう求められます。 詳しくは、[Adobe生成AI ユーザーガイドライン ](https://www.adobe.com/jp/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}を参照してください。
 
-   Journey Optimizerの![生成AI ユーザー契約書ダイアログ &#x200B;](assets/optimize-ai-inbox-agreement.png){width=50%}
+   Journey Optimizerの![生成AI ユーザー契約書ダイアログ ](assets/optimize-ai-inbox-agreement.png){width=50%}
 
    「**[!UICONTROL 同意]**」をクリックして続行します。
 
@@ -89,11 +89,11 @@ AIを活用した受信トレイのエクスペリエンスで受信者が尋ね
 
 1. **[!UICONTROL HTML]** ビューにリダイレクトされ、メールはAI受信箱に対して正常に最適化されました。 再度アクセスするか、最適化バージョンを編集するには、**[!UICONTROL AI インボックス用に最適化]** ボタンをクリックします。
 
-   ![電子メールDesignerの「再最適化」ボタン &#x200B;](assets/optimize-ai-inbox-optimized-button.png){zoomable="yes" width="80%"}
+   ![電子メールDesignerの「再最適化」ボタン ](assets/optimize-ai-inbox-optimized-button.png){zoomable="yes" width="80%"}
 
 1. 最適化バージョンが表示されます。 **[!UICONTROL 最適化を削除]**&#x200B;するか、**[!UICONTROL 最適化を再最適化]**&#x200B;して新しいバージョンを生成します。
 
-   ![以前に電子メール Designerで最適化されたバージョン &#x200B;](assets/optimize-ai-inbox-optimized-version.png){zoomable="yes" width="80%"}
+   ![以前に電子メール Designerで最適化されたバージョン ](assets/optimize-ai-inbox-optimized-version.png){zoomable="yes" width="80%"}
 
    >[!NOTE]
    >
@@ -111,7 +111,7 @@ AI インボックス用メールの最適化機能を使用すると、メー�
 
 * **ブランドおよび法的な露出** – 不正確または不完全なAIによる要約でも、プロモーション、条件、オプトアウト言語に関する顧客の混乱や紛争が生じる可能性があります。 [!DNL Journey Optimizer]では、最適化されたバージョンの電子メールがサードパーティのモデルによって正確に再現されることを保証しません。
 
-* **[!UICONTROL の]** AI インボックス用に最適化[!DNL Journey Optimizer] — メール Designerのオーサリング時間コントロールは、エンドユーザーのインボックス アシスタントとは別になっています。 送信前に生成されたコンテンツを必ず確認する。
+* [!DNL Journey Optimizer]の&#x200B;**[!UICONTROL AI インボックス用に最適化]** — メール Designerのオーサリング時間コントロールは、エンドユーザーのインボックス アシスタントとは別になっています。 送信前に生成されたコンテンツを必ず確認する。
 
 ## 関連トピック {#related-topics}
 
