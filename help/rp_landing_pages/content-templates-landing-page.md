@@ -20,7 +20,7 @@ Adobe Journey Optimizer のコンテンツテンプレートは、キャンペ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 コンテンツテンプレートの基本を学ぶ
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer のコンテンツテンプレートは、キャンペ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 テンプレートへのアクセスと管理
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer のコンテンツテンプレートは、キャンペ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 コンテンツテンプレートの作成
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer のコンテンツテンプレートは、キャンペ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
 
 メールテンプレートのコンテンツのロック
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer のコンテンツテンプレートは、キャンペ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 コンテンツテンプレートのテスト
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer のコンテンツテンプレートは、キャンペ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 コンテンツテンプレートの使用
 

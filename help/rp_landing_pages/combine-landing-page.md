@@ -20,7 +20,7 @@ Adobe Journey Optimizer のクロスソリューションのユースケース�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 Adobe ソリューションを組み合わせたコンテンツ管理
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer を Experience Manager、Stock、Express、GenStudio な
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=ja)
 
 Adobe Experience Manager Assets の使用
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer で Adobe Experience Manager Assets からアセット�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/images.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/images.svg?lang=ja)
 
 Adobe Stock 画像の操作
 
@@ -50,7 +50,7 @@ Adobe Stock 画像の操作
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/pencil-ruler.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/pencil-ruler.svg?lang=ja)
 
 Adobe Express を使用したアセットの編集
 
@@ -60,7 +60,7 @@ Adobe Express を Adobe Journey Optimizer に統合して、アセットから�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 AEM コンテンツフラグメントの操作
 
@@ -70,7 +70,7 @@ AEM コンテンツフラグメントを Adobe Journey Optimizer と統合して
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 Dynamic Media の操作
 

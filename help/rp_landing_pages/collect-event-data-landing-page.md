@@ -25,7 +25,7 @@ Adobe Journey Optimizer でイベントデータを収集すると、決定数�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
 
 意思決定管理データ収集の基本を学ぶ
 
@@ -35,7 +35,7 @@ Adobe Journey Optimizer でイベントデータを収集すると、決定数�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 エクスペリエンスイベントを収集するデータセットの作成方法
 
@@ -45,7 +45,7 @@ Adobe Journey Optimizer でエクスペリエンスイベントを収集する�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 意思決定管理のイベントデータキャプチャの設定
 
