@@ -22,10 +22,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 087a4bd254486a4962d8338d1d35ffb5345341af
 workflow-type: tm+mt
-source-wordcount: 288
-ht-degree: 100%
+source-wordcount: 314
+ht-degree: 92%
 
 ---
 
@@ -46,6 +46,8 @@ API トリガーキャンペーンを設定したら、アクティブ化する�
    エラーが発生した場合は、キャンペーンをアクティブ化できません。 続行する前にエラーを解決します。
 
    ![](assets/create-campaign-alerts.png)
+
+1. キャンペーンがコンテンツで[決定ポリシー](../experience-decisioning/create-decision.md)を使用する場合、各ポリシーの構造を確認し、キャンペーンの概要から技術的な詳細を直接コピーできます。 [詳細情報](../experience-decisioning/use-decision-policy.md#decision-policy-summary)
 
 1. キャンペーンが正しく設定されていることを確認してから、「**[!UICONTROL アクティブ化]**」をクリックします。
 

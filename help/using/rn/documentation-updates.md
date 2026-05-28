@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: a99544946642a625594f4c99eb869dd33299d583
+source-git-commit: eb2b97776f60b73c53d666b11f807aca29514059
 workflow-type: tm+mt
-source-wordcount: 7969
-ht-degree: 90%
+source-wordcount: 8005
+ht-degree: 89%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 90%
 このページでは、毎月のリリースの機能と改善点に関連する更新に加えて、[!DNL Journey Optimizer] ドキュメントの最新の変更点をすべて一覧表示しています。
 
 ## 2026年5月 {#may-2026}
+
+* メッセージで決定ポリシーを使用&#x200B;**ドキュメントでは、キャンペーンの概要から決定ポリシーの完全な構造を表示し、トラブルシューティングのためにJSON テクニカルサマリーをクリップボードにコピーする方法について説明しています。**&#x200B;[詳細情報](../experience-decisioning/use-decision-policy.md#decision-policy-summary)
 
 * **リリースノート** ページがトピックベースのレイアウトで再構築されました。 変更は、変更タイプではなく製品領域でグループ化され、新しい専用の&#x200B;**ユーザビリティの改善** セクションが追加されました。 近日公開されるエントリは、各トピック内で拡張可能なアコーディオンとして表示されます。 [詳細情報](release-notes.md)
 
@@ -545,7 +547,7 @@ ht-degree: 90%
 * ジャーニーの再エントリ管理に関する節を追加しました。 [詳細情報](../building-journeys/read-audience.md#read-audience-retry)
 * カスタムアクションのキャップ／スロットルルールに関する FAQ が更新され、デフォルトのキャップルールに言及するようになりました。 [詳細情報](../configuration/external-systems.md#faq)
 * アクセスの制御の節が更新されて、AI アシスタントコンテンツジェネレーターに関連する権限が追加されました。 [詳細情報](../administration/high-low-permissions.md#ai-orchestrated-campaign)
-* メール生成用の AI アシスタントコンテンツジェネレーターに関するビデオが追加されました。 [詳細情報](../content-management/generative-full-content.md#video)
+* メール生成用の AI アシスタントコンテンツジェネレーターに関するビデオが追加されました。 [詳細を表示](../content-management/generative-full-content.md#video)
 
 +++
 
