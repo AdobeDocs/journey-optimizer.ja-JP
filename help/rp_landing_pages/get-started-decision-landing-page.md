@@ -8,8 +8,8 @@ badge: label="レガシー" type="Informative"
 exl-id: e4cd7cbb-9f3f-4406-95cc-6b0c4179e641
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 98%
+source-wordcount: '307'
+ht-degree: 100%
 
 ---
 
@@ -17,15 +17,15 @@ ht-degree: 98%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../using/experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。 [詳細情報](../using/experience-decisioning/gs-experience-decisioning.md)
 
-Adobe Journey Optimizer の意思決定管理により、マーケターは複数のチャネルをまたいで、最適なタイミングでお客様に適切なパーソナライズされたオファーを配信できます。一元化されたオファーライブラリと強力な決定エンジンを組み合わせることで、独自プロファイルとビジネスルールに基づいてメッセージをカスタマイズできます。実施要件条件の定義、フォールバックオプションの管理、優先プレースメントのオファーのランク付けなど、プロセスは効率化され、直感的です。この節では、オファーやコレクションの作成からキャンペーンへの決定の統合までの主なコンポーネントについて説明します。これにより、オーディエンスの共感を得られ、エンゲージメントを推進する有意義なエクスペリエンスを作成できます。
+Adobe Journey Optimizer の意思決定管理により、マーケターは複数のチャネルをまたいで、最適なタイミングでお客様に適切なパーソナライズされたオファーを配信できます。 一元化されたオファーライブラリと強力な決定エンジンを組み合わせることで、独自プロファイルとビジネスルールに基づいてメッセージをカスタマイズできます。 実施要件条件の定義、フォールバックオプションの管理、優先プレースメントのオファーのランク付けなど、プロセスは効率化され、直感的です。 この節では、オファーやコレクションの作成からキャンペーンへの決定の統合までの主なコンポーネントについて説明します。これにより、オーディエンスの共感を得られ、エンゲージメントを推進する有意義なエクスペリエンスを作成できます。
 
-## 意思決定管理の導入方法
+## 意思決定管理の基本を学ぶ
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 意思決定管理の概要
 
@@ -35,7 +35,7 @@ Adobe Journey Optimizer の意思決定管理により、マーケターは複�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 意思決定管理ガードレールと制限
 
@@ -45,7 +45,7 @@ Adobe Journey Optimizer の意思決定管理により、マーケターは複�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 オファーライブラリのユーザーインターフェイスガイド
 
@@ -55,7 +55,7 @@ Adobe Journey Optimizer の意思決定管理により、マーケターは複�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 オファーを作成および管理する主要ステップ
 
@@ -65,7 +65,7 @@ Adobe Journey Optimizer でオファーと決定を作成、管理、設定す�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 決定にカスタムアップロードオーディエンスを使用
 
@@ -75,7 +75,7 @@ Adobe Journey Optimizer でオファーと決定を作成、管理、設定す�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 メールでのパーソナライズされたオファーの使用
 

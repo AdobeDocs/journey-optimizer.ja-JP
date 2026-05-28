@@ -7,20 +7,20 @@ redpen-status: CREATED_||_2025-08-11_20-31-35
 exl-id: fe9456c9-50ae-442d-80d3-81b708d3494b
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '266'
 ht-degree: 100%
 
 ---
 
 # コンテンツ作成を開始する{#section-overview}
 
-Adobe Journey Optimizer でのコンテンツの作成では、柔軟性と効率性により、オーディエンスとつながるパーソナライズされたメールをデザインすることが重要です。ゼロから始める場合や、既存の HTML を読み込む場合、独自のコンテンツをコーディングする場合、テンプレートを使用する場合、再利用可能なテーマを適用する場合のいずれであっても、ニーズとスキルに一致した適切なアプローチを見つけることができます。それぞれのメソッドでは、ドラッグ＆ドロップ編集、動的コンテンツ、モジュールデザインなどの独自のツールと機能が用意され、説得力のあるメッセージを作成するのに役立ちます。このガイドでは、これらのオプションが連携することで、自信を持ってメールキャンペーンを作成、カスタマイズ、効率化できる仕組みについて説明します。
+Adobe Journey Optimizer でのコンテンツの作成では、柔軟性と効率性により、オーディエンスとつながるパーソナライズされたメールをデザインすることが重要です。 ゼロから始める場合や、既存の HTML を読み込む場合、独自のコンテンツをコーディングする場合、テンプレートを使用する場合、再利用可能なテーマを適用する場合のいずれであっても、ニーズとスキルに一致した適切なアプローチを見つけることができます。 それぞれのメソッドでは、ドラッグ＆ドロップ編集、動的コンテンツ、モジュールデザインなどの独自のツールと機能が用意され、説得力のあるメッセージを作成するのに役立ちます。 このガイドでは、これらのオプションが連携することで、自信を持ってメールキャンペーンを作成、カスタマイズ、効率化できる仕組みについて説明します。
 
 ## コンテンツ作成を開始する
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 メールコンテンツのゼロからのデザイン
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer の E メールデザイナーを使用して、パー�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 既存のメールコンテンツを読み込む
 
@@ -40,7 +40,7 @@ HTML コンテンツを Adobe Journey Optimizer に読み込み、デザイン�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 独自のメールコンテンツのコーディング
 
@@ -50,7 +50,7 @@ HTML コンテンツを Adobe Journey Optimizer に読み込み、デザイン�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 メールテンプレートの操作
 
@@ -60,7 +60,7 @@ HTML コンテンツを Adobe Journey Optimizer に読み込み、デザイン�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 メールテーマの活用
 

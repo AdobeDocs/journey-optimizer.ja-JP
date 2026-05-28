@@ -8,7 +8,7 @@ badge: label="レガシー" type="Informative"
 exl-id: 09ba2a43-f7f3-4414-b7b3-64c9932ff6c7
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '247'
 ht-degree: 100%
 
 ---
@@ -17,15 +17,15 @@ ht-degree: 100%
 
 >[!TIP]
 >
->[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。[詳細情報](../using/experience-decisioning/gs-experience-decisioning.md)
+>[!DNL Adobe Journey Optimizer] の新しい決定機能である決定が、コードベースのエクスペリエンスチャネルとメールチャネルを通じて使用できるようになりました。 [詳細情報](../using/experience-decisioning/gs-experience-decisioning.md)
 
-コンテキストデータにより、Adobe Journey Optimizer はリアルタイムの情報を使用して決定の結果を形成することで、よりスマートでパーソナライズされたエクスペリエンスを作成できます。ユーザーのデバイスタイプに基づいてオファーをカスタマイズする場合でも、気象データを活用して実施要件ルールを絞り込む場合でも、コンテキストデータを使用すると、戦略を正確に調整できます。このガイドでは、Decisioning と Edge Decisioning という 2 つの主な API をまたいでコンテキストデータの仕組みを説明し、それぞれの独自の強み、制限、ユースケースに焦点を当てます。コンテキストデータを渡して適用する方法、実施要件ルールを設定する方法、ランキング式を使用する方法など段階的に説明します。これにより、キャンペーンでその可能性を最大限に引き出すことができます。
+コンテキストデータにより、Adobe Journey Optimizer はリアルタイムの情報を使用して決定の結果を形成することで、よりスマートでパーソナライズされたエクスペリエンスを作成できます。 ユーザーのデバイスタイプに基づいてオファーをカスタマイズする場合でも、気象データを活用して実施要件ルールを絞り込む場合でも、コンテキストデータを使用すると、戦略を正確に調整できます。 このガイドでは、Decisioning と Edge Decisioning という 2 つの主な API をまたいでコンテキストデータの仕組みを説明し、それぞれの独自の強み、制限、ユースケースに焦点を当てます。 コンテキストデータを渡して適用する方法、実施要件ルールを設定する方法、ランキング式を使用する方法など段階的に説明します。これにより、キャンペーンでその可能性を最大限に引き出すことができます。
 
 ## コンテキストデータの活用
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 コンテキストデータの基本を学ぶ
 
@@ -35,7 +35,7 @@ Decisioning API リクエストと Edge Decisioning API リクエストの違い
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Edge Decisioning リクエストでのコンテキストデータの使用
 
@@ -45,7 +45,7 @@ Edge Decisioning リクエストでのコンテキストデータの使用
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 決定リクエストと実施要件ルールでのコンテキストデータの使用
 

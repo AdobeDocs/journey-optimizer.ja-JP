@@ -7,20 +7,20 @@ redpen-status: CREATED_||_2025-08-11_20-09-57
 exl-id: 9342ef70-43a7-4763-9ae0-bb95b8b7f7f1
 source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '418'
 ht-degree: 84%
 
 ---
 
 # アクティビティ{#section-overview}
 
-Adobe Journey Optimizer のアクティビティとは、ユーザーがイベントをトリガーし、意思決定を行い、様々なチャネルで有意義なアクションを実行できる、カスタマージャーニーの具体的な構成要素です。購入イベントのリッスン、パーソナライズされたメールの送信、リアルタイムでのプロファイルの更新など、アクティビティを使用すると、ジャーニーのすべての手順をカスタマイズできます。イベント、オーケストレーション、アクションなどの各タイプのアクティビティは、それぞれが独自の役割を果たし、連携しながらシームレスで魅力的なエクスペリエンスを作成します。これらのツールを検討する際には、トリガー、条件、アクションを使用して、顧客のニーズに合わせて動的なジャーニーを構築する方法を紹介します。
+Adobe Journey Optimizer のアクティビティとは、ユーザーがイベントをトリガーし、意思決定を行い、様々なチャネルで有意義なアクションを実行できる、カスタマージャーニーの具体的な構成要素です。 購入イベントのリッスン、パーソナライズされたメールの送信、リアルタイムでのプロファイルの更新など、アクティビティを使用すると、ジャーニーのすべての手順をカスタマイズできます。 イベント、オーケストレーション、アクションなどの各タイプのアクティビティは、それぞれが独自の役割を果たし、連携しながらシームレスで魅力的なエクスペリエンスを作成します。 これらのツールを検討する際には、トリガー、条件、アクションを使用して、顧客のニーズに合わせて動的なジャーニーを構築する方法を紹介します。
 
 ## Adobe Journey Optimizer のアクティビティ
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 ジャーニーのアクティビティの概要
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer のイベント、オーケストレーション、ア�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 一般的なイベントの使用
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer のイベント、オーケストレーション、ア�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 反応イベントの設定
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer のイベント、オーケストレーション、ア�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 オーディエンスの選定イベント
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer のイベント、オーケストレーション、ア�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 「最適化」アクティビティの使用（条件）
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer のイベント、オーケストレーション、ア�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
 
 待機アクティビティの設定
 

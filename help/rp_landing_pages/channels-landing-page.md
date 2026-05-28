@@ -6,7 +6,7 @@ description: 通信チャネル
 redpen-status: CREATED_||_2025-08-11_20-45-04
 source-git-commit: 79fdb9535703e961922dfcfaaad1b6731d2d88c0
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '424'
 ht-degree: 100%
 
 ---
@@ -14,13 +14,13 @@ ht-degree: 100%
 
 # 通信チャネル{#section-overview}
 
-Adobe Journey Optimizer の通信チャネルを使用すると、様々なタッチポイントをまたいで顧客とつながり、エンゲージメントとロイヤルティを高める、パーソナライズされたタイムリーなメッセージを配信できます。メール、SMS、プッシュ通知、ダイレクトメール（アウトバウンドチャネル）を通じてプロアクティブにリーチする場合でも、アプリ内メッセージ、web エクスペリエンス、パーソナライズされたコンテンツカード（インバウンドチャネル）などの顧客が開始したインタラクションに応答する場合でも、各チャネルはシームレスに機能してマーケティング戦略をサポートします。この節では、これらのチャネルの違い、ジャーニーやキャンペーンへの統合方法、独自の目標を満たすチャネルを設定する方法について説明します。これらはすべて、実行を簡素化し、影響を最大化するようにデザインされたツールによって実現されます。
+Adobe Journey Optimizer の通信チャネルを使用すると、様々なタッチポイントをまたいで顧客とつながり、エンゲージメントとロイヤルティを高める、パーソナライズされたタイムリーなメッセージを配信できます。 メール、SMS、プッシュ通知、ダイレクトメール（アウトバウンドチャネル）を通じてプロアクティブにリーチする場合でも、アプリ内メッセージ、web エクスペリエンス、パーソナライズされたコンテンツカード（インバウンドチャネル）などの顧客が開始したインタラクションに応答する場合でも、各チャネルはシームレスに機能してマーケティング戦略をサポートします。 この節では、これらのチャネルの違い、ジャーニーやキャンペーンへの統合方法、独自の目標を満たすチャネルを設定する方法について説明します。これらはすべて、実行を簡素化し、影響を最大化するようにデザインされたツールによって実現されます。
 
 ## 通信チャネル
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 通信チャネルの概要
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer で使用できるアウトバウンドおよびイン�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 メールチャネル
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer で使用できるアウトバウンドおよびイン�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
 
 アプリ内メッセージ
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer で使用できるアウトバウンドおよびイン�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 プッシュ通知チャネル
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer で使用できるアウトバウンドおよびイン�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/comment-dots.svg)
 
 SMS／MMS／RCS メッセージ
 
@@ -70,7 +70,7 @@ SMS／MMS／RCS メッセージ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/mail-bulk.svg)
 
 ダイレクトメールキャンペーン
 
