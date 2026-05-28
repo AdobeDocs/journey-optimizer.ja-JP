@@ -8,26 +8,15 @@ role: Admin, Developer, User
 level: Beginner
 exl-id: 14e72376-87ad-4fae-bf8c-f347109d7903
 TQID: https://experienceleague.adobe.com/-aDvt4RUXyf0EnPfFTJkG1CvWgte-1Fr6YaWvgcNNu4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 0047bf4386b33c99fded37750e24ed9fbf4188f6
 workflow-type: tm+mt
-source-wordcount: 1573
+source-wordcount: 1569
 ht-degree: 33%
 
 ---
@@ -75,7 +64,7 @@ ht-degree: 33%
 
 | 用語 | 定義 |
 |------|------------|
-| **決定** | 新しい実装に推奨される、Journey Optimizerの現在の世代の意思決定フレームワーク。 スキーマベースの商品カタログ管理、柔軟な収集ルール、再利用可能な決定コンポーネント、実験機能を提供します。 コードベースのエクスペリエンス、プッシュ通知、SMS、電子メールで利用できます（利用制限あり）。 [詳細情報](../experience-decisioning/gs-experience-decisioning.md) |
+| **決定** | 新しい実装に推奨される、Journey Optimizerの現在の世代の意思決定フレームワーク。 スキーマベースの商品カタログ管理、柔軟な収集ルール、再利用可能な決定コンポーネント、実験機能を提供します。 コードベースのエクスペリエンス、プッシュ通知、SMS、電子メールで利用できます。 [詳細情報](../experience-decisioning/gs-experience-decisioning.md) |
 | **意思決定管理** | Journey Optimizerのレガシーオファー決定機能。 マーケティングオファーの一元的なライブラリと、リアルタイムの顧客プロファイルに制約を適用するルールベースの意思決定エンジンを使用します。 既存の実装では引き続きサポートされますが、新しい実装では代わりにDecisioningを使用する必要があります。 メール、アプリ内、プッシュ通知、SMS、ダイレクトメールをサポートしています。 [詳細情報](../offers/get-started/starting-offer-decisioning.md) |
 | **オファー** | 顧客に提示できるマーケティングメッセージ、ディスカウントまたはプロモーション。 オファーには、オファーを受信できる顧客を決定する実施要件ルールが含まれています。 [詳細情報](../offers/offer-library/creating-personalized-offers.md) |
 | **決定ポリシー** | 実施要件、優先度、キャッピングルールなどの制約に基づいて、どのオファーをどの顧客に何時に表示するかを決定する一連のルールと戦略。 [詳細情報](../experience-decisioning/create-decision.md) |
@@ -106,11 +95,11 @@ Adobe Journey Optimizerは数年前から成長しており、いくつかの機
 |---|---|---|
 | **ステータス** | 現在の環境 – すべての新しい実装に推奨 | **レガシー** – 引き続きサポートされますが、新しい実装には推奨されません |
 | **アイテムカタログ** | スキーマベースの柔軟なメタデータ | 一元化されたオファーライブラリ |
-| **サポートされているチャネル** | コードベースのエクスペリエンス、プッシュ通知、SMS、電子メール（限定提供） | 電子メール、アプリ内、プッシュ通知、SMS、ダイレクトメール |
+| **サポートされているチャネル** | コードベースのエクスペリエンス、プッシュ通知、SMS、メール | 電子メール、アプリ内、プッシュ通知、SMS、ダイレクトメール |
 | **主要な差別化要因** | 再利用可能な意思決定コンポーネント、検証、広範なチャネルロードマップ | 実証済み制約エンジン、新しいプロジェクトのDecisioningに移行 |
 | **基本を学ぶ** | [決定](../experience-decisioning/gs-experience-decisioning.md) | [意思決定管理](../offers/get-started/starting-offer-decisioning.md) |
 
-現在、意思決定管理を使用しており、切り替えたい場合は、[移行ガイド &#x200B;](../experience-decisioning/migrate-to-decisioning.md)を参照してください。
+現在、意思決定管理を使用しており、切り替えたい場合は、[移行ガイド ](../experience-decisioning/migrate-to-decisioning.md)を参照してください。
 
 ### キャンペーンタイプ {#campaign-types-disambiguation}
 
@@ -121,9 +110,9 @@ Journey Optimizerでは、アクティベート方法が異なり、それぞれ
 | **アクティベーション** | 手動またはスケジュール | 外部API呼び出し | 視覚的なワークフローキャンバス |
 | **最適な用途** | 単発または定期的なバッチ送信（ニュースレター、プロモーション） | リアルタイムのイベント主導メッセージ（注文確認、パスワードリセット） | 複雑なマルチステップのクロスチャネルプログラム |
 | **Personalization ソース** | プロファイル属性 | プロファイル属性+ API ペイロードコンテキスト | プロファイル属性+リレーショナルデータ |
-| **基本を学ぶ** | [アクションキャンペーン](../campaigns/create-campaign.md) | [API トリガーのキャンペーン &#x200B;](../campaigns/api-triggered-campaigns.md) | [オーケストレーションキャンペーン](../orchestrated/gs-orchestrated-campaigns.md) |
+| **基本を学ぶ** | [アクションキャンペーン](../campaigns/create-campaign.md) | [API トリガーのキャンペーン ](../campaigns/api-triggered-campaigns.md) | [オーケストレーションキャンペーン](../orchestrated/gs-orchestrated-campaigns.md) |
 
-すべてのキャンペーンの種類と、それぞれのキャンペーンを使用するタイミングについて詳しくは、[&#x200B; キャンペーンの基本を学ぶ](../campaigns/get-started-with-campaigns.md)を参照してください。
+すべてのキャンペーンの種類と、それぞれのキャンペーンを使用するタイミングについて詳しくは、[ キャンペーンの基本を学ぶ](../campaigns/get-started-with-campaigns.md)を参照してください。
 
 ### 配信頻度の上限設定とジャーニーの調停 {#capping-vs-arbitration}
 
@@ -135,7 +124,7 @@ Journey Optimizerでは、アクティベート方法が異なり、それぞれ
 | **スコープ** | チャネルごと、コミュニケーションタイプ（セールス、プロモーションなど） | ジャーニー登録：同時ジャーニー数または獲得したジャーニー |
 | **メカニズム** | 期間ごとのメッセージ数の上限を設定します。過剰に勧誘されたプロファイルは自動的に除外されます | 優先スコアと上限ルールを使用して、プロファイルがどのジャーニーに入るかを決定します |
 | **で構成** | 頻度の上限→設定するルール | ルールセット → ジャーニーの上限設定と調停 |
-| **詳細情報** | [&#x200B; チャネル別に頻度の上限を設定](../conflict-prioritization/channel-capping.md) | [&#x200B; ジャーニーの上限設定と調停の管理](../conflict-prioritization/journey-capping.md) |
+| **詳細情報** | [ チャネル別に頻度の上限を設定](../conflict-prioritization/channel-capping.md) | [ ジャーニーの上限設定と調停の管理](../conflict-prioritization/journey-capping.md) |
 
 ### コンテンツカードとアプリ内メッセージの違い {#content-cards-vs-in-app}
 
@@ -147,17 +136,17 @@ Journey Optimizerでは、アクティベート方法が異なり、それぞれ
 | **永続性** | 明示的に却下または期限切れになるまで表示される | ユーザーが操作または閉じた後に消える |
 | **トリガー** | SDKは読み込み時にレンダリングされます。ルール制御の表示と却下 | ジャーニーまたはキャンペーンのトリガー配信におけるリアルタイムイベント |
 | **最適な用途** | 継続的なプロモーション、ロイヤルティステータス、永続的なアラート | オンボーディングのヒント、期間限定オファー、一時的な通知 |
-| **基本を学ぶ** | [&#x200B; コンテンツカード &#x200B;](../content-card/create-content-card.md) | [&#x200B; アプリ内メッセージ &#x200B;](../in-app/get-started-in-app.md) |
+| **基本を学ぶ** | [ コンテンツカード ](../content-card/create-content-card.md) | [ アプリ内メッセージ ](../in-app/get-started-in-app.md) |
 
 >[!NOTE]
 >
->**Adobe Journey OptimizerとJourney Optimizer B2B edition:**&#x200B;これらは、同じブランドファミリー内の2つの別個の商品です。 Adobe Journey Optimizer（このドキュメント）は、B2Cのカスタマージャーニーをターゲットにしています。 Journey Optimizer B2B editionは、アカウントベースドマーケティング向けに構築されており、購買グループやアカウントオーディエンスと連携します。 B2B edition ドキュメントをお探しの場合は、[Journey Optimizer B2B edition ガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/guide-overview){target="_blank"}を参照してください。
+>**Adobe Journey OptimizerとJourney Optimizer B2B edition:**&#x200B;これらは、同じブランドファミリー内の2つの別個の商品です。 Adobe Journey Optimizer（このドキュメント）は、B2Cのカスタマージャーニーをターゲットにしています。 Journey Optimizer B2B editionは、アカウントベースドマーケティング向けに構築されており、購買グループやアカウントオーディエンスと連携します。 B2B edition ドキュメントをお探しの場合は、[Journey Optimizer B2B edition ガイド ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/guide-overview){target="_blank"}を参照してください。
 
 ## 関連トピック {#related-topics}
 
 * [Journey Optimizerの仕組みを理解する](understanding-ajo.md) — ジャーニー、キャンペーン、プロファイル、チャネルが、プロダクト アーキテクチャでどのように組み合わされているかを確認します。
 * [意思決定機能の基本を学ぶ](../experience-decisioning/gs-decision.md) – 意思決定と意思決定管理を並べて比較し、導入に適したアプローチを選択します。
-* [&#x200B; ジャーニーの基本を学ぶ](../building-journeys/journey.md) — イベントをトリガーにして連続性のある顧客エクスペリエンスをステップバイステップで構築する方法を説明します。
-* [&#x200B; キャンペーンの基本を学ぶ](../campaigns/get-started-with-campaigns.md) —3つのキャンペーンタイプ（アクション、API トリガー、オーケストレーション）と、それぞれをいつ使用するかを理解します。
+* [ ジャーニーの基本を学ぶ](../building-journeys/journey.md) — イベントをトリガーにして連続性のある顧客エクスペリエンスをステップバイステップで構築する方法を説明します。
+* [ キャンペーンの基本を学ぶ](../campaigns/get-started-with-campaigns.md) —3つのキャンペーンタイプ（アクション、API トリガー、オーケストレーション）と、それぞれをいつ使用するかを理解します。
 * [競合管理と優先順位付け](../conflict-prioritization/gs-conflict-prioritization.md) — ルールセット、頻度の上限、優先度スコア、サイレントアワーを使用して、メッセージの過剰な送信を防ぐ方法を説明します。
-* [&#x200B; コミュニケーションチャネルの基本を学ぶ](../channels/gs-channels.md) – 利用可能なすべてのチャネル、その前提条件、およびそれらの設定方法を参照します。
+* [ コミュニケーションチャネルの基本を学ぶ](../channels/gs-channels.md) – 利用可能なすべてのチャネル、その前提条件、およびそれらの設定方法を参照します。
