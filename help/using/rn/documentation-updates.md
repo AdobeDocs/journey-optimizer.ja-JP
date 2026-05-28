@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a99544946642a625594f4c99eb869dd33299d583
 workflow-type: tm+mt
-source-wordcount: 7927
+source-wordcount: 7969
 ht-degree: 90%
 
 ---
@@ -30,6 +30,8 @@ ht-degree: 90%
 * **リリースノート** ページがトピックベースのレイアウトで再構築されました。 変更は、変更タイプではなく製品領域でグループ化され、新しい専用の&#x200B;**ユーザビリティの改善** セクションが追加されました。 近日公開されるエントリは、各トピック内で拡張可能なアコーディオンとして表示されます。 [詳細情報](release-notes.md)
 
 * **オーケストレーション キャンペーンのガードレールと制限** ページは、オーケストレーション キャンペーンごとに&#x200B;**チャネルアクティビティ**&#x200B;の制限を文書化するようになりました。 [詳細情報](../orchestrated/guardrails.md#activities-limitations)
+
+* サンドボックス間での&#x200B;**Journey Optimizer オブジェクトのコピー**&#x200B;のドキュメントに、**オーケストレーションされたキャンペーン**&#x200B;に関する重要なメモが含まれるようになりました。読み込み後、対象のサンドボックスでキャンペーンを複製し、レポートでフィードバックとトラッキングデータが正しく取得されるようにするために、複製を実行に使用します。 [詳細情報](../configuration/copy-objects-to-sandbox.md#copy-to-sandbox)
 
 * **主要な用語** ページが見直されました。6つの新しい用語が追加され、新しい&#x200B;**競合と優先順位付けの用語** セクションが導入され、新しい&#x200B;**用語が似ているときに**&#x200B;曖昧さ回避ガイドが4つの一般的に混同される用語ペアに追加されました。 Adobe Experience Platform固有の用語が削除され、Adobe Experience Platform用語集にリンクするメモに置き換えられました。 [詳細情報](../start/terminology.md)
 

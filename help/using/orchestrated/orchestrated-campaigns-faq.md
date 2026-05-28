@@ -23,10 +23,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a99544946642a625594f4c99eb869dd33299d583
 workflow-type: tm+mt
-source-wordcount: 2746
-ht-degree: 64%
+source-wordcount: 2765
+ht-degree: 63%
 
 ---
 
@@ -370,6 +370,7 @@ Journey Optimizer キャンペーンオーケストレーションは、リレ�
 **ベストプラクティス**
 
 * 実験、QA、本番環境用に&#x200B;**個別のサンドボックス**&#x200B;を維持します。
+* 読み込み直後に、[&#x200B; キャンペーン &#x200B;](../campaigns/manage-campaigns.md#duplicate-a-campaign)を複製し、複製から作業を行います。これにより、レポートでフィードバックと追跡データが正しく表示されます。
 * 各インポートの後、公開する前に、ターゲットサンドボックスでキャンペーンのエンドツーエンドを検証します。
 * 設定を文書化し、ガバナンスチームと連携して、環境間の設定のドリフトを減らします。
 
