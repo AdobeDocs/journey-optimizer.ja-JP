@@ -1195,7 +1195,7 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 >[!IMPORTANT]
 >
->このコンフィギュレーションは、Adobe Journey Optimizer チームによってテストされたイラストパターンです。 Adobe Target Recommendationsは、独自のリリースサイクルとAPI バージョン管理を備えた個別のAdobe製品です。 実稼動環境にデプロイする前に、常に現在のAPIの詳細を[Adobe Target開発者向けドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/target-dev/developer/overview)で確認してください。
+>このコンフィギュレーションは、Adobe Journey Optimizer チームによってテストされたイラストパターンです。 Adobe Target Recommendationsは、独自のリリースサイクルとAPI バージョン管理を備えた個別のAdobe製品です。 実稼動環境にデプロイする前に、常に現在のAPIの詳細を[Adobe Target開発者向けドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/target-dev/developer/overview)で確認してください。
 
 >[!BEGINSHADEBOX]
 
@@ -1221,7 +1221,7 @@ Adobe Targetには、使用権限に応じて、サーバーサイドまたは�
 
 Journey Optimizerでこの統合を設定するには、次の手順を使用します。 リクエストの詳細については、**統合フィールドのサンプル**&#x200B;を参照し、これらの値を環境のベンダードキュメントで確認してください。
 
-1. [統合の操作](integrations.md)に従います。 配信の呼び出しは、多くの場合、**POST**&#x200B;とJSON本文で行われます。 [&#x200B; ターゲット認証](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication){target="_blank"}ごとにOAuthを設定し、サンプル応答を貼り付け、フィールドをマッピングし、想定されるボリュームでテストします。
+1. [統合の操作](integrations.md)に従います。 配信の呼び出しは、多くの場合、**POST**&#x200B;とJSON本文で行われます。 [&#x200B; ターゲット認証](https://experienceleague.adobe.com/ja/docs/target-dev/developer/api/configure-authentication){target="_blank"}ごとにOAuthを設定し、サンプル応答を貼り付け、フィールドをマッピングし、想定されるボリュームでテストします。
 
 1. Journey Optimizerで、**[!UICONTROL Configurations]** > **[!UICONTROL Manage]**&#x200B;に移動し、**[!UICONTROL Create Integration]**&#x200B;を選択します。
 
@@ -1274,7 +1274,7 @@ Journey Optimizerでこの統合を設定するには、次の手順を使用し
 
 **認証**
 
-[Target認証設定](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/configure-authentication)を参照し、JSONをペイロードに追加してください。
+[Target認証設定](https://experienceleague.adobe.com/ja/docs/target-dev/developer/api/configure-authentication)を参照し、JSONをペイロードに追加してください。
 
 **要求ペイロード**
 
