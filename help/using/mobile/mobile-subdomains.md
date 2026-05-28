@@ -9,24 +9,13 @@ level: Intermediate
 keywords: SMS, サブドメイン, 設定
 exl-id: 08a546d1-060c-43e8-9eac-4c38945cc3e1
 TQID: https://experienceleague.adobe.com/8-zVIM8jOX2aNPSs2OWcjtG40u4aKfCHc6aroaaBFyQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
 workflow-type: tm+mt
 source-wordcount: 1036
 ht-degree: 90%
@@ -70,7 +59,7 @@ SMS サブドメインの設定は、**すべての環境間で共有**&#x200B;�
 
 1. **[!UICONTROL 管理]**／**[!UICONTROL チャネル]**&#x200B;メニューを参照して、**[!UICONTROL SMS 設定]**／**[!UICONTROL SMS サブドメイン]**&#x200B;を選択します。
 
-1. **[!UICONTROL サブドメインを設定]**&#x200B;をクリックします。
+1. 「**[!UICONTROL サブドメインを設定]**」をクリックします。
 
    ![](assets/sms_set-up-subdomain.png)
 
