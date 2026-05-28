@@ -24,7 +24,7 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 896
 ht-degree: 91%
@@ -118,7 +118,7 @@ ht-degree: 91%
 
 1. キャンペーンを作成し、**[!UICONTROL コードベースのエクスペリエンス]**&#x200B;アクションを選択します。 [詳細情報](../code-based/create-code-based.md)
 
-1. キャンペーンの概要ページで「**[!UICONTROL 実験を作成]**」をクリックして、コンテンツ実験を設定します。 [詳細情報](../content-management/content-experiment.md)
+1. キャンペーンの概要ページで「**[!UICONTROL 実験を作成]**」をクリックして、コンテンツ実験を設定します。 [方法について詳しくは、こちらを参照してください](../content-management/content-experiment.md)
 
    ![](assets/exd-uc-create-experiment.png){width="90%"}
 

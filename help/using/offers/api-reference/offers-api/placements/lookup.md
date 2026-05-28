@@ -23,7 +23,7 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 91
 ht-degree: 100%
@@ -48,7 +48,7 @@ GET /{ENDPOINT_PATH}/placements/{ID}
 | パラメーター | 説明 | 例 |
 | --------- | ----------- | ------- |
 | `{ENDPOINT_PATH}` | 永続性 API のエンドポイントパス。 | `https://platform.adobe.io/data/core/dps/` |
-| `{ID}` | 参照するエンティティの ID。 | `offerPlacement1234` |
+| `{ID}` | 検索するエンティティの ID。 | `offerPlacement1234` |
 
 ```shell
 curl -X GET 'https://platform.adobe.io/data/core/dps/placements/offerPlacement1234' \

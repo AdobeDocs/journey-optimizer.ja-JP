@@ -20,10 +20,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 963
-ht-degree: 94%
+source-wordcount: 910
+ht-degree: 91%
 
 ---
 
@@ -54,8 +54,8 @@ ht-degree: 94%
 <tr style="border: 0;">
 <td><img alt="オンデマンドオーディエンス" src="assets/do-not-localize/icon-audience.svg" width="150px"></a></td><td><b>オンデマンドオーディエンス</b><br/>データセット間で瞬時にクエリを実行し、データタイプとディメンションの任意の組み合わせを使用してオーディエンスセグメントを作成します。</td></tr>
 <tr style="border: 0;">
-<td><img alt="マルチエンティティのセグメント化と送信" src="assets/do-not-localize/icon-entity.svg" width="150px"></a></td><td><b>マルチエンティティのセグメント化と送信</b><br/>個人ベースのキャンペーンを超えて、製品カタログ、店舗の場所、サービスデータなどのエンティティを使用して、精密にターゲットを絞ります。<br/><br/>
-プロファイルごとおよび関連するセカンダリエンティティごとに 1 つのメッセージが送信される、マルチレベルの送信をサポートします。 これらのセカンダリエンティティには、連絡先の住所、予約、サブスクリプション、契約、その他のリンクされたデータを含めることができます。 例えば、この機能を使って、プロファイルのすべての既知のアドレスまたはプロファイルに関連付けられた各予約に対してキャンペーンを送信できます。</td></tr>
+<td><img alt="マルチエンティティのセグメント化と送信" src="assets/do-not-localize/icon-entity.svg" width="150px"></a></td><td><b>複数のエンティティのセグメンテーションと送信</b><br/>個人ベースのキャンペーンの枠を超えて、商品カタログ、店舗、サービスデータなどのエンティティを使用して、正確にターゲットを絞り込む<br/><br/>
+プロファイルおよび関連するセカンダリエンティティごとに1つのメッセージが送信される、マルチレベル送信をサポートします。これらのセカンダリエンティティには、連絡先のアドレス、予約、購読、契約、その他のリンクされたデータが含まれます。例えば、プロファイルのすべての既知のアドレスにキャンペーンを送信したり、そのプロファイルに関連付けられた予約ごとにキャンペーンを送信したりできます。</td></tr>
 <tr style="border: 0;">
 <td><img alt="送信前の可視性と精度" src="assets/do-not-localize/icon-visibility.svg" width="150px"></a></td><td><b>送信前の可視性と精度</b><br/>ローンチ前に正確なセグメント化の数と完全なキャンペーンの範囲を取得し、正確性と信頼性を確保します。</td></tr>
 <tr style="border: 0;">
@@ -128,7 +128,7 @@ ht-degree: 94%
 <a href="create-orchestrated-campaign.md">
 <img alt="リード" src="assets/do-not-localize/workflow-create.jpeg">
 </a>
-<div><a href="create-orchestrated-campaign.md"><strong>オーケストレーションキャンペーンの作成</strong>
+<div><a href="create-orchestrated-campaign.md"><strong>調整されたキャンペーンの作成</strong>
 </div>
 <p>
 </td>

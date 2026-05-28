@@ -23,9 +23,9 @@ level_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 2569
+source-wordcount: 2537
 ht-degree: 99%
 
 ---
@@ -139,7 +139,7 @@ ht-degree: 99%
 
    ![](../assets/activity_constraint-estimate.png)
 
-1. プロファイルごとに最適なオファーを選択するためのランキング方法を定義します。 [詳細情報](../offer-activities/configure-offer-selection.md)。
+1. プロファイルごとに最適なオファーを選択するためのランキング方法を定義します。 [詳細情報](../offer-activities/configure-offer-selection.md)
 
    ![](../assets/activity_ranking-method.png)
 
@@ -220,7 +220,7 @@ ht-degree: 99%
 
 オファー1 - 10
 オファー2 - 20
-条件1では3～30を、条件2では45を提供します。 両者の中で最も高いものが考慮されるので、45 が考慮されます。
+条件1では3～30を、条件2では45を提供します。両方の最高が考慮されるので、45が考慮されます。
 オファー4 - 40
 オファー5 - 50
 

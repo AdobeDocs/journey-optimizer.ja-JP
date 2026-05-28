@@ -17,10 +17,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 subfeature_v2:
   - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 362
-ht-degree: 60%
+source-wordcount: 345
+ht-degree: 58%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 60%
 ![承認リクエスト通知](assets/request-notification.png)
 
 ジャーニー/キャンペーンを確認するには、メールまたはアラートからジャーニーを開き、オーディエンス、コンテンツ、設定などの設定を確認します。
-完了したら、[ジャーニー／キャンペーンを承認して公開する](#approve)か、[アクティブ化する前に変更をリクエストする](#changes)ことができます。
+完了したら、[&#128279;](#approve)&#x200B; ジャーニー/キャンペーンを承認して公開するか、[変更をリクエストしてからアクティベートできます](#changes)。
 
 >[!NOTE]
 >

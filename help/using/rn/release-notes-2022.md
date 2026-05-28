@@ -32,10 +32,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 3645
-ht-degree: 100%
+source-wordcount: 3603
+ht-degree: 99%
 
 ---
 
@@ -99,7 +99,7 @@ ht-degree: 100%
 <p>動的コンテンツを作成して、条件ルールに基づいてメッセージのコンテンツを適応させられるようになりました。</p> 
 <p>条件ルールは、式エディター内のビジュアルルールビルダーで作成し、ジャーニーやキャンペーンで後から再利用するために保存できます。</p>
 <img src="assets/do-not-localize/dynamic-content.gif"/>
-<p>詳しくは、 <a href="../personalization/get-started-dynamic-content.md">詳細なドキュメント</a>を参照してください。
+<p>詳しくは、<a href="../personalization/get-started-dynamic-content.md">詳細なドキュメント</a>を参照してください。
 </td>
 </tr>
 </tbody>
@@ -117,7 +117,7 @@ ht-degree: 100%
 <p>既存のスケジュール済みキャンペーンに加えて、Journey Optimizer で API トリガーキャンペーンを作成し、API を使用して外部システムから呼び出すことができるようになりました。</p>
 <p>これにより、パスワードのリセットや OTP トークンなど、運用上のメッセージおよびトランザクションメッセージの様々なニーズに対応できます。</p>
 <img src="assets/do-not-localize/api-triggered.gif"/>
-<p>詳しくは、 <a href="../campaigns/api-triggered-campaigns.md">詳細なドキュメント</a>を参照してください。
+<p>詳しくは、<a href="../campaigns/api-triggered-campaigns.md">詳細なドキュメント</a>を参照してください。
 </td>
 </tr>
 </tbody>
@@ -135,7 +135,7 @@ ht-degree: 100%
 <p>属性ベースのアクセス制御により、管理者は特定の属性に基づいて、特定のオブジェクトへのアクセスを制御できます。 これらの属性は、オブジェクトに追加されるメタデータ（ラベルなど）にすることができます。 このリリース以降、管理者は、特定のフィールドやオブジェクト、およびそれらのフィールドやオブジェクトに対応するデータのみにアクセスできるユーザーの役割を定義することもできます。</p>
 <p> 属性ベースのアクセス制御の使用は、現在、選択した顧客に限定されており、将来のリリースですべての環境にデプロイされます。</p>
 <img src="assets/do-not-localize/olac.gif"/>
-<p>詳しくは、 <a href="../administration/object-based-access.md">詳細なドキュメント</a>を参照してください。
+<p>詳しくは、<a href="../administration/object-based-access.md">詳細ドキュメント</a>を参照してください。
 </td>
 </tr>
 </tbody>
@@ -153,7 +153,7 @@ ht-degree: 100%
 <td>
 <p>Data Usage Labeling and Enforcement（DULE）ガバナンスフレームワークにより、Journey Optimizer は Adobe Experience Platform ガバナンスポリシーを活用して、機密フィールドがカスタムアクションを通じてサードパーティのシステムにエクスポートされるのを防ぐことができるようになりました。 制限されたフィールドがカスタムアクションパラメーターで特定されると、エラーが表示され、ジャーニーの公開ができなくなります。</p>
 <p>Data Usage Labeling and Enforcement（DULE）の使用は、現在、選択した顧客に限定されており、将来のリリースですべての環境にデプロイされます。</p>
-<p>詳しくは、 <a href="../action/action-privacy.md">詳細なドキュメント</a>を参照してください。
+<p>詳しくは、<a href="../action/action-privacy.md">詳細なドキュメント</a>を参照してください。
 </td>
 </tr>
 </tbody>
@@ -168,9 +168,9 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>Adobe Experience Platform では、顧客の同意設定に従ってマーケティングポリシーを簡単に採用および実施できます。 同意ポリシーは、Adobe Experience Platform で定義されます。 Journey Optimizer では、これらの同意ポリシーをカスタムアクションに適用できます。 例えば、メール、プッシュまたは SMS 通信の受信に同意しない顧客を除外する同意ポリシーを定義できます。
+<p>Adobe Experience Platformを使用すれば、顧客の同意設定を尊重するマーケティングポリシーを容易に導入および適用できます。同意ポリシーは、Adobe Experience Platformで定義されます。Journey Optimizerでは、これらの同意ポリシーをカスタムアクションに適用できます。例えば、電子メール、プッシュ通知、SMS通信の受信に同意していない顧客を除外するために、同意ポリシーを定義できます。
 <p>自動同意適用は、現在、Healthcare Shield アドオン機能を購入した組織でのみ利用できます。</p>
-<p>詳しくは、 <a href="../action/consent.md">詳細なドキュメント</a>を参照してください。
+<p>詳しくは、<a href="../action/consent.md">詳細なドキュメント</a>を参照してください。
 </td>
 </tr>
 </tbody>
@@ -187,7 +187,7 @@ ht-degree: 100%
 <td>
 <p>Journey Optimizer では、機能およびオブジェクトの権限を管理するためのユーザーの役割およびアクセスポリシーの定義をサポートしています。 <strong>Adobe Experience Cloud の権限</strong>を通じて、役割を作成および管理すると共に、それらの役割に対して必要なリソース権限を割り当てることができます。 また、権限では、特定の役割に関連付けられたラベル、サンドボックス、ユーザーを管理することもできます。</p>
 <p> 権限の使用は、現在、選択したユーザーに限定されており、将来のリリースですべての環境にデプロイされます。</p>
-<p>詳しくは、 <a href="../administration/attribute-based-access.md">詳細なドキュメント</a>を参照してください。
+<p>詳しくは、<a href="../administration/attribute-based-access.md">詳細ドキュメント</a>を参照してください。
 </td>
 </tr>
 </tbody>
@@ -405,7 +405,7 @@ table>
 <p>意思決定管理で、パーソナライズされた最適化モデルシステムを使用できるようになりました。 この新しいタイプのモデルを使用すると、オーディエンスとオファーのパフォーマンスに応じて、オファーを最適化およびパーソナライズできます。</p>
 <p>パーソナライズされた最適化 AI モデルの使用は、現在、選択したユーザーに制限されており、将来のリリースですべての環境にデプロイされます。</p>
 <img src="assets/do-not-localize/ai-ranking.gif"/>
-<p>詳しくは、<a href="../offers/ranking/personalized-optimization-model.md">詳細ドキュメント</a>を参照してください。</p>
+<p>詳しくは、 <a href="../offers/ranking/personalized-optimization-model.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -533,7 +533,7 @@ table>
 
 
 
-### 機能強化
+### 改善点
 
 **意思決定管理**
 
@@ -840,7 +840,7 @@ The suppression list helps you with honoring the ISPs' feedback to preserve send
 </tbody>
 </table>
 
-### 機能強化
+### 改善点
 
 **ジャーニー**
 

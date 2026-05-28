@@ -24,10 +24,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 469
-ht-degree: 90%
+source-wordcount: 432
+ht-degree: 86%
 
 ---
 
@@ -50,7 +50,7 @@ Adobe Experience Platform で利用可能なデータに基づいて、オファ
 決定ルールを使用する際に考慮すべき制限事項のリストを以下に示します。
 
 * Edge 決定では、イベントを保存しない Edge プロファイルを使用するので、Edge 決定で使用するルールは無効になります。
-* 決定ルールを作成する際に、前の期間をさかのぼることはサポートされていません。 例えば、過去 1 か月以内に発生したエクスペリエンスイベントをルールのコンポーネントとして指定した場合。 ルールの作成中にルックバック期間を含めようとすると、保存時にトリガーが発生します。
+* 決定ルールを作成する場合、以前の期間を振り返ることはサポートされていません。例えば、前月内に発生したエクスペリエンスイベントをルールのコンポーネントとして指定する場合などです。ルール作成時にルックバック期間を含めようとしても、保存時にエラーがトリガーされます。
   <!--* Decision requests that use the hub profile will look at the last 100 experience events on the profile to evaluate rules that reference historical experience events.-->
 
 ## 決定ルールの作成 {#create}
