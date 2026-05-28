@@ -9,26 +9,13 @@ role: User
 level: Beginner
 exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
 TQID: https://experienceleague.adobe.com/JPjBxyZzo13tgSLo0dqd5bFOwn9C6MHkA-DjLzlAdEI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c41e8697-e629-4c38-96b3-564faaa17acf
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c41e8697-e629-4c38-96b3-564faaa17acfid: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 537
 ht-degree: 63%
@@ -89,7 +76,7 @@ Journey Optimizer は、 SMS エディターで UTF-8 エンコーディング�
 >
 > キャンペーンが承認ポリシーの対象となる場合、モバイルメッセージを送信するには、承認をリクエストする必要があります。 [詳細情報](../test-approve/gs-approval.md)
 
-モバイルメッセージの準備ができたら、[&#x200B; ジャーニー](../building-journeys/journey-gs.md)または[&#x200B; キャンペーン &#x200B;](../campaigns/create-campaign.md)の設定を完了して送信します。
+モバイルメッセージの準備ができたら、[ ジャーニー](../building-journeys/journey-gs.md)または[ キャンペーン ](../campaigns/create-campaign.md)の設定を完了して送信します。
 
 **関連トピック**
 

@@ -9,25 +9,13 @@ level: Beginner
 keywords: 外部, API, Optimizer, キャップ
 exl-id: 27859689-dc61-4f7a-b942-431cdf244455
 TQID: https://experienceleague.adobe.com/qIF3fCfcp54WIlVhIbL1FYU-RYOP8s9I4SxuznN-zxg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 1834
 ht-degree: 97%
@@ -38,7 +26,7 @@ ht-degree: 97%
 
 このページでは、外部システムと統合するときに Journey Optimizer が提供する、さまざまなガードレールを紹介します。また、Capping API で外部システムを最適に保護する方法、ジャーニータイムアウトを設定する方法、再試行の仕組みなどのベストプラクティスも紹介します。
 
-Journey Optimizerでは、[&#x200B; カスタムデータソース &#x200B;](../datasource/about-data-sources.md)および[&#x200B; カスタムアクション &#x200B;](../action/action.md)を使用して、外部システムへの接続を設定できます。 これにより、例えば、外部の予約システムからのデータを使用してジャーニーを充実させたり、Epsilon や Facebook などのサードパーティシステムを使用してメッセージを送信したりできます。
+Journey Optimizerでは、[ カスタムデータソース ](../datasource/about-data-sources.md)および[ カスタムアクション ](../action/action.md)を使用して、外部システムへの接続を設定できます。 これにより、例えば、外部の予約システムからのデータを使用してジャーニーを充実させたり、Epsilon や Facebook などのサードパーティシステムを使用してメッセージを送信したりできます。
 
 外部システムを統合する際には、問題がいくつも発生したり、システムが低速になったり、応答が停止したり、大量の処理を行えなくなったりする場合があります。 Journey Optimizer には、システムを過負荷から保護するためにいくつかのガードレールがあります。
 

@@ -6,9 +6,11 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: 3847ac1d-2c0a-4f80-8df9-e8e304faf261
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c618a0dc-1818-4c6d-9916-0d92e6796f24id: d056adbe-402d-4f42-9746-f3d424e598b1
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '1096'
+source-wordcount: 1096
 ht-degree: 95%
 
 ---
@@ -89,7 +91,7 @@ Web エクスペリエンスのオーサリングを開始するには、次の�
 
 >[!NOTE]
 >
->Web のコンテンツデザイナーは、E メールデザイナーと非常に似ています。 詳しくは、[&#x200B; [!DNL Journey Optimizer]](../email/get-started-email-design.md) でのコンテンツのデザインを参照してください。
+>Web のコンテンツデザイナーは、E メールデザイナーと非常に似ています。 詳しくは、[ [!DNL Journey Optimizer]](../email/get-started-email-design.md) でのコンテンツのデザインを参照してください。
 
 ## コンポーネントの使用 {#content-components}
 
@@ -184,4 +186,4 @@ Web designer のディスプレイのデバイスサイズは、**[!UICONTROL �
 
 次のビデオでは、[!DNL Journey Optimizer] キャンペーンで web designer を使用して web エクスペリエンスを作成する方法を確認できます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452636/?captions=jpn&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3418803/?quality=12&learn=on)

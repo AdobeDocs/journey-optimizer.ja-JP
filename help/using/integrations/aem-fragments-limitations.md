@@ -7,9 +7,11 @@ topic: Content Management
 role: User
 level: Beginner
 exl-id: de4f441e-c3a3-4759-a634-bc9029328ebb
-source-git-commit: ded80e8d1293462687404d67045bdccde2cb96ed
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: 764
 ht-degree: 3%
 
 ---
@@ -42,7 +44,7 @@ ht-degree: 3%
 * **更新とバージョン管理**
    * 更新するには、[!DNL Adobe Experience Manager]から手動で再公開する必要があります。 自動バージョン紐付けはありません。
    * コンテンツフラグメントが[!DNL Adobe Experience Manager]で公開または再公開されると、[!DNL Journey Optimizer]はそのフラグメントを更新し、**アクティブなキャンペーンまたはジャーニーで参照されているそのフラグメントのすべてのバリエーション**&#x200B;を更新します。
-   * [!DNL Adobe Experience Manager] [公開アクション &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/manage/manage-publication)を遅延させることができます。 完了すると、[!DNL Journey Optimizer]はイベントを受け取り、コンテンツを更新します。
+   * [!DNL Adobe Experience Manager] [公開アクション ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-publication)を遅延させることができます。 完了すると、[!DNL Journey Optimizer]はイベントを受け取り、コンテンツを更新します。
    * 更新が正常に完了すると、通常、単一ジャーニーの場合は約&#x200B;**5分以内**&#x200B;に、バッチのユースケースの場合は&#x200B;**次のバッチ**&#x200B;に変更を利用できます。
 
 * **キャッシュとプルーフ**

@@ -10,33 +10,12 @@ level: Experienced
 keywords: サンドボックス, ジャーニー, コピー, 環境
 exl-id: 356d56a5-9a90-4eba-9875-c7ba96967da9
 TQID: https://experienceleague.adobe.com/FfasSBtxSzc20knTVljqAJi4MVyoK9-RApQcTfDAa3Q
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c6e980f5-2d4f-494f-beef-186b9ecf1513id: cf64c7f6-7428-4ae5-b158-8df9771f38f4id: d2e8a157-b3b0-4143-9ff3-809bf400be56id: d595a60b-bcf5-4a63-a189-66a0be755cc7id: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 2371
 ht-degree: 68%
@@ -122,7 +101,7 @@ Journey Optimizerを使用すると、ジャーニー、キャンペーン（ア
 
 パッケージの書き出しと読み込みを使用して、サンドボックス間でオーケストレーションされたキャンペーンをコピーできます。 オーケストレーションされたキャンペーンは、他のオブジェクトと同じ全体的なパターンに従いますが、パッケージに含まれるもの、およびターゲットサンドボックスで準備する必要があるものは、アクションまたはAPI トリガーキャンペーンとは異なります。
 
-オーケストレーションされたキャンペーンを書き出すには、[&#x200B; ソースサンドボックスのサンドボックスパッケージ &#x200B;](#add-objects-as-a-package-export)に追加し（ステータスに関係なく）、[&#x200B; パッケージを公開し](#publish)、次に[&#x200B; パッケージ &#x200B;](#import)をターゲットサンドボックスに読み込みます。
+オーケストレーションされたキャンペーンを書き出すには、[ ソースサンドボックスのサンドボックスパッケージ ](#add-objects-as-a-package-export)に追加し（ステータスに関係なく）、[ パッケージを公開し](#publish)、次に[ パッケージ ](#import)をターゲットサンドボックスに読み込みます。
 
 本番環境にインポートする前に、次の動作と制限を考慮してください。
 
@@ -134,7 +113,7 @@ Journey Optimizerを使用すると、ジャーニー、キャンペーン（ア
 
 * **依存関係がすべて自動的にコピーされるわけではありません** - パッケージにオーケストレーションされたキャンペーンのみを追加すると、完全な依存関係チェーンが単独で含まれません。 チャネル設定、リレーショナルストアスキーマ、データセット、ビジネスルールは、明示的に対処しない限り含まれません（詳しくは、次の箇条書きを参照してください）。
 
-  [&#x200B; パッケージの読み込み](#import)中、Journey Optimizerは対象サンドボックスで解決するオブジェクトを一覧表示します。 次のルールは、最も一般的なオブジェクトに適用されます。
+  [ パッケージの読み込み](#import)中、Journey Optimizerは対象サンドボックスで解決するオブジェクトを一覧表示します。 次のルールは、最も一般的なオブジェクトに適用されます。
 
    * **キャンペーン** – 常に&#x200B;**新規作成**&#x200B;を選択します。
    * **オーディエンス** — Adobe Experience Platform オーディエンスの場合、**新規作成**&#x200B;または&#x200B;**既存の**&#x200B;を使用できます。 オーケストレーションされたキャンペーンオーディエンスの場合は、**既存の**&#x200B;を使用を選択し、ターゲットサンドボックス内の対応するオーディエンスにマッピングする必要があります。

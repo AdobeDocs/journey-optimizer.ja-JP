@@ -9,19 +9,12 @@ keywords: inAudience, 関数, 式, ジャーニー, オーディエンス, セ�
 exl-id: 8417af75-6e97-4ad4-86b4-3ecd264a5560
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/DU8HtduB2-GmakiaHBMFU1vzBBPoVTNvrOCPWQrr5SU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 754
 ht-degree: 79%
@@ -128,8 +121,8 @@ inAudience("Unsubscribed") == false
 
 条件ノードで`inAudience()`を使用する場合、セグメントメンバーシップの評価タイミングは、条件がジャーニーのどこに表示されるかによって異なります。
 
-* **オーディエンスの読み取りジャーニーで、待機アクティビティ：** Journey Optimizerがプロファイルのバッチプロジェクションから読み取る前。 この投影内のデータは、取り込み後&#x200B;**2時間**&#x200B;以内に更新されます。 日ベースまたは時間ベースの条件に依存するオーディエンスでは、さらに遅延が発生する場合があります。 ジャーニーの開始時に短い[&#x200B; アクティビティ &#x200B;](../wait-activity.md)を追加するか、バッファー時間を許可して、最新のセグメントメンバーシップが反映されるようにします。
-* **単一イベントジャーニーで、または待機アクティビティの後、** セグメントメンバーシップがストリーミング（単一）投影から読み取られます。 データは通常、**15分以内に利用できます**。 詳しくは、[Adobe Experience Platform ストリーミング取り込みに関するドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/ingestion/streaming/overview){target="_blank"}を参照してください。
+* **オーディエンスの読み取りジャーニーで、待機アクティビティ：** Journey Optimizerがプロファイルのバッチプロジェクションから読み取る前。 この投影内のデータは、取り込み後&#x200B;**2時間**&#x200B;以内に更新されます。 日ベースまたは時間ベースの条件に依存するオーディエンスでは、さらに遅延が発生する場合があります。 ジャーニーの開始時に短い[ アクティビティ ](../wait-activity.md)を追加するか、バッファー時間を許可して、最新のセグメントメンバーシップが反映されるようにします。
+* **単一イベントジャーニーで、または待機アクティビティの後、** セグメントメンバーシップがストリーミング（単一）投影から読み取られます。 データは通常、**15分以内に利用できます**。 詳しくは、[Adobe Experience Platform ストリーミング取り込みに関するドキュメント ](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/streaming/overview){target="_blank"}を参照してください。
 
 ## 関連トピック
 

@@ -6,9 +6,11 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner, Intermediate
 exl-id: 0c2f95ce-28a0-480c-9829-b7e4975b6340
-source-git-commit: 0d0999b831d01442c46015361018d6e646abc33c
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: 1115
 ht-degree: 3%
 
 ---
@@ -57,9 +59,9 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->この機能を使用する前に、関連する[&#x200B; リスクと制限事項](#inbox-ai-risks)をお読みください。
+>この機能を使用する前に、関連する[ リスクと制限事項](#inbox-ai-risks)をお読みください。
 >
->この機能にアクセスするには、[!DNL Journey Optimizer]で生成AIを初めて使用する場合に表示される使用許諾契約書に同意する必要があります。 詳しくは、[Adobe Experience Cloud生成AI ユーザーガイドライン &#x200B;](https://www.adobe.com/jp/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}を参照してください。
+>この機能にアクセスするには、[!DNL Journey Optimizer]で生成AIを初めて使用する場合に表示される使用許諾契約書に同意する必要があります。 詳しくは、[Adobe Experience Cloud生成AI ユーザーガイドライン ](https://www.adobe.com/jp/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}を参照してください。
 
 [!DNL Journey Optimizer]でのAI インボックス エクスペリエンス用にメールのコンテンツを最適化するには、次の手順に従います。
 
@@ -67,11 +69,11 @@ ht-degree: 3%
 
 1. AIによる読み取りと要約の主要な情報を強調表示する改善バージョンを生成するには、**[!UICONTROL AI インボックス用に最適化]** ボタンをクリックします。
 
-   ![電子メールDesignerの「AI受信トレイ用に最適化」ボタン &#x200B;](assets/optimize-for-ai-button.png){zoomable="yes" width="80%"}
+   ![電子メールDesignerの「AI受信トレイ用に最適化」ボタン ](assets/optimize-for-ai-button.png){zoomable="yes" width="80%"}
 
-1. [!DNL Journey Optimizer]で生成AIを初めて使用する場合は、使用許諾契約書に同意するよう求められます。 詳しくは、[Adobe生成AI ユーザーガイドライン &#x200B;](https://www.adobe.com/jp/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}を参照してください。
+1. [!DNL Journey Optimizer]で生成AIを初めて使用する場合は、使用許諾契約書に同意するよう求められます。 詳しくは、[Adobe生成AI ユーザーガイドライン ](https://www.adobe.com/jp/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}を参照してください。
 
-   Journey Optimizerの![生成AI ユーザー契約書ダイアログ &#x200B;](assets/optimize-ai-inbox-agreement.png){width=50%}
+   Journey Optimizerの![生成AI ユーザー契約書ダイアログ ](assets/optimize-ai-inbox-agreement.png){width=50%}
 
    「**[!UICONTROL 同意]**」をクリックして続行します。
 
@@ -89,11 +91,11 @@ ht-degree: 3%
 
 1. **[!UICONTROL HTML]** ビューにリダイレクトされ、メールはAI受信箱に対して正常に最適化されました。 再度アクセスするか、最適化バージョンを編集するには、**[!UICONTROL AI インボックス用に最適化]** ボタンをクリックします。
 
-   ![電子メールDesignerの「再最適化」ボタン &#x200B;](assets/optimize-ai-inbox-optimized-button.png){zoomable="yes" width="80%"}
+   ![電子メールDesignerの「再最適化」ボタン ](assets/optimize-ai-inbox-optimized-button.png){zoomable="yes" width="80%"}
 
 1. 最適化バージョンが表示されます。 **[!UICONTROL 最適化を削除]**&#x200B;するか、**[!UICONTROL 最適化を再最適化]**&#x200B;して新しいバージョンを生成します。
 
-   ![以前に電子メール Designerで最適化されたバージョン &#x200B;](assets/optimize-ai-inbox-optimized-version.png){zoomable="yes" width="80%"}
+   ![以前に電子メール Designerで最適化されたバージョン ](assets/optimize-ai-inbox-optimized-version.png){zoomable="yes" width="80%"}
 
    >[!NOTE]
    >

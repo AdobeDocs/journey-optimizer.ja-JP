@@ -11,10 +11,12 @@ hide: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: 0769c486386ce27079244a3ff36cdd2fedf27214
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
 workflow-type: tm+mt
-source-wordcount: '1948'
-ht-degree: 17%
+source-wordcount: 1973
+ht-degree: 16%
 
 ---
 
@@ -42,7 +44,7 @@ ht-degree: 17%
 
 **設定と統合**
 
-<!-- * [Configure loyalty challenges](loyalty-admin.md) -->
+* [ロイヤルティに関する課題の設定](loyalty-admin.md)
 * [ロイヤルティデータとデータセット](loyalty-data-and-datasets.md)
 * [ロイヤルティチャレンジ API リファレンス](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
@@ -137,7 +139,7 @@ ht-degree: 17%
 >title="タスク"
 >abstract="課題を完了するために実行するタスクを選択します。 次に、課題の完了方法を設定します。使用可能なオプションは、課題タイプ（標準、ストリーク、シーケンシャル）によって異なります。"
 
-タスクとは、顧客が報酬を得るために実行しなければならない特定のアクションを定義します。 タスクのタイプ（購入、支出）、数量、製品フィルターなどの属性を設定できます。
+タスクとは、顧客が報酬を得るために実行しなければならない特定のアクションを定義します。 タスクタイプ（購入、支出、カスタムイベント）、数量、製品フィルター、その他の属性を設定できます。
 
 課題にタスクを追加するには、次の手順に従います。
 
@@ -145,7 +147,7 @@ ht-degree: 17%
 
    ![](assets/challenge-create-add-task.png)
 
-1. **[!UICONTROL タスクインベントリ]**&#x200B;が開きます。 リストから1つ以上のタスクを選択し、**[!UICONTROL 追加]**&#x200B;を選択します。 新しいタスクを作成するには、**[!UICONTROL 新規]**&#x200B;を選択します。 [&#x200B; タスクの作成と設定方法について説明します](create-tasks.md)。
+1. **[!UICONTROL タスクインベントリ]**&#x200B;が開きます。 リストから1つ以上のタスクを選択し、**[!UICONTROL 追加]**&#x200B;を選択します。 新しいタスクを作成するには、**[!UICONTROL 新規]**&#x200B;を選択します。 [ タスクの作成と設定方法について説明します](create-tasks.md)。
 
 1. チャレンジが完了したと見なされるタイミングを指定します。 使用可能な設定は、チャレンジのタイプによって異なります。
 
@@ -204,9 +206,7 @@ ht-degree: 17%
    * **[!UICONTROL チャレンジの進捗状況が確認されると、タスク完了マイルストーンで報酬を提供します]**：顧客が個々のタスクを完了すると、報酬が段階的に提供されます（複数のタスクを必要とするチャレンジにのみ利用可能）\
      *例：タスク 1の後に10 ポイント、タスク 2の後に20 ポイント、タスク 3*&#x200B;の後に50 ポイント
 
-1. 報酬プロバイダーを選択します。 顧客ポイントと特典を管理するロイヤルティソリューションです。
-
-   <!-- Reward providers are created in **[!UICONTROL Loyalty Admin]** before you author challenges. [Learn how to configure reward providers](loyalty-admin.md#reward-providers). -->
+1. 報酬プロバイダーを選択します。 顧客ポイントと特典を管理するロイヤルティソリューションです。 報酬プロバイダーは、チャレンジを作成する前に、**[!UICONTROL ロイヤルティ管理者]** メニューで作成されます。 [報酬プロバイダーの設定方法について](loyalty-admin.md#reward-providers)
 
    ![](assets/challenge-create-reward-type.png)
 
@@ -243,15 +243,15 @@ ht-degree: 17%
 >title="コンテンツ"
 >abstract="顧客のデバイスで課題を表し、課題情報、進行状況、報酬を表示するコンテンツカードを設定します。 カードの名前を入力し、配信に適切な技術設定（例：ヘッダー、サブドメイン、モバイルアプリ）が使用されるようにチャネル設定を選択してから、「コンテンツを編集」を選択して、カードのエクスペリエンスをデザインおよびパーソナライズします。"
 
-コンテンツカードは、顧客デバイス上の課題を視覚的に表し、課題情報、進捗状況、報酬を表示します。 [&#x200B; コンテンツカードの詳細](../content-card/create-content-card.md)。
+コンテンツカードは、顧客デバイス上の課題を視覚的に表し、課題情報、進捗状況、報酬を表示します。 [ コンテンツカードの詳細](../content-card/create-content-card.md)。
 
 課題に対してコンテンツカードを設定するには：
 
 1. 「**[!UICONTROL コンテンツ]**」タブに移動し、コンテンツカードの&#x200B;**[!UICONTROL 名前]**&#x200B;を入力します。
 
-1. **[!UICONTROL チャネル設定]**&#x200B;を選択します。 チャネル設定には、ヘッダーパラメーター、サブドメイン、モバイルアプリなど、メッセージを送信するためのすべての技術的なパラメーターが含まれます。[&#x200B; チャネル設定の詳細](../configuration/channel-surfaces.md)。
+1. **[!UICONTROL チャネル設定]**&#x200B;を選択します。 チャネル設定には、ヘッダーパラメーター、サブドメイン、モバイルアプリなど、メッセージを送信するためのすべての技術的なパラメーターが含まれます。[ チャネル設定の詳細](../configuration/channel-surfaces.md)。
 
-1. 「**[!UICONTROL コンテンツを編集]**」を選択して、コンテンツカードをデザインします。 [&#x200B; コンテンツカードをデザインおよびパーソナライズする方法について説明します](../content-card/design-content-card.md)。
+1. 「**[!UICONTROL コンテンツを編集]**」を選択して、コンテンツカードをデザインします。 [ コンテンツカードをデザインおよびパーソナライズする方法について説明します](../content-card/design-content-card.md)。
 
    ![](assets/challenge-create-content.png)
 
@@ -280,7 +280,7 @@ ht-degree: 17%
 
    ![](assets/challenge-create-messaging.png)
 
-特定のチャネルのメッセージを作成する方法については、次の節を参照してください。[&#x200B; アプリ内メッセージ &#x200B;](../in-app/get-started-in-app.md) - [&#x200B; メールメッセージ &#x200B;](../email/get-started-email.md) - [&#x200B; プッシュ通知](../push/get-started-push.md)
+特定のチャネルのメッセージを作成する方法については、次の節を参照してください。[ アプリ内メッセージ ](../in-app/get-started-in-app.md) - [ メールメッセージ ](../email/get-started-email.md) - [ プッシュ通知](../push/get-started-push.md)
 
 メッセージ設定が完了したら、チャレンジに参加する資格のある顧客を定義します。
 
@@ -297,7 +297,7 @@ ht-degree: 17%
 
    ![](assets/challenge-create-audience.png)
 
-1. オーディエンス選択ダイアログで、利用可能なAdobe Experience Platform オーディエンスのリストからターゲットオーディエンスを選択し、**[!UICONTROL オーディエンスを追加]**&#x200B;を選択します。 [&#x200B; オーディエンスの操作方法を学ぶ](../audience/about-audiences.md)。
+1. オーディエンス選択ダイアログで、利用可能なAdobe Experience Platform オーディエンスのリストからターゲットオーディエンスを選択し、**[!UICONTROL オーディエンスを追加]**&#x200B;を選択します。 [ オーディエンスの操作方法を学ぶ](../audience/about-audiences.md)。
 
 これで、課題の構造、コンテンツ、メッセージ、ターゲットオーディエンスが完全に設定されました。 チャレンジを起動するには、チャレンジと関連するジャーニーを公開する必要があります。
 
@@ -315,13 +315,13 @@ ht-degree: 17%
 
    ![](assets/challenge-create-generate-journey.png)
 
-1. Journey Optimizerは、「ドラフト」ステータスでジャーニーを自動的に作成します。 ジャーニーがジャーニーインベントリに表示され、名前フォーマットは&#x200B;*「ジャーニー: [ チャレンジ名]」*&#x200B;です。 [&#x200B; ジャーニーインベントリの詳細](../building-journeys/journey-ui.md)。
+1. Journey Optimizerは、「ドラフト」ステータスでジャーニーを自動的に作成します。 ジャーニーがジャーニーインベントリに表示され、名前フォーマットは&#x200B;*「ジャーニー: [ チャレンジ名]」*&#x200B;です。 [ ジャーニーインベントリの詳細](../building-journeys/journey-ui.md)。
 
    ![](assets/challenge-create-journey.png)
 
-1. ジャーニーを開いて公開します。 ジャーニーは、指定したチャレンジ開始日に自動的に開始され、設定に従ってコンテンツとメッセージが配信されます。 [&#x200B; ジャーニーを公開する方法について説明します](../building-journeys/publish-journey.md)。
+1. ジャーニーを開いて公開します。 ジャーニーは、指定したチャレンジ開始日に自動的に開始され、設定に従ってコンテンツとメッセージが配信されます。 [ ジャーニーを公開する方法について説明します](../building-journeys/publish-journey.md)。
 
-1. チャレンジが開始されたら、[&#x200B; ロイヤルティチャレンジレポート &#x200B;](loyalty-reporting.md)で、プログラムのKPI、チャレンジの結果、タスクレベルの指標を監視します。 [&#x200B; ジャーニーレポート &#x200B;](../reports/journey-global-report-cja.md)でメッセージ配信を監視することもできます。
+1. チャレンジが開始されたら、[ ロイヤルティチャレンジレポート ](loyalty-reporting.md)で、プログラムのKPI、チャレンジの結果、タスクレベルの指標を監視します。 [ ジャーニーレポート ](../reports/journey-global-report-cja.md)でメッセージ配信を監視することもできます。
 
 >[!NOTE]
 >

@@ -9,24 +9,13 @@ role: User
 level: Intermediate
 exl-id: 30d4f967-e085-44f1-973d-11e79f693e6e
 TQID: https://experienceleague.adobe.com/LvJSxPvyDrrhZGPH0EgWPfHhiHA9o3dQAXAMY-6k4-A
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 1033
 ht-degree: 96%
@@ -91,7 +80,7 @@ Customer Journey Analytics ワークスペースと、データのフィルタ�
 
 ## ジャーニーの除外 {#journey-exclusion}
 
-**[!UICONTROL ジャーニーの除外]**&#x200B;テーブルには、ユーザープロファイルの除外につながった様々な要因が包括的に表示されます。 ビジネスルールに関連する除外をデータレイクレベルで調査し、上限に達した場合や優先度が低い場合にプロファイルが除外されたかどうかを特定するには、[このセクション &#x200B;](query-examples.md#business-rules-queries)で使用可能なクエリを使用します。
+**[!UICONTROL ジャーニーの除外]**&#x200B;テーブルには、ユーザープロファイルの除外につながった様々な要因が包括的に表示されます。 ビジネスルールに関連する除外をデータレイクレベルで調査し、上限に達した場合や優先度が低い場合にプロファイルが除外されたかどうかを特定するには、[このセクション ](query-examples.md#business-rules-queries)で使用可能なクエリを使用します。
 
 ## アクションエラー {#action-error}
 

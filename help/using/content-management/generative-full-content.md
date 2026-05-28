@@ -9,21 +9,13 @@ role: User
 level: Beginner
 exl-id: 9f395b3d-8414-4e88-b849-6d9af9640b32
 TQID: https://experienceleague.adobe.com/0Xf8qIELy-rLrPg-5slKXt4dlurcaUwXhAW6VWxWuPQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 4af4762e4f090650ed7033f1352adb7acec0670b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: d6e0d39b-5df3-4c72-8263-fd834397ee97
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 1941
 ht-degree: 94%
@@ -66,7 +58,7 @@ AI アシスタントを開いたら、生成設定を指定して、ブラン�
 
 1. 生成する内容を「**[!UICONTROL プロンプト]**」フィールドに記述して、コンテンツを微調整します。
 
-   プロンプトの作成に関するサポートが必要な場合は、キャンペーンを改善するための様々なプロンプトのアイデアを提供する&#x200B;**[!UICONTROL プロンプトライブラリ]**&#x200B;にアクセスします。 [プロンプトのベストプラクティスの詳細情報](ai-assistant-prompting-guide.md)
+   プロンプトの作成に関するサポートが必要な場合は、キャンペーンを改善するための様々なプロンプトのアイデアを提供する&#x200B;**[!UICONTROL プロンプトライブラリ]**&#x200B;にアクセスしてください。 [プロンプトのベストプラクティスの詳細情報](ai-assistant-prompting-guide.md)
 
    ![「プロンプトライブラリ」ボタンを含む「プロンプト」フィールド](assets/full-email-2.png){zoomable="yes"}
 
@@ -82,7 +74,7 @@ AI アシスタントを開いたら、生成設定を指定して、ブラン�
 
 1. **[!UICONTROL 画像設定]**&#x200B;を選択します。
 
-   * **[!UICONTROL 生成モデル]**：利用可能な組み込みモデル、ブランドアセットでトレーニングされたカスタム Firefly モデル、サードパーティの画像生成プロバイダーから選択して、特定のニーズやブランド要件に合った画像を作成します。 [詳細情報](generative-models.md) 画像に&#x200B;**テキストオーバーレイ**&#x200B;が含まれる&#x200B;**Gemini**&#x200B;については、[&#x200B; テキストオーバーレイ画像](generative-uc.md#generative-gemini)の生成モデルとしてGeminiを使用するを参照してください。
+   * **[!UICONTROL 生成モデル]**：利用可能な組み込みモデル、ブランドアセットでトレーニングされたカスタム Firefly モデル、サードパーティの画像生成プロバイダーから選択して、特定のニーズやブランド要件に合った画像を作成します。 [学習を増やす](generative-models.md)。 画像に&#x200B;**テキストオーバーレイ**&#x200B;が含まれる&#x200B;**Gemini**&#x200B;については、[ テキストオーバーレイ画像](generative-uc.md#generative-gemini)の生成モデルとしてGeminiを使用するを参照してください。
    * **[!UICONTROL コンテンツタイプ]**：これにより、視覚要素の性質が分類され、写真、グラフィック、アートなど、様々な視覚的表現が区別されます。
    * **[!UICONTROL 視覚的な強度]**：画像の強度を調整することで、画像の影響を制御できます。 低い設定（2）では、より柔らかく抑制された外観が作成され、高い設定（10）では、画像がより鮮やかで視覚的に強力になります。
    * **[!UICONTROL カラーとトーン]**：画像内のカラーの全体的な外観と、画像が伝えるムードまたは雰囲気。
@@ -187,7 +179,7 @@ AI アシスタントはモバイルプッシュ通知のコンテンツ生成�
 
 1. **[!UICONTROL 画像設定]**&#x200B;を選択します。
 
-   * **[!UICONTROL 生成モデル]**：利用可能な組み込みモデル、ブランドアセットでトレーニングされたカスタム Firefly モデル、サードパーティの画像生成プロバイダーから選択して、特定のニーズやブランド要件に合った画像を作成します。 [詳細情報](generative-models.md) 画像に&#x200B;**テキストオーバーレイ**&#x200B;が含まれる&#x200B;**Gemini**&#x200B;については、[&#x200B; テキストオーバーレイ画像](generative-uc.md#generative-gemini)の生成モデルとしてGeminiを使用するを参照してください。
+   * **[!UICONTROL 生成モデル]**：利用可能な組み込みモデル、ブランドアセットでトレーニングされたカスタム Firefly モデル、サードパーティの画像生成プロバイダーから選択して、特定のニーズやブランド要件に合った画像を作成します。 [学習を増やす](generative-models.md)。 画像に&#x200B;**テキストオーバーレイ**&#x200B;が含まれる&#x200B;**Gemini**&#x200B;については、[ テキストオーバーレイ画像](generative-uc.md#generative-gemini)の生成モデルとしてGeminiを使用するを参照してください。
    * **[!UICONTROL コンテンツタイプ]**：これにより、視覚要素の性質が分類され、写真、グラフィック、アートなど、様々な視覚的表現が区別されます。
    * **[!UICONTROL 視覚的な強度]**：画像の強度を調整することで、画像の影響を制御できます。 低い設定（2）では、より柔らかく抑制された外観が作成され、高い設定（10）では、画像がより鮮やかで視覚的に強力になります。
    * **[!UICONTROL カラーとトーン]**：画像内のカラーの全体的な外観と、画像が伝えるムードまたは雰囲気。

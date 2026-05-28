@@ -7,9 +7,11 @@ role: Developer
 level: Experienced
 exl-id: 8d82b4db-2ba8-4692-a63e-9cb3c6c434c3
 version: Journey Orchestration
-source-git-commit: cc047508f06d0ac7eb4313dad125f2fe9ac3cbc7
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: 162
 ht-degree: 100%
 
 ---
@@ -86,7 +88,7 @@ curl -X PATCH 'https://platform.adobe.io/data/core/dps/offer-rules/rule1234' \
 | --------- | ----------- |
 | `value` | パラメーターの更新に使用する新しい値。 |
 | `path` | 更新するパラメーターのパス。 |
-| `op` | 接続の更新に必要なアクションを定義するのに使用される操作呼び出し。操作には、`add`、`replace`、`remove`、`copy` および `test` があります。 |
+| `op` | 接続の更新に必要なアクションを定義するのに使用される操作呼び出し。 操作には、`add`、`replace`、`remove`、`copy` および `test` があります。 |
 
 **応答**
 

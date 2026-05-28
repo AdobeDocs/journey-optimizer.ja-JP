@@ -10,9 +10,11 @@ level: Intermediate
 keywords: ジャーニー, アクティビティ, 終了
 exl-id: 76c74ca3-edaa-48c5-8d6a-0906120e31a1
 version: Journey Orchestration
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: 115
 ht-degree: 100%
 
 ---

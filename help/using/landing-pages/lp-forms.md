@@ -10,22 +10,13 @@ level: Beginner
 keywords: ランディング, ランディングページ, 作成, ページ, フォーム
 exl-id: c688ac5e-eb09-445b-a3f0-1627b40cddc8
 TQID: https://experienceleague.adobe.com/ecrWN9KOSy0Ha4OgJ9pW7RHp2X3pnGtxsH5tOfXvDgA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b19d9237-76be-466d-a869-aacf2d72205f
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b19d9237-76be-466d-a869-aacf2d72205fid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 2080
 ht-degree: 78%
@@ -34,7 +25,7 @@ ht-degree: 78%
 
 # ランディングページでのフォームの使用 {#lp-forms}
 
-[!DNL Journey Optimizer] ランディングページでプロファイルデータを取得し、[!DNL Experience Platform] データセットを強化するには、ランディングページでフォームを活用できます。 データキャプチャのシナリオと要件の概要については、[&#x200B; ランディングページを使用したデータキャプチャ &#x200B;](get-started-lp.md#data-capture-lp)を参照してください。
+[!DNL Journey Optimizer] ランディングページでプロファイルデータを取得し、[!DNL Experience Platform] データセットを強化するには、ランディングページでフォームを活用できます。 データキャプチャのシナリオと要件の概要については、[ ランディングページを使用したデータキャプチャ ](get-started-lp.md#data-capture-lp)を参照してください。
 
 ## フォームプリセットの作成 {#create-form-preset}
 
@@ -89,7 +80,7 @@ ht-degree: 78%
    >* **データタイプ**&#x200B;は、**XDM** に設定する必要があります（生データではありません）
    >* **認証**&#x200B;は、**無効**（認証されていない接続）にする必要があります
    >
-   >ストリーミング接続がリストに表示されない場合は、これらの条件が両方とも満たされていることを確認します。<!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/ja/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
+   >ストリーミング接続がリストに表示されない場合は、これらの条件が両方とも満たされていることを確認します。<!--Learn how to [create a non-authenticated connection with XDM data type](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/streaming/http#create-a-streaming-connection){target="_blank"}.-->
 
 1. フォームにリンクする&#x200B;**[!UICONTROL データセット]**&#x200B;を選択します。 ここにフォームの応答が保存および反映されます。 特定のデータセットを検索するには、入力するか、リストから選択できます。
 

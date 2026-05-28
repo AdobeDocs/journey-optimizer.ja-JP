@@ -10,27 +10,13 @@ keywords: 公開, ジャーニー, ライブ, 有効性, 確認
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/gIj6jGScvIDgAJxb3B4wiuqP6BKZS0tvCeqC6wRo5IQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 2649
 ht-degree: 92%
@@ -44,7 +30,7 @@ ht-degree: 92%
 >title="ジャーニーの一時停止"
 >abstract="新しいプロファイルがエントリしないように、ライブジャーニーを一時停止します。 ジャーニー内の現在のプロファイルを破棄するか、そのまま保持するかを選択します。 保持した場合、ジャーニーを再開すると、次のアクションアクティビティでプロファイルの実行が再開されます。 進行状況を失うことなく、更新や緊急停止するのに最適です。"
 
-ライブジャーニーを一時停止し、必要なすべての変更を実行し、いつでも再開できます。<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> 一時停止の間、[&#x200B; プロファイル属性の終了条件](#journey-exit-criteria)を適用して、属性に基づいてプロファイルを除外できます。 ジャーニーは、一時停止期間の終了時に自動的に再開されます。 また、[手動で再開](#journey-resume-steps)することもできます。
+ライブジャーニーを一時停止し、必要なすべての変更を実行し、いつでも再開できます。<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> 一時停止の間、[ プロファイル属性の終了条件](#journey-exit-criteria)を適用して、属性に基づいてプロファイルを除外できます。 ジャーニーは、一時停止期間の終了時に自動的に再開されます。 また、[手動で再開](#journey-resume-steps)することもできます。
 
 ## 主なメリット {#journey-pause-benefits}
 
@@ -145,7 +131,7 @@ ht-degree: 92%
 * 最後の一時停止と最後の再開を実行したユーザーの表示名と識別子
 * 一時停止したジャーニーの設定（一時停止の動作、最大一時停止の時間、自動再開の状態、一時停止ID）
 
-この情報は、トラブルシューティング、監査、サポートとの共有に役立ちます。 コピーされたフィールドの完全なリストについては、[&#x200B; ジャーニーのプロパティへのアクセス &#x200B;](journey-properties.md#access-properties)を参照してください。
+この情報は、トラブルシューティング、監査、サポートとの共有に役立ちます。 コピーされたフィールドの完全なリストについては、[ ジャーニーのプロパティへのアクセス ](journey-properties.md#access-properties)を参照してください。
 
 ## 一時停止したジャーニーへの終了条件の適用 {#journey-exit-criteria}
 
@@ -183,7 +169,7 @@ ht-degree: 92%
 
 ## ガードレールと制限 {#journey-pause-guardrails}
 
-* ジャーニーバージョンは最大 **14 日間**&#x200B;一時停止できます。一時停止したジャーニーでは、組織全体で最大 **1,000 万のプロファイル**&#x200B;が許可されます。
+* ジャーニーバージョンは最大 **14 日間**&#x200B;一時停止できます。一時停止したジャーニーでは、組織全体で最大 **1,000 万のプロファイル**が許可されます。
 この制限は、個別のプロファイルではなく、一時停止したすべてのジャーニーに保持されているプロファイルの合計数をカウントします。 例えば、同じ5M プロファイルが2つの一時停止ジャーニーで保持されている場合、10Mの制限に達します。
 この制限は 30 分ごとに確認されます。 つまり、一時的に 1,000 万のしきい値を超える可能性がありますが、システムが検出すると、追加のプロファイルは自動的に破棄されます。
 
@@ -202,7 +188,7 @@ ht-degree: 92%
 * プロファイルをジャーニーで保持し、このジャーニーを数日後に自動的に再開する場合、プロファイルはジャーニーを続行し、ドロップされません。 ドロップする場合は、ジャーニーを停止する必要があります
 * 一時停止したジャーニーでは、[バッチセグメントアラート](../reports/alerts.md#alert-read-audiences)のアラートは発生しません
 * ジャーニーの 14 日間一時停止状態が終了すると、システムに監査ログが残りません
-* 破棄されたプロファイルの一部は、ジャーニーステップイベントには表示されますが、レポートには表示されません。 例：
+* 破棄されたプロファイルの一部は、ジャーニーステップイベントには表示されますが、レポートには表示されません。 次に例を示します。
    * **オーディエンスを読み取り**&#x200B;のビジネスイベントが破棄される
    * 一時停止したジャーニーにより、**オーディエンスを読み取り**&#x200B;ジョブがドロップされる
    * プロファイルが待機していたアクションの後にイベントアクティビティがあった場合、**イベント**&#x200B;は破棄される
@@ -232,7 +218,7 @@ ht-degree: 92%
 
 ## 一時停止したジャーニーでのプロファイル破棄のトラブルシューティング {#discards-troubleshoot}
 
-[[!DNL Adobe Experience Platform]  クエリサービス &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ja){target="_blank"}を使用して、ステップイベントをクエリできます。ステップイベントでは、プロファイルの破棄に関する詳細情報を、発生したタイミングに応じて提供できます。
+[[!DNL Adobe Experience Platform]  クエリサービス ](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ja){target="_blank"}を使用して、ステップイベントをクエリできます。ステップイベントでは、プロファイルの破棄に関する詳細情報を、発生したタイミングに応じて提供できます。
 
 * プロファイルがジャーニーにエントリする前に破棄が発生する場合は、次のコードを使用します。
 

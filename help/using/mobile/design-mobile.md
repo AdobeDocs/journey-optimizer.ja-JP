@@ -7,9 +7,11 @@ feature: SMS
 topic: Content Management
 role: User
 level: Beginner
-source-git-commit: 30eecc21809cf818ae7530187782b370240830e7
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: 1456
 ht-degree: 24%
 
 ---
@@ -127,7 +129,7 @@ RCS メッセージコンテンツを定義するには、次の手順に従い�
 
    ![](assets/sms-content.png)
 
-1. テキスト生成に[AI アシスタント &#x200B;](../content-management/generative-text.md)を使用して、オーディエンスに合わせた魅力的なモバイルメッセージを生成します。
+1. テキスト生成に[AI アシスタント ](../content-management/generative-text.md)を使用して、オーディエンスに合わせた魅力的なモバイルメッセージを生成します。
 
 1. パーソナライゼーションエディターを使用して、コンテンツの定義、パーソナライゼーションと動的コンテンツの追加を行います。 プロファイル名や市区町村など、任意の属性を使用できます。 また、条件ルールを定義することもできます。 パーソナライゼーションエディターの[パーソナライゼーション](../personalization/personalize.md)と[動的コンテンツ](../personalization/get-started-dynamic-content.md)について詳しくは、次のページを参照してください。
 
@@ -147,7 +149,7 @@ RCS メッセージコンテンツを定義するには、次の手順に従い�
    >
    > 短縮 URL の有効期間は 30 日に設定されています。 この期間が経過すると、これらの短縮 URL にはアクセスできなくなり、`404 short-code not found` というメッセージが表示されます。
 
-1. モバイルアプリで特定の画面を開くディープリンクを追加するには、以下の例のように、`DEEPLINK`型の`Url` ヘルパー関数を使用します。 [&#x200B; ディープリンクについて詳しく見る](../email/deeplinks.md)
+1. モバイルアプリで特定の画面を開くディープリンクを追加するには、以下の例のように、`DEEPLINK`型の`Url` ヘルパー関数を使用します。 [ ディープリンクについて詳しく見る](../email/deeplinks.md)
 
    ```
    {{url originalUrl='<<deeplink_url>>' type='DEEPLINK' action='CLICK'}}
@@ -155,7 +157,7 @@ RCS メッセージコンテンツを定義するには、次の手順に従い�
 
    >[!CAUTION]
    >
-   >ディープリンクを使用する前に、Journey Optimizerで対応する[設定手順](../email/deeplinks.md#configuration)を完了し、モバイルアプリに[&#x200B; ディープリンク処理](../email/deeplinks.md#mobile-implementation)を実装していることを確認してください。 そうしていない場合、ディープリンクは意図したアプリ内コンテンツにユーザーを誘導しません。
+   >ディープリンクを使用する前に、Journey Optimizerで対応する[設定手順](../email/deeplinks.md#configuration)を完了し、モバイルアプリに[ ディープリンク処理](../email/deeplinks.md#mobile-implementation)を実装していることを確認してください。 そうしていない場合、ディープリンクは意図したアプリ内コンテンツにユーザーを誘導しません。
    >
    >また、URLがAdobe システムを通じて書き換えられるように、ジャーニーまたはキャンペーンの&#x200B;**[!UICONTROL アクション]** セクションでリンクトラッキングが有効になっていることを確認してください。
 
@@ -175,7 +177,7 @@ RCS メッセージコンテンツを定義するには、次の手順に従い�
 
 MMS コンテンツを作成するには、次の手順に従います。
 
-1. [このセクション &#x200B;](#create-sms-journey-campaign)の説明に従って、モバイルメッセージを作成します。
+1. [このセクション ](#create-sms-journey-campaign)の説明に従って、モバイルメッセージを作成します。
 
 1. [この節](#sms-content)の説明に従って、SMS コンテンツを編集します。
 

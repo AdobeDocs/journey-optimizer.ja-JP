@@ -8,9 +8,11 @@ topic: Content Management, Artificial Intelligence
 role: User
 level: Beginner
 exl-id: f0585411-c862-45f2-9a10-d8a72497c533
-source-git-commit: 4af4762e4f090650ed7033f1352adb7acec0670b
+feature_v2: []
+subfeature_v2: id: d6e0d39b-5df3-4c72-8263-fd834397ee97
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '1511'
+source-wordcount: 1511
 ht-degree: 93%
 
 ---
@@ -61,7 +63,7 @@ AI アシスタントを使用して、効果的なプロンプトを作成し�
 
 1. 次の&#x200B;**[!UICONTROL 画像設定]**&#x200B;オプションを使用してプロンプトを調整します。
 
-   * **[!UICONTROL 生成モデル]**：すぐに使用できる&#x200B;**[!UICONTROL Adobe モデル]**、特殊機能の&#x200B;**[!UICONTROL パートナーモデル]**、ブランドアセットでトレーニングされた&#x200B;**[!UICONTROL カスタムモデル]**&#x200B;から選択します。 [詳細情報](generative-models.md) 生成された画像に&#x200B;**テキストオーバーレイ**&#x200B;を含むパートナー（**Gemini**）モデルを使用するには、[Geminiをテキストオーバーレイ画像](generative-uc.md#generative-gemini)の生成モデルとして使用するを参照してください。
+   * **[!UICONTROL 生成モデル]**：すぐに使用できる&#x200B;**[!UICONTROL Adobe モデル]**、特殊機能の&#x200B;**[!UICONTROL パートナーモデル]**、ブランドアセットでトレーニングされた&#x200B;**[!UICONTROL カスタムモデル]**&#x200B;から選択します。 [学習を増やす](generative-models.md)。 生成された画像に&#x200B;**テキストオーバーレイ**&#x200B;を含むパートナー（**Gemini**）モデルを使用するには、[Geminiをテキストオーバーレイ画像](generative-uc.md#generative-gemini)の生成モデルとして使用するを参照してください。
    * **[!UICONTROL 縦横比]**：これにより、アセットの幅と高さが決まります。 16:9、4:3、3:2、1:1 など、一般的な比率から選択することも、カスタムサイズを入力することもできます。
    * **[!UICONTROL コンテンツタイプ]**：これにより、視覚要素の性質が分類され、写真、グラフィック、アートなど、様々な視覚的表現が区別されます。
    * **[!UICONTROL 視覚的な強度]**：画像の強度を調整することで、画像の影響を制御できます。 低い設定（2）では、より柔らかく抑制された外観が作成され、高い設定（10）では、画像がより鮮やかで視覚的に強力になります。
@@ -147,7 +149,7 @@ AI アシスタントにアクセスしたら、生成設定を調整して、�
 
 1. **[!UICONTROL 画像設定]**&#x200B;を選択します。
 
-   * **[!UICONTROL 生成モデル]**：すぐに使用できる&#x200B;**[!UICONTROL Adobe モデル]**、特殊機能の&#x200B;**[!UICONTROL パートナーモデル]**、ブランドアセットでトレーニングされた&#x200B;**[!UICONTROL カスタムモデル]**&#x200B;から選択します。 [詳細情報](generative-models.md) 生成された画像に&#x200B;**テキストオーバーレイ**&#x200B;を含むパートナー（**Gemini**）モデルを使用するには、[Geminiをテキストオーバーレイ画像](generative-uc.md#generative-gemini)の生成モデルとして使用するを参照してください。
+   * **[!UICONTROL 生成モデル]**：すぐに使用できる&#x200B;**[!UICONTROL Adobe モデル]**、特殊機能の&#x200B;**[!UICONTROL パートナーモデル]**、ブランドアセットでトレーニングされた&#x200B;**[!UICONTROL カスタムモデル]**&#x200B;から選択します。 [学習を増やす](generative-models.md)。 生成された画像に&#x200B;**テキストオーバーレイ**&#x200B;を含むパートナー（**Gemini**）モデルを使用するには、[Geminiをテキストオーバーレイ画像](generative-uc.md#generative-gemini)の生成モデルとして使用するを参照してください。
    * **[!UICONTROL コンテンツタイプ]**：これにより、視覚要素の性質が分類され、写真、グラフィック、アートなど、様々な視覚的表現が区別されます。
    * **[!UICONTROL 視覚的な強度]**：画像の強度を調整することで、画像の影響を制御できます。 低い設定（2）では、より柔らかく抑制された外観が作成され、高い設定（10）では、画像がより鮮やかで視覚的に強力になります。
    * **[!UICONTROL カラーとトーン]**：画像内のカラーの全体的な外観と、画像が伝えるムードまたは雰囲気。

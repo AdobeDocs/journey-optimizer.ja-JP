@@ -6,13 +6,11 @@ description: DDL をアップロードして Adobe Experience Platform 内でリ
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/tNL6BkFKuOWMyEnR-FWc38mYrcA15wAdsHzZntCEwVw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 485
 ht-degree: 81%

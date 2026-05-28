@@ -10,31 +10,13 @@ keywords: エントリ, 終了, 条件, ジャーニー, プロファイル, 再
 version: Journey Orchestration
 exl-id: e879a0f6-b969-4de0-a733-f2880d58d59b
 TQID: https://experienceleague.adobe.com/6OJQsorJ9p7gtO1ep-rIss60J2TmKzqiNS3Btfhh8Gs
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: ebd64fe4-362a-4a1c-9476-b2573ed12a95
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: ebd64fe4-362a-4a1c-9476-b2573ed12a95id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 1670
 ht-degree: 92%
@@ -125,7 +107,7 @@ ht-degree: 92%
 
 **次に、エントリー条件について知っておく必要のあるすべての事項について説明します。**
 
-* **[イベントベースのトリガー](../event/about-events.md)**：「プロファイルの作成」、「トランザクションの完了」などのイベントやカスタムイベントを使用して、ジャーニーを開始します。 [管理&#x200B;]&#x200B;**/**&#x200B;[!UICONTROL &#x200B; イベント &#x200B;]&#x200B;**でイベント (../event/about-creating.md)を設定し、[&#x200B; イベントスキーマとフィールド &#x200B;](../event/experience-event-schema.md)を定義します。**&#x200B;次に、[&#x200B; ジャーニーデザイナー](using-the-journey-designer.md)の&#x200B;**[!UICONTROL イベント]** パレットからイベントを追加します。
+* **[イベントベースのトリガー](../event/about-events.md)**：「プロファイルの作成」、「トランザクションの完了」などのイベントやカスタムイベントを使用して、ジャーニーを開始します。 [管理&#x200B;]**/**[!UICONTROL  イベント ]**でイベント ](../event/about-creating.md)を設定し、[ イベントスキーマとフィールド ](../event/experience-event-schema.md)を定義します。**[!UICONTROL &#x200B;次に、[ ジャーニーデザイナー](using-the-journey-designer.md)の&#x200B;**[!UICONTROL イベント]** パレットからイベントを追加します。
 
 * **[オーディエンスベースのエントリ](read-audience.md)**：特定のオーディエンスに属するプロファイルへのジャーニーを、1 回限りのバッチとして、または繰り返しスケジュールでターゲットにします。 **[!UICONTROL オーディエンス]**&#x200B;メニューで[オーディエンスを作成](../audience/creating-a-segment-definition.md)し、**[!UICONTROL オーディエンスを読み取り]**&#x200B;アクティビティを追加して、[スケジュールを設定](journey-properties.md#schedule)します。 入力後、条件を使用して[分岐をセグメント化、除外、または結合](read-audience.md#audience-targeting-in-journeys)します。
 
@@ -171,7 +153,7 @@ ht-degree: 92%
 
 >[!TIP]
 >
->その他のパターンと実装については、[ジャーニーユースケースライブラリ &#x200B;](jo-use-cases.md)で使用可能なすべてのユースケースを参照してください。 例としては、[配信の強化](ramp-up-deliveries-uc.md)、[&#x200B; エクスペリエンスイベントパターン &#x200B;](exp-event-lookup.md)、[&#x200B; ライブジャーニーからのプロファイルの削除](journey-pause.md#apply-an-exit-criteria-in-a-paused-journey)などが挙げられます。
+>その他のパターンと実装については、[ジャーニーユースケースライブラリ ](jo-use-cases.md)で使用可能なすべてのユースケースを参照してください。 例としては、[配信の強化](ramp-up-deliveries-uc.md)、[ エクスペリエンスイベントパターン ](exp-event-lookup.md)、[ ライブジャーニーからのプロファイルの削除](journey-pause.md#apply-an-exit-criteria-in-a-paused-journey)などが挙げられます。
 
 ## エントリと終了を管理するためのベストプラクティス {#best-practices}
 
@@ -233,8 +215,8 @@ ht-degree: 92%
 
 **チュートリアルと例**
 
-[ジャーニーのユースケース](jo-use-cases.md) | [カスタマーオンボーディングビデオ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [放棄された買い物かごビデオ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [コミュニティブログ：エントリ条件と終了条件](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958?profile.language=ja)
+[ジャーニーのユースケース](jo-use-cases.md) | [カスタマーオンボーディングビデオ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding) | [放棄された買い物かごビデオ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart) | [コミュニティブログ：エントリ条件と終了条件](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/mastering-journey-entry-and-exit-criteria-in-adobe-journey/ba-p/760958)
 
 **関連機能**
 
-[&#x200B; オーディエンスの選定イベント &#x200B;](audience-qualification-events.md) | [成功指標と目標](success-metrics.md) | [競合管理](../conflict-prioritization/conflicts.md) | [頻度の上限設定](../conflict-prioritization/rule-sets.md) | [&#x200B; ジャーニー](testing-the-journey.md) | [&#x200B; アクティビティの最適化](optimize.md) | [反応イベント &#x200B;](reaction-events.md) | [&#x200B; アクティビティの待機](wait-activity.md)
+[ オーディエンスの選定イベント ](audience-qualification-events.md) | [成功指標と目標](success-metrics.md) | [競合管理](../conflict-prioritization/conflicts.md) | [頻度の上限設定](../conflict-prioritization/rule-sets.md) | [ ジャーニー](testing-the-journey.md) | [ アクティビティの最適化](optimize.md) | [反応イベント ](reaction-events.md) | [ アクティビティの待機](wait-activity.md)

@@ -6,9 +6,11 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: df92e319-1e42-486f-b688-595964a762c9
-source-git-commit: 1ee6f9d74b83ca2b9c2cc0336af0f23a42f4da4f
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: 361
 ht-degree: 98%
 
 ---
@@ -24,7 +26,7 @@ Adobe Journey Optimizer でコンテンツカードを正しく表示するに�
 
 * **Adobe Experience Platform**
 
-  デフォルトの結合ポリシーで、**顧客**／**プロファイル**／**[!UICONTROL 結合ポリシー]** Experience Platform メニューで「**[!UICONTROL Active-On-Edge 結合ポリシー]**」がアクティブになっていることを確認します。 [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ja#configure){target="_blank"}
+  デフォルトの結合ポリシーで、**顧客]**／**[!UICONTROL プロファイル**／**[!UICONTROL 結合ポリシー]** Experience Platform メニューで「**[!UICONTROL Active-On-Edge 結合ポリシー]**」がアクティブになっていることを確認します。 [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ja#configure){target="_blank"}
 
   >[!NOTE]
   >

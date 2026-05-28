@@ -10,20 +10,13 @@ level: Intermediate
 hide: true
 exl-id: 58034ec4-62dc-406c-99c4-d6b7aa107140
 TQID: https://experienceleague.adobe.com/NBJkyh9TCAPxD0u3EpwaZth7-ePjEWdg2roQ7J2-RuY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 663
 ht-degree: 22%
@@ -92,7 +85,7 @@ ht-degree: 22%
 
 マーケティングキャンペーンでは、ブロードキャストのユースケースにライブアクティビティを使用し、複数のデバイスに同時にアップデートを送信します。
 
-Marketing CampaignsのiOS Live アクティビティの場合、レポートには、開始時に&#x200B;**[!UICONTROL Remote Starts]**&#x200B;件のイベントと&#x200B;**[!UICONTROL Remote starts errors]**&#x200B;件のみが表示されます。 APNがフィードバックを提供せずにすべてのデバイスにアップデートを配信するため、**[!UICONTROL 更新]**&#x200B;および&#x200B;**[!UICONTROL 終了]**&#x200B;のイベントは追跡されません。 **[!UICONTROL 更新]**&#x200B;および&#x200B;**[!UICONTROL 終了]** イベントを表示するには、[Apple プッシュ通知コンソール &#x200B;](https://developer.apple.com/notifications/push-notifications-console/)を使用します。
+Marketing CampaignsのiOS Live アクティビティの場合、レポートには、開始時に&#x200B;**[!UICONTROL Remote Starts]**&#x200B;件のイベントと&#x200B;**[!UICONTROL Remote starts errors]**&#x200B;件のみが表示されます。 APNがフィードバックを提供せずにすべてのデバイスにアップデートを配信するため、**[!UICONTROL 更新]**&#x200B;および&#x200B;**[!UICONTROL 終了]**&#x200B;のイベントは追跡されません。 **[!UICONTROL 更新]**&#x200B;および&#x200B;**[!UICONTROL 終了]** イベントを表示するには、[Apple プッシュ通知コンソール ](https://developer.apple.com/notifications/push-notifications-console/)を使用します。
 
 +++ マーケティングキャンペーンのライブアクティビティライフサイクル指標の詳細
 
@@ -106,7 +99,7 @@ Marketing CampaignsのiOS Live アクティビティの場合、レポートに�
 
 Appleのプッシュ通知コンソールを使用する代わりに、ヘッドレス API呼び出しを使用してアップデートと終了回数を取得できます。
 
-ブロードキャストのユースケースに対して更新または終了API呼び出しを実行する場合、応答には`controlBreakdown` セクションが含まれ、ライブアクティビティ実行に対して実行された更新呼び出しと終了呼び出しの数を示すカウンターが提供されます。 このブロックは、ライフサイクルデータのないレガシー実行には存在しません。 また、必要に応じて、GET エンドポイントを使用して実行ステータスを明示的に取得することもできます。
+ブロードキャストのユースケースに対して更新または終了API呼び出しを実行する場合、応答には`controlBreakdown` セクションが含まれ、ライブアクティビティ実行に対して実行された更新呼び出しと終了呼び出しの数を示すカウンターが提供されます。 このブロックは、ライフサイクルデータのないレガシー実行には存在しません。 実行ステータスは、必要に応じてGET エンドポイントを使用して明示的に取得することもできます。
 
 **更新/応答終了（200 OK）**
 

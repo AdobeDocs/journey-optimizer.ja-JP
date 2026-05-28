@@ -6,12 +6,10 @@ description: 結合アクティビティの使用方法について説明しま�
 exl-id: af3c3a9c-8172-43b0-bba1-4a3d068b9a9e
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/-iLQufrB6X3O3fdKVCY26cD7pohPyx2Gt9--n8yH5Dg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: b423a773-0a58-4a77-b65d-3dd4ae6ef841
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 1019
 ht-degree: 100%

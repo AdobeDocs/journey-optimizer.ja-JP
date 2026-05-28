@@ -10,10 +10,12 @@ level: Intermediate
 badge: label="限定提供" type="Informative"
 keywords: 暗号化，URL, トラッキング，ランディングページ，キーレジストリ，パーソナライゼーション，セキュリティ，プライバシー，サンドボックス
 exl-id: 82e2b6e4-769f-4bdc-b2e2-19352fbaec8e
-source-git-commit: 1039daee3b328828361976513cc4d1ba5ce1169a
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 4%
+source-wordcount: 695
+ht-degree: 3%
 
 ---
 
@@ -21,13 +23,13 @@ ht-degree: 4%
 
 >[!AVAILABILITY]
 >
->この機能は、限定提供です。アクセス権を取得するには、アドビ担当者にお問い合わせください。
+>この機能は、制限付き可用性で利用できます。 アクセス権を取得するには、アドビ担当者にお問い合わせください。
 >
 >この機能は現在、メールチャネルでのみ使用できます。
 
-## Why use URL parameter encryption? {#why-url-parameter-encryption}
+## URL パラメーター暗号化を使用する理由 {#why-url-parameter-encryption}
 
-パーソナライズされたトラッキングリンクおよびランディングページのURLには、多くの場合、プロファイル属性、識別子、トークン、またはクエリ文字列のその他の値が含まれます。 これらのパラメーターは、通常、電子メールやSMSでプレーンテキストとして表示され、誰かがリンクをコピー、共有、ブックマークした場合も読みやすくなります。 This can be a security and privacy risk when the values can include personally identifiable information (PII) or other sensitive data they must protect.
+パーソナライズされたトラッキングリンクおよびランディングページのURLには、多くの場合、プロファイル属性、識別子、トークン、またはクエリ文字列のその他の値が含まれます。 これらのパラメーターは、通常、電子メールやSMSでプレーンテキストとして表示され、誰かがリンクをコピー、共有、ブックマークした場合も読みやすくなります。 その値に個人情報（PII）や保護すべき機密データが含まれている場合、セキュリティやプライバシーのリスクが生じる可能性があります。
 
 [!DNL Journey Optimizer]は、パーソナライゼーションエディターで暗号化ヘルパーを提供します。これにより、レンダリング時に任意の式の値（プロファイル属性、トークン、複数のフィールドから構築した文字列など）を暗号化できます。 暗号化には、常に組織のレジストリのキーが必要です。
 
@@ -35,8 +37,8 @@ ht-degree: 4%
 
 ### 仕組み {#how-it-works}
 
-* **管理者**&#x200B;は、組織のセキュリティ ポリシーに従って、キーのレジストリを使用して[&#x200B; キーを作成](#create-keys)し、[&#x200B; キーを管理](#manage-keys)します。
-* **マーケター**&#x200B;は、`Encrypt` ヘルパーをパーソナライゼーションエディターに挿入し、保護する値とアクティブなキー識別子をレジストリから渡します。 構文とオプションについては、[このセクション &#x200B;](functions/helpers.md#url-parameter-encryption-helper)を参照してください。
+* **管理者**&#x200B;は、組織のセキュリティ ポリシーに従って、キーのレジストリを使用して[ キーを作成](#create-keys)し、[ キーを管理](#manage-keys)します。
+* **マーケター**&#x200B;は、`Encrypt` ヘルパーをパーソナライゼーションエディターに挿入し、保護する値とアクティブなキー識別子をレジストリから渡します。 構文とオプションについては、[このセクション ](functions/helpers.md#url-parameter-encryption-helper)を参照してください。
 
 >[!IMPORTANT]
 >
@@ -46,7 +48,7 @@ ht-degree: 4%
 
 ランディングページのURLでは、値が文字列トークンである`token`などのクエリパラメーター（オファーまたはプロファイル識別子を含むJSON ペイロードなど）を使用できます。 暗号化しないと、その文字列トークンはリンク内にプレーンテキストとして表示されます。 暗号化ヘルパーでその値をラップすると、URL内の機密ペイロードが暗号テキストに置き換えられますが、リンクの残りの部分は変更されません。
 
-## Create keys {#create-keys}
+## キーの作成 {#create-keys}
 
 URL パラメーター暗号化ヘルパーを使用する前に、キーを作成する必要があります。 これを行うには、以下の手順に従います。
 
@@ -62,17 +64,17 @@ URL パラメーター暗号化ヘルパーを使用する前に、キーを作�
 
 1. **[!UICONTROL 管理]** > **[!UICONTROL 設定]**&#x200B;に移動します。
 
-1. Click the **[!UICONTROL Manage]** button to open the **[!UICONTROL Key registry]**.
+1. 「**[!UICONTROL 管理]**」ボタンをクリックして、**[!UICONTROL キーレジストリ]**&#x200B;を開きます。
 
-   管理メニュー![の「](assets/encryption-key-registry.png){width="80%"} キーレジストリ」セクション
+   管理メニュー](assets/encryption-key-registry.png){width="80%"}の「![ キーレジストリ」セクション
 
-1. Using the dedicated button, create keys as required for your organization.
+1. 専用ボタンを使用して、組織の必要に応じてキーを作成します。
 
-   ![&#x200B; キーレジストリセクション &#x200B;](assets/encryption-create-key.png){width="80%"}の「キーボタンを作成」ボタン
+   ![ キーレジストリセクション ](assets/encryption-create-key.png){width="80%"}の「キーボタンを作成」ボタン
 
-1. Assign them a clear label or identifier your teams can reference in the personalization editor.
+1. パーソナライゼーションエディターでチームが参照できる明確なラベルや識別子を割り当てます。
 
-   ![&#x200B; キーのレジストリ セクション &#x200B;](assets/encryption-key-details.png){width="80%"}のキーの詳細
+   ![ キーのレジストリ セクション ](assets/encryption-key-details.png){width="80%"}のキーの詳細
 
 1. 「 **[!UICONTROL 送信]**」をクリックして、変更を確定します。
 
@@ -88,11 +90,11 @@ URL パラメーター暗号化ヘルパーを使用する前に、キーを作�
 
 1. 「**[!UICONTROL アクティブ]**」ステータスのキーをクリックして、キーの詳細を開きます。
 
-   ![&#x200B; アクティブなキーの詳細](assets/encryption-key-active-details.png){width="80%"}
+   ![ アクティブなキーの詳細](assets/encryption-key-active-details.png){width="80%"}
 
 1. 「**[!UICONTROL 失効]**」ボタンをクリックして、新しい暗号化のキーを完全に無効にします。
 
-   Once a key is revoked, attempts to use it in the helper should fail at render time. 取り消されたエントリは監査のために表示されたままになります。自分のシステムで古いペイロードを復号するには、対応するマテリアルが必要な場合があります。
+   キーが取り消されると、ヘルパーでキーを使用しようとすると、レンダリング時に失敗する可能性があります。 取り消されたエントリは監査のために表示されたままになります。自分のシステムで古いペイロードを復号するには、対応するマテリアルが必要な場合があります。
 
 1. 「**[!UICONTROL 回転]**」ボタンをクリックすると、ジャーニーやキャンペーンが既に参照している安定したキー識別子を維持しながら、新しいキー素材を入力できます。
 

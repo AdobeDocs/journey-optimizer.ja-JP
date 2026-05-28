@@ -6,9 +6,11 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: アプリ内, メッセージ, 作成, 開始
-source-git-commit: efb943e5a6f27becc6e8b6128b776e46d6141823
-workflow-type: ht
-source-wordcount: '681'
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+workflow-type: tm+mt
+source-wordcount: 724
 ht-degree: 100%
 
 ---
@@ -22,7 +24,7 @@ ht-degree: 100%
 
 * **Adobe Experience Platform Web SDK** 拡張機能を&#x200B;**タグのプロパティ**&#x200B;にインストールし、「**パーソナライゼーションストレージ**」オプションを有効にします。
 
-  この設定は、クライアントにイベント履歴を保存するために不可欠で、ルールビルダーで頻度ルールを実装するための前提条件です。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=ja){target="_blank"}
+  この設定は、クライアントにイベント履歴を保存するために不可欠で、ルールビルダーで頻度ルールを実装するための前提条件です。 [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/web-sdk/web-sdk-extension-configuration.html?lang=ja){target="_blank"}
 
   ![](assets/configure_web_inapp_1.png)
 
@@ -62,7 +64,7 @@ ht-degree: 100%
 
 1. 「**変更を保持**」をクリックして&#x200B;**アクション**&#x200B;の設定を保存します。
 
-1. **公開フロー**&#x200B;メニューに移動します。新しい&#x200B;**ライブラリ**&#x200B;を作成するか、既存の&#x200B;**ライブラリ**&#x200B;を選択して、そこに新しく作成した&#x200B;**ルール**&#x200B;を追加します。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=ja#create-a-library){target="_blank"}
+1. **公開フロー**&#x200B;メニューに移動します。 新しい&#x200B;**ライブラリ**&#x200B;を作成するか、既存の&#x200B;**ライブラリ**&#x200B;を選択して、そこに新しく作成した&#x200B;**ルール**&#x200B;を追加します。 [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=ja#create-a-library){target="_blank"}
 
 1. **ライブラリ**&#x200B;から、「**開発用に保存およびビルド**」を選択します。
 
@@ -104,7 +106,7 @@ ht-degree: 100%
 
 1. 「**決定コンテキスト**」セクションで、実現するエクスペリエンスを決定する&#x200B;**キー**&#x200B;と&#x200B;**値**&#x200B;のペアを定義します。
 
-1. **公開フロー**&#x200B;メニューにアクセスし、新しい&#x200B;**ライブラリ**&#x200B;を作成するか、既存の&#x200B;**ライブラリ**&#x200B;を選択して、新しく作成した&#x200B;**ルール**&#x200B;を追加します。[詳細情報](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=ja#create-a-library){target="_blank"}
+1. **公開フロー**&#x200B;メニューにアクセスし、新しい&#x200B;**ライブラリ**&#x200B;を作成するか、既存の&#x200B;**ライブラリ**&#x200B;を選択して、新しく作成した&#x200B;**ルール**&#x200B;を追加します。 [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/libraries.html?lang=ja#create-a-library){target="_blank"}
 
 1. **ライブラリ**&#x200B;から、「**開発用に保存およびビルド**」を選択します。
 
@@ -120,15 +122,15 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   > 名前は、文字（A ～ Z）で始める必要があります。使用できるのは英数字のみです。アンダースコア（`_`）、ドット（`.`）、ハイフン（`-`）も使用できます。
+   > 名前は、文字（A ～ Z）で始める必要があります。 使用できるのは英数字のみです。 アンダースコア（`_`）、ドット（`.`）、ハイフン（`-`）も使用できます。
 
-1. 設定にカスタムまたはコアのデータ使用ラベルを割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。[詳しくは、オブジェクトレベルのアクセス制御（OLAC）を参照してください](../administration/object-based-access.md)。
+1. 設定にカスタムまたはコアのデータ使用ラベルを割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。 [詳しくは、オブジェクトレベルのアクセス制御（OLAC）を参照してください](../administration/object-based-access.md)。
 
-1. この設定を使用してメッセージに同意ポリシーを関連付けるには、**[!UICONTROL マーケティングアクション]**&#x200B;を選択します。顧客の意向に従うために、そのマーケティングアクションに関連付けられているすべての同意ポリシーが活用されます。[詳細情報](../action/consent.md#surface-marketing-actions)
+1. この設定を使用してメッセージに同意ポリシーを関連付けるには、**[!UICONTROL マーケティングアクション]**&#x200B;を選択します。 顧客の意向に従うために、そのマーケティングアクションに関連付けられているすべての同意ポリシーが活用されます。 [詳細情報](../action/consent.md#surface-marketing-actions)
 
 1. **アプリ内メッセージ**&#x200B;チャネルを選択します。
 
-1. アプリ設定を定義します。変更を行うには、次の 2 つのオプションがあります。
+1. アプリ設定を定義します。 変更を行うには、次の 2 つのオプションがあります。
 
    * **[!UICONTROL ページ URL]** を入力して、特定のページに変更を適用できます。
 
@@ -149,7 +151,7 @@ ht-degree: 100%
 
       1. **[!UICONTROL デフォルトのオーサリングおよびプレビュー URL]** を選択します。
 
-      1. 変更を保存します。ルールは、**[!UICONTROL キャンペーンを作成]**&#x200B;画面に表示されます。
+      1. 変更を保存します。 ルールは、**[!UICONTROL キャンペーンを作成]**&#x200B;画面に表示されます。
 
      +++
 

@@ -10,17 +10,12 @@ level: Experienced
 keywords: サンドボックス, 仮想, 環境, 組織, プラットフォーム
 exl-id: 14f80d5d-0840-4b79-9922-6d557a7e1247
 TQID: https://experienceleague.adobe.com/8vcaHkqHeyoP-TZltCkjpBhvZIifuiPbKy-Whoj74Z8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+subfeature_v2: []
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 434
 ht-degree: 79%
@@ -29,7 +24,7 @@ ht-degree: 79%
 
 # サンドボックスの使用と割り当て {#sandboxes}
 
-**サンドボックス**&#x200B;は、Adobe Journey Optimizer インスタンスを個別の独立したワークスペース（開発、テスト、実稼動用）に分割する仮想環境です。 サンドボックス管理は、**管理** > **チャネル** > **システムと環境を接続** （またはインターフェイスの右上にあるサンドボックススイッチャーを使用）の下にあります。 サンドボックスを利用すれば、安全にテストを実施し、役割ごとに異なるアクセス権を割り当て、コンテンツを整理しておくことができます。 このページでは、サンドボックスの使用と割り当て、コンテンツアクセスの設定、および[&#x200B; オブジェクトを別のサンドボックスに書き出し](../configuration/copy-objects-to-sandbox.md)の記事で、サンドボックス間でジャーニーとテンプレートをコピーする方法について説明します。
+**サンドボックス**&#x200B;は、Adobe Journey Optimizer インスタンスを個別の独立したワークスペース（開発、テスト、実稼動用）に分割する仮想環境です。 サンドボックス管理は、**管理** > **チャネル** > **システムと環境を接続** （またはインターフェイスの右上にあるサンドボックススイッチャーを使用）の下にあります。 サンドボックスを利用すれば、安全にテストを実施し、役割ごとに異なるアクセス権を割り当て、コンテンツを整理しておくことができます。 このページでは、サンドボックスの使用と割り当て、コンテンツアクセスの設定、および[ オブジェクトを別のサンドボックスに書き出し](../configuration/copy-objects-to-sandbox.md)の記事で、サンドボックス間でジャーニーとテンプレートをコピーする方法について説明します。
 
 ## サンドボックスの使用 {#using-sandbox}
 
@@ -83,4 +78,4 @@ ht-degree: 79%
 
 サンドボックスの概要と、開発用サンドボックスと本番稼働用サンドボックスを区別する方法について説明します。 サンドボックスの作成、リセット、削除方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416784?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334355?quality=12)

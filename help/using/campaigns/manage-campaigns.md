@@ -11,23 +11,13 @@ level: Beginner
 keywords: キャンペーンの管理, ステータス, スケジュール, アクセス, Optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 TQID: https://experienceleague.adobe.com/k-BZOO4BOzdW2TVlBrDx1CH-Wte7KEXffXqZYRvUI7w
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 74203348941e21c5491877d9553114fe81955f2f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: a653cc2e-bc85-4353-a306-399e5b247978
+subfeature_v2: id: f7479fa1-474b-479d-8c98-f6cee5865a38id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 1760
 ht-degree: 91%
@@ -121,7 +111,7 @@ Adobe Journey Optimizer でキャンペーンにアクセスし、整理およ�
 
 **オーケストレーションされたキャンペーンのみ：**
 
-* **[!UICONTROL 下書きに戻る]** - キャンペーンを非公開にして、エラー回復用に下書きステータスに戻します。 このアクションは、スケジュールされたキャンペーンがまだ開始されていない場合、または実行が完了する前にライブキャンペーンでエラーが発生した場合に使用できます。 [&#x200B; キャンペーンの取り消しの詳細→](../orchestrated/start-monitor-campaigns.md#back-to-draft)
+* **[!UICONTROL 下書きに戻る]** - キャンペーンを非公開にして、エラー回復用に下書きステータスに戻します。 このアクションは、スケジュールされたキャンペーンがまだ開始されていない場合、または実行が完了する前にライブキャンペーンでエラーが発生した場合に使用できます。 [ キャンペーンの取り消しの詳細→](../orchestrated/start-monitor-campaigns.md#back-to-draft)
 
 ### 一括アクション {#bulk-actions-campaigns}
 
@@ -135,7 +125,7 @@ Adobe Journey Optimizer でキャンペーンにアクセスし、整理およ�
 |--------|:----------------:|:-----------------------:|:----------------------:|---------------|--------------|
 | **[!UICONTROL ドラフト]** | ✅ | ✅ | ✅ | 編集中、アクティブ化されていない | 編集を続行または[キャンペーンをアクティブ化](review-activate-campaign.md) |
 | **[!UICONTROL スケジュール済み]** | ✅ | ✅ | ✅ | 特定の開始日に設定済み | ローンチを待機、[必要に応じて変更](#modify)または[カレンダーで表示](#calendar) |
-| **[!UICONTROL ライブ]** | ✅ | ✅ | ✅ | アクティブ化して実行中 | [&#x200B; パフォーマンスを監視](../reports/campaign-global-report-cja.md)、[必要に応じて新しいバージョン &#x200B;](#modify)を作成します。 オーケストレーションされたキャンペーンの場合：[&#x200B; スケジュールされたキャンペーンがまだ開始されていない場合、またはメッセージが送信される前に実行エラーが発生したキャンペーンの場合は、](../orchestrated/start-monitor-campaigns.md#back-to-draft) ドラフトに戻します |
+| **[!UICONTROL ライブ]** | ✅ | ✅ | ✅ | アクティブ化して実行中 | [ パフォーマンスを監視](../reports/campaign-global-report-cja.md)、[必要に応じて新しいバージョン ](#modify)を作成します。 オーケストレーションされたキャンペーンの場合：[ スケジュールされたキャンペーンがまだ開始されていない場合、またはメッセージが送信される前に実行エラーが発生したキャンペーンの場合は、](../orchestrated/start-monitor-campaigns.md#back-to-draft) ドラフトに戻します |
 | **[!UICONTROL レビュー中]** | ✅ | ✅ | — | 承認用に送信済み | [承認](../test-approve/gs-approval.md)を待機または変更 |
 | **[!UICONTROL 停止済み]** | ✅ | ✅ | ✅ | 手動で停止、再アクティブ化できない | [複製して再利用](#duplicate-a-campaign) |
 | **[!UICONTROL 完了]** | ✅ | ✅ | ✅ | 実行完了（アクティブ化後 3 日または繰り返しの場合は終了日に自動割り当て） | [レポートを表示](../reports/campaign-global-report-cja.md)、[アーカイブ](#archive-a-campaign)または[複製](#duplicate-a-campaign) |

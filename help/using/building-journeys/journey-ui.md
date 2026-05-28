@@ -10,9 +10,11 @@ level: Intermediate
 keywords: ジャーニー, 最初, 開始, クイックスタート, オーディエンス, イベント, アクション
 exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '1485'
+source-wordcount: 1485
 ht-degree: 96%
 
 ---
@@ -140,7 +142,7 @@ ht-degree: 96%
 
 * **ドラフト**：ジャーニーは最初のステージです。 まだ公開されていません。
 * **ドラフト（テスト）**：「**テストモード**」ボタンを使用してテストモードがアクティブ化されています。 [詳細情報](../building-journeys/testing-the-journey.md)
-* **完了**: ジャーニーは、ジャーニーのタイプと設定に基づいて、このステータスに自動的に切り替わります。 既にジャーニーにエントリしているプロファイルは、通常どおりにジャーニーを終了できます。 新しいプロファイルは、そのジャーニーにエントリできなくなります。 [&#x200B; ジャーニーが完了したと見なされるタイミングを学習します](end-journey.md#journey-finished-definition)。
+* **完了**: ジャーニーは、ジャーニーのタイプと設定に基づいて、このステータスに自動的に切り替わります。 既にジャーニーにエントリしているプロファイルは、通常どおりにジャーニーを終了できます。 新しいプロファイルは、そのジャーニーにエントリできなくなります。 [ ジャーニーが完了したと見なされるタイミングを学習します](end-journey.md#journey-finished-definition)。
 * **ライブ**：ジャーニーは「**公開**」ボタンを使用して公開されています。 [詳細情報](../building-journeys/publish-journey.md)
 * **一時停止済み**：ライブジャーニーは「**一時停止**」ボタンを使用して一時停止されています。 [詳細情報](../building-journeys/journey-pause.md)
 * **停止済み**：「**停止**」ボタンを使用してジャーニーがオフになっています。 すべての個人のジャーニーが即座に終了します。 [詳細情報](../building-journeys/end-journey.md#stop-journey)

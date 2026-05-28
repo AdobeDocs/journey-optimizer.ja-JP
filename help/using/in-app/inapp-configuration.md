@@ -7,32 +7,13 @@ level: Intermediate
 keywords: アプリ内, メッセージ, 設定, プラットフォーム
 exl-id: 469c05f2-652a-4899-a657-ddc4cebe3b42
 TQID: https://experienceleague.adobe.com/GWlxb1IJ5oZue5m0s4nN7iOa1S-IfHEFNuU7Lcj0H2s
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5deeid: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c18d9e03-ac7d-4811-9c92-3e92ddc70adeid: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 1113
 ht-degree: 97%
@@ -112,7 +93,7 @@ Journey Optimizer でアプリ内設定を作成するには、次の手順に�
 
    >[!NOTE]
    >
-   >iOS および Android プラットフォームの場合、配信はアプリ ID のみに基づきます。 両方のアプリが同じアプリ ID を共有している場合、**[!UICONTROL チャネル設定]**&#x200B;で選択したプラットフォームに関係なく、コンテンツは両方に配信されます。
+   >iOS および Android プラットフォームの場合、配信はアプリ ID のみに基づきます。 両方のアプリが同じアプリ ID を共有している場合、**[!UICONTROL チャネル設定]**で選択したプラットフォームに関係なく、コンテンツは両方に配信されます。
    >アプリ内メッセージの配信を特定のプラットフォームに制限するには、ジャーニーまたはキャンペーンロジック内にデバイス固有のルールを実装する必要があります。
 
    ![](assets/inapp_config_10.png)

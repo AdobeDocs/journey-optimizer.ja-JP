@@ -10,20 +10,12 @@ level: Beginner
 keywords: ダイレクトメール, メッセージ, キャンペーン
 exl-id: bb52f400-6289-4a7f-a34f-98eb5d27c76a
 TQID: https://experienceleague.adobe.com/Gmtr-7HW70-cg7va8iHfR5xKdYts-ZdDCm6CeQHJ0tg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 114f184e73298bf79d666ef7b17755498c93df83
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: cb1f1586-9fb4-4de2-8332-02cebb88d42did: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 436
 ht-degree: 83%
@@ -42,7 +34,7 @@ ht-degree: 83%
 
 ## 事前準備 {#before-you-start}
 
-ダイレクトメールメッセージを作成する前に、[&#x200B; ファイルルーティングとダイレクトメールチャネル設定](direct-mail-configuration.md)を設定します。 Adobe Experience Platformには、オーディエンスとプロファイルデータ（住所など）も必要です。
+ダイレクトメールメッセージを作成する前に、[ ファイルルーティングとダイレクトメールチャネル設定](direct-mail-configuration.md)を設定します。 Adobe Experience Platformには、オーディエンスとプロファイルデータ（住所など）も必要です。
 
 ダイレクトメールメッセージを送信する主な手順は、次のとおりです。
 
@@ -67,10 +59,10 @@ Adobe Journey Optimizer のダイレクトメールチャネルを活用して�
 
 +++ こちらのビデオをご覧ください
 
->[!VIDEO](https://video.tv.adobe.com/v/3479163?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479162?quality=12)
 
 +++
 
-同じ手順の手書きのチュートリアルについては、[&#x200B; ダイレクトメールチャネルのチュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}を参照してください。
+同じ手順の手書きのチュートリアルについては、[ ダイレクトメールチャネルのチュートリアル ](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}を参照してください。
 
-ダイレクトメールに関するよくある質問については、上記の「[追加リソース &#x200B;](#additional-resources)」の節を参照してください。
+ダイレクトメールに関するよくある質問については、上記の「[追加リソース ](#additional-resources)」の節を参照してください。

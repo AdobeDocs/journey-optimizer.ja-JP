@@ -8,9 +8,11 @@ topic: Content Management, Artificial Intelligence
 badge: label="ベータ版" type="Informative"
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: febf15cfead2f0a236de69bcdf0b2c2136e80f4a
+subfeature_v2: []
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '1445'
+source-wordcount: 1445
 ht-degree: 5%
 
 ---

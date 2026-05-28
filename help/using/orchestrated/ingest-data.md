@@ -6,12 +6,10 @@ description: SFTP、クラウドストレージ、データベースなどのサ
 exl-id: 7f1e7985-b68e-43d6-9c8f-fea2469f8af9
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/jXA5I4NsV459grMkrAD-1AVugey6Uw7aViNO72oKtQw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 815
 ht-degree: 95%

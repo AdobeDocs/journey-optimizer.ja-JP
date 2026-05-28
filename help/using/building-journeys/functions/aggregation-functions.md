@@ -7,16 +7,19 @@ role: Developer
 level: Experienced
 keywords: 集計, 関数, 式, ジャーニー, 平均, カウント, 最大, 最小, 合計
 version: Journey Orchestration
-source-git-commit: bb47ca4957129a4d05aa3d7286409eef0cb62143
-workflow-type: ht
-source-wordcount: '717'
+exl-id: 871a5212-5b94-4a54-bf1d-276022be3c95
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+workflow-type: tm+mt
+source-wordcount: 719
 ht-degree: 100%
 
 ---
 
 # 集計関数 {#aggregation-functions}
 
-集計関数は、一連の値に対して計算を実行し、単一の集計結果を返します。これらの関数を使用すると、平均値を計算したり、最小値と最大値を検索したり、要素をカウントしたり、数値を合計したりすることで、ジャーニー式内のデータを分析できます。
+集計関数は、一連の値に対して計算を実行し、単一の集計結果を返します。 これらの関数を使用すると、平均値を計算したり、最小値と最大値を検索したり、要素をカウントしたり、数値を合計したりすることで、ジャーニー式内のデータを分析できます。
 
 集計関数は、次の操作が必要な場合に使用します。
 
@@ -30,7 +33,7 @@ ht-degree: 100%
 
 ## avg {#avg}
 
-リストまたは 2 つの式のいずれかで指定された一連の式の平均値を返します。null 値は無視されます。
+リストまたは 2 つの式のいずれかで指定された一連の式の平均値を返します。 null 値は無視されます。
 
 +++構文
 
@@ -97,7 +100,7 @@ null 値を数に入れずに、リストの要素数を数えます。
 
 | パラメーター | タイプ | 説明 |
 |-----------|------------------|------------------|
-| listToProcess | lilistString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly、listObject のいずれか | 処理するリスト。listObject の場合、フィールド参照である必要があります。listObject に null オブジェクトを含めることはできません。 |
+| listToProcess | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly、listObject のいずれか | 処理するリスト。 listObject の場合は、フィールド参照にする必要があります。 listObject に null オブジェクトを含めることはできません。 |
 
 +++
 
@@ -117,7 +120,7 @@ null 値を数に入れずに、リストの要素数を数えます。
 
 `count(@event{my_event.productListItems})`
 
-指定されたオブジェクト配列内のオブジェクト数を返します（listObject 型）。注：listObject に null オブジェクトを含めることはできません
+指定されたオブジェクト配列内のオブジェクト数を返します（listObject 型）。 注：listObject に null オブジェクトを含めることはできません
 
 +++
 
@@ -207,8 +210,8 @@ null 値を無視して異なる値の数をカウントします。
 
 | パラメーター | タイプ | 説明 |
 |-----------|------------------|------------------|
-| listToProcess | lilistString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly、listObject のいずれか | 処理するリスト。listObject の場合は、フィールド参照にする必要があります。 |
-| keyAttributeName | 文字列 | このパラメーターはオプションで、listObject に対してのみ使用できます。パラメーターを指定しないと、すべての属性の値が同じ場合、オブジェクトは重複していると見なされます。パラメーターを指定していて、指定された属性が同じ値を持つ場合、オブジェクトは重複していると見なされます。 |
+| listToProcess | listString、listBoolean、listInteger、listDecimal、listDuration、listDateTime、listDateTimeOnly、listDateOnly、listObject のいずれか | 処理するリスト。 listObject の場合は、フィールド参照にする必要があります。 |
+| keyAttributeName | 文字列 | このパラメーターはオプションで、listObject に対してのみ使用できます。 パラメーターを指定しないと、すべての属性の値が同じ場合、オブジェクトは重複していると見なされます。 パラメーターを指定していて、指定された属性が同じ値を持つ場合、オブジェクトは重複していると見なされます。 |
 
 +++
 
@@ -280,7 +283,7 @@ null 値を含め、異なる値の数をカウントします。
 
 ## max {#max}
 
-リストまたは 2 つの式として指定された一連の式の中から最大値を返します。null 値は無視されます。
+リストまたは 2 つの式として指定された一連の式の中から最大値を返します。 null 値は無視されます。
 
 +++構文
 
@@ -300,7 +303,7 @@ null 値を含め、異なる値の数をカウントします。
 * 整数
 * 小数
 * 日時
-* 日時のみ
+* dateTimeOnly
 
 +++
 
@@ -368,7 +371,7 @@ null 値を含め、異なる値の数をカウントします。
 
 ## min {#min}
 
-リストまたは 2 つの式のいずれかで指定された一連の式の中の最小値を返します。null 値は無視されます。
+リストまたは 2 つの式のいずれかで指定された一連の式の中の最小値を返します。 null 値は無視されます。
 
 +++構文
 
@@ -388,7 +391,7 @@ null 値を含め、異なる値の数をカウントします。
 * 整数
 * 小数
 * 日時
-* 日時のみ
+* dateTimeOnly
 
 +++
 
@@ -450,13 +453,13 @@ null 値を含め、異なる値の数をカウントします。
 
 `min([10,null,8])`
 
-「8」を返します。
+8 を返します。
 
 +++
 
 ## sum {#sum}
 
- 一連の式の値の合計を返します。null 値は無視されます。
+一連の式の値の合計を返します。 null 値は無視されます。
 
 +++構文
 

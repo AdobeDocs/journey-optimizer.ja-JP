@@ -10,24 +10,13 @@ level: Beginner
 keyword: direct, mail, configuration, direct-mail, provider
 exl-id: 69a19190-d2e2-4858-a1df-ffd008226e2b
 TQID: https://experienceleague.adobe.com/4GZKFKOx-D-RT1mssiV5vpmZQSJGVbGMro8Q-suhtPE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 114f184e73298bf79d666ef7b17755498c93df83
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 582
 ht-degree: 73%
@@ -40,7 +29,7 @@ Journey Optimizerで抽出ファイルをプレビューし、ダイレクトメ
 
 ## 事前準備 {#before-you-start}
 
-ダイレクトメールメッセージをテストして送信する前に、[&#x200B; メッセージを作成し、抽出ファイルを設定します](create-direct-mail.md)。 [&#x200B; ダイレクトメールチャネル設定](direct-mail-configuration.md)も完了していることを確認してください。
+ダイレクトメールメッセージをテストして送信する前に、[ メッセージを作成し、抽出ファイルを設定します](create-direct-mail.md)。 [ ダイレクトメールチャネル設定](direct-mail-configuration.md)も完了していることを確認してください。
 
 ## 抽出ファイルのプレビュー {#preview-dm}
 
@@ -48,7 +37,7 @@ Journey Optimizerで抽出ファイルをプレビューし、ダイレクトメ
 
 これを行うには、「**[!UICONTROL コンテンツをシミュレート]**」をクリックして、テストプロファイルを追加して、テストプロファイルデータを使用した抽出ファイルのレンダリング方法を確認します。
 
-![&#x200B; ダイレクトメール抽出ファイルのコンテンツプレビューのシミュレーション &#x200B;](assets/direct-mail-simulate.png){width="800" align="center"}
+![ ダイレクトメール抽出ファイルのコンテンツプレビューのシミュレーション ](assets/direct-mail-simulate.png){width="800" align="center"}
 
 テストプロファイルの選択およびコンテンツのプレビュー方法について詳しくは、「[コンテンツ管理](../content-management/preview-test.md)」の節を参照してください。
 
@@ -66,9 +55,9 @@ Journey Optimizerで抽出ファイルをプレビューし、ダイレクトメ
 
 * **エラー**&#x200B;が解決されない限り、キャンペーンを公開できません。 例えば、件名がない場合は、それを警告するエラーメッセージが表示されます。
 
-![&#x200B; ダイレクトメールキャンペーンの検証アラートを表示する画面のレビューとアクティベート &#x200B;](assets/direct-mail-review.png){width="800" align="center"}
+![ ダイレクトメールキャンペーンの検証アラートを表示する画面のレビューとアクティベート ](assets/direct-mail-review.png){width="800" align="center"}
 
-ダイレクトメールキャンペーンの準備ができたら、[&#x200B; ジャーニー](../building-journeys/journey-gs.md)または[&#x200B; キャンペーン &#x200B;](../campaigns/create-campaign.md)の設定を完了して送信します。
+ダイレクトメールキャンペーンの準備ができたら、[ ジャーニー](../building-journeys/journey-gs.md)または[ キャンペーン ](../campaigns/create-campaign.md)の設定を完了して送信します。
 
 >[!NOTE]
 >
@@ -97,4 +86,4 @@ Journey Optimizer でのオプトアウトの管理について詳しくは、[�
 * [ダイレクトメールチャネルの設定](direct-mail-configuration.md)
 * [コンテンツのプレビューとテスト](../content-management/preview-test.md)
 
-ダイレクトメールに関するよくある質問については、[&#x200B; ダイレクトメールの基本を学ぶ](get-started-direct-mail.md)を参照してください。
+ダイレクトメールに関するよくある質問については、[ ダイレクトメールの基本を学ぶ](get-started-direct-mail.md)を参照してください。

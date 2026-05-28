@@ -10,9 +10,11 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: ウェーブ、バッチ、スケジュール、ジャーニー、オーディエンスの読み取り、配信品質
 exl-id: 1aaff17f-aa08-4f10-903c-8335a86ac6eb
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: 868
 ht-degree: 2%
 
 ---
@@ -31,7 +33,7 @@ ht-degree: 2%
 
 ## 制限とガードレール {#limitations-guardrails}
 
-* ウェーブ送信は、**[!DNL As soon as possible]**&#x200B;および&#x200B;**[!UICONTROL Once]** スケジューラータイプの読み取りオーディエンスジャーニーでのみ使用できます。 詳しくは、[&#x200B; ジャーニースケジュール &#x200B;](read-audience.md#schedule)を参照してください。
+* ウェーブ送信は、**[!DNL As soon as possible]**&#x200B;および&#x200B;**[!UICONTROL Once]** スケジューラータイプの読み取りオーディエンスジャーニーでのみ使用できます。 詳しくは、[ ジャーニースケジュール ](read-audience.md#schedule)を参照してください。
 * ウェーブ送信は、繰り返し、イベントトリガー、ビジネスイベント、テストモードまたはドライランのジャーニーでは使用できません。
 * 少なくとも&#x200B;**2個のウェーブ**&#x200B;を定義する必要があり、最大&#x200B;**10個のウェーブ**&#x200B;を追加できます。
 * 2つのウェーブの開始の最小間隔は&#x200B;**30分**&#x200B;です。
@@ -42,7 +44,7 @@ ht-degree: 2%
 
 ## ジャーニーでのウェーブ送信の設定 {#configure-wave-sending}
 
-1. [&#x200B; オーディエンスの読み取り](read-audience.md) アクティビティでジャーニーを開始します。
+1. [ オーディエンスの読み取り](read-audience.md) アクティビティでジャーニーを開始します。
 
 1. 「**[!UICONTROL オーディエンスを読み取り]**」アクティビティをダブルクリックしてプロパティを開き、「**[!UICONTROL ウェーブでジャーニーアクションを配信]**」オプションを選択します。
 
@@ -127,4 +129,4 @@ Wave送信は、送信するメッセージの数とタイミングを制御す�
 
 ## 関連トピック {#see-also}
 
-* [&#x200B; ジャーニーでオーディエンスを使用](read-audience.md) - オーディエンスの読み取りアクティビティを設定します。
+* [ ジャーニーでオーディエンスを使用](read-audience.md) - オーディエンスの読み取りアクティビティを設定します。

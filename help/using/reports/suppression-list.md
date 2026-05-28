@@ -9,25 +9,13 @@ role: Admin
 level: Intermediate, Experienced
 exl-id: a4653378-b70f-454c-a446-ab4a14d2580a
 TQID: https://experienceleague.adobe.com/cUhagNPBmqDDLIu-h9qcSSltOkbXTXx-pBh-rOskGr0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 845
 ht-degree: 91%
@@ -64,7 +52,7 @@ ht-degree: 91%
 
 * **ソフトバウンス**&#x200B;では、アドレスが直ちに抑制リストに送られることはありませんが、エラーカウンターが増加します。 その後、数回の[再試行](../configuration/retries.md)が実行され、エラーカウンターがしきい値に達すると、アドレスが抑制リストに追加されます。
 
-* また、アドレスやドメイン[&#128279;](../configuration/manage-suppression-list.md#add-addresses-and-domains)を抑制リストに&#x200B;**手動で**&#x200B;追加することもできます。
+* また、アドレスやドメイン](../configuration/manage-suppression-list.md#add-addresses-and-domains)を抑制リストに&#x200B;[**手動で**&#x200B;追加することもできます。
 
 ハードバウンスとソフトバウンスについて詳しくは、[この節](#delivery-failures)を参照してください。
 
@@ -78,7 +66,7 @@ ht-degree: 91%
 >
 >「**[!UICONTROL 抑制]**」ステータスのプロファイルは、メッセージ送信プロセス中に除外されます。 したがって、**ジャーニーレポート**&#x200B;では、これらのプロファイルがジャーニー（[オーディエンスを読み取り](../building-journeys/read-audience.md)アクティビティと[メッセージアクティビティ](../building-journeys/journey-action.md)）内を移動したものとして表示されますが、これらはメール送信前に除外されるので、**メールレポート**&#x200B;では、**[!UICONTROL 送信済み]**&#x200B;指標に含まれません。
 >
->詳しくは、[ライブレポート](../reports/live-report.md)と [Customer Journey Analytics レポート](../reports/report-gs-cja.md)を参照してください。 すべての除外ケースの理由を確認するには、[Adobe Experience Platform クエリサービス &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ja){target="_blank"}を使用します。
+>詳しくは、[ライブレポート](../reports/live-report.md)と [Customer Journey Analytics レポート](../reports/report-gs-cja.md)を参照してください。 すべての除外ケースの理由を確認するには、[Adobe Experience Platform クエリサービス ](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ja){target="_blank"}を使用します。
 
 ### 配信の失敗 {#delivery-failures}
 

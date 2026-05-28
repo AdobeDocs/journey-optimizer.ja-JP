@@ -9,23 +9,13 @@ role: User
 level: Beginner
 exl-id: 3ec496ba-7555-49e2-992c-403c33302a90
 TQID: https://experienceleague.adobe.com/Tf-a0MQ4SBclyiXPLohyD1rr-7rHq9ASNuaKN10anyw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 565
 ht-degree: 95%
@@ -44,7 +34,7 @@ ht-degree: 95%
 
 オーディエンスのエンリッチメント属性を使用して実行できるアクションは次のとおりです。
 
-* ターゲットオーディエンスのエンリッチメント属性を活用するルールに基づいて、**ジャーニー内に複数のパスを作成**&#x200B;します。 これを行うには、[&#x200B; オーディエンスの読み取り](../building-journeys/read-audience.md) アクティビティを使用してオーディエンスをターゲットし、そのオーディエンスのエンリッチメント属性に基づいて[最適化](../building-journeys/optimize.md) アクティビティにルールを作成します。
+* ターゲットオーディエンスのエンリッチメント属性を活用するルールに基づいて、**ジャーニー内に複数のパスを作成**&#x200B;します。 これを行うには、[ オーディエンスの読み取り](../building-journeys/read-audience.md) アクティビティを使用してオーディエンスをターゲットし、そのオーディエンスのエンリッチメント属性に基づいて[最適化](../building-journeys/optimize.md) アクティビティにルールを作成します。
 
   ![](assets/audience-enrichment-attribute-condition.png){width="70%" zoomable="yes"}
 

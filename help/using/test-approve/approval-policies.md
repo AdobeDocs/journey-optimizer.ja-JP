@@ -6,20 +6,13 @@ level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
 TQID: https://experienceleague.adobe.com/rl133NfnmN5hl31E3SaOB-xCpUlbDFdH6-ictYNrI1Q
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: []
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+subfeature_v2: id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 731
 ht-degree: 96%
@@ -72,7 +65,7 @@ ht-degree: 96%
 
 1. **[!UICONTROL 自己承認をブロック]**&#x200B;を有効にすると、ジャーニー／キャンペーン作成者が自身のオブジェクトを承認できなくなります。
 
-   ![承認ポリシーの詳細フォーム &#x200B;](assets/policy_create_2.png)
+   ![承認ポリシーの詳細フォーム ](assets/policy_create_2.png)
 
 条件を調整して、承認リクエストを開始するユーザーと検証するユーザーを指定できるようになりました。
 

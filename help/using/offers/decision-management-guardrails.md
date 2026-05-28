@@ -10,22 +10,12 @@ level: Intermediate
 exl-id: d2872bd3-42f8-4744-bb5b-41c49340098a
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/teZQ3GKXJoj05ZD7bCCzKSzwLdUbgF8DXp8csDostOw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
-feature_v2:
-  - id: a37e4ecd-c740-426a-addf-cb1b483c5c5a
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: c132d929-fa62-4271-803e-b823be07b914
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: e5ae22e3-a3b0-46ed-804f-9abf1bbe3e74
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 402
 ht-degree: 83%
@@ -36,7 +26,7 @@ ht-degree: 83%
 
 >[!IMPORTANT]
 >
->このページでは、従来の&#x200B;**意思決定管理**&#x200B;機能のガードレールについて説明します。 **Decisioning**&#x200B;を使用している場合 – [!DNL Adobe Journey Optimizer]の現在の意思決定機能は、コードベースのエクスペリエンスとメールチャネルを介して利用できます。代わりに、[&#x200B; ガードレールと制限](../experience-decisioning/decisioning-guardrails.md)を参照してください。
+>このページでは、従来の&#x200B;**意思決定管理**&#x200B;機能のガードレールについて説明します。 **Decisioning**&#x200B;を使用している場合 – [!DNL Adobe Journey Optimizer]の現在の意思決定機能は、コードベースのエクスペリエンスとメールチャネルを介して利用できます。代わりに、[ ガードレールと制限](../experience-decisioning/decisioning-guardrails.md)を参照してください。
 >
 >どの機能を使用しているか不明な場合は、 [決定について学ぶ](../experience-decisioning/gs-experience-decisioning.md)。
 

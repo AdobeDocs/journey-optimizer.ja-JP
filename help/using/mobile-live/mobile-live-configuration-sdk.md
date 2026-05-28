@@ -8,19 +8,13 @@ role: Admin
 level: Intermediate
 exl-id: 02ca7c8e-105a-4e77-9aad-2381904255d0
 TQID: https://experienceleague.adobe.com/3qQXyrzDwhvaMQt4gpg5g5Xty7uLXFkkSt9UNvHZYfU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d3cdead0-685a-4489-9250-4bb709942f66
+subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: ed2fba79-65cb-4680-96d2-2ad5d851714did: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 546
 ht-degree: 65%
@@ -255,4 +249,4 @@ extension FoodDeliveryLiveActivityAttributes: LiveActivityAssuranceDebuggable {
 
 >[!TIP]
 >
->トークンの登録、ペイロードの調整、またはライブアクティビティの配信に関して問題が発生した場合は、詳細なデバッグガイダンスについて、[&#x200B; ライブアクティビティのトラブルシューティング &#x200B;](troubleshoot-mobile-live.md)を参照してください。
+>トークンの登録、ペイロードの調整、またはライブアクティビティの配信に関して問題が発生した場合は、詳細なデバッグガイダンスについて、[ ライブアクティビティのトラブルシューティング ](troubleshoot-mobile-live.md)を参照してください。
