@@ -23,10 +23,10 @@ subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0047bf4386b33c99fded37750e24ed9fbf4188f6
 workflow-type: tm+mt
-source-wordcount: 347
-ht-degree: 85%
+source-wordcount: 328
+ht-degree: 89%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 85%
 * 更新された決定ポリシーと選択戦略の設定：決定コンポーネントの再利用を可能にします
 * 実験機能：他のコンテンツコンポーネントに対して決定ロジックをテストし、パフォーマンスを測定します
 
-決定は、**コードベースのエクスペリエンス**、**プッシュ通知**、**SMS**&#x200B;の各チャネルについてすべてのお客様が利用できます。 **電子メール** チャネルの決定は、制限付き可用性で利用できます。 メール決定へのアクセスをリクエストするには、Adobe担当者にお問い合わせください。 リリースサイクルと可用性フェーズについて詳しくは、[Journey Optimizer リリースサイクル](../rn/releases.md)を参照してください。
+決定は、**コードベースのエクスペリエンス**、**電子メール**、**プッシュ通知**、および&#x200B;**SMS** チャネルのすべての顧客が利用できます。 リリースサイクルと可用性フェーズについて詳しくは、[Journey Optimizer リリースサイクル](../rn/releases.md)を参照してください。
 
 ➡️ [決定の基本を学ぶ](../experience-decisioning/gs-experience-decisioning.md)
 
