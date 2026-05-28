@@ -189,4 +189,4 @@ Web designer のディスプレイのデバイスサイズは、**[!UICONTROL �
 
 次のビデオでは、[!DNL Journey Optimizer] キャンペーンで web designer を使用して web エクスペリエンスを作成する方法を確認できます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3418803/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3452636/?captions=jpn&quality=12&learn=on)

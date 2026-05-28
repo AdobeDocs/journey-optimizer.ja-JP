@@ -107,4 +107,4 @@ Adobe Experience Platform Web SDK の実装で SPA の設定が完了したら�
 * 複数のビューまたは検出されたすべてのビューに web サイトの変更を適用
 * 変更に対する一括アクションを実行
 
->[!VIDEO](https://video.tv.adobe.com/v/3424536/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3446886/?captions=jpn&quality=12&learn=on)
