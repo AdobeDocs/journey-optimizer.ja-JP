@@ -9,12 +9,24 @@ role: User
 level: Beginner
 exl-id: 7e91face-c8f4-4e70-9123-9e36bae7e67e
 TQID: https://experienceleague.adobe.com/KrsJKfvAPAE5yW2Lgrc-MrMUtoxi336rsmQIglfs7Mc
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5deeid: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2:
+  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
+  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
+  - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 868
@@ -58,7 +70,7 @@ ht-degree: 23%
 
 >[!NOTE]
 >
->エンゲージメント可能なプロファイル数が急激に増加した場合は、問題の理解と解決に関する詳細なガイダンスについては、以下の[ トラブルシューティングの節](#troubleshooting-engageable-profiles)を参照してください。
+>エンゲージメント可能なプロファイル数が急激に増加した場合は、問題の理解と解決に関する詳細なガイダンスについては、以下の[&#x200B; トラブルシューティングの節](#troubleshooting-engageable-profiles)を参照してください。
 
 ## トラブルシューティング：エンゲージメント可能なプロファイル数が大幅に増加 {#troubleshooting-engageable-profiles}
 
@@ -86,7 +98,7 @@ ht-degree: 23%
 
 2. **大規模なオーディエンスを対象としたジャーニー、キャンペーン、決定の調査：**
 
-   * [ エンゲージ可能なプロファイルクエリ ](../reports/query-examples.md#engageable-profiles-queries)または[ クエリサービス ](https://experienceleague.adobe.com/ja/docs/experience-platform/query/home){target="_blank"}を使用して、多数のプロファイルをターゲットにした最近のジャーニーとキャンペーンを確認します。
+   * [&#x200B; エンゲージ可能なプロファイルクエリ &#x200B;](../reports/query-examples.md#engageable-profiles-queries)または[&#x200B; クエリサービス &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/query/home){target="_blank"}を使用して、多数のプロファイルをターゲットにした最近のジャーニーとキャンペーンを確認します。
    * プロファイル数の急増に貢献した特定のジャーニーバージョンを特定できます。
    * 新しいプロファイルを含むジャーニー、キャンペーン、意思決定は、ジャーニーデータセットのイベント数の増加につながり、エンゲージ可能なプロファイル数の増加につながります。
 
@@ -112,7 +124,7 @@ ht-degree: 23%
 
 **関連トピック：**
 
-* [ エンゲージメント可能なプロファイル クエリの例](../reports/query-examples.md#engageable-profiles-queries) - エンゲージメント可能なプロファイルを監視および分析するためのクエリのサンプル
+* [&#x200B; エンゲージメント可能なプロファイル クエリの例](../reports/query-examples.md#engageable-profiles-queries) - エンゲージメント可能なプロファイルを監視および分析するためのクエリのサンプル
 * [Adobe Experience Platform Query Serviceの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/query/home){target="_blank"}
 
 ## 関連ドキュメント {#related-documentation}

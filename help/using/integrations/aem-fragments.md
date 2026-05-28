@@ -8,12 +8,19 @@ role: User
 level: Beginner
 exl-id: 57d7c25f-7e39-46ad-85c1-65e2c18e2686
 TQID: https://experienceleague.adobe.com/QFZt5R2bGJMIwT9okjkcGWxN9cj56Mi77XdCgddCleU
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2: id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2:
+  - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 1696
@@ -93,7 +100,7 @@ AEM コンテンツフラグメントを作成およびパーソナライズし�
 
    >[!NOTE]
    >
-   > フラグメントに1つ以上の&#x200B;**公開済み** バリエーションがある場合、**[!UICONTROL バリエーション]** ドロップダウンがセレクターに表示されます。 **[!UICONTROL バリエーション]**&#x200B;が選択されていない場合、**メイン** バリエーションが自動的に使用されます。 詳しくは、[ コンテンツフラグメントのバリエーションの操作](#aem-variations)を参照してください。
+   > フラグメントに1つ以上の&#x200B;**公開済み** バリエーションがある場合、**[!UICONTROL バリエーション]** ドロップダウンがセレクターに表示されます。 **[!UICONTROL バリエーション]**&#x200B;が選択されていない場合、**メイン** バリエーションが自動的に使用されます。 詳しくは、[&#x200B; コンテンツフラグメントのバリエーションの操作](#aem-variations)を参照してください。
 
 1. 「**[!UICONTROL フィルターを表示]**」をクリックして、コンテンツフラグメントリストを微調整します。
 
@@ -181,7 +188,7 @@ AEM コンテンツフラグメントは、**Experience Decisioning**&#x200B;の
 
 ### 前提条件とガードレール
 
-* コンテンツフラグメントは、決定セレクターに表示される前に、Adobe Experience Managerで`ajo-enabled:{OrgId}/{SandboxName}` タグを付ける必要があります。 [ タグの作成と割り当て方法について説明します](#create-tag)
+* コンテンツフラグメントは、決定セレクターに表示される前に、Adobe Experience Managerで`ajo-enabled:{OrgId}/{SandboxName}` タグを付ける必要があります。 [&#x200B; タグの作成と割り当て方法について説明します](#create-tag)
 * **公開済み**&#x200B;状態のコンテンツフラグメントのみが使用できます。
 * 1つの決定項目に最大&#x200B;**five**&#x200B;個のAEM コンテンツフラグメントを追加できます。
 
@@ -209,15 +216,15 @@ Adobe Experience Managerでは、各コンテンツフラグメントは次の�
 * 別のフラグメントを作成することなく、地域のトーンを調整。
 * チャネル別メッセージ（モバイルと比較したwebなど）。
 
-➡️ [詳しくは、Adobe Experience Manager ドキュメント ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/content-fragments/content-fragments-variations)を参照してください
+➡️ [詳しくは、Adobe Experience Manager ドキュメント &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/content-fragments/content-fragments-variations)を参照してください
 
 Journey Optimizerでは、フラグメントを挿入する際に使用するバリエーションを選択できるので、フラグメントを複製することなく、Adobe Experience Managerの同じソースコンテンツの異なるレンディションに依存して、様々なキャンペーンやジャーニーを作成できます。
 
 バリエーションを選択するには：
 
-1. [ キャンペーン ](../campaigns/create-campaign.md)または[ ジャーニー](../building-journeys/journey-gs.md)を開きます。
+1. [&#x200B; キャンペーン &#x200B;](../campaigns/create-campaign.md)または[&#x200B; ジャーニー](../building-journeys/journey-gs.md)を開きます。
 
-1. 任意のテキストフィールドで![Personalization アイコン ](assets/do-not-localize/Smock_PersonalizationField_18_N.svg)をクリックするか、HTML コンテンツコンポーネントからHTML ソースを開きます。
+1. 任意のテキストフィールドで![Personalization アイコン &#x200B;](assets/do-not-localize/Smock_PersonalizationField_18_N.svg)をクリックするか、HTML コンテンツコンポーネントからHTML ソースを開きます。
 
 1. **[!UICONTROL AEM コンテンツフラグメント]**&#x200B;から、**[!UICONTROL AEM コンテンツアドバイザーを開く]**&#x200B;をクリックします。
 
@@ -229,7 +236,7 @@ Journey Optimizerでは、フラグメントを挿入する際に使用するバ
 
 1. **[!UICONTROL コンテンツフラグメント]**&#x200B;を選択します。
 
-1. ![情報アイコン ](assets/do-not-localize/info-icon.svg)をクリックして、**[!UICONTROL 詳細]** メニューを開きます。 フラグメントに1つ以上の公開済みバリエーションがある場合、フラグメントの詳細の横に「**[!UICONTROL バリエーション]**」ドロップダウンが表示されます。
+1. ![情報アイコン &#x200B;](assets/do-not-localize/info-icon.svg)をクリックして、**[!UICONTROL 詳細]** メニューを開きます。 フラグメントに1つ以上の公開済みバリエーションがある場合、フラグメントの詳細の横に「**[!UICONTROL バリエーション]**」ドロップダウンが表示されます。
 
    ![](assets/cf-variation-5.png)
 

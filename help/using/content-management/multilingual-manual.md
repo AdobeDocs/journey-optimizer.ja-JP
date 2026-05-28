@@ -10,12 +10,22 @@ level: Beginner
 keywords: 概要, 開始, コンテンツ, 実験
 exl-id: 6244d717-fbd6-468e-9164-60451d0d62f0
 TQID: https://experienceleague.adobe.com/CO90KA9aqX6vclGmYWk6Z3LQJmewlylQvJA36yx44eI
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2: id: ea4139d9-3405-4b34-ad6e-c3ca120cc269id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: ea4139d9-3405-4b34-ad6e-c3ca120cc269
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 965
@@ -92,7 +102,7 @@ ht-degree: 97%
    >
    >これらの前提条件は、アプリ内およびコンテンツカードチャネルにのみ必要です。
 
-   1. Adobe Experience Platform のデータ収集で、**[!UICONTROL ルール]**&#x200B;メニューにアクセスし、新しいルールを作成します。 ルールの作成方法について詳しくは、[!DNL Adobe Experience Platform] [ データ収集ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}を参照してください
+   1. Adobe Experience Platform のデータ収集で、**[!UICONTROL ルール]**&#x200B;メニューにアクセスし、新しいルールを作成します。 ルールの作成方法について詳しくは、[!DNL Adobe Experience Platform] [&#x200B; データ収集ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}を参照してください
 
    2. ルールの「**[!UICONTROL IF]**」セクションで、次のように設定されたイベントを追加します。
 

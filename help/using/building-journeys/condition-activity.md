@@ -12,11 +12,17 @@ exl-id: 02de069c-3009-4105-aa98-c49959d3efda
 version: Journey Orchestration
 hide: true
 TQID: https://experienceleague.adobe.com/gbZUkOhk-3yBMdxwj3YpPbQrbpMhd6PkNf1hzl-2DFw
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2:
+  - id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 1863
@@ -50,8 +56,8 @@ ht-degree: 92%
 また、オーディエンスメンバーシップを基準とした条件を指定することもできます。 次のセクションを参照してください。
 
 * [条件でオーディエンスを使用](#using-a-segment) - プロファイルがオーディエンスに属しているかどうかに基づいてパスを追加します。
-* [ オーディエンスの作成とターゲティング ](../audience/about-audiences.md) - オーディエンスメニューでオーディエンスを作成および管理します。
-* [ ジャーニー内のオーディエンスターゲティング ](read-audience.md#audience-targeting-in-journeys) - オーディエンスの読み取りアクティビティの後、条件を使用して分岐をセグメント、除外、または結合します。
+* [&#x200B; オーディエンスの作成とターゲティング &#x200B;](../audience/about-audiences.md) - オーディエンスメニューでオーディエンスを作成および管理します。
+* [&#x200B; ジャーニー内のオーディエンスターゲティング &#x200B;](read-audience.md#audience-targeting-in-journeys) - オーディエンスの読み取りアクティビティの後、条件を使用して分岐をセグメント、除外、または結合します。
 
 >[!NOTE]
 >
@@ -85,7 +91,7 @@ ht-degree: 92%
 
 ![フィールド選択と論理演算子 AND OR を示す式エディター](assets/journey64.png)
 
-[[!DNL Adobe Experience Platform]  セグメント化サービス ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja){target="_blank"}を使用してオーディエンスを作成している場合は、ジャーニーの条件でオーディエンスを活用できます。 詳しくは、[条件でのオーディエンスの使用](../building-journeys/condition-activity.md#using-a-segment)を参照してください。 Journey Optimizer でオーディエンスを生成してターゲットにする方法について詳しくは、[この節](../audience/about-audiences.md)を参照してください。
+[[!DNL Adobe Experience Platform]  セグメント化サービス &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja){target="_blank"}を使用してオーディエンスを作成している場合は、ジャーニーの条件でオーディエンスを活用できます。 詳しくは、[条件でのオーディエンスの使用](../building-journeys/condition-activity.md#using-a-segment)を参照してください。 Journey Optimizer でオーディエンスを生成してターゲットにする方法について詳しくは、[この節](../audience/about-audiences.md)を参照してください。
 
 
 >[!NOTE]

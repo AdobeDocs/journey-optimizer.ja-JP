@@ -11,12 +11,22 @@ keywords: ジャーニー, メッセージ, キャンペーン, 統合
 exl-id: b07feb98-b2ae-476c-8fcb-873b308176f0
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/btOUMO8tgvwLD7kjVdgpj6I6QXRrj1iTD3P8AUrqJFM
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: d08afb72-92f6-4856-88e3-11ec34313c2f
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2:
+  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
+  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 472
@@ -47,7 +57,7 @@ Campaign インスタンスをこの統合用にプロビジョニングする�
 
 1. **管理**／**プラットフォーム**／**列挙**&#x200B;で、**イベントタイプ**（eventType）列挙を選択します。 新しいイベントタイプ（この例では「journey-event」）を作成します。 イベントタイプの内部名は、後で JSON ファイルを書き込む際に使用します。
 
-   ![ スキーマとフィールド選択](assets/accintegration-uc-1.png)を使用して[!DNL Adobe Journey Optimizer]のイベントを設定します
+   ![&#x200B; スキーマとフィールド選択](assets/accintegration-uc-1.png)を使用して[!DNL Adobe Journey Optimizer]のイベントを設定します
 
 1. 作成を有効にするには、インスタンスを切断して、再接続します。
 
@@ -85,11 +95,11 @@ Campaign インスタンスをこの統合用にプロビジョニングする�
 
 1. イベントを作成します。 「purchaseOrderNumber」フィールドを含めます。
 
-   [!DNL Adobe Campaign] Classic統合](assets/accintegration-uc-5.png)の![ カスタムアクション設定画面
+   [!DNL Adobe Campaign] Classic統合![&#128279;](assets/accintegration-uc-5.png)の カスタムアクション設定画面
 
 1. Journey Optimizer で、Campaign テンプレートに対応するアクションを作成します。 「**アクションタイプ**」ドロップダウンで、「**[!DNL Adobe Campaign]Classic**」を選択します。
 
-   [!DNL Adobe Campaign] クラシック オプション ](assets/accintegration-uc-6.png)を表示する![ アクションタイプの選択
+   [!DNL Adobe Campaign] クラシック オプション ![&#128279;](assets/accintegration-uc-6.png)を表示する アクションタイプの選択
 
 1. 「**ペイロードフィールド**」をクリックし、以前に作成した JSON を貼り付けます。
 

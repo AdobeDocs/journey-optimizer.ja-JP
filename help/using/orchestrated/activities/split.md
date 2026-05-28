@@ -6,9 +6,13 @@ description: 調整されたキャンペーンでの分割アクティビティ�
 exl-id: 986bc566-123a-451d-a4a6-bbf5a2798849
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/kvuWf-Rg2zE7JVQ15LdG-CHG0JWWEn0B4OjHU4RbFSg
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: b423a773-0a58-4a77-b65d-3dd4ae6ef841
-subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
+subfeature_v2:
+  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 801

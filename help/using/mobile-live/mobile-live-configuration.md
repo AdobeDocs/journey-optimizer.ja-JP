@@ -8,12 +8,23 @@ role: Admin
 level: Intermediate
 exl-id: db85a563-9630-4d87-bf10-9f2515fe8a45
 TQID: https://experienceleague.adobe.com/LThNKcpBCCkin2G-y4n-tty4bcGLxMA4ObiodBrpBwY
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: c96d2aa5-76a2-443d-8d23-5de95577c909id: ed2fba79-65cb-4680-96d2-2ad5d851714did: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2:
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
+  - id: ed2fba79-65cb-4680-96d2-2ad5d851714d
+  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 528
@@ -95,4 +106,4 @@ Adobe Experience Platform Mobile SDK との統合を開始して、ロック画�
 
 >[!TIP]
 >
->ライブアクティビティの設定または配信で問題が発生した場合は、デバッグ手順については、[ ライブアクティビティのトラブルシューティング ](troubleshoot-mobile-live.md)を参照してください。
+>ライブアクティビティの設定または配信で問題が発生した場合は、デバッグ手順については、[&#x200B; ライブアクティビティのトラブルシューティング &#x200B;](troubleshoot-mobile-live.md)を参照してください。

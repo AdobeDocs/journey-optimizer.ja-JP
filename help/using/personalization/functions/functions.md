@@ -6,8 +6,10 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+feature_v2:
+  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2:
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 2537

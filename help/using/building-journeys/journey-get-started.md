@@ -10,12 +10,26 @@ hide: true
 keywords: ジャーニー, オーケストレーション, はじめに, オンボーディング, 機能
 exl-id: 96b1d619-986d-493d-a73b-d7c63b92cca8
 TQID: https://experienceleague.adobe.com/Ht6fS6uanOs-rXoT4bAnK6eGvm9kOmH-N5B-y8KU6Rc
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2:
+  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
+  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 943
@@ -37,7 +51,7 @@ Journey Optimizer ジャーニーデザイナーには、マーケターやジ�
 
 ![パレット、キャンバス、プロパティパネルを含むジャーニーデザイナーインターフェイス](assets/journey38.png)
 
-**構築を開始する準備ができましたか？** [このページ ](journey-gs.md)で最初のジャーニーを作成およびデザインする方法について説明します。
+**構築を開始する準備ができましたか？** [このページ &#x200B;](journey-gs.md)で最初のジャーニーを作成およびデザインする方法について説明します。
 
 
 ## 主な機能 {#capabilities}
@@ -110,7 +124,7 @@ Journey Optimizer ジャーニーデザイナーには、マーケターやジ�
 
 ジャーニーデザイナー内から、マーケターはイベントが発生した際に、任意のチャネルを通じてリアルタイムでトリガーされる 1:1 メッセージを送信できます。 例えば、お客様がサービスを購読する際に、[ウェルカムメールがトリガー](message-to-subscribers-uc.md)され、初めてアプリにログインして環境設定を行うように促すことができます。 購入の完了、メールの開封、アプリへのログインなどのアクションを使用して、新規顧客をジャーニーに進めることができます。
 
-[ ジャーニーデザイナー](using-the-journey-designer.md)は、電子メール、プッシュ通知、SMS/RCS/MMSなどのアウトバウンドメッセージと、Journey Optimizer内で直接構築されたモバイルアプリ、web サイト、コードベースのエクスペリエンスなどのインバウンドチャネルをサポートする[組み込みのチャネルアクション ](journey-action.md)を提供します。 また、サードパーティシステムを使用してメッセージを送信することもできます。Journey Optimizer には、これらのシステムをジャーニーデザイナーから直接ジャーニーに統合できるようにする[カスタムアクション](using-custom-actions.md)が含まれています。
+[&#x200B; ジャーニーデザイナー](using-the-journey-designer.md)は、電子メール、プッシュ通知、SMS/RCS/MMSなどのアウトバウンドメッセージと、Journey Optimizer内で直接構築されたモバイルアプリ、web サイト、コードベースのエクスペリエンスなどのインバウンドチャネルをサポートする[組み込みのチャネルアクション &#x200B;](journey-action.md)を提供します。 また、サードパーティシステムを使用してメッセージを送信することもできます。Journey Optimizer には、これらのシステムをジャーニーデザイナーから直接ジャーニーに統合できるようにする[カスタムアクション](using-custom-actions.md)が含まれています。
 
 
 :::: landing-cards-container

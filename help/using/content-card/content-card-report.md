@@ -6,8 +6,11 @@ topic: Content Management
 role: User
 level: Beginner
 hide: true
-feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2: id: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909
+feature_v2:
+  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2:
+  - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
+  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 480

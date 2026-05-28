@@ -10,12 +10,20 @@ level: Intermediate, Experienced
 hide: true
 exl-id: a274656e-2570-4a9c-b72b-4e8e920b7462
 TQID: https://experienceleague.adobe.com/yweu8QtcWU42ZI2z93vIf5-LUGP7pQ16bJUQnmDKNGY
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2: id: c6e980f5-2d4f-494f-beef-186b9ecf1513id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2:
+  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 363
@@ -29,7 +37,7 @@ ht-degree: 8%
 >
 >この機能は一部の顧客のみが利用でき、重大なリスクを伴います。 Adobeの担当者に、この機能が自社で有効になっていることを確認します。
 
-デフォルトでは、公開されたフラグメントに新しい[ パーソナライゼーション属性](../personalization/personalization-build-expressions.md)を追加することはサポートされていません。 フラグメントが公開されると、すべてのキャンペーンとジャーニーに対して、プロファイルまたはコンテキスト属性のセットがロックされます。
+デフォルトでは、公開されたフラグメントに新しい[&#x200B; パーソナライゼーション属性](../personalization/personalization-build-expressions.md)を追加することはサポートされていません。 フラグメントが公開されると、すべてのキャンペーンとジャーニーに対して、プロファイルまたはコンテキスト属性のセットがロックされます。
 
 ただし、一部のお客様の場合は、公開されたフラグメントにのみ&#x200B;**コンテキスト属性**&#x200B;を追加できます。
 
@@ -51,7 +59,7 @@ ht-degree: 8%
 
 >[!IMPORTANT]
 >
->フラグメントを参照するジャーニーとキャンペーンへの影響](#limitations)を完全に[理解した場合にのみ続行します。
+>フラグメントを参照するジャーニーとキャンペーンへの影響[&#128279;](#limitations)を完全に理解した場合にのみ続行します。
 
 1. **[!UICONTROL コンテンツ管理]** > **[!UICONTROL フラグメント]**&#x200B;に移動します。
 

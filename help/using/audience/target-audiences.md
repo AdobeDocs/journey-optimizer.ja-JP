@@ -9,12 +9,21 @@ role: User
 level: Beginner
 exl-id: 78b95ccd-bc28-46cd-937a-f68e3f34cc1e
 TQID: https://experienceleague.adobe.com/tcx8KXGtorgevwLUj6rnvoE1mFYESJ4VaLL2vn3aZfA
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2: id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2:
+  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
+  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
+  - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 811
@@ -28,7 +37,7 @@ ht-degree: 94%
 
 ## ガードレールと制限 {#guardrails}
 
-* **Healthcare Shield または Privacy and Security Shield** - オーディエンス構成からのオーディエンスおよび属性は現在、Healthcare Shield または Privacy and Security Shield では使用できません。 [ [!DNL Journey Optimizer]](../audience/about-audiences.md#enrichment) でのオーディエンスのエンリッチメント属性の使用方法の詳細情報
+* **Healthcare Shield または Privacy and Security Shield** - オーディエンス構成からのオーディエンスおよび属性は現在、Healthcare Shield または Privacy and Security Shield では使用できません。 [&#x200B; [!DNL Journey Optimizer]](../audience/about-audiences.md#enrichment) でのオーディエンスのエンリッチメント属性の使用方法の詳細情報
 
 * **カスタムアップロードと連合オーディエンス構成** - カスタムアップロードと連合オーディエンス構成オーディエンスの場合は、次のガードレールに注意してください。
 
@@ -54,9 +63,9 @@ ht-degree: 94%
 
 * **キャンペーン**&#x200B;のオーディエンスを選択します。選択したオーディエンスに属するすべての個人にメッセージが送信されます。 [詳しくは、キャンペーンのオーディエンスを定義する方法を参照してください](../campaigns/create-campaign.md#define-the-audience-audience)。
 
-* ジャーニーの&#x200B;**オーディエンスを読み取り**&#x200B;オーケストレーションアクティビティを使用して、オーディエンス内のすべての個人をジャーニーにエントリさせ、ジャーニーに含まれるメッセージを受け取らせます。 「シルバー顧客」オーディエンスがあるとします。 このアクティビティを使用すると、すべてのシルバー顧客をジャーニーにエントリさせることができます。 その後、一連のパーソナライズされたメッセージを送信できます。 [詳しくは、「オーディエンスを読み取り」アクティビティの設定方法を参照してください](../building-journeys/read-audience.md#configuring-segment-trigger-activity)。 分岐を入力した後にセグメント化、除外、または結合するには、ジャーニーの[ オーディエンスターゲティング ](../building-journeys/read-audience.md#audience-targeting-in-journeys)を参照してください。
+* ジャーニーの&#x200B;**オーディエンスを読み取り**&#x200B;オーケストレーションアクティビティを使用して、オーディエンス内のすべての個人をジャーニーにエントリさせ、ジャーニーに含まれるメッセージを受け取らせます。 「シルバー顧客」オーディエンスがあるとします。 このアクティビティを使用すると、すべてのシルバー顧客をジャーニーにエントリさせることができます。 その後、一連のパーソナライズされたメッセージを送信できます。 [詳しくは、「オーディエンスを読み取り」アクティビティの設定方法を参照してください](../building-journeys/read-audience.md#configuring-segment-trigger-activity)。 分岐を入力した後にセグメント化、除外、または結合するには、ジャーニーの[&#x200B; オーディエンスターゲティング &#x200B;](../building-journeys/read-audience.md#audience-targeting-in-journeys)を参照してください。
 
-  入力後、**条件** アクティビティを使用して、属性または動作で[ セグメント化したり、母集団の一部を除外したり、分岐を結合したりできます](../building-journeys/read-audience.md#audience-targeting-in-journeys)。
+  入力後、**条件** アクティビティを使用して、属性または動作で[&#x200B; セグメント化したり、母集団の一部を除外したり、分岐を結合したりできます](../building-journeys/read-audience.md#audience-targeting-in-journeys)。
 
   オーディエンス構成またはカスタムアップロードからのオーディエンスを使用するジャーニーの場合、プロファイル属性はジャーニーエントリ時の最後のバッチ評価と同じくらい新しくなります。 ただし、**待機**&#x200B;アクティビティの後、ジャーニーは統合プロファイルサービス（UPS）からプロファイル属性を更新し、使用可能な最新のデータを取得します。つまり、ジャーニーの実行中にプロファイル属性が変更される場合があります。 [待機アクティビティ後のプロファイル更新の詳細情報](../building-journeys/wait-activity.md#profile-refresh)
 

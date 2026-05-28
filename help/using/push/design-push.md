@@ -9,12 +9,19 @@ role: User
 level: Beginner
 exl-id: 6f6d693d-11f2-48b7-82a8-171829bf8045
 TQID: https://experienceleague.adobe.com/YOE-hCnG978CvBHe2WeFekMjx4oBlsv4hBbSVaUjgWA
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2:
+  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 2199
@@ -37,7 +44,7 @@ ht-degree: 61%
 
 メッセージを作成するには、「**[!UICONTROL タイトル]**」フィールドと「**[!UICONTROL 本文]**」フィールドをクリックします。 パーソナライゼーションエディターを使用して、コンテンツの定義、データのパーソナライズ、動的コンテンツの追加を行います。 パーソナライゼーションエディターでの[パーソナライズ機能](../personalization/personalize.md)および[動的コンテンツ](../personalization/get-started-dynamic-content.md)の詳細情報。
 
-`{{`と入力して、**[!UICONTROL タイトル]**&#x200B;および&#x200B;**[!UICONTROL 本文]** フィールドにプロファイル属性をインラインで直接挿入することもできます。 カーソルでオートコンプリートドロップダウンが開きます。任意の属性を選択して、完全なエディターを開かずにパーソナライゼーショントークンとして挿入します。 [ インライン編集の詳細→](../personalization/personalize.md#inline-personalization)
+`{{`と入力して、**[!UICONTROL タイトル]**&#x200B;および&#x200B;**[!UICONTROL 本文]** フィールドにプロファイル属性をインラインで直接挿入することもできます。 カーソルでオートコンプリートドロップダウンが開きます。任意の属性を選択して、完全なエディターを開かずにパーソナライゼーショントークンとして挿入します。 [&#x200B; インライン編集の詳細→](../personalization/personalize.md#inline-personalization)
 
 デバイスプレビューセクションを使用して、iOS、Android、およびWebでのプッシュ通知の表示方法を視覚化します。
 
@@ -54,7 +61,7 @@ AI アシスタントを使用してコンテンツ作成を高速化し、[テ�
 
 ![](assets/title-body-push.png)
 
-* **[!UICONTROL アプリを開く]**：通知に関連付けられているアプリケーションを起動します。 アプリは、[ チャネル設定](../configuration/channel-surfaces.md) （メッセージプリセット）で指定されます。
+* **[!UICONTROL アプリを開く]**：通知に関連付けられているアプリケーションを起動します。 アプリは、[&#x200B; チャネル設定](../configuration/channel-surfaces.md) （メッセージプリセット）で指定されます。
 * **[!UICONTROL ディープリンク]**：特定のビュー、ページセクション、タブなど、アプリ内の特定のコンテンツにユーザーを誘導します。 指定されたフィールドにディープリンク URLを入力します。
 * **[!UICONTROL Web URL]**: ユーザーを外部Web ページに誘導します。 指定したフィールドに宛先URLを入力します。
 
@@ -65,7 +72,7 @@ AI アシスタントを使用してコンテンツ作成を高速化し、[テ�
 >[!NOTE]
 >
 >プッシュ通知に、iOSでユニバーサルリンクとして設定されたURLが含まれている場合、選択した&#x200B;**[!UICONTROL Web URL]** アクションに関係なく、インストールすると関連するアプリがプッシュで開きます。 ブラウザーを強制的に開くには、ユニバーサルリンク用に設定されていないドメインを使用するか、ドメインのユニバーサルリンク登録を削除します。
->Adobe SDKでのディープリンクとユニバーサルリンクの処理方法について詳しくは、[Adobe Experience Platform モバイルSDK ドキュメント ](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/push-notifications){target="_blank"}を参照してください。
+>Adobe SDKでのディープリンクとユニバーサルリンクの処理方法について詳しくは、[Adobe Experience Platform モバイルSDK ドキュメント &#x200B;](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/push-notifications){target="_blank"}を参照してください。
 
 ## メディアの追加 {#add-media-push}
 
@@ -104,7 +111,7 @@ IOSの場合、通知内に表示する画像、ビデオ、GIFを追加でき�
 
 次のいずれかの方法を使用してメディアを追加できます。
 
-* **[!UICONTROL メディアを追加]** ボタン：**[!DNL Adobe Experience Manager Assets]**&#x200B;からアセットを選択します。 **[!DNL Adobe Experience Manager Assets]**&#x200B;の使用について詳しくは、[このページ ](../integrations/assets.md)を参照してください。
+* **[!UICONTROL メディアを追加]** ボタン：**[!DNL Adobe Experience Manager Assets]**&#x200B;からアセットを選択します。 **[!DNL Adobe Experience Manager Assets]**&#x200B;の使用について詳しくは、[このページ &#x200B;](../integrations/assets.md)を参照してください。
 
 * **[!UICONTROL メディアを追加]** フィールド：メディア URLを直接入力します。 パーソナライゼーショントークンをURLに含めることができます。
 

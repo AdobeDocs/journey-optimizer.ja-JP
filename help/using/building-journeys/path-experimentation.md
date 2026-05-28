@@ -42,7 +42,7 @@ ht-degree: 78%
 
 1. **[!UICONTROL メソッド]**&#x200B;ドロップダウンリストから「**[!UICONTROL 実験]**」を選択します。
 
-   ![ パス実験設定パネル ](assets/journey-optimize-experiment.png){width=65%}
+   ![&#x200B; パス実験設定パネル &#x200B;](assets/journey-optimize-experiment.png){width=65%}
 
 1. 「**[!UICONTROL 実験を作成]**」をクリックします。
 
@@ -56,7 +56,7 @@ ht-degree: 78%
 
    * **[!UICONTROL マルチアームドバンディット]** – 処理間のトラフィックの分割は自動的に処理されます。 7 日ごとに、プライマリ指標のパフォーマンスが確認され、それに応じて重み付けが調整されます。 A/B テストと同様に、レポートには上昇率が引き続き示されています。
 
-   ![ パス実験の実験タイプのドロップダウン ](assets/journey-path-experiment-type.png){width=80%}
+   ![&#x200B; パス実験の実験タイプのドロップダウン &#x200B;](assets/journey-path-experiment-type.png){width=80%}
 
    ➡️ [A/B実験とマルチアームドバンディット実験の違いについて詳しく見る](../content-management/mab-vs-ab.md)
 
@@ -69,7 +69,7 @@ ht-degree: 78%
    <!--
     DOES THIS APPLY TO PATH EXPERIMENT?
     IMPORTANT: When a holdout group is used in an action for path experimentation, the holdout assignment only applies to that specific action. After the action is completed, profiles in the holdout group will continue down the journey path and can receive messages from other actions. Therefore, ensure that any subsequent messages do not rely on the receipt of a message by a profile that might be in a holdout group. If they do, you may need to remove the holdout assignment.
--->
+   -->
 
 1. 各&#x200B;**[!UICONTROL 処理]**&#x200B;に正確な割合を割り当てるか、**[!UICONTROL 等しく分布]**&#x200B;切り替えバーをオンにすることができます。
 
@@ -177,7 +177,7 @@ REMOVED WITH GA
 
 1. 実験を設定する際は、自動スケールオプションを有効にします。
 
-   ![ パス実験の自動スケールオプション ](assets/journey-optimize-autoscale.png)
+   ![&#x200B; パス実験の自動スケールオプション &#x200B;](assets/journey-optimize-autoscale.png)
 
 1. 勝者のスケールを設定するタイミングを以下から選択します。
 
@@ -186,7 +186,7 @@ REMOVED WITH GA
 
    自動スケール時間は、実験の終了日より前にスケジュールする必要があります。 終了日の後の時間に設定されている場合、検証警告が表示され、ジャーニーは公開されません。
 
-   ![ パス実験](assets/journey-optimize-autoscale-time.png)での時間の自動選択の拡大・縮小
+   ![&#x200B; パス実験](assets/journey-optimize-autoscale-time.png)での時間の自動選択の拡大・縮小
 
 1. スケール時間で勝者が見つからない場合のフォールバック動作を以下から選択します。
 
@@ -211,7 +211,7 @@ REMOVED WITH GA
 
    **[!UICONTROL パス実験]** ビューの結果を確認して、最もパフォーマンスの高い処理を特定します。
 
-   ![ パス実験の手動スケール勝者](assets/journey-optimize-manual-scale-winner.png)
+   ![&#x200B; パス実験の手動スケール勝者](assets/journey-optimize-manual-scale-winner.png)
 
 1. 「**[!UICONTROL 処理をスケール]**」をクリックして、勝利の処理を残りのオーディエンスにプッシュします。
 
@@ -219,6 +219,6 @@ REMOVED WITH GA
 
 1. ドロップダウンメニューから拡大する処理を選択し、「**[!UICONTROL スケール]**」をクリックします。
 
-   ![ パス実験でのスケール処理の選択](assets/journey-optimize-scale-treatment.png){width=80%}
+   ![&#x200B; パス実験でのスケール処理の選択](assets/journey-optimize-scale-treatment.png){width=80%}
 
 処理のスケーリングには最大 1 時間かかる場合があります。 手動スケーリングプロセスが完了すると、通知が届きます。

@@ -10,12 +10,25 @@ level: Beginner
 keywords: 概要, 開始, コンテンツ, 実験
 exl-id: 38e82eb2-67d9-4a7d-8c1f-77dab20bcec4
 TQID: https://experienceleague.adobe.com/q96rm5B-8RTB7CkEfTt47tCau7P7Moe8c4bNRoroobw
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2: id: bc543dba-f0db-4234-b5da-877a5c1664e2id: ea4139d9-3405-4b34-ad6e-c3ca120cc269id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: bc543dba-f0db-4234-b5da-877a5c1664e2
+  - id: ea4139d9-3405-4b34-ad6e-c3ca120cc269
+  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 2063
@@ -173,7 +186,7 @@ ht-degree: 98%
 
    1. Adobe Experience Platform のデータ収集で、タグのプロパティにアクセスします。
 
-   1. **[!UICONTROL ルール]**&#x200B;メニューにアクセスし、新しいルールを作成します。 ルールの作成方法について詳しくは、[!DNL Adobe Experience Platform] [ データ収集ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}を参照してください
+   1. **[!UICONTROL ルール]**&#x200B;メニューにアクセスし、新しいルールを作成します。 ルールの作成方法について詳しくは、[!DNL Adobe Experience Platform] [&#x200B; データ収集ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/e2e#create-a-rule){target="_blank"}を参照してください
 
    1. ルールの「**[!UICONTROL IF]**」セクションで、次のように設定されたイベントを追加します。
 

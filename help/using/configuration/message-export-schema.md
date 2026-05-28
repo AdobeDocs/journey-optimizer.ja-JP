@@ -9,7 +9,8 @@ role: Admin
 level: Experienced
 keywords: 書き出し、メッセージ、データセット、スキーマ、メール、SMS
 feature_v2: []
-subfeature_v2: id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+subfeature_v2:
+  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 420

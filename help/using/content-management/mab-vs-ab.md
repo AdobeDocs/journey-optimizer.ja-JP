@@ -6,11 +6,19 @@ role: User
 level: Experienced
 exl-id: 1f7b74d2-77c3-4113-8e6a-1e2a95117748
 TQID: https://experienceleague.adobe.com/47tFiWTUUsGUMeWhuJVQnakAIrgz1Ax1mO-u8pf27uc
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2: []
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d3cdead0-685a-4489-9250-4bb709942f66id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-subfeature_v2: id: f29a52db-c90c-4345-902e-b586d1406d8d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+subfeature_v2:
+  - id: f29a52db-c90c-4345-902e-b586d1406d8d
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 629

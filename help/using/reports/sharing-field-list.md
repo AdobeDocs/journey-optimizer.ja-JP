@@ -9,11 +9,21 @@ role: Developer, Admin
 level: Experienced
 exl-id: e96efa67-ee47-40b9-b680-f5119d8c3481
 TQID: https://experienceleague.adobe.com/7sYxw--oKKa6SnRgoXnwFxme5n-6L4pe9SR-AKZOmHA
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: a9f73820-6899-47c2-a597-3fec28ab756a
+  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2:
+  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
+  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
+  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 781
@@ -105,13 +115,13 @@ eventTypes について詳しくは、[この節](#discarded-events)を参照し
 
   **一般的な原因**：重複イベント、大量のイベント、システムリソースの制限。
 
-  **トラブルシューティング**：重複排除の実装、トラフィックの急増の回避、ジャーニー設計の最適化、永続的な場合は[ サポート ](../start/user-interface.md#support-ticket-guidelines)にお問い合わせください。
+  **トラブルシューティング**：重複排除の実装、トラフィックの急増の回避、ジャーニー設計の最適化、永続的な場合は[&#x200B; サポート &#x200B;](../start/user-interface.md#support-ticket-guidelines)にお問い合わせください。
 
 * **maxInstanceStackEventsReached**: ジャーニーランタイムは、特定のジャーニーバージョンのプロファイルごとのイベントスタックの内部制限である10 イベントに達しました。
 
   **共通の原因**: プロファイルのジャーニーインスタンスは、長時間実行している手順（長い待機、低速なエンリッチメント、カスタムアクションの再試行など）でブロックされ、同じプロファイルのイベントが、そのジャーニーでも使用され、10 イベントの制限を超えて積み重ねられます。
 
-  **トラブルシューティング**：頻繁にトリガーを繰り返したり、アップストリームイベントをデバウンスまたは重複排除したり、長いシナリオを複数のジャーニーに分割したりできるパスで、長時間実行されるステップを減らします。 これは安全ガードレールであり、制限は設定できません。スタックがドレインするまで、追加のイベントは破棄されます。 詳しくは、「[ ジャーニーインスタンスがブロックされたために破棄されたイベント ](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached)」を参照してください。
+  **トラブルシューティング**：頻繁にトリガーを繰り返したり、アップストリームイベントをデバウンスまたは重複排除したり、長いシナリオを複数のジャーニーに分割したりできるパスで、長時間実行されるステップを減らします。 これは安全ガードレールであり、制限は設定できません。スタックがドレインするまで、追加のイベントは破棄されます。 詳しくは、「[&#x200B; ジャーニーインスタンスがブロックされたために破棄されたイベント &#x200B;](../building-journeys/troubleshooting-execution.md#max-instance-stack-events-reached)」を参照してください。
 
 * **EVENT_WITH_NO_JOURNEY**：イベントを受信しましたが、応答するアクティブなジャーニーが設定されていません
 
@@ -130,6 +140,6 @@ eventTypes について詳しくは、[この節](#discarded-events)を参照し
 
 * [データセットクエリサンプル - ジャーニーステップイベント](../data/datasets-query-examples.md#journey-step-event)。
 * [クエリの例 - イベントベースのクエリ](query-examples.md#event-based-queries)。
-* [ クエリの例 – ビジネス ルール クエリ ](query-examples.md#business-rules-queries)。
+* [&#x200B; クエリの例 – ビジネス ルール クエリ &#x200B;](query-examples.md#business-rules-queries)。
 * [組み込みのスキーマディクショナリ](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja)
 

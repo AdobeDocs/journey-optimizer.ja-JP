@@ -8,8 +8,10 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 統合
-feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2: id: d16f7424-4847-4b90-a37c-4b52cbdabee5
+feature_v2:
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2:
+  - id: d16f7424-4847-4b90-a37c-4b52cbdabee5
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 809
