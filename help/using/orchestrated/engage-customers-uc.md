@@ -7,10 +7,16 @@ feature: Use Cases
 version: Campaign Orchestration
 exl-id: 915ebafe-935b-49b6-8b8c-0e7a8bf546a4
 TQID: https://experienceleague.adobe.com/q30GcOzIEJ0HUjEauFfp1CaP-oQdSGiBFSRcfNgdap8
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: b423a773-0a58-4a77-b65d-3dd4ae6ef841id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
-subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+subfeature_v2:
+  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
 source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
 workflow-type: tm+mt
 source-wordcount: 590
@@ -29,7 +35,7 @@ ht-degree: 98%
 * **受信者**：ターゲティングディメンションとして使用され、フィールドには `email`、`churnprop` が含まれます
 * **ウィッシュリスト**：フィールドには `description`、`priceref`、`imageurl` が含まれます
 
-➡️ [ リレーショナルスキーマの設定方法を学ぶ](gs-schemas.md)
+➡️ [&#x200B; リレーショナルスキーマの設定方法を学ぶ](gs-schemas.md)
 
 >[!ENDSHADEBOX]
 
