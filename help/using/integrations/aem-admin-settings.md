@@ -9,9 +9,13 @@ role: Admin
 level: Experienced
 hide: true
 keywords: AEM, コンテンツフラグメント，管理，リポジトリ，認証，著者，公開
-source-git-commit: 9da185872d2742799f1a2a2c85a840c84cb8b329
+feature_v2:
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2:
+  - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: 430
 ht-degree: 0%
 
 ---

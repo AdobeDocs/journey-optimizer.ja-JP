@@ -15,11 +15,7 @@ product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-  - id: d556b755-390a-43f0-be32-a08cf6236126
   - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
 subfeature_v2:
   - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
@@ -27,7 +23,7 @@ subfeature_v2:
   - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
   - id: e57d1da4-32c2-4cc6-945c-9feb219156ff
   - id: fa683eda-48de-4558-af32-2673edcd44fe
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
@@ -37,7 +33,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 82c3ff093eef40fa31fc0f3bb7baa32c857ff6ea
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 728
 ht-degree: 71%

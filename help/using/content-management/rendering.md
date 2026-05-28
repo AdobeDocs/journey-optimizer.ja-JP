@@ -1,20 +1,23 @@
 ---
-title: メールのレンダリングをテスト
+title: メールのレンダリングのテスト
 description: 詳しくは、メールのレンダリングをテストする方法を参照してください。
 feature: Preview
 role: User
 level: Beginner
 exl-id: fe077a8b-9788-4723-a1e7-32816a879af9
-source-git-commit: feae2cb9d0bed35f12eb117cf2969c9290ebc06f
+feature_v2: []
+subfeature_v2:
+  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: 159
 ht-degree: 100%
 
 ---
 
-# メールのレンダリングをテスト {#email-rendering}
+# メールのレンダリングのテスト {#email-rendering}
 
-**Litmus** アカウントを [!DNL Journey Optimizer] に使用すると、よく使うメールクライアントで&#x200B;**メールのレンダリング**&#x200B;を即座にプレビューできます。すべてのインボックスでメールコンテンツが適切に表示され、正しく機能することを確認できます。
+**Litmus** アカウントを [!DNL Journey Optimizer] に使用すると、よく使うメールクライアントで&#x200B;**メールのレンダリング**&#x200B;を即座にプレビューできます。 すべてのインボックスでメールコンテンツが適切に表示され、正しく機能することを確認できます。
 
 メールのレンダリングを確認するには、次の手順に従います。
 
@@ -40,4 +43,4 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->**Litmus** アカウントを [!DNL Journey Optimizer] に接続する際は、テストメッセージが Litmus に送信されることに同意する必要があります。一度送信すると、これらのメールはアドビでは管理できなくなります。その結果、テストメッセージに含まれる可能性のあるパーソナライゼーションデータも含め、Litmus データ保持メールポリシーがこれらのメールに適用されます。
+>**Litmus** アカウントを [!DNL Journey Optimizer] に接続する際は、テストメッセージが Litmus に送信されることに同意する必要があります。一度送信すると、これらのメールはアドビでは管理できなくなります。 その結果、テストメッセージに含まれる可能性のあるパーソナライゼーションデータも含め、Litmus データ保持メールポリシーがこれらのメールに適用されます。

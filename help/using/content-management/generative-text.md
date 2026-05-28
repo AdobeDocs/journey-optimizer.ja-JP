@@ -17,6 +17,7 @@ feature_v2:
   - id: fe338112-e2ce-4876-8989-fc4d497613f1
 subfeature_v2:
   - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
@@ -27,7 +28,7 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 4af4762e4f090650ed7033f1352adb7acec0670b
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 1605
 ht-degree: 99%
@@ -170,7 +171,7 @@ AI アシスタントにアクセスしたら、生成設定を指定して、�
 
 1. 生成する内容を「**[!UICONTROL プロンプト]**」フィールドに記述して、コンテンツを微調整します。
 
-   プロンプトの作成に関するサポートが必要な場合は、キャンペーンを改善するための様々なプロンプトのアイデアを提供する&#x200B;**[!UICONTROL プロンプトライブラリ]**&#x200B;にアクセスします。 [プロンプトのベストプラクティスの詳細情報](ai-assistant-prompting-guide.md)
+   プロンプトの作成に関するサポートが必要な場合は、キャンペーンを改善するための様々なプロンプトのアイデアを提供する&#x200B;**[!UICONTROL プロンプトライブラリ]**&#x200B;にアクセスしてください。 [プロンプトのベストプラクティスの詳細情報](ai-assistant-prompting-guide.md)
 
    ![プロンプトフィールドとオプションを含む AI アシスタント](assets/push-genai-2.png){zoomable="yes"}
 

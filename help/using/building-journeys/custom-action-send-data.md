@@ -9,10 +9,12 @@ role: User, Developer
 level: Intermediate, Experienced
 keywords: ジャーニー、ユースケース
 version: Journey Orchestration
-source-git-commit: 8521e59022c221c0ca4e5b69b5b3aefe6304b417
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 72%
+source-wordcount: 289
+ht-degree: 74%
 
 ---
 
@@ -20,11 +22,11 @@ ht-degree: 72%
 
 最近別のメールサービスプロバイダー、IP アドレス、メールドメインまたはサブドメインに移動した場合は、送信者としてのレピュテーションを確立します。 そうでない場合、配信はブロックされるか、受信者の迷惑メールフォルダーに移動されます。 ガイダンスについては、[配信品質のベストプラクティスガイド &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=ja){target="_blank"}を参照してください。
 
-IP をウォームアップするために、配信数を徐々に増やすことができます。詳しくは、[Journey Optimizer での配信品質の最適化](../reports/deliverability.md)を参照してください。
+IP をウォームアップするために、配信数を徐々に増やすことができます。 詳しくは、[Journey Optimizer での配信品質の最適化](../reports/deliverability.md)を参照してください。
 
-この使用例の目的は、ジャーニーを作成してメール配信を増やすことです。このジャーニーを設定するには、次の手順に従います。
+この使用例の目的は、ジャーニーを作成してメール配信を増やすことです。 このジャーニーを設定するには、次の手順に従います。
 
-1. ジャーニーを作成します。[詳細情報](journey-gs.md)。
+1. ジャーニーを作成します。 [詳細情報](journey-gs.md)。
 
 1. ジャーニーに&#x200B;**[!UICONTROL Optimize]** アクティビティを追加します。 [詳細情報](optimize.md)。
 
@@ -42,7 +44,7 @@ IP をウォームアップするために、配信数を徐々に増やすこ�
 
    ![外部システムにデータを送信するカスタムアクションを含むジャーニー](assets/ramp-up-deliveries-message.png)
 
-   ジャーニーが実行されると、指定したプロファイルの最大数まで、メッセージが入力プロファイルに送信されます。この制限に達すると、入力したプロファイルは代替パスを使用します。
+   ジャーニーが実行されると、指定したプロファイルの最大数まで、メッセージが入力プロファイルに送信されます。 この制限に達すると、入力したプロファイルは代替パスを使用します。
 
 1. 選択したアクティビティでジャーニーを完了します。
 

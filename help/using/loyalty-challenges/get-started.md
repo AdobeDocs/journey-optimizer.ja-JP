@@ -11,10 +11,13 @@ hide: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
-source-git-commit: 0769c486386ce27079244a3ff36cdd2fedf27214
+feature_v2: []
+subfeature_v2:
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 15%
+source-wordcount: 911
+ht-degree: 14%
 
 ---
 
@@ -42,7 +45,7 @@ ht-degree: 15%
 
 **設定と統合**
 
-<!-- * [Configure loyalty challenges](loyalty-admin.md) -->
+* [ロイヤルティに関する課題の設定](loyalty-admin.md)
 * [ロイヤルティデータとデータセット](loyalty-data-and-datasets.md)
 * [ロイヤルティチャレンジ API リファレンス](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
@@ -95,7 +98,7 @@ ht-degree: 15%
 
 1. **チャレンジを作成** – 名前、タイプ（標準、ストリーク、シーケンシャル、または利用可能な場合は独自のデータを取り込む）、日付範囲など、基本的なチャレンジのプロパティを定義します。 [&#x200B; チャレンジの種類を選択する方法について説明します](create-challenges.md#create-the-challenge)。
 
-1. **タスクを追加** - タスクの種類（購入、支出）、数量、製品フィルター、報酬など、顧客が完了しなければならない特定のアクションを定義します。
+1. **タスクを追加** - タスクの種類（購入、支出、またはカスタムイベント）、数量、製品フィルター、報酬など、顧客が完了しなければならない特定のアクションを定義します。
 
 1. **コンテンツカードのデザイン** – お客様のデバイスに表示されるJourney Optimizer コンテンツカードを使用して、課題の視覚的な表現を作成します。 コンテンツカードには、チャレンジ情報、進捗状況、報酬が表示されます。
 
@@ -138,17 +141,13 @@ ht-degree: 15%
 
 +++
 
-<!--
++++ロイヤルティプログラムの設定（管理者）
 
-+++Configure the loyalty program (administrators)
+管理者は、**[!UICONTROL ロイヤルティ管理者]** メニューで、報酬プロバイダー、イベント定義、製品インベントリ、除外、およびグローバル設定を設定します。 課題のみを作成するマーケターは、このメニューにアクセスする必要はありません。 [&#x200B; ロイヤルティに関する課題を設定する方法を学ぶ](loyalty-admin.md)
 
-To configure **[!UICONTROL Loyalty Admin]** (reward providers, event definitions, and global settings), you need administrator access to your Journey Optimizer organization. Marketers who only create challenges do not need access to this area. [Learn how to configure the loyalty program](loyalty-admin.md).
-
-Contact your administrator if **[!UICONTROL Loyalty Admin]** is not visible in the left navigation.
+左側のナビゲーションに「**[!UICONTROL ロイヤルティ管理者]**」メニューが表示されない場合は、管理者にお問い合わせください。
 
 +++
-
--->
 
 +++ターゲットオーディエンス
 
@@ -206,21 +205,20 @@ Contact your administrator if **[!UICONTROL Loyalty Admin]** is not visible in t
     <em>組み込みのダッシュボードを使用して、プログラムのKPI、チャレンジの結果、タスクの指標を追跡</em>
     </p>
   </td>
-  &lt;!--
-
-<td>
+  <!--
+    <a href="loyalty-admin.md"><strong>Configure the loyalty program</strong></a>
+  <td>
     <a href="loyalty-admin.md">
-      <img alt="設定" src="assets/do-not-localize/icon-access.png" width="200"/>
+    <em>Set up reward providers, event definitions, and org settings for fulfillment</em>
     </a>
     <div>
-    <a href="loyalty-admin.md"><strong> ロイヤルティプログラムの設定</strong></a>
+  -->
+    <a href="loyalty-admin.md"><strong> ロイヤルティに関する課題の設定</strong></a>
     </div>
     <p>
-    <em>報酬プロバイダー、イベント定義、およびフルフィルメントの組織設定を設定</em>
+    <em>報酬プロバイダー、イベント定義、組織設定の設定</em>
     </p>
   </td>
-
--->
 </tr>
 </table>
 

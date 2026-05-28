@@ -9,9 +9,14 @@ role: User
 level: Intermediate
 keywords: ウェーブ、バッチ、スケジュール、キャンペーン、ジャーニー、配信品質
 exl-id: 6d53d817-78f6-4d00-8ff0-8a848c618435
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+feature_v2:
+  - id: a653cc2e-bc85-4353-a306-399e5b247978
+subfeature_v2:
+  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
+  - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: 786
 ht-degree: 2%
 
 ---

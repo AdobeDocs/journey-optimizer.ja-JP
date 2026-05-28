@@ -10,9 +10,12 @@ level: Intermediate
 keywords: サブドメイン、デリゲーション、移行、CNAME、カスタムデリゲーション
 badge: label="限定提供" type="Informative"
 exl-id: f74139cf-640f-4b7b-a0b1-6eae9c75e7e4
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+feature_v2: []
+subfeature_v2:
+  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '1258'
+source-wordcount: 1258
 ht-degree: 20%
 
 ---

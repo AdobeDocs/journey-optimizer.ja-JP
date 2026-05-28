@@ -11,10 +11,12 @@ hide: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: c950bee8-4ea9-4b64-810d-91371e8b3e4c
-source-git-commit: 0769c486386ce27079244a3ff36cdd2fedf27214
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
 workflow-type: tm+mt
-source-wordcount: '1948'
-ht-degree: 17%
+source-wordcount: 1973
+ht-degree: 16%
 
 ---
 
@@ -42,7 +44,7 @@ ht-degree: 17%
 
 **設定と統合**
 
-<!-- * [Configure loyalty challenges](loyalty-admin.md) -->
+* [ロイヤルティに関する課題の設定](loyalty-admin.md)
 * [ロイヤルティデータとデータセット](loyalty-data-and-datasets.md)
 * [ロイヤルティチャレンジ API リファレンス](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
@@ -137,7 +139,7 @@ ht-degree: 17%
 >title="タスク"
 >abstract="課題を完了するために実行するタスクを選択します。 次に、課題の完了方法を設定します。使用可能なオプションは、課題タイプ（標準、ストリーク、シーケンシャル）によって異なります。"
 
-タスクとは、顧客が報酬を得るために実行しなければならない特定のアクションを定義します。 タスクのタイプ（購入、支出）、数量、製品フィルターなどの属性を設定できます。
+タスクとは、顧客が報酬を得るために実行しなければならない特定のアクションを定義します。 タスクタイプ（購入、支出、カスタムイベント）、数量、製品フィルター、その他の属性を設定できます。
 
 課題にタスクを追加するには、次の手順に従います。
 
@@ -204,9 +206,7 @@ ht-degree: 17%
    * **[!UICONTROL チャレンジの進捗状況が確認されると、タスク完了マイルストーンで報酬を提供します]**：顧客が個々のタスクを完了すると、報酬が段階的に提供されます（複数のタスクを必要とするチャレンジにのみ利用可能）\
      *例：タスク 1の後に10 ポイント、タスク 2の後に20 ポイント、タスク 3*&#x200B;の後に50 ポイント
 
-1. 報酬プロバイダーを選択します。 顧客ポイントと特典を管理するロイヤルティソリューションです。
-
-   <!-- Reward providers are created in **[!UICONTROL Loyalty Admin]** before you author challenges. [Learn how to configure reward providers](loyalty-admin.md#reward-providers). -->
+1. 報酬プロバイダーを選択します。 顧客ポイントと特典を管理するロイヤルティソリューションです。 報酬プロバイダーは、チャレンジを作成する前に、**[!UICONTROL ロイヤルティ管理者]** メニューで作成されます。 [報酬プロバイダーの設定方法について](loyalty-admin.md#reward-providers)
 
    ![](assets/challenge-create-reward-type.png)
 

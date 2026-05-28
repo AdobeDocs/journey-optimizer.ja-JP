@@ -10,9 +10,11 @@ level: Intermediate
 keywords: フラグメント，ジャーニー，再利用，ノード，キャンバス，在庫，再利用可能
 badge: label="限定提供" type="Informative"
 version: Journey Orchestration
-source-git-commit: 5e806bf6931a5c067adde232f61ff446bee18cca
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '1484'
+source-wordcount: 1484
 ht-degree: 10%
 
 ---

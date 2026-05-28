@@ -5,9 +5,14 @@ feature: Personalization
 topic: Personalization
 role: Developer
 level: Experienced
-source-git-commit: 04fca756923d53595639e221fb59d3f6a458ac4a
+feature_v2:
+  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2:
+  - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
+  - id: ac5d9310-7772-40fb-9d78-864562e1bfd6
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: 815
 ht-degree: 0%
 
 ---

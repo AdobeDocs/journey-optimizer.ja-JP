@@ -9,9 +9,11 @@ role: User
 level: Intermediate
 keywords: 実験、実験、ジャーニー、パス、最適化、A/B テスト、マルチアームドバンディット、勝者を拡大
 exl-id: 7241ade3-577c-4bb3-b0c3-017133871ca5
-source-git-commit: accdbd5bd5023ed8352ca6fba58a26e797ac1d68
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: 1147
 ht-degree: 78%
 
 ---

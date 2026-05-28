@@ -6,9 +6,15 @@ description: Experience Platform スキーマ、データセット、およびSM
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-source-git-commit: a4c92daab69394e6a736517f2e23a941135f7eb4
+feature_v2:
+  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2:
+  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
+  - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
+  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: 518
 ht-degree: 16%
 
 ---

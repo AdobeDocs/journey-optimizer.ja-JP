@@ -1,28 +1,32 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: PERSONALIZATION Expressions用AI アシスタント
+title: パーソナライゼーション式用 AI アシスタント
 description: Journey OptimizerのAI アシスタントを使用して、Personalization エディターで自然言語からパーソナライズされたエクスプレッションを生成する方法と、エクスプレッションを追加コントロールをメール Designerで使用する方法について説明します。
 feature: Content Assistant
 topic: Content Management, Artificial Intelligence
 role: User
 level: Intermediate
 mini-toc-levels: 1
-source-git-commit: a71456af0d414ba435e307f29dd6dd70ba2737a8
+feature_v2: []
+subfeature_v2:
+  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
+  - id: c41e8697-e629-4c38-96b3-564faaa17acf
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '1064'
-ht-degree: 4%
+source-wordcount: 1082
+ht-degree: 6%
 
 ---
 
-# パーソナライゼーション表現のためのAI アシスタント{#generative-personalization-expressions}
+# パーソナライゼーション式用 AI アシスタント{#generative-personalization-expressions}
 
 >[!IMPORTANT]
 >
 >この機能の使用を開始する前に、関連する[ガードレールと制限](gs-generative.md#generative-guardrails)のトピックに目を通してください。
 ></br>
 >
->Journey Optimizer で AI アシスタントを使用する前に、[ユーザー契約](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)に同意する必要があります。詳しくは、アドビ担当者にお問い合わせください。
+>Journey Optimizer で AI アシスタントを使用する前に、[ユーザー契約](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)に同意する必要があります。 詳しくは、アドビ担当者にお問い合わせください。
 
 ## 概要 {#where-available}
 
@@ -127,7 +131,7 @@ ht-degree: 4%
 
    ![](assets/ai-perso-add-expression-insert.png)
 
-   実行できる操作は、次のとおりです。
+   以下を行うことができます。
 
    * 1つのサンプル値で式の出力を検証します。「**[!UICONTROL プレビュー]**」タブを使用します。
    * 同じプロンプトから別の提案を生成する – **[!UICONTROL 再生成]**&#x200B;を使用します。

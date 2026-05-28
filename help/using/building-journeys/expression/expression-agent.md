@@ -10,9 +10,11 @@ level: Intermediate
 badge: label="公開ベータ版" type="Informative"
 mini-toc-levels: 2
 hide: true
-source-git-commit: 21019d3981891b2ea17857dfc15278641bbcb740
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: 660
 ht-degree: 2%
 
 ---

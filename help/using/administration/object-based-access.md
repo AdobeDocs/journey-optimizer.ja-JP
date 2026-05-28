@@ -9,9 +9,12 @@ role: Admin, Developer
 level: Experienced
 keywords: オブジェクト, レベル, アクセス, 制御, ラベル, olac, 権限
 exl-id: 02ccdd95-426c-4b61-9834-7f2dcd5abdbb
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+feature_v2:
+  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+subfeature_v2: []
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: 514
 ht-degree: 100%
 
 ---

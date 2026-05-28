@@ -9,10 +9,12 @@ role: Developer
 level: Experienced
 keywords: クエリ, コレクション, 関数, ペイロード, ジャーニー
 version: Journey Orchestration
-source-git-commit: 8a2c90b22dbe68de57bbdbe06123a957e54648a6
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '739'
-ht-degree: 100%
+source-wordcount: 740
+ht-degree: 94%
 
 ---
 
@@ -20,7 +22,7 @@ ht-degree: 100%
 
 また、式言語にも、コレクションをクエリするための一連の関数が導入されています。
 
-これらの関数について以下で説明します。次の例では、コレクションを含むイベントペイロードを使用します。
+これらの関数について以下で説明します。 次の例では、コレクションを含むイベントペイロードを使用します。
 
 ```json
                 { 
@@ -70,20 +72,20 @@ ht-degree: 100%
 <listExpression>.all(<condition>)
 ```
 
-例えば、すべてのアプリユーザーの中から、iOS 13 を使用しているユーザーを取得できます（ブール式「app used == IOS 13」）。この関数の結果は、ブール式に一致する項目（例：アプリユーザー 1、アプリユーザー 34、アプリユーザー 432）を含んだフィルター済みリストになります。
+例えば、すべてのアプリユーザーの中から、iOS 13 を使用しているユーザーを取得できます（ブール式「app used == IOS 13」）。 この関数の結果は、ブール式に一致する項目（例：アプリユーザー 1、アプリユーザー 34、アプリユーザー 432）を含んだフィルター済みリストになります。
 
-「データソースの条件」アクティビティでは、**[!UICONTROL all]** 関数の結果が null かどうかを確認できます。また、この **[!UICONTROL all]** 関数を、**[!UICONTROL count]** 関数などの他の関数と組み合わせることができます。詳しくは、[「データソースの条件」アクティビティ](../conditions.md#data_source_condition)を参照してください。
+「データソースの条件」アクティビティでは、**[!UICONTROL all]** 関数の結果が null かどうかを確認できます。 また、この **[!UICONTROL all]** 関数を、**[!UICONTROL count]** 関数などの他の関数と組み合わせることができます。 詳しくは、[「データソースの条件」アクティビティ](../conditions.md#data_source_condition)を参照してください。
 
 
 ## 例
 
 >[!CAUTION]
 >
->ジャーニー式／条件でのエクスペリエンスイベントの使用はサポートされていますが、お勧めしません。ユースケースでエクスペリエンスイベントを使用する必要がある場合は、[計算属性](../../audience/computed-attributes.md)などの代替方法や、イベントを使用してセグメントを作成し、そのセグメントを [`inAudience` 式](../../building-journeys/functions/functioninaudience.md)に組み込むことを検討してください。
+>ジャーニー式／条件でのエクスペリエンスイベントの使用はサポートされていますが、お勧めしません。 ユースケースでエクスペリエンスイベントを使用する必要がある場合は、[計算属性](../../audience/computed-attributes.md)などの代替方法や、イベントを使用してセグメントを作成し、そのセグメントを [`inAudience` 式](../../building-journeys/functions/functioninaudience.md)に組み込むことを検討してください。
 
 **例 1：**
 
-ユーザーが特定のバージョンのアプリケーションをインストールしてあるかどうかを確認します。 この目的のために、バージョンが 1.0 のモバイルアプリケーションに関連付けられたすべてのプッシュ通知トークンを取得します。その後、**[!UICONTROL count]** 関数で条件分けをして、返されたトークンリストに少なくとも 1 つの要素が含まれているかどうかを確認します。
+ユーザーが特定のバージョンのアプリケーションをインストールしてあるかどうかを確認します。 このために、バージョンが1.0のモバイルアプリケーションに関連付けられたすべてのプッシュ通知トークンを取得します。 次に、**[!UICONTROL count]**&#x200B;関数を使用して条件を実行し、返されるトークンのリストに少なくとも1つの要素が含まれていることを確認します。
 
 ```json
 count(@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTokens.all(currentEventField.application.version == "1.0").token}) > 0
@@ -139,7 +141,7 @@ count(@event{LobbyBeacon._experience.campaign.message.profile.pushNotificationTo
 
 **例 3：**
 
-ここでは、個人が過去 24 時間以内に連絡を受け取っていないかどうかを確認します。ExperiencePlatform データソースから取得したエクスペリエンスイベントのコレクションを、コレクションの 2 つの要素に基づく 2 つの式を使用してフィルタリングします。特に、イベントのタイムスタンプを、**[!UICONTROL nowWithDelta]** 関数から返される日時と比較します。
+ここでは、個人が過去 24 時間以内に連絡を受け取っていないかどうかを確認します。 ExperiencePlatform データソースから取得したエクスペリエンスイベントのコレクションを、コレクションの 2 つの要素に基づく 2 つの式を使用してフィルタリングします。 特に、イベントのタイムスタンプを、**[!UICONTROL nowWithDelta]** 関数から返される日時と比較します。
 
 ```json
 count(#{ExperiencePlatform.MarltonExperience.experienceevent.all(
@@ -183,7 +185,7 @@ The result will be:
 >
 >**[!UICONTROL currentEventField]** はイベントコレクションを操作する場合、**[!UICONTROL currentDataPackField]** はデータソースコレクションを操作する場合、**[!UICONTROL currentActionField]** はカスタムアクションの応答コレクションを操作する場合にのみ使用できます。
 >
->**[!UICONTROL all]**、**[!UICONTROL first]**、**[!UICONTROL last]** でコレクションを処理する場合、コレクションの各要素を 1 つずつループします。**[!UICONTROL currentEventField]**、**currentDataPackField**、および **[!UICONTROL currentActionField]** は、ループする要素に対応します。
+>**[!UICONTROL all]**、**[!UICONTROL first]**、**[!UICONTROL last]** でコレクションを処理する場合、コレクションの各要素を 1 つずつループします。 **[!UICONTROL currentEventField]**、**currentDataPackField**、および **[!UICONTROL currentActionField]** は、ループする要素に対応します。
 
 **関数「first(`<condition>`)」と「last(`<condition>`)」**
 
@@ -248,7 +250,7 @@ _`<listExpression>`.at(`<index>`)_
 
 **その他の例**
 
-この式は、SKU 値に基づいて製品名を返します。これらの製品のリストはイベントリストに含まれ、条件はイベント ID になります。
+この式は、SKU 値に基づいて製品名を返します。 これらの製品のリストはイベントリストに含まれ、条件はイベント ID になります。
 
 ```json
 #{ExperiencePlatform.ExperienceEventFieldGroup.experienceevent.all(currentDataPackField._aepgdcdevenablement2.purchase_event.receipt_nbr == "10-337-4016"). 

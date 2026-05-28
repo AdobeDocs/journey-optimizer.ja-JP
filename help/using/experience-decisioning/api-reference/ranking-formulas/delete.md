@@ -7,16 +7,21 @@ role: Developer
 level: Experienced
 exl-id: 4ea50481-b1b9-4e0c-ad4e-c4139891bfdf
 version: Journey Orchestration
-source-git-commit: 1735324b5fd330ecfc9261a54d0317b71d57ff4f
+feature_v2:
+  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2:
+  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+  - id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: 123
 ht-degree: 100%
 
 ---
 
 # ランキング式の削除 {#delete-selection-strategy}
 
-場合によっては、ランキング式を削除（DELETE）する必要があります。これを行うには、削除するランキング式の ID を使用して、オファーライブラリ API に対して DELETE リクエストを実行します。
+場合によっては、ランキング式を削除（DELETE）する必要があります。 これを行うには、削除するランキング式の ID を使用して、オファーライブラリ API に対して DELETE リクエストを実行します。
 
 **API 形式**
 
@@ -44,4 +49,4 @@ curl -X DELETE 'https://platform.adobe.io/data/core/dps/ranking-formulas/ranking
 
 正常な応答の場合は、HTTP ステータス 200 と空白の本文が返されます。
 
-ランキング式に対して参照（GET）リクエストを実行することで、削除を確認できます。ランキング式が削除されたので、HTTP ステータス 404（見つかりません）が表示されます。
+ランキング式に対して参照（GET）リクエストを実行することで、削除を確認できます。 ランキング式が削除されたので、HTTP ステータス 404（見つかりません）が表示されます。

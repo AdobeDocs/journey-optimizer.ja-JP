@@ -10,9 +10,11 @@ level: Intermediate
 mini-toc-levels: 1
 keywords: ウェーブ、バッチ、スケジュール、ジャーニー、オーディエンスの読み取り、配信品質
 exl-id: 1aaff17f-aa08-4f10-903c-8335a86ac6eb
-source-git-commit: d7d9c371f4b0d8b4ea51e1f23eb9a2f665711fce
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: 868
 ht-degree: 2%
 
 ---

@@ -11,9 +11,11 @@ hide: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: f8a3b2c1-4d5e-6f7a-8b9c-0d1e2f3a4b5c
-source-git-commit: 0769c486386ce27079244a3ff36cdd2fedf27214
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: 1642
 ht-degree: 1%
 
 ---
@@ -66,7 +68,7 @@ ht-degree: 1%
 >
 >ロイヤルティチャレンジの設定には、ロイヤルティチャレンジに必要な権限に加えて、[!DNL Journey Optimizer] インスタンスへの管理者アクセス権が必要です。 Adobe管理者に連絡してアクセス権を取得してください。
 
-設定インターフェイスを開くには、**[!UICONTROL ロイヤルティ]**&#x200B;に移動し、**[!UICONTROL ロイヤルティ管理者]**&#x200B;を選択します。 インターフェイスはタブで構成されています。
+設定インターフェイスを開くには、左側のナビゲーションから「**[!UICONTROL ロイヤルティ管理者]**」メニューを選択します。 インターフェイスはタブで構成されています。
 
 * **Global settings** — プログラムのExperience Platform ID名前空間を選択します。 [&#x200B; グローバル設定の設定方法について説明します](#global-settings)
 * **報酬プロバイダー** – 顧客が進行状況を確認したり、課題を完了したりすると、報酬を実現するAPIを接続します。 [報酬プロバイダーの設定方法について](#reward-providers)
@@ -199,7 +201,7 @@ ht-degree: 1%
 >title="イベントの特定"
 >abstract="識別子パス、識別子の値、XDM スキーマ ID、またはこれらのフィールドの組み合わせを使用して、受信ペイロードのイベントを[!DNL Journey Optimizer]が認識する方法を指定します。"
 
-**[!UICONTROL イベント定義]**&#x200B;は、[!DNL Journey Optimizer]に対して、どのAdobe Experience Platform エクスペリエンスイベントを処理するかを指示します。 たとえば、購入やホテルのチェックインなどです。 マーケターは、**[!UICONTROL カスタムイベント]** タスクを作成する際に、これらの定義を参照します。 どの定義にも一致しないイベントは無視されます。
+**[!UICONTROL イベント定義]**&#x200B;は、[!DNL Journey Optimizer]に対して、どのAdobe Experience Platform エクスペリエンスイベントを処理するかを指示します。 たとえば、購入やホテルのチェックインなどです。 マーケターは、タスクビルダーで&#x200B;**[!UICONTROL カスタムイベント]** タスクを作成する際に、これらの定義を参照します。 どの定義にも一致しないイベントは無視されます。
 
 組織が独自のJSON形式でイベントを送信すると、**[!UICONTROL Schema]**&#x200B;と&#x200B;**[!UICONTROL Transformer]**&#x200B;が[!DNL Journey Optimizer]がペイロードを検証し、それを解析して、アクティビティを追跡するかどうかを決定するのに役立ちます。
 

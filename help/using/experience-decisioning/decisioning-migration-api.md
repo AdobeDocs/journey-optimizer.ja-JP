@@ -1,19 +1,24 @@
 ---
-title: 移行APIの決定
+title: Decisioning Migration API
 description: Decisioning Migration Service APIを使用して、自動依存関係の解決とロールバックのサポートを使用してサンドボックス間で意思決定管理オブジェクトを移行する方法を説明します。
 feature: Decisioning
 topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 3ec084ca-af9e-4b5e-b66f-ec390328a9d6
-source-git-commit: 8218f868dd777345aa1415edc8ebdc97bdc31a3e
+feature_v2:
+  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2:
+  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+  - id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '1175'
+source-wordcount: 1175
 ht-degree: 5%
 
 ---
 
-# 移行APIの決定 {#decisioning-migration-api}
+# Decisioning Migration API {#decisioning-migration-api}
 
 Decisioning Migration Service APIを使用すると、あるサンドボックスから別のサンドボックスに意思決定管理オブジェクトを移行できます。 移行プロセスは、依存関係の分析、実行、オプションのロールバック機能を含む非同期ワークフローとして実行されます。
 

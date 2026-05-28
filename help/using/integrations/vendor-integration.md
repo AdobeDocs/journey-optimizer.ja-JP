@@ -8,9 +8,12 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: 統合、ベンダー、サードパーティ
-source-git-commit: 4cc3c959fe08c1d574a5d041bf7721441bc96f97
+subfeature_v2: []
+feature_v2:
+  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '10154'
+source-wordcount: 10154
 ht-degree: 6%
 
 ---

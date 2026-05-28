@@ -8,9 +8,12 @@ topic: Content Management
 role: User
 level: Intermediate, Experienced
 keywords: url、リンク、パーソナライゼーション、トラッキング、エンコード、中括弧
-source-git-commit: 91b9ce5398bd62ff1969374be6e5c9f720fb4e31
+feature_v2: []
+subfeature_v2:
+  - id: c41e8697-e629-4c38-96b3-564faaa17acf
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: 402
 ht-degree: 24%
 
 ---

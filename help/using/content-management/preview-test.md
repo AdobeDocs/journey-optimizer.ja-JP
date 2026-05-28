@@ -5,9 +5,12 @@ feature: Preview, Proofs
 role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
-source-git-commit: 384f4e4b4c3acd9f1f1d73d4b140845870b31289
+feature_v2: []
+subfeature_v2:
+  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: 545
 ht-degree: 100%
 
 ---
@@ -60,7 +63,7 @@ Journey Optimizer には、コンテンツをテストするための次の 2 �
 
 ## 必読
 
-* **必要な権限** - **[!DNL Content Library Manager]** 製品プロファイルに含まれる **[!DNL Manage Simulate Content]** 権限が必要です。 [詳細情報](../administration/ootb-product-profiles.md#content-library-manager)
+* **必要な権限** - **[!DNL Content Library Manager]** 製品プロファイルに含まれる **[!DNL Manage Simulate Content]** 権限が必要です。 [学習を増やす](../administration/ootb-product-profiles.md#content-library-manager)。
 
   配達確認を送信するには、メールに関連付けられた特定のリソース（キャンペーンまたはジャーニー）に対する&#x200B;**承認および公開**&#x200B;権限を持っている必要があります。 また、ジャーニーで配達確認を送信するには、**ジャーニーを公開**&#x200B;権限も必要です。 [詳しくは、権限を参照してください](../administration/ootb-permissions.md)。
 
