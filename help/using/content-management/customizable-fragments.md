@@ -172,7 +172,7 @@ HTML コンポーネントの場合、特定の要素のみを編集可能なフ
 >id="ac_editable_fragment_compatibility"
 >title="レガシーフラグメント"
 >abstract="このカスタマイズ可能なフラグメントの編集可能なフィールドは、テキストのみです。 リッチテキスト形式（太字、斜体、ハイパーリンク、改行など） フラグメント作成者がフラグメントエディターの「<b>変換</b>」ボタンを使用してフラグメントをHTML互換モードにアップグレードするまで、メールDesignerでは利用できません。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="フラグメントの編集可能フィールドをカスタマイズする"
+>additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="フラグメントの編集可能フィールドをカスタマイズする"
 
 HTML コンポーネントを使用すると、改行、太字、斜体などのリッチテキストを、カスタマイズ可能なフラグメントに追加できます。 これを行うには、以下の手順に従います。
 <!--
