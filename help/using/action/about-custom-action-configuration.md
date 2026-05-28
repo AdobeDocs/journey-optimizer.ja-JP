@@ -10,30 +10,15 @@ level: Experienced
 keywords: アクション, サードパーティ, カスタム, ジャーニー, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
 TQID: https://experienceleague.adobe.com/q4zuwxmF2Gr5P5IkdZCKFHoA18-GGrlLD0f-WPCQ3q4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: c5965ac7ea1465a20335536ebebf409e63bce98b
 workflow-type: tm+mt
-source-wordcount: 2057
-ht-degree: 94%
+source-wordcount: 2200
+ht-degree: 88%
 
 ---
 
@@ -136,7 +121,7 @@ Journey Optimizer では、カスタムアクションにデータガバナン�
 
      例：`https://xxx.yyy.com/somethingstatic/`
 
-     URL の動的パスは、カスタムアクションをジャーニーに追加する際に指定します。 [詳細情報](../building-journeys/using-custom-actions.md)。
+     URL の動的パスは、カスタムアクションをジャーニーに追加する際に指定します。 [詳細情報](../building-journeys/using-custom-actions.md)
 
    >[!NOTE]
    >
@@ -164,7 +149,7 @@ Journey Optimizer では、カスタムアクションにデータガバナン�
 
 1. フィールドのラベルまたは名前を入力します。
 
-1. タイプを選択：**[!UICONTROL 定数]**&#x200B;または&#x200B;**[!UICONTROL 変数]**。 **[!UICONTROL 定数]**&#x200B;を選択した場合は、**[!UICONTROL 値]**&#x200B;フィールドに定数の値を入力します。 「**[!UICONTROL 変数]**」を選択した場合は、カスタムアクションをジャーニーに追加する際に、この変数を指定します。 [詳細情報](../building-journeys/using-custom-actions.md)。
+1. タイプを選択：**[!UICONTROL 定数]**&#x200B;または&#x200B;**[!UICONTROL 変数]**。 **[!UICONTROL 定数]**&#x200B;を選択した場合は、**[!UICONTROL 値]**&#x200B;フィールドに定数の値を入力します。 「**[!UICONTROL 変数]**」を選択した場合は、カスタムアクションをジャーニーに追加する際に、この変数を指定します。 [詳細情報](../building-journeys/using-custom-actions.md)
 
    ![](assets/journeyurlconfiguration2.png)
 
@@ -185,6 +170,15 @@ Adobe Journey Optimizer は、カスタムアクションに対してデフォ�
 Mutual Transport Layer Security（mTLS）は、Adobe Journey Optimizer カスタムアクションへの送信接続のセキュリティを強化します。 mTLS は、データが共有される前に情報を共有する両者が本人であることを確認する、相互認証のためのエンドツーエンドのセキュリティ方式です。 mTLS には TLS と比較して追加の手順が含まれており、サーバーはクライアントの証明書を要求し、クライアント側でそれを検証します。
 
 カスタムアクションでは相互 TLS（mTLS）認証がサポートされています。 mTLS をアクティブ化するためにカスタムアクションまたはジャーニーで追加の設定は必要ありません。mTLS 対応エンドポイントが検出されると、自動的に実行されます。 [学習を増やす](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support)。
+
+>[!IMPORTANT]
+>
+>Adobeは、カスタムアクション接続に使用されるmTLS クライアント証明書を定期的にローテーションします。 新しい証明書が発行されたら、エンドポイントのトラストストアを更新して受け入れる必要があります。そうしないと、Journey Optimizerからサービスへのアウトバウンド接続が失敗し、証明書の不一致エラーが発生します。 混乱を避けるには：
+>
+>* サービスに関連付けられた更新された証明書について、[Adobe公開証明書API](https://platform.adobe.io/data/core/mtls/v1/certificate/public-certificate)を定期的に確認します。
+>* エンドポイントを設定して、**重複する証明書** （古い証明書と新しい証明書の両方を同時に）を受け入れるようにします。これにより、ローテーション中に接続性のギャップが生じません。
+>* Adobeでは、証明書のローテーション時にプロアクティブな通知が送信されません。 証明書の更新を監視し、トラストストアを最新の状態に保つことは、お客様の責任です。
+>* 信頼の検証は、特定のリーフ証明書フィンガープリントにピン留めするのではなく、ルート CA （DigiCert）までの証明書チェーンに基づいて行う必要があります。
 
 ## ペイロードパラメーターの定義 {#define-the-message-parameters}
 
