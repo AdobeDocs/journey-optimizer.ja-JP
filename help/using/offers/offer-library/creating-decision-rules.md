@@ -11,23 +11,15 @@ level: Intermediate
 exl-id: 401ce05b-412b-4fa0-a516-bf75727f6387
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/TMWU9R07fDaJpqQHKLt2yOFAdu8dlJhtqXIgv7e8oaU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-subfeature_v2:
-  - id: d1823595-9241-4128-8a33-e4ac3bf08773
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+subfeature_v2: id: d1823595-9241-4128-8a33-e4ac3bf08773id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 469
-ht-degree: 90%
+source-wordcount: 432
+ht-degree: 86%
 
 ---
 
@@ -35,7 +27,7 @@ ht-degree: 90%
 
 >[!IMPORTANT]
 >
->このページでは、従来の&#x200B;**意思決定管理**&#x200B;機能の決定ルールについて説明します。 **Decisioning**&#x200B;を使用している場合 – コードベースのエクスペリエンスとメールチャネルを介して利用可能な[!DNL Adobe Journey Optimizer]の現在の意思決定機能については、代わりに[&#x200B; ルールを作成](../../experience-decisioning/rules.md)を参照してください。
+>このページでは、従来の&#x200B;**意思決定管理**&#x200B;機能の決定ルールについて説明します。 **Decisioning**&#x200B;を使用している場合 – コードベースのエクスペリエンスとメールチャネルを介して利用可能な[!DNL Adobe Journey Optimizer]の現在の意思決定機能については、代わりに[ ルールを作成](../../experience-decisioning/rules.md)を参照してください。
 >
 >どの機能を使用しているか不明な場合は、 [決定について学ぶ](../../experience-decisioning/gs-experience-decisioning.md)。
 
@@ -50,7 +42,7 @@ Adobe Experience Platform で利用可能なデータに基づいて、オファ
 決定ルールを使用する際に考慮すべき制限事項のリストを以下に示します。
 
 * Edge 決定では、イベントを保存しない Edge プロファイルを使用するので、Edge 決定で使用するルールは無効になります。
-* 決定ルールを作成する際に、前の期間をさかのぼることはサポートされていません。 例えば、過去 1 か月以内に発生したエクスペリエンスイベントをルールのコンポーネントとして指定した場合。 ルールの作成中にルックバック期間を含めようとすると、保存時にトリガーが発生します。
+* 決定ルールを作成する場合、以前の期間を振り返ることはサポートされていません。例えば、前月内に発生したエクスペリエンスイベントをルールのコンポーネントとして指定する場合などです。ルール作成時にルックバック期間を含めようとしても、保存時にエラーがトリガーされます。
   <!--* Decision requests that use the hub profile will look at the last 100 experience events on the profile to evaluate rules that reference historical experience events.-->
 
 ## 決定ルールの作成 {#create}
@@ -97,4 +89,4 @@ Adobe Experience Platform で利用可能なデータに基づいて、オファ
 
 ## チュートリアルビデオ {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/341373?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329373?quality=12)

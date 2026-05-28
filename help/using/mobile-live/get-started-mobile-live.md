@@ -8,26 +8,16 @@ role: User
 level: Beginner
 exl-id: c9766603-df19-4efd-8319-27e9764254b4
 TQID: https://experienceleague.adobe.com/IB00r0QSfCthvgvyqubGwsaUoiJKBL-E96duLn4R5i0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-  - id: ed2fba79-65cb-4680-96d2-2ad5d851714d
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: ed2fba79-65cb-4680-96d2-2ad5d851714did: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 421
-ht-degree: 100%
+source-wordcount: 404
+ht-degree: 94%
 
 ---
 
@@ -62,8 +52,8 @@ ht-degree: 100%
 
 Adobe Journey Optimizer を使用すると、個人ベースとオーディエンスベースの両方のユースケースを大規模にサポートする、API トリガーキャンペーンを通じて、ライブアクティビティのリモートでの&#x200B;**開始**、**更新**、**終了**&#x200B;をプログラムで実行できます。
 
-ライブアクティビティは、**API トリガー**&#x200B;キャンペーン経由で&#x200B;**のみ**開始できるので、カスタムペイロードを提供し、独自のペイロードを通じてすべてのパーソナライゼーションを実行できます。
-対象のライブアクティビティのユースケースに基づいて、適切な **API トリガー**&#x200B;キャンペーンタイプを選択する必要があります。
+ライブアクティビティは、**API トリガー** キャンペーンを介して&#x200B;**のみ**開始できます。これにより、カスタムペイロードを提供し、独自のペイロードを介してすべてのパーソナライズを実行できます。
+目的のライブアクティビティのユースケースに基づいて、適切な**API トリガー** キャンペーンタイプを選択する必要があります。
 
 * オーディエンスに基づいた更新を大規模に送信するブロードキャストのユースケースには、「**API トリガーマーケティング**」を選択します。
 
@@ -101,4 +91,4 @@ Adobe Journey Optimizer を使用すると、個人ベースとオーディエ�
 
 iOS ライブアクティビティを Adobe Journey Optimizer と連携して設定し、iPhone のロック画面と Dynamic Island でリッチなリアルタイム更新を提供する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3479865/?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3479864/?learn=on)

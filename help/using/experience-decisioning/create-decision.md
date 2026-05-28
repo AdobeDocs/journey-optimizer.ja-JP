@@ -8,20 +8,12 @@ level: Experienced
 exl-id: 63aa1763-2220-4726-a45d-3a3a8b8a55ec
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/E1BsOCI4d-f7PCFVEzNlWFj6Odh4T-9S3oq295tmCsE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 707
 ht-degree: 71%
@@ -64,7 +56,7 @@ ht-degree: 71%
 ## ガードレールと制限
 
 * **サポートされているチャネル** – 決定ポリシーは、コードベースのエクスペリエンス、SMS、プッシュ通知、電子メールで利用できます。
-* **プッシュ通知SDK要件** - プッシュ通知付きExperience Decisioningには、特定のバージョンのモバイル SDKが必要です。 この機能を実装する前に、[&#x200B; リリースノート &#x200B;](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"}を確認して、必要なバージョンを特定し、それに応じてアップグレードされていることを確認してください。 また、[このセクション &#x200B;](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"}では、お使いのプラットフォームで利用可能なすべてのSDK バージョンを表示できます。
+* **プッシュ通知SDK要件** - プッシュ通知付きExperience Decisioningには、特定のバージョンのモバイル SDKが必要です。 この機能を実装する前に、[ リリースノート ](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"}を確認して、必要なバージョンを特定し、それに応じてアップグレードされていることを確認してください。 また、[このセクション ](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"}では、お使いのプラットフォームで利用可能なすべてのSDK バージョンを表示できます。
 * **トラッキングとリンクのタイプ** - 決定によって生成されたリンクを追跡するには、「決定アセット」としてスキーマで定義します。 属性ベースのリンクは追跡できません。
 * **メールでの決定ポリシーのネスト** - 既に決定ポリシーが関連付けられている親メールコンポーネント内に複数の決定ポリシーをネストすることはできません。
 * **決定ポリシーを含む複製されたジャーニー／キャンペーン** - 決定ポリシーを含むジャーニーまたはキャンペーンを複製すると、複製されたバージョンは元のメールまたはコードベースのエクスペリエンスを参照するので、エラーが発生します。 複製後は、常に決定ポリシーを再設定します。
@@ -98,12 +90,12 @@ ht-degree: 71%
 
 決定機能を使用して、オーディエンスの電子メールをパーソナライズする方法を学びましょう。
 
->[!VIDEO](https://video.tv.adobe.com/v/3476165?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476158?quality=12)
 
 決定機能を使用して、オーディエンスのプッシュ通知をパーソナライズする方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3479211?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479199?quality=12)
 
 決定機能を使用して、オーディエンスのSMS メッセージをパーソナライズする方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3479530?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3479529?quality=12)

@@ -11,19 +11,12 @@ level: Experienced
 exl-id: 692d0aae-6fa1-40b8-a35f-9845d78317a3
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/jhf2EpgMU35YmRWeatijWUFz3KwwjFfKP8lHtX8eyEU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 1153
 ht-degree: 100%
@@ -150,7 +143,7 @@ curl -X POST 'https://platform.adobe.io/data/core/ods/decisions' \
 | `xdm:responseFormat.xdm:includeContent` | ブール値で、`true` に設定した場合、応答にコンテンツを含めます。 | `"xdm:includeContent": true` |
 | `xdm:responseFormat.xdm:includeMetadata` | 返される追加のメタデータを指定するために使用されるオブジェクト。 このプロパティが含まれていない場合、デフォルトでは `xdm:id` と `repo:etag` が返されます。 | `name` |
 | `xdm:responseFormat.xdm:activity` | このフラグは、`xdm:activity` に対して返される特定のメタデータ情報を識別します。 | `name` |
-| `xdm:responseFormat.xdm:option` | このフラグは、`xdm:option` に対して返される特定のメタデータ情報を識別します。 | `name`, `characteristics` |
+| `xdm:responseFormat.xdm:option` | このフラグは、`xdm:option` に対して返される特定のメタデータ情報を識別します。 | `name`、`characteristics` |
 | `xdm:responseFormat.xdm:placement` | このフラグは、`xdm:placement` に対して返される特定のメタデータ情報を識別します。 | `name`、`channel`、`componentType` |
 
 ### 応答
@@ -248,7 +241,7 @@ The following video is intended to support your understanding of the components 
 >
 >This video applies to the Offer Decisioning application service built on Adobe Experience Platform. However, it provides generic guidance to use Offer in the context of Journey Optimizer.
 
->[!VIDEO](https://video.tv.adobe.com/v/342831/?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329919/?quality=12)
 -->
 
 ## 次の手順 {#next-steps}

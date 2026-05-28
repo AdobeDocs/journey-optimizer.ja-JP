@@ -8,15 +8,11 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 65ca94cf-8e17-4a25-90f3-238083f81477
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 6076
+source-wordcount: 6058
 ht-degree: 79%
 
 ---
@@ -133,7 +129,7 @@ ht-degree: 79%
 <tr>
 <td>
 <p>ランキング式で<strong>AI モデル</strong>を使用して、顧客プロファイル属性とコンテキスト要因に基づいてジャーニーの優先度スコアを自動的に高め、顧客が最も関連性の高いジャーニーにエントリできるようにしました。</p>
-<p>この機能は、一連の組織でのみ使用できます（限定提供）。 アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
+<p>この機能は、一連の組織でのみ使用できます（限定提供）。 アクセスするには、アドビ担当者にお問い合わせください。</p>
 <p><img src="assets/do-not-localize/journey-arbitration-ai-models.gif"></p>
 <p>詳しくは、<a href="../conflict-prioritization/journey-ai-models.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
@@ -208,7 +204,7 @@ ht-degree: 79%
 <tbody>
 <tr>
 <td>
-<p>新しい<strong>最適化</strong>ノードを使用して A/B テストまたはマルチアームバンディット実験を実行して、ビジネス目標に焦点を合わせた KPI を達成する最適なパスを決定します。 このツールを利用すれば、コミュニケーション、シーケンス、タイミングをテスト、変更、カスタマイズし、顧客に最もリーチできます。
+<p>新しい<strong>最適化</strong> ノードを使用して、A/B テストまたはマルチアームドバンディット実験を実行し、ビジネス中心のKPIを満たすのに最適なパスを決定します。このツールを利用すれば、コミュニケーション、シーケンス、タイミングをテスト、変更、カスタマイズし、顧客に最もリーチできます。
 </p>
 <p>この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。</p>
 <p>一般提供の一部として、このリリースでは、<strong>実験タイプ</strong>の選択（A/B テストまたはマルチアームバンディット）と、単一ジャーニーの<strong>勝者をスケール</strong>が導入されています。</p>
@@ -344,7 +340,7 @@ ht-degree: 79%
 <!--
 **The pre-release notes below are subject to change without prior notice until the release availability date**. Links, screens and updated documentation are published in the release notes, at the release date.
 
-See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
+See also [Adobe Experience Platform pre-release notes](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}.
 -->
 
 **リリース日**：2026年3月24～25日（PT）
@@ -365,7 +361,7 @@ See also [Adobe Experience Platform pre-release notes](https://experienceleague.
 <li>専用の<strong>管理</strong>レジストリに暗号化キーを登録して管理します。</li>
 <li>式で新しい「暗号化」ヘルパー関数を使用して、レンダリング時に保護するクエリパラメーターの URL 内の機密データを暗号化します。</li>
 </ul>
-<p>この機能は、一連の組織でのみ使用できます（限定提供）。 アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
+<p>この機能は、一連の組織でのみ使用できます（限定提供）。 アクセスするには、アドビ担当者にお問い合わせください。</p>
 <p><img src="assets/do-not-localize/encrypt-helper.gif"></p>
 <p>詳しくは、<a href="../personalization/url-parameter-encryption.md">詳細ドキュメント</a>を参照してください。</p>
 <p>公開日：2026年3月31日（PT）</p>
@@ -877,7 +873,7 @@ WAITING RELEASE DATE CONFIRMATION
 
 #### 設定
 
-* **ジャーニー式でのエクスペリエンスイベントの使用** - 2026年4月1日以降、ジャーニー式でのエクスペリエンスイベント属性の使用は、過去90日間にこの機能を使用していない組織ではサポートされなくなります。 この機能は、2025年7月8日以降、新規顧客組織では既に使用できません。 代替案については、「[&#x200B; ジャーニー内のエクスペリエンスイベントの検索](../building-journeys/exp-event-lookup.md)」を参照してください。
+* **ジャーニー式でのエクスペリエンスイベントの使用** - 2026年4月1日以降、ジャーニー式でのエクスペリエンスイベント属性の使用は、過去90日間にこの機能を使用していない組織ではサポートされなくなります。 この機能は、2025年7月8日以降、新規顧客組織では既に使用できません。 代替案については、「[ ジャーニー内のエクスペリエンスイベントの検索](../building-journeys/exp-event-lookup.md)」を参照してください。
 
 #### コンテンツ管理
 
@@ -970,7 +966,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 <p>以前はキャンペーンに制限されていた、<strong>ダイレクトメール</strong>チャネルがジャーニーキャンバスで使用できるようになりました。これにより、ダイレクトメールをジャーニーに組み込むことができます。 ダイレクトメールは、ファイル抽出設定と時間ベースの頻度設定をサポートし、<strong>バッチシナリオと 1 対 1 ジャーニーシナリオ</strong>の両方で使用できるようになりました。</p>
 <p>この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。</p>
 <p><img src="assets/do-not-localize/dm-journey.gif"/></p>
-<p>詳しくは、<a href="../direct-mail/get-started-direct-mail.md">詳細ドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../direct-mail/get-started-direct-mail.md">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2026年1月29日（PT）</p>
 </td>
 </tr>
@@ -989,7 +985,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 <p><strong>クワイエットアワー</strong>では、メール、SMS、プッシュ、WhatsApp の各チャネルについて、時間ベースの除外を定義できます。 これにより、特定の期間中にメッセージが送信されなくなり、顧客の環境設定やコンプライアンス要件を適用できます。 クワイエットアワーは、キャンペーンやジャーニー内の個々のアクションに割り当てて、正確な制御を行うことができる<strong>ルールセット</strong>を通じて適用できます。</p>
 <p>この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました。 この一般提供リリースでは、顧客がクワイエットアワーが完了するまでキャンペーンアクションをキューに入れる機能と、アクティブ化されたクワイエットアワールールをプレビューする機能が含まれるようになりました。</p>
 <p><img src="assets/do-not-localize/quiet-hour-ga.gif"/></p>
-<p>詳しくは、<a href="../conflict-prioritization/quiet-hours.md">詳細ドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../conflict-prioritization/quiet-hours.md">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2026年1月29日（PT）</p>
 </td>
 </tr>
@@ -1014,7 +1010,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 <p>レコードは、取り込みから 7 日間、AJO メッセージエクスポートデータセットに保持されます。 この保存期間は、Experience Platformの配信先を介して独自のストレージに書き出すことができます。 この機能は、チャネル設定レベルで有効になり、エクスポートするメッセージを<strong>詳細に制御</strong>できます。</p>
 <p>この機能は、メッセージのエクスポートのアドオン機能を購入した組織がメールおよび SMS チャネルでのみ使用できます。 詳しくは、アドビ担当者にお問い合わせください。</p>
 <p><img src="assets/do-not-localize/message-export.gif"/></p>
-<p>詳しくは、<a href="../configuration/message-export.md#message-export">詳細ドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../configuration/message-export.md#message-export">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2026年1月28日（PT）</p>
 </td>
 </tr>
@@ -1032,7 +1028,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 <td>
 <p>ダイレクトメールチャネルがオーケストレーションキャンペーンで使用できるようになりました。 <strong>ダイレクトメールアクティビティ</strong>では、オーケストレーションキャンペーン内でのダイレクトメール送信が促進され、1 回限りのメッセージと繰り返しメッセージの両方を送信できます。 これは、ダイレクトメールプロバイダーが必要とする<strong>抽出ファイル</strong>を生成するプロセスを自動化するのに役立ちます。 チャネルアクティビティをオーケストレーションキャンペーンキャンバスに組み合わせて、顧客の行動とデータに基づいてアクションをトリガーできるクロスチャネルキャンペーンを作成できます。</p>
 <p><img src="assets/do-not-localize/dm-oc.gif"/></p>
-<p>詳しくは、<a href="../orchestrated/activities/channels.md#channel">詳細ドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../orchestrated/activities/channels.md#channel">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2026年1月28日（PT）</p>
 </td>
 </tr>
@@ -1098,7 +1094,7 @@ THIS WAS FINALLY NOT RELEASED IN FEBRUARY
 
 * **AI アシスタントコンテンツ品質チェック** - ブランド一致に加えて、ブランドガイドラインに依存せずに、全体的な<strong>コンテンツ品質</strong>を評価して、<strong>読みやすさ</strong>、一貫性、有効性に関する潜在的な問題を明らかにできるようになりました。 これらの自動チェックは、不明確なメッセージ、一貫性のないトーン、構造上のギャップを特定するのに役立ちます。 [詳細情報](../content-management/brands-score.md#validate-quality)。
 
-  [この機能について詳しくは、ビデオを参照してください](https://video.tv.adobe.com/v/3470547/?captions=jpn&learn=on)。
+  [この機能について詳しくは、ビデオを参照してください](https://video.tv.adobe.com/v/3470544/?learn=on)。
 
 #### ジャーニー
 

@@ -7,11 +7,9 @@ level: Intermediate
 version: Journey Orchestration
 badge: label="限定提供" type="Informative"
 exl-id: b172e0e1-b78e-4d96-ab88-254507b55f48
-feature_v2:
-  - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
-subfeature_v2:
-  - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: fd59660e-de8a-4bfb-85dc-7fa546030c49
+subfeature_v2: id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 1131
 ht-degree: 21%
@@ -24,7 +22,7 @@ ht-degree: 21%
 >
 >この機能は現在限定的です。 アクセス権を取得するには、アドビ担当者にお問い合わせください。
 
-[!DNL Adobe Journey Optimizer]を使用すると、プロファイルがシステムで許可されている以上の条件を満たす場合に入力できるジャーニーを制御できます。 これには、[&#x200B; ルールセット &#x200B;](rule-sets.md)を使用して、ジャーニーのエントリまたは同時実行の上限を定義できます。 プロファイルがキャップが許可する以上のジャーニーの対象となる場合、各ジャーニーに割り当てられた優先度によって、選択されるジャーニーが決まります。
+[!DNL Adobe Journey Optimizer]を使用すると、プロファイルがシステムで許可されている以上の条件を満たす場合に入力できるジャーニーを制御できます。 これには、[ ルールセット ](rule-sets.md)を使用して、ジャーニーのエントリまたは同時実行の上限を定義できます。 プロファイルがキャップが許可する以上のジャーニーの対象となる場合、各ジャーニーに割り当てられた優先度によって、選択されるジャーニーが決まります。
 
 優先度を使用する代わりに、**ランキング式**&#x200B;を使用して、ジャーニー属性、プロファイル属性、またはAI モデルスコアに基づいてジャーニーのランキングを動的に調整することもできます。
 
@@ -46,7 +44,7 @@ ht-degree: 21%
 
 1. 数式名を指定し、必要に応じて説明を追加します。
 
-   ![名前フィールドと説明フィールドを含む数式の詳細ペイン &#x200B;](assets/journey-formula-details.png){width="80%"}
+   ![名前フィールドと説明フィールドを含む数式の詳細ペイン ](assets/journey-formula-details.png){width="80%"}
 
 
    >[!NOTE]
@@ -55,7 +53,7 @@ ht-degree: 21%
 
    <!--
     Selecting a formula entity specifies which type of item—such as journeys or other entities—the ranking formula will apply to. This determines the context in which the formula operates, allowing you to define rules that influence how those items are ranked.
-   -->
+-->
 
 1. オプションで、「**[!UICONTROL AI モデルを選択]**」をクリックして、ランキング式を作成するための参照として使用するモデルを設定します。 [詳細情報](journey-ai-models.md)
 
@@ -69,11 +67,11 @@ ht-degree: 21%
 
 1. **[!UICONTROL 基準1]** セクションで、次の操作を行って、ランキングスコアを適用するジャーニーを指定します。
 
-   * [&#x200B; ジャーニー属性](../building-journeys/journey-properties.md)を選択します（ジャーニー名、タグ、優先順位、その他のジャーニープロパティなど）。
+   * [ ジャーニー属性](../building-journeys/journey-properties.md)を選択します（ジャーニー名、タグ、優先順位、その他のジャーニープロパティなど）。
    * 論理演算子を選択します。
    * 一致する条件を追加 – 値を入力または選択するか、プロファイル属性を選択できます。
 
-   ジャーニー属性、演算子、一致する条件を持つ![条件1 セクション &#x200B;](assets/journey-formula-criterion-1.png){width="70%"}
+   ジャーニー属性、演算子、一致する条件を持つ![条件1 セクション ](assets/journey-formula-criterion-1.png){width="70%"}
 
 1. オプションで、追加の要素を指定して、条件が true になる一致条件を絞り込むことができます。
 
@@ -99,7 +97,7 @@ ht-degree: 21%
 
 1. すべての条件を定義したら、最後のフィールドで、上記の条件を満たさないすべてのジャーニーに割り当てられる式を作成できます。
 
-   条件を満たさないジャーニーの![式フィールド &#x200B;](assets/journey-formula-criteria-not-met.png){width="70%"}
+   条件を満たさないジャーニーの![式フィールド ](assets/journey-formula-criteria-not-met.png){width="70%"}
 
 1. 「**[!UICONTROL 作成]**」をクリックして、ランキング式を完成させます。
 
@@ -111,11 +109,11 @@ ht-degree: 21%
 
 +++例1：ジャーニーの優先度またはジャーニータグに基づくAI スコアの使用
 
-![&#x200B; ランキング式：マーケティングタグはジャーニーの優先度を使用します](assets/journey-formula-ex-1.png){width="60%"}
+![ ランキング式：マーケティングタグはジャーニーの優先度を使用します](assets/journey-formula-ex-1.png){width="60%"}
 
 ジャーニーに「マーケティング」タグがある場合、ランキングスコアはジャーニーの優先度です。
 
-![&#x200B; ランキング式：プロモーションタグはAI モデルスコアを使用します](assets/journey-formula-ex-2.png){width="60%"}
+![ ランキング式：プロモーションタグはAI モデルスコアを使用します](assets/journey-formula-ex-2.png){width="60%"}
 
 ジャーニーに「プロモーション」タグが付いている場合、ランキングスコアはAI モデルスコアです。
 
@@ -124,11 +122,11 @@ ht-degree: 21%
 +++例2：プロファイルステータス別にロイヤルティジャーニーを向上
 
 
-![&#x200B; ランキング式：ゴールド ステータスのロイヤルティタグでは、ジャーニーの優先度に5](assets/journey-formula-ex-3.png){width="60%"}が加算されます
+![ ランキング式：ゴールド ステータスのロイヤルティタグでは、ジャーニーの優先度に5](assets/journey-formula-ex-3.png){width="60%"}が加算されます
 
 ジャーニーに「ロイヤルティ」タグがあり、プロファイルのロイヤルティステータスが「ゴールド」の場合、使用されるランキングスコアは、ジャーニーの優先度に5を加えたものです。
 
-![&#x200B; ランキング式：シルバーのステータスを持つロイヤルティタグでは、ジャーニーの優先度に2](assets/journey-formula-ex-4.png){width="60%"}が加算されます
+![ ランキング式：シルバーのステータスを持つロイヤルティタグでは、ジャーニーの優先度に2](assets/journey-formula-ex-4.png){width="60%"}が加算されます
 
 ジャーニーに「ロイヤルティ」タグがあり、プロファイルのロイヤルティステータスがシルバーの場合、ランキングスコアはジャーニーの優先度に2を加えたものになります。
 
@@ -160,13 +158,13 @@ ht-degree: 21%
 
 1. **[!UICONTROL ドメイン]** ジャーニーを選択してください。
 
-   ![ジャーニードメインを選択したルールセットプロパティ &#x200B;](assets/journey-formula-rule-set-journey.png){width="60%"}
+   ![ジャーニードメインを選択したルールセットプロパティ ](assets/journey-formula-rule-set-journey.png){width="60%"}
 
 1. ルールセットプロパティで、**[!UICONTROL ランキング方法]**&#x200B;を&#x200B;**[!UICONTROL 式]**&#x200B;に設定します（デフォルトの&#x200B;**[!UICONTROL 優先度]**&#x200B;の代わりに）。
 
 1. ドロップダウンリストから作成したランキング式を選択します。
 
-   ![&#x200B; ドロップダウンリストから選択されたランキング式を含むルールセット &#x200B;](assets/journey-rule-set-formula.png){width="60%"}
+   ![ ドロップダウンリストから選択されたランキング式を含むルールセット ](assets/journey-rule-set-formula.png){width="60%"}
 
 1. ルールセットに追加するジャーニーキャッピングルールを作成します。 [詳細情報](journey-capping.md#create-rule)
 
@@ -190,7 +188,7 @@ ht-degree: 21%
 
 このルールセットを使用するすべてのジャーニーは、キャップが適用されたときに、選択した数式でランク付けされます。
 
-ルールセットとランキング式のパフォーマンスを監視するには、概要レポートの「[ジャーニーのキャッピングと競合](../reports/channel-report-cja.md#rule-sets)」セクションを参照してください。 データレイクレベルで破棄を調査し、上限（`CAP_REACHED`）または優先度が低（`LOWER_PRIORITY`）であるためにプロファイルが除外されたかどうかを特定するには、[このセクション &#x200B;](../reports/query-examples.md#business-rules-queries)で利用可能なクエリを使用します。
+ルールセットとランキング式のパフォーマンスを監視するには、概要レポートの「[ジャーニーのキャッピングと競合](../reports/channel-report-cja.md#rule-sets)」セクションを参照してください。 データレイクレベルで破棄を調査し、上限（`CAP_REACHED`）または優先度が低（`LOWER_PRIORITY`）であるためにプロファイルが除外されたかどうかを特定するには、[このセクション ](../reports/query-examples.md#business-rules-queries)で利用可能なクエリを使用します。
 
 <!--
 ## Reporting {#reporting}

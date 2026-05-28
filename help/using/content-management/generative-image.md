@@ -9,12 +9,11 @@ role: User
 level: Beginner
 exl-id: f0585411-c862-45f2-9a10-d8a72497c533
 feature_v2: []
-subfeature_v2:
-  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+subfeature_v2: id: d6e0d39b-5df3-4c72-8263-fd834397ee97
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 1511
-ht-degree: 93%
+ht-degree: 92%
 
 ---
 
@@ -22,7 +21,7 @@ ht-degree: 93%
 
 >[!IMPORTANT]
 >
->この機能の使用を開始する前に、関連する[ガードレールと制限](gs-generative.md#generative-guardrails)のトピックに目を通してください。
+>この機能を使用する前に、関連する[ ガードレールと制限](gs-generative.md#generative-guardrails)をお読みください。
 ></br>
 >
 >Journey Optimizer で AI アシスタントを使用する前に、[ユーザー契約](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)に同意する必要があります。 詳しくは、アドビ担当者にお問い合わせください。

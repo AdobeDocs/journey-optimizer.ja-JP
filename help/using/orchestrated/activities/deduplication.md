@@ -6,14 +6,10 @@ description: 重複排除 - 重複アクティビティの使用方法につい�
 exl-id: 4aa79448-f75a-48d5-8819-f4cb4baad5c7
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/JyOhHRf04YYgLLtThIu6oK68UGmztfgiKhXME-cYJ6c
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: b423a773-0a58-4a77-b65d-3dd4ae6ef841
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 614
 ht-degree: 100%

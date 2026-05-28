@@ -10,27 +10,16 @@ level: Beginner
 mini-toc-levels: 1
 exl-id: 6e291ce3-f324-4e5d-975b-5229dea4d581
 TQID: https://experienceleague.adobe.com/lACM3Joa-M9aAfD0YOX4jOndjrcoiLMDAEBdFxgjt8o
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebbid: d6e0d39b-5df3-4c72-8263-fd834397ee97id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 988
-ht-degree: 100%
+source-wordcount: 977
+ht-degree: 98%
 
 ---
 
@@ -139,7 +128,7 @@ Adobe Journey Optimizer の AI アシスタントにアクセスするには、�
 
 ### コンテンツの品質、プロンプト、フィードバック
 
-* 生成されるコンテンツの品質は、定義したマーケティング目標／プロンプトに強く影響されます。 生成 AI モデルが正確に解釈できるように、明確に定義されたプロンプトを使用します。 
+* 生成されたコンテンツの品質は、定義したマーケティング目標/プロンプトに強く影響されます。生成AI モデルに対して明確に定義されたプロンプトを使用し、正確に解釈します。 
 * 生成 AI コンテンツは必ずしも正確ではない可能性があります。エンジニアがモデルを改良できるよう、フィードバックをお寄せください。
 * バリアントを選択する際は、サムアップ、サムダウンまたはフラグのアイコンを使用して、問題のある出力を報告する必要があります。
 

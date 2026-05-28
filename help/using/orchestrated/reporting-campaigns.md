@@ -6,19 +6,14 @@ description: Adobe Journey Optimizer を使用して調整されたキャンペ�
 exl-id: 8cb569a2-a4a0-45a5-b7f9-f5a591e44335
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/CBzmimp3EJmRg1Padmfgpvw6cG4bsoOIwCDgIk-n1A4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
-source-wordcount: 191
-ht-degree: 98%
+source-wordcount: 151
+ht-degree: 67%
 
 ---
 
@@ -35,14 +30,14 @@ ht-degree: 98%
     <tr>
       <td><a href="../reports/live-report.md"><img alt="ライブレポート" src="assets/last-24hours.png"></a></td>
       <td>
-        <b>ライブレポート</b>を使用し、ビルトインダッシュボードで、調整されたキャンペーンの影響とパフォーマンスをリアルタイムで測定および視覚化します。 調整されたキャンペーンを<b>過去 24 時間のレポートを表示</b>メニューから実行するとすぐに、<b>ライブレポート</b>でデータを入手できます。 ライブレポートについて詳しくは、<a href="../reports/live-report.md">この節</a>を参照してください。
+        <b> ライブレポート </b>を使用して、オーケストレーションされたキャンペーンの影響とパフォーマンスをリアルタイムで測定し、組み込みのダッシュボードで視覚化します。オーケストレーションされたキャンペーンが<b>過去24時間レポートを表示</b> メニューから実行されると、データは<b> ライブレポート </b>で利用できるようになります。ライブレポート <a href="../reports/live-report.md">について詳しくは、この節</a>を参照してください。
       </td>
         </br>
     </tr>
     <tr style="background-color: #FFFFFF;">
       <td><a href="../reports/report-gs-cja.md"><img alt="全期間のレポート" src="assets/all-time-report.png"></a></td>
       <td>
-        <b>全期間のレポート</b>は Customer Journey Analytics 機能と完全に統合されています。これにより、両方のプラットフォームをまたいでレポートが標準化され、データの一貫性と信頼性が向上します。 全期間のレポートについて詳しくは、<a href="../reports/report-gs-cja.md">この節</a>を参照してください。
+        <b>すべての時間レポート </b>は、Customer Journey Analytics機能と完全に統合されており、両方のプラットフォームでレポートを標準化し、データの一貫性と信頼性を向上させます。すべての時間レポート <a href="../reports/report-gs-cja.md">について詳しくは、この節</a>を参照してください。
       </td>
     </tr>
   </tbody>

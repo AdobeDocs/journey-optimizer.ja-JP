@@ -8,13 +8,9 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: bae533c5-1bfc-48bf-9f8d-1145383c040c
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 6916
 ht-degree: 99%
@@ -43,7 +39,7 @@ ht-degree: 99%
 <tr>
 <td>
 <p>Journey Optimizer では、テンプレート全体をロックするか、特定の構造とコンポーネントをロックして、メールテンプレート内のコンテンツをロックできるようになりました。 これにより、意図しない編集や削除を防ぎ、テンプレートのカスタマイズをより細かく制御して、メールキャンペーンの効率と信頼性を向上させることができます。</p>
-<p>詳しくは、 <a href="../content-management/content-locking.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../content-management/content-locking.md">詳細なドキュメント</a>を参照してください。</p>
 <img src="assets/do-not-localize/gif-content-locking.gif">
 <p>公開日：2024年10月24日（PT）以降</p>
 </td>
@@ -61,7 +57,7 @@ ht-degree: 99%
 <tr>
 <td>
 <p>コードベースのエクスペリエンスチャネルでは、Adobe Journey Optimizer を使用して、あらゆるインバウンドプロパティに対して高度なパーソナライゼーションとテストを行うことができ、web アプリ、モバイルアプリ、デスクトップアプリ、ビデオコンソール、TV 接続デバイス、スマート TV、キオスク、ATM、IoT デバイスなど、多様なタッチポイントに合わせたエクスペリエンスをシームレスに配信できます。 コードベースのエクスペリエンスチャネルがジャーニーキャンバスで使用できるようになりました。</p>
-<p>詳しくは、 <a href="../code-based/create-code-based.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../code-based/create-code-based.md">詳細なドキュメント</a>を参照してください。</p>
 <img src="../assets/do-not-localize/code-based-journey.gif"/>
 <p>公開日：2024年10月1日（PT）以降</p>
 </tr>
@@ -78,7 +74,7 @@ ht-degree: 99%
 <tr>
 <td>
 <p>Web チャネルを使用すると、Adobe Journey Optimizer では、インバウンド web ジャーニーを通じて顧客に提供する web エクスペリエンスをパーソナライズできます。 Web チャネルをジャーニーキャンバスで使用できるようになりました。</p>
-<p>詳しくは、 <a href="../web/create-web.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../web/create-web.md">詳細なドキュメント</a>を参照してください。</p>
 <img src="../assets/do-not-localize/web-journey.gif"/>
 <p>公開日：2024年10月1日（PT）以降</p>
 </tr>
@@ -140,9 +136,9 @@ ht-degree: 99%
 <tbody>
 <tr>
 <td>
-<p>メール設定の柔軟性と制御を高めるには、メールチャネル設定を作成する際に、動的なサブドメインとパーソナライズされたヘッダーパラメーターを定義できます。
+<p>メール設定の柔軟性と制御を高めるために、メールチャネル設定を作成する際に、動的なサブドメインとパーソナライズされたヘッダーパラメーターを定義できます。
 </p>
-<p>詳しくは、 <a href="../email/surface-personalization.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../email/surface-personalization.md">詳細ドキュメント</a>を参照してください。</p>
 <img src="assets/do-not-localize/surface-perso.gif"/>
 <p>公開日：2024年10月23日（PT）以降</p>
 </tr>
@@ -160,7 +156,7 @@ ht-degree: 99%
 <tr>
 <td>
 <p>承認ポリシーでは、Journey Optimizer 内で承認プロセスを設定できるようになりました。これにより、マーケティングチームは、キャンペーンとジャーニーが運用開始前に適切な関係者によってレビュー、およびサインオフされていると確かめられます。</p>
-<p>詳しくは、 <a href="../test-approve/gs-approval.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../test-approve/gs-approval.md">詳細なドキュメント</a>を参照してください。</p>
 <img src="assets/do-not-localize/approval.gif"/>
 <p>公開日：2024年10月22日（PT）以降</p>
 </td>
@@ -212,7 +208,7 @@ ht-degree: 99%
 <tr>
 <td>
 <p>1 つのキャンペーンまたはジャーニー内で複数の言語のコンテンツを簡単に作成できるようになりました。 この機能を使用すると、キャンペーンやジャーニーを編集する際に言語を切り替え、編集プロセス全体を効率化し、多言語コンテンツを効率的に管理する機能を向上させることができます。</p>
-<p>詳しくは、 <a href="../content-management/multilingual-gs.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../content-management/multilingual-gs.md">詳細なドキュメント</a>を参照してください。</p>
 <img src="assets/do-not-localize/multilingual.gif">
 </td>
 </tr>
@@ -231,7 +227,7 @@ ht-degree: 99%
 <td>
 <p>Journey Optimizer レポートは現在一般公開（GA）され、Customer Journey Analytics 機能との相互運用性が改善され、両方のプラットフォーム間でレポートが標準化され、データの一貫性と信頼性が向上します。 Journey Optimizer と Customer Journey Analytics のシームレスな統合により、パフォーマンス指標がより明確に表示され、ユーザーはより多くの情報に基づいて意思決定を行うことができます。</p>
 <p>一般公開では、シンプルな指標を作成する機能、オーディエンスを作成して公開する機能、インサイトビルダーを使用してアドホックな質問をする機能、主要な受信者にレポートを自動的にメールで送信するようにスケジュールする機能など、4 つの新機能が導入されています。</p>
-<p>詳しくは、 <a href="../reports/report-cja-manage.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../reports/report-cja-manage.md">詳細なドキュメント</a>を参照してください。</p>
 <img src="assets/do-not-localize/ajo-cja.gif">
 <p>重要：現在のレポートエクスペリエンスは、2025年1月に廃止されます。 この日以降、新しいレポートエクスペリエンスが標準となります。 スムーズに移行できるように、新機能を理解しておくことをお勧めします。 <a href="../reports/report-gs-cja.md">Journey Optimizer の新しいレポートインターフェイスの使用を開始する方法を学ぶ</a></p>
 <p>公開日：2024年10月16日（PT）以降</p>
@@ -252,7 +248,7 @@ ht-degree: 99%
 <td>
 <p>Journey Optimizer を使用すると、ファイルからアップロードされた、または手動で追加されたサンプル入力データを使用して、プレビューしメールの配達確認を送信することで、コンテンツの様々なバリアントをテストできるようになりました。 パーソナライズ機能のコンテンツで使用されるすべてのプロファイル属性は、システムによって自動的に検出され、テストで複数のバリアントを作成するのに使用できます。</p>
 <p>この機能は、現在、パブリックベータ版としてすべてのお客様がメール、SMS、プッシュ通知チャネルで使用できます。</p>
-<p>詳しくは、 <a href="../test-approve/simulate-sample-input.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../test-approve/simulate-sample-input.md">詳細なドキュメント</a>を参照してください。</p>
 <img src="assets/do-not-localize/gif-simulate.gif">
 </td>
 </tr>
@@ -380,7 +376,7 @@ ht-degree: 99%
 <td>
 <p>コンテンツカードは、Adobe Journey Optimizer の新しいデジタルメッセージ機能で、パーソナライズされた魅力的なコンテンツをモバイルアプリや web サイト内で直接配信します。 従来のプッシュ通知とは異なり、コンテンツカードはユーザーインターフェイスにシームレスに統合され、ユーザーのインタラクションとエクスペリエンスを向上させる、永続的で非割り込み型の更新を提供します。</p>
 <p>この機能により、マーケターは、関連性の高いリッチメディアコンテンツをユーザーに提示し、エンゲージメントを向上させ、ユーザージャーニーを中断することなく重要なメッセージを確実に確認できるようにします。</p>
-<p>詳しくは、 <a href="../../rp_landing_pages/content-card-landing-page.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../../rp_landing_pages/content-card-landing-page.md">詳細なドキュメント</a>を参照してください。</p>
 <img src="assets/do-not-localize/content-card.gif"/>
 </td>
 </tr>
@@ -398,7 +394,7 @@ ht-degree: 99%
 <td>
 <p>承認ポリシーでは、Journey Optimizer 内で承認プロセスを設定できるようになりました。これにより、マーケティングチームは、キャンペーンとジャーニーが運用開始前に適切な関係者によってレビュー、およびサインオフされていると確かめられます。</p>
 <p>承認ポリシーは現在、一連の組織でのみ使用できます（限定提供）。 アクセスするには、アドビ担当者にお問い合わせください。</p>
-<p>詳しくは、 <a href="../test-approve/gs-approval.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../test-approve/gs-approval.md">詳細なドキュメント</a>を参照してください。</p>
 <img src="assets/do-not-localize/approval.gif"/>
 </td>
 </tr>
@@ -451,7 +447,7 @@ ht-degree: 99%
 <td>
 <p>メッセージを作成してパーソナライズしたら、Journey Optimizer の AI アシスタントを使用して、コンテンツを次のレベルに引き上げます。 AI アシスタントを使用して、様々なメインタイトルや画像を試すことで、メッセージの影響を最適化できるようになりました。 各バリアントは独自の処理として管理され、より効果的にクリックを生成するタイトルを測定および比較します。</p>
 <p><a href="https://experienceleague.adobe.com/ja/apps/journey-optimizer/ai-assistant-content-accelerator">ライブ機能プレビュー</a>で実際のエクスペリエンスに浸ってください。このプレビューは、その機能を直接探索し、その機能を完全に理解できるように設計されています。</a></p>
-<p>詳しくは、 <a href="../content-management/gs-generative.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../content-management/gs-generative.md">詳細なドキュメント</a>を参照してください。</p>
 <img src="assets/do-not-localize/ai-content.gif"/>
 <p>公開日：2024年9月12日（PT）</p>
 </td>
@@ -469,7 +465,7 @@ ht-degree: 99%
 <tr>
 <td>
 <p>ガイド付きチャネル設定を使用すると、統合エクスペリエンスでチャネル設定を自動化および検証し、Journey Optimizer の使用を開始するプロセスを高速化できます。 この新しいガイド付き設定により、迅速なチャネル設定が効率化され、必要なすべてのリソースがすぐにインストールされ、Experience Platform、Journey Optimizer およびデータ収集内で機能するようになります。 これにより、マーケティング、製品、データエンジニアリングの各チームは、キャンペーンとジャーニーの作成をすぐに開始できます。</p>
-<p>詳しくは、 <a href="../configuration/set-mobile-config.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../configuration/set-mobile-config.md">詳細なドキュメント</a>を参照してください。</p>
 <img src="assets/do-not-localize/guided-setup.gif"/>
 <p>リリース日：2024年9月3日（PT）</p>
 </br>
@@ -680,7 +676,7 @@ ht-degree: 99%
 <td>
 <p>デフォルトのプロバイダーである Sinch、Infobip、Twilio に加えて、Journey Optimizer 内で追加の SMS プロバイダーを設定できるようになりました。</p>
 <img src="assets/do-not-localize/byo_sms.gif"/>
-<p>詳しくは、 <a href="../mobile/mobile-configuration-custom.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../mobile/mobile-configuration-custom.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -731,7 +727,7 @@ ht-degree: 99%
 <td>
 <p>フラグメントをキャンペーンまたはジャーニーに追加する際に編集できる、フラグメント内に特定のフィールドを定義できるようになりました。 これにより、使用時にコンテンツ部分を調整でき、コンテキスト固有の詳細でデフォルト値を柔軟に上書きできます。</p>
 <img src="../content-management/assets/do-not-localize/gif-fragments.gif"/>
-<p>詳しくは、 <a href="../content-management/customizable-fragments.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../content-management/customizable-fragments.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -749,7 +745,7 @@ ht-degree: 99%
 <td>
 <p>Journey Optimizer レポートでは、Customer Journey Analytics 機能との相互運用性が改善され、両方のプラットフォーム間でレポートが標準化され、データの一貫性と信頼性が向上します。 Journey Optimizer と Customer Journey Analytics のシームレスな統合により、パフォーマンス指標がより明確に表示され、ユーザーはより多くの情報に基づいて意思決定を行うことができます。</p>
 <img src="assets/do-not-localize/ajo-cja.gif"/>
-<p>詳しくは、 <a href="../reports/report-gs-cja.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../reports/report-gs-cja.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -910,7 +906,7 @@ table>
 <p>これらの決定項目は、Journey Optimizer キャンペーン内でアクセス可能になった新しいコードベースのエクスペリエンスチャネルを通じて、幅広いインバウンド設定にシームレスに統合されます。 エクスペリエンス決定ポリシーは、コードベースのエクスペリエンスキャンペーンでのみ使用できます。</p>
 <p>エクスペリエンス決定は、現在一連の組織でのみ利用可能です（限定提供）。 アクセスするには、アドビ担当者にお問い合わせください。</p>
 <img src="assets/do-not-localize/gif-exd.gif"/>
-<p>詳しくは、 <a href="../experience-decisioning/gs-experience-decisioning.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../experience-decisioning/gs-experience-decisioning.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -1073,7 +1069,7 @@ table>
 <table>
 <thead>
 <tr>
-<th><strong>ジャーニーデザイナーとライブレポートの改善</strong><br/></th>
+<th><strong>ジャーニー designer とライブレポートの改善</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -1226,7 +1222,7 @@ table>
 <tr>
 <td>
 <p>新しい web アプリ内メッセージ機能を使用して、モーダルオーバーレイメッセージを通じてパーソナライズされたコンテンツを web サイトに直接表示できるようになりました。 この機能により、web 訪問者と効果的に関わり、ユーザーインタラクション、定着率およびコンバージョン率を向上させることができます。<br/><br/></p>
-<p>詳しくは、 <a href="../in-app/create-in-app-web.md">詳細なドキュメント</a>を参照してください。<br></br></p>
+<p>詳しくは、<a href="../in-app/create-in-app-web.md">詳細なドキュメント</a>を参照してください。<br></br></p>
 <img src="assets/do-not-localize/web_inapp.gif">
 </tr>
 </tbody>
@@ -1314,7 +1310,7 @@ table>
 <td>
 <p>Journey Optimizer は、DMARC 認証テクノロジーをサポートするようになりました。</p>
 <p>2024年2月1日（PT）以降、Google と Yahoo! は、 メールの送信に使用するドメインの DMARC レコードを要求します。 Journey Optimizer でアドビにデリゲートしたすべてのサブドメインや、デリゲート中のすべてのサブドメインに対して、DMARC レコードが設定されていることを確認してください。</p>
-<p>詳しくは、 <a href="../configuration/dmarc-record-update.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../configuration/dmarc-record-update.md">詳細なドキュメント</a>を参照してください。</p>
 <br/><img src="assets/do-not-localize/dmarc.gif"/>
 </tr>
 </tbody>

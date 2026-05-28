@@ -8,11 +8,9 @@ topic: Building campaigns
 role: User
 level: Intermediate
 version: Campaign Orchestration
-feature_v2:
-  - id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 518
 ht-degree: 23%
@@ -54,17 +52,17 @@ ht-degree: 23%
 
 1. **[!UICONTROL 増分クエリ]** アクティビティをオーケストレーション済みキャンペーンにドロップします。
 
-1. **[!UICONTROL オーディエンス]**&#x200B;で、**[!UICONTROL ターゲティングディメンション]**&#x200B;を選択し（例：受信者、購読者）、**[!UICONTROL 続行]**&#x200B;をクリックします。 詳しくは、[&#x200B; ディメンションのターゲティング &#x200B;](../target-dimension.md)を参照してください。
+1. **[!UICONTROL オーディエンス]**&#x200B;で、**[!UICONTROL ターゲティングディメンション]**&#x200B;を選択し（例：受信者、購読者）、**[!UICONTROL 続行]**&#x200B;をクリックします。 詳しくは、[ ディメンションのターゲティング ](../target-dimension.md)を参照してください。
 
    ![](../assets/incremental-query.png)
 
-1. 「**[!UICONTROL 条件を追加]**」をクリックして、クエリを定義します。 [&#x200B; ルールビルダー](../orchestrated-rule-builder.md)の使用方法を説明します。
+1. 「**[!UICONTROL 条件を追加]**」をクリックして、クエリを定義します。 [ ルールビルダー](../orchestrated-rule-builder.md)の使用方法を説明します。
 
    ![](../assets/incremental-query-2.png)
 
 1. 「**[!UICONTROL 処理済みデータ]**」で、日付フィールドへの&#x200B;**[!UICONTROL パス]**&#x200B;を選択します。 属性には、**日付時刻**&#x200B;形式を使用する必要があります。 各実行は、最後の実行後の日付の行のみを返します。
 
-   ![&#x200B; オーケストレーションされたキャンペーンキャンバスでの増分クエリアクティビティ設定](../assets/incremental-query-3.png)
+   ![ オーケストレーションされたキャンペーンキャンバスでの増分クエリアクティビティ設定](../assets/incremental-query-3.png)
 
 <!--
    * **[!UICONTROL Exclude results of previous execution]**: The activity maintains a list of records returned in prior runs. Each run excludes those records and returns only new ones. **[!UICONTROL History in days]** controls the retention period for that list. 0 indicates indefinite retention, no records are removed.
@@ -82,5 +80,5 @@ ht-degree: 23%
 * **[!UICONTROL 増分クエリ]**：ゴールド メンバーを選択します。 初回：現在のゴールドメンバー。 後の実行：前の実行以降にゴールドメンバーになったプロファイルのみ。
 * **[!UICONTROL メール配信]**: クエリで出力されたプロファイルにウェルカムメールを送信します。
 
-![&#x200B; オーケストレーションされたキャンペーンキャンバスでの増分クエリアクティビティ設定](../assets/incremental-query-example.png)
+![ オーケストレーションされたキャンペーンキャンバスでの増分クエリアクティビティ設定](../assets/incremental-query-example.png)
 

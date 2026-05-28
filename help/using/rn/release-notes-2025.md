@@ -8,15 +8,11 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: e42070c4cc1dde06786c4075b1e6e45e8c323c12
 workflow-type: tm+mt
-source-wordcount: 9308
+source-wordcount: 9272
 ht-degree: 99%
 
 ---
@@ -79,7 +75,7 @@ ht-degree: 99%
 <p>特定のデータセットに基づいて、ニーズに合わせてカスタマイズされたカスタムフォームを作成、デザイン、管理します。 その後、ランディングページでこれらのフォームを活用して、各フォームに定義されたデータセットに選択したプロファイル属性を追加できます。</p>
 <p>この機能は現在、米国およびオーストラリアのお客様を対象に限定提供されています。 アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
 <p><img src="assets/do-not-localize/forms.gif"/></p>
-<p>詳しくは、<a href="../landing-pages/lp-forms.md">詳細ドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../landing-pages/lp-forms.md">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2025年10月23日（PT）</p>
 </td>
 </tr>
@@ -242,7 +238,7 @@ table>
 <p>時間と労力を節約するために、Journey Optimizer では、専用の UI メニューから再利用可能なルールを作成し、キャンペーンやジャーニーの最適化コンテンツの一部として、またはジャーニーを最適化アクティビティのいずれかでターゲティングを作成する際に活用できるようになりました。</p>
 <p>ターゲティングルールは現在、限定提供（LA）です。 アクセス権を取得するには、アドビ担当者にお問い合わせください。 この機能は、決定アドオン機能を購入した組織のみが利用できます。 すべての顧客に段階的にロールアウトされる予定です。</p>
 <img src="assets/do-not-localize/targeting-rules.gif">
-<p>詳しくは、 <a href="../experience-decisioning/rules.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../experience-decisioning/rules.md">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2025年10月22日（PT）</p>
 </td>
 </tr>
@@ -281,7 +277,7 @@ table>
 <p>新しい「executionMetadata」ヘルパー関数がパーソナライゼーションエディターで使用できます。 これを使用すると、任意のネイティブアクションにコンテキスト情報を追加し、データセットにキャプチャして外部システムにエクスポートできます。</p>
 <p>この機能は、限定提供で使用できます。 アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
 <img src="assets/do-not-localize/execution-metadata.gif">
-<p>詳しくは、 <a href="../personalization/functions/helpers.md#execution-metadata">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../personalization/functions/helpers.md#execution-metadata">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2025年10月13日（PT）</p>
 </td>
 </tr>
@@ -322,7 +318,7 @@ table>
 </ul>
 <p>この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。</p>
 <p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
-<p>詳しくは、<a href="../email/pdf-attachments.md">詳細ドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../email/pdf-attachments.md">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2025年9月30日（PT）</p>
 </td>
 </tr>
@@ -535,7 +531,7 @@ You can now use AI models to optimize the best content in your email through the
 <p>このツールを使用すると、コミュニケーション、シーケンス、タイミングをテスト、調整、カスタマイズし、顧客に最も効果的にリーチできます。</p>
 <p>この機能は、限定提供で使用できます。 アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
 <p><img src="assets/do-not-localize/optimize.gif"/></p>
-<p>詳しくは、<a href="../building-journeys/optimize.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../building-journeys/optimize.md">詳細なドキュメント</a>を参照してください</p>
 <p>公開日：2025年9月4日（PT）</p>
 </td>
 </tr>
@@ -554,7 +550,7 @@ You can now use AI models to optimize the best content in your email through the
 <p>完全なデリゲーションと CNAME メソッドに加えて、新しいサブドメイン設定メソッドとして、カスタムデリゲーションメソッドが使用できるようになりました。これにより、メッセージの配信、レンダリング、トラッキングに必要な DNS のあらゆる側面を完全に制御および管理できます。</p>
 <p>この機能は、限定提供で使用できます。 アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
 <p><img src="assets/do-not-localize/custom-delegation.gif"/></p>
-<p>詳しくは、<a href="../configuration/delegate-custom-subdomain.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../configuration/delegate-custom-subdomain.md">詳細なドキュメント</a>を参照してください</p>
 <p>公開日：2025年9月4日（PT）</p>
 </td>
 </tr>
@@ -748,7 +744,7 @@ table>
 </ul>
 <p>この機能は、限定提供で使用できます。 アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
 <p><img src="assets/do-not-localize/action-activity.gif"/></p>
-<p>詳しくは、<a href="../building-journeys/journey-action.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../building-journeys/journey-action.md">詳細なドキュメント</a>を参照してください</p>
 </td>
 </tr>
 </tbody>
@@ -771,7 +767,7 @@ table>
 </ul>
 <p>この機能は、限定提供で使用できます。 アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
 <p><img src="assets/do-not-localize/pdf-attachments.gif"/></p>
-<p>詳しくは、<a href="../email/pdf-attachments.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../email/pdf-attachments.md">詳細なドキュメント</a>を参照してください</p>
 </td>
 </tr>
 </tbody>
@@ -981,7 +977,7 @@ Adobe Journey Optimizer では、人物ベースのプロファイルにリン�
 <p>独自のブランドを作成およびカスタマイズして、コミュニケーション全体で視覚的および言語的なアイデンティティを明確に定義できるようになりました。 ブランドのアラインメントスコアを使用すると、コンテンツがブランドのトーン、スタイル、ガイドラインをどの程度反映しているかに関するリアルタイムのフィードバックを受け取ることができ、送信するすべてのメッセージで一貫してブランドらしさを確保するのに役立ちます。</p>
 <p>この機能は、以前はベータ版でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。</p>
 <p><img src="assets/do-not-localize/brand-score.gif"/></p>
-<p>詳しくは、<a href="../content-management/brands.md">詳細ドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../content-management/brands.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -1029,7 +1025,7 @@ Adobe Journey Optimizer では、人物ベースのプロファイルにリン�
 <tbody>
 <tr>
 <td>
-<p>ジャーニーのドライランは、Adobe Journey Optimizer の特別なジャーニー公開モードで、ジャーニー実務担当者は実際の顧客に連絡したり、プロファイル情報を更新したりすることなく、実際の実稼動データを使用してジャーニーをテストできます。 この機能により、ジャーニー実務担当者は、ジャーニーをライブで公開する前に、ジャーニーのデザインとオーディエンスのターゲティングに自信を持つことができます。</p>
+<p>ジャーニーのドライランは、Adobe Journey Optimizer の特別なジャーニー公開モードで、ジャーニー実務担当者は実際の顧客に連絡したり、プロファイル情報を更新したりすることなく、実際の実稼動データを使用してジャーニーをテストできます。 この機能により、ジャーニー実務担当者は、ジャーニーをライブで公開する前に、ジャーニーのデザインとオーディエンスのターゲティングに自身を持つことができます。</p>
 <img src="assets/do-not-localize/DryRun.gif">
 <p>この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。</p>
 <p>詳しくは、<a href="../building-journeys/journey-dry-run.md">詳細なドキュメント</a>を参照してください。</p>
@@ -1084,7 +1080,7 @@ Journey Optimizer 製品リリースに関する&#x200B;**メールおよび製�
 
 * **キャンペーン**
 
-   * **キャンペーンでの複数のインバウンドアクション** - キャンペーンオーケストレーションを簡素化するために、1 つのキャンペーンで複数のインバウンドアクションを定義できるようになりました。 この機能により、複数のコードベースのエクスペリエンス、アプリ内メッセージ、コンテンツカード、web アクションを、各アクションに特定のコンテンツを含めて、同時に異なる場所に配信できます。
+   * **キャンペーン内の複数のインバウンドアクション** - キャンペーンオーケストレーションを簡素化するために、1つのキャンペーンで複数のインバウンドアクションを定義できるようになりました。この機能を使用すると、特定のコンテンツを含む複数のコードベースのエクスペリエンス、アプリ内メッセージ、コンテンツカード、またはweb アクションを、異なる場所に同時に配信できます。
      [詳細情報](../campaigns/campaign-action.md#multi-action)
 
    * **キャンペーンインベントリの再編成** - スケジュールキャンペーンと API トリガーキャンペーンが、キャンペーンインベントリの別々のタブに分割され、ナビゲーションと管理が容易になりました。
@@ -1178,7 +1174,7 @@ Journey Optimizer 製品リリースに関する&#x200B;**メールおよび製�
 <td>
 <p>JSON または HTML コンテンツテンプレートでは、特定の編集可能なフィールドを定義できるようになりました。これにより、技術ユーザー以外がコードを操作することなく、コードベースのエクスペリエンスチャネルオーサリング内のフォームビューでコンテンツを簡単に編集できます。<br />さらに、コードベースのエクスペリエンスコンテンツテンプレートを定義する際に、テンプレートに決定ポリシーを挿入できるようになり、再利用性と使いやすさが向上します。</p>
 <img src="assets/do-not-localize/form-fields.gif">
-<p>詳しくは、 <a href="../code-based/code-based-form-fields.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../code-based/code-based-form-fields.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -1228,7 +1224,7 @@ Journey Optimizer 製品リリースに関する&#x200B;**メールおよび製�
 <tbody>
 <tr>
 <td>
-<p>ジャーニーのドライランは、Adobe Journey Optimizer の特別なジャーニー公開モードで、ジャーニー実務担当者は実際の顧客に連絡したり、プロファイル情報を更新したりすることなく、実際の実稼動データを使用してジャーニーをテストできます。 この機能により、ジャーニー実務担当者は、ジャーニーをライブで公開する前に、ジャーニーのデザインとオーディエンスのターゲティングに自信を持つことができます。</p>
+<p>ジャーニーのドライランは、Adobe Journey Optimizer の特別なジャーニー公開モードで、ジャーニー実務担当者は実際の顧客に連絡したり、プロファイル情報を更新したりすることなく、実際の実稼動データを使用してジャーニーをテストできます。 この機能により、ジャーニー実務担当者は、ジャーニーをライブで公開する前に、ジャーニーのデザインとオーディエンスのターゲティングに自身を持つことができます。</p>
 <img src="assets/do-not-localize/DryRun.gif">
 <p>この機能は、一連の組織でのみ使用でき（限定提供）、今後のリリースでグローバルにロールアウトされる予定です。</p>
 <p>詳しくは、<a href="../building-journeys/journey-dry-run.md">詳細なドキュメント</a>を参照してください。</p>
@@ -1290,7 +1286,7 @@ Journey Optimizer 製品リリースに関する&#x200B;**メールおよび製�
 <li>トラブルシューティングの改善：クエリサービスで 2 つの新しいステップイベントフィールドが使用できるようになりました。これにより、プロファイルがジャーニーまたはキャンペーンから却下された理由を分析できます。</li>
 <li>レポートの強化：レポートには、ジャーニーまたはキャンペーンからプロファイルを除外した特定のルールが示されるようになり、透明性が向上し、実用的なインサイトが提供されます。</li></ul>
 <img src="assets/do-not-localize/gif-conflict.gif">
-<p>詳しくは、 <a href="../conflict-prioritization/gs-conflict-prioritization.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../conflict-prioritization/gs-conflict-prioritization.md">詳細なドキュメント</a>を参照してください。</p>
 <p>リリース日：2025年6月3日（PT）</p>
 </td>
 </tr>
@@ -1382,7 +1378,7 @@ li>Create offers by directly selecting an AEM Content Fragment.</li>
 </ul>
 </br>
 <img src="assets/do-not-localize/content-fragment.gif">
-<p>詳しくは、 <a href="../integrations/aem-fragments.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../integrations/aem-fragments.md">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2025年5月23日（PT）</p>
 </td>
 </tr>
@@ -1444,7 +1440,7 @@ li>Create offers by directly selecting an AEM Content Fragment.</li>
 <!--p>Previously available in beta, content variations simulation is now generally available (GA). It allows you to preview different variations of your content using sample input data uploaded from a CSV or JSON file or added manually. All the attributes used in your content for personalization are automatically detected by the system and can be used for your tests to create multiple variants.</p-->
 <p>この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できます。 この一般提供リリースでは、この機能に多言語コンテンツとコンテンツ実験のサポートが含まれるようになり、様々な言語や処理でのバリエーションをテストできるようになりました。 さらに、（プロファイル属性に加えて）コンテキスト属性もサポートされるようになり、より動的で状況に応じたコンテンツテストが可能になりました。</p>
 <img src="assets/do-not-localize/variants.gif">
-<p>詳しくは、 <a href="../test-approve/simulate-sample-input.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../test-approve/simulate-sample-input.md">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2025年5月23日（PT）</p>
 </td>
 </tr>
@@ -1463,7 +1459,7 @@ li>Create offers by directly selecting an AEM Content Fragment.</li>
 <p>バッチセグメント化完了後に毎日のジャーニー実行をトリガーできるようになりました。 このオプションは、すべてのお客様に対して毎日スケジュールされているジャーニーで使用できるようになりました。 これを使用すると、バッチセグメント化ジョブからのオーディエンスデータを待機する時間枠を最大 6 時間まで定義できます。これにより、ジャーニーは最新のデータで実行されるか、準備が整っていない場合はスキップされます。</p>
 <p>この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。</p>
 <img src="assets/do-not-localize/trigger-journeys.gif">
-<p>詳しくは、 <a href="../building-journeys/read-audience.md#schedule">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../building-journeys/read-audience.md#schedule">詳細なドキュメント</a>を参照してください。</p>
 <p>リリース日：2025年5月20日（PT）</p>
 </td>
 </tr>
@@ -1501,7 +1497,7 @@ li>Create offers by directly selecting an AEM Content Fragment.</li>
 <p>事前承認済みのテーマをすばやく適用して、すべてのメールにわたってブランドの一貫性を確保し、キャンペーン作成プロセスを高速化し、デザインチームへの依存を減らしながら高品質のメールを独自に作成できるようになりました。</p>
 <p>この機能は現在ベータ版で、ベータ版のお客様のみご利用いただけます。 ベータ版プログラムに参加するには、アドビ担当者にお問い合わせください。</p>
 <img src="assets/do-not-localize/themes.gif">
-<p>詳しくは、 <a href="../email/apply-email-themes.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../email/apply-email-themes.md">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2025年5月14日（PT）</p>
 </td>
 </tr>
@@ -1519,7 +1515,7 @@ li>Create offers by directly selecting an AEM Content Fragment.</li>
 <td>
 <p>新しく改善されたインターフェイスから条件を定義および組み合わせることで、特定の決定ランキング式を作成できるようになりました。 静的なオファーの優先度のみに依存するのではなく、ガイド付きインターフェイスを通じて、AI モデルスコア、オファーの優先度、プロファイル属性、オファー属性、コンテキストシグナルを組み合わせたカスタムランキング式を定義できます。</p>
 <img src="assets/do-not-localize/formula-builder.gif">
-<p>詳しくは、 <a href="../experience-decisioning/ranking/ranking-formulas.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../experience-decisioning/ranking/ranking-formulas.md">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2025年5月14日（PT）</p>
 </td>
 </tr>
@@ -1695,7 +1691,7 @@ table>
 <p>ジャーニー指標が使用可能になり、ビジネスの主要指標をまたいでアクティビティの影響を測定し、パフォーマンスに関するより明確なインサイトを得ることができるようになりました。</p>
 </br>
 <img src="assets/do-not-localize/success-metric.gif"/>
-<p>詳しくは、 <a href="../building-journeys/success-metrics.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../building-journeys/success-metrics.md">詳細なドキュメント</a>を参照してください。</p>
 <p>公開日：2025年4月9日（PT）</p>
 </td>
 </tr>
@@ -1734,7 +1730,7 @@ table>
 <p>Adobe Journey Optimizer は Adobe Express と統合され、アセットをジャーニーオーケストレーションとシームレスに接続できるようになりました。 この統合により、キャンペーン全体でパーソナライズされたコンテンツをデザインおよびデプロイするプロセスが簡素化されます。 </p>
 <p>この統合は、現在、Healthcare Shield または Privacy and Security Shield では使用できません。</p>
 <img src="assets/do-not-localize/express_resize.gif">
-<p>詳しくは、 <a href="../integrations/express.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../integrations/express.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -1750,7 +1746,7 @@ table>
 <tr>
 <td>
 <p>毎日スケジュールされているジャーニーの場合、新しいオプションを使用すると、バッチセグメント化ジョブからのオーディエンスデータを待機する時間枠を最大 6 時間まで定義できます。これにより、ジャーニーは最新のデータで実行されるか、準備が整っていない場合はスキップされます。 「バッチオーディエンス評価の後にトリガー」オプションは、一連の組織でのみ使用できます（限定提供）。 アクセスするには、アドビ担当者にお問い合わせください。</p>
-<p>詳しくは、 <a href="../building-journeys/read-audience.md#schedule">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../building-journeys/read-audience.md#schedule">詳細なドキュメント</a>を参照してください。</p>
 <img src="assets/do-not-localize/trigger-journeys.gif">
 </td>
 </tr>
@@ -1780,7 +1776,7 @@ table>
 <table>
 <thead>
 <tr>
-<th><strong>ブランド整合性スコア（ベータ版）</strong><br/></th>
+<th><strong>ブランド一致スコア (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -1958,7 +1954,7 @@ table>
 <tbody>
 <tr>
 <td>
-<p>Dynamic Media アセットが Journey Optimizer で直接使用可能になり、アクセスできるようになりました。 この統合により、次のことを実行できます。
+<p>ダイナミックメディアアセットが、Journey Optimizerで直接利用できるようになりました。この統合により、次のことが可能になります。
 <ul>
 <li>リアルタイム更新でアセットを一元管理</li>
 <li>幅や高さなどのアセット設定を即座に変更</li>
@@ -1985,7 +1981,7 @@ table>
 <td>
 <p>マーケティング効率を高め、ブランドの一貫性を維持するために、パフォーマンスマーケティングエクスペリエンス用の GenStudio を Journey Optimizer とシームレスに統合できるようになりました。 これにより、GenStudio の AI を活用したコンテンツ作成と Journey Optimizer の高度なオーケストレーション機能を活用できるようになります。<p>
 <p>Journey Optimizer での GenStudio 統合は、現在、Healthcare Shield またはプライバシーとセキュリティシールド（限定提供）では使用できません。</p>
-<p>詳しくは、 <a href="../integrations/genstudio.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../integrations/genstudio.md">詳細なドキュメント</a>を参照してください。</p>
 <img src="assets/do-not-localize/genstudio.gif"/>
 </td>
 </tr>
@@ -2003,7 +1999,7 @@ table>
 <td>
 <p>以前は一連の組織（LA）に対して提供されていましたが、柔軟なオーディエンス評価はすべてのユーザー（GA）対して提供されるようになりました。 この機能を使用すると、選択したオーディエンスに対してオンデマンドでセグメント化ジョブを実行できるので、Journey Optimizer のジャーニーやキャンペーンにオーディエンスをターゲティングする前に、常に最新のオーディエンスデータを確保できます。</p>
 <img src="assets/do-not-localize/flexible-audience.gif">
-<p>詳しくは、<a href="../audience/creating-a-segment-definition.md#flexible">詳細ドキュメント</a>を参照してください。</p>
+<p>詳しくは、 <a href="../audience/creating-a-segment-definition.md#flexible">詳細なドキュメント</a>を参照してください。</p>
 </tr>
 </tbody>
 </table>
@@ -2121,7 +2117,7 @@ You can now choose to have your emails relayed to your SMTP servers instead of b
 <td>
 <p>AI アシスタントを使用して、完全なページデザイン、パーソナライズされたテキスト、カスタマイズされたビジュアルなど、ランディングページ用の魅力的なコンテンツを作成できるようになりました。</p>
 <img src="assets/do-not-localize/ai-lp.gif">
-<p>詳しくは、 <a href="../content-management/generative-full-content.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../content-management/generative-full-content.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
@@ -2173,7 +2169,7 @@ You can now choose to have your emails relayed to your SMTP servers instead of b
 <td>
 <p>柔軟なオーディエンス評価を使用すると、選択したオーディエンスに対してオンデマンドでセグメント化ジョブを実行できるので、Journey Optimizer のジャーニーやキャンペーンにオーディエンスをターゲティングする前に、常に最新のオーディエンスデータを確保できます。</p>
 <img src="assets/do-not-localize/flexible-audience.gif">
-<p>詳しくは、 <a href="../audience/creating-a-segment-definition.md#flexible">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../audience/creating-a-segment-definition.md#flexible">詳細なドキュメント</a>を参照してください。</p>
 <p>この機能は、一連の組織でのみ使用できます（限定提供）。 アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
 <p>リリース日：2025年1月28日（PT）</p>
 </tr>
