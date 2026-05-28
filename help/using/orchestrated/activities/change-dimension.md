@@ -6,9 +6,12 @@ description: ディメンションの変更アクティビティの使用方法�
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/yN2RlYom4xpdiG0G8pt3U4MeY0C1JjDudDqYg-HPv1w
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
-subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
+subfeature_v2:
+  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 336

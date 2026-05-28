@@ -9,7 +9,9 @@ role: User
 level: Intermediate
 mini-toc-levels: 1
 feature_v2: []
-subfeature_v2: id: d6e0d39b-5df3-4c72-8263-fd834397ee97id: c41e8697-e629-4c38-96b3-564faaa17acf
+subfeature_v2:
+  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
+  - id: c41e8697-e629-4c38-96b3-564faaa17acf
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 1082
@@ -21,25 +23,25 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->この機能を使用する前に、関連する[ ガードレールと制限](gs-generative.md#generative-guardrails)をお読みください。
+>この機能を使用する前に、関連する[&#x200B; ガードレールと制限](gs-generative.md#generative-guardrails)をお読みください。
 ></br>
 >
 >Journey Optimizer で AI アシスタントを使用する前に、[ユーザー契約](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)に同意する必要があります。 詳しくは、アドビ担当者にお問い合わせください。
 
 ## 概要 {#where-available}
 
-[!UICONTROL AI アシスタント ]は、平易な言語から新しいパーソナライゼーションを生成し、既存の式の機能を説明し、選択したコードの問題を修正するのに役立ちます。これにより、構文や手動でのフィールド検索に費やす時間を減らすことができます。 選択範囲を繰り返したり、会話の他の変更を求めたりすることもできます。 次の2つの方法で使用できます。
+[!UICONTROL AI アシスタント &#x200B;]は、平易な言語から新しいパーソナライゼーションを生成し、既存の式の機能を説明し、選択したコードの問題を修正するのに役立ちます。これにより、構文や手動でのフィールド検索に費やす時間を減らすことができます。 選択範囲を繰り返したり、会話の他の変更を求めたりすることもできます。 次の2つの方法で使用できます。
 
-* **[!UICONTROL Personalization Editor]** — チャネル（件名、本文、その他のフィールドが開いている場合）でエディターを使用できる場所。 これが、AIを活用したパーソナライゼーションの一般的な道筋です。 エディターを開く場所と方法については、[ パーソナライゼーションを追加](../personalization/personalization-build-expressions.md#where)を参照してください。
-* **電子メールDesignerツールバー** – 電子メールDesignerで電子メールを作成する場合、コンポーネントを選択し、コンテキストツールバーの&#x200B;**[!UICONTROL 式を追加]**&#x200B;を使用して、最初に完全なエディターを開かずにツールボックスでアシスタントを開きます。 このエントリポイントは、メール作成以外では利用できません。 「[ メール Designerから生成](#generate-email-designer)」を参照してください。
+* **[!UICONTROL Personalization Editor]** — チャネル（件名、本文、その他のフィールドが開いている場合）でエディターを使用できる場所。 これが、AIを活用したパーソナライゼーションの一般的な道筋です。 エディターを開く場所と方法については、[&#x200B; パーソナライゼーションを追加](../personalization/personalization-build-expressions.md#where)を参照してください。
+* **電子メールDesignerツールバー** – 電子メールDesignerで電子メールを作成する場合、コンポーネントを選択し、コンテキストツールバーの&#x200B;**[!UICONTROL 式を追加]**&#x200B;を使用して、最初に完全なエディターを開かずにツールボックスでアシスタントを開きます。 このエントリポイントは、メール作成以外では利用できません。 「[&#x200B; メール Designerから生成](#generate-email-designer)」を参照してください。
 
-より広範なAI アシスタントの設定と言語については、[AI アシスタントの基本を学ぶ](gs-generative.md)を参照してください。 パーソナライゼーションの概念については、[ パーソナライゼーションの基本を学ぶ](../personalization/personalize.md)を参照してください。 プロンプトのアイデアについては、[AI プロンプトのベストプラクティス ](ai-assistant-prompting-guide.md)を参照してください。
+より広範なAI アシスタントの設定と言語については、[AI アシスタントの基本を学ぶ](gs-generative.md)を参照してください。 パーソナライゼーションの概念については、[&#x200B; パーソナライゼーションの基本を学ぶ](../personalization/personalize.md)を参照してください。 プロンプトのアイデアについては、[AI プロンプトのベストプラクティス &#x200B;](ai-assistant-prompting-guide.md)を参照してください。
 
 キャンペーンまたはジャーニーのコンテキストに応じて、アシスタントはデータを操作し、既に公開されている[!UICONTROL Personalization Editor]を作成できます（プロファイル属性、セグメントメンバーシップ、ヘルパー関数、関連するパーソナライゼーションソースなど）。
 
 >[!NOTE]
 >
->アシスタントは、[!UICONTROL AI アシスタント ]がそのセッションで開いている間のみ、プロンプトのコンテキストを保持します。 アシスタントまたはエディターを閉じると、会話は消去されます。次回アシスタントを開くときに、新しい会話を開始します。
+>アシスタントは、[!UICONTROL AI アシスタント &#x200B;]がそのセッションで開いている間のみ、プロンプトのコンテキストを保持します。 アシスタントまたはエディターを閉じると、会話は消去されます。次回アシスタントを開くときに、新しい会話を開始します。
 
 ## パーソナライゼーション式の生成 {#generate}
 
@@ -87,7 +89,7 @@ ht-degree: 4%
 
 1. パーソナライゼーション式に出力を実装するには、**[!UICONTROL 適用]**&#x200B;をクリックします。 アシスタント出力は、パーソナライゼーションエディターのカーソル位置に挿入されます。 既にあるコードを置き換えるには、まずエディターでそのコードを選択し、次に&#x200B;**[!UICONTROL AI アシスタントを使用した編集]**&#x200B;を使用します（[既存のコードの編集、修正、説明](#edit-existing)を参照）。
 
-   ![ コピーアイコン ](../orchestrated/assets/do-not-localize/activity-copy.svg) アイコンを使用して、出力をコピーし、必要な場所に貼り付けることもできます。
+   ![&#x200B; コピーアイコン &#x200B;](../orchestrated/assets/do-not-localize/activity-copy.svg) アイコンを使用して、出力をコピーし、必要な場所に貼り付けることもできます。
 
 ## 既存のコードの編集、修正、説明 {#edit-existing}
 
@@ -134,6 +136,6 @@ ht-degree: 4%
    * 1つのサンプル値で式の出力を検証します。「**[!UICONTROL プレビュー]**」タブを使用します。
    * 同じプロンプトから別の提案を生成する – **[!UICONTROL 再生成]**&#x200B;を使用します。
    * ディスカッションをクリアして最初からやり直す – **[!UICONTROL リセット]**&#x200B;を使用します。
-   * フルエディターでエクスプレッションを調整します。![編集アイコン ](assets/do-not-localize/Smock_Edit_18_N.svg "編集") アイコンをクリックして、**[!UICONTROL Personalization エディター]**&#x200B;を開きます。
+   * フルエディターでエクスプレッションを調整します。![編集アイコン &#x200B;](assets/do-not-localize/Smock_Edit_18_N.svg "編集") アイコンをクリックして、**[!UICONTROL Personalization エディター]**&#x200B;を開きます。
 
 1. 結果に問題がなければ、**[!UICONTROL 挿入]**&#x200B;をクリックして式をコンテンツに追加します。

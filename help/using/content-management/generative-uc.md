@@ -9,12 +9,24 @@ role: User
 level: Beginner
 exl-id: 958ad2bb-b62e-431d-8ad6-7b294cbba544
 TQID: https://experienceleague.adobe.com/VAyIDrwFJtWtOd0h8nr9LK5F21Oe9wIWwvV-zFvCHtM
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-subfeature_v2: id: f29a52db-c90c-4345-902e-b586d1406d8did: fb9a80eb-bebc-492f-a0e9-584595621ebbid: d6e0d39b-5df3-4c72-8263-fd834397ee97
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
+subfeature_v2:
+  - id: f29a52db-c90c-4345-902e-b586d1406d8d
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 1287
@@ -150,7 +162,7 @@ ht-degree: 52%
 
 ## 生成に参照コンテンツを使用
 
-![参照コンテンツを使用してコンテンツを生成するAI アシスタントのアニメーションデモ ](assets/do-not-localize/gen-url.gif)
+![参照コンテンツを使用してコンテンツを生成するAI アシスタントのアニメーションデモ &#x200B;](assets/do-not-localize/gen-url.gif)
 
 AI アシスタントに&#x200B;**参照コンテンツ**、web ページ、またはアップロードされたファイルを追加することで、より多くのコンテキストを提供できるため、生成されたコピーと提案はソース素材に近い状態で維持されます。
 
@@ -162,7 +174,7 @@ AI アシスタントに&#x200B;**参照コンテンツ**、web ページ、ま�
 
 1. **[!UICONTROL 参照コンテンツ]**&#x200B;に、ページ URLと、それを識別する名前を入力します。
 
-1. 「![ アップロードアイコン ](assets/do-not-localize/Smock_UploadToCloudOutline_18_N.svg)」をクリックしてページを取得し、生成する参照コンテンツとして追加します。
+1. 「![&#x200B; アップロードアイコン &#x200B;](assets/do-not-localize/Smock_UploadToCloudOutline_18_N.svg)」をクリックしてページを取得し、生成する参照コンテンツとして追加します。
 
 1. 代わりにファイルを使用するには、「**[!UICONTROL ファイルをアップロード」オプション]**&#x200B;を選択し、ドキュメントを選択します。 サポートされる形式には、.pdf、.png、.jpg、.jpeg、.zip、.md、.doc、.txt、.docxなどがあります。
 
@@ -174,7 +186,7 @@ AI アシスタントに&#x200B;**参照コンテンツ**、web ページ、ま�
 
 ## 生成モデルの活用 {#generative-model}
 
-![AI アシスタントがカスタムモデルを使用してコンテンツを生成するアニメーションのデモ ](assets/do-not-localize/gen-ai-model.gif)
+![AI アシスタントがカスタムモデルを使用してコンテンツを生成するアニメーションのデモ &#x200B;](assets/do-not-localize/gen-ai-model.gif)
 
 カスタム生成モデルを登録し、AI アシスタントからカスタム生成モデルを通じて画像生成をルーティングします。
 
@@ -200,7 +212,7 @@ AI アシスタントに&#x200B;**参照コンテンツ**、web ページ、ま�
 
 ## Geminiをテキストオーバーレイ画像の生成モデルとして使用
 
-![生成モデルとしてGeminiを使用してコンテンツを生成するAI アシスタントのアニメーションデモ ](assets/do-not-localize/gen-nano.gif)
+![生成モデルとしてGeminiを使用してコンテンツを生成するAI アシスタントのアニメーションデモ &#x200B;](assets/do-not-localize/gen-nano.gif)
 
 生成モデルとして&#x200B;**Gemini 2.5**&#x200B;を選択すると、AI アシスタントで画像のバリエーションを生成し、URL、ファイル、またはAIが生成したプロンプトからテキストオーバーレイを追加し、最終的なバリエーションを適用する前にオーバーレイを配置できます。
 

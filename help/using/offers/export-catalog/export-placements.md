@@ -11,12 +11,21 @@ level: Intermediate
 exl-id: 3e45f3cf-e17e-43a6-8424-98afef07aaa3
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/UFE7I-hQM4jKPpclDl3avrcE-q-vwRq-c91WOLdPBgo
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2:
+  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+  - id: eb547372-2a95-4d13-b0fd-f720c9895880
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 179
@@ -47,7 +56,7 @@ ht-degree: 87%
 +++ 識別子
 
 **フィールド：** _id
-**タイトル：**識別子
+**タイトル：**&#x200B;識別子
 **説明：** レコードの一意のID。
 **型：**&#x200B;文字列
 
@@ -62,7 +71,7 @@ ht-degree: 87%
 
 +++ _experience > decisioning
 
-**フィールド：**決定
+**フィールド：**&#x200B;決定
 **タイプ：**&#x200B;オブジェクト
 
 +++
@@ -71,7 +80,7 @@ ht-degree: 87%
 
 **フィールド：** channelID
 **タイトル：** プレースメントのチャネル Id
-**説明：**提案が行われたチャネル。値は有効なチャネル URIです。https://ns.adobe.com/xdm/channels/channelを参照してください。
+**説明：**&#x200B;提案が行われたチャネル。値は有効なチャネル URIです。https://ns.adobe.com/xdm/channels/channelを参照してください。
 **型：**&#x200B;文字列
 
 +++
@@ -80,7 +89,7 @@ ht-degree: 87%
 
 **フィールド：** componentType
 **タイトル：** コンテンツコンポーネントタイプ
-**説明：**各値がコンテンツコンポーネントに指定された型にマッピングされるURIの列挙セット。コンテンツ表現の一部の消費者は、@typeの値がコンテンツコンポーネントの追加のプロパティを記述するスキーマへの参照であることを期待しています。
+**説明：**&#x200B;各値がコンテンツコンポーネントに指定された型にマッピングされるURIの列挙セット。コンテンツ表現の一部の消費者は、@typeの値がコンテンツコンポーネントの追加のプロパティを記述するスキーマへの参照であることを期待しています。
 **型：**&#x200B;文字列
 
 +++
@@ -95,15 +104,15 @@ ht-degree: 87%
 +++_experience > decisioning > contentTypes > MIME Media Type
 
 **タイトル：** MIME メディアタイプ
-**説明：**そのプレースメントで想定されるコンポーネントのメディアタイプの制約。異なる画像形式など、1つのコンポーネントに対して複数のメディアタイプが可能な場合があります。
+**説明：**&#x200B;そのプレースメントで想定されるコンポーネントのメディアタイプの制約。異なる画像形式など、1つのコンポーネントに対して複数のメディアタイプが可能な場合があります。
 **型：**&#x200B;文字列
 
 +++
 
 +++ _experience > decisioning > Placement Description
 
-**フィールド：**説明
-**タイトル：**配置の説明
+**フィールド：**&#x200B;説明
+**タイトル：**&#x200B;配置の説明
 **説明：** メッセージ全体の配信で動的コンテンツがどのように使用されるかについて、人間が読みやすい意図を伝えるために使用されます。ウェブページの特定のスペースが「バナー」であるということは、多くの場合、正式な方法ではなく、説明を通して伝えられます。
 **型：**&#x200B;文字列
 
@@ -111,9 +120,9 @@ ht-degree: 87%
 
 +++ _experience > decisioning > Placement Name
 
-**フィールド：**名
+**フィールド：**&#x200B;名
 **タイトル：** プレースメント名
-**説明：**人間とのやり取りにおいて、プレースメントを参照するために割り当てられた名前。
+**説明：**&#x200B;人間とのやり取りにおいて、プレースメントを参照するために割り当てられた名前。
 **型：**&#x200B;文字列
 
 +++

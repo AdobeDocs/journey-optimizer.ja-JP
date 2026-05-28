@@ -6,9 +6,12 @@ description: オーケストレーションされたキャンペーンで定義�
 version: Campaign Orchestration
 exl-id: fc508eb7-5b7a-4736-967b-523639eeb096
 TQID: https://experienceleague.adobe.com/6awSMB2-cIw-gbUxluLDuCdOLkLKho7QGSR7QHtOshA
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
-subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
+subfeature_v2:
+  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 507
@@ -67,7 +70,7 @@ ht-degree: 20%
 
    ![](assets/predefined-filter-parameter-apply.png)
 
-   定義済みのフィルター自体を編集するには、![省略記号ボタン ](assets/do-not-localize/rule-builder-icon-more.svg) ボタンをクリックし、**[!UICONTROL ルール編集に切り替え]**&#x200B;を選択します。 すべての変更は、構築する現在のルールにのみ適用されます。 定義済みフィルターは変更されません。
+   定義済みのフィルター自体を編集するには、![省略記号ボタン &#x200B;](assets/do-not-localize/rule-builder-icon-more.svg) ボタンをクリックし、**[!UICONTROL ルール編集に切り替え]**&#x200B;を選択します。 すべての変更は、構築する現在のルールにのみ適用されます。 定義済みフィルターは変更されません。
 
    ![](assets/predefined-filter-parameter-edit.png)
 
@@ -93,6 +96,6 @@ ht-degree: 20%
 
 1. ルールのビルドで「**[!UICONTROL フィルターを選択または保存]**」ボタンを使用して、定義済みのフィルターリストを開きます。
 
-1. フィルターの横にある![省略記号ボタン ](assets/do-not-localize/rule-builder-icon-more.svg) ボタンを選択し、目的のアクションを選択します。
+1. フィルターの横にある![省略記号ボタン &#x200B;](assets/do-not-localize/rule-builder-icon-more.svg) ボタンを選択し、目的のアクションを選択します。
 
 ![](assets/predefined-filters-edit.png)
