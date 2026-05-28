@@ -5,14 +5,11 @@ title: ファイルの読み込みアクティビティの使用
 description: 「ファイルを読み込み」アクティビティを使用して、ファイルをAdobe Experience Platformに取り込まずに、CSVまたはTXT ファイルからオーケストレーションされたキャンペーンオーディエンスをターゲットにする方法を説明します
 exl-id: a7c3e891-4f2d-4b8e-9c1a-6e8f0d3b2a41
 version: Campaign Orchestration
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: e0a0782647a051bf139b82a8bff9e47f97b1f1b9
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: b423a773-0a58-4a77-b65d-3dd4ae6ef841
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 1234
 ht-degree: 2%
@@ -30,7 +27,7 @@ ht-degree: 2%
 
 >[!AVAILABILITY]
 >
->**ファイルの読み込み** アクティビティは、組織のセットに対して&#x200B;**可用性の制限**&#x200B;で利用できます。 アクセスをリクエストするには、Adobe担当者にお問い合わせください。 可用性フェーズについては、[Journey Optimizer リリースサイクル &#x200B;](../../rn/releases.md)を参照してください。
+>**ファイルの読み込み** アクティビティは、組織のセットに対して&#x200B;**可用性の制限**&#x200B;で利用できます。 アクセスをリクエストするには、Adobe担当者にお問い合わせください。 可用性フェーズについては、[Journey Optimizer リリースサイクル ](../../rn/releases.md)を参照してください。
 >
 >アクティビティは現在、**Healthcare Shield**&#x200B;では使用できません。
 
@@ -42,7 +39,7 @@ ht-degree: 2%
 * フラット構造のCSV ファイルとTXT ファイルのみがサポートされます。
 * アップロードされたデータは、キャンペーンの実行時に使用され、Adobe Experience Platform データセットとして保存されません。
 
-チャネルとキャンバスのアクティビティに関する制限については、[&#x200B; ガードレールと制限](../guardrails.md#activities-limitations)を参照してください。
+チャネルとキャンバスのアクティビティに関する制限については、[ ガードレールと制限](../guardrails.md#activities-limitations)を参照してください。
 
 ## 「ファイルを読み込み」アクティビティの設定 {#load-file-configuration}
 

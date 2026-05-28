@@ -11,10 +11,12 @@ hide: true
 badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: c1e49173-69cc-4729-9f9a-afea2ccff3fa
-source-git-commit: 0769c486386ce27079244a3ff36cdd2fedf27214
+feature_v2: []
+subfeature_v2: []
+source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
 workflow-type: tm+mt
-source-wordcount: '1004'
-ht-degree: 18%
+source-wordcount: 1145
+ht-degree: 11%
 
 ---
 
@@ -42,7 +44,7 @@ ht-degree: 18%
 
 **設定と統合**
 
-<!-- * [Configure loyalty challenges](loyalty-admin.md) -->
+* [ロイヤルティに関する課題の設定](loyalty-admin.md)
 * [ロイヤルティデータとデータセット](loyalty-data-and-datasets.md)
 * [ロイヤルティチャレンジ API リファレンス](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}
 
@@ -56,7 +58,7 @@ ht-degree: 18%
 >
 >この機能は現在&#x200B;**プライベートベータ版**&#x200B;です。 リリースサイクルと可用性フェーズについて詳しくは、[Journey Optimizer リリースサイクル](../rn/releases.md)を参照してください。
 
-タスクとは、ロイヤルティに関する課題に直面した場合に、顧客が報酬を得るために実行しなければならない特定のアクションやマイルストーンを定義することです。 タスクのタイプ、数量、製品要件を設定することで、魅力的でパーソナライズされたロイヤルティの体験を生み出すことができます。
+タスクとは、ロイヤルティに関する課題に直面した場合に、顧客が報酬を得るために実行しなければならない特定のアクションやマイルストーンを定義することです。 購入と支出のタスク、または組織が既にキャプチャしたAdobe Experience Platform エクスペリエンスイベントを追跡する&#x200B;**[!UICONTROL カスタムイベント]** タスクを設定できます。
 
 各タスクは、課題の完了に貢献する、測定可能な行動を表します。 タスクとは、個別に作成して1つ以上の課題に追加するか、課題の中で直接作成できる、再利用可能なコンポーネントのことです。
 
@@ -65,7 +67,7 @@ ht-degree: 18%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_task_create"
 >title="タスクを作成"
->abstract="顧客アクティビティ（購入または支出）を選択し、アクティビティ固有の属性（数量または金額、対象品目と除外品目、最低支出額や最大トランザクション回数などのオプションの制限）を設定します。 プロパティパネルで、タスク名と説明を設定します。"
+>abstract="顧客アクティビティ（購入、支出、またはカスタムイベント）を選択し、アクティビティ固有の属性を設定します。 プロパティパネルで、タスク名と説明を設定します。"
 
 タスクは、2つのエントリポイントから作成できます。 設定プロセスは、どこから開始しても同じです。
 
@@ -91,7 +93,7 @@ ht-degree: 18%
 
 * **[!UICONTROL 購入]**：このタスクを完了するには、1つ以上のアイテムを購入する必要があります
 * **[!UICONTROL 支出]**：このタスクを完了するには、顧客が指定した金額を費やす必要があります
-<!-- * **[!UICONTROL Custom event]**: Customers must perform an activity tracked as an Adobe Experience Platform event. The event must be defined in **[!UICONTROL Loyalty Admin]** before you can select it here. [Learn how to create event definitions](loyalty-admin.md#event-definitions) -->
+* **[!UICONTROL カスタムイベント]**：お客様は、Adobe Experience Platform エクスペリエンスイベントで表されるアクティビティを実行する必要があります。 たとえば、ホテルのチェックイン、モバイルアプリのアクション、レビューの提出などがあります。 基になるイベントは、既にExperience Platformでキャプチャされ、**[!UICONTROL ロイヤルティ管理者]** メニューのイベント定義を通じてマッピングされている必要があります。 [ イベント定義の設定方法を学ぶ](loyalty-admin.md#event-definitions)
 
 アクティビティを選択するには、**+** アイコンをクリックし、成果の目標に最も適した顧客アクティビティを選択します。 各アクティビティタイプには、タスク要件をさらに定義して形成するための、特定の設定可能な属性が用意されています。
 ![](assets/task-create-activity.png)
@@ -123,6 +125,14 @@ ht-degree: 18%
 
 ![](assets/task-create-spend.png)
 
+>[!TAB  カスタムイベントアクティビティ ]
+
+**[!UICONTROL カスタムイベント]** アクティビティで使用できる属性：
+
+* **[!UICONTROL カスタムイベント値]**：顧客が完了する必要があるカスタムイベントの値を入力します。 コンマを使用して各値を区切ります。 これらの値は、**[!UICONTROL ロイヤルティ管理者]** メニューで設定されたイベント定義と一致する必要があります。 [ イベント定義の設定方法を学ぶ](loyalty-admin.md#event-definitions)
+
+![](assets/task-create-custom.png)
+
 >[!ENDTABS]
 
 ## 実施要件を満たす品目と除外品目を定義 {#eligible-items-exclusions}
@@ -134,7 +144,9 @@ ht-degree: 18%
 
 <!-- SCREENSHOT: Eligible items & exclusions popup showing the two sections: "Eligible task purchases are limited to the following" and "The following are excluded from this task" with text input fields -->
 
-**購入**&#x200B;と&#x200B;**支出**&#x200B;の両方のアクティビティで、**[!UICONTROL 実施要件を満たす品目と除外品目]**&#x200B;属性を使用すると、実施要件を満たす品目とグループおよび除外する品目とグループを定義できます。 これにより、課題の目標に合わせて、特定の製品、カテゴリ、地域をターゲットにすることができます。
+**購入**&#x200B;および&#x200B;**支出** アクティビティの場合、**[!UICONTROL 実施要件のあるアイテムと除外]**&#x200B;属性を使用して、実施要件のあるアイテムとグループ、および除外されるアイテムとグループを定義できます。 これにより、課題の目標に合わせて、特定の製品、カテゴリ、地域をターゲットにすることができます。 この属性を設定すると、**[!UICONTROL ロイヤルティ管理者]** メニューにアップロードされた製品グループと除外グループを利用できます。 [製品の在庫と除外を設定する方法について説明します](loyalty-admin.md#product-inventory)
+
+**[!UICONTROL カスタムイベント]** タスクでは、対象となる項目と除外は使用されません。完了は、設定した&#x200B;**[!UICONTROL カスタムイベント値]**&#x200B;によって駆動されます。
 
 例えば、タスクを特定の商品カテゴリーに制限したり、ギフトカードやプロモーションアイテムをタスクの完了に向けてカウントから除外したりすることができます。
 
