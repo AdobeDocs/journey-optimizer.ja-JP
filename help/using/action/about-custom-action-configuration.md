@@ -30,10 +30,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: c5965ac7ea1465a20335536ebebf409e63bce98b
 workflow-type: tm+mt
-source-wordcount: 2057
-ht-degree: 94%
+source-wordcount: 2200
+ht-degree: 88%
 
 ---
 
@@ -136,7 +136,7 @@ Journey Optimizer では、カスタムアクションにデータガバナン�
 
      例：`https://xxx.yyy.com/somethingstatic/`
 
-     URL の動的パスは、カスタムアクションをジャーニーに追加する際に指定します。 [詳細情報](../building-journeys/using-custom-actions.md)。
+     URL の動的パスは、カスタムアクションをジャーニーに追加する際に指定します。 [詳細情報](../building-journeys/using-custom-actions.md)
 
    >[!NOTE]
    >
@@ -164,7 +164,7 @@ Journey Optimizer では、カスタムアクションにデータガバナン�
 
 1. フィールドのラベルまたは名前を入力します。
 
-1. タイプを選択：**[!UICONTROL 定数]**&#x200B;または&#x200B;**[!UICONTROL 変数]**。 **[!UICONTROL 定数]**&#x200B;を選択した場合は、**[!UICONTROL 値]**&#x200B;フィールドに定数の値を入力します。 「**[!UICONTROL 変数]**」を選択した場合は、カスタムアクションをジャーニーに追加する際に、この変数を指定します。 [詳細情報](../building-journeys/using-custom-actions.md)。
+1. タイプを選択：**[!UICONTROL 定数]**&#x200B;または&#x200B;**[!UICONTROL 変数]**。 **[!UICONTROL 定数]**&#x200B;を選択した場合は、**[!UICONTROL 値]**&#x200B;フィールドに定数の値を入力します。 「**[!UICONTROL 変数]**」を選択した場合は、カスタムアクションをジャーニーに追加する際に、この変数を指定します。 [詳細情報](../building-journeys/using-custom-actions.md)
 
    ![](assets/journeyurlconfiguration2.png)
 
@@ -185,6 +185,15 @@ Adobe Journey Optimizer は、カスタムアクションに対してデフォ�
 Mutual Transport Layer Security（mTLS）は、Adobe Journey Optimizer カスタムアクションへの送信接続のセキュリティを強化します。 mTLS は、データが共有される前に情報を共有する両者が本人であることを確認する、相互認証のためのエンドツーエンドのセキュリティ方式です。 mTLS には TLS と比較して追加の手順が含まれており、サーバーはクライアントの証明書を要求し、クライアント側でそれを検証します。
 
 カスタムアクションでは相互 TLS（mTLS）認証がサポートされています。 mTLS をアクティブ化するためにカスタムアクションまたはジャーニーで追加の設定は必要ありません。mTLS 対応エンドポイントが検出されると、自動的に実行されます。 [学習を増やす](https://experienceleague.adobe.com/ja/docs/experience-platform/landing/governance-privacy-security/encryption#mtls-protocol-support)。
+
+>[!IMPORTANT]
+>
+>Adobeは、カスタムアクション接続に使用されるmTLS クライアント証明書を定期的にローテーションします。 新しい証明書が発行されたら、エンドポイントのトラストストアを更新して受け入れる必要があります。そうしないと、Journey Optimizerからサービスへのアウトバウンド接続が失敗し、証明書の不一致エラーが発生します。 混乱を避けるには：
+>
+>* サービスに関連付けられた更新された証明書について、[Adobe公開証明書API](https://platform.adobe.io/data/core/mtls/v1/certificate/public-certificate)を定期的に確認します。
+>* エンドポイントを設定して、**重複する証明書** （古い証明書と新しい証明書の両方を同時に）を受け入れるようにします。これにより、ローテーション中に接続性のギャップが生じません。
+>* Adobeでは、証明書のローテーション時にプロアクティブな通知が送信されません。 証明書の更新を監視し、トラストストアを最新の状態に保つことは、お客様の責任です。
+>* 信頼の検証は、特定のリーフ証明書フィンガープリントにピン留めするのではなく、ルート CA （DigiCert）までの証明書チェーンに基づいて行う必要があります。
 
 ## ペイロードパラメーターの定義 {#define-the-message-parameters}
 
