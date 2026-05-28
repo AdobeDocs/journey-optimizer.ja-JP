@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: e42070c4cc1dde06786c4075b1e6e45e8c323c12
+source-git-commit: 3b761a8741061aac35ed39c6bb41bd00ab9cbcaf
 workflow-type: tm+mt
-source-wordcount: 8005
+source-wordcount: 8040
 ht-degree: 89%
 
 ---
@@ -28,6 +28,8 @@ ht-degree: 89%
 ## 2026年5月 {#may-2026}
 
 * メッセージで決定ポリシーを使用&#x200B;**ドキュメントでは、キャンペーンの概要から決定ポリシーの完全な構造を表示し、トラブルシューティングのためにJSON テクニカルサマリーをクリップボードにコピーする方法について説明しています。**&#x200B;[詳細情報](../experience-decisioning/use-decision-policy.md#decision-policy-summary)
+
+* レガシーの&#x200B;**意思決定管理** [自動最適化モデル &#x200B;](../offers/ranking/auto-optimization-model.md) ページが、更新された意思決定ドキュメントに合わせて書き換えられました。これには、強化学習の概要、要件と制限、最適化と学習のバランス、Thompson サンプリングの詳細などが含まれます。 [詳細情報](../offers/ranking/auto-optimization-model.md)
 
 * **リリースノート** ページがトピックベースのレイアウトで再構築されました。 変更は、変更タイプではなく製品領域でグループ化され、新しい専用の&#x200B;**ユーザビリティの改善** セクションが追加されました。 近日公開されるエントリは、各トピック内で拡張可能なアコーディオンとして表示されます。 [詳細情報](release-notes.md)
 
