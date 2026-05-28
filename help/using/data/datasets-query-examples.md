@@ -14,6 +14,7 @@ product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
   - id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
 subfeature_v2:
   - id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371
   - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
@@ -26,7 +27,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
 workflow-type: tm+mt
 source-wordcount: 1094
 ht-degree: 93%
@@ -191,7 +192,7 @@ ORDER BY timestamp DESC;
 
 日付の形式は、`YYYY-MM-DD HH:MM:SS` です。
 
-識別したら、これらのアドレスを Journey Optimizer 抑制リストから削除します。 [詳細情報](../configuration/manage-suppression-list.md#remove-from-suppression-list)。
+識別したら、これらのアドレスを Journey Optimizer 抑制リストから削除します。 [詳細情報](../configuration/manage-suppression-list.md#remove-from-suppression-list)
 
 >[!NOTE]
 >

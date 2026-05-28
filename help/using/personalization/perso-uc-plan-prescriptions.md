@@ -11,6 +11,7 @@ product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
   - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
@@ -18,10 +19,10 @@ topic_v2:
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
 workflow-type: tm+mt
-source-wordcount: 131
-ht-degree: 81%
+source-wordcount: 116
+ht-degree: 100%
 
 ---
 
@@ -43,15 +44,15 @@ ht-degree: 81%
 <ul>
 
 <li>
-      <strong>処方箋ID:</strong> pres1<br>
-      <strong>名前：</strong>薬A<br>
-      <strong>状態：</strong>準備完了
+      <strong>処方箋 ID：</strong> pres1<br>
+      <strong>名前：</strong> Medication A<br>
+      <strong>状態：</strong> 準備完了
    </li>
 
 <li>
-      <strong>処方箋ID:</strong> pres2<br>
-      <strong>名前：</strong>薬B<br>
-      <strong>状態：</strong>のリコール
+      <strong>処方箋 ID：</strong> pres2<br>
+      <strong>名前：</strong> Medication B<br>
+      <strong>状態：</strong> リコール
    </li>
 
 </ul>
@@ -61,9 +62,9 @@ ht-degree: 81%
 <ul>
 
 <li>
-      <strong>処方箋ID:</strong> pres4<br>
-      <strong>名前：</strong>薬D<br>
-      <strong>状態：</strong>準備完了
+      <strong> 処方箋 ID：</strong> pres4<br>
+      <strong>名前：</strong> Medication D<br>
+      <strong>状態：</strong> 準備完了
    </li>
 
 </ul>
