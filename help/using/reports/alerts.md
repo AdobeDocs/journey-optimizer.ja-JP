@@ -59,7 +59,7 @@ Adobe Journey Optimizerには、次の2種類のアラートが用意されて�
 
 アラートを操作する前に：
 
-* **権限**：アラートを表示および管理するには、特定の権限が必要です。 Adobe Experience Platform[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html#permissions){target="_blank"}の必要な権限を参照してください。
+* **権限**：アラートを表示および管理するには、特定の権限が必要です。 Adobe Experience Platform[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=ja#permissions){target="_blank"}の必要な権限を参照してください。
 
 * **サンドボックス認知度**：アラートサブスクリプションはサンドボックス固有です。 アラートを購読すると、現在のサンドボックスにのみ適用されます。 サンドボックスがリセットされると、すべてのアラート購読もリセットされます。
 
@@ -400,7 +400,7 @@ Journey Optimizerには、ジャーニー、キャンペーン、チャネル設
 
 >[!NOTE]
 >
->他のAdobe Experience Platform サービスからのアラート（データ収集、ID解決、セグメント化など）については、[標準アラートルールのドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"}を参照してください。
+>他のAdobe Experience Platform サービスからのアラート（データ収集、ID解決、セグメント化など）については、[標準アラートルールのドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=ja){target="_blank"}を参照してください。
 
 ## アラートの配信を登録 {#subscribe-alerts}
 
@@ -519,7 +519,7 @@ Open the same dialog, deselect the alert(s), and click **[!UICONTROL Save]**.
 You can combine **sandbox-level** subscription (from the Alerts **[!UICONTROL Browse]** tab) with **campaign-specific** subscriptions. Use sandbox-level coverage for everything in the sandbox, and add per-campaign subscriptions only for campaigns you want to track separately.
 -->
 
-<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html#enable-email-alerts){target="_blank"}.-->
+<!--To enable email alerting, refer to [Adobe Experience Platform documentation](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=ja#enable-email-alerts){target="_blank"}.-->
 
 ## アラートの管理 {#manage-alerts}
 
@@ -583,4 +583,4 @@ You can combine **sandbox-level** subscription (from the Alerts **[!UICONTROL Br
 * [Adobe Experience Platform アラートの概要](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=ja){target="_blank"} - アラート フレームワークについて
 * [UIでアラートを管理](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=ja){target="_blank"} - アラートの表示、購読、管理
 * [I/O イベントを介したアラートの購読](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=ja){target="_blank"} – 高度な統合オプション
-* [標準アラートルール &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"} – 使用可能なPlatform アラートの完全リスト
+* [標準アラートルール &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html?lang=ja){target="_blank"} – 使用可能なPlatform アラートの完全リスト
