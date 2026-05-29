@@ -26,7 +26,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 1315e30c843f37083346d0289a00f9abdcaca472
 workflow-type: tm+mt
 source-wordcount: 1760
 ht-degree: 91%
@@ -115,6 +115,10 @@ Adobe Journey Optimizer でキャンペーンにアクセスし、整理およ�
 
 **アクションおよび API トリガーキャンペーンのみの場合：**
 
+<!--
+Per-campaign alert subscription is deferred (CJM-112845, CJM-112849). Campaign lifecycle alerts can currently be subscribed to at the sandbox level only. See ../reports/alerts.md#subscribe-alerts
+* **[!UICONTROL Subscribe to alerts]** - Choose which campaign lifecycle system alerts apply to this campaign only (in addition to any sandbox-wide alert subscriptions). [Learn more about system alerts →](../reports/alerts.md#subscribe-alerts)
+-->
 * **[!UICONTROL パッケージに追加]** - キャンペーンを別のサンドボックスに書き出すには、パッケージに追加します。 [オブジェクトのエクスポート方法の詳細情報 →](../configuration/copy-objects-to-sandbox.md)
 * **[!UICONTROL ドラフトバージョンを開く]** - キャンペーンの新しいバージョンが作成され、まだアクティブ化されていない場合は、このアクションを使用して、そのドラフトバージョンにアクセスできます。
 
@@ -147,7 +151,7 @@ Adobe Journey Optimizer でキャンペーンにアクセスし、整理およ�
 >
 >アクションおよび API トリガーキャンペーンの場合、「**[!UICONTROL ライブ]**」または「**[!UICONTROL スケジュール済み]**」ステータスの横にある「ドラフトバージョンを開く」アイコンは、新しいバージョンが作成され、まだアクティブ化されていないことを示しています。
 
-### エラー指標
+### エラー指標 {#error-indicators}
 
 1 つのキャンペーン内でエラーが発生した場合、キャンペーンのステータスの横に警告アイコンが表示されます。 アラートに関する情報を表示するには、アラートをクリックします。 これらのアラートは、キャンペーンメッセージが公開されていない場合または選択した設定が正しくない場合など、様々な状況で発生する場合があります。
 
