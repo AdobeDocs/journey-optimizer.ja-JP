@@ -11,22 +11,13 @@ level: Beginner
 keywords: キャンペーンの管理, ステータス, スケジュール, アクセス, Optimizer
 exl-id: 1b88c84e-9d92-4cc1-b9bf-27a2f1d29569
 TQID: https://experienceleague.adobe.com/k-BZOO4BOzdW2TVlBrDx1CH-Wte7KEXffXqZYRvUI7w
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-subfeature_v2:
-  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
-  - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: a653cc2e-bc85-4353-a306-399e5b247978
+subfeature_v2: id: f7479fa1-474b-479d-8c98-f6cee5865a38id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 1315e30c843f37083346d0289a00f9abdcaca472
 workflow-type: tm+mt
 source-wordcount: 1760
 ht-degree: 91%
@@ -115,12 +106,16 @@ Adobe Journey Optimizer でキャンペーンにアクセスし、整理およ�
 
 **アクションおよび API トリガーキャンペーンのみの場合：**
 
+<!--
+Per-campaign alert subscription is deferred (CJM-112845, CJM-112849). Campaign lifecycle alerts can currently be subscribed to at the sandbox level only. See ../reports/alerts.md#subscribe-alerts
+* **[!UICONTROL Subscribe to alerts]** - Choose which campaign lifecycle system alerts apply to this campaign only (in addition to any sandbox-wide alert subscriptions). [Learn more about system alerts →](../reports/alerts.md#subscribe-alerts)
+-->
 * **[!UICONTROL パッケージに追加]** - キャンペーンを別のサンドボックスに書き出すには、パッケージに追加します。 [オブジェクトのエクスポート方法の詳細情報 →](../configuration/copy-objects-to-sandbox.md)
 * **[!UICONTROL ドラフトバージョンを開く]** - キャンペーンの新しいバージョンが作成され、まだアクティブ化されていない場合は、このアクションを使用して、そのドラフトバージョンにアクセスできます。
 
 **オーケストレーションされたキャンペーンのみ：**
 
-* **[!UICONTROL 下書きに戻る]** - キャンペーンを非公開にして、エラー回復用に下書きステータスに戻します。 このアクションは、スケジュールされたキャンペーンがまだ開始されていない場合、または実行が完了する前にライブキャンペーンでエラーが発生した場合に使用できます。 [&#x200B; キャンペーンの取り消しの詳細→](../orchestrated/start-monitor-campaigns.md#back-to-draft)
+* **[!UICONTROL 下書きに戻る]** - キャンペーンを非公開にして、エラー回復用に下書きステータスに戻します。 このアクションは、スケジュールされたキャンペーンがまだ開始されていない場合、または実行が完了する前にライブキャンペーンでエラーが発生した場合に使用できます。 [ キャンペーンの取り消しの詳細→](../orchestrated/start-monitor-campaigns.md#back-to-draft)
 
 ### 一括アクション {#bulk-actions-campaigns}
 
@@ -134,7 +129,7 @@ Adobe Journey Optimizer でキャンペーンにアクセスし、整理およ�
 |--------|:----------------:|:-----------------------:|:----------------------:|---------------|--------------|
 | **[!UICONTROL ドラフト]** | ✅ | ✅ | ✅ | 編集中、アクティブ化されていない | 編集を続行または[キャンペーンをアクティブ化](review-activate-campaign.md) |
 | **[!UICONTROL スケジュール済み]** | ✅ | ✅ | ✅ | 特定の開始日に設定済み | ローンチを待機、[必要に応じて変更](#modify)または[カレンダーで表示](#calendar) |
-| **[!UICONTROL ライブ]** | ✅ | ✅ | ✅ | アクティブ化して実行中 | [&#x200B; パフォーマンスを監視](../reports/campaign-global-report-cja.md)、[必要に応じて新しいバージョン &#x200B;](#modify)を作成します。 オーケストレーションされたキャンペーンの場合：[&#x200B; スケジュールされたキャンペーンがまだ開始されていない場合、またはメッセージが送信される前に実行エラーが発生したキャンペーンの場合は、](../orchestrated/start-monitor-campaigns.md#back-to-draft) ドラフトに戻します |
+| **[!UICONTROL ライブ]** | ✅ | ✅ | ✅ | アクティブ化して実行中 | [ パフォーマンスを監視](../reports/campaign-global-report-cja.md)、[必要に応じて新しいバージョン ](#modify)を作成します。 オーケストレーションされたキャンペーンの場合：[ スケジュールされたキャンペーンがまだ開始されていない場合、またはメッセージが送信される前に実行エラーが発生したキャンペーンの場合は、](../orchestrated/start-monitor-campaigns.md#back-to-draft) ドラフトに戻します |
 | **[!UICONTROL レビュー中]** | ✅ | ✅ | — | 承認用に送信済み | [承認](../test-approve/gs-approval.md)を待機または変更 |
 | **[!UICONTROL 停止済み]** | ✅ | ✅ | ✅ | 手動で停止、再アクティブ化できない | [複製して再利用](#duplicate-a-campaign) |
 | **[!UICONTROL 完了]** | ✅ | ✅ | ✅ | 実行完了（アクティブ化後 3 日または繰り返しの場合は終了日に自動割り当て） | [レポートを表示](../reports/campaign-global-report-cja.md)、[アーカイブ](#archive-a-campaign)または[複製](#duplicate-a-campaign) |
@@ -147,7 +142,7 @@ Adobe Journey Optimizer でキャンペーンにアクセスし、整理およ�
 >
 >アクションおよび API トリガーキャンペーンの場合、「**[!UICONTROL ライブ]**」または「**[!UICONTROL スケジュール済み]**」ステータスの横にある「ドラフトバージョンを開く」アイコンは、新しいバージョンが作成され、まだアクティブ化されていないことを示しています。
 
-### エラー指標
+### エラー指標 {#error-indicators}
 
 1 つのキャンペーン内でエラーが発生した場合、キャンペーンのステータスの横に警告アイコンが表示されます。 アラートに関する情報を表示するには、アラートをクリックします。 これらのアラートは、キャンペーンメッセージが公開されていない場合または選択した設定が正しくない場合など、様々な状況で発生する場合があります。
 
