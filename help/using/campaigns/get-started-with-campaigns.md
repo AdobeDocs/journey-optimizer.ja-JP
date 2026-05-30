@@ -353,7 +353,7 @@ Adobe Journey Optimizer を使用すると、複数のチャネルをまたい�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ja)
 
 **クワイエットアワー**
 
