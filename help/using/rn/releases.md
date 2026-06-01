@@ -6,18 +6,11 @@ feature: Release Notes
 description: Adobe Journey Optimizer リリースサイクルについて
 exl-id: 344ae3cf-923c-4f0e-b3bc-0313993243c8
 TQID: https://experienceleague.adobe.com/u8FJOgdav9VhwCk4CzrJoLrbFkVAa7BO83BCZ4SWsBc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 943
 ht-degree: 100%
@@ -100,7 +93,7 @@ Journey Optimizer 製品リリースに関する&#x200B;**メールや製品内�
 1. **通知**&#x200B;の下にある **Journey Optimizer** を見つけます。
 1. **新しいリリース**&#x200B;のアプリ内通知およびメール通知を有効にします
 
-![](assets/do-not-localize/pulse-notif.png){width="70%" align="left"}
+![](assets/do-not-localize/pulse-notif.png){width="70%"}
 
 ## よくある質問 {#faq}
 

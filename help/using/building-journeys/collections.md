@@ -10,19 +10,12 @@ level: Experienced
 exl-id: 8832d306-5842-4be5-9fb9-509050fcbb01
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/zhAlHWwS8UOup7yqqVc2d0lqj4JUj5gOvz7JAwVwZPk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 794
 ht-degree: 94%
@@ -54,7 +47,7 @@ ht-degree: 94%
 
   各項目に複数のフィールドやプロパティが含まれている場合は、オブジェクトコレクションを使用します。 これらは通常、製品の詳細、イベントレコード、項目属性などの構造化データを渡すために使用されます。
 
-  例：
+  次に例を示します。
 
   ```json
   {
@@ -132,7 +125,7 @@ ht-degree: 94%
 
 1. フィールドごとに、ジャーニーキャンバスに表示されるラベルを定義します。
 
-   ![フィルターコレクション関数と条件ビルダーインターフェイス](assets/uc-collection-2.png){width="70%" align="left"}
+   ![フィルターコレクション関数と条件ビルダーインターフェイス](assets/uc-collection-2.png){width="70%"}
 
 1. ジャーニーを作成し、作成したカスタムアクションを追加します。 詳しくは、[このページ](../building-journeys/using-custom-actions.md)を参照してください。
 
@@ -142,7 +135,7 @@ ht-degree: 94%
 
 1. 次のオブジェクトフィールドごとに、ソース XDM スキーマ内の対応するフィールド名を入力します。 名前が同じ場合は、この操作は不要です。 この例では、`product id` と「color」のみを定義する必要があります。
 
-   ![順序設定を含むコレクション並べ替え関数](assets/uc-collection-4.png){width="50%" align="left"}
+   ![順序設定を含むコレクション並べ替え関数](assets/uc-collection-4.png){width="50%"}
 
 配列フィールドの場合は、高度な式エディターを使用してデータ操作を実行することもできます。 次の例では、[filter](functions/list-functions.md#filter) 関数と [intersect](functions/list-functions.md#intersect) 関数を使用しています。
 
@@ -206,7 +199,7 @@ ht-degree: 94%
 
 異種混在タイプと配列の配列の場合、配列は listAny タイプで定義されます。 個々の項目のみをマッピングできますが、配列を変数に変更することはできません。
 
-![混在データタイプとフィールド選択を含む異種混在コレクション](assets/uc-collection-heterogeneous.png){width="70%" align="left"}
+![混在データタイプとフィールド選択を含む異種混在コレクション](assets/uc-collection-heterogeneous.png){width="70%"}
 
 異種混在タイプの例：
 
@@ -243,5 +236,5 @@ ht-degree: 94%
 * [カスタムアクションの設定](../action/about-custom-action-configuration.md) - カスタムアクションの作成および設定方法について説明します
 * [カスタムアクションの使用](../building-journeys/using-custom-actions.md) - ジャーニーでのカスタムアクションの使用方法について説明します
 * [カスタムアクションのトラブルシューティング](../action/troubleshoot-custom-action.md) - カスタムアクションのトラブルシューティング方法について説明します
-* [&#x200B; コンテキストデータの繰り返し](../personalization/iterate-contextual-data.md#arrays-in-journeys) - メッセージ式の配列を操作する方法と、ジャーニーパーソナライゼーションのカスタムアクション応答、イベントデータ、データセット参照を繰り返す方法について説明します
+* [ コンテキストデータの繰り返し](../personalization/iterate-contextual-data.md#arrays-in-journeys) - メッセージ式の配列を操作する方法と、ジャーニーパーソナライゼーションのカスタムアクション応答、イベントデータ、データセット参照を繰り返す方法について説明します
 

@@ -10,27 +10,16 @@ level: Intermediate
 keywords: Marketo、Marketo Engage 統合
 exl-id: 70d1ef5a-743b-4362-bb65-93a8c996209f
 TQID: https://experienceleague.adobe.com/-aRINahKmp9bI1tyW-XA-LzZOFeoEPXpWoH8JydG6Rk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: df401a2a-327d-468c-a5e4-b7b7ccd071a0id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 326
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -56,16 +45,16 @@ Journey Optimizer では、Marketo Engage のカスタムアクションを設�
 
 1. 「管理」メニューセクションで「**[!UICONTROL 設定]**」を選択します。
 1. 「**[!UICONTROL アクション]**」セクションで、「**[!UICONTROL アクションを作成]**」をクリックします。 画面の右側にアクション設定パネルが開きます。
-1. 名前、説明を入力し、**Adobe Marketo Engage**&#x200B;を&#x200B;**アクションタイプとして選択します**
-   ![](assets/engage-customaction-creation.png){width="40%" align="left"}
+1. 名前、説明を入力し、**アクションタイプ**&#x200B;として「**Adobe Marketo Engage**」を選択します。
+   ![](assets/engage-customaction-creation.png){width="40%"}
 1. **リクエスト**&#x200B;および&#x200B;**応答**&#x200B;ペイロードの&#x200B;**ペイロードを編集**&#x200B;アイコンをクリックします。
 1. どちらの場合も、ペイロードを作成し、専用のポップアップに貼り付けます。
-   ![](assets/engage-customaction-payload.png){width="70%" align="left"}
+   ![](assets/engage-customaction-payload.png){width="70%"}
 1. ペイロード値を検査および設定します
 
    メモ：値を動的に渡すには、フィールドごとに&#x200B;**定数**&#x200B;を&#x200B;**変数**&#x200B;に変更します。
 
-   ![](assets/engage-customaction-payload-fields.png){width="70%" align="left"}
+   ![](assets/engage-customaction-payload-fields.png){width="70%"}
 
 1. フィールド設定画面で「**保存**」をクリックし、カスタムアクションで「**保存**」をクリックします。
 
@@ -138,4 +127,4 @@ Journey Optimizer では、Marketo Engage のカスタムアクションを設�
 
 1. 「**リクエストパラメーター**」セクションで、各パラメーターの「**編集**」アイコンをクリックし、ペイロードで設定した動的な値を選択します。
 
-![](assets/engage-use-canvas.png){width="70%" align="left"}
+![](assets/engage-use-canvas.png){width="70%"}

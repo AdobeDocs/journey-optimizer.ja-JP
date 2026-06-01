@@ -10,24 +10,12 @@ level: Experienced
 keywords: アクション, サードパーティ, カスタム, ジャーニー, API
 exl-id: c0bb473a-82dc-4604-bd8a-020447ac0c93
 TQID: https://experienceleague.adobe.com/SBF--1O5Edtk2OKch-n0ukkfxsTwRn-lLqBPncM-UAk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944fid: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 1051
 ht-degree: 61%
@@ -40,7 +28,7 @@ Journey Optimizer ユーザーインターフェイスの管理セクション�
 
 管理者は、**[!UICONTROL テストリクエストを送信]**&#x200B;機能を使用し、Adobe Journey Optimizer から直接実際の API 呼び出しを行って、カスタムアクション設定を検証します。 この機能により、リクエスト構造、ヘッダー、認証およびペイロードがジャーニーで使用される前に正しく書式設定されていることが確保されます。
 
-![](assets/send-test-request.png){width="70%" align="left"}
+![](assets/send-test-request.png){width="70%"}
 
 この機能を使用すると、テストと検証のプロセスが効率化され、カスタムアクションがライブジャーニーで正しく機能することが確保されます。
 
@@ -67,7 +55,7 @@ Journey Optimizer ユーザーインターフェイスの管理セクション�
 
 1. **アクション**&#x200B;設定画面に移動し、カスタムアクションを選択します。
 1. アクション設定画面の下部にある「**[!UICONTROL テストリクエストを送信]**」ボタンをクリックします。
-   ![アクション設定パネルの「テストリクエストを送信」ボタン](assets/test-request.png){width="70%" align="left"}
+   ![アクション設定パネルの「テストリクエストを送信」ボタン](assets/test-request.png){width="70%"}
 1. ポップアップウィンドウで、リクエストパラメーターを指定できます。
 
    * **カスタムアクションメソッドは GET です**&#x200B;の場合は、ペイロードは必要ありません。
@@ -118,7 +106,7 @@ Journey Optimizer 管理者は、外部ツール（Postman など）を使用し
 
 **一般的な原因：**
 
-* **イベントの選定が満たされていません** -2番目のジャーニーでは、選定の条件を持つルールベースのイベントが使用されます（例えば、必須フィールドは特定のフィールドの`isNotEmpty`など、空でないフィールドである必要があります）。 イベントペイロードがその条件を満たさない場合（例えば、フィールドが空または見つからない場合）、イベントは&#x200B;**受信したが破棄され**、2番目のジャーニーはトリガーされません。 これは期待される動作です。ドキュメントとログでは、資格条件が満たされない場合、イベントは破棄され、そのプロファイルに対してジャーニーがトリガーされないことを確認します。 カスタムアクションによって送信されるペイロードに、2番目のジャーニーのイベント設定で必要なすべてのフィールドと値が含まれていることを確認します。 ジャーニー実行でルールベースのイベント [&#128279;](../event/about-creating.md)と[&#x200B; イベント受信](../building-journeys/troubleshooting-execution.md#checking-if-people-enter-the-journey)をトラブルシューティングする方法について説明します。
+* **イベントの選定が満たされていません** -2番目のジャーニーでは、選定の条件を持つルールベースのイベントが使用されます（例えば、必須フィールドは特定のフィールドの`isNotEmpty`など、空でないフィールドである必要があります）。 イベントペイロードがその条件を満たさない場合（例えば、フィールドが空または見つからない場合）、イベントは&#x200B;**受信したが破棄され**、2番目のジャーニーはトリガーされません。 これは期待される動作です。ドキュメントとログでは、資格条件が満たされない場合、イベントは破棄され、そのプロファイルに対してジャーニーがトリガーされないことを確認します。 カスタムアクションによって送信されるペイロードに、2番目のジャーニーのイベント設定で必要なすべてのフィールドと値が含まれていることを確認します。 ジャーニー実行でルールベースのイベント ](../event/about-creating.md)と[ イベント受信](../building-journeys/troubleshooting-execution.md#checking-if-people-enter-the-journey)をトラブルシューティングする方法について説明します。[
 
 * **2番目のジャーニーの準備ができていません** - 2番目のジャーニーがまだアクティブでない場合（テストモードでない、ライブでない場合など）、またはカスタムアクションの実行と2番目のジャーニーの間に受信の準備ができているタイミングのギャップがある場合に、アイドルタイムアウトが発生する可能性があります。 カスタムアクションがトリガーされる前に、ターゲットジャーニーが公開されるか、テストモードであることを確認します。
 

@@ -10,28 +10,15 @@ keywords: 公開, ジャーニー, ライブ, 有効性, 確認
 exl-id: a2892f0a-5407-497c-97af-927de81055ac
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/gIj6jGScvIDgAJxb3B4wiuqP6BKZS0tvCeqC6wRo5IQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
-source-wordcount: 2649
+source-wordcount: 2585
 ht-degree: 92%
 
 ---
@@ -43,7 +30,7 @@ ht-degree: 92%
 >title="ジャーニーの一時停止"
 >abstract="新しいプロファイルがエントリしないように、ライブジャーニーを一時停止します。 ジャーニー内の現在のプロファイルを破棄するか、そのまま保持するかを選択します。 保持した場合、ジャーニーを再開すると、次のアクションアクティビティでプロファイルの実行が再開されます。 進行状況を失うことなく、更新や緊急停止するのに最適です。"
 
-ライブジャーニーを一時停止し、必要なすべての変更を実行し、いつでも再開できます。<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> 一時停止の間、[&#x200B; プロファイル属性の終了条件](#journey-exit-criteria)を適用して、属性に基づいてプロファイルを除外できます。 ジャーニーは、一時停止期間の終了時に自動的に再開されます。 また、[手動で再開](#journey-resume-steps)することもできます。
+ライブジャーニーを一時停止し、必要なすべての変更を実行し、いつでも再開できます。<!--You can choose whether the journey is resumed at the end of the pause period, or whether it stops completely. --> 一時停止の間、[ プロファイル属性の終了条件](#journey-exit-criteria)を適用して、属性に基づいてプロファイルを除外できます。 ジャーニーは、一時停止期間の終了時に自動的に再開されます。 また、[手動で再開](#journey-resume-steps)することもできます。
 
 ## 主なメリット {#journey-pause-benefits}
 
@@ -71,7 +58,7 @@ ht-degree: 92%
 
 1. 現在ジャーニーにあるプロファイルの管理方法を選択します。
 
-   ![「ジャーニーを一時停止」オプション](assets/pause-confirm.png){width="50%" align="left"}
+   ![「ジャーニーを一時停止」オプション](assets/pause-confirm.png){width="50%"}
 
    実行できる操作は、次のとおりです。
 
@@ -84,7 +71,7 @@ ht-degree: 92%
 
 組織の一時停止中ジャーニーに保持できるプロファイルの最大数は、ジャーニーインベントリに表示されます。 1 つ以上のジャーニーを一時停止している場合にのみ表示されます。 また、このインジケーターには、一時停止したジャーニーの合計数も表示されます。 これは 30 分ごとに更新されます。 詳しくは、[ガードレールと制限](#guardrails-and-limitations)を参照してください。
 
-![一時停止したジャーニーと現在一時停止しているプロファイルの数](assets/profiles-in-paused-journeys.png){width="50%" align="left"}
+![一時停止したジャーニーと現在一時停止しているプロファイルの数](assets/profiles-in-paused-journeys.png){width="50%"}
 
 ジャーニーのリストから、1 つまたは複数の&#x200B;**ライブ**&#x200B;ジャーニーを一時停止できます。 ジャーニーのグループを一時停止（_一括一時停止_）するには、リストでジャーニーを選択し、画面下部の青いバーにある「**一時停止**」ボタンをクリックします。 「**一時停止**」ボタンは、**ライブ**&#x200B;ジャーニーを選択した場合にのみ使用できます。
 
@@ -144,7 +131,7 @@ ht-degree: 92%
 * 最後の一時停止と最後の再開を実行したユーザーの表示名と識別子
 * 一時停止したジャーニーの設定（一時停止の動作、最大一時停止の時間、自動再開の状態、一時停止ID）
 
-この情報は、トラブルシューティング、監査、サポートとの共有に役立ちます。 コピーされたフィールドの完全なリストについては、[&#x200B; ジャーニーのプロパティへのアクセス &#x200B;](journey-properties.md#access-properties)を参照してください。
+この情報は、トラブルシューティング、監査、サポートとの共有に役立ちます。 コピーされたフィールドの完全なリストについては、[ ジャーニーのプロパティへのアクセス ](journey-properties.md#access-properties)を参照してください。
 
 ## 一時停止したジャーニーへの終了条件の適用 {#journey-exit-criteria}
 
@@ -182,9 +169,9 @@ ht-degree: 92%
 
 ## ガードレールと制限 {#journey-pause-guardrails}
 
-* ジャーニーバージョンは最大 **14 日間**&#x200B;一時停止できます。一時停止したジャーニーでは、組織全体で最大 **1,000 万のプロファイル**&#x200B;が許可されます。
-この制限は、個別のプロファイルではなく、一時停止したすべてのジャーニーに保持されているプロファイルの合計数をカウントします。 例えば、同じ5M プロファイルが2つの一時停止ジャーニーで保持されている場合、10Mの制限に達します。
-この制限は 30 分ごとに確認されます。 つまり、一時的に 1,000 万のしきい値を超える可能性がありますが、システムが検出すると、追加のプロファイルは自動的に破棄されます。
+* ジャーニーのバージョンは、最大&#x200B;**14日間**&#x200B;一時停止できます。組織全体の一時停止されたジャーニーで許可されるプロファイルは、最大&#x200B;**1000万プロファイル**です。
+この制限は、個別のプロファイルではなく、一時停止したすべてのジャーニーに保持されているプロファイルの合計数をカウントします。例えば、同じ5M プロファイルが2つの一時停止ジャーニーで保持されている場合、10Mの制限に達します。
+この制限は30分ごとにチェックされます。つまり、一時的に1,000万しきい値を超える可能性がありますが、システムがそれを検出すると、追加のプロファイルは自動的に破棄されます。
 
   保留中のプロファイルの数を制限以下に戻すのにジャーニーを再開すると、ジャーニーはすぐに再開されますが、プロファイル数が更新されるまでに最大 30 分かかる場合があります。 その間、システムは、引き続きこれらのプロファイルを一時停止中であると見なす場合があります。
 
@@ -231,7 +218,7 @@ ht-degree: 92%
 
 ## 一時停止したジャーニーでのプロファイル破棄のトラブルシューティング {#discards-troubleshoot}
 
-[[!DNL Adobe Experience Platform]  クエリサービス &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ja){target="_blank"}を使用して、ステップイベントをクエリできます。ステップイベントでは、プロファイルの破棄に関する詳細情報を、発生したタイミングに応じて提供できます。
+[[!DNL Adobe Experience Platform]  クエリサービス ](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ja){target="_blank"}を使用して、ステップイベントをクエリできます。ステップイベントでは、プロファイルの破棄に関する詳細情報を、発生したタイミングに応じて提供できます。
 
 * プロファイルがジャーニーにエントリする前に破棄が発生する場合は、次のコードを使用します。
 

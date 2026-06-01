@@ -10,27 +10,12 @@ level: Experienced
 keywords: アクション, サードパーティ, カスタム, ジャーニー, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
 TQID: https://experienceleague.adobe.com/q4zuwxmF2Gr5P5IkdZCKFHoA18-GGrlLD0f-WPCQ3q4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: c5965ac7ea1465a20335536ebebf409e63bce98b
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 2200
 ht-degree: 88%
@@ -126,7 +111,7 @@ Journey Optimizer では、カスタムアクションにデータガバナン�
 
 カスタムアクションを設定する際に、次の&#x200B;**[!UICONTROL エンドポイント設定]**&#x200B;パラメーターを定義する必要があります。
 
-![](assets/action-response1bis.png){width="70%" align="left"}
+![](assets/action-response1bis.png){width="70%"}
 
 1. 「**[!UICONTROL URL]**」フィールドに、外部サービスの URL を指定します。
 
@@ -136,7 +121,7 @@ Journey Optimizer では、カスタムアクションにデータガバナン�
 
      例：`https://xxx.yyy.com/somethingstatic/`
 
-     URL の動的パスは、カスタムアクションをジャーニーに追加する際に指定します。 [詳細情報](../building-journeys/using-custom-actions.md)
+     URL の動的パスは、カスタムアクションをジャーニーに追加する際に指定します。 [学習を増やす](../building-journeys/using-custom-actions.md)。
 
    >[!NOTE]
    >
@@ -203,15 +188,15 @@ Mutual Transport Layer Security（mTLS）は、Adobe Journey Optimizer カスタ
 
    「**[!UICONTROL NULL 値を許可]**」オプションを有効にして、外部呼び出しで Null 値を保持します。 内のNull値を持つintやstringなどの配列の送信は完全にはサポートされていないことに注意してください。 例えば、次の整数の配列 `[1, null, 2, 3]` は、このオプションがオンになっていても `[1, 2, 3]` として送信されます。 さらに、そのような配列が null の場合は、空の配列として送信されます。
 
-   ![](assets/null-values.png){width="70%" align="left"}
+   ![](assets/null-values.png){width="70%"}
 
 1. **[!UICONTROL 応答]** セクションに、呼び出しが成功したときに返されたペイロードの例を貼り付けます。 このフィールドはオプションで、すべての呼び出しメソッドで使用できます。 カスタムアクションで API 呼び出し応答を活用する方法について詳しくは、[このページ](../action/action-response.md)を参照してください。
 
-   ![](assets/response-values.png){width="70%" align="left"}
+   ![](assets/response-values.png){width="70%"}
 
 1. （オプション）「**[!UICONTROL エラー応答ペイロードを定義]**」を選択して、エラー応答ペイロードフィールドを有効にします。 有効にすると、**[!UICONTROL エラー応答]** セクションを使用して、呼び出しが失敗したときに返されたペイロードの例を貼り付けます。 応答ペイロード（フィールドタイプと形式）と同じ要件が適用されます。 ジャーニー[ここ](../action/action-response.md)でエラー応答ペイロードを活用する方法について説明します。
 
-   ![](assets/response-values.png){width="70%" align="left"}
+   ![](assets/response-values.png){width="70%"}
 
 >[!NOTE]
 >

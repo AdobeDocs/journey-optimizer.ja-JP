@@ -9,24 +9,13 @@ role: User
 level: Beginner, Intermediate
 exl-id: 1fc708e1-a993-4a2a-809c-c5dc08a4bae1
 TQID: https://experienceleague.adobe.com/zGML5v-T-z6d-r8J8lzWBl-bCo7UX9zqH1XTlw42y-k
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c6e980f5-2d4f-494f-beef-186b9ecf1513id: d595a60b-bcf5-4a63-a189-66a0be755cc7id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 1523
 ht-degree: 95%
@@ -55,7 +44,7 @@ ht-degree: 95%
 * 状態（アーカイブ済みかどうか）
 * タグ
 
-![](assets/fragment-list-filters.png){width="90%" align="left"}
+![](assets/fragment-list-filters.png){width="90%"}
 
 また、すべてのフラグメントを表示するか、現在のユーザーが作成または変更した項目のみを表示するかを選択することもできます。
 
@@ -159,7 +148,7 @@ ht-degree: 95%
 
 1. 編集中のフラグメントのステータスが&#x200B;**[!UICONTROL ライブ]**&#x200B;の場合は、「**[!UICONTROL 変更]**」ボタンをクリックしてフラグメントのドラフトバージョンを作成します。 「**[!UICONTROL 確認]**」をクリックします。
 
-   ![](assets/fragment-live-modify.png){width="70%" align="left"}
+   ![](assets/fragment-live-modify.png){width="70%"}
 
    >[!NOTE]
    >
@@ -169,7 +158,7 @@ ht-degree: 95%
 
 1. フラグメントのコンテンツを変更するには、「**[!UICONTROL 編集]**」ボタンをクリックし、フラグメントをゼロから作成する場合と同様にコンテンツを更新します。 [詳しくは、フラグメントの作成方法を参照してください](create-fragments.md#content)
 
-   ![](assets/fragment-edit.png){width="70%" align="left"}
+   ![](assets/fragment-edit.png){width="70%"}
 
    >[!NOTE]
    >
@@ -195,13 +184,13 @@ ht-degree: 95%
 
 1. 「**[!UICONTROL その他のアクション]**」ボタンを使用して、既存のフラグメントを複製します。
 
-   ![](assets/fragment-list-more-actions.png){width="70%" align="left"}
+   ![](assets/fragment-list-more-actions.png){width="70%"}
 
 1. 複製したフラグメントを選択して開き、「**[!UICONTROL 編集]**」ボタンをクリックします。
 
 1. 複製したフラグメントに、パーソナライゼーションフィールドなどの[新しい目的の属性を追加](../personalization/personalization-build-expressions.md#add)します。
 
-   ![](assets/fragment-add-new-attribute.png){width="70%" align="left"}
+   ![](assets/fragment-add-new-attribute.png){width="70%"}
 
 1. 変更を保存し、新しいフラグメントを公開します。 [方法についてはこちらを参照](create-fragments.md#publish)
 
@@ -214,11 +203,11 @@ ht-degree: 95%
 
 フラグメントを現在使用しているジャーニー、キャンペーン、コンテンツテンプレートのリストを表示できます。 これを行うには、フラグメントリストの&#x200B;**[!UICONTROL その他のアクション]**&#x200B;メニューまたはフラグメントのプロパティ画面から「**[!UICONTROL 参照を探索]**」を選択します。
 
-![](assets/fragment-explore-references.png){width="70%" align="left"}
+![](assets/fragment-explore-references.png){width="70%"}
 
 タブを選択して、ジャーニー、キャンペーン、テンプレート、フラグメントを切り替えます。 ステータスを確認し、名前をクリックすると、フラグメントが参照されている対応する項目にリダイレクトされます。
 
-![](assets/fragment-usage-screen.png){width="70%" align="left"}
+![](assets/fragment-usage-screen.png){width="70%"}
 
 >[!NOTE]
 >
@@ -230,7 +219,7 @@ ht-degree: 95%
 
 これを行うには、目的のフラグメントの横にある「**[!UICONTROL その他のアクション]**」ボタンをクリックし、「**[!UICONTROL アーカイブ]**」を選択します。 フラグメントリストから表示されなくなるので、今後のメールやテンプレートでユーザーはフラグメントを使用できなくなります。
 
-![](assets/fragment-list-archive.png){width="70%" align="left"}
+![](assets/fragment-list-archive.png){width="70%"}
 
 >[!NOTE]
 >
@@ -238,7 +227,7 @@ ht-degree: 95%
 
 フラグメントをアーカイブ解除するには、**[!UICONTROL アーカイブ済み]**&#x200B;項目をフィルタリングし、**[!UICONTROL その他のアクション]**&#x200B;メニューから「**[!UICONTROL アーカイブ解除]**」を選択します。 これで、フラグメントリストから再びアクセスし、任意のメールまたはテンプレートで使用できるようになりました。
 
-![](assets/fragment-list-unarchive.png){width="70%" align="left"}
+![](assets/fragment-list-unarchive.png){width="70%"}
 
 ## 別のサンドボックスへのフラグメントのエクスポート {#export}
 

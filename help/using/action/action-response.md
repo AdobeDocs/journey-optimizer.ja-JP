@@ -10,25 +10,15 @@ level: Experienced
 keywords: アクション, サードパーティ, カスタム, ジャーニー, API
 exl-id: d88daa58-20af-4dac-ae5d-4c10c1db6956
 TQID: https://experienceleague.adobe.com/ZW0jTjRYGrbvv1rXP2mx5I2XpuehdGzM7se-6UAUB9I
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
-source-wordcount: 849
-ht-degree: 77%
+source-wordcount: 843
+ht-degree: 75%
 
 ---
 
@@ -90,7 +80,7 @@ The **URL configuration** section has been renamed **Endpoint configuration**.
 
 In the **Method** drop-down, you can now select **GET**.
 
-![](assets/action-response1.png){width="70%" align="left"}
+![](assets/action-response1.png){width="70%"}
 
 ### Payloads {#payloads-new}
 
@@ -103,7 +93,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 > 
 >Both these fields are optional.
 
-![](assets/action-response2.png){width="70%" align="left"}
+![](assets/action-response2.png){width="70%"}
 -->
 
 ## カスタムアクションの設定 {#config-response}
@@ -112,7 +102,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
 1. 「**応答** （成功応答）」フィールド内をクリックします。
 
-   ![](assets/action-response2.png){width="80%" align="left"}
+   ![](assets/action-response2.png){width="80%"}
 
 1. 呼び出しで返されたペイロードの例をペーストします。 フィールドのタイプが正しい（文字列、整数など）ことを確認します。 次に、呼び出し中にキャプチャされた応答ペイロードの例を示します。 ローカルエンドポイントは、ロイヤルティポイントの数と、プロファイルのステータスを送信します。
 
@@ -123,11 +113,11 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
    "points": 1290 }
    ```
 
-   ![](assets/action-response4.png){width="80%" align="left"}
+   ![](assets/action-response4.png){width="80%"}
 
    API が呼び出されるたびに、ペイロードの例に含まれるすべてのフィールドが取得されます。
 
-1. （オプション）エラー応答ペイロードを有効にして、呼び出しが失敗したときに返される形式を取得し、サンプルペイロードを貼り付けます。 これを行うには、カスタムアクション設定で「**エラー応答ペイロードを定義**」を選択します。 ペイロードフィールドの設定について詳しくは、[&#x200B; カスタムアクションの設定](../action/about-custom-action-configuration.md)を参照してください。
+1. （オプション）エラー応答ペイロードを有効にして、呼び出しが失敗したときに返される形式を取得し、サンプルペイロードを貼り付けます。 これを行うには、カスタムアクション設定で「**エラー応答ペイロードを定義**」を選択します。 ペイロードフィールドの設定について詳しくは、[ カスタムアクションの設定](../action/about-custom-action-configuration.md)を参照してください。
 
    ```
    {
@@ -139,7 +129,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
 1. では、クエリパラメーターとして customerID も追加してみましょう。
 
-   ![](assets/action-response9.png){width="80%" align="left"}
+   ![](assets/action-response9.png){width="80%"}
 
 1. 「**保存**」をクリックします。
 
@@ -171,7 +161,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
    >
    >各プロファイルがカスタムアクションに入ると、呼び出しをトリガーします。 応答が常に同じであっても、ジャーニーはプロファイルごとに 1 回の呼び出しを実行します。
 
-1. タイムアウトとエラーの分岐で、条件を追加し、ビルトインの **jo_status_code** フィールドを活用します。 この例では、
+1. タイムアウトとエラーのブランチで、条件を追加し、組み込みの&#x200B;**jo_status_code** フィールドを活用します。この例では、Adobe Analyticsの
    **http_400** エラータイプを使用しています。 [この節](#error-status)を参照してください。
 
    ```
