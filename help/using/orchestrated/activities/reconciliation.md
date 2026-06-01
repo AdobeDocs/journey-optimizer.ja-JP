@@ -6,9 +6,12 @@ description: 調整されたキャンペーンでの紐付けアクティビテ�
 exl-id: 0d5cfffe-bc6c-40bc-b3e1-5b44368ac76f
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/lWFTptRrn3B5r0sHSaN5qCWDLBZC74H3N-7eo8rRgdU
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2:
+  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
 source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
 workflow-type: tm+mt
 source-wordcount: 549

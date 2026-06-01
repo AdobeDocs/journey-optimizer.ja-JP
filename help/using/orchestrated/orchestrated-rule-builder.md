@@ -6,9 +6,11 @@ description: 調整されたキャンペーンのルールの作成方法につ�
 exl-id: fb7a0eb2-b2ff-49fa-af1f-f1c10f219b00
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/-qNlZ2dLqShJwhcIlEe3a9W8eJ-JCoTt8AzT-DU-vJA
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2: 
-subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+subfeature_v2:
+  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
 source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
 workflow-type: tm+mt
 source-wordcount: 340
