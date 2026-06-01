@@ -25,7 +25,7 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 1490
 ht-degree: 96%
@@ -44,7 +44,7 @@ ht-degree: 96%
 
 以下で詳しく説明するように、チャネル設定の専用セクションでメール設定を定義します。
 
-![](assets/surface-email-settings.png){width="50%" align="left"}
+![](assets/surface-email-settings.png){width="50%"}
 
 メール設定は、次のロジックに従って、通信を送信するためにピックアップされます。
 
@@ -85,7 +85,7 @@ ht-degree: 96%
 
 設定に関連付ける IP プールを選択します。 [詳細情報](../configuration/ip-pools.md)
 
-![](assets/surface-subdomain-ip-pool.png){width="50%" align="left"}
+![](assets/surface-subdomain-ip-pool.png){width="50%"}
 
 選択した IP プールが[編集中](../configuration/ip-pools.md#edit-ip-pool)（**[!UICONTROL 処理中]**&#x200B;ステータス）で、選択したサブドメインに関連付けられていない場合は、設定の作成を続行できません。 それ以外の場合は、IP プール／サブドメインの関連付けのうち、最も古いバージョンが引き続き使用されます。 その場合は、設定をドラフトとして保存し、IP プールが&#x200B;**[!UICONTROL 成功]**&#x200B;ステータスになったら再試行します。
 

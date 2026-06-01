@@ -25,10 +25,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
-source-wordcount: 849
-ht-degree: 77%
+source-wordcount: 843
+ht-degree: 75%
 
 ---
 
@@ -90,7 +90,7 @@ The **URL configuration** section has been renamed **Endpoint configuration**.
 
 In the **Method** drop-down, you can now select **GET**.
 
-![](assets/action-response1.png){width="70%" align="left"}
+![](assets/action-response1.png){width="70%"}
 
 ### Payloads {#payloads-new}
 
@@ -103,7 +103,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 > 
 >Both these fields are optional.
 
-![](assets/action-response2.png){width="70%" align="left"}
+![](assets/action-response2.png){width="70%"}
 -->
 
 ## カスタムアクションの設定 {#config-response}
@@ -112,7 +112,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
 1. 「**応答** （成功応答）」フィールド内をクリックします。
 
-   ![](assets/action-response2.png){width="80%" align="left"}
+   ![](assets/action-response2.png){width="80%"}
 
 1. 呼び出しで返されたペイロードの例をペーストします。 フィールドのタイプが正しい（文字列、整数など）ことを確認します。 次に、呼び出し中にキャプチャされた応答ペイロードの例を示します。 ローカルエンドポイントは、ロイヤルティポイントの数と、プロファイルのステータスを送信します。
 
@@ -123,7 +123,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
    "points": 1290 }
    ```
 
-   ![](assets/action-response4.png){width="80%" align="left"}
+   ![](assets/action-response4.png){width="80%"}
 
    API が呼び出されるたびに、ペイロードの例に含まれるすべてのフィールドが取得されます。
 
@@ -139,7 +139,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
 
 1. では、クエリパラメーターとして customerID も追加してみましょう。
 
-   ![](assets/action-response9.png){width="80%" align="left"}
+   ![](assets/action-response9.png){width="80%"}
 
 1. 「**保存**」をクリックします。
 
@@ -171,7 +171,7 @@ The **Action parameters** section has been renamed **Payloads**. Two fields are 
    >
    >各プロファイルがカスタムアクションに入ると、呼び出しをトリガーします。 応答が常に同じであっても、ジャーニーはプロファイルごとに 1 回の呼び出しを実行します。
 
-1. タイムアウトとエラーの分岐で、条件を追加し、ビルトインの **jo_status_code** フィールドを活用します。 この例では、
+1. タイムアウトとエラーのブランチで、条件を追加し、組み込みの&#x200B;**jo_status_code** フィールドを活用します。この例では、Adobe Analyticsの
    **http_400** エラータイプを使用しています。 [この節](#error-status)を参照してください。
 
    ```

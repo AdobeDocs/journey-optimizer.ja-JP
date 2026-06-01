@@ -32,7 +32,7 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 467fa00fa91c2e0f124c9aace8c7e6946dc9dd34
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 1082
 ht-degree: 90%
@@ -79,7 +79,7 @@ ht-degree: 90%
 
   読みやすさを向上させるために、ドライランの実行中はカスタムアクションとチャネルアクティビティがグレー表示されます。
 
-  ![ドライランのジャーニーでグレー表示されているアクションアクティビティ](assets/dry-run-greyed-activities.png){width="80%" align="left"}
+  ![ドライランのジャーニーでグレー表示されているアクションアクティビティ](assets/dry-run-greyed-activities.png){width="80%"}
 
 * ドライラン中は、外部データソースを含む&#x200B;**データソース**&#x200B;と&#x200B;**待機**&#x200B;アクティビティはデフォルトで無効になります。 ただし、[ドライランモードをアクティブ化すると](#journey-dry-run-start)、この動作を変更できます。
 
@@ -107,7 +107,7 @@ ht-degree: 90%
 
 1. **待機**&#x200B;アクティビティと&#x200B;**外部データソース**&#x200B;の呼び出しを有効または無効にする場合は選択し、ドライランの公開を確認します。
 
-   ![ジャーニーのドライラン公開の確認](assets/dry-run-publish.png){width="50%" align="left"}
+   ![ジャーニーのドライラン公開の確認](assets/dry-run-publish.png){width="50%"}
 
    トランジション中は、**[!UICONTROL ドライランをアクティブ化中]**&#x200B;というステータスメッセージが表示されます。
 
@@ -141,7 +141,7 @@ ht-degree: 90%
 1. 「**[!UICONTROL 閉じる]**」ボタンを選択して、テストを終了します。
 最後の24時間とすべての時間レポートへのリンクは、確認画面で利用できます。
 
-   ![ジャーニーのドライラン実行の停止](assets/dry-run-stop.png){width="50%" align="left"}
+   ![ジャーニーのドライラン実行の停止](assets/dry-run-stop.png){width="50%"}
 
 1. 「**[!UICONTROL ドラフトに戻る]**」をクリックして確定します。
 

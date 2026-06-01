@@ -24,7 +24,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 1008
 ht-degree: 95%
@@ -107,7 +107,7 @@ ht-degree: 95%
 1. **[!UICONTROL ジャーニー]**&#x200B;リストで、クローズするジャーニーをクリックします。
 1. 右上の下向き矢印をクリックします。
 
-   ![ジャーニーの終了と代替アクションを示す完了オプションメニュー](assets/finish_drop_down_list.png){width="50%" align="left" zoomable="yes"}
+   ![ジャーニーの終了と代替アクションを示す完了オプションメニュー](assets/finish_drop_down_list.png){width="50%" zoomable="yes"}
 
 1. 「**[!UICONTROL 新規エントリに対してクローズ]**」をクリックし、ダイアログボックスで確定します。
 
@@ -127,7 +127,7 @@ ht-degree: 95%
 1. **[!UICONTROL ジャーニー]**&#x200B;リストで、停止するジャーニーをクリックします。
 1. 右上の下向き矢印をクリックします。
 
-   ![ジャーニーのクローズやクリーンアップを含む追加の終了オプション](assets/finish_drop_down_list2.png){width="50%" align="left" zoomable="yes"}
+   ![ジャーニーのクローズやクリーンアップを含む追加の終了オプション](assets/finish_drop_down_list2.png){width="50%" zoomable="yes"}
 
 1. 「**[!UICONTROL 停止]**」をクリックし、ダイアログボックスで確定します。
 

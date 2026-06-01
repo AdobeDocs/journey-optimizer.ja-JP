@@ -14,7 +14,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 530
 ht-degree: 81%
@@ -31,7 +31,7 @@ ht-degree: 81%
 * [チャネルアクティビティ](#channel)
 * [フロー制御アクティビティ](#flow-control)
 
-![キャンバスで使用できるアクティビティのリスト](../assets/orchestrated-activities.png){width="80%" align="left"}
+![キャンバスで使用できるアクティビティのリスト](../assets/orchestrated-activities.png){width="80%"}
 
 >[!NOTE]
 >
@@ -49,7 +49,7 @@ ht-degree: 81%
 
 これらのアクティビティは、ターゲティングに固有です。 オーディエンスを定義するか、積集合、和集合、除外の各操作を使用して分割または結合することで、1 つまたは複数のターゲットを作成できます。
 
-![ターゲティングアクティビティのリスト](../assets/targeting-activities.png){width="40%" align="left"}
+![ターゲティングアクティビティのリスト](../assets/targeting-activities.png){width="40%"}
 
 使用可能なターゲティングアクティビティは次のとおりです。
 
@@ -81,7 +81,7 @@ Adobe Journey Optimizer を使用すると、複数のチャネル間でマー�
 
 次のアクティビティは、オーケストレーションキャンペーンの整理と実行に固有です。 主なタスクは、他のアクティビティの調整です。
 
-![フロー制御アクティビティのリスト](../assets/flow-control-activities.png){width="20%" align="left"}
+![フロー制御アクティビティのリスト](../assets/flow-control-activities.png){width="20%"}
 
 使用可能なフロー制御アクティビティは次のとおりです。
 

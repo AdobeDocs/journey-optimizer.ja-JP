@@ -26,7 +26,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 1523
 ht-degree: 95%
@@ -55,7 +55,7 @@ ht-degree: 95%
 * 状態（アーカイブ済みかどうか）
 * タグ
 
-![](assets/fragment-list-filters.png){width="90%" align="left"}
+![](assets/fragment-list-filters.png){width="90%"}
 
 また、すべてのフラグメントを表示するか、現在のユーザーが作成または変更した項目のみを表示するかを選択することもできます。
 
@@ -159,7 +159,7 @@ ht-degree: 95%
 
 1. 編集中のフラグメントのステータスが&#x200B;**[!UICONTROL ライブ]**&#x200B;の場合は、「**[!UICONTROL 変更]**」ボタンをクリックしてフラグメントのドラフトバージョンを作成します。 「**[!UICONTROL 確認]**」をクリックします。
 
-   ![](assets/fragment-live-modify.png){width="70%" align="left"}
+   ![](assets/fragment-live-modify.png){width="70%"}
 
    >[!NOTE]
    >
@@ -169,7 +169,7 @@ ht-degree: 95%
 
 1. フラグメントのコンテンツを変更するには、「**[!UICONTROL 編集]**」ボタンをクリックし、フラグメントをゼロから作成する場合と同様にコンテンツを更新します。 [詳しくは、フラグメントの作成方法を参照してください](create-fragments.md#content)
 
-   ![](assets/fragment-edit.png){width="70%" align="left"}
+   ![](assets/fragment-edit.png){width="70%"}
 
    >[!NOTE]
    >
@@ -195,13 +195,13 @@ ht-degree: 95%
 
 1. 「**[!UICONTROL その他のアクション]**」ボタンを使用して、既存のフラグメントを複製します。
 
-   ![](assets/fragment-list-more-actions.png){width="70%" align="left"}
+   ![](assets/fragment-list-more-actions.png){width="70%"}
 
 1. 複製したフラグメントを選択して開き、「**[!UICONTROL 編集]**」ボタンをクリックします。
 
 1. 複製したフラグメントに、パーソナライゼーションフィールドなどの[新しい目的の属性を追加](../personalization/personalization-build-expressions.md#add)します。
 
-   ![](assets/fragment-add-new-attribute.png){width="70%" align="left"}
+   ![](assets/fragment-add-new-attribute.png){width="70%"}
 
 1. 変更を保存し、新しいフラグメントを公開します。 [方法についてはこちらを参照](create-fragments.md#publish)
 
@@ -214,11 +214,11 @@ ht-degree: 95%
 
 フラグメントを現在使用しているジャーニー、キャンペーン、コンテンツテンプレートのリストを表示できます。 これを行うには、フラグメントリストの&#x200B;**[!UICONTROL その他のアクション]**&#x200B;メニューまたはフラグメントのプロパティ画面から「**[!UICONTROL 参照を探索]**」を選択します。
 
-![](assets/fragment-explore-references.png){width="70%" align="left"}
+![](assets/fragment-explore-references.png){width="70%"}
 
 タブを選択して、ジャーニー、キャンペーン、テンプレート、フラグメントを切り替えます。 ステータスを確認し、名前をクリックすると、フラグメントが参照されている対応する項目にリダイレクトされます。
 
-![](assets/fragment-usage-screen.png){width="70%" align="left"}
+![](assets/fragment-usage-screen.png){width="70%"}
 
 >[!NOTE]
 >
@@ -230,7 +230,7 @@ ht-degree: 95%
 
 これを行うには、目的のフラグメントの横にある「**[!UICONTROL その他のアクション]**」ボタンをクリックし、「**[!UICONTROL アーカイブ]**」を選択します。 フラグメントリストから表示されなくなるので、今後のメールやテンプレートでユーザーはフラグメントを使用できなくなります。
 
-![](assets/fragment-list-archive.png){width="70%" align="left"}
+![](assets/fragment-list-archive.png){width="70%"}
 
 >[!NOTE]
 >
@@ -238,7 +238,7 @@ ht-degree: 95%
 
 フラグメントをアーカイブ解除するには、**[!UICONTROL アーカイブ済み]**&#x200B;項目をフィルタリングし、**[!UICONTROL その他のアクション]**&#x200B;メニューから「**[!UICONTROL アーカイブ解除]**」を選択します。 これで、フラグメントリストから再びアクセスし、任意のメールまたはテンプレートで使用できるようになりました。
 
-![](assets/fragment-list-unarchive.png){width="70%" align="left"}
+![](assets/fragment-list-unarchive.png){width="70%"}
 
 ## 別のサンドボックスへのフラグメントのエクスポート {#export}
 

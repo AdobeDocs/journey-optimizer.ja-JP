@@ -28,7 +28,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 3633
 ht-degree: 76%
@@ -391,7 +391,7 @@ ht-degree: 76%
 
 複数の終了条件を追加できます。 出口基準がアクティブになり、ジャーニーの各ステップで評価されます。
 
-![ジャーニー終了のオーディエンス条件を示す終了条件パネル](assets/exitcriteria-sample.png){width="40%" align="left"}
+![ジャーニー終了のオーディエンス条件を示す終了条件パネル](assets/exitcriteria-sample.png){width="40%"}
 
 
 ### プロファイル属性ベースの終了条件 {#profile-exit-criteria}

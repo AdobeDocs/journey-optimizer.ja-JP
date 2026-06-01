@@ -12,7 +12,7 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 1227
 ht-degree: 94%
@@ -163,7 +163,7 @@ ht-degree: 94%
 
 次の例では、2025年10月1日から 2026年1月1日まで毎日、調整されたキャンペーンが 1 日に 2 回（午前 9 時と 12 時に）実行されるようにアクティビティが設定されています。
 
-![キャンペーンが 1 日に 2 回（午前 9 時と午後 12 時に）実行されるように設定されているスケジューラー](assets/scheduler-sample.png){width="50%" align="left"}
+![キャンペーンが 1 日に 2 回（午前 9 時と午後 12 時に）実行されるように設定されているスケジューラー](assets/scheduler-sample.png){width="50%"}
 
 ## 次の手順 {#next}
 

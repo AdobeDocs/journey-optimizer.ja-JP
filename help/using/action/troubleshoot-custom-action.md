@@ -27,7 +27,7 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 1051
 ht-degree: 61%
@@ -40,7 +40,7 @@ Journey Optimizer ユーザーインターフェイスの管理セクション�
 
 管理者は、**[!UICONTROL テストリクエストを送信]**&#x200B;機能を使用し、Adobe Journey Optimizer から直接実際の API 呼び出しを行って、カスタムアクション設定を検証します。 この機能により、リクエスト構造、ヘッダー、認証およびペイロードがジャーニーで使用される前に正しく書式設定されていることが確保されます。
 
-![](assets/send-test-request.png){width="70%" align="left"}
+![](assets/send-test-request.png){width="70%"}
 
 この機能を使用すると、テストと検証のプロセスが効率化され、カスタムアクションがライブジャーニーで正しく機能することが確保されます。
 
@@ -67,7 +67,7 @@ Journey Optimizer ユーザーインターフェイスの管理セクション�
 
 1. **アクション**&#x200B;設定画面に移動し、カスタムアクションを選択します。
 1. アクション設定画面の下部にある「**[!UICONTROL テストリクエストを送信]**」ボタンをクリックします。
-   ![アクション設定パネルの「テストリクエストを送信」ボタン](assets/test-request.png){width="70%" align="left"}
+   ![アクション設定パネルの「テストリクエストを送信」ボタン](assets/test-request.png){width="70%"}
 1. ポップアップウィンドウで、リクエストパラメーターを指定できます。
 
    * **カスタムアクションメソッドは GET です**&#x200B;の場合は、ペイロードは必要ありません。

@@ -30,7 +30,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: c5965ac7ea1465a20335536ebebf409e63bce98b
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 2200
 ht-degree: 88%
@@ -126,7 +126,7 @@ Journey Optimizer では、カスタムアクションにデータガバナン�
 
 カスタムアクションを設定する際に、次の&#x200B;**[!UICONTROL エンドポイント設定]**&#x200B;パラメーターを定義する必要があります。
 
-![](assets/action-response1bis.png){width="70%" align="left"}
+![](assets/action-response1bis.png){width="70%"}
 
 1. 「**[!UICONTROL URL]**」フィールドに、外部サービスの URL を指定します。
 
@@ -136,7 +136,7 @@ Journey Optimizer では、カスタムアクションにデータガバナン�
 
      例：`https://xxx.yyy.com/somethingstatic/`
 
-     URL の動的パスは、カスタムアクションをジャーニーに追加する際に指定します。 [詳細情報](../building-journeys/using-custom-actions.md)
+     URL の動的パスは、カスタムアクションをジャーニーに追加する際に指定します。 [学習を増やす](../building-journeys/using-custom-actions.md)。
 
    >[!NOTE]
    >
@@ -203,15 +203,15 @@ Mutual Transport Layer Security（mTLS）は、Adobe Journey Optimizer カスタ
 
    「**[!UICONTROL NULL 値を許可]**」オプションを有効にして、外部呼び出しで Null 値を保持します。 内のNull値を持つintやstringなどの配列の送信は完全にはサポートされていないことに注意してください。 例えば、次の整数の配列 `[1, null, 2, 3]` は、このオプションがオンになっていても `[1, 2, 3]` として送信されます。 さらに、そのような配列が null の場合は、空の配列として送信されます。
 
-   ![](assets/null-values.png){width="70%" align="left"}
+   ![](assets/null-values.png){width="70%"}
 
 1. **[!UICONTROL 応答]** セクションに、呼び出しが成功したときに返されたペイロードの例を貼り付けます。 このフィールドはオプションで、すべての呼び出しメソッドで使用できます。 カスタムアクションで API 呼び出し応答を活用する方法について詳しくは、[このページ](../action/action-response.md)を参照してください。
 
-   ![](assets/response-values.png){width="70%" align="left"}
+   ![](assets/response-values.png){width="70%"}
 
 1. （オプション）「**[!UICONTROL エラー応答ペイロードを定義]**」を選択して、エラー応答ペイロードフィールドを有効にします。 有効にすると、**[!UICONTROL エラー応答]** セクションを使用して、呼び出しが失敗したときに返されたペイロードの例を貼り付けます。 応答ペイロード（フィールドタイプと形式）と同じ要件が適用されます。 ジャーニー[ここ](../action/action-response.md)でエラー応答ペイロードを活用する方法について説明します。
 
-   ![](assets/response-values.png){width="70%" align="left"}
+   ![](assets/response-values.png){width="70%"}
 
 >[!NOTE]
 >

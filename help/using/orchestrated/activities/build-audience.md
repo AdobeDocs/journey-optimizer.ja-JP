@@ -12,7 +12,7 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 338
 ht-degree: 78%
@@ -63,4 +63,4 @@ ht-degree: 78%
 
 次の例では、**[!UICONTROL オーディエンスを作成]** アクティビティがルールビルダーを使用して、サブスクリプションプランでプロファイルをフィルタリングしています。 `plan`属性に条件を設定して、`plan = "basic"`のプロファイルのみを含め、オーディエンスを次のアクティビティに渡す前に基本階層のサブスクライバーに絞り込みます。
 
-![](../assets/build-audience-plan.png){width="50%" align="left"}
+![](../assets/build-audience-plan.png){width="50%"}

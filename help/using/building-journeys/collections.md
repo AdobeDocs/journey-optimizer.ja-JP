@@ -22,7 +22,7 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
 workflow-type: tm+mt
 source-wordcount: 794
 ht-degree: 94%
@@ -54,7 +54,7 @@ ht-degree: 94%
 
   各項目に複数のフィールドやプロパティが含まれている場合は、オブジェクトコレクションを使用します。 これらは通常、製品の詳細、イベントレコード、項目属性などの構造化データを渡すために使用されます。
 
-  例：
+  次に例を示します。
 
   ```json
   {
@@ -132,7 +132,7 @@ ht-degree: 94%
 
 1. フィールドごとに、ジャーニーキャンバスに表示されるラベルを定義します。
 
-   ![フィルターコレクション関数と条件ビルダーインターフェイス](assets/uc-collection-2.png){width="70%" align="left"}
+   ![フィルターコレクション関数と条件ビルダーインターフェイス](assets/uc-collection-2.png){width="70%"}
 
 1. ジャーニーを作成し、作成したカスタムアクションを追加します。 詳しくは、[このページ](../building-journeys/using-custom-actions.md)を参照してください。
 
@@ -142,7 +142,7 @@ ht-degree: 94%
 
 1. 次のオブジェクトフィールドごとに、ソース XDM スキーマ内の対応するフィールド名を入力します。 名前が同じ場合は、この操作は不要です。 この例では、`product id` と「color」のみを定義する必要があります。
 
-   ![順序設定を含むコレクション並べ替え関数](assets/uc-collection-4.png){width="50%" align="left"}
+   ![順序設定を含むコレクション並べ替え関数](assets/uc-collection-4.png){width="50%"}
 
 配列フィールドの場合は、高度な式エディターを使用してデータ操作を実行することもできます。 次の例では、[filter](functions/list-functions.md#filter) 関数と [intersect](functions/list-functions.md#intersect) 関数を使用しています。
 
@@ -206,7 +206,7 @@ ht-degree: 94%
 
 異種混在タイプと配列の配列の場合、配列は listAny タイプで定義されます。 個々の項目のみをマッピングできますが、配列を変数に変更することはできません。
 
-![混在データタイプとフィールド選択を含む異種混在コレクション](assets/uc-collection-heterogeneous.png){width="70%" align="left"}
+![混在データタイプとフィールド選択を含む異種混在コレクション](assets/uc-collection-heterogeneous.png){width="70%"}
 
 異種混在タイプの例：
 
