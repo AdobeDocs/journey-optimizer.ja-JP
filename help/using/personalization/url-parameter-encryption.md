@@ -9,8 +9,10 @@ role: Admin
 level: Intermediate
 keywords: 暗号化，URL, トラッキング，ランディングページ，キーレジストリ，パーソナライゼーション，セキュリティ，プライバシー，サンドボックス
 exl-id: 82e2b6e4-769f-4bdc-b2e2-19352fbaec8e
-feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2: id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
+feature_v2:
+  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2:
+  - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
 source-git-commit: 39c76d0356b15ec6b9cb9634d080d2f79e591adb
 workflow-type: tm+mt
 source-wordcount: 663
@@ -34,8 +36,8 @@ ht-degree: 2%
 
 ### 仕組み {#how-it-works}
 
-* **管理者**&#x200B;は、組織のセキュリティ ポリシーに従って、キーのレジストリを使用して[ キーを作成](#create-keys)し、[ キーを管理](#manage-keys)します。
-* **マーケター**&#x200B;は、`Encrypt` ヘルパーをパーソナライゼーションエディターに挿入し、保護する値とアクティブなキー識別子をレジストリから渡します。 構文とオプションについては、[このセクション ](functions/helpers.md#url-parameter-encryption-helper)を参照してください。
+* **管理者**&#x200B;は、組織のセキュリティ ポリシーに従って、キーのレジストリを使用して[&#x200B; キーを作成](#create-keys)し、[&#x200B; キーを管理](#manage-keys)します。
+* **マーケター**&#x200B;は、`Encrypt` ヘルパーをパーソナライゼーションエディターに挿入し、保護する値とアクティブなキー識別子をレジストリから渡します。 構文とオプションについては、[このセクション &#x200B;](functions/helpers.md#url-parameter-encryption-helper)を参照してください。
 
 >[!IMPORTANT]
 >
@@ -57,15 +59,15 @@ URL パラメーター暗号化ヘルパーを使用する前に、キーを作�
 
 1. 「**[!UICONTROL 管理]**」ボタンをクリックして、**[!UICONTROL キーレジストリ]**&#x200B;を開きます。
 
-   管理メニュー](assets/encryption-key-registry.png){width="80%"}の「![ キーレジストリ」セクション
+   管理メニュー![&#128279;](assets/encryption-key-registry.png){width="80%"}の「 キーレジストリ」セクション
 
 1. 専用ボタンを使用して、組織の必要に応じてキーを作成します。
 
-   ![ キーレジストリセクション ](assets/encryption-create-key.png){width="80%"}の「キーボタンを作成」ボタン
+   ![&#x200B; キーレジストリセクション &#x200B;](assets/encryption-create-key.png){width="80%"}の「キーボタンを作成」ボタン
 
 1. パーソナライゼーションエディターでチームが参照できる明確なラベルや識別子を割り当てます。
 
-   ![ キーのレジストリ セクション ](assets/encryption-key-details.png){width="80%"}のキーの詳細
+   ![&#x200B; キーのレジストリ セクション &#x200B;](assets/encryption-key-details.png){width="80%"}のキーの詳細
 
 1. 「 **[!UICONTROL 送信]**」をクリックして、変更を確定します。
 
@@ -81,7 +83,7 @@ URL パラメーター暗号化ヘルパーを使用する前に、キーを作�
 
 1. 「**[!UICONTROL アクティブ]**」ステータスのキーをクリックして、キーの詳細を開きます。
 
-   ![ アクティブなキーの詳細](assets/encryption-key-active-details.png){width="80%"}
+   ![&#x200B; アクティブなキーの詳細](assets/encryption-key-active-details.png){width="80%"}
 
 1. 「**[!UICONTROL 失効]**」ボタンをクリックして、新しい暗号化のキーを完全に無効にします。
 
