@@ -32,7 +32,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 99aa72f0a45e504b0a22ca171b2f96e90c28e1af
+source-git-commit: 39c76d0356b15ec6b9cb9634d080d2f79e591adb
 workflow-type: tm+mt
 source-wordcount: 1210
 ht-degree: 25%
@@ -73,4 +73,3 @@ ht-degree: 25%
 | 翻訳サービス | **[!DNL Manage translation in house]**：社内の翻訳を読み取り、作成、編集、削除します。</br>**[!DNL Manage translation projects]**：翻訳プロジェクトを読み取り、作成、編集、削除します。</br> **[!DNL Manage translation reviews]**：翻訳レビューの読み取り、作成、編集、削除。</br>**[!DNL Manage translation settings]**：翻訳設定の読み取り、作成、編集、削除。</br>**[!DNL Manage translation tasks]**：翻訳タスクの読み取り、作成、編集、削除。</br>**[!DNL View translation in house]**：社内での翻訳の読み取り専用アクセス。</br>**[!DNL View translation projects]**：翻訳プロジェクトの読み取り専用アクセス。</br>**[!DNL View translation reviews]**：翻訳レビューの読み取り専用アクセス。</br>**[!DNL View translation tasks]**：翻訳タスクの読みみみみ専用アクセス。 |
 
 {style="table-layout:fixed"}
-

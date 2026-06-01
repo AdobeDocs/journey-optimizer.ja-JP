@@ -23,7 +23,7 @@ role_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d8be8fcb4fb36c583a3d0b4d57f127686d682866
+source-git-commit: 39c76d0356b15ec6b9cb9634d080d2f79e591adb
 workflow-type: tm+mt
 source-wordcount: 1516
 ht-degree: 96%
@@ -682,3 +682,4 @@ The **[!DNL Manage web subdomain]** high-level permission allows users to read, 
       * queries.delete
 
   +++
+
