@@ -12,7 +12,7 @@ version: Journey Orchestration
 badge: label="限定提供" type="Informative"
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4dd5fc79ef209265b1367d414fe6020d9a50064c
 workflow-type: tm+mt
 source-wordcount: 1912
 ht-degree: 5%
