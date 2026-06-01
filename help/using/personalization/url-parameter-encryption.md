@@ -7,25 +7,22 @@ feature: Personalization
 topic: Personalization
 role: Admin
 level: Intermediate
-badge: label="限定提供" type="Informative"
 keywords: 暗号化，URL, トラッキング，ランディングページ，キーレジストリ，パーソナライゼーション，セキュリティ，プライバシー，サンドボックス
 exl-id: 82e2b6e4-769f-4bdc-b2e2-19352fbaec8e
 feature_v2:
   - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0db9be747a60ae40c881227ce7b8da251abec042
 workflow-type: tm+mt
-source-wordcount: 695
-ht-degree: 3%
+source-wordcount: 663
+ht-degree: 2%
 
 ---
 
 # URL パラメーターの暗号化 {#url-parameter-encryption}
 
 >[!AVAILABILITY]
->
->この機能は、制限付き可用性で利用できます。 アクセス権を取得するには、アドビ担当者にお問い合わせください。
 >
 >この機能は現在、メールチャネルでのみ使用できます。
 
@@ -54,15 +51,9 @@ ht-degree: 3%
 
 URL パラメーター暗号化ヘルパーを使用する前に、キーを作成する必要があります。 これを行うには、以下の手順に従います。
 
->[!NOTE]
->
->現在、キーにアクセスして管理するための特定の権限はありません。 **[!UICONTROL 管理]**&#x200B;の&#x200B;**[!UICONTROL 設定]** セクションへのアクセス権を付与する役割は、キーレジストリへのアクセス権も付与します。 ただし、特定の権限は今後のリリースで計画されています。
-
-<!--
 >[!IMPORTANT]
 >
->To access and manage keys, you you must have the **View Key Registry** and **Manage Key Registry** permissions granted. [Learn more](../administration/high-low-permissions.md)
--->
+>キーにアクセスして管理するには、**View Key Registry**&#x200B;および&#x200B;**Manage Key Registry**&#x200B;権限が付与されている必要があります。 [詳細情報](../administration/high-low-permissions.md#administration-permissions)
 
 1. **[!UICONTROL 管理]** > **[!UICONTROL 設定]**&#x200B;に移動します。
 

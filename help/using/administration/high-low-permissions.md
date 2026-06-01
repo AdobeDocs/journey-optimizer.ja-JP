@@ -23,10 +23,10 @@ role_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: d8be8fcb4fb36c583a3d0b4d57f127686d682866
 workflow-type: tm+mt
-source-wordcount: 1457
-ht-degree: 100%
+source-wordcount: 1516
+ht-degree: 96%
 
 ---
 
@@ -194,7 +194,7 @@ ht-degree: 100%
       * experiments.read
       * experiments.write
       * experiments.delete
--->
+     -->
 
 +++
 
@@ -207,10 +207,10 @@ ht-degree: 100%
       * campaign-read
       * campaign-publish
      <!--
-      * experiments.activate
--->
+      * experiments.activate    
+      -->
 
-+++
+  +++
 
 * 「**[!DNL View campaigns report]**」という高レベルの権限を持つユーザーは、キャンペーンレポートを読み取り、編集できます。
 
@@ -222,9 +222,9 @@ ht-degree: 100%
      <!--
       * experiments.read
       * experiments_report.read
--->
+      -->
 
-+++
+  +++
 
 ## 意思決定管理リソース {#decisions-permissions}
 
@@ -352,6 +352,16 @@ ht-degree: 100%
 
   +++
 
+* **[!DNL Manage key registry]**&#x200B;の高レベル権限を持つユーザーは、キーレジストリ内のキーを表示、作成、回転、取り消すことができます。
+
+  +++ この権限には、次の低レベルの権限が含まれます。  
+
+   * Journey Optimizer 固有：
+      * key-registry.read
+      * key-registry.write
+
+  +++
+
 * 「**[!DNL Manage landing page settings]**」という高レベルの権限を持つユーザーは、ランディングページのサブドメインとプリセット設定の読み取り、作成および編集を行うことができます。
 
   +++ この権限には、次の低レベルの権限が含まれます。 
@@ -408,7 +418,7 @@ ht-degree: 100%
 
   +++
 
-* 「**[!DNL Manage Seedlist]**」という高レベルの権限を持つユーザーは、シードリストの読み取り、作成、編集、削除を行うことができます。
+* **[!DNL Manage seed lists]**&#x200B;の高レベル権限を持つユーザーは、シードリストを読み取り、作成、編集、削除できます。
 
   +++ この権限には、次の低レベルの権限が含まれます。 
 
@@ -459,6 +469,15 @@ ht-degree: 100%
    * Journey Optimizer 固有：
 
       * file_routing.read
+
+  +++
+
+* **[!DNL View key registry]**&#x200B;の高レベル権限を持つユーザーは、キーのレジストリ リストとキーの詳細を表示できます。
+
+  +++ この権限には、次の低レベルの権限が含まれます。  
+
+   * Journey Optimizer 固有：
+      * key-registry.read
 
   +++
 

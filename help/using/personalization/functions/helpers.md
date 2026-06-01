@@ -9,10 +9,10 @@ exl-id: b08dc0f8-c85f-4aca-85eb-92dc76b0e588
 feature_v2:
   - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: aba0c6daa1f1f1258b424bc5b57fbca694dfabbf
 workflow-type: tm+mt
-source-wordcount: 1198
-ht-degree: 54%
+source-wordcount: 1121
+ht-degree: 50%
 
 ---
 
@@ -32,8 +32,8 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 
 ## 条件{#if-function}
 
-`if` ヘルパーを使用して、条件ブロックを定義します。
-式の評価結果が true の場合、ブロックはレンダリングされます。true でない場合はスキップされます。
+`if` ヘルパーは、条件付きブロックを定義するために使用されます。
+式の評価がtrueを返した場合、ブロックはレンダリングされ、そうでない場合はスキップされます。
 
 **構文**
 
@@ -42,8 +42,8 @@ Hello {%=profile.personalEmail.name.firstName ?: "there" %}!
 <a href="https://www.adobe.com/academia">Check out this link</a>
 ```
 
-`if` ヘルパーの後に、`else` ステートメントを入れて、その条件の結果が false の場合に実行するコードのブロックを指定することもできます。
-`elseif` ステートメントは、最初のステートメントが false を返した場合にテストする新しい条件を指定します。
+`if` ヘルパーに続いて、`else` ステートメントを入力して、同じ条件がfalseの場合に実行するコードブロックを指定できます。
+`elseif` ステートメントは、最初のステートメントがfalseを返すかどうかをテストするための新しい条件を指定します。
 
 
 **形式**
@@ -136,9 +136,9 @@ Some edu specific content
 
 ## Each{#each}
 
-`each` ヘルパーを使用して、配列に対して反復処理を行います。
+`each` ヘルパーは、配列の反復処理に使用されます。
 ヘルパーの構文は`{{#each ArrayName}}` YourContent `{{/each}}`です。
-ブロック内のキーワード **this**&#x200B;を使用して、個々の配列項目を参照できます。 配列の要素のインデックスは、`{{@index}}` を使用してレンダリングできます。
+ブロック内のキーワード **this**&#x200B;を使用して、個々の配列項目を参照できます。配列の要素のインデックスは、`{{@index}}`を使用してレンダリングできます。
 
 **構文**
 
@@ -333,8 +333,6 @@ with は、長い変数名に短い別名を付ける場合にも使用できま
 ## 暗号化 {#url-parameter-encryption-helper}
 
 >[!AVAILABILITY]
->
->この機能は、制限付き可用性で利用できます。 アクセス権を取得するには、アドビ担当者にお問い合わせください。
 >
 >この機能は現在、メールチャネルでのみ使用できます。
 

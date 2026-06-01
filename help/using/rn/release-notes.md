@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: de8def41d4f0860456923adc959e76acb790158a
+source-git-commit: 11d7941699213e9a0f3172bea2f4f46f303741bc
 workflow-type: tm+mt
-source-wordcount: 3075
+source-wordcount: 3164
 ht-degree: 17%
 
 ---
@@ -446,6 +446,14 @@ ht-degree: 17%
 * **Adobe Experience Managerセレクターでの組織間のリポジトリアクセス** - Assetsアセットセレクター内で、複数の組織のリポジトリから直接アセットをシームレスに選択できるようになりました。
 
 ### 管理 {#may-26-admin}
+
+* **URL パラメーターの暗号化** - メールメッセージに追加されたトラッキングおよびランディングページのリンクで、URL パラメーターを暗号化できるようになりました。 これにより、機密性の高いパラメーターデータのセキュリティレイヤーが追加されます。 この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。 [詳細情報](../personalization/url-parameter-encryption.md)
+
+  ご利用いただけます：2026年6月1日（PT）
+
+* **キーレジストリの新しい権限** - URL パラメーターの暗号化に必要なキーにアクセスして管理するには、2つの新しい権限が必要になりました：**キーレジストリの管理**&#x200B;と&#x200B;**キーレジストリの表示**。 [詳細情報](../administration/high-low-permissions.md#administration-permissions)
+
+  ご利用いただけます：2026年6月1日（PT）
 
 +++ 近日リリース予定 – **以下の情報は変更される可能性があります。**
 

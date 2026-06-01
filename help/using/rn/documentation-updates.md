@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 3b761a8741061aac35ed39c6bb41bd00ab9cbcaf
+source-git-commit: 11d7941699213e9a0f3172bea2f4f46f303741bc
 workflow-type: tm+mt
-source-wordcount: 8040
-ht-degree: 89%
+source-wordcount: 8083
+ht-degree: 88%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 89%
 このページでは、毎月のリリースの機能と改善点に関連する更新に加えて、[!DNL Journey Optimizer] ドキュメントの最新の変更点をすべて一覧表示しています。
 
 ## 2026年5月 {#may-2026}
+
+* 2つの新しい高レベル権限が追加されました。ユーザーがキーレジストリのキーを表示、作成、回転、取り消すことができる&#x200B;**キーレジストリを管理**&#x200B;し、ユーザーがキーレジストリのリストとキーの詳細を表示できる&#x200B;**キーレジストリを表示**&#x200B;します。 [詳細情報](../administration/high-low-permissions.md#administration-permissions)
 
 * メッセージで決定ポリシーを使用&#x200B;**ドキュメントでは、キャンペーンの概要から決定ポリシーの完全な構造を表示し、トラブルシューティングのためにJSON テクニカルサマリーをクリップボードにコピーする方法について説明しています。**&#x200B;[詳細情報](../experience-decisioning/use-decision-policy.md#decision-policy-summary)
 
