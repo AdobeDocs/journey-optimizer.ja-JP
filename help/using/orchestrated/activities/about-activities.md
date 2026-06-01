@@ -10,15 +10,14 @@ product_v2:
   - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
 workflow-type: tm+mt
 source-wordcount: 530
-ht-degree: 68%
+ht-degree: 81%
 
 ---
 
@@ -73,12 +72,12 @@ Adobe Journey Optimizer を使用すると、複数のチャネル間でマー�
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_end"
 >title="終了アクティビティ"
->abstract="**End** アクティビティは、キャンバス上のブランチの終わりを示します。 オプションで、**外部信号**&#x200B;を使用して、下流のオーケストレーションされたキャンペーンを開始し、ブランチが完了したときにパラメーターを渡します。 [詳細情報](../trigger-orchestrated-campaign.md#signal-end)"
+>abstract="**終了**&#x200B;アクティビティは、キャンバス上の分岐の終了をマークします。 オプションで、**外部シグナル**&#x200B;を使用して、下流のオーケストレーションキャンペーンを開始し、分岐が完了したときにパラメーターを渡します。 [詳細情報](../trigger-orchestrated-campaign.md#signal-end)"
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_signal"
 >title="外部シグナル"
->abstract="このブランチが終了したときに開始する下流のオーケストレーションキャンペーンを選択し、シグナルで送信するパラメーター名と値をマッピングします。 このキャンペーンが終了アクティビティに達する前に、ダウンストリームキャンペーンを&#x200B;**シグナルによってトリガーされ**&#x200B;公開する必要があります。 [詳細情報](../trigger-orchestrated-campaign.md#signal-end)"
+>abstract="この分岐が終了したときに開始する下流のオーケストレーションキャンペーンを選択し、シグナルで送信するパラメーター名と値をマッピングします。 このキャンペーンが終了アクティビティに到達する前に、下流のキャンペーンを「**シグナルでトリガー済み**」に設定する必要があります。 [詳細情報](../trigger-orchestrated-campaign.md#signal-end)"
 
 次のアクティビティは、オーケストレーションキャンペーンの整理と実行に固有です。 主なタスクは、他のアクティビティの調整です。
 

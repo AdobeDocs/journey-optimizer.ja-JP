@@ -8,11 +8,10 @@ topic: Building campaigns
 role: User
 level: Intermediate
 version: Campaign Orchestration
-feature_v2:
-  - id: b423a773-0a58-4a77-b65d-3dd4ae6ef841
+feature_v2: 
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
 workflow-type: tm+mt
 source-wordcount: 518
 ht-degree: 23%
