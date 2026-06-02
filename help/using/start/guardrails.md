@@ -9,12 +9,21 @@ level: Intermediate
 mini-toc-levels: 1
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 TQID: https://experienceleague.adobe.com/k4DqGogrTZ9QrnqyFGwdgDeUI9ivpOd1iSI0c5comuU
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: ad78185d-8f79-40ad-9bad-cbde74af74ee
-subfeature_v2: id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+subfeature_v2:
+  - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 065e2f48fbd5b7adedd4fba15bd8b4363f59cd91
 workflow-type: tm+mt
 source-wordcount: 4490
@@ -135,7 +144,7 @@ Journey Optimizer では、キャンペーンで 1 秒あたり 500 件のトラ
 
 ### AI アシスタントのガードレール {#ai-assistant-g}
 
-サポートされているチャネル（電子メール、プッシュ通知、web、SMS）およびパーソナライゼーションエディターの制限を含む、**AI アシスタントによるコンテンツ生成**&#x200B;のガードレールと制限は、[このページ ](../content-management/gs-generative.md#generative-guardrails)に記載されています。
+サポートされているチャネル（電子メール、プッシュ通知、web、SMS）およびパーソナライゼーションエディターの制限を含む、**AI アシスタントによるコンテンツ生成**&#x200B;のガードレールと制限は、[このページ &#x200B;](../content-management/gs-generative.md#generative-guardrails)に記載されています。
 
 ### ランディングページガードレール {#lp-guardrails}
 
@@ -194,7 +203,7 @@ Journey Optimizer のサブドメインデリゲーションに適用される�
 
 * ジャーニー 1 つあたりのアクティビティ数は 50 に制限されます。 アクティビティの数は、ジャーニーキャンバスの左上に表示されます。
 
-  この制限に近いジャーニーでは、編集と公開のパフォーマンスが低下し、保存または検証のエラーが発生する可能性があります。 この場合、[ ジャンプアクティビティ ](../building-journeys/jump.md)を使用してジャーニーを小さなサブジャーニーに分割するか、新しいバージョンで再作成します。 アクティビティ制限を増やすことはできません。
+  この制限に近いジャーニーでは、編集と公開のパフォーマンスが低下し、保存または検証のエラーが発生する可能性があります。 この場合、[&#x200B; ジャンプアクティビティ &#x200B;](../building-journeys/jump.md)を使用してジャーニーを小さなサブジャーニーに分割するか、新しいバージョンで再作成します。 アクティビティ制限を増やすことはできません。
 
 * デフォルトでは、一度に実行できるライブ／一時停止／ドライランのジャーニーの数は 100 に制限されています。  ジャーニーの現在の数は、ジャーニーキャンバスの上に表示されます。
 * ジャーニーを公開すると、最大のスループットと安定性を確保するために自動的にスケールと調整が行われます。 一度に 100 のライブジャーニーというマイルストーンに近づくと、この達成に関する通知が UI に表示されるのがわかります。 この通知が表示され、一度に 100 のライブジャーニーを超えてジャーニーを拡張する必要がある場合は、カスタマーケアのチケットを作成してください。アドビが目標の達成をお手伝いします。
@@ -231,7 +240,7 @@ Journey Optimizer のサブドメインデリゲーションに適用される�
 * 必要に応じて、ジャーニーをより小さいジャーニーに分割することを考慮します。
 * 組織でより高い制限が必要だと思われる場合は、アドビ担当者にお問い合わせください。
 
-公開前にジャーニーの現在のペイロードサイズを監視するには、ジャーニープロパティパネルの「**[!UICONTROL 現在のジャーニーペイロードサイズ]**」インジケーターを使用します。 [ ジャーニーペイロードのサイズを確認する方法について説明します](../building-journeys/journey-properties.md#journey-payload-size)
+公開前にジャーニーの現在のペイロードサイズを監視するには、ジャーニープロパティパネルの「**[!UICONTROL 現在のジャーニーペイロードサイズ]**」インジケーターを使用します。 [&#x200B; ジャーニーペイロードのサイズを確認する方法について説明します](../building-journeys/journey-properties.md#journey-payload-size)
 
 ### 単一ジャーニーのパッケージ制限の選択 {#select-package-limitations}
 
@@ -345,7 +354,7 @@ Adobe Experience Platform では、API ベースのプロファイルの作成�
 
 ジャーニーの処理率とスループット制限について詳しくは、[この節](../building-journeys/entry-management.md#journey-processing-rate)を参照してください。
 
-ストリーミングとバッチオーディエンスの推奨事項やコンポジションのオーディエンス制限など、その他のガードレールは、[このページ ](../building-journeys/audience-qualification-events.md#audience-qualification-guardrails)に記載されています。
+ストリーミングとバッチオーディエンスの推奨事項やコンポジションのオーディエンス制限など、その他のガードレールは、[このページ &#x200B;](../building-journeys/audience-qualification-events.md#audience-qualification-guardrails)に記載されています。
 
 #### キャンペーンアクティビティ {#ac-g}
 
