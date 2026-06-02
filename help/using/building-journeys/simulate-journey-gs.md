@@ -12,9 +12,9 @@ version: Journey Orchestration
 hide: true
 feature_v2: []
 subfeature_v2: []
-source-git-commit: e444e235c4530b3c3e9bf2f3f410732bf5fee698
+source-git-commit: 62ae2ce8fc9eeea58a2f4028a34492276723e98a
 workflow-type: tm+mt
-source-wordcount: 1028
+source-wordcount: 1031
 ht-degree: 4%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 4%
 
 Adobe Journey Optimizerでは、ジャーニーをテストおよび検証する2つの方法があります。
 
-* **[シミュレーション](#test-users)**: Adobe Experience Platformで事前に作成されたプロファイルを使用せずにクイック実行するには、**[!UICONTROL シミュレーション]** ジャーニー機能とシミュレートされたユーザーを使用します。
+* **[シミュレーション](#test-users)**: Adobe Experience Platformで&#x200B;**[!UICONTROL シミュレーション]**&#x200B;機能とシミュレートされたユーザーを使用し、事前に作成されたプロファイルを持たないユーザーを、AIを活用したユーザーと手動で作成されたユーザーの両方をサポートします。
 
 * **[テストモード](testing-the-journey.md)**: Adobe Experience Platformでテストプロファイルとしてフラグ付けされた永続的なプロファイルを使用します。セッション間で再利用可能です。 あらかじめ定義された一貫性のあるデータが必要な場合は、このアプローチを選択します。 [テストプロファイルの作成方法の詳細情報](../audience/creating-test-profiles.md)。
 
@@ -91,8 +91,7 @@ Adobe Journey Optimizerでは、ジャーニーをテストおよび検証する
 | 補足ID （複数回の再入力） | 同時再エントリ（同じシミュレートされたユーザーに対して複数のアクティブなインスタンス）では、**[!UICONTROL シミュレーション]**&#x200B;を開始できません。 |
 | コンテンツ決定ノード | ジャーニーをシミュレートする前に、このアクティビティを削除または変更する必要があります。 |
 | データセットのルックアップ | キーによる顧客データセットの検索はサポートされていません。このアクティビティを含むジャーニーは&#x200B;**[!UICONTROL シミュレーション]**&#x200B;で実行できません。 |
-| パスの実験（最適化 – 実験のバリアント） | **[!UICONTROL シミュレーション]**&#x200B;ではサポートされていません。 **[!UICONTROL 条件]**&#x200B;の下に存在していたフロー（データソース条件など）に対しては、**[!UICONTROL 最適化]**&#x200B;を引き続き使用できます。 |
-| パスのターゲティング（最適化、ターゲティングルールのバリエーション） | **[!UICONTROL シミュレーション]**&#x200B;ではサポートされていません。 |
+| **[!UICONTROL 最適化]** アクティビティ | 次の&#x200B;**[!UICONTROL Optimize]** メソッドは、**[!UICONTROL シミュレーション]**&#x200B;ではサポートされていません：**[!UICONTROL 実験]**、**[!UICONTROL ターゲティングルール]**、**[!UICONTROL パーセンテージ分割]**、**[!UICONTROL 時間条件]**、**[!UICONTROL 条件]**、**[!UICONTROL 日付条件]**、**[!UICONTROL プロファイルキャップ]**、および&#x200B;**[!UICONTROL 外部データSource]**。 シミュレーションを実行する前に、ノードを削除または変更します。 |
 | 外部オーディエンス属性の強化 | この検証がアクティブな場合、外部オーディエンスソースからパーソナライズされた属性を使用するジャーニーは&#x200B;**[!UICONTROL シミュレーション]**&#x200B;で開始されません。 |
 
 +++

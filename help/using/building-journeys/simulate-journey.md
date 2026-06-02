@@ -12,9 +12,9 @@ version: Journey Orchestration
 badge: label="限定提供" type="Informative"
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 4dd5fc79ef209265b1367d414fe6020d9a50064c
+source-git-commit: 62ae2ce8fc9eeea58a2f4028a34492276723e98a
 workflow-type: tm+mt
-source-wordcount: 1912
+source-wordcount: 1910
 ht-degree: 5%
 
 ---
@@ -182,8 +182,7 @@ Adobe Journey Optimizerでは、ジャーニーをテストおよび検証する
 | 補足ID （複数回の再入力） | 同時再エントリ（同じシミュレートされたユーザーに対して複数のアクティブなインスタンス）では、**[!UICONTROL シミュレーション]**&#x200B;を開始できません。 |
 | コンテンツ決定ノード | ジャーニーをシミュレートする前に、このアクティビティを削除または変更する必要があります。 |
 | データセットのルックアップ | キーによる顧客データセットの検索はサポートされていません。このアクティビティを含むジャーニーは&#x200B;**[!UICONTROL シミュレーション]**&#x200B;で実行できません。 |
-| パスの実験（最適化 – 実験のバリアント） | **[!UICONTROL シミュレーション]**&#x200B;ではサポートされていません。 **[!UICONTROL 条件]**&#x200B;の下に存在していたフロー（データソース条件など）に対しては、**[!UICONTROL 最適化]**&#x200B;を引き続き使用できます。 |
-| パスのターゲティング（最適化、ターゲティングルールのバリエーション） | **[!UICONTROL シミュレーション]**&#x200B;ではサポートされていません。 |
+| **[!UICONTROL 最適化]** アクティビティ | 次の&#x200B;**[!UICONTROL Optimize]** メソッドは、**[!UICONTROL シミュレーション]**&#x200B;ではサポートされていません：**[!UICONTROL 実験]**、**[!UICONTROL ターゲティングルール]**、**[!UICONTROL パーセンテージ分割]**、**[!UICONTROL 時間条件]**、**[!UICONTROL 条件]**、**[!UICONTROL 日付条件]**、**[!UICONTROL プロファイルキャップ]**、および&#x200B;**[!UICONTROL 外部データSource]**。 シミュレーションを実行する前に、ノードを削除または変更します。 |
 | 外部オーディエンス属性の強化 | この検証がアクティブな場合、外部オーディエンスソースからパーソナライズされた属性を使用するジャーニーは&#x200B;**[!UICONTROL シミュレーション]**&#x200B;で開始されません。 |
 
 +++
