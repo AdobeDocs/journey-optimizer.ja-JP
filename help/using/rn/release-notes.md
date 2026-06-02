@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 6a889427ef6b4ff1ee86bd648d6bf0bf55547be6
+source-git-commit: 53c18170018fa7489bf09f0ba652b66f441967ac
 workflow-type: tm+mt
-source-wordcount: 2891
-ht-degree: 18%
+source-wordcount: 2561
+ht-degree: 21%
 
 ---
 
@@ -97,19 +97,20 @@ ht-degree: 18%
 
 今後数日または数週間で、次のジャーニー機能が提供される予定です。
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>ジャーニーパスの最適化 – ターゲティング（一般提供）</strong><br/></th>
+<th><strong>Journey path optimization – Targeting (General Availability)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>新しい<strong>Optimize</strong> ノードを使用して、特定のオーディエンスをターゲットにして、ビジネス中心のKPIを満たすのに最適なパスを決定します。</p>
-<p>このツールを活用すれば、一対一のレベルで共感を呼ぶ可能性が高い、より効果的なマーケティング施策を策定し、顧客のマーケティングパーソナライゼーション活動を改善して、コンバージョンや収益などの重要な顧客エンゲージメント KPIを強化できます。</p>
-<p>以前は制限付き可用性で使用されていましたが、この機能はすべての環境で使用できるようになりました。</p>
-<p>ご利用いただけます：2026年6月1日（PT）</p>
+<p>Use the new <strong>Optimize</strong> node to target specific audiences to determine the best path to meet your business-centric KPIs.</p>
+<p>This tool allows you to develop more effective marketing campaigns that are more likely to resonate at the 1:1 level, improve marketing personalization efforts for customers and enhance critical customer engagement KPIs, such as conversions and revenue.</p>
+<p>Previously available in Limited Availability, this capability is now available to all environments.</p>
+<p>Availability date: June 1, 2026</p>
 </td>
 </tr>
 </tbody>
@@ -118,19 +119,20 @@ ht-degree: 18%
 <table>
 <thead>
 <tr>
-<th><strong>ジャーニー仲裁 – ランキング式（一般提供）</strong><br/></th>
+<th><strong>Journey Arbitration – ranking formulas (General Availability)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>式を使用して、顧客プロファイルの属性と文脈要因にもとづいて、ジャーニーの優先順位スコアを自動的に高め、顧客が最も関連性の高いジャーニーに確実に参入できるようにしました。</p>
-<p>以前は制限付き可用性で使用されていましたが、この機能はすべての環境で使用できるようになりました。</p>
-<p>ご利用いただけます：2026年6月1日（PT）</p>
+<p>You can now use formulas to automatically boost journey priority scores based on customer profile attributes and contextual factors, ensuring customers enter the most relevant journeys.</p>
+<p>Previously available in Limited Availability, this capability is now available to all environments.</p>
+<p>Availability date: June 1, 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
+-->
 
 <table>
 <thead>
@@ -250,13 +252,15 @@ The following orchestrated campaign capability is expected in the upcoming days 
 
   ご利用いただけます：2026年6月1日（PT）
 
-+++ 近日リリース予定 – **以下の情報は変更される可能性があります。**
+<!--
++++ Coming soon — **Information below is subject to change.**
 
-* **キャンペーンのデフォルトの実行フィールドを上書き** – 以前はジャーニーレベルで使用されていましたが、キャンペーンのパラメーターで、メール、SMS、WhatsApp配信にグローバルに設定されているデフォルトの実行フィールドを上書きできるようになりました。
+* **Override the default execution field in campaigns** - Previously available at the journey level, you can now override the default execution field set globally for your Email, SMS and WhatsApp deliveries in the campaign parameters.
 
-  ご利用いただけます：2026年5月22日（PT）
+  Availability date: Early June, 2026
 
 +++
+-->
 
 ### 決定 {#may-26-decisioning}
 
@@ -309,7 +313,7 @@ The following orchestrated campaign capability is expected in the upcoming days 
 <td>
 <p>決定ポリシーをダイレクトメールジャーニーおよびキャンペーンに追加できるようになりました。 決定ポリシーは、決定エンジンを活用して、各オーディエンスメンバーに最適なコンテンツを動的に返すオファーのコンテナです。 ダイレクトメール決定は、バッチ決定のユースケースもサポートしており、特定のAdobe Experience Platform オーディエンス内の各プロファイルに対応するオファー項目を書き出すことができます。</p>
 <!--<p><img src="assets/do-not-localize/exd-dm.gif"></p>-->
-<p>ご利用いただけます：2026年6月1日（PT）</p>
+<p>利用開始日：2026年6月上旬</p>
 </td>
 </tr>
 </tbody>
@@ -457,23 +461,15 @@ The following orchestrated campaign capability is expected in the upcoming days 
 
   ご利用いただけます：2026年6月1日（PT）
 
-+++ 近日リリース予定 – **以下の情報は変更される可能性があります。**
+<!--
++++ Coming soon — **Information below is subject to change.**
 
-* **メッセージフィードバックイベントデータセットがバッチ取り込みに移行** - `AJO Message Feedback Event Dataset`はストリーミングモードからバッチ取り込みモードに移行中です。 この変更により、データ取り込みがストリーミング取り込み制限を超えないことが保証されます。 このデータセットをCustomer Journey Analytics レポートで使用する場合や、このデータセットに対してクエリを実行する場合は、最大2時間のデータ遅延が発生すると予想されます。
+* **Message Feedback Event Dataset moving to batch ingestion** - The `AJO Message Feedback Event Dataset` is transitioning from streaming to batch ingestion mode. This change ensures that data ingestion does not exceed streaming ingestion limits. If you use this dataset in Customer Journey Analytics reports or run queries against it, expect an increase in data latency of up to 2 hours going forward.
 
-  ご利用いただけます：2026年6月1日（PT）
-
-+++
-
-### レポート {#may-26-reporting}
-
-+++ 近日リリース予定 – **以下の情報は変更される可能性があります。**
-
-* **電子メールとSMS レポートのボットクリックを除外** – 電子メールとSMS レポートから人間ではない（ボット）インタラクションを除外するための新しい見積もり指標が利用可能になりました。 これには、推定クリック数、クリックスルー率（CTR）、クリックして開く率（CTOR）などが含まれ、実際の顧客エンゲージメントをより正確に把握することができます。 既存の指標は変更されず、これらの新しい指標を現在のレポートと併用することで、分析を改善できます。
-
-  ご利用いただけます：2026年6月1日（PT）
+  Availability date: June 1, 2026
 
 +++
+-->
 
 ### ユーザビリティの向上 {#may-26-usability}
 
@@ -509,6 +505,6 @@ The following orchestrated campaign capability is expected in the upcoming days 
 
 * ジャーニーとキャンペーンの&#x200B;**フォルダー** - ジャーニーとキャンペーンをフォルダーに整理して、インターフェイスのナビゲーションと管理を改善できるようになりました。
 
-  ご利用いただけます：2026年6月2日（PT）
+  利用開始日：2026年6月上旬
 
 +++
