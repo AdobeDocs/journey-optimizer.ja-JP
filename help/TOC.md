@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: e444e235c4530b3c3e9bf2f3f410732bf5fee698
+source-git-commit: 73b27e22b6ebcfd3fb85e18e6f3dc651fa9b4fe5
 workflow-type: tm+mt
-source-wordcount: '3343'
+source-wordcount: '3346'
 ht-degree: 95%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 95%
       + {hide-from-toc}[以前のリリースノート](/help/rp_landing_pages/previous-rn-new-landing-page.md)
       + [2026](using/rn/release-notes-2026.md)
       + [2025](using/rn/release-notes-2025.md)
-      + [2024年](using/rn/release-notes-2024.md)
+      + {hide-from-toc}[2024](using/rn/release-notes-2024.md)
       + {hide-from-toc}[2023](using/rn/release-notes-2023.md)
       + {hide-from-toc}[2022](using/rn/release-notes-2022.md)
       + {hide-from-toc}[2021](using/rn/release-notes-2021.md)
@@ -38,6 +38,7 @@ ht-degree: 95%
       + [AI とインテリジェント機能](using/start/ai-features.md)
       + [主な用語](using/start/terminology.md)
       + [ガードレールと制限](using/start/guardrails.md)
+      + {hide-from-toc}[&#x200B; パッケージごとの機能](using/start/ajo-packages.md)
    + はじめに（役割別） {#by-role}
       + [役割と責務](using/start/quick-start.md)
       + [管理者向けの基本を学ぶ](using/start/path/administrator.md)
