@@ -25,10 +25,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d5bd22d50b503737428e63285eb0e04e20c5c76
 workflow-type: tm+mt
-source-wordcount: 1627
-ht-degree: 87%
+source-wordcount: 1703
+ht-degree: 83%
 
 ---
 
@@ -114,7 +114,7 @@ HTML コンポーネントの場合、特定の要素のみを編集可能なフ
 
    ![](assets/fragment-add-helper.png)
 
-1. `"name"` を一意の ID に置き換えて、編集可能フィールドを識別します。
+1. `"name"` を編集可能フィールドを識別する一意の ID に置き換えます。
 
    >[!NOTE]
    >
@@ -166,12 +166,18 @@ HTML コンポーネントの場合、特定の要素のみを編集可能なフ
 >[!CONTEXTUALHELP]
 >id="ajo_editable_fragment_compatibility"
 >title="レガシーフラグメント"
->abstract="このフラグメントの編集可能なフィールドは、テキストのみのモードです。 変換しない限り、このフラグメントをメールで編集する際には、プレーンテキストのみを入力できます。太字、斜体、ハイパーリンク、改行などのリッチテキストはサポートされていません。 コンポーネントの<b>Convert</b>をクリックして、HTML互換モードにアップグレードします。"
+>abstract="このフラグメントの編集可能なフィールドは、テキストのみのモードです。 つまり、このフラグメントをメールで編集する際には、プレーンテキストのみを入力できます。太字、斜体、ハイパーリンク、改行などのリッチテキストはサポートされていません。 「<b>HTML モードに切り替え</b>」をクリックして、電子メールでフラグメントを使用する際に、編集可能なフィールドでリッチテキストを有効にします。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_editable_field_compatibility"
+>title="レガシーフラグメント"
+>abstract="この編集可能フィールドはテキストのみのモードです。 リッチテキスト形式（太字、斜体、ハイパーリンク、改行など） は、フラグメントをHTML互換モードにアップグレードするまで使用できません。 フラグメント本文の設定に移動し、<b>HTML モードに切り替え</b>をクリックして、リッチテキスト編集を有効にします。"
+>additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="フラグメントの編集可能フィールドをカスタマイズする"
 
 >[!CONTEXTUALHELP]
 >id="ac_editable_fragment_compatibility"
 >title="レガシーフラグメント"
->abstract="このカスタマイズ可能なフラグメントの編集可能なフィールドは、テキストのみです。 リッチテキスト形式（太字、斜体、ハイパーリンク、改行など） フラグメント作成者がフラグメントエディターの「<b>変換</b>」ボタンを使用してフラグメントをHTML互換モードにアップグレードするまで、メールDesignerでは利用できません。"
+>abstract="このフラグメントの編集可能なフィールドは、テキストのみのモードです。 リッチテキスト形式（太字、斜体、ハイパーリンク、改行など） は、フラグメントをHTML互換モードにアップグレードするまで使用できません。 これを行うには、フラグメントエディターを開き、<b>HTML モードに切り替え</b>をクリックします。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="フラグメントの編集可能フィールドをカスタマイズする"
 
 HTML コンポーネントを使用すると、改行、太字、斜体などのリッチテキストを、カスタマイズ可能なフラグメントに追加できます。 これを行うには、以下の手順に従います。
