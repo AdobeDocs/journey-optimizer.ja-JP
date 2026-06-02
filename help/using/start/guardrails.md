@@ -24,10 +24,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 065e2f48fbd5b7adedd4fba15bd8b4363f59cd91
 workflow-type: tm+mt
-source-wordcount: 4262
-ht-degree: 98%
+source-wordcount: 4490
+ht-degree: 93%
 
 ---
 
@@ -141,6 +141,10 @@ Journey Optimizer では、キャンペーンで 1 秒あたり 500 件のトラ
 ## コンテンツとアセット {#content-assets}
 
 この節では、ランディングページ、サブドメイン、フラグメントなど、コンテンツの作成と管理のガイドラインについて説明します。
+
+### AI アシスタントのガードレール {#ai-assistant-g}
+
+サポートされているチャネル（電子メール、プッシュ通知、web、SMS）およびパーソナライゼーションエディターの制限を含む、**AI アシスタントによるコンテンツ生成**&#x200B;のガードレールと制限は、[このページ &#x200B;](../content-management/gs-generative.md#generative-guardrails)に記載されています。
 
 ### ランディングページガードレール {#lp-guardrails}
 
@@ -336,7 +340,7 @@ Adobe Experience Platform では、API ベースのプロファイルの作成�
 次のガードレールが[ジャーニーの式エディター](../building-journeys/expression/expressionadvanced.md)に適用されます。
 
 * エクスペリエンスイベントフィールドグループは、「オーディエンスを読み取り」アクティビティや、オーディエンスの選定またはビジネスイベントアクティビティで始まるジャーニーでは使用できません。 新しいオーディエンスを作成し、ジャーニーで `inaudience` 条件を使用する必要があります。
-* `timeSeriesEvents` 属性は式エディターで使用できません。 プロファイルレベルでエクスペリエンスイベントにアクセスするには、`XDM ExperienceEvent` スキーマに基づいて新しいフィールドグループを作成してください。
+* 式エディターでは`timeSeriesEvents`属性を使用できません。プロファイルレベルでエクスペリエンスイベントにアクセスするには、`XDM ExperienceEvent` スキーマに基づいて新しいフィールドグループを作成してください。
   <!--* A single condition expression cannot contain more than **200 values** in an `in` list (e.g. `field in ["val1","val2",...]`). Expressions exceeding this limit will fail validation. To work around this limit, split the values across multiple conditions combined with `or`.-->
 
 ### ジャーニーアクティビティ {#activities}
@@ -350,6 +354,8 @@ Adobe Experience Platform では、API ベースのプロファイルの作成�
 
 ジャーニーの処理率とスループット制限について詳しくは、[この節](../building-journeys/entry-management.md#journey-processing-rate)を参照してください。
 
+ストリーミングとバッチオーディエンスの推奨事項やコンポジションのオーディエンス制限など、その他のガードレールは、[このページ &#x200B;](../building-journeys/audience-qualification-events.md#audience-qualification-guardrails)に記載されています。
+
 #### キャンペーンアクティビティ {#ac-g}
 
 次のガードレールは、**[!UICONTROL Campaign v7/v8]** および **[!UICONTROL Campaign Standard]** アクティビティに適用されます。
@@ -357,6 +363,10 @@ Adobe Experience Platform では、API ベースのプロファイルの作成�
 * Adobe Campaign アクティビティは、「オーディエンスを読み取り」アクティビティや「オーディエンスの選定」アクティビティと併用できません。
 * **[!UICONTROL Campaign Standard]** アクティビティは、カード、コードベースのエクスペリエンス、メール、プッシュ、SMS、アプリ内メッセージ、web などの他のチャネルアクティビティと併用できません。
 * **[!UICONTROL Campaign v7／v8]** アクティビティは、同じジャーニーでネイティブチャネルアクティビティと連携して使用できます。
+
+#### 反応イベント {#reaction-events-g}
+
+チャネルアクションの直後にアクティビティを配置する要件や、別のジャーニーで送信されたメッセージを追跡できないなど、特定のガードレールが&#x200B;**[!UICONTROL Reaction]** イベントに適用されます。 詳しくは、[このページ](../building-journeys/reaction-events.md#guardrails-limitations)を参照してください。
 
 #### アプリ内アクティビティ {#in-app-activity-limitations}
 
@@ -377,6 +387,10 @@ Adobe Experience Platform では、API ベースのプロファイルの作成�
 * ユーザープロファイルがキャンバス内のアプリ内アクティビティに到達してから、そのアプリ内メッセージが表示され始めるまでの間にアクティベーションの遅延が発生する場合があります。
 
 * アプリ内メッセージのコンテンツサイズは 2 MB に制限されています。 大きな画像を含めると、公開プロセスの妨げになる場合があります。
+
+#### コンテンツ決定アクティビティ {#content-decision-g}
+
+特定のガードレールは、**[!UICONTROL コンテンツ決定]** アクティビティに適用されます。これには、更新された同意ポリシーが決定ポリシーで有効になるまでの48時間の遅延が含まれます。 詳しくは、[このページ](../building-journeys/content-decision.md#guardrails)を参照してください。
 
 #### ジャンプアクティビティ {#jump-g}
 
@@ -403,6 +417,26 @@ Adobe Experience Platform では、API ベースのプロファイルの作成�
 #### プロファイルアクティビティの更新 {#update-profile-g}
 
 特定のガードレールが&#x200B;**[!UICONTROL プロファイルを更新]**&#x200B;アクティビティに適用されます。 詳しくは、[このページ](../building-journeys/update-profiles.md)を参照してください。
+
+#### ジャーニーの一時停止 {#pause-g}
+
+特定のガードレールは、**一時停止ジャーニー**&#x200B;に適用されます。これには、組織内のすべての一時停止ジャーニーに対して、最大14日間の一時停止と1,000万プロファイルの上限が含まれます。 詳しくは、[このページ](../building-journeys/journey-pause.md#journey-pause-guardrails)を参照してください。
+
+#### ジャーニーのドライラン {#dry-run-g}
+
+特定のガードレールは、**ジャーニードライラン**&#x200B;に適用されます。これには、エンゲージ可能なプロファイルとライブジャーニーの割り当て量のカウントが含まれます。 詳しくは、[このページ](../building-journeys/journey-dry-run.md#journey-dry-run-limitations)を参照してください。
+
+#### ジャーニーフラグ {#fragments-journey-g}
+
+特定のガードレールは、**ジャーニーフラグメント**&#x200B;に適用されます。これには、1つのフラグメントにつき最大20個のノードと、1つのサンドボックスにつき200個のアクティブフラグメントが含まれます。 詳しくは、[このページ](../building-journeys/journey-fragments.md#guardrails)を参照してください。
+
+#### ウェーブを使用した送信 {#waves-g}
+
+特定のガードレールは、2 ～ 10の波長範囲と波間の最小30分の間隔を含むジャーニー&#x200B;**で送信される**&#x200B;波に適用されます。 詳しくは、[このページ](../building-journeys/send-using-waves.md#limitations-guardrails)を参照してください。
+
+#### ジャーニーシミュレーション {#simulation-g}
+
+特定のガードレールは、**ジャーニーシミュレーション**&#x200B;に適用されます。 詳しくは、[このページ](../building-journeys/simulate-journey.md#limitations)を参照してください。
 
 ## キャンペーンオーケストレーション {#campaign-orchestration}
 
