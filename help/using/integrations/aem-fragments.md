@@ -21,10 +21,10 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 2cd1292b544b9aa6e80b3e871e7f6f917d0ab19a
 workflow-type: tm+mt
-source-wordcount: 1696
-ht-degree: 30%
+source-wordcount: 1712
+ht-degree: 21%
 
 ---
 
@@ -62,25 +62,33 @@ Adobe Experience ManagerとJourney Optimizerの連携は、次のデータフロ
 >
 >Journey Optimizer が Content Fragment Management API を介して Adobe Experience Manager コンテンツフラグメントにアクセスできるようにするには、まず [Dispatcher を設定](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments-with-journey-optimizer#dispatcher-configuration){target="_blank"}する必要があります。
 
-Journey Optimizer でコンテンツフラグメントを使用する前に、Journey Optimizer 専用のタグを作成する必要があります。
+Journey Optimizerでは、**組織**&#x200B;と&#x200B;**サンドボックス**&#x200B;のタグが含まれている場合にのみ、コンテンツフラグメントセレクターにコンテンツフラグメントが表示されます。 この要件は意図的なものです。Journey Optimizerから無関係または未承認のExperience Manager コンテンツを保持します。
 
-1. **Experience Manager** 環境にアクセスします。
+プレースホルダーの代わりにJourney Optimizerの組織IDとサンドボックス名を使用して、IDが`ajo-enabled:{AJO-OrgId}/{AJO-SandboxName}`に続くタグを割り当てます（例：`ajo-enabled:123A12A123A123A12A@AdobeOrg/prod`）。
 
-1. **ツール**&#x200B;メニューで、「**タグ付け**」を選択します。
+Experience Managerでタグを作成するには：
+
+1. **ツール** > **タグ付け**&#x200B;に移動します。
 
    ![](assets/do-not-localize/aem_tag_1.png)
 
-1. 「**タグを作成**」をクリックします。
+1. ネストされたタグ構造を作成して、完全なタグ IDが上記の形式と一致するようにします。
 
-1. ID が次の構文 `ajo-enabled:{AJO-OrgId}/{AJO-SandboxName}` に従っていることを確認します。
+   1. ルートレベルで、`ajo-enabled`という名前のフォルダーを作成します。
 
-1. 「**作成**」をクリックします。
+   1. `ajo-enabled`で、組織IDのタグ（例：`123A12A123A123A12A@AdobeOrg`）を作成します。
 
-1. [Experience Manager ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragment-models){target="_blank"}の説明に従ってコンテンツフラグメントモデルを定義し、新しく作成した Journey Optimizer タグを割り当てます。
+   1. その組織タグの下に、サンドボックスのタグ（例：`prod`）を作成します。
 
-このリアルタイムの連携により、コンテンツが常に最新の状態に保たれるだけでなく、公開されたフラグメントの変更が、アクティブなキャンペーンやジャーニーにすぐに影響を与えます。
+   結合パスは、`ajo-enabled:123A12A123A123A12A@AdobeOrg/prod`などのタグ IDを生成します。
 
-これで、Journey Optimizer で後で使用するためにコンテンツフラグメントの作成と設定を開始できます。 詳しくは、[Experience Manager ドキュメント](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing){target="_blank"}を参照してください。
+1. コンテンツフラグメントに適用するには、エディターでコンテンツフラグメントを開きます。
+
+1. **プロパティ**&#x200B;で、作成したタグを追加します。
+
+1. フラグメントを保存。
+
+➡️ [&#x200B; タグについて詳しくは、Adobe Experience Manager ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/managing#manage-tags)を参照してください
 
 ## Experience Manager コンテンツフラグメントの追加 {#aem-add}
 
@@ -159,8 +167,8 @@ AEM コンテンツフラグメントを作成およびパーソナライズし�
 
    1. **静的文字列マッピング**：二重引用符で囲んで固定文字列値を割り当てます（例：name = &quot;John&quot;）。
 
-   1. **変数マッピング**：同じ HTML 内で以前に宣言された変数を参照します（例：name = &#39;variableName&#39;）。
-この場合、次の構文を使用して、フラグメント ID を追加する前に、**_variableName_** が宣言されていることを確認します。
+   1. **バリアブルマッピング**：同じHTML内で以前に宣言された変数を参照します（例：name = &#39;variableName&#39;）。
+この場合、フラグメント IDを追加する前に、次の構文を使用して&#x200B;**_variableName_**&#x200B;が宣言されていることを確認します。
 
       ```html
       {% let variableName = attribute name %} 
