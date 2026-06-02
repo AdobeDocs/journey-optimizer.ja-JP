@@ -9,12 +9,21 @@ level: Intermediate
 mini-toc-levels: 2
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 TQID: https://experienceleague.adobe.com/k4DqGogrTZ9QrnqyFGwdgDeUI9ivpOd1iSI0c5comuU
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: ad78185d-8f79-40ad-9bad-cbde74af74ee
-subfeature_v2: id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+subfeature_v2:
+  - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 26e1073e2fef79ecdfd72ff1c2e5247ec2d62f8a
 workflow-type: tm+mt
 source-wordcount: 4622
@@ -41,29 +50,29 @@ ht-degree: 64%
 
 | 面グラフ | 上限 | 値 |
 |---|---|---|
-| **ジャーニー** | ジャーニーごとの最大アクティビティ数[](#journeys-guardrails-journeys) | **50** |
+| **ジャーニー** | ジャーニーごとの最大アクティビティ数[&#128279;](#journeys-guardrails-journeys) | **50** |
 | **ジャーニー** | [最大ライブ/一時停止/ドライラン ジャーニー](#journeys-guardrails-journeys) | **100** |
-| **ジャーニー** | [ジャーニーインスタンスのサイズ ](#journeys-guardrails-journeys) | **1 MB** |
-| **ジャーニー** | [ジャーニーペイロードサイズ （パブリッシュ） ](#journey-payload-size) | **2 MB** （90%で警告） |
-| **ジャーニー** | [ グローバルジャーニータイムアウト ](#journeys-guardrails-journeys) | **91日** |
-| **ジャーニー** | [ プロファイルごとの保留中のイベントキュー](#journeys-guardrails-journeys) | **10件のイベント** |
-| **ジャーニー** | [同時読み取りオーディエンスインスタンス ](#read-segment-g) | すべてのサンドボックスで&#x200B;**5** |
-| **ジャーニー** | [ オーディエンスサンドボックスのスループットの読み取り](#read-segment-g) | **20,000 プロファイル/秒** （共有） |
-| **ジャーニー** | [ オーディエンスジョブの読み取りタイムアウト ](#read-segment-g) | **12時間** |
+| **ジャーニー** | [ジャーニーインスタンスのサイズ &#x200B;](#journeys-guardrails-journeys) | **1 MB** |
+| **ジャーニー** | [ジャーニーペイロードサイズ （パブリッシュ） &#x200B;](#journey-payload-size) | **2 MB** （90%で警告） |
+| **ジャーニー** | [&#x200B; グローバルジャーニータイムアウト &#x200B;](#journeys-guardrails-journeys) | **91日** |
+| **ジャーニー** | [&#x200B; プロファイルごとの保留中のイベントキュー](#journeys-guardrails-journeys) | **10件のイベント** |
+| **ジャーニー** | [同時読み取りオーディエンスインスタンス &#x200B;](#read-segment-g) | すべてのサンドボックスで&#x200B;**5** |
+| **ジャーニー** | [&#x200B; オーディエンスサンドボックスのスループットの読み取り](#read-segment-g) | **20,000 プロファイル/秒** （共有） |
+| **ジャーニー** | [&#x200B; オーディエンスジョブの読み取りタイムアウト &#x200B;](#read-segment-g) | **12時間** |
 | **チャネル** | [1秒あたりの受信リクエスト数](#inbound-guardrails) | **5,000 RPS** |
-| **チャネル** | [ アクティブなインバウンドアクションの最大数](#inbound-guardrails) | **500** |
-| **チャネル** | [ トランザクションメッセージ/秒（キャンペーン） ](#transactional-message-guardrails) | **500** |
-| **チャネル** | [1秒あたりのインバウンドジャーニーイベント ](#events-g) | **5,000** |
-| **カスタムアクション** | [通話/分（応答&lt; 0.75 s） ](#custom-actions-g) | ホスト/サンドボックスごとに&#x200B;**300,000 / min** |
-| **カスタムアクション** | [30秒あたりの呼び出し（応答> 0.75秒） ](#custom-actions-g) | ホスト/サンドボックスあたり&#x200B;**150,000 / 30 s** |
-| **コンテンツ** | [ パブリッシュ時のメールメッセージコンテンツ ](#message-content-size) | **2 MB** （作成者：1 MB未満） |
-| **コンテンツ** | [ アプリ内メッセージコンテンツ ](#in-app-activity-limitations) | **2 MB** |
-| **コンテンツ** | [ ビジュアルフラグメントサイズ ](#fragments-guardrails) | **100 KB** |
-| **コンテンツ** | [式フラグメントサイズ ](#fragments-guardrails) | **200 KB** |
-| **コンテンツ** | [ジャーニーフラグメントノード ](#fragments-journey-g) | **20個のノード/フラグメント**、200個のアクティブ/サンドボックス |
-| **オーディエンス** | [ サンドボックスごとのオーディエンスコンポジション ](#audience) | **10** |
-| **データセット** | [ プロファイルストア TTL （新しい組織/サンドボックス） ](#datasets-guardrails) | **90日** |
-| **データセット** | [ データレイク TTL （新しい組織/サンドボックス） ](#datasets-guardrails) | **13か月** |
+| **チャネル** | [&#x200B; アクティブなインバウンドアクションの最大数](#inbound-guardrails) | **500** |
+| **チャネル** | [&#x200B; トランザクションメッセージ/秒（キャンペーン） &#x200B;](#transactional-message-guardrails) | **500** |
+| **チャネル** | [1秒あたりのインバウンドジャーニーイベント &#x200B;](#events-g) | **5,000** |
+| **カスタムアクション** | [通話/分（応答&lt; 0.75 s） &#x200B;](#custom-actions-g) | ホスト/サンドボックスごとに&#x200B;**300,000 / min** |
+| **カスタムアクション** | [30秒あたりの呼び出し（応答> 0.75秒） &#x200B;](#custom-actions-g) | ホスト/サンドボックスあたり&#x200B;**150,000 / 30 s** |
+| **コンテンツ** | [&#x200B; パブリッシュ時のメールメッセージコンテンツ &#x200B;](#message-content-size) | **2 MB** （作成者：1 MB未満） |
+| **コンテンツ** | [&#x200B; アプリ内メッセージコンテンツ &#x200B;](#in-app-activity-limitations) | **2 MB** |
+| **コンテンツ** | [&#x200B; ビジュアルフラグメントサイズ &#x200B;](#fragments-guardrails) | **100 KB** |
+| **コンテンツ** | [式フラグメントサイズ &#x200B;](#fragments-guardrails) | **200 KB** |
+| **コンテンツ** | [ジャーニーフラグメントノード &#x200B;](#fragments-journey-g) | **20個のノード/フラグメント**、200個のアクティブ/サンドボックス |
+| **オーディエンス** | [&#x200B; サンドボックスごとのオーディエンスコンポジション &#x200B;](#audience) | **10** |
+| **データセット** | [&#x200B; プロファイルストア TTL （新しい組織/サンドボックス） &#x200B;](#datasets-guardrails) | **90日** |
+| **データセット** | [&#x200B; データレイク TTL （新しい組織/サンドボックス） &#x200B;](#datasets-guardrails) | **13か月** |
 
 
 ## システムとプラットフォーム {#system-platform}
@@ -159,7 +168,7 @@ Journey Optimizerは、キャンペーンで&#x200B;**500 トランザクショ�
 
 ### AI アシスタントのガードレール {#ai-assistant-g}
 
-サポートされているチャネル（電子メール、プッシュ通知、web、SMS）およびパーソナライゼーションエディターの制限を含む、**AI アシスタントによるコンテンツ生成**&#x200B;のガードレールと制限は、[このページ ](../content-management/gs-generative.md#generative-guardrails)に記載されています。
+サポートされているチャネル（電子メール、プッシュ通知、web、SMS）およびパーソナライゼーションエディターの制限を含む、**AI アシスタントによるコンテンツ生成**&#x200B;のガードレールと制限は、[このページ &#x200B;](../content-management/gs-generative.md#generative-guardrails)に記載されています。
 
 ### ランディングページガードレール {#lp-guardrails}
 
@@ -218,7 +227,7 @@ Journey Optimizer のサブドメインデリゲーションに適用される�
 
 * ジャーニー内のアクティビティの数は&#x200B;**50**&#x200B;に制限されています。 アクティビティの数は、ジャーニーキャンバスの左上に表示されます。
 
-  この制限に近いジャーニーでは、編集と公開のパフォーマンスが低下し、保存または検証のエラーが発生する可能性があります。 この場合、[ ジャンプアクティビティ ](../building-journeys/jump.md)を使用してジャーニーを小さなサブジャーニーに分割するか、新しいバージョンで再作成します。 アクティビティ制限を増やすことはできません。
+  この制限に近いジャーニーでは、編集と公開のパフォーマンスが低下し、保存または検証のエラーが発生する可能性があります。 この場合、[&#x200B; ジャンプアクティビティ &#x200B;](../building-journeys/jump.md)を使用してジャーニーを小さなサブジャーニーに分割するか、新しいバージョンで再作成します。 アクティビティ制限を増やすことはできません。
 
 * デフォルトでは、1回のライブ/一時停止/ドライ実行ジャーニーの数は&#x200B;**100**&#x200B;に制限されています。 ジャーニーの現在の数は、ジャーニーキャンバスの上に表示されます。
 
@@ -259,7 +268,7 @@ Journey Optimizer のサブドメインデリゲーションに適用される�
 * 必要に応じて、ジャーニーをより小さいジャーニーに分割することを考慮します。
 * 組織でより高い制限が必要だと思われる場合は、アドビ担当者にお問い合わせください。
 
-公開前にジャーニーの現在のペイロードサイズを監視するには、ジャーニープロパティパネルの「**[!UICONTROL 現在のジャーニーペイロードサイズ]**」インジケーターを使用します。 [ ジャーニーペイロードのサイズを確認する方法について説明します](../building-journeys/journey-properties.md#journey-payload-size)
+公開前にジャーニーの現在のペイロードサイズを監視するには、ジャーニープロパティパネルの「**[!UICONTROL 現在のジャーニーペイロードサイズ]**」インジケーターを使用します。 [&#x200B; ジャーニーペイロードのサイズを確認する方法について説明します](../building-journeys/journey-properties.md#journey-payload-size)
 
 ### ライセンスパッケージの比較 {#select-package-limitations}
 
@@ -379,7 +388,7 @@ Adobe Experience Platform では、API ベースのプロファイルの作成�
 
 ジャーニーの処理率とスループット制限について詳しくは、[この節](../building-journeys/entry-management.md#journey-processing-rate)を参照してください。
 
-ストリーミングとバッチオーディエンスの推奨事項やコンポジションのオーディエンス制限など、その他のガードレールは、[このページ ](../building-journeys/audience-qualification-events.md#audience-qualification-guardrails)に記載されています。
+ストリーミングとバッチオーディエンスの推奨事項やコンポジションのオーディエンス制限など、その他のガードレールは、[このページ &#x200B;](../building-journeys/audience-qualification-events.md#audience-qualification-guardrails)に記載されています。
 
 #### キャンペーンアクティビティ {#ac-g}
 
