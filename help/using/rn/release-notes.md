@@ -26,7 +26,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 53c18170018fa7489bf09f0ba652b66f441967ac
+source-git-commit: 8ea462d8181167fc2b899265d5f9839e0d5dd37b
 workflow-type: tm+mt
 source-wordcount: 2561
 ht-degree: 21%
@@ -146,7 +146,7 @@ ht-degree: 21%
 <p>AI アシスタントがジャーニーの高度な式エディターで動作し、自然言語プロンプトを有効な式や条件付きロジックに変換できるようになりました。 構築したい式を記述すると、AI アシスタントがすぐに適用できる使いやすいコードを生成したり、フォローアッププロンプトで微調整したりできます。</p>
 <p>この機能は、パブリック Betaとしてすべてのお客様が利用できます。</p>
 <!--<p><img src="assets/do-not-localize/expression-assistant.gif"></p>-->
-<p>ご利用いただけます：2026年6月2日（PT）</p>
+<p>利用開始日：2026年6月上旬</p>
 </td>
 </tr>
 </tbody>
