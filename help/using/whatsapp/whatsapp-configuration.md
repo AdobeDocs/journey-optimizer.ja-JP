@@ -26,10 +26,10 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: d9e94fe946f8950198df843542421f3afe9aa907
 workflow-type: tm+mt
-source-wordcount: 1230
-ht-degree: 88%
+source-wordcount: 1328
+ht-degree: 82%
 
 ---
 
@@ -44,6 +44,21 @@ WhatsApp メッセージを送信する前に、Adobe Journey Optimizer 環境�
 これらの手順は、Adobe Journey Optimizer [システム管理者](../start/path/administrator.md)が実行する必要があります。
 
 ## WhatsApp API 資格情報の作成 {#whatsapp-credentials}
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_whatsapp_config_name"
+>title="名前"
+>abstract="このAPI資格情報セットの一意の名前を入力してください。 WhatsApp Webhookとチャネル設定を設定するときに選択します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_whatsapp_config_api_token"
+>title="API トークン"
+>abstract="WhatsApp アセットと同じBusiness ManagerのシステムユーザーからMeta アクセストークンを使用します。 このユーザーには、whatsapp_business_management、whatsapp_business_messaging、およびbusiness_managementの権限に加えて、WhatsApp ビジネスアカウントへのアセットレベルのアクセスが必要です。 Meta トークンは約60日後に期限切れになり、トークンが期限切れになる前に更新します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_whatsapp_config_business_account_id"
+>title="ビジネスアカウント ID"
+>abstract="Meta Business ポートフォリオ ID （Business Manager IDとも呼ばれます）を入力します。 このフィールドにWhatsApp ビジネスアカウント IDを入力しないでください。"
 
 1. 左側のパネルで、**[!UICONTROL 管理]** `>` **[!UICONTROL チャネル]**&#x200B;を参照し、**[!UICONTROL API 資格情報]**&#x200B;メニューを選択します。 「**[!UICONTROL 新しい API 資格情報を作成]**」ボタンをクリックします。
 

@@ -24,10 +24,10 @@ topic_v2:
 subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: de6f48d5e9a775afc0d2fa0141eb775a24b2155e
 workflow-type: tm+mt
-source-wordcount: 881
-ht-degree: 85%
+source-wordcount: 947
+ht-degree: 79%
 
 ---
 
@@ -47,6 +47,11 @@ ht-degree: 85%
 >id="ajo_admin_sms_api_byop_provider_payload"
 >title="プロバイダーペイロード"
 >abstract="処理と応答の生成用に正しいデータの送信を確保するために、リクエストペイロードを指定します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_api_byop_response_msg_id_extractor"
+>title="プロバイダーペイロード"
+>abstract="Journey Optimizerがプロバイダーの送信応答から一意のメッセージ IDを抽出する方法を指定します。 </br>Field Match: フィールド名（messageIdなど）を入力します。 AJOは応答をスキャンし、最初の一致する値を返します。 </br> ドット表記法：フィールドへのパス（例：messages.0.id）を入力します。 配列に数値セグメントを使用します。 $接頭辞がありません。</br> プロバイダーがコールバックデータフィールドの渡しをサポートしている場合は、空白のままにします。"
 
 この機能により、独自のメッセージプロバイダーを統合および設定できるようになり、デフォルトのオプション（Sinch、Twilio、Infobip）を超える柔軟性が得られます。 これにより、モバイルメッセージのオーサリング、配信、レポート、同意管理をシームレスに行うことができます。
 
