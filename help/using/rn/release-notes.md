@@ -26,7 +26,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 8ea462d8181167fc2b899265d5f9839e0d5dd37b
+source-git-commit: deba11139fa381bb54c8929a84f9386ab6888821
 workflow-type: tm+mt
 source-wordcount: 2561
 ht-degree: 21%
@@ -313,7 +313,7 @@ The following orchestrated campaign capability is expected in the upcoming days 
 <td>
 <p>決定ポリシーをダイレクトメールジャーニーおよびキャンペーンに追加できるようになりました。 決定ポリシーは、決定エンジンを活用して、各オーディエンスメンバーに最適なコンテンツを動的に返すオファーのコンテナです。 ダイレクトメール決定は、バッチ決定のユースケースもサポートしており、特定のAdobe Experience Platform オーディエンス内の各プロファイルに対応するオファー項目を書き出すことができます。</p>
 <!--<p><img src="assets/do-not-localize/exd-dm.gif"></p>-->
-<p>利用開始日：2026年6月上旬</p>
+<p>ご利用いただけます：2026年6月3日（PT）</p>
 </td>
 </tr>
 </tbody>
