@@ -10,22 +10,13 @@ level: Intermediate
 hide: true
 exl-id: 2744974b-62cc-4d25-acc3-edd4c53a9a58
 TQID: https://experienceleague.adobe.com/Y8qsGW8XqSVqag4yqRinnem9w2PYJyKIDIWvuGqAchU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: c5a6e06cc93e8ed03edc368f3d02eccd655a7461
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 1a2d7e68da120ab231958d453add66a03eb4d65e
 workflow-type: tm+mt
 source-wordcount: 1313
 ht-degree: 39%
@@ -83,15 +74,15 @@ ht-degree: 39%
 
 コンテンツのバリエーションを作成するには、**[!UICONTROL コンテンツをシミュレート]** ボタンをクリックし、**[!UICONTROL コンテンツのバリエーションをシミュレート]**&#x200B;を選択します。
 
-![&#x200B; コンテンツのバリエーションをシミュレートするオプション &#x200B;](assets/simulate-sample.png)
+![ コンテンツのバリエーションをシミュレートするオプション ](assets/simulate-sample.png)
 
 バリエーションは、次の方法で作成できます。
 
 * [手動またはファイルからバリエーションを追加](#profiles)。
-* AIを使用して[&#x200B; バリエーションを自動生成](#auto-generate-variants)。
+* AIを使用して[ バリエーションを自動生成](#auto-generate-variants)。
 * [既存のシミュレートされたユーザーからバリエーションを選択](#simulated-users)。
 
-バリエーションを作成したら、[&#x200B; コンテンツをプレビューしてプルーフを送信](#preview-proofs)できます。
+バリエーションを作成したら、[ コンテンツをプレビューしてプルーフを送信](#preview-proofs)できます。
 
 ### 手動またはファイルからのバリエーションの追加 {#profiles}
 
@@ -109,7 +100,7 @@ ht-degree: 39%
 
 新しいバリエーションを追加するには、「**[!UICONTROL サンプルを作成]**」ボタンをクリックします。 検出されたすべてのパーソナライゼーションフィールドを含む、新しい空白のバリアントが表示されます。 必要に応じて新しいバリエーションを編集できます。
 
-![&#x200B; サンプル入力ボタンを作成](assets/simulate-custom-add.png)
+![ サンプル入力ボタンを作成](assets/simulate-custom-add.png)
 
 +++
 
@@ -148,7 +139,7 @@ ht-degree: 39%
 
 バリエーションを自動生成するには、「**[!UICONTROL 生成]**」ボタンをクリックし、システムがバリエーションを生成するのを待ちます。 バリエーション リストとそのレンダリングで、生成されたバリエーションを確認します。
 
-![&#x200B; バリエーションを生成ボタン &#x200B;](assets/simulate-variants-generate.png)
+![ バリエーションを生成ボタン ](assets/simulate-variants-generate.png)
 
 >[!NOTE]
 >
@@ -158,14 +149,14 @@ ht-degree: 39%
 
 **[!UICONTROL コンテンツのバリエーションをシミュレート]**&#x200B;では、**シミュレートされたユーザー**&#x200B;に基づいてバリエーションを作成できます。 シミュレートされたユーザーは、Adobe Experience Platformで永続的なプロファイルを使用せずに、テスト用に作成されたプロファイルのような一時的なエンティティです。 現在のブラウザーセッションにのみ追加されるバリエーションとは異なり、シミュレートされたユーザーは保存され、ジャーニー間や他のユーザーが再利用できます。
 
-シミュレートされたユーザーは、ジャーニー&#x200B;**[!UICONTROL シミュレーション]**&#x200B;機能から作成および管理されます。 作成、保存、再利用の全手順については、[&#x200B; シミュレートされたユーザーの作成と管理](../building-journeys/simulate-journey.md#test-users)を参照してください。
+シミュレートされたユーザーは、ジャーニー&#x200B;**[!UICONTROL シミュレーション]**&#x200B;機能から作成および管理されます。 作成、保存、再利用の全手順については、[ シミュレートされたユーザーの作成と管理](../building-journeys/simulate-journey.md#test-users)を参照してください。
 
 シミュレートされたユーザーを作成したら、それを使用してコンテンツをプレビューできます。 それには、次の手順に従います。
 
 1. 「**[!UICONTROL バリエーションを選択]**」ボタンをクリックします。
 1. 既存のシミュレートされたユーザーのリストで、使用するユーザーを選択し、**[!UICONTROL 選択]**&#x200B;をクリックします。
 
-   ![&#x200B; コンテンツのバリエーションとして使用するシミュレートされたユーザーを選択](assets/simulate-custom-simulated.png)
+   ![ コンテンツのバリエーションとして使用するシミュレートされたユーザーを選択](assets/simulate-custom-simulated.png)
 
 1. 選択したシミュレートされたユーザーがコンテンツバリエーションのリストに追加され、コンテンツとその属性値をプレビューできます。 テスト用にバリアントの値を手動で編集することもできますが、これらの変更はシミュレートされたユーザーに保存されません。
 
@@ -181,7 +172,7 @@ ht-degree: 39%
 
 | バリアント 1 の選択 | バリアント 2 の選択 |
 |----------|-------------|
-| ![&#x200B; バリアント 1の選択](assets/simulate-custom-boxes.png) | ![&#x200B; バリアント 2の選択](assets/simulate-custom-boxes2.png) |
+| ![ バリアント 1の選択](assets/simulate-custom-boxes.png) | ![ バリアント 2の選択](assets/simulate-custom-boxes2.png) |
 
 <!--
 For multilingual content and experimentation, a dropdown is available to switch between the different language variants or treatments.
@@ -201,10 +192,10 @@ Journey Optimizer を使用すると、シミュレーション画面に追加�
 
    バリアントについて詳しくは、**[!UICONTROL プロファイルの詳細を表示]**&#x200B;リンクを選択してください。 これにより、異なるバリアントに対して、前の画面で入力した情報を表示できます。
 
-   ![&#x200B; プルーフ受信者とバリアント選択](assets/simulate-custom-proofs.png)
+   ![ プルーフ受信者とバリアント選択](assets/simulate-custom-proofs.png)
 
 1. 「**[!UICONTROL 配達確認を送信]**」ボタンをクリックして、配達確認の送信を開始します。
 
 1. 配達確認の送信を追跡するには、コンテンツをシミュレート画面の「**[!UICONTROL 配達確認を表示]**」ボタンをクリックします。
 
-![&#x200B; プルーフリストを送信](assets/simulate-custom-sent-proofs.png)
+![ プルーフリストを送信](assets/simulate-custom-sent-proofs.png)
