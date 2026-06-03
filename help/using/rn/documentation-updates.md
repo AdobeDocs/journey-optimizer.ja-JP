@@ -8,8 +8,12 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+feature_v2:
+  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2:
+  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
+  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
+  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: e3c588e5d0eb5c227873f1af2ca9b3ba5bd6e02e
 workflow-type: tm+mt
 source-wordcount: 8114
@@ -29,9 +33,9 @@ ht-degree: 88%
 
 * 2つの新しい高レベル権限が追加されました。ユーザーがキーレジストリのキーを表示、作成、回転、取り消すことができる&#x200B;**キーレジストリを管理**&#x200B;し、ユーザーがキーレジストリのリストとキーの詳細を表示できる&#x200B;**キーレジストリを表示**&#x200B;します。 [詳細情報](../administration/high-low-permissions.md#administration-permissions)
 
-* メッセージで決定ポリシーを使用&#x200B;**ドキュメントでは、キャンペーンの概要から決定ポリシーの完全な構造を表示し、トラブルシューティングのためにJSON テクニカルサマリーをクリップボードにコピーする方法について説明しています。**[詳細情報](../experience-decisioning/use-decision-policy.md#decision-policy-summary)
+* メッセージで決定ポリシーを使用&#x200B;**ドキュメントでは、キャンペーンの概要から決定ポリシーの完全な構造を表示し、トラブルシューティングのためにJSON テクニカルサマリーをクリップボードにコピーする方法について説明しています。**&#x200B;[詳細情報](../experience-decisioning/use-decision-policy.md#decision-policy-summary)
 
-* レガシーの&#x200B;**意思決定管理** [自動最適化モデル ](../offers/ranking/auto-optimization-model.md) ページが、更新された意思決定ドキュメントに合わせて書き換えられました。これには、強化学習の概要、要件と制限、最適化と学習のバランス、Thompson サンプリングの詳細などが含まれます。 [詳細情報](../offers/ranking/auto-optimization-model.md)
+* レガシーの&#x200B;**意思決定管理** [自動最適化モデル &#x200B;](../offers/ranking/auto-optimization-model.md) ページが、更新された意思決定ドキュメントに合わせて書き換えられました。これには、強化学習の概要、要件と制限、最適化と学習のバランス、Thompson サンプリングの詳細などが含まれます。 [詳細情報](../offers/ranking/auto-optimization-model.md)
 
 * **リリースノート** ページがトピックベースのレイアウトで再構築されました。 変更は、変更タイプではなく製品領域でグループ化され、新しい専用の&#x200B;**ユーザビリティの改善** セクションが追加されました。 近日公開されるエントリは、各トピック内で拡張可能なアコーディオンとして表示されます。 [詳細情報](release-notes.md)
 
