@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 2b41ef7064ea9ab86a6974fcf9ff5f8a5919bf65
+source-git-commit: 2ec7de841e3d871ad4cfc545d80c5271c4137d2c
 workflow-type: tm+mt
-source-wordcount: '3350'
+source-wordcount: '3355'
 ht-degree: 95%
 
 ---
@@ -255,6 +255,7 @@ ht-degree: 95%
       + [テストプロファイルデータを使用した本配信前確認の送信](using/content-management/proofs.md)
       + [メールのレンダリングのテスト](using/content-management/rendering.md)
       + [コンテンツバリエーションのシミュレート](using/test-approve/simulate-sample-input.md)
+      + {hide-from-toc}[&#x200B; コンテンツのバリエーションのシミュレーション （GA レビュー） &#x200B;](using/test-approve/simulate-sample-input-ga.md)
       + [メールスパムレポート](using/content-management/spam-report.md)
    + ジャーニーとキャンペーンの承認 {#approve}
       + [ジャーニーとキャンペーンの承認](/help/rp_landing_pages/approve-landing-page.md)
