@@ -7,15 +7,12 @@ role: User
 level: Intermediate
 exl-id: 5c866814-d79a-4a49-bfcb-7a767d802e90
 version: Journey Orchestration
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 2347
-ht-degree: 82%
+ht-degree: 84%
 
 ---
 
@@ -41,13 +38,13 @@ Journey Optimizer では、決定項目と呼ばれるマーケティングオ�
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_ajo_fragment"
->title="Journey Optimizer コンテンツフラグメントをこの決定項目にマッピングする"
->abstract="Journey Optimizerフラグメントライブラリからコンテンツフラグメントを添付します。"
+>title="この決定項目に Journey Optimizer のコンテンツフラグメントをマッピングする"
+>abstract="Journey Optimizer のフラグメントライブラリからコンテンツフラグメントを添付します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_aem_fragment"
->title="AEM コンテンツフラグメントをこの決定項目にマッピングする"
->abstract="この決定事項にコンテンツフラグメントを添付することで、Adobe Experience Managerから直接コンテンツを活用できます。"
+>title="この決定項目に AEM のコンテンツフラグメントをマッピングする"
+>abstract="この決定事項にコンテンツフラグメントを添付することで、Adobe Experience Manager から直接コンテンツを活用できます。"
 
 まず、決定項目の標準属性とカスタム属性を定義します。
 
@@ -89,8 +86,8 @@ Journey Optimizer では、決定項目と呼ばれるマーケティングオ�
 >abstract="デフォルトでは、すべてのプロファイルが決定項目を受け取る資格を持ちますが、オーディエンスまたはルールを使用すると、項目を特定のプロファイルのみに制限できます。"
 
 <!--
->"additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
->additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
+>"additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences" text="Use audiences"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/decisioning/experience-decisioning/rules" text="Use decision rules"
 -->
 
 

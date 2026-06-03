@@ -8,24 +8,16 @@ role: Admin
 level: Intermediate
 exl-id: 4dcd22ed-bf7e-4789-ab7b-33544c857db8
 TQID: https://experienceleague.adobe.com/dO8HoRdGLuYVFN2YVjRCiFJQHmWHApROU8qz2-hKmTs
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
-source-wordcount: 432
-ht-degree: 60%
+source-wordcount: 418
+ht-degree: 69%
 
 ---
 
@@ -34,7 +26,7 @@ ht-degree: 60%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"
 >title="Journey Optimizer での SMS プロバイダーの設定"
->abstract="Adobe Journey Optimizerは、SMS サービスプロバイダーを通じてモバイルメッセージを送信します。 プロバイダーを選択し、API 資格情報を入力します。"
+>abstract="Adobe Journey Optimizer は、SMS サービスプロバイダーを通じてモバイルメッセージを送信します。 プロバイダーを選択し、API 資格情報を入力します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_mms_api_header"
@@ -43,8 +35,8 @@ ht-degree: 60%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api"
->title="Journey Optimizerを使用したSMS/RCS/MMS プロバイダーの設定"
->abstract="モバイルメッセージ（SMS/RCS/MMS）を送信する前に、プロバイダー設定をJourney Optimizerと統合する必要があります。 完了したら、SMS/RCS/MMS設定を作成する必要があります。 これらの手順は、Adobe Journey Optimizer システム管理者が実行する必要があります。"
+>title="Journey Optimizer での SMS/RCS/MMS プロバイダーの設定"
+>abstract="モバイルメッセージ（SMS/RCS/MMS）を送信する前に、プロバイダー設定を Journey Optimizer と統合する必要があります。 完了したら、SMS/RCS/MMS 設定を作成する必要があります。 これらの手順は、Adobe Journey Optimizer システム管理者が実行する必要があります。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="SMS チャネル設定の作成"
 
 >[!CONTEXTUALHELP]
@@ -59,8 +51,8 @@ ht-degree: 60%
 
 SMS、MMS または RCS を送信する前に、Adobe Journey Optimizer 環境を設定する必要があります。 これを実行するには、次の手順を実行します。
 
-1. Journey Optimizer とプロバイダー設定を統合します。
-手順は、SMS プロバイダーによって異なります。 詳細なドキュメントにアクセスするには、以下のリンクを参照してください。
+1. プロバイダー設定とJourney Optimizerの連携。
+手順は、SMS プロバイダーによって異なります。詳細なドキュメントにアクセスするには、次のリンクを参照してください。
    * [Infobip](mobile-configuration-infobip.md)
    * [Sinch](mobile-configuration-sinch.md)
    * [Twilio](mobile-configuration-twilio.md)
