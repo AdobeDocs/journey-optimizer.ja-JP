@@ -29,7 +29,7 @@ topic_v2:
 source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
 workflow-type: tm+mt
 source-wordcount: 1036
-ht-degree: 90%
+ht-degree: 94%
 
 ---
 
@@ -37,13 +37,13 @@ ht-degree: 90%
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms_header"
->title="モバイルメッセージサブドメインのデリゲート"
+>title="モバイルメッセージサブドメインの委任"
 >abstract="モバイルメッセージ用のサブドメインを設定します。 既にアドビにデリゲートされているサブドメインを使用するか、新しいサブドメインを設定できます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms"
->title="モバイルメッセージサブドメインのデリゲート"
->abstract="SMS設定を作成するには、このサブドメインが必要なので、モバイルメッセージに使用するサブドメインを設定する必要があります。 既にアドビにデリゲートされているサブドメインを使用するか、新しいサブドメインを設定できます。"
+>title="モバイルメッセージサブドメインの委任"
+>abstract="SMS 設定を作成するにはサブドメインを作成しなければならないため、モバイルメッセージで使用するサブドメインを設定する必要があります。 既にアドビにデリゲートされているサブドメインを使用するか、新しいサブドメインを設定できます。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/sms/configure-sms/sms-configuration-surface" text="SMS 設定の作成"
 
 >[!CONTEXTUALHELP]

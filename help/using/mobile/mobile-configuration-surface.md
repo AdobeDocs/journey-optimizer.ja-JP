@@ -24,7 +24,7 @@ topic_v2:
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 522
-ht-degree: 44%
+ht-degree: 51%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 44%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_surface_sms_type"
 >title="メッセージカテゴリの定義"
->abstract="この設定を使用してモバイルメッセージのタイプを選択します。プロモーションメッセージの場合はマーケティング、パスワードのリセットなどの非商用メッセージの場合はトランザクション。"
+>abstract="この設定を使用するモバイルメッセージのタイプを選択します（ユーザーの同意が必要なプロモーションメッセージの場合は「マーケティング」、パスワードリセットなどの非商用メッセージの場合は「トランザクション」）。"
 >additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/privacy/consent/opt-out.html?lang=ja#sms-opt-out-management" text="マーケティングモバイルメッセージのオプトアウト"
 
 モバイルメッセージチャネルを設定したら、**[!DNL Journey Optimizer]**&#x200B;からSMS、RCS、MMS メッセージを送信できるように、チャネル設定を作成する必要があります。

@@ -16,7 +16,7 @@ subfeature_v2: []
 source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
 workflow-type: tm+mt
 source-wordcount: 1642
-ht-degree: 1%
+ht-degree: 20%
 
 ---
 
@@ -81,7 +81,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_global_settings"
 >title="グローバル設定"
->abstract="グローバル設定は、イベントや課題をまたいでメンバーを識別するために使用されるID名前空間など、ロイヤルティ課題の組織レベルの設定を定義します。"
+>abstract="グローバル設定は、イベントや課題全体でメンバーを識別するために使用される ID 名前空間など、ロイヤルティの課題に関する組織レベルの設定を定義します。"
 
 「**[!UICONTROL グローバル設定]**」タブを開き、**[!UICONTROL 名前空間]** ドロップダウンで「[Adobe Experience Platform ID名前空間](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/features/namespaces) for Loyalty Challenges」を選択します。 この名前空間は、データ内のメンバープロファイルの識別方法と一致する必要があります。
 
@@ -89,27 +89,27 @@ ht-degree: 1%
 
 ➡️ [ID名前空間の操作方法について説明します](https://experienceleague.adobe.com/ja/docs/experience-platform/identity/features/namespaces){target="_blank"}
 
-## ポイントプロバイダー {#reward-providers}
+## 報酬プロバイダー {#reward-providers}
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_reward_providers"
->title="ポイントプロバイダー"
->abstract="報酬プロバイダーは、顧客が課題を完了したときに[!DNL Journey Optimizer]さんが報酬を実現するために呼び出す外部システムを定義します。 プロバイダーエンドポイント、報酬定義、プロキシ設定、各統合の認証を設定します。"
+>title="報酬プロバイダー"
+>abstract="報酬プロバイダーは、顧客が課題を完了したときに、[!DNL Journey Optimizer] が報酬を付与するために呼び出す外部システムを定義します。 プロバイダーエンドポイント、報酬定義、プロキシ設定、および各統合の認証を設定します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_reward_providers_connection"
->title="ポイントプロバイダー接続"
->abstract="プロバイダー名、説明、エンドポイント URL、およびフルフィルメント呼び出しに必要なHTTP ヘッダーなど、[!DNL Journey Optimizer]が報酬APIに接続する方法を設定します。"
+>title="報酬プロバイダーの接続"
+>abstract="プロバイダー名、説明、エンドポイント URL、およびフルフィルメント呼び出しに必要な HTTP ヘッダーなど、[!DNL Journey Optimizer] が報酬 API に接続する方法を設定します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_reward_providers_details"
->title="報酬の定義"
->abstract="報酬の定義は、このプロバイダーが発行できる各報酬タイプ （ポイントや星など）を指定し、報酬が満たされたときにペイロード [!DNL Journey Optimizer]が送信します。"
+>title="報酬定義"
+>abstract="報酬定義は、このプロバイダーが発行できる各報酬タイプ（ポイントや星など）と、報酬が付与されたときに [!DNL Journey Optimizer] から送信されるペイロードを指定します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_reward_providers_proxy"
 >title="報酬プロキシ"
->abstract="オプションで、フルフィルメント呼び出しを報酬API エンドポイントに直接送信する代わりに、プロキシサーバーを介してルーティングします。 ホスト、ポート、資格情報、およびプロキシが有効かどうかを設定します。 資格情報の値は通常、`{ "userName": "test", "password": "xxxx" }`のようになります。"
+>abstract="オプションで、フルフィルメント呼び出しを報酬 API エンドポイントに直接送信する代わりに、プロキシサーバーを介してルーティングします。 ホスト、ポート、資格情報、およびプロキシが有効化の有無を設定します。 資格情報の値は通常、`{ "userName": "test", "password": "xxxx" }` のようになります。"
 
 **報酬プロバイダー**&#x200B;は、[!DNL Journey Optimizer]に、チャレンジの進行状況が記録されたり、チャレンジが完了したりしたときに、フルフィルメント呼び出しを送信する場所を伝えます。 例えば、ロイヤルティポイントや星を会員アカウントに付与するAPIです。
 
@@ -127,7 +127,7 @@ ht-degree: 1%
 
 1. 報酬プロバイダーに関連付けられているリソースを設定します。 フィールドの詳細については、以下の各セクションを展開します。
 
-   +++報酬の定義
+   +++報酬定義
 
    プロバイダーがサポートする報酬タイプごとに1つのエントリを追加します（プログラムポイント、星、マネークレジットなど）。 定義ごとに：
 
@@ -189,17 +189,17 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_event_definitions"
 >title="イベント定義"
->abstract="イベント定義は、外部ソースからの受信イベントデータを識別および解釈する方法を[!DNL Journey Optimizer]に伝えます。 各定義は、購入やチェックインなど、特定のイベントタイプをマッピングするため、システムは顧客の課題タスクへの進捗状況を追跡できます。"
+>abstract="イベント定義は、外部ソースからの受信イベントデータを識別および解釈する方法を [!DNL Journey Optimizer] に伝えます。 各定義によって、購入やチェックインなど、特定のイベントタイプがマッピングされるため、システムは顧客の課題タスクへの進捗状況を追跡できます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_event_schema"
 >title="イベントスキーマとトランスフォーマ"
->abstract="組織がカスタム JSON形式でイベントを送信する場合は、**[!UICONTROL スキーマ]**&#x200B;を使用してペイロードを検証し、**[!UICONTROL トランスフォーマ]** （JSONata式など）を使用して、フィールドをロイヤルティチャレンジが期待する形式にマッピングします。"
+>abstract="組織がカスタム JSON 形式でイベントを送信する場合は、**[!UICONTROL スキーマ]**&#x200B;を使用してペイロードを検証し、**[!UICONTROL トランスフォーマ]**（JSONata 式など）を使用して、フィールドをロイヤルティの課題で期待される形式にマッピングします。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_event_identification"
->title="イベントの特定"
->abstract="識別子パス、識別子の値、XDM スキーマ ID、またはこれらのフィールドの組み合わせを使用して、受信ペイロードのイベントを[!DNL Journey Optimizer]が認識する方法を指定します。"
+>title="イベントの識別"
+>abstract="識別子パス、識別子の値、XDM スキーマ ID、またはこれらのフィールドの組み合わせを使用して、[!DNL Journey Optimizer] が受信ペイロードのイベントを認識する方法を指定します。"
 
 **[!UICONTROL イベント定義]**&#x200B;は、[!DNL Journey Optimizer]に対して、どのAdobe Experience Platform エクスペリエンスイベントを処理するかを指示します。 たとえば、購入やホテルのチェックインなどです。 マーケターは、タスクビルダーで&#x200B;**[!UICONTROL カスタムイベント]** タスクを作成する際に、これらの定義を参照します。 どの定義にも一致しないイベントは無視されます。
 
@@ -231,7 +231,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_product_inventory"
 >title="製品インベントリ"
->abstract="商品識別子を商品グループにマッピングするCSV ファイルをアップロードします。 マーケターは、購入と支出のタスクに適格な品目を設定する際に、すべての品目IDを入力することなく、これらのグループを参照できます。"
+>abstract="項目識別子を製品グループにマッピングする CSV ファイルをアップロードします。 マーケターは、購入と支出のタスクに適格な項目を設定する際に、すべての項目 ID を入力しなくても、これらのグループを参照できます。"
 
 **[!UICONTROL 製品在庫]** タブには、カタログ項目がグループ化されているため、マーケターは各項目IDを入力しなくてもタスクでそれらをターゲットにできます。 各項目識別子を1つ以上の&#x200B;**製品グループ**&#x200B;にマッピングする&#x200B;**CSV ファイル**&#x200B;をアップロードします（同じ項目を複数のグループに属させることができます）。 タスクの実施要件を設定する際に、インポートしたグループを使用できます。 [&#x200B; タスクの作成方法を学ぶ](create-tasks.md)
 
@@ -266,7 +266,7 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="ajo_loyalty_admin_exclusions"
 >title="除外"
->abstract="プログラム全体で除外されたカタログ項目とグループを定義するCSV ファイルをアップロードします。 インポートされた除外グループは、マーケターがタスクに対して適格な項目と除外を設定すると表示されます。"
+>abstract="プログラム全体で除外されたカタログ項目とグループを定義する CSV ファイルをアップロードします。 マーケターがタスクに対して適格な項目と除外を設定すると、読み込まれた除外グループが表示されます。"
 
 「**[!UICONTROL 除外]**」タブでは、プログラム全体で除外されるカタログ項目とグループが定義されるため、マーケターは、すべてのタスクで同じ除外をリストする必要はありません。 各項目識別子を1つ以上の&#x200B;**除外グループ**&#x200B;にマッピングする&#x200B;**CSV ファイル**&#x200B;をアップロードします（同じ項目を複数のグループに属させることができます）。
 

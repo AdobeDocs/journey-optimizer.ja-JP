@@ -15,7 +15,7 @@ subfeature_v2:
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 2347
-ht-degree: 82%
+ht-degree: 84%
 
 ---
 
@@ -41,13 +41,13 @@ Journey Optimizer では、決定項目と呼ばれるマーケティングオ�
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_ajo_fragment"
->title="Journey Optimizer コンテンツフラグメントをこの決定項目にマッピングする"
->abstract="Journey Optimizerフラグメントライブラリからコンテンツフラグメントを添付します。"
+>title="この決定項目に Journey Optimizer のコンテンツフラグメントをマッピングする"
+>abstract="Journey Optimizer のフラグメントライブラリからコンテンツフラグメントを添付します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_aem_fragment"
->title="AEM コンテンツフラグメントをこの決定項目にマッピングする"
->abstract="この決定事項にコンテンツフラグメントを添付することで、Adobe Experience Managerから直接コンテンツを活用できます。"
+>title="この決定項目に AEM のコンテンツフラグメントをマッピングする"
+>abstract="この決定事項にコンテンツフラグメントを添付することで、Adobe Experience Manager から直接コンテンツを活用できます。"
 
 まず、決定項目の標準属性とカスタム属性を定義します。
 

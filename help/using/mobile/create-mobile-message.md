@@ -26,7 +26,7 @@ topic_v2:
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 748
-ht-degree: 36%
+ht-degree: 41%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 36%
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms"
 >title="モバイルメッセージの作成"
->abstract="モバイルメッセージを作成するには、ジャーニーまたはキャンペーンにSMS アクションを追加し、パーソナライゼーションエディターを使用してパーソナライズを開始します。"
+>abstract="モバイルメッセージを作成するには、ジャーニーまたはキャンペーンに SMS アクションを追加し、パーソナライゼーションエディターでパーソナライゼーションを開始します。"
 
 >[!AVAILABILITY]
 >

@@ -14,7 +14,7 @@ subfeature_v2:
 source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
 workflow-type: tm+mt
 source-wordcount: 1456
-ht-degree: 24%
+ht-degree: 25%
 
 ---
 
@@ -121,7 +121,7 @@ RCS メッセージコンテンツを定義するには、次の手順に従い�
 >[!CONTEXTUALHELP]
 >id="ajo_message_sms_content"
 >title="SMS コンテンツの定義"
->abstract="パーソナライゼーションエディターを使用してコンテンツを定義し、動的な要素を組み込むことで、モバイルメッセージをカスタマイズおよびパーソナライズできます。"
+>abstract="パーソナライゼーションエディターを使用してコンテンツを定義し、動的要素を組み込むことによって、モバイルメッセージをカスタマイズおよびパーソナライズします。"
 
 メッセージコンテンツを設定するには、次の手順に従います。 MMS の設定について詳しくは、[この節](#mms-content)を参照してください。
 

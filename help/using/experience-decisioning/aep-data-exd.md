@@ -28,7 +28,7 @@ subfeature_v2:
 source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
 workflow-type: tm+mt
 source-wordcount: 1215
-ht-degree: 94%
+ht-degree: 95%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 94%
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_capping_dataset"
 >title="データセットの追加"
->abstract="[!DNL Adobe Experience Platform] データセットを使用して、動的な外部属性に基づいてキャップ条件を定義します。 「**[!UICONTROL データセットを追加]**」をクリックして、必要な属性を含むデータセットを選択します。 データセットがリストに表示されない場合は、ルックアップに対してデータセットが有効になっていて、データセットのルックアップマッピングが作成されていることを確認します。"
+>abstract="[!DNL Adobe Experience Platform] データセットを使用して、動的な外部属性に基づいてキャップ条件を定義します。 「**[!UICONTROL データセットを追加]**」をクリックして、必要な属性を持つデータセットを選択します。 データセットがリストに表示されない場合は、ルックアップに対してデータセットが有効になっていて、データセットのルックアップマッピングが作成されていることを確認します。"
 
 [!DNL Journey Optimizer] を使用すると、決定に [!DNL Adobe Experience Platform] のデータを活用できます。 これにより、決定属性の定義をデータセットの追加データに拡張し、属性を 1 つずつ手動で更新する必要がなく、定期的に変更される一括更新を行うことができます。 例えば、可用性、待機時間などです。
 
