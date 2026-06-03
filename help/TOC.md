@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: 2ec7de841e3d871ad4cfc545d80c5271c4137d2c
+source-git-commit: f39bcb2f8b68315b082014b96801c51223ac8a54
 workflow-type: tm+mt
-source-wordcount: '3355'
+source-wordcount: '3359'
 ht-degree: 95%
 
 ---
@@ -109,7 +109,7 @@ ht-degree: 95%
    + 式の作成 {#building-advanced-conditions-journeys}
       + [式の作成](/help/rp_landing_pages/building-advanced-conditions-journeys-landing-page.md)
       + [高度な式エディターの操作](using/building-journeys/expression/expressionadvanced.md)
-      + {hide-from-toc}[式アシスタント &#x200B;](using/building-journeys/expression/expression-agent.md)
+      + [式アシスタントを使用した式の生成](using/building-journeys/expression/expression-agent.md)
       + 構文 {#syntax}
          + [構文](/help/rp_landing_pages/syntax-landing-page.md)
          + [高度な式エディターの構文](using/building-journeys/expression/generalities.md)

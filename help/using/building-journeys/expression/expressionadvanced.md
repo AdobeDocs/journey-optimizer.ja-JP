@@ -24,10 +24,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: f39bcb2f8b68315b082014b96801c51223ac8a54
 workflow-type: tm+mt
-source-wordcount: 716
-ht-degree: 100%
+source-wordcount: 738
+ht-degree: 97%
 
 ---
 
@@ -75,6 +75,10 @@ ht-degree: 100%
 
 * カスタムタイマーを作成すると、高度なエディターが直接表示されます。
 * アクションパラメーターをマッピングする場合、**[!UICONTROL 詳細設定モード]**&#x200B;をクリックします。
+
+>[!NOTE]
+>
+>自然言語プロンプトを使用してジャーニー式を生成するには、高度なエディター内のAI コントロールを使用して&#x200B;**[式アシスタント](expression-agent.md)** （**公開ベータ版**）を使用します。
 
 ## インターフェイスの確認 {#discovering-the-interface}
 

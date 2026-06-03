@@ -4,15 +4,14 @@ product: journey optimizer
 title: 式アシスタントを使用した式の生成
 description: Adobe Journey Optimizerの式アシスタントを使用して、自然言語プロンプトを使用してジャーニーの高度な式エディターで式を直接生成する方法を説明します。
 feature: Journeys
-topic: Content Management, Artificial Intelligence
+topic: Content Management
 role: User
 level: Intermediate
 badge: label="公開ベータ版" type="Informative"
 mini-toc-levels: 2
-hide: true
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: f39bcb2f8b68315b082014b96801c51223ac8a54
 workflow-type: tm+mt
 source-wordcount: 660
 ht-degree: 13%
