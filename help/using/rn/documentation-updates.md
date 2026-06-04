@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: e3c588e5d0eb5c227873f1af2ca9b3ba5bd6e02e
+source-git-commit: 7f1e16e7700a5b381893a79b2ce57b14fb17cd4a
 workflow-type: tm+mt
-source-wordcount: 8114
+source-wordcount: 8153
 ht-degree: 88%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 88%
 このページでは、毎月のリリースの機能と改善点に関連する更新に加えて、[!DNL Journey Optimizer] ドキュメントの最新の変更点をすべて一覧表示しています。
 
 ## 2026年6月 {#june-2026}
+
+* 決定項目の管理、選択戦略の設定、決定ポリシーのジャーニーまたはキャンペーンへの組み込みなど、エンドツーエンドの決定ワークフローを要約したプロセスチャートが、**決定を開始** ページに更新されました。 [詳細情報](../experience-decisioning/gs-experience-decisioning.md#process)
 
 * **送信者ヘッダー** ドキュメントでは、**[!UICONTROL 送信者名]**&#x200B;と&#x200B;**[!UICONTROL 送信者メール]**&#x200B;の両方を設定するか、両方を空にしておく必要があります。そうしないと、ジャーニーとキャンペーンを公開できません。 [詳細情報](../email/header-parameters.md#sender-header)
 

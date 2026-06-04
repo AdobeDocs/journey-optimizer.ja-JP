@@ -23,10 +23,10 @@ subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: e42070c4cc1dde06786c4075b1e6e45e8c323c12
+source-git-commit: 7f1e16e7700a5b381893a79b2ce57b14fb17cd4a
 workflow-type: tm+mt
-source-wordcount: 700
-ht-degree: 82%
+source-wordcount: 732
+ht-degree: 78%
 
 ---
 
@@ -106,7 +106,13 @@ ht-degree: 82%
    ➡️ [決定ポリシーの操作方法を説明します](create-decision.md)
 ➡️ コードベースのエクスペリエンスチャネルを介してオファーを正常に配信するには、[このセクション &#x200B;](../code-based/code-based-implementation-samples.md)の実装手順に従います。
 
-## その他のリソース
+## 意思決定プロセス {#process}
+
+下の図は、決定項目の管理や選択戦略の設定から、決定ポリシーをコードベースのエクスペリエンスジャーニーやキャンペーンに組み込むまでのエンドツーエンドの意思決定プロセスをまとめたものです。
+
+![](assets/decisioning-process.png)
+
+## その他のリソース {#additional-resources}
 
 * **[決定項目の作成](items.md)** - オファー、コンテンツバリエーション、エクスペリエンスなどの決定項目を作成および管理する方法について説明します。
 * **[決定カタログの設定](catalogs.md)** - 管理を改善するために決定項目をカタログに整理する方法について説明します。
