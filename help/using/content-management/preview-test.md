@@ -6,12 +6,11 @@ role: User
 level: Beginner
 exl-id: 736fc861-17f2-47b7-8635-9afd261ea3a8
 feature_v2: []
-subfeature_v2:
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
 workflow-type: tm+mt
-source-wordcount: 545
-ht-degree: 100%
+source-wordcount: 575
+ht-degree: 88%
 
 ---
 
@@ -31,7 +30,7 @@ ht-degree: 100%
 
 また、テストと検証に特定の受信者または購読者にメールメッセージのテスト配信を送信したり、一般的なデスクトップ、モバイル、web ベースのクライアントでレンダリングを確認したりすることもできます。 さらに、読みやすさや有効性など、コンテンツ品質の一般的な側面を評価できます。 [コンテンツ品質の検証の詳細情報](brands-score.md#validate-quality)
 
-これらのアクションはすべて、「**[!UICONTROL コンテンツをシミュレート]**」ボタンを使用して実行できます。このボタンには、メッセージのコンテンツ編集画面からアクセスするか、メールチャネルおよび web チャネルのメールおよび web の各デザイナーからアクセスできます。
+これらのアクションはすべて、メッセージのコンテンツ編集画面、またはメールとweb チャネルのメールとweb デザイナーからアクセスできる「**[!UICONTROL コンテンツをシミュレート]**」ボタンを使用して実行できます。 「**[!UICONTROL コンテンツをシミュレート]**」をクリックして、サンプル入力データを使用してコンテンツのバリエーションをテストします。 テストプロファイルを使用してプレビューする、プルーフを送信する、またはメールのレンダリングを確認するには、ドロップダウンから「**[!UICONTROL コンテンツをシミュレート（AEP プロファイル）]**」を選択します。
 
 ![](../email/assets/email-preview-button.png)
 
@@ -75,4 +74,4 @@ Journey Optimizer には、コンテンツをテストするための次の 2 �
 
 テストプロファイルを使用して、複数のインボックスにわたってメールのレンダリングをテストする方法、パーソナライズされたメールをテストプロファイルに対してプレビューする方法、配達確認を送信する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430339?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425026?quality=12)
