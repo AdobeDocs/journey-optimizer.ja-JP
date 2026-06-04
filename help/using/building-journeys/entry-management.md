@@ -27,10 +27,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: e2a95ed7dcdafd4f27f015722e7ae6a16f63118b
 workflow-type: tm+mt
-source-wordcount: 1201
-ht-degree: 87%
+source-wordcount: 1199
+ht-degree: 85%
 
 ---
 
@@ -128,9 +128,9 @@ Business events follow reentrance rules in the same way as for unitary events. I
 
 ## 「オーディエンスを読み取り」ジャーニー {#entry-read-audience}
 
-**オーディエンスを読み取り**&#x200B;ジャーニーは、繰り返しの場合もあれば、「1 回限り」の場合もあります。
+**オーディエンスの読み取り**&#x200B;のジャーニーは、繰り返しまたは繰り返しでない場合があります。
 
-* 繰り返し発生しない／「1 回限り」のジャーニーの場合：プロファイルはジャーニーに 1 回のみエントリします。
+* 非定期的なジャーニーの場合：プロファイルはジャーニーに1回だけ入力されます。
 
 * 繰り返しジャーニーの場合：デフォルトでは、オーディエンスに属するすべてのプロファイルが、繰り返しのたびにジャーニーにエントリします。 プロファイルは、別のオカレンスに再エントリする前に、ジャーニーを終了する必要があります。
 
