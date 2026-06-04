@@ -26,10 +26,10 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: d12c1812e2e9eff38ad7a24ef32bd947dfb8cbc7
 workflow-type: tm+mt
-source-wordcount: 1803
-ht-degree: 87%
+source-wordcount: 2077
+ht-degree: 76%
 
 ---
 
@@ -250,6 +250,48 @@ Bearer 認証タイプの例を次に示します。
 >
 >* キャッシュ時間を使用すると、認証エンドポイントへの呼び出しが多くなりすぎないようにすることができます。 認証トークンの保持はサービスにキャッシュされ、永続性はありません。 サービスを再起動した場合は、キャッシュがクリーンアップされた状態でサービスが開始されます。 デフォルトのキャッシュ時間は 1 時間です。 カスタム認証ペイロードでは、別の保持時間を指定することで調整することができます。
 >
+
+### 証明書ベースのカスタム認証 {#certificate-credential}
+
+Azure Entra IDなど、証明書ベースのID確認を強制するエンタープライズ APIの場合、カスタム認証ペイロードに`"subType": "certificateCredential"`を追加することで、証明書ベースのカスタム認証を設定できます。 Journey Optimizerは、Adobeのマネージド証明書を使用してJWT クライアントアサーションに署名し、アクセストークンと交換します。 クライアントシークレットは必要ありません。
+
+このオプションは、標準`customAuthorization` スキーマに2つのオプション フィールド `subType`と`aud`を追加します。 その他のすべてのフィールド （`endpoint`、`method`、本文パラメーター、`tokenInResponse`）は変更されません。 `subType`が存在しない場合、動作は標準のカスタム認証と同じです。既存の設定は影響を受けません。
+
+* **`subType`**：証明書ベースの認証を有効にするには、`"certificateCredential"`に設定します。
+* **`aud`**: JWT クライアントアサーションに含まれるオーディエンス値。 設定されていない場合は、デフォルトで`endpoint` URLが使用されます。このフィールドは、ID プロバイダーが異なるオーディエンス値を想定している場合にのみ指定します。
+
+`client_assertion`および`client_assertion_type` フィールドは、ユーザーが作成したことはありません。 これらは、トークンエンドポイント呼び出しの直前に、実行時にプラットフォームによって自動的に挿入されます。
+
+証明書資格情報認証タイプの例を次に示します。
+
+```json
+{
+  "type": "customAuthorization",
+  "subType": "certificateCredential",
+  "aud": "https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token",
+  "authorizationType": "bearer",
+  "endpoint": "https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token",
+  "method": "POST",
+  "body": {
+    "bodyType": "form",
+    "bodyParams": {
+      "client_id": "<your-client-id>",
+      "grant_type": "client_credentials",
+      "scope": "https://api.example.com/.default"
+    }
+  },
+  "tokenInResponse": "json://access_token"
+}
+```
+
+>[!CAUTION]
+>
+>証明書ベースのカスタム認証を設定する際は、次のガードレールを考慮してください。
+>
+>* **トークンエンドポイント URL**: HTTPSである必要があります。 `?`を含むURLを避けます。これは、認証エンドポイントがトークンエンドポイントの代わりに貼り付けられたサインです。
+>* **`client_id`**：空白にしないでください。先頭または末尾に空白を含めないでください。 空白の値を指定すると、ID プロバイダーが不透明なエラーで拒否する有効な外観のJWTが生成されます。
+>* **`scope`**: `bodyParams`でスペース区切りの単一の文字列として表されます。 合計1000文字以内。
+>* **証明書**: Adobeは証明書と秘密鍵を管理します。証明書をアップロードしたり入力したりすることはありません。 ライブジャーニーでカスタムアクションを使用する前に、ID プロバイダーに&#x200B;**Adobeのリーフ証明書** （ルート CAではなく）を登録する必要があります。
 
 ヘッダー認証タイプの例を次に示します。
 

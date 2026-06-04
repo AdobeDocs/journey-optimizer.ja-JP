@@ -30,10 +30,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: d12c1812e2e9eff38ad7a24ef32bd947dfb8cbc7
 workflow-type: tm+mt
-source-wordcount: 2200
-ht-degree: 88%
+source-wordcount: 2332
+ht-degree: 83%
 
 ---
 
@@ -67,6 +67,11 @@ ht-degree: 88%
 1. このアクションを使用しているジャーニーの数は、「**[!UICONTROL 使用されている場所]**」フィールドに表示されます。 「**[!UICONTROL ジャーニーを表示]**」ボタンをクリックすると、このアクションを使用するジャーニーのリストを表示できます。
 1. 様々な **[!UICONTROL URL 設定]**&#x200B;パラメーターを定義します。 [このページ](../action/about-custom-action-configuration.md#url-configuration)を参照してください。
 1. 「**[!UICONTROL 認証]**」セクションを設定します。 この設定はデータソースの場合と同じです。  [この節](../datasource/external-data-sources.md#custom-authentication-mode)を参照してください。
+
+   >[!NOTE]
+   >
+   >エンドポイントがOpenID Connectを使用し、銀行および金融サービス APIで一般的なパターンである`access_token`と`id_token`の両方を返す場合は、カスタム認証ペイロードのオプションの`idTokenInResponse` フィールドを使用します。 これにより、Journey Optimizerは、アクセストークンの代わりにID トークンを認証資格情報として使用するように指示されます。 [&#x200B; カスタム認証の詳細](../datasource/external-data-sources.md#custom-authentication-mode)。
+
 1. **[!UICONTROL アクションパラメーター]**&#x200B;を定義します。 [このページ](../action/about-custom-action-configuration.md#define-the-message-parameters)を参照してください。
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
@@ -164,7 +169,7 @@ Journey Optimizer では、カスタムアクションにデータガバナン�
 
 1. フィールドのラベルまたは名前を入力します。
 
-1. タイプを選択：**[!UICONTROL 定数]**&#x200B;または&#x200B;**[!UICONTROL 変数]**。 **[!UICONTROL 定数]**&#x200B;を選択した場合は、**[!UICONTROL 値]**&#x200B;フィールドに定数の値を入力します。 「**[!UICONTROL 変数]**」を選択した場合は、カスタムアクションをジャーニーに追加する際に、この変数を指定します。 [詳細情報](../building-journeys/using-custom-actions.md)
+1. タイプを選択：**[!UICONTROL 定数]**&#x200B;または&#x200B;**[!UICONTROL 変数]**。 **[!UICONTROL 定数]**&#x200B;を選択した場合は、**[!UICONTROL 値]**&#x200B;フィールドに定数の値を入力します。 「**[!UICONTROL 変数]**」を選択した場合は、カスタムアクションをジャーニーに追加する際に、この変数を指定します。 [学習を増やす](../building-journeys/using-custom-actions.md)。
 
    ![](assets/journeyurlconfiguration2.png)
 
@@ -194,6 +199,14 @@ Mutual Transport Layer Security（mTLS）は、Adobe Journey Optimizer カスタ
 >* エンドポイントを設定して、**重複する証明書** （古い証明書と新しい証明書の両方を同時に）を受け入れるようにします。これにより、ローテーション中に接続性のギャップが生じません。
 >* Adobeでは、証明書のローテーション時にプロアクティブな通知が送信されません。 証明書の更新を監視し、トラストストアを最新の状態に保つことは、お客様の責任です。
 >* 信頼の検証は、特定のリーフ証明書フィンガープリントにピン留めするのではなく、ルート CA （DigiCert）までの証明書チェーンに基づいて行う必要があります。
+
+### 証明書ベースのカスタム認証 {#certificate-based-auth}
+
+Azure Entra IDなどの証明書ベースのID確認を強制するエンタープライズ APIの場合、カスタムアクションは&#x200B;**証明書ベースのカスタム認証**&#x200B;をサポートします。 有効にするには、**[!UICONTROL 認証]** セクションで設定されたカスタム認証ペイロードで`"subType": "certificateCredential"`を設定します。
+
+Journey Optimizerは、Adobeのマネージド証明書を使用してJWT クライアントアサーションに署名し、アクセストークンと自動的に交換します。 クライアントシークレットは必要ありません。
+
+完全なペイロード構造、フィールドの説明、設定ガードレールについては、[証明書ベースのカスタム認証](../datasource/external-data-sources.md#certificate-credential)を参照してください。
 
 ## ペイロードパラメーターの定義 {#define-the-message-parameters}
 

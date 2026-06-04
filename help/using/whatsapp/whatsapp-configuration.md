@@ -26,9 +26,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d9e94fe946f8950198df843542421f3afe9aa907
+source-git-commit: baa650e637ea818fd8e9e17fc06ee8472f4fafe1
 workflow-type: tm+mt
-source-wordcount: 1328
+source-wordcount: 1327
 ht-degree: 82%
 
 ---
@@ -126,7 +126,7 @@ WhatsApp API資格情報が正常に作成されたら、Webhookを次のよう�
 
 >[!NOTE]
 >
->インバウンド WhatsApp メッセージは、_AJO Inbound Activity Event データセット_ システム データセットに取り込まれます。 受信メッセージがこのデータセットに取り込まれる前に、プロファイルに[!DNL Journey Optimizer]から送信されたメッセージが少なくとも1つ必要です。 [詳細情報](../data/get-started-datasets.md#system-datasets)
+>インバウンド WhatsApp メッセージは、_AJO メールトラッキングデータセット_ システムデータセットに取り込まれます。 受信メッセージがこのデータセットに取り込まれる前に、プロファイルに[!DNL Journey Optimizer]から送信されたメッセージが少なくとも1つ必要です。 [詳細情報](../data/get-started-datasets.md#system-datasets)
 
 Webhookは、MetaのWhatsApp Business PlatformとAdobe Journey Optimizer間のコミュニケーションブリッジとして機能し、メッセージイベントやユーザーインタラクションに関するリアルタイムの通知を受け取ることができます。
 
