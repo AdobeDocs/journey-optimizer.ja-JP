@@ -6,7 +6,8 @@ role: User
 level: Beginner
 exl-id: 6477270c-0309-411a-8254-c7ffc4419492
 feature_v2: []
-subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+subfeature_v2:
+  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
 source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
 workflow-type: tm+mt
 source-wordcount: 263

@@ -9,12 +9,21 @@ role: User
 level: Intermediate
 exl-id: 8462c75e-4f4b-4c4f-8734-19efbbc70c7a
 TQID: https://experienceleague.adobe.com/Y8qsGW8XqSVqag4yqRinnem9w2PYJyKIDIWvuGqAchU
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2: id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2:
+  - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
+  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+  - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
 workflow-type: tm+mt
 source-wordcount: 990
@@ -92,7 +101,7 @@ ht-degree: 86%
 1. 検出されたすべてのパーソナライゼーションフィールドを含む、新しい空白のバリアントが表示されます。
 1. 必要に応じて、新しいバリアントを編集します。
 
-![ サンプル入力ボタンを作成](assets/simulate-custom-add.png)
+![&#x200B; サンプル入力ボタンを作成](assets/simulate-custom-add.png)
 
 また、プロセスを高速化するために、事前定義済みのバリアントと値を含むファイルをアップロードすることもできます。
 
@@ -120,7 +129,7 @@ ht-degree: 86%
 1. ファイルの準備が整ったら、「**[!UICONTROL 入力データをアップロード]**」をクリックして読み込みます。
 1. アップロード後、ファイル内の各エントリのリストに新しいバリアントが追加されます。
 
-   ![ サンプル入力バリアントをアップロードしました](assets/simulate-custom-variants.png)
+   ![&#x200B; サンプル入力バリアントをアップロードしました](assets/simulate-custom-variants.png)
 
 バリアントが追加されたら、それらを使用して右側のパネルでコンテンツをプレビューし、メール本配信前確認を送信できます。
 
@@ -140,7 +149,7 @@ To preview your content, select a variant from the list — the preview pane upd
 
 | バリアント 1 の選択 | バリアント 2 の選択 |
 |----------|-------------|
-| ![ バリアント 1の選択](assets/simulate-custom-boxes.png) | ![ バリアント 2の選択](assets/simulate-custom-boxes2.png) |
+| ![&#x200B; バリアント 1の選択](assets/simulate-custom-boxes.png) | ![&#x200B; バリアント 2の選択](assets/simulate-custom-boxes2.png) |
 
 多言語コンテンツと実験の場合、ドロップダウンを使用して、様々な言語のバリアントまたは処理を切り替えることができます。
 
@@ -160,10 +169,10 @@ Journey Optimizer を使用すると、シミュレーション画面に追加�
 
    バリアントについて詳しくは、**[!UICONTROL プロファイルの詳細を表示]**&#x200B;リンクを選択してください。 これにより、異なるバリアントに対して、前の画面で入力した情報を表示できます。
 
-   ![ プルーフ受信者とバリアント選択](assets/simulate-custom-proofs.png)
+   ![&#x200B; プルーフ受信者とバリアント選択](assets/simulate-custom-proofs.png)
 
 1. 「**[!UICONTROL 配達確認を送信]**」ボタンをクリックして、配達確認の送信を開始します。
 
 1. 配達確認の送信を追跡するには、コンテンツをシミュレート画面の「**[!UICONTROL 配達確認を表示]**」ボタンをクリックします。
 
-![ プルーフリストを送信](assets/simulate-custom-sent-proofs.png)
+![&#x200B; プルーフリストを送信](assets/simulate-custom-sent-proofs.png)
