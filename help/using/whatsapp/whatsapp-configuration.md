@@ -8,27 +8,15 @@ role: Admin
 level: Intermediate
 exl-id: d1f40cd8-f311-4df6-b401-8858095cef3e
 TQID: https://experienceleague.adobe.com/Csk1JNk8W6SGjoga5chRRE7-LUzUKK-X8sZcwszCxRE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-  - id: b8df23d2-98a2-4406-86cc-2babe8728d36
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d9e94fe946f8950198df843542421f3afe9aa907
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: b8df23d2-98a2-4406-86cc-2babe8728d36id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: baa650e637ea818fd8e9e17fc06ee8472f4fafe1
 workflow-type: tm+mt
-source-wordcount: 1328
+source-wordcount: 1327
 ht-degree: 82%
 
 ---
@@ -126,7 +114,7 @@ WhatsApp API資格情報が正常に作成されたら、Webhookを次のよう�
 
 >[!NOTE]
 >
->インバウンド WhatsApp メッセージは、_AJO Inbound Activity Event データセット_ システム データセットに取り込まれます。 受信メッセージがこのデータセットに取り込まれる前に、プロファイルに[!DNL Journey Optimizer]から送信されたメッセージが少なくとも1つ必要です。 [詳細情報](../data/get-started-datasets.md#system-datasets)
+>インバウンド WhatsApp メッセージは、_AJO メールトラッキングデータセット_ システムデータセットに取り込まれます。 受信メッセージがこのデータセットに取り込まれる前に、プロファイルに[!DNL Journey Optimizer]から送信されたメッセージが少なくとも1つ必要です。 [詳細情報](../data/get-started-datasets.md#system-datasets)
 
 Webhookは、MetaのWhatsApp Business PlatformとAdobe Journey Optimizer間のコミュニケーションブリッジとして機能し、メッセージイベントやユーザーインタラクションに関するリアルタイムの通知を受け取ることができます。
 
@@ -248,6 +236,6 @@ WhatsApp API 資格情報の設定時に HTTP 500 エラーが発生した場合
 
 +++ こちらのビデオをご覧ください
 
->[!VIDEO](https://video.tv.adobe.com/v/3470269/?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470268/?learn=on)
 
 +++
