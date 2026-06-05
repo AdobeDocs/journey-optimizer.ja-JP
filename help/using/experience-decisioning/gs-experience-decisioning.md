@@ -8,25 +8,16 @@ level: Intermediate
 exl-id: 4c57dbf9-b2a4-42da-8aa3-5a1b3a475a32
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/z-9FSXpQNMyy0KcGaLWgDYHqAx-BWhIEJYAq4wVqmv4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 014e80a81e9f04f74f0a97c380feab5bbfc8856f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: 1b4e12b9433a819a3be34c4f01c489af1d6091ed
 workflow-type: tm+mt
-source-wordcount: 732
-ht-degree: 78%
+source-wordcount: 751
+ht-degree: 74%
 
 ---
 
@@ -41,11 +32,11 @@ ht-degree: 78%
 
 決定は、「決定項目」と呼ばれるマーケティングオファーの一元カタログと、高度な決定エンジンを提供することで、パーソナライゼーションを簡素化します。 このエンジンは、ルールとランキング条件を活用して、各個人に最も関連性の高い決定項目を選択し、提示します。
 
-これらの決定項目は、[&#x200B; コードベースのエクスペリエンス &#x200B;](../code-based/get-started-code-based.md)、電子メール、SMS、プッシュ通知など、[!DNL Adobe Journey Optimizer]のチャネルをまたいでメッセージやエクスペリエンスにシームレスに統合されます。
+これらの決定項目は、[!DNL Adobe Journey Optimizer] チャネルのメッセージやエクスペリエンスにシームレスに統合されます。例えば、[ コードベースのエクスペリエンス ](../code-based/get-started-code-based.md)、電子メール、SMS、プッシュ通知、および[ ダイレクトメール ](batch-decisioning-direct-mail.md)は、一括決定とパーソナライズされたダイレクトメール書き出し用です。 ダイレクトメールに対するExperience Decisioningのサポートは新しい機能です。以前は、ダイレクトメール抽出ファイルに対してDecisioning エンジンを使用できませんでした。
 
 >[!IMPORTANT]
 >
->決定ポリシーは、**コードベースのエクスペリエンス**、**電子メール**、**プッシュ通知**、および&#x200B;**SMS** チャネルのすべての顧客が利用できます。 リリースサイクルと可用性フェーズについて詳しくは、[Journey Optimizer リリースサイクル](../rn/releases.md)を参照してください。
+>決定ポリシーは、**コードベースのエクスペリエンス**、**電子メール**、**プッシュ通知**、**SMS**、および&#x200B;**ダイレクトメール** チャネルのすべての顧客が利用できます。
 
 ➡️ [この機能をビデオで確認](#video)
 
@@ -83,7 +74,7 @@ ht-degree: 78%
 
 1. ターゲットオーディエンスに表示する&#x200B;**決定項目を作成**&#x200B;します。
 
-   ➡️ ユーザーインターフェイス（および[&#x200B; API ドキュメント](api-reference/decisions-items/create.md)）での[決定項目の作成方法について説明します。](items.md)
+   ➡️ ユーザーインターフェイス（および[ API ドキュメント](api-reference/decisions-items/create.md)）での[決定項目の作成方法について説明します。](items.md)
 
 1. **コレクションで整理**：コレクションを使用し、属性ベースのルールに基づいて決定項目を分類します。 コレクションを選択戦略に組み込んで、考慮する必要がある決定項目のコレクションを特定します。
 
@@ -99,12 +90,12 @@ ht-degree: 78%
 
 1. **選択戦略の作成**：コレクション、決定ルール、ランキング方法を活用した選択戦略を作成して、プロファイルに表示するのに適した決定項目を特定します。
 
-   ➡️ [&#128279;](selection-strategies.md)ユーザーインターフェイス（および [APIドキュメント](api-reference/selection-strategies/create.md)）での選択戦略の作成方法の詳細情報
+   ➡️ [ユーザーインターフェイス（および [APIドキュメント](api-reference/selection-strategies/create.md)）での選択戦略の作成方法の詳細情報](selection-strategies.md)
 
 1. **決定ポリシーを作成し、ジャーニーまたはキャンペーンに埋め込む** （コードベースのエクスペリエンス、電子メール、SMS、プッシュ通知）：決定ポリシーは、複数の選択戦略を組み合わせて、対象オーディエンスに表示する対象となる決定項目を決定します。
 
    ➡️ [決定ポリシーの操作方法を説明します](create-decision.md)
-➡️ コードベースのエクスペリエンスチャネルを介してオファーを正常に配信するには、[このセクション &#x200B;](../code-based/code-based-implementation-samples.md)の実装手順に従います。
+➡️ コードベースのエクスペリエンスチャネルを介してオファーを正常に配信するには、[このセクション ](../code-based/code-based-implementation-samples.md)の実装手順に従います。
 
 ## 意思決定プロセス {#process}
 
@@ -127,4 +118,4 @@ ht-degree: 78%
 
 Adobe Journey Optimizerの意思決定機能について詳しく見る。
 
->[!VIDEO](https://video.tv.adobe.com/v/3475864?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451101?quality=12)
