@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: b91d7609df9d05a2ef04dbdbe2a78d9a084f95ac
+source-git-commit: f037ccbe655dbd283307191f58c31d4806045441
 workflow-type: tm+mt
-source-wordcount: 2637
+source-wordcount: 2562
 ht-degree: 21%
 
 ---
@@ -210,25 +210,6 @@ ht-degree: 21%
 ### オーケストレーションキャンペーン {#may-26-oc}
 
 このリリースでは、オーケストレーションされたキャンペーンに次の機能と機能強化が追加されました。 今後数日または数週間で追加の変更が予定されています。
-
-<table>
-<thead>
-<tr>
-<th><strong>ジャーニー式のためのAI アシスタント</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>AI アシスタントがジャーニーの高度な式エディターで動作し、自然言語プロンプトを有効な式や条件付きロジックに変換できるようになりました。 構築したい式を記述すると、AI アシスタントがすぐに適用できる使いやすいコードを生成したり、フォローアッププロンプトで微調整したりできます。</p>
-<p>この機能は、パブリック Betaとしてすべてのお客様が利用できます。</p>
-<p><img src="assets/do-not-localize/expression-assistant.gif"></p>
-<p>詳しくは、<a href="../building-journeys/expression/expression-agent.md">詳細ドキュメント</a>を参照してください。</p>
-<p>ご利用いただけます：2026年5月20日（PT）</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>
