@@ -26,10 +26,10 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d12c1812e2e9eff38ad7a24ef32bd947dfb8cbc7
+source-git-commit: e3ade9a651638c321aa0dd837e09cc2d44359797
 workflow-type: tm+mt
-source-wordcount: 2077
-ht-degree: 76%
+source-wordcount: 2084
+ht-degree: 75%
 
 ---
 
@@ -253,12 +253,12 @@ Bearer 認証タイプの例を次に示します。
 
 ### 証明書ベースのカスタム認証 {#certificate-credential}
 
-Azure Entra IDなど、証明書ベースのID確認を強制するエンタープライズ APIの場合、カスタム認証ペイロードに`"subType": "certificateCredential"`を追加することで、証明書ベースのカスタム認証を設定できます。 Journey Optimizerは、Adobeのマネージド証明書を使用してJWT クライアントアサーションに署名し、アクセストークンと交換します。 クライアントシークレットは必要ありません。
+Microsoft Entra IDなど、証明書ベースのID確認を強制するエンタープライズ APIの場合、カスタム認証ペイロードに`"subType": "certificateCredential"`を追加することで、証明書ベースのカスタム認証を設定できます。 Journey Optimizerは、Adobeのマネージド証明書を使用してJWT クライアントアサーションに署名し、アクセストークンと交換します。 クライアントシークレットは必要ありません。
 
-このオプションは、標準`customAuthorization` スキーマに2つのオプション フィールド `subType`と`aud`を追加します。 その他のすべてのフィールド （`endpoint`、`method`、本文パラメーター、`tokenInResponse`）は変更されません。 `subType`が存在しない場合、動作は標準のカスタム認証と同じです。既存の設定は影響を受けません。
+このオプションは、標準`customAuthorization` スキーマに2つの必須フィールド `subType`と`aud`を追加します。 その他のすべてのフィールド （`endpoint`、`method`、本文パラメーター、`tokenInResponse`）は変更されません。 `subType`が存在しない場合、動作は標準のカスタム認証と同じです。既存の設定は影響を受けません。
 
 * **`subType`**：証明書ベースの認証を有効にするには、`"certificateCredential"`に設定します。
-* **`aud`**: JWT クライアントアサーションに含まれるオーディエンス値。 設定されていない場合は、デフォルトで`endpoint` URLが使用されます。このフィールドは、ID プロバイダーが異なるオーディエンス値を想定している場合にのみ指定します。
+* **`aud`**: JWT クライアントアサーションに含まれるオーディエンス値。 Microsoft Entra IDの場合、これは`endpoint` URLと同じですが、常に明示的に設定する必要があります。
 
 `client_assertion`および`client_assertion_type` フィールドは、ユーザーが作成したことはありません。 これらは、トークンエンドポイント呼び出しの直前に、実行時にプラットフォームによって自動的に挿入されます。
 
@@ -269,7 +269,7 @@ Azure Entra IDなど、証明書ベースのID確認を強制するエンター�
   "type": "customAuthorization",
   "subType": "certificateCredential",
   "aud": "https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token",
-  "authorizationType": "bearer",
+  "authorizationType": "Bearer",
   "endpoint": "https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token",
   "method": "POST",
   "body": {
@@ -289,6 +289,7 @@ Azure Entra IDなど、証明書ベースのID確認を強制するエンター�
 >証明書ベースのカスタム認証を設定する際は、次のガードレールを考慮してください。
 >
 >* **トークンエンドポイント URL**: HTTPSである必要があります。 `?`を含むURLを避けます。これは、認証エンドポイントがトークンエンドポイントの代わりに貼り付けられたサインです。
+>* **`method`**: `POST`でなければなりません。 OAuth トークンエンドポイントは、POST リクエストのみを受け入れます。
 >* **`client_id`**：空白にしないでください。先頭または末尾に空白を含めないでください。 空白の値を指定すると、ID プロバイダーが不透明なエラーで拒否する有効な外観のJWTが生成されます。
 >* **`scope`**: `bodyParams`でスペース区切りの単一の文字列として表されます。 合計1000文字以内。
 >* **証明書**: Adobeは証明書と秘密鍵を管理します。証明書をアップロードしたり入力したりすることはありません。 ライブジャーニーでカスタムアクションを使用する前に、ID プロバイダーに&#x200B;**Adobeのリーフ証明書** （ルート CAではなく）を登録する必要があります。
