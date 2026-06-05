@@ -10,29 +10,14 @@ level: Experienced
 keywords: アクション, サードパーティ, カスタム, ジャーニー, API
 exl-id: 4df2fc7c-85cb-410a-a31f-1bc1ece237bb
 TQID: https://experienceleague.adobe.com/q4zuwxmF2Gr5P5IkdZCKFHoA18-GGrlLD0f-WPCQ3q4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: d12c1812e2e9eff38ad7a24ef32bd947dfb8cbc7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: e3ade9a651638c321aa0dd837e09cc2d44359797
 workflow-type: tm+mt
-source-wordcount: 2332
+source-wordcount: 2324
 ht-degree: 83%
 
 ---
@@ -70,7 +55,11 @@ ht-degree: 83%
 
    >[!NOTE]
    >
-   >エンドポイントがOpenID Connectを使用し、銀行および金融サービス APIで一般的なパターンである`access_token`と`id_token`の両方を返す場合は、カスタム認証ペイロードのオプションの`idTokenInResponse` フィールドを使用します。 これにより、Journey Optimizerは、アクセストークンの代わりにID トークンを認証資格情報として使用するように指示されます。 [&#x200B; カスタム認証の詳細](../datasource/external-data-sources.md#custom-authentication-mode)。
+   >エンドポイントが`access_token`と`id_token`の両方を返す場合は、`tokenInResponse` フィールドを使用して、Journey Optimizerで認証資格情報として使用するトークンを指定します。
+   >* `"tokenInResponse": "json://access_token"` — アクセストークンを使用します（OAuth 2.0のデフォルト）
+   >* `"tokenInResponse": "json://id_token"` — ID トークンを使用します（OpenID Connect フローで一般的）
+   >
+   >[ カスタム認証の詳細](../datasource/external-data-sources.md#custom-authentication-mode)
 
 1. **[!UICONTROL アクションパラメーター]**&#x200B;を定義します。 [このページ](../action/about-custom-action-configuration.md#define-the-message-parameters)を参照してください。
 1. 「**[!UICONTROL 保存]**」をクリックします。
@@ -202,7 +191,7 @@ Mutual Transport Layer Security（mTLS）は、Adobe Journey Optimizer カスタ
 
 ### 証明書ベースのカスタム認証 {#certificate-based-auth}
 
-Azure Entra IDなどの証明書ベースのID確認を強制するエンタープライズ APIの場合、カスタムアクションは&#x200B;**証明書ベースのカスタム認証**&#x200B;をサポートします。 有効にするには、**[!UICONTROL 認証]** セクションで設定されたカスタム認証ペイロードで`"subType": "certificateCredential"`を設定します。
+Microsoft Entra IDなどの証明書ベースのID確認を強制するエンタープライズ APIの場合、カスタムアクションは&#x200B;**証明書ベースのカスタム認証**&#x200B;をサポートします。 有効にするには、**[!UICONTROL 認証]** セクションで設定されたカスタム認証ペイロードで`"subType": "certificateCredential"`を設定します。
 
 Journey Optimizerは、Adobeのマネージド証明書を使用してJWT クライアントアサーションに署名し、アクセストークンと自動的に交換します。 クライアントシークレットは必要ありません。
 

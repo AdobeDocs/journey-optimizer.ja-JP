@@ -10,26 +10,16 @@ level: Intermediate, Experienced
 keywords: 外部, ソース, データ, 設定, 接続, サードパーティ
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 TQID: https://experienceleague.adobe.com/B7ByDzFxOmtiWSNyc35w28v3j1osGVOyU8LYJrzxGSE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: dd51b532-b93f-4bcf-8dbf-0d007f593aca
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d12c1812e2e9eff38ad7a24ef32bd947dfb8cbc7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: dd51b532-b93f-4bcf-8dbf-0d007f593aca
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e3ade9a651638c321aa0dd837e09cc2d44359797
 workflow-type: tm+mt
-source-wordcount: 2077
-ht-degree: 76%
+source-wordcount: 2084
+ht-degree: 75%
 
 ---
 
@@ -48,7 +38,7 @@ ht-degree: 76%
 >
 >* 外部システムを操作する際のガードレールについて詳しくは、[このページ](../configuration/external-systems.md)を参照してください。
 >
->* 応答がサポートされるようになったので、外部データソースのユースケースでは、データソースの代わりにカスタムアクションを使用する必要があります。 応答について詳しくは、[&#x200B; カスタムアクション応答](../action/action-response.md)を参照してください。 データレイクの永続性を持たないカスタムアクションは、データがジャーニー内でのみ有効で、API エンドポイントを介して外部システムにアクセスできる場合に適した選択肢です。 すべてのデータ アクセス オプションの比較については、[&#x200B; データ アクセス戦略の選択](../datasource/about-data-sources.md#data-access-strategy)を参照してください。
+>* 応答がサポートされるようになったので、外部データソースのユースケースでは、データソースの代わりにカスタムアクションを使用する必要があります。 応答について詳しくは、[ カスタムアクション応答](../action/action-response.md)を参照してください。 データレイクの永続性を持たないカスタムアクションは、データがジャーニー内でのみ有効で、API エンドポイントを介して外部システムにアクセスできる場合に適した選択肢です。 すべてのデータ アクセス オプションの比較については、[ データ アクセス戦略の選択](../datasource/about-data-sources.md#data-access-strategy)を参照してください。
 
 POST または GET を使用して JSON を返す REST API がサポートされています。 API キー、基本およびカスタム認証モードがサポートされています。
 
@@ -71,7 +61,7 @@ POST または GET を使用して JSON を返す REST API がサポートされ
 
 1. データソースのリストから、「**[!UICONTROL データSourceを作成]**」をクリックして、新しい外部データソースを作成します。
 
-   ![&#x200B; データ Sourceを作成ボタンがハイライト表示されたデータソースリスト画面](assets/journey25.png)
+   ![ データ Sourceを作成ボタンがハイライト表示されたデータソースリスト画面](assets/journey25.png)
 
    画面の右側にデータソース設定ペインが開きます。
 
@@ -88,7 +78,7 @@ POST または GET を使用して JSON を返す REST API がサポートされ
    >
    >セキュリティ上の理由から、HTTPS の使用を強くお勧めします。 また、アドビの非公開アドレスや IP アドレスの使用は許可されていません。
 
-   ![天候API エンドポイントの例が入力された外部データソース URL フィールド &#x200B;](assets/journey27.png)
+   ![天候API エンドポイントの例が入力された外部データソース URL フィールド ](assets/journey27.png)
 
 1. 外部サービスの設定に応じて認証を&#x200B;**[!UICONTROL 認証なし]**、**[!UICONTROL 基本]**、**[!UICONTROL カスタム]**&#x200B;または **[!UICONTROL API キー]**&#x200B;に設定します。
 
@@ -101,14 +91,14 @@ POST または GET を使用して JSON を返す REST API がサポートされ
    >* [!DNL Adobe Journey Optimizer]は、カスタムアクションで定義されたシークレットを自動的に暗号化します。 各組織の暗号化キーは、その組織に関連付けられた専用のコンテナで安全に管理されます。 資格情報をインターフェイスに表示する際、誤って公開されないように、デフォルトではマスクされます。
 
 
-   カスタム認証モードについて詳しくは、[&#x200B; カスタム認証モードの節](../datasource/external-data-sources.md#custom-authentication-mode)を参照してください。 この例では、以下のように API キー認証モードを選択します。
+   カスタム認証モードについて詳しくは、[ カスタム認証モードの節](../datasource/external-data-sources.md#custom-authentication-mode)を参照してください。 この例では、以下のように API キー認証モードを選択します。
 
    * **[!UICONTROL タイプ]**：API キー
    * **[!UICONTROL 名前]**：&quot;appid&quot;（API キーのパラメーター名）
    * **[!UICONTROL 値]**：&quot;1234&quot;（API キーの値）
    * **[!UICONTROL 位置]**：「クエリパラメーター」（API キーは URL 内にあります）
 
-     ![&#x200B; タイプ、名前、値、場所の入力を示すAPI キー認証フィールド &#x200B;](assets/journey28.png)
+     ![ タイプ、名前、値、場所の入力を示すAPI キー認証フィールド ](assets/journey28.png)
 
 1. 「**[!UICONTROL 新しいフィールドグループを追加]**」をクリックして、API パラメーターセットごとに新しいフィールドグループを追加します。 フィールドグループ名には、英数字とアンダースコアのみを使用できます。 最大長は 30 文字です。 この例では、各パラメーターセット（都市と経度／緯度）ごとに 1 つずつ、2 つのフィールドグループを作成する必要があります。
 
@@ -129,7 +119,7 @@ GET 呼び出しにパラメーターが必要な場合は、「 **[!UICONTROL �
 {"id":{"param":"identifier"}}
 ```
 
-動的な値と応答ペイロード フィールドを含む![&#x200B; フィールドグループ設定パネル &#x200B;](assets/journey29.png)
+動的な値と応答ペイロード フィールドを含む![ フィールドグループ設定パネル ](assets/journey29.png)
 
 
 変更を保存すると、データソースが設定され、ジャーニーで使用できる状態になります。これで、状況に応じて、メールをパーソナライズできます。 温度が 30°C を超える場合、特定のコミュニケーションを送信するようにできます。
@@ -145,7 +135,7 @@ GET 呼び出しにパラメーターが必要な場合は、「 **[!UICONTROL �
 
 カスタム認証を設定する場合は、「**[!UICONTROL クリックして認証を確認]**」ボタンを使用して、カスタム認証ペイロードが正しく設定されているかどうかを制御します。
 
-![&#x200B; データソース設定のカスタム認証テストボタン &#x200B;](assets/journey29-bis.png)
+![ データソース設定のカスタム認証テストボタン ](assets/journey29-bis.png)
 
 テストに成功すると、ボタンが緑色に変わります。
 
@@ -253,12 +243,12 @@ Bearer 認証タイプの例を次に示します。
 
 ### 証明書ベースのカスタム認証 {#certificate-credential}
 
-Azure Entra IDなど、証明書ベースのID確認を強制するエンタープライズ APIの場合、カスタム認証ペイロードに`"subType": "certificateCredential"`を追加することで、証明書ベースのカスタム認証を設定できます。 Journey Optimizerは、Adobeのマネージド証明書を使用してJWT クライアントアサーションに署名し、アクセストークンと交換します。 クライアントシークレットは必要ありません。
+Microsoft Entra IDなど、証明書ベースのID確認を強制するエンタープライズ APIの場合、カスタム認証ペイロードに`"subType": "certificateCredential"`を追加することで、証明書ベースのカスタム認証を設定できます。 Journey Optimizerは、Adobeのマネージド証明書を使用してJWT クライアントアサーションに署名し、アクセストークンと交換します。 クライアントシークレットは必要ありません。
 
-このオプションは、標準`customAuthorization` スキーマに2つのオプション フィールド `subType`と`aud`を追加します。 その他のすべてのフィールド （`endpoint`、`method`、本文パラメーター、`tokenInResponse`）は変更されません。 `subType`が存在しない場合、動作は標準のカスタム認証と同じです。既存の設定は影響を受けません。
+このオプションは、標準`customAuthorization` スキーマに2つの必須フィールド `subType`と`aud`を追加します。 その他のすべてのフィールド （`endpoint`、`method`、本文パラメーター、`tokenInResponse`）は変更されません。 `subType`が存在しない場合、動作は標準のカスタム認証と同じです。既存の設定は影響を受けません。
 
 * **`subType`**：証明書ベースの認証を有効にするには、`"certificateCredential"`に設定します。
-* **`aud`**: JWT クライアントアサーションに含まれるオーディエンス値。 設定されていない場合は、デフォルトで`endpoint` URLが使用されます。このフィールドは、ID プロバイダーが異なるオーディエンス値を想定している場合にのみ指定します。
+* **`aud`**: JWT クライアントアサーションに含まれるオーディエンス値。 Microsoft Entra IDの場合、これは`endpoint` URLと同じですが、常に明示的に設定する必要があります。
 
 `client_assertion`および`client_assertion_type` フィールドは、ユーザーが作成したことはありません。 これらは、トークンエンドポイント呼び出しの直前に、実行時にプラットフォームによって自動的に挿入されます。
 
@@ -269,7 +259,7 @@ Azure Entra IDなど、証明書ベースのID確認を強制するエンター�
   "type": "customAuthorization",
   "subType": "certificateCredential",
   "aud": "https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token",
-  "authorizationType": "bearer",
+  "authorizationType": "Bearer",
   "endpoint": "https://login.microsoftonline.com/{tenantId}/oauth2/v2.0/token",
   "method": "POST",
   "body": {
@@ -289,6 +279,7 @@ Azure Entra IDなど、証明書ベースのID確認を強制するエンター�
 >証明書ベースのカスタム認証を設定する際は、次のガードレールを考慮してください。
 >
 >* **トークンエンドポイント URL**: HTTPSである必要があります。 `?`を含むURLを避けます。これは、認証エンドポイントがトークンエンドポイントの代わりに貼り付けられたサインです。
+>* **`method`**: `POST`でなければなりません。 OAuth トークンエンドポイントは、POST リクエストのみを受け入れます。
 >* **`client_id`**：空白にしないでください。先頭または末尾に空白を含めないでください。 空白の値を指定すると、ID プロバイダーが不透明なエラーで拒否する有効な外観のJWTが生成されます。
 >* **`scope`**: `bodyParams`でスペース区切りの単一の文字列として表されます。 合計1000文字以内。
 >* **証明書**: Adobeは証明書と秘密鍵を管理します。証明書をアップロードしたり入力したりすることはありません。 ライブジャーニーでカスタムアクションを使用する前に、ID プロバイダーに&#x200B;**Adobeのリーフ証明書** （ルート CAではなく）を登録する必要があります。
