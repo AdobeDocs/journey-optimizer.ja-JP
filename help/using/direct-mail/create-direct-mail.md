@@ -10,12 +10,19 @@ level: Beginner
 keywords: ダイレクトメール, メッセージ, キャンペーン
 exl-id: 6b438268-d983-4ab8-9276-c4b7de74e6bd
 TQID: https://experienceleague.adobe.com/vn-PhvuksTX-ALADGGwGlvtp7-dTgjFVsIVvucAjLa8
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2: id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2:
+  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+  - id: cb1f1586-9fb4-4de2-8332-02cebb88d42d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: b91d7609df9d05a2ef04dbdbe2a78d9a084f95ac
 workflow-type: tm+mt
 source-wordcount: 1190
@@ -58,17 +65,17 @@ ht-degree: 74%
 
 1. ダイレクトメールプロバイダーに送信する抽出ファイルを設定します。 これを行うには、「**[!UICONTROL コンテンツを編集]**」ボタンをクリックします。
 
-   ![ アクション パレットからジャーニーにダイレクトメール アクティビティが追加されました](assets/direct-mail-add-journey.png)
+   ![&#x200B; アクション パレットからジャーニーにダイレクトメール アクティビティが追加されました](assets/direct-mail-add-journey.png)
 
 1. ファイル名や表示する列など、抽出ファイルのプロパティを調整します。 抽出ファイルのプロパティの設定方法について詳しくは、[ダイレクトメールメッセージの作成](../direct-mail/create-direct-mail.md#extraction-file)の節を参照してください。
 
-   ![ ダイレクトメールジャーニーアクティビティ用の抽出ファイルコンテンツエディター](assets/direct-mail-journey-content.png)
+   ![&#x200B; ダイレクトメールジャーニーアクティビティ用の抽出ファイルコンテンツエディター](assets/direct-mail-journey-content.png)
 
 1. 抽出ファイルの内容を定義したら、テストプロファイルを使用して内容をプレビューできます。 パーソナライズされたコンテンツを挿入した場合は、そのコンテンツがメッセージにどのように表示されるかを、テストプロファイルデータを使用して確認できます。
 
    これを行うには、「**[!UICONTROL コンテンツをシミュレート]**」をクリックして、テストプロファイルを追加し、テストプロファイルデータを使用した抽出ファイルのレンダリング方法を確認します。 テストプロファイルの選択およびコンテンツのプレビュー方法について詳しくは、[コンテンツ管理](../content-management/preview-test.md)の節を参照してください。
 
-   ![ ダイレクトメール抽出ファイルのコンテンツプレビューのシミュレーション ](assets/direct-mail-simulate.png){width="800" align="center"}
+   ![&#x200B; ダイレクトメール抽出ファイルのコンテンツプレビューのシミュレーション &#x200B;](assets/direct-mail-simulate.png){width="800" align="center"}
 
 抽出ファイルの準備が整ったら、[ジャーニー](../building-journeys/journey-gs.md)の設定を完了させて送信します。
 
@@ -92,7 +99,7 @@ ht-degree: 74%
 
 1. 使用する&#x200B;**[!UICONTROL ダイレクトメール設定]**&#x200B;を選択または作成します。 [ダイレクトメール設定の作成方法について詳しくは、こちらを参照してください](direct-mail-configuration.md#direct-mail-surface)。
 
-   ![ スケジュールされたマーケティングキャンペーンで設定されたダイレクトメールアクション ](assets/direct-mail-campaign.png){width="800" align="center"}
+   ![&#x200B; スケジュールされたマーケティングキャンペーンで設定されたダイレクトメールアクション &#x200B;](assets/direct-mail-campaign.png){width="800" align="center"}
 
    >[!AVAILABILITY]
    >
@@ -126,7 +133,7 @@ ht-degree: 74%
    >
    >ダイレクトメールのエクスペリエンス決定は新しい機能です。 以前は、ダイレクトメール抽出ファイルでは決定エンジンを使用できませんでした。決定ポリシーを追加し、決定項目属性を列データとして書き出しに含めることができるようになりました。
 
-   [ ダイレクトメールで決定ポリシーを追加する方法について説明します](../experience-decisioning/create-decision-policy.md#add)。 バッチ決定ワークフローと例（パーソナライズされたダイレクトメールまたはダウンストリームシステムへの書き出し）については、[ ダイレクトメールでのバッチ決定](../experience-decisioning/batch-decisioning-direct-mail.md)を参照してください。
+   [&#x200B; ダイレクトメールで決定ポリシーを追加する方法について説明します](../experience-decisioning/create-decision-policy.md#add)。 バッチ決定ワークフローと例（パーソナライズされたダイレクトメールまたはダウンストリームシステムへの書き出し）については、[&#x200B; ダイレクトメールでのバッチ決定](../experience-decisioning/batch-decisioning-direct-mail.md)を参照してください。
 
 1. 次のように、抽出ファイルのプロパティを調整します。
 
@@ -140,7 +147,7 @@ ht-degree: 74%
 
    1. 抽出ファイルの先頭または末尾に情報を追加することが必要になる場合があります。 その場合は、「**[!UICONTROL メモ]**」フィールドを使用して、メモをヘッダーまたはフッターとして含めるかどうかを指定します。
 
-      ![ ファイル名、タイムスタンプ、ヘッダーまたはフッターのメモを含む抽出ファイルのプロパティ ](assets/direct-mail-properties.png){width="800" align="center"}
+      ![&#x200B; ファイル名、タイムスタンプ、ヘッダーまたはフッターのメモを含む抽出ファイルのプロパティ &#x200B;](assets/direct-mail-properties.png){width="800" align="center"}
 
 1. 抽出ファイルに表示する列と情報を設定します。
 
@@ -152,7 +159,7 @@ ht-degree: 74%
 
    1. 列を使用して抽出ファイルを並べ替えるには、列を選択し、「**[!UICONTROL 並べ替え基準]**」オプションの切替スイッチをオンにします。 「**[!UICONTROL データフィールド]**」セクションで、列のラベルの横に&#x200B;**[!UICONTROL 並べ替え基準]**&#x200B;アイコンが表示されます。
 
-      ![ ダイレクトメール抽出ファイルエディターのデータフィールドと列の書式設定](assets/direct-mail-content.png){width="800" align="center"}
+      ![&#x200B; ダイレクトメール抽出ファイルエディターのデータフィールドと列の書式設定](assets/direct-mail-content.png){width="800" align="center"}
 
    1. これらの手順を繰り返して、抽出ファイルに必要な数の列を追加します。 なお、追加できる列数は最大 50 です。
 
@@ -167,4 +174,4 @@ ht-degree: 74%
 * [ダイレクトメールのテストと送信](test-send-direct-mail.md)
 * [コンテンツのプレビューとテスト](../content-management/preview-test.md)
 
-ダイレクトメールに関するよくある質問については、[ ダイレクトメールの基本を学ぶ](get-started-direct-mail.md)を参照してください。
+ダイレクトメールに関するよくある質問については、[&#x200B; ダイレクトメールの基本を学ぶ](get-started-direct-mail.md)を参照してください。
