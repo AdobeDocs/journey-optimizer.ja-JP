@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 keywords: バッチ決定，ダイレクトメール，意思決定
-source-git-commit: 1b4e12b9433a819a3be34c4f01c489af1d6091ed
+source-git-commit: c8d0f67628d61c05c2b062831f382156fd212e7b
 workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 0%
@@ -25,13 +25,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->このページでは、ダイレクトメールでのバッチ決定の使用に関する決定固有の側面に焦点を当てます。 ファイルのルーティング、チャネル設定、抽出ファイルの設定など、ダイレクトメールチャネルの設定と使用について詳しくは、[&#x200B; ダイレクトメールの使用を開始](../direct-mail/get-started-direct-mail.md)および[&#x200B; ダイレクトメールメッセージの作成](../direct-mail/create-direct-mail.md)を参照してください。
+>このページでは、ダイレクトメールでのバッチ決定の使用に関する決定固有の側面に焦点を当てます。 ファイルのルーティング、チャネル設定、抽出ファイルの設定など、ダイレクトメールチャネルの設定と使用について詳しくは、[ ダイレクトメールの使用を開始](../direct-mail/get-started-direct-mail.md)および[ ダイレクトメールメッセージの作成](../direct-mail/create-direct-mail.md)を参照してください。
 
 ## ワークフローの概要 {#workflow}
 
 1. **ダイレクトメールキャンペーンまたはジャーニーを作成**: ジャーニーまたはキャンペーンを作成し、**[!UICONTROL ダイレクトメール]** アクションを選択し、ダイレクトメール設定を選択してオーディエンスを定義します。
 
-   ➡️ [&#x200B; ダイレクトメールメッセージの作成方法について説明します](../direct-mail/create-direct-mail.md)
+   ➡️ [ ダイレクトメールメッセージの作成方法について説明します](../direct-mail/create-direct-mail.md)
 
 1. **決定ポリシーを追加**:
 
@@ -44,23 +44,23 @@ ht-degree: 0%
 
       ![](assets/decision-policy-dm-create.png)
 
-   ➡️ [&#x200B; ダイレクトメールで決定ポリシーを追加および設定する方法について説明します](create-decision-policy.md#add)
+   ➡️ [ ダイレクトメールで決定ポリシーを追加および設定する方法について説明します](create-decision-policy.md#add)
 
 1. **決定属性を使用してダイレクトメールファイルをパーソナライズする**：決定結果を含める必要がある列の場合は、Personalization エディターを開き、**[!UICONTROL 決定ポリシー]**&#x200B;に移動し、**[!UICONTROL 決定ポリシー]**&#x200B;を挿入を選択して、決定ポリシーのコードを追加します。
 
    返された決定項目属性を使用して、選択したオファー情報が各プロファイルの抽出ファイルに含まれるようにします。 複数の項目が返された場合は、ポリシー`#each` ループを使用して、列内の各項目から属性をマッピングします。
 
-   ➡️ [&#x200B; メッセージで決定ポリシーを使用する方法を学ぶ – 「ダイレクトメール」タブ &#x200B;](use-decision-policy.md)
+   ➡️ [ メッセージで決定ポリシーを使用する方法を学ぶ – 「ダイレクトメール」タブ ](use-decision-policy.md)
 
 1. テストプロファイルで&#x200B;**[!UICONTROL コンテンツをシミュレート]**&#x200B;し、書き出された行（決定値を含む）をプレビューします。
 
    ![](assets/batch-decisioning-simulate.png)
 
-   ➡️ [&#x200B; コンテンツをプレビューしてテストする方法について説明します](../content-management/preview-test.md)
+   ➡️ [ コンテンツをプレビューしてテストする方法について説明します](../content-management/preview-test.md)
 
 1. キャンペーンをアクティブ化するか、ジャーニーを公開して、ファイル（CSVまたはテキスト区切り）を生成し、設定済みのサーバーに書き出します。
 
-   ➡️ [&#x200B; キャンペーンのレビューとアクティブ化の方法について](../campaigns/review-activate-campaign.md) | [&#x200B; ジャーニーの公開方法について](../building-journeys/publish-journey.md)
+   ➡️ [ キャンペーンのレビューとアクティブ化の方法について](../campaigns/review-activate-campaign.md) | [ ジャーニーの公開方法について](../building-journeys/publish-journey.md)
 
 ## ダイレクトメール+意思決定の例 {#example-direct-mail}
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 ## 関連ドキュメント {#related}
 
-* [&#x200B; ダイレクトメールメッセージの作成](../direct-mail/create-direct-mail.md) – 抽出ファイルを設定し、決定を有効にします
+* [ ダイレクトメールメッセージの作成](../direct-mail/create-direct-mail.md) – 抽出ファイルを設定し、決定を有効にします
 * [決定ポリシーの作成](create-decision-policy.md#add) - 「ダイレクトメール」タブに決定ポリシーを追加します
-* [&#x200B; ダイレクトメール設定](../direct-mail/direct-mail-configuration.md) - ファイルのルーティングとチャネル設定
+* [ ダイレクトメール設定](../direct-mail/direct-mail-configuration.md) - ファイルのルーティングとチャネル設定
 * [決定の基本を学ぶ](gs-experience-decisioning.md) – 概念とガードレール
