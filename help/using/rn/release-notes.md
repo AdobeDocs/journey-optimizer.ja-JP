@@ -26,7 +26,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f037ccbe655dbd283307191f58c31d4806045441
+source-git-commit: 3c50b7886c95a45f60f7ebd92dd7ea28bd128b77
 workflow-type: tm+mt
 source-wordcount: 2562
 ht-degree: 21%
@@ -508,3 +508,4 @@ The following orchestrated campaign capability is expected in the upcoming days 
   利用開始日：2026年6月上旬
 
 +++
+

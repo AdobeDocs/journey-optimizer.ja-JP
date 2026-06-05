@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 keywords: バッチ決定，ダイレクトメール，意思決定
-source-git-commit: b91d7609df9d05a2ef04dbdbe2a78d9a084f95ac
+source-git-commit: 3c50b7886c95a45f60f7ebd92dd7ea28bd128b77
 workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 0%
@@ -92,3 +92,4 @@ ht-degree: 0%
 * [決定ポリシーの作成](create-decision-policy.md#add) - 「ダイレクトメール」タブに決定ポリシーを追加します
 * [&#x200B; ダイレクトメール設定](../direct-mail/direct-mail-configuration.md) - ファイルのルーティングとチャネル設定
 * [決定の基本を学ぶ](gs-experience-decisioning.md) – 概念とガードレール
+
