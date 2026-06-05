@@ -23,7 +23,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 1b4e12b9433a819a3be34c4f01c489af1d6091ed
+source-git-commit: c8d0f67628d61c05c2b062831f382156fd212e7b
 workflow-type: tm+mt
 source-wordcount: 1190
 ht-degree: 74%
@@ -93,7 +93,7 @@ ht-degree: 74%
    >
    >現時点では、オーディエンスの選択は 300 万プロファイルに制限されています。 この制限は、アドビ担当者にリクエストすることで解除できます。
 
-1. 「**[!UICONTROL ID 名前空間]**」フィールドで、選択したオーディエンス内の個人を識別するために適した名前空間を選択します。 [学習を増やす](../event/about-creating.md#select-the-namespace)。
+1. 「**[!UICONTROL ID 名前空間]**」フィールドで、選択したオーディエンス内の個人を識別するために適した名前空間を選択します。 [詳細情報](../event/about-creating.md#select-the-namespace)
 
 1. 「**[!UICONTROL アクション]**」セクションで、「**[!UICONTROL ダイレクトメール]**」を選択します。
 

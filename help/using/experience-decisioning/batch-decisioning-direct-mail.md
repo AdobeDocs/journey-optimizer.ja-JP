@@ -6,7 +6,7 @@ topic: Integrations
 role: User
 level: Intermediate
 keywords: バッチ決定，ダイレクトメール，意思決定
-source-git-commit: 1b4e12b9433a819a3be34c4f01c489af1d6091ed
+source-git-commit: c8d0f67628d61c05c2b062831f382156fd212e7b
 workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 0%
