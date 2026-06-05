@@ -22,10 +22,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 1b4e12b9433a819a3be34c4f01c489af1d6091ed
 workflow-type: tm+mt
-source-wordcount: 436
-ht-degree: 83%
+source-wordcount: 458
+ht-degree: 79%
 
 ---
 
@@ -57,6 +57,7 @@ ht-degree: 83%
 
 * **[ダイレクトメールの作成](create-direct-mail.md)** - ダイレクトメール配信を作成し、オフラインチャネル用の抽出ファイルを設定する方法について説明します。
 * **[ダイレクトメールチャネルの設定](direct-mail-configuration.md)** - ダイレクトメールサーフェスとファイルルーティング設定を指定します。
+* **[ダイレクトメールでのバッチ決定](../experience-decisioning/batch-decisioning-direct-mail.md)** - ダイレクトメール用に抽出ファイルをパーソナライズしたり、下流システム用に決定データを書き出したりするために決定を使用します。
 * **[ダイレクトメールのテストと送信](test-send-direct-mail.md)** - ダイレクトメール配信をテスト、検証、公開する方法について説明します。
 * **[ダイレクトメールのチュートリアル](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}** - ダイレクトメールの機能とベストプラクティスに関するステップバイステップのビデオチュートリアルを参照してください。
 

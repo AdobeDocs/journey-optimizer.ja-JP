@@ -23,10 +23,10 @@ subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 014e80a81e9f04f74f0a97c380feab5bbfc8856f
+source-git-commit: 1b4e12b9433a819a3be34c4f01c489af1d6091ed
 workflow-type: tm+mt
-source-wordcount: 732
-ht-degree: 78%
+source-wordcount: 751
+ht-degree: 74%
 
 ---
 
@@ -41,11 +41,11 @@ ht-degree: 78%
 
 決定は、「決定項目」と呼ばれるマーケティングオファーの一元カタログと、高度な決定エンジンを提供することで、パーソナライゼーションを簡素化します。 このエンジンは、ルールとランキング条件を活用して、各個人に最も関連性の高い決定項目を選択し、提示します。
 
-これらの決定項目は、[&#x200B; コードベースのエクスペリエンス &#x200B;](../code-based/get-started-code-based.md)、電子メール、SMS、プッシュ通知など、[!DNL Adobe Journey Optimizer]のチャネルをまたいでメッセージやエクスペリエンスにシームレスに統合されます。
+これらの決定項目は、[!DNL Adobe Journey Optimizer] チャネルのメッセージやエクスペリエンスにシームレスに統合されます。例えば、[&#x200B; コードベースのエクスペリエンス &#x200B;](../code-based/get-started-code-based.md)、電子メール、SMS、プッシュ通知、および[&#x200B; ダイレクトメール &#x200B;](batch-decisioning-direct-mail.md)は、一括決定とパーソナライズされたダイレクトメール書き出し用です。 ダイレクトメールに対するExperience Decisioningのサポートは新しい機能です。以前は、ダイレクトメール抽出ファイルに対してDecisioning エンジンを使用できませんでした。
 
 >[!IMPORTANT]
 >
->決定ポリシーは、**コードベースのエクスペリエンス**、**電子メール**、**プッシュ通知**、および&#x200B;**SMS** チャネルのすべての顧客が利用できます。 リリースサイクルと可用性フェーズについて詳しくは、[Journey Optimizer リリースサイクル](../rn/releases.md)を参照してください。
+>決定ポリシーは、**コードベースのエクスペリエンス**、**電子メール**、**プッシュ通知**、**SMS**、および&#x200B;**ダイレクトメール** チャネルのすべての顧客が利用できます。
 
 ➡️ [この機能をビデオで確認](#video)
 

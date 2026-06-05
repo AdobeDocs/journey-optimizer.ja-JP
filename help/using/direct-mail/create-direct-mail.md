@@ -23,10 +23,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 1b4e12b9433a819a3be34c4f01c489af1d6091ed
 workflow-type: tm+mt
-source-wordcount: 1069
-ht-degree: 84%
+source-wordcount: 1190
+ht-degree: 74%
 
 ---
 
@@ -87,13 +87,13 @@ ht-degree: 84%
 
 1. 「**[!UICONTROL プロパティ]**」セクションで、キャンペーンの「**[!UICONTROL タイトル]**」と「**[!UICONTROL 説明]**」を編集します。
 
-1. ターゲットオーディエンスを定義するには、「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックして、使用可能な Adobe Experience Platform オーディエンスから選択します。 [詳細情報](../audience/about-audiences.md)。
+1. ターゲットオーディエンスを定義するには、「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックして、使用可能な Adobe Experience Platform オーディエンスから選択します。 [学習を増やす](../audience/about-audiences.md)。
 
    >[!IMPORTANT]
    >
    >現時点では、オーディエンスの選択は 300 万プロファイルに制限されています。 この制限は、アドビ担当者にリクエストすることで解除できます。
 
-1. 「**[!UICONTROL ID 名前空間]**」フィールドで、選択したオーディエンス内の個人を識別するために適した名前空間を選択します。 [詳細情報](../event/about-creating.md#select-the-namespace)
+1. 「**[!UICONTROL ID 名前空間]**」フィールドで、選択したオーディエンス内の個人を識別するために適した名前空間を選択します。 [学習を増やす](../event/about-creating.md#select-the-namespace)。
 
 1. 「**[!UICONTROL アクション]**」セクションで、「**[!UICONTROL ダイレクトメール]**」を選択します。
 
@@ -125,7 +125,15 @@ ht-degree: 84%
 
 抽出ファイルは、ダイレクトメールプロバイダーが顧客にメールを送信するために必要です。 抽出ファイルの設定を定義するには、次の手順に従います。
 
-1. キャンペーンの設定画面で、「**[!UICONTROL コンテンツを編集]**」ボタンをクリックして、抽出ファイルのコンテンツを設定します。
+1. キャンペーンまたはジャーニーの設定画面で、「**[!UICONTROL コンテンツを編集]**」ボタンをクリックして、抽出ファイルのコンテンツを設定します。
+
+1. ダイレクトメールメッセージに決定ポリシーを追加するには、**[!UICONTROL データフィールド]** セクションの列を選択し、![](../experience-decisioning/assets/do-no-localize/editor-icon.svg) アイコンを使用してパーソナライゼーションエディターを開きます。 決定ポリシーを作成して挿入するには、**[!UICONTROL 決定ポリシー]** メニューに移動します。 その後、抽出ファイルの列データとして決定項目属性を使用できます。
+
+   >[!AVAILABILITY]
+   >
+   >ダイレクトメールのエクスペリエンス決定は新しい機能です。 以前は、ダイレクトメール抽出ファイルでは決定エンジンを使用できませんでした。決定ポリシーを追加し、決定項目属性を列データとして書き出しに含めることができるようになりました。
+
+   [&#x200B; ダイレクトメールで決定ポリシーを追加する方法について説明します](../experience-decisioning/create-decision-policy.md#add)。 バッチ決定ワークフローと例（パーソナライズされたダイレクトメールまたはダウンストリームシステムへの書き出し）については、[&#x200B; ダイレクトメールでのバッチ決定](../experience-decisioning/batch-decisioning-direct-mail.md)を参照してください。
 
 1. 次のように、抽出ファイルのプロパティを調整します。
 
