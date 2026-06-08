@@ -5,18 +5,14 @@ title: ファイルの読み込みアクティビティの使用
 description: 「ファイルを読み込み」アクティビティを使用して、ファイルをAdobe Experience Platformに取り込まずに、CSVまたはTXT ファイルからオーケストレーションされたキャンペーンオーディエンスをターゲットにする方法を説明します
 exl-id: a7c3e891-4f2d-4b8e-9c1a-6e8f0d3b2a41
 version: Campaign Orchestration
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
 source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
 workflow-type: tm+mt
 source-wordcount: 1234
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -25,13 +21,13 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_load_file"
 >title="ファイルを読み込みアクティビティ"
->abstract="**ファイルの読み込み** アクティビティは&#x200B;**データ管理** アクティビティです。 オーケストレーションされたキャンペーンキャンバス上の外部ファイルに保存されているプロファイルとデータを操作し、キャンペーンオーディエンスを定義するために使用します。 ファイルデータは実行時に消費され、Adobe Experience Platform データセットとして保持されません。"
+>abstract="**ファイルを読み込み**&#x200B;アクティビティは、**データ管理**&#x200B;アクティビティです。 これを使用して、オーケストレーションキャンペーンキャンバス上で外部ファイルに保存されているプロファイルとデータを操作し、キャンペーンオーディエンスを定義します。 ファイルデータは実行時に消費され、Adobe Experience Platform データセットとして保持されません。"
 
-**[!UICONTROL ファイルの読み込み]** アクティビティは&#x200B;**[!UICONTROL データ管理]** アクティビティです。 外部ファイルに保存されているプロファイルとデータを操作する場合に使用します。 受信者リストが外部システム（CRM書き出しやパートナーファイルなど）から取得され、最初に完全なAdobe Experience Platform取り込みパイプラインを構築せずにキャンペーンを実行する場合、オーケストレーションされたキャンペーンで&#x200B;**ファイルベースのターゲティング**&#x200B;がサポートされます。
+**[!UICONTROL ファイルを読み込み]**&#x200B;アクティビティは、**[!UICONTROL データ管理]**&#x200B;アクティビティです。 外部ファイルに保存されているプロファイルとデータを操作する場合に使用します。 受信者リストが外部システム（CRM書き出しやパートナーファイルなど）から取得され、最初に完全なAdobe Experience Platform取り込みパイプラインを構築せずにキャンペーンを実行する場合、オーケストレーションされたキャンペーンで&#x200B;**ファイルベースのターゲティング**&#x200B;がサポートされます。
 
 >[!AVAILABILITY]
 >
->**ファイルの読み込み** アクティビティは、組織のセットに対して&#x200B;**可用性の制限**&#x200B;で利用できます。 アクセスをリクエストするには、Adobe担当者にお問い合わせください。 可用性フェーズについては、[Journey Optimizer リリースサイクル &#x200B;](../../rn/releases.md)を参照してください。
+>**ファイルの読み込み** アクティビティは、組織のセットに対して&#x200B;**可用性の制限**&#x200B;で利用できます。 アクセスをリクエストするには、Adobe担当者にお問い合わせください。 可用性フェーズについては、[Journey Optimizer リリースサイクル ](../../rn/releases.md)を参照してください。
 >
 >アクティビティは現在、**Healthcare Shield**&#x200B;では使用できません。
 
@@ -43,7 +39,7 @@ ht-degree: 2%
 * フラット構造のCSV ファイルとTXT ファイルのみがサポートされます。
 * アップロードされたデータは、キャンペーンの実行時に使用され、Adobe Experience Platform データセットとして保存されません。
 
-チャネルとキャンバスのアクティビティに関する制限については、[&#x200B; ガードレールと制限](../guardrails.md#activities-limitations)を参照してください。
+チャネルとキャンバスのアクティビティに関する制限については、[ ガードレールと制限](../guardrails.md#activities-limitations)を参照してください。
 
 ## 「ファイルを読み込み」アクティビティの設定 {#load-file-configuration}
 
