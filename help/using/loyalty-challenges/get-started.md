@@ -12,7 +12,8 @@ badge: label="Private Beta" type="Informative"
 mini-toc-levels: 1
 exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 feature_v2: []
-subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+subfeature_v2:
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
 source-git-commit: e12c7cdc7b90507913b1a0ebd3eb0ee74007f95b
 workflow-type: tm+mt
 source-wordcount: 920
@@ -97,9 +98,9 @@ ht-degree: 13%
 
 ロイヤルティに関する課題の作成と立ち上げは、次のワークフローに従います。
 
-1. **チャレンジを作成** - チャレンジの種類（Standard、Streak、Sequential、または利用可能な場合は自分のデータを持ち込む）を選択します。 [ チャレンジの種類を選択する方法について説明します](create-challenges.md#create-the-challenge)。
+1. **チャレンジを作成** - チャレンジの種類（Standard、Streak、Sequential、または利用可能な場合は自分のデータを持ち込む）を選択します。 [&#x200B; チャレンジの種類を選択する方法について説明します](create-challenges.md#create-the-challenge)。
 
-1. **設定の設定** – 設定タブで、チャレンジの詳細、オーディエンス、スケジュール、ルール（オプトイン、進行状況の追跡、繰り返し制限）およびオプションのメタデータを定義します。 [ チャレンジの設定について説明します](create-challenges.md#settings)。
+1. **設定の設定** – 設定タブで、チャレンジの詳細、オーディエンス、スケジュール、ルール（オプトイン、進行状況の追跡、繰り返し制限）およびオプションのメタデータを定義します。 [&#x200B; チャレンジの設定について説明します](create-challenges.md#settings)。
 
 1. **タスクと報酬を追加** - 「構造」タブで、タスクと報酬を定義します（独自のデータの取り込み課題には必要ありません）。
 
@@ -144,7 +145,7 @@ ht-degree: 13%
 
 +++ロイヤルティプログラムの設定（管理者）
 
-管理者は、**[!UICONTROL ロイヤルティ管理者]** メニューで、報酬プロバイダー、イベント定義、製品インベントリ、除外、およびグローバル設定を設定します。 課題のみを作成するマーケターは、このメニューにアクセスする必要はありません。 [ ロイヤルティに関する課題を設定する方法を学ぶ](loyalty-admin.md)
+管理者は、**[!UICONTROL ロイヤルティ管理者]** メニューで、報酬プロバイダー、イベント定義、製品インベントリ、除外、およびグローバル設定を設定します。 課題のみを作成するマーケターは、このメニューにアクセスする必要はありません。 [&#x200B; ロイヤルティに関する課題を設定する方法を学ぶ](loyalty-admin.md)
 
 左側のナビゲーションに「**[!UICONTROL ロイヤルティ管理者]**」メニューが表示されない場合は、管理者にお問い合わせください。
 
@@ -152,7 +153,7 @@ ht-degree: 13%
 
 +++ターゲットオーディエンス
 
-課題を解決する前に、Adobe Experience Platformに必要なターゲットオーディエンスが存在することを確認しましょう。 チャレンジの設定中に、どの顧客が参加する資格があるかを定義するオーディエンスを選択します。 [ オーディエンスの操作方法を学ぶ](../audience/about-audiences.md)。
+課題を解決する前に、Adobe Experience Platformに必要なターゲットオーディエンスが存在することを確認しましょう。 チャレンジの設定中に、どの顧客が参加する資格があるかを定義するオーディエンスを選択します。 [&#x200B; オーディエンスの操作方法を学ぶ](../audience/about-audiences.md)。
 
 +++
 
@@ -213,7 +214,7 @@ ht-degree: 13%
     <em>Set up reward providers, event definitions, and org settings for fulfillment</em>
     </a>
     <div>
--->
+  -->
     <a href="loyalty-admin.md"><strong> ロイヤルティに関する課題の設定</strong></a>
     </div>
     <p>
@@ -225,4 +226,4 @@ ht-degree: 13%
 
 ## API リファレンス {#api-reference}
 
-ロイヤルティの課題をプログラムで管理するには、[ ロイヤルティの課題API](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}を使用します。 APIを使用すると、REST エンドポイントを介して課題とタスクを作成、更新、管理できます。
+ロイヤルティの課題をプログラムで管理するには、[&#x200B; ロイヤルティの課題API](https://developer.adobe.com/journey-optimizer-apis/references/loyalty-challenges){target="_blank"}を使用します。 APIを使用すると、REST エンドポイントを介して課題とタスクを作成、更新、管理できます。
