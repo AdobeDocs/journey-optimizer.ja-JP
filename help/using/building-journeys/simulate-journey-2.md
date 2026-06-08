@@ -12,9 +12,9 @@ version: Journey Orchestration
 hide: true
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 45161c22a2988de8d844e1f9958e72506c269956
+source-git-commit: 97a1387dbac4443f3c9bb0fb21334a8071505961
 workflow-type: tm+mt
-source-wordcount: 1840
+source-wordcount: 1841
 ht-degree: 1%
 
 ---
@@ -85,7 +85,7 @@ ht-degree: 1%
 
    Adobe Journey Optimizerは、ジャーニー定義からシミュレートされた一連のユーザーを生成します。
 
-   電子メールまたはSMS ノードを使用するジャーニーの場合、AIは、使用する電子メールアドレスまたは電話番号の確認を求めるプロンプトを表示します。 シミュレートされたユーザーは、定義された値を使用して生成されます。 完了したら、**[!UICONTROL 生成]**&#x200B;をクリックします。
+   電子メール、プッシュ、またはSMS ノードを使用するジャーニーの場合、AIは、使用する電子メールアドレスまたは電話番号の確認を求めるプロンプトを表示します。 シミュレートされたユーザーは、定義された値を使用して生成されます。 完了したら、**[!UICONTROL 生成]**&#x200B;をクリックします。
 
    ![実行メールと電話フィールドを含むシミュレートされたユーザーの生成ダイアログと「生成」ボタン &#x200B;](assets/simulate-generate.png)
 
