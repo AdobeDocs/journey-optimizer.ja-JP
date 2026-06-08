@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: 0d5bd22d50b503737428e63285eb0e04e20c5c76
 workflow-type: tm+mt
 source-wordcount: 1703
-ht-degree: 83%
+ht-degree: 88%
 
 ---
 
@@ -172,13 +172,13 @@ HTML コンポーネントの場合、特定の要素のみを編集可能なフ
 >id="ajo_editable_field_compatibility"
 >title="レガシーフラグメント"
 >abstract="この編集可能フィールドはテキストのみのモードです。 リッチテキスト形式（太字、斜体、ハイパーリンク、改行など） は、フラグメントをHTML互換モードにアップグレードするまで使用できません。 フラグメント本文の設定に移動し、<b>HTML モードに切り替え</b>をクリックして、リッチテキスト編集を有効にします。"
->additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="フラグメントの編集可能フィールドをカスタマイズする"
+>additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="フラグメントの編集可能なフィールドをカスタマイズ"
 
 >[!CONTEXTUALHELP]
 >id="ac_editable_fragment_compatibility"
 >title="レガシーフラグメント"
 >abstract="このフラグメントの編集可能なフィールドは、テキストのみのモードです。 リッチテキスト形式（太字、斜体、ハイパーリンク、改行など） は、フラグメントをHTML互換モードにアップグレードするまで使用できません。 これを行うには、フラグメントエディターを開き、<b>HTML モードに切り替え</b>をクリックします。"
->additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="フラグメントの編集可能フィールドをカスタマイズする"
+>additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="フラグメントの編集可能なフィールドをカスタマイズ"
 
 HTML コンポーネントを使用すると、改行、太字、斜体などのリッチテキストを、カスタマイズ可能なフラグメントに追加できます。 これを行うには、以下の手順に従います。
 <!--
