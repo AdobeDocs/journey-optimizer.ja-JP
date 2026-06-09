@@ -6,19 +6,27 @@ feature: Content Cards
 role: User
 level: Beginner
 exl-id: a26bb3bd-d593-466b-9852-94e194d6d2b7
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909
+source-git-commit: e41af203a353dd0c5f34c5c9f1915892e7c95999
 workflow-type: tm+mt
-source-wordcount: 1562
-ht-degree: 86%
+source-wordcount: 1755
+ht-degree: 76%
 
 ---
 
 # コンテンツカードの作成 {#create-content-card}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_content_card"
+>title="コンテンツカードアクション"
+>abstract="コンテンツカードのインバウンドアクションでは、プロファイルがジャーニーのこのステップに到達すると、そのプロファイルにコンテンツカードが表示されます。 ラベルはジャーニーキャンバス内のアクティビティを識別し、アクションは表示されるコンテンツを定義するコンテンツカード設定を参照します。 **最適化** セクションには、コンテンツの実験やターゲティングルールを含めることができます。 このアクティビティの後、**Wait** ノードが自動的に挿入され（デフォルトでは3日間）、プロファイルにコンテンツカードを表示する時間が与えられます。"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="チャネルアクションの概要"
+
+
+コンテンツカードとは、モバイルアプリの専用サーフェス内で、プロモーション、お知らせ、レコメンデーションなどのパーソナライズされたコンテンツを直接表示する、インバウンドのアプリ内エクスペリエンスのことです。 割り込みメッセージとは異なり、ユーザーがメッセージを却下するか、配信ルールで非表示にするまで、アプリで使用できます。
+
+このページでは、[ ジャーニー](../building-journeys/journey-gs.md)または[ キャンペーン ](../campaigns/create-campaign.md)の一部としてコンテンツカードを作成し、そのコンテンツを定義する方法について説明します。 追加したら、カードをデザインし、表示、却下、または永続的に非表示にするタイミングを制御する追加の配信ルールを設定し、コンテンツ実験を実行してパフォーマンスを最適化できます。
 
 >[!IMPORTANT]
 >
@@ -30,7 +38,7 @@ ht-degree: 86%
 
 コンテンツカードをジャーニーに追加するには、次の手順に従います。
 
-1. [&#x200B; ジャーニー](../building-journeys/journey-gs.md)を開き、パレットの&#x200B;**[!UICONTROL アクション]** セクションから&#x200B;**[!UICONTROL アクション]** アクティビティをドラッグ&amp;ドロップします。 [&#x200B; アクションアクティビティ &#x200B;](../building-journeys/journey-action.md)の詳細をご覧ください。
+1. [ ジャーニー](../building-journeys/journey-gs.md)を開き、パレットの&#x200B;**[!UICONTROL アクション]** セクションから&#x200B;**[!UICONTROL アクション]** アクティビティをドラッグ&amp;ドロップします。 [ アクションアクティビティ ](../building-journeys/journey-action.md)の詳細をご覧ください。
 
    >[!IMPORTANT]
    >
@@ -107,7 +115,7 @@ ht-degree: 86%
 
 1. ジャーニーキャンバスに戻ります。 必要に応じて、追加のアクションまたはイベントをドラッグ＆ドロップして、ジャーニーフローを完了します。 [詳細情報](../building-journeys/about-journey-activities.md)
 
-ジャーニーの作成、設定、公開の方法について詳しくは、[このページ &#x200B;](../building-journeys/journey-gs.md)を参照してください。
+ジャーニーの作成、設定、公開の方法について詳しくは、[このページ ](../building-journeys/journey-gs.md)を参照してください。
 
 >[!TAB キャンペーンへのコンテンツカードの追加]
 

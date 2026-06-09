@@ -11,30 +11,16 @@ keywords: ジャーニー, メッセージ, プッシュ, sms, メール, アプ
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/MK5SCefAZ1P2CqX-Y3TmweUyfUI297edZXCMAZSvhT0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 84d3c8bd62648c7d1b6cd969ceb7f80329110982
 workflow-type: tm+mt
-source-wordcount: 1570
-ht-degree: 80%
+source-wordcount: 1736
+ht-degree: 73%
 
 ---
 
@@ -72,6 +58,27 @@ ht-degree: 80%
 * **ジャーニーにレガシーアクティビティをコピーして貼り付ける** – 貼り付けたアクティビティはレガシーアクティビティのままになります。 そのまま編集して公開できます。移行は必要ありません。
 
 ## ジャーニーへのビルトインのチャネルアクションの追加  {#add-action}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_auto_wait"
+>title="自動待機ノード"
+>abstract="インバウンドチャネルアクション（アプリ内メッセージ、Web、コンテンツカード、コードベースのエクスペリエンス）の場合、アクションの後に&#x200B;**Wait** ノードが自動的に挿入されます（デフォルトでは3日間）。 これにより、プロファイルは、ジャーニーが次のステップに進む前に、インバウンドエクスペリエンスを確認する時間を確保できます。"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="チャネルアクションの概要"
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_optimization"
+>title="最適化"
+>abstract="「**最適化**」セクションでは、コンテンツ実験、ターゲティングルール、またはその両方をチャネルアクションに追加します。 バリエーションをテストし、各オーディエンスメンバーに最も効果的なコンテンツを配信することができます。"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/optimize-activity/optimize" text="「最適化」アクティビティの使用"
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_multilingual"
+>title="多言語"
+>abstract="「**多言語**」セクションでは、1つのジャーニー内で複数の言語のチャネルアクションコンテンツを配信します。 言語設定では、このアクションでサポートされるロケールとデフォルトの言語を定義します。"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-multilingual/multilingual-gs" text="多言語コンテンツの基本を学ぶ"
+
 
 **[!UICONTROL Action]** アクティビティを使用して組み込みのチャネルアクションをジャーニーに追加するには、次の手順に従います。
 
@@ -118,7 +125,7 @@ ht-degree: 80%
       <img alt="低頻度" src="../assets/do-not-localize/push.jpg">
       </a>
       <div>
-      <a href="../push/create-push.md"><strong> プッシュ通知の作成<strong></a>
+      <a href="../push/create-push.md"><strong>プッシュ通知の作成<strong></a>
       </div>
       <p>
       </td>
@@ -167,7 +174,7 @@ ht-degree: 80%
       <img alt="低頻度" src="../assets/do-not-localize/web-design.jpg">
       </a>
       <div>
-      <a href="../code-based/create-code-based.md"><strong> コードベースのエクスペリエンスを作成<strong></a>
+      <a href="../code-based/create-code-based.md"><strong>コードベースのエクスペリエンスの作成<strong></a>
       </div>
       <p>
       </td>
@@ -309,7 +316,7 @@ ht-degree: 80%
 
 それには、ライブジャーニーを開き、チャネルアクティビティを選択して、「**コンテンツを編集**」をクリックします。
 
-![&#x200B; ライブジャーニーの「チャネルアクティビティを編集」ボタン &#x200B;](assets/email-action-edit-content.png)
+![ ライブジャーニーの「チャネルアクティビティを編集」ボタン ](assets/email-action-edit-content.png)
 
 ただし、パーソナライゼーションで使用されている属性は、プロファイル属性であるかコンテキストデータ（イベントプロパティまたはジャーニープロパティから得られるもの）であるかにかかわらず、変更できません。
 
