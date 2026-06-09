@@ -9,22 +9,15 @@ role: User
 level: Intermediate
 exl-id: 59ea67d9-e90c-4ad0-afb9-d0e0fd868855
 TQID: https://experienceleague.adobe.com/mQVaZ8jb-hBBPxDnztkayDEI4vj0KvMTREI0KxOgAf0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-  - id: a9cf78bf-e9e4-4836-85a5-b6b3cf93bf56
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7id: a9cf78bf-e9e4-4836-85a5-b6b3cf93bf56
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 07322bd265647528f8e2e4a5f39d7806fd03b565
 workflow-type: tm+mt
-source-wordcount: 674
+source-wordcount: 673
 ht-degree: 80%
 
 ---
@@ -63,7 +56,7 @@ SMS API 資格情報でカスタムのオプトアウトキーワードを定義
 
 >[!NOTE]
 >
->双方向 SMS（STOP、QUIT などで返信）を使用する予定の場合は、電話番号とプロファイルのマッピングを確立するために、まず 1 つ以上の一方向 SMS を送信していることを確認します。 プロバイダーの資格情報の有効期限が切れているか、正しく設定されていない場合、受信キーワードによるユーザープロファイルの更新が妨げられ、その結果、オプトアウトレコードが欠落または遅延します。 インバウンド応答は、_AJO Inbound Activity Event Dataset_ システム データセットに保存されます。 [詳細情報](../data/get-started-datasets.md#system-datasets)
+>双方向 SMS（STOP、QUIT などで返信）を使用する予定の場合は、電話番号とプロファイルのマッピングを確立するために、まず 1 つ以上の一方向 SMS を送信していることを確認します。 プロバイダーの資格情報の有効期限が切れているか、正しく設定されていない場合、受信キーワードによるユーザープロファイルの更新が妨げられ、その結果、オプトアウトレコードが欠落または遅延します。 インバウンド応答は、_AJO メールトラッキングデータセット_ システムデータセットに保存されます。 [詳細情報](../data/get-started-datasets.md#system-datasets)
 
 
 ## ブロックリスト {#sms-blocklists}
@@ -87,6 +80,6 @@ Adobe Journey Optimizer 側でオプトアウトステータスに基づいて�
 
   +++ こちらのビデオをご覧ください
 
-  >[!VIDEO](https://video.tv.adobe.com/v/3440273/?captions=jpn&learn=on)
+  >[!VIDEO](https://video.tv.adobe.com/v/3427129/?learn=on)
 
   +++

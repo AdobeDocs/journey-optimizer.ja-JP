@@ -7,14 +7,11 @@ feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
 exl-id: a0f3e385-934d-44d6-a487-6035161aef0e
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+source-git-commit: 07322bd265647528f8e2e4a5f39d7806fd03b565
 workflow-type: tm+mt
-source-wordcount: 2855
+source-wordcount: 2801
 ht-degree: 9%
 
 ---
@@ -34,7 +31,7 @@ ht-degree: 9%
 
 >[!BEGINSHADEBOX]
 
-Journey Optimizerで新しいAPI資格情報を作成すると、SMSのWebhookで、インバウンドキーワードと、配信やエラーなどのフィードバックイベントの両方を取得できるようになりました。 各プロバイダーは異なる機能を備えているため、webhookを有効にするための個別の手順があります。
+Journey Optimizerで新しいAPI資格情報を作成すると、SMSのWebhookで、インバウンドキーワードと、配信やエラーなどのフィードバックイベントの両方を取得できるようになりました。各プロバイダーは異なる機能を備えているため、webhookを有効にするための個別の手順があります。
 Webhookでカスタムプロバイダーがサポートされるようになったため、Journey Optimizerで報告および処理する任意のプロバイダーからフィードバックとインバウンドキーワード収集を収集できるようになりました。
 
 * **新規顧客：** SMS Webhookを正しく設定するには、こちらの手順に従ってください。
@@ -55,7 +52,7 @@ Webhook を設定する際に、取得するデータの種類に基づいて目
 
 >[!NOTE]
 >
->受信キーワードデータは、カスタムデータセットが設定されていない限り、_AJO Inbound Activity Event Dataset_ システムデータセットに保存されます。 受信メッセージをキャプチャするには、プロファイルに[!DNL Journey Optimizer]から少なくとも1つのメッセージを送信する必要があります。 [詳細情報](../data/get-started-datasets.md#system-datasets)
+>受信キーワードデータは、カスタムデータセットが設定されていない限り、_AJO メールトラッキングデータセット_ システムデータセットに保存されます。 受信メッセージをキャプチャするには、プロファイルに[!DNL Journey Optimizer]から少なくとも1つのメッセージを送信する必要があります。 [詳細情報](../data/get-started-datasets.md#system-datasets)
 
 SMSの実装を成功させるために設定する必要がある機能については、プロバイダーによって異なります。
 
@@ -179,12 +176,12 @@ SinchとSinch Conversationalの場合は、インバウンドイベントとフ�
 
    * MMS チャネルについては、[Sinch ドキュメントで詳細を確認してください](https://developers.sinch.com/docs/conversation/getting-started#5-handle-incoming-messages)
 
-   * Journey Optimizerから直接SMSを購入したお客様は、Adobe サポートにサポートチケットを提出してください。 Adobe アカウントチームがWebhook URLを設定します。
+   * Journey Optimizerから直接SMSを購入したお客様は、Adobe サポートにサポートチケットを提出してください。Adobe アカウントチームがWebhook URLを設定します。
      ![](assets/webhook-4.png)
 
 Webhookが既存のチャネル設定に添付されたAPI資格情報を使用する場合、Webhookはすぐに有効になります。 それ以外は、新しいチャネル設定を作成します。
 
-➡️[&#x200B; チャネル設定の詳細](mobile-configuration-surface.md)
+➡️[ チャネル設定の詳細](mobile-configuration-surface.md)
 
 ### Infobip用 {#create-webhook-infobip}
 
@@ -292,7 +289,7 @@ Infobipの場合は、フィードバックイベント用とインバウンド�
 
 Webhookが既存のチャネル設定に添付されたAPI資格情報を使用する場合、Webhookはすぐに有効になります。 それ以外は、新しいチャネル設定を作成します。
 
-➡️[&#x200B; チャネル設定の詳細](mobile-configuration-surface.md)
+➡️[ チャネル設定の詳細](mobile-configuration-surface.md)
 
 ### カスタムプロバイダーの場合 {#create-webhook-custom}
 
@@ -447,4 +444,4 @@ Webhookが既存のチャネル設定に添付されたAPI資格情報を使用�
 
 Webhookが既存のチャネル設定に添付されたAPI資格情報を使用する場合、Webhookはすぐに有効になります。 それ以外は、新しいチャネル設定を作成します。
 
-➡️[&#x200B; チャネル設定の詳細](mobile-configuration-surface.md)
+➡️[ チャネル設定の詳細](mobile-configuration-surface.md)
