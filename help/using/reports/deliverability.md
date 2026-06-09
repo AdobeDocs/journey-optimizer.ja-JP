@@ -9,29 +9,16 @@ role: Admin
 level: Intermediate, Experienced
 exl-id: 8f33dda7-9bd5-4293-8d0d-222205cbc7d5
 TQID: https://experienceleague.adobe.com/7EdZZJgxpZA2AtSo-lMpMEDV6C9zk78mmvNVhe5KXcw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-subfeature_v2:
-  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
-  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
-  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b4dd41a7-ccf8-4e9d-918e-acaab534a307id: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: c38924e53cd84e5568803d8d4e6c1e473630121e
 workflow-type: tm+mt
-source-wordcount: 1175
-ht-degree: 100%
+source-wordcount: 1347
+ht-degree: 86%
 
 ---
 
@@ -130,9 +117,12 @@ DMARC（Domain-based Message Authentication, Reporting, and Conformance）は、
 
 >[!IMPORTANT]
 >
->すべての ISP が Gmail などの従来の FBL を提供しているわけではありません。 Gmail は個人レベルのフィードバックを提供しておらず、個々の受信者へのスパム報告を追跡するために使用することはできず、代わりに Google Postmaster Tools 内の集計レベルのレポートに焦点を当てています。 [詳細情報](https://support.google.com/a/answer/6254652?hl=ja){target="_blank"}
+>すべての ISP が Gmail などの従来の FBL を提供しているわけではありません。 Gmail は個人レベルのフィードバックを提供しておらず、個々の受信者へのスパム報告を追跡するために使用することはできず、代わりに Google Postmaster Tools 内の集計レベルのレポートに焦点を当てています。 [詳細情報](#providers-no-fbl)
+
 
 すべてのアドビのお客様は、次の ISP の従来の FBL に自動的に登録されます。
+
++++ 従来のFBLを提供するISP
 
 * 1&amp;1
 
@@ -190,7 +180,21 @@ DMARC（Domain-based Message Authentication, Reporting, and Conformance）は、
 
 * Ziggo
 
-アドビでは、これらの FBL を定期的に監査して、利用可能な最新の FBL が追加されていることを確認します。
++++
+
+Adobeでは、定期的に監査を実施し、最新のFBLが追加されていることを確認します。
+
+### 受信者ごとのFBLを使用しないプロバイダー {#providers-no-fbl}
+
+すべてのISPが従来のFBLを提供しているわけではありません。 一部の主要なメールプロバイダーでは、受信者ごとにスパムの苦情が返されないため、それらのプロバイダーを使用する受信者は、抑制リストにエントリがないことを期待できます。
+
+| メールボックスプロバイダー | 受信者ごとに苦情が発生しますか？ |
+|---|---|
+| **Gmail / Google Workspace** | いいえ – Google Postmaster ツール経由でのみレポートを集計します（Feedback-ID、受信者ごとに作成しません）。 [詳細情報](https://support.google.com/a/answer/6254652?hl=ja){target="_blank"} |
+| **Apple iCloud** （icloud.com、me.com、mac.com） | いいえ – [詳細情報](https://support.apple.com/en-us/102322){target="_blank"} |
+| **Corporate Microsoft 365 / Exchange Online** | いいえ。迷惑メール報告プログラム （JMRP）は、消費者のOutlook.com ネットワークのみを対象としています。企業のM365環境からのテナント迷惑メール報告は、送信者に返されません。 [詳細情報](https://learn.microsoft.com/en-us/answers/questions/5787589/does-the-junk-mail-reporting-program-(jmrp)-send-c){target="_blank"} |
+
+これらのプロバイダーは、消費者と企業の受信トレイの大部分を占めています。 いずれも受信者ごとの苦情を返さないため、メッセージをスパムとしてマークするこれらのサービスのいずれかを使用している受信者は、**not**&#x200B;自動的に抑制リストに表示されます。
 
 ## SMTP リレーの使用 {#smtp-relay}
 
