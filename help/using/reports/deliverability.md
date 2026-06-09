@@ -28,10 +28,10 @@ topic_v2:
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: c38924e53cd84e5568803d8d4e6c1e473630121e
+source-git-commit: a122a8a609748b46480a9664f1efc5524582deca
 workflow-type: tm+mt
-source-wordcount: 1347
-ht-degree: 86%
+source-wordcount: 1348
+ht-degree: 85%
 
 ---
 
@@ -133,9 +133,9 @@ DMARC（Domain-based Message Authentication, Reporting, and Conformance）は、
 >すべての ISP が Gmail などの従来の FBL を提供しているわけではありません。 Gmail は個人レベルのフィードバックを提供しておらず、個々の受信者へのスパム報告を追跡するために使用することはできず、代わりに Google Postmaster Tools 内の集計レベルのレポートに焦点を当てています。 [詳細情報](#providers-no-fbl)
 
 
-すべてのアドビのお客様は、次の ISP の従来の FBL に自動的に登録されます。
+Adobeのお客様は、以下に示すISPの従来のFBLに自動的に登録されます。
 
-+++ 従来のFBLを提供するISP
++++ ISPが従来のFBLを提供する：
 
 * 1&amp;1
 

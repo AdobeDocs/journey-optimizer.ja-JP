@@ -14,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 199f9b1a152ab9bd0c2a31145c03666bcf698123
+source-git-commit: a122a8a609748b46480a9664f1efc5524582deca
 workflow-type: tm+mt
-source-wordcount: 8367
-ht-degree: 86%
+source-wordcount: 8429
+ht-degree: 85%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 86%
 このページでは、毎月のリリースの機能と改善点に関連する更新に加えて、[!DNL Journey Optimizer] ドキュメントの最新の変更点をすべて一覧表示しています。
 
 ## 2026年6月 {#june-2026}
+
+* **配信品質の基本を学ぶ** ページが更新され、受信者ごとのFBL **サブセクションのない新しい** プロバイダーが追加されました。 この記事では、受信者ごとにスパムの苦情を返さない主要なメールボックスプロバイダー（Gmail/Google Workspace、Apple iCloud、Corporate Microsoft 365/Exchange Online）のリストを紹介し、これらのサービスを利用する受信者に抑制リストエントリが存在しない理由を説明します。 [詳細情報](../reports/deliverability.md#providers-no-fbl)
 
 * **Experience Decisioningは、ダイレクトメールチャネルで利用できるようになりました。** ダイレクトメールでの新しい&#x200B;**バッチ決定** ページでは、決定エンジンを使用してダイレクトメール抽出ファイルをパーソナライズしたり、プロファイルとその決定結果を書き出して下流システムで使用する方法について説明します。 **ダイレクトメール**&#x200B;が、Decisioning ドキュメント全体でサポート対象チャネルとして追加されました（「開始」、「決定ポリシーの作成」、「メッセージでの決定ポリシーの使用」、「決定ポリシーの開始」）。これには、**[!UICONTROL 項目数]** フィールドを介してプロファイルごとに複数の決定項目を返す機能が含まれます。 [詳細情報](../experience-decisioning/batch-decisioning-direct-mail.md)
 
