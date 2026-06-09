@@ -5,7 +5,7 @@ title: ジャーニーの管理
 description: ジャーニーの管理
 redpen-status: CREATED_||_2025-08-11_20-08-03
 exl-id: 9f74019a-9a29-40f3-8f94-253814b984c0
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: 0e4ee7788c6a015a63bafcb7976ac5e4696e5d7a
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 100%
@@ -20,7 +20,7 @@ Adobe Journey Optimizer におけるジャーニーの管理とは、カスタ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 ジャーニーの参照とフィルタリング
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer におけるジャーニーの管理とは、カスタ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 ジャーニーのプロファイルエントリ
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer におけるジャーニーの管理とは、カスタ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 ジャーニーでの補助識別子の使用
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer におけるジャーニーの管理とは、カスタ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 タイムゾーンの管理
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer におけるジャーニーの管理とは、カスタ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 送信時間の最適化
 
@@ -70,7 +70,7 @@ AI 駆動モデルを使用して最適な送信時間を予測することで�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 ジャーニーの終了
 
@@ -84,5 +84,5 @@ Adobe Journey Optimizer でのプロファイルの離脱のクローズ、停�
 
 ## その他のリソース
 
-- **[別のサンドボックスにジャーニーをコピー](../using/building-journeys/copy-to-sandbox.md)** - パッケージの書き出しと読み込みを使用して、サンドボックス環境間でジャーニーと依存オブジェクトを転送する方法について説明します。
-- **[インテリジェントサービスとの統合](../using/building-journeys/ai-services-overview.md)** - アドビのインテリジェントサービスを使用すると、AI と機械学習を活用して、顧客行動の予測とキャンペーンの影響を測定できます。
+- **[別のサンドボックスにジャーニーをコピー](../using/configuration/copy-objects-to-sandbox.md#objects)** - パッケージの書き出しと読み込みを使用して、サンドボックス環境間でジャーニーと依存オブジェクトを転送する方法について説明します。
+- **[インテリジェントサービスとの統合](../using/integrations/intelligent-services.md)** - アドビのインテリジェントサービスを使用すると、AI と機械学習を活用して、顧客行動の予測とキャンペーンの影響を測定できます。
