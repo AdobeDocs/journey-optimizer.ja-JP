@@ -8,25 +8,13 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 04ecbcc3623868aa46ba81f7558df0e1ccf405b5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: f9fbf21341466e71c0e6b3580659b6261a828bd6
 workflow-type: tm+mt
 source-wordcount: 2842
 ht-degree: 21%
@@ -89,6 +77,29 @@ ht-degree: 21%
 </tbody>
 </table>
 
+
+<table>
+<thead>
+<tr>
+<th><strong>コンテンツのバリエーションをシミュレート：エクスペリエンスの更新とAI バリエーションの生成</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>2つの更新プログラムが、<strong> コンテンツをシミュレート </strong> ワークフローで利用できるようになりました。</p>
+<ul>
+<li><strong>新しいデフォルトパス </strong> – 「<strong> コンテンツをシミュレート </strong>」をクリックすると、デフォルトで<strong> コンテンツのバリエーションをシミュレート </strong> エクスペリエンスが開くようになりました。 1つの画面から、手動またはCSV/JSON ファイルからサンプル入力を追加し、シミュレートされたユーザーを再利用し、レンダリングをプレビューし、プルーフを送信できます。 Adobe Experience Platform テストプロファイルを使用してプレビューするには、テストプロファイルデータを使用してプルーフを送信するか、メール受信トレイのレンダリングとスパムレポートを確認するには、<strong> コンテンツをシミュレート </strong>をクリックし、ドロップダウンから<strong> コンテンツをシミュレート（AEP プロファイル） </strong>を選択します。</li>
+<li><strong>AIで生成されたコンテンツのバリエーション </strong> — <strong> コンテンツのバリエーションをシミュレート </strong> エクスペリエンスで、<strong>生成</strong>をクリックすると、AIを使用してコンテンツのバリエーションを自動的に作成できます。 メッセージの分析、パーソナライゼーションフィールドと条件付き分岐の検出、現実的な値の入力を可能にし、あらゆるバリエーションを手作業で作成することなくレンダリングを検証できます。</li>
+</ul>
+<p>詳しくは、<a href="../test-approve/simulate-sample-input.md">詳細ドキュメント</a>を参照してください。</p>
+<p>ご利用いただけます：2026年6月9日（PT）</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
 <table>
 <thead>
 <tr>
@@ -126,36 +137,16 @@ ht-degree: 21%
 </tbody>
 </table>
 
-<table>
-<thead>
-<tr>
-<th><strong>コンテンツのバリエーションをシミュレート：エクスペリエンスの更新とAI バリエーションの生成</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>2つの更新プログラムが、<strong> コンテンツをシミュレート </strong> ワークフローで利用できるようになりました。</p>
-<ul>
-<li><strong>新しいデフォルトパス </strong> – 「<strong> コンテンツをシミュレート </strong>」をクリックすると、デフォルトで<strong> コンテンツのバリエーションをシミュレート </strong> エクスペリエンスが開くようになりました。 1つの画面から、手動またはCSV/JSON ファイルからサンプル入力を追加し、シミュレートされたユーザーを再利用し、レンダリングをプレビューし、プルーフを送信できます。 Adobe Experience Platform テストプロファイルを使用してプレビューするには、テストプロファイルデータを使用してプルーフを送信するか、メール受信トレイのレンダリングとスパムレポートを確認するには、<strong> コンテンツをシミュレート </strong>をクリックし、ドロップダウンから<strong> コンテンツをシミュレート（AEP プロファイル） </strong>を選択します。</li>
-<li><strong>AIで生成されたコンテンツのバリエーション </strong> — <strong> コンテンツのバリエーションをシミュレート </strong> エクスペリエンスで、<strong>生成</strong>をクリックすると、AIを使用してコンテンツのバリエーションを自動的に作成できます。 メッセージの分析、パーソナライゼーションフィールドと条件付き分岐の検出、現実的な値の入力を可能にし、あらゆるバリエーションを手作業で作成することなくレンダリングを検証できます。</li>
-</ul>
-<p>詳しくは、<a href="../test-approve/simulate-sample-input.md">詳細ドキュメント</a>を参照してください。</p>
-<p>ご利用いただけます：2026年6月9日（PT）</p>
-</td>
-</tr>
-</tbody>
-</table>
-
-* **カスタムアクションでの証明書ベースのカスタム認証** - カスタムアクションで、証明書ベースのカスタム認証がサポートされるようになりました。 カスタム認証設定に`subType: "certificateCredential"`を追加することで、Journey OptimizerはAdobeのマネージド証明書を使用してJWT クライアントアサーションに署名し、アクセストークンと交換します。クライアントシークレットは必要ありません。 Microsoft Entra IDなど、証明書ベースのID確認を強制するエンタープライズ API向けに設計されています。 [詳細情報](../datasource/external-data-sources.md#certificate-credential)
-
-  ご利用いただけます：2026年6月4日（PT）
-
 * **非繰り返しの読み取りオーディエンスジャーニー**&#x200B;の自動停止 – 繰り返しの&#x200B;**読み取りオーディエンス** ジャーニーが、最後にアクティブなプロファイルが終了すると、自動的に&#x200B;**停止** ステータスに移行するようになりました。 以前は、これらのジャーニーは、プロファイルがフローしなくなった場合でも、91日間のグローバルタイムアウトが期限切れになるまで&#x200B;**ライブ**&#x200B;のままでした。 この改善により、ジャーニーのステータスは、完了するとすぐに実際の実行ステータスを反映するようになり、手作業なしでジャーニーインベントリを正確に保つことができます。
 
   この動作は、待機期間を引き起こすノード（待機ノード、リアクションノード、イベントトリガーのトランジションなど）を含むジャーニーには適用されません。 これらのジャーニーは、標準の91日間のグローバルタイムアウトの対象のままです。 [詳細情報](../building-journeys/end-journey.md#auto-stop-non-recurring)
 
   ご利用いただけます：2026年6月9日（PT）
+
+* **カスタムアクションでの証明書ベースのカスタム認証** - カスタムアクションで、証明書ベースのカスタム認証がサポートされるようになりました。 カスタム認証設定に`subType: "certificateCredential"`を追加することで、Journey OptimizerはAdobeのマネージド証明書を使用してJWT クライアントアサーションに署名し、アクセストークンと交換します。クライアントシークレットは必要ありません。 Microsoft Entra IDなど、証明書ベースのID確認を強制するエンタープライズ API向けに設計されています。 [詳細情報](../datasource/external-data-sources.md#certificate-credential)
+
+  ご利用いただけます：2026年6月4日（PT）
+
 
 * **キャンペーンライフサイクルイベントに関する顧客アラート** – 新しいシステムアラートにより、アクションおよびAPI トリガーキャンペーンの主要なライフサイクルイベントが通知されるようになりました。 サンドボックスレベルでの購入。 [詳細情報](../reports/alerts.md)
 
