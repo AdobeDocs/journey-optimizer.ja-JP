@@ -27,7 +27,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 06565328f42ff79943f774df55d8e41118b40815
+source-git-commit: 14e6ebce6a8cecdf672526daabf3f7202f5755a4
 workflow-type: tm+mt
 source-wordcount: 382
 ht-degree: 88%
@@ -44,13 +44,6 @@ ht-degree: 88%
 
 フラグメントは、[!DNL Journey Optimizer] キャンペーンおよびジャーニー全体で 1 つ以上のメールで参照できる再利用可能なコンポーネントです。 この機能を使用すると、マーケティングユーザーが改善されたデザインプロセスでメールコンテンツを迅速に組み立てるために使用できる複数のカスタムコンテンツブロックを事前に作成できます。
 
->[!NOTE]
->
->このページで説明されている&#x200B;**[!UICONTROL フラグメント]**&#x200B;は、再利用可能な&#x200B;**コンテンツ** コンポーネントです。 両者の違いは、次のとおりです。
->
->* **[ジャーニーフラグメント](../building-journeys/journey-fragments.md)** — ジャーニーに挿入されたジャーニーノードの再利用可能なセット。
->* **[AEM コンテンツフラグメント](../integrations/aem-fragments.md)** — Adobe Experience Managerで作成され、[!DNL Journey Optimizer]で使用されるコンテンツ。
-
 ![](../rn/assets/do-not-localize/fragments.gif)
 
 ➡️ [フラグメントの管理、作成、使用方法については、これらのビデオをご覧ください](#video-fragments)
@@ -59,6 +52,15 @@ ht-degree: 88%
 
 * **独自のフラグメントを作成**：ビジュアルフラグメントまたは式フラグメントを、ゼロから作成するか、コンテンツをフラグメントとして保存して作成します。 [フラグメントの作成方法を学ぶ](create-fragments.md) また、Journey Optimizer の **Content REST API** を活用すると、コンテンツフラグメントを管理できます。 詳しくは、[Journey Optimizer API ドキュメント](https://developer.adobe.com/journey-optimizer-apis/references/content){target="_blank"}を参照してください。
 * **フラグメントの再利用**：作成したフラグメントを、必要な回数だけコンテンツで使用します。 [ビジュアルフラグメントの追加](../email/use-visual-fragments.md)および[式フラグメントの活用](../personalization/use-expression-fragments.md)を参照してください
+
+
+>[!NOTE]
+>
+>このページで説明されている&#x200B;**[!UICONTROL フラグメント]**&#x200B;は、再利用可能な&#x200B;**コンテンツ** コンポーネントです。 両者の違いは、次のとおりです。
+>
+>* **[ジャーニーフラグメント](../building-journeys/journey-fragments.md)** — ジャーニーに挿入されたジャーニーノードの再利用可能なセット。
+>* **[AEM コンテンツフラグメント](../integrations/aem-fragments.md)** — Adobe Experience Managerで作成され、[!DNL Journey Optimizer]で使用されるコンテンツ。
+
 
 ## 開始する前に {#fragment-prerequisites}
 
