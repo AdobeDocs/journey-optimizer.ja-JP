@@ -11,7 +11,7 @@ keywords: テスト, ジャーニー, チェック, エラー, トラブルシ�
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: e2e8634a0c897b0b0339b410b3fef0e358095a1e
+source-git-commit: c2c8b1a64e79482fcc9340950209579cf74c50b3
 workflow-type: tm+mt
 source-wordcount: 1891
 ht-degree: 1%
