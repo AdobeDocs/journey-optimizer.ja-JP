@@ -14,10 +14,10 @@ exl-id: 1c84d9d0-cef7-4764-9f72-5428597a7203
 feature_v2: []
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: e12c7cdc7b90507913b1a0ebd3eb0ee74007f95b
+source-git-commit: c2322ea4081f43aadf8abc8ea9791ebcc91f78bd
 workflow-type: tm+mt
-source-wordcount: 920
-ht-degree: 13%
+source-wordcount: 900
+ht-degree: 14%
 
 ---
 
@@ -91,8 +91,6 @@ ht-degree: 13%
   *例：「新規会員ジャーニー」 – メールに登録する→初めての購入→商品レビューを書く→友達を紹介する（正確な順序で記入）*
 
 * **独自のデータ課題を持ち込む** （制限付き可用性）: チャレンジフレームワーク（タスクと報酬）は、ロイヤルティチャレンジデータ統合から組み立てられます。 他のチャレンジタイプと同様に、設定、コンテンツ、メッセージを設定します。
-
-* **繰り返し可能な課題**：メンバーが同じ課題を完了し、再び報酬を獲得できる回数を設定します。 [繰り返し制限について説明](create-challenges.md#repeat-limits)
 
 ## 仕組み {#how-it-works}
 
