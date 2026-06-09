@@ -108,7 +108,7 @@ ht-degree: 97%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 **エントリポイントの定義**
 
@@ -118,7 +118,7 @@ ht-degree: 97%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ja)
 
 **メッセージの送信**
 
@@ -128,7 +128,7 @@ ht-degree: 97%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 **ロジックと条件の追加**
 
@@ -138,7 +138,7 @@ ht-degree: 97%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ja)
 
 **データの活用**
 
@@ -148,7 +148,7 @@ ht-degree: 97%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 **外部システムの接続**
 
@@ -158,7 +158,7 @@ ht-degree: 97%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 **オーケストレーションアクティビティの追加**
 
@@ -249,7 +249,7 @@ ht-degree: 97%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ja)
 
 **新規サブスクライバーの歓迎**
 
@@ -259,7 +259,7 @@ ht-degree: 97%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=ja)
 
 **送信時間の最適化**
 
@@ -269,7 +269,7 @@ AI を使用して、各顧客が最も関与する可能性の高いタイミ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
 
 **配信を増やす**
 
@@ -279,7 +279,7 @@ AI を使用して、各顧客が最も関与する可能性の高いタイミ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 **平日のターゲット**
 
@@ -289,7 +289,7 @@ AI を使用して、各顧客が最も関与する可能性の高いタイミ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 **マルチチャネルキャンペーン**
 
@@ -299,7 +299,7 @@ AI を使用して、各顧客が最も関与する可能性の高いタイミ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
 
 **すべてのユースケース**
 
@@ -317,7 +317,7 @@ AI を使用して、各顧客が最も関与する可能性の高いタイミ�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
 
 **高度な式**
 
@@ -327,7 +327,7 @@ AI を使用して、各顧客が最も関与する可能性の高いタイミ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ja)
 
 **タイムゾーン管理**
 
@@ -337,7 +337,7 @@ AI を使用して、各顧客が最も関与する可能性の高いタイミ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
 
 **テストモードとドライラン**
 
@@ -347,7 +347,7 @@ AI を使用して、各顧客が最も関与する可能性の高いタイミ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ja)
 
 **サンドボックスへのコピー**
 
@@ -357,7 +357,7 @@ AI を使用して、各顧客が最も関与する可能性の高いタイミ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
 
 **タグと組織**
 
@@ -367,7 +367,7 @@ AI を使用して、各顧客が最も関与する可能性の高いタイミ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 **スループット制御**
 
