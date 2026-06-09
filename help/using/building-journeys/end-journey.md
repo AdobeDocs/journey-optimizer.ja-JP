@@ -10,21 +10,13 @@ keywords: 再エントリ, ジャーニー, 終了, ライブ, 停止
 exl-id: ea1ecbb0-12b5-44e8-8e11-6d3b8bff06aa
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/-mknoNfkNCnfnLD1UCiA6C88NjookKqGr5tQdJ-f3T4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: d7dd6f7f-9e2a-47ee-a2bc-b7b9caaefc1d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 23655e3e59cc14dea254f0e39a1f8f96bf2b295f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: d7dd6f7f-9e2a-47ee-a2bc-b7b9caaefc1d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 8a60b2d54073f30628f1939839faf992fcfd151b
 workflow-type: tm+mt
 source-wordcount: 1171
 ht-degree: 76%
@@ -87,15 +79,15 @@ ht-degree: 76%
 
 1. ジャーニーが実行され、オーディエンスからのすべてのプロファイルが処理されます。
 1. 各プロファイルがジャーニーの終わりに達すると、通常どおり終了します。
-1. 最後にアクティブなプロファイル **が終了すると、ジャーニーは自動的に**&#x200B;[!UICONTROL &#x200B;停止済み&#x200B;]&#x200B;**ステータスに移行します。**
+1. 最後にアクティブなプロファイル **が終了すると、ジャーニーは自動的に**[!UICONTROL &#x200B;停止済み&#x200B;]**ステータスに移行します。**
 
 この動作は、**非繰り返しのオーディエンス読み取りジャーニー**&#x200B;にのみ適用されます。 繰り返しジャーニーは影響を受けません。
 
 >[!NOTE]
 >
->この自動停止の動作は、**not**&#x200B;は、**Wait** ノード（タイマーベース）、**Reaction** ノード（電子メールの開封やクリックなどのイベントを待機）、イベントトリガーによる移行など、待機期間を引き起こすノードを含む非定期ジャーニーに適用されません。 これらのジャーニーは、標準の91日間のグローバルタイムアウトの対象のままです。
+>* この自動停止の動作は、**not**&#x200B;は、**Wait** ノード（タイマーベース）、**Reaction** ノード（電子メールの開封やクリックなどのイベントを待機）、イベントトリガーによる移行など、待機期間を引き起こすノードを含む非定期ジャーニーに適用されません。 これらのジャーニーは、標準の[91日間のグローバルタイムアウト ](../building-journeys/journey-properties.md#global_timeout)の対象のままです。
 >
->繰り返し発生しないオーディエンス読み取りジャーニーは、[**[!UICONTROL 新しいエントリに近づく]**](#close-to-new-entrances) オプションを使用して、いつでも手動で閉じることができます。 自動停止動作により、手動での介入なしに、ジャーニーが不要になったときに自動的に停止されます。
+>* 繰り返し発生しないオーディエンス読み取りジャーニーは、[**[!UICONTROL 新しいエントリに近づく]**](#close-to-new-entrances) オプションを使用して、いつでも手動で閉じることができます。 自動停止動作により、手動での介入なしに、ジャーニーが不要になったときに自動的に停止されます。
 
 ### ジャーニーはいつ「完了」と見なされますか？ {#journey-finished-definition}
 
@@ -125,8 +117,6 @@ ht-degree: 76%
    ![ジャーニーの終了と代替アクションを示す完了オプションメニュー](assets/finish_drop_down_list.png){width="50%" zoomable="yes"}
 
 1. 「**[!UICONTROL 新規エントリに対してクローズ]**」をクリックし、ダイアログボックスで確定します。
-
-
 
 
 ## ジャーニーを停止 {#stop-journey}
