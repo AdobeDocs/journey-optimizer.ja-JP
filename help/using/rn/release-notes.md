@@ -26,10 +26,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ee485d872299b592e27cf40cd3cde9b362bc85d2
+source-git-commit: a36a488ae85052375ed31ad7efa644bd9fba58ea
 workflow-type: tm+mt
-source-wordcount: 2694
-ht-degree: 21%
+source-wordcount: 2424
+ht-degree: 23%
 
 ---
 
@@ -108,11 +108,32 @@ ht-degree: 21%
 </table>
 
 
+
 * **カスタムアクションでの証明書ベースのカスタム認証** - カスタムアクションで、証明書ベースのカスタム認証がサポートされるようになりました。 カスタム認証設定に`subType: "certificateCredential"`を追加することで、Journey OptimizerはAdobeのマネージド証明書を使用してJWT クライアントアサーションに署名し、アクセストークンと交換します。クライアントシークレットは必要ありません。 Microsoft Entra IDなど、証明書ベースのID確認を強制するエンタープライズ API向けに設計されています。 [詳細情報](../datasource/external-data-sources.md#certificate-credential)
 
   ご利用いただけます：2026年6月4日（PT）
 
+* **キャンペーンライフサイクルイベントに関する顧客アラート** – 新しいシステムアラートにより、アクションおよびAPI トリガーキャンペーンの主要なライフサイクルイベントが通知されるようになりました。 サンドボックスレベルでの購入。 [詳細情報](../reports/alerts.md)
 
+  ご利用いただけます：2026年6月1日（PT）
+
+* **URL パラメーターの暗号化** - メールメッセージに追加されたトラッキングおよびランディングページのリンクで、URL パラメーターを暗号化できるようになりました。 これにより、機密性の高いパラメーターデータのセキュリティレイヤーが追加されます。 この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。 [詳細情報](../personalization/url-parameter-encryption.md)
+
+  ご利用いただけます：2026年6月1日（PT）
+
+* **キーレジストリの新しい権限** - URL パラメーターの暗号化に必要なキーにアクセスして管理するには、2つの新しい権限が必要になりました：**キーレジストリの管理**&#x200B;と&#x200B;**キーレジストリの表示**。 [詳細情報](../administration/high-low-permissions.md#administration-permissions)
+
+  ご利用いただけます：2026年6月1日（PT）
+
+<!--
++++ Coming soon — **Information below is subject to change.**
+
+* **Override the default execution field in campaigns** - Previously available at the journey level, you can now override the default execution field set globally for your Email, SMS and WhatsApp deliveries in the campaign parameters.
+
+  Availability date: Early June, 2026
+
++++
+-->
 
 ## 26年5月のリリースノート {#may-26-rn}
 
@@ -159,9 +180,10 @@ ht-degree: 21%
 </tbody>
 </table>
 
-+++ 近日リリース予定 – **以下の情報は変更される可能性があります。**
+<!--
++++ Coming soon — **Information below is subject to change.**
 
-今後数日または数週間で、次のジャーニー機能が提供される予定です。
+The following journey capabilities are expected in the upcoming days or weeks.
 
 <!--
 <table>
@@ -200,33 +222,35 @@ ht-degree: 21%
 </table>
 -->
 
+<!--
 <table>
 <thead>
 <tr>
-<th><strong>ジャーニーシミュレーション（一般提供）</strong><br/></th>
+<th><strong>Journey Simulation (General Availability)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>以前はLimited Availabilityでリリースされていたジャーニーシミュレーションが、すべての環境で使用できるようになりました。 この一般提供リリースでは、Journey Agentを使用して、シミュレーションユーザーとイベントをシミュレーションメニューで直接生成できるようになりました。</p>
-<p>利用開始日：2026年6月上旬</p>
+<p>Previously released in Limited Availability, Journey Simulation is now available to all environments. With this General Availability release, you can now use Journey Agent to generate simulated users and events directly in the Simulation menu.</p>
+<p>Availability date: Early June, 2026</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-* **非繰り返しの読み取りオーディエンスジャーニー**&#x200B;の自動完了 – 繰り返しの&#x200B;**読み取りオーディエンス** ジャーニーが、最後にアクティブなプロファイルが終了すると、自動的に&#x200B;**停止** ステータスに移行するようになりました。 以前は、これらのジャーニーは、プロファイルがフローしなくなった場合でも、91日間のグローバルタイムアウトが期限切れになるまで&#x200B;**ライブ**&#x200B;のままでした。 この改善により、ジャーニーのステータスは、完了するとすぐに実際の実行ステータスを反映するようになり、手作業なしでジャーニーインベントリを正確に保つことができます。
+* **Automatic completion for non-recurring Read Audience journeys** - Non-recurring **Read Audience** journeys now automatically transition to **Stopped** status once the last active profile exits. Previously, these journeys remained **Live** until the 91-day global timeout expired — even when no profiles were flowing through them anymore. With this improvement, journey status reflects actual execution state as soon as it completes, keeping your journey inventory accurate without manual intervention.
 
-  この動作は、待機期間を引き起こすノード（待機ノード、リアクションノード、イベントトリガーのトランジションなど）を含むジャーニーには適用されません。 これらのジャーニーは、標準の91日間のグローバルタイムアウトの対象のままです。
+  Note that this behavior does not apply to journeys that include nodes causing waiting periods, such as Wait nodes, Reaction nodes, or event-triggered transitions. These journeys remain subject to the standard 91-day global timeout.
 
-  利用開始日：2026年6月上旬
+  Availability date: Early June, 2026
 
-* **外部オーディエンスの補足識別子のサポート** - ジャーニーの補足識別子が、CSV ファイルから読み込まれたオーディエンスやFederated Audience Compositionで作成されたオーディエンスなど、外部オーディエンスでサポートされるようになりました。 オーディエンスからID以外の属性または個人ではないID属性を補足IDとして指定できます。スキーマのラベル付けは必要ありません。
+* **Supplemental identifier support for external audiences** - Supplemental identifiers in journeys are now supported for external audiences, including audiences imported from a CSV file and audiences created with Federated Audience Composition. You can designate any non-identity attribute or non-person identity attribute from the audience as the supplemental ID, no schema labeling is required.
 
-  利用開始日：2026年6月上旬
+  Availability date: Early June, 2026
 
 +++
+-->
 
 ### オーケストレーションキャンペーン {#may-26-oc}
 
@@ -284,22 +308,6 @@ The following orchestrated campaign capability is expected in the upcoming days 
 * **Personalize email sender details per recipient and campaign** - Orchestrated campaigns now support personalization of email header fields, including From name, From address, and Reply-To, using profile attributes or relational data. This allows sender details to reflect the relevant advisor, location, or branch for each recipient, rather than routing all sends through a single corporate address.
 
   Header values can be set at the channel level and overridden per campaign using contextual data for more precise control.
-
-  Availability date: Early June, 2026
-
-+++
--->
-
-### キャンペーン {#may-26-campaigns}
-
-* **キャンペーンライフサイクルイベントに関する顧客アラート** – 新しいシステムアラートにより、アクションおよびAPI トリガーキャンペーンの主要なライフサイクルイベントが通知されるようになりました。 サンドボックスレベルでの購入。 [詳細情報](../reports/alerts.md)
-
-  ご利用いただけます：2026年6月1日（PT）
-
-<!--
-+++ Coming soon — **Information below is subject to change.**
-
-* **Override the default execution field in campaigns** - Previously available at the journey level, you can now override the default execution field set globally for your Email, SMS and WhatsApp deliveries in the campaign parameters.
 
   Availability date: Early June, 2026
 
@@ -472,16 +480,6 @@ The following orchestrated campaign capability is expected in the upcoming days 
 
 * **Adobe Experience Managerセレクターでの組織間のリポジトリアクセス** - Assetsアセットセレクター内で、複数の組織のリポジトリから直接アセットをシームレスに選択できるようになりました。
 
-### 管理 {#may-26-admin}
-
-* **URL パラメーターの暗号化** - メールメッセージに追加されたトラッキングおよびランディングページのリンクで、URL パラメーターを暗号化できるようになりました。 これにより、機密性の高いパラメーターデータのセキュリティレイヤーが追加されます。 この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。 [詳細情報](../personalization/url-parameter-encryption.md)
-
-  ご利用いただけます：2026年6月1日（PT）
-
-* **キーレジストリの新しい権限** - URL パラメーターの暗号化に必要なキーにアクセスして管理するには、2つの新しい権限が必要になりました：**キーレジストリの管理**&#x200B;と&#x200B;**キーレジストリの表示**。 [詳細情報](../administration/high-low-permissions.md#administration-permissions)
-
-  ご利用いただけます：2026年6月1日（PT）
-
 <!--
 +++ Coming soon — **Information below is subject to change.**
 
@@ -522,11 +520,13 @@ The following orchestrated campaign capability is expected in the upcoming days 
   ![](../test-approve/assets/simulation-preview-redesign.png)
 -->
 
-+++ 近日リリース予定 – **以下の情報は変更される可能性があります。**
+<!--
++++ Coming soon — **Information below is subject to change.**
 
-* ジャーニーとキャンペーンの&#x200B;**フォルダー** - ジャーニーとキャンペーンをフォルダーに整理して、インターフェイスのナビゲーションと管理を改善できるようになりました。
+* **Folders for journeys and campaigns** - You can now organize your journeys and campaigns into folders to improve navigation and management in the interface.
 
-  利用開始日：2026年6月上旬
+  Availability date: Early June, 2026
 
 +++
+-->
 
