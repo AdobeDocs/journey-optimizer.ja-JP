@@ -7,12 +7,24 @@ role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 TQID: https://experienceleague.adobe.com/rhHsljIiCi7C5YYdGuSAHUxFRunSpHiwN056HnHFQ-s
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2: id: f29a52db-c90c-4345-902e-b586d1406d8did: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: c618a0dc-1818-4c6d-9916-0d92e6796f24id: d056adbe-402d-4f42-9746-f3d424e598b1
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: c1579802-ddd4-4214-8a91-97b2066abe11id: e9001ce2-5245-4a8e-8601-dd958009072f
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2:
+  - id: f29a52db-c90c-4345-902e-b586d1406d8d
+  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
+  - id: c618a0dc-1818-4c6d-9916-0d92e6796f24
+  - id: d056adbe-402d-4f42-9746-f3d424e598b1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: e9001ce2-5245-4a8e-8601-dd958009072f
 source-git-commit: 675606750af67b398f18646dddf901778625fb30
 workflow-type: tm+mt
 source-wordcount: 1741
@@ -58,7 +70,7 @@ ht-degree: 81%
 
 1. ジャーニーを「[イベント](../building-journeys/general-events.md)」または「[オーディエンスを読み取り](../building-journeys/read-audience.md)」アクティビティで開始します。
 
-1. パレットの&#x200B;**[!UICONTROL アクション]** セクションから&#x200B;**[!UICONTROL アクション]** アクティビティをドラッグ&amp;ドロップします。 [ アクションアクティビティ ](../building-journeys/journey-action.md)の詳細をご覧ください。
+1. パレットの&#x200B;**[!UICONTROL アクション]** セクションから&#x200B;**[!UICONTROL アクション]** アクティビティをドラッグ&amp;ドロップします。 [&#x200B; アクションアクティビティ &#x200B;](../building-journeys/journey-action.md)の詳細をご覧ください。
 
    >[!IMPORTANT]
    >
@@ -86,7 +98,7 @@ ht-degree: 81%
 
 1. 「**[!UICONTROL コンテンツを編集]**」ボタンを選択し、必要に応じてコンテンツを編集します。 [詳細情報](#edit-web-content)
 
-ジャーニーの作成、設定、公開の方法について詳しくは、[このページ ](../building-journeys/journey-gs.md)を参照してください。
+ジャーニーの作成、設定、公開の方法について詳しくは、[このページ &#x200B;](../building-journeys/journey-gs.md)を参照してください。
 
 >[!TAB Web キャンペーンを作成]
 
@@ -252,7 +264,7 @@ Web キャンペーンの設定を定義し、必要に応じてコンテンツ�
    >
    >キャンペーンのアクティブ化について詳しくは、[この節](../campaigns/review-activate-campaign.md)を参照してください。
 
-Web キャンペーンは&#x200B;**[!UICONTROL ライブ]**[ステータス](../campaigns/manage-campaigns.md#statuses)になり、選択したオーディエンスに対して表示されるようになりました。 キャンペーンの各受信者は、web サイトに追加した変更を表示できます。
+Web キャンペーンは&#x200B;**[!UICONTROL ライブ]**&#x200B;[ステータス](../campaigns/manage-campaigns.md#statuses)になり、選択したオーディエンスに対して表示されるようになりました。 キャンペーンの各受信者は、web サイトに追加した変更を表示できます。
 
 >[!NOTE]
 >
