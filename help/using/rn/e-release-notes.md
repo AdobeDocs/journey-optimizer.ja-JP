@@ -15,10 +15,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: c7c4dfa34d3886f665e3051c34ea9f2093562dac
+source-git-commit: 361e8f77dc32fb9154cc5ed156822bc402934595
 workflow-type: tm+mt
-source-wordcount: 2287
-ht-degree: 6%
+source-wordcount: 2169
+ht-degree: 7%
 
 ---
 
@@ -38,23 +38,6 @@ Adobe Journey Optimizerでは、新機能、既存の機能の強化、バグ修
 ### ロイヤルティ {#june-26-loyalty}
 
 このリリースでは、次の機能がロイヤルティに導入されます。
-
-<table>
-<thead>
-<tr>
-<th><strong>ロイヤルティの課題</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>ロイヤルティの課題は、ロイヤルティ施策を魅力的な<strong> ゲーミフィケーション体験</strong>に変え、購入、レビューの執筆、ソーシャルメディアへの参加、友人への紹介など、顧客に価値ある行動を起こすよう動機づけます。</p>
-<p>管理者は、ロイヤルティ管理メニューを使用して、リワードフルフィルメント API、イベント定義、商品インベントリ、除外、ID設定など、Journey Optimizerをロイヤルティエコシステムに接続できます。 マーケターは、標準、ストリーク、または順次の課題を設計し、タスクと報酬を定義し、ブランド化されたコンテンツカードとメッセージを配信し、組み込みのレポートダッシュボードでパフォーマンスを監視できます。 Journey Optimizerにより、各課題をバックグラウンドで調整するジャーニーが生成されるため、チームは顧客体験とビジネス目標に集中して取り組むことができます。</p>
-<p>この機能は、すべての環境で使用できるようになりました（一般提供）。</p>
-</td>
-</tr>
-</tbody>
-</table>
 
 ### ジャーニー {#june-26-journeys}
 
