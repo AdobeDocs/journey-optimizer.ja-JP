@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 3902d92e0306ea23fa877dca64165b14c4e3f9dd
+source-git-commit: a6ea8da3868e235ccd19e66426cb77b8e5300ac2
 workflow-type: tm+mt
-source-wordcount: 1960
+source-wordcount: 2000
 ht-degree: 10%
 
 ---
@@ -83,6 +83,9 @@ Adobe Journey Optimizerでは、新機能、既存の機能の強化、バグ修
 
 * **一時停止したジャーニーを直接停止または閉じる** - **一時停止**&#x200B;状態から直接&#x200B;**ジャーニーを停止するか、新しいエントリ**&#x200B;に閉じることができるようになりました。以前は、一時停止したジャーニーを停止または閉じる前に、「ライブ」に再開する必要がありました。
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14229">DOCAC JIRA タスクへのリンク </a>
+
+* **外部オーディエンスの補足識別子のサポート** - ジャーニーの補足識別子が、CSV ファイルから読み込まれたオーディエンスやFederated Audience Compositionで作成されたオーディエンスなど、外部オーディエンスでサポートされるようになりました。オーディエンスからID以外の属性または個人ではないID属性を補足IDとして指定できます。スキーマのラベル付けは必要ありません。
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-14541">DOCAC JIRA タスクへのリンク </a>
 
 ### オーケストレーションキャンペーン {#june-26-oc}
 
