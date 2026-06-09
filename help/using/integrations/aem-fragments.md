@@ -21,9 +21,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2cd1292b544b9aa6e80b3e871e7f6f917d0ab19a
+source-git-commit: 06565328f42ff79943f774df55d8e41118b40815
 workflow-type: tm+mt
-source-wordcount: 1712
+source-wordcount: 1752
 ht-degree: 21%
 
 ---
@@ -35,6 +35,13 @@ ht-degree: 21%
 Adobe Journey Optimizer ワークフローの既存の&#x200B;**アセットセレクター**&#x200B;および&#x200B;**コンテンツフラグメントセレクター**&#x200B;のエクスペリエンスは、**コンテンツアドバイザー**&#x200B;に置き換えられています。 Content Advisorは、AJOのオーサリングワークフロー内で、Assets、コンテンツフラグメント、Dynamic Mediaを直接検索して選択するための、AIを活用した統合インターフェイスを提供します。 既存の統合は、移行期間中も引き続き機能します。
 
 >[!ENDSHADEBOX]
+
+>[!NOTE]
+>
+>**AEM コンテンツフラグメント**&#x200B;はAdobe Experience Managerで作成され、[!DNL Journey Optimizer]で使用されます。 両者の違いは、次のとおりです。
+>
+>* **[フラグメント](../content-management/fragments.md)** — [!DNL Journey Optimizer]で作成され、キャンペーンやジャーニーをまたいだメールで使用される再利用可能なコンテンツコンポーネント。
+>* **[ジャーニーフラグメント](../building-journeys/journey-fragments.md)** — ジャーニーに挿入されたジャーニーノードの再利用可能なセット。
 
 Adobe Experience ManagerとJourney Optimizerの連携は、次のデータフローに従います。
 

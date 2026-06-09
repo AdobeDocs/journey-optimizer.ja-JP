@@ -30,10 +30,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 06565328f42ff79943f774df55d8e41118b40815
 workflow-type: tm+mt
-source-wordcount: 943
-ht-degree: 85%
+source-wordcount: 979
+ht-degree: 82%
 
 ---
 
@@ -106,6 +106,16 @@ Journey Optimizer ジャーニーデザイナーには、マーケターやジ�
 **ジャーニーデザイナー**&#x200B;を使用すると、エントリイベントや「オーディエンスを読み取り」アクティビティを簡単にドラッグ＆ドロップして、条件を追加し、パーソナライズされたメッセージを送信するなど、複数のステップから成るユースケースを作成できます。
 
 [ジャーニーデザイナーの探索](using-the-journey-designer.md)
+:::
+
+:::
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+
+**再利用可能なジャーニーフラグメント**
+
+適格性チェックやチャネルルーティングロジックなど、ジャーニーノードのセットを一度作成すれば、**ジャーニーフラグメント**&#x200B;を使用して、ジャーニーをまたいで再利用できます。
+
+[ジャーニーフラグメントの詳細](journey-fragments.md)
 :::
 
 :::

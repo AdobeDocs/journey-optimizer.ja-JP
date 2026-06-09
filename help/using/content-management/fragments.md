@@ -27,10 +27,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 06565328f42ff79943f774df55d8e41118b40815
 workflow-type: tm+mt
-source-wordcount: 346
-ht-degree: 97%
+source-wordcount: 382
+ht-degree: 88%
 
 ---
 
@@ -43,6 +43,13 @@ ht-degree: 97%
 >additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/fragments/create-fragments" text="フラグメントを作成"
 
 フラグメントは、[!DNL Journey Optimizer] キャンペーンおよびジャーニー全体で 1 つ以上のメールで参照できる再利用可能なコンポーネントです。 この機能を使用すると、マーケティングユーザーが改善されたデザインプロセスでメールコンテンツを迅速に組み立てるために使用できる複数のカスタムコンテンツブロックを事前に作成できます。
+
+>[!NOTE]
+>
+>このページで説明されている&#x200B;**[!UICONTROL フラグメント]**&#x200B;は、再利用可能な&#x200B;**コンテンツ** コンポーネントです。 両者の違いは、次のとおりです。
+>
+>* **[ジャーニーフラグメント](../building-journeys/journey-fragments.md)** — ジャーニーに挿入されたジャーニーノードの再利用可能なセット。
+>* **[AEM コンテンツフラグメント](../integrations/aem-fragments.md)** — Adobe Experience Managerで作成され、[!DNL Journey Optimizer]で使用されるコンテンツ。
 
 ![](../rn/assets/do-not-localize/fragments.gif)
 

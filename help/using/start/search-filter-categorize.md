@@ -22,10 +22,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 06565328f42ff79943f774df55d8e41118b40815
 workflow-type: tm+mt
-source-wordcount: 798
-ht-degree: 84%
+source-wordcount: 800
+ht-degree: 83%
 
 ---
 
@@ -96,6 +96,7 @@ Journey Optimizer でオーディエンスに意味のあるタグを追加す�
 * [キャンペーン](../campaigns/create-campaign.md)
 * [決定項目](../experience-decisioning/items.md)
 * [フラグメント](../content-management/fragments.md)
+* [ジャーニーフラグ](../building-journeys/journey-fragments.md)
 * [ジャーニー](../building-journeys/journey-properties.md)
 * [ランディングページ](../landing-pages/create-lp.md)
 * [サブスクリプションリスト](../landing-pages/subscription-list.md)
