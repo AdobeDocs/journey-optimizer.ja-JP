@@ -22,9 +22,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 07322bd265647528f8e2e4a5f39d7806fd03b565
 workflow-type: tm+mt
-source-wordcount: 674
+source-wordcount: 673
 ht-degree: 80%
 
 ---
@@ -63,7 +63,7 @@ SMS API 資格情報でカスタムのオプトアウトキーワードを定義
 
 >[!NOTE]
 >
->双方向 SMS（STOP、QUIT などで返信）を使用する予定の場合は、電話番号とプロファイルのマッピングを確立するために、まず 1 つ以上の一方向 SMS を送信していることを確認します。 プロバイダーの資格情報の有効期限が切れているか、正しく設定されていない場合、受信キーワードによるユーザープロファイルの更新が妨げられ、その結果、オプトアウトレコードが欠落または遅延します。 インバウンド応答は、_AJO Inbound Activity Event Dataset_ システム データセットに保存されます。 [詳細情報](../data/get-started-datasets.md#system-datasets)
+>双方向 SMS（STOP、QUIT などで返信）を使用する予定の場合は、電話番号とプロファイルのマッピングを確立するために、まず 1 つ以上の一方向 SMS を送信していることを確認します。 プロバイダーの資格情報の有効期限が切れているか、正しく設定されていない場合、受信キーワードによるユーザープロファイルの更新が妨げられ、その結果、オプトアウトレコードが欠落または遅延します。 インバウンド応答は、_AJO メールトラッキングデータセット_ システムデータセットに保存されます。 [詳細情報](../data/get-started-datasets.md#system-datasets)
 
 
 ## ブロックリスト {#sms-blocklists}

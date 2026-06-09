@@ -21,7 +21,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 07322bd265647528f8e2e4a5f39d7806fd03b565
 workflow-type: tm+mt
 source-wordcount: 420
 ht-degree: 58%
@@ -56,7 +56,7 @@ WhatsApp メッセージの準備が整ったら、[ジャーニー](../building
 
 ## WhatsApp インタラクションの分析 {#whatsapp-channel-context}
 
-Journey Optimizerは、WhatsApp チャネルから返された追加のインタラクションデータを取得し、`whatsAppChannelContext` フィールドグループの&#x200B;**レポート – メールトラッキングエクスペリエンスイベントデータセット**&#x200B;に保存します。 これらのフィールドを使用して、[&#x200B; オーディエンス &#x200B;](../audience/about-audiences.md)を作成し、[&#x200B; クエリ &#x200B;](../data/get-started-queries.md)を実行し、WhatsApp エンゲージメントを分析します。 [&#x200B; システムデータセットの詳細](../data/get-started-datasets.md#system-datasets)。
+Journey Optimizerは、WhatsApp チャネルから返された追加のインタラクションデータを取得し、`whatsAppChannelContext` フィールドグループの&#x200B;**AJO - メールトラッキングエクスペリエンスイベントデータセット**&#x200B;に保存します。 これらのフィールドを使用して、[&#x200B; オーディエンス &#x200B;](../audience/about-audiences.md)を作成し、[&#x200B; クエリ &#x200B;](../data/get-started-queries.md)を実行し、WhatsApp エンゲージメントを分析します。 [&#x200B; システムデータセットの詳細](../data/get-started-datasets.md#system-datasets)。
 
 次のフィールドがキャプチャされます。
 
