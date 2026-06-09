@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 161b043b801d8c35e2dd590f1f85d52829d6a459
+source-git-commit: d5b5559d40411d2c66e0b7144a9ce6945c491391
 workflow-type: tm+mt
-source-wordcount: 2564
+source-wordcount: 2694
 ht-degree: 21%
 
 ---
@@ -92,6 +92,25 @@ ht-degree: 21%
 * **カスタムアクションでの証明書ベースのカスタム認証** - カスタムアクションで、証明書ベースのカスタム認証がサポートされるようになりました。 カスタム認証設定に`subType: "certificateCredential"`を追加することで、Journey OptimizerはAdobeのマネージド証明書を使用してJWT クライアントアサーションに署名し、アクセストークンと交換します。クライアントシークレットは必要ありません。 Microsoft Entra IDなど、証明書ベースのID確認を強制するエンタープライズ API向けに設計されています。 [詳細情報](../datasource/external-data-sources.md#certificate-credential)
 
   ご利用いただけます：2026年6月4日（PT）
+
+<table>
+<thead>
+<tr>
+<th><strong>ジャーニーフラグメント（一般提供）</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Adobe Journey Optimizerで<strong>ジャーニーフラグメント </strong>を作成できるようになりました。 ジャーニーフラグメントは、再利用可能なジャーニーノードのセットです。一度構築すれば、サンドボックスをまたいであらゆるジャーニーにドロップできます。 実施要件チェック、好みのチャネルルーティングロジック、ウェルカムシーケンスなど、フラグメントは、毎回同じロジックをゼロから再構築することなく、より迅速に行動し、一貫性を維持するのに役立ちます。</p>
+<p>フラグメントを作成すると、専用の<strong> フラグメントインベントリ </strong>に保存され、<strong>ジャーニーフラグメント </strong> アクティビティを使用して、任意のジャーニーに挿入できます。</p>
+<p>以前は制限付き可用性で利用可能でしたが、この機能はすべての顧客で一般に利用可能になりました。 ジャーニーフラグメントは<strong> サンドボックスツール </strong>もサポートしており、サンドボックス間でフラグメントをパッケージ化および書き出すことができます。</p>
+<p>詳しくは、<a href="../building-journeys/journey-fragments.md">詳細ドキュメント</a>を参照してください。</p>
+<p>ご利用いただけます：2026年6月9日（PT）</p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## 26年5月のリリースノート {#may-26-rn}
 

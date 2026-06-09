@@ -8,22 +8,18 @@ topic: Content Management
 role: User
 level: Intermediate
 keywords: フラグメント，ジャーニー，再利用，ノード，キャンバス，在庫，再利用可能
-badge: label="限定提供" type="Informative"
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bd17716b18efd2a9043bcfd7389e6a4082f56bcc
 workflow-type: tm+mt
-source-wordcount: 1484
+source-wordcount: 1482
 ht-degree: 10%
 
 ---
 
 
 # ジャーニーフラグ {#journey-fragments}
-
->[!AVAILABILITY]
->この機能は現在限定的です。 アクセスをリクエストするには、Adobe担当者にお問い合わせください。
 
 ジャーニーフラグメントは、再利用可能なジャーニーノードのセットです。一度構築すれば、サンドボックスをまたいであらゆるジャーニーにドロップできます。 実施要件のチェック、好みのチャネルルーティングロジック、ウェルカムシーケンスなど、フラグメントは、同じロジックを毎回ゼロから再構築することなく、より迅速に作業し、一貫性を維持するのに役立ちます。 [&#x200B; ユースケースの例を参照してください。](#examples)
 
@@ -187,6 +183,7 @@ ht-degree: 10%
 * [&#x200B; タグ &#x200B;](tags.md)と&#x200B;**ラベル**&#x200B;は、フラグメントでサポートされています。
 * [監査ログ &#x200B;](../privacy/audit-logs.md)はサポートされています。
 * 古いスタック（インラインキャンペーンを使用）で実行されているジャーニーは、ジャーニーフラグメントをサポートしていません。 この機能を使用する前に、このようなジャーニーを複製して新しいスタックに移動します。
+* ジャーニーフラグメントは[&#x200B; サンドボックスツール &#x200B;](../configuration/copy-objects-to-sandbox.md)をサポートしています。 フラグメントはパッケージ化して、別のサンドボックスに書き出すことができます。
 
 ## ユースケースの例 {#examples}
 
