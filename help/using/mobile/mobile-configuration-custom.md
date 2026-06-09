@@ -24,10 +24,10 @@ topic_v2:
 subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: de6f48d5e9a775afc0d2fa0141eb775a24b2155e
+source-git-commit: a6c2d7e9827b30995397540761522c680c237bc8
 workflow-type: tm+mt
-source-wordcount: 947
-ht-degree: 79%
+source-wordcount: 1046
+ht-degree: 72%
 
 ---
 
@@ -91,6 +91,12 @@ Adobeでは標準で使用できないカスタムプロバイダー（Sinch、I
 1. 「**[!UICONTROL mTLS サポート]**」オプションを有効にすると、安全な接続を確立する前にクライアントとサーバーの両方が相互に認証するようになります。
 
    mTLS のみを使用するには、**[!UICONTROL 認証タイプ]**&#x200B;ドロップダウンから「**[!UICONTROL 認証なし]**」を選択し、**[!UICONTROL mTLS サポート]**&#x200B;を有効にします。
+
+   mTLSは、SMS プロバイダー（メッセージ送信）エンドポイントにのみ適用されます。 OAuth トークンエンドポイントではmTLSを使用できません。 テストする前に、トークンエンドポイントでmTLSが無効になっていることを確認します。
+
+   >[!IMPORTANT]
+   >
+   >[MTLS公開証明書API](https://platform.adobe.io/data/core/mtls/v1/certificate/public-certificate)から公開証明書をダウンロードし、サーバーのトラストストアに追加して、SMS送信エンドポイントをAdobe Experience Platform認証局チェーンを信頼するように設定します（想定されるクライアント CN: `ajo-sms.aep-mtls.adobe.com`）。そうしないと、Journey Optimizerでクライアント証明書が省略され、SMS配信が失敗します。
 
 1. 「**[!UICONTROL ヘッダー]**」セクションで、「**[!UICONTROL 新しいパラメーターを追加]**」をクリックし、外部サービスに送信されるリクエストメッセージの HTTP ヘッダーを指定します。
 
@@ -179,6 +185,8 @@ API 資格情報を作成したら、OAuth 認証に必要なフィールドに�
 * **[!UICONTROL OAuth URL]**：OAuth トークンを取得する URL を入力します。
 
 * **[!UICONTROL OAuth 本文]**：`grant_type`、`client_id`、`client_secret` などのパラメーターを含む、JSON 形式の OAuth リクエスト本文を指定します。
+
+Journey Optimizerは、カスタム SMS コネクタの有効期限が切れると、OAuth トークンを動的に更新します。
 
 ![](assets/sms-byop-oauth.png)
 
