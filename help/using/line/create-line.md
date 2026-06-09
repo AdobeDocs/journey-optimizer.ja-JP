@@ -9,23 +9,16 @@ role: User
 level: Beginner
 exl-id: a93d4dc9-f0e9-400c-b9a4-6cdac84390fd
 TQID: https://experienceleague.adobe.com/OgI9e9LWYpO8nXHQXoDK-y0ys-EpHJzaFRHx9V9pAus
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: e09fc1e6-407c-418f-adc5-e2ffe8b8986e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: e09fc1e6-407c-418f-adc5-e2ffe8b8986e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
 source-wordcount: 652
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -65,7 +58,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックして、使用可能な Adobe Experience Platform オーディエンスのリストからターゲットオーディエンスを定義します。 [学習を増やす](../audience/about-audiences.md)。
 
-1. 「**[!UICONTROL ID 名前空間]**」フィールドで、選択したオーディエンスから個人を識別するために使用する名前空間を選択します。 [詳細情報](../event/about-creating.md#select-the-namespace)
+1. 「**[!UICONTROL ID 名前空間]**」フィールドで、選択したオーディエンスから個人を識別するために使用する名前空間を選択します。 [学習を増やす](../event/about-creating.md#select-the-namespace)。
 
 1. 「**[!UICONTROL アクション]**」セクションで、「**[!UICONTROL LINE]**」を選択し、新しい設定を選択または作成します。
 
@@ -114,7 +107,7 @@ LINE コンテンツを設定するには、次の手順に従います。
 
 1. 「**[!UICONTROL 保存]**」をクリックして、プレビューでメッセージを確認します。
 
-1. 「**[!UICONTROL コンテンツをシミュレート]**」ボタンを使用して、LINE メッセージコンテンツとパーソナライズされたコンテンツをプレビューします。
+1. **[!UICONTROL コンテンツのシミュレーション]**&#x200B;を使用して、LINE メッセージのコンテンツとパーソナライズされたコンテンツをプレビューします。 [詳細情報](send-line.md)
 
 テストを実行してコンテンツを検証したら、LINE メッセージをオーディエンスに送信できます。 これらの手順について詳しくは、[このページ](send-line.md)を参照してください。
 

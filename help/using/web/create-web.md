@@ -7,28 +7,16 @@ role: User
 level: Beginner
 exl-id: e28c038b-49ed-4685-bfe6-514116eb0711
 TQID: https://experienceleague.adobe.com/rhHsljIiCi7C5YYdGuSAHUxFRunSpHiwN056HnHFQ-s
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: f29a52db-c90c-4345-902e-b586d1406d8d
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: c618a0dc-1818-4c6d-9916-0d92e6796f24
-  - id: d056adbe-402d-4f42-9746-f3d424e598b1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: f29a52db-c90c-4345-902e-b586d1406d8did: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: c618a0dc-1818-4c6d-9916-0d92e6796f24id: d056adbe-402d-4f42-9746-f3d424e598b1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: c1579802-ddd4-4214-8a91-97b2066abe11id: e9001ce2-5245-4a8e-8601-dd958009072f
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1646
-ht-degree: 89%
+source-wordcount: 1647
+ht-degree: 85%
 
 ---
 
@@ -64,7 +52,7 @@ ht-degree: 89%
 
 1. ジャーニーを「[イベント](../building-journeys/general-events.md)」または「[オーディエンスを読み取り](../building-journeys/read-audience.md)」アクティビティで開始します。
 
-1. パレットの&#x200B;**[!UICONTROL アクション]** セクションから&#x200B;**[!UICONTROL アクション]** アクティビティをドラッグ&amp;ドロップします。 [&#x200B; アクションアクティビティ &#x200B;](../building-journeys/journey-action.md)の詳細をご覧ください。
+1. パレットの&#x200B;**[!UICONTROL アクション]** セクションから&#x200B;**[!UICONTROL アクション]** アクティビティをドラッグ&amp;ドロップします。 [ アクションアクティビティ ](../building-journeys/journey-action.md)の詳細をご覧ください。
 
    >[!IMPORTANT]
    >
@@ -92,7 +80,7 @@ ht-degree: 89%
 
 1. 「**[!UICONTROL コンテンツを編集]**」ボタンを選択し、必要に応じてコンテンツを編集します。 [詳細情報](#edit-web-content)
 
-ジャーニーの作成、設定、公開の方法について詳しくは、[このページ &#x200B;](../building-journeys/journey-gs.md)を参照してください。
+ジャーニーの作成、設定、公開の方法について詳しくは、[このページ ](../building-journeys/journey-gs.md)を参照してください。
 
 >[!TAB Web キャンペーンを作成]
 
@@ -166,9 +154,10 @@ Web エクスペリエンスのオーサリングを開始するには、次の�
 >title="Web エクスペリエンスのプレビュー"
 >abstract="Web エクスペリエンスがどのように表示されるかをシミュレーションで確認します。"
 
-Web designer を使用して [web エクスペリエンスを作成](web-visual-editor.md)したら、テストプロファイルを使用して、変更した web ページをプレビューできます。 パーソナライズされたコンテンツを挿入した場合は、そのコンテンツがどのように表示されるかを、テストプロファイルデータを使用して確認できます。
+Web デザイナーを使用して[web エクスペリエンスを作成したら](web-visual-editor.md)、次のいずれかのシミュレーション方法を使用して、変更したweb ページをプレビューできます。
 
-これを行うには、ジャーニーまたはキャンペーンのコンテンツ編集画面から「**[!UICONTROL コンテンツをシミュレート]**」をクリックし、テストプロファイルを追加し、テストプロファイルデータを使用して web ページを確認します。
+* 「**[!UICONTROL コンテンツをシミュレート]**」をクリックして、サンプル入力データまたはAI自動生成を使用してコンテンツのバリエーションをテストします。 [コンテンツバリエーションのシミュレート方法を学ぶ](../test-approve/simulate-sample-input.md)
+* 「**[!UICONTROL コンテンツをシミュレート]**」をクリックし、ドロップダウンから「**[!UICONTROL コンテンツをシミュレート（AEP プロファイル）]**」を選択して、テストプロファイルでプレビューし、テストプロファイルを追加してweb ページを確認します。
 
 ![](assets/web-designer-preview.png)
 
@@ -257,7 +246,7 @@ Web キャンペーンの設定を定義し、必要に応じてコンテンツ�
    >
    >キャンペーンのアクティブ化について詳しくは、[この節](../campaigns/review-activate-campaign.md)を参照してください。
 
-Web キャンペーンは&#x200B;**[!UICONTROL ライブ]**&#x200B;[ステータス](../campaigns/manage-campaigns.md#statuses)になり、選択したオーディエンスに対して表示されるようになりました。 キャンペーンの各受信者は、web サイトに追加した変更を表示できます。
+Web キャンペーンは&#x200B;**[!UICONTROL ライブ]**[ステータス](../campaigns/manage-campaigns.md#statuses)になり、選択したオーディエンスに対して表示されるようになりました。 キャンペーンの各受信者は、web サイトに追加した変更を表示できます。
 
 >[!NOTE]
 >
@@ -293,4 +282,4 @@ Web ジャーニーまたはキャンペーンが公開されている場合、�
 
 以下のビデオでは、web キャンペーンの作成、プロパティの設定、レビュー、公開の方法を確認できます。
 
->[!VIDEO](https://video.tv.adobe.com/v/3449982/?captions=jpn&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3418800/?quality=12&learn=on)

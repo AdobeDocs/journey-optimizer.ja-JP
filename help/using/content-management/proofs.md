@@ -6,12 +6,11 @@ role: User
 level: Beginner
 exl-id: e742c04e-2987-4466-84af-bdaf4d714552
 feature_v2: []
-subfeature_v2:
-  - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+subfeature_v2: id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 464
-ht-degree: 98%
+source-wordcount: 479
+ht-degree: 89%
 
 ---
 
@@ -19,9 +18,10 @@ ht-degree: 98%
 
 配達確認は、メッセージをメインオーディエンスに送信する前にテストできる、特定のメッセージです。 配達確認の受信者は、メッセージのレンダリング、コンテンツ、パーソナライゼーションの設定、構成などを確認します。
 
->[!NOTE]
->
->また、[!DNL Journey Optimizer] を使用すると、CSV／JSON ファイルからアップロードした、または手動で追加したサンプル入力データを使用してコンテンツをプレビューし、本配信前確認を送信することで、コンテンツの様々なバリアントをテストできます。 [コンテンツバリエーションのシミュレート方法を学ぶ](../test-approve/simulate-sample-input.md)
+次のいずれかのシミュレーション方法を使用してプルーフを送信できます。
+
+* 「**[!UICONTROL コンテンツをシミュレート]**」をクリックし、ドロップダウンから「**[!UICONTROL コンテンツをシミュレート（AEP プロファイル）]**」を選択して、テストプロファイルでプルーフを送信します。
+* 「**[!UICONTROL コンテンツをシミュレート]**」をクリックして、サンプル入力データまたはAIによる自動生成で作成されたコンテンツのバリエーションのプルーフを送信します。 [コンテンツバリエーションのシミュレート方法を学ぶ](../test-approve/simulate-sample-input.md#proofs)
 
 ## 必読 {#must-read}
 

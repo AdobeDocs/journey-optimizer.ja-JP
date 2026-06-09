@@ -10,26 +10,16 @@ level: Beginner
 keywords: ランディング, ランディングページ, 作成, ページ, フォーム, コンポーネント
 exl-id: 5bf023b4-4218-4110-b171-3e70e0507fca
 TQID: https://experienceleague.adobe.com/F-E8Fy-EYYhS-PqrpQJZKO4MUKfJBTWX9V0DpUyudXU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b19d9237-76be-466d-a869-aacf2d72205f
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b19d9237-76be-466d-a869-aacf2d72205fid: d595a60b-bcf5-4a63-a189-66a0be755cc7id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1633
-ht-degree: 84%
+source-wordcount: 1630
+ht-degree: 82%
 
 ---
 
@@ -45,9 +35,9 @@ ht-degree: 84%
 
 ユーザーが選択肢を選択して送信できる特定のコンテンツをデザインするには、**フォームコンポーネント**&#x200B;を使用します。
 
-* オプトイン、オプトアウト、サブスクリプションのシナリオについては、[組み込みのフォームコンポーネント &#x200B;](#use-form-component)を使用し、[&#x200B; ランディングページ固有のスタイル &#x200B;](#lp-form-styles)を定義します。
+* オプトイン、オプトアウト、サブスクリプションのシナリオについては、[組み込みのフォームコンポーネント ](#use-form-component)を使用し、[ ランディングページ固有のスタイル ](#lp-form-styles)を定義します。
 
-* ユーザーが特定のフォームを通じてデータを送信できるようにするには（例えば、[!DNL Experience Platform] データセットをエンリッチするには）、[公開されたフォーム &#x200B;](#embed-form)を&#x200B;**[!UICONTROL データキャプチャ]** ランディングページに埋め込みます。 [&#x200B; フォームの作成について詳しく見る](lp-forms.md)
+* ユーザーが特定のフォームを通じてデータを送信できるようにするには（例えば、[!DNL Experience Platform] データセットをエンリッチするには）、[公開されたフォーム ](#embed-form)を&#x200B;**[!UICONTROL データキャプチャ]** ランディングページに埋め込みます。 [ フォームの作成について詳しく見る](lp-forms.md)
 
 >[!NOTE]
 >
@@ -177,7 +167,7 @@ ht-degree: 84%
 
    ![](assets/lp_designer-form-style-buttons.png)
 
-   マウスポインターを置いたときにボタンのラベルの色などの設定の一部をプレビューするには、「**[!UICONTROL コンテンツをシミュレート]**」ボタンを使用します。 ランディングページのテストについて詳しくは、[こちら](create-lp.md#test-landing-page)を参照してください。
+   いずれかのシミュレーション方法を使用して、カーソルを合わせると、ボタンのラベルの色などの一部の設定をプレビューできます。 [ ランディングページのテストについて詳しく見る](create-lp.md#test-landing-page)
 
    <!--![](assets/lp_designer-form-style-buttons-preview.png)-->
 
@@ -191,7 +181,7 @@ ht-degree: 84%
 
 ## フォームの埋め込み（データキャプチャ） {#embed-form}
 
-[Data Capture](get-started-lp.md#data-capture-lp) タイプで作成されたランディングページの場合、作成した[公開フォーム &#x200B;](lp-forms.md)を埋め込むことができます。 送信は、フォームプリセットで設定されたストリーミング接続とデータセットに送信されます。
+[Data Capture](get-started-lp.md#data-capture-lp) タイプで作成されたランディングページの場合、作成した[公開フォーム ](lp-forms.md)を埋め込むことができます。 送信は、フォームプリセットで設定されたストリーミング接続とデータセットに送信されます。
 
 ランディングページコンテンツデザイナーで、次の手順に従います。
 
@@ -207,17 +197,17 @@ ht-degree: 84%
 
    >[!NOTE]
    >
-   >フォームのコンテンツまたはサンキューページの動作を変更する必要がある場合は、**[!UICONTROL フォームを編集]**&#x200B;してください。フォームは新しいタブで開きます。 [&#x200B; フォームの編集について詳しく見る](lp-forms.md#edit-form)
+   >フォームのコンテンツまたはサンキューページの動作を変更する必要がある場合は、**[!UICONTROL フォームを編集]**&#x200B;してください。フォームは新しいタブで開きます。 [ フォームの編集について詳しく見る](lp-forms.md#edit-form)
 
 1. 「**[!UICONTROL フォローアップタイプ]**」セクションで、送信後の処理を定義します。
 
    * **[!UICONTROL Form defined]** – 埋め込みフォームで設定された「ありがとうございます」ページアクションを使用します。 [詳細情報](lp-forms.md#thank-you-page)
-   * **公開されたランディングページ** – 別の公開された[&#x200B; ランディングページ &#x200B;](create-lp.md)にリダイレクトします。
+   * **公開されたランディングページ** – 別の公開された[ ランディングページ ](create-lp.md)にリダイレクトします。
    * **外部URL** – 完全なURLにリダイレクトします。
 
 1. 編集が完了したら、ランディングページのコンテンツを保存します。
 
-完全なワークフロー（ランディングページの作成、テスト、公開）については、[&#x200B; ランディングページでのフォームの活用](lp-forms.md#leverage-form-in-lp)を参照してください。
+完全なワークフロー（ランディングページの作成、テスト、公開）については、[ ランディングページでのフォームの活用](lp-forms.md#leverage-form-in-lp)を参照してください。
 
 >[!NOTE]
 >
@@ -233,7 +223,7 @@ ht-degree: 84%
 
 これを行うには、以下の手順に従います。
 
-1. プライマリページで、**[!UICONTROL フォーム]**&#x200B;コンポーネントの各チェックボックスを関連するサブスクリプションリストにリンクさせます。 [詳細情報](#use-form-component)。
+1. プライマリページで、**[!UICONTROL フォーム]**&#x200B;コンポーネントの各チェックボックスを関連するサブスクリプションリストにリンクさせます。 [学習を増やす](#use-form-component)。
 
    ![](assets/lp_designer-form-luma-newsletter.png)
 

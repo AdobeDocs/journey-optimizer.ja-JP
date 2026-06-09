@@ -9,22 +9,15 @@ role: User
 level: Beginner
 exl-id: 31acb095-de90-495f-8e8c-43a78dedfa06
 TQID: https://experienceleague.adobe.com/u2OevVu38fPdytpuTmHeSdEx3Wvpih7ifk-j88rhDFI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: b8df23d2-98a2-4406-86cc-2babe8728d36
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 07322bd265647528f8e2e4a5f39d7806fd03b565
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: b8df23d2-98a2-4406-86cc-2babe8728d36
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 420
-ht-degree: 58%
+source-wordcount: 414
+ht-degree: 45%
 
 ---
 
@@ -32,9 +25,10 @@ ht-degree: 58%
 
 ## WhatsApp メッセージのプレビュー {#preview-whatsapp}
 
-メッセージコンテンツを定義したら、CSV／JSON ファイルからアップロードした、または手動で追加したテストプロファイルやサンプル入力データを使用して、そのコンテンツをプレビューできます。 パーソナライズされたコンテンツを挿入した場合は、そのコンテンツがメッセージ内でどのように表示されるかを確認できます。
+メッセージコンテンツを定義したら、次のいずれかのシミュレーション方法を使用してコンテンツをプレビューできます。
 
-これを行うには、「**[!UICONTROL コンテンツをシミュレート]**」をクリックし、テストプロファイルデータを使用してメッセージを確認します。
+* 「**[!UICONTROL コンテンツをシミュレート]**」をクリックして、サンプル入力データまたはAI自動生成を使用してコンテンツのバリエーションをテストします。 [コンテンツバリエーションのシミュレート方法を学ぶ](../test-approve/simulate-sample-input.md)
+* 「**[!UICONTROL コンテンツをシミュレート]**」をクリックし、ドロップダウンから「**[!UICONTROL コンテンツをシミュレート（AEP プロファイル）]**」を選択して、テストプロファイルでプレビューします。
 
 コンテンツをプレビューおよびテストする方法について詳しくは、[コンテンツ管理](../content-management/preview-test.md)の節を参照してください。
 
@@ -56,7 +50,7 @@ WhatsApp メッセージの準備が整ったら、[ジャーニー](../building
 
 ## WhatsApp インタラクションの分析 {#whatsapp-channel-context}
 
-Journey Optimizerは、WhatsApp チャネルから返された追加のインタラクションデータを取得し、`whatsAppChannelContext` フィールドグループの&#x200B;**AJO - メールトラッキングエクスペリエンスイベントデータセット**&#x200B;に保存します。 これらのフィールドを使用して、[&#x200B; オーディエンス &#x200B;](../audience/about-audiences.md)を作成し、[&#x200B; クエリ &#x200B;](../data/get-started-queries.md)を実行し、WhatsApp エンゲージメントを分析します。 [&#x200B; システムデータセットの詳細](../data/get-started-datasets.md#system-datasets)。
+Journey Optimizerは、WhatsApp チャネルから返された追加のインタラクションデータを取得し、`whatsAppChannelContext` フィールドグループの&#x200B;**AJO - メールトラッキングエクスペリエンスイベントデータセット**&#x200B;に保存します。 これらのフィールドを使用して、[ オーディエンス ](../audience/about-audiences.md)を作成し、[ クエリ ](../data/get-started-queries.md)を実行し、WhatsApp エンゲージメントを分析します。 [ システムデータセットの詳細](../data/get-started-datasets.md#system-datasets)。
 
 次のフィールドがキャプチャされます。
 
@@ -77,4 +71,4 @@ Journey Optimizerは、WhatsApp チャネルから返された追加のインタ
 | `interactiveSelectedDescription` | 選択したWhatsApp インタラクティブオプションの説明。 |
 | `interactiveSelectedID` | WhatsAppから選択したオプションのID。 |
 
-このデータセットをクエリするには、クエリサービスの`ajo_email_tracking_experience_event_dataset` テーブルを使用します。 クエリパターンと関連するユースケースについては、[&#x200B; データセットのクエリ例](../data/datasets-query-examples.md)を参照してください。
+このデータセットをクエリするには、クエリサービスの`ajo_email_tracking_experience_event_dataset` テーブルを使用します。 クエリパターンと関連するユースケースについては、[ データセットのクエリ例](../data/datasets-query-examples.md)を参照してください。

@@ -10,25 +10,15 @@ level: Experienced
 keywords: 設定, メール, 設定, サブドメイン
 exl-id: 1e004a76-5d6d-43a1-b198-5c9b41f5332c
 TQID: https://experienceleague.adobe.com/NcnCL11koNfpNF-RDrVPyBsBgMuvpfSNlUcAfwOeGBg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fae48155-b23f-40d2-a252-a25bce350b4d
-  - id: c41e8697-e629-4c38-96b3-564faaa17acf
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fae48155-b23f-40d2-a252-a25bce350b4did: c41e8697-e629-4c38-96b3-564faaa17acf
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1214
-ht-degree: 95%
+source-wordcount: 1191
+ht-degree: 89%
 
 ---
 
@@ -109,7 +99,7 @@ ht-degree: 95%
 >[!NOTE]
 >
 >* **[!UICONTROL エラー電子メール プレフィックス]** フィールドを除き、すべての&#x200B;**[!UICONTROL ヘッダーパラメーター]**&#x200B;およびオプションの&#x200B;**[!UICONTROL 送信者ヘッダー]** フィールドをパーソナライズできます。
->* メール設定を[編集する場合](../configuration/channel-surfaces.md#edit-channel-surface)、ヘッダーパラメーターに新しい[&#x200B; プロファイル属性](../personalization/personalization-build-expressions.md#sources)を追加できません。代わりに新しいチャネル設定を作成する必要があります。
+>* メール設定を[編集する場合](../configuration/channel-surfaces.md#edit-channel-surface)、ヘッダーパラメーターに新しい[ プロファイル属性](../personalization/personalization-build-expressions.md#sources)を追加できません。代わりに新しいチャネル設定を作成する必要があります。
 
 例えば、ブランドが複数ある場合は、単一の設定を作成し、メールヘッダーにパーソナライズされた値を使用できます。 これにより、様々なブランドから送信されるすべてのメールが、正しい&#x200B;**送信元**&#x200B;の名前とメールアドレスを使用して、各顧客に送信されるようになります。 同様に、受信者がメールクライアントソフトウェアの「**返信**」ボタンを押した際、**返信先**&#x200B;の名前とメールアドレスが、適切なユーザーの正しいブランドに対応するようにする必要があります。
 
@@ -181,15 +171,12 @@ ht-degree: 95%
 
 ## 設定を確認 {#check-configuration}
 
-キャンペーンやジャーニーでパーソナライズされた設定を使用する際に、テストプロファイルを使用してメールコンテンツをプレビューし、定義した動的設定で潜在的なエラーを確認できます。 次の手順に従います。
+キャンペーンまたはジャーニーでパーソナライズされた設定を使用する場合、定義した動的設定で潜在的なエラーを確認するためにメールコンテンツをプレビューできます。 どちらのシミュレーションメソッドも使用できます。
 
->[!NOTE]
->
->テストプロファイルに加えて、[!DNL Journey optimizer] を使用すると、CSV／JSON ファイルからアップロードした、または手動で追加したサンプル入力データを使用してコンテンツをプレビューし、本配信前確認を送信することで、コンテンツの様々なバリアントをテストできます。 [コンテンツバリエーションのシミュレート方法を学ぶ](../test-approve/simulate-sample-input.md)
+* 「**[!UICONTROL コンテンツをシミュレート]**」をクリックして、サンプル入力データまたはAI自動生成を使用してコンテンツのバリエーションをテストします。 [コンテンツバリエーションのシミュレート方法を学ぶ](../test-approve/simulate-sample-input.md)
+* 「**[!UICONTROL コンテンツをシミュレート]**」をクリックし、ドロップダウンから「**[!UICONTROL コンテンツをシミュレート（AEP プロファイル）]**」を選択して、テストプロファイルでプレビューします。
 
 テストプロファイルを使用してコンテンツをプレビューするには、次の手順に従います。
-
-1. メッセージのコンテンツを編集画面または E メールデザイナーで、「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックします。 [詳細情報](../content-management/preview.md)
 
 1. [テストプロファイル](../content-management/test-profiles.md)を選択します。
 

@@ -9,27 +9,16 @@ role: User
 level: Beginner
 exl-id: 31c9b080-e334-4a11-af33-4c6f115c70a4
 TQID: https://experienceleague.adobe.com/JPjBxyZzo13tgSLo0dqd5bFOwn9C6MHkA-DjLzlAdEI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: c41e8697-e629-4c38-96b3-564faaa17acf
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: c41e8697-e629-4c38-96b3-564faaa17acfid: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 537
-ht-degree: 63%
+source-wordcount: 534
+ht-degree: 54%
 
 ---
 
@@ -37,9 +26,10 @@ ht-degree: 63%
 
 ## モバイルメッセージのプレビュー {#preview-sms}
 
-メッセージコンテンツを定義したら、（CSV／JSON ファイルからアップロードした、または手動で追加した）テストプロファイルやサンプル入力データを使用して、そのコンテンツをプレビューできます。 パーソナライズされたコンテンツを挿入した場合は、そのコンテンツがメッセージ内でどのように表示されるかを確認できます。
+メッセージコンテンツを定義したら、次のいずれかのシミュレーション方法を使用してコンテンツをプレビューできます。
 
-これを行うには、「**[!UICONTROL コンテンツをシミュレート]**」をクリックし、テストプロファイルデータを使用してメッセージを確認します。
+* 「**[!UICONTROL コンテンツをシミュレート]**」をクリックして、サンプル入力データまたはAI自動生成を使用してコンテンツのバリエーションをテストします。 [コンテンツバリエーションのシミュレート方法を学ぶ](../test-approve/simulate-sample-input.md)
+* 「**[!UICONTROL コンテンツをシミュレート]**」をクリックし、ドロップダウンから「**[!UICONTROL コンテンツをシミュレート（AEP プロファイル）]**」を選択して、テストプロファイルでプレビューします。
 
 ![](assets/sms_preview_2.png)
 
@@ -47,7 +37,7 @@ ht-degree: 63%
 
 ### 文字のエンコーディングと制限 {#sms-character-limits}
 
-モバイルメッセージの計画と管理を支援する「**[!UICONTROL コンテンツをシミュレート]**」メニューにアクセスすると、文字数が表示されます。
+モバイルメッセージの計画と管理を支援するために、**[!UICONTROL コンテンツをシミュレート]**&#x200B;からいずれかのシミュレーションメソッドにアクセスすると、文字数が表示されます。
 
 ![](assets/sms_preview_3.png)
 
@@ -87,7 +77,7 @@ Journey Optimizer は、 SMS エディターで UTF-8 エンコーディング�
 >
 > キャンペーンが承認ポリシーの対象となる場合、モバイルメッセージを送信するには、承認をリクエストする必要があります。 [詳細情報](../test-approve/gs-approval.md)
 
-モバイルメッセージの準備ができたら、[&#x200B; ジャーニー](../building-journeys/journey-gs.md)または[&#x200B; キャンペーン &#x200B;](../campaigns/create-campaign.md)の設定を完了して送信します。
+モバイルメッセージの準備ができたら、[ ジャーニー](../building-journeys/journey-gs.md)または[ キャンペーン ](../campaigns/create-campaign.md)の設定を完了して送信します。
 
 **関連トピック**
 

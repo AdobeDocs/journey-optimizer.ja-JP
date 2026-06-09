@@ -7,21 +7,15 @@ role: User
 level: Experienced
 exl-id: 9a1c148c-a6c3-406b-8f2e-1cf8b8239e75
 TQID: https://experienceleague.adobe.com/UnVcc0yZOYfzUlY6HB54YTb-CcCQ4GbGtBXGueCnjZ4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-  - id: a984631b-2bae-4860-9b15-69c41a799dcb
-subfeature_v2:
-  - id: f88eedcc-cf3e-46b8-9e94-0293589325f3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: a984631b-2bae-4860-9b15-69c41a799dcb
+subfeature_v2: id: f88eedcc-cf3e-46b8-9e94-0293589325f3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 833
-ht-degree: 87%
+source-wordcount: 877
+ht-degree: 82%
 
 ---
 
@@ -40,9 +34,14 @@ ht-degree: 87%
 >
 >どのオファーが配信されるかをシミュレートするには、使用可能なテストプロファイルがある必要があります。 詳細は、[テストプロファイルを作成](../audience/creating-test-profiles.md)する方法を参照してください。
 
-1. ジャーニーまたはキャンペーンのパーソナライゼーションエディターまたはコンテンツ編集画面で、「**[!UICONTROL コンテンツをシミュレート]**」を選択します。
+ジャーニーまたはキャンペーンの編集画面またはパーソナライゼーションエディターから、次のいずれかのシミュレーション方法を使用します。
 
-   ![](assets/code-based-campaign-simulate.png)
+* 「**[!UICONTROL コンテンツをシミュレート]**」をクリックして、サンプル入力データまたはAI自動生成を使用してコンテンツのバリエーションをテストします。 [コンテンツバリエーションのシミュレート方法を学ぶ](../test-approve/simulate-sample-input.md)
+* 「**[!UICONTROL コンテンツをシミュレート]**」をクリックし、ドロップダウンから「**[!UICONTROL コンテンツをシミュレート（AEP プロファイル）]**」を選択して、テストプロファイルでプレビューします。
+
+![](assets/code-based-campaign-simulate.png)
+
+**テストプロファイル**&#x200B;でプレビューするには、次の手順に従います。
 
 1. 「**[!UICONTROL テストプロファイルを管理]**」をクリックして、1 つ以上のテストプロファイルを選択します。
 

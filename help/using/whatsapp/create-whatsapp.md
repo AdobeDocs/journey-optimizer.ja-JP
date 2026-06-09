@@ -9,24 +9,16 @@ role: User
 level: Beginner
 exl-id: cac6f675-59e0-431d-8c20-f24ef16d7bf2
 TQID: https://experienceleague.adobe.com/fio2Etyk9FdkyTiHwRMkadrJ4bbsFz7--KvzQvUQrbc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b8df23d2-98a2-4406-86cc-2babe8728d36
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b8df23d2-98a2-4406-86cc-2babe8728d36
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1036
-ht-degree: 81%
+source-wordcount: 1034
+ht-degree: 80%
 
 ---
 
@@ -86,7 +78,7 @@ WhatsApp メッセージでは、次のcall-to-action オプションを使用�
 
 1. 「**[!UICONTROL ビジネスルール]**」セクションでは、WhatsApp メッセージに対するコミュニケーションのプレッシャーを制御するためのルールセットを適用できます。
 
-   [&#x200B; ルールセット &#x200B;](../conflict-prioritization/rule-sets.md)、[&#x200B; チャネルの使用頻度の上限](../conflict-prioritization/channel-capping.md)、[&#x200B; サイレントアワー](../conflict-prioritization/quiet-hours.md)の詳細をご覧ください。
+   [ ルールセット ](../conflict-prioritization/rule-sets.md)、[ チャネルの使用頻度の上限](../conflict-prioritization/channel-capping.md)、[ サイレントアワー](../conflict-prioritization/quiet-hours.md)の詳細をご覧ください。
 
 これで、以下に説明するように、「**[!UICONTROL コンテンツを編集]**」ボタンから WhatsApp メッセージのコンテンツのデザインを開始できます。
 
@@ -100,7 +92,7 @@ WhatsApp メッセージでは、次のcall-to-action オプションを使用�
 
 1. 「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックして、使用可能な Adobe Experience Platform オーディエンスのリストからターゲットオーディエンスを定義します。 [学習を増やす](../audience/about-audiences.md)。
 
-1. 「**[!UICONTROL ID 名前空間]**」フィールドで、選択したオーディエンスから個人を識別するために使用する名前空間を選択します。 [詳細情報](../event/about-creating.md#select-the-namespace)
+1. 「**[!UICONTROL ID 名前空間]**」フィールドで、選択したオーディエンスから個人を識別するために使用する名前空間を選択します。 [学習を増やす](../event/about-creating.md#select-the-namespace)。
 
 1. 「**[!UICONTROL アクション]**」セクションで、「**[!UICONTROL WhatsApp]**」を選択し、新しい設定を選択または作成します。
 
@@ -169,7 +161,7 @@ WhatsApp テンプレートは、Journey Optimizer で使用する前に、ま�
 
    ![](assets/whatsapp-design-4.png)
 
-1. 「**[!UICONTROL コンテンツをシミュレート]**」ボタンを使用して、WhatsApp メッセージコンテンツ、短縮 URL、パーソナライズされたコンテンツをプレビューします。 [詳細情報](send-whatsapp.md)
+1. **[!UICONTROL コンテンツをシミュレート]**&#x200B;して、WhatsApp メッセージのコンテンツ、短縮URL、パーソナライズされたコンテンツをプレビューします。 [詳細情報](send-whatsapp.md)
 
 テストを実行してコンテンツを検証したら、オーディエンスに [WhatsApp メッセージを送信](send-whatsapp.md)し、[レポート](../reports/campaign-global-report-cja.md)を通じてパフォーマンスを監視できます。 Experience Platformに保存されているWhatsApp インタラクションデータについては、[WhatsApp インタラクションの分析](send-whatsapp.md#whatsapp-channel-context)を参照してください。
 
@@ -192,7 +184,7 @@ WhatsApp テンプレートは、Journey Optimizer で使用する前に、ま�
 
 1. Use the personalization editor to define content, add personalization and dynamic content. You can use any attribute, such as the profile name or city for example. You can also define conditional rules. Browse to the following pages to learn more about [personalization](../personalization/personalize.md) and [dynamic content](../personalization/get-started-dynamic-content.md) in the personalization editor.
 
-1. Use the **[!UICONTROL Simulate content]** button to preview your WhatsApp message content, shortened URLs, and personalized content. [Learn more](send-whatsapp.md)
+1. Use **[!UICONTROL Simulate content]** to preview your WhatsApp message content, shortened URLs, and personalized content. [Learn more](send-whatsapp.md)
 
 Once you have performed your tests and validated the content, you can send your WhatsApp message to your audience. These steps are detailed on [this page](send-whatsapp.md)
 
@@ -206,7 +198,7 @@ Once you have performed your tests and validated the content, you can send your 
 
 1. Use the personalization editor to define content, add personalization and dynamic content. You can use any attribute, such as the profile name or city for example. You can also define conditional rules. Browse to the following pages to learn more about [personalization](../personalization/personalize.md) and [dynamic content](../personalization/get-started-dynamic-content.md) in the personalization editor.
 
-1. Use the **[!UICONTROL Simulate content]** button to preview your WhatsApp message content, shortened URLs, and personalized content. [Learn more](send-whatsapp.md)
+1. Use **[!UICONTROL Simulate content]** to preview your WhatsApp message content, shortened URLs, and personalized content. [Learn more](send-whatsapp.md)
 
 Once you have performed your tests and validated the content, you can send your WhatsApp message to your audience. These steps are detailed on [this page](send-whatsapp.md)
 
@@ -220,6 +212,6 @@ Once you have performed your tests and validated the content, you can send your 
 
 +++ こちらのビデオをご覧ください
 
->[!VIDEO](https://video.tv.adobe.com/v/3470283/?captions=jpn&learn=on")
+>[!VIDEO](https://video.tv.adobe.com/v/3470282/?learn=on")
 
 +++

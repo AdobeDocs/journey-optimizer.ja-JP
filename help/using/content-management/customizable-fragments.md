@@ -9,26 +9,16 @@ role: User
 level: Beginner, Intermediate
 exl-id: cd47ca1d-f707-4425-b865-14f3fbbe5fd1
 TQID: https://experienceleague.adobe.com/cwg-nGPftYg6UgVSKXZPdW6DZr4-m5UM5Wqzfx3w028
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c6e980f5-2d4f-494f-beef-186b9ecf1513
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0d5bd22d50b503737428e63285eb0e04e20c5c76
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c6e980f5-2d4f-494f-beef-186b9ecf1513id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1703
-ht-degree: 88%
+source-wordcount: 1735
+ht-degree: 86%
 
 ---
 
@@ -221,7 +211,7 @@ HTML コンポーネントを使用すると、改行、太字、斜体などの
 
    ![](assets/fragment-use-rich-editable-fields.png)
 
-1. 「**[!UICONTROL コンテンツをシミュレート]**」をクリックして、編集可能なコンテンツとスタイルのレンダリング方法を確認できます。 [コンテンツのプレビューの詳細情報](preview-test.md)
+1. シミュレーション方法を使用して、編集可能なコンテンツとスタイル設定のレンダリング方法を確認します。「**[!UICONTROL コンテンツをシミュレート]**」をクリックしてサンプル入力データまたはAI自動生成を使用してコンテンツのバリエーションをテストするか、「**[!UICONTROL コンテンツをシミュレート]**」をクリックし、ドロップダウンから「**[!UICONTROL コンテンツをシミュレート（AEP プロファイル）]**」を選択して、テストプロファイルでプレビューします。 [コンテンツのプレビューの詳細情報](preview-test.md)
 
 1. 編集可能なフィールドの横にある&#x200B;**[!UICONTROL パーソナライゼーションを追加]**&#x200B;アイコンを選択します。
 
@@ -234,5 +224,5 @@ HTML コンポーネントを使用すると、改行、太字、斜体などの
 
 This video shows how to make HTML components within a fragment editable, allowing for dynamic updates to both content and styling.
 
->[!VIDEO](https://video.tv.adobe.com/v/3464369/?captions=jpn&learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464363/?learn=on&#x26;enablevpops)
 -->

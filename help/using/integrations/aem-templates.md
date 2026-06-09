@@ -11,23 +11,16 @@ level: Beginner
 badge: label="ベータ版" type="Informative"
 exl-id: e4935129-c1cb-41b1-b84d-cd419053c303
 TQID: https://experienceleague.adobe.com/VniMggDTid9M3NPQakAMWLIeAXT8hlHolGknjeb91Dg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 774
-ht-degree: 100%
+source-wordcount: 795
+ht-degree: 91%
 
 ---
 
@@ -39,8 +32,8 @@ Adobe Journey Optimizer を使用すると、Adobe Experience Manager サイト�
 
 >[!AVAILABILITY]
 >
->現在、Adobe Experience Manager との統合は、一部のユーザーのみがベータ版として利用できます。
->ベータ版のユーザーは、[このフォーム](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"}を使用してフィードバックを共有します。
+>Adobe Experience Managerとの統合は現在、一部のユーザーのみがベータ版として利用できます。
+> ベータ版ユーザーは、[このフォーム ](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"}を使用してフィードバックを共有してください。
 
 
 ### 前提条件 {#prerequisites}
@@ -123,7 +116,7 @@ Journey Optimizer で Experience Manager テンプレートをコンテンツテ
 
    ![](assets/aem_ajo_5.png)
 
-1. パーソナライズしたコンテンツを Experience Manager のテンプレートに追加した場合は、「**[!UICONTROL コンテンツをシミュレート]**」をクリックし、テストプロファイルを使用して、メッセージでの表示をプレビューします。
+1. Experience Manager テンプレートにパーソナライズされたコンテンツを追加した場合は、「**[!UICONTROL コンテンツをシミュレート]**」をクリックしてサンプル入力データまたはAI自動生成を使用してコンテンツのバリエーションをテストするか、「**[!UICONTROL コンテンツをシミュレート]**」をクリックしてから、ドロップダウンから「**[!UICONTROL コンテンツをシミュレート（AEP プロファイル）]**」を選択して、テストプロファイルでプレビューします。
 
    [詳しくは、プレビューとテストプロファイルを参照してください](../content-management/preview-test.md)
 

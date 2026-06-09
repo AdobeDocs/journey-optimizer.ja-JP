@@ -10,15 +10,12 @@ level: Beginner
 mini-toc-levels: 1
 keywords: 作成, Optimizer, キャンペーン, サーフェス, メッセージ
 exl-id: bcb7a5e4-440d-4548-b305-c320bafe6ee7
-feature_v2:
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-subfeature_v2:
-  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
-  - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: a653cc2e-bc85-4353-a306-399e5b247978
+subfeature_v2: id: f7479fa1-474b-479d-8c98-f6cee5865a38id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 170
-ht-degree: 100%
+source-wordcount: 192
+ht-degree: 68%
 
 ---
 
@@ -65,7 +62,12 @@ ht-degree: 100%
 
 ## コンテンツのテストとチェック
 
-コンテンツを定義したら、「**[!UICONTROL コンテンツをシミュレート]**」ボタンを使用して、CSV／JSON ファイルからアップロードした、または手動で追加したテストプロファイルやサンプル入力データを使用して、そのコンテンツをプレビューおよびテストします。 [詳しくは、コンテンツのプレビューとテストの方法を参照してください](../content-management/preview-test.md)。
+コンテンツを定義したら、「**[!UICONTROL コンテンツをシミュレート]**」ボタンを使用して、コンテンツをプレビューおよびテストします。 どちらのシミュレーションメソッドも使用できます。
+
+* 「**[!UICONTROL コンテンツをシミュレート]**」をクリックして、サンプル入力データまたはAI自動生成を使用してコンテンツのバリエーションをテストします。
+* 「**[!UICONTROL コンテンツをシミュレート]**」をクリックし、ドロップダウンから「**[!UICONTROL コンテンツをシミュレート（AEP プロファイル）]**」を選択して、テストプロファイルでプレビューします。
+
+[コンテンツをプレビューしてテストする方法を学ぶ](../content-management/preview-test.md)
 
 キャンペーン作成画面に戻るには、左向き矢印をクリックします。
 

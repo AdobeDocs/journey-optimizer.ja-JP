@@ -5,10 +5,10 @@ title: コンテンツのプレビューとテスト
 description: ローンチ前にメッセージの精度を検証します。 テストプロファイルを使用してパーソナライズされたコンテンツをプレビューし、関係者に本配信前確認を送信し、クライアント間でのメールのレンダリングを確認し、スパムスコアを評価し、複数のコンテンツバリエーションを効率的にテストします。
 redpen-status: CREATED_||_2025-08-11_20-30-05
 exl-id: bd78e0af-573b-4880-a9f1-44467c9db159
-source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 89%
+source-wordcount: '704'
+ht-degree: 83%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 89%
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 コンテンツのプレビューとテストの方法
 
@@ -38,7 +38,7 @@ ht-degree: 89%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 テストプロファイルの選択方法
 
@@ -48,7 +48,7 @@ ht-degree: 89%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 テストプロファイルを使用したコンテンツのプレビュー
 
@@ -58,7 +58,7 @@ ht-degree: 89%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 テストプロファイルデータを使用した本配信前確認の送信
 
@@ -68,7 +68,7 @@ ht-degree: 89%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/eye.svg)
 
 Litmus を使用したメールのレンダリングのテスト方法
 
@@ -78,11 +78,11 @@ Litmus を統合して、一般的なメールクライアント全体のメー�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 コンテンツバリエーションのシミュレートとテストの方法
 
-サンプル入力データを使用してコンテンツのバリエーションをシミュレートし、パーソナライズされたコンテンツをテストして正確性を確保します。
+サンプル入力データやAIが生成したバリエーションを使用して、コンテンツのバリエーションをシミュレートし、パーソナライズされたコンテンツをテストして、正確性を確保できます。
 
 [コンテンツバリエーションのシミュレート](../using/test-approve/simulate-sample-input.md)
 :::
@@ -123,13 +123,13 @@ Litmus を統合して、一般的なメールクライアント全体のメー�
 **コンテキスト：**&#x200B;一般的なユースケースでテストツールを適用する方法を示す実際の例。
 
 **シナリオ 1：マルチセグメントキャンペーン用のパーソナライズされたメールのテスト**
-→ [&#x200B; サンプル入力データ &#x200B;](../using/test-approve/simulate-sample-input.md)を使用して、個々のテストプロファイルを作成せずに20～30のバリエーションをテストします。 様々な顧客属性を含む CSV をアップロードし、すべてを一度にプレビューします。
+→ [ サンプル入力データ ](../using/test-approve/simulate-sample-input.md)を使用して、個々のテストプロファイルを作成することなく、最大30のバリエーションをテストできます。 顧客属性を変更したCSVをアップロードすることも、値を手動で追加することも、AIを活用してバリエーションを自動生成し、一度にプレビューすることもできます。
 
 **シナリオ 2: メジャーセンドの前にメールのレンダリングを検証しています**
-→ [Litmus テスト &#x200B;](../using/content-management/rendering.md)を実行して、上位のメールクライアントの表示を確認し、[&#x200B; スパムレポート &#x200B;](../using/content-management/spam-report.md)を確認して、受信トレイの配置を確認します。
+→ [Litmus テスト ](../using/content-management/rendering.md)を実行して、上位のメールクライアントの表示を確認し、[ スパムレポート ](../using/content-management/spam-report.md)を確認して、受信トレイの配置を確認します。
 
 **シナリオ 3：関係者の承認を取得する**
-→ [&#x200B; テストプロファイルデータを使用して社内レビュー担当者にプルーフ &#x200B;](../using/content-management/proofs.md)を送信し、顧客が受け取る内容を正確に確認します。
+→ [ テストプロファイルデータを使用して社内レビュー担当者にプルーフ ](../using/content-management/proofs.md)を送信し、顧客が受け取る内容を正確に確認します。
 
 ## 重要な留意点
 
@@ -142,4 +142,4 @@ Litmus を統合して、一般的なメールクライアント全体のメー�
 
 - **[メールスパムレポートを使用する方法](../using/content-management/spam-report.md)** - スパムレポート機能を使用して、メールコンテンツのスパムスコアを評価し、配信品質を向上させます。
 
-**関連トピック：**&#x200B;[ランディングページのテストと承認](test-landing-page.md) | [承認ワークフロー](approve-landing-page.md) | [テストプロファイルの作成](../using/audience/creating-test-profiles.md)
+**関連トピック：**[ランディングページのテストと承認](test-landing-page.md) | [承認ワークフロー](approve-landing-page.md) | [テストプロファイルの作成](../using/audience/creating-test-profiles.md)

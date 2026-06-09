@@ -10,27 +10,16 @@ level: Beginner
 keywords: コンテンツ, 実験, 複数, オーディエンス, 処理
 exl-id: bd35ae19-8713-4571-80bc-5f40e642d121
 TQID: https://experienceleague.adobe.com/OL-eyOYlWXYV8Wg4gSHXocfPpqUuwgfw-L8fKrAeTzE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: f29a52db-c90c-4345-902e-b586d1406d8d
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: f29a52db-c90c-4345-902e-b586d1406d8did: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1962
-ht-degree: 100%
+source-wordcount: 1991
+ht-degree: 97%
 
 ---
 
@@ -252,7 +241,7 @@ Journey Optimizer のコンテンツ実験を使用すると、複数の配信�
 
    ![](assets/content_experiment_19.png)
 
-1. メッセージコンテンツを定義したら、「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックして配信のレンダリングを制御したり、テストプロファイルでパーソナライズ設定を確認したります。 [詳細情報](../content-management/preview-test.md)
+1. メッセージコンテンツを定義したら、シミュレーション方式を使用して配信のレンダリングを制御し、パーソナライゼーション設定を確認します。「**[!UICONTROL コンテンツをシミュレート]**」をクリックしてサンプル入力データまたはAI自動生成を使用してコンテンツのバリエーションをテストするか、「**[!UICONTROL コンテンツをシミュレート]**」をクリックし、ドロップダウンから「**[!UICONTROL コンテンツをシミュレート（AEP プロファイル）]**」を選択して、テストプロファイルでプレビューします。 [詳細情報](../content-management/preview-test.md)
 
 実験を設定したら、レポートを使用して、問題なく配信できたかどうかを追跡できます。 [詳細情報](../reports/campaign-global-report-cja-experimentation.md)
 
