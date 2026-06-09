@@ -18,10 +18,10 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1114
-ht-degree: 21%
+source-wordcount: 1143
+ht-degree: 20%
 
 ---
 
@@ -175,4 +175,4 @@ ht-degree: 21%
 
    ![](assets/aem-fragment-attribute.png)
 
-1. キャンペーンまたはジャーニーをアクティブ化する前に、**[!UICONTROL コンテンツをシミュレート]**&#x200B;を使用して、特定のテストプロファイルに対してAEM コンテンツフラグメントフィールド値がどのようにレンダリングされるかをプレビューできます。 [&#x200B; コンテンツのシミュレーションの詳細](../content-management/preview-test.md)
+1. キャンペーンまたはジャーニーをアクティブ化する前に、次のいずれかのシミュレーション方法を使用して、AEM コンテンツフラグメントのフィールド値がどのようにレンダリングされるかをプレビューします。「**[!UICONTROL コンテンツをシミュレート]**」をクリックしてサンプル入力データまたはAIの自動生成を使用してコンテンツのバリエーションをテストするか、「**[!UICONTROL コンテンツをシミュレート]**」をクリックし、ドロップダウンから「**[!UICONTROL コンテンツをシミュレート]**」を選択して、特定テストプロファイルのテストプロファイルで使用使用します。 [&#x200B; コンテンツのシミュレーションの詳細](../content-management/preview-test.md)

@@ -18,10 +18,10 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1604
-ht-degree: 43%
+source-wordcount: 1599
+ht-degree: 42%
 
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 43%
 
 また、各アクティビティに直接表示される[視覚的なステータス指標](#activities)を使用して、失敗したアクティビティをすばやく識別することもできます。 トラブルシューティングについて詳しくは、[キャンペーンのログ](#logs-tasks)を開き、エラーとそのコンテキストに関する詳細な情報を参照してください。
 
-キャンバスにチャネルアクティビティを追加した場合は、「**[!UICONTROL コンテンツをシミュレート]**」ボタンを使用して、メッセージのコンテンツをプレビューおよびテストできます。 [&#x200B; チャネルアクティビティの操作方法とコンテンツのシミュレーション方法について説明します](activities/channels.md#simulate-content-test-profiles)。
+キャンバスにチャネルアクティビティを追加した場合は、メッセージのコンテンツをプレビューしてテストできます。 [&#x200B; チャネルアクティビティの操作方法とコンテンツのシミュレーション方法について説明します](activities/channels.md#simulate-content-test-profiles)。
 
 >[!TIP]
 >

@@ -16,10 +16,10 @@ level_v2:
 subfeature_v2:
   - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 984
-ht-degree: 100%
+source-wordcount: 1006
+ht-degree: 96%
 
 ---
 
@@ -140,4 +140,4 @@ ht-degree: 100%
 * **[承認ポリシーの作成](approval-policies.md)** - キャンペーンとジャーニーでレビューワークフローを実施するための承認ポリシーの設定方法について説明します。
 * **[承認のリクエスト](request-approval.md)** - 承認用にコンテンツを送信し、承認ステータスを追跡する方法について説明します。
 * **[リクエストのレビューと承認](review-approve-request.md)** - 承認者として承認リクエストをレビュー、承認または却下する方法について説明します。
-* **[サンプル入力でのシミュレート](simulate-sample-input.md)** - サンプルプロファイルデータを使用してコンテンツをテストおよび検証する方法について説明します。
+* **[コンテンツのバリエーションをシミュレート](simulate-sample-input.md)** - **[!UICONTROL コンテンツをシミュレート]**&#x200B;をクリックして、サンプル入力データ、AI自動生成、またはシミュレートされたユーザーを使用してコンテンツのバリエーションをテストします。 「**[!UICONTROL コンテンツをシミュレート]**」をクリックし、ドロップダウンから「**[!UICONTROL コンテンツをシミュレート（AEP プロファイル）]**」を選択して、テストプロファイルでプレビューします。

@@ -26,10 +26,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1517
-ht-degree: 98%
+source-wordcount: 1553
+ht-degree: 95%
 
 ---
 
@@ -227,11 +227,11 @@ E メールデザイナーのカスタムダークモードのスタイル設定
    >
    >ライブビューは、様々なデバイスサイズをまたいでレンダリングがどのように表示される可能性があるかを比較するのにデザインされた汎用プレビューです。 最終的なレンダリングは、受信者のメールクライアントによって異なる場合があります。
 
-1. ダークモードの変更に満足したら、「**[!UICONTROL コンテンツをシミュレート]**」をクリックします。
+1. ダークモードの変更に問題がなければ、「**[!UICONTROL コンテンツをシミュレート]**」をクリックし、ドロップダウンから「**[!UICONTROL コンテンツをシミュレート（AEP プロファイル）]**」を選択して、メールのレンダリングを確認します。
 
    ![](assets/dark-mode-simulate.png)
 
-1. 「**[!UICONTROL メールをレンダリング]**」を選択し、Litmus アカウントに接続します。 様々なメールクライアントでの最終的なダークモードレンダリングを確認できます。 詳しくは、[メールのレンダリング](../content-management/rendering.md)を参照してください。
+1. 「**[!UICONTROL メールをレンダリング]**」を選択し、Litmus アカウントに接続します。 様々なメールクライアントでの最終的なダークモードレンダリングを確認できます。 詳しくは、[メールのレンダリング](../content-management/rendering.md)を参照してください。 代わりにサンプル入力データまたはAI自動生成を使用してコンテンツのバリエーションをテストするには、**[!UICONTROL コンテンツを直接シミュレーション]**&#x200B;をクリックします。 [コンテンツバリエーションのシミュレート方法を学ぶ](../test-approve/simulate-sample-input.md)
 
    >[!WARNING]
    >

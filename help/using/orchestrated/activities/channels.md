@@ -15,10 +15,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1883
-ht-degree: 58%
+source-wordcount: 1908
+ht-degree: 56%
 
 ---
 
@@ -65,7 +65,7 @@ UNUSED IDs in BJ
 
 [!DNL Adobe Journey Optimizer]を使用すると、マーケティングメッセージとトランザクションメッセージの両方に対して、メール、SMS、プッシュ通知、ダイレクトメールなどのチャネルをまたいでキャンペーンを自動化および実行できます。 これらのチャネルアクティビティをキャンペーンキャンバスに組み合わせて、クロスチャネルのオーケストレーションされたキャンペーンを作成できます。 これらの施策では、顧客の行動やデータにもとづいて行動をトリガーにすることができます。
 
-例：
+次に例を示します。
 
 * 電子メール、SMS、プッシュ通知、ダイレクトメールを通じて、ウェルカムシリーズを送信します。
 * 購入後にフォローアップメールを配信します。
@@ -199,7 +199,10 @@ UNUSED IDs in BJ
 
 ### コンテンツの確認とテスト {#simulate-content-test-profiles}
 
-コンテンツを作成したら、「**[!UICONTROL コンテンツをシミュレート]**」ボタンを使用して、CSV／JSON ファイルからアップロードした、または手動で追加したテストプロファイルやサンプル入力データを使用して、そのコンテンツをプレビューおよびテストします。 [詳細情報](../../content-management/preview-test.md)
+コンテンツを作成したら、次のいずれかのシミュレーション方法を使用してプレビューおよびテストできます。
+
+* 「**[!UICONTROL コンテンツをシミュレート]**」をクリックして、サンプル入力データまたはAI自動生成を使用してコンテンツのバリエーションをテストします。 [コンテンツバリエーションのシミュレート方法を学ぶ](../../test-approve/simulate-sample-input.md)
+* 「**[!UICONTROL コンテンツをシミュレート]**」をクリックし、ドロップダウンから「**[!UICONTROL コンテンツをシミュレート（AEP プロファイル）]**」を選択して、テストプロファイルでコンテンツをプレビューおよびテストします。 [詳細情報](../../content-management/preview-test.md)
 
 ![「コンテンツをシミュレート」ボタンを示す画像](../assets/channel-simulate.png)
 

@@ -27,10 +27,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1962
-ht-degree: 100%
+source-wordcount: 1991
+ht-degree: 97%
 
 ---
 
@@ -252,7 +252,7 @@ Journey Optimizer のコンテンツ実験を使用すると、複数の配信�
 
    ![](assets/content_experiment_19.png)
 
-1. メッセージコンテンツを定義したら、「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックして配信のレンダリングを制御したり、テストプロファイルでパーソナライズ設定を確認したります。 [詳細情報](../content-management/preview-test.md)
+1. メッセージコンテンツを定義したら、シミュレーション方式を使用して配信のレンダリングを制御し、パーソナライゼーション設定を確認します。「**[!UICONTROL コンテンツをシミュレート]**」をクリックしてサンプル入力データまたはAI自動生成を使用してコンテンツのバリエーションをテストするか、「**[!UICONTROL コンテンツをシミュレート]**」をクリックし、ドロップダウンから「**[!UICONTROL コンテンツをシミュレート（AEP プロファイル）]**」を選択して、テストプロファイルでプレビューします。 [詳細情報](../content-management/preview-test.md)
 
 実験を設定したら、レポートを使用して、問題なく配信できたかどうかを追跡できます。 [詳細情報](../reports/campaign-global-report-cja-experimentation.md)
 

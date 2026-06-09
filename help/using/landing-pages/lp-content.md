@@ -26,10 +26,10 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1633
-ht-degree: 84%
+source-wordcount: 1630
+ht-degree: 82%
 
 ---
 
@@ -177,7 +177,7 @@ ht-degree: 84%
 
    ![](assets/lp_designer-form-style-buttons.png)
 
-   マウスポインターを置いたときにボタンのラベルの色などの設定の一部をプレビューするには、「**[!UICONTROL コンテンツをシミュレート]**」ボタンを使用します。 ランディングページのテストについて詳しくは、[こちら](create-lp.md#test-landing-page)を参照してください。
+   いずれかのシミュレーション方法を使用して、カーソルを合わせると、ボタンのラベルの色などの一部の設定をプレビューできます。 [&#x200B; ランディングページのテストについて詳しく見る](create-lp.md#test-landing-page)
 
    <!--![](assets/lp_designer-form-style-buttons-preview.png)-->
 
@@ -233,7 +233,7 @@ ht-degree: 84%
 
 これを行うには、以下の手順に従います。
 
-1. プライマリページで、**[!UICONTROL フォーム]**&#x200B;コンポーネントの各チェックボックスを関連するサブスクリプションリストにリンクさせます。 [詳細情報](#use-form-component)。
+1. プライマリページで、**[!UICONTROL フォーム]**&#x200B;コンポーネントの各チェックボックスを関連するサブスクリプションリストにリンクさせます。 [学習を増やす](#use-form-component)。
 
    ![](assets/lp_designer-form-luma-newsletter.png)
 

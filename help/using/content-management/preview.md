@@ -8,16 +8,16 @@ exl-id: 6477270c-0309-411a-8254-c7ffc4419492
 feature_v2: []
 subfeature_v2:
   - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: c3c86c6eb2e3717ce348ac562899c4f18dc7007d
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 263
-ht-degree: 90%
+source-wordcount: 231
+ht-degree: 86%
 
 ---
 
 # テストプロファイルを使用したコンテンツのプレビュー {#preview}
 
-[テストプロファイル](test-profiles.md)を選択すると、このデータを使用してコンテンツをプレビューできます。 次の手順に従います。
+[テストプロファイル](test-profiles.md)を選択すると、このデータを使用してコンテンツをプレビューできます。 どちらのシミュレーションメソッドも使用できます。
 
 1. メッセージのコンテンツを編集画面またはメールDesignerで、「**[!UICONTROL コンテンツをシミュレート]**」をクリックし、ドロップダウンから「**[!UICONTROL コンテンツをシミュレート（AEP プロファイル）]**」を選択します。
 
@@ -46,7 +46,3 @@ ht-degree: 90%
    >設定の詳細にエラーがある場合は、「**[!UICONTROL 設定の詳細を表示]**」ボタンをクリックします。 [詳細情報](../email/surface-personalization.md#check-configuration)
 
 コードベースのエクスペリエンスを作成する場合、ブラウザーまたはモバイルデバイスでパーソナライズされたコンテンツをプレビューして、実際のシミュレーションを行うことができます。 [詳細情報](../code-based/test-code-based.md#preview-on-device)
-
->[!NOTE]
->
->また、[!DNL Journey optimizer] を使用すると、CSV／JSON ファイルからアップロードした、または手動で追加したサンプル入力データを使用してコンテンツをプレビューし、本配信前確認を送信することで、コンテンツの様々なバリアントをテストできます。 [コンテンツバリエーションのシミュレート方法を学ぶ](../test-approve/simulate-sample-input.md)

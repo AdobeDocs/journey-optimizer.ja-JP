@@ -28,10 +28,10 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 754
-ht-degree: 98%
+source-wordcount: 743
+ht-degree: 95%
 
 ---
 
@@ -142,7 +142,7 @@ ht-degree: 98%
    >
    >コードエディターに切り替えた後で、このメールのビジュアル designer に戻すことはできません。
 
-1. コンテンツの準備が整ったら、「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックしてレンダリングを確認します。 デスクトップまたはモバイル表示を選択できます。 テストプロファイルの選択およびコンテンツのプレビュー方法について詳しくは、[コンテンツ管理](../content-management/preview-test.md)の節を参照してください。
+1. コンテンツの準備ができたら、いずれかのシミュレーションメソッドを使用してレンダリングを確認します。 デスクトップまたはモバイル表示を選択できます。 詳細については、[&#x200B; コンテンツ管理](../content-management/preview-test.md) セクションを参照してください。
 
    ![](assets/email_designer_simulate_content.png)
 

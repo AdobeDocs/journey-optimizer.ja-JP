@@ -24,10 +24,10 @@ feature_v2:
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
   - id: f0577040-fadd-46a1-b0ae-9c7f828bb2da
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 728
-ht-degree: 100%
+source-wordcount: 756
+ht-degree: 92%
 
 ---
 
@@ -86,7 +86,7 @@ Journey Optimizer を使用すると、パーソナライゼーションエデ�
    * ルックアップデータセットとの結合に使用するフィールドは、*profile.upcomingFlightId* です。
    * 「フライト」参照の下のすべてのフィールド値を含めるようにします。
 
-1. Adobe Experience Platform データセットで呼び出す構文が設定されたら、取得するフィールドを指定できます。 構文は以下のとおりです。
+1. Adobe Experience Platform データセットで呼び出す構文が設定されたら、取得するフィールドを指定できます。 構文は以下の通りです。
 
    ```
    {{result.fieldId}}
@@ -114,7 +114,7 @@ Journey Optimizer を使用すると、パーソナライゼーションエデ�
    * `{{flight._myorg.booking.boardingTime}}`
    * `{{flight._myorg.booking.gate}}`
 
-1. コードの準備が整いました。通常通りにコンテンツを完成させ、「**コンテンツをシミュレート**」ボタンを使用してテストし、パーソナライズ機能を確認することができます。 [コンテンツのプレビューとテストの方法について学ぶ](../content-management/preview-test.md)
+1. コードの準備が整ったら、通常どおりコンテンツを完成させ、シミュレーションメソッドを使用してテストします。「**[!UICONTROL コンテンツをシミュレート]**」をクリックして、サンプル入力データまたはAI自動生成を使用してコンテンツのバリエーションをテストするか、「**[!UICONTROL コンテンツをシミュレート]**」をクリックし、ドロップダウンから「**[!UICONTROL コンテンツをシミュレート（AEP プロファイル）]**」を選択して、テストプロファイルでプレビューします。 [コンテンツのプレビューとテストの方法について学ぶ](../content-management/preview-test.md)
 
 
    ![](assets/aep-data-sample.png)

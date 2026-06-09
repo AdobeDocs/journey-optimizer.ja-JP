@@ -9,10 +9,10 @@ level: Beginner, Intermediate
 keywords: テスト, 検証, 承認, 品質保証, QA, テストプロファイル, パーソナライゼーション, レンダリング, スパムの確認, コンテンツ実験, A/B テスト, 競合の検出, シードリスト, 本配信前確認, サンプルデータ, 承認ワークフロー, メールテスト, 検証ワークフロー
 redpen-status: CREATED_||_2025-08-11_20-30-59
 exl-id: a770412f-2f80-459d-8cce-32212154d154
-source-git-commit: 3409e7a17dc0bae3511e3e021e244a2fa74f99aa
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: '2419'
-ht-degree: 89%
+source-wordcount: '2281'
+ht-degree: 83%
 
 ---
 
@@ -150,7 +150,7 @@ ht-degree: 89%
 | Capability | Applies to | Channel restrictions | Prerequisites | Primary purpose |
 |------------|-----------|---------------------|--------------|-----------------|
 | [Test profiles](../using/content-management/test-profiles.md) | Campaigns, Journeys | All channels | Test profiles created | Preview personalized content |
-| [Sample input data](../using/test-approve/simulate-sample-input.md) | Campaigns, Journeys | Email, SMS, Push, Web, Code-based, In-app, Content cards | CSV/JSON file | Test multiple personalization variants |
+| [Sample input data](../using/test-approve/simulate-sample-input.md) | Campaigns, Journeys | Email, SMS, Push, Web, Code-based, In-app, Content cards | CSV/JSON file, manual entry, or AI | Test multiple personalization variants |
 | [Test mode](../using/building-journeys/testing-the-journey.md) | Journeys only | N/A | Draft journey, namespace configured | Simulate profile progression |
 | [Dry run](../using/building-journeys/journey-dry-run.md) | Journeys only | N/A | Journey created | Analyze execution paths |
 | [Email rendering](../using/content-management/rendering.md) | Campaigns, Journeys | Email only | Litmus integration | Verify display across clients |
@@ -275,7 +275,7 @@ Use this decision tree to quickly identify the right testing tools for your spec
 
 1. **パーソナライゼーションを徹底的に検証** - 属性値が異なる複数の[テストプロファイル](../using/content-management/test-profiles.md)を使用してテストし、パーソナライゼーショントークンが正しくレンダリングされ、フォールバック値が機能することを確認します。 [パーソナライゼーションプレイグラウンド](../using/personalization/personalize.md#playground)を使用して、キャンペーンに適用する前に、パーソナライゼーション式を実験し、サンプルデータを使用してコードをテストします。
 
-1. **サンプルデータを使用してコンテンツバリエーションをテスト** - CSV または JSON ファイルからの[サンプル入力データ](../using/test-approve/simulate-sample-input.md)を使用して、多数のテストプロファイルを作成することなく最大 30 のパーソナライゼーションシナリオをテストすることで、包括的なカバレッジを確保しながら時間を節約できます。 メール、SMS、プッシュ通知、web、コードベースのエクスペリエンス、アプリ内、コンテンツカードの各チャネルをサポートしています。
+1. **サンプルデータを使用してコンテンツのバリエーションをテスト** - CSVまたはJSON ファイルから[&#x200B; サンプル入力データ &#x200B;](../using/test-approve/simulate-sample-input.md)を使用するか、手動入力、またはAI自動生成を使用して、多数のテストプロファイルを作成することなく、最大30のパーソナライゼーションシナリオをテストします。
 
 1. **関係者の監視にシードリストを使用** - [シードリスト](../using/configuration/seed-lists.md)を設定して、実行時にすべての配信のコピーを受信する内部の関係者を自動的に追加し、品質監視とコンプライアンス検証を行います（メールチャネルのみ）。
 
@@ -313,7 +313,7 @@ Use this decision tree to quickly identify the right testing tools for your spec
 <a href="../using/building-journeys/journeys-uc.md"><strong>マルチチャネルメッセージの送信</strong></a>
 </div>
 <p>
-オーディエンスを読み取り、反応イベント、メール／プッシュメッセージを組み合わせたジャーニーをテストします。 オーディエンスターゲティングからメッセージ配信までのフロー全体を検証します。 マルチチャネルの調整、反応イベント、エンドツーエンドのフロー検証、テスト／公開手順に焦点を当てます。
+オーディエンスの読み取り、反応イベント、メール/プッシュメッセージを組み合わせたジャーニーをテストします。オーディエンスのターゲティングからメッセージの配信までのフロー全体を検証できます。マルチチャネルの調整、反応イベント、エンドツーエンドのフロー検証、テスト/公開の各ステップに注力する。
 </p>
 </td>
 <td>
@@ -324,7 +324,7 @@ Use this decision tree to quickly identify the right testing tools for your spec
 <a href="../using/building-journeys/message-to-subscribers-uc.md"><strong>サブスクライバーへのメッセージの送信</strong></a>
 </div>
 <p>
-動的なメールアドレスを使用して、購読リストをターゲットにするジャーニーをテストします。 正しいサブスクライバーターゲティング用にパーソナライゼーション式を検証します。 パーソナライゼーション式、動的なアドレス指定、購読リストのターゲティングに焦点を当てます。
+動的なメールアドレスを使用して、購読リストをターゲットとするジャーニーをテストできます。正しい加入者ターゲティングのためのパーソナライゼーション式を検証します。パーソナライゼーションの式、動的なアドレス指定、購読リストのターゲティングに重点を置きます。
 </p>
 </td>
 <td>
@@ -335,7 +335,7 @@ Use this decision tree to quickly identify the right testing tools for your spec
 <a href="../using/building-journeys/weekday-email-uc.md"><strong>時間制限のあるメッセージの送信</strong></a>
 </div>
 <p>
-特定の日にメッセージが送信されることを確保するために、時間ベースの条件を使用してジャーニーをテストします。 待機アクティビティとスケジュールロジックを検証します。 時間ベースの条件、待機アクティビティ、スケジュールの検証に焦点を当てます。
+時間ベースの条件でジャーニーをテストし、メッセージが特定の日に送信されることを確認します。待機アクティビティとスケジューリングロジックを検証します。時間ベースの条件、待機アクティビティ、スケジュールの検証に重点を置く。
 </p>
 </td>
 </tr></table>
@@ -349,7 +349,7 @@ Use this decision tree to quickly identify the right testing tools for your spec
 <a href="../using/building-journeys/jo-use-cases.md"><strong>その他のジャーニーユースケースを探索</strong></a>
 </div>
 <p>
-エクスペリエンスイベント、マルチチャネルメッセージ、外部システム統合を対象とした実用的な例の包括的なコレクションにアクセスします。 様々なシナリオ、高度なパターン、統合テストのアプローチについて説明します。
+エクスペリエンスイベント、マルチチャネルメッセージ、外部システム統合など、実践的な例を包括的に確認できます。さまざまなシナリオ、高度なパターン、統合テストのアプローチを紹介します。
 </p>
 </td>
 </tr></table>
@@ -364,7 +364,7 @@ Journey Optimizer のテスト機能と承認機能をより深く理解する�
 
 **[ドライラン](../using/building-journeys/journey-dry-run.md)** - メッセージの送信や API 呼び出しを行わずにパスを追跡するジャーニー実行分析ツール。 ユースケース：リソースを消費せずにロジックを検証します。 [ドライランの詳細情報](../using/building-journeys/journey-dry-run.md)
 
-**[サンプル入力データ](../using/test-approve/simulate-sample-input.md)** - パーソナライゼーションをテストするためのプロファイル属性値を含む CSV または JSON ファイル。 最大 30 のバリアントをサポートしています。 テストプロファイルを作成する代わりに使用できます。 [コンテンツバリエーションのシミュレート方法](../using/test-approve/simulate-sample-input.md)
+**[入力データのサンプル](../using/test-approve/simulate-sample-input.md)** - CSVまたはJSON ファイル、手動入力、またはテスト用のAI自動生成のパーソナライゼーション。 最大 30 のバリアントをサポートしています。 [コンテンツバリエーションのシミュレート方法](../using/test-approve/simulate-sample-input.md)
 
 **[シードリスト](../using/configuration/seed-lists.md)** - 内部関係者のメールアドレスが実際の配信（テスト送信ではない）に自動的に含まれます。 メールチャネルのみ。 ユースケース：品質監視とコンプライアンス。 [シードリストの設定](../using/configuration/seed-lists.md)
 
@@ -386,7 +386,7 @@ Journey Optimizer のテスト機能と承認機能をより深く理解する�
 
 >[!TAB 基本的なガイド]
 
-* [コンテンツバリエーションのシミュレート](../using/test-approve/simulate-sample-input.md) - CSV または JSON ファイルを使用して最大 30 のパーソナライゼーションシナリオをテストします。 複数のテストプロファイルを作成しない多言語コンテンツのテストに最適です。 メール、SMS、プッシュ、web、コードベース、アプリ内、コンテンツカードをサポートしています。
+* [&#x200B; コンテンツのバリエーションをシミュレート &#x200B;](../using/test-approve/simulate-sample-input.md) - CSVまたはJSON ファイル、手動入力、またはAI自動生成を使用して、最大30個のパーソナライゼーションシナリオをテストします。
 
 * [テストプロファイルの作成](../using/audience/creating-test-profiles.md) - 顧客シナリオをシミュレートするためのテストプロファイルを作成および管理します。 テスト用のプロファイルにフラグを付ける方法、属性を設定する方法、テストセグメントを整理する方法について説明します。
 
@@ -453,9 +453,9 @@ Journey Optimizer のテスト機能と承認機能をより深く理解する�
 
 ### Q: ジャーニーのテストモードとドライランの違いは何ですか？
 
-**テストモード：**&#x200B;ジャーニーを通じてテストプロファイルを送信し、実際のアクションをトリガーし、テストメッセージを生成します。 ドラフトジャーニー + 名前空間が必要です。
-**ドライラン：**&#x200B;何も送信せずに実行パスを追跡します。 任意のジャーニーステータスで機能します。 メッセージは送信されず、アクションは実行されません。
-**連携して使用：**&#x200B;メッセージテストのテストモード + ロジック検証のドライラン - 包括的なカバレッジ。
+**テストモード：** ジャーニーを通じてテストプロファイルを送信し、実際のアクションをトリガーし、テストメッセージを生成します。ドラフトジャーニー+名前空間が必要です。
+**ドライラン：**&#x200B;何も送信せずに実行パスをトレースします。どのジャーニーステータスでも機能します。メッセージは送信されず、アクションは実行されません。
+**一緒に使用：** メッセージテスト用のテストモード + ロジック検証用のドライラン – 包括的なカバレッジ。
 
 ### Q：実稼動/ライブステータスでジャーニーをテストできますか？
 

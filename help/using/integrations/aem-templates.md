@@ -24,10 +24,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 774
-ht-degree: 100%
+source-wordcount: 795
+ht-degree: 91%
 
 ---
 
@@ -39,8 +39,8 @@ Adobe Journey Optimizer を使用すると、Adobe Experience Manager サイト�
 
 >[!AVAILABILITY]
 >
->現在、Adobe Experience Manager との統合は、一部のユーザーのみがベータ版として利用できます。
->ベータ版のユーザーは、[このフォーム](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"}を使用してフィードバックを共有します。
+>Adobe Experience Managerとの統合は現在、一部のユーザーのみがベータ版として利用できます。
+> ベータ版ユーザーは、[このフォーム &#x200B;](https://forms.office.com/pages/responsepage.aspx?id=Wht7-jR7h0OUrtLBeN7O4Wf0cbVTQ3tCpW_unE-w8-JUN1FaNlAzNkhPSUdaSkJXVFRCNTRJNVRFSy4u){target="_blank"}を使用してフィードバックを共有してください。
 
 
 ### 前提条件 {#prerequisites}
@@ -123,7 +123,7 @@ Journey Optimizer で Experience Manager テンプレートをコンテンツテ
 
    ![](assets/aem_ajo_5.png)
 
-1. パーソナライズしたコンテンツを Experience Manager のテンプレートに追加した場合は、「**[!UICONTROL コンテンツをシミュレート]**」をクリックし、テストプロファイルを使用して、メッセージでの表示をプレビューします。
+1. Experience Manager テンプレートにパーソナライズされたコンテンツを追加した場合は、「**[!UICONTROL コンテンツをシミュレート]**」をクリックしてサンプル入力データまたはAI自動生成を使用してコンテンツのバリエーションをテストするか、「**[!UICONTROL コンテンツをシミュレート]**」をクリックしてから、ドロップダウンから「**[!UICONTROL コンテンツをシミュレート（AEP プロファイル）]**」を選択して、テストプロファイルでプレビューします。
 
    [詳しくは、プレビューとテストプロファイルを参照してください](../content-management/preview-test.md)
 

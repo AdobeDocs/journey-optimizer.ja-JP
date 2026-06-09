@@ -11,10 +11,10 @@ exl-id: f0585411-c862-45f2-9a10-d8a72497c533
 feature_v2: []
 subfeature_v2:
   - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1511
-ht-degree: 92%
+source-wordcount: 1540
+ht-degree: 89%
 
 ---
 
@@ -107,7 +107,7 @@ AI アシスタントを使用して、効果的なプロンプトを作成し�
 
 1. 適切なコンテンツが見つかったら、「**[!UICONTROL 選択]**」をクリックします。
 
-1. メッセージの内容を定義したら、「**[!UICONTROL コンテンツをシミュレート]**」ボタンをクリックしてレンダリングを制御し、テストプロファイルでパーソナライゼーション設定を確認します。 [詳細情報](../personalization/personalize.md)
+1. メッセージコンテンツを定義したら、「**[!UICONTROL コンテンツをシミュレート]**」をクリックしてサンプル入力データまたはAI自動生成を使用してコンテンツのバリエーションをテストするか、「**[!UICONTROL コンテンツをシミュレート]**」をクリックし、ドロップダウンから「**[!UICONTROL コンテンツをシミュレート（AEP プロファイル）]**」を選択して、テストプロファイルでプレビューします。 [詳細情報](../content-management/preview-test.md)
 
 1. コンテンツを確認およびアクティブ化します。
    * **メール**：コンテンツ、オーディエンスおよびスケジュールを定義したら、メールキャンペーンの準備が整います。 [詳細情報](../campaigns/review-activate-campaign.md)

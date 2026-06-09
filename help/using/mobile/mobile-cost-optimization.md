@@ -24,10 +24,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 544
-ht-degree: 100%
+source-wordcount: 545
+ht-degree: 97%
 
 ---
 
@@ -71,7 +71,7 @@ UCS-2 エンコーディングをトリガーする非表示文字や改行が�
 
 ## 送信前に文字カウントを確認 {#check-character-count}
 
-文字カウントを確認するには、プレーンテキストアプリケーションまたは Journey Optimizer の&#x200B;**[!UICONTROL コンテンツをシミュレート]**&#x200B;メニューを使用します。
+プレーンテキストアプリケーションまたは&#x200B;**[!UICONTROL コンテンツをシミュレート]**&#x200B;のいずれかのシミュレーションメソッドを使用して、文字数を検証します。
 
 Journey Optimizer では、コンテンツのシミュレーション中にスペースを含む文字カウントが表示されますが、次の点に注意してください。
 

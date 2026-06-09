@@ -25,10 +25,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0d5bd22d50b503737428e63285eb0e04e20c5c76
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1703
-ht-degree: 88%
+source-wordcount: 1735
+ht-degree: 86%
 
 ---
 
@@ -221,7 +221,7 @@ HTML コンポーネントを使用すると、改行、太字、斜体などの
 
    ![](assets/fragment-use-rich-editable-fields.png)
 
-1. 「**[!UICONTROL コンテンツをシミュレート]**」をクリックして、編集可能なコンテンツとスタイルのレンダリング方法を確認できます。 [コンテンツのプレビューの詳細情報](preview-test.md)
+1. シミュレーション方法を使用して、編集可能なコンテンツとスタイル設定のレンダリング方法を確認します。「**[!UICONTROL コンテンツをシミュレート]**」をクリックしてサンプル入力データまたはAI自動生成を使用してコンテンツのバリエーションをテストするか、「**[!UICONTROL コンテンツをシミュレート]**」をクリックし、ドロップダウンから「**[!UICONTROL コンテンツをシミュレート（AEP プロファイル）]**」を選択して、テストプロファイルでプレビューします。 [コンテンツのプレビューの詳細情報](preview-test.md)
 
 1. 編集可能なフィールドの横にある&#x200B;**[!UICONTROL パーソナライゼーションを追加]**&#x200B;アイコンを選択します。
 

@@ -23,10 +23,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: b91d7609df9d05a2ef04dbdbe2a78d9a084f95ac
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 1190
-ht-degree: 74%
+source-wordcount: 1132
+ht-degree: 72%
 
 ---
 
@@ -71,9 +71,7 @@ ht-degree: 74%
 
    ![&#x200B; ダイレクトメールジャーニーアクティビティ用の抽出ファイルコンテンツエディター](assets/direct-mail-journey-content.png)
 
-1. 抽出ファイルの内容を定義したら、テストプロファイルを使用して内容をプレビューできます。 パーソナライズされたコンテンツを挿入した場合は、そのコンテンツがメッセージにどのように表示されるかを、テストプロファイルデータを使用して確認できます。
-
-   これを行うには、「**[!UICONTROL コンテンツをシミュレート]**」をクリックして、テストプロファイルを追加し、テストプロファイルデータを使用した抽出ファイルのレンダリング方法を確認します。 テストプロファイルの選択およびコンテンツのプレビュー方法について詳しくは、[コンテンツ管理](../content-management/preview-test.md)の節を参照してください。
+1. 抽出ファイルのコンテンツを定義したら、**[!UICONTROL コンテンツのシミュレーション]**&#x200B;を使用してプレビューします。 [コンテンツのプレビューとテストの方法について学ぶ](../content-management/preview-test.md)
 
    ![&#x200B; ダイレクトメール抽出ファイルのコンテンツプレビューのシミュレーション &#x200B;](assets/direct-mail-simulate.png){width="800" align="center"}
 

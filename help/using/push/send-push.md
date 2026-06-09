@@ -23,10 +23,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
-source-wordcount: 391
-ht-degree: 93%
+source-wordcount: 394
+ht-degree: 81%
 
 ---
 
@@ -34,9 +34,10 @@ ht-degree: 93%
 
 ## プッシュ通知のプレビュー {#preview-push}
 
-メッセージコンテンツを定義したら、CSV／JSON ファイルからアップロードした、または手動で追加したテストプロファイルやサンプル入力データを使用して、そのコンテンツをプレビューできます。 パーソナライズされたコンテンツを挿入した場合は、そのコンテンツがメッセージ内でどのように表示されるかを確認できます。
+メッセージコンテンツを定義したら、次のいずれかのシミュレーション方法を使用してコンテンツをプレビューできます。
 
-これを行うには、「**[!UICONTROL コンテンツをシミュレート]**」をクリックします。 次に、コンテンツをプレビューするデバイスのタイプを選択できます：**[!UICONTROL iOS]**、**[!UICONTROL Android]**、または&#x200B;**[!UICONTROL Web]**。
+* 「**[!UICONTROL コンテンツをシミュレート]**」をクリックして、サンプル入力データまたはAI自動生成を使用してコンテンツのバリエーションをテストします。 [コンテンツバリエーションのシミュレート方法を学ぶ](../test-approve/simulate-sample-input.md)
+* 「**[!UICONTROL コンテンツをシミュレート]**」をクリックし、ドロップダウンから「**[!UICONTROL コンテンツをシミュレート（AEP プロファイル）]**」を選択して、テストプロファイルでプレビューします。 次に、コンテンツをプレビューするデバイスのタイプを選択できます：**[!UICONTROL iOS]**、**[!UICONTROL Android]**、または&#x200B;**[!UICONTROL Web]**。
 
 ![](assets/push_preview_3.png)
 
