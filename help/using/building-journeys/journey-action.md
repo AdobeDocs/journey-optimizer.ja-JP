@@ -31,10 +31,10 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 84d3c8bd62648c7d1b6cd969ceb7f80329110982
 workflow-type: tm+mt
-source-wordcount: 1570
-ht-degree: 80%
+source-wordcount: 1736
+ht-degree: 73%
 
 ---
 
@@ -72,6 +72,27 @@ ht-degree: 80%
 * **ジャーニーにレガシーアクティビティをコピーして貼り付ける** – 貼り付けたアクティビティはレガシーアクティビティのままになります。 そのまま編集して公開できます。移行は必要ありません。
 
 ## ジャーニーへのビルトインのチャネルアクションの追加  {#add-action}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_auto_wait"
+>title="自動待機ノード"
+>abstract="インバウンドチャネルアクション（アプリ内メッセージ、Web、コンテンツカード、コードベースのエクスペリエンス）の場合、アクションの後に&#x200B;**Wait** ノードが自動的に挿入されます（デフォルトでは3日間）。 これにより、プロファイルは、ジャーニーが次のステップに進む前に、インバウンドエクスペリエンスを確認する時間を確保できます。"
+>additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="チャネルアクションの概要"
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_optimization"
+>title="最適化"
+>abstract="「**最適化**」セクションでは、コンテンツ実験、ターゲティングルール、またはその両方をチャネルアクションに追加します。 バリエーションをテストし、各オーディエンスメンバーに最も効果的なコンテンツを配信することができます。"
+>additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/optimize-activity/optimize" text="「最適化」アクティビティの使用"
+
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_multilingual"
+>title="多言語"
+>abstract="「**多言語**」セクションでは、1つのジャーニー内で複数の言語のチャネルアクションコンテンツを配信します。 言語設定では、このアクションでサポートされるロケールとデフォルトの言語を定義します。"
+>additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/content-multilingual/multilingual-gs" text="多言語コンテンツの基本を学ぶ"
+
 
 **[!UICONTROL Action]** アクティビティを使用して組み込みのチャネルアクションをジャーニーに追加するには、次の手順に従います。
 
@@ -118,7 +139,7 @@ ht-degree: 80%
       <img alt="低頻度" src="../assets/do-not-localize/push.jpg">
       </a>
       <div>
-      <a href="../push/create-push.md"><strong> プッシュ通知の作成<strong></a>
+      <a href="../push/create-push.md"><strong>プッシュ通知の作成<strong></a>
       </div>
       <p>
       </td>
@@ -167,7 +188,7 @@ ht-degree: 80%
       <img alt="低頻度" src="../assets/do-not-localize/web-design.jpg">
       </a>
       <div>
-      <a href="../code-based/create-code-based.md"><strong> コードベースのエクスペリエンスを作成<strong></a>
+      <a href="../code-based/create-code-based.md"><strong>コードベースのエクスペリエンスの作成<strong></a>
       </div>
       <p>
       </td>

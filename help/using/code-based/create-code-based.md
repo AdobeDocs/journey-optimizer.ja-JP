@@ -18,14 +18,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 675606750af67b398f18646dddf901778625fb30
 workflow-type: tm+mt
-source-wordcount: 908
-ht-degree: 82%
+source-wordcount: 1006
+ht-degree: 74%
 
 ---
 
 # コードベースのエクスペリエンスの作成 {#create-code-based}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_code_based"
+>title="コードベースのエクスペリエンスアクション"
+>abstract="コードベースのエクスペリエンス インバウンドアクションは、プロファイルがジャーニーのこのステップに到達すると、コードベースのエクスペリエンスを提供します。 ラベルはジャーニーキャンバス内のアクティビティを識別し、アクションは表示されるコンテンツを定義するコードベースの設定を参照します。 **最適化** セクションには、コンテンツの実験やターゲティングルールを含めることができます。 このアクティビティの後、**Wait** ノードが自動的に挿入され（デフォルトでは3日間）、プロファイルにエクスペリエンスを表示する時間が与えられます。"
+>additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="チャネルアクションの概要"
 
 [!DNL Journey Optimizer] では、ジャーニーまたはキャンペーンでコードベースのエクスペリエンスを作成できます。
 

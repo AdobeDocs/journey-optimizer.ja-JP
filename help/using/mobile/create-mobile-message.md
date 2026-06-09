@@ -23,10 +23,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 675606750af67b398f18646dddf901778625fb30
 workflow-type: tm+mt
-source-wordcount: 748
-ht-degree: 41%
+source-wordcount: 854
+ht-degree: 36%
 
 ---
 
@@ -46,6 +46,12 @@ Adobe Journey Optimizer を使用して、テキスト（SMS）、リッチ通�
 業界標準や規制に従って、すべてのSMS/RCS/MMS マーケティングメッセージには、受信者が簡単に購読を解除できる方法が含まれている必要があります。 SMS 受信者は、オプトインおよびオプトアウトのキーワードで返信ですることでこれを実行できます。 [オプトアウトの管理方法について学ぶ](../privacy/opt-out.md#opt-out-decision-management)
 
 ## モバイルメッセージの追加 {#create-sms-journey-campaign}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_sms"
+>title="モバイルメッセージアクション"
+>abstract="モバイルメッセージチャネルアクションは、ジャーニーのこのステップに達すると、テキスト（SMS）、マルチメディア（MMS）、またはリッチコミュニケーション（RCS）メッセージをプロファイルに送信します。 ラベルはジャーニーキャンバス内のアクティビティを識別し、アクションは配信されるコンテンツを定義するモバイルメッセージ設定を参照します。 **最適化** セクションには、コンテンツの実験やターゲティングルールを含めることができます。また、**多言語** セクションには多言語のコンテンツを配信できます。アクションが失敗した場合、**タイムアウトまたはエラー** セクションには代替パスを定義できます。"
+>additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="チャネルアクションの概要"
 
 キャンペーンまたはジャーニーにモバイルメッセージを追加する方法については、以下のタブを参照してください。
 

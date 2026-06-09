@@ -23,10 +23,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: 675606750af67b398f18646dddf901778625fb30
 workflow-type: tm+mt
-source-wordcount: 1132
-ht-degree: 72%
+source-wordcount: 1232
+ht-degree: 66%
 
 ---
 
@@ -52,6 +52,12 @@ ht-degree: 72%
 >1. [ダイレクトメールメッセージ設定](../direct-mail/direct-mail-configuration.md#direct-mail-surface)：ファイルのルーティング設定を参照します。
 
 ## ダイレクトメールメッセージの追加 {#create-dm-campaign}
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_direct_mail"
+>title="ダイレクトメールアクション"
+>abstract="ダイレクトメールチャネルアクションは、プロファイルがジャーニーのこのステップに到達したときに、プロファイルのダイレクトメールコンテンツを生成します。 ラベルはジャーニーキャンバス内のアクティビティを識別し、アクションは配信されるコンテンツを定義するダイレクトメール設定を参照します。 **最適化** セクションには、コンテンツの実験やターゲティングルールを含めることができます。また、**多言語** セクションには多言語のコンテンツを配信できます。アクションが失敗した場合、**タイムアウトまたはエラー** セクションには代替パスを定義できます。"
+>additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="チャネルアクションの概要"
 
 キャンペーンまたはジャーニーにダイレクトメールメッセージを追加する方法については、以下のタブを参照してください。
 

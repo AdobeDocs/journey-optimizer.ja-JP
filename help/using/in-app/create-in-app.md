@@ -22,10 +22,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 675606750af67b398f18646dddf901778625fb30
 workflow-type: tm+mt
-source-wordcount: 2305
-ht-degree: 91%
+source-wordcount: 2405
+ht-degree: 87%
 
 ---
 
@@ -35,6 +35,12 @@ ht-degree: 91%
 >id="ajo_campaigns_inapp_triggers"
 >title="アプリ内トリガーの管理"
 >abstract="メッセージをアクティブ化する特定のイベントと条件を選択することで、トリガーを効率的に制御します。 ルールビルダーを使用すると、ユーザーは正確な条件と値を定義できます。 これらの条件を満たすと、アプリ内メッセージの配信を含む一連のアクションが開始されます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_journey_action_in_app"
+>title="アプリ内メッセージアクション"
+>abstract="アプリ内メッセージのインバウンドアクションは、プロファイルがジャーニーのこのステップに到達すると、アプリ内メッセージをプロファイルに表示します。 ラベルはジャーニーキャンバス内のアクティビティを識別し、アクションは表示されるコンテンツを定義するアプリ内設定を参照します。 **最適化** セクションには、コンテンツの実験やターゲティングルールを含めることができます。 このアクティビティの後、**Wait** ノードが自動的に挿入され（デフォルトでは3日間）、プロファイルにアプリ内メッセージを表示する時間が与えられます。"
+>additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="チャネルアクションの概要"
 
 アプリ内メッセージは、キャンペーンまたはジャーニーに追加できます。 次に説明する手順に従って、両方のコンテキストでアプリ内メッセージを作成します。
 
@@ -162,7 +168,7 @@ ht-degree: 91%
 
 1. カスタムまたはコアのデータ使用ラベルをアプリ内メッセージに割り当てるには、「**[!UICONTROL アクセスを管理]**」を選択します。 [学習を増やす](../administration/object-based-access.md)。
 
-1. 「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックして、使用可能な Adobe Experience Platform オーディエンスのリストからターゲットオーディエンスを定義します。 [詳細情報](../audience/about-audiences.md)。
+1. 「**[!UICONTROL オーディエンスを選択]**」ボタンをクリックして、使用可能な Adobe Experience Platform オーディエンスのリストからターゲットオーディエンスを定義します。 [学習を増やす](../audience/about-audiences.md)。
 
    ![](assets/in_app_create_2.png)
 

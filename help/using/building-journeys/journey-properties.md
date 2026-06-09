@@ -28,10 +28,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: 84d3c8bd62648c7d1b6cd969ceb7f80329110982
 workflow-type: tm+mt
-source-wordcount: 3633
-ht-degree: 76%
+source-wordcount: 3646
+ht-degree: 75%
 
 ---
 
@@ -178,9 +178,9 @@ ht-degree: 76%
 ### ジャーニーアクティビティのタイムアウト {#timeout_and_error}
 
 >[!CONTEXTUALHELP]
->id="ajo_journey_properties_timeout"
+>id="ajo_journey_action_timeout"
 >title="タイムアウトまたはエラー"
->abstract="タイムアウトとして処理する前に、ジャーニーがアクションの実行または条件の評価を試行する時間を指定します。 推奨値は 1～30 秒です。"
+>abstract="「**タイムアウトまたはエラー**」オプションは、アクションがタイムアウトするかエラーを返す場合に、ジャーニー内の代替パスを定義するため、プロファイルはこのステップで停止するのではなく、フォールバックパスを経由して続行します。 推奨値は 1～30 秒です。"
 
 アクションまたは条件のアクティビティを編集するときに、エラーやタイムアウトが発生した場合の代替パスを定義できます。 サードパーティシステムに問い合わせを行うアクティビティの処理が、ジャーニーのプロパティの「**[!UICONTROL タイムアウトまたはエラー]**」フィールドで定義されたタイムアウト時間を超えると、第 2 パスが選択されて、可能な代替アクションが実行されます。
 
