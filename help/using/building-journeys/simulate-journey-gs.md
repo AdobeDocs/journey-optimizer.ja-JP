@@ -11,9 +11,9 @@ keywords: テスト, ジャーニー, チェック, エラー, トラブルシ�
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: c2c8b1a64e79482fcc9340950209579cf74c50b3
+source-git-commit: a61f805d573f11f255e386c35a5d79ab6650bcc5
 workflow-type: tm+mt
-source-wordcount: 1427
+source-wordcount: 1452
 ht-degree: 3%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 3%
 >[!IMPORTANT]
 >
 >**[!UICONTROL シミュレーション]**&#x200B;機能にアクセスするには、少なくとも次のいずれかの権限が必要です：**ジャーニーをシミュレート**、**ジャーニーを公開**&#x200B;または&#x200B;**ジャーニーを承認して公開**。 [詳細情報](../administration/permissions.md)
+>
+>**[!UICONTROL シミュレーション]** （**[!UICONTROL クイックシミュレーション]**、AIを使用したシミュレートされたユーザーの生成、**[!UICONTROL イベント値の生成]**）でAIを使用するには、ユーザーは&#x200B;**[!UICONTROL AI アシスタント]**&#x200B;機能から&#x200B;**コンテンツを生成**&#x200B;する権限が必要です。
 
 ジャーニーは、**ドラフト**、**テストモード**、**ライブ**&#x200B;に加えて、**[!UICONTROL シミュレーション]**&#x200B;に設定できます。 Simulationでは、**simulated users**&#x200B;でテストを行います。Adobe Experience Platformで永続的なテストプロファイルを使用せずに、追加した一時的なプロファイルのようなエンティティです。
 
