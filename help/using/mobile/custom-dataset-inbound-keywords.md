@@ -6,8 +6,12 @@ description: Experience Platform スキーマ、データセット、およびSM
 feature: SMS, Channel Configuration
 role: Admin
 level: Intermediate
-feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2: id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7id: d6e5c7fd-c1d6-4137-98cd-138ccde6752fid: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+feature_v2:
+  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2:
+  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
+  - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
+  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
 source-git-commit: 07322bd265647528f8e2e4a5f39d7806fd03b565
 workflow-type: tm+mt
 source-wordcount: 517
@@ -21,7 +25,7 @@ ht-degree: 16%
 
 >[!NOTE]
 >
->カスタムデータセットが設定されていない場合、インバウンドキーワードはデフォルトでシステム _AJO メールトラッキングデータセット_&#x200B;に保存されます。 受信メッセージがこのデータセットに取り込まれる前に、プロファイルに[!DNL Journey Optimizer]から送信されたメッセージが少なくとも1つ必要です。 [ システムデータセットの詳細](../data/get-started-datasets.md#system-datasets)
+>カスタムデータセットが設定されていない場合、インバウンドキーワードはデフォルトでシステム _AJO メールトラッキングデータセット_&#x200B;に保存されます。 受信メッセージがこのデータセットに取り込まれる前に、プロファイルに[!DNL Journey Optimizer]から送信されたメッセージが少なくとも1つ必要です。 [&#x200B; システムデータセットの詳細](../data/get-started-datasets.md#system-datasets)
 
 スキーマ、フィールドグループ、データセットの背景については、次のAdobe Experience Platform ドキュメントを参照してください。
 
@@ -39,7 +43,7 @@ ht-degree: 16%
 
 スキーマは、取り込んだデータに適用される構造と検証ルールを定義します。 以下に示す既存のフィールドグループを追加して、インバウンドキーワード収集用のエクスペリエンスイベントスキーマを作成します。
 
-➡️ [ スキーマ作成の詳細については、Adobe Experience Platform ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/schema/composition)を参照してください
+➡️ [&#x200B; スキーマ作成の詳細については、Adobe Experience Platform ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/xdm/schema/composition)を参照してください
 
 1. Adobe Experience Platformで、**[!UICONTROL Data management]**&#x200B;から&#x200B;**[!UICONTROL Schemas]**&#x200B;にアクセスし、**[!UICONTROL Create schema]**&#x200B;を選択します。
 
