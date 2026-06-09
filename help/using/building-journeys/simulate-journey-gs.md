@@ -9,10 +9,9 @@ role: User
 level: Intermediate
 keywords: テスト, ジャーニー, チェック, エラー, トラブルシューティング
 version: Journey Orchestration
-hide: true
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 45161c22a2988de8d844e1f9958e72506c269956
+source-git-commit: 66ebb638e3633152294b431a1003786433a3ba7d
 workflow-type: tm+mt
 source-wordcount: 1427
 ht-degree: 3%
@@ -69,7 +68,7 @@ Adobe Journey Optimizerでは、ジャーニーをテストおよび検証する
 
 ## 起動シミュレーション {#launch}
 
-ジャーニーを&#x200B;**[!UICONTROL シミュレーション]**&#x200B;に切り替えて、シミュレートされたユーザーでテストします。 ステップバイステップのタスクについて詳しくは、[&#x200B; ジャーニーのシミュレーション &#x200B;](simulate-journey-2.md)を参照してください。
+ジャーニーを&#x200B;**[!UICONTROL シミュレーション]**&#x200B;に切り替えて、シミュレートされたユーザーでテストします。 ステップバイステップのタスクについて詳しくは、[&#x200B; ジャーニーのシミュレーション &#x200B;](simulate-journey.md)を参照してください。
 
 1. ジャーニーから、**[!UICONTROL Simulate]**&#x200B;をクリックし、**[!UICONTROL Simulation]**&#x200B;を選択します。
 

@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: b91d7609df9d05a2ef04dbdbe2a78d9a084f95ac
+source-git-commit: 66ebb638e3633152294b431a1003786433a3ba7d
 workflow-type: tm+mt
-source-wordcount: '3368'
+source-wordcount: '3366'
 ht-degree: 95%
 
 ---
@@ -65,9 +65,9 @@ ht-degree: 95%
       + [ジャーニーでのウェーブを使用した送信](using/building-journeys/send-using-waves.md)
       + [ジャーニー指標の設定とトラッキング](using/building-journeys/success-metrics.md)
       + [ジャーニーのデザイン](using/building-journeys/using-the-journey-designer.md)
-      + [ジャーニーのシミュレート](using/building-journeys/simulate-journey.md)
-      + {hide-from-toc}[ジャーニーシミュレーションの開始](using/building-journeys/simulate-journey-gs.md)
-      + {hide-from-toc}[&#x200B; ジャーニーのシミュレーション &#x200B;](using/building-journeys/simulate-journey-2.md)
+      + シミュレーション {#simulate-journey}
+         + [&#x200B; ジャーニーシミュレーションの基本を学ぶ](using/building-journeys/simulate-journey-gs.md)
+         + [&#x200B; ジャーニーのシミュレーション &#x200B;](using/building-journeys/simulate-journey.md)
       + [ジャーニーのテスト](using/building-journeys/testing-the-journey.md)
       + [ジャーニーのドライラン](using/building-journeys/journey-dry-run.md)
       + [ジャーニーの公開](using/building-journeys/publish-journey.md)
