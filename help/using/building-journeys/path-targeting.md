@@ -12,10 +12,10 @@ exl-id: b30ce5c9-a0e2-4601-97a3-5bec648368e4
 badge: label="限定提供" type="Informative"
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 812
-ht-degree: 91%
+source-wordcount: 811
+ht-degree: 88%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="ajo_path_targeting_fallback"
 >title="フォールバックパスとは"
->abstract="フォールバックパスを使用すると、ターゲティングルールが選定されていない場合に、オーディエンスは代替パスにエントリできます。 </br>このオプションを選択しない場合、ターゲティングルールに選定されていないオーディエンスはフォールバックパスにエントリせずにジャーニーを終了します。"
+>abstract="フォールバックパスを使用すると、ターゲティングルールが選定されていない場合に、オーディエンスは代替パスにエントリできます。 </br>このオプションが選択されていない場合、ターゲティングルールに適格でないオーディエンスはフォールバックパスに入らず、ジャーニーを終了しません。"
 
 >[!AVAILABILITY]
 >

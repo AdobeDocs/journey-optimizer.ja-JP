@@ -11,25 +11,16 @@ keywords: 待機, アクティビティ, ジャーニー, 次, キャンバス
 exl-id: 7268489a-38c1-44da-b043-f57aaa12d7d5
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/qWxnLiuHh-sJQyUOuRB6CgRIpZ6ud6eO-WNoWcv9JeU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: e41af203a353dd0c5f34c5c9f1915892e7c95999
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c3f67a94-f1ff-4f5e-bf6f-bc22405930a3id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 908
-ht-degree: 80%
+source-wordcount: 903
+ht-degree: 79%
 
 ---
 
@@ -38,7 +29,7 @@ ht-degree: 80%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_wait"
 >title="待機アクティビティ"
->abstract="パス内の次のアクティビティを実行するまで待機する場合は、「待機」アクティビティを使用できます。 後に続くアクティビティを実行するタイミングを定義できます。 期間とカスタムの 2 つのオプションを使用できます。"
+>abstract="待機アクティビティを使用すると、パス内の次のアクティビティを実行する前に待機できます。 後に続くアクティビティを実行するタイミングを定義できます。 期間とカスタムの 2 つのオプションを使用できます。"
 
 **[!UICONTROL 待機]**&#x200B;アクティビティを使用すると、次のアクティビティを実行するまでの期間を定義できます。  最大の待機期間は **90 日**&#x200B;です。
 
@@ -134,6 +125,6 @@ Select the date for the execution of the next activity.
 >[!CONTEXTUALHELP]
 >id="ajo_journey_auto_wait_node"
 >title="自動待機ノードについて"
->abstract="このインバウンドアクションの後、**Wait** ノードが自動的に挿入されます。 デフォルトでは3日間に設定されており、メッセージやエクスペリエンスを表示できるだけのプロファイルがジャーニーに残るようにします。 待機時間を更新するか、ユースケースで必要な場合はこのノードを削除できます。"
+>abstract="このインバウンドアクションの後、**Wait** ノードが自動的に挿入されます。 デフォルトでは3日間に設定されており、メッセージやエクスペリエンスを表示できるだけのプロファイルがジャーニーに残るようにします。 ユースケースで必要な場合は、待機時間を更新するか、ノードを削除できます。"
 
 各インバウンドエクスペリエンスアクティビティ（アプリ内メッセージ、コードベースのエクスペリエンスまたはカード）には、3 日間の&#x200B;**待機**&#x200B;アクティビティが付随しています。 プロファイルがジャーニーの終わりに到達するとインバウンドメッセージは自動的に終了するので、最低 3 日間はユーザーにそのメッセージを表示するとします。 この&#x200B;**待機**&#x200B;アクティビティを削除するか、必要に応じて設定を変更できます。

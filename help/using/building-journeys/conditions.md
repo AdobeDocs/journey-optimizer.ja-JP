@@ -11,23 +11,16 @@ keywords: アクティビティ, 条件, キャンバス, ジャーニー
 exl-id: 496c7666-a133-4aeb-be8e-c37b3b9bf5f9
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/8gtrjnNNob-iRXdjSytSYOMyDswVxsrd8knipi4i1gI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 1941
-ht-degree: 91%
+source-wordcount: 1939
+ht-degree: 89%
 
 ---
 
@@ -76,7 +69,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_simple2"
 >title="シンプルな式エディターについて"
->abstract="シンプルな式エディターモードでは、フィールドの組み合わせに基づいてシンプルなクエリを実行できます。 使用可能なすべてのフィールドが画面の左側に表示されます。 フィールドをメインゾーンにドラッグ＆ドロップします。 異なる要素を組み合わせるには、それらを相互に連動させて異なるグループやグループレベルを作成します。 次に、論理演算子を選択して、同じレベルの要素を組み合わせることができます。"
+>abstract="シンプルな式エディターモードでは、フィールドの組み合わせに基づいてシンプルなクエリを実行できます。 使用可能なすべてのフィールドが画面の左側に表示されます。 フィールドはメインゾーンにドラッグ&amp;ドロップされます。 異なる要素を組み合わせるために、異なるグループやグループレベルを作成するために、互いに連結されます。 論理演算子は、同じレベルの要素を結合します。"
 
 ジャーニーで複数の条件を使用する場合は、わかりやすくするために、各条件にラベルを定義できます。
 
@@ -212,7 +205,7 @@ ht-degree: 91%
 
 1. 左側で、**[!UICONTROL オーディエンス]**&#x200B;ノードを展開します。 条件に使用するオーディエンスをドラッグ＆ドロップします。 デフォルトでは、オーディエンスの条件は true です。
 
-   [!DNL Adobe Experience Platform]個のオーディエンスを選択するための式エディターの![&#x200B; オーディエンスノード &#x200B;](assets/segment4.png){width=80%}
+   [!DNL Adobe Experience Platform]個のオーディエンスを選択するための式エディターの![ オーディエンスノード ](assets/segment4.png){width=80%}
 
    >[!NOTE]
    >

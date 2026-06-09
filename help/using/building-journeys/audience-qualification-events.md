@@ -11,26 +11,16 @@ keywords: 選定, イベント, オーディエンス, ジャーニー, プラ�
 exl-id: 7e70b8a9-7fac-4450-ad9c-597fe0496df9
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/u7riiGWgaQFuiWARJL-Wqh9CcaZ-yH3N6ZRtsvfyN8Y
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: 1c2e1cc6c0107416cc8d8180e8850e76c6383b2e
 workflow-type: tm+mt
-source-wordcount: 1767
-ht-degree: 70%
+source-wordcount: 1825
+ht-degree: 63%
 
 ---
 
@@ -39,7 +29,7 @@ ht-degree: 70%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
 >title="オーディエンスの選定"
->abstract="プロファイルが [!DNL Adobe Experience Platform] オーディエンスに適合または離脱した際に、ジャーニーの開始または継続をトリガーします。 ストリーミングのオーディエンス向けに推奨されます。バッチシナリオの場合は、オーディエンスを読み取りアクティビティを使用します。"
+>abstract="プロファイルが[!DNL Adobe Experience Platform] オーディエンスに適格または離脱した場合のトリガージャーニーの開始または継続。 ストリーミングオーディエンスに推奨されます。バッチシナリオには、オーディエンスを読み取りアクティビティが使用されます。"
 
 ## オーディエンスの選定イベントについて{#about-segment-qualification}
 
@@ -49,7 +39,7 @@ ht-degree: 70%
 
 このタイプのイベントは、ジャーニーの最初または後半に配置できます。
 
-➡️ [ビデオでこの機能を確認する](#video)
+➡️ [この機能をビデオで確認](#video)
 
 
 >[!CAUTION]
@@ -64,22 +54,22 @@ ht-degree: 70%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_label"
 >title="ラベル"
->abstract="レポートモードとテストモードのログでアクティビティを識別するオプションのラベルを追加します。"
+>abstract="レポートモードとテストモードのログでこのアクティビティを識別するためのオプションのラベル。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_audience"
 >title="オーディエンス"
->abstract="活用する [!DNL Adobe Experience Platform] オーディエンスを選択します。 ジャーニーは、プロファイルのエントリや離脱をリッスンします。"
+>abstract="ジャーニーが監視する[!DNL Adobe Experience Platform] オーディエンス。 プロファイルは、オーディエンスの適格性を判断する際に、オーディエンスを入力したり、先に進んだりします。 ストリーミングオーディエンスは推奨されるため、選定はリアルタイムで評価されます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_behavior"
 >title="動作"
->abstract="オーディエンスへのエントリ、離脱またはその両方をリッスンするかどうかを選択します。"
+>abstract="ジャーニーが反応するオーディエンスメンバーシップの変更を定義します。プロファイルがオーディエンスの対象となる（入力）場合、オーディエンスを離脱する（終了）場合、またはその両方が発生する。 この両者の意見に耳を傾けることで、メンバーシップのライフサイクル全体をカバーすることができます。一方、ひとつの選択肢では、ひとつの方向に焦点を当てることができます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_identity"
 >title="ID タイプ"
->abstract="個人の識別に使用される ID タイプを選択します。 人物ベースの ID 名前空間のみを使用できます。"
+>abstract="オーディエンスの適格性を判断する際に、個人を認識するために使用されるID名前空間。 個人ベースのID名前空間のみが使用でき、このIDを持たないプロファイルはジャーニーにエントリできません。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_merge_policy"
@@ -112,8 +102,8 @@ ht-degree: 70%
 
    >[!NOTE]
    >
-   >**[!UICONTROL Enter]**&#x200B;と&#x200B;**[!UICONTROL Exit]**&#x200B;は、[!DNL Adobe Experience Platform]からの&#x200B;**Realized**&#x200B;と&#x200B;**Exited**&#x200B;のオーディエンス参加ステータスに対応しています。
-   >[&#x200B; セグメント化サービスのドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ja#interpret-segment-results){target="_blank"}を参照してください。
+   >**[!UICONTROL Enter]**&#x200B;と&#x200B;**[!UICONTROL Exit]**&#x200B;は、[!DNL Adobe Experience Platform]からの&#x200B;**Realized**&#x200B;と&#x200B;**Exited**のオーディエンス参加ステータスに対応しています。
+   >[ セグメント化サービスのドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/tutorials/evaluate-a-segment.html?lang=ja#interpret-segment-results){target="_blank"}を参照してください。
 
 1. 名前空間を選択します。 これは、イベントがジャーニーの最初のステップとして位置付けられている場合にのみ必要です。 デフォルトでは、このフィールドには、最後に使用した名前空間が事前に入力されています。
 
@@ -158,7 +148,7 @@ ht-degree: 70%
 
 ストリーミングセグメント化で開くイベントや送信イベントを使用しないでください。 代わりに、クリック数、購入数、ビーコンデータなどの実際のユーザーアクティビティのシグナルを使用します。 頻度または抑制ロジックの場合は、送信イベントの代わりにビジネスルールを使用します。 [詳細情報](../audience/about-audiences.md)
 
-[[!DNL Adobe Experience Platform]  ストリーミングセグメント化に関するドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}を参照してください。
+[[!DNL Adobe Experience Platform]  ストリーミングセグメント化に関するドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/methods/streaming-segmentation){target="_blank"}を参照してください。
 
 >[!NOTE]
 >
@@ -182,7 +172,7 @@ ht-degree: 70%
 
 * ジャーニーを公開した後、プロファイルの選定をトリガーするイベントやデータを送信する前に、10 分以上待機します。 これにより、ジャーニーが完全にアクティブ化され、エントリを処理する準備が整います。
 
-* すべての適格なプロファイルが入力されることを確認する必要がある重要なユースケースについては、代わりに[&#x200B; オーディエンスを読み取り](read-audience.md) アクティビティを使用することを検討してください。 特定の時間に、オーディエンス内のすべてのプロファイルを処理します。
+* すべての適格なプロファイルが入力されることを確認する必要がある重要なユースケースについては、代わりに[ オーディエンスを読み取り](read-audience.md) アクティビティを使用することを検討してください。 特定の時間に、オーディエンス内のすべてのプロファイルを処理します。
 
 * ジャーニーの[エントリ率とスループット](entry-management.md#profile-entrance-rate)を監視し、プロファイルのフローパターンを把握します。
 
@@ -194,7 +184,7 @@ ht-degree: 70%
 
 * **[!UICONTROL オーディエンスの選定]**&#x200B;アクティビティで作成直後にバッチオーディエンスを使用しないでください。 これにより、最初の計算のピークを回避できます。 まだ計算されていないオーディエンスを使用しようとすると、ジャーニーキャンバスに黄色の警告が表示されます。
 
-  [!DNL Adobe Experience Platform]![&#128279;](assets/segment-error.png)にオーディエンスが見つからなかった場合の エラーメッセージ
+  [!DNL Adobe Experience Platform]](assets/segment-error.png)にオーディエンスが見つからなかった場合の![ エラーメッセージ
 
 * ジャーニーで使用するデータソースとアクションのキャップルールを設定して、データソースの過負荷を避けます。 詳しくは、[Journey Orchestration のドキュメント](https://experienceleague.adobe.com/docs/journeys/using/working-with-apis/capping.html?lang=ja){target="_blank"}を参照してください。 キャップルールには再試行がないことに注意してください。 再試行が必要な場合は、条件やアクションで「**[!UICONTROL タイムアウトまたはエラーの場合に代替パスを追加]**」ボックスをオンにし、ジャーニーで代替パスを使用します。
 
@@ -240,4 +230,4 @@ ht-degree: 70%
 
 オーディエンスの選定ジャーニーに当てはまるユースケースについて、このビデオで説明します。 オーディエンスの選定を使用してジャーニーを構築する方法と、適用するベストプラクティスについて説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3446205?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425028?quality=12)
