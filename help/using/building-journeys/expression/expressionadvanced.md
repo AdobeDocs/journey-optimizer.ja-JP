@@ -24,10 +24,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f39bcb2f8b68315b082014b96801c51223ac8a54
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 738
-ht-degree: 97%
+source-wordcount: 736
+ht-degree: 95%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 97%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_expression_advanced"
 >title="高度な式エディターについて"
->abstract="高度な式エディターを使用すると、インターフェイスの様々な画面で高度な式を作成できます。 例えば、ジャーニーを設定して使用する場合や、データソース条件を定義する場合に、式を作成できます。"
+>abstract="高度なエクスプレッションエディターは、インターフェイスの様々な画面に高度なエクスプレッションを構築します。 例えば、ジャーニーを設定して使用する場合や、データソース条件を定義する場合に、式を作成できます。"
 
 ジャーニーの高度な式エディターを使用すると、インターフェイスの様々な画面で高度な式を作成できます。 例えば、ジャーニーを設定して使用する場合や、データソース条件を定義する場合に、式を作成できます。
 

@@ -19,7 +19,7 @@ subfeature_v2: []
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
 source-wordcount: 120
 ht-degree: 100%
@@ -37,7 +37,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_sandbox_details"
 >title="Sandbox details"
->abstract="Select the destination sandbox you want to copy the journey to. Only sandboxes within your organization are available."
+>abstract="The destination sandbox is where the journey is copied to. Only sandboxes within your organization are available."
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_copy_object_details"

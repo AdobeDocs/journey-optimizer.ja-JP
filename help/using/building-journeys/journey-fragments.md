@@ -11,10 +11,10 @@ keywords: フラグメント，ジャーニー，再利用，ノード，キャ�
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 06565328f42ff79943f774df55d8e41118b40815
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 1517
-ht-degree: 10%
+source-wordcount: 1516
+ht-degree: 7%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_fragment_create_canvas"
 >title="ジャーニーフラグメントとして保存"
->abstract="フラグメントの一意の名前を入力し、「保存」をクリックします。 選択したノードは、フラグメントインベントリで使用できる再利用可能なフラグメントとして保存されます。"
+>abstract="保存する前に一意のフラグメント名を入力します。 選択したノードは、フラグメントインベントリで使用可能な再利用可能なフラグメントとして保存されます。"
 
 ジャーニーフラグメントは、ジャーニーキャンバスから直接（推奨）またはフラグメントインベントリから2つの方法で作成できます。
 
@@ -98,7 +98,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_fragment_properties"
 >title="ジャーニーフラグメントのプロパティ"
->abstract="在庫からフラグメントを開き、そのノード、プロパティ、タグ、ラベルを変更します。 アクティブなフラグメントは、編集する前に非アクティブ化する必要があります。"
+>abstract="インベントリからフラグメントを開くと、そのノード、プロパティ、タグ、ラベルを変更できます。 アクティブなフラグメントは、編集する前に非アクティブ化する必要があります。"
 
 フラグメントを編集するには、名前をクリックして&#x200B;**[!UICONTROL フラグメントインベントリ]**&#x200B;からフラグメントを開きます。 フラグメント作成UIでは、次のことができます。
 

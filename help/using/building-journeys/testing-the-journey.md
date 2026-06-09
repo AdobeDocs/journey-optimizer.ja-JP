@@ -28,10 +28,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
 workflow-type: tm+mt
-source-wordcount: 2307
-ht-degree: 74%
+source-wordcount: 2308
+ht-degree: 72%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 74%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test"
 >title="ジャーニーのテスト"
->abstract="公開する前に、テストプロファイルを使用してジャーニーをテストします。 これにより、公開前に、個人がジャーニー内をどのように移動するかを分析し、トラブルシューティングを行うことができます。"
+>abstract="テストプロファイルにより、ジャーニーを公開する前にテストできます。 これにより、公開前に、個人がジャーニー内をどのように移動するかを分析し、トラブルシューティングを行うことができます。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/create-journey/journey-dry-run" text="ジャーニーのドライラン"
 
 ジャーニーを作成したら、公開する前にテストできます。 [!DNL Adobe Journey Optimizer]は、テストプロファイルをジャーニーに沿って移動する際に、アクティブ化する前に潜在的なエラーを検出する方法として、「テストモード」を提供しています。 クイックテストを実行すると、ジャーニーが正しく動作することを確認できるので、自信を持って公開できます。
@@ -141,14 +141,14 @@ Adobe Experience Platformで既に作成した既存のテストプロファイ�
 >
 >プロファイルがログにまったく表示されない場合は、次の点を確認してください。
 >* 入力したプロファイル IDは、[!DNL Adobe Experience Platform]でテスト プロファイルとしてフラグ付けされています。
->* ジャーニーで設定された開始日と終了日には、現在の時刻が含まれます。 このウィンドウ外でトリガーされたイベントはサイレントに破棄されます。 [詳細情報](troubleshooting-execution.md#troubleshooting-test-transitions)。
+>* ジャーニーで設定された開始日と終了日には、現在の時刻が含まれます。 このウィンドウ外でトリガーされたイベントはサイレントに破棄されます。 [学習を増やす](troubleshooting-execution.md#troubleshooting-test-transitions)。
 
 ## イベントのトリガー {#firing_events}
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_test_configuration"
 >title="テストモードを設定"
->abstract="ジャーニーに複数のイベントが含まれる場合は、ドロップダウンリストを使用してイベントを選択します。 次に、各イベントに対して、渡されるフィールドと送信するイベントの実行を設定します。"
+>abstract="ジャーニーに複数のイベントが含まれている場合、ドロップダウンリストを使用してイベントを選択します。 イベントごとに、渡されるフィールドとイベント送信の実行が設定されます。"
 
 「**[!UICONTROL イベントをトリガー]**」ボタンを使用して、ユーザーがジャーニーにエントリできるようにするイベントを設定します。
 

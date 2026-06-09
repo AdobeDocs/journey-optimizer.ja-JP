@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 1c2e1cc6c0107416cc8d8180e8850e76c6383b2e
 workflow-type: tm+mt
-source-wordcount: 1767
-ht-degree: 70%
+source-wordcount: 1825
+ht-degree: 63%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 70%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification"
 >title="オーディエンスの選定"
->abstract="プロファイルが [!DNL Adobe Experience Platform] オーディエンスに適合または離脱した際に、ジャーニーの開始または継続をトリガーします。 ストリーミングのオーディエンス向けに推奨されます。バッチシナリオの場合は、オーディエンスを読み取りアクティビティを使用します。"
+>abstract="プロファイルが[!DNL Adobe Experience Platform] オーディエンスに適格または離脱した場合のトリガージャーニーの開始または継続。 ストリーミングオーディエンスに推奨されます。バッチシナリオには、オーディエンスを読み取りアクティビティが使用されます。"
 
 ## オーディエンスの選定イベントについて{#about-segment-qualification}
 
@@ -49,7 +49,7 @@ ht-degree: 70%
 
 このタイプのイベントは、ジャーニーの最初または後半に配置できます。
 
-➡️ [ビデオでこの機能を確認する](#video)
+➡️ [この機能をビデオで確認](#video)
 
 
 >[!CAUTION]
@@ -64,22 +64,22 @@ ht-degree: 70%
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_label"
 >title="ラベル"
->abstract="レポートモードとテストモードのログでアクティビティを識別するオプションのラベルを追加します。"
+>abstract="レポートモードとテストモードのログでこのアクティビティを識別するためのオプションのラベル。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_audience"
 >title="オーディエンス"
->abstract="活用する [!DNL Adobe Experience Platform] オーディエンスを選択します。 ジャーニーは、プロファイルのエントリや離脱をリッスンします。"
+>abstract="ジャーニーが監視する[!DNL Adobe Experience Platform] オーディエンス。 プロファイルは、オーディエンスの適格性を判断する際に、オーディエンスを入力したり、先に進んだりします。 ストリーミングオーディエンスは推奨されるため、選定はリアルタイムで評価されます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_behavior"
 >title="動作"
->abstract="オーディエンスへのエントリ、離脱またはその両方をリッスンするかどうかを選択します。"
+>abstract="ジャーニーが反応するオーディエンスメンバーシップの変更を定義します。プロファイルがオーディエンスの対象となる（入力）場合、オーディエンスを離脱する（終了）場合、またはその両方が発生する。 この両者の意見に耳を傾けることで、メンバーシップのライフサイクル全体をカバーすることができます。一方、ひとつの選択肢では、ひとつの方向に焦点を当てることができます。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_identity"
 >title="ID タイプ"
->abstract="個人の識別に使用される ID タイプを選択します。 人物ベースの ID 名前空間のみを使用できます。"
+>abstract="オーディエンスの適格性を判断する際に、個人を認識するために使用されるID名前空間。 個人ベースのID名前空間のみが使用でき、このIDを持たないプロファイルはジャーニーにエントリできません。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_segment_qualification_merge_policy"
