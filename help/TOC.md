@@ -5,9 +5,9 @@ user-guide-title: Journey Optimizer ガイド
 user-guide-description: Journey Optimizer を使用して、連続性があり、コンキストに即してパーソナライズされたエクスペリエンスを構築し、顧客に提供します。
 type: Documentation
 solution: Journey Optimizer
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: 0e4ee7788c6a015a63bafcb7976ac5e4696e5d7a
 workflow-type: tm+mt
-source-wordcount: '3361'
+source-wordcount: '3355'
 ht-degree: 95%
 
 ---
@@ -83,8 +83,6 @@ ht-degree: 95%
       + [タイムゾーン管理](using/building-journeys/timezone-management.md)
       + [送信時間の最適化](using/building-journeys/send-time-optimization.md)
       + [ジャーニーの終了](using/building-journeys/end-journey.md)
-      + [別のサンドボックスへのジャーニーのコピー](using/building-journeys/copy-to-sandbox.md)
-      + [インテリジェントサービスとの統合](using/building-journeys/ai-services-overview.md)
    + アクティビティ {#about-journey-building}
       + [アクティビティ](/help/rp_landing_pages/about-journey-building-landing-page.md)
       + [ジャーニーのアクティビティの基本を学ぶ](using/building-journeys/about-journey-activities.md)
@@ -524,6 +522,7 @@ ht-degree: 95%
       + [Dynamic Media の操作](using/integrations/aem-dynamic.md)
       + {hide-from-toc}[カウントダウンタイマーの挿入](using/integrations/countdown.md)
       + [GenStudio for Performance Marketing の操作](using/integrations/genstudio.md)
+      + [インテリジェントサービスとの統合](using/integrations/intelligent-services.md)
       + 統合 {#integrations}
          + [統合の操作](using/integrations/integrations.md)
          + [パーソナライゼーションに対する外部統合の使用](using/integrations/integrations-personalization.md)

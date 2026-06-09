@@ -26,7 +26,7 @@ subfeature_v2:
   - id: c08fcc42-2918-421a-a25e-e1bd9464c290
   - id: c6fdb8b1-45ee-460a-a859-9031c59118b7
   - id: d16f7424-4847-4b90-a37c-4b52cbdabee5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0e4ee7788c6a015a63bafcb7976ac5e4696e5d7a
 workflow-type: tm+mt
 source-wordcount: 1007
 ht-degree: 99%
@@ -121,7 +121,7 @@ Adobe GenStudio for Performance Marketing は、マーケティングチーム�
 
 顧客 AI を使用すると、ブランドは、Adobe Experience Platform でプロファイル属性として使用でき、ジャーニーをパーソナライズするために使用できるチャーンまたはコンバージョンの機械学習ベースのスコアを作成できます。
 
-詳しくは、[Journey Optimizer + Adobe インテリジェントサービス](../building-journeys/ai-services-overview.md)を参照してください。
+詳しくは、[Journey Optimizer + Adobe インテリジェントサービス](intelligent-services.md)を参照してください。
 
 
 ## Adobe Campaign {#integration-ac}

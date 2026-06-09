@@ -1,8 +1,8 @@
 ---
 solution: Journey Optimizer
 product: journey optimizer
-title: AI サービスの概要
-description: AI サービスの概要
+title: インテリジェントサービスとの統合
+description: Journey OptimizerでAdobe インテリジェントサービスとCustomer AI予測を活用する方法について説明します
 feature: Journeys, Integrations
 topic: Artificial Intelligence
 role: User
@@ -25,10 +25,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0e4ee7788c6a015a63bafcb7976ac5e4696e5d7a
 workflow-type: tm+mt
-source-wordcount: 184
-ht-degree: 59%
+source-wordcount: 196
+ht-degree: 55%
 
 ---
 

@@ -15,7 +15,7 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: e42070c4cc1dde06786c4075b1e6e45e8c323c12
+source-git-commit: 9372a9bed5c6da5db33567557944d69af9d56913
 workflow-type: tm+mt
 source-wordcount: 4372
 ht-degree: 98%
@@ -44,7 +44,7 @@ ht-degree: 98%
 <td>
 <p>サンドボックスツールを使用すると、パッケージのエクスポートとインポートを活用して、複数のサンドボックス間でオブジェクトをコピーできます。 パッケージは、1 つのオブジェクトまたは複数のオブジェクトで構成できます。 パッケージに含まれるオブジェクトは、同じサンドボックスからのものである必要があります。</p>
 <!--img src="../data/assets/dataset-export-setup.png"-->
-<p>詳しくは、<a href="../building-journeys/copy-to-sandbox.md">詳細なドキュメント</a>を参照してください。</p>
+<p>詳しくは、<a href="../configuration/copy-objects-to-sandbox.md">詳細なドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>

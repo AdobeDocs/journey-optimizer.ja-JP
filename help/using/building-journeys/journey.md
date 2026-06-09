@@ -34,7 +34,7 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+source-git-commit: 9372a9bed5c6da5db33567557944d69af9d56913
 workflow-type: tm+mt
 source-wordcount: 1614
 ht-degree: 97%
@@ -353,7 +353,7 @@ AI を使用して、各顧客が最も関与する可能性の高いタイミ�
 
 サンドボックス間でジャーニーを複製して、テストとデプロイメントのワークフローを効率化します。
 
-[ジャーニーのコピー](copy-to-sandbox.md)
+[ジャーニーのコピー](../configuration/copy-objects-to-sandbox.md#objects)
 :::
 
 :::
