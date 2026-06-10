@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 1f3adcb8c636ccd1a354af910441f4bda57015d7
+source-git-commit: c59ff3fc53db9654789dbb1b1be0baf04937d64a
 workflow-type: tm+mt
-source-wordcount: 1809
+source-wordcount: 1842
 ht-degree: 10%
 
 ---
@@ -174,6 +174,9 @@ Adobe Journey Optimizerでは、新機能、既存の機能の強化、バグ修
 </tr>
 </tbody>
 </table>
+
+* **フラグメントの編集可能なフィールド内のリッチテキスト** - メールコンテンツで使用されるカスタマイズ可能なフラグメントにリッチテキストを追加できるようになりました。例えば、電子メールDesignerでテキストコンポーネントを編集可能フィールドとして使用する場合、コンテンツの書式（太字や斜体など）を直接設定し、ハイパーリンクを挿入できます。
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-14715">DOCAC JIRA タスクへのリンク </a>
 
 * **フラグメントでのテキストモードのサポート** - テキストベースのメールワークフローをサポートするために、ビジュアルフラグメントのテキストバージョンを作成および管理して、そのフラグメントを含むメールのプレーンテキストバージョンで最適に使用できるようになりました。現在のリリースより前に作成されたフラグメントを使用すると、フラグメントテキストのバージョンが、電子メールのDesignerと受信者に配信された最終的な電子メールの両方で誤ってレンダリングされる可能性があります。古いフラグメントで最適な結果を得るには、各フラグメントを編集、保存、再公開します。
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14204">DOCAC JIRA タスクへのリンク </a>
