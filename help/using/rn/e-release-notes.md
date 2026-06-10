@@ -15,10 +15,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: e04a4e5ae5fb69494b46f7ae25095c637bb19842
+source-git-commit: 5e5a00be28f5b7bcae1fd3810f64302a0248799c
 workflow-type: tm+mt
-source-wordcount: 1791
-ht-degree: 10%
+source-wordcount: 1737
+ht-degree: 9%
 
 ---
 
@@ -39,23 +39,6 @@ Adobe Journey Optimizerでは、新機能、既存の機能の強化、バグ修
 ### ジャーニー {#june-26-journeys}
 
 このリリースでは、次の機能と機能強化がジャーニーに提供されます。
-
-<table>
-<thead>
-<tr>
-<th><strong>ジャーニー仲裁 – 数式</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p><strong>式</strong>を使用して、顧客プロファイル属性と文脈要因に基づいてジャーニーを自動的に<strong>優先順位付けおよび調停</strong>し、顧客が最も関連性の高いジャーニーに確実に参加できるようにできるようになりました。</p>
-<p>この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14719">DOCAC JIRA タスクへのリンク</a></p>
-</td>
-</tr>
-</tbody>
-</table>
 
 * **ライブジャーニーの制限と新しいガードレールの増加** – 最大&#x200B;**200個のアクティブなジャーニー**&#x200B;を追加でき、以前の制限の100から増やすことができるようになりました。
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14826">DOCAC JIRA タスクへのリンク </a>
