@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: ea1a283aacceafad32bd26560941a1bf613f3fea
+source-git-commit: d7d879286ccb9c2e4567bb70a8f78d34bd663c54
 workflow-type: tm+mt
-source-wordcount: 2002
+source-wordcount: 2035
 ht-degree: 10%
 
 ---
@@ -239,7 +239,7 @@ Adobe Journey Optimizerでは、新機能、既存の機能の強化、バグ修
 <table>
 <thead>
 <tr>
-<th><strong>Adobe Experience Managerのコンテンツフラグメント機能</strong><br/></th>
+<th><strong>Journey OptimizerでのAdobe Experience Manager コンテンツフラグメントの機能強化</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -251,8 +251,12 @@ Adobe Journey Optimizerでは、新機能、既存の機能の強化、バグ修
 <li>フラグメントを選択すると、そのコンテキストはメッセージ全体を通じて保持されるので、作成者は再選択することなく、コンテンツブロック間でフラグメントフィールドを再利用できます。</li>
 <li>新しい専用のコンテンツフラグメントリストページがJourney Optimizerに導入され、ライフサイクル管理が向上しました。同期されていないフラグメントを特定し、手動で同期をトリガーして最新の状態を維持できます。</li>
 <li>ロケールとバリエーションのサポートにより、マーケターは同じコンテンツフラグメントの代替バージョンをより慎重に操作できるようになりました。</li>
+<li>Adobe Journey OptimizerからAdobe Experience Manager コンテンツへのアクセス方法を柔軟に設定できるようになりました。 このリリースでは、ジャーニーとキャンペーンで使用するコンテンツフラグメントのソースリポジトリ </strong>を<strong>切り替える機能が導入されました。</li>
+<li><b>Managed Services</b>との互換性を持つようになり、Adobe Experience Manager コンテンツフラグメントをJourney Optimizerで直接表示、アクセス、使用してパーソナライズできるようになりました。 Adobe Experience Manager Managed Servicesのリポジトリ URLを、1回限りの設定として設定に追加するだけです。</li>
 </ul>
 <p><a href="https://jira.corp.adobe.com/browse/DOCAC-14686">DOCAC JIRA タスクへのリンク</a></p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14821">DOCAC JIRA タスクへのリンク</a></p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14684">DOCAC JIRA タスクへのリンク</a></p>
 </td>
 </tr>
 </tbody>
@@ -261,24 +265,18 @@ Adobe Journey Optimizerでは、新機能、既存の機能の強化、バグ修
 <table>
 <thead>
 <tr>
-<th><strong>Adobe Experience Manager リポジトリ設定</strong><br/></th>
+<th><strong>ADOBE EXPERIENCE MANAGER Asset EssentialsのAI アシスタントとの統合</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Adobe Journey OptimizerからAdobe Experience Manager コンテンツへのアクセス方法を柔軟に設定できるようになりました。 このリリースでは、ジャーニーとキャンペーンで使用するコンテンツフラグメントのソースリポジトリ </strong>を<strong>切り替える機能が導入されました。</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14684">DOCAC JIRA タスクへのリンク</a></p>
+<p>AI アシスタントが、メール、Web ページ、プッシュ通知を生成する際に、Adobe Experience Manager Assetsから<b> ブランド承認済み画像</b>を直接自動的に取得するようになりました。 これにより、Assetsを手動で検索したり、汎用的なAI フォールバックを利用したりする必要がなくなり、あらゆるビジュアルが完全に正確で、ブランドに準拠したものになります。</p>
+<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14761">DOCAC JIRA タスクへのリンク</a></p>
 </td>
 </tr>
 </tbody>
 </table>
-
-* **ネイティブAdobe Experience Manager コンテンツフラグメント（Managed Services）統合** - **Managed Services**&#x200B;と互換性を持つようになり、Adobe Experience Manager コンテンツフラグメントをJourney Optimizerで直接表示、アクセス、使用してパーソナライズできます。Adobe Experience Manager Managed Servicesのリポジトリ URLを、1回限りの設定として設定に追加するだけです。
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-14821">DOCAC JIRA タスクへのリンク </a>
-
-* **Adobe Experience Manager Asset EssentialsとのAI アシスタントの統合** - AI アシスタントが、メール、Web ページ、プッシュ通知を生成する際に、Adobe Experience Manager Assetsから&#x200B;**ブランド承認済み画像**&#x200B;を自動的に取得するようになりました。これにより、Assetsを手動で検索したり、汎用的なAI フォールバックを利用したりする必要がなくなり、あらゆるビジュアルが完全に正確で、ブランドに準拠したものになります。
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-14761">DOCAC JIRA タスクへのリンク </a>
 
 ### カスタムチャネル {#june-26-channels}
 
