@@ -12,10 +12,10 @@ exl-id: b30ce5c9-a0e2-4601-97a3-5bec648368e4
 badge: label="限定提供" type="Informative"
 feature_v2: []
 subfeature_v2: []
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+source-git-commit: 09c00832ec61f9b5a4c03867ddb227abb079afe1
 workflow-type: tm+mt
-source-wordcount: 811
-ht-degree: 88%
+source-wordcount: 797
+ht-degree: 89%
 
 ---
 
@@ -25,10 +25,6 @@ ht-degree: 88%
 >id="ajo_path_targeting_fallback"
 >title="フォールバックパスとは"
 >abstract="フォールバックパスを使用すると、ターゲティングルールが選定されていない場合に、オーディエンスは代替パスにエントリできます。 </br>このオプションが選択されていない場合、ターゲティングルールに適格でないオーディエンスはフォールバックパスに入らず、ジャーニーを終了しません。"
-
->[!AVAILABILITY]
->
->この機能は現在限定的です。 アクセスをリクエストするには、Adobe担当者にお問い合わせください。
 
 ターゲティングルールを使用すると、特定のオーディエンスセグメントに基づいて、顧客がいずれかのジャーニーパスへのエントリ対象となるために満たす必要がある、特定のルールまたは選定を決定できます<!-- depending on profile attributes or contextual attributes-->。
 
