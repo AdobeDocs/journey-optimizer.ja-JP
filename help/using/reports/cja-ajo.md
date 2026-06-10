@@ -24,10 +24,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 5f839a4ab1e599764c9b797e4a9a42850808e3e3
 workflow-type: tm+mt
-source-wordcount: 488
-ht-degree: 91%
+source-wordcount: 475
+ht-degree: 84%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 91%
 
    次の [!DNL Journey Optimizer] を設定できます。
    * [ジャーニーステップイベント](../data/datasets-query-examples.md#journey-step-event)：誰がジャーニーにエントリし、どのくらい進んだかを確認できます。
-   * [メッセージフィードバック／トラッキングデータセット](../data/datasets-query-examples.md#message-feedback-event-dataset)：[!DNL Journey Optimizer] を介して送信したメッセージに関する配信情報を表示できます。
+   * [メッセージフィードバック／トラッキングデータセット](../data/datasets-query-examples.md#message-feedback-event-dataset)：[!DNL Journey Optimizer] を介して送信したメッセージに関する配信情報を表示できます。 Message Feedback Event Datasetでは、バッチ取り込みが使用されます。CJA レポートでは、最大2時間のデータ待ち時間が想定されます。
    * [エンティティデータセットおよびジャーニーデータセット](../data/datasets-query-examples.md#entity-dataset)：わかりやすい名前を検索し、レポートで使用できます。
 
 1. [データビューを作成](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-dataviews/create-dataview.html?lang=ja){target="_blank"}して、レポートに使用するディメンションおよび指標を設定します。
@@ -73,8 +73,8 @@ ht-degree: 91%
 
 * **[!DNL Journey Optimizer] レポートでは、送信済み指標には、再試行指標も含まれます。**
 
-  **[!UICONTROL 再試行]**&#x200B;は、[!DNL Customer Journey Analytics]での&#x200B;**[!UICONTROL 送信済み]**&#x200B;指標には含まれません。 そのため、[!DNL Customer Journey Analytics] **[!UICONTROL 送信済み]**&#x200B;指標には、[!DNL Journey Optimizer] より低い値が表示されます。 ただし、再試行データは、「**[!UICONTROL 正常に送信されたメッセージ]**」または「**[!UICONTROL バウンス]**」指標に収束されます。
-相違を減らすには、1 週間前またはそれ以降の日付範囲を使用します。
+  **[!UICONTROL 再試行]**&#x200B;は、[!DNL Customer Journey Analytics]の&#x200B;**[!UICONTROL 送信済み]**&#x200B;指標には含まれません。これにより、[!DNL Customer Journey Analytics] **[!UICONTROL 送信済み]**&#x200B;指標が[!DNL Journey Optimizer]より低い値を示します。ただし、再試行データは、**[!UICONTROL メッセージが正常に送信された]**&#x200B;または&#x200B;**[!UICONTROL バウンス]**&#x200B;指標に統合されます。
+相違を減らすには、1週間前またはそれ以降の日付範囲を使用します。
 
 * **レポートは、異なるデータソースから提供されています。**
 

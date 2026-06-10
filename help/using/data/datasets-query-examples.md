@@ -27,10 +27,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
+source-git-commit: 5f839a4ab1e599764c9b797e4a9a42850808e3e3
 workflow-type: tm+mt
-source-wordcount: 1094
-ht-degree: 93%
+source-wordcount: 1118
+ht-degree: 91%
 
 ---
 
@@ -98,6 +98,10 @@ _インターフェイスの名前：AJO メッセージフィードバックイ
 メールおよびプッシュアプリケーションのフィードバックイベントを Journey Optimizer から取り込むためのデータセット。
 
 関連するスキーマは、AJO メッセージフィードバックイベントスキーマです。
+
+>[!NOTE]
+>
+>このデータセットはバッチ収集を使用します。 このデータセットをクエリするか、レポート用に使用する場合は、最大2時間のデータ待ち時間が必要です。
 
 このクエリは、特定のメッセージに対する様々なメールフィードバックステータス（送信済み、バウンスなど）の数を表示します。
 
@@ -192,7 +196,7 @@ ORDER BY timestamp DESC;
 
 日付の形式は、`YYYY-MM-DD HH:MM:SS` です。
 
-識別したら、これらのアドレスを Journey Optimizer 抑制リストから削除します。 [詳細情報](../configuration/manage-suppression-list.md#remove-from-suppression-list)
+識別したら、これらのアドレスを Journey Optimizer 抑制リストから削除します。 [学習を増やす](../configuration/manage-suppression-list.md#remove-from-suppression-list)。
 
 >[!NOTE]
 >
