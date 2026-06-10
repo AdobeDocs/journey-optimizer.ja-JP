@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 1ff42f25705112ec5c841b0cbd2a74cd5bf8c68a
+source-git-commit: e04a4e5ae5fb69494b46f7ae25095c637bb19842
 workflow-type: tm+mt
-source-wordcount: 1838
+source-wordcount: 1791
 ht-degree: 10%
 
 ---
@@ -200,8 +200,10 @@ Adobe Journey Optimizerでは、新機能、既存の機能の強化、バグ修
 * **フラグメントの編集可能なフィールド内のリッチテキスト** - メールコンテンツで使用されるカスタマイズ可能なフラグメントにリッチテキストを追加できるようになりました。例えば、電子メールDesignerでテキストコンポーネントを編集可能フィールドとして使用する場合、コンテンツの書式（太字や斜体など）を直接設定し、ハイパーリンクを挿入できます。
   <a href="https://jira.corp.adobe.com/browse/DOCAC-14715">DOCAC JIRA タスクへのリンク </a>
 
-* **フラグメントでのテキストモードのサポート** - テキストベースのメールワークフローをサポートするために、ビジュアルフラグメントのテキストバージョンを作成および管理して、そのフラグメントを含むメールのプレーンテキストバージョンで最適に使用できるようになりました。現在のリリースより前に作成されたフラグメントを使用すると、フラグメントテキストのバージョンが、電子メールのDesignerと受信者に配信された最終的な電子メールの両方で誤ってレンダリングされる可能性があります。古いフラグメントで最適な結果を得るには、各フラグメントを編集、保存、再公開します。
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-14204">DOCAC JIRA タスクへのリンク </a>
+<!--
+* **Text mode support in fragments** - To support text-based email workflows, you can now create and manage text versions of your visual fragments for optimal use in the plain text version of emails that include that fragment. When using a fragment that was created before the current release, the fragment text version may be incorrectly rendered — both in the Email Designer and in the final email delivered to your recipients. For best results with older fragments, edit, save and republish each fragment.
+  <a href="https://jira.corp.adobe.com/browse/DOCAC-14204">Link to DOCAC JIRA task</a>
+-->
 
 ### モバイルメッセージ（SMS、MMS、RCS、LINE） {#june-26-mobile}
 
