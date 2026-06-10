@@ -8,25 +8,13 @@ level: Beginner, Intermediate
 description: Adobe Journey Optimizer リリースノート
 exl-id: 06fa956a-b500-416e-9d42-b683c328e837
 TQID: https://experienceleague.adobe.com/YJKQFYUi8Kw7yZZKm8blcM-1G9uYsqcsEsopH0hOMhA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ee1c7b47f3547759d6452ce9f70ebabec1ed3ec2
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d00e9f03-e50b-4162-b143-0c0817c937c2id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 3722a09a14327f3fe70ff43216b16172ca75efe7
 workflow-type: tm+mt
 source-wordcount: 2943
 ht-degree: 21%
@@ -169,9 +157,9 @@ ht-degree: 21%
 </tbody>
 </table>
 
-[!BADGE 重要]{type=Informative} **&#x200B;**&#x200B;AJO Message Feedback Event Dataset moving to batch ingestion **-** AJO Message Feedback Event Dataset**は、ストリーミング取り込みからバッチ取り込みに移行しています。 その結果、このデータセットに対して最大2時間のデータ待ち時間が期待されます。 Customer Journey Analyticsでレポートを作成している場合や、このデータセットを使用してクエリを実行している場合は、今後この遅延が増加することを考慮してください。 [詳細情報](../data/get-started-datasets.md)
+* [!BADGE 重要]{type=Informative} **AJO Message Feedback Event Dataset moving to batch ingestion** - **AJO Message Feedback Event Dataset**&#x200B;は、ストリーミング取り込みからバッチ取り込みに移行しています。 その結果、このデータセットに対して最大2時間のデータ待ち時間が期待されます。 Customer Journey Analyticsでレポートを作成している場合や、このデータセットを使用してクエリを実行している場合は、今後この遅延が増加することを考慮してください。 [詳細情報](../data/get-started-datasets.md)
 
-ご利用いただけます：2026年6月10日（PT）
+  ご利用いただけます：2026年6月10日（PT）
 
 * **非繰り返しの読み取りオーディエンスジャーニー**&#x200B;の自動停止 – 繰り返しの&#x200B;**読み取りオーディエンス** ジャーニーが、最後にアクティブなプロファイルが終了すると、自動的に&#x200B;**停止** ステータスに移行するようになりました。 以前は、これらのジャーニーは、プロファイルがフローしなくなった場合でも、91日間のグローバルタイムアウトが期限切れになるまで&#x200B;**ライブ**&#x200B;のままでした。 この改善により、ジャーニーのステータスは、完了するとすぐに実際の実行ステータスを反映するようになり、手作業なしでジャーニーインベントリを正確に保つことができます。
 
