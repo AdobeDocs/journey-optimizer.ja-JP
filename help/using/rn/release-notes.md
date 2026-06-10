@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 09c00832ec61f9b5a4c03867ddb227abb079afe1
+source-git-commit: ee1c7b47f3547759d6452ce9f70ebabec1ed3ec2
 workflow-type: tm+mt
-source-wordcount: 2942
+source-wordcount: 2943
 ht-degree: 21%
 
 ---
@@ -169,9 +169,9 @@ ht-degree: 21%
 </tbody>
 </table>
 
-* **AJO Message Feedback Event Dataset moving to batch ingestion** - **AJO Message Feedback Event Dataset**&#x200B;は、ストリーミング取り込みからバッチ取り込みに移行しています。 その結果、このデータセットに対して最大2時間のデータ待ち時間が期待されます。 Customer Journey Analyticsでレポートを作成している場合や、このデータセットを使用してクエリを実行している場合は、今後この遅延が増加することを考慮してください。 [詳細情報](../data/get-started-datasets.md)
+[!BADGE 重要]{type=Informative} **&#x200B;**&#x200B;AJO Message Feedback Event Dataset moving to batch ingestion **-** AJO Message Feedback Event Dataset**は、ストリーミング取り込みからバッチ取り込みに移行しています。 その結果、このデータセットに対して最大2時間のデータ待ち時間が期待されます。 Customer Journey Analyticsでレポートを作成している場合や、このデータセットを使用してクエリを実行している場合は、今後この遅延が増加することを考慮してください。 [詳細情報](../data/get-started-datasets.md)
 
-  ご利用いただけます：2026年6月10日（PT）
+ご利用いただけます：2026年6月10日（PT）
 
 * **非繰り返しの読み取りオーディエンスジャーニー**&#x200B;の自動停止 – 繰り返しの&#x200B;**読み取りオーディエンス** ジャーニーが、最後にアクティブなプロファイルが終了すると、自動的に&#x200B;**停止** ステータスに移行するようになりました。 以前は、これらのジャーニーは、プロファイルがフローしなくなった場合でも、91日間のグローバルタイムアウトが期限切れになるまで&#x200B;**ライブ**&#x200B;のままでした。 この改善により、ジャーニーのステータスは、完了するとすぐに実際の実行ステータスを反映するようになり、手作業なしでジャーニーインベントリを正確に保つことができます。
 
