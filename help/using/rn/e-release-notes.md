@@ -15,9 +15,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: d7d879286ccb9c2e4567bb70a8f78d34bd663c54
+source-git-commit: 09c00832ec61f9b5a4c03867ddb227abb079afe1
 workflow-type: tm+mt
-source-wordcount: 2035
+source-wordcount: 1945
 ht-degree: 10%
 
 ---
@@ -39,24 +39,6 @@ Adobe Journey Optimizerでは、新機能、既存の機能の強化、バグ修
 ### ジャーニー {#june-26-journeys}
 
 このリリースでは、次の機能と機能強化がジャーニーに提供されます。
-
-<table>
-<thead>
-<tr>
-<th><strong>ジャーニーパスの最適化 – ターゲティング</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p><strong>最適化アクティビティ </strong>は、<strong> ターゲティングルール </strong>をサポートするようになりました。 ターゲティングルールを使用すると、オーディエンスセグメントやプロファイル属性に基づいて、顧客が特定のジャーニーパスに対して選定するために満たす必要がある特定の基準を定義できます。</p>
-<p>顧客がランダムにパスに割り当てられる実験とは異なり、ターゲティングでは決定論的ロジックを使用して、適切なオーディエンスまたは顧客プロファイルが目的のパスにルーティングされるようにします。</p>
-<p>この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14720">DOCAC JIRA タスクへのリンク</a></p>
-</td>
-</tr>
-</tbody>
-</table>
 
 <table>
 <thead>

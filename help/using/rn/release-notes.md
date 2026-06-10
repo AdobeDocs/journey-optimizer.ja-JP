@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 43a3411731e99e1b1eac318a7a3c9bcd93de8de9
+source-git-commit: 09c00832ec61f9b5a4c03867ddb227abb079afe1
 workflow-type: tm+mt
-source-wordcount: 2850
+source-wordcount: 2942
 ht-degree: 21%
 
 ---
@@ -65,6 +65,26 @@ ht-degree: 21%
 <p><img src="assets/do-not-localize/journey-simulation.gif"></p>
 <p>詳しくは、<a href="../building-journeys/simulate-journey-gs.md">詳細ドキュメント</a>を参照してください。</p>
 <p>ご利用いただけます：2026年6月9日（PT）</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>ジャーニーパスの最適化 – ターゲティング</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><strong> アクティビティの最適化</strong>では、<strong> ターゲティングルール </strong>がサポートされるようになりました。これにより、オーディエンスセグメントまたはプロファイル属性に基づいて、顧客が特定のジャーニーパスの対象として選定するために満たす必要がある特定の基準を定義できます。</p>
+<p>顧客がランダムにパスに割り当てられる実験とは異なり、ターゲティングでは決定論的ロジックを使用して、適切なオーディエンスまたは顧客プロファイルが目的のパスにルーティングされるようにします。</p>
+<p>この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。</p>
+<p><img src="assets/do-not-localize/optimize.gif"></p>
+<p>詳しくは、<a href="../building-journeys/path-targeting.md">詳細ドキュメント</a>を参照してください。</p>
+<p>ご利用いただけます：2026年6月8日（PT）</p>
 </td>
 </tr>
 </tbody>
