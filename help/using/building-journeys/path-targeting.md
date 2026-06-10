@@ -9,12 +9,11 @@ role: User
 level: Intermediate
 keywords: ターゲティング，ルール，ジャーニー，パス，最適化，パーソナライゼーション
 exl-id: b30ce5c9-a0e2-4601-97a3-5bec648368e4
-badge: label="限定提供" type="Informative"
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 09c00832ec61f9b5a4c03867ddb227abb079afe1
+source-git-commit: eb72b6c86793153cbbdb330427cc1f663705072e
 workflow-type: tm+mt
-source-wordcount: 797
+source-wordcount: 795
 ht-degree: 89%
 
 ---
