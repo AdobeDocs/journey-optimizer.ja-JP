@@ -6,17 +6,12 @@ description: Adobe Journey Optimizer プレリリースノート
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 9915d814778a8d18cf4a691e8e2d351c2ac7c405
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 351bb6d71cebf09d0bb378653d4e97edb2a8cffc
 workflow-type: tm+mt
-source-wordcount: 1599
+source-wordcount: 1706
 ht-degree: 7%
 
 ---
@@ -256,8 +251,17 @@ Adobe Journey Optimizerでは、新機能、既存の機能の強化、バグ修
 
 * **データセットがストリーミングモードからバッチモードに移行しています** - AJO Message Feedback Event データセットは、ストリーミングモードから&#x200B;**バッチ取り込みモード**&#x200B;に移行しています。 この変更により、データ取り込みがストリーミング取り込み制限を超えないことが保証されます。 このデータセットをCustomer Journey Analytics レポートで使用する場合や、このデータセットに対してクエリを実行する場合は、最大2時間のデータ遅延が発生すると予想されます。
 
++++ 近日リリース予定 – **以下の情報は変更される可能性があります。**
+
+* **Web Application Firewall （WAF） IP ホワイトリストへの登録** - Adobe Journey Optimizerでは、ランディングページのWeb Application Firewall （WAF） IP ホワイトリストへの登録がサポートされるようになりました。これにより、組織は、すべての着信リクエストが設定されたWAF インフラストラクチャを通じてのみルーティングされるようにすることができます。 この機能強化により、お客様はJourney Optimizerを設定して、WAF レイヤーをバイパスするダイレクトリクエストを拒否し、Impervaなどのツールで定義されたセキュリティポリシーが一貫して適用されるようにすることができます。 この機能により、厳格なネットワークアクセス要件を持つ企業のセキュリティ体制が強化され、AJOでホストされているランディングページへのトラフィックフローを完全に制御できるようになります。
+
+  利用可能日：2026年6月下旬
+
++++
+
 ### ユーザビリティの向上 {#june-26-usability}
 
 このリリースでは、次の操作性の改善が行われています。
 
 * **ジャーニーとキャンペーン用のフォルダー** - ジャーニーとキャンペーンを&#x200B;**フォルダー**&#x200B;に整理して、インターフェイスのナビゲーションと管理を改善できるようになりました。
+
