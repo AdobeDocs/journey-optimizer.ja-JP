@@ -4,7 +4,6 @@ product: journey optimizer
 title: Journey Optimizer のプレリリースノート
 description: Adobe Journey Optimizer プレリリースノート
 feature: Release Notes
-hide: true
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
 product_v2:
@@ -15,10 +14,10 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 3f38c4a48bc1ae55e285209ce33a0ebc9ecc4dcb
+source-git-commit: dccfb51bd565718dce4e3b926c22af2067d7c9f1
 workflow-type: tm+mt
-source-wordcount: 1658
-ht-degree: 10%
+source-wordcount: 1756
+ht-degree: 7%
 
 ---
 
@@ -41,17 +40,13 @@ Adobe Journey Optimizerでは、新機能、既存の機能の強化、バグ修
 このリリースでは、次の機能と機能強化がジャーニーに提供されます。
 
 * **ライブジャーニーの制限と新しいガードレールの増加** – 最大&#x200B;**200個のアクティブなジャーニー**&#x200B;を追加でき、以前の制限の100から増やすことができるようになりました。
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-14826">DOCAC JIRA タスクへのリンク </a>
 
-* **ジャーニーヘッダーの開始日と終了日** - ライブジャーニーで開始日と終了日を設定すると、ライブステータスバッジの横にある&#x200B;**ジャーニーヘッダー**&#x200B;に表示されるようになりました。表示されるラベルは、各日付が予定されているか、すでに経過しているかに基づいて適応します。
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-14702">DOCAC JIRA タスクへのリンク </a>
+* **ジャーニーヘッダーの開始日と終了日** - ライブジャーニーで開始日と終了日を設定すると、ライブステータスバッジの横にある&#x200B;**ジャーニーヘッダー**&#x200B;に表示されるようになりました。 表示されるラベルは、各日付が予定されているか、すでに経過しているかに基づいて適応します。
 
-* **一時停止したジャーニーを直接停止または閉じる** - **一時停止**&#x200B;状態から直接&#x200B;**ジャーニーを停止するか、新しいエントリ**&#x200B;に閉じることができるようになりました。以前は、一時停止したジャーニーを停止または閉じる前に、「ライブ」に再開する必要がありました。
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-14229">DOCAC JIRA タスクへのリンク </a>
+* **一時停止したジャーニーを直接停止または閉じる** - **一時停止**&#x200B;状態から直接&#x200B;**ジャーニーを停止するか、新しいエントリ**&#x200B;に閉じることができるようになりました。 以前は、一時停止したジャーニーを停止または閉じる前に、「ライブ」に再開する必要がありました。
 
 <!--
 * **Supplemental identifier support for external audiences** - Supplemental identifiers in journeys are now supported for external audiences, including audiences imported from a CSV file and audiences created with Federated Audience Composition. You can designate any non-identity attribute or non-person identity attribute from the audience as the supplemental ID, no schema labeling is required.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-14541">Link to DOCAC JIRA task</a>
 -->
 
 ### オーケストレーションキャンペーン {#june-26-oc}
@@ -69,21 +64,17 @@ Adobe Journey Optimizerでは、新機能、既存の機能の強化、バグ修
 <td>
 <p>オーケストレーションされたキャンペーンでは、最初にAdobe Experience Platformにファイルを取り込むことなく、<strong>CSVまたはTXT ファイル </strong>をターゲットオーディエンスとしてキャンペーンキャンバスに直接読み込むことがサポートされるようになりました。 ファイルデータは実行時に消費され、Adobe Experience Platform データセットとして保持されません。 ファイルの設定時に、列のマッピング、データタイプ、NULL処理、列ごとのエラーポリシーを定義できます。 これは、完全な取り込みパイプラインの構築が実用的ではないアドホック送信やパートナーリストキャンペーンをサポートしています。</p>
 <p>この機能は、一連の組織でのみ使用できます（限定提供）。 アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14704">DOCAC JIRA タスクへのリンク</a></p>
 </td>
 </tr>
 </tbody>
 </table>
 
-* オーケストレーションされたキャンペーンのリレーショナルデータに対する&#x200B;**ループベースのパーソナライゼーション** - パーソナライゼーションエディターで、注文、アカウント、予約などのリレーショナルコレクションを繰り返し処理し、レコードごとに1つのコンテンツブロックを1つの電子メールまたはSMS内にレンダリングする&#x200B;**ループブロック**&#x200B;がサポートされるようになりました。コレクションは、パーソナライゼーショントークンを使用してデータピッカーを通じて設定され、式の書き込みは必要ありません。
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-14703">DOCAC JIRA タスクへのリンク </a>
+* オーケストレーションされたキャンペーンのリレーショナルデータに対する&#x200B;**ループベースのパーソナライゼーション** - パーソナライゼーションエディターで、注文、アカウント、予約などのリレーショナルコレクションを繰り返し処理し、レコードごとに1つのコンテンツブロックを1つの電子メールまたはSMS内にレンダリングする&#x200B;**ループブロック**&#x200B;がサポートされるようになりました。 コレクションは、パーソナライゼーショントークンを使用してデータピッカーを通じて設定され、式の書き込みは必要ありません。
 
-* **受信者とキャンペーンごとにメール送信者の詳細をパーソナライズ** – 統合されたキャンペーンでは、プロファイル属性またはリレーショナルデータを使用して、送信者名、送信者アドレス、返信先を含む&#x200B;**メールヘッダーフィールド**&#x200B;のパーソナライゼーションがサポートされるようになりました。これにより、送信者の詳細では、単一の企業アドレスを介してすべての送信をルーティングするのではなく、各受信者に関連するアドバイザー、場所、またはブランチを反映できます。ヘッダー値はチャネルレベルで設定でき、コンテキストデータを使用してキャンペーンごとに上書きすることで、より正確な制御が可能になります。
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13761">DOCAC JIRA タスクへのリンク </a>
+* **受信者とキャンペーンごとにメール送信者の詳細をパーソナライズ** – 統合されたキャンペーンでは、プロファイル属性またはリレーショナルデータを使用して、送信者名、送信者アドレス、返信先を含む&#x200B;**メールヘッダーフィールド**&#x200B;のパーソナライゼーションがサポートされるようになりました。 これにより、送信者の詳細では、単一の企業アドレスを介してすべての送信をルーティングするのではなく、各受信者に関連するアドバイザー、場所、またはブランチを反映できます。 ヘッダー値はチャネルレベルで設定でき、コンテキストデータを使用してキャンペーンごとに上書きすることで、より正確な制御が可能になります。
 
 <!--
 * **Target dimension simplification in Orchestrated campaigns** - The active **targeting dimension** is now shown on the workflow canvas, so you can see which dimension is used by a channel activity. The multi-entity segmentation flow is simpler as you no longer need a separate "Change dimension" activity. Moreover, you can now choose explicitly whether messages are sent at the profile level or at a secondary dimension level.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-13554">Link to DOCAC JIRA task</a>
 -->
 
 ### 決定 {#june-26-decisioning}
@@ -101,7 +92,6 @@ Adobe Journey Optimizerでは、新機能、既存の機能の強化、バグ修
 <td>
 <p>Decisioningで<strong>Adobe Experience Manager コンテンツフラグメント </strong>を<strong>決定項目</strong>にマッピングし、決定ポリシー内でそれらを活用して、適切なフラグメントを適切な顧客にタイミングよく配信できるようになりました。</p>
 <p>この機能は、以前は限定提供でリリースされていましたが、現在はすべての環境で使用できるようになりました（一般提供）。</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14885">DOCAC JIRA タスクへのリンク</a></p>
 </td>
 </tr>
 </tbody>
@@ -123,7 +113,6 @@ Adobe Journey Optimizerでは、新機能、既存の機能の強化、バグ修
 <p>Journey Optimizerでは、<strong> カスタムチャネル </strong>を導入しました。これは、管理者がWeChat、Kakao Talk、Messenger、独自のプロバイダーなど、任意のアウトバウンド HTTP ベースのメッセージングチャネルを、ノーコードチャネルビルダーを介してJourney Optimizerに直接取り込めるようにするための新機能です。</p>
 <p>一度設定されたカスタムチャネルは、キャンペーン、ジャーニー、オーケストレーションされたキャンペーンをまたいで利用でき、ネイティブチャネルと同じフルセットの機能を使用します。式エディターを使用したパーソナライゼーション、コンテンツの実験、プレビューとプルーフ、すぐに使えるレポート、同意とガバナンスの適用などです。 これにより、ジャーニーに限定されたカスタムアクションや、専用のコンテンツオーサリングに欠けていたカスタムアクションで以前に対処したギャップが埋まります。</p>
 <p>この機能は、一連の組織でのみ使用できます（限定提供）。 アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-11381">DOCAC JIRA タスクへのリンク</a></p>
 </td>
 </tr>
 </tbody>
@@ -144,7 +133,6 @@ Adobe Journey Optimizerでは、新機能、既存の機能の強化、バグ修
 <tr>
 <td>
 <p>The Email Designer now includes a library of ready-to-use layout components — such as Headers, Product Cards (1, 2, or 3 columns), Information blocks, and Footers — that you can drag and drop directly into your email canvas. Each component comes pre-configured with editable properties (image, title, text, button, links) and can be fully customized through the WYSIWYG interface, speeding up email creation without requiring you to build structures from scratch.</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14877">Link to DOCAC JIRA task</a></p>
 </td>
 </tr>
 </tbody>
@@ -161,7 +149,6 @@ Adobe Journey Optimizerでは、新機能、既存の機能の強化、バグ修
 <tr>
 <td>
 <p>Journey Optimizerでは、ユーザーがEmail Designer インターフェイス内で直接<strong> メールコンテンツ品質</strong>を検証できるようになりました（読みやすさ、有効性、コンテンツの一貫性など）。</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14870">DOCAC JIRA タスクへのリンク</a></p>
 </td>
 </tr>
 </tbody>
@@ -178,18 +165,15 @@ Adobe Journey Optimizerでは、新機能、既存の機能の強化、バグ修
 <td>
 <p>この新しいオプションを使用すると、電子メールの外観を変えることなく、不要な空白、コメント、冗長なコードを削除して、電子メール内のHTML</strong>のサイズを<strong>縮小できます。 これにより、到達性の向上（一部のメールプロバイダーがサイズの大きすぎるメールを拒否またはフラグ付けする）と、受信者の読み込み時間の短縮に役立ちます。</p>
 <p>ご利用いただけます：2026年6月10日（PT）</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14777">DOCAC JIRA タスクへのリンク</a></p>
 </td>
 </tr>
 </tbody>
 </table>
 
-* **フラグメントの編集可能なフィールド内のリッチテキスト** - メールコンテンツで使用されるカスタマイズ可能なフラグメントにリッチテキストを追加できるようになりました。例えば、電子メールDesignerでテキストコンポーネントを編集可能フィールドとして使用する場合、コンテンツの書式（太字や斜体など）を直接設定し、ハイパーリンクを挿入できます。
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-14715">DOCAC JIRA タスクへのリンク </a>
+* **フラグメントの編集可能なフィールド内のリッチテキスト** - メールコンテンツで使用されるカスタマイズ可能なフラグメントにリッチテキストを追加できるようになりました。 例えば、電子メールDesignerでテキストコンポーネントを編集可能フィールドとして使用する場合、コンテンツの書式（太字や斜体など）を直接設定し、ハイパーリンクを挿入できます。
 
 <!--
 * **Text mode support in fragments** - To support text-based email workflows, you can now create and manage text versions of your visual fragments for optimal use in the plain text version of emails that include that fragment. When using a fragment that was created before the current release, the fragment text version may be incorrectly rendered — both in the Email Designer and in the final email delivered to your recipients. For best results with older fragments, edit, save and republish each fragment.
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-14204">Link to DOCAC JIRA task</a>
 -->
 
 ### モバイルメッセージ（SMS、MMS、RCS、LINE） {#june-26-mobile}
@@ -197,13 +181,10 @@ Adobe Journey Optimizerでは、新機能、既存の機能の強化、バグ修
 このリリースでは、モバイルメッセージに次の改善が加えられています。
 
 * **SMS レポートのユニーククリック数** - SMS レポートに新しい&#x200B;**ユニーククリック数** モジュールが導入され、現在メールレポートで使用できるSMSと同じレベルの詳細なパフォーマンストラッキングが実現されました。
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-14895">DOCAC JIRA タスクへのリンク </a>
 
-* **LINE チャネル – オーサリングの変更** - LINE チャネル UIが高度なメッセージ オーサリング機能でアップグレードされました。このリリースでは、テキスト、画像、Imagemap、カルーセル、Flex（JSON エディター）など、**複数のメッセージ形式**&#x200B;のサポートが導入され、リアルタイムのデバイスプレビューと共に提供されます。ユーザーは、最大5つの順序付きメッセージ（追加、削除、並べ替えコントロールを使用）のグループ化されたメッセージを管理し、統合されたパーソナライゼーションエディターを使用して、検証済みの動的メッセージを作成できるようになりました。
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-14869">DOCAC JIRA タスクへのリンク </a>
+* **LINE チャネル – オーサリングの変更** - LINE チャネル UIが高度なメッセージ オーサリング機能でアップグレードされました。 このリリースでは、テキスト、画像、Imagemap、カルーセル、Flex（JSON エディター）など、**複数のメッセージ形式**&#x200B;のサポートが導入され、リアルタイムのデバイスプレビューと共に提供されます。 ユーザーは、最大5つの順序付きメッセージ（追加、削除、並べ替えコントロールを使用）のグループ化されたメッセージを管理し、統合されたパーソナライゼーションエディターを使用して、検証済みの動的メッセージを作成できるようになりました。
 
-* **SMS – 使用状況の指標を表示** - Adobe Journey Optimizerを通じて直接SMSを購入するお客様に対して、新しい&#x200B;**SMS使用状況ダッシュボード**&#x200B;が導入されました。Mobile Originated （MO）およびMobile Terminated （MT）メッセージで分類された、過去90日間のメッセージ送信指標を表示および追跡できるようになりました。このデータはCSVでダウンロードすることもでき、SMS費用の可視性と制御を強化します。
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-14345">DOCAC JIRA タスクへのリンク </a>
+* **SMS – 使用状況の指標を表示** - Adobe Journey Optimizerを通じて直接SMSを購入するお客様に対して、新しい&#x200B;**SMS使用状況ダッシュボード**&#x200B;が導入されました。 Mobile Originated （MO）およびMobile Terminated （MT）メッセージで分類された、過去90日間のメッセージ送信指標を表示および追跡できるようになりました。 このデータはCSVでダウンロードすることもでき、SMS費用の可視性と制御を強化します。
 
 ### コンテンツと統合 {#june-26-content}
 
@@ -227,9 +208,6 @@ Adobe Journey Optimizerでは、新機能、既存の機能の強化、バグ修
 <li>Adobe Journey OptimizerからAdobe Experience Manager コンテンツへのアクセス方法を柔軟に設定できるようになりました。 このリリースでは、ジャーニーとキャンペーンで使用するコンテンツフラグメントのソースリポジトリ </strong>を<strong>切り替える機能が導入されました。</li>
 <li><b>Managed Services</b>との互換性を持つようになり、Adobe Experience Manager コンテンツフラグメントをJourney Optimizerで直接表示、アクセス、使用してパーソナライズできるようになりました。 Adobe Experience Manager Managed Servicesのリポジトリ URLを、1回限りの設定として設定に追加するだけです。</li>
 </ul>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14686">DOCAC JIRA タスクへのリンク</a></p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14821">DOCAC JIRA タスクへのリンク</a></p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14684">DOCAC JIRA タスクへのリンク</a></p>
 </td>
 </tr>
 </tbody>
@@ -245,7 +223,6 @@ Adobe Journey Optimizerでは、新機能、既存の機能の強化、バグ修
 <tr>
 <td>
 <p>AI アシスタントが、メール、Web ページ、プッシュ通知を生成する際に、Adobe Experience Manager Assetsから<b> ブランド承認済み画像</b>を直接自動的に取得するようになりました。 これにより、Assetsを手動で検索したり、汎用的なAI フォールバックを利用したりする必要がなくなり、あらゆるビジュアルが完全に正確で、ブランドに準拠したものになります。</p>
-<p><a href="https://jira.corp.adobe.com/browse/DOCAC-14761">DOCAC JIRA タスクへのリンク</a></p>
 </td>
 </tr>
 </tbody>
@@ -256,7 +233,6 @@ Adobe Journey Optimizerでは、新機能、既存の機能の強化、バグ修
 このリリースでは、キャンペーンに次の改善が加えられています。
 
 * **キャンペーンのデフォルトの実行フィールドを上書き** – 以前はジャーニーレベルで使用されていましたが、キャンペーンのパラメーターで、メール、SMS、WhatsApp配信にグローバルに設定されたデフォルトの&#x200B;**実行フィールド**&#x200B;を上書きできるようになりました。
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-14718">DOCAC JIRA タスクへのリンク </a>
 
 ### レポート {#june-26-reporting}
 
@@ -267,28 +243,20 @@ Adobe Journey Optimizerでは、新機能、既存の機能の強化、バグ修
    * 推定CTR：合計配信数に対するクリック数の推定値。
    * メールの推定CTORのみ：推定開封数に対する推定クリック数。
 
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-14354">DOCAC JIRA タスクへのリンク </a>
-
 ### 設定 {#june-26-configuration}
 
 このリリースでは、設定と管理に次の機能強化が加えられています。
 
-* **Web Application Firewall （WAF） IP ホワイトリスト作成** - Adobe Journey Optimizerでは、ランディングページのWAF IP ホワイトリスト作成がサポートされるようになりました。これにより、組織は、すべての着信リクエストが、設定されたWAF インフラストラクチャを通じてのみルーティングされることを強制できるようになりました。この機能強化により、お客様はJourney Optimizerを設定して、WAF レイヤーをバイパスするダイレクトリクエストを拒否し、Impervaなどのツールで定義されたセキュリティポリシーが一貫して適用されるようにすることができます。この機能により、厳格なネットワークアクセス要件を持つ企業のセキュリティ体制が強化され、Journey Optimizerでホストされているランディングページへのトラフィックフローを完全に制御できるようになります。
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-14814">DOCAC JIRA タスクへのリンク </a>
+* **Web Application Firewall （WAF） IP ホワイトリスト作成** - Adobe Journey Optimizerでは、ランディングページのWAF IP ホワイトリスト作成がサポートされるようになりました。これにより、組織は、すべての着信リクエストが、設定されたWAF インフラストラクチャを通じてのみルーティングされることを強制できるようになりました。 この機能強化により、お客様はJourney Optimizerを設定して、WAF レイヤーをバイパスするダイレクトリクエストを拒否し、Impervaなどのツールで定義されたセキュリティポリシーが一貫して適用されるようにすることができます。 この機能により、厳格なネットワークアクセス要件を持つ企業のセキュリティ体制が強化され、Journey Optimizerでホストされているランディングページへのトラフィックフローを完全に制御できるようになります。
 
-* カスタムサブドメインの&#x200B;**フィードバックループ OTP プロセス** - Yahoo送信者ハブ **One-Time Password （OTP）**&#x200B;を製品UI内で直接表示することで、フィードバックループ （FBL） カスタムサブドメイン設定プロセスが改善されました。ユーザーは、Yahoo送信者ハブドメイン所有権の検証中に生成されたOTPを自動的に取得して表示できるようになりました。
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-14815">DOCAC JIRA タスクへのリンク </a>
+* カスタムサブドメインの&#x200B;**フィードバックループ OTP プロセス** - Yahoo送信者ハブ **One-Time Password （OTP）**&#x200B;を製品UI内で直接表示することで、フィードバックループ （FBL） カスタムサブドメイン設定プロセスが改善されました。 ユーザーは、Yahoo送信者ハブドメイン所有権の検証中に生成されたOTPを自動的に取得して表示できるようになりました。
 
-* **お客様向けのシナリオを使用したバッチ終了スループットベンチマークを更新しました** - Adobe Journey Optimizerのバッチ送信スループットベンチマークが更新され、基本的な送信から条件付きロジックを使用した複雑な動的コンテンツまで、複数のパーソナライゼーションシナリオをまたいで実稼動用レベルのパフォーマンスを反映するようになりました。更新された指標は、お客様が正確にメッセージング量を計画するのに役立つ製品説明で利用できるようになりました。
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-14816">DOCAC JIRA タスクへのリンク </a>
+* **お客様向けのシナリオを使用したバッチ終了スループットベンチマークを更新しました** - Adobe Journey Optimizerのバッチ送信スループットベンチマークが更新され、基本的な送信から条件付きロジックを使用した複雑な動的コンテンツまで、複数のパーソナライゼーションシナリオをまたいで実稼動用レベルのパフォーマンスを反映するようになりました。 更新された指標は、お客様が正確にメッセージング量を計画するのに役立つ製品説明で利用できるようになりました。
 
-* **データセットがストリーミングモードからバッチモードに移行しています** - AJO Message Feedback Event データセットは、ストリーミングモードから&#x200B;**バッチ取り込みモード**&#x200B;に移行しています。この変更により、データ取り込みがストリーミング取り込み制限を超えないことが保証されます。このデータセットをCustomer Journey Analytics レポートで使用する場合や、このデータセットに対してクエリを実行する場合は、最大2時間のデータ遅延が発生すると予想されます。
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-14771">DOCAC JIRA タスクへのリンク </a>
+* **データセットがストリーミングモードからバッチモードに移行しています** - AJO Message Feedback Event データセットは、ストリーミングモードから&#x200B;**バッチ取り込みモード**&#x200B;に移行しています。 この変更により、データ取り込みがストリーミング取り込み制限を超えないことが保証されます。 このデータセットをCustomer Journey Analytics レポートで使用する場合や、このデータセットに対してクエリを実行する場合は、最大2時間のデータ遅延が発生すると予想されます。
 
 ### ユーザビリティの向上 {#june-26-usability}
 
 このリリースでは、次の操作性の改善が行われています。
 
 * **ジャーニーとキャンペーン用のフォルダー** - ジャーニーとキャンペーンを&#x200B;**フォルダー**&#x200B;に整理して、インターフェイスのナビゲーションと管理を改善できるようになりました。
-  <a href="https://jira.corp.adobe.com/browse/DOCAC-14038">DOCAC JIRA タスクへのリンク </a>
-
