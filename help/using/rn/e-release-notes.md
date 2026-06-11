@@ -6,18 +6,13 @@ description: Adobe Journey Optimizer プレリリースノート
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 677ecfacfbe12250fef9e28b685dfe1e173d08dc
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 9915d814778a8d18cf4a691e8e2d351c2ac7c405
 workflow-type: tm+mt
-source-wordcount: 1557
-ht-degree: 8%
+source-wordcount: 1599
+ht-degree: 7%
 
 ---
 
@@ -237,10 +232,18 @@ Adobe Journey Optimizerでは、新機能、既存の機能の強化、バグ修
 
 このリリースでは、レポートに次の改善が加えられています。
 
-* **電子メールおよびSMS レポートの新しいクリック見積もり指標** – 実際の顧客エンゲージメントをより正確に把握するために、ジャーニー、キャンペーン、チャネル レポートで新しい見積もり指標を使用できるようになりました。 次の指標は、レポート情報から人間ではないインタラクション（NHI）やボットクリックを除外するのに役立ちます。
-   * 推定クリック数：識別されたボットと人間ではないトラフィックを削除した後にカウントされた合計クリック数。
+* 電子メールとSMS レポートの推定クリック数&#x200B;**指標** - **推定クリック数**&#x200B;が、ジャーニー、キャンペーン、チャネル レポートで利用できるようになりました。 この指標は、特定されたボットと人間以外（NHI）のトラフィックを除外した後の合計クリック数を反映しており、真の顧客エンゲージメントをより明確に把握することができます。
+
++++ 近日リリース予定 – **以下の情報は変更される可能性があります。**
+
+* **電子メールとSMS レポートの新しいクリック数値見積もり指標** – 実際の顧客エンゲージメントをより正確に把握するために、ジャーニー、キャンペーン、チャネル レポートで新しい見積もり指標を使用できるようになりました。 次の指標は、レポート情報から人間ではないインタラクション（NHI）やボットクリックを除外するのに役立ちます。
+
    * 推定CTR：合計配信数に対するクリック数の推定値。
    * メールの推定CTORのみ：推定開封数に対する推定クリック数。
+
+  利用可能日：2026年6月下旬
+
++++
 
 ### 設定 {#june-26-configuration}
 
