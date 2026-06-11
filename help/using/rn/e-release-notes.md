@@ -6,18 +6,13 @@ description: Adobe Journey Optimizer プレリリースノート
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: a144c1518f1835495eaf27fa055b89a3bf8d5559
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: abc97745136ffe596325df644831a346e2bb5dcc
 workflow-type: tm+mt
-source-wordcount: 1706
-ht-degree: 7%
+source-wordcount: 1660
+ht-degree: 6%
 
 ---
 
@@ -96,47 +91,9 @@ Adobe Journey Optimizerでは、新機能、既存の機能の強化、バグ修
 </tbody>
 </table>
 
-### チャネル {#june-26-channels}
-
-このリリースでは、次の機能が導入されています。
-
-<table>
-<thead>
-<tr>
-<th><strong>カスタムアウトバウンドチャネル</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>Journey Optimizerでは、<strong> カスタムチャネル </strong>を導入しました。これは、管理者がWeChat、Kakao Talk、Messenger、独自のプロバイダーなど、任意のアウトバウンド HTTP ベースのメッセージングチャネルを、ノーコードチャネルビルダーを介してJourney Optimizerに直接取り込めるようにするための新機能です。</p>
-<p>一度設定されたカスタムチャネルは、キャンペーン、ジャーニー、オーケストレーションされたキャンペーンをまたいで利用でき、ネイティブチャネルと同じフルセットの機能を使用します。式エディターを使用したパーソナライゼーション、コンテンツの実験、プレビューとプルーフ、すぐに使えるレポート、同意とガバナンスの適用などです。 これにより、ジャーニーに限定されたカスタムアクションや、専用のコンテンツオーサリングに欠けていたカスタムアクションで以前に対処したギャップが埋まります。</p>
-<p>この機能は、一連の組織でのみ使用できます（限定提供）。 アクセス権を取得するには、アドビ担当者にお問い合わせください。</p>
-</td>
-</tr>
-</tbody>
-</table>
-
 ### メール {#june-26-email}
 
 このリリースでは、次の機能と機能強化がメールチャネルに導入されます。
-
-<!--
-<table>
-<thead>
-<tr>
-<th><strong>Advanced Components</strong><br/></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
-<p>The Email Designer now includes a library of ready-to-use layout components — such as Headers, Product Cards (1, 2, or 3 columns), Information blocks, and Footers — that you can drag and drop directly into your email canvas. Each component comes pre-configured with editable properties (image, title, text, button, links) and can be fully customized through the WYSIWYG interface, speeding up email creation without requiring you to build structures from scratch.</p>
-</td>
-</tr>
-</tbody>
-</table>
--->
 
 <table>
 <thead>
@@ -163,17 +120,45 @@ Adobe Journey Optimizerでは、新機能、既存の機能の強化、バグ修
 <tr>
 <td>
 <p>この新しいオプションを使用すると、電子メールの外観を変えることなく、不要な空白、コメント、冗長なコードを削除して、電子メール内のHTML</strong>のサイズを<strong>縮小できます。 これにより、到達性の向上（一部のメールプロバイダーがサイズの大きすぎるメールを拒否またはフラグ付けする）と、受信者の読み込み時間の短縮に役立ちます。</p>
-<p>ご利用いただけます：2026年6月10日（PT）</p>
 </td>
 </tr>
 </tbody>
 </table>
 
-* **フラグメントの編集可能なフィールド内のリッチテキスト** - メールコンテンツで使用されるカスタマイズ可能なフラグメントにリッチテキストを追加できるようになりました。 例えば、電子メールDesignerでテキストコンポーネントを編集可能フィールドとして使用する場合、コンテンツの書式（太字や斜体など）を直接設定し、ハイパーリンクを挿入できます。
+<table>
+<thead>
+<tr>
+<th><strong>フラグメントの編集可能フィールドのリッチテキスト</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>メールコンテンツで使用される、カスタマイズ可能なフラグメントにリッチテキストを追加できるようになりました。 例えば、電子メールDesignerでテキストコンポーネントを編集可能フィールドとして使用する場合、コンテンツの書式（太字や斜体など）を直接設定し、ハイパーリンクを挿入できます。</p>
+</td>
+</tr>
+</tbody>
+</table>
 
-<!--
-* **Text mode support in fragments** - To support text-based email workflows, you can now create and manage text versions of your visual fragments for optimal use in the plain text version of emails that include that fragment. When using a fragment that was created before the current release, the fragment text version may be incorrectly rendered — both in the Email Designer and in the final email delivered to your recipients. For best results with older fragments, edit, save and republish each fragment.
--->
++++ 近日リリース予定 – **以下の情報は変更される可能性があります。**
+
+<table>
+<thead>
+<tr>
+<th><strong>E メールDesignerのモジュール</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>メールDesignerには、ヘッダー、商品カード（1、2、3列）、情報ブロック、フッターなど、すぐに使用できるレイアウトコンポーネントのライブラリが含まれるようになりました。これらのコンポーネントをメールキャンバスに直接ドラッグ&amp;ドロップできます。 各コンポーネントには編集可能なプロパティ（画像、タイトル、テキスト、ボタン、リンク）が事前に設定されており、WYSIWYGインターフェイスで完全にカスタマイズできるため、構造をゼロから構築する必要はなく、メール作成を高速化できます。</p>
+<p>ご利用いただけます：2026年6月22日（PT）</p>
+</td>
+</tr>
+</tbody>
+</table>
+
++++
 
 ### モバイルメッセージ（SMS、MMS、RCS、LINE） {#june-26-mobile}
 
