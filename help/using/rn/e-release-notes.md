@@ -14,7 +14,7 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: dccfb51bd565718dce4e3b926c22af2067d7c9f1
+source-git-commit: 365ea2d23b1a660f2481004ac0fdd53948cff437
 workflow-type: tm+mt
 source-wordcount: 1756
 ht-degree: 7%
@@ -33,7 +33,6 @@ Adobe Journey Optimizerでは、新機能、既存の機能の強化、バグ修
 詳しくは、[Adobe Experience Platform プレリリースノート](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}も参照してください。
 
 **リリース日**: 2026年6月16日～17日
-
 
 ### ジャーニー {#june-26-journeys}
 
