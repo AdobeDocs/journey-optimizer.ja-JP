@@ -6,18 +6,13 @@ description: Adobe Journey Optimizer プレリリースノート
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 365ea2d23b1a660f2481004ac0fdd53948cff437
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 677ecfacfbe12250fef9e28b685dfe1e173d08dc
 workflow-type: tm+mt
-source-wordcount: 1756
-ht-degree: 7%
+source-wordcount: 1557
+ht-degree: 8%
 
 ---
 
@@ -245,12 +240,6 @@ Adobe Journey Optimizerでは、新機能、既存の機能の強化、バグ修
 ### 設定 {#june-26-configuration}
 
 このリリースでは、設定と管理に次の機能強化が加えられています。
-
-* **Web Application Firewall （WAF） IP ホワイトリスト作成** - Adobe Journey Optimizerでは、ランディングページのWAF IP ホワイトリスト作成がサポートされるようになりました。これにより、組織は、すべての着信リクエストが、設定されたWAF インフラストラクチャを通じてのみルーティングされることを強制できるようになりました。 この機能強化により、お客様はJourney Optimizerを設定して、WAF レイヤーをバイパスするダイレクトリクエストを拒否し、Impervaなどのツールで定義されたセキュリティポリシーが一貫して適用されるようにすることができます。 この機能により、厳格なネットワークアクセス要件を持つ企業のセキュリティ体制が強化され、Journey Optimizerでホストされているランディングページへのトラフィックフローを完全に制御できるようになります。
-
-* カスタムサブドメインの&#x200B;**フィードバックループ OTP プロセス** - Yahoo送信者ハブ **One-Time Password （OTP）**&#x200B;を製品UI内で直接表示することで、フィードバックループ （FBL） カスタムサブドメイン設定プロセスが改善されました。 ユーザーは、Yahoo送信者ハブドメイン所有権の検証中に生成されたOTPを自動的に取得して表示できるようになりました。
-
-* **お客様向けのシナリオを使用したバッチ終了スループットベンチマークを更新しました** - Adobe Journey Optimizerのバッチ送信スループットベンチマークが更新され、基本的な送信から条件付きロジックを使用した複雑な動的コンテンツまで、複数のパーソナライゼーションシナリオをまたいで実稼動用レベルのパフォーマンスを反映するようになりました。 更新された指標は、お客様が正確にメッセージング量を計画するのに役立つ製品説明で利用できるようになりました。
 
 * **データセットがストリーミングモードからバッチモードに移行しています** - AJO Message Feedback Event データセットは、ストリーミングモードから&#x200B;**バッチ取り込みモード**&#x200B;に移行しています。 この変更により、データ取り込みがストリーミング取り込み制限を超えないことが保証されます。 このデータセットをCustomer Journey Analytics レポートで使用する場合や、このデータセットに対してクエリを実行する場合は、最大2時間のデータ遅延が発生すると予想されます。
 
