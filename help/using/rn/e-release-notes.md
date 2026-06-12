@@ -6,17 +6,12 @@ description: Adobe Journey Optimizer プレリリースノート
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: a2257f19ea46aaf4bcf45580a0e6cf0d207be355
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: b7088f7f9a21839bde56b71ccacd6c62d4e004ff
 workflow-type: tm+mt
-source-wordcount: 1876
+source-wordcount: 2008
 ht-degree: 5%
 
 ---
@@ -218,6 +213,27 @@ Adobe Journey Optimizerでは、新機能、既存の機能の強化、バグ修
 <tr>
 <td>
 <p>AI アシスタントが、メール、Web ページ、プッシュ通知を生成する際に、Adobe Experience Manager Assetsから<b> ブランド承認済み画像</b>を直接自動的に取得するようになりました。 これにより、Assetsを手動で検索したり、汎用的なAI フォールバックを利用したりする必要がなくなり、あらゆるビジュアルが完全に正確で、ブランドに準拠したものになります。</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>コンテンツ生成向けAI アシスタントの機能強化</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>このリリースでは、より強力な画像編集、より信頼性の高いブランド抽出、画像フローでのコンテンツ信憑性のサポートにより、<strong>AI アシスタント </strong>のコンテンツ生成エクスペリエンスが向上しました。</p>
+<ul>
+<li>Firefly サードパーティモデルのサポートを含む、画像の生成フローで<strong>AI画像編集</strong>を使用できるようになりました。これにより、アシスタントを終了することなくソース画像を絞り込むことができます。</li>
+<li><strong> ブランドシグナル抽出</strong>は、より高品質な結果を提供します。 選択したページに十分なシグナルがない場合、改善されたフォールバックによって、色、タイポグラフィ、ガイドラインなどのブランド属性が設定されるようになりました。</li>
+<li><strong>Web ベースのブランド抽出</strong>は信頼性が高くなります。 タイムアウト処理の改善により、ページ、ポップアップ、Cookie バナーが抽出をブロックするのを防ぐことができます。</li>
+<li><strong> コンテンツの信頼性（CAI） </strong>が画像フローでサポートされるようになりました。 このリリースでは、参照画像のアップロードの問題も修正され、既存のC2PA マニフェストを持たない画像の処理も改善されています。</li>
+</ul>
 </td>
 </tr>
 </tbody>
