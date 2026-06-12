@@ -14,9 +14,9 @@ subfeature_v2:
   - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
   - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
   - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 02ce60020012083981c5599789b9e86804190627
+source-git-commit: a2257f19ea46aaf4bcf45580a0e6cf0d207be355
 workflow-type: tm+mt
-source-wordcount: 1921
+source-wordcount: 1876
 ht-degree: 5%
 
 ---
@@ -223,11 +223,13 @@ Adobe Journey Optimizerでは、新機能、既存の機能の強化、バグ修
 </tbody>
 </table>
 
-### キャンペーン {#june-26-campaigns}
+<!--
+### Campaigns {#june-26-campaigns}
 
-このリリースでは、キャンペーンに次の改善が加えられています。
+The following improvement is coming to campaigns in this release.
 
-* **キャンペーンのデフォルトの実行フィールドを上書き** – 以前はジャーニーレベルで使用されていましたが、キャンペーンのパラメーターで、メール、SMS、WhatsApp配信にグローバルに設定されたデフォルトの&#x200B;**実行フィールド**&#x200B;を上書きできるようになりました。
+* **Override the default execution field in campaigns** - Previously available at the journey level, you can now override the default **execution field** set globally for your Email, SMS and WhatsApp deliveries in the campaign parameters.
+-->
 
 ### レポート {#june-26-reporting}
 
