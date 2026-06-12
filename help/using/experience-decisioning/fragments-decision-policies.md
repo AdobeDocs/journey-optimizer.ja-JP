@@ -183,4 +183,4 @@ ht-degree: 20%
 
 Adobe Experience ManagerのコンテンツフラグメントとJourney Optimizer Decisioningを使用してコンテンツをパーソナライズし、最適化する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3492215/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3492216/?captions=jpn&learn=on&enablevpops)
