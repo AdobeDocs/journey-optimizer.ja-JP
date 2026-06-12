@@ -32,9 +32,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 8a60b2d54073f30628f1939839faf992fcfd151b
+source-git-commit: 02ce60020012083981c5599789b9e86804190627
 workflow-type: tm+mt
-source-wordcount: 3917
+source-wordcount: 3958
 ht-degree: 55%
 
 ---
@@ -139,7 +139,7 @@ ht-degree: 55%
 
 オプションで、**補足識別子**&#x200B;を使用して、プロファイル IDに加えてセカンダリ ID （注文IDや予約IDなど）のコンテキストでジャーニーを実行できます。 これにより、補足識別子が異なる場合に、同じプロファイルの複数のエントリを許可します。
 
-[&#x200B; ジャーニーで補足識別子を使用する方法について説明します](supplemental-identifier.md)。 オーディエンスジャーニーを読み取る場合、補足IDはプロファイル属性である必要があります。補足IDを使用する場合、読み取り率は1秒あたり500 プロファイルに制限されます。
+[&#x200B; ジャーニーで補足識別子を使用する方法について説明します](supplemental-identifier.md)。 オーディエンスジャーニーの読み取りでは、**統合プロファイルサービス** オーディエンスの&#x200B;**結合/プロファイルスキーマ**&#x200B;から補足識別子を準備するか、**外部オーディエンス**&#x200B;の適格属性から選択します（例：CSV ファイル [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#import-audience){target="_blank"}からインポートされたオーディエンス または[構成ワークフロー](../audience/get-started-audience-orchestration.md)）。 補足IDを使用する場合、ジャーニーインスタンスごとに1秒あたり500個のプロファイルに読み取り率が制限されます。
 
 ### ガードレールとレコメンデーション {#must-read}
 
