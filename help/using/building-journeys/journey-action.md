@@ -11,30 +11,16 @@ keywords: ジャーニー, メッセージ, プッシュ, sms, メール, アプ
 exl-id: 0ed97ffa-8efc-45a2-99ae-7bcb872148d5
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/MK5SCefAZ1P2CqX-Y3TmweUyfUI297edZXCMAZSvhT0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: d9a93a5ae5dfbb21b4dfd102b356c15982e6d5a1
 workflow-type: tm+mt
-source-wordcount: 1734
-ht-degree: 73%
+source-wordcount: 1775
+ht-degree: 71%
 
 ---
 
@@ -45,15 +31,15 @@ ht-degree: 73%
 >title="アクションアクティビティ"
 >abstract="**アクション**&#x200B;アクティビティでは、1 つのネイティブチャネルアクションと複数のインバウンドアクティビティを設定でき、任意のビルトインチャネルアクションに最適化を追加することもできます。"
 
-**アクション** アクティビティは、ジャーニーキャンバス内のすべてのチャネルアクションの単一のエントリポイントです。
+**アクション** アクティビティは、ジャーニーキャンバスから顧客にコンテンツを配信するための単一のエントリポイントです。 各チャネルの個別のアクティビティから選択する代わりに、単一の&#x200B;**[!UICONTROL アクション]** アクティビティをキャンバスにドラッグし、使用するチャネルを選択します。
 
-これは、以前の個々のビルトインチャネルアクティビティに代わって、メール、プッシュ、SMS、アプリ内、web、コードベースのエクスペリエンス、コンテンツカードを1つの統合アクティビティタイプに統合します。
+メール、プッシュ通知、SMS、アプリ内メッセージ、web、コードベースのエクスペリエンス、コンテンツカードなど、あらゆる組み込みチャネルを、以前使用した個々のチャネルアクティビティに代わって、単一の統合アクティビティタイプに統合できます。
 
-次の目的で使用します。
+**アクション** アクティビティを使用して、以下を行います。
 
 * 単一の合理化されたインターフェイスから、組み込みのチャネルアクションを設定できます。
-* マルチアクションのインバウンドアクショングループを構築する。
-* あらゆるチャネルアクションに最適化を適用。
+* 複数のインバウンドエクスペリエンスを1つの[ マルチアクショングループ ](#multi-action)にまとめます。
+* [最適化](../content-management/gs-message-optimization.md)、[多言語コンテンツ ](../content-management/multilingual-gs.md)、チャネル固有の設定を任意のアクションに適用します。
 
 >[!NOTE]
 >
@@ -77,21 +63,21 @@ ht-degree: 73%
 >id="ajo_journey_action_auto_wait"
 >title="自動待機ノード"
 >abstract="インバウンドチャネルアクション（アプリ内メッセージ、Web、コンテンツカード、コードベースのエクスペリエンス）の場合、アクションの後に&#x200B;**Wait** ノードが自動的に挿入されます（デフォルトでは3日間）。 これにより、プロファイルは、ジャーニーが次のステップに進む前に、インバウンドエクスペリエンスを確認する時間を確保できます。"
->additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="チャネルアクションの概要"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="チャネルアクションの概要"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_optimization"
 >title="最適化"
 >abstract="「**最適化**」セクションでは、コンテンツ実験、ターゲティングルール、またはその両方をチャネルアクションに追加します。 バリエーションをテストし、各オーディエンスメンバーに最も効果的なコンテンツを配信することができます。"
->additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/optimize-activity/optimize" text="「最適化」アクティビティの使用"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/optimize-activity/optimize" text="「最適化」アクティビティの使用"
 
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_multilingual"
 >title="多言語"
 >abstract="「**多言語**」セクションでは、1つのジャーニー内で複数の言語のチャネルアクションコンテンツを配信します。 言語設定では、このアクションでサポートされるロケールとデフォルトの言語を定義します。"
->additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/content-management/content-multilingual/multilingual-gs" text="多言語コンテンツの基本を学ぶ"
+>additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-multilingual/multilingual-gs" text="多言語コンテンツの基本を学ぶ"
 
 
 **[!UICONTROL Action]** アクティビティを使用して組み込みのチャネルアクションをジャーニーに追加するには、次の手順に従います。
@@ -330,7 +316,7 @@ ht-degree: 73%
 
 それには、ライブジャーニーを開き、チャネルアクティビティを選択して、「**コンテンツを編集**」をクリックします。
 
-![&#x200B; ライブジャーニーの「チャネルアクティビティを編集」ボタン &#x200B;](assets/email-action-edit-content.png)
+![ ライブジャーニーの「チャネルアクティビティを編集」ボタン ](assets/email-action-edit-content.png)
 
 ただし、パーソナライゼーションで使用されている属性は、プロファイル属性であるかコンテキストデータ（イベントプロパティまたはジャーニープロパティから得られるもの）であるかにかかわらず、変更できません。
 
