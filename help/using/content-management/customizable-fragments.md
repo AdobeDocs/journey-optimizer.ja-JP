@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
 source-wordcount: 1735
-ht-degree: 86%
+ht-degree: 92%
 
 ---
 
@@ -166,18 +166,18 @@ HTML コンポーネントの場合、特定の要素のみを編集可能なフ
 >[!CONTEXTUALHELP]
 >id="ajo_editable_fragment_compatibility"
 >title="レガシーフラグメント"
->abstract="このフラグメントの編集可能なフィールドは、テキストのみのモードです。 つまり、このフラグメントをメールで編集する際には、プレーンテキストのみを入力できます。太字、斜体、ハイパーリンク、改行などのリッチテキストはサポートされていません。 「<b>HTML モードに切り替え</b>」をクリックして、電子メールでフラグメントを使用する際に、編集可能なフィールドでリッチテキストを有効にします。"
+>abstract="このフラグメントの編集可能なフィールドは、テキストのみのモードです。 つまり、このフラグメントをメールで編集する際に、プレーンテキストのみを入力できます。太字、斜体、ハイパーリンク、改行などのリッチテキストはサポートされていません。 メールでフラグメントを使用する際に、「<b>HTML モードに切り替え</b>」をクリックして、編集可能なフィールドでリッチテキストを有効にします。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_editable_field_compatibility"
 >title="レガシーフラグメント"
->abstract="この編集可能フィールドはテキストのみのモードです。 リッチテキスト形式（太字、斜体、ハイパーリンク、改行など） は、フラグメントをHTML互換モードにアップグレードするまで使用できません。 フラグメント本文の設定に移動し、<b>HTML モードに切り替え</b>をクリックして、リッチテキスト編集を有効にします。"
+>abstract="この編集可能なフィールドは、テキストのみのモードです。 リッチテキスト形式（太字、斜体、ハイパーリンク、改行など） は、フラグメントが HTML 互換モードにアップグレードされるまで使用できません。 フラグメント本文の設定に移動し、「<b>HTML モードに切り替え</b>」をクリックして、リッチテキスト編集を有効にします。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="フラグメントの編集可能なフィールドをカスタマイズ"
 
 >[!CONTEXTUALHELP]
 >id="ac_editable_fragment_compatibility"
 >title="レガシーフラグメント"
->abstract="このフラグメントの編集可能なフィールドは、テキストのみのモードです。 リッチテキスト形式（太字、斜体、ハイパーリンク、改行など） は、フラグメントをHTML互換モードにアップグレードするまで使用できません。 これを行うには、フラグメントエディターを開き、<b>HTML モードに切り替え</b>をクリックします。"
+>abstract="このフラグメントの編集可能なフィールドは、テキストのみのモードです。 リッチテキスト形式（太字、斜体、ハイパーリンク、改行など） は、フラグメントが HTML 互換モードにアップグレードされるまで使用できません。 これを行うには、フラグメントエディターを開き、「<b>HTML モードに切り替え</b>」をクリックします。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/channels/email/design-email/add-content/use-visual-fragments#customize-fields" text="フラグメントの編集可能なフィールドをカスタマイズ"
 
 HTML コンポーネントを使用すると、改行、太字、斜体などのリッチテキストを、カスタマイズ可能なフラグメントに追加できます。 これを行うには、以下の手順に従います。

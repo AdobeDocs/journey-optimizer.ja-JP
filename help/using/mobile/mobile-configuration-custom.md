@@ -27,7 +27,7 @@ subfeature_v2:
 source-git-commit: cf1c53fc42cbe0eb019b1733091c5f22021767bb
 workflow-type: tm+mt
 source-wordcount: 1050
-ht-degree: 71%
+ht-degree: 78%
 
 ---
 
@@ -46,12 +46,12 @@ ht-degree: 71%
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_provider_payload"
 >title="プロバイダーペイロード"
->abstract="処理と応答の生成用に正しいデータの送信を確保するために、リクエストペイロードを指定します。"
+>abstract="処理と応答の生成用の正しいデータの送信を確保するために、リクエストペイロードを指定します。"
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_response_msg_id_extractor"
 >title="プロバイダーペイロード"
->abstract="Journey Optimizerがプロバイダーの送信応答から一意のメッセージ IDを抽出する方法を指定します。 </br>Field Match: フィールド名（messageIdなど）を入力します。 AJOは応答をスキャンし、最初の一致する値を返します。 </br> ドット表記法：フィールドへのパス（例：messages.0.id）を入力します。 配列に数値セグメントを使用します。 $接頭辞がありません。</br> プロバイダーがコールバックデータフィールドの渡しをサポートしている場合は、空白のままにします。"
+>abstract="Journey Optimizer がプロバイダーの送信応答から一意のメッセージ ID を抽出する方法を指定します。 </br>フィールド一致：フィールド名（例：messageId）を入力します。 AJO は、応答をスキャンし、最初に一致する値を返します。 </br>ドット表記法：フィールドへのパス（例：messages.0.id）を入力します。 配列に数値セグメントを使用します。 $ 接頭辞はありません。</br> プロバイダーがコールバックデータフィールドの渡しをサポートしている場合は、空白のままにします。"
 
 この機能により、独自のメッセージプロバイダーを統合および設定できるようになり、デフォルトのオプション（Sinch、Twilio、Infobip）を超える柔軟性が得られます。 これにより、モバイルメッセージのオーサリング、配信、レポート、同意管理をシームレスに行うことができます。
 

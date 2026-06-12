@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
 workflow-type: tm+mt
 source-wordcount: 1362
-ht-degree: 36%
+ht-degree: 38%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 36%
 >[!CONTEXTUALHELP]
 >id="ajo_simulate_sample_profiles"
 >title="サンプル入力を使用したシミュレート"
->abstract="この画面では、コンテンツのバリエーションをAIで自動生成したり、CSVまたはJSON テンプレートを通じて値を追加したり、手動で入力したり、テストプロファイルを使用したりして、テストを行うことができます。"
+>abstract="この画面では、AI で自動生成するか、CSV または JSON テンプレートを通じて値を追加するか、手動で入力するか、テストプロファイルを使用することで、コンテンツのバリアントをテストできます。"
 
 コンテンツにパーソナライゼーションや条件付きロジックが含まれている場合は、送信する前に、受信者のあらゆるタイプに対して正しくレンダリングされていることを確認する必要があります。
 
