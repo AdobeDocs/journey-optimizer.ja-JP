@@ -96,7 +96,7 @@ Adobeでは標準で使用できないカスタムプロバイダー（Sinch、I
 
    >[!IMPORTANT]
    >
-   >[MTLS公開証明書API](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint)から公開証明書をダウンロードし、サーバーのトラストストアに追加して、SMS送信エンドポイントをAdobe Experience Platform認証局チェーンを信頼するように設定します（想定されるクライアント CN: `ajo-sms.aep-mtls.adobe.com`）。そうしないと、Journey Optimizerでクライアント証明書が省略され、SMS配信が失敗します。
+   >[MTLS公開証明書API](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint)から公開証明書をダウンロードし、サーバーのトラストストアに追加して、SMS送信エンドポイントをAdobe Experience Platform認証局チェーンを信頼するように設定します（想定されるクライアント CN: `ajo-sms.aep-mtls.adobe.com`）。そうしないと、Journey Optimizerでクライアント証明書が省略され、SMS配信が失敗します。
 
 1. 「**[!UICONTROL ヘッダー]**」セクションで、「**[!UICONTROL 新しいパラメーターを追加]**」をクリックし、外部サービスに送信されるリクエストメッセージの HTTP ヘッダーを指定します。
 
