@@ -2,7 +2,7 @@
 solution: Journey Optimizer
 product: journey optimizer
 title: ジャーニーの公開
-description: ジャーニーの公開方法を学ぶ
+description: Adobe Journey Optimizerでジャーニーを公開する方法、新しいバージョンを作成する方法、ジャーニーのステータスを管理する方法、再公開要件について説明します。
 feature: Journeys
 topic: Content Management
 role: User
@@ -11,27 +11,22 @@ keywords: 公開, ジャーニー, ライブ, 有効性, 確認
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/Hhvwpfq0phAjvzIGgv-NMnnhWhYJ-PpLOL0F4Q-CnqA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
 subfeature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: cec8851784af46ce97f5bce843e970c82b4aa3ed
 workflow-type: tm+mt
-source-wordcount: 732
-ht-degree: 95%
+source-wordcount: 1272
+ht-degree: 48%
 
 ---
 
 # ジャーニーの公開 {#publishing-the-journey}
 
-ジャーニーをアクティブ化し、新しいプロファイルがジャーニーにエントリできるように、ジャーニーを公開する必要があります。 ジャーニーを公開する前に、そのジャーニーが有効で、エラーがないことを確認します。 エラーのあるジャーニーは公開できません。
+ジャーニーを公開すると、そのジャーニーがアクティブになります。ステータスは&#x200B;**[!UICONTROL ライブ]**&#x200B;に移動し、新しいプロファイルが入力できるようになります。また、読み取り専用モードに切り替わります。 エラーを含むジャーニーは公開できません。
 
 >[!NOTE]
 >
@@ -39,14 +34,28 @@ ht-degree: 95%
 
 ➡️ [この機能をビデオで確認](#video)
 
+## 公開前に {#before-you-publish}
+
+公開する前に、ジャーニーが次の前提条件を満たしていることを確認してください。
+
+* **検証エラーはありません** — エラーを含むジャーニーを公開することはできません。 [最初にジャーニーをテスト ](testing-the-journey.md)し、[ アクティビティエラーのトラブルシューティング ](../building-journeys/troubleshooting.md#activity-errors)を行います。
+* **公開権限** – 公開には、**[!DNL Publish journeys]**&#x200B;の高レベル権限が必要です。 [ アクセス権の管理](../administration/permissions-overview.md)の詳細をご覧ください。
+* **制限内のペイロード** — ジャーニーペイロードは、設定された制限内（デフォルトでは4 MB）である必要があります。 [ジャーニーペイロードサイズの検証](../start/guardrails.md#journey-payload-size)を参照してください。
+* **承認取得** — ジャーニーが承認ポリシーの対象である場合は、公開前に承認を要求して取得します。 [学習を増やす](../test-approve/gs-approval.md)。
+
+>[!TIP]
+>
+>公開する前に、使用可能なテストオプションのいずれかを使用してジャーニーを検証します。
+>
+>* [ シミュレーション ](simulate-journey-gs.md) — Adobe Experience Platformで永続的なテストプロファイルを使用せずに、シミュレートされたユーザーでテストします。
+>* [ テストモード ](testing-the-journey.md) — Adobe Experience Platformでテストプロファイルとしてフラグ付けされた永続的なプロファイルを使用してテストします。
+>* [ ドライラン ](journey-dry-run.md) — プロファイルに連絡せずに、実際の実稼動データを使用してテストします。
+
 ## 公開プロセス {#journey-publication}
 
 ジャーニーを公開する手順を以下に示します。
 
-1. ジャーニーを公開する前に、そのジャーニーが有効で、エラーがないことを確認します。 エラーのあるジャーニーは公開できません。
-
-   * ジャーニーをテストする方法について詳しくは、[このページ](testing-the-journey.md)を参照してください。
-   * ジャーニーのエラーをトラブルシューティングする方法について詳しくは、[この節](../building-journeys/troubleshooting.md#activity-errors)を参照してください。
+1. ジャーニーが有効で、エラーがなく、上記の[前提条件](#before-you-publish)を満たしていることを確認します。
 
 1. ジャーニーを公開するには、右上のドロップダウンメニューにある「**[!UICONTROL 公開]**」オプションをクリックします。
 
@@ -58,7 +67,21 @@ ht-degree: 95%
 
 ジャーニーを公開すると、**読み取り専用**&#x200B;モードになります。 読み取り専用モードでは、アクティビティのラベルと説明、ジャーニーの名前、ジャーニーの説明のみを変更できます。 公開済みのジャーニーに追加の変更を行う必要がある場合は、ジャーニーの[新しいバージョン](journey-ui.md#journey-filter)を作成します。
 
-ジャーニーを停止すると、そのジャーニーは完全に停止します。 ジャーニーを進むすべての個人は完全に停止し、ジャーニーは新規エントリの許可を停止します。 ジャーニーを再び実行する必要がある場合は、複製して新しいジャーニーを公開します。
+### ジャーニーのステータス {#journey-statuses}
+
+公開後、ジャーニーはいくつかのステータスに移動します。
+
+* **[!UICONTROL ライブ]** — ジャーニーが公開され、プロファイルが入力できます。
+* **[!UICONTROL Closed]** – 新しいバージョンが公開されたときに自動的に終了した以前のバージョン。 入り口は出来ない。
+* **[!UICONTROL 完了]** — ジャーニーは、終了条件に従って完了しました。 ジャーニーが終了したと見なされるタイミングの正確な定義については、[ ジャーニーの終了方法](end-journey.md#journey-finished-definition)を参照してください。
+
+### ジャーニーを停止 {#stop-journey}
+
+ジャーニーを停止すると、そのジャーニーは完全に停止します。 ジャーニーを進むすべての個人は完全に停止し、ジャーニーは新規エントリの許可を停止します。 ジャーニーを再び実行する必要がある場合は、複製して新しいジャーニーを公開します。 ジャーニーの終了方法について詳しくは、[ ジャーニーの終了方法](end-journey.md)を参照してください。
+
+### 要件の再公開 {#republishing}
+
+場合によっては、変更またはアセットを有効に保つためにジャーニーを再公開する必要があります。
 
 >[!IMPORTANT]
 >
@@ -102,8 +125,44 @@ ht-degree: 95%
 >ジャーニーのバージョン管理には、特定のガードレールと制限が適用されます。 詳しくは、[このページ](../start/guardrails.md#journey-versions-g)を参照してください。
 
 
+## よくある質問 {#faq}
+
+**ジャーニーを公開できないのはなぜですか？**
+
+最も一般的な理由は、ジャーニーに検証エラーが含まれていることです。エラーのあるジャーニーを公開することはできません。 その他のブロッカーには、[ ペイロードサイズの制限](../start/guardrails.md#journey-payload-size)を超えているか、**[!DNL Publish journeys]**&#x200B;権限がないか、保留中の[承認](../test-approve/gs-approval.md)が含まれます。 [公開前](#before-you-publish)および[ アクティビティエラーのトラブルシューティング ](../building-journeys/troubleshooting.md#activity-errors)を参照してください。
+
+**公開後にジャーニーを編集できますか？**
+
+公開されたジャーニーは読み取り専用モードです。 変更できるのは、アクティビティラベルと説明、ジャーニーの名前およびジャーニーの説明のみです。 その他の変更については、[ ジャーニーの新しいバージョン ](#journey-create-new-version)を作成します。
+
+**新しいバージョンを公開すると、ジャーニー内にすでに存在するプロファイルはどうなりますか？**
+
+新しいプロファイルは最新バージョンに移行します。 以前のバージョンのプロファイルは、完了するまで残ります。後で再入力すると、最新バージョンに移行します。 以前のバージョンは自動的に&#x200B;**[!UICONTROL Closed]**&#x200B;に切り替わり、新しいエントリは受け付けません。 [ジャーニー版](#journey-versions)を参照してください。
+
+**停止したジャーニーを再実行するにはどうすればよいですか？**
+
+ジャーニーの停止は永続的です。 もう一度実行するには、それを複製して新しいジャーニーを公開します。 「[ ジャーニーの停止](#stop-journey)」を参照してください。
+
+**オファーの決定を変更したり、アセットを更新した後に再公開する必要がありますか？**
+
+はい。 ジャーニーのメッセージで使用されているオファー決定を変更する場合は、変更が適用されるように、ジャーニーを非公開にして再公開します。 Assetsと画像は、最初の公開から730日後に有効期限が切れます。その後は再公開してアクセスを維持します。 [要件の再公開](#republishing)を参照してください。
+
+**承認が必要なジャーニーを公開できますか？**
+
+ジャーニーが承認ポリシーの対象となる場合は、公開前に承認をリクエストする必要があります。 [承認について詳しく見る](../test-approve/gs-approval.md)。
+
+## 関連トピック {#related-topics}
+
+* [ ジャーニーをテストする](testing-the-journey.md) – 公開前にテストプロファイルでジャーニーを検証します
+* [ジャーニーのシミュレーション ](simulate-journey-gs.md) – 公開前に、シミュレートされたユーザーとジャーニーを検証します
+* [ジャーニードライ実行](journey-dry-run.md) - プロファイルに連絡せずに実稼動データを使用してテストします
+* [ トラブルシューティング ](../building-journeys/troubleshooting.md#activity-errors) - アクティビティと公開エラーを解決する
+* [ ジャーニーの終了方法](end-journey.md#journey-finished-definition) - ジャーニーの完了とステータスを理解する
+* [ プロファイルのエントリ管理](entry-management.md) - プロファイルがジャーニーを入力および再入力する方法を設定します
+* [ジャーニーのガードレールと制限事項](../start/guardrails.md#journeys-guardrails-journeys) – 公開とバージョン管理のガードレールを確認する
+
 ## チュートリアルビデオ {#video}
 
 ジャーニーの公開方法について詳しくは、次のビデオを参照してください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3427936?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)
