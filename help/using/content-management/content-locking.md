@@ -219,4 +219,4 @@ Journey Optimizer では、テンプレート全体をロックするか、特�
 
 メールテンプレートのコンテンツをロックする方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3451591?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3451608?captions=jpn&quality=12)
