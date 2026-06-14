@@ -6,26 +6,26 @@ level: Beginner
 feature: Approval
 exl-id: e518cb3c-f361-43a4-b9a5-ec070c612e75
 TQID: https://experienceleague.adobe.com/rl133NfnmN5hl31E3SaOB-xCpUlbDFdH6-ictYNrI1Q
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-subfeature_v2:
-  - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+subfeature_v2: id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
+source-git-commit: 36b855c6d66a614f4c0374cbd1b4746ec68fde21
 workflow-type: tm+mt
-source-wordcount: 731
-ht-degree: 96%
+source-wordcount: 760
+ht-degree: 93%
 
 ---
 
 # 承認ポリシーの作成と管理 {#approval-policies}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、**&#x200B;承認ポリシーにより、本番稼働前にサインオフが必要なジャーニーとキャンペーンが決定され、管理者は各リクエストを管理する条件、ターゲティング条件、レビュー担当者を設定できます。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_approval_policy_request_approval"
@@ -71,7 +71,7 @@ ht-degree: 96%
 
 1. **[!UICONTROL 自己承認をブロック]**&#x200B;を有効にすると、ジャーニー／キャンペーン作成者が自身のオブジェクトを承認できなくなります。
 
-   ![承認ポリシーの詳細フォーム &#x200B;](assets/policy_create_2.png)
+   ![承認ポリシーの詳細フォーム ](assets/policy_create_2.png)
 
 条件を調整して、承認リクエストを開始するユーザーと検証するユーザーを指定できるようになりました。
 
