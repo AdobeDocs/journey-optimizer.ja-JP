@@ -86,4 +86,4 @@ Journey Optimizer レポートでは、Customer Journey Analytics 機能との�
 
 次のビデオでは、強化された Journey Optimizer レポートを Customer Journey Analytics で使用する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430413)
+>[!VIDEO](https://video.tv.adobe.com/v/3443152?captions=jpn)
