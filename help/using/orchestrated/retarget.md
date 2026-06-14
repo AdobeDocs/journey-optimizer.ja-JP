@@ -7,17 +7,22 @@ feature: Monitoring
 exl-id: 3c1cad30-3ed7-4df1-a46a-60394a834e79
 version: Campaign Orchestration
 feature_v2: 
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 909
-ht-degree: 68%
+source-wordcount: 938
+ht-degree: 66%
 
 ---
 
 
 # リターゲティングクエリの作成 {#retarget}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、以前のオーケストレーションされたキャンペーンに対する受信者の反応に応じて、受信者をフォローアップするフィードバックベースおよびトラッキングベースのリターゲティングルールを構築する方法について説明します。
+
+>[!ENDSHADEBOX]
 
 リターゲティングを使用すると、以前の調整されたキャンペーンに対する受信者の応答方法に基づいて、受信者をフォローアップできます。 例えば、最初のメールを受信したがクリックしなかった受信者に 2 番目のメールを送信できます。
 
@@ -47,7 +52,7 @@ ht-degree: 68%
 
    1. フィルタールールを選択し、ターゲットにする&#x200B;**[!UICONTROL ビヘイビアー]**&#x200B;を選択します（**[!UICONTROL メッセージ送信]**&#x200B;など）。
 
-   1. ![&#x200B; フォルダーアイコン &#x200B;](assets/do-not-localize/folder-search.svg)をクリックして、リターゲティングする特定のキャンペーンを選択します。 選択肢は次の2つです。
+   1. ![ フォルダーアイコン ](assets/do-not-localize/folder-search.svg)をクリックして、リターゲティングする特定のキャンペーンを選択します。 選択肢は次の2つです。
 
       * **[!UICONTROL 特定のキャンペーンを選択]**：リストから特定のキャンペーンを選択して、そのキャンペーンを操作した受信者をリターゲティングします。
 
@@ -138,7 +143,7 @@ ht-degree: 68%
 
       ![](assets/retarget_13.png){zoomable="yes"}
 
-   1. ![&#x200B; フォルダーアイコン &#x200B;](assets/do-not-localize/folder-search.svg)をクリックして、リターゲティングする特定のキャンペーンを選択します。 選択肢は次の2つです。
+   1. ![ フォルダーアイコン ](assets/do-not-localize/folder-search.svg)をクリックして、リターゲティングする特定のキャンペーンを選択します。 選択肢は次の2つです。
 
       * **[!UICONTROL 特定のキャンペーンを選択]**：リストから特定のキャンペーンを選択して、そのキャンペーンを操作した受信者をリターゲティングします。
 

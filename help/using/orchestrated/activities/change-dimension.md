@@ -6,19 +6,23 @@ description: ディメンションの変更アクティビティの使用方法�
 exl-id: 83e66f10-93dd-4759-840c-2c83abc42a28
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/yN2RlYom4xpdiG0G8pt3U4MeY0C1JjDudDqYg-HPv1w
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2: 
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: 77cddc86596959e06b20154c1e51c6b84375b39b
 workflow-type: tm+mt
-source-wordcount: 336
-ht-degree: 63%
+source-wordcount: 367
+ht-degree: 58%
 
 ---
 
 # ディメンションを変更 {#change-dimension}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、「ディメンションを変更」アクティビティを使用して、オーケストレーションされたキャンペーン内のターゲティングディメンションをシフトする方法（ウィッシュリストからリンクされた受信者への切り替えなど）について説明します。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_dimension_complement"

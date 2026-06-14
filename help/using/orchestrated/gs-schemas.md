@@ -6,22 +6,24 @@ description: DDL をアップロードして Adobe Experience Platform 内でリ
 exl-id: 327597f6-8a53-42dc-966a-baae49b58bb3
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/tNL6BkFKuOWMyEnR-FWc38mYrcA15wAdsHzZntCEwVw
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2: 
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 485
-ht-degree: 81%
+source-wordcount: 508
+ht-degree: 77%
 
 ---
 
 # リレーショナルスキーマとデータセットの基本を学ぶ{#gs-schemas}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、**&#x200B;関係スキーマとデータセットを作成し、リンクし、オーケストレーションされたキャンペーンのデータを取り込むための主要な概念と手順について説明します。
+
+>[!ENDSHADEBOX]
 
 このガイドでは、リレーショナルスキーマの作成、オーケストレーションキャンペーン用のデータセットの設定、データの取り込みのプロセスについて説明します。
 

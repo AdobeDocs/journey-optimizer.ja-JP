@@ -5,22 +5,24 @@ title: ファイルの読み込みアクティビティの使用
 description: 「ファイルを読み込み」アクティビティを使用して、ファイルをAdobe Experience Platformに取り込まずに、CSVまたはTXT ファイルからオーケストレーションされたキャンペーンオーディエンスをターゲットにする方法を説明します
 exl-id: a7c3e891-4f2d-4b8e-9c1a-6e8f0d3b2a41
 version: Campaign Orchestration
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 5464e4954af28984836c4343a2b83d41b665a490
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 1650
+source-wordcount: 1687
 ht-degree: 5%
 
 ---
 
 # ファイルを読み込み {#load-file}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、** 「ファイルを読み込み」データ管理アクティビティを使用して、ファイルをAdobe Experience Platformに取り込まずに、実行時に外部CSVまたはTXT ファイルからオーケストレーションされたキャンペーンオーディエンスをターゲットにする方法を説明します。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_load_file"
@@ -31,7 +33,7 @@ ht-degree: 5%
 
 >[!AVAILABILITY]
 >
->**ファイルの読み込み** アクティビティは、組織のセットに対して&#x200B;**可用性の制限**&#x200B;で利用できます。 アクセスをリクエストするには、Adobe担当者にお問い合わせください。 可用性フェーズについては、[Journey Optimizer リリースサイクル &#x200B;](../../rn/releases.md)を参照してください。
+>**ファイルの読み込み** アクティビティは、組織のセットに対して&#x200B;**可用性の制限**&#x200B;で利用できます。 アクセスをリクエストするには、Adobe担当者にお問い合わせください。 可用性フェーズについては、[Journey Optimizer リリースサイクル ](../../rn/releases.md)を参照してください。
 >
 >アクティビティは現在、**Healthcare Shield**&#x200B;では使用できません。
 
@@ -42,7 +44,7 @@ ht-degree: 5%
 * **[!UICONTROL オーケストレーションされたキャンペーンでファイルを表示]** – 読み取り専用アクセス権を付与します。 この権限を持つユーザーは、**[!UICONTROL ファイルを読み込み]** アクティビティを含むオーケストレーションされたキャンペーンの結果をプレビューできますが、アクティビティを追加したりファイルをアップロードしたりすることはできません。
 * **[!UICONTROL オーケストレーションされたキャンペーンでファイルを管理]** — **[!UICONTROL ファイルを読み込み]** アクティビティをキャンペーンキャンバスに追加し、ファイルをアップロードするために必要です。 この権限は、**[!UICONTROL ファイルの読み込み]** アクティビティを作成または設定する必要があるユーザーに割り当てます。
 
-権限の割り当て方法については、[&#x200B; ユーザーと役割の管理](../../administration/permissions.md)を参照してください。
+権限の割り当て方法については、[ ユーザーと役割の管理](../../administration/permissions.md)を参照してください。
 
 ## ガードレールと制限 {#limitations}
 
@@ -52,7 +54,7 @@ ht-degree: 5%
 * フラット構造のCSV ファイルとTXT ファイルのみがサポートされます。
 * アップロードされたデータは、キャンペーンの実行時に使用され、Adobe Experience Platform データセットとして保存されません。
 
-チャネルとキャンバスのアクティビティに関する制限については、[&#x200B; ガードレールと制限](../guardrails.md#activities-limitations)を参照してください。
+チャネルとキャンバスのアクティビティに関する制限については、[ ガードレールと制限](../guardrails.md#activities-limitations)を参照してください。
 
 ## 前提条件 {#prerequisites}
 
@@ -62,7 +64,7 @@ ht-degree: 5%
 
 **[!UICONTROL ファイル]**&#x200B;型の&#x200B;**[!UICONTROL プロファイルターゲットDimension]**&#x200B;を使用すると、オーケストレーションされたキャンペーンは、Adobe Experience Platform スキーマではなく、アップロードされたファイルから受信者を解決できます。 キャンペーン実行時にファイルオーディエンスが処理されるときに使用されるID名前空間と識別子フィールドを定義します。
 
-**[!UICONTROL 管理]** > **[!UICONTROL 設定]** > **[!UICONTROL Campaign Target Dimension]**&#x200B;からターゲットディメンションを作成します。 [&#x200B; ターゲットディメンションの詳細](../target-dimension.md)
+**[!UICONTROL 管理]** > **[!UICONTROL 設定]** > **[!UICONTROL Campaign Target Dimension]**&#x200B;からターゲットディメンションを作成します。 [ ターゲットディメンションの詳細](../target-dimension.md)
 
 ファイルベースのターゲティング用のターゲットディメンションを作成する場合は、次のことを確認してください。
 
@@ -84,7 +86,7 @@ ht-degree: 5%
 
 1. 「**[!UICONTROL プロファイルターゲットDimension]**」フィールドで、前の手順で作成したファイルタイプのターゲットディメンションを選択します。
 
-1. 残りのチャネル設定フィールドに入力して保存します。 [&#x200B; オーケストレーションされたキャンペーンのチャネル設定について詳しく見る](../channel-config.md)
+1. 残りのチャネル設定フィールドに入力して保存します。 [ オーケストレーションされたキャンペーンのチャネル設定について詳しく見る](../channel-config.md)
 
 >[!IMPORTANT]
 >

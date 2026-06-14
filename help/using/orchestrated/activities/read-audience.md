@@ -6,23 +6,24 @@ description: 調整されたキャンペーンでのオーディエンスを読�
 exl-id: ef8eba57-cd33-4746-8eb4-5214ef9cbe2f
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/godxGm-QCWx-dIIL3IJcabSf60m5rVvn6hP1Ck6OAQ8
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 669
-ht-degree: 100%
+source-wordcount: 706
+ht-degree: 94%
 
 ---
 
 # オーディエンスを読み取り {#read-audience}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、「オーディエンスを読み取り」アクティビティを使用して、既存の保存またはインポートされたオーディエンスを取得し、オーケストレーションされたキャンペーンで再利用する方法を説明します。オプションで、ターゲティング、パーソナライゼーション、レポート用のプロファイル属性でオーディエンスを強化することもできます。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_read_audience"
