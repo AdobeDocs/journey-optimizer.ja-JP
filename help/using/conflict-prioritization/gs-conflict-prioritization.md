@@ -21,14 +21,20 @@ level_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 869
-ht-degree: 98%
+source-wordcount: 896
+ht-degree: 95%
 
 ---
 
 # 競合管理と優先順位付け {#conflict-prioritization}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、**&#x200B;競合の検出、優先順位スコア、およびルールセットの連携の仕組みを説明します。これにより、コミュニケーションの重複を回避し、顧客にメッセージを送信する頻度を制御できます。
+
+>[!ENDSHADEBOX]
 
 Journey Optimizer では、過剰な数のインタラクションで顧客が圧倒されるのを避けるために、キャンペーンとジャーニーの量とタイミングを管理することが不可欠です。 競合管理と優先順位付けツールにより、お客様の疲れを防ぎ、適切なメッセージがオーディエンスに届くようにすることで、思慮深く適切なタイミングのコミュニケーションを提供できます。 競合の検出、優先度スコア、ルールセットを使用して、キャンペーンとジャーニーを効率化し、重複を回避して、チャネル間の頻度のバランスを取ることができます。
 

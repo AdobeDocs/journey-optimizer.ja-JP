@@ -18,14 +18,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 757
-ht-degree: 100%
+source-wordcount: 781
+ht-degree: 96%
 
 ---
 
 # ジャーニーとキャンペーンの潜在的な競合の検出 {#conflict}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、重複するジャーニーやキャンペーンを本番稼働前に特定することで、一度に多すぎるコミュニケーションを顧客に浴びせるのを避けることができます。
+
+>[!ENDSHADEBOX]
 
 Journey Optimizer でキャンペーンとジャーニーの量を増やすにつれて、マーケターは、過剰なマーケティングインタラクションで顧客を困らせていないかどうかをますます把握しづらくなります。 そのため、キャンペーンやジャーニーが重複している場合にそれを簡単に特定して、顧客に飽きられてしまうリスクを軽減しながら、マーケティングコミュニケーションの適切なバランスを確実に取ることが不可欠です。
 

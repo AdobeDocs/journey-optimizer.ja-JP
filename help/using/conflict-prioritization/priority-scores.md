@@ -16,14 +16,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 subfeature_v2:
   - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 615
-ht-degree: 100%
+source-wordcount: 643
+ht-degree: 95%
 
 ---
 
 # 優先度スコアの割り当て {#priority}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、ジャーニー、キャンペーン、インバウンドアクションに優先度スコアを割り当てます。これにより、プロファイルが複数の対象に適格である場合に、どのコミュニケーションを優先するかを制御できます。
+
+>[!ENDSHADEBOX]
 
 Journey Optimizer を使用すると、ジャーニーの&#x200B;**[!UICONTROL アクション]**&#x200B;アクティビティ内のジャーニー、キャンペーンまたはインバウンドチャネルアクションに優先度スコアを割り当てることができます。
 

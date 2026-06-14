@@ -11,14 +11,20 @@ feature_v2:
   - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
 subfeature_v2:
   - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 1131
-ht-degree: 21%
+source-wordcount: 1159
+ht-degree: 20%
 
 ---
 
 # 数式を使用したジャーニーのランク付け {#journey-ranking-formulas}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** ジャーニー属性、プロファイル属性、またはAI スコアに基づいてランキング式を作成し、ジャーニーキャップが適用されたときに各プロファイルに最適なジャーニーを選択できるようにします。
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
