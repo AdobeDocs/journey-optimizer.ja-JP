@@ -9,28 +9,26 @@ role: User
 level: Intermediate
 exl-id: bd5e053a-69eb-463b-add3-8b9168c8e280
 TQID: https://experienceleague.adobe.com/kqNGPnCDU-yeMvOX-L55POHs1-vmQCEcq4Psky8wSfs
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: f42b4d14-fe8a-428b-b62e-e7995eaab1b3id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 1264
-ht-degree: 78%
+source-wordcount: 1294
+ht-degree: 76%
 
 ---
 
 # テストプロファイルの作成 {#create-test-profiles}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** Adobe Journey Optimizerでコンテンツとテストジャーニーをプレビューできるように、CSV ファイルをアップロードするか、API呼び出しを使用してテストプロファイルを作成する方法を説明します。
+
+>[!ENDSHADEBOX]
 
 ジャーニーで[テストモード](../building-journeys/testing-the-journey.md)を使用する際や、[コンテンツをプレビューしてテストする](../content-management/preview-test.md)には、テストプロファイルが必要です。
 
@@ -62,7 +60,7 @@ ht-degree: 78%
 1. スキーマタイプ（例：**個人プロファイル**）を選択し、「**次へ**」をクリックします。
    ![「個人プロファイル」オプションを示すスキーマタイプの選択](assets/test-profiles-1.png)
 1. スキーマの名前を入力して、「**終了**」をクリックします。
-   ![&#x200B; スキーマに名前を付けて保存ダイアログ](assets/test-profiles-1-bis.png)
+   ![ スキーマに名前を付けて保存ダイアログ](assets/test-profiles-1-bis.png)
 1. **フィールドグループ** セクションで、左側の&#x200B;**追加**&#x200B;をクリックし、適切なフィールドグループを選択します。**[!UICONTROL プロファイルテストの詳細]** フィールドグループを追加してください。
    ![「追加」ボタンを含む「フィールドグループ」セクション](assets/test-profiles-1-ter.png)
 完了したら、「**[!UICONTROL フィールドグループを追加]**」をクリックします。フィールドグループのリストが、スキーマの概要画面に表示されます。
@@ -80,7 +78,7 @@ ht-degree: 78%
    ![「プロファイル」オプションが有効になっているスキーマのプロパティパネル](assets/test-profiles-5.png)
 1. 「**保存**」をクリックします。
 
-スキーマ作成について詳しくは、[XDM ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=ja#prerequisites){target="_blank"}を参照してください。
+スキーマ作成について詳しくは、[XDM ドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/resources/schemas.html?lang=ja#prerequisites){target="_blank"}を参照してください。
 
 >[!IMPORTANT]
 >
@@ -189,13 +187,13 @@ Your journey will be composed of a **[!UICONTROL Read Audience]** and an **[!UIC
 1. プロファイルごとに 1 行追加し、各フィールドの値を入力します。
    ![サンプルテストプロファイルデータを含む CSV ファイル](assets/test-profiles-12.png)
 1. スプレッドシートを CSV ファイルとして保存します。 カンマが区切り記号として使用されていることを確認します。
-1. [!DNL Adobe Experience Platform] **ワークフロー**&#x200B;を参照します。
+1. [!DNL Adobe Experience Platform] **ワークフロー**を参照します。
    ![Adobe Experience Platform のワークフローメニュー](assets/test-profiles-14.png)
 1. 「**[!UICONTROL CSV を XDM スキーマにマッピング]**」を選択し、「**開始**」をクリックします。
    ![「CSV を XDM スキーマにマッピング」ワークフローオプション](assets/test-profiles-16.png)
 1. プロファイルを読み込むデータセットを選択します。「**次へ**」をクリックします。
    ![CSV インポート用のデータセット選択画面](assets/test-profiles-17.png)
-1. 「**ファイルを選択**」をクリックし、csv ファイルを選択します。ファイルがアップロードされたら、**次へ**&#x200B;をクリックします。
+1. 「**ファイルを選択**」をクリックし、csv ファイルを選択します。ファイルがアップロードされたら、**次へ**をクリックします。
    ![「ファイルを選択」ボタンを含むファイルアップロード画面](assets/test-profiles-18.png)
 1. ソース CSV フィールドをスキーマフィールドにマッピングし、「**終了**」をクリックします。
    ![ソースフィールドとターゲットフィールドを示す CSV フィールドマッピングインターフェイス](assets/test-profiles-19.png)
@@ -267,4 +265,4 @@ curl -X POST \
 
 テストプロファイルを作成する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416426?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334236?quality=12)
