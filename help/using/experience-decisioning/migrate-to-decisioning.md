@@ -7,11 +7,27 @@ role: User
 level: Experienced
 exl-id: aedd7845-3d8d-457a-a7f3-03897846b241
 TQID: https://experienceleague.adobe.com/DQI-YSVEdN4ffTgnj-LG4U59-dbVxB-wnBOqjOiWoS4
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2: id: e23d48b5-7858-4d45-9c56-9e2b4be8500eid: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2:
+  - id: e23d48b5-7858-4d45-9c56-9e2b4be8500e
+  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
+  - id: eb547372-2a95-4d13-b0fd-f720c9895880
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
 source-wordcount: 1320
@@ -75,11 +91,11 @@ Funnelの主な要素に対する意思決定項目と選択戦略のパフォ�
 
 ### その他の機能
 
-* **ポリシーの適用**: Decisioning内で[ データ使用ラベル付けと適用（DULE） ](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/overview){target="_blank"}および[同意](../action/consent.md)などの機能を使用するためのビジネスユーザーの権限を付与し、Decisioning ワークフロー全体でプライバシーシールド保護を有効にします。 これにより、意思決定において、データ使用ポリシーと顧客の同意設定が自動的に尊重されるようになります。
+* **ポリシーの適用**: Decisioning内で[&#x200B; データ使用ラベル付けと適用（DULE） &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/labels/overview){target="_blank"}および[同意](../action/consent.md)などの機能を使用するためのビジネスユーザーの権限を付与し、Decisioning ワークフロー全体でプライバシーシールド保護を有効にします。 これにより、意思決定において、データ使用ポリシーと顧客の同意設定が自動的に尊重されるようになります。
 
-* **ネイティブメッセージングチャネルのサポート**：複数のチャネルにまたがる単一のフレームワーク内での統合されたメッセージと決定：[ コードベースのエクスペリエンス ](../code-based/get-started-code-based.md)、[電子メール ](../email/get-started-email.md)、[SMS](../mobile/get-started-mobile.md)、[ プッシュ通知](../push/get-started-push.md)。 直感的なUI サポートにより、ユーザーはメッセージ作成ワークフローに意思決定コンポーネントを直接挿入できます。
+* **ネイティブメッセージングチャネルのサポート**：複数のチャネルにまたがる単一のフレームワーク内での統合されたメッセージと決定：[&#x200B; コードベースのエクスペリエンス &#x200B;](../code-based/get-started-code-based.md)、[電子メール &#x200B;](../email/get-started-email.md)、[SMS](../mobile/get-started-mobile.md)、[&#x200B; プッシュ通知](../push/get-started-push.md)。 直感的なUI サポートにより、ユーザーはメッセージ作成ワークフローに意思決定コンポーネントを直接挿入できます。
 
-* **Experience Platform データセット ルックアップ**: [Adobe Experience Platform データセット ](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/overview){target="_blank"}を、オファーの選択ルール、ランキング、パーソナライズされたオファーコンテンツ内に直接アップロードして参照する機能。 これにより、意思決定ロジックで動的な外部データソースを使用できるようになり、パーソナライゼーションとターゲティングの柔軟性が向上します。 [詳細情報](../data/lookup-aep-data.md)
+* **Experience Platform データセット ルックアップ**: [Adobe Experience Platform データセット &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/overview){target="_blank"}を、オファーの選択ルール、ランキング、パーソナライズされたオファーコンテンツ内に直接アップロードして参照する機能。 これにより、意思決定ロジックで動的な外部データソースを使用できるようになり、パーソナライゼーションとターゲティングの柔軟性が向上します。 [詳細情報](../data/lookup-aep-data.md)
 
 * **スケーラビリティとパフォーマンス**：意思決定計算をハブからエッジに移動させるアーキテクチャの強化により、トラフィックの多いユースケースの遅延を大幅に減らし、スループットを向上させます。
 
@@ -108,7 +124,7 @@ Funnelの主な要素に対する意思決定項目と選択戦略のパフォ�
 * **異なるスコープでの移行** - サンドボックス、オファー、または決定レベル
 * 問題が検出された場合、**ロールバック移行**
 
-認証、エンドポイント、リクエスト/レスポンスの例、ステップバイステップのワークフローなど、完全なAPI ドキュメントについては、[このページ ](decisioning-migration-api.md)を参照してください。
+認証、エンドポイント、リクエスト/レスポンスの例、ステップバイステップのワークフローなど、完全なAPI ドキュメントについては、[このページ &#x200B;](decisioning-migration-api.md)を参照してください。
 
 ## 関連トピック {#related-topics}
 
