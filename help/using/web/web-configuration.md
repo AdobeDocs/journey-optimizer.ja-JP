@@ -7,27 +7,25 @@ role: Admin
 level: Experienced
 exl-id: 2161baf0-38b7-4397-bffe-083929e8033a
 TQID: https://experienceleague.adobe.com/QtTkevbB9U3-Aad9mOZ6eI8ZMCjx-riEWyPaQ0eLqmc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c618a0dc-1818-4c6d-9916-0d92e6796f24
-  - id: d056adbe-402d-4f42-9746-f3d424e598b1
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: e9001ce2-5245-4a8e-8601-dd958009072f
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c618a0dc-1818-4c6d-9916-0d92e6796f24id: d056adbe-402d-4f42-9746-f3d424e598b1id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e9001ce2-5245-4a8e-8601-dd958009072fid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
-source-wordcount: 943
-ht-degree: 96%
+source-wordcount: 955
+ht-degree: 93%
 
 ---
 
 # Web エクスペリエンスの設定 {#web-configuration}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** Adobe Journey Optimizerで、1つのページ URLまたはページと一致するルールとその使用可能な演算子を持つ複数のページをターゲットとするweb チャネル設定を作成する方法を説明します。
+
+>[!ENDSHADEBOX]
 
 ## Web チャネル設定の作成 {#create-web-configuration}
 
@@ -116,7 +114,7 @@ Web または[コードベースのエクスペリエンス](../code-based/get-s
   | 等しい  | ドメインの完全一致。  | |
   | 次で始まる  | 入力された文字列で始まるすべてのドメイン（サブドメインを含む）に一致します。  | 例：「Starts with: dev」は、「dev」で始まるすべてのドメインとサブドメイン（dev.example.com、dev.products.example.com、developer.example.com など）に一致します。  |
   | 次で終わる  | 入力された文字列で終わるすべてのドメイン（サブドメインを含む）に一致します。  | 例：「Ends with: example.com」は、「example.com」で終わるすべてのドメインおよびサブドメイン（stage.example.com、prod.example.com、myexample.com など）に一致します。  |
-  | ワイルドカード一致  | 「ワイルドカードマッチング」演算子を使用すると、「dev.*.example.com」のように、文字列の中央にワイルドカードマッチングを定義できます。 検証ルールでは、演算子が「ワイルドカード一致」の場合、値にはワイルドカード（アスタリスク）を 1 つのみ含める必要があります。  | 例：&quot;Wildcard matching: dev.*.example.com&quot; -> matches domains like: dev.products.example.com, dev.mytest.products.example.com, dev.blog.example.com  |
+  | ワイルドカード一致  | 「ワイルドカードマッチング」演算子を使用すると、「dev.*.example.com」のように、文字列の中央にワイルドカードマッチングを定義できます。 検証ルールは、演算子が「ワイルドカードマッチング」の場合、値にワイルドカード（アスタリスク）を1つだけ含める必要があることです。  | 例：&quot;Wildcard matching: dev.*.example.com&quot; -> matches domains like: dev.products.example.com, dev.mytest.products.example.com, dev.blog.example.com  |
   | いずれか  | すべてのドメインに一致します。これは、ドメイン間で特定のパスをテストする場合に役立ちます。  |  |
 
 

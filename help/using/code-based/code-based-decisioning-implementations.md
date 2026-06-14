@@ -7,27 +7,25 @@ role: Developer
 level: Experienced
 exl-id: f9477611-b792-4b28-8ec2-6bbea2fa3328
 TQID: https://experienceleague.adobe.com/64oNHWa7T8cd-RDZWq0hsAdopo0eh1bhst6NVQpA0Tk
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-  - id: a984631b-2bae-4860-9b15-69c41a799dcb
-subfeature_v2:
-  - id: f88eedcc-cf3e-46b8-9e94-0293589325f3
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: a984631b-2bae-4860-9b15-69c41a799dcb
+subfeature_v2: id: f88eedcc-cf3e-46b8-9e94-0293589325f3
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
 workflow-type: tm+mt
-source-wordcount: 549
-ht-degree: 93%
+source-wordcount: 573
+ht-degree: 90%
 
 ---
 
 # コードベースのエクスペリエンス実装での決定 {#code-based-decisioning-implementations}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** コードベースのエクスペリエンス実装で決定リクエストを送信する際に、重複排除を適用し、ドライラン フラグを使用する方法を説明します。
+
+>[!ENDSHADEBOX]
 
 コードベースのエクスペリエンスで決定を使用する際は、以下に説明するケースで、クライアント実装に次のフラグを追加することを検討してください。
 
@@ -39,7 +37,7 @@ ht-degree: 93%
 
 ## 決定を使用したコードベースのエクスペリエンスのテスト {#code-based-test-decisions}
 
-決定機能を使用して[&#x200B; コードベースのエクスペリエンス &#x200B;](create-code-based.md)をテストする場合、`dryRun` フラグを使用して、レポートとキャッピングカウンターの両方のフィードバックイベントを抑制できます。
+決定機能を使用して[ コードベースのエクスペリエンス ](create-code-based.md)をテストする場合、`dryRun` フラグを使用して、レポートとキャッピングカウンターの両方のフィードバックイベントを抑制できます。
 
 キャンペーンを公開したら、クライアント実装の XDM イベント `data` ブロックに `dryRun` フラグを追加します。
 
