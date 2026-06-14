@@ -8,14 +8,20 @@ level: Beginner, Intermediate
 exl-id: 0c2f95ce-28a0-480c-9829-b7e4975b6340
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1115
+source-wordcount: 1151
 ht-degree: 3%
 
 ---
 
 # AI インボックス用のメールの最適化 {#email-text-optimizer}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、**&#x200B;電子メール Designerで専用の電子メールを生成および調整する方法を説明します。これにより、AIを活用した受信トレイ クライアントが、オファーやCTAで要約と回答を基に電子メールを作成できるようになります。
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer]には、AIを活用した受信トレイのエクスペリエンスを向上させるために、特定のバージョンのメッセージを作成できるメールチャネル機能が搭載されています（[!DNL Gmail]の[!DNL Apple Intelligence]や[!DNL Google Gemini]など）。これにより、より正確に質問に答え、コンテンツに基づいてメールを要約して、より良い結果を得ることができます。
 

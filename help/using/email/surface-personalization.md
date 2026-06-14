@@ -25,14 +25,20 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1191
-ht-degree: 89%
+source-wordcount: 1215
+ht-degree: 88%
 
 ---
 
 # メール設定のパーソナライズ {#surface-personalization}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、**&#x200B;動的サブドメイン、ヘッダーパラメーター、およびURL トラッキングパラメーターのパーソナライズされた値をメールチャネル設定レベルで定義する方法について説明します。
+
+>[!ENDSHADEBOX]
 
 メール設定の柔軟性と制御を高めるために、[!DNL Journey Optimizer] では、メール設定の作成時にサブドメイン、ヘッダーおよび URL トラッキングパラメーターに、パーソナライズされた値を定義できます。
 

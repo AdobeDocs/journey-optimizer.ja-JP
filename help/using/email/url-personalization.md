@@ -11,14 +11,20 @@ keywords: url、リンク、パーソナライゼーション、トラッキン�
 feature_v2: []
 subfeature_v2:
   - id: c41e8697-e629-4c38-96b3-564faaa17acf
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 402
-ht-degree: 24%
+source-wordcount: 430
+ht-degree: 23%
 
 ---
 
 # メールのURLのパーソナライズ {#url-personalization}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、リンクを有効かつ追跡可能な状態に保ちながら、完全またはベース URLやリンクごとの追跡パラメーターなどのプロファイル属性でメール URLをパーソナライズする方法について説明します。
+
+>[!ENDSHADEBOX]
 
 パーソナライズされたURLを使用すると、受信者固有のリンクの生成や動的パラメーターの追加など、[!DNL Journey Optimizer]電子メールメッセージを通じてコンテクストに即したエクスペリエンスを提供できます。
 

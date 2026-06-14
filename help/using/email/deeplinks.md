@@ -10,15 +10,21 @@ level: Intermediate
 keywords: ディープリンク、ディープリンク、ユニバーサルリンク、アプリリンク、電子メール、sms
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1327
+source-wordcount: 1367
 ht-degree: 1%
 
 ---
 
 
 # 電子メールやSMSのディープリンクの使用と設定 {#deeplinks}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;電子メールやSMS コンテンツでディープリンクを作成し、Adobe Journey Optimizerで設定し、iOSおよびAndroid アプリでトラッキングされたリンクを処理して、受信者がアプリ内の適切な画面に表示されるようにする方法を説明します。
+
+>[!ENDSHADEBOX]
 
 ディープリンクは、電子メールやSMS メッセージの受信者を、モバイルアプリの特定の画面やコンテンツに誘導するのに役立ちます。 web ブラウザーやアプリストアを経由することなく、オーディエンスを意図したアプリ内エクスペリエンスに直接つなげることができます。これにより、ジャーニーを通じて、顧客のニーズに即し、ブランド基準を維持できます。
 
@@ -336,7 +342,7 @@ URL エンコードクエリパラメーター値。 これにより、配信と
 
 +++ URLのUTM パラメーターは、分析用モバイルアプリで使用できますか？
 
-はい。 [!DNL Journey Optimizer]で設定したUTM パラメーターは、アプリが`mclick` URLでGETを実行したときに`Location` ヘッダーで返される最終的なURLに含まれるため、アプリ内分析に使用できます。
+はい。 [!DNL Journey Optimizer]で設定したUTM パラメーターは、アプリが`mclick` URLに対してGETを実行したときに`Location` ヘッダーで返される最終的なURLに含まれるため、アプリ内分析に使用できます。
 
 +++
 

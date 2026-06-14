@@ -29,14 +29,20 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1104
-ht-degree: 87%
+source-wordcount: 1131
+ht-degree: 85%
 
 ---
 
 # メールへのビジュアルフラグメントの追加 {#use-visual-fragments}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、再利用可能なビジュアルフラグメントをメールに挿入し、編集可能なフィールドをカスタマイズし、元のフラグメントとの継承を解除または維持する方法について説明します。
+
+>[!ENDSHADEBOX]
 
 フラグメントは、Journey Optimizer キャンペーン、ジャーニー、コンテンツテンプレート全体で 1 つ以上のメールで参照できる再利用可能なコンポーネントです。 この機能を使用すると、マーケティングユーザーが改善されたデザインプロセスでメールコンテンツを迅速に組み立てるために使用できる複数のカスタムコンテンツブロックを事前に作成できます。 [詳しくは、フラグメントの作成と管理の方法を参照してください](../content-management/fragments.md)。
 

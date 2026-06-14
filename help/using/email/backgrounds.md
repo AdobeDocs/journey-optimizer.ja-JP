@@ -24,14 +24,20 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 306
-ht-degree: 100%
+source-wordcount: 332
+ht-degree: 92%
 
 ---
 
 # メールの背景のパーソナライズ {#backgrounds}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;電子メールの本文、ビューポート、構造、列レベルで背景色と画像を設定する方法を電子メール Designerで説明します。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"

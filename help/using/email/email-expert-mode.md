@@ -10,14 +10,20 @@ level: Experienced
 exl-id: 0c586565-0c65-435f-986d-cd08b59de159
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 567
-ht-degree: 7%
+source-wordcount: 614
+ht-degree: 6%
 
 ---
 
 # 高度なHTMLエディターでメールコンテンツを編集できます {#email-expert-mode}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、**&#x200B;電子メール Designerの高度なHTML エディターを使用して、電子メールコンテンツの生のHTML ソースを表示および編集する方法について説明します。これには、覚えておくべきガードレールや、プレビューおよび保存するためにビジュアルビューに戻る方法などが含まれます。
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

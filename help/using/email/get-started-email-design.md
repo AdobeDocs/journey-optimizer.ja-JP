@@ -30,14 +30,20 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 738
-ht-degree: 100%
+source-wordcount: 776
+ht-degree: 95%
 
 ---
 
 # メールデザインの基本を学ぶ {#get-started-content-design}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、**&#x200B;電子メール Designerで電子メールコンテンツをデザインする方法、ゼロから作成する主な手順、コードを作成する方法、HTMLをインポートする方法、および電子メールをクライアント間で適切にレンダリングするベストプラクティスについて説明します。
+
+>[!ENDSHADEBOX]
 
 E メールデザイナーにアクセスしてメールコンテンツのデザインを開始するには、まずジャーニーまたはキャンペーンで[メールを作成](create-email.md)する必要があります。
 

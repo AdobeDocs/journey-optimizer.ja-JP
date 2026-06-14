@@ -23,14 +23,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 531
-ht-degree: 78%
+source-wordcount: 563
+ht-degree: 73%
 
 ---
 
 # メール設定の基本を学ぶ {#get-starte-email-config}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、** サブドメインのデリゲート、IP プールの作成、チャネル設定、実行フィールド、再試行の設定など、Adobe Journey Optimizerでメールチャネルを設定するための基本的な手順について説明します。
+
+>[!ENDSHADEBOX]
 
 Adobe Journey Optimizer でメールチャネルを設定することは、効果的にオーディエンスに関与する、影響力のあるパーソナライズされたメールエクスペリエンスを作成するゲートウェイです。
 

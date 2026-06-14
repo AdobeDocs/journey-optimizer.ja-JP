@@ -27,14 +27,20 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 734
-ht-degree: 100%
+source-wordcount: 769
+ht-degree: 95%
 
 ---
 
 # メールコンテンツへのカスタム CSS の追加 {#email-metadata}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、**&#x200B;高度なスタイル設定を行うためにメール Designerでカスタム CSSをメールコンテンツに追加する方法、CSSを有効に保つ方法、適用されないスタイルをトラブルシューティングする方法について説明します。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_css"
@@ -254,7 +260,7 @@ E メールデザイナーに読み込んだコンテンツでカスタム CSS �
 
 * `global-custom` スタイルのタグに属性 `data-disabled` が `true` に設定されているかどうかを確認します。 該当する場合、カスタム CSS は適用されません。
 
-  +++ 例：
+  +++ 次に例を示します。
 
   ```html
   <style data-name="global-custom" type="text/css" data-disabled="true"> body: { color: red; } </style>
@@ -268,7 +274,7 @@ E メールデザイナーに読み込んだコンテンツでカスタム CSS �
 
    * 優先されるようにするには、宣言に `!important` を追加することを考慮します。
 
-     +++ 例：
+     +++ 次に例を示します。
 
      ```css
      .acr-Form {

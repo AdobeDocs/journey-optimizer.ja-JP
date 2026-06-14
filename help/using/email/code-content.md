@@ -25,14 +25,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 496
-ht-degree: 66%
+source-wordcount: 529
+ht-degree: 62%
 
 ---
 
 # コンテンツを独自にコーディング {#code-content}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、**&#x200B;生のHTMLを電子メールDesigner コードエディターに書き込んだり貼り付けたりして、電子メールコンテンツを作成する方法（パーソナライゼーションの追加方法や使用可能な日時の関数など）について説明します。
+
+>[!ENDSHADEBOX]
 
 **[!UICONTROL 独自のコードを作成]**&#x200B;すると、生のHTMLを書き込んだり貼り付けたりして、[!DNL Journey Optimizer] メール Designerで直接メールコンテンツを作成できます。 このモードは、マークアップを完全に制御する必要がある場合や、既存のHTMLを読み込む場合に使用します。
 

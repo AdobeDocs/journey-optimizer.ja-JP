@@ -32,14 +32,20 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ebb3a1face3a72a52ec365c519ac2686c97ad187
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1464
-ht-degree: 82%
+source-wordcount: 1491
+ht-degree: 80%
 
 ---
 
 # リンクの追加とメッセージのトラッキング {#tracking}
+
+>[!BEGINSHADEBOX]
+
+**このページで：** リンクの挿入と管理、ミラーページの追加、開封率とクリック率の追跡を有効にして、メールでの受信者のエンゲージメントを監視する方法について説明します。
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] を使用すると、受信者の行動を監視するのに、コンテンツにリンクを追加し送信済みメッセージをトラッキングすることができます。
 

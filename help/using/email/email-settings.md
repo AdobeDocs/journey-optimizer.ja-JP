@@ -25,14 +25,20 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1490
-ht-degree: 96%
+source-wordcount: 1523
+ht-degree: 94%
 
 ---
 
 # メール設定の指定 {#email-settings}
+
+>[!BEGINSHADEBOX]
+
+**このページでは：**&#x200B;電子メールの種類、サブドメイン、IP プール、リストの登録解除、ヘッダーパラメーター、BCC、シードリスト、再試行、URL トラッキング、実行アドレスなど、チャネル設定で電子メール設定を定義する方法について説明します。
+
+>[!ENDSHADEBOX]
 
 メールの作成を開始するには、メッセージに必要なすべての技術的パラメーターを定義するメールチャネル設定を指定する必要があります。 [設定の作成方法を学ぶ](../configuration/channel-surfaces.md)
 

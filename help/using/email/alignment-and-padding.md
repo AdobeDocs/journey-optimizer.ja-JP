@@ -23,14 +23,20 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 381
-ht-degree: 100%
+source-wordcount: 412
+ht-degree: 92%
 
 ---
 
 # 垂直方向の整列とパディングの調整 {#alignment-and-padding}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、**&#x200B;電子メール Designerの列と構造の垂直方向の整列とパディングを調整する方法について説明します。この中には、モバイルでの正しいレンダリングのために残差フラグメントのパディングを修正する方法も含まれます。
+
+>[!ENDSHADEBOX]
 
 この例では、3 つの列で構成される構造コンポーネント内のパディングと垂直方向の整列を調整します。
 

@@ -30,14 +30,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 312
-ht-degree: 100%
+source-wordcount: 344
+ht-degree: 90%
 
 ---
 
 # メールの基本を学ぶ {#get-started-email}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** Adobe Journey Optimizerの電子メールチャネルの概要と、電子メールDesignerを使用して、ジャーニーやキャンペーンで電子メールメッセージを作成、デザイン、パーソナライズ、プレビューする方法について説明します。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card4"
@@ -50,7 +56,7 @@ ht-degree: 100%
 
 * **ジャーニー**&#x200B;の場合：ジャーニーに&#x200B;**[!UICONTROL メール]**&#x200B;アクティビティを追加し、基本設定を定義したら、右側の&#x200B;**[!UICONTROL アクション：メール]**&#x200B;パネルを使用して、メッセージのコンテンツを作成します。 [ジャーニーを作成する方法の詳細情報](../building-journeys/journey-gs.md)
 
-* **Campaign** の場合：キャンペーンを作成したら、アクションとして「**[!UICONTROL メール]**」を選択し、基本設定を定義します。 詳しくは、[アクションキャンペーン](../campaigns/campaign-action.md#action-campaign-action) | [API トリガーキャンペーン](../campaigns/api-triggered-campaigns.md) | [オーケストレーションキャンペーン](../orchestrated/create-orchestrated-campaign.md#create)を作成する方法を参照してください
+* **Campaign** の場合：キャンペーンを作成したら、アクションとして「**[!UICONTROL メール]**」を選択し、基本設定を定義します。 詳しくは、[アクションキャンペーン](../campaigns/campaign-action.md#action-campaign-action) | [API トリガーキャンペーン](../campaigns/api-triggered-campaigns.md) | [オーケストレーションキャンペーン](../orchestrated/create-orchestrated-campaign.md#create)の作成方法を参照してください。
 
 
 >[!IMPORTANT]

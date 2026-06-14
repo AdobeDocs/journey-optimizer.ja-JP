@@ -26,14 +26,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1553
-ht-degree: 95%
+source-wordcount: 1584
+ht-degree: 93%
 
 ---
 
 # ダークモードコンテンツの管理 {#dark-mode}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、**&#x200B;電子メールクライアントがダークモードを処理する方法と、電子メール Designerでカスタムダークモードの設定をプレビューおよび定義する方法、および一貫したレンダリングのベストプラクティスについて説明します。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_darkmode"
