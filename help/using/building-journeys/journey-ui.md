@@ -12,14 +12,20 @@ exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1482
-ht-degree: 95%
+source-wordcount: 1506
+ht-degree: 94%
 
 ---
 
 # ジャーニーの参照とフィルタリング {#browse-journeys}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** Adobe Journey Optimizerのジャーニーダッシュボード、リスト、カレンダービューを使用して、ジャーニーを参照、検索、フィルタリングする方法を説明します。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_view"
@@ -142,7 +148,7 @@ ht-degree: 95%
 
 * **ドラフト**：ジャーニーは最初のステージです。 まだ公開されていません。
 * **ドラフト（テスト）**：「**テストモード**」ボタンを使用してテストモードがアクティブ化されています。 [詳細情報](../building-journeys/testing-the-journey.md)
-* **完了**: ジャーニーは、ジャーニーのタイプと設定に基づいて、このステータスに自動的に切り替わります。 既にジャーニーにエントリしているプロファイルは、通常どおりにジャーニーを終了できます。 新しいプロファイルは、そのジャーニーにエントリできなくなります。 [&#x200B; ジャーニーが完了したと見なされるタイミングを学習します](end-journey.md#journey-finished-definition)。
+* **完了**: ジャーニーは、ジャーニーのタイプと設定に基づいて、このステータスに自動的に切り替わります。 既にジャーニーにエントリしているプロファイルは、通常どおりにジャーニーを終了できます。 新しいプロファイルは、そのジャーニーにエントリできなくなります。 [ ジャーニーが完了したと見なされるタイミングを学習します](end-journey.md#journey-finished-definition)。
 * **ライブ**：ジャーニーは「**公開**」ボタンを使用して公開されています。 [詳細情報](../building-journeys/publish-journey.md)
 * **一時停止済み**：ライブジャーニーは「**一時停止**」ボタンを使用して一時停止されています。 [詳細情報](../building-journeys/journey-pause.md)
 * **停止済み**：「**停止**」ボタンを使用してジャーニーがオフになっています。 すべての個人のジャーニーが即座に終了します。 [詳細情報](../building-journeys/end-journey.md#stop-journey)

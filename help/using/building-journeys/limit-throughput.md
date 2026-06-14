@@ -10,26 +10,25 @@ keywords: ジャーニー, データソース, 制限, スループット, カ�
 exl-id: 45d6bb82-88ea-4510-a023-a75a82cc6f7b
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/r96xAEjUJDufjpxGMrxoYS0VthagaSyYdS9NQttT9x0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 798
-ht-degree: 93%
+source-wordcount: 829
+ht-degree: 90%
 
 ---
 
 # ユースケース：外部データソースとカスタムアクションでスループットを制限する{#limit-throughput}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、**&#x200B;外部システムがサポートされている1秒あたりのリクエスト数を超えないように、カスタムアクションと外部データソースを使用してジャーニー処理をスロットリングする方法について説明します。
+
+>[!ENDSHADEBOX]
 
 このユースケースは、外部システムが1秒あたりの上限リクエスト数を処理する必要がある場合に、ジャーニー処理をスロットリングする場合に使用します。
 
@@ -45,7 +44,7 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->応答がサポートされるようになったので、外部データソースのユースケースでは、データ ソースの代わりにカスタムアクションを使用する必要があります。 応答について詳しくは、この[節](../action/action-response.md)を参照してください。
+>応答がサポートされるようになったので、外部データソースのユースケースでは、データソースの代わりにカスタムアクションを使用する必要があります。 応答について詳しくは、この[節](../action/action-response.md)を参照してください。
 
 外部データソースやカスタムアクションを扱う場合は、ジャーニーのスループットを単一ジャーニーの場合は最大 5,000 インスタンス/秒、オーディエンストリガージャーニーの場合は最大 20,000 インスタンス/秒に制限して、外部システムを保護する必要が生じる場合があります。 ジャーニーの処理率とスループットについて詳しくは、[この節](entry-management.md#journey-processing-rate)を参照してください。
 

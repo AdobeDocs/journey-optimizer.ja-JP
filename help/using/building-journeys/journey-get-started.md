@@ -10,34 +10,26 @@ hide: true
 keywords: ジャーニー, オーケストレーション, はじめに, オンボーディング, 機能
 exl-id: 96b1d619-986d-493d-a73b-d7c63b92cca8
 TQID: https://experienceleague.adobe.com/Ht6fS6uanOs-rXoT4bAnK6eGvm9kOmH-N5B-y8KU6Rc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: 06565328f42ff79943f774df55d8e41118b40815
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 979
-ht-degree: 82%
+source-wordcount: 1009
+ht-degree: 80%
 
 ---
 
 # ジャーニーオーケストレーション – 完全ガイド{#journey-orchestration-guide}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、** Adobe Journey Optimizerのジャーニーオーケストレーションの完全なガイドを入手し、リアルタイムに適応するマルチステップのマルチチャネル カスタマージャーニーを設計、管理、改良する方法について説明します。
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer]のジャーニーを利用すると、オーディエンスの行動やニーズにリアルタイムで適応する、パーソナライズされたマルチステップのカスタマージャーニーを作成できます。 直感的なドラッグ＆ドロップキャンバスを使用すると、コンテキストデータとオーディエンスターゲティングを活用して、複数のチャネルをまたいでメッセージとアクションを調整し、最大限の影響を得ることができます。
 
@@ -51,7 +43,7 @@ Journey Optimizer ジャーニーデザイナーには、マーケターやジ�
 
 ![パレット、キャンバス、プロパティパネルを含むジャーニーデザイナーインターフェイス](assets/journey38.png)
 
-**構築を開始する準備ができましたか？** [このページ &#x200B;](journey-gs.md)で最初のジャーニーを作成およびデザインする方法について説明します。
+**構築を開始する準備ができましたか？** [このページ ](journey-gs.md)で最初のジャーニーを作成およびデザインする方法について説明します。
 
 
 ## 主な機能 {#capabilities}
@@ -59,7 +51,7 @@ Journey Optimizer ジャーニーデザイナーには、マーケターやジ�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 **リアルタイムおよびバッチ配信**
 
@@ -69,7 +61,7 @@ Journey Optimizer ジャーニーデザイナーには、マーケターやジ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 **コンテキストデータ**
 
@@ -79,7 +71,7 @@ Journey Optimizer ジャーニーデザイナーには、マーケターやジ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **ビルトインアクション**
 
@@ -89,7 +81,7 @@ Journey Optimizer ジャーニーデザイナーには、マーケターやジ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 **カスタムアクション**
 
@@ -99,7 +91,7 @@ Journey Optimizer ジャーニーデザイナーには、マーケターやジ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **視覚的なジャーニーデザイナー**
 
@@ -109,7 +101,7 @@ Journey Optimizer ジャーニーデザイナーには、マーケターやジ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **再利用可能なジャーニーフラグメント**
 
@@ -119,7 +111,7 @@ Journey Optimizer ジャーニーデザイナーには、マーケターやジ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **テストと最適化**
 
@@ -134,13 +126,13 @@ Journey Optimizer ジャーニーデザイナーには、マーケターやジ�
 
 ジャーニーデザイナー内から、マーケターはイベントが発生した際に、任意のチャネルを通じてリアルタイムでトリガーされる 1:1 メッセージを送信できます。 例えば、お客様がサービスを購読する際に、[ウェルカムメールがトリガー](message-to-subscribers-uc.md)され、初めてアプリにログインして環境設定を行うように促すことができます。 購入の完了、メールの開封、アプリへのログインなどのアクションを使用して、新規顧客をジャーニーに進めることができます。
 
-[&#x200B; ジャーニーデザイナー](using-the-journey-designer.md)は、電子メール、プッシュ通知、SMS/RCS/MMSなどのアウトバウンドメッセージと、Journey Optimizer内で直接構築されたモバイルアプリ、web サイト、コードベースのエクスペリエンスなどのインバウンドチャネルをサポートする[組み込みのチャネルアクション &#x200B;](journey-action.md)を提供します。 また、サードパーティシステムを使用してメッセージを送信することもできます。Journey Optimizer には、これらのシステムをジャーニーデザイナーから直接ジャーニーに統合できるようにする[カスタムアクション](using-custom-actions.md)が含まれています。
+[ ジャーニーデザイナー](using-the-journey-designer.md)は、電子メール、プッシュ通知、SMS/RCS/MMSなどのアウトバウンドメッセージと、Journey Optimizer内で直接構築されたモバイルアプリ、web サイト、コードベースのエクスペリエンスなどのインバウンドチャネルをサポートする[組み込みのチャネルアクション ](journey-action.md)を提供します。 また、サードパーティシステムを使用してメッセージを送信することもできます。Journey Optimizer には、これらのシステムをジャーニーデザイナーから直接ジャーニーに統合できるようにする[カスタムアクション](using-custom-actions.md)が含まれています。
 
 
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **ユースケースを通じて学ぶ**
 
@@ -150,7 +142,7 @@ Journey Optimizer ジャーニーデザイナーには、マーケターやジ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
 
 **新規サブスクライバーの歓迎**
 
@@ -160,7 +152,7 @@ Journey Optimizer ジャーニーデザイナーには、マーケターやジ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/calendar-alt.svg)
 
 **メール送信時間の最適化**
 
@@ -170,7 +162,7 @@ AI を活用した送信時間の最適化を使用して、各顧客が最も�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 **配信を増やす**
 
@@ -180,7 +172,7 @@ AI を活用した送信時間の最適化を使用して、各顧客が最も�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 **平日のターゲット**
 
@@ -190,7 +182,7 @@ AI を活用した送信時間の最適化を使用して、各顧客が最も�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
 
 **ジャーニーに関する FAQ**
 
@@ -208,7 +200,7 @@ AI を活用した送信時間の最適化を使用して、各顧客が最も�
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 **ジャーニーの作成と管理**
 
@@ -218,7 +210,7 @@ AI を活用した送信時間の最適化を使用して、各顧客が最も�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 **ジャーニーアクティビティ**
 
@@ -228,7 +220,7 @@ AI を活用した送信時間の最適化を使用して、各顧客が最も�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 **式と条件**
 
@@ -238,7 +230,7 @@ AI を活用した送信時間の最適化を使用して、各顧客が最も�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 **トラブルシューティングと監視**
 
@@ -248,7 +240,7 @@ AI を活用した送信時間の最適化を使用して、各顧客が最も�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 **ジャーニーデザイナーの概要**
 
@@ -258,7 +250,7 @@ AI を活用した送信時間の最適化を使用して、各顧客が最も�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 **テストと公開**
 
@@ -273,7 +265,7 @@ AI を活用した送信時間の最適化を使用して、各顧客が最も�
 
 ジャーニーのコンポーネントを把握し、キャンバスでのジャーニー構築の基本を理解します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430350?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424996?quality=12)
 
 ### その他のリソース
 

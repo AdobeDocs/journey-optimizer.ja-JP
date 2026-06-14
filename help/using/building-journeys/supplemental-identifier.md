@@ -4,25 +4,24 @@ description: ジャーニーの補助識別子の使用方法について説明�
 exl-id: f6ebd706-4402-448a-a538-e9a4c2cf0f8b
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/ABOlJ-ZF0a3xLNY-hH6jjFqu53ph4PynNalGkgQ6P8k
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 02ce60020012083981c5599789b9e86804190627
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: d08afb72-92f6-4856-88e3-11ec34313c2fid: fa683eda-48de-4558-af32-2673edcd44fe
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 2009
+source-wordcount: 2041
 ht-degree: 47%
 
 ---
 
 # ジャーニーの補足識別子の使用 {#supplemental-id}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;追加識別子（注文や予約IDなどのセカンダリ識別子）を使用して、識別子ごとに個別のジャーニーインスタンスを実行し、その属性を使用してメッセージをパーソナライズする方法を説明します。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_parameters_supplemental_identifier"
@@ -129,11 +128,11 @@ ht-degree: 47%
 
    1. **[!UICONTROL 補足識別子]** フィールドで、式エディターを使用して補足識別子の属性を選択します。
 
-   CSV ファイル [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#import-audience){target="_blank"}から読み込まれたオーディエンス について、CSV オーディエンスにプロファイル IDごとに複数の行が含まれている場合は、最初にExpress Activationが有効になっていることを確認してください。外部オーディエンスを含む[補足識別子](#external-audiences)を参照してください。
+   CSV ファイル ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#import-audience){target="_blank"}から読み込まれたオーディエンス [について、CSV オーディエンスにプロファイル IDごとに複数の行が含まれている場合は、最初にExpress Activationが有効になっていることを確認してください。外部オーディエンスを含む[補足識別子](#external-audiences)を参照してください。
 
        >[!NOTE]
-       >
-       >**[!UICONTROL 詳細モード &#x200B;]の式エディターを使用して属性を選択していることを確認してください**&#x200B;7&rbrace;。   
+     >
+     >**[!UICONTROL 詳細モード ]の式エディターを使用して属性を選択していることを確認してください**7}。   
 
 >[!ENDTABS]
 
@@ -200,7 +199,7 @@ ht-degree: 47%
 
 ## 外部オーディエンスを使用した補足識別子 {#external-audiences}
 
-追加IDは、CSV ファイルから読み込まれたオーディエンス [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#import-audience)や[連合オーディエンス構成](../audience/get-started-audience-orchestration.md){target="_blank"}で作成されたオーディエンスなど、外部オーディエンスに対してサポートされています。 &#x200B;CSVまたはFederated Audience Composition オーディエンスから読み取るジャーニーを設定する場合、そのオーディエンスのID以外の属性を補足IDとして指定できます。 次に、Journey Optimizerは、一意のプロファイルと追加のIDの組み合わせごとに個別のジャーニーインスタンスを作成します。
+追加IDは、CSV ファイルから読み込まれたオーディエンス [や[連合オーディエンス構成](../audience/get-started-audience-orchestration.md)で作成されたオーディエンスなど、外部オーディエンスに対してサポートされています。 ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja#import-audience){target="_blank"}CSVまたはFederated Audience Composition オーディエンスから読み取るジャーニーを設定する場合、そのオーディエンスのID以外の属性を補足IDとして指定できます。 次に、Journey Optimizerは、一意のプロファイルと追加のIDの組み合わせごとに個別のジャーニーインスタンスを作成します。
 
 * ユースケース 1：一意のプロファイルごとに1行+追加のID ペア
 
@@ -272,7 +271,7 @@ x-sandbox-name: {SANDBOX_NAME}
 >
 >`expressActivation`のデフォルトは`false`です。 オーディエンス作成時に設定する必要があり、作成後に変更することはできません。 すべてのFederated Audience Composition オーディエンスでは、デフォルトでExpress Activationが有効になっており、このフラグは必要ありません。
 
-完全なリファレンスについては、[外部オーディエンス APIの作成](https://experienceleague.adobe.com/ja/docs/experience-platform/segmentation/tutorials/create-external-audience#create){target="_blank"}を参照してください。
+完全なリファレンスについては、[外部オーディエンス APIの作成](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/tutorials/create-external-audience#create){target="_blank"}を参照してください。
 
 +++
 
@@ -325,4 +324,4 @@ x-sandbox-name: {SANDBOX_NAME}
 
 [!DNL Adobe Journey Optimizer] で補足識別子を有効にして適用する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464793?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3464792?quality=12)

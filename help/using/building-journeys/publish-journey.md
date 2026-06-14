@@ -11,25 +11,26 @@ keywords: 公開, ジャーニー, ライブ, 有効性, 確認
 exl-id: e0ca8aef-4f1d-4631-8c34-1692d96e8b51
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/Hhvwpfq0phAjvzIGgv-NMnnhWhYJ-PpLOL0F4Q-CnqA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
 subfeature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: cec8851784af46ce97f5bce843e970c82b4aa3ed
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1272
+source-wordcount: 1295
 ht-degree: 48%
 
 ---
 
 # ジャーニーの公開 {#publishing-the-journey}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;前提条件、公開プロセス、バージョン管理、再公開要件など、ジャーニーをライブで設定するためのジャーニーの公開方法について説明します。
+
+>[!ENDSHADEBOX]
 
 ジャーニーを公開すると、そのジャーニーがアクティブになります。ステータスは&#x200B;**[!UICONTROL ライブ]**&#x200B;に移動し、新しいプロファイルが入力できるようになります。また、読み取り専用モードに切り替わります。 エラーを含むジャーニーは公開できません。
 
@@ -43,8 +44,8 @@ ht-degree: 48%
 
 公開する前に、ジャーニーが次の前提条件を満たしていることを確認してください。
 
-* **検証エラーはありません** — エラーを含むジャーニーを公開することはできません。 [最初にジャーニーをテスト &#x200B;](testing-the-journey.md)し、[&#x200B; アクティビティエラーのトラブルシューティング &#x200B;](../building-journeys/troubleshooting.md#activity-errors)を行います。
-* **公開権限** – 公開には、**[!DNL Publish journeys]**&#x200B;の高レベル権限が必要です。 [&#x200B; アクセス権の管理](../administration/permissions-overview.md)の詳細をご覧ください。
+* **検証エラーはありません** — エラーを含むジャーニーを公開することはできません。 [最初にジャーニーをテスト ](testing-the-journey.md)し、[ アクティビティエラーのトラブルシューティング ](../building-journeys/troubleshooting.md#activity-errors)を行います。
+* **公開権限** – 公開には、**[!DNL Publish journeys]**&#x200B;の高レベル権限が必要です。 [ アクセス権の管理](../administration/permissions-overview.md)の詳細をご覧ください。
 * **制限内のペイロード** — ジャーニーペイロードは、設定された制限内（デフォルトでは4 MB）である必要があります。 [ジャーニーペイロードサイズの検証](../start/guardrails.md#journey-payload-size)を参照してください。
 * **承認取得** — ジャーニーが承認ポリシーの対象である場合は、公開前に承認を要求して取得します。 [学習を増やす](../test-approve/gs-approval.md)。
 
@@ -52,9 +53,9 @@ ht-degree: 48%
 >
 >公開する前に、使用可能なテストオプションのいずれかを使用してジャーニーを検証します。
 >
->* [&#x200B; シミュレーション &#x200B;](simulate-journey-gs.md) — Adobe Experience Platformで永続的なテストプロファイルを使用せずに、シミュレートされたユーザーでテストします。
->* [&#x200B; テストモード &#x200B;](testing-the-journey.md) — Adobe Experience Platformでテストプロファイルとしてフラグ付けされた永続的なプロファイルを使用してテストします。
->* [&#x200B; ドライラン &#x200B;](journey-dry-run.md) — プロファイルに連絡せずに、実際の実稼動データを使用してテストします。
+>* [ シミュレーション ](simulate-journey-gs.md) — Adobe Experience Platformで永続的なテストプロファイルを使用せずに、シミュレートされたユーザーでテストします。
+>* [ テストモード ](testing-the-journey.md) — Adobe Experience Platformでテストプロファイルとしてフラグ付けされた永続的なプロファイルを使用してテストします。
+>* [ ドライラン ](journey-dry-run.md) — プロファイルに連絡せずに、実際の実稼動データを使用してテストします。
 
 ## 公開プロセス {#journey-publication}
 
@@ -78,11 +79,11 @@ ht-degree: 48%
 
 * **[!UICONTROL ライブ]** — ジャーニーが公開され、プロファイルが入力できます。
 * **[!UICONTROL Closed]** – 新しいバージョンが公開されたときに自動的に終了した以前のバージョン。 入り口は出来ない。
-* **[!UICONTROL 完了]** — ジャーニーは、終了条件に従って完了しました。 ジャーニーが終了したと見なされるタイミングの正確な定義については、[&#x200B; ジャーニーの終了方法](end-journey.md#journey-finished-definition)を参照してください。
+* **[!UICONTROL 完了]** — ジャーニーは、終了条件に従って完了しました。 ジャーニーが終了したと見なされるタイミングの正確な定義については、[ ジャーニーの終了方法](end-journey.md#journey-finished-definition)を参照してください。
 
 ### ジャーニーを停止 {#stop-journey}
 
-ジャーニーを停止すると、そのジャーニーは完全に停止します。 ジャーニーを進むすべての個人は完全に停止し、ジャーニーは新規エントリの許可を停止します。 ジャーニーを再び実行する必要がある場合は、複製して新しいジャーニーを公開します。 ジャーニーの終了方法について詳しくは、[&#x200B; ジャーニーの終了方法](end-journey.md)を参照してください。
+ジャーニーを停止すると、そのジャーニーは完全に停止します。 ジャーニーを進むすべての個人は完全に停止し、ジャーニーは新規エントリの許可を停止します。 ジャーニーを再び実行する必要がある場合は、複製して新しいジャーニーを公開します。 ジャーニーの終了方法について詳しくは、[ ジャーニーの終了方法](end-journey.md)を参照してください。
 
 ### 要件の再公開 {#republishing}
 
@@ -134,11 +135,11 @@ ht-degree: 48%
 
 **ジャーニーを公開できないのはなぜですか？**
 
-最も一般的な理由は、ジャーニーに検証エラーが含まれていることです。エラーのあるジャーニーを公開することはできません。 その他のブロッカーには、[&#x200B; ペイロードサイズの制限](../start/guardrails.md#journey-payload-size)を超えているか、**[!DNL Publish journeys]**&#x200B;権限がないか、保留中の[承認](../test-approve/gs-approval.md)が含まれます。 [公開前](#before-you-publish)および[&#x200B; アクティビティエラーのトラブルシューティング &#x200B;](../building-journeys/troubleshooting.md#activity-errors)を参照してください。
+最も一般的な理由は、ジャーニーに検証エラーが含まれていることです。エラーのあるジャーニーを公開することはできません。 その他のブロッカーには、[ ペイロードサイズの制限](../start/guardrails.md#journey-payload-size)を超えているか、**[!DNL Publish journeys]**&#x200B;権限がないか、保留中の[承認](../test-approve/gs-approval.md)が含まれます。 [公開前](#before-you-publish)および[ アクティビティエラーのトラブルシューティング ](../building-journeys/troubleshooting.md#activity-errors)を参照してください。
 
 **公開後にジャーニーを編集できますか？**
 
-公開されたジャーニーは読み取り専用モードです。 変更できるのは、アクティビティラベルと説明、ジャーニーの名前およびジャーニーの説明のみです。 その他の変更については、[&#x200B; ジャーニーの新しいバージョン &#x200B;](#journey-create-new-version)を作成します。
+公開されたジャーニーは読み取り専用モードです。 変更できるのは、アクティビティラベルと説明、ジャーニーの名前およびジャーニーの説明のみです。 その他の変更については、[ ジャーニーの新しいバージョン ](#journey-create-new-version)を作成します。
 
 **新しいバージョンを公開すると、ジャーニー内にすでに存在するプロファイルはどうなりますか？**
 
@@ -146,7 +147,7 @@ ht-degree: 48%
 
 **停止したジャーニーを再実行するにはどうすればよいですか？**
 
-ジャーニーの停止は永続的です。 もう一度実行するには、それを複製して新しいジャーニーを公開します。 「[&#x200B; ジャーニーの停止](#stop-journey)」を参照してください。
+ジャーニーの停止は永続的です。 もう一度実行するには、それを複製して新しいジャーニーを公開します。 「[ ジャーニーの停止](#stop-journey)」を参照してください。
 
 **オファーの決定を変更したり、アセットを更新した後に再公開する必要がありますか？**
 
@@ -158,16 +159,16 @@ ht-degree: 48%
 
 ## 関連トピック {#related-topics}
 
-* [&#x200B; ジャーニーをテストする](testing-the-journey.md) – 公開前にテストプロファイルでジャーニーを検証します
-* [ジャーニーのシミュレーション &#x200B;](simulate-journey-gs.md) – 公開前に、シミュレートされたユーザーとジャーニーを検証します
+* [ ジャーニーをテストする](testing-the-journey.md) – 公開前にテストプロファイルでジャーニーを検証します
+* [ジャーニーのシミュレーション ](simulate-journey-gs.md) – 公開前に、シミュレートされたユーザーとジャーニーを検証します
 * [ジャーニードライ実行](journey-dry-run.md) - プロファイルに連絡せずに実稼動データを使用してテストします
-* [&#x200B; トラブルシューティング &#x200B;](../building-journeys/troubleshooting.md#activity-errors) - アクティビティと公開エラーを解決する
-* [&#x200B; ジャーニーの終了方法](end-journey.md#journey-finished-definition) - ジャーニーの完了とステータスを理解する
-* [&#x200B; プロファイルのエントリ管理](entry-management.md) - プロファイルがジャーニーを入力および再入力する方法を設定します
+* [ トラブルシューティング ](../building-journeys/troubleshooting.md#activity-errors) - アクティビティと公開エラーを解決する
+* [ ジャーニーの終了方法](end-journey.md#journey-finished-definition) - ジャーニーの完了とステータスを理解する
+* [ プロファイルのエントリ管理](entry-management.md) - プロファイルがジャーニーを入力および再入力する方法を設定します
 * [ジャーニーのガードレールと制限事項](../start/guardrails.md#journeys-guardrails-journeys) – 公開とバージョン管理のガードレールを確認する
 
 ## チュートリアルビデオ {#video}
 
 ジャーニーの公開方法について詳しくは、次のビデオを参照してください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3427936?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3424998?quality=12)

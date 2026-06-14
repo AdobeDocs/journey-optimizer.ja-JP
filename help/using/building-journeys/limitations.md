@@ -12,14 +12,20 @@ exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 564
-ht-degree: 90%
+source-wordcount: 584
+ht-degree: 85%
 
 ---
 
 # 制限事項 {#journey-limitations}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** アクション、バージョン、カスタムアクション、イベント、データソースなど、ジャーニーに適用される制限とガードレールを確認します。
+
+>[!ENDSHADEBOX]
 
 ジャーニーの使用に関する制限を以下に示します。
 
@@ -43,7 +49,7 @@ ht-degree: 90%
 
 * カスタムアクションの URL は動的パラメーターをサポートしていません。 
 * POST と PUT の呼び出しメソッドのみをサポートしています。 
-* クエリパラメーターやヘッダーの名前は、「.」または 「$」で開始することはできません。 
+* クエリパラメーターまたはヘッダーの名前を「。」または「$」で始めることはできません。 
 * IP アドレスは使用できません。 
 * 内部Adobe アドレス （.adobe.） は許可されていません。
 

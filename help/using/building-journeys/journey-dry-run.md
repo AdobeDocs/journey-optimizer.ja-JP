@@ -10,36 +10,26 @@ keywords: 公開, ジャーニー, ライブ, 有効性, 確認
 exl-id: 58bcc8b8-5828-4ceb-9d34-8add9802b19d
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/a7qFw84obtkCRDmiqMxQNgvqhI4b6t5suROeF7ZPh1I
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-  - id: b3538224-471e-4c63-a444-9b19d89ae29c
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-subfeature_v2:
-  - id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9
-  - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: d8353d85-5da7-453d-bd68-40ad33fa0ab7
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d9a93a5ae5dfbb21b4dfd102b356c15982e6d5a1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: ad78185d-8f79-40ad-9bad-cbde74af74eeid: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4ebid: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: d8353d85-5da7-453d-bd68-40ad33fa0ab7id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d00e9f03-e50b-4162-b143-0c0817c937c2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1377
-ht-degree: 70%
+source-wordcount: 1413
+ht-degree: 68%
 
 ---
 
 # ジャーニーのドライラン {#journey-dry-run}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;実際の顧客に連絡したり、プロファイルを更新したりすることなく、実際の実稼動データを使用してジャーニーをテストするドライラン モードでジャーニーを公開する方法を説明します。これにより、本番稼働前にデザインを検証できます。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run"
@@ -148,12 +138,12 @@ ht-degree: 70%
 
 ## ガードレールと制限 {#journey-dry-run-limitations}
 
-* ドライランモードのプロファイルは[&#x200B; エンゲージ可能プロファイル &#x200B;](../audience/license-usage.md)にカウントされます
+* ドライランモードのプロファイルは[ エンゲージ可能プロファイル ](../audience/license-usage.md)にカウントされます
 * ドライランモードのジャーニーは、ライブジャーニーの割り当て量にカウントされます
 * ドライランのジャーニーは、ビジネスルールには影響しません
   <!--* When creating a new journey version, if a previous journey version is **Live**, then the Dry run activation is not allowed on the new version.-->
 * **ジャンプ** アクションは、ドライ実行では有効になっていません。
-ソース ジャーニーが&#x200B;**ジャンプ** イベントを移動先にトリガーすると、そのジャンプ イベントはドライラン ジャーニーのバージョンには適用されません。例えば、ジャーニーの最新バージョンがドライランで、前のバージョンが&#x200B;**ライブ**&#x200B;の場合、ジャンプイベントはドライランのバージョンを無視し、**ライブ**&#x200B;のバージョンにのみ適用されます。
+ソース ジャーニーが**ジャンプ** イベントを移動先にトリガーすると、そのジャンプ イベントはドライラン ジャーニーのバージョンには適用されません。例えば、ジャーニーの最新バージョンがドライランで、前のバージョンが&#x200B;**ライブ**&#x200B;の場合、ジャンプイベントはドライランのバージョンを無視し、**ライブ**&#x200B;のバージョンにのみ適用されます。
 
 ## ジャーニーステップイベントとドライラン {#journey-step-events}
 
@@ -189,11 +179,11 @@ stepEvent データを&#x200B;**外部システム**&#x200B;に書き出す場�
 
 **ドライラン中に待機アクティビティと外部データソースが実行されますか？**
 
-デフォルトでは、**待機** アクティビティと&#x200B;**データソース** （外部データソースを含む）は、ドライ実行中に無効になります。 この動作は、[&#x200B; ドライラン モードをアクティブ化](#journey-dry-run-start)するときに変更できます。
+デフォルトでは、**待機** アクティビティと&#x200B;**データソース** （外部データソースを含む）は、ドライ実行中に無効になります。 この動作は、[ ドライラン モードをアクティブ化](#journey-dry-run-start)するときに変更できます。
 
 **ドライランのプロファイルとジャーニーは、割り当て量にカウントされますか？**
 
-はい。 ドライランモードのプロファイルは[&#x200B; エンゲージ可能なプロファイル &#x200B;](../audience/license-usage.md)にカウントされ、ドライランモードのジャーニーはライブジャーニーの割り当てにカウントされます。 ただし、ドライランジャーニーはビジネスルールには影響しません。
+はい。 ドライランモードのプロファイルは[ エンゲージ可能なプロファイル ](../audience/license-usage.md)にカウントされ、ドライランモードのジャーニーはライブジャーニーの割り当てにカウントされます。 ただし、ドライランジャーニーはビジネスルールには影響しません。
 
 **テストを停止した後も、ドライランのレポートにアクセスできますか？**
 
@@ -207,4 +197,4 @@ stepEvent データを&#x200B;**外部システム**&#x200B;に書き出す場�
 
 ジャーニーのドライラン方法について詳しくは、このビデオを参照してください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3464683/?captions=jpn&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3464681/?learn=on&enablevpops)
