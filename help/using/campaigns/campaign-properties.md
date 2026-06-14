@@ -11,25 +11,25 @@ mini-toc-levels: 1
 keywords: 作成, Optimizer, キャンペーン, サーフェス, メッセージ
 exl-id: a7b03b71-0f2c-45ca-a2f7-38ddc64913c1
 TQID: https://experienceleague.adobe.com/3A1lHDHkq2FajKJD02iyM66Y7JEsBlMCmNTjSgv98HA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-subfeature_v2:
-  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
-  - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a653cc2e-bc85-4353-a306-399e5b247978
+subfeature_v2: id: f7479fa1-474b-479d-8c98-f6cee5865a38id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 165
-ht-degree: 100%
+source-wordcount: 200
+ht-degree: 82%
 
 ---
 
 # アクションキャンペーンのプロパティの定義 {#action-campaign-properties}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** アクション キャンペーンを作成し、名前、説明、タグ、アクセス ラベルなどのコア プロパティを定義して、キャンペーンを設定する前にキャンペーンへのアクセスを識別、整理、制御できるようにします。
+
+>[!ENDSHADEBOX]
 
 アクションキャンペーンを作成してプロパティを定義するには、次の手順に従います。
 

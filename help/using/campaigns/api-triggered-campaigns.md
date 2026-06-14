@@ -10,25 +10,25 @@ level: Experienced
 keywords: キャンペーン, API トリガー, REST, Optimizer, メッセージ
 exl-id: 0ef03d33-da11-43fa-8e10-8e4b80c90acb
 TQID: https://experienceleague.adobe.com/DNNZWQjgdcranVpuJV9WCKW8RRENVJ6iZnIt1k-Easc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a653cc2e-bc85-4353-a306-399e5b247978
-subfeature_v2:
-  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
-  - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a653cc2e-bc85-4353-a306-399e5b247978
+subfeature_v2: id: f7479fa1-474b-479d-8c98-f6cee5865a38id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 293
-ht-degree: 96%
+source-wordcount: 322
+ht-degree: 88%
 
 ---
 
 # API トリガーキャンペーンの操作 {#trigger-campaigns}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** REST API呼び出しを通じてAPI トリガーキャンペーンを作成および起動し、プロファイルおよびコンテキストデータを使用してリアルタイムのマーケティングおよびトランザクションメッセージを送信できるようにします。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_api_triggered"
@@ -41,7 +41,7 @@ API トリガーキャンペーンを使用すると、適切なタイミング�
 
 それには、まず Journey Optimizer で API トリガーキャンペーンを作成し、次に [Interactive Message Execution REST API](https://developer.adobe.com/journey-optimizer-apis/references/messaging#tag/execution) を使用して、API 呼び出しを通じてその実行を開始する必要があります。
 
-➡️ [ビデオでこの機能を確認する](#video)
+➡️ [この機能をビデオで確認](#video)
 
 >[!NOTE]
 >
@@ -67,4 +67,4 @@ API トリガーキャンペーンを使用すると、適切なタイミング�
 
 Interactive Message Execution REST API を使用して、キャンペーンを作成し、ユーザーインタラクションに基づいて外部システムからキャンペーンをトリガーする方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3452726?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3425358?quality=12)
