@@ -11,15 +11,21 @@ keywords: 統合、ベンダー、サードパーティ
 subfeature_v2: []
 feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 375
+source-wordcount: 401
 ht-degree: 0%
 
 ---
 
 
 # ベンダーとの連携 {#vendor-integration}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、** サンプルを参照してください。Adobeがテストした、コンテンツ、ロイヤルティ、レコメンデーション、データおよび同意プラットフォームをまたいでAdobe Journey Optimizerとの連携をサード パーティ ベンダーに接続するための構成をテストしました。
+
+>[!ENDSHADEBOX]
 
 Adobe Journey Optimizerで&#x200B;**Integrations**&#x200B;を使用して、各システムがユースケースに適した&#x200B;**API エンドポイント**&#x200B;を公開し、Integrationsがリクエストを発行し、応答を消費する方法と互換性がある場合、HTTP **経由で**&#x200B;外部システムを呼び出すことができます。 完全なワークフローについては、[統合の操作](integrations.md)を参照してください。
 

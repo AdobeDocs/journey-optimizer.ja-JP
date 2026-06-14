@@ -22,14 +22,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: b91d7609df9d05a2ef04dbdbe2a78d9a084f95ac
+source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
 workflow-type: tm+mt
-source-wordcount: 458
-ht-degree: 79%
+source-wordcount: 487
+ht-degree: 74%
 
 ---
 
 # ダイレクトメールの基本を学ぶ {#create-direct}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** ダイレクトメールチャネルの仕組みを理解して、サードパーティプロバイダーが顧客に物理的なメールを送信するために使用する抽出ファイルを生成できます。
+
+>[!ENDSHADEBOX]
 
 ダイレクトメールは、サードパーティのダイレクトメールプロバイダーが顧客にメールを送信するために必要な抽出ファイルをパーソナライズおよび生成できるオフラインチャネルです。
 

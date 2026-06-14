@@ -11,14 +11,20 @@ keywords: 統合、FAQ、外部データ、パーソナライゼーション
 subfeature_v2: []
 feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 852
+source-wordcount: 877
 ht-degree: 1%
 
 ---
 
 # 統合に関するよくある質問 {#vendor-integration-faq}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、** Adobe Journey Optimizerの統合に関するよくある質問に対する回答を示します。ここでは、設定、認証、サポートされているチャネルと形式、権限、トラブルシューティングについて説明します。
+
+>[!ENDSHADEBOX]
 
 以下は、Adobe Journey Optimizerの&#x200B;**統合**&#x200B;に関するよくある質問です。
 

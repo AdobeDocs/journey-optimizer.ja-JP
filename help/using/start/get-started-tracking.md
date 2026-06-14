@@ -34,14 +34,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 1964
-ht-degree: 95%
+source-wordcount: 1995
+ht-degree: 93%
 
 ---
 
 # Journey Optimizer のトラッキングの基本を学ぶ {#get-started-tracking}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** Journey Optimizerで、チャネル全体でお客様とのやり取りを追跡し、配信品質とシステムの健全性を監視して、キャンペーンの効果を測定し、データに基づいた意思決定を行う方法を説明します。
+
+>[!ENDSHADEBOX]
 
 トラッキングを使用すると、キャンペーンの効果を測定し、カスタマーエクスペリエンスを最適化し、メッセージが目的の受信者に確実に届くようにすることができます。 Journey Optimizer には、顧客インタラクション、配信パフォーマンス、システムの健全性をキャプチャする包括的なトラッキング機能が用意されています。これにより、プライバシーを適用し、コンプライアンスを維持しながらデータに基づく意思決定を実行できます。
 

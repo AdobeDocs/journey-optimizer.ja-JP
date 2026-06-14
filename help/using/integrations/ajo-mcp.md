@@ -11,14 +11,20 @@ level: Beginner, Intermediate
 subfeature_v2: []
 feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 1445
-ht-degree: 5%
+source-wordcount: 1478
+ht-degree: 4%
 
 ---
 
 # MCP クライアントの操作 {#ajo-mcp}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、** Adobe Journey Optimizer MCP サーバーを使用して、サポートされているMCP クライアントから平易な言語でキャンペーンやオファーをクエリし、その機能、ツール、前提条件、制限事項を確認する方法について説明します。
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer] MCP統合により、API呼び出しを記述したり、製品画面を移動したりすることなく、平易な言語のプロンプトを使用してキャンペーンやオファーをクエリできます。 このページでは、統合がどのように機能するのか、何ができるのか、どのように始めればよいのかについて説明します。
 

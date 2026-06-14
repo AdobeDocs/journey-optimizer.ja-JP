@@ -9,15 +9,21 @@ role: Admin, User
 level: Beginner
 keywords: journey optimizer, パッケージ，ライセンス，キャンペーン，ジャーニー，チャネル，意思決定，アウトバウンド，モバイル，web, モジュール式
 hide: true
-source-git-commit: d0e43b37ab759fde2794e2bf981e233875ba620a
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '974'
 ht-degree: 3%
 
 ---
 
 
 # Adobe Journey Optimizerのパッケージと機能 {#ajo-packages-v2}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、基本オファー、チャネルアドオン、Decisioning アドオンをまたいで、Adobe Journey Optimizer パッケージのモジュール化がどのように機能するかを説明します。これにより、エンゲージメントのユースケースと予算に合った組み合わせを選択できます。
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer]はモジュール式パッケージ モデルを使用しています。 主要なユースケースに一致する基本オファーから開始し、必要なチャネルと高度な機能を追加します。
 

@@ -27,14 +27,20 @@ topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
-source-wordcount: 326
-ht-degree: 100%
+source-wordcount: 352
+ht-degree: 92%
 
 ---
 
 # Marketo Engage との統合 {#integrating-with-marketo-engage}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、** Marketo Engage カスタムアクションを設定して使用し、ジャーニーの人物データとカスタムオブジェクトデータをMarketo Engageに同期できるようにします。
+
+>[!ENDSHADEBOX]
 
 Marketo Engage とのシームレスなデータ統合のジャーニーを開始しましょう。 Adobe Journey Optimizer と Marketo Engage を統合するための特定のカスタムアクションがジャーニーで使用できます。 このカスタムアクションは、次の 2 つの主要なデータタイプの取り込みをサポートしています。
 

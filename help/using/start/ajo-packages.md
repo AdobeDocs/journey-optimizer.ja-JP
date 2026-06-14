@@ -9,15 +9,21 @@ role: Admin, User
 level: Beginner
 keywords: journey optimizer, パッケージ，ライセンス，select, prime, ultimate，機能，機能，モジュール，チャネル
 hide: true
-source-git-commit: 5e9ffb790127aae281dd15ad0eac03dbe0bb05e2
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '1007'
 ht-degree: 6%
 
 ---
 
 
 # 自分の[!DNL Adobe Journey Optimizer] パッケージで利用できるもの？ {#ajo-packages}
+
+>[!BEGINSHADEBOX]
+
+**このページで：**&#x200B;現在のキャンペーンとジャーニーのモデルを使用するか、従来のSelect、Prime、Ultimateのライセンスを使用するかにかかわらず、パッケージで使用できるAdobe Journey Optimizer機能を確認し、利用可能なものを確認して、各機能に移動できます。
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer]機能は、使用許諾契約、有効なチャネル、ユーザー権限によって異なります。 このガイドでは、パッケージで通常利用できる機能を理解し、各機能の製品ドキュメントに直接移動します。
 

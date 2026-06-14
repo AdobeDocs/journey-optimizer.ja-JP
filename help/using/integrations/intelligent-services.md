@@ -25,14 +25,20 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 subfeature_v2: []
-source-git-commit: 0e4ee7788c6a015a63bafcb7976ac5e4696e5d7a
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 196
-ht-degree: 55%
+source-wordcount: 228
+ht-degree: 47%
 
 ---
 
 # インテリジェントサービスとの統合 {#ai-overview}
+
+>[!BEGINSHADEBOX]
+
+**このページでは：** Adobe インテリジェントサービスとCustomer AIの予測をJourney Optimizerと統合し、解約スコアとコンバージョンスコアをプロファイル属性として使用して決定、アクション、セグメント構築する方法について説明します。
+
+>[!ENDSHADEBOX]
 
 **[!DNL Adobe Intelligent Services]** との統合により、顧客体験のユースケースで人工知能と機械学習を活用できます。 これにより、マーケティングアナリストは、データサイエンスの専門知識を必要とせずに、ビジネスレベルの設定を使用して、会社のニーズに合わせた予測を設定できます。
 

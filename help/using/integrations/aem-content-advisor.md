@@ -10,14 +10,20 @@ feature_v2:
   - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
 subfeature_v2:
   - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 837
+source-wordcount: 870
 ht-degree: 0%
 
 ---
 
 # Adobe Experience Manager Content Advisorの操作 {#aem-content-advisor}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、Adobe Experience Manager Content Advisorにアクセスして使用し、Journey Optimizer オーサリングワークフローでAIを活用したセマンティック検索を通じてアセット、ダイナミックメディア、コンテンツフラグメントを直接検索する方法について説明します。
+
+>[!ENDSHADEBOX]
 
 Adobe Experience Manager Content Advisorは、決定論的な発見を、統一されたサーフェスからの標準化された意図に基づく発見に置き換えます。 これにより、AIを利用して、Assets、ダイナミックメディア、コンテンツフラグメントをJourney Optimizerのオーサリングワークフロー内で直接発見でき、マーケターの生産性とキャンペーンの効率性を向上させることができます。
 

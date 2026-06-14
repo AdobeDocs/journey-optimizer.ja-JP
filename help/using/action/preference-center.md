@@ -28,14 +28,20 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
-source-wordcount: 941
-ht-degree: 86%
+source-wordcount: 911
+ht-degree: 87%
 
 ---
 
 # 顧客の環境設定の管理 {#preference-center}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;同意ポリシーを通じて、顧客のチャネルとトピックの嗜好を記録および尊重することで、自分から情報を入手したいユーザーのみをターゲットにします。
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
@@ -43,7 +49,7 @@ ht-degree: 86%
 
 最新のマーケティングオートメーションエコシステムでは、ブランドは様々なタッチポイントをまたいで顧客と関与しますが、無関係なコミュニケーションや過剰なコミュニケーションのリスクに直面し、非エンゲージメント、スパムの苦情、コンプライアンスリスクにつながります。 そのため、オーディエンスに関するリアルタイムのインサイトを得て、パーソナライズされた敬意のあるコミュニケーションを実現するために、顧客の環境設定を管理する必要があります。
 
-[!DNL Adobe Journey Optimizer] では、[同意ポリシー](consent.md)の使用を通じて、顧客の環境設定<!-- in terms of **channels** and **topics**-->を適用できます。 これにより、[!DNL Journey Optimizer]は顧客の同意を尊重しながら、選択に基づいてのみ顧客をターゲットにすることができます。
+[!DNL Adobe Journey Optimizer]では、[同意ポリシー](consent.md)を使用することで、顧客の好みを尊重することができます<!-- in terms of **channels** and **topics**-->。これにより、[!DNL Journey Optimizer]は顧客の同意を尊重しながら、選択に基づいてのみ顧客をターゲットにすることができます。
 <!-- their preferred channels and on the subscription topics-->
 
 [!DNL Journey Optimizer] を使用してユーザーの環境設定を管理するには、次の操作を実行します。
@@ -58,7 +64,7 @@ ht-degree: 86%
 
 >[!IMPORTANT]
 >
->同意は環境設定よりも優先されます。 例えば、お客様の1人が、お客様の好みのチャネルが電子メールであり、ニュースレターの受信に同意したことを示しました<!-- they are interested in yoga-->。ただし、お客様からのメールの受信をオプトアウトした場合、お客様が送信する電子メールニュースレターでターゲットにすることはできません。
+>同意は嗜好よりも優先される。例えば、お客様の1人が、お客様の好みのチャネルが電子メールであり、ニュースレターの受信に同意したことを示しました<!-- they are interested in yoga-->。ただし、お客様からのメールの受信をオプトアウトした場合、お客様が送信する電子メールニュースレターでターゲットにすることはできません。
 <!-- on yoga-->
 
 ## 環境設定の記録と適用 {#manage-preferences}
@@ -119,7 +125,7 @@ The corresponding profile dataset is updated as follows:
 
    >[!AVAILABILITY]
    >
-   >同意ポリシーは、現在、Adobe **Healthcare Shield** および&#x200B;**プライバシーとセキュリティシールド**&#x200B;アドオン機能を購入した組織でのみ利用できます。 [同意ポリシーの詳細情報](consent.md)
+   >同意ポリシーは、現在、Adobe **Healthcare Shield** および **Privacy and Security Shield** アドオン機能を購入した組織でのみ利用できます。 [同意ポリシーの詳細情報](consent.md)
 
    同意ポリシーを利用するには、プロファイルデータに環境設定属性が存在する必要があります。 そのため、これらの属性はプロファイルレベルで定義する必要があります（手順 1 で説明）。
 

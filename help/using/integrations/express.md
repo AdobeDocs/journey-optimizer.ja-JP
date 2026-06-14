@@ -22,14 +22,20 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 584
-ht-degree: 96%
+source-wordcount: 615
+ht-degree: 91%
 
 ---
 
 # [!DNL Adobe Express] を使用したアセットの編集{#express}
+
+>[!BEGINSHADEBOX]
+
+**このページでは：** Journey OptimizerのAdobe Expressとの連携を利用して、画像のサイズ変更、背景の削除、ビジュアルの切り抜き、JPEGまたはPNGへのアセットの変換を行う方法について説明します。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_express_menu"

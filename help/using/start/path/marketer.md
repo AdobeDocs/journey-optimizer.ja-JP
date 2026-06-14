@@ -27,14 +27,20 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 1721
-ht-degree: 100%
+source-wordcount: 1751
+ht-degree: 98%
 
 ---
 
 # 基本を学ぶ（マーケター向け） {#get-started-marketers}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** マーケター向けの基本を学ぶためのパスに従って、Journey Optimizerでパーソナライズされた顧客体験を提供するオーディエンスを構築し、コンテンツをデザインし、ジャーニーやキャンペーンを調整することができます。
+
+>[!ENDSHADEBOX]
 
 **マーケター**&#x200B;または&#x200B;**ビジネス実務担当者**&#x200B;は、顧客に対して個人的なコンテキストに沿ったエクスペリエンスを提供するカスタマージャーニーをデザインします。 メールやプッシュメッセージ、オファー、メッセージコンテンツをインテリジェントにパーソナライズする決定コンポーネントなど、これらのパーソナライズされたジャーニーの様々なコンポーネントをすべて作成および管理します。 Journey Optimizer は、エンドツーエンドのユースケース全体を 1 か所で実装できる、統合されたユーザーエクスペリエンスを提供します。 [システム管理者](administrator.md)と[データエンジニア](data-engineer.md)からアクセス権を付与され、環境の準備ができたら、[!DNL Adobe Journey Optimizer] での作業を開始できます。
 

@@ -22,14 +22,20 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 06565328f42ff79943f774df55d8e41118b40815
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 800
-ht-degree: 83%
+source-wordcount: 829
+ht-degree: 80%
 
 ---
 
 # 検索、フィルター、整理 {#search-filter-organize}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** ユニバーサル検索、リストフィルター、タグを使用して、ジャーニー、キャンペーン、アセットをすばやく検索して整理し、Journey Optimizer プロジェクトの成長に合わせて生産性を維持できます。
+
+>[!ENDSHADEBOX]
 
 Adobe Journey Optimizer プロジェクトが拡大するにつれて、効率的な作業にはコンテンツの検索と整理が不可欠になります。 このページでは、ユニバーサル検索を使用してジャーニー、キャンペーン、アセットをすばやく見つける方法、リストをフィルタリングして特定の項目に焦点を当てる方法、タグとカテゴリを使用して作業を整理する方法について説明します。 これらのツールは、大量のコンテンツを移動し、チームをまたいで一貫性を維持し、毎日のワークフローを効率化するのに役立ちます。
 

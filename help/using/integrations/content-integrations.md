@@ -27,14 +27,20 @@ subfeature_v2:
   - id: c08fcc42-2918-421a-a25e-e1bd9464c290
   - id: c6fdb8b1-45ee-460a-a859-9031c59118b7
   - id: d16f7424-4847-4b90-a37c-4b52cbdabee5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 704
-ht-degree: 99%
+source-wordcount: 734
+ht-degree: 95%
 
 ---
 
 # ソリューションとアプリを組み合わせたコンテンツの管理 {#combine-solutions}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** Adobe ソリューションと、Experience Manager Assets、Stock、Express、GenStudioなどのアプリケーションをAdobe Journey Optimizerと組み合わせて、コンテンツをオーサリングおよび管理する方法について説明します。
+
+>[!ENDSHADEBOX]
 
 オムニチャネルのカスタマージャーニーおよびキャンペーンでアクティブ化するメッセージやコンテンツを作成するために、マーケターや顧客体験の専門家は、ワークフロー内の生成 AI、編集機能、アセット、テンプレート、フラグメント管理などの使いやすいオーサリングオプションを必要としています。  Adobe Journey Optimizer を使用すると、アドビソリューションとアプリを簡単に組み合わせて、アドビツールを最大限に活用できます。 これらのネイティブ統合は、特定のユースケースに対処し、Adobe Journey Optimizer の機能範囲を拡張するのに役立ちます。
 

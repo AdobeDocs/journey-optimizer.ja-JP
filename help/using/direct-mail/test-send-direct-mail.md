@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
 workflow-type: tm+mt
-source-wordcount: 578
-ht-degree: 63%
+source-wordcount: 605
+ht-degree: 60%
 
 ---
 
 # ダイレクトメールメッセージの確認および送信 {#direct-mail-test-send}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;抽出ファイルをプレビューし、キャンペーンまたはジャーニーを検証してアクティブ化し、ダイレクトメールが適切な受信者に正確に届くように郵便の同意を管理します。
+
+>[!ENDSHADEBOX]
 
 Journey Optimizerで抽出ファイルをプレビューし、ダイレクトメールキャンペーンまたはジャーニーを検証してアクティブ化し、郵便メールの同意を管理する方法について説明します。
 

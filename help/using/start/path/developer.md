@@ -30,14 +30,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 2079
-ht-degree: 97%
+source-wordcount: 2109
+ht-degree: 96%
 
 ---
 
 # 開発者向けの基本を学ぶ {#get-started-developers}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** アプリケーションをAdobe Journey Optimizerに接続するSDK、イベントストリーミング、カスタムアクションエンドポイント、およびAPIを実装して、ジャーニーをリアルタイムデータで実行できるようにします。
+
+>[!ENDSHADEBOX]
 
 **開発者**&#x200B;は、[!DNL Adobe Journey Optimizer] をアプリケーションやシステムに実装し、統合する責任を負います。 [システム管理者](administrator.md)と[データエンジニア](data-engineer.md)からアクセス権を付与され、環境の準備ができたら、[!DNL Adobe Journey Optimizer] での作業を開始できます。
 
@@ -214,7 +220,7 @@ Journey Optimizer は、プログラムによるアクセス用の包括的な R
 
 1. **Decisioning 移行 API**：柔軟なスコープ、自動検証、ロールバックのサポートにより、意思決定管理エンティティを Decisioning にプログラムで移行します。 詳しくは、[Decision 移行 API ガイド](../../experience-decisioning/decisioning-migration-api.md)を参照してください。
 
-1. **SMS Webhook**：受信メッセージを取得するように受信 Webhook を設定し、配信レシートとステータス更新を受信するようにフィードバック Webhook を設定します。 [詳細情報](../../mobile/mobile-webhook.md)
+1. **SMS Webhook**：受信メッセージを取得するように受信 Webhook を設定し、配信レシートとステータス更新を受信するようにフィードバック Webhook を設定します。 [学習を増やす](../../mobile/mobile-webhook.md)。
 
 ## テストとデバッグ {#testing}
 

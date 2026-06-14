@@ -28,14 +28,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 4714
+source-wordcount: 4739
 ht-degree: 48%
 
 ---
 
 # トラブルシューティングに関する FAQ {#ajo-troubleshooting}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** チャネル、データ、オーディエンス、設定に関するAdobe Journey Optimizerの一般的な問題に対する回答と修正を見つけます。これにより、問題を迅速に解決できます。
+
+>[!ENDSHADEBOX]
 
 次は、Adobe Journey Optimizer のトラブルシューティング記事のリストです。 各トラブルシューティングセクションでは、よくある質問への回答と問題に対する解決策を提供します。
 

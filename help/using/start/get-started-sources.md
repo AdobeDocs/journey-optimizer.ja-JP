@@ -25,14 +25,20 @@ topic_v2:
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 subfeature_v2:
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 691
-ht-degree: 100%
+source-wordcount: 724
+ht-degree: 95%
 
 ---
 
 # ソースコネクタの基本を学ぶ {#sources-gs}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、** ソース コネクタとは何か、またCRM、クラウドストレージ、データベースからAdobe Journey Optimizerにデータを取り込む方法について説明します。これにより、パーソナライズされたデータ主導のカスタマージャーニーを実現できます。
+
+>[!ENDSHADEBOX]
 
 ## ソースとは {#what-is-source}
 
@@ -121,7 +127,7 @@ Adobe Journey Optimizer は、Adobe Experience Platform のソースフレーム
 
 ![](assets/sources-home.png)
 
-ソースコネクタの概要、および Journey Optimizer でのソースコネクタの設定方法について詳しくは、次のビデオを参照してください。
+ソースコネクタの概要、および Journey Optimizer でのソースコネクタの設定方法について詳しくは、次のビデオをご覧ください。
 
 >[!VIDEO](https://video.tv.adobe.com/v/335919?quality=12)
 

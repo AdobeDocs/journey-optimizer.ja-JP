@@ -29,14 +29,20 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 2177
-ht-degree: 70%
+source-wordcount: 2216
+ht-degree: 69%
 
 ---
 
 # AI とインテリジェント機能 {#ai-features}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** AI アシスタントやエージェントから、コンテンツ生成、送信時間の最適化、決定に至るまで、Adobe Journey Optimizer全体のAIとマシンラーニング機能を確認することで、より迅速に作業をおこない、より適切な顧客体験を提供できます。
+
+>[!ENDSHADEBOX]
 
 Adobe Journey Optimizer は、人工知能と機械学習の機能を活用して、優れたカスタマーエクスペリエンスの作成、最適化、配信に役立ちます。 パーソナライズされたコンテンツを生成することから、最適な時間を予測することまで、AI 機能はワークフローを効率化し、影響力を最大化します。 ユースケースプレイブックには、一般的なマーケティングシナリオをすばやく実装するための事前定義済みのテンプレートが用意されています。
 

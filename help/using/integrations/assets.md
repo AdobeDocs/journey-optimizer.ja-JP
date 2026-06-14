@@ -25,14 +25,20 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: da3860b0-d637-47df-bef0-273751180266
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 1252
-ht-degree: 95%
+source-wordcount: 1277
+ht-degree: 93%
 
 ---
 
 # [!DNL Experience Manager Assets] を使用したアセットの作成と管理{#experience-manager-assets}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** Adobe Journey OptimizerでExperience Manager Assetsを使用して、デジタルアセットを保存、管理し、メールコンテンツに挿入する方法を説明します。
+
+>[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
@@ -107,7 +113,7 @@ Adobe Journey Optimizer ワークフローの既存の&#x200B;**アセットセ�
 
 1. アップロードするファイルを選択します。 完了したら、「**[!UICONTROL アップロード]**」をクリックします。 アセットの管理方法について詳しくは、この[ページ](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/manage-organize.html?lang=ja)を参照してください。
 
-1. Adobe Photoshop Express でアセットをさらに編集するには、アセットをダブルクリックします。 次に、右側のメニューから、「**[!UICONTROL 編集モード]**」アイコンを選択します。 [詳細情報](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html?lang=ja){target="_blank"}。
+1. Adobe Photoshop Express でアセットをさらに編集するには、アセットをダブルクリックします。 次に、右側のメニューから、「**[!UICONTROL 編集モード]**」アイコンを選択します。 [学習を増やす](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/edit-images.html?lang=ja){target="_blank"}。
 
    ![](assets/media_library_12.png)
 

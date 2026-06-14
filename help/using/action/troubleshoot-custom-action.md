@@ -27,14 +27,20 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
-source-wordcount: 1051
-ht-degree: 61%
+source-wordcount: 1077
+ht-degree: 60%
 
 ---
 
 # カスタムアクションのトラブルシューティング {#troubleshoot-a-custom-action}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;実際のテスト API呼び出しを送信して、カスタムアクション設定を検証し、ライブジャーニーでエラーを信頼する前にエラーを検出できるようにします。
+
+>[!ENDSHADEBOX]
 
 Journey Optimizer ユーザーインターフェイスの管理セクションから API 呼び出しを送信して、カスタムアクションをテストできます。 この機能は、ジャーニーでカスタムアクションを使用する前または使用した後に、カスタムアクションのトラブルシューティングを行うのに役立ちます。
 

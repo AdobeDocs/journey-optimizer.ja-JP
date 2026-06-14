@@ -30,14 +30,20 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: e3ade9a651638c321aa0dd837e09cc2d44359797
+source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
-source-wordcount: 2324
-ht-degree: 83%
+source-wordcount: 2354
+ht-degree: 82%
 
 ---
 
 # カスタムアクションの設定 {#configure-a-custom-action}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** カスタムアクションのエンドポイント、認証、セキュリティ、ペイロードのパラメーターを設定して、ジャーニーにサードパーティ REST APIを接続し、ジャーニーがそのサービスを呼び出せるようにします。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_configuration"

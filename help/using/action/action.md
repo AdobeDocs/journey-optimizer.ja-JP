@@ -26,14 +26,20 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
-source-wordcount: 365
-ht-degree: 100%
+source-wordcount: 397
+ht-degree: 91%
 
 ---
 
 # カスタムアクションの基本を学ぶ {#about_actions}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** アクションとカスタム アクションを使用して、REST API呼び出しを通じてパーソナライズされたエクスペリエンスを提供し、サードパーティシステムを接続する方法を理解します。これにより、組み込みのメッセージ以外のジャーニーを拡張できます。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_list"

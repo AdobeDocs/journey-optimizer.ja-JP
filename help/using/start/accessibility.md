@@ -21,14 +21,20 @@ level_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 503
-ht-degree: 100%
+source-wordcount: 533
+ht-degree: 94%
 
 ---
 
 # Journey Optimizer のアクセシビリティ{#accessibility}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** WCAGに沿ったアクセシビリティ機能とキーボードショートカットを使用して、Journey Optimizerがあらゆる機能のユーザーをどのようにサポートしているかを確認し、インターフェイス内で効率的に移動して作業できるようにします。
+
+>[!ENDSHADEBOX]
 
 アクセシビリティとは、視覚、聴覚、認知、運動など、様々な障害のあるユーザーが、可能な限り少ない労力でソフトウェア製品を使用できるようにするための一連の機能を指します。 アドビは、アクセシビリティにおいて業界をリードする企業です。すべてのユーザーにとって利用しやすいリッチで魅力的なコンテンツを作成するよう開発者を促すことで、卓越した web エクスペリエンスの作成をサポートします。 アドビのアクセシビリティへの取り組みについて詳しくは、[アドビのアクセシビリティのページ](https://www.adobe.com/accessibility.html){target="_blank"}を参照してください。
 

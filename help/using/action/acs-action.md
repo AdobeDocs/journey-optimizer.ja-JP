@@ -27,14 +27,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
-source-wordcount: 450
-ht-degree: 100%
+source-wordcount: 475
+ht-degree: 94%
 
 ---
 
 # Adobe Campaign Standard との統合 {#using_adobe_campaign_standard}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** Journey OptimizerをAdobe Campaign Standardに接続して、電子メール、プッシュ通知、SMSをトランザクションメッセージ機能を通じて送信できるようにします。
+
+>[!ENDSHADEBOX]
 
 Adobe Campaign Standard がある場合は、ビルトインのアクションを使用して、Adobe Campaign Standard に接続できます。 Adobe Campaign Standard のトランザクションメッセージ機能を使用して、メール、プッシュ通知、SMS を送信できます。
 
@@ -60,7 +66,7 @@ Campaign Standard アクションを設定するには、次の手順に従い�
 
 1. 「**[!UICONTROL アクション]**」セクションで、「**[!UICONTROL 管理]**」をクリックします。 アクションのリストが表示されます。
 
-1. ビルトインの **[!UICONTROL AdobeCampaignStandard]** アクションを選択します。 画面右側にアクション設定ペインが開きます。
+1. ビルトインの **[!UICONTROL AdobeCampaignStandard]** アクションを選択します。 画面の右側にアクション設定パネルが開きます。
 
    ![](assets/actioncampaign.png)
 

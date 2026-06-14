@@ -24,14 +24,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 795
-ht-degree: 91%
+source-wordcount: 822
+ht-degree: 88%
 
 ---
 
 # Adobe Experience Manager テンプレートの操作 {#aem-templates}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** Adobe Experience Managerでテンプレートをデザインし、Journey Optimizerに書き出し、メール Designerでコンテンツテンプレートとしてパーソナライズする方法について説明します。
+
+>[!ENDSHADEBOX]
 
 ## Adobe Experience Manager テンプレートの基本を学ぶ {#gs-aem-templates}
 

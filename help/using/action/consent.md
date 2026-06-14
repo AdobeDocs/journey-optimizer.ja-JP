@@ -28,14 +28,20 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
-source-wordcount: 1367
-ht-degree: 100%
+source-wordcount: 1395
+ht-degree: 97%
 
 ---
 
 # 同意ポリシーの使用 {#consent-management}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** Journey OptimizerでAdobe Experience Platformの同意ポリシーを適用して、お客様の各顧客の同意選択を尊重し、データ使用ルールに準拠したコミュニケーションを行えるようにします。
+
+>[!ENDSHADEBOX]
 
 データは、組織または法規制によって定義された使用制限の対象となる場合があります。 したがって、Journey Optimizer 内のデータ操作が、[データ使用ポリシー](https://experienceleague.adobe.com/docs/experience-platform/data-governance/policies/overview.html?lang=ja){target="_blank"}に準拠していることを確認することが重要です。 これらのポリシーは、データに対して実行できるマーケティングアクションを定義する Adobe Experience Platform ルールです。
 

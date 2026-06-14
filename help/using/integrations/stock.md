@@ -20,14 +20,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 subfeature_v2:
   - id: c08fcc42-2918-421a-a25e-e1bd9464c290
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 597
-ht-degree: 100%
+source-wordcount: 622
+ht-degree: 95%
 
 ---
 
 # [!DNL Adobe Stock] 画像の操作 {#stock}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、Adobe Journey Optimizerの電子メールDesignerから直接、類似の写真を含むAdobe Stock画像を検索、ライセンス、挿入する方法について説明します。
+
+>[!ENDSHADEBOX]
 
 ## [!DNL Adobe Stock] の基本を学ぶ {#get-started-stock}
 

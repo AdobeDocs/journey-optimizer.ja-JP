@@ -21,14 +21,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
-source-wordcount: 659
-ht-degree: 64%
+source-wordcount: 689
+ht-degree: 62%
 
 ---
 
 # カスタムアクションの監視 {#reporting}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** ジャーニーからサードパーティのシステムに対するAPI呼び出しの信頼性とパフォーマンスを監視して、統合の問題、待ち時間、スロットルの制限をすばやく検出できます。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_custom_actions_monitor"
@@ -77,7 +83,7 @@ ht-degree: 64%
 
 ![](assets/monitor-3.png)
 
-**[!UICONTROL 通話時間]**&#x200B;のグラフは、レポート用に選択された期間のHTTP通話KPIの傾向を示しています。 時系列の精度は、選択した時間範囲に応じて異なります。 例：
+**[!UICONTROL 通話時間]**&#x200B;のグラフは、レポート用に選択された期間のHTTP通話KPIの傾向を示しています。 時系列の精度は、選択した時間範囲に応じて異なります。 次に例を示します。
 
 * 7 日間のレポートの場合、各データポイントには 1 日の KPI が表示されます。
 * 1 日間の時間範囲を選択した場合、グラフには 1 時間あたりの KPI が表示されます。
