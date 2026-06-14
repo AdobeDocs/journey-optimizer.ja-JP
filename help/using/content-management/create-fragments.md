@@ -26,14 +26,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 980
-ht-degree: 80%
+source-wordcount: 1008
+ht-degree: 78%
 
 ---
 
 # フラグメントを作成 {#create-fragments}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** ビジュアルフラグメントとエクスプレッションフラグメントを作成、デザイン、ロック、プレビュー、公開して、Adobe Journey Optimizer キャンペーンとジャーニー全体でコンテンツを再利用する方法を説明します。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_visual_fragment"

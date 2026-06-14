@@ -19,14 +19,20 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 subfeature_v2:
   - id: f29a52db-c90c-4345-902e-b586d1406d8d
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 629
-ht-degree: 100%
+source-wordcount: 658
+ht-degree: 95%
 
 ---
 
 # A/B 実験とマルチアームバンディット実験の比較 {#mab-vs-ab}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、** Adobe Journey OptimizerのA/B実験とマルチアームドバンディット実験を、それぞれの長所、制限事項、および各トラフィック割り当て方法が最も効果的なシナリオを含めて比較します。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_ab_test_mab"

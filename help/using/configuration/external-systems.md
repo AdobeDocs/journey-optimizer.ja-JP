@@ -24,14 +24,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1834
-ht-degree: 97%
+source-wordcount: 1860
+ht-degree: 95%
 
 ---
 
 # 外部システムとの統合 {#external-systems}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、** Adobe Journey Optimizerを外部システムと統合するためのガードレールとベストプラクティス（APIのキャップとスロットル、ジャーニータイムアウト、再試行など）について説明します。
+
+>[!ENDSHADEBOX]
 
 このページでは、外部システムと統合するときに Journey Optimizer が提供する、さまざまなガードレールを紹介します。また、Capping API で外部システムを最適に保護する方法、ジャーニータイムアウトを設定する方法、再試行の仕組みなどのベストプラクティスも紹介します。
 
@@ -90,7 +96,7 @@ API について詳しくは、[Adobe Journey Optimizer API ドキュメント](
 
 >[!NOTE]
 >
->応答がサポートされるようになったので、外部データソースのユースケースでは、データ ソースの代わりにカスタムアクションを使用する必要があります。 応答について詳しくは、この[節](../action/action-response.md)を参照してください。
+>応答がサポートされるようになったので、外部データソースのユースケースでは、データソースの代わりにカスタムアクションを使用する必要があります。 応答について詳しくは、この[節](../action/action-response.md)を参照してください。
 
 ## 応答時間が遅いエンドポイント {#response-time}
 

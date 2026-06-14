@@ -22,14 +22,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e6ff21d3-dec6-4298-8590-7c749fffaf78
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 688
-ht-degree: 94%
+source-wordcount: 721
+ht-degree: 90%
 
 ---
 
 # ブランドの作成と管理 {#brands}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、AI アシスタントがAdobe Journey Optimizerでブランドアイデンティティに沿ったコンテンツを生成できるように、デフォルトブランドの設定を含むブランドガイドラインを作成、設定、公開、管理する方法について説明します。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_overview"

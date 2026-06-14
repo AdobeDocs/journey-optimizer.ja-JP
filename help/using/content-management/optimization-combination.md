@@ -20,14 +20,20 @@ topic_v2:
 feature_v2: []
 subfeature_v2:
   - id: f29a52db-c90c-4345-902e-b586d1406d8d
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 306
-ht-degree: 92%
+source-wordcount: 331
+ht-degree: 85%
 
 ---
 
 # ターゲティングと実験を組み合わせ {#combination}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、1つのジャーニーまたはキャンペーン内でターゲティングと実験を組み合わせて、各ターゲティングルールに対して実験を具体的に行う方法について説明します。
+
+>[!ENDSHADEBOX]
 
 Journey Optimizer では、単一のジャーニーまたはキャンペーン内でターゲティングと実験を組み合わせて、より高度な戦略を作成することもできます。
 
@@ -37,13 +43,13 @@ Journey Optimizer では、単一のジャーニーまたはキャンペーン�
 
 ジャーニーまたはキャンペーンでターゲティングと実験の両方を組み合わせるには、次の手順に従います。
 
-1. 複数のターゲティングルールを定義するジャーニーまたはキャンペーンを作成します。 [詳細情報](optimization-targeting.md)
+1. 複数のターゲティングルールを定義するジャーニーまたはキャンペーンを作成します。 [方法についてはこちらを参照](optimization-targeting.md)
 
    ![](../campaigns/assets/msg-optimization-create-targeting.png){width=85%}
 
 1. 最初のターゲティングルールの実験を作成します。
 
-1. 必要に応じて、コンテンツ実験を設計および設定します。 [詳細情報](../content-management/content-experiment.md)
+1. 必要に応じて、コンテンツ実験を設計および設定します。 [方法についてはこちらを参照](../content-management/content-experiment.md)
 
    ![](../campaigns/assets/msg-optimization-targeting-with-experiment.png){width=85%}
 

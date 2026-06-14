@@ -29,14 +29,20 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 2063
-ht-degree: 98%
+source-wordcount: 2099
+ht-degree: 97%
 
 ---
 
 # 自動翻訳を使用した多言語コンテンツの作成 {#multilingual-automated}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;翻訳プロジェクトと言語設定を設定し、レビューと公開のためにキャンペーンまたはジャーニーのコンテンツを翻訳プロバイダーに送信して、自動翻訳を使用して多言語コンテンツを作成する方法を説明します。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_add_provider"

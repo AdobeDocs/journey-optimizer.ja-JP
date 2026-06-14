@@ -12,14 +12,20 @@ exl-id: d13467b7-2f3c-4707-a7e0-9b46cb6cafb1
 feature_v2: []
 subfeature_v2:
   - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 2097
+source-wordcount: 2126
 ht-degree: 22%
 
 ---
 
 # メールコンテンツテンプレートへの画像の変換 {#image-to-html}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** Adobe Journey OptimizerのAIを活用した画像からHTMLへのコンバーターを使用して、静的な画像デザインを編集可能で再利用可能なメールコンテンツテンプレートに変換する方法を説明します。
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer]は、静的な画像デザインを完全にカスタマイズ可能なモジュール式の電子メールコンテンツテンプレートに変換することで、電子メールの作成を大幅に高速化するのに役立ちます。
 

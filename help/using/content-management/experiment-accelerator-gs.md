@@ -24,14 +24,20 @@ level_v2:
 topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 202
-ht-degree: 96%
+source-wordcount: 235
+ht-degree: 82%
 
 ---
 
 # Journey Optimizer experimentation acceleratorの基本を学ぶ {#content-experiment}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、** Adobe Journey Optimizer Experimentation AcceleratorがAdobe TargetとAdobe Journey Optimizerのテストを一元化して、アダプティブテストを実行し、AI主導のインサイトを明らかにし、主要なパフォーマンス指標を追跡する方法について説明します。
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

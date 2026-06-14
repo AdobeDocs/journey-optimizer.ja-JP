@@ -23,14 +23,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 1264
-ht-degree: 78%
+source-wordcount: 1294
+ht-degree: 76%
 
 ---
 
 # テストプロファイルの作成 {#create-test-profiles}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** Adobe Journey Optimizerでコンテンツとテストジャーニーをプレビューできるように、CSV ファイルをアップロードするか、API呼び出しを使用してテストプロファイルを作成する方法を説明します。
+
+>[!ENDSHADEBOX]
 
 ジャーニーで[テストモード](../building-journeys/testing-the-journey.md)を使用する際や、[コンテンツをプレビューしてテストする](../content-management/preview-test.md)には、テストプロファイルが必要です。
 

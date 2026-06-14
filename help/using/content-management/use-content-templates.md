@@ -23,14 +23,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 177
-ht-degree: 100%
+source-wordcount: 203
+ht-degree: 87%
 
 ---
 
 # コンテンツテンプレートの使用 {#use-content-templates}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** Adobe Journey OptimizerでWeb以外の任意のチャネルのコンテンツを作成する際にコンテンツテンプレートを適用して、メッセージの作成をより迅速に開始する方法を説明します。
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] で任意のチャネル（web を除く）のコンテンツを作成する際、次のいずれかのカスタムテンプレートを使用できます。
 

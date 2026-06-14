@@ -11,14 +11,20 @@ keywords: 書き出し、メッセージ、データセット、スキーマ、�
 feature_v2: []
 subfeature_v2:
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 420
-ht-degree: 37%
+source-wordcount: 447
+ht-degree: 35%
 
 ---
 
 # AJO メッセージ書き出しスキーマ {#ajo-message-export-schema}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、**&#x200B;送信された電子メールとSMS メッセージの内容をAdobe Experience Platformに保存するAJO メッセージ書き出しデータセットの構造と個々のフィールドについて説明します。
+
+>[!ENDSHADEBOX]
 
 **メッセージ書き出し**&#x200B;が電子メールまたはSMS チャネル設定で有効になっている場合、送信されたメッセージの内容は[!DNL Adobe Experience Platform]の&#x200B;**AJO メッセージ書き出しデータセット**&#x200B;に書き込まれます。
 

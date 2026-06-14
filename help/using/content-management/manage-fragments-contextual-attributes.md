@@ -24,14 +24,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 363
-ht-degree: 8%
+source-wordcount: 392
+ht-degree: 7%
 
 ---
 
 # 公開済みのフラグメントへのコンテキスト属性の追加 {#adding-contextual-attributes}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、**&#x200B;一部のお客様が、コードエディターを使用して、既に公開されたフラグメントにコンテクスト属性を追加する方法と、覚えておくべきガードレールと制限について説明します。
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

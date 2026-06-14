@@ -8,14 +8,20 @@ exl-id: 6477270c-0309-411a-8254-c7ffc4419492
 feature_v2: []
 subfeature_v2:
   - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 231
-ht-degree: 86%
+source-wordcount: 254
+ht-degree: 78%
 
 ---
 
 # テストプロファイルを使用したコンテンツのプレビュー {#preview}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、選択したテストプロファイルに対してメッセージコンテンツをプレビューし、各バリエーションにパーソナライズされたフィールドがどのように表示されるかを確認する方法を説明します。
+
+>[!ENDSHADEBOX]
 
 [テストプロファイル](test-profiles.md)を選択すると、このデータを使用してコンテンツをプレビューできます。 どちらのシミュレーションメソッドも使用できます。
 

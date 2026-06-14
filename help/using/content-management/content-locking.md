@@ -24,14 +24,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 1285
-ht-degree: 100%
+source-wordcount: 1319
+ht-degree: 97%
 
 ---
 
 # メールテンプレートのコンテンツのロック {#lock-content-email-templates}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** マーケターがAdobe Journey Optimizerでテンプレートを再利用する際に、意図しない編集を防ぐために、構造レベルまたはコンポーネントレベルで、または読み取り専用として、メールテンプレート内のコンテンツをロックする方法について説明します。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_locking_governance"
@@ -204,10 +210,10 @@ Journey Optimizer では、テンプレート全体をロックするか、特�
 | コンテンツのロックタイプ | テンプレートの設定 | メールの編集 |
 | ------- | ------- | ------- |
 | 読み取り専用コンテンツテンプレート | ![](assets/locking-sample-read-only-conf.png){zoomable="yes"} | ![](assets/locking-sample-read-only.png){zoomable="yes"} |
-| 完全なコンテンツは編集可能ですが、ユーザーは構造やコンポーネントを追加できません | ![](assets/locking-sample-no-addition-conf.png){zoomable="yes"} | ![](assets/locking-sample-no-addition.png){zoomable="yes"} |
-| 削除できないロックした構造 | ![](assets/locking-sample-structure-locked-conf.png){zoomable="yes"} | ![](assets/locking-sample-structure-locked.png){zoomable="yes"} |
+| 完全なコンテンツは編集可能ですが、ユーザーは構造やコンポーネントを追加することはできません | ![](assets/locking-sample-no-addition-conf.png){zoomable="yes"} | ![](assets/locking-sample-no-addition.png){zoomable="yes"} |
+| 削除できないロックされた構造 | ![](assets/locking-sample-structure-locked-conf.png){zoomable="yes"} | ![](assets/locking-sample-structure-locked.png){zoomable="yes"} |
 | スタイルがロックされ、削除できないコンポーネント。 ユーザーはコンテンツの変更のみ可能です。 | ![](assets/locking-sample-content-only-conf.png){zoomable="yes"} | ![](assets/locking-sample-content-only.png){zoomable="yes"} |
-| ロックした構造内の編集可能コンポーネント。 | ![](assets/locking-sample-editable-component-conf.png){zoomable="yes"} | ![](assets/locking-sample-editable-component.png){zoomable="yes"} |
+| ロックされた構造内の編集可能なコンポーネント。 | ![](assets/locking-sample-editable-component-conf.png){zoomable="yes"} | ![](assets/locking-sample-editable-component.png){zoomable="yes"} |
 
 ## チュートリアルビデオ {#video}
 

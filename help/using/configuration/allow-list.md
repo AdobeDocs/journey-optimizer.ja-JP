@@ -25,14 +25,20 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1341
-ht-degree: 73%
+source-wordcount: 1371
+ht-degree: 71%
 
 ---
 
 # 許可リストの設定 {#allow-list}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;信頼できるアドレスとドメインへのメール送信をサンドボックスレベルで制限するために、Adobe Journey Optimizerで許可リストをアクティブ化、入力、管理する方法を説明します。
+
+>[!ENDSHADEBOX]
 
 許可リストは、[&#x200B; サンドボックス &#x200B;](../administration/sandboxes.md) レベルで定義できる送信セーフ リストです。 特定のアドレスまたはドメインへのメール送信を制限し、明示的にリストされた受信者のみが、特定のサンドボックスからメッセージを受信できるようにします。
 
@@ -157,7 +163,7 @@ Journey Optimizer **抑制REST API**&#x200B;を使用して、抑制と許可リ
 
 ### API 呼び出しを使用したエンティティの追加 {#api-call-allowed-list}
 
-許可リストに入力するには、`listType` 属性に `ALLOWED` 値を指定して抑制 API を呼び出すこともできます。 例：
+許可リストに入力するには、`listType` 属性に `ALLOWED` 値を指定して抑制 API を呼び出すこともできます。 次に例を示します。
 
 ![抑制APIを使用して許可リストにエントリを追加するAPI呼び出しの例](assets/allow-list-api.png)
 

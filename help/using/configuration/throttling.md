@@ -22,14 +22,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1060
-ht-degree: 98%
+source-wordcount: 1092
+ht-degree: 95%
 
 ---
 
 # Throttling API の使用
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、スロットル APIを使用して、Adobe Journey Optimizerが1秒あたりに外部エンドポイントに送信するイベントの数を制限するスロットル設定を作成、デプロイ、および監視する方法について説明します。
+
+>[!ENDSHADEBOX]
 
 Throttling API を使用すると、スロットル設定を作成、設定および監視して、1 秒あたりに送信されるイベントの数を制限できます。
 

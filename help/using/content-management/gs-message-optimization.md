@@ -30,14 +30,20 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 742
-ht-degree: 16%
+source-wordcount: 770
+ht-degree: 15%
 
 ---
 
 # コンテンツの最適化の基本を学ぶ {#message-optimization}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** Adobe Journey Optimizerのコンテンツ最適化で、ターゲティング、検証、またはその両方を使用して、キャンペーンやジャーニー全体で最もパフォーマンスの高いパーソナライズされたコンテンツを配信する方法を説明します。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_content_optimization"

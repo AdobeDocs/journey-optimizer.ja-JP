@@ -21,14 +21,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 201
-ht-degree: 98%
+source-wordcount: 227
+ht-degree: 86%
 
 ---
 
 # 言語プロバイダーの追加 {#multilingual-provider}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** サードパーティの翻訳プロバイダーとサポートされているロケールを追加および設定して、多言語コンテンツに使用できるようにする方法を説明します。
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >

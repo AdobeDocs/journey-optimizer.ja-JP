@@ -25,14 +25,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 1735
-ht-degree: 92%
+source-wordcount: 1771
+ht-degree: 90%
 
 ---
 
 # カスタマイズ可能なフラグメント {#customizable-fragments}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、ビジュアルフラグメントとエクスプレッションフラグメントの特定のフィールドを編集可能にする方法を説明します。これにより、ユーザーは、元のフラグメントからの継承を解除することなく、キャンペーンまたはジャーニーにフラグメントを追加するときに、それらのフラグメントをカスタマイズできます。
+
+>[!ENDSHADEBOX]
 
 キャンペーンまたはジャーニーアクションでフラグメントを使用する際、フラグメントは継承によりデフォルトでロックされます。 つまり、フラグメントに対して行った変更は、フラグメントを使用するすべてのキャンペーンとジャーニーに自動的に生成されます。
 

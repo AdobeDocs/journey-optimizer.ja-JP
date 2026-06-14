@@ -23,14 +23,20 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 80e67d5a60b6427ff87e106e37bf6794ac76a210
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 927
-ht-degree: 56%
+source-wordcount: 956
+ht-degree: 54%
 
 ---
 
 # 計算属性の操作 {#computed-attributes}
+
+>[!BEGINSHADEBOX]
+
+**このページでは：**&#x200B;行動イベントをプロファイル属性に集約する計算属性を作成し、Adobe Journey Optimizerのセグメンテーション、パーソナライゼーション、ジャーニーロジックに使用する方法を説明します。
+
+>[!ENDSHADEBOX]
 
 計算属性を使用すると、個々の行動イベントを、Adobe Experience Platform で使用可能な計算プロファイル属性に要約できます。 これらの属性は、Adobe Experience Platform に取り込まれたプロファイル対応のエクスペリエンスイベントデータセットに基づいており、顧客プロファイル内に保存される集計データポイントとして機能します。
 

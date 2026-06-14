@@ -21,14 +21,20 @@ subfeature_v2:
   - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
   - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 228
-ht-degree: 98%
+source-wordcount: 256
+ht-degree: 87%
 
 ---
 
 # ID の基本を学ぶ {#identities-gs}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、Adobe Journey Optimizerで顧客IDを参照し、ID名前空間と値を組み合わせて各顧客を識別する方法など、ID グラフを調べる方法について説明します。
+
+>[!ENDSHADEBOX]
 
 ID は、エンティティ（通常は個人、ハードウェアデバイス、web ブラウザーなどの実際のオブジェクト）に一意のデータです。 完全修飾 ID は、次の 2 つの要素で構成されます。
 

@@ -16,14 +16,20 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
 subfeature_v2:
   - id: f29a52db-c90c-4345-902e-b586d1406d8d
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 942
-ht-degree: 94%
+source-wordcount: 977
+ht-degree: 91%
 
 ---
 
 # 実験レポートの統計計算について {#experiment-report-calculations}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** Adobe Journey Optimizerのキャンペーンの実験レポートで使用される詳細な統計計算（コンバージョン率、上昇率、いつでも有効な信頼度シーケンス、最高のパフォーマンスを発揮するアームの決定方法など）について説明します。
+
+>[!ENDSHADEBOX]
 
 このページでは、Adobe Journey Optimizer のキャンペーンの実験レポートで使用される詳細な統計計算について説明します。
 

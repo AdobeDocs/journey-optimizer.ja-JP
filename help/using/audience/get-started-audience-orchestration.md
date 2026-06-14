@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 1066
-ht-degree: 96%
+source-wordcount: 1092
+ht-degree: 91%
 
 ---
 
 # オーディエンス構成の基本を学ぶ {#get-start-audience-composition}
+
+>[!BEGINSHADEBOX]
+
+**このページでは：** オーディエンス構成を使用して、既存のAdobe Experience Platform オーディエンスをビジュアルキャンバスで組み合わせ、分割、除外、エンリッチ、ランクなどのアクティビティを適用して新しいオーディエンスを作成する方法を説明します。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_composition"
@@ -124,7 +130,7 @@ ht-degree: 96%
 
 オーディエンス構成を使用すると、**構成ワークフロー**&#x200B;を作成できます。このワークフローでは、既存のAdobe Experience Platform オーディエンスをビジュアルキャンバスに組み合わせて、さまざまなアクティビティを活用できます（分割、除外…） 新規オーディエンスを作成します。
 
-完了すると、**結果のオーディエンス**&#x200B;は既存のオーディエンスと共に Adobe Experience Platform に保存され、Journey Optimizer のキャンペーンやターゲット顧客へのジャーニーに活用できます。 Journey Optimizerでオーディエンスをターゲティングする方法を説明します
+完了すると、**結果のオーディエンス**&#x200B;が既存のオーディエンスとともにAdobe Experience Platformに保存され、Journey Optimizerのキャンペーンやジャーニーでターゲットユーザーに活用できるようになります。Journey Optimizerでオーディエンスをターゲティングする方法を説明します
 ![](assets/audiences-process.png)
 
 >[!IMPORTANT]

@@ -8,14 +8,20 @@ exl-id: e742c04e-2987-4466-84af-bdaf4d714552
 feature_v2: []
 subfeature_v2:
   - id: a5683ded-e5d5-4ec6-b9fd-e1b56a94ab96
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 479
-ht-degree: 89%
+source-wordcount: 508
+ht-degree: 84%
 
 ---
 
 # テストプロファイルデータを使用した本配信前確認の送信 {#send-proofs}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、テストプロファイルデータを使用してメール校正を送信する方法を説明します。これにより、受信者は、メッセージがメインオーディエンスに送信される前に、レンダリング、コンテンツ、パーソナライゼーションを確認できます。
+
+>[!ENDSHADEBOX]
 
 配達確認は、メッセージをメインオーディエンスに送信する前にテストできる、特定のメッセージです。 配達確認の受信者は、メッセージのレンダリング、コンテンツ、パーソナライゼーションの設定、構成などを確認します。
 

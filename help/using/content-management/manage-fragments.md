@@ -26,14 +26,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 1523
-ht-degree: 95%
+source-wordcount: 1551
+ht-degree: 94%
 
 ---
 
 # フラグメントの管理 {#manage-fragments}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、コンテンツフラグメントにアクセス、整理、編集、アーカイブ、エクスポートする方法（フォルダーの使用、フラグメントのステータスの追跡、各フラグメントの参照先の探索など）について説明します。
+
+>[!ENDSHADEBOX]
 
 ## フラグメントへのアクセス {#access-fragments}
 

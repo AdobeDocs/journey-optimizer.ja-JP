@@ -23,14 +23,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 218
-ht-degree: 95%
+source-wordcount: 247
+ht-degree: 84%
 
 ---
 
 # メールコンテンツテンプレートのテスト {#test-template}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** Adobe Journey Optimizerでメールコンテンツテンプレートのレンダリングをプレビューおよびテストし、使用前にプルーフを送信して承認する方法を説明します。
+
+>[!ENDSHADEBOX]
 
 ゼロから作成した場合でも、既存のコンテンツから作成した場合でも、一部のメールテンプレートのレンダリングをテストできます。 これを行うには、以下の手順に従います。
 

@@ -27,14 +27,20 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 459
-ht-degree: 100%
+source-wordcount: 489
+ht-degree: 93%
 
 ---
 
 # IP ウォームアッププランの基本を学ぶ {#ip-warmup-gs}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、** IP ウォームアッププランを使用して、送信量を徐々に増やして送信者のレピュテーションを構築する方法を説明し、Adobe Journey Optimizerで送信量を実装するための主な手順を説明します。
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] を使用すると、最適な配信品質を実現するためのベストプラクティスに従って、標準化された効率的な方法で、ユーザーインターフェイスから直接 IP ウォームアップワークフローを簡単に実行できます。 新しいプラットフォームを使用してメールが送信された場合、インターネットサービスプロバイダー（ISP）は認識されない IP アドレスを疑わしく思います。 多くの場合、大量のメールが突然送信されると、ISP はそれらのメールをスパムとしてマークします。
 

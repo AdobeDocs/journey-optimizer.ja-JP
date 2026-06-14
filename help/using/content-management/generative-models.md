@@ -10,14 +10,20 @@ exl-id: 9ef6b02c-0a17-4b46-bcd3-8e922eef059a
 feature_v2: []
 subfeature_v2:
   - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 565
+source-wordcount: 593
 ht-degree: 2%
 
 ---
 
 # 生成モデルの作成と管理 {#generative-models}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、** Adobe Journey OptimizerでAI画像の生成に使用する組み込み、パートナー、カスタム Firefly生成モデルを追加、設定、管理する方法について説明します。
+
+>[!ENDSHADEBOX]
 
 組み込みモデル、カスタム Firefly モデル、サードパーティの画像生成プロバイダーなど、AI画像作成機能を拡張して、特定のニーズに対応し、ブランドの整合性を向上させることができます。
 

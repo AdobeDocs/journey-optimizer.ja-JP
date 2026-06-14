@@ -25,14 +25,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 510
-ht-degree: 100%
+source-wordcount: 541
+ht-degree: 94%
 
 ---
 
 # コンテンツをフラグメントとして保存 {#save-as-fragment}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** Adobe Journey Optimizerで、コンテンツの全部または一部をビジュアルフラグメントまたはエクスプレッションフラグメントとして保存し、ジャーニーやキャンペーンをまたいで再利用する方法を説明します。
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] でコンテンツを編集する際、後で再利用するために、コンテンツのすべてまたは一部をフラグメントとして保存できます。 コンテンツは、[E メールデザイナーから](#save-as-visual-fragment)、または[式エディターから](#save-as-expression-fragment)フラグメントとして保存できます。
 

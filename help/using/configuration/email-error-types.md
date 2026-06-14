@@ -23,14 +23,20 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 subfeature_v2:
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 427
-ht-degree: 100%
+source-wordcount: 453
+ht-degree: 94%
 
 ---
 
 # メールのエラータイプ {#email-error-types}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、** Adobe Journey Optimizerのメール配信エラーの一覧を確認します。エラーのラベル、エラーの種類、技術的な値、および説明が記載されています。
+
+>[!ENDSHADEBOX]
 
 配信エラーの理由として考えられるものは複数あります。 次の表は、[!DNL Journey Optimizer] を使用してメール配信を送信する際に発生する可能性のあるすべてのエラーと、その説明およびエラータイプの詳細を示しています。
 

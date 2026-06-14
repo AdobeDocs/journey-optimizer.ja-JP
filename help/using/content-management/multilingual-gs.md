@@ -24,14 +24,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 636
-ht-degree: 100%
+source-wordcount: 667
+ht-degree: 95%
 
 ---
 
 # 多言語コンテンツの基本を学ぶ {#multilingual-gs}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;多言語コンテンツの使用を開始して、手動または自動翻訳を使用して、単一のキャンペーンまたはジャーニー内で多言語のメッセージを作成し、必要な前提条件を確認します。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_translation_homepage"

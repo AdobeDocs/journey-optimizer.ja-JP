@@ -20,14 +20,20 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 563
-ht-degree: 95%
+source-wordcount: 589
+ht-degree: 91%
 
 ---
 
 # ターゲティングの使用 {#targeting}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、ターゲティングルールを使用して、プロファイル属性、コンテキストデータ、オーディエンスメンバーシップに基づいて、特定のオーディエンスセグメントにパーソナライズされたコンテンツを配信する方法について説明します。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_content_targeting_fallback"

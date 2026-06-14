@@ -28,14 +28,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 459
-ht-degree: 100%
+source-wordcount: 486
+ht-degree: 94%
 
 ---
 
 # IP ウォームアップキャンペーンの作成 {#create-ip-warmup-campaign}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、IP ウォームアップ専用の電子メールキャンペーンを作成およびアクティブ化して、IP ウォームアッププラン内でスケジュールして使用できるようにする方法を説明します。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_ip_warmup"

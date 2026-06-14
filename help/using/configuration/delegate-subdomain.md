@@ -25,14 +25,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1963
-ht-degree: 97%
+source-wordcount: 1994
+ht-degree: 96%
 
 ---
 
 # サブドメインのデリゲート {#delegate-subdomain}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;完全なデリゲーションまたはCNAME設定を使用して、Adobe Journey OptimizerのAdobeにメール送信サブドメインをデリゲートする方法と、それらのサブドメインにアクセスして検証およびデリゲート解除を行う方法について説明します。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomainname"
@@ -220,7 +226,7 @@ CNAME を使用してサブドメインを設定するには、次の手順に�
 
    <!--![](assets/subdomain-processing.png)-->
 
-1. そのサブドメインを使用してメッセージを送信する前に、すべてのDNS レコードが正しく作成されていることを確認し、Adobeが必要なチェックを実行するまで待ちます。これには最大3時間かかります。 [詳細情報](#subdomain-validation)。
+1. そのサブドメインを使用してメッセージを送信する前に、すべてのDNS レコードが正しく作成されていることを確認し、Adobeが必要なチェックを実行するまで待ちます。これには最大3時間かかります。 [学習を増やす](#subdomain-validation)。
 
 ### サブドメインの検証 {#subdomain-validation}
 

@@ -25,14 +25,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 1999
-ht-degree: 89%
+source-wordcount: 2033
+ht-degree: 88%
 
 ---
 
 # AI アシスタントを使用した完全なコンテンツの生成 {#generative-full-content}
+
+>[!BEGINSHADEBOX]
+
+**このページで：** Adobe Journey OptimizerのAI アシスタントを使用して、メール、web、ランディングページ、プッシュ通知チャネルのテキストおよび画像コンテンツのエクスペリエンス全体を生成、調整および最終調整する方法を説明します。
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >

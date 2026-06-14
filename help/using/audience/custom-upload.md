@@ -21,14 +21,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 149
-ht-degree: 89%
+source-wordcount: 177
+ht-degree: 75%
 
 ---
 
 # カスタムアップロード {#custom-upload}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** Adobe Experience Platform Audience Portalを使用してCSV ファイルからオーディエンスを読み込み、ID属性を顧客プロファイルにマッピングする方法を説明します。
+
+>[!ENDSHADEBOX]
 
 Adobe Experience Platform オーディエンスポータルでは、CSV ファイルを使用してオーディエンスを読み込むことができます。
 

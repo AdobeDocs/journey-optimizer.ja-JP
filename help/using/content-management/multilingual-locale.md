@@ -21,14 +21,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 120
-ht-degree: 100%
+source-wordcount: 146
+ht-degree: 82%
 
 ---
 
 # ロケールの作成 {#multilingual-locale}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;多言語コンテンツで必要な言語または地域が利用できない場合に、翻訳メニューから新しいロケールを作成する方法を説明します。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_multi_add_locale"

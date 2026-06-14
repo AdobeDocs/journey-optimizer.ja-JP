@@ -27,14 +27,20 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 868
-ht-degree: 23%
+source-wordcount: 894
+ht-degree: 22%
 
 ---
 
 # ライセンス使用状況ダッシュボード {#license-usage}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** Adobe Journey Optimizer ライセンス使用状況ダッシュボードを使用して、エンゲージ可能なプロファイルを監視し、プロファイル数の予期しない増加をトラブルシューティングする方法を説明します。
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer] [ユーザーインターフェイス](../start/user-interface.md)は、毎日のスナップショットでキャプチャされた、組織のライセンス使用状況に関する重要な情報を表示するダッシュボードを提供します。
 

@@ -24,14 +24,20 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 811
-ht-degree: 94%
+source-wordcount: 841
+ht-degree: 90%
 
 ---
 
 # [!DNL Journey Optimizer] のオーディエンスアクティベーション {#segments-in-journey-optimizer}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、** アクティベーションの遅延や、様々なオーディエンスタイプに適用されるガードレールなど、Adobe Journey OptimizerのキャンペーンとジャーニーでAdobe Experience Platform オーディエンスをターゲティングする方法について説明します。
+
+>[!ENDSHADEBOX]
 
 セグメント定義、カスタムアップロード、コンポジションワークフローまたは連合オーディエンス構成を使用して、生成されたオーディエンスをキャンペーンやジャーニーで選択できます。
 

@@ -22,14 +22,20 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 subfeature_v2:
   - id: f29a52db-c90c-4345-902e-b586d1406d8d
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 294
-ht-degree: 72%
+source-wordcount: 323
+ht-degree: 65%
 
 ---
 
 # 実験の使用 {#experimentation}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** コンテンツの実験を使用して、ジャーニーまたはキャンペーン内の複数のコンテンツのバリエーションをテストし、成功指標に対してどのバリエーションが最も効果的かを特定する方法を説明します。
+
+>[!ENDSHADEBOX]
 
 >[!NOTE]
 >
@@ -59,7 +65,7 @@ ht-degree: 72%
 
    ![](../campaigns/assets/msg-optimization-select-experiment.png){width=85%}
 
-1. 必要に応じて、コンテンツ実験を設計および設定します。 [詳細情報](../content-management/content-experiment.md)
+1. 必要に応じて、コンテンツ実験を設計および設定します。 [方法についてはこちらを参照](../content-management/content-experiment.md)
 
    ![](../campaigns/assets/msg-optimization-create-experiment.png){width=85%}
 

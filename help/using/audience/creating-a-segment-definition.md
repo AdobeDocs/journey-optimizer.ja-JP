@@ -25,14 +25,20 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 1127
-ht-degree: 100%
+source-wordcount: 1158
+ht-degree: 97%
 
 ---
 
 # セグメント定義の作成 {#build-segments}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;属性とイベントからセグメント定義を作成してオーディエンスを作成し、Adobe Journey Optimizerでターゲティングするストリーミング、バッチ、またはエッジの評価方法を選択する方法を説明します。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_ao_create_rule"

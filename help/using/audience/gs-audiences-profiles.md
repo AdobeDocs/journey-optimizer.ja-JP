@@ -14,15 +14,21 @@ subfeature_v2:
   - id: b32bb433-f8c6-4931-8e52-e657230a3bf2
   - id: e95b6013-acbe-46e9-a3b5-b80e14088d7d
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 161
-ht-degree: 31%
+source-wordcount: 187
+ht-degree: 26%
 
 ---
 
 
 # プロファイルとオーディエンスの基本を学ぶ {#gs-profiles-audiences}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** Adobe Journey Optimizerでリアルタイムの顧客プロファイルとオーディエンスを操作して、パーソナライズされた顧客体験を提供する方法の概要を説明します。
+
+>[!ENDSHADEBOX]
 
 Adobe Journey Optimizerを利用すれば、リアルタイムの顧客プロファイルとオーディエンスを構築、管理し、パーソナライズされた顧客体験を提供できます。 &#x200B;この概要では、Journey Optimizerでプロファイルとオーディエンスを操作する方法の一般的な理解を提供します。 詳しくは、プロファイルとオーディエンスに関する特定の節を参照してください。
 

@@ -25,14 +25,20 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 subfeature_v2:
   - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 2296
-ht-degree: 79%
+source-wordcount: 2328
+ht-degree: 78%
 
 ---
 
 # AI アシスタントプロンプトのベストプラクティス {#ai-assistant-prompting-guide}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** プロンプトアシスタントとCO-STAR フレームワークを使用して、Adobe Journey Optimizerでコンバージョン率の高いブランドに即したマーケティングコンテンツを生成するための効果的なAI アシスタント プロンプトの作成方法を説明します。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_ai_assistant_prompt"

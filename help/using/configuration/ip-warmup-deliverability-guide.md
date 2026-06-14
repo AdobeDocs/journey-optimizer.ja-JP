@@ -30,14 +30,20 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1112
-ht-degree: 100%
+source-wordcount: 1139
+ht-degree: 97%
 
 ---
 
 # IP ウォームアップ配信品質ガイド {#ip-warmup-deliverability-guide}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、**&#x200B;配信品質の基本、レピュテーションの構築、フライト前のチェック、ウォームアップカレンダーのサンプル、モニタリング指標を理解して、Adobe Journey OptimizerでIP ウォームアップを正常に実行します。
+
+>[!ENDSHADEBOX]
 
 Adobe Journey Optimizer で新しい IP アドレスまたはドメインを使用してメールキャンペーンを開始する場合、強力な送信者の評判を確立するために、配信品質の基本を理解することが重要です。 このガイドでは、ゼロ評判からインボックスへの配置を正常に移行するのに役立つ主な概念、準備手順、ベストプラクティスについて説明します。
 

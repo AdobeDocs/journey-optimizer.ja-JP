@@ -22,14 +22,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 633
-ht-degree: 100%
+source-wordcount: 660
+ht-degree: 95%
 
 ---
 
 # コンテンツテンプレートの作成 {#create-content-templates}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、コンテンツテンプレートをゼロから作成する方法や、既存のキャンペーンコンテンツやジャーニーコンテンツをAdobe Journey Optimizerで再利用可能なテンプレートとして保存する方法を説明します。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_create_template"
@@ -42,7 +48,7 @@ ht-degree: 100%
 
 * キャンペーンまたはジャーニー内でコンテンツをデザインする際に、テンプレートとして保存する。 [方法についてはこちらを参照](#save-as-template)
 
-保存すると、コンテンツテンプレートをキャンペーンやジャーニーで使用できるようになります。 ゼロから作成した場合でも、以前のコンテンツから作成した場合でも、[!DNL Journey Optimizer] 内でコンテンツを作成する際にこのテンプレートを使用できます。 [詳細情報](#use-content-templates)
+保存すると、コンテンツテンプレートをキャンペーンやジャーニーで使用できるようになります。 ゼロから作成した場合でも、以前のコンテンツから作成した場合でも、[!DNL Journey Optimizer] 内でコンテンツを作成する際にこのテンプレートを使用できます。 [方法についてはこちらを参照](#use-content-templates)
 
 >[!NOTE]
 >
@@ -99,7 +105,7 @@ ht-degree: 100%
 
    ![](assets/content-template-back.png)
 
-このテンプレートを、[!DNL Journey Optimizer] 内でコンテンツを作成する際に使用できるようになりました。 [詳細情報](#use-content-templates)
+このテンプレートを、[!DNL Journey Optimizer] 内でコンテンツを作成する際に使用できるようになりました。 [方法についてはこちらを参照](#use-content-templates)
 
 >[!NOTE]
 >
@@ -135,7 +141,7 @@ ht-degree: 100%
 
 1. テンプレートは&#x200B;**[!UICONTROL コンテンツテンプレート]**&#x200B;リストに保存され、[!DNL Journey Optimizer] 専用メニューからアクセスできます。 このテンプレートは、そのリストの他の項目と同様に、アクセス、編集、削除できるスタンドアロンのコンテンツテンプレートになります。 [詳細情報](#access-manage-templates)
 
-[!DNL Journey Optimizer] 内でコンテンツを作成する際に、このテンプレートを使用できるようになりました。 [詳細情報](#use-content-templates)
+[!DNL Journey Optimizer] 内でコンテンツを作成する際に、このテンプレートを使用できるようになりました。 [方法についてはこちらを参照](#use-content-templates)
 
 >[!NOTE]
 >

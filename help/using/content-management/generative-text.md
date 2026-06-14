@@ -28,14 +28,20 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 1663
-ht-degree: 93%
+source-wordcount: 1694
+ht-degree: 91%
 
 ---
 
 # AI アシスタントを使用したテキストの生成 {#generative-text}
+
+>[!BEGINSHADEBOX]
+
+**このページで：** Adobe Journey OptimizerのAI アシスタントを使用して、電子メール、web、ランディングページ、プッシュ通知、SMS チャネル向けに、ブランドに即したテキストコンテンツを生成、調整、最終調整する方法を説明します。
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >

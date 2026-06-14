@@ -21,14 +21,20 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 subfeature_v2:
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 302
-ht-degree: 100%
+source-wordcount: 332
+ht-degree: 90%
 
 ---
 
 # API トリガーキャンペーン用のフィードバック Webhook の作成 {#webhooks}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、** Adobe Journey Optimizerでトランザクション API トリガーキャンペーン用にリアルタイムのメッセージステータス更新をシステムに配信するフィードバック Webhookを作成および設定する方法について説明します。
+
+>[!ENDSHADEBOX]
 
 フィードバック Webhook を使用すると、トランザクション API トリガーキャンペーンを通じて送信されたメッセージに対して、リアルタイムのステータス更新を受け取ることができます。 Webhook を設定すると、配信の結果をシステムに直接自動的に受信できるようになり、モニタリング、ログ記録、自動処理が可能になります。
 

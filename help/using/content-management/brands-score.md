@@ -23,14 +23,20 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 667
-ht-degree: 43%
+source-wordcount: 694
+ht-degree: 41%
 
 ---
 
 # ブランド一致 {#brands-score}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、Adobe Journey Optimizerのブランド調整スコアを使用して、メールコンテンツをブランドガイドラインに照らし合わせて検証し、全体的なコンテンツ品質を評価する方法を説明します。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_brand_score"

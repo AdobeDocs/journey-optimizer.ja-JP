@@ -24,14 +24,20 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 2770
-ht-degree: 93%
+source-wordcount: 2795
+ht-degree: 92%
 
 ---
 
 # IP ウォームアッププランを実行 {#ip-warmup-running}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、IP ウォームアッププランのフェーズと実行を定義し、アクティブ化し、ステータスとレポートを通じて進行状況を監視する方法について説明します。
+
+>[!ENDSHADEBOX]
 
 [IP ウォームアッププランを作成](ip-warmup-plan.md)し、配信品質コンサルタントと共に準備したファイルをアップロードしたら、プランのフェーズと実行を定義できます。
 

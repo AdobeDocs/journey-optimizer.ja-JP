@@ -25,14 +25,20 @@ role_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 656
-ht-degree: 100%
+source-wordcount: 692
+ht-degree: 94%
 
 ---
 
 # チャネル設定の作成 {#set-mobile-ios}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** ガイド付き設定を使用して、Adobe Journey Optimizerでモバイルチャネルとweb チャネルを設定し、必要なリソースを自動作成し、チャネル設定をキャンペーンおよびジャーニーチームと共有する方法を説明します。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_mobile_web_setup_javascript_code"

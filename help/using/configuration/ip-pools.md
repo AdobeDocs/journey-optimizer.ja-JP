@@ -24,14 +24,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 699
-ht-degree: 81%
+source-wordcount: 725
+ht-degree: 78%
 
 ---
 
 # IP プールの作成 {#create-ip-pools}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、**&#x200B;電子メールの配信品質を向上させ、送信者のレピュテーションを保護するために、サブドメイン IP アドレスをグループ化するIP プールを作成、編集、および削除する方法について説明します。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_ip_pool_header"

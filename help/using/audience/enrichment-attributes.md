@@ -24,14 +24,20 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a51edc00631334874d111d8350ee7b0eb8e81aa5
 workflow-type: tm+mt
-source-wordcount: 565
-ht-degree: 95%
+source-wordcount: 595
+ht-degree: 90%
 
 ---
 
 # オーディエンスエンリッチメント属性の使用 {#enrichment}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、** コンポジションワークフロー、カスタムアップロード、フェデレーションオーディエンス構成からオーディエンスエンリッチメント属性を使用して、Adobe Journey Optimizerでジャーニーパスを作成し、メッセージをパーソナライズする方法を説明します。
+
+>[!ENDSHADEBOX]
 
 構成ワークフロー、カスタム（CSV ファイル）オーディエンスまたは連合オーディエンス構成を使用して生成されたオーディエンスをターゲティングする場合、これらのオーディエンスからのエンリッチメント属性を使用してジャーニーを作成し、メッセージをパーソナライズできます。
 
