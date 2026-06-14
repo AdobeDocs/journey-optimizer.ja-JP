@@ -22,14 +22,20 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
 workflow-type: tm+mt
-source-wordcount: 2199
+source-wordcount: 2183
 ht-degree: 61%
 
 ---
 
 # プッシュ通知のデザイン {#design-push-notification}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** タイトルと本文、クリック時の動作、メディア、ボタン、詳細オプションなど、iOS、Android、およびwebのプッシュ通知コンテンツをデザインする方法について説明します。
+
+>[!ENDSHADEBOX]
 
 プッシュ通知を作成したら、そのコンテンツをiOS、Android、およびWeb プラットフォーム用にデザインできます。 このページでは、メッセージの作成、クリック時の動作の設定、メディアとボタンの追加、高度なオプションの設定を通じて、オーディエンスの共感を呼ぶ魅力的なプッシュ通知を作成する方法を説明します。
 
@@ -71,8 +77,8 @@ AI アシスタントを使用してコンテンツ作成を高速化し、[テ�
 
 >[!NOTE]
 >
->プッシュ通知に、iOSでユニバーサルリンクとして設定されたURLが含まれている場合、選択した&#x200B;**[!UICONTROL Web URL]** アクションに関係なく、インストールすると関連するアプリがプッシュで開きます。 ブラウザーを強制的に開くには、ユニバーサルリンク用に設定されていないドメインを使用するか、ドメインのユニバーサルリンク登録を削除します。
->Adobe SDKでのディープリンクとユニバーサルリンクの処理方法について詳しくは、[Adobe Experience Platform モバイルSDK ドキュメント &#x200B;](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/push-notifications){target="_blank"}を参照してください。
+>プッシュ通知に、iOSでユニバーサルリンクとして設定されたURLが含まれている場合、選択した&#x200B;**[!UICONTROL Web URL]** アクションに関係なく、インストールすると関連するアプリがプッシュで開きます。ブラウザーを強制的に開くには、ユニバーサルリンク用に設定されていないドメインを使用するか、ドメインのユニバーサルリンク登録を削除します。
+>Adobe SDKでのディープリンクとユニバーサルリンクの処理方法について詳しくは、[Adobe Experience Platform Mobile SDK ドキュメント &#x200B;](https://developer.adobe.com/client-sdks/documentation/adobe-journey-optimizer/push-notifications){target="_blank"}を参照してください。
 
 ## メディアの追加 {#add-media-push}
 

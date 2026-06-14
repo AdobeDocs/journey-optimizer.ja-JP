@@ -24,14 +24,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
 workflow-type: tm+mt
-source-wordcount: 829
-ht-degree: 92%
+source-wordcount: 856
+ht-degree: 89%
 
 ---
 
 # プッシュ通知のデータフローとコンポーネント {#get-started-push}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、** プッシュ通知のデータフロー、関連する主要なサービスとコンポーネント、および通知がAdobe Journey Optimizerでエンドツーエンドで配信される方法について説明します。
+
+>[!ENDSHADEBOX]
 
 このページは、[!DNL Journey Optimizer] でのプッシュ通知に関連する主要なサービスとワークフローの設定と理解に役立ちます。
 

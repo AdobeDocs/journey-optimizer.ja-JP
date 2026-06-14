@@ -27,14 +27,20 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
 workflow-type: tm+mt
-source-wordcount: 2189
-ht-degree: 91%
+source-wordcount: 2210
+ht-degree: 89%
 
 ---
 
 # モバイルアプリプッシュ通知チャネルの設定 {#push-notification-configuration}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、**&#x200B;権限、プッシュ資格情報、チャネル設定、アプリとAdobe Experience Platform Mobile SDKの統合など、Adobe Journey Optimizerでモバイルアプリのプッシュ通知チャネルを設定する方法について説明します。
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] では、ジャーニーを作成し、ターゲットとなるオーディエンスにメッセージを送信できます。 [!DNL Journey Optimizer] でプッシュ通知の送信を開始する前に、モバイルアプリと Adobe Experience Platform のタグで設定と統合が行われていることを確認する必要があります。 [!DNL Adobe Journey Optimizer] でのプッシュ通知のデータフローについては、[このページ](push-gs.md)を参照してください。
 
@@ -114,7 +120,7 @@ ou need to your have access to perform following roles :
 
    >[!NOTE]
    >
-   >ユーザーがこれまでに Admin Console で作成されていない場合は、[ユーザーの追加に関するドキュメント](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users)を参照してください。
+   >Admin Console でユーザーをまだ作成していない場合は、[ユーザーの追加に関するドキュメント](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users)を参照してください。
 
    ![](assets/push_product_7.png)
 
@@ -182,7 +188,7 @@ To enable **Web push notifications**, ensure that the [pushNotifications propert
 
          >[!NOTE]
          >
-         > .p8 Apple プッシュ通知キーのみがサポートされています。 .p8 キーの制限に達した場合は、別の Apple 開発者アカウントを使用します。
+         > .p8 Apple プッシュ通知キーのみがサポートされています。.p8 キーの制限に達した場合は、別のApple Developer アカウントを使用します。
          >Apple キー制限について詳しくは、[Apple 開発者向けドキュメント](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns)を参照してください。
 
 

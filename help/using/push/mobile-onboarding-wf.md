@@ -24,14 +24,20 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
 subfeature_v2:
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
 workflow-type: tm+mt
-source-wordcount: 369
-ht-degree: 98%
+source-wordcount: 401
+ht-degree: 90%
 
 ---
 
 # モバイルオンボーディングのクイックスタートワークフロー {#mobile-wf}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** モバイルオンボーディングクイックスタートワークフローを使用して、Adobe Experience Platform Mobile SDKをすばやく設定し、モバイルイベントデータを収集および検証し、プッシュ通知を送信する方法を説明します。
+
+>[!ENDSHADEBOX]
 
 新しい&#x200B;**モバイルオンボーディングのクイックスタートワークフロー**&#x200B;は、Adobe Experience Platform Mobile SDK を迅速に設定し、モバイルイベント データの収集と検証を開始し、[!DNL Journey Optimizer] でプッシュ通知を送信するための新しい製品機能です。
 

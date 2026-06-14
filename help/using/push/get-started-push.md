@@ -23,14 +23,20 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
 workflow-type: tm+mt
-source-wordcount: 367
-ht-degree: 100%
+source-wordcount: 392
+ht-degree: 93%
 
 ---
 
 # プッシュ通知の基本を学ぶ {#gs-push-notification}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** Adobe Journey Optimizerでのプッシュ通知の使用を開始して、ジャーニーやキャンペーンを通じてモバイルアプリのユーザーやweb訪問者にリーチします。
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >

@@ -22,14 +22,20 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 675606750af67b398f18646dddf901778625fb30
+source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
 workflow-type: tm+mt
-source-wordcount: 1066
-ht-degree: 66%
+source-wordcount: 1094
+ht-degree: 64%
 
 ---
 
 # プッシュ通知の作成 {#create-push-notification}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、モバイルおよびweb向けのジャーニーまたはキャンペーン内でプッシュ通知を作成する方法について説明します。これには、高速配信モードを使用した大量送信の方法も含まれます。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_push"

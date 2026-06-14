@@ -24,14 +24,20 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
 workflow-type: tm+mt
-source-wordcount: 1137
-ht-degree: 77%
+source-wordcount: 1164
+ht-degree: 75%
 
 ---
 
 # Web プッシュ通知チャネルの設定 {#push-notification-configuration}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;権限、データセット、プッシュ資格情報、チャネル設定、設定のテストなど、Adobe Journey Optimizerでweb プッシュ通知チャネルを設定する方法について説明します。
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] では、ジャーニーを作成し、ターゲットとなるオーディエンスにメッセージを送信できます。 [!DNL Journey Optimizer]でWeb プッシュ通知を送信する前に、Adobe Experience Platformで設定と統合が適切に行われていることを確認する必要があります。 [!DNL Adobe Journey Optimizer] でのプッシュ通知のデータフローについては、[このページ](push-gs.md)を参照してください。
 
@@ -112,7 +118,7 @@ ou need to your have access to perform following roles :
 
    >[!NOTE]
    >
-   >ユーザーがこれまでに Admin Console で作成されていない場合は、[ユーザーの追加に関するドキュメント](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users)を参照してください。
+   >Admin Console でユーザーをまだ作成していない場合は、[ユーザーの追加に関するドキュメント](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users)を参照してください。
 
    ![](assets/push_product_7.png)
 
