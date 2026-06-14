@@ -22,14 +22,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 418
-ht-degree: 69%
+source-wordcount: 456
+ht-degree: 63%
 
 ---
 
 # モバイル設定の基本を学ぶ {#sms-configuration}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、** Sinch、Twilio、Infobipなどのプロバイダーを統合し、Webhookを作成し、モバイル設定を設定することで、SMS、MMS、RCS メッセージを送信するようにAdobe Journey Optimizer環境を設定する方法について説明します。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_header"

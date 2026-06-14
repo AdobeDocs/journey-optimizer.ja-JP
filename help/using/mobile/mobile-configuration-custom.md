@@ -24,14 +24,20 @@ topic_v2:
 subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: cf1c53fc42cbe0eb019b1733091c5f22021767bb
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 1050
-ht-degree: 78%
+source-wordcount: 1086
+ht-degree: 75%
 
 ---
 
 # カスタムプロバイダーの設定 {#sms-configuration-custom}
+
+>[!BEGINSHADEBOX]
+
+**このページでは：** API資格情報を作成し、認証方法を選択し、SMSおよびRCS メッセージを送信するためのヘッダー、ペイロード、インバウンド設定を設定することで、Adobe Journey Optimizerでカスタムメッセージプロバイダーを統合する方法について説明します。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_sms_api_byop_provider_url"

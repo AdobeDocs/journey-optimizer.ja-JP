@@ -24,14 +24,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 545
-ht-degree: 97%
+source-wordcount: 576
+ht-degree: 92%
 
 ---
 
 # SMS コスト最適化のベストプラクティス {#sms-cost-optimization}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** メッセージを短く保ち、特殊文字とUCS-2 エンコーディングを避け、送信前に文字数を確認することで、Adobe Journey OptimizerでSMS コストを削減するためのベストプラクティスを説明します。
+
+>[!ENDSHADEBOX]
 
 SMS メッセージは通常、メッセージあたり 160 文字の制限に基づいてプロバイダーにより課金されます。 メッセージが複数の部分に分割されている場合、SMS メッセージの送信には追加コストが発生することがあります。
 

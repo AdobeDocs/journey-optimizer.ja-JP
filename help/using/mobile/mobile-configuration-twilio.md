@@ -21,14 +21,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 607
-ht-degree: 78%
+source-wordcount: 640
+ht-degree: 74%
 
 ---
 
 # Twilio プロバイダーの設定 {#sms-configuration-twilio}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、SMS、MMS、RCS メッセージ用のAPI資格情報を作成して、TwilioとAdobe Journey Optimizerを統合し、ジャーニーやキャンペーンでモバイルメッセージを配信する方法を説明します。
+
+>[!ENDSHADEBOX]
 
 TwilioとAdobe Journey Optimizerを統合することで、ジャーニーやキャンペーンの一環としてモバイルメッセージをプロファイルに配信できます。
 

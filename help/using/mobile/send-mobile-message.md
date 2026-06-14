@@ -26,14 +26,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 534
-ht-degree: 54%
+source-wordcount: 562
+ht-degree: 51%
 
 ---
 
 # モバイルメッセージの確認と送信 {#send-sms}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、Adobe Journey Optimizerでモバイルメッセージをプレビュー、検証、および送信する方法について説明します。これには、文字エンコーディングの確認や、配信前のアラートの制限や解決が含まれます。
+
+>[!ENDSHADEBOX]
 
 ## モバイルメッセージのプレビュー {#preview-sms}
 

@@ -23,14 +23,20 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 1007
-ht-degree: 68%
+source-wordcount: 1034
+ht-degree: 66%
 
 ---
 
 # Sinch プロバイダーの設定 {#sms-configuration-sinch}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、** SMS、MMS、RCS メッセージ用に個別のAPI資格情報を設定して、Adobe Journey OptimizerでSinchをプロバイダーとして設定する方法について説明します。
+
+>[!ENDSHADEBOX]
 
 Journey Optimizer で Sinch プロバイダーを使用する場合は、次の 3 つの異なるオプションがあります。
 

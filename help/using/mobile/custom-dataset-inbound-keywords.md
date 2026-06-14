@@ -12,14 +12,20 @@ subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
   - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 07322bd265647528f8e2e4a5f39d7806fd03b565
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 517
-ht-degree: 16%
+source-wordcount: 553
+ht-degree: 15%
 
 ---
 
 # インバウンドキーワードにカスタムデータセットを使用する {#custom-dataset-inbound-keywords}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、** Adobe Experience Platform スキーマとデータセットを作成し、Adobe Journey Optimizer SMS API資格情報で参照することで、インバウンド SMS キーワードをプロファイル対応カスタムデータセットに保存する方法について説明します。
+
+>[!ENDSHADEBOX]
 
 インバウンド SMS キーワードは、プロファイル対応のカスタムデータセットに保存できます。 この設定は、Adobe Experience Platform スキーマ、そのスキーマから作成されたデータセット、インバウンドメッセージのデータセットを参照するJourney Optimizer SMS API資格情報で構成されます。
 

@@ -26,14 +26,20 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 1036
-ht-degree: 94%
+source-wordcount: 1072
+ht-degree: 91%
 
 ---
 
 # SMS サブドメインの設定 {#sms-mms-subdomains}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、**&#x200B;既存のデリゲート サブドメインを使用するか、DNS レコードを使用して新しいサブドメインを設定することで、Adobe Journey OptimizerでSMS サブドメインを設定してメッセージのURLを短縮する方法を説明します。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_sms_header"

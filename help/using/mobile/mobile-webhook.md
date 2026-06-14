@@ -12,14 +12,20 @@ feature_v2:
 subfeature_v2:
   - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 07322bd265647528f8e2e4a5f39d7806fd03b565
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 2801
+source-wordcount: 2835
 ht-degree: 9%
 
 ---
 
 # Webhook の作成 {#webhook}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、Adobe Journey Optimizerでインバウンドおよびフィードバック SMS Webhookを作成して、Sinch、Infobip、カスタムプロバイダーのオプトインおよびオプトアウトの同意応答と配信イベントをキャプチャする方法について説明します。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_channels_sms_webhook_settings_create"

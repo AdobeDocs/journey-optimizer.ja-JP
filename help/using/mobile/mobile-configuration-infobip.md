@@ -22,14 +22,20 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
-source-wordcount: 769
-ht-degree: 81%
+source-wordcount: 801
+ht-degree: 77%
 
 ---
 
 # Infobip プロバイダーの設定 {#sms-configuration-infobip}
+
+>[!BEGINSHADEBOX]
+
+**このページでは：** SMS API資格情報を設定して、Adobe Journey OptimizerでプロバイダーとしてInfobipを設定する方法と、カスタムプロバイダー統合を通じてRCS メッセージを有効にする方法について説明します。
+
+>[!ENDSHADEBOX]
 
 InfobipとAdobe Journey Optimizerを統合することで、ジャーニーやキャンペーンの一環として、プロファイルにモバイルメッセージを配信できます。
 
