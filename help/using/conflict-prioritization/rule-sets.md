@@ -10,12 +10,20 @@ level: Intermediate
 keywords: メッセージ, 頻度, ルール, プレッシャー
 exl-id: 07f5f0b4-417e-408e-8d9e-86615c8a3fbf
 TQID: https://experienceleague.adobe.com/lGYAilnXh7r01VhcdRj-lGArRw7OK3gg2npwBKY5VWw
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: fd59660e-de8a-4bfb-85dc-7fa546030c49
-subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
+subfeature_v2:
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+  - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
 source-wordcount: 1095
