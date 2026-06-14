@@ -9,30 +9,26 @@ role: User
 level: Intermediate
 exl-id: e73cdca9-3e83-4642-a2bb-d5453afa77fe
 TQID: https://experienceleague.adobe.com/CLklJ8KR1LXAke4v5J0kjjQQSfyIRoJnl6gHQUaY8PQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a9f73820-6899-47c2-a597-3fec28ab756a
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-subfeature_v2:
-  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
-  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
-  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 796
-ht-degree: 100%
+source-wordcount: 824
+ht-degree: 96%
 
 ---
 
 # ランディングページのレポート {#lp-report-global-cja}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** Customer Journey Analyticsを使用して、Adobe Journey Optimizerのランディングページのパフォーマンスを分析します。これには、ジャーニー、キャンペーン、チャネル別のコンバージョン率と直帰率、ビュー、トラフィックが含まれます。
+
+>[!ENDSHADEBOX]
 
 **ランディングページ**&#x200B;のレポートでは、ユーザーの行動、エンゲージメントパターン、コンバージョン率、その他の主要指標に関する貴重なインサイトが提供され、情報に基づいた意思決定を行い、ランディングページのパフォーマンスを効果的に最適化できます。
 
