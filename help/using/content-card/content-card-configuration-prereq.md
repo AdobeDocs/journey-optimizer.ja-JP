@@ -12,21 +12,27 @@ subfeature_v2:
   - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
 workflow-type: tm+mt
-source-wordcount: 361
-ht-degree: 98%
+source-wordcount: 338
+ht-degree: 89%
 
 ---
 
 # コンテンツカードの前提条件 {#content-card-configuration-prereq}
 
+>[!BEGINSHADEBOX]
+
+**このページ：** Adobe Journey Optimizerがコンテンツカードを正しく配信してレポートを作成できるように、必要なAdobe Experience Platform設定を行います。
+
+>[!ENDSHADEBOX]
+
 Adobe Journey Optimizer でコンテンツカードを正しく表示するには、次の Adobe Experience Platform を設定する必要があります。
 
 * **Adobe Experience Platform のデータ収集**
 
-  [データストリームを作成](https://experienceleague.adobe.com/ja/docs/experience-platform/datastreams/configure){target="_blank"}し、[Experience Platform サービスを追加](https://experienceleague.adobe.com/ja/docs/experience-platform/datastreams/configure#aep){target="_blank"}します。 「**[!UICONTROL Edge のセグメント化]**」オプションと「**[!UICONTROL Adobe Journey Optimizer]**」オプションを有効にします。 これにより、Journey Optimizer イベントが Adobe Experience Platform Edge Network で正しく処理されます。
-「**エクスペリエンスイベント - 提案インタラクション**」フィールドグループをデータセットに追加して、このデータをレポートに含めます。 [詳しくは、データストリームを参照してください](https://experienceleague.adobe.com/ja/docs/experience-platform/datastreams/configure){target="_blank"}
+  [&#x200B; データストリームを作成](https://experienceleague.adobe.com/ja/docs/experience-platform/datastreams/configure){target="_blank"}し、[Experience Platform サービスを追加](https://experienceleague.adobe.com/ja/docs/experience-platform/datastreams/configure#aep){target="_blank"}します。**[!UICONTROL Edge セグメント化]**&#x200B;および&#x200B;**[!UICONTROL Adobe Journey Optimizer]** オプションを有効にします。これにより、Journey Optimizer イベントがAdobe Experience Platform Edge Networkによって処理されるようになります。
+データセットに&#x200B;**エクスペリエンスイベント – 提案インタラクション** フィールドグループを追加して、このデータをレポートに含めます。[&#x200B; データストリームの詳細](https://experienceleague.adobe.com/ja/docs/experience-platform/datastreams/configure){target="_blank"}
 
 * **Adobe Experience Platform**
 

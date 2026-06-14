@@ -22,14 +22,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
 workflow-type: tm+mt
-source-wordcount: 509
-ht-degree: 100%
+source-wordcount: 543
+ht-degree: 93%
 
 ---
 
 # Web SDK でのコンテンツカードのサポート設定 {#content-card-configuration-sdk}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** Adobe Experience Platform Web SDKでコンテンツカードを取得およびレンダリングするサンプルを設定して実行し、web ページでクライアント側のパーソナライズされたコンテンツを配信できるようにします。
+
+>[!ENDSHADEBOX]
 
 このサンプルでは、Adobe Experience Platform を使用して Adobe Journey Optimizer（AJO）からコンテンツカードを取得する方法を示します。 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/ja/docs/experience-platform/web-sdk/home) を活用すると、パーソナリゼーションコンテンツが取得され、完全にクライアントサイドでレンダリングされます。
 

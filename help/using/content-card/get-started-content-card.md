@@ -22,14 +22,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 220cd161bdc125459ccf17fb7414ba4b4c6360bb
 workflow-type: tm+mt
-source-wordcount: 168
-ht-degree: 100%
+source-wordcount: 196
+ht-degree: 85%
 
 ---
 
 # コンテンツカードの基本を学ぶ {#get-started-content-card}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** コンテンツカードは、モバイルアプリやweb サイト内で、パーソナライズされた邪魔にならないメッセージを直接配信し、ユーザーの行動を妨げることなく、コンテキストに沿ってユーザーを惹きつけます。
+
+>[!ENDSHADEBOX]
 
 コンテンツカードは、Adobe Journey Optimizer の新しいデジタルメッセージ機能で、パーソナライズされた魅力的なコンテンツをモバイルアプリや web サイト内で直接配信します。 従来のプッシュ通知とは異なり、コンテンツカードはユーザーインターフェイスにシームレスに統合され、ユーザーのインタラクションとエクスペリエンスを向上させる、永続的で非割り込み型の更新を提供します。
 

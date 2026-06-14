@@ -11,14 +11,20 @@ feature_v2:
 subfeature_v2:
   - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
 workflow-type: tm+mt
-source-wordcount: 643
-ht-degree: 78%
+source-wordcount: 671
+ht-degree: 74%
 
 ---
 
 # コンテンツカードコンテンツのデザイン {#design-content-card}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** コンテンツカードのレイアウト、テキスト、メディア、ボタン、および却下の動作をデザインおよびパーソナライズして、オーディエンスに魅力的でブランドに即したメッセージを配信できるようにします。
+
+>[!ENDSHADEBOX]
 
 カードのオーサリング構造は、開発者がレンダリングできる基本入力をマーケターに提供するフォームベースのオーサリングエクスペリエンスを提供します。
 

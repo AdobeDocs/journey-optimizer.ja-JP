@@ -11,14 +11,20 @@ feature_v2:
 subfeature_v2:
   - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
 workflow-type: tm+mt
-source-wordcount: 480
-ht-degree: 100%
+source-wordcount: 504
+ht-degree: 95%
 
 ---
 
 # コンテンツカードレポート {#content-card-report}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** ディスプレイ、クリック、追跡リンクなどのコンテンツカード指標を分析して、エンゲージメントを測定し、キャンペーンの効果を向上させることができます。
+
+>[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 
