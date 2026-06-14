@@ -7,12 +7,23 @@ role: User
 level: Beginner
 exl-id: 7961dc5c-7918-4ae3-8361-0ed4bc4f145b
 TQID: https://experienceleague.adobe.com/Zpz0yKyYrpflNhiGCIYQPELCCFp7A4CkbrJphwxuz70
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
-subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: a9f73820-6899-47c2-a597-3fec28ab756a
+  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+subfeature_v2:
+  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
+  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
+  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
 source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
 source-wordcount: 526

@@ -9,12 +9,24 @@ role: User
 level: Intermediate
 exl-id: 0855ca5b-c7af-41c4-ad51-bed820ae5ecf
 TQID: https://experienceleague.adobe.com/W7M7wDP69oM-fT5nbS2YqVIK9QhBgJhNGy-G0ontmQ4
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: a9f73820-6899-47c2-a597-3fec28ab756a
+  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2:
+  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
+  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
+  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
 source-wordcount: 3161
@@ -36,7 +48,7 @@ ht-degree: 46%
 
 Adobe Journey Optimizerには、次の2種類のアラートが用意されています。
 
-* **キャンバス内の検証アラート**：ジャーニーとキャンペーンを構築する場合、キャンバスの&#x200B;**アラート** ボタンを使用して、公開前に設定エラーを特定および解決します。 ジャーニーを[ トラブルシューティングし](../building-journeys/troubleshooting.md) キャンペーンを確認する方法について説明します。[ アクションキャンペーン ](../campaigns/review-activate-campaign.md) | [API トリガーキャンペーン ](../campaigns/review-activate-api-triggered-campaign.md) | [ オーケストレーションされたキャンペーン ](../orchestrated/start-monitor-campaigns.md)。
+* **キャンバス内の検証アラート**：ジャーニーとキャンペーンを構築する場合、キャンバスの&#x200B;**アラート** ボタンを使用して、公開前に設定エラーを特定および解決します。 ジャーニーを[&#x200B; トラブルシューティングし](../building-journeys/troubleshooting.md) キャンペーンを確認する方法について説明します。[&#x200B; アクションキャンペーン &#x200B;](../campaigns/review-activate-campaign.md) | [API トリガーキャンペーン &#x200B;](../campaigns/review-activate-api-triggered-campaign.md) | [&#x200B; オーケストレーションされたキャンペーン &#x200B;](../orchestrated/start-monitor-campaigns.md)。
 
 * **システム監視アラート** （このページで詳しく説明）：運用上のしきい値を超えた場合、またはライブジャーニーとチャネル設定で問題が検出された場合、および重要なキャンペーンライフサイクルイベント（アクティベーション、配信、停止、および関連するエラー）が発生した場合に、プロアクティブな通知を受け取ります。 システムアラートは、キャンペーンイベントに加えて、エラー率、プロファイルの破棄、メール配信品質の問題などの指標を監視します。
 
@@ -53,7 +65,7 @@ Adobe Journey Optimizerには、次の2種類のアラートが用意されて�
 
 アラートを操作する前に：
 
-* **権限**：アラートを表示および管理するには、特定の権限が必要です。 Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html#permissions){target="_blank"}の[必要な権限を参照してください。
+* **権限**：アラートを表示および管理するには、特定の権限が必要です。 Adobe Experience Platform[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html#permissions){target="_blank"}の必要な権限を参照してください。
 
 * **サンドボックス認知度**：アラートサブスクリプションはサンドボックス固有です。 アラートを購読すると、現在のサンドボックスにのみ適用されます。 サンドボックスがリセットされると、すべてのアラート購読もリセットされます。
 
@@ -96,7 +108,7 @@ Journey Optimizerには、ジャーニー、キャンペーン、チャネル設
 
 ➡️ [読み取りオーディエンスの設定](../building-journeys/read-audience.md)
 
-➡️ [ オーディエンスを定義して使用](../audience/about-audiences.md)
+➡️ [&#x200B; オーディエンスを定義して使用](../audience/about-audiences.md)
 
 +++
 
@@ -114,9 +126,9 @@ Journey Optimizerには、ジャーニー、キャンペーン、チャネル設
 * プロファイルに ID が設定されていないか、オーディエンスを読み取りジャーニーで使用される名前空間がそのプロファイルで使用されていません。 これを解決するには、ジャーニーの名前空間がプロファイルで使用される ID 名前空間と一致していることを確認します。
 * イベントのスループット率を超えています。 これを解決するには、システムに到達するイベントがこれらの制限を超えていないことを確認します。
 
-➡️ [ ジャーニーの問題のトラブルシューティング ](../building-journeys/troubleshooting.md)
+➡️ [&#x200B; ジャーニーの問題のトラブルシューティング &#x200B;](../building-journeys/troubleshooting.md)
 
-➡️ [ カスタムアラートしきい値を定義](#custom-threshold)
+➡️ [&#x200B; カスタムアラートしきい値を定義](#custom-threshold)
 
 +++
 
@@ -139,13 +151,13 @@ Journey Optimizerには、ジャーニー、キャンペーン、チャネル設
 * カスタムアクション接続チェッカー経由でエンドポイントに到達可能で、カスタムアクションがリーチできることを確認します。
 * 認証資格照明を確認し、インターネット接続などを調べます
 
-➡️ [ テストモードでの検証](../building-journeys/testing-the-journey.md)
+➡️ [&#x200B; テストモードでの検証](../building-journeys/testing-the-journey.md)
 
-➡️ [ ジャーニーライブレポートの調査](../reports/journey-live-report.md)
+➡️ [&#x200B; ジャーニーライブレポートの調査](../reports/journey-live-report.md)
 
-➡️ [ カスタムアクションの設定](../action/about-custom-action-configuration.md)
+➡️ [&#x200B; カスタムアクションの設定](../action/about-custom-action-configuration.md)
 
-➡️ [ カスタムアラートしきい値を定義](#custom-threshold)
+➡️ [&#x200B; カスタムアラートしきい値を定義](#custom-threshold)
 
 +++
 
@@ -157,11 +169,11 @@ Journey Optimizerには、ジャーニー、キャンペーン、チャネル設
 
 プロファイルエラーのトラブルシューティングを行うには、ステップイベントのデータのクエリを実行して、プロファイルがジャーニーで失敗した場所と理由を理解します。
 
-➡️ [ ジャーニーステップイベントの操作](../reports/journey-step-events-overview.md)
+➡️ [&#x200B; ジャーニーステップイベントの操作](../reports/journey-step-events-overview.md)
 
-➡️ [ ジャーニーライブレポートの調査](../reports/journey-live-report.md)
+➡️ [&#x200B; ジャーニーライブレポートの調査](../reports/journey-live-report.md)
 
-➡️ [ カスタムアラートしきい値を定義](#custom-threshold)
+➡️ [&#x200B; カスタムアラートしきい値を定義](#custom-threshold)
 
 +++
 
@@ -171,9 +183,9 @@ Journey Optimizerには、ジャーニー、キャンペーン、チャネル設
 
 これは、組織のジャーニーライフサイクルイベントを追跡するのに役立つ情報アラートです。 これは 1 回限りの通知なので、解決条件はありません。
 
-➡️ [ ジャーニーを公開](../building-journeys/publish-journey.md)
+➡️ [&#x200B; ジャーニーを公開](../building-journeys/publish-journey.md)
 
-➡️ [ テストモードでの検証](../building-journeys/testing-the-journey.md)
+➡️ [&#x200B; テストモードでの検証](../building-journeys/testing-the-journey.md)
 
 +++
 
@@ -183,7 +195,7 @@ Journey Optimizerには、ジャーニー、キャンペーン、チャネル設
 
 これは、ジャーニーの完了を追跡するのに役立つ情報アラートです。 これは 1 回限りの通知なので、解決条件はありません。
 
-➡️ [ ジャーニーがいつ終了したかを理解する](../building-journeys/end-journey.md#journey-finished-definition)
+➡️ [&#x200B; ジャーニーがいつ終了したかを理解する](../building-journeys/end-journey.md#journey-finished-definition)
 
 +++
 
@@ -203,7 +215,7 @@ Journey Optimizerには、ジャーニー、キャンペーン、チャネル設
 * API 呼び出しの量が予想よりも多いかどうかを確認し、ジャーニーのデザインやキャップの設定の調整を考慮します。
 * 外部エンドポイントを監視して、想定される負荷を処理できることを確認します。
 
-➡️ [ カスタムアクションの上限を設定](../action/about-custom-action-configuration.md#custom-action-enhancements-best-practices)
+➡️ [&#x200B; カスタムアクションの上限を設定](../action/about-custom-action-configuration.md#custom-action-enhancements-best-practices)
 
 +++
 
@@ -215,7 +227,7 @@ Journey Optimizerには、ジャーニー、キャンペーン、チャネル設
 
 キャンペーンが&#x200B;**アクティブ化**&#x200B;され、正常に公開/アクティブ化が完了したことを通知します。
 
-➡️ [ アクションキャンペーンのレビューとアクティブ化](../campaigns/review-activate-campaign.md)
+➡️ [&#x200B; アクションキャンペーンのレビューとアクティブ化](../campaigns/review-activate-campaign.md)
 
 ➡️ [API トリガーキャンペーンのレビューとアクティブ化](../campaigns/review-activate-api-triggered-campaign.md)
 
@@ -225,7 +237,7 @@ Journey Optimizerには、ジャーニー、キャンペーン、チャネル設
 
 キャンペーン **の** アクティベーション **が失敗**&#x200B;したときに通知します。 このアラートを使用して、設定や技術的な問題を早期に検出し、顧客に影響が及ぶ前にキャンペーンを再試行または修正します。
 
-➡️ [ アクションキャンペーンのレビューとアクティブ化](../campaigns/review-activate-campaign.md)
+➡️ [&#x200B; アクションキャンペーンのレビューとアクティブ化](../campaigns/review-activate-campaign.md)
 
 ➡️ [API トリガーキャンペーンのレビューとアクティブ化](../campaigns/review-activate-api-triggered-campaign.md)
 
@@ -237,9 +249,9 @@ Journey Optimizerには、ジャーニー、キャンペーン、チャネル設
 
 キャンペーンが正常に&#x200B;**停止**&#x200B;された場合（手動停止後やワークフローに従って実行が完了した場合など）に通知されます。
 
-➡️ [ キャンペーンの状態を理解](../campaigns/manage-campaigns.md#statuses)
+➡️ [&#x200B; キャンペーンの状態を理解](../campaigns/manage-campaigns.md#statuses)
 
-➡️ [ アクションキャンペーンを停止](../campaigns/manage-campaigns.md#stop)
+➡️ [&#x200B; アクションキャンペーンを停止](../campaigns/manage-campaigns.md#stop)
 
 +++
 
@@ -247,11 +259,11 @@ Journey Optimizerには、ジャーニー、キャンペーン、チャネル設
 
 **停止**&#x200B;操作&#x200B;**が失敗したときに通知します**。 再試行する前に、キャンペーンの状態とUIに表示されるエラーを調査します。
 
-➡️ [ キャンペーンの状態を理解](../campaigns/manage-campaigns.md#statuses)
+➡️ [&#x200B; キャンペーンの状態を理解](../campaigns/manage-campaigns.md#statuses)
 
-➡️ [ エラーインジケーターの解釈](../campaigns/manage-campaigns.md#error-indicators)
+➡️ [&#x200B; エラーインジケーターの解釈](../campaigns/manage-campaigns.md#error-indicators)
 
-➡️ [ アクションキャンペーンを停止](../campaigns/manage-campaigns.md#stop)
+➡️ [&#x200B; アクションキャンペーンを停止](../campaigns/manage-campaigns.md#stop)
 
 +++
 
@@ -259,9 +271,9 @@ Journey Optimizerには、ジャーニー、キャンペーン、チャネル設
 
 キャンペーンの&#x200B;**メッセージ配信**&#x200B;が&#x200B;**開始** （実行が配信フェーズに移行）になったときに通知します。
 
-➡️ [ キャンペーンレポートの確認（CJA） ](../reports/campaign-global-report-cja.md)
+➡️ [&#x200B; キャンペーンレポートの確認（CJA） &#x200B;](../reports/campaign-global-report-cja.md)
 
-➡️ [ キャンペーンの管理](../campaigns/manage-campaigns.md)
+➡️ [&#x200B; キャンペーンの管理](../campaigns/manage-campaigns.md)
 
 +++
 
@@ -269,9 +281,9 @@ Journey Optimizerには、ジャーニー、キャンペーン、チャネル設
 
 キャンペーンの&#x200B;**メッセージ配信**&#x200B;が&#x200B;**完了**&#x200B;したことを通知します。
 
-➡️ [ キャンペーンレポートの確認（CJA） ](../reports/campaign-global-report-cja.md)
+➡️ [&#x200B; キャンペーンレポートの確認（CJA） &#x200B;](../reports/campaign-global-report-cja.md)
 
-➡️ [ キャンペーンの管理](../campaigns/manage-campaigns.md)
+➡️ [&#x200B; キャンペーンの管理](../campaigns/manage-campaigns.md)
 
 +++
 
@@ -279,11 +291,11 @@ Journey Optimizerには、ジャーニー、キャンペーン、チャネル設
 
 キャンペーン **の** メッセージ配信&#x200B;**が失敗**&#x200B;したときに通知します。 キャンペーンレポート、実行ログ、チャネル設定を確認し、トラブルシューティングを実施します。
 
-➡️ [ キャンペーンレポートの確認（CJA） ](../reports/campaign-global-report-cja.md)
+➡️ [&#x200B; キャンペーンレポートの確認（CJA） &#x200B;](../reports/campaign-global-report-cja.md)
 
-➡️ [ エラーインジケーターの解釈](../campaigns/manage-campaigns.md#error-indicators)
+➡️ [&#x200B; エラーインジケーターの解釈](../campaigns/manage-campaigns.md#error-indicators)
 
-➡️ [ チャネル配信の設定](../configuration/channel-surfaces.md)
+➡️ [&#x200B; チャネル配信の設定](../configuration/channel-surfaces.md)
 
 +++
 
@@ -368,7 +380,7 @@ Journey Optimizerには、ジャーニー、キャンペーン、チャネル設
 
 >[!IMPORTANT]
 >
->このアラートは、[ カスタムサブドメイン ](../configuration/delegate-custom-subdomain.md)のデリゲーション タイプを使用するチャネル設定にのみ適用されます。
+>このアラートは、[&#x200B; カスタムサブドメイン &#x200B;](../configuration/delegate-custom-subdomain.md)のデリゲーション タイプを使用するチャネル設定にのみ適用されます。
 
 このアラートは、カスタム委任サブドメイン上のリソースまたはトラッキングドメイン証明書が30日以内に期限切れになっているか、すでに期限切れになっている場合に通知します。 有効な証明書がない場合、電子メールの配信品質とリンク追跡が中断される可能性があります。
 
@@ -378,7 +390,7 @@ Journey Optimizerには、ジャーニー、キャンペーン、チャネル設
 
 このアラートがトリガーされた場合は、次の手順に従って問題を調査し、解決します。
 
-1. アラートをクリックして、影響を受ける[ サブドメイン ](../configuration/delegate-subdomain.md)を[!DNL Journey Optimizer]で開きます。
+1. アラートをクリックして、影響を受ける[&#x200B; サブドメイン &#x200B;](../configuration/delegate-subdomain.md)を[!DNL Journey Optimizer]で開きます。
 
 1. 詳細を確認して、証明書の更新が必要かどうかを確認します。
 
@@ -394,7 +406,7 @@ Journey Optimizerには、ジャーニー、キャンペーン、チャネル設
 
 >[!NOTE]
 >
->他のAdobe Experience Platform サービスからのアラート（データ収集、ID解決、セグメント化など）については、[標準アラートルールのドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"}を参照してください。
+>他のAdobe Experience Platform サービスからのアラート（データ収集、ID解決、セグメント化など）については、[標準アラートルールのドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"}を参照してください。
 
 ## アラートの配信を登録 {#subscribe-alerts}
 
@@ -455,7 +467,7 @@ Journey Optimizerには、ジャーニー、キャンペーン、チャネル設
 
 **代替サブスクリプション方法：**
 
-また、[I/O イベント通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=ja){target="_blank"}を介して購読することもできます。これにより、外部システムとの統合が可能になります。 ジャーニーアラート I/O サブスクリプション名は、該当する場合、**使用可能なアラート**&#x200B;の「[ジャーニーアラート」タブ ](#available-alerts)に記載されます。 Campaign ライフサイクルアラートは、同じPlatform サブスクリプションモデルに従います。プログラム統合については、そのドキュメントを参照してください。
+また、[I/O イベント通知](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=ja){target="_blank"}を介して購読することもできます。これにより、外部システムとの統合が可能になります。 ジャーニーアラート I/O サブスクリプション名は、該当する場合、**使用可能なアラート**&#x200B;の「[ジャーニーアラート」タブ &#x200B;](#available-alerts)に記載されます。 Campaign ライフサイクルアラートは、同じPlatform サブスクリプションモデルに従います。プログラム統合については、そのドキュメントを参照してください。
 
 >[!TAB ジャーニー固有のサブスクリプション ]
 
@@ -487,7 +499,7 @@ Journey Optimizerには、ジャーニー、キャンペーン、チャネル設
 
 >[!NOTE]
 >
->[ オーディエンストリガーの読み取りに失敗しました](#available-alerts) アラートは、ジャーニーごとのサブスクリプションではなく、グローバルサブスクリプションを通じてのみ利用できます。
+>[&#x200B; オーディエンストリガーの読み取りに失敗しました](#available-alerts) アラートは、ジャーニーごとのサブスクリプションではなく、グローバルサブスクリプションを通じてのみ利用できます。
 
 >[!ENDTABS]
 
@@ -520,7 +532,7 @@ You can combine **sandbox-level** subscription (from the Alerts **[!UICONTROL Br
 ### アラートの編集
 
 行をクリックすると、アラートの詳細を確認できます。名前、ステータス、通知チャネルが左側のパネルに表示されます。
-ジャーニーアラートの場合は、「**[!UICONTROL その他のアクション]**」ボタンを使用して編集します。その後、これらのアラートに対して[ カスタムしきい値](#custom-threshold)を定義できます。
+ジャーニーアラートの場合は、「**[!UICONTROL その他のアクション]**」ボタンを使用して編集します。その後、これらのアラートに対して[&#x200B; カスタムしきい値](#custom-threshold)を定義できます。
 
 ![](assets/alert-more-actions.png){width=60%}
 
@@ -566,15 +578,15 @@ You can combine **sandbox-level** subscription (from the Alerts **[!UICONTROL Br
 
 **ジャーニーとキャンペーンの管理：**
 
-* [ ジャーニーのトラブルシューティング ](../building-journeys/troubleshooting.md) – 一般的なジャーニーの問題とエラーを特定して解決します
-* [ ジャーニーのテストと公開](../building-journeys/publish-journey.md) – 公開前にジャーニー設定を検証する
-* [ アクションキャンペーンのレビューとアクティブ化](../campaigns/review-activate-campaign.md) - スケジュール済みのキャンペーンと1回限りのキャンペーンの公開前の検証
+* [&#x200B; ジャーニーのトラブルシューティング &#x200B;](../building-journeys/troubleshooting.md) – 一般的なジャーニーの問題とエラーを特定して解決します
+* [&#x200B; ジャーニーのテストと公開](../building-journeys/publish-journey.md) – 公開前にジャーニー設定を検証する
+* [&#x200B; アクションキャンペーンのレビューとアクティブ化](../campaigns/review-activate-campaign.md) - スケジュール済みのキャンペーンと1回限りのキャンペーンの公開前の検証
 * [API トリガーキャンペーンのレビューとアクティブ化](../campaigns/review-activate-api-triggered-campaign.md) - API トリガーキャンペーンの検証
-* [ オーケストレーションされたキャンペーンの監視](../orchestrated/start-monitor-campaigns.md) - オーケストレーションされたキャンペーンの実行の追跡と管理
+* [&#x200B; オーケストレーションされたキャンペーンの監視](../orchestrated/start-monitor-campaigns.md) - オーケストレーションされたキャンペーンの実行の追跡と管理
 
 **アラートフレームワーク：**
 
 * [Adobe Experience Platform アラートの概要](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/overview.html?lang=ja){target="_blank"} - アラート フレームワークについて
 * [UIでアラートを管理](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/ui.html?lang=ja){target="_blank"} - アラートの表示、購読、管理
 * [I/O イベントを介したアラートの購読](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/subscribe.html?lang=ja){target="_blank"} – 高度な統合オプション
-* [標準アラートルール ](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"} – 使用可能なPlatform アラートの完全リスト
+* [標準アラートルール &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/observability/alerts/rules.html){target="_blank"} – 使用可能なPlatform アラートの完全リスト

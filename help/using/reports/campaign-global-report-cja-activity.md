@@ -10,12 +10,21 @@ level: Intermediate
 hide: true
 exl-id: 58034ec4-62dc-406c-99c4-d6b7aa107140
 TQID: https://experienceleague.adobe.com/NBJkyh9TCAPxD0u3EpwaZth7-ePjEWdg2roQ7J2-RuY
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: a9f73820-6899-47c2-a597-3fec28ab756aid: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-subfeature_v2: id: d145add9-d5b9-481b-aa8a-e15e6bb7f813id: a7289281-9ae4-47b1-b8cf-4028b98af776id: b5afe8bf-bda6-41b5-ba06-922638872d63
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: a9f73820-6899-47c2-a597-3fec28ab756a
+  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
+subfeature_v2:
+  - id: d145add9-d5b9-481b-aa8a-e15e6bb7f813
+  - id: a7289281-9ae4-47b1-b8cf-4028b98af776
+  - id: b5afe8bf-bda6-41b5-ba06-922638872d63
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
 source-wordcount: 692
@@ -91,7 +100,7 @@ ht-degree: 21%
 
 マーケティングキャンペーンでは、ブロードキャストのユースケースにライブアクティビティを使用し、複数のデバイスに同時にアップデートを送信します。
 
-Marketing CampaignsのiOS Live アクティビティの場合、レポートには、開始時に&#x200B;**[!UICONTROL Remote Starts]**&#x200B;件のイベントと&#x200B;**[!UICONTROL Remote starts errors]**&#x200B;件のみが表示されます。 APNがフィードバックを提供せずにすべてのデバイスにアップデートを配信するため、**[!UICONTROL 更新]**&#x200B;および&#x200B;**[!UICONTROL 終了]**&#x200B;のイベントは追跡されません。 **[!UICONTROL 更新]**&#x200B;および&#x200B;**[!UICONTROL 終了]** イベントを表示するには、[Apple プッシュ通知コンソール ](https://developer.apple.com/notifications/push-notifications-console/)を使用します。
+Marketing CampaignsのiOS Live アクティビティの場合、レポートには、開始時に&#x200B;**[!UICONTROL Remote Starts]**&#x200B;件のイベントと&#x200B;**[!UICONTROL Remote starts errors]**&#x200B;件のみが表示されます。 APNがフィードバックを提供せずにすべてのデバイスにアップデートを配信するため、**[!UICONTROL 更新]**&#x200B;および&#x200B;**[!UICONTROL 終了]**&#x200B;のイベントは追跡されません。 **[!UICONTROL 更新]**&#x200B;および&#x200B;**[!UICONTROL 終了]** イベントを表示するには、[Apple プッシュ通知コンソール &#x200B;](https://developer.apple.com/notifications/push-notifications-console/)を使用します。
 
 +++ マーケティングキャンペーンのライブアクティビティライフサイクル指標の詳細
 
