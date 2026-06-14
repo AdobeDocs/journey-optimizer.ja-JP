@@ -10,32 +10,25 @@ level: Experienced
 keywords: ポリシー, ガバナンス, プラットフォーム, 同意, Healthcare Shield
 exl-id: a3e68015-c8f8-4b01-8171-f39d70b7e59d
 TQID: https://experienceleague.adobe.com/TPg5xSOHgXIBE4trUJiI3MoKjSGqvT1NtGI2Cg7ynFo
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fa683eda-48de-4558-af32-2673edcd44fe
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
-source-wordcount: 941
-ht-degree: 86%
+source-wordcount: 911
+ht-degree: 87%
 
 ---
 
 # 顧客の環境設定の管理 {#preference-center}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;同意ポリシーを通じて、顧客のチャネルとトピックの嗜好を記録および尊重することで、自分から情報を入手したいユーザーのみをターゲットにします。
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >
@@ -43,7 +36,7 @@ ht-degree: 86%
 
 最新のマーケティングオートメーションエコシステムでは、ブランドは様々なタッチポイントをまたいで顧客と関与しますが、無関係なコミュニケーションや過剰なコミュニケーションのリスクに直面し、非エンゲージメント、スパムの苦情、コンプライアンスリスクにつながります。 そのため、オーディエンスに関するリアルタイムのインサイトを得て、パーソナライズされた敬意のあるコミュニケーションを実現するために、顧客の環境設定を管理する必要があります。
 
-[!DNL Adobe Journey Optimizer] では、[同意ポリシー](consent.md)の使用を通じて、顧客の環境設定<!-- in terms of **channels** and **topics**-->を適用できます。 これにより、[!DNL Journey Optimizer]は顧客の同意を尊重しながら、選択に基づいてのみ顧客をターゲットにすることができます。
+[!DNL Adobe Journey Optimizer]では、[同意ポリシー](consent.md)を使用することで、顧客の好みを尊重することができます<!-- in terms of **channels** and **topics**-->。これにより、[!DNL Journey Optimizer]は顧客の同意を尊重しながら、選択に基づいてのみ顧客をターゲットにすることができます。
 <!-- their preferred channels and on the subscription topics-->
 
 [!DNL Journey Optimizer] を使用してユーザーの環境設定を管理するには、次の操作を実行します。
@@ -58,7 +51,7 @@ ht-degree: 86%
 
 >[!IMPORTANT]
 >
->同意は環境設定よりも優先されます。 例えば、お客様の1人が、お客様の好みのチャネルが電子メールであり、ニュースレターの受信に同意したことを示しました<!-- they are interested in yoga-->。ただし、お客様からのメールの受信をオプトアウトした場合、お客様が送信する電子メールニュースレターでターゲットにすることはできません。
+>同意は嗜好よりも優先される。例えば、お客様の1人が、お客様の好みのチャネルが電子メールであり、ニュースレターの受信に同意したことを示しました<!-- they are interested in yoga-->。ただし、お客様からのメールの受信をオプトアウトした場合、お客様が送信する電子メールニュースレターでターゲットにすることはできません。
 <!-- on yoga-->
 
 ## 環境設定の記録と適用 {#manage-preferences}
@@ -111,7 +104,7 @@ The corresponding profile dataset is updated as follows:
 | john.black@lumamail.com | Y | N |
 -->
 
-    >[ !メモ]
+    >[!メモ]
     >
     >受信した同意イベントは顧客プロファイルにフィードされ、リアルタイムの更新が確保されます。 各プロファイルには、購読環境設定をまたいで最新の選択が反映されます。
 
@@ -119,7 +112,7 @@ The corresponding profile dataset is updated as follows:
 
    >[!AVAILABILITY]
    >
-   >同意ポリシーは、現在、Adobe **Healthcare Shield** および&#x200B;**プライバシーとセキュリティシールド**&#x200B;アドオン機能を購入した組織でのみ利用できます。 [同意ポリシーの詳細情報](consent.md)
+   >同意ポリシーは、現在、Adobe **Healthcare Shield** および **Privacy and Security Shield** アドオン機能を購入した組織でのみ利用できます。 [同意ポリシーの詳細情報](consent.md)
 
    同意ポリシーを利用するには、プロファイルデータに環境設定属性が存在する必要があります。 そのため、これらの属性はプロファイルレベルで定義する必要があります（手順 1 で説明）。
 
@@ -135,16 +128,15 @@ Consent policies are comprised of two logical components:
 
     例えば、メールニュースレターの受信をオプトアウトしていない顧客にのみコミュニケーションを送信するには、カスタムポリシーを作成し、次の条件を定義します。
     
-    * **[!UICONTROL &#x200B; マーケティングアクション &#x200B;]**&#x200B;が&#x200B;**[!UICONTROL &#x200B; メール &#x200B;]**
+    * **[!UICONTROL  マーケティングアクション ]**が**[!UICONTROL  メール ]**
     
-    *の場合、**[!UICONTROL Newsletter_Email]**&#x200B;が存在しません&#x200B;**[!UICONTROL false]**&#x200B;または&#x200B;**[!UICONTROL Newsletter_Email]** **[!UICONTROL false]**
+    *の場合、**[!UICONTROL Newsletter_Email]**が存在しません**[!UICONTROL false]**または**[!UICONTROL Newsletter_Email]** **[!UICONTROL false]**
     
     ![] （assets/consent-policy-email-newsletter.png） {width=80%}
     
     >[!TIP]
     >
-    > プロファイル対応データセットには、値が「true」に設定されたプロファイル属性&#x200B;**[!UICONTROL Newsletter_Email]**&#x200B;を含める必要があります（手順1で説明したように） 
-
+    > プロファイル対応データセットには、値が「true」に設定されたプロファイル属性**[!UICONTROL Newsletter_Email]**を含める必要があります（手順1で説明したように） 
 。
 1. 同意ポリシーを作成したら、[チャネル設定](consent.md#surface-marketing-actions)または[ジャーニーのカスタムアクション](consent.md#journey-custom-actions)を使用して、[!DNL Journey Optimizer] で活用します。
 

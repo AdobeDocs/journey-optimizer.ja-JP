@@ -10,30 +10,25 @@ level: Experienced
 keywords: アクション, ジャーニー, メッセージ, 送信, 接続
 exl-id: 7f0cda1d-daf0-4d4c-9978-ddef81473813
 TQID: https://experienceleague.adobe.com/u-fLClLKK9cC7D2BwO5vxdW11tywPDRWzOMBtYUj5Ts
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
-  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63fid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
-source-wordcount: 365
-ht-degree: 100%
+source-wordcount: 397
+ht-degree: 91%
 
 ---
 
 # カスタムアクションの基本を学ぶ {#about_actions}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** アクションとカスタム アクションを使用して、REST API呼び出しを通じてパーソナライズされたエクスペリエンスを提供し、サードパーティシステムを接続する方法を理解します。これにより、組み込みのメッセージ以外のジャーニーを拡張できます。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_list"
@@ -66,7 +61,7 @@ ht-degree: 100%
 
 カスタムアクションの設定方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3430280?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3428396?quality=12)
 
 ## その他のリソース
 

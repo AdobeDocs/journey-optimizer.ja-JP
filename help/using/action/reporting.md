@@ -9,26 +9,26 @@ role: User
 level: Intermediate
 exl-id: 908f553a-6d2b-45e5-bdb2-eb685f5e1165
 TQID: https://experienceleague.adobe.com/LhxU-3DQ-FDIENfVtadz5nURxZideeUFE9K5MciA93w
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
 subfeature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 62bc5f833b5612570ba50c98519a2f9c07d0bd5e
 workflow-type: tm+mt
-source-wordcount: 659
-ht-degree: 64%
+source-wordcount: 689
+ht-degree: 62%
 
 ---
 
 # カスタムアクションの監視 {#reporting}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** ジャーニーからサードパーティのシステムに対するAPI呼び出しの信頼性とパフォーマンスを監視して、統合の問題、待ち時間、スロットルの制限をすばやく検出できます。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_custom_actions_monitor"
@@ -43,7 +43,7 @@ ht-degree: 64%
 
 ![](assets/monitor-1.png)
 
-➡️ [&#x200B; カスタムアクション設定の詳細](../action/about-custom-action-configuration.md)
+➡️ [ カスタムアクション設定の詳細](../action/about-custom-action-configuration.md)
 
 **[!UICONTROL カスタムアクション]**&#x200B;レポートページに加えて、**[!DNL Adobe Experience Platform Query Service]** を使用して、カスタムアクションのパフォーマンス指標に関するレポートに対してクエリを作成できます。 クエリの例について詳しくは、[この節](../reports/query-examples.md)を参照してください。
 
@@ -77,7 +77,7 @@ ht-degree: 64%
 
 ![](assets/monitor-3.png)
 
-**[!UICONTROL 通話時間]**&#x200B;のグラフは、レポート用に選択された期間のHTTP通話KPIの傾向を示しています。 時系列の精度は、選択した時間範囲に応じて異なります。 例：
+**[!UICONTROL 通話時間]**&#x200B;のグラフは、レポート用に選択された期間のHTTP通話KPIの傾向を示しています。 時系列の精度は、選択した時間範囲に応じて異なります。 次に例を示します。
 
 * 7 日間のレポートの場合、各データポイントには 1 日の KPI が表示されます。
 * 1 日間の時間範囲を選択した場合、グラフには 1 時間あたりの KPI が表示されます。
@@ -91,7 +91,7 @@ ht-degree: 64%
 
 **[!UICONTROL 時間の遅延]** グラフは、選択した期間の遅延メトリックの傾向を視覚化します。 この時系列ビューでは、パフォーマンスパターンを追跡し、ピーク時の待ち時間を特定し、時間の経過に伴う最適化やシステムの変更の影響を監視することができます。
 
-➡️[&#x200B; レイテンシ指標の説明については、「KPI」セクションを参照してください](#kpis)
+➡️[ レイテンシ指標の説明については、「KPI」セクションを参照してください](#kpis)
 
 
 ## 呼び出し分類 {#breakdown}
@@ -108,7 +108,7 @@ ht-degree: 64%
 
 **[!UICONTROL 待ち時間の内訳]** テーブルには、カスタムアクションの待ち時間の指標の詳細な内訳が表示されます。 このビューにより、パフォーマンスの問題が発生している特定のエンドポイントやアクションを特定し、遅延のボトルネックを効果的に特定して対処できます。
 
-➡️[&#x200B; レイテンシ指標の説明については、「KPI」セクションを参照してください](#kpis)
+➡️[ レイテンシ指標の説明については、「KPI」セクションを参照してください](#kpis)
 
 ## チュートリアルビデオ {#video}
 
@@ -116,6 +116,6 @@ ht-degree: 64%
 
 +++こちらのビデオをご覧ください
 
->[!VIDEO](https://video.tv.adobe.com/v/3479542?captions=jpn&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3479541?quality=12&learn=on)
 
 +++
