@@ -11,15 +11,21 @@ version: Campaign Orchestration
 feature_v2: 
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 518
-ht-degree: 23%
+source-wordcount: 547
+ht-degree: 22%
 
 ---
 
 
 # 増分クエリ {#incremental-query}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、**&#x200B;増分クエリターゲティングアクティビティを使用して、オーケストレーションされたキャンペーン実行ごとに新しいレコードのみを返す方法を説明します。以前の実行で既にターゲット化されているプロファイルは除外されます。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_incrementalquery"

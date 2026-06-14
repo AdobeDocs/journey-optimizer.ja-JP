@@ -16,14 +16,20 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 391
-ht-degree: 100%
+source-wordcount: 427
+ht-degree: 91%
 
 ---
 
 # 製品の可用性に関するユーザーへの通知 {#product-availability-uc}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;このユースケースに従って、マルチレベルの送信を使用して、保存されたウィッシュリスト項目ごとに個別のパーソナライズされたメールを、製品が再度利用可能になったときに配信するストックに戻るオーケストレーションされたキャンペーンを構築します。
+
+>[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 

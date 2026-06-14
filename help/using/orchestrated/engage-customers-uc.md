@@ -16,14 +16,20 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cd1eb9b21a3201c2a01c1781220570236977a736
 workflow-type: tm+mt
-source-wordcount: 590
-ht-degree: 98%
+source-wordcount: 625
+ht-degree: 93%
 
 ---
 
 # 参照アクティビティによる顧客との関与 {#engage-customers-uc}
+
+>[!BEGINSHADEBOX]
+
+**このページでは：** オーディエンスを読み、重複を排除し、解約リスクで分割し、パーソナライズされたフォローアップメッセージを送信することで、閲覧行動に基づいて顧客を再エンゲージする、オーケストレーションされたキャンペーンのユースケースに従います。
+
+>[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 

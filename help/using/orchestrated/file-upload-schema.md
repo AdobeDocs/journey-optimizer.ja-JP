@@ -14,14 +14,20 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 1222
-ht-degree: 86%
+source-wordcount: 1255
+ht-degree: 83%
 
 ---
 
 # DDL ファイルを使用したリレーショナルスキーマの作成 {#file-upload-schema}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、** DDL ファイルをアップロードし、テーブル間の関係を定義し、オーケストレーションされたキャンペーンで使用するためにスキーマを既存のエンティティにリンクして、Adobe Experience Platformでリレーショナルスキーマを作成する方法を説明します。
+
+>[!ENDSHADEBOX]
 
 **ロイヤルティメンバーシップ**、**ロイヤルティトランザクション**、**ロイヤルティ報酬**&#x200B;などのスキーマを作成して、調整されたキャンペーンに必要なリレーショナルデータモデルを定義します。 各スキーマには、プライマリキー、バージョン管理属性、**受信者**&#x200B;や&#x200B;**ブランド**&#x200B;などのエンティティを参照する適切な関係を含める必要があります。
 

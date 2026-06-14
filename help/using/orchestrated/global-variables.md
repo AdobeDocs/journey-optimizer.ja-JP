@@ -12,15 +12,21 @@ exl-id: 7a4e8f2c-91d3-4b65-8e10-2c9f4a6b8d1e
 feature_v2: 
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 189
+source-wordcount: 222
 ht-degree: 0%
 
 ---
 
 
 # オーケストレーションされたキャンペーンでのグローバル変数の定義 {#define-global-variables}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、オーケストレーションされたキャンペーンでグローバル変数を追加および管理する方法を説明します。これにより、ルールビルダー、テスト条件、その他のキャンバスロジックで共有名と値のペアを再利用できます。
+
+>[!ENDSHADEBOX]
 
 **グローバル変数**&#x200B;は、単一のオーケストレーションされたキャンペーンで設定した名前と値のペアで、各実行で再利用できるので、すべてのアクティビティに同じ値を貼り付けることなく、共有値（デフォルトチャネルやテストメールなど）を持つ&#x200B;**[!UICONTROL テスト]**&#x200B;条件、ルールビルダー、その他のキャンバスロジックを操作できます。
 

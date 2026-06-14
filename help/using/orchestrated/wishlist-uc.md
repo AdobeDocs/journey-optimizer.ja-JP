@@ -17,14 +17,20 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 434
-ht-degree: 98%
+source-wordcount: 462
+ht-degree: 92%
 
 ---
 
 # ウィッシュリスト項目の更新の送信 {#wishist-uc}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;このユースケースに従って、受信者がウィッシュリストに保存した製品に関するパーソナライズされたメールリマインダーを使用して、受信者に再エンゲージするオーケストレーションされたキャンペーンを構築します。
+
+>[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 

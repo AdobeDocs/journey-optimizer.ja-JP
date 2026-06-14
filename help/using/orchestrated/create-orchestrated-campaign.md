@@ -12,14 +12,20 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 1227
-ht-degree: 94%
+source-wordcount: 1261
+ht-degree: 92%
 
 ---
 
 # 調整されたキャンペーンの作成とスケジュール {#create-first-campaign}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** Adobe Journey Optimizerでオーケストレーションされたキャンペーンを作成し、すぐに、特定の日時に、または定期的に実行するための実行スケジュールを定義する方法を説明します。
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer] で調整されたキャンペーンを作成し、その実行スケジュールを設定して、キャンペーンの開始時期と実行頻度を制御します。 キャンペーンをすぐに開始するか、特定の日時に開始するか、毎日、毎週、毎月の頻度などの柔軟なスケジュールオプションを使用して繰り返し開始するかを選択します。
 

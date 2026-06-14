@@ -13,14 +13,20 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 466
-ht-degree: 85%
+source-wordcount: 497
+ht-degree: 80%
 
 ---
 
 # ターゲティングディメンションの設定 {#configuration}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、**&#x200B;関係スキーマを顧客プロファイルにマッピングして、エンティティレベルでメッセージを配信できるようにすることで、オーケストレーションされたキャンペーンのターゲティングディメンションを設定する方法について説明します。
+
+>[!ENDSHADEBOX]
 
 **[!UICONTROL オーケストレーションされたキャンペーン]**&#x200B;を使用すると、Adobe Experience Platformのリレーショナルスキーマ機能を活用して、エンティティレベルでターゲットを絞ったコミュニケーションをデザインして配信できます。 Experience Platform では、スキーマを使用して、一貫性のある再利用可能な方法でデータの構造を記述します。 データが Experience Platform に取り込まれると、XDM スキーマに応じて構造化されます。
 

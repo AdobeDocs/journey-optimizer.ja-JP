@@ -12,14 +12,20 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 937
-ht-degree: 94%
+source-wordcount: 957
+ht-degree: 92%
 
 ---
 
 # キャンペーンアクティビティの調整 {#orchestrate}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、ビジュアルキャンバスでアクティビティを追加、設定、接続して、オーケストレーションされたキャンペーンを構築する方法を説明します。
+
+>[!ENDSHADEBOX]
 
 [調整されたキャンペーンを作成](gs-campaign-creation.md)したら、実行される様々なタスクの調整を開始できます。 これを行うために、オーケストレーションキャンペーンキャンバスを構築できる視覚的なキャンバスが用意されています。 このキャンバスに様々なアクティビティを追加し、順番に接続できます。
 

@@ -12,14 +12,20 @@ feature_v2:
   - id: b3538224-471e-4c63-a444-9b19d89ae29c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: 77cddc86596959e06b20154c1e51c6b84375b39b
 workflow-type: tm+mt
-source-wordcount: 1019
-ht-degree: 100%
+source-wordcount: 1045
+ht-degree: 97%
 
 ---
 
 # 結合 {#combine}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、オーケストレーションされたキャンペーンで結合ターゲティングアクティビティを使用して、和集合、積集合、除外操作を通じてインバウンド母集団をセグメント化する方法を説明します。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_combine"

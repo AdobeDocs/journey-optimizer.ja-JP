@@ -16,14 +16,20 @@ topic_v2:
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 306
-ht-degree: 100%
+source-wordcount: 337
+ht-degree: 90%
 
 ---
 
 # 調整されたキャンペーンを作成する主な手順 {#orchestrated-campaign-creation}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** Adobe Journey Optimizerでオーケストレーションされたキャンペーンを作成および開始するための主な手順（作成、スケジュール設定、アクティビティのオーケストレーション、実行の監視、結果の分析など）を説明します。
+
+>[!ENDSHADEBOX]
 
 このページでは、設定とデザインからモニタリングとレポートまで、調整されたキャンペーンを作成して開始する基本的な手順について説明します。
 

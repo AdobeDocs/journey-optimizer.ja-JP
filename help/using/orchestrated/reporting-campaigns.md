@@ -14,14 +14,20 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 151
-ht-degree: 67%
+source-wordcount: 185
+ht-degree: 55%
 
 ---
 
 # 調整されたキャンペーンレポート {#report-campaigns}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** Adobe Journey Optimizerのオーケストレーション済みキャンペーンで利用できるライブおよびリアルタイムのレポートを確認し、電子メール、SMS、プッシュ通知、ダイレクトメールをまたいでエンゲージメントとチャネルのパフォーマンスを測定する方法について説明します。
+
+>[!ENDSHADEBOX]
 
 調整されたキャンペーンでは、堅牢なレポート機能を通じて実用的なインサイトを提供します。 これらのインサイトは、オーディエンスの行動をより深く理解し、カスタマージャーニーの各ステップのパフォーマンスを測定し、データ駆動型の決定を行って今後のキャンペーンを最適化するのに役立ちます。 詳細な指標とビジュアライゼーションにより、エンゲージメントを追跡し、ターゲティング戦略を微調整して最大限の効果を得ることができます。
 

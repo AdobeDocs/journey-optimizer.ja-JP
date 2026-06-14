@@ -15,14 +15,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 467
-ht-degree: 78%
+source-wordcount: 501
+ht-degree: 73%
 
 ---
 
 # チャネル設定の指定 {#channel-configuration}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、配信レベル、ターゲットディメンション、実行アドレスを定義して、オーケストレーションされたキャンペーン用のチャネル設定を設定する方法と、URL トラッキングパラメーターをリンクに追加する方法について説明します。
+
+>[!ENDSHADEBOX]
 
 [ターゲットディメンション](target-dimension.md)を設定したら、**[!UICONTROL チャネル設定]**&#x200B;を指定し、適切な&#x200B;**[!UICONTROL 実行の詳細]**&#x200B;を定義する必要があります。 次の項目を定義できます。
 
@@ -92,7 +98,7 @@ ht-degree: 78%
 * **`context.system.source.channel`**: チャネルの種類（電子メール、SMS、プッシュ）
 * **`context.system.IdentityNamespace`**: ID名前空間が使用されました
 
-例：
+次に例を示します。
 
 ```
 www.YourLandingURL.com?utm_source=AJO&utm_campaign={{context.system.source.id}}&utm_content={{context.system.source.actionName}}

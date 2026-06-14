@@ -13,14 +13,20 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 1912
-ht-degree: 93%
+source-wordcount: 1947
+ht-degree: 92%
 
 ---
 
 # 最初のルールの作成 {#build-query}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、** ルールビルダーを使用して、データベース属性と式から条件を追加し、論理演算子と組み合わせ、結果を検証することで、オーケストレーションされたキャンペーンのターゲットを絞ったクエリを作成する方法を説明します。
+
+>[!ENDSHADEBOX]
 
 調整されたキャンペーンのルールの作成の主な手順を次に示します。
 

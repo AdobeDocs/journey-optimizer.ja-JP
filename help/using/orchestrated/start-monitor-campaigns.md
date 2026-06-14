@@ -18,14 +18,20 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 1599
-ht-degree: 42%
+source-wordcount: 1625
+ht-degree: 41%
 
 ---
 
 # 調整されたキャンペーンの開始と監視 {#start-monitor}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、キャンペーンのライフサイクル、実行ログ、アクティビティステータスインジケーターなど、Adobe Journey Optimizerでオーケストレーションされたキャンペーンをテスト、公開、モニターする方法について説明します。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaign_publication"

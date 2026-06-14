@@ -12,14 +12,20 @@ exl-id: d1fd072d-b143-4752-822f-23f98684ba80
 feature_v2: 
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 1429
+source-wordcount: 1466
 ht-degree: 1%
 
 ---
 
 # シグナルを使用したオーケストレーションキャンペーンのトリガー {#trigger-signal}
+
+>[!BEGINSHADEBOX]
+
+**このページでは：** REST APIまたは別のキャンペーンの終了アクティビティからのシグナルを使用してオーケストレーションされたキャンペーンをトリガーする方法と、ターゲティング、条件、式の変数となるペイロードパラメーターを渡す方法について説明します。
+
+>[!ENDSHADEBOX]
 
 固定スケジュールではなくシグナルを使用して、オーケストレーションされたキャンペーンを開始できます。 キャンペーンがシグナルを受信すると、そのシグナルが実行され、ペイロードでパラメーターを渡すことができます。 ターゲティング、条件、式の変数として使用できます。
 

@@ -12,15 +12,21 @@ exl-id: 3f2a1c0d-8e9b-4a7c-b5d1-0f2e3a4b5c6d
 feature_v2: 
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 296
+source-wordcount: 325
 ht-degree: 1%
 
 ---
 
 
 # オーケストレーションされたキャンペーンでの変数の使用 {#variables-oc}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、シグナルまたはグローバル定義から変数を設定し、それらを使用してオーケストレーションされたキャンペーンでターゲティング、条件、テスト アクティビティ ロジックを促進する方法を説明します。
+
+>[!ENDSHADEBOX]
 
 ## 変数の設定方法 {#set}
 

@@ -11,14 +11,20 @@ product_v2:
 feature_v2: 
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 340
-ht-degree: 90%
+source-wordcount: 364
+ht-degree: 84%
 
 ---
 
 # ルールビルダーの操作 {#orchestrated-rule-builder}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、ルールビルダーを使用してデータをフィルタリングし、オーケストレーションされたキャンペーンのオーディエンスをターゲットとするクエリを作成する方法を説明します。
+
+>[!ENDSHADEBOX]
 
 調整されたキャンペーンには、様々な条件に基づいてデータベースをフィルタリングするプロセスを簡素化するルールビルダーが付属しています。 ルールビルダーは非常に複雑で長いクエリを効率的に管理し、柔軟性と精度を向上させます。
 

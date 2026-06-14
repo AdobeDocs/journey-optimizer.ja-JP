@@ -16,14 +16,20 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 subfeature_v2:
   - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
-source-git-commit: 18f6b23dbbe53e486e5af76ef7cc61fa1784475d
+source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
-source-wordcount: 548
-ht-degree: 81%
+source-wordcount: 576
+ht-degree: 77%
 
 ---
 
 # オーディエンスの保存 {#save-audience}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、「オーディエンスを保存」ターゲティングアクティビティを使用して、オーケストレーションされたキャンペーンで以前に構築された母集団から再利用可能なオーディエンスを作成または上書きする方法を説明します。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_orchestration_save_audience"
