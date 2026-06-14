@@ -26,14 +26,20 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 6a3cd911b8a89d83cab49eb88b05bf18616377e7
 workflow-type: tm+mt
-source-wordcount: 676
-ht-degree: 100%
+source-wordcount: 722
+ht-degree: 93%
 
 ---
 
 # [!DNL Adobe Journey Optimizer] チャネルの基本を学ぶ {#get-started-email}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** Adobe Journey Optimizerのネイティブチャネルを使用すると、アウトバウンド配信とインバウンド体験をまたいで、電子メール、SMS、プッシュ通知、ライブアクティビティ、ダイレクトメール、WhatsApp、LINE、アプリ内、web、コードベース、コンテンツカードを比較して、ジャーニーやキャンペーンで各チャネルがサポートされている場所を確認できます。
+
+>[!ENDSHADEBOX]
 
 今日の動的なマーケティング環境では、様々なプラットフォーム間で効果的にオーディエンスにリーチすることは、永続的な関係を作成し、エンゲージメントを推進するために不可欠です。 この節では、[!DNL Adobe Journey Optimizer] 内で使用可能な通信チャネルの包括的な概要について説明します。これは、マーケティング戦略で各チャネルを効果的に利用する方法を理解するのに役立ちます。
 
