@@ -8,26 +8,26 @@ level: Intermediate
 keywords: 最適化，ターゲティング，実験，組み合わせ，高度な
 exl-id: dafcb4d3-e33c-40c5-a5c6-972822a23cc0
 TQID: https://experienceleague.adobe.com/klXmy7KQLcIHm-T6BMS1RaMKrwzdCfzvK3KK6fUs7KU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 feature_v2: []
-subfeature_v2:
-  - id: f29a52db-c90c-4345-902e-b586d1406d8d
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+subfeature_v2: id: f29a52db-c90c-4345-902e-b586d1406d8d
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 306
-ht-degree: 92%
+source-wordcount: 331
+ht-degree: 85%
 
 ---
 
 # ターゲティングと実験を組み合わせ {#combination}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、1つのジャーニーまたはキャンペーン内でターゲティングと実験を組み合わせて、各ターゲティングルールに対して実験を具体的に行う方法について説明します。
+
+>[!ENDSHADEBOX]
 
 Journey Optimizer では、単一のジャーニーまたはキャンペーン内でターゲティングと実験を組み合わせて、より高度な戦略を作成することもできます。
 
@@ -37,13 +37,13 @@ Journey Optimizer では、単一のジャーニーまたはキャンペーン�
 
 ジャーニーまたはキャンペーンでターゲティングと実験の両方を組み合わせるには、次の手順に従います。
 
-1. 複数のターゲティングルールを定義するジャーニーまたはキャンペーンを作成します。 [詳細情報](optimization-targeting.md)
+1. 複数のターゲティングルールを定義するジャーニーまたはキャンペーンを作成します。 [方法についてはこちらを参照](optimization-targeting.md)
 
    ![](../campaigns/assets/msg-optimization-create-targeting.png){width=85%}
 
 1. 最初のターゲティングルールの実験を作成します。
 
-1. 必要に応じて、コンテンツ実験を設計および設定します。 [詳細情報](../content-management/content-experiment.md)
+1. 必要に応じて、コンテンツ実験を設計および設定します。 [方法についてはこちらを参照](../content-management/content-experiment.md)
 
    ![](../campaigns/assets/msg-optimization-targeting-with-experiment.png){width=85%}
 

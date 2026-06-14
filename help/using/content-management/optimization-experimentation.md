@@ -8,32 +8,30 @@ level: Intermediate
 keywords: A/B テスト，コンテンツ実験，処理
 exl-id: 4e8537c4-944f-4a39-be2b-af8ebfb6e099
 TQID: https://experienceleague.adobe.com/2ponHAr61o0hTMYuG5l9mQuh79-WeQz9eRuCF7dZjdA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2: []
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-subfeature_v2:
-  - id: f29a52db-c90c-4345-902e-b586d1406d8d
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+subfeature_v2: id: f29a52db-c90c-4345-902e-b586d1406d8d
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 294
-ht-degree: 72%
+source-wordcount: 323
+ht-degree: 65%
 
 ---
 
 # 実験の使用 {#experimentation}
 
+>[!BEGINSHADEBOX]
+
+**このページ：** コンテンツの実験を使用して、ジャーニーまたはキャンペーン内の複数のコンテンツのバリエーションをテストし、成功指標に対してどのバリエーションが最も効果的かを特定する方法を説明します。
+
+>[!ENDSHADEBOX]
+
 >[!NOTE]
 >
->このページでは、コンテンツ最適化で実験を使用する方法の概要を説明します。 設定オプション、指標、分析など、コンテンツ実験について詳しくは、[&#x200B; コンテンツ実験ドキュメント &#x200B;](../content-management/get-started-experiment.md)を参照してください。
+>このページでは、コンテンツ最適化で実験を使用する方法の概要を説明します。 設定オプション、指標、分析など、コンテンツ実験について詳しくは、[ コンテンツ実験ドキュメント ](../content-management/get-started-experiment.md)を参照してください。
 
 実験により、複数のバージョンのコンテンツをテストし、事前定義済みの成功指標に基づいて最もパフォーマンスが高いバージョンを判断できます。
 
@@ -59,7 +57,7 @@ ht-degree: 72%
 
    ![](../campaigns/assets/msg-optimization-select-experiment.png){width=85%}
 
-1. 必要に応じて、コンテンツ実験を設計および設定します。 [詳細情報](../content-management/content-experiment.md)
+1. 必要に応じて、コンテンツ実験を設計および設定します。 [方法についてはこちらを参照](../content-management/content-experiment.md)
 
    ![](../campaigns/assets/msg-optimization-create-experiment.png){width=85%}
 
@@ -67,7 +65,7 @@ ht-degree: 72%
 
    >[!NOTE]
    >
-   >他のアクションを選択できます。実験は、キャンペーンまたはジャーニー[&#x200B; アクションアクティビティ &#x200B;](../building-journeys/journey-action.md)に追加されたすべてのアクションに適用されます。
+   >他のアクションを選択できます。実験は、キャンペーンまたはジャーニー[ アクションアクティビティ ](../building-journeys/journey-action.md)に追加されたすべてのアクションに適用されます。
 
 1. ジャーニーまたはキャンペーンを[アクティブ化](../campaigns/review-activate-campaign.md)します。
 

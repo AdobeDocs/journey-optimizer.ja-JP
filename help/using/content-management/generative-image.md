@@ -9,20 +9,25 @@ role: User
 level: Beginner
 exl-id: f0585411-c862-45f2-9a10-d8a72497c533
 feature_v2: []
-subfeature_v2:
-  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+subfeature_v2: id: d6e0d39b-5df3-4c72-8263-fd834397ee97
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 1540
-ht-degree: 89%
+source-wordcount: 1571
+ht-degree: 88%
 
 ---
 
 # AI アシスタントを使用した画像の生成 {#generative-image}
 
+>[!BEGINSHADEBOX]
+
+**このページ：** Adobe Journey OptimizerのAI アシスタントを使用して、電子メール、web、ランディングページ、プッシュ通知コンテンツのブランドに即した画像を生成、調整、選択する方法を説明します。
+
+>[!ENDSHADEBOX]
+
 >[!IMPORTANT]
 >
->この機能を使用する前に、関連する[&#x200B; ガードレールと制限](gs-generative.md#generative-guardrails)をお読みください。
+>この機能を使用する前に、関連する[ ガードレールと制限](gs-generative.md#generative-guardrails)をお読みください。
 ></br>
 >
 >Journey Optimizer で AI アシスタントを使用する前に、[ユーザー契約](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html)に同意する必要があります。 詳しくは、アドビ担当者にお問い合わせください。

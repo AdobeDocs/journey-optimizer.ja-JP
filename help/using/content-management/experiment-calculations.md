@@ -10,25 +10,25 @@ level: Experienced
 keywords: コンテンツ, 実験, 統計, 計算
 exl-id: 60a1a488-a119-475b-8f80-3c6f43c80ec9
 TQID: https://experienceleague.adobe.com/FK4Ze6jAsBbzBDRxCSLVnbfeoErPniPPUAfSLYVECOI
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: f29a52db-c90c-4345-902e-b586d1406d8d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebbid: f29a52db-c90c-4345-902e-b586d1406d8d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
-source-wordcount: 1073
-ht-degree: 98%
+source-wordcount: 1080
+ht-degree: 93%
 
 ---
 
 # 統計計算について {#experiment-calculations}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、** Adobe Journey Optimizerでの実験の背後にある統計的手法について説明します。これには、いつでも有効な信頼性シーケンスと、結果を継続的に監視し、実験が決定的である時期を判断できる信頼性が含まれます。
+
+>[!ENDSHADEBOX]
 
 この記事では、Adobe Journey Optimizer で実験を実行する際に使用される統計計算について説明します。
 
@@ -55,7 +55,7 @@ ht-degree: 98%
 
 上の表に、様々なエラーのタイプを示します。
 
-* **偽陽性（Type-I エラー）**：null 仮説が実際には真の場合に、誤って却下されてしまうことです。 オンライン実験のコンテキストでは、同じ結果であったにもかかわらず、各処理で結果指標が異なると誤って結論付けてしまうことを意味します。
+* **False Positives （Type-I エラー）**：実際に真の場合、null仮説の誤った拒否です。オンライン実験の文脈では、これは、結果の指標が各治療の間で異なると誤って結論づけていることを意味しますが、同じでした。
   </br>実験を実行する前に、通常、しきい値を選択します`\alpha`。 実験の実行後、`p-value` が計算され、`null if p < \alpha` は却下されます。`/alpha` の選択は、間違った回答が得られた場合の結果に基づいて行われます。例えば、他のユーザーへのサポートに影響を与える可能性がある論理的な試験では、`\alpha = 0.005` を選択する場合があります。 オンライン実験で一般的に使用されるしきい値は `\alpha = 0.05` です。これは、長期的に見て、100 回の実験のうち 5 回は偽陽性であると想定することを意味します。
 
 * **偽陰性（Type-II エラー）**：null 仮説が偽であるにもかかわらず、却下できないことを意味します。 実験の場合、実際には異なる場合に、null 仮説を却下しないことを意味します。 このタイプのエラーを制御するには、通常、`1 - \beta`（つまり、1 から Type-II エラーの確率を引いた値）と定義される特定の Power を保証するために、実験に十分なユーザーが必要です。
