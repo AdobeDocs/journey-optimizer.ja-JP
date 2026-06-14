@@ -8,31 +8,26 @@ role: Admin
 level: Intermediate
 exl-id: 02ca7c8e-105a-4e77-9aad-2381904255d0
 TQID: https://experienceleague.adobe.com/3qQXyrzDwhvaMQt4gpg5g5Xty7uLXFkkSt9UNvHZYfU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-subfeature_v2:
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-  - id: ed2fba79-65cb-4680-96d2-2ad5d851714d
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: b49ca41f-eb7a-4f4b-abeb-a97c06fd0c04id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d3cdead0-685a-4489-9250-4bb709942f66
+subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: ed2fba79-65cb-4680-96d2-2ad5d851714did: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+source-git-commit: 0977b7c36d8556d4aaed43f4b94abb4ccacd2305
 workflow-type: tm+mt
-source-wordcount: 546
-ht-degree: 65%
+source-wordcount: 579
+ht-degree: 61%
 
 ---
 
 # Adobe Experience Platform Mobile SDKとのライブアクティビティ統合 {#mobile-live-config-sdk}
 
+>[!BEGINSHADEBOX]
+
+**このページ：** Adobe Experience Platform Mobile SDKをiOS アプリに統合して、ロック画面とダイナミック島でリアルタイムのライブアクティビティの更新を登録、表示、受信できるようにします。
+
+>[!ENDSHADEBOX]
 
 Adobe Experience Platform Mobile SDK は、Apple のライブアクティビティのビルトインのサポートを提供します。 これにより、アプリを開かなくても、ロック画面と Dynamic Island でリアルタイムの動的な更新を直接表示できます。
 
@@ -259,4 +254,4 @@ extension FoodDeliveryLiveActivityAttributes: LiveActivityAssuranceDebuggable {
 
 >[!TIP]
 >
->トークンの登録、ペイロードの調整、またはライブアクティビティの配信に関して問題が発生した場合は、詳細なデバッグガイダンスについて、[&#x200B; ライブアクティビティのトラブルシューティング &#x200B;](troubleshoot-mobile-live.md)を参照してください。
+>トークンの登録、ペイロードの調整、またはライブアクティビティの配信に関して問題が発生した場合は、詳細なデバッグガイダンスについて、[ ライブアクティビティのトラブルシューティング ](troubleshoot-mobile-live.md)を参照してください。
