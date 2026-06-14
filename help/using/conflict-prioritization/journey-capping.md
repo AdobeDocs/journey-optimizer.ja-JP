@@ -5,28 +5,26 @@ role: User
 level: Beginner
 exl-id: 4c0ee178-81fb-41ae-b7f5-22da995e6fc6
 TQID: https://experienceleague.adobe.com/8QpErWykIh4UPZIZpe43QS2RDkjgWdvrOMK52At3tWM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: fd59660e-de8a-4bfb-85dc-7fa546030c49
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-subfeature_v2:
-  - id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: fd59660e-de8a-4bfb-85dc-7fa546030c49
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+subfeature_v2: id: f3fe4813-f254-4f8f-99cc-24bd67f119e1
+source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
-source-wordcount: 964
-ht-degree: 98%
+source-wordcount: 993
+ht-degree: 95%
 
 ---
 
 # ジャーニーのキャップと判別 {#journey-capping}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** プロファイルが一度に入力または登録できるジャーニーの数を制限して、コミュニケーションの過負荷を防ぎ、最も重要なジャーニーを優先できるようにします。
+
+>[!ENDSHADEBOX]
 
 ジャーニーのキャップは、プロファイルが登録できるジャーニーの数をキャップし、過剰なコミュニケーションを防ぐのに役立ちます。 Journey Optimizer では、次の 2 つのタイプのキャップルールを設定できます。
 
@@ -130,8 +128,8 @@ ht-degree: 98%
 
 ![](assets/journey-report.png)
 
-さらに、[Adobe Experience Platform クエリサービス](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ja){target="_blank"}を使用してクエリを作成し、プロファイルが特定のジャーニーにエントリしない原因となったルールを特定できます。 破棄のサブ理由（`CAP_REACHED`または`LOWER_PRIORITY`）を含むクエリの例は、[このセクション &#x200B;](../reports/query-examples.md#business-rules-queries)で利用できます。
+さらに、[Adobe Experience Platform クエリサービス](https://experienceleague.adobe.com/docs/experience-platform/query/api/getting-started.html?lang=ja){target="_blank"}を使用してクエリを作成し、プロファイルが特定のジャーニーにエントリしない原因となったルールを特定できます。 破棄のサブ理由（`CAP_REACHED`または`LOWER_PRIORITY`）を含むクエリの例は、[このセクション ](../reports/query-examples.md#business-rules-queries)で利用できます。
 
 ## チュートリアルビデオ {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/3447613?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3435530?quality=12)
