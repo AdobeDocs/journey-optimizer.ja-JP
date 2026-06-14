@@ -49,7 +49,7 @@ Adobe Journey Optimizer でメッセージコンテンツをデザインする�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 メールコンテンツのデザイン
 
@@ -59,7 +59,7 @@ E メールデザイナーを使用してメールデザインを習得し、レ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/paper-plane.svg?lang=ja)
 
 プッシュ通知のデザイン
 
@@ -69,7 +69,7 @@ iOS および Android 向けの魅力的なプッシュ通知を作成し、タ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=ja)
 
 SMS および MMS メッセージのデザイン
 
@@ -79,7 +79,7 @@ SMSを使用してパーソナライズされたモバイルメッセージを�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/mobile.svg?lang=ja)
 
 アプリ内メッセージのデザイン
 
@@ -89,7 +89,7 @@ SMSを使用してパーソナライズされたモバイルメッセージを�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=ja)
 
 コンテンツのパーソナライズ
 
@@ -99,7 +99,7 @@ SMSを使用してパーソナライズされたモバイルメッセージを�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 テンプレートとフラグメントの使用
 
