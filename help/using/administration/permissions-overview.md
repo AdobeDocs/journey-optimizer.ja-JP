@@ -10,29 +10,26 @@ level: Intermediate
 keywords: 権限, 制限, アクセス, サンドボックス
 exl-id: b8e266b1-d8eb-4c77-9341-9761b82609b0
 TQID: https://experienceleague.adobe.com/VRUXM-o41h44PxMAKyafwqSHKmduyt48j4sr11Gh-EQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-subfeature_v2:
-  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+subfeature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
 workflow-type: tm+mt
-source-wordcount: 453
-ht-degree: 100%
+source-wordcount: 416
+ht-degree: 87%
 
 ---
 
 # アクセス制御の基本を学ぶ {#permissions-overview}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、**&#x200B;役割、権限、サンドボックス、オブジェクトおよび属性ベースのアクセス制御など、Journey Optimizerの主要なアクセス制御の概念について説明します。これにより、ユーザーに適切なアクセス権を付与する方法を計画できます。
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] を使用すると、様々なユーザーに割り当てる権限を定義して管理できます。 権限とは、製品内の機能へのアクセスを許可または拒否する一連の権利と制約です。
 
@@ -54,8 +51,8 @@ Journey Optimizer のアクセス制御を設定するには、組織のシス�
 
 [!DNL Journey Optimizer] のユーザー管理は、次の主な概念に基づいています。
 
-* **[!UICONTROL 役割]**：役割は、同じ権限とサンドボックスを共有するユーザーのコレクションを指します。 これらの役割を使用すると、組織内の様々なユーザーグループのアクセスと権限を簡単に管理できます。 役割には、ユーザーがインターフェイス内の特定の機能やオブジェクトにアクセスできるようにするための、一連の単一の権利（権限）が付属しています。
-[!DNL Journey Optimizer] を使用すると、権限レベルの異なる既存の様々な&#x200B;**[!UICONTROL 役割]**&#x200B;から選択して、ユーザーに割り当てることができます。 使用可能な&#x200B;**ビルトインの役割**&#x200B;について詳しくは、[このページ](ootb-product-profiles.md)を参照してください。
+* **[!UICONTROL 役割]**：役割とは、同じ権限とサンドボックスを共有するユーザーのコレクションを指します。これらの役割により、組織内の様々なユーザーグループに対するアクセスと権限を簡単に管理できます。役割には、ユーザーがインターフェイス内の特定の機能またはオブジェクトにアクセスできる一連の単一権限（権限）が付属しています。
+[!DNL Journey Optimizer]を使用すると、ユーザーに割り当てるために、様々なレベルの権限を持つ既存の&#x200B;**[!UICONTROL 役割]**&#x200B;の範囲から選択できます。[このページ ](ootb-product-profiles.md)で利用できる&#x200B;**組み込みロール**&#x200B;について詳しく説明します。
 
 * **[!UICONTROL 権限]**：権限は、**[!UICONTROL 役割]**&#x200B;に割り当てられる許可を定義できる、単一の権利です。 各権限は、リソース（[!DNL Journey Optimizer] の様々な機能やオブジェクトに相当するジャーニーやオファーなど）の下に集約されています。 詳しくは、[権限レベル](high-low-permissions.md)の節を参照してください。
 
