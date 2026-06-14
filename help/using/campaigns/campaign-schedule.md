@@ -11,11 +11,18 @@ mini-toc-levels: 1
 keywords: 作成, Optimizer, キャンペーン, サーフェス, メッセージ
 exl-id: b183eeb8-606f-444d-9302-274f159c3847
 TQID: https://experienceleague.adobe.com/IX6fnq5uYLb17J0dLmLuDLlbdiBfsH-2gzdBknwppkE
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: a653cc2e-bc85-4353-a306-399e5b247978
-subfeature_v2: id: f7479fa1-474b-479d-8c98-f6cee5865a38id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: a653cc2e-bc85-4353-a306-399e5b247978
+subfeature_v2:
+  - id: f7479fa1-474b-479d-8c98-f6cee5865a38
+  - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
 source-wordcount: 857
@@ -74,7 +81,7 @@ ht-degree: 57%
 
 `profile.timeZone`形式は、IANAの名前付けか、UTC オフセットとして定義できます。 IANAの命名は、夏時間ルールに合わせて自動的に調整されるので、推奨される形式です。
 
-IANA命名の場合、識別子は大文字と小文字を区別し、公式のIANA命名と一致する必要があります。 オフセットは、夏時間のルールと履歴の更新により、時間の経過とともに変化する可能性があります。 識別子の正式なリストについては、[IANA タイムゾーンデータベース ](https://www.iana.org/time-zones){_blank}を参照してください。
+IANA命名の場合、識別子は大文字と小文字を区別し、公式のIANA命名と一致する必要があります。 オフセットは、夏時間のルールと履歴の更新により、時間の経過とともに変化する可能性があります。 識別子の正式なリストについては、[IANA タイムゾーンデータベース &#x200B;](https://www.iana.org/time-zones){_blank}を参照してください。
 
 ## 実行頻度の設定
 
@@ -113,7 +120,7 @@ IANA命名の場合、識別子は大文字と小文字を区別し、公式のI
 
 キャンペーンメッセージを一度にではなく一括で配信するには、ウェーブ送信を利用します。 これにより、負荷のバランス、配信品質のサポート、下流システム（コールセンターやランディングページなど）への負担の軽減を実現できます。 ウェーブの数、サイズ（パーセントまたは絶対数）、各ウェーブのスケジュールを定義します。
 
-[ ウェーブを使用して送信する方法を説明します](send-using-waves.md)。
+[&#x200B; ウェーブを使用して送信する方法を説明します](send-using-waves.md)。
 
 ## 次の手順 {#next}
 
