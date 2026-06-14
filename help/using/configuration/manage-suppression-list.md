@@ -10,28 +10,25 @@ level: Experienced
 keywords: 抑制, リスト, バウンス, メール, Optimizer, 強制隔離
 exl-id: 430a2cd4-781d-4d37-a75d-405f5ed82377
 TQID: https://experienceleague.adobe.com/SCZngTO54cFP5nZ00bxurXYB-FTtEkKablk1Ls2SGto
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5deeid: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 1611
-ht-degree: 99%
+source-wordcount: 1643
+ht-degree: 97%
 
 ---
 
 # 抑制リストの管理 {#manage-suppression-list}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** Adobe Journey Optimizer抑制リストのエントリにアクセス、フィルタリング、追加、削除、ダウンロードする方法を説明し、送信から除外するメールアドレスとドメインを制御します。
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] では、ハードバウンス、ソフトバウンス、スパムの苦情など、ジャーニーやキャンペーンでの送信から自動的に除外されるメールアドレスをすべて監視できます。
 

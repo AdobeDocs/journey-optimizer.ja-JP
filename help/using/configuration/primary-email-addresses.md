@@ -10,29 +10,26 @@ level: Intermediate
 keywords: プライマリ, 実行, メール, ターゲット, プロファイル, Optimizer
 exl-id: fe2f6516-7790-4501-a3a1-3d7cb94d7874
 TQID: https://experienceleague.adobe.com/bW7YGYcmbpwNJtZHadjsbuMXjBRFDnt3uSk0Ap8IJ5U
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: efb19423-4da4-4fd1-88d8-5ee8c71ae766
-  - id: fae48155-b23f-40d2-a252-a25bce350b4d
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: efb19423-4da4-4fd1-88d8-5ee8c71ae766id: fae48155-b23f-40d2-a252-a25bce350b4d
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 649
-ht-degree: 100%
+source-wordcount: 682
+ht-degree: 95%
 
 ---
 
 # デフォルトの実行フィールドの管理 {#change-primary-email}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、Adobe Journey Optimizerが優先的に送信するメールアドレスまたは電話番号を決定する実行フィールドを定義および上書きする方法について説明します。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_execution_address"

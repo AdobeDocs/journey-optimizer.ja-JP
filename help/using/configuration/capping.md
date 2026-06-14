@@ -9,25 +9,25 @@ level: Beginner
 keywords: 外部, API, Optimizer, キャップ
 exl-id: 377b2659-d26a-47c2-8967-28870bddf5c5
 TQID: https://experienceleague.adobe.com/004R6qxDnmHDaqIT7IJ1mm2yp-s6RvsJFeElaXwRg9A
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: d2e8a157-b3b0-4143-9ff3-809bf400be56
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: d2e8a157-b3b0-4143-9ff3-809bf400be56
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 761
-ht-degree: 98%
+source-wordcount: 773
+ht-degree: 91%
 
 ---
 
 # Capping API の使用 {#work}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、** Adobe Journey Optimizer Capping APIを使用して、外部システムへの呼び出しを制限するエンドポイントのキャッピング設定を作成、設定、デプロイ、監視する方法について説明します。
+
+>[!ENDSHADEBOX]
 
 Capping API を使用すると、キャップ設定を作成、設定および監視できます。
 
@@ -48,8 +48,8 @@ Capping API を使用すると、キャップ設定を作成、設定および�
 | [!DNL GET] | /endpointConfigs/`{uid}` | エンドポイントキャップ設定の取得 |
 | [!DNL DELETE] | /endpointConfigs/`{uid}` | エンポイントキャップ設定の削除 |
 
-設定を作成または更新すると、ペイロードの構文と整合性を保証するチェックが自動的に実行されます。
-問題が発生した場合は、設定を修正するのに役立つ警告またはエラーが返されます。
+設定が作成または更新されると、ペイロードの構文と整合性を保証するためのチェックが自動的に実行されます。
+問題が発生した場合、設定の修正に役立つ警告またはエラーが返されます。
 
 また、テスト設定に役立つ Postman コレクションについて詳しくは、[こちら](https://github.com/AdobeDocs/JourneyAPI/blob/master/postman-collections/Journeys_Capping-API_postman-collection.json)を参照してください。
 

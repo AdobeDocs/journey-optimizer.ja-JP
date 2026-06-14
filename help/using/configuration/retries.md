@@ -10,26 +10,25 @@ level: Experienced
 keywords: 再試行, バウンス, ソフト, Optimizer, エラー
 exl-id: 05564a99-da50-4837-8dfb-bb1d3e0f1097
 TQID: https://experienceleague.adobe.com/msEFNW2-wJiuhGNuJYWWETQC18j1ihcDdmMmJGUMraA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-subfeature_v2:
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+subfeature_v2: id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
-source-wordcount: 569
-ht-degree: 100%
+source-wordcount: 605
+ht-degree: 94%
 
 ---
 
 # 再試行 {#retries}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** Adobe Journey Optimizerでソフトバウンス電子メールメッセージを再試行する方法、エラーのしきい値と再試行時間の仕組み、およびアドレスが抑制リストに追加される前に調整する方法について説明します。
+
+>[!ENDSHADEBOX]
 
 特定のアドレスに対する一時的な&#x200B;**ソフトバウンス**&#x200B;エラーが原因でメールメッセージの送信に失敗した場合は、再試行が数回実行されます。 エラーが 1 つ発生すると、エラーカウンターを 1 つ増やします。 このカウンターがしきい値の制限に達すると、メールアドレスが抑制リストに追加されます。
 
@@ -45,7 +44,7 @@ ht-degree: 100%
 
 再試行後に配信が成功すると、そのアドレスのエラーカウンターは再初期化されます。
 
-例：
+次に例を示します。
 
 * 月曜日に、再試行期間を 24 時間に設定してメールを送信するとします。 `emma.jones@mail.com` アドレスは配信に失敗します。 メールは最大 3 回再試行され、24 時間の再試行期間に到達すると再試行が停止します。
 
@@ -60,7 +59,7 @@ ht-degree: 100%
 >title="再試行しきい値を更新"
 >abstract="デフォルト値がニーズに合わない場合は、連続ソフトバウンスの許容回数を変更できます。 再試行カウンターが特定のメールアドレスのエラーしきい値に達すると、このアドレスは抑制リストに追加されます。"
 <!--
->additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html?lang=ja" text="Understand the suppresion list"
+>additional-url="https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/suppression-list.html" text="Understand the suppresion list"
 -->
 
 デフォルト値の 5 がニーズに合わない場合は、次の手順に従ってエラーのしきい値を変更できます。
