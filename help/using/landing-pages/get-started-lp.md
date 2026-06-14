@@ -10,29 +10,26 @@ level: Beginner
 keywords: ランディング, ランディングページ, 開始, 開始
 exl-id: 0da96e32-52ad-4cc3-bac4-844b1f39ed16
 TQID: https://experienceleague.adobe.com/wr4XGNostKoN8jZ50VRAQPoGg9tsNhMOyJGEt1mASso
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b19d9237-76be-466d-a869-aacf2d72205f
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b19d9237-76be-466d-a869-aacf2d72205fid: fb9a80eb-bebc-492f-a0e9-584595621ebbid: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 2956c3df01f4b2e753111ecf54163ec4084fecf2
 workflow-type: tm+mt
-source-wordcount: 735
-ht-degree: 96%
+source-wordcount: 781
+ht-degree: 91%
 
 ---
 
 # ランディングページの基本を学ぶ {#get-started-lp}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;のランディングページでは、電子メール、広告、キャンペーンのクリックを専用のweb宛先に変換します。顧客は、オプトインまたはオプトアウト、環境設定の管理、プロファイルデータの共有を行います。これにより、同意したオーディエンスを増やし、パーソナライゼーションを強化するファーストパーティデータを収集できます。
+
+>[!ENDSHADEBOX]
 
 ランディングページは、メール、web サイト、広告、またはその他のデジタル化された場所からユーザーがクリックスルーした後に表示されるスタンドアロン web ページです。
 
@@ -129,6 +126,6 @@ ht-degree: 96%
 
 次のビデオでは、サブスクリプションリストの作成方法、サービスのオプトインまたはオプトアウトを行うためのランディングページの設定方法、メッセージへのオプトイン／オプトアウトのオプションの統合方法、関連するジャーニーの設定方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/344400?captions=jpn&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/341280?quality=12&learn=on)
 
-➡️ **実際に見る：** サブスクリプション管理、確認メール、データキャプチャのシナリオをカバーするステップバイステップの例については、[&#x200B; ランディングページのユースケース &#x200B;](lp-use-cases.md)を確認してください。
+➡️ **実際に見る：** サブスクリプション管理、確認メール、データキャプチャのシナリオをカバーするステップバイステップの例については、[ ランディングページのユースケース ](lp-use-cases.md)を確認してください。

@@ -10,26 +10,25 @@ level: Beginner
 keywords: ランディング, ランディングページ, 作成, テンプレート
 exl-id: 393b36ad-0a37-46d9-b455-ae6684e0acbd
 TQID: https://experienceleague.adobe.com/xLbYVVCKMtUM1l8SoL-UAn15SY44PgWcqi2uDQ8FDhc
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-subfeature_v2:
-  - id: b19d9237-76be-466d-a869-aacf2d72205f
-  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141
+subfeature_v2: id: b19d9237-76be-466d-a869-aacf2d72205fid: d595a60b-bcf5-4a63-a189-66a0be755cc7id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 4a6224453ae94fd5eb8ddee612ad2c4ea0f122e8
 workflow-type: tm+mt
-source-wordcount: 198
-ht-degree: 100%
+source-wordcount: 222
+ht-degree: 89%
 
 ---
 
 # ランディングページテンプレートの操作 {#work-with-templates}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;完成したランディングページを再利用可能なコンテンツテンプレートとして保存し、それを適用して今後のページのデザインを高速化します。
+
+>[!ENDSHADEBOX]
 
 ## テンプレートとしてのページの保存 {#save-as-template}
 
