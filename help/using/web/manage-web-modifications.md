@@ -7,12 +7,22 @@ role: User
 level: Beginner, Intermediate
 exl-id: 213511b4-7556-4a25-aa23-b50acd11cd34
 TQID: https://experienceleague.adobe.com/8T04E9mgfsmZxHAv0lSgWd9owrKjxW9xWRE76iYMvz8
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2: id: c618a0dc-1818-4c6d-9916-0d92e6796f24id: d056adbe-402d-4f42-9746-f3d424e598b1
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e9001ce2-5245-4a8e-8601-dd958009072f
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2:
+  - id: c618a0dc-1818-4c6d-9916-0d92e6796f24
+  - id: d056adbe-402d-4f42-9746-f3d424e598b1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e9001ce2-5245-4a8e-8601-dd958009072f
 source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
 source-wordcount: 1009
@@ -194,7 +204,7 @@ Web designer を使用してページを編集する場合、**[!UICONTROL 変�
 
 +++
 
-+++ **同じ URL に影響を与える 2 つのキャンペーンに対して**[!UICONTROL &#x200B;ページ `<head>`]**変更タイプを使用する場合は、注意してください。**
++++ **同じ URL に影響を与える 2 つのキャンペーンに対して**&#x200B;[!UICONTROL &#x200B;ページ `<head>`]&#x200B;**変更タイプを使用する場合は、注意してください。**
 
 同じ URL に影響を与える 2 つのキャンペーンに対して&#x200B;**[!UICONTROL ページ`<head>`]** 変更タイプを使用すると、両方のキャンペーンのページに JavaScript が挿入されます。 配信されるコンテンツの順序は、[!DNL Journey Optimizer] により自動的に決定されます。 コードがプレースメントに依存しないようにしてください。 ユーザーはコード内に競合がないことを確認する必要があります。
 
