@@ -10,31 +10,26 @@ level: Beginner, Intermediate
 keywords: メール, デザイン, アクセシビリティ
 exl-id: 78011ec0-a3b6-4d4e-ab4b-9da032c283a2
 TQID: https://experienceleague.adobe.com/aV2B02I-zFMavzM3OuLJnihia0YOenMn3FXsJXfpdJs
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b19d9237-76be-466d-a869-aacf2d72205f
-  - id: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b19d9237-76be-466d-a869-aacf2d72205fid: b5cb2dff-e9ba-4e50-a3eb-6a50eef729b8id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1696
-ht-degree: 96%
+source-wordcount: 1731
+ht-degree: 94%
 
 ---
 
 # アクセス可能なコンテンツのデザイン {#accessible-content}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、** Adobe Journey Optimizerでアクセシブルな電子メールやランディングページをデザインするためのベストプラクティスについて説明します。テキストの読みやすさ、代替テキスト、ダークモード、アクセシビリティ属性、WCAG 2.1 レベル AAに沿ったテストについて説明します。
+
+>[!ENDSHADEBOX]
 
 [欧州アクセシビリティ法](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0882){target="_blank"}は、加盟国間で異なる国のルールによって生じる障壁を排除することで、アクセス可能な製品およびサービスの内部市場を強化することを目的とした指令です。
 
@@ -107,7 +102,7 @@ ht-degree: 96%
 
 ## 画像用の代替テキストの使用 {#alt-text}
 
-**[!UICONTROL 画像]**&#x200B;コンポーネントを使用して、画像用の代替テキストを指定します。 [詳細情報](content-components.md#image)
+**[!UICONTROL 画像]**&#x200B;コンポーネントを使用して、画像用の代替テキストを指定します。 [方法についてはこちらを参照](content-components.md#image)
 
 ![](assets/accessible-alt-text.png){width="90%"}
 
@@ -150,7 +145,7 @@ E メールデザイナーの関連する構造および[コンテンツコン�
 
 * 実際のオーディエンスに送信する前に、コンテンツのレンダリングをテストする本配信前確認を送信します。 [方法についてはこちらを参照](../content-management/proofs.md)
 
-* コンテンツの読みやすさ、コンテンツの統一性、全体的な有効性を評価するために、コンテンツの品質を検証します。 [詳細情報](../content-management/brands-score.md#validate-quality)
+* コンテンツの読みやすさ、コンテンツの統一性、全体的な有効性を評価するために、コンテンツの品質を検証します。 [方法についてはこちらを参照](../content-management/brands-score.md#validate-quality)
 
 ![](assets/accessible-simulate.png){width="90%"}
 
@@ -164,7 +159,7 @@ E メールデザイナーの関連する構造および[コンテンツコン�
 
 ダークモードは、光に敏感なユーザーや視覚障害のあるユーザーの視覚的なアクセシビリティを強化し、視聴エクスペリエンスを向上させます。
 
-E メールデザイナーを使用すると、**[!UICONTROL ダークモード]**&#x200B;ビューに切り替えて、サポートしているメールクライアントに表示される特定のカスタム設定を定義できます。 [詳細情報](dark-mode.md)
+E メールデザイナーを使用すると、**[!UICONTROL ダークモード]**&#x200B;ビューに切り替えて、サポートしているメールクライアントに表示される特定のカスタム設定を定義できます。 [方法についてはこちらを参照](dark-mode.md)
 
 ![](assets/accessible-dark-mode.png){width="90%"}
 

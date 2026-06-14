@@ -10,32 +10,26 @@ level: Beginner, Intermediate
 keywords: コンテンツ, エディター, メール, 開始
 exl-id: 151594f2-85e4-4c79-9c15-334fbd3768c4
 TQID: https://experienceleague.adobe.com/mDgavy5F5CYnLmKBh84OSXFl-BHE82t-diUX6UXU27k
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: c41e8697-e629-4c38-96b3-564faaa17acf
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: f8d2e9f0-69c9-40cd-890f-71336c8dfff7
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: c41e8697-e629-4c38-96b3-564faaa17acfid: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: f8d2e9f0-69c9-40cd-890f-71336c8dfff7id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 743
-ht-degree: 95%
+source-wordcount: 773
+ht-degree: 91%
 
 ---
 
 # E メールデザイナーを使用してコンテンツをゼロからデザイン {#content-from-scratch}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;構造とコンテンツコンポーネントを追加し、メールをパーソナライズおよびプレビューすることで、Adobe Journey Optimizer メールDesignerでメールコンテンツをゼロからデザインする方法を説明します。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components_email"
@@ -142,7 +136,7 @@ ht-degree: 95%
    >
    >コードエディターに切り替えた後で、このメールのビジュアル designer に戻すことはできません。
 
-1. コンテンツの準備ができたら、いずれかのシミュレーションメソッドを使用してレンダリングを確認します。 デスクトップまたはモバイル表示を選択できます。 詳細については、[&#x200B; コンテンツ管理](../content-management/preview-test.md) セクションを参照してください。
+1. コンテンツの準備ができたら、いずれかのシミュレーションメソッドを使用してレンダリングを確認します。 デスクトップまたはモバイル表示を選択できます。 詳細については、[ コンテンツ管理](../content-management/preview-test.md) セクションを参照してください。
 
    ![](assets/email_designer_simulate_content.png)
 

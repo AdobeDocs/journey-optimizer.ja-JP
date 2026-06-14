@@ -11,14 +11,20 @@ keywords: テキスト, メール, バージョン, プレーン, エディタ�
 exl-id: 4bb36810-65fb-4a9b-9bea-e56ed2c1eea3
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1171
+source-wordcount: 1199
 ht-degree: 12%
 
 ---
 
 # メールのテキストバージョンの管理 {#text-version-email}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;電子メールの自動同期のデフォルトのプレーンテキストバージョンを使用する方法、またはカスタムバージョンを作成する方法と、各アプローチが最も効果的な場合について説明します。
+
+>[!ENDSHADEBOX]
 
 HTML コンテンツを表示できない場合に使用するため、メール本文のテキストバージョンを作成することをお勧めします。
 

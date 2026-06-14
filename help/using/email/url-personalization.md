@@ -9,16 +9,21 @@ role: User
 level: Intermediate, Experienced
 keywords: url、リンク、パーソナライゼーション、トラッキング、エンコード、中括弧
 feature_v2: []
-subfeature_v2:
-  - id: c41e8697-e629-4c38-96b3-564faaa17acf
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+subfeature_v2: id: c41e8697-e629-4c38-96b3-564faaa17acf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 402
-ht-degree: 24%
+source-wordcount: 430
+ht-degree: 23%
 
 ---
 
 # メールのURLのパーソナライズ {#url-personalization}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、リンクを有効かつ追跡可能な状態に保ちながら、完全またはベース URLやリンクごとの追跡パラメーターなどのプロファイル属性でメール URLをパーソナライズする方法について説明します。
+
+>[!ENDSHADEBOX]
 
 パーソナライズされたURLを使用すると、受信者固有のリンクの生成や動的パラメーターの追加など、[!DNL Journey Optimizer]電子メールメッセージを通じてコンテクストに即したエクスペリエンスを提供できます。
 
@@ -28,7 +33,7 @@ ht-degree: 24%
 
 URLをパーソナライズするには、次の手順に従います。
 
-1. 電子メール Designerで、コンテンツ内の要素を選択し、コンテキストツールバーを使用して[&#x200B; リンクを挿入](message-tracking.md#insert-links)します。
+1. 電子メール Designerで、コンテンツ内の要素を選択し、コンテキストツールバーを使用して[ リンクを挿入](message-tracking.md#insert-links)します。
 
    >[!IMPORTANT]
    >
@@ -55,7 +60,7 @@ URLをパーソナライズするには、次の手順に従います。
 >
 >スペースは、URL 内で使用されるパーソナライゼーショントークンではサポートされていません。
 
-信頼性の高いレンダリングとトラッキングを行うには、以下の[&#x200B; ベストプラクティスとガードレール &#x200B;](#best-practices)に従ってください。
+信頼性の高いレンダリングとトラッキングを行うには、以下の[ ベストプラクティスとガードレール ](#best-practices)に従ってください。
 
 ## 完全/ベース URLのパーソナライズ {#personalize-complete-base-url}
 
@@ -73,9 +78,9 @@ Journey Optimizerでは、URLの&#x200B;**entire** URLまたは&#x200B;**base do
 
 ## URL トラッキングパラメーターのパーソナライズ {#personalize-url-tracking-parameters}
 
-[URL トラッキング &#x200B;](url-tracking.md)はチャネル設定レベルで管理され、メッセージコンテンツに含まれるすべてのURLに適用されます。 電子メールDesignerでは、個々のリンクのURL トラッキングパラメーターをパーソナライズすることもできます。 これにより、受信者固有のパラメーターを1つのリンクに追加できます（例えば、Web分析ツールに識別子を渡すために）。
+[URL トラッキング ](url-tracking.md)はチャネル設定レベルで管理され、メッセージコンテンツに含まれるすべてのURLに適用されます。 電子メールDesignerでは、個々のリンクのURL トラッキングパラメーターをパーソナライズすることもできます。 これにより、受信者固有のパラメーターを1つのリンクに追加できます（例えば、Web分析ツールに識別子を渡すために）。
 
-これを行うには、[&#x200B; リンクを挿入](message-tracking.md#insert-links)し、パーソナライゼーションアイコンを選択し、URL トラッキングパラメーターを追加して、[&#x200B; パーソナライゼーションエディター](../personalization/personalization-build-expressions.md)から選択したプロファイル属性を選択します。
+これを行うには、[ リンクを挿入](message-tracking.md#insert-links)し、パーソナライゼーションアイコンを選択し、URL トラッキングパラメーターを追加して、[ パーソナライゼーションエディター](../personalization/personalization-build-expressions.md)から選択したプロファイル属性を選択します。
 
 ![](assets/message-tracking-perso-parameter.png)
 

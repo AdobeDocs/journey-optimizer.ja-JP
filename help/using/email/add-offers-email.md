@@ -10,29 +10,26 @@ level: Intermediate
 keywords: オファー, 決定, メール, パーソナライゼーション, 決定
 exl-id: 1e648eca-b5ca-4767-b45d-c179243e347f
 TQID: https://experienceleague.adobe.com/ajycOqX0Q6spKP8RgXmF-QLR95AYsCLLfIaKofpd95k
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: ee5bb250-0884-4d71-86eb-d8489e8bcadd
-  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
-  - id: c41e8697-e629-4c38-96b3-564faaa17acf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: ee5bb250-0884-4d71-86eb-d8489e8bcaddid: fb9a80eb-bebc-492f-a0e9-584595621ebbid: c41e8697-e629-4c38-96b3-564faaa17acf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 652
-ht-degree: 93%
+source-wordcount: 678
+ht-degree: 89%
 
 ---
 
 # パーソナライズされたオファーの追加 {#deliver-personalized-offers}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、** Adobe Journey Optimizerが各受信者に最適なパーソナライズされたオファーを提供できるように、オファーの決定をメールに挿入してプレビューする方法について説明します。
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] メールでは、意思決定管理エンジンを活用して顧客に提供する最適なオファーを選択する決定を挿入できます。
 
@@ -119,4 +116,4 @@ ht-degree: 93%
 
 [!DNL Journey Optimizer] でメッセージに意思決定管理コンポーネントを追加する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416051?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334088?quality=12)

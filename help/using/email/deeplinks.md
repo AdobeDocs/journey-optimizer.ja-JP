@@ -10,9 +10,9 @@ level: Intermediate
 keywords: ディープリンク、ディープリンク、ユニバーサルリンク、アプリリンク、電子メール、sms
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
-source-wordcount: 1327
+source-wordcount: 1367
 ht-degree: 1%
 
 ---
@@ -20,13 +20,19 @@ ht-degree: 1%
 
 # 電子メールやSMSのディープリンクの使用と設定 {#deeplinks}
 
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;電子メールやSMS コンテンツでディープリンクを作成し、Adobe Journey Optimizerで設定し、iOSおよびAndroid アプリでトラッキングされたリンクを処理して、受信者がアプリ内の適切な画面に表示されるようにする方法を説明します。
+
+>[!ENDSHADEBOX]
+
 ディープリンクは、電子メールやSMS メッセージの受信者を、モバイルアプリの特定の画面やコンテンツに誘導するのに役立ちます。 web ブラウザーやアプリストアを経由することなく、オーディエンスを意図したアプリ内エクスペリエンスに直接つなげることができます。これにより、ジャーニーを通じて、顧客のニーズに即し、ブランド基準を維持できます。
 
 受信者がディープリンクをクリックすると、受信者は意図したアプリ内コンテンツに直接移動します – **完了した場合**:
 
 * Journey Optimizerの[設定手順](#configuration)
 
-* モバイルアプリでのiOSとAndroidの[&#x200B; モバイルアプリの実装](#mobile-implementation)手順。
+* モバイルアプリでのiOSとAndroidの[ モバイルアプリの実装](#mobile-implementation)手順。
 
 >[!NOTE]
 >
@@ -36,13 +42,13 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->このページの[設定](#configuration)および[&#x200B; モバイルアプリ実装](#mobile-implementation)の手順を完了しない限り、ディープリンクは機能しません。
+>このページの[設定](#configuration)および[ モバイルアプリ実装](#mobile-implementation)の手順を完了しない限り、ディープリンクは機能しません。
 
 ### メール {#authoring-email}
 
 メールメッセージの場合、ディープリンクを挿入するには、次の2つのオプションがあります。
 
-* **メール Designer**: [&#x200B; リンク トラッキングが有効になっていることを確認してください](message-tracking.md#enable-tracking)。 リンクする要素（テキスト、ボタン、画像）を選択し、コンテキストツールバーの「**[!UICONTROL リンクを挿入]**」をクリックし、**[!UICONTROL ディープリンク]**」を選択してディープリンク URLを入力します。 [&#x200B; リンクの挿入の詳細](message-tracking.md#insert-links)
+* **メール Designer**: [ リンク トラッキングが有効になっていることを確認してください](message-tracking.md#enable-tracking)。 リンクする要素（テキスト、ボタン、画像）を選択し、コンテキストツールバーの「**[!UICONTROL リンクを挿入]**」をクリックし、**[!UICONTROL ディープリンク]**」を選択してディープリンク URLを入力します。 [ リンクの挿入の詳細](message-tracking.md#insert-links)
 
 * **Personalization エディター（コード）**：次のスニペットを使用して、ディープリンクをHTMLに直接挿入します。
 
@@ -57,7 +63,7 @@ ht-degree: 1%
 
 ### SMS {#authoring-sms}
 
-SMSの場合、ディープリンクは、パーソナライゼーションエディターの[Url](../personalization/functions/helpers.md#url) ヘルパー関数を使用して作成されます。 SMS コンテンツにリンクを追加する方法については、[このセクション &#x200B;](../mobile/design-mobile.md#sms-content)を参照してください。
+SMSの場合、ディープリンクは、パーソナライゼーションエディターの[Url](../personalization/functions/helpers.md#url) ヘルパー関数を使用して作成されます。 SMS コンテンツにリンクを追加する方法については、[このセクション ](../mobile/design-mobile.md#sms-content)を参照してください。
 
 SMS コンテンツにディープリンクを挿入するには、次の構文を使用します。
 
@@ -79,7 +85,7 @@ SMS コンテンツにディープリンクを挿入するには、次の構文�
 
 1. Journey Optimizerで、ディープリンクが有効になっているサブドメインをデリゲートします。 [詳細情報](../configuration/delegate-subdomain.md)
 
-1. IOSのAASA ファイルとAndroidのassetLinks.json ファイルをサブドメインにホストします。 詳しくは、[Adobe カスタマーケア &#x200B;](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}またはAdobe担当者にお問い合わせください。
+1. IOSのAASA ファイルとAndroidのassetLinks.json ファイルをサブドメインにホストします。 詳しくは、[Adobe カスタマーケア ](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}またはAdobe担当者にお問い合わせください。
 
    * **iOS （AASA）**&#x200B;の場合：
       * 委任されたサブドメイン
@@ -91,7 +97,7 @@ SMS コンテンツにディープリンクを挿入するには、次の構文�
 
 >[!IMPORTANT]
 >
->Adobe インフラストラクチャを介したディープリンクは、メッセージに対してリンクトラッキングが有効になっている場合（[&#x200B; メールトラッキング設定](message-tracking.md#enable-tracking)または&#x200B;**[!UICONTROL アクションのトラッキング]**）のSMS キャンペーンのセクション）に適用されます。 トラッキングされたディープリンクのクリックは、Adobeがホストし解決する`/ee/v1/mclick/*`の下のURLを使用します。
+>Adobe インフラストラクチャを介したディープリンクは、メッセージに対してリンクトラッキングが有効になっている場合（[ メールトラッキング設定](message-tracking.md#enable-tracking)または&#x200B;**[!UICONTROL アクションのトラッキング]**）のSMS キャンペーンのセクション）に適用されます。 トラッキングされたディープリンクのクリックは、Adobeがホストし解決する`/ee/v1/mclick/*`の下のURLを使用します。
 >
 >トラッキングされていない&#x200B;**リンク**&#x200B;の場合、URLはAdobe システムで書き換えられません。 独自のドメインとホスティングでユニバーサルリンクまたはアプリリンクを設定し、それらのリンクが意図したとおりにアプリを開くように設定する必要があります。
 
@@ -102,7 +108,7 @@ SMS コンテンツにディープリンクを挿入するには、次の構文�
 * アプリがインストールされたときに、モバイルアプリ内の特定の画面を開く、または
 * アプリがインストールされていない場合は、Web サイトをフォールバックとして開きます。
 
-メッセージでリンクトラッキングが有効になっている場合、[!DNL Journey Optimizer]はこれらのクリックを引き続き追跡し、レポートに含め、メッセージで実行する場合は[&#x200B; コンテンツ実験](../content-management/content-experiment.md)でそれらを使用できます。
+メッセージでリンクトラッキングが有効になっている場合、[!DNL Journey Optimizer]はこれらのクリックを引き続き追跡し、レポートに含め、メッセージで実行する場合は[ コンテンツ実験](../content-management/content-experiment.md)でそれらを使用できます。
 
 このセクションでは、ディープリンクの一般的な実装パターンを提供します。 正確な設定は、アプリアーキテクチャとルーティングフレームワークによって異なります。
 
@@ -336,7 +342,7 @@ URL エンコードクエリパラメーター値。 これにより、配信と
 
 +++ URLのUTM パラメーターは、分析用モバイルアプリで使用できますか？
 
-はい。 [!DNL Journey Optimizer]で設定したUTM パラメーターは、アプリが`mclick` URLでGETを実行したときに`Location` ヘッダーで返される最終的なURLに含まれるため、アプリ内分析に使用できます。
+はい。 [!DNL Journey Optimizer]で設定したUTM パラメーターは、アプリが`mclick` URLに対してGETを実行したときに`Location` ヘッダーで返される最終的なURLに含まれるため、アプリ内分析に使用できます。
 
 +++
 
