@@ -11,12 +11,22 @@ keywords: アクティビティ, 決定, コンテンツ決定, 決定ポリシ�
 exl-id: 6188644a-6a3b-4926-9ae9-0c6b42c96bae
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/1tZd4-NYBxu1iuUZGMKQ6DIXFxRpX0FARTEPpWqxzjY
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29cid: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2: id: c2beecbb-b93e-4ae3-baa9-72adcdc06781id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2:
+  - id: c2beecbb-b93e-4ae3-baa9-72adcdc06781
+  - id: cfba2953-2ce9-4b00-a00c-71cd338ae63f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
 source-wordcount: 1286
@@ -42,7 +52,7 @@ ht-degree: 73%
 
 次に、コンテンツ決定アクティビティの出力は、以下の用途で使用できます。
 
-* 取得したオファーに基づいてプロファイルを特定のパスに移動する条件](#add-condition-activity)を持つ[Optimize アクティビティ。
+* 取得したオファーに基づいてプロファイルを特定のパスに移動する条件[&#128279;](#add-condition-activity)を持つOptimize アクティビティ。
 
 * [カスタムアクション](#add-custom-action)：これらのオファーを外部システムに送信できます。
 
@@ -94,7 +104,7 @@ ht-degree: 73%
 
 ## コンテンツ決定アクティビティの出力の使用 {#use-content-decision-output}
 
-コンテンツ決定の出力は、複数のジャーニーアクティビティで使用できます。 例えば、条件](#add-condition-activity)を含む[最適化アクティビティを使用して、取得されたオファー数に基づいて、プロファイルをジャーニーの特定の分岐に移動できます。
+コンテンツ決定の出力は、複数のジャーニーアクティビティで使用できます。 例えば、条件[&#128279;](#add-condition-activity)を含む最適化アクティビティを使用して、取得されたオファー数に基づいて、プロファイルをジャーニーの特定の分岐に移動できます。
 
 また、コンテンツ決定アクティビティからのオファーを外部システムと共有することを目的に、[カスタムアクション](#add-custom-action)をジャーニーに追加することもできます。
 
@@ -122,7 +132,7 @@ ht-degree: 73%
 
    >[!NOTE]
    >
-   >属性に定義された制限されたラベルは、DULEまたは同意のポリシー違反につながる可能性があります。 これは、決定ルールで使用されるジャーニーエクスペリエンスイベントおよび[ オファースキーマ ](../experience-decisioning/catalogs.md#access-catalog-schema)に適用されます。 データガバナンスポリシーについて詳しくは、[この節](../action/action-privacy.md)を参照してください。
+   >属性に定義された制限されたラベルは、DULEまたは同意のポリシー違反につながる可能性があります。 これは、決定ルールで使用されるジャーニーエクスペリエンスイベントおよび[&#x200B; オファースキーマ &#x200B;](../experience-decisioning/catalogs.md#access-catalog-schema)に適用されます。 データガバナンスポリシーについて詳しくは、[この節](../action/action-privacy.md)を参照してください。
 
 1. ジャーニーにエントリするプロファイルに対してオファーが返されたかどうかを確認するには、構文 `listSize(@decision{ContentdecisionName.items})>0` で [listSize](functions/list-functions.md#listSize) 関数を使用します
 
@@ -160,7 +170,7 @@ ht-degree: 73%
    >
    >コンテンツ決定ノードの出力は、**[!UICONTROL 詳細設定モード]**&#x200B;でのみ使用できます。
 
-1. `items`配列を使用して、[ オファーカタログスキーマ ](../experience-decisioning/catalogs.md#access-catalog-schema)を参照します。 例えば、最初に取得したオファーの `itemName` と、2 番目に取得したオファーの `itemName` を使用します。
+1. `items`配列を使用して、[&#x200B; オファーカタログスキーマ &#x200B;](../experience-decisioning/catalogs.md#access-catalog-schema)を参照します。 例えば、最初に取得したオファーの `itemName` と、2 番目に取得したオファーの `itemName` を使用します。
 
    ![決定ポリシーを含むカスタムアクションのリクエストパラメーター](assets/journey-content-decision-custom-action-param-ex.png)
 
