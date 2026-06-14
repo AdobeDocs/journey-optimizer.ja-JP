@@ -8,30 +8,26 @@ role: Admin
 level: Intermediate
 exl-id: d8de1524-9d71-4978-86f5-1cd46f2e265c
 TQID: https://experienceleague.adobe.com/OKMsihU81BssIhueGFaWZUzUFIh-FDuo6sCnB9iwnxE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
 workflow-type: tm+mt
-source-wordcount: 1137
-ht-degree: 77%
+source-wordcount: 1164
+ht-degree: 75%
 
 ---
 
 # Web プッシュ通知チャネルの設定 {#push-notification-configuration}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;権限、データセット、プッシュ資格情報、チャネル設定、設定のテストなど、Adobe Journey Optimizerでweb プッシュ通知チャネルを設定する方法について説明します。
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] では、ジャーニーを作成し、ターゲットとなるオーディエンスにメッセージを送信できます。 [!DNL Journey Optimizer]でWeb プッシュ通知を送信する前に、Adobe Experience Platformで設定と統合が適切に行われていることを確認する必要があります。 [!DNL Adobe Journey Optimizer] でのプッシュ通知のデータフローについては、[このページ](push-gs.md)を参照してください。
 
@@ -112,7 +108,7 @@ ou need to your have access to perform following roles :
 
    >[!NOTE]
    >
-   >ユーザーがこれまでに Admin Console で作成されていない場合は、[ユーザーの追加に関するドキュメント](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users)を参照してください。
+   >Admin Console でユーザーをまだ作成していない場合は、[ユーザーの追加に関するドキュメント](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users)を参照してください。
 
    ![](assets/push_product_7.png)
 
@@ -135,9 +131,9 @@ ou need to your have access to perform following roles :
 
 ### pushNotification プロパティの設定 {#push-property}
 
-**Web プッシュ通知**&#x200B;を有効にするには、まず[pushNotifications プロパティ &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/js/commands/configure/pushnotifications)がWeb SDK内で正しく設定されていることを確認する必要があります。 このプロパティは、web アプリケーションによるプッシュ通知の処理方法を制御します。
+**Web プッシュ通知**&#x200B;を有効にするには、まず[pushNotifications プロパティ ](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/configure/pushnotifications)がWeb SDK内で正しく設定されていることを確認する必要があります。 このプロパティは、web アプリケーションによるプッシュ通知の処理方法を制御します。
 
-さらに、Journey Optimizerで[&#x200B; アプリのプッシュ資格情報](#push-credentials-launch)を設定するために必要なVAPID キーを生成する必要があります。
+さらに、Journey Optimizerで[ アプリのプッシュ資格情報](#push-credentials-launch)を設定するために必要なVAPID キーを生成する必要があります。
 
 ## 手順 1：Journey Optimizer でのアプリのプッシュ資格情報の追加 {#push-credentials-launch}
 
@@ -192,10 +188,10 @@ ou need to your have access to perform following roles :
 
 ## 手順3:sendPushSubscription プロパティの設定 {#sendPushSubscription-property}
 
-プッシュ資格情報とチャネル設定を設定したら、web アプリケーションに[sendPushSubscription コマンド &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/collection/js/commands/sendpushsubscription)を実装する必要があります。 このコマンドは、ユーザーのプッシュ通知をAdobe Experience Platformに登録し、プッシュ通知の受信とサブスクリプションステータスの維持にオプトインしたユーザーを追跡できるようにします。 これは、Journey Optimizerがターゲットを絞ったプッシュ通知を顧客に送信するために不可欠です。
+プッシュ資格情報とチャネル設定を設定したら、web アプリケーションに[sendPushSubscription コマンド ](https://experienceleague.adobe.com/en/docs/experience-platform/collection/js/commands/sendpushsubscription)を実装する必要があります。 このコマンドは、ユーザーのプッシュ通知をAdobe Experience Platformに登録し、プッシュ通知の受信とサブスクリプションステータスの維持にオプトインしたユーザーを追跡できるようにします。 これは、Journey Optimizerがターゲットを絞ったプッシュ通知を顧客に送信するために不可欠です。
 
 ## 手順 4：イベントでモバイルアプリのテスト {#mobile-app-test}
 
 Adobe Experience Platformと[!DNL Adobe Experience Platform Data Collection]の両方でweb プッシュ設定を完了した後、プロファイルにweb プッシュ通知を送信する前に実装をテストできます。 テストにより、サブスクリプションが正しく登録され、通知がユーザーのブラウザーに正しく配信されることが確認されます。
 
-イベントを使用してテストジャーニーを作成し、web プッシュ設定を検証する方法について詳しくは、[&#x200B; モバイルアプリプッシュ通知設定ドキュメント &#x200B;](push-configuration.md)を参照してください。このドキュメントでは、モバイルプッシュチャネルとweb プッシュチャネルの両方に適用できる包括的なテストワークフローを提供しています。
+イベントを使用してテストジャーニーを作成し、web プッシュ設定を検証する方法について詳しくは、[ モバイルアプリプッシュ通知設定ドキュメント ](push-configuration.md)を参照してください。このドキュメントでは、モバイルプッシュチャネルとweb プッシュチャネルの両方に適用できる包括的なテストワークフローを提供しています。

@@ -8,33 +8,26 @@ role: Admin
 level: Intermediate
 exl-id: 7099d44e-5d5d-4eef-9477-f68f4eaa1983
 TQID: https://experienceleague.adobe.com/-siREKyRJBnjClebGdA0XNIf9sm7m3YqTwoC5q3-3yg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: c96d2aa5-76a2-443d-8d23-5de95577c909id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d3cdead0-685a-4489-9250-4bb709942f66id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 28eeed0d2b5dc3054c57004ead01de32151ab743
 workflow-type: tm+mt
-source-wordcount: 2189
-ht-degree: 91%
+source-wordcount: 2210
+ht-degree: 89%
 
 ---
 
 # モバイルアプリプッシュ通知チャネルの設定 {#push-notification-configuration}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、**&#x200B;権限、プッシュ資格情報、チャネル設定、アプリとAdobe Experience Platform Mobile SDKの統合など、Adobe Journey Optimizerでモバイルアプリのプッシュ通知チャネルを設定する方法について説明します。
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] では、ジャーニーを作成し、ターゲットとなるオーディエンスにメッセージを送信できます。 [!DNL Journey Optimizer] でプッシュ通知の送信を開始する前に、モバイルアプリと Adobe Experience Platform のタグで設定と統合が行われていることを確認する必要があります。 [!DNL Adobe Journey Optimizer] でのプッシュ通知のデータフローについては、[このページ](push-gs.md)を参照してください。
 
@@ -114,7 +107,7 @@ ou need to your have access to perform following roles :
 
    >[!NOTE]
    >
-   >ユーザーがこれまでに Admin Console で作成されていない場合は、[ユーザーの追加に関するドキュメント](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users)を参照してください。
+   >Admin Console でユーザーをまだ作成していない場合は、[ユーザーの追加に関するドキュメント](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/manage-users-individually.ug.html#add-users)を参照してください。
 
    ![](assets/push_product_7.png)
 
@@ -182,7 +175,7 @@ To enable **Web push notifications**, ensure that the [pushNotifications propert
 
          >[!NOTE]
          >
-         > .p8 Apple プッシュ通知キーのみがサポートされています。 .p8 キーの制限に達した場合は、別の Apple 開発者アカウントを使用します。
+         > .p8 Apple プッシュ通知キーのみがサポートされています。.p8 キーの制限に達した場合は、別のApple Developer アカウントを使用します。
          >Apple キー制限について詳しくは、[Apple 開発者向けドキュメント](https://developer.apple.com/documentation/usernotifications/registering_your_app_with_apns)を参照してください。
 
 
@@ -229,7 +222,7 @@ To get the SDKs needed for push notification to work you will need the following
 * **[!UICONTROL Adobe Experience Platform Edge]**
 * **[!UICONTROL Adobe Experience Platform Assurance]**, optional but recommended to debug the mobile implementation.
 
-Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-mobile-android-apps-with-launch/configure-launch/launch-add-extensions.html?lang=ja).
+Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Experience Platform Launch documentation](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-mobile-android-apps-with-launch/configure-launch/launch-add-extensions.html).
 -->
 
 ## 手順 2：プッシュ用のチャネル設定の作成{#message-preset}
@@ -257,7 +250,7 @@ Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Ex
 
 1. **[!UICONTROL プラットフォーム]**（Android、iOS <!--and/or Web-->）を選択します。
 
-1. **[!UICONTROL アプリ ID]**&#x200B;で、[&#x200B; プッシュ資格情報](#push-credentials-launch)と一致する値を選択します。 オプションで、パーソナライゼーションを使用して、単一のジャーニーまたはキャンペーンから多くのアプリを誘導します。 [詳細情報](#app-id-personalization)
+1. **[!UICONTROL アプリ ID]**&#x200B;で、[ プッシュ資格情報](#push-credentials-launch)と一致する値を選択します。 オプションで、パーソナライゼーションを使用して、単一のジャーニーまたはキャンペーンから多くのアプリを誘導します。 [詳細情報](#app-id-personalization)
 
 1. **変更内容を**&#x200B;保存します。
 
@@ -278,7 +271,7 @@ Learn more about [!DNL Adobe Experience Platform Launch] extensions in [Adobe Ex
 
 >[!CAUTION]
 >
->[!DNL Journey Optimizer]は、式が返す可能性のあるすべての値に[&#x200B; プッシュ資格情報](#push-credentials-launch)が存在するかどうかを確認しません。 考えられるあらゆるアプリ IDに対してプッシュ認証情報を使用していることを確認し、担当者のプロファイルでテストします。 受信者の解決済みアプリ IDに一致するプッシュ資格情報がない場合、想定どおりに配信されません。
+>[!DNL Journey Optimizer]は、式が返す可能性のあるすべての値に[ プッシュ資格情報](#push-credentials-launch)が存在するかどうかを確認しません。 考えられるあらゆるアプリ IDに対してプッシュ認証情報を使用していることを確認し、担当者のプロファイルでテストします。 受信者の解決済みアプリ IDに一致するプッシュ資格情報がない場合、想定どおりに配信されません。
 
 ## 手順3：モバイルプロパティでAdobe Journey Optimizer拡張機能を設定する {#configure-journey-optimizer-extension}
 
