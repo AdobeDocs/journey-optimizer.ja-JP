@@ -21,14 +21,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 2e01cd1880b8527911376d94188d0204f7649541
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 293
-ht-degree: 96%
+source-wordcount: 322
+ht-degree: 88%
 
 ---
 
 # API トリガーキャンペーンの操作 {#trigger-campaigns}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** REST API呼び出しを通じてAPI トリガーキャンペーンを作成および起動し、プロファイルおよびコンテキストデータを使用してリアルタイムのマーケティングおよびトランザクションメッセージを送信できるようにします。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_api_triggered"
@@ -41,7 +47,7 @@ API トリガーキャンペーンを使用すると、適切なタイミング�
 
 それには、まず Journey Optimizer で API トリガーキャンペーンを作成し、次に [Interactive Message Execution REST API](https://developer.adobe.com/journey-optimizer-apis/references/messaging#tag/execution) を使用して、API 呼び出しを通じてその実行を開始する必要があります。
 
-➡️ [ビデオでこの機能を確認する](#video)
+➡️ [この機能をビデオで確認](#video)
 
 >[!NOTE]
 >

@@ -24,14 +24,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: c998adc41e5696cc24bb7c640ec330ccfefa139a
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 310
-ht-degree: 92%
+source-wordcount: 340
+ht-degree: 84%
 
 ---
 
 # アクションキャンペーンのレビューとアクティブ化 {#action-campaign-review}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** アクション キャンペーンの設定とコンテンツを確認して、エラーを検出してからアクティブ化します。これにより、メッセージをすぐに送信したり、スケジュールされた日付に自信を持って送信できます。
+
+>[!ENDSHADEBOX]
 
 アクションキャンペーンを設定したら、アクティブ化する前にそのパラメーターとコンテンツをレビューする必要があります。 これを行うには、次の手順に従います。
 

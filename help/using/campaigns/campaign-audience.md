@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 210
-ht-degree: 100%
+source-wordcount: 230
+ht-degree: 91%
 
 ---
 
 # アクションキャンペーンオーディエンスの定義 {#action-campaign-audience}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** 「Audience」タブでオーディエンスとID タイプを選択して、キャンペーンが適切な個人をターゲットにできるようにします。
+
+>[!ENDSHADEBOX]
 
 「**[!UICONTROL オーディエンス]**」タブを使用して、キャンペーンオーディエンスを定義します。
 

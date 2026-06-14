@@ -28,14 +28,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: e42070c4cc1dde06786c4075b1e6e45e8c323c12
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 1294
+source-wordcount: 1320
 ht-degree: 5%
 
 ---
 
 # 決定への移行のメリット {#migrate-to-decisioning}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、**&#x200B;意思決定管理に対するDecisioningの機能と利点、および使用可能な移行ツールについて説明します。これにより、移行するかどうかを決定できます。
+
+>[!ENDSHADEBOX]
 
 ## 意思決定とは？ {#what-is-decisioning}
 

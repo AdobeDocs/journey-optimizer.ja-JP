@@ -24,14 +24,20 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 896
-ht-degree: 91%
+source-wordcount: 931
+ht-degree: 87%
 
 ---
 
 # コードベースのエクスペリエンスでコンテンツ実験に意思決定を活用する {#experience-decisioning-uc}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、** 2つの選択戦略を構築し、コードベースのエクスペリエンス コンテンツ実験でランキング方法を比較するユースケースに従います。これにより、オーディエンスにとって最も効果的な決定アプローチを判断できます。
+
+>[!ENDSHADEBOX]
 
 このユースケースでは、[!DNL Journey Optimizer] コードベースチャネルで決定の使用に必要なすべての手順を示します。
 

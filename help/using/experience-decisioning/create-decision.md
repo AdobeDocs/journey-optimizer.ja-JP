@@ -21,14 +21,20 @@ subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: b91d7609df9d05a2ef04dbdbe2a78d9a084f95ac
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 704
-ht-degree: 71%
+source-wordcount: 733
+ht-degree: 69%
 
 ---
 
 # 決定ポリシーの基本を学ぶ {#create-decision}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、**&#x200B;意思決定エンジンを意思決定ポリシーがどのように使用しているか、そのガードレールと主な手順を理解して、各オーディエンスメンバーに最適なオファーを提供することができます。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_decision"

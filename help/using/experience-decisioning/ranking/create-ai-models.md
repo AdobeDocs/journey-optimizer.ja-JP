@@ -25,14 +25,20 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 771
-ht-degree: 92%
+source-wordcount: 806
+ht-degree: 88%
 
 ---
 
 # AI モデルの作成 {#create-ai-models}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;自動最適化またはパーソナライズされた最適化AI モデルを作成し、コンバージョンデータセットに接続します。これにより、意思決定エンジンはオファーを自動的にランク付けし、各プロファイルに最もコンバージョン率の高いオファーを提供できます。
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] を使用すると、ビジネス目標に基づいてオファーをランク付けする **AI モデル**&#x200B;を作成できます。
 

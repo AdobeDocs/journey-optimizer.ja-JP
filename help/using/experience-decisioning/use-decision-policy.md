@@ -23,14 +23,20 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: b91d7609df9d05a2ef04dbdbe2a78d9a084f95ac
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 1230
+source-wordcount: 1262
 ht-degree: 7%
 
 ---
 
 # メッセージでの決定ポリシーの使用 {#create-decision}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;決定ポリシーコードをコードベースのエクスペリエンス、電子メール、SMS、プッシュ通知、ダイレクトメール コンテンツに挿入すると、返された決定項目の属性を使用してメッセージをパーソナライズできます。
+
+>[!ENDSHADEBOX]
 
 決定ポリシーをコンテンツに追加したら、返された決定項目の属性をパーソナライズに使用できます。 これには、まず決定ポリシーコードをコンテンツに挿入します。
 

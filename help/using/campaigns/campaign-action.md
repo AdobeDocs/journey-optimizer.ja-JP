@@ -28,14 +28,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 856
-ht-degree: 97%
+source-wordcount: 890
+ht-degree: 93%
 
 ---
 
 # キャンペーンアクションの設定 {#action-campaign-action}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;最適化と多言語コンテンツに加えてチャネルとチャネルの設定を選択してキャンペーンアクションを設定し、複数のインバウンドアクションを追加して、キャンペーンがチャネル全体で適切なエクスペリエンスを提供できるようにします。
+
+>[!ENDSHADEBOX]
 
 「**[!UICONTROL アクション]**」タブを使用すると、メッセージのチャネル設定を選択し、トラッキング、コンテンツ実験、多言語コンテンツなどの追加設定を指定できます。
 

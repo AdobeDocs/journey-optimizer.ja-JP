@@ -12,14 +12,20 @@ feature_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 2347
-ht-degree: 84%
+source-wordcount: 2374
+ht-degree: 83%
 
 ---
 
 # 最初の決定項目を作成 {#items}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;属性、実施要件、上限ルールなどの決定項目を作成および管理して、適切なプロファイルに適切なマーケティングオファーを提示できるようにします。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_items"
@@ -153,7 +159,7 @@ Journey Optimizer では、決定項目と呼ばれるマーケティングオ�
 
    標準の&#x200B;**[!UICONTROL クリック]**&#x200B;と&#x200B;**[!UICONTROL インプレッション]**&#x200B;のキャッピングは、プッシュチャネルではサポートされていません。 プッシュを介して配信されるオファーに上限を設定するには、**[!UICONTROL カスタムイベント]** キャッピングを使用し、イベントタイプを&#x200B;**プッシュトラッキングアプリケーションを開いた**&#x200B;または&#x200B;**プッシュトラッキングカスタムアクション**&#x200B;に設定します。
 
-   プッシュ通知の場合、モバイルチャネルからのトラッキングイベントには、Experience Cloud ID （ECID）が含まれます。 IDの一貫性を維持し、キャッピングが期待どおりに機能することを確認するために、Campaignまたはジャーニー設定でECIDを使用することをお勧めします。
+   プッシュ通知の場合、モバイルチャネルからのトラッキングイベントにはExperience Cloud ID （ECID）が含まれます。 IDの一貫性を維持し、キャッピングが期待どおりに機能することを確認するために、Campaignまたはジャーニー設定でECIDを使用することをお勧めします。
 
    ![](assets/push-capping.png)
 

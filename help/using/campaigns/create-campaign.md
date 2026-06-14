@@ -22,14 +22,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 216
-ht-degree: 92%
+source-wordcount: 248
+ht-degree: 80%
 
 ---
 
 # アクションキャンペーンの操作 {#gs-action-campaigns}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** アクションキャンペーンの概要を理解し、主要な手順に従って作成すると、プロモーションオファー、お知らせ、ポリシーの更新など、スケジュールされた簡単なバッチコミュニケーションを送信できます。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="campaigns_overview_action"
@@ -40,7 +46,7 @@ ht-degree: 92%
 
 アクションキャンペーン（またはスケジュール済みキャンペーン）を使用すると、プロモーションオファー、エンゲージメントキャンペーン、お知らせ、法律上の注意、ポリシーの更新など、マーケティングのユースケースに対するシンプルなアドホックバッチ通信が可能になります。
 
-➡️ [ビデオでこの機能を確認する](#video)
+➡️ [この機能について詳しくは、ビデオを参照してください。](#video)
 
 
 >[!NOTE]

@@ -18,14 +18,20 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ac47bdffab45e4b7645430a4dab687a47844c140
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 1177
+source-wordcount: 1204
 ht-degree: 20%
 
 ---
 
 # 決定ポリシーでのフラグメントの活用 {#fragments}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、**&#x200B;意思決定ポリシー内でJourney Optimizer コンテンツフラグメントとAEM コンテンツフラグメントを活用して、チャネルをまたいでコンテンツ決定が提供する内容をパーソナライズおよび最適化できます。
+
+>[!ENDSHADEBOX]
 
 決定項目では、決定ポリシー内でメッセージをオーサリングする際に利用できる2種類のフラグメントコンテンツをサポートしています。
 

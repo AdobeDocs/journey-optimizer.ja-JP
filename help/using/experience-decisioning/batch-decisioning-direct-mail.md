@@ -6,15 +6,21 @@ topic: Integrations
 role: User
 level: Intermediate
 keywords: バッチ決定，ダイレクトメール，意思決定
-source-git-commit: 3c50b7886c95a45f60f7ebd92dd7ea28bd128b77
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '886'
 ht-degree: 0%
 
 ---
 
 
 # ダイレクトメールでのバッチ決定 {#batch-decisioning-direct-mail}
+
+>[!BEGINSHADEBOX]
+
+**このページでは：** ダイレクトメールチャネルでバッチ決定を使用して、最適な決定項目で各受信者の抽出ファイルをパーソナライズしたり、プロファイルと決定データを下流システムに書き出したりできます。
+
+>[!ENDSHADEBOX]
 
 バッチ決定では、Decisioningは各プロファイルに最適な決定項目を選択し、それらの結果をダイレクトメール抽出ファイルに含めます。 決定ポリシーの設定時に&#x200B;**[!UICONTROL 個の項目数]**&#x200B;を設定することで、プロファイルごとに複数の項目を返すことができます。 書き出されたファイルは、ダイレクトメールのパーソナライゼーションや、プロファイルと決定属性を別のシステムに書き出すバッチのユースケースに使用できます。
 

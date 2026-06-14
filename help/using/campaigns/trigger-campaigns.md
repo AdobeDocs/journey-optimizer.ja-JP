@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 551
-ht-degree: 95%
+source-wordcount: 584
+ht-degree: 89%
 
 ---
 
 # API トリガーキャンペーンの実行 {#execute}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;生成されたcURL リクエストを取得し、それを使用してAPIを介してライブ API トリガーのキャンペーンをトリガーします。トラブルシューティングのガイダンスを使用して、配信の遅延や認証エラーを解決できます。
+
+>[!ENDSHADEBOX]
 
 キャンペーンがアクティブ化されたら、生成されたサンプル cURL リクエストを取得、それを API で使用してペイロードを作成し、キャンペーンをトリガーする必要があります。
 

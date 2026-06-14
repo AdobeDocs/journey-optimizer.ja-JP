@@ -23,14 +23,20 @@ subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: b91d7609df9d05a2ef04dbdbe2a78d9a084f95ac
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 751
-ht-degree: 74%
+source-wordcount: 779
+ht-degree: 72%
 
 ---
 
 # 決定の基本を学ぶ {#get-started-experience-decisioning}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;決定の概要を理解し、主要な設定手順に従って、チャネル全体で各個人に最も関連性の高い決定項目を提供できます。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_email_enable_experience_decisioning"

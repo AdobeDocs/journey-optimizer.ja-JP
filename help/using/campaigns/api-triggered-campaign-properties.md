@@ -20,14 +20,20 @@ subfeature_v2:
   - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 301
-ht-degree: 100%
+source-wordcount: 330
+ht-degree: 91%
 
 ---
 
 # API トリガーキャンペーンのプロパティの定義 {#api-properties}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** API トリガーのキャンペーンを作成し、そのタイプ、名前、タグ、およびアクセスラベルを設定して、最初から正しい範囲で簡単に見つけられるようにします。
+
+>[!ENDSHADEBOX]
 
 新しい API トリガーキャンペーンを作成するには、次の手順に従います。
 

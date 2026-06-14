@@ -20,14 +20,20 @@ level_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 460
-ht-degree: 100%
+source-wordcount: 489
+ht-degree: 94%
 
 ---
 
 # 項目カタログの設定 {#catalog}
+
+>[!BEGINSHADEBOX]
+
+**このページでは：**&#x200B;項目カタログを設定し、そのスキーマを編集して、決定項目を整理し、オーサリング時に使用できる標準属性とカスタム属性を定義できるようにします。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_item_custom_attributes"
@@ -71,7 +77,7 @@ ht-degree: 100%
 
 1. スキーマにカスタム属性を追加するには、組織のノード（例：**`_luma`**）に展開し、構造内の目的の場所で「+」ボタンをクリックします。
 
-   ![スキーマエディターの「カスタム属性を追加」ボタン ](assets/catalogs-add.png)
+   ![スキーマエディターの「カスタム属性を追加」ボタン &#x200B;](assets/catalogs-add.png)
 
 1. 追加した属性に必要なフィールドに入力し、「**[!UICONTROL 適用]**」をクリックします。
 

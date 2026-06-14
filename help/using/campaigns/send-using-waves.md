@@ -14,14 +14,20 @@ feature_v2:
 subfeature_v2:
   - id: f7479fa1-474b-479d-8c98-f6cee5865a38
   - id: ee67bd4a-25ee-4cdd-9eab-0d7549fde0c6
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 786
-ht-degree: 2%
+source-wordcount: 813
+ht-degree: 1%
 
 ---
 
 # 施策でウェーブを使用して送信 {#send-using-waves}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、アウトバウンドキャンペーンの配信をウェーブと呼ばれるスケジュールされたバッチに分割します。これにより、負荷のバランスを取り、送信者のレピュテーションを保護し、大量の送信の配信品質を向上させることができます。
+
+>[!ENDSHADEBOX]
 
 アウトバウンドキャンペーンメッセージの配信を複数のバッチ（ウェーブ）に分割し、経時的にスケジュールできます。 ウェーブ送信は、負荷のバランスを取り、下流システム（コールセンターやランディングページなど）への負担を回避し、特に大量の送信において、配信品質と送信者のレピュテーションをサポートするのに役立ちます。
 

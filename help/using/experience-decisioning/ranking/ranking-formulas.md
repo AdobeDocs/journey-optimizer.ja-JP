@@ -22,14 +22,20 @@ topic_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 1731
-ht-degree: 64%
+source-wordcount: 1775
+ht-degree: 63%
 
 ---
 
 # ランキング式の作成 {#create-ranking-formulas}
+
+>[!BEGINSHADEBOX]
+
+**このページでは：** AI モデル スコア、オファーの優先順位、プロファイル属性、コンテキスト シグナルを組み合わせたAI式ビルダーを使用してランキング式を作成します。これにより、どのオファーを最初に表示するかを制御し、ビジネス目標と顧客のニーズの両方に合わせて意思決定を行うことができます。
+
+>[!ENDSHADEBOX]
 
 **ランキング式**&#x200B;を使用すると、優先度スコアを考慮するのではなく、どのオファーを最初に表示するかを決定するルールを定義できます。
 

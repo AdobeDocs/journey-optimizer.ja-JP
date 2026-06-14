@@ -23,14 +23,20 @@ feature_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 291
-ht-degree: 100%
+source-wordcount: 323
+ht-degree: 90%
 
 ---
 
 # データ収集の設定 {#schema-requirements}
+
+>[!BEGINSHADEBOX]
+
+**このページでは：** インプレッション、クリック、カスタムイベントに対するエクスペリエンスイベントのフィールドと提案インタラクションのスキーマ要件を設定して、レポートとAI ベースのランキング最適化に対するフィードバックを正確に属性として決定できるようにします。
+
+>[!ENDSHADEBOX]
 
 決定イベントタイプ以外のイベントタイプに関するフィードバックを取得できるようにするには、Adobe Experience Platform に送信される&#x200B;**エクスペリエンスイベント**&#x200B;で、各イベントタイプに正しい値を設定する必要があります。
 

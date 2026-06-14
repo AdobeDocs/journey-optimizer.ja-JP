@@ -14,14 +14,20 @@ feature_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 1437
+source-wordcount: 1468
 ht-degree: 2%
 
 ---
 
 # AI モデルを監視する {#ai-model-observability}
+
+>[!BEGINSHADEBOX]
+
+**このページでは：** AI ランキング モデルの正常性、トレーニング ステータス、およびパフォーマンスを監視して、ビジネス成果を向上させていることを確認し、そうでない場合はトラブルシューティングを行うことができます。
+
+>[!ENDSHADEBOX]
 
 マーケター、データサイエンティスト、意思決定管理者のいずれであっても、パーソナライズされた最適化モデルのパフォーマンスと行動を把握することで、AIを活用して、顧客一人ひとりに最適なオファーを選択することができます。
 

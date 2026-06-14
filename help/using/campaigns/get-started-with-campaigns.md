@@ -32,14 +32,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 1614
-ht-degree: 99%
+source-wordcount: 1653
+ht-degree: 97%
 
 ---
 
 # キャンペーンの基本を学ぶ {#get-started-campaigns}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、**&#x200B;施策の基本を理解し、利用可能な施策の種類を比較し、エンドツーエンドの制作ワークフローに従うことで、適切なアプローチを選択し、Adobe Journey Optimizerのチャネル全体でターゲットを絞ったコンテンツを配信する施策を構築することができます。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_schedule"

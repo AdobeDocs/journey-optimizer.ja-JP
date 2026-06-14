@@ -23,14 +23,20 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
 workflow-type: tm+mt
-source-wordcount: 543
-ht-degree: 98%
+source-wordcount: 571
+ht-degree: 93%
 
 ---
 
 # API トリガーキャンペーンのオーディエンスの定義 {#api-audience}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、API トリガーされたキャンペーンが適切な個人にリーチし、リアルタイム配信ステータスを返すように、オーディエンス、ID タイプ、自動プロファイル作成、およびwebhookを定義します。
+
+>[!ENDSHADEBOX]
 
 「**[!UICONTROL オーディエンス]**」タブを使用して、キャンペーンオーディエンスを定義します。
 

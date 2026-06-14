@@ -22,14 +22,20 @@ feature_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 893
-ht-degree: 96%
+source-wordcount: 938
+ht-degree: 91%
 
 ---
 
 # パーソナライズされた最適化モデル {#personalized-optimization-model}
+
+>[!BEGINSHADEBOX]
+
+**このページでは：** パーソナライズされた最適化モデルで、マシンラーニングを使用して、データセット要件、仮定、コールドスタート動作などの顧客、オファー、コンテキストデータから学習する方法を理解します。これにより、パーソナライズされたオファーを提供し、KPIを最大化するために、いつ使用するかを決定できます。
+
+>[!ENDSHADEBOX]
 
 ## 概要 {#overview}
 

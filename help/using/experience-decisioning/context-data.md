@@ -19,14 +19,20 @@ level_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 316
-ht-degree: 98%
+source-wordcount: 352
+ht-degree: 88%
 
 ---
 
 # 決定でのコンテキストデータの活用 {#context}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** Adobe Experience PlatformからDecisioningにコンテキストデータを定義して入力します。これにより、意思決定リクエスト時に送信されたリアルタイムの情報を意思決定ルールおよびランキング式で使用できます。
+
+>[!ENDSHADEBOX]
 
 決定を使用すると、Adobe Experience Platform で利用可能な情報を活用して、[決定ルール](rules.md)や[ランキング式](ranking/ranking.md)の作成などの様々なアクションを実行できます。
 

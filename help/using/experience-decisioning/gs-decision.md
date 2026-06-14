@@ -23,14 +23,20 @@ subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: e42070c4cc1dde06786c4075b1e6e45e8c323c12
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 328
-ht-degree: 89%
+source-wordcount: 355
+ht-degree: 83%
 
 ---
 
 # [!DNL Journey Optimizer] の決定機能の基本を学ぶ {#gs-decision}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** Journey Optimizerの決定機能と意思決定管理機能を比較して、チャネル全体でパーソナライズされたオファーを提供するための適切なアプローチを選択できます。
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] の決定機能を使用すると、すべてのタッチポイントにわたって最適なタイミングで最高のオファーとパーソナライズされたエクスペリエンスを顧客に提供できます。 これらの機能により、マーケティングオファーの一元化されたカタログと、ルールとランキング条件を使用して各個人に最も関連性の高いコンテンツを提供する高度な決定エンジンを通じて、パーソナライゼーションが簡素化されます。
 

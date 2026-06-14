@@ -19,14 +19,20 @@ level_v2:
 subfeature_v2:
   - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
   - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 205
-ht-degree: 100%
+source-wordcount: 237
+ht-degree: 86%
 
 ---
 
 # ランキング方法 {#rankings}
+
+>[!BEGINSHADEBOX]
+
+**このページでは：**&#x200B;式またはAI モデルのランキング方法を作成し、選択戦略に割り当てます。これにより、決定エンジンは、各プロファイルに最初に表示する対象項目を把握できます。
+
+>[!ENDSHADEBOX]
 
 ランキング方法を使用すると、特定のプロファイルに対して表示する項目をランク付けできます。 ランキング方法を作成したら、その方法を選択戦略に割り当てて、最初に選択する項目を定義できます。
 
