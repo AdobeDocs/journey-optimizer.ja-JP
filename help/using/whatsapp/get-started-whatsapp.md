@@ -9,25 +9,25 @@ role: User
 level: Beginner
 exl-id: 22df2bfa-4d86-464e-ad83-3aa457e3a747
 TQID: https://experienceleague.adobe.com/uHzRC9X6rB9EXH4gIFiRxFaeNcrTD0-40RrxZkN4XFg
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: b8df23d2-98a2-4406-86cc-2babe8728d36
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: b8df23d2-98a2-4406-86cc-2babe8728d36id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 01105f4dc3f6b52598c634373988570cf6916406
 workflow-type: tm+mt
-source-wordcount: 409
-ht-degree: 94%
+source-wordcount: 440
+ht-degree: 87%
 
 ---
 
 # WhatsApp メッセージの基本を学ぶ {#get-started-whatsapp}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、** WhatsApp チャネルがJourney Optimizerでどのように機能するのか、その前提条件と制限事項について説明します。これにより、ジャーニーやキャンペーンにWhatsAppを追加する方法を決定できます。
+
+>[!ENDSHADEBOX]
 
 Meta の [Cloud API](https://developers.facebook.com/docs/whatsapp/cloud-api/) 経由で、Journey Optimizer を通じて WhatsApp メッセージを直接送信できるようになりました。 この機能を使用すると、ジャーニーとキャンペーンへの WhatsApp のシームレスな統合を実現し、受信者との通信とエンゲージメントを強化できます。
 
@@ -70,7 +70,7 @@ WhatsApp を Journey Optimizer と統合するには、次が必要です。
 
 +++ こちらのビデオをご覧ください
 
->[!VIDEO](https://video.tv.adobe.com/v/3470245?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3470244?learn=on)
 
 +++
 
