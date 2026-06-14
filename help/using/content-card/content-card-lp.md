@@ -6,20 +6,22 @@ feature: Content Cards
 role: Admin, Developer
 level: Experienced
 exl-id: 8e1a1e94-c3c1-4981-9380-76b7d8302c78
-feature_v2:
-  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2:
-  - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
-  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2: id: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
 workflow-type: tm+mt
-source-wordcount: 257
-ht-degree: 61%
+source-wordcount: 285
+ht-degree: 55%
 
 ---
 
 # Mobile SDK でのコンテンツカードのサポートの設定 {#content-card-lp}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** Adobe Experience Platform Mobile SDKを使用してコンテンツカードをモバイルアプリに統合し、正確なレポート用にコンテンツカードを取得、レンダリング、追跡できるようにします。
+
+>[!ENDSHADEBOX]
 
 コンテンツカードは、Adobe Journey Optimizer から取得し、モバイルアプリケーションでのエンドツーエンドのエンゲージメントを強化する Adobe Experience Platform Mobile SDK を使用してモバイルアプリケーションでレンダリングできます。 Messaging SDK では、Adobe Journey Optimizer で作成されたコンテンツカードの取得にシンプルで使いやすい API を提供し、これらのカードのネイティブモバイルビューを作成します。これらのビューは、アプリですぐに使用したり、アプリのテーマに合わせてカスタマイズしたりできます。 また、表示されたコンテンツカードに対するアプリユーザーのすべてのインタラクションを自動的に追跡し、Journey Optimizer でのキャンペーンの正確なレポートを確保します。
 
