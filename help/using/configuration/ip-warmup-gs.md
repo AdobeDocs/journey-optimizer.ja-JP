@@ -90,10 +90,10 @@ IP ウォームアッププランの作成および実行方法について説�
 
 IP ウォームアップに関するガイダンスについて詳しくは、以下の役立つブログ投稿を参照してください。
 
-* [Adobe Journey Optimizer 配信品質ガイド：ゼロ評判からインボックスヒーローまで](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950) - 評判の基本、ウォームアップカレンダー、監視、トラブルシューティングのベストプラクティスを対象とした包括的なガイド。
+* [Adobe Journey Optimizer 配信品質ガイド：ゼロ評判からインボックスヒーローまで](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/adobe-journey-optimizer-deliverability-guide-from-zero/ba-p/761950?profile.language=ja) - 評判の基本、ウォームアップカレンダー、監視、トラブルシューティングのベストプラクティスを対象とした包括的なガイド。
 
-* [IP ウォームアップの設定方法について](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warmup-understanding-how-to-set-up-the-ip-warmup/ba-p/761949) - IP ウォームアッププランの設定の基本と、実装を成功させるためのベストプラクティスについて説明します。
+* [IP ウォームアップの設定方法について](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warmup-understanding-how-to-set-up-the-ip-warmup/ba-p/761949?profile.language=ja) - IP ウォームアッププランの設定の基本と、実装を成功させるためのベストプラクティスについて説明します。
 
-* [IP ウォームアッププランの高度な機能](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-features-in-ajo-ip-warm-up-plans-granular-controls-for/ba-p/761958) - IP ウォームアップ戦略を最適化するための高度な機能と詳細なコントロールについて説明します。
+* [IP ウォームアッププランの高度な機能](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/advanced-features-in-ajo-ip-warm-up-plans-granular-controls-for/ba-p/761958?profile.language=ja) - IP ウォームアップ戦略を最適化するための高度な機能と詳細なコントロールについて説明します。
 
-* [IP ウォームアップのトラブルシューティング](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warm-up-troubleshooting-audience-delays-and-smart-retry/ba-p/761952) - オーディエンスの遅延などの一般的な問題の解決策と、スマート再試行メカニズムについて説明します。
+* [IP ウォームアップのトラブルシューティング](https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/ajo-ip-warm-up-troubleshooting-audience-delays-and-smart-retry/ba-p/761952?profile.language=ja) - オーディエンスの遅延などの一般的な問題の解決策と、スマート再試行メカニズムについて説明します。
