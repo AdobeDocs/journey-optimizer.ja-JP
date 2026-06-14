@@ -10,11 +10,19 @@ topic: Administration
 keywords: メール, 設定, サーフェス, サブドメイン
 exl-id: 1fc9a4f6-6c34-4414-b400-aac6bda9ee25
 TQID: https://experienceleague.adobe.com/mVdk2WGb0rL06j1cmNEh4fj0JC-hwuro8ku-0Yv02N8
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: fae48155-b23f-40d2-a252-a25bce350b4d
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
+  - id: fae48155-b23f-40d2-a252-a25bce350b4d
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
 source-wordcount: 563
@@ -55,7 +63,7 @@ Adobe Journey Optimizer でメールチャネルを設定することは、効�
 
    ![](assets/surface-subdomain-ip-pool.png)
 
-   * **[!UICONTROL 送信元メールプレフィックス]**&#x200B;および&#x200B;**[!UICONTROL エラーメールプレフィックス]**&#x200B;は、現在選択されている[ デリゲートされたサブドメイン ](../configuration/about-subdomain-delegation.md)を使用しています。 オプションとして、**[!UICONTROL 送信者の名前]**&#x200B;と&#x200B;**[!UICONTROL 送信者の電子メール]**&#x200B;は、異なる送信者を識別できます（完全な&#x200B;**送信者** アドレス、そのサブドメインサフィックスに関連付けられていません）。 [詳細情報](header-parameters.md#sender-header)
+   * **[!UICONTROL 送信元メールプレフィックス]**&#x200B;および&#x200B;**[!UICONTROL エラーメールプレフィックス]**&#x200B;は、現在選択されている[&#x200B; デリゲートされたサブドメイン &#x200B;](../configuration/about-subdomain-delegation.md)を使用しています。 オプションとして、**[!UICONTROL 送信者の名前]**&#x200B;と&#x200B;**[!UICONTROL 送信者の電子メール]**&#x200B;は、異なる送信者を識別できます（完全な&#x200B;**送信者** アドレス、そのサブドメインサフィックスに関連付けられていません）。 [詳細情報](header-parameters.md#sender-header)
 
    ![](assets/preset-header.png)
 
