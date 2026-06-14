@@ -10,12 +10,22 @@ level: Intermediate
 keywords: 設定, ジャーニー, ダッシュボード, データソース, イベント, アクション
 exl-id: c144d44f-031f-4ca2-800e-d3878af400a5
 TQID: https://experienceleague.adobe.com/e-4vo3PypkPPOl5pIKWJ1Ecmflj3-CTIAtEV8fjMdk4
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126
-subfeature_v2: id: c2062154-398f-466d-bbc2-4e0d0c3f37a9id: d08afb72-92f6-4856-88e3-11ec34313c2fid: dd51b532-b93f-4bcf-8dbf-0d007f593acaid: efb19423-4da4-4fd1-88d8-5ee8c71ae766
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: d556b755-390a-43f0-be32-a08cf6236126
+subfeature_v2:
+  - id: c2062154-398f-466d-bbc2-4e0d0c3f37a9
+  - id: d08afb72-92f6-4856-88e3-11ec34313c2f
+  - id: dd51b532-b93f-4bcf-8dbf-0d007f593aca
+  - id: efb19423-4da4-4fd1-88d8-5ee8c71ae766
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
 source-wordcount: 568
