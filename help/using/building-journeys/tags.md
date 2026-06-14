@@ -111,4 +111,4 @@ Journey Optimizerの&#x200B;**タグカテゴリー**&#x200B;は、より優れ�
 
 >[!TIP]
 >
->このアプローチとその大規模なメリットについて詳しくは、[Journey Optimizerの高度なジャーニーのベストプラクティス &#x200B;](https://experienceleague.adobe.com/en/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}を参照してください。
+>このアプローチとその大規模なメリットについて詳しくは、[Journey Optimizerの高度なジャーニーのベストプラクティス &#x200B;](https://experienceleague.adobe.com/ja/perspectives/best-practices-for-advanced-journeys-in-journey-optimizer){target="_blank"}を参照してください。
