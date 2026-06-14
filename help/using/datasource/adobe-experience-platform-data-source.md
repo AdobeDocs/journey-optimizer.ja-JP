@@ -25,14 +25,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: e366af78935405cd5acb15269194875098b20914
 workflow-type: tm+mt
-source-wordcount: 451
-ht-degree: 93%
+source-wordcount: 481
+ht-degree: 87%
 
 ---
 
 # Adobe Experience Platform のデータソース {#adobe-experience-platform-data-source}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;組み込みのAdobe Experience Platform データソースにフィールドグループを設定して、ジャーニーでリアルタイム顧客プロファイルデータを取得して使用できるようにします。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_built_in"
@@ -41,9 +47,9 @@ ht-degree: 93%
 
 Adobe Experience Platform のデータソースは、Adobe リアルタイム顧客プロファイルサービスへの接続を定義します。 このデータソースはビルトインで事前に設定されているので、削除できません。 このデータソースは、リアルタイム顧客プロファイルサービスからデータを取得して使用するように設計されています（例えば、ジャーニーにエントリした人物が女性かどうかを確認します）。 アドビのリアルタイム顧客プロファイルサービスについて詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja){target="_blank"}を参照してください。
 
-リアルタイム顧客プロファイルサービスへの接続を可能にするには、人物を特定するキーと、キーを説明する名前空間前を使用する必要があります。 その結果、このデータソースは、ジャーニーが、キーと名前空間を含むイベントで開始する場合にのみ使用できます。 [詳細情報](../building-journeys/journey.md)
+リアルタイム顧客プロファイルサービスへの接続を可能にするには、人物を特定するキーと、キーを説明する名前空間前を使用する必要があります。 その結果、このデータソースは、ジャーニーが、キーと名前空間を含むイベントで開始する場合にのみ使用できます。 [学習を増やす](../building-journeys/journey.md)。
 
-「ProfileFieldGroup」という名前の事前設定済みフィールドグループを編集し、新しいグループを追加して、ドラフトまたはライブジャーニーで使用されていないフィールドグループを削除できます。 [詳細情報](../datasource/configure-data-sources.md#define-field-groups)。
+「ProfileFieldGroup」という名前の事前設定済みフィールドグループを編集し、新しいグループを追加して、ドラフトまたはライブジャーニーで使用されていないフィールドグループを削除できます。 [学習を増やす](../datasource/configure-data-sources.md#define-field-groups)。
 
 >[!CAUTION]
 >

@@ -24,15 +24,20 @@ subfeature_v2:
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
   - id: ed2fba79-65cb-4680-96d2-2ad5d851714d
   - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 0977b7c36d8556d4aaed43f4b94abb4ccacd2305
 workflow-type: tm+mt
-source-wordcount: 546
-ht-degree: 65%
+source-wordcount: 579
+ht-degree: 61%
 
 ---
 
 # Adobe Experience Platform Mobile SDKとのライブアクティビティ統合 {#mobile-live-config-sdk}
 
+>[!BEGINSHADEBOX]
+
+**このページ：** Adobe Experience Platform Mobile SDKをiOS アプリに統合して、ロック画面とダイナミック島でリアルタイムのライブアクティビティの更新を登録、表示、受信できるようにします。
+
+>[!ENDSHADEBOX]
 
 Adobe Experience Platform Mobile SDK は、Apple のライブアクティビティのビルトインのサポートを提供します。 これにより、アプリを開かなくても、ロック画面と Dynamic Island でリアルタイムの動的な更新を直接表示できます。
 

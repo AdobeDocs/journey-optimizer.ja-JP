@@ -26,14 +26,20 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
 workflow-type: tm+mt
-source-wordcount: 1126
-ht-degree: 93%
+source-wordcount: 1162
+ht-degree: 90%
 
 ---
 
 # データセットの有効期間（TTL）ガードレール {#ttl-guardrail}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** Journey Optimizer システム生成データセットの有効期間に関する制限を理解します。これにより、トラッキング、フィードバック、ジャーニーのデータが利用可能な期間を計画し、有効期限が切れる前に重要なデータを保持できます。
+
+>[!ENDSHADEBOX]
 
 2025年2月現在、**新しいサンドボックスと新しい組織**&#x200B;の Journey Optimizer システム生成データセットに、次のように有効期間（TTL）ガードレールがロールアウトされます。
 

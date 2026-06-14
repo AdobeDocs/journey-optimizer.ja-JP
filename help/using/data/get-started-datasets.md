@@ -28,14 +28,20 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 5f839a4ab1e599764c9b797e4a9a42850808e3e3
+source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
 workflow-type: tm+mt
-source-wordcount: 1055
-ht-degree: 91%
+source-wordcount: 1087
+ht-degree: 88%
 
 ---
 
 # データセットの基本を学ぶ {#datasets-gs}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** Adobe Journey Optimizerでジャーニー、キャンペーン、レポートを強化するデータを保存して調べることができるように、Adobe Experience Platform データセットにアクセスし、作成および管理する方法を説明します。
+
+>[!ENDSHADEBOX]
 
 Adobe Experience Platform に取り込まれたすべてのデータは、データレイク内にデータセットとして保持されます。 データセットは、スキーマ（列）とフィールド（行）を含んだデータコレクション（通常はテーブル）のストレージおよび管理用の構成体です。
 

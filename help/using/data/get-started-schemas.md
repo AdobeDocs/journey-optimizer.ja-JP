@@ -26,14 +26,20 @@ topic_v2:
   - id: b23e006f-0a29-4f1d-8fd0-77aa56f3d12b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
 workflow-type: tm+mt
-source-wordcount: 440
-ht-degree: 100%
+source-wordcount: 477
+ht-degree: 92%
 
 ---
 
 # スキーマの基本を学ぶ {#schemas-gs}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、** Adobe Experience Platformの標準スキーマとリレーショナルスキーマがデータ構造をどのように定義しているかを理解します。これにより、Adobe Journey Optimizerでパーソナライズおよびオーケストレーションされたキャンペーンのために、プロファイル、行動イベント、リレーショナルエンティティをモデル化できます。
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer] では、**Adobe Experience Platform スキーマ**&#x200B;に依存して、一貫性のある再利用可能な方法でデータの構造を記述します。 スキーマは、現実のオブジェクト（人物など）の概念上の定義を提供し、そのオブジェクトの各インスタンスに含める必要があるデータ（名前や誕生日など）の概要を説明します。 データが Experience Platform に取り込まれると、常に **XDM スキーマ**&#x200B;に応じて構造化されます。
 

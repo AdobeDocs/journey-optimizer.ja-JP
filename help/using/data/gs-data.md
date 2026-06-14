@@ -28,14 +28,20 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
 workflow-type: tm+mt
-source-wordcount: 2612
-ht-degree: 100%
+source-wordcount: 2652
+ht-degree: 98%
 
 ---
 
 # データ管理の基本を学ぶ {#about-data}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、** Adobe Journey Optimizerとの間でデータがどのように流れ込むのか、スキーマ、データセット、ID、プロファイル、およびデータソースについて実用的な概要を説明します。これにより、ジャーニーやキャンペーンを構築する前に、データ準備ステップを完了できます。
+
+>[!ENDSHADEBOX]
 
 データは、[!DNL Adobe Journey Optimizer] で配信するすべてのジャーニー、決定、メッセージの基盤です。
 

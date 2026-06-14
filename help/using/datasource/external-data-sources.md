@@ -26,14 +26,20 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 3c50b7886c95a45f60f7ebd92dd7ea28bd128b77
+source-git-commit: e366af78935405cd5acb15269194875098b20914
 workflow-type: tm+mt
-source-wordcount: 2084
-ht-degree: 75%
+source-wordcount: 2109
+ht-degree: 74%
 
 ---
 
 # 外部データソース {#external-data-sources}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** サードパーティ REST APIに接続して認証を設定し、条件とパーソナライゼーションのために外部データをジャーニーに取り込めるようにします。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_custom"

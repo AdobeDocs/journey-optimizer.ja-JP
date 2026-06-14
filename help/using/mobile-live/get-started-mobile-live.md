@@ -24,15 +24,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 0977b7c36d8556d4aaed43f4b94abb4ccacd2305
 workflow-type: tm+mt
-source-wordcount: 404
-ht-degree: 94%
+source-wordcount: 449
+ht-degree: 84%
 
 ---
 
 # ライブアクティビティの基本を学ぶ {#get-started-mobile-live}
 
+>[!BEGINSHADEBOX]
+
+**このページでは、** iPhoneのロック画面とダイナミックアイランドで、ライブアクティビティによって永続的かつリアルタイムに更新される方法を説明します。これにより、継続的なイベント中もユーザーの関心を維持し、Adobe Journey Optimizerを使用してユーザーに送信するために必要な設定とAPI トリガーのキャンペーンを計画できます。
+
+>[!ENDSHADEBOX]
 
 ライブアクティビティは、デバイスのロック画面に表示される、永続的で一目で確認できる UI 要素です。 これにより、アプリはリアルタイムで最新の情報を提供できます。ユーザーはアプリを開いたり、プッシュ通知を繰り返し受信することなく、進行中のイベントを通じて常に最新の情報を取得できます。
 

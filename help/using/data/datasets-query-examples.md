@@ -27,14 +27,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 5f839a4ab1e599764c9b797e4a9a42850808e3e3
+source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
 workflow-type: tm+mt
-source-wordcount: 1118
-ht-degree: 91%
+source-wordcount: 1152
+ht-degree: 89%
 
 ---
 
 # クエリの例 {#query-examples}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、** Journey Optimizer システム データセット用のSQL クエリの例を確認して、レポートとトラブルシューティング用の電子メールとプッシュ トラッキング、メッセージ フィードバック、ジャーニーの手順、決定データを分析できます。
+
+>[!ENDSHADEBOX]
 
 このページでは、Adobe Journey Optimizer データセットと関連する使用例のリストを示します。
 

@@ -12,14 +12,20 @@ feature_v2:
 subfeature_v2:
   - id: c96d2aa5-76a2-443d-8d23-5de95577c909
   - id: ed2fba79-65cb-4680-96d2-2ad5d851714d
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 0977b7c36d8556d4aaed43f4b94abb4ccacd2305
 workflow-type: tm+mt
-source-wordcount: 4607
+source-wordcount: 4641
 ht-degree: 1%
 
 ---
 
 # ライブアクティビティのトラブルシューティング {#troubleshoot-mobile-live}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、ライブアクティビティが表示、更新、終了できない理由を体系的に診断するため、単一およびブロードキャストのユースケースの両方で、プロファイルトークン、キャンペーン設定、ペイロード、配信の問題を解決できます。
+
+>[!ENDSHADEBOX]
 
 Adobe Journey Optimizerのライブアクティビティにより、iOSのロック画面やダイナミック諸島でリアルタイムかつダイナミックに更新できます。 トリガーおよび管理できるのは、API トリガーキャンペーンのみです。
 

@@ -27,14 +27,20 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: e366af78935405cd5acb15269194875098b20914
 workflow-type: tm+mt
-source-wordcount: 917
-ht-degree: 43%
+source-wordcount: 948
+ht-degree: 42%
 
 ---
 
 # データソースの基本を学ぶ {#about-data-sources}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** データソースの概要と、適切なデータアクセス戦略の選択方法を理解して、条件、パーソナライゼーション、タイミングに関する追加のデータをジャーニーに取り込む方法を説明します。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_data_source_list"
@@ -62,7 +68,7 @@ ht-degree: 43%
 
 >[!NOTE]
 >
->応答がサポートされるようになったので、外部データソースのユースケースでは、データ ソースの代わりにカスタムアクションを使用する必要があります。 応答について詳しくは、この[節](../action/action-response.md)を参照してください。
+>応答がサポートされるようになったので、外部データソースのユースケースでは、データソースの代わりにカスタムアクションを使用する必要があります。 応答について詳しくは、この[節](../action/action-response.md)を参照してください。
 
 各データソースについて、フィールドグループを使用して取得する情報を定義します。 フィールドグループは、データソースから取得できるフィールドのセットです。 [このページ](../datasource/configure-data-sources.md#define-field-groups)を参照してください。
 
