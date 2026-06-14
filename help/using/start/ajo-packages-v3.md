@@ -100,7 +100,7 @@ ht-degree: 4%
 - モバイルデバイス通知サーフェス
 - 郵送ワークフロー
 
-[電子メールの送信方法を学習](../email/get-started-email.md) | [ プッシュ通知の送信方法を学習](../push/get-started-push.md) | [ ダイレクトメールの使用方法を学習](../direct-mail/get-started-direct-mail.md) | [配信品質について学習](../reports/deliverability.md)
+[電子メールの送信方法を学習](../email/get-started-email.md) | [&#x200B; プッシュ通知の送信方法を学習](../push/get-started-push.md) | [&#x200B; ダイレクトメールの使用方法を学習](../direct-mail/get-started-direct-mail.md) | [配信品質について学習](../reports/deliverability.md)
 
 >[!TAB モバイル]
 
@@ -124,7 +124,7 @@ ht-degree: 4%
 - 永続的なコンテンツ配置
 - SDKを介したカスタムアプリサーフェス
 
-[ アプリ内メッセージの使用方法を学ぶ](../in-app/get-started-in-app.md) | [ コンテンツカードの使用方法を学ぶ](../content-card/get-started-content-card.md) | [ コードベースのエクスペリエンスの使用方法を学ぶ](../code-based/get-started-code-based.md)
+[&#x200B; アプリ内メッセージの使用方法を学ぶ](../in-app/get-started-in-app.md) | [&#x200B; コンテンツカードの使用方法を学ぶ](../content-card/get-started-content-card.md) | [&#x200B; コードベースのエクスペリエンスの使用方法を学ぶ](../code-based/get-started-code-based.md)
 
 >[!TAB Web]
 
@@ -146,7 +146,7 @@ ht-degree: 4%
 - シングルページアプリケーション（SPA）
 - カスタム web サーフェス
 
-[web チャネルの使用方法を学ぶ](../web/get-started-web.md) | [ コードベースのエクスペリエンスの使用方法を学ぶ](../code-based/get-started-code-based.md)
+[web チャネルの使用方法を学ぶ](../web/get-started-web.md) | [&#x200B; コードベースのエクスペリエンスの使用方法を学ぶ](../code-based/get-started-code-based.md)
 
 >[!TAB すべてのチャネル ]
 
@@ -186,22 +186,22 @@ ht-degree: 4%
 | 機能 | Journey Optimizer - Campaigns | Journey Optimizer -ジャーニー | Journey Optimizer - キャンペーンとジャーニー | 詳細情報 |
 |-----------|:-----------------------------:|:----------------------------:|:----------------------------------------:|-----------|
 | バッチキャンペーン | 含まれる | — | 含まれる | [キャンペーンの基本を学ぶ](../campaigns/get-started-with-campaigns.md) |
-| オーケストレーションキャンペーン | 含まれる | — | 含まれる | [ オーケストレーションされたキャンペーンの開始](../orchestrated/gs-orchestrated-campaigns.md) |
-| ジャーニーの自動化 | — | 含まれる | 含まれる | [ ジャーニーの基本を学ぶ](../building-journeys/journey-gs.md) |
-| リアルタイムのイベントトリガー | — | 含まれる | 含まれる | [ ジャーニーイベントについて](../event/about-events.md) |
+| オーケストレーションキャンペーン | 含まれる | — | 含まれる | [&#x200B; オーケストレーションされたキャンペーンの開始](../orchestrated/gs-orchestrated-campaigns.md) |
+| ジャーニーの自動化 | — | 含まれる | 含まれる | [&#x200B; ジャーニーの基本を学ぶ](../building-journeys/journey-gs.md) |
+| リアルタイムのイベントトリガー | — | 含まれる | 含まれる | [&#x200B; ジャーニーイベントについて](../event/about-events.md) |
 
 ### チャネルと高度な機能 {#channel-and-advanced-capabilities}
 
 | 機能 | 対象 | 詳細情報 |
 |-----------|-------------|-----------|
 | メール | ライセンス取得済みのチャネルアドオンで利用可能 | [電子メールの基本を学ぶ](../email/get-started-email.md) |
-| ダイレクトメール | ライセンス取得済みのチャネルアドオンで利用可能 | [ ダイレクトメールの基本を学ぶ](../direct-mail/get-started-direct-mail.md) |
-| プッシュ通知 | ライセンス取得済みのチャネルアドオンで利用可能 | [ プッシュ通知の基本を学ぶ](../push/get-started-push.md) |
-| SMS／MMS | ライセンス設定に基づいて使用できます | [ モバイルメッセージの基本を学ぶ](../mobile/get-started-mobile.md) |
-| アプリ内メッセージ | モバイルで利用可能 | [ アプリ内メッセージの基本を学ぶ](../in-app/get-started-in-app.md) |
-| コンテンツカード | モバイルで利用可能 | [ コンテンツカードの基本を学ぶ](../content-card/get-started-content-card.md) |
+| ダイレクトメール | ライセンス取得済みのチャネルアドオンで利用可能 | [&#x200B; ダイレクトメールの基本を学ぶ](../direct-mail/get-started-direct-mail.md) |
+| プッシュ通知 | ライセンス取得済みのチャネルアドオンで利用可能 | [&#x200B; プッシュ通知の基本を学ぶ](../push/get-started-push.md) |
+| SMS／MMS | ライセンス設定に基づいて使用できます | [&#x200B; モバイルメッセージの基本を学ぶ](../mobile/get-started-mobile.md) |
+| アプリ内メッセージ | モバイルで利用可能 | [&#x200B; アプリ内メッセージの基本を学ぶ](../in-app/get-started-in-app.md) |
+| コンテンツカード | モバイルで利用可能 | [&#x200B; コンテンツカードの基本を学ぶ](../content-card/get-started-content-card.md) |
 | Web チャネル | Webで利用可能 | [Web チャネルの基本を学ぶ](../web/get-started-web.md) |
-| コードベースのエクスペリエンス | 表面に応じて、モバイルまたはwebで利用可能 | [ コードベースのエクスペリエンスの基本を学ぶ](../code-based/get-started-code-based.md) |
+| コードベースのエクスペリエンス | 表面に応じて、モバイルまたはwebで利用可能 | [&#x200B; コードベースのエクスペリエンスの基本を学ぶ](../code-based/get-started-code-based.md) |
 | WhatsApp | 別のアドオンとして利用できる場合があります | [WhatsApp の基本を学ぶ](../whatsapp/get-started-whatsapp.md) |
 | 決定 | 決定アドオンで利用可能 | [決定の開始](../experience-decisioning/gs-experience-decisioning.md) |
 | AIを活用したランキング | 決定アドオンで利用可能 | [AI モデルについて学ぶ](../offers/ranking/ai-models.md) |
@@ -226,7 +226,7 @@ ht-degree: 4%
 
 +++**オーケストレーションされたキャンペーンでサポートされているチャネルはどれですか？**
 
-オーケストレーションキャンペーンは、キャンペーンオーケストレーションワークフローに使用されるチャネルのサブセットをサポートします。 チャネルの可用性は、ライセンス設定によって異なります。 [ オーケストレーションされたキャンペーンについて詳しく見る](../orchestrated/gs-orchestrated-campaigns.md)
+オーケストレーションキャンペーンは、キャンペーンオーケストレーションワークフローに使用されるチャネルのサブセットをサポートします。 チャネルの可用性は、ライセンス設定によって異なります。 [&#x200B; オーケストレーションされたキャンペーンについて詳しく見る](../orchestrated/gs-orchestrated-campaigns.md)
 
 +++
 
