@@ -26,14 +26,20 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
 workflow-type: tm+mt
-source-wordcount: 2107
-ht-degree: 97%
+source-wordcount: 2137
+ht-degree: 95%
 
 ---
 
 # ビルトインの役割 {#ootb-product-profiles}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、**&#x200B;組み込みの役割と、それぞれに含まれる権限について説明します。これにより、ユーザーの責任に合った既製のレベルのアクセス権をすばやく付与できます。
+
+>[!ENDSHADEBOX]
 
 ビルトインの役割は、ユーザーがインターフェイス内の特定の機能やオブジェクトにアクセスできるようにするための、一連の単一権限です。 役割を構築するために利用可能な権限のリストについては、[このページ](ootb-permissions.md)を参照してください。
 

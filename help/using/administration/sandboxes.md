@@ -22,14 +22,20 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
 workflow-type: tm+mt
-source-wordcount: 434
-ht-degree: 79%
+source-wordcount: 464
+ht-degree: 74%
 
 ---
 
 # サンドボックスの使用と割り当て {#sandboxes}
+
+>[!BEGINSHADEBOX]
+
+**このページでは：** サンドボックスを使用して割り当て、Adobe Journey Optimizer インスタンスを個別の環境に分割します。これにより、他の作業に影響を与えることなく、実稼動環境で開発、テスト、実行できます。
+
+>[!ENDSHADEBOX]
 
 **サンドボックス**&#x200B;は、Adobe Journey Optimizer インスタンスを個別の独立したワークスペース（開発、テスト、実稼動用）に分割する仮想環境です。 サンドボックス管理は、**管理** > **チャネル** > **システムと環境を接続** （またはインターフェイスの右上にあるサンドボックススイッチャーを使用）の下にあります。 サンドボックスを利用すれば、安全にテストを実施し、役割ごとに異なるアクセス権を割り当て、コンテンツを整理しておくことができます。 このページでは、サンドボックスの使用と割り当て、コンテンツアクセスの設定、および[&#x200B; オブジェクトを別のサンドボックスに書き出し](../configuration/copy-objects-to-sandbox.md)の記事で、サンドボックス間でジャーニーとテンプレートをコピーする方法について説明します。
 

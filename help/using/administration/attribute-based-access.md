@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
 workflow-type: tm+mt
-source-wordcount: 1074
-ht-degree: 100%
+source-wordcount: 1112
+ht-degree: 96%
 
 ---
 
 # 属性ベースのアクセス制御 {#attribute-based-access}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** Adobe Journey Optimizerの属性ベースのアクセス制御を使用して、機密性の高いスキーマフィールド、プロファイル属性、およびオーディエンスを承認済みの役割に制限します。これにより、個人データを保護し、権限のないユーザーが操作するのを防ぐことができます。
+
+>[!ENDSHADEBOX]
 
 属性ベースのアクセス制御機能を使用すると、特定のユーザーチームまたはユーザーグループのデータアクセスを管理する権限を定義できます。 機密性の高いデジタルアセットを権限のないユーザーから保護し、個人データの保護を強化することを目的としています。
 
@@ -54,7 +60,7 @@ Adobe Journey Optimizer の属性ベースのアクセス制御を使用して�
 
 >[!IMPORTANT]
 >
->>役割の権限を管理する前に、ポリシーを作成します。 詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=ja){target="_blank"}を参照してください。
+>&#x200B;>役割の権限を管理する前に、ポリシーを作成します。 詳しくは、[Adobe Experience Platform ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/access-control/abac/permissions-ui/policies.html?lang=ja){target="_blank"}を参照してください。
 
 **[!UICONTROL 役割]**&#x200B;は、組織内で同じ権限、ラベル、サンドボックスを共有するユーザーの集まりです。 **[!UICONTROL 役割]**&#x200B;に属する各ユーザーには、製品に含まれるアドビのアプリとサービスに対する権限が付与されます。 自身の&#x200B;**[!UICONTROL 役割]**&#x200B;を作成して、インターフェイス内の特定の機能やオブジェクトに対するユーザーのアクセスを微調整することもできます。
 

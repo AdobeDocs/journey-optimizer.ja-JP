@@ -32,14 +32,20 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 39c76d0356b15ec6b9cb9634d080d2f79e591adb
+source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
 workflow-type: tm+mt
-source-wordcount: 1210
+source-wordcount: 1238
 ht-degree: 25%
 
 ---
 
 # ビルトインの権限 {#ootb-permissions}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、**&#x200B;各機能で利用できる組み込みの権限を確認して、ユーザーがJourney Optimizerで作業するために必要な正確な権限をロールに割り当てることができます。
+
+>[!ENDSHADEBOX]
 
 ビルトインの権限は、「**[!UICONTROL 役割]**」に割り当てることができる様々な権限を表します。これにより、Journey Optimizer へのユーザーアクセスを微調整します。 高レベルの権限には、[このページ](high-low-permissions.md)で詳しく説明されている低レベルの権限が含まれます。
 

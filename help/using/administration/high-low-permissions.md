@@ -23,15 +23,20 @@ role_v2:
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 39c76d0356b15ec6b9cb9634d080d2f79e591adb
+source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
 workflow-type: tm+mt
-source-wordcount: 1516
-ht-degree: 96%
+source-wordcount: 1545
+ht-degree: 94%
 
 ---
 
 # 権限レベル {#high-low-permissions}
 
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;上位レベルの権限によって、各リソースの下位レベルの権限がどのようにグループ化されるかを理解できます。これにより、ユーザーが必要とする機能アクセスを役割に正確に付与できます。
+
+>[!ENDSHADEBOX]
 
 各役割は、ユーザーが様々な機能にアクセスできる権限で構成されています。
 
