@@ -9,16 +9,21 @@ role: User
 level: Intermediate
 keywords: 統合、FAQ、外部データ、パーソナライゼーション
 subfeature_v2: []
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 852
+source-wordcount: 877
 ht-degree: 1%
 
 ---
 
 # 統合に関するよくある質問 {#vendor-integration-faq}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、** Adobe Journey Optimizerの統合に関するよくある質問に対する回答を示します。ここでは、設定、認証、サポートされているチャネルと形式、権限、トラブルシューティングについて説明します。
+
+>[!ENDSHADEBOX]
 
 以下は、Adobe Journey Optimizerの&#x200B;**統合**&#x200B;に関するよくある質問です。
 
@@ -53,9 +58,9 @@ ht-degree: 1%
 
 例えば、ロイヤルティシステムからの報酬ポイント、製品価格情報、レコメンデーションエンジンからのレコメンデーション、配送状況などのロジスティクス更新などがあります。
 
-➡️ [&#x200B; サードパーティシステムからのサンプルデータについて詳しく見る](integrations.md)
+➡️ [ サードパーティシステムからのサンプルデータについて詳しく見る](integrations.md)
 
-➡️ [&#x200B; ベンダー統合の例について詳しく見る](vendor-integration.md)
+➡️ [ ベンダー統合の例について詳しく見る](vendor-integration.md)
 
 +++
 
@@ -99,7 +104,7 @@ JSON応答のサンプルを貼り付けて、システムがデータタイプ�
 
 はい。 この機能は、現在の製品制限内で、**アウトバウンド** チャネル（電子メール、SMS、プッシュなど）のジャーニーとキャンペーンの両方で利用できます。
 
-➡️ [&#x200B; ジャーニーとキャンペーンの詳細](integrations.md#limitations)
+➡️ [ ジャーニーとキャンペーンの詳細](integrations.md#limitations)
 
 +++
 
@@ -107,7 +112,7 @@ JSON応答のサンプルを貼り付けて、システムがデータタイプ�
 
 統合機能は、フラグメントでサポートされています。
 
-➡️ [&#x200B; フラグメントの詳細](aem-fragments-gs.md)
+➡️ [ フラグメントの詳細](aem-fragments-gs.md)
 
 +++
 
@@ -117,7 +122,7 @@ JSON応答のサンプルを貼り付けて、システムがデータタイプ�
 
 **送信** チャネル（電子メール、SMS、プッシュなど）がサポートされています。
 
-➡️ [&#x200B; サポートされているチャネルについて詳しく見る](integrations.md#limitations)
+➡️ [ サポートされているチャネルについて詳しく見る](integrations.md#limitations)
 
 +++
 
@@ -163,7 +168,7 @@ API呼び出し応答の場合、**JSON**&#x200B;と&#x200B;**HTML**&#x200B;は�
 
 エンドポイント URL、HTTP メソッド、パステンプレート、ヘッダーとクエリパラメーター、認証、ポリシータイムアウトを確認します。 調整後に&#x200B;**[!UICONTROL テスト接続の送信]**&#x200B;を使用します。 ペイロードの問題の場合、サンプルに有効なJSONが反映され、選択したフィールドがAPIが返すフィールドと一致することを確認します。
 
-➡️ [&#x200B; テスト接続とペイロードの検証について詳しく見る](integrations.md#configure)
+➡️ [ テスト接続とペイロードの検証について詳しく見る](integrations.md#configure)
 
 +++
 
@@ -171,7 +176,7 @@ API呼び出し応答の場合、**JSON**&#x200B;と&#x200B;**HTML**&#x200B;は�
 
 テストに成功した後は、統合を&#x200B;**アクティブ化**&#x200B;する必要があります。 マーケターが&#x200B;**[!UICONTROL 統合]**&#x200B;を開くと、アクティブな統合のみが表示されます。 統合がまだドラフトまたは非アクティブの場合は、最初にアクティベーションを完了します。
 
-➡️ [&#x200B; テスト接続とアクティブ化について詳しく見る](integrations.md#configure)
+➡️ [ テスト接続とアクティブ化について詳しく見る](integrations.md#configure)
 
 +++
 
@@ -181,6 +186,6 @@ API呼び出し応答の場合、**JSON**&#x200B;と&#x200B;**HTML**&#x200B;は�
 
 互換性のあるAPI エンドポイントを公開するサードパーティプラットフォームと統合できます。 **Illustrative**&#x200B;のベンダーパターンと設定例は、互換性のあるAPIをモデル化するのに役立ちます。 エンドポイントのセキュリティを確保する責任は、サードパーティプラットフォームとマーケティング部門にあります。
 
-➡️ [&#x200B; ベンダー統合手順の詳細](vendor-integration.md)
+➡️ [ ベンダー統合手順の詳細](vendor-integration.md)
 
 +++

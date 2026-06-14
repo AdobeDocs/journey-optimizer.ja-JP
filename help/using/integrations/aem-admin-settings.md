@@ -9,18 +9,22 @@ role: Admin
 level: Experienced
 hide: true
 keywords: AEM, コンテンツフラグメント，管理，リポジトリ，認証，著者，公開
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
+source-git-commit: 7cf2235a14f9ebb49fac02161743f75fee141504
 workflow-type: tm+mt
-source-wordcount: 430
+source-wordcount: 467
 ht-degree: 0%
 
 ---
 
 # Adobe Experience Manager リポジトリアクセスの設定 {#aem-admin-settings}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、**&#x200B;管理者がサンドボックスをAdobe Experience Manager リポジトリに接続する方法（作成者のみのアクセス、パブリッシュアクセス、カスタムドメイン、認証の設定）について説明します。これにより、マーケターはジャーニーやキャンペーンでAEM コンテンツフラグメントを使用できます。
+
+>[!ENDSHADEBOX]
 
 Adobe Journey Optimizerは&#x200B;**[!DNL Adobe Experience Manager as a Cloud Service]**&#x200B;と統合されているため、**コンテンツフラグメント**&#x200B;をジャーニーとキャンペーンで使用できます。 **コンテンツフラグメント**&#x200B;は、デフォルトでAdobe Experience Manager パブリッシュリポジトリから読み取られます。管理者は、**[!UICONTROL AEM統合]** メニューでオーサー専用に切り替えたり、パブリッシュアクセスを調整したりできます。
 

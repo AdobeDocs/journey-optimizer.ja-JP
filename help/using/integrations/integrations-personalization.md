@@ -8,19 +8,23 @@ topic: Content Management
 role: User
 level: Beginner
 keywords: 統合
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: d16f7424-4847-4b90-a37c-4b52cbdabee5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: d16f7424-4847-4b90-a37c-4b52cbdabee5
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 809
-ht-degree: 22%
+source-wordcount: 836
+ht-degree: 21%
 
 ---
 
 
 # パーソナライゼーションに対する外部統合の使用 {#integrations-personalization}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、** マーケターが設定された統合を適用して、メール、SMS、プッシュコンテンツをパーソナライズし、API呼び出しを別のAPIにチェーン付けして、より充実した動的なメッセージを作成する方法について説明します。
+
+>[!ENDSHADEBOX]
 
 コンテンツで外部統合を使用する前に、[統合の操作](integrations.md)で説明されているように、管理者が各統合（エンドポイント、認証、ポリシー、応答ペイロード、アクティベーション）を&#x200B;**設定およびアクティベート**&#x200B;していることを確認してください。
 
@@ -135,4 +139,4 @@ ht-degree: 22%
 
 このビデオでは、**統合**&#x200B;がAdobe Journey Optimizerを外部APIに接続して、ライブデータとコンテンツを&#x200B;**アウトバウンド**&#x200B;のチャネル、電子メール、SMS、プッシュ通知に取り込み、より適切なパーソナライゼーションを実現する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3484119/?captions=jpn&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3484118/?learn=on)

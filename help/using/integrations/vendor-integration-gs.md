@@ -9,17 +9,22 @@ role: User
 level: Intermediate
 keywords: 統合、ベンダー、サードパーティ
 subfeature_v2: []
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 375
+source-wordcount: 401
 ht-degree: 0%
 
 ---
 
 
 # ベンダーとの連携 {#vendor-integration}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、** サンプルを参照してください。Adobeがテストした、コンテンツ、ロイヤルティ、レコメンデーション、データおよび同意プラットフォームをまたいでAdobe Journey Optimizerとの連携をサード パーティ ベンダーに接続するための構成をテストしました。
+
+>[!ENDSHADEBOX]
 
 Adobe Journey Optimizerで&#x200B;**Integrations**&#x200B;を使用して、各システムがユースケースに適した&#x200B;**API エンドポイント**&#x200B;を公開し、Integrationsがリクエストを発行し、応答を消費する方法と互換性がある場合、HTTP **経由で**&#x200B;外部システムを呼び出すことができます。 完全なワークフローについては、[統合の操作](integrations.md)を参照してください。
 
@@ -45,7 +50,7 @@ Adobe Journey Optimizerで&#x200B;**Integrations**&#x200B;を使用して、各�
 以下のグループ化されたリンクを使用して、関連するベンダーパターンにすばやく移動できます。
 
 * **コンテンツ管理システム：** [Contentful](vendor-integration.md#contentful)、[Sitecore](vendor-integration.md#sitecore)、[Salsify](vendor-integration.md#salsify)、[Contentstack](vendor-integration.md#contentstack)、[Akeneo](vendor-integration.md#akeneo)、[Magnolia](vendor-integration.md#magnolia)
-* **ロイヤルティと報酬：** [Voucherify](vendor-integration.md#voucherify)、[Talon.One](vendor-integration.md#talon-one)、[Antavo](vendor-integration.md#antavo)、[Salesforce ロイヤルティ &#x200B;](vendor-integration.md#salesforce-loyalty)、[&#x200B; キャピラリー](vendor-integration.md#capillary)
-* **テンプレート、パーソナライズとレコメンデーション：** [Stensul](vendor-integration.md#stensul)、[Marigold](vendor-integration.md#marigold)、[Adobe Targetのレコメンデーション &#x200B;](vendor-integration.md#adobe-target-recommendations)
+* **ロイヤルティと報酬：** [Voucherify](vendor-integration.md#voucherify)、[Talon.One](vendor-integration.md#talon-one)、[Antavo](vendor-integration.md#antavo)、[Salesforce ロイヤルティ ](vendor-integration.md#salesforce-loyalty)、[ キャピラリー](vendor-integration.md#capillary)
+* **テンプレート、パーソナライズとレコメンデーション：** [Stensul](vendor-integration.md#stensul)、[Marigold](vendor-integration.md#marigold)、[Adobe Targetのレコメンデーション ](vendor-integration.md#adobe-target-recommendations)
 * **データ、天気、および操作：** [AccuWeather](vendor-integration.md#accuweather)、[ShipStation](vendor-integration.md#shipstation)、[RevenueCat](vendor-integration.md#revenuecat)、[Databricks](vendor-integration.md#databricks)
-* **レビュー、同意、およびソーシャル：** [Bynder](vendor-integration.md#bynder)、[Trustpilot](vendor-integration.md#trustpilot)、[Bazaarvoice](vendor-integration.md#bazaarvoice)、[OneTrust](vendor-integration.md#onetrust)、[Meta](vendor-integration.md#meta)、[Aprimo](vendor-integration.md#aprimo)、[Epsilon （Epsilon3） &#x200B;](vendor-integration.md#epsilon)
+* **レビュー、同意、およびソーシャル：** [Bynder](vendor-integration.md#bynder)、[Trustpilot](vendor-integration.md#trustpilot)、[Bazaarvoice](vendor-integration.md#bazaarvoice)、[OneTrust](vendor-integration.md#onetrust)、[Meta](vendor-integration.md#meta)、[Aprimo](vendor-integration.md#aprimo)、[Epsilon （Epsilon3） ](vendor-integration.md#epsilon)

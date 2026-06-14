@@ -9,21 +9,22 @@ role: User
 level: Beginner
 keywords: 統合
 exl-id: 104f283e-f6a5-431b-919a-d97b83d19632
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-subfeature_v2:
-  - id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74
-  - id: c08fcc42-2918-421a-a25e-e1bd9464c290
-  - id: c6fdb8b1-45ee-460a-a859-9031c59118b7
-  - id: d16f7424-4847-4b90-a37c-4b52cbdabee5
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+subfeature_v2: id: c7dc31c0-c4f7-42a7-8cf5-a8c5aeb0de74id: c08fcc42-2918-421a-a25e-e1bd9464c290id: c6fdb8b1-45ee-460a-a859-9031c59118b7id: d16f7424-4847-4b90-a37c-4b52cbdabee5
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 1125
-ht-degree: 34%
+source-wordcount: 1153
+ht-degree: 33%
 
 ---
 
 # 統合の操作 {#external-sources}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、**&#x200B;管理者が、アウトバウンドチャネルでパーソナライズされた動的コンテンツを実現するために、Adobe Journey OptimizerをサードパーティのAPIに接続する外部統合を設定、テスト、アクティベートする方法について説明します。
+
+>[!ENDSHADEBOX]
 
 ## 概要
 

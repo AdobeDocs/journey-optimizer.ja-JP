@@ -9,16 +9,21 @@ level: Beginner
 hide: true
 exl-id: 4c1d39c4-3154-4bec-ac3c-c2ead7164d69
 subfeature_v2: []
-feature_v2:
-  - id: fe96aceb-8194-4a8a-a6b0-75302d02804d
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: fe96aceb-8194-4a8a-a6b0-75302d02804d
+source-git-commit: 6dbdae6edd95d97e039565ed5c6e3cab9f4a19d8
 workflow-type: tm+mt
-source-wordcount: 364
+source-wordcount: 391
 ht-degree: 2%
 
 ---
 
 # カウントダウンタイマーを挿入 {#countdown}
+
+>[!BEGINSHADEBOX]
+
+**このページで：** Journey Optimizerの電子メールにDynamic Media カウントダウンタイマーを挿入して、フラッシュセールスや時間制限のあるプロモーションを緊急に実行する方法を説明します。
+
+>[!ENDSHADEBOX]
 
 受信者が電子メールを開いたときにリアルタイムで更新されるダイナミックメディアのカウントダウンタイマーを活用して、緊急性を高め、コンバージョンを最大化します。 この機能は、フラッシュセール、期間限定オファー、時間制限のあるプロモーションに最適です。
 
@@ -28,7 +33,7 @@ ht-degree: 2%
 * 24時間後に開封した受信者に「残り23時間」と表示
 * セール終了後に開封した受信者には、「タイムズアップ！」と表示されます。
 
-Adobe Experience ManagerのDynamic Media テンプレートにカウントダウンタイマーを追加する方法について詳しくは、[このドキュメント &#x200B;](assets/do-not-localize/countdown.pdf)を参照してください。
+Adobe Experience ManagerのDynamic Media テンプレートにカウントダウンタイマーを追加する方法について詳しくは、[このドキュメント ](assets/do-not-localize/countdown.pdf)を参照してください。
 
 
 1. **[!DNL Adobe Experience Manager]**&#x200B;で、Dynamic Media テンプレートを作成し、カウントダウンタイマーコンポーネントを追加します。
