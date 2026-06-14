@@ -21,14 +21,20 @@ subfeature_v2:
   - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4a6224453ae94fd5eb8ddee612ad2c4ea0f122e8
 workflow-type: tm+mt
-source-wordcount: 568
-ht-degree: 100%
+source-wordcount: 596
+ht-degree: 95%
 
 ---
 
 # ランディングページでのカスタム JavaScript の使用 {#lp-custom-js}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** カスタム JavaScriptを使用してランディングページを拡張し、入力の検証、カスタムフォーム送信の実行、分析イベントの実行、標準エディターを超えた動的なビヘイビアーの構築を行います。
+
+>[!ENDSHADEBOX]
 
 カスタム JavaScript を使用してランディングページのコンテンツを定義できます。 例えば、高度なスタイル設定を実行する必要がある場合や、ランディングページにカスタム動作を追加する場合は、[!DNL Journey Optimizer] で独自のコントロールを作成し、実行することができます。
 

@@ -25,14 +25,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: a26cfd05faa746308e7734ea9df28287d06e7290
 workflow-type: tm+mt
-source-wordcount: 245
-ht-degree: 88%
+source-wordcount: 280
+ht-degree: 77%
 
 ---
 
 # ランディングページのコンテンツのデザイン {#design-lp}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** コンテンツデザイナーで、AI アシスタント、独自のHTML、または保存されたテンプレートから、ランディングページコンテンツをゼロからデザインして、ブランドに即した訪問者体験を実現する方法をご確認ください。
+
+>[!ENDSHADEBOX]
 
 ランディング用の[プライマリページ](create-lp.md#configure-primary-page)または[サブページ](create-lp.md#configure-subpages)のコンテンツ作成を開始するには、ページコンテンツにマウスポインターを置いて、「**[!UICONTROL Designer を開く]**」をクリックします。 右側のパレットで、対応するボタンをクリックすることもできます。
 

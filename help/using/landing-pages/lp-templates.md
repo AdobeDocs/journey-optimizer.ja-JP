@@ -22,14 +22,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: 4a6224453ae94fd5eb8ddee612ad2c4ea0f122e8
 workflow-type: tm+mt
-source-wordcount: 198
-ht-degree: 100%
+source-wordcount: 222
+ht-degree: 89%
 
 ---
 
 # ランディングページテンプレートの操作 {#work-with-templates}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;完成したランディングページを再利用可能なコンテンツテンプレートとして保存し、それを適用して今後のページのデザインを高速化します。
+
+>[!ENDSHADEBOX]
 
 ## テンプレートとしてのページの保存 {#save-as-template}
 

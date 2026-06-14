@@ -23,14 +23,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: f9b8e1590f14cdcd00432295c653769f753b9b40
+source-git-commit: a26cfd05faa746308e7734ea9df28287d06e7290
 workflow-type: tm+mt
-source-wordcount: 442
-ht-degree: 100%
+source-wordcount: 469
+ht-degree: 94%
 
 ---
 
 # ランディングページの管理 {#manage-lp}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、既存のランディングページを検索、フィルタリング、フォルダーおよびタグに整理して、プロジェクトの成長に合わせて作業を構造化する方法を説明します。
+
+>[!ENDSHADEBOX]
 
 ## ランディングページへのアクセス {#access-landing-pages}
 

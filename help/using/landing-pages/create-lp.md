@@ -30,14 +30,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a26cfd05faa746308e7734ea9df28287d06e7290
 workflow-type: tm+mt
-source-wordcount: 1716
-ht-degree: 93%
+source-wordcount: 1750
+ht-degree: 91%
 
 ---
 
 # ランディングページの作成と公開 {#create-lp}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、メッセージからクリックした顧客が専用ページにアクセスして、購読、データ共有、またはオプトアウトできるように、ランディングページを設定、テスト、公開する方法について説明します。
+
+>[!ENDSHADEBOX]
 
 顧客が特定のリンクをクリックした際に表示する、定義済みの web ページに顧客を誘導するには、[!DNL Journey Optimizer] でランディングページを作成し、プライマリページとサブページを設定し、テストして公開します。
 

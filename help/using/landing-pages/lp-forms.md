@@ -24,14 +24,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a26cfd05faa746308e7734ea9df28287d06e7290
 workflow-type: tm+mt
-source-wordcount: 2080
-ht-degree: 78%
+source-wordcount: 2111
+ht-degree: 77%
 
 ---
 
 # ランディングページでのフォームの使用 {#lp-forms}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、フォームを作成してData Capture ランディングページに埋め込み、訪問者からプロファイル属性を収集し、Experience Platform データセットに送信を書き込む方法について説明します。
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] ランディングページでプロファイルデータを取得し、[!DNL Experience Platform] データセットを強化するには、ランディングページでフォームを活用できます。 データキャプチャのシナリオと要件の概要については、[&#x200B; ランディングページを使用したデータキャプチャ &#x200B;](get-started-lp.md#data-capture-lp)を参照してください。
 

@@ -21,14 +21,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 4a6224453ae94fd5eb8ddee612ad2c4ea0f122e8
 workflow-type: tm+mt
-source-wordcount: 1013
-ht-degree: 100%
+source-wordcount: 1039
+ht-degree: 97%
 
 ---
 
 # ランディングページのサブドメインの設定 {#lp-subdomains}
+
+>[!BEGINSHADEBOX]
+
+**このページで：** ランディングページ URLを定義するサブドメインを設定します。既にAdobeにデリゲートされているドメインを再利用するか、新しいドメインを設定します。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_subdomain_lp_header"
@@ -65,7 +71,7 @@ ht-degree: 100%
 
 1. **[!UICONTROL 管理]**／**[!UICONTROL チャネル]**&#x200B;メニューにアクセスして、**[!UICONTROL ランディングページ設定]**／**[!UICONTROL ランディングページのサブドメイン]**&#x200B;を選択します。
 
-1. **[!UICONTROL サブドメインを設定]**&#x200B;をクリックします。
+1. 「**[!UICONTROL サブドメインを設定]**」をクリックします。
 
    ![](assets/lp_set-up-subdomain.png)
 
