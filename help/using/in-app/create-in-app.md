@@ -46,7 +46,7 @@ ht-degree: 86%
 >id="ajo_journey_action_in_app"
 >title="アプリ内メッセージアクション"
 >abstract="アプリ内メッセージのインバウンドアクションは、プロファイルがジャーニーのこのステップに到達すると、アプリ内メッセージをプロファイルに表示します。 ラベルはジャーニーキャンバス内のアクティビティを識別し、アクションは表示されるコンテンツを定義するアプリ内設定を参照します。 **最適化** セクションには、コンテンツの実験やターゲティングルールを含めることができます。 このアクティビティの後、**Wait** ノードが自動的に挿入され（デフォルトでは3日間）、プロファイルにアプリ内メッセージを表示する時間が与えられます。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="チャネルアクションの概要"
+>additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="チャネルアクションの概要"
 
 アプリ内メッセージは、キャンペーンまたはジャーニーに追加できます。 次に説明する手順に従って、両方のコンテキストでアプリ内メッセージを作成します。
 
