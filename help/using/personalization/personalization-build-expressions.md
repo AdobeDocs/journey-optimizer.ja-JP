@@ -15,14 +15,20 @@ feature_v2:
 subfeature_v2:
   - id: e51e8901-97d9-4f7d-a835-503025a90e32
   - id: ac5d9310-7772-40fb-9d78-864562e1bfd6
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 1563
-ht-degree: 93%
+source-wordcount: 1592
+ht-degree: 91%
 
 ---
 
 # パーソナライゼーションの追加 {#build-personalization-expressions}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、パーソナライゼーションエディターを使用して、プロファイル属性、オーディエンス、オファー決定、コンテキスト属性などのソースからパーソナライゼーション式を追加、カスタマイズ、検証する方法について説明します。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_perso_editor"

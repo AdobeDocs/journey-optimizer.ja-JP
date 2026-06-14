@@ -22,14 +22,20 @@ feature_v2:
   - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 97
-ht-degree: 100%
+source-wordcount: 123
+ht-degree: 78%
 
 ---
 
 # お気に入りに属性を追加 {#fav}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** Adobe Journey Optimizerでパーソナライゼーション式を作成する際に、お気に入りメニューで属性を追加、アクセス、削除して、すばやく再利用する方法を説明します。
+
+>[!ENDSHADEBOX]
 
 お気に入りメニューに異なる属性を追加すると、最も頻繁に使用する項目にすばやくアクセスできます。 属性をお気に入りに追加するには、「...」メニューをクリックし、「**[!UICONTROL お気に入りに追加]**」を選択します。
 

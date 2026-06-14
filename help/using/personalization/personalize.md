@@ -14,14 +14,20 @@ feature_v2:
 subfeature_v2:
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 681
-ht-degree: 82%
+source-wordcount: 710
+ht-degree: 78%
 
 ---
 
 # パーソナライゼーションの概要{#add-personalization}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** パーソナライゼーションエディターの仕組み、使用できるプロファイルデータ、学習プレイグラウンド、インライン編集など、Adobe Journey Optimizerでのパーソナライゼーションの基本を学びます。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_homepage_card5"

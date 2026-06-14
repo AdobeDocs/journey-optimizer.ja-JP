@@ -23,14 +23,20 @@ topic_v2:
 subfeature_v2:
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
   - id: e51e8901-97d9-4f7d-a835-503025a90e32
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 686
-ht-degree: 93%
+source-wordcount: 715
+ht-degree: 89%
 
 ---
 
 # 動的コンテンツの作成 {#dynamic-content}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、**&#x200B;条件付きルールを使用して、パーソナライゼーション式の場合と、メール Designerのコンテンツコンポーネントのバリエーションの場合の両方で、メッセージに動的コンテンツを追加する方法について説明します。
+
+>[!ENDSHADEBOX]
 
 Adobe Journey Optimizer では、ライブラリで作成した条件付きルールを活用して、メッセージに動的コンテンツを追加できます。
 

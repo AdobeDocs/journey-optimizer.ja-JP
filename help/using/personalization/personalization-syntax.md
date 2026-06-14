@@ -23,14 +23,20 @@ topic_v2:
 subfeature_v2:
   - id: ac5d9310-7772-40fb-9d78-864562e1bfd6
   - id: e51e8901-97d9-4f7d-a835-503025a90e32
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 1299
-ht-degree: 48%
+source-wordcount: 1325
+ht-degree: 47%
 
 ---
 
 # パーソナライゼーション構文 {#personalization-syntax}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、**&#x200B;一般的なルール、予約キーワード、型強制、使用可能な名前空間、ベストプラクティスなど、Adobe Journey OptimizerのHandlebarsとPQL パーソナライゼーション構文について説明します。
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer]のPersonalizationは、同じ式で一緒に動作する2つの補完的な構文を使用します。
 
@@ -48,7 +54,7 @@ ht-degree: 48%
 | 条件付きブロック | `{%#if profile.loyalty.tier = "gold"%}...{%/if%}` |
 | 配列のループ | `{{#each profile.orders}}...{{/each}}` |
 
-属性の構造は、Adobe Experience Platform XDM スキーマで定義されます。 [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target="_blank"}。
+属性の構造は、Adobe Experience Platform XDM スキーマで定義されます。 [学習を増やす](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja){target="_blank"}。
 
 >[!TIP]
 >

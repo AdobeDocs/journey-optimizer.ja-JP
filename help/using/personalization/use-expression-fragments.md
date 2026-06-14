@@ -24,14 +24,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 1313
-ht-degree: 98%
+source-wordcount: 1346
+ht-degree: 95%
 
 ---
 
 # 式フラグメントを活用 {#use-expression-fragments}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、**&#x200B;式フラグメントをパーソナライゼーションエディターに挿入して再利用する方法、暗黙的な変数を操作する方法、ループ内でフラグメントを使用する方法、編集可能なフィールドをカスタマイズする方法、Adobe Journey Optimizerでの継承を解除する方法について説明します。
+
+>[!ENDSHADEBOX]
 
 **パーソナライゼーションエディター**&#x200B;を使用すると、現在のサンドボックスに作成または保存されたすべての式フラグメントを活用できます。
 
@@ -80,7 +86,7 @@ ht-degree: 98%
 
 1. その後、[パーソナライゼーションエディター](personalization-build-expressions.md)のパーソナライズ機能とオーサリング機能をすべて使用して、通常どおりコンテンツをカスタマイズして検証できます。
 
-1. 場合によっては、変数の計算のみが必要となり、式フラグメントのコンテンツは非表示にした方がよいこともあります。 これを行うには、`render` 属性を使用して `false` に設定します。 例：
+1. 場合によっては、変数の計算のみが必要となり、式フラグメントのコンテンツは非表示にした方がよいこともあります。 これを行うには、`render` 属性を使用して `false` に設定します。 次に例を示します。
 
    ```
    Hi {{profile.person.name.firstName|fragment id='ajo:fragmentId/variantId' mode ='inline' render=false}}

@@ -24,14 +24,20 @@ topic_v2:
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 532
-ht-degree: 98%
+source-wordcount: 559
+ht-degree: 93%
 
 ---
 
 # パーソナライゼーションのユースケース：注文ステータス通知 {#personalization-use-case}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** プロファイル、オファーの決定、コンテクストに即したジャーニーのデータを組み合わせた注文状況のユースケースに従って、Adobe Journey Optimizerでプッシュ通知をパーソナライズします。
+
+>[!ENDSHADEBOX]
 
 このユースケースでは、1 つのプッシュ通知メッセージで複数のタイプのパーソナライゼーションを使用する方法を確認できます。 次の 3 種類のパーソナライゼーションが使用されます。
 

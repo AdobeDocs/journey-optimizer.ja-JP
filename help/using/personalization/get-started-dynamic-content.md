@@ -14,14 +14,20 @@ feature_v2:
 subfeature_v2:
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 149
-ht-degree: 100%
+source-wordcount: 174
+ht-degree: 85%
 
 ---
 
 # 動的コンテンツの基本を学ぶ {#start-dynamic-content}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;動的コンテンツで、プロファイル属性、コンテキストイベント、オーディエンスから構築された条件付きルールを使用して、ターゲット プロファイルにメッセージを適応させる方法を説明します。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_conditions_list"

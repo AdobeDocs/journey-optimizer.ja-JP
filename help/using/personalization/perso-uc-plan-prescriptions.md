@@ -19,14 +19,20 @@ topic_v2:
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
-source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 116
-ht-degree: 100%
+source-wordcount: 148
+ht-degree: 78%
 
 ---
 
 # 医療保険処方箋のメール {#plan-prescription}
+
+>[!BEGINSHADEBOX]
+
+**このページでは：**&#x200B;条件付きルールを使用してネストされたプロファイル配列を繰り返し処理するパーソナライゼーションの使用例に従って、受け取りや呼び出しの準備が整ったヘルスプランのメールリストの処方箋を作成します。
+
+>[!ENDSHADEBOX]
 
 プロファイルには医療保険が含まれ、各保険には処方箋が含まれます。 処方箋には、「準備完了」、「リコール」、「受け取り済み」など、様々な状態があります。
 

@@ -10,14 +10,20 @@ feature_v2:
 subfeature_v2:
   - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
   - id: ac5d9310-7772-40fb-9d78-864562e1bfd6
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 815
+source-wordcount: 845
 ht-degree: 0%
 
 ---
 
 # Personalizationレシピ {#personalization-recipes}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、Adobe Journey Optimizer コンテンツに直接コピーできる日付、配列、文字列、条件付きロジック、およびPQL エッジ ケースの、すぐに使用できるパーソナライズのレシピを見つけることができます。
+
+>[!ENDSHADEBOX]
 
 このページでは、Adobe Journey Optimizerの最も一般的なユースケース向けに、すぐに使用できるパーソナライゼーションパターンを提供します。 あらゆる例でパーソナライゼーションエディターの構文を使用しており、電子メール、SMS、プッシュコンテンツに直接コピーできます。
 

@@ -13,14 +13,20 @@ feature_v2:
   - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
 subfeature_v2:
   - id: a757b957-83f3-4a4d-9775-a93854f84f77
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 635
-ht-degree: 94%
+source-wordcount: 666
+ht-degree: 89%
 
 ---
 
 # 条件付きルールの操作 {#conditions}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、パーソナライゼーションエディターでプロファイル属性、コンテキストイベント、オーディエンスから条件付きルールを作成し、コンテンツ全体で再利用できるようにライブラリに保存する方法を説明します。
+
+>[!ENDSHADEBOX]
 
 条件付きルールとは、プロファイルの属性、オーディエンスメンバーシップ、コンテキストイベントなどの様々な条件に応じて、メッセージに表示するコンテンツを定義する一連のルールです。
 
