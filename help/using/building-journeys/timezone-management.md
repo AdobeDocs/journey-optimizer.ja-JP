@@ -23,14 +23,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 380
-ht-degree: 72%
+source-wordcount: 418
+ht-degree: 66%
 
 ---
 
 # タイムゾーン管理 {#timezone_management}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、** ジャーニーのタイムゾーン（固定タイムゾーンまたは各プロファイルから取得したタイムゾーン）を設定して、時間条件、日付条件、カスタム待機などの時間ベースのアクティビティを実行するタイミングを制御する方法について説明します。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_properties_time_zone"

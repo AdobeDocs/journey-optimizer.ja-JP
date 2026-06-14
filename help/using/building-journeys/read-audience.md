@@ -32,14 +32,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 02ce60020012083981c5599789b9e86804190627
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 3958
+source-wordcount: 3992
 ht-degree: 55%
 
 ---
 
 # ジャーニーでのオーディエンスの使用 {#segment-trigger-activity}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、** オーディエンスを読み取りアクティビティを設定して、Adobe Experience Platform オーディエンスのプロファイルをジャーニーに、オンデマンドまたはスケジュールに取り込み、各プロファイルのパスをパーソナライズする方法について説明します。
+
+>[!ENDSHADEBOX]
 
 「オーディエンスを読み取り」アクティビティを使用して、定義されたオーディエンスでジャーニーを開始します。 オーディエンスとその実行日時を選択し、[条件](#audience-targeting-in-journeys)、タイマー、アクションを使用して、各プロファイルのパスをパーソナライズします。
 

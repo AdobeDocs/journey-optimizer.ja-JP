@@ -28,14 +28,20 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 595
-ht-degree: 96%
+source-wordcount: 623
+ht-degree: 92%
 
 ---
 
 # ジャーニー指標の設定とトラッキング {#success-metrics}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、** KPIに対するパフォーマンスを追跡し、カスタマージャーニーの効果をリアルタイムで測定するために、ジャーニー指標を設定および割り当てる方法について説明します。
+
+>[!ENDSHADEBOX]
 
 ジャーニー指標を使用して、カスタマージャーニーの有効性を明確に可視化します。 この機能を使用すると、定義済みの KPI に対するパフォーマンスを追跡し、機能している項目に関するインサイトを得て、最適化の領域を特定できます。 影響をリアルタイムで測定することで、継続的な改善を推進し、データに基づいた意思決定を行って顧客エンゲージメントを高めることができます。
 

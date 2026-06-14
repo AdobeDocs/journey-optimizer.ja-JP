@@ -24,14 +24,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 8a60b2d54073f30628f1939839faf992fcfd151b
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1171
-ht-degree: 76%
+source-wordcount: 1203
+ht-degree: 74%
 
 ---
 
 # ジャーニーの終了 {#journey-ending}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、**&#x200B;個々のプロファイルと全体の両方でジャーニーが終了する方法と、新しいエントリまたはすべての処理を停止する必要がある場合にライブジャーニーを閉じたり停止したりする方法について説明します。
+
+>[!ENDSHADEBOX]
 
 >[!TIP]
 >

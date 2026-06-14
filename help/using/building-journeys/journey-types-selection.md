@@ -27,14 +27,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 993
-ht-degree: 96%
+source-wordcount: 1030
+ht-degree: 93%
 
 ---
 
 # ジャーニータイプと選択ガイド {#journey-types-selection}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、**&#x200B;単一、読み取り、オーディエンスの選定、ビジネスイベントの4つのジャーニータイプを比較し、意思決定ガイドと機能互換性マトリックスを使用して、ユースケースに適したものを選択する方法を説明します。
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer]は4つのジャーニータイプをサポートしており、それぞれ異なるエントリメカニズムとビジネスシナリオ用に設計されています。 このガイドは、違いを理解し、ユースケースに適したタイプを選択するのに役立ちます。
 

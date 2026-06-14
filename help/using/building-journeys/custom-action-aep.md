@@ -22,14 +22,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 418
-ht-degree: 85%
+source-wordcount: 442
+ht-degree: 81%
 
 ---
 
 # カスタムアクションを使用した Experience Platform のジャーニーイベントの書き込み {#custom-action-aep}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** カスタムアクションと認証済みAPI呼び出しを使用して、ジャーニーからAdobe Experience Platformにカスタムジャーニーイベントを書き込む方法を説明します。
+
+>[!ENDSHADEBOX]
 
 このユースケースでは、カスタムアクションと認証済み呼び出しを使用して、ジャーニーから[!DNL Adobe Experience Platform]にカスタムイベントを書き込む方法について説明します。
 

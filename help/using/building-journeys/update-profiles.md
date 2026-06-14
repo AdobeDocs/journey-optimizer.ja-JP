@@ -23,14 +23,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 909
-ht-degree: 35%
+source-wordcount: 938
+ht-degree: 34%
 
 ---
 
 # プロファイルの更新 {#update-profile}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、** 「プロファイルを更新」アクション アクティビティを使用して、お客様がジャーニーを進む際に、既存のAdobe Experience Platform プロファイルを拡充または修正する方法について説明します。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_update_profiles"

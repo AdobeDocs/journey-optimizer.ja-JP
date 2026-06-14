@@ -11,14 +11,20 @@ keywords: テスト, ジャーニー, チェック, エラー, トラブルシ�
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: a61f805d573f11f255e386c35a5d79ab6650bcc5
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1452
+source-wordcount: 1479
 ht-degree: 3%
 
 ---
 
 # ジャーニーシミュレーションの基本を学ぶ {#simulate-journey-gs}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、ジャーニーシミュレーションを使用してシミュレートされたユーザーをテストする方法と、公開する前にジャーニーのタイプによってシミュレーションエクスペリエンスがどのように異なるかを説明します。
+
+>[!ENDSHADEBOX]
 
 >[!IMPORTANT]
 >

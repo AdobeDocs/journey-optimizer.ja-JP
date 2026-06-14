@@ -27,14 +27,20 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 472
-ht-degree: 85%
+source-wordcount: 501
+ht-degree: 80%
 
 ---
 
 # Campaign v7／v8 を使用したメッセージの送信 {#campaign-v7-v8-use-case}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** トランザクションテンプレート、イベント、アクションの作成など、Adobe Campaign v7およびv8との統合を使用してジャーニーからメールを送信する方法を説明します。
+
+>[!ENDSHADEBOX]
 
 このユースケースでは、[!DNL Adobe Campaign] v7および[!DNL Adobe Campaign] v8との統合を使用してメールを送信するために必要なすべての手順について説明します。
 

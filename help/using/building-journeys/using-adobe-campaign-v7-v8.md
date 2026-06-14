@@ -25,14 +25,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 299
-ht-degree: 63%
+source-wordcount: 327
+ht-degree: 58%
 
 ---
 
 # [!DNL Adobe Campaign] v7/v8 のアクション {#using_campaign_v7-v8}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** Adobe Campaign v7とv8の統合を使用して、Campaignのトランザクションメッセージを通じて、ジャーニーから電子メール、プッシュ通知、SMSを送信する方法を説明します。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_custom_acc"

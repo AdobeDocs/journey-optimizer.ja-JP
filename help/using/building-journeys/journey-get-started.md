@@ -30,14 +30,20 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-source-git-commit: 06565328f42ff79943f774df55d8e41118b40815
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 979
-ht-degree: 82%
+source-wordcount: 1009
+ht-degree: 80%
 
 ---
 
 # ジャーニーオーケストレーション – 完全ガイド{#journey-orchestration-guide}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、** Adobe Journey Optimizerのジャーニーオーケストレーションの完全なガイドを入手し、リアルタイムに適応するマルチステップのマルチチャネル カスタマージャーニーを設計、管理、改良する方法について説明します。
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer]のジャーニーを利用すると、オーディエンスの行動やニーズにリアルタイムで適応する、パーソナライズされたマルチステップのカスタマージャーニーを作成できます。 直感的なドラッグ＆ドロップキャンバスを使用すると、コンテキストデータとオーディエンスターゲティングを活用して、複数のチャネルをまたいでメッセージとアクションを調整し、最大限の影響を得ることができます。
 

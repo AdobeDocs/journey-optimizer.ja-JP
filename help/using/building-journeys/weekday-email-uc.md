@@ -28,14 +28,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1078
-ht-degree: 89%
+source-wordcount: 1109
+ht-degree: 87%
 
 ---
 
 # 平日にのみメールを送信 {#send-emails-only-on-weekdays}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、**&#x200B;曜日にのみメールを送信するジャーニーを設定し、条件アクティビティを使用して月曜日配信の週末エントリをキューに入れ、カスタム式を使用してアクティビティを待機する方法について説明します。
+
+>[!ENDSHADEBOX]
 
 このユースケースでは、平日（月曜日から金曜日）にのみメールを送信する[!DNL Adobe Journey Optimizer]のジャーニーを設定する方法を示します。 週末（土曜日または日曜日）にジャーニーにエントリするプロファイルの場合、メールは自動的にキューに追加され、月曜日の指定した時刻に送信されます。 これにより、平日にメッセージを配信することで、最適なエンゲージメントが確保されます。
 

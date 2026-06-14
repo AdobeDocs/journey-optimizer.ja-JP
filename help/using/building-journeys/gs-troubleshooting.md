@@ -28,14 +28,20 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 245
-ht-degree: 92%
+source-wordcount: 255
+ht-degree: 89%
 
 ---
 
 # ジャーニーのトラブルシューティング {#troubleshooting}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、ジャーニーエラー、実行の不整合、インバウンドアクションの問題、カスタムアクションの問題の診断と解決に役立つ、一般的な問題領域で整理されたトラブルシューティングリソースを見つけることができます。
+
+>[!ENDSHADEBOX]
 
 カスタマージャーニーが期待どおりに動作しない場合、根本原因を特定するのは困難になる可能性があります。 問題を効率的に解決するために、最も一般的な問題領域別のトラブルシューティングリソースを以下に示します。 ジャーニーの失敗、実行の不一致、アクションレベルの問題のどれが表示されたかに関わらず、それぞれの節では、調査して解決するターゲットを絞ったガイダンスを提供します。
 
@@ -77,7 +83,7 @@ ht-degree: 92%
     <div>
     <a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=ja">
     <img alt="一般的なエラーコードについて" src="../assets/do-not-localize/icon-quick-start.svg" /></a> 
-    <br>さらに、<strong>一般的なエラーコード </strong>とその解決方法について詳しくは、<a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=ja" target="_blank">このAdobe コミュニティ ブログ投稿</a>をご覧ください。
+    <br>さらに、<strong>一般的なエラーコード</strong>とその効果的な解決方法を詳しく説明した<a href="https://experienceleaguecommunities.adobe.com/t5/journey-optimizer-blogs/demystifying-adobe-journey-optimizer-error-codes-root-causes-and/ba-p/760884?profile.language=ja" target="_blank">こちらのアドビコミュニティのブログ投稿</a>も参照してください。
     </div>
   </td>
 </tr>

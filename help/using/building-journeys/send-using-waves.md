@@ -12,14 +12,20 @@ keywords: ウェーブ、バッチ、スケジュール、ジャーニー、オ�
 exl-id: 1aaff17f-aa08-4f10-903c-8335a86ac6eb
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 868
+source-wordcount: 896
 ht-degree: 2%
 
 ---
 
 # ジャーニーでのウェーブを使用した送信 {#send-using-waves-journeys}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、**&#x200B;読み取りオーディエンスジャーニーから送信メッセージをウェーブと呼ばれるスケジュールされたバッチで配信し、負荷のバランスを取り、下流システムを保護し、配信品質をサポートする方法について説明します。
+
+>[!ENDSHADEBOX]
 
 ジャーニーからのアウトバウンドメッセージを、一度にではなくバッチ（ウェーブ）で送信できます。 ウェーブ送信は、負荷のバランスを取り、ダウンストリームの圧倒的なシステム（コールセンターやランディングページなど）を回避し、配信品質と送信者のレピュテーション（特に大量の読み取りオーディエンスジャーニー）をサポートするのに役立ちます。
 

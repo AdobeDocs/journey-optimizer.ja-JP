@@ -28,14 +28,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: d9a93a5ae5dfbb21b4dfd102b356c15982e6d5a1
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 4152
-ht-degree: 63%
+source-wordcount: 4186
+ht-degree: 62%
 
 ---
 
 # ジャーニーのプロパティの設定 {#jo-properties}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、オーサリング中に、ジャーニーの名前、入口ルール、タイムゾーン、開始日と終了日、タイムアウト、出口基準、競合管理などのジャーニーのグローバルプロパティを右側のパネルから設定する方法について説明します。
+
+>[!ENDSHADEBOX]
 
 ジャーニープロパティを使用して、ジャーニーの名前、入口ルール、タイムゾーン、開始日と終了日、タイムアウト時間、出口基準、競合管理など、ジャーニーのグローバル設定を設定します。 プロパティには、ジャーニーオーサリングのどの段階でも、右側のパネルからアクセスできます。
 

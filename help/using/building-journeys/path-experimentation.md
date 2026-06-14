@@ -11,14 +11,20 @@ keywords: 実験、実験、ジャーニー、パス、最適化、A/B テスト
 exl-id: 7241ade3-577c-4bb3-b0c3-017133871ca5
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1147
-ht-degree: 78%
+source-wordcount: 1186
+ht-degree: 76%
 
 ---
 
 # パス実験を使用 {#experimentation}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、「最適化」アクティビティを使用してパス実験を設定し、A/Bまたはマルチアームドバンディット実験を使用して様々なジャーニーパスをテストする方法、成功指標による最もパフォーマンスの高い処理を特定する方法、勝者を拡大する方法について説明します。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_path_experiment_success_metric"

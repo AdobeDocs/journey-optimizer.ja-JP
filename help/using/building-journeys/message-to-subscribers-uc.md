@@ -24,14 +24,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 355
-ht-degree: 100%
+source-wordcount: 382
+ht-degree: 92%
 
 ---
 
 # リスト上の購読者に対するメッセージの送信 {#send-a-message-to-the-subscribers-of-a-list}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、「同意と環境設定の詳細」フィールドグループを使用して、リストの購読者にメッセージを送信するジャーニーを構築する方法を説明します。
+
+>[!ENDSHADEBOX]
 
 このユースケースの目的は、ジャーニーを作成してリスト上の購読者にメッセージを送信することです。
 

@@ -11,14 +11,20 @@ keywords: エラー, コード, トラブルシューティング, ジャーニ�
 exl-id: 84924153-1bb5-465a-b91c-797628fc816c
 feature_v2: []
 subfeature_v2: []
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 2351
+source-wordcount: 2358
 ht-degree: 84%
 
 ---
 
 # エラーコードの参照 {#error-codes}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、** Adobe Journey Optimizerのエラーコードの構造化、見つける場所、ジャーニー、キャンペーン、メッセージ設定に関する一般的なエラーのトラブルシューティング方法について説明します。
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer]は、標準化されたエラーコードを使用して、ジャーニー、キャンペーン、メッセージ設定をまたいで問題をすばやく特定し、解決するのに役立ちます。 これらのエラーコードを理解すると、トラブルシューティング時間を大幅に短縮し、最適なキャンペーンのパフォーマンスを維持できます。
 

@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 566
-ht-degree: 94%
+source-wordcount: 590
+ht-degree: 90%
 
 ---
 
 # ジャーニーキャンバスのライブレポート {#report-journey}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** ライブレポートを使用して、過去24時間の主要なジャーニー指標をジャーニーキャンバス内で直接監視する方法を説明します。
+
+>[!ENDSHADEBOX]
 
 ジャーニーが公開され、[ドライランモード](journey-dry-run.md)がアクティブ化されると、**ライブレポート**&#x200B;により、過去 24 時間の指標がジャーニーキャンバス内で直接提供されます。
 

@@ -23,14 +23,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 642
-ht-degree: 41%
+source-wordcount: 670
+ht-degree: 39%
 
 ---
 
 # ジャーニーでのタグの管理 {#journey_tags}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** タグとタグ カテゴリを使用してジャーニーを整理し、命名規則よりも簡単にジャーニーを分類、フィルタリング、検索する方法を説明します。
+
+>[!ENDSHADEBOX]
 
 Journey Optimizer の実務担当者は、タグを使用してジャーニーを整理できます。 タグを使用すると、オブジェクトをすばやく簡単に分類でき、検索が改善されます。
 

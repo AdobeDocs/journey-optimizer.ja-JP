@@ -11,15 +11,21 @@ keywords: フラグメント，ジャーニー，再利用，ノード，キャ�
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: d9a93a5ae5dfbb21b4dfd102b356c15982e6d5a1
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1644
+source-wordcount: 1671
 ht-degree: 7%
 
 ---
 
 
 # ジャーニーフラグ {#journey-fragments}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、ジャーニーフラグメント（ジャーニーノードの再利用可能なセット）を作成、管理、再利用して、ジャーニーをより迅速に構築し、サンドボックス全体で一貫性を維持する方法を説明します。
+
+>[!ENDSHADEBOX]
 
 ジャーニーフラグメントは、再利用可能なジャーニーノードのセットです。一度構築すれば、サンドボックスをまたいであらゆるジャーニーにドロップできます。 実施要件のチェック、好みのチャネルルーティングロジック、ウェルカムシーケンスなど、フラグメントは、同じロジックを毎回ゼロから再構築することなく、より迅速に作業し、一貫性を維持するのに役立ちます。 [&#x200B; ユースケースの例を参照してください。](#examples)
 

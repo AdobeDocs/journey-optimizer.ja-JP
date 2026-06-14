@@ -18,14 +18,20 @@ topic_v2:
   - id: c4147b6e-073b-4d3c-9ab1-d60f2f4434ef
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1095
-ht-degree: 79%
+source-wordcount: 1124
+ht-degree: 77%
 
 ---
 
 # ジャーニーのエクスペリエンスイベント参照 {#ee-journeys}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、**&#x200B;拡張可能なパターンと、ジャーニーでエクスペリエンスイベントを使用して、プロファイルの行動とイベント属性に基づいてプロファイルを抑制、選定、パーソナライズするためのベストプラクティスについて説明します。
+
+>[!ENDSHADEBOX]
 
 >[!CAUTION]
 >

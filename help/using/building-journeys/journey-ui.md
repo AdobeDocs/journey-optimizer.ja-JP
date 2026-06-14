@@ -12,14 +12,20 @@ exl-id: 770bdbf2-560d-4127-bdb9-1f82495a566f
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1482
-ht-degree: 95%
+source-wordcount: 1506
+ht-degree: 94%
 
 ---
 
 # ジャーニーの参照とフィルタリング {#browse-journeys}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** Adobe Journey Optimizerのジャーニーダッシュボード、リスト、カレンダービューを使用して、ジャーニーを参照、検索、フィルタリングする方法を説明します。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_view"

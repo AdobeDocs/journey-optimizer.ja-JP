@@ -32,14 +32,20 @@ topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: d9a93a5ae5dfbb21b4dfd102b356c15982e6d5a1
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1377
-ht-degree: 70%
+source-wordcount: 1413
+ht-degree: 68%
 
 ---
 
 # ジャーニーのドライラン {#journey-dry-run}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;実際の顧客に連絡したり、プロファイルを更新したりすることなく、実際の実稼動データを使用してジャーニーをテストするドライラン モードでジャーニーを公開する方法を説明します。これにより、本番稼働前にデザインを検証できます。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_dry_run"

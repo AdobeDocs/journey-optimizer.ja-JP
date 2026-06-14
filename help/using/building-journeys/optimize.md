@@ -29,14 +29,20 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 470
-ht-degree: 45%
+source-wordcount: 496
+ht-degree: 43%
 
 ---
 
 # 最適化アクティビティの基本を学ぶ {#journey-path-optimization}
+
+>[!BEGINSHADEBOX]
+
+**このページで：**&#x200B;最適化アクティビティを使用して、実験、ターゲティング、条件に基づいて複数のジャーニーパスを作成し、以前の条件アクティビティを置き換える方法を説明します。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_optimize"

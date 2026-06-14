@@ -30,14 +30,20 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1134
-ht-degree: 73%
+source-wordcount: 1054
+ht-degree: 76%
 
 ---
 
 # ユースケースを通じて学ぶ {#jo-uc-gs}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** ジャーニーの設計、データのモデル化、アクティベーション ロジックの構築に役立つ、Adobe Journey Optimizerの実用的なユースケースとエンドツーエンドのシナリオのライブラリについて説明します。
+
+>[!ENDSHADEBOX]
 
 このセクションでは、[!DNL Adobe Journey Optimizer]を最大限に活用するための実用的なユースケースのコレクションを紹介します。 抑制ロジック、パーソナライゼーション手法、ジャーニー終了戦略などの戦術パターンや、マーケティングワークフローとテクニカルワークフローを対象とした完全なエンドツーエンドのシナリオを探している場合は、関連するサンプルへの以下のリンクを参照してください。
 
@@ -56,7 +62,7 @@ ht-degree: 73%
     <div>
     <a href="exp-event-lookup.md">
     <img alt="エクスペリエンスイベント参照のベストプラクティス" src="../assets/do-not-localize/icon-quick-start.svg" /></a> 
-    <br>一般的なパターンとスケーラブルなアプローチを学び、[!DNL Adobe Journey Optimizer]でエクスペリエンスイベントを最大限に活用します。 これらのユースケースは、オプトアウトの管理、メッセージ頻度の制御、ユーザー行動に基づくコンテンツのパーソナライズ、リアルタイムシグナルへの対応など、頻繁に発生する課題の解決に役立つように設計されています。
+    <br>一般的なパターンとスケーラブルなアプローチを学び、[!DNL Adobe Journey Optimizer]でエクスペリエンスイベントを最大限に活用します。これらのユースケースは、オプトアウトの管理、メッセージ頻度の制御、ユーザーの行動にもとづくコンテンツのパーソナライズ、リアルタイムのシグナルへの対応など、頻繁に発生する課題を解決するために設計されています。
     </div>
       <div>
      <a href="exp-event-lookup.md">詳細情報</a></div>
@@ -169,35 +175,35 @@ ht-degree: 73%
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-quick-start.svg" width="35px">
-    <br/>
-      <strong>顧客オンボーディング </strong><br/><p>Journey Optimizer でカスタマーオンボーディングジャーニーを実装する方法について説明します。</p> - <a href="https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding" target="_blank">ユースケースビデオを視聴</a>
+    <br/>
+      <strong>カスタマーオンボーディング</strong><br/><p>Journey Optimizer でカスタマーオンボーディングジャーニーを実装する方法について説明します。</p> - <a href="https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/use-cases/customer-onboarding" target="_blank">ユースケースビデオを視聴</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-campaign.svg" width="35px">
-    <br/>
-      <strong> カート放棄</strong><br/><p>[!DNL Adobe Journey Optimizer]のプレイブック機能を使用して、放棄されたショッピングカートのユースケースを実装する方法を説明します。</p><a href="https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart" target="_blank">ユースケースビデオを視聴</a>
+    <br/>
+      <strong>放棄された買い物かご</strong><br/><p>[!DNL Adobe Journey Optimizer]のプレイブック機能を使用して、放棄されたショッピングカートのユースケースを実装する方法を説明します。</p><a href="https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/use-cases/abandoned-cart" target="_blank">ユースケースビデオを視聴</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-content.svg" width="35px">
     <br/>
-      <strong> リエンゲージメント </strong><br/><p>アドビがデータアーキテクトおよびデータエンジニアのチュートリアルと Experience Platform Web SDK チュートリアルに記載されている基盤実装に基づいて、インテリジェントな再エンゲージメントのユースケースを Luma デモサイトで操作するのに適応させた方法について説明します。</p><a href="https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/use-cases/personalization-insights-engagement/use-cases-luma" target="_blank">ユースケースビデオを視聴</a> 
+      <strong>再エンゲージメント</strong><br/><p>アドビがデータアーキテクトおよびデータエンジニアのチュートリアルと Experience Platform Web SDK チュートリアルに記載されている基盤実装に基づいて、インテリジェントな再エンゲージメントのユースケースを Luma デモサイトで操作するのに適応させた方法について説明します。</p><a href="https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/use-cases/personalization-insights-engagement/use-cases-luma" target="_blank">ユースケースビデオを視聴</a> 
     </td>
   </tr>
   <tr style="border: 0;">
     <td>
       <img src="../assets/do-not-localize/icon-experience.svg" width="35px">
     <br/>
-      <strong> リアルタイムのオファーのパーソナライゼーション </strong><br/><p>[!DNL Adobe Journey Optimizer]の気象関連データを使用してオファーを提供することで、企業はリアルタイムの環境条件に基づいて顧客体験をパーソナライズできます。</p><a href="https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/personalizing-offers-with-real-time-weather-data/introduction" target="_blank">ステップバイステップチュートリアルに従う</a>
+      <strong> リアルタイムのオファーのパーソナライゼーション</strong><br/><p>[!DNL Adobe Journey Optimizer]の気象関連データを使用してオファーを提供することで、企業はリアルタイムの環境条件に基づいて顧客体験をパーソナライズできます。</p><a href="https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/personalizing-offers-with-real-time-weather-data/introduction" target="_blank">ステップバイステップチュートリアルに従う</a>
     </td>
     <td>
       <img src="../assets/do-not-localize/icon-configure.svg" width="35px">
     <br/>
-      <strong>決定を通じて配信されたオファーを追跡およびレポート </strong><br/><p>[!DNL Adobe Journey Optimizer]を通じて配信されるオファーのレポートとパフォーマンス分析を有効にする：オファーがコンテキストシグナルに基づいてパーソナライズおよび配信される場合、インプレッションとユーザーのインタラクションの両方を追跡して、その効果を評価することが重要です。</p><a href="https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/reporting-on-ajo-od/introduction" target="_blank">ステップバイステップチュートリアルに従う</a> 
+      <strong>決定を通じて配信されるオファーの追跡とレポート</strong><br/><p>[!DNL Adobe Journey Optimizer]を通じて配信されるオファーのレポートとパフォーマンス分析を有効にする：オファーがコンテキストシグナルに基づいてパーソナライズおよび配信される場合、インプレッションとユーザーのインタラクションの両方を追跡して、その効果を評価することが重要です。</p><a href="https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/reporting-on-ajo-od/introduction" target="_blank">ステップバイステップチュートリアルに従う</a> 
     </td>
     <td>
       <img src="../assets/do-not-localize/icon_profile-audience.svg" width="35px">
     <br/>
-      <strong> ランキング式を使用したオファーのパーソナライズ </strong><br/><p>郵便番号や[!DNL Adobe Journey Optimizer]内の年間収入などのユーザー属性を活用して、パーソナライズされた金融オファーを提供する方法を説明します。 ランキング式を使用することで、場所固有のプロモーションと収入に基づく実施要件に基づいて、オファーをインテリジェントにスコアリングし、優先順位を付けることができます。</p><a href="https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/personalizing-offers-with-ranking-formulas-based-on-user-zip-code-and-income/introduction" target="_blank">ステップバイステップチュートリアルに従う</a> 
+      <strong>ランキング式を使用したオファーのパーソナライズ</strong><br/><p>郵便番号や[!DNL Adobe Journey Optimizer]内の年間収入などのユーザー属性を活用して、パーソナライズされた金融オファーを提供する方法を説明します。 ランキング式を使用することで、場所固有のプロモーションと収入に基づく実施要件に基づいて、オファーをインテリジェントにスコアリングし、優先順位を付けることができます。</p><a href="https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/personalizing-offers-with-ranking-formulas-based-on-user-zip-code-and-income/introduction" target="_blank">ステップバイステップチュートリアルに従う</a> 
     </td>
   </tr>
 </table>

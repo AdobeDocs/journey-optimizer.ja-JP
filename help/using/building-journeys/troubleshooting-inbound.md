@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1809
-ht-degree: 95%
+source-wordcount: 1840
+ht-degree: 93%
 
 ---
 
 # ジャーニーでのインバウンドアクションのトラブルシューティング {#troubleshooting-inbound-actions}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、サポートに連絡する前に、アプリ内、web、コードベースのエクスペリエンスなどのインバウンドアクションに関する一般的な問題をジャーニーでデバッグし、解決する方法について説明します。
+
+>[!ENDSHADEBOX]
 
 アプリ内、web、コードベースのエクスペリエンスなどのインバウンドアクションは、ユーザーのジャーニー中にパーソナライズされたエンゲージメントを可能にするので、[!DNL Journey Optimizer] の重要なコンポーネントです。 ただし、インバウンドコンテンツの欠落や、プロファイルがジャーニーから離脱した後に配信が継続されるなど、予期しない動作が発生する場合があります。
 

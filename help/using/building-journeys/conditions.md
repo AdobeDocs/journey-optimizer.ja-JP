@@ -24,14 +24,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: d90f0ac22c107a51967316f078f359f067b70431
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1939
-ht-degree: 89%
+source-wordcount: 1969
+ht-degree: 88%
 
 ---
 
 # 条件 {#conditions}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、「最適化」アクティビティで条件を使用して、データソース、時間、日付、パーセンテージ分割、プロファイルキャップ、またはオーディエンスメンバーシップに基づいて、複数のジャーニーパスを作成する方法を説明します。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_conditions"

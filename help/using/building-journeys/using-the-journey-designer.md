@@ -32,15 +32,20 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 1675
-ht-degree: 90%
+source-wordcount: 1705
+ht-degree: 89%
 
 ---
 
 # ジャーニーのデザイン {#design-your-journey}
 
+>[!BEGINSHADEBOX]
+
+**このページ：** ジャーニーデザイナーのキャンバスとパレットを使用して、イベント、オーケストレーション、アクションアクティビティをシーケンス化されたフローにドラッグ&amp;ドロップし、ジャーニーを構築する方法を説明します。
+
+>[!ENDSHADEBOX]
 
 [!DNL Adobe Journey Optimizer]には、マーケターが一対一の顧客エンゲージメントとマーケティング アウトリーチを連携できるようにする、オムニチャネルオーケストレーションキャンバスが含まれています。 ユーザーインターフェイスを使用すると、パレットからキャンバスにアクティビティを簡単にドラッグ＆ドロップして、ジャーニーを作成できます。 アクティビティをダブルクリックして、以下の手順でキャンバスに追加することもできます。
 

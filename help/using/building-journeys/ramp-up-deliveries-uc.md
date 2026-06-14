@@ -25,14 +25,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
+source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
-source-wordcount: 300
-ht-degree: 92%
+source-wordcount: 337
+ht-degree: 82%
 
 ---
 
 # ユースケース：配信を増やす{#use-case-ramp-up-your-deliveries}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、「最適化」アクティビティとプロファイルキャップを使用して、メール配信を徐々に拡大していくジャーニーを構築し、新しいIP アドレスをウォームアップし、送信者のレピュテーションを確立する方法について説明します。
+
+>[!ENDSHADEBOX]
 
 最近、別のメールサービスプロバイダー、IP アドレス、メールドメインまたはサブドメインに移動した場合は、送信者としての評判を確立する必要があります。 そうしないと、配信がブロックされたり、受信者のメールボックスのスパムフォルダーに送られる可能性があります。 IP ウォーミングを使用してメールの評判を高める方法について詳しくは、[配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/generic-resources/increase-reputation-with-ip-warming.html?lang=ja){target="_blank"}を参照してください。
 
