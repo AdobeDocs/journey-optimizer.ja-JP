@@ -9,11 +9,23 @@ level: Experienced
 keywords: プラットフォーム, データレイク, 作成, レイク, データセット, プロファイル
 exl-id: 08633a79-5601-4e36-b8cf-080234956d99
 TQID: https://experienceleague.adobe.com/DvcQ6AcWhNIZXnTtmPozvSTp1Ait-oo-8wlo8hQ6xlI
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
-subfeature_v2: id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371id: d6e5c7fd-c1d6-4137-98cd-138ccde6752fid: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: aeebb91a-f216-4d5f-8da1-3a7e6f696ed0
+subfeature_v2:
+  - id: a1cdc218-59b7-4eef-b5cf-2a7ad74b3371
+  - id: d6e5c7fd-c1d6-4137-98cd-138ccde6752f
+  - id: cf3fbcd7-c075-4ae4-8de5-96e736ab2ea3
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+  - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
 source-git-commit: 4cb75d06f45f9d15cdbeda5afa06acf8e27d13de
 workflow-type: tm+mt
 source-wordcount: 1162
@@ -38,7 +50,7 @@ ht-degree: 90%
 
 ## 影響を受けるデータセット {#datasets}
 
-次の表は、影響を受けるすべてのデータセットと、データレイクおよび[ プロファイルストア ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja#profile-data-store){target="_blank"}内のそれぞれのTime-To-Liveを示しています。
+次の表は、影響を受けるすべてのデータセットと、データレイクおよび[&#x200B; プロファイルストア &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja#profile-data-store){target="_blank"}内のそれぞれのTime-To-Liveを示しています。
 
 | データセット | データレイク TTL | プロファイルストア TTL |
 |------|-----|-----|
@@ -88,13 +100,13 @@ TTL 拡張機能は、現在サポートされていません。 ただし、202
 
 >[!NOTE]
 >
->プロファイルに保存されたデータには、合計データボリュームの使用権限が適用されます。 したがって、TTL 拡張機能の結果として増加したプロファイルのデータストレージは、合計データボリュームの使用権限に対してカウントされます。 [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html?lang=ja){target=&quot;_blank}
+>プロファイルに保存されたデータには、合計データボリュームの使用権限が適用されます。 したがって、TTL 拡張機能の結果として増加したプロファイルのデータストレージは、合計データボリュームの使用権限に対してカウントされます。 [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/landing/license/total-data-volume.html?lang=ja){target=_blank}
 
 +++
 
 +++お客様は、データレイクの [!DNL Journey Optimizer] システムデータセットデータの TTL を増やすことができますか？ 
 
-TTL 拡張機能は、現在サポートされていません。 お客様は、宛先を通じてデータをエクスポートし、データを長期間保持できます。 [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=ja){target=&quot;_blank}。 さらに、**[!DNL Data Distiller]** 使用権限を持つお客様は、派生データセットを作成して、TTL なしでデータレイクにデータを保存できます。 [詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=&quot;_blank}
+TTL 拡張機能は、現在サポートされていません。 お客様は、宛先を通じてデータをエクスポートし、データを長期間保持できます。 [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=ja){target=_blank}。 さらに、**[!DNL Data Distiller]** 使用権限を持つお客様は、派生データセットを作成して、TTL なしでデータレイクにデータを保存できます。 [詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/query/data-distiller/derived-datasets/overview){target=_blank}
 
 +++
 
@@ -132,7 +144,7 @@ TTL 拡張機能は、現在サポートされていません。 お客様は、
 
 +++TTL よりも長くデータを保持するための代替手段は何ですか？
 
-より長い保持期間が必要なお客様は、TTL の有効期限が切れる前に、AJO データセットから関連データを外部ストレージにエクスポートすることを考慮する必要があります。 Adobe Journey Optimizer は、様々なクラウドストレージの宛先（Amazon S3、Azure Blob、Google Cloud Storage など）へのデータセットのエクスポートをサポートしています。 [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=ja){target=&quot;_blank}
+より長い保持期間が必要なお客様は、TTL の有効期限が切れる前に、AJO データセットから関連データを外部ストレージにエクスポートすることを考慮する必要があります。 Adobe Journey Optimizer は、様々なクラウドストレージの宛先（Amazon S3、Azure Blob、Google Cloud Storage など）へのデータセットのエクスポートをサポートしています。 [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/export-datasets.html?lang=ja){target=_blank}
 
 +++
 
