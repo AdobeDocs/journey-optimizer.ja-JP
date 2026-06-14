@@ -10,12 +10,20 @@ role: Admin
 level: Intermediate
 keywords: 製品, プロファイル, サンドボックス
 TQID: https://experienceleague.adobe.com/Fni-bz0ax4B4q2wm87B7bfNXmybwfAyCu-ewclLwSCw
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
-subfeature_v2: id: b856530c-d60b-42d8-a19d-df2dfd7fe62aid: cfdf3a89-7087-4a5c-a6d2-2f4eb64a3470
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
+  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+subfeature_v2:
+  - id: b856530c-d60b-42d8-a19d-df2dfd7fe62a
+  - id: cfdf3a89-7087-4a5c-a6d2-2f4eb64a3470
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
 workflow-type: tm+mt
 source-wordcount: 792
@@ -85,7 +93,7 @@ ht-degree: 96%
 >
 >ビルトインのまたはカスタムの役割に加えた変更は、その役割に割り当てられたすべてのユーザーに影響します。
 
-1. [!DNL Permissions] 製品で役割を編集するには、「**[!UICONTROL 役割]**」タブに移動し、目的の役割を選択します。ここではジャーニー閲覧者の&#x200B;**[!UICONTROL 役割]**を選択します。
+1. [!DNL Permissions] 製品で役割を編集するには、「**[!UICONTROL 役割]**」タブに移動し、目的の役割を選択します。ここではジャーニー閲覧者の&#x200B;**[!UICONTROL 役割]**&#x200B;を選択します。
    ![](assets/do-not-localize/access_control_5.png)
 
 1. **[!UICONTROL 役割]**&#x200B;ダッシュボードで、「**[!UICONTROL 編集]**」をクリックします。
@@ -112,7 +120,7 @@ ht-degree: 96%
 
 この例では、**ジャーニー読み取り専用**&#x200B;という名前の役割を作成し、ジャーニー機能への読み取り専用権限を付与します。 ユーザーはジャーニーにアクセスして表示できますが、[!DNL Journey Optimizer] の **[!DNL Decision management]** など、他の機能にはアクセスできません。
 
-**ジャーニー読み取り専用****[!UICONTROL 役割]**&#x200B;を作成するには：
+**ジャーニー読み取り専用**&#x200B;**[!UICONTROL 役割]**&#x200B;を作成するには：
 
 1. [!DNL Permissions] 製品でユーザーに役割を割り当てるには、「**[!UICONTROL 役割]**」タブに移動し、「**[!UICONTROL 役割を作成]**」をクリックします。
 
