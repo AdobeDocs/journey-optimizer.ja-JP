@@ -1,7 +1,7 @@
 ---
-source-git-commit: a4123db7ae90552a15e6f425bce0037426053a78
+source-git-commit: f59dc265b0de732b52e9d26b6ee510733d0d760e
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '188'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,10 @@ AJOのドキュメントページ。`.cursor/rules/on-this-page-box.mdc`の仕�
    `--dry-run`で最初にプレビューします。
 
 2. **文言を調整します。** シードは出発点です。各文を編集して
-目的のステートメントとして読み取ります（一文、プレーンテキスト、アメリカ英語）。 自分が
+目的のステートメントとして読み取ります（一文、プレーンテキスト、アメリカ英語）。 **リード
+why**：読者の結果/メリットを述べます（&quot;...可能です &lt;outcome>&quot;）、なし
+それぞれの要素のリストを表示するだけです。 ハウススタイルの機能名を一致させる（例：
+&quot;Orchestrated campaign&quot;, &quot;アプリ内&quot;）。 `.cursor/rules/on-this-page-box.mdc`を参照してください。 自分が
 `--seed-from-description`をスキップすると、`{{TODO...}}` プレースホルダーが代わりに挿入され、
 バリデーターは残った部分にフラグを付けます。
 
