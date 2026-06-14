@@ -26,14 +26,20 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 06565328f42ff79943f774df55d8e41118b40815
+source-git-commit: 4e89993a998268ae2810c949d0669bf6dc458dd6
 workflow-type: tm+mt
-source-wordcount: 349
-ht-degree: 97%
+source-wordcount: 380
+ht-degree: 90%
 
 ---
 
 # Journey Optimizer リソースに対する監査アクション {#track-changes}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** Journey Optimizer リソースに対するユーザーのアクションを記録する監査ログを確認して、可視性を向上させ、問題をトラブルシューティングし、規制とデータ管理ポリシーへの準拠を示すことができます。
+
+>[!ENDSHADEBOX]
 
 ## 監査ログについて {#audit-logs}
 

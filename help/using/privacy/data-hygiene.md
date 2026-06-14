@@ -25,14 +25,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 4e89993a998268ae2810c949d0669bf6dc458dd6
 workflow-type: tm+mt
-source-wordcount: 235
-ht-degree: 100%
+source-wordcount: 262
+ht-degree: 89%
 
 ---
 
 # データライフサイクル操作の実行 {#data-hygiene}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、** データライフサイクル操作を設定およびスケジュールして、レコードを正確に保ち、意図したとおりに使用し、組織ポリシーに沿って削除できるようにします。
+
+>[!ENDSHADEBOX]
 
 >[!AVAILABILITY]
 >

@@ -25,14 +25,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 867eeef1f90c152c463397222f5ed95f3b9c264b
 workflow-type: tm+mt
-source-wordcount: 393
-ht-degree: 84%
+source-wordcount: 422
+ht-degree: 78%
 
 ---
 
 # [!DNL Journey Optimizer] イベントのexperienceevent スキーマについて {#about-experienceevent-schemas}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** ストリーミングイベントをAdobe Experience Platformに取り込み、ジャーニーのトリガーに使用できるように、必要な構造を満たすXDM Experience Event スキーマを構築します。
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] イベントは、ストリーミング取り込みを介して Adobe Experience Platform に送信される XDM エクスペリエンスイベントです。
 
@@ -71,7 +77,7 @@ ht-degree: 84%
 
   ![](assets/schema6.png)
 
-* ユーザーに関する情報、イベントの生成元のデバイス、場所、イベントに関連するその他の有意義な状況など、イベントに含めたいその他のコンテキストデータを取り込むためのデータフィールドを自由に含めることができます。
+* ユーザーに関する情報、イベントの生成元のデバイス、場所、イベントに関連するその他の有意義な状況など、イベントに含めるその他のコンテキストデータを取り込むデータフィールドを自由に含めることができます。
 
   ![](assets/schema7.png)
 

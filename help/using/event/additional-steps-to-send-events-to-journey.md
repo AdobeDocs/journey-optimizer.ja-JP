@@ -26,14 +26,20 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 867eeef1f90c152c463397222f5ed95f3b9c264b
 workflow-type: tm+mt
-source-wordcount: 318
-ht-degree: 95%
+source-wordcount: 347
+ht-degree: 87%
 
 ---
 
 # イベントを送信するための手順 {#additional-steps-to-send-events}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** ストリーミング取り込みAPIにイベントをプッシュするようにデータ システムを設定して、設定したイベントが実際にJourney Optimizerに到達し、ジャーニーをトリガーするようにします。
+
+>[!ENDSHADEBOX]
 
 イベントを&#x200B;**[!UICONTROL ストリーミング取得 API]**&#x200B;に送信し、[!DNL Journey Optimizer] で使用するように設定するには、次の手順に従う必要があります。
 

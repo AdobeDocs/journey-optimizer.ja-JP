@@ -26,14 +26,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 867eeef1f90c152c463397222f5ed95f3b9c264b
 workflow-type: tm+mt
-source-wordcount: 1729
-ht-degree: 96%
+source-wordcount: 1688
+ht-degree: 93%
 
 ---
 
 # 単一イベントの設定 {#configure-an-event}
+
+>[!BEGINSHADEBOX]
+
+**このページでは：**&#x200B;購入やロイヤルティのマイルストーンなど、特定の人物の行動に基づいてジャーニーをリアルタイムでトリガーできるように、単一イベントを設定します。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_event_unitary"
@@ -172,8 +178,8 @@ CRM ID やメールアドレスなど、別のキーを使用する必要があ�
 
 1. 「ペイロード」フィールドのリストでキーとして指定したフィールドを選択します。
 
-イベントを受け取ると、キーの値によって、システムはイベントに関連付けられた人物を識別できます。 キーは [ID タイプ](../event/about-creating.md#select-the-namespace)に関連付けられ、Adobe Experience Platform でクエリの実行に使用できます。 [このページ](../building-journeys/about-journey-activities.md#orchestration-activities)を参照してください。
-このキーは、ある人物がジャーニーにエントリしているかどうかを確認するためにも使用されます。 1 人の人物が同じジャーニーの 2 つの異なる場所に存在することはできません。 その結果、同じキー（キー CRMID=3224 など）を同じジャーニー内の異なる場所に配置することはできません。
+イベントが受信されると、キーの値により、システムはイベントに関連付けられた人物を識別できます。[ID タイプ &#x200B;](../event/about-creating.md#select-the-namespace)に関連付けられたこのキーを使用して、Adobe Experience Platformでクエリを実行できます。[このページ &#x200B;](../building-journeys/about-journey-activities.md#orchestration-activities)を参照してください。
+このキーは、個人がジャーニー内にいることを確認するためにも使用されます。実際、人は同じジャーニーの中で2つの異なる場所にいることはできません。その結果、同じジャーニー内の異なる場所に同じキー（例えば、キーCRMID=3224）を配置することはできません。
 
 ## 高度な式エディター {#adv-exp-editor}
 

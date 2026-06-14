@@ -25,14 +25,20 @@ subfeature_v2:
   - id: f365ec33-2b99-4b7f-b4ee-c743dd7f615f
   - id: c8d5f2ce-ba44-43e9-a2bf-94a3d7d85ec3
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 4e89993a998268ae2810c949d0669bf6dc458dd6
 workflow-type: tm+mt
-source-wordcount: 241
-ht-degree: 100%
+source-wordcount: 278
+ht-degree: 86%
 
 ---
 
 # プライバシーの基本を学ぶ {#privacy}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** データ要求、監査ログ、同意、およびガバナンス ポリシーを管理するためのAdobe Journey OptimizerおよびAdobe Experience Platform ツールを確認して、個人データを責任を持って取り扱い、GDPRなどの規制に準拠することができます。
+
+>[!ENDSHADEBOX]
 
 Journey Optimizer は、個人情報や機密データを含む膨大な量のデータを収集および処理するための強力なツールです。 そのため、プライバシー管理は慎重に行う必要があります。
 
