@@ -9,27 +9,26 @@ role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
 TQID: https://experienceleague.adobe.com/ViOHdq6ypY2xbYrPrEsYKF4-5CyQV9izbtzhGGOzsF0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 06565328f42ff79943f774df55d8e41118b40815
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 800
-ht-degree: 83%
+source-wordcount: 829
+ht-degree: 80%
 
 ---
 
 # 検索、フィルター、整理 {#search-filter-organize}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** ユニバーサル検索、リストフィルター、タグを使用して、ジャーニー、キャンペーン、アセットをすばやく検索して整理し、Journey Optimizer プロジェクトの成長に合わせて生産性を維持できます。
+
+>[!ENDSHADEBOX]
 
 Adobe Journey Optimizer プロジェクトが拡大するにつれて、効率的な作業にはコンテンツの検索と整理が不可欠になります。 このページでは、ユニバーサル検索を使用してジャーニー、キャンペーン、アセットをすばやく見つける方法、リストをフィルタリングして特定の項目に焦点を当てる方法、タグとカテゴリを使用して作業を整理する方法について説明します。 これらのツールは、大量のコンテンツを移動し、チームをまたいで一貫性を維持し、毎日のワークフローを効率化するのに役立ちます。
 
@@ -70,7 +69,7 @@ Adobe Journey Optimizer インターフェイスから、上部バーの中央�
 * **[!UICONTROL パッケージに追加]** – 選択したアイテムを別のサンドボックスにエクスポートします。 [オブジェクトのエクスポート方法の詳細情報 →](../configuration/copy-objects-to-sandbox.md)
 * **[!UICONTROL フォルダーに移動]** – 選択したアイテムをフォルダーに移動します。
 * **[!UICONTROL タグを編集]** – 選択した項目に割り当てられたタグを編集します。 [タグの使用方法の詳細情報 →](#add-tags)
-* **[!UICONTROL アクセスの管理]** – 選択した項目にアクセスラベルを適用します。 [&#x200B; オブジェクトレベルのアクセス制御の詳細→](../administration/object-based-access.md)
+* **[!UICONTROL アクセスの管理]** – 選択した項目にアクセスラベルを適用します。 [ オブジェクトレベルのアクセス制御の詳細→](../administration/object-based-access.md)
 * **[!UICONTROL アーカイブ]** – 選択したアイテムをアーカイブします。 フラグメントとテンプレートで使用できます。
 * **[!UICONTROL 削除]** – 選択した項目を完全に削除します。 キャンペーンでのみ使用できます。
 

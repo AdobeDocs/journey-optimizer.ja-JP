@@ -9,34 +9,26 @@ role: User
 level: Beginner
 exl-id: 628a5d84-6a33-4ed8-84cb-e2e4c6cc2b80
 TQID: https://experienceleague.adobe.com/bkl7d0VxTNUboLL9MZ3cmEBAgiVHlaU3-ZTXTrpGBjA
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: baecb07f-ce89-4ebb-9cd9-0f7c053f944f
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: d6e0d39b-5df3-4c72-8263-fd834397ee97
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944fid: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: d6e0d39b-5df3-4c72-8263-fd834397ee97
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bbbea26f-9621-49eb-9ab8-e06fb3bbce8cid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
-source-wordcount: 2177
-ht-degree: 70%
+source-wordcount: 2216
+ht-degree: 69%
 
 ---
 
 # AI とインテリジェント機能 {#ai-features}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** AI アシスタントやエージェントから、コンテンツ生成、送信時間の最適化、決定に至るまで、Adobe Journey Optimizer全体のAIとマシンラーニング機能を確認することで、より迅速に作業をおこない、より適切な顧客体験を提供できます。
+
+>[!ENDSHADEBOX]
 
 Adobe Journey Optimizer は、人工知能と機械学習の機能を活用して、優れたカスタマーエクスペリエンスの作成、最適化、配信に役立ちます。 パーソナライズされたコンテンツを生成することから、最適な時間を予測することまで、AI 機能はワークフローを効率化し、影響力を最大化します。 ユースケースプレイブックには、一般的なマーケティングシナリオをすばやく実装するための事前定義済みのテンプレートが用意されています。
 
@@ -127,7 +119,7 @@ Journey AgentのAI アシスタントには、分析と作成という2つのス
 
 #### ジャーニー作成スキル {#journey-create-skill}
 
-[ジャーニーのCreate Agent](https://experienceleague.adobe.com/ja/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"}は、自然言語プロンプトからジャーニーを構築し、目標を構造化されたジャーニー設定に変換するのに役立ちます。
+[ジャーニーのCreate Agent](https://experienceleague.adobe.com/en/docs/experience-cloud-ai/experience-cloud-ai/agents/ajo-agent#journey-analyze-agent-skill-overview-and-user-guide){target="_blank"}は、自然言語プロンプトからジャーニーを構築し、目標を構造化されたジャーニー設定に変換するのに役立ちます。
 
 +++**主な機能**
 
@@ -196,13 +188,13 @@ Journey AgentのAI アシスタントには、分析と作成という2つのス
 * **テキストの生成** - ブランドの声と目標に基づいて、魅力的なコピーを作成します。 [AI を使用したテキストの生成](../content-management/generative-text.md)
 * **画像の生成** - Adobe Firefly を使用してカスタム画像を生成します。 [AI を使用した画像の生成](../content-management/generative-image.md)
 * **コンテンツバリエーション** - A/B テスト用に複数のバリエーションを作成します。 [AI によるコンテンツ実験](../content-management/generative-experimentation.md)
-* **Personalization** - Personalization エディターまたはメール Designer ツールバー（**式を追加**）から、新しい式を生成したり、既存のコードを説明したり、AI アシスタントの問題を修正したりできます。 [Personalization エクスプレッション用AI アシスタント &#x200B;](../content-management/generative-personalization-expressions.md)
+* **Personalization** - Personalization エディターまたはメール Designer ツールバー（**式を追加**）から、新しい式を生成したり、既存のコードを説明したり、AI アシスタントの問題を修正したりできます。 [Personalization エクスプレッション用AI アシスタント ](../content-management/generative-personalization-expressions.md)
 * **ブランド一致** - 生成されたコンテンツがブランドガイドラインに一致していることを確認します。 [ブランド一致の評価](../content-management/brands-score.md)
 * **テンプレートサポート** - 既存のメールテンプレートを活用します。 [コンテンツテンプレートの操作](../content-management/content-templates.md)
 
 ### ベストプラクティス
 
-* **具体的であること** – 明確で詳細なプロンプトを入力して、より優れた結果を得ることができます。 [&#x200B; プロンプトのベストプラクティスの学習](../content-management/ai-assistant-prompting-guide.md)
+* **具体的であること** – 明確で詳細なプロンプトを入力して、より優れた結果を得ることができます。 [ プロンプトのベストプラクティスの学習](../content-management/ai-assistant-prompting-guide.md)
 * **ブランドアセットのアップロード** - ブランドの一貫性を維持するために、PDF、画像または ZIP ファイル（最大 50 MB）を使用します
 * **カスタムテンプレートの使用** - 最大 8～10 の画像を含むブランド固有のテンプレートを活用します
 * **フィードバックの提供** - AI モデルの改善に役立てるために、出力を評価します
@@ -251,7 +243,7 @@ AI を使用して、個々の顧客行動パターンに基づいて各メッ�
 
 ## AIを活用したルールと計算式の最適化 {#decisioning-optimization}
 
-Adobe Journey Optimizerは、PQL構文で表現された[決定ルール &#x200B;](../experience-decisioning/rules.md)および[&#x200B; ランキング式](../experience-decisioning/ranking/ranking-formulas.md)を自動的に分析し、元のロジックを保持する簡略化を提案できます。 簡略化が見つかった場合、ルールまたは数式の横に赤い&#x200B;**[!UICONTROL 最適化]** インジケーターが表示され、元の式とAIが提案した式を並べて比較し、ダウンロード可能な分析を使用して、両方が同じように動作することを検証できます。
+Adobe Journey Optimizerは、PQL構文で表現された[決定ルール ](../experience-decisioning/rules.md)および[ ランキング式](../experience-decisioning/ranking/ranking-formulas.md)を自動的に分析し、元のロジックを保持する簡略化を提案できます。 簡略化が見つかった場合、ルールまたは数式の横に赤い&#x200B;**[!UICONTROL 最適化]** インジケーターが表示され、元の式とAIが提案した式を並べて比較し、ダウンロード可能な分析を使用して、両方が同じように動作することを検証できます。
 
 ### 主な機能
 
@@ -267,7 +259,7 @@ PQL式が&#x200B;**2 KB** （UTF-8 エンコード）より大きいルールと
 
 この機能では、**AI アシスタント**&#x200B;と同じ生成AI アクセス制御を使用します。 ユーザーには、**[!UICONTROL AI アシスタント]** リソースに対する&#x200B;**[!UICONTROL コンテンツを生成]**&#x200B;権限を付与する必要があります。 [AI アシスタントへのアクセスについて詳しく見る](../content-management/gs-generative.md#generative-access)
 
-[決定ルールの最適化](../experience-decisioning/rules.md#optimize) | [&#x200B; ランキング式の最適化](../experience-decisioning/ranking/ranking-formulas.md#optimize)
+[決定ルールの最適化](../experience-decisioning/rules.md#optimize) | [ ランキング式の最適化](../experience-decisioning/ranking/ranking-formulas.md#optimize)
 
 ## AI によるコンテンツ実験 {#experimentation}
 
@@ -377,4 +369,4 @@ Adobe GenStudio for Performance Marketingと統合し、AIを活用してメー�
 >* [仕組みを理解する](understanding-ajo.md) — Journey OptimizerとExperience Platformの連携の仕組み。
 >* [AI コンテンツ生成](../content-management/gs-generative.md) — AI アシスタントを使用して、電子メール、プッシュ通知、SMS、web コンテンツを生成します。
 >* [送信時間の最適化](../building-journeys/send-time-optimization.md) — メッセージ配信のタイミングを個人ごとに予測して最適化します。
->* [決定のためのAI モデル &#x200B;](../experience-decisioning/ranking/ai-models.md) — AI ランキングモデルを使用して、オファーを自動的にランク付けおよびパーソナライズします。
+>* [決定のためのAI モデル ](../experience-decisioning/ranking/ai-models.md) — AI ランキングモデルを使用して、オファーを自動的にランク付けおよびパーソナライズします。
