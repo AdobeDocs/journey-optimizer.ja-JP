@@ -37,7 +37,7 @@ ht-degree: 72%
 >id="ajo_journey_action_code_based"
 >title="コードベースのエクスペリエンスアクション"
 >abstract="コードベースのエクスペリエンス インバウンドアクションは、プロファイルがジャーニーのこのステップに到達すると、コードベースのエクスペリエンスを提供します。 ラベルはジャーニーキャンバス内のアクティビティを識別し、アクションは表示されるコンテンツを定義するコードベースの設定を参照します。 **最適化** セクションには、コンテンツの実験やターゲティングルールを含めることができます。 このアクティビティの後、**Wait** ノードが自動的に挿入され（デフォルトでは3日間）、プロファイルにエクスペリエンスを表示する時間が与えられます。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="チャネルアクションの概要"
+>additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="チャネルアクションの概要"
 
 [!DNL Journey Optimizer] では、ジャーニーまたはキャンペーンでコードベースのエクスペリエンスを作成できます。
 

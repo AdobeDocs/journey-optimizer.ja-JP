@@ -44,7 +44,7 @@ ht-degree: 79%
 >id="ajo_journey_action_web"
 >title="Web アクション"
 >abstract="web エクスペリエンスのインバウンドアクションでは、プロファイルがこのジャーニーのステップに到達すると、そのプロファイルにweb エクスペリエンスが表示されます。 ラベルはジャーニーキャンバス内のアクティビティを識別し、アクションは表示されるコンテンツを定義するweb設定を参照します。 **最適化** セクションには、コンテンツの実験やターゲティングルールを含めることができます。 このアクティビティの後、**Wait** ノードが自動的に挿入され（デフォルトでは3日間）、プロファイルにweb エクスペリエンスを表示する時間が与えられます。"
->additional-url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="チャネルアクションの概要"
+>additional-url="https://experienceleague.adobe.com/ja/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/journey-action#add-action" text="チャネルアクションの概要"
 
 [!DNL Journey Optimizer] では、インバウンドのジャーニーまたはキャンペーンを通じて、顧客に提供する web エクスペリエンスをパーソナライズできます。
 
