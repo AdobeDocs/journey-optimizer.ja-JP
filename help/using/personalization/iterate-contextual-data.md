@@ -10,12 +10,20 @@ level: Intermediate
 keywords: 式, エディター, Handlebars, 反復, 配列, コンテキスト, パーソナライゼーション
 exl-id: 1a7c490f-6490-4785-a44d-bddd5482754d
 TQID: https://experienceleague.adobe.com/fOnI9VWpgrFCfUhnvkaiK-Ecsa-LOn8YJpdWZNnQilY
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2: id: f0577040-fadd-46a1-b0ae-9c7f828bb2da
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2:
+  - id: f0577040-fadd-46a1-b0ae-9c7f828bb2da
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
 source-wordcount: 3109
@@ -90,7 +98,7 @@ context.journey.events.<event_ID>.<fieldPath>
 >context.journey.events.`1697323153`.fieldName
 >```
 >
->詳細と、イベントタイムスタンプからの日付の書式設定を含む完全な例については、[ コンテキストイベントからのタイムスタンプの書式設定](../personalization/functions/dates.md#format-date)を参照してください。
+>詳細と、イベントタイムスタンプからの日付の書式設定を含む完全な例については、[&#x200B; コンテキストイベントからのタイムスタンプの書式設定](../personalization/functions/dates.md#format-date)を参照してください。
 
 ### 例：イベントからの買い物かご項目
 
@@ -1053,12 +1061,12 @@ Handlebars には、ループ内で高度な反復パターンを実行するの
 
 ## 関連トピック {#related-topics}
 
-**パーソナライゼーションの基本：**[パーソナライゼーションの基本を学ぶ](personalize.md) | [パーソナライゼーションの追加](personalization-build-expressions.md) | [パーソナライゼーション構文](personalization-syntax.md) | [ヘルパー関数](functions/helpers.md) | [条件付きルールの作成](create-conditions.md)
+**パーソナライゼーションの基本：**&#x200B;[パーソナライゼーションの基本を学ぶ](personalize.md) | [パーソナライゼーションの追加](personalization-build-expressions.md) | [パーソナライゼーション構文](personalization-syntax.md) | [ヘルパー関数](functions/helpers.md) | [条件付きルールの作成](create-conditions.md)
 
-**ジャーニー設定：**[イベントについて](../event/about-events.md) | [カスタムアクションの設定](../action/about-custom-action-configuration.md) | [カスタムアクションパラメーターへのコレクションの受け渡し](../building-journeys/collections.md#passing-collection) | [カスタムアクションでの API 呼び出し応答の使用](../action/action-response.md) | [カスタムアクションのトラブルシューティング](../action/troubleshoot-custom-action.md) | [ジャーニーでの Adobe Experience Platform データの使用](../building-journeys/dataset-lookup.md) | [ジャーニーでの補助識別子の使用](../building-journeys/supplemental-identifier.md) | [ガードレールと制限](../start/guardrails.md) | [ジャーニーのテスト](../building-journeys/testing-the-journey.md)
+**ジャーニー設定：**&#x200B;[イベントについて](../event/about-events.md) | [カスタムアクションの設定](../action/about-custom-action-configuration.md) | [カスタムアクションパラメーターへのコレクションの受け渡し](../building-journeys/collections.md#passing-collection) | [カスタムアクションでの API 呼び出し応答の使用](../action/action-response.md) | [カスタムアクションのトラブルシューティング](../action/troubleshoot-custom-action.md) | [ジャーニーでの Adobe Experience Platform データの使用](../building-journeys/dataset-lookup.md) | [ジャーニーでの補助識別子の使用](../building-journeys/supplemental-identifier.md) | [ガードレールと制限](../start/guardrails.md) | [ジャーニーのテスト](../building-journeys/testing-the-journey.md)
 
-**ジャーニー式関数：**[高度な式エディター](../building-journeys/expression/expressionadvanced.md) | [コレクション管理関数](../building-journeys/expression/collection-management-functions.md)（first、all、last） | [リスト関数](../building-journeys/functions/list-functions.md)（serializeList、filter、sort） | [配列関数](../personalization/functions/arrays-list.md)（head、tail）
+**ジャーニー式関数：**&#x200B;[高度な式エディター](../building-journeys/expression/expressionadvanced.md) | [コレクション管理関数](../building-journeys/expression/collection-management-functions.md)（first、all、last） | [リスト関数](../building-journeys/functions/list-functions.md)（serializeList、filter、sort） | [配列関数](../personalization/functions/arrays-list.md)（head、tail）
 
-**パーソナライゼーションのユースケース：**[買い物かご放棄メール](personalization-use-case-helper-functions.md) | [注文ステータス通知](personalization-use-case.md)
+**パーソナライゼーションのユースケース：**&#x200B;[買い物かご放棄メール](personalization-use-case-helper-functions.md) | [注文ステータス通知](personalization-use-case.md)
 
-**メッセージデザイン：**[メールデザインの基本を学ぶ](../email/get-started-email-design.md) | [プッシュ通知の作成](../push/create-push.md) | [SMS メッセージの作成](../mobile/create-mobile-message.md) | [コンテンツのプレビューとテスト](../content-management/preview-test.md)
+**メッセージデザイン：**&#x200B;[メールデザインの基本を学ぶ](../email/get-started-email-design.md) | [プッシュ通知の作成](../push/create-push.md) | [SMS メッセージの作成](../mobile/create-mobile-message.md) | [コンテンツのプレビューとテスト](../content-management/preview-test.md)
