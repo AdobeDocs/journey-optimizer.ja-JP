@@ -6,9 +6,12 @@ description: Adobe Journey Optimizer を使用して調整されたキャンペ�
 exl-id: 13da680d-fef8-4749-9190-8ca3d77b060a
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/XTfDLZwNybfdayTfXFtHy-4fstRzPUZ-lSJ4cXkLNyE
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: b3538224-471e-4c63-a444-9b19d89ae29c
-subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: b3538224-471e-4c63-a444-9b19d89ae29c
+subfeature_v2:
+  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
 source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
 source-wordcount: 1261
@@ -39,7 +42,7 @@ ht-degree: 92%
 
 1. 「**[!UICONTROL キャンペーンを作成]**」ボタンをクリックし、**[!UICONTROL オーケストレーション – マーケティングおよびトランザクション]** キャンペーンタイプを選択します。
 
-   [ チャネルアクティビティ ](../orchestrated/activities/channels.md)を追加する際に、各メッセージがマーケティング用かトランザクション用かを選択します。
+   [&#x200B; チャネルアクティビティ &#x200B;](../orchestrated/activities/channels.md)を追加する際に、各メッセージがマーケティング用かトランザクション用かを選択します。
 
    ![](assets/create-modal.png)
 
@@ -87,7 +90,7 @@ ht-degree: 92%
 
 >[!NOTE]
 >
->スケジュールに従って実行するのではなく、外部システムやアプリケーションからシグナルを受信してキャンペーンを開始することもできます。 [ シグナルを使用してオーケストレーションされたキャンペーンをトリガーする方法を説明します](trigger-orchestrated-campaign.md)。
+>スケジュールに従って実行するのではなく、外部システムやアプリケーションからシグナルを受信してキャンペーンを開始することもできます。 [&#x200B; シグナルを使用してオーケストレーションされたキャンペーンをトリガーする方法を説明します](trigger-orchestrated-campaign.md)。
 
 キャンペーンスケジュールを設定するには、次の手順に従います。
 

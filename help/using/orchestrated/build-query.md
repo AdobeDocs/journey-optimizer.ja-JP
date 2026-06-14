@@ -6,10 +6,13 @@ description: 調整されたキャンペーンのルールの作成方法につ�
 exl-id: 5e956a6a-0b89-4d78-8f16-fe9fceb25674
 version: Campaign Orchestration
 TQID: https://experienceleague.adobe.com/0uQ81kuezTaU4m83ZP6OiKFpM66ngzHqVKaGQqiFzNE
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
 feature_v2: 
-topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-subfeature_v2: id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+subfeature_v2:
+  - id: b5e335a9-0e5f-4dda-8845-c4ac5dca2be4
 source-git-commit: cda41058be1eb26538f4b0ef8c7b6c3f1c01eccd
 workflow-type: tm+mt
 source-wordcount: 1947
@@ -66,7 +69,7 @@ ht-degree: 92%
 
    条件をより迅速に構築するには、値を選択し、**[!UICONTROL 属性と値を選択]**&#x200B;をクリックして、現在の条件に属性と値を入力します。
 
-   エクスプレッションエディターアイコン ](assets/do-not-localize/activity-copy.svg) アイコンを表示する![画像を使用して、クリップボード上の値をコピーすることもできます。例えば、エクスプレッションエディターに貼り付けることができます。
+   エクスプレッションエディターアイコン ![&#128279;](assets/do-not-localize/activity-copy.svg) アイコンを表示する画像を使用して、クリップボード上の値をコピーすることもできます。例えば、エクスプレッションエディターに貼り付けることができます。
 
    ![値の配分インターフェイスを示す画像](assets/rule-builder-distribution-values.png)
 
