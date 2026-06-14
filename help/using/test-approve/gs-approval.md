@@ -16,14 +16,20 @@ level_v2:
 subfeature_v2:
   - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: a4e4f5ca5c3eb9dbfb5691cb5de420009ed7e5a5
+source-git-commit: 36b855c6d66a614f4c0374cbd1b4746ec68fde21
 workflow-type: tm+mt
-source-wordcount: 1006
-ht-degree: 96%
+source-wordcount: 1037
+ht-degree: 93%
 
 ---
 
 # ジャーニーとキャンペーンの承認の基本を学ぶ {#send-proofs}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;組み込みの承認プロセスでは、レビュー中にジャーニーとキャンペーンをロックし、適切な関係者が公開前にサインオフできるようにします。すべてのリクエストを一元的に管理および追跡します。
+
+>[!ENDSHADEBOX]
 
 ## 承認ポリシーの基本を学ぶ {#gs}
 

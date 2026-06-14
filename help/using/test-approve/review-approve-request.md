@@ -17,14 +17,20 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 subfeature_v2:
   - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 36b855c6d66a614f4c0374cbd1b4746ec68fde21
 workflow-type: tm+mt
-source-wordcount: 345
-ht-degree: 58%
+source-wordcount: 376
+ht-degree: 53%
 
 ---
 
 # リクエストのレビューと承認 {#approve-requests}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;指定された承認者として、送信されたジャーニーまたはキャンペーンをレビューし、承認して公開するか、変更リクエストを作成者に送信してから公開します。
+
+>[!ENDSHADEBOX]
 
 承認ポリシーがジャーニーまたはキャンペーンに適用される場合、公開するには承認用に送信する必要があります。 これを行うには、ジャーニー/キャンペーン作成者は承認ポリシーで定義された承認者にリクエストを送信し、ジャーニー/キャンペーンは&#x200B;**[!UICONTROL レビュー中]**&#x200B;のステータスを取得します。
 

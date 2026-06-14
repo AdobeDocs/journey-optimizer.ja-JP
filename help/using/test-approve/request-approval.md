@@ -15,14 +15,20 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 subfeature_v2:
   - id: bf7a266e-e483-42c6-b5bc-09ca6e49900c
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: ad8f6662e1f2358071ae923d88630d5f34d9ccf3
 workflow-type: tm+mt
-source-wordcount: 431
-ht-degree: 77%
+source-wordcount: 476
+ht-degree: 70%
 
 ---
 
 # 承認をリクエスト {#request-approval}
+
+>[!BEGINSHADEBOX]
+
+**このページでは：**&#x200B;適切なレビュー担当者にジャーニーやキャンペーンを送信して、自信を持って本番稼動に向けて移行できます。また、レビュー中は必要に応じてキャンセル、編集、再送信できるため、承認済みのブランドに即したコンテンツのみが顧客に届くようになります。
+
+>[!ENDSHADEBOX]
 
 承認ワークフローへのアクセスは、特定のユースケースによって決まります。
 
