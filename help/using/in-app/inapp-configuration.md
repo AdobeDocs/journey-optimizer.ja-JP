@@ -27,20 +27,26 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
 workflow-type: tm+mt
-source-wordcount: 1113
-ht-degree: 97%
+source-wordcount: 1117
+ht-degree: 93%
 
 ---
 
 # 前提条件と設定 {#inapp-configuration}
 
+>[!BEGINSHADEBOX]
+
+**このページでは、**&#x200B;配信の前提条件を設定し、アプリ内チャネル設定を作成して、Adobe Journey Optimizerでアプリ内メッセージを送信する方法を説明します。
+
+>[!ENDSHADEBOX]
+
 ## 設定の手順 {#inapp-steps}
 
 [!DNL Journey Optimizer] を使用してジャーニーとキャンペーンでアプリ内メッセージを送信するには、次の設定手順を実行する必要があります。
 
-1. ジャーニーでアプリ内メッセージのみを使用する予定がある場合でも、開始する前に、Journey Optimizer キャンペーンに対する正しい権限を持っていることを確認してください。 キャンペーン権限は引き続き必要です。 [詳細情報](../campaigns/get-started-with-campaigns.md#prerequisites)。
+1. ジャーニーでアプリ内メッセージのみを使用する予定がある場合でも、開始する前に、Journey Optimizer キャンペーンに対する正しい権限を持っていることを確認してください。 キャンペーン権限は引き続き必要です。 [学習を増やす](../campaigns/get-started-with-campaigns.md#prerequisites)。
 1. Adobe Experience Platform データ収集データストリームで Adobe Journey Optimizer を有効にし、Adobe Experience Platform のデフォルトの結合ポリシーを確認します。詳しくは、以下の[配信の前提](#delivery-prerequisites)を参照してください。
 1. 管理／チャネル／チャネル設定でアプリ内メッセージチャネル設定を作成する方法について詳しくは、[この節](#channel-prerequisites)を参照してください。
 1. コンテンツ実験を使用している場合は、[この節](#experiment-prerequisite)に記載されている要件に従ってください。
@@ -107,7 +113,7 @@ Journey Optimizer でアプリ内設定を作成するには、次の手順に�
 
    >[!NOTE]
    >
-   >iOS および Android プラットフォームの場合、配信はアプリ ID のみに基づきます。 両方のアプリが同じアプリ ID を共有している場合、**[!UICONTROL チャネル設定]**&#x200B;で選択したプラットフォームに関係なく、コンテンツは両方に配信されます。
+   >IOSおよびAndroid プラットフォームの場合、配信はアプリ IDのみに基づきます。両方のアプリが同じアプリ IDを共有する場合、**[!UICONTROL チャネル設定]**&#x200B;で選択したプラットフォームに関係なく、コンテンツが両方に配信されます。
    >アプリ内メッセージの配信を特定のプラットフォームに制限するには、ジャーニーまたはキャンペーンロジック内にデバイス固有のルールを実装する必要があります。
 
    ![](assets/inapp_config_10.png)

@@ -25,14 +25,20 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 675606750af67b398f18646dddf901778625fb30
+source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
-source-wordcount: 1741
-ht-degree: 81%
+source-wordcount: 1776
+ht-degree: 79%
 
 ---
 
 # Web エクスペリエンスの作成 {#create-web}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、ジャーニーまたはキャンペーンを通じてweb エクスペリエンスを作成し、そのコンテンツを編集およびテストし、訪問者を別のURLにリダイレクトし、Adobe Journey Optimizerで公開、アクティブ化、または停止する方法を説明します。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_journey_action_web"

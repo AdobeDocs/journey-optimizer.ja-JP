@@ -26,14 +26,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
-source-wordcount: 1410
-ht-degree: 95%
+source-wordcount: 1440
+ht-degree: 93%
 
 ---
 
 # 前提条件とガードレール {#web-prerequisites}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、** Adobe Journey Optimizerでweb エクスペリエンスにアクセス、オーサリング、配信、レポートを作成するには、実装、ビジュアルオーサリング、配信、レポート作成の前提条件とガードレールを確認します。
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] ユーザーインターフェイスで web ページにアクセスして作成できるようにするには、次の前提条件に従ってください。
 

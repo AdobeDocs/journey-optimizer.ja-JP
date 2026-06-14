@@ -23,14 +23,20 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
-source-wordcount: 973
-ht-degree: 100%
+source-wordcount: 1009
+ht-degree: 96%
 
 ---
 
 # Web 変更の管理 {#manage-web-modifications}
+
+>[!BEGINSHADEBOX]
+
+**このページで：**&#x200B;修正ペインからweb ページに適用された変更内容を確認、削除、取り消す方法と、Adobe Journey OptimizerでCSS セレクターとページヘッドの修正を直接追加する方法について説明します。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_web_designer_modifications"
@@ -172,7 +178,7 @@ Web designer を使用してページを編集する場合、**[!UICONTROL 変�
 
 +++ **カスタムコードは、必ず 1 つの要素にまとめます。**
 
-例：
+次に例を示します。
 
 ```
 <script>
@@ -198,7 +204,7 @@ Web designer を使用してページを編集する場合、**[!UICONTROL 変�
 
 +++
 
-+++ **同じ URL に影響を与える 2 つのキャンペーンに対して**[!UICONTROL &#x200B;ページ `<head>`]**変更タイプを使用する場合は、注意してください。**
++++ **同じ URL に影響を与える 2 つのキャンペーンに対して**&#x200B;[!UICONTROL &#x200B;ページ `<head>`]&#x200B;**変更タイプを使用する場合は、注意してください。**
 
 同じ URL に影響を与える 2 つのキャンペーンに対して&#x200B;**[!UICONTROL ページ`<head>`]** 変更タイプを使用すると、両方のキャンペーンのページに JavaScript が挿入されます。 配信されるコンテンツの順序は、[!DNL Journey Optimizer] により自動的に決定されます。 コードがプレースメントに依存しないようにしてください。 ユーザーはコード内に競合がないことを確認する必要があります。
 

@@ -23,14 +23,20 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
 workflow-type: tm+mt
-source-wordcount: 954
-ht-degree: 100%
+source-wordcount: 986
+ht-degree: 96%
 
 ---
 
 # コードベースのチャネルの基本を学ぶ {#get-started-code-based}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、コードベースのチャネルを使用して、アプリやweb ページの詳細な場所にパーソナライズされたコンテンツを配信する方法と、他のチャネルではなくコンテンツを使用するタイミングについて説明します。
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] を使用すると、web アプリ、モバイルアプリ、デスクトップアプリ、ビデオコンソール、TV 接続デバイス、スマート TV、キオスク、ATM、音声アシスタント、IoT デバイスなど、すべてのタッチポイントで顧客に提供するエクスペリエンスをパーソナライズしてテストできます。
 

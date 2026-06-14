@@ -11,14 +11,20 @@ feature_v2:
 subfeature_v2:
   - id: c618a0dc-1818-4c6d-9916-0d92e6796f24
   - id: d056adbe-402d-4f42-9746-f3d424e598b1
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
-source-wordcount: 1096
-ht-degree: 95%
+source-wordcount: 1128
+ht-degree: 93%
 
 ---
 
 # Web コンテンツの編集 {#edit-web-content}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** コンポーネントの追加、パーソナライズ、パンくずリストと参照モードの操作、デバイスサイズの調整など、Adobe Journey Optimizer web デザイナーを使用してweb コンテンツを編集する方法を説明します。
+
+>[!ENDSHADEBOX]
 
 ジャーニーまたはキャンペーンに [web エクスペリエンスを追加](create-web.md#create-web-experience)すると、web designer でサイトのコンテンツを編集できるようになります。
 

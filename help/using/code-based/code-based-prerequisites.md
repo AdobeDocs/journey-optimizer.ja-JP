@@ -23,14 +23,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
 workflow-type: tm+mt
-source-wordcount: 810
-ht-degree: 97%
+source-wordcount: 832
+ht-degree: 95%
 
 ---
 
 # コードベースエクスペリエンスの前提条件 {#code-based-prerequisites}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** コードベースのエクスペリエンスをアプリやweb ページに配信するために必要な実装、配信、レポートの前提条件を確認します。
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] でコードベースのエクスペリエンスアクションを使用して、アプリケーションで使用できるコードコンテンツペイロードを配信するには、次の前提条件に従います。
 

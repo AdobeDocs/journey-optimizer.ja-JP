@@ -23,14 +23,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
-source-wordcount: 293
-ht-degree: 100%
+source-wordcount: 320
+ht-degree: 91%
 
 ---
 
 # Web チャネルの基本を学ぶ {#get-started-web}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** Adobe Journey Optimizerのweb チャネルを使い始めて、カスタマージャーニーやキャンペーン全体でパーソナライズされたweb エクスペリエンスを視覚的に作成して配信します。
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] では、パーソナライズされた web エクスペリエンスを視覚的に作成し、顧客に提供できます。
 

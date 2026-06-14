@@ -19,14 +19,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
 workflow-type: tm+mt
-source-wordcount: 1245
-ht-degree: 100%
+source-wordcount: 1273
+ht-degree: 97%
 
 ---
 
 # コードベースのエクスペリエンスでの編集可能なフォームフィールドの使用 {#code-based-form-fields}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、編集可能なフォームフィールドをコードベースのエクスペリエンスコンテンツテンプレートに追加して、マーケターがコードを編集せずにキャンペーンやジャーニーのコンテンツをカスタマイズできるようにする方法を説明します。
+
+>[!ENDSHADEBOX]
 
 コードベースのエクスペリエンスの柔軟性と制御性を高めることを目的に、[!DNL Journey Optimizer] では開発チームが特定の事前定義済みの編集可能フィールドを含む JSON または HTML コンテンツテンプレートを作成できます。
 
@@ -103,7 +109,7 @@ JSON または HTML コードの一部を編集可能にするには、まず、
 
 1. 同様に、他の編集可能なフィールドを追加し、各フィールドを `{{#inline}}` タグと `{{/inline}}` タグでラップします。
 
-1. 必要に応じて、定義した編集可能なフィールドに対応する ID を含む、残りのコードを編集します。 [詳細情報](create-code-based.md#edit-code)
+1. 必要に応じて、定義した編集可能なフィールドに対応する ID を含む、残りのコードを編集します。 [方法についてはこちらを参照](create-code-based.md#edit-code)
 
    ![](assets/cbe-template-form-field-inline.png)
 

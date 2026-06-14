@@ -19,14 +19,20 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
+source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
-source-wordcount: 427
-ht-degree: 100%
+source-wordcount: 462
+ht-degree: 92%
 
 ---
 
 # Web の非ビジュアルエディターの使用 {#web-non-visual-editor}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** ブラウザー拡張機能をインストールしたり、web デザイナーを読み込んだりすることなく、Adobe Journey Optimizerの非ビジュアルエディターを使用して、CSS セレクターとページヘッドの変更をweb ページに追加する方法を説明します。
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] のビジュアル [web designer](web-visual-editor.md) に加えて、**非ビジュアルエディター**&#x200B;を使用して、web ページに変更を追加することもできます。
 

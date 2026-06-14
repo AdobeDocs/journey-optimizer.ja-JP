@@ -23,14 +23,20 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 686aa52541f2790d6d9853f31dd2a5c1b22c4b16
 workflow-type: tm+mt
-source-wordcount: 1273
-ht-degree: 98%
+source-wordcount: 1284
+ht-degree: 94%
 
 ---
 
 # アプリ内コンテンツのデザイン {#design-content}
+
+>[!BEGINSHADEBOX]
+
+**このページで：** メッセージレイアウト、メディア、テキスト、ボタン、高度な書式設定オプションなど、Adobe Journey Optimizerでアプリ内メッセージコンテンツをデザインする方法について説明します。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_campaigns_inapp_content"
@@ -120,8 +126,8 @@ ht-degree: 98%
 
 ![](assets/in_app_web_design_3.png)
 
-メディア URL を入力するか、「**[!UICONTROL アセットを選択]**」アイコンをクリックして、アセットライブラリに保存されているアセットをアプリ内メッセージに直接追加します。 [アセット管理の詳細情報](../integrations/assets.md)。
-画面読み上げアプリケーション用の&#x200B;**[!UICONTROL 代替テキスト]**&#x200B;を追加することもできます。
+Media URLを入力するか、**[!UICONTROL Assetsを選択]** アイコンをクリックして、Assets ライブラリに保存されているアセットをアプリ内メッセージに直接追加します。[&#x200B; アセット管理の詳細](../integrations/assets.md)。
+**[!UICONTROL 代替テキスト]**&#x200B;を画面読み上げ用アプリケーションに追加することもできます。
 
 +++詳細フォーマットを使用したその他のオプション
 

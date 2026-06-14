@@ -23,14 +23,20 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e9001ce2-5245-4a8e-8601-dd958009072f
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: a5a700893cc89b29f5fbc214cf3e73f6069144c2
 workflow-type: tm+mt
-source-wordcount: 946
-ht-degree: 94%
+source-wordcount: 981
+ht-degree: 91%
 
 ---
 
 # Web designer の操作 {#work-with-web-designer}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、**&#x200B;要素の選択と編集、コンポーネントとパーソナライゼーションの追加、キャンバスのナビゲーション、デバイスサイズの変更など、Adobe Journey Optimizer Visual web designerを使用してweb エクスペリエンスを作成する方法について説明します。
+
+>[!ENDSHADEBOX]
 
 <!--
 >[!CONTEXTUALHELP]

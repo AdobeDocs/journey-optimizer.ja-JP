@@ -22,14 +22,20 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: dab4adbad12736a8e9045f0d4095490d96ceaed9
+source-git-commit: ffb7556c4fef469982c3216fa0fcab2efaec862d
 workflow-type: tm+mt
-source-wordcount: 1114
-ht-degree: 82%
+source-wordcount: 1138
+ht-degree: 81%
 
 ---
 
 # コードベースの実装方法のサンプル {#implementation-samples}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** アプリケーションでコードベースのエクスペリエンス コンテンツを取得、表示、追跡するためのクライアントサイド、サーバーサイド、ハイブリッド実装サンプルを調べます。
+
+>[!ENDSHADEBOX]
 
 コードベースのエクスペリエンスは、あらゆるタイプの顧客実装をサポートします。 このページでは、各実装方法のサンプルを確認できます。
 
