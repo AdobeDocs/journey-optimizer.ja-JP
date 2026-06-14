@@ -20,14 +20,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+source-git-commit: 01105f4dc3f6b52598c634373988570cf6916406
 workflow-type: tm+mt
-source-wordcount: 409
-ht-degree: 94%
+source-wordcount: 440
+ht-degree: 87%
 
 ---
 
 # WhatsApp メッセージの基本を学ぶ {#get-started-whatsapp}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、** WhatsApp チャネルがJourney Optimizerでどのように機能するのか、その前提条件と制限事項について説明します。これにより、ジャーニーやキャンペーンにWhatsAppを追加する方法を決定できます。
+
+>[!ENDSHADEBOX]
 
 Meta の [Cloud API](https://developers.facebook.com/docs/whatsapp/cloud-api/) 経由で、Journey Optimizer を通じて WhatsApp メッセージを直接送信できるようになりました。 この機能を使用すると、ジャーニーとキャンペーンへの WhatsApp のシームレスな統合を実現し、受信者との通信とエンゲージメントを強化できます。
 

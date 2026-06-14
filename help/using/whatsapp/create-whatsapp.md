@@ -23,14 +23,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 675606750af67b398f18646dddf901778625fb30
+source-git-commit: 01105f4dc3f6b52598c634373988570cf6916406
 workflow-type: tm+mt
-source-wordcount: 1130
-ht-degree: 73%
+source-wordcount: 1162
+ht-degree: 71%
 
 ---
 
 # WhatsApp メッセージの作成 {#create-whatsapp}
+
+>[!BEGINSHADEBOX]
+
+**このページでは：** WhatsApp アクションをジャーニーまたはキャンペーンに追加し、承認済みのMeta テンプレートからコンテンツを構築して、パーソナライズされたテスト済みのメッセージをオーディエンスに配信できます。
+
+>[!ENDSHADEBOX]
 
 Adobe Journey Optimizer を使用すると、WhatsApp で魅力的なメッセージをデザインして送信できます。 ジャーニーまたはキャンペーンに WhatsApp アクションを追加し、以下に説明するようにメッセージコンテンツを作成するだけです。 また、Adobe Journey Optimizer を使用すると、WhatsApp メッセージを送信する前にテストして、完全なレンダリング、正確なパーソナライゼーション、すべての設定の適切な設定を確保することもできます。
 

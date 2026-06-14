@@ -26,14 +26,20 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: baa650e637ea818fd8e9e17fc06ee8472f4fafe1
+source-git-commit: 01105f4dc3f6b52598c634373988570cf6916406
 workflow-type: tm+mt
-source-wordcount: 1327
-ht-degree: 89%
+source-wordcount: 1358
+ht-degree: 87%
 
 ---
 
 # WhatsApp 設定の基本を学ぶ {#whatsapp-config}
+
+>[!BEGINSHADEBOX]
+
+**このページでは：** WhatsApp API資格情報、Webhook、およびチャネル設定を設定してWhatsApp Business アカウントを接続し、環境がJourney OptimizerでWhatsApp メッセージを送信する準備ができるようにします。
+
+>[!ENDSHADEBOX]
 
 WhatsApp メッセージを送信する前に、Adobe Journey Optimizer 環境を設定し、WhatsApp アカウントに関連付ける必要があります。 これを実行するには、次の手順を実行します。
 
