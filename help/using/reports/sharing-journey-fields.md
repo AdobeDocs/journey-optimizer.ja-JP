@@ -24,14 +24,20 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 130
-ht-degree: 100%
+source-wordcount: 159
+ht-degree: 81%
 
 ---
 
 # ジャーニーのフィールド {#sharing-journey-fields}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** ジャーニースキーマで使用されるジャーニーフィールドを参照して、ジャーニーID、バージョン、名前、説明など、ジャーニーステップイベントレポートの各ジャーニーを説明します。
+
+>[!ENDSHADEBOX]
 
 このフィールドグループは、**ジャーニー**&#x200B;のスキーマで（**journeyStepEvent** と関連して）使用します。 以下に示すフィールドが含まれます。
 
@@ -71,6 +77,6 @@ ht-degree: 100%
 
 ## version {#version-field}
 
-バージョン。`major``minor` で表します。
+バージョン。`major`&#x200B;`minor` で表します。
 
 型：文字列

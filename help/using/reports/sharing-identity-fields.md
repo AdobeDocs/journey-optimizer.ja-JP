@@ -23,14 +23,20 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 60
-ht-degree: 100%
+source-wordcount: 84
+ht-degree: 71%
 
 ---
 
 # journeyStep イベントの ID フィールド {#sharing-identity-fields}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** ジャーニーステップイベントがプロファイル IDを記述するために使用するID フィールド（プロファイル IDとその名前空間を含む）を参照します。
+
+>[!ENDSHADEBOX]
 
 このフィールドグループは、journeyStepEvent に固有です。このイベントはジャーニーと関連しており、identityMap を持たず、存在する場合はプロファイル ID を示しています。
 

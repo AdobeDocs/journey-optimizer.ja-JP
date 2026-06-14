@@ -26,14 +26,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 648
-ht-degree: 100%
+source-wordcount: 680
+ht-degree: 95%
 
 ---
 
 # アプリ内ジャーニーレポート {#journey-global-report}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、ジャーニーレポートでアプリ内メッセージ指標を読み取る方法について説明します。これには、ディスプレイとクリックの傾向、トラッキングデータ、アプリ内メッセージのトラッキングリンクラベルなどが含まれます。
+
+>[!ENDSHADEBOX]
 
 >[!INFO]
 >

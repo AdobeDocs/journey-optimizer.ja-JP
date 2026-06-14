@@ -38,14 +38,20 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 937
-ht-degree: 98%
+source-wordcount: 967
+ht-degree: 95%
 
 ---
 
 # ジャーニーステップイベントの操作 {#work-with-journey-step-events}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** Adobe Journey Optimizerのジャーニーステップイベントの概要、重要な理由、およびAdobe Experience Platformを通じた分析、モニタリング、最適化に使用する方法について説明します。
+
+>[!ENDSHADEBOX]
 
 ジャーニーステップイベントは、Adobe Journey Optimizer での[ジャーニー](../building-journeys/journey.md)の進行状況に合わせて[プロファイル](../audience/get-started-profiles.md)が実行する各ステップに関する詳細情報をキャプチャする、自動的に生成されたイベントです。 これらのイベントにより、[ジャーニーのパフォーマンス](../building-journeys/report-journey.md)を包括的に表示でき、強力な分析機能が有効になります。
 

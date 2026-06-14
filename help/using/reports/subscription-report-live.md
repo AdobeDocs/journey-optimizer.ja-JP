@@ -24,14 +24,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 274
-ht-degree: 100%
+source-wordcount: 300
+ht-degree: 91%
 
 ---
 
 # 購読ライブレポート {#subscription-report-live}
+
+>[!BEGINSHADEBOX]
+
+**このページで：**&#x200B;購読ライブレポートを使用して、過去24時間にわたって購読者の購読と購読解除をリアルタイムで監視する方法を説明します。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_subscription_live_report"

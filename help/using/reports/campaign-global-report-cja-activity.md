@@ -25,14 +25,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 663
-ht-degree: 22%
+source-wordcount: 692
+ht-degree: 21%
 
 ---
 
 # ライブアクティビティキャンペーンレポート {#campaign-global-report-cja-activity}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;送信統計、ライブアクティビティライフサイクルイベント、エラーの理由、除外の理由を追跡するために、Adobe Journey Optimizerのライブアクティビティキャンペーンレポートを読む方法を説明します。
+
+>[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 

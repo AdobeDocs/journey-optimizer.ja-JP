@@ -24,14 +24,20 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 634
-ht-degree: 96%
+source-wordcount: 659
+ht-degree: 92%
 
 ---
 
 # journeySteps イベントの共通フィールド {#sharing-common-fields}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** ジャーニーで処理されるすべてのステップについて、Journey OptimizerがAdobe Experience Platformに送信する一般的なジャーニーステップイベントフィールドを参照します。
+
+>[!ENDSHADEBOX]
 
 このフィールドグループは、**journeyStepEvent** と **journeyStepProfileEvent** で共有されます。
 
@@ -133,7 +139,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->トラブルシューティングの目的では、ジャーニーのクエリ時に journeyVersionName ではなく journeyVersionID を使用することをお勧めします。
+>トラブルシューティングのためには、ジャーニーのクエリ時に journeyVersionName ではなく journeyVersionID を使用することをお勧めします。
 
 ## journeyVersionName {#journeyversionname-field}
 
@@ -143,7 +149,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->トラブルシューティングの目的では、ジャーニーのクエリ時に journeyVersionName ではなく journeyVersionID を使用することをお勧めします。
+>トラブルシューティングのためには、ジャーニーのクエリ時に journeyVersionName ではなく journeyVersionID を使用することをお勧めします。
 
 ## journeyVersion {#journeyversion-field}
 

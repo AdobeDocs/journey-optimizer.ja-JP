@@ -25,14 +25,20 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 643
-ht-degree: 100%
+source-wordcount: 676
+ht-degree: 95%
 
 ---
 
 # ジャーニーレポートの作成 {#design-jo-reports}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、** Journey OptimizerがジャーニーステップのイベントデータをAdobe Experience Platformに自動的にストリーミングし、他のデータと組み合わせてCustomer Journey Analyticsでジャーニーのパフォーマンスを分析する方法について説明します。
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] を使用すると、[リアルタイムレポート](live-report.md)やビルトインの[レポート機能](report-gs-cja.md)に加え、ジャーニーのパフォーマンスデータを Adobe Experience Platform に自動的に送信し、他のデータと組み合わせて分析できるようになります。
 

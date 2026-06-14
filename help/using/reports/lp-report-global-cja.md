@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 796
-ht-degree: 100%
+source-wordcount: 824
+ht-degree: 96%
 
 ---
 
 # ランディングページのレポート {#lp-report-global-cja}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** Customer Journey Analyticsを使用して、Adobe Journey Optimizerのランディングページのパフォーマンスを分析します。これには、ジャーニー、キャンペーン、チャネル別のコンバージョン率と直帰率、ビュー、トラフィックが含まれます。
+
+>[!ENDSHADEBOX]
 
 **ランディングページ**&#x200B;のレポートでは、ユーザーの行動、エンゲージメントパターン、コンバージョン率、その他の主要指標に関する貴重なインサイトが提供され、情報に基づいた意思決定を行い、ランディングページのパフォーマンスを効果的に最適化できます。
 

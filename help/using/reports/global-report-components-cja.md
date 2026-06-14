@@ -28,14 +28,20 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 2213
-ht-degree: 95%
+source-wordcount: 2249
+ht-degree: 94%
 
 ---
 
 # 指標のリスト {#list-of-components-global}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** ジャーニー、電子メール、SMS、プッシュ通知、アプリ内メッセージ、ランディングページ、ダイレクトメール、コンテンツカード、web、コードベースのエクスペリエンス指標など、様々な種類のAdobe Journey Optimizer レポートで使用される指標の定義を検索します。
+
+>[!ENDSHADEBOX]
 
 次の表に、レポートで使用される指標のリストと、配信タイプに応じた定義を示します。
 

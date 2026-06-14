@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 441
-ht-degree: 100%
+source-wordcount: 466
+ht-degree: 94%
 
 ---
 
 # 購読レポート {#subscription-report-global-cja}
+
+>[!BEGINSHADEBOX]
+
+**このページで：**&#x200B;購読レポートを使用して、リスト、ジャーニー、キャンペーン、チャネルをまたいでプロファイルの購読と購読解除を分析し、エンゲージメントを測定する方法を説明します。
+
+>[!ENDSHADEBOX]
 
 **購読**&#x200B;レポートは、特定のリストに関連付けられたプロファイルの購読と登録解除に関する重要なインサイトを提供し、エンゲージメントとコンバージョンを促進する様々な購読キャンペーンとイニシアチブの効果を理解するのに役立ちます。
 

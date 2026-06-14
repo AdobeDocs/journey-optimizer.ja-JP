@@ -30,19 +30,25 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: ff2b9b37-92e0-45fc-b853-379d44c08c89
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 2241
-ht-degree: 96%
+source-wordcount: 2249
+ht-degree: 93%
 
 ---
 
 # メールキャンペーンレポート {#campaign-global-report-cja-email}
 
+>[!BEGINSHADEBOX]
+
+**このページでは、** Adobe Journey Optimizerの電子メールキャンペーンレポートを読んで、電子メールのKPI、クリックと配信ファネル、トラッキング統計、バウンスとエラーの理由、ドメイン、件名、リンクごとのエンゲージメントを分析する方法について説明します。
+
+>[!ENDSHADEBOX]
+
 >[!INFO]
 >
->Apple ではメールプライバシー保護を含むネイティブのメールアプリに新しいプライバシー保護機能を導入したので、送信者はトラッキングピクセルを使用して、Apple のメールプライバシー保護を有効にしているプロファイルに関するデータを収集できなくなりました。 その結果、トラッキングピクセルを使用してメールの開封数を追跡する Adobe Journey Optimizer の機能に影響を与える場合があります。
-> [Apple iOS のプライバシー変更がメールマーケティングに与える影響について詳しくは、こちら](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780?profile.language=ja)を参照してください。
+>Appleでは、ネイティブメールアプリの新しいプライバシー保護機能（メールプライバシー保護を含む）が導入されたため、送信者は、Appleのメールプライバシー保護を有効にしたプロファイルのデータを収集するためにトラッキングピクセルを使用できなくなります。その結果、トラッキングピクセルを使用してメールの開封率を追跡するAdobe Journey Optimizer機能が影響を受ける可能性があります。
+> [Apple iOSのプライバシー変更がメールマーケティングに与える影響について](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/the-impact-of-apple-ios-privacy-changes-on-email-marketing-and/ba-p/699780?profile.language=ja)詳しく見る。
 > 
 > より正確なインサイトを得るには、開封率ではなくクリック数とコンバージョン指標に焦点を当てることをお勧めします。
 
@@ -128,7 +134,7 @@ ht-degree: 96%
 
 ![](assets/cja-email-delivered-click.png)
 
-**[!UICONTROL 配信済みとクリックのトレンド]**&#x200B;のグラフには、プロファイルのメールへのエンゲージメントに関する詳細な分析が表示され、プロファイルがコンテンツとどのようにやり取りするかに関する貴重なインサイトを得ることができます。 グラフでは、2 つの軸を使用して、配信されたメールとクリック数を並べて表示するので、送信されたメールの数と比較して、異常なパターンやエンゲージメントの変化を見つけやすくなります。
+**[!UICONTROL 配信済みとクリックのトレンド]**&#x200B;グラフには、プロファイルのメールへのエンゲージメントに関する詳細な分析が表示され、プロファイルがコンテンツとどのようにやり取りするかについての貴重なインサイトを得ることができます。 グラフでは、2 つの軸を使用して、配信されたメールとクリック数を並べて表示するので、送信されたメールの数と比較して、異常なパターンやエンゲージメントの変化を見つけやすくなります。
 
 +++ 配信済みとクリックのトレンド指標についての詳細情報
 

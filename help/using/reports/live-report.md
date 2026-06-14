@@ -24,14 +24,20 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 518
-ht-degree: 99%
+source-wordcount: 546
+ht-degree: 93%
 
 ---
 
 # ライブレポートの概要 {#live-report}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** Adobe Journey Optimizer ライブレポートを使用して、ジャーニーとキャンペーンのパフォーマンスをリアルタイムで視覚化し、ダッシュボードウィジェットをカスタマイズし、レポートを書き出します。
+
+>[!ENDSHADEBOX]
 
 **[!UICONTROL ライブレポート]**&#x200B;を使用し、ビルトインダッシュボードで、ジャーニーとメッセージの影響とパフォーマンスをリアルタイムで測定および視覚化します。 配信が送信されるか、「**[!UICONTROL 過去 24 時間]**」タブからジャーニーが実行されるとすぐに、**[!UICONTROL ライブレポート]**&#x200B;でデータを入手できます。
 

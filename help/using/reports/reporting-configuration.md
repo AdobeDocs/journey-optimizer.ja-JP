@@ -28,14 +28,20 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 656
-ht-degree: 100%
+source-wordcount: 685
+ht-degree: 95%
 
 ---
 
 # レポートと実験の前提条件 {#reporting-configuration}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、** データセットを追加してレポートデータソースを設定し、Journey Optimizerが実験レポートやキャンペーンレポートで使用されている他の指標を取得できるようにする方法を説明します。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_admin_reporting_config"

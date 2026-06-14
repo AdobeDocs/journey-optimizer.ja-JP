@@ -24,14 +24,20 @@ subfeature_v2:
   - id: a7289281-9ae4-47b1-b8cf-4028b98af776
   - id: b5afe8bf-bda6-41b5-ba06-922638872d63
   - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 489
-ht-degree: 100%
+source-wordcount: 526
+ht-degree: 92%
 
 ---
 
 # レポート機能の基本を学ぶ {#get-started-report}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** Adobe Journey Optimizerのレポート機能を使い始めます。キャンペーン、ジャーニー、ランディングページ、購読リストに関する過去24時間のライブレポートと、Customer Journey Analyticsを活用した常時レポートを含みます。
+
+>[!ENDSHADEBOX]
 
 Adobe Journey Optimizer では、堅牢なレポート機能を通じて実用的なインサイトを提供します。 レポートは、キャンペーン、ジャーニー、ランディングページ、購読リストなどに使用できます。 使用可能なレポートは次のとおりです。
 

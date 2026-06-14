@@ -26,14 +26,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 391
-ht-degree: 100%
+source-wordcount: 407
+ht-degree: 86%
 
 ---
 
 # 実験ジャーニーレポート {#campaign-global-report-cja-experimentation}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、**&#x200B;実験のKPI、上昇率と信頼性、コンテンツとパス実験の成功指標によるバリエーションのパフォーマンスなど、ジャーニーレポートの実験指標の読み方を説明します。
+
+>[!ENDSHADEBOX]
 
 ジャーニーレポートでは、実験のパフォーマンスの全体像と、その影響を理解するのに必要な主要指標を提供します。
 
@@ -69,8 +75,8 @@ Journey Optimizer では、ジャーニー実験は次の 2 つのタイプに�
 
 ![](assets/cja-experimentation-variants.png)
 
-**成功指標別のバリアント**の表には、実験の設定時に選択した成功指標に基づいて、各バリアントの実行方法が表示されます。
-これらの結果の詳細と解釈について詳しくは、[このページ](../content-management/get-started-experiment.md#interpret-results)を参照してください。
+成功指標ごとの&#x200B;**バリアント** テーブルは、実験の設定時に選択した成功指標に基づいて、各バリアントがどのように機能するかを示します。
+これらの結果の詳細と解釈方法については、[このページ &#x200B;](../content-management/get-started-experiment.md#interpret-results)を参照してください。
 
 +++ 成功指標別のバリアントの詳細情報
 

@@ -25,14 +25,20 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 539
-ht-degree: 94%
+source-wordcount: 573
+ht-degree: 88%
 
 ---
 
 # プッシュ通知キャンペーンレポート {#campaign-global-report-cja-push}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** Adobe Journey Optimizerのプッシュ通知キャンペーンレポートを読んで、プッシュ通知の送信とトラッキングの統計情報、トラッキングリンク、バウンス、エラー、除外の理由を確認する方法を説明します。
+
+>[!ENDSHADEBOX]
 
 >[!BEGINSHADEBOX]
 

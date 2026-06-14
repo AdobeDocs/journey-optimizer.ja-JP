@@ -28,14 +28,20 @@ topic_v2:
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a122a8a609748b46480a9664f1efc5524582deca
+source-git-commit: 7f28f19b11ead867b0851943fdd997dcc3af170b
 workflow-type: tm+mt
-source-wordcount: 1348
-ht-degree: 85%
+source-wordcount: 1375
+ht-degree: 83%
 
 ---
 
 # 配信品質の基本を学ぶ {#manage-deliverability}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、**&#x200B;苦情率の低減、抑制リストの活用、送信者のレピュテーションの確立、DMARCの導入、フィードバックループの理解など、Adobe Journey Optimizerの配信品質のベストプラクティスについて説明します。
+
+>[!ENDSHADEBOX]
 
 配信品質は、受信者のインボックスに配信が正常に届いたかどうかを測定する手法です。
 
