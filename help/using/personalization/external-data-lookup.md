@@ -8,18 +8,22 @@ level: Experienced
 hide: true
 badge: label="限定提供" type="Informative"
 exl-id: eae8a09a-5d27-4a80-b21f-7f795d800602
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: cb09dcb7-3367-4b63-b02c-8a1356eb876e
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 1264
-ht-degree: 99%
+source-wordcount: 1292
+ht-degree: 97%
 
 ---
 
 # 外部データ参照ヘルパー
+
+>[!BEGINSHADEBOX]
+
+**このページでは、** externalDataLookup ヘルパーを使用して、外部エンドポイントからデータを動的に取得し、Adobe Journey Optimizerのインバウンドチャネルのコンテンツをパーソナライズする方法について説明します。
+
+>[!ENDSHADEBOX]
 
 [!DNL Journey Optimizer] パーソナライゼーションエディターの `externalDataLookup` ヘルパーを使用すると、コードベースのエクスペリエンス、web、アプリ内メッセージチャネルなどのインバウンドチャネルのコンテンツ生成に使用するデータを外部エンドポイントから動的に取得できます。
 
@@ -103,7 +107,7 @@ ht-degree: 99%
 * ペイロードパラメーター：`payload.<parameter-name>`
 * パスパラメーター：`dynamic_path.<parameter-name>`
 
-例：
+次に例を示します。
 
 ```
 {{externalDataLookup actionId="..." result="result" header.myHeaderParameter="value1" query.myQueryParameter="value2" payload.myPayloadParameter="value3"}}`
@@ -203,7 +207,7 @@ First video description: {%=result.videos[0].description ?: "none found" %}
 
 デバッグに役立つように、Adobe Experience Platform Assurance の Edge Delivery ビューには、外部データ参照のタイムアウトとエラーの詳細が含まれます。 インバウンドアクションで externalDataLookup ヘルパーに期待どおりの結果が表示されない場合は、Assurance セッションを開始し、web またはモバイル実装から [!DNL Journey Optimizer] 呼び出しを開始し、Edge Delivery ビューを使用してタイムアウトまたはエラーの詳細を確認できます。
 
-例：
+次に例を示します。
 
 実行の詳細の一部として、Assurance トレースの「Edge Delivery」セクションに、以下のようなリクエストと応答の詳細を含む新しい customActions ブロックが追加されました。 カスタムアクションの実行中に問題が発生した場合、「エラー」セクションはデバッグに役立ちます。
 

@@ -9,19 +9,22 @@ role: Developer
 level: Intermediate
 keywords: 式, エディター, 基本を学ぶ, 条件, 開始
 exl-id: be9a3f83-8e22-4efa-9d48-37bf554018fa
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: a757b957-83f3-4a4d-9775-a93854f84f77
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: a757b957-83f3-4a4d-9775-a93854f84f77id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 149
-ht-degree: 100%
+source-wordcount: 174
+ht-degree: 85%
 
 ---
 
 # 動的コンテンツの基本を学ぶ {#start-dynamic-content}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;動的コンテンツで、プロファイル属性、コンテキストイベント、オーディエンスから構築された条件付きルールを使用して、ターゲット プロファイルにメッセージを適応させる方法を説明します。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_conditions_list"
@@ -41,4 +44,4 @@ ht-degree: 100%
 
 条件ルールビルダーを使用して動的コンテンツを作成する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3413673?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3409815?quality=12)

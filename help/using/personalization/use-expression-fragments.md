@@ -10,28 +10,26 @@ level: Intermediate
 keywords: 式, エディター, ライブラリ, パーソナライゼーション
 exl-id: 74b1be18-4829-4c67-ae45-cf13278cda65
 TQID: https://experienceleague.adobe.com/0N5waBGElHBnlsk1pHhKT8roaly-A6srIjb3UPIDNqY
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2:
-  - id: a757b957-83f3-4a4d-9775-a93854f84f77
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2: id: a757b957-83f3-4a4d-9775-a93854f84f77
+source-git-commit: 378c98d4dc9552de3eed68eda59d9917c2b56347
 workflow-type: tm+mt
-source-wordcount: 1313
-ht-degree: 98%
+source-wordcount: 1346
+ht-degree: 95%
 
 ---
 
 # 式フラグメントを活用 {#use-expression-fragments}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、**&#x200B;式フラグメントをパーソナライゼーションエディターに挿入して再利用する方法、暗黙的な変数を操作する方法、ループ内でフラグメントを使用する方法、編集可能なフィールドをカスタマイズする方法、Adobe Journey Optimizerでの継承を解除する方法について説明します。
+
+>[!ENDSHADEBOX]
 
 **パーソナライゼーションエディター**&#x200B;を使用すると、現在のサンドボックスに作成または保存されたすべての式フラグメントを活用できます。
 
@@ -49,7 +47,7 @@ ht-degree: 98%
 
 1. [パーソナライゼーションエディター](personalization-build-expressions.md)を開き、左側のパネルで「**[!UICONTROL フラグメント]**」ボタンを選択します。
 
-   リストには、現在のサンドボックスで作成またはフラグメントとして保存されたすべての式フラグメントが表示されます。 [&#x200B; フラグメントの作成方法を学ぶ](../content-management/create-fragments.md)
+   リストには、現在のサンドボックスで作成またはフラグメントとして保存されたすべての式フラグメントが表示されます。 [ フラグメントの作成方法を学ぶ](../content-management/create-fragments.md)
 作成日で並べ替えられます。最近追加された式フラグメントは、リストの最初に表示されます。
 
    ![](assets/expression-fragments-pane.png)
@@ -80,7 +78,7 @@ ht-degree: 98%
 
 1. その後、[パーソナライゼーションエディター](personalization-build-expressions.md)のパーソナライズ機能とオーサリング機能をすべて使用して、通常どおりコンテンツをカスタマイズして検証できます。
 
-1. 場合によっては、変数の計算のみが必要となり、式フラグメントのコンテンツは非表示にした方がよいこともあります。 これを行うには、`render` 属性を使用して `false` に設定します。 例：
+1. 場合によっては、変数の計算のみが必要となり、式フラグメントのコンテンツは非表示にした方がよいこともあります。 これを行うには、`render` 属性を使用して `false` に設定します。 次に例を示します。
 
    ```
    Hi {{profile.person.name.firstName|fragment id='ajo:fragmentId/variantId' mode ='inline' render=false}}
