@@ -8,11 +8,20 @@ role: User
 level: Beginner, Intermediate
 exl-id: e5254a1f-e256-4ec8-b165-0b5b62ae4034
 TQID: https://experienceleague.adobe.com/rNKVHarq-q-lYz-e75uPxurvg-DQjdjBuIbNo8w6VVY
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: dc22c819-3f29-4e91-8b7d-5c6719831141id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2: id: fb9a80eb-bebc-492f-a0e9-584595621ebbid: c41e8697-e629-4c38-96b3-564faaa17acf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+  - id: dc22c819-3f29-4e91-8b7d-5c6719831141
+  - id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2:
+  - id: fb9a80eb-bebc-492f-a0e9-584595621ebb
+  - id: c41e8697-e629-4c38-96b3-564faaa17acf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
 source-wordcount: 1014
@@ -260,7 +269,7 @@ ht-degree: 94%
 
 1. 必要に応じて、更新または削除するガイドラインや除外の 1 つを選択します。
 
-1. 例から1つを選択して更新するか、画像を置き換えるか、![画像を移動の代替テキスト ](assets/do-not-localize/Smock_Delete_18_N.svg "削除") アイコンをクリックして削除します。
+1. 例から1つを選択して更新するか、画像を置き換えるか、![画像を移動の代替テキスト &#x200B;](assets/do-not-localize/Smock_Delete_18_N.svg "削除") アイコンをクリックして削除します。
 
    ![](assets/brands-14.png)
 

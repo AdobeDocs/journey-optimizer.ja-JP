@@ -10,7 +10,8 @@ level: Beginner
 keywords: メール, テンプレート, 画像, HTML, AI, デザイン, コンバーター
 exl-id: d13467b7-2f3c-4707-a7e0-9b46cb6cafb1
 feature_v2: []
-subfeature_v2: id: d595a60b-bcf5-4a63-a189-66a0be755cc7
+subfeature_v2:
+  - id: d595a60b-bcf5-4a63-a189-66a0be755cc7
 source-git-commit: dc3ac795cd3cbfbd3dd3adfe6f220641d331081f
 workflow-type: tm+mt
 source-wordcount: 2126
@@ -40,7 +41,7 @@ ht-degree: 22%
 
 >[!IMPORTANT]
 >
->この機能の使用を開始する前に、関連する[ ガードレールと推奨事項](#limitations)をお読みください。
+>この機能の使用を開始する前に、関連する[&#x200B; ガードレールと推奨事項](#limitations)をお読みください。
 
 主なメリットは次のとおりです。
 
@@ -80,7 +81,7 @@ ht-degree: 22%
 
 **契約書**
 
-この機能を利用する前に、[!DNL Journey Optimizer]で生成AIを初めて使用する際に表示される使用許諾契約書に同意する必要があります。 詳しくは、[Adobe Experience Cloud生成AI ユーザーガイドライン ](https://www.adobe.com/jp/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}を参照してください。
+この機能を利用する前に、[!DNL Journey Optimizer]で生成AIを初めて使用する際に表示される使用許諾契約書に同意する必要があります。 詳しくは、[Adobe Experience Cloud生成AI ユーザーガイドライン &#x200B;](https://www.adobe.com/jp/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}を参照してください。
 
 ## ガードレールとレコメンデーション {#limitations}
 
@@ -90,7 +91,7 @@ ht-degree: 22%
 
 * **AIの解釈**: AIは、画像の視覚的な解釈に基づいて静的なHTML コンテンツを生成します。 メール作成の優れた出発点となりますが、正確な要件を満たしているかどうかを確認するために、メールDesignerを使用してレビューおよび調整する必要があります。 必要に応じて、コンバージョン後にパーソナライゼーション、動的コンテンツ、トラッキングを手動で追加する必要があります。
 
-* **テキストの正確性**：AI はテキストを正確に認識および再現しようとしますが、テキストコンテンツを常に確認し、必要に応じて修正を行います。 [Adobe生成AI ユーザーガイドライン ](https://www.adobe.com/jp/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}を確認してください。
+* **テキストの正確性**：AI はテキストを正確に認識および再現しようとしますが、テキストコンテンツを常に確認し、必要に応じて修正を行います。 [Adobe生成AI ユーザーガイドライン &#x200B;](https://www.adobe.com/jp/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}を確認してください。
 
 **画像選択**
 
@@ -132,7 +133,7 @@ ht-degree: 22%
 
 1. 「**[!UICONTROL 画像をテンプレートに変換]**」セクションで、次の手順を実行します。
 
-   * （オプション）Journey Optimizerでブランドテーマが定義されている場合、生成されたHTMLがブランドテーマのパラメーターに従ってスタイル設定されるように、入力としてテーマを選択できます。 [ テーマについて詳しく見る](../email/apply-email-themes.md)
+   * （オプション）Journey Optimizerでブランドテーマが定義されている場合、生成されたHTMLがブランドテーマのパラメーターに従ってスタイル設定されるように、入力としてテーマを選択できます。 [&#x200B; テーマについて詳しく見る](../email/apply-email-themes.md)
 
      生成されたテンプレートには、背景色、ボタンの色、フォント、行間、余白、パディングなどのスタイル設定が適用されるので、デザイン作業が減り、最小限の編集ですぐに使用できるテンプレートが作成されます。
 
@@ -146,9 +147,9 @@ ht-degree: 22%
      >
      >変換用に画像をアップロードすると、現在メールに追加されているすべてのコンテンツが削除され、生成されたテンプレートに置き換えられます。
 
-1. [!DNL Journey Optimizer]で生成AIを初めて使用する場合は、使用許諾契約書に同意するよう求められます。 詳しくは、[Adobe生成AI ユーザーガイドライン ](https://www.adobe.com/jp/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}を参照してください。
+1. [!DNL Journey Optimizer]で生成AIを初めて使用する場合は、使用許諾契約書に同意するよう求められます。 詳しくは、[Adobe生成AI ユーザーガイドライン &#x200B;](https://www.adobe.com/jp/legal/licenses-terms/adobe-gen-ai-user-guidelines.html){target="_blank"}を参照してください。
 
-   Journey Optimizerの![生成AI ユーザー契約書ダイアログ ](../email/assets/email_designer_convert_agreement.png){width=50%}
+   Journey Optimizerの![生成AI ユーザー契約書ダイアログ &#x200B;](../email/assets/email_designer_convert_agreement.png){width=50%}
 
    「**[!UICONTROL 同意]**」をクリックして続行します。
 
@@ -164,7 +165,7 @@ ht-degree: 22%
    >
    >更新するまで、結果は自動的に表示されません。
 
-   ![画像の変換から生成された下書きを表示する電子メールコンテンツテンプレート ](../email/assets/email_designer_converted_img.png){width=90%}
+   ![画像の変換から生成された下書きを表示する電子メールコンテンツテンプレート &#x200B;](../email/assets/email_designer_converted_img.png){width=90%}
 
 1. 「**[!UICONTROL 画像からテンプレートへのコンバーターのフィードバック]**」セクションを使用して、Adobeで考えや提案を共有し、機能の改善に役立ててください。
    ![Journey Optimizerのフィードバックセクションとテキストエリアで考えや提案を共有する](../email/assets/email_designer_converter_feedback.png){width=70%}
@@ -222,9 +223,9 @@ ht-degree: 22%
 * **ドラフトを確認**：コンバージョンが完了すると、テンプレートは自動的にドラフトとして保存されます。 時間をかけて、生成されたコンテンツが正しいかどうかを注意深く確認します。
 * **徹底的にテスト**：様々な電子メールクライアントとデバイスで電子メールをテストします。 [詳しくは、コンテンツのプレビューとテストの方法を参照してください](preview-test.md)。
 * **手動で調整**: [電子メール Designer](../email/get-started-email-design.md)のフル編集機能を使用して、必要に応じて調整します。
-* **ブランドの整合**：色、フォント、スタイル設定がブランドガイドラインに一致することを確認し、利用可能な場合はテーマを使用します。 [ メールテーマの詳細](../email/apply-email-themes.md)。
-* **Personalization**：必要に応じて、動的コンテンツとパーソナライゼーショントークンを追加します。 [ パーソナライゼーションの詳細](../personalization/personalize.md)。
-* **アクセシビリティ**：必要に応じてアクセシビリティ機能を確認し、強化します。 [ アクセス可能な電子メールコンテンツの詳細](../email/accessible-content.md)。
+* **ブランドの整合**：色、フォント、スタイル設定がブランドガイドラインに一致することを確認し、利用可能な場合はテーマを使用します。 [&#x200B; メールテーマの詳細](../email/apply-email-themes.md)。
+* **Personalization**：必要に応じて、動的コンテンツとパーソナライゼーショントークンを追加します。 [&#x200B; パーソナライゼーションの詳細](../personalization/personalize.md)。
+* **アクセシビリティ**：必要に応じてアクセシビリティ機能を確認し、強化します。 [&#x200B; アクセス可能な電子メールコンテンツの詳細](../email/accessible-content.md)。
 
 +++
 
