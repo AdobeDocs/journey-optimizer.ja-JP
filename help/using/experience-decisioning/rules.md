@@ -8,27 +8,26 @@ level: Intermediate
 exl-id: 033a11b8-c848-4e4a-b6f0-62fa0a2152bf
 version: Journey Orchestration
 TQID: https://experienceleague.adobe.com/yfeFpaNi0rYVeyXdzaZ7SfoZnu-BkyivCMDzED7dpsM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 1106
-ht-degree: 85%
+source-wordcount: 1136
+ht-degree: 83%
 
 ---
 
 # ルールの作成 {#rules}
+
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;再利用可能な決定ルールとターゲティング ルールを作成して、キャンペーンやジャーニーをまたいで、どのオーディエンスに対して、どの決定項目とパーソナライズされたコンテンツを表示するかを制御できます。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_exd_config_rules"
@@ -149,7 +148,7 @@ ht-degree: 85%
 
 >[!NOTE]
 >
->AIによるルールの最適化は、**AI アシスタント**&#x200B;と同じ生成AI機能に依存し、同じアクセス制御を使用します。 ユーザーには、**[!UICONTROL AI アシスタント]** リソースに対する&#x200B;**[!UICONTROL コンテンツを生成]**&#x200B;権限を付与する必要があります。 詳しくは、[AI アシスタントへのアクセス &#x200B;](../content-management/gs-generative.md#generative-access)を参照してください。
+>AIによるルールの最適化は、**AI アシスタント**&#x200B;と同じ生成AI機能に依存し、同じアクセス制御を使用します。 ユーザーには、**[!UICONTROL AI アシスタント]** リソースに対する&#x200B;**[!UICONTROL コンテンツを生成]**&#x200B;権限を付与する必要があります。 詳しくは、[AI アシスタントへのアクセス ](../content-management/gs-generative.md#generative-access)を参照してください。
 
 ![](assets/decision-rules-ai.png)
 
@@ -169,4 +168,4 @@ ht-degree: 85%
 
 Adobe Journey Optimizer で再利用可能な&#x200B;**ターゲティングルール**&#x200B;を作成、複製、適用し、地域、言語、行動などの顧客属性に基づいてキャンペーンを効率的にパーソナライズし、オーディエンスの精度を高めながら時間を節約する方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3476128/?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3476127/?quality=12)

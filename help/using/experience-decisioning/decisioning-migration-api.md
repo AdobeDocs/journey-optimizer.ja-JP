@@ -6,25 +6,28 @@ topic: Integrations
 role: Developer
 level: Experienced
 exl-id: 3ec084ca-af9e-4b5e-b66f-ec390328a9d6
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-source-git-commit: ee6e1c0a2d86736e51257315fa41c4796286579f
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 1175
+source-wordcount: 1210
 ht-degree: 5%
 
 ---
 
 # Decisioning Migration API {#decisioning-migration-api}
 
+>[!BEGINSHADEBOX]
+
+**このページ：**&#x200B;では、Decisioning Migration Service APIを使用して、自動依存関係の分析とロールバックのサポートを使用してサンドボックス間で意思決定管理オブジェクトを移動します。これにより、データの整合性を維持しながら環境をまたいで意思決定コンテンツを移行できます。
+
+>[!ENDSHADEBOX]
+
 Decisioning Migration Service APIを使用すると、あるサンドボックスから別のサンドボックスに意思決定管理オブジェクトを移行できます。 移行プロセスは、依存関係の分析、実行、オプションのロールバック機能を含む非同期ワークフローとして実行されます。
 
 このAPIを使用すると、データの整合性と関係を維持しながら、環境<!--(e.g., from development to staging, or staging to production) -->間で意思決定コンテンツをシームレスに移行できます。
 
-意思決定管理と比較した意思決定の利点と機能については、[このページ &#x200B;](migrate-to-decisioning.md)を参照してください。
+意思決定管理と比較した意思決定の利点と機能については、[このページ ](migrate-to-decisioning.md)を参照してください。
 
 ## 機能 {#capabilities}
 
@@ -56,7 +59,7 @@ Decisioning Migration Service APIには、次の機能が用意されていま�
 
 >[!NOTE]
 >
->[このセクション &#x200B;](gs-experience-decisioning.md#steps)で決定権限を割り当てる方法について説明します。 権限の完全なリストについては、[組み込みの権限](../administration/ootb-permissions.md#ootb-permissions) ページを参照してください。
+>[このセクション ](gs-experience-decisioning.md#steps)で決定権限を割り当てる方法について説明します。 権限の完全なリストについては、[組み込みの権限](../administration/ootb-permissions.md#ootb-permissions) ページを参照してください。
 
 ### ターゲットサンドボックスの準備 {#target-sandbox-preparation}
 
@@ -67,7 +70,7 @@ Decisioning Migration Service APIには、次の機能が用意されていま�
 * **データセット** – 移行に使用するデータセット名を特定します（`dependency.datasetName`）。
 * **データストリーム** – 移行でデータストリーム （`createDataStream`）を作成するかどうかを決定します。
 
-サンドボックス管理について詳しくは、[&#x200B; サンドボックスの使用と割り当て](../administration/sandboxes.md)を参照してください。
+サンドボックス管理について詳しくは、[ サンドボックスの使用と割り当て](../administration/sandboxes.md)を参照してください。
 
 ## API の基本 {#api-basics}
 
@@ -86,7 +89,7 @@ Decisioning Migration Service APIには、次の機能が用意されていま�
 * `x-gw-ims-org-id: <IMS_ORG_ID>`
 * `Content-Type: application/json`
 
-認証の設定手順について詳しくは、[Journey Optimizer認証ガイド &#x200B;](https://developer.adobe.com/journey-optimizer-apis/references/authentication){target="_blank"}を参照してください。
+認証の設定手順について詳しくは、[Journey Optimizer認証ガイド ](https://developer.adobe.com/journey-optimizer-apis/references/authentication){target="_blank"}を参照してください。
 
 ### ワークフローモデル {#workflow-model}
 

@@ -8,25 +8,25 @@ level: Experienced
 version: Journey Orchestration
 exl-id: e7a89354-28ea-431f-a15d-a8c18946d266
 TQID: https://experienceleague.adobe.com/ooRR2Tz1Tphu4JUHgeYjfz-guj8S87NVaWKxM4jShEM
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
-subfeature_v2:
-  - id: a7a194a0-75e2-4913-8a83-14714fbf68e6
-  - id: eb547372-2a95-4d13-b0fd-f720c9895880
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: b91d7609df9d05a2ef04dbdbe2a78d9a084f95ac
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a4cb03e1-327e-499d-9de8-e0c0db8a63a2
+subfeature_v2: id: a7a194a0-75e2-4913-8a83-14714fbf68e6id: eb547372-2a95-4d13-b0fd-f720c9895880
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: ee394c77b226dd35a9c27f4a02e3b8d7a997ccbd
 workflow-type: tm+mt
-source-wordcount: 2372
+source-wordcount: 2404
 ht-degree: 58%
 
 ---
 
 # 決定ポリシーを作成 {#create-decision}
+
+>[!BEGINSHADEBOX]
+
+**このページ：** キャンペーンまたはジャーニーのコンテンツに決定ポリシーを追加して設定し、サポートされているチャネルで各プロファイルに最適な決定項目を返してランク付けできるようにします。
+
+>[!ENDSHADEBOX]
 
 >[!CONTEXTUALHELP]
 >id="ajo_code_based_item_number"
@@ -51,7 +51,7 @@ ht-degree: 58%
 1. [戦略シーケンスの設定](#strategy) - 決定ポリシーで返す項目を選択します。
 1. [フォールバックオファーの選択](#fallback) （オプション）- 適合する項目または選択戦略がない場合に表示する項目を選択します。
 1. [レビューして保存](#review)選択戦略
-1. [&#x200B; プレースメントの割り当て](#placement) （電子メール チャネルのみ）
+1. [ プレースメントの割り当て](#placement) （電子メール チャネルのみ）
 
 >[!AVAILABILITY]
 >
@@ -189,13 +189,13 @@ SMSの場合、プロパティパネルで利用可能な&#x200B;**パーソナ�
 
 >[!IMPORTANT]
 >
->プッシュ通知を使用したエクスペリエンス決定には、モバイル SDKの特定のバージョンが必要です。 この機能を実装する前に、[&#x200B; リリースノート &#x200B;](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"}を確認して、必要なバージョンを特定し、それに応じてアップグレードされていることを確認してください。 また、[このセクション &#x200B;](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"}では、お使いのプラットフォームで利用可能なすべてのSDK バージョンを表示できます。
+>プッシュ通知を使用したエクスペリエンス決定には、モバイル SDKの特定のバージョンが必要です。 この機能を実装する前に、[ リリースノート ](https://developer.adobe.com/client-sdks/home/release-notes){target="_blank"}を確認して、必要なバージョンを特定し、それに応じてアップグレードされていることを確認してください。 また、[このセクション ](https://developer.adobe.com/client-sdks/home/current-sdk-versions){target="_blank"}では、お使いのプラットフォームで利用可能なすべてのSDK バージョンを表示できます。
 
 +++
 
 >[!TAB  ダイレクトメール ]
 
-ダイレクトメールの場合は、**抽出ファイル**&#x200B;設定から決定ポリシーを追加します。 [&#x200B; ダイレクトメールメッセージの作成方法について説明します](../direct-mail/create-direct-mail.md)。
+ダイレクトメールの場合は、**抽出ファイル**&#x200B;設定から決定ポリシーを追加します。 [ ダイレクトメールメッセージの作成方法について説明します](../direct-mail/create-direct-mail.md)。
 
 1. **[!UICONTROL データフィールド]** セクションで、列を選択するか、**[!UICONTROL 追加]**&#x200B;をクリックして列を作成します。
 
@@ -207,7 +207,7 @@ SMSの場合、プロパティパネルで利用可能な&#x200B;**パーソナ�
 
    ![](assets/decision-policy-dm-create.png)
 
-1. 決定ポリシー設定画面で、**[!UICONTROL 項目数]** フィールドを使用して、各プロファイルに返す決定項目の数を定義します（例えば、上位2件の適格なオファーを書き出すには2件）。 抽出ファイル列の[戦略設定](#strategy)と[&#x200B; パーソナライゼーション &#x200B;](use-decision-policy.md)を続行します。
+1. 決定ポリシー設定画面で、**[!UICONTROL 項目数]** フィールドを使用して、各プロファイルに返す決定項目の数を定義します（例えば、上位2件の適格なオファーを書き出すには2件）。 抽出ファイル列の[戦略設定](#strategy)と[ パーソナライゼーション ](use-decision-policy.md)を続行します。
 
 >[!ENDTABS]
 
