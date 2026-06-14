@@ -80,7 +80,7 @@ IP ウォームアッププランを実装するための主な手順を以下�
 
 IP ウォームアッププランの作成および実行方法について説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3432637/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3453841/?captions=jpn&learn=on)
 
 >[!NOTE]
 >
