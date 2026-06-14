@@ -6,8 +6,12 @@ topic: Content Management
 role: Admin
 level: Experienced
 exl-id: df92e319-1e42-486f-b688-595964a762c9
-feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2: id: cc5c44e2-54a1-4927-b794-442cd87d8f74id: c96d2aa5-76a2-443d-8d23-5de95577c909id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+feature_v2:
+  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2:
+  - id: cc5c44e2-54a1-4927-b794-442cd87d8f74
+  - id: c96d2aa5-76a2-443d-8d23-5de95577c909
+  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
 source-git-commit: adc7081f0bd973ab67f23270f8ce467a8e14a322
 workflow-type: tm+mt
 source-wordcount: 338
@@ -27,12 +31,12 @@ Adobe Journey Optimizer でコンテンツカードを正しく表示するに�
 
 * **Adobe Experience Platform のデータ収集**
 
-  [ データストリームを作成](https://experienceleague.adobe.com/ja/docs/experience-platform/datastreams/configure){target="_blank"}し、[Experience Platform サービスを追加](https://experienceleague.adobe.com/ja/docs/experience-platform/datastreams/configure#aep){target="_blank"}します。**[!UICONTROL Edge セグメント化]**&#x200B;および&#x200B;**[!UICONTROL Adobe Journey Optimizer]** オプションを有効にします。これにより、Journey Optimizer イベントがAdobe Experience Platform Edge Networkによって処理されるようになります。
-データセットに**エクスペリエンスイベント – 提案インタラクション** フィールドグループを追加して、このデータをレポートに含めます。[ データストリームの詳細](https://experienceleague.adobe.com/ja/docs/experience-platform/datastreams/configure){target="_blank"}
+  [&#x200B; データストリームを作成](https://experienceleague.adobe.com/ja/docs/experience-platform/datastreams/configure){target="_blank"}し、[Experience Platform サービスを追加](https://experienceleague.adobe.com/ja/docs/experience-platform/datastreams/configure#aep){target="_blank"}します。**[!UICONTROL Edge セグメント化]**&#x200B;および&#x200B;**[!UICONTROL Adobe Journey Optimizer]** オプションを有効にします。これにより、Journey Optimizer イベントがAdobe Experience Platform Edge Networkによって処理されるようになります。
+データセットに&#x200B;**エクスペリエンスイベント – 提案インタラクション** フィールドグループを追加して、このデータをレポートに含めます。[&#x200B; データストリームの詳細](https://experienceleague.adobe.com/ja/docs/experience-platform/datastreams/configure){target="_blank"}
 
 * **Adobe Experience Platform**
 
-  デフォルトの結合ポリシーで、**顧客]**／**[!UICONTROL プロファイル**／**[!UICONTROL 結合ポリシー]** Experience Platform メニューで「**[!UICONTROL Active-On-Edge 結合ポリシー]**」がアクティブになっていることを確認します。 [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ja#configure){target="_blank"}
+  デフォルトの結合ポリシーで、**顧客**／**プロファイル**／**[!UICONTROL 結合ポリシー]** Experience Platform メニューで「**[!UICONTROL Active-On-Edge 結合ポリシー]**」がアクティブになっていることを確認します。 [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/profile/merge-policies/ui-guide.html?lang=ja#configure){target="_blank"}
 
   >[!NOTE]
   >
