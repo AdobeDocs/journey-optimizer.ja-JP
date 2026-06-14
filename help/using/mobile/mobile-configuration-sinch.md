@@ -8,12 +8,21 @@ role: Admin
 level: Intermediate
 exl-id: 85412a85-edf0-4069-8bc7-b80371375f1f
 TQID: https://experienceleague.adobe.com/24n9GhVTfQ9y4hlvY6g67dyL0FHqNOJW0aP-WIpzRqs
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
-subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5deeid: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d0a62d3c-b79e-47e4-929e-40ef3cffa037
+subfeature_v2:
+  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+  - id: b3b09fe1-10f1-4793-9f6b-1ca0269eebe7
+  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 4c82775044b5a0a3a48920f59b0afb8a3c6a6d80
 workflow-type: tm+mt
 source-wordcount: 1034
@@ -72,7 +81,7 @@ Journey Optimizer で SMS メッセージと MMS を送信するように Sinch 
     * **[!UICONTROL Sender short code + profile number]**: Consent is keyed to the **sender short code** and the profile **mobile number**. Use when profiles can have several numbers, or when opt-in/out must apply per sender and recipient pair.
 -->
 
-1. 「**[!UICONTROL インバウンドのカスタムデータセットを使用]**」を選択して、この資格情報のインバウンド SMSを、ドロップダウンから選択した事前作成データセットにルーティングします。 [ インバウンドキーワードのカスタムデータセットの使用について詳しく見る](../mobile/custom-dataset-inbound-keywords.md)
+1. 「**[!UICONTROL インバウンドのカスタムデータセットを使用]**」を選択して、この資格情報のインバウンド SMSを、ドロップダウンから選択した事前作成データセットにルーティングします。 [&#x200B; インバウンドキーワードのカスタムデータセットの使用について詳しく見る](../mobile/custom-dataset-inbound-keywords.md)
 
    >[!NOTE]
    >
@@ -137,7 +146,7 @@ API資格情報を作成して設定したら、次に[Webhook](mobile-webhook.m
 
 RCS（リッチ通信サービス）メッセージは、Sinch を通じて Journey Optimizer でサポートされ、ロゴや送信者名などのブランド要素を含む検証済みのビジネスプロファイルを使用して、基本的なメッセージを送信できます。
 
-ネイティブ RCS オーサリングにはSinch RCSが必要です。 Twilio、Infobip、およびその他のプロバイダーは、[ カスタムプロバイダー統合](mobile-configuration-custom.md)を使用する必要があります。
+ネイティブ RCS オーサリングにはSinch RCSが必要です。 Twilio、Infobip、およびその他のプロバイダーは、[&#x200B; カスタムプロバイダー統合](mobile-configuration-custom.md)を使用する必要があります。
 
 プロファイルのデバイスが RCS をサポートしていない場合や、一時的に RCS 経由で未到達の場合に、メッセージは SMS に自動的にフォールバックします。
 
