@@ -31,7 +31,7 @@ AIは、これらの機能の多くに組み込まれています。以下の表
 
 >[!TIP]
 >
->Journey Optimizerを初めて利用する場合 [Journey Optimizer チュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/overview){target="_blank"} （ビデオとガイド付きチュートリアル）を全文参照し、エキスパートが監修した[&#x200B; ビデオプレイリスト &#x200B;](https://experienceleague.adobe.com/en/playlists?solution=Journey+Optimizer){target="_blank"}に従い、[&#x200B; トレーニングサンドボックス &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"}または[実践的な課題](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"}を使用して練習します。
+>Journey Optimizerを初めて利用する場合 [Journey Optimizer チュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/overview){target="_blank"} （ビデオとガイド付きチュートリアル）を全文参照し、エキスパートが監修した[&#x200B; ビデオプレイリスト &#x200B;](https://experienceleague.adobe.com/ja/playlists?solution=Journey+Optimizer){target="_blank"}に従い、[&#x200B; トレーニングサンドボックス &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"}または[実践的な課題](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"}を使用して練習します。
 
 ## リアルタイムで顧客とエンゲージ {#engage-real-time}
 
@@ -54,7 +54,7 @@ AIは、これらの機能の多くに組み込まれています。以下の表
 | 私は… | 推奨される機能 | ここから開始 |
 | --- | --- | --- |
 | ニュースレターやプロモーションをセグメントに送信する | 予定キャンペーン | [キャンペーンの基本を学ぶ](../campaigns/get-started-with-campaigns.md) |
-| A/B テストで製品を発売する | コンテンツ実験&#x200B;**（AI）** | [&#x200B; コンテンツの実験を開始](../content-management/experiment-accelerator-gs.md) ・ [&#x200B; メールキャンペーンのコンテンツの実験を作成](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} |
+| A/B テストで製品を発売する | コンテンツ実験&#x200B;**（AI）** | [&#x200B; コンテンツの実験を開始](../content-management/experiment-accelerator-gs.md) ・ [&#x200B; メールキャンペーンのコンテンツの実験を作成](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} |
 | 停止またはサービスの更新を顧客に通知 | スケジュール済みキャンペーン + オーディエンス | [&#x200B; オーディエンスについて](../audience/about-audiences.md) |
 | 多くのチャネルをまたいだメッセージを大規模に調整 | オーケストレーション | [オーケストレーションのオムニチャネルエンゲージメントへの拡大](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/scaling-orchestration-to-omnichannel-engagement/introduction){target="_blank"} |
 | 顧客一人ひとりに最適なタイミングでメッセージを配信 | 送信時間の最適化&#x200B;**（AI）** | [送信時間の最適化](../building-journeys/send-time-optimization.md) |
