@@ -11,9 +11,9 @@ keywords: テスト, ジャーニー, チェック, エラー, トラブルシ�
 version: Journey Orchestration
 feature_v2: []
 subfeature_v2: []
-source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
+source-git-commit: df6d5f7137a3914daf545746aff559ca0d04539d
 workflow-type: tm+mt
-source-wordcount: 1479
+source-wordcount: 1507
 ht-degree: 3%
 
 ---
@@ -28,9 +28,11 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL シミュレーション]**&#x200B;機能にアクセスするには、少なくとも次のいずれかの権限が必要です：**ジャーニーをシミュレート**、**ジャーニーを公開**&#x200B;または&#x200B;**ジャーニーを承認して公開**。 [詳細情報](../administration/permissions.md)
+>* **[!UICONTROL シミュレーション]**&#x200B;を使用するには、**[!UICONTROL ジャーニー]**&#x200B;機能から少なくとも1つの権限を割り当てます。**ジャーニーのシミュレーション**、**ジャーニーの公開**&#x200B;または&#x200B;**ジャーニーの承認と公開**。 同じ権限でシミュレートされたユーザーを作成および管理できます。**[!UICONTROL シミュレートされたユーザー]**&#x200B;の権限は必要ありません。 [詳細情報](../administration/permissions.md)
 >
->**[!UICONTROL シミュレーション]** （**[!UICONTROL クイックシミュレーション]**、AIを使用したシミュレートされたユーザーの生成、**[!UICONTROL イベント値の生成]**）でAIを使用するには、ユーザーは&#x200B;**[!UICONTROL AI アシスタント]**&#x200B;機能から&#x200B;**コンテンツを生成**&#x200B;する権限が必要です。
+>* **[!UICONTROL シミュレーション]**&#x200B;を使用しないシミュレートされたユーザーを管理するには、**[!UICONTROL シミュレートされたユーザー]**&#x200B;機能から&#x200B;**シミュレートされたユーザーの管理**&#x200B;または&#x200B;**シミュレートされたユーザーの表示**&#x200B;を割り当てます。
+>
+>* シミュレーションのAI （**[!UICONTROL クイックシミュレーション]**、AI生成ユーザー、**[!UICONTROL イベント値の生成]**）に対して、**[!UICONTROL AI アシスタント]**&#x200B;機能から&#x200B;**[!UICONTROL コンテンツの生成]**&#x200B;を割り当てます。
 
 ジャーニーは、**ドラフト**、**テストモード**、**ライブ**&#x200B;に加えて、**[!UICONTROL シミュレーション]**&#x200B;に設定できます。 Simulationでは、**simulated users**&#x200B;でテストを行います。Adobe Experience Platformで永続的なテストプロファイルを使用せずに、追加した一時的なプロファイルのようなエンティティです。
 

@@ -32,10 +32,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 20d8666691698399c61ff7380b2fa4ef3c94ef1a
+source-git-commit: 9335f9e54aec56236693afe23996f80bf6e389ce
 workflow-type: tm+mt
-source-wordcount: 1238
-ht-degree: 25%
+source-wordcount: 1258
+ht-degree: 24%
 
 ---
 
@@ -76,6 +76,7 @@ ht-degree: 25%
 | レポート | **[!DNL View channel reports]**：チャネルレポートの読み取り、編集。 |
 | サンドボックス管理 | **[!DNL Export sandboxes]**: サンドボックスをエクスポートする機能。</br>**[!DNL Manage packages]**: パッケージの読み取り、作成、編集、削除。</br>**[!DNL Manage sandboxes]**: サンドボックスの読み取り、作成、編集、削除。</br>**[!DNL Reset sandboxes]**: サンドボックスをリセットする機能。</br>**[!DNL Share sandboxes]**: サンドボックスを共有する機能。</br>**[!DNL View sandboxes]**：組織に属するサンドボックスの読み取り専用アクセス。 |
 | サンドボックス管理 | **[!DNL Export sandboxes]**: サンドボックスをエクスポートする機能。</br>**[!DNL Manage packages]**: パッケージの読み取り、作成、編集、削除。</br>**[!DNL Manage sandboxes]**: サンドボックスの読み取り、作成、編集、削除。</br>**[!DNL View sandboxes]**：組織に属するサンドボックスの読み取り専用アクセス。</br>**[!DNL Reset sandboxes]**: サンドボックスをリセットする機能。 |
+| シミュレートされたユーザー | **[!DNL Manage Simulated Users]**: シミュレーションでジャーニーをテストするために使用されるシミュレートされたユーザーを読み取り、作成、編集します。</br>**[!DNL View Simulated Users]**：シミュレートされたユーザーへの読み取り専用アクセス。 |
 | 翻訳サービス | **[!DNL Manage translation in house]**：社内の翻訳を読み取り、作成、編集、削除します。</br>**[!DNL Manage translation projects]**：翻訳プロジェクトを読み取り、作成、編集、削除します。</br> **[!DNL Manage translation reviews]**：翻訳レビューの読み取り、作成、編集、削除。</br>**[!DNL Manage translation settings]**：翻訳設定の読み取り、作成、編集、削除。</br>**[!DNL Manage translation tasks]**：翻訳タスクの読み取り、作成、編集、削除。</br>**[!DNL View translation in house]**：社内での翻訳の読み取り専用アクセス。</br>**[!DNL View translation projects]**：翻訳プロジェクトの読み取り専用アクセス。</br>**[!DNL View translation reviews]**：翻訳レビューの読み取り専用アクセス。</br>**[!DNL View translation tasks]**：翻訳タスクの読みみみみ専用アクセス。 |
 
 {style="table-layout:fixed"}
