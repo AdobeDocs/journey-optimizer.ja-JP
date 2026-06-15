@@ -71,7 +71,7 @@ ht-degree: 71%
    >
    >ここにマッピングするLINE ユーザーIDは、既にお客様の[!DNL Real-Time Customer Profile]に存在している必要があります。 LINE ユーザーIDを取得し（LINE ログインまたはLIFF SDK経由など）、Adobe Experience Platformに取り込み、ID サービスを使用して既知のIDに合成することで、[!DNL Journey Optimizer]が統合プロファイルに到達できるようにします。 [Journey OptimizerのIDの詳細](../audience/get-started-identity.md)。
    >
-   >ID サービスを使用してLINE ユーザーIDをお客様のプロファイルと統合するエンドツーエンドの例については、コミュニティ記事[AEP ID ステッチを使用したLINE ユーザーIDとお客様のプロファイルの統合](https://experienceleaguecommunities.adobe.com/adobe-journey-optimizer-15/unifying-line-user-ids-with-customer-profiles-in-adobe-journey-optimizer-using-aep-identity-stitching-248680){target="_blank"}を参照してください。
+   >ID サービスを使用してLINE ユーザーIDをお客様のプロファイルと統合するエンドツーエンドの例については、コミュニティ記事[AEP ID ステッチを使用したLINE ユーザーIDとお客様のプロファイルの統合](https://experienceleaguecommunities.adobe.com/adobe-journey-optimizer-15/unifying-line-user-ids-with-customer-profiles-in-adobe-journey-optimizer-using-aep-identity-stitching-248680?profile.language=ja){target="_blank"}を参照してください。
 
 1. ブランド名など、**[!UICONTROL 送信者名]**&#x200B;を入力します。
 
