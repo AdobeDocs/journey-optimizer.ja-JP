@@ -21,10 +21,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 8f016fe08e76f896eeb71b96e582e4e7e8fc3c9f
+source-git-commit: 1356417d30312b74500dc930c92fe70e0d050a46
 workflow-type: tm+mt
-source-wordcount: 397
-ht-degree: 91%
+source-wordcount: 508
+ht-degree: 71%
 
 ---
 
@@ -66,6 +66,12 @@ ht-degree: 91%
    ![](assets/line-config-2.png)
 
 1. マッピングする **[!UICONTROL LINE ユーザー ID]** を選択します。 これは、LINE チャネル内の個々のユーザーにメッセージをリンクするために使用される識別子です。
+
+   >[!NOTE]
+   >
+   >ここにマッピングするLINE ユーザーIDは、既にお客様の[!DNL Real-Time Customer Profile]に存在している必要があります。 LINE ユーザーIDを取得し（LINE ログインまたはLIFF SDK経由など）、Adobe Experience Platformに取り込み、ID サービスを使用して既知のIDに合成することで、[!DNL Journey Optimizer]が統合プロファイルに到達できるようにします。 [Journey OptimizerのIDの詳細](../audience/get-started-identity.md)。
+   >
+   >ID サービスを使用してLINE ユーザーIDをお客様のプロファイルと統合するエンドツーエンドの例については、コミュニティ記事[AEP ID ステッチを使用したLINE ユーザーIDとお客様のプロファイルの統合](https://experienceleaguecommunities.adobe.com/adobe-journey-optimizer-15/unifying-line-user-ids-with-customer-profiles-in-adobe-journey-optimizer-using-aep-identity-stitching-248680?profile.language=ja){target="_blank"}を参照してください。
 
 1. ブランド名など、**[!UICONTROL 送信者名]**&#x200B;を入力します。
 
