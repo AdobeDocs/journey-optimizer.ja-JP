@@ -34,7 +34,7 @@ ht-degree: 12%
 
 10分ある場合は、このオリエンテーションビデオから始めます。 インターフェイスを順を追って説明し、役割ごとの主要な機能を強調表示します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3424995?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3430316?captions=jpn&quality=12)
 
 次の学習リソースを活用して、実践的な自信を築きましょう。
 
