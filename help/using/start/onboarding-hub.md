@@ -39,7 +39,7 @@ ht-degree: 12%
 次の学習リソースを活用して、実践的な自信を築きましょう。
 
 * [Journey Optimizer チュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/overview){target="_blank"} – 各役割のステップバイステップのビデオとガイド付きウォークスルー。
-* [&#x200B; エキスパートが監修したビデオプレイリスト &#x200B;](https://experienceleague.adobe.com/en/playlists?solution=Journey+Optimizer){target="_blank"} – 順番に視聴する一連の短いビデオ。
+* [&#x200B; エキスパートが監修したビデオプレイリスト &#x200B;](https://experienceleague.adobe.com/ja/playlists?solution=Journey+Optimizer){target="_blank"} – 順番に視聴する一連の短いビデオ。
 * [&#x200B; サンドボックスのトレーニング &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/configure-a-training-sandbox/introduction-and-prerequisites){target="_blank"} – 練習用のサンプルデータを含む安全な環境。
 * [実践的な課題](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/challenges/introduction-and-prerequisites){target="_blank"} — ガイド付き演習で学んだことを適用します。
 
@@ -134,7 +134,7 @@ ht-degree: 12%
 >[!TAB  レポートと最適化]
 
 * [&#x200B; ライブレポートでジャーニーを監視および分析](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/report-and-monitor/monitor-and-analyze-your-journey-with-live-reports){target="_blank"} — パフォーマンスをリアルタイムで追跡します。
-* [&#x200B; メールキャンペーンのコンテンツ実験を作成](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} — コンテンツをテストおよび最適化します。
+* [&#x200B; メールキャンペーンのコンテンツ実験を作成](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/experimentation/content-experiments-for-emails){target="_blank"} — コンテンツをテストおよび最適化します。
 
 >[!ENDTABS]
 
