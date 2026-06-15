@@ -6,18 +6,22 @@ topic: Personalization
 role: Developer
 level: Experienced
 exl-id: 9b0b0d8e-a819-4d2e-a241-f3c4d104eab9
-feature_v2:
-  - id: fda7be7c-b81e-42c0-95a9-616e5b893c03
-subfeature_v2:
-  - id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
-source-git-commit: 0ee10a0689d38c22b1180b197796b08a10c286cf
+feature_v2: id: fda7be7c-b81e-42c0-95a9-616e5b893c03
+subfeature_v2: id: e30b0a1a-b594-47b8-af94-1e3a2be6df11
+source-git-commit: 0c30d994a1ba0b4b5ef3ee1c34d836ce7887cc19
 workflow-type: tm+mt
-source-wordcount: 2537
-ht-degree: 97%
+source-wordcount: 2566
+ht-degree: 96%
 
 ---
 
 # ヘルパー関数の基本を学ぶ{#functions}
+
+>[!BEGINSHADEBOX]
+
+**このページでは、** ヘルパー関数を使用して、パーソナライズされたコンテンツ内のデータを変換、書式設定、および適用できるので、顧客一人ひとりに合わせて動的にカスタマイズされたエクスペリエンスを構築できます。
+
+>[!ENDSHADEBOX]
 
 ヘルパー関数を使用すると、パーソナライズされたコンテンツ内のデータを変換して操作できます。 これらを使用して、計算、データの書式設定、条件の適用、様々な操作を実行し、顧客に合わせて動的なエクスペリエンスを作成します。
 
@@ -540,4 +544,4 @@ ht-degree: 97%
 
 パーソナライズ機能のヘルパー関数を使用してパーソナライゼーション値を変換する方法と、ヘルパー関数の様々なユースケースを説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3416781?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334244?quality=12)
