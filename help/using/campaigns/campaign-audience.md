@@ -25,10 +25,10 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: a5c0537a45acbc708ce62bd05a569630230201ac
+source-git-commit: 0c30d994a1ba0b4b5ef3ee1c34d836ce7887cc19
 workflow-type: tm+mt
-source-wordcount: 230
-ht-degree: 91%
+source-wordcount: 231
+ht-degree: 90%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 91%
 
 >[!BEGINSHADEBOX]
 
-**このページ：** 「Audience」タブでオーディエンスとID タイプを選択して、キャンペーンが適切な個人をターゲットにできるようにします。
+**このページ：** 「Audience」タブでオーディエンスとID タイプを選択して、アクションキャンペーンが適切な個人をターゲットにできるようにします。
 
 >[!ENDSHADEBOX]
 
