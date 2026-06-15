@@ -6,17 +6,12 @@ description: Adobe Journey Optimizer プレリリースノート
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
-source-git-commit: 140204b92956663f75893c09a61c6b2bfa97a2b1
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+source-git-commit: 53618e9d511215ed90b7666fe161edf9fd72c42b
 workflow-type: tm+mt
-source-wordcount: 2036
+source-wordcount: 1951
 ht-degree: 5%
 
 ---
@@ -92,12 +87,7 @@ Adobe Journey Optimizerでは、新機能、既存の機能の強化、バグ修
 </tbody>
 </table>
 
-* **動的なオファー属性** - Decisioningのオファー属性を、プロファイル、コンテキスト、オーディエンスデータを使用して、配信時にパーソナライズできるようになりました。 これにより、コンテンツのバリエーションを作成するために、重複するオファーを管理する必要がなくなり、マーケターはより少ない項目で柔軟に意思決定をおこなえるようになります。
-
-* **Decisioningでのプレースメントレベルの頻度キャッピング** - Decisioningの頻度キャッピングルールを個々のプレースメントにスコープに設定できるようになりました。これにより、特定のサーフェスでオファーが表示される頻度をより細かく制御できるようになります。 次の 2 つのモードを使用できます。
-
-   * プレースメント固有のキャップ：選択したプレースメントにオファーが表示される場合にのみ適用されるキャップを定義します。
-   * プレースメントごとのキャップ：オファーが表示されるすべてのプレースメントに個別にキャップを適用するため、各プレースメントは独自のキャッピングカウンターを維持します。
+* **動的なアイテム属性** – 決定項目のカスタム属性を、プロファイル、コンテキスト、オーディエンスのデータを使用して、配信時にパーソナライズできるようになりました。 これにより、コンテンツのバリエーションを作成するために、重複するオファーを管理する必要がなくなり、マーケターはより少ない項目で柔軟に意思決定をおこなえるようになります。
 
 ### メール {#june-26-email}
 
@@ -115,7 +105,6 @@ Adobe Journey Optimizerでは、新機能、既存の機能の強化、バグ修
 <p>Journey Optimizerでは、電子メールのDesignerで自動的に技術的な検証を直接実行できるようになりました。これにより、送信前にHTMLとCSSの問題を把握できます。</p>
 <p><code>&lt;script&gt;</code>および<code>&lt;base&gt;</code> タグ、Microsoft Outlookのレイアウトを解除できる空のdiv、HTML metaの更新タグ、Gmailでトリガーレンダリングが失敗するCSSまたはHTML サイズのしきい値など、サポートされていない要素をチェックします。</p>
 <p>結果は、オーサリングパネルで直接エラー、警告、または情報通知として表示され、コンテキストの詳細とワンクリック修正が可能な場合は表示されるので、エディターを離れることなく問題を解決できます。</p>
-<p>詳しくは、<a href="../email/content-check.md">詳細ドキュメント</a>を参照してください。</p>
 </td>
 </tr>
 </tbody>
