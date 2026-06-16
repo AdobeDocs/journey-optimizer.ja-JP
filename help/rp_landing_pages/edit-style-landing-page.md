@@ -20,7 +20,7 @@ Adobe Journey Optimizer の E メールデザイナーには、視覚的に魅�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 メールスタイルのカスタマイズ
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer を使用して、メールの本文、構造、コン�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 メールの背景のパーソナライズ
 

@@ -25,7 +25,7 @@ Adobe Journey Optimizer では、決定を管理することで、最も関連�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 Adobe Journey Optimizer での決定の作成
 

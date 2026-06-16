@@ -42,7 +42,7 @@ Adobe Journey Optimizer のメールチャネルを使用すると、正確で�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 メールコンテンツのデザインと最適化
 
@@ -62,7 +62,7 @@ Adobe Journey Optimizer を使用して、レスポンシブでパーソナラ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 メールチャネルの設定
 
@@ -72,7 +72,7 @@ Adobe Journey Optimizer を使用して、レスポンシブでパーソナラ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
 
 メールの配信品質の取得
 

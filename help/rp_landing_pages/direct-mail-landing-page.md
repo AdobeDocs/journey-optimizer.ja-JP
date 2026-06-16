@@ -30,7 +30,7 @@ Adobe Journey Optimizer のダイレクトメールを使用すると、明確�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 ダイレクトメールキャンペーンの作成方法
 

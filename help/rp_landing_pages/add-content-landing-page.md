@@ -30,7 +30,7 @@ Adobe Journey Optimizer でのコンテンツのデザインとは、オーデ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg?lang=ja)
 
 ビジュアルフラグメントの活用
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer でのコンテンツのデザインとは、オーデ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
 
 リンクの追加とメッセージのトラッキング
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer でのコンテンツのデザインとは、オーデ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 パーソナライズされたオファーの挿入
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer でのコンテンツのデザインとは、オーデ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg?lang=ja)
 
 テキストバージョンの生成
 
@@ -70,7 +70,7 @@ HTML コンテンツを表示できない受信者向けに、メールのプレ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=ja)
 
 AI インボックス用のメールテキストの最適化
 
@@ -80,7 +80,7 @@ AI 支援によるインボックスクライアントがより効果的に要�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 メタデータの追加
 

@@ -20,7 +20,7 @@ Adobe Experience Platform は、真にパーソナライズされたカスタマ
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
 
 inAudience 関数の使用
 
@@ -40,7 +40,7 @@ Adobe Experience Platform のプロファイル属性とデータセットにア
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ja)
 
 ジャーニーでの Adobe Experience Platform データの使用
 

@@ -20,7 +20,7 @@ Adobe Journey Optimizer には、ジャーニー内に複雑なロジックを�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=ja)
 
 高度な式エディターの使用
 
@@ -61,7 +61,7 @@ Journey Optimizer データセットに関するクエリのサンプルと関�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 データ分析用の SQL クエリの例
 

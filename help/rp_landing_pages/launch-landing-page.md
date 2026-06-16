@@ -20,7 +20,7 @@ Adobe Journey Optimizer で最初の調整されたキャンペーンを開始�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 オーケストレーションキャンペーンを作成するためのステップバイステップガイド
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer で最初の調整されたキャンペーンを開始�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 オーケストレーションキャンペーンの作成とスケジュール
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer で最初の調整されたキャンペーンを開始�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
 
 調整されたキャンペーンのレポート
 

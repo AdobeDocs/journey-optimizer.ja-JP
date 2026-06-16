@@ -26,7 +26,7 @@ Adobe Journey Optimizer でランディングページを設定すると、カ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 ランディングページのサブドメインの設定と管理
 

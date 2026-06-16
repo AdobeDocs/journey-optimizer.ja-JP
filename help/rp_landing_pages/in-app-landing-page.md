@@ -51,7 +51,7 @@ Web アプリ内メッセージの作成
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/paint-brush.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/paint-brush.svg?lang=ja)
 
 アプリ内コンテンツのデザインとカスタマイズ
 

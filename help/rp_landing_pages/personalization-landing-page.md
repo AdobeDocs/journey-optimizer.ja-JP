@@ -70,7 +70,7 @@ AEP データセットを「datasetLookup」ヘルパー関数と共に使用し
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=ja)
 
 ヘルパー関数リファレンスガイド
 

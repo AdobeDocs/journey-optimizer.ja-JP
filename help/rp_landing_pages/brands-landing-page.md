@@ -20,7 +20,7 @@ Adobe Journey Optimizer の「ブランド」機能を使用すると、すべ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 ブランドガイドラインの作成と管理
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer を使用して、一貫性のある視覚的および�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
 
 ブランド一致スコアの評価
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer を使用して、一貫性のある視覚的および�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 ブランドのパーソナライズ
 
@@ -50,7 +50,7 @@ AI 生成コンテンツとのシームレスな統合のために、デフォ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 生成モデルの作成と管理
 

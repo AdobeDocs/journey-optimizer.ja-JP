@@ -20,7 +20,7 @@ Adobe Journey Optimizer のアクティビティとは、ユーザーがイベ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
 
 ジャーニーのアクティビティの概要
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer のイベント、オーケストレーション、ア�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
 
 一般的なイベントの使用
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer のイベント、オーケストレーション、ア�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
 
 オーディエンスの選定イベント
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer のイベント、オーケストレーション、ア�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
 
 最適化アクティビティ（条件）の使用
 

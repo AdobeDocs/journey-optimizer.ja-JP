@@ -30,7 +30,7 @@ AI アシスタントの基本を学ぶ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/envelope.svg?lang=ja)
 
 完全なコンテンツの生成
 
@@ -40,7 +40,7 @@ AI アシスタントを使用して、メール、プッシュ通知、web ペ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=ja)
 
 テキストのみの生成
 
@@ -50,7 +50,7 @@ AI アシスタントを使用して、メール、SMS、プッシュ通知、we
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=ja)
 
 画像のみの生成
 

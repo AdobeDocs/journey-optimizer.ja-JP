@@ -61,7 +61,7 @@ API トリガーキャンペーン
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
 
 オーケストレーションキャンペーン
 
