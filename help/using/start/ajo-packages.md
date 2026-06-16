@@ -143,7 +143,7 @@ ht-degree: 3%
 
 ひとつのチャンネルがアドオンと関連付けられていない場合もあります。 そうしたツールの利用は、ライセンス取得済みの設定や契約書、パートナーチャネルにはサードパーティのビジネスアカウントを必要とします。
 
-**📲SMS / MMS** — テキストおよびマルチメディアメッセージを携帯電話番号に送信します。 トランザクション SMS （リアルタイム、イベントトリガー）は、すべてのベースオファーでサポートされています。SMS/MMSのマーケティング利用の拡大は、ライセンス済みの設定によって異なります。 [ モバイルメッセージの送信方法を学ぶ](../mobile/get-started-mobile.md)
+**📲SMS / MMS** — テキストおよびマルチメディアメッセージを携帯電話番号に送信します。 トランザクション SMS （リアルタイム、イベントトリガー）は、すべてのベースオファーでサポートされています。SMS/MMSのマーケティング利用の拡大は、ライセンス済みの設定によって異なります。 [&#x200B; モバイルメッセージの送信方法を学ぶ](../mobile/get-started-mobile.md)
 
 **💬WhatsApp** — WhatsApp Businessを通じてメッセージを送信します。 WhatsApp Business アカウントが必要です。使用可能かどうかは、契約書とライセンス設定によって異なります。 [WhatsAppの使用方法を学ぶ](../whatsapp/get-started-whatsapp.md)
 
@@ -218,7 +218,7 @@ ht-degree: 3%
 
 +++**Select、Prime、またはUltimateについて聞いたことがあります。 これらは現在のパッケージ モデルですか？**
 
-[!DNL Adobe Journey Optimizer]は、基本オファー（キャンペーン、ジャーニー、キャンペーン、ジャーニー）とアドオンを中心に構築されたモジュール式パッケージモデルを通じて提供されるようになりました。 Select、Prime、またはUltimateの用語を使用している既存のお客様の場合は、機能参照については、以下の[従来のパッケージ ](#legacy-packaging)を参照するか、現在の使用権限についてAdobe担当者にお問い合わせください。
+[!DNL Adobe Journey Optimizer]は、基本オファー（キャンペーン、ジャーニー、キャンペーン、ジャーニー）とアドオンを中心に構築されたモジュール式パッケージモデルを通じて提供されるようになりました。 Select、Prime、またはUltimateの用語を使用している既存のお客様の場合は、機能参照については、以下の[従来のパッケージ &#x200B;](#legacy-packaging)を参照するか、現在の使用権限についてAdobe担当者にお問い合わせください。
 
 +++
 
@@ -253,17 +253,17 @@ ht-degree: 3%
 
 | 機能 | 実行できること | 選択 | Prime | Ultimate | 詳細情報 |
 |-----------|----------------|:------:|:-----:|:--------:|-----------|
-| **メール** | パーソナライズされたメールメッセージのデザインと送信 | ✓ | ✓ | ✓ | [ メールの送信方法について](../email/get-started-email.md) |
-| **SMS / MMS** | テキストおよびマルチメディアメッセージの送信 | ✓ | ✓ | ✓ | [ モバイルメッセージの送信方法を学ぶ](../mobile/get-started-mobile.md) |
-| **プッシュ通知** | モバイルプッシュアラートを送信 | ✓ | ✓ | ✓ | [ プッシュ通知の送信方法を確認](../push/get-started-push.md) |
-| **バッチキャンペーン** | オーディエンスへのメッセージのスケジュール | ✓ | ✓ | ✓ | [ キャンペーンの作成方法を学ぶ](../campaigns/get-started-with-campaigns.md) |
-| **自動ジャーニー** | イベントをトリガーとしたカスタマージャーニーの設計 | ✓ | ✓ | ✓ | [ ジャーニーの構築方法を学ぶ](../building-journeys/journey-gs.md) |
-| **リアルタイムのジャーニートリガー** | 顧客の行動にリアルタイムで対応 | — | ✓ | ✓ | [ ジャーニーイベントについて学ぶ](../event/about-events.md) |
-| **アプリ内メッセージ** | モバイルアプリ内でのメッセージの表示 | — | ✓ | ✓ | [ アプリ内メッセージの使用方法を説明](../in-app/get-started-in-app.md) |
+| **メール** | パーソナライズされたメールメッセージのデザインと送信 | ✓ | ✓ | ✓ | [&#x200B; メールの送信方法について](../email/get-started-email.md) |
+| **SMS / MMS** | テキストおよびマルチメディアメッセージの送信 | ✓ | ✓ | ✓ | [&#x200B; モバイルメッセージの送信方法を学ぶ](../mobile/get-started-mobile.md) |
+| **プッシュ通知** | モバイルプッシュアラートを送信 | ✓ | ✓ | ✓ | [&#x200B; プッシュ通知の送信方法を確認](../push/get-started-push.md) |
+| **バッチキャンペーン** | オーディエンスへのメッセージのスケジュール | ✓ | ✓ | ✓ | [&#x200B; キャンペーンの作成方法を学ぶ](../campaigns/get-started-with-campaigns.md) |
+| **自動ジャーニー** | イベントをトリガーとしたカスタマージャーニーの設計 | ✓ | ✓ | ✓ | [&#x200B; ジャーニーの構築方法を学ぶ](../building-journeys/journey-gs.md) |
+| **リアルタイムのジャーニートリガー** | 顧客の行動にリアルタイムで対応 | — | ✓ | ✓ | [&#x200B; ジャーニーイベントについて学ぶ](../event/about-events.md) |
+| **アプリ内メッセージ** | モバイルアプリ内でのメッセージの表示 | — | ✓ | ✓ | [&#x200B; アプリ内メッセージの使用方法を説明](../in-app/get-started-in-app.md) |
 | **Web チャネル** | web ページをリアルタイムでパーソナライズ | — | ✓ | ✓ | [Web チャネルの使用方法を学ぶ](../web/get-started-web.md) |
-| **コードベースのエクスペリエンス** | APIまたはSDKを使用して、任意のサーフェスをパーソナライズ | — | ✓ | ✓ | [ コードベースのエクスペリエンスの使用方法を学ぶ](../code-based/get-started-code-based.md) |
-| **コンテンツカード** | 永続的で邪魔にならない製品内メッセージを配信します | — | ✓ | ✓ | [ コンテンツカードの使用方法を学ぶ](../content-card/get-started-content-card.md) |
-| **ダイレクトメール** | 物理的なメールの作成と送信 | — | Prime以降で利用可能 | ✓ | [ ダイレクトメールの使用方法を学ぶ](../direct-mail/get-started-direct-mail.md) |
+| **コードベースのエクスペリエンス** | APIまたはSDKを使用して、任意のサーフェスをパーソナライズ | — | ✓ | ✓ | [&#x200B; コードベースのエクスペリエンスの使用方法を学ぶ](../code-based/get-started-code-based.md) |
+| **コンテンツカード** | 永続的で邪魔にならない製品内メッセージを配信します | — | ✓ | ✓ | [&#x200B; コンテンツカードの使用方法を学ぶ](../content-card/get-started-content-card.md) |
+| **ダイレクトメール** | 物理的なメールの作成と送信 | — | Prime以降で利用可能 | ✓ | [&#x200B; ダイレクトメールの使用方法を学ぶ](../direct-mail/get-started-direct-mail.md) |
 | **決定** | それぞれの顧客に最適なオファーをリアルタイムで選択 | — | — | ✓ | [決定機能の使用方法を学ぶ](../experience-decisioning/gs-experience-decisioning.md) |
 | **AIを活用したランキング** | マシンラーニングを活用してオファーとコンテンツの選択を最適化 | — | — | ✓ | [AI モデルについて学ぶ](../offers/ranking/ai-models.md) |
 | **WhatsApp** | WhatsApp Business経由でメッセージを送信する | ライセンスとチャネル設定によって異なります | ライセンスとチャネル設定によって異なります | ライセンスとチャネル設定によって異なります | [WhatsAppの使用方法を学ぶ](../whatsapp/get-started-whatsapp.md) |
@@ -275,6 +275,6 @@ ht-degree: 3%
 [!DNL Adobe Journey Optimizer]のパッケージ化を理解したところで、次の手順を説明します。
 
 - **製品の基本を学ぶ** – 環境を設定し、コアの概念を学びます。 [Journey Optimizerの基本を学ぶ](get-started.md)
-- **実装の計画** – プロジェクトの構造化されたオンボーディングパスに従います。 [ オンボーディングプロジェクトガイド ](onboarding-hub.md)
-- **適切なユースケースを見つける** — エンゲージメント目標をそれらをサポートする機能にマッピングします。 [ ユースケースガイド ](ajo-use-case-guide.md)
-- **チャネルを設定** – どのアドオンを使用しているかがわかったら、必要なチャネルを設定します：[電子メール ](../email/get-started-email.md)、[ プッシュ通知](../push/get-started-push.md)、[SMS / MMS](../mobile/get-started-mobile.md)、[ アプリ内メッセージ ](../in-app/get-started-in-app.md)、[ コンテンツカード ](../content-card/get-started-content-card.md)、[web チャネル ](../web/get-started-web.md)、および[ コードベースのエクスペリエンス ](../code-based/get-started-code-based.md)。
+- **実装の計画** – プロジェクトの構造化されたオンボーディングパスに従います。 [&#x200B; オンボーディングプロジェクトガイド &#x200B;](onboarding-hub.md)
+- **適切なユースケースを見つける** — エンゲージメント目標をそれらをサポートする機能にマッピングします。 [&#x200B; ユースケースガイド &#x200B;](ajo-use-case-guide.md)
+- **チャネルを設定** – どのアドオンを使用しているかがわかったら、必要なチャネルを設定します：[電子メール &#x200B;](../email/get-started-email.md)、[&#x200B; プッシュ通知](../push/get-started-push.md)、[SMS / MMS](../mobile/get-started-mobile.md)、[&#x200B; アプリ内メッセージ &#x200B;](../in-app/get-started-in-app.md)、[&#x200B; コンテンツカード &#x200B;](../content-card/get-started-content-card.md)、[web チャネル &#x200B;](../web/get-started-web.md)、および[&#x200B; コードベースのエクスペリエンス &#x200B;](../code-based/get-started-code-based.md)。
