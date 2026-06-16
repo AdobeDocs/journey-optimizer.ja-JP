@@ -10,26 +10,16 @@ level: Intermediate, Experienced
 keywords: 外部, ソース, データ, 設定, 接続, サードパーティ
 exl-id: f3cdc01a-9f1c-498b-b330-1feb1ba358af
 TQID: https://experienceleague.adobe.com/B7ByDzFxOmtiWSNyc35w28v3j1osGVOyU8LYJrzxGSE
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: dd51b532-b93f-4bcf-8dbf-0d007f593aca
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e366af78935405cd5acb15269194875098b20914
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: dd51b532-b93f-4bcf-8dbf-0d007f593aca
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9ca5a2c888011362cf1067aaedc8fb7dad2bdd21
 workflow-type: tm+mt
-source-wordcount: 2109
-ht-degree: 74%
+source-wordcount: 2462
+ht-degree: 64%
 
 ---
 
@@ -54,7 +44,7 @@ ht-degree: 74%
 >
 >* 外部システムを操作する際のガードレールについて詳しくは、[このページ](../configuration/external-systems.md)を参照してください。
 >
->* 応答がサポートされるようになったので、外部データソースのユースケースでは、データソースの代わりにカスタムアクションを使用する必要があります。 応答について詳しくは、[&#x200B; カスタムアクション応答](../action/action-response.md)を参照してください。 データレイクの永続性を持たないカスタムアクションは、データがジャーニー内でのみ有効で、API エンドポイントを介して外部システムにアクセスできる場合に適した選択肢です。 すべてのデータ アクセス オプションの比較については、[&#x200B; データ アクセス戦略の選択](../datasource/about-data-sources.md#data-access-strategy)を参照してください。
+>* 応答がサポートされるようになったので、外部データソースのユースケースでは、データソースの代わりにカスタムアクションを使用する必要があります。 応答について詳しくは、[ カスタムアクション応答](../action/action-response.md)を参照してください。 データレイクの永続性を持たないカスタムアクションは、データがジャーニー内でのみ有効で、API エンドポイントを介して外部システムにアクセスできる場合に適した選択肢です。 すべてのデータ アクセス オプションの比較については、[ データ アクセス戦略の選択](../datasource/about-data-sources.md#data-access-strategy)を参照してください。
 
 POST または GET を使用して JSON を返す REST API がサポートされています。 API キー、基本およびカスタム認証モードがサポートされています。
 
@@ -77,7 +67,7 @@ POST または GET を使用して JSON を返す REST API がサポートされ
 
 1. データソースのリストから、「**[!UICONTROL データSourceを作成]**」をクリックして、新しい外部データソースを作成します。
 
-   ![&#x200B; データ Sourceを作成ボタンがハイライト表示されたデータソースリスト画面](assets/journey25.png)
+   ![ データ Sourceを作成ボタンがハイライト表示されたデータソースリスト画面](assets/journey25.png)
 
    画面の右側にデータソース設定ペインが開きます。
 
@@ -94,7 +84,7 @@ POST または GET を使用して JSON を返す REST API がサポートされ
    >
    >セキュリティ上の理由から、HTTPS の使用を強くお勧めします。 また、アドビの非公開アドレスや IP アドレスの使用は許可されていません。
 
-   ![天候API エンドポイントの例が入力された外部データソース URL フィールド &#x200B;](assets/journey27.png)
+   ![天候API エンドポイントの例が入力された外部データソース URL フィールド ](assets/journey27.png)
 
 1. 外部サービスの設定に応じて認証を&#x200B;**[!UICONTROL 認証なし]**、**[!UICONTROL 基本]**、**[!UICONTROL カスタム]**&#x200B;または **[!UICONTROL API キー]**&#x200B;に設定します。
 
@@ -107,14 +97,14 @@ POST または GET を使用して JSON を返す REST API がサポートされ
    >* [!DNL Adobe Journey Optimizer]は、カスタムアクションで定義されたシークレットを自動的に暗号化します。 各組織の暗号化キーは、その組織に関連付けられた専用のコンテナで安全に管理されます。 資格情報をインターフェイスに表示する際、誤って公開されないように、デフォルトではマスクされます。
 
 
-   カスタム認証モードについて詳しくは、[&#x200B; カスタム認証モードの節](../datasource/external-data-sources.md#custom-authentication-mode)を参照してください。 この例では、以下のように API キー認証モードを選択します。
+   カスタム認証モードについて詳しくは、[ カスタム認証モードの節](../datasource/external-data-sources.md#custom-authentication-mode)を参照してください。 この例では、以下のように API キー認証モードを選択します。
 
    * **[!UICONTROL タイプ]**：API キー
    * **[!UICONTROL 名前]**：&quot;appid&quot;（API キーのパラメーター名）
    * **[!UICONTROL 値]**：&quot;1234&quot;（API キーの値）
    * **[!UICONTROL 位置]**：「クエリパラメーター」（API キーは URL 内にあります）
 
-     ![&#x200B; タイプ、名前、値、場所の入力を示すAPI キー認証フィールド &#x200B;](assets/journey28.png)
+     ![ タイプ、名前、値、場所の入力を示すAPI キー認証フィールド ](assets/journey28.png)
 
 1. 「**[!UICONTROL 新しいフィールドグループを追加]**」をクリックして、API パラメーターセットごとに新しいフィールドグループを追加します。 フィールドグループ名には、英数字とアンダースコアのみを使用できます。 最大長は 30 文字です。 この例では、各パラメーターセット（都市と経度／緯度）ごとに 1 つずつ、2 つのフィールドグループを作成する必要があります。
 
@@ -135,7 +125,7 @@ GET 呼び出しにパラメーターが必要な場合は、「 **[!UICONTROL �
 {"id":{"param":"identifier"}}
 ```
 
-動的な値と応答ペイロード フィールドを含む![&#x200B; フィールドグループ設定パネル &#x200B;](assets/journey29.png)
+動的な値と応答ペイロード フィールドを含む![ フィールドグループ設定パネル ](assets/journey29.png)
 
 
 変更を保存すると、データソースが設定され、ジャーニーで使用できる状態になります。これで、状況に応じて、メールをパーソナライズできます。 温度が 30°C を超える場合、特定のコミュニケーションを送信するようにできます。
@@ -151,7 +141,7 @@ GET 呼び出しにパラメーターが必要な場合は、「 **[!UICONTROL �
 
 カスタム認証を設定する場合は、「**[!UICONTROL クリックして認証を確認]**」ボタンを使用して、カスタム認証ペイロードが正しく設定されているかどうかを制御します。
 
-![&#x200B; データソース設定のカスタム認証テストボタン &#x200B;](assets/journey29-bis.png)
+![ データソース設定のカスタム認証テストボタン ](assets/journey29-bis.png)
 
 テストに成功すると、ボタンが緑色に変わります。
 
@@ -268,11 +258,64 @@ Microsoft Entra IDなど、証明書ベースのID確認を強制するエンタ
 
 `client_assertion`および`client_assertion_type` フィールドは、ユーザーが作成したことはありません。 これらは、トークンエンドポイント呼び出しの直前に、実行時にプラットフォームによって自動的に挿入されます。
 
-<!--
-rebuild
--->
+#### 仕組み {#certificate-credential-how-it-works}
 
-証明書資格情報認証タイプの例を次に示します。
+証明書ベースのカスタム認証は、[RFC 7523](https://datatracker.ietf.org/doc/html/rfc7523){target="_blank"}で定義されているように、JWT クライアントアサーションを使用してOAuth 2.0 クライアント資格情報を実装します。これは、Microsoft Entra IDとOktaでサポートされているのと同じ標準です。 Journey Optimizerは、クライアントの秘密鍵の代わりに、Adobeのマネージド秘密鍵で署名されたJWTを使用してIDを証明します。 ID プロバイダーは、ID プロバイダーに一度登録したAdobeの公開証明書を使用して署名を検証します。
+
+トークン交換は次の手順に従います。
+
+1. Journey Optimizerは、Adobeの秘密鍵で署名されたJWT クライアントアサーションを構築します。
+1. アサーションは、`client_id`、`grant_type`、`scope`と共にトークンエンドポイントに送信されます。
+1. ID プロバイダーは、Adobeの登録済み公開証明書に対してJWT署名を検証します。
+1. ID プロバイダーがベアラートークンを返します。
+1. Journey Optimizerはそのトークンを使用して、カスタムアクションエンドポイントを呼び出します。
+
+#### Adobe証明書の詳細 {#certificate-credential-details}
+
+Adobeは、証明書とその関連する秘密鍵を管理します。 次の表に、主なプロパティの概要を示します。
+
+| プロパティ | 値 |
+| --- | --- |
+| 発行者 | DigiCert （パブリック CA） |
+| 管理者 | Adobe |
+| アルゴリズム | RS256 （RSA） |
+| ID プロバイダーに登録する情報 | Adobeのリーフ証明書のみ（中間CAやルート CAではない） |
+| 入手方法 | [mTLS公開証明書API](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint){target="_blank"}から取得します（以下の&#x200B;**証明書** ガードレールを参照） |
+| 回転 | Adobeはローテーションを管理し、少なくとも30日前に通知します |
+
+#### JWT アサーション構造 {#certificate-credential-jwt}
+
+JWT クライアントアサーションは作成しません。Journey Optimizerが生成し、署名します。 ここに、ID プロバイダーチームが要求を検証できるように、想定される構造が提供されます。
+
+ヘッダー：
+
+```json
+{
+  "alg": "RS256",
+  "x5t": "<base64url SHA-1 thumbprint of Adobe's leaf certificate>"
+}
+```
+
+ペイロード：
+
+```json
+{
+  "iss": "<client_id>",
+  "sub": "<client_id>",
+  "aud": "<token endpoint URL>",
+  "iat": "<current unix timestamp>",
+  "exp": "<iat + 600 seconds>",
+  "jti": "<unique UUID per request>"
+}
+```
+
+次のことに注意してください。
+
+* `exp` − `iat`は、OktaとEntra IDの要件と一致して、常に10分≤で完了します。
+* 各アサーションは一意の`jti`を使用するため、リプレイ攻撃を安全に行うことができます。
+* `client_assertion`と`client_assertion_type`はプラットフォームによって自動的に挿入され、作成されることはありません。
+
+Microsoft Entra IDの証明書資格情報認証タイプの例を次に示します。
 
 ```json
 {
@@ -294,6 +337,28 @@ rebuild
 }
 ```
 
+Oktaの同じ証明書資格情報認証タイプの例を次に示します。
+
+```json
+{
+  "type": "customAuthorization",
+  "subType": "certificateCredential",
+  "authorizationType": "bearer",
+  "endpoint": "https://<your-okta-domain>/oauth2/v1/token",
+  "aud": "https://<your-okta-domain>/oauth2/v1/token",
+  "method": "POST",
+  "body": {
+    "bodyType": "form",
+    "bodyParams": {
+      "client_id": "<your-okta-app-client-id>",
+      "grant_type": "client_credentials",
+      "scope": "<your-api-scope>"
+    }
+  },
+  "tokenInResponse": "json://access_token"
+}
+```
+
 >[!CAUTION]
 >
 >証明書ベースのカスタム認証を設定する際は、次のガードレールを考慮してください。
@@ -302,7 +367,7 @@ rebuild
 >* **`method`**: `POST`でなければなりません。 OAuth トークンエンドポイントは、POST リクエストのみを受け入れます。
 >* **`client_id`**：空白にしないでください。先頭または末尾に空白を含めないでください。 空白の値を指定すると、ID プロバイダーが不透明なエラーで拒否する有効な外観のJWTが生成されます。
 >* **`scope`**: `bodyParams`でスペース区切りの単一の文字列として表されます。 合計1000文字以内。
->* **証明書**: Adobeは証明書と秘密鍵を管理します。証明書をアップロードしたり入力したりすることはありません。 ライブジャーニーでカスタムアクションを使用する前に、ID プロバイダーに&#x200B;**Adobeのリーフ証明書** （ルート CAではなく）を登録する必要があります。
+>* **証明書**: Adobeは証明書と秘密鍵を管理します。証明書をアップロードしたり入力したりすることはありません。 ライブジャーニーでカスタムアクションを使用する前に、ID プロバイダーに&#x200B;**Adobeのリーフ証明書**&#x200B;を登録する必要があります。 取得するには、[mTLS公開証明書API](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint){target="_blank"}を呼び出し、`certCommonName`が`ajo-journeys.aep-mtls.adobe.com`のエントリを探します。 そのエントリから`publicCertificate`値を登録します。中間またはルート CA証明書は使用しないでください。
 
 ヘッダー認証タイプの例を次に示します。
 
