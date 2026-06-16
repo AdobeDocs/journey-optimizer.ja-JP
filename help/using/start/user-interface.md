@@ -31,10 +31,10 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
+source-git-commit: e704a735855abf2c29ae83b1728d75b415456ed9
 workflow-type: tm+mt
-source-wordcount: 1617
-ht-degree: 98%
+source-wordcount: 1765
+ht-degree: 90%
 
 ---
 
@@ -408,3 +408,32 @@ AI アシスタントは、即座に役立つヘルプと運用上のインサ�
 >id="ajo_orchestration_load_file"
 >title="ファイルを読み込みアクティビティ"
 >abstract="**ファイルを読み込み**&#x200B;アクティビティは、**ターゲティング**&#x200B;アクティビティです。 これを使用して、オーケストレーションキャンペーンキャンバス上に CSV または TXT ファイルをアップロードし、キャンペーンオーディエンスとして使用します。 ファイルデータは実行時に消費され、Adobe Experience Platform データセットとして保持されません。 行は、ID 列とターゲティングディメンションを使用して、既存の受信者に紐付けられます。"
+
+<!-- SMS Sinch Usage metrics -->
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_usage_metrics"
+>title="SMS使用状況指標"
+>abstract="SMS利用状況レポートを生成し、メッセージング数とベンダーへの請求を紐付けることができます。 レポートには、ショートコードまたは電話番号ごとに、日ごとに集計されたモバイル終端（MT）およびモバイル開始（MO）数が一覧表示されます。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_usage_report_name"
+>title="レポート名"
+>abstract="後でリストでこのレポートを認識するのに役立つラベル（例：2026年5月の請求レビュー）を入力します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_usage_credential"
+>title="SMS資格情報"
+>abstract="送受信トラフィックがこのレポートに表示されるSinch API資格情報を選択します。 資格情報を追加または更新するには、**管理** > **チャネル** > **API資格情報**&#x200B;に移動し、**SMS ベンダー** > **Sinch MMS**&#x200B;を選択します。"
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_usage_start_date"
+>title="開始日"
+>abstract="レポートに含める日付範囲の初日。 使用状況データは、過去90日間のみ利用可能です。"
+
+<!--  channel type in Custom Provider in API credential  -->
+
+>[!CONTEXTUALHELP]
+>id="ajo_admin_sms_api_byop_channel_type"
+>title="チャネルタイプ"
+>abstract="オプション。 このカスタム SMS プロバイダー資格情報を使用して送信されたメッセージ（SMSまたはRCSなど）を分類します。 Journey Optimizerは、XDM エクスペリエンスイベントに値を書き込むため、チャネル別の配信をレポートおよび追跡できます。"
