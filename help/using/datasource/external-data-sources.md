@@ -26,10 +26,10 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e366af78935405cd5acb15269194875098b20914
+source-git-commit: 9ca5a2c888011362cf1067aaedc8fb7dad2bdd21
 workflow-type: tm+mt
-source-wordcount: 2109
-ht-degree: 74%
+source-wordcount: 2462
+ht-degree: 64%
 
 ---
 
@@ -268,11 +268,64 @@ Microsoft Entra IDなど、証明書ベースのID確認を強制するエンタ
 
 `client_assertion`および`client_assertion_type` フィールドは、ユーザーが作成したことはありません。 これらは、トークンエンドポイント呼び出しの直前に、実行時にプラットフォームによって自動的に挿入されます。
 
-<!--
-rebuild
--->
+#### 仕組み {#certificate-credential-how-it-works}
 
-証明書資格情報認証タイプの例を次に示します。
+証明書ベースのカスタム認証は、[RFC 7523](https://datatracker.ietf.org/doc/html/rfc7523){target="_blank"}で定義されているように、JWT クライアントアサーションを使用してOAuth 2.0 クライアント資格情報を実装します。これは、Microsoft Entra IDとOktaでサポートされているのと同じ標準です。 Journey Optimizerは、クライアントの秘密鍵の代わりに、Adobeのマネージド秘密鍵で署名されたJWTを使用してIDを証明します。 ID プロバイダーは、ID プロバイダーに一度登録したAdobeの公開証明書を使用して署名を検証します。
+
+トークン交換は次の手順に従います。
+
+1. Journey Optimizerは、Adobeの秘密鍵で署名されたJWT クライアントアサーションを構築します。
+1. アサーションは、`client_id`、`grant_type`、`scope`と共にトークンエンドポイントに送信されます。
+1. ID プロバイダーは、Adobeの登録済み公開証明書に対してJWT署名を検証します。
+1. ID プロバイダーがベアラートークンを返します。
+1. Journey Optimizerはそのトークンを使用して、カスタムアクションエンドポイントを呼び出します。
+
+#### Adobe証明書の詳細 {#certificate-credential-details}
+
+Adobeは、証明書とその関連する秘密鍵を管理します。 次の表に、主なプロパティの概要を示します。
+
+| プロパティ | 値 |
+| --- | --- |
+| 発行者 | DigiCert （パブリック CA） |
+| 管理者 | Adobe |
+| アルゴリズム | RS256 （RSA） |
+| ID プロバイダーに登録する情報 | Adobeのリーフ証明書のみ（中間CAやルート CAではない） |
+| 入手方法 | [mTLS公開証明書API](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint){target="_blank"}から取得します（以下の&#x200B;**証明書** ガードレールを参照） |
+| 回転 | Adobeはローテーションを管理し、少なくとも30日前に通知します |
+
+#### JWT アサーション構造 {#certificate-credential-jwt}
+
+JWT クライアントアサーションは作成しません。Journey Optimizerが生成し、署名します。 ここに、ID プロバイダーチームが要求を検証できるように、想定される構造が提供されます。
+
+ヘッダー：
+
+```json
+{
+  "alg": "RS256",
+  "x5t": "<base64url SHA-1 thumbprint of Adobe's leaf certificate>"
+}
+```
+
+ペイロード：
+
+```json
+{
+  "iss": "<client_id>",
+  "sub": "<client_id>",
+  "aud": "<token endpoint URL>",
+  "iat": "<current unix timestamp>",
+  "exp": "<iat + 600 seconds>",
+  "jti": "<unique UUID per request>"
+}
+```
+
+次のことに注意してください。
+
+* `exp` − `iat`は、OktaとEntra IDの要件と一致して、常に10分≤で完了します。
+* 各アサーションは一意の`jti`を使用するため、リプレイ攻撃を安全に行うことができます。
+* `client_assertion`と`client_assertion_type`はプラットフォームによって自動的に挿入され、作成されることはありません。
+
+Microsoft Entra IDの証明書資格情報認証タイプの例を次に示します。
 
 ```json
 {
@@ -294,6 +347,28 @@ rebuild
 }
 ```
 
+Oktaの同じ証明書資格情報認証タイプの例を次に示します。
+
+```json
+{
+  "type": "customAuthorization",
+  "subType": "certificateCredential",
+  "authorizationType": "bearer",
+  "endpoint": "https://<your-okta-domain>/oauth2/v1/token",
+  "aud": "https://<your-okta-domain>/oauth2/v1/token",
+  "method": "POST",
+  "body": {
+    "bodyType": "form",
+    "bodyParams": {
+      "client_id": "<your-okta-app-client-id>",
+      "grant_type": "client_credentials",
+      "scope": "<your-api-scope>"
+    }
+  },
+  "tokenInResponse": "json://access_token"
+}
+```
+
 >[!CAUTION]
 >
 >証明書ベースのカスタム認証を設定する際は、次のガードレールを考慮してください。
@@ -302,7 +377,7 @@ rebuild
 >* **`method`**: `POST`でなければなりません。 OAuth トークンエンドポイントは、POST リクエストのみを受け入れます。
 >* **`client_id`**：空白にしないでください。先頭または末尾に空白を含めないでください。 空白の値を指定すると、ID プロバイダーが不透明なエラーで拒否する有効な外観のJWTが生成されます。
 >* **`scope`**: `bodyParams`でスペース区切りの単一の文字列として表されます。 合計1000文字以内。
->* **証明書**: Adobeは証明書と秘密鍵を管理します。証明書をアップロードしたり入力したりすることはありません。 ライブジャーニーでカスタムアクションを使用する前に、ID プロバイダーに&#x200B;**Adobeのリーフ証明書** （ルート CAではなく）を登録する必要があります。
+>* **証明書**: Adobeは証明書と秘密鍵を管理します。証明書をアップロードしたり入力したりすることはありません。 ライブジャーニーでカスタムアクションを使用する前に、ID プロバイダーに&#x200B;**Adobeのリーフ証明書**&#x200B;を登録する必要があります。 取得するには、[mTLS公開証明書API](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint){target="_blank"}を呼び出し、`certCommonName`が`ajo-journeys.aep-mtls.adobe.com`のエントリを探します。 そのエントリから`publicCertificate`値を登録します。中間またはルート CA証明書は使用しないでください。
 
 ヘッダー認証タイプの例を次に示します。
 
