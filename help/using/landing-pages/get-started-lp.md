@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: 2956c3df01f4b2e753111ecf54163ec4084fecf2
 workflow-type: tm+mt
 source-wordcount: 781
-ht-degree: 91%
+ht-degree: 94%
 
 ---
 
@@ -137,4 +137,4 @@ ht-degree: 91%
 
 >[!VIDEO](https://video.tv.adobe.com/v/344400?captions=jpn&quality=12&learn=on)
 
-➡️ **実際に見る：** サブスクリプション管理、確認メール、データキャプチャのシナリオをカバーするステップバイステップの例については、[&#x200B; ランディングページのユースケース &#x200B;](lp-use-cases.md)を確認してください。
+➡️ **実際に参照：**&#x200B;サブスクリプション管理、確認メール、データキャプチャのシナリオなどを対象としたステップバイステップの例について詳しくは、[ランディングページのユースケース](lp-use-cases.md)を参照してください。

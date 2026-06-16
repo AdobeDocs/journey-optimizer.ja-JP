@@ -37,7 +37,7 @@ topic_v2:
 source-git-commit: a5d9be4fcfcb52bb1ee65096262e18feaa2ce4b1
 workflow-type: tm+mt
 source-wordcount: 1642
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -128,7 +128,7 @@ ht-degree: 95%
 
 **メッセージの送信**
 
-メール、プッシュ通知、SMS/RCS/MMS、アプリ内メッセージ、webなどに組み込みのチャネルアクションを使用でき、すべてJourney Optimizerで設計されています。
+Journey Optimizer でデザインされた、メール、プッシュ、SMS／RCS／MMS、アプリ内、web など、すべてのビルトインチャネルアクションを使用します。
 
 [ジャーニーでのメッセージの送信](journey-action.md)
 :::

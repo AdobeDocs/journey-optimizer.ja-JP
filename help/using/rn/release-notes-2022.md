@@ -35,7 +35,7 @@ topic_v2:
 source-git-commit: 9372a9bed5c6da5db33567557944d69af9d56913
 workflow-type: tm+mt
 source-wordcount: 3603
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -168,7 +168,7 @@ ht-degree: 99%
 <tbody>
 <tr>
 <td>
-<p>Adobe Experience Platformを使用すれば、顧客の同意設定を尊重するマーケティングポリシーを容易に導入および適用できます。同意ポリシーは、Adobe Experience Platformで定義されます。Journey Optimizerでは、これらの同意ポリシーをカスタムアクションに適用できます。例えば、電子メール、プッシュ通知、SMS通信の受信に同意していない顧客を除外するために、同意ポリシーを定義できます。
+<p>Adobe Experience Platform を使用すると、顧客の同意設定を尊重するマーケティングポリシーを簡単に導入および適用できます。同意ポリシーは、Adobe Experience Platform で定義されます。Journey Optimizer では、これらの同意ポリシーをカスタムアクションに適用できます。例えば、メール、プッシュ通知、SMS 通信の受信に同意していない顧客を除外する同意ポリシーを定義できます。
 <p>自動同意適用は、現在、Healthcare Shield アドオン機能を購入した組織でのみ利用できます。</p>
 <p>詳しくは、<a href="../action/consent.md">詳細なドキュメント</a>を参照してください。
 </td>

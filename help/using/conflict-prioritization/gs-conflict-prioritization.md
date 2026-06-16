@@ -24,7 +24,7 @@ topic_v2:
 source-git-commit: 49542ca70e8899061bc79772cf96069ab2587ab2
 workflow-type: tm+mt
 source-wordcount: 896
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -95,4 +95,4 @@ Journey Optimizer では、過剰な数のインタラクションで顧客が�
 * **[チャネル別のフリークエンシーキャップ](channel-capping.md)** - メッセージの過剰を防ぐため、チャネルレベルのフリークエンシーキャップを設定します。
 * **[クワイエットアワーの設定](quiet-hours.md)** - メッセージ配信の時間ベースの除外を定義します。
 * **[競合管理チュートリアル](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/conflict-management/identify-potential-conflicts){target="_blank"}** - ステップバイステップのビデオチュートリアル。
-* **[Journey Optimizerの使用例](../building-journeys/jo-use-cases.md)** – 頻度の上限やジャーニー抑制ロジックなど、実用的なパターンを参照します。
+* **[Journey Optimizer のユースケース](../building-journeys/jo-use-cases.md)** - フリークエンシーキャップやジャーニー抑制ロジックなど、実用的なパターンを参照します。

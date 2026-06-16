@@ -23,7 +23,7 @@ level_v2:
 source-git-commit: 01105f4dc3f6b52598c634373988570cf6916406
 workflow-type: tm+mt
 source-wordcount: 440
-ht-degree: 87%
+ht-degree: 92%
 
 ---
 
@@ -48,15 +48,15 @@ Meta の [Cloud API](https://developers.facebook.com/docs/whatsapp/cloud-api/) �
 WhatsApp を Journey Optimizer と統合するには、次が必要です。
 
 * Meta Business Manager アカウント
-* [確認済みの送信者名と電話番号を持つWhatsApp ビジネスアカウント](https://developers.facebook.com/docs/whatsapp/overview/business-accounts/)
+* [送信者名と電話番号を検証済みの WhatsApp Business アカウント](https://developers.facebook.com/docs/whatsapp/overview/business-accounts/)
 * [適切な権限を持つユーザー認証トークン](https://developers.facebook.com/blog/post/2022/12/05/auth-tokens/)
-* [承認済みMeta テンプレート](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/)
+* [承認済み Meta テンプレート](https://developers.facebook.com/docs/whatsapp/message-templates/guidelines/)
 
 統合を進める前に、次も確認する必要があります。
 
 * [WhatsApp コンテンツルール](https://www.whatsapp.com/legal/messaging-guidelines)
-* [Meta ポリシーの準拠](https://www.whatsapp.com/legal)
-* [24時間の会話の制限](https://developers.facebook.com/docs/whatsapp/messaging-limits/)
+* [Meta ポリシーへの準拠](https://www.whatsapp.com/legal)
+* [24 時間の会話の制限](https://developers.facebook.com/docs/whatsapp/messaging-limits/)
 
 ## 制限事項 {#limitations}
 

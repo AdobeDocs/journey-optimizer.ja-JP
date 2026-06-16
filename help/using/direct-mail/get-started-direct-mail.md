@@ -25,7 +25,7 @@ level_v2:
 source-git-commit: e7702a4706509a8181ee39cccc510656c5230a16
 workflow-type: tm+mt
 source-wordcount: 487
-ht-degree: 74%
+ht-degree: 89%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 74%
 
 ## 事前準備 {#before-you-start}
 
-ダイレクトメールメッセージを作成する前に、[&#x200B; ファイルルーティングとダイレクトメールチャネル設定](direct-mail-configuration.md)を設定します。 Adobe Experience Platformには、オーディエンスとプロファイルデータ（住所など）も必要です。
+ダイレクトメールメッセージを作成する前に、[ファイルルーティングとダイレクトメールチャネル設定](direct-mail-configuration.md)を指定します。 また、Adobe Experience Platform には、オーディエンスデータとプロファイルデータ（郵便番号など）も必要です。
 
 ダイレクトメールメッセージを送信する主な手順は、次のとおりです。
 
@@ -57,7 +57,7 @@ ht-degree: 74%
 >
 >ダイレクトメールメッセージは、ジャーニーやキャンペーンのコンテキストで作成できます。 API トリガーキャンペーンでは使用できません。
 
-![Journey Optimizerのダイレクトメールチャネルの概要をアニメーション化](../rn/assets/do-not-localize/gif-dm.gif)
+![Journey Optimizer のダイレクトメールチャネルのアニメートした概要](../rn/assets/do-not-localize/gif-dm.gif)
 
 ## その他のリソース {#additional-resources}
 
@@ -77,6 +77,6 @@ Adobe Journey Optimizer のダイレクトメールチャネルを活用して�
 
 +++
 
-同じ手順の手書きのチュートリアルについては、[&#x200B; ダイレクトメールチャネルのチュートリアル &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}を参照してください。
+同じ手順の書き込み済みのチュートリアルについて詳しくは、[ダイレクトメールチャネルのチュートリアル](https://experienceleague.adobe.com/ja/docs/journey-optimizer-learn/tutorials/channels/direct-mail-channel/direct-mail){target="_blank"}を参照してください。
 
-ダイレクトメールに関するよくある質問については、上記の「[追加リソース &#x200B;](#additional-resources)」の節を参照してください。
+ダイレクトメールに関するよくある質問について詳しくは、上記の[その他のリソース](#additional-resources)の節を参照してください。

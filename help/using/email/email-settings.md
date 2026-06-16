@@ -28,7 +28,7 @@ topic_v2:
 source-git-commit: bc98cb2b61c7c5c8dac78b494fe293a4106a88c4
 workflow-type: tm+mt
 source-wordcount: 1523
-ht-degree: 94%
+ht-degree: 97%
 
 ---
 
@@ -113,10 +113,10 @@ IP プールが選択された後、IP プールのドロップダウンリス�
 
 ## ヘッダーパラメーター {#email-header}
 
-「**[!UICONTROL ヘッダーパラメーター]**」セクションで、その設定を使用して送信されたメールの種類について、**送信者**、**返信先**、および&#x200B;**エラー**&#x200B;の値を入力します。 [詳細情報](header-parameters.md)
+「**[!UICONTROL ヘッダーパラメーター]**」セクションでは、その設定を使用して送信されるメールのタイプに応じて、**送信元**、**返信先**、**エラー**&#x200B;の値を入力します。 [詳細情報](header-parameters.md)
 
 
-オプションとして、送信者が&#x200B;**送信者**&#x200B;の作成者と異なる場合は、メールヘッダーに追加する別の&#x200B;**送信者**&#x200B;の名前とメールを設定します。 [詳細情報](header-parameters.md#sender-header)
+オプションで、送信者が&#x200B;**送信元**&#x200B;の作成者と異なる場合は、メールヘッダーに追加する異なる&#x200B;**送信者**&#x200B;の名前とメールを設定します。 [詳細情報](header-parameters.md#sender-header)
 
 
 ## BCC メール {#bcc-email}

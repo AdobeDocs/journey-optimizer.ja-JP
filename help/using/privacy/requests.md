@@ -26,7 +26,7 @@ subfeature_v2:
 source-git-commit: 4e89993a998268ae2810c949d0669bf6dc458dd6
 workflow-type: tm+mt
 source-wordcount: 576
-ht-degree: 92%
+ht-degree: 93%
 
 ---
 
@@ -56,7 +56,7 @@ Privacy Service と、プライバシーリクエストの作成および管理�
 Adobe Journey Optimizer から消費者データにアクセスして削除するための個々のリクエストは、次の 2 つの方法で送信できます。
 
 * **Privacy Service UI** を通じて。 [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ja){target="_blank"}
-* **Privacy Service API**&#x200B;を通じて。[詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/privacy/api/overview){target="_blank"}
+* **Privacy Service API** を通じて。[詳細情報](https://experienceleague.adobe.com/ja/docs/experience-platform/privacy/api/overview){target="_blank"}
   <!--More specific information on Privacy Service API [here](https://developer.adobe.com/experience-platform-apis/references/privacy-service/#_blank).-->
 
 Privacy Service では、**データアクセス**&#x200B;と&#x200B;**データ削除**&#x200B;という 2 つのタイプのリクエストがサポートされています。
