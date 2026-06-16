@@ -9,9 +9,9 @@ role: Admin, User
 level: Beginner
 keywords: journey optimizer, パッケージ，ライセンス，キャンペーン，ジャーニー，チャネル，意思決定，アウトバウンド，モバイル，web, モジュール式，sms, mms, whatsapp, アドオン，select, prime, ultimate, legacy
 hide: true
-source-git-commit: ac42eeb00129bd77963676302578aadc8d7051df
+source-git-commit: c0bfb3ea92ea1375fa6bdd2bdffc836c0046db7a
 workflow-type: tm+mt
-source-wordcount: '1972'
+source-wordcount: '1992'
 ht-degree: 3%
 
 ---
@@ -276,5 +276,6 @@ ht-degree: 3%
 
 - **製品の基本を学ぶ** – 環境を設定し、コアの概念を学びます。 [Journey Optimizerの基本を学ぶ](get-started.md)
 - **実装の計画** – プロジェクトの構造化されたオンボーディングパスに従います。 [&#x200B; オンボーディングプロジェクトガイド &#x200B;](onboarding-hub.md)
+- **機能の可用性を確認** – どの機能が有効か、ライフサイクルステータス（GA / LA / Beta）、発送時期を確認します。 [機能の可用性](ajo-features-availability.md)
 - **適切なユースケースを見つける** — エンゲージメント目標をそれらをサポートする機能にマッピングします。 [&#x200B; ユースケースガイド &#x200B;](ajo-use-case-guide.md)
 - **チャネルを設定** – どのアドオンを使用しているかがわかったら、必要なチャネルを設定します：[電子メール &#x200B;](../email/get-started-email.md)、[&#x200B; プッシュ通知](../push/get-started-push.md)、[SMS / MMS](../mobile/get-started-mobile.md)、[&#x200B; アプリ内メッセージ &#x200B;](../in-app/get-started-in-app.md)、[&#x200B; コンテンツカード &#x200B;](../content-card/get-started-content-card.md)、[web チャネル &#x200B;](../web/get-started-web.md)、および[&#x200B; コードベースのエクスペリエンス &#x200B;](../code-based/get-started-code-based.md)。
