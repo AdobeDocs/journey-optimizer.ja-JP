@@ -290,7 +290,7 @@ Adobeは、証明書とその関連する秘密鍵を管理します。 次の�
 | 管理者 | Adobe |
 | アルゴリズム | RS256 （RSA） |
 | ID プロバイダーに登録する情報 | Adobeのリーフ証明書のみ（中間CAやルート CAではない） |
-| 入手方法 | [mTLS公開証明書API](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint){target="_blank"}から取得します（以下の&#x200B;**証明書** ガードレールを参照） |
+| 入手方法 | [mTLS公開証明書API](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint){target="_blank"}から取得します（以下の&#x200B;**証明書** ガードレールを参照） |
 | 回転 | Adobeはローテーションを管理し、少なくとも30日前に通知します |
 
 #### JWT アサーション構造 {#certificate-credential-jwt}
@@ -377,7 +377,7 @@ Oktaの同じ証明書資格情報認証タイプの例を次に示します。
 >* **`method`**: `POST`でなければなりません。 OAuth トークンエンドポイントは、POST リクエストのみを受け入れます。
 >* **`client_id`**：空白にしないでください。先頭または末尾に空白を含めないでください。 空白の値を指定すると、ID プロバイダーが不透明なエラーで拒否する有効な外観のJWTが生成されます。
 >* **`scope`**: `bodyParams`でスペース区切りの単一の文字列として表されます。 合計1000文字以内。
->* **証明書**: Adobeは証明書と秘密鍵を管理します。証明書をアップロードしたり入力したりすることはありません。 ライブジャーニーでカスタムアクションを使用する前に、ID プロバイダーに&#x200B;**Adobeのリーフ証明書**&#x200B;を登録する必要があります。 取得するには、[mTLS公開証明書API](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint){target="_blank"}を呼び出し、`certCommonName`が`ajo-journeys.aep-mtls.adobe.com`のエントリを探します。 そのエントリから`publicCertificate`値を登録します。中間またはルート CA証明書は使用しないでください。
+>* **証明書**: Adobeは証明書と秘密鍵を管理します。証明書をアップロードしたり入力したりすることはありません。 ライブジャーニーでカスタムアクションを使用する前に、ID プロバイダーに&#x200B;**Adobeのリーフ証明書**&#x200B;を登録する必要があります。 取得するには、[mTLS公開証明書API](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/mtls-api/public-certificate-endpoint){target="_blank"}を呼び出し、`certCommonName`が`ajo-journeys.aep-mtls.adobe.com`のエントリを探します。 そのエントリから`publicCertificate`値を登録します。中間またはルート CA証明書は使用しないでください。
 
 ヘッダー認証タイプの例を次に示します。
 
