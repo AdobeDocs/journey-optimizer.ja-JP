@@ -6,21 +6,21 @@ description: SMS／MMS／RCS チャネル
 redpen-status: CREATED_||_2025-08-11_20-38-50
 exl-id: 1e59db2e-087f-4ce8-9d9e-99ff872c0062
 source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '282'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
 # SMS／MMS／RCS チャネル{#section-overview}
 
-Adobe Journey OptimizerのSMS/MMS/RCS チャネルを利用すれば、パーソナライズされたモバイルメッセージを通じて、モバイルデバイスを通じて顧客と直接エンゲージできます。 SMSによるシンプルなアップデート、MMSによるリッチマルチメディアコンテンツ、RCSによるインタラクティブなブランドメッセージなど、様々な方法でつながることができます。 サービスプロバイダーの設定、メッセージの作成とパーソナライゼーション、キャンペーンやジャーニーへの統合方法、オプトアウト管理によるコンプライアンスの徹底について解説します。 この過程で、コミュニケーションをテスト、送信、管理して最大限の影響力を上げる方法について説明します。これにより、オーディエンスの共感を得られるタイムリーで関連性の高いメッセージを簡単に配信できます。
+Adobe Journey Optimizer の SMS／MMS／RCS チャネルを使用すると、パーソナライズされたモバイルメッセージを通じてモバイルデバイス上でお客様と直接関与できます。このチャネルは、SMS 経由でシンプルな更新情報を送信したり、MMS 経由で豊富なマルチメディアコンテンツを送信したり、RCS でインタラクティブなブランドメッセージを送信したりするなど、汎用性の高い接続方法を提供します。サービスプロバイダーを設定し、メッセージを作成およびパーソナライズし、キャンペーンやジャーニーに統合し、オプトアウト管理のコンプライアンスを確保する方法について説明します。この過程で、コミュニケーションをテスト、送信、管理して最大限の影響力を上げる方法について説明します。これにより、オーディエンスの共感を得られるタイムリーで関連性の高いメッセージを簡単に配信できます。
 
-## SMS/MMS/RCS チャネルの概要
+## SMS／MMS／RCS チャネルの概要
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 テキストメッセージの基本を学ぶ
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer で SMS、MMS、RCS メッセージを設定、作成、
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 SMS、MMS、RCS メッセージの作成方法
 
@@ -40,7 +40,7 @@ SMS、MMS、RCS メッセージの作成方法
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 テキストメッセージの確認および送信
 
@@ -50,7 +50,7 @@ SMS、MMS、RCS メッセージの作成方法
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 テキストメッセージのオプトアウトの管理
 
@@ -60,7 +60,7 @@ SMS、MMS、RCS 通信のオプトアウトプロセスを管理することで�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 SMS サブドメインの設定
 
@@ -70,7 +70,7 @@ SMS サブドメインの設定
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 SMS／MMS／RCS チャネルの設定
 

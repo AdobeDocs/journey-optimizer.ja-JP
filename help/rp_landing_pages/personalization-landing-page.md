@@ -6,9 +6,9 @@ description: パーソナライゼーション
 redpen-status: CREATED_||_2025-08-12_00-36-08
 exl-id: dadda702-fc45-46c6-91c5-2887ff732a95
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '307'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 98%
 
 Adobe Journey Optimizer のパーソナライゼーションにより、個々のプロファイル、行動、コンテキストデータに基づいてコンテンツを動的にカスタマイズし、カスタマイズされた影響力のあるカスタマーエクスペリエンスを作成できます。 パーソナライズされたメール、通知、オファーを作成する場合でも、提供されるツールと手法を使用すると、適切なメッセージを適切なユーザーに適切なタイミングで簡単に届けることができます。 パーソナライゼーションエディター、Handlebars 構文、Adobe Experience Platform データが連携してアイデアを実現する方法、式フラグメントを含む再利用可能なコンテンツブロックを探索する方法、高度なヘルパー関数を詳しく調べてより深い可能性を解き放つ方法について説明します。 各トピックでは、スキルを段階的に構築し、自信を持ってパーソナライズされたジャーニーをデザインする準備を整えます。
 
-## Personalizationの機能とガイド
+## パーソナライゼーションの機能とガイド
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 パーソナライゼーションの基本を学ぶ
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer のパーソナライゼーションにより、個々�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 パーソナライゼーションの追加と検証
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer のパーソナライゼーションにより、個々�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 パーソナライゼーション構文について
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer のパーソナライゼーションにより、個々�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 式フラグメントの再利用
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer のパーソナライゼーションにより、個々�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 Adobe Experience Platform データをパーソナライゼーションに活用（ベータ版）
 
@@ -70,7 +70,7 @@ AEP データセットを「datasetLookup」ヘルパー関数と共に使用し
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 ヘルパー関数リファレンスガイド
 

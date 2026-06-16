@@ -2,13 +2,13 @@
 solution: Journey Optimizer
 product: Journey Optimizer
 title: アクションの設定
-description: Journey Optimizerでカスタムアクションを設定し、API呼び出し、応答、モニタリング、ガバナンスを介してジャーニーをサードパーティシステムに接続する方法を説明します。
+description: Journey Optimizer でカスタムアクションを設定し、API 呼び出し、応答、モニタリング、ガバナンスを介してジャーニーをサードパーティシステムに接続する方法を説明します。
 redpen-status: CREATED_||_2025-08-11_21-11-53
 exl-id: 4ce42dab-7e8f-454d-8f34-e713312ad7c5
 source-git-commit: 0fea7e06705d2154a664c72b8a483d1dbbdc18de
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '254'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer のアクションの設定により、カスタマー�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 カスタムアクションの基本を学ぶ
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer でカスタムアクションを設定および使用�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 カスタムアクションの設定方法
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer でカスタムアクションを設定および使用�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 カスタムアクションでの API 呼び出し応答の使用
 
@@ -50,11 +50,11 @@ Adobe Journey Optimizer でカスタムアクションを設定および使用�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 カスタムアクションの監視
 
-組み込みのモニタリングおよびレポート機能を使用して、ジャーニー内のカスタムアクションのパフォーマンスと実行を追跡できます。
+組み込みのモニタリングおよびレポート機能を使用して、ジャーニー内のカスタムアクションのパフォーマンスと実行を追跡します。
 
 [カスタムアクションの監視](../using/action/reporting.md)
 :::

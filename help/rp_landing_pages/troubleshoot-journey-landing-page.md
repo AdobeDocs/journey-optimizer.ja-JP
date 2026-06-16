@@ -6,9 +6,9 @@ description: トラブルシューティング
 redpen-status: CREATED_||_2025-08-11_20-20-50
 exl-id: bf26ca1f-e239-418e-8ce8-a891f3ba3416
 source-git-commit: b8d580eb6928f073934a33ede1d9c166d5370809
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '574'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 95%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bell.svg)
 
 システムアラートへのアクセスと登録
 
@@ -59,7 +59,7 @@ ht-degree: 95%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 エラーコードの参照
 
@@ -69,7 +69,7 @@ Adobe Journey Optimizer の一般的なエラーコードを理解し、ジャ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 ジャーニーをテストまたは公開する前のエラーのトラブルシューティング
 
@@ -79,7 +79,7 @@ Adobe Journey Optimizer の一般的なエラーコードを理解し、ジャ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 ライブジャーニー実行のトラブルシューティング
 
@@ -89,7 +89,7 @@ Adobe Journey Optimizer の一般的なエラーコードを理解し、ジャ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 ジャーニーでのインバウンドアクションのトラブルシューティング
 
@@ -99,7 +99,7 @@ Adobe Journey Optimizer の一般的なエラーコードを理解し、ジャ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 カスタムアクションのトラブルシューティング
 
@@ -109,11 +109,11 @@ Adobe Journey Optimizer の一般的なエラーコードを理解し、ジャ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/question.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/question.svg)
 
 サポートチケットのガイドライン
 
-Adobe サポートに連絡する際に含めるべき内容（環境の詳細、影響レベル、レプリケーション手順、ログまたはスクリーンショット、関連ID）を確認して、解決を迅速化します。
+問題解決を迅速に行うために、アドビサポートに連絡する際に含めるべき内容（環境の詳細、影響レベル、レプリケーション手順、ログまたはスクリーンショット、関連 ID）について説明します。
 
 [サポートチケットガイドライン](../using/start/user-interface.md#support-ticket-guidelines)
 :::

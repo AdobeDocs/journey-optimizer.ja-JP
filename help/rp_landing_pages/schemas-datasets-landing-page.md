@@ -6,21 +6,21 @@ description: リレーショナルスキーマとデータセットの管理
 redpen-status: CREATED_||_2025-08-11_20-23-42
 exl-id: 17c64a34-d571-46d0-a144-d4b746118c96
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 95%
+workflow-type: ht
+source-wordcount: '236'
+ht-degree: 100%
 
 ---
 
 # リレーショナルスキーマとデータセットの管理{#section-overview}
 
-Adobe Journey Optimizer でリレーショナルスキーマとデータセットを管理すると、影響力のあるパーソナライズされたキャンペーンにデータを構造化および整理するのに役立ちます。データ関係を手動で定義する場合でも、DDL ファイルを使用する場合でも、これらのスキーマは顧客レコードとキャンペーンデータをシームレスに接続する基盤となります。また、データセットを作成し、様々なソースからデータを取り込んで、リアルタイムのオーケストレーションとターゲティングに対応できるようにする方法についても説明します。スキーマの作成からリンクやデータの取り込みまで、各トピックでは、自信を持って生データを実用的なインサイトに変換し、優れたカスタマーエクスペリエンスを提供する手順について説明します。
+Adobe Journey Optimizer でリレーショナルスキーマとデータセットを管理すると、影響力のあるパーソナライズされたキャンペーンにデータを構造化および整理するのに役立ちます。 データ関係を手動で定義する場合でも、DDL ファイルを使用する場合でも、これらのスキーマは顧客レコードとキャンペーンデータをシームレスに接続する基盤となります。 また、データセットを作成し、様々なソースからデータを取り込んで、リアルタイムのオーケストレーションとターゲティングに対応できるようにする方法についても説明します。 スキーマの作成からリンクやデータの取り込みまで、各トピックでは、自信を持って生データを実用的なインサイトに変換し、優れたカスタマーエクスペリエンスを提供する手順について説明します。
 
 ## リレーショナルスキーマとデータセットの管理
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 リレーショナルスキーマとデータセットの基本を学ぶ
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer でスキーマを作成し、データセットを設�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 手動リレーショナルスキーマの設定
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer でスキーマを作成し、データセットを設�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 DDL ファイルを使用したリレーショナルスキーマの作成
 
@@ -50,7 +50,7 @@ DDL ファイルをアップロードし、テーブルをリンクし、調整�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 Adobe Journey Optimizer キャンペーン用データの取り込み
 

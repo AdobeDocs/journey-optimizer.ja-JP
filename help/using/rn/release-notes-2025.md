@@ -8,16 +8,12 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: aa8c74de-748b-4947-a972-14703f6ab4a7
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: 4bae03291d44603ab1648416f34dd1a8b414a07a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 9272
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -1084,7 +1080,7 @@ Journey Optimizer 製品リリースに関する&#x200B;**メールおよび製�
 
 * **キャンペーン**
 
-   * **キャンペーン内の複数のインバウンドアクション** - キャンペーンオーケストレーションを簡素化するために、1つのキャンペーンで複数のインバウンドアクションを定義できるようになりました。この機能を使用すると、特定のコンテンツを含む複数のコードベースのエクスペリエンス、アプリ内メッセージ、コンテンツカード、またはweb アクションを、異なる場所に同時に配信できます。
+   * **キャンペーンでの複数のインバウンドアクション** - キャンペーンオーケストレーションを簡素化するために、1 つのキャンペーンで複数のインバウンドアクションを定義できるようになりました。この機能により、複数のコードベースのエクスペリエンス、アプリ内メッセージ、コンテンツカード、web アクションを、各アクションに特定のコンテンツを含めて、同時に異なる場所に配信できます。
      [詳細情報](../campaigns/campaign-action.md#multi-action)
 
    * **キャンペーンインベントリの再編成** - スケジュールキャンペーンと API トリガーキャンペーンが、キャンペーンインベントリの別々のタブに分割され、ナビゲーションと管理が容易になりました。
@@ -1958,7 +1954,7 @@ table>
 <tbody>
 <tr>
 <td>
-<p>ダイナミックメディアアセットが、Journey Optimizerで直接利用できるようになりました。この統合により、次のことが可能になります。
+<p>Dynamic Media アセットが Journey Optimizer で直接使用可能になり、アクセスできるようになりました。この統合により、次の操作を実行できます。
 <ul>
 <li>リアルタイム更新でアセットを一元管理</li>
 <li>幅や高さなどのアセット設定を即座に変更</li>

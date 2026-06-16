@@ -6,9 +6,9 @@ description: コンテンツのデザイン
 redpen-status: CREATED_||_2025-08-11_20-32-28
 exl-id: 407918ea-abc5-45b4-96b5-3afbdfa89238
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '319'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer でのコンテンツのデザインとは、オーデ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 コンテンツコンポーネントの使用
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer でのコンテンツのデザインとは、オーデ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/layer-group.svg)
 
 ビジュアルフラグメントの活用
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer でのコンテンツのデザインとは、オーデ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 リンクの追加とメッセージのトラッキング
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer でのコンテンツのデザインとは、オーデ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 パーソナライズされたオファーの挿入
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer でのコンテンツのデザインとは、オーデ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/file-alt.svg)
 
 テキストバージョンの生成
 
@@ -70,17 +70,17 @@ HTML コンテンツを表示できない受信者向けに、メールのプレ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/message.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/message.svg)
 
-AIを活用した受信トレイ用にメールテキストを最適化する
+AI インボックス用のメールテキストの最適化
 
-メールのプレーンテキストレイヤーを構築することで、AIを活用した受信トレイのクライアントが、オファーやCTAをより的確に要約して抽出できるようになります。
+AI 支援によるインボックスクライアントがより効果的に要約し、オファーやコールトゥアクションを抽出できるように、メールのプレーンテキストレイヤーを構造化します。
 
-[AIを活用した受信トレイ用にメールテキストを最適化する](../using/email/llm-email-optimizer.md)
+[AI インボックス用のメールテキストの最適化](../using/email/llm-email-optimizer.md)
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 メタデータの追加
 

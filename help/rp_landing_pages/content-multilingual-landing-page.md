@@ -6,21 +6,21 @@ description: 多言語コンテンツ
 redpen-status: CREATED_||_2025-08-12_00-43-28
 exl-id: 3f02694e-2237-4022-8e05-b76a5a1443b5
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '241'
+ht-degree: 100%
 
 ---
 
 # 多言語コンテンツ{#section-overview}
 
-Adobe Journey Optimizer の多言語コンテンツ機能を使用すると、複数の言語でコンテンツを作成し、グローバルオーディエンスにパーソナライズされたエクスペリエンスを提供できます。手動翻訳を選択する場合でも、自動化されたワークフローを選択する場合でも、このツールを使用すると、様々なロケールに合わせてキャンペーンをカスタマイズするプロセスが簡素化されます。言語設定の指定方法、翻訳プロバイダーの設定方法、多言語コンテンツの作成とレビューの管理方法について説明します。新しいロケールの追加からフォールバック環境設定の活用まで、各トピックは、メッセージを効率的にローカライズし、ユーザーの好みの言語でユーザーとつながることができるようにデザインされています。
+Adobe Journey Optimizer の多言語コンテンツ機能を使用すると、複数の言語でコンテンツを作成し、グローバルオーディエンスにパーソナライズされたエクスペリエンスを提供できます。 手動翻訳を選択する場合でも、自動化されたワークフローを選択する場合でも、このツールを使用すると、様々なロケールに合わせてキャンペーンをカスタマイズするプロセスが簡素化されます。 言語設定の指定方法、翻訳プロバイダーの設定方法、多言語コンテンツの作成とレビューの管理方法について説明します。 新しいロケールの追加からフォールバック環境設定の活用まで、各トピックは、メッセージを効率的にローカライズし、ユーザーの好みの言語でユーザーとつながることができるようにデザインされています。
 
 ## 多言語コンテンツの概要
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 多言語コンテンツの基本を学ぶ
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer の多言語コンテンツ機能を使用すると、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 多言語コンテンツのロケールの作成方法
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer の多言語コンテンツ機能を使用すると、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 言語プロバイダーの追加と設定
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer の多言語コンテンツ機能を使用すると、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 手動翻訳を使用した多言語コンテンツの作成
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer の多言語コンテンツ機能を使用すると、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 自動翻訳を使用した多言語コンテンツの作成
 

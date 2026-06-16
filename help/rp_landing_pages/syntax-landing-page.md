@@ -6,21 +6,21 @@ description: 構文
 redpen-status: CREATED_||_2025-08-11_20-10-54
 exl-id: 7f9a648a-5b4b-4ca0-a4db-47e1fa657864
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '295'
+ht-degree: 100%
 
 ---
 
 # 構文{#section-overview}
 
-Adobe Journey Optimizer の高度な式エディターの強力な構文機能を活用して、正確で動的な式を作成し、カスタマージャーニーを微調整できます。演算子を使用して複雑なデータを整理する場合でも、コレクションのクエリを実行する場合でも、条件付きロジックを適用する場合でも、構文ツールを使用すると、実際のシナリオに適応する柔軟性が得られます。データにアクセスするフィールド参照、正確性を確保するデータタイプ、リアルタイムのカスタマイズするジャーニープロパティなどの主要なトピックについて説明します。各概念はその前に説明する概念を基盤に解説され、よりスマートで効果的なジャーニーを作成する包括的なツールキットを作成します。可能性を広げる準備は整いましたか？さあ、始めましょう。
+Adobe Journey Optimizer の高度な式エディターの強力な構文機能を活用して、正確で動的な式を作成し、カスタマージャーニーを微調整できます。 演算子を使用して複雑なデータを整理する場合でも、コレクションのクエリを実行する場合でも、条件付きロジックを適用する場合でも、構文ツールを使用すると、実際のシナリオに適応する柔軟性が得られます。 データにアクセスするフィールド参照、正確性を確保するデータタイプ、リアルタイムのカスタマイズするジャーニープロパティなどの主要なトピックについて説明します。 各概念はその前に説明する概念を基盤に解説され、よりスマートで効果的なジャーニーを作成する包括的なツールキットを作成します。 可能性を広げる準備は整いましたか？ さあ、始めましょう。
 
-## 構文：Adobe Journey Optimizerでの式の作成
+## 構文：Adobe Journey Optimizer の式の作成
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 高度な式エディターの構文
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer の高度な式エディターの強力な構文機能�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 条件命令（if、then、else）
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer の高度な式エディターの強力な構文機能�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 データタイプについて
 
@@ -50,7 +50,7 @@ JSON 形式、シリアル化、例など、式で使用されるデータタイ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 フィールド参照の使用
 
@@ -60,7 +60,7 @@ JSON 形式、シリアル化、例など、式で使用されるデータタイ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 コレクション管理関数
 
@@ -70,7 +70,7 @@ JSON 形式、シリアル化、例など、式で使用されるデータタイ
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/screwdriver-wrench.svg)
 
 高度な式の演算子
 

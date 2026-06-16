@@ -6,23 +6,23 @@ description: 最初の調整されたキャンペーンの開始
 redpen-status: CREATED_||_2025-08-11_20-24-42
 exl-id: 2b553e08-5a20-4efb-895e-c8984c52d6b5
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 92%
+workflow-type: ht
+source-wordcount: '258'
+ht-degree: 100%
 
 ---
 
 # 最初の調整されたキャンペーンの開始{#section-overview}
 
-Adobe Journey Optimizer で最初の調整されたキャンペーンを開始すると、各個人のジャーニーに適応するシームレスでパーソナライズされたカスタマーエクスペリエンスを作成できます。このガイドでは、キャンペーンの設定、直感的な視覚的なキャンバスを使用したフローのデザインから、テスト、開始、モニタリング、パフォーマンスの分析まで、すべての手順について順を追って説明します。アクティビティを調整する方法、タイミングを微調整する方法、実用的なインサイトを活用して結果を最適化する方法について説明します。1 回限りのメッセージをスケジュールする場合でも、高度なリターゲティング戦略を作成する場合でも、各トピックは、自信を高め、マーケティングビジョンを実現できるようにデザインされています。
+Adobe Journey Optimizer で最初の調整されたキャンペーンを開始すると、各個人のジャーニーに適応するシームレスでパーソナライズされたカスタマーエクスペリエンスを作成できます。 このガイドでは、キャンペーンの設定、直感的な視覚的なキャンバスを使用したフローのデザインから、テスト、開始、モニタリング、パフォーマンスの分析まで、すべての手順について順を追って説明します。 アクティビティを調整する方法、タイミングを微調整する方法、実用的なインサイトを活用して結果を最適化する方法について説明します。 1 回限りのメッセージをスケジュールする場合でも、高度なリターゲティング戦略を作成する場合でも、各トピックは、自信を高め、マーケティングビジョンを実現できるようにデザインされています。
 
-## 最初の調整されたキャンペーンを開始する
+## 最初のオーケストレーションキャンペーンの開始
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
-オーケストレーションされたキャンペーンを作成するためのステップバイステップガイド
+オーケストレーションキャンペーンを作成するためのステップバイステップガイド
 
 高度なリターゲティング手法を含む、調整されたキャンペーンを作成、管理、分析する主な手順について説明します。
 
@@ -30,9 +30,9 @@ Adobe Journey Optimizer で最初の調整されたキャンペーンを開始�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
-オーケストレーションされたキャンペーンの作成とスケジュール
+オーケストレーションキャンペーンの作成とスケジュール
 
 キャンペーンのプロパティや実行スケジュールを作成および設定し、最適なパフォーマンスを確保する方法について説明します。
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer で最初の調整されたキャンペーンを開始�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 キャンペーンアクティビティの調整
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer で最初の調整されたキャンペーンを開始�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 キャンペーンの開始と監視
 
@@ -60,9 +60,9 @@ Adobe Journey Optimizer で最初の調整されたキャンペーンを開始�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
-オーケストレーションされたキャンペーンのレポート
+調整されたキャンペーンのレポート
 
 調整されたキャンペーンの詳細なレポートを使用して、実用的なインサイトとパフォーマンス指標にアクセスします。
 

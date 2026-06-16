@@ -6,21 +6,21 @@ description: アクションキャンペーン
 redpen-status: CREATED_||_2025-08-11_20-22-10
 exl-id: 577ba2bf-0491-4e4a-bbf3-0cfb374086c1
 source-git-commit: 4eab2ed1955641c0a28e375fc91a136f06901a80
-workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 84%
+workflow-type: ht
+source-wordcount: '276'
+ht-degree: 100%
 
 ---
 
 # アクションキャンペーン{#section-overview}
 
-Adobe Journey Optimizer のアクションキャンペーンを使用すると、プロモーション、更新、法律上の注意など、バッチコミュニケーション用のターゲットメッセージをタイムリーに配信できます。柔軟性を重視してデザインされたこれらのキャンペーンでは、プロパティの定義、通信チャネルの選択、コンテンツの最適化、オーディエンスの設定、配信のスケジュール設定、キャンペーンのアクティブ化を簡単に行うことができます。多言語コンテンツの作成、バリエーションのテスト、緊急の通知の優先順位付けのいずれであっても、各手順は、影響力のあるパーソナライズされたアウトリーチの作成に向けて作成されます。この節では、プロセスを管理しやすい手順に分類し、計画から実行までについて説明します。これにより、オーディエンスの共感を得られる、結果を推進するキャンペーンを自信を持ってデザインできます。
+Adobe Journey Optimizer のアクションキャンペーンを使用すると、プロモーション、更新、法律上の注意など、バッチコミュニケーション用のターゲットメッセージをタイムリーに配信できます。 柔軟性を重視してデザインされたこれらのキャンペーンでは、プロパティの定義、通信チャネルの選択、コンテンツの最適化、オーディエンスの設定、配信のスケジュール設定、キャンペーンのアクティブ化を簡単に行うことができます。 多言語コンテンツの作成、バリエーションのテスト、緊急の通知の優先順位付けのいずれであっても、各手順は、影響力のあるパーソナライズされたアウトリーチの作成に向けて作成されます。 この節では、プロセスを管理しやすい手順に分類し、計画から実行までについて説明します。これにより、オーディエンスの共感を得られる、結果を推進するキャンペーンを自信を持ってデザインできます。
 
 ## アクションキャンペーンのリソース
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 アクションキャンペーンの作成
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer のアクションキャンペーンを使用すると�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 アクションキャンペーンのプロパティの定義
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer のアクションキャンペーンを使用すると�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 キャンペーンアクションの設定
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer のアクションキャンペーンを使用すると�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 メッセージの最適化の活用
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer のアクションキャンペーンを使用すると�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/pencil-alt.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/pencil-alt.svg)
 
 キャンペーンコンテンツの編集
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer のアクションキャンペーンを使用すると�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
 
 キャンペーンオーディエンスの定義
 
@@ -85,4 +85,4 @@ Adobe Journey Optimizer のアクションキャンペーンを使用すると�
 ## その他のリソース
 
 - **[アクションキャンペーンのスケジュール](../using/campaigns/campaign-schedule.md)** - キャンペーンの開始日と終了日、頻度、チャネル固有のスケジュールを設定します。
-- **[アクションキャンペーンのレビューとアクティベート](../using/campaigns/review-activate-campaign.md)** - ステップバイステップの手順に従って、アクションキャンペーンを検証、レビュー、アクティベートします。
+- **[アクションキャンペーンのレビューとアクティブ化](../using/campaigns/review-activate-campaign.md)** - 手順に従ってアクションキャンペーンを検証、レビューおよびアクティブ化します。

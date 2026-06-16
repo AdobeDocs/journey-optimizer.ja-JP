@@ -6,9 +6,9 @@ description: コンテンツ管理
 redpen-status: CREATED_||_2025-08-12_00-44-43
 exl-id: 159ae1bf-e1bd-48c7-b91b-2ac8bdfffaf2
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '293'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Journey Optimizer のコンテンツ管理機能を使用すると、キ�
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 パーソナライゼーションの追加
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer のコンテンツ管理機能を使用すると、キ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 ランディングページの作成
 
@@ -40,7 +40,7 @@ Adobe Journey Optimizer のコンテンツ管理機能を使用すると、キ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 コンテンツテンプレート
 
@@ -50,7 +50,7 @@ Adobe Journey Optimizer のコンテンツ管理機能を使用すると、キ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 再利用可能なコンテンツフラグメント
 
@@ -60,7 +60,7 @@ Adobe Journey Optimizer のコンテンツ管理機能を使用すると、キ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 動的コンテンツの作成
 
@@ -70,7 +70,7 @@ Adobe Journey Optimizer のコンテンツ管理機能を使用すると、キ�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 クロスソリューションのユースケース
 

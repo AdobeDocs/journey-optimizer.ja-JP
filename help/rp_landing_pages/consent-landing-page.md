@@ -6,23 +6,23 @@ description: 同意を管理
 redpen-status: CREATED_||_2025-08-11_21-19-40
 exl-id: ea8d895d-ec7e-40d9-814d-32135bcb8a2e
 source-git-commit: 0201927f8d9260e8ba1d0db7014d6a7b30d09062
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '278'
-ht-degree: 31%
+ht-degree: 100%
 
 ---
 
 # 同意を管理{#section-overview}
 
-同意の管理は、GDPRなどのプライバシー規制を遵守しながら、オーディエンスとの信頼関係を構築するための鍵となります。 Adobe Journey Optimizerの同意は、[privacy management](../using/privacy/get-started-privacy.md)と並行して機能します。これには、[&#x200B; データリクエスト &#x200B;](../using/privacy/requests.md)および[監査ログ &#x200B;](../using/privacy/audit-logs.md)が含まれます。また、[&#x200B; データガバナンス &#x200B;](../using/action/action-privacy.md)のポリシーが含まれ、機密性の高いフィールドがサードパーティのシステムに書き出されるのを防ぎます。
+同意の管理は、GDPR などのプライバシー規制へのコンプライアンスを確保しながら、オーディエンスとの信頼関係を構築する鍵となります。Adobe Journey Optimizer の同意は、[データリクエスト](../using/privacy/requests.md)や[監査ログ](../using/privacy/audit-logs.md)などの[プライバシー管理](../using/privacy/get-started-privacy.md)と、機密性の高いフィールドがサードパーティシステムにエクスポートされないように保護する[データガバナンス](../using/action/action-privacy.md)ポリシーと連携して動作します。
 
-同意は、次の3つの方法で処理できます。電子メール、SMS、プッシュ通知の購読解除に対する&#x200B;**オプトアウトの設定**、データの使用とマーケティング活動を制御するためにキャンペーンとジャーニーに適用される&#x200B;**同意ポリシー**、顧客が選択した購読トピックとチャネルに基づいてターゲット顧客に対する&#x200B;**環境設定の管理**。 以下のトピックでは、各ステップについて説明します。
+同意の処理方法には、メール、SMS、プッシュ通知の登録解除に関する&#x200B;**オプトアウト環境設定**、データ使用とマーケティングアクションを制御するキャンペーンやカスタマージャーニーに適用される&#x200B;**同意ポリシー**、購読トピックや選択したチャネルに基づいて顧客をターゲットにする&#x200B;**環境設定の管理**&#x200B;の 3 つがあります。以下のトピックでは、各手順を順を追って説明します。
 
 ## 同意を管理
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/shield-halved.svg)
 
 オプトアウトとパーソナライゼーションの同意の管理
 
@@ -32,7 +32,7 @@ ht-degree: 31%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/gear.svg)
 
 同意ポリシーの操作
 
@@ -42,11 +42,11 @@ ht-degree: 31%
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
-顧客のプリファレンスの管理
+顧客の環境設定の管理
 
-同意ポリシーを使用してサブスクリプションのトピックとチャネル設定を管理し、顧客の同意を尊重しながら、顧客の選択に基づいてターゲティングする方法を説明します。
+同意ポリシーを使用して購読トピックとチャネル環境設定を管理し、顧客の同意を適用しながら、顧客の選択に基づいて顧客をターゲットにする方法について説明します。
 
 [顧客の環境設定の管理](../using/action/preference-center.md)
 :::
@@ -55,7 +55,7 @@ ht-degree: 31%
 
 ## その他のリソース
 
-- **[プライバシーの基本を学ぶ](../using/privacy/get-started-privacy.md)** - データリクエストと監査ログを含む、Journey Optimizerでのプライバシー管理の概要。
-- **[データガバナンス](../using/action/action-privacy.md)** - カスタムアクションを通じて、機密性の高いフィールドをサードパーティのシステムに書き出さないようにします。
-- **[メール オプトアウトの管理](../using/email/email-opt-out.md)** - メール固有のオプトアウトと購読解除の処理を設定します。
-- **[モバイルメッセージのオプトアウトの管理](../using/mobile/mobile-opt-out.md)** - SMS/MMS/RCSのオプトアウトと購読解除の処理を設定します。
+- **[プライバシーの基本を学ぶ](../using/privacy/get-started-privacy.md)** - データリクエストと監査ログを含む、Journey Optimizer でのプライバシー管理の概要。
+- **[データガバナンス](../using/action/action-privacy.md)** - カスタムアクションを通じて、機密性の高いフィールドがサードパーティシステムにエクスポートされないように保護します。
+- **[メールオプトアウトの管理](../using/email/email-opt-out.md)** - メール固有のオプトアウトと登録解除処理を設定します。
+- **[モバイルメッセージのオプトアウトの管理](../using/mobile/mobile-opt-out.md)** - SMS／MMS／RCS のオプトアウトと登録解除処理を設定します。

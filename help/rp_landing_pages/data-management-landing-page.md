@@ -6,21 +6,21 @@ description: データ管理
 redpen-status: CREATED_||_2025-08-11_21-06-39
 exl-id: d60bd99c-aa17-4ef0-85a9-384ef21b96da
 source-git-commit: 0a2c384faea70dcbc9b99596740e375d85b2bc64
-workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '261'
+ht-degree: 100%
 
 ---
 
 # データ管理{#section-overview}
 
-Adobe Journey Optimizer のデータ管理を使用すると、柔軟性、セキュリティおよび精度を確保しながらお客様データを管理できます。コンプライアンスを実現するデータ保持、有効期限が切れたレコードの削除、外部で使用する情報の書き出しなどが必要な場合など、これらのツールは、ガバナンスポリシーと技術的ニーズに対応するように設計されています。データ構造を定義するスキーマから分析用のインタラクティブクエリまで、各機能はデータを効果的に整理、アクセスおよび活用する、より大きなエコシステムの一部として機能します。データセットの管理、プラットフォームの統合の有効化、高度なクエリ探索などのトピックを深く掘り下げ、パーソナライゼーションや意思決定の目標に合わせてデータをよりスマートに活用できるようにカスタマイズします。
+Adobe Journey Optimizer のデータ管理を使用すると、柔軟性、セキュリティおよび精度を確保しながらお客様データを管理できます。 コンプライアンスを実現するデータ保持、有効期限が切れたレコードの削除、外部で使用する情報の書き出しなどが必要な場合など、これらのツールは、ガバナンスポリシーと技術的ニーズに対応するように設計されています。 データ構造を定義するスキーマから分析用のインタラクティブクエリまで、各機能はデータを効果的に整理、アクセスおよび活用する、より大きなエコシステムの一部として機能します。 データセットの管理、プラットフォームの統合の有効化、高度なクエリ探索などのトピックを深く掘り下げ、パーソナライゼーションや意思決定の目標に合わせてデータをよりスマートに活用できるようにカスタマイズします。
 
-## データ管理機能
+## データ管理の機能
 
 :::: landing-cards-container
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/book.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/book.svg)
 
 データ管理の基本を学ぶ
 
@@ -30,7 +30,7 @@ Adobe Journey Optimizer の高度なデータ保持、書き出し、削除、�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Adobe Journey Optimizer のスキーマの操作
 
@@ -40,7 +40,7 @@ Adobe Experience Platform のスキーマを理解および管理して、Journe
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/database.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/database.svg)
 
 Journey Optimizer データセット
 
@@ -50,7 +50,7 @@ TTL ルール、書き出し、SQL クエリなど、Adobe Journey Optimizerで�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/bullseye.svg)
 
 Adobe Experience Platform データの使用
 
@@ -60,7 +60,7 @@ Journey Optimizer で Adobe Experience Platform のデータセットを有効�
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/chart-line.svg)
 
 Journey Optimizer のクエリの基本を学ぶ
 
