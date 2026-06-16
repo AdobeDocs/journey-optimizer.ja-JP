@@ -9,7 +9,7 @@ role: User
 level: Beginner
 hide: true
 keywords: adobe journey optimizer, オンボーディング，オンボーディングハブ，ユースケース，動画，チュートリアル，導入の相談，新規ジャーニーの立ち上げ
-source-git-commit: 727d99f93d3fc19848f00ab423ec320a092b357c
+source-git-commit: 7af5076bb9a394110de6400991285ab2be86962d
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 12%
@@ -18,11 +18,16 @@ ht-degree: 12%
 
 # Journey Optimizer オンボーディングハブ {#onboarding-hub}
 
+
 >[!BEGINSHADEBOX]
 
 **このページでは：** Adobe Journey Optimizerをすばやく使い始めます。簡単な手順に従って、最初のエクスペリエンスを配信したり、実際のユースケースを参照したり、厳選されたビデオコンテンツを楽しんだりできます。
 
 >[!ENDSHADEBOX]
+
+<!-- 
+rebuild
+-->
 
 [!DNL Adobe Journey Optimizer]を初めて使用する場合 このハブでは、ゼロから最初のライブ顧客体験を実現するのに役立つリソースを収集します。一般的な目標に関するステップバイステップの指示、可能なことを示す実際のユースケース、厳選されたビデオコンテンツ（チュートリアル、ウォークスルー、実践的な実践）などを利用できます。
 
