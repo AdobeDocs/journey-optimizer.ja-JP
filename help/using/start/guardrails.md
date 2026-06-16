@@ -9,12 +9,21 @@ level: Intermediate
 mini-toc-levels: 2
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 TQID: https://experienceleague.adobe.com/k4DqGogrTZ9QrnqyFGwdgDeUI9ivpOd1iSI0c5comuU
-product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: ad78185d-8f79-40ad-9bad-cbde74af74ee
-subfeature_v2: id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2:
+  - id: d998adac-2f81-400b-a669-d07bb196e4eb
+  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
+subfeature_v2:
+  - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
 source-wordcount: 4489
@@ -197,7 +206,7 @@ Adobe Experience Platform では、API ベースのプロファイルの作成�
 
 >[!TIP]
 >
->**これが意味すること：** デフォルトの300,000 コール/分キャップは、外部エンドポイントがジャーニースループットに圧倒されるのを防ぎます。 エンドポイントがより多くの負荷を処理できる場合は、[Capping API](../configuration/capping.md)または[Throttling API](../configuration/throttling.md)を使用してこの制限を上げることができます。 Journey Optimizerと外部システムの接続方法について詳しくは、[このページ ](../configuration/external-systems.md)を参照してください。 より高い組織制限が必要な場合は、Adobeの担当者にお問い合わせください。
+>**これが意味すること：** デフォルトの300,000 コール/分キャップは、外部エンドポイントがジャーニースループットに圧倒されるのを防ぎます。 エンドポイントがより多くの負荷を処理できる場合は、[Capping API](../configuration/capping.md)または[Throttling API](../configuration/throttling.md)を使用してこの制限を上げることができます。 Journey Optimizerと外部システムの接続方法について詳しくは、[このページ &#x200B;](../configuration/external-systems.md)を参照してください。 より高い組織制限が必要な場合は、Adobeの担当者にお問い合わせください。
 
 ### 補助識別子 {#supplemental}
 
@@ -221,7 +230,7 @@ Adobe Experience Platform では、API ベースのプロファイルの作成�
 
 ジャーニーの処理率とスループット制限について詳しくは、[この節](../building-journeys/entry-management.md#journey-processing-rate)を参照してください。
 
-ストリーミングとバッチオーディエンスの推奨事項やコンポジションのオーディエンス制限など、その他のガードレールは、[このページ ](../building-journeys/audience-qualification-events.md#audience-qualification-guardrails)に記載されています。
+ストリーミングとバッチオーディエンスの推奨事項やコンポジションのオーディエンス制限など、その他のガードレールは、[このページ &#x200B;](../building-journeys/audience-qualification-events.md#audience-qualification-guardrails)に記載されています。
 
 #### キャンペーンアクティビティ {#ac-g}
 
@@ -401,7 +410,7 @@ Journey Optimizerは、キャンペーンで&#x200B;**500 トランザクショ�
 
 ### AI アシスタントのガードレール {#ai-assistant-g}
 
-サポートされているチャネル（電子メール、プッシュ通知、web、SMS）およびパーソナライゼーションエディターの制限を含む、**AI アシスタントによるコンテンツ生成**&#x200B;のガードレールと制限は、[このページ ](../content-management/gs-generative.md#generative-guardrails)に記載されています。
+サポートされているチャネル（電子メール、プッシュ通知、web、SMS）およびパーソナライゼーションエディターの制限を含む、**AI アシスタントによるコンテンツ生成**&#x200B;のガードレールと制限は、[このページ &#x200B;](../content-management/gs-generative.md#generative-guardrails)に記載されています。
 
 ### ランディングページガードレール {#lp-guardrails}
 
