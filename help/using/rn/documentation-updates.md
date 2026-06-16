@@ -8,16 +8,12 @@ topic: Content Management
 role: User
 level: Beginner, Intermediate
 exl-id: 83c8f206-bce3-4cc8-94a3-575ec1d999bc
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: a122a8a609748b46480a9664f1efc5524582deca
 workflow-type: tm+mt
 source-wordcount: 8429
-ht-degree: 85%
+ht-degree: 96%
 
 ---
 
@@ -41,47 +37,47 @@ ht-degree: 85%
 
 ## 2026年5月 {#may-2026}
 
-* 2つの新しい高レベル権限が追加されました。ユーザーがキーレジストリのキーを表示、作成、回転、取り消すことができる&#x200B;**キーレジストリを管理**&#x200B;し、ユーザーがキーレジストリのリストとキーの詳細を表示できる&#x200B;**キーレジストリを表示**&#x200B;します。 [詳細情報](../administration/high-low-permissions.md#administration-permissions)
+* 2 つの新しい高レベル権限が追加されました。**キーレジストリを管理**&#x200B;では、ユーザーがキーレジストリのキーの表示、作成、ローテーション、取り消しを実行できます。**キーレジストリを表示**&#x200B;では、ユーザーがキーレジストリのリストとキーの詳細を表示できます。 [詳細情報](../administration/high-low-permissions.md#administration-permissions)
 
-* メッセージで決定ポリシーを使用&#x200B;**ドキュメントでは、キャンペーンの概要から決定ポリシーの完全な構造を表示し、トラブルシューティングのためにJSON テクニカルサマリーをクリップボードにコピーする方法について説明しています。**&#x200B;[詳細情報](../experience-decisioning/use-decision-policy.md#decision-policy-summary)
+* **メッセージでの決定ポリシーの使用**&#x200B;ドキュメントでは、キャンペーンの概要から決定ポリシーの完全な構造を表示する方法と、トラブルシューティングのために JSON の技術概要をクリップボードにコピーする方法について説明しています。 [詳細情報](../experience-decisioning/use-decision-policy.md#decision-policy-summary)
 
-* レガシーの&#x200B;**意思決定管理** [自動最適化モデル &#x200B;](../offers/ranking/auto-optimization-model.md) ページが、更新された意思決定ドキュメントに合わせて書き換えられました。これには、強化学習の概要、要件と制限、最適化と学習のバランス、Thompson サンプリングの詳細などが含まれます。 [詳細情報](../offers/ranking/auto-optimization-model.md)
+* 従来の&#x200B;**意思決定管理**&#x200B;の[自動最適化モデル](../offers/ranking/auto-optimization-model.md)ページは、強化学習の概要、要件と制限、最適化と学習のバランス、トンプソンサンプリングの詳細など、更新された決定ドキュメントに合わせて書き換えられました。 [詳細情報](../offers/ranking/auto-optimization-model.md)
 
-* **リリースノート** ページがトピックベースのレイアウトで再構築されました。 変更は、変更タイプではなく製品領域でグループ化され、新しい専用の&#x200B;**ユーザビリティの改善** セクションが追加されました。 近日公開されるエントリは、各トピック内で拡張可能なアコーディオンとして表示されます。 [詳細情報](release-notes.md)
+* **リリースノート**&#x200B;ページが、トピックベースのレイアウトで再作成されました。 変更は、変更タイプ別の代わりに製品領域別にグループ化され、新しい専用の&#x200B;**使いやすさの向上**&#x200B;の節が追加されました。 近日リリース予定のエントリは、各トピック内で展開可能なアコーディオンとして表示されます。 [詳細情報](release-notes.md)
 
-* **オーケストレーション キャンペーンのガードレールと制限** ページは、オーケストレーション キャンペーンごとに&#x200B;**チャネルアクティビティ**&#x200B;の制限を文書化するようになりました。 [詳細情報](../orchestrated/guardrails.md#activities-limitations)
+* **オーケストレーションキャンペーンのガードレールと制限**&#x200B;ページに、オーケストレーションキャンペーンごとに&#x200B;**チャネルアクティビティ**&#x200B;の制限が文書化されるようになりました。 [詳細情報](../orchestrated/guardrails.md#activities-limitations)
 
-* サンドボックス間での&#x200B;**Journey Optimizer オブジェクトのコピー**&#x200B;のドキュメントに、**オーケストレーションされたキャンペーン**&#x200B;に関する重要なメモが含まれるようになりました。読み込み後、対象のサンドボックスでキャンペーンを複製し、レポートでフィードバックとトラッキングデータが正しく取得されるようにするために、複製を実行に使用します。 [詳細情報](../configuration/copy-objects-to-sandbox.md#copy-to-sandbox)
+* **サンドボックス間での Journey Optimizer オブジェクトのコピー**&#x200B;ドキュメントに、**オーケストレーションキャンペーン**&#x200B;に関する重要なメモが含まれるようになりました。インポート後、ターゲットサンドボックスでキャンペーンを複製し、レポートでフィードバックとトラッキングデータが正しくキャプチャされることを確保するために複製を実行に使用します。 [詳細情報](../configuration/copy-objects-to-sandbox.md#copy-to-sandbox)
 
-* **主要な用語** ページが見直されました。6つの新しい用語が追加され、新しい&#x200B;**競合と優先順位付けの用語** セクションが導入され、新しい&#x200B;**用語が似ているときに**&#x200B;曖昧さ回避ガイドが4つの一般的に混同される用語ペアに追加されました。 Adobe Experience Platform固有の用語が削除され、Adobe Experience Platform用語集にリンクするメモに置き換えられました。 [詳細情報](../start/terminology.md)
+* **主な用語**&#x200B;ページが刷新されました。6 つの新しい用語が追加され、新しい&#x200B;**競合と優先順位付けの用語**&#x200B;の節が導入され、よく混同される 4 つの用語ペアについて、新しい&#x200B;**用語が類似している場合**&#x200B;の曖昧さを回避するガイドが追加されました。 Adobe Experience Platform 固有の用語は削除され、Adobe Experience Platform 用語集にリンクするメモに置き換えられました。 [詳細情報](../start/terminology.md)
 
-* **ディープリンク** ドキュメントが拡張され、新しい&#x200B;**オーサリングディープリンク** セクションに、メールで使用できる2つのオプション（メールDesigner UIとPersonalization エディターコード）とSMSのURL関数構文の詳細が追加されました。 **SMS メッセージの作成** ページに、コンテンツ作成フローのディープリンク手順が含まれるようになりました。 [詳細情報](../email/deeplinks.md)
+* **ディープリンク**&#x200B;ドキュメントが拡張され、新しい&#x200B;**ディープリンクのオーサリング**&#x200B;の節が追加されました。この節では、メールで使用できる 2 つのオプション（E メールデザイナーの UI とパーソナライゼーションエディターのコード）と、SMS 用の URL 関数構文について説明します。 **SMS メッセージの作成**&#x200B;ページに、コンテンツのオーサリングフローのディープリンク手順が含まれるようになりました。 [詳細情報](../email/deeplinks.md)
 
-* **Url** ヘルパー参照が更新され、Personalization ドキュメントの専用セクションが追加されました。 [詳細情報](../personalization/functions/helpers.md#url)
+* **URL** ヘルパーリファレンスが更新され、パーソナライゼーションドキュメントに専用の節が追加されました。 [詳細情報](../personalization/functions/helpers.md#url)
 
-* **実行メタデータ** ヘルパードキュメントに制限が追加されました。この関数は、インバウンドチャネル（Web、コードベースのエクスペリエンス、アプリ内メッセージ、コンテンツカード）ではサポートされていません。 [詳細情報](../personalization/functions/helpers.md#execution-metadata)
+* **実行メタデータ**&#x200B;ヘルパードキュメントに制限が追加されました。関数は、インバウンドチャネル（Web、コードベースのエクスペリエンス、アプリ内メッセージ、コンテンツカード）ではサポートされていません。 [詳細情報](../personalization/functions/helpers.md#execution-metadata)
 
-* 新しい&#x200B;**Personalization レシピ** ページが追加され、Journey Optimizerの最も一般的なユースケースに、すぐに使用できるパーソナライゼーションパターンが提供されました。 日付と時刻のレシピ（現在の日付の書式設定、有効期限までのカウントダウン、日前の計算、時間のみの表示、週末と平日の検出の比較）、文字列のレシピ（変数の割り当てで`replaceAll`を使用）、条件付きフォールバックレシピ（`isEmpty`を使用した空のフィールドフォールバック）について説明します。 [詳細情報](../personalization/personalization-recipes.md)
+* Journey Optimizer で最も一般的なユースケースに対する、すぐに使用できるパーソナライゼーションパターンを提供する新しい&#x200B;**パーソナライゼーションのレシピ**&#x200B;ページが追加されました。 このページでは、日付と時刻のレシピ（現在の日付の書式設定、有効期限までのカウントダウン、日前計算、時刻のみの表示、週末と平日の検出）、文字列のレシピ（変数割り当てを含む `replaceAll` の使用）、条件付きフォールバックのレシピ（`isEmpty` を使用した空のフィールドのフォールバック）について説明します。 [詳細情報](../personalization/personalization-recipes.md)
 
-* **Personalization構文** ドキュメントが更新され、使用テーブル、リテラル二重引用符のエスケープに関するガイダンス、予約キーワード、ハイフネーション属性キー、および数値イベント IDをカバーする特殊属性キー&#x200B;**セクションの新しい** PQL構文ルールなど、Handlebars （`{{...}}`）とPQL （`{%= ... %}`）構文の違いを明確にする概要が追加されました。 バックティックエスケープに関するメモも修正されました。ハイフネーションされたフィールド名は`{{...}}` ブロックで直接参照できます。バックティック構文のみが失敗します。 [詳細情報](../personalization/personalization-syntax.md)
+* **パーソナライゼーション構文**&#x200B;ドキュメントが更新され、Handlebars（`{{...}}`）と PQL（`{%= ... %}`）構文の違いを明確にする拡張された概要が追加されました。これには、使用テーブルおよびリテラル二重引用符のエスケープに関するガイダンスと、予約キーワード、ハイフネーション処理された属性キー、数値イベント ID を説明する新しい&#x200B;**特殊属性キーの PQL 構文ルール**&#x200B;の節が含まれています。 また、バックティックエスケープに関するメモも修正されました。ハイフネーション処理されたフィールド名は `{{...}}` ブロックで直接参照できます。バックティック構文のみがそこでエラーになります。 [詳細情報](../personalization/personalization-syntax.md)
 
-* **日付時刻関数** ドキュメントは、新しい実例で強化されました。`dateDiff`のカウントダウンパターン、`dayOfWeek`の週末と平日の条件（ルーティングのユースケースにジャーニー条件アクティビティを使用することに関するメモ付き）、`extractHours`と`extractMinutes`を先頭のゼロガードと組み合わせた時間限定の表示パターンです。 [詳細情報](../personalization/functions/dates.md)
+* **日時関数**&#x200B;ドキュメントが強化され、新しい実際の例（`dateDiff` のカウントダウンパターン、`dayOfWeek` の週末と平日の条件（ルーティングのユースケースでジャーニー条件アクティビティを使用する際のメモ付き）、`extractHours` と `extractMinutes` を先頭ゼロガードで組み合わせた時間のみの表示パターン）が追加されました。 [詳細情報](../personalization/functions/dates.md)
 
-* **文字列関数** ドキュメントが更新され、同じテンプレート内の複数の式で再利用するために結果を`{% let %}`変数に割り当てる方法を`replaceAll`の新しい例で示しました。 [詳細情報](../personalization/functions/string.md#replace-all)
+* **文字列関数**&#x200B;ドキュメントが更新され、`replaceAll` の新しい例が追加されました。この例では、結果を `{% let %}` 変数に割り当て、同じテンプレート内の複数の式で再利用する方法が示されています。 [詳細情報](../personalization/functions/string.md#replace-all)
 
-* **配列関数** ドキュメントが更新され、`{{#each}}`はパーソナライゼーションエディターでのみサポートされており、ジャーニー条件アクティビティ内では使用できないことを示すメモを含む、Handlebars `{{#each}}` ブロックヘルパーを文書化した新しい&#x200B;**配列** セクションを繰り返し使用できるようになりました。 [詳細情報](../personalization/functions/arrays-list.md#each-loop)
+* **配列関数**&#x200B;ドキュメントが更新され、Handlebar `{{#each}}` ブロックヘルパーを文書化した新しい&#x200B;**配列の反復処理**&#x200B;の節が追加されました。この節には、`{{#each}}` がパーソナライゼーションエディターでのみサポートされ、ジャーニー条件アクティビティ内では使用できないことを明確に示すメモが含まれています。 [詳細情報](../personalization/functions/arrays-list.md#each-loop)
 
-* **データセットの基本を学ぶ** ページが更新され、システムデータセットセクションに新しい&#x200B;**インバウンド** エントリが追加されました。_AJO インバウンドアクティビティイベントデータセット_。 受信メッセージがこのデータセットに取り込まれる前に、プロファイルに少なくとも1つのメッセージを[!DNL Journey Optimizer]から送信する必要があることを明確にするメモが追加されました。 [詳細情報](../data/get-started-datasets.md#system-datasets)
+* **データセットの基本を学ぶ**&#x200B;ページが更新され、_AJO インバウンドアクティビティイベントデータセット_&#x200B;を文書化したシステムデータセットの節に新しい&#x200B;**インバウンド**&#x200B;エントリが追加されました。 このデータセットに受信メッセージがキャプチャされる前に、プロファイルに [!DNL Journey Optimizer] から送信されたメッセージを 1 つ以上含める必要があることを明確にするメモが追加されました。 [詳細情報](../data/get-started-datasets.md#system-datasets)
 
-* **メッセージの書き出しコンテンツ**&#x200B;のドキュメントが拡張され、**メッセージの書き出しFAQ** （パーソナライズされたコンテンツ、画像とメディア、追跡されたリンク、PII、保持、ユースケースなど）、および&#x200B;**SMSとメール用の書き出されたJSON**&#x200B;の例が追加されました。 [詳細情報](../configuration/message-export.md)
+* **メッセージコンテンツのエクスポート**&#x200B;ドキュメントが拡張され、**メッセージのエクスポートに関する FAQ**（パーソナライズされたコンテンツ、画像とメディア、追跡されたリンク、PII、保持、ユースケースなど）と、SMS およびメール用の&#x200B;**エクスポートされたサンプル JSON** の例が追加されました。 [詳細情報](../configuration/message-export.md)
 
-* 新しい&#x200B;**AJO メッセージ書き出しスキーマ** ページは、AJO メッセージ書き出しデータセットのすべてのフィールドを、書き出された電子メールとSMS ペイロードのデータタイプと階層を含むドキュメントです。 [詳細情報](../configuration/message-export-schema.md)
+* 新しい **AJO メッセージエクスポートスキーマ**&#x200B;ページでは、エクスポートされるメールと SMS ペイロードのデータタイプと階層を含む、AJO メッセージエクスポートデータセットのすべてのフィールドを文書化しています。 [詳細情報](../configuration/message-export-schema.md)
 
-* 新しい&#x200B;**メール内のURLのパーソナライズ** ページが追加され、動的URL パーソナライゼーション、完全/ベース URL パーソナライゼーション、URL トラッキングパラメーターのパーソナライゼーション、主要なガードレールに関するガイダンスが統合されました。 [詳細情報](../email/url-personalization.md)
+* 新しい&#x200B;**メールの URL のパーソナライズ**&#x200B;ページが追加され、動的 URL のパーソナライゼーション、完全／基本 URL のパーソナライゼーション、URL トラッキングパラメーターのパーソナライゼーション、重要なガードレールに関するガイダンスが統合されています。 [詳細情報](../email/url-personalization.md)
 
-* クエリの例ページに新しい&#x200B;**ビジネスルールクエリ** セクションが追加され、特定の日付以降の特定のジャーニーのジャーニー頻度の上限の除外によるすべてのプロファイルの破棄を確認するデータレイククエリが提供されました。 クエリには、`eventCodeReason` フィールドが含まれており、上限に達したか（`CAP_REACHED`）、優先度が低いか（`LOWER_PRIORITY`）が原因でプロファイルが除外されたかどうかを識別します。 [詳細情報](../reports/query-examples.md#business-rules-queries)
+* クエリの例ページに新しい&#x200B;**ビジネスルールクエリ**&#x200B;の節が追加され、特定の日付以降の特定のジャーニーでのジャーニーのフリークエンシーキャップ除外による、すべてのプロファイルの破棄を確認するデータレイククエリが指定されました。 クエリには、プロファイルがキャップに達した（`CAP_REACHED`）または優先度が低い（`LOWER_PRIORITY`）ので除外されたかどうかを特定する `eventCodeReason` フィールドが含まれています。 [詳細情報](../reports/query-examples.md#business-rules-queries)
 
-* ジャーニープロパティパネルの新しい&#x200B;**現在のジャーニーペイロードサイズ** インジケーターを文書化するために、**ジャーニープロパティ** ドキュメントが更新されました。 この読み取り専用フィールドには、設定された制限（2 MBのうち1.5 MBなど）と比較したジャーニーペイロードの現在のサイズが表示され、公開前にジャーニーの複雑さを監視し、サイズに関連する公開エラーを回避するのに役立ちます。 [詳細情報](../building-journeys/journey-properties.md#journey-payload-size)
+* **ジャーニープロパティ**&#x200B;ドキュメントが更新され、ジャーニープロパティパネルの新しい&#x200B;**現在のジャーニーペイロードサイズ**&#x200B;インジケーターが文書化されました。 この読み取り専用フィールドには、設定された制限と比較した現在のジャーニーペイロードのサイズが表示されます（例：2 MB 中 1.5 MB）。これにより、公開前にジャーニーの複雑さを監視し、サイズに関連する公開エラーを回避できます。 [詳細情報](../building-journeys/journey-properties.md#journey-payload-size)
 
 ## 2026年4月 {#april-2026}
 
@@ -97,7 +93,7 @@ ht-degree: 85%
 
 * **オーケストレーションキャンペーンの基本を学ぶ**&#x200B;ページでは、**オーケストレーションキャンペーンの内部とは**&#x200B;でエントリレベルの&#x200B;**オーディエンスの作成／分岐／チャネル A + チャネル B** パターンを文書化し、分岐アクティビティページおよびマーケティングメッセージとトランザクションメッセージページへの相互参照を提供しています。 [詳細情報](../orchestrated/gs-orchestrated-campaigns.md#gs-ms-campaign-inside)
 
-* 高度なHTML エディター&#x200B;**ページを使用した**&#x200B;電子メールコンテンツの編集が、コンテンツ管理セクションからドキュメントの&#x200B;**電子メール** セクションに移動されました。 このページでは、高度な HTML エディターが E メールデザイナーで、メールメッセージとメールコンテンツテンプレートに使用できることを文書化しています。 [詳細情報](../email/email-expert-mode.md)
+* **高度な HTML エディターでのメールコンテンツの編集**&#x200B;ページが、ドキュメントのコンテンツ管理の節から&#x200B;**メール**&#x200B;の節（メールデザインの下）に移動されました。 このページでは、高度な HTML エディターが E メールデザイナーで、メールメッセージとメールコンテンツテンプレートに使用できることを文書化しています。 [詳細情報](../email/email-expert-mode.md)
 
 * **オーケストレーションキャンペーンの開始と監視**&#x200B;ドキュメントが更新され、内部の公開時の実行シーケンスの詳細を説明する新しい節、キャンペーンライフサイクルステータステーブル、公開前チェックリスト、繰り返し以外のキャンペーンの送信確認警告が追加されました。 [詳細情報](../orchestrated/start-monitor-campaigns.md#publication-sequence)
 
@@ -652,7 +648,7 @@ ht-degree: 85%
 * Information has been added regarding the behavior of timeouts on event activities in journeys. When no event is received during the specified timeout period, individuals will continue the journey if no timeout path is defined. [Read more](../building-journeys/general-events.md#events-specific-time)
 * In-app channel configuration prerequisites have been updated with a note about the usage of a custom Dataset preference merge policy. [Read more](../in-app/inapp-configuration.md)
 * More details have been added about how to manipulate collections in a custom action response. [Read more](../action/action-response.md#exp-syntax).
-* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja) has been added to the home page.
+* A link to the [Schema Dictionary for Adobe Journey Optimizer](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html) has been added to the home page.
 * An outdated reference to the AJO Message resource has been removed from the list of resources available in the Audit Log. When an update is done on a message in a journey, a **Journey** log is created. [Read more](../privacy/audit-logs.md)
 * Additional recommendations have been added about the usage of the **Read Audience** activity. [Read more](../building-journeys/read-audience.md#must-read)
 * The Get started with Adobe Experience Platform audiences page has been improved with a list of audience generation methods. [Read more](../audience/about-audiences.md)
@@ -682,7 +678,7 @@ ht-degree: 85%
 * Decision management guardrails have been added to the Guardrails and limitations page. [Read more](../start/guardrails.md#decision-management)
 * The Header parameters section has been updated to reflect how out-of-office notifications and challenge responses are handled (they are received on the **[!UICONTROL Error email]**). [Read more](../email/email-settings.md#email-header)
 * A new section on how to preview and test your content has been created. [Read more](../content-management/preview-test.md)
-* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html?lang=ja){target="_blank"}
+* The Implement single-page applications page has been moved to the Adobe Experience Paltform Web SDK documentation. [Read more](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/ajo/web-spa-implementation.html){target="_blank"}
 * The Capping section has been updated to reflect the label changes relating to offer capping in the Decision management interface. [Read more](../offers/offer-library/add-constraints.md#capping)
 * The Add dynamic content into emails has been updated with details on how to delete a variant. [Read more](../personalization/dynamic-content.md#emails)
 * The example for capping & throttling configurations has been updated. [Read more](../configuration/external-systems.md)
@@ -757,7 +753,7 @@ ht-degree: 85%
 
 ## March 2023 {#march-2023}
 
-* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html?lang=ja)
+* The Journey Optimizer schema dictionary is now available. You will find the complete list of fields and attributes for each schema.  [Read more](https://experienceleague.adobe.com/tools/ajo-schemas/schema-dictionary.html)
 * All new features and improvements coming with [!DNL Journey Optimizer] March '23 release have been detailed in the documentation. [Read more](release-notes.md)
 * Added a step to enable Adobe Analytics events in your journeys. [Read more](../event/about-analytics.md)
 * A new section has been created in the Decision management guide on how to collect offer decisioning feedback in Adobe Experience Platform, including which offers are displayed and how users interact with them. [Read more](../offers/data-collection/data-collection.md)
@@ -885,7 +881,7 @@ ht-degree: 85%
 * The **reactions** event documentation page has been updated. [Read more](../building-journeys/reaction-events.md)
 * Videos for Decision management capabilities have been updated to reflect Journey Optimizer user interface. [Read more](../offers/get-started/starting-offer-decisioning.md)
 * The **Get Started with Datasets** section has been improved to detail how to access and create datasets. [Read more](../data/get-started-datasets.md)
-* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html?lang=ja)
+* Links to help guides and product release notes have been added to the **Adobe Journey Optimizer Documentation** home page. [Read more](https://experienceleague.adobe.com/docs/journey-optimizer.html)
 * The **Create message presets** section now specifies that you cannot proceed with preset creation while the selected IP pool is under edition (**[!UICONTROL Processing]** status) and has never been associated with the selected subdomain. [Read more](../configuration/channel-surfaces.md#subdomains-and-ip-pools)
 * The message presets **URL tracking** section has been updated to reflect minor changes in the user interface. [Read more](../configuration/channel-surfaces.md#url-tracking)
 

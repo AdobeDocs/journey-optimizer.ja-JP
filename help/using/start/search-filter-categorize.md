@@ -9,23 +9,16 @@ role: User
 level: Intermediate
 exl-id: 6151aea2-6a34-4000-ba48-161efe4d94d7
 TQID: https://experienceleague.adobe.com/ViOHdq6ypY2xbYrPrEsYKF4-5CyQV9izbtzhGGOzsF0
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-subfeature_v2:
-  - id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4eb
+subfeature_v2: id: fdac7813-bd56-47ae-9f6d-fa94ad1c5dee
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
 source-wordcount: 829
-ht-degree: 80%
+ht-degree: 96%
 
 ---
 
@@ -53,7 +46,7 @@ Adobe Journey Optimizer インターフェイスから、上部バーの中央�
 
 ## フィルターリスト {#filter-lists}
 
-ほとんどのリストでは、検索バーを使用して特定の項目を検索し、フィルター条件を定義します。 列ヘッダーをクリックして、任意のリストを並べ替えることもできます。 キャンペーンフォルダービューでは、**[!UICONTROL 優先度]**&#x200B;および&#x200B;**[!UICONTROL チャネル設定]**&#x200B;による並べ替えもサポートされています。
+ほとんどのリストでは、検索バーを使用して特定の項目を検索し、フィルター条件を定義します。 また、 列ヘッダーをクリックすると、リストを並べ替えることもできます。 また、キャンペーンフォルダー表示では、**[!UICONTROL 優先度]**&#x200B;と&#x200B;**[!UICONTROL チャネル設定]**&#x200B;による並べ替えもサポートされています。
 
 フィルターにアクセスするには、リストの左上にあるフィルターアイコンをクリックします。 フィルターメニューを使用すると、様々な条件に従って表示される要素をフィルタリングできます。特定のタイプまたはステータスの要素、自分で作成した要素、過去 30 日間に変更された要素のみを表示するように選択できます。 オプションはコンテキストによって異なります。
 
@@ -69,16 +62,16 @@ Adobe Journey Optimizer インターフェイスから、上部バーの中央�
 
 ## 一括アクション {#bulk-actions}
 
-**キャンペーン**、**フラグメント**、**テンプレート**&#x200B;のリストでは、チェックボックスを使用して一度に複数の項目を選択し、画面の下部に表示される一括アクションバーからすべての項目に操作を適用できます。
+**キャンペーン**、**フラグメント**、**テンプレート**&#x200B;のリストでは、チェックボックスを使用して複数の項目を一度に選択し、画面下部に表示される一括アクションバーからすべてに操作を適用できます。
 
-次の操作を使用できます。
+次の操作が使用できます。
 
-* **[!UICONTROL パッケージに追加]** – 選択したアイテムを別のサンドボックスにエクスポートします。 [オブジェクトのエクスポート方法の詳細情報 →](../configuration/copy-objects-to-sandbox.md)
-* **[!UICONTROL フォルダーに移動]** – 選択したアイテムをフォルダーに移動します。
-* **[!UICONTROL タグを編集]** – 選択した項目に割り当てられたタグを編集します。 [タグの使用方法の詳細情報 →](#add-tags)
-* **[!UICONTROL アクセスの管理]** – 選択した項目にアクセスラベルを適用します。 [&#x200B; オブジェクトレベルのアクセス制御の詳細→](../administration/object-based-access.md)
-* **[!UICONTROL アーカイブ]** – 選択したアイテムをアーカイブします。 フラグメントとテンプレートで使用できます。
-* **[!UICONTROL 削除]** – 選択した項目を完全に削除します。 キャンペーンでのみ使用できます。
+* **[!UICONTROL パッケージに追加]** - 選択した項目を別のサンドボックスにエクスポートします。 [オブジェクトのエクスポート方法の詳細情報 →](../configuration/copy-objects-to-sandbox.md)
+* **[!UICONTROL フォルダーに移動]** - 選択した項目をフォルダーに移動します。
+* **[!UICONTROL タグを編集]** - 選択した項目に割り当てられたタグを編集します。 [タグの使用方法の詳細情報 →](#add-tags)
+* **[!UICONTROL アクセス権を管理]** - 選択した項目にアクセスラベルを適用します。 [オブジェクトレベルのアクセス制御（OLAC）の詳細情報 →](../administration/object-based-access.md)
+* **[!UICONTROL アーカイブ]** - 項目をアーカイブします。 フラグメントとテンプレートで使用できます。
+* **[!UICONTROL 削除]** - 選択した項目を完全に削除します。 キャンペーンにのみ使用できます。
 
 ![](assets/bulk-actions-fragments.png)
 
@@ -102,7 +95,7 @@ Journey Optimizer でオーディエンスに意味のあるタグを追加す�
 * [キャンペーン](../campaigns/create-campaign.md)
 * [決定項目](../experience-decisioning/items.md)
 * [フラグメント](../content-management/fragments.md)
-* [ジャーニーフラグ](../building-journeys/journey-fragments.md)
+* [ジャーニーフラグメント](../building-journeys/journey-fragments.md)
 * [ジャーニー](../building-journeys/journey-properties.md)
 * [ランディングページ](../landing-pages/create-lp.md)
 * [サブスクリプションリスト](../landing-pages/subscription-list.md)

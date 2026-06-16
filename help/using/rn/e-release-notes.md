@@ -6,18 +6,13 @@ description: Adobe Journey Optimizer プレリリースノート
 feature: Release Notes
 exl-id: 6e7d1300-8efd-4fdc-90e3-3ccdc3babd2f
 TQID: https://experienceleague.adobe.com/951PJzmmITN1nSUapVomlYnPws9pS0TosI1Gl3R9yL4
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: 53618e9d511215ed90b7666fe161edf9fd72c42b
 workflow-type: tm+mt
 source-wordcount: 1951
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
@@ -28,7 +23,7 @@ Adobe Journey Optimizerでは、新機能、既存の機能の強化、バグ修
 
 ## 26年6月のプレリリースノート {#june-26-rn}
 
-**以下のプレリリースノートの内容は、リリースの公開日まで予告なく変更される場合があります**。 変更が本番環境で公開されると、リンク、スクリーン、更新されたドキュメントが公開されます。 ほとんどの変更はリリース日に配信されますが、一部の変更は後でロールアウトされる場合があります。詳細については、各エントリに記載されている利用可能日を参照してください。
+**以下のプレリリースノートの内容は、リリースの公開日まで予告なく変更される場合があります**。 変更が本番環境で公開されると、リンク、画面、更新済みのドキュメントが公開されます。 ほとんどの変更はリリース日に配信されますが、一部は後でロールアウトされる場合があります。詳しくは、各エントリに一覧表示されている公開日を参照してください。
 
 詳しくは、[Adobe Experience Platform プレリリースノート](https://experienceleague.adobe.com/ja/docs/experience-platform/release-notes/pre-release-notes){target="_blank"}も参照してください。
 
@@ -272,7 +267,7 @@ The following improvement is coming to campaigns in this release.
 
 このリリースでは、設定と管理に次の機能強化が加えられています。
 
-* **データセットがストリーミングモードからバッチモードに移行しています** - AJO Message Feedback Event データセットは、ストリーミングモードから&#x200B;**バッチ取り込みモード**&#x200B;に移行しています。 この変更により、データ取り込みがストリーミング取り込み制限を超えないことが保証されます。 このデータセットをCustomer Journey Analytics レポートで使用する場合や、このデータセットに対してクエリを実行する場合は、最大2時間のデータ遅延が発生すると予想されます。
+* **データセットがストリーミングモードからバッチモードに移行しています** - AJO Message Feedback Event データセットは、ストリーミングモードから&#x200B;**バッチ取り込みモード**&#x200B;に移行しています。 この変更により、データ取り込みがストリーミング取り込み制限を超えないことが確保されます。 このデータセットを Customer Journey Analytics レポートで使用する場合や、このレポートに対してクエリを実行する場合、データ待ち時間が最大 2 時間増加すると予想されます。
 
 +++ 近日公開予定 – **以下の情報は変更される可能性があります**
 
@@ -282,7 +277,7 @@ The following improvement is coming to campaigns in this release.
 
 +++
 
-### ユーザビリティの向上 {#june-26-usability}
+### 使いやすさの向上 {#june-26-usability}
 
 このリリースでは、次の操作性の改善が行われています。
 

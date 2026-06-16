@@ -10,26 +10,15 @@ level: Experienced
 keywords: サブドメイン、ドメイン、メール、DMARC、レコード
 exl-id: 15b10a61-6ecd-4ffa-b1c2-21e862263f6d
 TQID: https://experienceleague.adobe.com/B-gnzjRpmhxELBiXRZxkBvE2yNNgozy-Hed5-k1oaIQ
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: bb359667-ec7d-4d4b-8663-5850fc219d32
-  - id: d556b755-390a-43f0-be32-a08cf6236126
-  - id: fe338112-e2ce-4876-8989-fc4d497613f1
-subfeature_v2:
-  - id: b3a93754-a8b8-46eb-9421-7eccaeeb3dff
-  - id: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721
-  - id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: bb359667-ec7d-4d4b-8663-5850fc219d32id: d556b755-390a-43f0-be32-a08cf6236126id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: e5329d1b-e590-4e24-a3fb-ef3fe0f2c721id: cf64c7f6-7428-4ae5-b158-8df9771f38f4
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 0d9c480cc48c4352e82d1f4624c65fc16a60b959
 workflow-type: tm+mt
 source-wordcount: 493
-ht-degree: 86%
+ht-degree: 93%
 
 ---
 
@@ -58,13 +47,13 @@ Google と Yahoo! は、業界のベストプラクティス実施の一環と�
 
 * 送信サブドメインをアドビに[完全にデリゲート](delegate-subdomain.md#set-up-subdomain)している場合は、以下のオプションのいずれかに従います。
 
-   * ホスティングソリューション **で、デリゲートされたサブドメイン**&#x200B;の親ドメインにDMARCを設定します。
+   * **ホスティングソリューション**のデリゲートされたサブドメインの親ドメインに DMARC を設定します。
 または
    * **[!DNL Journey Optimizer]** 設定ユーザーインターフェイスで、デリゲートされたサブドメインに DMARC を設定します。ホスティングソリューションで追加の作業を行う必要はありません。 [方法についてはこちらを参照](dmarc-record.md#implement-dmarc)
 
 * [CNAME](delegate-subdomain.md#cname-subdomain-setup) を使用して送信サブドメインを設定している場合は、以下のいずれかのオプションに従います。
 
-   * DMARCをサブドメインまたはホスティングソリューション **のサブドメイン**&#x200B;の親ドメインに設定します。
+   * **ホスティングソリューション**のサブドメインまたはサブドメインの親ドメインに DMARC を設定します。
 または
    * **[!DNL Journey Optimizer]** 設定ユーザーインターフェイスで、デリゲートされたサブドメインに DMARC を設定します。 [方法についてはこちらを参照](dmarc-record.md#implement-dmarc)
 

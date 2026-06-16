@@ -9,16 +9,12 @@ hide: true
 role: User
 level: Beginner, Intermediate
 exl-id: 61e6291f-c063-44a0-950c-8bb76de693f2
-feature_v2:
-  - id: a7b2bfc5-be71-4740-b371-76fa6be8df02
-subfeature_v2:
-  - id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794
-  - id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0
-  - id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
+feature_v2: id: a7b2bfc5-be71-4740-b371-76fa6be8df02
+subfeature_v2: id: eac3bd2c-b027-4dfa-80d2-0bd752ae4794id: e437f8db-d1f7-44c0-bdc0-b0a361adc4c0id: c4e1378f-bb85-43a2-8b7c-1623ad3b14b5
 source-git-commit: 9372a9bed5c6da5db33567557944d69af9d56913
 workflow-type: tm+mt
 source-wordcount: 4372
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -125,8 +121,8 @@ ht-degree: 98%
 <tbody>
 <tr>
 <td>
-<p>計算属性を活用すると、直感的なユーザーインターフェイスを介してイベントデータをプロファイル属性に簡単に要約し、行動ベースのセグメンテーション、パーソナライゼーション、アクティベーションを強化できます。この機能を使用すると、計算属性をセルフサービス方式で作成して管理し、セグメンテーション、リアルタイム顧客プロファイルの宛先またはJourney Optimizerで使用できます。<br/><br/>
-さらに、計算属性を利用することで、セグメンテーションやジャーニーのワークフローを簡素化し、適切なエクスペリエンスをシームレスに提供できます。詳しくは、<a href="../audience/computed-attributes.md">詳細ドキュメント </a>を参照してください。</p>
+<p>計算属性により、直感的なユーザーフェイスを通じてイベントデータをプロファイル属性に簡単に要約し、行動ベースのセグメント化、パーソナライゼーション、アクティベーションを強化できます。この機能を使用すると、セルフサービス方式で計算属性を作成、管理し、セグメント化、リアルタイム顧客プロファイルの宛先または Journey Optimizer で使用できます。<br/><br/>
+また、計算属性はセグメント化とジャーニーのワークフローを簡素化し、関連性の高いエクスペリエンスをシームレスに提供するのに役立ちます。詳しくは、<a href="../audience/computed-attributes.md">詳細なドキュメント</a>を参照してください。</p>
 <img src="assets/do-not-localize/computed-attributes.gif">
 </tr>
 </tbody>
@@ -324,7 +320,7 @@ A new option is available in the email surface settings to include email address
 **ジャーニー**
 
 * カスタムアクションで API 呼び出し応答を活用し、これらの応答に基づいてジャーニーを調整できるようになりました。 この機能は現在、ベータ版として使用可能です。 [学習を増やす](../action/action-response.md)。
-* 新しいタイプのシステムアラートが導入されました。カスタムアクションが失敗したときに通知を受け取れるようになりました。[詳細情報](../reports/alerts.md)。
+* 新しいタイプのシステムアラートが導入されました。カスタムアクションが失敗した際に通知を受信できるようになりました。[詳細情報](../reports/alerts.md)。
   <!--* When duplicating a journey, you can now define the name of the journey copy.-->
 
 
@@ -1001,7 +997,7 @@ Note that each widget can be resized and deleted as needed.
 <p>ジャーニーやキャンペーン全体で活用できるスタンドアロンのコンテンツテンプレートを作成し、すばやく再利用できるようになりました。</p> 
 </p>
 <img src="assets/do-not-localize/content-template.gif"/>
-<p><a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html?lang=ja">このビデオ </a>でコンテンツテンプレートを作成、編集、使用する方法を説明します。詳しくは、<a href="../content-management/content-templates.md">詳細ドキュメント </a>を参照してください。
+<p>コンテンツテンプレートの作成、編集、使用方法について詳しくは、<a href="https://experienceleague.adobe.com/docs/journey-optimizer-learn/tutorials/email-channel/content-templates.html?lang=ja">このビデオ</a>をご覧ください。詳しくは、<a href="../content-management/content-templates.md">詳細なドキュメント</a>を参照してください。
 </p>
 </td>
 </tr>

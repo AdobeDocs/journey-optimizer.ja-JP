@@ -9,25 +9,16 @@ level: Intermediate
 mini-toc-levels: 2
 exl-id: 5d59f21c-f76e-45a9-a839-55816e39758a
 TQID: https://experienceleague.adobe.com/k4DqGogrTZ9QrnqyFGwdgDeUI9ivpOd1iSI0c5comuU
-product_v2:
-  - id: cb954087-f4fc-4456-afb9-e939cabcdc79
-feature_v2:
-  - id: d998adac-2f81-400b-a669-d07bb196e4eb
-  - id: ad78185d-8f79-40ad-9bad-cbde74af74ee
-subfeature_v2:
-  - id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: d998adac-2f81-400b-a669-d07bb196e4ebid: ad78185d-8f79-40ad-9bad-cbde74af74ee
+subfeature_v2: id: a6c67b0d-bd3e-4d5d-95a8-882e3709d632
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 46a5a6dc0a3486633a1a71f8bba8a3cd53aaa618
 workflow-type: tm+mt
 source-wordcount: 4489
-ht-degree: 70%
+ht-degree: 72%
 
 ---
 
@@ -74,7 +65,7 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 
 * ジャーニー内のアクティビティの数は&#x200B;**50**&#x200B;に制限されています。 アクティビティの数は、ジャーニーキャンバスの左上に表示されます。
 
-  この制限に近いジャーニーでは、編集と公開のパフォーマンスが低下し、保存または検証のエラーが発生する可能性があります。 この場合、[&#x200B; ジャンプアクティビティ &#x200B;](../building-journeys/jump.md)を使用してジャーニーを小さなサブジャーニーに分割するか、新しいバージョンで再作成します。 アクティビティ制限を増やすことはできません。
+  この制限に近いジャーニーでは、編集と公開のパフォーマンスが低下し、保存または検証のエラーが発生する場合があります。 この場合、[ジャンプアクティビティ](../building-journeys/jump.md)を使用してジャーニーをより小さいサブジャーニーに分割するか、新しいバージョンで再作成します。 アクティビティ制限を増やすことはできません。
 
 * デフォルトでは、1回のライブ/一時停止/ドライ実行ジャーニーの数は&#x200B;**100**&#x200B;に制限されています。 ジャーニーの現在の数は、ジャーニーキャンバスの上に表示されます。
 
@@ -115,7 +106,7 @@ Adobe [!DNL Journey Optimizer] のインターフェイスは、最新バージ�
 * 必要に応じて、ジャーニーをより小さいジャーニーに分割することを考慮します。
 * 組織でより高い制限が必要だと思われる場合は、アドビ担当者にお問い合わせください。
 
-公開前にジャーニーの現在のペイロードサイズを監視するには、ジャーニープロパティパネルの「**[!UICONTROL 現在のジャーニーペイロードサイズ]**」インジケーターを使用します。 [&#x200B; ジャーニーペイロードのサイズを確認する方法について説明します](../building-journeys/journey-properties.md#journey-payload-size)
+公開前にジャーニーの現在のペイロードサイズを監視するには、ジャーニープロパティパネルの&#x200B;**[!UICONTROL 現在のジャーニーペイロードサイズ]**&#x200B;インジケーターを使用します。 [ジャーニーペイロードサイズの確認方法の詳細情報](../building-journeys/journey-properties.md#journey-payload-size)
 
 ### ライセンスパッケージの比較 {#select-package-limitations}
 
@@ -206,7 +197,7 @@ Adobe Experience Platform では、API ベースのプロファイルの作成�
 
 >[!TIP]
 >
->**これが意味すること：** デフォルトの300,000 コール/分キャップは、外部エンドポイントがジャーニースループットに圧倒されるのを防ぎます。 エンドポイントがより多くの負荷を処理できる場合は、[Capping API](../configuration/capping.md)または[Throttling API](../configuration/throttling.md)を使用してこの制限を上げることができます。 Journey Optimizerと外部システムの接続方法について詳しくは、[このページ &#x200B;](../configuration/external-systems.md)を参照してください。 より高い組織制限が必要な場合は、Adobeの担当者にお問い合わせください。
+>**これが意味すること：** デフォルトの300,000 コール/分キャップは、外部エンドポイントがジャーニースループットに圧倒されるのを防ぎます。 エンドポイントがより多くの負荷を処理できる場合は、[Capping API](../configuration/capping.md)または[Throttling API](../configuration/throttling.md)を使用してこの制限を上げることができます。 Journey Optimizerと外部システムの接続方法について詳しくは、[このページ ](../configuration/external-systems.md)を参照してください。 より高い組織制限が必要な場合は、Adobeの担当者にお問い合わせください。
 
 ### 補助識別子 {#supplemental}
 
@@ -230,7 +221,7 @@ Adobe Experience Platform では、API ベースのプロファイルの作成�
 
 ジャーニーの処理率とスループット制限について詳しくは、[この節](../building-journeys/entry-management.md#journey-processing-rate)を参照してください。
 
-ストリーミングとバッチオーディエンスの推奨事項やコンポジションのオーディエンス制限など、その他のガードレールは、[このページ &#x200B;](../building-journeys/audience-qualification-events.md#audience-qualification-guardrails)に記載されています。
+ストリーミングとバッチオーディエンスの推奨事項やコンポジションのオーディエンス制限など、その他のガードレールは、[このページ ](../building-journeys/audience-qualification-events.md#audience-qualification-guardrails)に記載されています。
 
 #### キャンペーンアクティビティ {#ac-g}
 
@@ -306,7 +297,7 @@ Adobe Experience Platform では、API ベースのプロファイルの作成�
 
 特定のガードレールは、**ジャーニードライラン**&#x200B;に適用されます。これには、エンゲージ可能なプロファイルとライブジャーニーの割り当て量のカウントが含まれます。 詳しくは、[このページ](../building-journeys/journey-dry-run.md#journey-dry-run-limitations)を参照してください。
 
-#### ジャーニーフラグ {#fragments-journey-g}
+#### ジャーニーフラグメント {#fragments-journey-g}
 
 特定のガードレールは、**ジャーニーフラグメント**&#x200B;に適用されます。これには、1つのフラグメント **につき最大** 20個のノードと、1つのサンドボックス **につき** 200個のアクティブフラグメントが含まれます。 詳しくは、[このページ](../building-journeys/journey-fragments.md#guardrails)を参照してください。
 
@@ -410,7 +401,7 @@ Journey Optimizerは、キャンペーンで&#x200B;**500 トランザクショ�
 
 ### AI アシスタントのガードレール {#ai-assistant-g}
 
-サポートされているチャネル（電子メール、プッシュ通知、web、SMS）およびパーソナライゼーションエディターの制限を含む、**AI アシスタントによるコンテンツ生成**&#x200B;のガードレールと制限は、[このページ &#x200B;](../content-management/gs-generative.md#generative-guardrails)に記載されています。
+サポートされているチャネル（電子メール、プッシュ通知、web、SMS）およびパーソナライゼーションエディターの制限を含む、**AI アシスタントによるコンテンツ生成**&#x200B;のガードレールと制限は、[このページ ](../content-management/gs-generative.md#generative-guardrails)に記載されています。
 
 ### ランディングページガードレール {#lp-guardrails}
 
